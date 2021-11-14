@@ -5,60 +5,124 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇸🇰_SK_斯洛伐克_1', server: 185.76.8.218, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: '🇳🇱_NL_荷兰_2', server: 89.46.223.244, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: 'v2rayse_🇩🇪_DE_德国_1', server: 82.102.16.102, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 'v2rayse_🇧🇪_BE_比利时_1', server: 194.110.115.84, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_1', server: 185.76.8.218, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_2', server: 185.76.8.218, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 'v2rayse_🇩🇪_DE_德国_2', server: 82.102.16.102, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_3', server: 185.76.8.218, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_4', server: 185.76.8.218, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_5', server: 185.76.8.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'v2rayse_🇩🇪_DE_德国_3', server: 82.102.16.102, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_6', server: 185.76.8.218, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇰_SK_斯洛伐克_1
-      - 🇳🇱_NL_荷兰_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇰_SK_斯洛伐克_1
-      - 🇳🇱_NL_荷兰_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇰_SK_斯洛伐克_1
-      - 🇳🇱_NL_荷兰_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇰_SK_斯洛伐克_1
-      - 🇳🇱_NL_荷兰_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇰_SK_斯洛伐克_1
-      - 🇳🇱_NL_荷兰_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇰_SK_斯洛伐克_1
-      - 🇳🇱_NL_荷兰_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇰_SK_斯洛伐克_1
-      - 🇳🇱_NL_荷兰_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +138,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇰_SK_斯洛伐克_1
-      - 🇳🇱_NL_荷兰_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
