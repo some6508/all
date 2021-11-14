@@ -1,3 +1,4 @@
+ls -A `pwd`/*
 
 function _CURL() {
 unset url
