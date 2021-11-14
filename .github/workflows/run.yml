@@ -1,0 +1,45 @@
+
+name: all
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+#      - name: 安装curl
+#        run: |
+#          brew install curl
+#          curl --version
+
+      - name: 运行脚本
+        run: bash ./.github/ccaeo.sh
+
+      - name: 设置身份
+        run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions"
+
+      - name: 上传信息
+        run: |
+          git add .
+          git commit -m "$(date '+%Y年%m月%d日·%H点%M分%S秒.%3N毫秒')" -a
+
+      - name: 开始上传
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
