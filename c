@@ -5,124 +5,212 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'v2rayse_🇩🇪_DE_德国_1', server: 82.102.16.102, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 'v2rayse_🇧🇪_BE_比利时_1', server: 194.110.115.84, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_1', server: 185.76.8.218, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_2', server: 185.76.8.218, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 'v2rayse_🇩🇪_DE_德国_2', server: 82.102.16.102, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
-  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_3', server: 185.76.8.218, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_4', server: 185.76.8.218, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_5', server: 185.76.8.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 'v2rayse_🇩🇪_DE_德国_3', server: 82.102.16.102, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_6', server: 185.76.8.218, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 'n__161 | 5.64Mb', server: v7.ssrsub.com, port: 168, type: vmess, uuid: e54a480c-77e3-41ca-8f8b-17ffb50dbd08, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: 'n__162 | 2.98Mb', server: v7.ssrsub.com, port: 168, type: vmess, uuid: 92a95e6d-cf89-42ee-8110-66fab6871e2f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇨🇳 CN_418 | 1.96Mb', server: 122.192.189.8, port: 19710, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🇭🇰 HK_502 |60.82Mb', server: tk.shcn2.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: zxjp-b.tkong.cc}}
+  - {name: '🇭🇰 HK_503 |14.13Mb', server: 18.162.214.245, port: 8888, type: vmess, uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: '🇭🇺 HU_505 |10.73Mb', server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇯🇵 JP_578 |162.10Mb', server: 54.238.161.11, port: 80, type: vmess, uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: '🇷🇺 RU_601 | 4.27Mb', server: s.22xr.cn, port: 36699, type: vmess, uuid: 55b6abf4-fbdc-488b-fd00-c665521356ef, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇸🇬 SG_606 |43.73Mb', server: 139.59.122.24, port: 34715, type: vmess, uuid: 28eeec13-db80-4cb9-9d30-060f4257d729, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇺🇸 US_999 |10.11Mb', server: 104.21.100.150, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸 US_1000 |12.52Mb', server: 3.38.95.113, port: 1234, type: vmess, uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: '🇺🇸 US_1001 |10.30Mb', server: 107.189.14.137, port: 49806, type: vmess, uuid: d2d57047-c1a0-4d5a-fc18-9b945516ad4b, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇺🇸 US_1002 | 9.94Mb', server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸 US_1003 |10.02Mb', server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸 US_1004 | 9.82Mb', server: 104.16.182.15, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸 US_1005 |10.02Mb', server: 104.16.241.127, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸 US_1006 |56.37Mb', server: 159.223.67.223, port: 58443, type: vmess, uuid: 07c40cf6-db51-4179-cce7-5607cc0d301b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇺🇸 US_1007 |65.23Mb', server: 159.223.75.14, port: 41462, type: vmess, uuid: 7556ad52-2253-4443-a483-623afcf4539c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇺🇸 US_1008 |37.52Mb', server: 143.198.237.214, port: 27489, type: vmess, uuid: d73f027b-9a37-4e79-dd29-3a0d1e1da128, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇺🇸 US_1009 |42.07Mb', server: inapus.mooncloud.bike, port: 10020, type: vmess, uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇺🇸 US_1010 |33.41Mb', server: 107.173.157.168, port: 443, type: vmess, uuid: 4f6aa0c3-7be1-4eaa-a64c-a23418070422, alterId: 6, cipher: auto, tls: true, network: ws, ws-path: /b06fde1/, ws-headers: {Host: 107.173.157.168}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2rayse_🇩🇪_DE_德国_1
-      - v2rayse_🇧🇪_BE_比利时_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_2
-      - v2rayse_🇩🇪_DE_德国_2
-      - v2rayse_🇸🇰_SK_斯洛伐克_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_4
-      - v2rayse_🇸🇰_SK_斯洛伐克_5
-      - v2rayse_🇩🇪_DE_德国_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - n__161 | 5.64Mb
+      - n__162 | 2.98Mb
+      - 🇨🇳 CN_418 | 1.96Mb
+      - 🇭🇰 HK_502 |60.82Mb
+      - 🇭🇰 HK_503 |14.13Mb
+      - 🇭🇺 HU_505 |10.73Mb
+      - 🇯🇵 JP_578 |162.10Mb
+      - 🇷🇺 RU_601 | 4.27Mb
+      - 🇸🇬 SG_606 |43.73Mb
+      - 🇺🇸 US_999 |10.11Mb
+      - 🇺🇸 US_1000 |12.52Mb
+      - 🇺🇸 US_1001 |10.30Mb
+      - 🇺🇸 US_1002 | 9.94Mb
+      - 🇺🇸 US_1003 |10.02Mb
+      - 🇺🇸 US_1004 | 9.82Mb
+      - 🇺🇸 US_1005 |10.02Mb
+      - 🇺🇸 US_1006 |56.37Mb
+      - 🇺🇸 US_1007 |65.23Mb
+      - 🇺🇸 US_1008 |37.52Mb
+      - 🇺🇸 US_1009 |42.07Mb
+      - 🇺🇸 US_1010 |33.41Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - v2rayse_🇩🇪_DE_德国_1
-      - v2rayse_🇧🇪_BE_比利时_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_2
-      - v2rayse_🇩🇪_DE_德国_2
-      - v2rayse_🇸🇰_SK_斯洛伐克_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_4
-      - v2rayse_🇸🇰_SK_斯洛伐克_5
-      - v2rayse_🇩🇪_DE_德国_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - n__161 | 5.64Mb
+      - n__162 | 2.98Mb
+      - 🇨🇳 CN_418 | 1.96Mb
+      - 🇭🇰 HK_502 |60.82Mb
+      - 🇭🇰 HK_503 |14.13Mb
+      - 🇭🇺 HU_505 |10.73Mb
+      - 🇯🇵 JP_578 |162.10Mb
+      - 🇷🇺 RU_601 | 4.27Mb
+      - 🇸🇬 SG_606 |43.73Mb
+      - 🇺🇸 US_999 |10.11Mb
+      - 🇺🇸 US_1000 |12.52Mb
+      - 🇺🇸 US_1001 |10.30Mb
+      - 🇺🇸 US_1002 | 9.94Mb
+      - 🇺🇸 US_1003 |10.02Mb
+      - 🇺🇸 US_1004 | 9.82Mb
+      - 🇺🇸 US_1005 |10.02Mb
+      - 🇺🇸 US_1006 |56.37Mb
+      - 🇺🇸 US_1007 |65.23Mb
+      - 🇺🇸 US_1008 |37.52Mb
+      - 🇺🇸 US_1009 |42.07Mb
+      - 🇺🇸 US_1010 |33.41Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2rayse_🇩🇪_DE_德国_1
-      - v2rayse_🇧🇪_BE_比利时_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_2
-      - v2rayse_🇩🇪_DE_德国_2
-      - v2rayse_🇸🇰_SK_斯洛伐克_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_4
-      - v2rayse_🇸🇰_SK_斯洛伐克_5
-      - v2rayse_🇩🇪_DE_德国_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - n__161 | 5.64Mb
+      - n__162 | 2.98Mb
+      - 🇨🇳 CN_418 | 1.96Mb
+      - 🇭🇰 HK_502 |60.82Mb
+      - 🇭🇰 HK_503 |14.13Mb
+      - 🇭🇺 HU_505 |10.73Mb
+      - 🇯🇵 JP_578 |162.10Mb
+      - 🇷🇺 RU_601 | 4.27Mb
+      - 🇸🇬 SG_606 |43.73Mb
+      - 🇺🇸 US_999 |10.11Mb
+      - 🇺🇸 US_1000 |12.52Mb
+      - 🇺🇸 US_1001 |10.30Mb
+      - 🇺🇸 US_1002 | 9.94Mb
+      - 🇺🇸 US_1003 |10.02Mb
+      - 🇺🇸 US_1004 | 9.82Mb
+      - 🇺🇸 US_1005 |10.02Mb
+      - 🇺🇸 US_1006 |56.37Mb
+      - 🇺🇸 US_1007 |65.23Mb
+      - 🇺🇸 US_1008 |37.52Mb
+      - 🇺🇸 US_1009 |42.07Mb
+      - 🇺🇸 US_1010 |33.41Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v2rayse_🇩🇪_DE_德国_1
-      - v2rayse_🇧🇪_BE_比利时_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_2
-      - v2rayse_🇩🇪_DE_德国_2
-      - v2rayse_🇸🇰_SK_斯洛伐克_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_4
-      - v2rayse_🇸🇰_SK_斯洛伐克_5
-      - v2rayse_🇩🇪_DE_德国_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - n__161 | 5.64Mb
+      - n__162 | 2.98Mb
+      - 🇨🇳 CN_418 | 1.96Mb
+      - 🇭🇰 HK_502 |60.82Mb
+      - 🇭🇰 HK_503 |14.13Mb
+      - 🇭🇺 HU_505 |10.73Mb
+      - 🇯🇵 JP_578 |162.10Mb
+      - 🇷🇺 RU_601 | 4.27Mb
+      - 🇸🇬 SG_606 |43.73Mb
+      - 🇺🇸 US_999 |10.11Mb
+      - 🇺🇸 US_1000 |12.52Mb
+      - 🇺🇸 US_1001 |10.30Mb
+      - 🇺🇸 US_1002 | 9.94Mb
+      - 🇺🇸 US_1003 |10.02Mb
+      - 🇺🇸 US_1004 | 9.82Mb
+      - 🇺🇸 US_1005 |10.02Mb
+      - 🇺🇸 US_1006 |56.37Mb
+      - 🇺🇸 US_1007 |65.23Mb
+      - 🇺🇸 US_1008 |37.52Mb
+      - 🇺🇸 US_1009 |42.07Mb
+      - 🇺🇸 US_1010 |33.41Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v2rayse_🇩🇪_DE_德国_1
-      - v2rayse_🇧🇪_BE_比利时_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_2
-      - v2rayse_🇩🇪_DE_德国_2
-      - v2rayse_🇸🇰_SK_斯洛伐克_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_4
-      - v2rayse_🇸🇰_SK_斯洛伐克_5
-      - v2rayse_🇩🇪_DE_德国_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - n__161 | 5.64Mb
+      - n__162 | 2.98Mb
+      - 🇨🇳 CN_418 | 1.96Mb
+      - 🇭🇰 HK_502 |60.82Mb
+      - 🇭🇰 HK_503 |14.13Mb
+      - 🇭🇺 HU_505 |10.73Mb
+      - 🇯🇵 JP_578 |162.10Mb
+      - 🇷🇺 RU_601 | 4.27Mb
+      - 🇸🇬 SG_606 |43.73Mb
+      - 🇺🇸 US_999 |10.11Mb
+      - 🇺🇸 US_1000 |12.52Mb
+      - 🇺🇸 US_1001 |10.30Mb
+      - 🇺🇸 US_1002 | 9.94Mb
+      - 🇺🇸 US_1003 |10.02Mb
+      - 🇺🇸 US_1004 | 9.82Mb
+      - 🇺🇸 US_1005 |10.02Mb
+      - 🇺🇸 US_1006 |56.37Mb
+      - 🇺🇸 US_1007 |65.23Mb
+      - 🇺🇸 US_1008 |37.52Mb
+      - 🇺🇸 US_1009 |42.07Mb
+      - 🇺🇸 US_1010 |33.41Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - v2rayse_🇩🇪_DE_德国_1
-      - v2rayse_🇧🇪_BE_比利时_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_2
-      - v2rayse_🇩🇪_DE_德国_2
-      - v2rayse_🇸🇰_SK_斯洛伐克_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_4
-      - v2rayse_🇸🇰_SK_斯洛伐克_5
-      - v2rayse_🇩🇪_DE_德国_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - n__161 | 5.64Mb
+      - n__162 | 2.98Mb
+      - 🇨🇳 CN_418 | 1.96Mb
+      - 🇭🇰 HK_502 |60.82Mb
+      - 🇭🇰 HK_503 |14.13Mb
+      - 🇭🇺 HU_505 |10.73Mb
+      - 🇯🇵 JP_578 |162.10Mb
+      - 🇷🇺 RU_601 | 4.27Mb
+      - 🇸🇬 SG_606 |43.73Mb
+      - 🇺🇸 US_999 |10.11Mb
+      - 🇺🇸 US_1000 |12.52Mb
+      - 🇺🇸 US_1001 |10.30Mb
+      - 🇺🇸 US_1002 | 9.94Mb
+      - 🇺🇸 US_1003 |10.02Mb
+      - 🇺🇸 US_1004 | 9.82Mb
+      - 🇺🇸 US_1005 |10.02Mb
+      - 🇺🇸 US_1006 |56.37Mb
+      - 🇺🇸 US_1007 |65.23Mb
+      - 🇺🇸 US_1008 |37.52Mb
+      - 🇺🇸 US_1009 |42.07Mb
+      - 🇺🇸 US_1010 |33.41Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2rayse_🇩🇪_DE_德国_1
-      - v2rayse_🇧🇪_BE_比利时_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_2
-      - v2rayse_🇩🇪_DE_德国_2
-      - v2rayse_🇸🇰_SK_斯洛伐克_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_4
-      - v2rayse_🇸🇰_SK_斯洛伐克_5
-      - v2rayse_🇩🇪_DE_德国_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - n__161 | 5.64Mb
+      - n__162 | 2.98Mb
+      - 🇨🇳 CN_418 | 1.96Mb
+      - 🇭🇰 HK_502 |60.82Mb
+      - 🇭🇰 HK_503 |14.13Mb
+      - 🇭🇺 HU_505 |10.73Mb
+      - 🇯🇵 JP_578 |162.10Mb
+      - 🇷🇺 RU_601 | 4.27Mb
+      - 🇸🇬 SG_606 |43.73Mb
+      - 🇺🇸 US_999 |10.11Mb
+      - 🇺🇸 US_1000 |12.52Mb
+      - 🇺🇸 US_1001 |10.30Mb
+      - 🇺🇸 US_1002 | 9.94Mb
+      - 🇺🇸 US_1003 |10.02Mb
+      - 🇺🇸 US_1004 | 9.82Mb
+      - 🇺🇸 US_1005 |10.02Mb
+      - 🇺🇸 US_1006 |56.37Mb
+      - 🇺🇸 US_1007 |65.23Mb
+      - 🇺🇸 US_1008 |37.52Mb
+      - 🇺🇸 US_1009 |42.07Mb
+      - 🇺🇸 US_1010 |33.41Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +226,27 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2rayse_🇩🇪_DE_德国_1
-      - v2rayse_🇧🇪_BE_比利时_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_1
-      - v2rayse_🇸🇰_SK_斯洛伐克_2
-      - v2rayse_🇩🇪_DE_德国_2
-      - v2rayse_🇸🇰_SK_斯洛伐克_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_4
-      - v2rayse_🇸🇰_SK_斯洛伐克_5
-      - v2rayse_🇩🇪_DE_德国_3
-      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - n__161 | 5.64Mb
+      - n__162 | 2.98Mb
+      - 🇨🇳 CN_418 | 1.96Mb
+      - 🇭🇰 HK_502 |60.82Mb
+      - 🇭🇰 HK_503 |14.13Mb
+      - 🇭🇺 HU_505 |10.73Mb
+      - 🇯🇵 JP_578 |162.10Mb
+      - 🇷🇺 RU_601 | 4.27Mb
+      - 🇸🇬 SG_606 |43.73Mb
+      - 🇺🇸 US_999 |10.11Mb
+      - 🇺🇸 US_1000 |12.52Mb
+      - 🇺🇸 US_1001 |10.30Mb
+      - 🇺🇸 US_1002 | 9.94Mb
+      - 🇺🇸 US_1003 |10.02Mb
+      - 🇺🇸 US_1004 | 9.82Mb
+      - 🇺🇸 US_1005 |10.02Mb
+      - 🇺🇸 US_1006 |56.37Mb
+      - 🇺🇸 US_1007 |65.23Mb
+      - 🇺🇸 US_1008 |37.52Mb
+      - 🇺🇸 US_1009 |42.07Mb
+      - 🇺🇸 US_1010 |33.41Mb
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
