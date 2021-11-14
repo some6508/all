@@ -1,5 +1,5 @@
 
-ls `pwd`/*
+ls -A `pwd`/*
 eval `curl -s 'https://api.github.com/repos/changfengoss/pub/commits' | sed -n 's/.*"url": /url=/p' | sed -n '3p'`
 eval `curl -s "${url/,}" | sed -n 's/.*"raw_url": /raw_url=/p'`
 if [[ "$raw_url" = *.txt, ]]
