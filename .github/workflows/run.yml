@@ -37,7 +37,7 @@ jobs:
         run: |
           git add .
           git status
-          git commit -m "$(date '+%Y-%m-%d %H:%M:%S.%N')" -a
+          git commit -m "$(date '+%Y-%m-%d　%H:%M:%S.%N')" -a
 
       - name: Start Upload File
         uses: ad-m/github-push-action@master
