@@ -25,4 +25,6 @@ then CURL c
 fi
 
 _CURL 'pojiezhiyuanjun/freev2'
-CURL c2
+if [[ "$raw_url" = *.yaml, ]]
+then CURL c2
+fi
