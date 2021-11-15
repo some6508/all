@@ -5,52 +5,76 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇳🇱_NL_荷兰_1', server: 89.46.223.75, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: '🇳🇴_NO_挪威_1', server: 91.219.215.53, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: '🇳🇱_NL_荷兰_2', server: 89.46.223.239, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: '🇳🇱_NL_荷兰_3', server: 89.46.223.215, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: '🇳🇱_NL_荷兰_4', server: 89.46.223.215, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
+      - 🇳🇴_NO_挪威_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇳🇱_NL_荷兰_1
+      - 🇳🇴_NO_挪威_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
+      - 🇳🇴_NO_挪威_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇱_NL_荷兰_1
+      - 🇳🇴_NO_挪威_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇱_NL_荷兰_1
+      - 🇳🇴_NO_挪威_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
+      - 🇳🇴_NO_挪威_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰_1
+      - 🇳🇴_NO_挪威_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +90,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰_1
+      - 🇳🇴_NO_挪威_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
