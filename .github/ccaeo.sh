@@ -20,12 +20,12 @@ unset raw_url
 _CURL 'changfengoss/pub'
 if [[ "$raw_url" = *.txt, ]]
 then CURL v
-elif [[ "$raw_url" = *.yaml, ]]
+elif [[ "$raw_url" = *.y*ml, ]]
 then CURL c
 fi
 
 _CURL 'pojiezhiyuanjun/freev2'
-if [[ "$raw_url" = *.yaml, ]]
+if [[ "$raw_url" = *.y*ml, ]]
 then CURL c2
 fi
 sed -i "/^|20/c|$(date '+%Y-%m-%d %H:%M:%S.%N')|" ./README.md
