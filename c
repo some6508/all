@@ -5,68 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'AU 🇦🇺 Adelaide_1', server: 45.248.79.70, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 'AU 🇦🇺 Brisbane_2', server: 144.48.39.133, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 'AU 🇦🇺 Melbourne_3', server: 103.192.80.245, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 'v2rayse_🇭🇰_HK_香港_1', server: vip345.xyz, port: 40224, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: vip345.xyz}}
+  - {name: 'v2rayse_🇺🇸_US_美国_1', server: 104.16.149.48, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AU 🇦🇺 Adelaide_1
-      - AU 🇦🇺 Brisbane_2
-      - AU 🇦🇺 Melbourne_3
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AU 🇦🇺 Adelaide_1
-      - AU 🇦🇺 Brisbane_2
-      - AU 🇦🇺 Melbourne_3
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AU 🇦🇺 Adelaide_1
-      - AU 🇦🇺 Brisbane_2
-      - AU 🇦🇺 Melbourne_3
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - AU 🇦🇺 Adelaide_1
-      - AU 🇦🇺 Brisbane_2
-      - AU 🇦🇺 Melbourne_3
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - AU 🇦🇺 Adelaide_1
-      - AU 🇦🇺 Brisbane_2
-      - AU 🇦🇺 Melbourne_3
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - AU 🇦🇺 Adelaide_1
-      - AU 🇦🇺 Brisbane_2
-      - AU 🇦🇺 Melbourne_3
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AU 🇦🇺 Adelaide_1
-      - AU 🇦🇺 Brisbane_2
-      - AU 🇦🇺 Melbourne_3
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,9 +74,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AU 🇦🇺 Adelaide_1
-      - AU 🇦🇺 Brisbane_2
-      - AU 🇦🇺 Melbourne_3
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
