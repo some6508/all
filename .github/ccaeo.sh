@@ -28,3 +28,4 @@ _CURL 'pojiezhiyuanjun/freev2'
 if [[ "$raw_url" = *.yaml, ]]
 then CURL c2
 fi
+sed -i "/^|20/c|$(date '+%Y-%m-%d %H:%M:%S.%N')|" ./README.md
