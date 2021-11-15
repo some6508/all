@@ -1,5 +1,3 @@
-set -xo pipefail
-export PS4='$LINENO: '
 
 ls -A `pwd`/*
 
