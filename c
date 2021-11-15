@@ -5,60 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'v2rayse_🇭🇰_HK_香港_1', server: vip345.xyz, port: 40224, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: vip345.xyz}}
-  - {name: 'v2rayse_🇺🇸_US_美国_1', server: 104.16.149.48, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇩🇪_DE_德国_1', server: 82.102.16.102, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: '🇳🇱_NL_荷兰_2', server: 89.46.223.242, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2rayse_🇭🇰_HK_香港_1
-      - v2rayse_🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国_1
+      - 🇳🇱_NL_荷兰_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - v2rayse_🇭🇰_HK_香港_1
-      - v2rayse_🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国_1
+      - 🇳🇱_NL_荷兰_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2rayse_🇭🇰_HK_香港_1
-      - v2rayse_🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国_1
+      - 🇳🇱_NL_荷兰_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v2rayse_🇭🇰_HK_香港_1
-      - v2rayse_🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国_1
+      - 🇳🇱_NL_荷兰_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v2rayse_🇭🇰_HK_香港_1
-      - v2rayse_🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国_1
+      - 🇳🇱_NL_荷兰_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - v2rayse_🇭🇰_HK_香港_1
-      - v2rayse_🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国_1
+      - 🇳🇱_NL_荷兰_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2rayse_🇭🇰_HK_香港_1
-      - v2rayse_🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国_1
+      - 🇳🇱_NL_荷兰_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +74,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2rayse_🇭🇰_HK_香港_1
-      - v2rayse_🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国_1
+      - 🇳🇱_NL_荷兰_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
