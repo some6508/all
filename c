@@ -5,372 +5,1436 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Relay_🇭🇰HK-🇺🇸US_2640', server: 13.75.52.74, port: 24325, type: vmess, uuid: 599a50f5-e30d-493e-be1f-0f8ffb2b5123, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '欧洲欢迎订阅_2', server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: '欧洲欢迎订阅_3', server: 107.150.94.12, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: '欧洲欢迎订阅_4', server: 107.150.94.12, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: '欧洲欢迎订阅_5', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国欢迎订阅_6', server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: '美国欢迎订阅_7', server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: '美国欢迎订阅_8', server: 198.8.92.84, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: '欧洲欢迎订阅_9', server: 185.108.106.175, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: '香港欢迎订阅_10', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '欧洲欢迎订阅_11', server: v8.ssrsub.com, port: 8443, type: vmess, uuid: e54a480c-77e3-41ca-8f8b-17ffb50dbd08, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '欧洲欢迎订阅_12', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '欧洲欢迎订阅_13', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '欧洲欢迎订阅_14', server: t1.ssrsub.com, port: 1033, type: trojan, password: e54a480c-77e3-41ca-8f8b-17ffb50dbd08, sni: t1.ssrsub.com}
-  - {name: '🇳🇱NL_4055', server: 132.226.172.134, port: 37509, type: vmess, uuid: 7a44d386-e7eb-41d4-92ce-ffbfb32b7957, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '美国欢迎订阅_16', server: 143.198.237.214, port: 27489, type: vmess, uuid: d73f027b-9a37-4e79-dd29-3a0d1e1da128, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '美国欢迎订阅_17', server: 159.223.75.43, port: 56776, type: vmess, uuid: 2a1620a3-dc12-4d2e-faa9-809028d3e191, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '加拿大欢迎订阅_18', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '新加坡欢迎订阅_19', server: 139.59.254.17, port: 12081, type: vmess, uuid: 39f1943b-282e-44a4-9f56-5d59107d919e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '美国欢迎订阅_20', server: 156.146.62.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: '法国欢迎订阅_21', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '俄罗斯欢迎订阅_22', server: s.22xr.cn, port: 36699, type: vmess, uuid: 55b6abf4-fbdc-488b-fd00-c665521356ef, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '美国欢迎订阅_23', server: t1.ssrsub.com, port: 1033, type: trojan, password: 92a95e6d-cf89-42ee-8110-66fab6871e2f}
-  - {name: '美国欢迎订阅_24', server: 198.41.212.234, port: 2052, type: vmess, uuid: 00000000-1111-2222-3333-444444444444, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /Telegram/@Loss_0_Vmess, ws-headers: {Host: free.jianguoyun.com}}
-  - {name: '欧洲欢迎订阅_25', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '法国欢迎订阅_26', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '法国欢迎订阅_27', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '欧洲欢迎订阅_28', server: 185.76.8.218, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: '法国欢迎订阅_29', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '加拿大欢迎订阅_30', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '欧洲欢迎订阅_31', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '欧洲欢迎订阅_32', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '意大利欢迎订阅_33', server: 185.76.9.56, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: '欧洲欢迎订阅_34', server: t6.ssrsub.com, port: 1033, type: trojan, password: e54a480c-77e3-41ca-8f8b-17ffb50dbd08}
-  - {name: '欧洲欢迎订阅_35', server: 185.76.9.56, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: '美国欢迎订阅_36', server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: '欧洲欢迎订阅_37', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国欢迎订阅_38', server: 172.93.153.148, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: '欧洲欢迎订阅_39', server: sw.oracleusa.ml, port: 443, type: vmess, uuid: d1270d12-76b7-4c4d-97ff-6d6f41a013b0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /4Y3g3EnSU, ws-headers: {Host: sw.oracleusa.ml}}
-  - {name: '美国欢迎订阅_40', server: 198.8.92.84, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: '俄罗斯欢迎订阅_41', server: 45.141.102.51, port: 46354, type: vmess, uuid: d7bbbcad-0653-42a1-b101-db44624707aa, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇺🇸+美国-油管1_1', server: 138.199.42.134, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'C+206_2', server: 185.108.106.175, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: '🇨🇦+加拿大+2_3', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇹🇷+m_🇹🇷_TR_土耳其_4', server: 107.150.94.12, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '🇺🇸+美国-油管3+2_5', server: 138.199.42.134, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'C+237_6', server: 185.108.106.172, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 'C+253_7', server: 185.108.106.172, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 'C+181_8', server: 107.150.94.12, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 'C+113_9', server: 185.108.106.172, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 'C+174_10', server: 185.108.106.172, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 'C+251_11', server: 185.108.106.172, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 'C+168_12', server: 185.108.106.172, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 'C+145_13', server: 185.108.106.172, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 'C+84_14', server: 185.108.106.172, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: '馃嚚馃嚳CZ_2454+|33.27Mb', server: 89.187.161.4, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: '🇭🇰 香港-油管3_16', server: gd.cm-2-cf.fevers.cyou, port: 30090, type: vmess, uuid: a88b1c08-b583-3d5d-a83a-8f360dc0e44b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray-hgc, ws-headers: {Host: df7nomqrfkjpc.cloudfront.net}}
+  - {name: 'C+213_17', server: 185.108.106.172, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 'C+64_18', server: 185.108.106.172, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 'C+235_19', server: 185.108.106.172, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 'C+83_20', server: 185.108.106.172, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: '挪威+3_21', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'C+125_22', server: 185.108.106.175, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 'C+48_23', server: 185.108.106.172, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 'C+204_24', server: 185.108.106.175, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 'C+229_25', server: 185.108.106.172, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'C+184_26', server: 185.108.106.175, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 'C+197_27', server: 185.108.106.175, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 'C+187_28', server: 185.108.106.175, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 'C+176_29', server: 185.108.106.175, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'n_11-8Y+46_30', server: 185.108.106.175, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 'C+88_31', server: 89.46.223.57, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: '馃嚚馃嚳CZ_2473+|31.29Mb', server: 89.187.161.4, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'C+191_33', server: 185.108.106.172, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: 'C+192_34', server: 185.108.106.172, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 'C+249_35', server: 185.108.106.175, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 'C+250_36', server: 185.108.106.175, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 'C+190_37', server: 185.108.106.172, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 'C+247_38', server: 185.108.106.175, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'C+218_39', server: 185.108.106.175, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 'C+167_40', server: 185.108.106.175, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 'C+164_41', server: 89.46.223.85, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'C+246_42', server: 185.108.106.175, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 'C+157_43', server: 89.46.223.242, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '🇺🇸+Te+116_44', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'C+193_45', server: 185.108.106.172, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'C+165_46', server: 185.108.106.175, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '🇺🇸 FREE_V2ray_US_B 倍率*0.2_47', server: 213.59.118.169, port: 443, type: vmess, uuid: f47bb3d4-37dd-44ee-a7ee-1c485a0e2b90, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /9auVq7xCL7, ws-headers: {Host: dp.5599.buzz}}
+  - {name: '🇨🇦+加拿大_48', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'C+87_49', server: 185.108.106.175, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'C+92_50', server: 185.108.106.175, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: '馃嚚馃嚘CA_1914+|25.69Mb', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'C+239_52', server: 185.108.106.175, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: '🇭🇰+香港_53', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'C+152_54', server: 89.46.223.59, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: '🇺🇸 Te 105_55', server: 104.16.104.126, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: sweet-salad-aa33.tianzhen19880808.workers.dev}}
+  - {name: 'C+73_56', server: 185.76.9.56, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 'C 28_57', server: v1-do-ua-03.niaoyun.online, port: 666, type: vmess, uuid: 2269b746-c4f9-37f5-bdf2-da69e6b0f479, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-ua-03.niaoyun.online}}
+  - {name: 'C+46_58', server: 156.146.33.66, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: '🇺🇸+Te+38_59', server: 156.146.62.45, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: '🇺🇸+Te+104_60', server: 156.146.62.45, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: '🇺🇸+Te+108_61', server: 156.146.62.45, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: '🇺🇸+Te+35_62', server: 156.146.62.45, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: 'C+160_63', server: 156.146.33.66, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: '🇩🇪+m_🇩🇪_DE_德国_6', server: 82.102.16.102, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '🇫🇷+法国+2_65', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'C+30_66', server: 89.46.223.79, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
+  - {name: '🇨🇳 台湾-油管4_67', server: twn03.ip4.ddns.acg.photos, port: 22356, type: vmess, uuid: f03b4d57-bbd8-4ad3-8b76-d096152d15df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: twn03.ip4.ddns.acg.photos}}
+  - {name: 'C+172_68', server: 89.46.223.65, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 'C+170_69', server: 89.46.223.97, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'C+179_70', server: 89.46.223.99, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: '🇺🇸+Te+103_71', server: 156.146.62.45, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: '🇺🇸+Te+123_72', server: 156.146.62.45, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 'C+173_73', server: 89.46.223.99, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: '🇺🇸+Te+34_74', server: 156.146.62.45, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 'C+109_75', server: 185.76.9.56, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 'C+184_76', server: 89.46.223.99, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
+  - {name: 'C+175_77', server: 89.46.223.215, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 'C+118_78', server: 185.76.9.56, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: 'C+194_79', server: 89.46.223.215, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 'C+196_80', server: 89.46.223.73, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: '🇨🇳 台湾-油管6 2_81', server: twn04.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: f03b4d57-bbd8-4ad3-8b76-d096152d15df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: twn04.ip4.ddns.acg.photos}}
+  - {name: 'C+121_82', server: 89.46.223.71, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 'C+223_83', server: 185.108.106.175, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 'C+96_84', server: 185.76.9.56, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '挪威+6_85', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸+美国-油管1+3_86', server: 138.199.42.170, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: '欧洲+2_87', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸+美国-油管1+2_88', server: 138.199.42.170, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 'C 118_89', server: 159.223.75.43, port: 56776, type: vmess, uuid: 2a1620a3-dc12-4d2e-faa9-809028d3e191, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.75.43}}
+  - {name: 'C+182_90', server: 89.46.223.93, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 'C+52_91', server: 156.146.33.66, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 'C+107_92', server: 156.146.33.66, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'C+150_93', server: 156.146.33.66, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: 'n_11-8Y+60_94', server: 156.146.33.66, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '馃嚭馃嚫US_13522', server: 172.93.153.148, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '🇺🇸+美国-油管2_96', server: 138.199.42.134, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 'n_11-8Y+51_97', server: 156.146.33.66, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: '🇩🇪+m_🇩🇪_DE_德国_4', server: 82.102.16.102, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'm_🇸🇰_SK_斯洛伐克_17', server: 185.76.8.218, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 'C+39_100', server: 156.146.33.66, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 'C+89_101', server: 156.146.33.66, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 'C+149_102', server: 156.146.33.66, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '🇺🇸+美国-油管3_103', server: 138.199.42.134, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: '🇺🇸+Te+18_104', server: 156.146.62.45, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 'C+53_105', server: 156.146.33.66, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: '🇺🇸+Te+113_106', server: 156.146.62.45, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
+  - {name: '🇺🇸+Te+91_107', server: 156.146.62.45, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: 'C+67_108', server: 156.146.33.66, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 'm_🇸🇰_SK_斯洛伐克_16', server: 185.76.8.218, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: '🇺🇸+Te+98_110', server: 156.146.62.45, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: '🇺🇸+Te+95_111', server: 156.146.62.45, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: '馃嚝馃嚪FR_3309+|52.74Mb', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸+Te+99_113', server: 156.146.62.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '🇩🇪+m_🇩🇪_DE_德国_8', server: 82.102.16.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: '🇳🇱+荷兰+19_115', server: 89.46.223.75, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 'C+232_116', server: 185.76.9.56, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: '馃嚝馃嚪FR_3353+|35.00Mb', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸+Te+89_118', server: 156.146.62.45, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 'C+116_119', server: 185.76.9.56, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 'Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_48', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸+Te+90_121', server: 156.146.62.45, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
+  - {name: '🇺🇸+Te+97_122', server: 156.146.62.45, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'C+174_123', server: 89.46.223.79, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: '馃嚝馃嚪FR_3697+|+5.53Mb', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇷+法国_125', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '馃嚝馃嚪FR_3309+|52.74Mb_127', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇩🇪+m_🇩🇪_DE_德国_7', server: 82.102.16.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: '🇺🇸+Te+96_128', server: 156.146.62.45, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: '馃嚦馃嚧NO_81', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸+Te+124_130', server: 156.146.62.45, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '🇳🇱+荷兰+18_131', server: 89.46.223.215, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: 'C+124_132', server: 89.46.223.75, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 'C+24_133', server: 89.46.223.79, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: 'C+88_134', server: 185.76.9.56, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '🇬🇧+英国+41_135', server: 89.46.223.57, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 'C+85_136', server: 185.76.9.56, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 'C+136_137', server: 185.76.9.56, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'C+122_138', server: 185.76.9.56, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'C+112_139', server: 185.76.9.56, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
+  - {name: 'C+178_140', server: 185.108.106.172, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'C+177_141', server: 185.108.106.172, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: '馃嚦馃嚧NO_6355+|+4.34Mb', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '瑞典+4_143', server: 185.76.9.56, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: 'C+226_144', server: 185.76.9.56, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: '欧洲+5_145', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'C+102_146', server: 185.76.9.56, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 'C+182_147', server: 185.108.106.172, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: '🇸🇬 新加坡-油管5_148', server: v1-asw-sg-05.niaoyun.online, port: 666, type: vmess, uuid: f4f4398f-60c9-3e68-bc79-1fd9b669c559, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-05.niaoyun.online}}
+  - {name: '🇸🇪+m_🇸🇪_SE_瑞典_12', server: 185.76.9.56, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: 'n_11-8Y+52_150', server: 185.76.9.56, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '欧洲+6_151', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'C+192_152', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'C+228_153', server: 185.108.106.175, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'C+240_154', server: 185.76.9.56, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: 'C+185_155', server: 185.76.9.56, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'C+73_156', server: 156.146.62.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: '馃嚦馃嚧NO_6378+|+8.19Mb', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸+Te+112_158', server: 138.199.42.170, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: 'C+57_159', server: 185.76.9.56, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '馃嚭馃嚫US_11465', server: 172.93.153.148, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: '馃嚭馃嚫US_11479', server: 172.93.153.148, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: '馃嚭馃嚫US_11401', server: 172.93.153.148, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'C+207_163', server: 185.108.106.175, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '馃嚭馃嚫US_11471', server: 172.93.153.148, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: '🇨🇦+m_🇨🇦_CA_加拿大_5', server: 198.8.92.84, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 'C+187_166', server: 198.8.92.84, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '馃嚭馃嚫US_11470', server: 172.93.153.148, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: '馃嚭馃嚫US_11420', server: 172.93.153.148, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: '馃嚭馃嚫US_11473', server: 172.93.153.148, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: '馃嚭馃嚫US_11646', server: 172.93.153.148, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: '🇺🇲 美国 13_171', server: 143.198.237.214, port: 27489, type: vmess, uuid: d73f027b-9a37-4e79-dd29-3a0d1e1da128, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 143.198.237.214}}
+  - {name: '馃嚝馃嚪FR_3825+|+9.48Mb', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇩🇪+m_🇩🇪_DE_德国_9', server: 82.102.16.102, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 'C+141_174', server: 89.46.223.67, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🇺🇸US_2640
-      - 欧洲欢迎订阅_2
-      - 欧洲欢迎订阅_3
-      - 欧洲欢迎订阅_4
-      - 欧洲欢迎订阅_5
-      - 美国欢迎订阅_6
-      - 美国欢迎订阅_7
-      - 美国欢迎订阅_8
-      - 欧洲欢迎订阅_9
-      - 香港欢迎订阅_10
-      - 欧洲欢迎订阅_11
-      - 欧洲欢迎订阅_12
-      - 欧洲欢迎订阅_13
-      - 欧洲欢迎订阅_14
-      - 🇳🇱NL_4055
-      - 美国欢迎订阅_16
-      - 美国欢迎订阅_17
-      - 加拿大欢迎订阅_18
-      - 新加坡欢迎订阅_19
-      - 美国欢迎订阅_20
-      - 法国欢迎订阅_21
-      - 俄罗斯欢迎订阅_22
-      - 美国欢迎订阅_23
-      - 美国欢迎订阅_24
-      - 欧洲欢迎订阅_25
-      - 法国欢迎订阅_26
-      - 法国欢迎订阅_27
-      - 欧洲欢迎订阅_28
-      - 法国欢迎订阅_29
-      - 加拿大欢迎订阅_30
-      - 欧洲欢迎订阅_31
-      - 欧洲欢迎订阅_32
-      - 意大利欢迎订阅_33
-      - 欧洲欢迎订阅_34
-      - 欧洲欢迎订阅_35
-      - 美国欢迎订阅_36
-      - 欧洲欢迎订阅_37
-      - 美国欢迎订阅_38
-      - 欧洲欢迎订阅_39
-      - 美国欢迎订阅_40
-      - 俄罗斯欢迎订阅_41
+      - 🇺🇸+美国-油管1_1
+      - C+206_2
+      - 🇨🇦+加拿大+2_3
+      - 🇹🇷+m_🇹🇷_TR_土耳其_4
+      - 🇺🇸+美国-油管3+2_5
+      - C+237_6
+      - C+253_7
+      - C+181_8
+      - C+113_9
+      - C+174_10
+      - C+251_11
+      - C+168_12
+      - C+145_13
+      - C+84_14
+      - 馃嚚馃嚳CZ_2454+|33.27Mb
+      - 🇭🇰 香港-油管3_16
+      - C+213_17
+      - C+64_18
+      - C+235_19
+      - C+83_20
+      - 挪威+3_21
+      - C+125_22
+      - C+48_23
+      - C+204_24
+      - C+229_25
+      - C+184_26
+      - C+197_27
+      - C+187_28
+      - C+176_29
+      - n_11-8Y+46_30
+      - C+88_31
+      - 馃嚚馃嚳CZ_2473+|31.29Mb
+      - C+191_33
+      - C+192_34
+      - C+249_35
+      - C+250_36
+      - C+190_37
+      - C+247_38
+      - C+218_39
+      - C+167_40
+      - C+164_41
+      - C+246_42
+      - C+157_43
+      - 🇺🇸+Te+116_44
+      - C+193_45
+      - C+165_46
+      - 🇺🇸 FREE_V2ray_US_B 倍率*0.2_47
+      - 🇨🇦+加拿大_48
+      - C+87_49
+      - C+92_50
+      - 馃嚚馃嚘CA_1914+|25.69Mb
+      - C+239_52
+      - 🇭🇰+香港_53
+      - C+152_54
+      - 🇺🇸 Te 105_55
+      - C+73_56
+      - C 28_57
+      - C+46_58
+      - 🇺🇸+Te+38_59
+      - 🇺🇸+Te+104_60
+      - 🇺🇸+Te+108_61
+      - 🇺🇸+Te+35_62
+      - C+160_63
+      - 🇩🇪+m_🇩🇪_DE_德国_6
+      - 🇫🇷+法国+2_65
+      - C+30_66
+      - 🇨🇳 台湾-油管4_67
+      - C+172_68
+      - C+170_69
+      - C+179_70
+      - 🇺🇸+Te+103_71
+      - 🇺🇸+Te+123_72
+      - C+173_73
+      - 🇺🇸+Te+34_74
+      - C+109_75
+      - C+184_76
+      - C+175_77
+      - C+118_78
+      - C+194_79
+      - C+196_80
+      - 🇨🇳 台湾-油管6 2_81
+      - C+121_82
+      - C+223_83
+      - C+96_84
+      - 挪威+6_85
+      - 🇺🇸+美国-油管1+3_86
+      - 欧洲+2_87
+      - 🇺🇸+美国-油管1+2_88
+      - C 118_89
+      - C+182_90
+      - C+52_91
+      - C+107_92
+      - C+150_93
+      - n_11-8Y+60_94
+      - 馃嚭馃嚫US_13522
+      - 🇺🇸+美国-油管2_96
+      - n_11-8Y+51_97
+      - 🇩🇪+m_🇩🇪_DE_德国_4
+      - m_🇸🇰_SK_斯洛伐克_17
+      - C+39_100
+      - C+89_101
+      - C+149_102
+      - 🇺🇸+美国-油管3_103
+      - 🇺🇸+Te+18_104
+      - C+53_105
+      - 🇺🇸+Te+113_106
+      - 🇺🇸+Te+91_107
+      - C+67_108
+      - m_🇸🇰_SK_斯洛伐克_16
+      - 🇺🇸+Te+98_110
+      - 🇺🇸+Te+95_111
+      - 馃嚝馃嚪FR_3309+|52.74Mb
+      - 🇺🇸+Te+99_113
+      - 🇩🇪+m_🇩🇪_DE_德国_8
+      - 🇳🇱+荷兰+19_115
+      - C+232_116
+      - 馃嚝馃嚪FR_3353+|35.00Mb
+      - 🇺🇸+Te+89_118
+      - C+116_119
+      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_48
+      - 🇺🇸+Te+90_121
+      - 🇺🇸+Te+97_122
+      - C+174_123
+      - 馃嚝馃嚪FR_3697+|+5.53Mb
+      - 🇫🇷+法国_125
+      - 馃嚝馃嚪FR_3309+|52.74Mb_127
+      - 🇩🇪+m_🇩🇪_DE_德国_7
+      - 🇺🇸+Te+96_128
+      - 馃嚦馃嚧NO_81
+      - 🇺🇸+Te+124_130
+      - 🇳🇱+荷兰+18_131
+      - C+124_132
+      - C+24_133
+      - C+88_134
+      - 🇬🇧+英国+41_135
+      - C+85_136
+      - C+136_137
+      - C+122_138
+      - C+112_139
+      - C+178_140
+      - C+177_141
+      - 馃嚦馃嚧NO_6355+|+4.34Mb
+      - 瑞典+4_143
+      - C+226_144
+      - 欧洲+5_145
+      - C+102_146
+      - C+182_147
+      - 🇸🇬 新加坡-油管5_148
+      - 🇸🇪+m_🇸🇪_SE_瑞典_12
+      - n_11-8Y+52_150
+      - 欧洲+6_151
+      - C+192_152
+      - C+228_153
+      - C+240_154
+      - C+185_155
+      - C+73_156
+      - 馃嚦馃嚧NO_6378+|+8.19Mb
+      - 🇺🇸+Te+112_158
+      - C+57_159
+      - 馃嚭馃嚫US_11465
+      - 馃嚭馃嚫US_11479
+      - 馃嚭馃嚫US_11401
+      - C+207_163
+      - 馃嚭馃嚫US_11471
+      - 🇨🇦+m_🇨🇦_CA_加拿大_5
+      - C+187_166
+      - 馃嚭馃嚫US_11470
+      - 馃嚭馃嚫US_11420
+      - 馃嚭馃嚫US_11473
+      - 馃嚭馃嚫US_11646
+      - 🇺🇲 美国 13_171
+      - 馃嚝馃嚪FR_3825+|+9.48Mb
+      - 🇩🇪+m_🇩🇪_DE_德国_9
+      - C+141_174
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇭🇰HK-🇺🇸US_2640
-      - 欧洲欢迎订阅_2
-      - 欧洲欢迎订阅_3
-      - 欧洲欢迎订阅_4
-      - 欧洲欢迎订阅_5
-      - 美国欢迎订阅_6
-      - 美国欢迎订阅_7
-      - 美国欢迎订阅_8
-      - 欧洲欢迎订阅_9
-      - 香港欢迎订阅_10
-      - 欧洲欢迎订阅_11
-      - 欧洲欢迎订阅_12
-      - 欧洲欢迎订阅_13
-      - 欧洲欢迎订阅_14
-      - 🇳🇱NL_4055
-      - 美国欢迎订阅_16
-      - 美国欢迎订阅_17
-      - 加拿大欢迎订阅_18
-      - 新加坡欢迎订阅_19
-      - 美国欢迎订阅_20
-      - 法国欢迎订阅_21
-      - 俄罗斯欢迎订阅_22
-      - 美国欢迎订阅_23
-      - 美国欢迎订阅_24
-      - 欧洲欢迎订阅_25
-      - 法国欢迎订阅_26
-      - 法国欢迎订阅_27
-      - 欧洲欢迎订阅_28
-      - 法国欢迎订阅_29
-      - 加拿大欢迎订阅_30
-      - 欧洲欢迎订阅_31
-      - 欧洲欢迎订阅_32
-      - 意大利欢迎订阅_33
-      - 欧洲欢迎订阅_34
-      - 欧洲欢迎订阅_35
-      - 美国欢迎订阅_36
-      - 欧洲欢迎订阅_37
-      - 美国欢迎订阅_38
-      - 欧洲欢迎订阅_39
-      - 美国欢迎订阅_40
-      - 俄罗斯欢迎订阅_41
+      - 🇺🇸+美国-油管1_1
+      - C+206_2
+      - 🇨🇦+加拿大+2_3
+      - 🇹🇷+m_🇹🇷_TR_土耳其_4
+      - 🇺🇸+美国-油管3+2_5
+      - C+237_6
+      - C+253_7
+      - C+181_8
+      - C+113_9
+      - C+174_10
+      - C+251_11
+      - C+168_12
+      - C+145_13
+      - C+84_14
+      - 馃嚚馃嚳CZ_2454+|33.27Mb
+      - 🇭🇰 香港-油管3_16
+      - C+213_17
+      - C+64_18
+      - C+235_19
+      - C+83_20
+      - 挪威+3_21
+      - C+125_22
+      - C+48_23
+      - C+204_24
+      - C+229_25
+      - C+184_26
+      - C+197_27
+      - C+187_28
+      - C+176_29
+      - n_11-8Y+46_30
+      - C+88_31
+      - 馃嚚馃嚳CZ_2473+|31.29Mb
+      - C+191_33
+      - C+192_34
+      - C+249_35
+      - C+250_36
+      - C+190_37
+      - C+247_38
+      - C+218_39
+      - C+167_40
+      - C+164_41
+      - C+246_42
+      - C+157_43
+      - 🇺🇸+Te+116_44
+      - C+193_45
+      - C+165_46
+      - 🇺🇸 FREE_V2ray_US_B 倍率*0.2_47
+      - 🇨🇦+加拿大_48
+      - C+87_49
+      - C+92_50
+      - 馃嚚馃嚘CA_1914+|25.69Mb
+      - C+239_52
+      - 🇭🇰+香港_53
+      - C+152_54
+      - 🇺🇸 Te 105_55
+      - C+73_56
+      - C 28_57
+      - C+46_58
+      - 🇺🇸+Te+38_59
+      - 🇺🇸+Te+104_60
+      - 🇺🇸+Te+108_61
+      - 🇺🇸+Te+35_62
+      - C+160_63
+      - 🇩🇪+m_🇩🇪_DE_德国_6
+      - 🇫🇷+法国+2_65
+      - C+30_66
+      - 🇨🇳 台湾-油管4_67
+      - C+172_68
+      - C+170_69
+      - C+179_70
+      - 🇺🇸+Te+103_71
+      - 🇺🇸+Te+123_72
+      - C+173_73
+      - 🇺🇸+Te+34_74
+      - C+109_75
+      - C+184_76
+      - C+175_77
+      - C+118_78
+      - C+194_79
+      - C+196_80
+      - 🇨🇳 台湾-油管6 2_81
+      - C+121_82
+      - C+223_83
+      - C+96_84
+      - 挪威+6_85
+      - 🇺🇸+美国-油管1+3_86
+      - 欧洲+2_87
+      - 🇺🇸+美国-油管1+2_88
+      - C 118_89
+      - C+182_90
+      - C+52_91
+      - C+107_92
+      - C+150_93
+      - n_11-8Y+60_94
+      - 馃嚭馃嚫US_13522
+      - 🇺🇸+美国-油管2_96
+      - n_11-8Y+51_97
+      - 🇩🇪+m_🇩🇪_DE_德国_4
+      - m_🇸🇰_SK_斯洛伐克_17
+      - C+39_100
+      - C+89_101
+      - C+149_102
+      - 🇺🇸+美国-油管3_103
+      - 🇺🇸+Te+18_104
+      - C+53_105
+      - 🇺🇸+Te+113_106
+      - 🇺🇸+Te+91_107
+      - C+67_108
+      - m_🇸🇰_SK_斯洛伐克_16
+      - 🇺🇸+Te+98_110
+      - 🇺🇸+Te+95_111
+      - 馃嚝馃嚪FR_3309+|52.74Mb
+      - 🇺🇸+Te+99_113
+      - 🇩🇪+m_🇩🇪_DE_德国_8
+      - 🇳🇱+荷兰+19_115
+      - C+232_116
+      - 馃嚝馃嚪FR_3353+|35.00Mb
+      - 🇺🇸+Te+89_118
+      - C+116_119
+      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_48
+      - 🇺🇸+Te+90_121
+      - 🇺🇸+Te+97_122
+      - C+174_123
+      - 馃嚝馃嚪FR_3697+|+5.53Mb
+      - 🇫🇷+法国_125
+      - 馃嚝馃嚪FR_3309+|52.74Mb_127
+      - 🇩🇪+m_🇩🇪_DE_德国_7
+      - 🇺🇸+Te+96_128
+      - 馃嚦馃嚧NO_81
+      - 🇺🇸+Te+124_130
+      - 🇳🇱+荷兰+18_131
+      - C+124_132
+      - C+24_133
+      - C+88_134
+      - 🇬🇧+英国+41_135
+      - C+85_136
+      - C+136_137
+      - C+122_138
+      - C+112_139
+      - C+178_140
+      - C+177_141
+      - 馃嚦馃嚧NO_6355+|+4.34Mb
+      - 瑞典+4_143
+      - C+226_144
+      - 欧洲+5_145
+      - C+102_146
+      - C+182_147
+      - 🇸🇬 新加坡-油管5_148
+      - 🇸🇪+m_🇸🇪_SE_瑞典_12
+      - n_11-8Y+52_150
+      - 欧洲+6_151
+      - C+192_152
+      - C+228_153
+      - C+240_154
+      - C+185_155
+      - C+73_156
+      - 馃嚦馃嚧NO_6378+|+8.19Mb
+      - 🇺🇸+Te+112_158
+      - C+57_159
+      - 馃嚭馃嚫US_11465
+      - 馃嚭馃嚫US_11479
+      - 馃嚭馃嚫US_11401
+      - C+207_163
+      - 馃嚭馃嚫US_11471
+      - 🇨🇦+m_🇨🇦_CA_加拿大_5
+      - C+187_166
+      - 馃嚭馃嚫US_11470
+      - 馃嚭馃嚫US_11420
+      - 馃嚭馃嚫US_11473
+      - 馃嚭馃嚫US_11646
+      - 🇺🇲 美国 13_171
+      - 馃嚝馃嚪FR_3825+|+9.48Mb
+      - 🇩🇪+m_🇩🇪_DE_德国_9
+      - C+141_174
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🇺🇸US_2640
-      - 欧洲欢迎订阅_2
-      - 欧洲欢迎订阅_3
-      - 欧洲欢迎订阅_4
-      - 欧洲欢迎订阅_5
-      - 美国欢迎订阅_6
-      - 美国欢迎订阅_7
-      - 美国欢迎订阅_8
-      - 欧洲欢迎订阅_9
-      - 香港欢迎订阅_10
-      - 欧洲欢迎订阅_11
-      - 欧洲欢迎订阅_12
-      - 欧洲欢迎订阅_13
-      - 欧洲欢迎订阅_14
-      - 🇳🇱NL_4055
-      - 美国欢迎订阅_16
-      - 美国欢迎订阅_17
-      - 加拿大欢迎订阅_18
-      - 新加坡欢迎订阅_19
-      - 美国欢迎订阅_20
-      - 法国欢迎订阅_21
-      - 俄罗斯欢迎订阅_22
-      - 美国欢迎订阅_23
-      - 美国欢迎订阅_24
-      - 欧洲欢迎订阅_25
-      - 法国欢迎订阅_26
-      - 法国欢迎订阅_27
-      - 欧洲欢迎订阅_28
-      - 法国欢迎订阅_29
-      - 加拿大欢迎订阅_30
-      - 欧洲欢迎订阅_31
-      - 欧洲欢迎订阅_32
-      - 意大利欢迎订阅_33
-      - 欧洲欢迎订阅_34
-      - 欧洲欢迎订阅_35
-      - 美国欢迎订阅_36
-      - 欧洲欢迎订阅_37
-      - 美国欢迎订阅_38
-      - 欧洲欢迎订阅_39
-      - 美国欢迎订阅_40
-      - 俄罗斯欢迎订阅_41
+      - 🇺🇸+美国-油管1_1
+      - C+206_2
+      - 🇨🇦+加拿大+2_3
+      - 🇹🇷+m_🇹🇷_TR_土耳其_4
+      - 🇺🇸+美国-油管3+2_5
+      - C+237_6
+      - C+253_7
+      - C+181_8
+      - C+113_9
+      - C+174_10
+      - C+251_11
+      - C+168_12
+      - C+145_13
+      - C+84_14
+      - 馃嚚馃嚳CZ_2454+|33.27Mb
+      - 🇭🇰 香港-油管3_16
+      - C+213_17
+      - C+64_18
+      - C+235_19
+      - C+83_20
+      - 挪威+3_21
+      - C+125_22
+      - C+48_23
+      - C+204_24
+      - C+229_25
+      - C+184_26
+      - C+197_27
+      - C+187_28
+      - C+176_29
+      - n_11-8Y+46_30
+      - C+88_31
+      - 馃嚚馃嚳CZ_2473+|31.29Mb
+      - C+191_33
+      - C+192_34
+      - C+249_35
+      - C+250_36
+      - C+190_37
+      - C+247_38
+      - C+218_39
+      - C+167_40
+      - C+164_41
+      - C+246_42
+      - C+157_43
+      - 🇺🇸+Te+116_44
+      - C+193_45
+      - C+165_46
+      - 🇺🇸 FREE_V2ray_US_B 倍率*0.2_47
+      - 🇨🇦+加拿大_48
+      - C+87_49
+      - C+92_50
+      - 馃嚚馃嚘CA_1914+|25.69Mb
+      - C+239_52
+      - 🇭🇰+香港_53
+      - C+152_54
+      - 🇺🇸 Te 105_55
+      - C+73_56
+      - C 28_57
+      - C+46_58
+      - 🇺🇸+Te+38_59
+      - 🇺🇸+Te+104_60
+      - 🇺🇸+Te+108_61
+      - 🇺🇸+Te+35_62
+      - C+160_63
+      - 🇩🇪+m_🇩🇪_DE_德国_6
+      - 🇫🇷+法国+2_65
+      - C+30_66
+      - 🇨🇳 台湾-油管4_67
+      - C+172_68
+      - C+170_69
+      - C+179_70
+      - 🇺🇸+Te+103_71
+      - 🇺🇸+Te+123_72
+      - C+173_73
+      - 🇺🇸+Te+34_74
+      - C+109_75
+      - C+184_76
+      - C+175_77
+      - C+118_78
+      - C+194_79
+      - C+196_80
+      - 🇨🇳 台湾-油管6 2_81
+      - C+121_82
+      - C+223_83
+      - C+96_84
+      - 挪威+6_85
+      - 🇺🇸+美国-油管1+3_86
+      - 欧洲+2_87
+      - 🇺🇸+美国-油管1+2_88
+      - C 118_89
+      - C+182_90
+      - C+52_91
+      - C+107_92
+      - C+150_93
+      - n_11-8Y+60_94
+      - 馃嚭馃嚫US_13522
+      - 🇺🇸+美国-油管2_96
+      - n_11-8Y+51_97
+      - 🇩🇪+m_🇩🇪_DE_德国_4
+      - m_🇸🇰_SK_斯洛伐克_17
+      - C+39_100
+      - C+89_101
+      - C+149_102
+      - 🇺🇸+美国-油管3_103
+      - 🇺🇸+Te+18_104
+      - C+53_105
+      - 🇺🇸+Te+113_106
+      - 🇺🇸+Te+91_107
+      - C+67_108
+      - m_🇸🇰_SK_斯洛伐克_16
+      - 🇺🇸+Te+98_110
+      - 🇺🇸+Te+95_111
+      - 馃嚝馃嚪FR_3309+|52.74Mb
+      - 🇺🇸+Te+99_113
+      - 🇩🇪+m_🇩🇪_DE_德国_8
+      - 🇳🇱+荷兰+19_115
+      - C+232_116
+      - 馃嚝馃嚪FR_3353+|35.00Mb
+      - 🇺🇸+Te+89_118
+      - C+116_119
+      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_48
+      - 🇺🇸+Te+90_121
+      - 🇺🇸+Te+97_122
+      - C+174_123
+      - 馃嚝馃嚪FR_3697+|+5.53Mb
+      - 🇫🇷+法国_125
+      - 馃嚝馃嚪FR_3309+|52.74Mb_127
+      - 🇩🇪+m_🇩🇪_DE_德国_7
+      - 🇺🇸+Te+96_128
+      - 馃嚦馃嚧NO_81
+      - 🇺🇸+Te+124_130
+      - 🇳🇱+荷兰+18_131
+      - C+124_132
+      - C+24_133
+      - C+88_134
+      - 🇬🇧+英国+41_135
+      - C+85_136
+      - C+136_137
+      - C+122_138
+      - C+112_139
+      - C+178_140
+      - C+177_141
+      - 馃嚦馃嚧NO_6355+|+4.34Mb
+      - 瑞典+4_143
+      - C+226_144
+      - 欧洲+5_145
+      - C+102_146
+      - C+182_147
+      - 🇸🇬 新加坡-油管5_148
+      - 🇸🇪+m_🇸🇪_SE_瑞典_12
+      - n_11-8Y+52_150
+      - 欧洲+6_151
+      - C+192_152
+      - C+228_153
+      - C+240_154
+      - C+185_155
+      - C+73_156
+      - 馃嚦馃嚧NO_6378+|+8.19Mb
+      - 🇺🇸+Te+112_158
+      - C+57_159
+      - 馃嚭馃嚫US_11465
+      - 馃嚭馃嚫US_11479
+      - 馃嚭馃嚫US_11401
+      - C+207_163
+      - 馃嚭馃嚫US_11471
+      - 🇨🇦+m_🇨🇦_CA_加拿大_5
+      - C+187_166
+      - 馃嚭馃嚫US_11470
+      - 馃嚭馃嚫US_11420
+      - 馃嚭馃嚫US_11473
+      - 馃嚭馃嚫US_11646
+      - 🇺🇲 美国 13_171
+      - 馃嚝馃嚪FR_3825+|+9.48Mb
+      - 🇩🇪+m_🇩🇪_DE_德国_9
+      - C+141_174
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇭🇰HK-🇺🇸US_2640
-      - 欧洲欢迎订阅_2
-      - 欧洲欢迎订阅_3
-      - 欧洲欢迎订阅_4
-      - 欧洲欢迎订阅_5
-      - 美国欢迎订阅_6
-      - 美国欢迎订阅_7
-      - 美国欢迎订阅_8
-      - 欧洲欢迎订阅_9
-      - 香港欢迎订阅_10
-      - 欧洲欢迎订阅_11
-      - 欧洲欢迎订阅_12
-      - 欧洲欢迎订阅_13
-      - 欧洲欢迎订阅_14
-      - 🇳🇱NL_4055
-      - 美国欢迎订阅_16
-      - 美国欢迎订阅_17
-      - 加拿大欢迎订阅_18
-      - 新加坡欢迎订阅_19
-      - 美国欢迎订阅_20
-      - 法国欢迎订阅_21
-      - 俄罗斯欢迎订阅_22
-      - 美国欢迎订阅_23
-      - 美国欢迎订阅_24
-      - 欧洲欢迎订阅_25
-      - 法国欢迎订阅_26
-      - 法国欢迎订阅_27
-      - 欧洲欢迎订阅_28
-      - 法国欢迎订阅_29
-      - 加拿大欢迎订阅_30
-      - 欧洲欢迎订阅_31
-      - 欧洲欢迎订阅_32
-      - 意大利欢迎订阅_33
-      - 欧洲欢迎订阅_34
-      - 欧洲欢迎订阅_35
-      - 美国欢迎订阅_36
-      - 欧洲欢迎订阅_37
-      - 美国欢迎订阅_38
-      - 欧洲欢迎订阅_39
-      - 美国欢迎订阅_40
-      - 俄罗斯欢迎订阅_41
+      - 🇺🇸+美国-油管1_1
+      - C+206_2
+      - 🇨🇦+加拿大+2_3
+      - 🇹🇷+m_🇹🇷_TR_土耳其_4
+      - 🇺🇸+美国-油管3+2_5
+      - C+237_6
+      - C+253_7
+      - C+181_8
+      - C+113_9
+      - C+174_10
+      - C+251_11
+      - C+168_12
+      - C+145_13
+      - C+84_14
+      - 馃嚚馃嚳CZ_2454+|33.27Mb
+      - 🇭🇰 香港-油管3_16
+      - C+213_17
+      - C+64_18
+      - C+235_19
+      - C+83_20
+      - 挪威+3_21
+      - C+125_22
+      - C+48_23
+      - C+204_24
+      - C+229_25
+      - C+184_26
+      - C+197_27
+      - C+187_28
+      - C+176_29
+      - n_11-8Y+46_30
+      - C+88_31
+      - 馃嚚馃嚳CZ_2473+|31.29Mb
+      - C+191_33
+      - C+192_34
+      - C+249_35
+      - C+250_36
+      - C+190_37
+      - C+247_38
+      - C+218_39
+      - C+167_40
+      - C+164_41
+      - C+246_42
+      - C+157_43
+      - 🇺🇸+Te+116_44
+      - C+193_45
+      - C+165_46
+      - 🇺🇸 FREE_V2ray_US_B 倍率*0.2_47
+      - 🇨🇦+加拿大_48
+      - C+87_49
+      - C+92_50
+      - 馃嚚馃嚘CA_1914+|25.69Mb
+      - C+239_52
+      - 🇭🇰+香港_53
+      - C+152_54
+      - 🇺🇸 Te 105_55
+      - C+73_56
+      - C 28_57
+      - C+46_58
+      - 🇺🇸+Te+38_59
+      - 🇺🇸+Te+104_60
+      - 🇺🇸+Te+108_61
+      - 🇺🇸+Te+35_62
+      - C+160_63
+      - 🇩🇪+m_🇩🇪_DE_德国_6
+      - 🇫🇷+法国+2_65
+      - C+30_66
+      - 🇨🇳 台湾-油管4_67
+      - C+172_68
+      - C+170_69
+      - C+179_70
+      - 🇺🇸+Te+103_71
+      - 🇺🇸+Te+123_72
+      - C+173_73
+      - 🇺🇸+Te+34_74
+      - C+109_75
+      - C+184_76
+      - C+175_77
+      - C+118_78
+      - C+194_79
+      - C+196_80
+      - 🇨🇳 台湾-油管6 2_81
+      - C+121_82
+      - C+223_83
+      - C+96_84
+      - 挪威+6_85
+      - 🇺🇸+美国-油管1+3_86
+      - 欧洲+2_87
+      - 🇺🇸+美国-油管1+2_88
+      - C 118_89
+      - C+182_90
+      - C+52_91
+      - C+107_92
+      - C+150_93
+      - n_11-8Y+60_94
+      - 馃嚭馃嚫US_13522
+      - 🇺🇸+美国-油管2_96
+      - n_11-8Y+51_97
+      - 🇩🇪+m_🇩🇪_DE_德国_4
+      - m_🇸🇰_SK_斯洛伐克_17
+      - C+39_100
+      - C+89_101
+      - C+149_102
+      - 🇺🇸+美国-油管3_103
+      - 🇺🇸+Te+18_104
+      - C+53_105
+      - 🇺🇸+Te+113_106
+      - 🇺🇸+Te+91_107
+      - C+67_108
+      - m_🇸🇰_SK_斯洛伐克_16
+      - 🇺🇸+Te+98_110
+      - 🇺🇸+Te+95_111
+      - 馃嚝馃嚪FR_3309+|52.74Mb
+      - 🇺🇸+Te+99_113
+      - 🇩🇪+m_🇩🇪_DE_德国_8
+      - 🇳🇱+荷兰+19_115
+      - C+232_116
+      - 馃嚝馃嚪FR_3353+|35.00Mb
+      - 🇺🇸+Te+89_118
+      - C+116_119
+      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_48
+      - 🇺🇸+Te+90_121
+      - 🇺🇸+Te+97_122
+      - C+174_123
+      - 馃嚝馃嚪FR_3697+|+5.53Mb
+      - 🇫🇷+法国_125
+      - 馃嚝馃嚪FR_3309+|52.74Mb_127
+      - 🇩🇪+m_🇩🇪_DE_德国_7
+      - 🇺🇸+Te+96_128
+      - 馃嚦馃嚧NO_81
+      - 🇺🇸+Te+124_130
+      - 🇳🇱+荷兰+18_131
+      - C+124_132
+      - C+24_133
+      - C+88_134
+      - 🇬🇧+英国+41_135
+      - C+85_136
+      - C+136_137
+      - C+122_138
+      - C+112_139
+      - C+178_140
+      - C+177_141
+      - 馃嚦馃嚧NO_6355+|+4.34Mb
+      - 瑞典+4_143
+      - C+226_144
+      - 欧洲+5_145
+      - C+102_146
+      - C+182_147
+      - 🇸🇬 新加坡-油管5_148
+      - 🇸🇪+m_🇸🇪_SE_瑞典_12
+      - n_11-8Y+52_150
+      - 欧洲+6_151
+      - C+192_152
+      - C+228_153
+      - C+240_154
+      - C+185_155
+      - C+73_156
+      - 馃嚦馃嚧NO_6378+|+8.19Mb
+      - 🇺🇸+Te+112_158
+      - C+57_159
+      - 馃嚭馃嚫US_11465
+      - 馃嚭馃嚫US_11479
+      - 馃嚭馃嚫US_11401
+      - C+207_163
+      - 馃嚭馃嚫US_11471
+      - 🇨🇦+m_🇨🇦_CA_加拿大_5
+      - C+187_166
+      - 馃嚭馃嚫US_11470
+      - 馃嚭馃嚫US_11420
+      - 馃嚭馃嚫US_11473
+      - 馃嚭馃嚫US_11646
+      - 🇺🇲 美国 13_171
+      - 馃嚝馃嚪FR_3825+|+9.48Mb
+      - 🇩🇪+m_🇩🇪_DE_德国_9
+      - C+141_174
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇭🇰HK-🇺🇸US_2640
-      - 欧洲欢迎订阅_2
-      - 欧洲欢迎订阅_3
-      - 欧洲欢迎订阅_4
-      - 欧洲欢迎订阅_5
-      - 美国欢迎订阅_6
-      - 美国欢迎订阅_7
-      - 美国欢迎订阅_8
-      - 欧洲欢迎订阅_9
-      - 香港欢迎订阅_10
-      - 欧洲欢迎订阅_11
-      - 欧洲欢迎订阅_12
-      - 欧洲欢迎订阅_13
-      - 欧洲欢迎订阅_14
-      - 🇳🇱NL_4055
-      - 美国欢迎订阅_16
-      - 美国欢迎订阅_17
-      - 加拿大欢迎订阅_18
-      - 新加坡欢迎订阅_19
-      - 美国欢迎订阅_20
-      - 法国欢迎订阅_21
-      - 俄罗斯欢迎订阅_22
-      - 美国欢迎订阅_23
-      - 美国欢迎订阅_24
-      - 欧洲欢迎订阅_25
-      - 法国欢迎订阅_26
-      - 法国欢迎订阅_27
-      - 欧洲欢迎订阅_28
-      - 法国欢迎订阅_29
-      - 加拿大欢迎订阅_30
-      - 欧洲欢迎订阅_31
-      - 欧洲欢迎订阅_32
-      - 意大利欢迎订阅_33
-      - 欧洲欢迎订阅_34
-      - 欧洲欢迎订阅_35
-      - 美国欢迎订阅_36
-      - 欧洲欢迎订阅_37
-      - 美国欢迎订阅_38
-      - 欧洲欢迎订阅_39
-      - 美国欢迎订阅_40
-      - 俄罗斯欢迎订阅_41
+      - 🇺🇸+美国-油管1_1
+      - C+206_2
+      - 🇨🇦+加拿大+2_3
+      - 🇹🇷+m_🇹🇷_TR_土耳其_4
+      - 🇺🇸+美国-油管3+2_5
+      - C+237_6
+      - C+253_7
+      - C+181_8
+      - C+113_9
+      - C+174_10
+      - C+251_11
+      - C+168_12
+      - C+145_13
+      - C+84_14
+      - 馃嚚馃嚳CZ_2454+|33.27Mb
+      - 🇭🇰 香港-油管3_16
+      - C+213_17
+      - C+64_18
+      - C+235_19
+      - C+83_20
+      - 挪威+3_21
+      - C+125_22
+      - C+48_23
+      - C+204_24
+      - C+229_25
+      - C+184_26
+      - C+197_27
+      - C+187_28
+      - C+176_29
+      - n_11-8Y+46_30
+      - C+88_31
+      - 馃嚚馃嚳CZ_2473+|31.29Mb
+      - C+191_33
+      - C+192_34
+      - C+249_35
+      - C+250_36
+      - C+190_37
+      - C+247_38
+      - C+218_39
+      - C+167_40
+      - C+164_41
+      - C+246_42
+      - C+157_43
+      - 🇺🇸+Te+116_44
+      - C+193_45
+      - C+165_46
+      - 🇺🇸 FREE_V2ray_US_B 倍率*0.2_47
+      - 🇨🇦+加拿大_48
+      - C+87_49
+      - C+92_50
+      - 馃嚚馃嚘CA_1914+|25.69Mb
+      - C+239_52
+      - 🇭🇰+香港_53
+      - C+152_54
+      - 🇺🇸 Te 105_55
+      - C+73_56
+      - C 28_57
+      - C+46_58
+      - 🇺🇸+Te+38_59
+      - 🇺🇸+Te+104_60
+      - 🇺🇸+Te+108_61
+      - 🇺🇸+Te+35_62
+      - C+160_63
+      - 🇩🇪+m_🇩🇪_DE_德国_6
+      - 🇫🇷+法国+2_65
+      - C+30_66
+      - 🇨🇳 台湾-油管4_67
+      - C+172_68
+      - C+170_69
+      - C+179_70
+      - 🇺🇸+Te+103_71
+      - 🇺🇸+Te+123_72
+      - C+173_73
+      - 🇺🇸+Te+34_74
+      - C+109_75
+      - C+184_76
+      - C+175_77
+      - C+118_78
+      - C+194_79
+      - C+196_80
+      - 🇨🇳 台湾-油管6 2_81
+      - C+121_82
+      - C+223_83
+      - C+96_84
+      - 挪威+6_85
+      - 🇺🇸+美国-油管1+3_86
+      - 欧洲+2_87
+      - 🇺🇸+美国-油管1+2_88
+      - C 118_89
+      - C+182_90
+      - C+52_91
+      - C+107_92
+      - C+150_93
+      - n_11-8Y+60_94
+      - 馃嚭馃嚫US_13522
+      - 🇺🇸+美国-油管2_96
+      - n_11-8Y+51_97
+      - 🇩🇪+m_🇩🇪_DE_德国_4
+      - m_🇸🇰_SK_斯洛伐克_17
+      - C+39_100
+      - C+89_101
+      - C+149_102
+      - 🇺🇸+美国-油管3_103
+      - 🇺🇸+Te+18_104
+      - C+53_105
+      - 🇺🇸+Te+113_106
+      - 🇺🇸+Te+91_107
+      - C+67_108
+      - m_🇸🇰_SK_斯洛伐克_16
+      - 🇺🇸+Te+98_110
+      - 🇺🇸+Te+95_111
+      - 馃嚝馃嚪FR_3309+|52.74Mb
+      - 🇺🇸+Te+99_113
+      - 🇩🇪+m_🇩🇪_DE_德国_8
+      - 🇳🇱+荷兰+19_115
+      - C+232_116
+      - 馃嚝馃嚪FR_3353+|35.00Mb
+      - 🇺🇸+Te+89_118
+      - C+116_119
+      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_48
+      - 🇺🇸+Te+90_121
+      - 🇺🇸+Te+97_122
+      - C+174_123
+      - 馃嚝馃嚪FR_3697+|+5.53Mb
+      - 🇫🇷+法国_125
+      - 馃嚝馃嚪FR_3309+|52.74Mb_127
+      - 🇩🇪+m_🇩🇪_DE_德国_7
+      - 🇺🇸+Te+96_128
+      - 馃嚦馃嚧NO_81
+      - 🇺🇸+Te+124_130
+      - 🇳🇱+荷兰+18_131
+      - C+124_132
+      - C+24_133
+      - C+88_134
+      - 🇬🇧+英国+41_135
+      - C+85_136
+      - C+136_137
+      - C+122_138
+      - C+112_139
+      - C+178_140
+      - C+177_141
+      - 馃嚦馃嚧NO_6355+|+4.34Mb
+      - 瑞典+4_143
+      - C+226_144
+      - 欧洲+5_145
+      - C+102_146
+      - C+182_147
+      - 🇸🇬 新加坡-油管5_148
+      - 🇸🇪+m_🇸🇪_SE_瑞典_12
+      - n_11-8Y+52_150
+      - 欧洲+6_151
+      - C+192_152
+      - C+228_153
+      - C+240_154
+      - C+185_155
+      - C+73_156
+      - 馃嚦馃嚧NO_6378+|+8.19Mb
+      - 🇺🇸+Te+112_158
+      - C+57_159
+      - 馃嚭馃嚫US_11465
+      - 馃嚭馃嚫US_11479
+      - 馃嚭馃嚫US_11401
+      - C+207_163
+      - 馃嚭馃嚫US_11471
+      - 🇨🇦+m_🇨🇦_CA_加拿大_5
+      - C+187_166
+      - 馃嚭馃嚫US_11470
+      - 馃嚭馃嚫US_11420
+      - 馃嚭馃嚫US_11473
+      - 馃嚭馃嚫US_11646
+      - 🇺🇲 美国 13_171
+      - 馃嚝馃嚪FR_3825+|+9.48Mb
+      - 🇩🇪+m_🇩🇪_DE_德国_9
+      - C+141_174
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🇺🇸US_2640
-      - 欧洲欢迎订阅_2
-      - 欧洲欢迎订阅_3
-      - 欧洲欢迎订阅_4
-      - 欧洲欢迎订阅_5
-      - 美国欢迎订阅_6
-      - 美国欢迎订阅_7
-      - 美国欢迎订阅_8
-      - 欧洲欢迎订阅_9
-      - 香港欢迎订阅_10
-      - 欧洲欢迎订阅_11
-      - 欧洲欢迎订阅_12
-      - 欧洲欢迎订阅_13
-      - 欧洲欢迎订阅_14
-      - 🇳🇱NL_4055
-      - 美国欢迎订阅_16
-      - 美国欢迎订阅_17
-      - 加拿大欢迎订阅_18
-      - 新加坡欢迎订阅_19
-      - 美国欢迎订阅_20
-      - 法国欢迎订阅_21
-      - 俄罗斯欢迎订阅_22
-      - 美国欢迎订阅_23
-      - 美国欢迎订阅_24
-      - 欧洲欢迎订阅_25
-      - 法国欢迎订阅_26
-      - 法国欢迎订阅_27
-      - 欧洲欢迎订阅_28
-      - 法国欢迎订阅_29
-      - 加拿大欢迎订阅_30
-      - 欧洲欢迎订阅_31
-      - 欧洲欢迎订阅_32
-      - 意大利欢迎订阅_33
-      - 欧洲欢迎订阅_34
-      - 欧洲欢迎订阅_35
-      - 美国欢迎订阅_36
-      - 欧洲欢迎订阅_37
-      - 美国欢迎订阅_38
-      - 欧洲欢迎订阅_39
-      - 美国欢迎订阅_40
-      - 俄罗斯欢迎订阅_41
+      - 🇺🇸+美国-油管1_1
+      - C+206_2
+      - 🇨🇦+加拿大+2_3
+      - 🇹🇷+m_🇹🇷_TR_土耳其_4
+      - 🇺🇸+美国-油管3+2_5
+      - C+237_6
+      - C+253_7
+      - C+181_8
+      - C+113_9
+      - C+174_10
+      - C+251_11
+      - C+168_12
+      - C+145_13
+      - C+84_14
+      - 馃嚚馃嚳CZ_2454+|33.27Mb
+      - 🇭🇰 香港-油管3_16
+      - C+213_17
+      - C+64_18
+      - C+235_19
+      - C+83_20
+      - 挪威+3_21
+      - C+125_22
+      - C+48_23
+      - C+204_24
+      - C+229_25
+      - C+184_26
+      - C+197_27
+      - C+187_28
+      - C+176_29
+      - n_11-8Y+46_30
+      - C+88_31
+      - 馃嚚馃嚳CZ_2473+|31.29Mb
+      - C+191_33
+      - C+192_34
+      - C+249_35
+      - C+250_36
+      - C+190_37
+      - C+247_38
+      - C+218_39
+      - C+167_40
+      - C+164_41
+      - C+246_42
+      - C+157_43
+      - 🇺🇸+Te+116_44
+      - C+193_45
+      - C+165_46
+      - 🇺🇸 FREE_V2ray_US_B 倍率*0.2_47
+      - 🇨🇦+加拿大_48
+      - C+87_49
+      - C+92_50
+      - 馃嚚馃嚘CA_1914+|25.69Mb
+      - C+239_52
+      - 🇭🇰+香港_53
+      - C+152_54
+      - 🇺🇸 Te 105_55
+      - C+73_56
+      - C 28_57
+      - C+46_58
+      - 🇺🇸+Te+38_59
+      - 🇺🇸+Te+104_60
+      - 🇺🇸+Te+108_61
+      - 🇺🇸+Te+35_62
+      - C+160_63
+      - 🇩🇪+m_🇩🇪_DE_德国_6
+      - 🇫🇷+法国+2_65
+      - C+30_66
+      - 🇨🇳 台湾-油管4_67
+      - C+172_68
+      - C+170_69
+      - C+179_70
+      - 🇺🇸+Te+103_71
+      - 🇺🇸+Te+123_72
+      - C+173_73
+      - 🇺🇸+Te+34_74
+      - C+109_75
+      - C+184_76
+      - C+175_77
+      - C+118_78
+      - C+194_79
+      - C+196_80
+      - 🇨🇳 台湾-油管6 2_81
+      - C+121_82
+      - C+223_83
+      - C+96_84
+      - 挪威+6_85
+      - 🇺🇸+美国-油管1+3_86
+      - 欧洲+2_87
+      - 🇺🇸+美国-油管1+2_88
+      - C 118_89
+      - C+182_90
+      - C+52_91
+      - C+107_92
+      - C+150_93
+      - n_11-8Y+60_94
+      - 馃嚭馃嚫US_13522
+      - 🇺🇸+美国-油管2_96
+      - n_11-8Y+51_97
+      - 🇩🇪+m_🇩🇪_DE_德国_4
+      - m_🇸🇰_SK_斯洛伐克_17
+      - C+39_100
+      - C+89_101
+      - C+149_102
+      - 🇺🇸+美国-油管3_103
+      - 🇺🇸+Te+18_104
+      - C+53_105
+      - 🇺🇸+Te+113_106
+      - 🇺🇸+Te+91_107
+      - C+67_108
+      - m_🇸🇰_SK_斯洛伐克_16
+      - 🇺🇸+Te+98_110
+      - 🇺🇸+Te+95_111
+      - 馃嚝馃嚪FR_3309+|52.74Mb
+      - 🇺🇸+Te+99_113
+      - 🇩🇪+m_🇩🇪_DE_德国_8
+      - 🇳🇱+荷兰+19_115
+      - C+232_116
+      - 馃嚝馃嚪FR_3353+|35.00Mb
+      - 🇺🇸+Te+89_118
+      - C+116_119
+      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_48
+      - 🇺🇸+Te+90_121
+      - 🇺🇸+Te+97_122
+      - C+174_123
+      - 馃嚝馃嚪FR_3697+|+5.53Mb
+      - 🇫🇷+法国_125
+      - 馃嚝馃嚪FR_3309+|52.74Mb_127
+      - 🇩🇪+m_🇩🇪_DE_德国_7
+      - 🇺🇸+Te+96_128
+      - 馃嚦馃嚧NO_81
+      - 🇺🇸+Te+124_130
+      - 🇳🇱+荷兰+18_131
+      - C+124_132
+      - C+24_133
+      - C+88_134
+      - 🇬🇧+英国+41_135
+      - C+85_136
+      - C+136_137
+      - C+122_138
+      - C+112_139
+      - C+178_140
+      - C+177_141
+      - 馃嚦馃嚧NO_6355+|+4.34Mb
+      - 瑞典+4_143
+      - C+226_144
+      - 欧洲+5_145
+      - C+102_146
+      - C+182_147
+      - 🇸🇬 新加坡-油管5_148
+      - 🇸🇪+m_🇸🇪_SE_瑞典_12
+      - n_11-8Y+52_150
+      - 欧洲+6_151
+      - C+192_152
+      - C+228_153
+      - C+240_154
+      - C+185_155
+      - C+73_156
+      - 馃嚦馃嚧NO_6378+|+8.19Mb
+      - 🇺🇸+Te+112_158
+      - C+57_159
+      - 馃嚭馃嚫US_11465
+      - 馃嚭馃嚫US_11479
+      - 馃嚭馃嚫US_11401
+      - C+207_163
+      - 馃嚭馃嚫US_11471
+      - 🇨🇦+m_🇨🇦_CA_加拿大_5
+      - C+187_166
+      - 馃嚭馃嚫US_11470
+      - 馃嚭馃嚫US_11420
+      - 馃嚭馃嚫US_11473
+      - 馃嚭馃嚫US_11646
+      - 🇺🇲 美国 13_171
+      - 馃嚝馃嚪FR_3825+|+9.48Mb
+      - 🇩🇪+m_🇩🇪_DE_德国_9
+      - C+141_174
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇭🇰HK-🇺🇸US_2640
-      - 欧洲欢迎订阅_2
-      - 欧洲欢迎订阅_3
-      - 欧洲欢迎订阅_4
-      - 欧洲欢迎订阅_5
-      - 美国欢迎订阅_6
-      - 美国欢迎订阅_7
-      - 美国欢迎订阅_8
-      - 欧洲欢迎订阅_9
-      - 香港欢迎订阅_10
-      - 欧洲欢迎订阅_11
-      - 欧洲欢迎订阅_12
-      - 欧洲欢迎订阅_13
-      - 欧洲欢迎订阅_14
-      - 🇳🇱NL_4055
-      - 美国欢迎订阅_16
-      - 美国欢迎订阅_17
-      - 加拿大欢迎订阅_18
-      - 新加坡欢迎订阅_19
-      - 美国欢迎订阅_20
-      - 法国欢迎订阅_21
-      - 俄罗斯欢迎订阅_22
-      - 美国欢迎订阅_23
-      - 美国欢迎订阅_24
-      - 欧洲欢迎订阅_25
-      - 法国欢迎订阅_26
-      - 法国欢迎订阅_27
-      - 欧洲欢迎订阅_28
-      - 法国欢迎订阅_29
-      - 加拿大欢迎订阅_30
-      - 欧洲欢迎订阅_31
-      - 欧洲欢迎订阅_32
-      - 意大利欢迎订阅_33
-      - 欧洲欢迎订阅_34
-      - 欧洲欢迎订阅_35
-      - 美国欢迎订阅_36
-      - 欧洲欢迎订阅_37
-      - 美国欢迎订阅_38
-      - 欧洲欢迎订阅_39
-      - 美国欢迎订阅_40
-      - 俄罗斯欢迎订阅_41
+      - 🇺🇸+美国-油管1_1
+      - C+206_2
+      - 🇨🇦+加拿大+2_3
+      - 🇹🇷+m_🇹🇷_TR_土耳其_4
+      - 🇺🇸+美国-油管3+2_5
+      - C+237_6
+      - C+253_7
+      - C+181_8
+      - C+113_9
+      - C+174_10
+      - C+251_11
+      - C+168_12
+      - C+145_13
+      - C+84_14
+      - 馃嚚馃嚳CZ_2454+|33.27Mb
+      - 🇭🇰 香港-油管3_16
+      - C+213_17
+      - C+64_18
+      - C+235_19
+      - C+83_20
+      - 挪威+3_21
+      - C+125_22
+      - C+48_23
+      - C+204_24
+      - C+229_25
+      - C+184_26
+      - C+197_27
+      - C+187_28
+      - C+176_29
+      - n_11-8Y+46_30
+      - C+88_31
+      - 馃嚚馃嚳CZ_2473+|31.29Mb
+      - C+191_33
+      - C+192_34
+      - C+249_35
+      - C+250_36
+      - C+190_37
+      - C+247_38
+      - C+218_39
+      - C+167_40
+      - C+164_41
+      - C+246_42
+      - C+157_43
+      - 🇺🇸+Te+116_44
+      - C+193_45
+      - C+165_46
+      - 🇺🇸 FREE_V2ray_US_B 倍率*0.2_47
+      - 🇨🇦+加拿大_48
+      - C+87_49
+      - C+92_50
+      - 馃嚚馃嚘CA_1914+|25.69Mb
+      - C+239_52
+      - 🇭🇰+香港_53
+      - C+152_54
+      - 🇺🇸 Te 105_55
+      - C+73_56
+      - C 28_57
+      - C+46_58
+      - 🇺🇸+Te+38_59
+      - 🇺🇸+Te+104_60
+      - 🇺🇸+Te+108_61
+      - 🇺🇸+Te+35_62
+      - C+160_63
+      - 🇩🇪+m_🇩🇪_DE_德国_6
+      - 🇫🇷+法国+2_65
+      - C+30_66
+      - 🇨🇳 台湾-油管4_67
+      - C+172_68
+      - C+170_69
+      - C+179_70
+      - 🇺🇸+Te+103_71
+      - 🇺🇸+Te+123_72
+      - C+173_73
+      - 🇺🇸+Te+34_74
+      - C+109_75
+      - C+184_76
+      - C+175_77
+      - C+118_78
+      - C+194_79
+      - C+196_80
+      - 🇨🇳 台湾-油管6 2_81
+      - C+121_82
+      - C+223_83
+      - C+96_84
+      - 挪威+6_85
+      - 🇺🇸+美国-油管1+3_86
+      - 欧洲+2_87
+      - 🇺🇸+美国-油管1+2_88
+      - C 118_89
+      - C+182_90
+      - C+52_91
+      - C+107_92
+      - C+150_93
+      - n_11-8Y+60_94
+      - 馃嚭馃嚫US_13522
+      - 🇺🇸+美国-油管2_96
+      - n_11-8Y+51_97
+      - 🇩🇪+m_🇩🇪_DE_德国_4
+      - m_🇸🇰_SK_斯洛伐克_17
+      - C+39_100
+      - C+89_101
+      - C+149_102
+      - 🇺🇸+美国-油管3_103
+      - 🇺🇸+Te+18_104
+      - C+53_105
+      - 🇺🇸+Te+113_106
+      - 🇺🇸+Te+91_107
+      - C+67_108
+      - m_🇸🇰_SK_斯洛伐克_16
+      - 🇺🇸+Te+98_110
+      - 🇺🇸+Te+95_111
+      - 馃嚝馃嚪FR_3309+|52.74Mb
+      - 🇺🇸+Te+99_113
+      - 🇩🇪+m_🇩🇪_DE_德国_8
+      - 🇳🇱+荷兰+19_115
+      - C+232_116
+      - 馃嚝馃嚪FR_3353+|35.00Mb
+      - 🇺🇸+Te+89_118
+      - C+116_119
+      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_48
+      - 🇺🇸+Te+90_121
+      - 🇺🇸+Te+97_122
+      - C+174_123
+      - 馃嚝馃嚪FR_3697+|+5.53Mb
+      - 🇫🇷+法国_125
+      - 馃嚝馃嚪FR_3309+|52.74Mb_127
+      - 🇩🇪+m_🇩🇪_DE_德国_7
+      - 🇺🇸+Te+96_128
+      - 馃嚦馃嚧NO_81
+      - 🇺🇸+Te+124_130
+      - 🇳🇱+荷兰+18_131
+      - C+124_132
+      - C+24_133
+      - C+88_134
+      - 🇬🇧+英国+41_135
+      - C+85_136
+      - C+136_137
+      - C+122_138
+      - C+112_139
+      - C+178_140
+      - C+177_141
+      - 馃嚦馃嚧NO_6355+|+4.34Mb
+      - 瑞典+4_143
+      - C+226_144
+      - 欧洲+5_145
+      - C+102_146
+      - C+182_147
+      - 🇸🇬 新加坡-油管5_148
+      - 🇸🇪+m_🇸🇪_SE_瑞典_12
+      - n_11-8Y+52_150
+      - 欧洲+6_151
+      - C+192_152
+      - C+228_153
+      - C+240_154
+      - C+185_155
+      - C+73_156
+      - 馃嚦馃嚧NO_6378+|+8.19Mb
+      - 🇺🇸+Te+112_158
+      - C+57_159
+      - 馃嚭馃嚫US_11465
+      - 馃嚭馃嚫US_11479
+      - 馃嚭馃嚫US_11401
+      - C+207_163
+      - 馃嚭馃嚫US_11471
+      - 🇨🇦+m_🇨🇦_CA_加拿大_5
+      - C+187_166
+      - 馃嚭馃嚫US_11470
+      - 馃嚭馃嚫US_11420
+      - 馃嚭馃嚫US_11473
+      - 馃嚭馃嚫US_11646
+      - 🇺🇲 美国 13_171
+      - 馃嚝馃嚪FR_3825+|+9.48Mb
+      - 🇩🇪+m_🇩🇪_DE_德国_9
+      - C+141_174
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -386,47 +1450,180 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇭🇰HK-🇺🇸US_2640
-      - 欧洲欢迎订阅_2
-      - 欧洲欢迎订阅_3
-      - 欧洲欢迎订阅_4
-      - 欧洲欢迎订阅_5
-      - 美国欢迎订阅_6
-      - 美国欢迎订阅_7
-      - 美国欢迎订阅_8
-      - 欧洲欢迎订阅_9
-      - 香港欢迎订阅_10
-      - 欧洲欢迎订阅_11
-      - 欧洲欢迎订阅_12
-      - 欧洲欢迎订阅_13
-      - 欧洲欢迎订阅_14
-      - 🇳🇱NL_4055
-      - 美国欢迎订阅_16
-      - 美国欢迎订阅_17
-      - 加拿大欢迎订阅_18
-      - 新加坡欢迎订阅_19
-      - 美国欢迎订阅_20
-      - 法国欢迎订阅_21
-      - 俄罗斯欢迎订阅_22
-      - 美国欢迎订阅_23
-      - 美国欢迎订阅_24
-      - 欧洲欢迎订阅_25
-      - 法国欢迎订阅_26
-      - 法国欢迎订阅_27
-      - 欧洲欢迎订阅_28
-      - 法国欢迎订阅_29
-      - 加拿大欢迎订阅_30
-      - 欧洲欢迎订阅_31
-      - 欧洲欢迎订阅_32
-      - 意大利欢迎订阅_33
-      - 欧洲欢迎订阅_34
-      - 欧洲欢迎订阅_35
-      - 美国欢迎订阅_36
-      - 欧洲欢迎订阅_37
-      - 美国欢迎订阅_38
-      - 欧洲欢迎订阅_39
-      - 美国欢迎订阅_40
-      - 俄罗斯欢迎订阅_41
+      - 🇺🇸+美国-油管1_1
+      - C+206_2
+      - 🇨🇦+加拿大+2_3
+      - 🇹🇷+m_🇹🇷_TR_土耳其_4
+      - 🇺🇸+美国-油管3+2_5
+      - C+237_6
+      - C+253_7
+      - C+181_8
+      - C+113_9
+      - C+174_10
+      - C+251_11
+      - C+168_12
+      - C+145_13
+      - C+84_14
+      - 馃嚚馃嚳CZ_2454+|33.27Mb
+      - 🇭🇰 香港-油管3_16
+      - C+213_17
+      - C+64_18
+      - C+235_19
+      - C+83_20
+      - 挪威+3_21
+      - C+125_22
+      - C+48_23
+      - C+204_24
+      - C+229_25
+      - C+184_26
+      - C+197_27
+      - C+187_28
+      - C+176_29
+      - n_11-8Y+46_30
+      - C+88_31
+      - 馃嚚馃嚳CZ_2473+|31.29Mb
+      - C+191_33
+      - C+192_34
+      - C+249_35
+      - C+250_36
+      - C+190_37
+      - C+247_38
+      - C+218_39
+      - C+167_40
+      - C+164_41
+      - C+246_42
+      - C+157_43
+      - 🇺🇸+Te+116_44
+      - C+193_45
+      - C+165_46
+      - 🇺🇸 FREE_V2ray_US_B 倍率*0.2_47
+      - 🇨🇦+加拿大_48
+      - C+87_49
+      - C+92_50
+      - 馃嚚馃嚘CA_1914+|25.69Mb
+      - C+239_52
+      - 🇭🇰+香港_53
+      - C+152_54
+      - 🇺🇸 Te 105_55
+      - C+73_56
+      - C 28_57
+      - C+46_58
+      - 🇺🇸+Te+38_59
+      - 🇺🇸+Te+104_60
+      - 🇺🇸+Te+108_61
+      - 🇺🇸+Te+35_62
+      - C+160_63
+      - 🇩🇪+m_🇩🇪_DE_德国_6
+      - 🇫🇷+法国+2_65
+      - C+30_66
+      - 🇨🇳 台湾-油管4_67
+      - C+172_68
+      - C+170_69
+      - C+179_70
+      - 🇺🇸+Te+103_71
+      - 🇺🇸+Te+123_72
+      - C+173_73
+      - 🇺🇸+Te+34_74
+      - C+109_75
+      - C+184_76
+      - C+175_77
+      - C+118_78
+      - C+194_79
+      - C+196_80
+      - 🇨🇳 台湾-油管6 2_81
+      - C+121_82
+      - C+223_83
+      - C+96_84
+      - 挪威+6_85
+      - 🇺🇸+美国-油管1+3_86
+      - 欧洲+2_87
+      - 🇺🇸+美国-油管1+2_88
+      - C 118_89
+      - C+182_90
+      - C+52_91
+      - C+107_92
+      - C+150_93
+      - n_11-8Y+60_94
+      - 馃嚭馃嚫US_13522
+      - 🇺🇸+美国-油管2_96
+      - n_11-8Y+51_97
+      - 🇩🇪+m_🇩🇪_DE_德国_4
+      - m_🇸🇰_SK_斯洛伐克_17
+      - C+39_100
+      - C+89_101
+      - C+149_102
+      - 🇺🇸+美国-油管3_103
+      - 🇺🇸+Te+18_104
+      - C+53_105
+      - 🇺🇸+Te+113_106
+      - 🇺🇸+Te+91_107
+      - C+67_108
+      - m_🇸🇰_SK_斯洛伐克_16
+      - 🇺🇸+Te+98_110
+      - 🇺🇸+Te+95_111
+      - 馃嚝馃嚪FR_3309+|52.74Mb
+      - 🇺🇸+Te+99_113
+      - 🇩🇪+m_🇩🇪_DE_德国_8
+      - 🇳🇱+荷兰+19_115
+      - C+232_116
+      - 馃嚝馃嚪FR_3353+|35.00Mb
+      - 🇺🇸+Te+89_118
+      - C+116_119
+      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_48
+      - 🇺🇸+Te+90_121
+      - 🇺🇸+Te+97_122
+      - C+174_123
+      - 馃嚝馃嚪FR_3697+|+5.53Mb
+      - 🇫🇷+法国_125
+      - 馃嚝馃嚪FR_3309+|52.74Mb_127
+      - 🇩🇪+m_🇩🇪_DE_德国_7
+      - 🇺🇸+Te+96_128
+      - 馃嚦馃嚧NO_81
+      - 🇺🇸+Te+124_130
+      - 🇳🇱+荷兰+18_131
+      - C+124_132
+      - C+24_133
+      - C+88_134
+      - 🇬🇧+英国+41_135
+      - C+85_136
+      - C+136_137
+      - C+122_138
+      - C+112_139
+      - C+178_140
+      - C+177_141
+      - 馃嚦馃嚧NO_6355+|+4.34Mb
+      - 瑞典+4_143
+      - C+226_144
+      - 欧洲+5_145
+      - C+102_146
+      - C+182_147
+      - 🇸🇬 新加坡-油管5_148
+      - 🇸🇪+m_🇸🇪_SE_瑞典_12
+      - n_11-8Y+52_150
+      - 欧洲+6_151
+      - C+192_152
+      - C+228_153
+      - C+240_154
+      - C+185_155
+      - C+73_156
+      - 馃嚦馃嚧NO_6378+|+8.19Mb
+      - 🇺🇸+Te+112_158
+      - C+57_159
+      - 馃嚭馃嚫US_11465
+      - 馃嚭馃嚫US_11479
+      - 馃嚭馃嚫US_11401
+      - C+207_163
+      - 馃嚭馃嚫US_11471
+      - 🇨🇦+m_🇨🇦_CA_加拿大_5
+      - C+187_166
+      - 馃嚭馃嚫US_11470
+      - 馃嚭馃嚫US_11420
+      - 馃嚭馃嚫US_11473
+      - 馃嚭馃嚫US_11646
+      - 🇺🇲 美国 13_171
+      - 馃嚝馃嚪FR_3825+|+9.48Mb
+      - 🇩🇪+m_🇩🇪_DE_德国_9
+      - C+141_174
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
