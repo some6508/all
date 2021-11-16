@@ -5,76 +5,1532 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇳🇱_NL_荷兰_1', server: 89.46.223.93, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: '🇳🇱_NL_荷兰_2', server: 89.46.223.91, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: '🇳🇱_NL_荷兰_3', server: 89.46.223.218, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: '🇳🇱_NL_荷兰_4', server: 89.46.223.57, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: 'Youtube技术分享室整理_1', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '土耳其+🇹🇷Youtube技术分享室整理_2', server: 107.150.94.12, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_3', server: 185.76.8.218, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_4', server: 185.76.8.218, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_5', server: 185.76.8.218, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 'CYoutube技术分享室整理_6', server: azhk.alink123.com, port: 11045, type: trojan, password: 765040cb-15f4-43da-9e07-4b92c767d222, sni: azhk.alink123.com}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_7', server: 185.76.8.218, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_8', server: 185.76.8.218, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_9', server: 185.76.8.218, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 'Youtube技术分享室整理_10', server: 107.189.14.137, port: 33009, type: vmess, uuid: 9d0ab632-2d98-45a2-b9c5-9ebc3f6951f6, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '🇫🇷FRYoutube技术分享室整理_11', server: 185.166.84.63, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_12', server: 185.76.8.218, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_13', server: 185.76.8.218, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: '🇺🇸USYoutube技术分享室整理_14', server: 156.146.62.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_15', server: 185.76.8.218, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: '🇷🇴ROYoutube技术分享室整理_16', server: 89.37.95.16, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: '🇷🇴ROYoutube技术分享室整理_17', server: 89.37.95.16, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_18', server: 185.76.8.218, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '🇷🇴ROYoutube技术分享室整理_19', server: 89.37.95.16, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '🇷🇴ROYoutube技术分享室整理_20', server: 89.37.95.16, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: '土耳其+🇹🇷Youtube技术分享室整理_21', server: 107.150.94.14, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_22', server: 185.76.8.218, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_23', server: 185.76.8.218, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: '🇷🇴ROYoutube技术分享室整理_24', server: 89.37.95.16, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: '🇺🇸USYoutube技术分享室整理_25', server: 154.16.171.215, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: '🇷🇴ROYoutube技术分享室整理_26', server: 89.37.95.16, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 'USYoutube技术分享室整理_27', server: 138.199.42.134, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_28', server: 185.76.8.218, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_29', server: 185.76.8.218, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_30', server: 185.76.8.218, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_31', server: 185.76.8.218, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: '🇺🇸USYoutube技术分享室整理_32', server: 156.146.62.45, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
+  - {name: '🇦🇱ALYoutube技术分享室整理_33', server: 31.171.154.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: '🇺🇸USYoutube技术分享室整理_34', server: 156.146.62.45, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '🇺🇸+LasVegasYoutube技术分享室整理_35', server: 79.110.54.133, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_36', server: 185.76.8.218, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_37', server: 185.76.8.218, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_38', server: 185.76.8.218, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: '🇦🇱ALYoutube技术分享室整理_39', server: 31.171.153.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_40', server: 185.76.8.218, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: '🇮🇩IDYoutube技术分享室整理_41', server: 103.120.66.216, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_42', server: 185.76.8.218, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '🇺🇸US美国Youtube技术分享室整理_43', server: 185.124.240.146, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: '🇦🇺AUYoutube技术分享室整理_44', server: 144.48.39.123, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '🇺🇸USYoutube技术分享室整理_45', server: 156.146.62.45, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: '🇮🇩IDYoutube技术分享室整理_46', server: 103.120.66.219, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: '🇺🇸USYoutube技术分享室整理_47', server: 156.146.62.45, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: '美国Youtube技术分享室整理_48', server: 138.199.42.170, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: '🇺🇸USYoutube技术分享室整理_49', server: 156.146.62.45, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 'USYoutube技术分享室整理_50', server: 185.124.240.146, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: '美国Youtube技术分享室整理_51', server: 120.232.215.153, port: 48931, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: '🇺🇸USYoutube技术分享室整理_52', server: 156.146.62.45, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: '美国Youtube技术分享室整理_53', server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_54', server: 185.76.8.218, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: '🇺🇸USYoutube技术分享室整理_55', server: 156.146.62.45, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: '🇺🇸USYoutube技术分享室整理_56', server: 156.146.62.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: '🇺🇸USYoutube技术分享室整理_57', server: 156.146.62.45, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_58', server: 156.146.33.66, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: '🇺🇸USYoutube技术分享室整理_59', server: 156.146.62.45, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: '法Youtube技术分享室整理_60', server: 185.76.8.218, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_61', server: 156.146.33.66, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: '🇺🇸USYoutube技术分享室整理_62', server: 156.146.62.45, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: '🇺🇸USYoutube技术分享室整理_63', server: 156.146.62.45, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_64', server: 156.146.33.66, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: '🇺🇸USYoutube技术分享室整理_65', server: 156.146.62.45, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: '美国Youtube技术分享室整理_66', server: 138.199.42.170, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: '🇮🇹ITYoutube技术分享室整理_67', server: 82.102.16.102, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_68', server: 156.146.33.66, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_69', server: 185.76.8.218, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: '🇮🇹ITYoutube技术分享室整理_70', server: 82.102.16.102, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: '🇮🇹ITYoutube技术分享室整理_71', server: 82.102.16.102, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '🇮🇹ITYoutube技术分享室整理_72', server: 82.102.16.102, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_73', server: 156.146.33.74, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_74', server: 156.146.33.74, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: '美国Youtube技术分享室整理_75', server: 194.110.115.84, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_76', server: 185.76.9.56, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_77', server: 185.76.9.56, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: '美国Youtube技术分享室整理_78', server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray}
+  - {name: '🇮🇹ITYoutube技术分享室整理_79', server: 82.102.16.102, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: '🇮🇹ITYoutube技术分享室整理_80', server: 82.102.16.102, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: '🇮🇹ITYoutube技术分享室整理_81', server: 82.102.16.102, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: '🇦🇺AUYoutube技术分享室整理_82', server: 144.48.39.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_83', server: 156.146.33.66, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_84', server: 156.146.33.74, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_85', server: 156.146.33.74, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_86', server: 156.146.33.74, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: '德国+🇩🇪技术分享室整理,欢迎订阅_87', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_88', server: 185.76.9.56, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_89', server: 185.76.9.56, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '🇮🇹ITYoutube技术分享室整理_90', server: 82.102.16.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: '🇮🇹ITYoutube技术分享室整理_91', server: 82.102.16.102, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: '🇮🇹ITYoutube技术分享室整理_92', server: 82.102.16.102, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_93', server: 156.146.33.66, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '美国Youtube技术分享室整理_94', server: 138.199.42.170, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_95', server: 156.146.33.66, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_96', server: 156.146.33.74, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
+  - {name: '🇮🇹ITYoutube技术分享室整理_97', server: 82.102.16.102, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: '美国Youtube技术分享室整理_98', server: 138.199.42.170, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_99', server: 185.76.9.56, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: '加拿大🇨🇦技术分享室整理,欢迎订阅_100', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇮🇹ITYoutube技术分享室整理_101', server: 82.102.16.102, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: '🇮🇹ITYoutube技术分享室整理_102', server: 82.102.16.102, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: '🇮🇹ITYoutube技术分享室整理_103', server: 82.102.16.102, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: '🇮🇹ITYoutube技术分享室整理_104', server: 82.102.16.102, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_105', server: 156.146.33.74, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_106', server: 156.146.33.74, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_107', server: 156.146.33.74, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_108', server: 156.146.33.74, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_109', server: 156.146.33.66, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_110', server: 185.76.9.56, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
+  - {name: '法Youtube技术分享室整理_111', server: 185.76.9.56, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: '加拿大技术分享室整理,欢迎订阅_112', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_113', server: 185.76.9.56, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: '加拿大技术分享室整理,欢迎订阅_114', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '英国Youtube技术分享室整理_115', server: 156.146.33.74, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_116', server: 185.76.9.56, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: '法国Youtube技术分享室整理_117', server: 185.76.9.56, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '法Youtube技术分享室整理_118', server: 185.76.9.56, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '加拿大🇨🇦技术分享室整理,欢迎订阅_119', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇮🇹ITYoutube技术分享室整理_120', server: 82.102.16.102, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '🇮🇹ITYoutube技术分享室整理_121', server: 82.102.16.102, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: '🇮🇹ITYoutube技术分享室整理_122', server: 82.102.16.102, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: '🇮🇹ITYoutube技术分享室整理_123', server: 82.102.16.102, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_124', server: 156.146.33.74, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_125', server: 156.146.33.74, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_126', server: 185.76.9.56, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_127', server: 185.76.9.56, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_128', server: 185.76.9.56, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 'SEYoutube技术分享室整理_129', server: 185.76.9.56, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_130', server: 185.76.9.56, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
+  - {name: '🇺🇸USYoutube技术分享室整理_131', server: 45.89.173.203, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: '🇮🇹ITYoutube技术分享室整理_132', server: 82.102.16.102, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '🇮🇹ITYoutube技术分享室整理_133', server: 82.102.16.102, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: '🇮🇹ITYoutube技术分享室整理_134', server: 82.102.16.102, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_135', server: 156.146.33.74, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: '🇮🇹ITYoutube技术分享室整理_136', server: 82.102.16.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 'SEYoutube技术分享室整理_137', server: 185.76.9.56, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: '美国Youtube技术分享室整理_138', server: 194.110.115.86, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_139', server: 185.76.9.56, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 'SGYoutube技术分享室整理_140', server: 159.223.76.179, port: 25337, type: vmess, uuid: c2260617-20d9-40cd-c026-7d44a2406a2c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_141', server: 185.76.8.218, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 'trYoutube技术分享室整理_142', server: 107.150.94.12, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: '🇮🇹ITYoutube技术分享室整理_143', server: 82.102.16.102, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 'Youtube技术分享室整理_144', server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大Youtube技术分享室整理,欢迎订阅_145', server: 198.8.92.84, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: '美国Youtube技术分享室整理_146', server: 194.110.115.86, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '土耳其+🇹🇷Youtube技术分享室整理_147', server: 107.150.94.14, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: '挪威技术分享室整理,欢迎订阅_148', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '挪威技术分享室整理,欢迎订阅_149', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇳🇴NO技术分享室整理,欢迎订阅_150', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '挪威+🇳🇴技术分享室整理,欢迎订阅_151', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国Youtube技术分享室整理_152', server: 194.110.115.84, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'CA技术分享室整理,欢迎订阅_153', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '挪威+🇳🇴技术分享室整理,欢迎订阅_154', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '挪威技术分享室整理,欢迎订阅_155', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_156', server: 156.146.33.74, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '新西兰Youtube技术分享室整理_157', server: 107.150.94.14, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: '土耳其+🇹🇷Youtube技术分享室整理_158', server: 107.150.94.14, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: '新西兰Youtube技术分享室整理_159', server: 107.150.94.12, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: '德国+🇩🇪技术分享室整理,欢迎订阅_160', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '德国+🇩🇪技术分享室整理,欢迎订阅_161', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国Youtube技术分享室整理_162', server: 194.110.115.86, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: '挪威+🇳🇴技术分享室整理,欢迎订阅_163', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '加拿大Youtube技术分享室整理_164', server: t6.ssrsub.com, port: 1033, type: trojan, password: e54a480c-77e3-41ca-8f8b-17ffb50dbd08}
+  - {name: '加拿大Youtube技术分享室整理_165', server: t6.ssrsub.com, port: 1033, type: trojan, password: 92a95e6d-cf89-42ee-8110-66fab6871e2f}
+  - {name: '🇨🇦CAYoutube技术分享室整理_166', server: v6.ssrsub.com, port: 168, type: vmess, uuid: 92a95e6d-cf89-42ee-8110-66fab6871e2f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇨🇦CAYoutube技术分享室整理_167', server: v6.ssrsub.com, port: 168, type: vmess, uuid: e54a480c-77e3-41ca-8f8b-17ffb50dbd08, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇷🇴ROYoutube技术分享室整理_168', server: 193.29.107.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'USYoutube技术分享室整理_169', server: 138.199.42.134, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: '英国Youtube技术分享室整理_170', server: 172.99.190.158, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸USYoutube技术分享室整理_171', server: 154.16.171.215, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '🇺🇸技术分享室整理,欢迎订阅_172', server: 134.195.198.252, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇩🇰DKYoutube技术分享室整理_173', server: 37.120.194.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '🇺🇸USYoutube技术分享室整理_174', server: 66.115.147.82, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: '🇮🇹ITYoutube技术分享室整理_175', server: 82.102.16.102, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: '🇦🇺AUYoutube技术分享室整理_176', server: 144.48.38.179, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_177', server: 156.146.33.74, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: '🇦🇺AUYoutube技术分享室整理_178', server: 45.130.137.14, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_179', server: 156.146.33.66, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_180', server: 185.76.9.56, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: 'CAYoutube技术分享室整理_181', server: 198.8.92.84, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_182', server: 185.76.8.218, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_183', server: 185.76.8.218, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_184', server: 185.76.8.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_185', server: 185.76.8.218, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: '瑞典+🇸🇪Youtube技术分享室整理_186', server: 185.76.8.218, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - Youtube技术分享室整理_1
+      - 土耳其+🇹🇷Youtube技术分享室整理_2
+      - 瑞典+🇸🇪Youtube技术分享室整理_3
+      - 瑞典+🇸🇪Youtube技术分享室整理_4
+      - 瑞典+🇸🇪Youtube技术分享室整理_5
+      - CYoutube技术分享室整理_6
+      - 瑞典+🇸🇪Youtube技术分享室整理_7
+      - 瑞典+🇸🇪Youtube技术分享室整理_8
+      - 瑞典+🇸🇪Youtube技术分享室整理_9
+      - Youtube技术分享室整理_10
+      - 🇫🇷FRYoutube技术分享室整理_11
+      - 瑞典+🇸🇪Youtube技术分享室整理_12
+      - 瑞典+🇸🇪Youtube技术分享室整理_13
+      - 🇺🇸USYoutube技术分享室整理_14
+      - 瑞典+🇸🇪Youtube技术分享室整理_15
+      - 🇷🇴ROYoutube技术分享室整理_16
+      - 🇷🇴ROYoutube技术分享室整理_17
+      - 瑞典+🇸🇪Youtube技术分享室整理_18
+      - 🇷🇴ROYoutube技术分享室整理_19
+      - 🇷🇴ROYoutube技术分享室整理_20
+      - 土耳其+🇹🇷Youtube技术分享室整理_21
+      - 瑞典+🇸🇪Youtube技术分享室整理_22
+      - 瑞典+🇸🇪Youtube技术分享室整理_23
+      - 🇷🇴ROYoutube技术分享室整理_24
+      - 🇺🇸USYoutube技术分享室整理_25
+      - 🇷🇴ROYoutube技术分享室整理_26
+      - USYoutube技术分享室整理_27
+      - 瑞典+🇸🇪Youtube技术分享室整理_28
+      - 瑞典+🇸🇪Youtube技术分享室整理_29
+      - 瑞典+🇸🇪Youtube技术分享室整理_30
+      - 瑞典+🇸🇪Youtube技术分享室整理_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇦🇱ALYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - 🇺🇸+LasVegasYoutube技术分享室整理_35
+      - 瑞典+🇸🇪Youtube技术分享室整理_36
+      - 瑞典+🇸🇪Youtube技术分享室整理_37
+      - 瑞典+🇸🇪Youtube技术分享室整理_38
+      - 🇦🇱ALYoutube技术分享室整理_39
+      - 瑞典+🇸🇪Youtube技术分享室整理_40
+      - 🇮🇩IDYoutube技术分享室整理_41
+      - 瑞典+🇸🇪Youtube技术分享室整理_42
+      - 🇺🇸US美国Youtube技术分享室整理_43
+      - 🇦🇺AUYoutube技术分享室整理_44
+      - 🇺🇸USYoutube技术分享室整理_45
+      - 🇮🇩IDYoutube技术分享室整理_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 美国Youtube技术分享室整理_48
+      - 🇺🇸USYoutube技术分享室整理_49
+      - USYoutube技术分享室整理_50
+      - 美国Youtube技术分享室整理_51
+      - 🇺🇸USYoutube技术分享室整理_52
+      - 美国Youtube技术分享室整理_53
+      - 瑞典+🇸🇪Youtube技术分享室整理_54
+      - 🇺🇸USYoutube技术分享室整理_55
+      - 🇺🇸USYoutube技术分享室整理_56
+      - 🇺🇸USYoutube技术分享室整理_57
+      - 德国+🇩🇪Youtube技术分享室整理_58
+      - 🇺🇸USYoutube技术分享室整理_59
+      - 法Youtube技术分享室整理_60
+      - 德国+🇩🇪Youtube技术分享室整理_61
+      - 🇺🇸USYoutube技术分享室整理_62
+      - 🇺🇸USYoutube技术分享室整理_63
+      - 德国+🇩🇪Youtube技术分享室整理_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 美国Youtube技术分享室整理_66
+      - 🇮🇹ITYoutube技术分享室整理_67
+      - 德国+🇩🇪Youtube技术分享室整理_68
+      - 瑞典+🇸🇪Youtube技术分享室整理_69
+      - 🇮🇹ITYoutube技术分享室整理_70
+      - 🇮🇹ITYoutube技术分享室整理_71
+      - 🇮🇹ITYoutube技术分享室整理_72
+      - 德国+🇩🇪Youtube技术分享室整理_73
+      - 德国+🇩🇪Youtube技术分享室整理_74
+      - 美国Youtube技术分享室整理_75
+      - 瑞典+🇸🇪Youtube技术分享室整理_76
+      - 瑞典+🇸🇪Youtube技术分享室整理_77
+      - 美国Youtube技术分享室整理_78
+      - 🇮🇹ITYoutube技术分享室整理_79
+      - 🇮🇹ITYoutube技术分享室整理_80
+      - 🇮🇹ITYoutube技术分享室整理_81
+      - 🇦🇺AUYoutube技术分享室整理_82
+      - 德国+🇩🇪Youtube技术分享室整理_83
+      - 德国+🇩🇪Youtube技术分享室整理_84
+      - 德国+🇩🇪Youtube技术分享室整理_85
+      - 德国+🇩🇪Youtube技术分享室整理_86
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_87
+      - 瑞典+🇸🇪Youtube技术分享室整理_88
+      - 瑞典+🇸🇪Youtube技术分享室整理_89
+      - 🇮🇹ITYoutube技术分享室整理_90
+      - 🇮🇹ITYoutube技术分享室整理_91
+      - 🇮🇹ITYoutube技术分享室整理_92
+      - 德国+🇩🇪Youtube技术分享室整理_93
+      - 美国Youtube技术分享室整理_94
+      - 德国+🇩🇪Youtube技术分享室整理_95
+      - 德国+🇩🇪Youtube技术分享室整理_96
+      - 🇮🇹ITYoutube技术分享室整理_97
+      - 美国Youtube技术分享室整理_98
+      - 瑞典+🇸🇪Youtube技术分享室整理_99
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_100
+      - 🇮🇹ITYoutube技术分享室整理_101
+      - 🇮🇹ITYoutube技术分享室整理_102
+      - 🇮🇹ITYoutube技术分享室整理_103
+      - 🇮🇹ITYoutube技术分享室整理_104
+      - 德国+🇩🇪Youtube技术分享室整理_105
+      - 德国+🇩🇪Youtube技术分享室整理_106
+      - 德国+🇩🇪Youtube技术分享室整理_107
+      - 德国+🇩🇪Youtube技术分享室整理_108
+      - 德国+🇩🇪Youtube技术分享室整理_109
+      - 瑞典+🇸🇪Youtube技术分享室整理_110
+      - 法Youtube技术分享室整理_111
+      - 加拿大技术分享室整理,欢迎订阅_112
+      - 瑞典+🇸🇪Youtube技术分享室整理_113
+      - 加拿大技术分享室整理,欢迎订阅_114
+      - 英国Youtube技术分享室整理_115
+      - 瑞典+🇸🇪Youtube技术分享室整理_116
+      - 法国Youtube技术分享室整理_117
+      - 法Youtube技术分享室整理_118
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_119
+      - 🇮🇹ITYoutube技术分享室整理_120
+      - 🇮🇹ITYoutube技术分享室整理_121
+      - 🇮🇹ITYoutube技术分享室整理_122
+      - 🇮🇹ITYoutube技术分享室整理_123
+      - 德国+🇩🇪Youtube技术分享室整理_124
+      - 德国+🇩🇪Youtube技术分享室整理_125
+      - 瑞典+🇸🇪Youtube技术分享室整理_126
+      - 瑞典+🇸🇪Youtube技术分享室整理_127
+      - 瑞典+🇸🇪Youtube技术分享室整理_128
+      - SEYoutube技术分享室整理_129
+      - 瑞典+🇸🇪Youtube技术分享室整理_130
+      - 🇺🇸USYoutube技术分享室整理_131
+      - 🇮🇹ITYoutube技术分享室整理_132
+      - 🇮🇹ITYoutube技术分享室整理_133
+      - 🇮🇹ITYoutube技术分享室整理_134
+      - 德国+🇩🇪Youtube技术分享室整理_135
+      - 🇮🇹ITYoutube技术分享室整理_136
+      - SEYoutube技术分享室整理_137
+      - 美国Youtube技术分享室整理_138
+      - 瑞典+🇸🇪Youtube技术分享室整理_139
+      - SGYoutube技术分享室整理_140
+      - 瑞典+🇸🇪Youtube技术分享室整理_141
+      - trYoutube技术分享室整理_142
+      - 🇮🇹ITYoutube技术分享室整理_143
+      - Youtube技术分享室整理_144
+      - 🇨🇦_CA_加拿大Youtube技术分享室整理,欢迎订阅_145
+      - 美国Youtube技术分享室整理_146
+      - 土耳其+🇹🇷Youtube技术分享室整理_147
+      - 挪威技术分享室整理,欢迎订阅_148
+      - 挪威技术分享室整理,欢迎订阅_149
+      - 🇳🇴NO技术分享室整理,欢迎订阅_150
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_151
+      - 美国Youtube技术分享室整理_152
+      - CA技术分享室整理,欢迎订阅_153
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_154
+      - 挪威技术分享室整理,欢迎订阅_155
+      - 德国+🇩🇪Youtube技术分享室整理_156
+      - 新西兰Youtube技术分享室整理_157
+      - 土耳其+🇹🇷Youtube技术分享室整理_158
+      - 新西兰Youtube技术分享室整理_159
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_160
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_161
+      - 美国Youtube技术分享室整理_162
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_163
+      - 加拿大Youtube技术分享室整理_164
+      - 加拿大Youtube技术分享室整理_165
+      - 🇨🇦CAYoutube技术分享室整理_166
+      - 🇨🇦CAYoutube技术分享室整理_167
+      - 🇷🇴ROYoutube技术分享室整理_168
+      - USYoutube技术分享室整理_169
+      - 英国Youtube技术分享室整理_170
+      - 🇺🇸USYoutube技术分享室整理_171
+      - 🇺🇸技术分享室整理,欢迎订阅_172
+      - 🇩🇰DKYoutube技术分享室整理_173
+      - 🇺🇸USYoutube技术分享室整理_174
+      - 🇮🇹ITYoutube技术分享室整理_175
+      - 🇦🇺AUYoutube技术分享室整理_176
+      - 德国+🇩🇪Youtube技术分享室整理_177
+      - 🇦🇺AUYoutube技术分享室整理_178
+      - 德国+🇩🇪Youtube技术分享室整理_179
+      - 瑞典+🇸🇪Youtube技术分享室整理_180
+      - CAYoutube技术分享室整理_181
+      - 瑞典+🇸🇪Youtube技术分享室整理_182
+      - 瑞典+🇸🇪Youtube技术分享室整理_183
+      - 瑞典+🇸🇪Youtube技术分享室整理_184
+      - 瑞典+🇸🇪Youtube技术分享室整理_185
+      - 瑞典+🇸🇪Youtube技术分享室整理_186
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - Youtube技术分享室整理_1
+      - 土耳其+🇹🇷Youtube技术分享室整理_2
+      - 瑞典+🇸🇪Youtube技术分享室整理_3
+      - 瑞典+🇸🇪Youtube技术分享室整理_4
+      - 瑞典+🇸🇪Youtube技术分享室整理_5
+      - CYoutube技术分享室整理_6
+      - 瑞典+🇸🇪Youtube技术分享室整理_7
+      - 瑞典+🇸🇪Youtube技术分享室整理_8
+      - 瑞典+🇸🇪Youtube技术分享室整理_9
+      - Youtube技术分享室整理_10
+      - 🇫🇷FRYoutube技术分享室整理_11
+      - 瑞典+🇸🇪Youtube技术分享室整理_12
+      - 瑞典+🇸🇪Youtube技术分享室整理_13
+      - 🇺🇸USYoutube技术分享室整理_14
+      - 瑞典+🇸🇪Youtube技术分享室整理_15
+      - 🇷🇴ROYoutube技术分享室整理_16
+      - 🇷🇴ROYoutube技术分享室整理_17
+      - 瑞典+🇸🇪Youtube技术分享室整理_18
+      - 🇷🇴ROYoutube技术分享室整理_19
+      - 🇷🇴ROYoutube技术分享室整理_20
+      - 土耳其+🇹🇷Youtube技术分享室整理_21
+      - 瑞典+🇸🇪Youtube技术分享室整理_22
+      - 瑞典+🇸🇪Youtube技术分享室整理_23
+      - 🇷🇴ROYoutube技术分享室整理_24
+      - 🇺🇸USYoutube技术分享室整理_25
+      - 🇷🇴ROYoutube技术分享室整理_26
+      - USYoutube技术分享室整理_27
+      - 瑞典+🇸🇪Youtube技术分享室整理_28
+      - 瑞典+🇸🇪Youtube技术分享室整理_29
+      - 瑞典+🇸🇪Youtube技术分享室整理_30
+      - 瑞典+🇸🇪Youtube技术分享室整理_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇦🇱ALYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - 🇺🇸+LasVegasYoutube技术分享室整理_35
+      - 瑞典+🇸🇪Youtube技术分享室整理_36
+      - 瑞典+🇸🇪Youtube技术分享室整理_37
+      - 瑞典+🇸🇪Youtube技术分享室整理_38
+      - 🇦🇱ALYoutube技术分享室整理_39
+      - 瑞典+🇸🇪Youtube技术分享室整理_40
+      - 🇮🇩IDYoutube技术分享室整理_41
+      - 瑞典+🇸🇪Youtube技术分享室整理_42
+      - 🇺🇸US美国Youtube技术分享室整理_43
+      - 🇦🇺AUYoutube技术分享室整理_44
+      - 🇺🇸USYoutube技术分享室整理_45
+      - 🇮🇩IDYoutube技术分享室整理_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 美国Youtube技术分享室整理_48
+      - 🇺🇸USYoutube技术分享室整理_49
+      - USYoutube技术分享室整理_50
+      - 美国Youtube技术分享室整理_51
+      - 🇺🇸USYoutube技术分享室整理_52
+      - 美国Youtube技术分享室整理_53
+      - 瑞典+🇸🇪Youtube技术分享室整理_54
+      - 🇺🇸USYoutube技术分享室整理_55
+      - 🇺🇸USYoutube技术分享室整理_56
+      - 🇺🇸USYoutube技术分享室整理_57
+      - 德国+🇩🇪Youtube技术分享室整理_58
+      - 🇺🇸USYoutube技术分享室整理_59
+      - 法Youtube技术分享室整理_60
+      - 德国+🇩🇪Youtube技术分享室整理_61
+      - 🇺🇸USYoutube技术分享室整理_62
+      - 🇺🇸USYoutube技术分享室整理_63
+      - 德国+🇩🇪Youtube技术分享室整理_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 美国Youtube技术分享室整理_66
+      - 🇮🇹ITYoutube技术分享室整理_67
+      - 德国+🇩🇪Youtube技术分享室整理_68
+      - 瑞典+🇸🇪Youtube技术分享室整理_69
+      - 🇮🇹ITYoutube技术分享室整理_70
+      - 🇮🇹ITYoutube技术分享室整理_71
+      - 🇮🇹ITYoutube技术分享室整理_72
+      - 德国+🇩🇪Youtube技术分享室整理_73
+      - 德国+🇩🇪Youtube技术分享室整理_74
+      - 美国Youtube技术分享室整理_75
+      - 瑞典+🇸🇪Youtube技术分享室整理_76
+      - 瑞典+🇸🇪Youtube技术分享室整理_77
+      - 美国Youtube技术分享室整理_78
+      - 🇮🇹ITYoutube技术分享室整理_79
+      - 🇮🇹ITYoutube技术分享室整理_80
+      - 🇮🇹ITYoutube技术分享室整理_81
+      - 🇦🇺AUYoutube技术分享室整理_82
+      - 德国+🇩🇪Youtube技术分享室整理_83
+      - 德国+🇩🇪Youtube技术分享室整理_84
+      - 德国+🇩🇪Youtube技术分享室整理_85
+      - 德国+🇩🇪Youtube技术分享室整理_86
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_87
+      - 瑞典+🇸🇪Youtube技术分享室整理_88
+      - 瑞典+🇸🇪Youtube技术分享室整理_89
+      - 🇮🇹ITYoutube技术分享室整理_90
+      - 🇮🇹ITYoutube技术分享室整理_91
+      - 🇮🇹ITYoutube技术分享室整理_92
+      - 德国+🇩🇪Youtube技术分享室整理_93
+      - 美国Youtube技术分享室整理_94
+      - 德国+🇩🇪Youtube技术分享室整理_95
+      - 德国+🇩🇪Youtube技术分享室整理_96
+      - 🇮🇹ITYoutube技术分享室整理_97
+      - 美国Youtube技术分享室整理_98
+      - 瑞典+🇸🇪Youtube技术分享室整理_99
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_100
+      - 🇮🇹ITYoutube技术分享室整理_101
+      - 🇮🇹ITYoutube技术分享室整理_102
+      - 🇮🇹ITYoutube技术分享室整理_103
+      - 🇮🇹ITYoutube技术分享室整理_104
+      - 德国+🇩🇪Youtube技术分享室整理_105
+      - 德国+🇩🇪Youtube技术分享室整理_106
+      - 德国+🇩🇪Youtube技术分享室整理_107
+      - 德国+🇩🇪Youtube技术分享室整理_108
+      - 德国+🇩🇪Youtube技术分享室整理_109
+      - 瑞典+🇸🇪Youtube技术分享室整理_110
+      - 法Youtube技术分享室整理_111
+      - 加拿大技术分享室整理,欢迎订阅_112
+      - 瑞典+🇸🇪Youtube技术分享室整理_113
+      - 加拿大技术分享室整理,欢迎订阅_114
+      - 英国Youtube技术分享室整理_115
+      - 瑞典+🇸🇪Youtube技术分享室整理_116
+      - 法国Youtube技术分享室整理_117
+      - 法Youtube技术分享室整理_118
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_119
+      - 🇮🇹ITYoutube技术分享室整理_120
+      - 🇮🇹ITYoutube技术分享室整理_121
+      - 🇮🇹ITYoutube技术分享室整理_122
+      - 🇮🇹ITYoutube技术分享室整理_123
+      - 德国+🇩🇪Youtube技术分享室整理_124
+      - 德国+🇩🇪Youtube技术分享室整理_125
+      - 瑞典+🇸🇪Youtube技术分享室整理_126
+      - 瑞典+🇸🇪Youtube技术分享室整理_127
+      - 瑞典+🇸🇪Youtube技术分享室整理_128
+      - SEYoutube技术分享室整理_129
+      - 瑞典+🇸🇪Youtube技术分享室整理_130
+      - 🇺🇸USYoutube技术分享室整理_131
+      - 🇮🇹ITYoutube技术分享室整理_132
+      - 🇮🇹ITYoutube技术分享室整理_133
+      - 🇮🇹ITYoutube技术分享室整理_134
+      - 德国+🇩🇪Youtube技术分享室整理_135
+      - 🇮🇹ITYoutube技术分享室整理_136
+      - SEYoutube技术分享室整理_137
+      - 美国Youtube技术分享室整理_138
+      - 瑞典+🇸🇪Youtube技术分享室整理_139
+      - SGYoutube技术分享室整理_140
+      - 瑞典+🇸🇪Youtube技术分享室整理_141
+      - trYoutube技术分享室整理_142
+      - 🇮🇹ITYoutube技术分享室整理_143
+      - Youtube技术分享室整理_144
+      - 🇨🇦_CA_加拿大Youtube技术分享室整理,欢迎订阅_145
+      - 美国Youtube技术分享室整理_146
+      - 土耳其+🇹🇷Youtube技术分享室整理_147
+      - 挪威技术分享室整理,欢迎订阅_148
+      - 挪威技术分享室整理,欢迎订阅_149
+      - 🇳🇴NO技术分享室整理,欢迎订阅_150
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_151
+      - 美国Youtube技术分享室整理_152
+      - CA技术分享室整理,欢迎订阅_153
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_154
+      - 挪威技术分享室整理,欢迎订阅_155
+      - 德国+🇩🇪Youtube技术分享室整理_156
+      - 新西兰Youtube技术分享室整理_157
+      - 土耳其+🇹🇷Youtube技术分享室整理_158
+      - 新西兰Youtube技术分享室整理_159
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_160
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_161
+      - 美国Youtube技术分享室整理_162
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_163
+      - 加拿大Youtube技术分享室整理_164
+      - 加拿大Youtube技术分享室整理_165
+      - 🇨🇦CAYoutube技术分享室整理_166
+      - 🇨🇦CAYoutube技术分享室整理_167
+      - 🇷🇴ROYoutube技术分享室整理_168
+      - USYoutube技术分享室整理_169
+      - 英国Youtube技术分享室整理_170
+      - 🇺🇸USYoutube技术分享室整理_171
+      - 🇺🇸技术分享室整理,欢迎订阅_172
+      - 🇩🇰DKYoutube技术分享室整理_173
+      - 🇺🇸USYoutube技术分享室整理_174
+      - 🇮🇹ITYoutube技术分享室整理_175
+      - 🇦🇺AUYoutube技术分享室整理_176
+      - 德国+🇩🇪Youtube技术分享室整理_177
+      - 🇦🇺AUYoutube技术分享室整理_178
+      - 德国+🇩🇪Youtube技术分享室整理_179
+      - 瑞典+🇸🇪Youtube技术分享室整理_180
+      - CAYoutube技术分享室整理_181
+      - 瑞典+🇸🇪Youtube技术分享室整理_182
+      - 瑞典+🇸🇪Youtube技术分享室整理_183
+      - 瑞典+🇸🇪Youtube技术分享室整理_184
+      - 瑞典+🇸🇪Youtube技术分享室整理_185
+      - 瑞典+🇸🇪Youtube技术分享室整理_186
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - Youtube技术分享室整理_1
+      - 土耳其+🇹🇷Youtube技术分享室整理_2
+      - 瑞典+🇸🇪Youtube技术分享室整理_3
+      - 瑞典+🇸🇪Youtube技术分享室整理_4
+      - 瑞典+🇸🇪Youtube技术分享室整理_5
+      - CYoutube技术分享室整理_6
+      - 瑞典+🇸🇪Youtube技术分享室整理_7
+      - 瑞典+🇸🇪Youtube技术分享室整理_8
+      - 瑞典+🇸🇪Youtube技术分享室整理_9
+      - Youtube技术分享室整理_10
+      - 🇫🇷FRYoutube技术分享室整理_11
+      - 瑞典+🇸🇪Youtube技术分享室整理_12
+      - 瑞典+🇸🇪Youtube技术分享室整理_13
+      - 🇺🇸USYoutube技术分享室整理_14
+      - 瑞典+🇸🇪Youtube技术分享室整理_15
+      - 🇷🇴ROYoutube技术分享室整理_16
+      - 🇷🇴ROYoutube技术分享室整理_17
+      - 瑞典+🇸🇪Youtube技术分享室整理_18
+      - 🇷🇴ROYoutube技术分享室整理_19
+      - 🇷🇴ROYoutube技术分享室整理_20
+      - 土耳其+🇹🇷Youtube技术分享室整理_21
+      - 瑞典+🇸🇪Youtube技术分享室整理_22
+      - 瑞典+🇸🇪Youtube技术分享室整理_23
+      - 🇷🇴ROYoutube技术分享室整理_24
+      - 🇺🇸USYoutube技术分享室整理_25
+      - 🇷🇴ROYoutube技术分享室整理_26
+      - USYoutube技术分享室整理_27
+      - 瑞典+🇸🇪Youtube技术分享室整理_28
+      - 瑞典+🇸🇪Youtube技术分享室整理_29
+      - 瑞典+🇸🇪Youtube技术分享室整理_30
+      - 瑞典+🇸🇪Youtube技术分享室整理_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇦🇱ALYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - 🇺🇸+LasVegasYoutube技术分享室整理_35
+      - 瑞典+🇸🇪Youtube技术分享室整理_36
+      - 瑞典+🇸🇪Youtube技术分享室整理_37
+      - 瑞典+🇸🇪Youtube技术分享室整理_38
+      - 🇦🇱ALYoutube技术分享室整理_39
+      - 瑞典+🇸🇪Youtube技术分享室整理_40
+      - 🇮🇩IDYoutube技术分享室整理_41
+      - 瑞典+🇸🇪Youtube技术分享室整理_42
+      - 🇺🇸US美国Youtube技术分享室整理_43
+      - 🇦🇺AUYoutube技术分享室整理_44
+      - 🇺🇸USYoutube技术分享室整理_45
+      - 🇮🇩IDYoutube技术分享室整理_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 美国Youtube技术分享室整理_48
+      - 🇺🇸USYoutube技术分享室整理_49
+      - USYoutube技术分享室整理_50
+      - 美国Youtube技术分享室整理_51
+      - 🇺🇸USYoutube技术分享室整理_52
+      - 美国Youtube技术分享室整理_53
+      - 瑞典+🇸🇪Youtube技术分享室整理_54
+      - 🇺🇸USYoutube技术分享室整理_55
+      - 🇺🇸USYoutube技术分享室整理_56
+      - 🇺🇸USYoutube技术分享室整理_57
+      - 德国+🇩🇪Youtube技术分享室整理_58
+      - 🇺🇸USYoutube技术分享室整理_59
+      - 法Youtube技术分享室整理_60
+      - 德国+🇩🇪Youtube技术分享室整理_61
+      - 🇺🇸USYoutube技术分享室整理_62
+      - 🇺🇸USYoutube技术分享室整理_63
+      - 德国+🇩🇪Youtube技术分享室整理_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 美国Youtube技术分享室整理_66
+      - 🇮🇹ITYoutube技术分享室整理_67
+      - 德国+🇩🇪Youtube技术分享室整理_68
+      - 瑞典+🇸🇪Youtube技术分享室整理_69
+      - 🇮🇹ITYoutube技术分享室整理_70
+      - 🇮🇹ITYoutube技术分享室整理_71
+      - 🇮🇹ITYoutube技术分享室整理_72
+      - 德国+🇩🇪Youtube技术分享室整理_73
+      - 德国+🇩🇪Youtube技术分享室整理_74
+      - 美国Youtube技术分享室整理_75
+      - 瑞典+🇸🇪Youtube技术分享室整理_76
+      - 瑞典+🇸🇪Youtube技术分享室整理_77
+      - 美国Youtube技术分享室整理_78
+      - 🇮🇹ITYoutube技术分享室整理_79
+      - 🇮🇹ITYoutube技术分享室整理_80
+      - 🇮🇹ITYoutube技术分享室整理_81
+      - 🇦🇺AUYoutube技术分享室整理_82
+      - 德国+🇩🇪Youtube技术分享室整理_83
+      - 德国+🇩🇪Youtube技术分享室整理_84
+      - 德国+🇩🇪Youtube技术分享室整理_85
+      - 德国+🇩🇪Youtube技术分享室整理_86
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_87
+      - 瑞典+🇸🇪Youtube技术分享室整理_88
+      - 瑞典+🇸🇪Youtube技术分享室整理_89
+      - 🇮🇹ITYoutube技术分享室整理_90
+      - 🇮🇹ITYoutube技术分享室整理_91
+      - 🇮🇹ITYoutube技术分享室整理_92
+      - 德国+🇩🇪Youtube技术分享室整理_93
+      - 美国Youtube技术分享室整理_94
+      - 德国+🇩🇪Youtube技术分享室整理_95
+      - 德国+🇩🇪Youtube技术分享室整理_96
+      - 🇮🇹ITYoutube技术分享室整理_97
+      - 美国Youtube技术分享室整理_98
+      - 瑞典+🇸🇪Youtube技术分享室整理_99
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_100
+      - 🇮🇹ITYoutube技术分享室整理_101
+      - 🇮🇹ITYoutube技术分享室整理_102
+      - 🇮🇹ITYoutube技术分享室整理_103
+      - 🇮🇹ITYoutube技术分享室整理_104
+      - 德国+🇩🇪Youtube技术分享室整理_105
+      - 德国+🇩🇪Youtube技术分享室整理_106
+      - 德国+🇩🇪Youtube技术分享室整理_107
+      - 德国+🇩🇪Youtube技术分享室整理_108
+      - 德国+🇩🇪Youtube技术分享室整理_109
+      - 瑞典+🇸🇪Youtube技术分享室整理_110
+      - 法Youtube技术分享室整理_111
+      - 加拿大技术分享室整理,欢迎订阅_112
+      - 瑞典+🇸🇪Youtube技术分享室整理_113
+      - 加拿大技术分享室整理,欢迎订阅_114
+      - 英国Youtube技术分享室整理_115
+      - 瑞典+🇸🇪Youtube技术分享室整理_116
+      - 法国Youtube技术分享室整理_117
+      - 法Youtube技术分享室整理_118
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_119
+      - 🇮🇹ITYoutube技术分享室整理_120
+      - 🇮🇹ITYoutube技术分享室整理_121
+      - 🇮🇹ITYoutube技术分享室整理_122
+      - 🇮🇹ITYoutube技术分享室整理_123
+      - 德国+🇩🇪Youtube技术分享室整理_124
+      - 德国+🇩🇪Youtube技术分享室整理_125
+      - 瑞典+🇸🇪Youtube技术分享室整理_126
+      - 瑞典+🇸🇪Youtube技术分享室整理_127
+      - 瑞典+🇸🇪Youtube技术分享室整理_128
+      - SEYoutube技术分享室整理_129
+      - 瑞典+🇸🇪Youtube技术分享室整理_130
+      - 🇺🇸USYoutube技术分享室整理_131
+      - 🇮🇹ITYoutube技术分享室整理_132
+      - 🇮🇹ITYoutube技术分享室整理_133
+      - 🇮🇹ITYoutube技术分享室整理_134
+      - 德国+🇩🇪Youtube技术分享室整理_135
+      - 🇮🇹ITYoutube技术分享室整理_136
+      - SEYoutube技术分享室整理_137
+      - 美国Youtube技术分享室整理_138
+      - 瑞典+🇸🇪Youtube技术分享室整理_139
+      - SGYoutube技术分享室整理_140
+      - 瑞典+🇸🇪Youtube技术分享室整理_141
+      - trYoutube技术分享室整理_142
+      - 🇮🇹ITYoutube技术分享室整理_143
+      - Youtube技术分享室整理_144
+      - 🇨🇦_CA_加拿大Youtube技术分享室整理,欢迎订阅_145
+      - 美国Youtube技术分享室整理_146
+      - 土耳其+🇹🇷Youtube技术分享室整理_147
+      - 挪威技术分享室整理,欢迎订阅_148
+      - 挪威技术分享室整理,欢迎订阅_149
+      - 🇳🇴NO技术分享室整理,欢迎订阅_150
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_151
+      - 美国Youtube技术分享室整理_152
+      - CA技术分享室整理,欢迎订阅_153
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_154
+      - 挪威技术分享室整理,欢迎订阅_155
+      - 德国+🇩🇪Youtube技术分享室整理_156
+      - 新西兰Youtube技术分享室整理_157
+      - 土耳其+🇹🇷Youtube技术分享室整理_158
+      - 新西兰Youtube技术分享室整理_159
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_160
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_161
+      - 美国Youtube技术分享室整理_162
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_163
+      - 加拿大Youtube技术分享室整理_164
+      - 加拿大Youtube技术分享室整理_165
+      - 🇨🇦CAYoutube技术分享室整理_166
+      - 🇨🇦CAYoutube技术分享室整理_167
+      - 🇷🇴ROYoutube技术分享室整理_168
+      - USYoutube技术分享室整理_169
+      - 英国Youtube技术分享室整理_170
+      - 🇺🇸USYoutube技术分享室整理_171
+      - 🇺🇸技术分享室整理,欢迎订阅_172
+      - 🇩🇰DKYoutube技术分享室整理_173
+      - 🇺🇸USYoutube技术分享室整理_174
+      - 🇮🇹ITYoutube技术分享室整理_175
+      - 🇦🇺AUYoutube技术分享室整理_176
+      - 德国+🇩🇪Youtube技术分享室整理_177
+      - 🇦🇺AUYoutube技术分享室整理_178
+      - 德国+🇩🇪Youtube技术分享室整理_179
+      - 瑞典+🇸🇪Youtube技术分享室整理_180
+      - CAYoutube技术分享室整理_181
+      - 瑞典+🇸🇪Youtube技术分享室整理_182
+      - 瑞典+🇸🇪Youtube技术分享室整理_183
+      - 瑞典+🇸🇪Youtube技术分享室整理_184
+      - 瑞典+🇸🇪Youtube技术分享室整理_185
+      - 瑞典+🇸🇪Youtube技术分享室整理_186
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - Youtube技术分享室整理_1
+      - 土耳其+🇹🇷Youtube技术分享室整理_2
+      - 瑞典+🇸🇪Youtube技术分享室整理_3
+      - 瑞典+🇸🇪Youtube技术分享室整理_4
+      - 瑞典+🇸🇪Youtube技术分享室整理_5
+      - CYoutube技术分享室整理_6
+      - 瑞典+🇸🇪Youtube技术分享室整理_7
+      - 瑞典+🇸🇪Youtube技术分享室整理_8
+      - 瑞典+🇸🇪Youtube技术分享室整理_9
+      - Youtube技术分享室整理_10
+      - 🇫🇷FRYoutube技术分享室整理_11
+      - 瑞典+🇸🇪Youtube技术分享室整理_12
+      - 瑞典+🇸🇪Youtube技术分享室整理_13
+      - 🇺🇸USYoutube技术分享室整理_14
+      - 瑞典+🇸🇪Youtube技术分享室整理_15
+      - 🇷🇴ROYoutube技术分享室整理_16
+      - 🇷🇴ROYoutube技术分享室整理_17
+      - 瑞典+🇸🇪Youtube技术分享室整理_18
+      - 🇷🇴ROYoutube技术分享室整理_19
+      - 🇷🇴ROYoutube技术分享室整理_20
+      - 土耳其+🇹🇷Youtube技术分享室整理_21
+      - 瑞典+🇸🇪Youtube技术分享室整理_22
+      - 瑞典+🇸🇪Youtube技术分享室整理_23
+      - 🇷🇴ROYoutube技术分享室整理_24
+      - 🇺🇸USYoutube技术分享室整理_25
+      - 🇷🇴ROYoutube技术分享室整理_26
+      - USYoutube技术分享室整理_27
+      - 瑞典+🇸🇪Youtube技术分享室整理_28
+      - 瑞典+🇸🇪Youtube技术分享室整理_29
+      - 瑞典+🇸🇪Youtube技术分享室整理_30
+      - 瑞典+🇸🇪Youtube技术分享室整理_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇦🇱ALYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - 🇺🇸+LasVegasYoutube技术分享室整理_35
+      - 瑞典+🇸🇪Youtube技术分享室整理_36
+      - 瑞典+🇸🇪Youtube技术分享室整理_37
+      - 瑞典+🇸🇪Youtube技术分享室整理_38
+      - 🇦🇱ALYoutube技术分享室整理_39
+      - 瑞典+🇸🇪Youtube技术分享室整理_40
+      - 🇮🇩IDYoutube技术分享室整理_41
+      - 瑞典+🇸🇪Youtube技术分享室整理_42
+      - 🇺🇸US美国Youtube技术分享室整理_43
+      - 🇦🇺AUYoutube技术分享室整理_44
+      - 🇺🇸USYoutube技术分享室整理_45
+      - 🇮🇩IDYoutube技术分享室整理_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 美国Youtube技术分享室整理_48
+      - 🇺🇸USYoutube技术分享室整理_49
+      - USYoutube技术分享室整理_50
+      - 美国Youtube技术分享室整理_51
+      - 🇺🇸USYoutube技术分享室整理_52
+      - 美国Youtube技术分享室整理_53
+      - 瑞典+🇸🇪Youtube技术分享室整理_54
+      - 🇺🇸USYoutube技术分享室整理_55
+      - 🇺🇸USYoutube技术分享室整理_56
+      - 🇺🇸USYoutube技术分享室整理_57
+      - 德国+🇩🇪Youtube技术分享室整理_58
+      - 🇺🇸USYoutube技术分享室整理_59
+      - 法Youtube技术分享室整理_60
+      - 德国+🇩🇪Youtube技术分享室整理_61
+      - 🇺🇸USYoutube技术分享室整理_62
+      - 🇺🇸USYoutube技术分享室整理_63
+      - 德国+🇩🇪Youtube技术分享室整理_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 美国Youtube技术分享室整理_66
+      - 🇮🇹ITYoutube技术分享室整理_67
+      - 德国+🇩🇪Youtube技术分享室整理_68
+      - 瑞典+🇸🇪Youtube技术分享室整理_69
+      - 🇮🇹ITYoutube技术分享室整理_70
+      - 🇮🇹ITYoutube技术分享室整理_71
+      - 🇮🇹ITYoutube技术分享室整理_72
+      - 德国+🇩🇪Youtube技术分享室整理_73
+      - 德国+🇩🇪Youtube技术分享室整理_74
+      - 美国Youtube技术分享室整理_75
+      - 瑞典+🇸🇪Youtube技术分享室整理_76
+      - 瑞典+🇸🇪Youtube技术分享室整理_77
+      - 美国Youtube技术分享室整理_78
+      - 🇮🇹ITYoutube技术分享室整理_79
+      - 🇮🇹ITYoutube技术分享室整理_80
+      - 🇮🇹ITYoutube技术分享室整理_81
+      - 🇦🇺AUYoutube技术分享室整理_82
+      - 德国+🇩🇪Youtube技术分享室整理_83
+      - 德国+🇩🇪Youtube技术分享室整理_84
+      - 德国+🇩🇪Youtube技术分享室整理_85
+      - 德国+🇩🇪Youtube技术分享室整理_86
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_87
+      - 瑞典+🇸🇪Youtube技术分享室整理_88
+      - 瑞典+🇸🇪Youtube技术分享室整理_89
+      - 🇮🇹ITYoutube技术分享室整理_90
+      - 🇮🇹ITYoutube技术分享室整理_91
+      - 🇮🇹ITYoutube技术分享室整理_92
+      - 德国+🇩🇪Youtube技术分享室整理_93
+      - 美国Youtube技术分享室整理_94
+      - 德国+🇩🇪Youtube技术分享室整理_95
+      - 德国+🇩🇪Youtube技术分享室整理_96
+      - 🇮🇹ITYoutube技术分享室整理_97
+      - 美国Youtube技术分享室整理_98
+      - 瑞典+🇸🇪Youtube技术分享室整理_99
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_100
+      - 🇮🇹ITYoutube技术分享室整理_101
+      - 🇮🇹ITYoutube技术分享室整理_102
+      - 🇮🇹ITYoutube技术分享室整理_103
+      - 🇮🇹ITYoutube技术分享室整理_104
+      - 德国+🇩🇪Youtube技术分享室整理_105
+      - 德国+🇩🇪Youtube技术分享室整理_106
+      - 德国+🇩🇪Youtube技术分享室整理_107
+      - 德国+🇩🇪Youtube技术分享室整理_108
+      - 德国+🇩🇪Youtube技术分享室整理_109
+      - 瑞典+🇸🇪Youtube技术分享室整理_110
+      - 法Youtube技术分享室整理_111
+      - 加拿大技术分享室整理,欢迎订阅_112
+      - 瑞典+🇸🇪Youtube技术分享室整理_113
+      - 加拿大技术分享室整理,欢迎订阅_114
+      - 英国Youtube技术分享室整理_115
+      - 瑞典+🇸🇪Youtube技术分享室整理_116
+      - 法国Youtube技术分享室整理_117
+      - 法Youtube技术分享室整理_118
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_119
+      - 🇮🇹ITYoutube技术分享室整理_120
+      - 🇮🇹ITYoutube技术分享室整理_121
+      - 🇮🇹ITYoutube技术分享室整理_122
+      - 🇮🇹ITYoutube技术分享室整理_123
+      - 德国+🇩🇪Youtube技术分享室整理_124
+      - 德国+🇩🇪Youtube技术分享室整理_125
+      - 瑞典+🇸🇪Youtube技术分享室整理_126
+      - 瑞典+🇸🇪Youtube技术分享室整理_127
+      - 瑞典+🇸🇪Youtube技术分享室整理_128
+      - SEYoutube技术分享室整理_129
+      - 瑞典+🇸🇪Youtube技术分享室整理_130
+      - 🇺🇸USYoutube技术分享室整理_131
+      - 🇮🇹ITYoutube技术分享室整理_132
+      - 🇮🇹ITYoutube技术分享室整理_133
+      - 🇮🇹ITYoutube技术分享室整理_134
+      - 德国+🇩🇪Youtube技术分享室整理_135
+      - 🇮🇹ITYoutube技术分享室整理_136
+      - SEYoutube技术分享室整理_137
+      - 美国Youtube技术分享室整理_138
+      - 瑞典+🇸🇪Youtube技术分享室整理_139
+      - SGYoutube技术分享室整理_140
+      - 瑞典+🇸🇪Youtube技术分享室整理_141
+      - trYoutube技术分享室整理_142
+      - 🇮🇹ITYoutube技术分享室整理_143
+      - Youtube技术分享室整理_144
+      - 🇨🇦_CA_加拿大Youtube技术分享室整理,欢迎订阅_145
+      - 美国Youtube技术分享室整理_146
+      - 土耳其+🇹🇷Youtube技术分享室整理_147
+      - 挪威技术分享室整理,欢迎订阅_148
+      - 挪威技术分享室整理,欢迎订阅_149
+      - 🇳🇴NO技术分享室整理,欢迎订阅_150
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_151
+      - 美国Youtube技术分享室整理_152
+      - CA技术分享室整理,欢迎订阅_153
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_154
+      - 挪威技术分享室整理,欢迎订阅_155
+      - 德国+🇩🇪Youtube技术分享室整理_156
+      - 新西兰Youtube技术分享室整理_157
+      - 土耳其+🇹🇷Youtube技术分享室整理_158
+      - 新西兰Youtube技术分享室整理_159
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_160
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_161
+      - 美国Youtube技术分享室整理_162
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_163
+      - 加拿大Youtube技术分享室整理_164
+      - 加拿大Youtube技术分享室整理_165
+      - 🇨🇦CAYoutube技术分享室整理_166
+      - 🇨🇦CAYoutube技术分享室整理_167
+      - 🇷🇴ROYoutube技术分享室整理_168
+      - USYoutube技术分享室整理_169
+      - 英国Youtube技术分享室整理_170
+      - 🇺🇸USYoutube技术分享室整理_171
+      - 🇺🇸技术分享室整理,欢迎订阅_172
+      - 🇩🇰DKYoutube技术分享室整理_173
+      - 🇺🇸USYoutube技术分享室整理_174
+      - 🇮🇹ITYoutube技术分享室整理_175
+      - 🇦🇺AUYoutube技术分享室整理_176
+      - 德国+🇩🇪Youtube技术分享室整理_177
+      - 🇦🇺AUYoutube技术分享室整理_178
+      - 德国+🇩🇪Youtube技术分享室整理_179
+      - 瑞典+🇸🇪Youtube技术分享室整理_180
+      - CAYoutube技术分享室整理_181
+      - 瑞典+🇸🇪Youtube技术分享室整理_182
+      - 瑞典+🇸🇪Youtube技术分享室整理_183
+      - 瑞典+🇸🇪Youtube技术分享室整理_184
+      - 瑞典+🇸🇪Youtube技术分享室整理_185
+      - 瑞典+🇸🇪Youtube技术分享室整理_186
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - Youtube技术分享室整理_1
+      - 土耳其+🇹🇷Youtube技术分享室整理_2
+      - 瑞典+🇸🇪Youtube技术分享室整理_3
+      - 瑞典+🇸🇪Youtube技术分享室整理_4
+      - 瑞典+🇸🇪Youtube技术分享室整理_5
+      - CYoutube技术分享室整理_6
+      - 瑞典+🇸🇪Youtube技术分享室整理_7
+      - 瑞典+🇸🇪Youtube技术分享室整理_8
+      - 瑞典+🇸🇪Youtube技术分享室整理_9
+      - Youtube技术分享室整理_10
+      - 🇫🇷FRYoutube技术分享室整理_11
+      - 瑞典+🇸🇪Youtube技术分享室整理_12
+      - 瑞典+🇸🇪Youtube技术分享室整理_13
+      - 🇺🇸USYoutube技术分享室整理_14
+      - 瑞典+🇸🇪Youtube技术分享室整理_15
+      - 🇷🇴ROYoutube技术分享室整理_16
+      - 🇷🇴ROYoutube技术分享室整理_17
+      - 瑞典+🇸🇪Youtube技术分享室整理_18
+      - 🇷🇴ROYoutube技术分享室整理_19
+      - 🇷🇴ROYoutube技术分享室整理_20
+      - 土耳其+🇹🇷Youtube技术分享室整理_21
+      - 瑞典+🇸🇪Youtube技术分享室整理_22
+      - 瑞典+🇸🇪Youtube技术分享室整理_23
+      - 🇷🇴ROYoutube技术分享室整理_24
+      - 🇺🇸USYoutube技术分享室整理_25
+      - 🇷🇴ROYoutube技术分享室整理_26
+      - USYoutube技术分享室整理_27
+      - 瑞典+🇸🇪Youtube技术分享室整理_28
+      - 瑞典+🇸🇪Youtube技术分享室整理_29
+      - 瑞典+🇸🇪Youtube技术分享室整理_30
+      - 瑞典+🇸🇪Youtube技术分享室整理_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇦🇱ALYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - 🇺🇸+LasVegasYoutube技术分享室整理_35
+      - 瑞典+🇸🇪Youtube技术分享室整理_36
+      - 瑞典+🇸🇪Youtube技术分享室整理_37
+      - 瑞典+🇸🇪Youtube技术分享室整理_38
+      - 🇦🇱ALYoutube技术分享室整理_39
+      - 瑞典+🇸🇪Youtube技术分享室整理_40
+      - 🇮🇩IDYoutube技术分享室整理_41
+      - 瑞典+🇸🇪Youtube技术分享室整理_42
+      - 🇺🇸US美国Youtube技术分享室整理_43
+      - 🇦🇺AUYoutube技术分享室整理_44
+      - 🇺🇸USYoutube技术分享室整理_45
+      - 🇮🇩IDYoutube技术分享室整理_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 美国Youtube技术分享室整理_48
+      - 🇺🇸USYoutube技术分享室整理_49
+      - USYoutube技术分享室整理_50
+      - 美国Youtube技术分享室整理_51
+      - 🇺🇸USYoutube技术分享室整理_52
+      - 美国Youtube技术分享室整理_53
+      - 瑞典+🇸🇪Youtube技术分享室整理_54
+      - 🇺🇸USYoutube技术分享室整理_55
+      - 🇺🇸USYoutube技术分享室整理_56
+      - 🇺🇸USYoutube技术分享室整理_57
+      - 德国+🇩🇪Youtube技术分享室整理_58
+      - 🇺🇸USYoutube技术分享室整理_59
+      - 法Youtube技术分享室整理_60
+      - 德国+🇩🇪Youtube技术分享室整理_61
+      - 🇺🇸USYoutube技术分享室整理_62
+      - 🇺🇸USYoutube技术分享室整理_63
+      - 德国+🇩🇪Youtube技术分享室整理_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 美国Youtube技术分享室整理_66
+      - 🇮🇹ITYoutube技术分享室整理_67
+      - 德国+🇩🇪Youtube技术分享室整理_68
+      - 瑞典+🇸🇪Youtube技术分享室整理_69
+      - 🇮🇹ITYoutube技术分享室整理_70
+      - 🇮🇹ITYoutube技术分享室整理_71
+      - 🇮🇹ITYoutube技术分享室整理_72
+      - 德国+🇩🇪Youtube技术分享室整理_73
+      - 德国+🇩🇪Youtube技术分享室整理_74
+      - 美国Youtube技术分享室整理_75
+      - 瑞典+🇸🇪Youtube技术分享室整理_76
+      - 瑞典+🇸🇪Youtube技术分享室整理_77
+      - 美国Youtube技术分享室整理_78
+      - 🇮🇹ITYoutube技术分享室整理_79
+      - 🇮🇹ITYoutube技术分享室整理_80
+      - 🇮🇹ITYoutube技术分享室整理_81
+      - 🇦🇺AUYoutube技术分享室整理_82
+      - 德国+🇩🇪Youtube技术分享室整理_83
+      - 德国+🇩🇪Youtube技术分享室整理_84
+      - 德国+🇩🇪Youtube技术分享室整理_85
+      - 德国+🇩🇪Youtube技术分享室整理_86
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_87
+      - 瑞典+🇸🇪Youtube技术分享室整理_88
+      - 瑞典+🇸🇪Youtube技术分享室整理_89
+      - 🇮🇹ITYoutube技术分享室整理_90
+      - 🇮🇹ITYoutube技术分享室整理_91
+      - 🇮🇹ITYoutube技术分享室整理_92
+      - 德国+🇩🇪Youtube技术分享室整理_93
+      - 美国Youtube技术分享室整理_94
+      - 德国+🇩🇪Youtube技术分享室整理_95
+      - 德国+🇩🇪Youtube技术分享室整理_96
+      - 🇮🇹ITYoutube技术分享室整理_97
+      - 美国Youtube技术分享室整理_98
+      - 瑞典+🇸🇪Youtube技术分享室整理_99
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_100
+      - 🇮🇹ITYoutube技术分享室整理_101
+      - 🇮🇹ITYoutube技术分享室整理_102
+      - 🇮🇹ITYoutube技术分享室整理_103
+      - 🇮🇹ITYoutube技术分享室整理_104
+      - 德国+🇩🇪Youtube技术分享室整理_105
+      - 德国+🇩🇪Youtube技术分享室整理_106
+      - 德国+🇩🇪Youtube技术分享室整理_107
+      - 德国+🇩🇪Youtube技术分享室整理_108
+      - 德国+🇩🇪Youtube技术分享室整理_109
+      - 瑞典+🇸🇪Youtube技术分享室整理_110
+      - 法Youtube技术分享室整理_111
+      - 加拿大技术分享室整理,欢迎订阅_112
+      - 瑞典+🇸🇪Youtube技术分享室整理_113
+      - 加拿大技术分享室整理,欢迎订阅_114
+      - 英国Youtube技术分享室整理_115
+      - 瑞典+🇸🇪Youtube技术分享室整理_116
+      - 法国Youtube技术分享室整理_117
+      - 法Youtube技术分享室整理_118
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_119
+      - 🇮🇹ITYoutube技术分享室整理_120
+      - 🇮🇹ITYoutube技术分享室整理_121
+      - 🇮🇹ITYoutube技术分享室整理_122
+      - 🇮🇹ITYoutube技术分享室整理_123
+      - 德国+🇩🇪Youtube技术分享室整理_124
+      - 德国+🇩🇪Youtube技术分享室整理_125
+      - 瑞典+🇸🇪Youtube技术分享室整理_126
+      - 瑞典+🇸🇪Youtube技术分享室整理_127
+      - 瑞典+🇸🇪Youtube技术分享室整理_128
+      - SEYoutube技术分享室整理_129
+      - 瑞典+🇸🇪Youtube技术分享室整理_130
+      - 🇺🇸USYoutube技术分享室整理_131
+      - 🇮🇹ITYoutube技术分享室整理_132
+      - 🇮🇹ITYoutube技术分享室整理_133
+      - 🇮🇹ITYoutube技术分享室整理_134
+      - 德国+🇩🇪Youtube技术分享室整理_135
+      - 🇮🇹ITYoutube技术分享室整理_136
+      - SEYoutube技术分享室整理_137
+      - 美国Youtube技术分享室整理_138
+      - 瑞典+🇸🇪Youtube技术分享室整理_139
+      - SGYoutube技术分享室整理_140
+      - 瑞典+🇸🇪Youtube技术分享室整理_141
+      - trYoutube技术分享室整理_142
+      - 🇮🇹ITYoutube技术分享室整理_143
+      - Youtube技术分享室整理_144
+      - 🇨🇦_CA_加拿大Youtube技术分享室整理,欢迎订阅_145
+      - 美国Youtube技术分享室整理_146
+      - 土耳其+🇹🇷Youtube技术分享室整理_147
+      - 挪威技术分享室整理,欢迎订阅_148
+      - 挪威技术分享室整理,欢迎订阅_149
+      - 🇳🇴NO技术分享室整理,欢迎订阅_150
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_151
+      - 美国Youtube技术分享室整理_152
+      - CA技术分享室整理,欢迎订阅_153
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_154
+      - 挪威技术分享室整理,欢迎订阅_155
+      - 德国+🇩🇪Youtube技术分享室整理_156
+      - 新西兰Youtube技术分享室整理_157
+      - 土耳其+🇹🇷Youtube技术分享室整理_158
+      - 新西兰Youtube技术分享室整理_159
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_160
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_161
+      - 美国Youtube技术分享室整理_162
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_163
+      - 加拿大Youtube技术分享室整理_164
+      - 加拿大Youtube技术分享室整理_165
+      - 🇨🇦CAYoutube技术分享室整理_166
+      - 🇨🇦CAYoutube技术分享室整理_167
+      - 🇷🇴ROYoutube技术分享室整理_168
+      - USYoutube技术分享室整理_169
+      - 英国Youtube技术分享室整理_170
+      - 🇺🇸USYoutube技术分享室整理_171
+      - 🇺🇸技术分享室整理,欢迎订阅_172
+      - 🇩🇰DKYoutube技术分享室整理_173
+      - 🇺🇸USYoutube技术分享室整理_174
+      - 🇮🇹ITYoutube技术分享室整理_175
+      - 🇦🇺AUYoutube技术分享室整理_176
+      - 德国+🇩🇪Youtube技术分享室整理_177
+      - 🇦🇺AUYoutube技术分享室整理_178
+      - 德国+🇩🇪Youtube技术分享室整理_179
+      - 瑞典+🇸🇪Youtube技术分享室整理_180
+      - CAYoutube技术分享室整理_181
+      - 瑞典+🇸🇪Youtube技术分享室整理_182
+      - 瑞典+🇸🇪Youtube技术分享室整理_183
+      - 瑞典+🇸🇪Youtube技术分享室整理_184
+      - 瑞典+🇸🇪Youtube技术分享室整理_185
+      - 瑞典+🇸🇪Youtube技术分享室整理_186
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - Youtube技术分享室整理_1
+      - 土耳其+🇹🇷Youtube技术分享室整理_2
+      - 瑞典+🇸🇪Youtube技术分享室整理_3
+      - 瑞典+🇸🇪Youtube技术分享室整理_4
+      - 瑞典+🇸🇪Youtube技术分享室整理_5
+      - CYoutube技术分享室整理_6
+      - 瑞典+🇸🇪Youtube技术分享室整理_7
+      - 瑞典+🇸🇪Youtube技术分享室整理_8
+      - 瑞典+🇸🇪Youtube技术分享室整理_9
+      - Youtube技术分享室整理_10
+      - 🇫🇷FRYoutube技术分享室整理_11
+      - 瑞典+🇸🇪Youtube技术分享室整理_12
+      - 瑞典+🇸🇪Youtube技术分享室整理_13
+      - 🇺🇸USYoutube技术分享室整理_14
+      - 瑞典+🇸🇪Youtube技术分享室整理_15
+      - 🇷🇴ROYoutube技术分享室整理_16
+      - 🇷🇴ROYoutube技术分享室整理_17
+      - 瑞典+🇸🇪Youtube技术分享室整理_18
+      - 🇷🇴ROYoutube技术分享室整理_19
+      - 🇷🇴ROYoutube技术分享室整理_20
+      - 土耳其+🇹🇷Youtube技术分享室整理_21
+      - 瑞典+🇸🇪Youtube技术分享室整理_22
+      - 瑞典+🇸🇪Youtube技术分享室整理_23
+      - 🇷🇴ROYoutube技术分享室整理_24
+      - 🇺🇸USYoutube技术分享室整理_25
+      - 🇷🇴ROYoutube技术分享室整理_26
+      - USYoutube技术分享室整理_27
+      - 瑞典+🇸🇪Youtube技术分享室整理_28
+      - 瑞典+🇸🇪Youtube技术分享室整理_29
+      - 瑞典+🇸🇪Youtube技术分享室整理_30
+      - 瑞典+🇸🇪Youtube技术分享室整理_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇦🇱ALYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - 🇺🇸+LasVegasYoutube技术分享室整理_35
+      - 瑞典+🇸🇪Youtube技术分享室整理_36
+      - 瑞典+🇸🇪Youtube技术分享室整理_37
+      - 瑞典+🇸🇪Youtube技术分享室整理_38
+      - 🇦🇱ALYoutube技术分享室整理_39
+      - 瑞典+🇸🇪Youtube技术分享室整理_40
+      - 🇮🇩IDYoutube技术分享室整理_41
+      - 瑞典+🇸🇪Youtube技术分享室整理_42
+      - 🇺🇸US美国Youtube技术分享室整理_43
+      - 🇦🇺AUYoutube技术分享室整理_44
+      - 🇺🇸USYoutube技术分享室整理_45
+      - 🇮🇩IDYoutube技术分享室整理_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 美国Youtube技术分享室整理_48
+      - 🇺🇸USYoutube技术分享室整理_49
+      - USYoutube技术分享室整理_50
+      - 美国Youtube技术分享室整理_51
+      - 🇺🇸USYoutube技术分享室整理_52
+      - 美国Youtube技术分享室整理_53
+      - 瑞典+🇸🇪Youtube技术分享室整理_54
+      - 🇺🇸USYoutube技术分享室整理_55
+      - 🇺🇸USYoutube技术分享室整理_56
+      - 🇺🇸USYoutube技术分享室整理_57
+      - 德国+🇩🇪Youtube技术分享室整理_58
+      - 🇺🇸USYoutube技术分享室整理_59
+      - 法Youtube技术分享室整理_60
+      - 德国+🇩🇪Youtube技术分享室整理_61
+      - 🇺🇸USYoutube技术分享室整理_62
+      - 🇺🇸USYoutube技术分享室整理_63
+      - 德国+🇩🇪Youtube技术分享室整理_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 美国Youtube技术分享室整理_66
+      - 🇮🇹ITYoutube技术分享室整理_67
+      - 德国+🇩🇪Youtube技术分享室整理_68
+      - 瑞典+🇸🇪Youtube技术分享室整理_69
+      - 🇮🇹ITYoutube技术分享室整理_70
+      - 🇮🇹ITYoutube技术分享室整理_71
+      - 🇮🇹ITYoutube技术分享室整理_72
+      - 德国+🇩🇪Youtube技术分享室整理_73
+      - 德国+🇩🇪Youtube技术分享室整理_74
+      - 美国Youtube技术分享室整理_75
+      - 瑞典+🇸🇪Youtube技术分享室整理_76
+      - 瑞典+🇸🇪Youtube技术分享室整理_77
+      - 美国Youtube技术分享室整理_78
+      - 🇮🇹ITYoutube技术分享室整理_79
+      - 🇮🇹ITYoutube技术分享室整理_80
+      - 🇮🇹ITYoutube技术分享室整理_81
+      - 🇦🇺AUYoutube技术分享室整理_82
+      - 德国+🇩🇪Youtube技术分享室整理_83
+      - 德国+🇩🇪Youtube技术分享室整理_84
+      - 德国+🇩🇪Youtube技术分享室整理_85
+      - 德国+🇩🇪Youtube技术分享室整理_86
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_87
+      - 瑞典+🇸🇪Youtube技术分享室整理_88
+      - 瑞典+🇸🇪Youtube技术分享室整理_89
+      - 🇮🇹ITYoutube技术分享室整理_90
+      - 🇮🇹ITYoutube技术分享室整理_91
+      - 🇮🇹ITYoutube技术分享室整理_92
+      - 德国+🇩🇪Youtube技术分享室整理_93
+      - 美国Youtube技术分享室整理_94
+      - 德国+🇩🇪Youtube技术分享室整理_95
+      - 德国+🇩🇪Youtube技术分享室整理_96
+      - 🇮🇹ITYoutube技术分享室整理_97
+      - 美国Youtube技术分享室整理_98
+      - 瑞典+🇸🇪Youtube技术分享室整理_99
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_100
+      - 🇮🇹ITYoutube技术分享室整理_101
+      - 🇮🇹ITYoutube技术分享室整理_102
+      - 🇮🇹ITYoutube技术分享室整理_103
+      - 🇮🇹ITYoutube技术分享室整理_104
+      - 德国+🇩🇪Youtube技术分享室整理_105
+      - 德国+🇩🇪Youtube技术分享室整理_106
+      - 德国+🇩🇪Youtube技术分享室整理_107
+      - 德国+🇩🇪Youtube技术分享室整理_108
+      - 德国+🇩🇪Youtube技术分享室整理_109
+      - 瑞典+🇸🇪Youtube技术分享室整理_110
+      - 法Youtube技术分享室整理_111
+      - 加拿大技术分享室整理,欢迎订阅_112
+      - 瑞典+🇸🇪Youtube技术分享室整理_113
+      - 加拿大技术分享室整理,欢迎订阅_114
+      - 英国Youtube技术分享室整理_115
+      - 瑞典+🇸🇪Youtube技术分享室整理_116
+      - 法国Youtube技术分享室整理_117
+      - 法Youtube技术分享室整理_118
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_119
+      - 🇮🇹ITYoutube技术分享室整理_120
+      - 🇮🇹ITYoutube技术分享室整理_121
+      - 🇮🇹ITYoutube技术分享室整理_122
+      - 🇮🇹ITYoutube技术分享室整理_123
+      - 德国+🇩🇪Youtube技术分享室整理_124
+      - 德国+🇩🇪Youtube技术分享室整理_125
+      - 瑞典+🇸🇪Youtube技术分享室整理_126
+      - 瑞典+🇸🇪Youtube技术分享室整理_127
+      - 瑞典+🇸🇪Youtube技术分享室整理_128
+      - SEYoutube技术分享室整理_129
+      - 瑞典+🇸🇪Youtube技术分享室整理_130
+      - 🇺🇸USYoutube技术分享室整理_131
+      - 🇮🇹ITYoutube技术分享室整理_132
+      - 🇮🇹ITYoutube技术分享室整理_133
+      - 🇮🇹ITYoutube技术分享室整理_134
+      - 德国+🇩🇪Youtube技术分享室整理_135
+      - 🇮🇹ITYoutube技术分享室整理_136
+      - SEYoutube技术分享室整理_137
+      - 美国Youtube技术分享室整理_138
+      - 瑞典+🇸🇪Youtube技术分享室整理_139
+      - SGYoutube技术分享室整理_140
+      - 瑞典+🇸🇪Youtube技术分享室整理_141
+      - trYoutube技术分享室整理_142
+      - 🇮🇹ITYoutube技术分享室整理_143
+      - Youtube技术分享室整理_144
+      - 🇨🇦_CA_加拿大Youtube技术分享室整理,欢迎订阅_145
+      - 美国Youtube技术分享室整理_146
+      - 土耳其+🇹🇷Youtube技术分享室整理_147
+      - 挪威技术分享室整理,欢迎订阅_148
+      - 挪威技术分享室整理,欢迎订阅_149
+      - 🇳🇴NO技术分享室整理,欢迎订阅_150
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_151
+      - 美国Youtube技术分享室整理_152
+      - CA技术分享室整理,欢迎订阅_153
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_154
+      - 挪威技术分享室整理,欢迎订阅_155
+      - 德国+🇩🇪Youtube技术分享室整理_156
+      - 新西兰Youtube技术分享室整理_157
+      - 土耳其+🇹🇷Youtube技术分享室整理_158
+      - 新西兰Youtube技术分享室整理_159
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_160
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_161
+      - 美国Youtube技术分享室整理_162
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_163
+      - 加拿大Youtube技术分享室整理_164
+      - 加拿大Youtube技术分享室整理_165
+      - 🇨🇦CAYoutube技术分享室整理_166
+      - 🇨🇦CAYoutube技术分享室整理_167
+      - 🇷🇴ROYoutube技术分享室整理_168
+      - USYoutube技术分享室整理_169
+      - 英国Youtube技术分享室整理_170
+      - 🇺🇸USYoutube技术分享室整理_171
+      - 🇺🇸技术分享室整理,欢迎订阅_172
+      - 🇩🇰DKYoutube技术分享室整理_173
+      - 🇺🇸USYoutube技术分享室整理_174
+      - 🇮🇹ITYoutube技术分享室整理_175
+      - 🇦🇺AUYoutube技术分享室整理_176
+      - 德国+🇩🇪Youtube技术分享室整理_177
+      - 🇦🇺AUYoutube技术分享室整理_178
+      - 德国+🇩🇪Youtube技术分享室整理_179
+      - 瑞典+🇸🇪Youtube技术分享室整理_180
+      - CAYoutube技术分享室整理_181
+      - 瑞典+🇸🇪Youtube技术分享室整理_182
+      - 瑞典+🇸🇪Youtube技术分享室整理_183
+      - 瑞典+🇸🇪Youtube技术分享室整理_184
+      - 瑞典+🇸🇪Youtube技术分享室整理_185
+      - 瑞典+🇸🇪Youtube技术分享室整理_186
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - Youtube技术分享室整理_1
+      - 土耳其+🇹🇷Youtube技术分享室整理_2
+      - 瑞典+🇸🇪Youtube技术分享室整理_3
+      - 瑞典+🇸🇪Youtube技术分享室整理_4
+      - 瑞典+🇸🇪Youtube技术分享室整理_5
+      - CYoutube技术分享室整理_6
+      - 瑞典+🇸🇪Youtube技术分享室整理_7
+      - 瑞典+🇸🇪Youtube技术分享室整理_8
+      - 瑞典+🇸🇪Youtube技术分享室整理_9
+      - Youtube技术分享室整理_10
+      - 🇫🇷FRYoutube技术分享室整理_11
+      - 瑞典+🇸🇪Youtube技术分享室整理_12
+      - 瑞典+🇸🇪Youtube技术分享室整理_13
+      - 🇺🇸USYoutube技术分享室整理_14
+      - 瑞典+🇸🇪Youtube技术分享室整理_15
+      - 🇷🇴ROYoutube技术分享室整理_16
+      - 🇷🇴ROYoutube技术分享室整理_17
+      - 瑞典+🇸🇪Youtube技术分享室整理_18
+      - 🇷🇴ROYoutube技术分享室整理_19
+      - 🇷🇴ROYoutube技术分享室整理_20
+      - 土耳其+🇹🇷Youtube技术分享室整理_21
+      - 瑞典+🇸🇪Youtube技术分享室整理_22
+      - 瑞典+🇸🇪Youtube技术分享室整理_23
+      - 🇷🇴ROYoutube技术分享室整理_24
+      - 🇺🇸USYoutube技术分享室整理_25
+      - 🇷🇴ROYoutube技术分享室整理_26
+      - USYoutube技术分享室整理_27
+      - 瑞典+🇸🇪Youtube技术分享室整理_28
+      - 瑞典+🇸🇪Youtube技术分享室整理_29
+      - 瑞典+🇸🇪Youtube技术分享室整理_30
+      - 瑞典+🇸🇪Youtube技术分享室整理_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇦🇱ALYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - 🇺🇸+LasVegasYoutube技术分享室整理_35
+      - 瑞典+🇸🇪Youtube技术分享室整理_36
+      - 瑞典+🇸🇪Youtube技术分享室整理_37
+      - 瑞典+🇸🇪Youtube技术分享室整理_38
+      - 🇦🇱ALYoutube技术分享室整理_39
+      - 瑞典+🇸🇪Youtube技术分享室整理_40
+      - 🇮🇩IDYoutube技术分享室整理_41
+      - 瑞典+🇸🇪Youtube技术分享室整理_42
+      - 🇺🇸US美国Youtube技术分享室整理_43
+      - 🇦🇺AUYoutube技术分享室整理_44
+      - 🇺🇸USYoutube技术分享室整理_45
+      - 🇮🇩IDYoutube技术分享室整理_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 美国Youtube技术分享室整理_48
+      - 🇺🇸USYoutube技术分享室整理_49
+      - USYoutube技术分享室整理_50
+      - 美国Youtube技术分享室整理_51
+      - 🇺🇸USYoutube技术分享室整理_52
+      - 美国Youtube技术分享室整理_53
+      - 瑞典+🇸🇪Youtube技术分享室整理_54
+      - 🇺🇸USYoutube技术分享室整理_55
+      - 🇺🇸USYoutube技术分享室整理_56
+      - 🇺🇸USYoutube技术分享室整理_57
+      - 德国+🇩🇪Youtube技术分享室整理_58
+      - 🇺🇸USYoutube技术分享室整理_59
+      - 法Youtube技术分享室整理_60
+      - 德国+🇩🇪Youtube技术分享室整理_61
+      - 🇺🇸USYoutube技术分享室整理_62
+      - 🇺🇸USYoutube技术分享室整理_63
+      - 德国+🇩🇪Youtube技术分享室整理_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 美国Youtube技术分享室整理_66
+      - 🇮🇹ITYoutube技术分享室整理_67
+      - 德国+🇩🇪Youtube技术分享室整理_68
+      - 瑞典+🇸🇪Youtube技术分享室整理_69
+      - 🇮🇹ITYoutube技术分享室整理_70
+      - 🇮🇹ITYoutube技术分享室整理_71
+      - 🇮🇹ITYoutube技术分享室整理_72
+      - 德国+🇩🇪Youtube技术分享室整理_73
+      - 德国+🇩🇪Youtube技术分享室整理_74
+      - 美国Youtube技术分享室整理_75
+      - 瑞典+🇸🇪Youtube技术分享室整理_76
+      - 瑞典+🇸🇪Youtube技术分享室整理_77
+      - 美国Youtube技术分享室整理_78
+      - 🇮🇹ITYoutube技术分享室整理_79
+      - 🇮🇹ITYoutube技术分享室整理_80
+      - 🇮🇹ITYoutube技术分享室整理_81
+      - 🇦🇺AUYoutube技术分享室整理_82
+      - 德国+🇩🇪Youtube技术分享室整理_83
+      - 德国+🇩🇪Youtube技术分享室整理_84
+      - 德国+🇩🇪Youtube技术分享室整理_85
+      - 德国+🇩🇪Youtube技术分享室整理_86
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_87
+      - 瑞典+🇸🇪Youtube技术分享室整理_88
+      - 瑞典+🇸🇪Youtube技术分享室整理_89
+      - 🇮🇹ITYoutube技术分享室整理_90
+      - 🇮🇹ITYoutube技术分享室整理_91
+      - 🇮🇹ITYoutube技术分享室整理_92
+      - 德国+🇩🇪Youtube技术分享室整理_93
+      - 美国Youtube技术分享室整理_94
+      - 德国+🇩🇪Youtube技术分享室整理_95
+      - 德国+🇩🇪Youtube技术分享室整理_96
+      - 🇮🇹ITYoutube技术分享室整理_97
+      - 美国Youtube技术分享室整理_98
+      - 瑞典+🇸🇪Youtube技术分享室整理_99
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_100
+      - 🇮🇹ITYoutube技术分享室整理_101
+      - 🇮🇹ITYoutube技术分享室整理_102
+      - 🇮🇹ITYoutube技术分享室整理_103
+      - 🇮🇹ITYoutube技术分享室整理_104
+      - 德国+🇩🇪Youtube技术分享室整理_105
+      - 德国+🇩🇪Youtube技术分享室整理_106
+      - 德国+🇩🇪Youtube技术分享室整理_107
+      - 德国+🇩🇪Youtube技术分享室整理_108
+      - 德国+🇩🇪Youtube技术分享室整理_109
+      - 瑞典+🇸🇪Youtube技术分享室整理_110
+      - 法Youtube技术分享室整理_111
+      - 加拿大技术分享室整理,欢迎订阅_112
+      - 瑞典+🇸🇪Youtube技术分享室整理_113
+      - 加拿大技术分享室整理,欢迎订阅_114
+      - 英国Youtube技术分享室整理_115
+      - 瑞典+🇸🇪Youtube技术分享室整理_116
+      - 法国Youtube技术分享室整理_117
+      - 法Youtube技术分享室整理_118
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_119
+      - 🇮🇹ITYoutube技术分享室整理_120
+      - 🇮🇹ITYoutube技术分享室整理_121
+      - 🇮🇹ITYoutube技术分享室整理_122
+      - 🇮🇹ITYoutube技术分享室整理_123
+      - 德国+🇩🇪Youtube技术分享室整理_124
+      - 德国+🇩🇪Youtube技术分享室整理_125
+      - 瑞典+🇸🇪Youtube技术分享室整理_126
+      - 瑞典+🇸🇪Youtube技术分享室整理_127
+      - 瑞典+🇸🇪Youtube技术分享室整理_128
+      - SEYoutube技术分享室整理_129
+      - 瑞典+🇸🇪Youtube技术分享室整理_130
+      - 🇺🇸USYoutube技术分享室整理_131
+      - 🇮🇹ITYoutube技术分享室整理_132
+      - 🇮🇹ITYoutube技术分享室整理_133
+      - 🇮🇹ITYoutube技术分享室整理_134
+      - 德国+🇩🇪Youtube技术分享室整理_135
+      - 🇮🇹ITYoutube技术分享室整理_136
+      - SEYoutube技术分享室整理_137
+      - 美国Youtube技术分享室整理_138
+      - 瑞典+🇸🇪Youtube技术分享室整理_139
+      - SGYoutube技术分享室整理_140
+      - 瑞典+🇸🇪Youtube技术分享室整理_141
+      - trYoutube技术分享室整理_142
+      - 🇮🇹ITYoutube技术分享室整理_143
+      - Youtube技术分享室整理_144
+      - 🇨🇦_CA_加拿大Youtube技术分享室整理,欢迎订阅_145
+      - 美国Youtube技术分享室整理_146
+      - 土耳其+🇹🇷Youtube技术分享室整理_147
+      - 挪威技术分享室整理,欢迎订阅_148
+      - 挪威技术分享室整理,欢迎订阅_149
+      - 🇳🇴NO技术分享室整理,欢迎订阅_150
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_151
+      - 美国Youtube技术分享室整理_152
+      - CA技术分享室整理,欢迎订阅_153
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_154
+      - 挪威技术分享室整理,欢迎订阅_155
+      - 德国+🇩🇪Youtube技术分享室整理_156
+      - 新西兰Youtube技术分享室整理_157
+      - 土耳其+🇹🇷Youtube技术分享室整理_158
+      - 新西兰Youtube技术分享室整理_159
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_160
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_161
+      - 美国Youtube技术分享室整理_162
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_163
+      - 加拿大Youtube技术分享室整理_164
+      - 加拿大Youtube技术分享室整理_165
+      - 🇨🇦CAYoutube技术分享室整理_166
+      - 🇨🇦CAYoutube技术分享室整理_167
+      - 🇷🇴ROYoutube技术分享室整理_168
+      - USYoutube技术分享室整理_169
+      - 英国Youtube技术分享室整理_170
+      - 🇺🇸USYoutube技术分享室整理_171
+      - 🇺🇸技术分享室整理,欢迎订阅_172
+      - 🇩🇰DKYoutube技术分享室整理_173
+      - 🇺🇸USYoutube技术分享室整理_174
+      - 🇮🇹ITYoutube技术分享室整理_175
+      - 🇦🇺AUYoutube技术分享室整理_176
+      - 德国+🇩🇪Youtube技术分享室整理_177
+      - 🇦🇺AUYoutube技术分享室整理_178
+      - 德国+🇩🇪Youtube技术分享室整理_179
+      - 瑞典+🇸🇪Youtube技术分享室整理_180
+      - CAYoutube技术分享室整理_181
+      - 瑞典+🇸🇪Youtube技术分享室整理_182
+      - 瑞典+🇸🇪Youtube技术分享室整理_183
+      - 瑞典+🇸🇪Youtube技术分享室整理_184
+      - 瑞典+🇸🇪Youtube技术分享室整理_185
+      - 瑞典+🇸🇪Youtube技术分享室整理_186
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,10 +1546,192 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - Youtube技术分享室整理_1
+      - 土耳其+🇹🇷Youtube技术分享室整理_2
+      - 瑞典+🇸🇪Youtube技术分享室整理_3
+      - 瑞典+🇸🇪Youtube技术分享室整理_4
+      - 瑞典+🇸🇪Youtube技术分享室整理_5
+      - CYoutube技术分享室整理_6
+      - 瑞典+🇸🇪Youtube技术分享室整理_7
+      - 瑞典+🇸🇪Youtube技术分享室整理_8
+      - 瑞典+🇸🇪Youtube技术分享室整理_9
+      - Youtube技术分享室整理_10
+      - 🇫🇷FRYoutube技术分享室整理_11
+      - 瑞典+🇸🇪Youtube技术分享室整理_12
+      - 瑞典+🇸🇪Youtube技术分享室整理_13
+      - 🇺🇸USYoutube技术分享室整理_14
+      - 瑞典+🇸🇪Youtube技术分享室整理_15
+      - 🇷🇴ROYoutube技术分享室整理_16
+      - 🇷🇴ROYoutube技术分享室整理_17
+      - 瑞典+🇸🇪Youtube技术分享室整理_18
+      - 🇷🇴ROYoutube技术分享室整理_19
+      - 🇷🇴ROYoutube技术分享室整理_20
+      - 土耳其+🇹🇷Youtube技术分享室整理_21
+      - 瑞典+🇸🇪Youtube技术分享室整理_22
+      - 瑞典+🇸🇪Youtube技术分享室整理_23
+      - 🇷🇴ROYoutube技术分享室整理_24
+      - 🇺🇸USYoutube技术分享室整理_25
+      - 🇷🇴ROYoutube技术分享室整理_26
+      - USYoutube技术分享室整理_27
+      - 瑞典+🇸🇪Youtube技术分享室整理_28
+      - 瑞典+🇸🇪Youtube技术分享室整理_29
+      - 瑞典+🇸🇪Youtube技术分享室整理_30
+      - 瑞典+🇸🇪Youtube技术分享室整理_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇦🇱ALYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - 🇺🇸+LasVegasYoutube技术分享室整理_35
+      - 瑞典+🇸🇪Youtube技术分享室整理_36
+      - 瑞典+🇸🇪Youtube技术分享室整理_37
+      - 瑞典+🇸🇪Youtube技术分享室整理_38
+      - 🇦🇱ALYoutube技术分享室整理_39
+      - 瑞典+🇸🇪Youtube技术分享室整理_40
+      - 🇮🇩IDYoutube技术分享室整理_41
+      - 瑞典+🇸🇪Youtube技术分享室整理_42
+      - 🇺🇸US美国Youtube技术分享室整理_43
+      - 🇦🇺AUYoutube技术分享室整理_44
+      - 🇺🇸USYoutube技术分享室整理_45
+      - 🇮🇩IDYoutube技术分享室整理_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 美国Youtube技术分享室整理_48
+      - 🇺🇸USYoutube技术分享室整理_49
+      - USYoutube技术分享室整理_50
+      - 美国Youtube技术分享室整理_51
+      - 🇺🇸USYoutube技术分享室整理_52
+      - 美国Youtube技术分享室整理_53
+      - 瑞典+🇸🇪Youtube技术分享室整理_54
+      - 🇺🇸USYoutube技术分享室整理_55
+      - 🇺🇸USYoutube技术分享室整理_56
+      - 🇺🇸USYoutube技术分享室整理_57
+      - 德国+🇩🇪Youtube技术分享室整理_58
+      - 🇺🇸USYoutube技术分享室整理_59
+      - 法Youtube技术分享室整理_60
+      - 德国+🇩🇪Youtube技术分享室整理_61
+      - 🇺🇸USYoutube技术分享室整理_62
+      - 🇺🇸USYoutube技术分享室整理_63
+      - 德国+🇩🇪Youtube技术分享室整理_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 美国Youtube技术分享室整理_66
+      - 🇮🇹ITYoutube技术分享室整理_67
+      - 德国+🇩🇪Youtube技术分享室整理_68
+      - 瑞典+🇸🇪Youtube技术分享室整理_69
+      - 🇮🇹ITYoutube技术分享室整理_70
+      - 🇮🇹ITYoutube技术分享室整理_71
+      - 🇮🇹ITYoutube技术分享室整理_72
+      - 德国+🇩🇪Youtube技术分享室整理_73
+      - 德国+🇩🇪Youtube技术分享室整理_74
+      - 美国Youtube技术分享室整理_75
+      - 瑞典+🇸🇪Youtube技术分享室整理_76
+      - 瑞典+🇸🇪Youtube技术分享室整理_77
+      - 美国Youtube技术分享室整理_78
+      - 🇮🇹ITYoutube技术分享室整理_79
+      - 🇮🇹ITYoutube技术分享室整理_80
+      - 🇮🇹ITYoutube技术分享室整理_81
+      - 🇦🇺AUYoutube技术分享室整理_82
+      - 德国+🇩🇪Youtube技术分享室整理_83
+      - 德国+🇩🇪Youtube技术分享室整理_84
+      - 德国+🇩🇪Youtube技术分享室整理_85
+      - 德国+🇩🇪Youtube技术分享室整理_86
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_87
+      - 瑞典+🇸🇪Youtube技术分享室整理_88
+      - 瑞典+🇸🇪Youtube技术分享室整理_89
+      - 🇮🇹ITYoutube技术分享室整理_90
+      - 🇮🇹ITYoutube技术分享室整理_91
+      - 🇮🇹ITYoutube技术分享室整理_92
+      - 德国+🇩🇪Youtube技术分享室整理_93
+      - 美国Youtube技术分享室整理_94
+      - 德国+🇩🇪Youtube技术分享室整理_95
+      - 德国+🇩🇪Youtube技术分享室整理_96
+      - 🇮🇹ITYoutube技术分享室整理_97
+      - 美国Youtube技术分享室整理_98
+      - 瑞典+🇸🇪Youtube技术分享室整理_99
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_100
+      - 🇮🇹ITYoutube技术分享室整理_101
+      - 🇮🇹ITYoutube技术分享室整理_102
+      - 🇮🇹ITYoutube技术分享室整理_103
+      - 🇮🇹ITYoutube技术分享室整理_104
+      - 德国+🇩🇪Youtube技术分享室整理_105
+      - 德国+🇩🇪Youtube技术分享室整理_106
+      - 德国+🇩🇪Youtube技术分享室整理_107
+      - 德国+🇩🇪Youtube技术分享室整理_108
+      - 德国+🇩🇪Youtube技术分享室整理_109
+      - 瑞典+🇸🇪Youtube技术分享室整理_110
+      - 法Youtube技术分享室整理_111
+      - 加拿大技术分享室整理,欢迎订阅_112
+      - 瑞典+🇸🇪Youtube技术分享室整理_113
+      - 加拿大技术分享室整理,欢迎订阅_114
+      - 英国Youtube技术分享室整理_115
+      - 瑞典+🇸🇪Youtube技术分享室整理_116
+      - 法国Youtube技术分享室整理_117
+      - 法Youtube技术分享室整理_118
+      - 加拿大🇨🇦技术分享室整理,欢迎订阅_119
+      - 🇮🇹ITYoutube技术分享室整理_120
+      - 🇮🇹ITYoutube技术分享室整理_121
+      - 🇮🇹ITYoutube技术分享室整理_122
+      - 🇮🇹ITYoutube技术分享室整理_123
+      - 德国+🇩🇪Youtube技术分享室整理_124
+      - 德国+🇩🇪Youtube技术分享室整理_125
+      - 瑞典+🇸🇪Youtube技术分享室整理_126
+      - 瑞典+🇸🇪Youtube技术分享室整理_127
+      - 瑞典+🇸🇪Youtube技术分享室整理_128
+      - SEYoutube技术分享室整理_129
+      - 瑞典+🇸🇪Youtube技术分享室整理_130
+      - 🇺🇸USYoutube技术分享室整理_131
+      - 🇮🇹ITYoutube技术分享室整理_132
+      - 🇮🇹ITYoutube技术分享室整理_133
+      - 🇮🇹ITYoutube技术分享室整理_134
+      - 德国+🇩🇪Youtube技术分享室整理_135
+      - 🇮🇹ITYoutube技术分享室整理_136
+      - SEYoutube技术分享室整理_137
+      - 美国Youtube技术分享室整理_138
+      - 瑞典+🇸🇪Youtube技术分享室整理_139
+      - SGYoutube技术分享室整理_140
+      - 瑞典+🇸🇪Youtube技术分享室整理_141
+      - trYoutube技术分享室整理_142
+      - 🇮🇹ITYoutube技术分享室整理_143
+      - Youtube技术分享室整理_144
+      - 🇨🇦_CA_加拿大Youtube技术分享室整理,欢迎订阅_145
+      - 美国Youtube技术分享室整理_146
+      - 土耳其+🇹🇷Youtube技术分享室整理_147
+      - 挪威技术分享室整理,欢迎订阅_148
+      - 挪威技术分享室整理,欢迎订阅_149
+      - 🇳🇴NO技术分享室整理,欢迎订阅_150
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_151
+      - 美国Youtube技术分享室整理_152
+      - CA技术分享室整理,欢迎订阅_153
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_154
+      - 挪威技术分享室整理,欢迎订阅_155
+      - 德国+🇩🇪Youtube技术分享室整理_156
+      - 新西兰Youtube技术分享室整理_157
+      - 土耳其+🇹🇷Youtube技术分享室整理_158
+      - 新西兰Youtube技术分享室整理_159
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_160
+      - 德国+🇩🇪技术分享室整理,欢迎订阅_161
+      - 美国Youtube技术分享室整理_162
+      - 挪威+🇳🇴技术分享室整理,欢迎订阅_163
+      - 加拿大Youtube技术分享室整理_164
+      - 加拿大Youtube技术分享室整理_165
+      - 🇨🇦CAYoutube技术分享室整理_166
+      - 🇨🇦CAYoutube技术分享室整理_167
+      - 🇷🇴ROYoutube技术分享室整理_168
+      - USYoutube技术分享室整理_169
+      - 英国Youtube技术分享室整理_170
+      - 🇺🇸USYoutube技术分享室整理_171
+      - 🇺🇸技术分享室整理,欢迎订阅_172
+      - 🇩🇰DKYoutube技术分享室整理_173
+      - 🇺🇸USYoutube技术分享室整理_174
+      - 🇮🇹ITYoutube技术分享室整理_175
+      - 🇦🇺AUYoutube技术分享室整理_176
+      - 德国+🇩🇪Youtube技术分享室整理_177
+      - 🇦🇺AUYoutube技术分享室整理_178
+      - 德国+🇩🇪Youtube技术分享室整理_179
+      - 瑞典+🇸🇪Youtube技术分享室整理_180
+      - CAYoutube技术分享室整理_181
+      - 瑞典+🇸🇪Youtube技术分享室整理_182
+      - 瑞典+🇸🇪Youtube技术分享室整理_183
+      - 瑞典+🇸🇪Youtube技术分享室整理_184
+      - 瑞典+🇸🇪Youtube技术分享室整理_185
+      - 瑞典+🇸🇪Youtube技术分享室整理_186
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
