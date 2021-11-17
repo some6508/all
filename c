@@ -5,68 +5,292 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '家_1', server: s.hongbin.club, port: 35680, type: vmess, uuid: 63251a69-0c25-4164-bc60-dc5f9f29dac7, alterId: 16, cipher: auto, tls: false, network: tcp}
-  - {name: 'XiaoMi_2', server: www.hongbin.club, port: 54383, type: vmess, uuid: 3ca0c89c-38c3-4476-d1f7-6f18899242a2, alterId: 64, cipher: auto, tls: false, network: tcp}
-  - {name: 'LG_GIA_CN2_V3_3', server: lg.hongbin.club, port: 36518, type: vmess, uuid: 17c30718-53c9-451b-c446-6f44dec98aef, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: 'v2rayse_🇺🇸_US_美国_1', server: 185.124.240.146, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 'v2rayse_🇺🇸_US_美国_2', server: 185.124.240.146, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 'v2rayse_🇺🇸_US_美国_3', server: 154.17.6.71, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: RaFE0xaR9O5lYpNcyuS34yBDAXSD8Ca87gCSeZxADOwCzKYIjp3qZle3F3T62n}
+  - {name: 'v2rayse_🇺🇸_US_美国_4', server: usdll2.jjyun.ren, port: 80, type: vmess, uuid: 1eb19a07-1ce2-4410-8349-c85f7d9d560b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /jjyunml}
+  - {name: 'v2rayse_🇺🇸_US_美国_5', server: 154.17.2.160, port: 18340, type: ss, cipher: chacha20-ietf-poly1305, password: 3cYxOFTA270pCaezFlDu4AjNBX9wa3ZD8ESg3Cypx6C8S5IynqR3ROZeDYlSKa}
+  - {name: 'v2rayse_🇺🇸_US_美国_6', server: 154.16.168.186, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 'v2rayse_🇺🇸_US_美国_7', server: 89.187.173.250, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 'v2rayse_🇺🇸_US_美国_8', server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 'v2rayse_🇺🇸_US_美国_9', server: 138.199.42.134, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 'v2rayse_🇺🇸_US_美国_10', server: 154.16.168.186, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 'v2rayse_🇺🇸_US_美国_11', server: 154.17.2.178, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: OSejD7aK2AR0R4z89SaxlxZ8NEYBCaweDpA3IT6DgncXlZOyqy533pFCSFCY3u}
+  - {name: 'v2rayse_🇺🇸_US_美国_12', server: 79.110.53.203, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 'v2rayse_🇺🇸_US_美国_13', server: 155.254.31.184, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'v2rayse_🇺🇸_US_美国_14', server: 155.254.29.165, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 'v2rayse_🇺🇸_US_美国_15', server: 198.147.22.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 'v2rayse_🇺🇸_US_美国_16', server: 107.189.14.137, port: 33009, type: vmess, uuid: 9d0ab632-2d98-45a2-b9c5-9ebc3f6951f6, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'v2rayse_🇺🇸_US_美国_17', server: 138.199.42.170, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 'v2rayse_🇺🇸_US_美国_18', server: 138.199.42.134, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'v2rayse_🇺🇸_US_美国_19', server: 154.17.31.175, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Ou0pEw4S5qIy3ya7RN8p9DjzleclaZSFe2DS8CCZA3gCxXYDxAan36FTOB3RYK}
+  - {name: 'v2rayse_🇺🇸_US_美国_20', server: 138.199.42.170, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: 'v2rayse_🇺🇸_US_美国_21', server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 'v2rayse_🇺🇸_US_美国_22', server: 23.106.248.19, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: ZDYSyKNR8upjg9l36eR3ZySAaaEcOY2CaI0zp5xnX4733eSwqxCFlOTD8BCDFA}
+  - {name: 'v2rayse_🇺🇸_US_美国_23', server: 154.16.168.186, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 'v2rayse_🇺🇸_US_美国_24', server: 79.110.53.203, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 'v2rayse_🇺🇸_US_美国_25', server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 'v2rayse_🇺🇸_US_美国_26', server: 138.199.42.134, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'v2rayse_🇺🇸_US_美国_27', server: 104.200.131.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'v2rayse_🇺🇸_US_美国_28', server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'v2rayse_🇺🇸_US_美国_29', server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 'v2rayse_🇺🇸_US_美国_30', server: 172.93.153.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'v2rayse_🇺🇸_US_美国_31', server: 148.72.174.53, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 家_1
-      - XiaoMi_2
-      - LG_GIA_CN2_V3_3
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇺🇸_US_美国_31
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 家_1
-      - XiaoMi_2
-      - LG_GIA_CN2_V3_3
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇺🇸_US_美国_31
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 家_1
-      - XiaoMi_2
-      - LG_GIA_CN2_V3_3
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇺🇸_US_美国_31
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 家_1
-      - XiaoMi_2
-      - LG_GIA_CN2_V3_3
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇺🇸_US_美国_31
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 家_1
-      - XiaoMi_2
-      - LG_GIA_CN2_V3_3
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇺🇸_US_美国_31
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 家_1
-      - XiaoMi_2
-      - LG_GIA_CN2_V3_3
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇺🇸_US_美国_31
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 家_1
-      - XiaoMi_2
-      - LG_GIA_CN2_V3_3
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇺🇸_US_美国_31
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,9 +306,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 家_1
-      - XiaoMi_2
-      - LG_GIA_CN2_V3_3
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇺🇸_US_美国_31
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
