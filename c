@@ -5,124 +5,68 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'cfmem.com_🇨🇦_CA_加拿大_1', server: 198.8.92.84, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 'cfmem.com_🇨🇦_CA_加拿大_2', server: 198.8.92.84, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 'cfmem.com_🇸🇰_SK_斯洛伐克_1', server: 185.76.8.218, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 'cfmem.com_🇸🇰_SK_斯洛伐克_2', server: 185.76.8.218, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 'cfmem.com_🇸🇰_SK_斯洛伐克_3', server: 185.76.8.218, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 'cfmem.com_🇸🇰_SK_斯洛伐克_4', server: 185.76.8.218, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 'cfmem.com_🇸🇰_SK_斯洛伐克_5', server: 185.76.8.218, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 'cfmem.com_🇸🇪_SE_瑞典_1', server: 185.76.9.56, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 'cfmem.com_🇸🇰_SK_斯洛伐克_6', server: 185.76.8.218, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 'cfmem.com_🇸🇰_SK_斯洛伐克_7', server: 185.76.8.218, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '🇳🇱_NL_荷兰_1', server: 89.46.223.186, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: '🇳🇱_NL_荷兰_2', server: 89.46.223.239, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: '🇳🇱_NL_荷兰_3', server: 89.46.223.93, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - cfmem.com_🇨🇦_CA_加拿大_1
-      - cfmem.com_🇨🇦_CA_加拿大_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_3
-      - cfmem.com_🇸🇰_SK_斯洛伐克_4
-      - cfmem.com_🇸🇰_SK_斯洛伐克_5
-      - cfmem.com_🇸🇪_SE_瑞典_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_6
-      - cfmem.com_🇸🇰_SK_斯洛伐克_7
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - cfmem.com_🇨🇦_CA_加拿大_1
-      - cfmem.com_🇨🇦_CA_加拿大_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_3
-      - cfmem.com_🇸🇰_SK_斯洛伐克_4
-      - cfmem.com_🇸🇰_SK_斯洛伐克_5
-      - cfmem.com_🇸🇪_SE_瑞典_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_6
-      - cfmem.com_🇸🇰_SK_斯洛伐克_7
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - cfmem.com_🇨🇦_CA_加拿大_1
-      - cfmem.com_🇨🇦_CA_加拿大_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_3
-      - cfmem.com_🇸🇰_SK_斯洛伐克_4
-      - cfmem.com_🇸🇰_SK_斯洛伐克_5
-      - cfmem.com_🇸🇪_SE_瑞典_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_6
-      - cfmem.com_🇸🇰_SK_斯洛伐克_7
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - cfmem.com_🇨🇦_CA_加拿大_1
-      - cfmem.com_🇨🇦_CA_加拿大_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_3
-      - cfmem.com_🇸🇰_SK_斯洛伐克_4
-      - cfmem.com_🇸🇰_SK_斯洛伐克_5
-      - cfmem.com_🇸🇪_SE_瑞典_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_6
-      - cfmem.com_🇸🇰_SK_斯洛伐克_7
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - cfmem.com_🇨🇦_CA_加拿大_1
-      - cfmem.com_🇨🇦_CA_加拿大_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_3
-      - cfmem.com_🇸🇰_SK_斯洛伐克_4
-      - cfmem.com_🇸🇰_SK_斯洛伐克_5
-      - cfmem.com_🇸🇪_SE_瑞典_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_6
-      - cfmem.com_🇸🇰_SK_斯洛伐克_7
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - cfmem.com_🇨🇦_CA_加拿大_1
-      - cfmem.com_🇨🇦_CA_加拿大_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_3
-      - cfmem.com_🇸🇰_SK_斯洛伐克_4
-      - cfmem.com_🇸🇰_SK_斯洛伐克_5
-      - cfmem.com_🇸🇪_SE_瑞典_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_6
-      - cfmem.com_🇸🇰_SK_斯洛伐克_7
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - cfmem.com_🇨🇦_CA_加拿大_1
-      - cfmem.com_🇨🇦_CA_加拿大_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_3
-      - cfmem.com_🇸🇰_SK_斯洛伐克_4
-      - cfmem.com_🇸🇰_SK_斯洛伐克_5
-      - cfmem.com_🇸🇪_SE_瑞典_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_6
-      - cfmem.com_🇸🇰_SK_斯洛伐克_7
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +82,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - cfmem.com_🇨🇦_CA_加拿大_1
-      - cfmem.com_🇨🇦_CA_加拿大_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_2
-      - cfmem.com_🇸🇰_SK_斯洛伐克_3
-      - cfmem.com_🇸🇰_SK_斯洛伐克_4
-      - cfmem.com_🇸🇰_SK_斯洛伐克_5
-      - cfmem.com_🇸🇪_SE_瑞典_1
-      - cfmem.com_🇸🇰_SK_斯洛伐克_6
-      - cfmem.com_🇸🇰_SK_斯洛伐克_7
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
