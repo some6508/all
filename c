@@ -5,220 +5,196 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '超级路线香港1_1', server: 27.124.44.5, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: jc10.soflyso.info, tls: true}, cipher: aes-256-gcm, password: fcc1e096fe7f}
-  - {name: '超级路线韩国3_2', server: 27.102.118.27, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: Krkdanew001.soflyso.info, tls: true}, cipher: aes-256-gcm, password: f9bf8919c427}
-  - {name: '超级路线韩国2_3', server: 202.79.166.241, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: xw1.soflyso.info, tls: true}, cipher: aes-256-gcm, password: f58cddf6cd9d}
-  - {name: '超级路线日本2_4', server: 137.220.185.22, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: xw2.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 4944b4040806}
-  - {name: '超级路线日本1_5', server: 47.245.14.32, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: alisjpnews001.soflyso.info, tls: true}, cipher: aes-256-gcm, password: c801c5b9bb6b}
-  - {name: '超级路线美国5_6', server: 194.76.0.4, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: yyusnew003.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 9bc9c622dd8d}
-  - {name: '超级路线美国4_7', server: 142.4.101.202, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: dx1000usnew001.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 83e01b5d4a8b}
-  - {name: '新用户专线台北_8', server: 211.23.141.54, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: dx600twnewss002.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 3c7ab2c61374}
-  - {name: '超级路线美国2_9', server: 206.119.115.55, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: dxhk1000new003.soflyso.info, tls: true}, cipher: aes-256-gcm, password: f56e2142b4d9}
-  - {name: '超级路线美国1_10', server: 206.119.115.51, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: dxhk1000new001.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 832167441530}
-  - {name: '超级路线台北2_11', server: 60.250.78.252, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: twn600wd4.soflyso.info, tls: true}, cipher: aes-256-gcm, password: bb01c71b1c9d}
-  - {name: '超级路线台北1_12', server: 60.250.74.252, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: twn600wd3.soflyso.info, tls: true}, cipher: aes-256-gcm, password: be770418575f}
-  - {name: '超级路线香港1_13', server: 47.243.165.95, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: alihsknew2.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 08e1a848a855}
-  - {name: '超级路线台湾9_14', server: 60.250.137.213, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: dx600twnews001.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 90185e1ac1cf}
-  - {name: '超级路线台湾8_15', server: 211.23.141.52, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: dx600twnewss001.soflyso.info, tls: true}, cipher: aes-256-gcm, password: bff483ac1406}
-  - {name: '超级路线台湾7_16', server: 220.130.18.217, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: Dx600twnew4.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 973d3abdc9b2}
-  - {name: '超级路线台湾6_17', server: 211.21.20.192, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: Dx600twnew3.soflyso.info, tls: true}, cipher: aes-256-gcm, password: ab9159caa85a}
-  - {name: '超级路线台湾5_18', server: 60.251.66.116, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: twn600wds10.soflyso.info, tls: true}, cipher: aes-256-gcm, password: fa1461264001}
-  - {name: '超级路线台湾4_19', server: 203.69.243.19, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: twn600wdnew10.soflyso.info, tls: true}, cipher: aes-256-gcm, password: cb411c16c567}
-  - {name: '超级路线台湾3_20', server: 59.125.98.29, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: twn600wd8.soflyso.info, tls: true}, cipher: aes-256-gcm, password: a22c307e4a69}
-  - {name: '超级路线台湾2_21', server: 220.128.135.185, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: twn600wd1.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 12adb4fb9741}
-  - {name: '超级路线韩国1_22', server: 27.102.118.27, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: Krkdanew001.soflyso.info, tls: true}, cipher: aes-256-gcm, password: f9bf8919c427}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_1', server: 185.76.8.218, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 'v2rayse_🇭🇰_HK_香港_1', server: vip345.xyz, port: 39042, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_2', server: 185.76.8.218, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 'v2rayse_🇩🇪_DE_德国_1', server: 82.102.16.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_3', server: 185.76.8.218, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: 'v2rayse_🇩🇪_DE_德国_2', server: 82.102.16.102, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_4', server: 185.76.8.218, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_5', server: 185.76.8.218, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_6', server: 185.76.8.218, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 'v2rayse_🇩🇪_DE_德国_3', server: 82.102.16.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 'v2rayse_🇩🇪_DE_德国_4', server: 82.102.16.102, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_7', server: 185.76.8.218, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_8', server: 185.76.8.218, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_9', server: 185.76.8.218, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_10', server: 185.76.8.218, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 'v2rayse_🇩🇪_DE_德国_5', server: 82.102.16.102, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 'v2rayse_🇭🇰_HK_香港_2', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇩🇪_DE_德国_6', server: 156.146.33.66, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 'v2rayse_🇩🇪_DE_德国_7', server: 82.102.16.102, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 超级路线香港1_1
-      - 超级路线韩国3_2
-      - 超级路线韩国2_3
-      - 超级路线日本2_4
-      - 超级路线日本1_5
-      - 超级路线美国5_6
-      - 超级路线美国4_7
-      - 新用户专线台北_8
-      - 超级路线美国2_9
-      - 超级路线美国1_10
-      - 超级路线台北2_11
-      - 超级路线台北1_12
-      - 超级路线香港1_13
-      - 超级路线台湾9_14
-      - 超级路线台湾8_15
-      - 超级路线台湾7_16
-      - 超级路线台湾6_17
-      - 超级路线台湾5_18
-      - 超级路线台湾4_19
-      - 超级路线台湾3_20
-      - 超级路线台湾2_21
-      - 超级路线韩国1_22
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇩🇪_DE_德国_7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 超级路线香港1_1
-      - 超级路线韩国3_2
-      - 超级路线韩国2_3
-      - 超级路线日本2_4
-      - 超级路线日本1_5
-      - 超级路线美国5_6
-      - 超级路线美国4_7
-      - 新用户专线台北_8
-      - 超级路线美国2_9
-      - 超级路线美国1_10
-      - 超级路线台北2_11
-      - 超级路线台北1_12
-      - 超级路线香港1_13
-      - 超级路线台湾9_14
-      - 超级路线台湾8_15
-      - 超级路线台湾7_16
-      - 超级路线台湾6_17
-      - 超级路线台湾5_18
-      - 超级路线台湾4_19
-      - 超级路线台湾3_20
-      - 超级路线台湾2_21
-      - 超级路线韩国1_22
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇩🇪_DE_德国_7
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 超级路线香港1_1
-      - 超级路线韩国3_2
-      - 超级路线韩国2_3
-      - 超级路线日本2_4
-      - 超级路线日本1_5
-      - 超级路线美国5_6
-      - 超级路线美国4_7
-      - 新用户专线台北_8
-      - 超级路线美国2_9
-      - 超级路线美国1_10
-      - 超级路线台北2_11
-      - 超级路线台北1_12
-      - 超级路线香港1_13
-      - 超级路线台湾9_14
-      - 超级路线台湾8_15
-      - 超级路线台湾7_16
-      - 超级路线台湾6_17
-      - 超级路线台湾5_18
-      - 超级路线台湾4_19
-      - 超级路线台湾3_20
-      - 超级路线台湾2_21
-      - 超级路线韩国1_22
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇩🇪_DE_德国_7
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 超级路线香港1_1
-      - 超级路线韩国3_2
-      - 超级路线韩国2_3
-      - 超级路线日本2_4
-      - 超级路线日本1_5
-      - 超级路线美国5_6
-      - 超级路线美国4_7
-      - 新用户专线台北_8
-      - 超级路线美国2_9
-      - 超级路线美国1_10
-      - 超级路线台北2_11
-      - 超级路线台北1_12
-      - 超级路线香港1_13
-      - 超级路线台湾9_14
-      - 超级路线台湾8_15
-      - 超级路线台湾7_16
-      - 超级路线台湾6_17
-      - 超级路线台湾5_18
-      - 超级路线台湾4_19
-      - 超级路线台湾3_20
-      - 超级路线台湾2_21
-      - 超级路线韩国1_22
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇩🇪_DE_德国_7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 超级路线香港1_1
-      - 超级路线韩国3_2
-      - 超级路线韩国2_3
-      - 超级路线日本2_4
-      - 超级路线日本1_5
-      - 超级路线美国5_6
-      - 超级路线美国4_7
-      - 新用户专线台北_8
-      - 超级路线美国2_9
-      - 超级路线美国1_10
-      - 超级路线台北2_11
-      - 超级路线台北1_12
-      - 超级路线香港1_13
-      - 超级路线台湾9_14
-      - 超级路线台湾8_15
-      - 超级路线台湾7_16
-      - 超级路线台湾6_17
-      - 超级路线台湾5_18
-      - 超级路线台湾4_19
-      - 超级路线台湾3_20
-      - 超级路线台湾2_21
-      - 超级路线韩国1_22
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇩🇪_DE_德国_7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 超级路线香港1_1
-      - 超级路线韩国3_2
-      - 超级路线韩国2_3
-      - 超级路线日本2_4
-      - 超级路线日本1_5
-      - 超级路线美国5_6
-      - 超级路线美国4_7
-      - 新用户专线台北_8
-      - 超级路线美国2_9
-      - 超级路线美国1_10
-      - 超级路线台北2_11
-      - 超级路线台北1_12
-      - 超级路线香港1_13
-      - 超级路线台湾9_14
-      - 超级路线台湾8_15
-      - 超级路线台湾7_16
-      - 超级路线台湾6_17
-      - 超级路线台湾5_18
-      - 超级路线台湾4_19
-      - 超级路线台湾3_20
-      - 超级路线台湾2_21
-      - 超级路线韩国1_22
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇩🇪_DE_德国_7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 超级路线香港1_1
-      - 超级路线韩国3_2
-      - 超级路线韩国2_3
-      - 超级路线日本2_4
-      - 超级路线日本1_5
-      - 超级路线美国5_6
-      - 超级路线美国4_7
-      - 新用户专线台北_8
-      - 超级路线美国2_9
-      - 超级路线美国1_10
-      - 超级路线台北2_11
-      - 超级路线台北1_12
-      - 超级路线香港1_13
-      - 超级路线台湾9_14
-      - 超级路线台湾8_15
-      - 超级路线台湾7_16
-      - 超级路线台湾6_17
-      - 超级路线台湾5_18
-      - 超级路线台湾4_19
-      - 超级路线台湾3_20
-      - 超级路线台湾2_21
-      - 超级路线韩国1_22
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇩🇪_DE_德国_7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -234,28 +210,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 超级路线香港1_1
-      - 超级路线韩国3_2
-      - 超级路线韩国2_3
-      - 超级路线日本2_4
-      - 超级路线日本1_5
-      - 超级路线美国5_6
-      - 超级路线美国4_7
-      - 新用户专线台北_8
-      - 超级路线美国2_9
-      - 超级路线美国1_10
-      - 超级路线台北2_11
-      - 超级路线台北1_12
-      - 超级路线香港1_13
-      - 超级路线台湾9_14
-      - 超级路线台湾8_15
-      - 超级路线台湾7_16
-      - 超级路线台湾6_17
-      - 超级路线台湾5_18
-      - 超级路线台湾4_19
-      - 超级路线台湾3_20
-      - 超级路线台湾2_21
-      - 超级路线韩国1_22
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇩🇪_DE_德国_7
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
