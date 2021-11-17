@@ -5,8 +5,10 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇳🇱_NL_荷兰_1', server: 89.46.223.79, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: '🇧🇪_BE_比利时_2', server: 194.110.115.86, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: '🇳🇱_NL_荷兰_1', server: 89.46.223.186, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: '🇧🇪_BE_比利时_2', server: 194.110.115.86, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: '🇮🇳_IN_印度_3', server: 103.108.117.148, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: '🇹🇷_TR_土耳其_4', server: 107.150.94.12, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -15,6 +17,8 @@ proxy-groups:
       - 🎯 全球直连
       - 🇳🇱_NL_荷兰_1
       - 🇧🇪_BE_比利时_2
+      - 🇮🇳_IN_印度_3
+      - 🇹🇷_TR_土耳其_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -22,6 +26,8 @@ proxy-groups:
     proxies:
       - 🇳🇱_NL_荷兰_1
       - 🇧🇪_BE_比利时_2
+      - 🇮🇳_IN_印度_3
+      - 🇹🇷_TR_土耳其_4
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -30,6 +36,8 @@ proxy-groups:
       - 🎯 全球直连
       - 🇳🇱_NL_荷兰_1
       - 🇧🇪_BE_比利时_2
+      - 🇮🇳_IN_印度_3
+      - 🇹🇷_TR_土耳其_4
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -37,6 +45,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🇳🇱_NL_荷兰_1
       - 🇧🇪_BE_比利时_2
+      - 🇮🇳_IN_印度_3
+      - 🇹🇷_TR_土耳其_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -44,6 +54,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🇳🇱_NL_荷兰_1
       - 🇧🇪_BE_比利时_2
+      - 🇮🇳_IN_印度_3
+      - 🇹🇷_TR_土耳其_4
   - name: 📲 电报信息
     type: select
     proxies:
@@ -51,6 +63,8 @@ proxy-groups:
       - 🎯 全球直连
       - 🇳🇱_NL_荷兰_1
       - 🇧🇪_BE_比利时_2
+      - 🇮🇳_IN_印度_3
+      - 🇹🇷_TR_土耳其_4
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -59,6 +73,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇳🇱_NL_荷兰_1
       - 🇧🇪_BE_比利时_2
+      - 🇮🇳_IN_印度_3
+      - 🇹🇷_TR_土耳其_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -76,6 +92,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇳🇱_NL_荷兰_1
       - 🇧🇪_BE_比利时_2
+      - 🇮🇳_IN_印度_3
+      - 🇹🇷_TR_土耳其_4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
