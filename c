@@ -5,292 +5,220 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'v2rayse_🇺🇸_US_美国_1', server: 185.124.240.146, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: 'v2rayse_🇺🇸_US_美国_2', server: 185.124.240.146, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 'v2rayse_🇺🇸_US_美国_3', server: 154.17.6.71, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: RaFE0xaR9O5lYpNcyuS34yBDAXSD8Ca87gCSeZxADOwCzKYIjp3qZle3F3T62n}
-  - {name: 'v2rayse_🇺🇸_US_美国_4', server: usdll2.jjyun.ren, port: 80, type: vmess, uuid: 1eb19a07-1ce2-4410-8349-c85f7d9d560b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /jjyunml}
-  - {name: 'v2rayse_🇺🇸_US_美国_5', server: 154.17.2.160, port: 18340, type: ss, cipher: chacha20-ietf-poly1305, password: 3cYxOFTA270pCaezFlDu4AjNBX9wa3ZD8ESg3Cypx6C8S5IynqR3ROZeDYlSKa}
-  - {name: 'v2rayse_🇺🇸_US_美国_6', server: 154.16.168.186, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 'v2rayse_🇺🇸_US_美国_7', server: 89.187.173.250, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 'v2rayse_🇺🇸_US_美国_8', server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 'v2rayse_🇺🇸_US_美国_9', server: 138.199.42.134, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 'v2rayse_🇺🇸_US_美国_10', server: 154.16.168.186, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 'v2rayse_🇺🇸_US_美国_11', server: 154.17.2.178, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: OSejD7aK2AR0R4z89SaxlxZ8NEYBCaweDpA3IT6DgncXlZOyqy533pFCSFCY3u}
-  - {name: 'v2rayse_🇺🇸_US_美国_12', server: 79.110.53.203, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 'v2rayse_🇺🇸_US_美国_13', server: 155.254.31.184, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 'v2rayse_🇺🇸_US_美国_14', server: 155.254.29.165, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 'v2rayse_🇺🇸_US_美国_15', server: 198.147.22.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 'v2rayse_🇺🇸_US_美国_16', server: 107.189.14.137, port: 33009, type: vmess, uuid: 9d0ab632-2d98-45a2-b9c5-9ebc3f6951f6, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'v2rayse_🇺🇸_US_美国_17', server: 138.199.42.170, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 'v2rayse_🇺🇸_US_美国_18', server: 138.199.42.134, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 'v2rayse_🇺🇸_US_美国_19', server: 154.17.31.175, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Ou0pEw4S5qIy3ya7RN8p9DjzleclaZSFe2DS8CCZA3gCxXYDxAan36FTOB3RYK}
-  - {name: 'v2rayse_🇺🇸_US_美国_20', server: 138.199.42.170, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
-  - {name: 'v2rayse_🇺🇸_US_美国_21', server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: 'v2rayse_🇺🇸_US_美国_22', server: 23.106.248.19, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: ZDYSyKNR8upjg9l36eR3ZySAaaEcOY2CaI0zp5xnX4733eSwqxCFlOTD8BCDFA}
-  - {name: 'v2rayse_🇺🇸_US_美国_23', server: 154.16.168.186, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: 'v2rayse_🇺🇸_US_美国_24', server: 79.110.53.203, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 'v2rayse_🇺🇸_US_美国_25', server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: 'v2rayse_🇺🇸_US_美国_26', server: 138.199.42.134, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 'v2rayse_🇺🇸_US_美国_27', server: 104.200.131.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 'v2rayse_🇺🇸_US_美国_28', server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 'v2rayse_🇺🇸_US_美国_29', server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 'v2rayse_🇺🇸_US_美国_30', server: 172.93.153.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 'v2rayse_🇺🇸_US_美国_31', server: 148.72.174.53, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: '超级路线香港1_1', server: 27.124.44.5, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: jc10.soflyso.info, tls: true}, cipher: aes-256-gcm, password: fcc1e096fe7f}
+  - {name: '超级路线韩国3_2', server: 27.102.118.27, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: Krkdanew001.soflyso.info, tls: true}, cipher: aes-256-gcm, password: f9bf8919c427}
+  - {name: '超级路线韩国2_3', server: 202.79.166.241, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: xw1.soflyso.info, tls: true}, cipher: aes-256-gcm, password: f58cddf6cd9d}
+  - {name: '超级路线日本2_4', server: 137.220.185.22, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: xw2.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 4944b4040806}
+  - {name: '超级路线日本1_5', server: 47.245.14.32, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: alisjpnews001.soflyso.info, tls: true}, cipher: aes-256-gcm, password: c801c5b9bb6b}
+  - {name: '超级路线美国5_6', server: 194.76.0.4, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: yyusnew003.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 9bc9c622dd8d}
+  - {name: '超级路线美国4_7', server: 142.4.101.202, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: dx1000usnew001.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 83e01b5d4a8b}
+  - {name: '新用户专线台北_8', server: 211.23.141.54, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: dx600twnewss002.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 3c7ab2c61374}
+  - {name: '超级路线美国2_9', server: 206.119.115.55, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: dxhk1000new003.soflyso.info, tls: true}, cipher: aes-256-gcm, password: f56e2142b4d9}
+  - {name: '超级路线美国1_10', server: 206.119.115.51, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: dxhk1000new001.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 832167441530}
+  - {name: '超级路线台北2_11', server: 60.250.78.252, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: twn600wd4.soflyso.info, tls: true}, cipher: aes-256-gcm, password: bb01c71b1c9d}
+  - {name: '超级路线台北1_12', server: 60.250.74.252, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: twn600wd3.soflyso.info, tls: true}, cipher: aes-256-gcm, password: be770418575f}
+  - {name: '超级路线香港1_13', server: 47.243.165.95, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: alihsknew2.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 08e1a848a855}
+  - {name: '超级路线台湾9_14', server: 60.250.137.213, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: dx600twnews001.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 90185e1ac1cf}
+  - {name: '超级路线台湾8_15', server: 211.23.141.52, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: dx600twnewss001.soflyso.info, tls: true}, cipher: aes-256-gcm, password: bff483ac1406}
+  - {name: '超级路线台湾7_16', server: 220.130.18.217, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: Dx600twnew4.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 973d3abdc9b2}
+  - {name: '超级路线台湾6_17', server: 211.21.20.192, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: Dx600twnew3.soflyso.info, tls: true}, cipher: aes-256-gcm, password: ab9159caa85a}
+  - {name: '超级路线台湾5_18', server: 60.251.66.116, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: twn600wds10.soflyso.info, tls: true}, cipher: aes-256-gcm, password: fa1461264001}
+  - {name: '超级路线台湾4_19', server: 203.69.243.19, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: twn600wdnew10.soflyso.info, tls: true}, cipher: aes-256-gcm, password: cb411c16c567}
+  - {name: '超级路线台湾3_20', server: 59.125.98.29, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: twn600wd8.soflyso.info, tls: true}, cipher: aes-256-gcm, password: a22c307e4a69}
+  - {name: '超级路线台湾2_21', server: 220.128.135.185, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: twn600wd1.soflyso.info, tls: true}, cipher: aes-256-gcm, password: 12adb4fb9741}
+  - {name: '超级路线韩国1_22', server: 27.102.118.27, port: 443, type: ss, plugin: v2ray-plugin ,plugin-opts: {host: Krkdanew001.soflyso.info, tls: true}, cipher: aes-256-gcm, password: f9bf8919c427}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
-      - v2rayse_🇺🇸_US_美国_3
-      - v2rayse_🇺🇸_US_美国_4
-      - v2rayse_🇺🇸_US_美国_5
-      - v2rayse_🇺🇸_US_美国_6
-      - v2rayse_🇺🇸_US_美国_7
-      - v2rayse_🇺🇸_US_美国_8
-      - v2rayse_🇺🇸_US_美国_9
-      - v2rayse_🇺🇸_US_美国_10
-      - v2rayse_🇺🇸_US_美国_11
-      - v2rayse_🇺🇸_US_美国_12
-      - v2rayse_🇺🇸_US_美国_13
-      - v2rayse_🇺🇸_US_美国_14
-      - v2rayse_🇺🇸_US_美国_15
-      - v2rayse_🇺🇸_US_美国_16
-      - v2rayse_🇺🇸_US_美国_17
-      - v2rayse_🇺🇸_US_美国_18
-      - v2rayse_🇺🇸_US_美国_19
-      - v2rayse_🇺🇸_US_美国_20
-      - v2rayse_🇺🇸_US_美国_21
-      - v2rayse_🇺🇸_US_美国_22
-      - v2rayse_🇺🇸_US_美国_23
-      - v2rayse_🇺🇸_US_美国_24
-      - v2rayse_🇺🇸_US_美国_25
-      - v2rayse_🇺🇸_US_美国_26
-      - v2rayse_🇺🇸_US_美国_27
-      - v2rayse_🇺🇸_US_美国_28
-      - v2rayse_🇺🇸_US_美国_29
-      - v2rayse_🇺🇸_US_美国_30
-      - v2rayse_🇺🇸_US_美国_31
+      - 超级路线香港1_1
+      - 超级路线韩国3_2
+      - 超级路线韩国2_3
+      - 超级路线日本2_4
+      - 超级路线日本1_5
+      - 超级路线美国5_6
+      - 超级路线美国4_7
+      - 新用户专线台北_8
+      - 超级路线美国2_9
+      - 超级路线美国1_10
+      - 超级路线台北2_11
+      - 超级路线台北1_12
+      - 超级路线香港1_13
+      - 超级路线台湾9_14
+      - 超级路线台湾8_15
+      - 超级路线台湾7_16
+      - 超级路线台湾6_17
+      - 超级路线台湾5_18
+      - 超级路线台湾4_19
+      - 超级路线台湾3_20
+      - 超级路线台湾2_21
+      - 超级路线韩国1_22
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
-      - v2rayse_🇺🇸_US_美国_3
-      - v2rayse_🇺🇸_US_美国_4
-      - v2rayse_🇺🇸_US_美国_5
-      - v2rayse_🇺🇸_US_美国_6
-      - v2rayse_🇺🇸_US_美国_7
-      - v2rayse_🇺🇸_US_美国_8
-      - v2rayse_🇺🇸_US_美国_9
-      - v2rayse_🇺🇸_US_美国_10
-      - v2rayse_🇺🇸_US_美国_11
-      - v2rayse_🇺🇸_US_美国_12
-      - v2rayse_🇺🇸_US_美国_13
-      - v2rayse_🇺🇸_US_美国_14
-      - v2rayse_🇺🇸_US_美国_15
-      - v2rayse_🇺🇸_US_美国_16
-      - v2rayse_🇺🇸_US_美国_17
-      - v2rayse_🇺🇸_US_美国_18
-      - v2rayse_🇺🇸_US_美国_19
-      - v2rayse_🇺🇸_US_美国_20
-      - v2rayse_🇺🇸_US_美国_21
-      - v2rayse_🇺🇸_US_美国_22
-      - v2rayse_🇺🇸_US_美国_23
-      - v2rayse_🇺🇸_US_美国_24
-      - v2rayse_🇺🇸_US_美国_25
-      - v2rayse_🇺🇸_US_美国_26
-      - v2rayse_🇺🇸_US_美国_27
-      - v2rayse_🇺🇸_US_美国_28
-      - v2rayse_🇺🇸_US_美国_29
-      - v2rayse_🇺🇸_US_美国_30
-      - v2rayse_🇺🇸_US_美国_31
+      - 超级路线香港1_1
+      - 超级路线韩国3_2
+      - 超级路线韩国2_3
+      - 超级路线日本2_4
+      - 超级路线日本1_5
+      - 超级路线美国5_6
+      - 超级路线美国4_7
+      - 新用户专线台北_8
+      - 超级路线美国2_9
+      - 超级路线美国1_10
+      - 超级路线台北2_11
+      - 超级路线台北1_12
+      - 超级路线香港1_13
+      - 超级路线台湾9_14
+      - 超级路线台湾8_15
+      - 超级路线台湾7_16
+      - 超级路线台湾6_17
+      - 超级路线台湾5_18
+      - 超级路线台湾4_19
+      - 超级路线台湾3_20
+      - 超级路线台湾2_21
+      - 超级路线韩国1_22
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
-      - v2rayse_🇺🇸_US_美国_3
-      - v2rayse_🇺🇸_US_美国_4
-      - v2rayse_🇺🇸_US_美国_5
-      - v2rayse_🇺🇸_US_美国_6
-      - v2rayse_🇺🇸_US_美国_7
-      - v2rayse_🇺🇸_US_美国_8
-      - v2rayse_🇺🇸_US_美国_9
-      - v2rayse_🇺🇸_US_美国_10
-      - v2rayse_🇺🇸_US_美国_11
-      - v2rayse_🇺🇸_US_美国_12
-      - v2rayse_🇺🇸_US_美国_13
-      - v2rayse_🇺🇸_US_美国_14
-      - v2rayse_🇺🇸_US_美国_15
-      - v2rayse_🇺🇸_US_美国_16
-      - v2rayse_🇺🇸_US_美国_17
-      - v2rayse_🇺🇸_US_美国_18
-      - v2rayse_🇺🇸_US_美国_19
-      - v2rayse_🇺🇸_US_美国_20
-      - v2rayse_🇺🇸_US_美国_21
-      - v2rayse_🇺🇸_US_美国_22
-      - v2rayse_🇺🇸_US_美国_23
-      - v2rayse_🇺🇸_US_美国_24
-      - v2rayse_🇺🇸_US_美国_25
-      - v2rayse_🇺🇸_US_美国_26
-      - v2rayse_🇺🇸_US_美国_27
-      - v2rayse_🇺🇸_US_美国_28
-      - v2rayse_🇺🇸_US_美国_29
-      - v2rayse_🇺🇸_US_美国_30
-      - v2rayse_🇺🇸_US_美国_31
+      - 超级路线香港1_1
+      - 超级路线韩国3_2
+      - 超级路线韩国2_3
+      - 超级路线日本2_4
+      - 超级路线日本1_5
+      - 超级路线美国5_6
+      - 超级路线美国4_7
+      - 新用户专线台北_8
+      - 超级路线美国2_9
+      - 超级路线美国1_10
+      - 超级路线台北2_11
+      - 超级路线台北1_12
+      - 超级路线香港1_13
+      - 超级路线台湾9_14
+      - 超级路线台湾8_15
+      - 超级路线台湾7_16
+      - 超级路线台湾6_17
+      - 超级路线台湾5_18
+      - 超级路线台湾4_19
+      - 超级路线台湾3_20
+      - 超级路线台湾2_21
+      - 超级路线韩国1_22
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
-      - v2rayse_🇺🇸_US_美国_3
-      - v2rayse_🇺🇸_US_美国_4
-      - v2rayse_🇺🇸_US_美国_5
-      - v2rayse_🇺🇸_US_美国_6
-      - v2rayse_🇺🇸_US_美国_7
-      - v2rayse_🇺🇸_US_美国_8
-      - v2rayse_🇺🇸_US_美国_9
-      - v2rayse_🇺🇸_US_美国_10
-      - v2rayse_🇺🇸_US_美国_11
-      - v2rayse_🇺🇸_US_美国_12
-      - v2rayse_🇺🇸_US_美国_13
-      - v2rayse_🇺🇸_US_美国_14
-      - v2rayse_🇺🇸_US_美国_15
-      - v2rayse_🇺🇸_US_美国_16
-      - v2rayse_🇺🇸_US_美国_17
-      - v2rayse_🇺🇸_US_美国_18
-      - v2rayse_🇺🇸_US_美国_19
-      - v2rayse_🇺🇸_US_美国_20
-      - v2rayse_🇺🇸_US_美国_21
-      - v2rayse_🇺🇸_US_美国_22
-      - v2rayse_🇺🇸_US_美国_23
-      - v2rayse_🇺🇸_US_美国_24
-      - v2rayse_🇺🇸_US_美国_25
-      - v2rayse_🇺🇸_US_美国_26
-      - v2rayse_🇺🇸_US_美国_27
-      - v2rayse_🇺🇸_US_美国_28
-      - v2rayse_🇺🇸_US_美国_29
-      - v2rayse_🇺🇸_US_美国_30
-      - v2rayse_🇺🇸_US_美国_31
+      - 超级路线香港1_1
+      - 超级路线韩国3_2
+      - 超级路线韩国2_3
+      - 超级路线日本2_4
+      - 超级路线日本1_5
+      - 超级路线美国5_6
+      - 超级路线美国4_7
+      - 新用户专线台北_8
+      - 超级路线美国2_9
+      - 超级路线美国1_10
+      - 超级路线台北2_11
+      - 超级路线台北1_12
+      - 超级路线香港1_13
+      - 超级路线台湾9_14
+      - 超级路线台湾8_15
+      - 超级路线台湾7_16
+      - 超级路线台湾6_17
+      - 超级路线台湾5_18
+      - 超级路线台湾4_19
+      - 超级路线台湾3_20
+      - 超级路线台湾2_21
+      - 超级路线韩国1_22
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
-      - v2rayse_🇺🇸_US_美国_3
-      - v2rayse_🇺🇸_US_美国_4
-      - v2rayse_🇺🇸_US_美国_5
-      - v2rayse_🇺🇸_US_美国_6
-      - v2rayse_🇺🇸_US_美国_7
-      - v2rayse_🇺🇸_US_美国_8
-      - v2rayse_🇺🇸_US_美国_9
-      - v2rayse_🇺🇸_US_美国_10
-      - v2rayse_🇺🇸_US_美国_11
-      - v2rayse_🇺🇸_US_美国_12
-      - v2rayse_🇺🇸_US_美国_13
-      - v2rayse_🇺🇸_US_美国_14
-      - v2rayse_🇺🇸_US_美国_15
-      - v2rayse_🇺🇸_US_美国_16
-      - v2rayse_🇺🇸_US_美国_17
-      - v2rayse_🇺🇸_US_美国_18
-      - v2rayse_🇺🇸_US_美国_19
-      - v2rayse_🇺🇸_US_美国_20
-      - v2rayse_🇺🇸_US_美国_21
-      - v2rayse_🇺🇸_US_美国_22
-      - v2rayse_🇺🇸_US_美国_23
-      - v2rayse_🇺🇸_US_美国_24
-      - v2rayse_🇺🇸_US_美国_25
-      - v2rayse_🇺🇸_US_美国_26
-      - v2rayse_🇺🇸_US_美国_27
-      - v2rayse_🇺🇸_US_美国_28
-      - v2rayse_🇺🇸_US_美国_29
-      - v2rayse_🇺🇸_US_美国_30
-      - v2rayse_🇺🇸_US_美国_31
+      - 超级路线香港1_1
+      - 超级路线韩国3_2
+      - 超级路线韩国2_3
+      - 超级路线日本2_4
+      - 超级路线日本1_5
+      - 超级路线美国5_6
+      - 超级路线美国4_7
+      - 新用户专线台北_8
+      - 超级路线美国2_9
+      - 超级路线美国1_10
+      - 超级路线台北2_11
+      - 超级路线台北1_12
+      - 超级路线香港1_13
+      - 超级路线台湾9_14
+      - 超级路线台湾8_15
+      - 超级路线台湾7_16
+      - 超级路线台湾6_17
+      - 超级路线台湾5_18
+      - 超级路线台湾4_19
+      - 超级路线台湾3_20
+      - 超级路线台湾2_21
+      - 超级路线韩国1_22
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
-      - v2rayse_🇺🇸_US_美国_3
-      - v2rayse_🇺🇸_US_美国_4
-      - v2rayse_🇺🇸_US_美国_5
-      - v2rayse_🇺🇸_US_美国_6
-      - v2rayse_🇺🇸_US_美国_7
-      - v2rayse_🇺🇸_US_美国_8
-      - v2rayse_🇺🇸_US_美国_9
-      - v2rayse_🇺🇸_US_美国_10
-      - v2rayse_🇺🇸_US_美国_11
-      - v2rayse_🇺🇸_US_美国_12
-      - v2rayse_🇺🇸_US_美国_13
-      - v2rayse_🇺🇸_US_美国_14
-      - v2rayse_🇺🇸_US_美国_15
-      - v2rayse_🇺🇸_US_美国_16
-      - v2rayse_🇺🇸_US_美国_17
-      - v2rayse_🇺🇸_US_美国_18
-      - v2rayse_🇺🇸_US_美国_19
-      - v2rayse_🇺🇸_US_美国_20
-      - v2rayse_🇺🇸_US_美国_21
-      - v2rayse_🇺🇸_US_美国_22
-      - v2rayse_🇺🇸_US_美国_23
-      - v2rayse_🇺🇸_US_美国_24
-      - v2rayse_🇺🇸_US_美国_25
-      - v2rayse_🇺🇸_US_美国_26
-      - v2rayse_🇺🇸_US_美国_27
-      - v2rayse_🇺🇸_US_美国_28
-      - v2rayse_🇺🇸_US_美国_29
-      - v2rayse_🇺🇸_US_美国_30
-      - v2rayse_🇺🇸_US_美国_31
+      - 超级路线香港1_1
+      - 超级路线韩国3_2
+      - 超级路线韩国2_3
+      - 超级路线日本2_4
+      - 超级路线日本1_5
+      - 超级路线美国5_6
+      - 超级路线美国4_7
+      - 新用户专线台北_8
+      - 超级路线美国2_9
+      - 超级路线美国1_10
+      - 超级路线台北2_11
+      - 超级路线台北1_12
+      - 超级路线香港1_13
+      - 超级路线台湾9_14
+      - 超级路线台湾8_15
+      - 超级路线台湾7_16
+      - 超级路线台湾6_17
+      - 超级路线台湾5_18
+      - 超级路线台湾4_19
+      - 超级路线台湾3_20
+      - 超级路线台湾2_21
+      - 超级路线韩国1_22
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
-      - v2rayse_🇺🇸_US_美国_3
-      - v2rayse_🇺🇸_US_美国_4
-      - v2rayse_🇺🇸_US_美国_5
-      - v2rayse_🇺🇸_US_美国_6
-      - v2rayse_🇺🇸_US_美国_7
-      - v2rayse_🇺🇸_US_美国_8
-      - v2rayse_🇺🇸_US_美国_9
-      - v2rayse_🇺🇸_US_美国_10
-      - v2rayse_🇺🇸_US_美国_11
-      - v2rayse_🇺🇸_US_美国_12
-      - v2rayse_🇺🇸_US_美国_13
-      - v2rayse_🇺🇸_US_美国_14
-      - v2rayse_🇺🇸_US_美国_15
-      - v2rayse_🇺🇸_US_美国_16
-      - v2rayse_🇺🇸_US_美国_17
-      - v2rayse_🇺🇸_US_美国_18
-      - v2rayse_🇺🇸_US_美国_19
-      - v2rayse_🇺🇸_US_美国_20
-      - v2rayse_🇺🇸_US_美国_21
-      - v2rayse_🇺🇸_US_美国_22
-      - v2rayse_🇺🇸_US_美国_23
-      - v2rayse_🇺🇸_US_美国_24
-      - v2rayse_🇺🇸_US_美国_25
-      - v2rayse_🇺🇸_US_美国_26
-      - v2rayse_🇺🇸_US_美国_27
-      - v2rayse_🇺🇸_US_美国_28
-      - v2rayse_🇺🇸_US_美国_29
-      - v2rayse_🇺🇸_US_美国_30
-      - v2rayse_🇺🇸_US_美国_31
+      - 超级路线香港1_1
+      - 超级路线韩国3_2
+      - 超级路线韩国2_3
+      - 超级路线日本2_4
+      - 超级路线日本1_5
+      - 超级路线美国5_6
+      - 超级路线美国4_7
+      - 新用户专线台北_8
+      - 超级路线美国2_9
+      - 超级路线美国1_10
+      - 超级路线台北2_11
+      - 超级路线台北1_12
+      - 超级路线香港1_13
+      - 超级路线台湾9_14
+      - 超级路线台湾8_15
+      - 超级路线台湾7_16
+      - 超级路线台湾6_17
+      - 超级路线台湾5_18
+      - 超级路线台湾4_19
+      - 超级路线台湾3_20
+      - 超级路线台湾2_21
+      - 超级路线韩国1_22
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -306,37 +234,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
-      - v2rayse_🇺🇸_US_美国_3
-      - v2rayse_🇺🇸_US_美国_4
-      - v2rayse_🇺🇸_US_美国_5
-      - v2rayse_🇺🇸_US_美国_6
-      - v2rayse_🇺🇸_US_美国_7
-      - v2rayse_🇺🇸_US_美国_8
-      - v2rayse_🇺🇸_US_美国_9
-      - v2rayse_🇺🇸_US_美国_10
-      - v2rayse_🇺🇸_US_美国_11
-      - v2rayse_🇺🇸_US_美国_12
-      - v2rayse_🇺🇸_US_美国_13
-      - v2rayse_🇺🇸_US_美国_14
-      - v2rayse_🇺🇸_US_美国_15
-      - v2rayse_🇺🇸_US_美国_16
-      - v2rayse_🇺🇸_US_美国_17
-      - v2rayse_🇺🇸_US_美国_18
-      - v2rayse_🇺🇸_US_美国_19
-      - v2rayse_🇺🇸_US_美国_20
-      - v2rayse_🇺🇸_US_美国_21
-      - v2rayse_🇺🇸_US_美国_22
-      - v2rayse_🇺🇸_US_美国_23
-      - v2rayse_🇺🇸_US_美国_24
-      - v2rayse_🇺🇸_US_美国_25
-      - v2rayse_🇺🇸_US_美国_26
-      - v2rayse_🇺🇸_US_美国_27
-      - v2rayse_🇺🇸_US_美国_28
-      - v2rayse_🇺🇸_US_美国_29
-      - v2rayse_🇺🇸_US_美国_30
-      - v2rayse_🇺🇸_US_美国_31
+      - 超级路线香港1_1
+      - 超级路线韩国3_2
+      - 超级路线韩国2_3
+      - 超级路线日本2_4
+      - 超级路线日本1_5
+      - 超级路线美国5_6
+      - 超级路线美国4_7
+      - 新用户专线台北_8
+      - 超级路线美国2_9
+      - 超级路线美国1_10
+      - 超级路线台北2_11
+      - 超级路线台北1_12
+      - 超级路线香港1_13
+      - 超级路线台湾9_14
+      - 超级路线台湾8_15
+      - 超级路线台湾7_16
+      - 超级路线台湾6_17
+      - 超级路线台湾5_18
+      - 超级路线台湾4_19
+      - 超级路线台湾3_20
+      - 超级路线台湾2_21
+      - 超级路线韩国1_22
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
