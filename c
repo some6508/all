@@ -5,60 +5,1740 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇳🇱_NL_荷兰_1', server: 89.46.223.215, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: '🇮🇳_IN_印度_2', server: 103.108.117.148, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 'v2rayse_🇧🇪_BE_比利时_1', server: 194.110.115.84, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_9', server: 185.76.8.218, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_1', server: 156.146.62.50, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 'v2rayse_🇧🇪_BE_比利时_3', server: 194.110.115.84, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'v2rayse_🇩🇪_DE_德国_12', server: 82.102.16.102, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'v2rayse_🇧🇪_BE_比利时_5', server: 194.110.115.84, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: 'v2rayse_🇭🇰_HK_香港_1', server: azhk.alink123.com, port: 11045, type: trojan, password: 765040cb-15f4-43da-9e07-4b92c767d222, sni: azhk.alink123.com}
+  - {name: 'v2rayse_🇺🇸_US_美国_1', server: 185.124.240.146, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 'v2rayse_🇨🇳_CN_中国_1', server: 1.transit.nph.qjnodeip.xyz, port: 30003, type: vmess, uuid: c86261bd-c531-4c6a-9733-cee33ef688d6, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'v2rayse_🇺🇸_US_美国_2', server: 185.124.240.146, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 'v2rayse_🇺🇸_US_美国_3', server: 154.17.6.71, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: RaFE0xaR9O5lYpNcyuS34yBDAXSD8Ca87gCSeZxADOwCzKYIjp3qZle3F3T62n}
+  - {name: 'v2rayse_🇺🇸_US_美国_4', server: usdll2.jjyun.ren, port: 80, type: vmess, uuid: 1eb19a07-1ce2-4410-8349-c85f7d9d560b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /jjyunml}
+  - {name: 'v2rayse_🇭🇰_HK_香港_2', server: 118.107.244.112, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_1', server: 198.8.92.84, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 'v2rayse_🇺🇸_US_美国_5', server: 154.17.2.160, port: 18340, type: ss, cipher: chacha20-ietf-poly1305, password: 3cYxOFTA270pCaezFlDu4AjNBX9wa3ZD8ESg3Cypx6C8S5IynqR3ROZeDYlSKa}
+  - {name: 'v2rayse_🇫🇷_FR_法国_1', server: 185.108.106.178, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_1', server: 185.76.8.218, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 'v2rayse_🇭🇰_HK_香港_3', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇩🇪_DE_德国_1', server: 82.102.16.102, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_2', server: 198.8.92.84, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_2', server: 185.76.8.218, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 'v2rayse_🇺🇸_US_美国_6', server: 154.16.168.186, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_3', server: 185.76.8.218, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 'v2rayse_🇩🇪_DE_德国_2', server: 82.102.16.102, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_4', server: 185.76.8.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'v2rayse_🇫🇷_FR_法国_2', server: 185.108.106.178, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_1_28', server: 156.146.62.45, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 'v2rayse_🇺🇸_US_美国_7', server: 89.187.173.250, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_5', server: 185.76.8.218, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_6', server: 185.76.8.218, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_7', server: 185.76.8.218, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_3', server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 'v2rayse_🇺🇸_US_美国_8', server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 'v2rayse_🇩🇪_DE_德国_3', server: 82.102.16.102, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 'v2rayse_🇩🇪_DE_德国_4', server: 82.102.16.102, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 'v2rayse_🇫🇷_FR_法国_3', server: 185.166.84.89, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 'v2rayse_🇩🇪_DE_德国_5', server: 82.102.16.102, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 'v2rayse_🇫🇷_FR_法国_4', server: 185.166.84.81, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 'v2rayse_🇩🇪_DE_德国_6', server: 82.102.16.102, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_2', server: 156.146.62.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 'v2rayse_🇺🇸_US_美国_9', server: 138.199.42.134, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_8', server: 185.76.8.218, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_3', server: 156.146.62.45, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 'v2rayse_🇩🇪_DE_德国_7', server: 82.102.16.102, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 'v2rayse_🇬🇧_GB_英国_1', server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
+  - {name: 'v2rayse_🇺🇸_US_美国_10', server: 154.16.168.186, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 'v2rayse_🇺🇸_US_美国_11', server: 154.17.2.178, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: OSejD7aK2AR0R4z89SaxlxZ8NEYBCaweDpA3IT6DgncXlZOyqy533pFCSFCY3u}
+  - {name: 'v2rayse_🇩🇪_DE_德国_8', server: 45.87.212.179, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 'v2rayse_🇩🇪_DE_德国_9', server: 82.102.16.102, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_4', server: 156.146.62.45, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 'v2rayse_🇩🇪_DE_德国_10', server: 82.102.16.102, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 'v2rayse_🇩🇪_DE_德国_11', server: 82.102.16.102, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'v2rayse_🇩🇪_DE_德国_12_54', server: 82.102.16.102, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_9_55', server: 185.76.8.218, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_10', server: 185.76.8.218, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_11', server: 185.76.8.218, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_5', server: 156.146.62.45, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_6', server: 156.146.62.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'v2rayse_🇭🇰_HK_香港_4', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_1', server: 91.219.215.53, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 'v2rayse_🇺🇸_US_美国_12', server: 79.110.53.203, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 'v2rayse_🇺🇸_US_美国_13', server: 155.254.31.184, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'v2rayse_🇩🇪_DE_德国_13', server: 82.102.16.102, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_7', server: 156.146.62.45, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_12', server: 185.76.8.218, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: 'v2rayse_🇺🇸_US_美国_14', server: 155.254.29.165, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 'v2rayse_🇵🇱_PL_波兰_1', server: 178.255.44.68, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_2', server: 91.219.215.53, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'v2rayse_🇩🇪_DE_德国_14', server: 82.102.16.102, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_13', server: 185.76.8.218, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_14', server: 185.76.8.218, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 'v2rayse_🇫🇷_FR_法国_5', server: 185.166.84.81, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 'v2rayse_🇧🇪_BE_比利时_1_74', server: 194.110.115.84, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 'v2rayse_🇩🇪_DE_德国_15', server: 82.102.16.102, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 'v2rayse_🇪🇸_ES_西班牙_1', server: 89.37.95.16, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_15', server: 185.76.8.218, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_16', server: 185.76.8.218, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_8', server: 156.146.62.45, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_9', server: 156.146.62.45, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 'v2rayse_🇩🇪_DE_德国_16', server: 82.102.16.102, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 'v2rayse_🇺🇸_US_美国_15', server: 198.147.22.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 'v2rayse_🇩🇪_DE_德国_17', server: 82.102.16.102, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_17', server: 185.76.8.218, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_18', server: 185.76.8.218, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 'v2rayse_🇩🇪_DE_德国_18', server: 82.102.16.102, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 'v2rayse_🇩🇪_DE_德国_19', server: 82.102.16.102, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_19', server: 185.76.8.218, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 'v2rayse_🇺🇸_US_美国_16', server: 107.189.14.137, port: 33009, type: vmess, uuid: 9d0ab632-2d98-45a2-b9c5-9ebc3f6951f6, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'v2rayse_🇺🇸_US_美国_17', server: 138.199.42.170, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 'v2rayse_🇫🇷_FR_法国_6', server: 185.166.84.81, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 'v2rayse_🇩🇪_DE_德国_20', server: 82.102.16.102, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 'v2rayse_🇬🇧_GB_英国_2', server: 172.99.190.153, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_3', server: 91.219.215.53, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 'v2rayse_🇺🇸_US_美国_18', server: 138.199.42.134, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'v2rayse_🇩🇪_DE_德国_21', server: 82.102.16.102, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 'v2rayse_🇫🇷_FR_法国_7', server: 185.166.84.81, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 'v2rayse_🇩🇪_DE_德国_22', server: 82.102.16.102, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 'v2rayse_🇨🇷_CR_哥斯达黎加_1', server: 176.227.241.22, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'v2rayse_🇺🇸_US_美国_19', server: 154.17.31.175, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Ou0pEw4S5qIy3ya7RN8p9DjzleclaZSFe2DS8CCZA3gCxXYDxAan36FTOB3RYK}
+  - {name: 'v2rayse_🇮🇹_IT_意大利_1', server: 84.17.58.162, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'v2rayse_🇺🇸_US_美国_20', server: 138.199.42.170, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: 'v2rayse_🇩🇪_DE_德国_23', server: 82.102.16.102, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_20', server: 185.76.8.218, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 'v2rayse_🇸🇬_SG_新加坡_1', server: 209.58.181.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3eC0KxS8ICjgp2N6OZ94x3DaXwyTRzaSqApFlF5cD3Y73luCYyn8eERDSAaOB}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_21', server: 185.76.8.218, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 'v2rayse_🇧🇪_BE_比利时_2', server: 194.110.115.84, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_10', server: 156.146.62.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 'v2rayse_🇧🇪_BE_比利时_3_109', server: 194.110.115.84, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_4', server: 91.219.215.53, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_22', server: 185.76.8.218, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_11', server: 156.146.62.45, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_4', server: 198.8.92.84, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 'v2rayse_🇫🇷_FR_法国_8', server: 185.166.84.81, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'v2rayse_🇩🇪_DE_德国_24', server: 82.102.16.102, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 'v2rayse_🇫🇷_FR_法国_9', server: 185.166.84.89, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 'v2rayse_🇩🇪_DE_德国_25', server: 82.102.16.102, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_5', server: 91.219.215.53, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 'v2rayse_🇺🇸_US_美国_21', server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 'v2rayse_🇩🇪_DE_德国_26', server: 82.102.16.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 'v2rayse_🇩🇪_DE_德国_27', server: 156.146.33.66, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 'v2rayse_🇺🇸_US_美国_22', server: 23.106.248.19, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: ZDYSyKNR8upjg9l36eR3ZySAaaEcOY2CaI0zp5xnX4733eSwqxCFlOTD8BCDFA}
+  - {name: 'v2rayse_🇩🇪_DE_德国_28', server: 82.102.16.102, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'v2rayse_🇺🇸_US_美国_23', server: 154.16.168.186, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_6', server: 91.219.215.53, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'v2rayse_🇸🇬_SG_新加坡_2', server: v1-asw-sg-15.niaoyun.online, port: 666, type: vmess, uuid: b9cc1e88-5db0-37ff-840a-b882345e22d1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud}
+  - {name: 'v2rayse_🇺🇸_US_美国_24', server: 79.110.53.203, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 'v2rayse_🇵🇱_PL_波兰_2', server: 37.28.156.117, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 'v2rayse_🇩🇪_DE_德国_29', server: 82.102.16.102, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_7', server: 91.219.215.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_23', server: 185.76.8.218, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'v2rayse_🇧🇪_BE_比利时_4', server: 194.110.115.86, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 'v2rayse_🇪🇸_ES_西班牙_2', server: 89.37.95.16, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 'v2rayse_🇺🇸_US_美国_25', server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 'v2rayse_🇧🇪_BE_比利时_5_135', server: 194.110.115.84, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 'v2rayse_🇩🇪_DE_德国_30', server: 82.102.16.102, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 'v2rayse_🇩🇪_DE_德国_31', server: 156.146.33.66, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 'v2rayse_🇫🇷_FR_法国_10', server: 185.166.84.89, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 'v2rayse_🇩🇪_DE_德国_32', server: 156.146.33.66, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_8', server: 91.219.215.53, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_9', server: 91.219.215.53, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'v2rayse_🇧🇪_BE_比利时_6', server: 194.110.115.84, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 'v2rayse_🇫🇷_FR_法国_11', server: 185.108.106.175, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 'v2rayse_🇸🇬_SG_新加坡_3', server: 43.249.39.154, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: T3YS0aCp8C5jgA736D834yCDaROEOezAyDqISBl39KSepnuZYN2FRwxlxcXFZa}
+  - {name: 'v2rayse_🇩🇪_DE_德国_33', server: 82.102.16.102, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_12', server: 156.146.62.45, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_13', server: 156.146.62.45, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_10', server: 91.219.215.53, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 'v2rayse_🇬🇧_GB_英国_3', server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
+  - {name: 'v2rayse_🇺🇸_US_美国_26', server: 138.199.42.134, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'v2rayse_🇫🇷_FR_法国_12', server: 185.108.106.178, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'v2rayse_🇩🇪_DE_德国_34', server: 156.146.33.66, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: 'v2rayse_🇧🇪_BE_比利时_7', server: 194.110.115.84, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'v2rayse_🇩🇪_DE_德国_35', server: 156.146.33.66, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_5', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_14', server: 156.146.62.45, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_6', server: 198.8.92.84, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_15', server: 156.146.62.45, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 'v2rayse_🇧🇪_BE_比利时_8', server: 194.110.115.84, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: 'v2rayse_🇪🇸_ES_西班牙_3', server: 89.37.95.16, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'v2rayse_🇩🇪_DE_德国_36', server: 156.146.33.66, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 'v2rayse_🇩🇪_DE_德国_37', server: 156.146.33.66, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'v2rayse_🇭🇰_HK_香港_5', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_24', server: 185.76.8.218, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 'v2rayse_🇪🇸_ES_西班牙_4', server: 89.37.95.16, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 'v2rayse_🇧🇪_BE_比利时_9', server: 194.110.115.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 'v2rayse_🇩🇪_DE_德国_38', server: 156.146.33.66, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 'v2rayse_🇹🇷_TR_土耳其_1', server: 107.150.94.12, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'v2rayse_🇺🇸_US_美国_27', server: 104.200.131.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'v2rayse_🇪🇸_ES_西班牙_5', server: 89.37.95.16, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'v2rayse_🇧🇪_BE_比利时_10', server: 194.110.115.84, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_11', server: 91.219.215.53, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 'v2rayse_🇩🇪_DE_德国_39', server: 82.102.16.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 'v2rayse_🇪🇸_ES_西班牙_6', server: 89.37.95.16, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_25', server: 185.76.8.218, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 'v2rayse_🇦🇱_AL_阿尔巴尼亚_1', server: 31.171.154.220, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'v2rayse_🇺🇸_US_美国_28', server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'v2rayse_🇫🇷_FR_法国_13', server: 185.166.84.89, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: 'v2rayse_🇩🇰_DK_丹麦_1', server: 193.29.107.125, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 'v2rayse_🇹🇷_TR_土耳其_2', server: 107.150.94.12, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 'v2rayse_🇫🇷_FR_法国_14', server: 185.166.84.59, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_7', server: 198.8.92.84, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 'v2rayse_🇺🇸_US_美国_29', server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_8', server: 198.8.92.84, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: 'v2rayse_🇫🇷_FR_法国_15', server: 185.108.106.178, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 'v2rayse_🇫🇷_FR_法国_16', server: 185.108.106.175, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_12', server: 91.219.215.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 'v2rayse_🇺🇸_US_美国_30', server: 172.93.153.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'v2rayse_🇩🇪_DE_德国_40', server: 156.146.33.66, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_26', server: 185.76.8.218, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_9', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇫🇷_FR_法国_17', server: 185.108.106.175, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_16', server: 156.146.62.45, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_13', server: 91.219.215.53, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 'v2rayse_🇫🇷_FR_法国_18', server: 185.108.106.164, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_14', server: 91.219.215.53, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 'v2rayse_🇫🇷_FR_法国_19', server: 185.108.106.172, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 'v2rayse_🇫🇷_FR_法国_20', server: 185.108.106.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_10', server: t6.ssrsub.com, port: 1033, type: trojan, password: e54a480c-77e3-41ca-8f8b-17ffb50dbd08, sni: t6.ssrsub.com}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_15', server: 91.219.215.53, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 'v2rayse_🇺🇸_US_美国_31', server: 148.72.174.53, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 'v2rayse_🇩🇪_DE_德国_41', server: 45.87.212.179, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_27', server: 185.76.8.218, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_11', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_12', server: 198.8.92.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 'v2rayse_🇩🇪_DE_德国_42', server: 156.146.33.66, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 'v2rayse_🇳🇴_NO_挪威_16', server: 91.219.215.53, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 'v2rayse_🇨🇭_CH_瑞士_17', server: 156.146.62.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 'v2rayse_🇸🇪_SE_瑞典_1', server: 185.76.9.56, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_28', server: 185.76.8.218, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_29', server: 185.76.8.218, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'v2rayse_🇸🇰_SK_斯洛伐克_30', server: 185.76.8.218, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 'v2rayse_🇫🇷_FR_法国_21', server: 185.108.106.172, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇮🇳_IN_印度_2
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇨🇭_CH_瑞士_1
+      - v2rayse_🇧🇪_BE_比利时_3
+      - v2rayse_🇩🇪_DE_德国_12
+      - v2rayse_🇧🇪_BE_比利时_5
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇨🇳_CN_中国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇫🇷_FR_法国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_3
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇫🇷_FR_法国_2
+      - v2rayse_🇨🇭_CH_瑞士_1_28
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇫🇷_FR_法国_3
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇫🇷_FR_法国_4
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇨🇭_CH_瑞士_2
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇨🇭_CH_瑞士_3
+      - v2rayse_🇩🇪_DE_德国_7
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_8
+      - v2rayse_🇩🇪_DE_德国_9
+      - v2rayse_🇨🇭_CH_瑞士_4
+      - v2rayse_🇩🇪_DE_德国_10
+      - v2rayse_🇩🇪_DE_德国_11
+      - v2rayse_🇩🇪_DE_德国_12_54
+      - v2rayse_🇸🇰_SK_斯洛伐克_9_55
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇸🇰_SK_斯洛伐克_11
+      - v2rayse_🇨🇭_CH_瑞士_5
+      - v2rayse_🇨🇭_CH_瑞士_6
+      - v2rayse_🇭🇰_HK_香港_4
+      - v2rayse_🇳🇴_NO_挪威_1
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_13
+      - v2rayse_🇨🇭_CH_瑞士_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_12
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇵🇱_PL_波兰_1
+      - v2rayse_🇳🇴_NO_挪威_2
+      - v2rayse_🇩🇪_DE_德国_14
+      - v2rayse_🇸🇰_SK_斯洛伐克_13
+      - v2rayse_🇸🇰_SK_斯洛伐克_14
+      - v2rayse_🇫🇷_FR_法国_5
+      - v2rayse_🇧🇪_BE_比利时_1_74
+      - v2rayse_🇩🇪_DE_德国_15
+      - v2rayse_🇪🇸_ES_西班牙_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_15
+      - v2rayse_🇸🇰_SK_斯洛伐克_16
+      - v2rayse_🇨🇭_CH_瑞士_8
+      - v2rayse_🇨🇭_CH_瑞士_9
+      - v2rayse_🇩🇪_DE_德国_16
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇩🇪_DE_德国_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_18
+      - v2rayse_🇩🇪_DE_德国_18
+      - v2rayse_🇩🇪_DE_德国_19
+      - v2rayse_🇸🇰_SK_斯洛伐克_19
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇫🇷_FR_法国_6
+      - v2rayse_🇩🇪_DE_德国_20
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇳🇴_NO_挪威_3
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇩🇪_DE_德国_21
+      - v2rayse_🇫🇷_FR_法国_7
+      - v2rayse_🇩🇪_DE_德国_22
+      - v2rayse_🇨🇷_CR_哥斯达黎加_1
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇮🇹_IT_意大利_1
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇩🇪_DE_德国_23
+      - v2rayse_🇸🇰_SK_斯洛伐克_20
+      - v2rayse_🇸🇬_SG_新加坡_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_21
+      - v2rayse_🇧🇪_BE_比利时_2
+      - v2rayse_🇨🇭_CH_瑞士_10
+      - v2rayse_🇧🇪_BE_比利时_3_109
+      - v2rayse_🇳🇴_NO_挪威_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_22
+      - v2rayse_🇨🇭_CH_瑞士_11
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇫🇷_FR_法国_8
+      - v2rayse_🇩🇪_DE_德国_24
+      - v2rayse_🇫🇷_FR_法国_9
+      - v2rayse_🇩🇪_DE_德国_25
+      - v2rayse_🇳🇴_NO_挪威_5
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇩🇪_DE_德国_26
+      - v2rayse_🇩🇪_DE_德国_27
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇩🇪_DE_德国_28
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇳🇴_NO_挪威_6
+      - v2rayse_🇸🇬_SG_新加坡_2
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇵🇱_PL_波兰_2
+      - v2rayse_🇩🇪_DE_德国_29
+      - v2rayse_🇳🇴_NO_挪威_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_23
+      - v2rayse_🇧🇪_BE_比利时_4
+      - v2rayse_🇪🇸_ES_西班牙_2
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇧🇪_BE_比利时_5_135
+      - v2rayse_🇩🇪_DE_德国_30
+      - v2rayse_🇩🇪_DE_德国_31
+      - v2rayse_🇫🇷_FR_法国_10
+      - v2rayse_🇩🇪_DE_德国_32
+      - v2rayse_🇳🇴_NO_挪威_8
+      - v2rayse_🇳🇴_NO_挪威_9
+      - v2rayse_🇧🇪_BE_比利时_6
+      - v2rayse_🇫🇷_FR_法国_11
+      - v2rayse_🇸🇬_SG_新加坡_3
+      - v2rayse_🇩🇪_DE_德国_33
+      - v2rayse_🇨🇭_CH_瑞士_12
+      - v2rayse_🇨🇭_CH_瑞士_13
+      - v2rayse_🇳🇴_NO_挪威_10
+      - v2rayse_🇬🇧_GB_英国_3
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇫🇷_FR_法国_12
+      - v2rayse_🇩🇪_DE_德国_34
+      - v2rayse_🇧🇪_BE_比利时_7
+      - v2rayse_🇩🇪_DE_德国_35
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇭_CH_瑞士_14
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇭_CH_瑞士_15
+      - v2rayse_🇧🇪_BE_比利时_8
+      - v2rayse_🇪🇸_ES_西班牙_3
+      - v2rayse_🇩🇪_DE_德国_36
+      - v2rayse_🇩🇪_DE_德国_37
+      - v2rayse_🇭🇰_HK_香港_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_24
+      - v2rayse_🇪🇸_ES_西班牙_4
+      - v2rayse_🇧🇪_BE_比利时_9
+      - v2rayse_🇩🇪_DE_德国_38
+      - v2rayse_🇹🇷_TR_土耳其_1
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇪🇸_ES_西班牙_5
+      - v2rayse_🇧🇪_BE_比利时_10
+      - v2rayse_🇳🇴_NO_挪威_11
+      - v2rayse_🇩🇪_DE_德国_39
+      - v2rayse_🇪🇸_ES_西班牙_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_25
+      - v2rayse_🇦🇱_AL_阿尔巴尼亚_1
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇫🇷_FR_法国_13
+      - v2rayse_🇩🇰_DK_丹麦_1
+      - v2rayse_🇹🇷_TR_土耳其_2
+      - v2rayse_🇫🇷_FR_法国_14
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇫🇷_FR_法国_15
+      - v2rayse_🇫🇷_FR_法国_16
+      - v2rayse_🇳🇴_NO_挪威_12
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇩🇪_DE_德国_40
+      - v2rayse_🇸🇰_SK_斯洛伐克_26
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇫🇷_FR_法国_17
+      - v2rayse_🇨🇭_CH_瑞士_16
+      - v2rayse_🇳🇴_NO_挪威_13
+      - v2rayse_🇫🇷_FR_法国_18
+      - v2rayse_🇳🇴_NO_挪威_14
+      - v2rayse_🇫🇷_FR_法国_19
+      - v2rayse_🇫🇷_FR_法国_20
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇳🇴_NO_挪威_15
+      - v2rayse_🇺🇸_US_美国_31
+      - v2rayse_🇩🇪_DE_德国_41
+      - v2rayse_🇸🇰_SK_斯洛伐克_27
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇩🇪_DE_德国_42
+      - v2rayse_🇳🇴_NO_挪威_16
+      - v2rayse_🇨🇭_CH_瑞士_17
+      - v2rayse_🇸🇪_SE_瑞典_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_28
+      - v2rayse_🇸🇰_SK_斯洛伐克_29
+      - v2rayse_🇸🇰_SK_斯洛伐克_30
+      - v2rayse_🇫🇷_FR_法国_21
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇳🇱_NL_荷兰_1
-      - 🇮🇳_IN_印度_2
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇨🇭_CH_瑞士_1
+      - v2rayse_🇧🇪_BE_比利时_3
+      - v2rayse_🇩🇪_DE_德国_12
+      - v2rayse_🇧🇪_BE_比利时_5
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇨🇳_CN_中国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇫🇷_FR_法国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_3
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇫🇷_FR_法国_2
+      - v2rayse_🇨🇭_CH_瑞士_1_28
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇫🇷_FR_法国_3
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇫🇷_FR_法国_4
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇨🇭_CH_瑞士_2
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇨🇭_CH_瑞士_3
+      - v2rayse_🇩🇪_DE_德国_7
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_8
+      - v2rayse_🇩🇪_DE_德国_9
+      - v2rayse_🇨🇭_CH_瑞士_4
+      - v2rayse_🇩🇪_DE_德国_10
+      - v2rayse_🇩🇪_DE_德国_11
+      - v2rayse_🇩🇪_DE_德国_12_54
+      - v2rayse_🇸🇰_SK_斯洛伐克_9_55
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇸🇰_SK_斯洛伐克_11
+      - v2rayse_🇨🇭_CH_瑞士_5
+      - v2rayse_🇨🇭_CH_瑞士_6
+      - v2rayse_🇭🇰_HK_香港_4
+      - v2rayse_🇳🇴_NO_挪威_1
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_13
+      - v2rayse_🇨🇭_CH_瑞士_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_12
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇵🇱_PL_波兰_1
+      - v2rayse_🇳🇴_NO_挪威_2
+      - v2rayse_🇩🇪_DE_德国_14
+      - v2rayse_🇸🇰_SK_斯洛伐克_13
+      - v2rayse_🇸🇰_SK_斯洛伐克_14
+      - v2rayse_🇫🇷_FR_法国_5
+      - v2rayse_🇧🇪_BE_比利时_1_74
+      - v2rayse_🇩🇪_DE_德国_15
+      - v2rayse_🇪🇸_ES_西班牙_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_15
+      - v2rayse_🇸🇰_SK_斯洛伐克_16
+      - v2rayse_🇨🇭_CH_瑞士_8
+      - v2rayse_🇨🇭_CH_瑞士_9
+      - v2rayse_🇩🇪_DE_德国_16
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇩🇪_DE_德国_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_18
+      - v2rayse_🇩🇪_DE_德国_18
+      - v2rayse_🇩🇪_DE_德国_19
+      - v2rayse_🇸🇰_SK_斯洛伐克_19
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇫🇷_FR_法国_6
+      - v2rayse_🇩🇪_DE_德国_20
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇳🇴_NO_挪威_3
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇩🇪_DE_德国_21
+      - v2rayse_🇫🇷_FR_法国_7
+      - v2rayse_🇩🇪_DE_德国_22
+      - v2rayse_🇨🇷_CR_哥斯达黎加_1
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇮🇹_IT_意大利_1
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇩🇪_DE_德国_23
+      - v2rayse_🇸🇰_SK_斯洛伐克_20
+      - v2rayse_🇸🇬_SG_新加坡_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_21
+      - v2rayse_🇧🇪_BE_比利时_2
+      - v2rayse_🇨🇭_CH_瑞士_10
+      - v2rayse_🇧🇪_BE_比利时_3_109
+      - v2rayse_🇳🇴_NO_挪威_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_22
+      - v2rayse_🇨🇭_CH_瑞士_11
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇫🇷_FR_法国_8
+      - v2rayse_🇩🇪_DE_德国_24
+      - v2rayse_🇫🇷_FR_法国_9
+      - v2rayse_🇩🇪_DE_德国_25
+      - v2rayse_🇳🇴_NO_挪威_5
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇩🇪_DE_德国_26
+      - v2rayse_🇩🇪_DE_德国_27
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇩🇪_DE_德国_28
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇳🇴_NO_挪威_6
+      - v2rayse_🇸🇬_SG_新加坡_2
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇵🇱_PL_波兰_2
+      - v2rayse_🇩🇪_DE_德国_29
+      - v2rayse_🇳🇴_NO_挪威_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_23
+      - v2rayse_🇧🇪_BE_比利时_4
+      - v2rayse_🇪🇸_ES_西班牙_2
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇧🇪_BE_比利时_5_135
+      - v2rayse_🇩🇪_DE_德国_30
+      - v2rayse_🇩🇪_DE_德国_31
+      - v2rayse_🇫🇷_FR_法国_10
+      - v2rayse_🇩🇪_DE_德国_32
+      - v2rayse_🇳🇴_NO_挪威_8
+      - v2rayse_🇳🇴_NO_挪威_9
+      - v2rayse_🇧🇪_BE_比利时_6
+      - v2rayse_🇫🇷_FR_法国_11
+      - v2rayse_🇸🇬_SG_新加坡_3
+      - v2rayse_🇩🇪_DE_德国_33
+      - v2rayse_🇨🇭_CH_瑞士_12
+      - v2rayse_🇨🇭_CH_瑞士_13
+      - v2rayse_🇳🇴_NO_挪威_10
+      - v2rayse_🇬🇧_GB_英国_3
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇫🇷_FR_法国_12
+      - v2rayse_🇩🇪_DE_德国_34
+      - v2rayse_🇧🇪_BE_比利时_7
+      - v2rayse_🇩🇪_DE_德国_35
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇭_CH_瑞士_14
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇭_CH_瑞士_15
+      - v2rayse_🇧🇪_BE_比利时_8
+      - v2rayse_🇪🇸_ES_西班牙_3
+      - v2rayse_🇩🇪_DE_德国_36
+      - v2rayse_🇩🇪_DE_德国_37
+      - v2rayse_🇭🇰_HK_香港_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_24
+      - v2rayse_🇪🇸_ES_西班牙_4
+      - v2rayse_🇧🇪_BE_比利时_9
+      - v2rayse_🇩🇪_DE_德国_38
+      - v2rayse_🇹🇷_TR_土耳其_1
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇪🇸_ES_西班牙_5
+      - v2rayse_🇧🇪_BE_比利时_10
+      - v2rayse_🇳🇴_NO_挪威_11
+      - v2rayse_🇩🇪_DE_德国_39
+      - v2rayse_🇪🇸_ES_西班牙_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_25
+      - v2rayse_🇦🇱_AL_阿尔巴尼亚_1
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇫🇷_FR_法国_13
+      - v2rayse_🇩🇰_DK_丹麦_1
+      - v2rayse_🇹🇷_TR_土耳其_2
+      - v2rayse_🇫🇷_FR_法国_14
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇫🇷_FR_法国_15
+      - v2rayse_🇫🇷_FR_法国_16
+      - v2rayse_🇳🇴_NO_挪威_12
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇩🇪_DE_德国_40
+      - v2rayse_🇸🇰_SK_斯洛伐克_26
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇫🇷_FR_法国_17
+      - v2rayse_🇨🇭_CH_瑞士_16
+      - v2rayse_🇳🇴_NO_挪威_13
+      - v2rayse_🇫🇷_FR_法国_18
+      - v2rayse_🇳🇴_NO_挪威_14
+      - v2rayse_🇫🇷_FR_法国_19
+      - v2rayse_🇫🇷_FR_法国_20
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇳🇴_NO_挪威_15
+      - v2rayse_🇺🇸_US_美国_31
+      - v2rayse_🇩🇪_DE_德国_41
+      - v2rayse_🇸🇰_SK_斯洛伐克_27
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇩🇪_DE_德国_42
+      - v2rayse_🇳🇴_NO_挪威_16
+      - v2rayse_🇨🇭_CH_瑞士_17
+      - v2rayse_🇸🇪_SE_瑞典_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_28
+      - v2rayse_🇸🇰_SK_斯洛伐克_29
+      - v2rayse_🇸🇰_SK_斯洛伐克_30
+      - v2rayse_🇫🇷_FR_法国_21
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇮🇳_IN_印度_2
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇨🇭_CH_瑞士_1
+      - v2rayse_🇧🇪_BE_比利时_3
+      - v2rayse_🇩🇪_DE_德国_12
+      - v2rayse_🇧🇪_BE_比利时_5
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇨🇳_CN_中国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇫🇷_FR_法国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_3
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇫🇷_FR_法国_2
+      - v2rayse_🇨🇭_CH_瑞士_1_28
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇫🇷_FR_法国_3
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇫🇷_FR_法国_4
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇨🇭_CH_瑞士_2
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇨🇭_CH_瑞士_3
+      - v2rayse_🇩🇪_DE_德国_7
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_8
+      - v2rayse_🇩🇪_DE_德国_9
+      - v2rayse_🇨🇭_CH_瑞士_4
+      - v2rayse_🇩🇪_DE_德国_10
+      - v2rayse_🇩🇪_DE_德国_11
+      - v2rayse_🇩🇪_DE_德国_12_54
+      - v2rayse_🇸🇰_SK_斯洛伐克_9_55
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇸🇰_SK_斯洛伐克_11
+      - v2rayse_🇨🇭_CH_瑞士_5
+      - v2rayse_🇨🇭_CH_瑞士_6
+      - v2rayse_🇭🇰_HK_香港_4
+      - v2rayse_🇳🇴_NO_挪威_1
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_13
+      - v2rayse_🇨🇭_CH_瑞士_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_12
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇵🇱_PL_波兰_1
+      - v2rayse_🇳🇴_NO_挪威_2
+      - v2rayse_🇩🇪_DE_德国_14
+      - v2rayse_🇸🇰_SK_斯洛伐克_13
+      - v2rayse_🇸🇰_SK_斯洛伐克_14
+      - v2rayse_🇫🇷_FR_法国_5
+      - v2rayse_🇧🇪_BE_比利时_1_74
+      - v2rayse_🇩🇪_DE_德国_15
+      - v2rayse_🇪🇸_ES_西班牙_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_15
+      - v2rayse_🇸🇰_SK_斯洛伐克_16
+      - v2rayse_🇨🇭_CH_瑞士_8
+      - v2rayse_🇨🇭_CH_瑞士_9
+      - v2rayse_🇩🇪_DE_德国_16
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇩🇪_DE_德国_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_18
+      - v2rayse_🇩🇪_DE_德国_18
+      - v2rayse_🇩🇪_DE_德国_19
+      - v2rayse_🇸🇰_SK_斯洛伐克_19
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇫🇷_FR_法国_6
+      - v2rayse_🇩🇪_DE_德国_20
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇳🇴_NO_挪威_3
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇩🇪_DE_德国_21
+      - v2rayse_🇫🇷_FR_法国_7
+      - v2rayse_🇩🇪_DE_德国_22
+      - v2rayse_🇨🇷_CR_哥斯达黎加_1
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇮🇹_IT_意大利_1
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇩🇪_DE_德国_23
+      - v2rayse_🇸🇰_SK_斯洛伐克_20
+      - v2rayse_🇸🇬_SG_新加坡_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_21
+      - v2rayse_🇧🇪_BE_比利时_2
+      - v2rayse_🇨🇭_CH_瑞士_10
+      - v2rayse_🇧🇪_BE_比利时_3_109
+      - v2rayse_🇳🇴_NO_挪威_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_22
+      - v2rayse_🇨🇭_CH_瑞士_11
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇫🇷_FR_法国_8
+      - v2rayse_🇩🇪_DE_德国_24
+      - v2rayse_🇫🇷_FR_法国_9
+      - v2rayse_🇩🇪_DE_德国_25
+      - v2rayse_🇳🇴_NO_挪威_5
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇩🇪_DE_德国_26
+      - v2rayse_🇩🇪_DE_德国_27
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇩🇪_DE_德国_28
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇳🇴_NO_挪威_6
+      - v2rayse_🇸🇬_SG_新加坡_2
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇵🇱_PL_波兰_2
+      - v2rayse_🇩🇪_DE_德国_29
+      - v2rayse_🇳🇴_NO_挪威_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_23
+      - v2rayse_🇧🇪_BE_比利时_4
+      - v2rayse_🇪🇸_ES_西班牙_2
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇧🇪_BE_比利时_5_135
+      - v2rayse_🇩🇪_DE_德国_30
+      - v2rayse_🇩🇪_DE_德国_31
+      - v2rayse_🇫🇷_FR_法国_10
+      - v2rayse_🇩🇪_DE_德国_32
+      - v2rayse_🇳🇴_NO_挪威_8
+      - v2rayse_🇳🇴_NO_挪威_9
+      - v2rayse_🇧🇪_BE_比利时_6
+      - v2rayse_🇫🇷_FR_法国_11
+      - v2rayse_🇸🇬_SG_新加坡_3
+      - v2rayse_🇩🇪_DE_德国_33
+      - v2rayse_🇨🇭_CH_瑞士_12
+      - v2rayse_🇨🇭_CH_瑞士_13
+      - v2rayse_🇳🇴_NO_挪威_10
+      - v2rayse_🇬🇧_GB_英国_3
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇫🇷_FR_法国_12
+      - v2rayse_🇩🇪_DE_德国_34
+      - v2rayse_🇧🇪_BE_比利时_7
+      - v2rayse_🇩🇪_DE_德国_35
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇭_CH_瑞士_14
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇭_CH_瑞士_15
+      - v2rayse_🇧🇪_BE_比利时_8
+      - v2rayse_🇪🇸_ES_西班牙_3
+      - v2rayse_🇩🇪_DE_德国_36
+      - v2rayse_🇩🇪_DE_德国_37
+      - v2rayse_🇭🇰_HK_香港_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_24
+      - v2rayse_🇪🇸_ES_西班牙_4
+      - v2rayse_🇧🇪_BE_比利时_9
+      - v2rayse_🇩🇪_DE_德国_38
+      - v2rayse_🇹🇷_TR_土耳其_1
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇪🇸_ES_西班牙_5
+      - v2rayse_🇧🇪_BE_比利时_10
+      - v2rayse_🇳🇴_NO_挪威_11
+      - v2rayse_🇩🇪_DE_德国_39
+      - v2rayse_🇪🇸_ES_西班牙_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_25
+      - v2rayse_🇦🇱_AL_阿尔巴尼亚_1
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇫🇷_FR_法国_13
+      - v2rayse_🇩🇰_DK_丹麦_1
+      - v2rayse_🇹🇷_TR_土耳其_2
+      - v2rayse_🇫🇷_FR_法国_14
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇫🇷_FR_法国_15
+      - v2rayse_🇫🇷_FR_法国_16
+      - v2rayse_🇳🇴_NO_挪威_12
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇩🇪_DE_德国_40
+      - v2rayse_🇸🇰_SK_斯洛伐克_26
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇫🇷_FR_法国_17
+      - v2rayse_🇨🇭_CH_瑞士_16
+      - v2rayse_🇳🇴_NO_挪威_13
+      - v2rayse_🇫🇷_FR_法国_18
+      - v2rayse_🇳🇴_NO_挪威_14
+      - v2rayse_🇫🇷_FR_法国_19
+      - v2rayse_🇫🇷_FR_法国_20
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇳🇴_NO_挪威_15
+      - v2rayse_🇺🇸_US_美国_31
+      - v2rayse_🇩🇪_DE_德国_41
+      - v2rayse_🇸🇰_SK_斯洛伐克_27
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇩🇪_DE_德国_42
+      - v2rayse_🇳🇴_NO_挪威_16
+      - v2rayse_🇨🇭_CH_瑞士_17
+      - v2rayse_🇸🇪_SE_瑞典_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_28
+      - v2rayse_🇸🇰_SK_斯洛伐克_29
+      - v2rayse_🇸🇰_SK_斯洛伐克_30
+      - v2rayse_🇫🇷_FR_法国_21
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇮🇳_IN_印度_2
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇨🇭_CH_瑞士_1
+      - v2rayse_🇧🇪_BE_比利时_3
+      - v2rayse_🇩🇪_DE_德国_12
+      - v2rayse_🇧🇪_BE_比利时_5
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇨🇳_CN_中国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇫🇷_FR_法国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_3
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇫🇷_FR_法国_2
+      - v2rayse_🇨🇭_CH_瑞士_1_28
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇫🇷_FR_法国_3
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇫🇷_FR_法国_4
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇨🇭_CH_瑞士_2
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇨🇭_CH_瑞士_3
+      - v2rayse_🇩🇪_DE_德国_7
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_8
+      - v2rayse_🇩🇪_DE_德国_9
+      - v2rayse_🇨🇭_CH_瑞士_4
+      - v2rayse_🇩🇪_DE_德国_10
+      - v2rayse_🇩🇪_DE_德国_11
+      - v2rayse_🇩🇪_DE_德国_12_54
+      - v2rayse_🇸🇰_SK_斯洛伐克_9_55
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇸🇰_SK_斯洛伐克_11
+      - v2rayse_🇨🇭_CH_瑞士_5
+      - v2rayse_🇨🇭_CH_瑞士_6
+      - v2rayse_🇭🇰_HK_香港_4
+      - v2rayse_🇳🇴_NO_挪威_1
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_13
+      - v2rayse_🇨🇭_CH_瑞士_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_12
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇵🇱_PL_波兰_1
+      - v2rayse_🇳🇴_NO_挪威_2
+      - v2rayse_🇩🇪_DE_德国_14
+      - v2rayse_🇸🇰_SK_斯洛伐克_13
+      - v2rayse_🇸🇰_SK_斯洛伐克_14
+      - v2rayse_🇫🇷_FR_法国_5
+      - v2rayse_🇧🇪_BE_比利时_1_74
+      - v2rayse_🇩🇪_DE_德国_15
+      - v2rayse_🇪🇸_ES_西班牙_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_15
+      - v2rayse_🇸🇰_SK_斯洛伐克_16
+      - v2rayse_🇨🇭_CH_瑞士_8
+      - v2rayse_🇨🇭_CH_瑞士_9
+      - v2rayse_🇩🇪_DE_德国_16
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇩🇪_DE_德国_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_18
+      - v2rayse_🇩🇪_DE_德国_18
+      - v2rayse_🇩🇪_DE_德国_19
+      - v2rayse_🇸🇰_SK_斯洛伐克_19
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇫🇷_FR_法国_6
+      - v2rayse_🇩🇪_DE_德国_20
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇳🇴_NO_挪威_3
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇩🇪_DE_德国_21
+      - v2rayse_🇫🇷_FR_法国_7
+      - v2rayse_🇩🇪_DE_德国_22
+      - v2rayse_🇨🇷_CR_哥斯达黎加_1
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇮🇹_IT_意大利_1
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇩🇪_DE_德国_23
+      - v2rayse_🇸🇰_SK_斯洛伐克_20
+      - v2rayse_🇸🇬_SG_新加坡_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_21
+      - v2rayse_🇧🇪_BE_比利时_2
+      - v2rayse_🇨🇭_CH_瑞士_10
+      - v2rayse_🇧🇪_BE_比利时_3_109
+      - v2rayse_🇳🇴_NO_挪威_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_22
+      - v2rayse_🇨🇭_CH_瑞士_11
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇫🇷_FR_法国_8
+      - v2rayse_🇩🇪_DE_德国_24
+      - v2rayse_🇫🇷_FR_法国_9
+      - v2rayse_🇩🇪_DE_德国_25
+      - v2rayse_🇳🇴_NO_挪威_5
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇩🇪_DE_德国_26
+      - v2rayse_🇩🇪_DE_德国_27
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇩🇪_DE_德国_28
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇳🇴_NO_挪威_6
+      - v2rayse_🇸🇬_SG_新加坡_2
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇵🇱_PL_波兰_2
+      - v2rayse_🇩🇪_DE_德国_29
+      - v2rayse_🇳🇴_NO_挪威_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_23
+      - v2rayse_🇧🇪_BE_比利时_4
+      - v2rayse_🇪🇸_ES_西班牙_2
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇧🇪_BE_比利时_5_135
+      - v2rayse_🇩🇪_DE_德国_30
+      - v2rayse_🇩🇪_DE_德国_31
+      - v2rayse_🇫🇷_FR_法国_10
+      - v2rayse_🇩🇪_DE_德国_32
+      - v2rayse_🇳🇴_NO_挪威_8
+      - v2rayse_🇳🇴_NO_挪威_9
+      - v2rayse_🇧🇪_BE_比利时_6
+      - v2rayse_🇫🇷_FR_法国_11
+      - v2rayse_🇸🇬_SG_新加坡_3
+      - v2rayse_🇩🇪_DE_德国_33
+      - v2rayse_🇨🇭_CH_瑞士_12
+      - v2rayse_🇨🇭_CH_瑞士_13
+      - v2rayse_🇳🇴_NO_挪威_10
+      - v2rayse_🇬🇧_GB_英国_3
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇫🇷_FR_法国_12
+      - v2rayse_🇩🇪_DE_德国_34
+      - v2rayse_🇧🇪_BE_比利时_7
+      - v2rayse_🇩🇪_DE_德国_35
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇭_CH_瑞士_14
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇭_CH_瑞士_15
+      - v2rayse_🇧🇪_BE_比利时_8
+      - v2rayse_🇪🇸_ES_西班牙_3
+      - v2rayse_🇩🇪_DE_德国_36
+      - v2rayse_🇩🇪_DE_德国_37
+      - v2rayse_🇭🇰_HK_香港_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_24
+      - v2rayse_🇪🇸_ES_西班牙_4
+      - v2rayse_🇧🇪_BE_比利时_9
+      - v2rayse_🇩🇪_DE_德国_38
+      - v2rayse_🇹🇷_TR_土耳其_1
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇪🇸_ES_西班牙_5
+      - v2rayse_🇧🇪_BE_比利时_10
+      - v2rayse_🇳🇴_NO_挪威_11
+      - v2rayse_🇩🇪_DE_德国_39
+      - v2rayse_🇪🇸_ES_西班牙_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_25
+      - v2rayse_🇦🇱_AL_阿尔巴尼亚_1
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇫🇷_FR_法国_13
+      - v2rayse_🇩🇰_DK_丹麦_1
+      - v2rayse_🇹🇷_TR_土耳其_2
+      - v2rayse_🇫🇷_FR_法国_14
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇫🇷_FR_法国_15
+      - v2rayse_🇫🇷_FR_法国_16
+      - v2rayse_🇳🇴_NO_挪威_12
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇩🇪_DE_德国_40
+      - v2rayse_🇸🇰_SK_斯洛伐克_26
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇫🇷_FR_法国_17
+      - v2rayse_🇨🇭_CH_瑞士_16
+      - v2rayse_🇳🇴_NO_挪威_13
+      - v2rayse_🇫🇷_FR_法国_18
+      - v2rayse_🇳🇴_NO_挪威_14
+      - v2rayse_🇫🇷_FR_法国_19
+      - v2rayse_🇫🇷_FR_法国_20
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇳🇴_NO_挪威_15
+      - v2rayse_🇺🇸_US_美国_31
+      - v2rayse_🇩🇪_DE_德国_41
+      - v2rayse_🇸🇰_SK_斯洛伐克_27
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇩🇪_DE_德国_42
+      - v2rayse_🇳🇴_NO_挪威_16
+      - v2rayse_🇨🇭_CH_瑞士_17
+      - v2rayse_🇸🇪_SE_瑞典_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_28
+      - v2rayse_🇸🇰_SK_斯洛伐克_29
+      - v2rayse_🇸🇰_SK_斯洛伐克_30
+      - v2rayse_🇫🇷_FR_法国_21
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇮🇳_IN_印度_2
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇨🇭_CH_瑞士_1
+      - v2rayse_🇧🇪_BE_比利时_3
+      - v2rayse_🇩🇪_DE_德国_12
+      - v2rayse_🇧🇪_BE_比利时_5
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇨🇳_CN_中国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇫🇷_FR_法国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_3
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇫🇷_FR_法国_2
+      - v2rayse_🇨🇭_CH_瑞士_1_28
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇫🇷_FR_法国_3
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇫🇷_FR_法国_4
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇨🇭_CH_瑞士_2
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇨🇭_CH_瑞士_3
+      - v2rayse_🇩🇪_DE_德国_7
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_8
+      - v2rayse_🇩🇪_DE_德国_9
+      - v2rayse_🇨🇭_CH_瑞士_4
+      - v2rayse_🇩🇪_DE_德国_10
+      - v2rayse_🇩🇪_DE_德国_11
+      - v2rayse_🇩🇪_DE_德国_12_54
+      - v2rayse_🇸🇰_SK_斯洛伐克_9_55
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇸🇰_SK_斯洛伐克_11
+      - v2rayse_🇨🇭_CH_瑞士_5
+      - v2rayse_🇨🇭_CH_瑞士_6
+      - v2rayse_🇭🇰_HK_香港_4
+      - v2rayse_🇳🇴_NO_挪威_1
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_13
+      - v2rayse_🇨🇭_CH_瑞士_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_12
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇵🇱_PL_波兰_1
+      - v2rayse_🇳🇴_NO_挪威_2
+      - v2rayse_🇩🇪_DE_德国_14
+      - v2rayse_🇸🇰_SK_斯洛伐克_13
+      - v2rayse_🇸🇰_SK_斯洛伐克_14
+      - v2rayse_🇫🇷_FR_法国_5
+      - v2rayse_🇧🇪_BE_比利时_1_74
+      - v2rayse_🇩🇪_DE_德国_15
+      - v2rayse_🇪🇸_ES_西班牙_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_15
+      - v2rayse_🇸🇰_SK_斯洛伐克_16
+      - v2rayse_🇨🇭_CH_瑞士_8
+      - v2rayse_🇨🇭_CH_瑞士_9
+      - v2rayse_🇩🇪_DE_德国_16
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇩🇪_DE_德国_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_18
+      - v2rayse_🇩🇪_DE_德国_18
+      - v2rayse_🇩🇪_DE_德国_19
+      - v2rayse_🇸🇰_SK_斯洛伐克_19
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇫🇷_FR_法国_6
+      - v2rayse_🇩🇪_DE_德国_20
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇳🇴_NO_挪威_3
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇩🇪_DE_德国_21
+      - v2rayse_🇫🇷_FR_法国_7
+      - v2rayse_🇩🇪_DE_德国_22
+      - v2rayse_🇨🇷_CR_哥斯达黎加_1
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇮🇹_IT_意大利_1
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇩🇪_DE_德国_23
+      - v2rayse_🇸🇰_SK_斯洛伐克_20
+      - v2rayse_🇸🇬_SG_新加坡_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_21
+      - v2rayse_🇧🇪_BE_比利时_2
+      - v2rayse_🇨🇭_CH_瑞士_10
+      - v2rayse_🇧🇪_BE_比利时_3_109
+      - v2rayse_🇳🇴_NO_挪威_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_22
+      - v2rayse_🇨🇭_CH_瑞士_11
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇫🇷_FR_法国_8
+      - v2rayse_🇩🇪_DE_德国_24
+      - v2rayse_🇫🇷_FR_法国_9
+      - v2rayse_🇩🇪_DE_德国_25
+      - v2rayse_🇳🇴_NO_挪威_5
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇩🇪_DE_德国_26
+      - v2rayse_🇩🇪_DE_德国_27
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇩🇪_DE_德国_28
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇳🇴_NO_挪威_6
+      - v2rayse_🇸🇬_SG_新加坡_2
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇵🇱_PL_波兰_2
+      - v2rayse_🇩🇪_DE_德国_29
+      - v2rayse_🇳🇴_NO_挪威_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_23
+      - v2rayse_🇧🇪_BE_比利时_4
+      - v2rayse_🇪🇸_ES_西班牙_2
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇧🇪_BE_比利时_5_135
+      - v2rayse_🇩🇪_DE_德国_30
+      - v2rayse_🇩🇪_DE_德国_31
+      - v2rayse_🇫🇷_FR_法国_10
+      - v2rayse_🇩🇪_DE_德国_32
+      - v2rayse_🇳🇴_NO_挪威_8
+      - v2rayse_🇳🇴_NO_挪威_9
+      - v2rayse_🇧🇪_BE_比利时_6
+      - v2rayse_🇫🇷_FR_法国_11
+      - v2rayse_🇸🇬_SG_新加坡_3
+      - v2rayse_🇩🇪_DE_德国_33
+      - v2rayse_🇨🇭_CH_瑞士_12
+      - v2rayse_🇨🇭_CH_瑞士_13
+      - v2rayse_🇳🇴_NO_挪威_10
+      - v2rayse_🇬🇧_GB_英国_3
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇫🇷_FR_法国_12
+      - v2rayse_🇩🇪_DE_德国_34
+      - v2rayse_🇧🇪_BE_比利时_7
+      - v2rayse_🇩🇪_DE_德国_35
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇭_CH_瑞士_14
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇭_CH_瑞士_15
+      - v2rayse_🇧🇪_BE_比利时_8
+      - v2rayse_🇪🇸_ES_西班牙_3
+      - v2rayse_🇩🇪_DE_德国_36
+      - v2rayse_🇩🇪_DE_德国_37
+      - v2rayse_🇭🇰_HK_香港_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_24
+      - v2rayse_🇪🇸_ES_西班牙_4
+      - v2rayse_🇧🇪_BE_比利时_9
+      - v2rayse_🇩🇪_DE_德国_38
+      - v2rayse_🇹🇷_TR_土耳其_1
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇪🇸_ES_西班牙_5
+      - v2rayse_🇧🇪_BE_比利时_10
+      - v2rayse_🇳🇴_NO_挪威_11
+      - v2rayse_🇩🇪_DE_德国_39
+      - v2rayse_🇪🇸_ES_西班牙_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_25
+      - v2rayse_🇦🇱_AL_阿尔巴尼亚_1
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇫🇷_FR_法国_13
+      - v2rayse_🇩🇰_DK_丹麦_1
+      - v2rayse_🇹🇷_TR_土耳其_2
+      - v2rayse_🇫🇷_FR_法国_14
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇫🇷_FR_法国_15
+      - v2rayse_🇫🇷_FR_法国_16
+      - v2rayse_🇳🇴_NO_挪威_12
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇩🇪_DE_德国_40
+      - v2rayse_🇸🇰_SK_斯洛伐克_26
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇫🇷_FR_法国_17
+      - v2rayse_🇨🇭_CH_瑞士_16
+      - v2rayse_🇳🇴_NO_挪威_13
+      - v2rayse_🇫🇷_FR_法国_18
+      - v2rayse_🇳🇴_NO_挪威_14
+      - v2rayse_🇫🇷_FR_法国_19
+      - v2rayse_🇫🇷_FR_法国_20
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇳🇴_NO_挪威_15
+      - v2rayse_🇺🇸_US_美国_31
+      - v2rayse_🇩🇪_DE_德国_41
+      - v2rayse_🇸🇰_SK_斯洛伐克_27
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇩🇪_DE_德国_42
+      - v2rayse_🇳🇴_NO_挪威_16
+      - v2rayse_🇨🇭_CH_瑞士_17
+      - v2rayse_🇸🇪_SE_瑞典_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_28
+      - v2rayse_🇸🇰_SK_斯洛伐克_29
+      - v2rayse_🇸🇰_SK_斯洛伐克_30
+      - v2rayse_🇫🇷_FR_法国_21
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇮🇳_IN_印度_2
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇨🇭_CH_瑞士_1
+      - v2rayse_🇧🇪_BE_比利时_3
+      - v2rayse_🇩🇪_DE_德国_12
+      - v2rayse_🇧🇪_BE_比利时_5
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇨🇳_CN_中国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇫🇷_FR_法国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_3
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇫🇷_FR_法国_2
+      - v2rayse_🇨🇭_CH_瑞士_1_28
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇫🇷_FR_法国_3
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇫🇷_FR_法国_4
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇨🇭_CH_瑞士_2
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇨🇭_CH_瑞士_3
+      - v2rayse_🇩🇪_DE_德国_7
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_8
+      - v2rayse_🇩🇪_DE_德国_9
+      - v2rayse_🇨🇭_CH_瑞士_4
+      - v2rayse_🇩🇪_DE_德国_10
+      - v2rayse_🇩🇪_DE_德国_11
+      - v2rayse_🇩🇪_DE_德国_12_54
+      - v2rayse_🇸🇰_SK_斯洛伐克_9_55
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇸🇰_SK_斯洛伐克_11
+      - v2rayse_🇨🇭_CH_瑞士_5
+      - v2rayse_🇨🇭_CH_瑞士_6
+      - v2rayse_🇭🇰_HK_香港_4
+      - v2rayse_🇳🇴_NO_挪威_1
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_13
+      - v2rayse_🇨🇭_CH_瑞士_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_12
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇵🇱_PL_波兰_1
+      - v2rayse_🇳🇴_NO_挪威_2
+      - v2rayse_🇩🇪_DE_德国_14
+      - v2rayse_🇸🇰_SK_斯洛伐克_13
+      - v2rayse_🇸🇰_SK_斯洛伐克_14
+      - v2rayse_🇫🇷_FR_法国_5
+      - v2rayse_🇧🇪_BE_比利时_1_74
+      - v2rayse_🇩🇪_DE_德国_15
+      - v2rayse_🇪🇸_ES_西班牙_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_15
+      - v2rayse_🇸🇰_SK_斯洛伐克_16
+      - v2rayse_🇨🇭_CH_瑞士_8
+      - v2rayse_🇨🇭_CH_瑞士_9
+      - v2rayse_🇩🇪_DE_德国_16
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇩🇪_DE_德国_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_18
+      - v2rayse_🇩🇪_DE_德国_18
+      - v2rayse_🇩🇪_DE_德国_19
+      - v2rayse_🇸🇰_SK_斯洛伐克_19
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇫🇷_FR_法国_6
+      - v2rayse_🇩🇪_DE_德国_20
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇳🇴_NO_挪威_3
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇩🇪_DE_德国_21
+      - v2rayse_🇫🇷_FR_法国_7
+      - v2rayse_🇩🇪_DE_德国_22
+      - v2rayse_🇨🇷_CR_哥斯达黎加_1
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇮🇹_IT_意大利_1
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇩🇪_DE_德国_23
+      - v2rayse_🇸🇰_SK_斯洛伐克_20
+      - v2rayse_🇸🇬_SG_新加坡_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_21
+      - v2rayse_🇧🇪_BE_比利时_2
+      - v2rayse_🇨🇭_CH_瑞士_10
+      - v2rayse_🇧🇪_BE_比利时_3_109
+      - v2rayse_🇳🇴_NO_挪威_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_22
+      - v2rayse_🇨🇭_CH_瑞士_11
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇫🇷_FR_法国_8
+      - v2rayse_🇩🇪_DE_德国_24
+      - v2rayse_🇫🇷_FR_法国_9
+      - v2rayse_🇩🇪_DE_德国_25
+      - v2rayse_🇳🇴_NO_挪威_5
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇩🇪_DE_德国_26
+      - v2rayse_🇩🇪_DE_德国_27
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇩🇪_DE_德国_28
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇳🇴_NO_挪威_6
+      - v2rayse_🇸🇬_SG_新加坡_2
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇵🇱_PL_波兰_2
+      - v2rayse_🇩🇪_DE_德国_29
+      - v2rayse_🇳🇴_NO_挪威_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_23
+      - v2rayse_🇧🇪_BE_比利时_4
+      - v2rayse_🇪🇸_ES_西班牙_2
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇧🇪_BE_比利时_5_135
+      - v2rayse_🇩🇪_DE_德国_30
+      - v2rayse_🇩🇪_DE_德国_31
+      - v2rayse_🇫🇷_FR_法国_10
+      - v2rayse_🇩🇪_DE_德国_32
+      - v2rayse_🇳🇴_NO_挪威_8
+      - v2rayse_🇳🇴_NO_挪威_9
+      - v2rayse_🇧🇪_BE_比利时_6
+      - v2rayse_🇫🇷_FR_法国_11
+      - v2rayse_🇸🇬_SG_新加坡_3
+      - v2rayse_🇩🇪_DE_德国_33
+      - v2rayse_🇨🇭_CH_瑞士_12
+      - v2rayse_🇨🇭_CH_瑞士_13
+      - v2rayse_🇳🇴_NO_挪威_10
+      - v2rayse_🇬🇧_GB_英国_3
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇫🇷_FR_法国_12
+      - v2rayse_🇩🇪_DE_德国_34
+      - v2rayse_🇧🇪_BE_比利时_7
+      - v2rayse_🇩🇪_DE_德国_35
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇭_CH_瑞士_14
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇭_CH_瑞士_15
+      - v2rayse_🇧🇪_BE_比利时_8
+      - v2rayse_🇪🇸_ES_西班牙_3
+      - v2rayse_🇩🇪_DE_德国_36
+      - v2rayse_🇩🇪_DE_德国_37
+      - v2rayse_🇭🇰_HK_香港_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_24
+      - v2rayse_🇪🇸_ES_西班牙_4
+      - v2rayse_🇧🇪_BE_比利时_9
+      - v2rayse_🇩🇪_DE_德国_38
+      - v2rayse_🇹🇷_TR_土耳其_1
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇪🇸_ES_西班牙_5
+      - v2rayse_🇧🇪_BE_比利时_10
+      - v2rayse_🇳🇴_NO_挪威_11
+      - v2rayse_🇩🇪_DE_德国_39
+      - v2rayse_🇪🇸_ES_西班牙_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_25
+      - v2rayse_🇦🇱_AL_阿尔巴尼亚_1
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇫🇷_FR_法国_13
+      - v2rayse_🇩🇰_DK_丹麦_1
+      - v2rayse_🇹🇷_TR_土耳其_2
+      - v2rayse_🇫🇷_FR_法国_14
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇫🇷_FR_法国_15
+      - v2rayse_🇫🇷_FR_法国_16
+      - v2rayse_🇳🇴_NO_挪威_12
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇩🇪_DE_德国_40
+      - v2rayse_🇸🇰_SK_斯洛伐克_26
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇫🇷_FR_法国_17
+      - v2rayse_🇨🇭_CH_瑞士_16
+      - v2rayse_🇳🇴_NO_挪威_13
+      - v2rayse_🇫🇷_FR_法国_18
+      - v2rayse_🇳🇴_NO_挪威_14
+      - v2rayse_🇫🇷_FR_法国_19
+      - v2rayse_🇫🇷_FR_法国_20
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇳🇴_NO_挪威_15
+      - v2rayse_🇺🇸_US_美国_31
+      - v2rayse_🇩🇪_DE_德国_41
+      - v2rayse_🇸🇰_SK_斯洛伐克_27
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇩🇪_DE_德国_42
+      - v2rayse_🇳🇴_NO_挪威_16
+      - v2rayse_🇨🇭_CH_瑞士_17
+      - v2rayse_🇸🇪_SE_瑞典_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_28
+      - v2rayse_🇸🇰_SK_斯洛伐克_29
+      - v2rayse_🇸🇰_SK_斯洛伐克_30
+      - v2rayse_🇫🇷_FR_法国_21
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇮🇳_IN_印度_2
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇨🇭_CH_瑞士_1
+      - v2rayse_🇧🇪_BE_比利时_3
+      - v2rayse_🇩🇪_DE_德国_12
+      - v2rayse_🇧🇪_BE_比利时_5
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇨🇳_CN_中国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇫🇷_FR_法国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_3
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇫🇷_FR_法国_2
+      - v2rayse_🇨🇭_CH_瑞士_1_28
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇫🇷_FR_法国_3
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇫🇷_FR_法国_4
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇨🇭_CH_瑞士_2
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇨🇭_CH_瑞士_3
+      - v2rayse_🇩🇪_DE_德国_7
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_8
+      - v2rayse_🇩🇪_DE_德国_9
+      - v2rayse_🇨🇭_CH_瑞士_4
+      - v2rayse_🇩🇪_DE_德国_10
+      - v2rayse_🇩🇪_DE_德国_11
+      - v2rayse_🇩🇪_DE_德国_12_54
+      - v2rayse_🇸🇰_SK_斯洛伐克_9_55
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇸🇰_SK_斯洛伐克_11
+      - v2rayse_🇨🇭_CH_瑞士_5
+      - v2rayse_🇨🇭_CH_瑞士_6
+      - v2rayse_🇭🇰_HK_香港_4
+      - v2rayse_🇳🇴_NO_挪威_1
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_13
+      - v2rayse_🇨🇭_CH_瑞士_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_12
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇵🇱_PL_波兰_1
+      - v2rayse_🇳🇴_NO_挪威_2
+      - v2rayse_🇩🇪_DE_德国_14
+      - v2rayse_🇸🇰_SK_斯洛伐克_13
+      - v2rayse_🇸🇰_SK_斯洛伐克_14
+      - v2rayse_🇫🇷_FR_法国_5
+      - v2rayse_🇧🇪_BE_比利时_1_74
+      - v2rayse_🇩🇪_DE_德国_15
+      - v2rayse_🇪🇸_ES_西班牙_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_15
+      - v2rayse_🇸🇰_SK_斯洛伐克_16
+      - v2rayse_🇨🇭_CH_瑞士_8
+      - v2rayse_🇨🇭_CH_瑞士_9
+      - v2rayse_🇩🇪_DE_德国_16
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇩🇪_DE_德国_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_18
+      - v2rayse_🇩🇪_DE_德国_18
+      - v2rayse_🇩🇪_DE_德国_19
+      - v2rayse_🇸🇰_SK_斯洛伐克_19
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇫🇷_FR_法国_6
+      - v2rayse_🇩🇪_DE_德国_20
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇳🇴_NO_挪威_3
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇩🇪_DE_德国_21
+      - v2rayse_🇫🇷_FR_法国_7
+      - v2rayse_🇩🇪_DE_德国_22
+      - v2rayse_🇨🇷_CR_哥斯达黎加_1
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇮🇹_IT_意大利_1
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇩🇪_DE_德国_23
+      - v2rayse_🇸🇰_SK_斯洛伐克_20
+      - v2rayse_🇸🇬_SG_新加坡_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_21
+      - v2rayse_🇧🇪_BE_比利时_2
+      - v2rayse_🇨🇭_CH_瑞士_10
+      - v2rayse_🇧🇪_BE_比利时_3_109
+      - v2rayse_🇳🇴_NO_挪威_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_22
+      - v2rayse_🇨🇭_CH_瑞士_11
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇫🇷_FR_法国_8
+      - v2rayse_🇩🇪_DE_德国_24
+      - v2rayse_🇫🇷_FR_法国_9
+      - v2rayse_🇩🇪_DE_德国_25
+      - v2rayse_🇳🇴_NO_挪威_5
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇩🇪_DE_德国_26
+      - v2rayse_🇩🇪_DE_德国_27
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇩🇪_DE_德国_28
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇳🇴_NO_挪威_6
+      - v2rayse_🇸🇬_SG_新加坡_2
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇵🇱_PL_波兰_2
+      - v2rayse_🇩🇪_DE_德国_29
+      - v2rayse_🇳🇴_NO_挪威_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_23
+      - v2rayse_🇧🇪_BE_比利时_4
+      - v2rayse_🇪🇸_ES_西班牙_2
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇧🇪_BE_比利时_5_135
+      - v2rayse_🇩🇪_DE_德国_30
+      - v2rayse_🇩🇪_DE_德国_31
+      - v2rayse_🇫🇷_FR_法国_10
+      - v2rayse_🇩🇪_DE_德国_32
+      - v2rayse_🇳🇴_NO_挪威_8
+      - v2rayse_🇳🇴_NO_挪威_9
+      - v2rayse_🇧🇪_BE_比利时_6
+      - v2rayse_🇫🇷_FR_法国_11
+      - v2rayse_🇸🇬_SG_新加坡_3
+      - v2rayse_🇩🇪_DE_德国_33
+      - v2rayse_🇨🇭_CH_瑞士_12
+      - v2rayse_🇨🇭_CH_瑞士_13
+      - v2rayse_🇳🇴_NO_挪威_10
+      - v2rayse_🇬🇧_GB_英国_3
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇫🇷_FR_法国_12
+      - v2rayse_🇩🇪_DE_德国_34
+      - v2rayse_🇧🇪_BE_比利时_7
+      - v2rayse_🇩🇪_DE_德国_35
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇭_CH_瑞士_14
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇭_CH_瑞士_15
+      - v2rayse_🇧🇪_BE_比利时_8
+      - v2rayse_🇪🇸_ES_西班牙_3
+      - v2rayse_🇩🇪_DE_德国_36
+      - v2rayse_🇩🇪_DE_德国_37
+      - v2rayse_🇭🇰_HK_香港_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_24
+      - v2rayse_🇪🇸_ES_西班牙_4
+      - v2rayse_🇧🇪_BE_比利时_9
+      - v2rayse_🇩🇪_DE_德国_38
+      - v2rayse_🇹🇷_TR_土耳其_1
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇪🇸_ES_西班牙_5
+      - v2rayse_🇧🇪_BE_比利时_10
+      - v2rayse_🇳🇴_NO_挪威_11
+      - v2rayse_🇩🇪_DE_德国_39
+      - v2rayse_🇪🇸_ES_西班牙_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_25
+      - v2rayse_🇦🇱_AL_阿尔巴尼亚_1
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇫🇷_FR_法国_13
+      - v2rayse_🇩🇰_DK_丹麦_1
+      - v2rayse_🇹🇷_TR_土耳其_2
+      - v2rayse_🇫🇷_FR_法国_14
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇫🇷_FR_法国_15
+      - v2rayse_🇫🇷_FR_法国_16
+      - v2rayse_🇳🇴_NO_挪威_12
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇩🇪_DE_德国_40
+      - v2rayse_🇸🇰_SK_斯洛伐克_26
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇫🇷_FR_法国_17
+      - v2rayse_🇨🇭_CH_瑞士_16
+      - v2rayse_🇳🇴_NO_挪威_13
+      - v2rayse_🇫🇷_FR_法国_18
+      - v2rayse_🇳🇴_NO_挪威_14
+      - v2rayse_🇫🇷_FR_法国_19
+      - v2rayse_🇫🇷_FR_法国_20
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇳🇴_NO_挪威_15
+      - v2rayse_🇺🇸_US_美国_31
+      - v2rayse_🇩🇪_DE_德国_41
+      - v2rayse_🇸🇰_SK_斯洛伐克_27
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇩🇪_DE_德国_42
+      - v2rayse_🇳🇴_NO_挪威_16
+      - v2rayse_🇨🇭_CH_瑞士_17
+      - v2rayse_🇸🇪_SE_瑞典_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_28
+      - v2rayse_🇸🇰_SK_斯洛伐克_29
+      - v2rayse_🇸🇰_SK_斯洛伐克_30
+      - v2rayse_🇫🇷_FR_法国_21
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +1754,218 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇮🇳_IN_印度_2
+      - v2rayse_🇧🇪_BE_比利时_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_9
+      - v2rayse_🇨🇭_CH_瑞士_1
+      - v2rayse_🇧🇪_BE_比利时_3
+      - v2rayse_🇩🇪_DE_德国_12
+      - v2rayse_🇧🇪_BE_比利时_5
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇨🇳_CN_中国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇫🇷_FR_法国_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_1
+      - v2rayse_🇭🇰_HK_香港_3
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_2
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_3
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇸🇰_SK_斯洛伐克_4
+      - v2rayse_🇫🇷_FR_法国_2
+      - v2rayse_🇨🇭_CH_瑞士_1_28
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_7
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇩🇪_DE_德国_3
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇫🇷_FR_法国_3
+      - v2rayse_🇩🇪_DE_德国_5
+      - v2rayse_🇫🇷_FR_法国_4
+      - v2rayse_🇩🇪_DE_德国_6
+      - v2rayse_🇨🇭_CH_瑞士_2
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇸🇰_SK_斯洛伐克_8
+      - v2rayse_🇨🇭_CH_瑞士_3
+      - v2rayse_🇩🇪_DE_德国_7
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_8
+      - v2rayse_🇩🇪_DE_德国_9
+      - v2rayse_🇨🇭_CH_瑞士_4
+      - v2rayse_🇩🇪_DE_德国_10
+      - v2rayse_🇩🇪_DE_德国_11
+      - v2rayse_🇩🇪_DE_德国_12_54
+      - v2rayse_🇸🇰_SK_斯洛伐克_9_55
+      - v2rayse_🇸🇰_SK_斯洛伐克_10
+      - v2rayse_🇸🇰_SK_斯洛伐克_11
+      - v2rayse_🇨🇭_CH_瑞士_5
+      - v2rayse_🇨🇭_CH_瑞士_6
+      - v2rayse_🇭🇰_HK_香港_4
+      - v2rayse_🇳🇴_NO_挪威_1
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_13
+      - v2rayse_🇨🇭_CH_瑞士_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_12
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇵🇱_PL_波兰_1
+      - v2rayse_🇳🇴_NO_挪威_2
+      - v2rayse_🇩🇪_DE_德国_14
+      - v2rayse_🇸🇰_SK_斯洛伐克_13
+      - v2rayse_🇸🇰_SK_斯洛伐克_14
+      - v2rayse_🇫🇷_FR_法国_5
+      - v2rayse_🇧🇪_BE_比利时_1_74
+      - v2rayse_🇩🇪_DE_德国_15
+      - v2rayse_🇪🇸_ES_西班牙_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_15
+      - v2rayse_🇸🇰_SK_斯洛伐克_16
+      - v2rayse_🇨🇭_CH_瑞士_8
+      - v2rayse_🇨🇭_CH_瑞士_9
+      - v2rayse_🇩🇪_DE_德国_16
+      - v2rayse_🇺🇸_US_美国_15
+      - v2rayse_🇩🇪_DE_德国_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_17
+      - v2rayse_🇸🇰_SK_斯洛伐克_18
+      - v2rayse_🇩🇪_DE_德国_18
+      - v2rayse_🇩🇪_DE_德国_19
+      - v2rayse_🇸🇰_SK_斯洛伐克_19
+      - v2rayse_🇺🇸_US_美国_16
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇫🇷_FR_法国_6
+      - v2rayse_🇩🇪_DE_德国_20
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇳🇴_NO_挪威_3
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇩🇪_DE_德国_21
+      - v2rayse_🇫🇷_FR_法国_7
+      - v2rayse_🇩🇪_DE_德国_22
+      - v2rayse_🇨🇷_CR_哥斯达黎加_1
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇮🇹_IT_意大利_1
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇩🇪_DE_德国_23
+      - v2rayse_🇸🇰_SK_斯洛伐克_20
+      - v2rayse_🇸🇬_SG_新加坡_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_21
+      - v2rayse_🇧🇪_BE_比利时_2
+      - v2rayse_🇨🇭_CH_瑞士_10
+      - v2rayse_🇧🇪_BE_比利时_3_109
+      - v2rayse_🇳🇴_NO_挪威_4
+      - v2rayse_🇸🇰_SK_斯洛伐克_22
+      - v2rayse_🇨🇭_CH_瑞士_11
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇫🇷_FR_法国_8
+      - v2rayse_🇩🇪_DE_德国_24
+      - v2rayse_🇫🇷_FR_法国_9
+      - v2rayse_🇩🇪_DE_德国_25
+      - v2rayse_🇳🇴_NO_挪威_5
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇩🇪_DE_德国_26
+      - v2rayse_🇩🇪_DE_德国_27
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇩🇪_DE_德国_28
+      - v2rayse_🇺🇸_US_美国_23
+      - v2rayse_🇳🇴_NO_挪威_6
+      - v2rayse_🇸🇬_SG_新加坡_2
+      - v2rayse_🇺🇸_US_美国_24
+      - v2rayse_🇵🇱_PL_波兰_2
+      - v2rayse_🇩🇪_DE_德国_29
+      - v2rayse_🇳🇴_NO_挪威_7
+      - v2rayse_🇸🇰_SK_斯洛伐克_23
+      - v2rayse_🇧🇪_BE_比利时_4
+      - v2rayse_🇪🇸_ES_西班牙_2
+      - v2rayse_🇺🇸_US_美国_25
+      - v2rayse_🇧🇪_BE_比利时_5_135
+      - v2rayse_🇩🇪_DE_德国_30
+      - v2rayse_🇩🇪_DE_德国_31
+      - v2rayse_🇫🇷_FR_法国_10
+      - v2rayse_🇩🇪_DE_德国_32
+      - v2rayse_🇳🇴_NO_挪威_8
+      - v2rayse_🇳🇴_NO_挪威_9
+      - v2rayse_🇧🇪_BE_比利时_6
+      - v2rayse_🇫🇷_FR_法国_11
+      - v2rayse_🇸🇬_SG_新加坡_3
+      - v2rayse_🇩🇪_DE_德国_33
+      - v2rayse_🇨🇭_CH_瑞士_12
+      - v2rayse_🇨🇭_CH_瑞士_13
+      - v2rayse_🇳🇴_NO_挪威_10
+      - v2rayse_🇬🇧_GB_英国_3
+      - v2rayse_🇺🇸_US_美国_26
+      - v2rayse_🇫🇷_FR_法国_12
+      - v2rayse_🇩🇪_DE_德国_34
+      - v2rayse_🇧🇪_BE_比利时_7
+      - v2rayse_🇩🇪_DE_德国_35
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇭_CH_瑞士_14
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇭_CH_瑞士_15
+      - v2rayse_🇧🇪_BE_比利时_8
+      - v2rayse_🇪🇸_ES_西班牙_3
+      - v2rayse_🇩🇪_DE_德国_36
+      - v2rayse_🇩🇪_DE_德国_37
+      - v2rayse_🇭🇰_HK_香港_5
+      - v2rayse_🇸🇰_SK_斯洛伐克_24
+      - v2rayse_🇪🇸_ES_西班牙_4
+      - v2rayse_🇧🇪_BE_比利时_9
+      - v2rayse_🇩🇪_DE_德国_38
+      - v2rayse_🇹🇷_TR_土耳其_1
+      - v2rayse_🇺🇸_US_美国_27
+      - v2rayse_🇪🇸_ES_西班牙_5
+      - v2rayse_🇧🇪_BE_比利时_10
+      - v2rayse_🇳🇴_NO_挪威_11
+      - v2rayse_🇩🇪_DE_德国_39
+      - v2rayse_🇪🇸_ES_西班牙_6
+      - v2rayse_🇸🇰_SK_斯洛伐克_25
+      - v2rayse_🇦🇱_AL_阿尔巴尼亚_1
+      - v2rayse_🇺🇸_US_美国_28
+      - v2rayse_🇫🇷_FR_法国_13
+      - v2rayse_🇩🇰_DK_丹麦_1
+      - v2rayse_🇹🇷_TR_土耳其_2
+      - v2rayse_🇫🇷_FR_法国_14
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇺🇸_US_美国_29
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇫🇷_FR_法国_15
+      - v2rayse_🇫🇷_FR_法国_16
+      - v2rayse_🇳🇴_NO_挪威_12
+      - v2rayse_🇺🇸_US_美国_30
+      - v2rayse_🇩🇪_DE_德国_40
+      - v2rayse_🇸🇰_SK_斯洛伐克_26
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇫🇷_FR_法国_17
+      - v2rayse_🇨🇭_CH_瑞士_16
+      - v2rayse_🇳🇴_NO_挪威_13
+      - v2rayse_🇫🇷_FR_法国_18
+      - v2rayse_🇳🇴_NO_挪威_14
+      - v2rayse_🇫🇷_FR_法国_19
+      - v2rayse_🇫🇷_FR_法国_20
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇳🇴_NO_挪威_15
+      - v2rayse_🇺🇸_US_美国_31
+      - v2rayse_🇩🇪_DE_德国_41
+      - v2rayse_🇸🇰_SK_斯洛伐克_27
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇩🇪_DE_德国_42
+      - v2rayse_🇳🇴_NO_挪威_16
+      - v2rayse_🇨🇭_CH_瑞士_17
+      - v2rayse_🇸🇪_SE_瑞典_1
+      - v2rayse_🇸🇰_SK_斯洛伐克_28
+      - v2rayse_🇸🇰_SK_斯洛伐克_29
+      - v2rayse_🇸🇰_SK_斯洛伐克_30
+      - v2rayse_🇫🇷_FR_法国_21
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
