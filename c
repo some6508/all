@@ -5,60 +5,68 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇳🇱_NL_荷兰_1', server: 89.46.223.225, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
-  - {name: '🇧🇪_BE_比利时_2', server: 194.110.115.86, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 'v2rayse_🇭🇰_HK_香港_1', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'v2rayse_🇭🇰_HK_香港_2', server: 212.102.42.89, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 'v2rayse_🇭🇰_HK_香港_3', server: 212.102.42.194, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇧🇪_BE_比利时_2
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇭🇰_HK_香港_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇳🇱_NL_荷兰_1
-      - 🇧🇪_BE_比利时_2
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇭🇰_HK_香港_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇧🇪_BE_比利时_2
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇭🇰_HK_香港_3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇧🇪_BE_比利时_2
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇭🇰_HK_香港_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇧🇪_BE_比利时_2
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇭🇰_HK_香港_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇧🇪_BE_比利时_2
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇭🇰_HK_香港_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇧🇪_BE_比利时_2
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇭🇰_HK_香港_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +82,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇧🇪_BE_比利时_2
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇭🇰_HK_香港_2
+      - v2rayse_🇭🇰_HK_香港_3
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
