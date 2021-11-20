@@ -4,9 +4,8 @@
 | :----: |
 |2021-11-20 11:51:19.702157768|
 
-|节点订阅|使用加速|不使用加速|
+|节点订阅|使用加速|不使用|
 | :----: | :----: | :----: |
 |1.Clash|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/c)|[raw](https://raw.githubusercontent.com/some6508/all/master/c)|
 |2.Clash|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/c2)|[raw](https://raw.githubusercontent.com/some6508/all/master/c2)|
 |1.V2ray|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/v)|[raw](https://raw.githubusercontent.com/some6508/all/master/v)|
-|2.V2ray|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/v)|[raw](https://raw.githubusercontent.com/some6508/all/master/v)|
