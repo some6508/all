@@ -5,52 +5,1204 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇨🇦_CA_加拿大_1', server: 37.19.211.40, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 'github.com/freefq+-+新西兰CachedNet数据中心+4_1', server: 107.150.94.14, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 'github.com/freefq+-+挪威++6_2', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'github.com/freefq+-+英国++7_3', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'github.com/freefq+-+英国++9_4', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_5', server: ru.gfwglass.tk, port: 443, type: vmess, uuid: 8414177f-abd4-4af4-8beb-af4235a09248, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: ru.gfwglass.tk}}
+  - {name: '@SSRSUB-V14-付费推荐:suo.yt/ssrsub_6', server: ru.oracleusa.ml, port: 443, type: vmess, uuid: 916fa668-e02c-4d0f-9fd7-8c5f507a6eed, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ad72213/, ws-headers: {Host: ru.oracleusa.ml}}
+  - {name: '翻墙党fanqiangdang.com_7', server: 104.18.27.64, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 'github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+3_8', server: 185.76.9.56, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'github.com/freefq+-+欧洲++6_9', server: 138.199.42.170, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 'github.com/freefq+-+新西兰CachedNet数据中心+12_10', server: 107.150.94.14, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 'github.com/freefq+-+新西兰CachedNet数据中心+17_11', server: 107.150.94.14, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 'github.com/freefq+-+英国++22_12', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'github.com/freefq+-+英国++23_13', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'github.com/freefq - 美国CloudFlare节点 33_14', server: ru.oracleusa.ml, port: 443, type: vmess, uuid: 916fa668-e02c-4d0f-9fd7-8c5f507a6eed, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ad72213/, ws-headers: {Host: ru.oracleusa.ml}}
+  - {name: 'github.com/freefq+-+挪威++35_15', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'github.com/freefq+-+北美地区++36_16', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_17', server: ru.gfwglass.tk, port: 443, type: vmess, uuid: 8414177f-abd4-4af4-8beb-af4235a09248, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: ru.gfwglass.tk}}
+  - {name: '@SSRSUB-V14-付费推荐:suo.yt/ssrsub_18', server: ru.oracleusa.ml, port: 443, type: vmess, uuid: 916fa668-e02c-4d0f-9fd7-8c5f507a6eed, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ad72213/, ws-headers: {Host: ru.oracleusa.ml}}
+  - {name: '翻墙党fanqiangdang.com_19', server: 116.163.10.104, port: 19712, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'github.com/freefq+-+斯洛伐克++2_20', server: 185.76.8.218, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 'github.com/freefq+-+新西兰CachedNet数据中心+3_21', server: 107.150.94.14, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 'github.com/freefq+-+挪威++8_22', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'github.com/freefq+-+英国++9_23', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_24', server: ru.gfwglass.tk, port: 443, type: vmess, uuid: 8414177f-abd4-4af4-8beb-af4235a09248, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: ru.gfwglass.tk}}
+  - {name: '@SSRSUB-V05-付费推荐:suo.yt/ssrsub_25', server: antigfwjp.tk, port: 443, type: vmess, uuid: fb294abd-d3cc-4504-8d40-866b7622ce59, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: antigfwjp.tk}}
+  - {name: '@SSRSUB-V14-付费推荐:suo.yt/ssrsub_26', server: ru.oracleusa.ml, port: 443, type: vmess, uuid: 916fa668-e02c-4d0f-9fd7-8c5f507a6eed, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ad72213/, ws-headers: {Host: ru.oracleusa.ml}}
+  - {name: '翻墙党fanqiangdang.com_27', server: antigfwjp.tk, port: 443, type: vmess, uuid: fb294abd-d3cc-4504-8d40-866b7622ce59, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514}
+  - {name: '翻墙党fanqiangdang.com_28', server: ru.gfwglass.tk, port: 443, type: vmess, uuid: 8414177f-abd4-4af4-8beb-af4235a09248, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514}
+  - {name: '翻墙党fanqiangdang.com_29', server: 139.59.254.17, port: 12081, type: vmess, uuid: 39f1943b-282e-44a4-9f56-5d59107d919e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'github.com/freefq+-+挪威++3_30', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'github.com/freefq - 美国CloudFlare公司CDN节点 5_31', server: 104.18.64.0, port: 443, type: vmess, uuid: 19379d2f-8c4f-4dff-8cff-cfdc586d49d3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /liuwei, ws-headers: {Host: uuuuss11.liuwei01.tk}}
+  - {name: 'github.com/freefq - 美国  9_32', server: 45.141.102.51, port: 35465, type: vmess, uuid: d7bbbcad-0653-42a1-b101-db44624707aa, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_33', server: ru.gfwglass.tk, port: 443, type: vmess, uuid: 8414177f-abd4-4af4-8beb-af4235a09248, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: ru.gfwglass.tk}}
+  - {name: '@SSRSUB-V05-付费推荐:suo.yt/ssrsub_34', server: antigfwjp.tk, port: 443, type: vmess, uuid: fb294abd-d3cc-4504-8d40-866b7622ce59, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: antigfwjp.tk}}
+  - {name: '@SSRSUB-V14-付费推荐:suo.yt/ssrsub_35', server: ru.oracleusa.ml, port: 443, type: vmess, uuid: 916fa668-e02c-4d0f-9fd7-8c5f507a6eed, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ad72213/, ws-headers: {Host: ru.oracleusa.ml}}
+  - {name: '翻墙党fanqiangdang.com_36', server: ru.oracleusa.ml, port: 443, type: vmess, uuid: 916fa668-e02c-4d0f-9fd7-8c5f507a6eed, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ad72213/}
+  - {name: '翻墙党fanqiangdang.com_37', server: 116.163.10.104, port: 19605, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '翻墙党fanqiangdang.com_38', server: 122.192.189.8, port: 19601, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '翻墙党fanqiangdang.com_39', server: 116.163.10.104, port: 19701, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '翻墙党fanqiangdang.com_40', server: 122.192.189.8, port: 19710, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '翻墙党fanqiangdang.com_41', server: 122.192.189.8, port: 19701, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '翻墙党fanqiangdang.com_42', server: 116.163.10.104, port: 19702, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '翻墙党fanqiangdang.com_43', server: 104.18.26.165, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: '翻墙党fanqiangdang.com_44', server: 104.251.233.106, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8638, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: en.tgchannels.org/channel/vpnpool}}
+  - {name: '翻墙党fanqiangdang.com_45', server: 104.18.27.64, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: '翻墙党fanqiangdang.com_46', server: 172.67.198.236, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: '翻墙党fanqiangdang.com_47', server: 143.198.237.214, port: 27489, type: vmess, uuid: d73f027b-9a37-4e79-dd29-3a0d1e1da128, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '翻墙党fanqiangdang.com_48', server: www.digitalocean.com, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: '翻墙党fanqiangdang.com_49', server: 162.159.153.13, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: '加拿大Youtube频道：工具大师！_50', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '欧洲Youtube频道：工具大师！_51', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_52', server: 185.76.9.56, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_53', server: 185.76.9.56, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'USYoutube频道：工具大师！_54', server: 138.199.42.134, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_55', server: 185.76.9.56, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: '美国Youtube频道：工具大师！_56', server: 138.199.42.170, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: '美国Youtube频道：工具大师！_57', server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray}
+  - {name: '美国Youtube频道：工具大师！_58', server: 156.146.33.74, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_59', server: 185.76.8.218, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: '土耳其+🇹🇷Youtube频道：工具大师！_60', server: 107.150.94.14, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_61', server: 185.76.8.218, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_62', server: 185.76.8.218, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: '法Youtube频道：工具大师！_63', server: 185.76.8.218, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: '德国+🇩🇪Youtube频道：工具大师！_64', server: 156.146.33.74, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_65', server: 185.76.9.56, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_66', server: 185.76.9.56, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: '德国+🇩🇪Youtube频道：工具大师！_67', server: 156.146.33.74, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '德国+🇩🇪Youtube频道：工具大师！_68', server: 156.146.33.74, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: '德国+🇩🇪Youtube频道：工具大师！_69', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_70', server: 185.76.9.56, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_71', server: 185.76.9.56, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '🇮🇹ITYoutube频道：工具大师！_72', server: 82.102.16.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: '美国Youtube频道：工具大师！_73', server: 138.199.42.170, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: '德国+🇩🇪Youtube频道：工具大师！_74', server: 156.146.33.74, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '德国+🇩🇪Youtube频道：工具大师！_75', server: 156.146.33.74, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_76', server: 185.76.9.56, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
+  - {name: '法Youtube频道：工具大师！_77', server: 185.76.9.56, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_78', server: 185.76.9.56, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: '法国Youtube频道：工具大师！_79', server: 185.76.9.56, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '🇮🇹ITYoutube频道：工具大师！_80', server: 82.102.16.102, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: '德国+🇩🇪Youtube频道：工具大师！_81', server: 156.146.33.74, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: '德国+🇩🇪Youtube频道：工具大师！_82', server: 156.146.33.74, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_83', server: 185.76.9.56, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_84', server: 185.76.9.56, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 'SEYoutube频道：工具大师！_85', server: 185.76.9.56, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: '德国+🇩🇪Youtube频道：工具大师！_86', server: 156.146.33.74, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 'SEYoutube频道：工具大师！_87', server: 185.76.9.56, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: 'Youtube频道：工具大师！_88', server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '挪威Youtube频道：工具大师！_89', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '挪威+🇳🇴Youtube频道：工具大师！_90', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'CAYoutube频道：工具大师！_91', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '挪威+🇳🇴Youtube频道：工具大师！_92', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '挪威Youtube频道：工具大师！_93', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '新西兰Youtube频道：工具大师！_94', server: 107.150.94.14, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: '德国+🇩🇪Youtube频道：工具大师！_95', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '挪威+🇳🇴Youtube频道：工具大师！_96', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '德国+🇩🇪Youtube频道：工具大师！_97', server: 156.146.33.74, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_98', server: 185.76.9.56, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_99', server: 185.76.8.218, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: '瑞典+🇸🇪Youtube频道：工具大师！_100', server: 185.76.8.218, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 'github.com/freefq+-+罗马尼亚++7_101', server: 89.46.223.239, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: 'github.com/freefq+-+罗马尼亚++8_102', server: 89.46.223.239, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 'github.com/freefq+-+斯洛伐克++10_103', server: 185.76.8.218, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'github.com/freefq+-+俄罗斯++11_104', server: t8.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c}
+  - {name: 'github.com/freefq+-+美国科罗拉多州Front+Range+Hosting公司+12_105', server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'github.com/freefq+-+北美地区++15_106', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'github.com/freefq+-+美国++16_107', server: 156.146.33.74, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 'github.com/freefq+-+斯洛伐克++17_108', server: 185.76.8.218, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 'github.com/freefq+-+新西兰CachedNet数据中心+18_109', server: 107.150.94.14, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 'github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+19_110', server: 185.76.9.56, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 'github.com/freefq+-+美国++21_111', server: 156.146.33.74, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
+  - {name: 'github.com/freefq - 美国CloudFlare公司CDN节点 22_112', server: usaarm2.oracleusa.ml, port: 443, type: vmess, uuid: 13e34585-8988-4808-9819-a9f6ed47e373, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /LXZKNTbTnI, ws-headers: {Host: usaarm2.oracleusa.ml}}
+  - {name: 'github.com/freefq - 美国CloudFlare公司CDN节点 23_113', server: 104.18.64.0, port: 443, type: vmess, uuid: 19379d2f-8c4f-4dff-8cff-cfdc586d49d3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /liuwei, ws-headers: {Host: uuuuss11.liuwei01.tk}}
+  - {name: 'github.com/freefq+-+挪威++24_114', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'github.com/freefq+-+新西兰CachedNet数据中心+25_115', server: 107.150.94.14, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 'github.com/freefq+-+欧洲++27_116', server: 138.199.42.134, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'github.com/freefq - 美国KINPONET洛杉矶GIA网络数据中心 28_117', server: 104.251.233.106, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8638, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: en.tgchannels.org/channel/vpnpool}}
+  - {name: 'github.com/freefq - 美国CloudFlare公司CDN节点 29_118', server: v1.babazhuji.com, port: 443, type: vmess, uuid: f819ddea-1ba3-49c6-9fd1-120e704f5243, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /baidu}
+  - {name: 'github.com/freefq+-+英国++32_119', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'github.com/freefq+-+俄罗斯克拉斯诺亚尔斯克G-Core+Lab+33_120', server: t1.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c}
+  - {name: 'github.com/freefq+-+俄罗斯新西伯利亚JustHost+34_121', server: t3.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c}
+  - {name: 'github.com/freefq+-+俄罗斯新西伯利亚州新西伯利亚+35_122', server: t5.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c}
+  - {name: 'github.com/freefq+-+欧洲++36_123', server: 138.199.42.170, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: 'github.com/freefq+-+挪威++37_124', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'github.com/freefq+-+加拿大安大略省基奇纳DataCity数据中心+39_125', server: t6.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c}
+  - {name: 'github.com/freefq+-+北美地区++40_126', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'github.com/freefq - 美国CloudFlare节点 42_127', server: v4.ssrsub.com, port: 443, type: vmess, uuid: a0daa9d9-6257-4ae9-9959-ccfb993f122c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: 'github.com/freefq - 美国CloudFlare公司CDN节点 43_128', server: v4.ssrsub.com, port: 443, type: vmess, uuid: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: 'github.com/freefq - 美国CloudFlare公司CDN节点 45_129', server: uuuuss22.liuwei01.tk, port: 443, type: vmess, uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /liuwei, ws-headers: {Host: uuuuss22.liuwei01.tk}}
+  - {name: 'github.com/freefq - 美国CloudFlare公司CDN节点 46_130', server: ru.gfwglass.tk, port: 443, type: vmess, uuid: 8414177f-abd4-4af4-8beb-af4235a09248, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514}
+  - {name: 'github.com/freefq+-+新加坡++48_131', server: 43.249.39.154, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: T3YS0aCp8C5jgA736D834yCDaROEOezAyDqISBl39KSepnuZYN2FRwxlxcXFZa}
+  - {name: 'github.com/freefq+-+美国LeaseWeb数据中心+49_132', server: 23.106.248.19, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: ZDYSyKNR8upjg9l36eR3ZySAaaEcOY2CaI0zp5xnX4733eSwqxCFlOTD8BCDFA}
+  - {name: 'github.com/freefq+-+新加坡LeaseWeb+IDC+50_133', server: 103.254.153.72, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: ZyYRnKlB8u5agc7IFAO3aC3D9XDNeEzS2wF6jpxOA4Z3SayYDCpCR8Tq0Sl3xe}
+  - {name: 'github.com/freefq+-+新加坡LeaseWebSIN11数据中心+51_134', server: 209.58.181.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3eC0KxS8ICjgp2N6OZ94x3DaXwyTRzaSqApFlF5cD3Y73luCYyn8eERDSAaOB}
+  - {name: 'github.com/freefq - 湖南省联通 52_135', server: 116.163.10.104, port: 19601, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '@SSRSUB-V09-付费推荐:suo.yt/ssrsub_136', server: uuuuss22.liuwei01.tk, port: 443, type: vmess, uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /liuwei, ws-headers: {Host: uuuuss22.liuwei01.tk}}
+  - {name: '@SSRSUB-V15-付费推荐:suo.yt/ssrsub_137', server: ru.gfwglass.tk, port: 443, type: vmess, uuid: 8414177f-abd4-4af4-8beb-af4235a09248, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: ru.gfwglass.tk}}
+  - {name: '@SSRSUB-V24-付费推荐:suo.yt/ssrsub_138', server: antigfwjp.tk, port: 443, type: vmess, uuid: fb294abd-d3cc-4504-8d40-866b7622ce59, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: antigfwjp.tk}}
+  - {name: '@SSRSUB-V28-付费推荐:suo.yt/ssrsub_139', server: ru.oracleusa.ml, port: 443, type: vmess, uuid: 916fa668-e02c-4d0f-9fd7-8c5f507a6eed, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ad72213/, ws-headers: {Host: ru.oracleusa.ml}}
+  - {name: '@SSRSUB-V29-付费推荐:suo.yt/ssrsub_140', server: usaarm2.oracleusa.ml, port: 443, type: vmess, uuid: 13e34585-8988-4808-9819-a9f6ed47e373, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /LXZKNTbTnI, ws-headers: {Host: usaarm2.oracleusa.ml}}
+  - {name: '@SSRSUB-俄罗斯V32-付费推荐::suo.yt/ssrsub_141', server: v4.ssrsub.com, port: 443, type: vmess, uuid: a0daa9d9-6257-4ae9-9959-ccfb993f122c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '@SSRSUB-俄罗斯V33-付费推荐::suo.yt/ssrsub_142', server: v4.ssrsub.com, port: 443, type: vmess, uuid: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '翻墙党fanqiangdang.com_143', server: antigfwjp.tk, port: 443, type: vmess, uuid: fb294abd-d3cc-4504-8d40-866b7622ce59, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514}
+  - {name: '翻墙党fanqiangdang.com_144', server: v4.ssrsub.com, port: 443, type: vmess, uuid: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '翻墙党fanqiangdang.com_145', server: v4.ssrsub.com, port: 443, type: vmess, uuid: a0daa9d9-6257-4ae9-9959-ccfb993f122c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
+      - github.com/freefq+-+新西兰CachedNet数据中心+4_1
+      - github.com/freefq+-+挪威++6_2
+      - github.com/freefq+-+英国++7_3
+      - github.com/freefq+-+英国++9_4
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_5
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_6
+      - 翻墙党fanqiangdang.com_7
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+3_8
+      - github.com/freefq+-+欧洲++6_9
+      - github.com/freefq+-+新西兰CachedNet数据中心+12_10
+      - github.com/freefq+-+新西兰CachedNet数据中心+17_11
+      - github.com/freefq+-+英国++22_12
+      - github.com/freefq+-+英国++23_13
+      - github.com/freefq - 美国CloudFlare节点 33_14
+      - github.com/freefq+-+挪威++35_15
+      - github.com/freefq+-+北美地区++36_16
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_17
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_18
+      - 翻墙党fanqiangdang.com_19
+      - github.com/freefq+-+斯洛伐克++2_20
+      - github.com/freefq+-+新西兰CachedNet数据中心+3_21
+      - github.com/freefq+-+挪威++8_22
+      - github.com/freefq+-+英国++9_23
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_24
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_25
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_26
+      - 翻墙党fanqiangdang.com_27
+      - 翻墙党fanqiangdang.com_28
+      - 翻墙党fanqiangdang.com_29
+      - github.com/freefq+-+挪威++3_30
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_31
+      - github.com/freefq - 美国  9_32
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_33
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_34
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_35
+      - 翻墙党fanqiangdang.com_36
+      - 翻墙党fanqiangdang.com_37
+      - 翻墙党fanqiangdang.com_38
+      - 翻墙党fanqiangdang.com_39
+      - 翻墙党fanqiangdang.com_40
+      - 翻墙党fanqiangdang.com_41
+      - 翻墙党fanqiangdang.com_42
+      - 翻墙党fanqiangdang.com_43
+      - 翻墙党fanqiangdang.com_44
+      - 翻墙党fanqiangdang.com_45
+      - 翻墙党fanqiangdang.com_46
+      - 翻墙党fanqiangdang.com_47
+      - 翻墙党fanqiangdang.com_48
+      - 翻墙党fanqiangdang.com_49
+      - 加拿大Youtube频道：工具大师！_50
+      - 欧洲Youtube频道：工具大师！_51
+      - 瑞典+🇸🇪Youtube频道：工具大师！_52
+      - 瑞典+🇸🇪Youtube频道：工具大师！_53
+      - USYoutube频道：工具大师！_54
+      - 瑞典+🇸🇪Youtube频道：工具大师！_55
+      - 美国Youtube频道：工具大师！_56
+      - 美国Youtube频道：工具大师！_57
+      - 美国Youtube频道：工具大师！_58
+      - 瑞典+🇸🇪Youtube频道：工具大师！_59
+      - 土耳其+🇹🇷Youtube频道：工具大师！_60
+      - 瑞典+🇸🇪Youtube频道：工具大师！_61
+      - 瑞典+🇸🇪Youtube频道：工具大师！_62
+      - 法Youtube频道：工具大师！_63
+      - 德国+🇩🇪Youtube频道：工具大师！_64
+      - 瑞典+🇸🇪Youtube频道：工具大师！_65
+      - 瑞典+🇸🇪Youtube频道：工具大师！_66
+      - 德国+🇩🇪Youtube频道：工具大师！_67
+      - 德国+🇩🇪Youtube频道：工具大师！_68
+      - 德国+🇩🇪Youtube频道：工具大师！_69
+      - 瑞典+🇸🇪Youtube频道：工具大师！_70
+      - 瑞典+🇸🇪Youtube频道：工具大师！_71
+      - 🇮🇹ITYoutube频道：工具大师！_72
+      - 美国Youtube频道：工具大师！_73
+      - 德国+🇩🇪Youtube频道：工具大师！_74
+      - 德国+🇩🇪Youtube频道：工具大师！_75
+      - 瑞典+🇸🇪Youtube频道：工具大师！_76
+      - 法Youtube频道：工具大师！_77
+      - 瑞典+🇸🇪Youtube频道：工具大师！_78
+      - 法国Youtube频道：工具大师！_79
+      - 🇮🇹ITYoutube频道：工具大师！_80
+      - 德国+🇩🇪Youtube频道：工具大师！_81
+      - 德国+🇩🇪Youtube频道：工具大师！_82
+      - 瑞典+🇸🇪Youtube频道：工具大师！_83
+      - 瑞典+🇸🇪Youtube频道：工具大师！_84
+      - SEYoutube频道：工具大师！_85
+      - 德国+🇩🇪Youtube频道：工具大师！_86
+      - SEYoutube频道：工具大师！_87
+      - Youtube频道：工具大师！_88
+      - 挪威Youtube频道：工具大师！_89
+      - 挪威+🇳🇴Youtube频道：工具大师！_90
+      - CAYoutube频道：工具大师！_91
+      - 挪威+🇳🇴Youtube频道：工具大师！_92
+      - 挪威Youtube频道：工具大师！_93
+      - 新西兰Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 挪威+🇳🇴Youtube频道：工具大师！_96
+      - 德国+🇩🇪Youtube频道：工具大师！_97
+      - 瑞典+🇸🇪Youtube频道：工具大师！_98
+      - 瑞典+🇸🇪Youtube频道：工具大师！_99
+      - 瑞典+🇸🇪Youtube频道：工具大师！_100
+      - github.com/freefq+-+罗马尼亚++7_101
+      - github.com/freefq+-+罗马尼亚++8_102
+      - github.com/freefq+-+斯洛伐克++10_103
+      - github.com/freefq+-+俄罗斯++11_104
+      - github.com/freefq+-+美国科罗拉多州Front+Range+Hosting公司+12_105
+      - github.com/freefq+-+北美地区++15_106
+      - github.com/freefq+-+美国++16_107
+      - github.com/freefq+-+斯洛伐克++17_108
+      - github.com/freefq+-+新西兰CachedNet数据中心+18_109
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+19_110
+      - github.com/freefq+-+美国++21_111
+      - github.com/freefq - 美国CloudFlare公司CDN节点 22_112
+      - github.com/freefq - 美国CloudFlare公司CDN节点 23_113
+      - github.com/freefq+-+挪威++24_114
+      - github.com/freefq+-+新西兰CachedNet数据中心+25_115
+      - github.com/freefq+-+欧洲++27_116
+      - github.com/freefq - 美国KINPONET洛杉矶GIA网络数据中心 28_117
+      - github.com/freefq - 美国CloudFlare公司CDN节点 29_118
+      - github.com/freefq+-+英国++32_119
+      - github.com/freefq+-+俄罗斯克拉斯诺亚尔斯克G-Core+Lab+33_120
+      - github.com/freefq+-+俄罗斯新西伯利亚JustHost+34_121
+      - github.com/freefq+-+俄罗斯新西伯利亚州新西伯利亚+35_122
+      - github.com/freefq+-+欧洲++36_123
+      - github.com/freefq+-+挪威++37_124
+      - github.com/freefq+-+加拿大安大略省基奇纳DataCity数据中心+39_125
+      - github.com/freefq+-+北美地区++40_126
+      - github.com/freefq - 美国CloudFlare节点 42_127
+      - github.com/freefq - 美国CloudFlare公司CDN节点 43_128
+      - github.com/freefq - 美国CloudFlare公司CDN节点 45_129
+      - github.com/freefq - 美国CloudFlare公司CDN节点 46_130
+      - github.com/freefq+-+新加坡++48_131
+      - github.com/freefq+-+美国LeaseWeb数据中心+49_132
+      - github.com/freefq+-+新加坡LeaseWeb+IDC+50_133
+      - github.com/freefq+-+新加坡LeaseWebSIN11数据中心+51_134
+      - github.com/freefq - 湖南省联通 52_135
+      - @SSRSUB-V09-付费推荐:suo.yt/ssrsub_136
+      - @SSRSUB-V15-付费推荐:suo.yt/ssrsub_137
+      - @SSRSUB-V24-付费推荐:suo.yt/ssrsub_138
+      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_139
+      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_140
+      - @SSRSUB-俄罗斯V32-付费推荐::suo.yt/ssrsub_141
+      - @SSRSUB-俄罗斯V33-付费推荐::suo.yt/ssrsub_142
+      - 翻墙党fanqiangdang.com_143
+      - 翻墙党fanqiangdang.com_144
+      - 翻墙党fanqiangdang.com_145
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇦_CA_加拿大_1
+      - github.com/freefq+-+新西兰CachedNet数据中心+4_1
+      - github.com/freefq+-+挪威++6_2
+      - github.com/freefq+-+英国++7_3
+      - github.com/freefq+-+英国++9_4
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_5
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_6
+      - 翻墙党fanqiangdang.com_7
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+3_8
+      - github.com/freefq+-+欧洲++6_9
+      - github.com/freefq+-+新西兰CachedNet数据中心+12_10
+      - github.com/freefq+-+新西兰CachedNet数据中心+17_11
+      - github.com/freefq+-+英国++22_12
+      - github.com/freefq+-+英国++23_13
+      - github.com/freefq - 美国CloudFlare节点 33_14
+      - github.com/freefq+-+挪威++35_15
+      - github.com/freefq+-+北美地区++36_16
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_17
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_18
+      - 翻墙党fanqiangdang.com_19
+      - github.com/freefq+-+斯洛伐克++2_20
+      - github.com/freefq+-+新西兰CachedNet数据中心+3_21
+      - github.com/freefq+-+挪威++8_22
+      - github.com/freefq+-+英国++9_23
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_24
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_25
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_26
+      - 翻墙党fanqiangdang.com_27
+      - 翻墙党fanqiangdang.com_28
+      - 翻墙党fanqiangdang.com_29
+      - github.com/freefq+-+挪威++3_30
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_31
+      - github.com/freefq - 美国  9_32
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_33
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_34
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_35
+      - 翻墙党fanqiangdang.com_36
+      - 翻墙党fanqiangdang.com_37
+      - 翻墙党fanqiangdang.com_38
+      - 翻墙党fanqiangdang.com_39
+      - 翻墙党fanqiangdang.com_40
+      - 翻墙党fanqiangdang.com_41
+      - 翻墙党fanqiangdang.com_42
+      - 翻墙党fanqiangdang.com_43
+      - 翻墙党fanqiangdang.com_44
+      - 翻墙党fanqiangdang.com_45
+      - 翻墙党fanqiangdang.com_46
+      - 翻墙党fanqiangdang.com_47
+      - 翻墙党fanqiangdang.com_48
+      - 翻墙党fanqiangdang.com_49
+      - 加拿大Youtube频道：工具大师！_50
+      - 欧洲Youtube频道：工具大师！_51
+      - 瑞典+🇸🇪Youtube频道：工具大师！_52
+      - 瑞典+🇸🇪Youtube频道：工具大师！_53
+      - USYoutube频道：工具大师！_54
+      - 瑞典+🇸🇪Youtube频道：工具大师！_55
+      - 美国Youtube频道：工具大师！_56
+      - 美国Youtube频道：工具大师！_57
+      - 美国Youtube频道：工具大师！_58
+      - 瑞典+🇸🇪Youtube频道：工具大师！_59
+      - 土耳其+🇹🇷Youtube频道：工具大师！_60
+      - 瑞典+🇸🇪Youtube频道：工具大师！_61
+      - 瑞典+🇸🇪Youtube频道：工具大师！_62
+      - 法Youtube频道：工具大师！_63
+      - 德国+🇩🇪Youtube频道：工具大师！_64
+      - 瑞典+🇸🇪Youtube频道：工具大师！_65
+      - 瑞典+🇸🇪Youtube频道：工具大师！_66
+      - 德国+🇩🇪Youtube频道：工具大师！_67
+      - 德国+🇩🇪Youtube频道：工具大师！_68
+      - 德国+🇩🇪Youtube频道：工具大师！_69
+      - 瑞典+🇸🇪Youtube频道：工具大师！_70
+      - 瑞典+🇸🇪Youtube频道：工具大师！_71
+      - 🇮🇹ITYoutube频道：工具大师！_72
+      - 美国Youtube频道：工具大师！_73
+      - 德国+🇩🇪Youtube频道：工具大师！_74
+      - 德国+🇩🇪Youtube频道：工具大师！_75
+      - 瑞典+🇸🇪Youtube频道：工具大师！_76
+      - 法Youtube频道：工具大师！_77
+      - 瑞典+🇸🇪Youtube频道：工具大师！_78
+      - 法国Youtube频道：工具大师！_79
+      - 🇮🇹ITYoutube频道：工具大师！_80
+      - 德国+🇩🇪Youtube频道：工具大师！_81
+      - 德国+🇩🇪Youtube频道：工具大师！_82
+      - 瑞典+🇸🇪Youtube频道：工具大师！_83
+      - 瑞典+🇸🇪Youtube频道：工具大师！_84
+      - SEYoutube频道：工具大师！_85
+      - 德国+🇩🇪Youtube频道：工具大师！_86
+      - SEYoutube频道：工具大师！_87
+      - Youtube频道：工具大师！_88
+      - 挪威Youtube频道：工具大师！_89
+      - 挪威+🇳🇴Youtube频道：工具大师！_90
+      - CAYoutube频道：工具大师！_91
+      - 挪威+🇳🇴Youtube频道：工具大师！_92
+      - 挪威Youtube频道：工具大师！_93
+      - 新西兰Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 挪威+🇳🇴Youtube频道：工具大师！_96
+      - 德国+🇩🇪Youtube频道：工具大师！_97
+      - 瑞典+🇸🇪Youtube频道：工具大师！_98
+      - 瑞典+🇸🇪Youtube频道：工具大师！_99
+      - 瑞典+🇸🇪Youtube频道：工具大师！_100
+      - github.com/freefq+-+罗马尼亚++7_101
+      - github.com/freefq+-+罗马尼亚++8_102
+      - github.com/freefq+-+斯洛伐克++10_103
+      - github.com/freefq+-+俄罗斯++11_104
+      - github.com/freefq+-+美国科罗拉多州Front+Range+Hosting公司+12_105
+      - github.com/freefq+-+北美地区++15_106
+      - github.com/freefq+-+美国++16_107
+      - github.com/freefq+-+斯洛伐克++17_108
+      - github.com/freefq+-+新西兰CachedNet数据中心+18_109
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+19_110
+      - github.com/freefq+-+美国++21_111
+      - github.com/freefq - 美国CloudFlare公司CDN节点 22_112
+      - github.com/freefq - 美国CloudFlare公司CDN节点 23_113
+      - github.com/freefq+-+挪威++24_114
+      - github.com/freefq+-+新西兰CachedNet数据中心+25_115
+      - github.com/freefq+-+欧洲++27_116
+      - github.com/freefq - 美国KINPONET洛杉矶GIA网络数据中心 28_117
+      - github.com/freefq - 美国CloudFlare公司CDN节点 29_118
+      - github.com/freefq+-+英国++32_119
+      - github.com/freefq+-+俄罗斯克拉斯诺亚尔斯克G-Core+Lab+33_120
+      - github.com/freefq+-+俄罗斯新西伯利亚JustHost+34_121
+      - github.com/freefq+-+俄罗斯新西伯利亚州新西伯利亚+35_122
+      - github.com/freefq+-+欧洲++36_123
+      - github.com/freefq+-+挪威++37_124
+      - github.com/freefq+-+加拿大安大略省基奇纳DataCity数据中心+39_125
+      - github.com/freefq+-+北美地区++40_126
+      - github.com/freefq - 美国CloudFlare节点 42_127
+      - github.com/freefq - 美国CloudFlare公司CDN节点 43_128
+      - github.com/freefq - 美国CloudFlare公司CDN节点 45_129
+      - github.com/freefq - 美国CloudFlare公司CDN节点 46_130
+      - github.com/freefq+-+新加坡++48_131
+      - github.com/freefq+-+美国LeaseWeb数据中心+49_132
+      - github.com/freefq+-+新加坡LeaseWeb+IDC+50_133
+      - github.com/freefq+-+新加坡LeaseWebSIN11数据中心+51_134
+      - github.com/freefq - 湖南省联通 52_135
+      - @SSRSUB-V09-付费推荐:suo.yt/ssrsub_136
+      - @SSRSUB-V15-付费推荐:suo.yt/ssrsub_137
+      - @SSRSUB-V24-付费推荐:suo.yt/ssrsub_138
+      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_139
+      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_140
+      - @SSRSUB-俄罗斯V32-付费推荐::suo.yt/ssrsub_141
+      - @SSRSUB-俄罗斯V33-付费推荐::suo.yt/ssrsub_142
+      - 翻墙党fanqiangdang.com_143
+      - 翻墙党fanqiangdang.com_144
+      - 翻墙党fanqiangdang.com_145
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
+      - github.com/freefq+-+新西兰CachedNet数据中心+4_1
+      - github.com/freefq+-+挪威++6_2
+      - github.com/freefq+-+英国++7_3
+      - github.com/freefq+-+英国++9_4
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_5
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_6
+      - 翻墙党fanqiangdang.com_7
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+3_8
+      - github.com/freefq+-+欧洲++6_9
+      - github.com/freefq+-+新西兰CachedNet数据中心+12_10
+      - github.com/freefq+-+新西兰CachedNet数据中心+17_11
+      - github.com/freefq+-+英国++22_12
+      - github.com/freefq+-+英国++23_13
+      - github.com/freefq - 美国CloudFlare节点 33_14
+      - github.com/freefq+-+挪威++35_15
+      - github.com/freefq+-+北美地区++36_16
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_17
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_18
+      - 翻墙党fanqiangdang.com_19
+      - github.com/freefq+-+斯洛伐克++2_20
+      - github.com/freefq+-+新西兰CachedNet数据中心+3_21
+      - github.com/freefq+-+挪威++8_22
+      - github.com/freefq+-+英国++9_23
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_24
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_25
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_26
+      - 翻墙党fanqiangdang.com_27
+      - 翻墙党fanqiangdang.com_28
+      - 翻墙党fanqiangdang.com_29
+      - github.com/freefq+-+挪威++3_30
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_31
+      - github.com/freefq - 美国  9_32
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_33
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_34
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_35
+      - 翻墙党fanqiangdang.com_36
+      - 翻墙党fanqiangdang.com_37
+      - 翻墙党fanqiangdang.com_38
+      - 翻墙党fanqiangdang.com_39
+      - 翻墙党fanqiangdang.com_40
+      - 翻墙党fanqiangdang.com_41
+      - 翻墙党fanqiangdang.com_42
+      - 翻墙党fanqiangdang.com_43
+      - 翻墙党fanqiangdang.com_44
+      - 翻墙党fanqiangdang.com_45
+      - 翻墙党fanqiangdang.com_46
+      - 翻墙党fanqiangdang.com_47
+      - 翻墙党fanqiangdang.com_48
+      - 翻墙党fanqiangdang.com_49
+      - 加拿大Youtube频道：工具大师！_50
+      - 欧洲Youtube频道：工具大师！_51
+      - 瑞典+🇸🇪Youtube频道：工具大师！_52
+      - 瑞典+🇸🇪Youtube频道：工具大师！_53
+      - USYoutube频道：工具大师！_54
+      - 瑞典+🇸🇪Youtube频道：工具大师！_55
+      - 美国Youtube频道：工具大师！_56
+      - 美国Youtube频道：工具大师！_57
+      - 美国Youtube频道：工具大师！_58
+      - 瑞典+🇸🇪Youtube频道：工具大师！_59
+      - 土耳其+🇹🇷Youtube频道：工具大师！_60
+      - 瑞典+🇸🇪Youtube频道：工具大师！_61
+      - 瑞典+🇸🇪Youtube频道：工具大师！_62
+      - 法Youtube频道：工具大师！_63
+      - 德国+🇩🇪Youtube频道：工具大师！_64
+      - 瑞典+🇸🇪Youtube频道：工具大师！_65
+      - 瑞典+🇸🇪Youtube频道：工具大师！_66
+      - 德国+🇩🇪Youtube频道：工具大师！_67
+      - 德国+🇩🇪Youtube频道：工具大师！_68
+      - 德国+🇩🇪Youtube频道：工具大师！_69
+      - 瑞典+🇸🇪Youtube频道：工具大师！_70
+      - 瑞典+🇸🇪Youtube频道：工具大师！_71
+      - 🇮🇹ITYoutube频道：工具大师！_72
+      - 美国Youtube频道：工具大师！_73
+      - 德国+🇩🇪Youtube频道：工具大师！_74
+      - 德国+🇩🇪Youtube频道：工具大师！_75
+      - 瑞典+🇸🇪Youtube频道：工具大师！_76
+      - 法Youtube频道：工具大师！_77
+      - 瑞典+🇸🇪Youtube频道：工具大师！_78
+      - 法国Youtube频道：工具大师！_79
+      - 🇮🇹ITYoutube频道：工具大师！_80
+      - 德国+🇩🇪Youtube频道：工具大师！_81
+      - 德国+🇩🇪Youtube频道：工具大师！_82
+      - 瑞典+🇸🇪Youtube频道：工具大师！_83
+      - 瑞典+🇸🇪Youtube频道：工具大师！_84
+      - SEYoutube频道：工具大师！_85
+      - 德国+🇩🇪Youtube频道：工具大师！_86
+      - SEYoutube频道：工具大师！_87
+      - Youtube频道：工具大师！_88
+      - 挪威Youtube频道：工具大师！_89
+      - 挪威+🇳🇴Youtube频道：工具大师！_90
+      - CAYoutube频道：工具大师！_91
+      - 挪威+🇳🇴Youtube频道：工具大师！_92
+      - 挪威Youtube频道：工具大师！_93
+      - 新西兰Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 挪威+🇳🇴Youtube频道：工具大师！_96
+      - 德国+🇩🇪Youtube频道：工具大师！_97
+      - 瑞典+🇸🇪Youtube频道：工具大师！_98
+      - 瑞典+🇸🇪Youtube频道：工具大师！_99
+      - 瑞典+🇸🇪Youtube频道：工具大师！_100
+      - github.com/freefq+-+罗马尼亚++7_101
+      - github.com/freefq+-+罗马尼亚++8_102
+      - github.com/freefq+-+斯洛伐克++10_103
+      - github.com/freefq+-+俄罗斯++11_104
+      - github.com/freefq+-+美国科罗拉多州Front+Range+Hosting公司+12_105
+      - github.com/freefq+-+北美地区++15_106
+      - github.com/freefq+-+美国++16_107
+      - github.com/freefq+-+斯洛伐克++17_108
+      - github.com/freefq+-+新西兰CachedNet数据中心+18_109
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+19_110
+      - github.com/freefq+-+美国++21_111
+      - github.com/freefq - 美国CloudFlare公司CDN节点 22_112
+      - github.com/freefq - 美国CloudFlare公司CDN节点 23_113
+      - github.com/freefq+-+挪威++24_114
+      - github.com/freefq+-+新西兰CachedNet数据中心+25_115
+      - github.com/freefq+-+欧洲++27_116
+      - github.com/freefq - 美国KINPONET洛杉矶GIA网络数据中心 28_117
+      - github.com/freefq - 美国CloudFlare公司CDN节点 29_118
+      - github.com/freefq+-+英国++32_119
+      - github.com/freefq+-+俄罗斯克拉斯诺亚尔斯克G-Core+Lab+33_120
+      - github.com/freefq+-+俄罗斯新西伯利亚JustHost+34_121
+      - github.com/freefq+-+俄罗斯新西伯利亚州新西伯利亚+35_122
+      - github.com/freefq+-+欧洲++36_123
+      - github.com/freefq+-+挪威++37_124
+      - github.com/freefq+-+加拿大安大略省基奇纳DataCity数据中心+39_125
+      - github.com/freefq+-+北美地区++40_126
+      - github.com/freefq - 美国CloudFlare节点 42_127
+      - github.com/freefq - 美国CloudFlare公司CDN节点 43_128
+      - github.com/freefq - 美国CloudFlare公司CDN节点 45_129
+      - github.com/freefq - 美国CloudFlare公司CDN节点 46_130
+      - github.com/freefq+-+新加坡++48_131
+      - github.com/freefq+-+美国LeaseWeb数据中心+49_132
+      - github.com/freefq+-+新加坡LeaseWeb+IDC+50_133
+      - github.com/freefq+-+新加坡LeaseWebSIN11数据中心+51_134
+      - github.com/freefq - 湖南省联通 52_135
+      - @SSRSUB-V09-付费推荐:suo.yt/ssrsub_136
+      - @SSRSUB-V15-付费推荐:suo.yt/ssrsub_137
+      - @SSRSUB-V24-付费推荐:suo.yt/ssrsub_138
+      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_139
+      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_140
+      - @SSRSUB-俄罗斯V32-付费推荐::suo.yt/ssrsub_141
+      - @SSRSUB-俄罗斯V33-付费推荐::suo.yt/ssrsub_142
+      - 翻墙党fanqiangdang.com_143
+      - 翻墙党fanqiangdang.com_144
+      - 翻墙党fanqiangdang.com_145
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇦_CA_加拿大_1
+      - github.com/freefq+-+新西兰CachedNet数据中心+4_1
+      - github.com/freefq+-+挪威++6_2
+      - github.com/freefq+-+英国++7_3
+      - github.com/freefq+-+英国++9_4
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_5
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_6
+      - 翻墙党fanqiangdang.com_7
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+3_8
+      - github.com/freefq+-+欧洲++6_9
+      - github.com/freefq+-+新西兰CachedNet数据中心+12_10
+      - github.com/freefq+-+新西兰CachedNet数据中心+17_11
+      - github.com/freefq+-+英国++22_12
+      - github.com/freefq+-+英国++23_13
+      - github.com/freefq - 美国CloudFlare节点 33_14
+      - github.com/freefq+-+挪威++35_15
+      - github.com/freefq+-+北美地区++36_16
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_17
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_18
+      - 翻墙党fanqiangdang.com_19
+      - github.com/freefq+-+斯洛伐克++2_20
+      - github.com/freefq+-+新西兰CachedNet数据中心+3_21
+      - github.com/freefq+-+挪威++8_22
+      - github.com/freefq+-+英国++9_23
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_24
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_25
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_26
+      - 翻墙党fanqiangdang.com_27
+      - 翻墙党fanqiangdang.com_28
+      - 翻墙党fanqiangdang.com_29
+      - github.com/freefq+-+挪威++3_30
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_31
+      - github.com/freefq - 美国  9_32
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_33
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_34
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_35
+      - 翻墙党fanqiangdang.com_36
+      - 翻墙党fanqiangdang.com_37
+      - 翻墙党fanqiangdang.com_38
+      - 翻墙党fanqiangdang.com_39
+      - 翻墙党fanqiangdang.com_40
+      - 翻墙党fanqiangdang.com_41
+      - 翻墙党fanqiangdang.com_42
+      - 翻墙党fanqiangdang.com_43
+      - 翻墙党fanqiangdang.com_44
+      - 翻墙党fanqiangdang.com_45
+      - 翻墙党fanqiangdang.com_46
+      - 翻墙党fanqiangdang.com_47
+      - 翻墙党fanqiangdang.com_48
+      - 翻墙党fanqiangdang.com_49
+      - 加拿大Youtube频道：工具大师！_50
+      - 欧洲Youtube频道：工具大师！_51
+      - 瑞典+🇸🇪Youtube频道：工具大师！_52
+      - 瑞典+🇸🇪Youtube频道：工具大师！_53
+      - USYoutube频道：工具大师！_54
+      - 瑞典+🇸🇪Youtube频道：工具大师！_55
+      - 美国Youtube频道：工具大师！_56
+      - 美国Youtube频道：工具大师！_57
+      - 美国Youtube频道：工具大师！_58
+      - 瑞典+🇸🇪Youtube频道：工具大师！_59
+      - 土耳其+🇹🇷Youtube频道：工具大师！_60
+      - 瑞典+🇸🇪Youtube频道：工具大师！_61
+      - 瑞典+🇸🇪Youtube频道：工具大师！_62
+      - 法Youtube频道：工具大师！_63
+      - 德国+🇩🇪Youtube频道：工具大师！_64
+      - 瑞典+🇸🇪Youtube频道：工具大师！_65
+      - 瑞典+🇸🇪Youtube频道：工具大师！_66
+      - 德国+🇩🇪Youtube频道：工具大师！_67
+      - 德国+🇩🇪Youtube频道：工具大师！_68
+      - 德国+🇩🇪Youtube频道：工具大师！_69
+      - 瑞典+🇸🇪Youtube频道：工具大师！_70
+      - 瑞典+🇸🇪Youtube频道：工具大师！_71
+      - 🇮🇹ITYoutube频道：工具大师！_72
+      - 美国Youtube频道：工具大师！_73
+      - 德国+🇩🇪Youtube频道：工具大师！_74
+      - 德国+🇩🇪Youtube频道：工具大师！_75
+      - 瑞典+🇸🇪Youtube频道：工具大师！_76
+      - 法Youtube频道：工具大师！_77
+      - 瑞典+🇸🇪Youtube频道：工具大师！_78
+      - 法国Youtube频道：工具大师！_79
+      - 🇮🇹ITYoutube频道：工具大师！_80
+      - 德国+🇩🇪Youtube频道：工具大师！_81
+      - 德国+🇩🇪Youtube频道：工具大师！_82
+      - 瑞典+🇸🇪Youtube频道：工具大师！_83
+      - 瑞典+🇸🇪Youtube频道：工具大师！_84
+      - SEYoutube频道：工具大师！_85
+      - 德国+🇩🇪Youtube频道：工具大师！_86
+      - SEYoutube频道：工具大师！_87
+      - Youtube频道：工具大师！_88
+      - 挪威Youtube频道：工具大师！_89
+      - 挪威+🇳🇴Youtube频道：工具大师！_90
+      - CAYoutube频道：工具大师！_91
+      - 挪威+🇳🇴Youtube频道：工具大师！_92
+      - 挪威Youtube频道：工具大师！_93
+      - 新西兰Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 挪威+🇳🇴Youtube频道：工具大师！_96
+      - 德国+🇩🇪Youtube频道：工具大师！_97
+      - 瑞典+🇸🇪Youtube频道：工具大师！_98
+      - 瑞典+🇸🇪Youtube频道：工具大师！_99
+      - 瑞典+🇸🇪Youtube频道：工具大师！_100
+      - github.com/freefq+-+罗马尼亚++7_101
+      - github.com/freefq+-+罗马尼亚++8_102
+      - github.com/freefq+-+斯洛伐克++10_103
+      - github.com/freefq+-+俄罗斯++11_104
+      - github.com/freefq+-+美国科罗拉多州Front+Range+Hosting公司+12_105
+      - github.com/freefq+-+北美地区++15_106
+      - github.com/freefq+-+美国++16_107
+      - github.com/freefq+-+斯洛伐克++17_108
+      - github.com/freefq+-+新西兰CachedNet数据中心+18_109
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+19_110
+      - github.com/freefq+-+美国++21_111
+      - github.com/freefq - 美国CloudFlare公司CDN节点 22_112
+      - github.com/freefq - 美国CloudFlare公司CDN节点 23_113
+      - github.com/freefq+-+挪威++24_114
+      - github.com/freefq+-+新西兰CachedNet数据中心+25_115
+      - github.com/freefq+-+欧洲++27_116
+      - github.com/freefq - 美国KINPONET洛杉矶GIA网络数据中心 28_117
+      - github.com/freefq - 美国CloudFlare公司CDN节点 29_118
+      - github.com/freefq+-+英国++32_119
+      - github.com/freefq+-+俄罗斯克拉斯诺亚尔斯克G-Core+Lab+33_120
+      - github.com/freefq+-+俄罗斯新西伯利亚JustHost+34_121
+      - github.com/freefq+-+俄罗斯新西伯利亚州新西伯利亚+35_122
+      - github.com/freefq+-+欧洲++36_123
+      - github.com/freefq+-+挪威++37_124
+      - github.com/freefq+-+加拿大安大略省基奇纳DataCity数据中心+39_125
+      - github.com/freefq+-+北美地区++40_126
+      - github.com/freefq - 美国CloudFlare节点 42_127
+      - github.com/freefq - 美国CloudFlare公司CDN节点 43_128
+      - github.com/freefq - 美国CloudFlare公司CDN节点 45_129
+      - github.com/freefq - 美国CloudFlare公司CDN节点 46_130
+      - github.com/freefq+-+新加坡++48_131
+      - github.com/freefq+-+美国LeaseWeb数据中心+49_132
+      - github.com/freefq+-+新加坡LeaseWeb+IDC+50_133
+      - github.com/freefq+-+新加坡LeaseWebSIN11数据中心+51_134
+      - github.com/freefq - 湖南省联通 52_135
+      - @SSRSUB-V09-付费推荐:suo.yt/ssrsub_136
+      - @SSRSUB-V15-付费推荐:suo.yt/ssrsub_137
+      - @SSRSUB-V24-付费推荐:suo.yt/ssrsub_138
+      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_139
+      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_140
+      - @SSRSUB-俄罗斯V32-付费推荐::suo.yt/ssrsub_141
+      - @SSRSUB-俄罗斯V33-付费推荐::suo.yt/ssrsub_142
+      - 翻墙党fanqiangdang.com_143
+      - 翻墙党fanqiangdang.com_144
+      - 翻墙党fanqiangdang.com_145
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇦_CA_加拿大_1
+      - github.com/freefq+-+新西兰CachedNet数据中心+4_1
+      - github.com/freefq+-+挪威++6_2
+      - github.com/freefq+-+英国++7_3
+      - github.com/freefq+-+英国++9_4
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_5
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_6
+      - 翻墙党fanqiangdang.com_7
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+3_8
+      - github.com/freefq+-+欧洲++6_9
+      - github.com/freefq+-+新西兰CachedNet数据中心+12_10
+      - github.com/freefq+-+新西兰CachedNet数据中心+17_11
+      - github.com/freefq+-+英国++22_12
+      - github.com/freefq+-+英国++23_13
+      - github.com/freefq - 美国CloudFlare节点 33_14
+      - github.com/freefq+-+挪威++35_15
+      - github.com/freefq+-+北美地区++36_16
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_17
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_18
+      - 翻墙党fanqiangdang.com_19
+      - github.com/freefq+-+斯洛伐克++2_20
+      - github.com/freefq+-+新西兰CachedNet数据中心+3_21
+      - github.com/freefq+-+挪威++8_22
+      - github.com/freefq+-+英国++9_23
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_24
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_25
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_26
+      - 翻墙党fanqiangdang.com_27
+      - 翻墙党fanqiangdang.com_28
+      - 翻墙党fanqiangdang.com_29
+      - github.com/freefq+-+挪威++3_30
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_31
+      - github.com/freefq - 美国  9_32
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_33
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_34
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_35
+      - 翻墙党fanqiangdang.com_36
+      - 翻墙党fanqiangdang.com_37
+      - 翻墙党fanqiangdang.com_38
+      - 翻墙党fanqiangdang.com_39
+      - 翻墙党fanqiangdang.com_40
+      - 翻墙党fanqiangdang.com_41
+      - 翻墙党fanqiangdang.com_42
+      - 翻墙党fanqiangdang.com_43
+      - 翻墙党fanqiangdang.com_44
+      - 翻墙党fanqiangdang.com_45
+      - 翻墙党fanqiangdang.com_46
+      - 翻墙党fanqiangdang.com_47
+      - 翻墙党fanqiangdang.com_48
+      - 翻墙党fanqiangdang.com_49
+      - 加拿大Youtube频道：工具大师！_50
+      - 欧洲Youtube频道：工具大师！_51
+      - 瑞典+🇸🇪Youtube频道：工具大师！_52
+      - 瑞典+🇸🇪Youtube频道：工具大师！_53
+      - USYoutube频道：工具大师！_54
+      - 瑞典+🇸🇪Youtube频道：工具大师！_55
+      - 美国Youtube频道：工具大师！_56
+      - 美国Youtube频道：工具大师！_57
+      - 美国Youtube频道：工具大师！_58
+      - 瑞典+🇸🇪Youtube频道：工具大师！_59
+      - 土耳其+🇹🇷Youtube频道：工具大师！_60
+      - 瑞典+🇸🇪Youtube频道：工具大师！_61
+      - 瑞典+🇸🇪Youtube频道：工具大师！_62
+      - 法Youtube频道：工具大师！_63
+      - 德国+🇩🇪Youtube频道：工具大师！_64
+      - 瑞典+🇸🇪Youtube频道：工具大师！_65
+      - 瑞典+🇸🇪Youtube频道：工具大师！_66
+      - 德国+🇩🇪Youtube频道：工具大师！_67
+      - 德国+🇩🇪Youtube频道：工具大师！_68
+      - 德国+🇩🇪Youtube频道：工具大师！_69
+      - 瑞典+🇸🇪Youtube频道：工具大师！_70
+      - 瑞典+🇸🇪Youtube频道：工具大师！_71
+      - 🇮🇹ITYoutube频道：工具大师！_72
+      - 美国Youtube频道：工具大师！_73
+      - 德国+🇩🇪Youtube频道：工具大师！_74
+      - 德国+🇩🇪Youtube频道：工具大师！_75
+      - 瑞典+🇸🇪Youtube频道：工具大师！_76
+      - 法Youtube频道：工具大师！_77
+      - 瑞典+🇸🇪Youtube频道：工具大师！_78
+      - 法国Youtube频道：工具大师！_79
+      - 🇮🇹ITYoutube频道：工具大师！_80
+      - 德国+🇩🇪Youtube频道：工具大师！_81
+      - 德国+🇩🇪Youtube频道：工具大师！_82
+      - 瑞典+🇸🇪Youtube频道：工具大师！_83
+      - 瑞典+🇸🇪Youtube频道：工具大师！_84
+      - SEYoutube频道：工具大师！_85
+      - 德国+🇩🇪Youtube频道：工具大师！_86
+      - SEYoutube频道：工具大师！_87
+      - Youtube频道：工具大师！_88
+      - 挪威Youtube频道：工具大师！_89
+      - 挪威+🇳🇴Youtube频道：工具大师！_90
+      - CAYoutube频道：工具大师！_91
+      - 挪威+🇳🇴Youtube频道：工具大师！_92
+      - 挪威Youtube频道：工具大师！_93
+      - 新西兰Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 挪威+🇳🇴Youtube频道：工具大师！_96
+      - 德国+🇩🇪Youtube频道：工具大师！_97
+      - 瑞典+🇸🇪Youtube频道：工具大师！_98
+      - 瑞典+🇸🇪Youtube频道：工具大师！_99
+      - 瑞典+🇸🇪Youtube频道：工具大师！_100
+      - github.com/freefq+-+罗马尼亚++7_101
+      - github.com/freefq+-+罗马尼亚++8_102
+      - github.com/freefq+-+斯洛伐克++10_103
+      - github.com/freefq+-+俄罗斯++11_104
+      - github.com/freefq+-+美国科罗拉多州Front+Range+Hosting公司+12_105
+      - github.com/freefq+-+北美地区++15_106
+      - github.com/freefq+-+美国++16_107
+      - github.com/freefq+-+斯洛伐克++17_108
+      - github.com/freefq+-+新西兰CachedNet数据中心+18_109
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+19_110
+      - github.com/freefq+-+美国++21_111
+      - github.com/freefq - 美国CloudFlare公司CDN节点 22_112
+      - github.com/freefq - 美国CloudFlare公司CDN节点 23_113
+      - github.com/freefq+-+挪威++24_114
+      - github.com/freefq+-+新西兰CachedNet数据中心+25_115
+      - github.com/freefq+-+欧洲++27_116
+      - github.com/freefq - 美国KINPONET洛杉矶GIA网络数据中心 28_117
+      - github.com/freefq - 美国CloudFlare公司CDN节点 29_118
+      - github.com/freefq+-+英国++32_119
+      - github.com/freefq+-+俄罗斯克拉斯诺亚尔斯克G-Core+Lab+33_120
+      - github.com/freefq+-+俄罗斯新西伯利亚JustHost+34_121
+      - github.com/freefq+-+俄罗斯新西伯利亚州新西伯利亚+35_122
+      - github.com/freefq+-+欧洲++36_123
+      - github.com/freefq+-+挪威++37_124
+      - github.com/freefq+-+加拿大安大略省基奇纳DataCity数据中心+39_125
+      - github.com/freefq+-+北美地区++40_126
+      - github.com/freefq - 美国CloudFlare节点 42_127
+      - github.com/freefq - 美国CloudFlare公司CDN节点 43_128
+      - github.com/freefq - 美国CloudFlare公司CDN节点 45_129
+      - github.com/freefq - 美国CloudFlare公司CDN节点 46_130
+      - github.com/freefq+-+新加坡++48_131
+      - github.com/freefq+-+美国LeaseWeb数据中心+49_132
+      - github.com/freefq+-+新加坡LeaseWeb+IDC+50_133
+      - github.com/freefq+-+新加坡LeaseWebSIN11数据中心+51_134
+      - github.com/freefq - 湖南省联通 52_135
+      - @SSRSUB-V09-付费推荐:suo.yt/ssrsub_136
+      - @SSRSUB-V15-付费推荐:suo.yt/ssrsub_137
+      - @SSRSUB-V24-付费推荐:suo.yt/ssrsub_138
+      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_139
+      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_140
+      - @SSRSUB-俄罗斯V32-付费推荐::suo.yt/ssrsub_141
+      - @SSRSUB-俄罗斯V33-付费推荐::suo.yt/ssrsub_142
+      - 翻墙党fanqiangdang.com_143
+      - 翻墙党fanqiangdang.com_144
+      - 翻墙党fanqiangdang.com_145
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
+      - github.com/freefq+-+新西兰CachedNet数据中心+4_1
+      - github.com/freefq+-+挪威++6_2
+      - github.com/freefq+-+英国++7_3
+      - github.com/freefq+-+英国++9_4
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_5
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_6
+      - 翻墙党fanqiangdang.com_7
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+3_8
+      - github.com/freefq+-+欧洲++6_9
+      - github.com/freefq+-+新西兰CachedNet数据中心+12_10
+      - github.com/freefq+-+新西兰CachedNet数据中心+17_11
+      - github.com/freefq+-+英国++22_12
+      - github.com/freefq+-+英国++23_13
+      - github.com/freefq - 美国CloudFlare节点 33_14
+      - github.com/freefq+-+挪威++35_15
+      - github.com/freefq+-+北美地区++36_16
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_17
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_18
+      - 翻墙党fanqiangdang.com_19
+      - github.com/freefq+-+斯洛伐克++2_20
+      - github.com/freefq+-+新西兰CachedNet数据中心+3_21
+      - github.com/freefq+-+挪威++8_22
+      - github.com/freefq+-+英国++9_23
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_24
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_25
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_26
+      - 翻墙党fanqiangdang.com_27
+      - 翻墙党fanqiangdang.com_28
+      - 翻墙党fanqiangdang.com_29
+      - github.com/freefq+-+挪威++3_30
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_31
+      - github.com/freefq - 美国  9_32
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_33
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_34
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_35
+      - 翻墙党fanqiangdang.com_36
+      - 翻墙党fanqiangdang.com_37
+      - 翻墙党fanqiangdang.com_38
+      - 翻墙党fanqiangdang.com_39
+      - 翻墙党fanqiangdang.com_40
+      - 翻墙党fanqiangdang.com_41
+      - 翻墙党fanqiangdang.com_42
+      - 翻墙党fanqiangdang.com_43
+      - 翻墙党fanqiangdang.com_44
+      - 翻墙党fanqiangdang.com_45
+      - 翻墙党fanqiangdang.com_46
+      - 翻墙党fanqiangdang.com_47
+      - 翻墙党fanqiangdang.com_48
+      - 翻墙党fanqiangdang.com_49
+      - 加拿大Youtube频道：工具大师！_50
+      - 欧洲Youtube频道：工具大师！_51
+      - 瑞典+🇸🇪Youtube频道：工具大师！_52
+      - 瑞典+🇸🇪Youtube频道：工具大师！_53
+      - USYoutube频道：工具大师！_54
+      - 瑞典+🇸🇪Youtube频道：工具大师！_55
+      - 美国Youtube频道：工具大师！_56
+      - 美国Youtube频道：工具大师！_57
+      - 美国Youtube频道：工具大师！_58
+      - 瑞典+🇸🇪Youtube频道：工具大师！_59
+      - 土耳其+🇹🇷Youtube频道：工具大师！_60
+      - 瑞典+🇸🇪Youtube频道：工具大师！_61
+      - 瑞典+🇸🇪Youtube频道：工具大师！_62
+      - 法Youtube频道：工具大师！_63
+      - 德国+🇩🇪Youtube频道：工具大师！_64
+      - 瑞典+🇸🇪Youtube频道：工具大师！_65
+      - 瑞典+🇸🇪Youtube频道：工具大师！_66
+      - 德国+🇩🇪Youtube频道：工具大师！_67
+      - 德国+🇩🇪Youtube频道：工具大师！_68
+      - 德国+🇩🇪Youtube频道：工具大师！_69
+      - 瑞典+🇸🇪Youtube频道：工具大师！_70
+      - 瑞典+🇸🇪Youtube频道：工具大师！_71
+      - 🇮🇹ITYoutube频道：工具大师！_72
+      - 美国Youtube频道：工具大师！_73
+      - 德国+🇩🇪Youtube频道：工具大师！_74
+      - 德国+🇩🇪Youtube频道：工具大师！_75
+      - 瑞典+🇸🇪Youtube频道：工具大师！_76
+      - 法Youtube频道：工具大师！_77
+      - 瑞典+🇸🇪Youtube频道：工具大师！_78
+      - 法国Youtube频道：工具大师！_79
+      - 🇮🇹ITYoutube频道：工具大师！_80
+      - 德国+🇩🇪Youtube频道：工具大师！_81
+      - 德国+🇩🇪Youtube频道：工具大师！_82
+      - 瑞典+🇸🇪Youtube频道：工具大师！_83
+      - 瑞典+🇸🇪Youtube频道：工具大师！_84
+      - SEYoutube频道：工具大师！_85
+      - 德国+🇩🇪Youtube频道：工具大师！_86
+      - SEYoutube频道：工具大师！_87
+      - Youtube频道：工具大师！_88
+      - 挪威Youtube频道：工具大师！_89
+      - 挪威+🇳🇴Youtube频道：工具大师！_90
+      - CAYoutube频道：工具大师！_91
+      - 挪威+🇳🇴Youtube频道：工具大师！_92
+      - 挪威Youtube频道：工具大师！_93
+      - 新西兰Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 挪威+🇳🇴Youtube频道：工具大师！_96
+      - 德国+🇩🇪Youtube频道：工具大师！_97
+      - 瑞典+🇸🇪Youtube频道：工具大师！_98
+      - 瑞典+🇸🇪Youtube频道：工具大师！_99
+      - 瑞典+🇸🇪Youtube频道：工具大师！_100
+      - github.com/freefq+-+罗马尼亚++7_101
+      - github.com/freefq+-+罗马尼亚++8_102
+      - github.com/freefq+-+斯洛伐克++10_103
+      - github.com/freefq+-+俄罗斯++11_104
+      - github.com/freefq+-+美国科罗拉多州Front+Range+Hosting公司+12_105
+      - github.com/freefq+-+北美地区++15_106
+      - github.com/freefq+-+美国++16_107
+      - github.com/freefq+-+斯洛伐克++17_108
+      - github.com/freefq+-+新西兰CachedNet数据中心+18_109
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+19_110
+      - github.com/freefq+-+美国++21_111
+      - github.com/freefq - 美国CloudFlare公司CDN节点 22_112
+      - github.com/freefq - 美国CloudFlare公司CDN节点 23_113
+      - github.com/freefq+-+挪威++24_114
+      - github.com/freefq+-+新西兰CachedNet数据中心+25_115
+      - github.com/freefq+-+欧洲++27_116
+      - github.com/freefq - 美国KINPONET洛杉矶GIA网络数据中心 28_117
+      - github.com/freefq - 美国CloudFlare公司CDN节点 29_118
+      - github.com/freefq+-+英国++32_119
+      - github.com/freefq+-+俄罗斯克拉斯诺亚尔斯克G-Core+Lab+33_120
+      - github.com/freefq+-+俄罗斯新西伯利亚JustHost+34_121
+      - github.com/freefq+-+俄罗斯新西伯利亚州新西伯利亚+35_122
+      - github.com/freefq+-+欧洲++36_123
+      - github.com/freefq+-+挪威++37_124
+      - github.com/freefq+-+加拿大安大略省基奇纳DataCity数据中心+39_125
+      - github.com/freefq+-+北美地区++40_126
+      - github.com/freefq - 美国CloudFlare节点 42_127
+      - github.com/freefq - 美国CloudFlare公司CDN节点 43_128
+      - github.com/freefq - 美国CloudFlare公司CDN节点 45_129
+      - github.com/freefq - 美国CloudFlare公司CDN节点 46_130
+      - github.com/freefq+-+新加坡++48_131
+      - github.com/freefq+-+美国LeaseWeb数据中心+49_132
+      - github.com/freefq+-+新加坡LeaseWeb+IDC+50_133
+      - github.com/freefq+-+新加坡LeaseWebSIN11数据中心+51_134
+      - github.com/freefq - 湖南省联通 52_135
+      - @SSRSUB-V09-付费推荐:suo.yt/ssrsub_136
+      - @SSRSUB-V15-付费推荐:suo.yt/ssrsub_137
+      - @SSRSUB-V24-付费推荐:suo.yt/ssrsub_138
+      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_139
+      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_140
+      - @SSRSUB-俄罗斯V32-付费推荐::suo.yt/ssrsub_141
+      - @SSRSUB-俄罗斯V33-付费推荐::suo.yt/ssrsub_142
+      - 翻墙党fanqiangdang.com_143
+      - 翻墙党fanqiangdang.com_144
+      - 翻墙党fanqiangdang.com_145
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
+      - github.com/freefq+-+新西兰CachedNet数据中心+4_1
+      - github.com/freefq+-+挪威++6_2
+      - github.com/freefq+-+英国++7_3
+      - github.com/freefq+-+英国++9_4
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_5
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_6
+      - 翻墙党fanqiangdang.com_7
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+3_8
+      - github.com/freefq+-+欧洲++6_9
+      - github.com/freefq+-+新西兰CachedNet数据中心+12_10
+      - github.com/freefq+-+新西兰CachedNet数据中心+17_11
+      - github.com/freefq+-+英国++22_12
+      - github.com/freefq+-+英国++23_13
+      - github.com/freefq - 美国CloudFlare节点 33_14
+      - github.com/freefq+-+挪威++35_15
+      - github.com/freefq+-+北美地区++36_16
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_17
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_18
+      - 翻墙党fanqiangdang.com_19
+      - github.com/freefq+-+斯洛伐克++2_20
+      - github.com/freefq+-+新西兰CachedNet数据中心+3_21
+      - github.com/freefq+-+挪威++8_22
+      - github.com/freefq+-+英国++9_23
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_24
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_25
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_26
+      - 翻墙党fanqiangdang.com_27
+      - 翻墙党fanqiangdang.com_28
+      - 翻墙党fanqiangdang.com_29
+      - github.com/freefq+-+挪威++3_30
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_31
+      - github.com/freefq - 美国  9_32
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_33
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_34
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_35
+      - 翻墙党fanqiangdang.com_36
+      - 翻墙党fanqiangdang.com_37
+      - 翻墙党fanqiangdang.com_38
+      - 翻墙党fanqiangdang.com_39
+      - 翻墙党fanqiangdang.com_40
+      - 翻墙党fanqiangdang.com_41
+      - 翻墙党fanqiangdang.com_42
+      - 翻墙党fanqiangdang.com_43
+      - 翻墙党fanqiangdang.com_44
+      - 翻墙党fanqiangdang.com_45
+      - 翻墙党fanqiangdang.com_46
+      - 翻墙党fanqiangdang.com_47
+      - 翻墙党fanqiangdang.com_48
+      - 翻墙党fanqiangdang.com_49
+      - 加拿大Youtube频道：工具大师！_50
+      - 欧洲Youtube频道：工具大师！_51
+      - 瑞典+🇸🇪Youtube频道：工具大师！_52
+      - 瑞典+🇸🇪Youtube频道：工具大师！_53
+      - USYoutube频道：工具大师！_54
+      - 瑞典+🇸🇪Youtube频道：工具大师！_55
+      - 美国Youtube频道：工具大师！_56
+      - 美国Youtube频道：工具大师！_57
+      - 美国Youtube频道：工具大师！_58
+      - 瑞典+🇸🇪Youtube频道：工具大师！_59
+      - 土耳其+🇹🇷Youtube频道：工具大师！_60
+      - 瑞典+🇸🇪Youtube频道：工具大师！_61
+      - 瑞典+🇸🇪Youtube频道：工具大师！_62
+      - 法Youtube频道：工具大师！_63
+      - 德国+🇩🇪Youtube频道：工具大师！_64
+      - 瑞典+🇸🇪Youtube频道：工具大师！_65
+      - 瑞典+🇸🇪Youtube频道：工具大师！_66
+      - 德国+🇩🇪Youtube频道：工具大师！_67
+      - 德国+🇩🇪Youtube频道：工具大师！_68
+      - 德国+🇩🇪Youtube频道：工具大师！_69
+      - 瑞典+🇸🇪Youtube频道：工具大师！_70
+      - 瑞典+🇸🇪Youtube频道：工具大师！_71
+      - 🇮🇹ITYoutube频道：工具大师！_72
+      - 美国Youtube频道：工具大师！_73
+      - 德国+🇩🇪Youtube频道：工具大师！_74
+      - 德国+🇩🇪Youtube频道：工具大师！_75
+      - 瑞典+🇸🇪Youtube频道：工具大师！_76
+      - 法Youtube频道：工具大师！_77
+      - 瑞典+🇸🇪Youtube频道：工具大师！_78
+      - 法国Youtube频道：工具大师！_79
+      - 🇮🇹ITYoutube频道：工具大师！_80
+      - 德国+🇩🇪Youtube频道：工具大师！_81
+      - 德国+🇩🇪Youtube频道：工具大师！_82
+      - 瑞典+🇸🇪Youtube频道：工具大师！_83
+      - 瑞典+🇸🇪Youtube频道：工具大师！_84
+      - SEYoutube频道：工具大师！_85
+      - 德国+🇩🇪Youtube频道：工具大师！_86
+      - SEYoutube频道：工具大师！_87
+      - Youtube频道：工具大师！_88
+      - 挪威Youtube频道：工具大师！_89
+      - 挪威+🇳🇴Youtube频道：工具大师！_90
+      - CAYoutube频道：工具大师！_91
+      - 挪威+🇳🇴Youtube频道：工具大师！_92
+      - 挪威Youtube频道：工具大师！_93
+      - 新西兰Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 挪威+🇳🇴Youtube频道：工具大师！_96
+      - 德国+🇩🇪Youtube频道：工具大师！_97
+      - 瑞典+🇸🇪Youtube频道：工具大师！_98
+      - 瑞典+🇸🇪Youtube频道：工具大师！_99
+      - 瑞典+🇸🇪Youtube频道：工具大师！_100
+      - github.com/freefq+-+罗马尼亚++7_101
+      - github.com/freefq+-+罗马尼亚++8_102
+      - github.com/freefq+-+斯洛伐克++10_103
+      - github.com/freefq+-+俄罗斯++11_104
+      - github.com/freefq+-+美国科罗拉多州Front+Range+Hosting公司+12_105
+      - github.com/freefq+-+北美地区++15_106
+      - github.com/freefq+-+美国++16_107
+      - github.com/freefq+-+斯洛伐克++17_108
+      - github.com/freefq+-+新西兰CachedNet数据中心+18_109
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+19_110
+      - github.com/freefq+-+美国++21_111
+      - github.com/freefq - 美国CloudFlare公司CDN节点 22_112
+      - github.com/freefq - 美国CloudFlare公司CDN节点 23_113
+      - github.com/freefq+-+挪威++24_114
+      - github.com/freefq+-+新西兰CachedNet数据中心+25_115
+      - github.com/freefq+-+欧洲++27_116
+      - github.com/freefq - 美国KINPONET洛杉矶GIA网络数据中心 28_117
+      - github.com/freefq - 美国CloudFlare公司CDN节点 29_118
+      - github.com/freefq+-+英国++32_119
+      - github.com/freefq+-+俄罗斯克拉斯诺亚尔斯克G-Core+Lab+33_120
+      - github.com/freefq+-+俄罗斯新西伯利亚JustHost+34_121
+      - github.com/freefq+-+俄罗斯新西伯利亚州新西伯利亚+35_122
+      - github.com/freefq+-+欧洲++36_123
+      - github.com/freefq+-+挪威++37_124
+      - github.com/freefq+-+加拿大安大略省基奇纳DataCity数据中心+39_125
+      - github.com/freefq+-+北美地区++40_126
+      - github.com/freefq - 美国CloudFlare节点 42_127
+      - github.com/freefq - 美国CloudFlare公司CDN节点 43_128
+      - github.com/freefq - 美国CloudFlare公司CDN节点 45_129
+      - github.com/freefq - 美国CloudFlare公司CDN节点 46_130
+      - github.com/freefq+-+新加坡++48_131
+      - github.com/freefq+-+美国LeaseWeb数据中心+49_132
+      - github.com/freefq+-+新加坡LeaseWeb+IDC+50_133
+      - github.com/freefq+-+新加坡LeaseWebSIN11数据中心+51_134
+      - github.com/freefq - 湖南省联通 52_135
+      - @SSRSUB-V09-付费推荐:suo.yt/ssrsub_136
+      - @SSRSUB-V15-付费推荐:suo.yt/ssrsub_137
+      - @SSRSUB-V24-付费推荐:suo.yt/ssrsub_138
+      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_139
+      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_140
+      - @SSRSUB-俄罗斯V32-付费推荐::suo.yt/ssrsub_141
+      - @SSRSUB-俄罗斯V33-付费推荐::suo.yt/ssrsub_142
+      - 翻墙党fanqiangdang.com_143
+      - 翻墙党fanqiangdang.com_144
+      - 翻墙党fanqiangdang.com_145
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +1218,151 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
+      - github.com/freefq+-+新西兰CachedNet数据中心+4_1
+      - github.com/freefq+-+挪威++6_2
+      - github.com/freefq+-+英国++7_3
+      - github.com/freefq+-+英国++9_4
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_5
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_6
+      - 翻墙党fanqiangdang.com_7
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+3_8
+      - github.com/freefq+-+欧洲++6_9
+      - github.com/freefq+-+新西兰CachedNet数据中心+12_10
+      - github.com/freefq+-+新西兰CachedNet数据中心+17_11
+      - github.com/freefq+-+英国++22_12
+      - github.com/freefq+-+英国++23_13
+      - github.com/freefq - 美国CloudFlare节点 33_14
+      - github.com/freefq+-+挪威++35_15
+      - github.com/freefq+-+北美地区++36_16
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_17
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_18
+      - 翻墙党fanqiangdang.com_19
+      - github.com/freefq+-+斯洛伐克++2_20
+      - github.com/freefq+-+新西兰CachedNet数据中心+3_21
+      - github.com/freefq+-+挪威++8_22
+      - github.com/freefq+-+英国++9_23
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_24
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_25
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_26
+      - 翻墙党fanqiangdang.com_27
+      - 翻墙党fanqiangdang.com_28
+      - 翻墙党fanqiangdang.com_29
+      - github.com/freefq+-+挪威++3_30
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_31
+      - github.com/freefq - 美国  9_32
+      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_33
+      - @SSRSUB-V05-付费推荐:suo.yt/ssrsub_34
+      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_35
+      - 翻墙党fanqiangdang.com_36
+      - 翻墙党fanqiangdang.com_37
+      - 翻墙党fanqiangdang.com_38
+      - 翻墙党fanqiangdang.com_39
+      - 翻墙党fanqiangdang.com_40
+      - 翻墙党fanqiangdang.com_41
+      - 翻墙党fanqiangdang.com_42
+      - 翻墙党fanqiangdang.com_43
+      - 翻墙党fanqiangdang.com_44
+      - 翻墙党fanqiangdang.com_45
+      - 翻墙党fanqiangdang.com_46
+      - 翻墙党fanqiangdang.com_47
+      - 翻墙党fanqiangdang.com_48
+      - 翻墙党fanqiangdang.com_49
+      - 加拿大Youtube频道：工具大师！_50
+      - 欧洲Youtube频道：工具大师！_51
+      - 瑞典+🇸🇪Youtube频道：工具大师！_52
+      - 瑞典+🇸🇪Youtube频道：工具大师！_53
+      - USYoutube频道：工具大师！_54
+      - 瑞典+🇸🇪Youtube频道：工具大师！_55
+      - 美国Youtube频道：工具大师！_56
+      - 美国Youtube频道：工具大师！_57
+      - 美国Youtube频道：工具大师！_58
+      - 瑞典+🇸🇪Youtube频道：工具大师！_59
+      - 土耳其+🇹🇷Youtube频道：工具大师！_60
+      - 瑞典+🇸🇪Youtube频道：工具大师！_61
+      - 瑞典+🇸🇪Youtube频道：工具大师！_62
+      - 法Youtube频道：工具大师！_63
+      - 德国+🇩🇪Youtube频道：工具大师！_64
+      - 瑞典+🇸🇪Youtube频道：工具大师！_65
+      - 瑞典+🇸🇪Youtube频道：工具大师！_66
+      - 德国+🇩🇪Youtube频道：工具大师！_67
+      - 德国+🇩🇪Youtube频道：工具大师！_68
+      - 德国+🇩🇪Youtube频道：工具大师！_69
+      - 瑞典+🇸🇪Youtube频道：工具大师！_70
+      - 瑞典+🇸🇪Youtube频道：工具大师！_71
+      - 🇮🇹ITYoutube频道：工具大师！_72
+      - 美国Youtube频道：工具大师！_73
+      - 德国+🇩🇪Youtube频道：工具大师！_74
+      - 德国+🇩🇪Youtube频道：工具大师！_75
+      - 瑞典+🇸🇪Youtube频道：工具大师！_76
+      - 法Youtube频道：工具大师！_77
+      - 瑞典+🇸🇪Youtube频道：工具大师！_78
+      - 法国Youtube频道：工具大师！_79
+      - 🇮🇹ITYoutube频道：工具大师！_80
+      - 德国+🇩🇪Youtube频道：工具大师！_81
+      - 德国+🇩🇪Youtube频道：工具大师！_82
+      - 瑞典+🇸🇪Youtube频道：工具大师！_83
+      - 瑞典+🇸🇪Youtube频道：工具大师！_84
+      - SEYoutube频道：工具大师！_85
+      - 德国+🇩🇪Youtube频道：工具大师！_86
+      - SEYoutube频道：工具大师！_87
+      - Youtube频道：工具大师！_88
+      - 挪威Youtube频道：工具大师！_89
+      - 挪威+🇳🇴Youtube频道：工具大师！_90
+      - CAYoutube频道：工具大师！_91
+      - 挪威+🇳🇴Youtube频道：工具大师！_92
+      - 挪威Youtube频道：工具大师！_93
+      - 新西兰Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 挪威+🇳🇴Youtube频道：工具大师！_96
+      - 德国+🇩🇪Youtube频道：工具大师！_97
+      - 瑞典+🇸🇪Youtube频道：工具大师！_98
+      - 瑞典+🇸🇪Youtube频道：工具大师！_99
+      - 瑞典+🇸🇪Youtube频道：工具大师！_100
+      - github.com/freefq+-+罗马尼亚++7_101
+      - github.com/freefq+-+罗马尼亚++8_102
+      - github.com/freefq+-+斯洛伐克++10_103
+      - github.com/freefq+-+俄罗斯++11_104
+      - github.com/freefq+-+美国科罗拉多州Front+Range+Hosting公司+12_105
+      - github.com/freefq+-+北美地区++15_106
+      - github.com/freefq+-+美国++16_107
+      - github.com/freefq+-+斯洛伐克++17_108
+      - github.com/freefq+-+新西兰CachedNet数据中心+18_109
+      - github.com/freefq+-+瑞典斯德哥尔摩CDN77节点+19_110
+      - github.com/freefq+-+美国++21_111
+      - github.com/freefq - 美国CloudFlare公司CDN节点 22_112
+      - github.com/freefq - 美国CloudFlare公司CDN节点 23_113
+      - github.com/freefq+-+挪威++24_114
+      - github.com/freefq+-+新西兰CachedNet数据中心+25_115
+      - github.com/freefq+-+欧洲++27_116
+      - github.com/freefq - 美国KINPONET洛杉矶GIA网络数据中心 28_117
+      - github.com/freefq - 美国CloudFlare公司CDN节点 29_118
+      - github.com/freefq+-+英国++32_119
+      - github.com/freefq+-+俄罗斯克拉斯诺亚尔斯克G-Core+Lab+33_120
+      - github.com/freefq+-+俄罗斯新西伯利亚JustHost+34_121
+      - github.com/freefq+-+俄罗斯新西伯利亚州新西伯利亚+35_122
+      - github.com/freefq+-+欧洲++36_123
+      - github.com/freefq+-+挪威++37_124
+      - github.com/freefq+-+加拿大安大略省基奇纳DataCity数据中心+39_125
+      - github.com/freefq+-+北美地区++40_126
+      - github.com/freefq - 美国CloudFlare节点 42_127
+      - github.com/freefq - 美国CloudFlare公司CDN节点 43_128
+      - github.com/freefq - 美国CloudFlare公司CDN节点 45_129
+      - github.com/freefq - 美国CloudFlare公司CDN节点 46_130
+      - github.com/freefq+-+新加坡++48_131
+      - github.com/freefq+-+美国LeaseWeb数据中心+49_132
+      - github.com/freefq+-+新加坡LeaseWeb+IDC+50_133
+      - github.com/freefq+-+新加坡LeaseWebSIN11数据中心+51_134
+      - github.com/freefq - 湖南省联通 52_135
+      - @SSRSUB-V09-付费推荐:suo.yt/ssrsub_136
+      - @SSRSUB-V15-付费推荐:suo.yt/ssrsub_137
+      - @SSRSUB-V24-付费推荐:suo.yt/ssrsub_138
+      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_139
+      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_140
+      - @SSRSUB-俄罗斯V32-付费推荐::suo.yt/ssrsub_141
+      - @SSRSUB-俄罗斯V33-付费推荐::suo.yt/ssrsub_142
+      - 翻墙党fanqiangdang.com_143
+      - 翻墙党fanqiangdang.com_144
+      - 翻墙党fanqiangdang.com_145
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
