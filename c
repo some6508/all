@@ -5,76 +5,76 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇹🇷_TR_土耳其_1', server: 107.150.94.14, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: '🇳🇱_NL_荷兰_2', server: 89.46.223.85, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: '🇳🇱_NL_荷兰_3', server: 89.46.223.85, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
-  - {name: '🇳🇱_NL_荷兰_4', server: 89.46.223.97, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: '🇨🇦_CA_加拿大_1', server: 37.19.211.138, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '🇨🇦_CA_加拿大_2', server: 37.19.211.63, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: '🇨🇦_CA_加拿大_3', server: 37.19.211.85, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: '🇨🇦_CA_加拿大_4', server: 37.19.211.88, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇹🇷_TR_土耳其_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇹🇷_TR_土耳其_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇹🇷_TR_土耳其_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇹🇷_TR_土耳其_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇹🇷_TR_土耳其_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇹🇷_TR_土耳其_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇹🇷_TR_土耳其_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,10 +90,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇹🇷_TR_土耳其_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
