@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇨🇦_CA_加拿大_1', server: 37.19.211.40, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: '🇨🇦_CA_加拿大_1', server: 37.19.211.63, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
