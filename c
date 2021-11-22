@@ -5,244 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇩🇪DE_175', server: 193.108.118.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇩🇪DE_176', server: 193.108.118.79, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇩🇪DE_177', server: 193.108.118.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇩🇪DE_178', server: 194.124.76.241, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇩🇪DE_179', server: 85.114.138.92, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇩🇪DE_180', server: 89.163.212.75, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇩🇪DE_181', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇩🇪DE_182', server: 193.108.118.79, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇩🇪DE_183', server: 194.124.76.194, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇩🇪DE_184', server: 193.108.118.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇩🇪DE_185', server: 194.233.65.67, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: '🇩🇪DE_186', server: 193.108.118.2, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇩🇪DE_187', server: 193.108.118.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇩🇪DE_188', server: 193.108.118.2, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇩🇪DE_189', server: 193.108.118.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇩🇪DE_190', server: 193.108.118.79, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇩🇪DE_191', server: 193.108.118.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇩🇪DE_192', server: 95.216.5.254, port: 50004, type: ss, cipher: aes-256-cfb, password: 4415934295}
-  - {name: '🇩🇪DE_193', server: 193.108.118.2, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇩🇪DE_194', server: 193.108.118.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇩🇪DE_195', server: 146.0.36.44, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇩🇪DE_196', server: 213.136.80.36, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: '🇩🇪DE_199', server: 89.163.220.82, port: 11016, type: vmess, uuid: 842fcd78-475d-11ec-aa20-9cb6548b0ccc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /cOhjRn2G/}
-  - {name: '🇩🇪DE_200', server: 37.120.196.171, port: 443, type: trojan, password: YWVzLTI1Ni1nY206OG42cHdBY3JydjJwajZ0RlkycDNUYlE2}
-  - {name: '🇩🇪DE_201', server: 5.183.179.138, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb}
+  - {name: '🇨🇦_CA_加拿大_1', server: 134.195.196.219, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪DE_175
-      - 🇩🇪DE_176
-      - 🇩🇪DE_177
-      - 🇩🇪DE_178
-      - 🇩🇪DE_179
-      - 🇩🇪DE_180
-      - 🇩🇪DE_181
-      - 🇩🇪DE_182
-      - 🇩🇪DE_183
-      - 🇩🇪DE_184
-      - 🇩🇪DE_185
-      - 🇩🇪DE_186
-      - 🇩🇪DE_187
-      - 🇩🇪DE_188
-      - 🇩🇪DE_189
-      - 🇩🇪DE_190
-      - 🇩🇪DE_191
-      - 🇩🇪DE_192
-      - 🇩🇪DE_193
-      - 🇩🇪DE_194
-      - 🇩🇪DE_195
-      - 🇩🇪DE_196
-      - 🇩🇪DE_199
-      - 🇩🇪DE_200
-      - 🇩🇪DE_201
+      - 🇨🇦_CA_加拿大_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇩🇪DE_175
-      - 🇩🇪DE_176
-      - 🇩🇪DE_177
-      - 🇩🇪DE_178
-      - 🇩🇪DE_179
-      - 🇩🇪DE_180
-      - 🇩🇪DE_181
-      - 🇩🇪DE_182
-      - 🇩🇪DE_183
-      - 🇩🇪DE_184
-      - 🇩🇪DE_185
-      - 🇩🇪DE_186
-      - 🇩🇪DE_187
-      - 🇩🇪DE_188
-      - 🇩🇪DE_189
-      - 🇩🇪DE_190
-      - 🇩🇪DE_191
-      - 🇩🇪DE_192
-      - 🇩🇪DE_193
-      - 🇩🇪DE_194
-      - 🇩🇪DE_195
-      - 🇩🇪DE_196
-      - 🇩🇪DE_199
-      - 🇩🇪DE_200
-      - 🇩🇪DE_201
+      - 🇨🇦_CA_加拿大_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪DE_175
-      - 🇩🇪DE_176
-      - 🇩🇪DE_177
-      - 🇩🇪DE_178
-      - 🇩🇪DE_179
-      - 🇩🇪DE_180
-      - 🇩🇪DE_181
-      - 🇩🇪DE_182
-      - 🇩🇪DE_183
-      - 🇩🇪DE_184
-      - 🇩🇪DE_185
-      - 🇩🇪DE_186
-      - 🇩🇪DE_187
-      - 🇩🇪DE_188
-      - 🇩🇪DE_189
-      - 🇩🇪DE_190
-      - 🇩🇪DE_191
-      - 🇩🇪DE_192
-      - 🇩🇪DE_193
-      - 🇩🇪DE_194
-      - 🇩🇪DE_195
-      - 🇩🇪DE_196
-      - 🇩🇪DE_199
-      - 🇩🇪DE_200
-      - 🇩🇪DE_201
+      - 🇨🇦_CA_加拿大_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇩🇪DE_175
-      - 🇩🇪DE_176
-      - 🇩🇪DE_177
-      - 🇩🇪DE_178
-      - 🇩🇪DE_179
-      - 🇩🇪DE_180
-      - 🇩🇪DE_181
-      - 🇩🇪DE_182
-      - 🇩🇪DE_183
-      - 🇩🇪DE_184
-      - 🇩🇪DE_185
-      - 🇩🇪DE_186
-      - 🇩🇪DE_187
-      - 🇩🇪DE_188
-      - 🇩🇪DE_189
-      - 🇩🇪DE_190
-      - 🇩🇪DE_191
-      - 🇩🇪DE_192
-      - 🇩🇪DE_193
-      - 🇩🇪DE_194
-      - 🇩🇪DE_195
-      - 🇩🇪DE_196
-      - 🇩🇪DE_199
-      - 🇩🇪DE_200
-      - 🇩🇪DE_201
+      - 🇨🇦_CA_加拿大_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇩🇪DE_175
-      - 🇩🇪DE_176
-      - 🇩🇪DE_177
-      - 🇩🇪DE_178
-      - 🇩🇪DE_179
-      - 🇩🇪DE_180
-      - 🇩🇪DE_181
-      - 🇩🇪DE_182
-      - 🇩🇪DE_183
-      - 🇩🇪DE_184
-      - 🇩🇪DE_185
-      - 🇩🇪DE_186
-      - 🇩🇪DE_187
-      - 🇩🇪DE_188
-      - 🇩🇪DE_189
-      - 🇩🇪DE_190
-      - 🇩🇪DE_191
-      - 🇩🇪DE_192
-      - 🇩🇪DE_193
-      - 🇩🇪DE_194
-      - 🇩🇪DE_195
-      - 🇩🇪DE_196
-      - 🇩🇪DE_199
-      - 🇩🇪DE_200
-      - 🇩🇪DE_201
+      - 🇨🇦_CA_加拿大_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇩🇪DE_175
-      - 🇩🇪DE_176
-      - 🇩🇪DE_177
-      - 🇩🇪DE_178
-      - 🇩🇪DE_179
-      - 🇩🇪DE_180
-      - 🇩🇪DE_181
-      - 🇩🇪DE_182
-      - 🇩🇪DE_183
-      - 🇩🇪DE_184
-      - 🇩🇪DE_185
-      - 🇩🇪DE_186
-      - 🇩🇪DE_187
-      - 🇩🇪DE_188
-      - 🇩🇪DE_189
-      - 🇩🇪DE_190
-      - 🇩🇪DE_191
-      - 🇩🇪DE_192
-      - 🇩🇪DE_193
-      - 🇩🇪DE_194
-      - 🇩🇪DE_195
-      - 🇩🇪DE_196
-      - 🇩🇪DE_199
-      - 🇩🇪DE_200
-      - 🇩🇪DE_201
+      - 🇨🇦_CA_加拿大_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪DE_175
-      - 🇩🇪DE_176
-      - 🇩🇪DE_177
-      - 🇩🇪DE_178
-      - 🇩🇪DE_179
-      - 🇩🇪DE_180
-      - 🇩🇪DE_181
-      - 🇩🇪DE_182
-      - 🇩🇪DE_183
-      - 🇩🇪DE_184
-      - 🇩🇪DE_185
-      - 🇩🇪DE_186
-      - 🇩🇪DE_187
-      - 🇩🇪DE_188
-      - 🇩🇪DE_189
-      - 🇩🇪DE_190
-      - 🇩🇪DE_191
-      - 🇩🇪DE_192
-      - 🇩🇪DE_193
-      - 🇩🇪DE_194
-      - 🇩🇪DE_195
-      - 🇩🇪DE_196
-      - 🇩🇪DE_199
-      - 🇩🇪DE_200
-      - 🇩🇪DE_201
+      - 🇨🇦_CA_加拿大_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -258,31 +66,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪DE_175
-      - 🇩🇪DE_176
-      - 🇩🇪DE_177
-      - 🇩🇪DE_178
-      - 🇩🇪DE_179
-      - 🇩🇪DE_180
-      - 🇩🇪DE_181
-      - 🇩🇪DE_182
-      - 🇩🇪DE_183
-      - 🇩🇪DE_184
-      - 🇩🇪DE_185
-      - 🇩🇪DE_186
-      - 🇩🇪DE_187
-      - 🇩🇪DE_188
-      - 🇩🇪DE_189
-      - 🇩🇪DE_190
-      - 🇩🇪DE_191
-      - 🇩🇪DE_192
-      - 🇩🇪DE_193
-      - 🇩🇪DE_194
-      - 🇩🇪DE_195
-      - 🇩🇪DE_196
-      - 🇩🇪DE_199
-      - 🇩🇪DE_200
-      - 🇩🇪DE_201
+      - 🇨🇦_CA_加拿大_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
