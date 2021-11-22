@@ -5,52 +5,76 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇨🇦_CA_加拿大_1', server: 134.195.196.219, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇭🇰_HK_香港_1', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_2', server: 134.195.196.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇭🇰_HK_香港->🇩🇪_DE_德国_3', server: hk.huanyumingle.xyz, port: 10025, type: ss, cipher: chacha20-ietf-poly1305, password: 60a6bf3c-f656-441b-a48b-a57731af9fd6}
+  - {name: '🇺🇸_US_美国_4', server: 38.39.192.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
+      - 🇭🇰_HK_香港_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇭🇰_HK_香港->🇩🇪_DE_德国_3
+      - 🇺🇸_US_美国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇦_CA_加拿大_1
+      - 🇭🇰_HK_香港_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇭🇰_HK_香港->🇩🇪_DE_德国_3
+      - 🇺🇸_US_美国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
+      - 🇭🇰_HK_香港_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇭🇰_HK_香港->🇩🇪_DE_德国_3
+      - 🇺🇸_US_美国_4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇦_CA_加拿大_1
+      - 🇭🇰_HK_香港_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇭🇰_HK_香港->🇩🇪_DE_德国_3
+      - 🇺🇸_US_美国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇦_CA_加拿大_1
+      - 🇭🇰_HK_香港_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇭🇰_HK_香港->🇩🇪_DE_德国_3
+      - 🇺🇸_US_美国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
+      - 🇭🇰_HK_香港_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇭🇰_HK_香港->🇩🇪_DE_德国_3
+      - 🇺🇸_US_美国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
+      - 🇭🇰_HK_香港_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇭🇰_HK_香港->🇩🇪_DE_德国_3
+      - 🇺🇸_US_美国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +90,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
+      - 🇭🇰_HK_香港_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇭🇰_HK_香港->🇩🇪_DE_德国_3
+      - 🇺🇸_US_美国_4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
