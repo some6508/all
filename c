@@ -5,124 +5,76 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇭🇰HK_343 | 2.80Mb', server: 118.107.244.114, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇭🇰HK_345 | 3.37Mb', server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇭🇰HK_351 | 3.26Mb', server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇭🇰HK_353 |14.87Mb', server: 148.66.56.98, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇭🇰HK_355 | 5.87Mb', server: 118.107.244.114, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇭🇰HK_359', server: az0708-d.zc20200426.club, port: 40000, type: vmess, uuid: ab6e388b-3b1b-39b6-8b5c-9074224a9b48, alterId: 2, cipher: auto, tls: true, network: tcp, ws-path: /}
-  - {name: '🇭🇰HK_360 | 3.69Mb', server: 20.187.176.2, port: 61105, type: vmess, uuid: c14d29cc-9914-457b-9849-bcc8258af93b, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /tigerfelix}
-  - {name: '🇭🇰HK_362 | 9.89Mb', server: 103.138.75.235, port: 443, type: vmess, uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea}
-  - {name: '🇭🇰HK_363', server: www.zx07.top, port: 443undefined, type: trojan, password: L1qNeGrY58ApwrRA}
-  - {name: '🇭🇰HK_364', server: aws.yyds.zeroyyds.cc, port: 443undefined, type: trojan, password: dfd71fd2-39db-48f1-a5b6-9f67dff32133}
+  - {name: '🇺🇸_US_美国_1', server: n17.emovpn.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 60a6bf3c-f656-441b-a48b-a57731af9fd6}
+  - {name: '🇺🇸_US_美国_2', server: 154.17.1.130, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZDZSRKaS8uTjDpFAcC8OClnD2pISORz0Yya7a9xegxy33XC4wleFY3Eq3NA65B}
+  - {name: '🇺🇸_US_美国_3', server: n18.emovpn.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 60a6bf3c-f656-441b-a48b-a57731af9fd6}
+  - {name: '🇺🇸_US_美国_4', server: 38.75.136.93, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰HK_343 | 2.80Mb
-      - 🇭🇰HK_345 | 3.37Mb
-      - 🇭🇰HK_351 | 3.26Mb
-      - 🇭🇰HK_353 |14.87Mb
-      - 🇭🇰HK_355 | 5.87Mb
-      - 🇭🇰HK_359
-      - 🇭🇰HK_360 | 3.69Mb
-      - 🇭🇰HK_362 | 9.89Mb
-      - 🇭🇰HK_363
-      - 🇭🇰HK_364
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰HK_343 | 2.80Mb
-      - 🇭🇰HK_345 | 3.37Mb
-      - 🇭🇰HK_351 | 3.26Mb
-      - 🇭🇰HK_353 |14.87Mb
-      - 🇭🇰HK_355 | 5.87Mb
-      - 🇭🇰HK_359
-      - 🇭🇰HK_360 | 3.69Mb
-      - 🇭🇰HK_362 | 9.89Mb
-      - 🇭🇰HK_363
-      - 🇭🇰HK_364
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰HK_343 | 2.80Mb
-      - 🇭🇰HK_345 | 3.37Mb
-      - 🇭🇰HK_351 | 3.26Mb
-      - 🇭🇰HK_353 |14.87Mb
-      - 🇭🇰HK_355 | 5.87Mb
-      - 🇭🇰HK_359
-      - 🇭🇰HK_360 | 3.69Mb
-      - 🇭🇰HK_362 | 9.89Mb
-      - 🇭🇰HK_363
-      - 🇭🇰HK_364
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰HK_343 | 2.80Mb
-      - 🇭🇰HK_345 | 3.37Mb
-      - 🇭🇰HK_351 | 3.26Mb
-      - 🇭🇰HK_353 |14.87Mb
-      - 🇭🇰HK_355 | 5.87Mb
-      - 🇭🇰HK_359
-      - 🇭🇰HK_360 | 3.69Mb
-      - 🇭🇰HK_362 | 9.89Mb
-      - 🇭🇰HK_363
-      - 🇭🇰HK_364
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰HK_343 | 2.80Mb
-      - 🇭🇰HK_345 | 3.37Mb
-      - 🇭🇰HK_351 | 3.26Mb
-      - 🇭🇰HK_353 |14.87Mb
-      - 🇭🇰HK_355 | 5.87Mb
-      - 🇭🇰HK_359
-      - 🇭🇰HK_360 | 3.69Mb
-      - 🇭🇰HK_362 | 9.89Mb
-      - 🇭🇰HK_363
-      - 🇭🇰HK_364
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰HK_343 | 2.80Mb
-      - 🇭🇰HK_345 | 3.37Mb
-      - 🇭🇰HK_351 | 3.26Mb
-      - 🇭🇰HK_353 |14.87Mb
-      - 🇭🇰HK_355 | 5.87Mb
-      - 🇭🇰HK_359
-      - 🇭🇰HK_360 | 3.69Mb
-      - 🇭🇰HK_362 | 9.89Mb
-      - 🇭🇰HK_363
-      - 🇭🇰HK_364
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰HK_343 | 2.80Mb
-      - 🇭🇰HK_345 | 3.37Mb
-      - 🇭🇰HK_351 | 3.26Mb
-      - 🇭🇰HK_353 |14.87Mb
-      - 🇭🇰HK_355 | 5.87Mb
-      - 🇭🇰HK_359
-      - 🇭🇰HK_360 | 3.69Mb
-      - 🇭🇰HK_362 | 9.89Mb
-      - 🇭🇰HK_363
-      - 🇭🇰HK_364
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +90,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰HK_343 | 2.80Mb
-      - 🇭🇰HK_345 | 3.37Mb
-      - 🇭🇰HK_351 | 3.26Mb
-      - 🇭🇰HK_353 |14.87Mb
-      - 🇭🇰HK_355 | 5.87Mb
-      - 🇭🇰HK_359
-      - 🇭🇰HK_360 | 3.69Mb
-      - 🇭🇰HK_362 | 9.89Mb
-      - 🇭🇰HK_363
-      - 🇭🇰HK_364
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
