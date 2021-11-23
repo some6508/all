@@ -5,60 +5,1956 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇭🇰_HK_香港_1', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_美国_2', server: 38.75.136.116, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'cfmem.com_🇨🇳_CN_中国_1', server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 0e51e193-9029-4ba6-857a-d7f98b0105dc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 'cfmem.com_🇯🇵_JP_日本_1', server: v2-jp01.ddjppt.xyz, port: 443, type: vmess, uuid: 7269d6af-f15e-392a-b0d8-58efcbd48cd4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-jp01.ddjppt.xyz}}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_1', server: azhk3.zz123.xyz, port: 12819, type: vmess, uuid: 98d8d210-2db3-3fe6-8474-797dc7a475c2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇨🇳_CN_中国_2', server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: e3a27cb1-98d8-4459-9019-9792f76e03a3, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
+  - {name: 'cfmem.com_🇨🇳_CN_中国_3', server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: e4defe8d-0593-4d28-ba74-7edb1113df98, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_2', server: azhk3.zz123.xyz, port: 14083, type: vmess, uuid: f9106e1e-f566-37c2-8948-07b0de7ebe3f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇰🇷_KR_韩国_1', server: 61.14.210.232, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: 'cfmem.com_🇰🇷_KR_韩国_2', server: 61.14.210.232, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 'cfmem.com_🇰🇷_KR_韩国_3', server: 61.14.210.232, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: 'cfmem.com_🇺🇸_US_美国_1', server: 104.19.107.102, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: morning-mud-2d55.tianzhen169.workers.dev}}
+  - {name: 'cfmem.com_🇺🇸_US_美国_2', server: 172.252.99.13, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_3', server: azhk3.zz123.xyz, port: 18141, type: vmess, uuid: 98d8d210-2db3-3fe6-8474-797dc7a475c2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_4', server: azhk3.zz123.xyz, port: 12915, type: vmess, uuid: 18122cda-babc-389d-888d-7082ab08904c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇺🇸_US_美国_3', server: 172.252.99.15, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_5', server: azhk3.zz123.xyz, port: 12915, type: vmess, uuid: 98d8d210-2db3-3fe6-8474-797dc7a475c2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇺🇸_US_美国_4', server: 167.88.61.15, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_1', server: 193.176.86.196, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: 'cfmem.com_🇺🇸_US_美国_5', server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_6', server: azhk3.zz123.xyz, port: 12915, type: vmess, uuid: 00b688ff-21e1-33a0-962e-79377a874409, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_2', server: 193.176.86.198, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_3', server: 193.176.86.198, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 'cfmem.com_🇨🇳_CN_中国_4', server: cs.lt.nkeo.top, port: 25005, type: vmess, uuid: 4a70cbbc-435f-38a5-9788-c7dc049bd0a3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cs.lt.nkeo.top}}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_7', server: azhk3.zz123.xyz, port: 13959, type: vmess, uuid: 00b688ff-21e1-33a0-962e-79377a874409, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇺🇸_US_美国_6', server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_1', server: 195.181.166.225, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_2', server: 185.76.9.56, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_4', server: 193.176.86.196, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_3', server: 185.76.9.56, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_5', server: 193.176.86.196, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 'cfmem.com_🇺🇸_US_美国_7', server: 150.230.37.128, port: 80, type: vmess, uuid: 81e3c111-5701-4179-8e23-1845a0337c78, alterId: 6, cipher: auto, tls: false, network: tcp}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_8', server: azhk3.zz123.xyz, port: 17862, type: vmess, uuid: 98d8d210-2db3-3fe6-8474-797dc7a475c2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_6', server: 193.176.86.198, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_9', server: azhk3.zz123.xyz, port: 46101, type: vmess, uuid: 00b688ff-21e1-33a0-962e-79377a874409, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_4', server: 185.76.9.56, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_5', server: 185.76.9.56, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: 'cfmem.com_🇺🇸_US_美国_8', server: 38.68.135.26, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'cfmem.com_🇺🇸_US_美国_9', server: 167.88.61.15, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'cfmem.com_🇨🇭_CH_瑞士_1', server: 156.146.62.37, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 'cfmem.com_🇺🇸_US_美国_10', server: 38.68.135.26, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_6', server: 185.76.9.56, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_7', server: 193.176.86.198, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 'cfmem.com_🇺🇸_US_美国_11', server: 38.68.135.239, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'cfmem.com_🇺🇸_US_美国_12', server: 172.252.99.27, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_10', server: azhk3.zz123.xyz, port: 46101, type: vmess, uuid: f9106e1e-f566-37c2-8948-07b0de7ebe3f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_7', server: 185.76.9.56, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_8', server: 185.76.9.56, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_8', server: 193.176.86.198, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_9', server: 193.176.86.198, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_10', server: 193.176.86.196, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_9', server: 185.76.9.56, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_11', server: 193.176.86.196, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 'cfmem.com_🇨🇭_CH_瑞士_2', server: 156.146.62.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 'cfmem.com_🇺🇸_US_美国_13', server: 104.16.151.207, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: lucky-firefly-4a78.ericwufengcheng.workers.dev}}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_12', server: 193.176.86.196, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_10', server: 195.181.166.225, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 'cfmem.com_🇺🇸_US_美国_14', server: 167.88.61.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_11', server: 185.76.9.56, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 'cfmem.com_🇨🇭_CH_瑞士_3', server: 156.146.62.37, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: 'cfmem.com_🇺🇸_US_美国_15', server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'cfmem.com_🇺🇸_US_美国_16', server: vmess.ifuckgfw.ga, port: 8443, type: vmess, uuid: 0e1b2424-2d7d-11ec-8efb-00163cf0ed57, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /uaAovjKU/}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_12', server: 185.76.9.56, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_13', server: 185.76.9.56, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_14', server: 195.181.166.225, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_15', server: 195.181.166.225, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_16', server: 185.76.9.56, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_13', server: 193.176.86.196, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_17', server: 185.76.9.56, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_11', server: azhk3.zz123.xyz, port: 12819, type: vmess, uuid: f9106e1e-f566-37c2-8948-07b0de7ebe3f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_18', server: 185.76.9.56, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_19', server: 185.76.9.56, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_14', server: 193.176.86.198, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_20', server: 195.181.166.225, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_15', server: 193.176.86.198, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_21', server: 195.181.166.225, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: 'cfmem.com_🇺🇸_US_美国_17', server: 138.199.42.170, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_22', server: 185.76.9.56, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_16', server: 193.176.86.198, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_23', server: 185.76.9.56, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: 'cfmem.com_🇺🇸_US_美国_18', server: 38.68.135.26, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_17', server: 193.176.86.196, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'cfmem.com_🇺🇸_US_美国_19', server: 18.236.146.125, port: 8888, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.236.146.125}}
+  - {name: 'cfmem.com_🇺🇸_US_美国_20', server: 167.88.61.50, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_24', server: 185.76.9.56, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
+  - {name: 'cfmem.com_🇺🇸_US_美国_21', server: 138.199.42.170, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_12', server: azhk3.zz123.xyz, port: 14319, type: vmess, uuid: 00b688ff-21e1-33a0-962e-79377a874409, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_25', server: 195.181.166.225, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_26', server: 195.181.166.225, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_27', server: 195.181.166.225, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 'cfmem.com_🇺🇸_US_美国_22', server: 138.199.42.134, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 'cfmem.com_🇺🇸_US_美国_23', server: 167.88.61.15, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'cfmem.com_🇺🇸_US_美国_24', server: us2.futi.online, port: 443, type: vmess, uuid: b35d6f70-8b73-4b25-b9b7-a7e4967fcab2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2.futi.online}}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_28', server: 195.181.166.225, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_18', server: 193.176.86.196, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 'cfmem.com_🇺🇸_US_美国_25', server: 138.199.42.170, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_29', server: 185.76.9.56, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_19', server: 193.176.86.196, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 'cfmem.com_🇺🇸_US_美国_26', server: 104.16.104.11, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: misty-heart-b2df.tianzhen5678.workers.dev}}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_30', server: 185.76.9.56, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_31', server: 195.181.166.225, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 'cfmem.com_🇺🇸_US_美国_27', server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_32', server: 195.181.166.225, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_20', server: 193.176.86.198, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 'cfmem.com_🇨🇭_CH_瑞士_4', server: 156.146.62.37, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_21', server: 193.176.86.198, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_33', server: 195.181.166.225, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_34', server: 195.181.166.225, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_35', server: 185.76.9.56, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_22', server: 193.176.86.196, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_36', server: 185.76.9.56, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 'cfmem.com_🇫🇷_FR_法国_1', server: 62.210.222.195, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'cfmem.com_🇨🇭_CH_瑞士_5', server: 156.146.62.37, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 'cfmem.com_🇺🇸_US_美国_28', server: 38.68.135.26, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'cfmem.com_🇺🇸_US_美国_29', server: 167.88.61.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_23', server: 193.176.86.198, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_37', server: 185.76.9.56, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_24', server: 193.176.86.198, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_38', server: 195.181.166.225, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 'cfmem.com_🇨🇭_CH_瑞士_6', server: 156.146.62.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_13', server: azhk3.zz123.xyz, port: 12915, type: vmess, uuid: f9106e1e-f566-37c2-8948-07b0de7ebe3f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_25', server: 193.176.86.198, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_39', server: 185.76.9.56, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: 'cfmem.com_🇨🇳_CN_中国_5', server: 520yyds.zhqt.xyz, port: 50089, type: vmess, uuid: e3a27cb1-98d8-4459-9019-9792f76e03a3, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-4.joker007.top}}
+  - {name: 'cfmem.com_🇨🇭_CH_瑞士_7', server: 156.146.62.45, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_26', server: 193.176.86.198, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 'cfmem.com_🇨🇭_CH_瑞士_8', server: 156.146.62.37, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_27', server: 193.176.86.198, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 'cfmem.com_🇺🇸_US_美国_30', server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'cfmem.com_🇬🇧_GB_英国_1', server: ns7.freev2r.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 37863f2c-b9e4-49b8-a51e-e852b1975ac9}
+  - {name: 'cfmem.com_🇺🇸_US_美国_31', server: 143.198.237.214, port: 27489, type: vmess, uuid: d73f027b-9a37-4e79-dd29-3a0d1e1da128, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'cfmem.com_🇺🇸_US_美国_32', server: 138.199.42.134, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_40', server: 185.76.9.56, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_28', server: 193.176.86.198, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 'cfmem.com_🇨🇳_CN_中国_6', server: 520yyds.zhqt.xyz, port: 50090, type: vmess, uuid: e4defe8d-0593-4d28-ba74-7edb1113df98, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-3.joker007.top}}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_29', server: 193.176.86.196, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_30', server: 193.176.86.196, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_31', server: 193.176.86.198, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 'cfmem.com_🇺🇸_US_美国_33', server: 167.88.61.15, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_14', server: azhk3.zz123.xyz, port: 33413, type: vmess, uuid: 00b688ff-21e1-33a0-962e-79377a874409, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇨🇦_CA_加拿大_1', server: 66.115.147.77, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'cfmem.com_🇺🇸_US_美国_34', server: 138.199.42.170, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_41', server: 185.76.9.56, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_32', server: 193.176.86.198, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 'cfmem.com_🇺🇸_US_美国_35', server: 138.199.42.170, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_33', server: 193.176.86.198, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_34', server: 193.176.86.196, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_35', server: 193.176.86.198, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_36', server: 193.176.86.198, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_42', server: 195.181.166.225, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_37', server: 193.176.86.198, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'cfmem.com_🇨🇳_CN_中国_7', server: 1.transit.t.qjnodeip.xyz, port: 29236, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Jg012, ws-headers: {Host: jnd01.wxyidc001.space}}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_38', server: 193.176.86.198, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_43', server: 185.76.9.56, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_39', server: 193.176.86.198, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_40', server: 193.176.86.198, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_44', server: 185.76.9.56, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_41', server: 193.176.86.198, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_42', server: 193.176.86.198, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_45', server: 185.76.9.56, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_46', server: 195.181.166.225, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_43', server: 193.176.86.198, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 'cfmem.com_🇨🇭_CH_瑞士_9', server: 156.146.62.37, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_44', server: 193.176.86.198, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_45', server: 193.176.86.198, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_46', server: 193.176.86.198, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_47', server: 185.76.9.56, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_47', server: 193.176.86.198, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_48', server: 193.176.86.196, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_48', server: 185.76.9.56, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_49', server: 185.76.9.56, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_49', server: 193.176.86.196, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_50', server: 193.176.86.196, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_51', server: 193.176.86.198, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 'cfmem.com_🇨🇦_CA_加拿大_2', server: 66.115.147.77, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_50', server: 195.181.166.225, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_51', server: 185.76.9.56, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_52', server: 185.76.9.56, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 'cfmem.com_🇨🇭_CH_瑞士_10', server: 156.146.62.37, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_52', server: 193.176.86.196, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_53', server: 185.76.9.56, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: 'cfmem.com_🇮🇳_IN_印度_1', server: in1-1.noojat.com, port: 1443, type: trojan, password: 7x42LetRa0}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_54', server: 185.76.9.56, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_55', server: 185.76.9.56, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_53', server: 193.176.86.198, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_56', server: 185.76.9.56, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_54', server: 193.176.86.198, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_57', server: 185.76.9.56, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_15', server: azhk3.zz123.xyz, port: 17862, type: vmess, uuid: f9106e1e-f566-37c2-8948-07b0de7ebe3f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_58', server: 195.181.166.225, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_59', server: 195.181.166.225, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_60', server: 185.76.9.56, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_61', server: 195.181.166.225, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_62', server: 195.181.166.225, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_63', server: 185.76.9.56, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_55', server: 193.176.86.198, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_64', server: 195.181.166.225, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_65', server: 195.181.166.225, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_66', server: 195.181.166.225, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_67', server: 195.181.166.225, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 'cfmem.com_🇨🇭_CH_瑞士_11', server: 156.146.62.37, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_68', server: 185.76.9.56, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_56', server: 193.176.86.196, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_57', server: 193.108.118.2, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_69', server: 195.181.166.225, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_70', server: 195.181.166.225, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_71', server: 195.181.166.225, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_72', server: 195.181.166.225, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_73', server: 195.181.166.225, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_58', server: 193.176.86.198, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_59', server: 193.176.86.198, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_60', server: 193.176.86.198, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 'cfmem.com_🇰🇷_KR_韩国_4', server: 61.14.210.232, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 'cfmem.com_🇺🇸_US_美国_36', server: vmess.ifuckgfw.ga, port: 8443, type: vmess, uuid: 097b8f9e-2d7d-11ec-8efb-00163cf0ed57, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /uaAovjKU/, ws-headers: {Host: vmess.ifuckgfw.ga}}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_61', server: 193.108.118.2, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_74', server: 185.76.9.56, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_75', server: 195.181.166.225, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_76', server: 195.181.166.225, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_77', server: 195.181.166.225, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_78', server: 195.181.166.225, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_79', server: 195.181.166.225, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_62', server: 193.176.86.196, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
+  - {name: 'cfmem.com_🇺🇸_US_美国_37', server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_80', server: 195.181.166.225, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_81', server: 195.181.166.225, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: 'cfmem.com_🇨🇭_CH_瑞士_12', server: 156.146.62.37, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 'cfmem.com_🇨🇭_CH_瑞士_13', server: 156.146.62.37, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 'cfmem.com_🇭🇰_HK_香港_16', server: azhk3.zz123.xyz, port: 15724, type: vmess, uuid: 98d8d210-2db3-3fe6-8474-797dc7a475c2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_63', server: 193.176.86.198, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_82', server: 195.181.166.225, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_83', server: 195.181.166.225, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_84', server: 195.181.166.225, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_85', server: 195.181.166.225, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_64', server: 193.176.86.196, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_86', server: 195.181.166.225, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_87', server: 195.181.166.225, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: 'cfmem.com_🇸🇪_SE_瑞典_88', server: 195.181.166.225, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 'cfmem.com_🇨🇭_CH_瑞士_14', server: 156.146.62.37, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: 'cfmem.com_🇺🇸_US_美国_38', server: 167.88.61.70, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_65', server: 193.176.86.196, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
+  - {name: 'cfmem.com_🇩🇪_DE_德国_66', server: 193.176.86.198, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
+      - cfmem.com_🇨🇳_CN_中国_1
+      - cfmem.com_🇯🇵_JP_日本_1
+      - cfmem.com_🇭🇰_HK_香港_1
+      - cfmem.com_🇨🇳_CN_中国_2
+      - cfmem.com_🇨🇳_CN_中国_3
+      - cfmem.com_🇭🇰_HK_香港_2
+      - cfmem.com_🇰🇷_KR_韩国_1
+      - cfmem.com_🇰🇷_KR_韩国_2
+      - cfmem.com_🇰🇷_KR_韩国_3
+      - cfmem.com_🇺🇸_US_美国_1
+      - cfmem.com_🇺🇸_US_美国_2
+      - cfmem.com_🇭🇰_HK_香港_3
+      - cfmem.com_🇭🇰_HK_香港_4
+      - cfmem.com_🇺🇸_US_美国_3
+      - cfmem.com_🇭🇰_HK_香港_5
+      - cfmem.com_🇺🇸_US_美国_4
+      - cfmem.com_🇩🇪_DE_德国_1
+      - cfmem.com_🇺🇸_US_美国_5
+      - cfmem.com_🇭🇰_HK_香港_6
+      - cfmem.com_🇩🇪_DE_德国_2
+      - cfmem.com_🇩🇪_DE_德国_3
+      - cfmem.com_🇨🇳_CN_中国_4
+      - cfmem.com_🇭🇰_HK_香港_7
+      - cfmem.com_🇺🇸_US_美国_6
+      - cfmem.com_🇸🇪_SE_瑞典_1
+      - cfmem.com_🇸🇪_SE_瑞典_2
+      - cfmem.com_🇩🇪_DE_德国_4
+      - cfmem.com_🇸🇪_SE_瑞典_3
+      - cfmem.com_🇩🇪_DE_德国_5
+      - cfmem.com_🇺🇸_US_美国_7
+      - cfmem.com_🇭🇰_HK_香港_8
+      - cfmem.com_🇩🇪_DE_德国_6
+      - cfmem.com_🇭🇰_HK_香港_9
+      - cfmem.com_🇸🇪_SE_瑞典_4
+      - cfmem.com_🇸🇪_SE_瑞典_5
+      - cfmem.com_🇺🇸_US_美国_8
+      - cfmem.com_🇺🇸_US_美国_9
+      - cfmem.com_🇨🇭_CH_瑞士_1
+      - cfmem.com_🇺🇸_US_美国_10
+      - cfmem.com_🇸🇪_SE_瑞典_6
+      - cfmem.com_🇩🇪_DE_德国_7
+      - cfmem.com_🇺🇸_US_美国_11
+      - cfmem.com_🇺🇸_US_美国_12
+      - cfmem.com_🇭🇰_HK_香港_10
+      - cfmem.com_🇸🇪_SE_瑞典_7
+      - cfmem.com_🇸🇪_SE_瑞典_8
+      - cfmem.com_🇩🇪_DE_德国_8
+      - cfmem.com_🇩🇪_DE_德国_9
+      - cfmem.com_🇩🇪_DE_德国_10
+      - cfmem.com_🇸🇪_SE_瑞典_9
+      - cfmem.com_🇩🇪_DE_德国_11
+      - cfmem.com_🇨🇭_CH_瑞士_2
+      - cfmem.com_🇺🇸_US_美国_13
+      - cfmem.com_🇩🇪_DE_德国_12
+      - cfmem.com_🇸🇪_SE_瑞典_10
+      - cfmem.com_🇺🇸_US_美国_14
+      - cfmem.com_🇸🇪_SE_瑞典_11
+      - cfmem.com_🇨🇭_CH_瑞士_3
+      - cfmem.com_🇺🇸_US_美国_15
+      - cfmem.com_🇺🇸_US_美国_16
+      - cfmem.com_🇸🇪_SE_瑞典_12
+      - cfmem.com_🇸🇪_SE_瑞典_13
+      - cfmem.com_🇸🇪_SE_瑞典_14
+      - cfmem.com_🇸🇪_SE_瑞典_15
+      - cfmem.com_🇸🇪_SE_瑞典_16
+      - cfmem.com_🇩🇪_DE_德国_13
+      - cfmem.com_🇸🇪_SE_瑞典_17
+      - cfmem.com_🇭🇰_HK_香港_11
+      - cfmem.com_🇸🇪_SE_瑞典_18
+      - cfmem.com_🇸🇪_SE_瑞典_19
+      - cfmem.com_🇩🇪_DE_德国_14
+      - cfmem.com_🇸🇪_SE_瑞典_20
+      - cfmem.com_🇩🇪_DE_德国_15
+      - cfmem.com_🇸🇪_SE_瑞典_21
+      - cfmem.com_🇺🇸_US_美国_17
+      - cfmem.com_🇸🇪_SE_瑞典_22
+      - cfmem.com_🇩🇪_DE_德国_16
+      - cfmem.com_🇸🇪_SE_瑞典_23
+      - cfmem.com_🇺🇸_US_美国_18
+      - cfmem.com_🇩🇪_DE_德国_17
+      - cfmem.com_🇺🇸_US_美国_19
+      - cfmem.com_🇺🇸_US_美国_20
+      - cfmem.com_🇸🇪_SE_瑞典_24
+      - cfmem.com_🇺🇸_US_美国_21
+      - cfmem.com_🇭🇰_HK_香港_12
+      - cfmem.com_🇸🇪_SE_瑞典_25
+      - cfmem.com_🇸🇪_SE_瑞典_26
+      - cfmem.com_🇸🇪_SE_瑞典_27
+      - cfmem.com_🇺🇸_US_美国_22
+      - cfmem.com_🇺🇸_US_美国_23
+      - cfmem.com_🇺🇸_US_美国_24
+      - cfmem.com_🇸🇪_SE_瑞典_28
+      - cfmem.com_🇩🇪_DE_德国_18
+      - cfmem.com_🇺🇸_US_美国_25
+      - cfmem.com_🇸🇪_SE_瑞典_29
+      - cfmem.com_🇩🇪_DE_德国_19
+      - cfmem.com_🇺🇸_US_美国_26
+      - cfmem.com_🇸🇪_SE_瑞典_30
+      - cfmem.com_🇸🇪_SE_瑞典_31
+      - cfmem.com_🇺🇸_US_美国_27
+      - cfmem.com_🇸🇪_SE_瑞典_32
+      - cfmem.com_🇩🇪_DE_德国_20
+      - cfmem.com_🇨🇭_CH_瑞士_4
+      - cfmem.com_🇩🇪_DE_德国_21
+      - cfmem.com_🇸🇪_SE_瑞典_33
+      - cfmem.com_🇸🇪_SE_瑞典_34
+      - cfmem.com_🇸🇪_SE_瑞典_35
+      - cfmem.com_🇩🇪_DE_德国_22
+      - cfmem.com_🇸🇪_SE_瑞典_36
+      - cfmem.com_🇫🇷_FR_法国_1
+      - cfmem.com_🇨🇭_CH_瑞士_5
+      - cfmem.com_🇺🇸_US_美国_28
+      - cfmem.com_🇺🇸_US_美国_29
+      - cfmem.com_🇩🇪_DE_德国_23
+      - cfmem.com_🇸🇪_SE_瑞典_37
+      - cfmem.com_🇩🇪_DE_德国_24
+      - cfmem.com_🇸🇪_SE_瑞典_38
+      - cfmem.com_🇨🇭_CH_瑞士_6
+      - cfmem.com_🇭🇰_HK_香港_13
+      - cfmem.com_🇩🇪_DE_德国_25
+      - cfmem.com_🇸🇪_SE_瑞典_39
+      - cfmem.com_🇨🇳_CN_中国_5
+      - cfmem.com_🇨🇭_CH_瑞士_7
+      - cfmem.com_🇩🇪_DE_德国_26
+      - cfmem.com_🇨🇭_CH_瑞士_8
+      - cfmem.com_🇩🇪_DE_德国_27
+      - cfmem.com_🇺🇸_US_美国_30
+      - cfmem.com_🇬🇧_GB_英国_1
+      - cfmem.com_🇺🇸_US_美国_31
+      - cfmem.com_🇺🇸_US_美国_32
+      - cfmem.com_🇸🇪_SE_瑞典_40
+      - cfmem.com_🇩🇪_DE_德国_28
+      - cfmem.com_🇨🇳_CN_中国_6
+      - cfmem.com_🇩🇪_DE_德国_29
+      - cfmem.com_🇩🇪_DE_德国_30
+      - cfmem.com_🇩🇪_DE_德国_31
+      - cfmem.com_🇺🇸_US_美国_33
+      - cfmem.com_🇭🇰_HK_香港_14
+      - cfmem.com_🇨🇦_CA_加拿大_1
+      - cfmem.com_🇺🇸_US_美国_34
+      - cfmem.com_🇸🇪_SE_瑞典_41
+      - cfmem.com_🇩🇪_DE_德国_32
+      - cfmem.com_🇺🇸_US_美国_35
+      - cfmem.com_🇩🇪_DE_德国_33
+      - cfmem.com_🇩🇪_DE_德国_34
+      - cfmem.com_🇩🇪_DE_德国_35
+      - cfmem.com_🇩🇪_DE_德国_36
+      - cfmem.com_🇸🇪_SE_瑞典_42
+      - cfmem.com_🇩🇪_DE_德国_37
+      - cfmem.com_🇨🇳_CN_中国_7
+      - cfmem.com_🇩🇪_DE_德国_38
+      - cfmem.com_🇸🇪_SE_瑞典_43
+      - cfmem.com_🇩🇪_DE_德国_39
+      - cfmem.com_🇩🇪_DE_德国_40
+      - cfmem.com_🇸🇪_SE_瑞典_44
+      - cfmem.com_🇩🇪_DE_德国_41
+      - cfmem.com_🇩🇪_DE_德国_42
+      - cfmem.com_🇸🇪_SE_瑞典_45
+      - cfmem.com_🇸🇪_SE_瑞典_46
+      - cfmem.com_🇩🇪_DE_德国_43
+      - cfmem.com_🇨🇭_CH_瑞士_9
+      - cfmem.com_🇩🇪_DE_德国_44
+      - cfmem.com_🇩🇪_DE_德国_45
+      - cfmem.com_🇩🇪_DE_德国_46
+      - cfmem.com_🇸🇪_SE_瑞典_47
+      - cfmem.com_🇩🇪_DE_德国_47
+      - cfmem.com_🇩🇪_DE_德国_48
+      - cfmem.com_🇸🇪_SE_瑞典_48
+      - cfmem.com_🇸🇪_SE_瑞典_49
+      - cfmem.com_🇩🇪_DE_德国_49
+      - cfmem.com_🇩🇪_DE_德国_50
+      - cfmem.com_🇩🇪_DE_德国_51
+      - cfmem.com_🇨🇦_CA_加拿大_2
+      - cfmem.com_🇸🇪_SE_瑞典_50
+      - cfmem.com_🇸🇪_SE_瑞典_51
+      - cfmem.com_🇸🇪_SE_瑞典_52
+      - cfmem.com_🇨🇭_CH_瑞士_10
+      - cfmem.com_🇩🇪_DE_德国_52
+      - cfmem.com_🇸🇪_SE_瑞典_53
+      - cfmem.com_🇮🇳_IN_印度_1
+      - cfmem.com_🇸🇪_SE_瑞典_54
+      - cfmem.com_🇸🇪_SE_瑞典_55
+      - cfmem.com_🇩🇪_DE_德国_53
+      - cfmem.com_🇸🇪_SE_瑞典_56
+      - cfmem.com_🇩🇪_DE_德国_54
+      - cfmem.com_🇸🇪_SE_瑞典_57
+      - cfmem.com_🇭🇰_HK_香港_15
+      - cfmem.com_🇸🇪_SE_瑞典_58
+      - cfmem.com_🇸🇪_SE_瑞典_59
+      - cfmem.com_🇸🇪_SE_瑞典_60
+      - cfmem.com_🇸🇪_SE_瑞典_61
+      - cfmem.com_🇸🇪_SE_瑞典_62
+      - cfmem.com_🇸🇪_SE_瑞典_63
+      - cfmem.com_🇩🇪_DE_德国_55
+      - cfmem.com_🇸🇪_SE_瑞典_64
+      - cfmem.com_🇸🇪_SE_瑞典_65
+      - cfmem.com_🇸🇪_SE_瑞典_66
+      - cfmem.com_🇸🇪_SE_瑞典_67
+      - cfmem.com_🇨🇭_CH_瑞士_11
+      - cfmem.com_🇸🇪_SE_瑞典_68
+      - cfmem.com_🇩🇪_DE_德国_56
+      - cfmem.com_🇩🇪_DE_德国_57
+      - cfmem.com_🇸🇪_SE_瑞典_69
+      - cfmem.com_🇸🇪_SE_瑞典_70
+      - cfmem.com_🇸🇪_SE_瑞典_71
+      - cfmem.com_🇸🇪_SE_瑞典_72
+      - cfmem.com_🇸🇪_SE_瑞典_73
+      - cfmem.com_🇩🇪_DE_德国_58
+      - cfmem.com_🇩🇪_DE_德国_59
+      - cfmem.com_🇩🇪_DE_德国_60
+      - cfmem.com_🇰🇷_KR_韩国_4
+      - cfmem.com_🇺🇸_US_美国_36
+      - cfmem.com_🇩🇪_DE_德国_61
+      - cfmem.com_🇸🇪_SE_瑞典_74
+      - cfmem.com_🇸🇪_SE_瑞典_75
+      - cfmem.com_🇸🇪_SE_瑞典_76
+      - cfmem.com_🇸🇪_SE_瑞典_77
+      - cfmem.com_🇸🇪_SE_瑞典_78
+      - cfmem.com_🇸🇪_SE_瑞典_79
+      - cfmem.com_🇩🇪_DE_德国_62
+      - cfmem.com_🇺🇸_US_美国_37
+      - cfmem.com_🇸🇪_SE_瑞典_80
+      - cfmem.com_🇸🇪_SE_瑞典_81
+      - cfmem.com_🇨🇭_CH_瑞士_12
+      - cfmem.com_🇨🇭_CH_瑞士_13
+      - cfmem.com_🇭🇰_HK_香港_16
+      - cfmem.com_🇩🇪_DE_德国_63
+      - cfmem.com_🇸🇪_SE_瑞典_82
+      - cfmem.com_🇸🇪_SE_瑞典_83
+      - cfmem.com_🇸🇪_SE_瑞典_84
+      - cfmem.com_🇸🇪_SE_瑞典_85
+      - cfmem.com_🇩🇪_DE_德国_64
+      - cfmem.com_🇸🇪_SE_瑞典_86
+      - cfmem.com_🇸🇪_SE_瑞典_87
+      - cfmem.com_🇸🇪_SE_瑞典_88
+      - cfmem.com_🇨🇭_CH_瑞士_14
+      - cfmem.com_🇺🇸_US_美国_38
+      - cfmem.com_🇩🇪_DE_德国_65
+      - cfmem.com_🇩🇪_DE_德国_66
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
+      - cfmem.com_🇨🇳_CN_中国_1
+      - cfmem.com_🇯🇵_JP_日本_1
+      - cfmem.com_🇭🇰_HK_香港_1
+      - cfmem.com_🇨🇳_CN_中国_2
+      - cfmem.com_🇨🇳_CN_中国_3
+      - cfmem.com_🇭🇰_HK_香港_2
+      - cfmem.com_🇰🇷_KR_韩国_1
+      - cfmem.com_🇰🇷_KR_韩国_2
+      - cfmem.com_🇰🇷_KR_韩国_3
+      - cfmem.com_🇺🇸_US_美国_1
+      - cfmem.com_🇺🇸_US_美国_2
+      - cfmem.com_🇭🇰_HK_香港_3
+      - cfmem.com_🇭🇰_HK_香港_4
+      - cfmem.com_🇺🇸_US_美国_3
+      - cfmem.com_🇭🇰_HK_香港_5
+      - cfmem.com_🇺🇸_US_美国_4
+      - cfmem.com_🇩🇪_DE_德国_1
+      - cfmem.com_🇺🇸_US_美国_5
+      - cfmem.com_🇭🇰_HK_香港_6
+      - cfmem.com_🇩🇪_DE_德国_2
+      - cfmem.com_🇩🇪_DE_德国_3
+      - cfmem.com_🇨🇳_CN_中国_4
+      - cfmem.com_🇭🇰_HK_香港_7
+      - cfmem.com_🇺🇸_US_美国_6
+      - cfmem.com_🇸🇪_SE_瑞典_1
+      - cfmem.com_🇸🇪_SE_瑞典_2
+      - cfmem.com_🇩🇪_DE_德国_4
+      - cfmem.com_🇸🇪_SE_瑞典_3
+      - cfmem.com_🇩🇪_DE_德国_5
+      - cfmem.com_🇺🇸_US_美国_7
+      - cfmem.com_🇭🇰_HK_香港_8
+      - cfmem.com_🇩🇪_DE_德国_6
+      - cfmem.com_🇭🇰_HK_香港_9
+      - cfmem.com_🇸🇪_SE_瑞典_4
+      - cfmem.com_🇸🇪_SE_瑞典_5
+      - cfmem.com_🇺🇸_US_美国_8
+      - cfmem.com_🇺🇸_US_美国_9
+      - cfmem.com_🇨🇭_CH_瑞士_1
+      - cfmem.com_🇺🇸_US_美国_10
+      - cfmem.com_🇸🇪_SE_瑞典_6
+      - cfmem.com_🇩🇪_DE_德国_7
+      - cfmem.com_🇺🇸_US_美国_11
+      - cfmem.com_🇺🇸_US_美国_12
+      - cfmem.com_🇭🇰_HK_香港_10
+      - cfmem.com_🇸🇪_SE_瑞典_7
+      - cfmem.com_🇸🇪_SE_瑞典_8
+      - cfmem.com_🇩🇪_DE_德国_8
+      - cfmem.com_🇩🇪_DE_德国_9
+      - cfmem.com_🇩🇪_DE_德国_10
+      - cfmem.com_🇸🇪_SE_瑞典_9
+      - cfmem.com_🇩🇪_DE_德国_11
+      - cfmem.com_🇨🇭_CH_瑞士_2
+      - cfmem.com_🇺🇸_US_美国_13
+      - cfmem.com_🇩🇪_DE_德国_12
+      - cfmem.com_🇸🇪_SE_瑞典_10
+      - cfmem.com_🇺🇸_US_美国_14
+      - cfmem.com_🇸🇪_SE_瑞典_11
+      - cfmem.com_🇨🇭_CH_瑞士_3
+      - cfmem.com_🇺🇸_US_美国_15
+      - cfmem.com_🇺🇸_US_美国_16
+      - cfmem.com_🇸🇪_SE_瑞典_12
+      - cfmem.com_🇸🇪_SE_瑞典_13
+      - cfmem.com_🇸🇪_SE_瑞典_14
+      - cfmem.com_🇸🇪_SE_瑞典_15
+      - cfmem.com_🇸🇪_SE_瑞典_16
+      - cfmem.com_🇩🇪_DE_德国_13
+      - cfmem.com_🇸🇪_SE_瑞典_17
+      - cfmem.com_🇭🇰_HK_香港_11
+      - cfmem.com_🇸🇪_SE_瑞典_18
+      - cfmem.com_🇸🇪_SE_瑞典_19
+      - cfmem.com_🇩🇪_DE_德国_14
+      - cfmem.com_🇸🇪_SE_瑞典_20
+      - cfmem.com_🇩🇪_DE_德国_15
+      - cfmem.com_🇸🇪_SE_瑞典_21
+      - cfmem.com_🇺🇸_US_美国_17
+      - cfmem.com_🇸🇪_SE_瑞典_22
+      - cfmem.com_🇩🇪_DE_德国_16
+      - cfmem.com_🇸🇪_SE_瑞典_23
+      - cfmem.com_🇺🇸_US_美国_18
+      - cfmem.com_🇩🇪_DE_德国_17
+      - cfmem.com_🇺🇸_US_美国_19
+      - cfmem.com_🇺🇸_US_美国_20
+      - cfmem.com_🇸🇪_SE_瑞典_24
+      - cfmem.com_🇺🇸_US_美国_21
+      - cfmem.com_🇭🇰_HK_香港_12
+      - cfmem.com_🇸🇪_SE_瑞典_25
+      - cfmem.com_🇸🇪_SE_瑞典_26
+      - cfmem.com_🇸🇪_SE_瑞典_27
+      - cfmem.com_🇺🇸_US_美国_22
+      - cfmem.com_🇺🇸_US_美国_23
+      - cfmem.com_🇺🇸_US_美国_24
+      - cfmem.com_🇸🇪_SE_瑞典_28
+      - cfmem.com_🇩🇪_DE_德国_18
+      - cfmem.com_🇺🇸_US_美国_25
+      - cfmem.com_🇸🇪_SE_瑞典_29
+      - cfmem.com_🇩🇪_DE_德国_19
+      - cfmem.com_🇺🇸_US_美国_26
+      - cfmem.com_🇸🇪_SE_瑞典_30
+      - cfmem.com_🇸🇪_SE_瑞典_31
+      - cfmem.com_🇺🇸_US_美国_27
+      - cfmem.com_🇸🇪_SE_瑞典_32
+      - cfmem.com_🇩🇪_DE_德国_20
+      - cfmem.com_🇨🇭_CH_瑞士_4
+      - cfmem.com_🇩🇪_DE_德国_21
+      - cfmem.com_🇸🇪_SE_瑞典_33
+      - cfmem.com_🇸🇪_SE_瑞典_34
+      - cfmem.com_🇸🇪_SE_瑞典_35
+      - cfmem.com_🇩🇪_DE_德国_22
+      - cfmem.com_🇸🇪_SE_瑞典_36
+      - cfmem.com_🇫🇷_FR_法国_1
+      - cfmem.com_🇨🇭_CH_瑞士_5
+      - cfmem.com_🇺🇸_US_美国_28
+      - cfmem.com_🇺🇸_US_美国_29
+      - cfmem.com_🇩🇪_DE_德国_23
+      - cfmem.com_🇸🇪_SE_瑞典_37
+      - cfmem.com_🇩🇪_DE_德国_24
+      - cfmem.com_🇸🇪_SE_瑞典_38
+      - cfmem.com_🇨🇭_CH_瑞士_6
+      - cfmem.com_🇭🇰_HK_香港_13
+      - cfmem.com_🇩🇪_DE_德国_25
+      - cfmem.com_🇸🇪_SE_瑞典_39
+      - cfmem.com_🇨🇳_CN_中国_5
+      - cfmem.com_🇨🇭_CH_瑞士_7
+      - cfmem.com_🇩🇪_DE_德国_26
+      - cfmem.com_🇨🇭_CH_瑞士_8
+      - cfmem.com_🇩🇪_DE_德国_27
+      - cfmem.com_🇺🇸_US_美国_30
+      - cfmem.com_🇬🇧_GB_英国_1
+      - cfmem.com_🇺🇸_US_美国_31
+      - cfmem.com_🇺🇸_US_美国_32
+      - cfmem.com_🇸🇪_SE_瑞典_40
+      - cfmem.com_🇩🇪_DE_德国_28
+      - cfmem.com_🇨🇳_CN_中国_6
+      - cfmem.com_🇩🇪_DE_德国_29
+      - cfmem.com_🇩🇪_DE_德国_30
+      - cfmem.com_🇩🇪_DE_德国_31
+      - cfmem.com_🇺🇸_US_美国_33
+      - cfmem.com_🇭🇰_HK_香港_14
+      - cfmem.com_🇨🇦_CA_加拿大_1
+      - cfmem.com_🇺🇸_US_美国_34
+      - cfmem.com_🇸🇪_SE_瑞典_41
+      - cfmem.com_🇩🇪_DE_德国_32
+      - cfmem.com_🇺🇸_US_美国_35
+      - cfmem.com_🇩🇪_DE_德国_33
+      - cfmem.com_🇩🇪_DE_德国_34
+      - cfmem.com_🇩🇪_DE_德国_35
+      - cfmem.com_🇩🇪_DE_德国_36
+      - cfmem.com_🇸🇪_SE_瑞典_42
+      - cfmem.com_🇩🇪_DE_德国_37
+      - cfmem.com_🇨🇳_CN_中国_7
+      - cfmem.com_🇩🇪_DE_德国_38
+      - cfmem.com_🇸🇪_SE_瑞典_43
+      - cfmem.com_🇩🇪_DE_德国_39
+      - cfmem.com_🇩🇪_DE_德国_40
+      - cfmem.com_🇸🇪_SE_瑞典_44
+      - cfmem.com_🇩🇪_DE_德国_41
+      - cfmem.com_🇩🇪_DE_德国_42
+      - cfmem.com_🇸🇪_SE_瑞典_45
+      - cfmem.com_🇸🇪_SE_瑞典_46
+      - cfmem.com_🇩🇪_DE_德国_43
+      - cfmem.com_🇨🇭_CH_瑞士_9
+      - cfmem.com_🇩🇪_DE_德国_44
+      - cfmem.com_🇩🇪_DE_德国_45
+      - cfmem.com_🇩🇪_DE_德国_46
+      - cfmem.com_🇸🇪_SE_瑞典_47
+      - cfmem.com_🇩🇪_DE_德国_47
+      - cfmem.com_🇩🇪_DE_德国_48
+      - cfmem.com_🇸🇪_SE_瑞典_48
+      - cfmem.com_🇸🇪_SE_瑞典_49
+      - cfmem.com_🇩🇪_DE_德国_49
+      - cfmem.com_🇩🇪_DE_德国_50
+      - cfmem.com_🇩🇪_DE_德国_51
+      - cfmem.com_🇨🇦_CA_加拿大_2
+      - cfmem.com_🇸🇪_SE_瑞典_50
+      - cfmem.com_🇸🇪_SE_瑞典_51
+      - cfmem.com_🇸🇪_SE_瑞典_52
+      - cfmem.com_🇨🇭_CH_瑞士_10
+      - cfmem.com_🇩🇪_DE_德国_52
+      - cfmem.com_🇸🇪_SE_瑞典_53
+      - cfmem.com_🇮🇳_IN_印度_1
+      - cfmem.com_🇸🇪_SE_瑞典_54
+      - cfmem.com_🇸🇪_SE_瑞典_55
+      - cfmem.com_🇩🇪_DE_德国_53
+      - cfmem.com_🇸🇪_SE_瑞典_56
+      - cfmem.com_🇩🇪_DE_德国_54
+      - cfmem.com_🇸🇪_SE_瑞典_57
+      - cfmem.com_🇭🇰_HK_香港_15
+      - cfmem.com_🇸🇪_SE_瑞典_58
+      - cfmem.com_🇸🇪_SE_瑞典_59
+      - cfmem.com_🇸🇪_SE_瑞典_60
+      - cfmem.com_🇸🇪_SE_瑞典_61
+      - cfmem.com_🇸🇪_SE_瑞典_62
+      - cfmem.com_🇸🇪_SE_瑞典_63
+      - cfmem.com_🇩🇪_DE_德国_55
+      - cfmem.com_🇸🇪_SE_瑞典_64
+      - cfmem.com_🇸🇪_SE_瑞典_65
+      - cfmem.com_🇸🇪_SE_瑞典_66
+      - cfmem.com_🇸🇪_SE_瑞典_67
+      - cfmem.com_🇨🇭_CH_瑞士_11
+      - cfmem.com_🇸🇪_SE_瑞典_68
+      - cfmem.com_🇩🇪_DE_德国_56
+      - cfmem.com_🇩🇪_DE_德国_57
+      - cfmem.com_🇸🇪_SE_瑞典_69
+      - cfmem.com_🇸🇪_SE_瑞典_70
+      - cfmem.com_🇸🇪_SE_瑞典_71
+      - cfmem.com_🇸🇪_SE_瑞典_72
+      - cfmem.com_🇸🇪_SE_瑞典_73
+      - cfmem.com_🇩🇪_DE_德国_58
+      - cfmem.com_🇩🇪_DE_德国_59
+      - cfmem.com_🇩🇪_DE_德国_60
+      - cfmem.com_🇰🇷_KR_韩国_4
+      - cfmem.com_🇺🇸_US_美国_36
+      - cfmem.com_🇩🇪_DE_德国_61
+      - cfmem.com_🇸🇪_SE_瑞典_74
+      - cfmem.com_🇸🇪_SE_瑞典_75
+      - cfmem.com_🇸🇪_SE_瑞典_76
+      - cfmem.com_🇸🇪_SE_瑞典_77
+      - cfmem.com_🇸🇪_SE_瑞典_78
+      - cfmem.com_🇸🇪_SE_瑞典_79
+      - cfmem.com_🇩🇪_DE_德国_62
+      - cfmem.com_🇺🇸_US_美国_37
+      - cfmem.com_🇸🇪_SE_瑞典_80
+      - cfmem.com_🇸🇪_SE_瑞典_81
+      - cfmem.com_🇨🇭_CH_瑞士_12
+      - cfmem.com_🇨🇭_CH_瑞士_13
+      - cfmem.com_🇭🇰_HK_香港_16
+      - cfmem.com_🇩🇪_DE_德国_63
+      - cfmem.com_🇸🇪_SE_瑞典_82
+      - cfmem.com_🇸🇪_SE_瑞典_83
+      - cfmem.com_🇸🇪_SE_瑞典_84
+      - cfmem.com_🇸🇪_SE_瑞典_85
+      - cfmem.com_🇩🇪_DE_德国_64
+      - cfmem.com_🇸🇪_SE_瑞典_86
+      - cfmem.com_🇸🇪_SE_瑞典_87
+      - cfmem.com_🇸🇪_SE_瑞典_88
+      - cfmem.com_🇨🇭_CH_瑞士_14
+      - cfmem.com_🇺🇸_US_美国_38
+      - cfmem.com_🇩🇪_DE_德国_65
+      - cfmem.com_🇩🇪_DE_德国_66
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
+      - cfmem.com_🇨🇳_CN_中国_1
+      - cfmem.com_🇯🇵_JP_日本_1
+      - cfmem.com_🇭🇰_HK_香港_1
+      - cfmem.com_🇨🇳_CN_中国_2
+      - cfmem.com_🇨🇳_CN_中国_3
+      - cfmem.com_🇭🇰_HK_香港_2
+      - cfmem.com_🇰🇷_KR_韩国_1
+      - cfmem.com_🇰🇷_KR_韩国_2
+      - cfmem.com_🇰🇷_KR_韩国_3
+      - cfmem.com_🇺🇸_US_美国_1
+      - cfmem.com_🇺🇸_US_美国_2
+      - cfmem.com_🇭🇰_HK_香港_3
+      - cfmem.com_🇭🇰_HK_香港_4
+      - cfmem.com_🇺🇸_US_美国_3
+      - cfmem.com_🇭🇰_HK_香港_5
+      - cfmem.com_🇺🇸_US_美国_4
+      - cfmem.com_🇩🇪_DE_德国_1
+      - cfmem.com_🇺🇸_US_美国_5
+      - cfmem.com_🇭🇰_HK_香港_6
+      - cfmem.com_🇩🇪_DE_德国_2
+      - cfmem.com_🇩🇪_DE_德国_3
+      - cfmem.com_🇨🇳_CN_中国_4
+      - cfmem.com_🇭🇰_HK_香港_7
+      - cfmem.com_🇺🇸_US_美国_6
+      - cfmem.com_🇸🇪_SE_瑞典_1
+      - cfmem.com_🇸🇪_SE_瑞典_2
+      - cfmem.com_🇩🇪_DE_德国_4
+      - cfmem.com_🇸🇪_SE_瑞典_3
+      - cfmem.com_🇩🇪_DE_德国_5
+      - cfmem.com_🇺🇸_US_美国_7
+      - cfmem.com_🇭🇰_HK_香港_8
+      - cfmem.com_🇩🇪_DE_德国_6
+      - cfmem.com_🇭🇰_HK_香港_9
+      - cfmem.com_🇸🇪_SE_瑞典_4
+      - cfmem.com_🇸🇪_SE_瑞典_5
+      - cfmem.com_🇺🇸_US_美国_8
+      - cfmem.com_🇺🇸_US_美国_9
+      - cfmem.com_🇨🇭_CH_瑞士_1
+      - cfmem.com_🇺🇸_US_美国_10
+      - cfmem.com_🇸🇪_SE_瑞典_6
+      - cfmem.com_🇩🇪_DE_德国_7
+      - cfmem.com_🇺🇸_US_美国_11
+      - cfmem.com_🇺🇸_US_美国_12
+      - cfmem.com_🇭🇰_HK_香港_10
+      - cfmem.com_🇸🇪_SE_瑞典_7
+      - cfmem.com_🇸🇪_SE_瑞典_8
+      - cfmem.com_🇩🇪_DE_德国_8
+      - cfmem.com_🇩🇪_DE_德国_9
+      - cfmem.com_🇩🇪_DE_德国_10
+      - cfmem.com_🇸🇪_SE_瑞典_9
+      - cfmem.com_🇩🇪_DE_德国_11
+      - cfmem.com_🇨🇭_CH_瑞士_2
+      - cfmem.com_🇺🇸_US_美国_13
+      - cfmem.com_🇩🇪_DE_德国_12
+      - cfmem.com_🇸🇪_SE_瑞典_10
+      - cfmem.com_🇺🇸_US_美国_14
+      - cfmem.com_🇸🇪_SE_瑞典_11
+      - cfmem.com_🇨🇭_CH_瑞士_3
+      - cfmem.com_🇺🇸_US_美国_15
+      - cfmem.com_🇺🇸_US_美国_16
+      - cfmem.com_🇸🇪_SE_瑞典_12
+      - cfmem.com_🇸🇪_SE_瑞典_13
+      - cfmem.com_🇸🇪_SE_瑞典_14
+      - cfmem.com_🇸🇪_SE_瑞典_15
+      - cfmem.com_🇸🇪_SE_瑞典_16
+      - cfmem.com_🇩🇪_DE_德国_13
+      - cfmem.com_🇸🇪_SE_瑞典_17
+      - cfmem.com_🇭🇰_HK_香港_11
+      - cfmem.com_🇸🇪_SE_瑞典_18
+      - cfmem.com_🇸🇪_SE_瑞典_19
+      - cfmem.com_🇩🇪_DE_德国_14
+      - cfmem.com_🇸🇪_SE_瑞典_20
+      - cfmem.com_🇩🇪_DE_德国_15
+      - cfmem.com_🇸🇪_SE_瑞典_21
+      - cfmem.com_🇺🇸_US_美国_17
+      - cfmem.com_🇸🇪_SE_瑞典_22
+      - cfmem.com_🇩🇪_DE_德国_16
+      - cfmem.com_🇸🇪_SE_瑞典_23
+      - cfmem.com_🇺🇸_US_美国_18
+      - cfmem.com_🇩🇪_DE_德国_17
+      - cfmem.com_🇺🇸_US_美国_19
+      - cfmem.com_🇺🇸_US_美国_20
+      - cfmem.com_🇸🇪_SE_瑞典_24
+      - cfmem.com_🇺🇸_US_美国_21
+      - cfmem.com_🇭🇰_HK_香港_12
+      - cfmem.com_🇸🇪_SE_瑞典_25
+      - cfmem.com_🇸🇪_SE_瑞典_26
+      - cfmem.com_🇸🇪_SE_瑞典_27
+      - cfmem.com_🇺🇸_US_美国_22
+      - cfmem.com_🇺🇸_US_美国_23
+      - cfmem.com_🇺🇸_US_美国_24
+      - cfmem.com_🇸🇪_SE_瑞典_28
+      - cfmem.com_🇩🇪_DE_德国_18
+      - cfmem.com_🇺🇸_US_美国_25
+      - cfmem.com_🇸🇪_SE_瑞典_29
+      - cfmem.com_🇩🇪_DE_德国_19
+      - cfmem.com_🇺🇸_US_美国_26
+      - cfmem.com_🇸🇪_SE_瑞典_30
+      - cfmem.com_🇸🇪_SE_瑞典_31
+      - cfmem.com_🇺🇸_US_美国_27
+      - cfmem.com_🇸🇪_SE_瑞典_32
+      - cfmem.com_🇩🇪_DE_德国_20
+      - cfmem.com_🇨🇭_CH_瑞士_4
+      - cfmem.com_🇩🇪_DE_德国_21
+      - cfmem.com_🇸🇪_SE_瑞典_33
+      - cfmem.com_🇸🇪_SE_瑞典_34
+      - cfmem.com_🇸🇪_SE_瑞典_35
+      - cfmem.com_🇩🇪_DE_德国_22
+      - cfmem.com_🇸🇪_SE_瑞典_36
+      - cfmem.com_🇫🇷_FR_法国_1
+      - cfmem.com_🇨🇭_CH_瑞士_5
+      - cfmem.com_🇺🇸_US_美国_28
+      - cfmem.com_🇺🇸_US_美国_29
+      - cfmem.com_🇩🇪_DE_德国_23
+      - cfmem.com_🇸🇪_SE_瑞典_37
+      - cfmem.com_🇩🇪_DE_德国_24
+      - cfmem.com_🇸🇪_SE_瑞典_38
+      - cfmem.com_🇨🇭_CH_瑞士_6
+      - cfmem.com_🇭🇰_HK_香港_13
+      - cfmem.com_🇩🇪_DE_德国_25
+      - cfmem.com_🇸🇪_SE_瑞典_39
+      - cfmem.com_🇨🇳_CN_中国_5
+      - cfmem.com_🇨🇭_CH_瑞士_7
+      - cfmem.com_🇩🇪_DE_德国_26
+      - cfmem.com_🇨🇭_CH_瑞士_8
+      - cfmem.com_🇩🇪_DE_德国_27
+      - cfmem.com_🇺🇸_US_美国_30
+      - cfmem.com_🇬🇧_GB_英国_1
+      - cfmem.com_🇺🇸_US_美国_31
+      - cfmem.com_🇺🇸_US_美国_32
+      - cfmem.com_🇸🇪_SE_瑞典_40
+      - cfmem.com_🇩🇪_DE_德国_28
+      - cfmem.com_🇨🇳_CN_中国_6
+      - cfmem.com_🇩🇪_DE_德国_29
+      - cfmem.com_🇩🇪_DE_德国_30
+      - cfmem.com_🇩🇪_DE_德国_31
+      - cfmem.com_🇺🇸_US_美国_33
+      - cfmem.com_🇭🇰_HK_香港_14
+      - cfmem.com_🇨🇦_CA_加拿大_1
+      - cfmem.com_🇺🇸_US_美国_34
+      - cfmem.com_🇸🇪_SE_瑞典_41
+      - cfmem.com_🇩🇪_DE_德国_32
+      - cfmem.com_🇺🇸_US_美国_35
+      - cfmem.com_🇩🇪_DE_德国_33
+      - cfmem.com_🇩🇪_DE_德国_34
+      - cfmem.com_🇩🇪_DE_德国_35
+      - cfmem.com_🇩🇪_DE_德国_36
+      - cfmem.com_🇸🇪_SE_瑞典_42
+      - cfmem.com_🇩🇪_DE_德国_37
+      - cfmem.com_🇨🇳_CN_中国_7
+      - cfmem.com_🇩🇪_DE_德国_38
+      - cfmem.com_🇸🇪_SE_瑞典_43
+      - cfmem.com_🇩🇪_DE_德国_39
+      - cfmem.com_🇩🇪_DE_德国_40
+      - cfmem.com_🇸🇪_SE_瑞典_44
+      - cfmem.com_🇩🇪_DE_德国_41
+      - cfmem.com_🇩🇪_DE_德国_42
+      - cfmem.com_🇸🇪_SE_瑞典_45
+      - cfmem.com_🇸🇪_SE_瑞典_46
+      - cfmem.com_🇩🇪_DE_德国_43
+      - cfmem.com_🇨🇭_CH_瑞士_9
+      - cfmem.com_🇩🇪_DE_德国_44
+      - cfmem.com_🇩🇪_DE_德国_45
+      - cfmem.com_🇩🇪_DE_德国_46
+      - cfmem.com_🇸🇪_SE_瑞典_47
+      - cfmem.com_🇩🇪_DE_德国_47
+      - cfmem.com_🇩🇪_DE_德国_48
+      - cfmem.com_🇸🇪_SE_瑞典_48
+      - cfmem.com_🇸🇪_SE_瑞典_49
+      - cfmem.com_🇩🇪_DE_德国_49
+      - cfmem.com_🇩🇪_DE_德国_50
+      - cfmem.com_🇩🇪_DE_德国_51
+      - cfmem.com_🇨🇦_CA_加拿大_2
+      - cfmem.com_🇸🇪_SE_瑞典_50
+      - cfmem.com_🇸🇪_SE_瑞典_51
+      - cfmem.com_🇸🇪_SE_瑞典_52
+      - cfmem.com_🇨🇭_CH_瑞士_10
+      - cfmem.com_🇩🇪_DE_德国_52
+      - cfmem.com_🇸🇪_SE_瑞典_53
+      - cfmem.com_🇮🇳_IN_印度_1
+      - cfmem.com_🇸🇪_SE_瑞典_54
+      - cfmem.com_🇸🇪_SE_瑞典_55
+      - cfmem.com_🇩🇪_DE_德国_53
+      - cfmem.com_🇸🇪_SE_瑞典_56
+      - cfmem.com_🇩🇪_DE_德国_54
+      - cfmem.com_🇸🇪_SE_瑞典_57
+      - cfmem.com_🇭🇰_HK_香港_15
+      - cfmem.com_🇸🇪_SE_瑞典_58
+      - cfmem.com_🇸🇪_SE_瑞典_59
+      - cfmem.com_🇸🇪_SE_瑞典_60
+      - cfmem.com_🇸🇪_SE_瑞典_61
+      - cfmem.com_🇸🇪_SE_瑞典_62
+      - cfmem.com_🇸🇪_SE_瑞典_63
+      - cfmem.com_🇩🇪_DE_德国_55
+      - cfmem.com_🇸🇪_SE_瑞典_64
+      - cfmem.com_🇸🇪_SE_瑞典_65
+      - cfmem.com_🇸🇪_SE_瑞典_66
+      - cfmem.com_🇸🇪_SE_瑞典_67
+      - cfmem.com_🇨🇭_CH_瑞士_11
+      - cfmem.com_🇸🇪_SE_瑞典_68
+      - cfmem.com_🇩🇪_DE_德国_56
+      - cfmem.com_🇩🇪_DE_德国_57
+      - cfmem.com_🇸🇪_SE_瑞典_69
+      - cfmem.com_🇸🇪_SE_瑞典_70
+      - cfmem.com_🇸🇪_SE_瑞典_71
+      - cfmem.com_🇸🇪_SE_瑞典_72
+      - cfmem.com_🇸🇪_SE_瑞典_73
+      - cfmem.com_🇩🇪_DE_德国_58
+      - cfmem.com_🇩🇪_DE_德国_59
+      - cfmem.com_🇩🇪_DE_德国_60
+      - cfmem.com_🇰🇷_KR_韩国_4
+      - cfmem.com_🇺🇸_US_美国_36
+      - cfmem.com_🇩🇪_DE_德国_61
+      - cfmem.com_🇸🇪_SE_瑞典_74
+      - cfmem.com_🇸🇪_SE_瑞典_75
+      - cfmem.com_🇸🇪_SE_瑞典_76
+      - cfmem.com_🇸🇪_SE_瑞典_77
+      - cfmem.com_🇸🇪_SE_瑞典_78
+      - cfmem.com_🇸🇪_SE_瑞典_79
+      - cfmem.com_🇩🇪_DE_德国_62
+      - cfmem.com_🇺🇸_US_美国_37
+      - cfmem.com_🇸🇪_SE_瑞典_80
+      - cfmem.com_🇸🇪_SE_瑞典_81
+      - cfmem.com_🇨🇭_CH_瑞士_12
+      - cfmem.com_🇨🇭_CH_瑞士_13
+      - cfmem.com_🇭🇰_HK_香港_16
+      - cfmem.com_🇩🇪_DE_德国_63
+      - cfmem.com_🇸🇪_SE_瑞典_82
+      - cfmem.com_🇸🇪_SE_瑞典_83
+      - cfmem.com_🇸🇪_SE_瑞典_84
+      - cfmem.com_🇸🇪_SE_瑞典_85
+      - cfmem.com_🇩🇪_DE_德国_64
+      - cfmem.com_🇸🇪_SE_瑞典_86
+      - cfmem.com_🇸🇪_SE_瑞典_87
+      - cfmem.com_🇸🇪_SE_瑞典_88
+      - cfmem.com_🇨🇭_CH_瑞士_14
+      - cfmem.com_🇺🇸_US_美国_38
+      - cfmem.com_🇩🇪_DE_德国_65
+      - cfmem.com_🇩🇪_DE_德国_66
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
+      - cfmem.com_🇨🇳_CN_中国_1
+      - cfmem.com_🇯🇵_JP_日本_1
+      - cfmem.com_🇭🇰_HK_香港_1
+      - cfmem.com_🇨🇳_CN_中国_2
+      - cfmem.com_🇨🇳_CN_中国_3
+      - cfmem.com_🇭🇰_HK_香港_2
+      - cfmem.com_🇰🇷_KR_韩国_1
+      - cfmem.com_🇰🇷_KR_韩国_2
+      - cfmem.com_🇰🇷_KR_韩国_3
+      - cfmem.com_🇺🇸_US_美国_1
+      - cfmem.com_🇺🇸_US_美国_2
+      - cfmem.com_🇭🇰_HK_香港_3
+      - cfmem.com_🇭🇰_HK_香港_4
+      - cfmem.com_🇺🇸_US_美国_3
+      - cfmem.com_🇭🇰_HK_香港_5
+      - cfmem.com_🇺🇸_US_美国_4
+      - cfmem.com_🇩🇪_DE_德国_1
+      - cfmem.com_🇺🇸_US_美国_5
+      - cfmem.com_🇭🇰_HK_香港_6
+      - cfmem.com_🇩🇪_DE_德国_2
+      - cfmem.com_🇩🇪_DE_德国_3
+      - cfmem.com_🇨🇳_CN_中国_4
+      - cfmem.com_🇭🇰_HK_香港_7
+      - cfmem.com_🇺🇸_US_美国_6
+      - cfmem.com_🇸🇪_SE_瑞典_1
+      - cfmem.com_🇸🇪_SE_瑞典_2
+      - cfmem.com_🇩🇪_DE_德国_4
+      - cfmem.com_🇸🇪_SE_瑞典_3
+      - cfmem.com_🇩🇪_DE_德国_5
+      - cfmem.com_🇺🇸_US_美国_7
+      - cfmem.com_🇭🇰_HK_香港_8
+      - cfmem.com_🇩🇪_DE_德国_6
+      - cfmem.com_🇭🇰_HK_香港_9
+      - cfmem.com_🇸🇪_SE_瑞典_4
+      - cfmem.com_🇸🇪_SE_瑞典_5
+      - cfmem.com_🇺🇸_US_美国_8
+      - cfmem.com_🇺🇸_US_美国_9
+      - cfmem.com_🇨🇭_CH_瑞士_1
+      - cfmem.com_🇺🇸_US_美国_10
+      - cfmem.com_🇸🇪_SE_瑞典_6
+      - cfmem.com_🇩🇪_DE_德国_7
+      - cfmem.com_🇺🇸_US_美国_11
+      - cfmem.com_🇺🇸_US_美国_12
+      - cfmem.com_🇭🇰_HK_香港_10
+      - cfmem.com_🇸🇪_SE_瑞典_7
+      - cfmem.com_🇸🇪_SE_瑞典_8
+      - cfmem.com_🇩🇪_DE_德国_8
+      - cfmem.com_🇩🇪_DE_德国_9
+      - cfmem.com_🇩🇪_DE_德国_10
+      - cfmem.com_🇸🇪_SE_瑞典_9
+      - cfmem.com_🇩🇪_DE_德国_11
+      - cfmem.com_🇨🇭_CH_瑞士_2
+      - cfmem.com_🇺🇸_US_美国_13
+      - cfmem.com_🇩🇪_DE_德国_12
+      - cfmem.com_🇸🇪_SE_瑞典_10
+      - cfmem.com_🇺🇸_US_美国_14
+      - cfmem.com_🇸🇪_SE_瑞典_11
+      - cfmem.com_🇨🇭_CH_瑞士_3
+      - cfmem.com_🇺🇸_US_美国_15
+      - cfmem.com_🇺🇸_US_美国_16
+      - cfmem.com_🇸🇪_SE_瑞典_12
+      - cfmem.com_🇸🇪_SE_瑞典_13
+      - cfmem.com_🇸🇪_SE_瑞典_14
+      - cfmem.com_🇸🇪_SE_瑞典_15
+      - cfmem.com_🇸🇪_SE_瑞典_16
+      - cfmem.com_🇩🇪_DE_德国_13
+      - cfmem.com_🇸🇪_SE_瑞典_17
+      - cfmem.com_🇭🇰_HK_香港_11
+      - cfmem.com_🇸🇪_SE_瑞典_18
+      - cfmem.com_🇸🇪_SE_瑞典_19
+      - cfmem.com_🇩🇪_DE_德国_14
+      - cfmem.com_🇸🇪_SE_瑞典_20
+      - cfmem.com_🇩🇪_DE_德国_15
+      - cfmem.com_🇸🇪_SE_瑞典_21
+      - cfmem.com_🇺🇸_US_美国_17
+      - cfmem.com_🇸🇪_SE_瑞典_22
+      - cfmem.com_🇩🇪_DE_德国_16
+      - cfmem.com_🇸🇪_SE_瑞典_23
+      - cfmem.com_🇺🇸_US_美国_18
+      - cfmem.com_🇩🇪_DE_德国_17
+      - cfmem.com_🇺🇸_US_美国_19
+      - cfmem.com_🇺🇸_US_美国_20
+      - cfmem.com_🇸🇪_SE_瑞典_24
+      - cfmem.com_🇺🇸_US_美国_21
+      - cfmem.com_🇭🇰_HK_香港_12
+      - cfmem.com_🇸🇪_SE_瑞典_25
+      - cfmem.com_🇸🇪_SE_瑞典_26
+      - cfmem.com_🇸🇪_SE_瑞典_27
+      - cfmem.com_🇺🇸_US_美国_22
+      - cfmem.com_🇺🇸_US_美国_23
+      - cfmem.com_🇺🇸_US_美国_24
+      - cfmem.com_🇸🇪_SE_瑞典_28
+      - cfmem.com_🇩🇪_DE_德国_18
+      - cfmem.com_🇺🇸_US_美国_25
+      - cfmem.com_🇸🇪_SE_瑞典_29
+      - cfmem.com_🇩🇪_DE_德国_19
+      - cfmem.com_🇺🇸_US_美国_26
+      - cfmem.com_🇸🇪_SE_瑞典_30
+      - cfmem.com_🇸🇪_SE_瑞典_31
+      - cfmem.com_🇺🇸_US_美国_27
+      - cfmem.com_🇸🇪_SE_瑞典_32
+      - cfmem.com_🇩🇪_DE_德国_20
+      - cfmem.com_🇨🇭_CH_瑞士_4
+      - cfmem.com_🇩🇪_DE_德国_21
+      - cfmem.com_🇸🇪_SE_瑞典_33
+      - cfmem.com_🇸🇪_SE_瑞典_34
+      - cfmem.com_🇸🇪_SE_瑞典_35
+      - cfmem.com_🇩🇪_DE_德国_22
+      - cfmem.com_🇸🇪_SE_瑞典_36
+      - cfmem.com_🇫🇷_FR_法国_1
+      - cfmem.com_🇨🇭_CH_瑞士_5
+      - cfmem.com_🇺🇸_US_美国_28
+      - cfmem.com_🇺🇸_US_美国_29
+      - cfmem.com_🇩🇪_DE_德国_23
+      - cfmem.com_🇸🇪_SE_瑞典_37
+      - cfmem.com_🇩🇪_DE_德国_24
+      - cfmem.com_🇸🇪_SE_瑞典_38
+      - cfmem.com_🇨🇭_CH_瑞士_6
+      - cfmem.com_🇭🇰_HK_香港_13
+      - cfmem.com_🇩🇪_DE_德国_25
+      - cfmem.com_🇸🇪_SE_瑞典_39
+      - cfmem.com_🇨🇳_CN_中国_5
+      - cfmem.com_🇨🇭_CH_瑞士_7
+      - cfmem.com_🇩🇪_DE_德国_26
+      - cfmem.com_🇨🇭_CH_瑞士_8
+      - cfmem.com_🇩🇪_DE_德国_27
+      - cfmem.com_🇺🇸_US_美国_30
+      - cfmem.com_🇬🇧_GB_英国_1
+      - cfmem.com_🇺🇸_US_美国_31
+      - cfmem.com_🇺🇸_US_美国_32
+      - cfmem.com_🇸🇪_SE_瑞典_40
+      - cfmem.com_🇩🇪_DE_德国_28
+      - cfmem.com_🇨🇳_CN_中国_6
+      - cfmem.com_🇩🇪_DE_德国_29
+      - cfmem.com_🇩🇪_DE_德国_30
+      - cfmem.com_🇩🇪_DE_德国_31
+      - cfmem.com_🇺🇸_US_美国_33
+      - cfmem.com_🇭🇰_HK_香港_14
+      - cfmem.com_🇨🇦_CA_加拿大_1
+      - cfmem.com_🇺🇸_US_美国_34
+      - cfmem.com_🇸🇪_SE_瑞典_41
+      - cfmem.com_🇩🇪_DE_德国_32
+      - cfmem.com_🇺🇸_US_美国_35
+      - cfmem.com_🇩🇪_DE_德国_33
+      - cfmem.com_🇩🇪_DE_德国_34
+      - cfmem.com_🇩🇪_DE_德国_35
+      - cfmem.com_🇩🇪_DE_德国_36
+      - cfmem.com_🇸🇪_SE_瑞典_42
+      - cfmem.com_🇩🇪_DE_德国_37
+      - cfmem.com_🇨🇳_CN_中国_7
+      - cfmem.com_🇩🇪_DE_德国_38
+      - cfmem.com_🇸🇪_SE_瑞典_43
+      - cfmem.com_🇩🇪_DE_德国_39
+      - cfmem.com_🇩🇪_DE_德国_40
+      - cfmem.com_🇸🇪_SE_瑞典_44
+      - cfmem.com_🇩🇪_DE_德国_41
+      - cfmem.com_🇩🇪_DE_德国_42
+      - cfmem.com_🇸🇪_SE_瑞典_45
+      - cfmem.com_🇸🇪_SE_瑞典_46
+      - cfmem.com_🇩🇪_DE_德国_43
+      - cfmem.com_🇨🇭_CH_瑞士_9
+      - cfmem.com_🇩🇪_DE_德国_44
+      - cfmem.com_🇩🇪_DE_德国_45
+      - cfmem.com_🇩🇪_DE_德国_46
+      - cfmem.com_🇸🇪_SE_瑞典_47
+      - cfmem.com_🇩🇪_DE_德国_47
+      - cfmem.com_🇩🇪_DE_德国_48
+      - cfmem.com_🇸🇪_SE_瑞典_48
+      - cfmem.com_🇸🇪_SE_瑞典_49
+      - cfmem.com_🇩🇪_DE_德国_49
+      - cfmem.com_🇩🇪_DE_德国_50
+      - cfmem.com_🇩🇪_DE_德国_51
+      - cfmem.com_🇨🇦_CA_加拿大_2
+      - cfmem.com_🇸🇪_SE_瑞典_50
+      - cfmem.com_🇸🇪_SE_瑞典_51
+      - cfmem.com_🇸🇪_SE_瑞典_52
+      - cfmem.com_🇨🇭_CH_瑞士_10
+      - cfmem.com_🇩🇪_DE_德国_52
+      - cfmem.com_🇸🇪_SE_瑞典_53
+      - cfmem.com_🇮🇳_IN_印度_1
+      - cfmem.com_🇸🇪_SE_瑞典_54
+      - cfmem.com_🇸🇪_SE_瑞典_55
+      - cfmem.com_🇩🇪_DE_德国_53
+      - cfmem.com_🇸🇪_SE_瑞典_56
+      - cfmem.com_🇩🇪_DE_德国_54
+      - cfmem.com_🇸🇪_SE_瑞典_57
+      - cfmem.com_🇭🇰_HK_香港_15
+      - cfmem.com_🇸🇪_SE_瑞典_58
+      - cfmem.com_🇸🇪_SE_瑞典_59
+      - cfmem.com_🇸🇪_SE_瑞典_60
+      - cfmem.com_🇸🇪_SE_瑞典_61
+      - cfmem.com_🇸🇪_SE_瑞典_62
+      - cfmem.com_🇸🇪_SE_瑞典_63
+      - cfmem.com_🇩🇪_DE_德国_55
+      - cfmem.com_🇸🇪_SE_瑞典_64
+      - cfmem.com_🇸🇪_SE_瑞典_65
+      - cfmem.com_🇸🇪_SE_瑞典_66
+      - cfmem.com_🇸🇪_SE_瑞典_67
+      - cfmem.com_🇨🇭_CH_瑞士_11
+      - cfmem.com_🇸🇪_SE_瑞典_68
+      - cfmem.com_🇩🇪_DE_德国_56
+      - cfmem.com_🇩🇪_DE_德国_57
+      - cfmem.com_🇸🇪_SE_瑞典_69
+      - cfmem.com_🇸🇪_SE_瑞典_70
+      - cfmem.com_🇸🇪_SE_瑞典_71
+      - cfmem.com_🇸🇪_SE_瑞典_72
+      - cfmem.com_🇸🇪_SE_瑞典_73
+      - cfmem.com_🇩🇪_DE_德国_58
+      - cfmem.com_🇩🇪_DE_德国_59
+      - cfmem.com_🇩🇪_DE_德国_60
+      - cfmem.com_🇰🇷_KR_韩国_4
+      - cfmem.com_🇺🇸_US_美国_36
+      - cfmem.com_🇩🇪_DE_德国_61
+      - cfmem.com_🇸🇪_SE_瑞典_74
+      - cfmem.com_🇸🇪_SE_瑞典_75
+      - cfmem.com_🇸🇪_SE_瑞典_76
+      - cfmem.com_🇸🇪_SE_瑞典_77
+      - cfmem.com_🇸🇪_SE_瑞典_78
+      - cfmem.com_🇸🇪_SE_瑞典_79
+      - cfmem.com_🇩🇪_DE_德国_62
+      - cfmem.com_🇺🇸_US_美国_37
+      - cfmem.com_🇸🇪_SE_瑞典_80
+      - cfmem.com_🇸🇪_SE_瑞典_81
+      - cfmem.com_🇨🇭_CH_瑞士_12
+      - cfmem.com_🇨🇭_CH_瑞士_13
+      - cfmem.com_🇭🇰_HK_香港_16
+      - cfmem.com_🇩🇪_DE_德国_63
+      - cfmem.com_🇸🇪_SE_瑞典_82
+      - cfmem.com_🇸🇪_SE_瑞典_83
+      - cfmem.com_🇸🇪_SE_瑞典_84
+      - cfmem.com_🇸🇪_SE_瑞典_85
+      - cfmem.com_🇩🇪_DE_德国_64
+      - cfmem.com_🇸🇪_SE_瑞典_86
+      - cfmem.com_🇸🇪_SE_瑞典_87
+      - cfmem.com_🇸🇪_SE_瑞典_88
+      - cfmem.com_🇨🇭_CH_瑞士_14
+      - cfmem.com_🇺🇸_US_美国_38
+      - cfmem.com_🇩🇪_DE_德国_65
+      - cfmem.com_🇩🇪_DE_德国_66
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
+      - cfmem.com_🇨🇳_CN_中国_1
+      - cfmem.com_🇯🇵_JP_日本_1
+      - cfmem.com_🇭🇰_HK_香港_1
+      - cfmem.com_🇨🇳_CN_中国_2
+      - cfmem.com_🇨🇳_CN_中国_3
+      - cfmem.com_🇭🇰_HK_香港_2
+      - cfmem.com_🇰🇷_KR_韩国_1
+      - cfmem.com_🇰🇷_KR_韩国_2
+      - cfmem.com_🇰🇷_KR_韩国_3
+      - cfmem.com_🇺🇸_US_美国_1
+      - cfmem.com_🇺🇸_US_美国_2
+      - cfmem.com_🇭🇰_HK_香港_3
+      - cfmem.com_🇭🇰_HK_香港_4
+      - cfmem.com_🇺🇸_US_美国_3
+      - cfmem.com_🇭🇰_HK_香港_5
+      - cfmem.com_🇺🇸_US_美国_4
+      - cfmem.com_🇩🇪_DE_德国_1
+      - cfmem.com_🇺🇸_US_美国_5
+      - cfmem.com_🇭🇰_HK_香港_6
+      - cfmem.com_🇩🇪_DE_德国_2
+      - cfmem.com_🇩🇪_DE_德国_3
+      - cfmem.com_🇨🇳_CN_中国_4
+      - cfmem.com_🇭🇰_HK_香港_7
+      - cfmem.com_🇺🇸_US_美国_6
+      - cfmem.com_🇸🇪_SE_瑞典_1
+      - cfmem.com_🇸🇪_SE_瑞典_2
+      - cfmem.com_🇩🇪_DE_德国_4
+      - cfmem.com_🇸🇪_SE_瑞典_3
+      - cfmem.com_🇩🇪_DE_德国_5
+      - cfmem.com_🇺🇸_US_美国_7
+      - cfmem.com_🇭🇰_HK_香港_8
+      - cfmem.com_🇩🇪_DE_德国_6
+      - cfmem.com_🇭🇰_HK_香港_9
+      - cfmem.com_🇸🇪_SE_瑞典_4
+      - cfmem.com_🇸🇪_SE_瑞典_5
+      - cfmem.com_🇺🇸_US_美国_8
+      - cfmem.com_🇺🇸_US_美国_9
+      - cfmem.com_🇨🇭_CH_瑞士_1
+      - cfmem.com_🇺🇸_US_美国_10
+      - cfmem.com_🇸🇪_SE_瑞典_6
+      - cfmem.com_🇩🇪_DE_德国_7
+      - cfmem.com_🇺🇸_US_美国_11
+      - cfmem.com_🇺🇸_US_美国_12
+      - cfmem.com_🇭🇰_HK_香港_10
+      - cfmem.com_🇸🇪_SE_瑞典_7
+      - cfmem.com_🇸🇪_SE_瑞典_8
+      - cfmem.com_🇩🇪_DE_德国_8
+      - cfmem.com_🇩🇪_DE_德国_9
+      - cfmem.com_🇩🇪_DE_德国_10
+      - cfmem.com_🇸🇪_SE_瑞典_9
+      - cfmem.com_🇩🇪_DE_德国_11
+      - cfmem.com_🇨🇭_CH_瑞士_2
+      - cfmem.com_🇺🇸_US_美国_13
+      - cfmem.com_🇩🇪_DE_德国_12
+      - cfmem.com_🇸🇪_SE_瑞典_10
+      - cfmem.com_🇺🇸_US_美国_14
+      - cfmem.com_🇸🇪_SE_瑞典_11
+      - cfmem.com_🇨🇭_CH_瑞士_3
+      - cfmem.com_🇺🇸_US_美国_15
+      - cfmem.com_🇺🇸_US_美国_16
+      - cfmem.com_🇸🇪_SE_瑞典_12
+      - cfmem.com_🇸🇪_SE_瑞典_13
+      - cfmem.com_🇸🇪_SE_瑞典_14
+      - cfmem.com_🇸🇪_SE_瑞典_15
+      - cfmem.com_🇸🇪_SE_瑞典_16
+      - cfmem.com_🇩🇪_DE_德国_13
+      - cfmem.com_🇸🇪_SE_瑞典_17
+      - cfmem.com_🇭🇰_HK_香港_11
+      - cfmem.com_🇸🇪_SE_瑞典_18
+      - cfmem.com_🇸🇪_SE_瑞典_19
+      - cfmem.com_🇩🇪_DE_德国_14
+      - cfmem.com_🇸🇪_SE_瑞典_20
+      - cfmem.com_🇩🇪_DE_德国_15
+      - cfmem.com_🇸🇪_SE_瑞典_21
+      - cfmem.com_🇺🇸_US_美国_17
+      - cfmem.com_🇸🇪_SE_瑞典_22
+      - cfmem.com_🇩🇪_DE_德国_16
+      - cfmem.com_🇸🇪_SE_瑞典_23
+      - cfmem.com_🇺🇸_US_美国_18
+      - cfmem.com_🇩🇪_DE_德国_17
+      - cfmem.com_🇺🇸_US_美国_19
+      - cfmem.com_🇺🇸_US_美国_20
+      - cfmem.com_🇸🇪_SE_瑞典_24
+      - cfmem.com_🇺🇸_US_美国_21
+      - cfmem.com_🇭🇰_HK_香港_12
+      - cfmem.com_🇸🇪_SE_瑞典_25
+      - cfmem.com_🇸🇪_SE_瑞典_26
+      - cfmem.com_🇸🇪_SE_瑞典_27
+      - cfmem.com_🇺🇸_US_美国_22
+      - cfmem.com_🇺🇸_US_美国_23
+      - cfmem.com_🇺🇸_US_美国_24
+      - cfmem.com_🇸🇪_SE_瑞典_28
+      - cfmem.com_🇩🇪_DE_德国_18
+      - cfmem.com_🇺🇸_US_美国_25
+      - cfmem.com_🇸🇪_SE_瑞典_29
+      - cfmem.com_🇩🇪_DE_德国_19
+      - cfmem.com_🇺🇸_US_美国_26
+      - cfmem.com_🇸🇪_SE_瑞典_30
+      - cfmem.com_🇸🇪_SE_瑞典_31
+      - cfmem.com_🇺🇸_US_美国_27
+      - cfmem.com_🇸🇪_SE_瑞典_32
+      - cfmem.com_🇩🇪_DE_德国_20
+      - cfmem.com_🇨🇭_CH_瑞士_4
+      - cfmem.com_🇩🇪_DE_德国_21
+      - cfmem.com_🇸🇪_SE_瑞典_33
+      - cfmem.com_🇸🇪_SE_瑞典_34
+      - cfmem.com_🇸🇪_SE_瑞典_35
+      - cfmem.com_🇩🇪_DE_德国_22
+      - cfmem.com_🇸🇪_SE_瑞典_36
+      - cfmem.com_🇫🇷_FR_法国_1
+      - cfmem.com_🇨🇭_CH_瑞士_5
+      - cfmem.com_🇺🇸_US_美国_28
+      - cfmem.com_🇺🇸_US_美国_29
+      - cfmem.com_🇩🇪_DE_德国_23
+      - cfmem.com_🇸🇪_SE_瑞典_37
+      - cfmem.com_🇩🇪_DE_德国_24
+      - cfmem.com_🇸🇪_SE_瑞典_38
+      - cfmem.com_🇨🇭_CH_瑞士_6
+      - cfmem.com_🇭🇰_HK_香港_13
+      - cfmem.com_🇩🇪_DE_德国_25
+      - cfmem.com_🇸🇪_SE_瑞典_39
+      - cfmem.com_🇨🇳_CN_中国_5
+      - cfmem.com_🇨🇭_CH_瑞士_7
+      - cfmem.com_🇩🇪_DE_德国_26
+      - cfmem.com_🇨🇭_CH_瑞士_8
+      - cfmem.com_🇩🇪_DE_德国_27
+      - cfmem.com_🇺🇸_US_美国_30
+      - cfmem.com_🇬🇧_GB_英国_1
+      - cfmem.com_🇺🇸_US_美国_31
+      - cfmem.com_🇺🇸_US_美国_32
+      - cfmem.com_🇸🇪_SE_瑞典_40
+      - cfmem.com_🇩🇪_DE_德国_28
+      - cfmem.com_🇨🇳_CN_中国_6
+      - cfmem.com_🇩🇪_DE_德国_29
+      - cfmem.com_🇩🇪_DE_德国_30
+      - cfmem.com_🇩🇪_DE_德国_31
+      - cfmem.com_🇺🇸_US_美国_33
+      - cfmem.com_🇭🇰_HK_香港_14
+      - cfmem.com_🇨🇦_CA_加拿大_1
+      - cfmem.com_🇺🇸_US_美国_34
+      - cfmem.com_🇸🇪_SE_瑞典_41
+      - cfmem.com_🇩🇪_DE_德国_32
+      - cfmem.com_🇺🇸_US_美国_35
+      - cfmem.com_🇩🇪_DE_德国_33
+      - cfmem.com_🇩🇪_DE_德国_34
+      - cfmem.com_🇩🇪_DE_德国_35
+      - cfmem.com_🇩🇪_DE_德国_36
+      - cfmem.com_🇸🇪_SE_瑞典_42
+      - cfmem.com_🇩🇪_DE_德国_37
+      - cfmem.com_🇨🇳_CN_中国_7
+      - cfmem.com_🇩🇪_DE_德国_38
+      - cfmem.com_🇸🇪_SE_瑞典_43
+      - cfmem.com_🇩🇪_DE_德国_39
+      - cfmem.com_🇩🇪_DE_德国_40
+      - cfmem.com_🇸🇪_SE_瑞典_44
+      - cfmem.com_🇩🇪_DE_德国_41
+      - cfmem.com_🇩🇪_DE_德国_42
+      - cfmem.com_🇸🇪_SE_瑞典_45
+      - cfmem.com_🇸🇪_SE_瑞典_46
+      - cfmem.com_🇩🇪_DE_德国_43
+      - cfmem.com_🇨🇭_CH_瑞士_9
+      - cfmem.com_🇩🇪_DE_德国_44
+      - cfmem.com_🇩🇪_DE_德国_45
+      - cfmem.com_🇩🇪_DE_德国_46
+      - cfmem.com_🇸🇪_SE_瑞典_47
+      - cfmem.com_🇩🇪_DE_德国_47
+      - cfmem.com_🇩🇪_DE_德国_48
+      - cfmem.com_🇸🇪_SE_瑞典_48
+      - cfmem.com_🇸🇪_SE_瑞典_49
+      - cfmem.com_🇩🇪_DE_德国_49
+      - cfmem.com_🇩🇪_DE_德国_50
+      - cfmem.com_🇩🇪_DE_德国_51
+      - cfmem.com_🇨🇦_CA_加拿大_2
+      - cfmem.com_🇸🇪_SE_瑞典_50
+      - cfmem.com_🇸🇪_SE_瑞典_51
+      - cfmem.com_🇸🇪_SE_瑞典_52
+      - cfmem.com_🇨🇭_CH_瑞士_10
+      - cfmem.com_🇩🇪_DE_德国_52
+      - cfmem.com_🇸🇪_SE_瑞典_53
+      - cfmem.com_🇮🇳_IN_印度_1
+      - cfmem.com_🇸🇪_SE_瑞典_54
+      - cfmem.com_🇸🇪_SE_瑞典_55
+      - cfmem.com_🇩🇪_DE_德国_53
+      - cfmem.com_🇸🇪_SE_瑞典_56
+      - cfmem.com_🇩🇪_DE_德国_54
+      - cfmem.com_🇸🇪_SE_瑞典_57
+      - cfmem.com_🇭🇰_HK_香港_15
+      - cfmem.com_🇸🇪_SE_瑞典_58
+      - cfmem.com_🇸🇪_SE_瑞典_59
+      - cfmem.com_🇸🇪_SE_瑞典_60
+      - cfmem.com_🇸🇪_SE_瑞典_61
+      - cfmem.com_🇸🇪_SE_瑞典_62
+      - cfmem.com_🇸🇪_SE_瑞典_63
+      - cfmem.com_🇩🇪_DE_德国_55
+      - cfmem.com_🇸🇪_SE_瑞典_64
+      - cfmem.com_🇸🇪_SE_瑞典_65
+      - cfmem.com_🇸🇪_SE_瑞典_66
+      - cfmem.com_🇸🇪_SE_瑞典_67
+      - cfmem.com_🇨🇭_CH_瑞士_11
+      - cfmem.com_🇸🇪_SE_瑞典_68
+      - cfmem.com_🇩🇪_DE_德国_56
+      - cfmem.com_🇩🇪_DE_德国_57
+      - cfmem.com_🇸🇪_SE_瑞典_69
+      - cfmem.com_🇸🇪_SE_瑞典_70
+      - cfmem.com_🇸🇪_SE_瑞典_71
+      - cfmem.com_🇸🇪_SE_瑞典_72
+      - cfmem.com_🇸🇪_SE_瑞典_73
+      - cfmem.com_🇩🇪_DE_德国_58
+      - cfmem.com_🇩🇪_DE_德国_59
+      - cfmem.com_🇩🇪_DE_德国_60
+      - cfmem.com_🇰🇷_KR_韩国_4
+      - cfmem.com_🇺🇸_US_美国_36
+      - cfmem.com_🇩🇪_DE_德国_61
+      - cfmem.com_🇸🇪_SE_瑞典_74
+      - cfmem.com_🇸🇪_SE_瑞典_75
+      - cfmem.com_🇸🇪_SE_瑞典_76
+      - cfmem.com_🇸🇪_SE_瑞典_77
+      - cfmem.com_🇸🇪_SE_瑞典_78
+      - cfmem.com_🇸🇪_SE_瑞典_79
+      - cfmem.com_🇩🇪_DE_德国_62
+      - cfmem.com_🇺🇸_US_美国_37
+      - cfmem.com_🇸🇪_SE_瑞典_80
+      - cfmem.com_🇸🇪_SE_瑞典_81
+      - cfmem.com_🇨🇭_CH_瑞士_12
+      - cfmem.com_🇨🇭_CH_瑞士_13
+      - cfmem.com_🇭🇰_HK_香港_16
+      - cfmem.com_🇩🇪_DE_德国_63
+      - cfmem.com_🇸🇪_SE_瑞典_82
+      - cfmem.com_🇸🇪_SE_瑞典_83
+      - cfmem.com_🇸🇪_SE_瑞典_84
+      - cfmem.com_🇸🇪_SE_瑞典_85
+      - cfmem.com_🇩🇪_DE_德国_64
+      - cfmem.com_🇸🇪_SE_瑞典_86
+      - cfmem.com_🇸🇪_SE_瑞典_87
+      - cfmem.com_🇸🇪_SE_瑞典_88
+      - cfmem.com_🇨🇭_CH_瑞士_14
+      - cfmem.com_🇺🇸_US_美国_38
+      - cfmem.com_🇩🇪_DE_德国_65
+      - cfmem.com_🇩🇪_DE_德国_66
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
+      - cfmem.com_🇨🇳_CN_中国_1
+      - cfmem.com_🇯🇵_JP_日本_1
+      - cfmem.com_🇭🇰_HK_香港_1
+      - cfmem.com_🇨🇳_CN_中国_2
+      - cfmem.com_🇨🇳_CN_中国_3
+      - cfmem.com_🇭🇰_HK_香港_2
+      - cfmem.com_🇰🇷_KR_韩国_1
+      - cfmem.com_🇰🇷_KR_韩国_2
+      - cfmem.com_🇰🇷_KR_韩国_3
+      - cfmem.com_🇺🇸_US_美国_1
+      - cfmem.com_🇺🇸_US_美国_2
+      - cfmem.com_🇭🇰_HK_香港_3
+      - cfmem.com_🇭🇰_HK_香港_4
+      - cfmem.com_🇺🇸_US_美国_3
+      - cfmem.com_🇭🇰_HK_香港_5
+      - cfmem.com_🇺🇸_US_美国_4
+      - cfmem.com_🇩🇪_DE_德国_1
+      - cfmem.com_🇺🇸_US_美国_5
+      - cfmem.com_🇭🇰_HK_香港_6
+      - cfmem.com_🇩🇪_DE_德国_2
+      - cfmem.com_🇩🇪_DE_德国_3
+      - cfmem.com_🇨🇳_CN_中国_4
+      - cfmem.com_🇭🇰_HK_香港_7
+      - cfmem.com_🇺🇸_US_美国_6
+      - cfmem.com_🇸🇪_SE_瑞典_1
+      - cfmem.com_🇸🇪_SE_瑞典_2
+      - cfmem.com_🇩🇪_DE_德国_4
+      - cfmem.com_🇸🇪_SE_瑞典_3
+      - cfmem.com_🇩🇪_DE_德国_5
+      - cfmem.com_🇺🇸_US_美国_7
+      - cfmem.com_🇭🇰_HK_香港_8
+      - cfmem.com_🇩🇪_DE_德国_6
+      - cfmem.com_🇭🇰_HK_香港_9
+      - cfmem.com_🇸🇪_SE_瑞典_4
+      - cfmem.com_🇸🇪_SE_瑞典_5
+      - cfmem.com_🇺🇸_US_美国_8
+      - cfmem.com_🇺🇸_US_美国_9
+      - cfmem.com_🇨🇭_CH_瑞士_1
+      - cfmem.com_🇺🇸_US_美国_10
+      - cfmem.com_🇸🇪_SE_瑞典_6
+      - cfmem.com_🇩🇪_DE_德国_7
+      - cfmem.com_🇺🇸_US_美国_11
+      - cfmem.com_🇺🇸_US_美国_12
+      - cfmem.com_🇭🇰_HK_香港_10
+      - cfmem.com_🇸🇪_SE_瑞典_7
+      - cfmem.com_🇸🇪_SE_瑞典_8
+      - cfmem.com_🇩🇪_DE_德国_8
+      - cfmem.com_🇩🇪_DE_德国_9
+      - cfmem.com_🇩🇪_DE_德国_10
+      - cfmem.com_🇸🇪_SE_瑞典_9
+      - cfmem.com_🇩🇪_DE_德国_11
+      - cfmem.com_🇨🇭_CH_瑞士_2
+      - cfmem.com_🇺🇸_US_美国_13
+      - cfmem.com_🇩🇪_DE_德国_12
+      - cfmem.com_🇸🇪_SE_瑞典_10
+      - cfmem.com_🇺🇸_US_美国_14
+      - cfmem.com_🇸🇪_SE_瑞典_11
+      - cfmem.com_🇨🇭_CH_瑞士_3
+      - cfmem.com_🇺🇸_US_美国_15
+      - cfmem.com_🇺🇸_US_美国_16
+      - cfmem.com_🇸🇪_SE_瑞典_12
+      - cfmem.com_🇸🇪_SE_瑞典_13
+      - cfmem.com_🇸🇪_SE_瑞典_14
+      - cfmem.com_🇸🇪_SE_瑞典_15
+      - cfmem.com_🇸🇪_SE_瑞典_16
+      - cfmem.com_🇩🇪_DE_德国_13
+      - cfmem.com_🇸🇪_SE_瑞典_17
+      - cfmem.com_🇭🇰_HK_香港_11
+      - cfmem.com_🇸🇪_SE_瑞典_18
+      - cfmem.com_🇸🇪_SE_瑞典_19
+      - cfmem.com_🇩🇪_DE_德国_14
+      - cfmem.com_🇸🇪_SE_瑞典_20
+      - cfmem.com_🇩🇪_DE_德国_15
+      - cfmem.com_🇸🇪_SE_瑞典_21
+      - cfmem.com_🇺🇸_US_美国_17
+      - cfmem.com_🇸🇪_SE_瑞典_22
+      - cfmem.com_🇩🇪_DE_德国_16
+      - cfmem.com_🇸🇪_SE_瑞典_23
+      - cfmem.com_🇺🇸_US_美国_18
+      - cfmem.com_🇩🇪_DE_德国_17
+      - cfmem.com_🇺🇸_US_美国_19
+      - cfmem.com_🇺🇸_US_美国_20
+      - cfmem.com_🇸🇪_SE_瑞典_24
+      - cfmem.com_🇺🇸_US_美国_21
+      - cfmem.com_🇭🇰_HK_香港_12
+      - cfmem.com_🇸🇪_SE_瑞典_25
+      - cfmem.com_🇸🇪_SE_瑞典_26
+      - cfmem.com_🇸🇪_SE_瑞典_27
+      - cfmem.com_🇺🇸_US_美国_22
+      - cfmem.com_🇺🇸_US_美国_23
+      - cfmem.com_🇺🇸_US_美国_24
+      - cfmem.com_🇸🇪_SE_瑞典_28
+      - cfmem.com_🇩🇪_DE_德国_18
+      - cfmem.com_🇺🇸_US_美国_25
+      - cfmem.com_🇸🇪_SE_瑞典_29
+      - cfmem.com_🇩🇪_DE_德国_19
+      - cfmem.com_🇺🇸_US_美国_26
+      - cfmem.com_🇸🇪_SE_瑞典_30
+      - cfmem.com_🇸🇪_SE_瑞典_31
+      - cfmem.com_🇺🇸_US_美国_27
+      - cfmem.com_🇸🇪_SE_瑞典_32
+      - cfmem.com_🇩🇪_DE_德国_20
+      - cfmem.com_🇨🇭_CH_瑞士_4
+      - cfmem.com_🇩🇪_DE_德国_21
+      - cfmem.com_🇸🇪_SE_瑞典_33
+      - cfmem.com_🇸🇪_SE_瑞典_34
+      - cfmem.com_🇸🇪_SE_瑞典_35
+      - cfmem.com_🇩🇪_DE_德国_22
+      - cfmem.com_🇸🇪_SE_瑞典_36
+      - cfmem.com_🇫🇷_FR_法国_1
+      - cfmem.com_🇨🇭_CH_瑞士_5
+      - cfmem.com_🇺🇸_US_美国_28
+      - cfmem.com_🇺🇸_US_美国_29
+      - cfmem.com_🇩🇪_DE_德国_23
+      - cfmem.com_🇸🇪_SE_瑞典_37
+      - cfmem.com_🇩🇪_DE_德国_24
+      - cfmem.com_🇸🇪_SE_瑞典_38
+      - cfmem.com_🇨🇭_CH_瑞士_6
+      - cfmem.com_🇭🇰_HK_香港_13
+      - cfmem.com_🇩🇪_DE_德国_25
+      - cfmem.com_🇸🇪_SE_瑞典_39
+      - cfmem.com_🇨🇳_CN_中国_5
+      - cfmem.com_🇨🇭_CH_瑞士_7
+      - cfmem.com_🇩🇪_DE_德国_26
+      - cfmem.com_🇨🇭_CH_瑞士_8
+      - cfmem.com_🇩🇪_DE_德国_27
+      - cfmem.com_🇺🇸_US_美国_30
+      - cfmem.com_🇬🇧_GB_英国_1
+      - cfmem.com_🇺🇸_US_美国_31
+      - cfmem.com_🇺🇸_US_美国_32
+      - cfmem.com_🇸🇪_SE_瑞典_40
+      - cfmem.com_🇩🇪_DE_德国_28
+      - cfmem.com_🇨🇳_CN_中国_6
+      - cfmem.com_🇩🇪_DE_德国_29
+      - cfmem.com_🇩🇪_DE_德国_30
+      - cfmem.com_🇩🇪_DE_德国_31
+      - cfmem.com_🇺🇸_US_美国_33
+      - cfmem.com_🇭🇰_HK_香港_14
+      - cfmem.com_🇨🇦_CA_加拿大_1
+      - cfmem.com_🇺🇸_US_美国_34
+      - cfmem.com_🇸🇪_SE_瑞典_41
+      - cfmem.com_🇩🇪_DE_德国_32
+      - cfmem.com_🇺🇸_US_美国_35
+      - cfmem.com_🇩🇪_DE_德国_33
+      - cfmem.com_🇩🇪_DE_德国_34
+      - cfmem.com_🇩🇪_DE_德国_35
+      - cfmem.com_🇩🇪_DE_德国_36
+      - cfmem.com_🇸🇪_SE_瑞典_42
+      - cfmem.com_🇩🇪_DE_德国_37
+      - cfmem.com_🇨🇳_CN_中国_7
+      - cfmem.com_🇩🇪_DE_德国_38
+      - cfmem.com_🇸🇪_SE_瑞典_43
+      - cfmem.com_🇩🇪_DE_德国_39
+      - cfmem.com_🇩🇪_DE_德国_40
+      - cfmem.com_🇸🇪_SE_瑞典_44
+      - cfmem.com_🇩🇪_DE_德国_41
+      - cfmem.com_🇩🇪_DE_德国_42
+      - cfmem.com_🇸🇪_SE_瑞典_45
+      - cfmem.com_🇸🇪_SE_瑞典_46
+      - cfmem.com_🇩🇪_DE_德国_43
+      - cfmem.com_🇨🇭_CH_瑞士_9
+      - cfmem.com_🇩🇪_DE_德国_44
+      - cfmem.com_🇩🇪_DE_德国_45
+      - cfmem.com_🇩🇪_DE_德国_46
+      - cfmem.com_🇸🇪_SE_瑞典_47
+      - cfmem.com_🇩🇪_DE_德国_47
+      - cfmem.com_🇩🇪_DE_德国_48
+      - cfmem.com_🇸🇪_SE_瑞典_48
+      - cfmem.com_🇸🇪_SE_瑞典_49
+      - cfmem.com_🇩🇪_DE_德国_49
+      - cfmem.com_🇩🇪_DE_德国_50
+      - cfmem.com_🇩🇪_DE_德国_51
+      - cfmem.com_🇨🇦_CA_加拿大_2
+      - cfmem.com_🇸🇪_SE_瑞典_50
+      - cfmem.com_🇸🇪_SE_瑞典_51
+      - cfmem.com_🇸🇪_SE_瑞典_52
+      - cfmem.com_🇨🇭_CH_瑞士_10
+      - cfmem.com_🇩🇪_DE_德国_52
+      - cfmem.com_🇸🇪_SE_瑞典_53
+      - cfmem.com_🇮🇳_IN_印度_1
+      - cfmem.com_🇸🇪_SE_瑞典_54
+      - cfmem.com_🇸🇪_SE_瑞典_55
+      - cfmem.com_🇩🇪_DE_德国_53
+      - cfmem.com_🇸🇪_SE_瑞典_56
+      - cfmem.com_🇩🇪_DE_德国_54
+      - cfmem.com_🇸🇪_SE_瑞典_57
+      - cfmem.com_🇭🇰_HK_香港_15
+      - cfmem.com_🇸🇪_SE_瑞典_58
+      - cfmem.com_🇸🇪_SE_瑞典_59
+      - cfmem.com_🇸🇪_SE_瑞典_60
+      - cfmem.com_🇸🇪_SE_瑞典_61
+      - cfmem.com_🇸🇪_SE_瑞典_62
+      - cfmem.com_🇸🇪_SE_瑞典_63
+      - cfmem.com_🇩🇪_DE_德国_55
+      - cfmem.com_🇸🇪_SE_瑞典_64
+      - cfmem.com_🇸🇪_SE_瑞典_65
+      - cfmem.com_🇸🇪_SE_瑞典_66
+      - cfmem.com_🇸🇪_SE_瑞典_67
+      - cfmem.com_🇨🇭_CH_瑞士_11
+      - cfmem.com_🇸🇪_SE_瑞典_68
+      - cfmem.com_🇩🇪_DE_德国_56
+      - cfmem.com_🇩🇪_DE_德国_57
+      - cfmem.com_🇸🇪_SE_瑞典_69
+      - cfmem.com_🇸🇪_SE_瑞典_70
+      - cfmem.com_🇸🇪_SE_瑞典_71
+      - cfmem.com_🇸🇪_SE_瑞典_72
+      - cfmem.com_🇸🇪_SE_瑞典_73
+      - cfmem.com_🇩🇪_DE_德国_58
+      - cfmem.com_🇩🇪_DE_德国_59
+      - cfmem.com_🇩🇪_DE_德国_60
+      - cfmem.com_🇰🇷_KR_韩国_4
+      - cfmem.com_🇺🇸_US_美国_36
+      - cfmem.com_🇩🇪_DE_德国_61
+      - cfmem.com_🇸🇪_SE_瑞典_74
+      - cfmem.com_🇸🇪_SE_瑞典_75
+      - cfmem.com_🇸🇪_SE_瑞典_76
+      - cfmem.com_🇸🇪_SE_瑞典_77
+      - cfmem.com_🇸🇪_SE_瑞典_78
+      - cfmem.com_🇸🇪_SE_瑞典_79
+      - cfmem.com_🇩🇪_DE_德国_62
+      - cfmem.com_🇺🇸_US_美国_37
+      - cfmem.com_🇸🇪_SE_瑞典_80
+      - cfmem.com_🇸🇪_SE_瑞典_81
+      - cfmem.com_🇨🇭_CH_瑞士_12
+      - cfmem.com_🇨🇭_CH_瑞士_13
+      - cfmem.com_🇭🇰_HK_香港_16
+      - cfmem.com_🇩🇪_DE_德国_63
+      - cfmem.com_🇸🇪_SE_瑞典_82
+      - cfmem.com_🇸🇪_SE_瑞典_83
+      - cfmem.com_🇸🇪_SE_瑞典_84
+      - cfmem.com_🇸🇪_SE_瑞典_85
+      - cfmem.com_🇩🇪_DE_德国_64
+      - cfmem.com_🇸🇪_SE_瑞典_86
+      - cfmem.com_🇸🇪_SE_瑞典_87
+      - cfmem.com_🇸🇪_SE_瑞典_88
+      - cfmem.com_🇨🇭_CH_瑞士_14
+      - cfmem.com_🇺🇸_US_美国_38
+      - cfmem.com_🇩🇪_DE_德国_65
+      - cfmem.com_🇩🇪_DE_德国_66
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
+      - cfmem.com_🇨🇳_CN_中国_1
+      - cfmem.com_🇯🇵_JP_日本_1
+      - cfmem.com_🇭🇰_HK_香港_1
+      - cfmem.com_🇨🇳_CN_中国_2
+      - cfmem.com_🇨🇳_CN_中国_3
+      - cfmem.com_🇭🇰_HK_香港_2
+      - cfmem.com_🇰🇷_KR_韩国_1
+      - cfmem.com_🇰🇷_KR_韩国_2
+      - cfmem.com_🇰🇷_KR_韩国_3
+      - cfmem.com_🇺🇸_US_美国_1
+      - cfmem.com_🇺🇸_US_美国_2
+      - cfmem.com_🇭🇰_HK_香港_3
+      - cfmem.com_🇭🇰_HK_香港_4
+      - cfmem.com_🇺🇸_US_美国_3
+      - cfmem.com_🇭🇰_HK_香港_5
+      - cfmem.com_🇺🇸_US_美国_4
+      - cfmem.com_🇩🇪_DE_德国_1
+      - cfmem.com_🇺🇸_US_美国_5
+      - cfmem.com_🇭🇰_HK_香港_6
+      - cfmem.com_🇩🇪_DE_德国_2
+      - cfmem.com_🇩🇪_DE_德国_3
+      - cfmem.com_🇨🇳_CN_中国_4
+      - cfmem.com_🇭🇰_HK_香港_7
+      - cfmem.com_🇺🇸_US_美国_6
+      - cfmem.com_🇸🇪_SE_瑞典_1
+      - cfmem.com_🇸🇪_SE_瑞典_2
+      - cfmem.com_🇩🇪_DE_德国_4
+      - cfmem.com_🇸🇪_SE_瑞典_3
+      - cfmem.com_🇩🇪_DE_德国_5
+      - cfmem.com_🇺🇸_US_美国_7
+      - cfmem.com_🇭🇰_HK_香港_8
+      - cfmem.com_🇩🇪_DE_德国_6
+      - cfmem.com_🇭🇰_HK_香港_9
+      - cfmem.com_🇸🇪_SE_瑞典_4
+      - cfmem.com_🇸🇪_SE_瑞典_5
+      - cfmem.com_🇺🇸_US_美国_8
+      - cfmem.com_🇺🇸_US_美国_9
+      - cfmem.com_🇨🇭_CH_瑞士_1
+      - cfmem.com_🇺🇸_US_美国_10
+      - cfmem.com_🇸🇪_SE_瑞典_6
+      - cfmem.com_🇩🇪_DE_德国_7
+      - cfmem.com_🇺🇸_US_美国_11
+      - cfmem.com_🇺🇸_US_美国_12
+      - cfmem.com_🇭🇰_HK_香港_10
+      - cfmem.com_🇸🇪_SE_瑞典_7
+      - cfmem.com_🇸🇪_SE_瑞典_8
+      - cfmem.com_🇩🇪_DE_德国_8
+      - cfmem.com_🇩🇪_DE_德国_9
+      - cfmem.com_🇩🇪_DE_德国_10
+      - cfmem.com_🇸🇪_SE_瑞典_9
+      - cfmem.com_🇩🇪_DE_德国_11
+      - cfmem.com_🇨🇭_CH_瑞士_2
+      - cfmem.com_🇺🇸_US_美国_13
+      - cfmem.com_🇩🇪_DE_德国_12
+      - cfmem.com_🇸🇪_SE_瑞典_10
+      - cfmem.com_🇺🇸_US_美国_14
+      - cfmem.com_🇸🇪_SE_瑞典_11
+      - cfmem.com_🇨🇭_CH_瑞士_3
+      - cfmem.com_🇺🇸_US_美国_15
+      - cfmem.com_🇺🇸_US_美国_16
+      - cfmem.com_🇸🇪_SE_瑞典_12
+      - cfmem.com_🇸🇪_SE_瑞典_13
+      - cfmem.com_🇸🇪_SE_瑞典_14
+      - cfmem.com_🇸🇪_SE_瑞典_15
+      - cfmem.com_🇸🇪_SE_瑞典_16
+      - cfmem.com_🇩🇪_DE_德国_13
+      - cfmem.com_🇸🇪_SE_瑞典_17
+      - cfmem.com_🇭🇰_HK_香港_11
+      - cfmem.com_🇸🇪_SE_瑞典_18
+      - cfmem.com_🇸🇪_SE_瑞典_19
+      - cfmem.com_🇩🇪_DE_德国_14
+      - cfmem.com_🇸🇪_SE_瑞典_20
+      - cfmem.com_🇩🇪_DE_德国_15
+      - cfmem.com_🇸🇪_SE_瑞典_21
+      - cfmem.com_🇺🇸_US_美国_17
+      - cfmem.com_🇸🇪_SE_瑞典_22
+      - cfmem.com_🇩🇪_DE_德国_16
+      - cfmem.com_🇸🇪_SE_瑞典_23
+      - cfmem.com_🇺🇸_US_美国_18
+      - cfmem.com_🇩🇪_DE_德国_17
+      - cfmem.com_🇺🇸_US_美国_19
+      - cfmem.com_🇺🇸_US_美国_20
+      - cfmem.com_🇸🇪_SE_瑞典_24
+      - cfmem.com_🇺🇸_US_美国_21
+      - cfmem.com_🇭🇰_HK_香港_12
+      - cfmem.com_🇸🇪_SE_瑞典_25
+      - cfmem.com_🇸🇪_SE_瑞典_26
+      - cfmem.com_🇸🇪_SE_瑞典_27
+      - cfmem.com_🇺🇸_US_美国_22
+      - cfmem.com_🇺🇸_US_美国_23
+      - cfmem.com_🇺🇸_US_美国_24
+      - cfmem.com_🇸🇪_SE_瑞典_28
+      - cfmem.com_🇩🇪_DE_德国_18
+      - cfmem.com_🇺🇸_US_美国_25
+      - cfmem.com_🇸🇪_SE_瑞典_29
+      - cfmem.com_🇩🇪_DE_德国_19
+      - cfmem.com_🇺🇸_US_美国_26
+      - cfmem.com_🇸🇪_SE_瑞典_30
+      - cfmem.com_🇸🇪_SE_瑞典_31
+      - cfmem.com_🇺🇸_US_美国_27
+      - cfmem.com_🇸🇪_SE_瑞典_32
+      - cfmem.com_🇩🇪_DE_德国_20
+      - cfmem.com_🇨🇭_CH_瑞士_4
+      - cfmem.com_🇩🇪_DE_德国_21
+      - cfmem.com_🇸🇪_SE_瑞典_33
+      - cfmem.com_🇸🇪_SE_瑞典_34
+      - cfmem.com_🇸🇪_SE_瑞典_35
+      - cfmem.com_🇩🇪_DE_德国_22
+      - cfmem.com_🇸🇪_SE_瑞典_36
+      - cfmem.com_🇫🇷_FR_法国_1
+      - cfmem.com_🇨🇭_CH_瑞士_5
+      - cfmem.com_🇺🇸_US_美国_28
+      - cfmem.com_🇺🇸_US_美国_29
+      - cfmem.com_🇩🇪_DE_德国_23
+      - cfmem.com_🇸🇪_SE_瑞典_37
+      - cfmem.com_🇩🇪_DE_德国_24
+      - cfmem.com_🇸🇪_SE_瑞典_38
+      - cfmem.com_🇨🇭_CH_瑞士_6
+      - cfmem.com_🇭🇰_HK_香港_13
+      - cfmem.com_🇩🇪_DE_德国_25
+      - cfmem.com_🇸🇪_SE_瑞典_39
+      - cfmem.com_🇨🇳_CN_中国_5
+      - cfmem.com_🇨🇭_CH_瑞士_7
+      - cfmem.com_🇩🇪_DE_德国_26
+      - cfmem.com_🇨🇭_CH_瑞士_8
+      - cfmem.com_🇩🇪_DE_德国_27
+      - cfmem.com_🇺🇸_US_美国_30
+      - cfmem.com_🇬🇧_GB_英国_1
+      - cfmem.com_🇺🇸_US_美国_31
+      - cfmem.com_🇺🇸_US_美国_32
+      - cfmem.com_🇸🇪_SE_瑞典_40
+      - cfmem.com_🇩🇪_DE_德国_28
+      - cfmem.com_🇨🇳_CN_中国_6
+      - cfmem.com_🇩🇪_DE_德国_29
+      - cfmem.com_🇩🇪_DE_德国_30
+      - cfmem.com_🇩🇪_DE_德国_31
+      - cfmem.com_🇺🇸_US_美国_33
+      - cfmem.com_🇭🇰_HK_香港_14
+      - cfmem.com_🇨🇦_CA_加拿大_1
+      - cfmem.com_🇺🇸_US_美国_34
+      - cfmem.com_🇸🇪_SE_瑞典_41
+      - cfmem.com_🇩🇪_DE_德国_32
+      - cfmem.com_🇺🇸_US_美国_35
+      - cfmem.com_🇩🇪_DE_德国_33
+      - cfmem.com_🇩🇪_DE_德国_34
+      - cfmem.com_🇩🇪_DE_德国_35
+      - cfmem.com_🇩🇪_DE_德国_36
+      - cfmem.com_🇸🇪_SE_瑞典_42
+      - cfmem.com_🇩🇪_DE_德国_37
+      - cfmem.com_🇨🇳_CN_中国_7
+      - cfmem.com_🇩🇪_DE_德国_38
+      - cfmem.com_🇸🇪_SE_瑞典_43
+      - cfmem.com_🇩🇪_DE_德国_39
+      - cfmem.com_🇩🇪_DE_德国_40
+      - cfmem.com_🇸🇪_SE_瑞典_44
+      - cfmem.com_🇩🇪_DE_德国_41
+      - cfmem.com_🇩🇪_DE_德国_42
+      - cfmem.com_🇸🇪_SE_瑞典_45
+      - cfmem.com_🇸🇪_SE_瑞典_46
+      - cfmem.com_🇩🇪_DE_德国_43
+      - cfmem.com_🇨🇭_CH_瑞士_9
+      - cfmem.com_🇩🇪_DE_德国_44
+      - cfmem.com_🇩🇪_DE_德国_45
+      - cfmem.com_🇩🇪_DE_德国_46
+      - cfmem.com_🇸🇪_SE_瑞典_47
+      - cfmem.com_🇩🇪_DE_德国_47
+      - cfmem.com_🇩🇪_DE_德国_48
+      - cfmem.com_🇸🇪_SE_瑞典_48
+      - cfmem.com_🇸🇪_SE_瑞典_49
+      - cfmem.com_🇩🇪_DE_德国_49
+      - cfmem.com_🇩🇪_DE_德国_50
+      - cfmem.com_🇩🇪_DE_德国_51
+      - cfmem.com_🇨🇦_CA_加拿大_2
+      - cfmem.com_🇸🇪_SE_瑞典_50
+      - cfmem.com_🇸🇪_SE_瑞典_51
+      - cfmem.com_🇸🇪_SE_瑞典_52
+      - cfmem.com_🇨🇭_CH_瑞士_10
+      - cfmem.com_🇩🇪_DE_德国_52
+      - cfmem.com_🇸🇪_SE_瑞典_53
+      - cfmem.com_🇮🇳_IN_印度_1
+      - cfmem.com_🇸🇪_SE_瑞典_54
+      - cfmem.com_🇸🇪_SE_瑞典_55
+      - cfmem.com_🇩🇪_DE_德国_53
+      - cfmem.com_🇸🇪_SE_瑞典_56
+      - cfmem.com_🇩🇪_DE_德国_54
+      - cfmem.com_🇸🇪_SE_瑞典_57
+      - cfmem.com_🇭🇰_HK_香港_15
+      - cfmem.com_🇸🇪_SE_瑞典_58
+      - cfmem.com_🇸🇪_SE_瑞典_59
+      - cfmem.com_🇸🇪_SE_瑞典_60
+      - cfmem.com_🇸🇪_SE_瑞典_61
+      - cfmem.com_🇸🇪_SE_瑞典_62
+      - cfmem.com_🇸🇪_SE_瑞典_63
+      - cfmem.com_🇩🇪_DE_德国_55
+      - cfmem.com_🇸🇪_SE_瑞典_64
+      - cfmem.com_🇸🇪_SE_瑞典_65
+      - cfmem.com_🇸🇪_SE_瑞典_66
+      - cfmem.com_🇸🇪_SE_瑞典_67
+      - cfmem.com_🇨🇭_CH_瑞士_11
+      - cfmem.com_🇸🇪_SE_瑞典_68
+      - cfmem.com_🇩🇪_DE_德国_56
+      - cfmem.com_🇩🇪_DE_德国_57
+      - cfmem.com_🇸🇪_SE_瑞典_69
+      - cfmem.com_🇸🇪_SE_瑞典_70
+      - cfmem.com_🇸🇪_SE_瑞典_71
+      - cfmem.com_🇸🇪_SE_瑞典_72
+      - cfmem.com_🇸🇪_SE_瑞典_73
+      - cfmem.com_🇩🇪_DE_德国_58
+      - cfmem.com_🇩🇪_DE_德国_59
+      - cfmem.com_🇩🇪_DE_德国_60
+      - cfmem.com_🇰🇷_KR_韩国_4
+      - cfmem.com_🇺🇸_US_美国_36
+      - cfmem.com_🇩🇪_DE_德国_61
+      - cfmem.com_🇸🇪_SE_瑞典_74
+      - cfmem.com_🇸🇪_SE_瑞典_75
+      - cfmem.com_🇸🇪_SE_瑞典_76
+      - cfmem.com_🇸🇪_SE_瑞典_77
+      - cfmem.com_🇸🇪_SE_瑞典_78
+      - cfmem.com_🇸🇪_SE_瑞典_79
+      - cfmem.com_🇩🇪_DE_德国_62
+      - cfmem.com_🇺🇸_US_美国_37
+      - cfmem.com_🇸🇪_SE_瑞典_80
+      - cfmem.com_🇸🇪_SE_瑞典_81
+      - cfmem.com_🇨🇭_CH_瑞士_12
+      - cfmem.com_🇨🇭_CH_瑞士_13
+      - cfmem.com_🇭🇰_HK_香港_16
+      - cfmem.com_🇩🇪_DE_德国_63
+      - cfmem.com_🇸🇪_SE_瑞典_82
+      - cfmem.com_🇸🇪_SE_瑞典_83
+      - cfmem.com_🇸🇪_SE_瑞典_84
+      - cfmem.com_🇸🇪_SE_瑞典_85
+      - cfmem.com_🇩🇪_DE_德国_64
+      - cfmem.com_🇸🇪_SE_瑞典_86
+      - cfmem.com_🇸🇪_SE_瑞典_87
+      - cfmem.com_🇸🇪_SE_瑞典_88
+      - cfmem.com_🇨🇭_CH_瑞士_14
+      - cfmem.com_🇺🇸_US_美国_38
+      - cfmem.com_🇩🇪_DE_德国_65
+      - cfmem.com_🇩🇪_DE_德国_66
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +1970,245 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
+      - cfmem.com_🇨🇳_CN_中国_1
+      - cfmem.com_🇯🇵_JP_日本_1
+      - cfmem.com_🇭🇰_HK_香港_1
+      - cfmem.com_🇨🇳_CN_中国_2
+      - cfmem.com_🇨🇳_CN_中国_3
+      - cfmem.com_🇭🇰_HK_香港_2
+      - cfmem.com_🇰🇷_KR_韩国_1
+      - cfmem.com_🇰🇷_KR_韩国_2
+      - cfmem.com_🇰🇷_KR_韩国_3
+      - cfmem.com_🇺🇸_US_美国_1
+      - cfmem.com_🇺🇸_US_美国_2
+      - cfmem.com_🇭🇰_HK_香港_3
+      - cfmem.com_🇭🇰_HK_香港_4
+      - cfmem.com_🇺🇸_US_美国_3
+      - cfmem.com_🇭🇰_HK_香港_5
+      - cfmem.com_🇺🇸_US_美国_4
+      - cfmem.com_🇩🇪_DE_德国_1
+      - cfmem.com_🇺🇸_US_美国_5
+      - cfmem.com_🇭🇰_HK_香港_6
+      - cfmem.com_🇩🇪_DE_德国_2
+      - cfmem.com_🇩🇪_DE_德国_3
+      - cfmem.com_🇨🇳_CN_中国_4
+      - cfmem.com_🇭🇰_HK_香港_7
+      - cfmem.com_🇺🇸_US_美国_6
+      - cfmem.com_🇸🇪_SE_瑞典_1
+      - cfmem.com_🇸🇪_SE_瑞典_2
+      - cfmem.com_🇩🇪_DE_德国_4
+      - cfmem.com_🇸🇪_SE_瑞典_3
+      - cfmem.com_🇩🇪_DE_德国_5
+      - cfmem.com_🇺🇸_US_美国_7
+      - cfmem.com_🇭🇰_HK_香港_8
+      - cfmem.com_🇩🇪_DE_德国_6
+      - cfmem.com_🇭🇰_HK_香港_9
+      - cfmem.com_🇸🇪_SE_瑞典_4
+      - cfmem.com_🇸🇪_SE_瑞典_5
+      - cfmem.com_🇺🇸_US_美国_8
+      - cfmem.com_🇺🇸_US_美国_9
+      - cfmem.com_🇨🇭_CH_瑞士_1
+      - cfmem.com_🇺🇸_US_美国_10
+      - cfmem.com_🇸🇪_SE_瑞典_6
+      - cfmem.com_🇩🇪_DE_德国_7
+      - cfmem.com_🇺🇸_US_美国_11
+      - cfmem.com_🇺🇸_US_美国_12
+      - cfmem.com_🇭🇰_HK_香港_10
+      - cfmem.com_🇸🇪_SE_瑞典_7
+      - cfmem.com_🇸🇪_SE_瑞典_8
+      - cfmem.com_🇩🇪_DE_德国_8
+      - cfmem.com_🇩🇪_DE_德国_9
+      - cfmem.com_🇩🇪_DE_德国_10
+      - cfmem.com_🇸🇪_SE_瑞典_9
+      - cfmem.com_🇩🇪_DE_德国_11
+      - cfmem.com_🇨🇭_CH_瑞士_2
+      - cfmem.com_🇺🇸_US_美国_13
+      - cfmem.com_🇩🇪_DE_德国_12
+      - cfmem.com_🇸🇪_SE_瑞典_10
+      - cfmem.com_🇺🇸_US_美国_14
+      - cfmem.com_🇸🇪_SE_瑞典_11
+      - cfmem.com_🇨🇭_CH_瑞士_3
+      - cfmem.com_🇺🇸_US_美国_15
+      - cfmem.com_🇺🇸_US_美国_16
+      - cfmem.com_🇸🇪_SE_瑞典_12
+      - cfmem.com_🇸🇪_SE_瑞典_13
+      - cfmem.com_🇸🇪_SE_瑞典_14
+      - cfmem.com_🇸🇪_SE_瑞典_15
+      - cfmem.com_🇸🇪_SE_瑞典_16
+      - cfmem.com_🇩🇪_DE_德国_13
+      - cfmem.com_🇸🇪_SE_瑞典_17
+      - cfmem.com_🇭🇰_HK_香港_11
+      - cfmem.com_🇸🇪_SE_瑞典_18
+      - cfmem.com_🇸🇪_SE_瑞典_19
+      - cfmem.com_🇩🇪_DE_德国_14
+      - cfmem.com_🇸🇪_SE_瑞典_20
+      - cfmem.com_🇩🇪_DE_德国_15
+      - cfmem.com_🇸🇪_SE_瑞典_21
+      - cfmem.com_🇺🇸_US_美国_17
+      - cfmem.com_🇸🇪_SE_瑞典_22
+      - cfmem.com_🇩🇪_DE_德国_16
+      - cfmem.com_🇸🇪_SE_瑞典_23
+      - cfmem.com_🇺🇸_US_美国_18
+      - cfmem.com_🇩🇪_DE_德国_17
+      - cfmem.com_🇺🇸_US_美国_19
+      - cfmem.com_🇺🇸_US_美国_20
+      - cfmem.com_🇸🇪_SE_瑞典_24
+      - cfmem.com_🇺🇸_US_美国_21
+      - cfmem.com_🇭🇰_HK_香港_12
+      - cfmem.com_🇸🇪_SE_瑞典_25
+      - cfmem.com_🇸🇪_SE_瑞典_26
+      - cfmem.com_🇸🇪_SE_瑞典_27
+      - cfmem.com_🇺🇸_US_美国_22
+      - cfmem.com_🇺🇸_US_美国_23
+      - cfmem.com_🇺🇸_US_美国_24
+      - cfmem.com_🇸🇪_SE_瑞典_28
+      - cfmem.com_🇩🇪_DE_德国_18
+      - cfmem.com_🇺🇸_US_美国_25
+      - cfmem.com_🇸🇪_SE_瑞典_29
+      - cfmem.com_🇩🇪_DE_德国_19
+      - cfmem.com_🇺🇸_US_美国_26
+      - cfmem.com_🇸🇪_SE_瑞典_30
+      - cfmem.com_🇸🇪_SE_瑞典_31
+      - cfmem.com_🇺🇸_US_美国_27
+      - cfmem.com_🇸🇪_SE_瑞典_32
+      - cfmem.com_🇩🇪_DE_德国_20
+      - cfmem.com_🇨🇭_CH_瑞士_4
+      - cfmem.com_🇩🇪_DE_德国_21
+      - cfmem.com_🇸🇪_SE_瑞典_33
+      - cfmem.com_🇸🇪_SE_瑞典_34
+      - cfmem.com_🇸🇪_SE_瑞典_35
+      - cfmem.com_🇩🇪_DE_德国_22
+      - cfmem.com_🇸🇪_SE_瑞典_36
+      - cfmem.com_🇫🇷_FR_法国_1
+      - cfmem.com_🇨🇭_CH_瑞士_5
+      - cfmem.com_🇺🇸_US_美国_28
+      - cfmem.com_🇺🇸_US_美国_29
+      - cfmem.com_🇩🇪_DE_德国_23
+      - cfmem.com_🇸🇪_SE_瑞典_37
+      - cfmem.com_🇩🇪_DE_德国_24
+      - cfmem.com_🇸🇪_SE_瑞典_38
+      - cfmem.com_🇨🇭_CH_瑞士_6
+      - cfmem.com_🇭🇰_HK_香港_13
+      - cfmem.com_🇩🇪_DE_德国_25
+      - cfmem.com_🇸🇪_SE_瑞典_39
+      - cfmem.com_🇨🇳_CN_中国_5
+      - cfmem.com_🇨🇭_CH_瑞士_7
+      - cfmem.com_🇩🇪_DE_德国_26
+      - cfmem.com_🇨🇭_CH_瑞士_8
+      - cfmem.com_🇩🇪_DE_德国_27
+      - cfmem.com_🇺🇸_US_美国_30
+      - cfmem.com_🇬🇧_GB_英国_1
+      - cfmem.com_🇺🇸_US_美国_31
+      - cfmem.com_🇺🇸_US_美国_32
+      - cfmem.com_🇸🇪_SE_瑞典_40
+      - cfmem.com_🇩🇪_DE_德国_28
+      - cfmem.com_🇨🇳_CN_中国_6
+      - cfmem.com_🇩🇪_DE_德国_29
+      - cfmem.com_🇩🇪_DE_德国_30
+      - cfmem.com_🇩🇪_DE_德国_31
+      - cfmem.com_🇺🇸_US_美国_33
+      - cfmem.com_🇭🇰_HK_香港_14
+      - cfmem.com_🇨🇦_CA_加拿大_1
+      - cfmem.com_🇺🇸_US_美国_34
+      - cfmem.com_🇸🇪_SE_瑞典_41
+      - cfmem.com_🇩🇪_DE_德国_32
+      - cfmem.com_🇺🇸_US_美国_35
+      - cfmem.com_🇩🇪_DE_德国_33
+      - cfmem.com_🇩🇪_DE_德国_34
+      - cfmem.com_🇩🇪_DE_德国_35
+      - cfmem.com_🇩🇪_DE_德国_36
+      - cfmem.com_🇸🇪_SE_瑞典_42
+      - cfmem.com_🇩🇪_DE_德国_37
+      - cfmem.com_🇨🇳_CN_中国_7
+      - cfmem.com_🇩🇪_DE_德国_38
+      - cfmem.com_🇸🇪_SE_瑞典_43
+      - cfmem.com_🇩🇪_DE_德国_39
+      - cfmem.com_🇩🇪_DE_德国_40
+      - cfmem.com_🇸🇪_SE_瑞典_44
+      - cfmem.com_🇩🇪_DE_德国_41
+      - cfmem.com_🇩🇪_DE_德国_42
+      - cfmem.com_🇸🇪_SE_瑞典_45
+      - cfmem.com_🇸🇪_SE_瑞典_46
+      - cfmem.com_🇩🇪_DE_德国_43
+      - cfmem.com_🇨🇭_CH_瑞士_9
+      - cfmem.com_🇩🇪_DE_德国_44
+      - cfmem.com_🇩🇪_DE_德国_45
+      - cfmem.com_🇩🇪_DE_德国_46
+      - cfmem.com_🇸🇪_SE_瑞典_47
+      - cfmem.com_🇩🇪_DE_德国_47
+      - cfmem.com_🇩🇪_DE_德国_48
+      - cfmem.com_🇸🇪_SE_瑞典_48
+      - cfmem.com_🇸🇪_SE_瑞典_49
+      - cfmem.com_🇩🇪_DE_德国_49
+      - cfmem.com_🇩🇪_DE_德国_50
+      - cfmem.com_🇩🇪_DE_德国_51
+      - cfmem.com_🇨🇦_CA_加拿大_2
+      - cfmem.com_🇸🇪_SE_瑞典_50
+      - cfmem.com_🇸🇪_SE_瑞典_51
+      - cfmem.com_🇸🇪_SE_瑞典_52
+      - cfmem.com_🇨🇭_CH_瑞士_10
+      - cfmem.com_🇩🇪_DE_德国_52
+      - cfmem.com_🇸🇪_SE_瑞典_53
+      - cfmem.com_🇮🇳_IN_印度_1
+      - cfmem.com_🇸🇪_SE_瑞典_54
+      - cfmem.com_🇸🇪_SE_瑞典_55
+      - cfmem.com_🇩🇪_DE_德国_53
+      - cfmem.com_🇸🇪_SE_瑞典_56
+      - cfmem.com_🇩🇪_DE_德国_54
+      - cfmem.com_🇸🇪_SE_瑞典_57
+      - cfmem.com_🇭🇰_HK_香港_15
+      - cfmem.com_🇸🇪_SE_瑞典_58
+      - cfmem.com_🇸🇪_SE_瑞典_59
+      - cfmem.com_🇸🇪_SE_瑞典_60
+      - cfmem.com_🇸🇪_SE_瑞典_61
+      - cfmem.com_🇸🇪_SE_瑞典_62
+      - cfmem.com_🇸🇪_SE_瑞典_63
+      - cfmem.com_🇩🇪_DE_德国_55
+      - cfmem.com_🇸🇪_SE_瑞典_64
+      - cfmem.com_🇸🇪_SE_瑞典_65
+      - cfmem.com_🇸🇪_SE_瑞典_66
+      - cfmem.com_🇸🇪_SE_瑞典_67
+      - cfmem.com_🇨🇭_CH_瑞士_11
+      - cfmem.com_🇸🇪_SE_瑞典_68
+      - cfmem.com_🇩🇪_DE_德国_56
+      - cfmem.com_🇩🇪_DE_德国_57
+      - cfmem.com_🇸🇪_SE_瑞典_69
+      - cfmem.com_🇸🇪_SE_瑞典_70
+      - cfmem.com_🇸🇪_SE_瑞典_71
+      - cfmem.com_🇸🇪_SE_瑞典_72
+      - cfmem.com_🇸🇪_SE_瑞典_73
+      - cfmem.com_🇩🇪_DE_德国_58
+      - cfmem.com_🇩🇪_DE_德国_59
+      - cfmem.com_🇩🇪_DE_德国_60
+      - cfmem.com_🇰🇷_KR_韩国_4
+      - cfmem.com_🇺🇸_US_美国_36
+      - cfmem.com_🇩🇪_DE_德国_61
+      - cfmem.com_🇸🇪_SE_瑞典_74
+      - cfmem.com_🇸🇪_SE_瑞典_75
+      - cfmem.com_🇸🇪_SE_瑞典_76
+      - cfmem.com_🇸🇪_SE_瑞典_77
+      - cfmem.com_🇸🇪_SE_瑞典_78
+      - cfmem.com_🇸🇪_SE_瑞典_79
+      - cfmem.com_🇩🇪_DE_德国_62
+      - cfmem.com_🇺🇸_US_美国_37
+      - cfmem.com_🇸🇪_SE_瑞典_80
+      - cfmem.com_🇸🇪_SE_瑞典_81
+      - cfmem.com_🇨🇭_CH_瑞士_12
+      - cfmem.com_🇨🇭_CH_瑞士_13
+      - cfmem.com_🇭🇰_HK_香港_16
+      - cfmem.com_🇩🇪_DE_德国_63
+      - cfmem.com_🇸🇪_SE_瑞典_82
+      - cfmem.com_🇸🇪_SE_瑞典_83
+      - cfmem.com_🇸🇪_SE_瑞典_84
+      - cfmem.com_🇸🇪_SE_瑞典_85
+      - cfmem.com_🇩🇪_DE_德国_64
+      - cfmem.com_🇸🇪_SE_瑞典_86
+      - cfmem.com_🇸🇪_SE_瑞典_87
+      - cfmem.com_🇸🇪_SE_瑞典_88
+      - cfmem.com_🇨🇭_CH_瑞士_14
+      - cfmem.com_🇺🇸_US_美国_38
+      - cfmem.com_🇩🇪_DE_德国_65
+      - cfmem.com_🇩🇪_DE_德国_66
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
