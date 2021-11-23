@@ -5,196 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇸🇨_SC_由零開始11月24日_1', server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: lvuft.com}}
-  - {name: '🇨🇦_CA_由零開始11月24日_2', server: 134.195.196.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_由零開始11月24日_3', server: 38.39.192.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_由零開始11月24日_4', server: 38.39.192.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇨🇦_CA_由零開始11月24日_5', server: 134.195.196.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_由零開始11月24日_6', server: 38.39.192.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🏳_NON_由零開始11月24日_7', server: 134.195.196.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_由零開始11月24日_8', server: 154.17.2.94, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: pAYSRy4Y8w5aST72CzNRayDeESlOBAxZnKD0363g39xFDuCqal8IcZep3OXjFC}
-  - {name: '🇺🇸_US_由零開始11月24日_9', server: 154.17.23.132, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: 0C9IaKy38uljOZ7Z6eC3na3XNA4lSYzTBx5ESqFyOYCaeR2pxFSDc3DDwA8gRp}
-  - {name: '🇸🇬_SG_由零開始11月24日_10', server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: zecjk.com}}
-  - {name: '🏳_NON_由零開始11月24日_11', server: global-transit-hk-v2.pucdn.me, port: 31102, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-kr-02.pucdn.me}}
-  - {name: '🏳_NON_由零開始11月24日_12', server: global-transit-hk-v2.pucdn.me, port: 32302, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-aws-jp-02.pucdn.me}}
-  - {name: '🏳_NON_由零開始11月24日_13', server: global-transit-hk-v2.pucdn.me, port: 10009, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-05.pucdn.me}}
-  - {name: '🏳_NON_由零開始11月24日_14', server: global-transit-hk-v2.pucdn.me, port: 40012, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-12.pucdn.me}}
-  - {name: '🇺🇸_US_由零開始11月24日_15', server: 154.17.1.130, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZDZSRKaS8uTjDpFAcC8OClnD2pISORz0Yya7a9xegxy33XC4wleFY3Eq3NA65B}
-  - {name: '🇺🇸_US_由零開始11月24日_16', server: 154.17.2.109, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: B7wYOKgFl0YDIF3aOeCRl93eaSSa2pnzqZASDuxy4CN35CZpXAyjT6DEc8x38R}
-  - {name: '🏳_NON_由零開始11月24日_17', server: global-transit-hk-v2.pucdn.me, port: 10006, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-02.pucdn.me}}
-  - {name: '🇸🇬_SG_由零開始11月24日_18', server: eeh7iewe.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: eeh7iewe.com}}
-  - {name: '🏳_NON_由零開始11月24日_19', server: global-transit-hk-v2.pucdn.me, port: 40004, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-04.pucdn.me}}
+  - {name: '🇨🇦_CA_加拿大_1', server: 134.195.198.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇨_SC_由零開始11月24日_1
-      - 🇨🇦_CA_由零開始11月24日_2
-      - 🇺🇸_US_由零開始11月24日_3
-      - 🇺🇸_US_由零開始11月24日_4
-      - 🇨🇦_CA_由零開始11月24日_5
-      - 🇺🇸_US_由零開始11月24日_6
-      - 🏳_NON_由零開始11月24日_7
-      - 🇺🇸_US_由零開始11月24日_8
-      - 🇺🇸_US_由零開始11月24日_9
-      - 🇸🇬_SG_由零開始11月24日_10
-      - 🏳_NON_由零開始11月24日_11
-      - 🏳_NON_由零開始11月24日_12
-      - 🏳_NON_由零開始11月24日_13
-      - 🏳_NON_由零開始11月24日_14
-      - 🇺🇸_US_由零開始11月24日_15
-      - 🇺🇸_US_由零開始11月24日_16
-      - 🏳_NON_由零開始11月24日_17
-      - 🇸🇬_SG_由零開始11月24日_18
-      - 🏳_NON_由零開始11月24日_19
+      - 🇨🇦_CA_加拿大_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇨_SC_由零開始11月24日_1
-      - 🇨🇦_CA_由零開始11月24日_2
-      - 🇺🇸_US_由零開始11月24日_3
-      - 🇺🇸_US_由零開始11月24日_4
-      - 🇨🇦_CA_由零開始11月24日_5
-      - 🇺🇸_US_由零開始11月24日_6
-      - 🏳_NON_由零開始11月24日_7
-      - 🇺🇸_US_由零開始11月24日_8
-      - 🇺🇸_US_由零開始11月24日_9
-      - 🇸🇬_SG_由零開始11月24日_10
-      - 🏳_NON_由零開始11月24日_11
-      - 🏳_NON_由零開始11月24日_12
-      - 🏳_NON_由零開始11月24日_13
-      - 🏳_NON_由零開始11月24日_14
-      - 🇺🇸_US_由零開始11月24日_15
-      - 🇺🇸_US_由零開始11月24日_16
-      - 🏳_NON_由零開始11月24日_17
-      - 🇸🇬_SG_由零開始11月24日_18
-      - 🏳_NON_由零開始11月24日_19
+      - 🇨🇦_CA_加拿大_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇨_SC_由零開始11月24日_1
-      - 🇨🇦_CA_由零開始11月24日_2
-      - 🇺🇸_US_由零開始11月24日_3
-      - 🇺🇸_US_由零開始11月24日_4
-      - 🇨🇦_CA_由零開始11月24日_5
-      - 🇺🇸_US_由零開始11月24日_6
-      - 🏳_NON_由零開始11月24日_7
-      - 🇺🇸_US_由零開始11月24日_8
-      - 🇺🇸_US_由零開始11月24日_9
-      - 🇸🇬_SG_由零開始11月24日_10
-      - 🏳_NON_由零開始11月24日_11
-      - 🏳_NON_由零開始11月24日_12
-      - 🏳_NON_由零開始11月24日_13
-      - 🏳_NON_由零開始11月24日_14
-      - 🇺🇸_US_由零開始11月24日_15
-      - 🇺🇸_US_由零開始11月24日_16
-      - 🏳_NON_由零開始11月24日_17
-      - 🇸🇬_SG_由零開始11月24日_18
-      - 🏳_NON_由零開始11月24日_19
+      - 🇨🇦_CA_加拿大_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇨_SC_由零開始11月24日_1
-      - 🇨🇦_CA_由零開始11月24日_2
-      - 🇺🇸_US_由零開始11月24日_3
-      - 🇺🇸_US_由零開始11月24日_4
-      - 🇨🇦_CA_由零開始11月24日_5
-      - 🇺🇸_US_由零開始11月24日_6
-      - 🏳_NON_由零開始11月24日_7
-      - 🇺🇸_US_由零開始11月24日_8
-      - 🇺🇸_US_由零開始11月24日_9
-      - 🇸🇬_SG_由零開始11月24日_10
-      - 🏳_NON_由零開始11月24日_11
-      - 🏳_NON_由零開始11月24日_12
-      - 🏳_NON_由零開始11月24日_13
-      - 🏳_NON_由零開始11月24日_14
-      - 🇺🇸_US_由零開始11月24日_15
-      - 🇺🇸_US_由零開始11月24日_16
-      - 🏳_NON_由零開始11月24日_17
-      - 🇸🇬_SG_由零開始11月24日_18
-      - 🏳_NON_由零開始11月24日_19
+      - 🇨🇦_CA_加拿大_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇨_SC_由零開始11月24日_1
-      - 🇨🇦_CA_由零開始11月24日_2
-      - 🇺🇸_US_由零開始11月24日_3
-      - 🇺🇸_US_由零開始11月24日_4
-      - 🇨🇦_CA_由零開始11月24日_5
-      - 🇺🇸_US_由零開始11月24日_6
-      - 🏳_NON_由零開始11月24日_7
-      - 🇺🇸_US_由零開始11月24日_8
-      - 🇺🇸_US_由零開始11月24日_9
-      - 🇸🇬_SG_由零開始11月24日_10
-      - 🏳_NON_由零開始11月24日_11
-      - 🏳_NON_由零開始11月24日_12
-      - 🏳_NON_由零開始11月24日_13
-      - 🏳_NON_由零開始11月24日_14
-      - 🇺🇸_US_由零開始11月24日_15
-      - 🇺🇸_US_由零開始11月24日_16
-      - 🏳_NON_由零開始11月24日_17
-      - 🇸🇬_SG_由零開始11月24日_18
-      - 🏳_NON_由零開始11月24日_19
+      - 🇨🇦_CA_加拿大_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇨_SC_由零開始11月24日_1
-      - 🇨🇦_CA_由零開始11月24日_2
-      - 🇺🇸_US_由零開始11月24日_3
-      - 🇺🇸_US_由零開始11月24日_4
-      - 🇨🇦_CA_由零開始11月24日_5
-      - 🇺🇸_US_由零開始11月24日_6
-      - 🏳_NON_由零開始11月24日_7
-      - 🇺🇸_US_由零開始11月24日_8
-      - 🇺🇸_US_由零開始11月24日_9
-      - 🇸🇬_SG_由零開始11月24日_10
-      - 🏳_NON_由零開始11月24日_11
-      - 🏳_NON_由零開始11月24日_12
-      - 🏳_NON_由零開始11月24日_13
-      - 🏳_NON_由零開始11月24日_14
-      - 🇺🇸_US_由零開始11月24日_15
-      - 🇺🇸_US_由零開始11月24日_16
-      - 🏳_NON_由零開始11月24日_17
-      - 🇸🇬_SG_由零開始11月24日_18
-      - 🏳_NON_由零開始11月24日_19
+      - 🇨🇦_CA_加拿大_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇨_SC_由零開始11月24日_1
-      - 🇨🇦_CA_由零開始11月24日_2
-      - 🇺🇸_US_由零開始11月24日_3
-      - 🇺🇸_US_由零開始11月24日_4
-      - 🇨🇦_CA_由零開始11月24日_5
-      - 🇺🇸_US_由零開始11月24日_6
-      - 🏳_NON_由零開始11月24日_7
-      - 🇺🇸_US_由零開始11月24日_8
-      - 🇺🇸_US_由零開始11月24日_9
-      - 🇸🇬_SG_由零開始11月24日_10
-      - 🏳_NON_由零開始11月24日_11
-      - 🏳_NON_由零開始11月24日_12
-      - 🏳_NON_由零開始11月24日_13
-      - 🏳_NON_由零開始11月24日_14
-      - 🇺🇸_US_由零開始11月24日_15
-      - 🇺🇸_US_由零開始11月24日_16
-      - 🏳_NON_由零開始11月24日_17
-      - 🇸🇬_SG_由零開始11月24日_18
-      - 🏳_NON_由零開始11月24日_19
+      - 🇨🇦_CA_加拿大_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -210,25 +66,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇨_SC_由零開始11月24日_1
-      - 🇨🇦_CA_由零開始11月24日_2
-      - 🇺🇸_US_由零開始11月24日_3
-      - 🇺🇸_US_由零開始11月24日_4
-      - 🇨🇦_CA_由零開始11月24日_5
-      - 🇺🇸_US_由零開始11月24日_6
-      - 🏳_NON_由零開始11月24日_7
-      - 🇺🇸_US_由零開始11月24日_8
-      - 🇺🇸_US_由零開始11月24日_9
-      - 🇸🇬_SG_由零開始11月24日_10
-      - 🏳_NON_由零開始11月24日_11
-      - 🏳_NON_由零開始11月24日_12
-      - 🏳_NON_由零開始11月24日_13
-      - 🏳_NON_由零開始11月24日_14
-      - 🇺🇸_US_由零開始11月24日_15
-      - 🇺🇸_US_由零開始11月24日_16
-      - 🏳_NON_由零開始11月24日_17
-      - 🇸🇬_SG_由零開始11月24日_18
-      - 🏳_NON_由零開始11月24日_19
+      - 🇨🇦_CA_加拿大_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
