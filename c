@@ -5,60 +5,124 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇭🇰_HK_香港->🇩🇪_DE_德国_1', server: hk.huanyumingle.xyz, port: 10025, type: ss, cipher: chacha20-ietf-poly1305, password: 60a6bf3c-f656-441b-a48b-a57731af9fd6}
-  - {name: '🇸🇬_SG_新加坡_2', server: 217.197.161.113, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇸🇬_SG_新加坡_1', server: 217.197.161.113, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇪🇸_ES_西班牙_2', server: 172.107.233.230, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_3', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_4', server: 38.39.192.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '@SSRSUB-美国T01-付费推荐:dlj.tf/ssrsub_5', server: t1.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c}
+  - {name: '@SSRSUB-美国T02-付费推荐:dlj.tf/ssrsub_6', server: t2.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c}
+  - {name: '@SSRSUB-俄罗斯T03-付费推荐:dlj.tf/ssrsub_7', server: t3.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c}
+  - {name: '@SSRSUB-俄罗斯T04-付费推荐:dlj.tf/ssrsub_8', server: t5.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c}
+  - {name: '@SSRSUB-加拿大T05-付费推荐:dlj.tf/ssrsub_9', server: t6.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c}
+  - {name: '@SSRSUB-加拿大T06-付费推荐:dlj.tf/ssrsub_10', server: t7.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港->🇩🇪_DE_德国_1
-      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇪🇸_ES_西班牙_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - @SSRSUB-美国T01-付费推荐:dlj.tf/ssrsub_5
+      - @SSRSUB-美国T02-付费推荐:dlj.tf/ssrsub_6
+      - @SSRSUB-俄罗斯T03-付费推荐:dlj.tf/ssrsub_7
+      - @SSRSUB-俄罗斯T04-付费推荐:dlj.tf/ssrsub_8
+      - @SSRSUB-加拿大T05-付费推荐:dlj.tf/ssrsub_9
+      - @SSRSUB-加拿大T06-付费推荐:dlj.tf/ssrsub_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰_HK_香港->🇩🇪_DE_德国_1
-      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇪🇸_ES_西班牙_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - @SSRSUB-美国T01-付费推荐:dlj.tf/ssrsub_5
+      - @SSRSUB-美国T02-付费推荐:dlj.tf/ssrsub_6
+      - @SSRSUB-俄罗斯T03-付费推荐:dlj.tf/ssrsub_7
+      - @SSRSUB-俄罗斯T04-付费推荐:dlj.tf/ssrsub_8
+      - @SSRSUB-加拿大T05-付费推荐:dlj.tf/ssrsub_9
+      - @SSRSUB-加拿大T06-付费推荐:dlj.tf/ssrsub_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港->🇩🇪_DE_德国_1
-      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇪🇸_ES_西班牙_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - @SSRSUB-美国T01-付费推荐:dlj.tf/ssrsub_5
+      - @SSRSUB-美国T02-付费推荐:dlj.tf/ssrsub_6
+      - @SSRSUB-俄罗斯T03-付费推荐:dlj.tf/ssrsub_7
+      - @SSRSUB-俄罗斯T04-付费推荐:dlj.tf/ssrsub_8
+      - @SSRSUB-加拿大T05-付费推荐:dlj.tf/ssrsub_9
+      - @SSRSUB-加拿大T06-付费推荐:dlj.tf/ssrsub_10
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港->🇩🇪_DE_德国_1
-      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇪🇸_ES_西班牙_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - @SSRSUB-美国T01-付费推荐:dlj.tf/ssrsub_5
+      - @SSRSUB-美国T02-付费推荐:dlj.tf/ssrsub_6
+      - @SSRSUB-俄罗斯T03-付费推荐:dlj.tf/ssrsub_7
+      - @SSRSUB-俄罗斯T04-付费推荐:dlj.tf/ssrsub_8
+      - @SSRSUB-加拿大T05-付费推荐:dlj.tf/ssrsub_9
+      - @SSRSUB-加拿大T06-付费推荐:dlj.tf/ssrsub_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港->🇩🇪_DE_德国_1
-      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇪🇸_ES_西班牙_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - @SSRSUB-美国T01-付费推荐:dlj.tf/ssrsub_5
+      - @SSRSUB-美国T02-付费推荐:dlj.tf/ssrsub_6
+      - @SSRSUB-俄罗斯T03-付费推荐:dlj.tf/ssrsub_7
+      - @SSRSUB-俄罗斯T04-付费推荐:dlj.tf/ssrsub_8
+      - @SSRSUB-加拿大T05-付费推荐:dlj.tf/ssrsub_9
+      - @SSRSUB-加拿大T06-付费推荐:dlj.tf/ssrsub_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港->🇩🇪_DE_德国_1
-      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇪🇸_ES_西班牙_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - @SSRSUB-美国T01-付费推荐:dlj.tf/ssrsub_5
+      - @SSRSUB-美国T02-付费推荐:dlj.tf/ssrsub_6
+      - @SSRSUB-俄罗斯T03-付费推荐:dlj.tf/ssrsub_7
+      - @SSRSUB-俄罗斯T04-付费推荐:dlj.tf/ssrsub_8
+      - @SSRSUB-加拿大T05-付费推荐:dlj.tf/ssrsub_9
+      - @SSRSUB-加拿大T06-付费推荐:dlj.tf/ssrsub_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港->🇩🇪_DE_德国_1
-      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇪🇸_ES_西班牙_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - @SSRSUB-美国T01-付费推荐:dlj.tf/ssrsub_5
+      - @SSRSUB-美国T02-付费推荐:dlj.tf/ssrsub_6
+      - @SSRSUB-俄罗斯T03-付费推荐:dlj.tf/ssrsub_7
+      - @SSRSUB-俄罗斯T04-付费推荐:dlj.tf/ssrsub_8
+      - @SSRSUB-加拿大T05-付费推荐:dlj.tf/ssrsub_9
+      - @SSRSUB-加拿大T06-付费推荐:dlj.tf/ssrsub_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +138,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港->🇩🇪_DE_德国_1
-      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇪🇸_ES_西班牙_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - @SSRSUB-美国T01-付费推荐:dlj.tf/ssrsub_5
+      - @SSRSUB-美国T02-付费推荐:dlj.tf/ssrsub_6
+      - @SSRSUB-俄罗斯T03-付费推荐:dlj.tf/ssrsub_7
+      - @SSRSUB-俄罗斯T04-付费推荐:dlj.tf/ssrsub_8
+      - @SSRSUB-加拿大T05-付费推荐:dlj.tf/ssrsub_9
+      - @SSRSUB-加拿大T06-付费推荐:dlj.tf/ssrsub_10
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
