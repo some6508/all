@@ -5,76 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇸🇬_SG_新加坡_1', server: 217.197.161.109, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇺🇸_US_美国_2', server: 38.75.136.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇨🇦_CA_加拿大_3', server: 134.195.196.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦_CA_加拿大_4', server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'mattkaydiary.com|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_1', server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: data.video.qiyi.com}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬_SG_新加坡_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
+      - mattkaydiary.com|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬_SG_新加坡_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
+      - mattkaydiary.com|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬_SG_新加坡_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
+      - mattkaydiary.com|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬_SG_新加坡_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
+      - mattkaydiary.com|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬_SG_新加坡_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
+      - mattkaydiary.com|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬_SG_新加坡_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
+      - mattkaydiary.com|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬_SG_新加坡_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
+      - mattkaydiary.com|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,10 +66,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬_SG_新加坡_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
+      - mattkaydiary.com|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
