@@ -5,196 +5,76 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_1', server: 37.19.211.83, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_2', server: 37.19.211.108, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_3', server: 37.19.211.28, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_4', server: 37.19.211.60, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_5', server: 37.19.211.83, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_6', server: 37.19.211.108, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 'v2rayse_🇨🇳_CN_中国_1', server: jpa.sttlink.xyz, port: 20189, type: vmess, uuid: ab60166b-d22d-3ae5-963f-e5867007ff08, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ka}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_7', server: 37.19.211.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_8', server: 37.19.211.80, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_9', server: 37.19.211.25, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_10', server: 37.19.211.85, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_100', server: 37.19.211.65, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_101', server: 37.19.211.40, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_102', server: 37.19.211.55, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_103', server: 37.19.211.78, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_104', server: 37.19.211.50, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_105', server: 37.19.211.63, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_106', server: 37.19.211.78, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_107', server: 37.19.211.60, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '🇨🇦_CA_加拿大_1', server: 198.57.27.16, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_2', server: 38.114.114.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_3', server: 198.57.27.36, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_4', server: 38.68.134.202, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇨🇦_CA_加拿大_2
-      - v2rayse_🇨🇦_CA_加拿大_3
-      - v2rayse_🇨🇦_CA_加拿大_4
-      - v2rayse_🇨🇦_CA_加拿大_5
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_7
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇨🇦_CA_加拿大_10
-      - v2rayse_🇨🇦_CA_加拿大_100
-      - v2rayse_🇨🇦_CA_加拿大_101
-      - v2rayse_🇨🇦_CA_加拿大_102
-      - v2rayse_🇨🇦_CA_加拿大_103
-      - v2rayse_🇨🇦_CA_加拿大_104
-      - v2rayse_🇨🇦_CA_加拿大_105
-      - v2rayse_🇨🇦_CA_加拿大_106
-      - v2rayse_🇨🇦_CA_加拿大_107
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇨🇦_CA_加拿大_2
-      - v2rayse_🇨🇦_CA_加拿大_3
-      - v2rayse_🇨🇦_CA_加拿大_4
-      - v2rayse_🇨🇦_CA_加拿大_5
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_7
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇨🇦_CA_加拿大_10
-      - v2rayse_🇨🇦_CA_加拿大_100
-      - v2rayse_🇨🇦_CA_加拿大_101
-      - v2rayse_🇨🇦_CA_加拿大_102
-      - v2rayse_🇨🇦_CA_加拿大_103
-      - v2rayse_🇨🇦_CA_加拿大_104
-      - v2rayse_🇨🇦_CA_加拿大_105
-      - v2rayse_🇨🇦_CA_加拿大_106
-      - v2rayse_🇨🇦_CA_加拿大_107
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇨🇦_CA_加拿大_2
-      - v2rayse_🇨🇦_CA_加拿大_3
-      - v2rayse_🇨🇦_CA_加拿大_4
-      - v2rayse_🇨🇦_CA_加拿大_5
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_7
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇨🇦_CA_加拿大_10
-      - v2rayse_🇨🇦_CA_加拿大_100
-      - v2rayse_🇨🇦_CA_加拿大_101
-      - v2rayse_🇨🇦_CA_加拿大_102
-      - v2rayse_🇨🇦_CA_加拿大_103
-      - v2rayse_🇨🇦_CA_加拿大_104
-      - v2rayse_🇨🇦_CA_加拿大_105
-      - v2rayse_🇨🇦_CA_加拿大_106
-      - v2rayse_🇨🇦_CA_加拿大_107
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国_4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇨🇦_CA_加拿大_2
-      - v2rayse_🇨🇦_CA_加拿大_3
-      - v2rayse_🇨🇦_CA_加拿大_4
-      - v2rayse_🇨🇦_CA_加拿大_5
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_7
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇨🇦_CA_加拿大_10
-      - v2rayse_🇨🇦_CA_加拿大_100
-      - v2rayse_🇨🇦_CA_加拿大_101
-      - v2rayse_🇨🇦_CA_加拿大_102
-      - v2rayse_🇨🇦_CA_加拿大_103
-      - v2rayse_🇨🇦_CA_加拿大_104
-      - v2rayse_🇨🇦_CA_加拿大_105
-      - v2rayse_🇨🇦_CA_加拿大_106
-      - v2rayse_🇨🇦_CA_加拿大_107
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇨🇦_CA_加拿大_2
-      - v2rayse_🇨🇦_CA_加拿大_3
-      - v2rayse_🇨🇦_CA_加拿大_4
-      - v2rayse_🇨🇦_CA_加拿大_5
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_7
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇨🇦_CA_加拿大_10
-      - v2rayse_🇨🇦_CA_加拿大_100
-      - v2rayse_🇨🇦_CA_加拿大_101
-      - v2rayse_🇨🇦_CA_加拿大_102
-      - v2rayse_🇨🇦_CA_加拿大_103
-      - v2rayse_🇨🇦_CA_加拿大_104
-      - v2rayse_🇨🇦_CA_加拿大_105
-      - v2rayse_🇨🇦_CA_加拿大_106
-      - v2rayse_🇨🇦_CA_加拿大_107
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇨🇦_CA_加拿大_2
-      - v2rayse_🇨🇦_CA_加拿大_3
-      - v2rayse_🇨🇦_CA_加拿大_4
-      - v2rayse_🇨🇦_CA_加拿大_5
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_7
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇨🇦_CA_加拿大_10
-      - v2rayse_🇨🇦_CA_加拿大_100
-      - v2rayse_🇨🇦_CA_加拿大_101
-      - v2rayse_🇨🇦_CA_加拿大_102
-      - v2rayse_🇨🇦_CA_加拿大_103
-      - v2rayse_🇨🇦_CA_加拿大_104
-      - v2rayse_🇨🇦_CA_加拿大_105
-      - v2rayse_🇨🇦_CA_加拿大_106
-      - v2rayse_🇨🇦_CA_加拿大_107
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇨🇦_CA_加拿大_2
-      - v2rayse_🇨🇦_CA_加拿大_3
-      - v2rayse_🇨🇦_CA_加拿大_4
-      - v2rayse_🇨🇦_CA_加拿大_5
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_7
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇨🇦_CA_加拿大_10
-      - v2rayse_🇨🇦_CA_加拿大_100
-      - v2rayse_🇨🇦_CA_加拿大_101
-      - v2rayse_🇨🇦_CA_加拿大_102
-      - v2rayse_🇨🇦_CA_加拿大_103
-      - v2rayse_🇨🇦_CA_加拿大_104
-      - v2rayse_🇨🇦_CA_加拿大_105
-      - v2rayse_🇨🇦_CA_加拿大_106
-      - v2rayse_🇨🇦_CA_加拿大_107
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -210,25 +90,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇨🇦_CA_加拿大_2
-      - v2rayse_🇨🇦_CA_加拿大_3
-      - v2rayse_🇨🇦_CA_加拿大_4
-      - v2rayse_🇨🇦_CA_加拿大_5
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_7
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇨🇦_CA_加拿大_10
-      - v2rayse_🇨🇦_CA_加拿大_100
-      - v2rayse_🇨🇦_CA_加拿大_101
-      - v2rayse_🇨🇦_CA_加拿大_102
-      - v2rayse_🇨🇦_CA_加拿大_103
-      - v2rayse_🇨🇦_CA_加拿大_104
-      - v2rayse_🇨🇦_CA_加拿大_105
-      - v2rayse_🇨🇦_CA_加拿大_106
-      - v2rayse_🇨🇦_CA_加拿大_107
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国_4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
