@@ -5,252 +5,76 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇯🇵JP_00 @WangCai_1', server: 185.172.113.156, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_01 @WangCai_1', server: 185.172.113.156, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_02 @WangCai_1', server: 185.172.113.156, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_03 @WangCai_1', server: 185.172.113.156, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_04 @WangCai_1', server: 185.172.113.156, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_05 @WangCai_1', server: 185.172.113.156, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_06 @WangCai_1', server: 185.172.113.156, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_07 @WangCai_1', server: 185.172.113.156, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_08 @WangCai_1', server: 185.172.113.156, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_09 @WangCai_1', server: 185.172.113.156, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_10 @WangCai_1', server: 185.172.113.156, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_11 @WangCai_1', server: 185.172.113.156, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_12 @WangCai_1', server: 185.172.113.156, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_00 @WangCai_1_15', server: 185.172.113.85, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_01 @WangCai_1_16', server: 185.172.113.85, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_02 @WangCai_1_17', server: 185.172.113.85, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_03 @WangCai_1_18', server: 185.172.113.85, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_04 @WangCai_1_19', server: 185.172.113.85, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_05 @WangCai_1_20', server: 185.172.113.85, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_06 @WangCai_1_21', server: 185.172.113.85, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_07 @WangCai_1_22', server: 185.172.113.85, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_08 @WangCai_1_23', server: 185.172.113.85, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_09 @WangCai_1_24', server: 185.172.113.85, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_10 @WangCai_1_25', server: 185.172.113.85, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_11 @WangCai_1_26', server: 185.172.113.85, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇯🇵JP_12 @WangCai_1_27', server: 185.172.113.85, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇺🇸_US_美国_1', server: 38.68.134.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_2', server: 38.68.134.190, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_3', server: 167.88.62.62, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_4', server: 38.68.134.190, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵JP_00 @WangCai_1
-      - 🇯🇵JP_01 @WangCai_1
-      - 🇯🇵JP_02 @WangCai_1
-      - 🇯🇵JP_03 @WangCai_1
-      - 🇯🇵JP_04 @WangCai_1
-      - 🇯🇵JP_05 @WangCai_1
-      - 🇯🇵JP_06 @WangCai_1
-      - 🇯🇵JP_07 @WangCai_1
-      - 🇯🇵JP_08 @WangCai_1
-      - 🇯🇵JP_09 @WangCai_1
-      - 🇯🇵JP_10 @WangCai_1
-      - 🇯🇵JP_11 @WangCai_1
-      - 🇯🇵JP_12 @WangCai_1
-      - 🇯🇵JP_00 @WangCai_1_15
-      - 🇯🇵JP_01 @WangCai_1_16
-      - 🇯🇵JP_02 @WangCai_1_17
-      - 🇯🇵JP_03 @WangCai_1_18
-      - 🇯🇵JP_04 @WangCai_1_19
-      - 🇯🇵JP_05 @WangCai_1_20
-      - 🇯🇵JP_06 @WangCai_1_21
-      - 🇯🇵JP_07 @WangCai_1_22
-      - 🇯🇵JP_08 @WangCai_1_23
-      - 🇯🇵JP_09 @WangCai_1_24
-      - 🇯🇵JP_10 @WangCai_1_25
-      - 🇯🇵JP_11 @WangCai_1_26
-      - 🇯🇵JP_12 @WangCai_1_27
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵JP_00 @WangCai_1
-      - 🇯🇵JP_01 @WangCai_1
-      - 🇯🇵JP_02 @WangCai_1
-      - 🇯🇵JP_03 @WangCai_1
-      - 🇯🇵JP_04 @WangCai_1
-      - 🇯🇵JP_05 @WangCai_1
-      - 🇯🇵JP_06 @WangCai_1
-      - 🇯🇵JP_07 @WangCai_1
-      - 🇯🇵JP_08 @WangCai_1
-      - 🇯🇵JP_09 @WangCai_1
-      - 🇯🇵JP_10 @WangCai_1
-      - 🇯🇵JP_11 @WangCai_1
-      - 🇯🇵JP_12 @WangCai_1
-      - 🇯🇵JP_00 @WangCai_1_15
-      - 🇯🇵JP_01 @WangCai_1_16
-      - 🇯🇵JP_02 @WangCai_1_17
-      - 🇯🇵JP_03 @WangCai_1_18
-      - 🇯🇵JP_04 @WangCai_1_19
-      - 🇯🇵JP_05 @WangCai_1_20
-      - 🇯🇵JP_06 @WangCai_1_21
-      - 🇯🇵JP_07 @WangCai_1_22
-      - 🇯🇵JP_08 @WangCai_1_23
-      - 🇯🇵JP_09 @WangCai_1_24
-      - 🇯🇵JP_10 @WangCai_1_25
-      - 🇯🇵JP_11 @WangCai_1_26
-      - 🇯🇵JP_12 @WangCai_1_27
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵JP_00 @WangCai_1
-      - 🇯🇵JP_01 @WangCai_1
-      - 🇯🇵JP_02 @WangCai_1
-      - 🇯🇵JP_03 @WangCai_1
-      - 🇯🇵JP_04 @WangCai_1
-      - 🇯🇵JP_05 @WangCai_1
-      - 🇯🇵JP_06 @WangCai_1
-      - 🇯🇵JP_07 @WangCai_1
-      - 🇯🇵JP_08 @WangCai_1
-      - 🇯🇵JP_09 @WangCai_1
-      - 🇯🇵JP_10 @WangCai_1
-      - 🇯🇵JP_11 @WangCai_1
-      - 🇯🇵JP_12 @WangCai_1
-      - 🇯🇵JP_00 @WangCai_1_15
-      - 🇯🇵JP_01 @WangCai_1_16
-      - 🇯🇵JP_02 @WangCai_1_17
-      - 🇯🇵JP_03 @WangCai_1_18
-      - 🇯🇵JP_04 @WangCai_1_19
-      - 🇯🇵JP_05 @WangCai_1_20
-      - 🇯🇵JP_06 @WangCai_1_21
-      - 🇯🇵JP_07 @WangCai_1_22
-      - 🇯🇵JP_08 @WangCai_1_23
-      - 🇯🇵JP_09 @WangCai_1_24
-      - 🇯🇵JP_10 @WangCai_1_25
-      - 🇯🇵JP_11 @WangCai_1_26
-      - 🇯🇵JP_12 @WangCai_1_27
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵JP_00 @WangCai_1
-      - 🇯🇵JP_01 @WangCai_1
-      - 🇯🇵JP_02 @WangCai_1
-      - 🇯🇵JP_03 @WangCai_1
-      - 🇯🇵JP_04 @WangCai_1
-      - 🇯🇵JP_05 @WangCai_1
-      - 🇯🇵JP_06 @WangCai_1
-      - 🇯🇵JP_07 @WangCai_1
-      - 🇯🇵JP_08 @WangCai_1
-      - 🇯🇵JP_09 @WangCai_1
-      - 🇯🇵JP_10 @WangCai_1
-      - 🇯🇵JP_11 @WangCai_1
-      - 🇯🇵JP_12 @WangCai_1
-      - 🇯🇵JP_00 @WangCai_1_15
-      - 🇯🇵JP_01 @WangCai_1_16
-      - 🇯🇵JP_02 @WangCai_1_17
-      - 🇯🇵JP_03 @WangCai_1_18
-      - 🇯🇵JP_04 @WangCai_1_19
-      - 🇯🇵JP_05 @WangCai_1_20
-      - 🇯🇵JP_06 @WangCai_1_21
-      - 🇯🇵JP_07 @WangCai_1_22
-      - 🇯🇵JP_08 @WangCai_1_23
-      - 🇯🇵JP_09 @WangCai_1_24
-      - 🇯🇵JP_10 @WangCai_1_25
-      - 🇯🇵JP_11 @WangCai_1_26
-      - 🇯🇵JP_12 @WangCai_1_27
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵JP_00 @WangCai_1
-      - 🇯🇵JP_01 @WangCai_1
-      - 🇯🇵JP_02 @WangCai_1
-      - 🇯🇵JP_03 @WangCai_1
-      - 🇯🇵JP_04 @WangCai_1
-      - 🇯🇵JP_05 @WangCai_1
-      - 🇯🇵JP_06 @WangCai_1
-      - 🇯🇵JP_07 @WangCai_1
-      - 🇯🇵JP_08 @WangCai_1
-      - 🇯🇵JP_09 @WangCai_1
-      - 🇯🇵JP_10 @WangCai_1
-      - 🇯🇵JP_11 @WangCai_1
-      - 🇯🇵JP_12 @WangCai_1
-      - 🇯🇵JP_00 @WangCai_1_15
-      - 🇯🇵JP_01 @WangCai_1_16
-      - 🇯🇵JP_02 @WangCai_1_17
-      - 🇯🇵JP_03 @WangCai_1_18
-      - 🇯🇵JP_04 @WangCai_1_19
-      - 🇯🇵JP_05 @WangCai_1_20
-      - 🇯🇵JP_06 @WangCai_1_21
-      - 🇯🇵JP_07 @WangCai_1_22
-      - 🇯🇵JP_08 @WangCai_1_23
-      - 🇯🇵JP_09 @WangCai_1_24
-      - 🇯🇵JP_10 @WangCai_1_25
-      - 🇯🇵JP_11 @WangCai_1_26
-      - 🇯🇵JP_12 @WangCai_1_27
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵JP_00 @WangCai_1
-      - 🇯🇵JP_01 @WangCai_1
-      - 🇯🇵JP_02 @WangCai_1
-      - 🇯🇵JP_03 @WangCai_1
-      - 🇯🇵JP_04 @WangCai_1
-      - 🇯🇵JP_05 @WangCai_1
-      - 🇯🇵JP_06 @WangCai_1
-      - 🇯🇵JP_07 @WangCai_1
-      - 🇯🇵JP_08 @WangCai_1
-      - 🇯🇵JP_09 @WangCai_1
-      - 🇯🇵JP_10 @WangCai_1
-      - 🇯🇵JP_11 @WangCai_1
-      - 🇯🇵JP_12 @WangCai_1
-      - 🇯🇵JP_00 @WangCai_1_15
-      - 🇯🇵JP_01 @WangCai_1_16
-      - 🇯🇵JP_02 @WangCai_1_17
-      - 🇯🇵JP_03 @WangCai_1_18
-      - 🇯🇵JP_04 @WangCai_1_19
-      - 🇯🇵JP_05 @WangCai_1_20
-      - 🇯🇵JP_06 @WangCai_1_21
-      - 🇯🇵JP_07 @WangCai_1_22
-      - 🇯🇵JP_08 @WangCai_1_23
-      - 🇯🇵JP_09 @WangCai_1_24
-      - 🇯🇵JP_10 @WangCai_1_25
-      - 🇯🇵JP_11 @WangCai_1_26
-      - 🇯🇵JP_12 @WangCai_1_27
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵JP_00 @WangCai_1
-      - 🇯🇵JP_01 @WangCai_1
-      - 🇯🇵JP_02 @WangCai_1
-      - 🇯🇵JP_03 @WangCai_1
-      - 🇯🇵JP_04 @WangCai_1
-      - 🇯🇵JP_05 @WangCai_1
-      - 🇯🇵JP_06 @WangCai_1
-      - 🇯🇵JP_07 @WangCai_1
-      - 🇯🇵JP_08 @WangCai_1
-      - 🇯🇵JP_09 @WangCai_1
-      - 🇯🇵JP_10 @WangCai_1
-      - 🇯🇵JP_11 @WangCai_1
-      - 🇯🇵JP_12 @WangCai_1
-      - 🇯🇵JP_00 @WangCai_1_15
-      - 🇯🇵JP_01 @WangCai_1_16
-      - 🇯🇵JP_02 @WangCai_1_17
-      - 🇯🇵JP_03 @WangCai_1_18
-      - 🇯🇵JP_04 @WangCai_1_19
-      - 🇯🇵JP_05 @WangCai_1_20
-      - 🇯🇵JP_06 @WangCai_1_21
-      - 🇯🇵JP_07 @WangCai_1_22
-      - 🇯🇵JP_08 @WangCai_1_23
-      - 🇯🇵JP_09 @WangCai_1_24
-      - 🇯🇵JP_10 @WangCai_1_25
-      - 🇯🇵JP_11 @WangCai_1_26
-      - 🇯🇵JP_12 @WangCai_1_27
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -266,32 +90,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵JP_00 @WangCai_1
-      - 🇯🇵JP_01 @WangCai_1
-      - 🇯🇵JP_02 @WangCai_1
-      - 🇯🇵JP_03 @WangCai_1
-      - 🇯🇵JP_04 @WangCai_1
-      - 🇯🇵JP_05 @WangCai_1
-      - 🇯🇵JP_06 @WangCai_1
-      - 🇯🇵JP_07 @WangCai_1
-      - 🇯🇵JP_08 @WangCai_1
-      - 🇯🇵JP_09 @WangCai_1
-      - 🇯🇵JP_10 @WangCai_1
-      - 🇯🇵JP_11 @WangCai_1
-      - 🇯🇵JP_12 @WangCai_1
-      - 🇯🇵JP_00 @WangCai_1_15
-      - 🇯🇵JP_01 @WangCai_1_16
-      - 🇯🇵JP_02 @WangCai_1_17
-      - 🇯🇵JP_03 @WangCai_1_18
-      - 🇯🇵JP_04 @WangCai_1_19
-      - 🇯🇵JP_05 @WangCai_1_20
-      - 🇯🇵JP_06 @WangCai_1_21
-      - 🇯🇵JP_07 @WangCai_1_22
-      - 🇯🇵JP_08 @WangCai_1_23
-      - 🇯🇵JP_09 @WangCai_1_24
-      - 🇯🇵JP_10 @WangCai_1_25
-      - 🇯🇵JP_11 @WangCai_1_26
-      - 🇯🇵JP_12 @WangCai_1_27
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
