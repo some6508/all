@@ -5,76 +5,892 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇺🇸_US_美国_1', server: 38.68.134.37, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_美国_2', server: 142.202.48.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_3', server: 142.202.48.83, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦_CA_加拿大_4', server: 134.195.198.252, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Relay_ |15.19Mb_1', server: ngzyd-1.okex-tradebot.xyz, port: 30006, type: vmess, uuid: 9b5d7f05-4431-419b-90dc-fe1ba15ba3aa, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'n_30.51M_2', server: 80.251.223.37, port: 38922, type: vmess, uuid: f3e846c1-d8e4-42df-86d4-f4e5028630d8, alterId: 8, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Relay_🇨🇳CN-🇺🇸US_370', server: 183.232.226.188, port: 61007, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Relay_🇨🇳CN-🇸🇬SG_359', server: 183.232.226.188, port: 61004, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Relay_🇨🇳CN-🇰🇷KR_357', server: 183.232.226.188, port: 63003, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Relay_🇨🇳CN-🇯🇵JP_366', server: 183.232.226.137, port: 40006, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Relay_🇨🇳CN-🇰🇷KR_351', server: 183.232.226.188, port: 63008, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Relay_🇨🇳CN-🇰🇷KR_353', server: 183.232.226.188, port: 63002, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Relay_🇨🇳CN-🇰🇷KR_399', server: 183.232.226.188, port: 63007, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Relay_🇨🇳CN-🇰🇷KR_358', server: 183.232.226.188, port: 63001, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Relay_🇨🇳CN-🇺🇸US_372', server: 183.232.226.137, port: 40008, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Relay_🇨🇳CN-🇯🇵JP_363', server: 183.232.226.137, port: 40001, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Relay_🇨🇳CN-🇯🇵JP_369', server: 183.232.226.137, port: 40010, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Relay_🇨🇳CN-🇺🇸US_364', server: 183.232.226.137, port: 40005, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'NoName_15', server: 172.105.59.32, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Relay_🇨🇳CN-🇰🇷KR_352', server: 183.232.226.188, port: 63004, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Relay_🇨🇳CN-🇰🇷KR_361', server: 183.232.226.188, port: 63006, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Relay_🇨🇳CN-🇯🇵JP_392', server: 183.232.226.137, port: 40012, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🇮🇳IN_19', server: 172.105.59.32, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Relay_🇨🇳CN-🇺🇸US_365', server: 183.232.226.137, port: 40003, type: vmess, uuid: 55699448-2208-3dc2-bfb4-ea771577a942, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'NoName_21', server: 194.163.134.104, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dZpagSuA9Vxe}
+  - {name: 'NoName_22', server: 172.105.59.32, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Relay_🇯🇵JP-🇯🇵JP_602 | 6.94Mb', server: kr2.futi.online, port: 2053, type: vmess, uuid: e60a3ed8-6620-4fce-b926-60af2c693f3f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
+  - {name: '🇨🇳CN_377', server: ngzyd-1.okex-tradebot.xyz, port: 30000, type: vmess, uuid: 9b5d7f05-4431-419b-90dc-fe1ba15ba3aa, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'NoName_25', server: 194.163.134.101, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8doqA73pHheo}
+  - {name: 'NoName_26', server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🏁ZZ_283', server: 134.195.196.199, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'NoName_28', server: 134.195.196.33, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸US_29', server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏁ZZ_258', server: 134.195.196.199, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🏁ZZ_272', server: 134.195.196.199, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏁ZZ_289', server: 134.195.196.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Relay_ |17.80Mb_33', server: ngzyd-1.okex-tradebot.xyz, port: 30010, type: vmess, uuid: 9b5d7f05-4431-419b-90dc-fe1ba15ba3aa, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'NoName_34', server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'NoName_35', server: 167.88.63.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'NoName_36', server: 134.195.196.33, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏁ZZ_302', server: 134.195.196.33, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'NoName_38', server: 134.195.196.154, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸US_753', server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US_40', server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Relay_ |17.51Mb_41', server: ngzyd-1.okex-tradebot.xyz, port: 30014, type: vmess, uuid: 9b5d7f05-4431-419b-90dc-fe1ba15ba3aa, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'NoName_42', server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'NoName_43', server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏁ZZ_44', server: 134.195.198.252, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸US_775', server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏁ZZ_273', server: 134.195.198.252, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'NoName_47', server: 134.195.196.3, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'NoName_48', server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'NoName_49', server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'NoName_50', server: 172.99.190.186, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'NoName_51', server: 134.195.198.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦CA_16', server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏁ZZ_291', server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'NoName_54', server: 167.88.63.28, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'NoName_55', server: 134.195.196.154, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'NoName_56', server: 134.195.196.154, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'NoName_57', server: 134.195.196.214, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'NoName_58', server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'NoName_59', server: 134.195.196.3, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'NoName_60', server: 134.195.196.51, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'NoName_61', server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'NoName_62', server: 134.195.196.51, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'n_10.10M_63', server: 23.105.208.198, port: 38922, type: vmess, uuid: f3e846c1-d8e4-42df-86d4-f4e5028630d8, alterId: 8, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'NoName_64', server: 134.195.196.3, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'NoName_65', server: 134.195.198.250, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'NoName_66', server: 134.195.196.51, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_822', server: 172.107.233.234, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'NoName_68', server: 134.195.198.252, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'NoName_69', server: 38.107.226.132, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏁ZZ_274', server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🏁ZZ_286', server: 134.195.198.95, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇩🇪DE_390', server: 193.108.118.2, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'NoName_73', server: 134.195.196.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'NoName_74', server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🏁ZZ_321', server: 134.195.198.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'NoName_76', server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'NoName_77', server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'NoName_78', server: 134.195.196.154, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'NoName_79', server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'NoName_80', server: 193.108.118.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸US_216', server: 172.107.233.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'NoName_82', server: 193.108.118.2, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_916', server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'NoName_84', server: 167.88.63.89, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'NoName_85', server: 134.195.198.95, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'NoName_86', server: 134.195.198.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'NoName_87', server: 134.195.196.3, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸US_88', server: 172.107.233.230, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸US_174', server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_184', server: 38.39.192.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'NoName_91', server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_92', server: 172.107.233.234, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_225', server: 38.39.192.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸US_160', server: 38.39.192.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US_187', server: 172.107.233.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_96', server: 172.99.190.90, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_165', server: 38.39.192.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇫🇷FR_445', server: 213.167.242.16, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: BDybfjpcRuiW}
+  - {name: '🇨🇳CN_46', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'NoName_100', server: 134.195.196.214, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Relay_🇨🇳CN-🇹🇼TW_382', server: 140.179.85.93, port: 20805, type: vmess, uuid: 5db0d18f-65d6-4c74-a077-48571ebb292c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🏁ZZ_274_103', server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸US_103', server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'NoName_104', server: 134.195.196.33, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'NoName_105', server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🏁ZZ_259', server: 134.195.196.199, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
+      - Relay_ |15.19Mb_1
+      - n_30.51M_2
+      - Relay_🇨🇳CN-🇺🇸US_370
+      - Relay_🇨🇳CN-🇸🇬SG_359
+      - Relay_🇨🇳CN-🇰🇷KR_357
+      - Relay_🇨🇳CN-🇯🇵JP_366
+      - Relay_🇨🇳CN-🇰🇷KR_351
+      - Relay_🇨🇳CN-🇰🇷KR_353
+      - Relay_🇨🇳CN-🇰🇷KR_399
+      - Relay_🇨🇳CN-🇰🇷KR_358
+      - Relay_🇨🇳CN-🇺🇸US_372
+      - Relay_🇨🇳CN-🇯🇵JP_363
+      - Relay_🇨🇳CN-🇯🇵JP_369
+      - Relay_🇨🇳CN-🇺🇸US_364
+      - NoName_15
+      - Relay_🇨🇳CN-🇰🇷KR_352
+      - Relay_🇨🇳CN-🇰🇷KR_361
+      - Relay_🇨🇳CN-🇯🇵JP_392
+      - 🇮🇳IN_19
+      - Relay_🇨🇳CN-🇺🇸US_365
+      - NoName_21
+      - NoName_22
+      - Relay_🇯🇵JP-🇯🇵JP_602 | 6.94Mb
+      - 🇨🇳CN_377
+      - NoName_25
+      - NoName_26
+      - 🏁ZZ_283
+      - NoName_28
+      - 🇺🇸US_29
+      - 🏁ZZ_258
+      - 🏁ZZ_272
+      - 🏁ZZ_289
+      - Relay_ |17.80Mb_33
+      - NoName_34
+      - NoName_35
+      - NoName_36
+      - 🏁ZZ_302
+      - NoName_38
+      - 🇺🇸US_753
+      - 🇺🇸US_40
+      - Relay_ |17.51Mb_41
+      - NoName_42
+      - NoName_43
+      - 🏁ZZ_44
+      - 🇺🇸US_775
+      - 🏁ZZ_273
+      - NoName_47
+      - NoName_48
+      - NoName_49
+      - NoName_50
+      - NoName_51
+      - 🇨🇦CA_16
+      - 🏁ZZ_291
+      - NoName_54
+      - NoName_55
+      - NoName_56
+      - NoName_57
+      - NoName_58
+      - NoName_59
+      - NoName_60
+      - NoName_61
+      - NoName_62
+      - n_10.10M_63
+      - NoName_64
+      - NoName_65
+      - NoName_66
+      - 🇺🇸US_822
+      - NoName_68
+      - NoName_69
+      - 🏁ZZ_274
+      - 🏁ZZ_286
+      - 🇩🇪DE_390
+      - NoName_73
+      - NoName_74
+      - 🏁ZZ_321
+      - NoName_76
+      - NoName_77
+      - NoName_78
+      - NoName_79
+      - NoName_80
+      - 🇺🇸US_216
+      - NoName_82
+      - 🇺🇸US_916
+      - NoName_84
+      - NoName_85
+      - NoName_86
+      - NoName_87
+      - 🇺🇸US_88
+      - 🇺🇸US_174
+      - 🇺🇸US_184
+      - NoName_91
+      - 🇺🇸US_92
+      - 🇺🇸US_225
+      - 🇺🇸US_160
+      - 🇺🇸US_187
+      - 🇺🇸US_96
+      - 🇺🇸US_165
+      - 🇫🇷FR_445
+      - 🇨🇳CN_46
+      - NoName_100
+      - Relay_🇨🇳CN-🇹🇼TW_382
+      - 🏁ZZ_274_103
+      - 🇺🇸US_103
+      - NoName_104
+      - NoName_105
+      - 🏁ZZ_259
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
+      - Relay_ |15.19Mb_1
+      - n_30.51M_2
+      - Relay_🇨🇳CN-🇺🇸US_370
+      - Relay_🇨🇳CN-🇸🇬SG_359
+      - Relay_🇨🇳CN-🇰🇷KR_357
+      - Relay_🇨🇳CN-🇯🇵JP_366
+      - Relay_🇨🇳CN-🇰🇷KR_351
+      - Relay_🇨🇳CN-🇰🇷KR_353
+      - Relay_🇨🇳CN-🇰🇷KR_399
+      - Relay_🇨🇳CN-🇰🇷KR_358
+      - Relay_🇨🇳CN-🇺🇸US_372
+      - Relay_🇨🇳CN-🇯🇵JP_363
+      - Relay_🇨🇳CN-🇯🇵JP_369
+      - Relay_🇨🇳CN-🇺🇸US_364
+      - NoName_15
+      - Relay_🇨🇳CN-🇰🇷KR_352
+      - Relay_🇨🇳CN-🇰🇷KR_361
+      - Relay_🇨🇳CN-🇯🇵JP_392
+      - 🇮🇳IN_19
+      - Relay_🇨🇳CN-🇺🇸US_365
+      - NoName_21
+      - NoName_22
+      - Relay_🇯🇵JP-🇯🇵JP_602 | 6.94Mb
+      - 🇨🇳CN_377
+      - NoName_25
+      - NoName_26
+      - 🏁ZZ_283
+      - NoName_28
+      - 🇺🇸US_29
+      - 🏁ZZ_258
+      - 🏁ZZ_272
+      - 🏁ZZ_289
+      - Relay_ |17.80Mb_33
+      - NoName_34
+      - NoName_35
+      - NoName_36
+      - 🏁ZZ_302
+      - NoName_38
+      - 🇺🇸US_753
+      - 🇺🇸US_40
+      - Relay_ |17.51Mb_41
+      - NoName_42
+      - NoName_43
+      - 🏁ZZ_44
+      - 🇺🇸US_775
+      - 🏁ZZ_273
+      - NoName_47
+      - NoName_48
+      - NoName_49
+      - NoName_50
+      - NoName_51
+      - 🇨🇦CA_16
+      - 🏁ZZ_291
+      - NoName_54
+      - NoName_55
+      - NoName_56
+      - NoName_57
+      - NoName_58
+      - NoName_59
+      - NoName_60
+      - NoName_61
+      - NoName_62
+      - n_10.10M_63
+      - NoName_64
+      - NoName_65
+      - NoName_66
+      - 🇺🇸US_822
+      - NoName_68
+      - NoName_69
+      - 🏁ZZ_274
+      - 🏁ZZ_286
+      - 🇩🇪DE_390
+      - NoName_73
+      - NoName_74
+      - 🏁ZZ_321
+      - NoName_76
+      - NoName_77
+      - NoName_78
+      - NoName_79
+      - NoName_80
+      - 🇺🇸US_216
+      - NoName_82
+      - 🇺🇸US_916
+      - NoName_84
+      - NoName_85
+      - NoName_86
+      - NoName_87
+      - 🇺🇸US_88
+      - 🇺🇸US_174
+      - 🇺🇸US_184
+      - NoName_91
+      - 🇺🇸US_92
+      - 🇺🇸US_225
+      - 🇺🇸US_160
+      - 🇺🇸US_187
+      - 🇺🇸US_96
+      - 🇺🇸US_165
+      - 🇫🇷FR_445
+      - 🇨🇳CN_46
+      - NoName_100
+      - Relay_🇨🇳CN-🇹🇼TW_382
+      - 🏁ZZ_274_103
+      - 🇺🇸US_103
+      - NoName_104
+      - NoName_105
+      - 🏁ZZ_259
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
+      - Relay_ |15.19Mb_1
+      - n_30.51M_2
+      - Relay_🇨🇳CN-🇺🇸US_370
+      - Relay_🇨🇳CN-🇸🇬SG_359
+      - Relay_🇨🇳CN-🇰🇷KR_357
+      - Relay_🇨🇳CN-🇯🇵JP_366
+      - Relay_🇨🇳CN-🇰🇷KR_351
+      - Relay_🇨🇳CN-🇰🇷KR_353
+      - Relay_🇨🇳CN-🇰🇷KR_399
+      - Relay_🇨🇳CN-🇰🇷KR_358
+      - Relay_🇨🇳CN-🇺🇸US_372
+      - Relay_🇨🇳CN-🇯🇵JP_363
+      - Relay_🇨🇳CN-🇯🇵JP_369
+      - Relay_🇨🇳CN-🇺🇸US_364
+      - NoName_15
+      - Relay_🇨🇳CN-🇰🇷KR_352
+      - Relay_🇨🇳CN-🇰🇷KR_361
+      - Relay_🇨🇳CN-🇯🇵JP_392
+      - 🇮🇳IN_19
+      - Relay_🇨🇳CN-🇺🇸US_365
+      - NoName_21
+      - NoName_22
+      - Relay_🇯🇵JP-🇯🇵JP_602 | 6.94Mb
+      - 🇨🇳CN_377
+      - NoName_25
+      - NoName_26
+      - 🏁ZZ_283
+      - NoName_28
+      - 🇺🇸US_29
+      - 🏁ZZ_258
+      - 🏁ZZ_272
+      - 🏁ZZ_289
+      - Relay_ |17.80Mb_33
+      - NoName_34
+      - NoName_35
+      - NoName_36
+      - 🏁ZZ_302
+      - NoName_38
+      - 🇺🇸US_753
+      - 🇺🇸US_40
+      - Relay_ |17.51Mb_41
+      - NoName_42
+      - NoName_43
+      - 🏁ZZ_44
+      - 🇺🇸US_775
+      - 🏁ZZ_273
+      - NoName_47
+      - NoName_48
+      - NoName_49
+      - NoName_50
+      - NoName_51
+      - 🇨🇦CA_16
+      - 🏁ZZ_291
+      - NoName_54
+      - NoName_55
+      - NoName_56
+      - NoName_57
+      - NoName_58
+      - NoName_59
+      - NoName_60
+      - NoName_61
+      - NoName_62
+      - n_10.10M_63
+      - NoName_64
+      - NoName_65
+      - NoName_66
+      - 🇺🇸US_822
+      - NoName_68
+      - NoName_69
+      - 🏁ZZ_274
+      - 🏁ZZ_286
+      - 🇩🇪DE_390
+      - NoName_73
+      - NoName_74
+      - 🏁ZZ_321
+      - NoName_76
+      - NoName_77
+      - NoName_78
+      - NoName_79
+      - NoName_80
+      - 🇺🇸US_216
+      - NoName_82
+      - 🇺🇸US_916
+      - NoName_84
+      - NoName_85
+      - NoName_86
+      - NoName_87
+      - 🇺🇸US_88
+      - 🇺🇸US_174
+      - 🇺🇸US_184
+      - NoName_91
+      - 🇺🇸US_92
+      - 🇺🇸US_225
+      - 🇺🇸US_160
+      - 🇺🇸US_187
+      - 🇺🇸US_96
+      - 🇺🇸US_165
+      - 🇫🇷FR_445
+      - 🇨🇳CN_46
+      - NoName_100
+      - Relay_🇨🇳CN-🇹🇼TW_382
+      - 🏁ZZ_274_103
+      - 🇺🇸US_103
+      - NoName_104
+      - NoName_105
+      - 🏁ZZ_259
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
+      - Relay_ |15.19Mb_1
+      - n_30.51M_2
+      - Relay_🇨🇳CN-🇺🇸US_370
+      - Relay_🇨🇳CN-🇸🇬SG_359
+      - Relay_🇨🇳CN-🇰🇷KR_357
+      - Relay_🇨🇳CN-🇯🇵JP_366
+      - Relay_🇨🇳CN-🇰🇷KR_351
+      - Relay_🇨🇳CN-🇰🇷KR_353
+      - Relay_🇨🇳CN-🇰🇷KR_399
+      - Relay_🇨🇳CN-🇰🇷KR_358
+      - Relay_🇨🇳CN-🇺🇸US_372
+      - Relay_🇨🇳CN-🇯🇵JP_363
+      - Relay_🇨🇳CN-🇯🇵JP_369
+      - Relay_🇨🇳CN-🇺🇸US_364
+      - NoName_15
+      - Relay_🇨🇳CN-🇰🇷KR_352
+      - Relay_🇨🇳CN-🇰🇷KR_361
+      - Relay_🇨🇳CN-🇯🇵JP_392
+      - 🇮🇳IN_19
+      - Relay_🇨🇳CN-🇺🇸US_365
+      - NoName_21
+      - NoName_22
+      - Relay_🇯🇵JP-🇯🇵JP_602 | 6.94Mb
+      - 🇨🇳CN_377
+      - NoName_25
+      - NoName_26
+      - 🏁ZZ_283
+      - NoName_28
+      - 🇺🇸US_29
+      - 🏁ZZ_258
+      - 🏁ZZ_272
+      - 🏁ZZ_289
+      - Relay_ |17.80Mb_33
+      - NoName_34
+      - NoName_35
+      - NoName_36
+      - 🏁ZZ_302
+      - NoName_38
+      - 🇺🇸US_753
+      - 🇺🇸US_40
+      - Relay_ |17.51Mb_41
+      - NoName_42
+      - NoName_43
+      - 🏁ZZ_44
+      - 🇺🇸US_775
+      - 🏁ZZ_273
+      - NoName_47
+      - NoName_48
+      - NoName_49
+      - NoName_50
+      - NoName_51
+      - 🇨🇦CA_16
+      - 🏁ZZ_291
+      - NoName_54
+      - NoName_55
+      - NoName_56
+      - NoName_57
+      - NoName_58
+      - NoName_59
+      - NoName_60
+      - NoName_61
+      - NoName_62
+      - n_10.10M_63
+      - NoName_64
+      - NoName_65
+      - NoName_66
+      - 🇺🇸US_822
+      - NoName_68
+      - NoName_69
+      - 🏁ZZ_274
+      - 🏁ZZ_286
+      - 🇩🇪DE_390
+      - NoName_73
+      - NoName_74
+      - 🏁ZZ_321
+      - NoName_76
+      - NoName_77
+      - NoName_78
+      - NoName_79
+      - NoName_80
+      - 🇺🇸US_216
+      - NoName_82
+      - 🇺🇸US_916
+      - NoName_84
+      - NoName_85
+      - NoName_86
+      - NoName_87
+      - 🇺🇸US_88
+      - 🇺🇸US_174
+      - 🇺🇸US_184
+      - NoName_91
+      - 🇺🇸US_92
+      - 🇺🇸US_225
+      - 🇺🇸US_160
+      - 🇺🇸US_187
+      - 🇺🇸US_96
+      - 🇺🇸US_165
+      - 🇫🇷FR_445
+      - 🇨🇳CN_46
+      - NoName_100
+      - Relay_🇨🇳CN-🇹🇼TW_382
+      - 🏁ZZ_274_103
+      - 🇺🇸US_103
+      - NoName_104
+      - NoName_105
+      - 🏁ZZ_259
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
+      - Relay_ |15.19Mb_1
+      - n_30.51M_2
+      - Relay_🇨🇳CN-🇺🇸US_370
+      - Relay_🇨🇳CN-🇸🇬SG_359
+      - Relay_🇨🇳CN-🇰🇷KR_357
+      - Relay_🇨🇳CN-🇯🇵JP_366
+      - Relay_🇨🇳CN-🇰🇷KR_351
+      - Relay_🇨🇳CN-🇰🇷KR_353
+      - Relay_🇨🇳CN-🇰🇷KR_399
+      - Relay_🇨🇳CN-🇰🇷KR_358
+      - Relay_🇨🇳CN-🇺🇸US_372
+      - Relay_🇨🇳CN-🇯🇵JP_363
+      - Relay_🇨🇳CN-🇯🇵JP_369
+      - Relay_🇨🇳CN-🇺🇸US_364
+      - NoName_15
+      - Relay_🇨🇳CN-🇰🇷KR_352
+      - Relay_🇨🇳CN-🇰🇷KR_361
+      - Relay_🇨🇳CN-🇯🇵JP_392
+      - 🇮🇳IN_19
+      - Relay_🇨🇳CN-🇺🇸US_365
+      - NoName_21
+      - NoName_22
+      - Relay_🇯🇵JP-🇯🇵JP_602 | 6.94Mb
+      - 🇨🇳CN_377
+      - NoName_25
+      - NoName_26
+      - 🏁ZZ_283
+      - NoName_28
+      - 🇺🇸US_29
+      - 🏁ZZ_258
+      - 🏁ZZ_272
+      - 🏁ZZ_289
+      - Relay_ |17.80Mb_33
+      - NoName_34
+      - NoName_35
+      - NoName_36
+      - 🏁ZZ_302
+      - NoName_38
+      - 🇺🇸US_753
+      - 🇺🇸US_40
+      - Relay_ |17.51Mb_41
+      - NoName_42
+      - NoName_43
+      - 🏁ZZ_44
+      - 🇺🇸US_775
+      - 🏁ZZ_273
+      - NoName_47
+      - NoName_48
+      - NoName_49
+      - NoName_50
+      - NoName_51
+      - 🇨🇦CA_16
+      - 🏁ZZ_291
+      - NoName_54
+      - NoName_55
+      - NoName_56
+      - NoName_57
+      - NoName_58
+      - NoName_59
+      - NoName_60
+      - NoName_61
+      - NoName_62
+      - n_10.10M_63
+      - NoName_64
+      - NoName_65
+      - NoName_66
+      - 🇺🇸US_822
+      - NoName_68
+      - NoName_69
+      - 🏁ZZ_274
+      - 🏁ZZ_286
+      - 🇩🇪DE_390
+      - NoName_73
+      - NoName_74
+      - 🏁ZZ_321
+      - NoName_76
+      - NoName_77
+      - NoName_78
+      - NoName_79
+      - NoName_80
+      - 🇺🇸US_216
+      - NoName_82
+      - 🇺🇸US_916
+      - NoName_84
+      - NoName_85
+      - NoName_86
+      - NoName_87
+      - 🇺🇸US_88
+      - 🇺🇸US_174
+      - 🇺🇸US_184
+      - NoName_91
+      - 🇺🇸US_92
+      - 🇺🇸US_225
+      - 🇺🇸US_160
+      - 🇺🇸US_187
+      - 🇺🇸US_96
+      - 🇺🇸US_165
+      - 🇫🇷FR_445
+      - 🇨🇳CN_46
+      - NoName_100
+      - Relay_🇨🇳CN-🇹🇼TW_382
+      - 🏁ZZ_274_103
+      - 🇺🇸US_103
+      - NoName_104
+      - NoName_105
+      - 🏁ZZ_259
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
+      - Relay_ |15.19Mb_1
+      - n_30.51M_2
+      - Relay_🇨🇳CN-🇺🇸US_370
+      - Relay_🇨🇳CN-🇸🇬SG_359
+      - Relay_🇨🇳CN-🇰🇷KR_357
+      - Relay_🇨🇳CN-🇯🇵JP_366
+      - Relay_🇨🇳CN-🇰🇷KR_351
+      - Relay_🇨🇳CN-🇰🇷KR_353
+      - Relay_🇨🇳CN-🇰🇷KR_399
+      - Relay_🇨🇳CN-🇰🇷KR_358
+      - Relay_🇨🇳CN-🇺🇸US_372
+      - Relay_🇨🇳CN-🇯🇵JP_363
+      - Relay_🇨🇳CN-🇯🇵JP_369
+      - Relay_🇨🇳CN-🇺🇸US_364
+      - NoName_15
+      - Relay_🇨🇳CN-🇰🇷KR_352
+      - Relay_🇨🇳CN-🇰🇷KR_361
+      - Relay_🇨🇳CN-🇯🇵JP_392
+      - 🇮🇳IN_19
+      - Relay_🇨🇳CN-🇺🇸US_365
+      - NoName_21
+      - NoName_22
+      - Relay_🇯🇵JP-🇯🇵JP_602 | 6.94Mb
+      - 🇨🇳CN_377
+      - NoName_25
+      - NoName_26
+      - 🏁ZZ_283
+      - NoName_28
+      - 🇺🇸US_29
+      - 🏁ZZ_258
+      - 🏁ZZ_272
+      - 🏁ZZ_289
+      - Relay_ |17.80Mb_33
+      - NoName_34
+      - NoName_35
+      - NoName_36
+      - 🏁ZZ_302
+      - NoName_38
+      - 🇺🇸US_753
+      - 🇺🇸US_40
+      - Relay_ |17.51Mb_41
+      - NoName_42
+      - NoName_43
+      - 🏁ZZ_44
+      - 🇺🇸US_775
+      - 🏁ZZ_273
+      - NoName_47
+      - NoName_48
+      - NoName_49
+      - NoName_50
+      - NoName_51
+      - 🇨🇦CA_16
+      - 🏁ZZ_291
+      - NoName_54
+      - NoName_55
+      - NoName_56
+      - NoName_57
+      - NoName_58
+      - NoName_59
+      - NoName_60
+      - NoName_61
+      - NoName_62
+      - n_10.10M_63
+      - NoName_64
+      - NoName_65
+      - NoName_66
+      - 🇺🇸US_822
+      - NoName_68
+      - NoName_69
+      - 🏁ZZ_274
+      - 🏁ZZ_286
+      - 🇩🇪DE_390
+      - NoName_73
+      - NoName_74
+      - 🏁ZZ_321
+      - NoName_76
+      - NoName_77
+      - NoName_78
+      - NoName_79
+      - NoName_80
+      - 🇺🇸US_216
+      - NoName_82
+      - 🇺🇸US_916
+      - NoName_84
+      - NoName_85
+      - NoName_86
+      - NoName_87
+      - 🇺🇸US_88
+      - 🇺🇸US_174
+      - 🇺🇸US_184
+      - NoName_91
+      - 🇺🇸US_92
+      - 🇺🇸US_225
+      - 🇺🇸US_160
+      - 🇺🇸US_187
+      - 🇺🇸US_96
+      - 🇺🇸US_165
+      - 🇫🇷FR_445
+      - 🇨🇳CN_46
+      - NoName_100
+      - Relay_🇨🇳CN-🇹🇼TW_382
+      - 🏁ZZ_274_103
+      - 🇺🇸US_103
+      - NoName_104
+      - NoName_105
+      - 🏁ZZ_259
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
+      - Relay_ |15.19Mb_1
+      - n_30.51M_2
+      - Relay_🇨🇳CN-🇺🇸US_370
+      - Relay_🇨🇳CN-🇸🇬SG_359
+      - Relay_🇨🇳CN-🇰🇷KR_357
+      - Relay_🇨🇳CN-🇯🇵JP_366
+      - Relay_🇨🇳CN-🇰🇷KR_351
+      - Relay_🇨🇳CN-🇰🇷KR_353
+      - Relay_🇨🇳CN-🇰🇷KR_399
+      - Relay_🇨🇳CN-🇰🇷KR_358
+      - Relay_🇨🇳CN-🇺🇸US_372
+      - Relay_🇨🇳CN-🇯🇵JP_363
+      - Relay_🇨🇳CN-🇯🇵JP_369
+      - Relay_🇨🇳CN-🇺🇸US_364
+      - NoName_15
+      - Relay_🇨🇳CN-🇰🇷KR_352
+      - Relay_🇨🇳CN-🇰🇷KR_361
+      - Relay_🇨🇳CN-🇯🇵JP_392
+      - 🇮🇳IN_19
+      - Relay_🇨🇳CN-🇺🇸US_365
+      - NoName_21
+      - NoName_22
+      - Relay_🇯🇵JP-🇯🇵JP_602 | 6.94Mb
+      - 🇨🇳CN_377
+      - NoName_25
+      - NoName_26
+      - 🏁ZZ_283
+      - NoName_28
+      - 🇺🇸US_29
+      - 🏁ZZ_258
+      - 🏁ZZ_272
+      - 🏁ZZ_289
+      - Relay_ |17.80Mb_33
+      - NoName_34
+      - NoName_35
+      - NoName_36
+      - 🏁ZZ_302
+      - NoName_38
+      - 🇺🇸US_753
+      - 🇺🇸US_40
+      - Relay_ |17.51Mb_41
+      - NoName_42
+      - NoName_43
+      - 🏁ZZ_44
+      - 🇺🇸US_775
+      - 🏁ZZ_273
+      - NoName_47
+      - NoName_48
+      - NoName_49
+      - NoName_50
+      - NoName_51
+      - 🇨🇦CA_16
+      - 🏁ZZ_291
+      - NoName_54
+      - NoName_55
+      - NoName_56
+      - NoName_57
+      - NoName_58
+      - NoName_59
+      - NoName_60
+      - NoName_61
+      - NoName_62
+      - n_10.10M_63
+      - NoName_64
+      - NoName_65
+      - NoName_66
+      - 🇺🇸US_822
+      - NoName_68
+      - NoName_69
+      - 🏁ZZ_274
+      - 🏁ZZ_286
+      - 🇩🇪DE_390
+      - NoName_73
+      - NoName_74
+      - 🏁ZZ_321
+      - NoName_76
+      - NoName_77
+      - NoName_78
+      - NoName_79
+      - NoName_80
+      - 🇺🇸US_216
+      - NoName_82
+      - 🇺🇸US_916
+      - NoName_84
+      - NoName_85
+      - NoName_86
+      - NoName_87
+      - 🇺🇸US_88
+      - 🇺🇸US_174
+      - 🇺🇸US_184
+      - NoName_91
+      - 🇺🇸US_92
+      - 🇺🇸US_225
+      - 🇺🇸US_160
+      - 🇺🇸US_187
+      - 🇺🇸US_96
+      - 🇺🇸US_165
+      - 🇫🇷FR_445
+      - 🇨🇳CN_46
+      - NoName_100
+      - Relay_🇨🇳CN-🇹🇼TW_382
+      - 🏁ZZ_274_103
+      - 🇺🇸US_103
+      - NoName_104
+      - NoName_105
+      - 🏁ZZ_259
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,10 +906,112 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
+      - Relay_ |15.19Mb_1
+      - n_30.51M_2
+      - Relay_🇨🇳CN-🇺🇸US_370
+      - Relay_🇨🇳CN-🇸🇬SG_359
+      - Relay_🇨🇳CN-🇰🇷KR_357
+      - Relay_🇨🇳CN-🇯🇵JP_366
+      - Relay_🇨🇳CN-🇰🇷KR_351
+      - Relay_🇨🇳CN-🇰🇷KR_353
+      - Relay_🇨🇳CN-🇰🇷KR_399
+      - Relay_🇨🇳CN-🇰🇷KR_358
+      - Relay_🇨🇳CN-🇺🇸US_372
+      - Relay_🇨🇳CN-🇯🇵JP_363
+      - Relay_🇨🇳CN-🇯🇵JP_369
+      - Relay_🇨🇳CN-🇺🇸US_364
+      - NoName_15
+      - Relay_🇨🇳CN-🇰🇷KR_352
+      - Relay_🇨🇳CN-🇰🇷KR_361
+      - Relay_🇨🇳CN-🇯🇵JP_392
+      - 🇮🇳IN_19
+      - Relay_🇨🇳CN-🇺🇸US_365
+      - NoName_21
+      - NoName_22
+      - Relay_🇯🇵JP-🇯🇵JP_602 | 6.94Mb
+      - 🇨🇳CN_377
+      - NoName_25
+      - NoName_26
+      - 🏁ZZ_283
+      - NoName_28
+      - 🇺🇸US_29
+      - 🏁ZZ_258
+      - 🏁ZZ_272
+      - 🏁ZZ_289
+      - Relay_ |17.80Mb_33
+      - NoName_34
+      - NoName_35
+      - NoName_36
+      - 🏁ZZ_302
+      - NoName_38
+      - 🇺🇸US_753
+      - 🇺🇸US_40
+      - Relay_ |17.51Mb_41
+      - NoName_42
+      - NoName_43
+      - 🏁ZZ_44
+      - 🇺🇸US_775
+      - 🏁ZZ_273
+      - NoName_47
+      - NoName_48
+      - NoName_49
+      - NoName_50
+      - NoName_51
+      - 🇨🇦CA_16
+      - 🏁ZZ_291
+      - NoName_54
+      - NoName_55
+      - NoName_56
+      - NoName_57
+      - NoName_58
+      - NoName_59
+      - NoName_60
+      - NoName_61
+      - NoName_62
+      - n_10.10M_63
+      - NoName_64
+      - NoName_65
+      - NoName_66
+      - 🇺🇸US_822
+      - NoName_68
+      - NoName_69
+      - 🏁ZZ_274
+      - 🏁ZZ_286
+      - 🇩🇪DE_390
+      - NoName_73
+      - NoName_74
+      - 🏁ZZ_321
+      - NoName_76
+      - NoName_77
+      - NoName_78
+      - NoName_79
+      - NoName_80
+      - 🇺🇸US_216
+      - NoName_82
+      - 🇺🇸US_916
+      - NoName_84
+      - NoName_85
+      - NoName_86
+      - NoName_87
+      - 🇺🇸US_88
+      - 🇺🇸US_174
+      - 🇺🇸US_184
+      - NoName_91
+      - 🇺🇸US_92
+      - 🇺🇸US_225
+      - 🇺🇸US_160
+      - 🇺🇸US_187
+      - 🇺🇸US_96
+      - 🇺🇸US_165
+      - 🇫🇷FR_445
+      - 🇨🇳CN_46
+      - NoName_100
+      - Relay_🇨🇳CN-🇹🇼TW_382
+      - 🏁ZZ_274_103
+      - 🇺🇸US_103
+      - NoName_104
+      - NoName_105
+      - 🏁ZZ_259
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
