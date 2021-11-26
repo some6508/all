@@ -5,52 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'n__1', server: 47.250.48.220, port: 23228, type: vmess, uuid: 13bbabd6-4e86-11ec-b466-00163e0055d3, alterId: 0, cipher: auto, tls: false, network: kcp}
+  - {name: '🇨🇦_CA_加拿大_1', server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - n__1
+      - 🇨🇦_CA_加拿大_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - n__1
+      - 🇨🇦_CA_加拿大_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - n__1
+      - 🇨🇦_CA_加拿大_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - n__1
+      - 🇨🇦_CA_加拿大_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - n__1
+      - 🇨🇦_CA_加拿大_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - n__1
+      - 🇨🇦_CA_加拿大_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - n__1
+      - 🇨🇦_CA_加拿大_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +66,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - n__1
+      - 🇨🇦_CA_加拿大_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
