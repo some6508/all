@@ -9,3 +9,5 @@
 |1.Clash|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/c)|[raw](https://raw.githubusercontent.com/some6508/all/master/c)|[purge](https://purge.jsdelivr.net/gh/some6508/all@master/c)
 |2.Clash|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/c2)|[raw](https://raw.githubusercontent.com/some6508/all/master/c2)|[purge](https://purge.jsdelivr.net/gh/some6508/all@master/c2)
 |1.V2ray|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/v)|[raw](https://raw.githubusercontent.com/some6508/all/master/v)|[purge](https://purge.jsdelivr.net/gh/some6508/all@master/v)
+
+[cdn仓库](https://cdn.jsdelivr.net/gh/some6508/all@master/)
