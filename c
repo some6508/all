@@ -12,9 +12,9 @@ proxies:
   - {name: 'v2rayse_🇺🇸_US_美国_189', server: 149.28.72.171, port: 47337, type: vmess, uuid: 23263574-4de0-11ec-ad4e-560003b39a5c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /3ICBPofZ/}
   - {name: 'v2rayse_🇺🇸_US_美国_325', server: 66.42.106.69, port: 56375, type: vmess, uuid: 6b8a8068-4de0-11ec-96e9-560003b39b08, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /DTuV2FWU/}
   - {name: 'v2rayse_🇨🇳_CN_中国_1', server: 120.221.173.65, port: 20808, type: vmess, uuid: 0231acc5-d0c0-47e9-98fd-d71ebfb3b19c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_1', server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'v2rayse_🇺🇸_US_美国_1', server: 38.75.136.102, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'v2rayse_🇺🇸_US_美国_2', server: 142.202.48.108, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'v2rayse_🇷🇺_RU_俄罗斯联邦_1_9', server: 45.141.102.51, port: 35465, type: vmess, uuid: d7bbbcad-0653-42a1-b101-db44624707aa, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'v2rayse_🇩🇪_DE_德国_1_10', server: 89.163.220.82, port: 11016, type: vmess, uuid: 842fcd78-475d-11ec-aa20-9cb6548b0ccc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /cOhjRn2G/}
+  - {name: 'v2rayse_🇸🇬_SG_新加坡_59_11', server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -28,9 +28,9 @@ proxy-groups:
       - v2rayse_🇺🇸_US_美国_189
       - v2rayse_🇺🇸_US_美国_325
       - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇷🇺_RU_俄罗斯联邦_1_9
+      - v2rayse_🇩🇪_DE_德国_1_10
+      - v2rayse_🇸🇬_SG_新加坡_59_11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -43,9 +43,9 @@ proxy-groups:
       - v2rayse_🇺🇸_US_美国_189
       - v2rayse_🇺🇸_US_美国_325
       - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇷🇺_RU_俄罗斯联邦_1_9
+      - v2rayse_🇩🇪_DE_德国_1_10
+      - v2rayse_🇸🇬_SG_新加坡_59_11
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -59,9 +59,9 @@ proxy-groups:
       - v2rayse_🇺🇸_US_美国_189
       - v2rayse_🇺🇸_US_美国_325
       - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇷🇺_RU_俄罗斯联邦_1_9
+      - v2rayse_🇩🇪_DE_德国_1_10
+      - v2rayse_🇸🇬_SG_新加坡_59_11
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -74,9 +74,9 @@ proxy-groups:
       - v2rayse_🇺🇸_US_美国_189
       - v2rayse_🇺🇸_US_美国_325
       - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇷🇺_RU_俄罗斯联邦_1_9
+      - v2rayse_🇩🇪_DE_德国_1_10
+      - v2rayse_🇸🇬_SG_新加坡_59_11
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -89,9 +89,9 @@ proxy-groups:
       - v2rayse_🇺🇸_US_美国_189
       - v2rayse_🇺🇸_US_美国_325
       - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇷🇺_RU_俄罗斯联邦_1_9
+      - v2rayse_🇩🇪_DE_德国_1_10
+      - v2rayse_🇸🇬_SG_新加坡_59_11
   - name: 📲 电报信息
     type: select
     proxies:
@@ -104,9 +104,9 @@ proxy-groups:
       - v2rayse_🇺🇸_US_美国_189
       - v2rayse_🇺🇸_US_美国_325
       - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇷🇺_RU_俄罗斯联邦_1_9
+      - v2rayse_🇩🇪_DE_德国_1_10
+      - v2rayse_🇸🇬_SG_新加坡_59_11
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -120,9 +120,9 @@ proxy-groups:
       - v2rayse_🇺🇸_US_美国_189
       - v2rayse_🇺🇸_US_美国_325
       - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇷🇺_RU_俄罗斯联邦_1_9
+      - v2rayse_🇩🇪_DE_德国_1_10
+      - v2rayse_🇸🇬_SG_新加坡_59_11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -145,9 +145,9 @@ proxy-groups:
       - v2rayse_🇺🇸_US_美国_189
       - v2rayse_🇺🇸_US_美国_325
       - v2rayse_🇨🇳_CN_中国_1
-      - v2rayse_🇨🇦_CA_加拿大_1
-      - v2rayse_🇺🇸_US_美国_1
-      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇷🇺_RU_俄罗斯联邦_1_9
+      - v2rayse_🇩🇪_DE_德国_1_10
+      - v2rayse_🇸🇬_SG_新加坡_59_11
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
