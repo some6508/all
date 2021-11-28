@@ -1,6 +1,5 @@
-
+set -x
 home=`pwd`
-ls -A $home/*
 function a() {
 function _CURL() {
 unset url
