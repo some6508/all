@@ -26,8 +26,8 @@ then CURL c2
 else echo "获取失败: $raw_url"
 fi
 }
-eval `curl -s "https://github.com/changfengoss/pub/commits" | grep -m 1 'v2rayse comment file' | sed 's|.*href="|href="https://github.com|g; s|"\>.*|"|g'`
-eval `curl -s "$href" | grep -m 1 'data/' | sed 's|.*">|href="https://github.com/changfengoss/pub/raw/main/|g; s|</a>|"|g'`
+eval "`curl -s 'https://github.com/changfengoss/pub/commits' | grep -m 1 'v2rayse comment file' | sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'`"
+eval "`curl -s "$href" | grep -m 1 'data/' | sed 's|.*">|href="https://github.com/changfengoss/pub/raw/main/|g; s|</a>|"|g'`"
 case "$href" in
 *.txt) curl -Lo $home/v "$href";;
 *.yaml) curl -Lo $home/c "$href";;
