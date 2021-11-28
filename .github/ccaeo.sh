@@ -33,7 +33,7 @@ case "${href:-ccaeo}" in
 *.yaml) curl -sLo $home/c "$href";;
 *) echo "未知: $href";;
 esac
-eval "`curl -sL 'https://github.com/pojiezhiyuanjun/freev2/commits' | grep -m 2 'Add files via upload' | sed 's|.*href="|href="https://github.com|g; s|"\>.*|"|g'`"
+eval "`curl -sL 'https://github.com/pojiezhiyuanjun/freev2/commits' | grep -m 1 'Add files via upload' | sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'`"
 eval "`curl -sL "$href" | grep -m 1 '.yml' | sed 's|.*">|href="https://github.com/pojiezhiyuanjun/freev2/raw/master/|g; s|</a>|"|g'`"
 case "${href:-ccaeo}" in
 *.yml) curl -sLo $home/c2 "$href";;
