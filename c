@@ -5,140 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'v2rayse_🇭🇰_HK_香港_2', server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
-  - {name: 'v2rayse_🇹🇼_TW_台湾_1', server: twn04.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: f089d4d4-f814-4b62-8507-9188b6f7fe35, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: 'v2rayse_🇹🇼_TW_台湾_1_4', server: twn04.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: f089d4d4-f814-4b62-8507-9188b6f7fe35, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: 'v2rayse_🇭🇰_HK_香港_3', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'v2rayse_🇭🇰_HK_香港_5', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'v2rayse_🇭🇰_HK_香港_6', server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'v2rayse_🇭🇰_HK_香港_2_8', server: 62.216.92.167, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'v2rayse_🇭🇰_HK_香港_3_9', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'v2rayse_🇭🇰_HK_香港_4', server: 62.216.92.167, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'v2rayse_🇭🇰_HK_香港_5_11', server: 62.216.92.167, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'v2rayse_🇭🇰_HK_香港_7', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'v2rayse_🇭🇰_HK_香港_8', server: 62.216.92.167, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇸🇬_SG_新加坡_1', server: 81.90.188.137, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2rayse_🇭🇰_HK_香港_2
-      - v2rayse_🇹🇼_TW_台湾_1
-      - v2rayse_🇹🇼_TW_台湾_1_4
-      - v2rayse_🇭🇰_HK_香港_3
-      - v2rayse_🇭🇰_HK_香港_5
-      - v2rayse_🇭🇰_HK_香港_6
-      - v2rayse_🇭🇰_HK_香港_2_8
-      - v2rayse_🇭🇰_HK_香港_3_9
-      - v2rayse_🇭🇰_HK_香港_4
-      - v2rayse_🇭🇰_HK_香港_5_11
-      - v2rayse_🇭🇰_HK_香港_7
-      - v2rayse_🇭🇰_HK_香港_8
+      - 🇸🇬_SG_新加坡_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - v2rayse_🇭🇰_HK_香港_2
-      - v2rayse_🇹🇼_TW_台湾_1
-      - v2rayse_🇹🇼_TW_台湾_1_4
-      - v2rayse_🇭🇰_HK_香港_3
-      - v2rayse_🇭🇰_HK_香港_5
-      - v2rayse_🇭🇰_HK_香港_6
-      - v2rayse_🇭🇰_HK_香港_2_8
-      - v2rayse_🇭🇰_HK_香港_3_9
-      - v2rayse_🇭🇰_HK_香港_4
-      - v2rayse_🇭🇰_HK_香港_5_11
-      - v2rayse_🇭🇰_HK_香港_7
-      - v2rayse_🇭🇰_HK_香港_8
+      - 🇸🇬_SG_新加坡_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2rayse_🇭🇰_HK_香港_2
-      - v2rayse_🇹🇼_TW_台湾_1
-      - v2rayse_🇹🇼_TW_台湾_1_4
-      - v2rayse_🇭🇰_HK_香港_3
-      - v2rayse_🇭🇰_HK_香港_5
-      - v2rayse_🇭🇰_HK_香港_6
-      - v2rayse_🇭🇰_HK_香港_2_8
-      - v2rayse_🇭🇰_HK_香港_3_9
-      - v2rayse_🇭🇰_HK_香港_4
-      - v2rayse_🇭🇰_HK_香港_5_11
-      - v2rayse_🇭🇰_HK_香港_7
-      - v2rayse_🇭🇰_HK_香港_8
+      - 🇸🇬_SG_新加坡_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v2rayse_🇭🇰_HK_香港_2
-      - v2rayse_🇹🇼_TW_台湾_1
-      - v2rayse_🇹🇼_TW_台湾_1_4
-      - v2rayse_🇭🇰_HK_香港_3
-      - v2rayse_🇭🇰_HK_香港_5
-      - v2rayse_🇭🇰_HK_香港_6
-      - v2rayse_🇭🇰_HK_香港_2_8
-      - v2rayse_🇭🇰_HK_香港_3_9
-      - v2rayse_🇭🇰_HK_香港_4
-      - v2rayse_🇭🇰_HK_香港_5_11
-      - v2rayse_🇭🇰_HK_香港_7
-      - v2rayse_🇭🇰_HK_香港_8
+      - 🇸🇬_SG_新加坡_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v2rayse_🇭🇰_HK_香港_2
-      - v2rayse_🇹🇼_TW_台湾_1
-      - v2rayse_🇹🇼_TW_台湾_1_4
-      - v2rayse_🇭🇰_HK_香港_3
-      - v2rayse_🇭🇰_HK_香港_5
-      - v2rayse_🇭🇰_HK_香港_6
-      - v2rayse_🇭🇰_HK_香港_2_8
-      - v2rayse_🇭🇰_HK_香港_3_9
-      - v2rayse_🇭🇰_HK_香港_4
-      - v2rayse_🇭🇰_HK_香港_5_11
-      - v2rayse_🇭🇰_HK_香港_7
-      - v2rayse_🇭🇰_HK_香港_8
+      - 🇸🇬_SG_新加坡_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - v2rayse_🇭🇰_HK_香港_2
-      - v2rayse_🇹🇼_TW_台湾_1
-      - v2rayse_🇹🇼_TW_台湾_1_4
-      - v2rayse_🇭🇰_HK_香港_3
-      - v2rayse_🇭🇰_HK_香港_5
-      - v2rayse_🇭🇰_HK_香港_6
-      - v2rayse_🇭🇰_HK_香港_2_8
-      - v2rayse_🇭🇰_HK_香港_3_9
-      - v2rayse_🇭🇰_HK_香港_4
-      - v2rayse_🇭🇰_HK_香港_5_11
-      - v2rayse_🇭🇰_HK_香港_7
-      - v2rayse_🇭🇰_HK_香港_8
+      - 🇸🇬_SG_新加坡_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2rayse_🇭🇰_HK_香港_2
-      - v2rayse_🇹🇼_TW_台湾_1
-      - v2rayse_🇹🇼_TW_台湾_1_4
-      - v2rayse_🇭🇰_HK_香港_3
-      - v2rayse_🇭🇰_HK_香港_5
-      - v2rayse_🇭🇰_HK_香港_6
-      - v2rayse_🇭🇰_HK_香港_2_8
-      - v2rayse_🇭🇰_HK_香港_3_9
-      - v2rayse_🇭🇰_HK_香港_4
-      - v2rayse_🇭🇰_HK_香港_5_11
-      - v2rayse_🇭🇰_HK_香港_7
-      - v2rayse_🇭🇰_HK_香港_8
+      - 🇸🇬_SG_新加坡_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -154,18 +66,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2rayse_🇭🇰_HK_香港_2
-      - v2rayse_🇹🇼_TW_台湾_1
-      - v2rayse_🇹🇼_TW_台湾_1_4
-      - v2rayse_🇭🇰_HK_香港_3
-      - v2rayse_🇭🇰_HK_香港_5
-      - v2rayse_🇭🇰_HK_香港_6
-      - v2rayse_🇭🇰_HK_香港_2_8
-      - v2rayse_🇭🇰_HK_香港_3_9
-      - v2rayse_🇭🇰_HK_香港_4
-      - v2rayse_🇭🇰_HK_香港_5_11
-      - v2rayse_🇭🇰_HK_香港_7
-      - v2rayse_🇭🇰_HK_香港_8
+      - 🇸🇬_SG_新加坡_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
