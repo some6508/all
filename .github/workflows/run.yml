@@ -25,21 +25,21 @@ jobs:
 #          brew install curl
 #          curl --version
 
-      - name: Run bash script
+      - name: 运行脚本
         run: bash ./.github/ccaeo.sh
 
-      - name: Set Upload Identity
+      - name: 设置机器人
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions"
 
-      - name: Set Upload Information
+      - name: 添加文件
         run: |
           git add .
+          git commit -m "$(date '+%Y-%m-%d　%H:%M:%S.%N')"
           git status
-          git commit -m "$(date '+%Y-%m-%d　%H:%M:%S.%N')" -a
 
-      - name: Start Upload File
+      - name: 开始上传
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
