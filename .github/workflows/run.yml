@@ -20,7 +20,7 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
-#      - name: Install curl
+#      - name: 安装curl
 #        run: |
 #          brew install curl
 #          curl --version
@@ -33,11 +33,11 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions"
 
-      - name: 添加文件
+      - name: 添加上传
         run: |
           git add .
-          git commit -m "$(date '+%Y-%m-%d　%H:%M:%S.%N')"
           git status
+          git commit -m "$(date '+%Y-%m-%d　%H:%M:%S.%N')" -a
 
       - name: 开始上传
         uses: ad-m/github-push-action@master
