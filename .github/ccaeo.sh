@@ -1,6 +1,7 @@
 
 home=`pwd`
 ls -A $home/*
+function a() {
 function _CURL() {
 unset url
 echo "获取链接: $@"
@@ -25,4 +26,12 @@ if [[ "$raw_url" = *.y*ml* ]]
 then CURL c2
 else echo "获取失败: $raw_url"
 fi
+}
+eval `curl -s "https://github.com/changfengoss/pub/commits" | grep -m 1 'v2rayse comment file' | sed -e 's|.*href="|href="https://github.com|g' -e 's|"\>.*|"|g'`
+eval `curl -s "$href" | grep -m 1 'data/' | sed -e 's|.*">|href="https://github.com/changfengoss/pub/raw/main/|g' -e 's|</a>|"|g'`
+case "$href" in
+*.txt) curl -Lo $home/v "$href";;
+*.yaml) curl -Lo $home/c "$href";;
+*) echo "未知: $href";;
+esac
 sed -i "/^|20/c|$(date '+%Y-%m-%d %H:%M:%S.%N')|" $home/README.md
