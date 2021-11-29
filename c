@@ -5,52 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'CYL-科技（2021.11.28）_1', server: guangzhou-lw-03.pucdn.me, port: 11114, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-07.pucdn.me}}
+  - {name: '台湾IPLC_1', server: 211.23.141.54, port: 443, type: ss, cipher: aes-256-gcm, password: 3c7ab2c61374}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2021.11.28）_1
+      - 台湾IPLC_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CYL-科技（2021.11.28）_1
+      - 台湾IPLC_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2021.11.28）_1
+      - 台湾IPLC_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CYL-科技（2021.11.28）_1
+      - 台湾IPLC_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CYL-科技（2021.11.28）_1
+      - 台湾IPLC_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CYL-科技（2021.11.28）_1
+      - 台湾IPLC_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2021.11.28）_1
+      - 台湾IPLC_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +66,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2021.11.28）_1
+      - 台湾IPLC_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
