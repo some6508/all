@@ -5,172 +5,684 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '馃嚭馃嚫 US_962', server: v3.emovpn.xyz, port: 80, type: vmess, uuid: 6a3f3374-485c-4a5d-a58c-fdc0bc85b377, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: '馃嚫馃嚞 SG_740', server: v5.emovpn.xyz, port: 80, type: vmess, uuid: 6a3f3374-485c-4a5d-a58c-fdc0bc85b377, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: '馃嚭馃嚫 US_958', server: 107.173.165.223, port: 80, type: vmess, uuid: 379acc51-024c-4c31-965b-324c8c99167a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '馃嚭馃嚫US_1188', server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '馃嚭馃嚫US_1420', server: 38.68.134.37, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '馃嚭馃嚫US_1114', server: 172.99.190.90, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '馃嚭馃嚫US_1584', server: 142.202.48.58, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '馃弫ZZ_1882', server: 134.195.198.95, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '馃嚭馃嚫 US_959', server: 107.189.12.75, port: 80, type: vmess, uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '馃嚭馃嚫US_993', server: 172.99.190.186, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '馃嚭馃嚫US_1103', server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '馃嚭馃嚫US_1125', server: 172.99.190.90, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '馃嚭馃嚫US_1356', server: 142.202.48.108, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '馃嚭馃嚫US_1684', server: 142.202.48.78, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '馃弫ZZ_1802', server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '馃弫ZZ_1887', server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'v2rayse_🇬🇧_GB_英国_1', server: 23.106.33.152, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: S3YqACC58uajapxRy7S3D63xcXOeFnl2w9NZezAKDgSYD0RZBFTy3pI8ElCaO4}
+  - {name: 'v2rayse_🇯🇵_JP_日本_1', server: 45.78.57.201, port: 38922, type: vmess, uuid: f3e846c1-d8e4-42df-86d4-f4e5028630d8, alterId: 8, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'v2rayse_🇭🇰_HK_香港_1', server: azhk.alink123.com, port: 11045, type: trojan, password: 765040cb-15f4-43da-9e07-4b92c767d222, sni: azhk.alink123.com}
+  - {name: 'v2rayse_🇺🇸_US_美国_1', server: 80.251.223.37, port: 38922, type: vmess, uuid: f3e846c1-d8e4-42df-86d4-f4e5028630d8, alterId: 8, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'v2rayse_🇺🇸_US_美国_2', server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /84c3f/}
+  - {name: 'v2rayse_🇺🇸_US_美国_3', server: 167.88.63.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_1', server: 134.195.196.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇧🇻_BV_布维岛_1', server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇺🇸_US_美国_4', server: 167.88.63.107, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_2', server: 134.195.196.51, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_3', server: 134.195.196.214, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇺🇸_US_美国_5', server: 167.88.63.11, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇺🇸_US_美国_6', server: 142.202.48.58, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇺🇸_US_美国_7', server: 167.88.61.204, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_4', server: 134.195.196.33, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'v2rayse_🇺🇸_US_美国_8', server: 167.88.63.89, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇺🇸_US_美国_9', server: 38.107.226.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_5', server: 134.195.196.154, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_6', server: 134.195.198.252, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_7', server: 134.195.196.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_8', server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_9', server: 134.195.198.250, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_10', server: 134.195.196.214, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_11', server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_12', server: 134.195.196.154, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇺🇸_US_美国_10', server: 142.202.48.17, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇺🇸_US_美国_11', server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇩🇪_DE_德国_1', server: 193.108.118.2, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_13', server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_14', server: 134.195.196.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_15', server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_16', server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'v2rayse_🇺🇸_US_美国_12', server: 38.107.226.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_17', server: 134.195.198.252, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_18', server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_19', server: 134.195.198.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_20', server: 134.195.196.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_21', server: 134.195.196.202, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_22', server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇺🇸_US_美国_13', server: 167.88.63.28, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇩🇪_DE_德国_2', server: 172.105.251.193, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_23', server: 134.195.196.154, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇬🇧_GB_英国_2', server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_24', server: 134.195.196.33, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_25', server: 134.195.196.214, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇺🇸_US_美国_14', server: 167.88.63.107, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_26', server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇳🇱_NL_荷兰_1', server: 185.239.71.60, port: 38922, type: vmess, uuid: f3e846c1-d8e4-42df-86d4-f4e5028630d8, alterId: 8, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_27', server: 134.195.196.33, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_28', server: 134.195.198.95, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_34', server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_35', server: 134.195.196.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_36', server: 134.195.198.250, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇺🇸_US_美国_17', server: 167.88.63.89, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇺🇸_US_美国_18', server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇬🇧_GB_英国_5', server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_37', server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_38', server: 134.195.196.51, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇺🇸_US_美国_19', server: 38.107.226.132, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇬🇧_GB_英国_6', server: 78.129.253.9, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'v2rayse_🇺🇸_US_美国_20', server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_39', server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_40', server: 134.195.196.214, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_41', server: 134.195.196.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'v2rayse_🇬🇧_GB_英国_7', server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_42', server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_43', server: 134.195.198.252, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_44', server: 134.195.196.51, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'v2rayse_🇬🇧_GB_英国_8', server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_45', server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇭🇺_HU_匈牙利_1', server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'v2rayse_🇺🇸_US_美国_21', server: 167.88.63.28, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_46', server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'v2rayse_🇬🇧_GB_英国_9', server: 172.99.190.130, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇩🇪_DE_德国_4', server: 193.108.118.2, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_47', server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇺🇸_US_美国_22', server: 74.121.149.28, port: 38922, type: vmess, uuid: f3e846c1-d8e4-42df-86d4-f4e5028630d8, alterId: 8, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_48', server: 134.195.196.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'v2rayse_🇨🇦_CA_加拿大_49', server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'v2rayse_🇺🇸_US_美国_23', server: 143.198.237.214, port: 27489, type: vmess, uuid: d73f027b-9a37-4e79-dd29-3a0d1e1da128, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 馃嚭馃嚫 US_962
-      - 馃嚫馃嚞 SG_740
-      - 馃嚭馃嚫 US_958
-      - 馃嚭馃嚫US_1188
-      - 馃嚭馃嚫US_1420
-      - 馃嚭馃嚫US_1114
-      - 馃嚭馃嚫US_1584
-      - 馃弫ZZ_1882
-      - 馃嚭馃嚫 US_959
-      - 馃嚭馃嚫US_993
-      - 馃嚭馃嚫US_1103
-      - 馃嚭馃嚫US_1125
-      - 馃嚭馃嚫US_1356
-      - 馃嚭馃嚫US_1684
-      - 馃弫ZZ_1802
-      - 馃弫ZZ_1887
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇯🇵_JP_日本_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇧🇻_BV_布维岛_1
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_13
+      - v2rayse_🇨🇦_CA_加拿大_14
+      - v2rayse_🇨🇦_CA_加拿大_15
+      - v2rayse_🇨🇦_CA_加拿大_16
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇨🇦_CA_加拿大_17
+      - v2rayse_🇨🇦_CA_加拿大_18
+      - v2rayse_🇨🇦_CA_加拿大_19
+      - v2rayse_🇨🇦_CA_加拿大_20
+      - v2rayse_🇨🇦_CA_加拿大_21
+      - v2rayse_🇨🇦_CA_加拿大_22
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇨🇦_CA_加拿大_23
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇨🇦_CA_加拿大_24
+      - v2rayse_🇨🇦_CA_加拿大_25
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇨🇦_CA_加拿大_26
+      - v2rayse_🇳🇱_NL_荷兰_1
+      - v2rayse_🇨🇦_CA_加拿大_27
+      - v2rayse_🇨🇦_CA_加拿大_28
+      - v2rayse_🇨🇦_CA_加拿大_34
+      - v2rayse_🇨🇦_CA_加拿大_35
+      - v2rayse_🇨🇦_CA_加拿大_36
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇬🇧_GB_英国_5
+      - v2rayse_🇨🇦_CA_加拿大_37
+      - v2rayse_🇨🇦_CA_加拿大_38
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇬🇧_GB_英国_6
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇨🇦_CA_加拿大_39
+      - v2rayse_🇨🇦_CA_加拿大_40
+      - v2rayse_🇨🇦_CA_加拿大_41
+      - v2rayse_🇬🇧_GB_英国_7
+      - v2rayse_🇨🇦_CA_加拿大_42
+      - v2rayse_🇨🇦_CA_加拿大_43
+      - v2rayse_🇨🇦_CA_加拿大_44
+      - v2rayse_🇬🇧_GB_英国_8
+      - v2rayse_🇨🇦_CA_加拿大_45
+      - v2rayse_🇭🇺_HU_匈牙利_1
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇨🇦_CA_加拿大_46
+      - v2rayse_🇬🇧_GB_英国_9
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇨🇦_CA_加拿大_47
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇨🇦_CA_加拿大_48
+      - v2rayse_🇨🇦_CA_加拿大_49
+      - v2rayse_🇺🇸_US_美国_23
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 馃嚭馃嚫 US_962
-      - 馃嚫馃嚞 SG_740
-      - 馃嚭馃嚫 US_958
-      - 馃嚭馃嚫US_1188
-      - 馃嚭馃嚫US_1420
-      - 馃嚭馃嚫US_1114
-      - 馃嚭馃嚫US_1584
-      - 馃弫ZZ_1882
-      - 馃嚭馃嚫 US_959
-      - 馃嚭馃嚫US_993
-      - 馃嚭馃嚫US_1103
-      - 馃嚭馃嚫US_1125
-      - 馃嚭馃嚫US_1356
-      - 馃嚭馃嚫US_1684
-      - 馃弫ZZ_1802
-      - 馃弫ZZ_1887
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇯🇵_JP_日本_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇧🇻_BV_布维岛_1
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_13
+      - v2rayse_🇨🇦_CA_加拿大_14
+      - v2rayse_🇨🇦_CA_加拿大_15
+      - v2rayse_🇨🇦_CA_加拿大_16
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇨🇦_CA_加拿大_17
+      - v2rayse_🇨🇦_CA_加拿大_18
+      - v2rayse_🇨🇦_CA_加拿大_19
+      - v2rayse_🇨🇦_CA_加拿大_20
+      - v2rayse_🇨🇦_CA_加拿大_21
+      - v2rayse_🇨🇦_CA_加拿大_22
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇨🇦_CA_加拿大_23
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇨🇦_CA_加拿大_24
+      - v2rayse_🇨🇦_CA_加拿大_25
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇨🇦_CA_加拿大_26
+      - v2rayse_🇳🇱_NL_荷兰_1
+      - v2rayse_🇨🇦_CA_加拿大_27
+      - v2rayse_🇨🇦_CA_加拿大_28
+      - v2rayse_🇨🇦_CA_加拿大_34
+      - v2rayse_🇨🇦_CA_加拿大_35
+      - v2rayse_🇨🇦_CA_加拿大_36
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇬🇧_GB_英国_5
+      - v2rayse_🇨🇦_CA_加拿大_37
+      - v2rayse_🇨🇦_CA_加拿大_38
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇬🇧_GB_英国_6
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇨🇦_CA_加拿大_39
+      - v2rayse_🇨🇦_CA_加拿大_40
+      - v2rayse_🇨🇦_CA_加拿大_41
+      - v2rayse_🇬🇧_GB_英国_7
+      - v2rayse_🇨🇦_CA_加拿大_42
+      - v2rayse_🇨🇦_CA_加拿大_43
+      - v2rayse_🇨🇦_CA_加拿大_44
+      - v2rayse_🇬🇧_GB_英国_8
+      - v2rayse_🇨🇦_CA_加拿大_45
+      - v2rayse_🇭🇺_HU_匈牙利_1
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇨🇦_CA_加拿大_46
+      - v2rayse_🇬🇧_GB_英国_9
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇨🇦_CA_加拿大_47
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇨🇦_CA_加拿大_48
+      - v2rayse_🇨🇦_CA_加拿大_49
+      - v2rayse_🇺🇸_US_美国_23
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 馃嚭馃嚫 US_962
-      - 馃嚫馃嚞 SG_740
-      - 馃嚭馃嚫 US_958
-      - 馃嚭馃嚫US_1188
-      - 馃嚭馃嚫US_1420
-      - 馃嚭馃嚫US_1114
-      - 馃嚭馃嚫US_1584
-      - 馃弫ZZ_1882
-      - 馃嚭馃嚫 US_959
-      - 馃嚭馃嚫US_993
-      - 馃嚭馃嚫US_1103
-      - 馃嚭馃嚫US_1125
-      - 馃嚭馃嚫US_1356
-      - 馃嚭馃嚫US_1684
-      - 馃弫ZZ_1802
-      - 馃弫ZZ_1887
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇯🇵_JP_日本_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇧🇻_BV_布维岛_1
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_13
+      - v2rayse_🇨🇦_CA_加拿大_14
+      - v2rayse_🇨🇦_CA_加拿大_15
+      - v2rayse_🇨🇦_CA_加拿大_16
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇨🇦_CA_加拿大_17
+      - v2rayse_🇨🇦_CA_加拿大_18
+      - v2rayse_🇨🇦_CA_加拿大_19
+      - v2rayse_🇨🇦_CA_加拿大_20
+      - v2rayse_🇨🇦_CA_加拿大_21
+      - v2rayse_🇨🇦_CA_加拿大_22
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇨🇦_CA_加拿大_23
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇨🇦_CA_加拿大_24
+      - v2rayse_🇨🇦_CA_加拿大_25
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇨🇦_CA_加拿大_26
+      - v2rayse_🇳🇱_NL_荷兰_1
+      - v2rayse_🇨🇦_CA_加拿大_27
+      - v2rayse_🇨🇦_CA_加拿大_28
+      - v2rayse_🇨🇦_CA_加拿大_34
+      - v2rayse_🇨🇦_CA_加拿大_35
+      - v2rayse_🇨🇦_CA_加拿大_36
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇬🇧_GB_英国_5
+      - v2rayse_🇨🇦_CA_加拿大_37
+      - v2rayse_🇨🇦_CA_加拿大_38
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇬🇧_GB_英国_6
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇨🇦_CA_加拿大_39
+      - v2rayse_🇨🇦_CA_加拿大_40
+      - v2rayse_🇨🇦_CA_加拿大_41
+      - v2rayse_🇬🇧_GB_英国_7
+      - v2rayse_🇨🇦_CA_加拿大_42
+      - v2rayse_🇨🇦_CA_加拿大_43
+      - v2rayse_🇨🇦_CA_加拿大_44
+      - v2rayse_🇬🇧_GB_英国_8
+      - v2rayse_🇨🇦_CA_加拿大_45
+      - v2rayse_🇭🇺_HU_匈牙利_1
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇨🇦_CA_加拿大_46
+      - v2rayse_🇬🇧_GB_英国_9
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇨🇦_CA_加拿大_47
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇨🇦_CA_加拿大_48
+      - v2rayse_🇨🇦_CA_加拿大_49
+      - v2rayse_🇺🇸_US_美国_23
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 馃嚭馃嚫 US_962
-      - 馃嚫馃嚞 SG_740
-      - 馃嚭馃嚫 US_958
-      - 馃嚭馃嚫US_1188
-      - 馃嚭馃嚫US_1420
-      - 馃嚭馃嚫US_1114
-      - 馃嚭馃嚫US_1584
-      - 馃弫ZZ_1882
-      - 馃嚭馃嚫 US_959
-      - 馃嚭馃嚫US_993
-      - 馃嚭馃嚫US_1103
-      - 馃嚭馃嚫US_1125
-      - 馃嚭馃嚫US_1356
-      - 馃嚭馃嚫US_1684
-      - 馃弫ZZ_1802
-      - 馃弫ZZ_1887
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇯🇵_JP_日本_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇧🇻_BV_布维岛_1
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_13
+      - v2rayse_🇨🇦_CA_加拿大_14
+      - v2rayse_🇨🇦_CA_加拿大_15
+      - v2rayse_🇨🇦_CA_加拿大_16
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇨🇦_CA_加拿大_17
+      - v2rayse_🇨🇦_CA_加拿大_18
+      - v2rayse_🇨🇦_CA_加拿大_19
+      - v2rayse_🇨🇦_CA_加拿大_20
+      - v2rayse_🇨🇦_CA_加拿大_21
+      - v2rayse_🇨🇦_CA_加拿大_22
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇨🇦_CA_加拿大_23
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇨🇦_CA_加拿大_24
+      - v2rayse_🇨🇦_CA_加拿大_25
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇨🇦_CA_加拿大_26
+      - v2rayse_🇳🇱_NL_荷兰_1
+      - v2rayse_🇨🇦_CA_加拿大_27
+      - v2rayse_🇨🇦_CA_加拿大_28
+      - v2rayse_🇨🇦_CA_加拿大_34
+      - v2rayse_🇨🇦_CA_加拿大_35
+      - v2rayse_🇨🇦_CA_加拿大_36
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇬🇧_GB_英国_5
+      - v2rayse_🇨🇦_CA_加拿大_37
+      - v2rayse_🇨🇦_CA_加拿大_38
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇬🇧_GB_英国_6
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇨🇦_CA_加拿大_39
+      - v2rayse_🇨🇦_CA_加拿大_40
+      - v2rayse_🇨🇦_CA_加拿大_41
+      - v2rayse_🇬🇧_GB_英国_7
+      - v2rayse_🇨🇦_CA_加拿大_42
+      - v2rayse_🇨🇦_CA_加拿大_43
+      - v2rayse_🇨🇦_CA_加拿大_44
+      - v2rayse_🇬🇧_GB_英国_8
+      - v2rayse_🇨🇦_CA_加拿大_45
+      - v2rayse_🇭🇺_HU_匈牙利_1
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇨🇦_CA_加拿大_46
+      - v2rayse_🇬🇧_GB_英国_9
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇨🇦_CA_加拿大_47
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇨🇦_CA_加拿大_48
+      - v2rayse_🇨🇦_CA_加拿大_49
+      - v2rayse_🇺🇸_US_美国_23
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 馃嚭馃嚫 US_962
-      - 馃嚫馃嚞 SG_740
-      - 馃嚭馃嚫 US_958
-      - 馃嚭馃嚫US_1188
-      - 馃嚭馃嚫US_1420
-      - 馃嚭馃嚫US_1114
-      - 馃嚭馃嚫US_1584
-      - 馃弫ZZ_1882
-      - 馃嚭馃嚫 US_959
-      - 馃嚭馃嚫US_993
-      - 馃嚭馃嚫US_1103
-      - 馃嚭馃嚫US_1125
-      - 馃嚭馃嚫US_1356
-      - 馃嚭馃嚫US_1684
-      - 馃弫ZZ_1802
-      - 馃弫ZZ_1887
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇯🇵_JP_日本_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇧🇻_BV_布维岛_1
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_13
+      - v2rayse_🇨🇦_CA_加拿大_14
+      - v2rayse_🇨🇦_CA_加拿大_15
+      - v2rayse_🇨🇦_CA_加拿大_16
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇨🇦_CA_加拿大_17
+      - v2rayse_🇨🇦_CA_加拿大_18
+      - v2rayse_🇨🇦_CA_加拿大_19
+      - v2rayse_🇨🇦_CA_加拿大_20
+      - v2rayse_🇨🇦_CA_加拿大_21
+      - v2rayse_🇨🇦_CA_加拿大_22
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇨🇦_CA_加拿大_23
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇨🇦_CA_加拿大_24
+      - v2rayse_🇨🇦_CA_加拿大_25
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇨🇦_CA_加拿大_26
+      - v2rayse_🇳🇱_NL_荷兰_1
+      - v2rayse_🇨🇦_CA_加拿大_27
+      - v2rayse_🇨🇦_CA_加拿大_28
+      - v2rayse_🇨🇦_CA_加拿大_34
+      - v2rayse_🇨🇦_CA_加拿大_35
+      - v2rayse_🇨🇦_CA_加拿大_36
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇬🇧_GB_英国_5
+      - v2rayse_🇨🇦_CA_加拿大_37
+      - v2rayse_🇨🇦_CA_加拿大_38
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇬🇧_GB_英国_6
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇨🇦_CA_加拿大_39
+      - v2rayse_🇨🇦_CA_加拿大_40
+      - v2rayse_🇨🇦_CA_加拿大_41
+      - v2rayse_🇬🇧_GB_英国_7
+      - v2rayse_🇨🇦_CA_加拿大_42
+      - v2rayse_🇨🇦_CA_加拿大_43
+      - v2rayse_🇨🇦_CA_加拿大_44
+      - v2rayse_🇬🇧_GB_英国_8
+      - v2rayse_🇨🇦_CA_加拿大_45
+      - v2rayse_🇭🇺_HU_匈牙利_1
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇨🇦_CA_加拿大_46
+      - v2rayse_🇬🇧_GB_英国_9
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇨🇦_CA_加拿大_47
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇨🇦_CA_加拿大_48
+      - v2rayse_🇨🇦_CA_加拿大_49
+      - v2rayse_🇺🇸_US_美国_23
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 馃嚭馃嚫 US_962
-      - 馃嚫馃嚞 SG_740
-      - 馃嚭馃嚫 US_958
-      - 馃嚭馃嚫US_1188
-      - 馃嚭馃嚫US_1420
-      - 馃嚭馃嚫US_1114
-      - 馃嚭馃嚫US_1584
-      - 馃弫ZZ_1882
-      - 馃嚭馃嚫 US_959
-      - 馃嚭馃嚫US_993
-      - 馃嚭馃嚫US_1103
-      - 馃嚭馃嚫US_1125
-      - 馃嚭馃嚫US_1356
-      - 馃嚭馃嚫US_1684
-      - 馃弫ZZ_1802
-      - 馃弫ZZ_1887
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇯🇵_JP_日本_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇧🇻_BV_布维岛_1
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_13
+      - v2rayse_🇨🇦_CA_加拿大_14
+      - v2rayse_🇨🇦_CA_加拿大_15
+      - v2rayse_🇨🇦_CA_加拿大_16
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇨🇦_CA_加拿大_17
+      - v2rayse_🇨🇦_CA_加拿大_18
+      - v2rayse_🇨🇦_CA_加拿大_19
+      - v2rayse_🇨🇦_CA_加拿大_20
+      - v2rayse_🇨🇦_CA_加拿大_21
+      - v2rayse_🇨🇦_CA_加拿大_22
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇨🇦_CA_加拿大_23
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇨🇦_CA_加拿大_24
+      - v2rayse_🇨🇦_CA_加拿大_25
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇨🇦_CA_加拿大_26
+      - v2rayse_🇳🇱_NL_荷兰_1
+      - v2rayse_🇨🇦_CA_加拿大_27
+      - v2rayse_🇨🇦_CA_加拿大_28
+      - v2rayse_🇨🇦_CA_加拿大_34
+      - v2rayse_🇨🇦_CA_加拿大_35
+      - v2rayse_🇨🇦_CA_加拿大_36
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇬🇧_GB_英国_5
+      - v2rayse_🇨🇦_CA_加拿大_37
+      - v2rayse_🇨🇦_CA_加拿大_38
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇬🇧_GB_英国_6
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇨🇦_CA_加拿大_39
+      - v2rayse_🇨🇦_CA_加拿大_40
+      - v2rayse_🇨🇦_CA_加拿大_41
+      - v2rayse_🇬🇧_GB_英国_7
+      - v2rayse_🇨🇦_CA_加拿大_42
+      - v2rayse_🇨🇦_CA_加拿大_43
+      - v2rayse_🇨🇦_CA_加拿大_44
+      - v2rayse_🇬🇧_GB_英国_8
+      - v2rayse_🇨🇦_CA_加拿大_45
+      - v2rayse_🇭🇺_HU_匈牙利_1
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇨🇦_CA_加拿大_46
+      - v2rayse_🇬🇧_GB_英国_9
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇨🇦_CA_加拿大_47
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇨🇦_CA_加拿大_48
+      - v2rayse_🇨🇦_CA_加拿大_49
+      - v2rayse_🇺🇸_US_美国_23
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 馃嚭馃嚫 US_962
-      - 馃嚫馃嚞 SG_740
-      - 馃嚭馃嚫 US_958
-      - 馃嚭馃嚫US_1188
-      - 馃嚭馃嚫US_1420
-      - 馃嚭馃嚫US_1114
-      - 馃嚭馃嚫US_1584
-      - 馃弫ZZ_1882
-      - 馃嚭馃嚫 US_959
-      - 馃嚭馃嚫US_993
-      - 馃嚭馃嚫US_1103
-      - 馃嚭馃嚫US_1125
-      - 馃嚭馃嚫US_1356
-      - 馃嚭馃嚫US_1684
-      - 馃弫ZZ_1802
-      - 馃弫ZZ_1887
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇯🇵_JP_日本_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇧🇻_BV_布维岛_1
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_13
+      - v2rayse_🇨🇦_CA_加拿大_14
+      - v2rayse_🇨🇦_CA_加拿大_15
+      - v2rayse_🇨🇦_CA_加拿大_16
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇨🇦_CA_加拿大_17
+      - v2rayse_🇨🇦_CA_加拿大_18
+      - v2rayse_🇨🇦_CA_加拿大_19
+      - v2rayse_🇨🇦_CA_加拿大_20
+      - v2rayse_🇨🇦_CA_加拿大_21
+      - v2rayse_🇨🇦_CA_加拿大_22
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇨🇦_CA_加拿大_23
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇨🇦_CA_加拿大_24
+      - v2rayse_🇨🇦_CA_加拿大_25
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇨🇦_CA_加拿大_26
+      - v2rayse_🇳🇱_NL_荷兰_1
+      - v2rayse_🇨🇦_CA_加拿大_27
+      - v2rayse_🇨🇦_CA_加拿大_28
+      - v2rayse_🇨🇦_CA_加拿大_34
+      - v2rayse_🇨🇦_CA_加拿大_35
+      - v2rayse_🇨🇦_CA_加拿大_36
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇬🇧_GB_英国_5
+      - v2rayse_🇨🇦_CA_加拿大_37
+      - v2rayse_🇨🇦_CA_加拿大_38
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇬🇧_GB_英国_6
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇨🇦_CA_加拿大_39
+      - v2rayse_🇨🇦_CA_加拿大_40
+      - v2rayse_🇨🇦_CA_加拿大_41
+      - v2rayse_🇬🇧_GB_英国_7
+      - v2rayse_🇨🇦_CA_加拿大_42
+      - v2rayse_🇨🇦_CA_加拿大_43
+      - v2rayse_🇨🇦_CA_加拿大_44
+      - v2rayse_🇬🇧_GB_英国_8
+      - v2rayse_🇨🇦_CA_加拿大_45
+      - v2rayse_🇭🇺_HU_匈牙利_1
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇨🇦_CA_加拿大_46
+      - v2rayse_🇬🇧_GB_英国_9
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇨🇦_CA_加拿大_47
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇨🇦_CA_加拿大_48
+      - v2rayse_🇨🇦_CA_加拿大_49
+      - v2rayse_🇺🇸_US_美国_23
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -186,22 +698,86 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 馃嚭馃嚫 US_962
-      - 馃嚫馃嚞 SG_740
-      - 馃嚭馃嚫 US_958
-      - 馃嚭馃嚫US_1188
-      - 馃嚭馃嚫US_1420
-      - 馃嚭馃嚫US_1114
-      - 馃嚭馃嚫US_1584
-      - 馃弫ZZ_1882
-      - 馃嚭馃嚫 US_959
-      - 馃嚭馃嚫US_993
-      - 馃嚭馃嚫US_1103
-      - 馃嚭馃嚫US_1125
-      - 馃嚭馃嚫US_1356
-      - 馃嚭馃嚫US_1684
-      - 馃弫ZZ_1802
-      - 馃弫ZZ_1887
+      - v2rayse_🇬🇧_GB_英国_1
+      - v2rayse_🇯🇵_JP_日本_1
+      - v2rayse_🇭🇰_HK_香港_1
+      - v2rayse_🇺🇸_US_美国_1
+      - v2rayse_🇺🇸_US_美国_2
+      - v2rayse_🇺🇸_US_美国_3
+      - v2rayse_🇨🇦_CA_加拿大_1
+      - v2rayse_🇧🇻_BV_布维岛_1
+      - v2rayse_🇺🇸_US_美国_4
+      - v2rayse_🇨🇦_CA_加拿大_2
+      - v2rayse_🇨🇦_CA_加拿大_3
+      - v2rayse_🇺🇸_US_美国_5
+      - v2rayse_🇺🇸_US_美国_6
+      - v2rayse_🇺🇸_US_美国_7
+      - v2rayse_🇨🇦_CA_加拿大_4
+      - v2rayse_🇺🇸_US_美国_8
+      - v2rayse_🇺🇸_US_美国_9
+      - v2rayse_🇨🇦_CA_加拿大_5
+      - v2rayse_🇨🇦_CA_加拿大_6
+      - v2rayse_🇨🇦_CA_加拿大_7
+      - v2rayse_🇨🇦_CA_加拿大_8
+      - v2rayse_🇨🇦_CA_加拿大_9
+      - v2rayse_🇨🇦_CA_加拿大_10
+      - v2rayse_🇨🇦_CA_加拿大_11
+      - v2rayse_🇨🇦_CA_加拿大_12
+      - v2rayse_🇺🇸_US_美国_10
+      - v2rayse_🇺🇸_US_美国_11
+      - v2rayse_🇩🇪_DE_德国_1
+      - v2rayse_🇨🇦_CA_加拿大_13
+      - v2rayse_🇨🇦_CA_加拿大_14
+      - v2rayse_🇨🇦_CA_加拿大_15
+      - v2rayse_🇨🇦_CA_加拿大_16
+      - v2rayse_🇺🇸_US_美国_12
+      - v2rayse_🇨🇦_CA_加拿大_17
+      - v2rayse_🇨🇦_CA_加拿大_18
+      - v2rayse_🇨🇦_CA_加拿大_19
+      - v2rayse_🇨🇦_CA_加拿大_20
+      - v2rayse_🇨🇦_CA_加拿大_21
+      - v2rayse_🇨🇦_CA_加拿大_22
+      - v2rayse_🇺🇸_US_美国_13
+      - v2rayse_🇩🇪_DE_德国_2
+      - v2rayse_🇨🇦_CA_加拿大_23
+      - v2rayse_🇬🇧_GB_英国_2
+      - v2rayse_🇨🇦_CA_加拿大_24
+      - v2rayse_🇨🇦_CA_加拿大_25
+      - v2rayse_🇺🇸_US_美国_14
+      - v2rayse_🇨🇦_CA_加拿大_26
+      - v2rayse_🇳🇱_NL_荷兰_1
+      - v2rayse_🇨🇦_CA_加拿大_27
+      - v2rayse_🇨🇦_CA_加拿大_28
+      - v2rayse_🇨🇦_CA_加拿大_34
+      - v2rayse_🇨🇦_CA_加拿大_35
+      - v2rayse_🇨🇦_CA_加拿大_36
+      - v2rayse_🇺🇸_US_美国_17
+      - v2rayse_🇺🇸_US_美国_18
+      - v2rayse_🇬🇧_GB_英国_5
+      - v2rayse_🇨🇦_CA_加拿大_37
+      - v2rayse_🇨🇦_CA_加拿大_38
+      - v2rayse_🇺🇸_US_美国_19
+      - v2rayse_🇬🇧_GB_英国_6
+      - v2rayse_🇺🇸_US_美国_20
+      - v2rayse_🇨🇦_CA_加拿大_39
+      - v2rayse_🇨🇦_CA_加拿大_40
+      - v2rayse_🇨🇦_CA_加拿大_41
+      - v2rayse_🇬🇧_GB_英国_7
+      - v2rayse_🇨🇦_CA_加拿大_42
+      - v2rayse_🇨🇦_CA_加拿大_43
+      - v2rayse_🇨🇦_CA_加拿大_44
+      - v2rayse_🇬🇧_GB_英国_8
+      - v2rayse_🇨🇦_CA_加拿大_45
+      - v2rayse_🇭🇺_HU_匈牙利_1
+      - v2rayse_🇺🇸_US_美国_21
+      - v2rayse_🇨🇦_CA_加拿大_46
+      - v2rayse_🇬🇧_GB_英国_9
+      - v2rayse_🇩🇪_DE_德国_4
+      - v2rayse_🇨🇦_CA_加拿大_47
+      - v2rayse_🇺🇸_US_美国_22
+      - v2rayse_🇨🇦_CA_加拿大_48
+      - v2rayse_🇨🇦_CA_加拿大_49
+      - v2rayse_🇺🇸_US_美国_23
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
