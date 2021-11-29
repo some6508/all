@@ -28,15 +28,15 @@ fi
 }
 eval "`curl -sL 'https://github.com/changfengoss/pub/commits' | grep -m 1 'v2rayse comment file' | sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'`"
 eval "`curl -sL "$href" | grep -m 1 'data/' | sed 's|.*">|href="https://github.com/changfengoss/pub/raw/main/|g; s|</a>|"|g'`"
-case "${href:-ccaeo}" in
+case "$href" in
 *.txt) curl -sLo $home/v "$href";;
 *.yaml) curl -sLo $home/c "$href";;
-*) echo "未知: $href";;
+*) echo "$href";;
 esac
 eval "`curl -sL 'https://github.com/pojiezhiyuanjun/freev2/commits' | grep -m 1 'Add files via upload' | sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'`"
 eval "`curl -sL "$href" | grep -m 1 '.yml' | sed 's|.*">|href="https://github.com/pojiezhiyuanjun/freev2/raw/master/|g; s|</a>|"|g'`"
-case "${href:-ccaeo}" in
+case "$href" in
 *.yml) curl -sLo $home/c2 "$href";;
-*) echo "未知: $href";;
+*) echo "$href";;
 esac
 sed -i "/^|20/c|$(date '+%Y-%m-%d %H:%M:%S.%N')|" $home/README.md
