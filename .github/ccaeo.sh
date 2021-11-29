@@ -39,4 +39,7 @@ case "$href" in
 *.yml) curl -sLo $home/c2 "$href";;
 *) echo "$href";;
 esac
+eval "`curl -sL 'https://github.com/FMYC2015/V2ray/commits' | grep -m 2 'Create '| sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'`"
+eval "`curl -sL "$href" | grep -m 1 '2021/' | sed 's|.*">|href="https://github.com/FMYC2015/V2ray/raw/main/|g; s|</a>|"|g'`"
+curl -sLo $home/v2 "$href"
 sed -i "/^|20/c|$(date '+%Y-%m-%d %H:%M:%S.%N')|" $home/README.md
