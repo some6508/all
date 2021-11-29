@@ -5,652 +5,1060 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '阿伟科技-油管Pool_🇭🇰HK_618', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_301', server: global-transit-01-hn.pucdn.me, port: 60002, type: vmess, uuid: 8f19fe80-2493-3c3a-ace9-a6d7c665b3cf, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-in-02.pucdn.me}}
-  - {name: '阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_356', server: global-transit-hk-v2.pucdn.me, port: 32302, type: vmess, uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-aws-jp-02.pucdn.me}}
-  - {name: '阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_361', server: global-transit-hk-v2.pucdn.me, port: 31101, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-kr-01.pucdn.me}}
-  - {name: '阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_397', server: global-transit-hk-v2.pucdn.me, port: 31101, type: vmess, uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-kr-01.pucdn.me}}
-  - {name: '阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412', server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412_8', server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /, ws-headers: {Host: t.me/vpnpool}}
-  - {name: '阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_399', server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_360', server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
-  - {name: '阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2233', server: agals01.cloudddns.icu, port: 1123, type: trojan, password: f45d308f-d9bc-3954-982f-40883392fb8e}
-  - {name: '阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2252', server: abnode10.makegamegoal.com, port: 8443, type: trojan, password: 4e234754-49ce-4ed5-b369-2c82e5615497, sni: abnode10.makegamegoal.com}
-  - {name: '阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2257', server: abnode08.makegamegoal.com, port: 8443, type: trojan, password: 4e234754-49ce-4ed5-b369-2c82e5615497, sni: abnode08.makegamegoal.com}
-  - {name: '阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2259', server: abnode16.makegamegoal.com, port: 8443, type: trojan, password: 4e234754-49ce-4ed5-b369-2c82e5615497, sni: abnode16.makegamegoal.com}
-  - {name: '阿伟科技-油管🇨🇳 CN_101', server: global-transit-hk-v2.pucdn.me, port: 32302, type: vmess, uuid: 8f19fe80-2493-3c3a-ace9-a6d7c665b3cf, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-aws-jp-02.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_105', server: global-transit-01-hn.pucdn.me, port: 60001, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-in-01.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_108', server: global-transit-01-hn.pucdn.me, port: 60002, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-in-02.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_110', server: guangzhou-lw-03.pucdn.me, port: 11114, type: vmess, uuid: 8f19fe80-2493-3c3a-ace9-a6d7c665b3cf, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-07.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_33', server: global-transit-hk-v2.pucdn.me, port: 31123, type: vmess, uuid: 8f19fe80-2493-3c3a-ace9-a6d7c665b3cf, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-a-sg-02.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_34', server: global-transit-hk-v2.pucdn.me, port: 31123, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-a-sg-02.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_40', server: global-transit-hk-v2.pucdn.me, port: 31125, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-do-sg-02.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_60', server: global-transit-02-sg.pucdn.me, port: 63001, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-01.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_68', server: global-transit-02-sg.pucdn.me, port: 63007, type: vmess, uuid: 8f19fe80-2493-3c3a-ace9-a6d7c665b3cf, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-07.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_70', server: global-transit-02-sg.pucdn.me, port: 63008, type: vmess, uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-08.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_71', server: global-transit-02-sg.pucdn.me, port: 63008, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-08.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_77', server: global-transit-hk-v2.pucdn.me, port: 10007, type: vmess, uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-03.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_78', server: global-transit-hk-v2.pucdn.me, port: 10009, type: vmess, uuid: 8f19fe80-2493-3c3a-ace9-a6d7c665b3cf, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-05.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_80', server: global-transit-hk-v2.pucdn.me, port: 10010, type: vmess, uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-06.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_84', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '阿伟科技-油管🇨🇳 CN_86', server: global-transit-hk-v2.pucdn.me, port: 10012, type: vmess, uuid: 8f19fe80-2493-3c3a-ace9-a6d7c665b3cf, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-08.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_88', server: global-transit-hk-v2.pucdn.me, port: 10013, type: vmess, uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-09.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_90', server: global-transit-hk-v2.pucdn.me, port: 10013, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-09.pucdn.me}}
-  - {name: '阿伟科技-油管🇨🇳 CN_98', server: global-transit-hk-v2.pucdn.me, port: 10014, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-10.pucdn.me}}
-  - {name: '阿伟科技-油管🇩🇪+DE_112', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '阿伟科技-油管🇩🇪+DE_113', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '阿伟科技-油管🇬🇧 GB_128', server: 45.142.158.85, port: 28582, type: vmess, uuid: a1c67882-cf3c-4b89-f0f0-890c1bc97f22, alterId: 128, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '阿伟科技-油管🇬🇧GB_549', server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
-  - {name: '阿伟科技-油管🇭🇰+HK_131', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '阿伟科技-油管🇭🇰+HK_132', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '阿伟科技-油管🇮🇳IN_667', server: 172.105.57.249, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '阿伟科技-油管🇮🇳IN_669', server: 172.105.57.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '阿伟科技-油管🇮🇳IN_672', server: 172.105.57.249, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '阿伟科技-油管🇺🇸+US_186', server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '阿伟科技-油管🇺🇸+US_203', server: 172.99.190.90, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '阿伟科技-油管🇺🇸US_1138', server: 38.68.134.85, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '阿伟科技-油管🇺🇸US_1150', server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '阿伟科技-油管🇺🇸US_1156', server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '阿伟科技-油管🇺🇸US_1194', server: 142.202.48.77, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '阿伟科技-油管🇺🇸US_1201', server: 38.114.114.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '阿伟科技-油管🇺🇸US_1258', server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '阿伟科技-油管🇺🇸US_1271', server: 142.202.48.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '阿伟科技-油管🇺🇸US_1285', server: 167.88.63.89, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '阿伟科技-油管🇺🇸US_1306', server: 167.88.62.34, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '阿伟科技-油管🇺🇸US_1308', server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '阿伟科技-油管🇺🇸US_1384', server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '阿伟科技-油管🇺🇸US_1475', server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '阿伟科技-油管🇺🇸US_1476', server: 167.88.63.89, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '阿伟科技-油管🇺🇸US_1519', server: 38.91.100.207, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '阿伟科技-油管🇺🇸US_1559', server: 38.91.100.207, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '阿伟科技-油管🇺🇸US_1574', server: 38.114.114.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '阿伟科技-油管🇺🇸US_1626', server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '阿伟科技-油管🇺🇸US_1627', server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '阿伟科技-油管🇺🇸US_1629', server: 38.121.43.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '阿伟科技-油管🇺🇸US_1643', server: 167.88.62.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '阿伟科技-油管🇺🇸US_1665', server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '阿伟科技-油管🇺🇸US_1696', server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '阿伟科技-油管🇺🇸US_1841', server: 38.75.136.117, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '阿伟科技-油管🏁+ZZ_227', server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '阿伟科技-油管🏁+ZZ_229', server: 134.195.196.214, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '阿伟科技-油管🏁+ZZ_230', server: 134.195.196.214, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '阿伟科技-油管🏁+ZZ_238', server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '阿伟科技-油管🏁+ZZ_240', server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '阿伟科技-油管🏁+ZZ_241', server: 134.195.198.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '阿伟科技-油管🏁+ZZ_242', server: 134.195.196.214, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '阿伟科技-油管🏁ZZ_2275', server: 134.195.196.217, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '阿伟科技-油管🏁ZZ_2287', server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '阿伟科技-油管🏁ZZ_2400', server: 134.195.196.217, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '法国Youtube频道：工具大师！_1', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '美国+🇺🇸Youtube频道：工具大师！_2', server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
+  - {name: 'JPYoutube频道：工具大师！_3', server: kaizen-jp-4.cn0.me, port: 443, type: trojan, password: 01cfa1e4-cdce-35f6-9d66-88723210601dcmynw, sni: paydiu.com}
+  - {name: '🇺🇸US美国Youtube频道：工具大师！_4', server: 172.99.190.186, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇯🇵JPYoutube频道：工具大师！_5', server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy}
+  - {name: '🇺🇸+USYoutube频道：工具大师！_6', server: 95.142.161.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: uDlqozPwCk4A}
+  - {name: '🇸🇬SGYoutube频道：工具大师！_7', server: 217.197.161.136, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇺🇸USYoutube频道：工具大师！_8', server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸USYoutube频道：工具大师！_9', server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸USYoutube频道：工具大师！_10', server: 38.68.134.85, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '俄罗斯Youtube频道：工具大师！_11', server: t5.ssrsub.com, port: 21033, type: trojan, password: 1ed0dd9b-7c66-4738-be47-8e543b2126e4}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_12', server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇭🇰+HKYoutube频道：工具大师！_13', server: hkt.poloddns.xyz, port: 59985, type: ss, cipher: aes-128-gcm, password: 64546545wafasf}
+  - {name: '🇺🇸USYoutube频道：工具大师！_14', server: 38.114.114.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸USYoutube频道：工具大师！_15', server: 38.68.134.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸USYoutube频道：工具大师！_16', server: 38.75.136.117, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸USYoutube频道：工具大师！_17', server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸USYoutube频道：工具大师！_18', server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '挪威+🇳🇴Youtube频道：工具大师！_19', server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: '🇺🇸USYoutube频道：工具大师！_20', server: 38.114.114.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸USYoutube频道：工具大师！_21', server: 38.68.134.190, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_22', server: 134.195.196.33, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸USYoutube频道：工具大师！_23', server: 142.202.48.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸USYoutube频道：工具大师！_24', server: 38.68.135.19, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '德国 🇩🇪Youtube频道：工具大师！_25', server: 89.163.220.82, port: 11016, type: vmess, uuid: 842fcd78-475d-11ec-aa20-9cb6548b0ccc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /cOhjRn2G/, ws-headers: {Host: 89.163.220.82}}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_26', server: 134.195.196.217, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸USYoutube频道：工具大师！_27', server: 142.202.48.105, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸USYoutube频道：工具大师！_28', server: 142.202.48.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸USYoutube频道：工具大师！_29', server: 142.202.48.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸USYoutube频道：工具大师！_30', server: 142.202.48.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸USYoutube频道：工具大师！_31', server: 142.202.48.105, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸USYoutube频道：工具大师！_32', server: 142.202.48.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸USYoutube频道：工具大师！_33', server: 167.88.63.89, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_34', server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇸🇬SGYoutube频道：工具大师！_35', server: 217.197.161.109, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇺🇸USYoutube频道：工具大师！_36', server: 45.141.102.51, port: 35465, type: vmess, uuid: d7bbbcad-0653-42a1-b101-db44624707aa, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: 45.141.102.51}}
+  - {name: '🇺🇸USYoutube频道：工具大师！_37', server: 167.88.62.68, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸USYoutube频道：工具大师！_38', server: 167.88.63.79, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_39', server: 198.57.27.191, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸USYoutube频道：工具大师！_40', server: 142.202.48.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇬🇧GBYoutube频道：工具大师！_41', server: 195.12.49.82, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_42', server: 198.57.27.16, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸USYoutube频道：工具大师！_43', server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
+  - {name: '🇭🇰 HKYoutube频道：工具大师！_44', server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /tde, ws-headers: {Host: czlt.tuboshu.space}}
+  - {name: '🇺🇸USYoutube频道：工具大师！_45', server: 142.202.48.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US美国Youtube频道：工具大师！_46', server: 142.202.48.78, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '德国Youtube频道：工具大师！_47', server: 161.97.64.169, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: czXXqP8K5Uya}
+  - {name: '🇭🇰 HKYoutube频道：工具大师！_48', server: global-transit-01-hn.pucdn.me, port: 60001, type: vmess, uuid: 0e4a0f2f-9cc9-3b11-9e6a-4392c4fcfc6c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: global-transit-01-hn.pucdn.me}}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_49', server: 134.195.196.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸USYoutube频道：工具大师！_50', server: 142.202.48.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸USYoutube频道：工具大师！_51', server: 167.88.63.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '瑞典Youtube频道：工具大师！_52', server: 167.88.63.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇦🇺_AUYoutube频道：工具大师！_53', server: 172.105.171.80, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_54', server: 198.57.27.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_55', server: 51.161.118.38, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇺🇸USYoutube频道：工具大师！_56', server: 142.202.48.83, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸USYoutube频道：工具大师！_57', server: 38.68.134.37, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '法国Youtube频道：工具大师！_58', server: 145.239.7.164, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸USYoutube频道：工具大师！_59', server: 167.88.62.68, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸USYoutube频道：工具大师！_60', server: 38.114.114.68, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸USYoutube频道：工具大师！_61', server: 142.202.48.78, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸USYoutube频道：工具大师！_62', server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸USYoutube频道：工具大师！_63', server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸USYoutube频道：工具大师！_64', server: 38.75.136.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '法国Youtube频道：工具大师！_65', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸USYoutube频道：工具大师！_66', server: 172.104.168.83, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸USYoutube频道：工具大师！_67', server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_68', server: 134.195.196.217, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇸🇬SGYoutube频道：工具大师！_69', server: 217.197.161.109, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_70', server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_71', server: 134.195.196.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸USYoutube频道：工具大师！_72', server: 142.202.48.108, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸USYoutube频道：工具大师！_73', server: 104.16.181.103, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/ws/?ed=2048", ws-headers: {Host: download.china666.ml}}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_74', server: 134.195.196.33, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国Youtube频道：工具大师！_75', server: 172.99.190.90, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇭🇰 HKYoutube频道：工具大师！_76', server: cm-jm.okvpn.xyz, port: 20003, type: vmess, uuid: 8b01a256-4f75-4c5e-8389-fca90104ff47, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '挪威+🇳🇴Youtube频道：工具大师！_77', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '技术分享室整理欢迎订阅_78', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_79', server: 134.195.196.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_80', server: 134.195.198.178, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_81', server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'FRYoutube频道：工具大师！_82', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸USYoutube频道：工具大师！_83', server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '挪威Youtube频道：工具大师！_84', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇭🇰 HKYoutube频道：工具大师！_85', server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thcm, ws-headers: {Host: fosyd.tuboshu.space}}
+  - {name: '🇭🇰 HKYoutube频道：工具大师！_86', server: hzlt.tuboshu.space, port: 18888, type: vmess, uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thcm}
+  - {name: '俄罗斯Youtube频道：工具大师！_87', server: t4.ssrsub.com, port: 21033, type: trojan, password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb}
+  - {name: '俄罗斯Youtube频道：工具大师！_88', server: t5.ssrsub.com, port: 21033, type: trojan, password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb}
+  - {name: '🇺🇸USYoutube频道：工具大师！_89', server: 107.189.12.75, port: 80, type: vmess, uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_90', server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸Youtube频道：工具大师！_91', server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国Youtube频道：工具大师！_92', server: 143.198.237.214, port: 27489, type: vmess, uuid: d73f027b-9a37-4e79-dd29-3a0d1e1da128, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇺🇸US美国Youtube频道：工具大师！_93', server: 172.104.168.83, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '澳大利亚 🇦🇺Youtube频道：工具大师！_94', server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
+  - {name: '德国+🇩🇪Youtube频道：工具大师！_95', server: 172.105.59.32, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸USYoutube频道：工具大师！_96', server: 142.202.48.17, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸USYoutube频道：工具大师！_97', server: 142.202.48.17, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸US美国Youtube频道：工具大师！_98', server: 142.202.48.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸USYoutube频道：工具大师！_99', server: 142.202.48.58, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US美国Youtube频道：工具大师！_100', server: 142.202.48.77, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇷Youtube频道：工具大师！_101', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '加拿大🇨🇦Youtube频道：工具大师！_102', server: 198.57.27.113, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_103', server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '英国+🇬🇧Youtube频道：工具大师！_104', server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
+  - {name: '🇺🇸Youtube频道：工具大师！_105', server: 38.39.192.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇭🇰 HKYoutube频道：工具大师！_106', server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 189dede4-c62b-4709-8340-5600557ae8b3, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🇭🇰 HKYoutube频道：工具大师！_107', server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thkyd}
+  - {name: '新加坡Youtube频道：工具大师！_108', server: 217.197.161.109, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '台湾Youtube频道：工具大师！_109', server: 140.179.85.93, port: 20805, type: vmess, uuid: 0231acc5-d0c0-47e9-98fd-d71ebfb3b19c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '美国Youtube频道：工具大师！_110', server: v1-do-ua-03.niaoyun.online, port: 666, type: vmess, uuid: 9abca0dd-b438-3bd9-b5db-487af35082d0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-ua-03.niaoyun.online}}
+  - {name: '美国Youtube频道：工具大师！_111', server: 172.107.233.234, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '欧洲Youtube频道：工具大师！_112', server: 142.202.48.7, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '欧洲Youtube频道：工具大师！_113', server: 142.202.48.81, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '欧洲Youtube频道：工具大师！_114', server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '欧洲Youtube频道：工具大师！_115', server: 142.202.48.114, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '欧洲Youtube频道：工具大师！_116', server: 142.202.48.58, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '欧洲Youtube频道：工具大师！_117', server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '欧洲Youtube频道：工具大师！_118', server: 142.202.48.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '欧洲Youtube频道：工具大师！_119', server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '欧洲Youtube频道：工具大师！_120', server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '欧洲Youtube频道：工具大师！_121', server: 134.195.196.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '欧洲Youtube频道：工具大师！_122', server: 134.195.196.33, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '欧洲Youtube频道：工具大师！_123', server: 198.57.27.184, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '欧洲Youtube频道：工具大师！_124', server: 198.57.27.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '欧洲Youtube频道：工具大师！_125', server: 134.195.196.68, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '欧洲Youtube频道：工具大师！_126', server: 38.75.137.187, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '欧洲Youtube频道：工具大师！_127', server: 134.195.196.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 阿伟科技-油管Pool_🇭🇰HK_618
-      - 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_301
-      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_356
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_361
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_397
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412_8
-      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_399
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_360
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2233
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2252
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2257
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2259
-      - 阿伟科技-油管🇨🇳 CN_101
-      - 阿伟科技-油管🇨🇳 CN_105
-      - 阿伟科技-油管🇨🇳 CN_108
-      - 阿伟科技-油管🇨🇳 CN_110
-      - 阿伟科技-油管🇨🇳 CN_33
-      - 阿伟科技-油管🇨🇳 CN_34
-      - 阿伟科技-油管🇨🇳 CN_40
-      - 阿伟科技-油管🇨🇳 CN_60
-      - 阿伟科技-油管🇨🇳 CN_68
-      - 阿伟科技-油管🇨🇳 CN_70
-      - 阿伟科技-油管🇨🇳 CN_71
-      - 阿伟科技-油管🇨🇳 CN_77
-      - 阿伟科技-油管🇨🇳 CN_78
-      - 阿伟科技-油管🇨🇳 CN_80
-      - 阿伟科技-油管🇨🇳 CN_84
-      - 阿伟科技-油管🇨🇳 CN_86
-      - 阿伟科技-油管🇨🇳 CN_88
-      - 阿伟科技-油管🇨🇳 CN_90
-      - 阿伟科技-油管🇨🇳 CN_98
-      - 阿伟科技-油管🇩🇪+DE_112
-      - 阿伟科技-油管🇩🇪+DE_113
-      - 阿伟科技-油管🇬🇧 GB_128
-      - 阿伟科技-油管🇬🇧GB_549
-      - 阿伟科技-油管🇭🇰+HK_131
-      - 阿伟科技-油管🇭🇰+HK_132
-      - 阿伟科技-油管🇮🇳IN_667
-      - 阿伟科技-油管🇮🇳IN_669
-      - 阿伟科技-油管🇮🇳IN_672
-      - 阿伟科技-油管🇺🇸+US_186
-      - 阿伟科技-油管🇺🇸+US_203
-      - 阿伟科技-油管🇺🇸US_1138
-      - 阿伟科技-油管🇺🇸US_1150
-      - 阿伟科技-油管🇺🇸US_1156
-      - 阿伟科技-油管🇺🇸US_1194
-      - 阿伟科技-油管🇺🇸US_1201
-      - 阿伟科技-油管🇺🇸US_1258
-      - 阿伟科技-油管🇺🇸US_1271
-      - 阿伟科技-油管🇺🇸US_1285
-      - 阿伟科技-油管🇺🇸US_1306
-      - 阿伟科技-油管🇺🇸US_1308
-      - 阿伟科技-油管🇺🇸US_1384
-      - 阿伟科技-油管🇺🇸US_1475
-      - 阿伟科技-油管🇺🇸US_1476
-      - 阿伟科技-油管🇺🇸US_1519
-      - 阿伟科技-油管🇺🇸US_1559
-      - 阿伟科技-油管🇺🇸US_1574
-      - 阿伟科技-油管🇺🇸US_1626
-      - 阿伟科技-油管🇺🇸US_1627
-      - 阿伟科技-油管🇺🇸US_1629
-      - 阿伟科技-油管🇺🇸US_1643
-      - 阿伟科技-油管🇺🇸US_1665
-      - 阿伟科技-油管🇺🇸US_1696
-      - 阿伟科技-油管🇺🇸US_1841
-      - 阿伟科技-油管🏁+ZZ_227
-      - 阿伟科技-油管🏁+ZZ_229
-      - 阿伟科技-油管🏁+ZZ_230
-      - 阿伟科技-油管🏁+ZZ_238
-      - 阿伟科技-油管🏁+ZZ_240
-      - 阿伟科技-油管🏁+ZZ_241
-      - 阿伟科技-油管🏁+ZZ_242
-      - 阿伟科技-油管🏁ZZ_2275
-      - 阿伟科技-油管🏁ZZ_2287
-      - 阿伟科技-油管🏁ZZ_2400
+      - 法国Youtube频道：工具大师！_1
+      - 美国+🇺🇸Youtube频道：工具大师！_2
+      - JPYoutube频道：工具大师！_3
+      - 🇺🇸US美国Youtube频道：工具大师！_4
+      - 🇯🇵JPYoutube频道：工具大师！_5
+      - 🇺🇸+USYoutube频道：工具大师！_6
+      - 🇸🇬SGYoutube频道：工具大师！_7
+      - 🇺🇸USYoutube频道：工具大师！_8
+      - 🇺🇸USYoutube频道：工具大师！_9
+      - 🇺🇸USYoutube频道：工具大师！_10
+      - 俄罗斯Youtube频道：工具大师！_11
+      - 加拿大+🇨🇦Youtube频道：工具大师！_12
+      - 🇭🇰+HKYoutube频道：工具大师！_13
+      - 🇺🇸USYoutube频道：工具大师！_14
+      - 🇺🇸USYoutube频道：工具大师！_15
+      - 🇺🇸USYoutube频道：工具大师！_16
+      - 🇺🇸USYoutube频道：工具大师！_17
+      - 🇺🇸USYoutube频道：工具大师！_18
+      - 挪威+🇳🇴Youtube频道：工具大师！_19
+      - 🇺🇸USYoutube频道：工具大师！_20
+      - 🇺🇸USYoutube频道：工具大师！_21
+      - 加拿大+🇨🇦Youtube频道：工具大师！_22
+      - 🇺🇸USYoutube频道：工具大师！_23
+      - 🇺🇸USYoutube频道：工具大师！_24
+      - 德国 🇩🇪Youtube频道：工具大师！_25
+      - 加拿大+🇨🇦Youtube频道：工具大师！_26
+      - 🇺🇸USYoutube频道：工具大师！_27
+      - 🇺🇸USYoutube频道：工具大师！_28
+      - 🇺🇸USYoutube频道：工具大师！_29
+      - 🇺🇸USYoutube频道：工具大师！_30
+      - 🇺🇸USYoutube频道：工具大师！_31
+      - 🇺🇸USYoutube频道：工具大师！_32
+      - 🇺🇸USYoutube频道：工具大师！_33
+      - 加拿大+🇨🇦Youtube频道：工具大师！_34
+      - 🇸🇬SGYoutube频道：工具大师！_35
+      - 🇺🇸USYoutube频道：工具大师！_36
+      - 🇺🇸USYoutube频道：工具大师！_37
+      - 🇺🇸USYoutube频道：工具大师！_38
+      - 加拿大+🇨🇦Youtube频道：工具大师！_39
+      - 🇺🇸USYoutube频道：工具大师！_40
+      - 🇬🇧GBYoutube频道：工具大师！_41
+      - 加拿大+🇨🇦Youtube频道：工具大师！_42
+      - 🇺🇸USYoutube频道：工具大师！_43
+      - 🇭🇰 HKYoutube频道：工具大师！_44
+      - 🇺🇸USYoutube频道：工具大师！_45
+      - 🇺🇸US美国Youtube频道：工具大师！_46
+      - 德国Youtube频道：工具大师！_47
+      - 🇭🇰 HKYoutube频道：工具大师！_48
+      - 加拿大+🇨🇦Youtube频道：工具大师！_49
+      - 🇺🇸USYoutube频道：工具大师！_50
+      - 🇺🇸USYoutube频道：工具大师！_51
+      - 瑞典Youtube频道：工具大师！_52
+      - 🇦🇺_AUYoutube频道：工具大师！_53
+      - 加拿大+🇨🇦Youtube频道：工具大师！_54
+      - 加拿大+🇨🇦Youtube频道：工具大师！_55
+      - 🇺🇸USYoutube频道：工具大师！_56
+      - 🇺🇸USYoutube频道：工具大师！_57
+      - 法国Youtube频道：工具大师！_58
+      - 🇺🇸USYoutube频道：工具大师！_59
+      - 🇺🇸USYoutube频道：工具大师！_60
+      - 🇺🇸USYoutube频道：工具大师！_61
+      - 🇺🇸USYoutube频道：工具大师！_62
+      - 🇺🇸USYoutube频道：工具大师！_63
+      - 🇺🇸USYoutube频道：工具大师！_64
+      - 法国Youtube频道：工具大师！_65
+      - 🇺🇸USYoutube频道：工具大师！_66
+      - 🇺🇸USYoutube频道：工具大师！_67
+      - 加拿大+🇨🇦Youtube频道：工具大师！_68
+      - 🇸🇬SGYoutube频道：工具大师！_69
+      - 加拿大+🇨🇦Youtube频道：工具大师！_70
+      - 加拿大+🇨🇦Youtube频道：工具大师！_71
+      - 🇺🇸USYoutube频道：工具大师！_72
+      - 🇺🇸USYoutube频道：工具大师！_73
+      - 加拿大+🇨🇦Youtube频道：工具大师！_74
+      - 美国Youtube频道：工具大师！_75
+      - 🇭🇰 HKYoutube频道：工具大师！_76
+      - 挪威+🇳🇴Youtube频道：工具大师！_77
+      - 技术分享室整理欢迎订阅_78
+      - 加拿大+🇨🇦Youtube频道：工具大师！_79
+      - 加拿大+🇨🇦Youtube频道：工具大师！_80
+      - 加拿大+🇨🇦Youtube频道：工具大师！_81
+      - FRYoutube频道：工具大师！_82
+      - 🇺🇸USYoutube频道：工具大师！_83
+      - 挪威Youtube频道：工具大师！_84
+      - 🇭🇰 HKYoutube频道：工具大师！_85
+      - 🇭🇰 HKYoutube频道：工具大师！_86
+      - 俄罗斯Youtube频道：工具大师！_87
+      - 俄罗斯Youtube频道：工具大师！_88
+      - 🇺🇸USYoutube频道：工具大师！_89
+      - 加拿大+🇨🇦Youtube频道：工具大师！_90
+      - 🇺🇸Youtube频道：工具大师！_91
+      - 美国Youtube频道：工具大师！_92
+      - 🇺🇸US美国Youtube频道：工具大师！_93
+      - 澳大利亚 🇦🇺Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 🇺🇸USYoutube频道：工具大师！_96
+      - 🇺🇸USYoutube频道：工具大师！_97
+      - 🇺🇸US美国Youtube频道：工具大师！_98
+      - 🇺🇸USYoutube频道：工具大师！_99
+      - 🇺🇸US美国Youtube频道：工具大师！_100
+      - 🇫🇷Youtube频道：工具大师！_101
+      - 加拿大🇨🇦Youtube频道：工具大师！_102
+      - 加拿大+🇨🇦Youtube频道：工具大师！_103
+      - 英国+🇬🇧Youtube频道：工具大师！_104
+      - 🇺🇸Youtube频道：工具大师！_105
+      - 🇭🇰 HKYoutube频道：工具大师！_106
+      - 🇭🇰 HKYoutube频道：工具大师！_107
+      - 新加坡Youtube频道：工具大师！_108
+      - 台湾Youtube频道：工具大师！_109
+      - 美国Youtube频道：工具大师！_110
+      - 美国Youtube频道：工具大师！_111
+      - 欧洲Youtube频道：工具大师！_112
+      - 欧洲Youtube频道：工具大师！_113
+      - 欧洲Youtube频道：工具大师！_114
+      - 欧洲Youtube频道：工具大师！_115
+      - 欧洲Youtube频道：工具大师！_116
+      - 欧洲Youtube频道：工具大师！_117
+      - 欧洲Youtube频道：工具大师！_118
+      - 欧洲Youtube频道：工具大师！_119
+      - 欧洲Youtube频道：工具大师！_120
+      - 欧洲Youtube频道：工具大师！_121
+      - 欧洲Youtube频道：工具大师！_122
+      - 欧洲Youtube频道：工具大师！_123
+      - 欧洲Youtube频道：工具大师！_124
+      - 欧洲Youtube频道：工具大师！_125
+      - 欧洲Youtube频道：工具大师！_126
+      - 欧洲Youtube频道：工具大师！_127
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 阿伟科技-油管Pool_🇭🇰HK_618
-      - 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_301
-      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_356
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_361
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_397
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412_8
-      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_399
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_360
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2233
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2252
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2257
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2259
-      - 阿伟科技-油管🇨🇳 CN_101
-      - 阿伟科技-油管🇨🇳 CN_105
-      - 阿伟科技-油管🇨🇳 CN_108
-      - 阿伟科技-油管🇨🇳 CN_110
-      - 阿伟科技-油管🇨🇳 CN_33
-      - 阿伟科技-油管🇨🇳 CN_34
-      - 阿伟科技-油管🇨🇳 CN_40
-      - 阿伟科技-油管🇨🇳 CN_60
-      - 阿伟科技-油管🇨🇳 CN_68
-      - 阿伟科技-油管🇨🇳 CN_70
-      - 阿伟科技-油管🇨🇳 CN_71
-      - 阿伟科技-油管🇨🇳 CN_77
-      - 阿伟科技-油管🇨🇳 CN_78
-      - 阿伟科技-油管🇨🇳 CN_80
-      - 阿伟科技-油管🇨🇳 CN_84
-      - 阿伟科技-油管🇨🇳 CN_86
-      - 阿伟科技-油管🇨🇳 CN_88
-      - 阿伟科技-油管🇨🇳 CN_90
-      - 阿伟科技-油管🇨🇳 CN_98
-      - 阿伟科技-油管🇩🇪+DE_112
-      - 阿伟科技-油管🇩🇪+DE_113
-      - 阿伟科技-油管🇬🇧 GB_128
-      - 阿伟科技-油管🇬🇧GB_549
-      - 阿伟科技-油管🇭🇰+HK_131
-      - 阿伟科技-油管🇭🇰+HK_132
-      - 阿伟科技-油管🇮🇳IN_667
-      - 阿伟科技-油管🇮🇳IN_669
-      - 阿伟科技-油管🇮🇳IN_672
-      - 阿伟科技-油管🇺🇸+US_186
-      - 阿伟科技-油管🇺🇸+US_203
-      - 阿伟科技-油管🇺🇸US_1138
-      - 阿伟科技-油管🇺🇸US_1150
-      - 阿伟科技-油管🇺🇸US_1156
-      - 阿伟科技-油管🇺🇸US_1194
-      - 阿伟科技-油管🇺🇸US_1201
-      - 阿伟科技-油管🇺🇸US_1258
-      - 阿伟科技-油管🇺🇸US_1271
-      - 阿伟科技-油管🇺🇸US_1285
-      - 阿伟科技-油管🇺🇸US_1306
-      - 阿伟科技-油管🇺🇸US_1308
-      - 阿伟科技-油管🇺🇸US_1384
-      - 阿伟科技-油管🇺🇸US_1475
-      - 阿伟科技-油管🇺🇸US_1476
-      - 阿伟科技-油管🇺🇸US_1519
-      - 阿伟科技-油管🇺🇸US_1559
-      - 阿伟科技-油管🇺🇸US_1574
-      - 阿伟科技-油管🇺🇸US_1626
-      - 阿伟科技-油管🇺🇸US_1627
-      - 阿伟科技-油管🇺🇸US_1629
-      - 阿伟科技-油管🇺🇸US_1643
-      - 阿伟科技-油管🇺🇸US_1665
-      - 阿伟科技-油管🇺🇸US_1696
-      - 阿伟科技-油管🇺🇸US_1841
-      - 阿伟科技-油管🏁+ZZ_227
-      - 阿伟科技-油管🏁+ZZ_229
-      - 阿伟科技-油管🏁+ZZ_230
-      - 阿伟科技-油管🏁+ZZ_238
-      - 阿伟科技-油管🏁+ZZ_240
-      - 阿伟科技-油管🏁+ZZ_241
-      - 阿伟科技-油管🏁+ZZ_242
-      - 阿伟科技-油管🏁ZZ_2275
-      - 阿伟科技-油管🏁ZZ_2287
-      - 阿伟科技-油管🏁ZZ_2400
+      - 法国Youtube频道：工具大师！_1
+      - 美国+🇺🇸Youtube频道：工具大师！_2
+      - JPYoutube频道：工具大师！_3
+      - 🇺🇸US美国Youtube频道：工具大师！_4
+      - 🇯🇵JPYoutube频道：工具大师！_5
+      - 🇺🇸+USYoutube频道：工具大师！_6
+      - 🇸🇬SGYoutube频道：工具大师！_7
+      - 🇺🇸USYoutube频道：工具大师！_8
+      - 🇺🇸USYoutube频道：工具大师！_9
+      - 🇺🇸USYoutube频道：工具大师！_10
+      - 俄罗斯Youtube频道：工具大师！_11
+      - 加拿大+🇨🇦Youtube频道：工具大师！_12
+      - 🇭🇰+HKYoutube频道：工具大师！_13
+      - 🇺🇸USYoutube频道：工具大师！_14
+      - 🇺🇸USYoutube频道：工具大师！_15
+      - 🇺🇸USYoutube频道：工具大师！_16
+      - 🇺🇸USYoutube频道：工具大师！_17
+      - 🇺🇸USYoutube频道：工具大师！_18
+      - 挪威+🇳🇴Youtube频道：工具大师！_19
+      - 🇺🇸USYoutube频道：工具大师！_20
+      - 🇺🇸USYoutube频道：工具大师！_21
+      - 加拿大+🇨🇦Youtube频道：工具大师！_22
+      - 🇺🇸USYoutube频道：工具大师！_23
+      - 🇺🇸USYoutube频道：工具大师！_24
+      - 德国 🇩🇪Youtube频道：工具大师！_25
+      - 加拿大+🇨🇦Youtube频道：工具大师！_26
+      - 🇺🇸USYoutube频道：工具大师！_27
+      - 🇺🇸USYoutube频道：工具大师！_28
+      - 🇺🇸USYoutube频道：工具大师！_29
+      - 🇺🇸USYoutube频道：工具大师！_30
+      - 🇺🇸USYoutube频道：工具大师！_31
+      - 🇺🇸USYoutube频道：工具大师！_32
+      - 🇺🇸USYoutube频道：工具大师！_33
+      - 加拿大+🇨🇦Youtube频道：工具大师！_34
+      - 🇸🇬SGYoutube频道：工具大师！_35
+      - 🇺🇸USYoutube频道：工具大师！_36
+      - 🇺🇸USYoutube频道：工具大师！_37
+      - 🇺🇸USYoutube频道：工具大师！_38
+      - 加拿大+🇨🇦Youtube频道：工具大师！_39
+      - 🇺🇸USYoutube频道：工具大师！_40
+      - 🇬🇧GBYoutube频道：工具大师！_41
+      - 加拿大+🇨🇦Youtube频道：工具大师！_42
+      - 🇺🇸USYoutube频道：工具大师！_43
+      - 🇭🇰 HKYoutube频道：工具大师！_44
+      - 🇺🇸USYoutube频道：工具大师！_45
+      - 🇺🇸US美国Youtube频道：工具大师！_46
+      - 德国Youtube频道：工具大师！_47
+      - 🇭🇰 HKYoutube频道：工具大师！_48
+      - 加拿大+🇨🇦Youtube频道：工具大师！_49
+      - 🇺🇸USYoutube频道：工具大师！_50
+      - 🇺🇸USYoutube频道：工具大师！_51
+      - 瑞典Youtube频道：工具大师！_52
+      - 🇦🇺_AUYoutube频道：工具大师！_53
+      - 加拿大+🇨🇦Youtube频道：工具大师！_54
+      - 加拿大+🇨🇦Youtube频道：工具大师！_55
+      - 🇺🇸USYoutube频道：工具大师！_56
+      - 🇺🇸USYoutube频道：工具大师！_57
+      - 法国Youtube频道：工具大师！_58
+      - 🇺🇸USYoutube频道：工具大师！_59
+      - 🇺🇸USYoutube频道：工具大师！_60
+      - 🇺🇸USYoutube频道：工具大师！_61
+      - 🇺🇸USYoutube频道：工具大师！_62
+      - 🇺🇸USYoutube频道：工具大师！_63
+      - 🇺🇸USYoutube频道：工具大师！_64
+      - 法国Youtube频道：工具大师！_65
+      - 🇺🇸USYoutube频道：工具大师！_66
+      - 🇺🇸USYoutube频道：工具大师！_67
+      - 加拿大+🇨🇦Youtube频道：工具大师！_68
+      - 🇸🇬SGYoutube频道：工具大师！_69
+      - 加拿大+🇨🇦Youtube频道：工具大师！_70
+      - 加拿大+🇨🇦Youtube频道：工具大师！_71
+      - 🇺🇸USYoutube频道：工具大师！_72
+      - 🇺🇸USYoutube频道：工具大师！_73
+      - 加拿大+🇨🇦Youtube频道：工具大师！_74
+      - 美国Youtube频道：工具大师！_75
+      - 🇭🇰 HKYoutube频道：工具大师！_76
+      - 挪威+🇳🇴Youtube频道：工具大师！_77
+      - 技术分享室整理欢迎订阅_78
+      - 加拿大+🇨🇦Youtube频道：工具大师！_79
+      - 加拿大+🇨🇦Youtube频道：工具大师！_80
+      - 加拿大+🇨🇦Youtube频道：工具大师！_81
+      - FRYoutube频道：工具大师！_82
+      - 🇺🇸USYoutube频道：工具大师！_83
+      - 挪威Youtube频道：工具大师！_84
+      - 🇭🇰 HKYoutube频道：工具大师！_85
+      - 🇭🇰 HKYoutube频道：工具大师！_86
+      - 俄罗斯Youtube频道：工具大师！_87
+      - 俄罗斯Youtube频道：工具大师！_88
+      - 🇺🇸USYoutube频道：工具大师！_89
+      - 加拿大+🇨🇦Youtube频道：工具大师！_90
+      - 🇺🇸Youtube频道：工具大师！_91
+      - 美国Youtube频道：工具大师！_92
+      - 🇺🇸US美国Youtube频道：工具大师！_93
+      - 澳大利亚 🇦🇺Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 🇺🇸USYoutube频道：工具大师！_96
+      - 🇺🇸USYoutube频道：工具大师！_97
+      - 🇺🇸US美国Youtube频道：工具大师！_98
+      - 🇺🇸USYoutube频道：工具大师！_99
+      - 🇺🇸US美国Youtube频道：工具大师！_100
+      - 🇫🇷Youtube频道：工具大师！_101
+      - 加拿大🇨🇦Youtube频道：工具大师！_102
+      - 加拿大+🇨🇦Youtube频道：工具大师！_103
+      - 英国+🇬🇧Youtube频道：工具大师！_104
+      - 🇺🇸Youtube频道：工具大师！_105
+      - 🇭🇰 HKYoutube频道：工具大师！_106
+      - 🇭🇰 HKYoutube频道：工具大师！_107
+      - 新加坡Youtube频道：工具大师！_108
+      - 台湾Youtube频道：工具大师！_109
+      - 美国Youtube频道：工具大师！_110
+      - 美国Youtube频道：工具大师！_111
+      - 欧洲Youtube频道：工具大师！_112
+      - 欧洲Youtube频道：工具大师！_113
+      - 欧洲Youtube频道：工具大师！_114
+      - 欧洲Youtube频道：工具大师！_115
+      - 欧洲Youtube频道：工具大师！_116
+      - 欧洲Youtube频道：工具大师！_117
+      - 欧洲Youtube频道：工具大师！_118
+      - 欧洲Youtube频道：工具大师！_119
+      - 欧洲Youtube频道：工具大师！_120
+      - 欧洲Youtube频道：工具大师！_121
+      - 欧洲Youtube频道：工具大师！_122
+      - 欧洲Youtube频道：工具大师！_123
+      - 欧洲Youtube频道：工具大师！_124
+      - 欧洲Youtube频道：工具大师！_125
+      - 欧洲Youtube频道：工具大师！_126
+      - 欧洲Youtube频道：工具大师！_127
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 阿伟科技-油管Pool_🇭🇰HK_618
-      - 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_301
-      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_356
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_361
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_397
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412_8
-      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_399
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_360
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2233
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2252
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2257
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2259
-      - 阿伟科技-油管🇨🇳 CN_101
-      - 阿伟科技-油管🇨🇳 CN_105
-      - 阿伟科技-油管🇨🇳 CN_108
-      - 阿伟科技-油管🇨🇳 CN_110
-      - 阿伟科技-油管🇨🇳 CN_33
-      - 阿伟科技-油管🇨🇳 CN_34
-      - 阿伟科技-油管🇨🇳 CN_40
-      - 阿伟科技-油管🇨🇳 CN_60
-      - 阿伟科技-油管🇨🇳 CN_68
-      - 阿伟科技-油管🇨🇳 CN_70
-      - 阿伟科技-油管🇨🇳 CN_71
-      - 阿伟科技-油管🇨🇳 CN_77
-      - 阿伟科技-油管🇨🇳 CN_78
-      - 阿伟科技-油管🇨🇳 CN_80
-      - 阿伟科技-油管🇨🇳 CN_84
-      - 阿伟科技-油管🇨🇳 CN_86
-      - 阿伟科技-油管🇨🇳 CN_88
-      - 阿伟科技-油管🇨🇳 CN_90
-      - 阿伟科技-油管🇨🇳 CN_98
-      - 阿伟科技-油管🇩🇪+DE_112
-      - 阿伟科技-油管🇩🇪+DE_113
-      - 阿伟科技-油管🇬🇧 GB_128
-      - 阿伟科技-油管🇬🇧GB_549
-      - 阿伟科技-油管🇭🇰+HK_131
-      - 阿伟科技-油管🇭🇰+HK_132
-      - 阿伟科技-油管🇮🇳IN_667
-      - 阿伟科技-油管🇮🇳IN_669
-      - 阿伟科技-油管🇮🇳IN_672
-      - 阿伟科技-油管🇺🇸+US_186
-      - 阿伟科技-油管🇺🇸+US_203
-      - 阿伟科技-油管🇺🇸US_1138
-      - 阿伟科技-油管🇺🇸US_1150
-      - 阿伟科技-油管🇺🇸US_1156
-      - 阿伟科技-油管🇺🇸US_1194
-      - 阿伟科技-油管🇺🇸US_1201
-      - 阿伟科技-油管🇺🇸US_1258
-      - 阿伟科技-油管🇺🇸US_1271
-      - 阿伟科技-油管🇺🇸US_1285
-      - 阿伟科技-油管🇺🇸US_1306
-      - 阿伟科技-油管🇺🇸US_1308
-      - 阿伟科技-油管🇺🇸US_1384
-      - 阿伟科技-油管🇺🇸US_1475
-      - 阿伟科技-油管🇺🇸US_1476
-      - 阿伟科技-油管🇺🇸US_1519
-      - 阿伟科技-油管🇺🇸US_1559
-      - 阿伟科技-油管🇺🇸US_1574
-      - 阿伟科技-油管🇺🇸US_1626
-      - 阿伟科技-油管🇺🇸US_1627
-      - 阿伟科技-油管🇺🇸US_1629
-      - 阿伟科技-油管🇺🇸US_1643
-      - 阿伟科技-油管🇺🇸US_1665
-      - 阿伟科技-油管🇺🇸US_1696
-      - 阿伟科技-油管🇺🇸US_1841
-      - 阿伟科技-油管🏁+ZZ_227
-      - 阿伟科技-油管🏁+ZZ_229
-      - 阿伟科技-油管🏁+ZZ_230
-      - 阿伟科技-油管🏁+ZZ_238
-      - 阿伟科技-油管🏁+ZZ_240
-      - 阿伟科技-油管🏁+ZZ_241
-      - 阿伟科技-油管🏁+ZZ_242
-      - 阿伟科技-油管🏁ZZ_2275
-      - 阿伟科技-油管🏁ZZ_2287
-      - 阿伟科技-油管🏁ZZ_2400
+      - 法国Youtube频道：工具大师！_1
+      - 美国+🇺🇸Youtube频道：工具大师！_2
+      - JPYoutube频道：工具大师！_3
+      - 🇺🇸US美国Youtube频道：工具大师！_4
+      - 🇯🇵JPYoutube频道：工具大师！_5
+      - 🇺🇸+USYoutube频道：工具大师！_6
+      - 🇸🇬SGYoutube频道：工具大师！_7
+      - 🇺🇸USYoutube频道：工具大师！_8
+      - 🇺🇸USYoutube频道：工具大师！_9
+      - 🇺🇸USYoutube频道：工具大师！_10
+      - 俄罗斯Youtube频道：工具大师！_11
+      - 加拿大+🇨🇦Youtube频道：工具大师！_12
+      - 🇭🇰+HKYoutube频道：工具大师！_13
+      - 🇺🇸USYoutube频道：工具大师！_14
+      - 🇺🇸USYoutube频道：工具大师！_15
+      - 🇺🇸USYoutube频道：工具大师！_16
+      - 🇺🇸USYoutube频道：工具大师！_17
+      - 🇺🇸USYoutube频道：工具大师！_18
+      - 挪威+🇳🇴Youtube频道：工具大师！_19
+      - 🇺🇸USYoutube频道：工具大师！_20
+      - 🇺🇸USYoutube频道：工具大师！_21
+      - 加拿大+🇨🇦Youtube频道：工具大师！_22
+      - 🇺🇸USYoutube频道：工具大师！_23
+      - 🇺🇸USYoutube频道：工具大师！_24
+      - 德国 🇩🇪Youtube频道：工具大师！_25
+      - 加拿大+🇨🇦Youtube频道：工具大师！_26
+      - 🇺🇸USYoutube频道：工具大师！_27
+      - 🇺🇸USYoutube频道：工具大师！_28
+      - 🇺🇸USYoutube频道：工具大师！_29
+      - 🇺🇸USYoutube频道：工具大师！_30
+      - 🇺🇸USYoutube频道：工具大师！_31
+      - 🇺🇸USYoutube频道：工具大师！_32
+      - 🇺🇸USYoutube频道：工具大师！_33
+      - 加拿大+🇨🇦Youtube频道：工具大师！_34
+      - 🇸🇬SGYoutube频道：工具大师！_35
+      - 🇺🇸USYoutube频道：工具大师！_36
+      - 🇺🇸USYoutube频道：工具大师！_37
+      - 🇺🇸USYoutube频道：工具大师！_38
+      - 加拿大+🇨🇦Youtube频道：工具大师！_39
+      - 🇺🇸USYoutube频道：工具大师！_40
+      - 🇬🇧GBYoutube频道：工具大师！_41
+      - 加拿大+🇨🇦Youtube频道：工具大师！_42
+      - 🇺🇸USYoutube频道：工具大师！_43
+      - 🇭🇰 HKYoutube频道：工具大师！_44
+      - 🇺🇸USYoutube频道：工具大师！_45
+      - 🇺🇸US美国Youtube频道：工具大师！_46
+      - 德国Youtube频道：工具大师！_47
+      - 🇭🇰 HKYoutube频道：工具大师！_48
+      - 加拿大+🇨🇦Youtube频道：工具大师！_49
+      - 🇺🇸USYoutube频道：工具大师！_50
+      - 🇺🇸USYoutube频道：工具大师！_51
+      - 瑞典Youtube频道：工具大师！_52
+      - 🇦🇺_AUYoutube频道：工具大师！_53
+      - 加拿大+🇨🇦Youtube频道：工具大师！_54
+      - 加拿大+🇨🇦Youtube频道：工具大师！_55
+      - 🇺🇸USYoutube频道：工具大师！_56
+      - 🇺🇸USYoutube频道：工具大师！_57
+      - 法国Youtube频道：工具大师！_58
+      - 🇺🇸USYoutube频道：工具大师！_59
+      - 🇺🇸USYoutube频道：工具大师！_60
+      - 🇺🇸USYoutube频道：工具大师！_61
+      - 🇺🇸USYoutube频道：工具大师！_62
+      - 🇺🇸USYoutube频道：工具大师！_63
+      - 🇺🇸USYoutube频道：工具大师！_64
+      - 法国Youtube频道：工具大师！_65
+      - 🇺🇸USYoutube频道：工具大师！_66
+      - 🇺🇸USYoutube频道：工具大师！_67
+      - 加拿大+🇨🇦Youtube频道：工具大师！_68
+      - 🇸🇬SGYoutube频道：工具大师！_69
+      - 加拿大+🇨🇦Youtube频道：工具大师！_70
+      - 加拿大+🇨🇦Youtube频道：工具大师！_71
+      - 🇺🇸USYoutube频道：工具大师！_72
+      - 🇺🇸USYoutube频道：工具大师！_73
+      - 加拿大+🇨🇦Youtube频道：工具大师！_74
+      - 美国Youtube频道：工具大师！_75
+      - 🇭🇰 HKYoutube频道：工具大师！_76
+      - 挪威+🇳🇴Youtube频道：工具大师！_77
+      - 技术分享室整理欢迎订阅_78
+      - 加拿大+🇨🇦Youtube频道：工具大师！_79
+      - 加拿大+🇨🇦Youtube频道：工具大师！_80
+      - 加拿大+🇨🇦Youtube频道：工具大师！_81
+      - FRYoutube频道：工具大师！_82
+      - 🇺🇸USYoutube频道：工具大师！_83
+      - 挪威Youtube频道：工具大师！_84
+      - 🇭🇰 HKYoutube频道：工具大师！_85
+      - 🇭🇰 HKYoutube频道：工具大师！_86
+      - 俄罗斯Youtube频道：工具大师！_87
+      - 俄罗斯Youtube频道：工具大师！_88
+      - 🇺🇸USYoutube频道：工具大师！_89
+      - 加拿大+🇨🇦Youtube频道：工具大师！_90
+      - 🇺🇸Youtube频道：工具大师！_91
+      - 美国Youtube频道：工具大师！_92
+      - 🇺🇸US美国Youtube频道：工具大师！_93
+      - 澳大利亚 🇦🇺Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 🇺🇸USYoutube频道：工具大师！_96
+      - 🇺🇸USYoutube频道：工具大师！_97
+      - 🇺🇸US美国Youtube频道：工具大师！_98
+      - 🇺🇸USYoutube频道：工具大师！_99
+      - 🇺🇸US美国Youtube频道：工具大师！_100
+      - 🇫🇷Youtube频道：工具大师！_101
+      - 加拿大🇨🇦Youtube频道：工具大师！_102
+      - 加拿大+🇨🇦Youtube频道：工具大师！_103
+      - 英国+🇬🇧Youtube频道：工具大师！_104
+      - 🇺🇸Youtube频道：工具大师！_105
+      - 🇭🇰 HKYoutube频道：工具大师！_106
+      - 🇭🇰 HKYoutube频道：工具大师！_107
+      - 新加坡Youtube频道：工具大师！_108
+      - 台湾Youtube频道：工具大师！_109
+      - 美国Youtube频道：工具大师！_110
+      - 美国Youtube频道：工具大师！_111
+      - 欧洲Youtube频道：工具大师！_112
+      - 欧洲Youtube频道：工具大师！_113
+      - 欧洲Youtube频道：工具大师！_114
+      - 欧洲Youtube频道：工具大师！_115
+      - 欧洲Youtube频道：工具大师！_116
+      - 欧洲Youtube频道：工具大师！_117
+      - 欧洲Youtube频道：工具大师！_118
+      - 欧洲Youtube频道：工具大师！_119
+      - 欧洲Youtube频道：工具大师！_120
+      - 欧洲Youtube频道：工具大师！_121
+      - 欧洲Youtube频道：工具大师！_122
+      - 欧洲Youtube频道：工具大师！_123
+      - 欧洲Youtube频道：工具大师！_124
+      - 欧洲Youtube频道：工具大师！_125
+      - 欧洲Youtube频道：工具大师！_126
+      - 欧洲Youtube频道：工具大师！_127
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 阿伟科技-油管Pool_🇭🇰HK_618
-      - 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_301
-      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_356
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_361
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_397
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412_8
-      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_399
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_360
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2233
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2252
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2257
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2259
-      - 阿伟科技-油管🇨🇳 CN_101
-      - 阿伟科技-油管🇨🇳 CN_105
-      - 阿伟科技-油管🇨🇳 CN_108
-      - 阿伟科技-油管🇨🇳 CN_110
-      - 阿伟科技-油管🇨🇳 CN_33
-      - 阿伟科技-油管🇨🇳 CN_34
-      - 阿伟科技-油管🇨🇳 CN_40
-      - 阿伟科技-油管🇨🇳 CN_60
-      - 阿伟科技-油管🇨🇳 CN_68
-      - 阿伟科技-油管🇨🇳 CN_70
-      - 阿伟科技-油管🇨🇳 CN_71
-      - 阿伟科技-油管🇨🇳 CN_77
-      - 阿伟科技-油管🇨🇳 CN_78
-      - 阿伟科技-油管🇨🇳 CN_80
-      - 阿伟科技-油管🇨🇳 CN_84
-      - 阿伟科技-油管🇨🇳 CN_86
-      - 阿伟科技-油管🇨🇳 CN_88
-      - 阿伟科技-油管🇨🇳 CN_90
-      - 阿伟科技-油管🇨🇳 CN_98
-      - 阿伟科技-油管🇩🇪+DE_112
-      - 阿伟科技-油管🇩🇪+DE_113
-      - 阿伟科技-油管🇬🇧 GB_128
-      - 阿伟科技-油管🇬🇧GB_549
-      - 阿伟科技-油管🇭🇰+HK_131
-      - 阿伟科技-油管🇭🇰+HK_132
-      - 阿伟科技-油管🇮🇳IN_667
-      - 阿伟科技-油管🇮🇳IN_669
-      - 阿伟科技-油管🇮🇳IN_672
-      - 阿伟科技-油管🇺🇸+US_186
-      - 阿伟科技-油管🇺🇸+US_203
-      - 阿伟科技-油管🇺🇸US_1138
-      - 阿伟科技-油管🇺🇸US_1150
-      - 阿伟科技-油管🇺🇸US_1156
-      - 阿伟科技-油管🇺🇸US_1194
-      - 阿伟科技-油管🇺🇸US_1201
-      - 阿伟科技-油管🇺🇸US_1258
-      - 阿伟科技-油管🇺🇸US_1271
-      - 阿伟科技-油管🇺🇸US_1285
-      - 阿伟科技-油管🇺🇸US_1306
-      - 阿伟科技-油管🇺🇸US_1308
-      - 阿伟科技-油管🇺🇸US_1384
-      - 阿伟科技-油管🇺🇸US_1475
-      - 阿伟科技-油管🇺🇸US_1476
-      - 阿伟科技-油管🇺🇸US_1519
-      - 阿伟科技-油管🇺🇸US_1559
-      - 阿伟科技-油管🇺🇸US_1574
-      - 阿伟科技-油管🇺🇸US_1626
-      - 阿伟科技-油管🇺🇸US_1627
-      - 阿伟科技-油管🇺🇸US_1629
-      - 阿伟科技-油管🇺🇸US_1643
-      - 阿伟科技-油管🇺🇸US_1665
-      - 阿伟科技-油管🇺🇸US_1696
-      - 阿伟科技-油管🇺🇸US_1841
-      - 阿伟科技-油管🏁+ZZ_227
-      - 阿伟科技-油管🏁+ZZ_229
-      - 阿伟科技-油管🏁+ZZ_230
-      - 阿伟科技-油管🏁+ZZ_238
-      - 阿伟科技-油管🏁+ZZ_240
-      - 阿伟科技-油管🏁+ZZ_241
-      - 阿伟科技-油管🏁+ZZ_242
-      - 阿伟科技-油管🏁ZZ_2275
-      - 阿伟科技-油管🏁ZZ_2287
-      - 阿伟科技-油管🏁ZZ_2400
+      - 法国Youtube频道：工具大师！_1
+      - 美国+🇺🇸Youtube频道：工具大师！_2
+      - JPYoutube频道：工具大师！_3
+      - 🇺🇸US美国Youtube频道：工具大师！_4
+      - 🇯🇵JPYoutube频道：工具大师！_5
+      - 🇺🇸+USYoutube频道：工具大师！_6
+      - 🇸🇬SGYoutube频道：工具大师！_7
+      - 🇺🇸USYoutube频道：工具大师！_8
+      - 🇺🇸USYoutube频道：工具大师！_9
+      - 🇺🇸USYoutube频道：工具大师！_10
+      - 俄罗斯Youtube频道：工具大师！_11
+      - 加拿大+🇨🇦Youtube频道：工具大师！_12
+      - 🇭🇰+HKYoutube频道：工具大师！_13
+      - 🇺🇸USYoutube频道：工具大师！_14
+      - 🇺🇸USYoutube频道：工具大师！_15
+      - 🇺🇸USYoutube频道：工具大师！_16
+      - 🇺🇸USYoutube频道：工具大师！_17
+      - 🇺🇸USYoutube频道：工具大师！_18
+      - 挪威+🇳🇴Youtube频道：工具大师！_19
+      - 🇺🇸USYoutube频道：工具大师！_20
+      - 🇺🇸USYoutube频道：工具大师！_21
+      - 加拿大+🇨🇦Youtube频道：工具大师！_22
+      - 🇺🇸USYoutube频道：工具大师！_23
+      - 🇺🇸USYoutube频道：工具大师！_24
+      - 德国 🇩🇪Youtube频道：工具大师！_25
+      - 加拿大+🇨🇦Youtube频道：工具大师！_26
+      - 🇺🇸USYoutube频道：工具大师！_27
+      - 🇺🇸USYoutube频道：工具大师！_28
+      - 🇺🇸USYoutube频道：工具大师！_29
+      - 🇺🇸USYoutube频道：工具大师！_30
+      - 🇺🇸USYoutube频道：工具大师！_31
+      - 🇺🇸USYoutube频道：工具大师！_32
+      - 🇺🇸USYoutube频道：工具大师！_33
+      - 加拿大+🇨🇦Youtube频道：工具大师！_34
+      - 🇸🇬SGYoutube频道：工具大师！_35
+      - 🇺🇸USYoutube频道：工具大师！_36
+      - 🇺🇸USYoutube频道：工具大师！_37
+      - 🇺🇸USYoutube频道：工具大师！_38
+      - 加拿大+🇨🇦Youtube频道：工具大师！_39
+      - 🇺🇸USYoutube频道：工具大师！_40
+      - 🇬🇧GBYoutube频道：工具大师！_41
+      - 加拿大+🇨🇦Youtube频道：工具大师！_42
+      - 🇺🇸USYoutube频道：工具大师！_43
+      - 🇭🇰 HKYoutube频道：工具大师！_44
+      - 🇺🇸USYoutube频道：工具大师！_45
+      - 🇺🇸US美国Youtube频道：工具大师！_46
+      - 德国Youtube频道：工具大师！_47
+      - 🇭🇰 HKYoutube频道：工具大师！_48
+      - 加拿大+🇨🇦Youtube频道：工具大师！_49
+      - 🇺🇸USYoutube频道：工具大师！_50
+      - 🇺🇸USYoutube频道：工具大师！_51
+      - 瑞典Youtube频道：工具大师！_52
+      - 🇦🇺_AUYoutube频道：工具大师！_53
+      - 加拿大+🇨🇦Youtube频道：工具大师！_54
+      - 加拿大+🇨🇦Youtube频道：工具大师！_55
+      - 🇺🇸USYoutube频道：工具大师！_56
+      - 🇺🇸USYoutube频道：工具大师！_57
+      - 法国Youtube频道：工具大师！_58
+      - 🇺🇸USYoutube频道：工具大师！_59
+      - 🇺🇸USYoutube频道：工具大师！_60
+      - 🇺🇸USYoutube频道：工具大师！_61
+      - 🇺🇸USYoutube频道：工具大师！_62
+      - 🇺🇸USYoutube频道：工具大师！_63
+      - 🇺🇸USYoutube频道：工具大师！_64
+      - 法国Youtube频道：工具大师！_65
+      - 🇺🇸USYoutube频道：工具大师！_66
+      - 🇺🇸USYoutube频道：工具大师！_67
+      - 加拿大+🇨🇦Youtube频道：工具大师！_68
+      - 🇸🇬SGYoutube频道：工具大师！_69
+      - 加拿大+🇨🇦Youtube频道：工具大师！_70
+      - 加拿大+🇨🇦Youtube频道：工具大师！_71
+      - 🇺🇸USYoutube频道：工具大师！_72
+      - 🇺🇸USYoutube频道：工具大师！_73
+      - 加拿大+🇨🇦Youtube频道：工具大师！_74
+      - 美国Youtube频道：工具大师！_75
+      - 🇭🇰 HKYoutube频道：工具大师！_76
+      - 挪威+🇳🇴Youtube频道：工具大师！_77
+      - 技术分享室整理欢迎订阅_78
+      - 加拿大+🇨🇦Youtube频道：工具大师！_79
+      - 加拿大+🇨🇦Youtube频道：工具大师！_80
+      - 加拿大+🇨🇦Youtube频道：工具大师！_81
+      - FRYoutube频道：工具大师！_82
+      - 🇺🇸USYoutube频道：工具大师！_83
+      - 挪威Youtube频道：工具大师！_84
+      - 🇭🇰 HKYoutube频道：工具大师！_85
+      - 🇭🇰 HKYoutube频道：工具大师！_86
+      - 俄罗斯Youtube频道：工具大师！_87
+      - 俄罗斯Youtube频道：工具大师！_88
+      - 🇺🇸USYoutube频道：工具大师！_89
+      - 加拿大+🇨🇦Youtube频道：工具大师！_90
+      - 🇺🇸Youtube频道：工具大师！_91
+      - 美国Youtube频道：工具大师！_92
+      - 🇺🇸US美国Youtube频道：工具大师！_93
+      - 澳大利亚 🇦🇺Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 🇺🇸USYoutube频道：工具大师！_96
+      - 🇺🇸USYoutube频道：工具大师！_97
+      - 🇺🇸US美国Youtube频道：工具大师！_98
+      - 🇺🇸USYoutube频道：工具大师！_99
+      - 🇺🇸US美国Youtube频道：工具大师！_100
+      - 🇫🇷Youtube频道：工具大师！_101
+      - 加拿大🇨🇦Youtube频道：工具大师！_102
+      - 加拿大+🇨🇦Youtube频道：工具大师！_103
+      - 英国+🇬🇧Youtube频道：工具大师！_104
+      - 🇺🇸Youtube频道：工具大师！_105
+      - 🇭🇰 HKYoutube频道：工具大师！_106
+      - 🇭🇰 HKYoutube频道：工具大师！_107
+      - 新加坡Youtube频道：工具大师！_108
+      - 台湾Youtube频道：工具大师！_109
+      - 美国Youtube频道：工具大师！_110
+      - 美国Youtube频道：工具大师！_111
+      - 欧洲Youtube频道：工具大师！_112
+      - 欧洲Youtube频道：工具大师！_113
+      - 欧洲Youtube频道：工具大师！_114
+      - 欧洲Youtube频道：工具大师！_115
+      - 欧洲Youtube频道：工具大师！_116
+      - 欧洲Youtube频道：工具大师！_117
+      - 欧洲Youtube频道：工具大师！_118
+      - 欧洲Youtube频道：工具大师！_119
+      - 欧洲Youtube频道：工具大师！_120
+      - 欧洲Youtube频道：工具大师！_121
+      - 欧洲Youtube频道：工具大师！_122
+      - 欧洲Youtube频道：工具大师！_123
+      - 欧洲Youtube频道：工具大师！_124
+      - 欧洲Youtube频道：工具大师！_125
+      - 欧洲Youtube频道：工具大师！_126
+      - 欧洲Youtube频道：工具大师！_127
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 阿伟科技-油管Pool_🇭🇰HK_618
-      - 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_301
-      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_356
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_361
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_397
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412_8
-      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_399
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_360
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2233
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2252
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2257
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2259
-      - 阿伟科技-油管🇨🇳 CN_101
-      - 阿伟科技-油管🇨🇳 CN_105
-      - 阿伟科技-油管🇨🇳 CN_108
-      - 阿伟科技-油管🇨🇳 CN_110
-      - 阿伟科技-油管🇨🇳 CN_33
-      - 阿伟科技-油管🇨🇳 CN_34
-      - 阿伟科技-油管🇨🇳 CN_40
-      - 阿伟科技-油管🇨🇳 CN_60
-      - 阿伟科技-油管🇨🇳 CN_68
-      - 阿伟科技-油管🇨🇳 CN_70
-      - 阿伟科技-油管🇨🇳 CN_71
-      - 阿伟科技-油管🇨🇳 CN_77
-      - 阿伟科技-油管🇨🇳 CN_78
-      - 阿伟科技-油管🇨🇳 CN_80
-      - 阿伟科技-油管🇨🇳 CN_84
-      - 阿伟科技-油管🇨🇳 CN_86
-      - 阿伟科技-油管🇨🇳 CN_88
-      - 阿伟科技-油管🇨🇳 CN_90
-      - 阿伟科技-油管🇨🇳 CN_98
-      - 阿伟科技-油管🇩🇪+DE_112
-      - 阿伟科技-油管🇩🇪+DE_113
-      - 阿伟科技-油管🇬🇧 GB_128
-      - 阿伟科技-油管🇬🇧GB_549
-      - 阿伟科技-油管🇭🇰+HK_131
-      - 阿伟科技-油管🇭🇰+HK_132
-      - 阿伟科技-油管🇮🇳IN_667
-      - 阿伟科技-油管🇮🇳IN_669
-      - 阿伟科技-油管🇮🇳IN_672
-      - 阿伟科技-油管🇺🇸+US_186
-      - 阿伟科技-油管🇺🇸+US_203
-      - 阿伟科技-油管🇺🇸US_1138
-      - 阿伟科技-油管🇺🇸US_1150
-      - 阿伟科技-油管🇺🇸US_1156
-      - 阿伟科技-油管🇺🇸US_1194
-      - 阿伟科技-油管🇺🇸US_1201
-      - 阿伟科技-油管🇺🇸US_1258
-      - 阿伟科技-油管🇺🇸US_1271
-      - 阿伟科技-油管🇺🇸US_1285
-      - 阿伟科技-油管🇺🇸US_1306
-      - 阿伟科技-油管🇺🇸US_1308
-      - 阿伟科技-油管🇺🇸US_1384
-      - 阿伟科技-油管🇺🇸US_1475
-      - 阿伟科技-油管🇺🇸US_1476
-      - 阿伟科技-油管🇺🇸US_1519
-      - 阿伟科技-油管🇺🇸US_1559
-      - 阿伟科技-油管🇺🇸US_1574
-      - 阿伟科技-油管🇺🇸US_1626
-      - 阿伟科技-油管🇺🇸US_1627
-      - 阿伟科技-油管🇺🇸US_1629
-      - 阿伟科技-油管🇺🇸US_1643
-      - 阿伟科技-油管🇺🇸US_1665
-      - 阿伟科技-油管🇺🇸US_1696
-      - 阿伟科技-油管🇺🇸US_1841
-      - 阿伟科技-油管🏁+ZZ_227
-      - 阿伟科技-油管🏁+ZZ_229
-      - 阿伟科技-油管🏁+ZZ_230
-      - 阿伟科技-油管🏁+ZZ_238
-      - 阿伟科技-油管🏁+ZZ_240
-      - 阿伟科技-油管🏁+ZZ_241
-      - 阿伟科技-油管🏁+ZZ_242
-      - 阿伟科技-油管🏁ZZ_2275
-      - 阿伟科技-油管🏁ZZ_2287
-      - 阿伟科技-油管🏁ZZ_2400
+      - 法国Youtube频道：工具大师！_1
+      - 美国+🇺🇸Youtube频道：工具大师！_2
+      - JPYoutube频道：工具大师！_3
+      - 🇺🇸US美国Youtube频道：工具大师！_4
+      - 🇯🇵JPYoutube频道：工具大师！_5
+      - 🇺🇸+USYoutube频道：工具大师！_6
+      - 🇸🇬SGYoutube频道：工具大师！_7
+      - 🇺🇸USYoutube频道：工具大师！_8
+      - 🇺🇸USYoutube频道：工具大师！_9
+      - 🇺🇸USYoutube频道：工具大师！_10
+      - 俄罗斯Youtube频道：工具大师！_11
+      - 加拿大+🇨🇦Youtube频道：工具大师！_12
+      - 🇭🇰+HKYoutube频道：工具大师！_13
+      - 🇺🇸USYoutube频道：工具大师！_14
+      - 🇺🇸USYoutube频道：工具大师！_15
+      - 🇺🇸USYoutube频道：工具大师！_16
+      - 🇺🇸USYoutube频道：工具大师！_17
+      - 🇺🇸USYoutube频道：工具大师！_18
+      - 挪威+🇳🇴Youtube频道：工具大师！_19
+      - 🇺🇸USYoutube频道：工具大师！_20
+      - 🇺🇸USYoutube频道：工具大师！_21
+      - 加拿大+🇨🇦Youtube频道：工具大师！_22
+      - 🇺🇸USYoutube频道：工具大师！_23
+      - 🇺🇸USYoutube频道：工具大师！_24
+      - 德国 🇩🇪Youtube频道：工具大师！_25
+      - 加拿大+🇨🇦Youtube频道：工具大师！_26
+      - 🇺🇸USYoutube频道：工具大师！_27
+      - 🇺🇸USYoutube频道：工具大师！_28
+      - 🇺🇸USYoutube频道：工具大师！_29
+      - 🇺🇸USYoutube频道：工具大师！_30
+      - 🇺🇸USYoutube频道：工具大师！_31
+      - 🇺🇸USYoutube频道：工具大师！_32
+      - 🇺🇸USYoutube频道：工具大师！_33
+      - 加拿大+🇨🇦Youtube频道：工具大师！_34
+      - 🇸🇬SGYoutube频道：工具大师！_35
+      - 🇺🇸USYoutube频道：工具大师！_36
+      - 🇺🇸USYoutube频道：工具大师！_37
+      - 🇺🇸USYoutube频道：工具大师！_38
+      - 加拿大+🇨🇦Youtube频道：工具大师！_39
+      - 🇺🇸USYoutube频道：工具大师！_40
+      - 🇬🇧GBYoutube频道：工具大师！_41
+      - 加拿大+🇨🇦Youtube频道：工具大师！_42
+      - 🇺🇸USYoutube频道：工具大师！_43
+      - 🇭🇰 HKYoutube频道：工具大师！_44
+      - 🇺🇸USYoutube频道：工具大师！_45
+      - 🇺🇸US美国Youtube频道：工具大师！_46
+      - 德国Youtube频道：工具大师！_47
+      - 🇭🇰 HKYoutube频道：工具大师！_48
+      - 加拿大+🇨🇦Youtube频道：工具大师！_49
+      - 🇺🇸USYoutube频道：工具大师！_50
+      - 🇺🇸USYoutube频道：工具大师！_51
+      - 瑞典Youtube频道：工具大师！_52
+      - 🇦🇺_AUYoutube频道：工具大师！_53
+      - 加拿大+🇨🇦Youtube频道：工具大师！_54
+      - 加拿大+🇨🇦Youtube频道：工具大师！_55
+      - 🇺🇸USYoutube频道：工具大师！_56
+      - 🇺🇸USYoutube频道：工具大师！_57
+      - 法国Youtube频道：工具大师！_58
+      - 🇺🇸USYoutube频道：工具大师！_59
+      - 🇺🇸USYoutube频道：工具大师！_60
+      - 🇺🇸USYoutube频道：工具大师！_61
+      - 🇺🇸USYoutube频道：工具大师！_62
+      - 🇺🇸USYoutube频道：工具大师！_63
+      - 🇺🇸USYoutube频道：工具大师！_64
+      - 法国Youtube频道：工具大师！_65
+      - 🇺🇸USYoutube频道：工具大师！_66
+      - 🇺🇸USYoutube频道：工具大师！_67
+      - 加拿大+🇨🇦Youtube频道：工具大师！_68
+      - 🇸🇬SGYoutube频道：工具大师！_69
+      - 加拿大+🇨🇦Youtube频道：工具大师！_70
+      - 加拿大+🇨🇦Youtube频道：工具大师！_71
+      - 🇺🇸USYoutube频道：工具大师！_72
+      - 🇺🇸USYoutube频道：工具大师！_73
+      - 加拿大+🇨🇦Youtube频道：工具大师！_74
+      - 美国Youtube频道：工具大师！_75
+      - 🇭🇰 HKYoutube频道：工具大师！_76
+      - 挪威+🇳🇴Youtube频道：工具大师！_77
+      - 技术分享室整理欢迎订阅_78
+      - 加拿大+🇨🇦Youtube频道：工具大师！_79
+      - 加拿大+🇨🇦Youtube频道：工具大师！_80
+      - 加拿大+🇨🇦Youtube频道：工具大师！_81
+      - FRYoutube频道：工具大师！_82
+      - 🇺🇸USYoutube频道：工具大师！_83
+      - 挪威Youtube频道：工具大师！_84
+      - 🇭🇰 HKYoutube频道：工具大师！_85
+      - 🇭🇰 HKYoutube频道：工具大师！_86
+      - 俄罗斯Youtube频道：工具大师！_87
+      - 俄罗斯Youtube频道：工具大师！_88
+      - 🇺🇸USYoutube频道：工具大师！_89
+      - 加拿大+🇨🇦Youtube频道：工具大师！_90
+      - 🇺🇸Youtube频道：工具大师！_91
+      - 美国Youtube频道：工具大师！_92
+      - 🇺🇸US美国Youtube频道：工具大师！_93
+      - 澳大利亚 🇦🇺Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 🇺🇸USYoutube频道：工具大师！_96
+      - 🇺🇸USYoutube频道：工具大师！_97
+      - 🇺🇸US美国Youtube频道：工具大师！_98
+      - 🇺🇸USYoutube频道：工具大师！_99
+      - 🇺🇸US美国Youtube频道：工具大师！_100
+      - 🇫🇷Youtube频道：工具大师！_101
+      - 加拿大🇨🇦Youtube频道：工具大师！_102
+      - 加拿大+🇨🇦Youtube频道：工具大师！_103
+      - 英国+🇬🇧Youtube频道：工具大师！_104
+      - 🇺🇸Youtube频道：工具大师！_105
+      - 🇭🇰 HKYoutube频道：工具大师！_106
+      - 🇭🇰 HKYoutube频道：工具大师！_107
+      - 新加坡Youtube频道：工具大师！_108
+      - 台湾Youtube频道：工具大师！_109
+      - 美国Youtube频道：工具大师！_110
+      - 美国Youtube频道：工具大师！_111
+      - 欧洲Youtube频道：工具大师！_112
+      - 欧洲Youtube频道：工具大师！_113
+      - 欧洲Youtube频道：工具大师！_114
+      - 欧洲Youtube频道：工具大师！_115
+      - 欧洲Youtube频道：工具大师！_116
+      - 欧洲Youtube频道：工具大师！_117
+      - 欧洲Youtube频道：工具大师！_118
+      - 欧洲Youtube频道：工具大师！_119
+      - 欧洲Youtube频道：工具大师！_120
+      - 欧洲Youtube频道：工具大师！_121
+      - 欧洲Youtube频道：工具大师！_122
+      - 欧洲Youtube频道：工具大师！_123
+      - 欧洲Youtube频道：工具大师！_124
+      - 欧洲Youtube频道：工具大师！_125
+      - 欧洲Youtube频道：工具大师！_126
+      - 欧洲Youtube频道：工具大师！_127
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 阿伟科技-油管Pool_🇭🇰HK_618
-      - 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_301
-      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_356
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_361
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_397
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412_8
-      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_399
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_360
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2233
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2252
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2257
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2259
-      - 阿伟科技-油管🇨🇳 CN_101
-      - 阿伟科技-油管🇨🇳 CN_105
-      - 阿伟科技-油管🇨🇳 CN_108
-      - 阿伟科技-油管🇨🇳 CN_110
-      - 阿伟科技-油管🇨🇳 CN_33
-      - 阿伟科技-油管🇨🇳 CN_34
-      - 阿伟科技-油管🇨🇳 CN_40
-      - 阿伟科技-油管🇨🇳 CN_60
-      - 阿伟科技-油管🇨🇳 CN_68
-      - 阿伟科技-油管🇨🇳 CN_70
-      - 阿伟科技-油管🇨🇳 CN_71
-      - 阿伟科技-油管🇨🇳 CN_77
-      - 阿伟科技-油管🇨🇳 CN_78
-      - 阿伟科技-油管🇨🇳 CN_80
-      - 阿伟科技-油管🇨🇳 CN_84
-      - 阿伟科技-油管🇨🇳 CN_86
-      - 阿伟科技-油管🇨🇳 CN_88
-      - 阿伟科技-油管🇨🇳 CN_90
-      - 阿伟科技-油管🇨🇳 CN_98
-      - 阿伟科技-油管🇩🇪+DE_112
-      - 阿伟科技-油管🇩🇪+DE_113
-      - 阿伟科技-油管🇬🇧 GB_128
-      - 阿伟科技-油管🇬🇧GB_549
-      - 阿伟科技-油管🇭🇰+HK_131
-      - 阿伟科技-油管🇭🇰+HK_132
-      - 阿伟科技-油管🇮🇳IN_667
-      - 阿伟科技-油管🇮🇳IN_669
-      - 阿伟科技-油管🇮🇳IN_672
-      - 阿伟科技-油管🇺🇸+US_186
-      - 阿伟科技-油管🇺🇸+US_203
-      - 阿伟科技-油管🇺🇸US_1138
-      - 阿伟科技-油管🇺🇸US_1150
-      - 阿伟科技-油管🇺🇸US_1156
-      - 阿伟科技-油管🇺🇸US_1194
-      - 阿伟科技-油管🇺🇸US_1201
-      - 阿伟科技-油管🇺🇸US_1258
-      - 阿伟科技-油管🇺🇸US_1271
-      - 阿伟科技-油管🇺🇸US_1285
-      - 阿伟科技-油管🇺🇸US_1306
-      - 阿伟科技-油管🇺🇸US_1308
-      - 阿伟科技-油管🇺🇸US_1384
-      - 阿伟科技-油管🇺🇸US_1475
-      - 阿伟科技-油管🇺🇸US_1476
-      - 阿伟科技-油管🇺🇸US_1519
-      - 阿伟科技-油管🇺🇸US_1559
-      - 阿伟科技-油管🇺🇸US_1574
-      - 阿伟科技-油管🇺🇸US_1626
-      - 阿伟科技-油管🇺🇸US_1627
-      - 阿伟科技-油管🇺🇸US_1629
-      - 阿伟科技-油管🇺🇸US_1643
-      - 阿伟科技-油管🇺🇸US_1665
-      - 阿伟科技-油管🇺🇸US_1696
-      - 阿伟科技-油管🇺🇸US_1841
-      - 阿伟科技-油管🏁+ZZ_227
-      - 阿伟科技-油管🏁+ZZ_229
-      - 阿伟科技-油管🏁+ZZ_230
-      - 阿伟科技-油管🏁+ZZ_238
-      - 阿伟科技-油管🏁+ZZ_240
-      - 阿伟科技-油管🏁+ZZ_241
-      - 阿伟科技-油管🏁+ZZ_242
-      - 阿伟科技-油管🏁ZZ_2275
-      - 阿伟科技-油管🏁ZZ_2287
-      - 阿伟科技-油管🏁ZZ_2400
+      - 法国Youtube频道：工具大师！_1
+      - 美国+🇺🇸Youtube频道：工具大师！_2
+      - JPYoutube频道：工具大师！_3
+      - 🇺🇸US美国Youtube频道：工具大师！_4
+      - 🇯🇵JPYoutube频道：工具大师！_5
+      - 🇺🇸+USYoutube频道：工具大师！_6
+      - 🇸🇬SGYoutube频道：工具大师！_7
+      - 🇺🇸USYoutube频道：工具大师！_8
+      - 🇺🇸USYoutube频道：工具大师！_9
+      - 🇺🇸USYoutube频道：工具大师！_10
+      - 俄罗斯Youtube频道：工具大师！_11
+      - 加拿大+🇨🇦Youtube频道：工具大师！_12
+      - 🇭🇰+HKYoutube频道：工具大师！_13
+      - 🇺🇸USYoutube频道：工具大师！_14
+      - 🇺🇸USYoutube频道：工具大师！_15
+      - 🇺🇸USYoutube频道：工具大师！_16
+      - 🇺🇸USYoutube频道：工具大师！_17
+      - 🇺🇸USYoutube频道：工具大师！_18
+      - 挪威+🇳🇴Youtube频道：工具大师！_19
+      - 🇺🇸USYoutube频道：工具大师！_20
+      - 🇺🇸USYoutube频道：工具大师！_21
+      - 加拿大+🇨🇦Youtube频道：工具大师！_22
+      - 🇺🇸USYoutube频道：工具大师！_23
+      - 🇺🇸USYoutube频道：工具大师！_24
+      - 德国 🇩🇪Youtube频道：工具大师！_25
+      - 加拿大+🇨🇦Youtube频道：工具大师！_26
+      - 🇺🇸USYoutube频道：工具大师！_27
+      - 🇺🇸USYoutube频道：工具大师！_28
+      - 🇺🇸USYoutube频道：工具大师！_29
+      - 🇺🇸USYoutube频道：工具大师！_30
+      - 🇺🇸USYoutube频道：工具大师！_31
+      - 🇺🇸USYoutube频道：工具大师！_32
+      - 🇺🇸USYoutube频道：工具大师！_33
+      - 加拿大+🇨🇦Youtube频道：工具大师！_34
+      - 🇸🇬SGYoutube频道：工具大师！_35
+      - 🇺🇸USYoutube频道：工具大师！_36
+      - 🇺🇸USYoutube频道：工具大师！_37
+      - 🇺🇸USYoutube频道：工具大师！_38
+      - 加拿大+🇨🇦Youtube频道：工具大师！_39
+      - 🇺🇸USYoutube频道：工具大师！_40
+      - 🇬🇧GBYoutube频道：工具大师！_41
+      - 加拿大+🇨🇦Youtube频道：工具大师！_42
+      - 🇺🇸USYoutube频道：工具大师！_43
+      - 🇭🇰 HKYoutube频道：工具大师！_44
+      - 🇺🇸USYoutube频道：工具大师！_45
+      - 🇺🇸US美国Youtube频道：工具大师！_46
+      - 德国Youtube频道：工具大师！_47
+      - 🇭🇰 HKYoutube频道：工具大师！_48
+      - 加拿大+🇨🇦Youtube频道：工具大师！_49
+      - 🇺🇸USYoutube频道：工具大师！_50
+      - 🇺🇸USYoutube频道：工具大师！_51
+      - 瑞典Youtube频道：工具大师！_52
+      - 🇦🇺_AUYoutube频道：工具大师！_53
+      - 加拿大+🇨🇦Youtube频道：工具大师！_54
+      - 加拿大+🇨🇦Youtube频道：工具大师！_55
+      - 🇺🇸USYoutube频道：工具大师！_56
+      - 🇺🇸USYoutube频道：工具大师！_57
+      - 法国Youtube频道：工具大师！_58
+      - 🇺🇸USYoutube频道：工具大师！_59
+      - 🇺🇸USYoutube频道：工具大师！_60
+      - 🇺🇸USYoutube频道：工具大师！_61
+      - 🇺🇸USYoutube频道：工具大师！_62
+      - 🇺🇸USYoutube频道：工具大师！_63
+      - 🇺🇸USYoutube频道：工具大师！_64
+      - 法国Youtube频道：工具大师！_65
+      - 🇺🇸USYoutube频道：工具大师！_66
+      - 🇺🇸USYoutube频道：工具大师！_67
+      - 加拿大+🇨🇦Youtube频道：工具大师！_68
+      - 🇸🇬SGYoutube频道：工具大师！_69
+      - 加拿大+🇨🇦Youtube频道：工具大师！_70
+      - 加拿大+🇨🇦Youtube频道：工具大师！_71
+      - 🇺🇸USYoutube频道：工具大师！_72
+      - 🇺🇸USYoutube频道：工具大师！_73
+      - 加拿大+🇨🇦Youtube频道：工具大师！_74
+      - 美国Youtube频道：工具大师！_75
+      - 🇭🇰 HKYoutube频道：工具大师！_76
+      - 挪威+🇳🇴Youtube频道：工具大师！_77
+      - 技术分享室整理欢迎订阅_78
+      - 加拿大+🇨🇦Youtube频道：工具大师！_79
+      - 加拿大+🇨🇦Youtube频道：工具大师！_80
+      - 加拿大+🇨🇦Youtube频道：工具大师！_81
+      - FRYoutube频道：工具大师！_82
+      - 🇺🇸USYoutube频道：工具大师！_83
+      - 挪威Youtube频道：工具大师！_84
+      - 🇭🇰 HKYoutube频道：工具大师！_85
+      - 🇭🇰 HKYoutube频道：工具大师！_86
+      - 俄罗斯Youtube频道：工具大师！_87
+      - 俄罗斯Youtube频道：工具大师！_88
+      - 🇺🇸USYoutube频道：工具大师！_89
+      - 加拿大+🇨🇦Youtube频道：工具大师！_90
+      - 🇺🇸Youtube频道：工具大师！_91
+      - 美国Youtube频道：工具大师！_92
+      - 🇺🇸US美国Youtube频道：工具大师！_93
+      - 澳大利亚 🇦🇺Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 🇺🇸USYoutube频道：工具大师！_96
+      - 🇺🇸USYoutube频道：工具大师！_97
+      - 🇺🇸US美国Youtube频道：工具大师！_98
+      - 🇺🇸USYoutube频道：工具大师！_99
+      - 🇺🇸US美国Youtube频道：工具大师！_100
+      - 🇫🇷Youtube频道：工具大师！_101
+      - 加拿大🇨🇦Youtube频道：工具大师！_102
+      - 加拿大+🇨🇦Youtube频道：工具大师！_103
+      - 英国+🇬🇧Youtube频道：工具大师！_104
+      - 🇺🇸Youtube频道：工具大师！_105
+      - 🇭🇰 HKYoutube频道：工具大师！_106
+      - 🇭🇰 HKYoutube频道：工具大师！_107
+      - 新加坡Youtube频道：工具大师！_108
+      - 台湾Youtube频道：工具大师！_109
+      - 美国Youtube频道：工具大师！_110
+      - 美国Youtube频道：工具大师！_111
+      - 欧洲Youtube频道：工具大师！_112
+      - 欧洲Youtube频道：工具大师！_113
+      - 欧洲Youtube频道：工具大师！_114
+      - 欧洲Youtube频道：工具大师！_115
+      - 欧洲Youtube频道：工具大师！_116
+      - 欧洲Youtube频道：工具大师！_117
+      - 欧洲Youtube频道：工具大师！_118
+      - 欧洲Youtube频道：工具大师！_119
+      - 欧洲Youtube频道：工具大师！_120
+      - 欧洲Youtube频道：工具大师！_121
+      - 欧洲Youtube频道：工具大师！_122
+      - 欧洲Youtube频道：工具大师！_123
+      - 欧洲Youtube频道：工具大师！_124
+      - 欧洲Youtube频道：工具大师！_125
+      - 欧洲Youtube频道：工具大师！_126
+      - 欧洲Youtube频道：工具大师！_127
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 阿伟科技-油管Pool_🇭🇰HK_618
-      - 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_301
-      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_356
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_361
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_397
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412_8
-      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_399
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_360
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2233
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2252
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2257
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2259
-      - 阿伟科技-油管🇨🇳 CN_101
-      - 阿伟科技-油管🇨🇳 CN_105
-      - 阿伟科技-油管🇨🇳 CN_108
-      - 阿伟科技-油管🇨🇳 CN_110
-      - 阿伟科技-油管🇨🇳 CN_33
-      - 阿伟科技-油管🇨🇳 CN_34
-      - 阿伟科技-油管🇨🇳 CN_40
-      - 阿伟科技-油管🇨🇳 CN_60
-      - 阿伟科技-油管🇨🇳 CN_68
-      - 阿伟科技-油管🇨🇳 CN_70
-      - 阿伟科技-油管🇨🇳 CN_71
-      - 阿伟科技-油管🇨🇳 CN_77
-      - 阿伟科技-油管🇨🇳 CN_78
-      - 阿伟科技-油管🇨🇳 CN_80
-      - 阿伟科技-油管🇨🇳 CN_84
-      - 阿伟科技-油管🇨🇳 CN_86
-      - 阿伟科技-油管🇨🇳 CN_88
-      - 阿伟科技-油管🇨🇳 CN_90
-      - 阿伟科技-油管🇨🇳 CN_98
-      - 阿伟科技-油管🇩🇪+DE_112
-      - 阿伟科技-油管🇩🇪+DE_113
-      - 阿伟科技-油管🇬🇧 GB_128
-      - 阿伟科技-油管🇬🇧GB_549
-      - 阿伟科技-油管🇭🇰+HK_131
-      - 阿伟科技-油管🇭🇰+HK_132
-      - 阿伟科技-油管🇮🇳IN_667
-      - 阿伟科技-油管🇮🇳IN_669
-      - 阿伟科技-油管🇮🇳IN_672
-      - 阿伟科技-油管🇺🇸+US_186
-      - 阿伟科技-油管🇺🇸+US_203
-      - 阿伟科技-油管🇺🇸US_1138
-      - 阿伟科技-油管🇺🇸US_1150
-      - 阿伟科技-油管🇺🇸US_1156
-      - 阿伟科技-油管🇺🇸US_1194
-      - 阿伟科技-油管🇺🇸US_1201
-      - 阿伟科技-油管🇺🇸US_1258
-      - 阿伟科技-油管🇺🇸US_1271
-      - 阿伟科技-油管🇺🇸US_1285
-      - 阿伟科技-油管🇺🇸US_1306
-      - 阿伟科技-油管🇺🇸US_1308
-      - 阿伟科技-油管🇺🇸US_1384
-      - 阿伟科技-油管🇺🇸US_1475
-      - 阿伟科技-油管🇺🇸US_1476
-      - 阿伟科技-油管🇺🇸US_1519
-      - 阿伟科技-油管🇺🇸US_1559
-      - 阿伟科技-油管🇺🇸US_1574
-      - 阿伟科技-油管🇺🇸US_1626
-      - 阿伟科技-油管🇺🇸US_1627
-      - 阿伟科技-油管🇺🇸US_1629
-      - 阿伟科技-油管🇺🇸US_1643
-      - 阿伟科技-油管🇺🇸US_1665
-      - 阿伟科技-油管🇺🇸US_1696
-      - 阿伟科技-油管🇺🇸US_1841
-      - 阿伟科技-油管🏁+ZZ_227
-      - 阿伟科技-油管🏁+ZZ_229
-      - 阿伟科技-油管🏁+ZZ_230
-      - 阿伟科技-油管🏁+ZZ_238
-      - 阿伟科技-油管🏁+ZZ_240
-      - 阿伟科技-油管🏁+ZZ_241
-      - 阿伟科技-油管🏁+ZZ_242
-      - 阿伟科技-油管🏁ZZ_2275
-      - 阿伟科技-油管🏁ZZ_2287
-      - 阿伟科技-油管🏁ZZ_2400
+      - 法国Youtube频道：工具大师！_1
+      - 美国+🇺🇸Youtube频道：工具大师！_2
+      - JPYoutube频道：工具大师！_3
+      - 🇺🇸US美国Youtube频道：工具大师！_4
+      - 🇯🇵JPYoutube频道：工具大师！_5
+      - 🇺🇸+USYoutube频道：工具大师！_6
+      - 🇸🇬SGYoutube频道：工具大师！_7
+      - 🇺🇸USYoutube频道：工具大师！_8
+      - 🇺🇸USYoutube频道：工具大师！_9
+      - 🇺🇸USYoutube频道：工具大师！_10
+      - 俄罗斯Youtube频道：工具大师！_11
+      - 加拿大+🇨🇦Youtube频道：工具大师！_12
+      - 🇭🇰+HKYoutube频道：工具大师！_13
+      - 🇺🇸USYoutube频道：工具大师！_14
+      - 🇺🇸USYoutube频道：工具大师！_15
+      - 🇺🇸USYoutube频道：工具大师！_16
+      - 🇺🇸USYoutube频道：工具大师！_17
+      - 🇺🇸USYoutube频道：工具大师！_18
+      - 挪威+🇳🇴Youtube频道：工具大师！_19
+      - 🇺🇸USYoutube频道：工具大师！_20
+      - 🇺🇸USYoutube频道：工具大师！_21
+      - 加拿大+🇨🇦Youtube频道：工具大师！_22
+      - 🇺🇸USYoutube频道：工具大师！_23
+      - 🇺🇸USYoutube频道：工具大师！_24
+      - 德国 🇩🇪Youtube频道：工具大师！_25
+      - 加拿大+🇨🇦Youtube频道：工具大师！_26
+      - 🇺🇸USYoutube频道：工具大师！_27
+      - 🇺🇸USYoutube频道：工具大师！_28
+      - 🇺🇸USYoutube频道：工具大师！_29
+      - 🇺🇸USYoutube频道：工具大师！_30
+      - 🇺🇸USYoutube频道：工具大师！_31
+      - 🇺🇸USYoutube频道：工具大师！_32
+      - 🇺🇸USYoutube频道：工具大师！_33
+      - 加拿大+🇨🇦Youtube频道：工具大师！_34
+      - 🇸🇬SGYoutube频道：工具大师！_35
+      - 🇺🇸USYoutube频道：工具大师！_36
+      - 🇺🇸USYoutube频道：工具大师！_37
+      - 🇺🇸USYoutube频道：工具大师！_38
+      - 加拿大+🇨🇦Youtube频道：工具大师！_39
+      - 🇺🇸USYoutube频道：工具大师！_40
+      - 🇬🇧GBYoutube频道：工具大师！_41
+      - 加拿大+🇨🇦Youtube频道：工具大师！_42
+      - 🇺🇸USYoutube频道：工具大师！_43
+      - 🇭🇰 HKYoutube频道：工具大师！_44
+      - 🇺🇸USYoutube频道：工具大师！_45
+      - 🇺🇸US美国Youtube频道：工具大师！_46
+      - 德国Youtube频道：工具大师！_47
+      - 🇭🇰 HKYoutube频道：工具大师！_48
+      - 加拿大+🇨🇦Youtube频道：工具大师！_49
+      - 🇺🇸USYoutube频道：工具大师！_50
+      - 🇺🇸USYoutube频道：工具大师！_51
+      - 瑞典Youtube频道：工具大师！_52
+      - 🇦🇺_AUYoutube频道：工具大师！_53
+      - 加拿大+🇨🇦Youtube频道：工具大师！_54
+      - 加拿大+🇨🇦Youtube频道：工具大师！_55
+      - 🇺🇸USYoutube频道：工具大师！_56
+      - 🇺🇸USYoutube频道：工具大师！_57
+      - 法国Youtube频道：工具大师！_58
+      - 🇺🇸USYoutube频道：工具大师！_59
+      - 🇺🇸USYoutube频道：工具大师！_60
+      - 🇺🇸USYoutube频道：工具大师！_61
+      - 🇺🇸USYoutube频道：工具大师！_62
+      - 🇺🇸USYoutube频道：工具大师！_63
+      - 🇺🇸USYoutube频道：工具大师！_64
+      - 法国Youtube频道：工具大师！_65
+      - 🇺🇸USYoutube频道：工具大师！_66
+      - 🇺🇸USYoutube频道：工具大师！_67
+      - 加拿大+🇨🇦Youtube频道：工具大师！_68
+      - 🇸🇬SGYoutube频道：工具大师！_69
+      - 加拿大+🇨🇦Youtube频道：工具大师！_70
+      - 加拿大+🇨🇦Youtube频道：工具大师！_71
+      - 🇺🇸USYoutube频道：工具大师！_72
+      - 🇺🇸USYoutube频道：工具大师！_73
+      - 加拿大+🇨🇦Youtube频道：工具大师！_74
+      - 美国Youtube频道：工具大师！_75
+      - 🇭🇰 HKYoutube频道：工具大师！_76
+      - 挪威+🇳🇴Youtube频道：工具大师！_77
+      - 技术分享室整理欢迎订阅_78
+      - 加拿大+🇨🇦Youtube频道：工具大师！_79
+      - 加拿大+🇨🇦Youtube频道：工具大师！_80
+      - 加拿大+🇨🇦Youtube频道：工具大师！_81
+      - FRYoutube频道：工具大师！_82
+      - 🇺🇸USYoutube频道：工具大师！_83
+      - 挪威Youtube频道：工具大师！_84
+      - 🇭🇰 HKYoutube频道：工具大师！_85
+      - 🇭🇰 HKYoutube频道：工具大师！_86
+      - 俄罗斯Youtube频道：工具大师！_87
+      - 俄罗斯Youtube频道：工具大师！_88
+      - 🇺🇸USYoutube频道：工具大师！_89
+      - 加拿大+🇨🇦Youtube频道：工具大师！_90
+      - 🇺🇸Youtube频道：工具大师！_91
+      - 美国Youtube频道：工具大师！_92
+      - 🇺🇸US美国Youtube频道：工具大师！_93
+      - 澳大利亚 🇦🇺Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 🇺🇸USYoutube频道：工具大师！_96
+      - 🇺🇸USYoutube频道：工具大师！_97
+      - 🇺🇸US美国Youtube频道：工具大师！_98
+      - 🇺🇸USYoutube频道：工具大师！_99
+      - 🇺🇸US美国Youtube频道：工具大师！_100
+      - 🇫🇷Youtube频道：工具大师！_101
+      - 加拿大🇨🇦Youtube频道：工具大师！_102
+      - 加拿大+🇨🇦Youtube频道：工具大师！_103
+      - 英国+🇬🇧Youtube频道：工具大师！_104
+      - 🇺🇸Youtube频道：工具大师！_105
+      - 🇭🇰 HKYoutube频道：工具大师！_106
+      - 🇭🇰 HKYoutube频道：工具大师！_107
+      - 新加坡Youtube频道：工具大师！_108
+      - 台湾Youtube频道：工具大师！_109
+      - 美国Youtube频道：工具大师！_110
+      - 美国Youtube频道：工具大师！_111
+      - 欧洲Youtube频道：工具大师！_112
+      - 欧洲Youtube频道：工具大师！_113
+      - 欧洲Youtube频道：工具大师！_114
+      - 欧洲Youtube频道：工具大师！_115
+      - 欧洲Youtube频道：工具大师！_116
+      - 欧洲Youtube频道：工具大师！_117
+      - 欧洲Youtube频道：工具大师！_118
+      - 欧洲Youtube频道：工具大师！_119
+      - 欧洲Youtube频道：工具大师！_120
+      - 欧洲Youtube频道：工具大师！_121
+      - 欧洲Youtube频道：工具大师！_122
+      - 欧洲Youtube频道：工具大师！_123
+      - 欧洲Youtube频道：工具大师！_124
+      - 欧洲Youtube频道：工具大师！_125
+      - 欧洲Youtube频道：工具大师！_126
+      - 欧洲Youtube频道：工具大师！_127
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -666,82 +1074,133 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 阿伟科技-油管Pool_🇭🇰HK_618
-      - 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_301
-      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_356
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_361
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_397
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412
-      - 阿伟科技-油管Relay_🇨🇳CN-🇰🇷KR_412_8
-      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_399
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_360
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2233
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2252
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2257
-      - 阿伟科技-油管Relay_🇺🇸US-🇺🇸US_2259
-      - 阿伟科技-油管🇨🇳 CN_101
-      - 阿伟科技-油管🇨🇳 CN_105
-      - 阿伟科技-油管🇨🇳 CN_108
-      - 阿伟科技-油管🇨🇳 CN_110
-      - 阿伟科技-油管🇨🇳 CN_33
-      - 阿伟科技-油管🇨🇳 CN_34
-      - 阿伟科技-油管🇨🇳 CN_40
-      - 阿伟科技-油管🇨🇳 CN_60
-      - 阿伟科技-油管🇨🇳 CN_68
-      - 阿伟科技-油管🇨🇳 CN_70
-      - 阿伟科技-油管🇨🇳 CN_71
-      - 阿伟科技-油管🇨🇳 CN_77
-      - 阿伟科技-油管🇨🇳 CN_78
-      - 阿伟科技-油管🇨🇳 CN_80
-      - 阿伟科技-油管🇨🇳 CN_84
-      - 阿伟科技-油管🇨🇳 CN_86
-      - 阿伟科技-油管🇨🇳 CN_88
-      - 阿伟科技-油管🇨🇳 CN_90
-      - 阿伟科技-油管🇨🇳 CN_98
-      - 阿伟科技-油管🇩🇪+DE_112
-      - 阿伟科技-油管🇩🇪+DE_113
-      - 阿伟科技-油管🇬🇧 GB_128
-      - 阿伟科技-油管🇬🇧GB_549
-      - 阿伟科技-油管🇭🇰+HK_131
-      - 阿伟科技-油管🇭🇰+HK_132
-      - 阿伟科技-油管🇮🇳IN_667
-      - 阿伟科技-油管🇮🇳IN_669
-      - 阿伟科技-油管🇮🇳IN_672
-      - 阿伟科技-油管🇺🇸+US_186
-      - 阿伟科技-油管🇺🇸+US_203
-      - 阿伟科技-油管🇺🇸US_1138
-      - 阿伟科技-油管🇺🇸US_1150
-      - 阿伟科技-油管🇺🇸US_1156
-      - 阿伟科技-油管🇺🇸US_1194
-      - 阿伟科技-油管🇺🇸US_1201
-      - 阿伟科技-油管🇺🇸US_1258
-      - 阿伟科技-油管🇺🇸US_1271
-      - 阿伟科技-油管🇺🇸US_1285
-      - 阿伟科技-油管🇺🇸US_1306
-      - 阿伟科技-油管🇺🇸US_1308
-      - 阿伟科技-油管🇺🇸US_1384
-      - 阿伟科技-油管🇺🇸US_1475
-      - 阿伟科技-油管🇺🇸US_1476
-      - 阿伟科技-油管🇺🇸US_1519
-      - 阿伟科技-油管🇺🇸US_1559
-      - 阿伟科技-油管🇺🇸US_1574
-      - 阿伟科技-油管🇺🇸US_1626
-      - 阿伟科技-油管🇺🇸US_1627
-      - 阿伟科技-油管🇺🇸US_1629
-      - 阿伟科技-油管🇺🇸US_1643
-      - 阿伟科技-油管🇺🇸US_1665
-      - 阿伟科技-油管🇺🇸US_1696
-      - 阿伟科技-油管🇺🇸US_1841
-      - 阿伟科技-油管🏁+ZZ_227
-      - 阿伟科技-油管🏁+ZZ_229
-      - 阿伟科技-油管🏁+ZZ_230
-      - 阿伟科技-油管🏁+ZZ_238
-      - 阿伟科技-油管🏁+ZZ_240
-      - 阿伟科技-油管🏁+ZZ_241
-      - 阿伟科技-油管🏁+ZZ_242
-      - 阿伟科技-油管🏁ZZ_2275
-      - 阿伟科技-油管🏁ZZ_2287
-      - 阿伟科技-油管🏁ZZ_2400
+      - 法国Youtube频道：工具大师！_1
+      - 美国+🇺🇸Youtube频道：工具大师！_2
+      - JPYoutube频道：工具大师！_3
+      - 🇺🇸US美国Youtube频道：工具大师！_4
+      - 🇯🇵JPYoutube频道：工具大师！_5
+      - 🇺🇸+USYoutube频道：工具大师！_6
+      - 🇸🇬SGYoutube频道：工具大师！_7
+      - 🇺🇸USYoutube频道：工具大师！_8
+      - 🇺🇸USYoutube频道：工具大师！_9
+      - 🇺🇸USYoutube频道：工具大师！_10
+      - 俄罗斯Youtube频道：工具大师！_11
+      - 加拿大+🇨🇦Youtube频道：工具大师！_12
+      - 🇭🇰+HKYoutube频道：工具大师！_13
+      - 🇺🇸USYoutube频道：工具大师！_14
+      - 🇺🇸USYoutube频道：工具大师！_15
+      - 🇺🇸USYoutube频道：工具大师！_16
+      - 🇺🇸USYoutube频道：工具大师！_17
+      - 🇺🇸USYoutube频道：工具大师！_18
+      - 挪威+🇳🇴Youtube频道：工具大师！_19
+      - 🇺🇸USYoutube频道：工具大师！_20
+      - 🇺🇸USYoutube频道：工具大师！_21
+      - 加拿大+🇨🇦Youtube频道：工具大师！_22
+      - 🇺🇸USYoutube频道：工具大师！_23
+      - 🇺🇸USYoutube频道：工具大师！_24
+      - 德国 🇩🇪Youtube频道：工具大师！_25
+      - 加拿大+🇨🇦Youtube频道：工具大师！_26
+      - 🇺🇸USYoutube频道：工具大师！_27
+      - 🇺🇸USYoutube频道：工具大师！_28
+      - 🇺🇸USYoutube频道：工具大师！_29
+      - 🇺🇸USYoutube频道：工具大师！_30
+      - 🇺🇸USYoutube频道：工具大师！_31
+      - 🇺🇸USYoutube频道：工具大师！_32
+      - 🇺🇸USYoutube频道：工具大师！_33
+      - 加拿大+🇨🇦Youtube频道：工具大师！_34
+      - 🇸🇬SGYoutube频道：工具大师！_35
+      - 🇺🇸USYoutube频道：工具大师！_36
+      - 🇺🇸USYoutube频道：工具大师！_37
+      - 🇺🇸USYoutube频道：工具大师！_38
+      - 加拿大+🇨🇦Youtube频道：工具大师！_39
+      - 🇺🇸USYoutube频道：工具大师！_40
+      - 🇬🇧GBYoutube频道：工具大师！_41
+      - 加拿大+🇨🇦Youtube频道：工具大师！_42
+      - 🇺🇸USYoutube频道：工具大师！_43
+      - 🇭🇰 HKYoutube频道：工具大师！_44
+      - 🇺🇸USYoutube频道：工具大师！_45
+      - 🇺🇸US美国Youtube频道：工具大师！_46
+      - 德国Youtube频道：工具大师！_47
+      - 🇭🇰 HKYoutube频道：工具大师！_48
+      - 加拿大+🇨🇦Youtube频道：工具大师！_49
+      - 🇺🇸USYoutube频道：工具大师！_50
+      - 🇺🇸USYoutube频道：工具大师！_51
+      - 瑞典Youtube频道：工具大师！_52
+      - 🇦🇺_AUYoutube频道：工具大师！_53
+      - 加拿大+🇨🇦Youtube频道：工具大师！_54
+      - 加拿大+🇨🇦Youtube频道：工具大师！_55
+      - 🇺🇸USYoutube频道：工具大师！_56
+      - 🇺🇸USYoutube频道：工具大师！_57
+      - 法国Youtube频道：工具大师！_58
+      - 🇺🇸USYoutube频道：工具大师！_59
+      - 🇺🇸USYoutube频道：工具大师！_60
+      - 🇺🇸USYoutube频道：工具大师！_61
+      - 🇺🇸USYoutube频道：工具大师！_62
+      - 🇺🇸USYoutube频道：工具大师！_63
+      - 🇺🇸USYoutube频道：工具大师！_64
+      - 法国Youtube频道：工具大师！_65
+      - 🇺🇸USYoutube频道：工具大师！_66
+      - 🇺🇸USYoutube频道：工具大师！_67
+      - 加拿大+🇨🇦Youtube频道：工具大师！_68
+      - 🇸🇬SGYoutube频道：工具大师！_69
+      - 加拿大+🇨🇦Youtube频道：工具大师！_70
+      - 加拿大+🇨🇦Youtube频道：工具大师！_71
+      - 🇺🇸USYoutube频道：工具大师！_72
+      - 🇺🇸USYoutube频道：工具大师！_73
+      - 加拿大+🇨🇦Youtube频道：工具大师！_74
+      - 美国Youtube频道：工具大师！_75
+      - 🇭🇰 HKYoutube频道：工具大师！_76
+      - 挪威+🇳🇴Youtube频道：工具大师！_77
+      - 技术分享室整理欢迎订阅_78
+      - 加拿大+🇨🇦Youtube频道：工具大师！_79
+      - 加拿大+🇨🇦Youtube频道：工具大师！_80
+      - 加拿大+🇨🇦Youtube频道：工具大师！_81
+      - FRYoutube频道：工具大师！_82
+      - 🇺🇸USYoutube频道：工具大师！_83
+      - 挪威Youtube频道：工具大师！_84
+      - 🇭🇰 HKYoutube频道：工具大师！_85
+      - 🇭🇰 HKYoutube频道：工具大师！_86
+      - 俄罗斯Youtube频道：工具大师！_87
+      - 俄罗斯Youtube频道：工具大师！_88
+      - 🇺🇸USYoutube频道：工具大师！_89
+      - 加拿大+🇨🇦Youtube频道：工具大师！_90
+      - 🇺🇸Youtube频道：工具大师！_91
+      - 美国Youtube频道：工具大师！_92
+      - 🇺🇸US美国Youtube频道：工具大师！_93
+      - 澳大利亚 🇦🇺Youtube频道：工具大师！_94
+      - 德国+🇩🇪Youtube频道：工具大师！_95
+      - 🇺🇸USYoutube频道：工具大师！_96
+      - 🇺🇸USYoutube频道：工具大师！_97
+      - 🇺🇸US美国Youtube频道：工具大师！_98
+      - 🇺🇸USYoutube频道：工具大师！_99
+      - 🇺🇸US美国Youtube频道：工具大师！_100
+      - 🇫🇷Youtube频道：工具大师！_101
+      - 加拿大🇨🇦Youtube频道：工具大师！_102
+      - 加拿大+🇨🇦Youtube频道：工具大师！_103
+      - 英国+🇬🇧Youtube频道：工具大师！_104
+      - 🇺🇸Youtube频道：工具大师！_105
+      - 🇭🇰 HKYoutube频道：工具大师！_106
+      - 🇭🇰 HKYoutube频道：工具大师！_107
+      - 新加坡Youtube频道：工具大师！_108
+      - 台湾Youtube频道：工具大师！_109
+      - 美国Youtube频道：工具大师！_110
+      - 美国Youtube频道：工具大师！_111
+      - 欧洲Youtube频道：工具大师！_112
+      - 欧洲Youtube频道：工具大师！_113
+      - 欧洲Youtube频道：工具大师！_114
+      - 欧洲Youtube频道：工具大师！_115
+      - 欧洲Youtube频道：工具大师！_116
+      - 欧洲Youtube频道：工具大师！_117
+      - 欧洲Youtube频道：工具大师！_118
+      - 欧洲Youtube频道：工具大师！_119
+      - 欧洲Youtube频道：工具大师！_120
+      - 欧洲Youtube频道：工具大师！_121
+      - 欧洲Youtube频道：工具大师！_122
+      - 欧洲Youtube频道：工具大师！_123
+      - 欧洲Youtube频道：工具大师！_124
+      - 欧洲Youtube频道：工具大师！_125
+      - 欧洲Youtube频道：工具大师！_126
+      - 欧洲Youtube频道：工具大师！_127
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
