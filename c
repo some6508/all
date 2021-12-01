@@ -5,7 +5,166 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇭🇰_HK_香港_1', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇭🇰_HK_香港_1', server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
+  - {name: '🇰🇷_KR_韩国_2', server: kr2.futi.online, port: 2053, type: vmess, uuid: fec5fd62-56e7-431a-99b3-c1f76c5cbe8d, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_3', server: us.tcpbbr.net, port: 5329, type: vmess, uuid: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, alterId: 2, cipher: auto, tls: true, network: tcp, ws-path: /}
+  - {name: 'default_name_4', server: 104.17.8.150, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 'default_name_5', server: 104.17.5.133, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 'default_name_6', server: 104.17.81.198, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: '🇺🇸_US_美国_7', server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_8', server: 104.26.5.238, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_9', server: 104.25.1.66, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_10', server: 172.67.112.66, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_11', server: 104.27.13.49, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_12', server: 104.25.238.45, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_13', server: 172.64.92.89, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_14', server: 104.24.211.83, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_15', server: 104.18.135.208, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_16', server: 104.25.218.239, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_17', server: www.digitalocean.com, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_18', server: 104.24.221.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_19', server: 104.21.100.150, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_20', server: 104.18.8.157, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_21', server: 104.25.8.113, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_22', server: 172.67.88.37, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_23', server: 104.18.253.38, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_24', server: 104.24.177.224, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_25', server: 104.16.181.15, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_26', server: 104.27.104.114, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_27', server: 104.24.144.175, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_28', server: 104.24.138.229, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_29', server: 104.16.149.48, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_30', server: 162.159.236.214, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_31', server: 104.27.111.95, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_32', server: 162.159.231.145, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_33', server: 104.20.81.240, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_34', server: 104.19.238.59, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_35', server: 104.24.64.213, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_36', server: 104.27.7.50, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_37', server: 104.27.21.180, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_38', server: 104.21.201.210, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_39', server: 104.24.158.46, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_40', server: 104.25.46.190, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_41', server: 104.25.230.73, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_42', server: 104.25.101.17, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_43', server: 104.24.177.248, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_44', server: 104.24.45.194, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_45', server: 104.19.255.219, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_46', server: 104.27.116.30, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_47', server: 104.25.187.6, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_48', server: 104.25.143.16, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_49', server: 104.24.92.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_50', server: 104.24.191.139, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_51', server: 172.67.126.218, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_52', server: 172.67.117.187, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_53', server: 104.21.222.154, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_54', server: 172.67.77.167, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_55', server: 104.24.75.233, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_56', server: 104.22.3.3, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_57', server: 172.67.69.36, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_58', server: 104.25.175.69, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_59', server: 104.24.37.215, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_60', server: 104.17.98.24, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_61', server: 104.25.167.220, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_62', server: 104.25.95.58, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_63', server: 162.159.224.228, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_64', server: 104.25.151.100, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_65', server: 104.27.4.107, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_66', server: 104.25.185.232, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_67', server: 162.159.238.197, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_68', server: 104.24.188.46, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_69', server: 104.22.44.50, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_70', server: 104.24.233.209, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_71', server: 104.27.83.211, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_72', server: 104.24.142.163, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_73', server: 172.67.70.171, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_74', server: 104.21.97.139, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_75', server: 172.67.233.140, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_76', server: 104.26.6.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_77', server: 172.67.119.121, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_78', server: 104.24.194.56, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_79', server: 104.18.1.240, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_80', server: 104.24.134.244, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_81', server: 104.22.6.49, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_82', server: 172.67.80.167, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国_83', server: viibah6u.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: viibah6u.com}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_84', server: 104.24.11.165, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_85', server: 104.25.233.98, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_86', server: 104.21.235.84, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_87', server: 104.24.88.81, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_88', server: 104.26.1.83, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_89', server: 104.25.8.70, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_90', server: 104.24.162.181, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_91', server: 172.67.114.2, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_92', server: 104.20.60.210, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_93', server: 104.25.171.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_94', server: 104.24.94.29, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_95', server: 104.25.241.136, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_96', server: 104.21.219.67, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_97', server: 104.21.206.130, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_98', server: 104.17.36.178, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_99', server: 104.25.102.154, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_100', server: 104.19.106.30, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_101', server: 104.24.92.41, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_102', server: 104.27.207.113, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_103', server: 104.19.23.24, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_104', server: 172.67.126.56, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_105', server: 104.17.5.109, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_106', server: www.garmin.com, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_107', server: 172.67.232.19, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_108', server: 104.25.6.166, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_109', server: 104.26.7.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_110', server: 104.16.166.137, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_111', server: 104.24.75.54, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_112', server: 104.27.45.197, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_113', server: 104.18.9.18, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_114', server: 104.24.210.64, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_115', server: 104.25.59.120, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_116', server: 172.67.106.0, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_117', server: 104.25.255.229, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_118', server: 104.25.14.160, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_119', server: 104.17.134.136, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_120', server: 104.27.77.8, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_121', server: 104.24.92.7, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_122', server: 104.25.63.18, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_123', server: 104.25.63.88, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_124', server: 104.27.76.9, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇦🇺_AU_澳大利亚->🇩🇪_DE_德国_125', server: 1.0.0.0, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_126', server: 104.25.235.250, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_127', server: 104.25.242.214, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_128', server: 104.24.0.168, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_129', server: 104.18.75.162, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_130', server: 104.21.207.243, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_131', server: 104.17.46.56, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_132', server: 104.25.251.211, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_133', server: 104.26.12.122, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_134', server: 104.24.26.55, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国_135', server: usa-lasvegas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-lasvegas.lvuft.com}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_136', server: 104.24.8.18, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_137', server: 172.67.101.45, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_138', server: 104.19.111.88, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_139', server: 104.24.228.175, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_140', server: 104.25.148.216, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_141', server: 162.159.137.143, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_142', server: 104.16.167.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_143', server: 104.16.16.255, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_144', server: 104.24.162.183, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_145', server: 104.27.26.202, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_146', server: 104.27.194.98, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_147', server: 104.25.82.205, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_148', server: 104.25.104.240, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_149', server: 104.21.221.156, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_150', server: 104.21.239.147, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_151', server: 104.25.70.235, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_152', server: 104.25.71.202, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_153', server: 104.25.150.169, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_154', server: 104.27.102.4, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇫🇷_FR_法国_155', server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: uk2.v2rayserv.com}}
+  - {name: 'default_name_156', server: 104.16.110.238, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_157', server: 104.24.213.91, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_158', server: 104.27.37.126, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 'default_name_159', server: 104.16.160.209, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_160', server: 104.24.254.67, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -13,12 +172,330 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_8
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_9
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_10
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_11
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_13
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_14
+      - default_name_15
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_16
+      - default_name_17
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_18
+      - default_name_19
+      - default_name_20
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_21
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_22
+      - default_name_23
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_24
+      - default_name_25
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_26
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_27
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_28
+      - default_name_29
+      - default_name_30
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_31
+      - default_name_32
+      - default_name_33
+      - default_name_34
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_35
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_36
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_37
+      - default_name_38
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_39
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_40
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_41
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_42
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_44
+      - default_name_45
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_48
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_49
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_50
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_52
+      - default_name_53
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_54
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_55
+      - default_name_56
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_57
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_58
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_59
+      - default_name_60
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_61
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_62
+      - default_name_63
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_64
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_65
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_66
+      - default_name_67
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_68
+      - default_name_69
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_70
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_71
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_72
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_73
+      - default_name_74
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_75
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_76
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_78
+      - default_name_79
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_80
+      - default_name_81
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_84
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_85
+      - default_name_86
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_87
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_88
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_89
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_90
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_91
+      - default_name_92
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_93
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_94
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_95
+      - default_name_96
+      - default_name_97
+      - default_name_98
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_99
+      - default_name_100
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_101
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_102
+      - default_name_103
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_104
+      - default_name_105
+      - default_name_106
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_107
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_108
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_109
+      - default_name_110
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_111
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_112
+      - default_name_113
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_114
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_115
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_116
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_118
+      - default_name_119
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_120
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_121
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_122
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_123
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_124
+      - 🇦🇺_AU_澳大利亚->🇩🇪_DE_德国_125
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_126
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_127
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_128
+      - default_name_129
+      - default_name_130
+      - default_name_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_136
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_137
+      - default_name_138
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_139
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_140
+      - default_name_141
+      - default_name_142
+      - default_name_143
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_144
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_145
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_146
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_147
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_148
+      - default_name_149
+      - default_name_150
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_151
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_152
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_153
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_154
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_155
+      - default_name_156
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_157
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_158
+      - default_name_159
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_160
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_8
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_9
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_10
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_11
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_13
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_14
+      - default_name_15
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_16
+      - default_name_17
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_18
+      - default_name_19
+      - default_name_20
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_21
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_22
+      - default_name_23
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_24
+      - default_name_25
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_26
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_27
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_28
+      - default_name_29
+      - default_name_30
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_31
+      - default_name_32
+      - default_name_33
+      - default_name_34
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_35
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_36
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_37
+      - default_name_38
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_39
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_40
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_41
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_42
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_44
+      - default_name_45
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_48
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_49
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_50
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_52
+      - default_name_53
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_54
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_55
+      - default_name_56
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_57
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_58
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_59
+      - default_name_60
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_61
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_62
+      - default_name_63
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_64
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_65
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_66
+      - default_name_67
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_68
+      - default_name_69
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_70
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_71
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_72
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_73
+      - default_name_74
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_75
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_76
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_78
+      - default_name_79
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_80
+      - default_name_81
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_84
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_85
+      - default_name_86
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_87
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_88
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_89
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_90
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_91
+      - default_name_92
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_93
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_94
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_95
+      - default_name_96
+      - default_name_97
+      - default_name_98
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_99
+      - default_name_100
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_101
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_102
+      - default_name_103
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_104
+      - default_name_105
+      - default_name_106
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_107
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_108
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_109
+      - default_name_110
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_111
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_112
+      - default_name_113
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_114
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_115
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_116
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_118
+      - default_name_119
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_120
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_121
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_122
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_123
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_124
+      - 🇦🇺_AU_澳大利亚->🇩🇪_DE_德国_125
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_126
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_127
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_128
+      - default_name_129
+      - default_name_130
+      - default_name_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_136
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_137
+      - default_name_138
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_139
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_140
+      - default_name_141
+      - default_name_142
+      - default_name_143
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_144
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_145
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_146
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_147
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_148
+      - default_name_149
+      - default_name_150
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_151
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_152
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_153
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_154
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_155
+      - default_name_156
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_157
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_158
+      - default_name_159
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_160
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -26,24 +503,660 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_8
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_9
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_10
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_11
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_13
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_14
+      - default_name_15
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_16
+      - default_name_17
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_18
+      - default_name_19
+      - default_name_20
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_21
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_22
+      - default_name_23
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_24
+      - default_name_25
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_26
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_27
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_28
+      - default_name_29
+      - default_name_30
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_31
+      - default_name_32
+      - default_name_33
+      - default_name_34
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_35
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_36
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_37
+      - default_name_38
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_39
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_40
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_41
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_42
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_44
+      - default_name_45
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_48
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_49
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_50
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_52
+      - default_name_53
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_54
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_55
+      - default_name_56
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_57
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_58
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_59
+      - default_name_60
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_61
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_62
+      - default_name_63
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_64
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_65
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_66
+      - default_name_67
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_68
+      - default_name_69
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_70
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_71
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_72
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_73
+      - default_name_74
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_75
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_76
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_78
+      - default_name_79
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_80
+      - default_name_81
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_84
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_85
+      - default_name_86
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_87
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_88
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_89
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_90
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_91
+      - default_name_92
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_93
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_94
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_95
+      - default_name_96
+      - default_name_97
+      - default_name_98
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_99
+      - default_name_100
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_101
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_102
+      - default_name_103
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_104
+      - default_name_105
+      - default_name_106
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_107
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_108
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_109
+      - default_name_110
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_111
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_112
+      - default_name_113
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_114
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_115
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_116
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_118
+      - default_name_119
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_120
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_121
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_122
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_123
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_124
+      - 🇦🇺_AU_澳大利亚->🇩🇪_DE_德国_125
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_126
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_127
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_128
+      - default_name_129
+      - default_name_130
+      - default_name_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_136
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_137
+      - default_name_138
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_139
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_140
+      - default_name_141
+      - default_name_142
+      - default_name_143
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_144
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_145
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_146
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_147
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_148
+      - default_name_149
+      - default_name_150
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_151
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_152
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_153
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_154
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_155
+      - default_name_156
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_157
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_158
+      - default_name_159
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_160
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_8
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_9
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_10
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_11
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_13
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_14
+      - default_name_15
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_16
+      - default_name_17
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_18
+      - default_name_19
+      - default_name_20
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_21
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_22
+      - default_name_23
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_24
+      - default_name_25
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_26
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_27
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_28
+      - default_name_29
+      - default_name_30
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_31
+      - default_name_32
+      - default_name_33
+      - default_name_34
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_35
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_36
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_37
+      - default_name_38
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_39
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_40
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_41
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_42
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_44
+      - default_name_45
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_48
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_49
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_50
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_52
+      - default_name_53
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_54
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_55
+      - default_name_56
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_57
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_58
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_59
+      - default_name_60
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_61
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_62
+      - default_name_63
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_64
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_65
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_66
+      - default_name_67
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_68
+      - default_name_69
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_70
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_71
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_72
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_73
+      - default_name_74
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_75
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_76
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_78
+      - default_name_79
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_80
+      - default_name_81
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_84
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_85
+      - default_name_86
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_87
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_88
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_89
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_90
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_91
+      - default_name_92
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_93
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_94
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_95
+      - default_name_96
+      - default_name_97
+      - default_name_98
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_99
+      - default_name_100
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_101
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_102
+      - default_name_103
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_104
+      - default_name_105
+      - default_name_106
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_107
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_108
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_109
+      - default_name_110
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_111
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_112
+      - default_name_113
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_114
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_115
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_116
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_118
+      - default_name_119
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_120
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_121
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_122
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_123
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_124
+      - 🇦🇺_AU_澳大利亚->🇩🇪_DE_德国_125
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_126
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_127
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_128
+      - default_name_129
+      - default_name_130
+      - default_name_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_136
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_137
+      - default_name_138
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_139
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_140
+      - default_name_141
+      - default_name_142
+      - default_name_143
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_144
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_145
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_146
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_147
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_148
+      - default_name_149
+      - default_name_150
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_151
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_152
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_153
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_154
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_155
+      - default_name_156
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_157
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_158
+      - default_name_159
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_160
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_8
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_9
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_10
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_11
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_13
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_14
+      - default_name_15
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_16
+      - default_name_17
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_18
+      - default_name_19
+      - default_name_20
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_21
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_22
+      - default_name_23
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_24
+      - default_name_25
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_26
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_27
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_28
+      - default_name_29
+      - default_name_30
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_31
+      - default_name_32
+      - default_name_33
+      - default_name_34
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_35
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_36
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_37
+      - default_name_38
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_39
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_40
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_41
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_42
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_44
+      - default_name_45
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_48
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_49
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_50
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_52
+      - default_name_53
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_54
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_55
+      - default_name_56
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_57
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_58
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_59
+      - default_name_60
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_61
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_62
+      - default_name_63
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_64
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_65
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_66
+      - default_name_67
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_68
+      - default_name_69
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_70
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_71
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_72
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_73
+      - default_name_74
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_75
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_76
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_78
+      - default_name_79
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_80
+      - default_name_81
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_84
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_85
+      - default_name_86
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_87
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_88
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_89
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_90
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_91
+      - default_name_92
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_93
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_94
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_95
+      - default_name_96
+      - default_name_97
+      - default_name_98
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_99
+      - default_name_100
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_101
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_102
+      - default_name_103
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_104
+      - default_name_105
+      - default_name_106
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_107
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_108
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_109
+      - default_name_110
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_111
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_112
+      - default_name_113
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_114
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_115
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_116
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_118
+      - default_name_119
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_120
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_121
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_122
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_123
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_124
+      - 🇦🇺_AU_澳大利亚->🇩🇪_DE_德国_125
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_126
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_127
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_128
+      - default_name_129
+      - default_name_130
+      - default_name_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_136
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_137
+      - default_name_138
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_139
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_140
+      - default_name_141
+      - default_name_142
+      - default_name_143
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_144
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_145
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_146
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_147
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_148
+      - default_name_149
+      - default_name_150
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_151
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_152
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_153
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_154
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_155
+      - default_name_156
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_157
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_158
+      - default_name_159
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_160
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_8
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_9
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_10
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_11
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_13
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_14
+      - default_name_15
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_16
+      - default_name_17
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_18
+      - default_name_19
+      - default_name_20
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_21
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_22
+      - default_name_23
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_24
+      - default_name_25
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_26
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_27
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_28
+      - default_name_29
+      - default_name_30
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_31
+      - default_name_32
+      - default_name_33
+      - default_name_34
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_35
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_36
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_37
+      - default_name_38
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_39
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_40
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_41
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_42
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_44
+      - default_name_45
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_48
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_49
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_50
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_52
+      - default_name_53
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_54
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_55
+      - default_name_56
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_57
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_58
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_59
+      - default_name_60
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_61
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_62
+      - default_name_63
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_64
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_65
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_66
+      - default_name_67
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_68
+      - default_name_69
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_70
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_71
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_72
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_73
+      - default_name_74
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_75
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_76
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_78
+      - default_name_79
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_80
+      - default_name_81
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_84
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_85
+      - default_name_86
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_87
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_88
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_89
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_90
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_91
+      - default_name_92
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_93
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_94
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_95
+      - default_name_96
+      - default_name_97
+      - default_name_98
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_99
+      - default_name_100
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_101
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_102
+      - default_name_103
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_104
+      - default_name_105
+      - default_name_106
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_107
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_108
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_109
+      - default_name_110
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_111
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_112
+      - default_name_113
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_114
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_115
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_116
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_118
+      - default_name_119
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_120
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_121
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_122
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_123
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_124
+      - 🇦🇺_AU_澳大利亚->🇩🇪_DE_德国_125
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_126
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_127
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_128
+      - default_name_129
+      - default_name_130
+      - default_name_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_136
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_137
+      - default_name_138
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_139
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_140
+      - default_name_141
+      - default_name_142
+      - default_name_143
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_144
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_145
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_146
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_147
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_148
+      - default_name_149
+      - default_name_150
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_151
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_152
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_153
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_154
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_155
+      - default_name_156
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_157
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_158
+      - default_name_159
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_160
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -51,6 +1164,165 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_8
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_9
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_10
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_11
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_13
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_14
+      - default_name_15
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_16
+      - default_name_17
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_18
+      - default_name_19
+      - default_name_20
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_21
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_22
+      - default_name_23
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_24
+      - default_name_25
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_26
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_27
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_28
+      - default_name_29
+      - default_name_30
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_31
+      - default_name_32
+      - default_name_33
+      - default_name_34
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_35
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_36
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_37
+      - default_name_38
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_39
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_40
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_41
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_42
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_44
+      - default_name_45
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_48
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_49
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_50
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_52
+      - default_name_53
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_54
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_55
+      - default_name_56
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_57
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_58
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_59
+      - default_name_60
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_61
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_62
+      - default_name_63
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_64
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_65
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_66
+      - default_name_67
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_68
+      - default_name_69
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_70
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_71
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_72
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_73
+      - default_name_74
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_75
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_76
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_78
+      - default_name_79
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_80
+      - default_name_81
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_84
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_85
+      - default_name_86
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_87
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_88
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_89
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_90
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_91
+      - default_name_92
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_93
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_94
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_95
+      - default_name_96
+      - default_name_97
+      - default_name_98
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_99
+      - default_name_100
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_101
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_102
+      - default_name_103
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_104
+      - default_name_105
+      - default_name_106
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_107
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_108
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_109
+      - default_name_110
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_111
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_112
+      - default_name_113
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_114
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_115
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_116
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_118
+      - default_name_119
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_120
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_121
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_122
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_123
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_124
+      - 🇦🇺_AU_澳大利亚->🇩🇪_DE_德国_125
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_126
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_127
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_128
+      - default_name_129
+      - default_name_130
+      - default_name_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_136
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_137
+      - default_name_138
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_139
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_140
+      - default_name_141
+      - default_name_142
+      - default_name_143
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_144
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_145
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_146
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_147
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_148
+      - default_name_149
+      - default_name_150
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_151
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_152
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_153
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_154
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_155
+      - default_name_156
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_157
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_158
+      - default_name_159
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_160
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,6 +1339,165 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_8
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_9
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_10
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_11
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_13
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_14
+      - default_name_15
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_16
+      - default_name_17
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_18
+      - default_name_19
+      - default_name_20
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_21
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_22
+      - default_name_23
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_24
+      - default_name_25
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_26
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_27
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_28
+      - default_name_29
+      - default_name_30
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_31
+      - default_name_32
+      - default_name_33
+      - default_name_34
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_35
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_36
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_37
+      - default_name_38
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_39
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_40
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_41
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_42
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_44
+      - default_name_45
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_48
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_49
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_50
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_52
+      - default_name_53
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_54
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_55
+      - default_name_56
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_57
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_58
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_59
+      - default_name_60
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_61
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_62
+      - default_name_63
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_64
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_65
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_66
+      - default_name_67
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_68
+      - default_name_69
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_70
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_71
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_72
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_73
+      - default_name_74
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_75
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_76
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_78
+      - default_name_79
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_80
+      - default_name_81
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_84
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_85
+      - default_name_86
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_87
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_88
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_89
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_90
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_91
+      - default_name_92
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_93
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_94
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_95
+      - default_name_96
+      - default_name_97
+      - default_name_98
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_99
+      - default_name_100
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_101
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_102
+      - default_name_103
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_104
+      - default_name_105
+      - default_name_106
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_107
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_108
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_109
+      - default_name_110
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_111
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_112
+      - default_name_113
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_114
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_115
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_116
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_118
+      - default_name_119
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_120
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_121
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_122
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_123
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_124
+      - 🇦🇺_AU_澳大利亚->🇩🇪_DE_德国_125
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_126
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_127
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_128
+      - default_name_129
+      - default_name_130
+      - default_name_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_136
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_137
+      - default_name_138
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_139
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_140
+      - default_name_141
+      - default_name_142
+      - default_name_143
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_144
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_145
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_146
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_147
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_148
+      - default_name_149
+      - default_name_150
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_151
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_152
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_153
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_154
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_155
+      - default_name_156
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_157
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_158
+      - default_name_159
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_160
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
