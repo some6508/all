@@ -40,6 +40,7 @@ case "$href" in
 *) echo "$href";;
 esac
 eval "`curl -sL 'https://github.com/FMYC2015/V2ray/commits' | grep -m 2 'Create '| sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'`"
-eval "`curl -sL "$href" | grep -m 1 '/blob' | sed 's|.*/blob|href="https://github.com/FMYC2015/V2ray/raw/|g; s|</a>|"|g'`"
+#eval "`curl -sL "$href" | grep -m 1 '/blob' | sed 's|.*/blob|href="https://github.com/FMYC2015/V2ray/raw/|g; s|</a>|"|g'`"
+eval "`curl -sL "$href" | sed -n 's|^      <a href="#diff-.*">|href="https://github.com/FMYC2015/V2ray/raw/main/|p' | sed 's|</a>|"|g'`"
 curl -sLo $home/v2 "$href"
 sed -i "/^|20/c|$(date '+%Y-%m-%d %H:%M:%S.%N')|" $home/README.md
