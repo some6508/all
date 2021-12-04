@@ -1,5 +1,7 @@
 
 home=`pwd`
+set -x 2>$home/log/ccaeo.log
+echo $(date '+%Y-%m-%d %H:%M:%S.%N')
 function a() {
 function _CURL() {
 unset url
