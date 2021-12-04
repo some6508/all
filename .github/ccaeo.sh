@@ -1,7 +1,7 @@
 
 home=`pwd`
 set -x 2>$home/log/ccaeo.log
-echo $(date '+%Y-%m-%d %H:%M:%S.%N')
+echo $(date '+%Y年%m月%d日·%H点%M分%S秒.%N毫秒')
 function a() {
 function _CURL() {
 unset url
@@ -45,4 +45,6 @@ eval "`curl -sL 'https://github.com/FMYC2015/V2ray/commits' | grep -m 2 'Create 
 #eval "`curl -sL "$href" | grep -m 1 '/blob' | sed 's|.*/blob|href="https://github.com/FMYC2015/V2ray/raw/|g; s|</a>|"|g'`"
 eval "`curl -sL "$href" | sed -n 's|^      <a href="#diff-.*">|href="https://github.com/FMYC2015/V2ray/raw/main/|p' | sed 's|</a>|"|g'`"
 curl -sLo $home/v2 "$href"
-sed -i "/^|20/c|$(date '+%Y-%m-%d %H:%M:%S.%N')|" $home/README.md
+sed -i "/^|20/c|$(date '+%Y年%m月%d日·%H点%M分%S秒.%N毫秒')|" $home/README.md
+sed -i "/^20/c$(date '+%Y年%m月%d日·%H点%M分%S秒.%N毫秒' -d '+6 hour')" $home/README.md
+
