@@ -11,6 +11,7 @@
 | :----: | :----: | :----: |
 |1.Clash|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/c)|[raw](https://raw.githubusercontent.com/some6508/all/master/c)|
 |2.Clash|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/c2)|[raw](https://raw.githubusercontent.com/some6508/all/master/c2)|
+|3.Clash|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/c3)|[raw](https://raw.githubusercontent.com/some6508/all/master/c3)|
 |1.V2ray|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/v)|[raw](https://raw.githubusercontent.com/some6508/all/master/v)|
 |2.V2ray|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/v2)|[raw](https://raw.githubusercontent.com/some6508/all/master/v2)|
 
