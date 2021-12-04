@@ -46,6 +46,7 @@ curl -sLo $home/v2 "$href"
 eval "`curl -sL 'https://api.github.com/repos/FMYC2015/Clash/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
 eval "`curl -sL "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://github.com/FMYC2015/Clash/raw/main/|p' | sed 's|</a>|"|g'`"
 curl -sLo $home/c3 "$href"
+curl -sLo $home/v3 'https://gitee.com/chenx58/clash/raw/V2R/V2R'
 sed -i "/^|20/c|$(date '+%Y年%m月%d日·%H点%M分%S秒')|" $home/README.md
 sed -i "/^20/c$(date '+%Y年%m月%d日·%H点%M分%S秒' -d '+6 hour')" $home/README.md
 
