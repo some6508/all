@@ -1,6 +1,5 @@
 
 home=`pwd`
-set -x 2>$home/log/ccaeo.log
 echo $(date '+%Y年%m月%d日·%H点%M分%S秒.%N毫秒')
 function a() {
 function _CURL() {
