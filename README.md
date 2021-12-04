@@ -14,5 +14,6 @@
 |3.Clash|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/c3)|[raw](https://raw.githubusercontent.com/some6508/all/master/c3)|
 |1.V2ray|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/v)|[raw](https://raw.githubusercontent.com/some6508/all/master/v)|
 |2.V2ray|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/v2)|[raw](https://raw.githubusercontent.com/some6508/all/master/v2)|
+|3.V2ray|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/v3)|[raw](https://raw.githubusercontent.com/some6508/all/master/v3)|
 
 [点击刷新加速链接](https://purge.jsdelivr.net/gh/some6508/all@master/)
