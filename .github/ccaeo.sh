@@ -1,7 +1,7 @@
-
+home=`pwd`
+exec 2>$home/log/ccaeo.log
 set -x
 PS4='$LINENO: '
-home=`pwd`
 echo $(date '+%Y年%m月%d日·%H点%M分%S秒.%N毫秒')
 function a() {
 function _CURL() {
