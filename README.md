@@ -7,8 +7,8 @@
 2021年12月05日·20点24分04秒
 
 ## 可长按复制链接或点击访问
-[点击刷新加速链接](https://purge.jsdelivr.net/gh/some6508/all@master/)
-|节点订阅|使用加速|不使用|
+[点击刷新加速链接（不确保可用）](https://purge.jsdelivr.net/gh/some6508/all@master/)
+|节点订阅|加速链接|原链接|
 | :----: | :----: | :----: |
 |1.Clash|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/c)|[raw](https://raw.githubusercontent.com/some6508/all/master/c)|
 |2.Clash|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/c2)|[raw](https://raw.githubusercontent.com/some6508/all/master/c2)|
