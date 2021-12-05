@@ -1,1 +1,56 @@
-
++ PS4='$LINENO: '
+55: date +%Y年%m月%d日·%H点%M分%S秒.%N毫秒
+5: echo 2021年12月06日·03点08分34秒.193528291毫秒
+332: curl -sL https://github.com/changfengoss/pub/commits
+332: grep -m 1 'v2rayse comment file'
+332: sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'
+32: eval 'href="https://github.com/changfengoss/pub/commit/8c3e9452aaf56dde135ebe8ba44d82657f97d9ca"'
+332: href=https://github.com/changfengoss/pub/commit/8c3e9452aaf56dde135ebe8ba44d82657f97d9ca
+333: curl -sL https://github.com/changfengoss/pub/commit/8c3e9452aaf56dde135ebe8ba44d82657f97d9ca
+333: sed 's|.*">|href="https://github.com/changfengoss/pub/raw/main/|g; s|</a>|"|g'
+333: grep -m 1 data/
+33: eval 'href="https://github.com/changfengoss/pub/raw/main/data/2021_12_06/E4nvUp.txt"'
+333: href=https://github.com/changfengoss/pub/raw/main/data/2021_12_06/E4nvUp.txt
+34: case "$href" in
+35: curl -sLo /home/runner/work/all/all/v https://github.com/changfengoss/pub/raw/main/data/2021_12_06/E4nvUp.txt
+339: curl -sL https://github.com/pojiezhiyuanjun/freev2/commits
+339: sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'
+339: grep -m 1 'Add files via upload'
+39: eval 'href="https://github.com/pojiezhiyuanjun/freev2/commit/6470c1c8ebacd4d8726f6776f096749d6e2f5260"'
+339: href=https://github.com/pojiezhiyuanjun/freev2/commit/6470c1c8ebacd4d8726f6776f096749d6e2f5260
+440: curl -sL https://github.com/pojiezhiyuanjun/freev2/commit/6470c1c8ebacd4d8726f6776f096749d6e2f5260
+440: sed 's|.*">|href="https://github.com/pojiezhiyuanjun/freev2/raw/master/|g; s|</a>|"|g'
+440: grep -m 1 .yml
+40: eval 'href="https://github.com/pojiezhiyuanjun/freev2/raw/master/1205clash.yml"'
+440: href=https://github.com/pojiezhiyuanjun/freev2/raw/master/1205clash.yml
+41: case "$href" in
+42: curl -sLo /home/runner/work/all/all/c2 https://github.com/pojiezhiyuanjun/freev2/raw/master/1205clash.yml
+445: curl -sL https://github.com/FMYC2015/V2ray/commits
+445: sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'
+445: grep -m 2 'Create '
+45: eval 'href="https://github.com/FMYC2015/V2ray/commit/7854d3fd602ddb569792a0281497e8a520c3c819"
+href="https://github.com/FMYC2015/V2ray/commit/5ae76203a3386f88c9280a31223004d9f14ab922"'
+445: href=https://github.com/FMYC2015/V2ray/commit/7854d3fd602ddb569792a0281497e8a520c3c819
+446: href=https://github.com/FMYC2015/V2ray/commit/5ae76203a3386f88c9280a31223004d9f14ab922
+446: curl -sL https://github.com/FMYC2015/V2ray/commit/5ae76203a3386f88c9280a31223004d9f14ab922
+446: sed 's|</a>|"|g'
+446: sed -n 's|^      <a href="#diff-.*">|href="https://github.com/FMYC2015/V2ray/raw/main/|p'
+46: eval 'href="https://github.com/FMYC2015/V2ray/raw/main/Mshare_T/2021-12-01"'
+446: href=https://github.com/FMYC2015/V2ray/raw/main/Mshare_T/2021-12-01
+47: curl -sLo /home/runner/work/all/all/v2 https://github.com/FMYC2015/V2ray/raw/main/Mshare_T/2021-12-01
+448: curl -sL https://api.github.com/repos/FMYC2015/Clash/commits
+448: sed 's/.*"html_url": /html_url=/g'
+448: grep -m 1 html_url
+48: eval 'html_url="https://github.com/FMYC2015/Clash/commit/776dd9e64499d3d34e397ad8f1ba5034949f852c",'
+448: html_url=https://github.com/FMYC2015/Clash/commit/776dd9e64499d3d34e397ad8f1ba5034949f852c,
+449: curl -sL https://github.com/FMYC2015/Clash/commit/776dd9e64499d3d34e397ad8f1ba5034949f852c
+449: sed 's|</a>|"|g'
+449: sed -n 's|^      <a href="#diff-.*">|href="https://github.com/FMYC2015/Clash/raw/main/|p'
+49: eval 'href="https://github.com/FMYC2015/Clash/raw/main/2021/2021-12-02"'
+449: href=https://github.com/FMYC2015/Clash/raw/main/2021/2021-12-02
+50: curl -sLo /home/runner/work/all/all/c3 https://github.com/FMYC2015/Clash/raw/main/2021/2021-12-02
+51: curl -sLo /home/runner/work/all/all/v3 https://gitee.com/chenx58/clash/raw/V2R/V2R
+552: date +%Y年%m月%d日·%H点%M分%S秒
+52: sed -i '/^|20/c|2021年12月06日·03点08分43秒|' /home/runner/work/all/all/README.md
+553: date +%Y年%m月%d日·%H点%M分%S秒 -d '+6 hour'
+53: sed -i '/^20/c2021年12月06日·09点08分43秒' /home/runner/work/all/all/README.md
