@@ -5,1820 +5,1580 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '法国感谢订阅——科技网络_1', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '挪威感谢订阅——科技网络_2', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '香港感谢订阅——科技网络_3', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '台湾感谢订阅——科技网络_4', server: 120.197.88.216, port: 20000, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '欧洲感谢订阅——科技网络_5', server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '欧洲感谢订阅——科技网络_6', server: 156.234.95.72, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
-  - {name: '法国感谢订阅——科技网络_7', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国感谢订阅——科技网络_8', server: 198.200.51.34, port: 10911, type: vmess, uuid: 53e483d4-1ea9-11ec-ad60-00163cc87418, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '台湾感谢订阅——科技网络_9', server: 120.197.88.216, port: 20047, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '美国感谢订阅——科技网络_10', server: t5.ssrsub.com, port: 8443, type: trojan, password: 1b89d065-8640-4010-a80e-dc0c46a72aaf, sni: t5.ssrsub.com}
-  - {name: '德国感谢订阅——科技网络_11', server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国感谢订阅——科技网络_12', server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '挪威感谢订阅——科技网络_13', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '欧洲感谢订阅——科技网络_14', server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '美国感谢订阅——科技网络_15', server: 107.189.12.75, port: 80, type: vmess, uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '欧洲感谢订阅——科技网络_16', server: 134.195.196.3, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '澳大利亚感谢订阅——科技网络_17', server: 146.0.36.23, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '新加坡感谢订阅——科技网络_18', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '欧洲感谢订阅——科技网络_19', server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '新加坡感谢订阅——科技网络_20', server: 139.162.51.223, port: 51939, type: vmess, uuid: 4db2a027-17fb-4d27-b8ca-93b548e487a2, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '美国感谢订阅——科技网络_21', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: '美国感谢订阅——科技网络_22', server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '加拿大感谢订阅——科技网络_23', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '欧洲感谢订阅——科技网络_24', server: 134.195.198.252, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '欧洲感谢订阅——科技网络_25', server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '欧洲感谢订阅——科技网络_26', server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ycgyg.com}}
-  - {name: '美国感谢订阅——科技网络_27', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: '加拿大感谢订阅——科技网络_28', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '香港感谢订阅——科技网络_29', server: cu-cs.okvpn.xyz, port: 30016, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '新加坡感谢订阅——科技网络_30', server: 81.90.189.18, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '香港感谢订阅——科技网络_31', server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '加拿大感谢订阅——科技网络_32', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '法国感谢订阅——科技网络_33', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '欧洲感谢订阅——科技网络_34', server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '香港感谢订阅——科技网络_35', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '香港感谢订阅——科技网络_36', server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/}
-  - {name: '香港感谢订阅——科技网络_37', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国感谢订阅——科技网络_38', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '欧洲感谢订阅——科技网络_39', server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: '香港感谢订阅——科技网络_40', server: 118.107.244.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国感谢订阅——科技网络_41', server: 102.129.144.142, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6}
-  - {name: '挪威感谢订阅——科技网络_42', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '挪威感谢订阅——科技网络_43', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '日本感谢订阅——科技网络_44', server: 84.17.34.8, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm}
-  - {name: '法国感谢订阅——科技网络_45', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '台湾感谢订阅——科技网络_46', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '台湾感谢订阅——科技网络_47', server: 107.189.12.75, port: 80, type: vmess, uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 107.189.12.75}}
-  - {name: '挪威感谢订阅——科技网络_48', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '挪威感谢订阅——科技网络_49', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '欧洲感谢订阅——科技网络_50', server: 134.195.196.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '新加坡感谢订阅——科技网络_51', server: 81.90.189.18, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '台湾感谢订阅——科技网络_52', server: 120.197.88.216, port: 20005, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '日本感谢订阅——科技网络_53', server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '欧洲感谢订阅——科技网络_54', server: 134.195.196.3, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '香港感谢订阅——科技网络_55', server: 116.163.10.218, port: 30019, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '印度感谢订阅——科技网络_56', server: 172.105.59.32, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度感谢订阅——科技网络_57', server: 172.105.59.32, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '台湾感谢订阅——科技网络_58', server: 116.163.10.218, port: 30016, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '美国感谢订阅——科技网络_59', server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: '印度感谢订阅——科技网络_60', server: 172.105.59.32, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '欧洲感谢订阅——科技网络_61', server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度感谢订阅——科技网络_62', server: 172.105.59.32, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '欧洲感谢订阅——科技网络_63', server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '印度感谢订阅——科技网络_64', server: 172.105.59.32, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '印度感谢订阅——科技网络_65', server: 172.105.59.32, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '印度感谢订阅——科技网络_66', server: 172.105.59.32, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '印度感谢订阅——科技网络_67', server: 172.105.59.32, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '印度感谢订阅——科技网络_68', server: 172.105.59.32, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '台湾感谢订阅——科技网络_69', server: 8.214.46.152, port: 50885, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '香港感谢订阅——科技网络_70', server: 120.197.88.216, port: 20006, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '欧洲感谢订阅——科技网络_71', server: 134.195.196.52, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '英国感谢订阅——科技网络_72', server: 8.214.46.152, port: 50885, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8.214.46.152}}
-  - {name: '印度感谢订阅——科技网络_73', server: 172.105.59.32, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '印度感谢订阅——科技网络_74', server: 172.105.59.32, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '台湾感谢订阅——科技网络_75', server: 120.197.88.216, port: 20049, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '法国感谢订阅——科技网络_76', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '加拿大感谢订阅——科技网络_77', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '欧洲感谢订阅——科技网络_78', server: 134.195.198.252, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国感谢订阅——科技网络_79', server: 158.247.208.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国感谢订阅——科技网络_80', server: 158.247.208.102, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '德国感谢订阅——科技网络_81', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国感谢订阅——科技网络_82', server: 158.247.208.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '德国感谢订阅——科技网络_83', server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
-  - {name: '香港感谢订阅——科技网络_84', server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '台湾感谢订阅——科技网络_85', server: 120.197.88.216, port: 20001, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '欧洲感谢订阅——科技网络_86', server: 134.195.198.252, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国感谢订阅——科技网络_87', server: 158.247.208.102, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '美国感谢订阅——科技网络_88', server: 158.247.208.102, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '法国感谢订阅——科技网络_89', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: '台湾感谢订阅——科技网络_90', server: 116.163.10.218, port: 30014, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '香港感谢订阅——科技网络_91', server: cu-cs.okvpn.xyz, port: 30014, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '台湾感谢订阅——科技网络_92', server: 116.163.10.218, port: 30022, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '美国感谢订阅——科技网络_93', server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
-  - {name: '美国感谢订阅——科技网络_94', server: 102.165.20.38, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: VLGVpK9npKaFqBLHcnu9}
-  - {name: '美国感谢订阅——科技网络_95', server: 146.0.36.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '法国感谢订阅——科技网络_96', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '美国感谢订阅——科技网络_97', server: t4.ssrsub.com, port: 8443, type: trojan, password: 1b89d065-8640-4010-a80e-dc0c46a72aaf, sni: t4.ssrsub.com}
-  - {name: '美国感谢订阅——科技网络_98', server: 198.200.51.18, port: 600, type: vmess, uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '美国感谢订阅——科技网络_99', server: t4.ssrsub.com, port: 8443, type: trojan, password: 0e13b5a9-cb62-44cd-b28e-47f137624694, sni: t4.ssrsub.com}
-  - {name: '欧洲感谢订阅——科技网络_100', server: 134.195.196.3, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '欧洲感谢订阅——科技网络_101', server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '新加坡感谢订阅——科技网络_102', server: 81.90.189.57, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '欧洲感谢订阅——科技网络_103', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '挪威感谢订阅——科技网络_104', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '香港感谢订阅——科技网络_105', server: cu-cs.okvpn.xyz, port: 30019, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '美国感谢订阅——科技网络_106', server: 38.68.134.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '意大利感谢订阅——科技网络_107', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '美国感谢订阅——科技网络_108', server: 38.68.134.69, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国感谢订阅——科技网络_109', server: t7.ssrsub.com, port: 8443, type: trojan, password: 1b89d065-8640-4010-a80e-dc0c46a72aaf, sni: t7.ssrsub.com}
-  - {name: '美国感谢订阅——科技网络_110', server: 38.68.134.69, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '美国感谢订阅——科技网络_111', server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '美国感谢订阅——科技网络_112', server: 38.68.134.69, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国感谢订阅——科技网络_113', server: 38.68.134.69, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国感谢订阅——科技网络_114', server: 38.75.136.116, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国感谢订阅——科技网络_115', server: 38.68.134.69, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国感谢订阅——科技网络_116', server: 77.243.177.78, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Qu9b6jbYLF5Dtha3n7W2}
-  - {name: '美国感谢订阅——科技网络_117', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '加拿大感谢订阅——科技网络_118', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国感谢订阅——科技网络_119', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: '美国感谢订阅——科技网络_120', server: t7.ssrsub.com, port: 8443, type: trojan, password: 0e13b5a9-cb62-44cd-b28e-47f137624694, sni: t7.ssrsub.com}
-  - {name: '美国感谢订阅——科技网络_121', server: t3.ssrsub.com, port: 8443, type: trojan, password: 1b89d065-8640-4010-a80e-dc0c46a72aaf, sni: t3.ssrsub.com}
-  - {name: '法国感谢订阅——科技网络_122', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国感谢订阅——科技网络_123', server: 167.88.63.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国感谢订阅——科技网络_124', server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国感谢订阅——科技网络_125', server: 167.88.63.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '欧洲感谢订阅——科技网络_126', server: 134.195.196.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '香港感谢订阅——科技网络_127', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国感谢订阅——科技网络_128', server: 62.216.85.25, port: 16823, type: vmess, uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '挪威感谢订阅——科技网络_129', server: 134.195.196.3, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '香港感谢订阅——科技网络_130', server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '日本感谢订阅——科技网络_131', server: kr3.futi.online, port: 2053, type: vmess, uuid: fec5fd62-56e7-431a-99b3-c1f76c5cbe8d, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
-  - {name: '美国感谢订阅——科技网络_132', server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '日本感谢订阅——科技网络_133', server: 146.56.156.227, port: 2053, type: vmess, uuid: fec5fd62-56e7-431a-99b3-c1f76c5cbe8d, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
-  - {name: '美国感谢订阅——科技网络_134', server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '挪威感谢订阅——科技网络_135', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '新加坡感谢订阅——科技网络_136', server: 81.90.189.57, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '美国感谢订阅——科技网络_137', server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '欧洲感谢订阅——科技网络_138', server: 134.195.196.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '挪威感谢订阅——科技网络_139', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国感谢订阅——科技网络_140', server: 142.202.48.83, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '美国感谢订阅——科技网络_141', server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国感谢订阅——科技网络_142', server: 142.202.48.83, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '美国感谢订阅——科技网络_143', server: 38.91.101.221, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国感谢订阅——科技网络_144', server: 38.91.101.221, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国感谢订阅——科技网络_145', server: 142.202.48.83, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '美国感谢订阅——科技网络_146', server: 142.202.48.83, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '美国感谢订阅——科技网络_147', server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国感谢订阅——科技网络_148', server: 142.202.48.83, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '美国感谢订阅——科技网络_149', server: 38.91.101.221, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '香港感谢订阅——科技网络_150', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '美国感谢订阅——科技网络_151', server: 142.202.48.105, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '日本感谢订阅——科技网络_152', server: kr2.futi.online, port: 2053, type: vmess, uuid: fec5fd62-56e7-431a-99b3-c1f76c5cbe8d, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /}
-  - {name: '挪威感谢订阅——科技网络_153', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国感谢订阅——科技网络_154', server: 142.202.48.83, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '美国感谢订阅——科技网络_155', server: 142.202.48.58, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '欧洲感谢订阅——科技网络_156', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '加拿大感谢订阅——科技网络_157', server: 198.57.27.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '德国感谢订阅——科技网络_158', server: 146.0.36.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '美国感谢订阅——科技网络_159', server: 81.90.189.18, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '加拿大感谢订阅——科技网络_160', server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: '加拿大感谢订阅——科技网络_161', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国感谢订阅——科技网络_162', server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国感谢订阅——科技网络_163', server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '加拿大感谢订阅——科技网络_164', server: 198.57.27.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '加拿大感谢订阅——科技网络_165', server: 198.57.27.172, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '加拿大感谢订阅——科技网络_166', server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '加拿大感谢订阅——科技网络_167', server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '加拿大感谢订阅——科技网络_168', server: 198.57.27.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '加拿大感谢订阅——科技网络_169', server: 198.57.27.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '加拿大感谢订阅——科技网络_170', server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '加拿大感谢订阅——科技网络_171', server: 198.57.27.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '欧洲感谢订阅——科技网络_172', server: 93.186.201.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '欧洲感谢订阅——科技网络_173', server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
-  - {name: '欧洲感谢订阅——科技网络_174', server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '欧洲感谢订阅——科技网络_175', server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '意大利感谢订阅——科技网络_176', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '加拿大感谢订阅——科技网络_177', server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '欧洲感谢订阅——科技网络_178', server: 134.195.196.52, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '美国感谢订阅——科技网络_179', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: '加拿大感谢订阅——科技网络_180', server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '欧洲感谢订阅——科技网络_181', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /, ws-headers: {Host: 112.33.32.136}}
-  - {name: '欧洲感谢订阅——科技网络_182', server: 134.195.196.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国感谢订阅——科技网络_183', server: t3.ssrsub.com, port: 8443, type: trojan, password: 0e13b5a9-cb62-44cd-b28e-47f137624694, sni: t3.ssrsub.com}
-  - {name: '欧洲感谢订阅——科技网络_184', server: kr2.futi.online, port: 2053, type: vmess, uuid: fec5fd62-56e7-431a-99b3-c1f76c5cbe8d, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
-  - {name: '新加坡感谢订阅——科技网络_185', server: 81.90.189.18, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '美国感谢订阅——科技网络_186', server: 172.107.233.230, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '新加坡感谢订阅——科技网络_187', server: 81.90.189.18, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '新加坡感谢订阅——科技网络_188', server: 81.90.189.18, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '加拿大感谢订阅——科技网络_189', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '欧洲感谢订阅——科技网络_190', server: 134.195.196.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '美国感谢订阅——科技网络_191', server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '台湾感谢订阅——科技网络_192', server: 120.197.88.216, port: 20002, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '美国感谢订阅——科技网络_193', server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国感谢订阅——科技网络_194', server: 172.107.233.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '新加坡感谢订阅——科技网络_195', server: 81.90.189.18, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '欧洲感谢订阅——科技网络_196', server: 134.195.196.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '台湾感谢订阅——科技网络_197', server: 116.163.10.218, port: 30020, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '台湾感谢订阅——科技网络_198', server: 120.197.88.216, port: 20004, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '欧洲感谢订阅——科技网络_199', server: 134.195.196.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '欧洲感谢订阅——科技网络_200', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
-  - {name: '意大利感谢订阅——科技网络_201', server: canada-vancouver.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: '挪威感谢订阅——科技网络_202', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '欧洲感谢订阅——科技网络_203', server: 134.195.198.252, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '新加坡感谢订阅——科技网络_204', server: 217.197.161.244, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '意大利感谢订阅——科技网络_205', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '台湾感谢订阅——科技网络_206', server: 120.197.88.216, port: 20015, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '台湾感谢订阅——科技网络_207', server: 116.163.10.218, port: 30021, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '美国感谢订阅——科技网络_208', server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: '欧洲感谢订阅——科技网络_209', server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国感谢订阅——科技网络_210', server: 81.90.189.18, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '美国感谢订阅——科技网络_211', server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: '香港感谢订阅——科技网络_212', server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '台湾感谢订阅——科技网络_213', server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '香港感谢订阅——科技网络_214', server: cu-cs.okvpn.xyz, port: 30020, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '台湾感谢订阅——科技网络_215', server: 116.163.10.218, port: 30013, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '欧洲感谢订阅——科技网络_216', server: 134.195.198.250, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '台湾感谢订阅——科技网络_217', server: cu-cs.okvpn.xyz, port: 30013, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '欧洲感谢订阅——科技网络_218', server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国感谢订阅——科技网络_219', server: t5.ssrsub.com, port: 8443, type: trojan, password: 0e13b5a9-cb62-44cd-b28e-47f137624694, sni: t5.ssrsub.com}
-  - {name: '法国感谢订阅——科技网络_220', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国感谢订阅——科技网络_221', server: 38.75.136.116, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '欧洲感谢订阅——科技网络_222', server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇭🇰_HK_香港_1', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇰🇷_KR_韩国_2', server: kr3.futi.online, port: 2053, type: vmess, uuid: fec5fd62-56e7-431a-99b3-c1f76c5cbe8d, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
+  - {name: '🇭🇰_HK_香港_3', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_4', server: 38.75.136.116, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_5', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_6', server: 167.88.61.130, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_7', server: 38.114.114.68, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_8', server: 167.88.61.130, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_9', server: 167.88.61.130, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_10', server: 167.88.61.130, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_11', server: 38.75.136.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_12', server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_13', server: 167.88.61.130, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_14', server: 38.75.137.187, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_15', server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_16', server: 38.68.134.191, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_17', server: 38.68.134.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_18', server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_19', server: 104.223.91.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QKyLzp5JUG6XEGy2wbEE}
+  - {name: '🇺🇸_US_美国_20', server: 38.68.134.191, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_21', server: 38.68.134.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_22', server: 37.120.147.230, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇺🇸_US_美国_23', server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_24', server: 38.68.134.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_25', server: 38.75.136.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_26', server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_27', server: 38.91.101.221, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_28', server: 142.202.48.83, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_29', server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_30', server: 134.195.198.252, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'default_name_31', server: 142.202.48.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_32', server: 134.195.196.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_33', server: 142.202.48.43, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_34', server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_35', server: 198.57.27.172, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇰🇷_KR_韩国_36', server: 158.247.208.102, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇦_UA_乌克兰_37', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: '🇺🇸_US_美国_38', server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_39', server: 134.195.196.3, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_40', server: 198.57.27.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_41', server: 167.88.61.130, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_42', server: 134.195.196.154, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_43', server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_44', server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_45', server: 134.195.196.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_46', server: 38.107.226.48, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_47', server: 38.75.136.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_48', server: 198.57.27.152, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_49', server: 142.202.48.43, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_50', server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦_CA_加拿大_51', server: 134.195.196.154, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_52', server: 134.195.196.154, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦_CA_加拿大_53', server: 134.195.196.199, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_54', server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_55', server: 142.202.48.43, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_56', server: 134.195.196.154, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_57', server: 142.202.48.43, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_58', server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦_CA_加拿大_59', server: 134.195.196.154, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_60', server: 38.75.137.66, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦_CA_加拿大_61', server: 134.195.196.199, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_62', server: 38.107.226.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_63', server: 198.57.27.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_64', server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_65', server: 134.195.196.154, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_66', server: 134.195.196.154, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_67', server: 198.57.27.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_68', server: 38.68.134.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_69', server: 167.88.63.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB_英国_70', server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_71', server: 198.57.27.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦_CA_加拿大_72', server: 134.195.198.252, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_73', server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_74', server: 142.202.48.105, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦_CA_加拿大_75', server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_76', server: 198.57.27.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_77', server: 134.195.198.250, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_78', server: 134.195.198.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_79', server: 142.202.48.43, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_80', server: 142.202.48.83, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇨🇦_CA_加拿大_81', server: 134.195.196.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_82', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_83', server: 134.195.198.250, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_84', server: 142.202.48.43, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇬🇧_GB_英国_85', server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_86', server: 38.75.137.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_87', server: 167.88.63.61, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_88', server: 142.202.48.43, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦_CA_加拿大_89', server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_90', server: 167.88.61.130, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB_英国_91', server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_92', server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB_英国_93', server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇬🇧_GB_英国_94', server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇬🇧_GB_英国_95', server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_96', server: 167.88.63.61, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_97', server: 134.195.198.252, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_98', server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_99', server: 167.88.63.61, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_100', server: 142.202.48.58, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB_英国_101', server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_102', server: 134.195.198.252, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇬🇧_GB_英国_103', server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_GB_英国_104', server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇸🇪_SE_瑞典_105', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: '🇺🇸_US_美国_106', server: 167.88.63.61, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇬🇧_GB_英国_107', server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_108', server: 167.88.63.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇬🇧_GB_英国_109', server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_110', server: 134.195.196.154, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_111', server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇷🇺_RU_俄罗斯联邦_112', server: 45.89.228.53, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
+  - {name: '🇺🇸_US_美国_113', server: 167.88.63.61, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_114', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_115', server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_116', server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_GB_英国_117', server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_118', server: 167.88.63.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇰🇷_KR_韩国_119', server: 158.247.208.102, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇭🇰_HK_香港->🇰🇷_KR_韩国_120', server: 156.234.95.72, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
+  - {name: '🇨🇦_CA_加拿大_121', server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'default_name_122', server: www.digitalocean.com, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇫🇷_FR_法国_123', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇷_FR_法国_124', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦_CA_加拿大_125', server: 134.195.196.3, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇸🇬_SG_新加坡_126', server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
+  - {name: '🇦🇺_AU_澳大利亚_127', server: 192.53.168.189, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇬🇧_GB_英国_128', server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'default_name_129', server: icook.tw, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇺🇸_US_美国_130', server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦_CA_加拿大_131', server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_132', server: hostmonit.com, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: '🇰🇷_KR_韩国_133', server: 158.247.208.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_134', server: 38.91.101.221, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇳🇴_NO_挪威_135', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_136', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_137', server: 134.195.196.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇮🇱_IL_以色列_138', server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: '🇺🇸_US_美国_139', server: 38.75.136.116, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_140', server: 38.68.134.191, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_141', server: 142.202.48.43, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇳🇴_NO_挪威_142', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'default_name_143', server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_144', server: 134.195.196.199, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_145', server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇳🇴_NO_挪威_146', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_147', server: 198.57.27.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_148', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇩🇪_DE_德国_149', server: 146.0.36.23, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇫🇷_FR_法国_150', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_151', server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇬🇧_GB_英国_152', server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇳🇴_NO_挪威_153', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_154', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '🇨🇦_CA_加拿大_155', server: 134.195.196.3, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇩🇪_DE_德国_156', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇪🇸_ES_西班牙_157', server: 172.107.233.230, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_158', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: '🇺🇸_US_美国_159', server: 142.202.48.83, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_160', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '🇳🇴_NO_挪威_161', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇭🇰_HK_香港_162', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇮🇳_IN_印度_163', server: 172.105.59.32, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇮🇳_IN_印度_164', server: 172.105.59.32, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇫🇷_FR_法国_165', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '🇮🇳_IN_印度_166', server: 172.105.59.32, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇩🇪_DE_德国_167', server: 146.0.36.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'default_name_168', server: 161.81.195.100, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
+  - {name: 'default_name_169', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇮🇳_IN_印度_170', server: 172.105.59.32, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦_CA_加拿大_171', server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '🇮🇳_IN_印度_172', server: 172.105.59.32, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇮🇳_IN_印度_173', server: 172.105.59.32, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇳🇴_NO_挪威_174', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_175', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇮🇳_IN_印度_176', server: 172.105.59.32, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇮🇳_IN_印度_177', server: 172.105.59.32, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_178', server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: '🇫🇷_FR_法国_179', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_180', server: 134.195.196.3, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_181', server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇰🇷_KR_韩国_182', server: 146.56.156.227, port: 2053, type: vmess, uuid: fec5fd62-56e7-431a-99b3-c1f76c5cbe8d, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
+  - {name: '🇨🇦_CA_加拿大_183', server: 72.140.224.197, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇸🇬_SG_新加坡_184', server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: zecjk.com}}
+  - {name: '🇳🇴_NO_挪威_185', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇷_FR_法国_186', server: 141.95.0.23, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇸🇬_SG_新加坡_187', server: 103.253.26.20, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: zecjk.com}}
+  - {name: '🇺🇸_US_美国_188', server: 38.75.137.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇫🇷_FR_法国_189', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇷🇺_RU_俄罗斯联邦_190', server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
+  - {name: '🇮🇳_IN_印度_191', server: 172.105.59.32, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_192', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 法国感谢订阅——科技网络_1
-      - 挪威感谢订阅——科技网络_2
-      - 香港感谢订阅——科技网络_3
-      - 台湾感谢订阅——科技网络_4
-      - 欧洲感谢订阅——科技网络_5
-      - 欧洲感谢订阅——科技网络_6
-      - 法国感谢订阅——科技网络_7
-      - 美国感谢订阅——科技网络_8
-      - 台湾感谢订阅——科技网络_9
-      - 美国感谢订阅——科技网络_10
-      - 德国感谢订阅——科技网络_11
-      - 美国感谢订阅——科技网络_12
-      - 挪威感谢订阅——科技网络_13
-      - 欧洲感谢订阅——科技网络_14
-      - 美国感谢订阅——科技网络_15
-      - 欧洲感谢订阅——科技网络_16
-      - 澳大利亚感谢订阅——科技网络_17
-      - 新加坡感谢订阅——科技网络_18
-      - 欧洲感谢订阅——科技网络_19
-      - 新加坡感谢订阅——科技网络_20
-      - 美国感谢订阅——科技网络_21
-      - 美国感谢订阅——科技网络_22
-      - 加拿大感谢订阅——科技网络_23
-      - 欧洲感谢订阅——科技网络_24
-      - 欧洲感谢订阅——科技网络_25
-      - 欧洲感谢订阅——科技网络_26
-      - 美国感谢订阅——科技网络_27
-      - 加拿大感谢订阅——科技网络_28
-      - 香港感谢订阅——科技网络_29
-      - 新加坡感谢订阅——科技网络_30
-      - 香港感谢订阅——科技网络_31
-      - 加拿大感谢订阅——科技网络_32
-      - 法国感谢订阅——科技网络_33
-      - 欧洲感谢订阅——科技网络_34
-      - 香港感谢订阅——科技网络_35
-      - 香港感谢订阅——科技网络_36
-      - 香港感谢订阅——科技网络_37
-      - 美国感谢订阅——科技网络_38
-      - 欧洲感谢订阅——科技网络_39
-      - 香港感谢订阅——科技网络_40
-      - 美国感谢订阅——科技网络_41
-      - 挪威感谢订阅——科技网络_42
-      - 挪威感谢订阅——科技网络_43
-      - 日本感谢订阅——科技网络_44
-      - 法国感谢订阅——科技网络_45
-      - 台湾感谢订阅——科技网络_46
-      - 台湾感谢订阅——科技网络_47
-      - 挪威感谢订阅——科技网络_48
-      - 挪威感谢订阅——科技网络_49
-      - 欧洲感谢订阅——科技网络_50
-      - 新加坡感谢订阅——科技网络_51
-      - 台湾感谢订阅——科技网络_52
-      - 日本感谢订阅——科技网络_53
-      - 欧洲感谢订阅——科技网络_54
-      - 香港感谢订阅——科技网络_55
-      - 印度感谢订阅——科技网络_56
-      - 印度感谢订阅——科技网络_57
-      - 台湾感谢订阅——科技网络_58
-      - 美国感谢订阅——科技网络_59
-      - 印度感谢订阅——科技网络_60
-      - 欧洲感谢订阅——科技网络_61
-      - 印度感谢订阅——科技网络_62
-      - 欧洲感谢订阅——科技网络_63
-      - 印度感谢订阅——科技网络_64
-      - 印度感谢订阅——科技网络_65
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_67
-      - 印度感谢订阅——科技网络_68
-      - 台湾感谢订阅——科技网络_69
-      - 香港感谢订阅——科技网络_70
-      - 欧洲感谢订阅——科技网络_71
-      - 英国感谢订阅——科技网络_72
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_74
-      - 台湾感谢订阅——科技网络_75
-      - 法国感谢订阅——科技网络_76
-      - 加拿大感谢订阅——科技网络_77
-      - 欧洲感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_79
-      - 美国感谢订阅——科技网络_80
-      - 德国感谢订阅——科技网络_81
-      - 美国感谢订阅——科技网络_82
-      - 德国感谢订阅——科技网络_83
-      - 香港感谢订阅——科技网络_84
-      - 台湾感谢订阅——科技网络_85
-      - 欧洲感谢订阅——科技网络_86
-      - 美国感谢订阅——科技网络_87
-      - 美国感谢订阅——科技网络_88
-      - 法国感谢订阅——科技网络_89
-      - 台湾感谢订阅——科技网络_90
-      - 香港感谢订阅——科技网络_91
-      - 台湾感谢订阅——科技网络_92
-      - 美国感谢订阅——科技网络_93
-      - 美国感谢订阅——科技网络_94
-      - 美国感谢订阅——科技网络_95
-      - 法国感谢订阅——科技网络_96
-      - 美国感谢订阅——科技网络_97
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_99
-      - 欧洲感谢订阅——科技网络_100
-      - 欧洲感谢订阅——科技网络_101
-      - 新加坡感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_103
-      - 挪威感谢订阅——科技网络_104
-      - 香港感谢订阅——科技网络_105
-      - 美国感谢订阅——科技网络_106
-      - 意大利感谢订阅——科技网络_107
-      - 美国感谢订阅——科技网络_108
-      - 美国感谢订阅——科技网络_109
-      - 美国感谢订阅——科技网络_110
-      - 美国感谢订阅——科技网络_111
-      - 美国感谢订阅——科技网络_112
-      - 美国感谢订阅——科技网络_113
-      - 美国感谢订阅——科技网络_114
-      - 美国感谢订阅——科技网络_115
-      - 美国感谢订阅——科技网络_116
-      - 美国感谢订阅——科技网络_117
-      - 加拿大感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_119
-      - 美国感谢订阅——科技网络_120
-      - 美国感谢订阅——科技网络_121
-      - 法国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_123
-      - 美国感谢订阅——科技网络_124
-      - 美国感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_126
-      - 香港感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_128
-      - 挪威感谢订阅——科技网络_129
-      - 香港感谢订阅——科技网络_130
-      - 日本感谢订阅——科技网络_131
-      - 美国感谢订阅——科技网络_132
-      - 日本感谢订阅——科技网络_133
-      - 美国感谢订阅——科技网络_134
-      - 挪威感谢订阅——科技网络_135
-      - 新加坡感谢订阅——科技网络_136
-      - 美国感谢订阅——科技网络_137
-      - 欧洲感谢订阅——科技网络_138
-      - 挪威感谢订阅——科技网络_139
-      - 美国感谢订阅——科技网络_140
-      - 美国感谢订阅——科技网络_141
-      - 美国感谢订阅——科技网络_142
-      - 美国感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_144
-      - 美国感谢订阅——科技网络_145
-      - 美国感谢订阅——科技网络_146
-      - 美国感谢订阅——科技网络_147
-      - 美国感谢订阅——科技网络_148
-      - 美国感谢订阅——科技网络_149
-      - 香港感谢订阅——科技网络_150
-      - 美国感谢订阅——科技网络_151
-      - 日本感谢订阅——科技网络_152
-      - 挪威感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_154
-      - 美国感谢订阅——科技网络_155
-      - 欧洲感谢订阅——科技网络_156
-      - 加拿大感谢订阅——科技网络_157
-      - 德国感谢订阅——科技网络_158
-      - 美国感谢订阅——科技网络_159
-      - 加拿大感谢订阅——科技网络_160
-      - 加拿大感谢订阅——科技网络_161
-      - 美国感谢订阅——科技网络_162
-      - 美国感谢订阅——科技网络_163
-      - 加拿大感谢订阅——科技网络_164
-      - 加拿大感谢订阅——科技网络_165
-      - 加拿大感谢订阅——科技网络_166
-      - 加拿大感谢订阅——科技网络_167
-      - 加拿大感谢订阅——科技网络_168
-      - 加拿大感谢订阅——科技网络_169
-      - 加拿大感谢订阅——科技网络_170
-      - 加拿大感谢订阅——科技网络_171
-      - 欧洲感谢订阅——科技网络_172
-      - 欧洲感谢订阅——科技网络_173
-      - 欧洲感谢订阅——科技网络_174
-      - 欧洲感谢订阅——科技网络_175
-      - 意大利感谢订阅——科技网络_176
-      - 加拿大感谢订阅——科技网络_177
-      - 欧洲感谢订阅——科技网络_178
-      - 美国感谢订阅——科技网络_179
-      - 加拿大感谢订阅——科技网络_180
-      - 欧洲感谢订阅——科技网络_181
-      - 欧洲感谢订阅——科技网络_182
-      - 美国感谢订阅——科技网络_183
-      - 欧洲感谢订阅——科技网络_184
-      - 新加坡感谢订阅——科技网络_185
-      - 美国感谢订阅——科技网络_186
-      - 新加坡感谢订阅——科技网络_187
-      - 新加坡感谢订阅——科技网络_188
-      - 加拿大感谢订阅——科技网络_189
-      - 欧洲感谢订阅——科技网络_190
-      - 美国感谢订阅——科技网络_191
-      - 台湾感谢订阅——科技网络_192
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_194
-      - 新加坡感谢订阅——科技网络_195
-      - 欧洲感谢订阅——科技网络_196
-      - 台湾感谢订阅——科技网络_197
-      - 台湾感谢订阅——科技网络_198
-      - 欧洲感谢订阅——科技网络_199
-      - 欧洲感谢订阅——科技网络_200
-      - 意大利感谢订阅——科技网络_201
-      - 挪威感谢订阅——科技网络_202
-      - 欧洲感谢订阅——科技网络_203
-      - 新加坡感谢订阅——科技网络_204
-      - 意大利感谢订阅——科技网络_205
-      - 台湾感谢订阅——科技网络_206
-      - 台湾感谢订阅——科技网络_207
-      - 美国感谢订阅——科技网络_208
-      - 欧洲感谢订阅——科技网络_209
-      - 美国感谢订阅——科技网络_210
-      - 美国感谢订阅——科技网络_211
-      - 香港感谢订阅——科技网络_212
-      - 台湾感谢订阅——科技网络_213
-      - 香港感谢订阅——科技网络_214
-      - 台湾感谢订阅——科技网络_215
-      - 欧洲感谢订阅——科技网络_216
-      - 台湾感谢订阅——科技网络_217
-      - 欧洲感谢订阅——科技网络_218
-      - 美国感谢订阅——科技网络_219
-      - 法国感谢订阅——科技网络_220
-      - 美国感谢订阅——科技网络_221
-      - 欧洲感谢订阅——科技网络_222
+      - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - default_name_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇰🇷_KR_韩国_36
+      - 🇺🇦_UA_乌克兰_37
+      - 🇺🇸_US_美国_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇨🇦_CA_加拿大_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇺🇸_US_美国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇨🇦_CA_加拿大_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇨🇦_CA_加拿大_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇺🇸_US_美国_62
+      - 🇨🇦_CA_加拿大_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇨🇦_CA_加拿大_65
+      - 🇨🇦_CA_加拿大_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇬🇧_GB_英国_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇨🇦_CA_加拿大_73
+      - 🇺🇸_US_美国_74
+      - 🇨🇦_CA_加拿大_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇨🇦_CA_加拿大_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇨🇦_CA_加拿大_82
+      - 🇨🇦_CA_加拿大_83
+      - 🇺🇸_US_美国_84
+      - 🇬🇧_GB_英国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇨🇦_CA_加拿大_89
+      - 🇺🇸_US_美国_90
+      - 🇬🇧_GB_英国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇬🇧_GB_英国_93
+      - 🇬🇧_GB_英国_94
+      - 🇬🇧_GB_英国_95
+      - 🇺🇸_US_美国_96
+      - 🇨🇦_CA_加拿大_97
+      - 🇨🇦_CA_加拿大_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇬🇧_GB_英国_101
+      - 🇨🇦_CA_加拿大_102
+      - 🇬🇧_GB_英国_103
+      - 🇬🇧_GB_英国_104
+      - 🇸🇪_SE_瑞典_105
+      - 🇺🇸_US_美国_106
+      - 🇬🇧_GB_英国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇨🇦_CA_加拿大_110
+      - 🇺🇸_US_美国_111
+      - 🇷🇺_RU_俄罗斯联邦_112
+      - 🇺🇸_US_美国_113
+      - 🇨🇦_CA_加拿大_114
+      - 🇺🇸_US_美国_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇬🇧_GB_英国_117
+      - 🇺🇸_US_美国_118
+      - 🇰🇷_KR_韩国_119
+      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_120
+      - 🇨🇦_CA_加拿大_121
+      - default_name_122
+      - 🇫🇷_FR_法国_123
+      - 🇫🇷_FR_法国_124
+      - 🇨🇦_CA_加拿大_125
+      - 🇸🇬_SG_新加坡_126
+      - 🇦🇺_AU_澳大利亚_127
+      - 🇬🇧_GB_英国_128
+      - default_name_129
+      - 🇺🇸_US_美国_130
+      - 🇨🇦_CA_加拿大_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇰🇷_KR_韩国_133
+      - 🇺🇸_US_美国_134
+      - 🇳🇴_NO_挪威_135
+      - 🇨🇦_CA_加拿大_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇮🇱_IL_以色列_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇳🇴_NO_挪威_142
+      - default_name_143
+      - 🇨🇦_CA_加拿大_144
+      - 🇺🇸_US_美国_145
+      - 🇳🇴_NO_挪威_146
+      - 🇨🇦_CA_加拿大_147
+      - 🇨🇦_CA_加拿大_148
+      - 🇩🇪_DE_德国_149
+      - 🇫🇷_FR_法国_150
+      - 🇨🇦_CA_加拿大_151
+      - 🇬🇧_GB_英国_152
+      - 🇳🇴_NO_挪威_153
+      - 🇺🇸_US_美国_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇩🇪_DE_德国_156
+      - 🇪🇸_ES_西班牙_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇳🇴_NO_挪威_161
+      - 🇭🇰_HK_香港_162
+      - 🇮🇳_IN_印度_163
+      - 🇮🇳_IN_印度_164
+      - 🇫🇷_FR_法国_165
+      - 🇮🇳_IN_印度_166
+      - 🇩🇪_DE_德国_167
+      - default_name_168
+      - default_name_169
+      - 🇮🇳_IN_印度_170
+      - 🇨🇦_CA_加拿大_171
+      - 🇮🇳_IN_印度_172
+      - 🇮🇳_IN_印度_173
+      - 🇳🇴_NO_挪威_174
+      - 🇨🇦_CA_加拿大_175
+      - 🇮🇳_IN_印度_176
+      - 🇮🇳_IN_印度_177
+      - 🇺🇸_US_美国_178
+      - 🇫🇷_FR_法国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇨🇦_CA_加拿大_181
+      - 🇰🇷_KR_韩国_182
+      - 🇨🇦_CA_加拿大_183
+      - 🇸🇬_SG_新加坡_184
+      - 🇳🇴_NO_挪威_185
+      - 🇫🇷_FR_法国_186
+      - 🇸🇬_SG_新加坡_187
+      - 🇺🇸_US_美国_188
+      - 🇫🇷_FR_法国_189
+      - 🇷🇺_RU_俄罗斯联邦_190
+      - 🇮🇳_IN_印度_191
+      - 🇨🇦_CA_加拿大_192
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 法国感谢订阅——科技网络_1
-      - 挪威感谢订阅——科技网络_2
-      - 香港感谢订阅——科技网络_3
-      - 台湾感谢订阅——科技网络_4
-      - 欧洲感谢订阅——科技网络_5
-      - 欧洲感谢订阅——科技网络_6
-      - 法国感谢订阅——科技网络_7
-      - 美国感谢订阅——科技网络_8
-      - 台湾感谢订阅——科技网络_9
-      - 美国感谢订阅——科技网络_10
-      - 德国感谢订阅——科技网络_11
-      - 美国感谢订阅——科技网络_12
-      - 挪威感谢订阅——科技网络_13
-      - 欧洲感谢订阅——科技网络_14
-      - 美国感谢订阅——科技网络_15
-      - 欧洲感谢订阅——科技网络_16
-      - 澳大利亚感谢订阅——科技网络_17
-      - 新加坡感谢订阅——科技网络_18
-      - 欧洲感谢订阅——科技网络_19
-      - 新加坡感谢订阅——科技网络_20
-      - 美国感谢订阅——科技网络_21
-      - 美国感谢订阅——科技网络_22
-      - 加拿大感谢订阅——科技网络_23
-      - 欧洲感谢订阅——科技网络_24
-      - 欧洲感谢订阅——科技网络_25
-      - 欧洲感谢订阅——科技网络_26
-      - 美国感谢订阅——科技网络_27
-      - 加拿大感谢订阅——科技网络_28
-      - 香港感谢订阅——科技网络_29
-      - 新加坡感谢订阅——科技网络_30
-      - 香港感谢订阅——科技网络_31
-      - 加拿大感谢订阅——科技网络_32
-      - 法国感谢订阅——科技网络_33
-      - 欧洲感谢订阅——科技网络_34
-      - 香港感谢订阅——科技网络_35
-      - 香港感谢订阅——科技网络_36
-      - 香港感谢订阅——科技网络_37
-      - 美国感谢订阅——科技网络_38
-      - 欧洲感谢订阅——科技网络_39
-      - 香港感谢订阅——科技网络_40
-      - 美国感谢订阅——科技网络_41
-      - 挪威感谢订阅——科技网络_42
-      - 挪威感谢订阅——科技网络_43
-      - 日本感谢订阅——科技网络_44
-      - 法国感谢订阅——科技网络_45
-      - 台湾感谢订阅——科技网络_46
-      - 台湾感谢订阅——科技网络_47
-      - 挪威感谢订阅——科技网络_48
-      - 挪威感谢订阅——科技网络_49
-      - 欧洲感谢订阅——科技网络_50
-      - 新加坡感谢订阅——科技网络_51
-      - 台湾感谢订阅——科技网络_52
-      - 日本感谢订阅——科技网络_53
-      - 欧洲感谢订阅——科技网络_54
-      - 香港感谢订阅——科技网络_55
-      - 印度感谢订阅——科技网络_56
-      - 印度感谢订阅——科技网络_57
-      - 台湾感谢订阅——科技网络_58
-      - 美国感谢订阅——科技网络_59
-      - 印度感谢订阅——科技网络_60
-      - 欧洲感谢订阅——科技网络_61
-      - 印度感谢订阅——科技网络_62
-      - 欧洲感谢订阅——科技网络_63
-      - 印度感谢订阅——科技网络_64
-      - 印度感谢订阅——科技网络_65
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_67
-      - 印度感谢订阅——科技网络_68
-      - 台湾感谢订阅——科技网络_69
-      - 香港感谢订阅——科技网络_70
-      - 欧洲感谢订阅——科技网络_71
-      - 英国感谢订阅——科技网络_72
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_74
-      - 台湾感谢订阅——科技网络_75
-      - 法国感谢订阅——科技网络_76
-      - 加拿大感谢订阅——科技网络_77
-      - 欧洲感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_79
-      - 美国感谢订阅——科技网络_80
-      - 德国感谢订阅——科技网络_81
-      - 美国感谢订阅——科技网络_82
-      - 德国感谢订阅——科技网络_83
-      - 香港感谢订阅——科技网络_84
-      - 台湾感谢订阅——科技网络_85
-      - 欧洲感谢订阅——科技网络_86
-      - 美国感谢订阅——科技网络_87
-      - 美国感谢订阅——科技网络_88
-      - 法国感谢订阅——科技网络_89
-      - 台湾感谢订阅——科技网络_90
-      - 香港感谢订阅——科技网络_91
-      - 台湾感谢订阅——科技网络_92
-      - 美国感谢订阅——科技网络_93
-      - 美国感谢订阅——科技网络_94
-      - 美国感谢订阅——科技网络_95
-      - 法国感谢订阅——科技网络_96
-      - 美国感谢订阅——科技网络_97
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_99
-      - 欧洲感谢订阅——科技网络_100
-      - 欧洲感谢订阅——科技网络_101
-      - 新加坡感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_103
-      - 挪威感谢订阅——科技网络_104
-      - 香港感谢订阅——科技网络_105
-      - 美国感谢订阅——科技网络_106
-      - 意大利感谢订阅——科技网络_107
-      - 美国感谢订阅——科技网络_108
-      - 美国感谢订阅——科技网络_109
-      - 美国感谢订阅——科技网络_110
-      - 美国感谢订阅——科技网络_111
-      - 美国感谢订阅——科技网络_112
-      - 美国感谢订阅——科技网络_113
-      - 美国感谢订阅——科技网络_114
-      - 美国感谢订阅——科技网络_115
-      - 美国感谢订阅——科技网络_116
-      - 美国感谢订阅——科技网络_117
-      - 加拿大感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_119
-      - 美国感谢订阅——科技网络_120
-      - 美国感谢订阅——科技网络_121
-      - 法国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_123
-      - 美国感谢订阅——科技网络_124
-      - 美国感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_126
-      - 香港感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_128
-      - 挪威感谢订阅——科技网络_129
-      - 香港感谢订阅——科技网络_130
-      - 日本感谢订阅——科技网络_131
-      - 美国感谢订阅——科技网络_132
-      - 日本感谢订阅——科技网络_133
-      - 美国感谢订阅——科技网络_134
-      - 挪威感谢订阅——科技网络_135
-      - 新加坡感谢订阅——科技网络_136
-      - 美国感谢订阅——科技网络_137
-      - 欧洲感谢订阅——科技网络_138
-      - 挪威感谢订阅——科技网络_139
-      - 美国感谢订阅——科技网络_140
-      - 美国感谢订阅——科技网络_141
-      - 美国感谢订阅——科技网络_142
-      - 美国感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_144
-      - 美国感谢订阅——科技网络_145
-      - 美国感谢订阅——科技网络_146
-      - 美国感谢订阅——科技网络_147
-      - 美国感谢订阅——科技网络_148
-      - 美国感谢订阅——科技网络_149
-      - 香港感谢订阅——科技网络_150
-      - 美国感谢订阅——科技网络_151
-      - 日本感谢订阅——科技网络_152
-      - 挪威感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_154
-      - 美国感谢订阅——科技网络_155
-      - 欧洲感谢订阅——科技网络_156
-      - 加拿大感谢订阅——科技网络_157
-      - 德国感谢订阅——科技网络_158
-      - 美国感谢订阅——科技网络_159
-      - 加拿大感谢订阅——科技网络_160
-      - 加拿大感谢订阅——科技网络_161
-      - 美国感谢订阅——科技网络_162
-      - 美国感谢订阅——科技网络_163
-      - 加拿大感谢订阅——科技网络_164
-      - 加拿大感谢订阅——科技网络_165
-      - 加拿大感谢订阅——科技网络_166
-      - 加拿大感谢订阅——科技网络_167
-      - 加拿大感谢订阅——科技网络_168
-      - 加拿大感谢订阅——科技网络_169
-      - 加拿大感谢订阅——科技网络_170
-      - 加拿大感谢订阅——科技网络_171
-      - 欧洲感谢订阅——科技网络_172
-      - 欧洲感谢订阅——科技网络_173
-      - 欧洲感谢订阅——科技网络_174
-      - 欧洲感谢订阅——科技网络_175
-      - 意大利感谢订阅——科技网络_176
-      - 加拿大感谢订阅——科技网络_177
-      - 欧洲感谢订阅——科技网络_178
-      - 美国感谢订阅——科技网络_179
-      - 加拿大感谢订阅——科技网络_180
-      - 欧洲感谢订阅——科技网络_181
-      - 欧洲感谢订阅——科技网络_182
-      - 美国感谢订阅——科技网络_183
-      - 欧洲感谢订阅——科技网络_184
-      - 新加坡感谢订阅——科技网络_185
-      - 美国感谢订阅——科技网络_186
-      - 新加坡感谢订阅——科技网络_187
-      - 新加坡感谢订阅——科技网络_188
-      - 加拿大感谢订阅——科技网络_189
-      - 欧洲感谢订阅——科技网络_190
-      - 美国感谢订阅——科技网络_191
-      - 台湾感谢订阅——科技网络_192
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_194
-      - 新加坡感谢订阅——科技网络_195
-      - 欧洲感谢订阅——科技网络_196
-      - 台湾感谢订阅——科技网络_197
-      - 台湾感谢订阅——科技网络_198
-      - 欧洲感谢订阅——科技网络_199
-      - 欧洲感谢订阅——科技网络_200
-      - 意大利感谢订阅——科技网络_201
-      - 挪威感谢订阅——科技网络_202
-      - 欧洲感谢订阅——科技网络_203
-      - 新加坡感谢订阅——科技网络_204
-      - 意大利感谢订阅——科技网络_205
-      - 台湾感谢订阅——科技网络_206
-      - 台湾感谢订阅——科技网络_207
-      - 美国感谢订阅——科技网络_208
-      - 欧洲感谢订阅——科技网络_209
-      - 美国感谢订阅——科技网络_210
-      - 美国感谢订阅——科技网络_211
-      - 香港感谢订阅——科技网络_212
-      - 台湾感谢订阅——科技网络_213
-      - 香港感谢订阅——科技网络_214
-      - 台湾感谢订阅——科技网络_215
-      - 欧洲感谢订阅——科技网络_216
-      - 台湾感谢订阅——科技网络_217
-      - 欧洲感谢订阅——科技网络_218
-      - 美国感谢订阅——科技网络_219
-      - 法国感谢订阅——科技网络_220
-      - 美国感谢订阅——科技网络_221
-      - 欧洲感谢订阅——科技网络_222
+      - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - default_name_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇰🇷_KR_韩国_36
+      - 🇺🇦_UA_乌克兰_37
+      - 🇺🇸_US_美国_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇨🇦_CA_加拿大_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇺🇸_US_美国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇨🇦_CA_加拿大_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇨🇦_CA_加拿大_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇺🇸_US_美国_62
+      - 🇨🇦_CA_加拿大_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇨🇦_CA_加拿大_65
+      - 🇨🇦_CA_加拿大_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇬🇧_GB_英国_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇨🇦_CA_加拿大_73
+      - 🇺🇸_US_美国_74
+      - 🇨🇦_CA_加拿大_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇨🇦_CA_加拿大_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇨🇦_CA_加拿大_82
+      - 🇨🇦_CA_加拿大_83
+      - 🇺🇸_US_美国_84
+      - 🇬🇧_GB_英国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇨🇦_CA_加拿大_89
+      - 🇺🇸_US_美国_90
+      - 🇬🇧_GB_英国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇬🇧_GB_英国_93
+      - 🇬🇧_GB_英国_94
+      - 🇬🇧_GB_英国_95
+      - 🇺🇸_US_美国_96
+      - 🇨🇦_CA_加拿大_97
+      - 🇨🇦_CA_加拿大_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇬🇧_GB_英国_101
+      - 🇨🇦_CA_加拿大_102
+      - 🇬🇧_GB_英国_103
+      - 🇬🇧_GB_英国_104
+      - 🇸🇪_SE_瑞典_105
+      - 🇺🇸_US_美国_106
+      - 🇬🇧_GB_英国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇨🇦_CA_加拿大_110
+      - 🇺🇸_US_美国_111
+      - 🇷🇺_RU_俄罗斯联邦_112
+      - 🇺🇸_US_美国_113
+      - 🇨🇦_CA_加拿大_114
+      - 🇺🇸_US_美国_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇬🇧_GB_英国_117
+      - 🇺🇸_US_美国_118
+      - 🇰🇷_KR_韩国_119
+      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_120
+      - 🇨🇦_CA_加拿大_121
+      - default_name_122
+      - 🇫🇷_FR_法国_123
+      - 🇫🇷_FR_法国_124
+      - 🇨🇦_CA_加拿大_125
+      - 🇸🇬_SG_新加坡_126
+      - 🇦🇺_AU_澳大利亚_127
+      - 🇬🇧_GB_英国_128
+      - default_name_129
+      - 🇺🇸_US_美国_130
+      - 🇨🇦_CA_加拿大_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇰🇷_KR_韩国_133
+      - 🇺🇸_US_美国_134
+      - 🇳🇴_NO_挪威_135
+      - 🇨🇦_CA_加拿大_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇮🇱_IL_以色列_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇳🇴_NO_挪威_142
+      - default_name_143
+      - 🇨🇦_CA_加拿大_144
+      - 🇺🇸_US_美国_145
+      - 🇳🇴_NO_挪威_146
+      - 🇨🇦_CA_加拿大_147
+      - 🇨🇦_CA_加拿大_148
+      - 🇩🇪_DE_德国_149
+      - 🇫🇷_FR_法国_150
+      - 🇨🇦_CA_加拿大_151
+      - 🇬🇧_GB_英国_152
+      - 🇳🇴_NO_挪威_153
+      - 🇺🇸_US_美国_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇩🇪_DE_德国_156
+      - 🇪🇸_ES_西班牙_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇳🇴_NO_挪威_161
+      - 🇭🇰_HK_香港_162
+      - 🇮🇳_IN_印度_163
+      - 🇮🇳_IN_印度_164
+      - 🇫🇷_FR_法国_165
+      - 🇮🇳_IN_印度_166
+      - 🇩🇪_DE_德国_167
+      - default_name_168
+      - default_name_169
+      - 🇮🇳_IN_印度_170
+      - 🇨🇦_CA_加拿大_171
+      - 🇮🇳_IN_印度_172
+      - 🇮🇳_IN_印度_173
+      - 🇳🇴_NO_挪威_174
+      - 🇨🇦_CA_加拿大_175
+      - 🇮🇳_IN_印度_176
+      - 🇮🇳_IN_印度_177
+      - 🇺🇸_US_美国_178
+      - 🇫🇷_FR_法国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇨🇦_CA_加拿大_181
+      - 🇰🇷_KR_韩国_182
+      - 🇨🇦_CA_加拿大_183
+      - 🇸🇬_SG_新加坡_184
+      - 🇳🇴_NO_挪威_185
+      - 🇫🇷_FR_法国_186
+      - 🇸🇬_SG_新加坡_187
+      - 🇺🇸_US_美国_188
+      - 🇫🇷_FR_法国_189
+      - 🇷🇺_RU_俄罗斯联邦_190
+      - 🇮🇳_IN_印度_191
+      - 🇨🇦_CA_加拿大_192
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 法国感谢订阅——科技网络_1
-      - 挪威感谢订阅——科技网络_2
-      - 香港感谢订阅——科技网络_3
-      - 台湾感谢订阅——科技网络_4
-      - 欧洲感谢订阅——科技网络_5
-      - 欧洲感谢订阅——科技网络_6
-      - 法国感谢订阅——科技网络_7
-      - 美国感谢订阅——科技网络_8
-      - 台湾感谢订阅——科技网络_9
-      - 美国感谢订阅——科技网络_10
-      - 德国感谢订阅——科技网络_11
-      - 美国感谢订阅——科技网络_12
-      - 挪威感谢订阅——科技网络_13
-      - 欧洲感谢订阅——科技网络_14
-      - 美国感谢订阅——科技网络_15
-      - 欧洲感谢订阅——科技网络_16
-      - 澳大利亚感谢订阅——科技网络_17
-      - 新加坡感谢订阅——科技网络_18
-      - 欧洲感谢订阅——科技网络_19
-      - 新加坡感谢订阅——科技网络_20
-      - 美国感谢订阅——科技网络_21
-      - 美国感谢订阅——科技网络_22
-      - 加拿大感谢订阅——科技网络_23
-      - 欧洲感谢订阅——科技网络_24
-      - 欧洲感谢订阅——科技网络_25
-      - 欧洲感谢订阅——科技网络_26
-      - 美国感谢订阅——科技网络_27
-      - 加拿大感谢订阅——科技网络_28
-      - 香港感谢订阅——科技网络_29
-      - 新加坡感谢订阅——科技网络_30
-      - 香港感谢订阅——科技网络_31
-      - 加拿大感谢订阅——科技网络_32
-      - 法国感谢订阅——科技网络_33
-      - 欧洲感谢订阅——科技网络_34
-      - 香港感谢订阅——科技网络_35
-      - 香港感谢订阅——科技网络_36
-      - 香港感谢订阅——科技网络_37
-      - 美国感谢订阅——科技网络_38
-      - 欧洲感谢订阅——科技网络_39
-      - 香港感谢订阅——科技网络_40
-      - 美国感谢订阅——科技网络_41
-      - 挪威感谢订阅——科技网络_42
-      - 挪威感谢订阅——科技网络_43
-      - 日本感谢订阅——科技网络_44
-      - 法国感谢订阅——科技网络_45
-      - 台湾感谢订阅——科技网络_46
-      - 台湾感谢订阅——科技网络_47
-      - 挪威感谢订阅——科技网络_48
-      - 挪威感谢订阅——科技网络_49
-      - 欧洲感谢订阅——科技网络_50
-      - 新加坡感谢订阅——科技网络_51
-      - 台湾感谢订阅——科技网络_52
-      - 日本感谢订阅——科技网络_53
-      - 欧洲感谢订阅——科技网络_54
-      - 香港感谢订阅——科技网络_55
-      - 印度感谢订阅——科技网络_56
-      - 印度感谢订阅——科技网络_57
-      - 台湾感谢订阅——科技网络_58
-      - 美国感谢订阅——科技网络_59
-      - 印度感谢订阅——科技网络_60
-      - 欧洲感谢订阅——科技网络_61
-      - 印度感谢订阅——科技网络_62
-      - 欧洲感谢订阅——科技网络_63
-      - 印度感谢订阅——科技网络_64
-      - 印度感谢订阅——科技网络_65
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_67
-      - 印度感谢订阅——科技网络_68
-      - 台湾感谢订阅——科技网络_69
-      - 香港感谢订阅——科技网络_70
-      - 欧洲感谢订阅——科技网络_71
-      - 英国感谢订阅——科技网络_72
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_74
-      - 台湾感谢订阅——科技网络_75
-      - 法国感谢订阅——科技网络_76
-      - 加拿大感谢订阅——科技网络_77
-      - 欧洲感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_79
-      - 美国感谢订阅——科技网络_80
-      - 德国感谢订阅——科技网络_81
-      - 美国感谢订阅——科技网络_82
-      - 德国感谢订阅——科技网络_83
-      - 香港感谢订阅——科技网络_84
-      - 台湾感谢订阅——科技网络_85
-      - 欧洲感谢订阅——科技网络_86
-      - 美国感谢订阅——科技网络_87
-      - 美国感谢订阅——科技网络_88
-      - 法国感谢订阅——科技网络_89
-      - 台湾感谢订阅——科技网络_90
-      - 香港感谢订阅——科技网络_91
-      - 台湾感谢订阅——科技网络_92
-      - 美国感谢订阅——科技网络_93
-      - 美国感谢订阅——科技网络_94
-      - 美国感谢订阅——科技网络_95
-      - 法国感谢订阅——科技网络_96
-      - 美国感谢订阅——科技网络_97
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_99
-      - 欧洲感谢订阅——科技网络_100
-      - 欧洲感谢订阅——科技网络_101
-      - 新加坡感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_103
-      - 挪威感谢订阅——科技网络_104
-      - 香港感谢订阅——科技网络_105
-      - 美国感谢订阅——科技网络_106
-      - 意大利感谢订阅——科技网络_107
-      - 美国感谢订阅——科技网络_108
-      - 美国感谢订阅——科技网络_109
-      - 美国感谢订阅——科技网络_110
-      - 美国感谢订阅——科技网络_111
-      - 美国感谢订阅——科技网络_112
-      - 美国感谢订阅——科技网络_113
-      - 美国感谢订阅——科技网络_114
-      - 美国感谢订阅——科技网络_115
-      - 美国感谢订阅——科技网络_116
-      - 美国感谢订阅——科技网络_117
-      - 加拿大感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_119
-      - 美国感谢订阅——科技网络_120
-      - 美国感谢订阅——科技网络_121
-      - 法国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_123
-      - 美国感谢订阅——科技网络_124
-      - 美国感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_126
-      - 香港感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_128
-      - 挪威感谢订阅——科技网络_129
-      - 香港感谢订阅——科技网络_130
-      - 日本感谢订阅——科技网络_131
-      - 美国感谢订阅——科技网络_132
-      - 日本感谢订阅——科技网络_133
-      - 美国感谢订阅——科技网络_134
-      - 挪威感谢订阅——科技网络_135
-      - 新加坡感谢订阅——科技网络_136
-      - 美国感谢订阅——科技网络_137
-      - 欧洲感谢订阅——科技网络_138
-      - 挪威感谢订阅——科技网络_139
-      - 美国感谢订阅——科技网络_140
-      - 美国感谢订阅——科技网络_141
-      - 美国感谢订阅——科技网络_142
-      - 美国感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_144
-      - 美国感谢订阅——科技网络_145
-      - 美国感谢订阅——科技网络_146
-      - 美国感谢订阅——科技网络_147
-      - 美国感谢订阅——科技网络_148
-      - 美国感谢订阅——科技网络_149
-      - 香港感谢订阅——科技网络_150
-      - 美国感谢订阅——科技网络_151
-      - 日本感谢订阅——科技网络_152
-      - 挪威感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_154
-      - 美国感谢订阅——科技网络_155
-      - 欧洲感谢订阅——科技网络_156
-      - 加拿大感谢订阅——科技网络_157
-      - 德国感谢订阅——科技网络_158
-      - 美国感谢订阅——科技网络_159
-      - 加拿大感谢订阅——科技网络_160
-      - 加拿大感谢订阅——科技网络_161
-      - 美国感谢订阅——科技网络_162
-      - 美国感谢订阅——科技网络_163
-      - 加拿大感谢订阅——科技网络_164
-      - 加拿大感谢订阅——科技网络_165
-      - 加拿大感谢订阅——科技网络_166
-      - 加拿大感谢订阅——科技网络_167
-      - 加拿大感谢订阅——科技网络_168
-      - 加拿大感谢订阅——科技网络_169
-      - 加拿大感谢订阅——科技网络_170
-      - 加拿大感谢订阅——科技网络_171
-      - 欧洲感谢订阅——科技网络_172
-      - 欧洲感谢订阅——科技网络_173
-      - 欧洲感谢订阅——科技网络_174
-      - 欧洲感谢订阅——科技网络_175
-      - 意大利感谢订阅——科技网络_176
-      - 加拿大感谢订阅——科技网络_177
-      - 欧洲感谢订阅——科技网络_178
-      - 美国感谢订阅——科技网络_179
-      - 加拿大感谢订阅——科技网络_180
-      - 欧洲感谢订阅——科技网络_181
-      - 欧洲感谢订阅——科技网络_182
-      - 美国感谢订阅——科技网络_183
-      - 欧洲感谢订阅——科技网络_184
-      - 新加坡感谢订阅——科技网络_185
-      - 美国感谢订阅——科技网络_186
-      - 新加坡感谢订阅——科技网络_187
-      - 新加坡感谢订阅——科技网络_188
-      - 加拿大感谢订阅——科技网络_189
-      - 欧洲感谢订阅——科技网络_190
-      - 美国感谢订阅——科技网络_191
-      - 台湾感谢订阅——科技网络_192
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_194
-      - 新加坡感谢订阅——科技网络_195
-      - 欧洲感谢订阅——科技网络_196
-      - 台湾感谢订阅——科技网络_197
-      - 台湾感谢订阅——科技网络_198
-      - 欧洲感谢订阅——科技网络_199
-      - 欧洲感谢订阅——科技网络_200
-      - 意大利感谢订阅——科技网络_201
-      - 挪威感谢订阅——科技网络_202
-      - 欧洲感谢订阅——科技网络_203
-      - 新加坡感谢订阅——科技网络_204
-      - 意大利感谢订阅——科技网络_205
-      - 台湾感谢订阅——科技网络_206
-      - 台湾感谢订阅——科技网络_207
-      - 美国感谢订阅——科技网络_208
-      - 欧洲感谢订阅——科技网络_209
-      - 美国感谢订阅——科技网络_210
-      - 美国感谢订阅——科技网络_211
-      - 香港感谢订阅——科技网络_212
-      - 台湾感谢订阅——科技网络_213
-      - 香港感谢订阅——科技网络_214
-      - 台湾感谢订阅——科技网络_215
-      - 欧洲感谢订阅——科技网络_216
-      - 台湾感谢订阅——科技网络_217
-      - 欧洲感谢订阅——科技网络_218
-      - 美国感谢订阅——科技网络_219
-      - 法国感谢订阅——科技网络_220
-      - 美国感谢订阅——科技网络_221
-      - 欧洲感谢订阅——科技网络_222
+      - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - default_name_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇰🇷_KR_韩国_36
+      - 🇺🇦_UA_乌克兰_37
+      - 🇺🇸_US_美国_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇨🇦_CA_加拿大_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇺🇸_US_美国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇨🇦_CA_加拿大_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇨🇦_CA_加拿大_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇺🇸_US_美国_62
+      - 🇨🇦_CA_加拿大_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇨🇦_CA_加拿大_65
+      - 🇨🇦_CA_加拿大_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇬🇧_GB_英国_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇨🇦_CA_加拿大_73
+      - 🇺🇸_US_美国_74
+      - 🇨🇦_CA_加拿大_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇨🇦_CA_加拿大_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇨🇦_CA_加拿大_82
+      - 🇨🇦_CA_加拿大_83
+      - 🇺🇸_US_美国_84
+      - 🇬🇧_GB_英国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇨🇦_CA_加拿大_89
+      - 🇺🇸_US_美国_90
+      - 🇬🇧_GB_英国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇬🇧_GB_英国_93
+      - 🇬🇧_GB_英国_94
+      - 🇬🇧_GB_英国_95
+      - 🇺🇸_US_美国_96
+      - 🇨🇦_CA_加拿大_97
+      - 🇨🇦_CA_加拿大_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇬🇧_GB_英国_101
+      - 🇨🇦_CA_加拿大_102
+      - 🇬🇧_GB_英国_103
+      - 🇬🇧_GB_英国_104
+      - 🇸🇪_SE_瑞典_105
+      - 🇺🇸_US_美国_106
+      - 🇬🇧_GB_英国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇨🇦_CA_加拿大_110
+      - 🇺🇸_US_美国_111
+      - 🇷🇺_RU_俄罗斯联邦_112
+      - 🇺🇸_US_美国_113
+      - 🇨🇦_CA_加拿大_114
+      - 🇺🇸_US_美国_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇬🇧_GB_英国_117
+      - 🇺🇸_US_美国_118
+      - 🇰🇷_KR_韩国_119
+      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_120
+      - 🇨🇦_CA_加拿大_121
+      - default_name_122
+      - 🇫🇷_FR_法国_123
+      - 🇫🇷_FR_法国_124
+      - 🇨🇦_CA_加拿大_125
+      - 🇸🇬_SG_新加坡_126
+      - 🇦🇺_AU_澳大利亚_127
+      - 🇬🇧_GB_英国_128
+      - default_name_129
+      - 🇺🇸_US_美国_130
+      - 🇨🇦_CA_加拿大_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇰🇷_KR_韩国_133
+      - 🇺🇸_US_美国_134
+      - 🇳🇴_NO_挪威_135
+      - 🇨🇦_CA_加拿大_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇮🇱_IL_以色列_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇳🇴_NO_挪威_142
+      - default_name_143
+      - 🇨🇦_CA_加拿大_144
+      - 🇺🇸_US_美国_145
+      - 🇳🇴_NO_挪威_146
+      - 🇨🇦_CA_加拿大_147
+      - 🇨🇦_CA_加拿大_148
+      - 🇩🇪_DE_德国_149
+      - 🇫🇷_FR_法国_150
+      - 🇨🇦_CA_加拿大_151
+      - 🇬🇧_GB_英国_152
+      - 🇳🇴_NO_挪威_153
+      - 🇺🇸_US_美国_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇩🇪_DE_德国_156
+      - 🇪🇸_ES_西班牙_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇳🇴_NO_挪威_161
+      - 🇭🇰_HK_香港_162
+      - 🇮🇳_IN_印度_163
+      - 🇮🇳_IN_印度_164
+      - 🇫🇷_FR_法国_165
+      - 🇮🇳_IN_印度_166
+      - 🇩🇪_DE_德国_167
+      - default_name_168
+      - default_name_169
+      - 🇮🇳_IN_印度_170
+      - 🇨🇦_CA_加拿大_171
+      - 🇮🇳_IN_印度_172
+      - 🇮🇳_IN_印度_173
+      - 🇳🇴_NO_挪威_174
+      - 🇨🇦_CA_加拿大_175
+      - 🇮🇳_IN_印度_176
+      - 🇮🇳_IN_印度_177
+      - 🇺🇸_US_美国_178
+      - 🇫🇷_FR_法国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇨🇦_CA_加拿大_181
+      - 🇰🇷_KR_韩国_182
+      - 🇨🇦_CA_加拿大_183
+      - 🇸🇬_SG_新加坡_184
+      - 🇳🇴_NO_挪威_185
+      - 🇫🇷_FR_法国_186
+      - 🇸🇬_SG_新加坡_187
+      - 🇺🇸_US_美国_188
+      - 🇫🇷_FR_法国_189
+      - 🇷🇺_RU_俄罗斯联邦_190
+      - 🇮🇳_IN_印度_191
+      - 🇨🇦_CA_加拿大_192
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 法国感谢订阅——科技网络_1
-      - 挪威感谢订阅——科技网络_2
-      - 香港感谢订阅——科技网络_3
-      - 台湾感谢订阅——科技网络_4
-      - 欧洲感谢订阅——科技网络_5
-      - 欧洲感谢订阅——科技网络_6
-      - 法国感谢订阅——科技网络_7
-      - 美国感谢订阅——科技网络_8
-      - 台湾感谢订阅——科技网络_9
-      - 美国感谢订阅——科技网络_10
-      - 德国感谢订阅——科技网络_11
-      - 美国感谢订阅——科技网络_12
-      - 挪威感谢订阅——科技网络_13
-      - 欧洲感谢订阅——科技网络_14
-      - 美国感谢订阅——科技网络_15
-      - 欧洲感谢订阅——科技网络_16
-      - 澳大利亚感谢订阅——科技网络_17
-      - 新加坡感谢订阅——科技网络_18
-      - 欧洲感谢订阅——科技网络_19
-      - 新加坡感谢订阅——科技网络_20
-      - 美国感谢订阅——科技网络_21
-      - 美国感谢订阅——科技网络_22
-      - 加拿大感谢订阅——科技网络_23
-      - 欧洲感谢订阅——科技网络_24
-      - 欧洲感谢订阅——科技网络_25
-      - 欧洲感谢订阅——科技网络_26
-      - 美国感谢订阅——科技网络_27
-      - 加拿大感谢订阅——科技网络_28
-      - 香港感谢订阅——科技网络_29
-      - 新加坡感谢订阅——科技网络_30
-      - 香港感谢订阅——科技网络_31
-      - 加拿大感谢订阅——科技网络_32
-      - 法国感谢订阅——科技网络_33
-      - 欧洲感谢订阅——科技网络_34
-      - 香港感谢订阅——科技网络_35
-      - 香港感谢订阅——科技网络_36
-      - 香港感谢订阅——科技网络_37
-      - 美国感谢订阅——科技网络_38
-      - 欧洲感谢订阅——科技网络_39
-      - 香港感谢订阅——科技网络_40
-      - 美国感谢订阅——科技网络_41
-      - 挪威感谢订阅——科技网络_42
-      - 挪威感谢订阅——科技网络_43
-      - 日本感谢订阅——科技网络_44
-      - 法国感谢订阅——科技网络_45
-      - 台湾感谢订阅——科技网络_46
-      - 台湾感谢订阅——科技网络_47
-      - 挪威感谢订阅——科技网络_48
-      - 挪威感谢订阅——科技网络_49
-      - 欧洲感谢订阅——科技网络_50
-      - 新加坡感谢订阅——科技网络_51
-      - 台湾感谢订阅——科技网络_52
-      - 日本感谢订阅——科技网络_53
-      - 欧洲感谢订阅——科技网络_54
-      - 香港感谢订阅——科技网络_55
-      - 印度感谢订阅——科技网络_56
-      - 印度感谢订阅——科技网络_57
-      - 台湾感谢订阅——科技网络_58
-      - 美国感谢订阅——科技网络_59
-      - 印度感谢订阅——科技网络_60
-      - 欧洲感谢订阅——科技网络_61
-      - 印度感谢订阅——科技网络_62
-      - 欧洲感谢订阅——科技网络_63
-      - 印度感谢订阅——科技网络_64
-      - 印度感谢订阅——科技网络_65
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_67
-      - 印度感谢订阅——科技网络_68
-      - 台湾感谢订阅——科技网络_69
-      - 香港感谢订阅——科技网络_70
-      - 欧洲感谢订阅——科技网络_71
-      - 英国感谢订阅——科技网络_72
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_74
-      - 台湾感谢订阅——科技网络_75
-      - 法国感谢订阅——科技网络_76
-      - 加拿大感谢订阅——科技网络_77
-      - 欧洲感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_79
-      - 美国感谢订阅——科技网络_80
-      - 德国感谢订阅——科技网络_81
-      - 美国感谢订阅——科技网络_82
-      - 德国感谢订阅——科技网络_83
-      - 香港感谢订阅——科技网络_84
-      - 台湾感谢订阅——科技网络_85
-      - 欧洲感谢订阅——科技网络_86
-      - 美国感谢订阅——科技网络_87
-      - 美国感谢订阅——科技网络_88
-      - 法国感谢订阅——科技网络_89
-      - 台湾感谢订阅——科技网络_90
-      - 香港感谢订阅——科技网络_91
-      - 台湾感谢订阅——科技网络_92
-      - 美国感谢订阅——科技网络_93
-      - 美国感谢订阅——科技网络_94
-      - 美国感谢订阅——科技网络_95
-      - 法国感谢订阅——科技网络_96
-      - 美国感谢订阅——科技网络_97
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_99
-      - 欧洲感谢订阅——科技网络_100
-      - 欧洲感谢订阅——科技网络_101
-      - 新加坡感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_103
-      - 挪威感谢订阅——科技网络_104
-      - 香港感谢订阅——科技网络_105
-      - 美国感谢订阅——科技网络_106
-      - 意大利感谢订阅——科技网络_107
-      - 美国感谢订阅——科技网络_108
-      - 美国感谢订阅——科技网络_109
-      - 美国感谢订阅——科技网络_110
-      - 美国感谢订阅——科技网络_111
-      - 美国感谢订阅——科技网络_112
-      - 美国感谢订阅——科技网络_113
-      - 美国感谢订阅——科技网络_114
-      - 美国感谢订阅——科技网络_115
-      - 美国感谢订阅——科技网络_116
-      - 美国感谢订阅——科技网络_117
-      - 加拿大感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_119
-      - 美国感谢订阅——科技网络_120
-      - 美国感谢订阅——科技网络_121
-      - 法国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_123
-      - 美国感谢订阅——科技网络_124
-      - 美国感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_126
-      - 香港感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_128
-      - 挪威感谢订阅——科技网络_129
-      - 香港感谢订阅——科技网络_130
-      - 日本感谢订阅——科技网络_131
-      - 美国感谢订阅——科技网络_132
-      - 日本感谢订阅——科技网络_133
-      - 美国感谢订阅——科技网络_134
-      - 挪威感谢订阅——科技网络_135
-      - 新加坡感谢订阅——科技网络_136
-      - 美国感谢订阅——科技网络_137
-      - 欧洲感谢订阅——科技网络_138
-      - 挪威感谢订阅——科技网络_139
-      - 美国感谢订阅——科技网络_140
-      - 美国感谢订阅——科技网络_141
-      - 美国感谢订阅——科技网络_142
-      - 美国感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_144
-      - 美国感谢订阅——科技网络_145
-      - 美国感谢订阅——科技网络_146
-      - 美国感谢订阅——科技网络_147
-      - 美国感谢订阅——科技网络_148
-      - 美国感谢订阅——科技网络_149
-      - 香港感谢订阅——科技网络_150
-      - 美国感谢订阅——科技网络_151
-      - 日本感谢订阅——科技网络_152
-      - 挪威感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_154
-      - 美国感谢订阅——科技网络_155
-      - 欧洲感谢订阅——科技网络_156
-      - 加拿大感谢订阅——科技网络_157
-      - 德国感谢订阅——科技网络_158
-      - 美国感谢订阅——科技网络_159
-      - 加拿大感谢订阅——科技网络_160
-      - 加拿大感谢订阅——科技网络_161
-      - 美国感谢订阅——科技网络_162
-      - 美国感谢订阅——科技网络_163
-      - 加拿大感谢订阅——科技网络_164
-      - 加拿大感谢订阅——科技网络_165
-      - 加拿大感谢订阅——科技网络_166
-      - 加拿大感谢订阅——科技网络_167
-      - 加拿大感谢订阅——科技网络_168
-      - 加拿大感谢订阅——科技网络_169
-      - 加拿大感谢订阅——科技网络_170
-      - 加拿大感谢订阅——科技网络_171
-      - 欧洲感谢订阅——科技网络_172
-      - 欧洲感谢订阅——科技网络_173
-      - 欧洲感谢订阅——科技网络_174
-      - 欧洲感谢订阅——科技网络_175
-      - 意大利感谢订阅——科技网络_176
-      - 加拿大感谢订阅——科技网络_177
-      - 欧洲感谢订阅——科技网络_178
-      - 美国感谢订阅——科技网络_179
-      - 加拿大感谢订阅——科技网络_180
-      - 欧洲感谢订阅——科技网络_181
-      - 欧洲感谢订阅——科技网络_182
-      - 美国感谢订阅——科技网络_183
-      - 欧洲感谢订阅——科技网络_184
-      - 新加坡感谢订阅——科技网络_185
-      - 美国感谢订阅——科技网络_186
-      - 新加坡感谢订阅——科技网络_187
-      - 新加坡感谢订阅——科技网络_188
-      - 加拿大感谢订阅——科技网络_189
-      - 欧洲感谢订阅——科技网络_190
-      - 美国感谢订阅——科技网络_191
-      - 台湾感谢订阅——科技网络_192
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_194
-      - 新加坡感谢订阅——科技网络_195
-      - 欧洲感谢订阅——科技网络_196
-      - 台湾感谢订阅——科技网络_197
-      - 台湾感谢订阅——科技网络_198
-      - 欧洲感谢订阅——科技网络_199
-      - 欧洲感谢订阅——科技网络_200
-      - 意大利感谢订阅——科技网络_201
-      - 挪威感谢订阅——科技网络_202
-      - 欧洲感谢订阅——科技网络_203
-      - 新加坡感谢订阅——科技网络_204
-      - 意大利感谢订阅——科技网络_205
-      - 台湾感谢订阅——科技网络_206
-      - 台湾感谢订阅——科技网络_207
-      - 美国感谢订阅——科技网络_208
-      - 欧洲感谢订阅——科技网络_209
-      - 美国感谢订阅——科技网络_210
-      - 美国感谢订阅——科技网络_211
-      - 香港感谢订阅——科技网络_212
-      - 台湾感谢订阅——科技网络_213
-      - 香港感谢订阅——科技网络_214
-      - 台湾感谢订阅——科技网络_215
-      - 欧洲感谢订阅——科技网络_216
-      - 台湾感谢订阅——科技网络_217
-      - 欧洲感谢订阅——科技网络_218
-      - 美国感谢订阅——科技网络_219
-      - 法国感谢订阅——科技网络_220
-      - 美国感谢订阅——科技网络_221
-      - 欧洲感谢订阅——科技网络_222
+      - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - default_name_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇰🇷_KR_韩国_36
+      - 🇺🇦_UA_乌克兰_37
+      - 🇺🇸_US_美国_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇨🇦_CA_加拿大_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇺🇸_US_美国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇨🇦_CA_加拿大_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇨🇦_CA_加拿大_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇺🇸_US_美国_62
+      - 🇨🇦_CA_加拿大_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇨🇦_CA_加拿大_65
+      - 🇨🇦_CA_加拿大_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇬🇧_GB_英国_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇨🇦_CA_加拿大_73
+      - 🇺🇸_US_美国_74
+      - 🇨🇦_CA_加拿大_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇨🇦_CA_加拿大_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇨🇦_CA_加拿大_82
+      - 🇨🇦_CA_加拿大_83
+      - 🇺🇸_US_美国_84
+      - 🇬🇧_GB_英国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇨🇦_CA_加拿大_89
+      - 🇺🇸_US_美国_90
+      - 🇬🇧_GB_英国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇬🇧_GB_英国_93
+      - 🇬🇧_GB_英国_94
+      - 🇬🇧_GB_英国_95
+      - 🇺🇸_US_美国_96
+      - 🇨🇦_CA_加拿大_97
+      - 🇨🇦_CA_加拿大_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇬🇧_GB_英国_101
+      - 🇨🇦_CA_加拿大_102
+      - 🇬🇧_GB_英国_103
+      - 🇬🇧_GB_英国_104
+      - 🇸🇪_SE_瑞典_105
+      - 🇺🇸_US_美国_106
+      - 🇬🇧_GB_英国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇨🇦_CA_加拿大_110
+      - 🇺🇸_US_美国_111
+      - 🇷🇺_RU_俄罗斯联邦_112
+      - 🇺🇸_US_美国_113
+      - 🇨🇦_CA_加拿大_114
+      - 🇺🇸_US_美国_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇬🇧_GB_英国_117
+      - 🇺🇸_US_美国_118
+      - 🇰🇷_KR_韩国_119
+      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_120
+      - 🇨🇦_CA_加拿大_121
+      - default_name_122
+      - 🇫🇷_FR_法国_123
+      - 🇫🇷_FR_法国_124
+      - 🇨🇦_CA_加拿大_125
+      - 🇸🇬_SG_新加坡_126
+      - 🇦🇺_AU_澳大利亚_127
+      - 🇬🇧_GB_英国_128
+      - default_name_129
+      - 🇺🇸_US_美国_130
+      - 🇨🇦_CA_加拿大_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇰🇷_KR_韩国_133
+      - 🇺🇸_US_美国_134
+      - 🇳🇴_NO_挪威_135
+      - 🇨🇦_CA_加拿大_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇮🇱_IL_以色列_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇳🇴_NO_挪威_142
+      - default_name_143
+      - 🇨🇦_CA_加拿大_144
+      - 🇺🇸_US_美国_145
+      - 🇳🇴_NO_挪威_146
+      - 🇨🇦_CA_加拿大_147
+      - 🇨🇦_CA_加拿大_148
+      - 🇩🇪_DE_德国_149
+      - 🇫🇷_FR_法国_150
+      - 🇨🇦_CA_加拿大_151
+      - 🇬🇧_GB_英国_152
+      - 🇳🇴_NO_挪威_153
+      - 🇺🇸_US_美国_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇩🇪_DE_德国_156
+      - 🇪🇸_ES_西班牙_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇳🇴_NO_挪威_161
+      - 🇭🇰_HK_香港_162
+      - 🇮🇳_IN_印度_163
+      - 🇮🇳_IN_印度_164
+      - 🇫🇷_FR_法国_165
+      - 🇮🇳_IN_印度_166
+      - 🇩🇪_DE_德国_167
+      - default_name_168
+      - default_name_169
+      - 🇮🇳_IN_印度_170
+      - 🇨🇦_CA_加拿大_171
+      - 🇮🇳_IN_印度_172
+      - 🇮🇳_IN_印度_173
+      - 🇳🇴_NO_挪威_174
+      - 🇨🇦_CA_加拿大_175
+      - 🇮🇳_IN_印度_176
+      - 🇮🇳_IN_印度_177
+      - 🇺🇸_US_美国_178
+      - 🇫🇷_FR_法国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇨🇦_CA_加拿大_181
+      - 🇰🇷_KR_韩国_182
+      - 🇨🇦_CA_加拿大_183
+      - 🇸🇬_SG_新加坡_184
+      - 🇳🇴_NO_挪威_185
+      - 🇫🇷_FR_法国_186
+      - 🇸🇬_SG_新加坡_187
+      - 🇺🇸_US_美国_188
+      - 🇫🇷_FR_法国_189
+      - 🇷🇺_RU_俄罗斯联邦_190
+      - 🇮🇳_IN_印度_191
+      - 🇨🇦_CA_加拿大_192
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 法国感谢订阅——科技网络_1
-      - 挪威感谢订阅——科技网络_2
-      - 香港感谢订阅——科技网络_3
-      - 台湾感谢订阅——科技网络_4
-      - 欧洲感谢订阅——科技网络_5
-      - 欧洲感谢订阅——科技网络_6
-      - 法国感谢订阅——科技网络_7
-      - 美国感谢订阅——科技网络_8
-      - 台湾感谢订阅——科技网络_9
-      - 美国感谢订阅——科技网络_10
-      - 德国感谢订阅——科技网络_11
-      - 美国感谢订阅——科技网络_12
-      - 挪威感谢订阅——科技网络_13
-      - 欧洲感谢订阅——科技网络_14
-      - 美国感谢订阅——科技网络_15
-      - 欧洲感谢订阅——科技网络_16
-      - 澳大利亚感谢订阅——科技网络_17
-      - 新加坡感谢订阅——科技网络_18
-      - 欧洲感谢订阅——科技网络_19
-      - 新加坡感谢订阅——科技网络_20
-      - 美国感谢订阅——科技网络_21
-      - 美国感谢订阅——科技网络_22
-      - 加拿大感谢订阅——科技网络_23
-      - 欧洲感谢订阅——科技网络_24
-      - 欧洲感谢订阅——科技网络_25
-      - 欧洲感谢订阅——科技网络_26
-      - 美国感谢订阅——科技网络_27
-      - 加拿大感谢订阅——科技网络_28
-      - 香港感谢订阅——科技网络_29
-      - 新加坡感谢订阅——科技网络_30
-      - 香港感谢订阅——科技网络_31
-      - 加拿大感谢订阅——科技网络_32
-      - 法国感谢订阅——科技网络_33
-      - 欧洲感谢订阅——科技网络_34
-      - 香港感谢订阅——科技网络_35
-      - 香港感谢订阅——科技网络_36
-      - 香港感谢订阅——科技网络_37
-      - 美国感谢订阅——科技网络_38
-      - 欧洲感谢订阅——科技网络_39
-      - 香港感谢订阅——科技网络_40
-      - 美国感谢订阅——科技网络_41
-      - 挪威感谢订阅——科技网络_42
-      - 挪威感谢订阅——科技网络_43
-      - 日本感谢订阅——科技网络_44
-      - 法国感谢订阅——科技网络_45
-      - 台湾感谢订阅——科技网络_46
-      - 台湾感谢订阅——科技网络_47
-      - 挪威感谢订阅——科技网络_48
-      - 挪威感谢订阅——科技网络_49
-      - 欧洲感谢订阅——科技网络_50
-      - 新加坡感谢订阅——科技网络_51
-      - 台湾感谢订阅——科技网络_52
-      - 日本感谢订阅——科技网络_53
-      - 欧洲感谢订阅——科技网络_54
-      - 香港感谢订阅——科技网络_55
-      - 印度感谢订阅——科技网络_56
-      - 印度感谢订阅——科技网络_57
-      - 台湾感谢订阅——科技网络_58
-      - 美国感谢订阅——科技网络_59
-      - 印度感谢订阅——科技网络_60
-      - 欧洲感谢订阅——科技网络_61
-      - 印度感谢订阅——科技网络_62
-      - 欧洲感谢订阅——科技网络_63
-      - 印度感谢订阅——科技网络_64
-      - 印度感谢订阅——科技网络_65
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_67
-      - 印度感谢订阅——科技网络_68
-      - 台湾感谢订阅——科技网络_69
-      - 香港感谢订阅——科技网络_70
-      - 欧洲感谢订阅——科技网络_71
-      - 英国感谢订阅——科技网络_72
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_74
-      - 台湾感谢订阅——科技网络_75
-      - 法国感谢订阅——科技网络_76
-      - 加拿大感谢订阅——科技网络_77
-      - 欧洲感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_79
-      - 美国感谢订阅——科技网络_80
-      - 德国感谢订阅——科技网络_81
-      - 美国感谢订阅——科技网络_82
-      - 德国感谢订阅——科技网络_83
-      - 香港感谢订阅——科技网络_84
-      - 台湾感谢订阅——科技网络_85
-      - 欧洲感谢订阅——科技网络_86
-      - 美国感谢订阅——科技网络_87
-      - 美国感谢订阅——科技网络_88
-      - 法国感谢订阅——科技网络_89
-      - 台湾感谢订阅——科技网络_90
-      - 香港感谢订阅——科技网络_91
-      - 台湾感谢订阅——科技网络_92
-      - 美国感谢订阅——科技网络_93
-      - 美国感谢订阅——科技网络_94
-      - 美国感谢订阅——科技网络_95
-      - 法国感谢订阅——科技网络_96
-      - 美国感谢订阅——科技网络_97
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_99
-      - 欧洲感谢订阅——科技网络_100
-      - 欧洲感谢订阅——科技网络_101
-      - 新加坡感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_103
-      - 挪威感谢订阅——科技网络_104
-      - 香港感谢订阅——科技网络_105
-      - 美国感谢订阅——科技网络_106
-      - 意大利感谢订阅——科技网络_107
-      - 美国感谢订阅——科技网络_108
-      - 美国感谢订阅——科技网络_109
-      - 美国感谢订阅——科技网络_110
-      - 美国感谢订阅——科技网络_111
-      - 美国感谢订阅——科技网络_112
-      - 美国感谢订阅——科技网络_113
-      - 美国感谢订阅——科技网络_114
-      - 美国感谢订阅——科技网络_115
-      - 美国感谢订阅——科技网络_116
-      - 美国感谢订阅——科技网络_117
-      - 加拿大感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_119
-      - 美国感谢订阅——科技网络_120
-      - 美国感谢订阅——科技网络_121
-      - 法国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_123
-      - 美国感谢订阅——科技网络_124
-      - 美国感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_126
-      - 香港感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_128
-      - 挪威感谢订阅——科技网络_129
-      - 香港感谢订阅——科技网络_130
-      - 日本感谢订阅——科技网络_131
-      - 美国感谢订阅——科技网络_132
-      - 日本感谢订阅——科技网络_133
-      - 美国感谢订阅——科技网络_134
-      - 挪威感谢订阅——科技网络_135
-      - 新加坡感谢订阅——科技网络_136
-      - 美国感谢订阅——科技网络_137
-      - 欧洲感谢订阅——科技网络_138
-      - 挪威感谢订阅——科技网络_139
-      - 美国感谢订阅——科技网络_140
-      - 美国感谢订阅——科技网络_141
-      - 美国感谢订阅——科技网络_142
-      - 美国感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_144
-      - 美国感谢订阅——科技网络_145
-      - 美国感谢订阅——科技网络_146
-      - 美国感谢订阅——科技网络_147
-      - 美国感谢订阅——科技网络_148
-      - 美国感谢订阅——科技网络_149
-      - 香港感谢订阅——科技网络_150
-      - 美国感谢订阅——科技网络_151
-      - 日本感谢订阅——科技网络_152
-      - 挪威感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_154
-      - 美国感谢订阅——科技网络_155
-      - 欧洲感谢订阅——科技网络_156
-      - 加拿大感谢订阅——科技网络_157
-      - 德国感谢订阅——科技网络_158
-      - 美国感谢订阅——科技网络_159
-      - 加拿大感谢订阅——科技网络_160
-      - 加拿大感谢订阅——科技网络_161
-      - 美国感谢订阅——科技网络_162
-      - 美国感谢订阅——科技网络_163
-      - 加拿大感谢订阅——科技网络_164
-      - 加拿大感谢订阅——科技网络_165
-      - 加拿大感谢订阅——科技网络_166
-      - 加拿大感谢订阅——科技网络_167
-      - 加拿大感谢订阅——科技网络_168
-      - 加拿大感谢订阅——科技网络_169
-      - 加拿大感谢订阅——科技网络_170
-      - 加拿大感谢订阅——科技网络_171
-      - 欧洲感谢订阅——科技网络_172
-      - 欧洲感谢订阅——科技网络_173
-      - 欧洲感谢订阅——科技网络_174
-      - 欧洲感谢订阅——科技网络_175
-      - 意大利感谢订阅——科技网络_176
-      - 加拿大感谢订阅——科技网络_177
-      - 欧洲感谢订阅——科技网络_178
-      - 美国感谢订阅——科技网络_179
-      - 加拿大感谢订阅——科技网络_180
-      - 欧洲感谢订阅——科技网络_181
-      - 欧洲感谢订阅——科技网络_182
-      - 美国感谢订阅——科技网络_183
-      - 欧洲感谢订阅——科技网络_184
-      - 新加坡感谢订阅——科技网络_185
-      - 美国感谢订阅——科技网络_186
-      - 新加坡感谢订阅——科技网络_187
-      - 新加坡感谢订阅——科技网络_188
-      - 加拿大感谢订阅——科技网络_189
-      - 欧洲感谢订阅——科技网络_190
-      - 美国感谢订阅——科技网络_191
-      - 台湾感谢订阅——科技网络_192
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_194
-      - 新加坡感谢订阅——科技网络_195
-      - 欧洲感谢订阅——科技网络_196
-      - 台湾感谢订阅——科技网络_197
-      - 台湾感谢订阅——科技网络_198
-      - 欧洲感谢订阅——科技网络_199
-      - 欧洲感谢订阅——科技网络_200
-      - 意大利感谢订阅——科技网络_201
-      - 挪威感谢订阅——科技网络_202
-      - 欧洲感谢订阅——科技网络_203
-      - 新加坡感谢订阅——科技网络_204
-      - 意大利感谢订阅——科技网络_205
-      - 台湾感谢订阅——科技网络_206
-      - 台湾感谢订阅——科技网络_207
-      - 美国感谢订阅——科技网络_208
-      - 欧洲感谢订阅——科技网络_209
-      - 美国感谢订阅——科技网络_210
-      - 美国感谢订阅——科技网络_211
-      - 香港感谢订阅——科技网络_212
-      - 台湾感谢订阅——科技网络_213
-      - 香港感谢订阅——科技网络_214
-      - 台湾感谢订阅——科技网络_215
-      - 欧洲感谢订阅——科技网络_216
-      - 台湾感谢订阅——科技网络_217
-      - 欧洲感谢订阅——科技网络_218
-      - 美国感谢订阅——科技网络_219
-      - 法国感谢订阅——科技网络_220
-      - 美国感谢订阅——科技网络_221
-      - 欧洲感谢订阅——科技网络_222
+      - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - default_name_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇰🇷_KR_韩国_36
+      - 🇺🇦_UA_乌克兰_37
+      - 🇺🇸_US_美国_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇨🇦_CA_加拿大_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇺🇸_US_美国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇨🇦_CA_加拿大_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇨🇦_CA_加拿大_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇺🇸_US_美国_62
+      - 🇨🇦_CA_加拿大_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇨🇦_CA_加拿大_65
+      - 🇨🇦_CA_加拿大_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇬🇧_GB_英国_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇨🇦_CA_加拿大_73
+      - 🇺🇸_US_美国_74
+      - 🇨🇦_CA_加拿大_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇨🇦_CA_加拿大_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇨🇦_CA_加拿大_82
+      - 🇨🇦_CA_加拿大_83
+      - 🇺🇸_US_美国_84
+      - 🇬🇧_GB_英国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇨🇦_CA_加拿大_89
+      - 🇺🇸_US_美国_90
+      - 🇬🇧_GB_英国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇬🇧_GB_英国_93
+      - 🇬🇧_GB_英国_94
+      - 🇬🇧_GB_英国_95
+      - 🇺🇸_US_美国_96
+      - 🇨🇦_CA_加拿大_97
+      - 🇨🇦_CA_加拿大_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇬🇧_GB_英国_101
+      - 🇨🇦_CA_加拿大_102
+      - 🇬🇧_GB_英国_103
+      - 🇬🇧_GB_英国_104
+      - 🇸🇪_SE_瑞典_105
+      - 🇺🇸_US_美国_106
+      - 🇬🇧_GB_英国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇨🇦_CA_加拿大_110
+      - 🇺🇸_US_美国_111
+      - 🇷🇺_RU_俄罗斯联邦_112
+      - 🇺🇸_US_美国_113
+      - 🇨🇦_CA_加拿大_114
+      - 🇺🇸_US_美国_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇬🇧_GB_英国_117
+      - 🇺🇸_US_美国_118
+      - 🇰🇷_KR_韩国_119
+      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_120
+      - 🇨🇦_CA_加拿大_121
+      - default_name_122
+      - 🇫🇷_FR_法国_123
+      - 🇫🇷_FR_法国_124
+      - 🇨🇦_CA_加拿大_125
+      - 🇸🇬_SG_新加坡_126
+      - 🇦🇺_AU_澳大利亚_127
+      - 🇬🇧_GB_英国_128
+      - default_name_129
+      - 🇺🇸_US_美国_130
+      - 🇨🇦_CA_加拿大_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇰🇷_KR_韩国_133
+      - 🇺🇸_US_美国_134
+      - 🇳🇴_NO_挪威_135
+      - 🇨🇦_CA_加拿大_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇮🇱_IL_以色列_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇳🇴_NO_挪威_142
+      - default_name_143
+      - 🇨🇦_CA_加拿大_144
+      - 🇺🇸_US_美国_145
+      - 🇳🇴_NO_挪威_146
+      - 🇨🇦_CA_加拿大_147
+      - 🇨🇦_CA_加拿大_148
+      - 🇩🇪_DE_德国_149
+      - 🇫🇷_FR_法国_150
+      - 🇨🇦_CA_加拿大_151
+      - 🇬🇧_GB_英国_152
+      - 🇳🇴_NO_挪威_153
+      - 🇺🇸_US_美国_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇩🇪_DE_德国_156
+      - 🇪🇸_ES_西班牙_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇳🇴_NO_挪威_161
+      - 🇭🇰_HK_香港_162
+      - 🇮🇳_IN_印度_163
+      - 🇮🇳_IN_印度_164
+      - 🇫🇷_FR_法国_165
+      - 🇮🇳_IN_印度_166
+      - 🇩🇪_DE_德国_167
+      - default_name_168
+      - default_name_169
+      - 🇮🇳_IN_印度_170
+      - 🇨🇦_CA_加拿大_171
+      - 🇮🇳_IN_印度_172
+      - 🇮🇳_IN_印度_173
+      - 🇳🇴_NO_挪威_174
+      - 🇨🇦_CA_加拿大_175
+      - 🇮🇳_IN_印度_176
+      - 🇮🇳_IN_印度_177
+      - 🇺🇸_US_美国_178
+      - 🇫🇷_FR_法国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇨🇦_CA_加拿大_181
+      - 🇰🇷_KR_韩国_182
+      - 🇨🇦_CA_加拿大_183
+      - 🇸🇬_SG_新加坡_184
+      - 🇳🇴_NO_挪威_185
+      - 🇫🇷_FR_法国_186
+      - 🇸🇬_SG_新加坡_187
+      - 🇺🇸_US_美国_188
+      - 🇫🇷_FR_法国_189
+      - 🇷🇺_RU_俄罗斯联邦_190
+      - 🇮🇳_IN_印度_191
+      - 🇨🇦_CA_加拿大_192
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 法国感谢订阅——科技网络_1
-      - 挪威感谢订阅——科技网络_2
-      - 香港感谢订阅——科技网络_3
-      - 台湾感谢订阅——科技网络_4
-      - 欧洲感谢订阅——科技网络_5
-      - 欧洲感谢订阅——科技网络_6
-      - 法国感谢订阅——科技网络_7
-      - 美国感谢订阅——科技网络_8
-      - 台湾感谢订阅——科技网络_9
-      - 美国感谢订阅——科技网络_10
-      - 德国感谢订阅——科技网络_11
-      - 美国感谢订阅——科技网络_12
-      - 挪威感谢订阅——科技网络_13
-      - 欧洲感谢订阅——科技网络_14
-      - 美国感谢订阅——科技网络_15
-      - 欧洲感谢订阅——科技网络_16
-      - 澳大利亚感谢订阅——科技网络_17
-      - 新加坡感谢订阅——科技网络_18
-      - 欧洲感谢订阅——科技网络_19
-      - 新加坡感谢订阅——科技网络_20
-      - 美国感谢订阅——科技网络_21
-      - 美国感谢订阅——科技网络_22
-      - 加拿大感谢订阅——科技网络_23
-      - 欧洲感谢订阅——科技网络_24
-      - 欧洲感谢订阅——科技网络_25
-      - 欧洲感谢订阅——科技网络_26
-      - 美国感谢订阅——科技网络_27
-      - 加拿大感谢订阅——科技网络_28
-      - 香港感谢订阅——科技网络_29
-      - 新加坡感谢订阅——科技网络_30
-      - 香港感谢订阅——科技网络_31
-      - 加拿大感谢订阅——科技网络_32
-      - 法国感谢订阅——科技网络_33
-      - 欧洲感谢订阅——科技网络_34
-      - 香港感谢订阅——科技网络_35
-      - 香港感谢订阅——科技网络_36
-      - 香港感谢订阅——科技网络_37
-      - 美国感谢订阅——科技网络_38
-      - 欧洲感谢订阅——科技网络_39
-      - 香港感谢订阅——科技网络_40
-      - 美国感谢订阅——科技网络_41
-      - 挪威感谢订阅——科技网络_42
-      - 挪威感谢订阅——科技网络_43
-      - 日本感谢订阅——科技网络_44
-      - 法国感谢订阅——科技网络_45
-      - 台湾感谢订阅——科技网络_46
-      - 台湾感谢订阅——科技网络_47
-      - 挪威感谢订阅——科技网络_48
-      - 挪威感谢订阅——科技网络_49
-      - 欧洲感谢订阅——科技网络_50
-      - 新加坡感谢订阅——科技网络_51
-      - 台湾感谢订阅——科技网络_52
-      - 日本感谢订阅——科技网络_53
-      - 欧洲感谢订阅——科技网络_54
-      - 香港感谢订阅——科技网络_55
-      - 印度感谢订阅——科技网络_56
-      - 印度感谢订阅——科技网络_57
-      - 台湾感谢订阅——科技网络_58
-      - 美国感谢订阅——科技网络_59
-      - 印度感谢订阅——科技网络_60
-      - 欧洲感谢订阅——科技网络_61
-      - 印度感谢订阅——科技网络_62
-      - 欧洲感谢订阅——科技网络_63
-      - 印度感谢订阅——科技网络_64
-      - 印度感谢订阅——科技网络_65
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_67
-      - 印度感谢订阅——科技网络_68
-      - 台湾感谢订阅——科技网络_69
-      - 香港感谢订阅——科技网络_70
-      - 欧洲感谢订阅——科技网络_71
-      - 英国感谢订阅——科技网络_72
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_74
-      - 台湾感谢订阅——科技网络_75
-      - 法国感谢订阅——科技网络_76
-      - 加拿大感谢订阅——科技网络_77
-      - 欧洲感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_79
-      - 美国感谢订阅——科技网络_80
-      - 德国感谢订阅——科技网络_81
-      - 美国感谢订阅——科技网络_82
-      - 德国感谢订阅——科技网络_83
-      - 香港感谢订阅——科技网络_84
-      - 台湾感谢订阅——科技网络_85
-      - 欧洲感谢订阅——科技网络_86
-      - 美国感谢订阅——科技网络_87
-      - 美国感谢订阅——科技网络_88
-      - 法国感谢订阅——科技网络_89
-      - 台湾感谢订阅——科技网络_90
-      - 香港感谢订阅——科技网络_91
-      - 台湾感谢订阅——科技网络_92
-      - 美国感谢订阅——科技网络_93
-      - 美国感谢订阅——科技网络_94
-      - 美国感谢订阅——科技网络_95
-      - 法国感谢订阅——科技网络_96
-      - 美国感谢订阅——科技网络_97
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_99
-      - 欧洲感谢订阅——科技网络_100
-      - 欧洲感谢订阅——科技网络_101
-      - 新加坡感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_103
-      - 挪威感谢订阅——科技网络_104
-      - 香港感谢订阅——科技网络_105
-      - 美国感谢订阅——科技网络_106
-      - 意大利感谢订阅——科技网络_107
-      - 美国感谢订阅——科技网络_108
-      - 美国感谢订阅——科技网络_109
-      - 美国感谢订阅——科技网络_110
-      - 美国感谢订阅——科技网络_111
-      - 美国感谢订阅——科技网络_112
-      - 美国感谢订阅——科技网络_113
-      - 美国感谢订阅——科技网络_114
-      - 美国感谢订阅——科技网络_115
-      - 美国感谢订阅——科技网络_116
-      - 美国感谢订阅——科技网络_117
-      - 加拿大感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_119
-      - 美国感谢订阅——科技网络_120
-      - 美国感谢订阅——科技网络_121
-      - 法国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_123
-      - 美国感谢订阅——科技网络_124
-      - 美国感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_126
-      - 香港感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_128
-      - 挪威感谢订阅——科技网络_129
-      - 香港感谢订阅——科技网络_130
-      - 日本感谢订阅——科技网络_131
-      - 美国感谢订阅——科技网络_132
-      - 日本感谢订阅——科技网络_133
-      - 美国感谢订阅——科技网络_134
-      - 挪威感谢订阅——科技网络_135
-      - 新加坡感谢订阅——科技网络_136
-      - 美国感谢订阅——科技网络_137
-      - 欧洲感谢订阅——科技网络_138
-      - 挪威感谢订阅——科技网络_139
-      - 美国感谢订阅——科技网络_140
-      - 美国感谢订阅——科技网络_141
-      - 美国感谢订阅——科技网络_142
-      - 美国感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_144
-      - 美国感谢订阅——科技网络_145
-      - 美国感谢订阅——科技网络_146
-      - 美国感谢订阅——科技网络_147
-      - 美国感谢订阅——科技网络_148
-      - 美国感谢订阅——科技网络_149
-      - 香港感谢订阅——科技网络_150
-      - 美国感谢订阅——科技网络_151
-      - 日本感谢订阅——科技网络_152
-      - 挪威感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_154
-      - 美国感谢订阅——科技网络_155
-      - 欧洲感谢订阅——科技网络_156
-      - 加拿大感谢订阅——科技网络_157
-      - 德国感谢订阅——科技网络_158
-      - 美国感谢订阅——科技网络_159
-      - 加拿大感谢订阅——科技网络_160
-      - 加拿大感谢订阅——科技网络_161
-      - 美国感谢订阅——科技网络_162
-      - 美国感谢订阅——科技网络_163
-      - 加拿大感谢订阅——科技网络_164
-      - 加拿大感谢订阅——科技网络_165
-      - 加拿大感谢订阅——科技网络_166
-      - 加拿大感谢订阅——科技网络_167
-      - 加拿大感谢订阅——科技网络_168
-      - 加拿大感谢订阅——科技网络_169
-      - 加拿大感谢订阅——科技网络_170
-      - 加拿大感谢订阅——科技网络_171
-      - 欧洲感谢订阅——科技网络_172
-      - 欧洲感谢订阅——科技网络_173
-      - 欧洲感谢订阅——科技网络_174
-      - 欧洲感谢订阅——科技网络_175
-      - 意大利感谢订阅——科技网络_176
-      - 加拿大感谢订阅——科技网络_177
-      - 欧洲感谢订阅——科技网络_178
-      - 美国感谢订阅——科技网络_179
-      - 加拿大感谢订阅——科技网络_180
-      - 欧洲感谢订阅——科技网络_181
-      - 欧洲感谢订阅——科技网络_182
-      - 美国感谢订阅——科技网络_183
-      - 欧洲感谢订阅——科技网络_184
-      - 新加坡感谢订阅——科技网络_185
-      - 美国感谢订阅——科技网络_186
-      - 新加坡感谢订阅——科技网络_187
-      - 新加坡感谢订阅——科技网络_188
-      - 加拿大感谢订阅——科技网络_189
-      - 欧洲感谢订阅——科技网络_190
-      - 美国感谢订阅——科技网络_191
-      - 台湾感谢订阅——科技网络_192
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_194
-      - 新加坡感谢订阅——科技网络_195
-      - 欧洲感谢订阅——科技网络_196
-      - 台湾感谢订阅——科技网络_197
-      - 台湾感谢订阅——科技网络_198
-      - 欧洲感谢订阅——科技网络_199
-      - 欧洲感谢订阅——科技网络_200
-      - 意大利感谢订阅——科技网络_201
-      - 挪威感谢订阅——科技网络_202
-      - 欧洲感谢订阅——科技网络_203
-      - 新加坡感谢订阅——科技网络_204
-      - 意大利感谢订阅——科技网络_205
-      - 台湾感谢订阅——科技网络_206
-      - 台湾感谢订阅——科技网络_207
-      - 美国感谢订阅——科技网络_208
-      - 欧洲感谢订阅——科技网络_209
-      - 美国感谢订阅——科技网络_210
-      - 美国感谢订阅——科技网络_211
-      - 香港感谢订阅——科技网络_212
-      - 台湾感谢订阅——科技网络_213
-      - 香港感谢订阅——科技网络_214
-      - 台湾感谢订阅——科技网络_215
-      - 欧洲感谢订阅——科技网络_216
-      - 台湾感谢订阅——科技网络_217
-      - 欧洲感谢订阅——科技网络_218
-      - 美国感谢订阅——科技网络_219
-      - 法国感谢订阅——科技网络_220
-      - 美国感谢订阅——科技网络_221
-      - 欧洲感谢订阅——科技网络_222
+      - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - default_name_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇰🇷_KR_韩国_36
+      - 🇺🇦_UA_乌克兰_37
+      - 🇺🇸_US_美国_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇨🇦_CA_加拿大_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇺🇸_US_美国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇨🇦_CA_加拿大_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇨🇦_CA_加拿大_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇺🇸_US_美国_62
+      - 🇨🇦_CA_加拿大_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇨🇦_CA_加拿大_65
+      - 🇨🇦_CA_加拿大_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇬🇧_GB_英国_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇨🇦_CA_加拿大_73
+      - 🇺🇸_US_美国_74
+      - 🇨🇦_CA_加拿大_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇨🇦_CA_加拿大_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇨🇦_CA_加拿大_82
+      - 🇨🇦_CA_加拿大_83
+      - 🇺🇸_US_美国_84
+      - 🇬🇧_GB_英国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇨🇦_CA_加拿大_89
+      - 🇺🇸_US_美国_90
+      - 🇬🇧_GB_英国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇬🇧_GB_英国_93
+      - 🇬🇧_GB_英国_94
+      - 🇬🇧_GB_英国_95
+      - 🇺🇸_US_美国_96
+      - 🇨🇦_CA_加拿大_97
+      - 🇨🇦_CA_加拿大_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇬🇧_GB_英国_101
+      - 🇨🇦_CA_加拿大_102
+      - 🇬🇧_GB_英国_103
+      - 🇬🇧_GB_英国_104
+      - 🇸🇪_SE_瑞典_105
+      - 🇺🇸_US_美国_106
+      - 🇬🇧_GB_英国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇨🇦_CA_加拿大_110
+      - 🇺🇸_US_美国_111
+      - 🇷🇺_RU_俄罗斯联邦_112
+      - 🇺🇸_US_美国_113
+      - 🇨🇦_CA_加拿大_114
+      - 🇺🇸_US_美国_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇬🇧_GB_英国_117
+      - 🇺🇸_US_美国_118
+      - 🇰🇷_KR_韩国_119
+      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_120
+      - 🇨🇦_CA_加拿大_121
+      - default_name_122
+      - 🇫🇷_FR_法国_123
+      - 🇫🇷_FR_法国_124
+      - 🇨🇦_CA_加拿大_125
+      - 🇸🇬_SG_新加坡_126
+      - 🇦🇺_AU_澳大利亚_127
+      - 🇬🇧_GB_英国_128
+      - default_name_129
+      - 🇺🇸_US_美国_130
+      - 🇨🇦_CA_加拿大_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇰🇷_KR_韩国_133
+      - 🇺🇸_US_美国_134
+      - 🇳🇴_NO_挪威_135
+      - 🇨🇦_CA_加拿大_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇮🇱_IL_以色列_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇳🇴_NO_挪威_142
+      - default_name_143
+      - 🇨🇦_CA_加拿大_144
+      - 🇺🇸_US_美国_145
+      - 🇳🇴_NO_挪威_146
+      - 🇨🇦_CA_加拿大_147
+      - 🇨🇦_CA_加拿大_148
+      - 🇩🇪_DE_德国_149
+      - 🇫🇷_FR_法国_150
+      - 🇨🇦_CA_加拿大_151
+      - 🇬🇧_GB_英国_152
+      - 🇳🇴_NO_挪威_153
+      - 🇺🇸_US_美国_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇩🇪_DE_德国_156
+      - 🇪🇸_ES_西班牙_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇳🇴_NO_挪威_161
+      - 🇭🇰_HK_香港_162
+      - 🇮🇳_IN_印度_163
+      - 🇮🇳_IN_印度_164
+      - 🇫🇷_FR_法国_165
+      - 🇮🇳_IN_印度_166
+      - 🇩🇪_DE_德国_167
+      - default_name_168
+      - default_name_169
+      - 🇮🇳_IN_印度_170
+      - 🇨🇦_CA_加拿大_171
+      - 🇮🇳_IN_印度_172
+      - 🇮🇳_IN_印度_173
+      - 🇳🇴_NO_挪威_174
+      - 🇨🇦_CA_加拿大_175
+      - 🇮🇳_IN_印度_176
+      - 🇮🇳_IN_印度_177
+      - 🇺🇸_US_美国_178
+      - 🇫🇷_FR_法国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇨🇦_CA_加拿大_181
+      - 🇰🇷_KR_韩国_182
+      - 🇨🇦_CA_加拿大_183
+      - 🇸🇬_SG_新加坡_184
+      - 🇳🇴_NO_挪威_185
+      - 🇫🇷_FR_法国_186
+      - 🇸🇬_SG_新加坡_187
+      - 🇺🇸_US_美国_188
+      - 🇫🇷_FR_法国_189
+      - 🇷🇺_RU_俄罗斯联邦_190
+      - 🇮🇳_IN_印度_191
+      - 🇨🇦_CA_加拿大_192
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 法国感谢订阅——科技网络_1
-      - 挪威感谢订阅——科技网络_2
-      - 香港感谢订阅——科技网络_3
-      - 台湾感谢订阅——科技网络_4
-      - 欧洲感谢订阅——科技网络_5
-      - 欧洲感谢订阅——科技网络_6
-      - 法国感谢订阅——科技网络_7
-      - 美国感谢订阅——科技网络_8
-      - 台湾感谢订阅——科技网络_9
-      - 美国感谢订阅——科技网络_10
-      - 德国感谢订阅——科技网络_11
-      - 美国感谢订阅——科技网络_12
-      - 挪威感谢订阅——科技网络_13
-      - 欧洲感谢订阅——科技网络_14
-      - 美国感谢订阅——科技网络_15
-      - 欧洲感谢订阅——科技网络_16
-      - 澳大利亚感谢订阅——科技网络_17
-      - 新加坡感谢订阅——科技网络_18
-      - 欧洲感谢订阅——科技网络_19
-      - 新加坡感谢订阅——科技网络_20
-      - 美国感谢订阅——科技网络_21
-      - 美国感谢订阅——科技网络_22
-      - 加拿大感谢订阅——科技网络_23
-      - 欧洲感谢订阅——科技网络_24
-      - 欧洲感谢订阅——科技网络_25
-      - 欧洲感谢订阅——科技网络_26
-      - 美国感谢订阅——科技网络_27
-      - 加拿大感谢订阅——科技网络_28
-      - 香港感谢订阅——科技网络_29
-      - 新加坡感谢订阅——科技网络_30
-      - 香港感谢订阅——科技网络_31
-      - 加拿大感谢订阅——科技网络_32
-      - 法国感谢订阅——科技网络_33
-      - 欧洲感谢订阅——科技网络_34
-      - 香港感谢订阅——科技网络_35
-      - 香港感谢订阅——科技网络_36
-      - 香港感谢订阅——科技网络_37
-      - 美国感谢订阅——科技网络_38
-      - 欧洲感谢订阅——科技网络_39
-      - 香港感谢订阅——科技网络_40
-      - 美国感谢订阅——科技网络_41
-      - 挪威感谢订阅——科技网络_42
-      - 挪威感谢订阅——科技网络_43
-      - 日本感谢订阅——科技网络_44
-      - 法国感谢订阅——科技网络_45
-      - 台湾感谢订阅——科技网络_46
-      - 台湾感谢订阅——科技网络_47
-      - 挪威感谢订阅——科技网络_48
-      - 挪威感谢订阅——科技网络_49
-      - 欧洲感谢订阅——科技网络_50
-      - 新加坡感谢订阅——科技网络_51
-      - 台湾感谢订阅——科技网络_52
-      - 日本感谢订阅——科技网络_53
-      - 欧洲感谢订阅——科技网络_54
-      - 香港感谢订阅——科技网络_55
-      - 印度感谢订阅——科技网络_56
-      - 印度感谢订阅——科技网络_57
-      - 台湾感谢订阅——科技网络_58
-      - 美国感谢订阅——科技网络_59
-      - 印度感谢订阅——科技网络_60
-      - 欧洲感谢订阅——科技网络_61
-      - 印度感谢订阅——科技网络_62
-      - 欧洲感谢订阅——科技网络_63
-      - 印度感谢订阅——科技网络_64
-      - 印度感谢订阅——科技网络_65
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_67
-      - 印度感谢订阅——科技网络_68
-      - 台湾感谢订阅——科技网络_69
-      - 香港感谢订阅——科技网络_70
-      - 欧洲感谢订阅——科技网络_71
-      - 英国感谢订阅——科技网络_72
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_74
-      - 台湾感谢订阅——科技网络_75
-      - 法国感谢订阅——科技网络_76
-      - 加拿大感谢订阅——科技网络_77
-      - 欧洲感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_79
-      - 美国感谢订阅——科技网络_80
-      - 德国感谢订阅——科技网络_81
-      - 美国感谢订阅——科技网络_82
-      - 德国感谢订阅——科技网络_83
-      - 香港感谢订阅——科技网络_84
-      - 台湾感谢订阅——科技网络_85
-      - 欧洲感谢订阅——科技网络_86
-      - 美国感谢订阅——科技网络_87
-      - 美国感谢订阅——科技网络_88
-      - 法国感谢订阅——科技网络_89
-      - 台湾感谢订阅——科技网络_90
-      - 香港感谢订阅——科技网络_91
-      - 台湾感谢订阅——科技网络_92
-      - 美国感谢订阅——科技网络_93
-      - 美国感谢订阅——科技网络_94
-      - 美国感谢订阅——科技网络_95
-      - 法国感谢订阅——科技网络_96
-      - 美国感谢订阅——科技网络_97
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_99
-      - 欧洲感谢订阅——科技网络_100
-      - 欧洲感谢订阅——科技网络_101
-      - 新加坡感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_103
-      - 挪威感谢订阅——科技网络_104
-      - 香港感谢订阅——科技网络_105
-      - 美国感谢订阅——科技网络_106
-      - 意大利感谢订阅——科技网络_107
-      - 美国感谢订阅——科技网络_108
-      - 美国感谢订阅——科技网络_109
-      - 美国感谢订阅——科技网络_110
-      - 美国感谢订阅——科技网络_111
-      - 美国感谢订阅——科技网络_112
-      - 美国感谢订阅——科技网络_113
-      - 美国感谢订阅——科技网络_114
-      - 美国感谢订阅——科技网络_115
-      - 美国感谢订阅——科技网络_116
-      - 美国感谢订阅——科技网络_117
-      - 加拿大感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_119
-      - 美国感谢订阅——科技网络_120
-      - 美国感谢订阅——科技网络_121
-      - 法国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_123
-      - 美国感谢订阅——科技网络_124
-      - 美国感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_126
-      - 香港感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_128
-      - 挪威感谢订阅——科技网络_129
-      - 香港感谢订阅——科技网络_130
-      - 日本感谢订阅——科技网络_131
-      - 美国感谢订阅——科技网络_132
-      - 日本感谢订阅——科技网络_133
-      - 美国感谢订阅——科技网络_134
-      - 挪威感谢订阅——科技网络_135
-      - 新加坡感谢订阅——科技网络_136
-      - 美国感谢订阅——科技网络_137
-      - 欧洲感谢订阅——科技网络_138
-      - 挪威感谢订阅——科技网络_139
-      - 美国感谢订阅——科技网络_140
-      - 美国感谢订阅——科技网络_141
-      - 美国感谢订阅——科技网络_142
-      - 美国感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_144
-      - 美国感谢订阅——科技网络_145
-      - 美国感谢订阅——科技网络_146
-      - 美国感谢订阅——科技网络_147
-      - 美国感谢订阅——科技网络_148
-      - 美国感谢订阅——科技网络_149
-      - 香港感谢订阅——科技网络_150
-      - 美国感谢订阅——科技网络_151
-      - 日本感谢订阅——科技网络_152
-      - 挪威感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_154
-      - 美国感谢订阅——科技网络_155
-      - 欧洲感谢订阅——科技网络_156
-      - 加拿大感谢订阅——科技网络_157
-      - 德国感谢订阅——科技网络_158
-      - 美国感谢订阅——科技网络_159
-      - 加拿大感谢订阅——科技网络_160
-      - 加拿大感谢订阅——科技网络_161
-      - 美国感谢订阅——科技网络_162
-      - 美国感谢订阅——科技网络_163
-      - 加拿大感谢订阅——科技网络_164
-      - 加拿大感谢订阅——科技网络_165
-      - 加拿大感谢订阅——科技网络_166
-      - 加拿大感谢订阅——科技网络_167
-      - 加拿大感谢订阅——科技网络_168
-      - 加拿大感谢订阅——科技网络_169
-      - 加拿大感谢订阅——科技网络_170
-      - 加拿大感谢订阅——科技网络_171
-      - 欧洲感谢订阅——科技网络_172
-      - 欧洲感谢订阅——科技网络_173
-      - 欧洲感谢订阅——科技网络_174
-      - 欧洲感谢订阅——科技网络_175
-      - 意大利感谢订阅——科技网络_176
-      - 加拿大感谢订阅——科技网络_177
-      - 欧洲感谢订阅——科技网络_178
-      - 美国感谢订阅——科技网络_179
-      - 加拿大感谢订阅——科技网络_180
-      - 欧洲感谢订阅——科技网络_181
-      - 欧洲感谢订阅——科技网络_182
-      - 美国感谢订阅——科技网络_183
-      - 欧洲感谢订阅——科技网络_184
-      - 新加坡感谢订阅——科技网络_185
-      - 美国感谢订阅——科技网络_186
-      - 新加坡感谢订阅——科技网络_187
-      - 新加坡感谢订阅——科技网络_188
-      - 加拿大感谢订阅——科技网络_189
-      - 欧洲感谢订阅——科技网络_190
-      - 美国感谢订阅——科技网络_191
-      - 台湾感谢订阅——科技网络_192
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_194
-      - 新加坡感谢订阅——科技网络_195
-      - 欧洲感谢订阅——科技网络_196
-      - 台湾感谢订阅——科技网络_197
-      - 台湾感谢订阅——科技网络_198
-      - 欧洲感谢订阅——科技网络_199
-      - 欧洲感谢订阅——科技网络_200
-      - 意大利感谢订阅——科技网络_201
-      - 挪威感谢订阅——科技网络_202
-      - 欧洲感谢订阅——科技网络_203
-      - 新加坡感谢订阅——科技网络_204
-      - 意大利感谢订阅——科技网络_205
-      - 台湾感谢订阅——科技网络_206
-      - 台湾感谢订阅——科技网络_207
-      - 美国感谢订阅——科技网络_208
-      - 欧洲感谢订阅——科技网络_209
-      - 美国感谢订阅——科技网络_210
-      - 美国感谢订阅——科技网络_211
-      - 香港感谢订阅——科技网络_212
-      - 台湾感谢订阅——科技网络_213
-      - 香港感谢订阅——科技网络_214
-      - 台湾感谢订阅——科技网络_215
-      - 欧洲感谢订阅——科技网络_216
-      - 台湾感谢订阅——科技网络_217
-      - 欧洲感谢订阅——科技网络_218
-      - 美国感谢订阅——科技网络_219
-      - 法国感谢订阅——科技网络_220
-      - 美国感谢订阅——科技网络_221
-      - 欧洲感谢订阅——科技网络_222
+      - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - default_name_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇰🇷_KR_韩国_36
+      - 🇺🇦_UA_乌克兰_37
+      - 🇺🇸_US_美国_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇨🇦_CA_加拿大_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇺🇸_US_美国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇨🇦_CA_加拿大_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇨🇦_CA_加拿大_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇺🇸_US_美国_62
+      - 🇨🇦_CA_加拿大_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇨🇦_CA_加拿大_65
+      - 🇨🇦_CA_加拿大_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇬🇧_GB_英国_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇨🇦_CA_加拿大_73
+      - 🇺🇸_US_美国_74
+      - 🇨🇦_CA_加拿大_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇨🇦_CA_加拿大_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇨🇦_CA_加拿大_82
+      - 🇨🇦_CA_加拿大_83
+      - 🇺🇸_US_美国_84
+      - 🇬🇧_GB_英国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇨🇦_CA_加拿大_89
+      - 🇺🇸_US_美国_90
+      - 🇬🇧_GB_英国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇬🇧_GB_英国_93
+      - 🇬🇧_GB_英国_94
+      - 🇬🇧_GB_英国_95
+      - 🇺🇸_US_美国_96
+      - 🇨🇦_CA_加拿大_97
+      - 🇨🇦_CA_加拿大_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇬🇧_GB_英国_101
+      - 🇨🇦_CA_加拿大_102
+      - 🇬🇧_GB_英国_103
+      - 🇬🇧_GB_英国_104
+      - 🇸🇪_SE_瑞典_105
+      - 🇺🇸_US_美国_106
+      - 🇬🇧_GB_英国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇨🇦_CA_加拿大_110
+      - 🇺🇸_US_美国_111
+      - 🇷🇺_RU_俄罗斯联邦_112
+      - 🇺🇸_US_美国_113
+      - 🇨🇦_CA_加拿大_114
+      - 🇺🇸_US_美国_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇬🇧_GB_英国_117
+      - 🇺🇸_US_美国_118
+      - 🇰🇷_KR_韩国_119
+      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_120
+      - 🇨🇦_CA_加拿大_121
+      - default_name_122
+      - 🇫🇷_FR_法国_123
+      - 🇫🇷_FR_法国_124
+      - 🇨🇦_CA_加拿大_125
+      - 🇸🇬_SG_新加坡_126
+      - 🇦🇺_AU_澳大利亚_127
+      - 🇬🇧_GB_英国_128
+      - default_name_129
+      - 🇺🇸_US_美国_130
+      - 🇨🇦_CA_加拿大_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇰🇷_KR_韩国_133
+      - 🇺🇸_US_美国_134
+      - 🇳🇴_NO_挪威_135
+      - 🇨🇦_CA_加拿大_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇮🇱_IL_以色列_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇳🇴_NO_挪威_142
+      - default_name_143
+      - 🇨🇦_CA_加拿大_144
+      - 🇺🇸_US_美国_145
+      - 🇳🇴_NO_挪威_146
+      - 🇨🇦_CA_加拿大_147
+      - 🇨🇦_CA_加拿大_148
+      - 🇩🇪_DE_德国_149
+      - 🇫🇷_FR_法国_150
+      - 🇨🇦_CA_加拿大_151
+      - 🇬🇧_GB_英国_152
+      - 🇳🇴_NO_挪威_153
+      - 🇺🇸_US_美国_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇩🇪_DE_德国_156
+      - 🇪🇸_ES_西班牙_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇳🇴_NO_挪威_161
+      - 🇭🇰_HK_香港_162
+      - 🇮🇳_IN_印度_163
+      - 🇮🇳_IN_印度_164
+      - 🇫🇷_FR_法国_165
+      - 🇮🇳_IN_印度_166
+      - 🇩🇪_DE_德国_167
+      - default_name_168
+      - default_name_169
+      - 🇮🇳_IN_印度_170
+      - 🇨🇦_CA_加拿大_171
+      - 🇮🇳_IN_印度_172
+      - 🇮🇳_IN_印度_173
+      - 🇳🇴_NO_挪威_174
+      - 🇨🇦_CA_加拿大_175
+      - 🇮🇳_IN_印度_176
+      - 🇮🇳_IN_印度_177
+      - 🇺🇸_US_美国_178
+      - 🇫🇷_FR_法国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇨🇦_CA_加拿大_181
+      - 🇰🇷_KR_韩国_182
+      - 🇨🇦_CA_加拿大_183
+      - 🇸🇬_SG_新加坡_184
+      - 🇳🇴_NO_挪威_185
+      - 🇫🇷_FR_法国_186
+      - 🇸🇬_SG_新加坡_187
+      - 🇺🇸_US_美国_188
+      - 🇫🇷_FR_法国_189
+      - 🇷🇺_RU_俄罗斯联邦_190
+      - 🇮🇳_IN_印度_191
+      - 🇨🇦_CA_加拿大_192
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1834,228 +1594,198 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 法国感谢订阅——科技网络_1
-      - 挪威感谢订阅——科技网络_2
-      - 香港感谢订阅——科技网络_3
-      - 台湾感谢订阅——科技网络_4
-      - 欧洲感谢订阅——科技网络_5
-      - 欧洲感谢订阅——科技网络_6
-      - 法国感谢订阅——科技网络_7
-      - 美国感谢订阅——科技网络_8
-      - 台湾感谢订阅——科技网络_9
-      - 美国感谢订阅——科技网络_10
-      - 德国感谢订阅——科技网络_11
-      - 美国感谢订阅——科技网络_12
-      - 挪威感谢订阅——科技网络_13
-      - 欧洲感谢订阅——科技网络_14
-      - 美国感谢订阅——科技网络_15
-      - 欧洲感谢订阅——科技网络_16
-      - 澳大利亚感谢订阅——科技网络_17
-      - 新加坡感谢订阅——科技网络_18
-      - 欧洲感谢订阅——科技网络_19
-      - 新加坡感谢订阅——科技网络_20
-      - 美国感谢订阅——科技网络_21
-      - 美国感谢订阅——科技网络_22
-      - 加拿大感谢订阅——科技网络_23
-      - 欧洲感谢订阅——科技网络_24
-      - 欧洲感谢订阅——科技网络_25
-      - 欧洲感谢订阅——科技网络_26
-      - 美国感谢订阅——科技网络_27
-      - 加拿大感谢订阅——科技网络_28
-      - 香港感谢订阅——科技网络_29
-      - 新加坡感谢订阅——科技网络_30
-      - 香港感谢订阅——科技网络_31
-      - 加拿大感谢订阅——科技网络_32
-      - 法国感谢订阅——科技网络_33
-      - 欧洲感谢订阅——科技网络_34
-      - 香港感谢订阅——科技网络_35
-      - 香港感谢订阅——科技网络_36
-      - 香港感谢订阅——科技网络_37
-      - 美国感谢订阅——科技网络_38
-      - 欧洲感谢订阅——科技网络_39
-      - 香港感谢订阅——科技网络_40
-      - 美国感谢订阅——科技网络_41
-      - 挪威感谢订阅——科技网络_42
-      - 挪威感谢订阅——科技网络_43
-      - 日本感谢订阅——科技网络_44
-      - 法国感谢订阅——科技网络_45
-      - 台湾感谢订阅——科技网络_46
-      - 台湾感谢订阅——科技网络_47
-      - 挪威感谢订阅——科技网络_48
-      - 挪威感谢订阅——科技网络_49
-      - 欧洲感谢订阅——科技网络_50
-      - 新加坡感谢订阅——科技网络_51
-      - 台湾感谢订阅——科技网络_52
-      - 日本感谢订阅——科技网络_53
-      - 欧洲感谢订阅——科技网络_54
-      - 香港感谢订阅——科技网络_55
-      - 印度感谢订阅——科技网络_56
-      - 印度感谢订阅——科技网络_57
-      - 台湾感谢订阅——科技网络_58
-      - 美国感谢订阅——科技网络_59
-      - 印度感谢订阅——科技网络_60
-      - 欧洲感谢订阅——科技网络_61
-      - 印度感谢订阅——科技网络_62
-      - 欧洲感谢订阅——科技网络_63
-      - 印度感谢订阅——科技网络_64
-      - 印度感谢订阅——科技网络_65
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_67
-      - 印度感谢订阅——科技网络_68
-      - 台湾感谢订阅——科技网络_69
-      - 香港感谢订阅——科技网络_70
-      - 欧洲感谢订阅——科技网络_71
-      - 英国感谢订阅——科技网络_72
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_74
-      - 台湾感谢订阅——科技网络_75
-      - 法国感谢订阅——科技网络_76
-      - 加拿大感谢订阅——科技网络_77
-      - 欧洲感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_79
-      - 美国感谢订阅——科技网络_80
-      - 德国感谢订阅——科技网络_81
-      - 美国感谢订阅——科技网络_82
-      - 德国感谢订阅——科技网络_83
-      - 香港感谢订阅——科技网络_84
-      - 台湾感谢订阅——科技网络_85
-      - 欧洲感谢订阅——科技网络_86
-      - 美国感谢订阅——科技网络_87
-      - 美国感谢订阅——科技网络_88
-      - 法国感谢订阅——科技网络_89
-      - 台湾感谢订阅——科技网络_90
-      - 香港感谢订阅——科技网络_91
-      - 台湾感谢订阅——科技网络_92
-      - 美国感谢订阅——科技网络_93
-      - 美国感谢订阅——科技网络_94
-      - 美国感谢订阅——科技网络_95
-      - 法国感谢订阅——科技网络_96
-      - 美国感谢订阅——科技网络_97
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_99
-      - 欧洲感谢订阅——科技网络_100
-      - 欧洲感谢订阅——科技网络_101
-      - 新加坡感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_103
-      - 挪威感谢订阅——科技网络_104
-      - 香港感谢订阅——科技网络_105
-      - 美国感谢订阅——科技网络_106
-      - 意大利感谢订阅——科技网络_107
-      - 美国感谢订阅——科技网络_108
-      - 美国感谢订阅——科技网络_109
-      - 美国感谢订阅——科技网络_110
-      - 美国感谢订阅——科技网络_111
-      - 美国感谢订阅——科技网络_112
-      - 美国感谢订阅——科技网络_113
-      - 美国感谢订阅——科技网络_114
-      - 美国感谢订阅——科技网络_115
-      - 美国感谢订阅——科技网络_116
-      - 美国感谢订阅——科技网络_117
-      - 加拿大感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_119
-      - 美国感谢订阅——科技网络_120
-      - 美国感谢订阅——科技网络_121
-      - 法国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_123
-      - 美国感谢订阅——科技网络_124
-      - 美国感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_126
-      - 香港感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_128
-      - 挪威感谢订阅——科技网络_129
-      - 香港感谢订阅——科技网络_130
-      - 日本感谢订阅——科技网络_131
-      - 美国感谢订阅——科技网络_132
-      - 日本感谢订阅——科技网络_133
-      - 美国感谢订阅——科技网络_134
-      - 挪威感谢订阅——科技网络_135
-      - 新加坡感谢订阅——科技网络_136
-      - 美国感谢订阅——科技网络_137
-      - 欧洲感谢订阅——科技网络_138
-      - 挪威感谢订阅——科技网络_139
-      - 美国感谢订阅——科技网络_140
-      - 美国感谢订阅——科技网络_141
-      - 美国感谢订阅——科技网络_142
-      - 美国感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_144
-      - 美国感谢订阅——科技网络_145
-      - 美国感谢订阅——科技网络_146
-      - 美国感谢订阅——科技网络_147
-      - 美国感谢订阅——科技网络_148
-      - 美国感谢订阅——科技网络_149
-      - 香港感谢订阅——科技网络_150
-      - 美国感谢订阅——科技网络_151
-      - 日本感谢订阅——科技网络_152
-      - 挪威感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_154
-      - 美国感谢订阅——科技网络_155
-      - 欧洲感谢订阅——科技网络_156
-      - 加拿大感谢订阅——科技网络_157
-      - 德国感谢订阅——科技网络_158
-      - 美国感谢订阅——科技网络_159
-      - 加拿大感谢订阅——科技网络_160
-      - 加拿大感谢订阅——科技网络_161
-      - 美国感谢订阅——科技网络_162
-      - 美国感谢订阅——科技网络_163
-      - 加拿大感谢订阅——科技网络_164
-      - 加拿大感谢订阅——科技网络_165
-      - 加拿大感谢订阅——科技网络_166
-      - 加拿大感谢订阅——科技网络_167
-      - 加拿大感谢订阅——科技网络_168
-      - 加拿大感谢订阅——科技网络_169
-      - 加拿大感谢订阅——科技网络_170
-      - 加拿大感谢订阅——科技网络_171
-      - 欧洲感谢订阅——科技网络_172
-      - 欧洲感谢订阅——科技网络_173
-      - 欧洲感谢订阅——科技网络_174
-      - 欧洲感谢订阅——科技网络_175
-      - 意大利感谢订阅——科技网络_176
-      - 加拿大感谢订阅——科技网络_177
-      - 欧洲感谢订阅——科技网络_178
-      - 美国感谢订阅——科技网络_179
-      - 加拿大感谢订阅——科技网络_180
-      - 欧洲感谢订阅——科技网络_181
-      - 欧洲感谢订阅——科技网络_182
-      - 美国感谢订阅——科技网络_183
-      - 欧洲感谢订阅——科技网络_184
-      - 新加坡感谢订阅——科技网络_185
-      - 美国感谢订阅——科技网络_186
-      - 新加坡感谢订阅——科技网络_187
-      - 新加坡感谢订阅——科技网络_188
-      - 加拿大感谢订阅——科技网络_189
-      - 欧洲感谢订阅——科技网络_190
-      - 美国感谢订阅——科技网络_191
-      - 台湾感谢订阅——科技网络_192
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_194
-      - 新加坡感谢订阅——科技网络_195
-      - 欧洲感谢订阅——科技网络_196
-      - 台湾感谢订阅——科技网络_197
-      - 台湾感谢订阅——科技网络_198
-      - 欧洲感谢订阅——科技网络_199
-      - 欧洲感谢订阅——科技网络_200
-      - 意大利感谢订阅——科技网络_201
-      - 挪威感谢订阅——科技网络_202
-      - 欧洲感谢订阅——科技网络_203
-      - 新加坡感谢订阅——科技网络_204
-      - 意大利感谢订阅——科技网络_205
-      - 台湾感谢订阅——科技网络_206
-      - 台湾感谢订阅——科技网络_207
-      - 美国感谢订阅——科技网络_208
-      - 欧洲感谢订阅——科技网络_209
-      - 美国感谢订阅——科技网络_210
-      - 美国感谢订阅——科技网络_211
-      - 香港感谢订阅——科技网络_212
-      - 台湾感谢订阅——科技网络_213
-      - 香港感谢订阅——科技网络_214
-      - 台湾感谢订阅——科技网络_215
-      - 欧洲感谢订阅——科技网络_216
-      - 台湾感谢订阅——科技网络_217
-      - 欧洲感谢订阅——科技网络_218
-      - 美国感谢订阅——科技网络_219
-      - 法国感谢订阅——科技网络_220
-      - 美国感谢订阅——科技网络_221
-      - 欧洲感谢订阅——科技网络_222
+      - 🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - default_name_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇰🇷_KR_韩国_36
+      - 🇺🇦_UA_乌克兰_37
+      - 🇺🇸_US_美国_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇨🇦_CA_加拿大_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇺🇸_US_美国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇨🇦_CA_加拿大_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇨🇦_CA_加拿大_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇺🇸_US_美国_62
+      - 🇨🇦_CA_加拿大_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇨🇦_CA_加拿大_65
+      - 🇨🇦_CA_加拿大_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇬🇧_GB_英国_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇨🇦_CA_加拿大_73
+      - 🇺🇸_US_美国_74
+      - 🇨🇦_CA_加拿大_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇨🇦_CA_加拿大_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇨🇦_CA_加拿大_82
+      - 🇨🇦_CA_加拿大_83
+      - 🇺🇸_US_美国_84
+      - 🇬🇧_GB_英国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇨🇦_CA_加拿大_89
+      - 🇺🇸_US_美国_90
+      - 🇬🇧_GB_英国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇬🇧_GB_英国_93
+      - 🇬🇧_GB_英国_94
+      - 🇬🇧_GB_英国_95
+      - 🇺🇸_US_美国_96
+      - 🇨🇦_CA_加拿大_97
+      - 🇨🇦_CA_加拿大_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇬🇧_GB_英国_101
+      - 🇨🇦_CA_加拿大_102
+      - 🇬🇧_GB_英国_103
+      - 🇬🇧_GB_英国_104
+      - 🇸🇪_SE_瑞典_105
+      - 🇺🇸_US_美国_106
+      - 🇬🇧_GB_英国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇨🇦_CA_加拿大_110
+      - 🇺🇸_US_美国_111
+      - 🇷🇺_RU_俄罗斯联邦_112
+      - 🇺🇸_US_美国_113
+      - 🇨🇦_CA_加拿大_114
+      - 🇺🇸_US_美国_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇬🇧_GB_英国_117
+      - 🇺🇸_US_美国_118
+      - 🇰🇷_KR_韩国_119
+      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_120
+      - 🇨🇦_CA_加拿大_121
+      - default_name_122
+      - 🇫🇷_FR_法国_123
+      - 🇫🇷_FR_法国_124
+      - 🇨🇦_CA_加拿大_125
+      - 🇸🇬_SG_新加坡_126
+      - 🇦🇺_AU_澳大利亚_127
+      - 🇬🇧_GB_英国_128
+      - default_name_129
+      - 🇺🇸_US_美国_130
+      - 🇨🇦_CA_加拿大_131
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_132
+      - 🇰🇷_KR_韩国_133
+      - 🇺🇸_US_美国_134
+      - 🇳🇴_NO_挪威_135
+      - 🇨🇦_CA_加拿大_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇮🇱_IL_以色列_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇳🇴_NO_挪威_142
+      - default_name_143
+      - 🇨🇦_CA_加拿大_144
+      - 🇺🇸_US_美国_145
+      - 🇳🇴_NO_挪威_146
+      - 🇨🇦_CA_加拿大_147
+      - 🇨🇦_CA_加拿大_148
+      - 🇩🇪_DE_德国_149
+      - 🇫🇷_FR_法国_150
+      - 🇨🇦_CA_加拿大_151
+      - 🇬🇧_GB_英国_152
+      - 🇳🇴_NO_挪威_153
+      - 🇺🇸_US_美国_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇩🇪_DE_德国_156
+      - 🇪🇸_ES_西班牙_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇳🇴_NO_挪威_161
+      - 🇭🇰_HK_香港_162
+      - 🇮🇳_IN_印度_163
+      - 🇮🇳_IN_印度_164
+      - 🇫🇷_FR_法国_165
+      - 🇮🇳_IN_印度_166
+      - 🇩🇪_DE_德国_167
+      - default_name_168
+      - default_name_169
+      - 🇮🇳_IN_印度_170
+      - 🇨🇦_CA_加拿大_171
+      - 🇮🇳_IN_印度_172
+      - 🇮🇳_IN_印度_173
+      - 🇳🇴_NO_挪威_174
+      - 🇨🇦_CA_加拿大_175
+      - 🇮🇳_IN_印度_176
+      - 🇮🇳_IN_印度_177
+      - 🇺🇸_US_美国_178
+      - 🇫🇷_FR_法国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇨🇦_CA_加拿大_181
+      - 🇰🇷_KR_韩国_182
+      - 🇨🇦_CA_加拿大_183
+      - 🇸🇬_SG_新加坡_184
+      - 🇳🇴_NO_挪威_185
+      - 🇫🇷_FR_法国_186
+      - 🇸🇬_SG_新加坡_187
+      - 🇺🇸_US_美国_188
+      - 🇫🇷_FR_法国_189
+      - 🇷🇺_RU_俄罗斯联邦_190
+      - 🇮🇳_IN_印度_191
+      - 🇨🇦_CA_加拿大_192
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
