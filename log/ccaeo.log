@@ -1,18 +1,18 @@
 + PS4='$LINENO: '
 55: date +%Y年%m月%d日·%H点%M分%S秒.%N毫秒
-5: echo 2021年12月06日·03点08分34秒.193528291毫秒
+5: echo 2021年12月06日·09点08分25秒.519166782毫秒
 332: curl -sL https://github.com/changfengoss/pub/commits
-332: grep -m 1 'v2rayse comment file'
 332: sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'
-32: eval 'href="https://github.com/changfengoss/pub/commit/8c3e9452aaf56dde135ebe8ba44d82657f97d9ca"'
-332: href=https://github.com/changfengoss/pub/commit/8c3e9452aaf56dde135ebe8ba44d82657f97d9ca
-333: curl -sL https://github.com/changfengoss/pub/commit/8c3e9452aaf56dde135ebe8ba44d82657f97d9ca
+332: grep -m 1 'v2rayse comment file'
+32: eval 'href="https://github.com/changfengoss/pub/commit/5559343af736b25775cbc03ddb736fc8d4fc0d2a"'
+332: href=https://github.com/changfengoss/pub/commit/5559343af736b25775cbc03ddb736fc8d4fc0d2a
+333: curl -sL https://github.com/changfengoss/pub/commit/5559343af736b25775cbc03ddb736fc8d4fc0d2a
 333: sed 's|.*">|href="https://github.com/changfengoss/pub/raw/main/|g; s|</a>|"|g'
 333: grep -m 1 data/
-33: eval 'href="https://github.com/changfengoss/pub/raw/main/data/2021_12_06/E4nvUp.txt"'
-333: href=https://github.com/changfengoss/pub/raw/main/data/2021_12_06/E4nvUp.txt
+33: eval 'href="https://github.com/changfengoss/pub/raw/main/data/2021_12_06/tBfSmP.yaml"'
+333: href=https://github.com/changfengoss/pub/raw/main/data/2021_12_06/tBfSmP.yaml
 34: case "$href" in
-35: curl -sLo /home/runner/work/all/all/v https://github.com/changfengoss/pub/raw/main/data/2021_12_06/E4nvUp.txt
+36: curl -sLo /home/runner/work/all/all/c https://github.com/changfengoss/pub/raw/main/data/2021_12_06/tBfSmP.yaml
 339: curl -sL https://github.com/pojiezhiyuanjun/freev2/commits
 339: sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'
 339: grep -m 1 'Add files via upload'
@@ -51,6 +51,6 @@ href="https://github.com/FMYC2015/V2ray/commit/5ae76203a3386f88c9280a31223004d9f
 50: curl -sLo /home/runner/work/all/all/c3 https://github.com/FMYC2015/Clash/raw/main/2021/2021-12-02
 51: curl -sLo /home/runner/work/all/all/v3 https://gitee.com/chenx58/clash/raw/V2R/V2R
 552: date +%Y年%m月%d日·%H点%M分%S秒
-52: sed -i '/^|20/c|2021年12月06日·03点08分43秒|' /home/runner/work/all/all/README.md
+52: sed -i '/^|20/c|2021年12月06日·09点08分35秒|' /home/runner/work/all/all/README.md
 553: date +%Y年%m月%d日·%H点%M分%S秒 -d '+6 hour'
-53: sed -i '/^20/c2021年12月06日·09点08分43秒' /home/runner/work/all/all/README.md
+53: sed -i '/^20/c2021年12月06日·15点08分35秒' /home/runner/work/all/all/README.md
