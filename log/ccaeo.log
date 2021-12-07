@@ -1,32 +1,32 @@
 + PS4='$LINENO: '
 55: date +%Y年%m月%d日·%H点%M分%S秒.%N毫秒
-5: echo 2021年12月07日·14点25分22秒.743948389毫秒
+5: echo 2021年12月07日·20点35分29秒.937031155毫秒
 332: curl -sL https://github.com/changfengoss/pub/commits
 332: grep -m 1 'v2rayse comment file'
 332: sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'
-32: eval 'href="https://github.com/changfengoss/pub/commit/d659f41ca671ddaf5c84bf3e3dc2e96fad521c05"'
-332: href=https://github.com/changfengoss/pub/commit/d659f41ca671ddaf5c84bf3e3dc2e96fad521c05
-333: curl -sL https://github.com/changfengoss/pub/commit/d659f41ca671ddaf5c84bf3e3dc2e96fad521c05
+32: eval 'href="https://github.com/changfengoss/pub/commit/8e2a7b21da3a1c4422d01ec99a03db60a511413b"'
+332: href=https://github.com/changfengoss/pub/commit/8e2a7b21da3a1c4422d01ec99a03db60a511413b
+333: curl -sL https://github.com/changfengoss/pub/commit/8e2a7b21da3a1c4422d01ec99a03db60a511413b
 333: sed 's|.*">|href="https://github.com/changfengoss/pub/raw/main/|g; s|</a>|"|g'
 333: grep -m 1 data/
-33: eval 'href="https://github.com/changfengoss/pub/raw/main/data/2021_12_07/ZIB9P9.txt"'
-333: href=https://github.com/changfengoss/pub/raw/main/data/2021_12_07/ZIB9P9.txt
+33: eval 'href="https://github.com/changfengoss/pub/raw/main/data/2021_12_07/WFEKNJ.txt"'
+333: href=https://github.com/changfengoss/pub/raw/main/data/2021_12_07/WFEKNJ.txt
 34: case "$href" in
-35: curl -# -Lo /home/runner/work/all/all/v https://github.com/changfengoss/pub/raw/main/data/2021_12_07/ZIB9P9.txt
-#=#=#                                                                         ######################################################################## 100.0%######################################################################## 100.0%
+35: curl -# -Lo /home/runner/work/all/all/v https://github.com/changfengoss/pub/raw/main/data/2021_12_07/WFEKNJ.txt
+#=#=#                                                                         ##O#- #                                                                       ######################################################################## 100.0%######################################################################## 100.0%
 339: curl -sL https://github.com/pojiezhiyuanjun/freev2/commits
 339: sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'
 339: grep -m 1 'Add files via upload'
-39: eval 'href="https://github.com/pojiezhiyuanjun/freev2/commit/6470c1c8ebacd4d8726f6776f096749d6e2f5260"'
-339: href=https://github.com/pojiezhiyuanjun/freev2/commit/6470c1c8ebacd4d8726f6776f096749d6e2f5260
-440: curl -sL https://github.com/pojiezhiyuanjun/freev2/commit/6470c1c8ebacd4d8726f6776f096749d6e2f5260
+39: eval 'href="https://github.com/pojiezhiyuanjun/freev2/commit/bfe835bcef46733db0965a646e8d2d9159ec4340"'
+339: href=https://github.com/pojiezhiyuanjun/freev2/commit/bfe835bcef46733db0965a646e8d2d9159ec4340
+440: curl -sL https://github.com/pojiezhiyuanjun/freev2/commit/bfe835bcef46733db0965a646e8d2d9159ec4340
 440: sed 's|.*">|href="https://github.com/pojiezhiyuanjun/freev2/raw/master/|g; s|</a>|"|g'
 440: grep -m 1 .yml
-40: eval 'href="https://github.com/pojiezhiyuanjun/freev2/raw/master/1205clash.yml"'
-440: href=https://github.com/pojiezhiyuanjun/freev2/raw/master/1205clash.yml
+40: eval 'href="https://github.com/pojiezhiyuanjun/freev2/raw/master/1207clash.yml"'
+440: href=https://github.com/pojiezhiyuanjun/freev2/raw/master/1207clash.yml
 41: case "$href" in
-42: curl -# -Lo /home/runner/work/all/all/c2 https://github.com/pojiezhiyuanjun/freev2/raw/master/1205clash.yml
-#=#=#                                                                         ######################################################################## 100.0%##O#- #                                                                       ######################################################################## 100.0%
+42: curl -# -Lo /home/runner/work/all/all/c2 https://github.com/pojiezhiyuanjun/freev2/raw/master/1207clash.yml
+#=#=#                                                                         ##O#- #                                                                       ######################################################################## 100.0%##O=#  #                                                                      #-#O=#  #                                                                     #                                                                          1.8%######################################################################## 100.0%
 445: curl -sL https://github.com/FMYC2015/V2ray/commits
 445: sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'
 445: grep -m 2 'Create '
@@ -40,7 +40,7 @@ href="https://github.com/FMYC2015/V2ray/commit/d2c14091b37ff2b3e300e7c75b2767da1
 46: eval 'href="https://github.com/FMYC2015/V2ray/raw/main/Mshare_T/2021-12-05"'
 446: href=https://github.com/FMYC2015/V2ray/raw/main/Mshare_T/2021-12-05
 47: curl -# -Lo /home/runner/work/all/all/v2 https://github.com/FMYC2015/V2ray/raw/main/Mshare_T/2021-12-05
-#=#=#                                                                         ######################################################################## 100.0%########################################                                  55.7%######################################################################## 100.0%
+#=#=#                                                                         ##O#- #                                                                       ######################################################################## 100.0%##O=#  #                                                                      ######################################################################## 100.0%
 448: curl -sL https://api.github.com/repos/FMYC2015/Clash/commits
 448: sed 's/.*"html_url": /html_url=/g'
 448: grep -m 1 html_url
@@ -52,10 +52,10 @@ href="https://github.com/FMYC2015/V2ray/commit/d2c14091b37ff2b3e300e7c75b2767da1
 49: eval 'href="https://github.com/FMYC2015/Clash/raw/main/Chen"'
 449: href=https://github.com/FMYC2015/Clash/raw/main/Chen
 50: curl -# -Lo /home/runner/work/all/all/c3 https://github.com/FMYC2015/Clash/raw/main/Chen
-#=#=#                                                                         ######################################################################## 100.0%##O#- #                                                                       #                                                                          2.3%######################################################################## 100.0%
+#=#=#                                                                         ##O#- #                                                                       ######################################################################## 100.0%##O=#  #                                                                                                                                                 1.3%######################################################################## 100.0%
 51: curl -# -Lo /home/runner/work/all/all/v3 https://gitee.com/chenx58/clash/raw/V2R/V2R
-#=#=#                                                                         ##O#- #                                                                       ##O=#  #                                                                      #=#=-#  #                                                                     -#O#- #   #                                                                    -#O#-  #   #                                                                 
+#=#=#                                                                         ##O#- #                                                                       ##O=#  #                                                                      #=#=-#  #                                                                     -#O#- #   #                                                                   -=#=#   #   #                                                                  -=#=-#  #    #                                                               
 552: date +%Y年%m月%d日·%H点%M分%S秒
-52: sed -i '/^|20/c|2021年12月07日·14点25分29秒|' /home/runner/work/all/all/README.md
+52: sed -i '/^|20/c|2021年12月07日·20点35分39秒|' /home/runner/work/all/all/README.md
 553: date +%Y年%m月%d日·%H点%M分%S秒 -d '+6 hour'
-53: sed -i '/^20/c2021年12月07日·20点25分29秒' /home/runner/work/all/all/README.md
+53: sed -i '/^20/c2021年12月08日·02点35分39秒' /home/runner/work/all/all/README.md
