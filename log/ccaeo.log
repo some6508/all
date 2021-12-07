@@ -1,61 +1,58 @@
 + PS4='$LINENO: '
 55: date +%Y年%m月%d日·%H点%M分%S秒.%N毫秒
-5: echo 2021年12月07日·20点35分29秒.937031155毫秒
-332: curl -sL https://github.com/changfengoss/pub/commits
-332: grep -m 1 'v2rayse comment file'
-332: sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'
-32: eval 'href="https://github.com/changfengoss/pub/commit/8e2a7b21da3a1c4422d01ec99a03db60a511413b"'
-332: href=https://github.com/changfengoss/pub/commit/8e2a7b21da3a1c4422d01ec99a03db60a511413b
-333: curl -sL https://github.com/changfengoss/pub/commit/8e2a7b21da3a1c4422d01ec99a03db60a511413b
-333: sed 's|.*">|href="https://github.com/changfengoss/pub/raw/main/|g; s|</a>|"|g'
-333: grep -m 1 data/
-33: eval 'href="https://github.com/changfengoss/pub/raw/main/data/2021_12_07/WFEKNJ.txt"'
-333: href=https://github.com/changfengoss/pub/raw/main/data/2021_12_07/WFEKNJ.txt
-34: case "$href" in
-35: curl -# -Lo /home/runner/work/all/all/v https://github.com/changfengoss/pub/raw/main/data/2021_12_07/WFEKNJ.txt
-#=#=#                                                                         ##O#- #                                                                       ######################################################################## 100.0%######################################################################## 100.0%
-339: curl -sL https://github.com/pojiezhiyuanjun/freev2/commits
-339: sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'
-339: grep -m 1 'Add files via upload'
-39: eval 'href="https://github.com/pojiezhiyuanjun/freev2/commit/bfe835bcef46733db0965a646e8d2d9159ec4340"'
-339: href=https://github.com/pojiezhiyuanjun/freev2/commit/bfe835bcef46733db0965a646e8d2d9159ec4340
-440: curl -sL https://github.com/pojiezhiyuanjun/freev2/commit/bfe835bcef46733db0965a646e8d2d9159ec4340
-440: sed 's|.*">|href="https://github.com/pojiezhiyuanjun/freev2/raw/master/|g; s|</a>|"|g'
-440: grep -m 1 .yml
-40: eval 'href="https://github.com/pojiezhiyuanjun/freev2/raw/master/1207clash.yml"'
-440: href=https://github.com/pojiezhiyuanjun/freev2/raw/master/1207clash.yml
-41: case "$href" in
-42: curl -# -Lo /home/runner/work/all/all/c2 https://github.com/pojiezhiyuanjun/freev2/raw/master/1207clash.yml
-#=#=#                                                                         ##O#- #                                                                       ######################################################################## 100.0%##O=#  #                                                                      #-#O=#  #                                                                     #                                                                          1.8%######################################################################## 100.0%
-445: curl -sL https://github.com/FMYC2015/V2ray/commits
-445: sed 's|.*href="|href="https://github.com|g; s|">.*|"|g'
-445: grep -m 2 'Create '
-45: eval 'href="https://github.com/FMYC2015/V2ray/commit/f1be96fadcd40499073a7ace88e0cec9d853a97a"
-href="https://github.com/FMYC2015/V2ray/commit/d2c14091b37ff2b3e300e7c75b2767da1644ba86"'
-445: href=https://github.com/FMYC2015/V2ray/commit/f1be96fadcd40499073a7ace88e0cec9d853a97a
-446: href=https://github.com/FMYC2015/V2ray/commit/d2c14091b37ff2b3e300e7c75b2767da1644ba86
-446: curl -sL https://github.com/FMYC2015/V2ray/commit/d2c14091b37ff2b3e300e7c75b2767da1644ba86
-446: sed 's|</a>|"|g'
-446: sed -n 's|^      <a href="#diff-.*">|href="https://github.com/FMYC2015/V2ray/raw/main/|p'
-46: eval 'href="https://github.com/FMYC2015/V2ray/raw/main/Mshare_T/2021-12-05"'
-446: href=https://github.com/FMYC2015/V2ray/raw/main/Mshare_T/2021-12-05
-47: curl -# -Lo /home/runner/work/all/all/v2 https://github.com/FMYC2015/V2ray/raw/main/Mshare_T/2021-12-05
-#=#=#                                                                         ##O#- #                                                                       ######################################################################## 100.0%##O=#  #                                                                      ######################################################################## 100.0%
-448: curl -sL https://api.github.com/repos/FMYC2015/Clash/commits
-448: sed 's/.*"html_url": /html_url=/g'
-448: grep -m 1 html_url
-48: eval 'html_url="https://github.com/FMYC2015/Clash/commit/0909671897e7c0ac745b10d0752f7027bdb99fd5",'
-448: html_url=https://github.com/FMYC2015/Clash/commit/0909671897e7c0ac745b10d0752f7027bdb99fd5,
-449: curl -sL https://github.com/FMYC2015/Clash/commit/0909671897e7c0ac745b10d0752f7027bdb99fd5
-449: sed 's|</a>|"|g'
-449: sed -n 's|^      <a href="#diff-.*">|href="https://github.com/FMYC2015/Clash/raw/main/|p'
-49: eval 'href="https://github.com/FMYC2015/Clash/raw/main/Chen"'
-449: href=https://github.com/FMYC2015/Clash/raw/main/Chen
-50: curl -# -Lo /home/runner/work/all/all/c3 https://github.com/FMYC2015/Clash/raw/main/Chen
-#=#=#                                                                         ##O#- #                                                                       ######################################################################## 100.0%##O=#  #                                                                                                                                                 1.3%######################################################################## 100.0%
-51: curl -# -Lo /home/runner/work/all/all/v3 https://gitee.com/chenx58/clash/raw/V2R/V2R
-#=#=#                                                                         ##O#- #                                                                       ##O=#  #                                                                      #=#=-#  #                                                                     -#O#- #   #                                                                   -=#=#   #   #                                                                  -=#=-#  #    #                                                               
-552: date +%Y年%m月%d日·%H点%M分%S秒
-52: sed -i '/^|20/c|2021年12月07日·20点35分39秒|' /home/runner/work/all/all/README.md
-553: date +%Y年%m月%d日·%H点%M分%S秒 -d '+6 hour'
-53: sed -i '/^20/c2021年12月08日·02点35分39秒' /home/runner/work/all/all/README.md
+5: echo 2021年12月07日·20点56分04秒.347751970毫秒
+66: curl -sL https://api.github.com/repos/changfengoss/pub/commits
+66: grep -m 1 html_url
+66: sed 's/.*"html_url": /html_url=/g'
+6: eval 'html_url="https://github.com/changfengoss/pub/commit/8670727108ecfdb32d52a92f04019c41bb9388db",'
+66: html_url=https://github.com/changfengoss/pub/commit/8670727108ecfdb32d52a92f04019c41bb9388db,
+77: curl -sL https://github.com/changfengoss/pub/commit/8670727108ecfdb32d52a92f04019c41bb9388db
+77: sed 's|</a>|"|g'
+77: sed -n 's|^      <a href="#diff-.*">|href="https://github.com/changfengoss/pub/raw/main/|p'
+7: eval 'href="https://github.com/changfengoss/pub/raw/main/data/2021_12_07/XGyR9t.yaml"'
+77: href=https://github.com/changfengoss/pub/raw/main/data/2021_12_07/XGyR9t.yaml
+8: case "$href" in
+10: curl -sLo /home/runner/work/all/all/c https://github.com/changfengoss/pub/raw/main/data/2021_12_07/XGyR9t.yaml
+112: curl -sL https://api.github.com/repos/pojiezhiyuanjun/freev2/commits
+112: sed 's/.*"html_url": /html_url=/g'
+112: grep -m 1 html_url
+12: eval 'html_url="https://github.com/pojiezhiyuanjun/freev2/commit/bfe835bcef46733db0965a646e8d2d9159ec4340",'
+112: html_url=https://github.com/pojiezhiyuanjun/freev2/commit/bfe835bcef46733db0965a646e8d2d9159ec4340,
+113: curl -sL https://github.com/pojiezhiyuanjun/freev2/commit/bfe835bcef46733db0965a646e8d2d9159ec4340
+113: sed 's|</a>|"|g'
+113: sed -n 's|^      <a href="#diff-.*">|href="https://github.com/pojiezhiyuanjun/freev2/raw/master/|p'
+13: eval 'href="https://github.com/pojiezhiyuanjun/freev2/raw/master/1207.txt"
+href="https://github.com/pojiezhiyuanjun/freev2/raw/master/1207.zip"
+href="https://github.com/pojiezhiyuanjun/freev2/raw/master/1207clash.yml"'
+113: href=https://github.com/pojiezhiyuanjun/freev2/raw/master/1207.txt
+114: href=https://github.com/pojiezhiyuanjun/freev2/raw/master/1207.zip
+115: href=https://github.com/pojiezhiyuanjun/freev2/raw/master/1207clash.yml
+14: case "$href" in
+15: curl -sLo /home/runner/work/all/all/c2 https://github.com/pojiezhiyuanjun/freev2/raw/master/1207clash.yml
+118: curl -sL https://api.github.com/repos/FMYC2015/V2ray/commits
+118: sed 's/.*"html_url": /html_url=/g'
+118: grep -m 1 html_url
+18: eval 'html_url="https://github.com/FMYC2015/V2ray/commit/ee92cf5f21924ca6f42057e8b183b36d9c4effcf",'
+118: html_url=https://github.com/FMYC2015/V2ray/commit/ee92cf5f21924ca6f42057e8b183b36d9c4effcf,
+119: curl -sL https://github.com/FMYC2015/V2ray/commit/ee92cf5f21924ca6f42057e8b183b36d9c4effcf
+119: sed 's|</a>|"|g'
+119: sed -n 's|^      <a href="#diff-.*">|href="https://github.com/FMYC2015/V2ray/raw/main/|p'
+19: eval 'href="https://github.com/FMYC2015/V2ray/raw/main/Chen"'
+119: href=https://github.com/FMYC2015/V2ray/raw/main/Chen
+20: curl -sLo /home/runner/work/all/all/v2 https://github.com/FMYC2015/V2ray/raw/main/Chen
+221: curl -sL https://api.github.com/repos/FMYC2015/Clash/commits
+221: sed 's/.*"html_url": /html_url=/g'
+221: grep -m 1 html_url
+21: eval 'html_url="https://github.com/FMYC2015/Clash/commit/0909671897e7c0ac745b10d0752f7027bdb99fd5",'
+221: html_url=https://github.com/FMYC2015/Clash/commit/0909671897e7c0ac745b10d0752f7027bdb99fd5,
+222: curl -sL https://github.com/FMYC2015/Clash/commit/0909671897e7c0ac745b10d0752f7027bdb99fd5
+222: sed 's|</a>|"|g'
+222: sed -n 's|^      <a href="#diff-.*">|href="https://github.com/FMYC2015/Clash/raw/main/|p'
+22: eval 'href="https://github.com/FMYC2015/Clash/raw/main/Chen"'
+222: href=https://github.com/FMYC2015/Clash/raw/main/Chen
+23: curl -sLo /home/runner/work/all/all/c3 https://github.com/FMYC2015/Clash/raw/main/Chen
+24: curl -sLo /home/runner/work/all/all/v3 https://gitee.com/chenx58/clash/raw/V2R/V2R
+225: date +%Y年%m月%d日·%H点%M分%S秒
+25: sed -i '/^|20/c|2021年12月07日·20点56分09秒|' /home/runner/work/all/all/README.md
+226: date +%Y年%m月%d日·%H点%M分%S秒 -d '+6 hour'
+26: sed -i '/^20/c2021年12月08日·02点56分09秒' /home/runner/work/all/all/README.md
