@@ -5,76 +5,236 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇺🇸_US_美国_1', server: 38.114.114.69, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_2', server: 38.86.135.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_3', server: 38.114.114.69, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_4', server: 167.88.63.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '台湾|HINET|流媒体|标准1_1', server: gzyd.potatofly.xyz, port: 30014, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '台湾|HINET|流媒体|标准2_2', server: gzyd.potatofly.xyz, port: 30015, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '新加坡|HE|流媒体|标准1_3', server: gzyd.potatofly.xyz, port: 30026, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '新加坡|HE|流媒体|标准2_4', server: gzyd.potatofly.xyz, port: 30027, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '日本|NTT|标准1_5', server: gzyd.potatofly.xyz, port: 30020, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '日本|NTT|标准2_6', server: gzyd.potatofly.xyz, port: 30021, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '日本|软银|流媒体|标准1_7', server: gzyd.potatofly.xyz, port: 30008, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '日本|软银|流媒体|标准2_8', server: gzyd.potatofly.xyz, port: 30009, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '泰国|流媒体|标准1_9', server: gzyd.potatofly.xyz, port: 30022, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '泰国|流媒体|标准2_10', server: gzyd.potatofly.xyz, port: 30023, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '美国|INAP|流媒体|标准1_11', server: gzyd.potatofly.xyz, port: 30024, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '美国|INAP|流媒体|标准2_12', server: gzyd.potatofly.xyz, port: 30025, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '英国|GTT|TikTok|标准1_13', server: gzyd.potatofly.xyz, port: 30012, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '英国|GTT|TikTok|标准2_14', server: gzyd.potatofly.xyz, port: 30013, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '香港|Azure|标准1_15', server: gzyd.potatofly.xyz, port: 30004, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '香港|Azure|标准2_16', server: gzyd.potatofly.xyz, port: 30005, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '香港|Azure|标准3_17', server: gzyd.potatofly.xyz, port: 30006, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '香港|Azure|标准4_18', server: gzyd.potatofly.xyz, port: 30007, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '香港|Azure|标准5_19', server: gzyd.potatofly.xyz, port: 30010, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '香港|Azure|标准6_20', server: gzyd.potatofly.xyz, port: 30011, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '香港|HGC|流媒体|标准1_21', server: gzyd.potatofly.xyz, port: 30018, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '香港|HGC|流媒体|标准2_22', server: gzyd.potatofly.xyz, port: 30019, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '香港|HKT|流媒体|标准1_23', server: gzyd.potatofly.xyz, port: 30016, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '香港|HKT|流媒体|标准2_24', server: gzyd.potatofly.xyz, port: 30017, type: vmess, uuid: 93065276-b22e-3318-9d42-df266f464b0a, alterId: 2, cipher: auto, tls: false, network: tcp}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - 台湾|HINET|流媒体|标准1_1
+      - 台湾|HINET|流媒体|标准2_2
+      - 新加坡|HE|流媒体|标准1_3
+      - 新加坡|HE|流媒体|标准2_4
+      - 日本|NTT|标准1_5
+      - 日本|NTT|标准2_6
+      - 日本|软银|流媒体|标准1_7
+      - 日本|软银|流媒体|标准2_8
+      - 泰国|流媒体|标准1_9
+      - 泰国|流媒体|标准2_10
+      - 美国|INAP|流媒体|标准1_11
+      - 美国|INAP|流媒体|标准2_12
+      - 英国|GTT|TikTok|标准1_13
+      - 英国|GTT|TikTok|标准2_14
+      - 香港|Azure|标准1_15
+      - 香港|Azure|标准2_16
+      - 香港|Azure|标准3_17
+      - 香港|Azure|标准4_18
+      - 香港|Azure|标准5_19
+      - 香港|Azure|标准6_20
+      - 香港|HGC|流媒体|标准1_21
+      - 香港|HGC|流媒体|标准2_22
+      - 香港|HKT|流媒体|标准1_23
+      - 香港|HKT|流媒体|标准2_24
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - 台湾|HINET|流媒体|标准1_1
+      - 台湾|HINET|流媒体|标准2_2
+      - 新加坡|HE|流媒体|标准1_3
+      - 新加坡|HE|流媒体|标准2_4
+      - 日本|NTT|标准1_5
+      - 日本|NTT|标准2_6
+      - 日本|软银|流媒体|标准1_7
+      - 日本|软银|流媒体|标准2_8
+      - 泰国|流媒体|标准1_9
+      - 泰国|流媒体|标准2_10
+      - 美国|INAP|流媒体|标准1_11
+      - 美国|INAP|流媒体|标准2_12
+      - 英国|GTT|TikTok|标准1_13
+      - 英国|GTT|TikTok|标准2_14
+      - 香港|Azure|标准1_15
+      - 香港|Azure|标准2_16
+      - 香港|Azure|标准3_17
+      - 香港|Azure|标准4_18
+      - 香港|Azure|标准5_19
+      - 香港|Azure|标准6_20
+      - 香港|HGC|流媒体|标准1_21
+      - 香港|HGC|流媒体|标准2_22
+      - 香港|HKT|流媒体|标准1_23
+      - 香港|HKT|流媒体|标准2_24
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - 台湾|HINET|流媒体|标准1_1
+      - 台湾|HINET|流媒体|标准2_2
+      - 新加坡|HE|流媒体|标准1_3
+      - 新加坡|HE|流媒体|标准2_4
+      - 日本|NTT|标准1_5
+      - 日本|NTT|标准2_6
+      - 日本|软银|流媒体|标准1_7
+      - 日本|软银|流媒体|标准2_8
+      - 泰国|流媒体|标准1_9
+      - 泰国|流媒体|标准2_10
+      - 美国|INAP|流媒体|标准1_11
+      - 美国|INAP|流媒体|标准2_12
+      - 英国|GTT|TikTok|标准1_13
+      - 英国|GTT|TikTok|标准2_14
+      - 香港|Azure|标准1_15
+      - 香港|Azure|标准2_16
+      - 香港|Azure|标准3_17
+      - 香港|Azure|标准4_18
+      - 香港|Azure|标准5_19
+      - 香港|Azure|标准6_20
+      - 香港|HGC|流媒体|标准1_21
+      - 香港|HGC|流媒体|标准2_22
+      - 香港|HKT|流媒体|标准1_23
+      - 香港|HKT|流媒体|标准2_24
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - 台湾|HINET|流媒体|标准1_1
+      - 台湾|HINET|流媒体|标准2_2
+      - 新加坡|HE|流媒体|标准1_3
+      - 新加坡|HE|流媒体|标准2_4
+      - 日本|NTT|标准1_5
+      - 日本|NTT|标准2_6
+      - 日本|软银|流媒体|标准1_7
+      - 日本|软银|流媒体|标准2_8
+      - 泰国|流媒体|标准1_9
+      - 泰国|流媒体|标准2_10
+      - 美国|INAP|流媒体|标准1_11
+      - 美国|INAP|流媒体|标准2_12
+      - 英国|GTT|TikTok|标准1_13
+      - 英国|GTT|TikTok|标准2_14
+      - 香港|Azure|标准1_15
+      - 香港|Azure|标准2_16
+      - 香港|Azure|标准3_17
+      - 香港|Azure|标准4_18
+      - 香港|Azure|标准5_19
+      - 香港|Azure|标准6_20
+      - 香港|HGC|流媒体|标准1_21
+      - 香港|HGC|流媒体|标准2_22
+      - 香港|HKT|流媒体|标准1_23
+      - 香港|HKT|流媒体|标准2_24
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - 台湾|HINET|流媒体|标准1_1
+      - 台湾|HINET|流媒体|标准2_2
+      - 新加坡|HE|流媒体|标准1_3
+      - 新加坡|HE|流媒体|标准2_4
+      - 日本|NTT|标准1_5
+      - 日本|NTT|标准2_6
+      - 日本|软银|流媒体|标准1_7
+      - 日本|软银|流媒体|标准2_8
+      - 泰国|流媒体|标准1_9
+      - 泰国|流媒体|标准2_10
+      - 美国|INAP|流媒体|标准1_11
+      - 美国|INAP|流媒体|标准2_12
+      - 英国|GTT|TikTok|标准1_13
+      - 英国|GTT|TikTok|标准2_14
+      - 香港|Azure|标准1_15
+      - 香港|Azure|标准2_16
+      - 香港|Azure|标准3_17
+      - 香港|Azure|标准4_18
+      - 香港|Azure|标准5_19
+      - 香港|Azure|标准6_20
+      - 香港|HGC|流媒体|标准1_21
+      - 香港|HGC|流媒体|标准2_22
+      - 香港|HKT|流媒体|标准1_23
+      - 香港|HKT|流媒体|标准2_24
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - 台湾|HINET|流媒体|标准1_1
+      - 台湾|HINET|流媒体|标准2_2
+      - 新加坡|HE|流媒体|标准1_3
+      - 新加坡|HE|流媒体|标准2_4
+      - 日本|NTT|标准1_5
+      - 日本|NTT|标准2_6
+      - 日本|软银|流媒体|标准1_7
+      - 日本|软银|流媒体|标准2_8
+      - 泰国|流媒体|标准1_9
+      - 泰国|流媒体|标准2_10
+      - 美国|INAP|流媒体|标准1_11
+      - 美国|INAP|流媒体|标准2_12
+      - 英国|GTT|TikTok|标准1_13
+      - 英国|GTT|TikTok|标准2_14
+      - 香港|Azure|标准1_15
+      - 香港|Azure|标准2_16
+      - 香港|Azure|标准3_17
+      - 香港|Azure|标准4_18
+      - 香港|Azure|标准5_19
+      - 香港|Azure|标准6_20
+      - 香港|HGC|流媒体|标准1_21
+      - 香港|HGC|流媒体|标准2_22
+      - 香港|HKT|流媒体|标准1_23
+      - 香港|HKT|流媒体|标准2_24
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - 台湾|HINET|流媒体|标准1_1
+      - 台湾|HINET|流媒体|标准2_2
+      - 新加坡|HE|流媒体|标准1_3
+      - 新加坡|HE|流媒体|标准2_4
+      - 日本|NTT|标准1_5
+      - 日本|NTT|标准2_6
+      - 日本|软银|流媒体|标准1_7
+      - 日本|软银|流媒体|标准2_8
+      - 泰国|流媒体|标准1_9
+      - 泰国|流媒体|标准2_10
+      - 美国|INAP|流媒体|标准1_11
+      - 美国|INAP|流媒体|标准2_12
+      - 英国|GTT|TikTok|标准1_13
+      - 英国|GTT|TikTok|标准2_14
+      - 香港|Azure|标准1_15
+      - 香港|Azure|标准2_16
+      - 香港|Azure|标准3_17
+      - 香港|Azure|标准4_18
+      - 香港|Azure|标准5_19
+      - 香港|Azure|标准6_20
+      - 香港|HGC|流媒体|标准1_21
+      - 香港|HGC|流媒体|标准2_22
+      - 香港|HKT|流媒体|标准1_23
+      - 香港|HKT|流媒体|标准2_24
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,10 +250,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - 台湾|HINET|流媒体|标准1_1
+      - 台湾|HINET|流媒体|标准2_2
+      - 新加坡|HE|流媒体|标准1_3
+      - 新加坡|HE|流媒体|标准2_4
+      - 日本|NTT|标准1_5
+      - 日本|NTT|标准2_6
+      - 日本|软银|流媒体|标准1_7
+      - 日本|软银|流媒体|标准2_8
+      - 泰国|流媒体|标准1_9
+      - 泰国|流媒体|标准2_10
+      - 美国|INAP|流媒体|标准1_11
+      - 美国|INAP|流媒体|标准2_12
+      - 英国|GTT|TikTok|标准1_13
+      - 英国|GTT|TikTok|标准2_14
+      - 香港|Azure|标准1_15
+      - 香港|Azure|标准2_16
+      - 香港|Azure|标准3_17
+      - 香港|Azure|标准4_18
+      - 香港|Azure|标准5_19
+      - 香港|Azure|标准6_20
+      - 香港|HGC|流媒体|标准1_21
+      - 香港|HGC|流媒体|标准2_22
+      - 香港|HKT|流媒体|标准1_23
+      - 香港|HKT|流媒体|标准2_24
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
