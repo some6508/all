@@ -23,4 +23,4 @@ eval "`curl -sL "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="ht
 curl -sLo $home/c3 "$href"
 curl -sLo $home/v3 'https://gitee.com/chenx58/clash/raw/V2R/V2R'
 sed -i "/^|20/c|$(date '+%Y年%m月%d日·%H点%M分%S秒')|" $home/README.md
-sed -i "/^20/c$(date '+%Y年%m月%d日·%H点%M分%S秒' -d '+6 hour')" $home/README.md
+sed -i "/^20/c$(date '+%Y年%m月%d日·%H点%M分%S秒' -d '+1 hour')" $home/README.md
