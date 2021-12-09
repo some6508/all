@@ -22,7 +22,6 @@ jobs:
 
       - name: 运行脚本
         run: |
-          brew update
           bash ./.github/ccaeo.sh
 
       - name: 设置机器人
