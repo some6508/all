@@ -5,708 +5,844 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'UFO Australia 🇦🇺 Sydney_1', server: 66.203.112.53, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Belgium 🇧🇪 Brussels_2', server: 193.9.114.34, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Brazil 🇧🇷 SãoPaulo_3', server: 177.54.150.39, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Canada 🇨🇦 Montreal_4', server: 142.44.135.104, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO China 🇨🇳 Beijing_5', server: 72.140.224.196, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO France 🇫🇷 Gravelines_6', server: 46.105.73.221, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO France 🇫🇷 Paris 2_7', server: 163.172.65.156, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO France 🇫🇷 Paris 3_8', server: 35.180.88.172, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO France 🇫🇷 Paris 4_9', server: 51.159.30.61, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO France 🇫🇷 Paris 5 YT_10', server: 95.85.90.181, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO France 🇫🇷 Paris 6_11', server: 135.125.248.215, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO France 🇫🇷 Paris 7_12', server: 15.236.142.139, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO France 🇫🇷 Paris_13', server: 163.172.110.54, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Germany 🇩🇪 Berlin_14', server: 196.244.72.5, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Germany 🇩🇪 Düsseldorf 2_15', server: 85.114.138.92, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Germany 🇩🇪 Düsseldorf_16', server: 93.186.201.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Germany 🇩🇪 FrankfurtamMain 3_17', server: 18.185.63.41, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Germany 🇩🇪 FrankfurtamMain 2_18', server: 185.104.184.78, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Germany 🇩🇪 FrankfurtamMain_19', server: 3.126.91.132, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Germany 🇩🇪 LimburganderLahn 2_20', server: 135.125.248.209, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Germany 🇩🇪 LimburganderLahn_21', server: 135.125.253.250, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Hong Kong🇭🇰Central_22', server: 148.66.56.98, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO India 🇮🇳 Bengaluru_23', server: 134.209.155.247, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO India 🇮🇳 Mumbai 2_24', server: 15.206.125.20, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO India 🇮🇳 Mumbai 3_25', server: 35.154.201.59, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO India 🇮🇳 Mumbai_26', server: 13.233.237.144, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Ireland 🇮🇪 Dublin_27', server: 34.247.174.236, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Israel 🇮🇱 TelAviv_28', server: 63.250.61.77, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Italy 🇮🇹 Milan 2_29', server: 92.223.79.31, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Italy 🇮🇹 Milan 3_30', server: 95.141.32.210, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Italy 🇮🇹 Milan 4_31', server: 95.141.37.111, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Italy 🇮🇹 Milan_32', server: 92.223.93.225, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Japan 🇯🇵 Tokyo 2_33', server: 5.183.176.114, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Japan 🇯🇵 Tokyo 3_34', server: 103.140.136.200, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Japan 🇯🇵 Tokyo 4_35', server: 89.31.125.101, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Japan 🇯🇵 Tokyo 5_36', server: 185.160.24.217, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Japan 🇯🇵 Tokyo_37', server: 194.156.231.185, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Netherlands 🇳🇱 Naaldwijk_38', server: 178.132.3.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO New Zealand 🇳🇿 Auckland_39', server: 103.62.49.141, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Norway 🇳🇴 Lensvik_40', server: 185.101.35.172, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Philippines 🇵🇭 MakatiCity_41', server: 116.93.120.196, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Russia 🇷🇺 Moscow_42', server: 92.38.139.136, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Singapore 🇸🇬 QueenstownEstate 2_43', server: 81.90.189.152, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Singapore 🇸🇬 QueenstownEstate_44', server: 81.90.189.229, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Singapore 🇸🇬 Singapore 2_45', server: 51.79.178.64, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Singapore 🇸🇬 Singapore 3_46', server: 196.240.126.74, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Singapore 🇸🇬 Singapore_47', server: 139.99.62.219, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO South Korea 🇰🇷 Gangnam_48', server: 211.212.237.222, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Sweden 🇸🇪 Stockholm_49', server: 196.196.156.106, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Switzerland 🇨🇭 Zurich_50', server: 188.241.120.16, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Taiwan 🇹🇼 Chang-hua_51', server: 61.224.67.42, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO Turkey 🇹🇷 Bahçelievler_52', server: 185.17.113.234, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO United Arab Emirates 🇦🇪 Dubai_53', server: 217.138.193.6, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO United Arab Emirates 🇦🇪 Sharjah 2_54', server: 109.169.72.239, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO United Arab Emirates 🇦🇪 Sharjah_55', server: 109.169.72.249, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO United Kingdom 🇬🇧 Basingstoke_56', server: 78.129.253.9, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO United Kingdom 🇬🇧 London 2_57', server: 89.35.29.96, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO United Kingdom 🇬🇧 London 3_58', server: 35.177.29.114, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO United Kingdom 🇬🇧 London 4_59', server: 89.238.165.226, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO United Kingdom 🇬🇧 London_60', server: 89.34.96.73, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO United Kingdom 🇬🇧 London 5_61', server: 92.223.59.188, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 Atlanta 2_62', server: 167.88.63.29, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 Atlanta_63', server: 92.119.16.204, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 Chicago 2_64', server: 38.64.138.103, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 Chicago_65', server: 162.251.61.221, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 Dallas 2_66', server: 38.68.134.135, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 Dallas_67', server: 38.68.135.248, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 Denver_68', server: 194.76.137.112, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 LasVegas_69', server: 37.120.147.230, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 LosAngeles 2_70', server: 185.153.180.238, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 LosAngeles 3_71', server: 172.245.218.162, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 LosAngeles 4_72', server: 193.239.87.134, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 LosAngeles_73', server: 77.247.126.153, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 Miami 2_74', server: 193.37.252.210, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 Miami_75', server: 38.91.107.225, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 NewYork 2_76', server: 45.83.27.130, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 NewYork 3_77', server: 5.181.234.254, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 NewYork_78', server: 45.144.112.162, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 Phoenix_79', server: 37.120.219.218, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 SantaClara_80', server: 167.88.61.236, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 Seattle 2_81', server: 38.143.66.125, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 Seattle_82', server: 169.197.143.15, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UFO USA 🇺🇸 Washington_83', server: 167.88.61.236, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇪🇸_ES西班牙_1', server: 172.107.233.234, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇪🇸_ES西班牙_2', server: 172.107.233.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇪🇸_ES西班牙_3', server: 172.107.233.234, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇪🇸_ES西班牙_4', server: 172.107.233.234, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇧🇻_BV布维岛_5', server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇧🇻_BV布维岛_6', server: 46.29.219.246, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA加拿大_7', server: 134.195.196.107, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇧🇻_BV布维岛_8', server: 46.29.219.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US美国_9', server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US美国_10', server: 142.202.48.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US美国_11', server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US美国_12', server: 167.88.62.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US美国_13', server: 142.202.48.17, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US美国_14', server: 167.88.62.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US美国_15', server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US美国_16', server: 142.202.48.17, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US美国_17', server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US美国_18', server: 167.88.62.34, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US美国_19', server: 38.114.114.69, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US美国_20', server: 142.202.48.17, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US美国_21', server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US美国_22', server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US美国_23', server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US美国_24', server: 38.114.114.69, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US美国_25', server: 167.88.62.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US美国_26', server: 38.114.114.69, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US美国_27', server: 38.114.114.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US美国_28', server: 38.114.114.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US美国_29', server: 142.202.48.17, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇩🇪_DE德国_30', server: 172.105.251.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US美国_31', server: 38.91.100.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US美国_32', server: 167.88.63.89, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US美国_33', server: 167.88.63.89, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US美国_34', server: 142.202.48.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US美国_35', server: 167.88.63.89, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US美国_36', server: 167.88.63.89, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US美国_37', server: 38.68.134.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US美国_38', server: 167.88.63.89, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US美国_39', server: 38.114.114.69, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US美国_40', server: 167.88.63.89, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US美国_41', server: 38.75.136.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US美国_42', server: 38.75.136.102, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US美国_43', server: 38.75.136.102, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US美国_44', server: 38.75.136.102, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US美国_45', server: 38.75.136.102, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US美国_46', server: 38.114.114.69, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US美国_47', server: 38.114.114.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇱🇺_LU卢森堡_48', server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
+  - {name: '🇫🇮_FI芬兰_49', server: 185.212.149.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: SxFvGWWUtEjyQnGbggq2}
+  - {name: '🇳🇴_NO挪威_50', server: 46.29.218.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸_US美国_51', server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
+  - {name: '🇳🇬_NG尼日利亚_52', server: 102.129.144.142, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6}
+  - {name: '🇺🇸_US美国_53', server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US美国_54', server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US美国_55', server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US美国_56', server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US美国_57', server: 38.114.114.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA加拿大_58', server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '🇫🇷_FR法国_59', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: '🇺🇸_US美国_60', server: 38.68.135.93, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US美国_61', server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US美国_62', server: 38.68.135.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US美国_63', server: 38.68.135.93, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US美国_64', server: 167.88.63.89, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US美国_65', server: 38.68.135.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US美国_66', server: 167.88.63.89, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US美国_67', server: 167.88.63.89, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB英国_68', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇳🇴_NO挪威_69', server: 46.29.218.170, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇳🇴_NO挪威_70', server: 46.29.218.170, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇸🇬_SG新加坡_71', server: 172.104.168.83, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇦_UA乌克兰_72', server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: '🇬🇧_GB英国_73', server: 172.99.190.57, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US美国_74', server: 142.202.48.108, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US美国_75', server: 38.114.114.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US美国_76', server: 167.88.63.89, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US美国_77', server: 142.202.48.108, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US美国_78', server: 38.68.135.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US美国_79', server: 38.68.135.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'default_name_80', server: 38.68.134.190, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US美国_81', server: 38.68.135.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US美国_82', server: 38.68.135.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US美国_83', server: 38.68.135.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US美国_84', server: 38.114.114.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US美国_85', server: 38.114.114.49, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US美国_86', server: 38.114.114.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇩🇪_DE德国_87', server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇬🇧_GB英国_88', server: 77.243.177.78, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Qu9b6jbYLF5Dtha3n7W2}
+  - {name: '🇺🇸_US美国_89', server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
+  - {name: 'default_name_90', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'default_name_91', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇩🇪_DE德国_92', server: 172.105.251.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA加拿大_93', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦_CA加拿大_94', server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: '🇨🇦_CA加拿大_95', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA加拿大_96', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA加拿大_97', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA加拿大_98', server: 71.19.249.109, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QBLw4rLXQ6ebxpWwSKDL}
+  - {name: '🇨🇦_CA加拿大_99', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_100', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - UFO Australia 🇦🇺 Sydney_1
-      - UFO Belgium 🇧🇪 Brussels_2
-      - UFO Brazil 🇧🇷 SãoPaulo_3
-      - UFO Canada 🇨🇦 Montreal_4
-      - UFO China 🇨🇳 Beijing_5
-      - UFO France 🇫🇷 Gravelines_6
-      - UFO France 🇫🇷 Paris 2_7
-      - UFO France 🇫🇷 Paris 3_8
-      - UFO France 🇫🇷 Paris 4_9
-      - UFO France 🇫🇷 Paris 5 YT_10
-      - UFO France 🇫🇷 Paris 6_11
-      - UFO France 🇫🇷 Paris 7_12
-      - UFO France 🇫🇷 Paris_13
-      - UFO Germany 🇩🇪 Berlin_14
-      - UFO Germany 🇩🇪 Düsseldorf 2_15
-      - UFO Germany 🇩🇪 Düsseldorf_16
-      - UFO Germany 🇩🇪 FrankfurtamMain 3_17
-      - UFO Germany 🇩🇪 FrankfurtamMain 2_18
-      - UFO Germany 🇩🇪 FrankfurtamMain_19
-      - UFO Germany 🇩🇪 LimburganderLahn 2_20
-      - UFO Germany 🇩🇪 LimburganderLahn_21
-      - UFO Hong Kong🇭🇰Central_22
-      - UFO India 🇮🇳 Bengaluru_23
-      - UFO India 🇮🇳 Mumbai 2_24
-      - UFO India 🇮🇳 Mumbai 3_25
-      - UFO India 🇮🇳 Mumbai_26
-      - UFO Ireland 🇮🇪 Dublin_27
-      - UFO Israel 🇮🇱 TelAviv_28
-      - UFO Italy 🇮🇹 Milan 2_29
-      - UFO Italy 🇮🇹 Milan 3_30
-      - UFO Italy 🇮🇹 Milan 4_31
-      - UFO Italy 🇮🇹 Milan_32
-      - UFO Japan 🇯🇵 Tokyo 2_33
-      - UFO Japan 🇯🇵 Tokyo 3_34
-      - UFO Japan 🇯🇵 Tokyo 4_35
-      - UFO Japan 🇯🇵 Tokyo 5_36
-      - UFO Japan 🇯🇵 Tokyo_37
-      - UFO Netherlands 🇳🇱 Naaldwijk_38
-      - UFO New Zealand 🇳🇿 Auckland_39
-      - UFO Norway 🇳🇴 Lensvik_40
-      - UFO Philippines 🇵🇭 MakatiCity_41
-      - UFO Russia 🇷🇺 Moscow_42
-      - UFO Singapore 🇸🇬 QueenstownEstate 2_43
-      - UFO Singapore 🇸🇬 QueenstownEstate_44
-      - UFO Singapore 🇸🇬 Singapore 2_45
-      - UFO Singapore 🇸🇬 Singapore 3_46
-      - UFO Singapore 🇸🇬 Singapore_47
-      - UFO South Korea 🇰🇷 Gangnam_48
-      - UFO Sweden 🇸🇪 Stockholm_49
-      - UFO Switzerland 🇨🇭 Zurich_50
-      - UFO Taiwan 🇹🇼 Chang-hua_51
-      - UFO Turkey 🇹🇷 Bahçelievler_52
-      - UFO United Arab Emirates 🇦🇪 Dubai_53
-      - UFO United Arab Emirates 🇦🇪 Sharjah 2_54
-      - UFO United Arab Emirates 🇦🇪 Sharjah_55
-      - UFO United Kingdom 🇬🇧 Basingstoke_56
-      - UFO United Kingdom 🇬🇧 London 2_57
-      - UFO United Kingdom 🇬🇧 London 3_58
-      - UFO United Kingdom 🇬🇧 London 4_59
-      - UFO United Kingdom 🇬🇧 London_60
-      - UFO United Kingdom 🇬🇧 London 5_61
-      - UFO USA 🇺🇸 Atlanta 2_62
-      - UFO USA 🇺🇸 Atlanta_63
-      - UFO USA 🇺🇸 Chicago 2_64
-      - UFO USA 🇺🇸 Chicago_65
-      - UFO USA 🇺🇸 Dallas 2_66
-      - UFO USA 🇺🇸 Dallas_67
-      - UFO USA 🇺🇸 Denver_68
-      - UFO USA 🇺🇸 LasVegas_69
-      - UFO USA 🇺🇸 LosAngeles 2_70
-      - UFO USA 🇺🇸 LosAngeles 3_71
-      - UFO USA 🇺🇸 LosAngeles 4_72
-      - UFO USA 🇺🇸 LosAngeles_73
-      - UFO USA 🇺🇸 Miami 2_74
-      - UFO USA 🇺🇸 Miami_75
-      - UFO USA 🇺🇸 NewYork 2_76
-      - UFO USA 🇺🇸 NewYork 3_77
-      - UFO USA 🇺🇸 NewYork_78
-      - UFO USA 🇺🇸 Phoenix_79
-      - UFO USA 🇺🇸 SantaClara_80
-      - UFO USA 🇺🇸 Seattle 2_81
-      - UFO USA 🇺🇸 Seattle_82
-      - UFO USA 🇺🇸 Washington_83
+      - 🇪🇸_ES西班牙_1
+      - 🇪🇸_ES西班牙_2
+      - 🇪🇸_ES西班牙_3
+      - 🇪🇸_ES西班牙_4
+      - 🇧🇻_BV布维岛_5
+      - 🇧🇻_BV布维岛_6
+      - 🇨🇦_CA加拿大_7
+      - 🇧🇻_BV布维岛_8
+      - 🇺🇸_US美国_9
+      - 🇺🇸_US美国_10
+      - 🇺🇸_US美国_11
+      - 🇺🇸_US美国_12
+      - 🇺🇸_US美国_13
+      - 🇺🇸_US美国_14
+      - 🇺🇸_US美国_15
+      - 🇺🇸_US美国_16
+      - 🇺🇸_US美国_17
+      - 🇺🇸_US美国_18
+      - 🇺🇸_US美国_19
+      - 🇺🇸_US美国_20
+      - 🇺🇸_US美国_21
+      - 🇺🇸_US美国_22
+      - 🇺🇸_US美国_23
+      - 🇺🇸_US美国_24
+      - 🇺🇸_US美国_25
+      - 🇺🇸_US美国_26
+      - 🇺🇸_US美国_27
+      - 🇺🇸_US美国_28
+      - 🇺🇸_US美国_29
+      - 🇩🇪_DE德国_30
+      - 🇺🇸_US美国_31
+      - 🇺🇸_US美国_32
+      - 🇺🇸_US美国_33
+      - 🇺🇸_US美国_34
+      - 🇺🇸_US美国_35
+      - 🇺🇸_US美国_36
+      - 🇺🇸_US美国_37
+      - 🇺🇸_US美国_38
+      - 🇺🇸_US美国_39
+      - 🇺🇸_US美国_40
+      - 🇺🇸_US美国_41
+      - 🇺🇸_US美国_42
+      - 🇺🇸_US美国_43
+      - 🇺🇸_US美国_44
+      - 🇺🇸_US美国_45
+      - 🇺🇸_US美国_46
+      - 🇺🇸_US美国_47
+      - 🇱🇺_LU卢森堡_48
+      - 🇫🇮_FI芬兰_49
+      - 🇳🇴_NO挪威_50
+      - 🇺🇸_US美国_51
+      - 🇳🇬_NG尼日利亚_52
+      - 🇺🇸_US美国_53
+      - 🇺🇸_US美国_54
+      - 🇺🇸_US美国_55
+      - 🇺🇸_US美国_56
+      - 🇺🇸_US美国_57
+      - 🇨🇦_CA加拿大_58
+      - 🇫🇷_FR法国_59
+      - 🇺🇸_US美国_60
+      - 🇺🇸_US美国_61
+      - 🇺🇸_US美国_62
+      - 🇺🇸_US美国_63
+      - 🇺🇸_US美国_64
+      - 🇺🇸_US美国_65
+      - 🇺🇸_US美国_66
+      - 🇺🇸_US美国_67
+      - 🇬🇧_GB英国_68
+      - 🇳🇴_NO挪威_69
+      - 🇳🇴_NO挪威_70
+      - 🇸🇬_SG新加坡_71
+      - 🇺🇦_UA乌克兰_72
+      - 🇬🇧_GB英国_73
+      - 🇺🇸_US美国_74
+      - 🇺🇸_US美国_75
+      - 🇺🇸_US美国_76
+      - 🇺🇸_US美国_77
+      - 🇺🇸_US美国_78
+      - 🇺🇸_US美国_79
+      - default_name_80
+      - 🇺🇸_US美国_81
+      - 🇺🇸_US美国_82
+      - 🇺🇸_US美国_83
+      - 🇺🇸_US美国_84
+      - 🇺🇸_US美国_85
+      - 🇺🇸_US美国_86
+      - 🇩🇪_DE德国_87
+      - 🇬🇧_GB英国_88
+      - 🇺🇸_US美国_89
+      - default_name_90
+      - default_name_91
+      - 🇩🇪_DE德国_92
+      - 🇨🇦_CA加拿大_93
+      - 🇨🇦_CA加拿大_94
+      - 🇨🇦_CA加拿大_95
+      - 🇨🇦_CA加拿大_96
+      - 🇨🇦_CA加拿大_97
+      - 🇨🇦_CA加拿大_98
+      - 🇨🇦_CA加拿大_99
+      - 🇨🇦_CA_加拿大_100
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - UFO Australia 🇦🇺 Sydney_1
-      - UFO Belgium 🇧🇪 Brussels_2
-      - UFO Brazil 🇧🇷 SãoPaulo_3
-      - UFO Canada 🇨🇦 Montreal_4
-      - UFO China 🇨🇳 Beijing_5
-      - UFO France 🇫🇷 Gravelines_6
-      - UFO France 🇫🇷 Paris 2_7
-      - UFO France 🇫🇷 Paris 3_8
-      - UFO France 🇫🇷 Paris 4_9
-      - UFO France 🇫🇷 Paris 5 YT_10
-      - UFO France 🇫🇷 Paris 6_11
-      - UFO France 🇫🇷 Paris 7_12
-      - UFO France 🇫🇷 Paris_13
-      - UFO Germany 🇩🇪 Berlin_14
-      - UFO Germany 🇩🇪 Düsseldorf 2_15
-      - UFO Germany 🇩🇪 Düsseldorf_16
-      - UFO Germany 🇩🇪 FrankfurtamMain 3_17
-      - UFO Germany 🇩🇪 FrankfurtamMain 2_18
-      - UFO Germany 🇩🇪 FrankfurtamMain_19
-      - UFO Germany 🇩🇪 LimburganderLahn 2_20
-      - UFO Germany 🇩🇪 LimburganderLahn_21
-      - UFO Hong Kong🇭🇰Central_22
-      - UFO India 🇮🇳 Bengaluru_23
-      - UFO India 🇮🇳 Mumbai 2_24
-      - UFO India 🇮🇳 Mumbai 3_25
-      - UFO India 🇮🇳 Mumbai_26
-      - UFO Ireland 🇮🇪 Dublin_27
-      - UFO Israel 🇮🇱 TelAviv_28
-      - UFO Italy 🇮🇹 Milan 2_29
-      - UFO Italy 🇮🇹 Milan 3_30
-      - UFO Italy 🇮🇹 Milan 4_31
-      - UFO Italy 🇮🇹 Milan_32
-      - UFO Japan 🇯🇵 Tokyo 2_33
-      - UFO Japan 🇯🇵 Tokyo 3_34
-      - UFO Japan 🇯🇵 Tokyo 4_35
-      - UFO Japan 🇯🇵 Tokyo 5_36
-      - UFO Japan 🇯🇵 Tokyo_37
-      - UFO Netherlands 🇳🇱 Naaldwijk_38
-      - UFO New Zealand 🇳🇿 Auckland_39
-      - UFO Norway 🇳🇴 Lensvik_40
-      - UFO Philippines 🇵🇭 MakatiCity_41
-      - UFO Russia 🇷🇺 Moscow_42
-      - UFO Singapore 🇸🇬 QueenstownEstate 2_43
-      - UFO Singapore 🇸🇬 QueenstownEstate_44
-      - UFO Singapore 🇸🇬 Singapore 2_45
-      - UFO Singapore 🇸🇬 Singapore 3_46
-      - UFO Singapore 🇸🇬 Singapore_47
-      - UFO South Korea 🇰🇷 Gangnam_48
-      - UFO Sweden 🇸🇪 Stockholm_49
-      - UFO Switzerland 🇨🇭 Zurich_50
-      - UFO Taiwan 🇹🇼 Chang-hua_51
-      - UFO Turkey 🇹🇷 Bahçelievler_52
-      - UFO United Arab Emirates 🇦🇪 Dubai_53
-      - UFO United Arab Emirates 🇦🇪 Sharjah 2_54
-      - UFO United Arab Emirates 🇦🇪 Sharjah_55
-      - UFO United Kingdom 🇬🇧 Basingstoke_56
-      - UFO United Kingdom 🇬🇧 London 2_57
-      - UFO United Kingdom 🇬🇧 London 3_58
-      - UFO United Kingdom 🇬🇧 London 4_59
-      - UFO United Kingdom 🇬🇧 London_60
-      - UFO United Kingdom 🇬🇧 London 5_61
-      - UFO USA 🇺🇸 Atlanta 2_62
-      - UFO USA 🇺🇸 Atlanta_63
-      - UFO USA 🇺🇸 Chicago 2_64
-      - UFO USA 🇺🇸 Chicago_65
-      - UFO USA 🇺🇸 Dallas 2_66
-      - UFO USA 🇺🇸 Dallas_67
-      - UFO USA 🇺🇸 Denver_68
-      - UFO USA 🇺🇸 LasVegas_69
-      - UFO USA 🇺🇸 LosAngeles 2_70
-      - UFO USA 🇺🇸 LosAngeles 3_71
-      - UFO USA 🇺🇸 LosAngeles 4_72
-      - UFO USA 🇺🇸 LosAngeles_73
-      - UFO USA 🇺🇸 Miami 2_74
-      - UFO USA 🇺🇸 Miami_75
-      - UFO USA 🇺🇸 NewYork 2_76
-      - UFO USA 🇺🇸 NewYork 3_77
-      - UFO USA 🇺🇸 NewYork_78
-      - UFO USA 🇺🇸 Phoenix_79
-      - UFO USA 🇺🇸 SantaClara_80
-      - UFO USA 🇺🇸 Seattle 2_81
-      - UFO USA 🇺🇸 Seattle_82
-      - UFO USA 🇺🇸 Washington_83
+      - 🇪🇸_ES西班牙_1
+      - 🇪🇸_ES西班牙_2
+      - 🇪🇸_ES西班牙_3
+      - 🇪🇸_ES西班牙_4
+      - 🇧🇻_BV布维岛_5
+      - 🇧🇻_BV布维岛_6
+      - 🇨🇦_CA加拿大_7
+      - 🇧🇻_BV布维岛_8
+      - 🇺🇸_US美国_9
+      - 🇺🇸_US美国_10
+      - 🇺🇸_US美国_11
+      - 🇺🇸_US美国_12
+      - 🇺🇸_US美国_13
+      - 🇺🇸_US美国_14
+      - 🇺🇸_US美国_15
+      - 🇺🇸_US美国_16
+      - 🇺🇸_US美国_17
+      - 🇺🇸_US美国_18
+      - 🇺🇸_US美国_19
+      - 🇺🇸_US美国_20
+      - 🇺🇸_US美国_21
+      - 🇺🇸_US美国_22
+      - 🇺🇸_US美国_23
+      - 🇺🇸_US美国_24
+      - 🇺🇸_US美国_25
+      - 🇺🇸_US美国_26
+      - 🇺🇸_US美国_27
+      - 🇺🇸_US美国_28
+      - 🇺🇸_US美国_29
+      - 🇩🇪_DE德国_30
+      - 🇺🇸_US美国_31
+      - 🇺🇸_US美国_32
+      - 🇺🇸_US美国_33
+      - 🇺🇸_US美国_34
+      - 🇺🇸_US美国_35
+      - 🇺🇸_US美国_36
+      - 🇺🇸_US美国_37
+      - 🇺🇸_US美国_38
+      - 🇺🇸_US美国_39
+      - 🇺🇸_US美国_40
+      - 🇺🇸_US美国_41
+      - 🇺🇸_US美国_42
+      - 🇺🇸_US美国_43
+      - 🇺🇸_US美国_44
+      - 🇺🇸_US美国_45
+      - 🇺🇸_US美国_46
+      - 🇺🇸_US美国_47
+      - 🇱🇺_LU卢森堡_48
+      - 🇫🇮_FI芬兰_49
+      - 🇳🇴_NO挪威_50
+      - 🇺🇸_US美国_51
+      - 🇳🇬_NG尼日利亚_52
+      - 🇺🇸_US美国_53
+      - 🇺🇸_US美国_54
+      - 🇺🇸_US美国_55
+      - 🇺🇸_US美国_56
+      - 🇺🇸_US美国_57
+      - 🇨🇦_CA加拿大_58
+      - 🇫🇷_FR法国_59
+      - 🇺🇸_US美国_60
+      - 🇺🇸_US美国_61
+      - 🇺🇸_US美国_62
+      - 🇺🇸_US美国_63
+      - 🇺🇸_US美国_64
+      - 🇺🇸_US美国_65
+      - 🇺🇸_US美国_66
+      - 🇺🇸_US美国_67
+      - 🇬🇧_GB英国_68
+      - 🇳🇴_NO挪威_69
+      - 🇳🇴_NO挪威_70
+      - 🇸🇬_SG新加坡_71
+      - 🇺🇦_UA乌克兰_72
+      - 🇬🇧_GB英国_73
+      - 🇺🇸_US美国_74
+      - 🇺🇸_US美国_75
+      - 🇺🇸_US美国_76
+      - 🇺🇸_US美国_77
+      - 🇺🇸_US美国_78
+      - 🇺🇸_US美国_79
+      - default_name_80
+      - 🇺🇸_US美国_81
+      - 🇺🇸_US美国_82
+      - 🇺🇸_US美国_83
+      - 🇺🇸_US美国_84
+      - 🇺🇸_US美国_85
+      - 🇺🇸_US美国_86
+      - 🇩🇪_DE德国_87
+      - 🇬🇧_GB英国_88
+      - 🇺🇸_US美国_89
+      - default_name_90
+      - default_name_91
+      - 🇩🇪_DE德国_92
+      - 🇨🇦_CA加拿大_93
+      - 🇨🇦_CA加拿大_94
+      - 🇨🇦_CA加拿大_95
+      - 🇨🇦_CA加拿大_96
+      - 🇨🇦_CA加拿大_97
+      - 🇨🇦_CA加拿大_98
+      - 🇨🇦_CA加拿大_99
+      - 🇨🇦_CA_加拿大_100
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - UFO Australia 🇦🇺 Sydney_1
-      - UFO Belgium 🇧🇪 Brussels_2
-      - UFO Brazil 🇧🇷 SãoPaulo_3
-      - UFO Canada 🇨🇦 Montreal_4
-      - UFO China 🇨🇳 Beijing_5
-      - UFO France 🇫🇷 Gravelines_6
-      - UFO France 🇫🇷 Paris 2_7
-      - UFO France 🇫🇷 Paris 3_8
-      - UFO France 🇫🇷 Paris 4_9
-      - UFO France 🇫🇷 Paris 5 YT_10
-      - UFO France 🇫🇷 Paris 6_11
-      - UFO France 🇫🇷 Paris 7_12
-      - UFO France 🇫🇷 Paris_13
-      - UFO Germany 🇩🇪 Berlin_14
-      - UFO Germany 🇩🇪 Düsseldorf 2_15
-      - UFO Germany 🇩🇪 Düsseldorf_16
-      - UFO Germany 🇩🇪 FrankfurtamMain 3_17
-      - UFO Germany 🇩🇪 FrankfurtamMain 2_18
-      - UFO Germany 🇩🇪 FrankfurtamMain_19
-      - UFO Germany 🇩🇪 LimburganderLahn 2_20
-      - UFO Germany 🇩🇪 LimburganderLahn_21
-      - UFO Hong Kong🇭🇰Central_22
-      - UFO India 🇮🇳 Bengaluru_23
-      - UFO India 🇮🇳 Mumbai 2_24
-      - UFO India 🇮🇳 Mumbai 3_25
-      - UFO India 🇮🇳 Mumbai_26
-      - UFO Ireland 🇮🇪 Dublin_27
-      - UFO Israel 🇮🇱 TelAviv_28
-      - UFO Italy 🇮🇹 Milan 2_29
-      - UFO Italy 🇮🇹 Milan 3_30
-      - UFO Italy 🇮🇹 Milan 4_31
-      - UFO Italy 🇮🇹 Milan_32
-      - UFO Japan 🇯🇵 Tokyo 2_33
-      - UFO Japan 🇯🇵 Tokyo 3_34
-      - UFO Japan 🇯🇵 Tokyo 4_35
-      - UFO Japan 🇯🇵 Tokyo 5_36
-      - UFO Japan 🇯🇵 Tokyo_37
-      - UFO Netherlands 🇳🇱 Naaldwijk_38
-      - UFO New Zealand 🇳🇿 Auckland_39
-      - UFO Norway 🇳🇴 Lensvik_40
-      - UFO Philippines 🇵🇭 MakatiCity_41
-      - UFO Russia 🇷🇺 Moscow_42
-      - UFO Singapore 🇸🇬 QueenstownEstate 2_43
-      - UFO Singapore 🇸🇬 QueenstownEstate_44
-      - UFO Singapore 🇸🇬 Singapore 2_45
-      - UFO Singapore 🇸🇬 Singapore 3_46
-      - UFO Singapore 🇸🇬 Singapore_47
-      - UFO South Korea 🇰🇷 Gangnam_48
-      - UFO Sweden 🇸🇪 Stockholm_49
-      - UFO Switzerland 🇨🇭 Zurich_50
-      - UFO Taiwan 🇹🇼 Chang-hua_51
-      - UFO Turkey 🇹🇷 Bahçelievler_52
-      - UFO United Arab Emirates 🇦🇪 Dubai_53
-      - UFO United Arab Emirates 🇦🇪 Sharjah 2_54
-      - UFO United Arab Emirates 🇦🇪 Sharjah_55
-      - UFO United Kingdom 🇬🇧 Basingstoke_56
-      - UFO United Kingdom 🇬🇧 London 2_57
-      - UFO United Kingdom 🇬🇧 London 3_58
-      - UFO United Kingdom 🇬🇧 London 4_59
-      - UFO United Kingdom 🇬🇧 London_60
-      - UFO United Kingdom 🇬🇧 London 5_61
-      - UFO USA 🇺🇸 Atlanta 2_62
-      - UFO USA 🇺🇸 Atlanta_63
-      - UFO USA 🇺🇸 Chicago 2_64
-      - UFO USA 🇺🇸 Chicago_65
-      - UFO USA 🇺🇸 Dallas 2_66
-      - UFO USA 🇺🇸 Dallas_67
-      - UFO USA 🇺🇸 Denver_68
-      - UFO USA 🇺🇸 LasVegas_69
-      - UFO USA 🇺🇸 LosAngeles 2_70
-      - UFO USA 🇺🇸 LosAngeles 3_71
-      - UFO USA 🇺🇸 LosAngeles 4_72
-      - UFO USA 🇺🇸 LosAngeles_73
-      - UFO USA 🇺🇸 Miami 2_74
-      - UFO USA 🇺🇸 Miami_75
-      - UFO USA 🇺🇸 NewYork 2_76
-      - UFO USA 🇺🇸 NewYork 3_77
-      - UFO USA 🇺🇸 NewYork_78
-      - UFO USA 🇺🇸 Phoenix_79
-      - UFO USA 🇺🇸 SantaClara_80
-      - UFO USA 🇺🇸 Seattle 2_81
-      - UFO USA 🇺🇸 Seattle_82
-      - UFO USA 🇺🇸 Washington_83
+      - 🇪🇸_ES西班牙_1
+      - 🇪🇸_ES西班牙_2
+      - 🇪🇸_ES西班牙_3
+      - 🇪🇸_ES西班牙_4
+      - 🇧🇻_BV布维岛_5
+      - 🇧🇻_BV布维岛_6
+      - 🇨🇦_CA加拿大_7
+      - 🇧🇻_BV布维岛_8
+      - 🇺🇸_US美国_9
+      - 🇺🇸_US美国_10
+      - 🇺🇸_US美国_11
+      - 🇺🇸_US美国_12
+      - 🇺🇸_US美国_13
+      - 🇺🇸_US美国_14
+      - 🇺🇸_US美国_15
+      - 🇺🇸_US美国_16
+      - 🇺🇸_US美国_17
+      - 🇺🇸_US美国_18
+      - 🇺🇸_US美国_19
+      - 🇺🇸_US美国_20
+      - 🇺🇸_US美国_21
+      - 🇺🇸_US美国_22
+      - 🇺🇸_US美国_23
+      - 🇺🇸_US美国_24
+      - 🇺🇸_US美国_25
+      - 🇺🇸_US美国_26
+      - 🇺🇸_US美国_27
+      - 🇺🇸_US美国_28
+      - 🇺🇸_US美国_29
+      - 🇩🇪_DE德国_30
+      - 🇺🇸_US美国_31
+      - 🇺🇸_US美国_32
+      - 🇺🇸_US美国_33
+      - 🇺🇸_US美国_34
+      - 🇺🇸_US美国_35
+      - 🇺🇸_US美国_36
+      - 🇺🇸_US美国_37
+      - 🇺🇸_US美国_38
+      - 🇺🇸_US美国_39
+      - 🇺🇸_US美国_40
+      - 🇺🇸_US美国_41
+      - 🇺🇸_US美国_42
+      - 🇺🇸_US美国_43
+      - 🇺🇸_US美国_44
+      - 🇺🇸_US美国_45
+      - 🇺🇸_US美国_46
+      - 🇺🇸_US美国_47
+      - 🇱🇺_LU卢森堡_48
+      - 🇫🇮_FI芬兰_49
+      - 🇳🇴_NO挪威_50
+      - 🇺🇸_US美国_51
+      - 🇳🇬_NG尼日利亚_52
+      - 🇺🇸_US美国_53
+      - 🇺🇸_US美国_54
+      - 🇺🇸_US美国_55
+      - 🇺🇸_US美国_56
+      - 🇺🇸_US美国_57
+      - 🇨🇦_CA加拿大_58
+      - 🇫🇷_FR法国_59
+      - 🇺🇸_US美国_60
+      - 🇺🇸_US美国_61
+      - 🇺🇸_US美国_62
+      - 🇺🇸_US美国_63
+      - 🇺🇸_US美国_64
+      - 🇺🇸_US美国_65
+      - 🇺🇸_US美国_66
+      - 🇺🇸_US美国_67
+      - 🇬🇧_GB英国_68
+      - 🇳🇴_NO挪威_69
+      - 🇳🇴_NO挪威_70
+      - 🇸🇬_SG新加坡_71
+      - 🇺🇦_UA乌克兰_72
+      - 🇬🇧_GB英国_73
+      - 🇺🇸_US美国_74
+      - 🇺🇸_US美国_75
+      - 🇺🇸_US美国_76
+      - 🇺🇸_US美国_77
+      - 🇺🇸_US美国_78
+      - 🇺🇸_US美国_79
+      - default_name_80
+      - 🇺🇸_US美国_81
+      - 🇺🇸_US美国_82
+      - 🇺🇸_US美国_83
+      - 🇺🇸_US美国_84
+      - 🇺🇸_US美国_85
+      - 🇺🇸_US美国_86
+      - 🇩🇪_DE德国_87
+      - 🇬🇧_GB英国_88
+      - 🇺🇸_US美国_89
+      - default_name_90
+      - default_name_91
+      - 🇩🇪_DE德国_92
+      - 🇨🇦_CA加拿大_93
+      - 🇨🇦_CA加拿大_94
+      - 🇨🇦_CA加拿大_95
+      - 🇨🇦_CA加拿大_96
+      - 🇨🇦_CA加拿大_97
+      - 🇨🇦_CA加拿大_98
+      - 🇨🇦_CA加拿大_99
+      - 🇨🇦_CA_加拿大_100
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - UFO Australia 🇦🇺 Sydney_1
-      - UFO Belgium 🇧🇪 Brussels_2
-      - UFO Brazil 🇧🇷 SãoPaulo_3
-      - UFO Canada 🇨🇦 Montreal_4
-      - UFO China 🇨🇳 Beijing_5
-      - UFO France 🇫🇷 Gravelines_6
-      - UFO France 🇫🇷 Paris 2_7
-      - UFO France 🇫🇷 Paris 3_8
-      - UFO France 🇫🇷 Paris 4_9
-      - UFO France 🇫🇷 Paris 5 YT_10
-      - UFO France 🇫🇷 Paris 6_11
-      - UFO France 🇫🇷 Paris 7_12
-      - UFO France 🇫🇷 Paris_13
-      - UFO Germany 🇩🇪 Berlin_14
-      - UFO Germany 🇩🇪 Düsseldorf 2_15
-      - UFO Germany 🇩🇪 Düsseldorf_16
-      - UFO Germany 🇩🇪 FrankfurtamMain 3_17
-      - UFO Germany 🇩🇪 FrankfurtamMain 2_18
-      - UFO Germany 🇩🇪 FrankfurtamMain_19
-      - UFO Germany 🇩🇪 LimburganderLahn 2_20
-      - UFO Germany 🇩🇪 LimburganderLahn_21
-      - UFO Hong Kong🇭🇰Central_22
-      - UFO India 🇮🇳 Bengaluru_23
-      - UFO India 🇮🇳 Mumbai 2_24
-      - UFO India 🇮🇳 Mumbai 3_25
-      - UFO India 🇮🇳 Mumbai_26
-      - UFO Ireland 🇮🇪 Dublin_27
-      - UFO Israel 🇮🇱 TelAviv_28
-      - UFO Italy 🇮🇹 Milan 2_29
-      - UFO Italy 🇮🇹 Milan 3_30
-      - UFO Italy 🇮🇹 Milan 4_31
-      - UFO Italy 🇮🇹 Milan_32
-      - UFO Japan 🇯🇵 Tokyo 2_33
-      - UFO Japan 🇯🇵 Tokyo 3_34
-      - UFO Japan 🇯🇵 Tokyo 4_35
-      - UFO Japan 🇯🇵 Tokyo 5_36
-      - UFO Japan 🇯🇵 Tokyo_37
-      - UFO Netherlands 🇳🇱 Naaldwijk_38
-      - UFO New Zealand 🇳🇿 Auckland_39
-      - UFO Norway 🇳🇴 Lensvik_40
-      - UFO Philippines 🇵🇭 MakatiCity_41
-      - UFO Russia 🇷🇺 Moscow_42
-      - UFO Singapore 🇸🇬 QueenstownEstate 2_43
-      - UFO Singapore 🇸🇬 QueenstownEstate_44
-      - UFO Singapore 🇸🇬 Singapore 2_45
-      - UFO Singapore 🇸🇬 Singapore 3_46
-      - UFO Singapore 🇸🇬 Singapore_47
-      - UFO South Korea 🇰🇷 Gangnam_48
-      - UFO Sweden 🇸🇪 Stockholm_49
-      - UFO Switzerland 🇨🇭 Zurich_50
-      - UFO Taiwan 🇹🇼 Chang-hua_51
-      - UFO Turkey 🇹🇷 Bahçelievler_52
-      - UFO United Arab Emirates 🇦🇪 Dubai_53
-      - UFO United Arab Emirates 🇦🇪 Sharjah 2_54
-      - UFO United Arab Emirates 🇦🇪 Sharjah_55
-      - UFO United Kingdom 🇬🇧 Basingstoke_56
-      - UFO United Kingdom 🇬🇧 London 2_57
-      - UFO United Kingdom 🇬🇧 London 3_58
-      - UFO United Kingdom 🇬🇧 London 4_59
-      - UFO United Kingdom 🇬🇧 London_60
-      - UFO United Kingdom 🇬🇧 London 5_61
-      - UFO USA 🇺🇸 Atlanta 2_62
-      - UFO USA 🇺🇸 Atlanta_63
-      - UFO USA 🇺🇸 Chicago 2_64
-      - UFO USA 🇺🇸 Chicago_65
-      - UFO USA 🇺🇸 Dallas 2_66
-      - UFO USA 🇺🇸 Dallas_67
-      - UFO USA 🇺🇸 Denver_68
-      - UFO USA 🇺🇸 LasVegas_69
-      - UFO USA 🇺🇸 LosAngeles 2_70
-      - UFO USA 🇺🇸 LosAngeles 3_71
-      - UFO USA 🇺🇸 LosAngeles 4_72
-      - UFO USA 🇺🇸 LosAngeles_73
-      - UFO USA 🇺🇸 Miami 2_74
-      - UFO USA 🇺🇸 Miami_75
-      - UFO USA 🇺🇸 NewYork 2_76
-      - UFO USA 🇺🇸 NewYork 3_77
-      - UFO USA 🇺🇸 NewYork_78
-      - UFO USA 🇺🇸 Phoenix_79
-      - UFO USA 🇺🇸 SantaClara_80
-      - UFO USA 🇺🇸 Seattle 2_81
-      - UFO USA 🇺🇸 Seattle_82
-      - UFO USA 🇺🇸 Washington_83
+      - 🇪🇸_ES西班牙_1
+      - 🇪🇸_ES西班牙_2
+      - 🇪🇸_ES西班牙_3
+      - 🇪🇸_ES西班牙_4
+      - 🇧🇻_BV布维岛_5
+      - 🇧🇻_BV布维岛_6
+      - 🇨🇦_CA加拿大_7
+      - 🇧🇻_BV布维岛_8
+      - 🇺🇸_US美国_9
+      - 🇺🇸_US美国_10
+      - 🇺🇸_US美国_11
+      - 🇺🇸_US美国_12
+      - 🇺🇸_US美国_13
+      - 🇺🇸_US美国_14
+      - 🇺🇸_US美国_15
+      - 🇺🇸_US美国_16
+      - 🇺🇸_US美国_17
+      - 🇺🇸_US美国_18
+      - 🇺🇸_US美国_19
+      - 🇺🇸_US美国_20
+      - 🇺🇸_US美国_21
+      - 🇺🇸_US美国_22
+      - 🇺🇸_US美国_23
+      - 🇺🇸_US美国_24
+      - 🇺🇸_US美国_25
+      - 🇺🇸_US美国_26
+      - 🇺🇸_US美国_27
+      - 🇺🇸_US美国_28
+      - 🇺🇸_US美国_29
+      - 🇩🇪_DE德国_30
+      - 🇺🇸_US美国_31
+      - 🇺🇸_US美国_32
+      - 🇺🇸_US美国_33
+      - 🇺🇸_US美国_34
+      - 🇺🇸_US美国_35
+      - 🇺🇸_US美国_36
+      - 🇺🇸_US美国_37
+      - 🇺🇸_US美国_38
+      - 🇺🇸_US美国_39
+      - 🇺🇸_US美国_40
+      - 🇺🇸_US美国_41
+      - 🇺🇸_US美国_42
+      - 🇺🇸_US美国_43
+      - 🇺🇸_US美国_44
+      - 🇺🇸_US美国_45
+      - 🇺🇸_US美国_46
+      - 🇺🇸_US美国_47
+      - 🇱🇺_LU卢森堡_48
+      - 🇫🇮_FI芬兰_49
+      - 🇳🇴_NO挪威_50
+      - 🇺🇸_US美国_51
+      - 🇳🇬_NG尼日利亚_52
+      - 🇺🇸_US美国_53
+      - 🇺🇸_US美国_54
+      - 🇺🇸_US美国_55
+      - 🇺🇸_US美国_56
+      - 🇺🇸_US美国_57
+      - 🇨🇦_CA加拿大_58
+      - 🇫🇷_FR法国_59
+      - 🇺🇸_US美国_60
+      - 🇺🇸_US美国_61
+      - 🇺🇸_US美国_62
+      - 🇺🇸_US美国_63
+      - 🇺🇸_US美国_64
+      - 🇺🇸_US美国_65
+      - 🇺🇸_US美国_66
+      - 🇺🇸_US美国_67
+      - 🇬🇧_GB英国_68
+      - 🇳🇴_NO挪威_69
+      - 🇳🇴_NO挪威_70
+      - 🇸🇬_SG新加坡_71
+      - 🇺🇦_UA乌克兰_72
+      - 🇬🇧_GB英国_73
+      - 🇺🇸_US美国_74
+      - 🇺🇸_US美国_75
+      - 🇺🇸_US美国_76
+      - 🇺🇸_US美国_77
+      - 🇺🇸_US美国_78
+      - 🇺🇸_US美国_79
+      - default_name_80
+      - 🇺🇸_US美国_81
+      - 🇺🇸_US美国_82
+      - 🇺🇸_US美国_83
+      - 🇺🇸_US美国_84
+      - 🇺🇸_US美国_85
+      - 🇺🇸_US美国_86
+      - 🇩🇪_DE德国_87
+      - 🇬🇧_GB英国_88
+      - 🇺🇸_US美国_89
+      - default_name_90
+      - default_name_91
+      - 🇩🇪_DE德国_92
+      - 🇨🇦_CA加拿大_93
+      - 🇨🇦_CA加拿大_94
+      - 🇨🇦_CA加拿大_95
+      - 🇨🇦_CA加拿大_96
+      - 🇨🇦_CA加拿大_97
+      - 🇨🇦_CA加拿大_98
+      - 🇨🇦_CA加拿大_99
+      - 🇨🇦_CA_加拿大_100
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - UFO Australia 🇦🇺 Sydney_1
-      - UFO Belgium 🇧🇪 Brussels_2
-      - UFO Brazil 🇧🇷 SãoPaulo_3
-      - UFO Canada 🇨🇦 Montreal_4
-      - UFO China 🇨🇳 Beijing_5
-      - UFO France 🇫🇷 Gravelines_6
-      - UFO France 🇫🇷 Paris 2_7
-      - UFO France 🇫🇷 Paris 3_8
-      - UFO France 🇫🇷 Paris 4_9
-      - UFO France 🇫🇷 Paris 5 YT_10
-      - UFO France 🇫🇷 Paris 6_11
-      - UFO France 🇫🇷 Paris 7_12
-      - UFO France 🇫🇷 Paris_13
-      - UFO Germany 🇩🇪 Berlin_14
-      - UFO Germany 🇩🇪 Düsseldorf 2_15
-      - UFO Germany 🇩🇪 Düsseldorf_16
-      - UFO Germany 🇩🇪 FrankfurtamMain 3_17
-      - UFO Germany 🇩🇪 FrankfurtamMain 2_18
-      - UFO Germany 🇩🇪 FrankfurtamMain_19
-      - UFO Germany 🇩🇪 LimburganderLahn 2_20
-      - UFO Germany 🇩🇪 LimburganderLahn_21
-      - UFO Hong Kong🇭🇰Central_22
-      - UFO India 🇮🇳 Bengaluru_23
-      - UFO India 🇮🇳 Mumbai 2_24
-      - UFO India 🇮🇳 Mumbai 3_25
-      - UFO India 🇮🇳 Mumbai_26
-      - UFO Ireland 🇮🇪 Dublin_27
-      - UFO Israel 🇮🇱 TelAviv_28
-      - UFO Italy 🇮🇹 Milan 2_29
-      - UFO Italy 🇮🇹 Milan 3_30
-      - UFO Italy 🇮🇹 Milan 4_31
-      - UFO Italy 🇮🇹 Milan_32
-      - UFO Japan 🇯🇵 Tokyo 2_33
-      - UFO Japan 🇯🇵 Tokyo 3_34
-      - UFO Japan 🇯🇵 Tokyo 4_35
-      - UFO Japan 🇯🇵 Tokyo 5_36
-      - UFO Japan 🇯🇵 Tokyo_37
-      - UFO Netherlands 🇳🇱 Naaldwijk_38
-      - UFO New Zealand 🇳🇿 Auckland_39
-      - UFO Norway 🇳🇴 Lensvik_40
-      - UFO Philippines 🇵🇭 MakatiCity_41
-      - UFO Russia 🇷🇺 Moscow_42
-      - UFO Singapore 🇸🇬 QueenstownEstate 2_43
-      - UFO Singapore 🇸🇬 QueenstownEstate_44
-      - UFO Singapore 🇸🇬 Singapore 2_45
-      - UFO Singapore 🇸🇬 Singapore 3_46
-      - UFO Singapore 🇸🇬 Singapore_47
-      - UFO South Korea 🇰🇷 Gangnam_48
-      - UFO Sweden 🇸🇪 Stockholm_49
-      - UFO Switzerland 🇨🇭 Zurich_50
-      - UFO Taiwan 🇹🇼 Chang-hua_51
-      - UFO Turkey 🇹🇷 Bahçelievler_52
-      - UFO United Arab Emirates 🇦🇪 Dubai_53
-      - UFO United Arab Emirates 🇦🇪 Sharjah 2_54
-      - UFO United Arab Emirates 🇦🇪 Sharjah_55
-      - UFO United Kingdom 🇬🇧 Basingstoke_56
-      - UFO United Kingdom 🇬🇧 London 2_57
-      - UFO United Kingdom 🇬🇧 London 3_58
-      - UFO United Kingdom 🇬🇧 London 4_59
-      - UFO United Kingdom 🇬🇧 London_60
-      - UFO United Kingdom 🇬🇧 London 5_61
-      - UFO USA 🇺🇸 Atlanta 2_62
-      - UFO USA 🇺🇸 Atlanta_63
-      - UFO USA 🇺🇸 Chicago 2_64
-      - UFO USA 🇺🇸 Chicago_65
-      - UFO USA 🇺🇸 Dallas 2_66
-      - UFO USA 🇺🇸 Dallas_67
-      - UFO USA 🇺🇸 Denver_68
-      - UFO USA 🇺🇸 LasVegas_69
-      - UFO USA 🇺🇸 LosAngeles 2_70
-      - UFO USA 🇺🇸 LosAngeles 3_71
-      - UFO USA 🇺🇸 LosAngeles 4_72
-      - UFO USA 🇺🇸 LosAngeles_73
-      - UFO USA 🇺🇸 Miami 2_74
-      - UFO USA 🇺🇸 Miami_75
-      - UFO USA 🇺🇸 NewYork 2_76
-      - UFO USA 🇺🇸 NewYork 3_77
-      - UFO USA 🇺🇸 NewYork_78
-      - UFO USA 🇺🇸 Phoenix_79
-      - UFO USA 🇺🇸 SantaClara_80
-      - UFO USA 🇺🇸 Seattle 2_81
-      - UFO USA 🇺🇸 Seattle_82
-      - UFO USA 🇺🇸 Washington_83
+      - 🇪🇸_ES西班牙_1
+      - 🇪🇸_ES西班牙_2
+      - 🇪🇸_ES西班牙_3
+      - 🇪🇸_ES西班牙_4
+      - 🇧🇻_BV布维岛_5
+      - 🇧🇻_BV布维岛_6
+      - 🇨🇦_CA加拿大_7
+      - 🇧🇻_BV布维岛_8
+      - 🇺🇸_US美国_9
+      - 🇺🇸_US美国_10
+      - 🇺🇸_US美国_11
+      - 🇺🇸_US美国_12
+      - 🇺🇸_US美国_13
+      - 🇺🇸_US美国_14
+      - 🇺🇸_US美国_15
+      - 🇺🇸_US美国_16
+      - 🇺🇸_US美国_17
+      - 🇺🇸_US美国_18
+      - 🇺🇸_US美国_19
+      - 🇺🇸_US美国_20
+      - 🇺🇸_US美国_21
+      - 🇺🇸_US美国_22
+      - 🇺🇸_US美国_23
+      - 🇺🇸_US美国_24
+      - 🇺🇸_US美国_25
+      - 🇺🇸_US美国_26
+      - 🇺🇸_US美国_27
+      - 🇺🇸_US美国_28
+      - 🇺🇸_US美国_29
+      - 🇩🇪_DE德国_30
+      - 🇺🇸_US美国_31
+      - 🇺🇸_US美国_32
+      - 🇺🇸_US美国_33
+      - 🇺🇸_US美国_34
+      - 🇺🇸_US美国_35
+      - 🇺🇸_US美国_36
+      - 🇺🇸_US美国_37
+      - 🇺🇸_US美国_38
+      - 🇺🇸_US美国_39
+      - 🇺🇸_US美国_40
+      - 🇺🇸_US美国_41
+      - 🇺🇸_US美国_42
+      - 🇺🇸_US美国_43
+      - 🇺🇸_US美国_44
+      - 🇺🇸_US美国_45
+      - 🇺🇸_US美国_46
+      - 🇺🇸_US美国_47
+      - 🇱🇺_LU卢森堡_48
+      - 🇫🇮_FI芬兰_49
+      - 🇳🇴_NO挪威_50
+      - 🇺🇸_US美国_51
+      - 🇳🇬_NG尼日利亚_52
+      - 🇺🇸_US美国_53
+      - 🇺🇸_US美国_54
+      - 🇺🇸_US美国_55
+      - 🇺🇸_US美国_56
+      - 🇺🇸_US美国_57
+      - 🇨🇦_CA加拿大_58
+      - 🇫🇷_FR法国_59
+      - 🇺🇸_US美国_60
+      - 🇺🇸_US美国_61
+      - 🇺🇸_US美国_62
+      - 🇺🇸_US美国_63
+      - 🇺🇸_US美国_64
+      - 🇺🇸_US美国_65
+      - 🇺🇸_US美国_66
+      - 🇺🇸_US美国_67
+      - 🇬🇧_GB英国_68
+      - 🇳🇴_NO挪威_69
+      - 🇳🇴_NO挪威_70
+      - 🇸🇬_SG新加坡_71
+      - 🇺🇦_UA乌克兰_72
+      - 🇬🇧_GB英国_73
+      - 🇺🇸_US美国_74
+      - 🇺🇸_US美国_75
+      - 🇺🇸_US美国_76
+      - 🇺🇸_US美国_77
+      - 🇺🇸_US美国_78
+      - 🇺🇸_US美国_79
+      - default_name_80
+      - 🇺🇸_US美国_81
+      - 🇺🇸_US美国_82
+      - 🇺🇸_US美国_83
+      - 🇺🇸_US美国_84
+      - 🇺🇸_US美国_85
+      - 🇺🇸_US美国_86
+      - 🇩🇪_DE德国_87
+      - 🇬🇧_GB英国_88
+      - 🇺🇸_US美国_89
+      - default_name_90
+      - default_name_91
+      - 🇩🇪_DE德国_92
+      - 🇨🇦_CA加拿大_93
+      - 🇨🇦_CA加拿大_94
+      - 🇨🇦_CA加拿大_95
+      - 🇨🇦_CA加拿大_96
+      - 🇨🇦_CA加拿大_97
+      - 🇨🇦_CA加拿大_98
+      - 🇨🇦_CA加拿大_99
+      - 🇨🇦_CA_加拿大_100
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - UFO Australia 🇦🇺 Sydney_1
-      - UFO Belgium 🇧🇪 Brussels_2
-      - UFO Brazil 🇧🇷 SãoPaulo_3
-      - UFO Canada 🇨🇦 Montreal_4
-      - UFO China 🇨🇳 Beijing_5
-      - UFO France 🇫🇷 Gravelines_6
-      - UFO France 🇫🇷 Paris 2_7
-      - UFO France 🇫🇷 Paris 3_8
-      - UFO France 🇫🇷 Paris 4_9
-      - UFO France 🇫🇷 Paris 5 YT_10
-      - UFO France 🇫🇷 Paris 6_11
-      - UFO France 🇫🇷 Paris 7_12
-      - UFO France 🇫🇷 Paris_13
-      - UFO Germany 🇩🇪 Berlin_14
-      - UFO Germany 🇩🇪 Düsseldorf 2_15
-      - UFO Germany 🇩🇪 Düsseldorf_16
-      - UFO Germany 🇩🇪 FrankfurtamMain 3_17
-      - UFO Germany 🇩🇪 FrankfurtamMain 2_18
-      - UFO Germany 🇩🇪 FrankfurtamMain_19
-      - UFO Germany 🇩🇪 LimburganderLahn 2_20
-      - UFO Germany 🇩🇪 LimburganderLahn_21
-      - UFO Hong Kong🇭🇰Central_22
-      - UFO India 🇮🇳 Bengaluru_23
-      - UFO India 🇮🇳 Mumbai 2_24
-      - UFO India 🇮🇳 Mumbai 3_25
-      - UFO India 🇮🇳 Mumbai_26
-      - UFO Ireland 🇮🇪 Dublin_27
-      - UFO Israel 🇮🇱 TelAviv_28
-      - UFO Italy 🇮🇹 Milan 2_29
-      - UFO Italy 🇮🇹 Milan 3_30
-      - UFO Italy 🇮🇹 Milan 4_31
-      - UFO Italy 🇮🇹 Milan_32
-      - UFO Japan 🇯🇵 Tokyo 2_33
-      - UFO Japan 🇯🇵 Tokyo 3_34
-      - UFO Japan 🇯🇵 Tokyo 4_35
-      - UFO Japan 🇯🇵 Tokyo 5_36
-      - UFO Japan 🇯🇵 Tokyo_37
-      - UFO Netherlands 🇳🇱 Naaldwijk_38
-      - UFO New Zealand 🇳🇿 Auckland_39
-      - UFO Norway 🇳🇴 Lensvik_40
-      - UFO Philippines 🇵🇭 MakatiCity_41
-      - UFO Russia 🇷🇺 Moscow_42
-      - UFO Singapore 🇸🇬 QueenstownEstate 2_43
-      - UFO Singapore 🇸🇬 QueenstownEstate_44
-      - UFO Singapore 🇸🇬 Singapore 2_45
-      - UFO Singapore 🇸🇬 Singapore 3_46
-      - UFO Singapore 🇸🇬 Singapore_47
-      - UFO South Korea 🇰🇷 Gangnam_48
-      - UFO Sweden 🇸🇪 Stockholm_49
-      - UFO Switzerland 🇨🇭 Zurich_50
-      - UFO Taiwan 🇹🇼 Chang-hua_51
-      - UFO Turkey 🇹🇷 Bahçelievler_52
-      - UFO United Arab Emirates 🇦🇪 Dubai_53
-      - UFO United Arab Emirates 🇦🇪 Sharjah 2_54
-      - UFO United Arab Emirates 🇦🇪 Sharjah_55
-      - UFO United Kingdom 🇬🇧 Basingstoke_56
-      - UFO United Kingdom 🇬🇧 London 2_57
-      - UFO United Kingdom 🇬🇧 London 3_58
-      - UFO United Kingdom 🇬🇧 London 4_59
-      - UFO United Kingdom 🇬🇧 London_60
-      - UFO United Kingdom 🇬🇧 London 5_61
-      - UFO USA 🇺🇸 Atlanta 2_62
-      - UFO USA 🇺🇸 Atlanta_63
-      - UFO USA 🇺🇸 Chicago 2_64
-      - UFO USA 🇺🇸 Chicago_65
-      - UFO USA 🇺🇸 Dallas 2_66
-      - UFO USA 🇺🇸 Dallas_67
-      - UFO USA 🇺🇸 Denver_68
-      - UFO USA 🇺🇸 LasVegas_69
-      - UFO USA 🇺🇸 LosAngeles 2_70
-      - UFO USA 🇺🇸 LosAngeles 3_71
-      - UFO USA 🇺🇸 LosAngeles 4_72
-      - UFO USA 🇺🇸 LosAngeles_73
-      - UFO USA 🇺🇸 Miami 2_74
-      - UFO USA 🇺🇸 Miami_75
-      - UFO USA 🇺🇸 NewYork 2_76
-      - UFO USA 🇺🇸 NewYork 3_77
-      - UFO USA 🇺🇸 NewYork_78
-      - UFO USA 🇺🇸 Phoenix_79
-      - UFO USA 🇺🇸 SantaClara_80
-      - UFO USA 🇺🇸 Seattle 2_81
-      - UFO USA 🇺🇸 Seattle_82
-      - UFO USA 🇺🇸 Washington_83
+      - 🇪🇸_ES西班牙_1
+      - 🇪🇸_ES西班牙_2
+      - 🇪🇸_ES西班牙_3
+      - 🇪🇸_ES西班牙_4
+      - 🇧🇻_BV布维岛_5
+      - 🇧🇻_BV布维岛_6
+      - 🇨🇦_CA加拿大_7
+      - 🇧🇻_BV布维岛_8
+      - 🇺🇸_US美国_9
+      - 🇺🇸_US美国_10
+      - 🇺🇸_US美国_11
+      - 🇺🇸_US美国_12
+      - 🇺🇸_US美国_13
+      - 🇺🇸_US美国_14
+      - 🇺🇸_US美国_15
+      - 🇺🇸_US美国_16
+      - 🇺🇸_US美国_17
+      - 🇺🇸_US美国_18
+      - 🇺🇸_US美国_19
+      - 🇺🇸_US美国_20
+      - 🇺🇸_US美国_21
+      - 🇺🇸_US美国_22
+      - 🇺🇸_US美国_23
+      - 🇺🇸_US美国_24
+      - 🇺🇸_US美国_25
+      - 🇺🇸_US美国_26
+      - 🇺🇸_US美国_27
+      - 🇺🇸_US美国_28
+      - 🇺🇸_US美国_29
+      - 🇩🇪_DE德国_30
+      - 🇺🇸_US美国_31
+      - 🇺🇸_US美国_32
+      - 🇺🇸_US美国_33
+      - 🇺🇸_US美国_34
+      - 🇺🇸_US美国_35
+      - 🇺🇸_US美国_36
+      - 🇺🇸_US美国_37
+      - 🇺🇸_US美国_38
+      - 🇺🇸_US美国_39
+      - 🇺🇸_US美国_40
+      - 🇺🇸_US美国_41
+      - 🇺🇸_US美国_42
+      - 🇺🇸_US美国_43
+      - 🇺🇸_US美国_44
+      - 🇺🇸_US美国_45
+      - 🇺🇸_US美国_46
+      - 🇺🇸_US美国_47
+      - 🇱🇺_LU卢森堡_48
+      - 🇫🇮_FI芬兰_49
+      - 🇳🇴_NO挪威_50
+      - 🇺🇸_US美国_51
+      - 🇳🇬_NG尼日利亚_52
+      - 🇺🇸_US美国_53
+      - 🇺🇸_US美国_54
+      - 🇺🇸_US美国_55
+      - 🇺🇸_US美国_56
+      - 🇺🇸_US美国_57
+      - 🇨🇦_CA加拿大_58
+      - 🇫🇷_FR法国_59
+      - 🇺🇸_US美国_60
+      - 🇺🇸_US美国_61
+      - 🇺🇸_US美国_62
+      - 🇺🇸_US美国_63
+      - 🇺🇸_US美国_64
+      - 🇺🇸_US美国_65
+      - 🇺🇸_US美国_66
+      - 🇺🇸_US美国_67
+      - 🇬🇧_GB英国_68
+      - 🇳🇴_NO挪威_69
+      - 🇳🇴_NO挪威_70
+      - 🇸🇬_SG新加坡_71
+      - 🇺🇦_UA乌克兰_72
+      - 🇬🇧_GB英国_73
+      - 🇺🇸_US美国_74
+      - 🇺🇸_US美国_75
+      - 🇺🇸_US美国_76
+      - 🇺🇸_US美国_77
+      - 🇺🇸_US美国_78
+      - 🇺🇸_US美国_79
+      - default_name_80
+      - 🇺🇸_US美国_81
+      - 🇺🇸_US美国_82
+      - 🇺🇸_US美国_83
+      - 🇺🇸_US美国_84
+      - 🇺🇸_US美国_85
+      - 🇺🇸_US美国_86
+      - 🇩🇪_DE德国_87
+      - 🇬🇧_GB英国_88
+      - 🇺🇸_US美国_89
+      - default_name_90
+      - default_name_91
+      - 🇩🇪_DE德国_92
+      - 🇨🇦_CA加拿大_93
+      - 🇨🇦_CA加拿大_94
+      - 🇨🇦_CA加拿大_95
+      - 🇨🇦_CA加拿大_96
+      - 🇨🇦_CA加拿大_97
+      - 🇨🇦_CA加拿大_98
+      - 🇨🇦_CA加拿大_99
+      - 🇨🇦_CA_加拿大_100
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - UFO Australia 🇦🇺 Sydney_1
-      - UFO Belgium 🇧🇪 Brussels_2
-      - UFO Brazil 🇧🇷 SãoPaulo_3
-      - UFO Canada 🇨🇦 Montreal_4
-      - UFO China 🇨🇳 Beijing_5
-      - UFO France 🇫🇷 Gravelines_6
-      - UFO France 🇫🇷 Paris 2_7
-      - UFO France 🇫🇷 Paris 3_8
-      - UFO France 🇫🇷 Paris 4_9
-      - UFO France 🇫🇷 Paris 5 YT_10
-      - UFO France 🇫🇷 Paris 6_11
-      - UFO France 🇫🇷 Paris 7_12
-      - UFO France 🇫🇷 Paris_13
-      - UFO Germany 🇩🇪 Berlin_14
-      - UFO Germany 🇩🇪 Düsseldorf 2_15
-      - UFO Germany 🇩🇪 Düsseldorf_16
-      - UFO Germany 🇩🇪 FrankfurtamMain 3_17
-      - UFO Germany 🇩🇪 FrankfurtamMain 2_18
-      - UFO Germany 🇩🇪 FrankfurtamMain_19
-      - UFO Germany 🇩🇪 LimburganderLahn 2_20
-      - UFO Germany 🇩🇪 LimburganderLahn_21
-      - UFO Hong Kong🇭🇰Central_22
-      - UFO India 🇮🇳 Bengaluru_23
-      - UFO India 🇮🇳 Mumbai 2_24
-      - UFO India 🇮🇳 Mumbai 3_25
-      - UFO India 🇮🇳 Mumbai_26
-      - UFO Ireland 🇮🇪 Dublin_27
-      - UFO Israel 🇮🇱 TelAviv_28
-      - UFO Italy 🇮🇹 Milan 2_29
-      - UFO Italy 🇮🇹 Milan 3_30
-      - UFO Italy 🇮🇹 Milan 4_31
-      - UFO Italy 🇮🇹 Milan_32
-      - UFO Japan 🇯🇵 Tokyo 2_33
-      - UFO Japan 🇯🇵 Tokyo 3_34
-      - UFO Japan 🇯🇵 Tokyo 4_35
-      - UFO Japan 🇯🇵 Tokyo 5_36
-      - UFO Japan 🇯🇵 Tokyo_37
-      - UFO Netherlands 🇳🇱 Naaldwijk_38
-      - UFO New Zealand 🇳🇿 Auckland_39
-      - UFO Norway 🇳🇴 Lensvik_40
-      - UFO Philippines 🇵🇭 MakatiCity_41
-      - UFO Russia 🇷🇺 Moscow_42
-      - UFO Singapore 🇸🇬 QueenstownEstate 2_43
-      - UFO Singapore 🇸🇬 QueenstownEstate_44
-      - UFO Singapore 🇸🇬 Singapore 2_45
-      - UFO Singapore 🇸🇬 Singapore 3_46
-      - UFO Singapore 🇸🇬 Singapore_47
-      - UFO South Korea 🇰🇷 Gangnam_48
-      - UFO Sweden 🇸🇪 Stockholm_49
-      - UFO Switzerland 🇨🇭 Zurich_50
-      - UFO Taiwan 🇹🇼 Chang-hua_51
-      - UFO Turkey 🇹🇷 Bahçelievler_52
-      - UFO United Arab Emirates 🇦🇪 Dubai_53
-      - UFO United Arab Emirates 🇦🇪 Sharjah 2_54
-      - UFO United Arab Emirates 🇦🇪 Sharjah_55
-      - UFO United Kingdom 🇬🇧 Basingstoke_56
-      - UFO United Kingdom 🇬🇧 London 2_57
-      - UFO United Kingdom 🇬🇧 London 3_58
-      - UFO United Kingdom 🇬🇧 London 4_59
-      - UFO United Kingdom 🇬🇧 London_60
-      - UFO United Kingdom 🇬🇧 London 5_61
-      - UFO USA 🇺🇸 Atlanta 2_62
-      - UFO USA 🇺🇸 Atlanta_63
-      - UFO USA 🇺🇸 Chicago 2_64
-      - UFO USA 🇺🇸 Chicago_65
-      - UFO USA 🇺🇸 Dallas 2_66
-      - UFO USA 🇺🇸 Dallas_67
-      - UFO USA 🇺🇸 Denver_68
-      - UFO USA 🇺🇸 LasVegas_69
-      - UFO USA 🇺🇸 LosAngeles 2_70
-      - UFO USA 🇺🇸 LosAngeles 3_71
-      - UFO USA 🇺🇸 LosAngeles 4_72
-      - UFO USA 🇺🇸 LosAngeles_73
-      - UFO USA 🇺🇸 Miami 2_74
-      - UFO USA 🇺🇸 Miami_75
-      - UFO USA 🇺🇸 NewYork 2_76
-      - UFO USA 🇺🇸 NewYork 3_77
-      - UFO USA 🇺🇸 NewYork_78
-      - UFO USA 🇺🇸 Phoenix_79
-      - UFO USA 🇺🇸 SantaClara_80
-      - UFO USA 🇺🇸 Seattle 2_81
-      - UFO USA 🇺🇸 Seattle_82
-      - UFO USA 🇺🇸 Washington_83
+      - 🇪🇸_ES西班牙_1
+      - 🇪🇸_ES西班牙_2
+      - 🇪🇸_ES西班牙_3
+      - 🇪🇸_ES西班牙_4
+      - 🇧🇻_BV布维岛_5
+      - 🇧🇻_BV布维岛_6
+      - 🇨🇦_CA加拿大_7
+      - 🇧🇻_BV布维岛_8
+      - 🇺🇸_US美国_9
+      - 🇺🇸_US美国_10
+      - 🇺🇸_US美国_11
+      - 🇺🇸_US美国_12
+      - 🇺🇸_US美国_13
+      - 🇺🇸_US美国_14
+      - 🇺🇸_US美国_15
+      - 🇺🇸_US美国_16
+      - 🇺🇸_US美国_17
+      - 🇺🇸_US美国_18
+      - 🇺🇸_US美国_19
+      - 🇺🇸_US美国_20
+      - 🇺🇸_US美国_21
+      - 🇺🇸_US美国_22
+      - 🇺🇸_US美国_23
+      - 🇺🇸_US美国_24
+      - 🇺🇸_US美国_25
+      - 🇺🇸_US美国_26
+      - 🇺🇸_US美国_27
+      - 🇺🇸_US美国_28
+      - 🇺🇸_US美国_29
+      - 🇩🇪_DE德国_30
+      - 🇺🇸_US美国_31
+      - 🇺🇸_US美国_32
+      - 🇺🇸_US美国_33
+      - 🇺🇸_US美国_34
+      - 🇺🇸_US美国_35
+      - 🇺🇸_US美国_36
+      - 🇺🇸_US美国_37
+      - 🇺🇸_US美国_38
+      - 🇺🇸_US美国_39
+      - 🇺🇸_US美国_40
+      - 🇺🇸_US美国_41
+      - 🇺🇸_US美国_42
+      - 🇺🇸_US美国_43
+      - 🇺🇸_US美国_44
+      - 🇺🇸_US美国_45
+      - 🇺🇸_US美国_46
+      - 🇺🇸_US美国_47
+      - 🇱🇺_LU卢森堡_48
+      - 🇫🇮_FI芬兰_49
+      - 🇳🇴_NO挪威_50
+      - 🇺🇸_US美国_51
+      - 🇳🇬_NG尼日利亚_52
+      - 🇺🇸_US美国_53
+      - 🇺🇸_US美国_54
+      - 🇺🇸_US美国_55
+      - 🇺🇸_US美国_56
+      - 🇺🇸_US美国_57
+      - 🇨🇦_CA加拿大_58
+      - 🇫🇷_FR法国_59
+      - 🇺🇸_US美国_60
+      - 🇺🇸_US美国_61
+      - 🇺🇸_US美国_62
+      - 🇺🇸_US美国_63
+      - 🇺🇸_US美国_64
+      - 🇺🇸_US美国_65
+      - 🇺🇸_US美国_66
+      - 🇺🇸_US美国_67
+      - 🇬🇧_GB英国_68
+      - 🇳🇴_NO挪威_69
+      - 🇳🇴_NO挪威_70
+      - 🇸🇬_SG新加坡_71
+      - 🇺🇦_UA乌克兰_72
+      - 🇬🇧_GB英国_73
+      - 🇺🇸_US美国_74
+      - 🇺🇸_US美国_75
+      - 🇺🇸_US美国_76
+      - 🇺🇸_US美国_77
+      - 🇺🇸_US美国_78
+      - 🇺🇸_US美国_79
+      - default_name_80
+      - 🇺🇸_US美国_81
+      - 🇺🇸_US美国_82
+      - 🇺🇸_US美国_83
+      - 🇺🇸_US美国_84
+      - 🇺🇸_US美国_85
+      - 🇺🇸_US美国_86
+      - 🇩🇪_DE德国_87
+      - 🇬🇧_GB英国_88
+      - 🇺🇸_US美国_89
+      - default_name_90
+      - default_name_91
+      - 🇩🇪_DE德国_92
+      - 🇨🇦_CA加拿大_93
+      - 🇨🇦_CA加拿大_94
+      - 🇨🇦_CA加拿大_95
+      - 🇨🇦_CA加拿大_96
+      - 🇨🇦_CA加拿大_97
+      - 🇨🇦_CA加拿大_98
+      - 🇨🇦_CA加拿大_99
+      - 🇨🇦_CA_加拿大_100
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -722,89 +858,106 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - UFO Australia 🇦🇺 Sydney_1
-      - UFO Belgium 🇧🇪 Brussels_2
-      - UFO Brazil 🇧🇷 SãoPaulo_3
-      - UFO Canada 🇨🇦 Montreal_4
-      - UFO China 🇨🇳 Beijing_5
-      - UFO France 🇫🇷 Gravelines_6
-      - UFO France 🇫🇷 Paris 2_7
-      - UFO France 🇫🇷 Paris 3_8
-      - UFO France 🇫🇷 Paris 4_9
-      - UFO France 🇫🇷 Paris 5 YT_10
-      - UFO France 🇫🇷 Paris 6_11
-      - UFO France 🇫🇷 Paris 7_12
-      - UFO France 🇫🇷 Paris_13
-      - UFO Germany 🇩🇪 Berlin_14
-      - UFO Germany 🇩🇪 Düsseldorf 2_15
-      - UFO Germany 🇩🇪 Düsseldorf_16
-      - UFO Germany 🇩🇪 FrankfurtamMain 3_17
-      - UFO Germany 🇩🇪 FrankfurtamMain 2_18
-      - UFO Germany 🇩🇪 FrankfurtamMain_19
-      - UFO Germany 🇩🇪 LimburganderLahn 2_20
-      - UFO Germany 🇩🇪 LimburganderLahn_21
-      - UFO Hong Kong🇭🇰Central_22
-      - UFO India 🇮🇳 Bengaluru_23
-      - UFO India 🇮🇳 Mumbai 2_24
-      - UFO India 🇮🇳 Mumbai 3_25
-      - UFO India 🇮🇳 Mumbai_26
-      - UFO Ireland 🇮🇪 Dublin_27
-      - UFO Israel 🇮🇱 TelAviv_28
-      - UFO Italy 🇮🇹 Milan 2_29
-      - UFO Italy 🇮🇹 Milan 3_30
-      - UFO Italy 🇮🇹 Milan 4_31
-      - UFO Italy 🇮🇹 Milan_32
-      - UFO Japan 🇯🇵 Tokyo 2_33
-      - UFO Japan 🇯🇵 Tokyo 3_34
-      - UFO Japan 🇯🇵 Tokyo 4_35
-      - UFO Japan 🇯🇵 Tokyo 5_36
-      - UFO Japan 🇯🇵 Tokyo_37
-      - UFO Netherlands 🇳🇱 Naaldwijk_38
-      - UFO New Zealand 🇳🇿 Auckland_39
-      - UFO Norway 🇳🇴 Lensvik_40
-      - UFO Philippines 🇵🇭 MakatiCity_41
-      - UFO Russia 🇷🇺 Moscow_42
-      - UFO Singapore 🇸🇬 QueenstownEstate 2_43
-      - UFO Singapore 🇸🇬 QueenstownEstate_44
-      - UFO Singapore 🇸🇬 Singapore 2_45
-      - UFO Singapore 🇸🇬 Singapore 3_46
-      - UFO Singapore 🇸🇬 Singapore_47
-      - UFO South Korea 🇰🇷 Gangnam_48
-      - UFO Sweden 🇸🇪 Stockholm_49
-      - UFO Switzerland 🇨🇭 Zurich_50
-      - UFO Taiwan 🇹🇼 Chang-hua_51
-      - UFO Turkey 🇹🇷 Bahçelievler_52
-      - UFO United Arab Emirates 🇦🇪 Dubai_53
-      - UFO United Arab Emirates 🇦🇪 Sharjah 2_54
-      - UFO United Arab Emirates 🇦🇪 Sharjah_55
-      - UFO United Kingdom 🇬🇧 Basingstoke_56
-      - UFO United Kingdom 🇬🇧 London 2_57
-      - UFO United Kingdom 🇬🇧 London 3_58
-      - UFO United Kingdom 🇬🇧 London 4_59
-      - UFO United Kingdom 🇬🇧 London_60
-      - UFO United Kingdom 🇬🇧 London 5_61
-      - UFO USA 🇺🇸 Atlanta 2_62
-      - UFO USA 🇺🇸 Atlanta_63
-      - UFO USA 🇺🇸 Chicago 2_64
-      - UFO USA 🇺🇸 Chicago_65
-      - UFO USA 🇺🇸 Dallas 2_66
-      - UFO USA 🇺🇸 Dallas_67
-      - UFO USA 🇺🇸 Denver_68
-      - UFO USA 🇺🇸 LasVegas_69
-      - UFO USA 🇺🇸 LosAngeles 2_70
-      - UFO USA 🇺🇸 LosAngeles 3_71
-      - UFO USA 🇺🇸 LosAngeles 4_72
-      - UFO USA 🇺🇸 LosAngeles_73
-      - UFO USA 🇺🇸 Miami 2_74
-      - UFO USA 🇺🇸 Miami_75
-      - UFO USA 🇺🇸 NewYork 2_76
-      - UFO USA 🇺🇸 NewYork 3_77
-      - UFO USA 🇺🇸 NewYork_78
-      - UFO USA 🇺🇸 Phoenix_79
-      - UFO USA 🇺🇸 SantaClara_80
-      - UFO USA 🇺🇸 Seattle 2_81
-      - UFO USA 🇺🇸 Seattle_82
-      - UFO USA 🇺🇸 Washington_83
+      - 🇪🇸_ES西班牙_1
+      - 🇪🇸_ES西班牙_2
+      - 🇪🇸_ES西班牙_3
+      - 🇪🇸_ES西班牙_4
+      - 🇧🇻_BV布维岛_5
+      - 🇧🇻_BV布维岛_6
+      - 🇨🇦_CA加拿大_7
+      - 🇧🇻_BV布维岛_8
+      - 🇺🇸_US美国_9
+      - 🇺🇸_US美国_10
+      - 🇺🇸_US美国_11
+      - 🇺🇸_US美国_12
+      - 🇺🇸_US美国_13
+      - 🇺🇸_US美国_14
+      - 🇺🇸_US美国_15
+      - 🇺🇸_US美国_16
+      - 🇺🇸_US美国_17
+      - 🇺🇸_US美国_18
+      - 🇺🇸_US美国_19
+      - 🇺🇸_US美国_20
+      - 🇺🇸_US美国_21
+      - 🇺🇸_US美国_22
+      - 🇺🇸_US美国_23
+      - 🇺🇸_US美国_24
+      - 🇺🇸_US美国_25
+      - 🇺🇸_US美国_26
+      - 🇺🇸_US美国_27
+      - 🇺🇸_US美国_28
+      - 🇺🇸_US美国_29
+      - 🇩🇪_DE德国_30
+      - 🇺🇸_US美国_31
+      - 🇺🇸_US美国_32
+      - 🇺🇸_US美国_33
+      - 🇺🇸_US美国_34
+      - 🇺🇸_US美国_35
+      - 🇺🇸_US美国_36
+      - 🇺🇸_US美国_37
+      - 🇺🇸_US美国_38
+      - 🇺🇸_US美国_39
+      - 🇺🇸_US美国_40
+      - 🇺🇸_US美国_41
+      - 🇺🇸_US美国_42
+      - 🇺🇸_US美国_43
+      - 🇺🇸_US美国_44
+      - 🇺🇸_US美国_45
+      - 🇺🇸_US美国_46
+      - 🇺🇸_US美国_47
+      - 🇱🇺_LU卢森堡_48
+      - 🇫🇮_FI芬兰_49
+      - 🇳🇴_NO挪威_50
+      - 🇺🇸_US美国_51
+      - 🇳🇬_NG尼日利亚_52
+      - 🇺🇸_US美国_53
+      - 🇺🇸_US美国_54
+      - 🇺🇸_US美国_55
+      - 🇺🇸_US美国_56
+      - 🇺🇸_US美国_57
+      - 🇨🇦_CA加拿大_58
+      - 🇫🇷_FR法国_59
+      - 🇺🇸_US美国_60
+      - 🇺🇸_US美国_61
+      - 🇺🇸_US美国_62
+      - 🇺🇸_US美国_63
+      - 🇺🇸_US美国_64
+      - 🇺🇸_US美国_65
+      - 🇺🇸_US美国_66
+      - 🇺🇸_US美国_67
+      - 🇬🇧_GB英国_68
+      - 🇳🇴_NO挪威_69
+      - 🇳🇴_NO挪威_70
+      - 🇸🇬_SG新加坡_71
+      - 🇺🇦_UA乌克兰_72
+      - 🇬🇧_GB英国_73
+      - 🇺🇸_US美国_74
+      - 🇺🇸_US美国_75
+      - 🇺🇸_US美国_76
+      - 🇺🇸_US美国_77
+      - 🇺🇸_US美国_78
+      - 🇺🇸_US美国_79
+      - default_name_80
+      - 🇺🇸_US美国_81
+      - 🇺🇸_US美国_82
+      - 🇺🇸_US美国_83
+      - 🇺🇸_US美国_84
+      - 🇺🇸_US美国_85
+      - 🇺🇸_US美国_86
+      - 🇩🇪_DE德国_87
+      - 🇬🇧_GB英国_88
+      - 🇺🇸_US美国_89
+      - default_name_90
+      - default_name_91
+      - 🇩🇪_DE德国_92
+      - 🇨🇦_CA加拿大_93
+      - 🇨🇦_CA加拿大_94
+      - 🇨🇦_CA加拿大_95
+      - 🇨🇦_CA加拿大_96
+      - 🇨🇦_CA加拿大_97
+      - 🇨🇦_CA加拿大_98
+      - 🇨🇦_CA加拿大_99
+      - 🇨🇦_CA_加拿大_100
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
