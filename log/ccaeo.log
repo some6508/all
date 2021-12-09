@@ -1,18 +1,18 @@
 + PS4='$LINENO: '
 55: date +%Y年%m月%d日·%H点%M分%S秒.%N毫秒
-5: echo 2021年12月09日·23点51分44秒.576206906毫秒
+5: echo 2021年12月10日·00点00分00秒.379085824毫秒
 66: curl -sL https://api.github.com/repos/changfengoss/pub/commits
 66: grep -m 1 html_url
 66: sed 's/.*"html_url": /html_url=/g'
-6: eval 'html_url="https://github.com/changfengoss/pub/commit/a2703b75560f41480888521a8fb1b9b6e299301f",'
-66: html_url=https://github.com/changfengoss/pub/commit/a2703b75560f41480888521a8fb1b9b6e299301f,
-77: curl -sL https://github.com/changfengoss/pub/commit/a2703b75560f41480888521a8fb1b9b6e299301f
+6: eval 'html_url="https://github.com/changfengoss/pub/commit/c3e646df494d15dd813fcaac3c792db2943001e0",'
+66: html_url=https://github.com/changfengoss/pub/commit/c3e646df494d15dd813fcaac3c792db2943001e0,
+77: curl -sL https://github.com/changfengoss/pub/commit/c3e646df494d15dd813fcaac3c792db2943001e0
 77: sed 's|</a>|"|g'
 77: sed -n 's|^      <a href="#diff-.*">|href="https://github.com/changfengoss/pub/raw/main/|p'
-7: eval 'href="https://github.com/changfengoss/pub/raw/main/data/2021_12_09/Gs1amo.yaml"'
-77: href=https://github.com/changfengoss/pub/raw/main/data/2021_12_09/Gs1amo.yaml
+7: eval 'href="https://github.com/changfengoss/pub/raw/main/data/2021_12_09/az4mes.txt"'
+77: href=https://github.com/changfengoss/pub/raw/main/data/2021_12_09/az4mes.txt
 8: case "$href" in
-10: curl -sLo /home/runner/work/all/all/c https://github.com/changfengoss/pub/raw/main/data/2021_12_09/Gs1amo.yaml
+9: curl -sLo /home/runner/work/all/all/v https://github.com/changfengoss/pub/raw/main/data/2021_12_09/az4mes.txt
 113: curl -sL https://api.github.com/repos/pojiezhiyuanjun/freev2/commits
 113: sed 's/.*"html_url": /html_url=/g'
 113: grep -m 1 html_url
@@ -24,31 +24,34 @@
 14: eval 'href="https://github.com/pojiezhiyuanjun/freev2/raw/master/1209.zip"'
 114: href=https://github.com/pojiezhiyuanjun/freev2/raw/master/1209.zip
 15: case "$href" in
-17: echo https://github.com/pojiezhiyuanjun/freev2/raw/master/1209.zip
-119: curl -sL https://api.github.com/repos/FMYC2015/V2ray/commits
-119: sed 's/.*"html_url": /html_url=/g'
-119: grep -m 1 html_url
-19: eval 'html_url="https://github.com/FMYC2015/V2ray/commit/4b0c0f9d03fd0ad75210c1de5d085c054f60ecd4",'
-119: html_url=https://github.com/FMYC2015/V2ray/commit/4b0c0f9d03fd0ad75210c1de5d085c054f60ecd4,
-220: curl -sL https://github.com/FMYC2015/V2ray/commit/4b0c0f9d03fd0ad75210c1de5d085c054f60ecd4
-220: sed 's|</a>|"|g'
-220: sed -n 's|^      <a href="#diff-.*">|href="https://github.com/FMYC2015/V2ray/raw/main/|p'
-20: eval 'href="https://github.com/FMYC2015/V2ray/raw/main/2021/2021-12-08"'
-220: href=https://github.com/FMYC2015/V2ray/raw/main/2021/2021-12-08
-21: curl -sLo /home/runner/work/all/all/v2 https://github.com/FMYC2015/V2ray/raw/main/2021/2021-12-08
-222: curl -sL https://api.github.com/repos/FMYC2015/Clash/commits
-222: sed 's/.*"html_url": /html_url=/g'
-222: grep -m 1 html_url
-22: eval 'html_url="https://github.com/FMYC2015/Clash/commit/b7326276650157426af8021277a1aab77f915c96",'
-222: html_url=https://github.com/FMYC2015/Clash/commit/b7326276650157426af8021277a1aab77f915c96,
-223: curl -sL https://github.com/FMYC2015/Clash/commit/b7326276650157426af8021277a1aab77f915c96
-223: sed 's|</a>|"|g'
-223: sed -n 's|^      <a href="#diff-.*">|href="https://github.com/FMYC2015/Clash/raw/main/|p'
-23: eval 'href="https://github.com/FMYC2015/Clash/raw/main/2021/2021-12-08"'
-223: href=https://github.com/FMYC2015/Clash/raw/main/2021/2021-12-08
-24: curl -sLo /home/runner/work/all/all/c3 https://github.com/FMYC2015/Clash/raw/main/2021/2021-12-08
-25: curl -sLo /home/runner/work/all/all/v3 https://gitee.com/chenx58/clash/raw/V2R/V2R
-226: date +%Y年%m月%d日·%H点%M分%S秒
-26: sed -i '/^|20/c|2021年12月09日·23点51分49秒|' /home/runner/work/all/all/README.md
-227: date +%Y年%m月%d日·%H点%M分%S秒 -d '+1 hour'
-27: sed -i '/^20/c2021年12月10日·00点51分49秒' /home/runner/work/all/all/README.md
+17: curl -sLo /home/runner/work/all/all/2.zip https://github.com/pojiezhiyuanjun/freev2/raw/master/1209.zip
+18: unzip -p /home/runner/work/all/all/2.zip '*txt'
+19: unzip -p /home/runner/work/all/all/2.zip '*.yml'
+20: rm -rf /home/runner/work/all/all/2.zip
+224: curl -sL https://api.github.com/repos/FMYC2015/V2ray/commits
+224: sed 's/.*"html_url": /html_url=/g'
+224: grep -m 1 html_url
+24: eval 'html_url="https://github.com/FMYC2015/V2ray/commit/4b0c0f9d03fd0ad75210c1de5d085c054f60ecd4",'
+224: html_url=https://github.com/FMYC2015/V2ray/commit/4b0c0f9d03fd0ad75210c1de5d085c054f60ecd4,
+225: curl -sL https://github.com/FMYC2015/V2ray/commit/4b0c0f9d03fd0ad75210c1de5d085c054f60ecd4
+225: sed 's|</a>|"|g'
+225: sed -n 's|^      <a href="#diff-.*">|href="https://github.com/FMYC2015/V2ray/raw/main/|p'
+25: eval 'href="https://github.com/FMYC2015/V2ray/raw/main/2021/2021-12-08"'
+225: href=https://github.com/FMYC2015/V2ray/raw/main/2021/2021-12-08
+26: curl -sLo /home/runner/work/all/all/v2 https://github.com/FMYC2015/V2ray/raw/main/2021/2021-12-08
+227: curl -sL https://api.github.com/repos/FMYC2015/Clash/commits
+227: sed 's/.*"html_url": /html_url=/g'
+227: grep -m 1 html_url
+27: eval 'html_url="https://github.com/FMYC2015/Clash/commit/b7326276650157426af8021277a1aab77f915c96",'
+227: html_url=https://github.com/FMYC2015/Clash/commit/b7326276650157426af8021277a1aab77f915c96,
+228: curl -sL https://github.com/FMYC2015/Clash/commit/b7326276650157426af8021277a1aab77f915c96
+228: sed 's|</a>|"|g'
+228: sed -n 's|^      <a href="#diff-.*">|href="https://github.com/FMYC2015/Clash/raw/main/|p'
+28: eval 'href="https://github.com/FMYC2015/Clash/raw/main/2021/2021-12-08"'
+228: href=https://github.com/FMYC2015/Clash/raw/main/2021/2021-12-08
+29: curl -sLo /home/runner/work/all/all/c3 https://github.com/FMYC2015/Clash/raw/main/2021/2021-12-08
+30: curl -sLo /home/runner/work/all/all/v3 https://gitee.com/chenx58/clash/raw/V2R/V2R
+331: date +%Y年%m月%d日·%H点%M分%S秒
+31: sed -i '/^|20/c|2021年12月10日·00点00分06秒|' /home/runner/work/all/all/README.md
+332: date +%Y年%m月%d日·%H点%M分%S秒 -d '+1 hour'
+32: sed -i '/^20/c2021年12月10日·01点00分06秒' /home/runner/work/all/all/README.md
