@@ -20,12 +20,10 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
-#      - name: 安装curl
-#        run: |
-#          brew install curl
-
       - name: 运行脚本
-        run: bash ./.github/ccaeo.sh
+        run: |
+          brew update
+          bash ./.github/ccaeo.sh
 
       - name: 设置机器人
         run: |
