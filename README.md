@@ -22,3 +22,4 @@
 |https://sub.v1.mk/|
 |http://sub.443.mba/|
 |https://bianyuan.xyz/|
+|https://zhuan.jklist.ga/|
