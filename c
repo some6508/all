@@ -5,524 +5,276 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Aloha Australia 🇦🇺 Sydney_1', server: 194.14.208.110, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Azerbaijan 🇦🇿 Baku_2', server: 94.20.154.26, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Bosnia and Herzegovina 🇧🇦 Novi Travnik_3', server: 185.164.35.9, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Bulgaria 🇧🇬 Sofia_4', server: 194.68.225.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Canada 🇨🇦 Montreal_5', server: 192.71.227.17, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Croatia 🇭🇷 Zagreb_6', server: 46.183.184.12, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Cyprus 🇨🇾 Nicosia_7', server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Czechia 🇨🇿 Prague_8', server: 193.235.207.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Estonia 🇪🇪 Tallinn_9', server: 37.252.5.234, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Germany 🇩🇪 Düsseldorf_10', server: 178.18.255.190, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Germany 🇩🇪 Nuremberg_11', server: 213.136.80.36, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Greece 🇬🇷 Thessaloniki_12', server: 192.71.166.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Hong Kong 🇭🇰 Central_13', server: 91.245.255.59, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Hungary 🇭🇺 Budapest_14', server: 194.71.130.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Iceland 🇮🇸 Hafnarfjordur_15', server: 37.235.49.158, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha India 🇮🇳 Jaipur_16', server: 103.129.97.129, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Indonesia 🇮🇩 Jakarta_17', server: 103.84.192.228, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Isle of Man 🇮🇲 Douglas_18', server: 37.235.55.84, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Italy 🇮🇹 Milan_19', server: 95.174.23.218, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Japan 🇯🇵 Tokyo_20', server: 176.97.70.125, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Latvia 🇱🇻 Riga_21', server: 192.36.41.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Luxembourg 🇱🇺 Luxembourg_22', server: 172.255.248.35, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Malaysia 🇲🇾 Bukit Bintang_23', server: 202.59.10.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Malta 🇲🇹 Qormi_24', server: 185.89.238.36, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Moldova 🇲🇩 Chisinau_25', server: 192.121.87.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha North Macedonia 🇲🇰 Skopje_26', server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Romania 🇷🇴 Bucharest_27', server: 194.68.44.206, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Serbia 🇷🇸 Belgrade_28', server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Singapore 🇸🇬 Singapore_29', server: 194.233.65.67, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Slovakia 🇸🇰 Bratislava_30', server: 188.123.123.133, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Slovenia 🇸🇮 Ljubljana_31', server: 192.71.244.49, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha South Korea 🇰🇷 Seoul_32', server: 158.247.213.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Sweden 🇸🇪 Stockholm_33', server: 46.246.93.59, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Switzerland 🇨🇭 Zurich_34', server: 212.237.210.158, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Ukraine 🇺🇦 Kharkiv_35', server: 195.211.41.10, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha United Kingdom 🇬🇧 London_36', server: 176.10.80.6, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha United States 🇺🇸 Ashburn 1_37', server: 213.174.159.247, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha United States 🇺🇸 Ashburn 5_38', server: 213.174.129.4, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 'Aloha Vietnam 🇻🇳 Ho Chi Minh City_39', server: 103.238.213.96, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: '@vpn_proxy66.1_40', server: 92.38.169.196, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '@vpn_proxy66.2_41', server: 5.188.111.182, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '@vpn_proxy66.3_42', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '@vpn_proxy66.4_43', server: 81.90.188.167, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '@vpn_proxy66.5_44', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'default_ssr_name_45', server: 5.183.101.229, port: 50003, type: ssr, password: "8460400130", cipher: aes-256-cfb, protocol: origin, obfs: plain}
-  - {name: 'default_ssr_name_46', server: 103.105.48.199, port: 50003, type: ssr, password: "8460400130", cipher: aes-256-cfb, protocol: origin, obfs: plain}
-  - {name: 'default_ssr_name_47', server: 119.59.113.121, port: 50003, type: ssr, password: "8460400130", cipher: aes-256-cfb, protocol: origin, obfs: plain}
-  - {name: 'default_ssr_name_48', server: 185.172.113.58, port: 50003, type: ssr, password: "8460400130", cipher: aes-256-cfb, protocol: origin, obfs: plain}
-  - {name: 'default_ssr_name_49', server: 185.225.19.64, port: 50002, type: ssr, password: "9280247878", cipher: aes-256-cfb, protocol: origin, obfs: plain}
-  - {name: 'ufo France 🇫🇷 Paris 6_50', server: 135.125.248.215, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ufo Italy 🇮🇹 Milan 4_51', server: 95.141.37.111, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ufo United Kingdom 🇬🇧 London 5_52', server: 92.223.59.188, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ufo Germany 🇩🇪 FrankfurtamMain 3_53', server: 18.185.63.41, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ufo USA 🇺🇸 NewYork_54', server: 45.144.112.162, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ufo USA 🇺🇸 LosAngeles_55', server: 77.247.126.153, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ufo USA 🇺🇸 Seattle_56', server: 169.197.143.15, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ufo Japan 🇯🇵 Tokyo 5_57', server: 185.160.24.217, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ufo Japan 🇯🇵 Tokyo 4_58', server: 89.31.125.101, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ufo Singapore 🇸🇬 QueenstownEstate 2_59', server: 81.90.189.152, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ufo Japan 🇯🇵 Tokyo 3_60', server: 103.140.136.200, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'VIP中国香港 NO.1_1', server: cu.leadingto.top, port: 50070, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP中国香港 NO.2_2', server: cu.leadingto.top, port: 50071, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP中国台湾 NO.1_3', server: cu.leadingto.top, port: 50072, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP中国台湾 NO.2_4', server: cu.leadingto.top, port: 50073, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP韩国 NO.1_5', server: cu.leadingto.top, port: 50074, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP韩国 NO.2_6', server: cu.leadingto.top, port: 50075, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP日本 NO.1_7', server: cu.leadingto.top, port: 50076, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP日本 NO.2_8', server: cu.leadingto.top, port: 50077, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP新加坡 NO.1_9', server: cu.leadingto.top, port: 50078, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP新加坡 NO.2_10', server: cu.leadingto.top, port: 50079, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP CN2 香港_11', server: cn2.leadingto.top, port: 50055, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP CN2 台湾_12', server: cn2.leadingto.top, port: 50056, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP CN2 韩国_13', server: cn2.leadingto.top, port: 50057, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP CN2 日本_14', server: cn2.leadingto.top, port: 50058, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP CN2 新加坡_15', server: cn2.leadingto.top, port: 50059, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP IEPL 香港 NO.1_16', server: iepl.leadingto.top, port: 50080, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP IEPL 香港 NO.2_17', server: iepl.leadingto.top, port: 50081, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP IEPL 香港 NO.3_18', server: iepl.leadingto.top, port: 50091, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP IEPL 香港 NO.4_19', server: iepl.leadingto.top, port: 50092, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP IEPL 台湾 NO.1_20', server: iepl.leadingto.top, port: 50082, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP IEPL 台湾 NO.2_21', server: iepl.leadingto.top, port: 50083, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP IEPL 韩国 NO.1_22', server: iepl.leadingto.top, port: 50084, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP IEPL 韩国 NO.2_23', server: iepl.leadingto.top, port: 50085, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP IEPL 日本 NO.1_24', server: iepl.leadingto.top, port: 50086, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP IEPL 日本 NO.2_25', server: iepl.leadingto.top, port: 50087, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP IEPL 新加坡 NO.1_26', server: iepl.leadingto.top, port: 50088, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP IEPL 新加坡 NO.2_27', server: iepl.leadingto.top, port: 50089, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP IEPL 美国 NO.1_28', server: iepl.leadingto.top, port: 50090, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'VIP IEPL 5倍率 其他无倍率_29', server: 1.1.1.1, port: 55555, type: vmess, uuid: 332b77ab-39df-451b-9b88-c2528dc33227, alterId: 0, cipher: auto, tls: false, network: ws}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Aloha Australia 🇦🇺 Sydney_1
-      - Aloha Azerbaijan 🇦🇿 Baku_2
-      - Aloha Bosnia and Herzegovina 🇧🇦 Novi Travnik_3
-      - Aloha Bulgaria 🇧🇬 Sofia_4
-      - Aloha Canada 🇨🇦 Montreal_5
-      - Aloha Croatia 🇭🇷 Zagreb_6
-      - Aloha Cyprus 🇨🇾 Nicosia_7
-      - Aloha Czechia 🇨🇿 Prague_8
-      - Aloha Estonia 🇪🇪 Tallinn_9
-      - Aloha Germany 🇩🇪 Düsseldorf_10
-      - Aloha Germany 🇩🇪 Nuremberg_11
-      - Aloha Greece 🇬🇷 Thessaloniki_12
-      - Aloha Hong Kong 🇭🇰 Central_13
-      - Aloha Hungary 🇭🇺 Budapest_14
-      - Aloha Iceland 🇮🇸 Hafnarfjordur_15
-      - Aloha India 🇮🇳 Jaipur_16
-      - Aloha Indonesia 🇮🇩 Jakarta_17
-      - Aloha Isle of Man 🇮🇲 Douglas_18
-      - Aloha Italy 🇮🇹 Milan_19
-      - Aloha Japan 🇯🇵 Tokyo_20
-      - Aloha Latvia 🇱🇻 Riga_21
-      - Aloha Luxembourg 🇱🇺 Luxembourg_22
-      - Aloha Malaysia 🇲🇾 Bukit Bintang_23
-      - Aloha Malta 🇲🇹 Qormi_24
-      - Aloha Moldova 🇲🇩 Chisinau_25
-      - Aloha North Macedonia 🇲🇰 Skopje_26
-      - Aloha Romania 🇷🇴 Bucharest_27
-      - Aloha Serbia 🇷🇸 Belgrade_28
-      - Aloha Singapore 🇸🇬 Singapore_29
-      - Aloha Slovakia 🇸🇰 Bratislava_30
-      - Aloha Slovenia 🇸🇮 Ljubljana_31
-      - Aloha South Korea 🇰🇷 Seoul_32
-      - Aloha Sweden 🇸🇪 Stockholm_33
-      - Aloha Switzerland 🇨🇭 Zurich_34
-      - Aloha Ukraine 🇺🇦 Kharkiv_35
-      - Aloha United Kingdom 🇬🇧 London_36
-      - Aloha United States 🇺🇸 Ashburn 1_37
-      - Aloha United States 🇺🇸 Ashburn 5_38
-      - Aloha Vietnam 🇻🇳 Ho Chi Minh City_39
-      - @vpn_proxy66.1_40
-      - @vpn_proxy66.2_41
-      - @vpn_proxy66.3_42
-      - @vpn_proxy66.4_43
-      - @vpn_proxy66.5_44
-      - default_ssr_name_45
-      - default_ssr_name_46
-      - default_ssr_name_47
-      - default_ssr_name_48
-      - default_ssr_name_49
-      - ufo France 🇫🇷 Paris 6_50
-      - ufo Italy 🇮🇹 Milan 4_51
-      - ufo United Kingdom 🇬🇧 London 5_52
-      - ufo Germany 🇩🇪 FrankfurtamMain 3_53
-      - ufo USA 🇺🇸 NewYork_54
-      - ufo USA 🇺🇸 LosAngeles_55
-      - ufo USA 🇺🇸 Seattle_56
-      - ufo Japan 🇯🇵 Tokyo 5_57
-      - ufo Japan 🇯🇵 Tokyo 4_58
-      - ufo Singapore 🇸🇬 QueenstownEstate 2_59
-      - ufo Japan 🇯🇵 Tokyo 3_60
+      - VIP中国香港 NO.1_1
+      - VIP中国香港 NO.2_2
+      - VIP中国台湾 NO.1_3
+      - VIP中国台湾 NO.2_4
+      - VIP韩国 NO.1_5
+      - VIP韩国 NO.2_6
+      - VIP日本 NO.1_7
+      - VIP日本 NO.2_8
+      - VIP新加坡 NO.1_9
+      - VIP新加坡 NO.2_10
+      - VIP CN2 香港_11
+      - VIP CN2 台湾_12
+      - VIP CN2 韩国_13
+      - VIP CN2 日本_14
+      - VIP CN2 新加坡_15
+      - VIP IEPL 香港 NO.1_16
+      - VIP IEPL 香港 NO.2_17
+      - VIP IEPL 香港 NO.3_18
+      - VIP IEPL 香港 NO.4_19
+      - VIP IEPL 台湾 NO.1_20
+      - VIP IEPL 台湾 NO.2_21
+      - VIP IEPL 韩国 NO.1_22
+      - VIP IEPL 韩国 NO.2_23
+      - VIP IEPL 日本 NO.1_24
+      - VIP IEPL 日本 NO.2_25
+      - VIP IEPL 新加坡 NO.1_26
+      - VIP IEPL 新加坡 NO.2_27
+      - VIP IEPL 美国 NO.1_28
+      - VIP IEPL 5倍率 其他无倍率_29
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Aloha Australia 🇦🇺 Sydney_1
-      - Aloha Azerbaijan 🇦🇿 Baku_2
-      - Aloha Bosnia and Herzegovina 🇧🇦 Novi Travnik_3
-      - Aloha Bulgaria 🇧🇬 Sofia_4
-      - Aloha Canada 🇨🇦 Montreal_5
-      - Aloha Croatia 🇭🇷 Zagreb_6
-      - Aloha Cyprus 🇨🇾 Nicosia_7
-      - Aloha Czechia 🇨🇿 Prague_8
-      - Aloha Estonia 🇪🇪 Tallinn_9
-      - Aloha Germany 🇩🇪 Düsseldorf_10
-      - Aloha Germany 🇩🇪 Nuremberg_11
-      - Aloha Greece 🇬🇷 Thessaloniki_12
-      - Aloha Hong Kong 🇭🇰 Central_13
-      - Aloha Hungary 🇭🇺 Budapest_14
-      - Aloha Iceland 🇮🇸 Hafnarfjordur_15
-      - Aloha India 🇮🇳 Jaipur_16
-      - Aloha Indonesia 🇮🇩 Jakarta_17
-      - Aloha Isle of Man 🇮🇲 Douglas_18
-      - Aloha Italy 🇮🇹 Milan_19
-      - Aloha Japan 🇯🇵 Tokyo_20
-      - Aloha Latvia 🇱🇻 Riga_21
-      - Aloha Luxembourg 🇱🇺 Luxembourg_22
-      - Aloha Malaysia 🇲🇾 Bukit Bintang_23
-      - Aloha Malta 🇲🇹 Qormi_24
-      - Aloha Moldova 🇲🇩 Chisinau_25
-      - Aloha North Macedonia 🇲🇰 Skopje_26
-      - Aloha Romania 🇷🇴 Bucharest_27
-      - Aloha Serbia 🇷🇸 Belgrade_28
-      - Aloha Singapore 🇸🇬 Singapore_29
-      - Aloha Slovakia 🇸🇰 Bratislava_30
-      - Aloha Slovenia 🇸🇮 Ljubljana_31
-      - Aloha South Korea 🇰🇷 Seoul_32
-      - Aloha Sweden 🇸🇪 Stockholm_33
-      - Aloha Switzerland 🇨🇭 Zurich_34
-      - Aloha Ukraine 🇺🇦 Kharkiv_35
-      - Aloha United Kingdom 🇬🇧 London_36
-      - Aloha United States 🇺🇸 Ashburn 1_37
-      - Aloha United States 🇺🇸 Ashburn 5_38
-      - Aloha Vietnam 🇻🇳 Ho Chi Minh City_39
-      - @vpn_proxy66.1_40
-      - @vpn_proxy66.2_41
-      - @vpn_proxy66.3_42
-      - @vpn_proxy66.4_43
-      - @vpn_proxy66.5_44
-      - default_ssr_name_45
-      - default_ssr_name_46
-      - default_ssr_name_47
-      - default_ssr_name_48
-      - default_ssr_name_49
-      - ufo France 🇫🇷 Paris 6_50
-      - ufo Italy 🇮🇹 Milan 4_51
-      - ufo United Kingdom 🇬🇧 London 5_52
-      - ufo Germany 🇩🇪 FrankfurtamMain 3_53
-      - ufo USA 🇺🇸 NewYork_54
-      - ufo USA 🇺🇸 LosAngeles_55
-      - ufo USA 🇺🇸 Seattle_56
-      - ufo Japan 🇯🇵 Tokyo 5_57
-      - ufo Japan 🇯🇵 Tokyo 4_58
-      - ufo Singapore 🇸🇬 QueenstownEstate 2_59
-      - ufo Japan 🇯🇵 Tokyo 3_60
+      - VIP中国香港 NO.1_1
+      - VIP中国香港 NO.2_2
+      - VIP中国台湾 NO.1_3
+      - VIP中国台湾 NO.2_4
+      - VIP韩国 NO.1_5
+      - VIP韩国 NO.2_6
+      - VIP日本 NO.1_7
+      - VIP日本 NO.2_8
+      - VIP新加坡 NO.1_9
+      - VIP新加坡 NO.2_10
+      - VIP CN2 香港_11
+      - VIP CN2 台湾_12
+      - VIP CN2 韩国_13
+      - VIP CN2 日本_14
+      - VIP CN2 新加坡_15
+      - VIP IEPL 香港 NO.1_16
+      - VIP IEPL 香港 NO.2_17
+      - VIP IEPL 香港 NO.3_18
+      - VIP IEPL 香港 NO.4_19
+      - VIP IEPL 台湾 NO.1_20
+      - VIP IEPL 台湾 NO.2_21
+      - VIP IEPL 韩国 NO.1_22
+      - VIP IEPL 韩国 NO.2_23
+      - VIP IEPL 日本 NO.1_24
+      - VIP IEPL 日本 NO.2_25
+      - VIP IEPL 新加坡 NO.1_26
+      - VIP IEPL 新加坡 NO.2_27
+      - VIP IEPL 美国 NO.1_28
+      - VIP IEPL 5倍率 其他无倍率_29
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Aloha Australia 🇦🇺 Sydney_1
-      - Aloha Azerbaijan 🇦🇿 Baku_2
-      - Aloha Bosnia and Herzegovina 🇧🇦 Novi Travnik_3
-      - Aloha Bulgaria 🇧🇬 Sofia_4
-      - Aloha Canada 🇨🇦 Montreal_5
-      - Aloha Croatia 🇭🇷 Zagreb_6
-      - Aloha Cyprus 🇨🇾 Nicosia_7
-      - Aloha Czechia 🇨🇿 Prague_8
-      - Aloha Estonia 🇪🇪 Tallinn_9
-      - Aloha Germany 🇩🇪 Düsseldorf_10
-      - Aloha Germany 🇩🇪 Nuremberg_11
-      - Aloha Greece 🇬🇷 Thessaloniki_12
-      - Aloha Hong Kong 🇭🇰 Central_13
-      - Aloha Hungary 🇭🇺 Budapest_14
-      - Aloha Iceland 🇮🇸 Hafnarfjordur_15
-      - Aloha India 🇮🇳 Jaipur_16
-      - Aloha Indonesia 🇮🇩 Jakarta_17
-      - Aloha Isle of Man 🇮🇲 Douglas_18
-      - Aloha Italy 🇮🇹 Milan_19
-      - Aloha Japan 🇯🇵 Tokyo_20
-      - Aloha Latvia 🇱🇻 Riga_21
-      - Aloha Luxembourg 🇱🇺 Luxembourg_22
-      - Aloha Malaysia 🇲🇾 Bukit Bintang_23
-      - Aloha Malta 🇲🇹 Qormi_24
-      - Aloha Moldova 🇲🇩 Chisinau_25
-      - Aloha North Macedonia 🇲🇰 Skopje_26
-      - Aloha Romania 🇷🇴 Bucharest_27
-      - Aloha Serbia 🇷🇸 Belgrade_28
-      - Aloha Singapore 🇸🇬 Singapore_29
-      - Aloha Slovakia 🇸🇰 Bratislava_30
-      - Aloha Slovenia 🇸🇮 Ljubljana_31
-      - Aloha South Korea 🇰🇷 Seoul_32
-      - Aloha Sweden 🇸🇪 Stockholm_33
-      - Aloha Switzerland 🇨🇭 Zurich_34
-      - Aloha Ukraine 🇺🇦 Kharkiv_35
-      - Aloha United Kingdom 🇬🇧 London_36
-      - Aloha United States 🇺🇸 Ashburn 1_37
-      - Aloha United States 🇺🇸 Ashburn 5_38
-      - Aloha Vietnam 🇻🇳 Ho Chi Minh City_39
-      - @vpn_proxy66.1_40
-      - @vpn_proxy66.2_41
-      - @vpn_proxy66.3_42
-      - @vpn_proxy66.4_43
-      - @vpn_proxy66.5_44
-      - default_ssr_name_45
-      - default_ssr_name_46
-      - default_ssr_name_47
-      - default_ssr_name_48
-      - default_ssr_name_49
-      - ufo France 🇫🇷 Paris 6_50
-      - ufo Italy 🇮🇹 Milan 4_51
-      - ufo United Kingdom 🇬🇧 London 5_52
-      - ufo Germany 🇩🇪 FrankfurtamMain 3_53
-      - ufo USA 🇺🇸 NewYork_54
-      - ufo USA 🇺🇸 LosAngeles_55
-      - ufo USA 🇺🇸 Seattle_56
-      - ufo Japan 🇯🇵 Tokyo 5_57
-      - ufo Japan 🇯🇵 Tokyo 4_58
-      - ufo Singapore 🇸🇬 QueenstownEstate 2_59
-      - ufo Japan 🇯🇵 Tokyo 3_60
+      - VIP中国香港 NO.1_1
+      - VIP中国香港 NO.2_2
+      - VIP中国台湾 NO.1_3
+      - VIP中国台湾 NO.2_4
+      - VIP韩国 NO.1_5
+      - VIP韩国 NO.2_6
+      - VIP日本 NO.1_7
+      - VIP日本 NO.2_8
+      - VIP新加坡 NO.1_9
+      - VIP新加坡 NO.2_10
+      - VIP CN2 香港_11
+      - VIP CN2 台湾_12
+      - VIP CN2 韩国_13
+      - VIP CN2 日本_14
+      - VIP CN2 新加坡_15
+      - VIP IEPL 香港 NO.1_16
+      - VIP IEPL 香港 NO.2_17
+      - VIP IEPL 香港 NO.3_18
+      - VIP IEPL 香港 NO.4_19
+      - VIP IEPL 台湾 NO.1_20
+      - VIP IEPL 台湾 NO.2_21
+      - VIP IEPL 韩国 NO.1_22
+      - VIP IEPL 韩国 NO.2_23
+      - VIP IEPL 日本 NO.1_24
+      - VIP IEPL 日本 NO.2_25
+      - VIP IEPL 新加坡 NO.1_26
+      - VIP IEPL 新加坡 NO.2_27
+      - VIP IEPL 美国 NO.1_28
+      - VIP IEPL 5倍率 其他无倍率_29
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Aloha Australia 🇦🇺 Sydney_1
-      - Aloha Azerbaijan 🇦🇿 Baku_2
-      - Aloha Bosnia and Herzegovina 🇧🇦 Novi Travnik_3
-      - Aloha Bulgaria 🇧🇬 Sofia_4
-      - Aloha Canada 🇨🇦 Montreal_5
-      - Aloha Croatia 🇭🇷 Zagreb_6
-      - Aloha Cyprus 🇨🇾 Nicosia_7
-      - Aloha Czechia 🇨🇿 Prague_8
-      - Aloha Estonia 🇪🇪 Tallinn_9
-      - Aloha Germany 🇩🇪 Düsseldorf_10
-      - Aloha Germany 🇩🇪 Nuremberg_11
-      - Aloha Greece 🇬🇷 Thessaloniki_12
-      - Aloha Hong Kong 🇭🇰 Central_13
-      - Aloha Hungary 🇭🇺 Budapest_14
-      - Aloha Iceland 🇮🇸 Hafnarfjordur_15
-      - Aloha India 🇮🇳 Jaipur_16
-      - Aloha Indonesia 🇮🇩 Jakarta_17
-      - Aloha Isle of Man 🇮🇲 Douglas_18
-      - Aloha Italy 🇮🇹 Milan_19
-      - Aloha Japan 🇯🇵 Tokyo_20
-      - Aloha Latvia 🇱🇻 Riga_21
-      - Aloha Luxembourg 🇱🇺 Luxembourg_22
-      - Aloha Malaysia 🇲🇾 Bukit Bintang_23
-      - Aloha Malta 🇲🇹 Qormi_24
-      - Aloha Moldova 🇲🇩 Chisinau_25
-      - Aloha North Macedonia 🇲🇰 Skopje_26
-      - Aloha Romania 🇷🇴 Bucharest_27
-      - Aloha Serbia 🇷🇸 Belgrade_28
-      - Aloha Singapore 🇸🇬 Singapore_29
-      - Aloha Slovakia 🇸🇰 Bratislava_30
-      - Aloha Slovenia 🇸🇮 Ljubljana_31
-      - Aloha South Korea 🇰🇷 Seoul_32
-      - Aloha Sweden 🇸🇪 Stockholm_33
-      - Aloha Switzerland 🇨🇭 Zurich_34
-      - Aloha Ukraine 🇺🇦 Kharkiv_35
-      - Aloha United Kingdom 🇬🇧 London_36
-      - Aloha United States 🇺🇸 Ashburn 1_37
-      - Aloha United States 🇺🇸 Ashburn 5_38
-      - Aloha Vietnam 🇻🇳 Ho Chi Minh City_39
-      - @vpn_proxy66.1_40
-      - @vpn_proxy66.2_41
-      - @vpn_proxy66.3_42
-      - @vpn_proxy66.4_43
-      - @vpn_proxy66.5_44
-      - default_ssr_name_45
-      - default_ssr_name_46
-      - default_ssr_name_47
-      - default_ssr_name_48
-      - default_ssr_name_49
-      - ufo France 🇫🇷 Paris 6_50
-      - ufo Italy 🇮🇹 Milan 4_51
-      - ufo United Kingdom 🇬🇧 London 5_52
-      - ufo Germany 🇩🇪 FrankfurtamMain 3_53
-      - ufo USA 🇺🇸 NewYork_54
-      - ufo USA 🇺🇸 LosAngeles_55
-      - ufo USA 🇺🇸 Seattle_56
-      - ufo Japan 🇯🇵 Tokyo 5_57
-      - ufo Japan 🇯🇵 Tokyo 4_58
-      - ufo Singapore 🇸🇬 QueenstownEstate 2_59
-      - ufo Japan 🇯🇵 Tokyo 3_60
+      - VIP中国香港 NO.1_1
+      - VIP中国香港 NO.2_2
+      - VIP中国台湾 NO.1_3
+      - VIP中国台湾 NO.2_4
+      - VIP韩国 NO.1_5
+      - VIP韩国 NO.2_6
+      - VIP日本 NO.1_7
+      - VIP日本 NO.2_8
+      - VIP新加坡 NO.1_9
+      - VIP新加坡 NO.2_10
+      - VIP CN2 香港_11
+      - VIP CN2 台湾_12
+      - VIP CN2 韩国_13
+      - VIP CN2 日本_14
+      - VIP CN2 新加坡_15
+      - VIP IEPL 香港 NO.1_16
+      - VIP IEPL 香港 NO.2_17
+      - VIP IEPL 香港 NO.3_18
+      - VIP IEPL 香港 NO.4_19
+      - VIP IEPL 台湾 NO.1_20
+      - VIP IEPL 台湾 NO.2_21
+      - VIP IEPL 韩国 NO.1_22
+      - VIP IEPL 韩国 NO.2_23
+      - VIP IEPL 日本 NO.1_24
+      - VIP IEPL 日本 NO.2_25
+      - VIP IEPL 新加坡 NO.1_26
+      - VIP IEPL 新加坡 NO.2_27
+      - VIP IEPL 美国 NO.1_28
+      - VIP IEPL 5倍率 其他无倍率_29
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Aloha Australia 🇦🇺 Sydney_1
-      - Aloha Azerbaijan 🇦🇿 Baku_2
-      - Aloha Bosnia and Herzegovina 🇧🇦 Novi Travnik_3
-      - Aloha Bulgaria 🇧🇬 Sofia_4
-      - Aloha Canada 🇨🇦 Montreal_5
-      - Aloha Croatia 🇭🇷 Zagreb_6
-      - Aloha Cyprus 🇨🇾 Nicosia_7
-      - Aloha Czechia 🇨🇿 Prague_8
-      - Aloha Estonia 🇪🇪 Tallinn_9
-      - Aloha Germany 🇩🇪 Düsseldorf_10
-      - Aloha Germany 🇩🇪 Nuremberg_11
-      - Aloha Greece 🇬🇷 Thessaloniki_12
-      - Aloha Hong Kong 🇭🇰 Central_13
-      - Aloha Hungary 🇭🇺 Budapest_14
-      - Aloha Iceland 🇮🇸 Hafnarfjordur_15
-      - Aloha India 🇮🇳 Jaipur_16
-      - Aloha Indonesia 🇮🇩 Jakarta_17
-      - Aloha Isle of Man 🇮🇲 Douglas_18
-      - Aloha Italy 🇮🇹 Milan_19
-      - Aloha Japan 🇯🇵 Tokyo_20
-      - Aloha Latvia 🇱🇻 Riga_21
-      - Aloha Luxembourg 🇱🇺 Luxembourg_22
-      - Aloha Malaysia 🇲🇾 Bukit Bintang_23
-      - Aloha Malta 🇲🇹 Qormi_24
-      - Aloha Moldova 🇲🇩 Chisinau_25
-      - Aloha North Macedonia 🇲🇰 Skopje_26
-      - Aloha Romania 🇷🇴 Bucharest_27
-      - Aloha Serbia 🇷🇸 Belgrade_28
-      - Aloha Singapore 🇸🇬 Singapore_29
-      - Aloha Slovakia 🇸🇰 Bratislava_30
-      - Aloha Slovenia 🇸🇮 Ljubljana_31
-      - Aloha South Korea 🇰🇷 Seoul_32
-      - Aloha Sweden 🇸🇪 Stockholm_33
-      - Aloha Switzerland 🇨🇭 Zurich_34
-      - Aloha Ukraine 🇺🇦 Kharkiv_35
-      - Aloha United Kingdom 🇬🇧 London_36
-      - Aloha United States 🇺🇸 Ashburn 1_37
-      - Aloha United States 🇺🇸 Ashburn 5_38
-      - Aloha Vietnam 🇻🇳 Ho Chi Minh City_39
-      - @vpn_proxy66.1_40
-      - @vpn_proxy66.2_41
-      - @vpn_proxy66.3_42
-      - @vpn_proxy66.4_43
-      - @vpn_proxy66.5_44
-      - default_ssr_name_45
-      - default_ssr_name_46
-      - default_ssr_name_47
-      - default_ssr_name_48
-      - default_ssr_name_49
-      - ufo France 🇫🇷 Paris 6_50
-      - ufo Italy 🇮🇹 Milan 4_51
-      - ufo United Kingdom 🇬🇧 London 5_52
-      - ufo Germany 🇩🇪 FrankfurtamMain 3_53
-      - ufo USA 🇺🇸 NewYork_54
-      - ufo USA 🇺🇸 LosAngeles_55
-      - ufo USA 🇺🇸 Seattle_56
-      - ufo Japan 🇯🇵 Tokyo 5_57
-      - ufo Japan 🇯🇵 Tokyo 4_58
-      - ufo Singapore 🇸🇬 QueenstownEstate 2_59
-      - ufo Japan 🇯🇵 Tokyo 3_60
+      - VIP中国香港 NO.1_1
+      - VIP中国香港 NO.2_2
+      - VIP中国台湾 NO.1_3
+      - VIP中国台湾 NO.2_4
+      - VIP韩国 NO.1_5
+      - VIP韩国 NO.2_6
+      - VIP日本 NO.1_7
+      - VIP日本 NO.2_8
+      - VIP新加坡 NO.1_9
+      - VIP新加坡 NO.2_10
+      - VIP CN2 香港_11
+      - VIP CN2 台湾_12
+      - VIP CN2 韩国_13
+      - VIP CN2 日本_14
+      - VIP CN2 新加坡_15
+      - VIP IEPL 香港 NO.1_16
+      - VIP IEPL 香港 NO.2_17
+      - VIP IEPL 香港 NO.3_18
+      - VIP IEPL 香港 NO.4_19
+      - VIP IEPL 台湾 NO.1_20
+      - VIP IEPL 台湾 NO.2_21
+      - VIP IEPL 韩国 NO.1_22
+      - VIP IEPL 韩国 NO.2_23
+      - VIP IEPL 日本 NO.1_24
+      - VIP IEPL 日本 NO.2_25
+      - VIP IEPL 新加坡 NO.1_26
+      - VIP IEPL 新加坡 NO.2_27
+      - VIP IEPL 美国 NO.1_28
+      - VIP IEPL 5倍率 其他无倍率_29
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Aloha Australia 🇦🇺 Sydney_1
-      - Aloha Azerbaijan 🇦🇿 Baku_2
-      - Aloha Bosnia and Herzegovina 🇧🇦 Novi Travnik_3
-      - Aloha Bulgaria 🇧🇬 Sofia_4
-      - Aloha Canada 🇨🇦 Montreal_5
-      - Aloha Croatia 🇭🇷 Zagreb_6
-      - Aloha Cyprus 🇨🇾 Nicosia_7
-      - Aloha Czechia 🇨🇿 Prague_8
-      - Aloha Estonia 🇪🇪 Tallinn_9
-      - Aloha Germany 🇩🇪 Düsseldorf_10
-      - Aloha Germany 🇩🇪 Nuremberg_11
-      - Aloha Greece 🇬🇷 Thessaloniki_12
-      - Aloha Hong Kong 🇭🇰 Central_13
-      - Aloha Hungary 🇭🇺 Budapest_14
-      - Aloha Iceland 🇮🇸 Hafnarfjordur_15
-      - Aloha India 🇮🇳 Jaipur_16
-      - Aloha Indonesia 🇮🇩 Jakarta_17
-      - Aloha Isle of Man 🇮🇲 Douglas_18
-      - Aloha Italy 🇮🇹 Milan_19
-      - Aloha Japan 🇯🇵 Tokyo_20
-      - Aloha Latvia 🇱🇻 Riga_21
-      - Aloha Luxembourg 🇱🇺 Luxembourg_22
-      - Aloha Malaysia 🇲🇾 Bukit Bintang_23
-      - Aloha Malta 🇲🇹 Qormi_24
-      - Aloha Moldova 🇲🇩 Chisinau_25
-      - Aloha North Macedonia 🇲🇰 Skopje_26
-      - Aloha Romania 🇷🇴 Bucharest_27
-      - Aloha Serbia 🇷🇸 Belgrade_28
-      - Aloha Singapore 🇸🇬 Singapore_29
-      - Aloha Slovakia 🇸🇰 Bratislava_30
-      - Aloha Slovenia 🇸🇮 Ljubljana_31
-      - Aloha South Korea 🇰🇷 Seoul_32
-      - Aloha Sweden 🇸🇪 Stockholm_33
-      - Aloha Switzerland 🇨🇭 Zurich_34
-      - Aloha Ukraine 🇺🇦 Kharkiv_35
-      - Aloha United Kingdom 🇬🇧 London_36
-      - Aloha United States 🇺🇸 Ashburn 1_37
-      - Aloha United States 🇺🇸 Ashburn 5_38
-      - Aloha Vietnam 🇻🇳 Ho Chi Minh City_39
-      - @vpn_proxy66.1_40
-      - @vpn_proxy66.2_41
-      - @vpn_proxy66.3_42
-      - @vpn_proxy66.4_43
-      - @vpn_proxy66.5_44
-      - default_ssr_name_45
-      - default_ssr_name_46
-      - default_ssr_name_47
-      - default_ssr_name_48
-      - default_ssr_name_49
-      - ufo France 🇫🇷 Paris 6_50
-      - ufo Italy 🇮🇹 Milan 4_51
-      - ufo United Kingdom 🇬🇧 London 5_52
-      - ufo Germany 🇩🇪 FrankfurtamMain 3_53
-      - ufo USA 🇺🇸 NewYork_54
-      - ufo USA 🇺🇸 LosAngeles_55
-      - ufo USA 🇺🇸 Seattle_56
-      - ufo Japan 🇯🇵 Tokyo 5_57
-      - ufo Japan 🇯🇵 Tokyo 4_58
-      - ufo Singapore 🇸🇬 QueenstownEstate 2_59
-      - ufo Japan 🇯🇵 Tokyo 3_60
+      - VIP中国香港 NO.1_1
+      - VIP中国香港 NO.2_2
+      - VIP中国台湾 NO.1_3
+      - VIP中国台湾 NO.2_4
+      - VIP韩国 NO.1_5
+      - VIP韩国 NO.2_6
+      - VIP日本 NO.1_7
+      - VIP日本 NO.2_8
+      - VIP新加坡 NO.1_9
+      - VIP新加坡 NO.2_10
+      - VIP CN2 香港_11
+      - VIP CN2 台湾_12
+      - VIP CN2 韩国_13
+      - VIP CN2 日本_14
+      - VIP CN2 新加坡_15
+      - VIP IEPL 香港 NO.1_16
+      - VIP IEPL 香港 NO.2_17
+      - VIP IEPL 香港 NO.3_18
+      - VIP IEPL 香港 NO.4_19
+      - VIP IEPL 台湾 NO.1_20
+      - VIP IEPL 台湾 NO.2_21
+      - VIP IEPL 韩国 NO.1_22
+      - VIP IEPL 韩国 NO.2_23
+      - VIP IEPL 日本 NO.1_24
+      - VIP IEPL 日本 NO.2_25
+      - VIP IEPL 新加坡 NO.1_26
+      - VIP IEPL 新加坡 NO.2_27
+      - VIP IEPL 美国 NO.1_28
+      - VIP IEPL 5倍率 其他无倍率_29
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Aloha Australia 🇦🇺 Sydney_1
-      - Aloha Azerbaijan 🇦🇿 Baku_2
-      - Aloha Bosnia and Herzegovina 🇧🇦 Novi Travnik_3
-      - Aloha Bulgaria 🇧🇬 Sofia_4
-      - Aloha Canada 🇨🇦 Montreal_5
-      - Aloha Croatia 🇭🇷 Zagreb_6
-      - Aloha Cyprus 🇨🇾 Nicosia_7
-      - Aloha Czechia 🇨🇿 Prague_8
-      - Aloha Estonia 🇪🇪 Tallinn_9
-      - Aloha Germany 🇩🇪 Düsseldorf_10
-      - Aloha Germany 🇩🇪 Nuremberg_11
-      - Aloha Greece 🇬🇷 Thessaloniki_12
-      - Aloha Hong Kong 🇭🇰 Central_13
-      - Aloha Hungary 🇭🇺 Budapest_14
-      - Aloha Iceland 🇮🇸 Hafnarfjordur_15
-      - Aloha India 🇮🇳 Jaipur_16
-      - Aloha Indonesia 🇮🇩 Jakarta_17
-      - Aloha Isle of Man 🇮🇲 Douglas_18
-      - Aloha Italy 🇮🇹 Milan_19
-      - Aloha Japan 🇯🇵 Tokyo_20
-      - Aloha Latvia 🇱🇻 Riga_21
-      - Aloha Luxembourg 🇱🇺 Luxembourg_22
-      - Aloha Malaysia 🇲🇾 Bukit Bintang_23
-      - Aloha Malta 🇲🇹 Qormi_24
-      - Aloha Moldova 🇲🇩 Chisinau_25
-      - Aloha North Macedonia 🇲🇰 Skopje_26
-      - Aloha Romania 🇷🇴 Bucharest_27
-      - Aloha Serbia 🇷🇸 Belgrade_28
-      - Aloha Singapore 🇸🇬 Singapore_29
-      - Aloha Slovakia 🇸🇰 Bratislava_30
-      - Aloha Slovenia 🇸🇮 Ljubljana_31
-      - Aloha South Korea 🇰🇷 Seoul_32
-      - Aloha Sweden 🇸🇪 Stockholm_33
-      - Aloha Switzerland 🇨🇭 Zurich_34
-      - Aloha Ukraine 🇺🇦 Kharkiv_35
-      - Aloha United Kingdom 🇬🇧 London_36
-      - Aloha United States 🇺🇸 Ashburn 1_37
-      - Aloha United States 🇺🇸 Ashburn 5_38
-      - Aloha Vietnam 🇻🇳 Ho Chi Minh City_39
-      - @vpn_proxy66.1_40
-      - @vpn_proxy66.2_41
-      - @vpn_proxy66.3_42
-      - @vpn_proxy66.4_43
-      - @vpn_proxy66.5_44
-      - default_ssr_name_45
-      - default_ssr_name_46
-      - default_ssr_name_47
-      - default_ssr_name_48
-      - default_ssr_name_49
-      - ufo France 🇫🇷 Paris 6_50
-      - ufo Italy 🇮🇹 Milan 4_51
-      - ufo United Kingdom 🇬🇧 London 5_52
-      - ufo Germany 🇩🇪 FrankfurtamMain 3_53
-      - ufo USA 🇺🇸 NewYork_54
-      - ufo USA 🇺🇸 LosAngeles_55
-      - ufo USA 🇺🇸 Seattle_56
-      - ufo Japan 🇯🇵 Tokyo 5_57
-      - ufo Japan 🇯🇵 Tokyo 4_58
-      - ufo Singapore 🇸🇬 QueenstownEstate 2_59
-      - ufo Japan 🇯🇵 Tokyo 3_60
+      - VIP中国香港 NO.1_1
+      - VIP中国香港 NO.2_2
+      - VIP中国台湾 NO.1_3
+      - VIP中国台湾 NO.2_4
+      - VIP韩国 NO.1_5
+      - VIP韩国 NO.2_6
+      - VIP日本 NO.1_7
+      - VIP日本 NO.2_8
+      - VIP新加坡 NO.1_9
+      - VIP新加坡 NO.2_10
+      - VIP CN2 香港_11
+      - VIP CN2 台湾_12
+      - VIP CN2 韩国_13
+      - VIP CN2 日本_14
+      - VIP CN2 新加坡_15
+      - VIP IEPL 香港 NO.1_16
+      - VIP IEPL 香港 NO.2_17
+      - VIP IEPL 香港 NO.3_18
+      - VIP IEPL 香港 NO.4_19
+      - VIP IEPL 台湾 NO.1_20
+      - VIP IEPL 台湾 NO.2_21
+      - VIP IEPL 韩国 NO.1_22
+      - VIP IEPL 韩国 NO.2_23
+      - VIP IEPL 日本 NO.1_24
+      - VIP IEPL 日本 NO.2_25
+      - VIP IEPL 新加坡 NO.1_26
+      - VIP IEPL 新加坡 NO.2_27
+      - VIP IEPL 美国 NO.1_28
+      - VIP IEPL 5倍率 其他无倍率_29
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -538,66 +290,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Aloha Australia 🇦🇺 Sydney_1
-      - Aloha Azerbaijan 🇦🇿 Baku_2
-      - Aloha Bosnia and Herzegovina 🇧🇦 Novi Travnik_3
-      - Aloha Bulgaria 🇧🇬 Sofia_4
-      - Aloha Canada 🇨🇦 Montreal_5
-      - Aloha Croatia 🇭🇷 Zagreb_6
-      - Aloha Cyprus 🇨🇾 Nicosia_7
-      - Aloha Czechia 🇨🇿 Prague_8
-      - Aloha Estonia 🇪🇪 Tallinn_9
-      - Aloha Germany 🇩🇪 Düsseldorf_10
-      - Aloha Germany 🇩🇪 Nuremberg_11
-      - Aloha Greece 🇬🇷 Thessaloniki_12
-      - Aloha Hong Kong 🇭🇰 Central_13
-      - Aloha Hungary 🇭🇺 Budapest_14
-      - Aloha Iceland 🇮🇸 Hafnarfjordur_15
-      - Aloha India 🇮🇳 Jaipur_16
-      - Aloha Indonesia 🇮🇩 Jakarta_17
-      - Aloha Isle of Man 🇮🇲 Douglas_18
-      - Aloha Italy 🇮🇹 Milan_19
-      - Aloha Japan 🇯🇵 Tokyo_20
-      - Aloha Latvia 🇱🇻 Riga_21
-      - Aloha Luxembourg 🇱🇺 Luxembourg_22
-      - Aloha Malaysia 🇲🇾 Bukit Bintang_23
-      - Aloha Malta 🇲🇹 Qormi_24
-      - Aloha Moldova 🇲🇩 Chisinau_25
-      - Aloha North Macedonia 🇲🇰 Skopje_26
-      - Aloha Romania 🇷🇴 Bucharest_27
-      - Aloha Serbia 🇷🇸 Belgrade_28
-      - Aloha Singapore 🇸🇬 Singapore_29
-      - Aloha Slovakia 🇸🇰 Bratislava_30
-      - Aloha Slovenia 🇸🇮 Ljubljana_31
-      - Aloha South Korea 🇰🇷 Seoul_32
-      - Aloha Sweden 🇸🇪 Stockholm_33
-      - Aloha Switzerland 🇨🇭 Zurich_34
-      - Aloha Ukraine 🇺🇦 Kharkiv_35
-      - Aloha United Kingdom 🇬🇧 London_36
-      - Aloha United States 🇺🇸 Ashburn 1_37
-      - Aloha United States 🇺🇸 Ashburn 5_38
-      - Aloha Vietnam 🇻🇳 Ho Chi Minh City_39
-      - @vpn_proxy66.1_40
-      - @vpn_proxy66.2_41
-      - @vpn_proxy66.3_42
-      - @vpn_proxy66.4_43
-      - @vpn_proxy66.5_44
-      - default_ssr_name_45
-      - default_ssr_name_46
-      - default_ssr_name_47
-      - default_ssr_name_48
-      - default_ssr_name_49
-      - ufo France 🇫🇷 Paris 6_50
-      - ufo Italy 🇮🇹 Milan 4_51
-      - ufo United Kingdom 🇬🇧 London 5_52
-      - ufo Germany 🇩🇪 FrankfurtamMain 3_53
-      - ufo USA 🇺🇸 NewYork_54
-      - ufo USA 🇺🇸 LosAngeles_55
-      - ufo USA 🇺🇸 Seattle_56
-      - ufo Japan 🇯🇵 Tokyo 5_57
-      - ufo Japan 🇯🇵 Tokyo 4_58
-      - ufo Singapore 🇸🇬 QueenstownEstate 2_59
-      - ufo Japan 🇯🇵 Tokyo 3_60
+      - VIP中国香港 NO.1_1
+      - VIP中国香港 NO.2_2
+      - VIP中国台湾 NO.1_3
+      - VIP中国台湾 NO.2_4
+      - VIP韩国 NO.1_5
+      - VIP韩国 NO.2_6
+      - VIP日本 NO.1_7
+      - VIP日本 NO.2_8
+      - VIP新加坡 NO.1_9
+      - VIP新加坡 NO.2_10
+      - VIP CN2 香港_11
+      - VIP CN2 台湾_12
+      - VIP CN2 韩国_13
+      - VIP CN2 日本_14
+      - VIP CN2 新加坡_15
+      - VIP IEPL 香港 NO.1_16
+      - VIP IEPL 香港 NO.2_17
+      - VIP IEPL 香港 NO.3_18
+      - VIP IEPL 香港 NO.4_19
+      - VIP IEPL 台湾 NO.1_20
+      - VIP IEPL 台湾 NO.2_21
+      - VIP IEPL 韩国 NO.1_22
+      - VIP IEPL 韩国 NO.2_23
+      - VIP IEPL 日本 NO.1_24
+      - VIP IEPL 日本 NO.2_25
+      - VIP IEPL 新加坡 NO.1_26
+      - VIP IEPL 新加坡 NO.2_27
+      - VIP IEPL 美国 NO.1_28
+      - VIP IEPL 5倍率 其他无倍率_29
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
