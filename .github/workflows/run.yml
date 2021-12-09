@@ -23,7 +23,10 @@ jobs:
 #      - name: 安装curl
 #        run: |
 #          brew install curl
-#          curl --version
+
+      - name: 安装unzip
+        run: |
+          brew install unzip
 
       - name: 运行脚本
         run: bash ./.github/ccaeo.sh
