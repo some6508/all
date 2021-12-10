@@ -5,1732 +5,436 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇸🇬_SG_新加坡_1', server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: '🇸🇬_SG_新加坡_2', server: 172.104.168.83, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇭🇰_HK_香港_3', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇨🇳_CN_中国->🇹🇼_TW_台湾_4', server: aaa-666.txwd.xyz, port: 60005, type: ss, cipher: chacha20-ietf-poly1305, password: qiH3cBOhlcUIm017}
-  - {name: '🇺🇸_US_美国_5', server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_6', server: 38.114.114.69, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_7', server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_美国_8', server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇪🇬_EG_埃及_9', server: 188.214.122.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
-  - {name: '🇺🇸_US_美国_10', server: 38.68.135.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_美国_11', server: 38.114.114.69, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_12', server: 38.75.136.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_13', server: 38.75.136.102, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_美国_14', server: 38.68.135.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_15', server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: chuch3go.com}}
-  - {name: '🇺🇸_US_美国_16', server: 167.88.63.89, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇷🇴_RO_罗马尼亚_17', server: 86.105.25.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK}
-  - {name: '🇨🇦_CA_加拿大_18', server: 134.195.196.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_美国_19', server: 38.68.135.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_美国_20', server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
-  - {name: '🇫🇷_FR_法国_21', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: '🇨🇦_CA_加拿大_22', server: 134.195.196.107, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_23', server: 167.88.63.89, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇱🇺_LU_卢森堡_24', server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
-  - {name: '🇨🇦_CA_加拿大_25', server: 71.19.249.109, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QBLw4rLXQ6ebxpWwSKDL}
-  - {name: '🇺🇸_US_美国_26', server: 38.68.135.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_美国_27', server: 38.91.101.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_28', server: domeixi.nbczl233.ml, port: 44036, type: vmess, uuid: 586782d0-3568-4b5b-ff5e-9291906ad6a1, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1145141919}
-  - {name: '🇨🇦_CA_加拿大_29', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_30', server: 142.202.48.17, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_31', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
-  - {name: '🇺🇸_US_美国_32', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: '🇺🇸_US_美国_33', server: 142.202.48.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_美国_34', server: 142.202.48.17, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_35', server: 167.88.63.89, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇨🇦_CA_加拿大_36', server: 134.195.196.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇦_UA_乌克兰_37', server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: '🇺🇸_US_美国_38', server: 147.182.249.191, port: 44036, type: vmess, uuid: 586782d0-3568-4b5b-ff5e-9291906ad6a1, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1145141919, ws-headers: {Host: domeixi.nbczl233.ml}}
-  - {name: '🇺🇸_US_美国_39', server: 167.88.63.89, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_40', server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: '🇬🇧_GB_英国_41', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '🇨🇦_CA_加拿大_42', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_43', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: '🇺🇸_US_美国_44', server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray}
-  - {name: '🇨🇦_CA_加拿大_45', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇨🇦_CA_加拿大_46', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_47', server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_美国_48', server: 142.202.48.55, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇨🇦_CA_加拿大_49', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇦🇹_AT_奥地利_50', server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL}
-  - {name: '🇨🇦_CA_加拿大_51', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇨🇦_CA_加拿大_52', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'default_name_53', server: 104.19.101.3, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /gdo93qerwtyuo, ws-headers: {Host: e.fovi.tk}}
-  - {name: '🇨🇦_CA_加拿大_54', server: 134.195.196.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇯🇵_JP_日本_55', server: 84.17.34.8, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm}
-  - {name: '🇨🇦_CA_加拿大_56', server: 134.195.196.184, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇩🇪_DE_德国_57', server: 172.105.244.165, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_58', server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇩🇪_DE_德国_59', server: 172.105.244.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇪🇸_ES_西班牙_60', server: 172.107.233.234, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇦_CA_加拿大_61', server: 134.195.196.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇩🇪_DE_德国_62', server: 172.105.251.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇨🇦_CA_加拿大_63', server: 134.195.196.184, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇩🇪_DE_德国_64', server: 172.105.251.193, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇩🇪_DE_德国_65', server: 172.105.244.165, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇲🇽_MX_墨西哥_66', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: '🇩🇪_DE_德国_67', server: 172.105.251.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇩🇪_DE_德国_68', server: 172.105.251.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇭🇺_HU_匈牙利_69', server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy}
-  - {name: '🇸🇪_SE_瑞典_70', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: '🇰🇷_KR_韩国_71', server: kr3.futi.online, port: 2053, type: vmess, uuid: c0b2f91e-d429-4aff-88e8-f0f90fd91cf3, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
-  - {name: '🇺🇸_US_美国_72', server: 142.202.48.17, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_73', server: 167.88.63.89, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇦_UA_乌克兰_74', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: '🇪🇸_ES_西班牙_75', server: 172.107.233.234, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇬🇧_GB_英国_76', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇯🇵_JP_日本_77', server: 85.208.110.138, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇩🇪_DE_德国_78', server: 172.105.251.193, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇩🇪_DE_德国_79', server: 172.105.251.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_美国_80', server: 167.88.63.89, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇦_CA_加拿大_81', server: 134.195.196.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇫🇷_FR_法国_82', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'default_name_83', server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: '🇭🇰_HK_香港_84', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇷🇺_RU_俄罗斯联邦_85', server: 45.89.228.53, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
-  - {name: '🇬🇧_GB_英国_86', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_美国_87', server: 38.68.134.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇵🇹_PT_葡萄牙_88', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: '🇳🇴_NO_挪威_89', server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: '🇺🇸_US_美国_90', server: 70.39.67.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}}
-  - {name: '🇩🇪_DE_德国_91', server: 172.105.251.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_美国_92', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '🇺🇸_US_美国_93', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '🇩🇪_DE_德国_94', server: 172.105.251.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_95', server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}}
-  - {name: '🇬🇧_GB_英国_96', server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
-  - {name: '🇩🇪_DE_德国_97', server: 172.105.244.165, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇷🇺_RU_俄罗斯联邦_98', server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
-  - {name: '🇫🇷_FR_法国_99', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦_CA_加拿大_100', server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: '🇫🇷_FR_法国_101', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_102', server: 77.247.126.153, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇩🇪_DE_德国_103', server: 172.105.244.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇫🇷_FR_法国_104', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇳🇴_NO_挪威_105', server: 46.29.218.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '🇦🇺_AU_澳大利亚_106', server: Ze9baeS5.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: '🇳🇴_NO_挪威_107', server: 46.29.218.170, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇩🇪_DE_德国_108', server: 146.0.36.23, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇩🇪_DE_德国_109', server: 172.105.251.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇩🇪_DE_德国_110', server: 172.105.251.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇭🇰_HK_香港_111', server: 161.81.195.100, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
-  - {name: '🇨🇦_CA_加拿大_112', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'default_name_113', server: www.digitalocean.com, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: '🇺🇸_US_美国_114', server: 167.88.63.89, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'default_name_115', server: icook.tw, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: '🇫🇷_FR_法国_116', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇪🇸_ES_西班牙_117', server: 172.107.233.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇭🇰_HK_香港_118', server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
-  - {name: '🇺🇸_US_美国_119', server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: '🇭🇰_HK_香港_120', server: 118.107.244.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇸🇬_SG_新加坡_121', server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: '🇩🇪_DE_德国_122', server: 146.0.36.23, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇫🇷_FR_法国_123', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_美国_124', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: '🇳🇴_NO_挪威_125', server: 46.29.218.170, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_美国_126', server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: '🇵🇭_PH_菲律宾_127', server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
-  - {name: '🇺🇸_US_美国_128', server: 38.75.136.102, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_美国_129', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '🇨🇦_CA_加拿大_130', server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: '🇺🇸_US_美国_131', server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: '🇮🇩_ID_印度尼西亚_132', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: '🇺🇸_US_美国_133', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '🇺🇸_US_美国_134', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: '🇹🇼_TW_台湾_135', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: '🇩🇪_DE_德国_136', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇭🇰_HK_香港_137', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇬🇧_GB_英国_138', server: 195.12.49.82, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇧🇻_BV_布维岛_139', server: 46.29.219.246, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇩🇪_DE_德国_140', server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
-  - {name: '🇲🇾_MY_马来西亚_141', server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: '🇸🇬_SG_新加坡_142', server: 172.104.168.83, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇫🇷_FR_法国_143', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇭🇰_HK_香港_144', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇭🇰_HK_香港->🇰🇷_KR_韩国_145', server: 156.234.95.72, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
-  - {name: '🇳🇴_NO_挪威_146', server: 46.29.218.170, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇰🇷_KR_韩国_147', server: kr2.futi.online, port: 2053, type: vmess, uuid: c0b2f91e-d429-4aff-88e8-f0f90fd91cf3, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
-  - {name: '🇭🇰_HK_香港_148', server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
-  - {name: '🇳🇴_NO_挪威_149', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇸🇬_SG_新加坡_150', server: 172.104.168.83, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦_CA_加拿大_151', server: 134.195.196.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_美国_152', server: 167.88.63.89, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇩🇪_DE_德国_153', server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_美国_154', server: 38.114.114.69, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇭🇰_HK_香港->🇯🇵_JP_日本_155', server: tk.shcn2.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: zxjp-b.tkong.cc}}
-  - {name: '🇳🇴_NO_挪威_156', server: 46.29.218.170, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇧🇻_BV_布维岛_157', server: 46.29.219.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇳🇿_NZ_新西兰_158', server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
-  - {name: '🇩🇪_DE_德国_159', server: 172.105.244.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇳🇴_NO_挪威_160', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇸🇬_SG_新加坡_161', server: 172.104.168.83, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇳🇴_NO_挪威_162', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_163', server: hostmonit.com, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: '🇩🇪_DE_德国_164', server: 172.105.244.165, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_美国_165', server: 38.114.114.69, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇩🇪_DE_德国_166', server: 146.0.36.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇦_CA_加拿大_167', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇩🇪_DE_德国_168', server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇳🇴_NO_挪威_169', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇫🇷_FR_法国_170', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '🇩🇪_DE_德国_171', server: 146.0.36.23, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇸🇬_SG_新加坡_172', server: 172.104.168.83, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇩🇪_DE_德国_173', server: 172.105.244.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇩🇪_DE_德国_174', server: 172.105.244.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇳🇴_NO_挪威_175', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'default_name_176', server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: '🇺🇸_US_美国_177', server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
-  - {name: '🇺🇸_US_美国_178', server: 167.88.63.89, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇫🇷_FR_法国_179', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇸🇬_SG_新加坡_180', server: 172.104.168.83, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_181', server: 172.67.176.114, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: '🇸🇬_SG_新加坡_182', server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ycgyg.com}}
-  - {name: '🇳🇬_NG_尼日利亚_183', server: 102.129.144.142, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6}
-  - {name: '🇳🇴_NO_挪威_184', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇧🇻_BV_布维岛_185', server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇭🇰_HK_香港_186', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'default_name_187', server: free-russian02-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
-  - {name: '🇫🇷_FR_法国_188', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇳🇴_NO_挪威_189', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '🇭🇰_HK_香港_190', server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_美国_191', server: 38.91.100.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇩🇪_DE_德国_192', server: 172.105.244.165, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇩🇪_DE_德国_193', server: 146.0.36.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇳🇴_NO_挪威_194', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_美国_195', server: 38.75.136.102, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇳🇴_NO_挪威_196', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇧🇷_BR_巴西_197', server: 177.54.150.39, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇸🇬_SG_新加坡_198', server: sg3.futi.online, port: 2053, type: vmess, uuid: c0b2f91e-d429-4aff-88e8-f0f90fd91cf3, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg3.futi.online}}
-  - {name: '🇺🇸_US_美国_199', server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.47727450.xyz}}
-  - {name: '🇨🇦_CA_加拿大_200', server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
-  - {name: '🇺🇸_US_美国_201', server: 38.114.114.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇳🇴_NO_挪威_202', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇩🇰_DK_丹麦_203', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
-  - {name: '🇭🇰_HK_香港_204', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_美国_205', server: 167.88.63.89, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇪🇸_ES_西班牙_206', server: 172.107.233.234, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇷🇴_RO_罗马尼亚_207', server: 86.105.25.162, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK}
-  - {name: '🇸🇬_SG_新加坡_208', server: 172.104.168.83, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇳🇴_NO_挪威_209', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_美国->🇳🇱_NL_荷兰_210', server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: bed4edbe-50bd-11ec-8a58-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nBaG3RmV/}
-  - {name: '🇳🇴_NO_挪威_211', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸USYoutube技术分享室整理_1', server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 'CYL-科技（2021.12.09）_2', server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 'CYL-科技（2021.12.08）_3', server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: '🇭🇰 HKYoutube技术分享室整理_4', server: lsb.stupidfellow.cf, port: 80, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: lsb.stupidfellow.cf}}
+  - {name: '🇺🇸USYoutube技术分享室整理_5', server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: c3c9c5d8-50bd-11ec-8a58-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nBaG3RmV/}
+  - {name: '🇺🇸USYoutube技术分享室整理_6', server: 104.19.101.5, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /gdo93qerwtyuo, ws-headers: {Host: e.fovi.tk}}
+  - {name: '加拿大+🇨🇦Youtube技术分享室整理_7', server: 134.195.196.107, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇬🇧GBYoutube技术分享室整理_8', server: ukml.52jjyun.top, port: 88, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukml.52jjyun.top}}
+  - {name: 'CYL-科技（2021.12.08）_9', server: ukml.52jjyun.top, port: 88, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
+  - {name: '🇺🇸USYoutube技术分享室整理_10', server: ruzz.52jjyun.top, port: 51232, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
+  - {name: 'CYL-科技（2021.12.09）_11', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 'CYL-科技（2021.12.08）_12', server: 134.195.196.107, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇭🇰 HKYoutube技术分享室整理_13', server: hkf1.dior.bar, port: 80, type: vmess, uuid: 579934ab-0b50-4e7f-b3c5-3923bbbaf41f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇺🇸US-Youtube技术分享室整理_14', server: 104.19.101.3, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /gdo93qerwtyuo, ws-headers: {Host: e.fovi.tk}}
+  - {name: '加拿大+🇨🇦Youtube技术分享室整理_15', server: 134.195.196.107, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇭🇰 HKYoutube技术分享室整理_16', server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: c9031db0-50bd-11ec-8a58-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
+  - {name: '🇺🇸USYoutube技术分享室整理_17', server: 104.19.101.3, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /gdo93qerwtyuo, ws-headers: {Host: e.fovi.tk}}
+  - {name: '加拿大+🇨🇦Youtube技术分享室整理_18', server: 134.195.196.107, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '美国感谢订阅——科技网络_19', server: 134.195.196.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '德国+🇩🇪Youtube技术分享室整理_20', server: 193.108.118.182, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸US-Youtube技术分享室整理_21', server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: c9031db0-50bd-11ec-8a58-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nBaG3RmV/}
+  - {name: '埃及+🇪🇬Youtube技术分享室整理_22', server: 188.214.122.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
+  - {name: 'CYL-科技（2021.12.09）_23', server: de.52jjyun.top, port: 80, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: de.52jjyun.top}}
+  - {name: 'CYL-科技（2021.12.09）_24', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp, ws-headers: {Host: 42.157.8.162}}
+  - {name: 'CYL-科技（2021.12.08）_25', server: 85.208.108.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸USYoutube技术分享室整理_26', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '日本🇯🇵Youtube技术分享室整理_27', server: 85.208.108.18, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'CYL-科技（2021.12.09）_28', server: cu-cs.okvpn.xyz, port: 30019, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+  - {name: 'CYL-科技（2021.12.09）_29', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: '日本🇯🇵Youtube技术分享室整理_30', server: 85.208.108.146, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'CYL-科技（2021.12.08）_31', server: ru.52jjyun.top, port: 80, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
+  - {name: '🇺🇸USYoutube技术分享室整理_32', server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: bed4edbe-50bd-11ec-8a58-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nBaG3RmV/}
+  - {name: '🇺🇸USYoutube技术分享室整理_33', server: ruzz.52jjyun.top, port: 51232, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruzz.52jjyun.top}}
+  - {name: '🇺🇸USYoutube技术分享室整理_34', server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 'CYL-科技（2021.12.09）_35', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'CYL-科技（2021.12.08）_36', server: 142.202.48.34, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸USYoutube技术分享室整理_37', server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'CYL-科技（2021.12.08）_38', server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116yn.fans8.xyz}}
+  - {name: '🇺🇸USYoutube技术分享室整理_39', server: 108.61.220.149, port: 4689, type: vmess, uuid: ac104d92-5809-11ec-a1a3-560003b9b5c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /nW5USgje/, ws-headers: {Host: 108.61.220.149}}
+  - {name: '🇺🇸USYoutube技术分享室整理_40', server: usjjs.52jjyun.top, port: 80, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
+  - {name: 'CYL-科技（2021.12.08）_41', server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: 'CYL-科技（2021.12.08）_42', server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🇭🇰 HKYoutube技术分享室整理_43', server: in.52jjyun.top, port: 80, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
+  - {name: '🇺🇸USYoutube技术分享室整理_44', server: usjjs.52jjyun.top, port: 80, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: usjjs.52jjyun.top}}
+  - {name: '🇫🇷FRYoutube技术分享室整理_45', server: 62.210.140.163, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'CYL-科技（2021.12.09）_46', server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🇺🇸USYoutube技术分享室整理_47', server: cu-cs.okvpn.xyz, port: 30020, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+  - {name: '🇺🇸USYoutube技术分享室整理_48', server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: '加拿大 🇨🇦Youtube技术分享室整理_49', server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /inde}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇪🇬_EG_埃及_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇷🇴_RO_罗马尼亚_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇫🇷_FR_法国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇱🇺_LU_卢森堡_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇨🇦_CA_加拿大_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇺🇦_UA_乌克兰_37
-      - 🇺🇸_US_美国_38
-      - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇬🇧_GB_英国_41
-      - 🇨🇦_CA_加拿大_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇨🇦_CA_加拿大_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇦🇹_AT_奥地利_50
-      - 🇨🇦_CA_加拿大_51
-      - 🇨🇦_CA_加拿大_52
-      - default_name_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇯🇵_JP_日本_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇩🇪_DE_德国_57
-      - 🇺🇸_US_美国_58
-      - 🇩🇪_DE_德国_59
-      - 🇪🇸_ES_西班牙_60
-      - 🇨🇦_CA_加拿大_61
-      - 🇩🇪_DE_德国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇩🇪_DE_德国_64
-      - 🇩🇪_DE_德国_65
-      - 🇲🇽_MX_墨西哥_66
-      - 🇩🇪_DE_德国_67
-      - 🇩🇪_DE_德国_68
-      - 🇭🇺_HU_匈牙利_69
-      - 🇸🇪_SE_瑞典_70
-      - 🇰🇷_KR_韩国_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇺🇦_UA_乌克兰_74
-      - 🇪🇸_ES_西班牙_75
-      - 🇬🇧_GB_英国_76
-      - 🇯🇵_JP_日本_77
-      - 🇩🇪_DE_德国_78
-      - 🇩🇪_DE_德国_79
-      - 🇺🇸_US_美国_80
-      - 🇨🇦_CA_加拿大_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇭🇰_HK_香港_84
-      - 🇷🇺_RU_俄罗斯联邦_85
-      - 🇬🇧_GB_英国_86
-      - 🇺🇸_US_美国_87
-      - 🇵🇹_PT_葡萄牙_88
-      - 🇳🇴_NO_挪威_89
-      - 🇺🇸_US_美国_90
-      - 🇩🇪_DE_德国_91
-      - 🇺🇸_US_美国_92
-      - 🇺🇸_US_美国_93
-      - 🇩🇪_DE_德国_94
-      - 🇺🇸_US_美国_95
-      - 🇬🇧_GB_英国_96
-      - 🇩🇪_DE_德国_97
-      - 🇷🇺_RU_俄罗斯联邦_98
-      - 🇫🇷_FR_法国_99
-      - 🇨🇦_CA_加拿大_100
-      - 🇫🇷_FR_法国_101
-      - 🇺🇸_US_美国_102
-      - 🇩🇪_DE_德国_103
-      - 🇫🇷_FR_法国_104
-      - 🇳🇴_NO_挪威_105
-      - 🇦🇺_AU_澳大利亚_106
-      - 🇳🇴_NO_挪威_107
-      - 🇩🇪_DE_德国_108
-      - 🇩🇪_DE_德国_109
-      - 🇩🇪_DE_德国_110
-      - 🇭🇰_HK_香港_111
-      - 🇨🇦_CA_加拿大_112
-      - default_name_113
-      - 🇺🇸_US_美国_114
-      - default_name_115
-      - 🇫🇷_FR_法国_116
-      - 🇪🇸_ES_西班牙_117
-      - 🇭🇰_HK_香港_118
-      - 🇺🇸_US_美国_119
-      - 🇭🇰_HK_香港_120
-      - 🇸🇬_SG_新加坡_121
-      - 🇩🇪_DE_德国_122
-      - 🇫🇷_FR_法国_123
-      - 🇺🇸_US_美国_124
-      - 🇳🇴_NO_挪威_125
-      - 🇺🇸_US_美国_126
-      - 🇵🇭_PH_菲律宾_127
-      - 🇺🇸_US_美国_128
-      - 🇺🇸_US_美国_129
-      - 🇨🇦_CA_加拿大_130
-      - 🇺🇸_US_美国_131
-      - 🇮🇩_ID_印度尼西亚_132
-      - 🇺🇸_US_美国_133
-      - 🇺🇸_US_美国_134
-      - 🇹🇼_TW_台湾_135
-      - 🇩🇪_DE_德国_136
-      - 🇭🇰_HK_香港_137
-      - 🇬🇧_GB_英国_138
-      - 🇧🇻_BV_布维岛_139
-      - 🇩🇪_DE_德国_140
-      - 🇲🇾_MY_马来西亚_141
-      - 🇸🇬_SG_新加坡_142
-      - 🇫🇷_FR_法国_143
-      - 🇭🇰_HK_香港_144
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_145
-      - 🇳🇴_NO_挪威_146
-      - 🇰🇷_KR_韩国_147
-      - 🇭🇰_HK_香港_148
-      - 🇳🇴_NO_挪威_149
-      - 🇸🇬_SG_新加坡_150
-      - 🇨🇦_CA_加拿大_151
-      - 🇺🇸_US_美国_152
-      - 🇩🇪_DE_德国_153
-      - 🇺🇸_US_美国_154
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_155
-      - 🇳🇴_NO_挪威_156
-      - 🇧🇻_BV_布维岛_157
-      - 🇳🇿_NZ_新西兰_158
-      - 🇩🇪_DE_德国_159
-      - 🇳🇴_NO_挪威_160
-      - 🇸🇬_SG_新加坡_161
-      - 🇳🇴_NO_挪威_162
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_163
-      - 🇩🇪_DE_德国_164
-      - 🇺🇸_US_美国_165
-      - 🇩🇪_DE_德国_166
-      - 🇨🇦_CA_加拿大_167
-      - 🇩🇪_DE_德国_168
-      - 🇳🇴_NO_挪威_169
-      - 🇫🇷_FR_法国_170
-      - 🇩🇪_DE_德国_171
-      - 🇸🇬_SG_新加坡_172
-      - 🇩🇪_DE_德国_173
-      - 🇩🇪_DE_德国_174
-      - 🇳🇴_NO_挪威_175
-      - default_name_176
-      - 🇺🇸_US_美国_177
-      - 🇺🇸_US_美国_178
-      - 🇫🇷_FR_法国_179
-      - 🇸🇬_SG_新加坡_180
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_181
-      - 🇸🇬_SG_新加坡_182
-      - 🇳🇬_NG_尼日利亚_183
-      - 🇳🇴_NO_挪威_184
-      - 🇧🇻_BV_布维岛_185
-      - 🇭🇰_HK_香港_186
-      - default_name_187
-      - 🇫🇷_FR_法国_188
-      - 🇳🇴_NO_挪威_189
-      - 🇭🇰_HK_香港_190
-      - 🇺🇸_US_美国_191
-      - 🇩🇪_DE_德国_192
-      - 🇩🇪_DE_德国_193
-      - 🇳🇴_NO_挪威_194
-      - 🇺🇸_US_美国_195
-      - 🇳🇴_NO_挪威_196
-      - 🇧🇷_BR_巴西_197
-      - 🇸🇬_SG_新加坡_198
-      - 🇺🇸_US_美国_199
-      - 🇨🇦_CA_加拿大_200
-      - 🇺🇸_US_美国_201
-      - 🇳🇴_NO_挪威_202
-      - 🇩🇰_DK_丹麦_203
-      - 🇭🇰_HK_香港_204
-      - 🇺🇸_US_美国_205
-      - 🇪🇸_ES_西班牙_206
-      - 🇷🇴_RO_罗马尼亚_207
-      - 🇸🇬_SG_新加坡_208
-      - 🇳🇴_NO_挪威_209
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_210
-      - 🇳🇴_NO_挪威_211
+      - 🇺🇸USYoutube技术分享室整理_1
+      - CYL-科技（2021.12.09）_2
+      - CYL-科技（2021.12.08）_3
+      - 🇭🇰 HKYoutube技术分享室整理_4
+      - 🇺🇸USYoutube技术分享室整理_5
+      - 🇺🇸USYoutube技术分享室整理_6
+      - 加拿大+🇨🇦Youtube技术分享室整理_7
+      - 🇬🇧GBYoutube技术分享室整理_8
+      - CYL-科技（2021.12.08）_9
+      - 🇺🇸USYoutube技术分享室整理_10
+      - CYL-科技（2021.12.09）_11
+      - CYL-科技（2021.12.08）_12
+      - 🇭🇰 HKYoutube技术分享室整理_13
+      - 🇺🇸US-Youtube技术分享室整理_14
+      - 加拿大+🇨🇦Youtube技术分享室整理_15
+      - 🇭🇰 HKYoutube技术分享室整理_16
+      - 🇺🇸USYoutube技术分享室整理_17
+      - 加拿大+🇨🇦Youtube技术分享室整理_18
+      - 美国感谢订阅——科技网络_19
+      - 德国+🇩🇪Youtube技术分享室整理_20
+      - 🇺🇸US-Youtube技术分享室整理_21
+      - 埃及+🇪🇬Youtube技术分享室整理_22
+      - CYL-科技（2021.12.09）_23
+      - CYL-科技（2021.12.09）_24
+      - CYL-科技（2021.12.08）_25
+      - 🇺🇸USYoutube技术分享室整理_26
+      - 日本🇯🇵Youtube技术分享室整理_27
+      - CYL-科技（2021.12.09）_28
+      - CYL-科技（2021.12.09）_29
+      - 日本🇯🇵Youtube技术分享室整理_30
+      - CYL-科技（2021.12.08）_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇺🇸USYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - CYL-科技（2021.12.09）_35
+      - CYL-科技（2021.12.08）_36
+      - 🇺🇸USYoutube技术分享室整理_37
+      - CYL-科技（2021.12.08）_38
+      - 🇺🇸USYoutube技术分享室整理_39
+      - 🇺🇸USYoutube技术分享室整理_40
+      - CYL-科技（2021.12.08）_41
+      - CYL-科技（2021.12.08）_42
+      - 🇭🇰 HKYoutube技术分享室整理_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - 🇫🇷FRYoutube技术分享室整理_45
+      - CYL-科技（2021.12.09）_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 🇺🇸USYoutube技术分享室整理_48
+      - 加拿大 🇨🇦Youtube技术分享室整理_49
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇪🇬_EG_埃及_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇷🇴_RO_罗马尼亚_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇫🇷_FR_法国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇱🇺_LU_卢森堡_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇨🇦_CA_加拿大_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇺🇦_UA_乌克兰_37
-      - 🇺🇸_US_美国_38
-      - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇬🇧_GB_英国_41
-      - 🇨🇦_CA_加拿大_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇨🇦_CA_加拿大_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇦🇹_AT_奥地利_50
-      - 🇨🇦_CA_加拿大_51
-      - 🇨🇦_CA_加拿大_52
-      - default_name_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇯🇵_JP_日本_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇩🇪_DE_德国_57
-      - 🇺🇸_US_美国_58
-      - 🇩🇪_DE_德国_59
-      - 🇪🇸_ES_西班牙_60
-      - 🇨🇦_CA_加拿大_61
-      - 🇩🇪_DE_德国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇩🇪_DE_德国_64
-      - 🇩🇪_DE_德国_65
-      - 🇲🇽_MX_墨西哥_66
-      - 🇩🇪_DE_德国_67
-      - 🇩🇪_DE_德国_68
-      - 🇭🇺_HU_匈牙利_69
-      - 🇸🇪_SE_瑞典_70
-      - 🇰🇷_KR_韩国_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇺🇦_UA_乌克兰_74
-      - 🇪🇸_ES_西班牙_75
-      - 🇬🇧_GB_英国_76
-      - 🇯🇵_JP_日本_77
-      - 🇩🇪_DE_德国_78
-      - 🇩🇪_DE_德国_79
-      - 🇺🇸_US_美国_80
-      - 🇨🇦_CA_加拿大_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇭🇰_HK_香港_84
-      - 🇷🇺_RU_俄罗斯联邦_85
-      - 🇬🇧_GB_英国_86
-      - 🇺🇸_US_美国_87
-      - 🇵🇹_PT_葡萄牙_88
-      - 🇳🇴_NO_挪威_89
-      - 🇺🇸_US_美国_90
-      - 🇩🇪_DE_德国_91
-      - 🇺🇸_US_美国_92
-      - 🇺🇸_US_美国_93
-      - 🇩🇪_DE_德国_94
-      - 🇺🇸_US_美国_95
-      - 🇬🇧_GB_英国_96
-      - 🇩🇪_DE_德国_97
-      - 🇷🇺_RU_俄罗斯联邦_98
-      - 🇫🇷_FR_法国_99
-      - 🇨🇦_CA_加拿大_100
-      - 🇫🇷_FR_法国_101
-      - 🇺🇸_US_美国_102
-      - 🇩🇪_DE_德国_103
-      - 🇫🇷_FR_法国_104
-      - 🇳🇴_NO_挪威_105
-      - 🇦🇺_AU_澳大利亚_106
-      - 🇳🇴_NO_挪威_107
-      - 🇩🇪_DE_德国_108
-      - 🇩🇪_DE_德国_109
-      - 🇩🇪_DE_德国_110
-      - 🇭🇰_HK_香港_111
-      - 🇨🇦_CA_加拿大_112
-      - default_name_113
-      - 🇺🇸_US_美国_114
-      - default_name_115
-      - 🇫🇷_FR_法国_116
-      - 🇪🇸_ES_西班牙_117
-      - 🇭🇰_HK_香港_118
-      - 🇺🇸_US_美国_119
-      - 🇭🇰_HK_香港_120
-      - 🇸🇬_SG_新加坡_121
-      - 🇩🇪_DE_德国_122
-      - 🇫🇷_FR_法国_123
-      - 🇺🇸_US_美国_124
-      - 🇳🇴_NO_挪威_125
-      - 🇺🇸_US_美国_126
-      - 🇵🇭_PH_菲律宾_127
-      - 🇺🇸_US_美国_128
-      - 🇺🇸_US_美国_129
-      - 🇨🇦_CA_加拿大_130
-      - 🇺🇸_US_美国_131
-      - 🇮🇩_ID_印度尼西亚_132
-      - 🇺🇸_US_美国_133
-      - 🇺🇸_US_美国_134
-      - 🇹🇼_TW_台湾_135
-      - 🇩🇪_DE_德国_136
-      - 🇭🇰_HK_香港_137
-      - 🇬🇧_GB_英国_138
-      - 🇧🇻_BV_布维岛_139
-      - 🇩🇪_DE_德国_140
-      - 🇲🇾_MY_马来西亚_141
-      - 🇸🇬_SG_新加坡_142
-      - 🇫🇷_FR_法国_143
-      - 🇭🇰_HK_香港_144
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_145
-      - 🇳🇴_NO_挪威_146
-      - 🇰🇷_KR_韩国_147
-      - 🇭🇰_HK_香港_148
-      - 🇳🇴_NO_挪威_149
-      - 🇸🇬_SG_新加坡_150
-      - 🇨🇦_CA_加拿大_151
-      - 🇺🇸_US_美国_152
-      - 🇩🇪_DE_德国_153
-      - 🇺🇸_US_美国_154
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_155
-      - 🇳🇴_NO_挪威_156
-      - 🇧🇻_BV_布维岛_157
-      - 🇳🇿_NZ_新西兰_158
-      - 🇩🇪_DE_德国_159
-      - 🇳🇴_NO_挪威_160
-      - 🇸🇬_SG_新加坡_161
-      - 🇳🇴_NO_挪威_162
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_163
-      - 🇩🇪_DE_德国_164
-      - 🇺🇸_US_美国_165
-      - 🇩🇪_DE_德国_166
-      - 🇨🇦_CA_加拿大_167
-      - 🇩🇪_DE_德国_168
-      - 🇳🇴_NO_挪威_169
-      - 🇫🇷_FR_法国_170
-      - 🇩🇪_DE_德国_171
-      - 🇸🇬_SG_新加坡_172
-      - 🇩🇪_DE_德国_173
-      - 🇩🇪_DE_德国_174
-      - 🇳🇴_NO_挪威_175
-      - default_name_176
-      - 🇺🇸_US_美国_177
-      - 🇺🇸_US_美国_178
-      - 🇫🇷_FR_法国_179
-      - 🇸🇬_SG_新加坡_180
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_181
-      - 🇸🇬_SG_新加坡_182
-      - 🇳🇬_NG_尼日利亚_183
-      - 🇳🇴_NO_挪威_184
-      - 🇧🇻_BV_布维岛_185
-      - 🇭🇰_HK_香港_186
-      - default_name_187
-      - 🇫🇷_FR_法国_188
-      - 🇳🇴_NO_挪威_189
-      - 🇭🇰_HK_香港_190
-      - 🇺🇸_US_美国_191
-      - 🇩🇪_DE_德国_192
-      - 🇩🇪_DE_德国_193
-      - 🇳🇴_NO_挪威_194
-      - 🇺🇸_US_美国_195
-      - 🇳🇴_NO_挪威_196
-      - 🇧🇷_BR_巴西_197
-      - 🇸🇬_SG_新加坡_198
-      - 🇺🇸_US_美国_199
-      - 🇨🇦_CA_加拿大_200
-      - 🇺🇸_US_美国_201
-      - 🇳🇴_NO_挪威_202
-      - 🇩🇰_DK_丹麦_203
-      - 🇭🇰_HK_香港_204
-      - 🇺🇸_US_美国_205
-      - 🇪🇸_ES_西班牙_206
-      - 🇷🇴_RO_罗马尼亚_207
-      - 🇸🇬_SG_新加坡_208
-      - 🇳🇴_NO_挪威_209
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_210
-      - 🇳🇴_NO_挪威_211
+      - 🇺🇸USYoutube技术分享室整理_1
+      - CYL-科技（2021.12.09）_2
+      - CYL-科技（2021.12.08）_3
+      - 🇭🇰 HKYoutube技术分享室整理_4
+      - 🇺🇸USYoutube技术分享室整理_5
+      - 🇺🇸USYoutube技术分享室整理_6
+      - 加拿大+🇨🇦Youtube技术分享室整理_7
+      - 🇬🇧GBYoutube技术分享室整理_8
+      - CYL-科技（2021.12.08）_9
+      - 🇺🇸USYoutube技术分享室整理_10
+      - CYL-科技（2021.12.09）_11
+      - CYL-科技（2021.12.08）_12
+      - 🇭🇰 HKYoutube技术分享室整理_13
+      - 🇺🇸US-Youtube技术分享室整理_14
+      - 加拿大+🇨🇦Youtube技术分享室整理_15
+      - 🇭🇰 HKYoutube技术分享室整理_16
+      - 🇺🇸USYoutube技术分享室整理_17
+      - 加拿大+🇨🇦Youtube技术分享室整理_18
+      - 美国感谢订阅——科技网络_19
+      - 德国+🇩🇪Youtube技术分享室整理_20
+      - 🇺🇸US-Youtube技术分享室整理_21
+      - 埃及+🇪🇬Youtube技术分享室整理_22
+      - CYL-科技（2021.12.09）_23
+      - CYL-科技（2021.12.09）_24
+      - CYL-科技（2021.12.08）_25
+      - 🇺🇸USYoutube技术分享室整理_26
+      - 日本🇯🇵Youtube技术分享室整理_27
+      - CYL-科技（2021.12.09）_28
+      - CYL-科技（2021.12.09）_29
+      - 日本🇯🇵Youtube技术分享室整理_30
+      - CYL-科技（2021.12.08）_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇺🇸USYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - CYL-科技（2021.12.09）_35
+      - CYL-科技（2021.12.08）_36
+      - 🇺🇸USYoutube技术分享室整理_37
+      - CYL-科技（2021.12.08）_38
+      - 🇺🇸USYoutube技术分享室整理_39
+      - 🇺🇸USYoutube技术分享室整理_40
+      - CYL-科技（2021.12.08）_41
+      - CYL-科技（2021.12.08）_42
+      - 🇭🇰 HKYoutube技术分享室整理_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - 🇫🇷FRYoutube技术分享室整理_45
+      - CYL-科技（2021.12.09）_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 🇺🇸USYoutube技术分享室整理_48
+      - 加拿大 🇨🇦Youtube技术分享室整理_49
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇪🇬_EG_埃及_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇷🇴_RO_罗马尼亚_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇫🇷_FR_法国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇱🇺_LU_卢森堡_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇨🇦_CA_加拿大_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇺🇦_UA_乌克兰_37
-      - 🇺🇸_US_美国_38
-      - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇬🇧_GB_英国_41
-      - 🇨🇦_CA_加拿大_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇨🇦_CA_加拿大_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇦🇹_AT_奥地利_50
-      - 🇨🇦_CA_加拿大_51
-      - 🇨🇦_CA_加拿大_52
-      - default_name_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇯🇵_JP_日本_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇩🇪_DE_德国_57
-      - 🇺🇸_US_美国_58
-      - 🇩🇪_DE_德国_59
-      - 🇪🇸_ES_西班牙_60
-      - 🇨🇦_CA_加拿大_61
-      - 🇩🇪_DE_德国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇩🇪_DE_德国_64
-      - 🇩🇪_DE_德国_65
-      - 🇲🇽_MX_墨西哥_66
-      - 🇩🇪_DE_德国_67
-      - 🇩🇪_DE_德国_68
-      - 🇭🇺_HU_匈牙利_69
-      - 🇸🇪_SE_瑞典_70
-      - 🇰🇷_KR_韩国_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇺🇦_UA_乌克兰_74
-      - 🇪🇸_ES_西班牙_75
-      - 🇬🇧_GB_英国_76
-      - 🇯🇵_JP_日本_77
-      - 🇩🇪_DE_德国_78
-      - 🇩🇪_DE_德国_79
-      - 🇺🇸_US_美国_80
-      - 🇨🇦_CA_加拿大_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇭🇰_HK_香港_84
-      - 🇷🇺_RU_俄罗斯联邦_85
-      - 🇬🇧_GB_英国_86
-      - 🇺🇸_US_美国_87
-      - 🇵🇹_PT_葡萄牙_88
-      - 🇳🇴_NO_挪威_89
-      - 🇺🇸_US_美国_90
-      - 🇩🇪_DE_德国_91
-      - 🇺🇸_US_美国_92
-      - 🇺🇸_US_美国_93
-      - 🇩🇪_DE_德国_94
-      - 🇺🇸_US_美国_95
-      - 🇬🇧_GB_英国_96
-      - 🇩🇪_DE_德国_97
-      - 🇷🇺_RU_俄罗斯联邦_98
-      - 🇫🇷_FR_法国_99
-      - 🇨🇦_CA_加拿大_100
-      - 🇫🇷_FR_法国_101
-      - 🇺🇸_US_美国_102
-      - 🇩🇪_DE_德国_103
-      - 🇫🇷_FR_法国_104
-      - 🇳🇴_NO_挪威_105
-      - 🇦🇺_AU_澳大利亚_106
-      - 🇳🇴_NO_挪威_107
-      - 🇩🇪_DE_德国_108
-      - 🇩🇪_DE_德国_109
-      - 🇩🇪_DE_德国_110
-      - 🇭🇰_HK_香港_111
-      - 🇨🇦_CA_加拿大_112
-      - default_name_113
-      - 🇺🇸_US_美国_114
-      - default_name_115
-      - 🇫🇷_FR_法国_116
-      - 🇪🇸_ES_西班牙_117
-      - 🇭🇰_HK_香港_118
-      - 🇺🇸_US_美国_119
-      - 🇭🇰_HK_香港_120
-      - 🇸🇬_SG_新加坡_121
-      - 🇩🇪_DE_德国_122
-      - 🇫🇷_FR_法国_123
-      - 🇺🇸_US_美国_124
-      - 🇳🇴_NO_挪威_125
-      - 🇺🇸_US_美国_126
-      - 🇵🇭_PH_菲律宾_127
-      - 🇺🇸_US_美国_128
-      - 🇺🇸_US_美国_129
-      - 🇨🇦_CA_加拿大_130
-      - 🇺🇸_US_美国_131
-      - 🇮🇩_ID_印度尼西亚_132
-      - 🇺🇸_US_美国_133
-      - 🇺🇸_US_美国_134
-      - 🇹🇼_TW_台湾_135
-      - 🇩🇪_DE_德国_136
-      - 🇭🇰_HK_香港_137
-      - 🇬🇧_GB_英国_138
-      - 🇧🇻_BV_布维岛_139
-      - 🇩🇪_DE_德国_140
-      - 🇲🇾_MY_马来西亚_141
-      - 🇸🇬_SG_新加坡_142
-      - 🇫🇷_FR_法国_143
-      - 🇭🇰_HK_香港_144
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_145
-      - 🇳🇴_NO_挪威_146
-      - 🇰🇷_KR_韩国_147
-      - 🇭🇰_HK_香港_148
-      - 🇳🇴_NO_挪威_149
-      - 🇸🇬_SG_新加坡_150
-      - 🇨🇦_CA_加拿大_151
-      - 🇺🇸_US_美国_152
-      - 🇩🇪_DE_德国_153
-      - 🇺🇸_US_美国_154
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_155
-      - 🇳🇴_NO_挪威_156
-      - 🇧🇻_BV_布维岛_157
-      - 🇳🇿_NZ_新西兰_158
-      - 🇩🇪_DE_德国_159
-      - 🇳🇴_NO_挪威_160
-      - 🇸🇬_SG_新加坡_161
-      - 🇳🇴_NO_挪威_162
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_163
-      - 🇩🇪_DE_德国_164
-      - 🇺🇸_US_美国_165
-      - 🇩🇪_DE_德国_166
-      - 🇨🇦_CA_加拿大_167
-      - 🇩🇪_DE_德国_168
-      - 🇳🇴_NO_挪威_169
-      - 🇫🇷_FR_法国_170
-      - 🇩🇪_DE_德国_171
-      - 🇸🇬_SG_新加坡_172
-      - 🇩🇪_DE_德国_173
-      - 🇩🇪_DE_德国_174
-      - 🇳🇴_NO_挪威_175
-      - default_name_176
-      - 🇺🇸_US_美国_177
-      - 🇺🇸_US_美国_178
-      - 🇫🇷_FR_法国_179
-      - 🇸🇬_SG_新加坡_180
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_181
-      - 🇸🇬_SG_新加坡_182
-      - 🇳🇬_NG_尼日利亚_183
-      - 🇳🇴_NO_挪威_184
-      - 🇧🇻_BV_布维岛_185
-      - 🇭🇰_HK_香港_186
-      - default_name_187
-      - 🇫🇷_FR_法国_188
-      - 🇳🇴_NO_挪威_189
-      - 🇭🇰_HK_香港_190
-      - 🇺🇸_US_美国_191
-      - 🇩🇪_DE_德国_192
-      - 🇩🇪_DE_德国_193
-      - 🇳🇴_NO_挪威_194
-      - 🇺🇸_US_美国_195
-      - 🇳🇴_NO_挪威_196
-      - 🇧🇷_BR_巴西_197
-      - 🇸🇬_SG_新加坡_198
-      - 🇺🇸_US_美国_199
-      - 🇨🇦_CA_加拿大_200
-      - 🇺🇸_US_美国_201
-      - 🇳🇴_NO_挪威_202
-      - 🇩🇰_DK_丹麦_203
-      - 🇭🇰_HK_香港_204
-      - 🇺🇸_US_美国_205
-      - 🇪🇸_ES_西班牙_206
-      - 🇷🇴_RO_罗马尼亚_207
-      - 🇸🇬_SG_新加坡_208
-      - 🇳🇴_NO_挪威_209
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_210
-      - 🇳🇴_NO_挪威_211
+      - 🇺🇸USYoutube技术分享室整理_1
+      - CYL-科技（2021.12.09）_2
+      - CYL-科技（2021.12.08）_3
+      - 🇭🇰 HKYoutube技术分享室整理_4
+      - 🇺🇸USYoutube技术分享室整理_5
+      - 🇺🇸USYoutube技术分享室整理_6
+      - 加拿大+🇨🇦Youtube技术分享室整理_7
+      - 🇬🇧GBYoutube技术分享室整理_8
+      - CYL-科技（2021.12.08）_9
+      - 🇺🇸USYoutube技术分享室整理_10
+      - CYL-科技（2021.12.09）_11
+      - CYL-科技（2021.12.08）_12
+      - 🇭🇰 HKYoutube技术分享室整理_13
+      - 🇺🇸US-Youtube技术分享室整理_14
+      - 加拿大+🇨🇦Youtube技术分享室整理_15
+      - 🇭🇰 HKYoutube技术分享室整理_16
+      - 🇺🇸USYoutube技术分享室整理_17
+      - 加拿大+🇨🇦Youtube技术分享室整理_18
+      - 美国感谢订阅——科技网络_19
+      - 德国+🇩🇪Youtube技术分享室整理_20
+      - 🇺🇸US-Youtube技术分享室整理_21
+      - 埃及+🇪🇬Youtube技术分享室整理_22
+      - CYL-科技（2021.12.09）_23
+      - CYL-科技（2021.12.09）_24
+      - CYL-科技（2021.12.08）_25
+      - 🇺🇸USYoutube技术分享室整理_26
+      - 日本🇯🇵Youtube技术分享室整理_27
+      - CYL-科技（2021.12.09）_28
+      - CYL-科技（2021.12.09）_29
+      - 日本🇯🇵Youtube技术分享室整理_30
+      - CYL-科技（2021.12.08）_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇺🇸USYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - CYL-科技（2021.12.09）_35
+      - CYL-科技（2021.12.08）_36
+      - 🇺🇸USYoutube技术分享室整理_37
+      - CYL-科技（2021.12.08）_38
+      - 🇺🇸USYoutube技术分享室整理_39
+      - 🇺🇸USYoutube技术分享室整理_40
+      - CYL-科技（2021.12.08）_41
+      - CYL-科技（2021.12.08）_42
+      - 🇭🇰 HKYoutube技术分享室整理_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - 🇫🇷FRYoutube技术分享室整理_45
+      - CYL-科技（2021.12.09）_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 🇺🇸USYoutube技术分享室整理_48
+      - 加拿大 🇨🇦Youtube技术分享室整理_49
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇪🇬_EG_埃及_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇷🇴_RO_罗马尼亚_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇫🇷_FR_法国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇱🇺_LU_卢森堡_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇨🇦_CA_加拿大_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇺🇦_UA_乌克兰_37
-      - 🇺🇸_US_美国_38
-      - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇬🇧_GB_英国_41
-      - 🇨🇦_CA_加拿大_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇨🇦_CA_加拿大_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇦🇹_AT_奥地利_50
-      - 🇨🇦_CA_加拿大_51
-      - 🇨🇦_CA_加拿大_52
-      - default_name_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇯🇵_JP_日本_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇩🇪_DE_德国_57
-      - 🇺🇸_US_美国_58
-      - 🇩🇪_DE_德国_59
-      - 🇪🇸_ES_西班牙_60
-      - 🇨🇦_CA_加拿大_61
-      - 🇩🇪_DE_德国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇩🇪_DE_德国_64
-      - 🇩🇪_DE_德国_65
-      - 🇲🇽_MX_墨西哥_66
-      - 🇩🇪_DE_德国_67
-      - 🇩🇪_DE_德国_68
-      - 🇭🇺_HU_匈牙利_69
-      - 🇸🇪_SE_瑞典_70
-      - 🇰🇷_KR_韩国_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇺🇦_UA_乌克兰_74
-      - 🇪🇸_ES_西班牙_75
-      - 🇬🇧_GB_英国_76
-      - 🇯🇵_JP_日本_77
-      - 🇩🇪_DE_德国_78
-      - 🇩🇪_DE_德国_79
-      - 🇺🇸_US_美国_80
-      - 🇨🇦_CA_加拿大_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇭🇰_HK_香港_84
-      - 🇷🇺_RU_俄罗斯联邦_85
-      - 🇬🇧_GB_英国_86
-      - 🇺🇸_US_美国_87
-      - 🇵🇹_PT_葡萄牙_88
-      - 🇳🇴_NO_挪威_89
-      - 🇺🇸_US_美国_90
-      - 🇩🇪_DE_德国_91
-      - 🇺🇸_US_美国_92
-      - 🇺🇸_US_美国_93
-      - 🇩🇪_DE_德国_94
-      - 🇺🇸_US_美国_95
-      - 🇬🇧_GB_英国_96
-      - 🇩🇪_DE_德国_97
-      - 🇷🇺_RU_俄罗斯联邦_98
-      - 🇫🇷_FR_法国_99
-      - 🇨🇦_CA_加拿大_100
-      - 🇫🇷_FR_法国_101
-      - 🇺🇸_US_美国_102
-      - 🇩🇪_DE_德国_103
-      - 🇫🇷_FR_法国_104
-      - 🇳🇴_NO_挪威_105
-      - 🇦🇺_AU_澳大利亚_106
-      - 🇳🇴_NO_挪威_107
-      - 🇩🇪_DE_德国_108
-      - 🇩🇪_DE_德国_109
-      - 🇩🇪_DE_德国_110
-      - 🇭🇰_HK_香港_111
-      - 🇨🇦_CA_加拿大_112
-      - default_name_113
-      - 🇺🇸_US_美国_114
-      - default_name_115
-      - 🇫🇷_FR_法国_116
-      - 🇪🇸_ES_西班牙_117
-      - 🇭🇰_HK_香港_118
-      - 🇺🇸_US_美国_119
-      - 🇭🇰_HK_香港_120
-      - 🇸🇬_SG_新加坡_121
-      - 🇩🇪_DE_德国_122
-      - 🇫🇷_FR_法国_123
-      - 🇺🇸_US_美国_124
-      - 🇳🇴_NO_挪威_125
-      - 🇺🇸_US_美国_126
-      - 🇵🇭_PH_菲律宾_127
-      - 🇺🇸_US_美国_128
-      - 🇺🇸_US_美国_129
-      - 🇨🇦_CA_加拿大_130
-      - 🇺🇸_US_美国_131
-      - 🇮🇩_ID_印度尼西亚_132
-      - 🇺🇸_US_美国_133
-      - 🇺🇸_US_美国_134
-      - 🇹🇼_TW_台湾_135
-      - 🇩🇪_DE_德国_136
-      - 🇭🇰_HK_香港_137
-      - 🇬🇧_GB_英国_138
-      - 🇧🇻_BV_布维岛_139
-      - 🇩🇪_DE_德国_140
-      - 🇲🇾_MY_马来西亚_141
-      - 🇸🇬_SG_新加坡_142
-      - 🇫🇷_FR_法国_143
-      - 🇭🇰_HK_香港_144
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_145
-      - 🇳🇴_NO_挪威_146
-      - 🇰🇷_KR_韩国_147
-      - 🇭🇰_HK_香港_148
-      - 🇳🇴_NO_挪威_149
-      - 🇸🇬_SG_新加坡_150
-      - 🇨🇦_CA_加拿大_151
-      - 🇺🇸_US_美国_152
-      - 🇩🇪_DE_德国_153
-      - 🇺🇸_US_美国_154
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_155
-      - 🇳🇴_NO_挪威_156
-      - 🇧🇻_BV_布维岛_157
-      - 🇳🇿_NZ_新西兰_158
-      - 🇩🇪_DE_德国_159
-      - 🇳🇴_NO_挪威_160
-      - 🇸🇬_SG_新加坡_161
-      - 🇳🇴_NO_挪威_162
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_163
-      - 🇩🇪_DE_德国_164
-      - 🇺🇸_US_美国_165
-      - 🇩🇪_DE_德国_166
-      - 🇨🇦_CA_加拿大_167
-      - 🇩🇪_DE_德国_168
-      - 🇳🇴_NO_挪威_169
-      - 🇫🇷_FR_法国_170
-      - 🇩🇪_DE_德国_171
-      - 🇸🇬_SG_新加坡_172
-      - 🇩🇪_DE_德国_173
-      - 🇩🇪_DE_德国_174
-      - 🇳🇴_NO_挪威_175
-      - default_name_176
-      - 🇺🇸_US_美国_177
-      - 🇺🇸_US_美国_178
-      - 🇫🇷_FR_法国_179
-      - 🇸🇬_SG_新加坡_180
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_181
-      - 🇸🇬_SG_新加坡_182
-      - 🇳🇬_NG_尼日利亚_183
-      - 🇳🇴_NO_挪威_184
-      - 🇧🇻_BV_布维岛_185
-      - 🇭🇰_HK_香港_186
-      - default_name_187
-      - 🇫🇷_FR_法国_188
-      - 🇳🇴_NO_挪威_189
-      - 🇭🇰_HK_香港_190
-      - 🇺🇸_US_美国_191
-      - 🇩🇪_DE_德国_192
-      - 🇩🇪_DE_德国_193
-      - 🇳🇴_NO_挪威_194
-      - 🇺🇸_US_美国_195
-      - 🇳🇴_NO_挪威_196
-      - 🇧🇷_BR_巴西_197
-      - 🇸🇬_SG_新加坡_198
-      - 🇺🇸_US_美国_199
-      - 🇨🇦_CA_加拿大_200
-      - 🇺🇸_US_美国_201
-      - 🇳🇴_NO_挪威_202
-      - 🇩🇰_DK_丹麦_203
-      - 🇭🇰_HK_香港_204
-      - 🇺🇸_US_美国_205
-      - 🇪🇸_ES_西班牙_206
-      - 🇷🇴_RO_罗马尼亚_207
-      - 🇸🇬_SG_新加坡_208
-      - 🇳🇴_NO_挪威_209
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_210
-      - 🇳🇴_NO_挪威_211
+      - 🇺🇸USYoutube技术分享室整理_1
+      - CYL-科技（2021.12.09）_2
+      - CYL-科技（2021.12.08）_3
+      - 🇭🇰 HKYoutube技术分享室整理_4
+      - 🇺🇸USYoutube技术分享室整理_5
+      - 🇺🇸USYoutube技术分享室整理_6
+      - 加拿大+🇨🇦Youtube技术分享室整理_7
+      - 🇬🇧GBYoutube技术分享室整理_8
+      - CYL-科技（2021.12.08）_9
+      - 🇺🇸USYoutube技术分享室整理_10
+      - CYL-科技（2021.12.09）_11
+      - CYL-科技（2021.12.08）_12
+      - 🇭🇰 HKYoutube技术分享室整理_13
+      - 🇺🇸US-Youtube技术分享室整理_14
+      - 加拿大+🇨🇦Youtube技术分享室整理_15
+      - 🇭🇰 HKYoutube技术分享室整理_16
+      - 🇺🇸USYoutube技术分享室整理_17
+      - 加拿大+🇨🇦Youtube技术分享室整理_18
+      - 美国感谢订阅——科技网络_19
+      - 德国+🇩🇪Youtube技术分享室整理_20
+      - 🇺🇸US-Youtube技术分享室整理_21
+      - 埃及+🇪🇬Youtube技术分享室整理_22
+      - CYL-科技（2021.12.09）_23
+      - CYL-科技（2021.12.09）_24
+      - CYL-科技（2021.12.08）_25
+      - 🇺🇸USYoutube技术分享室整理_26
+      - 日本🇯🇵Youtube技术分享室整理_27
+      - CYL-科技（2021.12.09）_28
+      - CYL-科技（2021.12.09）_29
+      - 日本🇯🇵Youtube技术分享室整理_30
+      - CYL-科技（2021.12.08）_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇺🇸USYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - CYL-科技（2021.12.09）_35
+      - CYL-科技（2021.12.08）_36
+      - 🇺🇸USYoutube技术分享室整理_37
+      - CYL-科技（2021.12.08）_38
+      - 🇺🇸USYoutube技术分享室整理_39
+      - 🇺🇸USYoutube技术分享室整理_40
+      - CYL-科技（2021.12.08）_41
+      - CYL-科技（2021.12.08）_42
+      - 🇭🇰 HKYoutube技术分享室整理_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - 🇫🇷FRYoutube技术分享室整理_45
+      - CYL-科技（2021.12.09）_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 🇺🇸USYoutube技术分享室整理_48
+      - 加拿大 🇨🇦Youtube技术分享室整理_49
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇪🇬_EG_埃及_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇷🇴_RO_罗马尼亚_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇫🇷_FR_法国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇱🇺_LU_卢森堡_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇨🇦_CA_加拿大_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇺🇦_UA_乌克兰_37
-      - 🇺🇸_US_美国_38
-      - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇬🇧_GB_英国_41
-      - 🇨🇦_CA_加拿大_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇨🇦_CA_加拿大_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇦🇹_AT_奥地利_50
-      - 🇨🇦_CA_加拿大_51
-      - 🇨🇦_CA_加拿大_52
-      - default_name_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇯🇵_JP_日本_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇩🇪_DE_德国_57
-      - 🇺🇸_US_美国_58
-      - 🇩🇪_DE_德国_59
-      - 🇪🇸_ES_西班牙_60
-      - 🇨🇦_CA_加拿大_61
-      - 🇩🇪_DE_德国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇩🇪_DE_德国_64
-      - 🇩🇪_DE_德国_65
-      - 🇲🇽_MX_墨西哥_66
-      - 🇩🇪_DE_德国_67
-      - 🇩🇪_DE_德国_68
-      - 🇭🇺_HU_匈牙利_69
-      - 🇸🇪_SE_瑞典_70
-      - 🇰🇷_KR_韩国_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇺🇦_UA_乌克兰_74
-      - 🇪🇸_ES_西班牙_75
-      - 🇬🇧_GB_英国_76
-      - 🇯🇵_JP_日本_77
-      - 🇩🇪_DE_德国_78
-      - 🇩🇪_DE_德国_79
-      - 🇺🇸_US_美国_80
-      - 🇨🇦_CA_加拿大_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇭🇰_HK_香港_84
-      - 🇷🇺_RU_俄罗斯联邦_85
-      - 🇬🇧_GB_英国_86
-      - 🇺🇸_US_美国_87
-      - 🇵🇹_PT_葡萄牙_88
-      - 🇳🇴_NO_挪威_89
-      - 🇺🇸_US_美国_90
-      - 🇩🇪_DE_德国_91
-      - 🇺🇸_US_美国_92
-      - 🇺🇸_US_美国_93
-      - 🇩🇪_DE_德国_94
-      - 🇺🇸_US_美国_95
-      - 🇬🇧_GB_英国_96
-      - 🇩🇪_DE_德国_97
-      - 🇷🇺_RU_俄罗斯联邦_98
-      - 🇫🇷_FR_法国_99
-      - 🇨🇦_CA_加拿大_100
-      - 🇫🇷_FR_法国_101
-      - 🇺🇸_US_美国_102
-      - 🇩🇪_DE_德国_103
-      - 🇫🇷_FR_法国_104
-      - 🇳🇴_NO_挪威_105
-      - 🇦🇺_AU_澳大利亚_106
-      - 🇳🇴_NO_挪威_107
-      - 🇩🇪_DE_德国_108
-      - 🇩🇪_DE_德国_109
-      - 🇩🇪_DE_德国_110
-      - 🇭🇰_HK_香港_111
-      - 🇨🇦_CA_加拿大_112
-      - default_name_113
-      - 🇺🇸_US_美国_114
-      - default_name_115
-      - 🇫🇷_FR_法国_116
-      - 🇪🇸_ES_西班牙_117
-      - 🇭🇰_HK_香港_118
-      - 🇺🇸_US_美国_119
-      - 🇭🇰_HK_香港_120
-      - 🇸🇬_SG_新加坡_121
-      - 🇩🇪_DE_德国_122
-      - 🇫🇷_FR_法国_123
-      - 🇺🇸_US_美国_124
-      - 🇳🇴_NO_挪威_125
-      - 🇺🇸_US_美国_126
-      - 🇵🇭_PH_菲律宾_127
-      - 🇺🇸_US_美国_128
-      - 🇺🇸_US_美国_129
-      - 🇨🇦_CA_加拿大_130
-      - 🇺🇸_US_美国_131
-      - 🇮🇩_ID_印度尼西亚_132
-      - 🇺🇸_US_美国_133
-      - 🇺🇸_US_美国_134
-      - 🇹🇼_TW_台湾_135
-      - 🇩🇪_DE_德国_136
-      - 🇭🇰_HK_香港_137
-      - 🇬🇧_GB_英国_138
-      - 🇧🇻_BV_布维岛_139
-      - 🇩🇪_DE_德国_140
-      - 🇲🇾_MY_马来西亚_141
-      - 🇸🇬_SG_新加坡_142
-      - 🇫🇷_FR_法国_143
-      - 🇭🇰_HK_香港_144
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_145
-      - 🇳🇴_NO_挪威_146
-      - 🇰🇷_KR_韩国_147
-      - 🇭🇰_HK_香港_148
-      - 🇳🇴_NO_挪威_149
-      - 🇸🇬_SG_新加坡_150
-      - 🇨🇦_CA_加拿大_151
-      - 🇺🇸_US_美国_152
-      - 🇩🇪_DE_德国_153
-      - 🇺🇸_US_美国_154
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_155
-      - 🇳🇴_NO_挪威_156
-      - 🇧🇻_BV_布维岛_157
-      - 🇳🇿_NZ_新西兰_158
-      - 🇩🇪_DE_德国_159
-      - 🇳🇴_NO_挪威_160
-      - 🇸🇬_SG_新加坡_161
-      - 🇳🇴_NO_挪威_162
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_163
-      - 🇩🇪_DE_德国_164
-      - 🇺🇸_US_美国_165
-      - 🇩🇪_DE_德国_166
-      - 🇨🇦_CA_加拿大_167
-      - 🇩🇪_DE_德国_168
-      - 🇳🇴_NO_挪威_169
-      - 🇫🇷_FR_法国_170
-      - 🇩🇪_DE_德国_171
-      - 🇸🇬_SG_新加坡_172
-      - 🇩🇪_DE_德国_173
-      - 🇩🇪_DE_德国_174
-      - 🇳🇴_NO_挪威_175
-      - default_name_176
-      - 🇺🇸_US_美国_177
-      - 🇺🇸_US_美国_178
-      - 🇫🇷_FR_法国_179
-      - 🇸🇬_SG_新加坡_180
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_181
-      - 🇸🇬_SG_新加坡_182
-      - 🇳🇬_NG_尼日利亚_183
-      - 🇳🇴_NO_挪威_184
-      - 🇧🇻_BV_布维岛_185
-      - 🇭🇰_HK_香港_186
-      - default_name_187
-      - 🇫🇷_FR_法国_188
-      - 🇳🇴_NO_挪威_189
-      - 🇭🇰_HK_香港_190
-      - 🇺🇸_US_美国_191
-      - 🇩🇪_DE_德国_192
-      - 🇩🇪_DE_德国_193
-      - 🇳🇴_NO_挪威_194
-      - 🇺🇸_US_美国_195
-      - 🇳🇴_NO_挪威_196
-      - 🇧🇷_BR_巴西_197
-      - 🇸🇬_SG_新加坡_198
-      - 🇺🇸_US_美国_199
-      - 🇨🇦_CA_加拿大_200
-      - 🇺🇸_US_美国_201
-      - 🇳🇴_NO_挪威_202
-      - 🇩🇰_DK_丹麦_203
-      - 🇭🇰_HK_香港_204
-      - 🇺🇸_US_美国_205
-      - 🇪🇸_ES_西班牙_206
-      - 🇷🇴_RO_罗马尼亚_207
-      - 🇸🇬_SG_新加坡_208
-      - 🇳🇴_NO_挪威_209
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_210
-      - 🇳🇴_NO_挪威_211
+      - 🇺🇸USYoutube技术分享室整理_1
+      - CYL-科技（2021.12.09）_2
+      - CYL-科技（2021.12.08）_3
+      - 🇭🇰 HKYoutube技术分享室整理_4
+      - 🇺🇸USYoutube技术分享室整理_5
+      - 🇺🇸USYoutube技术分享室整理_6
+      - 加拿大+🇨🇦Youtube技术分享室整理_7
+      - 🇬🇧GBYoutube技术分享室整理_8
+      - CYL-科技（2021.12.08）_9
+      - 🇺🇸USYoutube技术分享室整理_10
+      - CYL-科技（2021.12.09）_11
+      - CYL-科技（2021.12.08）_12
+      - 🇭🇰 HKYoutube技术分享室整理_13
+      - 🇺🇸US-Youtube技术分享室整理_14
+      - 加拿大+🇨🇦Youtube技术分享室整理_15
+      - 🇭🇰 HKYoutube技术分享室整理_16
+      - 🇺🇸USYoutube技术分享室整理_17
+      - 加拿大+🇨🇦Youtube技术分享室整理_18
+      - 美国感谢订阅——科技网络_19
+      - 德国+🇩🇪Youtube技术分享室整理_20
+      - 🇺🇸US-Youtube技术分享室整理_21
+      - 埃及+🇪🇬Youtube技术分享室整理_22
+      - CYL-科技（2021.12.09）_23
+      - CYL-科技（2021.12.09）_24
+      - CYL-科技（2021.12.08）_25
+      - 🇺🇸USYoutube技术分享室整理_26
+      - 日本🇯🇵Youtube技术分享室整理_27
+      - CYL-科技（2021.12.09）_28
+      - CYL-科技（2021.12.09）_29
+      - 日本🇯🇵Youtube技术分享室整理_30
+      - CYL-科技（2021.12.08）_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇺🇸USYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - CYL-科技（2021.12.09）_35
+      - CYL-科技（2021.12.08）_36
+      - 🇺🇸USYoutube技术分享室整理_37
+      - CYL-科技（2021.12.08）_38
+      - 🇺🇸USYoutube技术分享室整理_39
+      - 🇺🇸USYoutube技术分享室整理_40
+      - CYL-科技（2021.12.08）_41
+      - CYL-科技（2021.12.08）_42
+      - 🇭🇰 HKYoutube技术分享室整理_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - 🇫🇷FRYoutube技术分享室整理_45
+      - CYL-科技（2021.12.09）_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 🇺🇸USYoutube技术分享室整理_48
+      - 加拿大 🇨🇦Youtube技术分享室整理_49
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇪🇬_EG_埃及_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇷🇴_RO_罗马尼亚_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇫🇷_FR_法国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇱🇺_LU_卢森堡_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇨🇦_CA_加拿大_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇺🇦_UA_乌克兰_37
-      - 🇺🇸_US_美国_38
-      - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇬🇧_GB_英国_41
-      - 🇨🇦_CA_加拿大_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇨🇦_CA_加拿大_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇦🇹_AT_奥地利_50
-      - 🇨🇦_CA_加拿大_51
-      - 🇨🇦_CA_加拿大_52
-      - default_name_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇯🇵_JP_日本_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇩🇪_DE_德国_57
-      - 🇺🇸_US_美国_58
-      - 🇩🇪_DE_德国_59
-      - 🇪🇸_ES_西班牙_60
-      - 🇨🇦_CA_加拿大_61
-      - 🇩🇪_DE_德国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇩🇪_DE_德国_64
-      - 🇩🇪_DE_德国_65
-      - 🇲🇽_MX_墨西哥_66
-      - 🇩🇪_DE_德国_67
-      - 🇩🇪_DE_德国_68
-      - 🇭🇺_HU_匈牙利_69
-      - 🇸🇪_SE_瑞典_70
-      - 🇰🇷_KR_韩国_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇺🇦_UA_乌克兰_74
-      - 🇪🇸_ES_西班牙_75
-      - 🇬🇧_GB_英国_76
-      - 🇯🇵_JP_日本_77
-      - 🇩🇪_DE_德国_78
-      - 🇩🇪_DE_德国_79
-      - 🇺🇸_US_美国_80
-      - 🇨🇦_CA_加拿大_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇭🇰_HK_香港_84
-      - 🇷🇺_RU_俄罗斯联邦_85
-      - 🇬🇧_GB_英国_86
-      - 🇺🇸_US_美国_87
-      - 🇵🇹_PT_葡萄牙_88
-      - 🇳🇴_NO_挪威_89
-      - 🇺🇸_US_美国_90
-      - 🇩🇪_DE_德国_91
-      - 🇺🇸_US_美国_92
-      - 🇺🇸_US_美国_93
-      - 🇩🇪_DE_德国_94
-      - 🇺🇸_US_美国_95
-      - 🇬🇧_GB_英国_96
-      - 🇩🇪_DE_德国_97
-      - 🇷🇺_RU_俄罗斯联邦_98
-      - 🇫🇷_FR_法国_99
-      - 🇨🇦_CA_加拿大_100
-      - 🇫🇷_FR_法国_101
-      - 🇺🇸_US_美国_102
-      - 🇩🇪_DE_德国_103
-      - 🇫🇷_FR_法国_104
-      - 🇳🇴_NO_挪威_105
-      - 🇦🇺_AU_澳大利亚_106
-      - 🇳🇴_NO_挪威_107
-      - 🇩🇪_DE_德国_108
-      - 🇩🇪_DE_德国_109
-      - 🇩🇪_DE_德国_110
-      - 🇭🇰_HK_香港_111
-      - 🇨🇦_CA_加拿大_112
-      - default_name_113
-      - 🇺🇸_US_美国_114
-      - default_name_115
-      - 🇫🇷_FR_法国_116
-      - 🇪🇸_ES_西班牙_117
-      - 🇭🇰_HK_香港_118
-      - 🇺🇸_US_美国_119
-      - 🇭🇰_HK_香港_120
-      - 🇸🇬_SG_新加坡_121
-      - 🇩🇪_DE_德国_122
-      - 🇫🇷_FR_法国_123
-      - 🇺🇸_US_美国_124
-      - 🇳🇴_NO_挪威_125
-      - 🇺🇸_US_美国_126
-      - 🇵🇭_PH_菲律宾_127
-      - 🇺🇸_US_美国_128
-      - 🇺🇸_US_美国_129
-      - 🇨🇦_CA_加拿大_130
-      - 🇺🇸_US_美国_131
-      - 🇮🇩_ID_印度尼西亚_132
-      - 🇺🇸_US_美国_133
-      - 🇺🇸_US_美国_134
-      - 🇹🇼_TW_台湾_135
-      - 🇩🇪_DE_德国_136
-      - 🇭🇰_HK_香港_137
-      - 🇬🇧_GB_英国_138
-      - 🇧🇻_BV_布维岛_139
-      - 🇩🇪_DE_德国_140
-      - 🇲🇾_MY_马来西亚_141
-      - 🇸🇬_SG_新加坡_142
-      - 🇫🇷_FR_法国_143
-      - 🇭🇰_HK_香港_144
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_145
-      - 🇳🇴_NO_挪威_146
-      - 🇰🇷_KR_韩国_147
-      - 🇭🇰_HK_香港_148
-      - 🇳🇴_NO_挪威_149
-      - 🇸🇬_SG_新加坡_150
-      - 🇨🇦_CA_加拿大_151
-      - 🇺🇸_US_美国_152
-      - 🇩🇪_DE_德国_153
-      - 🇺🇸_US_美国_154
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_155
-      - 🇳🇴_NO_挪威_156
-      - 🇧🇻_BV_布维岛_157
-      - 🇳🇿_NZ_新西兰_158
-      - 🇩🇪_DE_德国_159
-      - 🇳🇴_NO_挪威_160
-      - 🇸🇬_SG_新加坡_161
-      - 🇳🇴_NO_挪威_162
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_163
-      - 🇩🇪_DE_德国_164
-      - 🇺🇸_US_美国_165
-      - 🇩🇪_DE_德国_166
-      - 🇨🇦_CA_加拿大_167
-      - 🇩🇪_DE_德国_168
-      - 🇳🇴_NO_挪威_169
-      - 🇫🇷_FR_法国_170
-      - 🇩🇪_DE_德国_171
-      - 🇸🇬_SG_新加坡_172
-      - 🇩🇪_DE_德国_173
-      - 🇩🇪_DE_德国_174
-      - 🇳🇴_NO_挪威_175
-      - default_name_176
-      - 🇺🇸_US_美国_177
-      - 🇺🇸_US_美国_178
-      - 🇫🇷_FR_法国_179
-      - 🇸🇬_SG_新加坡_180
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_181
-      - 🇸🇬_SG_新加坡_182
-      - 🇳🇬_NG_尼日利亚_183
-      - 🇳🇴_NO_挪威_184
-      - 🇧🇻_BV_布维岛_185
-      - 🇭🇰_HK_香港_186
-      - default_name_187
-      - 🇫🇷_FR_法国_188
-      - 🇳🇴_NO_挪威_189
-      - 🇭🇰_HK_香港_190
-      - 🇺🇸_US_美国_191
-      - 🇩🇪_DE_德国_192
-      - 🇩🇪_DE_德国_193
-      - 🇳🇴_NO_挪威_194
-      - 🇺🇸_US_美国_195
-      - 🇳🇴_NO_挪威_196
-      - 🇧🇷_BR_巴西_197
-      - 🇸🇬_SG_新加坡_198
-      - 🇺🇸_US_美国_199
-      - 🇨🇦_CA_加拿大_200
-      - 🇺🇸_US_美国_201
-      - 🇳🇴_NO_挪威_202
-      - 🇩🇰_DK_丹麦_203
-      - 🇭🇰_HK_香港_204
-      - 🇺🇸_US_美国_205
-      - 🇪🇸_ES_西班牙_206
-      - 🇷🇴_RO_罗马尼亚_207
-      - 🇸🇬_SG_新加坡_208
-      - 🇳🇴_NO_挪威_209
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_210
-      - 🇳🇴_NO_挪威_211
+      - 🇺🇸USYoutube技术分享室整理_1
+      - CYL-科技（2021.12.09）_2
+      - CYL-科技（2021.12.08）_3
+      - 🇭🇰 HKYoutube技术分享室整理_4
+      - 🇺🇸USYoutube技术分享室整理_5
+      - 🇺🇸USYoutube技术分享室整理_6
+      - 加拿大+🇨🇦Youtube技术分享室整理_7
+      - 🇬🇧GBYoutube技术分享室整理_8
+      - CYL-科技（2021.12.08）_9
+      - 🇺🇸USYoutube技术分享室整理_10
+      - CYL-科技（2021.12.09）_11
+      - CYL-科技（2021.12.08）_12
+      - 🇭🇰 HKYoutube技术分享室整理_13
+      - 🇺🇸US-Youtube技术分享室整理_14
+      - 加拿大+🇨🇦Youtube技术分享室整理_15
+      - 🇭🇰 HKYoutube技术分享室整理_16
+      - 🇺🇸USYoutube技术分享室整理_17
+      - 加拿大+🇨🇦Youtube技术分享室整理_18
+      - 美国感谢订阅——科技网络_19
+      - 德国+🇩🇪Youtube技术分享室整理_20
+      - 🇺🇸US-Youtube技术分享室整理_21
+      - 埃及+🇪🇬Youtube技术分享室整理_22
+      - CYL-科技（2021.12.09）_23
+      - CYL-科技（2021.12.09）_24
+      - CYL-科技（2021.12.08）_25
+      - 🇺🇸USYoutube技术分享室整理_26
+      - 日本🇯🇵Youtube技术分享室整理_27
+      - CYL-科技（2021.12.09）_28
+      - CYL-科技（2021.12.09）_29
+      - 日本🇯🇵Youtube技术分享室整理_30
+      - CYL-科技（2021.12.08）_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇺🇸USYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - CYL-科技（2021.12.09）_35
+      - CYL-科技（2021.12.08）_36
+      - 🇺🇸USYoutube技术分享室整理_37
+      - CYL-科技（2021.12.08）_38
+      - 🇺🇸USYoutube技术分享室整理_39
+      - 🇺🇸USYoutube技术分享室整理_40
+      - CYL-科技（2021.12.08）_41
+      - CYL-科技（2021.12.08）_42
+      - 🇭🇰 HKYoutube技术分享室整理_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - 🇫🇷FRYoutube技术分享室整理_45
+      - CYL-科技（2021.12.09）_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 🇺🇸USYoutube技术分享室整理_48
+      - 加拿大 🇨🇦Youtube技术分享室整理_49
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇪🇬_EG_埃及_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇷🇴_RO_罗马尼亚_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇫🇷_FR_法国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇱🇺_LU_卢森堡_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇨🇦_CA_加拿大_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇺🇦_UA_乌克兰_37
-      - 🇺🇸_US_美国_38
-      - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇬🇧_GB_英国_41
-      - 🇨🇦_CA_加拿大_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇨🇦_CA_加拿大_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇦🇹_AT_奥地利_50
-      - 🇨🇦_CA_加拿大_51
-      - 🇨🇦_CA_加拿大_52
-      - default_name_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇯🇵_JP_日本_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇩🇪_DE_德国_57
-      - 🇺🇸_US_美国_58
-      - 🇩🇪_DE_德国_59
-      - 🇪🇸_ES_西班牙_60
-      - 🇨🇦_CA_加拿大_61
-      - 🇩🇪_DE_德国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇩🇪_DE_德国_64
-      - 🇩🇪_DE_德国_65
-      - 🇲🇽_MX_墨西哥_66
-      - 🇩🇪_DE_德国_67
-      - 🇩🇪_DE_德国_68
-      - 🇭🇺_HU_匈牙利_69
-      - 🇸🇪_SE_瑞典_70
-      - 🇰🇷_KR_韩国_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇺🇦_UA_乌克兰_74
-      - 🇪🇸_ES_西班牙_75
-      - 🇬🇧_GB_英国_76
-      - 🇯🇵_JP_日本_77
-      - 🇩🇪_DE_德国_78
-      - 🇩🇪_DE_德国_79
-      - 🇺🇸_US_美国_80
-      - 🇨🇦_CA_加拿大_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇭🇰_HK_香港_84
-      - 🇷🇺_RU_俄罗斯联邦_85
-      - 🇬🇧_GB_英国_86
-      - 🇺🇸_US_美国_87
-      - 🇵🇹_PT_葡萄牙_88
-      - 🇳🇴_NO_挪威_89
-      - 🇺🇸_US_美国_90
-      - 🇩🇪_DE_德国_91
-      - 🇺🇸_US_美国_92
-      - 🇺🇸_US_美国_93
-      - 🇩🇪_DE_德国_94
-      - 🇺🇸_US_美国_95
-      - 🇬🇧_GB_英国_96
-      - 🇩🇪_DE_德国_97
-      - 🇷🇺_RU_俄罗斯联邦_98
-      - 🇫🇷_FR_法国_99
-      - 🇨🇦_CA_加拿大_100
-      - 🇫🇷_FR_法国_101
-      - 🇺🇸_US_美国_102
-      - 🇩🇪_DE_德国_103
-      - 🇫🇷_FR_法国_104
-      - 🇳🇴_NO_挪威_105
-      - 🇦🇺_AU_澳大利亚_106
-      - 🇳🇴_NO_挪威_107
-      - 🇩🇪_DE_德国_108
-      - 🇩🇪_DE_德国_109
-      - 🇩🇪_DE_德国_110
-      - 🇭🇰_HK_香港_111
-      - 🇨🇦_CA_加拿大_112
-      - default_name_113
-      - 🇺🇸_US_美国_114
-      - default_name_115
-      - 🇫🇷_FR_法国_116
-      - 🇪🇸_ES_西班牙_117
-      - 🇭🇰_HK_香港_118
-      - 🇺🇸_US_美国_119
-      - 🇭🇰_HK_香港_120
-      - 🇸🇬_SG_新加坡_121
-      - 🇩🇪_DE_德国_122
-      - 🇫🇷_FR_法国_123
-      - 🇺🇸_US_美国_124
-      - 🇳🇴_NO_挪威_125
-      - 🇺🇸_US_美国_126
-      - 🇵🇭_PH_菲律宾_127
-      - 🇺🇸_US_美国_128
-      - 🇺🇸_US_美国_129
-      - 🇨🇦_CA_加拿大_130
-      - 🇺🇸_US_美国_131
-      - 🇮🇩_ID_印度尼西亚_132
-      - 🇺🇸_US_美国_133
-      - 🇺🇸_US_美国_134
-      - 🇹🇼_TW_台湾_135
-      - 🇩🇪_DE_德国_136
-      - 🇭🇰_HK_香港_137
-      - 🇬🇧_GB_英国_138
-      - 🇧🇻_BV_布维岛_139
-      - 🇩🇪_DE_德国_140
-      - 🇲🇾_MY_马来西亚_141
-      - 🇸🇬_SG_新加坡_142
-      - 🇫🇷_FR_法国_143
-      - 🇭🇰_HK_香港_144
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_145
-      - 🇳🇴_NO_挪威_146
-      - 🇰🇷_KR_韩国_147
-      - 🇭🇰_HK_香港_148
-      - 🇳🇴_NO_挪威_149
-      - 🇸🇬_SG_新加坡_150
-      - 🇨🇦_CA_加拿大_151
-      - 🇺🇸_US_美国_152
-      - 🇩🇪_DE_德国_153
-      - 🇺🇸_US_美国_154
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_155
-      - 🇳🇴_NO_挪威_156
-      - 🇧🇻_BV_布维岛_157
-      - 🇳🇿_NZ_新西兰_158
-      - 🇩🇪_DE_德国_159
-      - 🇳🇴_NO_挪威_160
-      - 🇸🇬_SG_新加坡_161
-      - 🇳🇴_NO_挪威_162
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_163
-      - 🇩🇪_DE_德国_164
-      - 🇺🇸_US_美国_165
-      - 🇩🇪_DE_德国_166
-      - 🇨🇦_CA_加拿大_167
-      - 🇩🇪_DE_德国_168
-      - 🇳🇴_NO_挪威_169
-      - 🇫🇷_FR_法国_170
-      - 🇩🇪_DE_德国_171
-      - 🇸🇬_SG_新加坡_172
-      - 🇩🇪_DE_德国_173
-      - 🇩🇪_DE_德国_174
-      - 🇳🇴_NO_挪威_175
-      - default_name_176
-      - 🇺🇸_US_美国_177
-      - 🇺🇸_US_美国_178
-      - 🇫🇷_FR_法国_179
-      - 🇸🇬_SG_新加坡_180
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_181
-      - 🇸🇬_SG_新加坡_182
-      - 🇳🇬_NG_尼日利亚_183
-      - 🇳🇴_NO_挪威_184
-      - 🇧🇻_BV_布维岛_185
-      - 🇭🇰_HK_香港_186
-      - default_name_187
-      - 🇫🇷_FR_法国_188
-      - 🇳🇴_NO_挪威_189
-      - 🇭🇰_HK_香港_190
-      - 🇺🇸_US_美国_191
-      - 🇩🇪_DE_德国_192
-      - 🇩🇪_DE_德国_193
-      - 🇳🇴_NO_挪威_194
-      - 🇺🇸_US_美国_195
-      - 🇳🇴_NO_挪威_196
-      - 🇧🇷_BR_巴西_197
-      - 🇸🇬_SG_新加坡_198
-      - 🇺🇸_US_美国_199
-      - 🇨🇦_CA_加拿大_200
-      - 🇺🇸_US_美国_201
-      - 🇳🇴_NO_挪威_202
-      - 🇩🇰_DK_丹麦_203
-      - 🇭🇰_HK_香港_204
-      - 🇺🇸_US_美国_205
-      - 🇪🇸_ES_西班牙_206
-      - 🇷🇴_RO_罗马尼亚_207
-      - 🇸🇬_SG_新加坡_208
-      - 🇳🇴_NO_挪威_209
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_210
-      - 🇳🇴_NO_挪威_211
+      - 🇺🇸USYoutube技术分享室整理_1
+      - CYL-科技（2021.12.09）_2
+      - CYL-科技（2021.12.08）_3
+      - 🇭🇰 HKYoutube技术分享室整理_4
+      - 🇺🇸USYoutube技术分享室整理_5
+      - 🇺🇸USYoutube技术分享室整理_6
+      - 加拿大+🇨🇦Youtube技术分享室整理_7
+      - 🇬🇧GBYoutube技术分享室整理_8
+      - CYL-科技（2021.12.08）_9
+      - 🇺🇸USYoutube技术分享室整理_10
+      - CYL-科技（2021.12.09）_11
+      - CYL-科技（2021.12.08）_12
+      - 🇭🇰 HKYoutube技术分享室整理_13
+      - 🇺🇸US-Youtube技术分享室整理_14
+      - 加拿大+🇨🇦Youtube技术分享室整理_15
+      - 🇭🇰 HKYoutube技术分享室整理_16
+      - 🇺🇸USYoutube技术分享室整理_17
+      - 加拿大+🇨🇦Youtube技术分享室整理_18
+      - 美国感谢订阅——科技网络_19
+      - 德国+🇩🇪Youtube技术分享室整理_20
+      - 🇺🇸US-Youtube技术分享室整理_21
+      - 埃及+🇪🇬Youtube技术分享室整理_22
+      - CYL-科技（2021.12.09）_23
+      - CYL-科技（2021.12.09）_24
+      - CYL-科技（2021.12.08）_25
+      - 🇺🇸USYoutube技术分享室整理_26
+      - 日本🇯🇵Youtube技术分享室整理_27
+      - CYL-科技（2021.12.09）_28
+      - CYL-科技（2021.12.09）_29
+      - 日本🇯🇵Youtube技术分享室整理_30
+      - CYL-科技（2021.12.08）_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇺🇸USYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - CYL-科技（2021.12.09）_35
+      - CYL-科技（2021.12.08）_36
+      - 🇺🇸USYoutube技术分享室整理_37
+      - CYL-科技（2021.12.08）_38
+      - 🇺🇸USYoutube技术分享室整理_39
+      - 🇺🇸USYoutube技术分享室整理_40
+      - CYL-科技（2021.12.08）_41
+      - CYL-科技（2021.12.08）_42
+      - 🇭🇰 HKYoutube技术分享室整理_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - 🇫🇷FRYoutube技术分享室整理_45
+      - CYL-科技（2021.12.09）_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 🇺🇸USYoutube技术分享室整理_48
+      - 加拿大 🇨🇦Youtube技术分享室整理_49
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1746,217 +450,55 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇪🇬_EG_埃及_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇷🇴_RO_罗马尼亚_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇫🇷_FR_法国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇱🇺_LU_卢森堡_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇨🇦_CA_加拿大_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇺🇦_UA_乌克兰_37
-      - 🇺🇸_US_美国_38
-      - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇬🇧_GB_英国_41
-      - 🇨🇦_CA_加拿大_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇨🇦_CA_加拿大_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇦🇹_AT_奥地利_50
-      - 🇨🇦_CA_加拿大_51
-      - 🇨🇦_CA_加拿大_52
-      - default_name_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇯🇵_JP_日本_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇩🇪_DE_德国_57
-      - 🇺🇸_US_美国_58
-      - 🇩🇪_DE_德国_59
-      - 🇪🇸_ES_西班牙_60
-      - 🇨🇦_CA_加拿大_61
-      - 🇩🇪_DE_德国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇩🇪_DE_德国_64
-      - 🇩🇪_DE_德国_65
-      - 🇲🇽_MX_墨西哥_66
-      - 🇩🇪_DE_德国_67
-      - 🇩🇪_DE_德国_68
-      - 🇭🇺_HU_匈牙利_69
-      - 🇸🇪_SE_瑞典_70
-      - 🇰🇷_KR_韩国_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇺🇦_UA_乌克兰_74
-      - 🇪🇸_ES_西班牙_75
-      - 🇬🇧_GB_英国_76
-      - 🇯🇵_JP_日本_77
-      - 🇩🇪_DE_德国_78
-      - 🇩🇪_DE_德国_79
-      - 🇺🇸_US_美国_80
-      - 🇨🇦_CA_加拿大_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇭🇰_HK_香港_84
-      - 🇷🇺_RU_俄罗斯联邦_85
-      - 🇬🇧_GB_英国_86
-      - 🇺🇸_US_美国_87
-      - 🇵🇹_PT_葡萄牙_88
-      - 🇳🇴_NO_挪威_89
-      - 🇺🇸_US_美国_90
-      - 🇩🇪_DE_德国_91
-      - 🇺🇸_US_美国_92
-      - 🇺🇸_US_美国_93
-      - 🇩🇪_DE_德国_94
-      - 🇺🇸_US_美国_95
-      - 🇬🇧_GB_英国_96
-      - 🇩🇪_DE_德国_97
-      - 🇷🇺_RU_俄罗斯联邦_98
-      - 🇫🇷_FR_法国_99
-      - 🇨🇦_CA_加拿大_100
-      - 🇫🇷_FR_法国_101
-      - 🇺🇸_US_美国_102
-      - 🇩🇪_DE_德国_103
-      - 🇫🇷_FR_法国_104
-      - 🇳🇴_NO_挪威_105
-      - 🇦🇺_AU_澳大利亚_106
-      - 🇳🇴_NO_挪威_107
-      - 🇩🇪_DE_德国_108
-      - 🇩🇪_DE_德国_109
-      - 🇩🇪_DE_德国_110
-      - 🇭🇰_HK_香港_111
-      - 🇨🇦_CA_加拿大_112
-      - default_name_113
-      - 🇺🇸_US_美国_114
-      - default_name_115
-      - 🇫🇷_FR_法国_116
-      - 🇪🇸_ES_西班牙_117
-      - 🇭🇰_HK_香港_118
-      - 🇺🇸_US_美国_119
-      - 🇭🇰_HK_香港_120
-      - 🇸🇬_SG_新加坡_121
-      - 🇩🇪_DE_德国_122
-      - 🇫🇷_FR_法国_123
-      - 🇺🇸_US_美国_124
-      - 🇳🇴_NO_挪威_125
-      - 🇺🇸_US_美国_126
-      - 🇵🇭_PH_菲律宾_127
-      - 🇺🇸_US_美国_128
-      - 🇺🇸_US_美国_129
-      - 🇨🇦_CA_加拿大_130
-      - 🇺🇸_US_美国_131
-      - 🇮🇩_ID_印度尼西亚_132
-      - 🇺🇸_US_美国_133
-      - 🇺🇸_US_美国_134
-      - 🇹🇼_TW_台湾_135
-      - 🇩🇪_DE_德国_136
-      - 🇭🇰_HK_香港_137
-      - 🇬🇧_GB_英国_138
-      - 🇧🇻_BV_布维岛_139
-      - 🇩🇪_DE_德国_140
-      - 🇲🇾_MY_马来西亚_141
-      - 🇸🇬_SG_新加坡_142
-      - 🇫🇷_FR_法国_143
-      - 🇭🇰_HK_香港_144
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_145
-      - 🇳🇴_NO_挪威_146
-      - 🇰🇷_KR_韩国_147
-      - 🇭🇰_HK_香港_148
-      - 🇳🇴_NO_挪威_149
-      - 🇸🇬_SG_新加坡_150
-      - 🇨🇦_CA_加拿大_151
-      - 🇺🇸_US_美国_152
-      - 🇩🇪_DE_德国_153
-      - 🇺🇸_US_美国_154
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_155
-      - 🇳🇴_NO_挪威_156
-      - 🇧🇻_BV_布维岛_157
-      - 🇳🇿_NZ_新西兰_158
-      - 🇩🇪_DE_德国_159
-      - 🇳🇴_NO_挪威_160
-      - 🇸🇬_SG_新加坡_161
-      - 🇳🇴_NO_挪威_162
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_163
-      - 🇩🇪_DE_德国_164
-      - 🇺🇸_US_美国_165
-      - 🇩🇪_DE_德国_166
-      - 🇨🇦_CA_加拿大_167
-      - 🇩🇪_DE_德国_168
-      - 🇳🇴_NO_挪威_169
-      - 🇫🇷_FR_法国_170
-      - 🇩🇪_DE_德国_171
-      - 🇸🇬_SG_新加坡_172
-      - 🇩🇪_DE_德国_173
-      - 🇩🇪_DE_德国_174
-      - 🇳🇴_NO_挪威_175
-      - default_name_176
-      - 🇺🇸_US_美国_177
-      - 🇺🇸_US_美国_178
-      - 🇫🇷_FR_法国_179
-      - 🇸🇬_SG_新加坡_180
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_181
-      - 🇸🇬_SG_新加坡_182
-      - 🇳🇬_NG_尼日利亚_183
-      - 🇳🇴_NO_挪威_184
-      - 🇧🇻_BV_布维岛_185
-      - 🇭🇰_HK_香港_186
-      - default_name_187
-      - 🇫🇷_FR_法国_188
-      - 🇳🇴_NO_挪威_189
-      - 🇭🇰_HK_香港_190
-      - 🇺🇸_US_美国_191
-      - 🇩🇪_DE_德国_192
-      - 🇩🇪_DE_德国_193
-      - 🇳🇴_NO_挪威_194
-      - 🇺🇸_US_美国_195
-      - 🇳🇴_NO_挪威_196
-      - 🇧🇷_BR_巴西_197
-      - 🇸🇬_SG_新加坡_198
-      - 🇺🇸_US_美国_199
-      - 🇨🇦_CA_加拿大_200
-      - 🇺🇸_US_美国_201
-      - 🇳🇴_NO_挪威_202
-      - 🇩🇰_DK_丹麦_203
-      - 🇭🇰_HK_香港_204
-      - 🇺🇸_US_美国_205
-      - 🇪🇸_ES_西班牙_206
-      - 🇷🇴_RO_罗马尼亚_207
-      - 🇸🇬_SG_新加坡_208
-      - 🇳🇴_NO_挪威_209
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_210
-      - 🇳🇴_NO_挪威_211
+      - 🇺🇸USYoutube技术分享室整理_1
+      - CYL-科技（2021.12.09）_2
+      - CYL-科技（2021.12.08）_3
+      - 🇭🇰 HKYoutube技术分享室整理_4
+      - 🇺🇸USYoutube技术分享室整理_5
+      - 🇺🇸USYoutube技术分享室整理_6
+      - 加拿大+🇨🇦Youtube技术分享室整理_7
+      - 🇬🇧GBYoutube技术分享室整理_8
+      - CYL-科技（2021.12.08）_9
+      - 🇺🇸USYoutube技术分享室整理_10
+      - CYL-科技（2021.12.09）_11
+      - CYL-科技（2021.12.08）_12
+      - 🇭🇰 HKYoutube技术分享室整理_13
+      - 🇺🇸US-Youtube技术分享室整理_14
+      - 加拿大+🇨🇦Youtube技术分享室整理_15
+      - 🇭🇰 HKYoutube技术分享室整理_16
+      - 🇺🇸USYoutube技术分享室整理_17
+      - 加拿大+🇨🇦Youtube技术分享室整理_18
+      - 美国感谢订阅——科技网络_19
+      - 德国+🇩🇪Youtube技术分享室整理_20
+      - 🇺🇸US-Youtube技术分享室整理_21
+      - 埃及+🇪🇬Youtube技术分享室整理_22
+      - CYL-科技（2021.12.09）_23
+      - CYL-科技（2021.12.09）_24
+      - CYL-科技（2021.12.08）_25
+      - 🇺🇸USYoutube技术分享室整理_26
+      - 日本🇯🇵Youtube技术分享室整理_27
+      - CYL-科技（2021.12.09）_28
+      - CYL-科技（2021.12.09）_29
+      - 日本🇯🇵Youtube技术分享室整理_30
+      - CYL-科技（2021.12.08）_31
+      - 🇺🇸USYoutube技术分享室整理_32
+      - 🇺🇸USYoutube技术分享室整理_33
+      - 🇺🇸USYoutube技术分享室整理_34
+      - CYL-科技（2021.12.09）_35
+      - CYL-科技（2021.12.08）_36
+      - 🇺🇸USYoutube技术分享室整理_37
+      - CYL-科技（2021.12.08）_38
+      - 🇺🇸USYoutube技术分享室整理_39
+      - 🇺🇸USYoutube技术分享室整理_40
+      - CYL-科技（2021.12.08）_41
+      - CYL-科技（2021.12.08）_42
+      - 🇭🇰 HKYoutube技术分享室整理_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - 🇫🇷FRYoutube技术分享室整理_45
+      - CYL-科技（2021.12.09）_46
+      - 🇺🇸USYoutube技术分享室整理_47
+      - 🇺🇸USYoutube技术分享室整理_48
+      - 加拿大 🇨🇦Youtube技术分享室整理_49
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
