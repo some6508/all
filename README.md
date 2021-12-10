@@ -15,6 +15,7 @@
 |1.V2ray|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/v)|[raw](https://raw.githubusercontent.com/some6508/all/master/v)|[purge](https://purge.jsdelivr.net/gh/some6508/all@master/v)|
 |2.V2ray|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/v2)|[raw](https://raw.githubusercontent.com/some6508/all/master/v2)|[purge](https://purge.jsdelivr.net/gh/some6508/all@master/v2)|
 |3.V2ray|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/v3)|[raw](https://raw.githubusercontent.com/some6508/all/master/v3)|[purge](https://purge.jsdelivr.net/gh/some6508/all@master/v3)|
+|4.V2ray|[cdn](https://cdn.jsdelivr.net/gh/some6508/all@master/v4)|[raw](https://raw.githubusercontent.com/some6508/all/master/v4)|[purge](https://purge.jsdelivr.net/gh/some6508/all@master/v4)|
 
 ### 在线订阅转换
 |订阅转换|
