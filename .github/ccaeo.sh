@@ -14,6 +14,7 @@ eval "`curl -sL 'https://api.github.com/repos/pojiezhiyuanjun/freev2/commits' | 
 eval "`curl -sL "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://github.com/pojiezhiyuanjun/freev2/raw/master/|p' | sed 's|</a>|"|g'`"
 case "$href" in
 *.yml) curl -sLo $home/c2 "$href";;
+*.txt) curl -sLo $home/v4 "$href";;
 *.zip) curl -sLo $home/2.zip "$href"
 unzip -p $home/2.zip '*txt' >$home/v4
 unzip -p $home/2.zip '*.yml' >$home/c2
