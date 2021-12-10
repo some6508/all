@@ -5,124 +5,308 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇭🇰_HK_香港_1', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇨🇳_CN_中国->🇹🇼_TW_台湾_2', server: aaa-666.txwd.xyz, port: 60005, type: ss, cipher: chacha20-ietf-poly1305, password: qiH3cBOhlcUIm017}
-  - {name: '🇺🇸_US_美国_3', server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_4', server: 38.114.114.69, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_5', server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_美国_6', server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇪🇬_EG_埃及_7', server: 188.214.122.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
-  - {name: '🇺🇸_US_美国_8', server: 38.68.135.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_美国_9', server: 38.114.114.69, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_10', server: 38.75.136.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Relay_🇫🇷FR-🇫🇷FR_342', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦CA_192', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Relay_🇫🇷FR-🇫🇷FR_56_18.08Mb', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA加拿大_4', server: 134.195.196.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA加拿大_5', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Relay_🇫🇷FR-🇫🇷FR_66_64.26Mb', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦_CA加拿大_7', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA加拿大_8', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇳🇴NO_634', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇳🇴_NO挪威_10', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦CA_157', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇧🇷_BR巴西_12', server: 177.54.150.39, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇳🇴NO_630', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇳🇴NO_636', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA加拿大_15', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇹🇼_TW台湾_16', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: '🇨🇦_CA加拿大_17', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Relay_🇫🇷FR-🇫🇷FR_62_22.78Mb', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Relay_🇫🇷FR-🇫🇷FR_63_71.18Mb', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇳🇴NO_631', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇳🇴NO_632', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇳🇴NO_541_17.71Mb', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Relay_🇫🇷FR-🇫🇷FR_343', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US美国_24', server: 167.88.63.89, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇳🇴NO_628', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA加拿大_26', server: 134.195.196.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA加拿大_27', server: 134.195.196.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA加拿大_28', server: 134.195.196.184, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA加拿大_29', server: 134.195.196.184, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Relay_🇫🇷FR-🇫🇷FR_65_76.30Mb', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA加拿大_31', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇩🇪DE_288', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Pool_🇭🇰HK_430', server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇪🇬_EG_埃及_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
+      - Relay_🇫🇷FR-🇫🇷FR_342
+      - 🇨🇦CA_192
+      - Relay_🇫🇷FR-🇫🇷FR_56_18.08Mb
+      - 🇨🇦_CA加拿大_4
+      - 🇨🇦_CA加拿大_5
+      - Relay_🇫🇷FR-🇫🇷FR_66_64.26Mb
+      - 🇨🇦_CA加拿大_7
+      - 🇨🇦_CA加拿大_8
+      - 🇳🇴NO_634
+      - 🇳🇴_NO挪威_10
+      - 🇨🇦CA_157
+      - 🇧🇷_BR巴西_12
+      - 🇳🇴NO_630
+      - 🇳🇴NO_636
+      - 🇨🇦_CA加拿大_15
+      - 🇹🇼_TW台湾_16
+      - 🇨🇦_CA加拿大_17
+      - Relay_🇫🇷FR-🇫🇷FR_62_22.78Mb
+      - Relay_🇫🇷FR-🇫🇷FR_63_71.18Mb
+      - 🇳🇴NO_631
+      - 🇳🇴NO_632
+      - 🇳🇴NO_541_17.71Mb
+      - Relay_🇫🇷FR-🇫🇷FR_343
+      - 🇺🇸_US美国_24
+      - 🇳🇴NO_628
+      - 🇨🇦_CA加拿大_26
+      - 🇨🇦_CA加拿大_27
+      - 🇨🇦_CA加拿大_28
+      - 🇨🇦_CA加拿大_29
+      - Relay_🇫🇷FR-🇫🇷FR_65_76.30Mb
+      - 🇨🇦_CA加拿大_31
+      - 🇩🇪DE_288
+      - Pool_🇭🇰HK_430
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇪🇬_EG_埃及_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
+      - Relay_🇫🇷FR-🇫🇷FR_342
+      - 🇨🇦CA_192
+      - Relay_🇫🇷FR-🇫🇷FR_56_18.08Mb
+      - 🇨🇦_CA加拿大_4
+      - 🇨🇦_CA加拿大_5
+      - Relay_🇫🇷FR-🇫🇷FR_66_64.26Mb
+      - 🇨🇦_CA加拿大_7
+      - 🇨🇦_CA加拿大_8
+      - 🇳🇴NO_634
+      - 🇳🇴_NO挪威_10
+      - 🇨🇦CA_157
+      - 🇧🇷_BR巴西_12
+      - 🇳🇴NO_630
+      - 🇳🇴NO_636
+      - 🇨🇦_CA加拿大_15
+      - 🇹🇼_TW台湾_16
+      - 🇨🇦_CA加拿大_17
+      - Relay_🇫🇷FR-🇫🇷FR_62_22.78Mb
+      - Relay_🇫🇷FR-🇫🇷FR_63_71.18Mb
+      - 🇳🇴NO_631
+      - 🇳🇴NO_632
+      - 🇳🇴NO_541_17.71Mb
+      - Relay_🇫🇷FR-🇫🇷FR_343
+      - 🇺🇸_US美国_24
+      - 🇳🇴NO_628
+      - 🇨🇦_CA加拿大_26
+      - 🇨🇦_CA加拿大_27
+      - 🇨🇦_CA加拿大_28
+      - 🇨🇦_CA加拿大_29
+      - Relay_🇫🇷FR-🇫🇷FR_65_76.30Mb
+      - 🇨🇦_CA加拿大_31
+      - 🇩🇪DE_288
+      - Pool_🇭🇰HK_430
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇪🇬_EG_埃及_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
+      - Relay_🇫🇷FR-🇫🇷FR_342
+      - 🇨🇦CA_192
+      - Relay_🇫🇷FR-🇫🇷FR_56_18.08Mb
+      - 🇨🇦_CA加拿大_4
+      - 🇨🇦_CA加拿大_5
+      - Relay_🇫🇷FR-🇫🇷FR_66_64.26Mb
+      - 🇨🇦_CA加拿大_7
+      - 🇨🇦_CA加拿大_8
+      - 🇳🇴NO_634
+      - 🇳🇴_NO挪威_10
+      - 🇨🇦CA_157
+      - 🇧🇷_BR巴西_12
+      - 🇳🇴NO_630
+      - 🇳🇴NO_636
+      - 🇨🇦_CA加拿大_15
+      - 🇹🇼_TW台湾_16
+      - 🇨🇦_CA加拿大_17
+      - Relay_🇫🇷FR-🇫🇷FR_62_22.78Mb
+      - Relay_🇫🇷FR-🇫🇷FR_63_71.18Mb
+      - 🇳🇴NO_631
+      - 🇳🇴NO_632
+      - 🇳🇴NO_541_17.71Mb
+      - Relay_🇫🇷FR-🇫🇷FR_343
+      - 🇺🇸_US美国_24
+      - 🇳🇴NO_628
+      - 🇨🇦_CA加拿大_26
+      - 🇨🇦_CA加拿大_27
+      - 🇨🇦_CA加拿大_28
+      - 🇨🇦_CA加拿大_29
+      - Relay_🇫🇷FR-🇫🇷FR_65_76.30Mb
+      - 🇨🇦_CA加拿大_31
+      - 🇩🇪DE_288
+      - Pool_🇭🇰HK_430
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇪🇬_EG_埃及_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
+      - Relay_🇫🇷FR-🇫🇷FR_342
+      - 🇨🇦CA_192
+      - Relay_🇫🇷FR-🇫🇷FR_56_18.08Mb
+      - 🇨🇦_CA加拿大_4
+      - 🇨🇦_CA加拿大_5
+      - Relay_🇫🇷FR-🇫🇷FR_66_64.26Mb
+      - 🇨🇦_CA加拿大_7
+      - 🇨🇦_CA加拿大_8
+      - 🇳🇴NO_634
+      - 🇳🇴_NO挪威_10
+      - 🇨🇦CA_157
+      - 🇧🇷_BR巴西_12
+      - 🇳🇴NO_630
+      - 🇳🇴NO_636
+      - 🇨🇦_CA加拿大_15
+      - 🇹🇼_TW台湾_16
+      - 🇨🇦_CA加拿大_17
+      - Relay_🇫🇷FR-🇫🇷FR_62_22.78Mb
+      - Relay_🇫🇷FR-🇫🇷FR_63_71.18Mb
+      - 🇳🇴NO_631
+      - 🇳🇴NO_632
+      - 🇳🇴NO_541_17.71Mb
+      - Relay_🇫🇷FR-🇫🇷FR_343
+      - 🇺🇸_US美国_24
+      - 🇳🇴NO_628
+      - 🇨🇦_CA加拿大_26
+      - 🇨🇦_CA加拿大_27
+      - 🇨🇦_CA加拿大_28
+      - 🇨🇦_CA加拿大_29
+      - Relay_🇫🇷FR-🇫🇷FR_65_76.30Mb
+      - 🇨🇦_CA加拿大_31
+      - 🇩🇪DE_288
+      - Pool_🇭🇰HK_430
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇪🇬_EG_埃及_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
+      - Relay_🇫🇷FR-🇫🇷FR_342
+      - 🇨🇦CA_192
+      - Relay_🇫🇷FR-🇫🇷FR_56_18.08Mb
+      - 🇨🇦_CA加拿大_4
+      - 🇨🇦_CA加拿大_5
+      - Relay_🇫🇷FR-🇫🇷FR_66_64.26Mb
+      - 🇨🇦_CA加拿大_7
+      - 🇨🇦_CA加拿大_8
+      - 🇳🇴NO_634
+      - 🇳🇴_NO挪威_10
+      - 🇨🇦CA_157
+      - 🇧🇷_BR巴西_12
+      - 🇳🇴NO_630
+      - 🇳🇴NO_636
+      - 🇨🇦_CA加拿大_15
+      - 🇹🇼_TW台湾_16
+      - 🇨🇦_CA加拿大_17
+      - Relay_🇫🇷FR-🇫🇷FR_62_22.78Mb
+      - Relay_🇫🇷FR-🇫🇷FR_63_71.18Mb
+      - 🇳🇴NO_631
+      - 🇳🇴NO_632
+      - 🇳🇴NO_541_17.71Mb
+      - Relay_🇫🇷FR-🇫🇷FR_343
+      - 🇺🇸_US美国_24
+      - 🇳🇴NO_628
+      - 🇨🇦_CA加拿大_26
+      - 🇨🇦_CA加拿大_27
+      - 🇨🇦_CA加拿大_28
+      - 🇨🇦_CA加拿大_29
+      - Relay_🇫🇷FR-🇫🇷FR_65_76.30Mb
+      - 🇨🇦_CA加拿大_31
+      - 🇩🇪DE_288
+      - Pool_🇭🇰HK_430
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇪🇬_EG_埃及_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
+      - Relay_🇫🇷FR-🇫🇷FR_342
+      - 🇨🇦CA_192
+      - Relay_🇫🇷FR-🇫🇷FR_56_18.08Mb
+      - 🇨🇦_CA加拿大_4
+      - 🇨🇦_CA加拿大_5
+      - Relay_🇫🇷FR-🇫🇷FR_66_64.26Mb
+      - 🇨🇦_CA加拿大_7
+      - 🇨🇦_CA加拿大_8
+      - 🇳🇴NO_634
+      - 🇳🇴_NO挪威_10
+      - 🇨🇦CA_157
+      - 🇧🇷_BR巴西_12
+      - 🇳🇴NO_630
+      - 🇳🇴NO_636
+      - 🇨🇦_CA加拿大_15
+      - 🇹🇼_TW台湾_16
+      - 🇨🇦_CA加拿大_17
+      - Relay_🇫🇷FR-🇫🇷FR_62_22.78Mb
+      - Relay_🇫🇷FR-🇫🇷FR_63_71.18Mb
+      - 🇳🇴NO_631
+      - 🇳🇴NO_632
+      - 🇳🇴NO_541_17.71Mb
+      - Relay_🇫🇷FR-🇫🇷FR_343
+      - 🇺🇸_US美国_24
+      - 🇳🇴NO_628
+      - 🇨🇦_CA加拿大_26
+      - 🇨🇦_CA加拿大_27
+      - 🇨🇦_CA加拿大_28
+      - 🇨🇦_CA加拿大_29
+      - Relay_🇫🇷FR-🇫🇷FR_65_76.30Mb
+      - 🇨🇦_CA加拿大_31
+      - 🇩🇪DE_288
+      - Pool_🇭🇰HK_430
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇪🇬_EG_埃及_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
+      - Relay_🇫🇷FR-🇫🇷FR_342
+      - 🇨🇦CA_192
+      - Relay_🇫🇷FR-🇫🇷FR_56_18.08Mb
+      - 🇨🇦_CA加拿大_4
+      - 🇨🇦_CA加拿大_5
+      - Relay_🇫🇷FR-🇫🇷FR_66_64.26Mb
+      - 🇨🇦_CA加拿大_7
+      - 🇨🇦_CA加拿大_8
+      - 🇳🇴NO_634
+      - 🇳🇴_NO挪威_10
+      - 🇨🇦CA_157
+      - 🇧🇷_BR巴西_12
+      - 🇳🇴NO_630
+      - 🇳🇴NO_636
+      - 🇨🇦_CA加拿大_15
+      - 🇹🇼_TW台湾_16
+      - 🇨🇦_CA加拿大_17
+      - Relay_🇫🇷FR-🇫🇷FR_62_22.78Mb
+      - Relay_🇫🇷FR-🇫🇷FR_63_71.18Mb
+      - 🇳🇴NO_631
+      - 🇳🇴NO_632
+      - 🇳🇴NO_541_17.71Mb
+      - Relay_🇫🇷FR-🇫🇷FR_343
+      - 🇺🇸_US美国_24
+      - 🇳🇴NO_628
+      - 🇨🇦_CA加拿大_26
+      - 🇨🇦_CA加拿大_27
+      - 🇨🇦_CA加拿大_28
+      - 🇨🇦_CA加拿大_29
+      - Relay_🇫🇷FR-🇫🇷FR_65_76.30Mb
+      - 🇨🇦_CA加拿大_31
+      - 🇩🇪DE_288
+      - Pool_🇭🇰HK_430
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +322,39 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇪🇬_EG_埃及_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
+      - Relay_🇫🇷FR-🇫🇷FR_342
+      - 🇨🇦CA_192
+      - Relay_🇫🇷FR-🇫🇷FR_56_18.08Mb
+      - 🇨🇦_CA加拿大_4
+      - 🇨🇦_CA加拿大_5
+      - Relay_🇫🇷FR-🇫🇷FR_66_64.26Mb
+      - 🇨🇦_CA加拿大_7
+      - 🇨🇦_CA加拿大_8
+      - 🇳🇴NO_634
+      - 🇳🇴_NO挪威_10
+      - 🇨🇦CA_157
+      - 🇧🇷_BR巴西_12
+      - 🇳🇴NO_630
+      - 🇳🇴NO_636
+      - 🇨🇦_CA加拿大_15
+      - 🇹🇼_TW台湾_16
+      - 🇨🇦_CA加拿大_17
+      - Relay_🇫🇷FR-🇫🇷FR_62_22.78Mb
+      - Relay_🇫🇷FR-🇫🇷FR_63_71.18Mb
+      - 🇳🇴NO_631
+      - 🇳🇴NO_632
+      - 🇳🇴NO_541_17.71Mb
+      - Relay_🇫🇷FR-🇫🇷FR_343
+      - 🇺🇸_US美国_24
+      - 🇳🇴NO_628
+      - 🇨🇦_CA加拿大_26
+      - 🇨🇦_CA加拿大_27
+      - 🇨🇦_CA加拿大_28
+      - 🇨🇦_CA加拿大_29
+      - Relay_🇫🇷FR-🇫🇷FR_65_76.30Mb
+      - 🇨🇦_CA加拿大_31
+      - 🇩🇪DE_288
+      - Pool_🇭🇰HK_430
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
