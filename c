@@ -5,212 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1', server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: '【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2', server: ngzyd-1.okex-tradebot.xyz, port: 30014, type: vmess, uuid: a9164688-19ad-4e8c-b658-924919fff370, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3', server: 183.232.157.72, port: 10001, type: vmess, uuid: 4e873e7e-dc0f-4a3b-b8cd-405fc4db1eb5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4', server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-headers: {Host: 139.227.161.129}}
-  - {name: '【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5', server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, network: ws}
-  - {name: '【小汐搬运05】13W+用户覆盖，节点名称广告转化_6', server: free-russian02-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
-  - {name: '【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7', server: 20.205.35.3, port: 10313, type: vmess, uuid: cff2a52c-1b98-31a0-b508-9255882c45ec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-sg-01.niaoyun.online}}
-  - {name: '【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8', server: 183.232.157.72, port: 10002, type: vmess, uuid: 4e873e7e-dc0f-4a3b-b8cd-405fc4db1eb5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9', server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10', server: 185.126.116.235, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674}
-  - {name: '【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11', server: 20.205.35.3, port: 10313, type: vmess, uuid: cff2a52c-1b98-31a0-b508-9255882c45ec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-sg-01.niaoyun.online}}
-  - {name: '【小汐搬运11】13W+用户覆盖，节点名称广告转化_12', server: niaocloud.niaoyun.online, port: 3104, type: vmess, uuid: cff2a52c-1b98-31a0-b508-9255882c45ec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2-jp-04.niaoyun.online}}
-  - {name: '【小汐搬运12】13W+用户覆盖，节点名称广告转化_13', server: us-02-api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com}
-  - {name: '【小汐搬运13】13W+用户覆盖，节点名称广告转化_14', server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
-  - {name: '【小汐搬运14】13W+用户覆盖，节点名称广告转化_15', server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: '【小汐搬运15】13W+用户覆盖，节点名称广告转化_16', server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com}
-  - {name: '【小汐搬运16】13W+用户覆盖，节点名称广告转化_17', server: niaocloud.niaoyun.online, port: 3108, type: vmess, uuid: cff2a52c-1b98-31a0-b508-9255882c45ec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2-jp-08.niaocloud.online}}
-  - {name: '【小汐搬运17】13W+用户覆盖，节点名称广告转化_18', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp}
-  - {name: '【小汐搬运18】13W+用户覆盖，节点名称广告转化_19', server: 103.138.75.235, port: 443, type: vmess, uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: 103.138.75.235}}
-  - {name: '【小汐搬运19】13W+用户覆盖，节点名称广告转化_20', server: 20.151.113.120, port: 1426, type: vmess, uuid: e0f591b2-69a2-4e92-a0f3-d39a2f70b768, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /, ws-headers: {Host: 20.151.113.120}}
-  - {name: '【小汐搬运20】13W+用户覆盖，节点名称广告转化_21', server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 'github.com/freefq - 安徽省移动 1_1', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
-      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
-      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
-      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
-      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
-      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
-      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
-      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
-      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
-      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
-      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
-      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
-      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
-      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
-      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
-      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
-      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
-      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
-      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
-      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
-      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
+      - github.com/freefq - 安徽省移动 1_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
-      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
-      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
-      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
-      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
-      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
-      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
-      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
-      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
-      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
-      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
-      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
-      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
-      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
-      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
-      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
-      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
-      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
-      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
-      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
-      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
+      - github.com/freefq - 安徽省移动 1_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
-      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
-      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
-      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
-      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
-      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
-      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
-      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
-      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
-      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
-      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
-      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
-      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
-      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
-      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
-      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
-      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
-      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
-      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
-      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
-      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
+      - github.com/freefq - 安徽省移动 1_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
-      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
-      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
-      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
-      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
-      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
-      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
-      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
-      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
-      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
-      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
-      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
-      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
-      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
-      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
-      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
-      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
-      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
-      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
-      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
-      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
+      - github.com/freefq - 安徽省移动 1_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
-      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
-      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
-      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
-      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
-      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
-      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
-      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
-      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
-      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
-      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
-      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
-      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
-      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
-      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
-      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
-      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
-      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
-      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
-      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
-      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
+      - github.com/freefq - 安徽省移动 1_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
-      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
-      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
-      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
-      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
-      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
-      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
-      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
-      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
-      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
-      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
-      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
-      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
-      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
-      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
-      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
-      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
-      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
-      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
-      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
-      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
+      - github.com/freefq - 安徽省移动 1_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
-      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
-      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
-      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
-      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
-      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
-      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
-      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
-      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
-      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
-      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
-      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
-      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
-      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
-      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
-      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
-      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
-      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
-      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
-      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
-      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
+      - github.com/freefq - 安徽省移动 1_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -226,27 +66,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
-      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
-      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
-      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
-      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
-      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
-      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
-      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
-      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
-      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
-      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
-      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
-      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
-      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
-      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
-      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
-      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
-      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
-      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
-      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
-      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
+      - github.com/freefq - 安徽省移动 1_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
