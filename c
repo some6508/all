@@ -5,60 +5,68 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '%F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD_1', server: kr3.futi.online, port: 2053, type: vmess, uuid: 0025ed04-5c5a-4416-b3f3-21cc1a04530d, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
-  - {name: '🇺🇸_US_美国_2', server: 38.91.100.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇸🇬_SG_新加坡_1', server: 139.162.56.155, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_2', server: 134.195.196.184, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇸🇬_SG_新加坡_3', server: 81.90.189.33, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - %F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD_1
-      - 🇺🇸_US_美国_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇸🇬_SG_新加坡_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - %F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD_1
-      - 🇺🇸_US_美国_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇸🇬_SG_新加坡_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - %F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD_1
-      - 🇺🇸_US_美国_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇸🇬_SG_新加坡_3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - %F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD_1
-      - 🇺🇸_US_美国_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇸🇬_SG_新加坡_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - %F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD_1
-      - 🇺🇸_US_美国_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇸🇬_SG_新加坡_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - %F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD_1
-      - 🇺🇸_US_美国_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇸🇬_SG_新加坡_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - %F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD_1
-      - 🇺🇸_US_美国_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇸🇬_SG_新加坡_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +82,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - %F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD_1
-      - 🇺🇸_US_美国_2
+      - 🇸🇬_SG_新加坡_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇸🇬_SG_新加坡_3
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
