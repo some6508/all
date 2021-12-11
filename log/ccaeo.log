@@ -1,18 +1,18 @@
 + PS4='$LINENO: '
 55: date +%Y年%m月%d日·%H点%M分%S秒.%N毫秒
-5: echo 2021年12月11日·09点56分25秒.313936738毫秒
+5: echo 2021年12月11日·10点33分05秒.007471714毫秒
 66: curl -sL https://api.github.com/repos/changfengoss/pub/commits
 66: grep -m 1 html_url
 66: sed 's/.*"html_url": /html_url=/g'
-6: eval 'html_url="https://github.com/changfengoss/pub/commit/eb48d849e96dd788e7f5ead371ecff4c5ffcc994",'
-66: html_url=https://github.com/changfengoss/pub/commit/eb48d849e96dd788e7f5ead371ecff4c5ffcc994,
-77: curl -sL https://github.com/changfengoss/pub/commit/eb48d849e96dd788e7f5ead371ecff4c5ffcc994
+6: eval 'html_url="https://github.com/changfengoss/pub/commit/c731041dccf60e7f3f13025d13d736b012c134b5",'
+66: html_url=https://github.com/changfengoss/pub/commit/c731041dccf60e7f3f13025d13d736b012c134b5,
+77: curl -sL https://github.com/changfengoss/pub/commit/c731041dccf60e7f3f13025d13d736b012c134b5
 77: sed 's|</a>|"|g'
 77: sed -n 's|^      <a href="#diff-.*">|href="https://github.com/changfengoss/pub/raw/main/|p'
-7: eval 'href="https://github.com/changfengoss/pub/raw/main/data/2021_12_11/qJ6FT9.yaml"'
-77: href=https://github.com/changfengoss/pub/raw/main/data/2021_12_11/qJ6FT9.yaml
+7: eval 'href="https://github.com/changfengoss/pub/raw/main/data/2021_12_11/hwdWKG.yaml"'
+77: href=https://github.com/changfengoss/pub/raw/main/data/2021_12_11/hwdWKG.yaml
 8: case "$href" in
-10: curl -sLo /home/runner/work/all/all/c https://github.com/changfengoss/pub/raw/main/data/2021_12_11/qJ6FT9.yaml
+10: curl -sLo /home/runner/work/all/all/c https://github.com/changfengoss/pub/raw/main/data/2021_12_11/hwdWKG.yaml
 113: curl -sL https://api.github.com/repos/pojiezhiyuanjun/freev2/commits
 113: sed 's/.*"html_url": /html_url=/g'
 113: grep -m 1 html_url
@@ -53,6 +53,6 @@ href="https://github.com/pojiezhiyuanjun/freev2/raw/master/1210clash.yml"'
 30: curl -sLo /home/runner/work/all/all/c3 https://github.com/FMYC2015/Clash/raw/main/2021/2021-12-08
 31: curl -sLo /home/runner/work/all/all/v3 https://gitee.com/chenx58/clash/raw/V2R/V2R
 332: date +%Y年%m月%d日·%H点%M分%S秒
-32: sed -i '/^|20/c|2021年12月11日·09点56分30秒|' /home/runner/work/all/all/README.md
+32: sed -i '/^|20/c|2021年12月11日·10点33分12秒|' /home/runner/work/all/all/README.md
 333: date +%Y年%m月%d日·%H点%M分%S秒 -d '+1 hour'
-33: sed -i '/^20/c2021年12月11日·10点56分30秒' /home/runner/work/all/all/README.md
+33: sed -i '/^20/c2021年12月11日·11点33分12秒' /home/runner/work/all/all/README.md
