@@ -5,428 +5,212 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇭🇰_HK_香港_1', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇪🇬_EG_埃及_2', server: 188.214.122.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
-  - {name: '🇪🇬_EG_埃及_3', server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
-  - {name: '🇺🇸_US_美国_4', server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '🇧🇬_BG_保加利亚_5', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: '🇺🇸_US_美国_6', server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray}
-  - {name: '🇦🇺_AU_澳大利亚_7', server: Ze9baeS5.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: '🇸🇪_SE_瑞典_8', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: '🇺🇸_US_美国_9', server: 142.202.48.34, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇫🇷_FR_法国_10', server: 62.210.140.163, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '🇺🇸_US_美国_11', server: 70.39.67.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}}
-  - {name: '🇯🇵_JP_日本_12', server: 85.208.108.146, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'default_name_13', server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: '🇯🇵_JP_日本_14', server: 85.208.108.18, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇨🇦_CA_加拿大_15', server: 134.195.196.107, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇫🇷_FR_法国_16', server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'default_name_17', server: 104.19.101.3, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /gdo93qerwtyuo, ws-headers: {Host: e.fovi.tk}}
-  - {name: '🇺🇸_US_美国_18', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '🇺🇸_US_美国->🇳🇱_NL_荷兰_19', server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: c3c9c5d8-50bd-11ec-8a58-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nBaG3RmV/}
-  - {name: '🇨🇦_CA_加拿大_20', server: 134.195.196.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_21', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '🇺🇸_US_美国_22', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '🇨🇦_CA_加拿大_23', server: 134.195.196.107, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇩🇪_DE_德国_24', server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_25', server: v4.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}}
-  - {name: '🇩🇪_DE_德国_26', server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
-  - {name: '🇷🇴_RO_罗马尼亚_27', server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: italy-milan.mah3Hoet.com}}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_28', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}}
-  - {name: '🇺🇸_US_美国_29', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_30', server: 172.67.176.114, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: '🇨🇦_CA_加拿大_31', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇮🇳_IN_印度_32', server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇮🇳_IN_印度_33', server: 192.46.210.73, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇩🇪_DE_德国_34', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇷🇺_RU_俄罗斯联邦_35', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}}
-  - {name: '🇺🇸_US_美国_36', server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}}
-  - {name: '🇨🇦_CA_加拿大_37', server: 134.195.196.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_38', server: free-russian02-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
-  - {name: '🇨🇦_CA_加拿大_39', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇭🇰_HK_香港->🇰🇷_KR_韩国_40', server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
-  - {name: '🇨🇦_CA_加拿大_41', server: v3.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇧🇷_BR_巴西_42', server: 177.54.150.39, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇨🇦_CA_加拿大_43', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇨🇦_CA_加拿大_44', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇭🇰_HK_香港_45', server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
-  - {name: '🇨🇦_CA_加拿大_46', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇳🇴_NO_挪威_47', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇮🇳_IN_印度_48', server: 172.105.42.94, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1', server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
+  - {name: '【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2', server: ngzyd-1.okex-tradebot.xyz, port: 30014, type: vmess, uuid: a9164688-19ad-4e8c-b658-924919fff370, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3', server: 183.232.157.72, port: 10001, type: vmess, uuid: 4e873e7e-dc0f-4a3b-b8cd-405fc4db1eb5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4', server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-headers: {Host: 139.227.161.129}}
+  - {name: '【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5', server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: '【小汐搬运05】13W+用户覆盖，节点名称广告转化_6', server: free-russian02-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
+  - {name: '【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7', server: 20.205.35.3, port: 10313, type: vmess, uuid: cff2a52c-1b98-31a0-b508-9255882c45ec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-sg-01.niaoyun.online}}
+  - {name: '【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8', server: 183.232.157.72, port: 10002, type: vmess, uuid: 4e873e7e-dc0f-4a3b-b8cd-405fc4db1eb5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9', server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10', server: 185.126.116.235, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674}
+  - {name: '【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11', server: 20.205.35.3, port: 10313, type: vmess, uuid: cff2a52c-1b98-31a0-b508-9255882c45ec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-sg-01.niaoyun.online}}
+  - {name: '【小汐搬运11】13W+用户覆盖，节点名称广告转化_12', server: niaocloud.niaoyun.online, port: 3104, type: vmess, uuid: cff2a52c-1b98-31a0-b508-9255882c45ec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2-jp-04.niaoyun.online}}
+  - {name: '【小汐搬运12】13W+用户覆盖，节点名称广告转化_13', server: us-02-api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com}
+  - {name: '【小汐搬运13】13W+用户覆盖，节点名称广告转化_14', server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
+  - {name: '【小汐搬运14】13W+用户覆盖，节点名称广告转化_15', server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: '【小汐搬运15】13W+用户覆盖，节点名称广告转化_16', server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com}
+  - {name: '【小汐搬运16】13W+用户覆盖，节点名称广告转化_17', server: niaocloud.niaoyun.online, port: 3108, type: vmess, uuid: cff2a52c-1b98-31a0-b508-9255882c45ec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2-jp-08.niaocloud.online}}
+  - {name: '【小汐搬运17】13W+用户覆盖，节点名称广告转化_18', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: '【小汐搬运18】13W+用户覆盖，节点名称广告转化_19', server: 103.138.75.235, port: 443, type: vmess, uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: 103.138.75.235}}
+  - {name: '【小汐搬运19】13W+用户覆盖，节点名称广告转化_20', server: 20.151.113.120, port: 1426, type: vmess, uuid: e0f591b2-69a2-4e92-a0f3-d39a2f70b768, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /, ws-headers: {Host: 20.151.113.120}}
+  - {name: '【小汐搬运20】13W+用户覆盖，节点名称广告转化_21', server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇪🇬_EG_埃及_2
-      - 🇪🇬_EG_埃及_3
-      - 🇺🇸_US_美国_4
-      - 🇧🇬_BG_保加利亚_5
-      - 🇺🇸_US_美国_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇸🇪_SE_瑞典_8
-      - 🇺🇸_US_美国_9
-      - 🇫🇷_FR_法国_10
-      - 🇺🇸_US_美国_11
-      - 🇯🇵_JP_日本_12
-      - default_name_13
-      - 🇯🇵_JP_日本_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇫🇷_FR_法国_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇨🇦_CA_加拿大_23
-      - 🇩🇪_DE_德国_24
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_25
-      - 🇩🇪_DE_德国_26
-      - 🇷🇴_RO_罗马尼亚_27
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇮🇳_IN_印度_32
-      - 🇮🇳_IN_印度_33
-      - 🇩🇪_DE_德国_34
-      - 🇷🇺_RU_俄罗斯联邦_35
-      - 🇺🇸_US_美国_36
-      - 🇨🇦_CA_加拿大_37
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_38
-      - 🇨🇦_CA_加拿大_39
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_40
-      - 🇨🇦_CA_加拿大_41
-      - 🇧🇷_BR_巴西_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇭🇰_HK_香港_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇳🇴_NO_挪威_47
-      - 🇮🇳_IN_印度_48
+      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
+      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
+      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
+      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
+      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
+      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
+      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
+      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
+      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
+      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
+      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
+      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
+      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
+      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
+      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
+      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
+      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
+      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
+      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
+      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
+      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰_HK_香港_1
-      - 🇪🇬_EG_埃及_2
-      - 🇪🇬_EG_埃及_3
-      - 🇺🇸_US_美国_4
-      - 🇧🇬_BG_保加利亚_5
-      - 🇺🇸_US_美国_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇸🇪_SE_瑞典_8
-      - 🇺🇸_US_美国_9
-      - 🇫🇷_FR_法国_10
-      - 🇺🇸_US_美国_11
-      - 🇯🇵_JP_日本_12
-      - default_name_13
-      - 🇯🇵_JP_日本_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇫🇷_FR_法国_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇨🇦_CA_加拿大_23
-      - 🇩🇪_DE_德国_24
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_25
-      - 🇩🇪_DE_德国_26
-      - 🇷🇴_RO_罗马尼亚_27
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇮🇳_IN_印度_32
-      - 🇮🇳_IN_印度_33
-      - 🇩🇪_DE_德国_34
-      - 🇷🇺_RU_俄罗斯联邦_35
-      - 🇺🇸_US_美国_36
-      - 🇨🇦_CA_加拿大_37
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_38
-      - 🇨🇦_CA_加拿大_39
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_40
-      - 🇨🇦_CA_加拿大_41
-      - 🇧🇷_BR_巴西_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇭🇰_HK_香港_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇳🇴_NO_挪威_47
-      - 🇮🇳_IN_印度_48
+      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
+      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
+      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
+      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
+      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
+      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
+      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
+      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
+      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
+      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
+      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
+      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
+      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
+      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
+      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
+      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
+      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
+      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
+      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
+      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
+      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇪🇬_EG_埃及_2
-      - 🇪🇬_EG_埃及_3
-      - 🇺🇸_US_美国_4
-      - 🇧🇬_BG_保加利亚_5
-      - 🇺🇸_US_美国_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇸🇪_SE_瑞典_8
-      - 🇺🇸_US_美国_9
-      - 🇫🇷_FR_法国_10
-      - 🇺🇸_US_美国_11
-      - 🇯🇵_JP_日本_12
-      - default_name_13
-      - 🇯🇵_JP_日本_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇫🇷_FR_法国_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇨🇦_CA_加拿大_23
-      - 🇩🇪_DE_德国_24
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_25
-      - 🇩🇪_DE_德国_26
-      - 🇷🇴_RO_罗马尼亚_27
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇮🇳_IN_印度_32
-      - 🇮🇳_IN_印度_33
-      - 🇩🇪_DE_德国_34
-      - 🇷🇺_RU_俄罗斯联邦_35
-      - 🇺🇸_US_美国_36
-      - 🇨🇦_CA_加拿大_37
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_38
-      - 🇨🇦_CA_加拿大_39
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_40
-      - 🇨🇦_CA_加拿大_41
-      - 🇧🇷_BR_巴西_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇭🇰_HK_香港_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇳🇴_NO_挪威_47
-      - 🇮🇳_IN_印度_48
+      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
+      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
+      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
+      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
+      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
+      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
+      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
+      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
+      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
+      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
+      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
+      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
+      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
+      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
+      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
+      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
+      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
+      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
+      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
+      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
+      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇪🇬_EG_埃及_2
-      - 🇪🇬_EG_埃及_3
-      - 🇺🇸_US_美国_4
-      - 🇧🇬_BG_保加利亚_5
-      - 🇺🇸_US_美国_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇸🇪_SE_瑞典_8
-      - 🇺🇸_US_美国_9
-      - 🇫🇷_FR_法国_10
-      - 🇺🇸_US_美国_11
-      - 🇯🇵_JP_日本_12
-      - default_name_13
-      - 🇯🇵_JP_日本_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇫🇷_FR_法国_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇨🇦_CA_加拿大_23
-      - 🇩🇪_DE_德国_24
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_25
-      - 🇩🇪_DE_德国_26
-      - 🇷🇴_RO_罗马尼亚_27
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇮🇳_IN_印度_32
-      - 🇮🇳_IN_印度_33
-      - 🇩🇪_DE_德国_34
-      - 🇷🇺_RU_俄罗斯联邦_35
-      - 🇺🇸_US_美国_36
-      - 🇨🇦_CA_加拿大_37
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_38
-      - 🇨🇦_CA_加拿大_39
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_40
-      - 🇨🇦_CA_加拿大_41
-      - 🇧🇷_BR_巴西_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇭🇰_HK_香港_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇳🇴_NO_挪威_47
-      - 🇮🇳_IN_印度_48
+      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
+      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
+      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
+      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
+      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
+      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
+      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
+      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
+      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
+      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
+      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
+      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
+      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
+      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
+      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
+      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
+      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
+      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
+      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
+      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
+      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇪🇬_EG_埃及_2
-      - 🇪🇬_EG_埃及_3
-      - 🇺🇸_US_美国_4
-      - 🇧🇬_BG_保加利亚_5
-      - 🇺🇸_US_美国_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇸🇪_SE_瑞典_8
-      - 🇺🇸_US_美国_9
-      - 🇫🇷_FR_法国_10
-      - 🇺🇸_US_美国_11
-      - 🇯🇵_JP_日本_12
-      - default_name_13
-      - 🇯🇵_JP_日本_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇫🇷_FR_法国_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇨🇦_CA_加拿大_23
-      - 🇩🇪_DE_德国_24
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_25
-      - 🇩🇪_DE_德国_26
-      - 🇷🇴_RO_罗马尼亚_27
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇮🇳_IN_印度_32
-      - 🇮🇳_IN_印度_33
-      - 🇩🇪_DE_德国_34
-      - 🇷🇺_RU_俄罗斯联邦_35
-      - 🇺🇸_US_美国_36
-      - 🇨🇦_CA_加拿大_37
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_38
-      - 🇨🇦_CA_加拿大_39
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_40
-      - 🇨🇦_CA_加拿大_41
-      - 🇧🇷_BR_巴西_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇭🇰_HK_香港_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇳🇴_NO_挪威_47
-      - 🇮🇳_IN_印度_48
+      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
+      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
+      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
+      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
+      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
+      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
+      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
+      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
+      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
+      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
+      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
+      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
+      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
+      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
+      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
+      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
+      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
+      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
+      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
+      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
+      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇪🇬_EG_埃及_2
-      - 🇪🇬_EG_埃及_3
-      - 🇺🇸_US_美国_4
-      - 🇧🇬_BG_保加利亚_5
-      - 🇺🇸_US_美国_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇸🇪_SE_瑞典_8
-      - 🇺🇸_US_美国_9
-      - 🇫🇷_FR_法国_10
-      - 🇺🇸_US_美国_11
-      - 🇯🇵_JP_日本_12
-      - default_name_13
-      - 🇯🇵_JP_日本_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇫🇷_FR_法国_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇨🇦_CA_加拿大_23
-      - 🇩🇪_DE_德国_24
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_25
-      - 🇩🇪_DE_德国_26
-      - 🇷🇴_RO_罗马尼亚_27
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇮🇳_IN_印度_32
-      - 🇮🇳_IN_印度_33
-      - 🇩🇪_DE_德国_34
-      - 🇷🇺_RU_俄罗斯联邦_35
-      - 🇺🇸_US_美国_36
-      - 🇨🇦_CA_加拿大_37
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_38
-      - 🇨🇦_CA_加拿大_39
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_40
-      - 🇨🇦_CA_加拿大_41
-      - 🇧🇷_BR_巴西_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇭🇰_HK_香港_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇳🇴_NO_挪威_47
-      - 🇮🇳_IN_印度_48
+      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
+      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
+      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
+      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
+      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
+      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
+      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
+      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
+      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
+      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
+      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
+      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
+      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
+      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
+      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
+      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
+      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
+      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
+      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
+      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
+      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇪🇬_EG_埃及_2
-      - 🇪🇬_EG_埃及_3
-      - 🇺🇸_US_美国_4
-      - 🇧🇬_BG_保加利亚_5
-      - 🇺🇸_US_美国_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇸🇪_SE_瑞典_8
-      - 🇺🇸_US_美国_9
-      - 🇫🇷_FR_法国_10
-      - 🇺🇸_US_美国_11
-      - 🇯🇵_JP_日本_12
-      - default_name_13
-      - 🇯🇵_JP_日本_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇫🇷_FR_法国_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇨🇦_CA_加拿大_23
-      - 🇩🇪_DE_德国_24
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_25
-      - 🇩🇪_DE_德国_26
-      - 🇷🇴_RO_罗马尼亚_27
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇮🇳_IN_印度_32
-      - 🇮🇳_IN_印度_33
-      - 🇩🇪_DE_德国_34
-      - 🇷🇺_RU_俄罗斯联邦_35
-      - 🇺🇸_US_美国_36
-      - 🇨🇦_CA_加拿大_37
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_38
-      - 🇨🇦_CA_加拿大_39
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_40
-      - 🇨🇦_CA_加拿大_41
-      - 🇧🇷_BR_巴西_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇭🇰_HK_香港_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇳🇴_NO_挪威_47
-      - 🇮🇳_IN_印度_48
+      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
+      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
+      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
+      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
+      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
+      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
+      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
+      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
+      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
+      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
+      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
+      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
+      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
+      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
+      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
+      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
+      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
+      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
+      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
+      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
+      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -442,54 +226,27 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇪🇬_EG_埃及_2
-      - 🇪🇬_EG_埃及_3
-      - 🇺🇸_US_美国_4
-      - 🇧🇬_BG_保加利亚_5
-      - 🇺🇸_US_美国_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇸🇪_SE_瑞典_8
-      - 🇺🇸_US_美国_9
-      - 🇫🇷_FR_法国_10
-      - 🇺🇸_US_美国_11
-      - 🇯🇵_JP_日本_12
-      - default_name_13
-      - 🇯🇵_JP_日本_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇫🇷_FR_法国_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇨🇦_CA_加拿大_23
-      - 🇩🇪_DE_德国_24
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_25
-      - 🇩🇪_DE_德国_26
-      - 🇷🇴_RO_罗马尼亚_27
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇮🇳_IN_印度_32
-      - 🇮🇳_IN_印度_33
-      - 🇩🇪_DE_德国_34
-      - 🇷🇺_RU_俄罗斯联邦_35
-      - 🇺🇸_US_美国_36
-      - 🇨🇦_CA_加拿大_37
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_38
-      - 🇨🇦_CA_加拿大_39
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国_40
-      - 🇨🇦_CA_加拿大_41
-      - 🇧🇷_BR_巴西_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇭🇰_HK_香港_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇳🇴_NO_挪威_47
-      - 🇮🇳_IN_印度_48
+      - 【小汐搬运00】12-07更新，广告投放 TG@byxiaoxi_1
+      - 【小汐搬运01】出手机卡、出四件套、承兑USDT 电报TG @ZX9805_2
+      - 【小汐搬运02】出精准菠菜体育粉 电报TG@cyq999_3
+      - 【小汐搬运03】专业海外短信，通道稳定92+，电报TG@xiaozhan120_4
+      - 【小汐搬运04】承接灰产，代收付回U，对接API支付通道，电报TG@mengmenng_5
+      - 【小汐搬运05】13W+用户覆盖，节点名称广告转化_6
+      - 【小汐搬运06】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_7
+      - 【小汐搬运07】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_8
+      - 【小汐搬运08】出实名绑卡带圈带支付微信 电报 TG @xiaozhao8888_9
+      - 【小汐搬运09】出实名绑卡带圈带支付微信+电报+TG+@xiaozhao8888_10
+      - 【小汐搬运10】出实名绑卡带圈带支付微信 电报 TG @xiaozhao888_11
+      - 【小汐搬运11】13W+用户覆盖，节点名称广告转化_12
+      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化_13
+      - 【小汐搬运13】13W+用户覆盖，节点名称广告转化_14
+      - 【小汐搬运14】13W+用户覆盖，节点名称广告转化_15
+      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化_16
+      - 【小汐搬运16】13W+用户覆盖，节点名称广告转化_17
+      - 【小汐搬运17】13W+用户覆盖，节点名称广告转化_18
+      - 【小汐搬运18】13W+用户覆盖，节点名称广告转化_19
+      - 【小汐搬运19】13W+用户覆盖，节点名称广告转化_20
+      - 【小汐搬运20】13W+用户覆盖，节点名称广告转化_21
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
