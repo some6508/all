@@ -35,6 +35,13 @@ curl -so $home/c4 "$href"
 curl -so $home/v5 'https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray'
 curl -so $home/c5 'https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml'
 curl -so $home/v6 'https://gitee.com/chenx58/clash/raw/V2R/V2R'
+eval "`curl -sL 'https://api.github.com/repos/bhqz/bhqz/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
+eval "`curl -sL "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/bhqz/bhqz/main/|p' | sed 's|</a>|"|g'`"
+case "$href" in
+*.txt) curl -so $home/v7 "$href" ;;
+*.yaml) curl -so $home/c6 "$href" ;;
+*) echo "$href" ;;
+esac
 sed -i "/^|20/c|$(date '+%Y年%m月%d日·%H点%M分%S秒')|" $home/README.md
 sed -i "/^20/c$(date '+%Y年%m月%d日·%H点%M分%S秒' -d '+1 hour')" $home/README.md
 echo $(date '+%Y年%m月%d日·%H点%M分%S秒.%N毫秒')
