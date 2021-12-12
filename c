@@ -5,276 +5,212 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '亚太 香港 至尊 11【1x-80-广东停机卡】_1', server: azhk11.yitaiml.xyz, port: 80, type: vmess, uuid: aa3b2dac-820a-44b7-a976-5a0ea28e47e2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
-  - {name: '亚太 香港 至尊 07【1x-80】_2', server: azhk07.yitaiml.xyz, port: 80, type: vmess, uuid: aa3b2dac-820a-44b7-a976-5a0ea28e47e2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}}
-  - {name: '亚太 香港 至尊 05【1x-80】_3', server: azhk05.yitaiml.xyz, port: 80, type: vmess, uuid: aa3b2dac-820a-44b7-a976-5a0ea28e47e2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}}
-  - {name: '日本◆AWS 06 Netflix 1倍率_4', server: global-transit-hk-v2.pucdn.me, port: 40006, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-06.pucdn.me}}
-  - {name: '日本◆AWS 10 Netflix 1倍率_5', server: global-transit-hk-v2.pucdn.me, port: 40010, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-10.pucdn.me}}
-  - {name: '日本◆AWS 09 Netflix 1倍率_6', server: global-transit-hk-v2.pucdn.me, port: 40009, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-09.pucdn.me}}
-  - {name: '日本◆AWS 12 Netflix 1倍率_7', server: global-transit-hk-v2.pucdn.me, port: 40012, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-12.pucdn.me}}
-  - {name: '日本◆AWS 07 Netflix 1倍率_8', server: global-transit-hk-v2.pucdn.me, port: 40007, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-07.pucdn.me}}
-  - {name: '日本◆AWS 03 Netflix 1倍率_9', server: guangzou-yd-jy-03.pucdn.me, port: 40003, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-03.pucdn.me}}
-  - {name: '日本◆AWS 01 Netflix 1倍率_10', server: guangzou-yd-jy-03.pucdn.me, port: 40001, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-01.pucdn.me}}
-  - {name: '新加坡◆AWS 03 Netflix 1倍率_11', server: global-transit-02-sg.pucdn.me, port: 61002, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-03.pucdn.me}}
-  - {name: '美国UA◆DO 02 高速 1倍率_12', server: l1-do-ua-02.pucdn.me, port: 10080, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud}
-  - {name: '美国UA◆DO 01 高速 1倍率_13', server: l1-do-ua-01.pucdn.me, port: 10080, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud}
-  - {name: '美国UA◆DO 03 高速 1倍率_14', server: l1-do-ua-03.pucdn.me, port: 10080, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud}
-  - {name: '香港◆AWS 08 Netflix 1倍率_15', server: global-transit-02-sg.pucdn.me, port: 62012, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-13.pucdn.me}}
-  - {name: '香港◆AWS 01 Netflix 1倍率_16', server: guangzou-yd-jy-03.pucdn.me, port: 62005, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-06.pucdn.me}}
-  - {name: '香港◆AWS 04 Netflix 1倍率_17', server: guangzou-yd-jy-03.pucdn.me, port: 62008, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-09.pucdn.me}}
-  - {name: '新加坡◆AWS 07 Netflix 1倍率_18', server: global-transit-02-sg.pucdn.me, port: 61006, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-07.pucdn.me}}
-  - {name: '新加坡◆AWS 08 Netflix 1倍率_19', server: global-transit-02-sg.pucdn.me, port: 61007, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-08.pucdn.me}}
-  - {name: '香港◆AWS 02 Netflix 1倍率_20', server: guangzou-yd-jy-03.pucdn.me, port: 62006, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-07.pucdn.me}}
-  - {name: '香港◆AWS 06 Netflix 1倍率_21', server: global-transit-02-sg.pucdn.me, port: 62010, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-11.pucdn.me}}
-  - {name: '日本◆AWS 02 Netflix 1倍率_22', server: guangzou-yd-jy-03.pucdn.me, port: 40002, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-02.pucdn.me}}
-  - {name: '日本◆AWS 05 Netflix 1倍率_23', server: guangzou-yd-jy-03.pucdn.me, port: 40005, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-05.pucdn.me}}
-  - {name: '日本◆AWS 04 Netflix 1倍率_24', server: guangzou-yd-jy-03.pucdn.me, port: 40004, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-04.pucdn.me}}
-  - {name: '日本◆AWS 08 Netflix 1倍率_25', server: global-transit-hk-v2.pucdn.me, port: 40008, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-08.pucdn.me}}
-  - {name: '新加坡◆AWS 05 Netflix 1倍率_26', server: global-transit-02-sg.pucdn.me, port: 61004, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-05.pucdn.me}}
-  - {name: '日本◆AWS 11 Netflix 1倍率_27', server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
-  - {name: '香港◆AWS 07 Netflix 1倍率_28', server: global-transit-02-sg.pucdn.me, port: 62011, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-12.pucdn.me}}
-  - {name: '印度◆DO 04 Netflix 1倍率_29', server: global-transit-02-sg.pucdn.me, port: 49994, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-do-in-04.pucdn.me}}
+  - {name: '🇺🇸 US_1017 | 2.25Mb', server: hax.hostmeetingnow.tk, port: 80, type: vmess, uuid: 86606733-f014-46d5-e5e4-8dc4d9fb77d2, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /api/v2/null}
+  - {name: '🇺🇸US_1022 |22.12Mb', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: '🇺🇸US_1064 |124.63Mb', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: '🇺🇸US_1136 |154.84Mb', server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: '🇺🇸US_1208 |144.10Mb', server: 38.68.134.37, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US_1642 | 7.98Mb', server: 192.46.210.73, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸US_1648 | 5.25Mb', server: 192.46.210.73, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸US_1652 |75.15Mb', server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸US_1663 |26.65Mb', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸US_1664 |15.49Mb', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_1696 |33.45Mb', server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: '🇺🇸US_1814 | 6.78Mb', server: 192.46.209.215, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸US_1816 |80.97Mb', server: 104.140.21.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL}
+  - {name: '🇺🇸US_1835 |12.35Mb', server: 192.46.209.215, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸US_1881 |34.65Mb', server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇺🇸US_1882 | 2.37Mb', server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇺🇸US_1889 |19.46Mb', server: api.ssfree.ru, port: 443, type: vmess, uuid: fb5655b0-5aff-11ec-92b4-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /getweather}
+  - {name: '🇺🇸US_1897 |72.85Mb', server: xllhexxx.xyz, port: 46436, type: vmess, uuid: 56857807-6ca9-4e39-8482-b951608efe69, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1145141919}
+  - {name: '🇺🇸US_1904 | 3.29Mb', server: 198.200.51.34, port: 10911, type: vmess, uuid: 53e483d4-1ea9-11ec-ad60-00163cc87418, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇺🇸US_1905 | 2.26Mb', server: 198.200.51.18, port: 600, type: vmess, uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇺🇸US_1911 |43.78Mb', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚太 香港 至尊 11【1x-80-广东停机卡】_1
-      - 亚太 香港 至尊 07【1x-80】_2
-      - 亚太 香港 至尊 05【1x-80】_3
-      - 日本◆AWS 06 Netflix 1倍率_4
-      - 日本◆AWS 10 Netflix 1倍率_5
-      - 日本◆AWS 09 Netflix 1倍率_6
-      - 日本◆AWS 12 Netflix 1倍率_7
-      - 日本◆AWS 07 Netflix 1倍率_8
-      - 日本◆AWS 03 Netflix 1倍率_9
-      - 日本◆AWS 01 Netflix 1倍率_10
-      - 新加坡◆AWS 03 Netflix 1倍率_11
-      - 美国UA◆DO 02 高速 1倍率_12
-      - 美国UA◆DO 01 高速 1倍率_13
-      - 美国UA◆DO 03 高速 1倍率_14
-      - 香港◆AWS 08 Netflix 1倍率_15
-      - 香港◆AWS 01 Netflix 1倍率_16
-      - 香港◆AWS 04 Netflix 1倍率_17
-      - 新加坡◆AWS 07 Netflix 1倍率_18
-      - 新加坡◆AWS 08 Netflix 1倍率_19
-      - 香港◆AWS 02 Netflix 1倍率_20
-      - 香港◆AWS 06 Netflix 1倍率_21
-      - 日本◆AWS 02 Netflix 1倍率_22
-      - 日本◆AWS 05 Netflix 1倍率_23
-      - 日本◆AWS 04 Netflix 1倍率_24
-      - 日本◆AWS 08 Netflix 1倍率_25
-      - 新加坡◆AWS 05 Netflix 1倍率_26
-      - 日本◆AWS 11 Netflix 1倍率_27
-      - 香港◆AWS 07 Netflix 1倍率_28
-      - 印度◆DO 04 Netflix 1倍率_29
+      - 🇺🇸 US_1017 | 2.25Mb
+      - 🇺🇸US_1022 |22.12Mb
+      - 🇺🇸US_1064 |124.63Mb
+      - 🇺🇸US_1136 |154.84Mb
+      - 🇺🇸US_1208 |144.10Mb
+      - 🇺🇸US_1642 | 7.98Mb
+      - 🇺🇸US_1648 | 5.25Mb
+      - 🇺🇸US_1652 |75.15Mb
+      - 🇺🇸US_1663 |26.65Mb
+      - 🇺🇸US_1664 |15.49Mb
+      - 🇺🇸US_1696 |33.45Mb
+      - 🇺🇸US_1814 | 6.78Mb
+      - 🇺🇸US_1816 |80.97Mb
+      - 🇺🇸US_1835 |12.35Mb
+      - 🇺🇸US_1881 |34.65Mb
+      - 🇺🇸US_1882 | 2.37Mb
+      - 🇺🇸US_1889 |19.46Mb
+      - 🇺🇸US_1897 |72.85Mb
+      - 🇺🇸US_1904 | 3.29Mb
+      - 🇺🇸US_1905 | 2.26Mb
+      - 🇺🇸US_1911 |43.78Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 亚太 香港 至尊 11【1x-80-广东停机卡】_1
-      - 亚太 香港 至尊 07【1x-80】_2
-      - 亚太 香港 至尊 05【1x-80】_3
-      - 日本◆AWS 06 Netflix 1倍率_4
-      - 日本◆AWS 10 Netflix 1倍率_5
-      - 日本◆AWS 09 Netflix 1倍率_6
-      - 日本◆AWS 12 Netflix 1倍率_7
-      - 日本◆AWS 07 Netflix 1倍率_8
-      - 日本◆AWS 03 Netflix 1倍率_9
-      - 日本◆AWS 01 Netflix 1倍率_10
-      - 新加坡◆AWS 03 Netflix 1倍率_11
-      - 美国UA◆DO 02 高速 1倍率_12
-      - 美国UA◆DO 01 高速 1倍率_13
-      - 美国UA◆DO 03 高速 1倍率_14
-      - 香港◆AWS 08 Netflix 1倍率_15
-      - 香港◆AWS 01 Netflix 1倍率_16
-      - 香港◆AWS 04 Netflix 1倍率_17
-      - 新加坡◆AWS 07 Netflix 1倍率_18
-      - 新加坡◆AWS 08 Netflix 1倍率_19
-      - 香港◆AWS 02 Netflix 1倍率_20
-      - 香港◆AWS 06 Netflix 1倍率_21
-      - 日本◆AWS 02 Netflix 1倍率_22
-      - 日本◆AWS 05 Netflix 1倍率_23
-      - 日本◆AWS 04 Netflix 1倍率_24
-      - 日本◆AWS 08 Netflix 1倍率_25
-      - 新加坡◆AWS 05 Netflix 1倍率_26
-      - 日本◆AWS 11 Netflix 1倍率_27
-      - 香港◆AWS 07 Netflix 1倍率_28
-      - 印度◆DO 04 Netflix 1倍率_29
+      - 🇺🇸 US_1017 | 2.25Mb
+      - 🇺🇸US_1022 |22.12Mb
+      - 🇺🇸US_1064 |124.63Mb
+      - 🇺🇸US_1136 |154.84Mb
+      - 🇺🇸US_1208 |144.10Mb
+      - 🇺🇸US_1642 | 7.98Mb
+      - 🇺🇸US_1648 | 5.25Mb
+      - 🇺🇸US_1652 |75.15Mb
+      - 🇺🇸US_1663 |26.65Mb
+      - 🇺🇸US_1664 |15.49Mb
+      - 🇺🇸US_1696 |33.45Mb
+      - 🇺🇸US_1814 | 6.78Mb
+      - 🇺🇸US_1816 |80.97Mb
+      - 🇺🇸US_1835 |12.35Mb
+      - 🇺🇸US_1881 |34.65Mb
+      - 🇺🇸US_1882 | 2.37Mb
+      - 🇺🇸US_1889 |19.46Mb
+      - 🇺🇸US_1897 |72.85Mb
+      - 🇺🇸US_1904 | 3.29Mb
+      - 🇺🇸US_1905 | 2.26Mb
+      - 🇺🇸US_1911 |43.78Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚太 香港 至尊 11【1x-80-广东停机卡】_1
-      - 亚太 香港 至尊 07【1x-80】_2
-      - 亚太 香港 至尊 05【1x-80】_3
-      - 日本◆AWS 06 Netflix 1倍率_4
-      - 日本◆AWS 10 Netflix 1倍率_5
-      - 日本◆AWS 09 Netflix 1倍率_6
-      - 日本◆AWS 12 Netflix 1倍率_7
-      - 日本◆AWS 07 Netflix 1倍率_8
-      - 日本◆AWS 03 Netflix 1倍率_9
-      - 日本◆AWS 01 Netflix 1倍率_10
-      - 新加坡◆AWS 03 Netflix 1倍率_11
-      - 美国UA◆DO 02 高速 1倍率_12
-      - 美国UA◆DO 01 高速 1倍率_13
-      - 美国UA◆DO 03 高速 1倍率_14
-      - 香港◆AWS 08 Netflix 1倍率_15
-      - 香港◆AWS 01 Netflix 1倍率_16
-      - 香港◆AWS 04 Netflix 1倍率_17
-      - 新加坡◆AWS 07 Netflix 1倍率_18
-      - 新加坡◆AWS 08 Netflix 1倍率_19
-      - 香港◆AWS 02 Netflix 1倍率_20
-      - 香港◆AWS 06 Netflix 1倍率_21
-      - 日本◆AWS 02 Netflix 1倍率_22
-      - 日本◆AWS 05 Netflix 1倍率_23
-      - 日本◆AWS 04 Netflix 1倍率_24
-      - 日本◆AWS 08 Netflix 1倍率_25
-      - 新加坡◆AWS 05 Netflix 1倍率_26
-      - 日本◆AWS 11 Netflix 1倍率_27
-      - 香港◆AWS 07 Netflix 1倍率_28
-      - 印度◆DO 04 Netflix 1倍率_29
+      - 🇺🇸 US_1017 | 2.25Mb
+      - 🇺🇸US_1022 |22.12Mb
+      - 🇺🇸US_1064 |124.63Mb
+      - 🇺🇸US_1136 |154.84Mb
+      - 🇺🇸US_1208 |144.10Mb
+      - 🇺🇸US_1642 | 7.98Mb
+      - 🇺🇸US_1648 | 5.25Mb
+      - 🇺🇸US_1652 |75.15Mb
+      - 🇺🇸US_1663 |26.65Mb
+      - 🇺🇸US_1664 |15.49Mb
+      - 🇺🇸US_1696 |33.45Mb
+      - 🇺🇸US_1814 | 6.78Mb
+      - 🇺🇸US_1816 |80.97Mb
+      - 🇺🇸US_1835 |12.35Mb
+      - 🇺🇸US_1881 |34.65Mb
+      - 🇺🇸US_1882 | 2.37Mb
+      - 🇺🇸US_1889 |19.46Mb
+      - 🇺🇸US_1897 |72.85Mb
+      - 🇺🇸US_1904 | 3.29Mb
+      - 🇺🇸US_1905 | 2.26Mb
+      - 🇺🇸US_1911 |43.78Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 亚太 香港 至尊 11【1x-80-广东停机卡】_1
-      - 亚太 香港 至尊 07【1x-80】_2
-      - 亚太 香港 至尊 05【1x-80】_3
-      - 日本◆AWS 06 Netflix 1倍率_4
-      - 日本◆AWS 10 Netflix 1倍率_5
-      - 日本◆AWS 09 Netflix 1倍率_6
-      - 日本◆AWS 12 Netflix 1倍率_7
-      - 日本◆AWS 07 Netflix 1倍率_8
-      - 日本◆AWS 03 Netflix 1倍率_9
-      - 日本◆AWS 01 Netflix 1倍率_10
-      - 新加坡◆AWS 03 Netflix 1倍率_11
-      - 美国UA◆DO 02 高速 1倍率_12
-      - 美国UA◆DO 01 高速 1倍率_13
-      - 美国UA◆DO 03 高速 1倍率_14
-      - 香港◆AWS 08 Netflix 1倍率_15
-      - 香港◆AWS 01 Netflix 1倍率_16
-      - 香港◆AWS 04 Netflix 1倍率_17
-      - 新加坡◆AWS 07 Netflix 1倍率_18
-      - 新加坡◆AWS 08 Netflix 1倍率_19
-      - 香港◆AWS 02 Netflix 1倍率_20
-      - 香港◆AWS 06 Netflix 1倍率_21
-      - 日本◆AWS 02 Netflix 1倍率_22
-      - 日本◆AWS 05 Netflix 1倍率_23
-      - 日本◆AWS 04 Netflix 1倍率_24
-      - 日本◆AWS 08 Netflix 1倍率_25
-      - 新加坡◆AWS 05 Netflix 1倍率_26
-      - 日本◆AWS 11 Netflix 1倍率_27
-      - 香港◆AWS 07 Netflix 1倍率_28
-      - 印度◆DO 04 Netflix 1倍率_29
+      - 🇺🇸 US_1017 | 2.25Mb
+      - 🇺🇸US_1022 |22.12Mb
+      - 🇺🇸US_1064 |124.63Mb
+      - 🇺🇸US_1136 |154.84Mb
+      - 🇺🇸US_1208 |144.10Mb
+      - 🇺🇸US_1642 | 7.98Mb
+      - 🇺🇸US_1648 | 5.25Mb
+      - 🇺🇸US_1652 |75.15Mb
+      - 🇺🇸US_1663 |26.65Mb
+      - 🇺🇸US_1664 |15.49Mb
+      - 🇺🇸US_1696 |33.45Mb
+      - 🇺🇸US_1814 | 6.78Mb
+      - 🇺🇸US_1816 |80.97Mb
+      - 🇺🇸US_1835 |12.35Mb
+      - 🇺🇸US_1881 |34.65Mb
+      - 🇺🇸US_1882 | 2.37Mb
+      - 🇺🇸US_1889 |19.46Mb
+      - 🇺🇸US_1897 |72.85Mb
+      - 🇺🇸US_1904 | 3.29Mb
+      - 🇺🇸US_1905 | 2.26Mb
+      - 🇺🇸US_1911 |43.78Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 亚太 香港 至尊 11【1x-80-广东停机卡】_1
-      - 亚太 香港 至尊 07【1x-80】_2
-      - 亚太 香港 至尊 05【1x-80】_3
-      - 日本◆AWS 06 Netflix 1倍率_4
-      - 日本◆AWS 10 Netflix 1倍率_5
-      - 日本◆AWS 09 Netflix 1倍率_6
-      - 日本◆AWS 12 Netflix 1倍率_7
-      - 日本◆AWS 07 Netflix 1倍率_8
-      - 日本◆AWS 03 Netflix 1倍率_9
-      - 日本◆AWS 01 Netflix 1倍率_10
-      - 新加坡◆AWS 03 Netflix 1倍率_11
-      - 美国UA◆DO 02 高速 1倍率_12
-      - 美国UA◆DO 01 高速 1倍率_13
-      - 美国UA◆DO 03 高速 1倍率_14
-      - 香港◆AWS 08 Netflix 1倍率_15
-      - 香港◆AWS 01 Netflix 1倍率_16
-      - 香港◆AWS 04 Netflix 1倍率_17
-      - 新加坡◆AWS 07 Netflix 1倍率_18
-      - 新加坡◆AWS 08 Netflix 1倍率_19
-      - 香港◆AWS 02 Netflix 1倍率_20
-      - 香港◆AWS 06 Netflix 1倍率_21
-      - 日本◆AWS 02 Netflix 1倍率_22
-      - 日本◆AWS 05 Netflix 1倍率_23
-      - 日本◆AWS 04 Netflix 1倍率_24
-      - 日本◆AWS 08 Netflix 1倍率_25
-      - 新加坡◆AWS 05 Netflix 1倍率_26
-      - 日本◆AWS 11 Netflix 1倍率_27
-      - 香港◆AWS 07 Netflix 1倍率_28
-      - 印度◆DO 04 Netflix 1倍率_29
+      - 🇺🇸 US_1017 | 2.25Mb
+      - 🇺🇸US_1022 |22.12Mb
+      - 🇺🇸US_1064 |124.63Mb
+      - 🇺🇸US_1136 |154.84Mb
+      - 🇺🇸US_1208 |144.10Mb
+      - 🇺🇸US_1642 | 7.98Mb
+      - 🇺🇸US_1648 | 5.25Mb
+      - 🇺🇸US_1652 |75.15Mb
+      - 🇺🇸US_1663 |26.65Mb
+      - 🇺🇸US_1664 |15.49Mb
+      - 🇺🇸US_1696 |33.45Mb
+      - 🇺🇸US_1814 | 6.78Mb
+      - 🇺🇸US_1816 |80.97Mb
+      - 🇺🇸US_1835 |12.35Mb
+      - 🇺🇸US_1881 |34.65Mb
+      - 🇺🇸US_1882 | 2.37Mb
+      - 🇺🇸US_1889 |19.46Mb
+      - 🇺🇸US_1897 |72.85Mb
+      - 🇺🇸US_1904 | 3.29Mb
+      - 🇺🇸US_1905 | 2.26Mb
+      - 🇺🇸US_1911 |43.78Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 亚太 香港 至尊 11【1x-80-广东停机卡】_1
-      - 亚太 香港 至尊 07【1x-80】_2
-      - 亚太 香港 至尊 05【1x-80】_3
-      - 日本◆AWS 06 Netflix 1倍率_4
-      - 日本◆AWS 10 Netflix 1倍率_5
-      - 日本◆AWS 09 Netflix 1倍率_6
-      - 日本◆AWS 12 Netflix 1倍率_7
-      - 日本◆AWS 07 Netflix 1倍率_8
-      - 日本◆AWS 03 Netflix 1倍率_9
-      - 日本◆AWS 01 Netflix 1倍率_10
-      - 新加坡◆AWS 03 Netflix 1倍率_11
-      - 美国UA◆DO 02 高速 1倍率_12
-      - 美国UA◆DO 01 高速 1倍率_13
-      - 美国UA◆DO 03 高速 1倍率_14
-      - 香港◆AWS 08 Netflix 1倍率_15
-      - 香港◆AWS 01 Netflix 1倍率_16
-      - 香港◆AWS 04 Netflix 1倍率_17
-      - 新加坡◆AWS 07 Netflix 1倍率_18
-      - 新加坡◆AWS 08 Netflix 1倍率_19
-      - 香港◆AWS 02 Netflix 1倍率_20
-      - 香港◆AWS 06 Netflix 1倍率_21
-      - 日本◆AWS 02 Netflix 1倍率_22
-      - 日本◆AWS 05 Netflix 1倍率_23
-      - 日本◆AWS 04 Netflix 1倍率_24
-      - 日本◆AWS 08 Netflix 1倍率_25
-      - 新加坡◆AWS 05 Netflix 1倍率_26
-      - 日本◆AWS 11 Netflix 1倍率_27
-      - 香港◆AWS 07 Netflix 1倍率_28
-      - 印度◆DO 04 Netflix 1倍率_29
+      - 🇺🇸 US_1017 | 2.25Mb
+      - 🇺🇸US_1022 |22.12Mb
+      - 🇺🇸US_1064 |124.63Mb
+      - 🇺🇸US_1136 |154.84Mb
+      - 🇺🇸US_1208 |144.10Mb
+      - 🇺🇸US_1642 | 7.98Mb
+      - 🇺🇸US_1648 | 5.25Mb
+      - 🇺🇸US_1652 |75.15Mb
+      - 🇺🇸US_1663 |26.65Mb
+      - 🇺🇸US_1664 |15.49Mb
+      - 🇺🇸US_1696 |33.45Mb
+      - 🇺🇸US_1814 | 6.78Mb
+      - 🇺🇸US_1816 |80.97Mb
+      - 🇺🇸US_1835 |12.35Mb
+      - 🇺🇸US_1881 |34.65Mb
+      - 🇺🇸US_1882 | 2.37Mb
+      - 🇺🇸US_1889 |19.46Mb
+      - 🇺🇸US_1897 |72.85Mb
+      - 🇺🇸US_1904 | 3.29Mb
+      - 🇺🇸US_1905 | 2.26Mb
+      - 🇺🇸US_1911 |43.78Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 亚太 香港 至尊 11【1x-80-广东停机卡】_1
-      - 亚太 香港 至尊 07【1x-80】_2
-      - 亚太 香港 至尊 05【1x-80】_3
-      - 日本◆AWS 06 Netflix 1倍率_4
-      - 日本◆AWS 10 Netflix 1倍率_5
-      - 日本◆AWS 09 Netflix 1倍率_6
-      - 日本◆AWS 12 Netflix 1倍率_7
-      - 日本◆AWS 07 Netflix 1倍率_8
-      - 日本◆AWS 03 Netflix 1倍率_9
-      - 日本◆AWS 01 Netflix 1倍率_10
-      - 新加坡◆AWS 03 Netflix 1倍率_11
-      - 美国UA◆DO 02 高速 1倍率_12
-      - 美国UA◆DO 01 高速 1倍率_13
-      - 美国UA◆DO 03 高速 1倍率_14
-      - 香港◆AWS 08 Netflix 1倍率_15
-      - 香港◆AWS 01 Netflix 1倍率_16
-      - 香港◆AWS 04 Netflix 1倍率_17
-      - 新加坡◆AWS 07 Netflix 1倍率_18
-      - 新加坡◆AWS 08 Netflix 1倍率_19
-      - 香港◆AWS 02 Netflix 1倍率_20
-      - 香港◆AWS 06 Netflix 1倍率_21
-      - 日本◆AWS 02 Netflix 1倍率_22
-      - 日本◆AWS 05 Netflix 1倍率_23
-      - 日本◆AWS 04 Netflix 1倍率_24
-      - 日本◆AWS 08 Netflix 1倍率_25
-      - 新加坡◆AWS 05 Netflix 1倍率_26
-      - 日本◆AWS 11 Netflix 1倍率_27
-      - 香港◆AWS 07 Netflix 1倍率_28
-      - 印度◆DO 04 Netflix 1倍率_29
+      - 🇺🇸 US_1017 | 2.25Mb
+      - 🇺🇸US_1022 |22.12Mb
+      - 🇺🇸US_1064 |124.63Mb
+      - 🇺🇸US_1136 |154.84Mb
+      - 🇺🇸US_1208 |144.10Mb
+      - 🇺🇸US_1642 | 7.98Mb
+      - 🇺🇸US_1648 | 5.25Mb
+      - 🇺🇸US_1652 |75.15Mb
+      - 🇺🇸US_1663 |26.65Mb
+      - 🇺🇸US_1664 |15.49Mb
+      - 🇺🇸US_1696 |33.45Mb
+      - 🇺🇸US_1814 | 6.78Mb
+      - 🇺🇸US_1816 |80.97Mb
+      - 🇺🇸US_1835 |12.35Mb
+      - 🇺🇸US_1881 |34.65Mb
+      - 🇺🇸US_1882 | 2.37Mb
+      - 🇺🇸US_1889 |19.46Mb
+      - 🇺🇸US_1897 |72.85Mb
+      - 🇺🇸US_1904 | 3.29Mb
+      - 🇺🇸US_1905 | 2.26Mb
+      - 🇺🇸US_1911 |43.78Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -290,35 +226,27 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 亚太 香港 至尊 11【1x-80-广东停机卡】_1
-      - 亚太 香港 至尊 07【1x-80】_2
-      - 亚太 香港 至尊 05【1x-80】_3
-      - 日本◆AWS 06 Netflix 1倍率_4
-      - 日本◆AWS 10 Netflix 1倍率_5
-      - 日本◆AWS 09 Netflix 1倍率_6
-      - 日本◆AWS 12 Netflix 1倍率_7
-      - 日本◆AWS 07 Netflix 1倍率_8
-      - 日本◆AWS 03 Netflix 1倍率_9
-      - 日本◆AWS 01 Netflix 1倍率_10
-      - 新加坡◆AWS 03 Netflix 1倍率_11
-      - 美国UA◆DO 02 高速 1倍率_12
-      - 美国UA◆DO 01 高速 1倍率_13
-      - 美国UA◆DO 03 高速 1倍率_14
-      - 香港◆AWS 08 Netflix 1倍率_15
-      - 香港◆AWS 01 Netflix 1倍率_16
-      - 香港◆AWS 04 Netflix 1倍率_17
-      - 新加坡◆AWS 07 Netflix 1倍率_18
-      - 新加坡◆AWS 08 Netflix 1倍率_19
-      - 香港◆AWS 02 Netflix 1倍率_20
-      - 香港◆AWS 06 Netflix 1倍率_21
-      - 日本◆AWS 02 Netflix 1倍率_22
-      - 日本◆AWS 05 Netflix 1倍率_23
-      - 日本◆AWS 04 Netflix 1倍率_24
-      - 日本◆AWS 08 Netflix 1倍率_25
-      - 新加坡◆AWS 05 Netflix 1倍率_26
-      - 日本◆AWS 11 Netflix 1倍率_27
-      - 香港◆AWS 07 Netflix 1倍率_28
-      - 印度◆DO 04 Netflix 1倍率_29
+      - 🇺🇸 US_1017 | 2.25Mb
+      - 🇺🇸US_1022 |22.12Mb
+      - 🇺🇸US_1064 |124.63Mb
+      - 🇺🇸US_1136 |154.84Mb
+      - 🇺🇸US_1208 |144.10Mb
+      - 🇺🇸US_1642 | 7.98Mb
+      - 🇺🇸US_1648 | 5.25Mb
+      - 🇺🇸US_1652 |75.15Mb
+      - 🇺🇸US_1663 |26.65Mb
+      - 🇺🇸US_1664 |15.49Mb
+      - 🇺🇸US_1696 |33.45Mb
+      - 🇺🇸US_1814 | 6.78Mb
+      - 🇺🇸US_1816 |80.97Mb
+      - 🇺🇸US_1835 |12.35Mb
+      - 🇺🇸US_1881 |34.65Mb
+      - 🇺🇸US_1882 | 2.37Mb
+      - 🇺🇸US_1889 |19.46Mb
+      - 🇺🇸US_1897 |72.85Mb
+      - 🇺🇸US_1904 | 3.29Mb
+      - 🇺🇸US_1905 | 2.26Mb
+      - 🇺🇸US_1911 |43.78Mb
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
