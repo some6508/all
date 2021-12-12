@@ -5,212 +5,356 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇺🇸 US_1017 | 2.25Mb', server: hax.hostmeetingnow.tk, port: 80, type: vmess, uuid: 86606733-f014-46d5-e5e4-8dc4d9fb77d2, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /api/v2/null}
-  - {name: '🇺🇸US_1022 |22.12Mb', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
-  - {name: '🇺🇸US_1064 |124.63Mb', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: '🇺🇸US_1136 |154.84Mb', server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
-  - {name: '🇺🇸US_1208 |144.10Mb', server: 38.68.134.37, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸US_1642 | 7.98Mb', server: 192.46.210.73, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸US_1648 | 5.25Mb', server: 192.46.210.73, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸US_1652 |75.15Mb', server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '🇺🇸US_1663 |26.65Mb', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '🇺🇸US_1664 |15.49Mb', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸US_1696 |33.45Mb', server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
-  - {name: '🇺🇸US_1814 | 6.78Mb', server: 192.46.209.215, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸US_1816 |80.97Mb', server: 104.140.21.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL}
-  - {name: '🇺🇸US_1835 |12.35Mb', server: 192.46.209.215, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸US_1881 |34.65Mb', server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '🇺🇸US_1882 | 2.37Mb', server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '🇺🇸US_1889 |19.46Mb', server: api.ssfree.ru, port: 443, type: vmess, uuid: fb5655b0-5aff-11ec-92b4-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /getweather}
-  - {name: '🇺🇸US_1897 |72.85Mb', server: xllhexxx.xyz, port: 46436, type: vmess, uuid: 56857807-6ca9-4e39-8482-b951608efe69, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1145141919}
-  - {name: '🇺🇸US_1904 | 3.29Mb', server: 198.200.51.34, port: 10911, type: vmess, uuid: 53e483d4-1ea9-11ec-ad60-00163cc87418, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '🇺🇸US_1905 | 2.26Mb', server: 198.200.51.18, port: 600, type: vmess, uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '🇺🇸US_1911 |43.78Mb', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: '🇭🇰 Hong Kong 15_1', server: 211.99.96.18, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇭🇰 Hong Kong 10_2', server: 211.99.96.13, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇭🇰 Hong Kong 14_3', server: 211.99.96.17, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇭🇰 Hong Kong 11_4', server: 211.99.96.14, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇭🇰 Hong Kong 16_5', server: 211.99.96.19, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇭🇰 Hong Kong 08_6', server: 211.99.96.11, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇭🇰 Hong Kong 04_7', server: 211.99.96.5, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇭🇰 Hong Kong 02_8', server: 211.99.96.7, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇭🇰 Hong Kong 09_9', server: 211.99.96.12, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇭🇰 Hong Kong 13_10', server: 211.99.96.16, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇸🇬 Singapore 05 | Media_11', server: 211.99.96.35, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇸🇬 Singapore 06 | Media_12', server: 211.99.96.36, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇸🇬 Singapore 04 | Media_13', server: 211.99.96.34, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇸🇬 Singapore 03 | Media_14', server: 211.99.96.33, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇸🇬 Singapore 01 | Media_15', server: 211.99.96.31, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇯🇵 Japan 05 | Media_16', server: 211.99.96.24, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇭🇰 Hong Kong 06_17', server: 211.99.96.9, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇭🇰 Hong Kong 03_18', server: 211.99.96.6, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇯🇵 Japan 04 | Media_19', server: 211.99.96.23, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇸🇬 Singapore 02 | Media_20', server: 211.99.96.32, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇺🇸 United States 05 | Media_21', server: 211.99.96.30, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇺🇸 United States 03 | Media_22', server: 211.99.96.28, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇺🇸 United States 04 | Media_23', server: 211.99.96.29, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇺🇸 United States 01 | Media_24', server: 211.99.96.26, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇨🇳 Taiwan 04 | Shenzhen_25', server: 211.99.96.40, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: '🇨🇳 Taiwan 01 | Shenzhen_26', server: 211.99.96.37, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: 'default_ssr_name_27', server: 120.232.43.146, port: 20017, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: 'default_ssr_name_28', server: 120.232.43.146, port: 20011, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: 'default_ssr_name_29', server: 120.232.43.146, port: 20006, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: 'default_ssr_name_30', server: 120.232.43.146, port: 20010, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: 'default_ssr_name_31', server: 120.232.43.146, port: 20015, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: 'default_ssr_name_32', server: 120.232.43.146, port: 20004, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: '🇺🇸 United States 02 | Media_33', server: 211.99.96.27, port: 10524, type: ss, plugin: obfs-local ,plugin-opts: {obfs: http, obfs-host: ds.download.windowsupdate.com}, cipher: xchacha20-ietf-poly1305, password: H5gN67}
+  - {name: 'default_ssr_name_34', server: 120.232.43.146, port: 20007, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: 'default_ssr_name_35', server: 120.232.43.146, port: 20012, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: 'default_ssr_name_36', server: 120.232.43.146, port: 20003, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: 'default_ssr_name_37', server: 120.232.43.146, port: 20009, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: 'default_ssr_name_38', server: 120.232.43.146, port: 20005, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: 'default_ssr_name_39', server: 120.232.43.146, port: 20013, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 US_1017 | 2.25Mb
-      - 🇺🇸US_1022 |22.12Mb
-      - 🇺🇸US_1064 |124.63Mb
-      - 🇺🇸US_1136 |154.84Mb
-      - 🇺🇸US_1208 |144.10Mb
-      - 🇺🇸US_1642 | 7.98Mb
-      - 🇺🇸US_1648 | 5.25Mb
-      - 🇺🇸US_1652 |75.15Mb
-      - 🇺🇸US_1663 |26.65Mb
-      - 🇺🇸US_1664 |15.49Mb
-      - 🇺🇸US_1696 |33.45Mb
-      - 🇺🇸US_1814 | 6.78Mb
-      - 🇺🇸US_1816 |80.97Mb
-      - 🇺🇸US_1835 |12.35Mb
-      - 🇺🇸US_1881 |34.65Mb
-      - 🇺🇸US_1882 | 2.37Mb
-      - 🇺🇸US_1889 |19.46Mb
-      - 🇺🇸US_1897 |72.85Mb
-      - 🇺🇸US_1904 | 3.29Mb
-      - 🇺🇸US_1905 | 2.26Mb
-      - 🇺🇸US_1911 |43.78Mb
+      - 🇭🇰 Hong Kong 15_1
+      - 🇭🇰 Hong Kong 10_2
+      - 🇭🇰 Hong Kong 14_3
+      - 🇭🇰 Hong Kong 11_4
+      - 🇭🇰 Hong Kong 16_5
+      - 🇭🇰 Hong Kong 08_6
+      - 🇭🇰 Hong Kong 04_7
+      - 🇭🇰 Hong Kong 02_8
+      - 🇭🇰 Hong Kong 09_9
+      - 🇭🇰 Hong Kong 13_10
+      - 🇸🇬 Singapore 05 | Media_11
+      - 🇸🇬 Singapore 06 | Media_12
+      - 🇸🇬 Singapore 04 | Media_13
+      - 🇸🇬 Singapore 03 | Media_14
+      - 🇸🇬 Singapore 01 | Media_15
+      - 🇯🇵 Japan 05 | Media_16
+      - 🇭🇰 Hong Kong 06_17
+      - 🇭🇰 Hong Kong 03_18
+      - 🇯🇵 Japan 04 | Media_19
+      - 🇸🇬 Singapore 02 | Media_20
+      - 🇺🇸 United States 05 | Media_21
+      - 🇺🇸 United States 03 | Media_22
+      - 🇺🇸 United States 04 | Media_23
+      - 🇺🇸 United States 01 | Media_24
+      - 🇨🇳 Taiwan 04 | Shenzhen_25
+      - 🇨🇳 Taiwan 01 | Shenzhen_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - 🇺🇸 United States 02 | Media_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 US_1017 | 2.25Mb
-      - 🇺🇸US_1022 |22.12Mb
-      - 🇺🇸US_1064 |124.63Mb
-      - 🇺🇸US_1136 |154.84Mb
-      - 🇺🇸US_1208 |144.10Mb
-      - 🇺🇸US_1642 | 7.98Mb
-      - 🇺🇸US_1648 | 5.25Mb
-      - 🇺🇸US_1652 |75.15Mb
-      - 🇺🇸US_1663 |26.65Mb
-      - 🇺🇸US_1664 |15.49Mb
-      - 🇺🇸US_1696 |33.45Mb
-      - 🇺🇸US_1814 | 6.78Mb
-      - 🇺🇸US_1816 |80.97Mb
-      - 🇺🇸US_1835 |12.35Mb
-      - 🇺🇸US_1881 |34.65Mb
-      - 🇺🇸US_1882 | 2.37Mb
-      - 🇺🇸US_1889 |19.46Mb
-      - 🇺🇸US_1897 |72.85Mb
-      - 🇺🇸US_1904 | 3.29Mb
-      - 🇺🇸US_1905 | 2.26Mb
-      - 🇺🇸US_1911 |43.78Mb
+      - 🇭🇰 Hong Kong 15_1
+      - 🇭🇰 Hong Kong 10_2
+      - 🇭🇰 Hong Kong 14_3
+      - 🇭🇰 Hong Kong 11_4
+      - 🇭🇰 Hong Kong 16_5
+      - 🇭🇰 Hong Kong 08_6
+      - 🇭🇰 Hong Kong 04_7
+      - 🇭🇰 Hong Kong 02_8
+      - 🇭🇰 Hong Kong 09_9
+      - 🇭🇰 Hong Kong 13_10
+      - 🇸🇬 Singapore 05 | Media_11
+      - 🇸🇬 Singapore 06 | Media_12
+      - 🇸🇬 Singapore 04 | Media_13
+      - 🇸🇬 Singapore 03 | Media_14
+      - 🇸🇬 Singapore 01 | Media_15
+      - 🇯🇵 Japan 05 | Media_16
+      - 🇭🇰 Hong Kong 06_17
+      - 🇭🇰 Hong Kong 03_18
+      - 🇯🇵 Japan 04 | Media_19
+      - 🇸🇬 Singapore 02 | Media_20
+      - 🇺🇸 United States 05 | Media_21
+      - 🇺🇸 United States 03 | Media_22
+      - 🇺🇸 United States 04 | Media_23
+      - 🇺🇸 United States 01 | Media_24
+      - 🇨🇳 Taiwan 04 | Shenzhen_25
+      - 🇨🇳 Taiwan 01 | Shenzhen_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - 🇺🇸 United States 02 | Media_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 US_1017 | 2.25Mb
-      - 🇺🇸US_1022 |22.12Mb
-      - 🇺🇸US_1064 |124.63Mb
-      - 🇺🇸US_1136 |154.84Mb
-      - 🇺🇸US_1208 |144.10Mb
-      - 🇺🇸US_1642 | 7.98Mb
-      - 🇺🇸US_1648 | 5.25Mb
-      - 🇺🇸US_1652 |75.15Mb
-      - 🇺🇸US_1663 |26.65Mb
-      - 🇺🇸US_1664 |15.49Mb
-      - 🇺🇸US_1696 |33.45Mb
-      - 🇺🇸US_1814 | 6.78Mb
-      - 🇺🇸US_1816 |80.97Mb
-      - 🇺🇸US_1835 |12.35Mb
-      - 🇺🇸US_1881 |34.65Mb
-      - 🇺🇸US_1882 | 2.37Mb
-      - 🇺🇸US_1889 |19.46Mb
-      - 🇺🇸US_1897 |72.85Mb
-      - 🇺🇸US_1904 | 3.29Mb
-      - 🇺🇸US_1905 | 2.26Mb
-      - 🇺🇸US_1911 |43.78Mb
+      - 🇭🇰 Hong Kong 15_1
+      - 🇭🇰 Hong Kong 10_2
+      - 🇭🇰 Hong Kong 14_3
+      - 🇭🇰 Hong Kong 11_4
+      - 🇭🇰 Hong Kong 16_5
+      - 🇭🇰 Hong Kong 08_6
+      - 🇭🇰 Hong Kong 04_7
+      - 🇭🇰 Hong Kong 02_8
+      - 🇭🇰 Hong Kong 09_9
+      - 🇭🇰 Hong Kong 13_10
+      - 🇸🇬 Singapore 05 | Media_11
+      - 🇸🇬 Singapore 06 | Media_12
+      - 🇸🇬 Singapore 04 | Media_13
+      - 🇸🇬 Singapore 03 | Media_14
+      - 🇸🇬 Singapore 01 | Media_15
+      - 🇯🇵 Japan 05 | Media_16
+      - 🇭🇰 Hong Kong 06_17
+      - 🇭🇰 Hong Kong 03_18
+      - 🇯🇵 Japan 04 | Media_19
+      - 🇸🇬 Singapore 02 | Media_20
+      - 🇺🇸 United States 05 | Media_21
+      - 🇺🇸 United States 03 | Media_22
+      - 🇺🇸 United States 04 | Media_23
+      - 🇺🇸 United States 01 | Media_24
+      - 🇨🇳 Taiwan 04 | Shenzhen_25
+      - 🇨🇳 Taiwan 01 | Shenzhen_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - 🇺🇸 United States 02 | Media_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 US_1017 | 2.25Mb
-      - 🇺🇸US_1022 |22.12Mb
-      - 🇺🇸US_1064 |124.63Mb
-      - 🇺🇸US_1136 |154.84Mb
-      - 🇺🇸US_1208 |144.10Mb
-      - 🇺🇸US_1642 | 7.98Mb
-      - 🇺🇸US_1648 | 5.25Mb
-      - 🇺🇸US_1652 |75.15Mb
-      - 🇺🇸US_1663 |26.65Mb
-      - 🇺🇸US_1664 |15.49Mb
-      - 🇺🇸US_1696 |33.45Mb
-      - 🇺🇸US_1814 | 6.78Mb
-      - 🇺🇸US_1816 |80.97Mb
-      - 🇺🇸US_1835 |12.35Mb
-      - 🇺🇸US_1881 |34.65Mb
-      - 🇺🇸US_1882 | 2.37Mb
-      - 🇺🇸US_1889 |19.46Mb
-      - 🇺🇸US_1897 |72.85Mb
-      - 🇺🇸US_1904 | 3.29Mb
-      - 🇺🇸US_1905 | 2.26Mb
-      - 🇺🇸US_1911 |43.78Mb
+      - 🇭🇰 Hong Kong 15_1
+      - 🇭🇰 Hong Kong 10_2
+      - 🇭🇰 Hong Kong 14_3
+      - 🇭🇰 Hong Kong 11_4
+      - 🇭🇰 Hong Kong 16_5
+      - 🇭🇰 Hong Kong 08_6
+      - 🇭🇰 Hong Kong 04_7
+      - 🇭🇰 Hong Kong 02_8
+      - 🇭🇰 Hong Kong 09_9
+      - 🇭🇰 Hong Kong 13_10
+      - 🇸🇬 Singapore 05 | Media_11
+      - 🇸🇬 Singapore 06 | Media_12
+      - 🇸🇬 Singapore 04 | Media_13
+      - 🇸🇬 Singapore 03 | Media_14
+      - 🇸🇬 Singapore 01 | Media_15
+      - 🇯🇵 Japan 05 | Media_16
+      - 🇭🇰 Hong Kong 06_17
+      - 🇭🇰 Hong Kong 03_18
+      - 🇯🇵 Japan 04 | Media_19
+      - 🇸🇬 Singapore 02 | Media_20
+      - 🇺🇸 United States 05 | Media_21
+      - 🇺🇸 United States 03 | Media_22
+      - 🇺🇸 United States 04 | Media_23
+      - 🇺🇸 United States 01 | Media_24
+      - 🇨🇳 Taiwan 04 | Shenzhen_25
+      - 🇨🇳 Taiwan 01 | Shenzhen_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - 🇺🇸 United States 02 | Media_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 US_1017 | 2.25Mb
-      - 🇺🇸US_1022 |22.12Mb
-      - 🇺🇸US_1064 |124.63Mb
-      - 🇺🇸US_1136 |154.84Mb
-      - 🇺🇸US_1208 |144.10Mb
-      - 🇺🇸US_1642 | 7.98Mb
-      - 🇺🇸US_1648 | 5.25Mb
-      - 🇺🇸US_1652 |75.15Mb
-      - 🇺🇸US_1663 |26.65Mb
-      - 🇺🇸US_1664 |15.49Mb
-      - 🇺🇸US_1696 |33.45Mb
-      - 🇺🇸US_1814 | 6.78Mb
-      - 🇺🇸US_1816 |80.97Mb
-      - 🇺🇸US_1835 |12.35Mb
-      - 🇺🇸US_1881 |34.65Mb
-      - 🇺🇸US_1882 | 2.37Mb
-      - 🇺🇸US_1889 |19.46Mb
-      - 🇺🇸US_1897 |72.85Mb
-      - 🇺🇸US_1904 | 3.29Mb
-      - 🇺🇸US_1905 | 2.26Mb
-      - 🇺🇸US_1911 |43.78Mb
+      - 🇭🇰 Hong Kong 15_1
+      - 🇭🇰 Hong Kong 10_2
+      - 🇭🇰 Hong Kong 14_3
+      - 🇭🇰 Hong Kong 11_4
+      - 🇭🇰 Hong Kong 16_5
+      - 🇭🇰 Hong Kong 08_6
+      - 🇭🇰 Hong Kong 04_7
+      - 🇭🇰 Hong Kong 02_8
+      - 🇭🇰 Hong Kong 09_9
+      - 🇭🇰 Hong Kong 13_10
+      - 🇸🇬 Singapore 05 | Media_11
+      - 🇸🇬 Singapore 06 | Media_12
+      - 🇸🇬 Singapore 04 | Media_13
+      - 🇸🇬 Singapore 03 | Media_14
+      - 🇸🇬 Singapore 01 | Media_15
+      - 🇯🇵 Japan 05 | Media_16
+      - 🇭🇰 Hong Kong 06_17
+      - 🇭🇰 Hong Kong 03_18
+      - 🇯🇵 Japan 04 | Media_19
+      - 🇸🇬 Singapore 02 | Media_20
+      - 🇺🇸 United States 05 | Media_21
+      - 🇺🇸 United States 03 | Media_22
+      - 🇺🇸 United States 04 | Media_23
+      - 🇺🇸 United States 01 | Media_24
+      - 🇨🇳 Taiwan 04 | Shenzhen_25
+      - 🇨🇳 Taiwan 01 | Shenzhen_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - 🇺🇸 United States 02 | Media_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 US_1017 | 2.25Mb
-      - 🇺🇸US_1022 |22.12Mb
-      - 🇺🇸US_1064 |124.63Mb
-      - 🇺🇸US_1136 |154.84Mb
-      - 🇺🇸US_1208 |144.10Mb
-      - 🇺🇸US_1642 | 7.98Mb
-      - 🇺🇸US_1648 | 5.25Mb
-      - 🇺🇸US_1652 |75.15Mb
-      - 🇺🇸US_1663 |26.65Mb
-      - 🇺🇸US_1664 |15.49Mb
-      - 🇺🇸US_1696 |33.45Mb
-      - 🇺🇸US_1814 | 6.78Mb
-      - 🇺🇸US_1816 |80.97Mb
-      - 🇺🇸US_1835 |12.35Mb
-      - 🇺🇸US_1881 |34.65Mb
-      - 🇺🇸US_1882 | 2.37Mb
-      - 🇺🇸US_1889 |19.46Mb
-      - 🇺🇸US_1897 |72.85Mb
-      - 🇺🇸US_1904 | 3.29Mb
-      - 🇺🇸US_1905 | 2.26Mb
-      - 🇺🇸US_1911 |43.78Mb
+      - 🇭🇰 Hong Kong 15_1
+      - 🇭🇰 Hong Kong 10_2
+      - 🇭🇰 Hong Kong 14_3
+      - 🇭🇰 Hong Kong 11_4
+      - 🇭🇰 Hong Kong 16_5
+      - 🇭🇰 Hong Kong 08_6
+      - 🇭🇰 Hong Kong 04_7
+      - 🇭🇰 Hong Kong 02_8
+      - 🇭🇰 Hong Kong 09_9
+      - 🇭🇰 Hong Kong 13_10
+      - 🇸🇬 Singapore 05 | Media_11
+      - 🇸🇬 Singapore 06 | Media_12
+      - 🇸🇬 Singapore 04 | Media_13
+      - 🇸🇬 Singapore 03 | Media_14
+      - 🇸🇬 Singapore 01 | Media_15
+      - 🇯🇵 Japan 05 | Media_16
+      - 🇭🇰 Hong Kong 06_17
+      - 🇭🇰 Hong Kong 03_18
+      - 🇯🇵 Japan 04 | Media_19
+      - 🇸🇬 Singapore 02 | Media_20
+      - 🇺🇸 United States 05 | Media_21
+      - 🇺🇸 United States 03 | Media_22
+      - 🇺🇸 United States 04 | Media_23
+      - 🇺🇸 United States 01 | Media_24
+      - 🇨🇳 Taiwan 04 | Shenzhen_25
+      - 🇨🇳 Taiwan 01 | Shenzhen_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - 🇺🇸 United States 02 | Media_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 US_1017 | 2.25Mb
-      - 🇺🇸US_1022 |22.12Mb
-      - 🇺🇸US_1064 |124.63Mb
-      - 🇺🇸US_1136 |154.84Mb
-      - 🇺🇸US_1208 |144.10Mb
-      - 🇺🇸US_1642 | 7.98Mb
-      - 🇺🇸US_1648 | 5.25Mb
-      - 🇺🇸US_1652 |75.15Mb
-      - 🇺🇸US_1663 |26.65Mb
-      - 🇺🇸US_1664 |15.49Mb
-      - 🇺🇸US_1696 |33.45Mb
-      - 🇺🇸US_1814 | 6.78Mb
-      - 🇺🇸US_1816 |80.97Mb
-      - 🇺🇸US_1835 |12.35Mb
-      - 🇺🇸US_1881 |34.65Mb
-      - 🇺🇸US_1882 | 2.37Mb
-      - 🇺🇸US_1889 |19.46Mb
-      - 🇺🇸US_1897 |72.85Mb
-      - 🇺🇸US_1904 | 3.29Mb
-      - 🇺🇸US_1905 | 2.26Mb
-      - 🇺🇸US_1911 |43.78Mb
+      - 🇭🇰 Hong Kong 15_1
+      - 🇭🇰 Hong Kong 10_2
+      - 🇭🇰 Hong Kong 14_3
+      - 🇭🇰 Hong Kong 11_4
+      - 🇭🇰 Hong Kong 16_5
+      - 🇭🇰 Hong Kong 08_6
+      - 🇭🇰 Hong Kong 04_7
+      - 🇭🇰 Hong Kong 02_8
+      - 🇭🇰 Hong Kong 09_9
+      - 🇭🇰 Hong Kong 13_10
+      - 🇸🇬 Singapore 05 | Media_11
+      - 🇸🇬 Singapore 06 | Media_12
+      - 🇸🇬 Singapore 04 | Media_13
+      - 🇸🇬 Singapore 03 | Media_14
+      - 🇸🇬 Singapore 01 | Media_15
+      - 🇯🇵 Japan 05 | Media_16
+      - 🇭🇰 Hong Kong 06_17
+      - 🇭🇰 Hong Kong 03_18
+      - 🇯🇵 Japan 04 | Media_19
+      - 🇸🇬 Singapore 02 | Media_20
+      - 🇺🇸 United States 05 | Media_21
+      - 🇺🇸 United States 03 | Media_22
+      - 🇺🇸 United States 04 | Media_23
+      - 🇺🇸 United States 01 | Media_24
+      - 🇨🇳 Taiwan 04 | Shenzhen_25
+      - 🇨🇳 Taiwan 01 | Shenzhen_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - 🇺🇸 United States 02 | Media_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -226,27 +370,45 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 US_1017 | 2.25Mb
-      - 🇺🇸US_1022 |22.12Mb
-      - 🇺🇸US_1064 |124.63Mb
-      - 🇺🇸US_1136 |154.84Mb
-      - 🇺🇸US_1208 |144.10Mb
-      - 🇺🇸US_1642 | 7.98Mb
-      - 🇺🇸US_1648 | 5.25Mb
-      - 🇺🇸US_1652 |75.15Mb
-      - 🇺🇸US_1663 |26.65Mb
-      - 🇺🇸US_1664 |15.49Mb
-      - 🇺🇸US_1696 |33.45Mb
-      - 🇺🇸US_1814 | 6.78Mb
-      - 🇺🇸US_1816 |80.97Mb
-      - 🇺🇸US_1835 |12.35Mb
-      - 🇺🇸US_1881 |34.65Mb
-      - 🇺🇸US_1882 | 2.37Mb
-      - 🇺🇸US_1889 |19.46Mb
-      - 🇺🇸US_1897 |72.85Mb
-      - 🇺🇸US_1904 | 3.29Mb
-      - 🇺🇸US_1905 | 2.26Mb
-      - 🇺🇸US_1911 |43.78Mb
+      - 🇭🇰 Hong Kong 15_1
+      - 🇭🇰 Hong Kong 10_2
+      - 🇭🇰 Hong Kong 14_3
+      - 🇭🇰 Hong Kong 11_4
+      - 🇭🇰 Hong Kong 16_5
+      - 🇭🇰 Hong Kong 08_6
+      - 🇭🇰 Hong Kong 04_7
+      - 🇭🇰 Hong Kong 02_8
+      - 🇭🇰 Hong Kong 09_9
+      - 🇭🇰 Hong Kong 13_10
+      - 🇸🇬 Singapore 05 | Media_11
+      - 🇸🇬 Singapore 06 | Media_12
+      - 🇸🇬 Singapore 04 | Media_13
+      - 🇸🇬 Singapore 03 | Media_14
+      - 🇸🇬 Singapore 01 | Media_15
+      - 🇯🇵 Japan 05 | Media_16
+      - 🇭🇰 Hong Kong 06_17
+      - 🇭🇰 Hong Kong 03_18
+      - 🇯🇵 Japan 04 | Media_19
+      - 🇸🇬 Singapore 02 | Media_20
+      - 🇺🇸 United States 05 | Media_21
+      - 🇺🇸 United States 03 | Media_22
+      - 🇺🇸 United States 04 | Media_23
+      - 🇺🇸 United States 01 | Media_24
+      - 🇨🇳 Taiwan 04 | Shenzhen_25
+      - 🇨🇳 Taiwan 01 | Shenzhen_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - 🇺🇸 United States 02 | Media_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
