@@ -5,124 +5,76 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'default_ssr_name_1', server: ssr3.ssrsub.com, port: 8333, type: ssr, password: "passfw2xs4e!", cipher: rc4-md5, protocol: origin, obfs: plain}
-  - {name: '🇨🇳 CN_271 |20.93Mb', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '🇨🇳 CN_272 | 4.10Mb', server: 139.227.161.129, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '🇨🇳 CN_273 |18.59Mb', server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /inde}
-  - {name: '🇨🇳CN_274', server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: '🇨🇳CN_275 | 3.50Mb', server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: 4415934295}
-  - {name: '🇨🇳CN_277', server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: 'default_ssr_name_8', server: 117.28.243.132, port: 8333, type: ssr, password: "passfw2xs4e!", cipher: rc4-md5, protocol: origin, obfs: plain}
-  - {name: 'default_ssr_name_9', server: p5.22332e.com, port: 8333, type: ssr, password: "passfw2xs4e!", cipher: rc4-md5, protocol: origin, obfs: plain}
-  - {name: 'default_ssr_name_10', server: ssr3.ssrsub.com, port: 8333, type: ssr, password: "passfw2xs4e!", cipher: rc4-md5, protocol: origin, obfs: plain}
+  - {name: '🇨🇦_CA_加拿大_1', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇯🇵_JP_日本_2', server: 139.162.80.175, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇫🇷_FR_法国_3', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '🇮🇳_IN_印度_4', server: 192.46.210.73, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - default_ssr_name_1
-      - 🇨🇳 CN_271 |20.93Mb
-      - 🇨🇳 CN_272 | 4.10Mb
-      - 🇨🇳 CN_273 |18.59Mb
-      - 🇨🇳CN_274
-      - 🇨🇳CN_275 | 3.50Mb
-      - 🇨🇳CN_277
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
+      - 🇨🇦_CA_加拿大_1
+      - 🇯🇵_JP_日本_2
+      - 🇫🇷_FR_法国_3
+      - 🇮🇳_IN_印度_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - default_ssr_name_1
-      - 🇨🇳 CN_271 |20.93Mb
-      - 🇨🇳 CN_272 | 4.10Mb
-      - 🇨🇳 CN_273 |18.59Mb
-      - 🇨🇳CN_274
-      - 🇨🇳CN_275 | 3.50Mb
-      - 🇨🇳CN_277
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
+      - 🇨🇦_CA_加拿大_1
+      - 🇯🇵_JP_日本_2
+      - 🇫🇷_FR_法国_3
+      - 🇮🇳_IN_印度_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - default_ssr_name_1
-      - 🇨🇳 CN_271 |20.93Mb
-      - 🇨🇳 CN_272 | 4.10Mb
-      - 🇨🇳 CN_273 |18.59Mb
-      - 🇨🇳CN_274
-      - 🇨🇳CN_275 | 3.50Mb
-      - 🇨🇳CN_277
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
+      - 🇨🇦_CA_加拿大_1
+      - 🇯🇵_JP_日本_2
+      - 🇫🇷_FR_法国_3
+      - 🇮🇳_IN_印度_4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - default_ssr_name_1
-      - 🇨🇳 CN_271 |20.93Mb
-      - 🇨🇳 CN_272 | 4.10Mb
-      - 🇨🇳 CN_273 |18.59Mb
-      - 🇨🇳CN_274
-      - 🇨🇳CN_275 | 3.50Mb
-      - 🇨🇳CN_277
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
+      - 🇨🇦_CA_加拿大_1
+      - 🇯🇵_JP_日本_2
+      - 🇫🇷_FR_法国_3
+      - 🇮🇳_IN_印度_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - default_ssr_name_1
-      - 🇨🇳 CN_271 |20.93Mb
-      - 🇨🇳 CN_272 | 4.10Mb
-      - 🇨🇳 CN_273 |18.59Mb
-      - 🇨🇳CN_274
-      - 🇨🇳CN_275 | 3.50Mb
-      - 🇨🇳CN_277
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
+      - 🇨🇦_CA_加拿大_1
+      - 🇯🇵_JP_日本_2
+      - 🇫🇷_FR_法国_3
+      - 🇮🇳_IN_印度_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - default_ssr_name_1
-      - 🇨🇳 CN_271 |20.93Mb
-      - 🇨🇳 CN_272 | 4.10Mb
-      - 🇨🇳 CN_273 |18.59Mb
-      - 🇨🇳CN_274
-      - 🇨🇳CN_275 | 3.50Mb
-      - 🇨🇳CN_277
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
+      - 🇨🇦_CA_加拿大_1
+      - 🇯🇵_JP_日本_2
+      - 🇫🇷_FR_法国_3
+      - 🇮🇳_IN_印度_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - default_ssr_name_1
-      - 🇨🇳 CN_271 |20.93Mb
-      - 🇨🇳 CN_272 | 4.10Mb
-      - 🇨🇳 CN_273 |18.59Mb
-      - 🇨🇳CN_274
-      - 🇨🇳CN_275 | 3.50Mb
-      - 🇨🇳CN_277
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
+      - 🇨🇦_CA_加拿大_1
+      - 🇯🇵_JP_日本_2
+      - 🇫🇷_FR_法国_3
+      - 🇮🇳_IN_印度_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +90,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - default_ssr_name_1
-      - 🇨🇳 CN_271 |20.93Mb
-      - 🇨🇳 CN_272 | 4.10Mb
-      - 🇨🇳 CN_273 |18.59Mb
-      - 🇨🇳CN_274
-      - 🇨🇳CN_275 | 3.50Mb
-      - 🇨🇳CN_277
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
+      - 🇨🇦_CA_加拿大_1
+      - 🇯🇵_JP_日本_2
+      - 🇫🇷_FR_法国_3
+      - 🇮🇳_IN_印度_4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
