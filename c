@@ -5,132 +5,820 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'n_12.13+TG频道@Jsnzk_1', server: 104.128.86.135, port: 13178, type: ss, cipher: chacha20-ietf-poly1305, password: 2sqw0MdADMvP}
-  - {name: 'Alien_2', server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com, port: 30008, type: vmess, uuid: 5efeb899-e8bd-446f-b0be-863d30331174, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: 'Alien_3', server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com, port: 30016, type: vmess, uuid: 5efeb899-e8bd-446f-b0be-863d30331174, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: 'n_12.13+TG频道@Jsnzk_4', server: jp10.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba}
-  - {name: 'default_ssr_name_5', server: hinet.rdns.link, port: 50024, type: ssr, password: "Getfree.Cloud", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com}
-  - {name: 'default_ssr_name_6', server: hinet.rdns.link, port: 50023, type: ssr, password: "Getfree.Cloud", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com}
-  - {name: 'default_ssr_name_7', server: hinet.rdns.link, port: 50028, type: ssr, password: "Getfree.Cloud", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com}
-  - {name: 'default_ssr_name_8', server: hinet.rdns.link, port: 50026, type: ssr, password: "Getfree.Cloud", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com}
-  - {name: 'default_ssr_name_9', server: hinet.rdns.link, port: 50025, type: ssr, password: "Getfree.Cloud", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com}
-  - {name: 'default_ssr_name_10', server: hinet.rdns.link, port: 50022, type: ssr, password: "Getfree.Cloud", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com}
-  - {name: 'default_ssr_name_11', server: hinet.rdns.link, port: 50027, type: ssr, password: "Getfree.Cloud", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com}
+  - {name: '🇭🇰 HK_90', server: 118.107.244.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇭🇰 HK_91', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇭🇰 HK_92', server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇭🇰 HK_93', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇭🇰 HK_94', server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: '🇭🇰 HK_95', server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: '🇭🇰 HK_96', server: 103.138.75.235, port: 443, type: vmess, uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea}
+  - {name: '🇭🇰 HK_97', server: hk31.ssgnode.ga, port: 443undefined, type: trojan, password: 41742_920c8caa}
+  - {name: '🇭🇰 HK_98', server: www.zx07.top, port: 443undefined, type: trojan, password: L1qNeGrY58ApwrRA}
+  - {name: '🇯🇵 JP_101', server: 185.172.113.156, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇯🇵 JP_102', server: 89.31.126.150, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇯🇵 JP_103', server: 185.172.113.156, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇯🇵 JP_104', server: 185.172.113.156, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇯🇵 JP_105', server: 185.172.113.156, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇯🇵 JP_106', server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: '🇯🇵 JP_107', server: 45.66.134.219, port: 443undefined, type: trojan, password: a3fa58b581353bb375d2ddad0f327938}
+  - {name: '🇯🇵 JP_108', server: 45.66.134.219, port: 443undefined, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674}
+  - {name: '🇯🇵 JP_109', server: 45.66.134.219, port: 443undefined, type: trojan, password: 28d98f761aca9d636f44db62544628eb}
+  - {name: '🇸🇬 SG_146', server: 194.124.35.48, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇸🇬 SG_147', server: 194.124.35.48, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇸🇬 SG_148', server: 217.197.161.138, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇸🇬 SG_149', server: 217.197.161.138, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇸🇬 SG_150', server: 194.124.35.48, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇸🇬 SG_151', server: 194.124.35.48, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇸🇬 SG_152', server: 194.124.35.48, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇸🇬 SG_153', server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
+  - {name: '🇸🇬 SG_154', server: 194.124.35.48, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇸🇬 SG_155', server: 194.124.35.48, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇸🇬 SG_156', server: 81.90.189.85, port: 443undefined, type: trojan, password: 28d98f761aca9d636f44db62544628eb}
+  - {name: '🇸🇬 SG_157', server: sg3-trojan.bonds.id, port: 443undefined, type: trojan, password: 97fdf760-7bbf-11eb-8e14-1239d0255272}
+  - {name: '🇹🇼 TW_158', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: 'default_ssr_name_32', server: 59.125.11.158, port: 8158, type: ssr, password: "passinfo123", cipher: rc4-md5, protocol: origin, obfs: plain}
+  - {name: 'default_ssr_name_33', server: 59.125.11.158, port: 8158, type: ssr, password: "passinfo123", cipher: rc4-md5, protocol: origin, obfs: plain}
+  - {name: '🇺🇸 US_163', server: 38.75.136.21, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸 US_164', server: 192.46.209.215, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸 US_165', server: 38.107.226.132, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸 US_166', server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: '🇺🇸 US_167', server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸 US_168', server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸 US_169', server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸 US_170', server: 38.91.101.11, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸 US_171', server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸 US_172', server: 38.114.114.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸 US_173', server: 172.99.190.35, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸 US_174', server: 23.19.26.246, port: 10515, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: '🇺🇸 US_175', server: 142.202.48.45, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸 US_176', server: 142.202.48.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸 US_177', server: 38.68.134.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸 US_178', server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸 US_179', server: 142.202.48.45, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸 US_180', server: 38.75.137.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸 US_181', server: 142.202.48.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸 US_182', server: 172.99.190.167, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸 US_183', server: 38.75.137.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸 US_184', server: 38.75.137.187, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸 US_185', server: 172.99.190.167, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸 US_186', server: 167.88.63.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸 US_187', server: 38.107.226.132, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸 US_188', server: 167.88.63.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸 US_189', server: 38.107.226.132, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸 US_190', server: 38.107.226.132, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸 US_191', server: 172.99.190.35, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸 US_192', server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸 US_193', server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸 US_194', server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸 US_195', server: 38.75.136.139, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸 US_196', server: 38.68.134.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸 US_197', server: 38.75.136.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸 US_198', server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸 US_199', server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸 US_200', server: 38.91.100.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸 US_201', server: 192.46.210.73, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸 US_202', server: 192.46.210.73, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸 US_203', server: 38.68.134.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸 US_204', server: 142.202.48.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸 US_205', server: 38.75.136.21, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸 US_206', server: 38.75.137.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸 US_207', server: 142.202.48.45, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸 US_208', server: 38.114.114.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸 US_209', server: 167.88.63.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸 US_210', server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸 US_211', server: 38.114.114.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸 US_212', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: '🇺🇸 US_213', server: 107.148.200.123, port: 30033, type: vmess, uuid: e85a81e0-12a0-11ec-bc90-00163c1b189e, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇺🇸 US_214', server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇺🇸 US_215', server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇺🇸 US_216', server: v4.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇺🇸 US_217', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: '🇺🇸 US_218', server: api.mjj-home.com, port: 443undefined, type: trojan, password: share.mjj-home.com}
+  - {name: '🇺🇸 US_219', server: us-trojan.bonds.id, port: 443undefined, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272}
+  - {name: '🇺🇸 US_220', server: 72.167.45.6, port: 443undefined, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674}
+  - {name: '🇺🇸 US_221', server: 72.167.45.6, port: 443undefined, type: trojan, password: a3fa58b581353bb375d2ddad0f327938}
+  - {name: '🇺🇸 US_222', server: us-trojan.bonds.id, port: 443undefined, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272}
+  - {name: '🇺🇸 US_223', server: us-02-api.mjj-home.com, port: 443undefined, type: trojan, password: share.mjj-home.com}
+  - {name: '🇺🇸 US_224', server: v.9051246.xyz, port: 443undefined, type: trojan, password: 18825786}
+  - {name: '🇺🇸 US_225', server: tky3.ssgnode.ga, port: 443undefined, type: trojan, password: 23115_5a451f03}
+  - {name: '🇺🇸 US_226', server: t1.ssrsub.com, port: 8443undefined, type: trojan, password: e795f820-9391-4a9d-bfaf-b5329386f82f}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - n_12.13+TG频道@Jsnzk_1
-      - Alien_2
-      - Alien_3
-      - n_12.13+TG频道@Jsnzk_4
-      - default_ssr_name_5
-      - default_ssr_name_6
-      - default_ssr_name_7
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
-      - default_ssr_name_11
+      - 🇭🇰 HK_90
+      - 🇭🇰 HK_91
+      - 🇭🇰 HK_92
+      - 🇭🇰 HK_93
+      - 🇭🇰 HK_94
+      - 🇭🇰 HK_95
+      - 🇭🇰 HK_96
+      - 🇭🇰 HK_97
+      - 🇭🇰 HK_98
+      - 🇯🇵 JP_101
+      - 🇯🇵 JP_102
+      - 🇯🇵 JP_103
+      - 🇯🇵 JP_104
+      - 🇯🇵 JP_105
+      - 🇯🇵 JP_106
+      - 🇯🇵 JP_107
+      - 🇯🇵 JP_108
+      - 🇯🇵 JP_109
+      - 🇸🇬 SG_146
+      - 🇸🇬 SG_147
+      - 🇸🇬 SG_148
+      - 🇸🇬 SG_149
+      - 🇸🇬 SG_150
+      - 🇸🇬 SG_151
+      - 🇸🇬 SG_152
+      - 🇸🇬 SG_153
+      - 🇸🇬 SG_154
+      - 🇸🇬 SG_155
+      - 🇸🇬 SG_156
+      - 🇸🇬 SG_157
+      - 🇹🇼 TW_158
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - 🇺🇸 US_163
+      - 🇺🇸 US_164
+      - 🇺🇸 US_165
+      - 🇺🇸 US_166
+      - 🇺🇸 US_167
+      - 🇺🇸 US_168
+      - 🇺🇸 US_169
+      - 🇺🇸 US_170
+      - 🇺🇸 US_171
+      - 🇺🇸 US_172
+      - 🇺🇸 US_173
+      - 🇺🇸 US_174
+      - 🇺🇸 US_175
+      - 🇺🇸 US_176
+      - 🇺🇸 US_177
+      - 🇺🇸 US_178
+      - 🇺🇸 US_179
+      - 🇺🇸 US_180
+      - 🇺🇸 US_181
+      - 🇺🇸 US_182
+      - 🇺🇸 US_183
+      - 🇺🇸 US_184
+      - 🇺🇸 US_185
+      - 🇺🇸 US_186
+      - 🇺🇸 US_187
+      - 🇺🇸 US_188
+      - 🇺🇸 US_189
+      - 🇺🇸 US_190
+      - 🇺🇸 US_191
+      - 🇺🇸 US_192
+      - 🇺🇸 US_193
+      - 🇺🇸 US_194
+      - 🇺🇸 US_195
+      - 🇺🇸 US_196
+      - 🇺🇸 US_197
+      - 🇺🇸 US_198
+      - 🇺🇸 US_199
+      - 🇺🇸 US_200
+      - 🇺🇸 US_201
+      - 🇺🇸 US_202
+      - 🇺🇸 US_203
+      - 🇺🇸 US_204
+      - 🇺🇸 US_205
+      - 🇺🇸 US_206
+      - 🇺🇸 US_207
+      - 🇺🇸 US_208
+      - 🇺🇸 US_209
+      - 🇺🇸 US_210
+      - 🇺🇸 US_211
+      - 🇺🇸 US_212
+      - 🇺🇸 US_213
+      - 🇺🇸 US_214
+      - 🇺🇸 US_215
+      - 🇺🇸 US_216
+      - 🇺🇸 US_217
+      - 🇺🇸 US_218
+      - 🇺🇸 US_219
+      - 🇺🇸 US_220
+      - 🇺🇸 US_221
+      - 🇺🇸 US_222
+      - 🇺🇸 US_223
+      - 🇺🇸 US_224
+      - 🇺🇸 US_225
+      - 🇺🇸 US_226
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - n_12.13+TG频道@Jsnzk_1
-      - Alien_2
-      - Alien_3
-      - n_12.13+TG频道@Jsnzk_4
-      - default_ssr_name_5
-      - default_ssr_name_6
-      - default_ssr_name_7
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
-      - default_ssr_name_11
+      - 🇭🇰 HK_90
+      - 🇭🇰 HK_91
+      - 🇭🇰 HK_92
+      - 🇭🇰 HK_93
+      - 🇭🇰 HK_94
+      - 🇭🇰 HK_95
+      - 🇭🇰 HK_96
+      - 🇭🇰 HK_97
+      - 🇭🇰 HK_98
+      - 🇯🇵 JP_101
+      - 🇯🇵 JP_102
+      - 🇯🇵 JP_103
+      - 🇯🇵 JP_104
+      - 🇯🇵 JP_105
+      - 🇯🇵 JP_106
+      - 🇯🇵 JP_107
+      - 🇯🇵 JP_108
+      - 🇯🇵 JP_109
+      - 🇸🇬 SG_146
+      - 🇸🇬 SG_147
+      - 🇸🇬 SG_148
+      - 🇸🇬 SG_149
+      - 🇸🇬 SG_150
+      - 🇸🇬 SG_151
+      - 🇸🇬 SG_152
+      - 🇸🇬 SG_153
+      - 🇸🇬 SG_154
+      - 🇸🇬 SG_155
+      - 🇸🇬 SG_156
+      - 🇸🇬 SG_157
+      - 🇹🇼 TW_158
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - 🇺🇸 US_163
+      - 🇺🇸 US_164
+      - 🇺🇸 US_165
+      - 🇺🇸 US_166
+      - 🇺🇸 US_167
+      - 🇺🇸 US_168
+      - 🇺🇸 US_169
+      - 🇺🇸 US_170
+      - 🇺🇸 US_171
+      - 🇺🇸 US_172
+      - 🇺🇸 US_173
+      - 🇺🇸 US_174
+      - 🇺🇸 US_175
+      - 🇺🇸 US_176
+      - 🇺🇸 US_177
+      - 🇺🇸 US_178
+      - 🇺🇸 US_179
+      - 🇺🇸 US_180
+      - 🇺🇸 US_181
+      - 🇺🇸 US_182
+      - 🇺🇸 US_183
+      - 🇺🇸 US_184
+      - 🇺🇸 US_185
+      - 🇺🇸 US_186
+      - 🇺🇸 US_187
+      - 🇺🇸 US_188
+      - 🇺🇸 US_189
+      - 🇺🇸 US_190
+      - 🇺🇸 US_191
+      - 🇺🇸 US_192
+      - 🇺🇸 US_193
+      - 🇺🇸 US_194
+      - 🇺🇸 US_195
+      - 🇺🇸 US_196
+      - 🇺🇸 US_197
+      - 🇺🇸 US_198
+      - 🇺🇸 US_199
+      - 🇺🇸 US_200
+      - 🇺🇸 US_201
+      - 🇺🇸 US_202
+      - 🇺🇸 US_203
+      - 🇺🇸 US_204
+      - 🇺🇸 US_205
+      - 🇺🇸 US_206
+      - 🇺🇸 US_207
+      - 🇺🇸 US_208
+      - 🇺🇸 US_209
+      - 🇺🇸 US_210
+      - 🇺🇸 US_211
+      - 🇺🇸 US_212
+      - 🇺🇸 US_213
+      - 🇺🇸 US_214
+      - 🇺🇸 US_215
+      - 🇺🇸 US_216
+      - 🇺🇸 US_217
+      - 🇺🇸 US_218
+      - 🇺🇸 US_219
+      - 🇺🇸 US_220
+      - 🇺🇸 US_221
+      - 🇺🇸 US_222
+      - 🇺🇸 US_223
+      - 🇺🇸 US_224
+      - 🇺🇸 US_225
+      - 🇺🇸 US_226
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - n_12.13+TG频道@Jsnzk_1
-      - Alien_2
-      - Alien_3
-      - n_12.13+TG频道@Jsnzk_4
-      - default_ssr_name_5
-      - default_ssr_name_6
-      - default_ssr_name_7
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
-      - default_ssr_name_11
+      - 🇭🇰 HK_90
+      - 🇭🇰 HK_91
+      - 🇭🇰 HK_92
+      - 🇭🇰 HK_93
+      - 🇭🇰 HK_94
+      - 🇭🇰 HK_95
+      - 🇭🇰 HK_96
+      - 🇭🇰 HK_97
+      - 🇭🇰 HK_98
+      - 🇯🇵 JP_101
+      - 🇯🇵 JP_102
+      - 🇯🇵 JP_103
+      - 🇯🇵 JP_104
+      - 🇯🇵 JP_105
+      - 🇯🇵 JP_106
+      - 🇯🇵 JP_107
+      - 🇯🇵 JP_108
+      - 🇯🇵 JP_109
+      - 🇸🇬 SG_146
+      - 🇸🇬 SG_147
+      - 🇸🇬 SG_148
+      - 🇸🇬 SG_149
+      - 🇸🇬 SG_150
+      - 🇸🇬 SG_151
+      - 🇸🇬 SG_152
+      - 🇸🇬 SG_153
+      - 🇸🇬 SG_154
+      - 🇸🇬 SG_155
+      - 🇸🇬 SG_156
+      - 🇸🇬 SG_157
+      - 🇹🇼 TW_158
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - 🇺🇸 US_163
+      - 🇺🇸 US_164
+      - 🇺🇸 US_165
+      - 🇺🇸 US_166
+      - 🇺🇸 US_167
+      - 🇺🇸 US_168
+      - 🇺🇸 US_169
+      - 🇺🇸 US_170
+      - 🇺🇸 US_171
+      - 🇺🇸 US_172
+      - 🇺🇸 US_173
+      - 🇺🇸 US_174
+      - 🇺🇸 US_175
+      - 🇺🇸 US_176
+      - 🇺🇸 US_177
+      - 🇺🇸 US_178
+      - 🇺🇸 US_179
+      - 🇺🇸 US_180
+      - 🇺🇸 US_181
+      - 🇺🇸 US_182
+      - 🇺🇸 US_183
+      - 🇺🇸 US_184
+      - 🇺🇸 US_185
+      - 🇺🇸 US_186
+      - 🇺🇸 US_187
+      - 🇺🇸 US_188
+      - 🇺🇸 US_189
+      - 🇺🇸 US_190
+      - 🇺🇸 US_191
+      - 🇺🇸 US_192
+      - 🇺🇸 US_193
+      - 🇺🇸 US_194
+      - 🇺🇸 US_195
+      - 🇺🇸 US_196
+      - 🇺🇸 US_197
+      - 🇺🇸 US_198
+      - 🇺🇸 US_199
+      - 🇺🇸 US_200
+      - 🇺🇸 US_201
+      - 🇺🇸 US_202
+      - 🇺🇸 US_203
+      - 🇺🇸 US_204
+      - 🇺🇸 US_205
+      - 🇺🇸 US_206
+      - 🇺🇸 US_207
+      - 🇺🇸 US_208
+      - 🇺🇸 US_209
+      - 🇺🇸 US_210
+      - 🇺🇸 US_211
+      - 🇺🇸 US_212
+      - 🇺🇸 US_213
+      - 🇺🇸 US_214
+      - 🇺🇸 US_215
+      - 🇺🇸 US_216
+      - 🇺🇸 US_217
+      - 🇺🇸 US_218
+      - 🇺🇸 US_219
+      - 🇺🇸 US_220
+      - 🇺🇸 US_221
+      - 🇺🇸 US_222
+      - 🇺🇸 US_223
+      - 🇺🇸 US_224
+      - 🇺🇸 US_225
+      - 🇺🇸 US_226
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - n_12.13+TG频道@Jsnzk_1
-      - Alien_2
-      - Alien_3
-      - n_12.13+TG频道@Jsnzk_4
-      - default_ssr_name_5
-      - default_ssr_name_6
-      - default_ssr_name_7
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
-      - default_ssr_name_11
+      - 🇭🇰 HK_90
+      - 🇭🇰 HK_91
+      - 🇭🇰 HK_92
+      - 🇭🇰 HK_93
+      - 🇭🇰 HK_94
+      - 🇭🇰 HK_95
+      - 🇭🇰 HK_96
+      - 🇭🇰 HK_97
+      - 🇭🇰 HK_98
+      - 🇯🇵 JP_101
+      - 🇯🇵 JP_102
+      - 🇯🇵 JP_103
+      - 🇯🇵 JP_104
+      - 🇯🇵 JP_105
+      - 🇯🇵 JP_106
+      - 🇯🇵 JP_107
+      - 🇯🇵 JP_108
+      - 🇯🇵 JP_109
+      - 🇸🇬 SG_146
+      - 🇸🇬 SG_147
+      - 🇸🇬 SG_148
+      - 🇸🇬 SG_149
+      - 🇸🇬 SG_150
+      - 🇸🇬 SG_151
+      - 🇸🇬 SG_152
+      - 🇸🇬 SG_153
+      - 🇸🇬 SG_154
+      - 🇸🇬 SG_155
+      - 🇸🇬 SG_156
+      - 🇸🇬 SG_157
+      - 🇹🇼 TW_158
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - 🇺🇸 US_163
+      - 🇺🇸 US_164
+      - 🇺🇸 US_165
+      - 🇺🇸 US_166
+      - 🇺🇸 US_167
+      - 🇺🇸 US_168
+      - 🇺🇸 US_169
+      - 🇺🇸 US_170
+      - 🇺🇸 US_171
+      - 🇺🇸 US_172
+      - 🇺🇸 US_173
+      - 🇺🇸 US_174
+      - 🇺🇸 US_175
+      - 🇺🇸 US_176
+      - 🇺🇸 US_177
+      - 🇺🇸 US_178
+      - 🇺🇸 US_179
+      - 🇺🇸 US_180
+      - 🇺🇸 US_181
+      - 🇺🇸 US_182
+      - 🇺🇸 US_183
+      - 🇺🇸 US_184
+      - 🇺🇸 US_185
+      - 🇺🇸 US_186
+      - 🇺🇸 US_187
+      - 🇺🇸 US_188
+      - 🇺🇸 US_189
+      - 🇺🇸 US_190
+      - 🇺🇸 US_191
+      - 🇺🇸 US_192
+      - 🇺🇸 US_193
+      - 🇺🇸 US_194
+      - 🇺🇸 US_195
+      - 🇺🇸 US_196
+      - 🇺🇸 US_197
+      - 🇺🇸 US_198
+      - 🇺🇸 US_199
+      - 🇺🇸 US_200
+      - 🇺🇸 US_201
+      - 🇺🇸 US_202
+      - 🇺🇸 US_203
+      - 🇺🇸 US_204
+      - 🇺🇸 US_205
+      - 🇺🇸 US_206
+      - 🇺🇸 US_207
+      - 🇺🇸 US_208
+      - 🇺🇸 US_209
+      - 🇺🇸 US_210
+      - 🇺🇸 US_211
+      - 🇺🇸 US_212
+      - 🇺🇸 US_213
+      - 🇺🇸 US_214
+      - 🇺🇸 US_215
+      - 🇺🇸 US_216
+      - 🇺🇸 US_217
+      - 🇺🇸 US_218
+      - 🇺🇸 US_219
+      - 🇺🇸 US_220
+      - 🇺🇸 US_221
+      - 🇺🇸 US_222
+      - 🇺🇸 US_223
+      - 🇺🇸 US_224
+      - 🇺🇸 US_225
+      - 🇺🇸 US_226
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - n_12.13+TG频道@Jsnzk_1
-      - Alien_2
-      - Alien_3
-      - n_12.13+TG频道@Jsnzk_4
-      - default_ssr_name_5
-      - default_ssr_name_6
-      - default_ssr_name_7
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
-      - default_ssr_name_11
+      - 🇭🇰 HK_90
+      - 🇭🇰 HK_91
+      - 🇭🇰 HK_92
+      - 🇭🇰 HK_93
+      - 🇭🇰 HK_94
+      - 🇭🇰 HK_95
+      - 🇭🇰 HK_96
+      - 🇭🇰 HK_97
+      - 🇭🇰 HK_98
+      - 🇯🇵 JP_101
+      - 🇯🇵 JP_102
+      - 🇯🇵 JP_103
+      - 🇯🇵 JP_104
+      - 🇯🇵 JP_105
+      - 🇯🇵 JP_106
+      - 🇯🇵 JP_107
+      - 🇯🇵 JP_108
+      - 🇯🇵 JP_109
+      - 🇸🇬 SG_146
+      - 🇸🇬 SG_147
+      - 🇸🇬 SG_148
+      - 🇸🇬 SG_149
+      - 🇸🇬 SG_150
+      - 🇸🇬 SG_151
+      - 🇸🇬 SG_152
+      - 🇸🇬 SG_153
+      - 🇸🇬 SG_154
+      - 🇸🇬 SG_155
+      - 🇸🇬 SG_156
+      - 🇸🇬 SG_157
+      - 🇹🇼 TW_158
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - 🇺🇸 US_163
+      - 🇺🇸 US_164
+      - 🇺🇸 US_165
+      - 🇺🇸 US_166
+      - 🇺🇸 US_167
+      - 🇺🇸 US_168
+      - 🇺🇸 US_169
+      - 🇺🇸 US_170
+      - 🇺🇸 US_171
+      - 🇺🇸 US_172
+      - 🇺🇸 US_173
+      - 🇺🇸 US_174
+      - 🇺🇸 US_175
+      - 🇺🇸 US_176
+      - 🇺🇸 US_177
+      - 🇺🇸 US_178
+      - 🇺🇸 US_179
+      - 🇺🇸 US_180
+      - 🇺🇸 US_181
+      - 🇺🇸 US_182
+      - 🇺🇸 US_183
+      - 🇺🇸 US_184
+      - 🇺🇸 US_185
+      - 🇺🇸 US_186
+      - 🇺🇸 US_187
+      - 🇺🇸 US_188
+      - 🇺🇸 US_189
+      - 🇺🇸 US_190
+      - 🇺🇸 US_191
+      - 🇺🇸 US_192
+      - 🇺🇸 US_193
+      - 🇺🇸 US_194
+      - 🇺🇸 US_195
+      - 🇺🇸 US_196
+      - 🇺🇸 US_197
+      - 🇺🇸 US_198
+      - 🇺🇸 US_199
+      - 🇺🇸 US_200
+      - 🇺🇸 US_201
+      - 🇺🇸 US_202
+      - 🇺🇸 US_203
+      - 🇺🇸 US_204
+      - 🇺🇸 US_205
+      - 🇺🇸 US_206
+      - 🇺🇸 US_207
+      - 🇺🇸 US_208
+      - 🇺🇸 US_209
+      - 🇺🇸 US_210
+      - 🇺🇸 US_211
+      - 🇺🇸 US_212
+      - 🇺🇸 US_213
+      - 🇺🇸 US_214
+      - 🇺🇸 US_215
+      - 🇺🇸 US_216
+      - 🇺🇸 US_217
+      - 🇺🇸 US_218
+      - 🇺🇸 US_219
+      - 🇺🇸 US_220
+      - 🇺🇸 US_221
+      - 🇺🇸 US_222
+      - 🇺🇸 US_223
+      - 🇺🇸 US_224
+      - 🇺🇸 US_225
+      - 🇺🇸 US_226
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - n_12.13+TG频道@Jsnzk_1
-      - Alien_2
-      - Alien_3
-      - n_12.13+TG频道@Jsnzk_4
-      - default_ssr_name_5
-      - default_ssr_name_6
-      - default_ssr_name_7
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
-      - default_ssr_name_11
+      - 🇭🇰 HK_90
+      - 🇭🇰 HK_91
+      - 🇭🇰 HK_92
+      - 🇭🇰 HK_93
+      - 🇭🇰 HK_94
+      - 🇭🇰 HK_95
+      - 🇭🇰 HK_96
+      - 🇭🇰 HK_97
+      - 🇭🇰 HK_98
+      - 🇯🇵 JP_101
+      - 🇯🇵 JP_102
+      - 🇯🇵 JP_103
+      - 🇯🇵 JP_104
+      - 🇯🇵 JP_105
+      - 🇯🇵 JP_106
+      - 🇯🇵 JP_107
+      - 🇯🇵 JP_108
+      - 🇯🇵 JP_109
+      - 🇸🇬 SG_146
+      - 🇸🇬 SG_147
+      - 🇸🇬 SG_148
+      - 🇸🇬 SG_149
+      - 🇸🇬 SG_150
+      - 🇸🇬 SG_151
+      - 🇸🇬 SG_152
+      - 🇸🇬 SG_153
+      - 🇸🇬 SG_154
+      - 🇸🇬 SG_155
+      - 🇸🇬 SG_156
+      - 🇸🇬 SG_157
+      - 🇹🇼 TW_158
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - 🇺🇸 US_163
+      - 🇺🇸 US_164
+      - 🇺🇸 US_165
+      - 🇺🇸 US_166
+      - 🇺🇸 US_167
+      - 🇺🇸 US_168
+      - 🇺🇸 US_169
+      - 🇺🇸 US_170
+      - 🇺🇸 US_171
+      - 🇺🇸 US_172
+      - 🇺🇸 US_173
+      - 🇺🇸 US_174
+      - 🇺🇸 US_175
+      - 🇺🇸 US_176
+      - 🇺🇸 US_177
+      - 🇺🇸 US_178
+      - 🇺🇸 US_179
+      - 🇺🇸 US_180
+      - 🇺🇸 US_181
+      - 🇺🇸 US_182
+      - 🇺🇸 US_183
+      - 🇺🇸 US_184
+      - 🇺🇸 US_185
+      - 🇺🇸 US_186
+      - 🇺🇸 US_187
+      - 🇺🇸 US_188
+      - 🇺🇸 US_189
+      - 🇺🇸 US_190
+      - 🇺🇸 US_191
+      - 🇺🇸 US_192
+      - 🇺🇸 US_193
+      - 🇺🇸 US_194
+      - 🇺🇸 US_195
+      - 🇺🇸 US_196
+      - 🇺🇸 US_197
+      - 🇺🇸 US_198
+      - 🇺🇸 US_199
+      - 🇺🇸 US_200
+      - 🇺🇸 US_201
+      - 🇺🇸 US_202
+      - 🇺🇸 US_203
+      - 🇺🇸 US_204
+      - 🇺🇸 US_205
+      - 🇺🇸 US_206
+      - 🇺🇸 US_207
+      - 🇺🇸 US_208
+      - 🇺🇸 US_209
+      - 🇺🇸 US_210
+      - 🇺🇸 US_211
+      - 🇺🇸 US_212
+      - 🇺🇸 US_213
+      - 🇺🇸 US_214
+      - 🇺🇸 US_215
+      - 🇺🇸 US_216
+      - 🇺🇸 US_217
+      - 🇺🇸 US_218
+      - 🇺🇸 US_219
+      - 🇺🇸 US_220
+      - 🇺🇸 US_221
+      - 🇺🇸 US_222
+      - 🇺🇸 US_223
+      - 🇺🇸 US_224
+      - 🇺🇸 US_225
+      - 🇺🇸 US_226
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - n_12.13+TG频道@Jsnzk_1
-      - Alien_2
-      - Alien_3
-      - n_12.13+TG频道@Jsnzk_4
-      - default_ssr_name_5
-      - default_ssr_name_6
-      - default_ssr_name_7
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
-      - default_ssr_name_11
+      - 🇭🇰 HK_90
+      - 🇭🇰 HK_91
+      - 🇭🇰 HK_92
+      - 🇭🇰 HK_93
+      - 🇭🇰 HK_94
+      - 🇭🇰 HK_95
+      - 🇭🇰 HK_96
+      - 🇭🇰 HK_97
+      - 🇭🇰 HK_98
+      - 🇯🇵 JP_101
+      - 🇯🇵 JP_102
+      - 🇯🇵 JP_103
+      - 🇯🇵 JP_104
+      - 🇯🇵 JP_105
+      - 🇯🇵 JP_106
+      - 🇯🇵 JP_107
+      - 🇯🇵 JP_108
+      - 🇯🇵 JP_109
+      - 🇸🇬 SG_146
+      - 🇸🇬 SG_147
+      - 🇸🇬 SG_148
+      - 🇸🇬 SG_149
+      - 🇸🇬 SG_150
+      - 🇸🇬 SG_151
+      - 🇸🇬 SG_152
+      - 🇸🇬 SG_153
+      - 🇸🇬 SG_154
+      - 🇸🇬 SG_155
+      - 🇸🇬 SG_156
+      - 🇸🇬 SG_157
+      - 🇹🇼 TW_158
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - 🇺🇸 US_163
+      - 🇺🇸 US_164
+      - 🇺🇸 US_165
+      - 🇺🇸 US_166
+      - 🇺🇸 US_167
+      - 🇺🇸 US_168
+      - 🇺🇸 US_169
+      - 🇺🇸 US_170
+      - 🇺🇸 US_171
+      - 🇺🇸 US_172
+      - 🇺🇸 US_173
+      - 🇺🇸 US_174
+      - 🇺🇸 US_175
+      - 🇺🇸 US_176
+      - 🇺🇸 US_177
+      - 🇺🇸 US_178
+      - 🇺🇸 US_179
+      - 🇺🇸 US_180
+      - 🇺🇸 US_181
+      - 🇺🇸 US_182
+      - 🇺🇸 US_183
+      - 🇺🇸 US_184
+      - 🇺🇸 US_185
+      - 🇺🇸 US_186
+      - 🇺🇸 US_187
+      - 🇺🇸 US_188
+      - 🇺🇸 US_189
+      - 🇺🇸 US_190
+      - 🇺🇸 US_191
+      - 🇺🇸 US_192
+      - 🇺🇸 US_193
+      - 🇺🇸 US_194
+      - 🇺🇸 US_195
+      - 🇺🇸 US_196
+      - 🇺🇸 US_197
+      - 🇺🇸 US_198
+      - 🇺🇸 US_199
+      - 🇺🇸 US_200
+      - 🇺🇸 US_201
+      - 🇺🇸 US_202
+      - 🇺🇸 US_203
+      - 🇺🇸 US_204
+      - 🇺🇸 US_205
+      - 🇺🇸 US_206
+      - 🇺🇸 US_207
+      - 🇺🇸 US_208
+      - 🇺🇸 US_209
+      - 🇺🇸 US_210
+      - 🇺🇸 US_211
+      - 🇺🇸 US_212
+      - 🇺🇸 US_213
+      - 🇺🇸 US_214
+      - 🇺🇸 US_215
+      - 🇺🇸 US_216
+      - 🇺🇸 US_217
+      - 🇺🇸 US_218
+      - 🇺🇸 US_219
+      - 🇺🇸 US_220
+      - 🇺🇸 US_221
+      - 🇺🇸 US_222
+      - 🇺🇸 US_223
+      - 🇺🇸 US_224
+      - 🇺🇸 US_225
+      - 🇺🇸 US_226
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -146,17 +834,103 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - n_12.13+TG频道@Jsnzk_1
-      - Alien_2
-      - Alien_3
-      - n_12.13+TG频道@Jsnzk_4
-      - default_ssr_name_5
-      - default_ssr_name_6
-      - default_ssr_name_7
-      - default_ssr_name_8
-      - default_ssr_name_9
-      - default_ssr_name_10
-      - default_ssr_name_11
+      - 🇭🇰 HK_90
+      - 🇭🇰 HK_91
+      - 🇭🇰 HK_92
+      - 🇭🇰 HK_93
+      - 🇭🇰 HK_94
+      - 🇭🇰 HK_95
+      - 🇭🇰 HK_96
+      - 🇭🇰 HK_97
+      - 🇭🇰 HK_98
+      - 🇯🇵 JP_101
+      - 🇯🇵 JP_102
+      - 🇯🇵 JP_103
+      - 🇯🇵 JP_104
+      - 🇯🇵 JP_105
+      - 🇯🇵 JP_106
+      - 🇯🇵 JP_107
+      - 🇯🇵 JP_108
+      - 🇯🇵 JP_109
+      - 🇸🇬 SG_146
+      - 🇸🇬 SG_147
+      - 🇸🇬 SG_148
+      - 🇸🇬 SG_149
+      - 🇸🇬 SG_150
+      - 🇸🇬 SG_151
+      - 🇸🇬 SG_152
+      - 🇸🇬 SG_153
+      - 🇸🇬 SG_154
+      - 🇸🇬 SG_155
+      - 🇸🇬 SG_156
+      - 🇸🇬 SG_157
+      - 🇹🇼 TW_158
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - 🇺🇸 US_163
+      - 🇺🇸 US_164
+      - 🇺🇸 US_165
+      - 🇺🇸 US_166
+      - 🇺🇸 US_167
+      - 🇺🇸 US_168
+      - 🇺🇸 US_169
+      - 🇺🇸 US_170
+      - 🇺🇸 US_171
+      - 🇺🇸 US_172
+      - 🇺🇸 US_173
+      - 🇺🇸 US_174
+      - 🇺🇸 US_175
+      - 🇺🇸 US_176
+      - 🇺🇸 US_177
+      - 🇺🇸 US_178
+      - 🇺🇸 US_179
+      - 🇺🇸 US_180
+      - 🇺🇸 US_181
+      - 🇺🇸 US_182
+      - 🇺🇸 US_183
+      - 🇺🇸 US_184
+      - 🇺🇸 US_185
+      - 🇺🇸 US_186
+      - 🇺🇸 US_187
+      - 🇺🇸 US_188
+      - 🇺🇸 US_189
+      - 🇺🇸 US_190
+      - 🇺🇸 US_191
+      - 🇺🇸 US_192
+      - 🇺🇸 US_193
+      - 🇺🇸 US_194
+      - 🇺🇸 US_195
+      - 🇺🇸 US_196
+      - 🇺🇸 US_197
+      - 🇺🇸 US_198
+      - 🇺🇸 US_199
+      - 🇺🇸 US_200
+      - 🇺🇸 US_201
+      - 🇺🇸 US_202
+      - 🇺🇸 US_203
+      - 🇺🇸 US_204
+      - 🇺🇸 US_205
+      - 🇺🇸 US_206
+      - 🇺🇸 US_207
+      - 🇺🇸 US_208
+      - 🇺🇸 US_209
+      - 🇺🇸 US_210
+      - 🇺🇸 US_211
+      - 🇺🇸 US_212
+      - 🇺🇸 US_213
+      - 🇺🇸 US_214
+      - 🇺🇸 US_215
+      - 🇺🇸 US_216
+      - 🇺🇸 US_217
+      - 🇺🇸 US_218
+      - 🇺🇸 US_219
+      - 🇺🇸 US_220
+      - 🇺🇸 US_221
+      - 🇺🇸 US_222
+      - 🇺🇸 US_223
+      - 🇺🇸 US_224
+      - 🇺🇸 US_225
+      - 🇺🇸 US_226
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
