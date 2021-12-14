@@ -5,298 +5,368 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇺🇸 美国（YouTube资源分享者）, server: lilmier.me, port: 443, type: vmess, uuid: cf052626-52bb-4237-b306-e2371448fd4f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: lilmier.me}}
   - {name: 🇨🇳 中国（YouTube资源分享者）, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}}
-  - {name: 🇨🇳 中国（YouTube资源分享者） 2, server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港（YouTube资源分享者）, server: 116.192.166.2, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国（YouTube资源分享者）, server: zhuzhu12.com, port: 14718, type: vmess, uuid: b6df3596-5b57-38ed-9375-62e4b3b6cdd2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 🇯🇵 日本（YouTube资源分享者）, server: zhuzhu12.com, port: 13959, type: vmess, uuid: b6df3596-5b57-38ed-9375-62e4b3b6cdd2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
   - {name: 🇨🇳 台湾（YouTube资源分享者）, server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇺 欧洲（YouTube资源分享者）, server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾（YouTube资源分享者） 2, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
   - {name: 🇨🇦 加拿大（YouTube资源分享者）, server: h701576.droplet.today, port: 13345, type: trojan, password: b6a7075fd6, sni: h701576.droplet.today}
-  - {name: 🇪🇺 欧洲（YouTube资源分享者） 2, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
-  - {name: 🇨🇳 中国（YouTube资源分享者） 3, server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false}
-  - {name: 卢森堡（YouTube资源分享者）, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: 🇬🇧 英国（YouTube资源分享者）, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 2, server: 104.128.86.135, port: 13178, type: ss, cipher: chacha20-ietf-poly1305, password: 2sqw0MdADMvP}
-  - {name: 🇨🇳 中国（YouTube资源分享者） 4, server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港（YouTube资源分享者）, server: 149.248.16.94, port: 61489, type: vmess, uuid: 024b5140-5c72-11ec-8d18-560003bc59d9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /bK3AFW57/, ws-headers: {Host: 149.248.16.94}}
+  - {name: 🇭🇰 香港（YouTube资源分享者） 2, server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /inde, ws-headers: {Host: 120.232.173.88}}
+  - {name: 🇨🇳 台湾（YouTube资源分享者） 3, server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港（YouTube资源分享者） 3, server: 194.50.170.74, port: 63555, type: vmess, uuid: 8cc23f14-5c72-11ec-adab-961d85b1a943, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 2, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇭🇰 香港（YouTube资源分享者） 4, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 3, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 乌克兰（YouTube资源分享者）, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: 🇯🇵 日本（YouTube资源分享者）, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 🇸🇪 瑞典（YouTube资源分享者）, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
   - {name: 🇨🇦 加拿大（YouTube资源分享者） 2, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇯🇵 日本（YouTube资源分享者） 2, server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 3, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
-  - {name: 🇪🇺 欧洲（YouTube资源分享者） 3, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 4, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港（YouTube资源分享者） 2, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇬🇧 英国（YouTube资源分享者） 2, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 5, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 6, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇨🇦 加拿大（YouTube资源分享者） 3, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 7, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 8, server: 142.202.48.78, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国（YouTube资源分享者）, server: 217.182.199.168, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 香港（YouTube资源分享者） 3, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇺 欧洲（YouTube资源分享者） 4, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 🇫🇷 法国（YouTube资源分享者） 2, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇦 加拿大（YouTube资源分享者） 4, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 9, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇫🇷 法国（YouTube资源分享者） 3, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 10, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇪🇺 欧洲（YouTube资源分享者） 5, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇬🇧 英国（YouTube资源分享者） 3, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 11, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇳 台湾（YouTube资源分享者） 4, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 🇭🇰 香港（YouTube资源分享者） 5, server: 120.197.88.216, port: 20004, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 4, server: baip.huhu.icu, port: 19999, type: trojan, password: b520a49d-ea4c-49cf-a08b-7c54793cbeab, sni: baip.huhu.icu}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 5, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 6, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: 🇨🇳 台湾（YouTube资源分享者） 5, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: 亚洲（YouTube资源分享者）, server: 120.197.88.216, port: 20049, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
+  - {name: 🇨🇦 加拿大（YouTube资源分享者） 3, server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: 🇦🇺 澳大利亚（YouTube资源分享者）, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大（YouTube资源分享者） 4, server: 165.154.229.22, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 165.154.229.22}}
+  - {name: 🇳🇱 荷兰（YouTube资源分享者）, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 515275f0-5a26-11ec-86de-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
+  - {name: 🇨🇦 加拿大（YouTube资源分享者） 5, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116yn.fans8.xyz}}
+  - {name: 🇨🇦 加拿大（YouTube资源分享者） 6, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 7, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇪🇺 欧洲（YouTube资源分享者）, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 8, server: 104.19.101.7, port: 2053, type: vmess, uuid: 0699c1fa-7505-4807-fa1a-c72e577b4299, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /qwed65rhy, ws-headers: {Host: de2.fovi.tk}}
+  - {name: 🇬🇧 英国（YouTube资源分享者）, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇬🇧 英国（YouTube资源分享者） 2, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 亚洲（YouTube资源分享者） 2, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 9, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 葡萄牙（YouTube资源分享者）, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: 🇬🇧 英国（YouTube资源分享者） 3, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 10, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 挪威（YouTube资源分享者）, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 11, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 12, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 加拿大（YouTube资源分享者） 7, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 香港（YouTube资源分享者） 6, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大（YouTube资源分享者） 8, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 挪威（YouTube资源分享者） 2, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大（YouTube资源分享者） 9, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 中国（YouTube资源分享者）
-      - 🇨🇳 中国（YouTube资源分享者） 2
-      - 🇭🇰 香港（YouTube资源分享者）
       - 🇺🇸 美国（YouTube资源分享者）
-      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者）
       - 🇨🇳 台湾（YouTube资源分享者）
-      - 🇪🇺 欧洲（YouTube资源分享者）
+      - 🇨🇳 台湾（YouTube资源分享者） 2
       - 🇨🇦 加拿大（YouTube资源分享者）
-      - 🇪🇺 欧洲（YouTube资源分享者） 2
-      - 🇨🇳 中国（YouTube资源分享者） 3
-      - 卢森堡（YouTube资源分享者）
-      - 🇬🇧 英国（YouTube资源分享者）
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇨🇳 中国（YouTube资源分享者） 4
-      - 🇨🇦 加拿大（YouTube资源分享者） 2
-      - 🇯🇵 日本（YouTube资源分享者） 2
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇪🇺 欧洲（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 4
+      - 🇭🇰 香港（YouTube资源分享者）
       - 🇭🇰 香港（YouTube资源分享者） 2
-      - 🇬🇧 英国（YouTube资源分享者） 2
+      - 🇨🇳 台湾（YouTube资源分享者） 3
+      - 🇭🇰 香港（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 2
+      - 🇭🇰 香港（YouTube资源分享者） 4
+      - 🇺🇸 美国（YouTube资源分享者） 3
+      - 乌克兰（YouTube资源分享者）
+      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇸🇪 瑞典（YouTube资源分享者）
+      - 🇨🇦 加拿大（YouTube资源分享者） 2
+      - 🇨🇳 台湾（YouTube资源分享者） 4
+      - 🇭🇰 香港（YouTube资源分享者） 5
+      - 🇺🇸 美国（YouTube资源分享者） 4
       - 🇺🇸 美国（YouTube资源分享者） 5
       - 🇺🇸 美国（YouTube资源分享者） 6
+      - 🇨🇳 台湾（YouTube资源分享者） 5
+      - 亚洲（YouTube资源分享者）
       - 🇨🇦 加拿大（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 7
-      - 🇺🇸 美国（YouTube资源分享者） 8
-      - 🇫🇷 法国（YouTube资源分享者）
-      - 🇭🇰 香港（YouTube资源分享者） 3
-      - 🇪🇺 欧洲（YouTube资源分享者） 4
-      - 🇫🇷 法国（YouTube资源分享者） 2
+      - 🇦🇺 澳大利亚（YouTube资源分享者）
       - 🇨🇦 加拿大（YouTube资源分享者） 4
+      - 🇳🇱 荷兰（YouTube资源分享者）
+      - 🇨🇦 加拿大（YouTube资源分享者） 5
+      - 🇨🇦 加拿大（YouTube资源分享者） 6
+      - 🇺🇸 美国（YouTube资源分享者） 7
+      - 🇪🇺 欧洲（YouTube资源分享者）
+      - 🇺🇸 美国（YouTube资源分享者） 8
+      - 🇬🇧 英国（YouTube资源分享者）
+      - 🇬🇧 英国（YouTube资源分享者） 2
+      - 亚洲（YouTube资源分享者） 2
       - 🇺🇸 美国（YouTube资源分享者） 9
-      - 🇫🇷 法国（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 10
-      - 🇪🇺 欧洲（YouTube资源分享者） 5
+      - 葡萄牙（YouTube资源分享者）
       - 🇬🇧 英国（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 10
+      - 挪威（YouTube资源分享者）
       - 🇺🇸 美国（YouTube资源分享者） 11
+      - 🇺🇸 美国（YouTube资源分享者） 12
+      - 🇨🇦 加拿大（YouTube资源分享者） 7
+      - 🇭🇰 香港（YouTube资源分享者） 6
+      - 🇨🇦 加拿大（YouTube资源分享者） 8
+      - 挪威（YouTube资源分享者） 2
+      - 🇨🇦 加拿大（YouTube资源分享者） 9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 中国（YouTube资源分享者）
-      - 🇨🇳 中国（YouTube资源分享者） 2
-      - 🇭🇰 香港（YouTube资源分享者）
       - 🇺🇸 美国（YouTube资源分享者）
-      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者）
       - 🇨🇳 台湾（YouTube资源分享者）
-      - 🇪🇺 欧洲（YouTube资源分享者）
+      - 🇨🇳 台湾（YouTube资源分享者） 2
       - 🇨🇦 加拿大（YouTube资源分享者）
-      - 🇪🇺 欧洲（YouTube资源分享者） 2
-      - 🇨🇳 中国（YouTube资源分享者） 3
-      - 卢森堡（YouTube资源分享者）
-      - 🇬🇧 英国（YouTube资源分享者）
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇨🇳 中国（YouTube资源分享者） 4
-      - 🇨🇦 加拿大（YouTube资源分享者） 2
-      - 🇯🇵 日本（YouTube资源分享者） 2
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇪🇺 欧洲（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 4
+      - 🇭🇰 香港（YouTube资源分享者）
       - 🇭🇰 香港（YouTube资源分享者） 2
-      - 🇬🇧 英国（YouTube资源分享者） 2
+      - 🇨🇳 台湾（YouTube资源分享者） 3
+      - 🇭🇰 香港（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 2
+      - 🇭🇰 香港（YouTube资源分享者） 4
+      - 🇺🇸 美国（YouTube资源分享者） 3
+      - 乌克兰（YouTube资源分享者）
+      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇸🇪 瑞典（YouTube资源分享者）
+      - 🇨🇦 加拿大（YouTube资源分享者） 2
+      - 🇨🇳 台湾（YouTube资源分享者） 4
+      - 🇭🇰 香港（YouTube资源分享者） 5
+      - 🇺🇸 美国（YouTube资源分享者） 4
       - 🇺🇸 美国（YouTube资源分享者） 5
       - 🇺🇸 美国（YouTube资源分享者） 6
+      - 🇨🇳 台湾（YouTube资源分享者） 5
+      - 亚洲（YouTube资源分享者）
       - 🇨🇦 加拿大（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 7
-      - 🇺🇸 美国（YouTube资源分享者） 8
-      - 🇫🇷 法国（YouTube资源分享者）
-      - 🇭🇰 香港（YouTube资源分享者） 3
-      - 🇪🇺 欧洲（YouTube资源分享者） 4
-      - 🇫🇷 法国（YouTube资源分享者） 2
+      - 🇦🇺 澳大利亚（YouTube资源分享者）
       - 🇨🇦 加拿大（YouTube资源分享者） 4
+      - 🇳🇱 荷兰（YouTube资源分享者）
+      - 🇨🇦 加拿大（YouTube资源分享者） 5
+      - 🇨🇦 加拿大（YouTube资源分享者） 6
+      - 🇺🇸 美国（YouTube资源分享者） 7
+      - 🇪🇺 欧洲（YouTube资源分享者）
+      - 🇺🇸 美国（YouTube资源分享者） 8
+      - 🇬🇧 英国（YouTube资源分享者）
+      - 🇬🇧 英国（YouTube资源分享者） 2
+      - 亚洲（YouTube资源分享者） 2
       - 🇺🇸 美国（YouTube资源分享者） 9
-      - 🇫🇷 法国（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 10
-      - 🇪🇺 欧洲（YouTube资源分享者） 5
+      - 葡萄牙（YouTube资源分享者）
       - 🇬🇧 英国（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 10
+      - 挪威（YouTube资源分享者）
       - 🇺🇸 美国（YouTube资源分享者） 11
+      - 🇺🇸 美国（YouTube资源分享者） 12
+      - 🇨🇦 加拿大（YouTube资源分享者） 7
+      - 🇭🇰 香港（YouTube资源分享者） 6
+      - 🇨🇦 加拿大（YouTube资源分享者） 8
+      - 挪威（YouTube资源分享者） 2
+      - 🇨🇦 加拿大（YouTube资源分享者） 9
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 中国（YouTube资源分享者）
-      - 🇨🇳 中国（YouTube资源分享者） 2
-      - 🇭🇰 香港（YouTube资源分享者）
       - 🇺🇸 美国（YouTube资源分享者）
-      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者）
       - 🇨🇳 台湾（YouTube资源分享者）
-      - 🇪🇺 欧洲（YouTube资源分享者）
+      - 🇨🇳 台湾（YouTube资源分享者） 2
       - 🇨🇦 加拿大（YouTube资源分享者）
-      - 🇪🇺 欧洲（YouTube资源分享者） 2
-      - 🇨🇳 中国（YouTube资源分享者） 3
-      - 卢森堡（YouTube资源分享者）
-      - 🇬🇧 英国（YouTube资源分享者）
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇨🇳 中国（YouTube资源分享者） 4
-      - 🇨🇦 加拿大（YouTube资源分享者） 2
-      - 🇯🇵 日本（YouTube资源分享者） 2
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇪🇺 欧洲（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 4
+      - 🇭🇰 香港（YouTube资源分享者）
       - 🇭🇰 香港（YouTube资源分享者） 2
-      - 🇬🇧 英国（YouTube资源分享者） 2
+      - 🇨🇳 台湾（YouTube资源分享者） 3
+      - 🇭🇰 香港（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 2
+      - 🇭🇰 香港（YouTube资源分享者） 4
+      - 🇺🇸 美国（YouTube资源分享者） 3
+      - 乌克兰（YouTube资源分享者）
+      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇸🇪 瑞典（YouTube资源分享者）
+      - 🇨🇦 加拿大（YouTube资源分享者） 2
+      - 🇨🇳 台湾（YouTube资源分享者） 4
+      - 🇭🇰 香港（YouTube资源分享者） 5
+      - 🇺🇸 美国（YouTube资源分享者） 4
       - 🇺🇸 美国（YouTube资源分享者） 5
       - 🇺🇸 美国（YouTube资源分享者） 6
+      - 🇨🇳 台湾（YouTube资源分享者） 5
+      - 亚洲（YouTube资源分享者）
       - 🇨🇦 加拿大（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 7
-      - 🇺🇸 美国（YouTube资源分享者） 8
-      - 🇫🇷 法国（YouTube资源分享者）
-      - 🇭🇰 香港（YouTube资源分享者） 3
-      - 🇪🇺 欧洲（YouTube资源分享者） 4
-      - 🇫🇷 法国（YouTube资源分享者） 2
+      - 🇦🇺 澳大利亚（YouTube资源分享者）
       - 🇨🇦 加拿大（YouTube资源分享者） 4
+      - 🇳🇱 荷兰（YouTube资源分享者）
+      - 🇨🇦 加拿大（YouTube资源分享者） 5
+      - 🇨🇦 加拿大（YouTube资源分享者） 6
+      - 🇺🇸 美国（YouTube资源分享者） 7
+      - 🇪🇺 欧洲（YouTube资源分享者）
+      - 🇺🇸 美国（YouTube资源分享者） 8
+      - 🇬🇧 英国（YouTube资源分享者）
+      - 🇬🇧 英国（YouTube资源分享者） 2
+      - 亚洲（YouTube资源分享者） 2
       - 🇺🇸 美国（YouTube资源分享者） 9
-      - 🇫🇷 法国（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 10
-      - 🇪🇺 欧洲（YouTube资源分享者） 5
+      - 葡萄牙（YouTube资源分享者）
       - 🇬🇧 英国（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 10
+      - 挪威（YouTube资源分享者）
       - 🇺🇸 美国（YouTube资源分享者） 11
+      - 🇺🇸 美国（YouTube资源分享者） 12
+      - 🇨🇦 加拿大（YouTube资源分享者） 7
+      - 🇭🇰 香港（YouTube资源分享者） 6
+      - 🇨🇦 加拿大（YouTube资源分享者） 8
+      - 挪威（YouTube资源分享者） 2
+      - 🇨🇦 加拿大（YouTube资源分享者） 9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 中国（YouTube资源分享者）
-      - 🇨🇳 中国（YouTube资源分享者） 2
-      - 🇭🇰 香港（YouTube资源分享者）
       - 🇺🇸 美国（YouTube资源分享者）
-      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者）
       - 🇨🇳 台湾（YouTube资源分享者）
-      - 🇪🇺 欧洲（YouTube资源分享者）
+      - 🇨🇳 台湾（YouTube资源分享者） 2
       - 🇨🇦 加拿大（YouTube资源分享者）
-      - 🇪🇺 欧洲（YouTube资源分享者） 2
-      - 🇨🇳 中国（YouTube资源分享者） 3
-      - 卢森堡（YouTube资源分享者）
-      - 🇬🇧 英国（YouTube资源分享者）
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇨🇳 中国（YouTube资源分享者） 4
-      - 🇨🇦 加拿大（YouTube资源分享者） 2
-      - 🇯🇵 日本（YouTube资源分享者） 2
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇪🇺 欧洲（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 4
+      - 🇭🇰 香港（YouTube资源分享者）
       - 🇭🇰 香港（YouTube资源分享者） 2
-      - 🇬🇧 英国（YouTube资源分享者） 2
+      - 🇨🇳 台湾（YouTube资源分享者） 3
+      - 🇭🇰 香港（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 2
+      - 🇭🇰 香港（YouTube资源分享者） 4
+      - 🇺🇸 美国（YouTube资源分享者） 3
+      - 乌克兰（YouTube资源分享者）
+      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇸🇪 瑞典（YouTube资源分享者）
+      - 🇨🇦 加拿大（YouTube资源分享者） 2
+      - 🇨🇳 台湾（YouTube资源分享者） 4
+      - 🇭🇰 香港（YouTube资源分享者） 5
+      - 🇺🇸 美国（YouTube资源分享者） 4
       - 🇺🇸 美国（YouTube资源分享者） 5
       - 🇺🇸 美国（YouTube资源分享者） 6
+      - 🇨🇳 台湾（YouTube资源分享者） 5
+      - 亚洲（YouTube资源分享者）
       - 🇨🇦 加拿大（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 7
-      - 🇺🇸 美国（YouTube资源分享者） 8
-      - 🇫🇷 法国（YouTube资源分享者）
-      - 🇭🇰 香港（YouTube资源分享者） 3
-      - 🇪🇺 欧洲（YouTube资源分享者） 4
-      - 🇫🇷 法国（YouTube资源分享者） 2
+      - 🇦🇺 澳大利亚（YouTube资源分享者）
       - 🇨🇦 加拿大（YouTube资源分享者） 4
+      - 🇳🇱 荷兰（YouTube资源分享者）
+      - 🇨🇦 加拿大（YouTube资源分享者） 5
+      - 🇨🇦 加拿大（YouTube资源分享者） 6
+      - 🇺🇸 美国（YouTube资源分享者） 7
+      - 🇪🇺 欧洲（YouTube资源分享者）
+      - 🇺🇸 美国（YouTube资源分享者） 8
+      - 🇬🇧 英国（YouTube资源分享者）
+      - 🇬🇧 英国（YouTube资源分享者） 2
+      - 亚洲（YouTube资源分享者） 2
       - 🇺🇸 美国（YouTube资源分享者） 9
-      - 🇫🇷 法国（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 10
-      - 🇪🇺 欧洲（YouTube资源分享者） 5
+      - 葡萄牙（YouTube资源分享者）
       - 🇬🇧 英国（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 10
+      - 挪威（YouTube资源分享者）
       - 🇺🇸 美国（YouTube资源分享者） 11
+      - 🇺🇸 美国（YouTube资源分享者） 12
+      - 🇨🇦 加拿大（YouTube资源分享者） 7
+      - 🇭🇰 香港（YouTube资源分享者） 6
+      - 🇨🇦 加拿大（YouTube资源分享者） 8
+      - 挪威（YouTube资源分享者） 2
+      - 🇨🇦 加拿大（YouTube资源分享者） 9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 中国（YouTube资源分享者）
-      - 🇨🇳 中国（YouTube资源分享者） 2
-      - 🇭🇰 香港（YouTube资源分享者）
       - 🇺🇸 美国（YouTube资源分享者）
-      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者）
       - 🇨🇳 台湾（YouTube资源分享者）
-      - 🇪🇺 欧洲（YouTube资源分享者）
+      - 🇨🇳 台湾（YouTube资源分享者） 2
       - 🇨🇦 加拿大（YouTube资源分享者）
-      - 🇪🇺 欧洲（YouTube资源分享者） 2
-      - 🇨🇳 中国（YouTube资源分享者） 3
-      - 卢森堡（YouTube资源分享者）
-      - 🇬🇧 英国（YouTube资源分享者）
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇨🇳 中国（YouTube资源分享者） 4
-      - 🇨🇦 加拿大（YouTube资源分享者） 2
-      - 🇯🇵 日本（YouTube资源分享者） 2
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇪🇺 欧洲（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 4
+      - 🇭🇰 香港（YouTube资源分享者）
       - 🇭🇰 香港（YouTube资源分享者） 2
-      - 🇬🇧 英国（YouTube资源分享者） 2
+      - 🇨🇳 台湾（YouTube资源分享者） 3
+      - 🇭🇰 香港（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 2
+      - 🇭🇰 香港（YouTube资源分享者） 4
+      - 🇺🇸 美国（YouTube资源分享者） 3
+      - 乌克兰（YouTube资源分享者）
+      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇸🇪 瑞典（YouTube资源分享者）
+      - 🇨🇦 加拿大（YouTube资源分享者） 2
+      - 🇨🇳 台湾（YouTube资源分享者） 4
+      - 🇭🇰 香港（YouTube资源分享者） 5
+      - 🇺🇸 美国（YouTube资源分享者） 4
       - 🇺🇸 美国（YouTube资源分享者） 5
       - 🇺🇸 美国（YouTube资源分享者） 6
+      - 🇨🇳 台湾（YouTube资源分享者） 5
+      - 亚洲（YouTube资源分享者）
       - 🇨🇦 加拿大（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 7
-      - 🇺🇸 美国（YouTube资源分享者） 8
-      - 🇫🇷 法国（YouTube资源分享者）
-      - 🇭🇰 香港（YouTube资源分享者） 3
-      - 🇪🇺 欧洲（YouTube资源分享者） 4
-      - 🇫🇷 法国（YouTube资源分享者） 2
+      - 🇦🇺 澳大利亚（YouTube资源分享者）
       - 🇨🇦 加拿大（YouTube资源分享者） 4
+      - 🇳🇱 荷兰（YouTube资源分享者）
+      - 🇨🇦 加拿大（YouTube资源分享者） 5
+      - 🇨🇦 加拿大（YouTube资源分享者） 6
+      - 🇺🇸 美国（YouTube资源分享者） 7
+      - 🇪🇺 欧洲（YouTube资源分享者）
+      - 🇺🇸 美国（YouTube资源分享者） 8
+      - 🇬🇧 英国（YouTube资源分享者）
+      - 🇬🇧 英国（YouTube资源分享者） 2
+      - 亚洲（YouTube资源分享者） 2
       - 🇺🇸 美国（YouTube资源分享者） 9
-      - 🇫🇷 法国（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 10
-      - 🇪🇺 欧洲（YouTube资源分享者） 5
+      - 葡萄牙（YouTube资源分享者）
       - 🇬🇧 英国（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 10
+      - 挪威（YouTube资源分享者）
       - 🇺🇸 美国（YouTube资源分享者） 11
+      - 🇺🇸 美国（YouTube资源分享者） 12
+      - 🇨🇦 加拿大（YouTube资源分享者） 7
+      - 🇭🇰 香港（YouTube资源分享者） 6
+      - 🇨🇦 加拿大（YouTube资源分享者） 8
+      - 挪威（YouTube资源分享者） 2
+      - 🇨🇦 加拿大（YouTube资源分享者） 9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 中国（YouTube资源分享者）
-      - 🇨🇳 中国（YouTube资源分享者） 2
-      - 🇭🇰 香港（YouTube资源分享者）
       - 🇺🇸 美国（YouTube资源分享者）
-      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者）
       - 🇨🇳 台湾（YouTube资源分享者）
-      - 🇪🇺 欧洲（YouTube资源分享者）
+      - 🇨🇳 台湾（YouTube资源分享者） 2
       - 🇨🇦 加拿大（YouTube资源分享者）
-      - 🇪🇺 欧洲（YouTube资源分享者） 2
-      - 🇨🇳 中国（YouTube资源分享者） 3
-      - 卢森堡（YouTube资源分享者）
-      - 🇬🇧 英国（YouTube资源分享者）
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇨🇳 中国（YouTube资源分享者） 4
-      - 🇨🇦 加拿大（YouTube资源分享者） 2
-      - 🇯🇵 日本（YouTube资源分享者） 2
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇪🇺 欧洲（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 4
+      - 🇭🇰 香港（YouTube资源分享者）
       - 🇭🇰 香港（YouTube资源分享者） 2
-      - 🇬🇧 英国（YouTube资源分享者） 2
+      - 🇨🇳 台湾（YouTube资源分享者） 3
+      - 🇭🇰 香港（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 2
+      - 🇭🇰 香港（YouTube资源分享者） 4
+      - 🇺🇸 美国（YouTube资源分享者） 3
+      - 乌克兰（YouTube资源分享者）
+      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇸🇪 瑞典（YouTube资源分享者）
+      - 🇨🇦 加拿大（YouTube资源分享者） 2
+      - 🇨🇳 台湾（YouTube资源分享者） 4
+      - 🇭🇰 香港（YouTube资源分享者） 5
+      - 🇺🇸 美国（YouTube资源分享者） 4
       - 🇺🇸 美国（YouTube资源分享者） 5
       - 🇺🇸 美国（YouTube资源分享者） 6
+      - 🇨🇳 台湾（YouTube资源分享者） 5
+      - 亚洲（YouTube资源分享者）
       - 🇨🇦 加拿大（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 7
-      - 🇺🇸 美国（YouTube资源分享者） 8
-      - 🇫🇷 法国（YouTube资源分享者）
-      - 🇭🇰 香港（YouTube资源分享者） 3
-      - 🇪🇺 欧洲（YouTube资源分享者） 4
-      - 🇫🇷 法国（YouTube资源分享者） 2
+      - 🇦🇺 澳大利亚（YouTube资源分享者）
       - 🇨🇦 加拿大（YouTube资源分享者） 4
+      - 🇳🇱 荷兰（YouTube资源分享者）
+      - 🇨🇦 加拿大（YouTube资源分享者） 5
+      - 🇨🇦 加拿大（YouTube资源分享者） 6
+      - 🇺🇸 美国（YouTube资源分享者） 7
+      - 🇪🇺 欧洲（YouTube资源分享者）
+      - 🇺🇸 美国（YouTube资源分享者） 8
+      - 🇬🇧 英国（YouTube资源分享者）
+      - 🇬🇧 英国（YouTube资源分享者） 2
+      - 亚洲（YouTube资源分享者） 2
       - 🇺🇸 美国（YouTube资源分享者） 9
-      - 🇫🇷 法国（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 10
-      - 🇪🇺 欧洲（YouTube资源分享者） 5
+      - 葡萄牙（YouTube资源分享者）
       - 🇬🇧 英国（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 10
+      - 挪威（YouTube资源分享者）
       - 🇺🇸 美国（YouTube资源分享者） 11
+      - 🇺🇸 美国（YouTube资源分享者） 12
+      - 🇨🇦 加拿大（YouTube资源分享者） 7
+      - 🇭🇰 香港（YouTube资源分享者） 6
+      - 🇨🇦 加拿大（YouTube资源分享者） 8
+      - 挪威（YouTube资源分享者） 2
+      - 🇨🇦 加拿大（YouTube资源分享者） 9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -319,43 +389,53 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 中国（YouTube资源分享者）
-      - 🇨🇳 中国（YouTube资源分享者） 2
-      - 🇭🇰 香港（YouTube资源分享者）
       - 🇺🇸 美国（YouTube资源分享者）
-      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者）
       - 🇨🇳 台湾（YouTube资源分享者）
-      - 🇪🇺 欧洲（YouTube资源分享者）
+      - 🇨🇳 台湾（YouTube资源分享者） 2
       - 🇨🇦 加拿大（YouTube资源分享者）
-      - 🇪🇺 欧洲（YouTube资源分享者） 2
-      - 🇨🇳 中国（YouTube资源分享者） 3
-      - 卢森堡（YouTube资源分享者）
-      - 🇬🇧 英国（YouTube资源分享者）
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇨🇳 中国（YouTube资源分享者） 4
-      - 🇨🇦 加拿大（YouTube资源分享者） 2
-      - 🇯🇵 日本（YouTube资源分享者） 2
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇪🇺 欧洲（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 4
+      - 🇭🇰 香港（YouTube资源分享者）
       - 🇭🇰 香港（YouTube资源分享者） 2
-      - 🇬🇧 英国（YouTube资源分享者） 2
+      - 🇨🇳 台湾（YouTube资源分享者） 3
+      - 🇭🇰 香港（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 2
+      - 🇭🇰 香港（YouTube资源分享者） 4
+      - 🇺🇸 美国（YouTube资源分享者） 3
+      - 乌克兰（YouTube资源分享者）
+      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇸🇪 瑞典（YouTube资源分享者）
+      - 🇨🇦 加拿大（YouTube资源分享者） 2
+      - 🇨🇳 台湾（YouTube资源分享者） 4
+      - 🇭🇰 香港（YouTube资源分享者） 5
+      - 🇺🇸 美国（YouTube资源分享者） 4
       - 🇺🇸 美国（YouTube资源分享者） 5
       - 🇺🇸 美国（YouTube资源分享者） 6
+      - 🇨🇳 台湾（YouTube资源分享者） 5
+      - 亚洲（YouTube资源分享者）
       - 🇨🇦 加拿大（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 7
-      - 🇺🇸 美国（YouTube资源分享者） 8
-      - 🇫🇷 法国（YouTube资源分享者）
-      - 🇭🇰 香港（YouTube资源分享者） 3
-      - 🇪🇺 欧洲（YouTube资源分享者） 4
-      - 🇫🇷 法国（YouTube资源分享者） 2
+      - 🇦🇺 澳大利亚（YouTube资源分享者）
       - 🇨🇦 加拿大（YouTube资源分享者） 4
+      - 🇳🇱 荷兰（YouTube资源分享者）
+      - 🇨🇦 加拿大（YouTube资源分享者） 5
+      - 🇨🇦 加拿大（YouTube资源分享者） 6
+      - 🇺🇸 美国（YouTube资源分享者） 7
+      - 🇪🇺 欧洲（YouTube资源分享者）
+      - 🇺🇸 美国（YouTube资源分享者） 8
+      - 🇬🇧 英国（YouTube资源分享者）
+      - 🇬🇧 英国（YouTube资源分享者） 2
+      - 亚洲（YouTube资源分享者） 2
       - 🇺🇸 美国（YouTube资源分享者） 9
-      - 🇫🇷 法国（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 10
-      - 🇪🇺 欧洲（YouTube资源分享者） 5
+      - 葡萄牙（YouTube资源分享者）
       - 🇬🇧 英国（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 10
+      - 挪威（YouTube资源分享者）
       - 🇺🇸 美国（YouTube资源分享者） 11
+      - 🇺🇸 美国（YouTube资源分享者） 12
+      - 🇨🇦 加拿大（YouTube资源分享者） 7
+      - 🇭🇰 香港（YouTube资源分享者） 6
+      - 🇨🇦 加拿大（YouTube资源分享者） 8
+      - 挪威（YouTube资源分享者） 2
+      - 🇨🇦 加拿大（YouTube资源分享者） 9
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
