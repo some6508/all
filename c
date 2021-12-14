@@ -5,124 +5,68 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇺🇸_US_美国->🇫🇷_FR_法国_1', server: ff1.uuv2.co.uk, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: uk2.v2rayserv.com}}
-  - {name: '🇺🇸_US_美国_2', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '🇺🇸_US_美国_3', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 'default_name_4', server: v3.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇺🇸_US_美国_5', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '🇩🇪_DE_德国_6', server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
-  - {name: '🇺🇸_US_美国_7', server: api.ssfree.ru, port: 443, type: vmess, uuid: 90bdb9e0-5b64-11ec-8c8d-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /getweather}
-  - {name: 'default_name_8', server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
-  - {name: '🇺🇸_US_美国->🇫🇷_FR_法国_9', server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: uk2.v2rayserv.com}}
-  - {name: '🇺🇸_US_美国_10', server: 104.26.9.74, port: 443, type: vmess, uuid: f6c1babe-416e-47d1-8726-049678e25c7a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: us2.v2rayserv.com}}
+  - {name: 'cow vagina_NON_1', server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'cow vagina_NON_2', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /, ws-headers: {Host: t.me/vpnpool}}
+  - {name: 'cow vagina_NON_3', server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国_5
-      - 🇩🇪_DE_德国_6
-      - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - cow vagina_NON_1
+      - cow vagina_NON_2
+      - cow vagina_NON_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国_5
-      - 🇩🇪_DE_德国_6
-      - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - cow vagina_NON_1
+      - cow vagina_NON_2
+      - cow vagina_NON_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国_5
-      - 🇩🇪_DE_德国_6
-      - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - cow vagina_NON_1
+      - cow vagina_NON_2
+      - cow vagina_NON_3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国_5
-      - 🇩🇪_DE_德国_6
-      - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - cow vagina_NON_1
+      - cow vagina_NON_2
+      - cow vagina_NON_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国_5
-      - 🇩🇪_DE_德国_6
-      - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - cow vagina_NON_1
+      - cow vagina_NON_2
+      - cow vagina_NON_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国_5
-      - 🇩🇪_DE_德国_6
-      - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - cow vagina_NON_1
+      - cow vagina_NON_2
+      - cow vagina_NON_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国_5
-      - 🇩🇪_DE_德国_6
-      - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - cow vagina_NON_1
+      - cow vagina_NON_2
+      - cow vagina_NON_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +82,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - default_name_4
-      - 🇺🇸_US_美国_5
-      - 🇩🇪_DE_德国_6
-      - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - cow vagina_NON_1
+      - cow vagina_NON_2
+      - cow vagina_NON_3
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
