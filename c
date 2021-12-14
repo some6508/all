@@ -5,684 +5,244 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Youtube:鹏哥分享_1', server: 120.197.88.216, port: 20049, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_2', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: 'Youtube:鹏哥分享_3', server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_4', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_5', server: 120.197.88.216, port: 20004, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_6', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享_7', server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Relay_🇨🇳CN | 3.41Mb_1', server: 139.227.219.165, port: 30016, type: vmess, uuid: 5efeb899-e8bd-446f-b0be-863d30331174, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Relay_🇨🇳CN-🇭🇰HK_33 | 5.83Mb', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇨🇳CN | 1.91Mb_3', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Relay_🇨🇳CN |10.70Mb_4', server: 120.197.88.216, port: 20002, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Relay_🇨🇳CN | 4.50Mb_5', server: 120.197.88.216, port: 20004, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
   - {name: 'Youtube:鹏哥分享_8', server: 120.197.88.216, port: 20005, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_9', server: 195.133.52.24, port: 3555, type: vmess, uuid: a2cdb9d2-5c72-11ec-afa9-1e4e26e801e7, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jquNxZlt/}
-  - {name: 'Youtube:鹏哥分享_10', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: 'Youtube:鹏哥分享_11', server: 194.50.170.74, port: 63555, type: vmess, uuid: 8cc23f14-5c72-11ec-adab-961d85b1a943, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_12', server: 217.182.199.168, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享_13', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'Youtube:鹏哥分享_14', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: 'Youtube:鹏哥分享_15', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'Youtube:鹏哥分享_16', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Youtube:鹏哥分享_17', server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray}
-  - {name: 'Youtube:鹏哥分享_18', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Youtube:鹏哥分享_19', server: 93.186.201.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享_20', server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
-  - {name: 'Youtube:鹏哥分享_21', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: 'Youtube:鹏哥分享_22', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享_23', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享_24', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享_25', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享_26', server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: 'Youtube:鹏哥分享_27', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_28', server: 116.192.166.2, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_29', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Youtube:鹏哥分享_30', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享_31', server: 194.156.120.52, port: 41002, type: vmess, uuid: ebb93e84-5bb7-11ec-8bc6-6a5c6e054e4d, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_32', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享_33', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享_34', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享_35', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享_36', server: 46.29.163.68, port: 6160, type: vmess, uuid: dcb97e4a-5bc5-11ec-8b63-0698663da5a9, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_37', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享_38', server: 139.227.219.165, port: 30016, type: vmess, uuid: 5efeb899-e8bd-446f-b0be-863d30331174, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_39', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享_40', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享_41', server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /inde}
-  - {name: 'Youtube:鹏哥分享_42', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Youtube:鹏哥分享_43', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享_44', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'Youtube:鹏哥分享_45', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Youtube:鹏哥分享_46', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 'Youtube:鹏哥分享_47', server: 120.197.88.216, port: 20015, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_48', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享_49', server: 149.248.16.94, port: 61489, type: vmess, uuid: 024b5140-5c72-11ec-8d18-560003bc59d9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /bK3AFW57/}
-  - {name: 'Youtube:鹏哥分享_50', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: 'Youtube:鹏哥分享_51', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享_52', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享_53', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享_54', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Youtube:鹏哥分享_55', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享_56', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享_57', server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_58', server: 77.243.177.78, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Qu9b6jbYLF5Dtha3n7W2}
-  - {name: 'Youtube:鹏哥分享_59', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享_60', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享_61', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享_62', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Youtube:鹏哥分享_63', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享_64', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享_65', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Relay_🇨🇳CN | 5.59Mb_7', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Relay_🇨🇳CN |12.49Mb_8', server: 120.197.88.216, port: 20015, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_4', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
   - {name: 'Youtube:鹏哥分享_66', server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_67', server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_68', server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享_69', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: 'Youtube:鹏哥分享_70', server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享_71', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享_72', server: 198.200.51.18, port: 600, type: vmess, uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_73', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享_74', server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
-  - {name: 'Youtube:鹏哥分享_75', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享_76', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'Youtube:鹏哥分享_77', server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com, port: 30016, type: vmess, uuid: 5efeb899-e8bd-446f-b0be-863d30331174, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_78', server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com, port: 30016, type: vmess, uuid: 5efeb899-e8bd-446f-b0be-863d30331174, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com}}
-  - {name: 'Youtube:鹏哥分享_79', server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
-  - {name: 'Youtube:鹏哥分享_80', server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: 'Youtube:鹏哥分享_3', server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_46', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 'Youtube:鹏哥分享_5', server: 120.197.88.216, port: 20004, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_1', server: 120.197.88.216, port: 20049, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Relay_🇨🇳CN |10.20Mb_15', server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /inde}
+  - {name: 'Relay_🇨🇳CN | 8.94Mb_16', server: 120.197.88.216, port: 20005, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Relay_🇨🇳CN-🇹🇼TW_26 | 5.98Mb', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇮🇱IL |76.89Mb_18', server: 212.80.205.133, port: 31262, type: vmess, uuid: 00415a68-d5eb-4573-b73e-2b21f6b45c5d, alterId: 64, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Relay_🇨🇦CA |53.34Mb_19', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: 'Relay_🇵🇹PT+|15.91Mb_20', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: 'Relay_🇺🇸US | 4.59Mb_21', server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: '🇩🇪DE+|75.59Mb_22', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 'Relay_🇨🇳CN-🇭🇰HK_28', server: 116.192.166.2, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Relay_🇫🇷FR+|19.30Mb_24', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Youtube:鹏哥分享_28', server: 116.192.166.2, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube:鹏哥分享_1
-      - Youtube:鹏哥分享_2
-      - Youtube:鹏哥分享_3
-      - Youtube:鹏哥分享_4
-      - Youtube:鹏哥分享_5
-      - Youtube:鹏哥分享_6
-      - Youtube:鹏哥分享_7
+      - Relay_🇨🇳CN | 3.41Mb_1
+      - Relay_🇨🇳CN-🇭🇰HK_33 | 5.83Mb
+      - 🇨🇳CN | 1.91Mb_3
+      - Relay_🇨🇳CN |10.70Mb_4
+      - Relay_🇨🇳CN | 4.50Mb_5
       - Youtube:鹏哥分享_8
-      - Youtube:鹏哥分享_9
-      - Youtube:鹏哥分享_10
-      - Youtube:鹏哥分享_11
-      - Youtube:鹏哥分享_12
-      - Youtube:鹏哥分享_13
-      - Youtube:鹏哥分享_14
-      - Youtube:鹏哥分享_15
-      - Youtube:鹏哥分享_16
-      - Youtube:鹏哥分享_17
-      - Youtube:鹏哥分享_18
-      - Youtube:鹏哥分享_19
-      - Youtube:鹏哥分享_20
-      - Youtube:鹏哥分享_21
-      - Youtube:鹏哥分享_22
-      - Youtube:鹏哥分享_23
-      - Youtube:鹏哥分享_24
-      - Youtube:鹏哥分享_25
-      - Youtube:鹏哥分享_26
-      - Youtube:鹏哥分享_27
-      - Youtube:鹏哥分享_28
-      - Youtube:鹏哥分享_29
-      - Youtube:鹏哥分享_30
-      - Youtube:鹏哥分享_31
-      - Youtube:鹏哥分享_32
-      - Youtube:鹏哥分享_33
-      - Youtube:鹏哥分享_34
-      - Youtube:鹏哥分享_35
-      - Youtube:鹏哥分享_36
-      - Youtube:鹏哥分享_37
-      - Youtube:鹏哥分享_38
-      - Youtube:鹏哥分享_39
-      - Youtube:鹏哥分享_40
-      - Youtube:鹏哥分享_41
-      - Youtube:鹏哥分享_42
-      - Youtube:鹏哥分享_43
-      - Youtube:鹏哥分享_44
-      - Youtube:鹏哥分享_45
-      - Youtube:鹏哥分享_46
-      - Youtube:鹏哥分享_47
-      - Youtube:鹏哥分享_48
-      - Youtube:鹏哥分享_49
-      - Youtube:鹏哥分享_50
-      - Youtube:鹏哥分享_51
-      - Youtube:鹏哥分享_52
-      - Youtube:鹏哥分享_53
-      - Youtube:鹏哥分享_54
-      - Youtube:鹏哥分享_55
-      - Youtube:鹏哥分享_56
-      - Youtube:鹏哥分享_57
-      - Youtube:鹏哥分享_58
-      - Youtube:鹏哥分享_59
-      - Youtube:鹏哥分享_60
-      - Youtube:鹏哥分享_61
-      - Youtube:鹏哥分享_62
-      - Youtube:鹏哥分享_63
-      - Youtube:鹏哥分享_64
-      - Youtube:鹏哥分享_65
+      - Relay_🇨🇳CN | 5.59Mb_7
+      - Relay_🇨🇳CN |12.49Mb_8
+      - Youtube:鹏哥分享_4
       - Youtube:鹏哥分享_66
-      - Youtube:鹏哥分享_67
-      - Youtube:鹏哥分享_68
-      - Youtube:鹏哥分享_69
-      - Youtube:鹏哥分享_70
-      - Youtube:鹏哥分享_71
-      - Youtube:鹏哥分享_72
-      - Youtube:鹏哥分享_73
-      - Youtube:鹏哥分享_74
-      - Youtube:鹏哥分享_75
-      - Youtube:鹏哥分享_76
-      - Youtube:鹏哥分享_77
-      - Youtube:鹏哥分享_78
-      - Youtube:鹏哥分享_79
-      - Youtube:鹏哥分享_80
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_46
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_1
+      - Relay_🇨🇳CN |10.20Mb_15
+      - Relay_🇨🇳CN | 8.94Mb_16
+      - Relay_🇨🇳CN-🇹🇼TW_26 | 5.98Mb
+      - 🇮🇱IL |76.89Mb_18
+      - Relay_🇨🇦CA |53.34Mb_19
+      - Relay_🇵🇹PT+|15.91Mb_20
+      - Relay_🇺🇸US | 4.59Mb_21
+      - 🇩🇪DE+|75.59Mb_22
+      - Relay_🇨🇳CN-🇭🇰HK_28
+      - Relay_🇫🇷FR+|19.30Mb_24
+      - Youtube:鹏哥分享_28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Youtube:鹏哥分享_1
-      - Youtube:鹏哥分享_2
-      - Youtube:鹏哥分享_3
-      - Youtube:鹏哥分享_4
-      - Youtube:鹏哥分享_5
-      - Youtube:鹏哥分享_6
-      - Youtube:鹏哥分享_7
+      - Relay_🇨🇳CN | 3.41Mb_1
+      - Relay_🇨🇳CN-🇭🇰HK_33 | 5.83Mb
+      - 🇨🇳CN | 1.91Mb_3
+      - Relay_🇨🇳CN |10.70Mb_4
+      - Relay_🇨🇳CN | 4.50Mb_5
       - Youtube:鹏哥分享_8
-      - Youtube:鹏哥分享_9
-      - Youtube:鹏哥分享_10
-      - Youtube:鹏哥分享_11
-      - Youtube:鹏哥分享_12
-      - Youtube:鹏哥分享_13
-      - Youtube:鹏哥分享_14
-      - Youtube:鹏哥分享_15
-      - Youtube:鹏哥分享_16
-      - Youtube:鹏哥分享_17
-      - Youtube:鹏哥分享_18
-      - Youtube:鹏哥分享_19
-      - Youtube:鹏哥分享_20
-      - Youtube:鹏哥分享_21
-      - Youtube:鹏哥分享_22
-      - Youtube:鹏哥分享_23
-      - Youtube:鹏哥分享_24
-      - Youtube:鹏哥分享_25
-      - Youtube:鹏哥分享_26
-      - Youtube:鹏哥分享_27
-      - Youtube:鹏哥分享_28
-      - Youtube:鹏哥分享_29
-      - Youtube:鹏哥分享_30
-      - Youtube:鹏哥分享_31
-      - Youtube:鹏哥分享_32
-      - Youtube:鹏哥分享_33
-      - Youtube:鹏哥分享_34
-      - Youtube:鹏哥分享_35
-      - Youtube:鹏哥分享_36
-      - Youtube:鹏哥分享_37
-      - Youtube:鹏哥分享_38
-      - Youtube:鹏哥分享_39
-      - Youtube:鹏哥分享_40
-      - Youtube:鹏哥分享_41
-      - Youtube:鹏哥分享_42
-      - Youtube:鹏哥分享_43
-      - Youtube:鹏哥分享_44
-      - Youtube:鹏哥分享_45
-      - Youtube:鹏哥分享_46
-      - Youtube:鹏哥分享_47
-      - Youtube:鹏哥分享_48
-      - Youtube:鹏哥分享_49
-      - Youtube:鹏哥分享_50
-      - Youtube:鹏哥分享_51
-      - Youtube:鹏哥分享_52
-      - Youtube:鹏哥分享_53
-      - Youtube:鹏哥分享_54
-      - Youtube:鹏哥分享_55
-      - Youtube:鹏哥分享_56
-      - Youtube:鹏哥分享_57
-      - Youtube:鹏哥分享_58
-      - Youtube:鹏哥分享_59
-      - Youtube:鹏哥分享_60
-      - Youtube:鹏哥分享_61
-      - Youtube:鹏哥分享_62
-      - Youtube:鹏哥分享_63
-      - Youtube:鹏哥分享_64
-      - Youtube:鹏哥分享_65
+      - Relay_🇨🇳CN | 5.59Mb_7
+      - Relay_🇨🇳CN |12.49Mb_8
+      - Youtube:鹏哥分享_4
       - Youtube:鹏哥分享_66
-      - Youtube:鹏哥分享_67
-      - Youtube:鹏哥分享_68
-      - Youtube:鹏哥分享_69
-      - Youtube:鹏哥分享_70
-      - Youtube:鹏哥分享_71
-      - Youtube:鹏哥分享_72
-      - Youtube:鹏哥分享_73
-      - Youtube:鹏哥分享_74
-      - Youtube:鹏哥分享_75
-      - Youtube:鹏哥分享_76
-      - Youtube:鹏哥分享_77
-      - Youtube:鹏哥分享_78
-      - Youtube:鹏哥分享_79
-      - Youtube:鹏哥分享_80
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_46
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_1
+      - Relay_🇨🇳CN |10.20Mb_15
+      - Relay_🇨🇳CN | 8.94Mb_16
+      - Relay_🇨🇳CN-🇹🇼TW_26 | 5.98Mb
+      - 🇮🇱IL |76.89Mb_18
+      - Relay_🇨🇦CA |53.34Mb_19
+      - Relay_🇵🇹PT+|15.91Mb_20
+      - Relay_🇺🇸US | 4.59Mb_21
+      - 🇩🇪DE+|75.59Mb_22
+      - Relay_🇨🇳CN-🇭🇰HK_28
+      - Relay_🇫🇷FR+|19.30Mb_24
+      - Youtube:鹏哥分享_28
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube:鹏哥分享_1
-      - Youtube:鹏哥分享_2
-      - Youtube:鹏哥分享_3
-      - Youtube:鹏哥分享_4
-      - Youtube:鹏哥分享_5
-      - Youtube:鹏哥分享_6
-      - Youtube:鹏哥分享_7
+      - Relay_🇨🇳CN | 3.41Mb_1
+      - Relay_🇨🇳CN-🇭🇰HK_33 | 5.83Mb
+      - 🇨🇳CN | 1.91Mb_3
+      - Relay_🇨🇳CN |10.70Mb_4
+      - Relay_🇨🇳CN | 4.50Mb_5
       - Youtube:鹏哥分享_8
-      - Youtube:鹏哥分享_9
-      - Youtube:鹏哥分享_10
-      - Youtube:鹏哥分享_11
-      - Youtube:鹏哥分享_12
-      - Youtube:鹏哥分享_13
-      - Youtube:鹏哥分享_14
-      - Youtube:鹏哥分享_15
-      - Youtube:鹏哥分享_16
-      - Youtube:鹏哥分享_17
-      - Youtube:鹏哥分享_18
-      - Youtube:鹏哥分享_19
-      - Youtube:鹏哥分享_20
-      - Youtube:鹏哥分享_21
-      - Youtube:鹏哥分享_22
-      - Youtube:鹏哥分享_23
-      - Youtube:鹏哥分享_24
-      - Youtube:鹏哥分享_25
-      - Youtube:鹏哥分享_26
-      - Youtube:鹏哥分享_27
-      - Youtube:鹏哥分享_28
-      - Youtube:鹏哥分享_29
-      - Youtube:鹏哥分享_30
-      - Youtube:鹏哥分享_31
-      - Youtube:鹏哥分享_32
-      - Youtube:鹏哥分享_33
-      - Youtube:鹏哥分享_34
-      - Youtube:鹏哥分享_35
-      - Youtube:鹏哥分享_36
-      - Youtube:鹏哥分享_37
-      - Youtube:鹏哥分享_38
-      - Youtube:鹏哥分享_39
-      - Youtube:鹏哥分享_40
-      - Youtube:鹏哥分享_41
-      - Youtube:鹏哥分享_42
-      - Youtube:鹏哥分享_43
-      - Youtube:鹏哥分享_44
-      - Youtube:鹏哥分享_45
-      - Youtube:鹏哥分享_46
-      - Youtube:鹏哥分享_47
-      - Youtube:鹏哥分享_48
-      - Youtube:鹏哥分享_49
-      - Youtube:鹏哥分享_50
-      - Youtube:鹏哥分享_51
-      - Youtube:鹏哥分享_52
-      - Youtube:鹏哥分享_53
-      - Youtube:鹏哥分享_54
-      - Youtube:鹏哥分享_55
-      - Youtube:鹏哥分享_56
-      - Youtube:鹏哥分享_57
-      - Youtube:鹏哥分享_58
-      - Youtube:鹏哥分享_59
-      - Youtube:鹏哥分享_60
-      - Youtube:鹏哥分享_61
-      - Youtube:鹏哥分享_62
-      - Youtube:鹏哥分享_63
-      - Youtube:鹏哥分享_64
-      - Youtube:鹏哥分享_65
+      - Relay_🇨🇳CN | 5.59Mb_7
+      - Relay_🇨🇳CN |12.49Mb_8
+      - Youtube:鹏哥分享_4
       - Youtube:鹏哥分享_66
-      - Youtube:鹏哥分享_67
-      - Youtube:鹏哥分享_68
-      - Youtube:鹏哥分享_69
-      - Youtube:鹏哥分享_70
-      - Youtube:鹏哥分享_71
-      - Youtube:鹏哥分享_72
-      - Youtube:鹏哥分享_73
-      - Youtube:鹏哥分享_74
-      - Youtube:鹏哥分享_75
-      - Youtube:鹏哥分享_76
-      - Youtube:鹏哥分享_77
-      - Youtube:鹏哥分享_78
-      - Youtube:鹏哥分享_79
-      - Youtube:鹏哥分享_80
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_46
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_1
+      - Relay_🇨🇳CN |10.20Mb_15
+      - Relay_🇨🇳CN | 8.94Mb_16
+      - Relay_🇨🇳CN-🇹🇼TW_26 | 5.98Mb
+      - 🇮🇱IL |76.89Mb_18
+      - Relay_🇨🇦CA |53.34Mb_19
+      - Relay_🇵🇹PT+|15.91Mb_20
+      - Relay_🇺🇸US | 4.59Mb_21
+      - 🇩🇪DE+|75.59Mb_22
+      - Relay_🇨🇳CN-🇭🇰HK_28
+      - Relay_🇫🇷FR+|19.30Mb_24
+      - Youtube:鹏哥分享_28
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube:鹏哥分享_1
-      - Youtube:鹏哥分享_2
-      - Youtube:鹏哥分享_3
-      - Youtube:鹏哥分享_4
-      - Youtube:鹏哥分享_5
-      - Youtube:鹏哥分享_6
-      - Youtube:鹏哥分享_7
+      - Relay_🇨🇳CN | 3.41Mb_1
+      - Relay_🇨🇳CN-🇭🇰HK_33 | 5.83Mb
+      - 🇨🇳CN | 1.91Mb_3
+      - Relay_🇨🇳CN |10.70Mb_4
+      - Relay_🇨🇳CN | 4.50Mb_5
       - Youtube:鹏哥分享_8
-      - Youtube:鹏哥分享_9
-      - Youtube:鹏哥分享_10
-      - Youtube:鹏哥分享_11
-      - Youtube:鹏哥分享_12
-      - Youtube:鹏哥分享_13
-      - Youtube:鹏哥分享_14
-      - Youtube:鹏哥分享_15
-      - Youtube:鹏哥分享_16
-      - Youtube:鹏哥分享_17
-      - Youtube:鹏哥分享_18
-      - Youtube:鹏哥分享_19
-      - Youtube:鹏哥分享_20
-      - Youtube:鹏哥分享_21
-      - Youtube:鹏哥分享_22
-      - Youtube:鹏哥分享_23
-      - Youtube:鹏哥分享_24
-      - Youtube:鹏哥分享_25
-      - Youtube:鹏哥分享_26
-      - Youtube:鹏哥分享_27
-      - Youtube:鹏哥分享_28
-      - Youtube:鹏哥分享_29
-      - Youtube:鹏哥分享_30
-      - Youtube:鹏哥分享_31
-      - Youtube:鹏哥分享_32
-      - Youtube:鹏哥分享_33
-      - Youtube:鹏哥分享_34
-      - Youtube:鹏哥分享_35
-      - Youtube:鹏哥分享_36
-      - Youtube:鹏哥分享_37
-      - Youtube:鹏哥分享_38
-      - Youtube:鹏哥分享_39
-      - Youtube:鹏哥分享_40
-      - Youtube:鹏哥分享_41
-      - Youtube:鹏哥分享_42
-      - Youtube:鹏哥分享_43
-      - Youtube:鹏哥分享_44
-      - Youtube:鹏哥分享_45
-      - Youtube:鹏哥分享_46
-      - Youtube:鹏哥分享_47
-      - Youtube:鹏哥分享_48
-      - Youtube:鹏哥分享_49
-      - Youtube:鹏哥分享_50
-      - Youtube:鹏哥分享_51
-      - Youtube:鹏哥分享_52
-      - Youtube:鹏哥分享_53
-      - Youtube:鹏哥分享_54
-      - Youtube:鹏哥分享_55
-      - Youtube:鹏哥分享_56
-      - Youtube:鹏哥分享_57
-      - Youtube:鹏哥分享_58
-      - Youtube:鹏哥分享_59
-      - Youtube:鹏哥分享_60
-      - Youtube:鹏哥分享_61
-      - Youtube:鹏哥分享_62
-      - Youtube:鹏哥分享_63
-      - Youtube:鹏哥分享_64
-      - Youtube:鹏哥分享_65
+      - Relay_🇨🇳CN | 5.59Mb_7
+      - Relay_🇨🇳CN |12.49Mb_8
+      - Youtube:鹏哥分享_4
       - Youtube:鹏哥分享_66
-      - Youtube:鹏哥分享_67
-      - Youtube:鹏哥分享_68
-      - Youtube:鹏哥分享_69
-      - Youtube:鹏哥分享_70
-      - Youtube:鹏哥分享_71
-      - Youtube:鹏哥分享_72
-      - Youtube:鹏哥分享_73
-      - Youtube:鹏哥分享_74
-      - Youtube:鹏哥分享_75
-      - Youtube:鹏哥分享_76
-      - Youtube:鹏哥分享_77
-      - Youtube:鹏哥分享_78
-      - Youtube:鹏哥分享_79
-      - Youtube:鹏哥分享_80
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_46
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_1
+      - Relay_🇨🇳CN |10.20Mb_15
+      - Relay_🇨🇳CN | 8.94Mb_16
+      - Relay_🇨🇳CN-🇹🇼TW_26 | 5.98Mb
+      - 🇮🇱IL |76.89Mb_18
+      - Relay_🇨🇦CA |53.34Mb_19
+      - Relay_🇵🇹PT+|15.91Mb_20
+      - Relay_🇺🇸US | 4.59Mb_21
+      - 🇩🇪DE+|75.59Mb_22
+      - Relay_🇨🇳CN-🇭🇰HK_28
+      - Relay_🇫🇷FR+|19.30Mb_24
+      - Youtube:鹏哥分享_28
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube:鹏哥分享_1
-      - Youtube:鹏哥分享_2
-      - Youtube:鹏哥分享_3
-      - Youtube:鹏哥分享_4
-      - Youtube:鹏哥分享_5
-      - Youtube:鹏哥分享_6
-      - Youtube:鹏哥分享_7
+      - Relay_🇨🇳CN | 3.41Mb_1
+      - Relay_🇨🇳CN-🇭🇰HK_33 | 5.83Mb
+      - 🇨🇳CN | 1.91Mb_3
+      - Relay_🇨🇳CN |10.70Mb_4
+      - Relay_🇨🇳CN | 4.50Mb_5
       - Youtube:鹏哥分享_8
-      - Youtube:鹏哥分享_9
-      - Youtube:鹏哥分享_10
-      - Youtube:鹏哥分享_11
-      - Youtube:鹏哥分享_12
-      - Youtube:鹏哥分享_13
-      - Youtube:鹏哥分享_14
-      - Youtube:鹏哥分享_15
-      - Youtube:鹏哥分享_16
-      - Youtube:鹏哥分享_17
-      - Youtube:鹏哥分享_18
-      - Youtube:鹏哥分享_19
-      - Youtube:鹏哥分享_20
-      - Youtube:鹏哥分享_21
-      - Youtube:鹏哥分享_22
-      - Youtube:鹏哥分享_23
-      - Youtube:鹏哥分享_24
-      - Youtube:鹏哥分享_25
-      - Youtube:鹏哥分享_26
-      - Youtube:鹏哥分享_27
-      - Youtube:鹏哥分享_28
-      - Youtube:鹏哥分享_29
-      - Youtube:鹏哥分享_30
-      - Youtube:鹏哥分享_31
-      - Youtube:鹏哥分享_32
-      - Youtube:鹏哥分享_33
-      - Youtube:鹏哥分享_34
-      - Youtube:鹏哥分享_35
-      - Youtube:鹏哥分享_36
-      - Youtube:鹏哥分享_37
-      - Youtube:鹏哥分享_38
-      - Youtube:鹏哥分享_39
-      - Youtube:鹏哥分享_40
-      - Youtube:鹏哥分享_41
-      - Youtube:鹏哥分享_42
-      - Youtube:鹏哥分享_43
-      - Youtube:鹏哥分享_44
-      - Youtube:鹏哥分享_45
-      - Youtube:鹏哥分享_46
-      - Youtube:鹏哥分享_47
-      - Youtube:鹏哥分享_48
-      - Youtube:鹏哥分享_49
-      - Youtube:鹏哥分享_50
-      - Youtube:鹏哥分享_51
-      - Youtube:鹏哥分享_52
-      - Youtube:鹏哥分享_53
-      - Youtube:鹏哥分享_54
-      - Youtube:鹏哥分享_55
-      - Youtube:鹏哥分享_56
-      - Youtube:鹏哥分享_57
-      - Youtube:鹏哥分享_58
-      - Youtube:鹏哥分享_59
-      - Youtube:鹏哥分享_60
-      - Youtube:鹏哥分享_61
-      - Youtube:鹏哥分享_62
-      - Youtube:鹏哥分享_63
-      - Youtube:鹏哥分享_64
-      - Youtube:鹏哥分享_65
+      - Relay_🇨🇳CN | 5.59Mb_7
+      - Relay_🇨🇳CN |12.49Mb_8
+      - Youtube:鹏哥分享_4
       - Youtube:鹏哥分享_66
-      - Youtube:鹏哥分享_67
-      - Youtube:鹏哥分享_68
-      - Youtube:鹏哥分享_69
-      - Youtube:鹏哥分享_70
-      - Youtube:鹏哥分享_71
-      - Youtube:鹏哥分享_72
-      - Youtube:鹏哥分享_73
-      - Youtube:鹏哥分享_74
-      - Youtube:鹏哥分享_75
-      - Youtube:鹏哥分享_76
-      - Youtube:鹏哥分享_77
-      - Youtube:鹏哥分享_78
-      - Youtube:鹏哥分享_79
-      - Youtube:鹏哥分享_80
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_46
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_1
+      - Relay_🇨🇳CN |10.20Mb_15
+      - Relay_🇨🇳CN | 8.94Mb_16
+      - Relay_🇨🇳CN-🇹🇼TW_26 | 5.98Mb
+      - 🇮🇱IL |76.89Mb_18
+      - Relay_🇨🇦CA |53.34Mb_19
+      - Relay_🇵🇹PT+|15.91Mb_20
+      - Relay_🇺🇸US | 4.59Mb_21
+      - 🇩🇪DE+|75.59Mb_22
+      - Relay_🇨🇳CN-🇭🇰HK_28
+      - Relay_🇫🇷FR+|19.30Mb_24
+      - Youtube:鹏哥分享_28
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Youtube:鹏哥分享_1
-      - Youtube:鹏哥分享_2
-      - Youtube:鹏哥分享_3
-      - Youtube:鹏哥分享_4
-      - Youtube:鹏哥分享_5
-      - Youtube:鹏哥分享_6
-      - Youtube:鹏哥分享_7
+      - Relay_🇨🇳CN | 3.41Mb_1
+      - Relay_🇨🇳CN-🇭🇰HK_33 | 5.83Mb
+      - 🇨🇳CN | 1.91Mb_3
+      - Relay_🇨🇳CN |10.70Mb_4
+      - Relay_🇨🇳CN | 4.50Mb_5
       - Youtube:鹏哥分享_8
-      - Youtube:鹏哥分享_9
-      - Youtube:鹏哥分享_10
-      - Youtube:鹏哥分享_11
-      - Youtube:鹏哥分享_12
-      - Youtube:鹏哥分享_13
-      - Youtube:鹏哥分享_14
-      - Youtube:鹏哥分享_15
-      - Youtube:鹏哥分享_16
-      - Youtube:鹏哥分享_17
-      - Youtube:鹏哥分享_18
-      - Youtube:鹏哥分享_19
-      - Youtube:鹏哥分享_20
-      - Youtube:鹏哥分享_21
-      - Youtube:鹏哥分享_22
-      - Youtube:鹏哥分享_23
-      - Youtube:鹏哥分享_24
-      - Youtube:鹏哥分享_25
-      - Youtube:鹏哥分享_26
-      - Youtube:鹏哥分享_27
-      - Youtube:鹏哥分享_28
-      - Youtube:鹏哥分享_29
-      - Youtube:鹏哥分享_30
-      - Youtube:鹏哥分享_31
-      - Youtube:鹏哥分享_32
-      - Youtube:鹏哥分享_33
-      - Youtube:鹏哥分享_34
-      - Youtube:鹏哥分享_35
-      - Youtube:鹏哥分享_36
-      - Youtube:鹏哥分享_37
-      - Youtube:鹏哥分享_38
-      - Youtube:鹏哥分享_39
-      - Youtube:鹏哥分享_40
-      - Youtube:鹏哥分享_41
-      - Youtube:鹏哥分享_42
-      - Youtube:鹏哥分享_43
-      - Youtube:鹏哥分享_44
-      - Youtube:鹏哥分享_45
-      - Youtube:鹏哥分享_46
-      - Youtube:鹏哥分享_47
-      - Youtube:鹏哥分享_48
-      - Youtube:鹏哥分享_49
-      - Youtube:鹏哥分享_50
-      - Youtube:鹏哥分享_51
-      - Youtube:鹏哥分享_52
-      - Youtube:鹏哥分享_53
-      - Youtube:鹏哥分享_54
-      - Youtube:鹏哥分享_55
-      - Youtube:鹏哥分享_56
-      - Youtube:鹏哥分享_57
-      - Youtube:鹏哥分享_58
-      - Youtube:鹏哥分享_59
-      - Youtube:鹏哥分享_60
-      - Youtube:鹏哥分享_61
-      - Youtube:鹏哥分享_62
-      - Youtube:鹏哥分享_63
-      - Youtube:鹏哥分享_64
-      - Youtube:鹏哥分享_65
+      - Relay_🇨🇳CN | 5.59Mb_7
+      - Relay_🇨🇳CN |12.49Mb_8
+      - Youtube:鹏哥分享_4
       - Youtube:鹏哥分享_66
-      - Youtube:鹏哥分享_67
-      - Youtube:鹏哥分享_68
-      - Youtube:鹏哥分享_69
-      - Youtube:鹏哥分享_70
-      - Youtube:鹏哥分享_71
-      - Youtube:鹏哥分享_72
-      - Youtube:鹏哥分享_73
-      - Youtube:鹏哥分享_74
-      - Youtube:鹏哥分享_75
-      - Youtube:鹏哥分享_76
-      - Youtube:鹏哥分享_77
-      - Youtube:鹏哥分享_78
-      - Youtube:鹏哥分享_79
-      - Youtube:鹏哥分享_80
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_46
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_1
+      - Relay_🇨🇳CN |10.20Mb_15
+      - Relay_🇨🇳CN | 8.94Mb_16
+      - Relay_🇨🇳CN-🇹🇼TW_26 | 5.98Mb
+      - 🇮🇱IL |76.89Mb_18
+      - Relay_🇨🇦CA |53.34Mb_19
+      - Relay_🇵🇹PT+|15.91Mb_20
+      - Relay_🇺🇸US | 4.59Mb_21
+      - 🇩🇪DE+|75.59Mb_22
+      - Relay_🇨🇳CN-🇭🇰HK_28
+      - Relay_🇫🇷FR+|19.30Mb_24
+      - Youtube:鹏哥分享_28
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube:鹏哥分享_1
-      - Youtube:鹏哥分享_2
-      - Youtube:鹏哥分享_3
-      - Youtube:鹏哥分享_4
-      - Youtube:鹏哥分享_5
-      - Youtube:鹏哥分享_6
-      - Youtube:鹏哥分享_7
+      - Relay_🇨🇳CN | 3.41Mb_1
+      - Relay_🇨🇳CN-🇭🇰HK_33 | 5.83Mb
+      - 🇨🇳CN | 1.91Mb_3
+      - Relay_🇨🇳CN |10.70Mb_4
+      - Relay_🇨🇳CN | 4.50Mb_5
       - Youtube:鹏哥分享_8
-      - Youtube:鹏哥分享_9
-      - Youtube:鹏哥分享_10
-      - Youtube:鹏哥分享_11
-      - Youtube:鹏哥分享_12
-      - Youtube:鹏哥分享_13
-      - Youtube:鹏哥分享_14
-      - Youtube:鹏哥分享_15
-      - Youtube:鹏哥分享_16
-      - Youtube:鹏哥分享_17
-      - Youtube:鹏哥分享_18
-      - Youtube:鹏哥分享_19
-      - Youtube:鹏哥分享_20
-      - Youtube:鹏哥分享_21
-      - Youtube:鹏哥分享_22
-      - Youtube:鹏哥分享_23
-      - Youtube:鹏哥分享_24
-      - Youtube:鹏哥分享_25
-      - Youtube:鹏哥分享_26
-      - Youtube:鹏哥分享_27
-      - Youtube:鹏哥分享_28
-      - Youtube:鹏哥分享_29
-      - Youtube:鹏哥分享_30
-      - Youtube:鹏哥分享_31
-      - Youtube:鹏哥分享_32
-      - Youtube:鹏哥分享_33
-      - Youtube:鹏哥分享_34
-      - Youtube:鹏哥分享_35
-      - Youtube:鹏哥分享_36
-      - Youtube:鹏哥分享_37
-      - Youtube:鹏哥分享_38
-      - Youtube:鹏哥分享_39
-      - Youtube:鹏哥分享_40
-      - Youtube:鹏哥分享_41
-      - Youtube:鹏哥分享_42
-      - Youtube:鹏哥分享_43
-      - Youtube:鹏哥分享_44
-      - Youtube:鹏哥分享_45
-      - Youtube:鹏哥分享_46
-      - Youtube:鹏哥分享_47
-      - Youtube:鹏哥分享_48
-      - Youtube:鹏哥分享_49
-      - Youtube:鹏哥分享_50
-      - Youtube:鹏哥分享_51
-      - Youtube:鹏哥分享_52
-      - Youtube:鹏哥分享_53
-      - Youtube:鹏哥分享_54
-      - Youtube:鹏哥分享_55
-      - Youtube:鹏哥分享_56
-      - Youtube:鹏哥分享_57
-      - Youtube:鹏哥分享_58
-      - Youtube:鹏哥分享_59
-      - Youtube:鹏哥分享_60
-      - Youtube:鹏哥分享_61
-      - Youtube:鹏哥分享_62
-      - Youtube:鹏哥分享_63
-      - Youtube:鹏哥分享_64
-      - Youtube:鹏哥分享_65
+      - Relay_🇨🇳CN | 5.59Mb_7
+      - Relay_🇨🇳CN |12.49Mb_8
+      - Youtube:鹏哥分享_4
       - Youtube:鹏哥分享_66
-      - Youtube:鹏哥分享_67
-      - Youtube:鹏哥分享_68
-      - Youtube:鹏哥分享_69
-      - Youtube:鹏哥分享_70
-      - Youtube:鹏哥分享_71
-      - Youtube:鹏哥分享_72
-      - Youtube:鹏哥分享_73
-      - Youtube:鹏哥分享_74
-      - Youtube:鹏哥分享_75
-      - Youtube:鹏哥分享_76
-      - Youtube:鹏哥分享_77
-      - Youtube:鹏哥分享_78
-      - Youtube:鹏哥分享_79
-      - Youtube:鹏哥分享_80
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_46
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_1
+      - Relay_🇨🇳CN |10.20Mb_15
+      - Relay_🇨🇳CN | 8.94Mb_16
+      - Relay_🇨🇳CN-🇹🇼TW_26 | 5.98Mb
+      - 🇮🇱IL |76.89Mb_18
+      - Relay_🇨🇦CA |53.34Mb_19
+      - Relay_🇵🇹PT+|15.91Mb_20
+      - Relay_🇺🇸US | 4.59Mb_21
+      - 🇩🇪DE+|75.59Mb_22
+      - Relay_🇨🇳CN-🇭🇰HK_28
+      - Relay_🇫🇷FR+|19.30Mb_24
+      - Youtube:鹏哥分享_28
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -698,86 +258,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube:鹏哥分享_1
-      - Youtube:鹏哥分享_2
-      - Youtube:鹏哥分享_3
-      - Youtube:鹏哥分享_4
-      - Youtube:鹏哥分享_5
-      - Youtube:鹏哥分享_6
-      - Youtube:鹏哥分享_7
+      - Relay_🇨🇳CN | 3.41Mb_1
+      - Relay_🇨🇳CN-🇭🇰HK_33 | 5.83Mb
+      - 🇨🇳CN | 1.91Mb_3
+      - Relay_🇨🇳CN |10.70Mb_4
+      - Relay_🇨🇳CN | 4.50Mb_5
       - Youtube:鹏哥分享_8
-      - Youtube:鹏哥分享_9
-      - Youtube:鹏哥分享_10
-      - Youtube:鹏哥分享_11
-      - Youtube:鹏哥分享_12
-      - Youtube:鹏哥分享_13
-      - Youtube:鹏哥分享_14
-      - Youtube:鹏哥分享_15
-      - Youtube:鹏哥分享_16
-      - Youtube:鹏哥分享_17
-      - Youtube:鹏哥分享_18
-      - Youtube:鹏哥分享_19
-      - Youtube:鹏哥分享_20
-      - Youtube:鹏哥分享_21
-      - Youtube:鹏哥分享_22
-      - Youtube:鹏哥分享_23
-      - Youtube:鹏哥分享_24
-      - Youtube:鹏哥分享_25
-      - Youtube:鹏哥分享_26
-      - Youtube:鹏哥分享_27
-      - Youtube:鹏哥分享_28
-      - Youtube:鹏哥分享_29
-      - Youtube:鹏哥分享_30
-      - Youtube:鹏哥分享_31
-      - Youtube:鹏哥分享_32
-      - Youtube:鹏哥分享_33
-      - Youtube:鹏哥分享_34
-      - Youtube:鹏哥分享_35
-      - Youtube:鹏哥分享_36
-      - Youtube:鹏哥分享_37
-      - Youtube:鹏哥分享_38
-      - Youtube:鹏哥分享_39
-      - Youtube:鹏哥分享_40
-      - Youtube:鹏哥分享_41
-      - Youtube:鹏哥分享_42
-      - Youtube:鹏哥分享_43
-      - Youtube:鹏哥分享_44
-      - Youtube:鹏哥分享_45
-      - Youtube:鹏哥分享_46
-      - Youtube:鹏哥分享_47
-      - Youtube:鹏哥分享_48
-      - Youtube:鹏哥分享_49
-      - Youtube:鹏哥分享_50
-      - Youtube:鹏哥分享_51
-      - Youtube:鹏哥分享_52
-      - Youtube:鹏哥分享_53
-      - Youtube:鹏哥分享_54
-      - Youtube:鹏哥分享_55
-      - Youtube:鹏哥分享_56
-      - Youtube:鹏哥分享_57
-      - Youtube:鹏哥分享_58
-      - Youtube:鹏哥分享_59
-      - Youtube:鹏哥分享_60
-      - Youtube:鹏哥分享_61
-      - Youtube:鹏哥分享_62
-      - Youtube:鹏哥分享_63
-      - Youtube:鹏哥分享_64
-      - Youtube:鹏哥分享_65
+      - Relay_🇨🇳CN | 5.59Mb_7
+      - Relay_🇨🇳CN |12.49Mb_8
+      - Youtube:鹏哥分享_4
       - Youtube:鹏哥分享_66
-      - Youtube:鹏哥分享_67
-      - Youtube:鹏哥分享_68
-      - Youtube:鹏哥分享_69
-      - Youtube:鹏哥分享_70
-      - Youtube:鹏哥分享_71
-      - Youtube:鹏哥分享_72
-      - Youtube:鹏哥分享_73
-      - Youtube:鹏哥分享_74
-      - Youtube:鹏哥分享_75
-      - Youtube:鹏哥分享_76
-      - Youtube:鹏哥分享_77
-      - Youtube:鹏哥分享_78
-      - Youtube:鹏哥分享_79
-      - Youtube:鹏哥分享_80
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_46
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_1
+      - Relay_🇨🇳CN |10.20Mb_15
+      - Relay_🇨🇳CN | 8.94Mb_16
+      - Relay_🇨🇳CN-🇹🇼TW_26 | 5.98Mb
+      - 🇮🇱IL |76.89Mb_18
+      - Relay_🇨🇦CA |53.34Mb_19
+      - Relay_🇵🇹PT+|15.91Mb_20
+      - Relay_🇺🇸US | 4.59Mb_21
+      - 🇩🇪DE+|75.59Mb_22
+      - Relay_🇨🇳CN-🇭🇰HK_28
+      - Relay_🇫🇷FR+|19.30Mb_24
+      - Youtube:鹏哥分享_28
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
