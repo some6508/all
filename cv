@@ -631,46 +631,16 @@ proxies:
   - {name: Youtube:鹏哥分享_39, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: Youtube:鹏哥分享_40, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: Youtube:鹏哥分享_41, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇳 CN_275, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: 🇨🇳 CN_276 | 4.18Mb, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295}
-  - {name: 🇨🇳 CN_277, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: 117.28.243.132:8333, server: 117.28.243.132, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: p5.22332e.com:8333, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: ssr3.ssrsub.com:8333, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 🇨🇳 CN_281 | 1.76Mb, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇨🇳 CN_282 |11.30Mb, server: 139.227.161.129, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN_283 | 1.69Mb, server: 120.197.88.216, port: 20004, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: 🇨🇳 CN_284 | 6.43Mb, server: 120.197.88.216, port: 20005, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: 🇨🇳 CN_285 |11.14Mb, server: 120.197.88.216, port: 20015, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: 🇨🇳 CN_287 |10.50Mb, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇨🇳 CN_288 | 7.12Mb, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN_289 | 5.86Mb, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN_290 | 5.83Mb, server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN_291 |10.32Mb, server: global-transit-02-sg.pucdn.me, port: 62009, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: global-transit-02-sg.pucdn.me}}
-  - {name: 🇨🇳 CN_292 | 5.15Mb, server: 183.232.226.188, port: 62011, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: 183.232.226.188}}
-  - {name: 🇨🇳 CN_293 | 9.96Mb, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇨🇳 CN_294 | 9.84Mb, server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇨🇳 CN_295 | 8.23Mb, server: global-transit-02-sg.pucdn.me, port: 62011, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: global-transit-02-sg.pucdn.me}}
-  - {name: 🇨🇳 CN_296 |10.26Mb, server: 120.197.88.216, port: 20049, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: 🇨🇳 CN_297 | 7.64Mb, server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN_298 |10.35Mb, server: guangzou-yd-jy-03.pucdn.me, port: 62005, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: guangzou-yd-jy-03.pucdn.me}}
-  - {name: 🇨🇳 CN_299, server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: UiLPqefVfielqkDjEwBV, sni: jp-tyo-04-tr.cdn.savoy.click}
-  - {name: 🇭🇰 HK_472 |15.36Mb, server: 148.66.56.98, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇭🇰 HK_474 |24.24Mb, server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇭🇰 HK_475 |24.74Mb, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 HK_476 | 1.98Mb, server: 118.107.244.109, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇭🇰 HK_479 |24.00Mb, server: 118.107.244.114, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇭🇰 HK_480 | 1.91Mb, server: 118.107.244.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 HK_481 | 2.25Mb, server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇭🇰 HK_482 |24.57Mb, server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 HK_483 |24.08Mb, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇭🇰 HK_484 | 8.16Mb, server: 103.138.75.235, port: 443, type: vmess, uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: 103.138.75.235}}
-  - {name: 🇭🇰 HK_485, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top}
-  - {name: 🇭🇰 HK_486, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, sni: hk31.ssgnode.ga}
-  - {name: 🇨🇳 TW_907 | 1.70Mb, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 🇨🇳 TW_908 |21.53Mb, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: 🇨🇳 TW_909, server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT}
-  - {name: 🇨🇳 TW_910, server: 2.58.242.43, port: 443, type: trojan, password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT}
+  - {name: 🇯🇵 _JP_日本, server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇬🇧 _GB_英国, server: 77.243.177.78, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Qu9b6jbYLF5Dtha3n7W2}
+  - {name: 🇨🇦 _CA_加拿大, server: 134.195.196.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 _CA_加拿大 2, server: 134.195.196.230, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 _US_美国, server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: default_name, server: 134.195.196.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 _CA_加拿大 3, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 _US_美国 2, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
+  - {name: 🇩🇪 _DE_德国, server: 172.105.244.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 _CA_加拿大 4, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _NON_FMYC-2021.12.08_1 2, server: 7.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
   - {name: _NON_FMYC-2021.12.08_2 2, server: 74.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
   - {name: _NON_FMYC-2021.12.08_3 2, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
@@ -2154,46 +2124,16 @@ proxy-groups:
       - Youtube:鹏哥分享_39
       - Youtube:鹏哥分享_40
       - Youtube:鹏哥分享_41
-      - 🇨🇳 CN_275
-      - 🇨🇳 CN_276 | 4.18Mb
-      - 🇨🇳 CN_277
-      - 117.28.243.132:8333
-      - p5.22332e.com:8333
-      - ssr3.ssrsub.com:8333
-      - 🇨🇳 CN_281 | 1.76Mb
-      - 🇨🇳 CN_282 |11.30Mb
-      - 🇨🇳 CN_283 | 1.69Mb
-      - 🇨🇳 CN_284 | 6.43Mb
-      - 🇨🇳 CN_285 |11.14Mb
-      - 🇨🇳 CN_287 |10.50Mb
-      - 🇨🇳 CN_288 | 7.12Mb
-      - 🇨🇳 CN_289 | 5.86Mb
-      - 🇨🇳 CN_290 | 5.83Mb
-      - 🇨🇳 CN_291 |10.32Mb
-      - 🇨🇳 CN_292 | 5.15Mb
-      - 🇨🇳 CN_293 | 9.96Mb
-      - 🇨🇳 CN_294 | 9.84Mb
-      - 🇨🇳 CN_295 | 8.23Mb
-      - 🇨🇳 CN_296 |10.26Mb
-      - 🇨🇳 CN_297 | 7.64Mb
-      - 🇨🇳 CN_298 |10.35Mb
-      - 🇨🇳 CN_299
-      - 🇭🇰 HK_472 |15.36Mb
-      - 🇭🇰 HK_474 |24.24Mb
-      - 🇭🇰 HK_475 |24.74Mb
-      - 🇭🇰 HK_476 | 1.98Mb
-      - 🇭🇰 HK_479 |24.00Mb
-      - 🇭🇰 HK_480 | 1.91Mb
-      - 🇭🇰 HK_481 | 2.25Mb
-      - 🇭🇰 HK_482 |24.57Mb
-      - 🇭🇰 HK_483 |24.08Mb
-      - 🇭🇰 HK_484 | 8.16Mb
-      - 🇭🇰 HK_485
-      - 🇭🇰 HK_486
-      - 🇨🇳 TW_907 | 1.70Mb
-      - 🇨🇳 TW_908 |21.53Mb
-      - 🇨🇳 TW_909
-      - 🇨🇳 TW_910
+      - 🇯🇵 _JP_日本
+      - 🇬🇧 _GB_英国
+      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 _CA_加拿大 2
+      - 🇺🇸 _US_美国
+      - default_name
+      - 🇨🇦 _CA_加拿大 3
+      - 🇺🇸 _US_美国 2
+      - 🇩🇪 _DE_德国
+      - 🇨🇦 _CA_加拿大 4
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_2 2
       - _NON_FMYC-2021.12.08_3 2
@@ -3677,46 +3617,16 @@ proxy-groups:
       - Youtube:鹏哥分享_39
       - Youtube:鹏哥分享_40
       - Youtube:鹏哥分享_41
-      - 🇨🇳 CN_275
-      - 🇨🇳 CN_276 | 4.18Mb
-      - 🇨🇳 CN_277
-      - 117.28.243.132:8333
-      - p5.22332e.com:8333
-      - ssr3.ssrsub.com:8333
-      - 🇨🇳 CN_281 | 1.76Mb
-      - 🇨🇳 CN_282 |11.30Mb
-      - 🇨🇳 CN_283 | 1.69Mb
-      - 🇨🇳 CN_284 | 6.43Mb
-      - 🇨🇳 CN_285 |11.14Mb
-      - 🇨🇳 CN_287 |10.50Mb
-      - 🇨🇳 CN_288 | 7.12Mb
-      - 🇨🇳 CN_289 | 5.86Mb
-      - 🇨🇳 CN_290 | 5.83Mb
-      - 🇨🇳 CN_291 |10.32Mb
-      - 🇨🇳 CN_292 | 5.15Mb
-      - 🇨🇳 CN_293 | 9.96Mb
-      - 🇨🇳 CN_294 | 9.84Mb
-      - 🇨🇳 CN_295 | 8.23Mb
-      - 🇨🇳 CN_296 |10.26Mb
-      - 🇨🇳 CN_297 | 7.64Mb
-      - 🇨🇳 CN_298 |10.35Mb
-      - 🇨🇳 CN_299
-      - 🇭🇰 HK_472 |15.36Mb
-      - 🇭🇰 HK_474 |24.24Mb
-      - 🇭🇰 HK_475 |24.74Mb
-      - 🇭🇰 HK_476 | 1.98Mb
-      - 🇭🇰 HK_479 |24.00Mb
-      - 🇭🇰 HK_480 | 1.91Mb
-      - 🇭🇰 HK_481 | 2.25Mb
-      - 🇭🇰 HK_482 |24.57Mb
-      - 🇭🇰 HK_483 |24.08Mb
-      - 🇭🇰 HK_484 | 8.16Mb
-      - 🇭🇰 HK_485
-      - 🇭🇰 HK_486
-      - 🇨🇳 TW_907 | 1.70Mb
-      - 🇨🇳 TW_908 |21.53Mb
-      - 🇨🇳 TW_909
-      - 🇨🇳 TW_910
+      - 🇯🇵 _JP_日本
+      - 🇬🇧 _GB_英国
+      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 _CA_加拿大 2
+      - 🇺🇸 _US_美国
+      - default_name
+      - 🇨🇦 _CA_加拿大 3
+      - 🇺🇸 _US_美国 2
+      - 🇩🇪 _DE_德国
+      - 🇨🇦 _CA_加拿大 4
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_2 2
       - _NON_FMYC-2021.12.08_3 2
@@ -5200,46 +5110,16 @@ proxy-groups:
       - Youtube:鹏哥分享_39
       - Youtube:鹏哥分享_40
       - Youtube:鹏哥分享_41
-      - 🇨🇳 CN_275
-      - 🇨🇳 CN_276 | 4.18Mb
-      - 🇨🇳 CN_277
-      - 117.28.243.132:8333
-      - p5.22332e.com:8333
-      - ssr3.ssrsub.com:8333
-      - 🇨🇳 CN_281 | 1.76Mb
-      - 🇨🇳 CN_282 |11.30Mb
-      - 🇨🇳 CN_283 | 1.69Mb
-      - 🇨🇳 CN_284 | 6.43Mb
-      - 🇨🇳 CN_285 |11.14Mb
-      - 🇨🇳 CN_287 |10.50Mb
-      - 🇨🇳 CN_288 | 7.12Mb
-      - 🇨🇳 CN_289 | 5.86Mb
-      - 🇨🇳 CN_290 | 5.83Mb
-      - 🇨🇳 CN_291 |10.32Mb
-      - 🇨🇳 CN_292 | 5.15Mb
-      - 🇨🇳 CN_293 | 9.96Mb
-      - 🇨🇳 CN_294 | 9.84Mb
-      - 🇨🇳 CN_295 | 8.23Mb
-      - 🇨🇳 CN_296 |10.26Mb
-      - 🇨🇳 CN_297 | 7.64Mb
-      - 🇨🇳 CN_298 |10.35Mb
-      - 🇨🇳 CN_299
-      - 🇭🇰 HK_472 |15.36Mb
-      - 🇭🇰 HK_474 |24.24Mb
-      - 🇭🇰 HK_475 |24.74Mb
-      - 🇭🇰 HK_476 | 1.98Mb
-      - 🇭🇰 HK_479 |24.00Mb
-      - 🇭🇰 HK_480 | 1.91Mb
-      - 🇭🇰 HK_481 | 2.25Mb
-      - 🇭🇰 HK_482 |24.57Mb
-      - 🇭🇰 HK_483 |24.08Mb
-      - 🇭🇰 HK_484 | 8.16Mb
-      - 🇭🇰 HK_485
-      - 🇭🇰 HK_486
-      - 🇨🇳 TW_907 | 1.70Mb
-      - 🇨🇳 TW_908 |21.53Mb
-      - 🇨🇳 TW_909
-      - 🇨🇳 TW_910
+      - 🇯🇵 _JP_日本
+      - 🇬🇧 _GB_英国
+      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 _CA_加拿大 2
+      - 🇺🇸 _US_美国
+      - default_name
+      - 🇨🇦 _CA_加拿大 3
+      - 🇺🇸 _US_美国 2
+      - 🇩🇪 _DE_德国
+      - 🇨🇦 _CA_加拿大 4
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_2 2
       - _NON_FMYC-2021.12.08_3 2
@@ -6722,46 +6602,16 @@ proxy-groups:
       - Youtube:鹏哥分享_39
       - Youtube:鹏哥分享_40
       - Youtube:鹏哥分享_41
-      - 🇨🇳 CN_275
-      - 🇨🇳 CN_276 | 4.18Mb
-      - 🇨🇳 CN_277
-      - 117.28.243.132:8333
-      - p5.22332e.com:8333
-      - ssr3.ssrsub.com:8333
-      - 🇨🇳 CN_281 | 1.76Mb
-      - 🇨🇳 CN_282 |11.30Mb
-      - 🇨🇳 CN_283 | 1.69Mb
-      - 🇨🇳 CN_284 | 6.43Mb
-      - 🇨🇳 CN_285 |11.14Mb
-      - 🇨🇳 CN_287 |10.50Mb
-      - 🇨🇳 CN_288 | 7.12Mb
-      - 🇨🇳 CN_289 | 5.86Mb
-      - 🇨🇳 CN_290 | 5.83Mb
-      - 🇨🇳 CN_291 |10.32Mb
-      - 🇨🇳 CN_292 | 5.15Mb
-      - 🇨🇳 CN_293 | 9.96Mb
-      - 🇨🇳 CN_294 | 9.84Mb
-      - 🇨🇳 CN_295 | 8.23Mb
-      - 🇨🇳 CN_296 |10.26Mb
-      - 🇨🇳 CN_297 | 7.64Mb
-      - 🇨🇳 CN_298 |10.35Mb
-      - 🇨🇳 CN_299
-      - 🇭🇰 HK_472 |15.36Mb
-      - 🇭🇰 HK_474 |24.24Mb
-      - 🇭🇰 HK_475 |24.74Mb
-      - 🇭🇰 HK_476 | 1.98Mb
-      - 🇭🇰 HK_479 |24.00Mb
-      - 🇭🇰 HK_480 | 1.91Mb
-      - 🇭🇰 HK_481 | 2.25Mb
-      - 🇭🇰 HK_482 |24.57Mb
-      - 🇭🇰 HK_483 |24.08Mb
-      - 🇭🇰 HK_484 | 8.16Mb
-      - 🇭🇰 HK_485
-      - 🇭🇰 HK_486
-      - 🇨🇳 TW_907 | 1.70Mb
-      - 🇨🇳 TW_908 |21.53Mb
-      - 🇨🇳 TW_909
-      - 🇨🇳 TW_910
+      - 🇯🇵 _JP_日本
+      - 🇬🇧 _GB_英国
+      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 _CA_加拿大 2
+      - 🇺🇸 _US_美国
+      - default_name
+      - 🇨🇦 _CA_加拿大 3
+      - 🇺🇸 _US_美国 2
+      - 🇩🇪 _DE_德国
+      - 🇨🇦 _CA_加拿大 4
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_2 2
       - _NON_FMYC-2021.12.08_3 2
@@ -8244,46 +8094,16 @@ proxy-groups:
       - Youtube:鹏哥分享_39
       - Youtube:鹏哥分享_40
       - Youtube:鹏哥分享_41
-      - 🇨🇳 CN_275
-      - 🇨🇳 CN_276 | 4.18Mb
-      - 🇨🇳 CN_277
-      - 117.28.243.132:8333
-      - p5.22332e.com:8333
-      - ssr3.ssrsub.com:8333
-      - 🇨🇳 CN_281 | 1.76Mb
-      - 🇨🇳 CN_282 |11.30Mb
-      - 🇨🇳 CN_283 | 1.69Mb
-      - 🇨🇳 CN_284 | 6.43Mb
-      - 🇨🇳 CN_285 |11.14Mb
-      - 🇨🇳 CN_287 |10.50Mb
-      - 🇨🇳 CN_288 | 7.12Mb
-      - 🇨🇳 CN_289 | 5.86Mb
-      - 🇨🇳 CN_290 | 5.83Mb
-      - 🇨🇳 CN_291 |10.32Mb
-      - 🇨🇳 CN_292 | 5.15Mb
-      - 🇨🇳 CN_293 | 9.96Mb
-      - 🇨🇳 CN_294 | 9.84Mb
-      - 🇨🇳 CN_295 | 8.23Mb
-      - 🇨🇳 CN_296 |10.26Mb
-      - 🇨🇳 CN_297 | 7.64Mb
-      - 🇨🇳 CN_298 |10.35Mb
-      - 🇨🇳 CN_299
-      - 🇭🇰 HK_472 |15.36Mb
-      - 🇭🇰 HK_474 |24.24Mb
-      - 🇭🇰 HK_475 |24.74Mb
-      - 🇭🇰 HK_476 | 1.98Mb
-      - 🇭🇰 HK_479 |24.00Mb
-      - 🇭🇰 HK_480 | 1.91Mb
-      - 🇭🇰 HK_481 | 2.25Mb
-      - 🇭🇰 HK_482 |24.57Mb
-      - 🇭🇰 HK_483 |24.08Mb
-      - 🇭🇰 HK_484 | 8.16Mb
-      - 🇭🇰 HK_485
-      - 🇭🇰 HK_486
-      - 🇨🇳 TW_907 | 1.70Mb
-      - 🇨🇳 TW_908 |21.53Mb
-      - 🇨🇳 TW_909
-      - 🇨🇳 TW_910
+      - 🇯🇵 _JP_日本
+      - 🇬🇧 _GB_英国
+      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 _CA_加拿大 2
+      - 🇺🇸 _US_美国
+      - default_name
+      - 🇨🇦 _CA_加拿大 3
+      - 🇺🇸 _US_美国 2
+      - 🇩🇪 _DE_德国
+      - 🇨🇦 _CA_加拿大 4
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_2 2
       - _NON_FMYC-2021.12.08_3 2
@@ -9766,46 +9586,16 @@ proxy-groups:
       - Youtube:鹏哥分享_39
       - Youtube:鹏哥分享_40
       - Youtube:鹏哥分享_41
-      - 🇨🇳 CN_275
-      - 🇨🇳 CN_276 | 4.18Mb
-      - 🇨🇳 CN_277
-      - 117.28.243.132:8333
-      - p5.22332e.com:8333
-      - ssr3.ssrsub.com:8333
-      - 🇨🇳 CN_281 | 1.76Mb
-      - 🇨🇳 CN_282 |11.30Mb
-      - 🇨🇳 CN_283 | 1.69Mb
-      - 🇨🇳 CN_284 | 6.43Mb
-      - 🇨🇳 CN_285 |11.14Mb
-      - 🇨🇳 CN_287 |10.50Mb
-      - 🇨🇳 CN_288 | 7.12Mb
-      - 🇨🇳 CN_289 | 5.86Mb
-      - 🇨🇳 CN_290 | 5.83Mb
-      - 🇨🇳 CN_291 |10.32Mb
-      - 🇨🇳 CN_292 | 5.15Mb
-      - 🇨🇳 CN_293 | 9.96Mb
-      - 🇨🇳 CN_294 | 9.84Mb
-      - 🇨🇳 CN_295 | 8.23Mb
-      - 🇨🇳 CN_296 |10.26Mb
-      - 🇨🇳 CN_297 | 7.64Mb
-      - 🇨🇳 CN_298 |10.35Mb
-      - 🇨🇳 CN_299
-      - 🇭🇰 HK_472 |15.36Mb
-      - 🇭🇰 HK_474 |24.24Mb
-      - 🇭🇰 HK_475 |24.74Mb
-      - 🇭🇰 HK_476 | 1.98Mb
-      - 🇭🇰 HK_479 |24.00Mb
-      - 🇭🇰 HK_480 | 1.91Mb
-      - 🇭🇰 HK_481 | 2.25Mb
-      - 🇭🇰 HK_482 |24.57Mb
-      - 🇭🇰 HK_483 |24.08Mb
-      - 🇭🇰 HK_484 | 8.16Mb
-      - 🇭🇰 HK_485
-      - 🇭🇰 HK_486
-      - 🇨🇳 TW_907 | 1.70Mb
-      - 🇨🇳 TW_908 |21.53Mb
-      - 🇨🇳 TW_909
-      - 🇨🇳 TW_910
+      - 🇯🇵 _JP_日本
+      - 🇬🇧 _GB_英国
+      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 _CA_加拿大 2
+      - 🇺🇸 _US_美国
+      - default_name
+      - 🇨🇦 _CA_加拿大 3
+      - 🇺🇸 _US_美国 2
+      - 🇩🇪 _DE_德国
+      - 🇨🇦 _CA_加拿大 4
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_2 2
       - _NON_FMYC-2021.12.08_3 2
@@ -11289,46 +11079,16 @@ proxy-groups:
       - Youtube:鹏哥分享_39
       - Youtube:鹏哥分享_40
       - Youtube:鹏哥分享_41
-      - 🇨🇳 CN_275
-      - 🇨🇳 CN_276 | 4.18Mb
-      - 🇨🇳 CN_277
-      - 117.28.243.132:8333
-      - p5.22332e.com:8333
-      - ssr3.ssrsub.com:8333
-      - 🇨🇳 CN_281 | 1.76Mb
-      - 🇨🇳 CN_282 |11.30Mb
-      - 🇨🇳 CN_283 | 1.69Mb
-      - 🇨🇳 CN_284 | 6.43Mb
-      - 🇨🇳 CN_285 |11.14Mb
-      - 🇨🇳 CN_287 |10.50Mb
-      - 🇨🇳 CN_288 | 7.12Mb
-      - 🇨🇳 CN_289 | 5.86Mb
-      - 🇨🇳 CN_290 | 5.83Mb
-      - 🇨🇳 CN_291 |10.32Mb
-      - 🇨🇳 CN_292 | 5.15Mb
-      - 🇨🇳 CN_293 | 9.96Mb
-      - 🇨🇳 CN_294 | 9.84Mb
-      - 🇨🇳 CN_295 | 8.23Mb
-      - 🇨🇳 CN_296 |10.26Mb
-      - 🇨🇳 CN_297 | 7.64Mb
-      - 🇨🇳 CN_298 |10.35Mb
-      - 🇨🇳 CN_299
-      - 🇭🇰 HK_472 |15.36Mb
-      - 🇭🇰 HK_474 |24.24Mb
-      - 🇭🇰 HK_475 |24.74Mb
-      - 🇭🇰 HK_476 | 1.98Mb
-      - 🇭🇰 HK_479 |24.00Mb
-      - 🇭🇰 HK_480 | 1.91Mb
-      - 🇭🇰 HK_481 | 2.25Mb
-      - 🇭🇰 HK_482 |24.57Mb
-      - 🇭🇰 HK_483 |24.08Mb
-      - 🇭🇰 HK_484 | 8.16Mb
-      - 🇭🇰 HK_485
-      - 🇭🇰 HK_486
-      - 🇨🇳 TW_907 | 1.70Mb
-      - 🇨🇳 TW_908 |21.53Mb
-      - 🇨🇳 TW_909
-      - 🇨🇳 TW_910
+      - 🇯🇵 _JP_日本
+      - 🇬🇧 _GB_英国
+      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 _CA_加拿大 2
+      - 🇺🇸 _US_美国
+      - default_name
+      - 🇨🇦 _CA_加拿大 3
+      - 🇺🇸 _US_美国 2
+      - 🇩🇪 _DE_德国
+      - 🇨🇦 _CA_加拿大 4
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_2 2
       - _NON_FMYC-2021.12.08_3 2
@@ -12828,46 +12588,16 @@ proxy-groups:
       - Youtube:鹏哥分享_39
       - Youtube:鹏哥分享_40
       - Youtube:鹏哥分享_41
-      - 🇨🇳 CN_275
-      - 🇨🇳 CN_276 | 4.18Mb
-      - 🇨🇳 CN_277
-      - 117.28.243.132:8333
-      - p5.22332e.com:8333
-      - ssr3.ssrsub.com:8333
-      - 🇨🇳 CN_281 | 1.76Mb
-      - 🇨🇳 CN_282 |11.30Mb
-      - 🇨🇳 CN_283 | 1.69Mb
-      - 🇨🇳 CN_284 | 6.43Mb
-      - 🇨🇳 CN_285 |11.14Mb
-      - 🇨🇳 CN_287 |10.50Mb
-      - 🇨🇳 CN_288 | 7.12Mb
-      - 🇨🇳 CN_289 | 5.86Mb
-      - 🇨🇳 CN_290 | 5.83Mb
-      - 🇨🇳 CN_291 |10.32Mb
-      - 🇨🇳 CN_292 | 5.15Mb
-      - 🇨🇳 CN_293 | 9.96Mb
-      - 🇨🇳 CN_294 | 9.84Mb
-      - 🇨🇳 CN_295 | 8.23Mb
-      - 🇨🇳 CN_296 |10.26Mb
-      - 🇨🇳 CN_297 | 7.64Mb
-      - 🇨🇳 CN_298 |10.35Mb
-      - 🇨🇳 CN_299
-      - 🇭🇰 HK_472 |15.36Mb
-      - 🇭🇰 HK_474 |24.24Mb
-      - 🇭🇰 HK_475 |24.74Mb
-      - 🇭🇰 HK_476 | 1.98Mb
-      - 🇭🇰 HK_479 |24.00Mb
-      - 🇭🇰 HK_480 | 1.91Mb
-      - 🇭🇰 HK_481 | 2.25Mb
-      - 🇭🇰 HK_482 |24.57Mb
-      - 🇭🇰 HK_483 |24.08Mb
-      - 🇭🇰 HK_484 | 8.16Mb
-      - 🇭🇰 HK_485
-      - 🇭🇰 HK_486
-      - 🇨🇳 TW_907 | 1.70Mb
-      - 🇨🇳 TW_908 |21.53Mb
-      - 🇨🇳 TW_909
-      - 🇨🇳 TW_910
+      - 🇯🇵 _JP_日本
+      - 🇬🇧 _GB_英国
+      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 _CA_加拿大 2
+      - 🇺🇸 _US_美国
+      - default_name
+      - 🇨🇦 _CA_加拿大 3
+      - 🇺🇸 _US_美国 2
+      - 🇩🇪 _DE_德国
+      - 🇨🇦 _CA_加拿大 4
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_2 2
       - _NON_FMYC-2021.12.08_3 2
