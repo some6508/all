@@ -5,68 +5,76 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'cow vagina_NON_1', server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'cow vagina_NON_2', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /, ws-headers: {Host: t.me/vpnpool}}
-  - {name: 'cow vagina_NON_3', server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: '🇨🇦_CA_加拿大_1', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_2', server: 104.26.9.74, port: 443, type: vmess, uuid: f6c1babe-416e-47d1-8726-049678e25c7a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: us2.v2rayserv.com}}
+  - {name: 'default_name_3', server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
+  - {name: '🇩🇪_DE_德国_4', server: 93.186.201.124, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - cow vagina_NON_1
-      - cow vagina_NON_2
-      - cow vagina_NON_3
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - default_name_3
+      - 🇩🇪_DE_德国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - cow vagina_NON_1
-      - cow vagina_NON_2
-      - cow vagina_NON_3
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - default_name_3
+      - 🇩🇪_DE_德国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - cow vagina_NON_1
-      - cow vagina_NON_2
-      - cow vagina_NON_3
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - default_name_3
+      - 🇩🇪_DE_德国_4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - cow vagina_NON_1
-      - cow vagina_NON_2
-      - cow vagina_NON_3
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - default_name_3
+      - 🇩🇪_DE_德国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - cow vagina_NON_1
-      - cow vagina_NON_2
-      - cow vagina_NON_3
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - default_name_3
+      - 🇩🇪_DE_德国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - cow vagina_NON_1
-      - cow vagina_NON_2
-      - cow vagina_NON_3
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - default_name_3
+      - 🇩🇪_DE_德国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - cow vagina_NON_1
-      - cow vagina_NON_2
-      - cow vagina_NON_3
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - default_name_3
+      - 🇩🇪_DE_德国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,9 +90,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - cow vagina_NON_1
-      - cow vagina_NON_2
-      - cow vagina_NON_3
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - default_name_3
+      - 🇩🇪_DE_德国_4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
