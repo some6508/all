@@ -5,172 +5,172 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 1  _1', server: t3.ssrsub.com, port: 8443, type: trojan, password: e795f820-9391-4a9d-bfaf-b5329386f82f}
-  - {name: 'github.com/freefq - 美国CloudFlare公司CDN节点 2_2', server: api.ssfree.ru, port: 443, type: vmess, uuid: e59032ac-5cf6-11ec-9bb3-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /getweather}
-  - {name: 'github.com/freefq - 挪威  3  _3', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'github.com/freefq - 北美地区  4  _4', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'github.com/freefq - 罗马尼亚  5_5', server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
-  - {name: 'github.com/freefq - 挪威  6  _6', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'github.com/freefq - 俄罗斯莫斯科Relcom网络 7  _7', server: t7.ssrsub.com, port: 8443, type: trojan, password: e795f820-9391-4a9d-bfaf-b5329386f82f}
-  - {name: 'github.com/freefq - 马来西亚  8  _8', server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'github.com/freefq - 加拿大  9_9', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 'github.com/freefq - 俄罗斯新西伯利亚JustHost 10  _10', server: t2.ssrsub.com, port: 8443, type: trojan, password: e795f820-9391-4a9d-bfaf-b5329386f82f}
-  - {name: 'github.com/freefq - 英国  11_11', server: 141.94.115.148, port: 36584, type: vmess, uuid: d18d6561-60f7-47ec-fc52-f00975fd6c8f, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: 'github.com/freefq - 湖南省长沙市联通 腾讯云 12_12', server: aflzzul.yixuedianzishu.com, port: 52513, type: vmess, uuid: 6b88471f-dbfc-3e5b-9940-9ecfeda4c354, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /564dfa20/}
-  - {name: 'github.com/freefq - 美国CloudFlare节点 13_13', server: v4.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: 'github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 14_14', server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray}
-  - {name: 'github.com/freefq - 上海市电信 15  _15', server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: 4415934295}
-  - {name: 'github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 16_16', server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray}
+  - {name: 'github.com/freefq - 上海市电信 1  _1', server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: 4415934295}
+  - {name: 'github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 2_2', server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray}
+  - {name: 'github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 3_3', server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray}
+  - {name: 'github.com/freefq - 美国CloudFlare节点 4_4', server: api.ssfree.ru, port: 443, type: vmess, uuid: e59032ac-5cf6-11ec-9bb3-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /getweather}
+  - {name: 'github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 5  _5', server: t3.ssrsub.com, port: 8443, type: trojan, password: e795f820-9391-4a9d-bfaf-b5329386f82f}
+  - {name: 'github.com/freefq - 俄罗斯新西伯利亚JustHost 6  _6', server: t2.ssrsub.com, port: 8443, type: trojan, password: e795f820-9391-4a9d-bfaf-b5329386f82f}
+  - {name: 'github.com/freefq - 挪威  7  _7', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'github.com/freefq - 加拿大  8_8', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 'github.com/freefq - 俄罗斯莫斯科Relcom网络 9  _9', server: t7.ssrsub.com, port: 8443, type: trojan, password: e795f820-9391-4a9d-bfaf-b5329386f82f}
+  - {name: 'github.com/freefq - 英国  10_10', server: 141.94.115.148, port: 36584, type: vmess, uuid: d18d6561-60f7-47ec-fc52-f00975fd6c8f, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: 'github.com/freefq - 罗马尼亚  11_11', server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
+  - {name: 'github.com/freefq - 挪威  12  _12', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'github.com/freefq - 北美地区  13  _13', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'github.com/freefq - 美国CloudFlare节点 14_14', server: v4.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: 'github.com/freefq - 马来西亚  15  _15', server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'github.com/freefq - 江苏省联通 16_16', server: aflzzul.yixuedianzishu.com, port: 52513, type: vmess, uuid: 6b88471f-dbfc-3e5b-9940-9ecfeda4c354, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /564dfa20/}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 1  _1
-      - github.com/freefq - 美国CloudFlare公司CDN节点 2_2
-      - github.com/freefq - 挪威  3  _3
-      - github.com/freefq - 北美地区  4  _4
-      - github.com/freefq - 罗马尼亚  5_5
-      - github.com/freefq - 挪威  6  _6
-      - github.com/freefq - 俄罗斯莫斯科Relcom网络 7  _7
-      - github.com/freefq - 马来西亚  8  _8
-      - github.com/freefq - 加拿大  9_9
-      - github.com/freefq - 俄罗斯新西伯利亚JustHost 10  _10
-      - github.com/freefq - 英国  11_11
-      - github.com/freefq - 湖南省长沙市联通 腾讯云 12_12
-      - github.com/freefq - 美国CloudFlare节点 13_13
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 14_14
-      - github.com/freefq - 上海市电信 15  _15
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 16_16
+      - github.com/freefq - 上海市电信 1  _1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 3_3
+      - github.com/freefq - 美国CloudFlare节点 4_4
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 5  _5
+      - github.com/freefq - 俄罗斯新西伯利亚JustHost 6  _6
+      - github.com/freefq - 挪威  7  _7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 9  _9
+      - github.com/freefq - 英国  10_10
+      - github.com/freefq - 罗马尼亚  11_11
+      - github.com/freefq - 挪威  12  _12
+      - github.com/freefq - 北美地区  13  _13
+      - github.com/freefq - 美国CloudFlare节点 14_14
+      - github.com/freefq - 马来西亚  15  _15
+      - github.com/freefq - 江苏省联通 16_16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 1  _1
-      - github.com/freefq - 美国CloudFlare公司CDN节点 2_2
-      - github.com/freefq - 挪威  3  _3
-      - github.com/freefq - 北美地区  4  _4
-      - github.com/freefq - 罗马尼亚  5_5
-      - github.com/freefq - 挪威  6  _6
-      - github.com/freefq - 俄罗斯莫斯科Relcom网络 7  _7
-      - github.com/freefq - 马来西亚  8  _8
-      - github.com/freefq - 加拿大  9_9
-      - github.com/freefq - 俄罗斯新西伯利亚JustHost 10  _10
-      - github.com/freefq - 英国  11_11
-      - github.com/freefq - 湖南省长沙市联通 腾讯云 12_12
-      - github.com/freefq - 美国CloudFlare节点 13_13
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 14_14
-      - github.com/freefq - 上海市电信 15  _15
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 16_16
+      - github.com/freefq - 上海市电信 1  _1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 3_3
+      - github.com/freefq - 美国CloudFlare节点 4_4
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 5  _5
+      - github.com/freefq - 俄罗斯新西伯利亚JustHost 6  _6
+      - github.com/freefq - 挪威  7  _7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 9  _9
+      - github.com/freefq - 英国  10_10
+      - github.com/freefq - 罗马尼亚  11_11
+      - github.com/freefq - 挪威  12  _12
+      - github.com/freefq - 北美地区  13  _13
+      - github.com/freefq - 美国CloudFlare节点 14_14
+      - github.com/freefq - 马来西亚  15  _15
+      - github.com/freefq - 江苏省联通 16_16
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 1  _1
-      - github.com/freefq - 美国CloudFlare公司CDN节点 2_2
-      - github.com/freefq - 挪威  3  _3
-      - github.com/freefq - 北美地区  4  _4
-      - github.com/freefq - 罗马尼亚  5_5
-      - github.com/freefq - 挪威  6  _6
-      - github.com/freefq - 俄罗斯莫斯科Relcom网络 7  _7
-      - github.com/freefq - 马来西亚  8  _8
-      - github.com/freefq - 加拿大  9_9
-      - github.com/freefq - 俄罗斯新西伯利亚JustHost 10  _10
-      - github.com/freefq - 英国  11_11
-      - github.com/freefq - 湖南省长沙市联通 腾讯云 12_12
-      - github.com/freefq - 美国CloudFlare节点 13_13
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 14_14
-      - github.com/freefq - 上海市电信 15  _15
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 16_16
+      - github.com/freefq - 上海市电信 1  _1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 3_3
+      - github.com/freefq - 美国CloudFlare节点 4_4
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 5  _5
+      - github.com/freefq - 俄罗斯新西伯利亚JustHost 6  _6
+      - github.com/freefq - 挪威  7  _7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 9  _9
+      - github.com/freefq - 英国  10_10
+      - github.com/freefq - 罗马尼亚  11_11
+      - github.com/freefq - 挪威  12  _12
+      - github.com/freefq - 北美地区  13  _13
+      - github.com/freefq - 美国CloudFlare节点 14_14
+      - github.com/freefq - 马来西亚  15  _15
+      - github.com/freefq - 江苏省联通 16_16
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 1  _1
-      - github.com/freefq - 美国CloudFlare公司CDN节点 2_2
-      - github.com/freefq - 挪威  3  _3
-      - github.com/freefq - 北美地区  4  _4
-      - github.com/freefq - 罗马尼亚  5_5
-      - github.com/freefq - 挪威  6  _6
-      - github.com/freefq - 俄罗斯莫斯科Relcom网络 7  _7
-      - github.com/freefq - 马来西亚  8  _8
-      - github.com/freefq - 加拿大  9_9
-      - github.com/freefq - 俄罗斯新西伯利亚JustHost 10  _10
-      - github.com/freefq - 英国  11_11
-      - github.com/freefq - 湖南省长沙市联通 腾讯云 12_12
-      - github.com/freefq - 美国CloudFlare节点 13_13
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 14_14
-      - github.com/freefq - 上海市电信 15  _15
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 16_16
+      - github.com/freefq - 上海市电信 1  _1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 3_3
+      - github.com/freefq - 美国CloudFlare节点 4_4
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 5  _5
+      - github.com/freefq - 俄罗斯新西伯利亚JustHost 6  _6
+      - github.com/freefq - 挪威  7  _7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 9  _9
+      - github.com/freefq - 英国  10_10
+      - github.com/freefq - 罗马尼亚  11_11
+      - github.com/freefq - 挪威  12  _12
+      - github.com/freefq - 北美地区  13  _13
+      - github.com/freefq - 美国CloudFlare节点 14_14
+      - github.com/freefq - 马来西亚  15  _15
+      - github.com/freefq - 江苏省联通 16_16
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 1  _1
-      - github.com/freefq - 美国CloudFlare公司CDN节点 2_2
-      - github.com/freefq - 挪威  3  _3
-      - github.com/freefq - 北美地区  4  _4
-      - github.com/freefq - 罗马尼亚  5_5
-      - github.com/freefq - 挪威  6  _6
-      - github.com/freefq - 俄罗斯莫斯科Relcom网络 7  _7
-      - github.com/freefq - 马来西亚  8  _8
-      - github.com/freefq - 加拿大  9_9
-      - github.com/freefq - 俄罗斯新西伯利亚JustHost 10  _10
-      - github.com/freefq - 英国  11_11
-      - github.com/freefq - 湖南省长沙市联通 腾讯云 12_12
-      - github.com/freefq - 美国CloudFlare节点 13_13
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 14_14
-      - github.com/freefq - 上海市电信 15  _15
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 16_16
+      - github.com/freefq - 上海市电信 1  _1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 3_3
+      - github.com/freefq - 美国CloudFlare节点 4_4
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 5  _5
+      - github.com/freefq - 俄罗斯新西伯利亚JustHost 6  _6
+      - github.com/freefq - 挪威  7  _7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 9  _9
+      - github.com/freefq - 英国  10_10
+      - github.com/freefq - 罗马尼亚  11_11
+      - github.com/freefq - 挪威  12  _12
+      - github.com/freefq - 北美地区  13  _13
+      - github.com/freefq - 美国CloudFlare节点 14_14
+      - github.com/freefq - 马来西亚  15  _15
+      - github.com/freefq - 江苏省联通 16_16
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 1  _1
-      - github.com/freefq - 美国CloudFlare公司CDN节点 2_2
-      - github.com/freefq - 挪威  3  _3
-      - github.com/freefq - 北美地区  4  _4
-      - github.com/freefq - 罗马尼亚  5_5
-      - github.com/freefq - 挪威  6  _6
-      - github.com/freefq - 俄罗斯莫斯科Relcom网络 7  _7
-      - github.com/freefq - 马来西亚  8  _8
-      - github.com/freefq - 加拿大  9_9
-      - github.com/freefq - 俄罗斯新西伯利亚JustHost 10  _10
-      - github.com/freefq - 英国  11_11
-      - github.com/freefq - 湖南省长沙市联通 腾讯云 12_12
-      - github.com/freefq - 美国CloudFlare节点 13_13
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 14_14
-      - github.com/freefq - 上海市电信 15  _15
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 16_16
+      - github.com/freefq - 上海市电信 1  _1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 3_3
+      - github.com/freefq - 美国CloudFlare节点 4_4
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 5  _5
+      - github.com/freefq - 俄罗斯新西伯利亚JustHost 6  _6
+      - github.com/freefq - 挪威  7  _7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 9  _9
+      - github.com/freefq - 英国  10_10
+      - github.com/freefq - 罗马尼亚  11_11
+      - github.com/freefq - 挪威  12  _12
+      - github.com/freefq - 北美地区  13  _13
+      - github.com/freefq - 美国CloudFlare节点 14_14
+      - github.com/freefq - 马来西亚  15  _15
+      - github.com/freefq - 江苏省联通 16_16
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 1  _1
-      - github.com/freefq - 美国CloudFlare公司CDN节点 2_2
-      - github.com/freefq - 挪威  3  _3
-      - github.com/freefq - 北美地区  4  _4
-      - github.com/freefq - 罗马尼亚  5_5
-      - github.com/freefq - 挪威  6  _6
-      - github.com/freefq - 俄罗斯莫斯科Relcom网络 7  _7
-      - github.com/freefq - 马来西亚  8  _8
-      - github.com/freefq - 加拿大  9_9
-      - github.com/freefq - 俄罗斯新西伯利亚JustHost 10  _10
-      - github.com/freefq - 英国  11_11
-      - github.com/freefq - 湖南省长沙市联通 腾讯云 12_12
-      - github.com/freefq - 美国CloudFlare节点 13_13
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 14_14
-      - github.com/freefq - 上海市电信 15  _15
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 16_16
+      - github.com/freefq - 上海市电信 1  _1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 3_3
+      - github.com/freefq - 美国CloudFlare节点 4_4
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 5  _5
+      - github.com/freefq - 俄罗斯新西伯利亚JustHost 6  _6
+      - github.com/freefq - 挪威  7  _7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 9  _9
+      - github.com/freefq - 英国  10_10
+      - github.com/freefq - 罗马尼亚  11_11
+      - github.com/freefq - 挪威  12  _12
+      - github.com/freefq - 北美地区  13  _13
+      - github.com/freefq - 美国CloudFlare节点 14_14
+      - github.com/freefq - 马来西亚  15  _15
+      - github.com/freefq - 江苏省联通 16_16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -186,22 +186,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 1  _1
-      - github.com/freefq - 美国CloudFlare公司CDN节点 2_2
-      - github.com/freefq - 挪威  3  _3
-      - github.com/freefq - 北美地区  4  _4
-      - github.com/freefq - 罗马尼亚  5_5
-      - github.com/freefq - 挪威  6  _6
-      - github.com/freefq - 俄罗斯莫斯科Relcom网络 7  _7
-      - github.com/freefq - 马来西亚  8  _8
-      - github.com/freefq - 加拿大  9_9
-      - github.com/freefq - 俄罗斯新西伯利亚JustHost 10  _10
-      - github.com/freefq - 英国  11_11
-      - github.com/freefq - 湖南省长沙市联通 腾讯云 12_12
-      - github.com/freefq - 美国CloudFlare节点 13_13
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 14_14
-      - github.com/freefq - 上海市电信 15  _15
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 16_16
+      - github.com/freefq - 上海市电信 1  _1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 3_3
+      - github.com/freefq - 美国CloudFlare节点 4_4
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 5  _5
+      - github.com/freefq - 俄罗斯新西伯利亚JustHost 6  _6
+      - github.com/freefq - 挪威  7  _7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 9  _9
+      - github.com/freefq - 英国  10_10
+      - github.com/freefq - 罗马尼亚  11_11
+      - github.com/freefq - 挪威  12  _12
+      - github.com/freefq - 北美地区  13  _13
+      - github.com/freefq - 美国CloudFlare节点 14_14
+      - github.com/freefq - 马来西亚  15  _15
+      - github.com/freefq - 江苏省联通 16_16
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
