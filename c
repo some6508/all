@@ -5,138 +5,51 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇨🇳 CN_275 |16.98Mb', server: 116.192.175.25, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '🇨🇳 CN_276 | 6.30Mb', server: 183.232.163.3, port: 5353, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_287 | 9.19Mb', server: 183.232.163.3, port: 2525, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_288 | 3.75Mb', server: 183.232.163.3, port: 2727, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_289 |10.83Mb', server: 183.232.163.3, port: 1313, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_290 | 3.41Mb', server: 183.232.163.3, port: 4646, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_291 | 3.42Mb', server: 183.232.163.3, port: 3434, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_292 | 9.10Mb', server: 183.232.163.3, port: 2424, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_293 | 3.56Mb', server: 183.232.163.3, port: 5253, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_294 | 4.31Mb', server: 183.232.163.3, port: 5254, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_295 | 4.21Mb', server: 183.232.163.3, port: 4949, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_296 | 9.09Mb', server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '🇨🇳CN_297 | 5.00Mb', server: 183.232.163.3, port: 9191, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_299 | 5.49Mb', server: 183.232.163.3, port: 5201, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_300 | 5.24Mb', server: 183.232.163.3, port: 3436, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_301 | 5.42Mb', server: 183.232.163.3, port: 3435, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_302 | 5.34Mb', server: 183.232.163.3, port: 3939, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_303 | 4.88Mb', server: 183.232.163.3, port: 2020, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_304 | 6.38Mb', server: 183.232.163.3, port: 5152, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_305 | 9.76Mb', server: 183.232.163.3, port: 6262, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_306 |13.26Mb', server: 183.232.163.3, port: 5959, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_307 |10.02Mb', server: 183.232.163.3, port: 1717, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_309 | 6.84Mb', server: 183.232.163.3, port: 4343, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_310 | 6.33Mb', server: 183.232.163.3, port: 4141, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_311 | 4.37Mb', server: 183.232.163.3, port: 3131, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇨🇳CN_313 | 4.38Mb', server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '🇭🇰HK_500 |22.89Mb', server: 118.107.244.114, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇭🇰HK_502 |12.44Mb', server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇭🇰HK_504 |23.80Mb', server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇭🇰HK_505 |24.82Mb', server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇭🇰HK_506 | 4.16Mb', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇭🇰HK_507 | 7.15Mb', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇭🇰HK_508 | 8.81Mb', server: 118.107.244.112, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇭🇰HK_509 |11.14Mb', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇭🇰HK_510 | 7.33Mb', server: 118.107.244.111, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇭🇰HK_511 | 9.36Mb', server: 118.107.244.111, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇭🇰HK_512 | 4.33Mb', server: 118.107.244.112, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇭🇰HK_513 |25.84Mb', server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇭🇰HK_514 |10.19Mb', server: 118.107.244.112, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇭🇰HK_516 |14.24Mb', server: 148.66.56.98, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_281', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_261', server: 183.232.163.3, port: 1717, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '馃嚭馃嚫US_1884', server: 198.16.63.231, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1102us.fans8.xyz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_285', server: 183.240.181.14, port: 10002, type: vmess, uuid: dbfa875e-ca7c-4a08-b746-2c357e971f55, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
+  - {name: 'Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_116', server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '馃嚭馃嚫US_1059', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_241', server: 183.232.56.106, port: 11806, type: ssr, password: "Fhbe0z", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_238', server: 183.232.56.106, port: 11812, type: ssr, password: "Fhbe0z", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat}
+  - {name: '馃嚚馃嚦CN_252', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_266', server: 183.232.163.3, port: 1313, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_277', server: 183.232.163.3, port: 5152, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 CN_275 |16.98Mb
-      - 🇨🇳 CN_276 | 6.30Mb
-      - 🇨🇳CN_287 | 9.19Mb
-      - 🇨🇳CN_288 | 3.75Mb
-      - 🇨🇳CN_289 |10.83Mb
-      - 🇨🇳CN_290 | 3.41Mb
-      - 🇨🇳CN_291 | 3.42Mb
-      - 🇨🇳CN_292 | 9.10Mb
-      - 🇨🇳CN_293 | 3.56Mb
-      - 🇨🇳CN_294 | 4.31Mb
-      - 🇨🇳CN_295 | 4.21Mb
-      - 🇨🇳CN_296 | 9.09Mb
-      - 🇨🇳CN_297 | 5.00Mb
-      - 🇨🇳CN_299 | 5.49Mb
-      - 🇨🇳CN_300 | 5.24Mb
-      - 🇨🇳CN_301 | 5.42Mb
-      - 🇨🇳CN_302 | 5.34Mb
-      - 🇨🇳CN_303 | 4.88Mb
-      - 🇨🇳CN_304 | 6.38Mb
-      - 🇨🇳CN_305 | 9.76Mb
-      - 🇨🇳CN_306 |13.26Mb
-      - 🇨🇳CN_307 |10.02Mb
-      - 🇨🇳CN_309 | 6.84Mb
-      - 🇨🇳CN_310 | 6.33Mb
-      - 🇨🇳CN_311 | 4.37Mb
-      - 🇨🇳CN_313 | 4.38Mb
-      - 🇭🇰HK_500 |22.89Mb
-      - 🇭🇰HK_502 |12.44Mb
-      - 🇭🇰HK_504 |23.80Mb
-      - 🇭🇰HK_505 |24.82Mb
-      - 🇭🇰HK_506 | 4.16Mb
-      - 🇭🇰HK_507 | 7.15Mb
-      - 🇭🇰HK_508 | 8.81Mb
-      - 🇭🇰HK_509 |11.14Mb
-      - 🇭🇰HK_510 | 7.33Mb
-      - 🇭🇰HK_511 | 9.36Mb
-      - 🇭🇰HK_512 | 4.33Mb
-      - 🇭🇰HK_513 |25.84Mb
-      - 🇭🇰HK_514 |10.19Mb
-      - 🇭🇰HK_516 |14.24Mb
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_281
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_261
+      - 馃嚭馃嚫US_1884
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_285
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_116
+      - 馃嚭馃嚫US_1059
+      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_241
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_238
+      - 馃嚚馃嚦CN_252
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_266
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_277
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 CN_275 |16.98Mb
-      - 🇨🇳 CN_276 | 6.30Mb
-      - 🇨🇳CN_287 | 9.19Mb
-      - 🇨🇳CN_288 | 3.75Mb
-      - 🇨🇳CN_289 |10.83Mb
-      - 🇨🇳CN_290 | 3.41Mb
-      - 🇨🇳CN_291 | 3.42Mb
-      - 🇨🇳CN_292 | 9.10Mb
-      - 🇨🇳CN_293 | 3.56Mb
-      - 🇨🇳CN_294 | 4.31Mb
-      - 🇨🇳CN_295 | 4.21Mb
-      - 🇨🇳CN_296 | 9.09Mb
-      - 🇨🇳CN_297 | 5.00Mb
-      - 🇨🇳CN_299 | 5.49Mb
-      - 🇨🇳CN_300 | 5.24Mb
-      - 🇨🇳CN_301 | 5.42Mb
-      - 🇨🇳CN_302 | 5.34Mb
-      - 🇨🇳CN_303 | 4.88Mb
-      - 🇨🇳CN_304 | 6.38Mb
-      - 🇨🇳CN_305 | 9.76Mb
-      - 🇨🇳CN_306 |13.26Mb
-      - 🇨🇳CN_307 |10.02Mb
-      - 🇨🇳CN_309 | 6.84Mb
-      - 🇨🇳CN_310 | 6.33Mb
-      - 🇨🇳CN_311 | 4.37Mb
-      - 🇨🇳CN_313 | 4.38Mb
-      - 🇭🇰HK_500 |22.89Mb
-      - 🇭🇰HK_502 |12.44Mb
-      - 🇭🇰HK_504 |23.80Mb
-      - 🇭🇰HK_505 |24.82Mb
-      - 🇭🇰HK_506 | 4.16Mb
-      - 🇭🇰HK_507 | 7.15Mb
-      - 🇭🇰HK_508 | 8.81Mb
-      - 🇭🇰HK_509 |11.14Mb
-      - 🇭🇰HK_510 | 7.33Mb
-      - 🇭🇰HK_511 | 9.36Mb
-      - 🇭🇰HK_512 | 4.33Mb
-      - 🇭🇰HK_513 |25.84Mb
-      - 🇭🇰HK_514 |10.19Mb
-      - 🇭🇰HK_516 |14.24Mb
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_281
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_261
+      - 馃嚭馃嚫US_1884
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_285
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_116
+      - 馃嚭馃嚫US_1059
+      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_241
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_238
+      - 馃嚚馃嚦CN_252
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_266
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_277
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -154,46 +67,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN_275 |16.98Mb
-      - 🇨🇳 CN_276 | 6.30Mb
-      - 🇨🇳CN_287 | 9.19Mb
-      - 🇨🇳CN_288 | 3.75Mb
-      - 🇨🇳CN_289 |10.83Mb
-      - 🇨🇳CN_290 | 3.41Mb
-      - 🇨🇳CN_291 | 3.42Mb
-      - 🇨🇳CN_292 | 9.10Mb
-      - 🇨🇳CN_293 | 3.56Mb
-      - 🇨🇳CN_294 | 4.31Mb
-      - 🇨🇳CN_295 | 4.21Mb
-      - 🇨🇳CN_296 | 9.09Mb
-      - 🇨🇳CN_297 | 5.00Mb
-      - 🇨🇳CN_299 | 5.49Mb
-      - 🇨🇳CN_300 | 5.24Mb
-      - 🇨🇳CN_301 | 5.42Mb
-      - 🇨🇳CN_302 | 5.34Mb
-      - 🇨🇳CN_303 | 4.88Mb
-      - 🇨🇳CN_304 | 6.38Mb
-      - 🇨🇳CN_305 | 9.76Mb
-      - 🇨🇳CN_306 |13.26Mb
-      - 🇨🇳CN_307 |10.02Mb
-      - 🇨🇳CN_309 | 6.84Mb
-      - 🇨🇳CN_310 | 6.33Mb
-      - 🇨🇳CN_311 | 4.37Mb
-      - 🇨🇳CN_313 | 4.38Mb
-      - 🇭🇰HK_500 |22.89Mb
-      - 🇭🇰HK_502 |12.44Mb
-      - 🇭🇰HK_504 |23.80Mb
-      - 🇭🇰HK_505 |24.82Mb
-      - 🇭🇰HK_506 | 4.16Mb
-      - 🇭🇰HK_507 | 7.15Mb
-      - 🇭🇰HK_508 | 8.81Mb
-      - 🇭🇰HK_509 |11.14Mb
-      - 🇭🇰HK_510 | 7.33Mb
-      - 🇭🇰HK_511 | 9.36Mb
-      - 🇭🇰HK_512 | 4.33Mb
-      - 🇭🇰HK_513 |25.84Mb
-      - 🇭🇰HK_514 |10.19Mb
-      - 🇭🇰HK_516 |14.24Mb
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_281
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_261
+      - 馃嚭馃嚫US_1884
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_285
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_116
+      - 馃嚭馃嚫US_1059
+      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_241
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_238
+      - 馃嚚馃嚦CN_252
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_266
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_277
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
