@@ -5,52 +5,76 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '日本自用不伪装_1', server: 104.19.40.24, port: 443, type: vmess, uuid: 1f673361-8fc7-4424-9a26-33a1df62ca89, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vmessws, ws-headers: {Host: jp.yz3344121.cf}}
+  - {name: '🇩🇪_DE_德国_1', server: 93.186.201.124, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'default_name_2', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇭🇰_HK_香港_3', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇫🇷_FR_法国_4', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本自用不伪装_1
+      - 🇩🇪_DE_德国_1
+      - default_name_2
+      - 🇭🇰_HK_香港_3
+      - 🇫🇷_FR_法国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本自用不伪装_1
+      - 🇩🇪_DE_德国_1
+      - default_name_2
+      - 🇭🇰_HK_香港_3
+      - 🇫🇷_FR_法国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本自用不伪装_1
+      - 🇩🇪_DE_德国_1
+      - default_name_2
+      - 🇭🇰_HK_香港_3
+      - 🇫🇷_FR_法国_4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本自用不伪装_1
+      - 🇩🇪_DE_德国_1
+      - default_name_2
+      - 🇭🇰_HK_香港_3
+      - 🇫🇷_FR_法国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本自用不伪装_1
+      - 🇩🇪_DE_德国_1
+      - default_name_2
+      - 🇭🇰_HK_香港_3
+      - 🇫🇷_FR_法国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本自用不伪装_1
+      - 🇩🇪_DE_德国_1
+      - default_name_2
+      - 🇭🇰_HK_香港_3
+      - 🇫🇷_FR_法国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本自用不伪装_1
+      - 🇩🇪_DE_德国_1
+      - default_name_2
+      - 🇭🇰_HK_香港_3
+      - 🇫🇷_FR_法国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +90,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本自用不伪装_1
+      - 🇩🇪_DE_德国_1
+      - default_name_2
+      - 🇭🇰_HK_香港_3
+      - 🇫🇷_FR_法国_4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
