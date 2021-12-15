@@ -408,8 +408,8 @@ proxies:
   - {name: Youtube:鹏哥分享_98, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: Youtube:鹏哥分享_99, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _AU_澳大利亚, server: 192.53.168.189, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _HK_香港->🇸🇬_SG_新加坡_4, server: user.plusyun.com, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: 7f168637-1680-4cd4-9901-d42d59ea679f}
-  - {name: _HK_香港_7, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _DE_德国_1, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: _FR_法国_2, server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: _NON_FMYC-2021.12.08_1, server: 7.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
   - {name: _NON_FMYC-2021.12.08_1 2, server: 7.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
   - {name: _NON_FMYC-2021.12.08_1 3, server: 7.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
@@ -1928,8 +1928,8 @@ proxy-groups:
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
       - _AU_澳大利亚
-      - _HK_香港->🇸🇬_SG_新加坡_4
-      - _HK_香港_7
+      - _DE_德国_1
+      - _FR_法国_2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
@@ -3448,8 +3448,8 @@ proxy-groups:
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
       - _AU_澳大利亚
-      - _HK_香港->🇸🇬_SG_新加坡_4
-      - _HK_香港_7
+      - _DE_德国_1
+      - _FR_法国_2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
@@ -4968,8 +4968,8 @@ proxy-groups:
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
       - _AU_澳大利亚
-      - _HK_香港->🇸🇬_SG_新加坡_4
-      - _HK_香港_7
+      - _DE_德国_1
+      - _FR_法国_2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
@@ -6487,8 +6487,8 @@ proxy-groups:
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
       - _AU_澳大利亚
-      - _HK_香港->🇸🇬_SG_新加坡_4
-      - _HK_香港_7
+      - _DE_德国_1
+      - _FR_法国_2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
@@ -8006,8 +8006,8 @@ proxy-groups:
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
       - _AU_澳大利亚
-      - _HK_香港->🇸🇬_SG_新加坡_4
-      - _HK_香港_7
+      - _DE_德国_1
+      - _FR_法国_2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
@@ -9525,8 +9525,8 @@ proxy-groups:
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
       - _AU_澳大利亚
-      - _HK_香港->🇸🇬_SG_新加坡_4
-      - _HK_香港_7
+      - _DE_德国_1
+      - _FR_法国_2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
@@ -11045,8 +11045,8 @@ proxy-groups:
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
       - _AU_澳大利亚
-      - _HK_香港->🇸🇬_SG_新加坡_4
-      - _HK_香港_7
+      - _DE_德国_1
+      - _FR_法国_2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
@@ -12581,8 +12581,8 @@ proxy-groups:
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
       - _AU_澳大利亚
-      - _HK_香港->🇸🇬_SG_新加坡_4
-      - _HK_香港_7
+      - _DE_德国_1
+      - _FR_法国_2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
