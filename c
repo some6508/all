@@ -5,124 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇨🇳_CN_中国->🇮🇳_IN_印度_1', server: 120.232.141.59, port: 10082, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
-  - {name: '🇨🇳_CN_中国->🇰🇷_KR_韩国_2', server: 120.232.141.59, port: 10059, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
-  - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_3', server: 120.232.141.59, port: 10048, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
-  - {name: '🇭🇰_HK_香港->🇸🇬_SG_新加坡_4', server: user.plusyun.com, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: 7f168637-1680-4cd4-9901-d42d59ea679f}
-  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_5', server: 120.232.141.59, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
-  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_6', server: 120.232.141.59, port: 10073, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
-  - {name: '🇭🇰_HK_香港_7', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_8', server: 183.232.13.71, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_9', server: 120.232.141.59, port: 10015, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
-  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_10', server: 120.232.141.59, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇩🇪_DE_德国_1', server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: '🇫🇷_FR_法国_2', server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_1
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
-      - 🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_10
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_1
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
-      - 🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_10
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_1
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
-      - 🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_10
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_1
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
-      - 🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_10
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_1
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
-      - 🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_10
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_1
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
-      - 🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_10
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_1
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
-      - 🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_10
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +74,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_1
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
-      - 🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_10
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
