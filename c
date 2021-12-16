@@ -5,124 +5,124 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '中国-1.27MB/sYoutube:不良林_1', server: 183.232.163.3, port: 3939, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: '中国-411.2KB/sYoutube:不良林_2', server: 183.232.163.3, port: 3435, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: '法国-856.9KB/sYoutube:不良林_3', server: 51.38.112.84, port: 44, type: ss, plugin: simple-obfs ,plugin-opts: {obfs: http, obfs-host: 51.38.112.84}, cipher: aes-256-cfb, password: instgram.com/openvpnssh}
-  - {name: '挪威-522.3KB/sYoutube:不良林_4', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '法国-1.84MB/sYoutube:不良林_5', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '荷兰-3.39MB/sYoutube:不良林_6', server: 185.171.120.144, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674}
-  - {name: '荷兰-2.27MB/sYoutube:不良林_7', server: 89.31.127.151, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb}
-  - {name: '香港-2.15MB/sYoutube:不良林_8', server: 62.216.92.179, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938}
-  - {name: '美国-1.04MB/sYoutube:不良林_9', server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674}
-  - {name: '美国-1.21MB/sYoutube:不良林_10', server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938}
+  - {name: '剩余流量：71.69GB_1', server: niaoyun.fun, port: 10086, type: vmess, uuid: d3c54111-877c-3658-aecd-da3fe446373f, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '新加坡SG 01 【公益直连】_2', server: v1-do-sg-02.niaoyun.online, port: 5253, type: vmess, uuid: d3c54111-877c-3658-aecd-da3fe446373f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-sg-02.niaoyun.online}}
+  - {name: '新加坡SG 02【公益直连】_3', server: v1-asw-sg-02.niaoyun.online, port: 443, type: vmess, uuid: d3c54111-877c-3658-aecd-da3fe446373f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-02.niaoyun.online}}
+  - {name: '新加坡SG 03【公益直连】_4', server: v1-asw-sg-03.niaoyun.online, port: 443, type: vmess, uuid: d3c54111-877c-3658-aecd-da3fe446373f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-03.niaoyun.online}}
+  - {name: '新加坡SG 04【公益直连】_5', server: v1-asw-sg-04.niaoyun.online, port: 443, type: vmess, uuid: d3c54111-877c-3658-aecd-da3fe446373f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-04.niaoyun.online}}
+  - {name: '新加坡SG 05【公益直连】_6', server: v1-asw-sg-05.niaoyun.online, port: 443, type: vmess, uuid: d3c54111-877c-3658-aecd-da3fe446373f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-05.niaoyun.online}}
+  - {name: '美国UA 01【公益直连】_7', server: niaocloud02.niaoyun.online, port: 8201, type: vmess, uuid: d3c54111-877c-3658-aecd-da3fe446373f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-ua-01.niaoyun.online}}
+  - {name: '美国UA 02【公益直连】_8', server: v1-do-ua-02.niaoyun.online, port: 666, type: vmess, uuid: d3c54111-877c-3658-aecd-da3fe446373f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-ua-02.niaoyun.online}}
+  - {name: '美国UA 03【公益直连】_9', server: v1-do-ua-03.niaoyun.online, port: 443, type: vmess, uuid: d3c54111-877c-3658-aecd-da3fe446373f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-ua-03.niaoyun.online}}
+  - {name: '美国UA 05【公益直连】_10', server: v1-do-ua-05.niaoyun.online, port: 555, type: vmess, uuid: d3c54111-877c-3658-aecd-da3fe446373f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-ua-05.niaoyun.online}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国-1.27MB/sYoutube:不良林_1
-      - 中国-411.2KB/sYoutube:不良林_2
-      - 法国-856.9KB/sYoutube:不良林_3
-      - 挪威-522.3KB/sYoutube:不良林_4
-      - 法国-1.84MB/sYoutube:不良林_5
-      - 荷兰-3.39MB/sYoutube:不良林_6
-      - 荷兰-2.27MB/sYoutube:不良林_7
-      - 香港-2.15MB/sYoutube:不良林_8
-      - 美国-1.04MB/sYoutube:不良林_9
-      - 美国-1.21MB/sYoutube:不良林_10
+      - 剩余流量：71.69GB_1
+      - 新加坡SG 01 【公益直连】_2
+      - 新加坡SG 02【公益直连】_3
+      - 新加坡SG 03【公益直连】_4
+      - 新加坡SG 04【公益直连】_5
+      - 新加坡SG 05【公益直连】_6
+      - 美国UA 01【公益直连】_7
+      - 美国UA 02【公益直连】_8
+      - 美国UA 03【公益直连】_9
+      - 美国UA 05【公益直连】_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 中国-1.27MB/sYoutube:不良林_1
-      - 中国-411.2KB/sYoutube:不良林_2
-      - 法国-856.9KB/sYoutube:不良林_3
-      - 挪威-522.3KB/sYoutube:不良林_4
-      - 法国-1.84MB/sYoutube:不良林_5
-      - 荷兰-3.39MB/sYoutube:不良林_6
-      - 荷兰-2.27MB/sYoutube:不良林_7
-      - 香港-2.15MB/sYoutube:不良林_8
-      - 美国-1.04MB/sYoutube:不良林_9
-      - 美国-1.21MB/sYoutube:不良林_10
+      - 剩余流量：71.69GB_1
+      - 新加坡SG 01 【公益直连】_2
+      - 新加坡SG 02【公益直连】_3
+      - 新加坡SG 03【公益直连】_4
+      - 新加坡SG 04【公益直连】_5
+      - 新加坡SG 05【公益直连】_6
+      - 美国UA 01【公益直连】_7
+      - 美国UA 02【公益直连】_8
+      - 美国UA 03【公益直连】_9
+      - 美国UA 05【公益直连】_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国-1.27MB/sYoutube:不良林_1
-      - 中国-411.2KB/sYoutube:不良林_2
-      - 法国-856.9KB/sYoutube:不良林_3
-      - 挪威-522.3KB/sYoutube:不良林_4
-      - 法国-1.84MB/sYoutube:不良林_5
-      - 荷兰-3.39MB/sYoutube:不良林_6
-      - 荷兰-2.27MB/sYoutube:不良林_7
-      - 香港-2.15MB/sYoutube:不良林_8
-      - 美国-1.04MB/sYoutube:不良林_9
-      - 美国-1.21MB/sYoutube:不良林_10
+      - 剩余流量：71.69GB_1
+      - 新加坡SG 01 【公益直连】_2
+      - 新加坡SG 02【公益直连】_3
+      - 新加坡SG 03【公益直连】_4
+      - 新加坡SG 04【公益直连】_5
+      - 新加坡SG 05【公益直连】_6
+      - 美国UA 01【公益直连】_7
+      - 美国UA 02【公益直连】_8
+      - 美国UA 03【公益直连】_9
+      - 美国UA 05【公益直连】_10
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 中国-1.27MB/sYoutube:不良林_1
-      - 中国-411.2KB/sYoutube:不良林_2
-      - 法国-856.9KB/sYoutube:不良林_3
-      - 挪威-522.3KB/sYoutube:不良林_4
-      - 法国-1.84MB/sYoutube:不良林_5
-      - 荷兰-3.39MB/sYoutube:不良林_6
-      - 荷兰-2.27MB/sYoutube:不良林_7
-      - 香港-2.15MB/sYoutube:不良林_8
-      - 美国-1.04MB/sYoutube:不良林_9
-      - 美国-1.21MB/sYoutube:不良林_10
+      - 剩余流量：71.69GB_1
+      - 新加坡SG 01 【公益直连】_2
+      - 新加坡SG 02【公益直连】_3
+      - 新加坡SG 03【公益直连】_4
+      - 新加坡SG 04【公益直连】_5
+      - 新加坡SG 05【公益直连】_6
+      - 美国UA 01【公益直连】_7
+      - 美国UA 02【公益直连】_8
+      - 美国UA 03【公益直连】_9
+      - 美国UA 05【公益直连】_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 中国-1.27MB/sYoutube:不良林_1
-      - 中国-411.2KB/sYoutube:不良林_2
-      - 法国-856.9KB/sYoutube:不良林_3
-      - 挪威-522.3KB/sYoutube:不良林_4
-      - 法国-1.84MB/sYoutube:不良林_5
-      - 荷兰-3.39MB/sYoutube:不良林_6
-      - 荷兰-2.27MB/sYoutube:不良林_7
-      - 香港-2.15MB/sYoutube:不良林_8
-      - 美国-1.04MB/sYoutube:不良林_9
-      - 美国-1.21MB/sYoutube:不良林_10
+      - 剩余流量：71.69GB_1
+      - 新加坡SG 01 【公益直连】_2
+      - 新加坡SG 02【公益直连】_3
+      - 新加坡SG 03【公益直连】_4
+      - 新加坡SG 04【公益直连】_5
+      - 新加坡SG 05【公益直连】_6
+      - 美国UA 01【公益直连】_7
+      - 美国UA 02【公益直连】_8
+      - 美国UA 03【公益直连】_9
+      - 美国UA 05【公益直连】_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 中国-1.27MB/sYoutube:不良林_1
-      - 中国-411.2KB/sYoutube:不良林_2
-      - 法国-856.9KB/sYoutube:不良林_3
-      - 挪威-522.3KB/sYoutube:不良林_4
-      - 法国-1.84MB/sYoutube:不良林_5
-      - 荷兰-3.39MB/sYoutube:不良林_6
-      - 荷兰-2.27MB/sYoutube:不良林_7
-      - 香港-2.15MB/sYoutube:不良林_8
-      - 美国-1.04MB/sYoutube:不良林_9
-      - 美国-1.21MB/sYoutube:不良林_10
+      - 剩余流量：71.69GB_1
+      - 新加坡SG 01 【公益直连】_2
+      - 新加坡SG 02【公益直连】_3
+      - 新加坡SG 03【公益直连】_4
+      - 新加坡SG 04【公益直连】_5
+      - 新加坡SG 05【公益直连】_6
+      - 美国UA 01【公益直连】_7
+      - 美国UA 02【公益直连】_8
+      - 美国UA 03【公益直连】_9
+      - 美国UA 05【公益直连】_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国-1.27MB/sYoutube:不良林_1
-      - 中国-411.2KB/sYoutube:不良林_2
-      - 法国-856.9KB/sYoutube:不良林_3
-      - 挪威-522.3KB/sYoutube:不良林_4
-      - 法国-1.84MB/sYoutube:不良林_5
-      - 荷兰-3.39MB/sYoutube:不良林_6
-      - 荷兰-2.27MB/sYoutube:不良林_7
-      - 香港-2.15MB/sYoutube:不良林_8
-      - 美国-1.04MB/sYoutube:不良林_9
-      - 美国-1.21MB/sYoutube:不良林_10
+      - 剩余流量：71.69GB_1
+      - 新加坡SG 01 【公益直连】_2
+      - 新加坡SG 02【公益直连】_3
+      - 新加坡SG 03【公益直连】_4
+      - 新加坡SG 04【公益直连】_5
+      - 新加坡SG 05【公益直连】_6
+      - 美国UA 01【公益直连】_7
+      - 美国UA 02【公益直连】_8
+      - 美国UA 03【公益直连】_9
+      - 美国UA 05【公益直连】_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +138,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国-1.27MB/sYoutube:不良林_1
-      - 中国-411.2KB/sYoutube:不良林_2
-      - 法国-856.9KB/sYoutube:不良林_3
-      - 挪威-522.3KB/sYoutube:不良林_4
-      - 法国-1.84MB/sYoutube:不良林_5
-      - 荷兰-3.39MB/sYoutube:不良林_6
-      - 荷兰-2.27MB/sYoutube:不良林_7
-      - 香港-2.15MB/sYoutube:不良林_8
-      - 美国-1.04MB/sYoutube:不良林_9
-      - 美国-1.21MB/sYoutube:不良林_10
+      - 剩余流量：71.69GB_1
+      - 新加坡SG 01 【公益直连】_2
+      - 新加坡SG 02【公益直连】_3
+      - 新加坡SG 03【公益直连】_4
+      - 新加坡SG 04【公益直连】_5
+      - 新加坡SG 05【公益直连】_6
+      - 美国UA 01【公益直连】_7
+      - 美国UA 02【公益直连】_8
+      - 美国UA 03【公益直连】_9
+      - 美国UA 05【公益直连】_10
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
