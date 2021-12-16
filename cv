@@ -470,6 +470,8 @@ proxies:
   - {name: Youtube:鹏哥分享_97, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: Youtube:鹏哥分享_98, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: Youtube:鹏哥分享_99, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _IL_以色列, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: _IL_以色列 2, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
   - {name: _NON_FMYC-2021.12.08_1, server: 7.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
   - {name: _NON_FMYC-2021.12.08_1 2, server: 7.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
   - {name: _NON_FMYC-2021.12.08_1 3, server: 7.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
@@ -1253,6 +1255,8 @@ proxies:
   - {name: _NON_FMYC-2021.12.08_99, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: _NON_FMYC-2021.12.08_99 2, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: _NON_FMYC-2021.12.08_99 3, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _US_美国, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: _US_美国 2, server: 104.26.9.74, port: 443, type: vmess, uuid: f6c1babe-416e-47d1-8726-049678e25c7a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sshocean, ws-headers: {Host: us2.v2rayserv.com}}
   - {name: default_ssr_name_3, server: 117.28.243.132, port: 8333, type: ssr, cipher: rc4-md5, password: passfw2xs4e!, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 乌克兰（YouTube资源分享者）, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 2, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
@@ -1301,24 +1305,22 @@ proxies:
   - {name: 付费推荐:dlj.tf/ssrsub__41, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 以色列（YouTube资源分享者）, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
   - {name: 以色列（YouTube资源分享者） 2, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: 俄罗斯专线A1 VIP会员, server: 162.62.14.124, port: 8353, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 俄罗斯（YouTube资源分享者）, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 俄罗斯（YouTube资源分享者）, server: 172.67.176.114, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
   - {name: 俄罗斯（YouTube资源分享者） 2, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
-  - {name: 俄罗斯（YouTube资源分享者） 3, server: 172.67.176.114, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 俄罗斯（YouTube资源分享者） 3, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: 俄罗斯（YouTube资源分享者） 4, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
   - {name: 俄罗斯（YouTube资源分享者） 2 2, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: 俄罗斯（YouTube资源分享者） 3 2, server: 172.67.176.114, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 加拿大专线A1 VIP会员, server: 49.51.92.183, port: 8183, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 加拿大（YouTube资源分享者）, server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: 加拿大（YouTube资源分享者） 2, server: h701576.droplet.today, port: 13345, type: trojan, password: b6a7075fd6, sni: h701576.droplet.today, skip-cert-verify: false}
-  - {name: 加拿大（YouTube资源分享者） 3, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 加拿大（YouTube资源分享者） 4, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116yn.fans8.xyz}}
-  - {name: 加拿大（YouTube资源分享者） 5, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 加拿大（YouTube资源分享者）, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: 加拿大（YouTube资源分享者） 2, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116yn.fans8.xyz}}
+  - {name: 加拿大（YouTube资源分享者） 3, server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: 加拿大（YouTube资源分享者） 4, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 加拿大（YouTube资源分享者） 5, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: youtube-aweikeji}}
   - {name: 加拿大（YouTube资源分享者） 6, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 加拿大（YouTube资源分享者） 7, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: 加拿大（YouTube资源分享者） 8, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: youtube-aweikeji}}
-  - {name: 加拿大（YouTube资源分享者） 9, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 加拿大（YouTube资源分享者） 10, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116yn.fans8.xyz}}
+  - {name: 加拿大（YouTube资源分享者） 7, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 加拿大（YouTube资源分享者） 8, server: h701576.droplet.today, port: 13345, type: trojan, password: b6a7075fd6, sni: h701576.droplet.today, skip-cert-verify: false}
+  - {name: 加拿大（YouTube资源分享者） 9, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116yn.fans8.xyz}}
+  - {name: 加拿大（YouTube资源分享者） 10, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: 加拿大（YouTube资源分享者） 2 2, server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
   - {name: 加拿大（YouTube资源分享者） 3 2, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116yn.fans8.xyz}}
   - {name: 加拿大（YouTube资源分享者） 4 2, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
@@ -1331,25 +1333,18 @@ proxies:
   - {name: 匈牙利（YouTube资源分享者） 2, server: 185.252.223.203, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.16675463.xyz}}
   - {name: 卢森堡（YouTube资源分享者）, server: 23.109.136.210, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.65674186.xyz}}
   - {name: 卢森堡（YouTube资源分享者） 2, server: 23.109.136.210, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.65674186.xyz}}
-  - {name: 印度高速专线A1 VIP会员, server: 101.32.83.202, port: 8239, type: ss, cipher: rc4-md5, password: passinfo123}
   - {name: 台湾(欢迎订阅Youtube破解资源君), server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 台湾(欢迎订阅Youtube破解资源君) 2, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 台湾(欢迎订阅Youtube破解资源君) 3, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 台湾极速专线A1 VIP会员, server: 117.28.243.154, port: 6188, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 台湾极速专线B1 VIP会员, server: 117.28.243.154, port: 6150, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 台湾极速专线D1 VIP会员, server: 117.28.243.154, port: 6145, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 台湾极速专线G1 VIP会员, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 台湾高速专线E1 VIP会员, server: 210.241.243.8, port: 8325, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 台湾高速专线F1 VIP会员, server: 59.125.11.164, port: 8365, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 台湾（YouTube资源分享者）, server: guangzou-yd-jy-03.pucdn.me, port: 21102, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-02.pucdn.me}}
-  - {name: 台湾（YouTube资源分享者） 2, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 台湾（YouTube资源分享者） 3, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 台湾（YouTube资源分享者） 4, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 台湾（YouTube资源分享者） 5, server: guangzhou-lw-03.pucdn.me, port: 21106, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-06.pucdn.me}}
-  - {name: 台湾（YouTube资源分享者） 6, server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾（YouTube资源分享者）, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾（YouTube资源分享者） 2, server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾（YouTube资源分享者） 3, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾（YouTube资源分享者） 4, server: 183.232.163.3, port: 5152, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 台湾（YouTube资源分享者） 5, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾（YouTube资源分享者） 6, server: guangzhou-lw-03.pucdn.me, port: 21106, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-06.pucdn.me}}
   - {name: 台湾（YouTube资源分享者） 7, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 台湾（YouTube资源分享者） 8, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 台湾（YouTube资源分享者） 9, server: 183.232.163.3, port: 5152, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 台湾（YouTube资源分享者） 8, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾（YouTube资源分享者） 9, server: guangzou-yd-jy-03.pucdn.me, port: 21102, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-02.pucdn.me}}
   - {name: 台湾（YouTube资源分享者） 2 2, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 台湾（YouTube资源分享者） 3 2, server: guangzou-yd-jy-03.pucdn.me, port: 21102, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-02.pucdn.me}}
   - {name: 台湾（YouTube资源分享者） 4 2, server: guangzhou-lw-03.pucdn.me, port: 21106, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-06.pucdn.me}}
@@ -1360,31 +1355,19 @@ proxies:
   - {name: 国产频道 TG@TBBAC, server: z00035.security-cloudfront-cdn.com, port: 48419, type: ssr, cipher: aes-256-cfb, password: TFdpAjmBNOR8mGik, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive"}
   - {name: 备用频道 TG@TBBAV, server: zhuzhu12.com, port: 15724, type: vmess, uuid: dadb3c18-4e8c-33fc-9773-5384031d6a60, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
   - {name: 导航频道 TG@TBBAD, server: zhuzhu12.com, port: 12819, type: vmess, uuid: dadb3c18-4e8c-33fc-9773-5384031d6a60, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 德国极速专线A1 VIP会员, server: 117.28.243.141, port: 6149, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 德国极速专线B1 VIP会员, server: 117.28.243.141, port: 6112, type: ss, cipher: rc4-md5, password: passinfo123}
   - {name: 德国（YouTube资源分享者）, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
   - {name: 德国（YouTube资源分享者） 2, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: v7.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v7.ssrsub.com}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v7.ssrsub.com}, udp: true}
-  - {name: 新加坡高速专线A1 VIP会员, server: 129.226.148.41, port: 8253, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 新加坡高速专线A2 VIP会员, server: 129.226.148.41, port: 8253, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 新加坡高速专线B1 VIP会员, server: 129.226.195.219, port: 8329, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 新加坡高速专线B2 VIP会员, server: 129.226.195.219, port: 8329, type: ss, cipher: rc4-md5, password: passinfo123}
   - {name: 新加坡（YouTube资源分享者）, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
   - {name: 新加坡（YouTube资源分享者） 2, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
-  - {name: 日本极速专线C1 VIP会员, server: 117.28.243.141, port: 6125, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 日本极速专线D1 VIP会员, server: 117.28.243.141, port: 6126, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 日本高速专线A1 VIP会员, server: 202.79.167.171, port: 8311, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 日本高速专线B1 VIP会员, server: 202.79.164.124, port: 8436, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 日本高速专线E1 VIP会员, server: 118.107.15.72, port: 8403, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 日本高速专线F1 VIP会员, server: 137.220.236.3, port: 8325, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 日本（YouTube资源分享者）, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 日本（YouTube资源分享者） 2, server: 146.56.177.34, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 日本（YouTube资源分享者） 3, server: 172.105.232.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 日本（YouTube资源分享者） 4, server: 5.183.176.73, port: 443, type: vmess, uuid: d0129880-6c30-4899-9fd9-ace04085cb34, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.80482495.xyz}}
-  - {name: 日本（YouTube资源分享者） 5, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 172.104.98.216}}
-  - {name: 日本（YouTube资源分享者） 6, server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 日本（YouTube资源分享者） 7, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 172.104.98.216}}
+  - {name: 日本（YouTube资源分享者）, server: 5.183.176.73, port: 443, type: vmess, uuid: d0129880-6c30-4899-9fd9-ace04085cb34, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.80482495.xyz}}
+  - {name: 日本（YouTube资源分享者） 2, server: 172.105.232.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 日本（YouTube资源分享者） 3, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 172.104.98.216}}
+  - {name: 日本（YouTube资源分享者） 4, server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 日本（YouTube资源分享者） 5, server: 146.56.177.34, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 日本（YouTube资源分享者） 6, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 172.104.98.216}}
+  - {name: 日本（YouTube资源分享者） 7, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: 日本（YouTube资源分享者） 2 2, server: 5.183.176.73, port: 443, type: vmess, uuid: d0129880-6c30-4899-9fd9-ace04085cb34, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.80482495.xyz}}
   - {name: 日本（YouTube资源分享者） 3 2, server: 172.105.232.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 日本（YouTube资源分享者） 4 2, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
@@ -1449,22 +1432,19 @@ proxies:
   - {name: 法国(欢迎订阅Youtube破解资源君) 4, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 法国(欢迎订阅Youtube破解资源君) 5, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 法国(欢迎订阅Youtube破解资源君) 6, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 法国极速专线A1 VIP会员, server: 117.28.243.141, port: 6119, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 法国极速专线B1 VIP会员, server: 117.28.243.141, port: 6193, type: ss, cipher: rc4-md5, password: passinfo123}
   - {name: 法国（YouTube资源分享者）, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 法国（YouTube资源分享者） 2, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 法国（YouTube资源分享者） 3, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 法国（YouTube资源分享者） 3, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
   - {name: 法国（YouTube资源分享者） 4, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 法国（YouTube资源分享者） 5, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 法国（YouTube资源分享者） 5, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: 法国（YouTube资源分享者） 2 2, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: 法国（YouTube资源分享者） 3 2, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 法国（YouTube资源分享者） 4 2, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 泰国高速专线A1 VIP会员, server: 150.109.170.110, port: 8271, type: ss, cipher: rc4-md5, password: passinfo123}
   - {name: 澳大利亚（YouTube资源分享者）, server: 192.53.168.189, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 澳大利亚（YouTube资源分享者） 2, server: 192.53.168.189, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 澳大利亚（YouTube资源分享者） 3, server: 192.53.168.189, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 澳大利亚（YouTube资源分享者） 2, server: 192.53.168.189, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 澳大利亚（YouTube资源分享者） 3, server: 43.154.121.218, port: 60938, type: ss, cipher: chacha20-ietf-poly1305, password: J36xig8fU64H}
   - {name: 澳大利亚（YouTube资源分享者） 4, server: 43.154.121.218, port: 60938, type: ss, cipher: chacha20-ietf-poly1305, password: J36xig8fU64H}
-  - {name: 澳大利亚（YouTube资源分享者） 5, server: 43.154.121.218, port: 60938, type: ss, cipher: chacha20-ietf-poly1305, password: J36xig8fU64H}
+  - {name: 澳大利亚（YouTube资源分享者） 5, server: 192.53.168.189, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 澳大利亚（YouTube资源分享者） 2 2, server: 192.53.168.189, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: 澳大利亚（YouTube资源分享者） 3 2, server: 192.53.168.189, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 澳大利亚（YouTube资源分享者） 4 2, server: 192.53.168.189, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
@@ -1477,62 +1457,40 @@ proxies:
   - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 104.223.91.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QKyLzp5JUG6XEGy2wbEE, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 6, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国体验专线E1 体验用户, server: 107.148.211.118, port: 8432, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国普通专线F1 普通用户, server: 107.148.211.119, port: 8334, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国电信专线J1 VIP会员, server: 45.91.83.227, port: 6560, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国联通专线K1 VIP会员, server: 45.91.83.228, port: 6460, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线A1 体验用户, server: 45.91.83.222, port: 6322, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线C1 VIP会员, server: 104.233.153.162, port: 8368, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线D1 VIP会员, server: 107.148.215.142, port: 8356, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线G1 VIP会员, server: 107.148.209.44, port: 8263, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线H1 VIP会员, server: 107.148.210.76, port: 8377, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线L1 VIP会员, server: 45.91.83.226, port: 6345, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线M1 VIP会员, server: 45.91.83.218, port: 8420, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线N1 VIP会员, server: 104.233.190.138, port: 8342, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线P1 VIP会员, server: 107.148.254.213, port: 8415, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线Q1 VIP会员, server: 104.233.231.12, port: 8309, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线R1 VIP会员, server: 104.233.228.56, port: 8348, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线S1 VIP会员, server: 104.233.228.18, port: 8323, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线T1 VIP会员, server: 104.233.181.105, port: 8312, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线U1 VIP会员, server: 45.91.83.25, port: 8226, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线V1 VIP会员, server: 45.91.83.28, port: 8228, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线W1 VIP会员, server: 45.91.83.22, port: 8222, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线X1 VIP会员, server: 45.91.83.171, port: 8272, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国高速专线Y1 VIP会员, server: 45.91.83.51, port: 8051, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 美国（YouTube资源分享者）, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 美国（YouTube资源分享者） 2, server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: armsj2.kozow.com}}
-  - {name: 美国（YouTube资源分享者） 3, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 美国（YouTube资源分享者） 4, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 美国（YouTube资源分享者） 5, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
-  - {name: 美国（YouTube资源分享者） 6, server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: armsj2.kozow.com}}
-  - {name: 美国（YouTube资源分享者） 7, server: 104.223.91.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QKyLzp5JUG6XEGy2wbEE}
-  - {name: 美国（YouTube资源分享者） 8, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
-  - {name: 美国（YouTube资源分享者） 9, server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
-  - {name: 美国（YouTube资源分享者） 10, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 美国（YouTube资源分享者） 11, server: 183.232.163.3, port: 3939, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: 美国（YouTube资源分享者） 12, server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 美国（YouTube资源分享者） 13, server: 183.232.163.3, port: 3939, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: 美国（YouTube资源分享者） 14, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 美国（YouTube资源分享者） 15, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 美国（YouTube资源分享者） 16, server: 183.232.163.3, port: 5959, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: youtube-awekeji}}
-  - {name: 美国（YouTube资源分享者） 17, server: 152.70.127.223, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 152.70.127.223}}
-  - {name: 美国（YouTube资源分享者） 18, server: 183.232.163.3, port: 6262, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 美国（YouTube资源分享者） 19, server: 104.19.101.7, port: 2053, type: vmess, uuid: 0699c1fa-7505-4807-fa1a-c72e577b4299, alterId: 32, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /qwed65rhy, ws-headers: {Host: de2.fovi.tk}}
-  - {name: 美国（YouTube资源分享者） 20, server: 183.232.163.3, port: 1717, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: 美国（YouTube资源分享者） 21, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 美国（YouTube资源分享者） 22, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 美国（YouTube资源分享者） 23, server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: armsj2.kozow.com}}
-  - {name: 美国（YouTube资源分享者） 24, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 美国（YouTube资源分享者） 25, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 美国（YouTube资源分享者） 26, server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
-  - {name: 美国（YouTube资源分享者） 27, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 美国（YouTube资源分享者） 28, server: 152.70.127.223, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: youtube-awekeji}}
-  - {name: 美国（YouTube资源分享者） 29, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 美国（YouTube资源分享者） 30, server: 20.205.63.28, port: 2800, type: vmess, uuid: b3e12e90-daa9-4ec2-a404-1055487d9b6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 美国（YouTube资源分享者） 31, server: zhuzhu12.com, port: 14718, type: vmess, uuid: b6df3596-5b57-38ed-9375-62e4b3b6cdd2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 美国（YouTube资源分享者） 32, server: domeixi.nbczl233.ml, port: 30880, type: vmess, uuid: b14e5862-ed44-4ef0-e310-335414d86882, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /114514, ws-headers: {Host: domeixi.nbczl233.ml}}
-  - {name: 美国（YouTube资源分享者） 33, server: sh.portx.cc, port: 25396, type: ss, cipher: aes-256-gcm, password: zuCXLJ0eL8zlf5xz}
-  - {name: 美国（YouTube资源分享者） 34, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 美国（YouTube资源分享者）, server: 183.232.163.3, port: 1717, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
+  - {name: 美国（YouTube资源分享者） 2, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 美国（YouTube资源分享者） 3, server: 183.232.163.3, port: 3939, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
+  - {name: 美国（YouTube资源分享者） 4, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 美国（YouTube资源分享者） 5, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 美国（YouTube资源分享者） 6, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 美国（YouTube资源分享者） 7, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: 美国（YouTube资源分享者） 8, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 美国（YouTube资源分享者） 9, server: domeixi.nbczl233.ml, port: 30880, type: vmess, uuid: b14e5862-ed44-4ef0-e310-335414d86882, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /114514, ws-headers: {Host: domeixi.nbczl233.ml}}
+  - {name: 美国（YouTube资源分享者） 10, server: 20.205.63.28, port: 2800, type: vmess, uuid: b3e12e90-daa9-4ec2-a404-1055487d9b6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 美国（YouTube资源分享者） 11, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 美国（YouTube资源分享者） 12, server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: armsj2.kozow.com}}
+  - {name: 美国（YouTube资源分享者） 13, server: 152.70.127.223, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: youtube-awekeji}}
+  - {name: 美国（YouTube资源分享者） 14, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 美国（YouTube资源分享者） 15, server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: 美国（YouTube资源分享者） 16, server: zhuzhu12.com, port: 14718, type: vmess, uuid: b6df3596-5b57-38ed-9375-62e4b3b6cdd2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 美国（YouTube资源分享者） 17, server: 183.232.163.3, port: 5959, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: youtube-awekeji}}
+  - {name: 美国（YouTube资源分享者） 18, server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: armsj2.kozow.com}}
+  - {name: 美国（YouTube资源分享者） 19, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 美国（YouTube资源分享者） 20, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 美国（YouTube资源分享者） 21, server: 183.232.163.3, port: 3939, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
+  - {name: 美国（YouTube资源分享者） 22, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: 美国（YouTube资源分享者） 23, server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
+  - {name: 美国（YouTube资源分享者） 24, server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 美国（YouTube资源分享者） 25, server: 104.223.91.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QKyLzp5JUG6XEGy2wbEE}
+  - {name: 美国（YouTube资源分享者） 26, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 美国（YouTube资源分享者） 27, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 美国（YouTube资源分享者） 28, server: sh.portx.cc, port: 25396, type: ss, cipher: aes-256-gcm, password: zuCXLJ0eL8zlf5xz}
+  - {name: 美国（YouTube资源分享者） 29, server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: armsj2.kozow.com}}
+  - {name: 美国（YouTube资源分享者） 30, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 美国（YouTube资源分享者） 31, server: 152.70.127.223, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 152.70.127.223}}
+  - {name: 美国（YouTube资源分享者） 32, server: 104.19.101.7, port: 2053, type: vmess, uuid: 0699c1fa-7505-4807-fa1a-c72e577b4299, alterId: 32, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /qwed65rhy, ws-headers: {Host: de2.fovi.tk}}
+  - {name: 美国（YouTube资源分享者） 33, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 美国（YouTube资源分享者） 34, server: 183.232.163.3, port: 6262, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
   - {name: 美国（YouTube资源分享者） 10 2, server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: armsj2.kozow.com}}
   - {name: 美国（YouTube资源分享者） 11 2, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
   - {name: 美国（YouTube资源分享者） 12 2, server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
@@ -1566,8 +1524,8 @@ proxies:
   - {name: 美国（YouTube资源分享者） 8 2, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
   - {name: 美国（YouTube资源分享者） 9 2, server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: armsj2.kozow.com}}
   - {name: 英国（YouTube资源分享者）, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 英国（YouTube资源分享者） 2, server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
-  - {name: 英国（YouTube资源分享者） 3, server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
+  - {name: 英国（YouTube资源分享者） 2, server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
+  - {name: 英国（YouTube资源分享者） 3, server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
   - {name: 英国（YouTube资源分享者） 4, server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
   - {name: 英国（YouTube资源分享者） 5, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 英国（YouTube资源分享者） 2 2, server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
@@ -1579,43 +1537,26 @@ proxies:
   - {name: 荷兰（YouTube资源分享者） 4, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 4ec1c2fa-5a26-11ec-86de-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
   - {name: 荷兰（YouTube资源分享者） 2 2, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 515275f0-5a26-11ec-86de-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
   - {name: 荷兰（YouTube资源分享者） 3 2, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 4ec1c2fa-5a26-11ec-86de-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
-  - {name: 菲律宾极速专线A1 VIP会员, server: 117.28.243.154, port: 6090, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 韩国极速专线A1 VIP会员, server: 117.28.243.141, port: 6011, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 韩国极速专线A2 VIP会员, server: 117.28.243.141, port: 6011, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 韩国高速专线C1 VIP会员, server: 180.215.208.26, port: 8342, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 韩国高速专线D1 VIP会员, server: 27.124.8.246, port: 8682, type: ss, cipher: rc4-md5, password: passinfo123}
   - {name: 香港(欢迎订阅Youtube破解资源君), server: 156.234.95.72, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君) 2, server: 118.107.244.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君) 3, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君) 4, server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君) 5, server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君) 6, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 香港极速专线A1 VIP会员, server: 117.28.243.165, port: 8050, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 香港极速专线B1 VIP会员, server: 117.28.243.165, port: 8051, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 香港极速专线C1 VIP会员, server: 117.28.243.173, port: 2173, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 香港极速专线D1 VIP会员, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 香港高速专线F1 VIP会员, server: 118.107.44.6, port: 8318, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 香港高速专线G1 VIP会员, server: 118.107.44.11, port: 8322, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 香港高速专线H1 VIP会员, server: 118.107.44.32, port: 8338, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 香港高速专线L1 VIP会员, server: 118.107.44.38, port: 8349, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 香港高速专线M1 VIP会员, server: 206.119.125.11, port: 8317, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 香港高速专线N1 VIP会员, server: 206.119.125.56, port: 8263, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 香港高速专线P1 VIP会员, server: 206.119.125.70, port: 8278, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 香港高速专线R1 VIP会员, server: 206.119.125.76, port: 8284, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 香港（YouTube资源分享者）, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 香港（YouTube资源分享者） 2, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 香港（YouTube资源分享者） 3, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 香港（YouTube资源分享者） 4, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 香港（YouTube资源分享者） 5, server: node04.hookpay.xyz, port: 54123, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港（YouTube资源分享者）, server: 18.162.207.25, port: 5555, type: vmess, uuid: 35a30e95-4874-45e9-a741-5de0239d9074, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港（YouTube资源分享者） 2, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 香港（YouTube资源分享者） 3, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 香港（YouTube资源分享者） 4, server: node04.hookpay.xyz, port: 54123, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港（YouTube资源分享者） 5, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 香港（YouTube资源分享者） 6, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 香港（YouTube资源分享者） 7, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 香港（YouTube资源分享者） 8, server: 18.162.207.25, port: 5555, type: vmess, uuid: 35a30e95-4874-45e9-a741-5de0239d9074, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 香港（YouTube资源分享者） 9, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 香港（YouTube资源分享者） 10, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}}
-  - {name: 香港（YouTube资源分享者） 11, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 香港（YouTube资源分享者） 7, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 香港（YouTube资源分享者） 8, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港（YouTube资源分享者） 9, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 香港（YouTube资源分享者） 10, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港（YouTube资源分享者） 11, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}}
   - {name: 香港（YouTube资源分享者） 12, server: node03.hookpay.xyz, port: 57110, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 香港（YouTube资源分享者） 13, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 香港（YouTube资源分享者） 14, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}}
+  - {name: 香港（YouTube资源分享者） 13, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}}
+  - {name: 香港（YouTube资源分享者） 14, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 香港（YouTube资源分享者） 10 2, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 香港（YouTube资源分享者） 11 2, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 香港（YouTube资源分享者） 12 2, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
@@ -2099,6 +2040,8 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _IL_以色列
+      - _IL_以色列 2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
@@ -2882,6 +2825,8 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_99
       - _NON_FMYC-2021.12.08_99 2
       - _NON_FMYC-2021.12.08_99 3
+      - _US_美国
+      - _US_美国 2
       - default_ssr_name_3
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
@@ -2930,14 +2875,12 @@ proxy-groups:
       - 付费推荐:dlj.tf/ssrsub__41
       - 以色列（YouTube资源分享者）
       - 以色列（YouTube资源分享者） 2
-      - 俄罗斯专线A1 VIP会员
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
       - 俄罗斯（YouTube资源分享者） 3
       - 俄罗斯（YouTube资源分享者） 4
       - 俄罗斯（YouTube资源分享者） 2 2
       - 俄罗斯（YouTube资源分享者） 3 2
-      - 加拿大专线A1 VIP会员
       - 加拿大（YouTube资源分享者）
       - 加拿大（YouTube资源分享者） 2
       - 加拿大（YouTube资源分享者） 3
@@ -2960,16 +2903,9 @@ proxy-groups:
       - 匈牙利（YouTube资源分享者） 2
       - 卢森堡（YouTube资源分享者）
       - 卢森堡（YouTube资源分享者） 2
-      - 印度高速专线A1 VIP会员
       - 台湾(欢迎订阅Youtube破解资源君)
       - 台湾(欢迎订阅Youtube破解资源君) 2
       - 台湾(欢迎订阅Youtube破解资源君) 3
-      - 台湾极速专线A1 VIP会员
-      - 台湾极速专线B1 VIP会员
-      - 台湾极速专线D1 VIP会员
-      - 台湾极速专线G1 VIP会员
-      - 台湾高速专线E1 VIP会员
-      - 台湾高速专线F1 VIP会员
       - 台湾（YouTube资源分享者）
       - 台湾（YouTube资源分享者） 2
       - 台湾（YouTube资源分享者） 3
@@ -2989,24 +2925,12 @@ proxy-groups:
       - 国产频道 TG@TBBAC
       - 备用频道 TG@TBBAV
       - 导航频道 TG@TBBAD
-      - 德国极速专线A1 VIP会员
-      - 德国极速专线B1 VIP会员
       - 德国（YouTube资源分享者）
       - 德国（YouTube资源分享者） 2
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
-      - 新加坡高速专线A1 VIP会员
-      - 新加坡高速专线A2 VIP会员
-      - 新加坡高速专线B1 VIP会员
-      - 新加坡高速专线B2 VIP会员
       - 新加坡（YouTube资源分享者）
       - 新加坡（YouTube资源分享者） 2
-      - 日本极速专线C1 VIP会员
-      - 日本极速专线D1 VIP会员
-      - 日本高速专线A1 VIP会员
-      - 日本高速专线B1 VIP会员
-      - 日本高速专线E1 VIP会员
-      - 日本高速专线F1 VIP会员
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
@@ -3078,8 +3002,6 @@ proxy-groups:
       - 法国(欢迎订阅Youtube破解资源君) 4
       - 法国(欢迎订阅Youtube破解资源君) 5
       - 法国(欢迎订阅Youtube破解资源君) 6
-      - 法国极速专线A1 VIP会员
-      - 法国极速专线B1 VIP会员
       - 法国（YouTube资源分享者）
       - 法国（YouTube资源分享者） 2
       - 法国（YouTube资源分享者） 3
@@ -3088,7 +3010,6 @@ proxy-groups:
       - 法国（YouTube资源分享者） 2 2
       - 法国（YouTube资源分享者） 3 2
       - 法国（YouTube资源分享者） 4 2
-      - 泰国高速专线A1 VIP会员
       - 澳大利亚（YouTube资源分享者）
       - 澳大利亚（YouTube资源分享者） 2
       - 澳大利亚（YouTube资源分享者） 3
@@ -3106,28 +3027,6 @@ proxy-groups:
       - 美国(欢迎订阅Youtube破解资源君) 4
       - 美国(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国体验专线E1 体验用户
-      - 美国普通专线F1 普通用户
-      - 美国电信专线J1 VIP会员
-      - 美国联通专线K1 VIP会员
-      - 美国高速专线A1 体验用户
-      - 美国高速专线C1 VIP会员
-      - 美国高速专线D1 VIP会员
-      - 美国高速专线G1 VIP会员
-      - 美国高速专线H1 VIP会员
-      - 美国高速专线L1 VIP会员
-      - 美国高速专线M1 VIP会员
-      - 美国高速专线N1 VIP会员
-      - 美国高速专线P1 VIP会员
-      - 美国高速专线Q1 VIP会员
-      - 美国高速专线R1 VIP会员
-      - 美国高速专线S1 VIP会员
-      - 美国高速专线T1 VIP会员
-      - 美国高速专线U1 VIP会员
-      - 美国高速专线V1 VIP会员
-      - 美国高速专线W1 VIP会员
-      - 美国高速专线X1 VIP会员
-      - 美国高速专线Y1 VIP会员
       - 美国（YouTube资源分享者）
       - 美国（YouTube资源分享者） 2
       - 美国（YouTube资源分享者） 3
@@ -3208,29 +3107,12 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 4
       - 荷兰（YouTube资源分享者） 2 2
       - 荷兰（YouTube资源分享者） 3 2
-      - 菲律宾极速专线A1 VIP会员
-      - 韩国极速专线A1 VIP会员
-      - 韩国极速专线A2 VIP会员
-      - 韩国高速专线C1 VIP会员
-      - 韩国高速专线D1 VIP会员
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
       - 香港(欢迎订阅Youtube破解资源君) 4
       - 香港(欢迎订阅Youtube破解资源君) 5
       - 香港(欢迎订阅Youtube破解资源君) 6
-      - 香港极速专线A1 VIP会员
-      - 香港极速专线B1 VIP会员
-      - 香港极速专线C1 VIP会员
-      - 香港极速专线D1 VIP会员
-      - 香港高速专线F1 VIP会员
-      - 香港高速专线G1 VIP会员
-      - 香港高速专线H1 VIP会员
-      - 香港高速专线L1 VIP会员
-      - 香港高速专线M1 VIP会员
-      - 香港高速专线N1 VIP会员
-      - 香港高速专线P1 VIP会员
-      - 香港高速专线R1 VIP会员
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
       - 香港（YouTube资源分享者） 3
@@ -3728,6 +3610,8 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _IL_以色列
+      - _IL_以色列 2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
@@ -4511,6 +4395,8 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_99
       - _NON_FMYC-2021.12.08_99 2
       - _NON_FMYC-2021.12.08_99 3
+      - _US_美国
+      - _US_美国 2
       - default_ssr_name_3
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
@@ -4559,14 +4445,12 @@ proxy-groups:
       - 付费推荐:dlj.tf/ssrsub__41
       - 以色列（YouTube资源分享者）
       - 以色列（YouTube资源分享者） 2
-      - 俄罗斯专线A1 VIP会员
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
       - 俄罗斯（YouTube资源分享者） 3
       - 俄罗斯（YouTube资源分享者） 4
       - 俄罗斯（YouTube资源分享者） 2 2
       - 俄罗斯（YouTube资源分享者） 3 2
-      - 加拿大专线A1 VIP会员
       - 加拿大（YouTube资源分享者）
       - 加拿大（YouTube资源分享者） 2
       - 加拿大（YouTube资源分享者） 3
@@ -4589,16 +4473,9 @@ proxy-groups:
       - 匈牙利（YouTube资源分享者） 2
       - 卢森堡（YouTube资源分享者）
       - 卢森堡（YouTube资源分享者） 2
-      - 印度高速专线A1 VIP会员
       - 台湾(欢迎订阅Youtube破解资源君)
       - 台湾(欢迎订阅Youtube破解资源君) 2
       - 台湾(欢迎订阅Youtube破解资源君) 3
-      - 台湾极速专线A1 VIP会员
-      - 台湾极速专线B1 VIP会员
-      - 台湾极速专线D1 VIP会员
-      - 台湾极速专线G1 VIP会员
-      - 台湾高速专线E1 VIP会员
-      - 台湾高速专线F1 VIP会员
       - 台湾（YouTube资源分享者）
       - 台湾（YouTube资源分享者） 2
       - 台湾（YouTube资源分享者） 3
@@ -4618,24 +4495,12 @@ proxy-groups:
       - 国产频道 TG@TBBAC
       - 备用频道 TG@TBBAV
       - 导航频道 TG@TBBAD
-      - 德国极速专线A1 VIP会员
-      - 德国极速专线B1 VIP会员
       - 德国（YouTube资源分享者）
       - 德国（YouTube资源分享者） 2
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
-      - 新加坡高速专线A1 VIP会员
-      - 新加坡高速专线A2 VIP会员
-      - 新加坡高速专线B1 VIP会员
-      - 新加坡高速专线B2 VIP会员
       - 新加坡（YouTube资源分享者）
       - 新加坡（YouTube资源分享者） 2
-      - 日本极速专线C1 VIP会员
-      - 日本极速专线D1 VIP会员
-      - 日本高速专线A1 VIP会员
-      - 日本高速专线B1 VIP会员
-      - 日本高速专线E1 VIP会员
-      - 日本高速专线F1 VIP会员
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
@@ -4707,8 +4572,6 @@ proxy-groups:
       - 法国(欢迎订阅Youtube破解资源君) 4
       - 法国(欢迎订阅Youtube破解资源君) 5
       - 法国(欢迎订阅Youtube破解资源君) 6
-      - 法国极速专线A1 VIP会员
-      - 法国极速专线B1 VIP会员
       - 法国（YouTube资源分享者）
       - 法国（YouTube资源分享者） 2
       - 法国（YouTube资源分享者） 3
@@ -4717,7 +4580,6 @@ proxy-groups:
       - 法国（YouTube资源分享者） 2 2
       - 法国（YouTube资源分享者） 3 2
       - 法国（YouTube资源分享者） 4 2
-      - 泰国高速专线A1 VIP会员
       - 澳大利亚（YouTube资源分享者）
       - 澳大利亚（YouTube资源分享者） 2
       - 澳大利亚（YouTube资源分享者） 3
@@ -4735,28 +4597,6 @@ proxy-groups:
       - 美国(欢迎订阅Youtube破解资源君) 4
       - 美国(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国体验专线E1 体验用户
-      - 美国普通专线F1 普通用户
-      - 美国电信专线J1 VIP会员
-      - 美国联通专线K1 VIP会员
-      - 美国高速专线A1 体验用户
-      - 美国高速专线C1 VIP会员
-      - 美国高速专线D1 VIP会员
-      - 美国高速专线G1 VIP会员
-      - 美国高速专线H1 VIP会员
-      - 美国高速专线L1 VIP会员
-      - 美国高速专线M1 VIP会员
-      - 美国高速专线N1 VIP会员
-      - 美国高速专线P1 VIP会员
-      - 美国高速专线Q1 VIP会员
-      - 美国高速专线R1 VIP会员
-      - 美国高速专线S1 VIP会员
-      - 美国高速专线T1 VIP会员
-      - 美国高速专线U1 VIP会员
-      - 美国高速专线V1 VIP会员
-      - 美国高速专线W1 VIP会员
-      - 美国高速专线X1 VIP会员
-      - 美国高速专线Y1 VIP会员
       - 美国（YouTube资源分享者）
       - 美国（YouTube资源分享者） 2
       - 美国（YouTube资源分享者） 3
@@ -4837,29 +4677,12 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 4
       - 荷兰（YouTube资源分享者） 2 2
       - 荷兰（YouTube资源分享者） 3 2
-      - 菲律宾极速专线A1 VIP会员
-      - 韩国极速专线A1 VIP会员
-      - 韩国极速专线A2 VIP会员
-      - 韩国高速专线C1 VIP会员
-      - 韩国高速专线D1 VIP会员
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
       - 香港(欢迎订阅Youtube破解资源君) 4
       - 香港(欢迎订阅Youtube破解资源君) 5
       - 香港(欢迎订阅Youtube破解资源君) 6
-      - 香港极速专线A1 VIP会员
-      - 香港极速专线B1 VIP会员
-      - 香港极速专线C1 VIP会员
-      - 香港极速专线D1 VIP会员
-      - 香港高速专线F1 VIP会员
-      - 香港高速专线G1 VIP会员
-      - 香港高速专线H1 VIP会员
-      - 香港高速专线L1 VIP会员
-      - 香港高速专线M1 VIP会员
-      - 香港高速专线N1 VIP会员
-      - 香港高速专线P1 VIP会员
-      - 香港高速专线R1 VIP会员
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
       - 香港（YouTube资源分享者） 3
@@ -5357,6 +5180,8 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _IL_以色列
+      - _IL_以色列 2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
@@ -6140,6 +5965,8 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_99
       - _NON_FMYC-2021.12.08_99 2
       - _NON_FMYC-2021.12.08_99 3
+      - _US_美国
+      - _US_美国 2
       - default_ssr_name_3
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
@@ -6188,14 +6015,12 @@ proxy-groups:
       - 付费推荐:dlj.tf/ssrsub__41
       - 以色列（YouTube资源分享者）
       - 以色列（YouTube资源分享者） 2
-      - 俄罗斯专线A1 VIP会员
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
       - 俄罗斯（YouTube资源分享者） 3
       - 俄罗斯（YouTube资源分享者） 4
       - 俄罗斯（YouTube资源分享者） 2 2
       - 俄罗斯（YouTube资源分享者） 3 2
-      - 加拿大专线A1 VIP会员
       - 加拿大（YouTube资源分享者）
       - 加拿大（YouTube资源分享者） 2
       - 加拿大（YouTube资源分享者） 3
@@ -6218,16 +6043,9 @@ proxy-groups:
       - 匈牙利（YouTube资源分享者） 2
       - 卢森堡（YouTube资源分享者）
       - 卢森堡（YouTube资源分享者） 2
-      - 印度高速专线A1 VIP会员
       - 台湾(欢迎订阅Youtube破解资源君)
       - 台湾(欢迎订阅Youtube破解资源君) 2
       - 台湾(欢迎订阅Youtube破解资源君) 3
-      - 台湾极速专线A1 VIP会员
-      - 台湾极速专线B1 VIP会员
-      - 台湾极速专线D1 VIP会员
-      - 台湾极速专线G1 VIP会员
-      - 台湾高速专线E1 VIP会员
-      - 台湾高速专线F1 VIP会员
       - 台湾（YouTube资源分享者）
       - 台湾（YouTube资源分享者） 2
       - 台湾（YouTube资源分享者） 3
@@ -6247,24 +6065,12 @@ proxy-groups:
       - 国产频道 TG@TBBAC
       - 备用频道 TG@TBBAV
       - 导航频道 TG@TBBAD
-      - 德国极速专线A1 VIP会员
-      - 德国极速专线B1 VIP会员
       - 德国（YouTube资源分享者）
       - 德国（YouTube资源分享者） 2
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
-      - 新加坡高速专线A1 VIP会员
-      - 新加坡高速专线A2 VIP会员
-      - 新加坡高速专线B1 VIP会员
-      - 新加坡高速专线B2 VIP会员
       - 新加坡（YouTube资源分享者）
       - 新加坡（YouTube资源分享者） 2
-      - 日本极速专线C1 VIP会员
-      - 日本极速专线D1 VIP会员
-      - 日本高速专线A1 VIP会员
-      - 日本高速专线B1 VIP会员
-      - 日本高速专线E1 VIP会员
-      - 日本高速专线F1 VIP会员
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
@@ -6336,8 +6142,6 @@ proxy-groups:
       - 法国(欢迎订阅Youtube破解资源君) 4
       - 法国(欢迎订阅Youtube破解资源君) 5
       - 法国(欢迎订阅Youtube破解资源君) 6
-      - 法国极速专线A1 VIP会员
-      - 法国极速专线B1 VIP会员
       - 法国（YouTube资源分享者）
       - 法国（YouTube资源分享者） 2
       - 法国（YouTube资源分享者） 3
@@ -6346,7 +6150,6 @@ proxy-groups:
       - 法国（YouTube资源分享者） 2 2
       - 法国（YouTube资源分享者） 3 2
       - 法国（YouTube资源分享者） 4 2
-      - 泰国高速专线A1 VIP会员
       - 澳大利亚（YouTube资源分享者）
       - 澳大利亚（YouTube资源分享者） 2
       - 澳大利亚（YouTube资源分享者） 3
@@ -6364,28 +6167,6 @@ proxy-groups:
       - 美国(欢迎订阅Youtube破解资源君) 4
       - 美国(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国体验专线E1 体验用户
-      - 美国普通专线F1 普通用户
-      - 美国电信专线J1 VIP会员
-      - 美国联通专线K1 VIP会员
-      - 美国高速专线A1 体验用户
-      - 美国高速专线C1 VIP会员
-      - 美国高速专线D1 VIP会员
-      - 美国高速专线G1 VIP会员
-      - 美国高速专线H1 VIP会员
-      - 美国高速专线L1 VIP会员
-      - 美国高速专线M1 VIP会员
-      - 美国高速专线N1 VIP会员
-      - 美国高速专线P1 VIP会员
-      - 美国高速专线Q1 VIP会员
-      - 美国高速专线R1 VIP会员
-      - 美国高速专线S1 VIP会员
-      - 美国高速专线T1 VIP会员
-      - 美国高速专线U1 VIP会员
-      - 美国高速专线V1 VIP会员
-      - 美国高速专线W1 VIP会员
-      - 美国高速专线X1 VIP会员
-      - 美国高速专线Y1 VIP会员
       - 美国（YouTube资源分享者）
       - 美国（YouTube资源分享者） 2
       - 美国（YouTube资源分享者） 3
@@ -6466,29 +6247,12 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 4
       - 荷兰（YouTube资源分享者） 2 2
       - 荷兰（YouTube资源分享者） 3 2
-      - 菲律宾极速专线A1 VIP会员
-      - 韩国极速专线A1 VIP会员
-      - 韩国极速专线A2 VIP会员
-      - 韩国高速专线C1 VIP会员
-      - 韩国高速专线D1 VIP会员
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
       - 香港(欢迎订阅Youtube破解资源君) 4
       - 香港(欢迎订阅Youtube破解资源君) 5
       - 香港(欢迎订阅Youtube破解资源君) 6
-      - 香港极速专线A1 VIP会员
-      - 香港极速专线B1 VIP会员
-      - 香港极速专线C1 VIP会员
-      - 香港极速专线D1 VIP会员
-      - 香港高速专线F1 VIP会员
-      - 香港高速专线G1 VIP会员
-      - 香港高速专线H1 VIP会员
-      - 香港高速专线L1 VIP会员
-      - 香港高速专线M1 VIP会员
-      - 香港高速专线N1 VIP会员
-      - 香港高速专线P1 VIP会员
-      - 香港高速专线R1 VIP会员
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
       - 香港（YouTube资源分享者） 3
@@ -6985,6 +6749,8 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _IL_以色列
+      - _IL_以色列 2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
@@ -7768,6 +7534,8 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_99
       - _NON_FMYC-2021.12.08_99 2
       - _NON_FMYC-2021.12.08_99 3
+      - _US_美国
+      - _US_美国 2
       - default_ssr_name_3
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
@@ -7816,14 +7584,12 @@ proxy-groups:
       - 付费推荐:dlj.tf/ssrsub__41
       - 以色列（YouTube资源分享者）
       - 以色列（YouTube资源分享者） 2
-      - 俄罗斯专线A1 VIP会员
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
       - 俄罗斯（YouTube资源分享者） 3
       - 俄罗斯（YouTube资源分享者） 4
       - 俄罗斯（YouTube资源分享者） 2 2
       - 俄罗斯（YouTube资源分享者） 3 2
-      - 加拿大专线A1 VIP会员
       - 加拿大（YouTube资源分享者）
       - 加拿大（YouTube资源分享者） 2
       - 加拿大（YouTube资源分享者） 3
@@ -7846,16 +7612,9 @@ proxy-groups:
       - 匈牙利（YouTube资源分享者） 2
       - 卢森堡（YouTube资源分享者）
       - 卢森堡（YouTube资源分享者） 2
-      - 印度高速专线A1 VIP会员
       - 台湾(欢迎订阅Youtube破解资源君)
       - 台湾(欢迎订阅Youtube破解资源君) 2
       - 台湾(欢迎订阅Youtube破解资源君) 3
-      - 台湾极速专线A1 VIP会员
-      - 台湾极速专线B1 VIP会员
-      - 台湾极速专线D1 VIP会员
-      - 台湾极速专线G1 VIP会员
-      - 台湾高速专线E1 VIP会员
-      - 台湾高速专线F1 VIP会员
       - 台湾（YouTube资源分享者）
       - 台湾（YouTube资源分享者） 2
       - 台湾（YouTube资源分享者） 3
@@ -7875,24 +7634,12 @@ proxy-groups:
       - 国产频道 TG@TBBAC
       - 备用频道 TG@TBBAV
       - 导航频道 TG@TBBAD
-      - 德国极速专线A1 VIP会员
-      - 德国极速专线B1 VIP会员
       - 德国（YouTube资源分享者）
       - 德国（YouTube资源分享者） 2
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
-      - 新加坡高速专线A1 VIP会员
-      - 新加坡高速专线A2 VIP会员
-      - 新加坡高速专线B1 VIP会员
-      - 新加坡高速专线B2 VIP会员
       - 新加坡（YouTube资源分享者）
       - 新加坡（YouTube资源分享者） 2
-      - 日本极速专线C1 VIP会员
-      - 日本极速专线D1 VIP会员
-      - 日本高速专线A1 VIP会员
-      - 日本高速专线B1 VIP会员
-      - 日本高速专线E1 VIP会员
-      - 日本高速专线F1 VIP会员
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
@@ -7964,8 +7711,6 @@ proxy-groups:
       - 法国(欢迎订阅Youtube破解资源君) 4
       - 法国(欢迎订阅Youtube破解资源君) 5
       - 法国(欢迎订阅Youtube破解资源君) 6
-      - 法国极速专线A1 VIP会员
-      - 法国极速专线B1 VIP会员
       - 法国（YouTube资源分享者）
       - 法国（YouTube资源分享者） 2
       - 法国（YouTube资源分享者） 3
@@ -7974,7 +7719,6 @@ proxy-groups:
       - 法国（YouTube资源分享者） 2 2
       - 法国（YouTube资源分享者） 3 2
       - 法国（YouTube资源分享者） 4 2
-      - 泰国高速专线A1 VIP会员
       - 澳大利亚（YouTube资源分享者）
       - 澳大利亚（YouTube资源分享者） 2
       - 澳大利亚（YouTube资源分享者） 3
@@ -7992,28 +7736,6 @@ proxy-groups:
       - 美国(欢迎订阅Youtube破解资源君) 4
       - 美国(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国体验专线E1 体验用户
-      - 美国普通专线F1 普通用户
-      - 美国电信专线J1 VIP会员
-      - 美国联通专线K1 VIP会员
-      - 美国高速专线A1 体验用户
-      - 美国高速专线C1 VIP会员
-      - 美国高速专线D1 VIP会员
-      - 美国高速专线G1 VIP会员
-      - 美国高速专线H1 VIP会员
-      - 美国高速专线L1 VIP会员
-      - 美国高速专线M1 VIP会员
-      - 美国高速专线N1 VIP会员
-      - 美国高速专线P1 VIP会员
-      - 美国高速专线Q1 VIP会员
-      - 美国高速专线R1 VIP会员
-      - 美国高速专线S1 VIP会员
-      - 美国高速专线T1 VIP会员
-      - 美国高速专线U1 VIP会员
-      - 美国高速专线V1 VIP会员
-      - 美国高速专线W1 VIP会员
-      - 美国高速专线X1 VIP会员
-      - 美国高速专线Y1 VIP会员
       - 美国（YouTube资源分享者）
       - 美国（YouTube资源分享者） 2
       - 美国（YouTube资源分享者） 3
@@ -8094,29 +7816,12 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 4
       - 荷兰（YouTube资源分享者） 2 2
       - 荷兰（YouTube资源分享者） 3 2
-      - 菲律宾极速专线A1 VIP会员
-      - 韩国极速专线A1 VIP会员
-      - 韩国极速专线A2 VIP会员
-      - 韩国高速专线C1 VIP会员
-      - 韩国高速专线D1 VIP会员
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
       - 香港(欢迎订阅Youtube破解资源君) 4
       - 香港(欢迎订阅Youtube破解资源君) 5
       - 香港(欢迎订阅Youtube破解资源君) 6
-      - 香港极速专线A1 VIP会员
-      - 香港极速专线B1 VIP会员
-      - 香港极速专线C1 VIP会员
-      - 香港极速专线D1 VIP会员
-      - 香港高速专线F1 VIP会员
-      - 香港高速专线G1 VIP会员
-      - 香港高速专线H1 VIP会员
-      - 香港高速专线L1 VIP会员
-      - 香港高速专线M1 VIP会员
-      - 香港高速专线N1 VIP会员
-      - 香港高速专线P1 VIP会员
-      - 香港高速专线R1 VIP会员
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
       - 香港（YouTube资源分享者） 3
@@ -8613,6 +8318,8 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _IL_以色列
+      - _IL_以色列 2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
@@ -9396,6 +9103,8 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_99
       - _NON_FMYC-2021.12.08_99 2
       - _NON_FMYC-2021.12.08_99 3
+      - _US_美国
+      - _US_美国 2
       - default_ssr_name_3
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
@@ -9444,14 +9153,12 @@ proxy-groups:
       - 付费推荐:dlj.tf/ssrsub__41
       - 以色列（YouTube资源分享者）
       - 以色列（YouTube资源分享者） 2
-      - 俄罗斯专线A1 VIP会员
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
       - 俄罗斯（YouTube资源分享者） 3
       - 俄罗斯（YouTube资源分享者） 4
       - 俄罗斯（YouTube资源分享者） 2 2
       - 俄罗斯（YouTube资源分享者） 3 2
-      - 加拿大专线A1 VIP会员
       - 加拿大（YouTube资源分享者）
       - 加拿大（YouTube资源分享者） 2
       - 加拿大（YouTube资源分享者） 3
@@ -9474,16 +9181,9 @@ proxy-groups:
       - 匈牙利（YouTube资源分享者） 2
       - 卢森堡（YouTube资源分享者）
       - 卢森堡（YouTube资源分享者） 2
-      - 印度高速专线A1 VIP会员
       - 台湾(欢迎订阅Youtube破解资源君)
       - 台湾(欢迎订阅Youtube破解资源君) 2
       - 台湾(欢迎订阅Youtube破解资源君) 3
-      - 台湾极速专线A1 VIP会员
-      - 台湾极速专线B1 VIP会员
-      - 台湾极速专线D1 VIP会员
-      - 台湾极速专线G1 VIP会员
-      - 台湾高速专线E1 VIP会员
-      - 台湾高速专线F1 VIP会员
       - 台湾（YouTube资源分享者）
       - 台湾（YouTube资源分享者） 2
       - 台湾（YouTube资源分享者） 3
@@ -9503,24 +9203,12 @@ proxy-groups:
       - 国产频道 TG@TBBAC
       - 备用频道 TG@TBBAV
       - 导航频道 TG@TBBAD
-      - 德国极速专线A1 VIP会员
-      - 德国极速专线B1 VIP会员
       - 德国（YouTube资源分享者）
       - 德国（YouTube资源分享者） 2
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
-      - 新加坡高速专线A1 VIP会员
-      - 新加坡高速专线A2 VIP会员
-      - 新加坡高速专线B1 VIP会员
-      - 新加坡高速专线B2 VIP会员
       - 新加坡（YouTube资源分享者）
       - 新加坡（YouTube资源分享者） 2
-      - 日本极速专线C1 VIP会员
-      - 日本极速专线D1 VIP会员
-      - 日本高速专线A1 VIP会员
-      - 日本高速专线B1 VIP会员
-      - 日本高速专线E1 VIP会员
-      - 日本高速专线F1 VIP会员
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
@@ -9592,8 +9280,6 @@ proxy-groups:
       - 法国(欢迎订阅Youtube破解资源君) 4
       - 法国(欢迎订阅Youtube破解资源君) 5
       - 法国(欢迎订阅Youtube破解资源君) 6
-      - 法国极速专线A1 VIP会员
-      - 法国极速专线B1 VIP会员
       - 法国（YouTube资源分享者）
       - 法国（YouTube资源分享者） 2
       - 法国（YouTube资源分享者） 3
@@ -9602,7 +9288,6 @@ proxy-groups:
       - 法国（YouTube资源分享者） 2 2
       - 法国（YouTube资源分享者） 3 2
       - 法国（YouTube资源分享者） 4 2
-      - 泰国高速专线A1 VIP会员
       - 澳大利亚（YouTube资源分享者）
       - 澳大利亚（YouTube资源分享者） 2
       - 澳大利亚（YouTube资源分享者） 3
@@ -9620,28 +9305,6 @@ proxy-groups:
       - 美国(欢迎订阅Youtube破解资源君) 4
       - 美国(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国体验专线E1 体验用户
-      - 美国普通专线F1 普通用户
-      - 美国电信专线J1 VIP会员
-      - 美国联通专线K1 VIP会员
-      - 美国高速专线A1 体验用户
-      - 美国高速专线C1 VIP会员
-      - 美国高速专线D1 VIP会员
-      - 美国高速专线G1 VIP会员
-      - 美国高速专线H1 VIP会员
-      - 美国高速专线L1 VIP会员
-      - 美国高速专线M1 VIP会员
-      - 美国高速专线N1 VIP会员
-      - 美国高速专线P1 VIP会员
-      - 美国高速专线Q1 VIP会员
-      - 美国高速专线R1 VIP会员
-      - 美国高速专线S1 VIP会员
-      - 美国高速专线T1 VIP会员
-      - 美国高速专线U1 VIP会员
-      - 美国高速专线V1 VIP会员
-      - 美国高速专线W1 VIP会员
-      - 美国高速专线X1 VIP会员
-      - 美国高速专线Y1 VIP会员
       - 美国（YouTube资源分享者）
       - 美国（YouTube资源分享者） 2
       - 美国（YouTube资源分享者） 3
@@ -9722,29 +9385,12 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 4
       - 荷兰（YouTube资源分享者） 2 2
       - 荷兰（YouTube资源分享者） 3 2
-      - 菲律宾极速专线A1 VIP会员
-      - 韩国极速专线A1 VIP会员
-      - 韩国极速专线A2 VIP会员
-      - 韩国高速专线C1 VIP会员
-      - 韩国高速专线D1 VIP会员
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
       - 香港(欢迎订阅Youtube破解资源君) 4
       - 香港(欢迎订阅Youtube破解资源君) 5
       - 香港(欢迎订阅Youtube破解资源君) 6
-      - 香港极速专线A1 VIP会员
-      - 香港极速专线B1 VIP会员
-      - 香港极速专线C1 VIP会员
-      - 香港极速专线D1 VIP会员
-      - 香港高速专线F1 VIP会员
-      - 香港高速专线G1 VIP会员
-      - 香港高速专线H1 VIP会员
-      - 香港高速专线L1 VIP会员
-      - 香港高速专线M1 VIP会员
-      - 香港高速专线N1 VIP会员
-      - 香港高速专线P1 VIP会员
-      - 香港高速专线R1 VIP会员
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
       - 香港（YouTube资源分享者） 3
@@ -10241,6 +9887,8 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _IL_以色列
+      - _IL_以色列 2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
@@ -11024,6 +10672,8 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_99
       - _NON_FMYC-2021.12.08_99 2
       - _NON_FMYC-2021.12.08_99 3
+      - _US_美国
+      - _US_美国 2
       - default_ssr_name_3
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
@@ -11072,14 +10722,12 @@ proxy-groups:
       - 付费推荐:dlj.tf/ssrsub__41
       - 以色列（YouTube资源分享者）
       - 以色列（YouTube资源分享者） 2
-      - 俄罗斯专线A1 VIP会员
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
       - 俄罗斯（YouTube资源分享者） 3
       - 俄罗斯（YouTube资源分享者） 4
       - 俄罗斯（YouTube资源分享者） 2 2
       - 俄罗斯（YouTube资源分享者） 3 2
-      - 加拿大专线A1 VIP会员
       - 加拿大（YouTube资源分享者）
       - 加拿大（YouTube资源分享者） 2
       - 加拿大（YouTube资源分享者） 3
@@ -11102,16 +10750,9 @@ proxy-groups:
       - 匈牙利（YouTube资源分享者） 2
       - 卢森堡（YouTube资源分享者）
       - 卢森堡（YouTube资源分享者） 2
-      - 印度高速专线A1 VIP会员
       - 台湾(欢迎订阅Youtube破解资源君)
       - 台湾(欢迎订阅Youtube破解资源君) 2
       - 台湾(欢迎订阅Youtube破解资源君) 3
-      - 台湾极速专线A1 VIP会员
-      - 台湾极速专线B1 VIP会员
-      - 台湾极速专线D1 VIP会员
-      - 台湾极速专线G1 VIP会员
-      - 台湾高速专线E1 VIP会员
-      - 台湾高速专线F1 VIP会员
       - 台湾（YouTube资源分享者）
       - 台湾（YouTube资源分享者） 2
       - 台湾（YouTube资源分享者） 3
@@ -11131,24 +10772,12 @@ proxy-groups:
       - 国产频道 TG@TBBAC
       - 备用频道 TG@TBBAV
       - 导航频道 TG@TBBAD
-      - 德国极速专线A1 VIP会员
-      - 德国极速专线B1 VIP会员
       - 德国（YouTube资源分享者）
       - 德国（YouTube资源分享者） 2
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
-      - 新加坡高速专线A1 VIP会员
-      - 新加坡高速专线A2 VIP会员
-      - 新加坡高速专线B1 VIP会员
-      - 新加坡高速专线B2 VIP会员
       - 新加坡（YouTube资源分享者）
       - 新加坡（YouTube资源分享者） 2
-      - 日本极速专线C1 VIP会员
-      - 日本极速专线D1 VIP会员
-      - 日本高速专线A1 VIP会员
-      - 日本高速专线B1 VIP会员
-      - 日本高速专线E1 VIP会员
-      - 日本高速专线F1 VIP会员
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
@@ -11220,8 +10849,6 @@ proxy-groups:
       - 法国(欢迎订阅Youtube破解资源君) 4
       - 法国(欢迎订阅Youtube破解资源君) 5
       - 法国(欢迎订阅Youtube破解资源君) 6
-      - 法国极速专线A1 VIP会员
-      - 法国极速专线B1 VIP会员
       - 法国（YouTube资源分享者）
       - 法国（YouTube资源分享者） 2
       - 法国（YouTube资源分享者） 3
@@ -11230,7 +10857,6 @@ proxy-groups:
       - 法国（YouTube资源分享者） 2 2
       - 法国（YouTube资源分享者） 3 2
       - 法国（YouTube资源分享者） 4 2
-      - 泰国高速专线A1 VIP会员
       - 澳大利亚（YouTube资源分享者）
       - 澳大利亚（YouTube资源分享者） 2
       - 澳大利亚（YouTube资源分享者） 3
@@ -11248,28 +10874,6 @@ proxy-groups:
       - 美国(欢迎订阅Youtube破解资源君) 4
       - 美国(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国体验专线E1 体验用户
-      - 美国普通专线F1 普通用户
-      - 美国电信专线J1 VIP会员
-      - 美国联通专线K1 VIP会员
-      - 美国高速专线A1 体验用户
-      - 美国高速专线C1 VIP会员
-      - 美国高速专线D1 VIP会员
-      - 美国高速专线G1 VIP会员
-      - 美国高速专线H1 VIP会员
-      - 美国高速专线L1 VIP会员
-      - 美国高速专线M1 VIP会员
-      - 美国高速专线N1 VIP会员
-      - 美国高速专线P1 VIP会员
-      - 美国高速专线Q1 VIP会员
-      - 美国高速专线R1 VIP会员
-      - 美国高速专线S1 VIP会员
-      - 美国高速专线T1 VIP会员
-      - 美国高速专线U1 VIP会员
-      - 美国高速专线V1 VIP会员
-      - 美国高速专线W1 VIP会员
-      - 美国高速专线X1 VIP会员
-      - 美国高速专线Y1 VIP会员
       - 美国（YouTube资源分享者）
       - 美国（YouTube资源分享者） 2
       - 美国（YouTube资源分享者） 3
@@ -11350,29 +10954,12 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 4
       - 荷兰（YouTube资源分享者） 2 2
       - 荷兰（YouTube资源分享者） 3 2
-      - 菲律宾极速专线A1 VIP会员
-      - 韩国极速专线A1 VIP会员
-      - 韩国极速专线A2 VIP会员
-      - 韩国高速专线C1 VIP会员
-      - 韩国高速专线D1 VIP会员
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
       - 香港(欢迎订阅Youtube破解资源君) 4
       - 香港(欢迎订阅Youtube破解资源君) 5
       - 香港(欢迎订阅Youtube破解资源君) 6
-      - 香港极速专线A1 VIP会员
-      - 香港极速专线B1 VIP会员
-      - 香港极速专线C1 VIP会员
-      - 香港极速专线D1 VIP会员
-      - 香港高速专线F1 VIP会员
-      - 香港高速专线G1 VIP会员
-      - 香港高速专线H1 VIP会员
-      - 香港高速专线L1 VIP会员
-      - 香港高速专线M1 VIP会员
-      - 香港高速专线N1 VIP会员
-      - 香港高速专线P1 VIP会员
-      - 香港高速专线R1 VIP会员
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
       - 香港（YouTube资源分享者） 3
@@ -11870,6 +11457,8 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _IL_以色列
+      - _IL_以色列 2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
@@ -12653,6 +12242,8 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_99
       - _NON_FMYC-2021.12.08_99 2
       - _NON_FMYC-2021.12.08_99 3
+      - _US_美国
+      - _US_美国 2
       - default_ssr_name_3
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
@@ -12701,14 +12292,12 @@ proxy-groups:
       - 付费推荐:dlj.tf/ssrsub__41
       - 以色列（YouTube资源分享者）
       - 以色列（YouTube资源分享者） 2
-      - 俄罗斯专线A1 VIP会员
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
       - 俄罗斯（YouTube资源分享者） 3
       - 俄罗斯（YouTube资源分享者） 4
       - 俄罗斯（YouTube资源分享者） 2 2
       - 俄罗斯（YouTube资源分享者） 3 2
-      - 加拿大专线A1 VIP会员
       - 加拿大（YouTube资源分享者）
       - 加拿大（YouTube资源分享者） 2
       - 加拿大（YouTube资源分享者） 3
@@ -12731,16 +12320,9 @@ proxy-groups:
       - 匈牙利（YouTube资源分享者） 2
       - 卢森堡（YouTube资源分享者）
       - 卢森堡（YouTube资源分享者） 2
-      - 印度高速专线A1 VIP会员
       - 台湾(欢迎订阅Youtube破解资源君)
       - 台湾(欢迎订阅Youtube破解资源君) 2
       - 台湾(欢迎订阅Youtube破解资源君) 3
-      - 台湾极速专线A1 VIP会员
-      - 台湾极速专线B1 VIP会员
-      - 台湾极速专线D1 VIP会员
-      - 台湾极速专线G1 VIP会员
-      - 台湾高速专线E1 VIP会员
-      - 台湾高速专线F1 VIP会员
       - 台湾（YouTube资源分享者）
       - 台湾（YouTube资源分享者） 2
       - 台湾（YouTube资源分享者） 3
@@ -12760,24 +12342,12 @@ proxy-groups:
       - 国产频道 TG@TBBAC
       - 备用频道 TG@TBBAV
       - 导航频道 TG@TBBAD
-      - 德国极速专线A1 VIP会员
-      - 德国极速专线B1 VIP会员
       - 德国（YouTube资源分享者）
       - 德国（YouTube资源分享者） 2
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
-      - 新加坡高速专线A1 VIP会员
-      - 新加坡高速专线A2 VIP会员
-      - 新加坡高速专线B1 VIP会员
-      - 新加坡高速专线B2 VIP会员
       - 新加坡（YouTube资源分享者）
       - 新加坡（YouTube资源分享者） 2
-      - 日本极速专线C1 VIP会员
-      - 日本极速专线D1 VIP会员
-      - 日本高速专线A1 VIP会员
-      - 日本高速专线B1 VIP会员
-      - 日本高速专线E1 VIP会员
-      - 日本高速专线F1 VIP会员
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
@@ -12849,8 +12419,6 @@ proxy-groups:
       - 法国(欢迎订阅Youtube破解资源君) 4
       - 法国(欢迎订阅Youtube破解资源君) 5
       - 法国(欢迎订阅Youtube破解资源君) 6
-      - 法国极速专线A1 VIP会员
-      - 法国极速专线B1 VIP会员
       - 法国（YouTube资源分享者）
       - 法国（YouTube资源分享者） 2
       - 法国（YouTube资源分享者） 3
@@ -12859,7 +12427,6 @@ proxy-groups:
       - 法国（YouTube资源分享者） 2 2
       - 法国（YouTube资源分享者） 3 2
       - 法国（YouTube资源分享者） 4 2
-      - 泰国高速专线A1 VIP会员
       - 澳大利亚（YouTube资源分享者）
       - 澳大利亚（YouTube资源分享者） 2
       - 澳大利亚（YouTube资源分享者） 3
@@ -12877,28 +12444,6 @@ proxy-groups:
       - 美国(欢迎订阅Youtube破解资源君) 4
       - 美国(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国体验专线E1 体验用户
-      - 美国普通专线F1 普通用户
-      - 美国电信专线J1 VIP会员
-      - 美国联通专线K1 VIP会员
-      - 美国高速专线A1 体验用户
-      - 美国高速专线C1 VIP会员
-      - 美国高速专线D1 VIP会员
-      - 美国高速专线G1 VIP会员
-      - 美国高速专线H1 VIP会员
-      - 美国高速专线L1 VIP会员
-      - 美国高速专线M1 VIP会员
-      - 美国高速专线N1 VIP会员
-      - 美国高速专线P1 VIP会员
-      - 美国高速专线Q1 VIP会员
-      - 美国高速专线R1 VIP会员
-      - 美国高速专线S1 VIP会员
-      - 美国高速专线T1 VIP会员
-      - 美国高速专线U1 VIP会员
-      - 美国高速专线V1 VIP会员
-      - 美国高速专线W1 VIP会员
-      - 美国高速专线X1 VIP会员
-      - 美国高速专线Y1 VIP会员
       - 美国（YouTube资源分享者）
       - 美国（YouTube资源分享者） 2
       - 美国（YouTube资源分享者） 3
@@ -12979,29 +12524,12 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 4
       - 荷兰（YouTube资源分享者） 2 2
       - 荷兰（YouTube资源分享者） 3 2
-      - 菲律宾极速专线A1 VIP会员
-      - 韩国极速专线A1 VIP会员
-      - 韩国极速专线A2 VIP会员
-      - 韩国高速专线C1 VIP会员
-      - 韩国高速专线D1 VIP会员
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
       - 香港(欢迎订阅Youtube破解资源君) 4
       - 香港(欢迎订阅Youtube破解资源君) 5
       - 香港(欢迎订阅Youtube破解资源君) 6
-      - 香港极速专线A1 VIP会员
-      - 香港极速专线B1 VIP会员
-      - 香港极速专线C1 VIP会员
-      - 香港极速专线D1 VIP会员
-      - 香港高速专线F1 VIP会员
-      - 香港高速专线G1 VIP会员
-      - 香港高速专线H1 VIP会员
-      - 香港高速专线L1 VIP会员
-      - 香港高速专线M1 VIP会员
-      - 香港高速专线N1 VIP会员
-      - 香港高速专线P1 VIP会员
-      - 香港高速专线R1 VIP会员
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
       - 香港（YouTube资源分享者） 3
@@ -13515,6 +13043,8 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _IL_以色列
+      - _IL_以色列 2
       - _NON_FMYC-2021.12.08_1
       - _NON_FMYC-2021.12.08_1 2
       - _NON_FMYC-2021.12.08_1 3
@@ -14298,6 +13828,8 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_99
       - _NON_FMYC-2021.12.08_99 2
       - _NON_FMYC-2021.12.08_99 3
+      - _US_美国
+      - _US_美国 2
       - default_ssr_name_3
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
@@ -14346,14 +13878,12 @@ proxy-groups:
       - 付费推荐:dlj.tf/ssrsub__41
       - 以色列（YouTube资源分享者）
       - 以色列（YouTube资源分享者） 2
-      - 俄罗斯专线A1 VIP会员
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
       - 俄罗斯（YouTube资源分享者） 3
       - 俄罗斯（YouTube资源分享者） 4
       - 俄罗斯（YouTube资源分享者） 2 2
       - 俄罗斯（YouTube资源分享者） 3 2
-      - 加拿大专线A1 VIP会员
       - 加拿大（YouTube资源分享者）
       - 加拿大（YouTube资源分享者） 2
       - 加拿大（YouTube资源分享者） 3
@@ -14376,16 +13906,9 @@ proxy-groups:
       - 匈牙利（YouTube资源分享者） 2
       - 卢森堡（YouTube资源分享者）
       - 卢森堡（YouTube资源分享者） 2
-      - 印度高速专线A1 VIP会员
       - 台湾(欢迎订阅Youtube破解资源君)
       - 台湾(欢迎订阅Youtube破解资源君) 2
       - 台湾(欢迎订阅Youtube破解资源君) 3
-      - 台湾极速专线A1 VIP会员
-      - 台湾极速专线B1 VIP会员
-      - 台湾极速专线D1 VIP会员
-      - 台湾极速专线G1 VIP会员
-      - 台湾高速专线E1 VIP会员
-      - 台湾高速专线F1 VIP会员
       - 台湾（YouTube资源分享者）
       - 台湾（YouTube资源分享者） 2
       - 台湾（YouTube资源分享者） 3
@@ -14405,24 +13928,12 @@ proxy-groups:
       - 国产频道 TG@TBBAC
       - 备用频道 TG@TBBAV
       - 导航频道 TG@TBBAD
-      - 德国极速专线A1 VIP会员
-      - 德国极速专线B1 VIP会员
       - 德国（YouTube资源分享者）
       - 德国（YouTube资源分享者） 2
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
-      - 新加坡高速专线A1 VIP会员
-      - 新加坡高速专线A2 VIP会员
-      - 新加坡高速专线B1 VIP会员
-      - 新加坡高速专线B2 VIP会员
       - 新加坡（YouTube资源分享者）
       - 新加坡（YouTube资源分享者） 2
-      - 日本极速专线C1 VIP会员
-      - 日本极速专线D1 VIP会员
-      - 日本高速专线A1 VIP会员
-      - 日本高速专线B1 VIP会员
-      - 日本高速专线E1 VIP会员
-      - 日本高速专线F1 VIP会员
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
@@ -14494,8 +14005,6 @@ proxy-groups:
       - 法国(欢迎订阅Youtube破解资源君) 4
       - 法国(欢迎订阅Youtube破解资源君) 5
       - 法国(欢迎订阅Youtube破解资源君) 6
-      - 法国极速专线A1 VIP会员
-      - 法国极速专线B1 VIP会员
       - 法国（YouTube资源分享者）
       - 法国（YouTube资源分享者） 2
       - 法国（YouTube资源分享者） 3
@@ -14504,7 +14013,6 @@ proxy-groups:
       - 法国（YouTube资源分享者） 2 2
       - 法国（YouTube资源分享者） 3 2
       - 法国（YouTube资源分享者） 4 2
-      - 泰国高速专线A1 VIP会员
       - 澳大利亚（YouTube资源分享者）
       - 澳大利亚（YouTube资源分享者） 2
       - 澳大利亚（YouTube资源分享者） 3
@@ -14522,28 +14030,6 @@ proxy-groups:
       - 美国(欢迎订阅Youtube破解资源君) 4
       - 美国(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国体验专线E1 体验用户
-      - 美国普通专线F1 普通用户
-      - 美国电信专线J1 VIP会员
-      - 美国联通专线K1 VIP会员
-      - 美国高速专线A1 体验用户
-      - 美国高速专线C1 VIP会员
-      - 美国高速专线D1 VIP会员
-      - 美国高速专线G1 VIP会员
-      - 美国高速专线H1 VIP会员
-      - 美国高速专线L1 VIP会员
-      - 美国高速专线M1 VIP会员
-      - 美国高速专线N1 VIP会员
-      - 美国高速专线P1 VIP会员
-      - 美国高速专线Q1 VIP会员
-      - 美国高速专线R1 VIP会员
-      - 美国高速专线S1 VIP会员
-      - 美国高速专线T1 VIP会员
-      - 美国高速专线U1 VIP会员
-      - 美国高速专线V1 VIP会员
-      - 美国高速专线W1 VIP会员
-      - 美国高速专线X1 VIP会员
-      - 美国高速专线Y1 VIP会员
       - 美国（YouTube资源分享者）
       - 美国（YouTube资源分享者） 2
       - 美国（YouTube资源分享者） 3
@@ -14624,29 +14110,12 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 4
       - 荷兰（YouTube资源分享者） 2 2
       - 荷兰（YouTube资源分享者） 3 2
-      - 菲律宾极速专线A1 VIP会员
-      - 韩国极速专线A1 VIP会员
-      - 韩国极速专线A2 VIP会员
-      - 韩国高速专线C1 VIP会员
-      - 韩国高速专线D1 VIP会员
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
       - 香港(欢迎订阅Youtube破解资源君) 4
       - 香港(欢迎订阅Youtube破解资源君) 5
       - 香港(欢迎订阅Youtube破解资源君) 6
-      - 香港极速专线A1 VIP会员
-      - 香港极速专线B1 VIP会员
-      - 香港极速专线C1 VIP会员
-      - 香港极速专线D1 VIP会员
-      - 香港高速专线F1 VIP会员
-      - 香港高速专线G1 VIP会员
-      - 香港高速专线H1 VIP会员
-      - 香港高速专线L1 VIP会员
-      - 香港高速专线M1 VIP会员
-      - 香港高速专线N1 VIP会员
-      - 香港高速专线P1 VIP会员
-      - 香港高速专线R1 VIP会员
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
       - 香港（YouTube资源分享者） 3
