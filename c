@@ -5,52 +5,124 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1', server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
+  - {name: '🇩🇪_DE_德国_1', server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: '🇫🇷_FR_法国_2', server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_3', server: api.ssfree.ru, port: 443, type: vmess, uuid: 3a35a128-5e89-11ec-b690-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /getweather}
+  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4', server: 172.67.176.114, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
+  - {name: '🇬🇧_GB_英国_5', server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
+  - {name: '🇭🇰_HK_香港->🇮🇳_IN_印度_6', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
+  - {name: '🇫🇷_FR_法国_7', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '🇺🇸_US_美国_8', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: '🇫🇷_FR_法国_9', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇫🇷_FR_法国_10', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+      - 🇬🇧_GB_英国_5
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_6
+      - 🇫🇷_FR_法国_7
+      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_9
+      - 🇫🇷_FR_法国_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+      - 🇬🇧_GB_英国_5
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_6
+      - 🇫🇷_FR_法国_7
+      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_9
+      - 🇫🇷_FR_法国_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+      - 🇬🇧_GB_英国_5
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_6
+      - 🇫🇷_FR_法国_7
+      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_9
+      - 🇫🇷_FR_法国_10
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+      - 🇬🇧_GB_英国_5
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_6
+      - 🇫🇷_FR_法国_7
+      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_9
+      - 🇫🇷_FR_法国_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+      - 🇬🇧_GB_英国_5
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_6
+      - 🇫🇷_FR_法国_7
+      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_9
+      - 🇫🇷_FR_法国_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+      - 🇬🇧_GB_英国_5
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_6
+      - 🇫🇷_FR_法国_7
+      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_9
+      - 🇫🇷_FR_法国_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+      - 🇬🇧_GB_英国_5
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_6
+      - 🇫🇷_FR_法国_7
+      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_9
+      - 🇫🇷_FR_法国_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +138,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+      - 🇬🇧_GB_英国_5
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_6
+      - 🇫🇷_FR_法国_7
+      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_9
+      - 🇫🇷_FR_法国_10
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
