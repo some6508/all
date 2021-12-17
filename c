@@ -5,52 +5,460 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇯🇵_JP_日本_1', server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🏳_NON_wg18_1', server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 856e5f80-15af-410b-b784-cbb71a34f646, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_2', server: ngzyd-1.okex-tradebot.xyz, port: 30012, type: vmess, uuid: 0b4069c9-7f09-4144-9800-ffbf24982ac8, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_3', server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: 856e5f80-15af-410b-b784-cbb71a34f646, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_4', server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_5', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: 856e5f80-15af-410b-b784-cbb71a34f646, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_6', server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_22', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_23', server: v3.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_24', server: v4.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_25', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_26', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_27', server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_28', server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_29', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_30', server: cm-jm.okvpn.xyz, port: 20006, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_31', server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_32', server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_33', server: zj.haojiahuo.club, port: 30041, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_34', server: zj.haojiahuo.club, port: 30044, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_35', server: zj.haojiahuo.club, port: 30045, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_36', server: zj.haojiahuo.club, port: 30052, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_37', server: zj.haojiahuo.club, port: 30057, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_38', server: zj.haojiahuo.club, port: 30077, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_39', server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_40', server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_41', server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_42', server: free-russian02-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_43', server: guangzou-yd-jy-03.pucdn.me, port: 62005, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_44', server: global-transit-02-sg.pucdn.me, port: 62009, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_45', server: global-transit-02-sg.pucdn.me, port: 62011, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_46', server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: '🏳_NON_wg18_47', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: '🏳_NON_wg18_48', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_49', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_50', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_51', server: cn.zzv07.infonode.xyz, port: 17011, type: vmess, uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_52', server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_53', server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_54', server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 0, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_55', server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 64, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_56', server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_57', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_58', server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_59', server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_60', server: Eiha7iew.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_61', server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_62', server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws}
+  - {name: '🏳_NON_wg18_63', server: v103.v2dns.xyz, port: 80, type: vmess, uuid: 892ebb75-7055-3007-8d16-356e65c6a49a, alterId: 2, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_64', server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_65', server: v2-xgb-v9.cl123.xyz, port: 80, type: vmess, uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f, alterId: 2, cipher: auto, tls: false, network: ws}
+  - {name: '🏳_NON_wg18_66', server: gzyd01.speedbosnode.xyz, port: 33117, type: vmess, uuid: dd519488-3552-362d-a881-57523865295e, alterId: 0, cipher: auto, tls: false}
+  - {name: '🏳_NON_wg18_67', server: twn01.ip4.ddns.acg.photos, port: 22356, type: vmess, uuid: dbfa875e-ca7c-4a08-b746-2c357e971f55, alterId: 1, cipher: auto, tls: false, network: ws}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
+      - 🏳_NON_wg18_1
+      - 🏳_NON_wg18_2
+      - 🏳_NON_wg18_3
+      - 🏳_NON_wg18_4
+      - 🏳_NON_wg18_5
+      - 🏳_NON_wg18_6
+      - 🏳_NON_wg18_22
+      - 🏳_NON_wg18_23
+      - 🏳_NON_wg18_24
+      - 🏳_NON_wg18_25
+      - 🏳_NON_wg18_26
+      - 🏳_NON_wg18_27
+      - 🏳_NON_wg18_28
+      - 🏳_NON_wg18_29
+      - 🏳_NON_wg18_30
+      - 🏳_NON_wg18_31
+      - 🏳_NON_wg18_32
+      - 🏳_NON_wg18_33
+      - 🏳_NON_wg18_34
+      - 🏳_NON_wg18_35
+      - 🏳_NON_wg18_36
+      - 🏳_NON_wg18_37
+      - 🏳_NON_wg18_38
+      - 🏳_NON_wg18_39
+      - 🏳_NON_wg18_40
+      - 🏳_NON_wg18_41
+      - 🏳_NON_wg18_42
+      - 🏳_NON_wg18_43
+      - 🏳_NON_wg18_44
+      - 🏳_NON_wg18_45
+      - 🏳_NON_wg18_46
+      - 🏳_NON_wg18_47
+      - 🏳_NON_wg18_48
+      - 🏳_NON_wg18_49
+      - 🏳_NON_wg18_50
+      - 🏳_NON_wg18_51
+      - 🏳_NON_wg18_52
+      - 🏳_NON_wg18_53
+      - 🏳_NON_wg18_54
+      - 🏳_NON_wg18_55
+      - 🏳_NON_wg18_56
+      - 🏳_NON_wg18_57
+      - 🏳_NON_wg18_58
+      - 🏳_NON_wg18_59
+      - 🏳_NON_wg18_60
+      - 🏳_NON_wg18_61
+      - 🏳_NON_wg18_62
+      - 🏳_NON_wg18_63
+      - 🏳_NON_wg18_64
+      - 🏳_NON_wg18_65
+      - 🏳_NON_wg18_66
+      - 🏳_NON_wg18_67
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵_JP_日本_1
+      - 🏳_NON_wg18_1
+      - 🏳_NON_wg18_2
+      - 🏳_NON_wg18_3
+      - 🏳_NON_wg18_4
+      - 🏳_NON_wg18_5
+      - 🏳_NON_wg18_6
+      - 🏳_NON_wg18_22
+      - 🏳_NON_wg18_23
+      - 🏳_NON_wg18_24
+      - 🏳_NON_wg18_25
+      - 🏳_NON_wg18_26
+      - 🏳_NON_wg18_27
+      - 🏳_NON_wg18_28
+      - 🏳_NON_wg18_29
+      - 🏳_NON_wg18_30
+      - 🏳_NON_wg18_31
+      - 🏳_NON_wg18_32
+      - 🏳_NON_wg18_33
+      - 🏳_NON_wg18_34
+      - 🏳_NON_wg18_35
+      - 🏳_NON_wg18_36
+      - 🏳_NON_wg18_37
+      - 🏳_NON_wg18_38
+      - 🏳_NON_wg18_39
+      - 🏳_NON_wg18_40
+      - 🏳_NON_wg18_41
+      - 🏳_NON_wg18_42
+      - 🏳_NON_wg18_43
+      - 🏳_NON_wg18_44
+      - 🏳_NON_wg18_45
+      - 🏳_NON_wg18_46
+      - 🏳_NON_wg18_47
+      - 🏳_NON_wg18_48
+      - 🏳_NON_wg18_49
+      - 🏳_NON_wg18_50
+      - 🏳_NON_wg18_51
+      - 🏳_NON_wg18_52
+      - 🏳_NON_wg18_53
+      - 🏳_NON_wg18_54
+      - 🏳_NON_wg18_55
+      - 🏳_NON_wg18_56
+      - 🏳_NON_wg18_57
+      - 🏳_NON_wg18_58
+      - 🏳_NON_wg18_59
+      - 🏳_NON_wg18_60
+      - 🏳_NON_wg18_61
+      - 🏳_NON_wg18_62
+      - 🏳_NON_wg18_63
+      - 🏳_NON_wg18_64
+      - 🏳_NON_wg18_65
+      - 🏳_NON_wg18_66
+      - 🏳_NON_wg18_67
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
+      - 🏳_NON_wg18_1
+      - 🏳_NON_wg18_2
+      - 🏳_NON_wg18_3
+      - 🏳_NON_wg18_4
+      - 🏳_NON_wg18_5
+      - 🏳_NON_wg18_6
+      - 🏳_NON_wg18_22
+      - 🏳_NON_wg18_23
+      - 🏳_NON_wg18_24
+      - 🏳_NON_wg18_25
+      - 🏳_NON_wg18_26
+      - 🏳_NON_wg18_27
+      - 🏳_NON_wg18_28
+      - 🏳_NON_wg18_29
+      - 🏳_NON_wg18_30
+      - 🏳_NON_wg18_31
+      - 🏳_NON_wg18_32
+      - 🏳_NON_wg18_33
+      - 🏳_NON_wg18_34
+      - 🏳_NON_wg18_35
+      - 🏳_NON_wg18_36
+      - 🏳_NON_wg18_37
+      - 🏳_NON_wg18_38
+      - 🏳_NON_wg18_39
+      - 🏳_NON_wg18_40
+      - 🏳_NON_wg18_41
+      - 🏳_NON_wg18_42
+      - 🏳_NON_wg18_43
+      - 🏳_NON_wg18_44
+      - 🏳_NON_wg18_45
+      - 🏳_NON_wg18_46
+      - 🏳_NON_wg18_47
+      - 🏳_NON_wg18_48
+      - 🏳_NON_wg18_49
+      - 🏳_NON_wg18_50
+      - 🏳_NON_wg18_51
+      - 🏳_NON_wg18_52
+      - 🏳_NON_wg18_53
+      - 🏳_NON_wg18_54
+      - 🏳_NON_wg18_55
+      - 🏳_NON_wg18_56
+      - 🏳_NON_wg18_57
+      - 🏳_NON_wg18_58
+      - 🏳_NON_wg18_59
+      - 🏳_NON_wg18_60
+      - 🏳_NON_wg18_61
+      - 🏳_NON_wg18_62
+      - 🏳_NON_wg18_63
+      - 🏳_NON_wg18_64
+      - 🏳_NON_wg18_65
+      - 🏳_NON_wg18_66
+      - 🏳_NON_wg18_67
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵_JP_日本_1
+      - 🏳_NON_wg18_1
+      - 🏳_NON_wg18_2
+      - 🏳_NON_wg18_3
+      - 🏳_NON_wg18_4
+      - 🏳_NON_wg18_5
+      - 🏳_NON_wg18_6
+      - 🏳_NON_wg18_22
+      - 🏳_NON_wg18_23
+      - 🏳_NON_wg18_24
+      - 🏳_NON_wg18_25
+      - 🏳_NON_wg18_26
+      - 🏳_NON_wg18_27
+      - 🏳_NON_wg18_28
+      - 🏳_NON_wg18_29
+      - 🏳_NON_wg18_30
+      - 🏳_NON_wg18_31
+      - 🏳_NON_wg18_32
+      - 🏳_NON_wg18_33
+      - 🏳_NON_wg18_34
+      - 🏳_NON_wg18_35
+      - 🏳_NON_wg18_36
+      - 🏳_NON_wg18_37
+      - 🏳_NON_wg18_38
+      - 🏳_NON_wg18_39
+      - 🏳_NON_wg18_40
+      - 🏳_NON_wg18_41
+      - 🏳_NON_wg18_42
+      - 🏳_NON_wg18_43
+      - 🏳_NON_wg18_44
+      - 🏳_NON_wg18_45
+      - 🏳_NON_wg18_46
+      - 🏳_NON_wg18_47
+      - 🏳_NON_wg18_48
+      - 🏳_NON_wg18_49
+      - 🏳_NON_wg18_50
+      - 🏳_NON_wg18_51
+      - 🏳_NON_wg18_52
+      - 🏳_NON_wg18_53
+      - 🏳_NON_wg18_54
+      - 🏳_NON_wg18_55
+      - 🏳_NON_wg18_56
+      - 🏳_NON_wg18_57
+      - 🏳_NON_wg18_58
+      - 🏳_NON_wg18_59
+      - 🏳_NON_wg18_60
+      - 🏳_NON_wg18_61
+      - 🏳_NON_wg18_62
+      - 🏳_NON_wg18_63
+      - 🏳_NON_wg18_64
+      - 🏳_NON_wg18_65
+      - 🏳_NON_wg18_66
+      - 🏳_NON_wg18_67
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵_JP_日本_1
+      - 🏳_NON_wg18_1
+      - 🏳_NON_wg18_2
+      - 🏳_NON_wg18_3
+      - 🏳_NON_wg18_4
+      - 🏳_NON_wg18_5
+      - 🏳_NON_wg18_6
+      - 🏳_NON_wg18_22
+      - 🏳_NON_wg18_23
+      - 🏳_NON_wg18_24
+      - 🏳_NON_wg18_25
+      - 🏳_NON_wg18_26
+      - 🏳_NON_wg18_27
+      - 🏳_NON_wg18_28
+      - 🏳_NON_wg18_29
+      - 🏳_NON_wg18_30
+      - 🏳_NON_wg18_31
+      - 🏳_NON_wg18_32
+      - 🏳_NON_wg18_33
+      - 🏳_NON_wg18_34
+      - 🏳_NON_wg18_35
+      - 🏳_NON_wg18_36
+      - 🏳_NON_wg18_37
+      - 🏳_NON_wg18_38
+      - 🏳_NON_wg18_39
+      - 🏳_NON_wg18_40
+      - 🏳_NON_wg18_41
+      - 🏳_NON_wg18_42
+      - 🏳_NON_wg18_43
+      - 🏳_NON_wg18_44
+      - 🏳_NON_wg18_45
+      - 🏳_NON_wg18_46
+      - 🏳_NON_wg18_47
+      - 🏳_NON_wg18_48
+      - 🏳_NON_wg18_49
+      - 🏳_NON_wg18_50
+      - 🏳_NON_wg18_51
+      - 🏳_NON_wg18_52
+      - 🏳_NON_wg18_53
+      - 🏳_NON_wg18_54
+      - 🏳_NON_wg18_55
+      - 🏳_NON_wg18_56
+      - 🏳_NON_wg18_57
+      - 🏳_NON_wg18_58
+      - 🏳_NON_wg18_59
+      - 🏳_NON_wg18_60
+      - 🏳_NON_wg18_61
+      - 🏳_NON_wg18_62
+      - 🏳_NON_wg18_63
+      - 🏳_NON_wg18_64
+      - 🏳_NON_wg18_65
+      - 🏳_NON_wg18_66
+      - 🏳_NON_wg18_67
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
+      - 🏳_NON_wg18_1
+      - 🏳_NON_wg18_2
+      - 🏳_NON_wg18_3
+      - 🏳_NON_wg18_4
+      - 🏳_NON_wg18_5
+      - 🏳_NON_wg18_6
+      - 🏳_NON_wg18_22
+      - 🏳_NON_wg18_23
+      - 🏳_NON_wg18_24
+      - 🏳_NON_wg18_25
+      - 🏳_NON_wg18_26
+      - 🏳_NON_wg18_27
+      - 🏳_NON_wg18_28
+      - 🏳_NON_wg18_29
+      - 🏳_NON_wg18_30
+      - 🏳_NON_wg18_31
+      - 🏳_NON_wg18_32
+      - 🏳_NON_wg18_33
+      - 🏳_NON_wg18_34
+      - 🏳_NON_wg18_35
+      - 🏳_NON_wg18_36
+      - 🏳_NON_wg18_37
+      - 🏳_NON_wg18_38
+      - 🏳_NON_wg18_39
+      - 🏳_NON_wg18_40
+      - 🏳_NON_wg18_41
+      - 🏳_NON_wg18_42
+      - 🏳_NON_wg18_43
+      - 🏳_NON_wg18_44
+      - 🏳_NON_wg18_45
+      - 🏳_NON_wg18_46
+      - 🏳_NON_wg18_47
+      - 🏳_NON_wg18_48
+      - 🏳_NON_wg18_49
+      - 🏳_NON_wg18_50
+      - 🏳_NON_wg18_51
+      - 🏳_NON_wg18_52
+      - 🏳_NON_wg18_53
+      - 🏳_NON_wg18_54
+      - 🏳_NON_wg18_55
+      - 🏳_NON_wg18_56
+      - 🏳_NON_wg18_57
+      - 🏳_NON_wg18_58
+      - 🏳_NON_wg18_59
+      - 🏳_NON_wg18_60
+      - 🏳_NON_wg18_61
+      - 🏳_NON_wg18_62
+      - 🏳_NON_wg18_63
+      - 🏳_NON_wg18_64
+      - 🏳_NON_wg18_65
+      - 🏳_NON_wg18_66
+      - 🏳_NON_wg18_67
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵_JP_日本_1
+      - 🏳_NON_wg18_1
+      - 🏳_NON_wg18_2
+      - 🏳_NON_wg18_3
+      - 🏳_NON_wg18_4
+      - 🏳_NON_wg18_5
+      - 🏳_NON_wg18_6
+      - 🏳_NON_wg18_22
+      - 🏳_NON_wg18_23
+      - 🏳_NON_wg18_24
+      - 🏳_NON_wg18_25
+      - 🏳_NON_wg18_26
+      - 🏳_NON_wg18_27
+      - 🏳_NON_wg18_28
+      - 🏳_NON_wg18_29
+      - 🏳_NON_wg18_30
+      - 🏳_NON_wg18_31
+      - 🏳_NON_wg18_32
+      - 🏳_NON_wg18_33
+      - 🏳_NON_wg18_34
+      - 🏳_NON_wg18_35
+      - 🏳_NON_wg18_36
+      - 🏳_NON_wg18_37
+      - 🏳_NON_wg18_38
+      - 🏳_NON_wg18_39
+      - 🏳_NON_wg18_40
+      - 🏳_NON_wg18_41
+      - 🏳_NON_wg18_42
+      - 🏳_NON_wg18_43
+      - 🏳_NON_wg18_44
+      - 🏳_NON_wg18_45
+      - 🏳_NON_wg18_46
+      - 🏳_NON_wg18_47
+      - 🏳_NON_wg18_48
+      - 🏳_NON_wg18_49
+      - 🏳_NON_wg18_50
+      - 🏳_NON_wg18_51
+      - 🏳_NON_wg18_52
+      - 🏳_NON_wg18_53
+      - 🏳_NON_wg18_54
+      - 🏳_NON_wg18_55
+      - 🏳_NON_wg18_56
+      - 🏳_NON_wg18_57
+      - 🏳_NON_wg18_58
+      - 🏳_NON_wg18_59
+      - 🏳_NON_wg18_60
+      - 🏳_NON_wg18_61
+      - 🏳_NON_wg18_62
+      - 🏳_NON_wg18_63
+      - 🏳_NON_wg18_64
+      - 🏳_NON_wg18_65
+      - 🏳_NON_wg18_66
+      - 🏳_NON_wg18_67
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +474,58 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵_JP_日本_1
+      - 🏳_NON_wg18_1
+      - 🏳_NON_wg18_2
+      - 🏳_NON_wg18_3
+      - 🏳_NON_wg18_4
+      - 🏳_NON_wg18_5
+      - 🏳_NON_wg18_6
+      - 🏳_NON_wg18_22
+      - 🏳_NON_wg18_23
+      - 🏳_NON_wg18_24
+      - 🏳_NON_wg18_25
+      - 🏳_NON_wg18_26
+      - 🏳_NON_wg18_27
+      - 🏳_NON_wg18_28
+      - 🏳_NON_wg18_29
+      - 🏳_NON_wg18_30
+      - 🏳_NON_wg18_31
+      - 🏳_NON_wg18_32
+      - 🏳_NON_wg18_33
+      - 🏳_NON_wg18_34
+      - 🏳_NON_wg18_35
+      - 🏳_NON_wg18_36
+      - 🏳_NON_wg18_37
+      - 🏳_NON_wg18_38
+      - 🏳_NON_wg18_39
+      - 🏳_NON_wg18_40
+      - 🏳_NON_wg18_41
+      - 🏳_NON_wg18_42
+      - 🏳_NON_wg18_43
+      - 🏳_NON_wg18_44
+      - 🏳_NON_wg18_45
+      - 🏳_NON_wg18_46
+      - 🏳_NON_wg18_47
+      - 🏳_NON_wg18_48
+      - 🏳_NON_wg18_49
+      - 🏳_NON_wg18_50
+      - 🏳_NON_wg18_51
+      - 🏳_NON_wg18_52
+      - 🏳_NON_wg18_53
+      - 🏳_NON_wg18_54
+      - 🏳_NON_wg18_55
+      - 🏳_NON_wg18_56
+      - 🏳_NON_wg18_57
+      - 🏳_NON_wg18_58
+      - 🏳_NON_wg18_59
+      - 🏳_NON_wg18_60
+      - 🏳_NON_wg18_61
+      - 🏳_NON_wg18_62
+      - 🏳_NON_wg18_63
+      - 🏳_NON_wg18_64
+      - 🏳_NON_wg18_65
+      - 🏳_NON_wg18_66
+      - 🏳_NON_wg18_67
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
