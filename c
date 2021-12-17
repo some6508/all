@@ -5,76 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇭🇰_HK_香港_1', server: 34.150.29.86, port: 443, type: vmess, uuid: cf052626-52bb-4237-b306-e2371448fd4f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: lilmier.me}}
-  - {name: '🇭🇰_HK_香港->🇮🇳_IN_印度_2', server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
-  - {name: '🇭🇰_HK_香港_3', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇬🇧_GB_英国_4', server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
+  - {name: '🇫🇷_FR_法国_1', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_2
-      - 🇭🇰_HK_香港_3
-      - 🇬🇧_GB_英国_4
+      - 🇫🇷_FR_法国_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_2
-      - 🇭🇰_HK_香港_3
-      - 🇬🇧_GB_英国_4
+      - 🇫🇷_FR_法国_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_2
-      - 🇭🇰_HK_香港_3
-      - 🇬🇧_GB_英国_4
+      - 🇫🇷_FR_法国_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_2
-      - 🇭🇰_HK_香港_3
-      - 🇬🇧_GB_英国_4
+      - 🇫🇷_FR_法国_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_2
-      - 🇭🇰_HK_香港_3
-      - 🇬🇧_GB_英国_4
+      - 🇫🇷_FR_法国_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_2
-      - 🇭🇰_HK_香港_3
-      - 🇬🇧_GB_英国_4
+      - 🇫🇷_FR_法国_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_2
-      - 🇭🇰_HK_香港_3
-      - 🇬🇧_GB_英国_4
+      - 🇫🇷_FR_法国_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,10 +66,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_2
-      - 🇭🇰_HK_香港_3
-      - 🇬🇧_GB_英国_4
+      - 🇫🇷_FR_法国_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
