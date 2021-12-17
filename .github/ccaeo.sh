@@ -1,4 +1,7 @@
 home=`pwd`
+exec 2>$home/ccaeo.log
+set -x
+PS4='$LINENO: '
 echo $(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%N毫秒')
 curl --version
 eval "`curl -s 'https://api.github.com/repos/changfengoss/pub/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
