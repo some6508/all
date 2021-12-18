@@ -33,7 +33,7 @@ jobs:
         run: |
           git add .
           git status
-          git commit -m "$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%N毫秒')" -a
+          git commit -m "$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')" -a
 
       - name: 开始上传
         uses: ad-m/github-push-action@master
