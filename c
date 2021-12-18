@@ -5,124 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇯🇵_JP_日本_1', server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 172.104.98.216}}
-  - {name: '🇨🇳_CN_中国_1', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: '🇷🇺_RU_俄罗斯联邦_1', server: v4.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}}
-  - {name: '🇨🇳_CN_中国_2', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '🇨🇳_CN_中国_3', server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: '🇨🇳_CN_中国_4', server: cm-jm.okvpn.xyz, port: 20047, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: '🇺🇸_US_美国_1', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇺🇸_US_美国_2', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '🇨🇳_CN_中国_5', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '🇨🇳_CN_中国_6', server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 'n_1wode_1', server: 104.16.157.153, port: 443, type: vmess, uuid: c80bf98f-b5f0-4b19-aea5-d5b3ff04d9fb, alterId: 0, cipher: auto, tls: true, network: ws, ws-headers: {Host: withered-glitter-000c.wode9258herokuappcom.workers.dev}}
+  - {name: 'n_2wode_2', server: 172.64.90.144, port: 443, type: vmess, uuid: f3300384-d166-411c-880c-88d7a8357fa5, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: f3300384-d166-411c-880c-88d7a8357fa5-vmess, ws-headers: {Host: proud-moon-aa9a.wode9258herokuappcom.workers.dev}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国_5
-      - 🇨🇳_CN_中国_6
+      - n_1wode_1
+      - n_2wode_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵_JP_日本_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国_5
-      - 🇨🇳_CN_中国_6
+      - n_1wode_1
+      - n_2wode_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国_5
-      - 🇨🇳_CN_中国_6
+      - n_1wode_1
+      - n_2wode_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵_JP_日本_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国_5
-      - 🇨🇳_CN_中国_6
+      - n_1wode_1
+      - n_2wode_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵_JP_日本_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国_5
-      - 🇨🇳_CN_中国_6
+      - n_1wode_1
+      - n_2wode_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国_5
-      - 🇨🇳_CN_中国_6
+      - n_1wode_1
+      - n_2wode_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵_JP_日本_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国_5
-      - 🇨🇳_CN_中国_6
+      - n_1wode_1
+      - n_2wode_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +74,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵_JP_日本_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国_5
-      - 🇨🇳_CN_中国_6
+      - n_1wode_1
+      - n_2wode_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
