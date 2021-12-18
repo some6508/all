@@ -45,7 +45,7 @@ CURL v5 'https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray'
 CURL c5 'https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml'
 CURL v6 'https://gitee.com/chenx58/clash/raw/V2R/V2R'
 eval "`curl -s 'https://api.github.com/repos/bhqz/bhqz/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
-eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/bhqz/bhqz/main/|p' | sed 's|</a>|"|g'`"
+eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/bhqz/bhqz/main/|p' | sed 's|</a>|"|g; s|{.* → ||g; s|}||g'`"
 case "$href" in
 *.txt) CURL v7 "$href" ;;
 *.yaml) CURL c6 "$href" ;;
