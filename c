@@ -5,780 +5,748 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_212', server: 1215tw1.fans8.xyz, port: 80, type: vmess, uuid: d1f1d432-0300-3b65-b90e-b65beaa68180, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_215', server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: d1f1d432-0300-3b65-b90e-b65beaa68180, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '馃嚚馃嚦CN_224', server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: '馃嚚馃嚦CN_226', server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_227', server: keixai3u.nodeinfo.icu, port: 6005, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_228', server: peev0eey.nodeinfo.icu, port: 6101, type: ssr, password: "di15PV", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_229', server: oexu8yee.nodeinfo.icu, port: 1125, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_230', server: ahc1beib.nodeinfo.icu, port: 1132, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_231', server: meiphen0.nodeinfo.icu, port: 1126, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_232', server: euchei9j.nodeinfo.icu, port: 1121, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_234', server: meb1aibe.nodeinfo.icu, port: 1133, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_236', server: vureuva3.nodeinfo.icu, port: 7004, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_237', server: phu8iej2.nodeinfo.icu, port: 6015, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_238', server: ib7uge9u.nodeinfo.icu, port: 6304, type: ssr, password: "di15PV", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_241', server: powa8agh.nodeinfo.icu, port: 6305, type: ssr, password: "di15PV", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_242', server: keem9bov.nodeinfo.icu, port: 6503, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_244', server: eim1kae9.nodeinfo.icu, port: 3203, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_245', server: yoo5hoog.nodeinfo.icu, port: 1123, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_247', server: ohm9aizu.nodeinfo.icu, port: 1122, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_248', server: piizoh3x.nodeinfo.icu, port: 1131, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_249', server: ota2wier.nodeinfo.icu, port: 7001, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_250', server: ac5mahye.nodeinfo.icu, port: 6007, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_251', server: ooqu0eep.nodeinfo.icu, port: 6002, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_252', server: quohvop8.nodeinfo.icu, port: 6016, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_253', server: queigh5h.nodeinfo.icu, port: 6004, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_254', server: wu3gadam.nodeinfo.icu, port: 6003, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_255', server: ic8iz5xu.nodeinfo.icu, port: 1120, type: ssr, password: "di15PV", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256', server: eeth0aey.nodeinfo.icu, port: 6303, type: ssr, password: "di15PV", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_257', server: athe0ugh.nodeinfo.icu, port: 1801, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_259', server: aic5ucu1.nodeinfo.icu, port: 6021, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_260', server: utai3iw1.nodeinfo.icu, port: 6014, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_261', server: 183.232.163.3, port: 4646, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_265', server: 183.232.163.3, port: 2020, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_268', server: 120.241.72.84, port: 18120, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_269', server: 183.232.163.3, port: 4343, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_270', server: 120.241.72.84, port: 18003, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_271', server: 120.241.72.84, port: 18015, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_274', server: cm-jm.okvpn.xyz, port: 20006, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278', server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_279', server: 120.241.72.84, port: 18009, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_280', server: 183.232.163.3, port: 2626, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_282', server: 183.232.163.3, port: 2525, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_284', server: 183.232.163.3, port: 2424, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_285', server: 183.232.163.3, port: 9191, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_286', server: 183.232.163.3, port: 5254, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_295', server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃弫ZZ_299', server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /inde}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300', server: 183.232.163.3, port: 4949, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_303', server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: UiLPqefVfielqkDjEwBV}
-  - {name: '馃嚛馃嚜DE_315', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_376', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_384', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_394', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_401', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_473', server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
-  - {name: '馃嚟馃嚢HK_494', server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa}
-  - {name: '馃嚡馃嚨JP_601', server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
-  - {name: 'Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_605', server: mf-aws-kr-07.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-07.xncloud.xyz}}
-  - {name: 'Relay_馃嚦馃嚤NL-馃嚦馃嚤NL_620', server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
-  - {name: '馃嚦馃嚧NO_651', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '馃嚦馃嚧NO_652', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '馃嚦馃嚧NO_653', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '馃嚦馃嚧NO_654', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '馃嚦馃嚧NO_656', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '馃嚦馃嚧NO_658', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_793', server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
-  - {name: 'Pool_馃嚬馃嚰TW_884', server: 59.125.11.158, port: 8158, type: ssr, password: "passinfo123", cipher: rc4-md5, protocol: origin, obfs: plain}
-  - {name: '馃嚭馃嚫US_903', server: 198.55.120.134, port: 10713, type: ss, cipher: chacha20-ietf-poly1305, password: dpjILjMosMRd}
-  - {name: '馃嚭馃嚫US_912', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '馃嚭馃嚫US_923', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '馃嚭馃嚫US_924', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '馃嚭馃嚫US_980', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '馃嚭馃嚫US_1296', server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1759', server: ahheil5u.nodeinfo.icu, port: 6012, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1760', server: jaibio5c.nodeinfo.icu, port: 7007, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1761', server: eevahb9v.nodeinfo.icu, port: 6009, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1762', server: aezee4ea.nodeinfo.icu, port: 6011, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1763', server: vieghei0.nodeinfo.icu, port: 6018, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1764', server: quaex7oo.nodeinfo.icu, port: 7005, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1765', server: aemoo9wi.nodeinfo.icu, port: 7008, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1766', server: thoo6foh.nodeinfo.icu, port: 6010, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1767', server: inu8azei.nodeinfo.icu, port: 6017, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1768', server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1769', server: aquoh8xi.nodeinfo.icu, port: 6022, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1770', server: ti5mulix.nodeinfo.icu, port: 6020, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1771', server: koo3cuiz.nodeinfo.icu, port: 6013, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1772', server: iqu5ujio.nodeinfo.icu, port: 7006, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1773', server: loe5aeno.nodeinfo.icu, port: 520, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚭馃嚫US_1805', server: mf-do-ua-07.xncloud.xyz, port: 80, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-07.xncloud.xyz}}
-  - {name: '馃嚭馃嚫US_1820', server: 192.74.254.112, port: 52244, type: vmess, uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /E0Y46mSw/, ws-headers: {Host: 192.74.254.112}}
-  - {name: '馃嚭馃嚫US_1826', server: v.9051246.xyz, port: 443, type: trojan, password: 18825786}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829', server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com}
+  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_1', server: 120.232.141.59, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_2', server: 120.232.141.59, port: 10073, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_3', server: 120.232.141.59, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_4', server: 120.232.141.59, port: 10071, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_5', server: 120.232.141.59, port: 10074, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_6', server: 183.232.13.71, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_7', server: 183.232.13.71, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_8', server: 120.232.141.59, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇨🇦_CA_加拿大_9', server: 120.232.141.59, port: 10046, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_10', server: 120.232.141.59, port: 10027, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_11', server: 120.232.141.59, port: 10096, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_12', server: 120.232.141.59, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇩🇪_DE_德国_13', server: 120.232.141.59, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_14', server: 120.232.141.59, port: 10036, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_15', server: 183.232.13.71, port: 20026, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_16', server: 120.232.141.59, port: 10042, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇫🇷_FR_法国_17', server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_18', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_19', server: 183.232.13.71, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇬🇧_GB_英国_20', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇳_CN_中国->🇩🇪_DE_德国_21', server: 183.232.13.71, port: 20015, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_22', server: 120.232.141.59, port: 10079, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇺🇸_US_美国_23', server: 142.202.48.34, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇫🇷_FR_法国_24', server: 149.202.82.153, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_25', server: 183.232.13.71, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_26', server: 120.232.141.59, port: 10030, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇨🇦_CA_加拿大_27', server: 183.232.13.71, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_28', server: 120.232.141.59, port: 10080, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_29', server: 111.2.178.230, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇫🇷_FR_法国_30', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '🇬🇧_GB_英国_31', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_32', server: 102.165.20.38, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: VLGVpK9npKaFqBLHcnu9}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_33', server: 183.232.13.71, port: 20029, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇬🇧_GB_英国_34', server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
+  - {name: '🇬🇧_GB_英国_35', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_36', server: 120.232.141.59, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: ddbd798e-6e91-40f9-9c03-5dd13e6499de}
+  - {name: '🇺🇸_US_美国_37', server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: '🇺🇸_US_美国_38', server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.47727450.xyz}}
+  - {name: '🇺🇸_US_美国_39', server: 104.26.9.74, port: 443, type: vmess, uuid: f6c1babe-416e-47d1-8726-049678e25c7a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: us2.v2rayserv.com}}
+  - {name: '🇬🇧_GB_英国_40', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_US_美国_41', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: '🇺🇸_US_美国_42', server: 173.82.192.61, port: 46436, type: vmess, uuid: 56857807-6ca9-4e39-8482-b951608efe69, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1145141919, ws-headers: {Host: xllhexxx.xyz}}
+  - {name: '🇩🇪_DE_德国_43', server: 139.162.139.42, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国->🇫🇷_FR_法国_44', server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: uk2.v2rayserv.com}}
+  - {name: '🇨🇦_CA_加拿大_45', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_46', server: 173.82.192.61, port: 46436, type: vmess, uuid: 56857807-6ca9-4e39-8482-b951608efe69, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1145141919, ws-headers: {Host: xllhexxx.xyz}}
+  - {name: '🇩🇪_DE_德国_47', server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
+  - {name: '🇺🇸_US_美国_48', server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.47727450.xyz}}
+  - {name: '🇺🇸_US_美国_49', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '🇨🇦_CA_加拿大_50', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇩🇪_DE_德国_51', server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: '🇺🇸_US_美国_52', server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray}
+  - {name: '🇨🇦_CA_加拿大_53', server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '🇺🇸_US_美国_54', server: 104.26.9.74, port: 443, type: vmess, uuid: f6c1babe-416e-47d1-8726-049678e25c7a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: us2.v2rayserv.com}}
+  - {name: '🇨🇦_CA_加拿大_55', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇯🇵_JP_日本_56', server: 139.162.80.175, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇨🇦_CA_加拿大_57', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇩🇪_DE_德国_58', server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
+  - {name: '🇨🇦_CA_加拿大_59', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_60', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: '🇯🇵_JP_日本_61', server: 172.105.232.147, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇬🇧_GB_英国_62', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇦🇺_AU_澳大利亚_63', server: Ze9baeS5.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: '🇨🇦_CA_加拿大_64', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_65', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: '🇺🇸_US_美国_66', server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: '🇺🇸_US_美国_67', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: '🇨🇦_CA_加拿大_68', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇭_CH_瑞士_69', server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: '🇬🇧_GB_英国_70', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇬🇧_GB_英国_71', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_US_美国_72', server: xllhexxx.xyz, port: 46436, type: vmess, uuid: 56857807-6ca9-4e39-8482-b951608efe69, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1145141919, ws-headers: {Host: xllhexxx.xyz}}
+  - {name: '🇺🇸_US_美国_73', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: '🇩🇪_DE_德国_74', server: 172.105.251.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_GB_英国_75', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇩🇪_DE_德国_76', server: 172.105.251.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇩🇪_DE_德国_77', server: 172.105.251.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_78', server: 102.165.20.38, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: VLGVpK9npKaFqBLHcnu9}
+  - {name: '🇩🇪_DE_德国_79', server: 172.105.251.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇫🇷_FR_法国_80', server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇬🇧_GB_英国_81', server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
+  - {name: '🇩🇪_DE_德国_82', server: 172.105.251.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇬🇧_GB_英国_83', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇩🇰_DK_丹麦_84', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: '🇩🇪_DE_德国_85', server: 172.105.251.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇫🇷_FR_法国_86', server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇩🇪_DE_德国_87', server: 172.105.251.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_88', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_212
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_215
-      - 馃嚚馃嚦CN_224
-      - 馃嚚馃嚦CN_226
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_227
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_228
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_229
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_230
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_231
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_232
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_234
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_236
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_237
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_238
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_241
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_242
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_244
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_245
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_247
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_248
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_249
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_250
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_251
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_252
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_253
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_254
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_255
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_257
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_259
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_260
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_261
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_265
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_268
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_269
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_270
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_271
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_274
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_279
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_280
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_282
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_284
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_285
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_286
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_295
-      - Relay_馃嚚馃嚦CN-馃弫ZZ_299
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_303
-      - 馃嚛馃嚜DE_315
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_376
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_384
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_394
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_401
-      - Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_473
-      - 馃嚟馃嚢HK_494
-      - 馃嚡馃嚨JP_601
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_605
-      - Relay_馃嚦馃嚤NL-馃嚦馃嚤NL_620
-      - 馃嚦馃嚧NO_651
-      - 馃嚦馃嚧NO_652
-      - 馃嚦馃嚧NO_653
-      - 馃嚦馃嚧NO_654
-      - 馃嚦馃嚧NO_656
-      - 馃嚦馃嚧NO_658
-      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_793
-      - Pool_馃嚬馃嚰TW_884
-      - 馃嚭馃嚫US_903
-      - 馃嚭馃嚫US_912
-      - 馃嚭馃嚫US_923
-      - 馃嚭馃嚫US_924
-      - 馃嚭馃嚫US_980
-      - 馃嚭馃嚫US_1296
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1759
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1760
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1761
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1762
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1763
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1764
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1765
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1766
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1767
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1768
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1769
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1770
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1771
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1772
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1773
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1805
-      - 馃嚭馃嚫US_1820
-      - 馃嚭馃嚫US_1826
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_3
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_4
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_9
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_11
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_12
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_13
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_14
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_15
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_16
+      - 🇫🇷_FR_法国_17
+      - 🇺🇸_US_美国_18
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_19
+      - 🇬🇧_GB_英国_20
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_21
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇫🇷_FR_法国_24
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_25
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_26
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_27
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_28
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
+      - 🇫🇷_FR_法国_30
+      - 🇬🇧_GB_英国_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_33
+      - 🇬🇧_GB_英国_34
+      - 🇬🇧_GB_英国_35
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇬🇧_GB_英国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇺🇸_US_美国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇯🇵_JP_日本_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇩🇪_DE_德国_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇯🇵_JP_日本_61
+      - 🇬🇧_GB_英国_62
+      - 🇦🇺_AU_澳大利亚_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇨🇭_CH_瑞士_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇩🇪_DE_德国_74
+      - 🇬🇧_GB_英国_75
+      - 🇩🇪_DE_德国_76
+      - 🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国_78
+      - 🇩🇪_DE_德国_79
+      - 🇫🇷_FR_法国_80
+      - 🇬🇧_GB_英国_81
+      - 🇩🇪_DE_德国_82
+      - 🇬🇧_GB_英国_83
+      - 🇩🇰_DK_丹麦_84
+      - 🇩🇪_DE_德国_85
+      - 🇫🇷_FR_法国_86
+      - 🇩🇪_DE_德国_87
+      - 🇨🇦_CA_加拿大_88
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_212
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_215
-      - 馃嚚馃嚦CN_224
-      - 馃嚚馃嚦CN_226
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_227
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_228
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_229
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_230
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_231
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_232
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_234
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_236
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_237
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_238
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_241
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_242
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_244
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_245
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_247
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_248
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_249
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_250
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_251
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_252
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_253
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_254
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_255
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_257
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_259
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_260
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_261
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_265
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_268
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_269
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_270
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_271
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_274
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_279
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_280
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_282
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_284
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_285
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_286
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_295
-      - Relay_馃嚚馃嚦CN-馃弫ZZ_299
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_303
-      - 馃嚛馃嚜DE_315
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_376
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_384
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_394
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_401
-      - Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_473
-      - 馃嚟馃嚢HK_494
-      - 馃嚡馃嚨JP_601
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_605
-      - Relay_馃嚦馃嚤NL-馃嚦馃嚤NL_620
-      - 馃嚦馃嚧NO_651
-      - 馃嚦馃嚧NO_652
-      - 馃嚦馃嚧NO_653
-      - 馃嚦馃嚧NO_654
-      - 馃嚦馃嚧NO_656
-      - 馃嚦馃嚧NO_658
-      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_793
-      - Pool_馃嚬馃嚰TW_884
-      - 馃嚭馃嚫US_903
-      - 馃嚭馃嚫US_912
-      - 馃嚭馃嚫US_923
-      - 馃嚭馃嚫US_924
-      - 馃嚭馃嚫US_980
-      - 馃嚭馃嚫US_1296
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1759
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1760
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1761
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1762
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1763
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1764
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1765
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1766
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1767
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1768
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1769
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1770
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1771
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1772
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1773
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1805
-      - 馃嚭馃嚫US_1820
-      - 馃嚭馃嚫US_1826
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_3
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_4
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_9
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_11
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_12
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_13
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_14
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_15
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_16
+      - 🇫🇷_FR_法国_17
+      - 🇺🇸_US_美国_18
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_19
+      - 🇬🇧_GB_英国_20
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_21
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇫🇷_FR_法国_24
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_25
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_26
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_27
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_28
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
+      - 🇫🇷_FR_法国_30
+      - 🇬🇧_GB_英国_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_33
+      - 🇬🇧_GB_英国_34
+      - 🇬🇧_GB_英国_35
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇬🇧_GB_英国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇺🇸_US_美国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇯🇵_JP_日本_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇩🇪_DE_德国_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇯🇵_JP_日本_61
+      - 🇬🇧_GB_英国_62
+      - 🇦🇺_AU_澳大利亚_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇨🇭_CH_瑞士_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇩🇪_DE_德国_74
+      - 🇬🇧_GB_英国_75
+      - 🇩🇪_DE_德国_76
+      - 🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国_78
+      - 🇩🇪_DE_德国_79
+      - 🇫🇷_FR_法国_80
+      - 🇬🇧_GB_英国_81
+      - 🇩🇪_DE_德国_82
+      - 🇬🇧_GB_英国_83
+      - 🇩🇰_DK_丹麦_84
+      - 🇩🇪_DE_德国_85
+      - 🇫🇷_FR_法国_86
+      - 🇩🇪_DE_德国_87
+      - 🇨🇦_CA_加拿大_88
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_212
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_215
-      - 馃嚚馃嚦CN_224
-      - 馃嚚馃嚦CN_226
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_227
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_228
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_229
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_230
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_231
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_232
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_234
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_236
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_237
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_238
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_241
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_242
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_244
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_245
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_247
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_248
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_249
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_250
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_251
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_252
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_253
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_254
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_255
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_257
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_259
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_260
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_261
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_265
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_268
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_269
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_270
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_271
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_274
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_279
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_280
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_282
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_284
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_285
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_286
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_295
-      - Relay_馃嚚馃嚦CN-馃弫ZZ_299
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_303
-      - 馃嚛馃嚜DE_315
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_376
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_384
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_394
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_401
-      - Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_473
-      - 馃嚟馃嚢HK_494
-      - 馃嚡馃嚨JP_601
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_605
-      - Relay_馃嚦馃嚤NL-馃嚦馃嚤NL_620
-      - 馃嚦馃嚧NO_651
-      - 馃嚦馃嚧NO_652
-      - 馃嚦馃嚧NO_653
-      - 馃嚦馃嚧NO_654
-      - 馃嚦馃嚧NO_656
-      - 馃嚦馃嚧NO_658
-      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_793
-      - Pool_馃嚬馃嚰TW_884
-      - 馃嚭馃嚫US_903
-      - 馃嚭馃嚫US_912
-      - 馃嚭馃嚫US_923
-      - 馃嚭馃嚫US_924
-      - 馃嚭馃嚫US_980
-      - 馃嚭馃嚫US_1296
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1759
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1760
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1761
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1762
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1763
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1764
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1765
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1766
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1767
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1768
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1769
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1770
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1771
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1772
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1773
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1805
-      - 馃嚭馃嚫US_1820
-      - 馃嚭馃嚫US_1826
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_3
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_4
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_9
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_11
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_12
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_13
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_14
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_15
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_16
+      - 🇫🇷_FR_法国_17
+      - 🇺🇸_US_美国_18
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_19
+      - 🇬🇧_GB_英国_20
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_21
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇫🇷_FR_法国_24
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_25
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_26
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_27
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_28
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
+      - 🇫🇷_FR_法国_30
+      - 🇬🇧_GB_英国_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_33
+      - 🇬🇧_GB_英国_34
+      - 🇬🇧_GB_英国_35
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇬🇧_GB_英国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇺🇸_US_美国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇯🇵_JP_日本_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇩🇪_DE_德国_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇯🇵_JP_日本_61
+      - 🇬🇧_GB_英国_62
+      - 🇦🇺_AU_澳大利亚_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇨🇭_CH_瑞士_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇩🇪_DE_德国_74
+      - 🇬🇧_GB_英国_75
+      - 🇩🇪_DE_德国_76
+      - 🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国_78
+      - 🇩🇪_DE_德国_79
+      - 🇫🇷_FR_法国_80
+      - 🇬🇧_GB_英国_81
+      - 🇩🇪_DE_德国_82
+      - 🇬🇧_GB_英国_83
+      - 🇩🇰_DK_丹麦_84
+      - 🇩🇪_DE_德国_85
+      - 🇫🇷_FR_法国_86
+      - 🇩🇪_DE_德国_87
+      - 🇨🇦_CA_加拿大_88
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_212
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_215
-      - 馃嚚馃嚦CN_224
-      - 馃嚚馃嚦CN_226
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_227
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_228
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_229
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_230
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_231
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_232
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_234
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_236
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_237
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_238
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_241
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_242
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_244
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_245
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_247
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_248
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_249
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_250
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_251
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_252
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_253
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_254
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_255
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_257
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_259
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_260
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_261
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_265
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_268
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_269
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_270
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_271
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_274
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_279
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_280
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_282
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_284
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_285
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_286
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_295
-      - Relay_馃嚚馃嚦CN-馃弫ZZ_299
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_303
-      - 馃嚛馃嚜DE_315
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_376
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_384
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_394
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_401
-      - Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_473
-      - 馃嚟馃嚢HK_494
-      - 馃嚡馃嚨JP_601
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_605
-      - Relay_馃嚦馃嚤NL-馃嚦馃嚤NL_620
-      - 馃嚦馃嚧NO_651
-      - 馃嚦馃嚧NO_652
-      - 馃嚦馃嚧NO_653
-      - 馃嚦馃嚧NO_654
-      - 馃嚦馃嚧NO_656
-      - 馃嚦馃嚧NO_658
-      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_793
-      - Pool_馃嚬馃嚰TW_884
-      - 馃嚭馃嚫US_903
-      - 馃嚭馃嚫US_912
-      - 馃嚭馃嚫US_923
-      - 馃嚭馃嚫US_924
-      - 馃嚭馃嚫US_980
-      - 馃嚭馃嚫US_1296
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1759
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1760
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1761
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1762
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1763
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1764
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1765
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1766
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1767
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1768
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1769
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1770
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1771
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1772
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1773
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1805
-      - 馃嚭馃嚫US_1820
-      - 馃嚭馃嚫US_1826
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_3
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_4
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_9
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_11
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_12
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_13
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_14
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_15
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_16
+      - 🇫🇷_FR_法国_17
+      - 🇺🇸_US_美国_18
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_19
+      - 🇬🇧_GB_英国_20
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_21
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇫🇷_FR_法国_24
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_25
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_26
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_27
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_28
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
+      - 🇫🇷_FR_法国_30
+      - 🇬🇧_GB_英国_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_33
+      - 🇬🇧_GB_英国_34
+      - 🇬🇧_GB_英国_35
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇬🇧_GB_英国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇺🇸_US_美国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇯🇵_JP_日本_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇩🇪_DE_德国_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇯🇵_JP_日本_61
+      - 🇬🇧_GB_英国_62
+      - 🇦🇺_AU_澳大利亚_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇨🇭_CH_瑞士_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇩🇪_DE_德国_74
+      - 🇬🇧_GB_英国_75
+      - 🇩🇪_DE_德国_76
+      - 🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国_78
+      - 🇩🇪_DE_德国_79
+      - 🇫🇷_FR_法国_80
+      - 🇬🇧_GB_英国_81
+      - 🇩🇪_DE_德国_82
+      - 🇬🇧_GB_英国_83
+      - 🇩🇰_DK_丹麦_84
+      - 🇩🇪_DE_德国_85
+      - 🇫🇷_FR_法国_86
+      - 🇩🇪_DE_德国_87
+      - 🇨🇦_CA_加拿大_88
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_212
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_215
-      - 馃嚚馃嚦CN_224
-      - 馃嚚馃嚦CN_226
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_227
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_228
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_229
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_230
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_231
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_232
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_234
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_236
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_237
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_238
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_241
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_242
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_244
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_245
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_247
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_248
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_249
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_250
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_251
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_252
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_253
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_254
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_255
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_257
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_259
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_260
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_261
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_265
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_268
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_269
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_270
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_271
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_274
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_279
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_280
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_282
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_284
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_285
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_286
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_295
-      - Relay_馃嚚馃嚦CN-馃弫ZZ_299
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_303
-      - 馃嚛馃嚜DE_315
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_376
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_384
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_394
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_401
-      - Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_473
-      - 馃嚟馃嚢HK_494
-      - 馃嚡馃嚨JP_601
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_605
-      - Relay_馃嚦馃嚤NL-馃嚦馃嚤NL_620
-      - 馃嚦馃嚧NO_651
-      - 馃嚦馃嚧NO_652
-      - 馃嚦馃嚧NO_653
-      - 馃嚦馃嚧NO_654
-      - 馃嚦馃嚧NO_656
-      - 馃嚦馃嚧NO_658
-      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_793
-      - Pool_馃嚬馃嚰TW_884
-      - 馃嚭馃嚫US_903
-      - 馃嚭馃嚫US_912
-      - 馃嚭馃嚫US_923
-      - 馃嚭馃嚫US_924
-      - 馃嚭馃嚫US_980
-      - 馃嚭馃嚫US_1296
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1759
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1760
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1761
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1762
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1763
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1764
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1765
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1766
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1767
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1768
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1769
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1770
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1771
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1772
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1773
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1805
-      - 馃嚭馃嚫US_1820
-      - 馃嚭馃嚫US_1826
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_3
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_4
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_9
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_11
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_12
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_13
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_14
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_15
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_16
+      - 🇫🇷_FR_法国_17
+      - 🇺🇸_US_美国_18
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_19
+      - 🇬🇧_GB_英国_20
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_21
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇫🇷_FR_法国_24
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_25
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_26
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_27
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_28
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
+      - 🇫🇷_FR_法国_30
+      - 🇬🇧_GB_英国_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_33
+      - 🇬🇧_GB_英国_34
+      - 🇬🇧_GB_英国_35
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇬🇧_GB_英国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇺🇸_US_美国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇯🇵_JP_日本_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇩🇪_DE_德国_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇯🇵_JP_日本_61
+      - 🇬🇧_GB_英国_62
+      - 🇦🇺_AU_澳大利亚_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇨🇭_CH_瑞士_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇩🇪_DE_德国_74
+      - 🇬🇧_GB_英国_75
+      - 🇩🇪_DE_德国_76
+      - 🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国_78
+      - 🇩🇪_DE_德国_79
+      - 🇫🇷_FR_法国_80
+      - 🇬🇧_GB_英国_81
+      - 🇩🇪_DE_德国_82
+      - 🇬🇧_GB_英国_83
+      - 🇩🇰_DK_丹麦_84
+      - 🇩🇪_DE_德国_85
+      - 🇫🇷_FR_法国_86
+      - 🇩🇪_DE_德国_87
+      - 🇨🇦_CA_加拿大_88
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_212
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_215
-      - 馃嚚馃嚦CN_224
-      - 馃嚚馃嚦CN_226
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_227
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_228
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_229
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_230
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_231
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_232
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_234
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_236
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_237
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_238
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_241
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_242
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_244
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_245
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_247
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_248
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_249
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_250
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_251
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_252
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_253
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_254
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_255
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_257
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_259
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_260
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_261
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_265
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_268
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_269
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_270
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_271
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_274
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_279
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_280
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_282
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_284
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_285
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_286
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_295
-      - Relay_馃嚚馃嚦CN-馃弫ZZ_299
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_303
-      - 馃嚛馃嚜DE_315
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_376
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_384
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_394
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_401
-      - Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_473
-      - 馃嚟馃嚢HK_494
-      - 馃嚡馃嚨JP_601
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_605
-      - Relay_馃嚦馃嚤NL-馃嚦馃嚤NL_620
-      - 馃嚦馃嚧NO_651
-      - 馃嚦馃嚧NO_652
-      - 馃嚦馃嚧NO_653
-      - 馃嚦馃嚧NO_654
-      - 馃嚦馃嚧NO_656
-      - 馃嚦馃嚧NO_658
-      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_793
-      - Pool_馃嚬馃嚰TW_884
-      - 馃嚭馃嚫US_903
-      - 馃嚭馃嚫US_912
-      - 馃嚭馃嚫US_923
-      - 馃嚭馃嚫US_924
-      - 馃嚭馃嚫US_980
-      - 馃嚭馃嚫US_1296
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1759
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1760
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1761
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1762
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1763
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1764
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1765
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1766
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1767
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1768
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1769
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1770
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1771
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1772
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1773
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1805
-      - 馃嚭馃嚫US_1820
-      - 馃嚭馃嚫US_1826
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_3
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_4
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_9
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_11
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_12
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_13
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_14
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_15
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_16
+      - 🇫🇷_FR_法国_17
+      - 🇺🇸_US_美国_18
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_19
+      - 🇬🇧_GB_英国_20
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_21
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇫🇷_FR_法国_24
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_25
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_26
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_27
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_28
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
+      - 🇫🇷_FR_法国_30
+      - 🇬🇧_GB_英国_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_33
+      - 🇬🇧_GB_英国_34
+      - 🇬🇧_GB_英国_35
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇬🇧_GB_英国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇺🇸_US_美国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇯🇵_JP_日本_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇩🇪_DE_德国_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇯🇵_JP_日本_61
+      - 🇬🇧_GB_英国_62
+      - 🇦🇺_AU_澳大利亚_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇨🇭_CH_瑞士_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇩🇪_DE_德国_74
+      - 🇬🇧_GB_英国_75
+      - 🇩🇪_DE_德国_76
+      - 🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国_78
+      - 🇩🇪_DE_德国_79
+      - 🇫🇷_FR_法国_80
+      - 🇬🇧_GB_英国_81
+      - 🇩🇪_DE_德国_82
+      - 🇬🇧_GB_英国_83
+      - 🇩🇰_DK_丹麦_84
+      - 🇩🇪_DE_德国_85
+      - 🇫🇷_FR_法国_86
+      - 🇩🇪_DE_德国_87
+      - 🇨🇦_CA_加拿大_88
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_212
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_215
-      - 馃嚚馃嚦CN_224
-      - 馃嚚馃嚦CN_226
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_227
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_228
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_229
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_230
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_231
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_232
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_234
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_236
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_237
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_238
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_241
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_242
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_244
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_245
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_247
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_248
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_249
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_250
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_251
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_252
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_253
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_254
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_255
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_257
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_259
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_260
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_261
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_265
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_268
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_269
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_270
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_271
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_274
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_279
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_280
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_282
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_284
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_285
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_286
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_295
-      - Relay_馃嚚馃嚦CN-馃弫ZZ_299
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_303
-      - 馃嚛馃嚜DE_315
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_376
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_384
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_394
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_401
-      - Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_473
-      - 馃嚟馃嚢HK_494
-      - 馃嚡馃嚨JP_601
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_605
-      - Relay_馃嚦馃嚤NL-馃嚦馃嚤NL_620
-      - 馃嚦馃嚧NO_651
-      - 馃嚦馃嚧NO_652
-      - 馃嚦馃嚧NO_653
-      - 馃嚦馃嚧NO_654
-      - 馃嚦馃嚧NO_656
-      - 馃嚦馃嚧NO_658
-      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_793
-      - Pool_馃嚬馃嚰TW_884
-      - 馃嚭馃嚫US_903
-      - 馃嚭馃嚫US_912
-      - 馃嚭馃嚫US_923
-      - 馃嚭馃嚫US_924
-      - 馃嚭馃嚫US_980
-      - 馃嚭馃嚫US_1296
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1759
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1760
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1761
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1762
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1763
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1764
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1765
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1766
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1767
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1768
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1769
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1770
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1771
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1772
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1773
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1805
-      - 馃嚭馃嚫US_1820
-      - 馃嚭馃嚫US_1826
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_3
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_4
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_9
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_11
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_12
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_13
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_14
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_15
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_16
+      - 🇫🇷_FR_法国_17
+      - 🇺🇸_US_美国_18
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_19
+      - 🇬🇧_GB_英国_20
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_21
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇫🇷_FR_法国_24
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_25
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_26
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_27
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_28
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
+      - 🇫🇷_FR_法国_30
+      - 🇬🇧_GB_英国_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_33
+      - 🇬🇧_GB_英国_34
+      - 🇬🇧_GB_英国_35
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇬🇧_GB_英国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇺🇸_US_美国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇯🇵_JP_日本_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇩🇪_DE_德国_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇯🇵_JP_日本_61
+      - 🇬🇧_GB_英国_62
+      - 🇦🇺_AU_澳大利亚_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇨🇭_CH_瑞士_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇩🇪_DE_德国_74
+      - 🇬🇧_GB_英国_75
+      - 🇩🇪_DE_德国_76
+      - 🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国_78
+      - 🇩🇪_DE_德国_79
+      - 🇫🇷_FR_法国_80
+      - 🇬🇧_GB_英国_81
+      - 🇩🇪_DE_德国_82
+      - 🇬🇧_GB_英国_83
+      - 🇩🇰_DK_丹麦_84
+      - 🇩🇪_DE_德国_85
+      - 🇫🇷_FR_法国_86
+      - 🇩🇪_DE_德国_87
+      - 🇨🇦_CA_加拿大_88
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -794,98 +762,94 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_212
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_215
-      - 馃嚚馃嚦CN_224
-      - 馃嚚馃嚦CN_226
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_227
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_228
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_229
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_230
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_231
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_232
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_234
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_236
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_237
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_238
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_241
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_242
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_244
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_245
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_247
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_248
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_249
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_250
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_251
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_252
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_253
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_254
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_255
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_257
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_259
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_260
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_261
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_265
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_268
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_269
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_270
-      - Relay_馃嚚馃嚦CN-馃嚛馃嚜DE_271
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_274
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_279
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_280
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_282
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_284
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_285
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_286
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_295
-      - Relay_馃嚚馃嚦CN-馃弫ZZ_299
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚦CN_303
-      - 馃嚛馃嚜DE_315
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_376
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_384
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_394
-      - Relay_馃嚝馃嚪FR-馃嚝馃嚪FR_401
-      - Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_473
-      - 馃嚟馃嚢HK_494
-      - 馃嚡馃嚨JP_601
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_605
-      - Relay_馃嚦馃嚤NL-馃嚦馃嚤NL_620
-      - 馃嚦馃嚧NO_651
-      - 馃嚦馃嚧NO_652
-      - 馃嚦馃嚧NO_653
-      - 馃嚦馃嚧NO_654
-      - 馃嚦馃嚧NO_656
-      - 馃嚦馃嚧NO_658
-      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_793
-      - Pool_馃嚬馃嚰TW_884
-      - 馃嚭馃嚫US_903
-      - 馃嚭馃嚫US_912
-      - 馃嚭馃嚫US_923
-      - 馃嚭馃嚫US_924
-      - 馃嚭馃嚫US_980
-      - 馃嚭馃嚫US_1296
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1759
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1760
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1761
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1762
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1763
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1764
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1765
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1766
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1767
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1768
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1769
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1770
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1771
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1772
-      - Relay_馃嚭馃嚫US-馃嚟馃嚢HK_1773
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1805
-      - 馃嚭馃嚫US_1820
-      - 馃嚭馃嚫US_1826
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_3
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_4
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_5
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_9
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_11
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_12
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_13
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_14
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_15
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_16
+      - 🇫🇷_FR_法国_17
+      - 🇺🇸_US_美国_18
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_19
+      - 🇬🇧_GB_英国_20
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_21
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇫🇷_FR_法国_24
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_25
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_26
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_27
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_28
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
+      - 🇫🇷_FR_法国_30
+      - 🇬🇧_GB_英国_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_33
+      - 🇬🇧_GB_英国_34
+      - 🇬🇧_GB_英国_35
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇬🇧_GB_英国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇩🇪_DE_德国_43
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇩🇪_DE_德国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇩🇪_DE_德国_51
+      - 🇺🇸_US_美国_52
+      - 🇨🇦_CA_加拿大_53
+      - 🇺🇸_US_美国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇯🇵_JP_日本_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇩🇪_DE_德国_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇯🇵_JP_日本_61
+      - 🇬🇧_GB_英国_62
+      - 🇦🇺_AU_澳大利亚_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇨🇭_CH_瑞士_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇩🇪_DE_德国_74
+      - 🇬🇧_GB_英国_75
+      - 🇩🇪_DE_德国_76
+      - 🇩🇪_DE_德国_77
+      - 🇺🇸_US_美国_78
+      - 🇩🇪_DE_德国_79
+      - 🇫🇷_FR_法国_80
+      - 🇬🇧_GB_英国_81
+      - 🇩🇪_DE_德国_82
+      - 🇬🇧_GB_英国_83
+      - 🇩🇰_DK_丹麦_84
+      - 🇩🇪_DE_德国_85
+      - 🇫🇷_FR_法国_86
+      - 🇩🇪_DE_德国_87
+      - 🇨🇦_CA_加拿大_88
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
