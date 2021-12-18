@@ -5,104 +5,116 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Youtube:鹏哥分享_1', server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
-  - {name: 'Youtube:鹏哥分享_2', server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: 856e5f80-15af-410b-b784-cbb71a34f646, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_3', server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 856e5f80-15af-410b-b784-cbb71a34f646, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_4', server: ngzyd-1.okex-tradebot.xyz, port: 30012, type: vmess, uuid: 0b4069c9-7f09-4144-9800-ffbf24982ac8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_5', server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: 0b4069c9-7f09-4144-9800-ffbf24982ac8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_6', server: ngzyd-1.okex-tradebot.xyz, port: 30014, type: vmess, uuid: 0b4069c9-7f09-4144-9800-ffbf24982ac8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_7', server: 165.232.167.127, port: 80, type: vmess, uuid: 7c26f9a6-94a3-45a2-a0af-edae5c003d1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_8', server: 183.232.226.142, port: 21102, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv}
-  - {name: 'Youtube:鹏哥分享_9', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: 'Youtube:鹏哥分享_10', server: 183.232.226.152, port: 21106, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv}
-  - {name: 'Youtube:鹏哥分享_11', server: 185.252.223.203, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.16675463.xyz}}
-  - {name: 'Youtube:鹏哥分享_12', server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: 856e5f80-15af-410b-b784-cbb71a34f646, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_13', server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 856e5f80-15af-410b-b784-cbb71a34f646, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_14', server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/}
-  - {name: 'Youtube:鹏哥分享_15', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享_16', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Youtube:鹏哥分享_17', server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/}
-  - {name: 'Youtube:鹏哥分享_18', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: 'Youtube:鹏哥分享_19', server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: 'Youtube:鹏哥分享_20', server: 104.21.62.193, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
-  - {name: 'Youtube:鹏哥分享_21', server: 183.232.163.3, port: 6262, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_22', server: 217.138.193.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc}
-  - {name: 'Youtube:鹏哥分享_23', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: 856e5f80-15af-410b-b784-cbb71a34f646, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_24', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_25', server: 217.182.199.168, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享_26', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享_27', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: 'Youtube:鹏哥分享_28', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Youtube:鹏哥分享_29', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'Youtube:鹏哥分享_30', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: 'Youtube:鹏哥分享_31', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'Youtube:鹏哥分享_32', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: 'Youtube:鹏哥分享_33', server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_34', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: 'Youtube:鹏哥分享_35', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: 'Youtube:鹏哥分享_36', server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Youtube:鹏哥分享_37', server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享_38', server: free-russian02-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
-  - {name: 'Youtube:鹏哥分享_39', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享_40', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享_41', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: 'Youtube:鹏哥分享_42', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: 'Youtube:鹏哥分享_43', server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
-  - {name: 'Youtube:鹏哥分享_44', server: 183.232.163.3, port: 1313, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_45', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享_46', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享_47', server: 192.74.254.112, port: 52244, type: vmess, uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /E0Y46mSw/}
-  - {name: 'Youtube:鹏哥分享_48', server: 194.156.120.52, port: 41002, type: vmess, uuid: ebb93e84-5bb7-11ec-8bc6-6a5c6e054e4d, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_49', server: 183.232.163.3, port: 3939, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_50', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享_51', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'Youtube:鹏哥分享_52', server: 183.232.163.3, port: 5959, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_53', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享_54', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Youtube:鹏哥分享_55', server: 183.232.163.3, port: 6262, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: youtube-aweikeji}}
-  - {name: 'Youtube:鹏哥分享_56', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享_57', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享_58', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享_59', server: 183.232.163.3, port: 2424, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_60', server: 183.232.163.3, port: 3435, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_61', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享_62', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Youtube:鹏哥分享_63', server: 183.232.163.3, port: 4949, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_64', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享_65', server: 183.232.163.3, port: 4343, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_66', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享_67', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享_68', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享_69', server: 183.232.163.3, port: 4646, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_70', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享_71', server: 23.19.26.246, port: 10515, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 'Youtube:鹏哥分享_72', server: 198.200.51.18, port: 27962, type: vmess, uuid: b660c4a6-50df-11ec-9676-00163caf481c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jZyaImnU/}
-  - {name: 'Youtube:鹏哥分享_73', server: 183.232.163.3, port: 5152, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_74', server: 183.232.163.3, port: 1717, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_75', server: 183.232.163.3, port: 2727, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_76', server: 183.232.163.3, port: 4141, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_77', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享_78', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享_79', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享_80', server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Youtube:鹏哥分享_81', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享_82', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Youtube:鹏哥分享_1', server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /inde}
+  - {name: 'Youtube:鹏哥分享_2', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: 'Youtube:鹏哥分享_3', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: 'Youtube:鹏哥分享_4', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: 'Youtube:鹏哥分享_5', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: 'Youtube:鹏哥分享_6', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Youtube:鹏哥分享_7', server: 120.197.88.216, port: 20006, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_8', server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享_9', server: v8.ssrsub.com, port: 443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: 'Youtube:鹏哥分享_10', server: v3.ssrsub.com, port: 443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: 'Youtube:鹏哥分享_11', server: 183.232.163.3, port: 1313, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Youtube:鹏哥分享_12', server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: 'Youtube:鹏哥分享_13', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 'Youtube:鹏哥分享_14', server: 185.252.223.203, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.16675463.xyz}}
+  - {name: 'Youtube:鹏哥分享_15', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: 'Youtube:鹏哥分享_16', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 'Youtube:鹏哥分享_17', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享_18', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享_19', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Youtube:鹏哥分享_20', server: 120.241.72.84, port: 18015, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
+  - {name: 'Youtube:鹏哥分享_21', server: 120.197.88.216, port: 20015, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_22', server: 120.241.72.84, port: 18009, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
+  - {name: 'Youtube:鹏哥分享_23', server: 120.197.88.216, port: 20001, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_24', server: 112.33.32.136, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_25', server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_26', server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_27', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Youtube:鹏哥分享_28', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享_29', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: 'Youtube:鹏哥分享_30', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享_31', server: 120.197.88.216, port: 20047, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_32', server: 183.232.163.3, port: 5959, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Youtube:鹏哥分享_33', server: 192.74.254.112, port: 52244, type: vmess, uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /E0Y46mSw/}
+  - {name: 'Youtube:鹏哥分享_34', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Youtube:鹏哥分享_35', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Youtube:鹏哥分享_36', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享_37', server: 13.75.72.229, port: 28888, type: vmess, uuid: 6d005b92-ed20-3ba1-8c25-8a8f5ac30cdd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index}
+  - {name: 'Youtube:鹏哥分享_38', server: 120.241.72.84, port: 18003, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
+  - {name: 'Youtube:鹏哥分享_39', server: 194.156.120.52, port: 41002, type: vmess, uuid: ebb93e84-5bb7-11ec-8bc6-6a5c6e054e4d, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_40', server: cm-jm.okvpn.xyz, port: 20003, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_41', server: 120.197.88.216, port: 20003, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_42', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享_43', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享_44', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享_45', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享_46', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享_47', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享_48', server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: 'Youtube:鹏哥分享_49', server: 120.197.88.216, port: 20002, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_50', server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_51', server: 183.232.163.3, port: 5152, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Youtube:鹏哥分享_52', server: 120.241.72.97, port: 18119, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_53', server: 183.232.163.3, port: 2424, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Youtube:鹏哥分享_54', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享_55', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享_56', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: 'Youtube:鹏哥分享_57', server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/}
+  - {name: 'Youtube:鹏哥分享_58', server: 120.197.88.216, port: 20006, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_59', server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: 'Youtube:鹏哥分享_60', server: cm-jm.okvpn.xyz, port: 20047, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_61', server: cm-jm.okvpn.xyz, port: 20006, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_62', server: 198.200.51.18, port: 27962, type: vmess, uuid: b660c4a6-50df-11ec-9676-00163caf481c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jZyaImnU/}
+  - {name: 'Youtube:鹏哥分享_63', server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: 'Youtube:鹏哥分享_64', server: 183.232.163.3, port: 4343, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Youtube:鹏哥分享_65', server: v7.ssrsub.com, port: 8443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: 'Youtube:鹏哥分享_66', server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: 'Youtube:鹏哥分享_67', server: 120.197.88.216, port: 20005, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_68', server: 183.232.163.3, port: 4141, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Youtube:鹏哥分享_69', server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: 'Youtube:鹏哥分享_70', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享_71', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Youtube:鹏哥分享_72', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享_73', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Youtube:鹏哥分享_74', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享_75', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: 'Youtube:鹏哥分享_76', server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: 'Youtube:鹏哥分享_77', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享_78', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享_79', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享_80', server: 5.188.111.182, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 'Youtube:鹏哥分享_81', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Youtube:鹏哥分享_82', server: 120.197.88.216, port: 20005, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
   - {name: 'Youtube:鹏哥分享_83', server: 183.232.163.3, port: 3434, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_84', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享_85', server: 198.200.51.18, port: 600, type: vmess, uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_86', server: 193.233.85.3, port: 45174, type: vmess, uuid: 14823120-5dc2-11ec-b398-3a571dcc9720, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
-  - {name: 'Youtube:鹏哥分享_87', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: 'Youtube:鹏哥分享_88', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享_89', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享_90', server: free-russian02-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /0459ac88c41c8f/}
-  - {name: 'Youtube:鹏哥分享_91', server: 183.232.163.3, port: 2525, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_92', server: 183.232.163.3, port: 5254, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_93', server: 183.232.163.3, port: 5253, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_94', server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享_95', server: 183.232.163.3, port: 9191, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_96', server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Youtube:鹏哥分享_97', server: 183.232.163.3, port: 2020, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Youtube:鹏哥分享_98', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享_84', server: 183.232.163.3, port: 5253, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Youtube:鹏哥分享_85', server: 183.232.163.3, port: 2727, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Youtube:鹏哥分享_86', server: 193.233.85.3, port: 45174, type: vmess, uuid: 14823120-5dc2-11ec-b398-3a571dcc9720, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_87', server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_88', server: 183.232.163.3, port: 2020, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Youtube:鹏哥分享_89', server: 120.197.88.216, port: 20004, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_90', server: 183.232.163.3, port: 4949, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Youtube:鹏哥分享_91', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_92', server: 183.232.163.3, port: 2525, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Youtube:鹏哥分享_93', server: 120.197.88.216, port: 20005, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_94', server: 183.232.163.3, port: 4646, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Youtube:鹏哥分享_95', server: 120.241.72.84, port: 18120, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_96', server: 183.232.163.3, port: 9191, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Youtube:鹏哥分享_97', server: 183.232.163.3, port: 2626, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Youtube:鹏哥分享_98', server: v103.v2dns.xyz, port: 80, type: vmess, uuid: 892ebb75-7055-3007-8d16-356e65c6a49a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v1032N9rN0yPy}
+  - {name: 'Youtube:鹏哥分享_99', server: 183.232.163.3, port: 5254, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Youtube:鹏哥分享_100', server: 120.197.88.216, port: 20006, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_101', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: 'Youtube:鹏哥分享_102', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享_103', server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: 'Youtube:鹏哥分享_104', server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: 'Youtube:鹏哥分享_105', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享_106', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Youtube:鹏哥分享_107', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: 'Youtube:鹏哥分享_108', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享_109', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 'Youtube:鹏哥分享_110', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -207,6 +219,18 @@ proxy-groups:
       - Youtube:鹏哥分享_96
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
+      - Youtube:鹏哥分享_99
+      - Youtube:鹏哥分享_100
+      - Youtube:鹏哥分享_101
+      - Youtube:鹏哥分享_102
+      - Youtube:鹏哥分享_103
+      - Youtube:鹏哥分享_104
+      - Youtube:鹏哥分享_105
+      - Youtube:鹏哥分享_106
+      - Youtube:鹏哥分享_107
+      - Youtube:鹏哥分享_108
+      - Youtube:鹏哥分享_109
+      - Youtube:鹏哥分享_110
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -310,6 +334,18 @@ proxy-groups:
       - Youtube:鹏哥分享_96
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
+      - Youtube:鹏哥分享_99
+      - Youtube:鹏哥分享_100
+      - Youtube:鹏哥分享_101
+      - Youtube:鹏哥分享_102
+      - Youtube:鹏哥分享_103
+      - Youtube:鹏哥分享_104
+      - Youtube:鹏哥分享_105
+      - Youtube:鹏哥分享_106
+      - Youtube:鹏哥分享_107
+      - Youtube:鹏哥分享_108
+      - Youtube:鹏哥分享_109
+      - Youtube:鹏哥分享_110
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -414,6 +450,18 @@ proxy-groups:
       - Youtube:鹏哥分享_96
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
+      - Youtube:鹏哥分享_99
+      - Youtube:鹏哥分享_100
+      - Youtube:鹏哥分享_101
+      - Youtube:鹏哥分享_102
+      - Youtube:鹏哥分享_103
+      - Youtube:鹏哥分享_104
+      - Youtube:鹏哥分享_105
+      - Youtube:鹏哥分享_106
+      - Youtube:鹏哥分享_107
+      - Youtube:鹏哥分享_108
+      - Youtube:鹏哥分享_109
+      - Youtube:鹏哥分享_110
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -517,6 +565,18 @@ proxy-groups:
       - Youtube:鹏哥分享_96
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
+      - Youtube:鹏哥分享_99
+      - Youtube:鹏哥分享_100
+      - Youtube:鹏哥分享_101
+      - Youtube:鹏哥分享_102
+      - Youtube:鹏哥分享_103
+      - Youtube:鹏哥分享_104
+      - Youtube:鹏哥分享_105
+      - Youtube:鹏哥分享_106
+      - Youtube:鹏哥分享_107
+      - Youtube:鹏哥分享_108
+      - Youtube:鹏哥分享_109
+      - Youtube:鹏哥分享_110
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -620,6 +680,18 @@ proxy-groups:
       - Youtube:鹏哥分享_96
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
+      - Youtube:鹏哥分享_99
+      - Youtube:鹏哥分享_100
+      - Youtube:鹏哥分享_101
+      - Youtube:鹏哥分享_102
+      - Youtube:鹏哥分享_103
+      - Youtube:鹏哥分享_104
+      - Youtube:鹏哥分享_105
+      - Youtube:鹏哥分享_106
+      - Youtube:鹏哥分享_107
+      - Youtube:鹏哥分享_108
+      - Youtube:鹏哥分享_109
+      - Youtube:鹏哥分享_110
   - name: 📲 电报信息
     type: select
     proxies:
@@ -723,6 +795,18 @@ proxy-groups:
       - Youtube:鹏哥分享_96
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
+      - Youtube:鹏哥分享_99
+      - Youtube:鹏哥分享_100
+      - Youtube:鹏哥分享_101
+      - Youtube:鹏哥分享_102
+      - Youtube:鹏哥分享_103
+      - Youtube:鹏哥分享_104
+      - Youtube:鹏哥分享_105
+      - Youtube:鹏哥分享_106
+      - Youtube:鹏哥分享_107
+      - Youtube:鹏哥分享_108
+      - Youtube:鹏哥分享_109
+      - Youtube:鹏哥分享_110
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -827,6 +911,18 @@ proxy-groups:
       - Youtube:鹏哥分享_96
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
+      - Youtube:鹏哥分享_99
+      - Youtube:鹏哥分享_100
+      - Youtube:鹏哥分享_101
+      - Youtube:鹏哥分享_102
+      - Youtube:鹏哥分享_103
+      - Youtube:鹏哥分享_104
+      - Youtube:鹏哥分享_105
+      - Youtube:鹏哥分享_106
+      - Youtube:鹏哥分享_107
+      - Youtube:鹏哥分享_108
+      - Youtube:鹏哥分享_109
+      - Youtube:鹏哥分享_110
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -940,6 +1036,18 @@ proxy-groups:
       - Youtube:鹏哥分享_96
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
+      - Youtube:鹏哥分享_99
+      - Youtube:鹏哥分享_100
+      - Youtube:鹏哥分享_101
+      - Youtube:鹏哥分享_102
+      - Youtube:鹏哥分享_103
+      - Youtube:鹏哥分享_104
+      - Youtube:鹏哥分享_105
+      - Youtube:鹏哥分享_106
+      - Youtube:鹏哥分享_107
+      - Youtube:鹏哥分享_108
+      - Youtube:鹏哥分享_109
+      - Youtube:鹏哥分享_110
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
