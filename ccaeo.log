@@ -1,21 +1,21 @@
 + PS4='$LINENO: '
-55: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%N毫秒
-5: echo 2021年12月18日·周6·21点19分22秒.043338880毫秒
+55: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
+5: echo 2021年12月18日·周6·22点13分04秒.199毫秒
 66: curl -s https://api.github.com/repos/changfengoss/pub/commits
-66: grep -m 1 html_url
 66: sed 's/.*"html_url": /html_url=/g'
-6: eval 'html_url="https://github.com/changfengoss/pub/commit/34d2bd9e10c3fa3fdee623075003dab14aa1f8be",'
-66: html_url=https://github.com/changfengoss/pub/commit/34d2bd9e10c3fa3fdee623075003dab14aa1f8be,
-77: curl -s https://github.com/changfengoss/pub/commit/34d2bd9e10c3fa3fdee623075003dab14aa1f8be
+66: grep -m 1 html_url
+6: eval 'html_url="https://github.com/changfengoss/pub/commit/a15ed36ed84e4ab2ca349763a74e19285c7bb0a3",'
+66: html_url=https://github.com/changfengoss/pub/commit/a15ed36ed84e4ab2ca349763a74e19285c7bb0a3,
+77: curl -s https://github.com/changfengoss/pub/commit/a15ed36ed84e4ab2ca349763a74e19285c7bb0a3
 77: sed 's|</a>|"|g'
 77: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/changfengoss/pub/main/|p'
-7: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_18/EXlffR.yaml"'
-77: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_18/EXlffR.yaml
+7: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_18/mQHFYp.txt"'
+77: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_18/mQHFYp.txt
 8: case "$href" in
-10: curl -so /home/runner/work/all/all/c https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_18/EXlffR.yaml
-113: curl -s https://api.github.com/repos/pojiezhiyuanjun/freev2/commits
-113: sed 's/.*"html_url": /html_url=/g'
+9: curl -so /home/runner/work/all/all/v https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_18/mQHFYp.txt
 113: grep -m 1 html_url
+113: sed 's/.*"html_url": /html_url=/g'
+113: curl -s https://api.github.com/repos/pojiezhiyuanjun/freev2/commits
 13: eval 'html_url="https://github.com/pojiezhiyuanjun/freev2/commit/4a4a7188a1a5eda6d7cb9a431a3ce15fd600d121",'
 113: html_url=https://github.com/pojiezhiyuanjun/freev2/commit/4a4a7188a1a5eda6d7cb9a431a3ce15fd600d121,
 114: curl -s https://github.com/pojiezhiyuanjun/freev2/commit/4a4a7188a1a5eda6d7cb9a431a3ce15fd600d121
@@ -90,9 +90,9 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1218clash.
 44: echo 'https://raw.githubusercontent.com/bhqz/bhqz/main/ss/12/{18n.yaml → 18t.yaml}'
 46: curl -so /home/runner/work/all/all/cv 'https://sub.789.st/sub?target=clash&url=https://raw.githubusercontent.com/some6508/all/master/c|https://raw.githubusercontent.com/some6508/all/master/c2|https://raw.githubusercontent.com/some6508/all/master/c3|https://raw.githubusercontent.com/some6508/all/master/c4|https://raw.githubusercontent.com/some6508/all/master/c5|https://raw.githubusercontent.com/some6508/all/master/c6|https://raw.githubusercontent.com/some6508/all/master/v|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|https://raw.githubusercontent.com/some6508/all/master/v4|https://raw.githubusercontent.com/some6508/all/master/v5|https://raw.githubusercontent.com/some6508/all/master/v6|https://raw.githubusercontent.com/some6508/all/master/v7&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini&exclude=中国&emoji=false&list=false&tfo=false&scv=false&fdn=true&sort=true&expand=true&new_name=true'
 47: curl -so /home/runner/work/all/all/vc 'https://sub.789.st/sub?target=v2ray&url=https://raw.githubusercontent.com/some6508/all/master/c|https://raw.githubusercontent.com/some6508/all/master/c2|https://raw.githubusercontent.com/some6508/all/master/c3|https://raw.githubusercontent.com/some6508/all/master/c4|https://raw.githubusercontent.com/some6508/all/master/c5|https://raw.githubusercontent.com/some6508/all/master/c6|https://raw.githubusercontent.com/some6508/all/master/v|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|https://raw.githubusercontent.com/some6508/all/master/v4|https://raw.githubusercontent.com/some6508/all/master/v5|https://raw.githubusercontent.com/some6508/all/master/v6|https://raw.githubusercontent.com/some6508/all/master/v7&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini&exclude=中国&emoji=false&list=false&tfo=false&scv=false&fdn=true&sort=true&expand=true&new_name=true'
-448: date +%Y年%m月%d日·周%u·%H点%M分%S秒
-48: sed -i '/^|20/c|2021年12月18日·周6·21点19分40秒|' /home/runner/work/all/all/README.md
-449: date +%Y年%m月%d日·周%u·%H点%M分%S秒 -d '+1 hour'
-49: sed -i '/^20/c2021年12月18日·周6·22点19分40秒' /home/runner/work/all/all/README.md
-550: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%N毫秒
-50: echo 2021年12月18日·周6·21点19分40秒.370907466毫秒
+448: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
+48: sed -i '/^|20/c|2021年12月18日·周6·22点13分18秒.030毫秒|' /home/runner/work/all/all/README.md
+449: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒 -d '+1 hour'
+49: sed -i '/^20/c2021年12月18日·周6·23点13分18秒.034毫秒' /home/runner/work/all/all/README.md
+550: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
+50: echo 2021年12月18日·周6·22点13分18秒.037毫秒
