@@ -538,6 +538,7 @@ proxies:
   - {name: _AU_澳大利亚_1, server: mf-justhost-ru-02.xncloud.xyz, port: 18000, type: vmess, uuid: fcb03748-d0ae-3a8c-8557-a6835cff733d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-justhost-ru-02.xncloud.xyz}}
   - {name: _AU_澳大利亚_2, server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
   - {name: _BE_比利时_1, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: _CA_加拿大, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _CA_加拿大_1, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: _CA_加拿大_10, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
   - {name: _CA_加拿大_2, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
@@ -1226,8 +1227,8 @@ proxies:
   - {name: _SG_新加坡_7, server: mf-aws-sg-10.xncloud.xyz, port: 18000, type: vmess, uuid: fcb03748-d0ae-3a8c-8557-a6835cff733d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-10.xncloud.xyz}}
   - {name: _SG_新加坡_8, server: mf-aws-sg-06.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-06.xncloud.xyz}}
   - {name: _SG_新加坡_9, server: mf-aws-sg-08.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-08.xncloud.xyz}}
+  - {name: _TW_台湾, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _TW_台湾_1, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: _UA_乌克兰, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: _UA_乌克兰_1, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: _UA_乌克兰_2, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: _US_美国_1, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
@@ -2102,6 +2103,7 @@ proxy-groups:
       - _AU_澳大利亚_1
       - _AU_澳大利亚_2
       - _BE_比利时_1
+      - _CA_加拿大
       - _CA_加拿大_1
       - _CA_加拿大_10
       - _CA_加拿大_2
@@ -2790,8 +2792,8 @@ proxy-groups:
       - _SG_新加坡_7
       - _SG_新加坡_8
       - _SG_新加坡_9
+      - _TW_台湾
       - _TW_台湾_1
-      - _UA_乌克兰
       - _UA_乌克兰_1
       - _UA_乌克兰_2
       - _US_美国_1
@@ -3666,6 +3668,7 @@ proxy-groups:
       - _AU_澳大利亚_1
       - _AU_澳大利亚_2
       - _BE_比利时_1
+      - _CA_加拿大
       - _CA_加拿大_1
       - _CA_加拿大_10
       - _CA_加拿大_2
@@ -4354,8 +4357,8 @@ proxy-groups:
       - _SG_新加坡_7
       - _SG_新加坡_8
       - _SG_新加坡_9
+      - _TW_台湾
       - _TW_台湾_1
-      - _UA_乌克兰
       - _UA_乌克兰_1
       - _UA_乌克兰_2
       - _US_美国_1
@@ -5230,6 +5233,7 @@ proxy-groups:
       - _AU_澳大利亚_1
       - _AU_澳大利亚_2
       - _BE_比利时_1
+      - _CA_加拿大
       - _CA_加拿大_1
       - _CA_加拿大_10
       - _CA_加拿大_2
@@ -5918,8 +5922,8 @@ proxy-groups:
       - _SG_新加坡_7
       - _SG_新加坡_8
       - _SG_新加坡_9
+      - _TW_台湾
       - _TW_台湾_1
-      - _UA_乌克兰
       - _UA_乌克兰_1
       - _UA_乌克兰_2
       - _US_美国_1
@@ -6793,6 +6797,7 @@ proxy-groups:
       - _AU_澳大利亚_1
       - _AU_澳大利亚_2
       - _BE_比利时_1
+      - _CA_加拿大
       - _CA_加拿大_1
       - _CA_加拿大_10
       - _CA_加拿大_2
@@ -7481,8 +7486,8 @@ proxy-groups:
       - _SG_新加坡_7
       - _SG_新加坡_8
       - _SG_新加坡_9
+      - _TW_台湾
       - _TW_台湾_1
-      - _UA_乌克兰
       - _UA_乌克兰_1
       - _UA_乌克兰_2
       - _US_美国_1
@@ -8356,6 +8361,7 @@ proxy-groups:
       - _AU_澳大利亚_1
       - _AU_澳大利亚_2
       - _BE_比利时_1
+      - _CA_加拿大
       - _CA_加拿大_1
       - _CA_加拿大_10
       - _CA_加拿大_2
@@ -9044,8 +9050,8 @@ proxy-groups:
       - _SG_新加坡_7
       - _SG_新加坡_8
       - _SG_新加坡_9
+      - _TW_台湾
       - _TW_台湾_1
-      - _UA_乌克兰
       - _UA_乌克兰_1
       - _UA_乌克兰_2
       - _US_美国_1
@@ -9919,6 +9925,7 @@ proxy-groups:
       - _AU_澳大利亚_1
       - _AU_澳大利亚_2
       - _BE_比利时_1
+      - _CA_加拿大
       - _CA_加拿大_1
       - _CA_加拿大_10
       - _CA_加拿大_2
@@ -10607,8 +10614,8 @@ proxy-groups:
       - _SG_新加坡_7
       - _SG_新加坡_8
       - _SG_新加坡_9
+      - _TW_台湾
       - _TW_台湾_1
-      - _UA_乌克兰
       - _UA_乌克兰_1
       - _UA_乌克兰_2
       - _US_美国_1
@@ -11483,6 +11490,7 @@ proxy-groups:
       - _AU_澳大利亚_1
       - _AU_澳大利亚_2
       - _BE_比利时_1
+      - _CA_加拿大
       - _CA_加拿大_1
       - _CA_加拿大_10
       - _CA_加拿大_2
@@ -12171,8 +12179,8 @@ proxy-groups:
       - _SG_新加坡_7
       - _SG_新加坡_8
       - _SG_新加坡_9
+      - _TW_台湾
       - _TW_台湾_1
-      - _UA_乌克兰
       - _UA_乌克兰_1
       - _UA_乌克兰_2
       - _US_美国_1
@@ -13063,6 +13071,7 @@ proxy-groups:
       - _AU_澳大利亚_1
       - _AU_澳大利亚_2
       - _BE_比利时_1
+      - _CA_加拿大
       - _CA_加拿大_1
       - _CA_加拿大_10
       - _CA_加拿大_2
@@ -13751,8 +13760,8 @@ proxy-groups:
       - _SG_新加坡_7
       - _SG_新加坡_8
       - _SG_新加坡_9
+      - _TW_台湾
       - _TW_台湾_1
-      - _UA_乌克兰
       - _UA_乌克兰_1
       - _UA_乌克兰_2
       - _US_美国_1
