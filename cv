@@ -542,8 +542,8 @@ proxies:
   - {name: Youtube:鹏哥分享_65 2, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v7.ssrsub.com}}
   - {name: Youtube:鹏哥分享_66, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v7.ssrsub.com}}
   - {name: Youtube:鹏哥分享_66 2, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: Youtube:鹏哥分享_67, server: 120.197.88.216, port: 20005, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: Youtube:鹏哥分享_67 2, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: Youtube:鹏哥分享_67, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: Youtube:鹏哥分享_67 2, server: 120.197.88.216, port: 20005, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
   - {name: Youtube:鹏哥分享_68, server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Youtube:鹏哥分享_68 2, server: 183.232.163.3, port: 4141, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
   - {name: Youtube:鹏哥分享_69, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
@@ -552,24 +552,24 @@ proxies:
   - {name: Youtube:鹏哥分享_7 2, server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: Youtube:鹏哥分享_70, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Youtube:鹏哥分享_70 2, server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: Youtube:鹏哥分享_71, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: Youtube:鹏哥分享_71 2, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Youtube:鹏哥分享_71, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Youtube:鹏哥分享_71 2, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: Youtube:鹏哥分享_72, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: Youtube:鹏哥分享_72 2, server: 198.200.51.18, port: 600, type: vmess, uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Youtube:鹏哥分享_73, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: Youtube:鹏哥分享_73 2, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Youtube:鹏哥分享_73, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Youtube:鹏哥分享_73 2, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: Youtube:鹏哥分享_74, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: Youtube:鹏哥分享_74 2, server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
   - {name: Youtube:鹏哥分享_75, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
   - {name: Youtube:鹏哥分享_75 2, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: Youtube:鹏哥分享_76, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
   - {name: Youtube:鹏哥分享_76 2, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: Youtube:鹏哥分享_77, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com, port: 30016, type: vmess, uuid: 5efeb899-e8bd-446f-b0be-863d30331174, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Youtube:鹏哥分享_77 2, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: Youtube:鹏哥分享_78, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com, port: 30016, type: vmess, uuid: 5efeb899-e8bd-446f-b0be-863d30331174, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Youtube:鹏哥分享_78 2, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享_79, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享_79 2, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
+  - {name: Youtube:鹏哥分享_77, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Youtube:鹏哥分享_77 2, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com, port: 30016, type: vmess, uuid: 5efeb899-e8bd-446f-b0be-863d30331174, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Youtube:鹏哥分享_78, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Youtube:鹏哥分享_78 2, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com, port: 30016, type: vmess, uuid: 5efeb899-e8bd-446f-b0be-863d30331174, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Youtube:鹏哥分享_79, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
+  - {name: Youtube:鹏哥分享_79 2, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Youtube:鹏哥分享_8, server: 120.197.88.216, port: 20005, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
   - {name: Youtube:鹏哥分享_8 2, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Youtube:鹏哥分享_80, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
@@ -595,6 +595,127 @@ proxies:
   - {name: Youtube:鹏哥分享_97, server: 183.232.163.3, port: 2626, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
   - {name: Youtube:鹏哥分享_98, server: v103.v2dns.xyz, port: 80, type: vmess, uuid: 892ebb75-7055-3007-8d16-356e65c6a49a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v1032N9rN0yPy, ws-headers: {Host: v103.v2dns.xyz}}
   - {name: Youtube:鹏哥分享_99, server: 183.232.163.3, port: 5254, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
+  - {name: _AU_澳大利亚, server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: _AU_澳大利亚_1, server: mf-justhost-ru-02.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _AU_澳大利亚_2, server: mf-justhost-ru-02.xncloud.xyz, port: 18000, type: vmess, uuid: 36444988-5420-30e6-8d48-87088c824a49, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _AU_澳大利亚_3, server: mf-justhost-ru-02.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _CA_加拿大, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _CA_加拿大 2, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _CA_加拿大 3, server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: _CA_加拿大 4, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
+  - {name: _CA_加拿大 5, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _CA_加拿大 6, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _CA_加拿大 7, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _CA_加拿大 8, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: _CA_加拿大 9, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _CA_加拿大 10, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _CA_加拿大 11, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _CA_加拿大 12, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _CA_加拿大 13, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _CA_加拿大 14, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _CA_加拿大 15, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _CA_加拿大 16, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _CA_加拿大 17, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _CA_加拿大 18, server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: _DE_德国, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: _DE_德国_1, server: 146.0.36.44, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: _DE_德国_2, server: 146.0.36.44, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _DE_德国_3, server: 146.0.36.44, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: _DE_德国_4, server: 167.86.82.191, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1z7k5IMlPsvk}
+  - {name: _DE_德国_5, server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _FR_法国, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _FR_法国 2, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _FR_法国 3, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _FR_法国 4, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _FR_法国 5, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _FR_法国 6, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _FR_法国 7, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _FR_法国 8, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _FR_法国 9, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: _FR_法国 10, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _FR_法国 11, server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: _FR_法国 12, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _FR_法国 13, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _FR_法国 14, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _FR_法国 15, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: _GB_英国, server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _GB_英国 2, server: 172.99.190.90, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _GB_英国 3, server: 172.99.190.90, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _GB_英国 4, server: 172.99.190.90, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _GB_英国 5, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _GB_英国 6, server: 172.99.190.90, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _GB_英国 7, server: 172.99.190.90, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _GB_英国 8, server: 172.99.190.90, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _GB_英国 9, server: 172.99.190.90, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _GB_英国 10, server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _GB_英国 11, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _GB_英国 12, server: 145.239.7.164, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _GB_英国 13, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _GB_英国 14, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: _GB_英国 15, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: _GB_英国 16, server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
+  - {name: _GB_英国 17, server: 172.99.190.90, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _GB_英国 18, server: 172.99.190.90, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _GB_英国 19, server: 172.99.190.90, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _HK_香港, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _HK_香港 2, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _HK_香港 3, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _HK_香港 4, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: _HK_香港->🇮🇳_IN_印度, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
+  - {name: _HK_香港->🇰🇷_KR_韩国, server: 156.234.95.72, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
+  - {name: _HU_匈牙利, server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy}
+  - {name: _IL_以色列, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: _IL_以色列 2, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: _IN_印度, server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: _IN_印度_1, server: mf-az-yd-04.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _IN_印度_2, server: mf-az-yd-03.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _IN_印度_3, server: mf-az-yd-01.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _IN_印度_4, server: mf-az-yd-03.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _IN_印度_5, server: mf-az-yd-01.xncloud.xyz, port: 80, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _IN_印度_6, server: mf-az-yd-01.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _IN_印度_7, server: mf-az-yd-04.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _IN_印度_8, server: mf-az-yd-02.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _IN_印度_9, server: mf-az-yd-02.xncloud.xyz, port: 80, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本, server: 85.208.108.146, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: _JP_日本 2, server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _JP_日本 3, server: 85.208.108.146, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _JP_日本 4, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: _JP_日本 5, server: 172.105.232.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _JP_日本_1, server: mf-aws-jp-01.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_10, server: mf-aws-jp-03.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_11, server: mf-aws-jp-04.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_12, server: mf-aws-jp-07.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_13, server: mf-aws-jp-03.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_14, server: mf-aws-jp-06.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_15, server: mf-aws-jp-06.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_16, server: mf-aws-jp-09.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_17, server: mf-aws-jp-06.xncloud.xyz, port: 18000, type: vmess, uuid: 36444988-5420-30e6-8d48-87088c824a49, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_18, server: mf-aws-jp-05.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_19, server: mf-aws-jp-10.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_2, server: mf-aws-jp-03.xncloud.xyz, port: 18000, type: vmess, uuid: 36444988-5420-30e6-8d48-87088c824a49, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_20, server: mf-aws-jp-10.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_3, server: mf-aws-jp-05.xncloud.xyz, port: 18000, type: vmess, uuid: 36444988-5420-30e6-8d48-87088c824a49, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_4, server: mf-aws-jp-02.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_5, server: mf-aws-jp-09.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_6, server: mf-aws-jp-04.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_7, server: mf-aws-jp-02.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_8, server: mf-aws-jp-04.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_9, server: mf-aws-jp-06.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _KR_韩国_1, server: mf-aws-kr-10.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _KR_韩国_10, server: mf-aws-kr-10.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _KR_韩国_11, server: mf-aws-kr-02.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _KR_韩国_12, server: mf-aws-kr-05.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _KR_韩国_13, server: mf-aws-kr-05.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _KR_韩国_2, server: mf-aws-kr-09.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _KR_韩国_3, server: mf-aws-kr-06.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _KR_韩国_4, server: mf-aws-kr-05.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _KR_韩国_5, server: mf-aws-kr-04.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _KR_韩国_6, server: mf-aws-kr-08.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _KR_韩国_7, server: mf-aws-kr-02.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _KR_韩国_8, server: mf-aws-kr-01.xncloud.xyz, port: 18000, type: vmess, uuid: 36444988-5420-30e6-8d48-87088c824a49, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _KR_韩国_9, server: mf-aws-kr-08.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _LU_卢森堡, server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
+  - {name: _MX_墨西哥, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
   - {name: _NON_Chen-2021.12.18_1, server: zhuzhu12.com, port: 13959, type: vmess, uuid: 52c197fd-667a-3194-adb6-dfc0ccafa4c5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
   - {name: _NON_Chen-2021.12.18_1 2, server: zhuzhu12.com, port: 13959, type: vmess, uuid: 52c197fd-667a-3194-adb6-dfc0ccafa4c5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
   - {name: _NON_Chen-2021.12.18_10, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 52c197fd-667a-3194-adb6-dfc0ccafa4c5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
@@ -1176,6 +1297,125 @@ proxies:
   - {name: _NON_FMYC-2021.12.08_97, server: 134.195.198.95, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _NON_FMYC-2021.12.08_98, server: 172.105.251.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: _NON_FMYC-2021.12.08_99, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _NO_挪威, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _NO_挪威 2, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: _NO_挪威 3, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _NO_挪威 4, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _NO_挪威 5, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _NO_挪威 6, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: _NO_挪威 7, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _NO_挪威 8, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: _NO_挪威 9, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _NO_挪威 10, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _NO_挪威 11, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _NO_挪威 12, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _NO_挪威 13, server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _NO_挪威 14, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: _NO_挪威 15, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _NO_挪威 16, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _NZ_新西兰, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
+  - {name: _PT_葡萄牙, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: _PT_葡萄牙 2, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: _RO_罗马尼亚, server: 146.70.73.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: italy-milan.mah3Hoet.com}}
+  - {name: _RO_罗马尼亚 2, server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: italy-milan.mah3Hoet.com}}
+  - {name: _RU_俄罗斯联邦, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: _RU_俄罗斯联邦 2, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}}
+  - {name: _RU_俄罗斯联邦_1, server: mf-justhost-ru-01.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _RU_俄罗斯联邦_2, server: mf-justhost-ru-01.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _RU_俄罗斯联邦_3, server: mf-justhost-ru-01.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SE_瑞典, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: _SG_新加坡, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _SG_新加坡 2, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _SG_新加坡 3, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _SG_新加坡 4, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
+  - {name: _SG_新加坡_1, server: mf-aws-sg-11.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_10, server: mf-aws-sg-07.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_11, server: mf-aws-sg-08.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_12, server: mf-aws-sg-04.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_13, server: mf-aws-sg-03.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_14, server: mf-aws-sg-07.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_15, server: mf-aws-sg-12.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_16, server: mf-aws-sg-11.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_17, server: mf-aws-sg-10.xncloud.xyz, port: 18000, type: vmess, uuid: 36444988-5420-30e6-8d48-87088c824a49, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_18, server: mf-aws-sg-09.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_19, server: mf-aws-sg-04.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_2, server: mf-aws-sg-03.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_20, server: mf-aws-sg-06.xncloud.xyz, port: 18000, type: vmess, uuid: 36444988-5420-30e6-8d48-87088c824a49, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_21, server: mf-aws-sg-06.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_22, server: mf-aws-sg-15.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_23, server: mf-aws-sg-15.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_24, server: mf-aws-sg-09.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_25, server: mf-aws-sg-15.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_26, server: mf-aws-sg-13.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_3, server: mf-aws-sg-02.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_4, server: mf-aws-sg-08.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_5, server: mf-aws-sg-04.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_6, server: mf-aws-sg-02.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_7, server: mf-aws-sg-07.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_8, server: mf-aws-sg-06.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_9, server: mf-aws-sg-10.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _TW_台湾, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: _UA_乌克兰, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: _UA_乌克兰 2, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: _US_美国, server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
+  - {name: _US_美国 2, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: _US_美国 3, server: v8.ssrsub.com, port: 443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: _US_美国 4, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
+  - {name: _US_美国 5, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
+  - {name: _US_美国 6, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: _US_美国 7, server: 142.202.48.45, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: _US_美国 8, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
+  - {name: _US_美国 9, server: 38.68.134.191, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _US_美国 10, server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
+  - {name: _US_美国 11, server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: _US_美国 12, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: _US_美国 13, server: api.ssfree.ru, port: 443, type: vmess, uuid: 8f46235c-601b-11ec-b09f-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /getweather, ws-headers: {Host: api.ssfree.ru}}
+  - {name: _US_美国 14, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: _US_美国 15, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
+  - {name: _US_美国 16, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
+  - {name: _US_美国 17, server: 147.182.249.191, port: 30880, type: vmess, uuid: b14e5862-ed44-4ef0-e310-335414d86882, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /114514, ws-headers: {Host: domeixi.nbczl233.ml}}
+  - {name: _US_美国 18, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: _US_美国 19, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: _US_美国 20, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: _US_美国 21, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
+  - {name: _US_美国 22, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: _US_美国 23, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
+  - {name: _US_美国 24, server: 167.88.61.96, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _US_美国 25, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: _US_美国 26, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: _US_美国 27, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: _US_美国_1, server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_10, server: mf-do-ua-10.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_11, server: mf-do-ua-07.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_12, server: mf-do-ua-06.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_13, server: mf-do-ua-09.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_14, server: mf-do-ua-08.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_15, server: mf-do-ua-09.xncloud.xyz, port: 80, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_16, server: mf-do-ua-08.xncloud.xyz, port: 80, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_17, server: mf-do-ua-07.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_18, server: mf-do-ua-08.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_19, server: mf-do-ua-06.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_2, server: mf-do-ua-09.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_20, server: mf-do-ua-10.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_21, server: mf-do-ua-03.xncloud.xyz, port: 80, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_22, server: mf-do-ua-05.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_23, server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_24, server: mf-do-ua-03.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_25, server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_26, server: mf-do-ua-03.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_27, server: mf-do-ua-05.xncloud.xyz, port: 80, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_3, server: mf-do-ua-04.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_4, server: mf-do-ua-04.xncloud.xyz, port: 80, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_5, server: mf-do-ua-04.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_6, server: mf-do-ua-01.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_7, server: mf-do-ua-05.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_8, server: mf-do-ua-01.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _US_美国_9, server: mf-do-ua-07.xncloud.xyz, port: 80, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: default_name, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}}
+  - {name: default_name 2, server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
+  - {name: default_name 3, server: 104.21.60.154, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
+  - {name: default_name 4, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: default_name 5, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
   - {name: 专线|台湾01|原生HINET_1, server: v36.88host.buzz, port: 18078, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 专线|台湾02|原生HINET_4, server: v35.88host.buzz, port: 18079, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 专线|台湾03|原生HINET_12, server: v34.88host.buzz, port: 18080, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
@@ -2068,6 +2308,127 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _AU_澳大利亚
+      - _AU_澳大利亚_1
+      - _AU_澳大利亚_2
+      - _AU_澳大利亚_3
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _DE_德国
+      - _DE_德国_1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _DE_德国_4
+      - _DE_德国_5
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
+      - _FR_法国 5
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
+      - _FR_法国 9
+      - _FR_法国 10
+      - _FR_法国 11
+      - _FR_法国 12
+      - _FR_法国 13
+      - _FR_法国 14
+      - _FR_法国 15
+      - _GB_英国
+      - _GB_英国 2
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - _GB_英国 6
+      - _GB_英国 7
+      - _GB_英国 8
+      - _GB_英国 9
+      - _GB_英国 10
+      - _GB_英国 11
+      - _GB_英国 12
+      - _GB_英国 13
+      - _GB_英国 14
+      - _GB_英国 15
+      - _GB_英国 16
+      - _GB_英国 17
+      - _GB_英国 18
+      - _GB_英国 19
+      - _HK_香港
+      - _HK_香港 2
+      - _HK_香港 3
+      - _HK_香港 4
+      - _HK_香港->🇮🇳_IN_印度
+      - _HK_香港->🇰🇷_KR_韩国
+      - _HU_匈牙利
+      - _IL_以色列
+      - _IL_以色列 2
+      - _IN_印度
+      - _IN_印度_1
+      - _IN_印度_2
+      - _IN_印度_3
+      - _IN_印度_4
+      - _IN_印度_5
+      - _IN_印度_6
+      - _IN_印度_7
+      - _IN_印度_8
+      - _IN_印度_9
+      - _JP_日本
+      - _JP_日本 2
+      - _JP_日本 3
+      - _JP_日本 4
+      - _JP_日本 5
+      - _JP_日本_1
+      - _JP_日本_10
+      - _JP_日本_11
+      - _JP_日本_12
+      - _JP_日本_13
+      - _JP_日本_14
+      - _JP_日本_15
+      - _JP_日本_16
+      - _JP_日本_17
+      - _JP_日本_18
+      - _JP_日本_19
+      - _JP_日本_2
+      - _JP_日本_20
+      - _JP_日本_3
+      - _JP_日本_4
+      - _JP_日本_5
+      - _JP_日本_6
+      - _JP_日本_7
+      - _JP_日本_8
+      - _JP_日本_9
+      - _KR_韩国_1
+      - _KR_韩国_10
+      - _KR_韩国_11
+      - _KR_韩国_12
+      - _KR_韩国_13
+      - _KR_韩国_2
+      - _KR_韩国_3
+      - _KR_韩国_4
+      - _KR_韩国_5
+      - _KR_韩国_6
+      - _KR_韩国_7
+      - _KR_韩国_8
+      - _KR_韩国_9
+      - _LU_卢森堡
+      - _MX_墨西哥
       - _NON_Chen-2021.12.18_1
       - _NON_Chen-2021.12.18_1 2
       - _NON_Chen-2021.12.18_10
@@ -2649,6 +3010,125 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_97
       - _NON_FMYC-2021.12.08_98
       - _NON_FMYC-2021.12.08_99
+      - _NO_挪威
+      - _NO_挪威 2
+      - _NO_挪威 3
+      - _NO_挪威 4
+      - _NO_挪威 5
+      - _NO_挪威 6
+      - _NO_挪威 7
+      - _NO_挪威 8
+      - _NO_挪威 9
+      - _NO_挪威 10
+      - _NO_挪威 11
+      - _NO_挪威 12
+      - _NO_挪威 13
+      - _NO_挪威 14
+      - _NO_挪威 15
+      - _NO_挪威 16
+      - _NZ_新西兰
+      - _PT_葡萄牙
+      - _PT_葡萄牙 2
+      - _RO_罗马尼亚
+      - _RO_罗马尼亚 2
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦 2
+      - _RU_俄罗斯联邦_1
+      - _RU_俄罗斯联邦_2
+      - _RU_俄罗斯联邦_3
+      - _SE_瑞典
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - _SG_新加坡_1
+      - _SG_新加坡_10
+      - _SG_新加坡_11
+      - _SG_新加坡_12
+      - _SG_新加坡_13
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _SG_新加坡_16
+      - _SG_新加坡_17
+      - _SG_新加坡_18
+      - _SG_新加坡_19
+      - _SG_新加坡_2
+      - _SG_新加坡_20
+      - _SG_新加坡_21
+      - _SG_新加坡_22
+      - _SG_新加坡_23
+      - _SG_新加坡_24
+      - _SG_新加坡_25
+      - _SG_新加坡_26
+      - _SG_新加坡_3
+      - _SG_新加坡_4
+      - _SG_新加坡_5
+      - _SG_新加坡_6
+      - _SG_新加坡_7
+      - _SG_新加坡_8
+      - _SG_新加坡_9
+      - _TW_台湾
+      - _UA_乌克兰
+      - _UA_乌克兰 2
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国_1
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _US_美国_2
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_3
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_9
+      - default_name
+      - default_name 2
+      - default_name 3
+      - default_name 4
+      - default_name 5
       - 专线|台湾01|原生HINET_1
       - 专线|台湾02|原生HINET_4
       - 专线|台湾03|原生HINET_12
@@ -3541,6 +4021,127 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _AU_澳大利亚
+      - _AU_澳大利亚_1
+      - _AU_澳大利亚_2
+      - _AU_澳大利亚_3
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _DE_德国
+      - _DE_德国_1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _DE_德国_4
+      - _DE_德国_5
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
+      - _FR_法国 5
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
+      - _FR_法国 9
+      - _FR_法国 10
+      - _FR_法国 11
+      - _FR_法国 12
+      - _FR_法国 13
+      - _FR_法国 14
+      - _FR_法国 15
+      - _GB_英国
+      - _GB_英国 2
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - _GB_英国 6
+      - _GB_英国 7
+      - _GB_英国 8
+      - _GB_英国 9
+      - _GB_英国 10
+      - _GB_英国 11
+      - _GB_英国 12
+      - _GB_英国 13
+      - _GB_英国 14
+      - _GB_英国 15
+      - _GB_英国 16
+      - _GB_英国 17
+      - _GB_英国 18
+      - _GB_英国 19
+      - _HK_香港
+      - _HK_香港 2
+      - _HK_香港 3
+      - _HK_香港 4
+      - _HK_香港->🇮🇳_IN_印度
+      - _HK_香港->🇰🇷_KR_韩国
+      - _HU_匈牙利
+      - _IL_以色列
+      - _IL_以色列 2
+      - _IN_印度
+      - _IN_印度_1
+      - _IN_印度_2
+      - _IN_印度_3
+      - _IN_印度_4
+      - _IN_印度_5
+      - _IN_印度_6
+      - _IN_印度_7
+      - _IN_印度_8
+      - _IN_印度_9
+      - _JP_日本
+      - _JP_日本 2
+      - _JP_日本 3
+      - _JP_日本 4
+      - _JP_日本 5
+      - _JP_日本_1
+      - _JP_日本_10
+      - _JP_日本_11
+      - _JP_日本_12
+      - _JP_日本_13
+      - _JP_日本_14
+      - _JP_日本_15
+      - _JP_日本_16
+      - _JP_日本_17
+      - _JP_日本_18
+      - _JP_日本_19
+      - _JP_日本_2
+      - _JP_日本_20
+      - _JP_日本_3
+      - _JP_日本_4
+      - _JP_日本_5
+      - _JP_日本_6
+      - _JP_日本_7
+      - _JP_日本_8
+      - _JP_日本_9
+      - _KR_韩国_1
+      - _KR_韩国_10
+      - _KR_韩国_11
+      - _KR_韩国_12
+      - _KR_韩国_13
+      - _KR_韩国_2
+      - _KR_韩国_3
+      - _KR_韩国_4
+      - _KR_韩国_5
+      - _KR_韩国_6
+      - _KR_韩国_7
+      - _KR_韩国_8
+      - _KR_韩国_9
+      - _LU_卢森堡
+      - _MX_墨西哥
       - _NON_Chen-2021.12.18_1
       - _NON_Chen-2021.12.18_1 2
       - _NON_Chen-2021.12.18_10
@@ -4122,6 +4723,125 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_97
       - _NON_FMYC-2021.12.08_98
       - _NON_FMYC-2021.12.08_99
+      - _NO_挪威
+      - _NO_挪威 2
+      - _NO_挪威 3
+      - _NO_挪威 4
+      - _NO_挪威 5
+      - _NO_挪威 6
+      - _NO_挪威 7
+      - _NO_挪威 8
+      - _NO_挪威 9
+      - _NO_挪威 10
+      - _NO_挪威 11
+      - _NO_挪威 12
+      - _NO_挪威 13
+      - _NO_挪威 14
+      - _NO_挪威 15
+      - _NO_挪威 16
+      - _NZ_新西兰
+      - _PT_葡萄牙
+      - _PT_葡萄牙 2
+      - _RO_罗马尼亚
+      - _RO_罗马尼亚 2
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦 2
+      - _RU_俄罗斯联邦_1
+      - _RU_俄罗斯联邦_2
+      - _RU_俄罗斯联邦_3
+      - _SE_瑞典
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - _SG_新加坡_1
+      - _SG_新加坡_10
+      - _SG_新加坡_11
+      - _SG_新加坡_12
+      - _SG_新加坡_13
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _SG_新加坡_16
+      - _SG_新加坡_17
+      - _SG_新加坡_18
+      - _SG_新加坡_19
+      - _SG_新加坡_2
+      - _SG_新加坡_20
+      - _SG_新加坡_21
+      - _SG_新加坡_22
+      - _SG_新加坡_23
+      - _SG_新加坡_24
+      - _SG_新加坡_25
+      - _SG_新加坡_26
+      - _SG_新加坡_3
+      - _SG_新加坡_4
+      - _SG_新加坡_5
+      - _SG_新加坡_6
+      - _SG_新加坡_7
+      - _SG_新加坡_8
+      - _SG_新加坡_9
+      - _TW_台湾
+      - _UA_乌克兰
+      - _UA_乌克兰 2
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国_1
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _US_美国_2
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_3
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_9
+      - default_name
+      - default_name 2
+      - default_name 3
+      - default_name 4
+      - default_name 5
       - 专线|台湾01|原生HINET_1
       - 专线|台湾02|原生HINET_4
       - 专线|台湾03|原生HINET_12
@@ -5014,6 +5734,127 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _AU_澳大利亚
+      - _AU_澳大利亚_1
+      - _AU_澳大利亚_2
+      - _AU_澳大利亚_3
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _DE_德国
+      - _DE_德国_1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _DE_德国_4
+      - _DE_德国_5
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
+      - _FR_法国 5
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
+      - _FR_法国 9
+      - _FR_法国 10
+      - _FR_法国 11
+      - _FR_法国 12
+      - _FR_法国 13
+      - _FR_法国 14
+      - _FR_法国 15
+      - _GB_英国
+      - _GB_英国 2
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - _GB_英国 6
+      - _GB_英国 7
+      - _GB_英国 8
+      - _GB_英国 9
+      - _GB_英国 10
+      - _GB_英国 11
+      - _GB_英国 12
+      - _GB_英国 13
+      - _GB_英国 14
+      - _GB_英国 15
+      - _GB_英国 16
+      - _GB_英国 17
+      - _GB_英国 18
+      - _GB_英国 19
+      - _HK_香港
+      - _HK_香港 2
+      - _HK_香港 3
+      - _HK_香港 4
+      - _HK_香港->🇮🇳_IN_印度
+      - _HK_香港->🇰🇷_KR_韩国
+      - _HU_匈牙利
+      - _IL_以色列
+      - _IL_以色列 2
+      - _IN_印度
+      - _IN_印度_1
+      - _IN_印度_2
+      - _IN_印度_3
+      - _IN_印度_4
+      - _IN_印度_5
+      - _IN_印度_6
+      - _IN_印度_7
+      - _IN_印度_8
+      - _IN_印度_9
+      - _JP_日本
+      - _JP_日本 2
+      - _JP_日本 3
+      - _JP_日本 4
+      - _JP_日本 5
+      - _JP_日本_1
+      - _JP_日本_10
+      - _JP_日本_11
+      - _JP_日本_12
+      - _JP_日本_13
+      - _JP_日本_14
+      - _JP_日本_15
+      - _JP_日本_16
+      - _JP_日本_17
+      - _JP_日本_18
+      - _JP_日本_19
+      - _JP_日本_2
+      - _JP_日本_20
+      - _JP_日本_3
+      - _JP_日本_4
+      - _JP_日本_5
+      - _JP_日本_6
+      - _JP_日本_7
+      - _JP_日本_8
+      - _JP_日本_9
+      - _KR_韩国_1
+      - _KR_韩国_10
+      - _KR_韩国_11
+      - _KR_韩国_12
+      - _KR_韩国_13
+      - _KR_韩国_2
+      - _KR_韩国_3
+      - _KR_韩国_4
+      - _KR_韩国_5
+      - _KR_韩国_6
+      - _KR_韩国_7
+      - _KR_韩国_8
+      - _KR_韩国_9
+      - _LU_卢森堡
+      - _MX_墨西哥
       - _NON_Chen-2021.12.18_1
       - _NON_Chen-2021.12.18_1 2
       - _NON_Chen-2021.12.18_10
@@ -5595,6 +6436,125 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_97
       - _NON_FMYC-2021.12.08_98
       - _NON_FMYC-2021.12.08_99
+      - _NO_挪威
+      - _NO_挪威 2
+      - _NO_挪威 3
+      - _NO_挪威 4
+      - _NO_挪威 5
+      - _NO_挪威 6
+      - _NO_挪威 7
+      - _NO_挪威 8
+      - _NO_挪威 9
+      - _NO_挪威 10
+      - _NO_挪威 11
+      - _NO_挪威 12
+      - _NO_挪威 13
+      - _NO_挪威 14
+      - _NO_挪威 15
+      - _NO_挪威 16
+      - _NZ_新西兰
+      - _PT_葡萄牙
+      - _PT_葡萄牙 2
+      - _RO_罗马尼亚
+      - _RO_罗马尼亚 2
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦 2
+      - _RU_俄罗斯联邦_1
+      - _RU_俄罗斯联邦_2
+      - _RU_俄罗斯联邦_3
+      - _SE_瑞典
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - _SG_新加坡_1
+      - _SG_新加坡_10
+      - _SG_新加坡_11
+      - _SG_新加坡_12
+      - _SG_新加坡_13
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _SG_新加坡_16
+      - _SG_新加坡_17
+      - _SG_新加坡_18
+      - _SG_新加坡_19
+      - _SG_新加坡_2
+      - _SG_新加坡_20
+      - _SG_新加坡_21
+      - _SG_新加坡_22
+      - _SG_新加坡_23
+      - _SG_新加坡_24
+      - _SG_新加坡_25
+      - _SG_新加坡_26
+      - _SG_新加坡_3
+      - _SG_新加坡_4
+      - _SG_新加坡_5
+      - _SG_新加坡_6
+      - _SG_新加坡_7
+      - _SG_新加坡_8
+      - _SG_新加坡_9
+      - _TW_台湾
+      - _UA_乌克兰
+      - _UA_乌克兰 2
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国_1
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _US_美国_2
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_3
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_9
+      - default_name
+      - default_name 2
+      - default_name 3
+      - default_name 4
+      - default_name 5
       - 专线|台湾01|原生HINET_1
       - 专线|台湾02|原生HINET_4
       - 专线|台湾03|原生HINET_12
@@ -6486,6 +7446,127 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _AU_澳大利亚
+      - _AU_澳大利亚_1
+      - _AU_澳大利亚_2
+      - _AU_澳大利亚_3
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _DE_德国
+      - _DE_德国_1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _DE_德国_4
+      - _DE_德国_5
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
+      - _FR_法国 5
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
+      - _FR_法国 9
+      - _FR_法国 10
+      - _FR_法国 11
+      - _FR_法国 12
+      - _FR_法国 13
+      - _FR_法国 14
+      - _FR_法国 15
+      - _GB_英国
+      - _GB_英国 2
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - _GB_英国 6
+      - _GB_英国 7
+      - _GB_英国 8
+      - _GB_英国 9
+      - _GB_英国 10
+      - _GB_英国 11
+      - _GB_英国 12
+      - _GB_英国 13
+      - _GB_英国 14
+      - _GB_英国 15
+      - _GB_英国 16
+      - _GB_英国 17
+      - _GB_英国 18
+      - _GB_英国 19
+      - _HK_香港
+      - _HK_香港 2
+      - _HK_香港 3
+      - _HK_香港 4
+      - _HK_香港->🇮🇳_IN_印度
+      - _HK_香港->🇰🇷_KR_韩国
+      - _HU_匈牙利
+      - _IL_以色列
+      - _IL_以色列 2
+      - _IN_印度
+      - _IN_印度_1
+      - _IN_印度_2
+      - _IN_印度_3
+      - _IN_印度_4
+      - _IN_印度_5
+      - _IN_印度_6
+      - _IN_印度_7
+      - _IN_印度_8
+      - _IN_印度_9
+      - _JP_日本
+      - _JP_日本 2
+      - _JP_日本 3
+      - _JP_日本 4
+      - _JP_日本 5
+      - _JP_日本_1
+      - _JP_日本_10
+      - _JP_日本_11
+      - _JP_日本_12
+      - _JP_日本_13
+      - _JP_日本_14
+      - _JP_日本_15
+      - _JP_日本_16
+      - _JP_日本_17
+      - _JP_日本_18
+      - _JP_日本_19
+      - _JP_日本_2
+      - _JP_日本_20
+      - _JP_日本_3
+      - _JP_日本_4
+      - _JP_日本_5
+      - _JP_日本_6
+      - _JP_日本_7
+      - _JP_日本_8
+      - _JP_日本_9
+      - _KR_韩国_1
+      - _KR_韩国_10
+      - _KR_韩国_11
+      - _KR_韩国_12
+      - _KR_韩国_13
+      - _KR_韩国_2
+      - _KR_韩国_3
+      - _KR_韩国_4
+      - _KR_韩国_5
+      - _KR_韩国_6
+      - _KR_韩国_7
+      - _KR_韩国_8
+      - _KR_韩国_9
+      - _LU_卢森堡
+      - _MX_墨西哥
       - _NON_Chen-2021.12.18_1
       - _NON_Chen-2021.12.18_1 2
       - _NON_Chen-2021.12.18_10
@@ -7067,6 +8148,125 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_97
       - _NON_FMYC-2021.12.08_98
       - _NON_FMYC-2021.12.08_99
+      - _NO_挪威
+      - _NO_挪威 2
+      - _NO_挪威 3
+      - _NO_挪威 4
+      - _NO_挪威 5
+      - _NO_挪威 6
+      - _NO_挪威 7
+      - _NO_挪威 8
+      - _NO_挪威 9
+      - _NO_挪威 10
+      - _NO_挪威 11
+      - _NO_挪威 12
+      - _NO_挪威 13
+      - _NO_挪威 14
+      - _NO_挪威 15
+      - _NO_挪威 16
+      - _NZ_新西兰
+      - _PT_葡萄牙
+      - _PT_葡萄牙 2
+      - _RO_罗马尼亚
+      - _RO_罗马尼亚 2
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦 2
+      - _RU_俄罗斯联邦_1
+      - _RU_俄罗斯联邦_2
+      - _RU_俄罗斯联邦_3
+      - _SE_瑞典
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - _SG_新加坡_1
+      - _SG_新加坡_10
+      - _SG_新加坡_11
+      - _SG_新加坡_12
+      - _SG_新加坡_13
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _SG_新加坡_16
+      - _SG_新加坡_17
+      - _SG_新加坡_18
+      - _SG_新加坡_19
+      - _SG_新加坡_2
+      - _SG_新加坡_20
+      - _SG_新加坡_21
+      - _SG_新加坡_22
+      - _SG_新加坡_23
+      - _SG_新加坡_24
+      - _SG_新加坡_25
+      - _SG_新加坡_26
+      - _SG_新加坡_3
+      - _SG_新加坡_4
+      - _SG_新加坡_5
+      - _SG_新加坡_6
+      - _SG_新加坡_7
+      - _SG_新加坡_8
+      - _SG_新加坡_9
+      - _TW_台湾
+      - _UA_乌克兰
+      - _UA_乌克兰 2
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国_1
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _US_美国_2
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_3
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_9
+      - default_name
+      - default_name 2
+      - default_name 3
+      - default_name 4
+      - default_name 5
       - 专线|台湾01|原生HINET_1
       - 专线|台湾02|原生HINET_4
       - 专线|台湾03|原生HINET_12
@@ -7958,6 +9158,127 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _AU_澳大利亚
+      - _AU_澳大利亚_1
+      - _AU_澳大利亚_2
+      - _AU_澳大利亚_3
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _DE_德国
+      - _DE_德国_1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _DE_德国_4
+      - _DE_德国_5
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
+      - _FR_法国 5
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
+      - _FR_法国 9
+      - _FR_法国 10
+      - _FR_法国 11
+      - _FR_法国 12
+      - _FR_法国 13
+      - _FR_法国 14
+      - _FR_法国 15
+      - _GB_英国
+      - _GB_英国 2
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - _GB_英国 6
+      - _GB_英国 7
+      - _GB_英国 8
+      - _GB_英国 9
+      - _GB_英国 10
+      - _GB_英国 11
+      - _GB_英国 12
+      - _GB_英国 13
+      - _GB_英国 14
+      - _GB_英国 15
+      - _GB_英国 16
+      - _GB_英国 17
+      - _GB_英国 18
+      - _GB_英国 19
+      - _HK_香港
+      - _HK_香港 2
+      - _HK_香港 3
+      - _HK_香港 4
+      - _HK_香港->🇮🇳_IN_印度
+      - _HK_香港->🇰🇷_KR_韩国
+      - _HU_匈牙利
+      - _IL_以色列
+      - _IL_以色列 2
+      - _IN_印度
+      - _IN_印度_1
+      - _IN_印度_2
+      - _IN_印度_3
+      - _IN_印度_4
+      - _IN_印度_5
+      - _IN_印度_6
+      - _IN_印度_7
+      - _IN_印度_8
+      - _IN_印度_9
+      - _JP_日本
+      - _JP_日本 2
+      - _JP_日本 3
+      - _JP_日本 4
+      - _JP_日本 5
+      - _JP_日本_1
+      - _JP_日本_10
+      - _JP_日本_11
+      - _JP_日本_12
+      - _JP_日本_13
+      - _JP_日本_14
+      - _JP_日本_15
+      - _JP_日本_16
+      - _JP_日本_17
+      - _JP_日本_18
+      - _JP_日本_19
+      - _JP_日本_2
+      - _JP_日本_20
+      - _JP_日本_3
+      - _JP_日本_4
+      - _JP_日本_5
+      - _JP_日本_6
+      - _JP_日本_7
+      - _JP_日本_8
+      - _JP_日本_9
+      - _KR_韩国_1
+      - _KR_韩国_10
+      - _KR_韩国_11
+      - _KR_韩国_12
+      - _KR_韩国_13
+      - _KR_韩国_2
+      - _KR_韩国_3
+      - _KR_韩国_4
+      - _KR_韩国_5
+      - _KR_韩国_6
+      - _KR_韩国_7
+      - _KR_韩国_8
+      - _KR_韩国_9
+      - _LU_卢森堡
+      - _MX_墨西哥
       - _NON_Chen-2021.12.18_1
       - _NON_Chen-2021.12.18_1 2
       - _NON_Chen-2021.12.18_10
@@ -8539,6 +9860,125 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_97
       - _NON_FMYC-2021.12.08_98
       - _NON_FMYC-2021.12.08_99
+      - _NO_挪威
+      - _NO_挪威 2
+      - _NO_挪威 3
+      - _NO_挪威 4
+      - _NO_挪威 5
+      - _NO_挪威 6
+      - _NO_挪威 7
+      - _NO_挪威 8
+      - _NO_挪威 9
+      - _NO_挪威 10
+      - _NO_挪威 11
+      - _NO_挪威 12
+      - _NO_挪威 13
+      - _NO_挪威 14
+      - _NO_挪威 15
+      - _NO_挪威 16
+      - _NZ_新西兰
+      - _PT_葡萄牙
+      - _PT_葡萄牙 2
+      - _RO_罗马尼亚
+      - _RO_罗马尼亚 2
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦 2
+      - _RU_俄罗斯联邦_1
+      - _RU_俄罗斯联邦_2
+      - _RU_俄罗斯联邦_3
+      - _SE_瑞典
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - _SG_新加坡_1
+      - _SG_新加坡_10
+      - _SG_新加坡_11
+      - _SG_新加坡_12
+      - _SG_新加坡_13
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _SG_新加坡_16
+      - _SG_新加坡_17
+      - _SG_新加坡_18
+      - _SG_新加坡_19
+      - _SG_新加坡_2
+      - _SG_新加坡_20
+      - _SG_新加坡_21
+      - _SG_新加坡_22
+      - _SG_新加坡_23
+      - _SG_新加坡_24
+      - _SG_新加坡_25
+      - _SG_新加坡_26
+      - _SG_新加坡_3
+      - _SG_新加坡_4
+      - _SG_新加坡_5
+      - _SG_新加坡_6
+      - _SG_新加坡_7
+      - _SG_新加坡_8
+      - _SG_新加坡_9
+      - _TW_台湾
+      - _UA_乌克兰
+      - _UA_乌克兰 2
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国_1
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _US_美国_2
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_3
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_9
+      - default_name
+      - default_name 2
+      - default_name 3
+      - default_name 4
+      - default_name 5
       - 专线|台湾01|原生HINET_1
       - 专线|台湾02|原生HINET_4
       - 专线|台湾03|原生HINET_12
@@ -9430,6 +10870,127 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _AU_澳大利亚
+      - _AU_澳大利亚_1
+      - _AU_澳大利亚_2
+      - _AU_澳大利亚_3
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _DE_德国
+      - _DE_德国_1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _DE_德国_4
+      - _DE_德国_5
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
+      - _FR_法国 5
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
+      - _FR_法国 9
+      - _FR_法国 10
+      - _FR_法国 11
+      - _FR_法国 12
+      - _FR_法国 13
+      - _FR_法国 14
+      - _FR_法国 15
+      - _GB_英国
+      - _GB_英国 2
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - _GB_英国 6
+      - _GB_英国 7
+      - _GB_英国 8
+      - _GB_英国 9
+      - _GB_英国 10
+      - _GB_英国 11
+      - _GB_英国 12
+      - _GB_英国 13
+      - _GB_英国 14
+      - _GB_英国 15
+      - _GB_英国 16
+      - _GB_英国 17
+      - _GB_英国 18
+      - _GB_英国 19
+      - _HK_香港
+      - _HK_香港 2
+      - _HK_香港 3
+      - _HK_香港 4
+      - _HK_香港->🇮🇳_IN_印度
+      - _HK_香港->🇰🇷_KR_韩国
+      - _HU_匈牙利
+      - _IL_以色列
+      - _IL_以色列 2
+      - _IN_印度
+      - _IN_印度_1
+      - _IN_印度_2
+      - _IN_印度_3
+      - _IN_印度_4
+      - _IN_印度_5
+      - _IN_印度_6
+      - _IN_印度_7
+      - _IN_印度_8
+      - _IN_印度_9
+      - _JP_日本
+      - _JP_日本 2
+      - _JP_日本 3
+      - _JP_日本 4
+      - _JP_日本 5
+      - _JP_日本_1
+      - _JP_日本_10
+      - _JP_日本_11
+      - _JP_日本_12
+      - _JP_日本_13
+      - _JP_日本_14
+      - _JP_日本_15
+      - _JP_日本_16
+      - _JP_日本_17
+      - _JP_日本_18
+      - _JP_日本_19
+      - _JP_日本_2
+      - _JP_日本_20
+      - _JP_日本_3
+      - _JP_日本_4
+      - _JP_日本_5
+      - _JP_日本_6
+      - _JP_日本_7
+      - _JP_日本_8
+      - _JP_日本_9
+      - _KR_韩国_1
+      - _KR_韩国_10
+      - _KR_韩国_11
+      - _KR_韩国_12
+      - _KR_韩国_13
+      - _KR_韩国_2
+      - _KR_韩国_3
+      - _KR_韩国_4
+      - _KR_韩国_5
+      - _KR_韩国_6
+      - _KR_韩国_7
+      - _KR_韩国_8
+      - _KR_韩国_9
+      - _LU_卢森堡
+      - _MX_墨西哥
       - _NON_Chen-2021.12.18_1
       - _NON_Chen-2021.12.18_1 2
       - _NON_Chen-2021.12.18_10
@@ -10011,6 +11572,125 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_97
       - _NON_FMYC-2021.12.08_98
       - _NON_FMYC-2021.12.08_99
+      - _NO_挪威
+      - _NO_挪威 2
+      - _NO_挪威 3
+      - _NO_挪威 4
+      - _NO_挪威 5
+      - _NO_挪威 6
+      - _NO_挪威 7
+      - _NO_挪威 8
+      - _NO_挪威 9
+      - _NO_挪威 10
+      - _NO_挪威 11
+      - _NO_挪威 12
+      - _NO_挪威 13
+      - _NO_挪威 14
+      - _NO_挪威 15
+      - _NO_挪威 16
+      - _NZ_新西兰
+      - _PT_葡萄牙
+      - _PT_葡萄牙 2
+      - _RO_罗马尼亚
+      - _RO_罗马尼亚 2
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦 2
+      - _RU_俄罗斯联邦_1
+      - _RU_俄罗斯联邦_2
+      - _RU_俄罗斯联邦_3
+      - _SE_瑞典
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - _SG_新加坡_1
+      - _SG_新加坡_10
+      - _SG_新加坡_11
+      - _SG_新加坡_12
+      - _SG_新加坡_13
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _SG_新加坡_16
+      - _SG_新加坡_17
+      - _SG_新加坡_18
+      - _SG_新加坡_19
+      - _SG_新加坡_2
+      - _SG_新加坡_20
+      - _SG_新加坡_21
+      - _SG_新加坡_22
+      - _SG_新加坡_23
+      - _SG_新加坡_24
+      - _SG_新加坡_25
+      - _SG_新加坡_26
+      - _SG_新加坡_3
+      - _SG_新加坡_4
+      - _SG_新加坡_5
+      - _SG_新加坡_6
+      - _SG_新加坡_7
+      - _SG_新加坡_8
+      - _SG_新加坡_9
+      - _TW_台湾
+      - _UA_乌克兰
+      - _UA_乌克兰 2
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国_1
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _US_美国_2
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_3
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_9
+      - default_name
+      - default_name 2
+      - default_name 3
+      - default_name 4
+      - default_name 5
       - 专线|台湾01|原生HINET_1
       - 专线|台湾02|原生HINET_4
       - 专线|台湾03|原生HINET_12
@@ -10903,6 +12583,127 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _AU_澳大利亚
+      - _AU_澳大利亚_1
+      - _AU_澳大利亚_2
+      - _AU_澳大利亚_3
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _DE_德国
+      - _DE_德国_1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _DE_德国_4
+      - _DE_德国_5
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
+      - _FR_法国 5
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
+      - _FR_法国 9
+      - _FR_法国 10
+      - _FR_法国 11
+      - _FR_法国 12
+      - _FR_法国 13
+      - _FR_法国 14
+      - _FR_法国 15
+      - _GB_英国
+      - _GB_英国 2
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - _GB_英国 6
+      - _GB_英国 7
+      - _GB_英国 8
+      - _GB_英国 9
+      - _GB_英国 10
+      - _GB_英国 11
+      - _GB_英国 12
+      - _GB_英国 13
+      - _GB_英国 14
+      - _GB_英国 15
+      - _GB_英国 16
+      - _GB_英国 17
+      - _GB_英国 18
+      - _GB_英国 19
+      - _HK_香港
+      - _HK_香港 2
+      - _HK_香港 3
+      - _HK_香港 4
+      - _HK_香港->🇮🇳_IN_印度
+      - _HK_香港->🇰🇷_KR_韩国
+      - _HU_匈牙利
+      - _IL_以色列
+      - _IL_以色列 2
+      - _IN_印度
+      - _IN_印度_1
+      - _IN_印度_2
+      - _IN_印度_3
+      - _IN_印度_4
+      - _IN_印度_5
+      - _IN_印度_6
+      - _IN_印度_7
+      - _IN_印度_8
+      - _IN_印度_9
+      - _JP_日本
+      - _JP_日本 2
+      - _JP_日本 3
+      - _JP_日本 4
+      - _JP_日本 5
+      - _JP_日本_1
+      - _JP_日本_10
+      - _JP_日本_11
+      - _JP_日本_12
+      - _JP_日本_13
+      - _JP_日本_14
+      - _JP_日本_15
+      - _JP_日本_16
+      - _JP_日本_17
+      - _JP_日本_18
+      - _JP_日本_19
+      - _JP_日本_2
+      - _JP_日本_20
+      - _JP_日本_3
+      - _JP_日本_4
+      - _JP_日本_5
+      - _JP_日本_6
+      - _JP_日本_7
+      - _JP_日本_8
+      - _JP_日本_9
+      - _KR_韩国_1
+      - _KR_韩国_10
+      - _KR_韩国_11
+      - _KR_韩国_12
+      - _KR_韩国_13
+      - _KR_韩国_2
+      - _KR_韩国_3
+      - _KR_韩国_4
+      - _KR_韩国_5
+      - _KR_韩国_6
+      - _KR_韩国_7
+      - _KR_韩国_8
+      - _KR_韩国_9
+      - _LU_卢森堡
+      - _MX_墨西哥
       - _NON_Chen-2021.12.18_1
       - _NON_Chen-2021.12.18_1 2
       - _NON_Chen-2021.12.18_10
@@ -11484,6 +13285,125 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_97
       - _NON_FMYC-2021.12.08_98
       - _NON_FMYC-2021.12.08_99
+      - _NO_挪威
+      - _NO_挪威 2
+      - _NO_挪威 3
+      - _NO_挪威 4
+      - _NO_挪威 5
+      - _NO_挪威 6
+      - _NO_挪威 7
+      - _NO_挪威 8
+      - _NO_挪威 9
+      - _NO_挪威 10
+      - _NO_挪威 11
+      - _NO_挪威 12
+      - _NO_挪威 13
+      - _NO_挪威 14
+      - _NO_挪威 15
+      - _NO_挪威 16
+      - _NZ_新西兰
+      - _PT_葡萄牙
+      - _PT_葡萄牙 2
+      - _RO_罗马尼亚
+      - _RO_罗马尼亚 2
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦 2
+      - _RU_俄罗斯联邦_1
+      - _RU_俄罗斯联邦_2
+      - _RU_俄罗斯联邦_3
+      - _SE_瑞典
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - _SG_新加坡_1
+      - _SG_新加坡_10
+      - _SG_新加坡_11
+      - _SG_新加坡_12
+      - _SG_新加坡_13
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _SG_新加坡_16
+      - _SG_新加坡_17
+      - _SG_新加坡_18
+      - _SG_新加坡_19
+      - _SG_新加坡_2
+      - _SG_新加坡_20
+      - _SG_新加坡_21
+      - _SG_新加坡_22
+      - _SG_新加坡_23
+      - _SG_新加坡_24
+      - _SG_新加坡_25
+      - _SG_新加坡_26
+      - _SG_新加坡_3
+      - _SG_新加坡_4
+      - _SG_新加坡_5
+      - _SG_新加坡_6
+      - _SG_新加坡_7
+      - _SG_新加坡_8
+      - _SG_新加坡_9
+      - _TW_台湾
+      - _UA_乌克兰
+      - _UA_乌克兰 2
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国_1
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _US_美国_2
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_3
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_9
+      - default_name
+      - default_name 2
+      - default_name 3
+      - default_name 4
+      - default_name 5
       - 专线|台湾01|原生HINET_1
       - 专线|台湾02|原生HINET_4
       - 专线|台湾03|原生HINET_12
@@ -12392,6 +14312,127 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
+      - _AU_澳大利亚
+      - _AU_澳大利亚_1
+      - _AU_澳大利亚_2
+      - _AU_澳大利亚_3
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _DE_德国
+      - _DE_德国_1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _DE_德国_4
+      - _DE_德国_5
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
+      - _FR_法国 5
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
+      - _FR_法国 9
+      - _FR_法国 10
+      - _FR_法国 11
+      - _FR_法国 12
+      - _FR_法国 13
+      - _FR_法国 14
+      - _FR_法国 15
+      - _GB_英国
+      - _GB_英国 2
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - _GB_英国 6
+      - _GB_英国 7
+      - _GB_英国 8
+      - _GB_英国 9
+      - _GB_英国 10
+      - _GB_英国 11
+      - _GB_英国 12
+      - _GB_英国 13
+      - _GB_英国 14
+      - _GB_英国 15
+      - _GB_英国 16
+      - _GB_英国 17
+      - _GB_英国 18
+      - _GB_英国 19
+      - _HK_香港
+      - _HK_香港 2
+      - _HK_香港 3
+      - _HK_香港 4
+      - _HK_香港->🇮🇳_IN_印度
+      - _HK_香港->🇰🇷_KR_韩国
+      - _HU_匈牙利
+      - _IL_以色列
+      - _IL_以色列 2
+      - _IN_印度
+      - _IN_印度_1
+      - _IN_印度_2
+      - _IN_印度_3
+      - _IN_印度_4
+      - _IN_印度_5
+      - _IN_印度_6
+      - _IN_印度_7
+      - _IN_印度_8
+      - _IN_印度_9
+      - _JP_日本
+      - _JP_日本 2
+      - _JP_日本 3
+      - _JP_日本 4
+      - _JP_日本 5
+      - _JP_日本_1
+      - _JP_日本_10
+      - _JP_日本_11
+      - _JP_日本_12
+      - _JP_日本_13
+      - _JP_日本_14
+      - _JP_日本_15
+      - _JP_日本_16
+      - _JP_日本_17
+      - _JP_日本_18
+      - _JP_日本_19
+      - _JP_日本_2
+      - _JP_日本_20
+      - _JP_日本_3
+      - _JP_日本_4
+      - _JP_日本_5
+      - _JP_日本_6
+      - _JP_日本_7
+      - _JP_日本_8
+      - _JP_日本_9
+      - _KR_韩国_1
+      - _KR_韩国_10
+      - _KR_韩国_11
+      - _KR_韩国_12
+      - _KR_韩国_13
+      - _KR_韩国_2
+      - _KR_韩国_3
+      - _KR_韩国_4
+      - _KR_韩国_5
+      - _KR_韩国_6
+      - _KR_韩国_7
+      - _KR_韩国_8
+      - _KR_韩国_9
+      - _LU_卢森堡
+      - _MX_墨西哥
       - _NON_Chen-2021.12.18_1
       - _NON_Chen-2021.12.18_1 2
       - _NON_Chen-2021.12.18_10
@@ -12973,6 +15014,125 @@ proxy-groups:
       - _NON_FMYC-2021.12.08_97
       - _NON_FMYC-2021.12.08_98
       - _NON_FMYC-2021.12.08_99
+      - _NO_挪威
+      - _NO_挪威 2
+      - _NO_挪威 3
+      - _NO_挪威 4
+      - _NO_挪威 5
+      - _NO_挪威 6
+      - _NO_挪威 7
+      - _NO_挪威 8
+      - _NO_挪威 9
+      - _NO_挪威 10
+      - _NO_挪威 11
+      - _NO_挪威 12
+      - _NO_挪威 13
+      - _NO_挪威 14
+      - _NO_挪威 15
+      - _NO_挪威 16
+      - _NZ_新西兰
+      - _PT_葡萄牙
+      - _PT_葡萄牙 2
+      - _RO_罗马尼亚
+      - _RO_罗马尼亚 2
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦 2
+      - _RU_俄罗斯联邦_1
+      - _RU_俄罗斯联邦_2
+      - _RU_俄罗斯联邦_3
+      - _SE_瑞典
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - _SG_新加坡_1
+      - _SG_新加坡_10
+      - _SG_新加坡_11
+      - _SG_新加坡_12
+      - _SG_新加坡_13
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _SG_新加坡_16
+      - _SG_新加坡_17
+      - _SG_新加坡_18
+      - _SG_新加坡_19
+      - _SG_新加坡_2
+      - _SG_新加坡_20
+      - _SG_新加坡_21
+      - _SG_新加坡_22
+      - _SG_新加坡_23
+      - _SG_新加坡_24
+      - _SG_新加坡_25
+      - _SG_新加坡_26
+      - _SG_新加坡_3
+      - _SG_新加坡_4
+      - _SG_新加坡_5
+      - _SG_新加坡_6
+      - _SG_新加坡_7
+      - _SG_新加坡_8
+      - _SG_新加坡_9
+      - _TW_台湾
+      - _UA_乌克兰
+      - _UA_乌克兰 2
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国_1
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _US_美国_2
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_3
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_9
+      - default_name
+      - default_name 2
+      - default_name 3
+      - default_name 4
+      - default_name 5
       - 专线|台湾01|原生HINET_1
       - 专线|台湾02|原生HINET_4
       - 专线|台湾03|原生HINET_12
