@@ -6,6 +6,7 @@ on:
     types: [started]
   schedule:
     - cron: '0 */1 * * *'
+  workflow_dispatch:
 
 env:
   TZ: Asia/Shanghai
