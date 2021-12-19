@@ -86,3 +86,8 @@ https://acl4ssr-sub.github.io/
 </details>
 
 ****
+
+
+## 统计`Star`
+[![Stargazers over time](https://starchart.cc/some6508/all.svg)](https://starchart.cc/some6508/all)
+
