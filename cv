@@ -596,6 +596,7 @@ proxies:
   - {name: _AU_澳大利亚_2, server: mf-justhost-ru-02.xncloud.xyz, port: 18000, type: vmess, uuid: 36444988-5420-30e6-8d48-87088c824a49, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
   - {name: _AU_澳大利亚_3, server: mf-justhost-ru-02.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
   - {name: _AU_澳大利亚_65, server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: _CA_加拿大, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _CA_加拿大_112, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _CA_加拿大_129, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
   - {name: _CA_加拿大_22, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
@@ -635,6 +636,7 @@ proxies:
   - {name: _FR_法国_66, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _FR_法国_74, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
   - {name: _FR_法国_95, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _GB_英国, server: 172.99.190.90, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: _GB_英国_101, server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: _GB_英国_102, server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _GB_英国_104, server: 172.99.190.90, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -654,6 +656,7 @@ proxies:
   - {name: _GB_英国_68, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: _GB_英国_88, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: _GB_英国_93, server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
+  - {name: _HK_香港, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _HK_香港->🇮🇳_IN_印度_14, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
   - {name: _HK_香港->🇰🇷_KR_韩国_15, server: 156.234.95.72, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
   - {name: _HK_香港_12, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -1060,7 +1063,7 @@ proxies:
   - {name: _RU_俄罗斯联邦_3, server: mf-justhost-ru-01.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
   - {name: _RU_俄罗斯联邦_36, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: _SE_瑞典_70, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: _SG_新加坡, server: 172.104.168.83, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _SG_新加坡, server: 172.104.168.83, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: _SG_新加坡_1, server: mf-aws-sg-11.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
   - {name: _SG_新加坡_10, server: mf-aws-sg-07.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
   - {name: _SG_新加坡_11, server: mf-aws-sg-08.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
@@ -1478,6 +1481,7 @@ proxy-groups:
       - 243香港∞中转
       - 244香港∞中转
       - 245香港∞中转
+      - _HK_香港
       - _HK_香港->🇮🇳_IN_印度_14
       - _HK_香港->🇰🇷_KR_韩国_15
       - _HK_香港_12
@@ -2005,6 +2009,7 @@ proxy-groups:
       - _AU_澳大利亚_2
       - _AU_澳大利亚_3
       - _AU_澳大利亚_65
+      - _CA_加拿大
       - _CA_加拿大_112
       - _CA_加拿大_129
       - _CA_加拿大_22
@@ -2029,6 +2034,7 @@ proxy-groups:
       - _DE_德国_32
       - _DE_德国_4
       - _DE_德国_5
+      - _GB_英国
       - _GB_英国_101
       - _GB_英国_102
       - _GB_英国_104
@@ -2706,6 +2712,7 @@ proxy-groups:
       - _AU_澳大利亚_2
       - _AU_澳大利亚_3
       - _AU_澳大利亚_65
+      - _CA_加拿大
       - _CA_加拿大_112
       - _CA_加拿大_129
       - _CA_加拿大_22
@@ -2745,6 +2752,7 @@ proxy-groups:
       - _FR_法国_66
       - _FR_法国_74
       - _FR_法国_95
+      - _GB_英国
       - _GB_英国_101
       - _GB_英国_102
       - _GB_英国_104
@@ -2764,6 +2772,7 @@ proxy-groups:
       - _GB_英国_68
       - _GB_英国_88
       - _GB_英国_93
+      - _HK_香港
       - _HK_香港->🇮🇳_IN_印度_14
       - _HK_香港->🇰🇷_KR_韩国_15
       - _HK_香港_12
