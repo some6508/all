@@ -592,11 +592,6 @@ proxies:
   - {name: Youtube:鹏哥分享_97, server: 120.197.88.216, port: 20006, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
   - {name: Youtube:鹏哥分享_98, server: global-transit-02-sg.pucdn.me, port: 63005, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-05.pucdn.me}}
   - {name: Youtube:鹏哥分享_99, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _CA_加拿大_1, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _FR_法国_1, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: _HK_香港_1, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
-  - {name: _JP_日本_1, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 172.104.98.216}}
-  - {name: _MX_墨西哥_1, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
   - {name: _NON_Chen-2021.12.18_1, server: zhuzhu12.com, port: 13959, type: vmess, uuid: 52c197fd-667a-3194-adb6-dfc0ccafa4c5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
   - {name: _NON_Chen-2021.12.18_1 2, server: zhuzhu12.com, port: 13959, type: vmess, uuid: 52c197fd-667a-3194-adb6-dfc0ccafa4c5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
   - {name: _NON_Chen-2021.12.18_10, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 52c197fd-667a-3194-adb6-dfc0ccafa4c5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
@@ -917,10 +912,7 @@ proxies:
   - {name: _NON_Chen-2021.12.18_96 2, server: 183.232.163.3, port: 4646, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
   - {name: _NON_Chen-2021.12.18_97, server: 183.232.163.3, port: 4949, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
   - {name: _NON_Chen-2021.12.18_97 2, server: 183.232.163.3, port: 4949, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NO_挪威_1, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NO_挪威_2, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: _RU_俄罗斯联邦_1, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}}
-  - {name: _SG_新加坡_1, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: noName_1, server: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1YzMwMWJiOC02Yzc3LTQxYTAtYTYwNi00YmExMWJiYWIwODQ@, port: 0, type: ss, cipher: chacha20-ietf-poly1305, password: 5c301bb8-6c77-41a0-a606-4ba11bbab084, plugin: v2ray-plugin, plugin-opts: {mode: "", host: golfmey.herokuapp.com, path: /s233, tls: true, mux: false, skip-cert-verify: false}}
   - {name: "乌克兰[感谢订阅——科技网络]", server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
   - {name: 乌克兰（YouTube资源分享者）, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 2, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
@@ -1298,7 +1290,6 @@ proxy-groups:
       - 243香港∞中转
       - 244香港∞中转
       - 245香港∞中转
-      - _HK_香港_1
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港[感谢订阅——科技网络]
       - 香港[感谢订阅——科技网络] 2
@@ -1353,7 +1344,6 @@ proxy-groups:
       - 103日本∞直连
       - 104日本∞直连
       - 105日本∞直连
-      - _JP_日本_1
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
@@ -1614,7 +1604,6 @@ proxy-groups:
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-新加坡V15-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V15-付费推荐::suo.yt/ssrsub 2"
-      - _SG_新加坡_1
       - 新加坡[感谢订阅——科技网络]
       - 新加坡[感谢订阅——科技网络] 2
       - 新加坡[感谢订阅——科技网络] 3
@@ -1721,8 +1710,6 @@ proxy-groups:
       - "@SSRSUB-加拿大V03-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-加拿大V11-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-加拿大V11-付费推荐::suo.yt/ssrsub 2"
-      - _CA_加拿大_1
-      - _RU_俄罗斯联邦_1
       - 俄罗斯联邦3
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
@@ -2370,11 +2357,6 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
-      - _CA_加拿大_1
-      - _FR_法国_1
-      - _HK_香港_1
-      - _JP_日本_1
-      - _MX_墨西哥_1
       - _NON_Chen-2021.12.18_1
       - _NON_Chen-2021.12.18_1 2
       - _NON_Chen-2021.12.18_10
@@ -2695,10 +2677,7 @@ proxy-groups:
       - _NON_Chen-2021.12.18_96 2
       - _NON_Chen-2021.12.18_97
       - _NON_Chen-2021.12.18_97 2
-      - _NO_挪威_1
-      - _NO_挪威_2
-      - _RU_俄罗斯联邦_1
-      - _SG_新加坡_1
+      - noName_1
       - 乌克兰[感谢订阅——科技网络]
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
