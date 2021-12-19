@@ -9,6 +9,7 @@ echo "- 连接链接: $2"
 curl -so $home/$1 "$2"
 local CURL=$?
 [[ $CURL = 0 ]] && echo "- 下载完成: $CURL" || echo "! 下载失败: $CURL"
+echo --------------------
 }
 echo $(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')
 eval "`curl -s 'https://api.github.com/repos/changfengoss/pub/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
