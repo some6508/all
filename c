@@ -5,124 +5,172 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇯🇵_JP_日本_1', server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '🇭🇰_HK_香港_2', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇯🇵_JP_日本_3', server: 172.105.232.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_美国_4', server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: '🇺🇸_US_美国_5', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇺🇸_US_美国_6', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇺🇸_US_美国_7', server: api.ssfree.ru, port: 443, type: vmess, uuid: 8f46235c-601b-11ec-b09f-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /getweather}
-  - {name: '🇺🇸_US_美国_8', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '🇺🇸_US_美国_9', server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
-  - {name: '🇷🇺_RU_俄罗斯联邦_10', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '专线|台湾03|原生HINET_1', server: v34.88host.buzz, port: 18080, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '专线|香港02|原生HGCBBS_2', server: v32.88host.buzz, port: 18065, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '专线|香港01|原生HGCBBS_3', server: v31.88host.buzz, port: 18064, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '日本◆AWS 12 Netflix 1倍率_4', server: global-transit-hk-v2.pucdn.me, port: 40012, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-12.pucdn.me}}
+  - {name: '韩国◆AWS 08 Netflix 1倍率_5', server: global-transit-02-sg.pucdn.me, port: 63008, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-08.pucdn.me}}
+  - {name: '专线|香港08|原生HKBN_6', server: v32.88host.buzz, port: 18083, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '专线|台湾01|原生HINET_7', server: v36.88host.buzz, port: 18078, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '专线|台湾02|原生HINET_8', server: v35.88host.buzz, port: 18079, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '香港_9', server: quohvop8.nodeinfo.icu, port: 6016, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: '基础|台湾03|视频主力_10', server: v13.88host.buzz, port: 18119, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '基础|台湾04|视频主力_11', server: v11.88host.buzz, port: 18120, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '香港◆AWS 01 Netflix 1倍率_12', server: guangzou-yd-jy-03.pucdn.me, port: 62005, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-06.pucdn.me}}
+  - {name: '新加坡◆AWS 08 Netflix 1倍率_13', server: global-transit-02-sg.pucdn.me, port: 61007, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-08.pucdn.me}}
+  - {name: '专线|香港06|原生CMI_14', server: v36.88host.buzz, port: 18069, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '专线|香港07|原生HKBN_15', server: v31.88host.buzz, port: 18082, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: 'SG_16', server: ainetu9e.nodeinfo.icu, port: 3204, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
-      - 🇭🇰_HK_香港_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇷🇺_RU_俄罗斯联邦_10
+      - 专线|台湾03|原生HINET_1
+      - 专线|香港02|原生HGCBBS_2
+      - 专线|香港01|原生HGCBBS_3
+      - 日本◆AWS 12 Netflix 1倍率_4
+      - 韩国◆AWS 08 Netflix 1倍率_5
+      - 专线|香港08|原生HKBN_6
+      - 专线|台湾01|原生HINET_7
+      - 专线|台湾02|原生HINET_8
+      - 香港_9
+      - 基础|台湾03|视频主力_10
+      - 基础|台湾04|视频主力_11
+      - 香港◆AWS 01 Netflix 1倍率_12
+      - 新加坡◆AWS 08 Netflix 1倍率_13
+      - 专线|香港06|原生CMI_14
+      - 专线|香港07|原生HKBN_15
+      - SG_16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵_JP_日本_1
-      - 🇭🇰_HK_香港_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇷🇺_RU_俄罗斯联邦_10
+      - 专线|台湾03|原生HINET_1
+      - 专线|香港02|原生HGCBBS_2
+      - 专线|香港01|原生HGCBBS_3
+      - 日本◆AWS 12 Netflix 1倍率_4
+      - 韩国◆AWS 08 Netflix 1倍率_5
+      - 专线|香港08|原生HKBN_6
+      - 专线|台湾01|原生HINET_7
+      - 专线|台湾02|原生HINET_8
+      - 香港_9
+      - 基础|台湾03|视频主力_10
+      - 基础|台湾04|视频主力_11
+      - 香港◆AWS 01 Netflix 1倍率_12
+      - 新加坡◆AWS 08 Netflix 1倍率_13
+      - 专线|香港06|原生CMI_14
+      - 专线|香港07|原生HKBN_15
+      - SG_16
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
-      - 🇭🇰_HK_香港_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇷🇺_RU_俄罗斯联邦_10
+      - 专线|台湾03|原生HINET_1
+      - 专线|香港02|原生HGCBBS_2
+      - 专线|香港01|原生HGCBBS_3
+      - 日本◆AWS 12 Netflix 1倍率_4
+      - 韩国◆AWS 08 Netflix 1倍率_5
+      - 专线|香港08|原生HKBN_6
+      - 专线|台湾01|原生HINET_7
+      - 专线|台湾02|原生HINET_8
+      - 香港_9
+      - 基础|台湾03|视频主力_10
+      - 基础|台湾04|视频主力_11
+      - 香港◆AWS 01 Netflix 1倍率_12
+      - 新加坡◆AWS 08 Netflix 1倍率_13
+      - 专线|香港06|原生CMI_14
+      - 专线|香港07|原生HKBN_15
+      - SG_16
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵_JP_日本_1
-      - 🇭🇰_HK_香港_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇷🇺_RU_俄罗斯联邦_10
+      - 专线|台湾03|原生HINET_1
+      - 专线|香港02|原生HGCBBS_2
+      - 专线|香港01|原生HGCBBS_3
+      - 日本◆AWS 12 Netflix 1倍率_4
+      - 韩国◆AWS 08 Netflix 1倍率_5
+      - 专线|香港08|原生HKBN_6
+      - 专线|台湾01|原生HINET_7
+      - 专线|台湾02|原生HINET_8
+      - 香港_9
+      - 基础|台湾03|视频主力_10
+      - 基础|台湾04|视频主力_11
+      - 香港◆AWS 01 Netflix 1倍率_12
+      - 新加坡◆AWS 08 Netflix 1倍率_13
+      - 专线|香港06|原生CMI_14
+      - 专线|香港07|原生HKBN_15
+      - SG_16
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵_JP_日本_1
-      - 🇭🇰_HK_香港_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇷🇺_RU_俄罗斯联邦_10
+      - 专线|台湾03|原生HINET_1
+      - 专线|香港02|原生HGCBBS_2
+      - 专线|香港01|原生HGCBBS_3
+      - 日本◆AWS 12 Netflix 1倍率_4
+      - 韩国◆AWS 08 Netflix 1倍率_5
+      - 专线|香港08|原生HKBN_6
+      - 专线|台湾01|原生HINET_7
+      - 专线|台湾02|原生HINET_8
+      - 香港_9
+      - 基础|台湾03|视频主力_10
+      - 基础|台湾04|视频主力_11
+      - 香港◆AWS 01 Netflix 1倍率_12
+      - 新加坡◆AWS 08 Netflix 1倍率_13
+      - 专线|香港06|原生CMI_14
+      - 专线|香港07|原生HKBN_15
+      - SG_16
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
-      - 🇭🇰_HK_香港_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇷🇺_RU_俄罗斯联邦_10
+      - 专线|台湾03|原生HINET_1
+      - 专线|香港02|原生HGCBBS_2
+      - 专线|香港01|原生HGCBBS_3
+      - 日本◆AWS 12 Netflix 1倍率_4
+      - 韩国◆AWS 08 Netflix 1倍率_5
+      - 专线|香港08|原生HKBN_6
+      - 专线|台湾01|原生HINET_7
+      - 专线|台湾02|原生HINET_8
+      - 香港_9
+      - 基础|台湾03|视频主力_10
+      - 基础|台湾04|视频主力_11
+      - 香港◆AWS 01 Netflix 1倍率_12
+      - 新加坡◆AWS 08 Netflix 1倍率_13
+      - 专线|香港06|原生CMI_14
+      - 专线|香港07|原生HKBN_15
+      - SG_16
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵_JP_日本_1
-      - 🇭🇰_HK_香港_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇷🇺_RU_俄罗斯联邦_10
+      - 专线|台湾03|原生HINET_1
+      - 专线|香港02|原生HGCBBS_2
+      - 专线|香港01|原生HGCBBS_3
+      - 日本◆AWS 12 Netflix 1倍率_4
+      - 韩国◆AWS 08 Netflix 1倍率_5
+      - 专线|香港08|原生HKBN_6
+      - 专线|台湾01|原生HINET_7
+      - 专线|台湾02|原生HINET_8
+      - 香港_9
+      - 基础|台湾03|视频主力_10
+      - 基础|台湾04|视频主力_11
+      - 香港◆AWS 01 Netflix 1倍率_12
+      - 新加坡◆AWS 08 Netflix 1倍率_13
+      - 专线|香港06|原生CMI_14
+      - 专线|香港07|原生HKBN_15
+      - SG_16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +186,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵_JP_日本_1
-      - 🇭🇰_HK_香港_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇷🇺_RU_俄罗斯联邦_10
+      - 专线|台湾03|原生HINET_1
+      - 专线|香港02|原生HGCBBS_2
+      - 专线|香港01|原生HGCBBS_3
+      - 日本◆AWS 12 Netflix 1倍率_4
+      - 韩国◆AWS 08 Netflix 1倍率_5
+      - 专线|香港08|原生HKBN_6
+      - 专线|台湾01|原生HINET_7
+      - 专线|台湾02|原生HINET_8
+      - 香港_9
+      - 基础|台湾03|视频主力_10
+      - 基础|台湾04|视频主力_11
+      - 香港◆AWS 01 Netflix 1倍率_12
+      - 新加坡◆AWS 08 Netflix 1倍率_13
+      - 专线|香港06|原生CMI_14
+      - 专线|香港07|原生HKBN_15
+      - SG_16
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
