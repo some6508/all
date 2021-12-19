@@ -5,60 +5,148 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'n_1wode_1', server: 104.16.157.153, port: 443, type: vmess, uuid: c80bf98f-b5f0-4b19-aea5-d5b3ff04d9fb, alterId: 0, cipher: auto, tls: true, network: ws, ws-headers: {Host: withered-glitter-000c.wode9258herokuappcom.workers.dev}}
-  - {name: 'n_2wode_2', server: 172.64.90.144, port: 443, type: vmess, uuid: f3300384-d166-411c-880c-88d7a8357fa5, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: f3300384-d166-411c-880c-88d7a8357fa5-vmess, ws-headers: {Host: proud-moon-aa9a.wode9258herokuappcom.workers.dev}}
+  - {name: '专线|台湾01|原生HINET_1', server: v36.88host.buzz, port: 18078, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '专线|香港06|原生CMI_2', server: v36.88host.buzz, port: 18069, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '基础|香港05|社交主力_3', server: v12.88host.buzz, port: 18009, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
+  - {name: '专线|台湾02|原生HINET_4', server: v35.88host.buzz, port: 18079, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '专线|香港02|原生HGCBBS_5', server: v32.88host.buzz, port: 18065, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '专线|香港07|原生HKBN_6', server: v31.88host.buzz, port: 18082, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '专线|香港01|原生HGCBBS_7', server: v31.88host.buzz, port: 18064, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '专线|香港08|原生HKBN_8', server: v32.88host.buzz, port: 18083, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '专线|香港03|原生CMI_9', server: v33.88host.buzz, port: 18066, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '基础|台湾03|视频主力_10', server: v13.88host.buzz, port: 18119, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '专线|台湾04|原生HINET_11', server: v33.88host.buzz, port: 18081, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '专线|台湾03|原生HINET_12', server: v34.88host.buzz, port: 18080, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '基础|台湾04|视频主力_13', server: v11.88host.buzz, port: 18120, type: vmess, uuid: 3378eb0c-bf85-3a40-8abb-9bbabe934a8c, alterId: 0, cipher: auto, tls: false, network: tcp}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - n_1wode_1
-      - n_2wode_2
+      - 专线|台湾01|原生HINET_1
+      - 专线|香港06|原生CMI_2
+      - 基础|香港05|社交主力_3
+      - 专线|台湾02|原生HINET_4
+      - 专线|香港02|原生HGCBBS_5
+      - 专线|香港07|原生HKBN_6
+      - 专线|香港01|原生HGCBBS_7
+      - 专线|香港08|原生HKBN_8
+      - 专线|香港03|原生CMI_9
+      - 基础|台湾03|视频主力_10
+      - 专线|台湾04|原生HINET_11
+      - 专线|台湾03|原生HINET_12
+      - 基础|台湾04|视频主力_13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - n_1wode_1
-      - n_2wode_2
+      - 专线|台湾01|原生HINET_1
+      - 专线|香港06|原生CMI_2
+      - 基础|香港05|社交主力_3
+      - 专线|台湾02|原生HINET_4
+      - 专线|香港02|原生HGCBBS_5
+      - 专线|香港07|原生HKBN_6
+      - 专线|香港01|原生HGCBBS_7
+      - 专线|香港08|原生HKBN_8
+      - 专线|香港03|原生CMI_9
+      - 基础|台湾03|视频主力_10
+      - 专线|台湾04|原生HINET_11
+      - 专线|台湾03|原生HINET_12
+      - 基础|台湾04|视频主力_13
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - n_1wode_1
-      - n_2wode_2
+      - 专线|台湾01|原生HINET_1
+      - 专线|香港06|原生CMI_2
+      - 基础|香港05|社交主力_3
+      - 专线|台湾02|原生HINET_4
+      - 专线|香港02|原生HGCBBS_5
+      - 专线|香港07|原生HKBN_6
+      - 专线|香港01|原生HGCBBS_7
+      - 专线|香港08|原生HKBN_8
+      - 专线|香港03|原生CMI_9
+      - 基础|台湾03|视频主力_10
+      - 专线|台湾04|原生HINET_11
+      - 专线|台湾03|原生HINET_12
+      - 基础|台湾04|视频主力_13
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - n_1wode_1
-      - n_2wode_2
+      - 专线|台湾01|原生HINET_1
+      - 专线|香港06|原生CMI_2
+      - 基础|香港05|社交主力_3
+      - 专线|台湾02|原生HINET_4
+      - 专线|香港02|原生HGCBBS_5
+      - 专线|香港07|原生HKBN_6
+      - 专线|香港01|原生HGCBBS_7
+      - 专线|香港08|原生HKBN_8
+      - 专线|香港03|原生CMI_9
+      - 基础|台湾03|视频主力_10
+      - 专线|台湾04|原生HINET_11
+      - 专线|台湾03|原生HINET_12
+      - 基础|台湾04|视频主力_13
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - n_1wode_1
-      - n_2wode_2
+      - 专线|台湾01|原生HINET_1
+      - 专线|香港06|原生CMI_2
+      - 基础|香港05|社交主力_3
+      - 专线|台湾02|原生HINET_4
+      - 专线|香港02|原生HGCBBS_5
+      - 专线|香港07|原生HKBN_6
+      - 专线|香港01|原生HGCBBS_7
+      - 专线|香港08|原生HKBN_8
+      - 专线|香港03|原生CMI_9
+      - 基础|台湾03|视频主力_10
+      - 专线|台湾04|原生HINET_11
+      - 专线|台湾03|原生HINET_12
+      - 基础|台湾04|视频主力_13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - n_1wode_1
-      - n_2wode_2
+      - 专线|台湾01|原生HINET_1
+      - 专线|香港06|原生CMI_2
+      - 基础|香港05|社交主力_3
+      - 专线|台湾02|原生HINET_4
+      - 专线|香港02|原生HGCBBS_5
+      - 专线|香港07|原生HKBN_6
+      - 专线|香港01|原生HGCBBS_7
+      - 专线|香港08|原生HKBN_8
+      - 专线|香港03|原生CMI_9
+      - 基础|台湾03|视频主力_10
+      - 专线|台湾04|原生HINET_11
+      - 专线|台湾03|原生HINET_12
+      - 基础|台湾04|视频主力_13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - n_1wode_1
-      - n_2wode_2
+      - 专线|台湾01|原生HINET_1
+      - 专线|香港06|原生CMI_2
+      - 基础|香港05|社交主力_3
+      - 专线|台湾02|原生HINET_4
+      - 专线|香港02|原生HGCBBS_5
+      - 专线|香港07|原生HKBN_6
+      - 专线|香港01|原生HGCBBS_7
+      - 专线|香港08|原生HKBN_8
+      - 专线|香港03|原生CMI_9
+      - 基础|台湾03|视频主力_10
+      - 专线|台湾04|原生HINET_11
+      - 专线|台湾03|原生HINET_12
+      - 基础|台湾04|视频主力_13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +162,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - n_1wode_1
-      - n_2wode_2
+      - 专线|台湾01|原生HINET_1
+      - 专线|香港06|原生CMI_2
+      - 基础|香港05|社交主力_3
+      - 专线|台湾02|原生HINET_4
+      - 专线|香港02|原生HGCBBS_5
+      - 专线|香港07|原生HKBN_6
+      - 专线|香港01|原生HGCBBS_7
+      - 专线|香港08|原生HKBN_8
+      - 专线|香港03|原生CMI_9
+      - 基础|台湾03|视频主力_10
+      - 专线|台湾04|原生HINET_11
+      - 专线|台湾03|原生HINET_12
+      - 基础|台湾04|视频主力_13
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
