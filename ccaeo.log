@@ -1,34 +1,34 @@
 + PS4='$LINENO: '
 5: cd /home/runner/work/all/all
 114: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-14: echo 2021年12月19日·周7·20点02分15秒.336毫秒
+14: echo 2021年12月19日·周7·20点20分37秒.775毫秒
 115: curl -s https://api.github.com/repos/changfengoss/pub/commits
-115: grep -m 1 html_url
 115: sed 's/.*"html_url": /html_url=/g'
-15: eval 'html_url="https://github.com/changfengoss/pub/commit/401169e49b7673aa028b8c5f7481d0e4725f2548",'
-115: html_url=https://github.com/changfengoss/pub/commit/401169e49b7673aa028b8c5f7481d0e4725f2548,
-116: curl -s https://github.com/changfengoss/pub/commit/401169e49b7673aa028b8c5f7481d0e4725f2548
+115: grep -m 1 html_url
+15: eval 'html_url="https://github.com/changfengoss/pub/commit/cbaf4b322f8e50248144b74c8d9c42115183f992",'
+115: html_url=https://github.com/changfengoss/pub/commit/cbaf4b322f8e50248144b74c8d9c42115183f992,
+116: curl -s https://github.com/changfengoss/pub/commit/cbaf4b322f8e50248144b74c8d9c42115183f992
 116: sed 's|</a>|"|g'
 116: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/changfengoss/pub/main/|p'
-16: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_19/aVSF5e.yaml"'
-116: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_19/aVSF5e.yaml
+16: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_19/yFri22.yaml"'
+116: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_19/yFri22.yaml
 17: case "$href" in
-19: CURL c https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_19/aVSF5e.yaml
+19: CURL c https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_19/yFri22.yaml
 7: echo --------------------------------------------------
 8: echo '- 下载文件: c'
-9: echo '- 连接链接: https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_19/aVSF5e.yaml'
-10: curl -so /home/runner/work/all/all/c https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_19/aVSF5e.yaml
+9: echo '- 连接链接: https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_19/yFri22.yaml'
+10: curl -so /home/runner/work/all/all/c https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_19/yFri22.yaml
 11: local CURL=0
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
-222: sed 's/.*"html_url": /html_url=/g'
 222: curl -s https://api.github.com/repos/pojiezhiyuanjun/freev2/commits
+222: sed 's/.*"html_url": /html_url=/g'
 222: grep -m 1 html_url
 22: eval 'html_url="https://github.com/pojiezhiyuanjun/freev2/commit/1b3f27ac488fd417e522951fe3e4248f8db3ed61",'
 222: html_url=https://github.com/pojiezhiyuanjun/freev2/commit/1b3f27ac488fd417e522951fe3e4248f8db3ed61,
 223: curl -s https://github.com/pojiezhiyuanjun/freev2/commit/1b3f27ac488fd417e522951fe3e4248f8db3ed61
-223: sed 's|</a>|"|g'
 223: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/|p'
+223: sed 's|</a>|"|g'
 23: eval 'href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1219.zip"'
 223: href=https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1219.zip
 24: case "$href" in
@@ -81,9 +81,9 @@
 11: local CURL=0
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
-339: curl -s https://api.github.com/repos/FMYC2015/V2ray/commits
 339: sed 's/.*"html_url": /html_url=/g'
 339: grep -m 1 html_url
+339: curl -s https://api.github.com/repos/FMYC2015/V2ray/commits
 39: eval 'html_url="https://github.com/FMYC2015/V2ray/commit/e2ff49110ff340dbb638753079cc52d88d4e2a34",'
 339: html_url=https://github.com/FMYC2015/V2ray/commit/e2ff49110ff340dbb638753079cc52d88d4e2a34,
 440: curl -s https://github.com/FMYC2015/V2ray/commit/e2ff49110ff340dbb638753079cc52d88d4e2a34
@@ -99,9 +99,9 @@
 11: local CURL=0
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
-442: grep -m 1 html_url
 442: curl -s https://api.github.com/repos/FMYC2015/Clash/commits
 442: sed 's/.*"html_url": /html_url=/g'
+442: grep -m 1 html_url
 42: eval 'html_url="https://github.com/FMYC2015/Clash/commit/f4d62e019400bf5cd554aa11ee3ae3e02c69311e",'
 442: html_url=https://github.com/FMYC2015/Clash/commit/f4d62e019400bf5cd554aa11ee3ae3e02c69311e,
 443: curl -s https://github.com/FMYC2015/Clash/commit/f4d62e019400bf5cd554aa11ee3ae3e02c69311e
@@ -177,9 +177,9 @@
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
 557: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-57: sed -i '/^|20/c|2021年12月19日·周7·20点02分30秒.375毫秒|' /home/runner/work/all/all/README.md
+57: sed -i '/^|20/c|2021年12月19日·周7·20点21分15秒.849毫秒|' /home/runner/work/all/all/README.md
 558: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒 -d '+1 hour'
-58: sed -i '/^20/c2021年12月19日·周7·21点02分30秒.379毫秒' /home/runner/work/all/all/README.md
+58: sed -i '/^20/c2021年12月19日·周7·21点21分15秒.853毫秒' /home/runner/work/all/all/README.md
 59: echo --------------------------------------------------
 660: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-60: echo 2021年12月19日·周7·20点02分30秒.382毫秒
+60: echo 2021年12月19日·周7·20点21分15秒.856毫秒

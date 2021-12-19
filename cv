@@ -912,7 +912,6 @@ proxies:
   - {name: _NON_Chen-2021.12.18_96 2, server: 183.232.163.3, port: 4646, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
   - {name: _NON_Chen-2021.12.18_97, server: 183.232.163.3, port: 4949, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
   - {name: _NON_Chen-2021.12.18_97 2, server: 183.232.163.3, port: 4949, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: noName_1, server: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1YzMwMWJiOC02Yzc3LTQxYTAtYTYwNi00YmExMWJiYWIwODQ@, port: 0, type: ss, cipher: chacha20-ietf-poly1305, password: 5c301bb8-6c77-41a0-a606-4ba11bbab084, plugin: v2ray-plugin, plugin-opts: {mode: "", host: golfmey.herokuapp.com, path: /s233, tls: true, mux: false, skip-cert-verify: false}}
   - {name: "乌克兰[感谢订阅——科技网络]", server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
   - {name: 乌克兰（YouTube资源分享者）, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 2, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
@@ -2677,7 +2676,6 @@ proxy-groups:
       - _NON_Chen-2021.12.18_96 2
       - _NON_Chen-2021.12.18_97
       - _NON_Chen-2021.12.18_97 2
-      - noName_1
       - 乌克兰[感谢订阅——科技网络]
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
