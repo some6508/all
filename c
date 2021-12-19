@@ -5,124 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇳🇴_NO_挪威_1', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇳🇴_NO_挪威_2', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇭🇰_HK_香港_1', server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
-  - {name: '🇲🇽_MX_墨西哥_1', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: '🇫🇷_FR_法国_1', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '🇯🇵_JP_日本_1', server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 172.104.98.216}}
-  - {name: '🇸🇬_SG_新加坡_1', server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇳_CN_中国_1', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: '🇷🇺_RU_俄罗斯联邦_1', server: v4.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}}
-  - {name: '🇨🇦_CA_加拿大_1', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'noName_1', server: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1YzMwMWJiOC02Yzc3LTQxYTAtYTYwNi00YmExMWJiYWIwODQ@, port: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1YzMwMWJiOC02Yzc3LTQxYTAtYTYwNi00YmExMWJiYWIwODQ@golfmey.herokuapp.com, type: ss, plugin: v2ray-plugin ,plugin-opts: {path: /s233, host: golfmey.herokuapp.com, tls: true}, cipher: chacha20-ietf-poly1305, password: 5c301bb8-6c77-41a0-a606-4ba11bbab084}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇴_NO_挪威_1
-      - 🇳🇴_NO_挪威_2
-      - 🇭🇰_HK_香港_1
-      - 🇲🇽_MX_墨西哥_1
-      - 🇫🇷_FR_法国_1
-      - 🇯🇵_JP_日本_1
-      - 🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇦_CA_加拿大_1
+      - noName_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇳🇴_NO_挪威_1
-      - 🇳🇴_NO_挪威_2
-      - 🇭🇰_HK_香港_1
-      - 🇲🇽_MX_墨西哥_1
-      - 🇫🇷_FR_法国_1
-      - 🇯🇵_JP_日本_1
-      - 🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇦_CA_加拿大_1
+      - noName_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇴_NO_挪威_1
-      - 🇳🇴_NO_挪威_2
-      - 🇭🇰_HK_香港_1
-      - 🇲🇽_MX_墨西哥_1
-      - 🇫🇷_FR_法国_1
-      - 🇯🇵_JP_日本_1
-      - 🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇦_CA_加拿大_1
+      - noName_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇴_NO_挪威_1
-      - 🇳🇴_NO_挪威_2
-      - 🇭🇰_HK_香港_1
-      - 🇲🇽_MX_墨西哥_1
-      - 🇫🇷_FR_法国_1
-      - 🇯🇵_JP_日本_1
-      - 🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇦_CA_加拿大_1
+      - noName_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇴_NO_挪威_1
-      - 🇳🇴_NO_挪威_2
-      - 🇭🇰_HK_香港_1
-      - 🇲🇽_MX_墨西哥_1
-      - 🇫🇷_FR_法国_1
-      - 🇯🇵_JP_日本_1
-      - 🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇦_CA_加拿大_1
+      - noName_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇳🇴_NO_挪威_1
-      - 🇳🇴_NO_挪威_2
-      - 🇭🇰_HK_香港_1
-      - 🇲🇽_MX_墨西哥_1
-      - 🇫🇷_FR_法国_1
-      - 🇯🇵_JP_日本_1
-      - 🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇦_CA_加拿大_1
+      - noName_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇴_NO_挪威_1
-      - 🇳🇴_NO_挪威_2
-      - 🇭🇰_HK_香港_1
-      - 🇲🇽_MX_墨西哥_1
-      - 🇫🇷_FR_法国_1
-      - 🇯🇵_JP_日本_1
-      - 🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇦_CA_加拿大_1
+      - noName_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +66,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇴_NO_挪威_1
-      - 🇳🇴_NO_挪威_2
-      - 🇭🇰_HK_香港_1
-      - 🇲🇽_MX_墨西哥_1
-      - 🇫🇷_FR_法国_1
-      - 🇯🇵_JP_日本_1
-      - 🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国_1
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇨🇦_CA_加拿大_1
+      - noName_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
