@@ -989,7 +989,6 @@ proxies:
   - {name: 付费推荐:dlj.tf/ssrsub__14, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 以色列（YouTube资源分享者）, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
   - {name: 以色列（YouTube资源分享者） 2, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: 俄罗斯3：darrenliuwei.com_1, server: rrruuaab333.liuwei01.tk, port: 443, type: vmess, uuid: 5bff6f03-1d6f-4ef0-8320-3a4dd7eb4cc8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /darren, ws-headers: {Host: rrruuaab333.liuwei01.tk}}
   - {name: 俄罗斯（YouTube资源分享者）, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
   - {name: 俄罗斯（YouTube资源分享者） 2, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
   - {name: 俄罗斯（YouTube资源分享者） 3, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
@@ -1826,7 +1825,6 @@ proxy-groups:
       - _US_美国->🇷🇺_RU_俄罗斯联邦
       - _US_美国->🇷🇺_RU_俄罗斯联邦 2
       - _US_美国->🇷🇺_RU_俄罗斯联邦 3
-      - 俄罗斯3：darrenliuwei.com_1
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
       - 俄罗斯（YouTube资源分享者） 3
@@ -2860,7 +2858,6 @@ proxy-groups:
       - 付费推荐:dlj.tf/ssrsub__14
       - 以色列（YouTube资源分享者）
       - 以色列（YouTube资源分享者） 2
-      - 俄罗斯3：darrenliuwei.com_1
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
       - 俄罗斯（YouTube资源分享者） 3
