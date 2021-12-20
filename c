@@ -5,164 +5,2676 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇭🇰_HK_香港_1', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇭🇰_HK_香港_2', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_3', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: '🇺🇸_US_美国_4', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: 'default_name_5', server: 104.21.60.154, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
-  - {name: '🇷🇺_RU_俄罗斯联邦_6', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: '🇨🇦_CA_加拿大_7', server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: '🇺🇸_US_美国_8', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '🇧🇬_BG_保加利亚_9', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: '🇸🇬_SG_新加坡_10', server: 172.104.168.83, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_11', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '🇨🇦_CA_加拿大_12', server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_13', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇫🇷_FR_法国_14', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: '🇮🇳_IN_印度_15', server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: '🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・01_1', server: 120.232.214.249, port: 1070, type: ssr, password: "j9skjqkdkej", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 93267:0zhws0tiysfm, obfs-param: 37b5093267.microsoft.com}
+  - {name: '🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・04_2', server: 120.232.214.249, port: 1073, type: ssr, password: "j9skjqkdkej", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 93267:0zhws0tiysfm, obfs-param: 37b5093267.microsoft.com}
+  - {name: '🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・03_3', server: 120.232.214.249, port: 1092, type: ssr, password: "j9skjqkdkej", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 93267:0zhws0tiysfm, obfs-param: 37b5093267.microsoft.com}
+  - {name: '🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・04_4', server: 120.232.214.249, port: 1093, type: ssr, password: "j9skjqkdkej", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 93267:0zhws0tiysfm, obfs-param: 37b5093267.microsoft.com}
+  - {name: '🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・05_5', server: 120.232.214.249, port: 1094, type: ssr, password: "j9skjqkdkej", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 93267:0zhws0tiysfm, obfs-param: 37b5093267.microsoft.com}
+  - {name: '🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・02_6', server: 120.232.214.181, port: 1051, type: ssr, password: "j9skjqkdkej", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 93267:0zhws0tiysfm, obfs-param: 37b5093267.microsoft.com}
+  - {name: '🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・03_7', server: 120.232.214.181, port: 1052, type: ssr, password: "j9skjqkdkej", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 93267:0zhws0tiysfm, obfs-param: 37b5093267.microsoft.com}
+  - {name: '🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・01_8', server: 120.232.215.164, port: 1080, type: ssr, password: "j9skjqkdkej", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 93267:0zhws0tiysfm, obfs-param: 37b5093267.microsoft.com}
+  - {name: '🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・02_9', server: 120.232.215.164, port: 1081, type: ssr, password: "j9skjqkdkej", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 93267:0zhws0tiysfm, obfs-param: 37b5093267.microsoft.com}
+  - {name: '🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・03_10', server: 120.232.215.164, port: 1082, type: ssr, password: "j9skjqkdkej", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 93267:0zhws0tiysfm, obfs-param: 37b5093267.microsoft.com}
+  - {name: '🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・04_11', server: 120.232.215.164, port: 1083, type: ssr, password: "j9skjqkdkej", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 93267:0zhws0tiysfm, obfs-param: 37b5093267.microsoft.com}
+  - {name: '🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・05_12', server: 120.232.215.164, port: 1084, type: ssr, password: "j9skjqkdkej", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 93267:0zhws0tiysfm, obfs-param: 37b5093267.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・09_13', server: 120.232.215.176, port: 5958, type: ssr, password: "j9skjqkdkej", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 93267:0zhws0tiysfm, obfs-param: 37b5093267.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・19_14', server: 120.232.214.216, port: 5958, type: ssr, password: "j9skjqkdkej", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 93267:0zhws0tiysfm, obfs-param: 37b5093267.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 B01-CN2 香港A_15', server: 101.230.86.31, port: 22001, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 B02-CN2 香港B_16', server: 101.230.86.31, port: 22002, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 B03-CN2 巴基斯坦 - 6x_17', server: 101.230.86.31, port: 22020, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本A_18', server: 101.230.86.31, port: 22017, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本B_19', server: 101.230.86.31, port: 22021, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 C01-BGP 香港A NF-HK- X2x_20', server: 120.232.161.112, port: 22003, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 C02-BGP 香港B NF-HK- X2x_21', server: 120.232.161.112, port: 22004, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 C03-BGP 香港C_22', server: 120.232.214.206, port: 22016, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 C04-BGP 美国A_23', server: 101.230.86.31, port: 22005, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 C05-BGP 美国B_24', server: 120.232.161.112, port: 22006, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 C06-BGP 日本A_25', server: 120.232.214.206, port: 22007, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本B_26', server: 120.232.214.206, port: 22008, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本C_27', server: 120.232.214.206, port: 22018, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 C08-BGP 台湾_28', server: 120.232.161.112, port: 22016, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 C08-BGP 新加坡A_29', server: 120.232.214.206, port: 22009, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 C09-BGP 新加坡B_30', server: 120.232.214.206, port: 22010, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 C10-BGP 新加坡C_31', server: 120.232.161.112, port: 22011, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇨🇦 油管晓飞分享 🇨🇦 C11-BGP 加拿大_32', server: 120.232.214.206, port: 22012, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇬🇧 油管晓飞分享 🇬🇧 C12-BGP 英国_33', server: 120.232.214.206, port: 22013, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇰🇷 油管晓飞分享 🇰🇷 C13-BGP 首尔_34', server: 120.232.214.206, port: 22014, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇮🇳 油管晓飞分享 🇮🇳 C14-BGP 印度_35', server: 120.232.214.206, port: 22015, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇷🇺 油管晓飞分享🇷🇺 其他用途俄02_36', server: 120.232.192.41, port: 2302/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: ru-2-543.duuk.info}
+  - {name: '🇩🇪 油管晓飞分享 🇩🇪 C15-BGP 德国_37', server: 120.232.161.112, port: 22019, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇵🇭 油管晓飞分享 🇵🇭 C16-BGP 菲律宾_38', server: 120.232.161.112, port: 22024, type: ssr, password: "x52s9bPIblI", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2827:RllegG, obfs-param: support.apple.com}
+  - {name: '🇨🇳 油管晓飞分享 台2_|NF|动画疯_39', server: 120.232.214.175, port: 5302/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: tw-2-545.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02_40', server: 211.99.96.7, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳 油管晓飞分享 台4_|NF|动画疯_41', server: 120.232.192.41, port: 5304/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: tw-04-590.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05_42', server: 211.99.96.4, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳 油管晓飞分享 台5_|NF|动画疯_43', server: 120.232.192.41, port: 5305/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: tw-05-591.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07_44', server: 211.99.96.10, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08_45', server: 211.99.96.11, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09_46', server: 211.99.96.12, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳 油管晓飞分享 台7_|NF|动画疯_47', server: 120.232.192.41, port: 5307/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: tw-07-593.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10_48', server: 211.99.96.13, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享 坡01_|NF_49', server: 183.232.163.147, port: 9301/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: sgp-1-546.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11_50', server: 211.99.96.14, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13_51', server: 211.99.96.16, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14_52', server: 211.99.96.17, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享 坡03_NF_53', server: 120.232.192.41, port: 9303/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: sgp-3-548.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15_54', server: 211.99.96.18, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16_55', server: 211.99.96.19, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享 坡04_|NF_56', server: 120.232.214.175, port: 9304/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: sgp-4-549.duuk.info}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 02 | Media_57', server: 211.99.96.21, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 03 | Media_58', server: 211.99.96.22, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享 坡08_59', server: 120.232.214.175, port: 9308/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: sgp-8-553.duuk.info}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 05 | Media_60', server: 211.99.96.24, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 01 | Media_61', server: 211.99.96.31, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 02 | Media_62', server: 211.99.96.32, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇯🇵 油管晓飞分享 日03_|NF|DMM_63', server: 120.232.214.175, port: 6303/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: jp-3-556.duuk.info}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 03 | Media_64', server: 211.99.96.33, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 04 | Media_65', server: 211.99.96.34, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 05 | Media_66', server: 211.99.96.35, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇯🇵 油管晓飞分享 日05_67', server: 183.232.163.147, port: 6305/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: jp-5-558.duuk.info}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 06 | Media_68', server: 211.99.96.36, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇭🇰 油管晓飞分享 港01_|NF_69', server: 120.232.192.41, port: 8301/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: hk-1-560.duuk.info}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 Taiwan 04 | Shenzhen_70', server: 211.99.96.40, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇭🇰 油管晓飞分享 港04_|NF_71', server: 183.232.163.147, port: 8304/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: hk04-01-azure-24567.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 01 2_72', server: 162.14.22.156, port: 34086, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02 2_73', server: 162.14.22.156, port: 34344, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 港06_|NF|TVB_74', server: 183.232.163.147, port: 8306/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: hk-6-563.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 03 2_75', server: 162.14.22.156, port: 32353, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 04 2_76', server: 162.14.22.156, port: 39709, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05 2_77', server: 162.14.22.156, port: 39130, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 06 2_78', server: 162.14.22.156, port: 36148, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07 2_79', server: 162.14.22.156, port: 34245, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08 2_80', server: 162.14.22.156, port: 33352, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 港09_81', server: 183.232.163.147, port: 8309/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: hk-9-566.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09 2_82', server: 162.14.22.156, port: 35639, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10 2_83', server: 162.14.22.156, port: 33283, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11 2_84', server: 162.14.22.156, port: 38407, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 12 2_85', server: 162.14.22.156, port: 36926, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 港12_86', server: 120.232.214.175, port: 8012/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: hk-12-498.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13 2_87', server: 162.14.22.156, port: 35590, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14 2_88', server: 162.14.22.156, port: 32525, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15 2_89', server: 162.14.22.156, port: 35519, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16 2_90', server: 162.14.22.156, port: 37655, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 17_91', server: 162.14.22.156, port: 34514, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇺🇸 油管晓飞分享 美1_|NF_92', server: 120.232.214.175, port: 7301/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: us-1-570.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 18_93', server: 162.14.22.156, port: 38211, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 19_94', server: 162.14.22.156, port: 38345, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇺🇸 油管晓飞分享 美2_|NF_95', server: 120.232.214.175, port: 7302/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: us-2-571.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 23 IPv4 Stream_96', server: 162.14.22.156, port: 37207, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 United States 01_97', server: 162.14.9.49, port: 35439, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇺🇸 油管晓飞分享 美5_98', server: 183.232.163.147, port: 7005/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: us-vultr-5.duuk.info}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 United States 02_99', server: 162.14.9.49, port: 37520, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 United States 03_100', server: 162.14.9.49, port: 35174, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇰🇷 油管晓飞分享 🇰🇷 韩1_101', server: 120.232.214.175, port: 3301/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: kr-1-574.duuk.info}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 United States 08_102', server: 162.14.9.49, port: 36459, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 United States 09_103', server: 162.14.9.49, port: 33520, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 United States 10_104', server: 162.14.9.49, port: 37297, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 United States 11_105', server: 162.14.9.49, port: 33903, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 United States 12_106', server: 162.14.9.49, port: 34499, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 United States 13_107', server: 162.14.9.49, port: 34554, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 United States 16 IPv4 Stream_108', server: 162.14.9.49, port: 37020, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 United States 17 IPv4 Stream_109', server: 162.14.9.49, port: 35399, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 01_110', server: 162.14.9.49, port: 35037, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 02_111', server: 162.14.9.49, port: 34642, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 03_112', server: 162.14.9.49, port: 38742, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 04_113', server: 162.14.9.49, port: 36443, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 05_114', server: 162.14.9.49, port: 35849, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 06_115', server: 162.14.9.49, port: 33012, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 07_116', server: 162.14.9.49, port: 34946, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 08_117', server: 162.14.9.49, port: 33170, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 09_118', server: 162.14.9.49, port: 34503, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 10_119', server: 162.14.9.49, port: 32743, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 11_120', server: 162.14.9.49, port: 33317, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 12_121', server: 162.14.9.49, port: 35653, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 13_122', server: 162.14.9.49, port: 33257, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 14_123', server: 162.14.9.49, port: 37186, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 15_124', server: 162.14.9.49, port: 36674, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 16_125', server: 162.14.9.49, port: 34102, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 17_126', server: 162.14.9.49, port: 36500, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 18_127', server: 162.14.9.49, port: 32153, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 19_128', server: 162.14.9.49, port: 37772, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 20_129', server: 162.14.9.49, port: 33873, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇷🇺 油管晓飞分享 🇷🇺 02.俄罗斯 路由管控_130', server: 120.232.43.146, port: 20002, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 Japan 21_131', server: 162.14.9.49, port: 37126, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇳🇱 油管晓飞分享 🇳🇱 Netherlands_132', server: 162.14.4.4, port: 38625, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇷🇺 油管晓飞分享 🇷🇺 Russia St.Peterburg_133', server: 162.14.4.4, port: 32549, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇷🇺 油管晓飞分享 🇷🇺 Russia Moscow_134', server: 162.14.4.4, port: 37502, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇩🇪 油管晓飞分享 🇩🇪 Germany 1_135', server: 162.14.4.4, port: 37179, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇩🇪 油管晓飞分享 🇩🇪 Germany 2_136', server: 162.14.4.4, port: 36713, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇫🇷 油管晓飞分享 🇫🇷 France_137', server: 162.14.4.4, port: 36970, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 1_138', server: 162.14.4.4, port: 38248, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 2_139', server: 162.14.4.4, port: 39021, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 3_140', server: 162.14.4.4, port: 36123, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇸🇪 油管晓飞分享 🇸🇪 Sweden_141', server: 162.14.4.4, port: 36662, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '油管晓飞分享 Bulgaria_142', server: 162.14.4.4, port: 36209, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇦🇹 油管晓飞分享 🇦🇹 Austria_143', server: 162.14.4.4, port: 36489, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇮🇪 油管晓飞分享 🇮🇪 Ireland 1_144', server: 162.14.4.4, port: 32761, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇮🇪 油管晓飞分享 🇮🇪 Ireland 2_145', server: 162.14.4.4, port: 32626, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '油管晓飞分享 Israel_146', server: 162.14.4.4, port: 35152, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '油管晓飞分享 坡07_147', server: 120.232.192.41, port: 9307/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: sgp-7-552.duuk.info}
+  - {name: '🇹🇷 油管晓飞分享 🇹🇷 Turkey_148', server: 162.14.4.4, port: 32296, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇮🇹 油管晓飞分享 🇮🇹 Italy_149', server: 162.14.4.4, port: 36580, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 日02_|NF|DMM_150', server: 120.232.192.41, port: 6302/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: jp-2-555.duuk.info}
+  - {name: '油管晓飞分享 Hungary_151', server: 162.14.4.4, port: 32260, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇯🇵 油管晓飞分享 日04_|NF|DMM_152', server: 183.232.163.147, port: 6304/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: jp-4-557.duuk.info}
+  - {name: '🇰🇷 油管晓飞分享 🇰🇷 Korea 1_153', server: 162.14.22.156, port: 37743, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇰🇷 油管晓飞分享 🇰🇷 Korea 2_154', server: 162.14.22.156, port: 35281, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇰🇷 油管晓飞分享 🇰🇷 Korea 4_155', server: 162.14.9.49, port: 35290, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 Taiwan 1_156', server: 162.14.22.156, port: 34966, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 Taiwan 2_157', server: 162.14.22.156, port: 36851, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇺🇸 油管晓飞分享 美3_158', server: 120.232.214.175, port: 7303/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: us-3-572.duuk.info}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 Taiwan 3_159', server: 162.14.22.156, port: 39366, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 Taiwan 4_160', server: 162.14.22.156, port: 37807, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 Taiwan 5_161', server: 162.14.22.156, port: 34477, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 Taiwan 6_162', server: 162.14.22.156, port: 34119, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇨🇦 油管晓飞分享 🇨🇦 Canada 1_163', server: 162.14.9.49, port: 36584, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇨🇦 油管晓飞分享 🇨🇦 Canada 2_164', server: 162.14.9.49, port: 39729, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇦🇺 油管晓飞分享 🇦🇺 Australia Sydney 02_165', server: 162.14.22.156, port: 36505, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇮🇳 油管晓飞分享 🇮🇳 India 1_166', server: 162.14.22.156, port: 34296, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇮🇳 油管晓飞分享 🇮🇳 India 2_167', server: 162.14.22.156, port: 37627, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇮🇩 油管晓飞分享 🇮🇩 Indonesia 01_168', server: 162.14.22.156, port: 39598, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇧🇷 油管晓飞分享 🇧🇷 Brazil 01_169', server: 162.14.9.49, port: 35913, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 01_170', server: 162.14.22.156, port: 38186, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 02_171', server: 162.14.22.156, port: 33135, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 03_172', server: 162.14.22.156, port: 32991, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 04_173', server: 162.14.22.156, port: 38657, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 05_174', server: 162.14.22.156, port: 38989, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 06_175', server: 162.14.22.156, port: 32819, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 07_176', server: 162.14.22.156, port: 32637, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 08_177', server: 162.14.22.156, port: 36449, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 09_178', server: 162.14.22.156, port: 34504, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 10_179', server: 162.14.22.156, port: 33030, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 Singapore 12 IPv4 Stream_180', server: 162.14.22.156, port: 36126, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇲🇾 油管晓飞分享 🇲🇾 Malaysia 01_181', server: 162.14.22.156, port: 35505, type: ssr, password: "nexitally", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 79564039:d35964c8bdaf4517}
+  - {name: '🇷🇺 油管晓飞分享 🇷🇺 03.俄罗斯 路由管控_182', server: 120.232.43.146, port: 20003, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 04.美国 路由管控_183', server: 120.232.43.146, port: 20004, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 05.香港 路由管控_184', server: 120.232.43.146, port: 20005, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 06.台湾 路由管控_185', server: 120.232.43.146, port: 20006, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 07.日本 路由管控_186', server: 120.232.43.146, port: 20007, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: '油管晓飞分享 10.阿联酉 VIP专区_187', server: 120.232.43.146, port: 20010, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 12.香港 VIP专区_188', server: 120.232.43.146, port: 20012, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 13.香港 VIP专区_189', server: 120.232.43.146, port: 20013, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 14.日本 VIP专区_190', server: 120.232.43.146, port: 20014, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 15.美国 VIP专区_191', server: 120.232.43.146, port: 20015, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: '🇲🇴 油管晓飞分享 🇲🇴 17.澳门 明星线路_192', server: 120.232.43.146, port: 20017, type: ssr, password: "akhfaf", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1554:IqBVpL, obfs-param: 83bc01554.microsoft.com}
+  - {name: '🇷🇺 油管晓飞分享🇷🇺 其他用途俄01_193', server: 120.232.192.41, port: 2301/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: ru-1-542.duuk.info}
+  - {name: '🇨🇳 油管晓飞分享 台1_|NF|动画疯_194', server: 120.232.192.41, port: 5301/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: tw-1-544.duuk.info}
+  - {name: '🇨🇳 油管晓飞分享 台3_|NF|动画疯_195', server: 120.232.214.175, port: 5303/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: tw-03-505.duuk.info}
+  - {name: '🇨🇳 油管晓飞分享 台6_|NF|动画疯_196', server: 120.232.214.175, port: 5306/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: tw-06-592.duuk.info}
+  - {name: '油管晓飞分享 坡02_|NF_197', server: 120.232.214.175, port: 9302/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: sgp-2-547.duuk.info}
+  - {name: '油管晓飞分享 坡05_|NF_198', server: 120.232.214.175, port: 9305/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: sgp-5-550.duuk.info}
+  - {name: '油管晓飞分享 坡06_199', server: 120.232.214.175, port: 9306/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: sgp-6-551.duuk.info}
+  - {name: '🇯🇵 油管晓飞分享 日01_|NF|DMM_200', server: 120.232.192.41, port: 6301/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: jp-1-554.duuk.info}
+  - {name: '🇯🇵 油管晓飞分享 日06_201', server: 120.232.214.175, port: 6306/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: jp-6-559.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 港02_|NF_202', server: 120.232.192.41, port: 8302/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: hk-2-561.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 港03_|NF_203', server: 120.232.214.175, port: 8303/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: hk-3-562.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 港05_|NF|TVB_204', server: 183.232.163.147, port: 8305/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: hk04-azure-uihn01.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 港08_205', server: 120.232.192.41, port: 8308/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: hk-8-565.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 港10_206', server: 120.232.214.175, port: 8310/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: hk-10-567.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 港11_207', server: 120.232.214.175, port: 8011/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: hk-11-497.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享 港13_208', server: 120.232.214.175, port: 8313/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: hk-13-568.duuk.info}
+  - {name: '🇺🇸 油管晓飞分享 美4_209', server: 120.232.214.175, port: 7304/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: us-4-573.duuk.info}
+  - {name: '🇰🇷 油管晓飞分享 🇰🇷 韩2_210', server: 183.232.163.147, port: 3302/, type: trojan, password: 9e60f8dd-ba38-50fd-825a-ec7cb21a285b, sni: kr-2-575.duuk.info}
+  - {name: '🇭🇰 油管晓飞分享🇭🇰 大麦-AIA-HK-香港-A-2.0x-视频_211', server: 162.14.16.4, port: 583, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享🇭🇰 小麦-AIA-Game-HK-广港-1-15x-游戏_212', server: 162.14.20.69, port: 574, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-1-2.0x-视频_213', server: 183.232.56.182, port: 574, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-2-2.0x-视频_214', server: 183.232.56.182, port: 575, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-3-2.0x-视频_215', server: 183.232.56.182, port: 576, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-4-2.0x-视频_216', server: 183.232.56.182, port: 577, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-1-视频_217', server: 183.232.56.182, port: 1251, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-2-视频_218', server: 183.232.56.110, port: 1252, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-3-视频_219', server: 183.232.56.182, port: 1253, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-1-2.0x-视频_220', server: 183.232.56.182, port: 1501, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-2-2.0x-视频_221', server: 183.232.56.110, port: 1502, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-3-2.0x-视频_222', server: 183.232.56.182, port: 1503, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇹🇷 油管晓飞分享🇹🇷 小麦-中继-TR-土耳其-1-买买买_223', server: 183.232.56.110, port: 1561, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-1-2.0x-视频_224', server: 183.232.56.182, port: 1201, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-2-2.0x-视频_225', server: 183.232.56.110, port: 1202, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-3-2.0x-视频_226', server: 183.232.56.182, port: 1203, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-1-2.0x-视频_227', server: 183.232.56.182, port: 1301, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-2-2.0x-视频_228', server: 183.232.56.110, port: 1302, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-3-2.0x-视频_229', server: 183.232.56.182, port: 1303, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-4-2.0x-视频_230', server: 183.232.56.110, port: 1304, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-1-2.0x-视频_231', server: 183.232.56.110, port: 574, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-2-2.0x-视频_232', server: 183.232.56.110, port: 575, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-3-2.0x-视频_233', server: 183.232.56.110, port: 576, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-4-2.0x-视频_234', server: 183.232.56.110, port: 577, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: b43e313.microsoft.com}
+  - {name: '油管晓飞分享 Special 冰岛 01 1x Residential_235', server: 223.166.97.42, port: 5100/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇲🇴 油管晓飞分享 🇲🇴 Special 澳门 01 1x Residential_236', server: 223.166.97.42, port: 5101/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 专线 台湾 01 3x Residential_237', server: 223.166.19.149, port: 5001/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 专线 新加坡 01 3x Residential_238', server: 223.166.19.149, port: 5002/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 专线 日本 01 3x Media_239', server: 223.166.19.149, port: 5004/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 专线 美国 01 3x Residential_240', server: 223.166.19.149, port: 5003/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇲🇾 油管晓飞分享 🇲🇾 专线 马来西亚 01 3x Residential_241', server: 223.166.19.149, port: 5005/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 01 1x Residential_242', server: xmsj-sha-ctcn2-01.liangxinyun.xyz, port: 5900/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 02 1x Residential_243', server: xmsj-sha-ctcn2-01.liangxinyun.xyz, port: 5901/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 03 1x Residential_244', server: xmsj-sha-ctcn2-01.liangxinyun.xyz, port: 5902/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 04 1x Residential_245', server: xmsj-sha-ctcn2-01.liangxinyun.xyz, port: 5903/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 05 1x Residential_246', server: xmsj-sha-ctcn2-01.liangxinyun.xyz, port: 5904/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 01 1x Media_247', server: hzcm-yp-pop-01.liangxinyun.xyz, port: 5700/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 03 1x Media_248', server: hzcm-yp-pop-01.liangxinyun.xyz, port: 5702/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 04 1x Media_249', server: hzcm-yp-pop-01.liangxinyun.xyz, port: 5703/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 中继 日本 01 1x Media_250', server: xmsj-sha-ctcn2-01.liangxinyun.xyz, port: 5600/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 中继 日本 02 1x Media_251', server: xmsj-sha-ctcn2-01.liangxinyun.xyz, port: 5601/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 中继 日本 03 1x Media_252', server: xmsj-sha-ctcn2-01.liangxinyun.xyz, port: 5602/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 中继 日本 04 1x Media_253', server: xmsj-sha-ctcn2-01.liangxinyun.xyz, port: 5603/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 中继 美国 02 1x Residential_254', server: xmsj-sha-ctcn2-01.liangxinyun.xyz, port: 5501/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 01 1x Media_255', server: hzcm-yp-pop-01.liangxinyun.xyz, port: 5200/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 02 1x Media_256', server: hzcm-yp-pop-01.liangxinyun.xyz, port: 5201/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 03 1x Media_257', server: hzcm-yp-pop-01.liangxinyun.xyz, port: 5202/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 04 1x Media_258', server: hzcm-yp-pop-01.liangxinyun.xyz, port: 5203/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 中继 香港 01 1x_259', server: 0750-s1.cm.liangxinyun.xyz, port: 5800/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 中继 香港 02 1x_260', server: 0750-s1.cm.liangxinyun.xyz, port: 5801/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 中继 香港 03 1x_261', server: 0750-s1.cm.liangxinyun.xyz, port: 5802/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 中继 香港 04 1x_262', server: 0750-s1.cm.liangxinyun.xyz, port: 5803/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇲🇾 油管晓飞分享 🇲🇾 中继 马来西亚 01 1x Residential_263', server: 0750-s2.cm.liangxinyun.xyz, port: 5500/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 直连 日本 01 1.5x Media_264', server: 213.173.34.35, port: 8021/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 直连 日本 02 1.5x Media_265', server: 213.173.34.36, port: 8021/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 直连 美国 0.5x Media_266', server: 209.141.43.112, port: 8021/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 直连 美国 1x Residential_267', server: 156.251.142.10, port: 8021/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 01 1x Media_268', server: 193.123.231.95, port: 8021/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 02 1x Media_269', server: 193.123.254.118, port: 8021/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '油管晓飞分享 续费专用节点_270', server: 185.218.6.113, port: 8021/, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: xmsj.liangxinyun.xyz}
+  - {name: '🇷🇺 油管晓飞分享 🇷🇺 冷门俄罗斯中继 03_271', server: 183.232.56.202, port: 1093, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇮🇳 油管晓飞分享 🇮🇳 冷门印度中继 02_272', server: 183.232.56.187, port: 1094, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇬🇧 油管晓飞分享 🇬🇧 冷门英国中继 03_273', server: 52.131.232.68, port: 1095, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 台湾专线 01_274', server: 120.233.10.19, port: 1151, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 台湾专线 02_275', server: 120.233.10.32, port: 1151, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 台湾中继 01_276', server: 183.232.56.202, port: 1051, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 台湾中继 02_277', server: 183.232.56.187, port: 1051, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇨🇳 油管晓飞分享 🇨🇳 台湾中继 03_278', server: 183.232.56.189, port: 1051, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 01_279', server: 120.233.10.33, port: 1141, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 02_280', server: 120.233.10.19, port: 1141, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 03_281', server: 120.233.10.32, port: 1142, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 04_282', server: 120.233.10.33, port: 1142, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 01_283', server: 52.131.232.68, port: 1042, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 03_284', server: 183.232.56.189, port: 1041, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 04_285', server: 183.232.56.187, port: 1041, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 日本专线 01_286', server: 120.233.10.19, port: 1121, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 日本专线 02_287', server: 120.233.10.32, port: 1121, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 日本中继 01_288', server: 183.232.56.189, port: 1021, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 日本中继 02_289', server: 52.131.232.68, port: 1021, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 日本中继 04_290', server: 183.232.56.202, port: 1022, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 日本中继 05_291', server: 183.232.56.187, port: 1022, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇯🇵 油管晓飞分享 🇯🇵 日本中继 06_292', server: 183.232.56.189, port: 1022, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 美国专线 02_293', server: 120.233.10.19, port: 1131, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 美国中继 01_294', server: 52.131.232.68, port: 1031, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇺🇸 油管晓飞分享 🇺🇸 美国中继 03_295', server: 183.232.56.202, port: 1031, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇰🇷 油管晓飞分享 🇰🇷 韩国中继 01_296', server: 183.232.56.187, port: 1061, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇰🇷 油管晓飞分享 🇰🇷 韩国中继 02_297', server: 183.232.56.189, port: 1061, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇰🇷 油管晓飞分享 🇰🇷 韩国中继 03_298', server: 52.131.232.68, port: 1061, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 香港专线 01_299', server: 120.233.10.32, port: 1111, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 香港专线 02_300', server: 120.233.10.33, port: 1111, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 香港专线 03_301', server: 120.233.10.19, port: 1112, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 香港专线 04_302', server: 120.233.10.32, port: 1112, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 香港中继 01_303', server: 52.131.232.68, port: 1011, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 香港中继 02_304', server: 183.232.56.202, port: 1011, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 香港中继 03_305', server: 183.232.56.187, port: 1011, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 香港中继 05_306', server: 52.131.232.68, port: 1012, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 香港中继 07_307', server: 183.232.56.202, port: 1013, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '🇭🇰 油管晓飞分享 🇭🇰 香港中继 09_308', server: 183.232.56.189, port: 1013, type: ssr, password: "STC.SSR", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 118403:75Nj0D, obfs-param: 4889f118403.update.microsoft.com}
+  - {name: '油管晓飞分享Hong Kong 02_309', server: 211.99.96.7, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Hong Kong 04_310', server: 211.99.96.5, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Hong Kong 05_311', server: 211.99.96.4, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Hong Kong 06_312', server: 211.99.96.9, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Hong Kong 07_313', server: 211.99.96.10, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Hong Kong 08_314', server: 211.99.96.11, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Hong Kong 09_315', server: 211.99.96.12, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Hong Kong 10_316', server: 211.99.96.13, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Hong Kong 13_317', server: 211.99.96.16, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Hong Kong 14_318', server: 211.99.96.17, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Hong Kong 15_319', server: 211.99.96.18, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Hong Kong 16_320', server: 211.99.96.19, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Japan 02 | Media_321', server: 211.99.96.21, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Japan 03 | Media_322', server: 211.99.96.22, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Singapore 02 | Media_323', server: 211.99.96.32, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Singapore 03 | Media_324', server: 211.99.96.33, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Singapore 04 | Media_325', server: 211.99.96.34, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Singapore 05 | Media_326', server: 211.99.96.35, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Singapore 06 | Media_327', server: 211.99.96.36, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Taiwan 01 | Shenzhen_328', server: 211.99.96.37, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '油管晓飞分享Taiwan 04 | Shenzhen_329', server: 211.99.96.40, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇸🇬_SG_新加坡_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇺🇸_US_美国_13
-      - 🇫🇷_FR_法国_14
-      - 🇮🇳_IN_印度_15
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・01_1
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・04_2
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・03_3
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・04_4
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・05_5
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・02_6
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・03_7
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・01_8
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・02_9
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・03_10
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・04_11
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・05_12
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・09_13
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・19_14
+      - 🇭🇰 油管晓飞分享 🇭🇰 B01-CN2 香港A_15
+      - 🇭🇰 油管晓飞分享 🇭🇰 B02-CN2 香港B_16
+      - 🇨🇳 油管晓飞分享 🇨🇳 B03-CN2 巴基斯坦 - 6x_17
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本A_18
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本B_19
+      - 🇭🇰 油管晓飞分享 🇭🇰 C01-BGP 香港A NF-HK- X2x_20
+      - 🇭🇰 油管晓飞分享 🇭🇰 C02-BGP 香港B NF-HK- X2x_21
+      - 🇭🇰 油管晓飞分享 🇭🇰 C03-BGP 香港C_22
+      - 🇺🇸 油管晓飞分享 🇺🇸 C04-BGP 美国A_23
+      - 🇺🇸 油管晓飞分享 🇺🇸 C05-BGP 美国B_24
+      - 🇯🇵 油管晓飞分享 🇯🇵 C06-BGP 日本A_25
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本B_26
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本C_27
+      - 🇨🇳 油管晓飞分享 🇨🇳 C08-BGP 台湾_28
+      - 🇸🇬 油管晓飞分享 🇸🇬 C08-BGP 新加坡A_29
+      - 🇸🇬 油管晓飞分享 🇸🇬 C09-BGP 新加坡B_30
+      - 🇸🇬 油管晓飞分享 🇸🇬 C10-BGP 新加坡C_31
+      - 🇨🇦 油管晓飞分享 🇨🇦 C11-BGP 加拿大_32
+      - 🇬🇧 油管晓飞分享 🇬🇧 C12-BGP 英国_33
+      - 🇰🇷 油管晓飞分享 🇰🇷 C13-BGP 首尔_34
+      - 🇮🇳 油管晓飞分享 🇮🇳 C14-BGP 印度_35
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄02_36
+      - 🇩🇪 油管晓飞分享 🇩🇪 C15-BGP 德国_37
+      - 🇵🇭 油管晓飞分享 🇵🇭 C16-BGP 菲律宾_38
+      - 🇨🇳 油管晓飞分享 台2_|NF|动画疯_39
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02_40
+      - 🇨🇳 油管晓飞分享 台4_|NF|动画疯_41
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05_42
+      - 🇨🇳 油管晓飞分享 台5_|NF|动画疯_43
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07_44
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08_45
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09_46
+      - 🇨🇳 油管晓飞分享 台7_|NF|动画疯_47
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10_48
+      - 油管晓飞分享 坡01_|NF_49
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11_50
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13_51
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14_52
+      - 油管晓飞分享 坡03_NF_53
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15_54
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16_55
+      - 油管晓飞分享 坡04_|NF_56
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02 | Media_57
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03 | Media_58
+      - 油管晓飞分享 坡08_59
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05 | Media_60
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01 | Media_61
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02 | Media_62
+      - 🇯🇵 油管晓飞分享 日03_|NF|DMM_63
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03 | Media_64
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04 | Media_65
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05 | Media_66
+      - 🇯🇵 油管晓飞分享 日05_67
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06 | Media_68
+      - 🇭🇰 油管晓飞分享 港01_|NF_69
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 04 | Shenzhen_70
+      - 🇭🇰 油管晓飞分享 港04_|NF_71
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 01 2_72
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02 2_73
+      - 🇭🇰 油管晓飞分享 港06_|NF|TVB_74
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 03 2_75
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 04 2_76
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05 2_77
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 06 2_78
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07 2_79
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08 2_80
+      - 🇭🇰 油管晓飞分享 港09_81
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09 2_82
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10 2_83
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11 2_84
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 12 2_85
+      - 🇭🇰 油管晓飞分享 港12_86
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13 2_87
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14 2_88
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15 2_89
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16 2_90
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 17_91
+      - 🇺🇸 油管晓飞分享 美1_|NF_92
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 18_93
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 19_94
+      - 🇺🇸 油管晓飞分享 美2_|NF_95
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 23 IPv4 Stream_96
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 01_97
+      - 🇺🇸 油管晓飞分享 美5_98
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 02_99
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 03_100
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩1_101
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 08_102
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 09_103
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 10_104
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 11_105
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 12_106
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 13_107
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 16 IPv4 Stream_108
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 17 IPv4 Stream_109
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 01_110
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02_111
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03_112
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 04_113
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05_114
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 06_115
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 07_116
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 08_117
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 09_118
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 10_119
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 11_120
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 12_121
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 13_122
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 14_123
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 15_124
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 16_125
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 17_126
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 18_127
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 19_128
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 20_129
+      - 🇷🇺 油管晓飞分享 🇷🇺 02.俄罗斯 路由管控_130
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 21_131
+      - 🇳🇱 油管晓飞分享 🇳🇱 Netherlands_132
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia St.Peterburg_133
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia Moscow_134
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 1_135
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 2_136
+      - 🇫🇷 油管晓飞分享 🇫🇷 France_137
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 1_138
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 2_139
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 3_140
+      - 🇸🇪 油管晓飞分享 🇸🇪 Sweden_141
+      - 油管晓飞分享 Bulgaria_142
+      - 🇦🇹 油管晓飞分享 🇦🇹 Austria_143
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 1_144
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 2_145
+      - 油管晓飞分享 Israel_146
+      - 油管晓飞分享 坡07_147
+      - 🇹🇷 油管晓飞分享 🇹🇷 Turkey_148
+      - 🇮🇹 油管晓飞分享 🇮🇹 Italy_149
+      - 🇯🇵 油管晓飞分享 日02_|NF|DMM_150
+      - 油管晓飞分享 Hungary_151
+      - 🇯🇵 油管晓飞分享 日04_|NF|DMM_152
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 1_153
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 2_154
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 4_155
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 1_156
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 2_157
+      - 🇺🇸 油管晓飞分享 美3_158
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 3_159
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 4_160
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 5_161
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 6_162
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 1_163
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 2_164
+      - 🇦🇺 油管晓飞分享 🇦🇺 Australia Sydney 02_165
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 1_166
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 2_167
+      - 🇮🇩 油管晓飞分享 🇮🇩 Indonesia 01_168
+      - 🇧🇷 油管晓飞分享 🇧🇷 Brazil 01_169
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01_170
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02_171
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03_172
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04_173
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05_174
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06_175
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 07_176
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 08_177
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 09_178
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 10_179
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 12 IPv4 Stream_180
+      - 🇲🇾 油管晓飞分享 🇲🇾 Malaysia 01_181
+      - 🇷🇺 油管晓飞分享 🇷🇺 03.俄罗斯 路由管控_182
+      - 🇺🇸 油管晓飞分享 🇺🇸 04.美国 路由管控_183
+      - 🇭🇰 油管晓飞分享 🇭🇰 05.香港 路由管控_184
+      - 🇨🇳 油管晓飞分享 🇨🇳 06.台湾 路由管控_185
+      - 🇯🇵 油管晓飞分享 🇯🇵 07.日本 路由管控_186
+      - 油管晓飞分享 10.阿联酉 VIP专区_187
+      - 🇭🇰 油管晓飞分享 🇭🇰 12.香港 VIP专区_188
+      - 🇭🇰 油管晓飞分享 🇭🇰 13.香港 VIP专区_189
+      - 🇯🇵 油管晓飞分享 🇯🇵 14.日本 VIP专区_190
+      - 🇺🇸 油管晓飞分享 🇺🇸 15.美国 VIP专区_191
+      - 🇲🇴 油管晓飞分享 🇲🇴 17.澳门 明星线路_192
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄01_193
+      - 🇨🇳 油管晓飞分享 台1_|NF|动画疯_194
+      - 🇨🇳 油管晓飞分享 台3_|NF|动画疯_195
+      - 🇨🇳 油管晓飞分享 台6_|NF|动画疯_196
+      - 油管晓飞分享 坡02_|NF_197
+      - 油管晓飞分享 坡05_|NF_198
+      - 油管晓飞分享 坡06_199
+      - 🇯🇵 油管晓飞分享 日01_|NF|DMM_200
+      - 🇯🇵 油管晓飞分享 日06_201
+      - 🇭🇰 油管晓飞分享 港02_|NF_202
+      - 🇭🇰 油管晓飞分享 港03_|NF_203
+      - 🇭🇰 油管晓飞分享 港05_|NF|TVB_204
+      - 🇭🇰 油管晓飞分享 港08_205
+      - 🇭🇰 油管晓飞分享 港10_206
+      - 🇭🇰 油管晓飞分享 港11_207
+      - 🇭🇰 油管晓飞分享 港13_208
+      - 🇺🇸 油管晓飞分享 美4_209
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩2_210
+      - 🇭🇰 油管晓飞分享🇭🇰 大麦-AIA-HK-香港-A-2.0x-视频_211
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-AIA-Game-HK-广港-1-15x-游戏_212
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-1-2.0x-视频_213
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-2-2.0x-视频_214
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-3-2.0x-视频_215
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-4-2.0x-视频_216
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-1-视频_217
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-2-视频_218
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-3-视频_219
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-1-2.0x-视频_220
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-2-2.0x-视频_221
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-3-2.0x-视频_222
+      - 🇹🇷 油管晓飞分享🇹🇷 小麦-中继-TR-土耳其-1-买买买_223
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-1-2.0x-视频_224
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-2-2.0x-视频_225
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-3-2.0x-视频_226
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-1-2.0x-视频_227
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-2-2.0x-视频_228
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-3-2.0x-视频_229
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-4-2.0x-视频_230
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-1-2.0x-视频_231
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-2-2.0x-视频_232
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-3-2.0x-视频_233
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-4-2.0x-视频_234
+      - 油管晓飞分享 Special 冰岛 01 1x Residential_235
+      - 🇲🇴 油管晓飞分享 🇲🇴 Special 澳门 01 1x Residential_236
+      - 🇨🇳 油管晓飞分享 🇨🇳 专线 台湾 01 3x Residential_237
+      - 🇸🇬 油管晓飞分享 🇸🇬 专线 新加坡 01 3x Residential_238
+      - 🇯🇵 油管晓飞分享 🇯🇵 专线 日本 01 3x Media_239
+      - 🇺🇸 油管晓飞分享 🇺🇸 专线 美国 01 3x Residential_240
+      - 🇲🇾 油管晓飞分享 🇲🇾 专线 马来西亚 01 3x Residential_241
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 01 1x Residential_242
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 02 1x Residential_243
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 03 1x Residential_244
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 04 1x Residential_245
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 05 1x Residential_246
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 01 1x Media_247
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 03 1x Media_248
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 04 1x Media_249
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 01 1x Media_250
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 02 1x Media_251
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 03 1x Media_252
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 04 1x Media_253
+      - 🇺🇸 油管晓飞分享 🇺🇸 中继 美国 02 1x Residential_254
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 01 1x Media_255
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 02 1x Media_256
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 03 1x Media_257
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 04 1x Media_258
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 01 1x_259
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 02 1x_260
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 03 1x_261
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 04 1x_262
+      - 🇲🇾 油管晓飞分享 🇲🇾 中继 马来西亚 01 1x Residential_263
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 01 1.5x Media_264
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 02 1.5x Media_265
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 0.5x Media_266
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 1x Residential_267
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 01 1x Media_268
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 02 1x Media_269
+      - 油管晓飞分享 续费专用节点_270
+      - 🇷🇺 油管晓飞分享 🇷🇺 冷门俄罗斯中继 03_271
+      - 🇮🇳 油管晓飞分享 🇮🇳 冷门印度中继 02_272
+      - 🇬🇧 油管晓飞分享 🇬🇧 冷门英国中继 03_273
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 01_274
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 02_275
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 01_276
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 02_277
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 03_278
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 01_279
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 02_280
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 03_281
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 04_282
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 01_283
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 03_284
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 04_285
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 01_286
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 02_287
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 01_288
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 02_289
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 04_290
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 05_291
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 06_292
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国专线 02_293
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 01_294
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 03_295
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 01_296
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 02_297
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 03_298
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 01_299
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 02_300
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 03_301
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 04_302
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 01_303
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 02_304
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 03_305
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 05_306
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 07_307
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 09_308
+      - 油管晓飞分享Hong Kong 02_309
+      - 油管晓飞分享Hong Kong 04_310
+      - 油管晓飞分享Hong Kong 05_311
+      - 油管晓飞分享Hong Kong 06_312
+      - 油管晓飞分享Hong Kong 07_313
+      - 油管晓飞分享Hong Kong 08_314
+      - 油管晓飞分享Hong Kong 09_315
+      - 油管晓飞分享Hong Kong 10_316
+      - 油管晓飞分享Hong Kong 13_317
+      - 油管晓飞分享Hong Kong 14_318
+      - 油管晓飞分享Hong Kong 15_319
+      - 油管晓飞分享Hong Kong 16_320
+      - 油管晓飞分享Japan 02 | Media_321
+      - 油管晓飞分享Japan 03 | Media_322
+      - 油管晓飞分享Singapore 02 | Media_323
+      - 油管晓飞分享Singapore 03 | Media_324
+      - 油管晓飞分享Singapore 04 | Media_325
+      - 油管晓飞分享Singapore 05 | Media_326
+      - 油管晓飞分享Singapore 06 | Media_327
+      - 油管晓飞分享Taiwan 01 | Shenzhen_328
+      - 油管晓飞分享Taiwan 04 | Shenzhen_329
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇸🇬_SG_新加坡_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇺🇸_US_美国_13
-      - 🇫🇷_FR_法国_14
-      - 🇮🇳_IN_印度_15
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・01_1
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・04_2
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・03_3
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・04_4
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・05_5
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・02_6
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・03_7
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・01_8
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・02_9
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・03_10
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・04_11
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・05_12
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・09_13
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・19_14
+      - 🇭🇰 油管晓飞分享 🇭🇰 B01-CN2 香港A_15
+      - 🇭🇰 油管晓飞分享 🇭🇰 B02-CN2 香港B_16
+      - 🇨🇳 油管晓飞分享 🇨🇳 B03-CN2 巴基斯坦 - 6x_17
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本A_18
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本B_19
+      - 🇭🇰 油管晓飞分享 🇭🇰 C01-BGP 香港A NF-HK- X2x_20
+      - 🇭🇰 油管晓飞分享 🇭🇰 C02-BGP 香港B NF-HK- X2x_21
+      - 🇭🇰 油管晓飞分享 🇭🇰 C03-BGP 香港C_22
+      - 🇺🇸 油管晓飞分享 🇺🇸 C04-BGP 美国A_23
+      - 🇺🇸 油管晓飞分享 🇺🇸 C05-BGP 美国B_24
+      - 🇯🇵 油管晓飞分享 🇯🇵 C06-BGP 日本A_25
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本B_26
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本C_27
+      - 🇨🇳 油管晓飞分享 🇨🇳 C08-BGP 台湾_28
+      - 🇸🇬 油管晓飞分享 🇸🇬 C08-BGP 新加坡A_29
+      - 🇸🇬 油管晓飞分享 🇸🇬 C09-BGP 新加坡B_30
+      - 🇸🇬 油管晓飞分享 🇸🇬 C10-BGP 新加坡C_31
+      - 🇨🇦 油管晓飞分享 🇨🇦 C11-BGP 加拿大_32
+      - 🇬🇧 油管晓飞分享 🇬🇧 C12-BGP 英国_33
+      - 🇰🇷 油管晓飞分享 🇰🇷 C13-BGP 首尔_34
+      - 🇮🇳 油管晓飞分享 🇮🇳 C14-BGP 印度_35
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄02_36
+      - 🇩🇪 油管晓飞分享 🇩🇪 C15-BGP 德国_37
+      - 🇵🇭 油管晓飞分享 🇵🇭 C16-BGP 菲律宾_38
+      - 🇨🇳 油管晓飞分享 台2_|NF|动画疯_39
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02_40
+      - 🇨🇳 油管晓飞分享 台4_|NF|动画疯_41
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05_42
+      - 🇨🇳 油管晓飞分享 台5_|NF|动画疯_43
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07_44
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08_45
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09_46
+      - 🇨🇳 油管晓飞分享 台7_|NF|动画疯_47
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10_48
+      - 油管晓飞分享 坡01_|NF_49
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11_50
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13_51
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14_52
+      - 油管晓飞分享 坡03_NF_53
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15_54
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16_55
+      - 油管晓飞分享 坡04_|NF_56
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02 | Media_57
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03 | Media_58
+      - 油管晓飞分享 坡08_59
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05 | Media_60
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01 | Media_61
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02 | Media_62
+      - 🇯🇵 油管晓飞分享 日03_|NF|DMM_63
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03 | Media_64
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04 | Media_65
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05 | Media_66
+      - 🇯🇵 油管晓飞分享 日05_67
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06 | Media_68
+      - 🇭🇰 油管晓飞分享 港01_|NF_69
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 04 | Shenzhen_70
+      - 🇭🇰 油管晓飞分享 港04_|NF_71
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 01 2_72
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02 2_73
+      - 🇭🇰 油管晓飞分享 港06_|NF|TVB_74
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 03 2_75
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 04 2_76
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05 2_77
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 06 2_78
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07 2_79
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08 2_80
+      - 🇭🇰 油管晓飞分享 港09_81
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09 2_82
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10 2_83
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11 2_84
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 12 2_85
+      - 🇭🇰 油管晓飞分享 港12_86
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13 2_87
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14 2_88
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15 2_89
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16 2_90
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 17_91
+      - 🇺🇸 油管晓飞分享 美1_|NF_92
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 18_93
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 19_94
+      - 🇺🇸 油管晓飞分享 美2_|NF_95
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 23 IPv4 Stream_96
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 01_97
+      - 🇺🇸 油管晓飞分享 美5_98
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 02_99
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 03_100
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩1_101
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 08_102
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 09_103
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 10_104
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 11_105
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 12_106
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 13_107
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 16 IPv4 Stream_108
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 17 IPv4 Stream_109
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 01_110
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02_111
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03_112
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 04_113
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05_114
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 06_115
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 07_116
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 08_117
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 09_118
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 10_119
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 11_120
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 12_121
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 13_122
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 14_123
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 15_124
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 16_125
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 17_126
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 18_127
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 19_128
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 20_129
+      - 🇷🇺 油管晓飞分享 🇷🇺 02.俄罗斯 路由管控_130
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 21_131
+      - 🇳🇱 油管晓飞分享 🇳🇱 Netherlands_132
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia St.Peterburg_133
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia Moscow_134
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 1_135
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 2_136
+      - 🇫🇷 油管晓飞分享 🇫🇷 France_137
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 1_138
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 2_139
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 3_140
+      - 🇸🇪 油管晓飞分享 🇸🇪 Sweden_141
+      - 油管晓飞分享 Bulgaria_142
+      - 🇦🇹 油管晓飞分享 🇦🇹 Austria_143
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 1_144
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 2_145
+      - 油管晓飞分享 Israel_146
+      - 油管晓飞分享 坡07_147
+      - 🇹🇷 油管晓飞分享 🇹🇷 Turkey_148
+      - 🇮🇹 油管晓飞分享 🇮🇹 Italy_149
+      - 🇯🇵 油管晓飞分享 日02_|NF|DMM_150
+      - 油管晓飞分享 Hungary_151
+      - 🇯🇵 油管晓飞分享 日04_|NF|DMM_152
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 1_153
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 2_154
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 4_155
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 1_156
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 2_157
+      - 🇺🇸 油管晓飞分享 美3_158
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 3_159
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 4_160
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 5_161
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 6_162
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 1_163
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 2_164
+      - 🇦🇺 油管晓飞分享 🇦🇺 Australia Sydney 02_165
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 1_166
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 2_167
+      - 🇮🇩 油管晓飞分享 🇮🇩 Indonesia 01_168
+      - 🇧🇷 油管晓飞分享 🇧🇷 Brazil 01_169
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01_170
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02_171
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03_172
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04_173
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05_174
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06_175
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 07_176
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 08_177
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 09_178
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 10_179
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 12 IPv4 Stream_180
+      - 🇲🇾 油管晓飞分享 🇲🇾 Malaysia 01_181
+      - 🇷🇺 油管晓飞分享 🇷🇺 03.俄罗斯 路由管控_182
+      - 🇺🇸 油管晓飞分享 🇺🇸 04.美国 路由管控_183
+      - 🇭🇰 油管晓飞分享 🇭🇰 05.香港 路由管控_184
+      - 🇨🇳 油管晓飞分享 🇨🇳 06.台湾 路由管控_185
+      - 🇯🇵 油管晓飞分享 🇯🇵 07.日本 路由管控_186
+      - 油管晓飞分享 10.阿联酉 VIP专区_187
+      - 🇭🇰 油管晓飞分享 🇭🇰 12.香港 VIP专区_188
+      - 🇭🇰 油管晓飞分享 🇭🇰 13.香港 VIP专区_189
+      - 🇯🇵 油管晓飞分享 🇯🇵 14.日本 VIP专区_190
+      - 🇺🇸 油管晓飞分享 🇺🇸 15.美国 VIP专区_191
+      - 🇲🇴 油管晓飞分享 🇲🇴 17.澳门 明星线路_192
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄01_193
+      - 🇨🇳 油管晓飞分享 台1_|NF|动画疯_194
+      - 🇨🇳 油管晓飞分享 台3_|NF|动画疯_195
+      - 🇨🇳 油管晓飞分享 台6_|NF|动画疯_196
+      - 油管晓飞分享 坡02_|NF_197
+      - 油管晓飞分享 坡05_|NF_198
+      - 油管晓飞分享 坡06_199
+      - 🇯🇵 油管晓飞分享 日01_|NF|DMM_200
+      - 🇯🇵 油管晓飞分享 日06_201
+      - 🇭🇰 油管晓飞分享 港02_|NF_202
+      - 🇭🇰 油管晓飞分享 港03_|NF_203
+      - 🇭🇰 油管晓飞分享 港05_|NF|TVB_204
+      - 🇭🇰 油管晓飞分享 港08_205
+      - 🇭🇰 油管晓飞分享 港10_206
+      - 🇭🇰 油管晓飞分享 港11_207
+      - 🇭🇰 油管晓飞分享 港13_208
+      - 🇺🇸 油管晓飞分享 美4_209
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩2_210
+      - 🇭🇰 油管晓飞分享🇭🇰 大麦-AIA-HK-香港-A-2.0x-视频_211
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-AIA-Game-HK-广港-1-15x-游戏_212
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-1-2.0x-视频_213
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-2-2.0x-视频_214
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-3-2.0x-视频_215
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-4-2.0x-视频_216
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-1-视频_217
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-2-视频_218
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-3-视频_219
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-1-2.0x-视频_220
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-2-2.0x-视频_221
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-3-2.0x-视频_222
+      - 🇹🇷 油管晓飞分享🇹🇷 小麦-中继-TR-土耳其-1-买买买_223
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-1-2.0x-视频_224
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-2-2.0x-视频_225
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-3-2.0x-视频_226
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-1-2.0x-视频_227
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-2-2.0x-视频_228
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-3-2.0x-视频_229
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-4-2.0x-视频_230
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-1-2.0x-视频_231
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-2-2.0x-视频_232
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-3-2.0x-视频_233
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-4-2.0x-视频_234
+      - 油管晓飞分享 Special 冰岛 01 1x Residential_235
+      - 🇲🇴 油管晓飞分享 🇲🇴 Special 澳门 01 1x Residential_236
+      - 🇨🇳 油管晓飞分享 🇨🇳 专线 台湾 01 3x Residential_237
+      - 🇸🇬 油管晓飞分享 🇸🇬 专线 新加坡 01 3x Residential_238
+      - 🇯🇵 油管晓飞分享 🇯🇵 专线 日本 01 3x Media_239
+      - 🇺🇸 油管晓飞分享 🇺🇸 专线 美国 01 3x Residential_240
+      - 🇲🇾 油管晓飞分享 🇲🇾 专线 马来西亚 01 3x Residential_241
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 01 1x Residential_242
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 02 1x Residential_243
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 03 1x Residential_244
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 04 1x Residential_245
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 05 1x Residential_246
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 01 1x Media_247
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 03 1x Media_248
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 04 1x Media_249
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 01 1x Media_250
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 02 1x Media_251
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 03 1x Media_252
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 04 1x Media_253
+      - 🇺🇸 油管晓飞分享 🇺🇸 中继 美国 02 1x Residential_254
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 01 1x Media_255
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 02 1x Media_256
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 03 1x Media_257
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 04 1x Media_258
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 01 1x_259
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 02 1x_260
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 03 1x_261
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 04 1x_262
+      - 🇲🇾 油管晓飞分享 🇲🇾 中继 马来西亚 01 1x Residential_263
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 01 1.5x Media_264
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 02 1.5x Media_265
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 0.5x Media_266
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 1x Residential_267
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 01 1x Media_268
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 02 1x Media_269
+      - 油管晓飞分享 续费专用节点_270
+      - 🇷🇺 油管晓飞分享 🇷🇺 冷门俄罗斯中继 03_271
+      - 🇮🇳 油管晓飞分享 🇮🇳 冷门印度中继 02_272
+      - 🇬🇧 油管晓飞分享 🇬🇧 冷门英国中继 03_273
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 01_274
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 02_275
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 01_276
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 02_277
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 03_278
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 01_279
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 02_280
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 03_281
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 04_282
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 01_283
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 03_284
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 04_285
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 01_286
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 02_287
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 01_288
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 02_289
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 04_290
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 05_291
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 06_292
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国专线 02_293
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 01_294
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 03_295
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 01_296
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 02_297
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 03_298
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 01_299
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 02_300
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 03_301
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 04_302
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 01_303
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 02_304
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 03_305
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 05_306
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 07_307
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 09_308
+      - 油管晓飞分享Hong Kong 02_309
+      - 油管晓飞分享Hong Kong 04_310
+      - 油管晓飞分享Hong Kong 05_311
+      - 油管晓飞分享Hong Kong 06_312
+      - 油管晓飞分享Hong Kong 07_313
+      - 油管晓飞分享Hong Kong 08_314
+      - 油管晓飞分享Hong Kong 09_315
+      - 油管晓飞分享Hong Kong 10_316
+      - 油管晓飞分享Hong Kong 13_317
+      - 油管晓飞分享Hong Kong 14_318
+      - 油管晓飞分享Hong Kong 15_319
+      - 油管晓飞分享Hong Kong 16_320
+      - 油管晓飞分享Japan 02 | Media_321
+      - 油管晓飞分享Japan 03 | Media_322
+      - 油管晓飞分享Singapore 02 | Media_323
+      - 油管晓飞分享Singapore 03 | Media_324
+      - 油管晓飞分享Singapore 04 | Media_325
+      - 油管晓飞分享Singapore 05 | Media_326
+      - 油管晓飞分享Singapore 06 | Media_327
+      - 油管晓飞分享Taiwan 01 | Shenzhen_328
+      - 油管晓飞分享Taiwan 04 | Shenzhen_329
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇸🇬_SG_新加坡_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇺🇸_US_美国_13
-      - 🇫🇷_FR_法国_14
-      - 🇮🇳_IN_印度_15
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・01_1
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・04_2
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・03_3
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・04_4
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・05_5
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・02_6
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・03_7
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・01_8
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・02_9
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・03_10
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・04_11
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・05_12
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・09_13
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・19_14
+      - 🇭🇰 油管晓飞分享 🇭🇰 B01-CN2 香港A_15
+      - 🇭🇰 油管晓飞分享 🇭🇰 B02-CN2 香港B_16
+      - 🇨🇳 油管晓飞分享 🇨🇳 B03-CN2 巴基斯坦 - 6x_17
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本A_18
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本B_19
+      - 🇭🇰 油管晓飞分享 🇭🇰 C01-BGP 香港A NF-HK- X2x_20
+      - 🇭🇰 油管晓飞分享 🇭🇰 C02-BGP 香港B NF-HK- X2x_21
+      - 🇭🇰 油管晓飞分享 🇭🇰 C03-BGP 香港C_22
+      - 🇺🇸 油管晓飞分享 🇺🇸 C04-BGP 美国A_23
+      - 🇺🇸 油管晓飞分享 🇺🇸 C05-BGP 美国B_24
+      - 🇯🇵 油管晓飞分享 🇯🇵 C06-BGP 日本A_25
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本B_26
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本C_27
+      - 🇨🇳 油管晓飞分享 🇨🇳 C08-BGP 台湾_28
+      - 🇸🇬 油管晓飞分享 🇸🇬 C08-BGP 新加坡A_29
+      - 🇸🇬 油管晓飞分享 🇸🇬 C09-BGP 新加坡B_30
+      - 🇸🇬 油管晓飞分享 🇸🇬 C10-BGP 新加坡C_31
+      - 🇨🇦 油管晓飞分享 🇨🇦 C11-BGP 加拿大_32
+      - 🇬🇧 油管晓飞分享 🇬🇧 C12-BGP 英国_33
+      - 🇰🇷 油管晓飞分享 🇰🇷 C13-BGP 首尔_34
+      - 🇮🇳 油管晓飞分享 🇮🇳 C14-BGP 印度_35
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄02_36
+      - 🇩🇪 油管晓飞分享 🇩🇪 C15-BGP 德国_37
+      - 🇵🇭 油管晓飞分享 🇵🇭 C16-BGP 菲律宾_38
+      - 🇨🇳 油管晓飞分享 台2_|NF|动画疯_39
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02_40
+      - 🇨🇳 油管晓飞分享 台4_|NF|动画疯_41
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05_42
+      - 🇨🇳 油管晓飞分享 台5_|NF|动画疯_43
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07_44
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08_45
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09_46
+      - 🇨🇳 油管晓飞分享 台7_|NF|动画疯_47
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10_48
+      - 油管晓飞分享 坡01_|NF_49
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11_50
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13_51
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14_52
+      - 油管晓飞分享 坡03_NF_53
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15_54
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16_55
+      - 油管晓飞分享 坡04_|NF_56
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02 | Media_57
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03 | Media_58
+      - 油管晓飞分享 坡08_59
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05 | Media_60
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01 | Media_61
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02 | Media_62
+      - 🇯🇵 油管晓飞分享 日03_|NF|DMM_63
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03 | Media_64
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04 | Media_65
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05 | Media_66
+      - 🇯🇵 油管晓飞分享 日05_67
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06 | Media_68
+      - 🇭🇰 油管晓飞分享 港01_|NF_69
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 04 | Shenzhen_70
+      - 🇭🇰 油管晓飞分享 港04_|NF_71
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 01 2_72
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02 2_73
+      - 🇭🇰 油管晓飞分享 港06_|NF|TVB_74
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 03 2_75
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 04 2_76
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05 2_77
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 06 2_78
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07 2_79
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08 2_80
+      - 🇭🇰 油管晓飞分享 港09_81
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09 2_82
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10 2_83
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11 2_84
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 12 2_85
+      - 🇭🇰 油管晓飞分享 港12_86
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13 2_87
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14 2_88
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15 2_89
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16 2_90
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 17_91
+      - 🇺🇸 油管晓飞分享 美1_|NF_92
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 18_93
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 19_94
+      - 🇺🇸 油管晓飞分享 美2_|NF_95
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 23 IPv4 Stream_96
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 01_97
+      - 🇺🇸 油管晓飞分享 美5_98
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 02_99
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 03_100
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩1_101
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 08_102
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 09_103
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 10_104
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 11_105
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 12_106
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 13_107
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 16 IPv4 Stream_108
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 17 IPv4 Stream_109
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 01_110
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02_111
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03_112
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 04_113
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05_114
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 06_115
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 07_116
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 08_117
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 09_118
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 10_119
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 11_120
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 12_121
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 13_122
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 14_123
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 15_124
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 16_125
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 17_126
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 18_127
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 19_128
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 20_129
+      - 🇷🇺 油管晓飞分享 🇷🇺 02.俄罗斯 路由管控_130
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 21_131
+      - 🇳🇱 油管晓飞分享 🇳🇱 Netherlands_132
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia St.Peterburg_133
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia Moscow_134
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 1_135
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 2_136
+      - 🇫🇷 油管晓飞分享 🇫🇷 France_137
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 1_138
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 2_139
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 3_140
+      - 🇸🇪 油管晓飞分享 🇸🇪 Sweden_141
+      - 油管晓飞分享 Bulgaria_142
+      - 🇦🇹 油管晓飞分享 🇦🇹 Austria_143
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 1_144
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 2_145
+      - 油管晓飞分享 Israel_146
+      - 油管晓飞分享 坡07_147
+      - 🇹🇷 油管晓飞分享 🇹🇷 Turkey_148
+      - 🇮🇹 油管晓飞分享 🇮🇹 Italy_149
+      - 🇯🇵 油管晓飞分享 日02_|NF|DMM_150
+      - 油管晓飞分享 Hungary_151
+      - 🇯🇵 油管晓飞分享 日04_|NF|DMM_152
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 1_153
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 2_154
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 4_155
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 1_156
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 2_157
+      - 🇺🇸 油管晓飞分享 美3_158
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 3_159
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 4_160
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 5_161
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 6_162
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 1_163
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 2_164
+      - 🇦🇺 油管晓飞分享 🇦🇺 Australia Sydney 02_165
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 1_166
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 2_167
+      - 🇮🇩 油管晓飞分享 🇮🇩 Indonesia 01_168
+      - 🇧🇷 油管晓飞分享 🇧🇷 Brazil 01_169
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01_170
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02_171
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03_172
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04_173
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05_174
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06_175
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 07_176
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 08_177
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 09_178
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 10_179
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 12 IPv4 Stream_180
+      - 🇲🇾 油管晓飞分享 🇲🇾 Malaysia 01_181
+      - 🇷🇺 油管晓飞分享 🇷🇺 03.俄罗斯 路由管控_182
+      - 🇺🇸 油管晓飞分享 🇺🇸 04.美国 路由管控_183
+      - 🇭🇰 油管晓飞分享 🇭🇰 05.香港 路由管控_184
+      - 🇨🇳 油管晓飞分享 🇨🇳 06.台湾 路由管控_185
+      - 🇯🇵 油管晓飞分享 🇯🇵 07.日本 路由管控_186
+      - 油管晓飞分享 10.阿联酉 VIP专区_187
+      - 🇭🇰 油管晓飞分享 🇭🇰 12.香港 VIP专区_188
+      - 🇭🇰 油管晓飞分享 🇭🇰 13.香港 VIP专区_189
+      - 🇯🇵 油管晓飞分享 🇯🇵 14.日本 VIP专区_190
+      - 🇺🇸 油管晓飞分享 🇺🇸 15.美国 VIP专区_191
+      - 🇲🇴 油管晓飞分享 🇲🇴 17.澳门 明星线路_192
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄01_193
+      - 🇨🇳 油管晓飞分享 台1_|NF|动画疯_194
+      - 🇨🇳 油管晓飞分享 台3_|NF|动画疯_195
+      - 🇨🇳 油管晓飞分享 台6_|NF|动画疯_196
+      - 油管晓飞分享 坡02_|NF_197
+      - 油管晓飞分享 坡05_|NF_198
+      - 油管晓飞分享 坡06_199
+      - 🇯🇵 油管晓飞分享 日01_|NF|DMM_200
+      - 🇯🇵 油管晓飞分享 日06_201
+      - 🇭🇰 油管晓飞分享 港02_|NF_202
+      - 🇭🇰 油管晓飞分享 港03_|NF_203
+      - 🇭🇰 油管晓飞分享 港05_|NF|TVB_204
+      - 🇭🇰 油管晓飞分享 港08_205
+      - 🇭🇰 油管晓飞分享 港10_206
+      - 🇭🇰 油管晓飞分享 港11_207
+      - 🇭🇰 油管晓飞分享 港13_208
+      - 🇺🇸 油管晓飞分享 美4_209
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩2_210
+      - 🇭🇰 油管晓飞分享🇭🇰 大麦-AIA-HK-香港-A-2.0x-视频_211
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-AIA-Game-HK-广港-1-15x-游戏_212
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-1-2.0x-视频_213
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-2-2.0x-视频_214
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-3-2.0x-视频_215
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-4-2.0x-视频_216
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-1-视频_217
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-2-视频_218
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-3-视频_219
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-1-2.0x-视频_220
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-2-2.0x-视频_221
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-3-2.0x-视频_222
+      - 🇹🇷 油管晓飞分享🇹🇷 小麦-中继-TR-土耳其-1-买买买_223
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-1-2.0x-视频_224
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-2-2.0x-视频_225
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-3-2.0x-视频_226
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-1-2.0x-视频_227
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-2-2.0x-视频_228
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-3-2.0x-视频_229
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-4-2.0x-视频_230
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-1-2.0x-视频_231
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-2-2.0x-视频_232
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-3-2.0x-视频_233
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-4-2.0x-视频_234
+      - 油管晓飞分享 Special 冰岛 01 1x Residential_235
+      - 🇲🇴 油管晓飞分享 🇲🇴 Special 澳门 01 1x Residential_236
+      - 🇨🇳 油管晓飞分享 🇨🇳 专线 台湾 01 3x Residential_237
+      - 🇸🇬 油管晓飞分享 🇸🇬 专线 新加坡 01 3x Residential_238
+      - 🇯🇵 油管晓飞分享 🇯🇵 专线 日本 01 3x Media_239
+      - 🇺🇸 油管晓飞分享 🇺🇸 专线 美国 01 3x Residential_240
+      - 🇲🇾 油管晓飞分享 🇲🇾 专线 马来西亚 01 3x Residential_241
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 01 1x Residential_242
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 02 1x Residential_243
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 03 1x Residential_244
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 04 1x Residential_245
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 05 1x Residential_246
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 01 1x Media_247
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 03 1x Media_248
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 04 1x Media_249
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 01 1x Media_250
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 02 1x Media_251
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 03 1x Media_252
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 04 1x Media_253
+      - 🇺🇸 油管晓飞分享 🇺🇸 中继 美国 02 1x Residential_254
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 01 1x Media_255
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 02 1x Media_256
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 03 1x Media_257
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 04 1x Media_258
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 01 1x_259
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 02 1x_260
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 03 1x_261
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 04 1x_262
+      - 🇲🇾 油管晓飞分享 🇲🇾 中继 马来西亚 01 1x Residential_263
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 01 1.5x Media_264
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 02 1.5x Media_265
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 0.5x Media_266
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 1x Residential_267
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 01 1x Media_268
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 02 1x Media_269
+      - 油管晓飞分享 续费专用节点_270
+      - 🇷🇺 油管晓飞分享 🇷🇺 冷门俄罗斯中继 03_271
+      - 🇮🇳 油管晓飞分享 🇮🇳 冷门印度中继 02_272
+      - 🇬🇧 油管晓飞分享 🇬🇧 冷门英国中继 03_273
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 01_274
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 02_275
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 01_276
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 02_277
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 03_278
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 01_279
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 02_280
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 03_281
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 04_282
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 01_283
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 03_284
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 04_285
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 01_286
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 02_287
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 01_288
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 02_289
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 04_290
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 05_291
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 06_292
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国专线 02_293
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 01_294
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 03_295
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 01_296
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 02_297
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 03_298
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 01_299
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 02_300
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 03_301
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 04_302
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 01_303
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 02_304
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 03_305
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 05_306
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 07_307
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 09_308
+      - 油管晓飞分享Hong Kong 02_309
+      - 油管晓飞分享Hong Kong 04_310
+      - 油管晓飞分享Hong Kong 05_311
+      - 油管晓飞分享Hong Kong 06_312
+      - 油管晓飞分享Hong Kong 07_313
+      - 油管晓飞分享Hong Kong 08_314
+      - 油管晓飞分享Hong Kong 09_315
+      - 油管晓飞分享Hong Kong 10_316
+      - 油管晓飞分享Hong Kong 13_317
+      - 油管晓飞分享Hong Kong 14_318
+      - 油管晓飞分享Hong Kong 15_319
+      - 油管晓飞分享Hong Kong 16_320
+      - 油管晓飞分享Japan 02 | Media_321
+      - 油管晓飞分享Japan 03 | Media_322
+      - 油管晓飞分享Singapore 02 | Media_323
+      - 油管晓飞分享Singapore 03 | Media_324
+      - 油管晓飞分享Singapore 04 | Media_325
+      - 油管晓飞分享Singapore 05 | Media_326
+      - 油管晓飞分享Singapore 06 | Media_327
+      - 油管晓飞分享Taiwan 01 | Shenzhen_328
+      - 油管晓飞分享Taiwan 04 | Shenzhen_329
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇸🇬_SG_新加坡_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇺🇸_US_美国_13
-      - 🇫🇷_FR_法国_14
-      - 🇮🇳_IN_印度_15
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・01_1
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・04_2
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・03_3
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・04_4
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・05_5
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・02_6
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・03_7
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・01_8
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・02_9
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・03_10
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・04_11
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・05_12
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・09_13
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・19_14
+      - 🇭🇰 油管晓飞分享 🇭🇰 B01-CN2 香港A_15
+      - 🇭🇰 油管晓飞分享 🇭🇰 B02-CN2 香港B_16
+      - 🇨🇳 油管晓飞分享 🇨🇳 B03-CN2 巴基斯坦 - 6x_17
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本A_18
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本B_19
+      - 🇭🇰 油管晓飞分享 🇭🇰 C01-BGP 香港A NF-HK- X2x_20
+      - 🇭🇰 油管晓飞分享 🇭🇰 C02-BGP 香港B NF-HK- X2x_21
+      - 🇭🇰 油管晓飞分享 🇭🇰 C03-BGP 香港C_22
+      - 🇺🇸 油管晓飞分享 🇺🇸 C04-BGP 美国A_23
+      - 🇺🇸 油管晓飞分享 🇺🇸 C05-BGP 美国B_24
+      - 🇯🇵 油管晓飞分享 🇯🇵 C06-BGP 日本A_25
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本B_26
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本C_27
+      - 🇨🇳 油管晓飞分享 🇨🇳 C08-BGP 台湾_28
+      - 🇸🇬 油管晓飞分享 🇸🇬 C08-BGP 新加坡A_29
+      - 🇸🇬 油管晓飞分享 🇸🇬 C09-BGP 新加坡B_30
+      - 🇸🇬 油管晓飞分享 🇸🇬 C10-BGP 新加坡C_31
+      - 🇨🇦 油管晓飞分享 🇨🇦 C11-BGP 加拿大_32
+      - 🇬🇧 油管晓飞分享 🇬🇧 C12-BGP 英国_33
+      - 🇰🇷 油管晓飞分享 🇰🇷 C13-BGP 首尔_34
+      - 🇮🇳 油管晓飞分享 🇮🇳 C14-BGP 印度_35
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄02_36
+      - 🇩🇪 油管晓飞分享 🇩🇪 C15-BGP 德国_37
+      - 🇵🇭 油管晓飞分享 🇵🇭 C16-BGP 菲律宾_38
+      - 🇨🇳 油管晓飞分享 台2_|NF|动画疯_39
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02_40
+      - 🇨🇳 油管晓飞分享 台4_|NF|动画疯_41
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05_42
+      - 🇨🇳 油管晓飞分享 台5_|NF|动画疯_43
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07_44
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08_45
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09_46
+      - 🇨🇳 油管晓飞分享 台7_|NF|动画疯_47
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10_48
+      - 油管晓飞分享 坡01_|NF_49
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11_50
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13_51
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14_52
+      - 油管晓飞分享 坡03_NF_53
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15_54
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16_55
+      - 油管晓飞分享 坡04_|NF_56
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02 | Media_57
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03 | Media_58
+      - 油管晓飞分享 坡08_59
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05 | Media_60
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01 | Media_61
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02 | Media_62
+      - 🇯🇵 油管晓飞分享 日03_|NF|DMM_63
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03 | Media_64
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04 | Media_65
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05 | Media_66
+      - 🇯🇵 油管晓飞分享 日05_67
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06 | Media_68
+      - 🇭🇰 油管晓飞分享 港01_|NF_69
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 04 | Shenzhen_70
+      - 🇭🇰 油管晓飞分享 港04_|NF_71
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 01 2_72
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02 2_73
+      - 🇭🇰 油管晓飞分享 港06_|NF|TVB_74
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 03 2_75
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 04 2_76
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05 2_77
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 06 2_78
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07 2_79
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08 2_80
+      - 🇭🇰 油管晓飞分享 港09_81
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09 2_82
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10 2_83
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11 2_84
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 12 2_85
+      - 🇭🇰 油管晓飞分享 港12_86
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13 2_87
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14 2_88
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15 2_89
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16 2_90
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 17_91
+      - 🇺🇸 油管晓飞分享 美1_|NF_92
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 18_93
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 19_94
+      - 🇺🇸 油管晓飞分享 美2_|NF_95
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 23 IPv4 Stream_96
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 01_97
+      - 🇺🇸 油管晓飞分享 美5_98
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 02_99
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 03_100
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩1_101
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 08_102
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 09_103
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 10_104
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 11_105
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 12_106
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 13_107
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 16 IPv4 Stream_108
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 17 IPv4 Stream_109
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 01_110
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02_111
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03_112
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 04_113
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05_114
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 06_115
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 07_116
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 08_117
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 09_118
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 10_119
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 11_120
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 12_121
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 13_122
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 14_123
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 15_124
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 16_125
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 17_126
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 18_127
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 19_128
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 20_129
+      - 🇷🇺 油管晓飞分享 🇷🇺 02.俄罗斯 路由管控_130
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 21_131
+      - 🇳🇱 油管晓飞分享 🇳🇱 Netherlands_132
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia St.Peterburg_133
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia Moscow_134
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 1_135
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 2_136
+      - 🇫🇷 油管晓飞分享 🇫🇷 France_137
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 1_138
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 2_139
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 3_140
+      - 🇸🇪 油管晓飞分享 🇸🇪 Sweden_141
+      - 油管晓飞分享 Bulgaria_142
+      - 🇦🇹 油管晓飞分享 🇦🇹 Austria_143
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 1_144
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 2_145
+      - 油管晓飞分享 Israel_146
+      - 油管晓飞分享 坡07_147
+      - 🇹🇷 油管晓飞分享 🇹🇷 Turkey_148
+      - 🇮🇹 油管晓飞分享 🇮🇹 Italy_149
+      - 🇯🇵 油管晓飞分享 日02_|NF|DMM_150
+      - 油管晓飞分享 Hungary_151
+      - 🇯🇵 油管晓飞分享 日04_|NF|DMM_152
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 1_153
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 2_154
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 4_155
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 1_156
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 2_157
+      - 🇺🇸 油管晓飞分享 美3_158
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 3_159
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 4_160
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 5_161
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 6_162
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 1_163
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 2_164
+      - 🇦🇺 油管晓飞分享 🇦🇺 Australia Sydney 02_165
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 1_166
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 2_167
+      - 🇮🇩 油管晓飞分享 🇮🇩 Indonesia 01_168
+      - 🇧🇷 油管晓飞分享 🇧🇷 Brazil 01_169
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01_170
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02_171
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03_172
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04_173
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05_174
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06_175
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 07_176
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 08_177
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 09_178
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 10_179
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 12 IPv4 Stream_180
+      - 🇲🇾 油管晓飞分享 🇲🇾 Malaysia 01_181
+      - 🇷🇺 油管晓飞分享 🇷🇺 03.俄罗斯 路由管控_182
+      - 🇺🇸 油管晓飞分享 🇺🇸 04.美国 路由管控_183
+      - 🇭🇰 油管晓飞分享 🇭🇰 05.香港 路由管控_184
+      - 🇨🇳 油管晓飞分享 🇨🇳 06.台湾 路由管控_185
+      - 🇯🇵 油管晓飞分享 🇯🇵 07.日本 路由管控_186
+      - 油管晓飞分享 10.阿联酉 VIP专区_187
+      - 🇭🇰 油管晓飞分享 🇭🇰 12.香港 VIP专区_188
+      - 🇭🇰 油管晓飞分享 🇭🇰 13.香港 VIP专区_189
+      - 🇯🇵 油管晓飞分享 🇯🇵 14.日本 VIP专区_190
+      - 🇺🇸 油管晓飞分享 🇺🇸 15.美国 VIP专区_191
+      - 🇲🇴 油管晓飞分享 🇲🇴 17.澳门 明星线路_192
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄01_193
+      - 🇨🇳 油管晓飞分享 台1_|NF|动画疯_194
+      - 🇨🇳 油管晓飞分享 台3_|NF|动画疯_195
+      - 🇨🇳 油管晓飞分享 台6_|NF|动画疯_196
+      - 油管晓飞分享 坡02_|NF_197
+      - 油管晓飞分享 坡05_|NF_198
+      - 油管晓飞分享 坡06_199
+      - 🇯🇵 油管晓飞分享 日01_|NF|DMM_200
+      - 🇯🇵 油管晓飞分享 日06_201
+      - 🇭🇰 油管晓飞分享 港02_|NF_202
+      - 🇭🇰 油管晓飞分享 港03_|NF_203
+      - 🇭🇰 油管晓飞分享 港05_|NF|TVB_204
+      - 🇭🇰 油管晓飞分享 港08_205
+      - 🇭🇰 油管晓飞分享 港10_206
+      - 🇭🇰 油管晓飞分享 港11_207
+      - 🇭🇰 油管晓飞分享 港13_208
+      - 🇺🇸 油管晓飞分享 美4_209
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩2_210
+      - 🇭🇰 油管晓飞分享🇭🇰 大麦-AIA-HK-香港-A-2.0x-视频_211
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-AIA-Game-HK-广港-1-15x-游戏_212
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-1-2.0x-视频_213
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-2-2.0x-视频_214
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-3-2.0x-视频_215
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-4-2.0x-视频_216
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-1-视频_217
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-2-视频_218
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-3-视频_219
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-1-2.0x-视频_220
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-2-2.0x-视频_221
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-3-2.0x-视频_222
+      - 🇹🇷 油管晓飞分享🇹🇷 小麦-中继-TR-土耳其-1-买买买_223
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-1-2.0x-视频_224
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-2-2.0x-视频_225
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-3-2.0x-视频_226
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-1-2.0x-视频_227
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-2-2.0x-视频_228
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-3-2.0x-视频_229
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-4-2.0x-视频_230
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-1-2.0x-视频_231
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-2-2.0x-视频_232
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-3-2.0x-视频_233
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-4-2.0x-视频_234
+      - 油管晓飞分享 Special 冰岛 01 1x Residential_235
+      - 🇲🇴 油管晓飞分享 🇲🇴 Special 澳门 01 1x Residential_236
+      - 🇨🇳 油管晓飞分享 🇨🇳 专线 台湾 01 3x Residential_237
+      - 🇸🇬 油管晓飞分享 🇸🇬 专线 新加坡 01 3x Residential_238
+      - 🇯🇵 油管晓飞分享 🇯🇵 专线 日本 01 3x Media_239
+      - 🇺🇸 油管晓飞分享 🇺🇸 专线 美国 01 3x Residential_240
+      - 🇲🇾 油管晓飞分享 🇲🇾 专线 马来西亚 01 3x Residential_241
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 01 1x Residential_242
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 02 1x Residential_243
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 03 1x Residential_244
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 04 1x Residential_245
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 05 1x Residential_246
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 01 1x Media_247
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 03 1x Media_248
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 04 1x Media_249
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 01 1x Media_250
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 02 1x Media_251
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 03 1x Media_252
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 04 1x Media_253
+      - 🇺🇸 油管晓飞分享 🇺🇸 中继 美国 02 1x Residential_254
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 01 1x Media_255
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 02 1x Media_256
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 03 1x Media_257
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 04 1x Media_258
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 01 1x_259
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 02 1x_260
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 03 1x_261
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 04 1x_262
+      - 🇲🇾 油管晓飞分享 🇲🇾 中继 马来西亚 01 1x Residential_263
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 01 1.5x Media_264
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 02 1.5x Media_265
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 0.5x Media_266
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 1x Residential_267
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 01 1x Media_268
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 02 1x Media_269
+      - 油管晓飞分享 续费专用节点_270
+      - 🇷🇺 油管晓飞分享 🇷🇺 冷门俄罗斯中继 03_271
+      - 🇮🇳 油管晓飞分享 🇮🇳 冷门印度中继 02_272
+      - 🇬🇧 油管晓飞分享 🇬🇧 冷门英国中继 03_273
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 01_274
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 02_275
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 01_276
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 02_277
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 03_278
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 01_279
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 02_280
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 03_281
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 04_282
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 01_283
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 03_284
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 04_285
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 01_286
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 02_287
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 01_288
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 02_289
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 04_290
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 05_291
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 06_292
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国专线 02_293
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 01_294
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 03_295
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 01_296
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 02_297
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 03_298
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 01_299
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 02_300
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 03_301
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 04_302
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 01_303
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 02_304
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 03_305
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 05_306
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 07_307
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 09_308
+      - 油管晓飞分享Hong Kong 02_309
+      - 油管晓飞分享Hong Kong 04_310
+      - 油管晓飞分享Hong Kong 05_311
+      - 油管晓飞分享Hong Kong 06_312
+      - 油管晓飞分享Hong Kong 07_313
+      - 油管晓飞分享Hong Kong 08_314
+      - 油管晓飞分享Hong Kong 09_315
+      - 油管晓飞分享Hong Kong 10_316
+      - 油管晓飞分享Hong Kong 13_317
+      - 油管晓飞分享Hong Kong 14_318
+      - 油管晓飞分享Hong Kong 15_319
+      - 油管晓飞分享Hong Kong 16_320
+      - 油管晓飞分享Japan 02 | Media_321
+      - 油管晓飞分享Japan 03 | Media_322
+      - 油管晓飞分享Singapore 02 | Media_323
+      - 油管晓飞分享Singapore 03 | Media_324
+      - 油管晓飞分享Singapore 04 | Media_325
+      - 油管晓飞分享Singapore 05 | Media_326
+      - 油管晓飞分享Singapore 06 | Media_327
+      - 油管晓飞分享Taiwan 01 | Shenzhen_328
+      - 油管晓飞分享Taiwan 04 | Shenzhen_329
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇸🇬_SG_新加坡_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇺🇸_US_美国_13
-      - 🇫🇷_FR_法国_14
-      - 🇮🇳_IN_印度_15
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・01_1
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・04_2
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・03_3
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・04_4
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・05_5
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・02_6
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・03_7
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・01_8
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・02_9
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・03_10
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・04_11
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・05_12
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・09_13
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・19_14
+      - 🇭🇰 油管晓飞分享 🇭🇰 B01-CN2 香港A_15
+      - 🇭🇰 油管晓飞分享 🇭🇰 B02-CN2 香港B_16
+      - 🇨🇳 油管晓飞分享 🇨🇳 B03-CN2 巴基斯坦 - 6x_17
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本A_18
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本B_19
+      - 🇭🇰 油管晓飞分享 🇭🇰 C01-BGP 香港A NF-HK- X2x_20
+      - 🇭🇰 油管晓飞分享 🇭🇰 C02-BGP 香港B NF-HK- X2x_21
+      - 🇭🇰 油管晓飞分享 🇭🇰 C03-BGP 香港C_22
+      - 🇺🇸 油管晓飞分享 🇺🇸 C04-BGP 美国A_23
+      - 🇺🇸 油管晓飞分享 🇺🇸 C05-BGP 美国B_24
+      - 🇯🇵 油管晓飞分享 🇯🇵 C06-BGP 日本A_25
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本B_26
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本C_27
+      - 🇨🇳 油管晓飞分享 🇨🇳 C08-BGP 台湾_28
+      - 🇸🇬 油管晓飞分享 🇸🇬 C08-BGP 新加坡A_29
+      - 🇸🇬 油管晓飞分享 🇸🇬 C09-BGP 新加坡B_30
+      - 🇸🇬 油管晓飞分享 🇸🇬 C10-BGP 新加坡C_31
+      - 🇨🇦 油管晓飞分享 🇨🇦 C11-BGP 加拿大_32
+      - 🇬🇧 油管晓飞分享 🇬🇧 C12-BGP 英国_33
+      - 🇰🇷 油管晓飞分享 🇰🇷 C13-BGP 首尔_34
+      - 🇮🇳 油管晓飞分享 🇮🇳 C14-BGP 印度_35
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄02_36
+      - 🇩🇪 油管晓飞分享 🇩🇪 C15-BGP 德国_37
+      - 🇵🇭 油管晓飞分享 🇵🇭 C16-BGP 菲律宾_38
+      - 🇨🇳 油管晓飞分享 台2_|NF|动画疯_39
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02_40
+      - 🇨🇳 油管晓飞分享 台4_|NF|动画疯_41
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05_42
+      - 🇨🇳 油管晓飞分享 台5_|NF|动画疯_43
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07_44
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08_45
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09_46
+      - 🇨🇳 油管晓飞分享 台7_|NF|动画疯_47
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10_48
+      - 油管晓飞分享 坡01_|NF_49
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11_50
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13_51
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14_52
+      - 油管晓飞分享 坡03_NF_53
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15_54
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16_55
+      - 油管晓飞分享 坡04_|NF_56
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02 | Media_57
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03 | Media_58
+      - 油管晓飞分享 坡08_59
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05 | Media_60
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01 | Media_61
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02 | Media_62
+      - 🇯🇵 油管晓飞分享 日03_|NF|DMM_63
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03 | Media_64
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04 | Media_65
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05 | Media_66
+      - 🇯🇵 油管晓飞分享 日05_67
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06 | Media_68
+      - 🇭🇰 油管晓飞分享 港01_|NF_69
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 04 | Shenzhen_70
+      - 🇭🇰 油管晓飞分享 港04_|NF_71
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 01 2_72
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02 2_73
+      - 🇭🇰 油管晓飞分享 港06_|NF|TVB_74
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 03 2_75
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 04 2_76
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05 2_77
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 06 2_78
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07 2_79
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08 2_80
+      - 🇭🇰 油管晓飞分享 港09_81
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09 2_82
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10 2_83
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11 2_84
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 12 2_85
+      - 🇭🇰 油管晓飞分享 港12_86
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13 2_87
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14 2_88
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15 2_89
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16 2_90
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 17_91
+      - 🇺🇸 油管晓飞分享 美1_|NF_92
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 18_93
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 19_94
+      - 🇺🇸 油管晓飞分享 美2_|NF_95
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 23 IPv4 Stream_96
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 01_97
+      - 🇺🇸 油管晓飞分享 美5_98
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 02_99
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 03_100
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩1_101
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 08_102
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 09_103
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 10_104
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 11_105
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 12_106
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 13_107
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 16 IPv4 Stream_108
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 17 IPv4 Stream_109
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 01_110
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02_111
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03_112
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 04_113
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05_114
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 06_115
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 07_116
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 08_117
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 09_118
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 10_119
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 11_120
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 12_121
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 13_122
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 14_123
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 15_124
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 16_125
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 17_126
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 18_127
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 19_128
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 20_129
+      - 🇷🇺 油管晓飞分享 🇷🇺 02.俄罗斯 路由管控_130
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 21_131
+      - 🇳🇱 油管晓飞分享 🇳🇱 Netherlands_132
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia St.Peterburg_133
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia Moscow_134
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 1_135
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 2_136
+      - 🇫🇷 油管晓飞分享 🇫🇷 France_137
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 1_138
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 2_139
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 3_140
+      - 🇸🇪 油管晓飞分享 🇸🇪 Sweden_141
+      - 油管晓飞分享 Bulgaria_142
+      - 🇦🇹 油管晓飞分享 🇦🇹 Austria_143
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 1_144
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 2_145
+      - 油管晓飞分享 Israel_146
+      - 油管晓飞分享 坡07_147
+      - 🇹🇷 油管晓飞分享 🇹🇷 Turkey_148
+      - 🇮🇹 油管晓飞分享 🇮🇹 Italy_149
+      - 🇯🇵 油管晓飞分享 日02_|NF|DMM_150
+      - 油管晓飞分享 Hungary_151
+      - 🇯🇵 油管晓飞分享 日04_|NF|DMM_152
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 1_153
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 2_154
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 4_155
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 1_156
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 2_157
+      - 🇺🇸 油管晓飞分享 美3_158
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 3_159
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 4_160
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 5_161
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 6_162
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 1_163
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 2_164
+      - 🇦🇺 油管晓飞分享 🇦🇺 Australia Sydney 02_165
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 1_166
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 2_167
+      - 🇮🇩 油管晓飞分享 🇮🇩 Indonesia 01_168
+      - 🇧🇷 油管晓飞分享 🇧🇷 Brazil 01_169
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01_170
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02_171
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03_172
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04_173
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05_174
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06_175
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 07_176
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 08_177
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 09_178
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 10_179
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 12 IPv4 Stream_180
+      - 🇲🇾 油管晓飞分享 🇲🇾 Malaysia 01_181
+      - 🇷🇺 油管晓飞分享 🇷🇺 03.俄罗斯 路由管控_182
+      - 🇺🇸 油管晓飞分享 🇺🇸 04.美国 路由管控_183
+      - 🇭🇰 油管晓飞分享 🇭🇰 05.香港 路由管控_184
+      - 🇨🇳 油管晓飞分享 🇨🇳 06.台湾 路由管控_185
+      - 🇯🇵 油管晓飞分享 🇯🇵 07.日本 路由管控_186
+      - 油管晓飞分享 10.阿联酉 VIP专区_187
+      - 🇭🇰 油管晓飞分享 🇭🇰 12.香港 VIP专区_188
+      - 🇭🇰 油管晓飞分享 🇭🇰 13.香港 VIP专区_189
+      - 🇯🇵 油管晓飞分享 🇯🇵 14.日本 VIP专区_190
+      - 🇺🇸 油管晓飞分享 🇺🇸 15.美国 VIP专区_191
+      - 🇲🇴 油管晓飞分享 🇲🇴 17.澳门 明星线路_192
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄01_193
+      - 🇨🇳 油管晓飞分享 台1_|NF|动画疯_194
+      - 🇨🇳 油管晓飞分享 台3_|NF|动画疯_195
+      - 🇨🇳 油管晓飞分享 台6_|NF|动画疯_196
+      - 油管晓飞分享 坡02_|NF_197
+      - 油管晓飞分享 坡05_|NF_198
+      - 油管晓飞分享 坡06_199
+      - 🇯🇵 油管晓飞分享 日01_|NF|DMM_200
+      - 🇯🇵 油管晓飞分享 日06_201
+      - 🇭🇰 油管晓飞分享 港02_|NF_202
+      - 🇭🇰 油管晓飞分享 港03_|NF_203
+      - 🇭🇰 油管晓飞分享 港05_|NF|TVB_204
+      - 🇭🇰 油管晓飞分享 港08_205
+      - 🇭🇰 油管晓飞分享 港10_206
+      - 🇭🇰 油管晓飞分享 港11_207
+      - 🇭🇰 油管晓飞分享 港13_208
+      - 🇺🇸 油管晓飞分享 美4_209
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩2_210
+      - 🇭🇰 油管晓飞分享🇭🇰 大麦-AIA-HK-香港-A-2.0x-视频_211
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-AIA-Game-HK-广港-1-15x-游戏_212
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-1-2.0x-视频_213
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-2-2.0x-视频_214
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-3-2.0x-视频_215
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-4-2.0x-视频_216
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-1-视频_217
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-2-视频_218
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-3-视频_219
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-1-2.0x-视频_220
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-2-2.0x-视频_221
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-3-2.0x-视频_222
+      - 🇹🇷 油管晓飞分享🇹🇷 小麦-中继-TR-土耳其-1-买买买_223
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-1-2.0x-视频_224
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-2-2.0x-视频_225
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-3-2.0x-视频_226
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-1-2.0x-视频_227
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-2-2.0x-视频_228
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-3-2.0x-视频_229
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-4-2.0x-视频_230
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-1-2.0x-视频_231
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-2-2.0x-视频_232
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-3-2.0x-视频_233
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-4-2.0x-视频_234
+      - 油管晓飞分享 Special 冰岛 01 1x Residential_235
+      - 🇲🇴 油管晓飞分享 🇲🇴 Special 澳门 01 1x Residential_236
+      - 🇨🇳 油管晓飞分享 🇨🇳 专线 台湾 01 3x Residential_237
+      - 🇸🇬 油管晓飞分享 🇸🇬 专线 新加坡 01 3x Residential_238
+      - 🇯🇵 油管晓飞分享 🇯🇵 专线 日本 01 3x Media_239
+      - 🇺🇸 油管晓飞分享 🇺🇸 专线 美国 01 3x Residential_240
+      - 🇲🇾 油管晓飞分享 🇲🇾 专线 马来西亚 01 3x Residential_241
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 01 1x Residential_242
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 02 1x Residential_243
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 03 1x Residential_244
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 04 1x Residential_245
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 05 1x Residential_246
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 01 1x Media_247
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 03 1x Media_248
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 04 1x Media_249
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 01 1x Media_250
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 02 1x Media_251
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 03 1x Media_252
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 04 1x Media_253
+      - 🇺🇸 油管晓飞分享 🇺🇸 中继 美国 02 1x Residential_254
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 01 1x Media_255
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 02 1x Media_256
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 03 1x Media_257
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 04 1x Media_258
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 01 1x_259
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 02 1x_260
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 03 1x_261
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 04 1x_262
+      - 🇲🇾 油管晓飞分享 🇲🇾 中继 马来西亚 01 1x Residential_263
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 01 1.5x Media_264
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 02 1.5x Media_265
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 0.5x Media_266
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 1x Residential_267
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 01 1x Media_268
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 02 1x Media_269
+      - 油管晓飞分享 续费专用节点_270
+      - 🇷🇺 油管晓飞分享 🇷🇺 冷门俄罗斯中继 03_271
+      - 🇮🇳 油管晓飞分享 🇮🇳 冷门印度中继 02_272
+      - 🇬🇧 油管晓飞分享 🇬🇧 冷门英国中继 03_273
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 01_274
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 02_275
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 01_276
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 02_277
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 03_278
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 01_279
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 02_280
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 03_281
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 04_282
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 01_283
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 03_284
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 04_285
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 01_286
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 02_287
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 01_288
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 02_289
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 04_290
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 05_291
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 06_292
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国专线 02_293
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 01_294
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 03_295
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 01_296
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 02_297
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 03_298
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 01_299
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 02_300
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 03_301
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 04_302
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 01_303
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 02_304
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 03_305
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 05_306
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 07_307
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 09_308
+      - 油管晓飞分享Hong Kong 02_309
+      - 油管晓飞分享Hong Kong 04_310
+      - 油管晓飞分享Hong Kong 05_311
+      - 油管晓飞分享Hong Kong 06_312
+      - 油管晓飞分享Hong Kong 07_313
+      - 油管晓飞分享Hong Kong 08_314
+      - 油管晓飞分享Hong Kong 09_315
+      - 油管晓飞分享Hong Kong 10_316
+      - 油管晓飞分享Hong Kong 13_317
+      - 油管晓飞分享Hong Kong 14_318
+      - 油管晓飞分享Hong Kong 15_319
+      - 油管晓飞分享Hong Kong 16_320
+      - 油管晓飞分享Japan 02 | Media_321
+      - 油管晓飞分享Japan 03 | Media_322
+      - 油管晓飞分享Singapore 02 | Media_323
+      - 油管晓飞分享Singapore 03 | Media_324
+      - 油管晓飞分享Singapore 04 | Media_325
+      - 油管晓飞分享Singapore 05 | Media_326
+      - 油管晓飞分享Singapore 06 | Media_327
+      - 油管晓飞分享Taiwan 01 | Shenzhen_328
+      - 油管晓飞分享Taiwan 04 | Shenzhen_329
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇸🇬_SG_新加坡_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇺🇸_US_美国_13
-      - 🇫🇷_FR_法国_14
-      - 🇮🇳_IN_印度_15
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・01_1
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・04_2
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・03_3
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・04_4
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・05_5
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・02_6
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・03_7
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・01_8
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・02_9
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・03_10
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・04_11
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・05_12
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・09_13
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・19_14
+      - 🇭🇰 油管晓飞分享 🇭🇰 B01-CN2 香港A_15
+      - 🇭🇰 油管晓飞分享 🇭🇰 B02-CN2 香港B_16
+      - 🇨🇳 油管晓飞分享 🇨🇳 B03-CN2 巴基斯坦 - 6x_17
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本A_18
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本B_19
+      - 🇭🇰 油管晓飞分享 🇭🇰 C01-BGP 香港A NF-HK- X2x_20
+      - 🇭🇰 油管晓飞分享 🇭🇰 C02-BGP 香港B NF-HK- X2x_21
+      - 🇭🇰 油管晓飞分享 🇭🇰 C03-BGP 香港C_22
+      - 🇺🇸 油管晓飞分享 🇺🇸 C04-BGP 美国A_23
+      - 🇺🇸 油管晓飞分享 🇺🇸 C05-BGP 美国B_24
+      - 🇯🇵 油管晓飞分享 🇯🇵 C06-BGP 日本A_25
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本B_26
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本C_27
+      - 🇨🇳 油管晓飞分享 🇨🇳 C08-BGP 台湾_28
+      - 🇸🇬 油管晓飞分享 🇸🇬 C08-BGP 新加坡A_29
+      - 🇸🇬 油管晓飞分享 🇸🇬 C09-BGP 新加坡B_30
+      - 🇸🇬 油管晓飞分享 🇸🇬 C10-BGP 新加坡C_31
+      - 🇨🇦 油管晓飞分享 🇨🇦 C11-BGP 加拿大_32
+      - 🇬🇧 油管晓飞分享 🇬🇧 C12-BGP 英国_33
+      - 🇰🇷 油管晓飞分享 🇰🇷 C13-BGP 首尔_34
+      - 🇮🇳 油管晓飞分享 🇮🇳 C14-BGP 印度_35
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄02_36
+      - 🇩🇪 油管晓飞分享 🇩🇪 C15-BGP 德国_37
+      - 🇵🇭 油管晓飞分享 🇵🇭 C16-BGP 菲律宾_38
+      - 🇨🇳 油管晓飞分享 台2_|NF|动画疯_39
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02_40
+      - 🇨🇳 油管晓飞分享 台4_|NF|动画疯_41
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05_42
+      - 🇨🇳 油管晓飞分享 台5_|NF|动画疯_43
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07_44
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08_45
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09_46
+      - 🇨🇳 油管晓飞分享 台7_|NF|动画疯_47
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10_48
+      - 油管晓飞分享 坡01_|NF_49
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11_50
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13_51
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14_52
+      - 油管晓飞分享 坡03_NF_53
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15_54
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16_55
+      - 油管晓飞分享 坡04_|NF_56
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02 | Media_57
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03 | Media_58
+      - 油管晓飞分享 坡08_59
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05 | Media_60
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01 | Media_61
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02 | Media_62
+      - 🇯🇵 油管晓飞分享 日03_|NF|DMM_63
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03 | Media_64
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04 | Media_65
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05 | Media_66
+      - 🇯🇵 油管晓飞分享 日05_67
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06 | Media_68
+      - 🇭🇰 油管晓飞分享 港01_|NF_69
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 04 | Shenzhen_70
+      - 🇭🇰 油管晓飞分享 港04_|NF_71
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 01 2_72
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02 2_73
+      - 🇭🇰 油管晓飞分享 港06_|NF|TVB_74
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 03 2_75
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 04 2_76
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05 2_77
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 06 2_78
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07 2_79
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08 2_80
+      - 🇭🇰 油管晓飞分享 港09_81
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09 2_82
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10 2_83
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11 2_84
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 12 2_85
+      - 🇭🇰 油管晓飞分享 港12_86
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13 2_87
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14 2_88
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15 2_89
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16 2_90
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 17_91
+      - 🇺🇸 油管晓飞分享 美1_|NF_92
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 18_93
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 19_94
+      - 🇺🇸 油管晓飞分享 美2_|NF_95
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 23 IPv4 Stream_96
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 01_97
+      - 🇺🇸 油管晓飞分享 美5_98
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 02_99
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 03_100
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩1_101
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 08_102
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 09_103
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 10_104
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 11_105
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 12_106
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 13_107
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 16 IPv4 Stream_108
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 17 IPv4 Stream_109
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 01_110
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02_111
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03_112
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 04_113
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05_114
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 06_115
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 07_116
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 08_117
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 09_118
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 10_119
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 11_120
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 12_121
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 13_122
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 14_123
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 15_124
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 16_125
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 17_126
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 18_127
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 19_128
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 20_129
+      - 🇷🇺 油管晓飞分享 🇷🇺 02.俄罗斯 路由管控_130
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 21_131
+      - 🇳🇱 油管晓飞分享 🇳🇱 Netherlands_132
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia St.Peterburg_133
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia Moscow_134
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 1_135
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 2_136
+      - 🇫🇷 油管晓飞分享 🇫🇷 France_137
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 1_138
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 2_139
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 3_140
+      - 🇸🇪 油管晓飞分享 🇸🇪 Sweden_141
+      - 油管晓飞分享 Bulgaria_142
+      - 🇦🇹 油管晓飞分享 🇦🇹 Austria_143
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 1_144
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 2_145
+      - 油管晓飞分享 Israel_146
+      - 油管晓飞分享 坡07_147
+      - 🇹🇷 油管晓飞分享 🇹🇷 Turkey_148
+      - 🇮🇹 油管晓飞分享 🇮🇹 Italy_149
+      - 🇯🇵 油管晓飞分享 日02_|NF|DMM_150
+      - 油管晓飞分享 Hungary_151
+      - 🇯🇵 油管晓飞分享 日04_|NF|DMM_152
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 1_153
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 2_154
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 4_155
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 1_156
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 2_157
+      - 🇺🇸 油管晓飞分享 美3_158
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 3_159
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 4_160
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 5_161
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 6_162
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 1_163
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 2_164
+      - 🇦🇺 油管晓飞分享 🇦🇺 Australia Sydney 02_165
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 1_166
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 2_167
+      - 🇮🇩 油管晓飞分享 🇮🇩 Indonesia 01_168
+      - 🇧🇷 油管晓飞分享 🇧🇷 Brazil 01_169
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01_170
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02_171
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03_172
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04_173
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05_174
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06_175
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 07_176
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 08_177
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 09_178
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 10_179
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 12 IPv4 Stream_180
+      - 🇲🇾 油管晓飞分享 🇲🇾 Malaysia 01_181
+      - 🇷🇺 油管晓飞分享 🇷🇺 03.俄罗斯 路由管控_182
+      - 🇺🇸 油管晓飞分享 🇺🇸 04.美国 路由管控_183
+      - 🇭🇰 油管晓飞分享 🇭🇰 05.香港 路由管控_184
+      - 🇨🇳 油管晓飞分享 🇨🇳 06.台湾 路由管控_185
+      - 🇯🇵 油管晓飞分享 🇯🇵 07.日本 路由管控_186
+      - 油管晓飞分享 10.阿联酉 VIP专区_187
+      - 🇭🇰 油管晓飞分享 🇭🇰 12.香港 VIP专区_188
+      - 🇭🇰 油管晓飞分享 🇭🇰 13.香港 VIP专区_189
+      - 🇯🇵 油管晓飞分享 🇯🇵 14.日本 VIP专区_190
+      - 🇺🇸 油管晓飞分享 🇺🇸 15.美国 VIP专区_191
+      - 🇲🇴 油管晓飞分享 🇲🇴 17.澳门 明星线路_192
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄01_193
+      - 🇨🇳 油管晓飞分享 台1_|NF|动画疯_194
+      - 🇨🇳 油管晓飞分享 台3_|NF|动画疯_195
+      - 🇨🇳 油管晓飞分享 台6_|NF|动画疯_196
+      - 油管晓飞分享 坡02_|NF_197
+      - 油管晓飞分享 坡05_|NF_198
+      - 油管晓飞分享 坡06_199
+      - 🇯🇵 油管晓飞分享 日01_|NF|DMM_200
+      - 🇯🇵 油管晓飞分享 日06_201
+      - 🇭🇰 油管晓飞分享 港02_|NF_202
+      - 🇭🇰 油管晓飞分享 港03_|NF_203
+      - 🇭🇰 油管晓飞分享 港05_|NF|TVB_204
+      - 🇭🇰 油管晓飞分享 港08_205
+      - 🇭🇰 油管晓飞分享 港10_206
+      - 🇭🇰 油管晓飞分享 港11_207
+      - 🇭🇰 油管晓飞分享 港13_208
+      - 🇺🇸 油管晓飞分享 美4_209
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩2_210
+      - 🇭🇰 油管晓飞分享🇭🇰 大麦-AIA-HK-香港-A-2.0x-视频_211
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-AIA-Game-HK-广港-1-15x-游戏_212
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-1-2.0x-视频_213
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-2-2.0x-视频_214
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-3-2.0x-视频_215
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-4-2.0x-视频_216
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-1-视频_217
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-2-视频_218
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-3-视频_219
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-1-2.0x-视频_220
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-2-2.0x-视频_221
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-3-2.0x-视频_222
+      - 🇹🇷 油管晓飞分享🇹🇷 小麦-中继-TR-土耳其-1-买买买_223
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-1-2.0x-视频_224
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-2-2.0x-视频_225
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-3-2.0x-视频_226
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-1-2.0x-视频_227
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-2-2.0x-视频_228
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-3-2.0x-视频_229
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-4-2.0x-视频_230
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-1-2.0x-视频_231
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-2-2.0x-视频_232
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-3-2.0x-视频_233
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-4-2.0x-视频_234
+      - 油管晓飞分享 Special 冰岛 01 1x Residential_235
+      - 🇲🇴 油管晓飞分享 🇲🇴 Special 澳门 01 1x Residential_236
+      - 🇨🇳 油管晓飞分享 🇨🇳 专线 台湾 01 3x Residential_237
+      - 🇸🇬 油管晓飞分享 🇸🇬 专线 新加坡 01 3x Residential_238
+      - 🇯🇵 油管晓飞分享 🇯🇵 专线 日本 01 3x Media_239
+      - 🇺🇸 油管晓飞分享 🇺🇸 专线 美国 01 3x Residential_240
+      - 🇲🇾 油管晓飞分享 🇲🇾 专线 马来西亚 01 3x Residential_241
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 01 1x Residential_242
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 02 1x Residential_243
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 03 1x Residential_244
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 04 1x Residential_245
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 05 1x Residential_246
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 01 1x Media_247
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 03 1x Media_248
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 04 1x Media_249
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 01 1x Media_250
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 02 1x Media_251
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 03 1x Media_252
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 04 1x Media_253
+      - 🇺🇸 油管晓飞分享 🇺🇸 中继 美国 02 1x Residential_254
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 01 1x Media_255
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 02 1x Media_256
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 03 1x Media_257
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 04 1x Media_258
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 01 1x_259
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 02 1x_260
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 03 1x_261
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 04 1x_262
+      - 🇲🇾 油管晓飞分享 🇲🇾 中继 马来西亚 01 1x Residential_263
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 01 1.5x Media_264
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 02 1.5x Media_265
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 0.5x Media_266
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 1x Residential_267
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 01 1x Media_268
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 02 1x Media_269
+      - 油管晓飞分享 续费专用节点_270
+      - 🇷🇺 油管晓飞分享 🇷🇺 冷门俄罗斯中继 03_271
+      - 🇮🇳 油管晓飞分享 🇮🇳 冷门印度中继 02_272
+      - 🇬🇧 油管晓飞分享 🇬🇧 冷门英国中继 03_273
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 01_274
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 02_275
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 01_276
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 02_277
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 03_278
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 01_279
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 02_280
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 03_281
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 04_282
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 01_283
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 03_284
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 04_285
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 01_286
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 02_287
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 01_288
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 02_289
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 04_290
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 05_291
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 06_292
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国专线 02_293
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 01_294
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 03_295
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 01_296
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 02_297
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 03_298
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 01_299
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 02_300
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 03_301
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 04_302
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 01_303
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 02_304
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 03_305
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 05_306
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 07_307
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 09_308
+      - 油管晓飞分享Hong Kong 02_309
+      - 油管晓飞分享Hong Kong 04_310
+      - 油管晓飞分享Hong Kong 05_311
+      - 油管晓飞分享Hong Kong 06_312
+      - 油管晓飞分享Hong Kong 07_313
+      - 油管晓飞分享Hong Kong 08_314
+      - 油管晓飞分享Hong Kong 09_315
+      - 油管晓飞分享Hong Kong 10_316
+      - 油管晓飞分享Hong Kong 13_317
+      - 油管晓飞分享Hong Kong 14_318
+      - 油管晓飞分享Hong Kong 15_319
+      - 油管晓飞分享Hong Kong 16_320
+      - 油管晓飞分享Japan 02 | Media_321
+      - 油管晓飞分享Japan 03 | Media_322
+      - 油管晓飞分享Singapore 02 | Media_323
+      - 油管晓飞分享Singapore 03 | Media_324
+      - 油管晓飞分享Singapore 04 | Media_325
+      - 油管晓飞分享Singapore 05 | Media_326
+      - 油管晓飞分享Singapore 06 | Media_327
+      - 油管晓飞分享Taiwan 01 | Shenzhen_328
+      - 油管晓飞分享Taiwan 04 | Shenzhen_329
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇸🇬_SG_新加坡_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇺🇸_US_美国_13
-      - 🇫🇷_FR_法国_14
-      - 🇮🇳_IN_印度_15
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・01_1
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・04_2
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・03_3
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・04_4
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・05_5
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・02_6
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・03_7
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・01_8
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・02_9
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・03_10
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・04_11
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・05_12
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・09_13
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・19_14
+      - 🇭🇰 油管晓飞分享 🇭🇰 B01-CN2 香港A_15
+      - 🇭🇰 油管晓飞分享 🇭🇰 B02-CN2 香港B_16
+      - 🇨🇳 油管晓飞分享 🇨🇳 B03-CN2 巴基斯坦 - 6x_17
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本A_18
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本B_19
+      - 🇭🇰 油管晓飞分享 🇭🇰 C01-BGP 香港A NF-HK- X2x_20
+      - 🇭🇰 油管晓飞分享 🇭🇰 C02-BGP 香港B NF-HK- X2x_21
+      - 🇭🇰 油管晓飞分享 🇭🇰 C03-BGP 香港C_22
+      - 🇺🇸 油管晓飞分享 🇺🇸 C04-BGP 美国A_23
+      - 🇺🇸 油管晓飞分享 🇺🇸 C05-BGP 美国B_24
+      - 🇯🇵 油管晓飞分享 🇯🇵 C06-BGP 日本A_25
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本B_26
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本C_27
+      - 🇨🇳 油管晓飞分享 🇨🇳 C08-BGP 台湾_28
+      - 🇸🇬 油管晓飞分享 🇸🇬 C08-BGP 新加坡A_29
+      - 🇸🇬 油管晓飞分享 🇸🇬 C09-BGP 新加坡B_30
+      - 🇸🇬 油管晓飞分享 🇸🇬 C10-BGP 新加坡C_31
+      - 🇨🇦 油管晓飞分享 🇨🇦 C11-BGP 加拿大_32
+      - 🇬🇧 油管晓飞分享 🇬🇧 C12-BGP 英国_33
+      - 🇰🇷 油管晓飞分享 🇰🇷 C13-BGP 首尔_34
+      - 🇮🇳 油管晓飞分享 🇮🇳 C14-BGP 印度_35
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄02_36
+      - 🇩🇪 油管晓飞分享 🇩🇪 C15-BGP 德国_37
+      - 🇵🇭 油管晓飞分享 🇵🇭 C16-BGP 菲律宾_38
+      - 🇨🇳 油管晓飞分享 台2_|NF|动画疯_39
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02_40
+      - 🇨🇳 油管晓飞分享 台4_|NF|动画疯_41
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05_42
+      - 🇨🇳 油管晓飞分享 台5_|NF|动画疯_43
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07_44
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08_45
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09_46
+      - 🇨🇳 油管晓飞分享 台7_|NF|动画疯_47
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10_48
+      - 油管晓飞分享 坡01_|NF_49
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11_50
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13_51
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14_52
+      - 油管晓飞分享 坡03_NF_53
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15_54
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16_55
+      - 油管晓飞分享 坡04_|NF_56
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02 | Media_57
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03 | Media_58
+      - 油管晓飞分享 坡08_59
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05 | Media_60
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01 | Media_61
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02 | Media_62
+      - 🇯🇵 油管晓飞分享 日03_|NF|DMM_63
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03 | Media_64
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04 | Media_65
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05 | Media_66
+      - 🇯🇵 油管晓飞分享 日05_67
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06 | Media_68
+      - 🇭🇰 油管晓飞分享 港01_|NF_69
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 04 | Shenzhen_70
+      - 🇭🇰 油管晓飞分享 港04_|NF_71
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 01 2_72
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02 2_73
+      - 🇭🇰 油管晓飞分享 港06_|NF|TVB_74
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 03 2_75
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 04 2_76
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05 2_77
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 06 2_78
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07 2_79
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08 2_80
+      - 🇭🇰 油管晓飞分享 港09_81
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09 2_82
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10 2_83
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11 2_84
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 12 2_85
+      - 🇭🇰 油管晓飞分享 港12_86
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13 2_87
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14 2_88
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15 2_89
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16 2_90
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 17_91
+      - 🇺🇸 油管晓飞分享 美1_|NF_92
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 18_93
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 19_94
+      - 🇺🇸 油管晓飞分享 美2_|NF_95
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 23 IPv4 Stream_96
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 01_97
+      - 🇺🇸 油管晓飞分享 美5_98
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 02_99
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 03_100
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩1_101
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 08_102
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 09_103
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 10_104
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 11_105
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 12_106
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 13_107
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 16 IPv4 Stream_108
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 17 IPv4 Stream_109
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 01_110
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02_111
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03_112
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 04_113
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05_114
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 06_115
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 07_116
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 08_117
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 09_118
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 10_119
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 11_120
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 12_121
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 13_122
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 14_123
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 15_124
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 16_125
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 17_126
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 18_127
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 19_128
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 20_129
+      - 🇷🇺 油管晓飞分享 🇷🇺 02.俄罗斯 路由管控_130
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 21_131
+      - 🇳🇱 油管晓飞分享 🇳🇱 Netherlands_132
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia St.Peterburg_133
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia Moscow_134
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 1_135
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 2_136
+      - 🇫🇷 油管晓飞分享 🇫🇷 France_137
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 1_138
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 2_139
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 3_140
+      - 🇸🇪 油管晓飞分享 🇸🇪 Sweden_141
+      - 油管晓飞分享 Bulgaria_142
+      - 🇦🇹 油管晓飞分享 🇦🇹 Austria_143
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 1_144
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 2_145
+      - 油管晓飞分享 Israel_146
+      - 油管晓飞分享 坡07_147
+      - 🇹🇷 油管晓飞分享 🇹🇷 Turkey_148
+      - 🇮🇹 油管晓飞分享 🇮🇹 Italy_149
+      - 🇯🇵 油管晓飞分享 日02_|NF|DMM_150
+      - 油管晓飞分享 Hungary_151
+      - 🇯🇵 油管晓飞分享 日04_|NF|DMM_152
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 1_153
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 2_154
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 4_155
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 1_156
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 2_157
+      - 🇺🇸 油管晓飞分享 美3_158
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 3_159
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 4_160
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 5_161
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 6_162
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 1_163
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 2_164
+      - 🇦🇺 油管晓飞分享 🇦🇺 Australia Sydney 02_165
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 1_166
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 2_167
+      - 🇮🇩 油管晓飞分享 🇮🇩 Indonesia 01_168
+      - 🇧🇷 油管晓飞分享 🇧🇷 Brazil 01_169
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01_170
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02_171
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03_172
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04_173
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05_174
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06_175
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 07_176
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 08_177
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 09_178
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 10_179
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 12 IPv4 Stream_180
+      - 🇲🇾 油管晓飞分享 🇲🇾 Malaysia 01_181
+      - 🇷🇺 油管晓飞分享 🇷🇺 03.俄罗斯 路由管控_182
+      - 🇺🇸 油管晓飞分享 🇺🇸 04.美国 路由管控_183
+      - 🇭🇰 油管晓飞分享 🇭🇰 05.香港 路由管控_184
+      - 🇨🇳 油管晓飞分享 🇨🇳 06.台湾 路由管控_185
+      - 🇯🇵 油管晓飞分享 🇯🇵 07.日本 路由管控_186
+      - 油管晓飞分享 10.阿联酉 VIP专区_187
+      - 🇭🇰 油管晓飞分享 🇭🇰 12.香港 VIP专区_188
+      - 🇭🇰 油管晓飞分享 🇭🇰 13.香港 VIP专区_189
+      - 🇯🇵 油管晓飞分享 🇯🇵 14.日本 VIP专区_190
+      - 🇺🇸 油管晓飞分享 🇺🇸 15.美国 VIP专区_191
+      - 🇲🇴 油管晓飞分享 🇲🇴 17.澳门 明星线路_192
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄01_193
+      - 🇨🇳 油管晓飞分享 台1_|NF|动画疯_194
+      - 🇨🇳 油管晓飞分享 台3_|NF|动画疯_195
+      - 🇨🇳 油管晓飞分享 台6_|NF|动画疯_196
+      - 油管晓飞分享 坡02_|NF_197
+      - 油管晓飞分享 坡05_|NF_198
+      - 油管晓飞分享 坡06_199
+      - 🇯🇵 油管晓飞分享 日01_|NF|DMM_200
+      - 🇯🇵 油管晓飞分享 日06_201
+      - 🇭🇰 油管晓飞分享 港02_|NF_202
+      - 🇭🇰 油管晓飞分享 港03_|NF_203
+      - 🇭🇰 油管晓飞分享 港05_|NF|TVB_204
+      - 🇭🇰 油管晓飞分享 港08_205
+      - 🇭🇰 油管晓飞分享 港10_206
+      - 🇭🇰 油管晓飞分享 港11_207
+      - 🇭🇰 油管晓飞分享 港13_208
+      - 🇺🇸 油管晓飞分享 美4_209
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩2_210
+      - 🇭🇰 油管晓飞分享🇭🇰 大麦-AIA-HK-香港-A-2.0x-视频_211
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-AIA-Game-HK-广港-1-15x-游戏_212
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-1-2.0x-视频_213
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-2-2.0x-视频_214
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-3-2.0x-视频_215
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-4-2.0x-视频_216
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-1-视频_217
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-2-视频_218
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-3-视频_219
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-1-2.0x-视频_220
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-2-2.0x-视频_221
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-3-2.0x-视频_222
+      - 🇹🇷 油管晓飞分享🇹🇷 小麦-中继-TR-土耳其-1-买买买_223
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-1-2.0x-视频_224
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-2-2.0x-视频_225
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-3-2.0x-视频_226
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-1-2.0x-视频_227
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-2-2.0x-视频_228
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-3-2.0x-视频_229
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-4-2.0x-视频_230
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-1-2.0x-视频_231
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-2-2.0x-视频_232
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-3-2.0x-视频_233
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-4-2.0x-视频_234
+      - 油管晓飞分享 Special 冰岛 01 1x Residential_235
+      - 🇲🇴 油管晓飞分享 🇲🇴 Special 澳门 01 1x Residential_236
+      - 🇨🇳 油管晓飞分享 🇨🇳 专线 台湾 01 3x Residential_237
+      - 🇸🇬 油管晓飞分享 🇸🇬 专线 新加坡 01 3x Residential_238
+      - 🇯🇵 油管晓飞分享 🇯🇵 专线 日本 01 3x Media_239
+      - 🇺🇸 油管晓飞分享 🇺🇸 专线 美国 01 3x Residential_240
+      - 🇲🇾 油管晓飞分享 🇲🇾 专线 马来西亚 01 3x Residential_241
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 01 1x Residential_242
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 02 1x Residential_243
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 03 1x Residential_244
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 04 1x Residential_245
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 05 1x Residential_246
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 01 1x Media_247
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 03 1x Media_248
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 04 1x Media_249
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 01 1x Media_250
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 02 1x Media_251
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 03 1x Media_252
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 04 1x Media_253
+      - 🇺🇸 油管晓飞分享 🇺🇸 中继 美国 02 1x Residential_254
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 01 1x Media_255
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 02 1x Media_256
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 03 1x Media_257
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 04 1x Media_258
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 01 1x_259
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 02 1x_260
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 03 1x_261
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 04 1x_262
+      - 🇲🇾 油管晓飞分享 🇲🇾 中继 马来西亚 01 1x Residential_263
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 01 1.5x Media_264
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 02 1.5x Media_265
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 0.5x Media_266
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 1x Residential_267
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 01 1x Media_268
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 02 1x Media_269
+      - 油管晓飞分享 续费专用节点_270
+      - 🇷🇺 油管晓飞分享 🇷🇺 冷门俄罗斯中继 03_271
+      - 🇮🇳 油管晓飞分享 🇮🇳 冷门印度中继 02_272
+      - 🇬🇧 油管晓飞分享 🇬🇧 冷门英国中继 03_273
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 01_274
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 02_275
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 01_276
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 02_277
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 03_278
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 01_279
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 02_280
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 03_281
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 04_282
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 01_283
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 03_284
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 04_285
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 01_286
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 02_287
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 01_288
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 02_289
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 04_290
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 05_291
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 06_292
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国专线 02_293
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 01_294
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 03_295
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 01_296
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 02_297
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 03_298
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 01_299
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 02_300
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 03_301
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 04_302
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 01_303
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 02_304
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 03_305
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 05_306
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 07_307
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 09_308
+      - 油管晓飞分享Hong Kong 02_309
+      - 油管晓飞分享Hong Kong 04_310
+      - 油管晓飞分享Hong Kong 05_311
+      - 油管晓飞分享Hong Kong 06_312
+      - 油管晓飞分享Hong Kong 07_313
+      - 油管晓飞分享Hong Kong 08_314
+      - 油管晓飞分享Hong Kong 09_315
+      - 油管晓飞分享Hong Kong 10_316
+      - 油管晓飞分享Hong Kong 13_317
+      - 油管晓飞分享Hong Kong 14_318
+      - 油管晓飞分享Hong Kong 15_319
+      - 油管晓飞分享Hong Kong 16_320
+      - 油管晓飞分享Japan 02 | Media_321
+      - 油管晓飞分享Japan 03 | Media_322
+      - 油管晓飞分享Singapore 02 | Media_323
+      - 油管晓飞分享Singapore 03 | Media_324
+      - 油管晓飞分享Singapore 04 | Media_325
+      - 油管晓飞分享Singapore 05 | Media_326
+      - 油管晓飞分享Singapore 06 | Media_327
+      - 油管晓飞分享Taiwan 01 | Shenzhen_328
+      - 油管晓飞分享Taiwan 04 | Shenzhen_329
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -178,21 +2690,335 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇸🇬_SG_新加坡_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇺🇸_US_美国_13
-      - 🇫🇷_FR_法国_14
-      - 🇮🇳_IN_印度_15
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・01_1
+      - 🇨🇳 油管晓飞分享🇨🇳 v1 台湾IEPL・04_2
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・03_3
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・04_4
+      - 🇸🇬 油管晓飞分享🇸🇬 v1 新加坡IEPL・05_5
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・02_6
+      - 🇯🇵 油管晓飞分享🇯🇵 v1 日本IEPL・03_7
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・01_8
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・02_9
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・03_10
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・04_11
+      - 🇺🇸 油管晓飞分享🇺🇸 v1 美国IEPL・05_12
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・09_13
+      - 🇭🇰 油管晓飞分享🇭🇰 v1 香港IEPL・19_14
+      - 🇭🇰 油管晓飞分享 🇭🇰 B01-CN2 香港A_15
+      - 🇭🇰 油管晓飞分享 🇭🇰 B02-CN2 香港B_16
+      - 🇨🇳 油管晓飞分享 🇨🇳 B03-CN2 巴基斯坦 - 6x_17
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本A_18
+      - 🇯🇵 油管晓飞分享 🇯🇵 B04-CN2 日本B_19
+      - 🇭🇰 油管晓飞分享 🇭🇰 C01-BGP 香港A NF-HK- X2x_20
+      - 🇭🇰 油管晓飞分享 🇭🇰 C02-BGP 香港B NF-HK- X2x_21
+      - 🇭🇰 油管晓飞分享 🇭🇰 C03-BGP 香港C_22
+      - 🇺🇸 油管晓飞分享 🇺🇸 C04-BGP 美国A_23
+      - 🇺🇸 油管晓飞分享 🇺🇸 C05-BGP 美国B_24
+      - 🇯🇵 油管晓飞分享 🇯🇵 C06-BGP 日本A_25
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本B_26
+      - 🇯🇵 油管晓飞分享 🇯🇵 C07-BGP 日本C_27
+      - 🇨🇳 油管晓飞分享 🇨🇳 C08-BGP 台湾_28
+      - 🇸🇬 油管晓飞分享 🇸🇬 C08-BGP 新加坡A_29
+      - 🇸🇬 油管晓飞分享 🇸🇬 C09-BGP 新加坡B_30
+      - 🇸🇬 油管晓飞分享 🇸🇬 C10-BGP 新加坡C_31
+      - 🇨🇦 油管晓飞分享 🇨🇦 C11-BGP 加拿大_32
+      - 🇬🇧 油管晓飞分享 🇬🇧 C12-BGP 英国_33
+      - 🇰🇷 油管晓飞分享 🇰🇷 C13-BGP 首尔_34
+      - 🇮🇳 油管晓飞分享 🇮🇳 C14-BGP 印度_35
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄02_36
+      - 🇩🇪 油管晓飞分享 🇩🇪 C15-BGP 德国_37
+      - 🇵🇭 油管晓飞分享 🇵🇭 C16-BGP 菲律宾_38
+      - 🇨🇳 油管晓飞分享 台2_|NF|动画疯_39
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02_40
+      - 🇨🇳 油管晓飞分享 台4_|NF|动画疯_41
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05_42
+      - 🇨🇳 油管晓飞分享 台5_|NF|动画疯_43
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07_44
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08_45
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09_46
+      - 🇨🇳 油管晓飞分享 台7_|NF|动画疯_47
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10_48
+      - 油管晓飞分享 坡01_|NF_49
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11_50
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13_51
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14_52
+      - 油管晓飞分享 坡03_NF_53
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15_54
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16_55
+      - 油管晓飞分享 坡04_|NF_56
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02 | Media_57
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03 | Media_58
+      - 油管晓飞分享 坡08_59
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05 | Media_60
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01 | Media_61
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02 | Media_62
+      - 🇯🇵 油管晓飞分享 日03_|NF|DMM_63
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03 | Media_64
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04 | Media_65
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05 | Media_66
+      - 🇯🇵 油管晓飞分享 日05_67
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06 | Media_68
+      - 🇭🇰 油管晓飞分享 港01_|NF_69
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 04 | Shenzhen_70
+      - 🇭🇰 油管晓飞分享 港04_|NF_71
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 01 2_72
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 02 2_73
+      - 🇭🇰 油管晓飞分享 港06_|NF|TVB_74
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 03 2_75
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 04 2_76
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 05 2_77
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 06 2_78
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 07 2_79
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 08 2_80
+      - 🇭🇰 油管晓飞分享 港09_81
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 09 2_82
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 10 2_83
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 11 2_84
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 12 2_85
+      - 🇭🇰 油管晓飞分享 港12_86
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 13 2_87
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 14 2_88
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 15 2_89
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 16 2_90
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 17_91
+      - 🇺🇸 油管晓飞分享 美1_|NF_92
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 18_93
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 19_94
+      - 🇺🇸 油管晓飞分享 美2_|NF_95
+      - 🇭🇰 油管晓飞分享 🇭🇰 Hong Kong 23 IPv4 Stream_96
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 01_97
+      - 🇺🇸 油管晓飞分享 美5_98
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 02_99
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 03_100
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩1_101
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 08_102
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 09_103
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 10_104
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 11_105
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 12_106
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 13_107
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 16 IPv4 Stream_108
+      - 🇺🇸 油管晓飞分享 🇺🇸 United States 17 IPv4 Stream_109
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 01_110
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 02_111
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 03_112
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 04_113
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 05_114
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 06_115
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 07_116
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 08_117
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 09_118
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 10_119
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 11_120
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 12_121
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 13_122
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 14_123
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 15_124
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 16_125
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 17_126
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 18_127
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 19_128
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 20_129
+      - 🇷🇺 油管晓飞分享 🇷🇺 02.俄罗斯 路由管控_130
+      - 🇯🇵 油管晓飞分享 🇯🇵 Japan 21_131
+      - 🇳🇱 油管晓飞分享 🇳🇱 Netherlands_132
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia St.Peterburg_133
+      - 🇷🇺 油管晓飞分享 🇷🇺 Russia Moscow_134
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 1_135
+      - 🇩🇪 油管晓飞分享 🇩🇪 Germany 2_136
+      - 🇫🇷 油管晓飞分享 🇫🇷 France_137
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 1_138
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 2_139
+      - 🇬🇧 油管晓飞分享 🇬🇧 United Kingdom 3_140
+      - 🇸🇪 油管晓飞分享 🇸🇪 Sweden_141
+      - 油管晓飞分享 Bulgaria_142
+      - 🇦🇹 油管晓飞分享 🇦🇹 Austria_143
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 1_144
+      - 🇮🇪 油管晓飞分享 🇮🇪 Ireland 2_145
+      - 油管晓飞分享 Israel_146
+      - 油管晓飞分享 坡07_147
+      - 🇹🇷 油管晓飞分享 🇹🇷 Turkey_148
+      - 🇮🇹 油管晓飞分享 🇮🇹 Italy_149
+      - 🇯🇵 油管晓飞分享 日02_|NF|DMM_150
+      - 油管晓飞分享 Hungary_151
+      - 🇯🇵 油管晓飞分享 日04_|NF|DMM_152
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 1_153
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 2_154
+      - 🇰🇷 油管晓飞分享 🇰🇷 Korea 4_155
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 1_156
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 2_157
+      - 🇺🇸 油管晓飞分享 美3_158
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 3_159
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 4_160
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 5_161
+      - 🇨🇳 油管晓飞分享 🇨🇳 Taiwan 6_162
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 1_163
+      - 🇨🇦 油管晓飞分享 🇨🇦 Canada 2_164
+      - 🇦🇺 油管晓飞分享 🇦🇺 Australia Sydney 02_165
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 1_166
+      - 🇮🇳 油管晓飞分享 🇮🇳 India 2_167
+      - 🇮🇩 油管晓飞分享 🇮🇩 Indonesia 01_168
+      - 🇧🇷 油管晓飞分享 🇧🇷 Brazil 01_169
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 01_170
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 02_171
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 03_172
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 04_173
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 05_174
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 06_175
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 07_176
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 08_177
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 09_178
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 10_179
+      - 🇸🇬 油管晓飞分享 🇸🇬 Singapore 12 IPv4 Stream_180
+      - 🇲🇾 油管晓飞分享 🇲🇾 Malaysia 01_181
+      - 🇷🇺 油管晓飞分享 🇷🇺 03.俄罗斯 路由管控_182
+      - 🇺🇸 油管晓飞分享 🇺🇸 04.美国 路由管控_183
+      - 🇭🇰 油管晓飞分享 🇭🇰 05.香港 路由管控_184
+      - 🇨🇳 油管晓飞分享 🇨🇳 06.台湾 路由管控_185
+      - 🇯🇵 油管晓飞分享 🇯🇵 07.日本 路由管控_186
+      - 油管晓飞分享 10.阿联酉 VIP专区_187
+      - 🇭🇰 油管晓飞分享 🇭🇰 12.香港 VIP专区_188
+      - 🇭🇰 油管晓飞分享 🇭🇰 13.香港 VIP专区_189
+      - 🇯🇵 油管晓飞分享 🇯🇵 14.日本 VIP专区_190
+      - 🇺🇸 油管晓飞分享 🇺🇸 15.美国 VIP专区_191
+      - 🇲🇴 油管晓飞分享 🇲🇴 17.澳门 明星线路_192
+      - 🇷🇺 油管晓飞分享🇷🇺 其他用途俄01_193
+      - 🇨🇳 油管晓飞分享 台1_|NF|动画疯_194
+      - 🇨🇳 油管晓飞分享 台3_|NF|动画疯_195
+      - 🇨🇳 油管晓飞分享 台6_|NF|动画疯_196
+      - 油管晓飞分享 坡02_|NF_197
+      - 油管晓飞分享 坡05_|NF_198
+      - 油管晓飞分享 坡06_199
+      - 🇯🇵 油管晓飞分享 日01_|NF|DMM_200
+      - 🇯🇵 油管晓飞分享 日06_201
+      - 🇭🇰 油管晓飞分享 港02_|NF_202
+      - 🇭🇰 油管晓飞分享 港03_|NF_203
+      - 🇭🇰 油管晓飞分享 港05_|NF|TVB_204
+      - 🇭🇰 油管晓飞分享 港08_205
+      - 🇭🇰 油管晓飞分享 港10_206
+      - 🇭🇰 油管晓飞分享 港11_207
+      - 🇭🇰 油管晓飞分享 港13_208
+      - 🇺🇸 油管晓飞分享 美4_209
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩2_210
+      - 🇭🇰 油管晓飞分享🇭🇰 大麦-AIA-HK-香港-A-2.0x-视频_211
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-AIA-Game-HK-广港-1-15x-游戏_212
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-1-2.0x-视频_213
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-2-2.0x-视频_214
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-3-2.0x-视频_215
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-中继-HK-香港-4-2.0x-视频_216
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-1-视频_217
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-2-视频_218
+      - 🇯🇵 油管晓飞分享🇯🇵 小麦-中继-JP-日本-3-视频_219
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-1-2.0x-视频_220
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-2-2.0x-视频_221
+      - 🇸🇬 油管晓飞分享🇸🇬 小麦-中继-SGP-新加坡-3-2.0x-视频_222
+      - 🇹🇷 油管晓飞分享🇹🇷 小麦-中继-TR-土耳其-1-买买买_223
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-1-2.0x-视频_224
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-2-2.0x-视频_225
+      - 🇨🇳 油管晓飞分享🇨🇳 小麦-中继-TW-台湾-3-2.0x-视频_226
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-1-2.0x-视频_227
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-2-2.0x-视频_228
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-3-2.0x-视频_229
+      - 🇺🇸 油管晓飞分享🇺🇸 小麦-中继-US-美国-4-2.0x-视频_230
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-1-2.0x-视频_231
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-2-2.0x-视频_232
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-3-2.0x-视频_233
+      - 🇭🇰 油管晓飞分享🇭🇰 小麦-精品-HK-香港-4-2.0x-视频_234
+      - 油管晓飞分享 Special 冰岛 01 1x Residential_235
+      - 🇲🇴 油管晓飞分享 🇲🇴 Special 澳门 01 1x Residential_236
+      - 🇨🇳 油管晓飞分享 🇨🇳 专线 台湾 01 3x Residential_237
+      - 🇸🇬 油管晓飞分享 🇸🇬 专线 新加坡 01 3x Residential_238
+      - 🇯🇵 油管晓飞分享 🇯🇵 专线 日本 01 3x Media_239
+      - 🇺🇸 油管晓飞分享 🇺🇸 专线 美国 01 3x Residential_240
+      - 🇲🇾 油管晓飞分享 🇲🇾 专线 马来西亚 01 3x Residential_241
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 01 1x Residential_242
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 02 1x Residential_243
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 03 1x Residential_244
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 04 1x Residential_245
+      - 🇨🇳 油管晓飞分享 🇨🇳 中继 台湾 05 1x Residential_246
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 01 1x Media_247
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 03 1x Media_248
+      - 🇸🇬 油管晓飞分享 🇸🇬 中继 新加坡 04 1x Media_249
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 01 1x Media_250
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 02 1x Media_251
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 03 1x Media_252
+      - 🇯🇵 油管晓飞分享 🇯🇵 中继 日本 04 1x Media_253
+      - 🇺🇸 油管晓飞分享 🇺🇸 中继 美国 02 1x Residential_254
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 01 1x Media_255
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 02 1x Media_256
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 03 1x Media_257
+      - 🇰🇷 油管晓飞分享 🇰🇷 中继 韩国 04 1x Media_258
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 01 1x_259
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 02 1x_260
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 03 1x_261
+      - 🇭🇰 油管晓飞分享 🇭🇰 中继 香港 04 1x_262
+      - 🇲🇾 油管晓飞分享 🇲🇾 中继 马来西亚 01 1x Residential_263
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 01 1.5x Media_264
+      - 🇯🇵 油管晓飞分享 🇯🇵 直连 日本 02 1.5x Media_265
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 0.5x Media_266
+      - 🇺🇸 油管晓飞分享 🇺🇸 直连 美国 1x Residential_267
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 01 1x Media_268
+      - 🇰🇷 油管晓飞分享 🇰🇷 直连 韩国 02 1x Media_269
+      - 油管晓飞分享 续费专用节点_270
+      - 🇷🇺 油管晓飞分享 🇷🇺 冷门俄罗斯中继 03_271
+      - 🇮🇳 油管晓飞分享 🇮🇳 冷门印度中继 02_272
+      - 🇬🇧 油管晓飞分享 🇬🇧 冷门英国中继 03_273
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 01_274
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾专线 02_275
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 01_276
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 02_277
+      - 🇨🇳 油管晓飞分享 🇨🇳 台湾中继 03_278
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 01_279
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 02_280
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 03_281
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡专线 04_282
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 01_283
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 03_284
+      - 🇸🇬 油管晓飞分享 🇸🇬 新加坡中继 04_285
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 01_286
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本专线 02_287
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 01_288
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 02_289
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 04_290
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 05_291
+      - 🇯🇵 油管晓飞分享 🇯🇵 日本中继 06_292
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国专线 02_293
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 01_294
+      - 🇺🇸 油管晓飞分享 🇺🇸 美国中继 03_295
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 01_296
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 02_297
+      - 🇰🇷 油管晓飞分享 🇰🇷 韩国中继 03_298
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 01_299
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 02_300
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 03_301
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港专线 04_302
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 01_303
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 02_304
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 03_305
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 05_306
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 07_307
+      - 🇭🇰 油管晓飞分享 🇭🇰 香港中继 09_308
+      - 油管晓飞分享Hong Kong 02_309
+      - 油管晓飞分享Hong Kong 04_310
+      - 油管晓飞分享Hong Kong 05_311
+      - 油管晓飞分享Hong Kong 06_312
+      - 油管晓飞分享Hong Kong 07_313
+      - 油管晓飞分享Hong Kong 08_314
+      - 油管晓飞分享Hong Kong 09_315
+      - 油管晓飞分享Hong Kong 10_316
+      - 油管晓飞分享Hong Kong 13_317
+      - 油管晓飞分享Hong Kong 14_318
+      - 油管晓飞分享Hong Kong 15_319
+      - 油管晓飞分享Hong Kong 16_320
+      - 油管晓飞分享Japan 02 | Media_321
+      - 油管晓飞分享Japan 03 | Media_322
+      - 油管晓飞分享Singapore 02 | Media_323
+      - 油管晓飞分享Singapore 03 | Media_324
+      - 油管晓飞分享Singapore 04 | Media_325
+      - 油管晓飞分享Singapore 05 | Media_326
+      - 油管晓飞分享Singapore 06 | Media_327
+      - 油管晓飞分享Taiwan 01 | Shenzhen_328
+      - 油管晓飞分享Taiwan 04 | Shenzhen_329
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
