@@ -592,31 +592,13 @@ proxies:
   - {name: Youtube:鹏哥分享_97, server: 120.197.88.216, port: 20006, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
   - {name: Youtube:鹏哥分享_98, server: global-transit-02-sg.pucdn.me, port: 63005, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-05.pucdn.me}}
   - {name: Youtube:鹏哥分享_99, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _DE_德国_47, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
-  - {name: _GB_英国_13, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _GB_英国_15, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _GB_英国_16, server: 172.99.190.90, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _GB_英国_18, server: 172.99.190.90, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _GB_英国_19, server: 172.99.190.90, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _GB_英国_25, server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _GB_英国_26, server: 172.99.190.90, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _GB_英国_31, server: 172.99.190.90, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _GB_英国_35, server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _GB_英国_39, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: _HK_香港_1, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _HK_香港_2, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _HK_香港_21, server: 103.138.75.226, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /clientarea, ws-headers: {Host: hkbgp-100m01.nb1.fr}}
-  - {name: _HK_香港_28, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _HK_香港_48, server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _JP_日本_11, server: 85.208.108.106, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _JP_日本_23, server: 85.208.108.106, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: _JP_日本_24, server: 85.208.108.106, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: _JP_日本_34, server: 85.208.108.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: _JP_日本_37, server: 85.208.108.146, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _JP_日本_42, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _KR_韩国_27, server: 141.164.53.152, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _KR_韩国_33, server: 141.164.53.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: _KR_韩国_41, server: 141.164.53.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _BG保加利亚_6, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: _CA加拿大_5, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: _CA加拿大_8, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _FR法国_9, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: _HK香港_1, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _HK香港_2, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _IN印度_10, server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
   - {name: _NON_Chen-2021.12.19_1, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: _NON_Chen-2021.12.19_1 2, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: _NON_Chen-2021.12.19_10, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
@@ -795,30 +777,9 @@ proxies:
   - {name: _NON_Chen-2021.12.19_98 2, server: global-transit-hk-v2.pucdn.me, port: 40010, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-10.pucdn.me}}
   - {name: _NON_Chen-2021.12.19_99, server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
   - {name: _NON_Chen-2021.12.19_99 2, server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
-  - {name: _RU_俄罗斯联邦_5, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: _SG_新加坡_12, server: 172.104.168.83, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _SG_新加坡_14, server: 172.104.168.83, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _SG_新加坡_22, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}}
-  - {name: _SG_新加坡_30, server: 103.253.26.20, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: zecjk.com}}
-  - {name: _SG_新加坡_38, server: 172.104.168.83, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _SG_新加坡_40, server: 81.90.189.33, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
-  - {name: _SG_新加坡_43, server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: zecjk.com}}
-  - {name: _SG_新加坡_44, server: 172.104.168.83, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _SG_新加坡_45, server: 172.104.168.83, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: _SG_新加坡_7, server: 172.104.168.83, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _TW_台湾_46, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_32, server: 172.67.176.114, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_36, server: free-russian02-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_49, server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
-  - {name: _US_美国_10, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
-  - {name: _US_美国_17, server: api.ssfree.ru, port: 443, type: vmess, uuid: b907fae8-60e4-11ec-9251-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /getweather, ws-headers: {Host: api.ssfree.ru}}
-  - {name: _US_美国_20, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: _US_美国_29, server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
-  - {name: _US_美国_3, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: _US_美国_4, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: _US_美国_6, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: _US_美国_8, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: _US_美国_9, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
+  - {name: _RU俄罗斯联邦_4, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: _SG新加坡_7, server: 172.104.168.83, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _US美国_3, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
   - {name: 乌克兰（YouTube资源分享者）, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 2, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 3, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
@@ -2012,11 +1973,8 @@ proxy-groups:
       - 243香港∞中转
       - 244香港∞中转
       - 245香港∞中转
-      - _HK_香港_1
-      - _HK_香港_2
-      - _HK_香港_21
-      - _HK_香港_28
-      - _HK_香港_48
+      - _HK香港_1
+      - _HK香港_2
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
@@ -2069,12 +2027,6 @@ proxy-groups:
       - 103日本∞直连
       - 104日本∞直连
       - 105日本∞直连
-      - _JP_日本_11
-      - _JP_日本_23
-      - _JP_日本_24
-      - _JP_日本_34
-      - _JP_日本_37
-      - _JP_日本_42
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
@@ -2178,18 +2130,7 @@ proxy-groups:
       - "@SSRSUB-美国V09-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-美国V16-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-美国V16-付费推荐::suo.yt/ssrsub 2"
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_32
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_36
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_49
-      - _US_美国_10
-      - _US_美国_17
-      - _US_美国_20
-      - _US_美国_29
-      - _US_美国_3
-      - _US_美国_4
-      - _US_美国_6
-      - _US_美国_8
-      - _US_美国_9
+      - _US美国_3
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 10
       - 美国(欢迎订阅Youtube破解资源君) 11
@@ -2290,7 +2231,6 @@ proxy-groups:
       - 048台湾∞中转
       - 049台湾∞中转
       - 050台湾∞中转
-      - _TW_台湾_46
       - 台湾(欢迎订阅Youtube破解资源君)
       - 台湾(欢迎订阅Youtube破解资源君) 2
       - 台湾(欢迎订阅Youtube破解资源君) 3
@@ -2331,16 +2271,7 @@ proxy-groups:
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-新加坡V15-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V15-付费推荐::suo.yt/ssrsub 2"
-      - _SG_新加坡_12
-      - _SG_新加坡_14
-      - _SG_新加坡_22
-      - _SG_新加坡_30
-      - _SG_新加坡_38
-      - _SG_新加坡_40
-      - _SG_新加坡_43
-      - _SG_新加坡_44
-      - _SG_新加坡_45
-      - _SG_新加坡_7
+      - _SG新加坡_7
       - 新加坡（YouTube资源分享者）
       - 新加坡（YouTube资源分享者） 2
   - name: 🇰🇷 韩国节点
@@ -2357,9 +2288,6 @@ proxy-groups:
       - 218韩国∞直连
       - 219韩国∞直连
       - 220韩国∞直连
-      - _KR_韩国_27
-      - _KR_韩国_33
-      - _KR_韩国_41
       - 日韩频道 TG@shoucangAV
   - name: 🌍 其他地区
     type: select
@@ -2441,21 +2369,10 @@ proxy-groups:
       - "@SSRSUB-加拿大V03-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-加拿大V11-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-加拿大V11-付费推荐::suo.yt/ssrsub 2"
-      - _DE_德国_47
-      - _GB_英国_13
-      - _GB_英国_15
-      - _GB_英国_16
-      - _GB_英国_18
-      - _GB_英国_19
-      - _GB_英国_25
-      - _GB_英国_26
-      - _GB_英国_31
-      - _GB_英国_35
-      - _GB_英国_39
-      - _RU_俄罗斯联邦_5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_32
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_36
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_49
+      - _CA加拿大_5
+      - _CA加拿大_8
+      - _IN印度_10
+      - _RU俄罗斯联邦_4
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
       - 俄罗斯（YouTube资源分享者） 3
@@ -3092,31 +3009,13 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
-      - _DE_德国_47
-      - _GB_英国_13
-      - _GB_英国_15
-      - _GB_英国_16
-      - _GB_英国_18
-      - _GB_英国_19
-      - _GB_英国_25
-      - _GB_英国_26
-      - _GB_英国_31
-      - _GB_英国_35
-      - _GB_英国_39
-      - _HK_香港_1
-      - _HK_香港_2
-      - _HK_香港_21
-      - _HK_香港_28
-      - _HK_香港_48
-      - _JP_日本_11
-      - _JP_日本_23
-      - _JP_日本_24
-      - _JP_日本_34
-      - _JP_日本_37
-      - _JP_日本_42
-      - _KR_韩国_27
-      - _KR_韩国_33
-      - _KR_韩国_41
+      - _BG保加利亚_6
+      - _CA加拿大_5
+      - _CA加拿大_8
+      - _FR法国_9
+      - _HK香港_1
+      - _HK香港_2
+      - _IN印度_10
       - _NON_Chen-2021.12.19_1
       - _NON_Chen-2021.12.19_1 2
       - _NON_Chen-2021.12.19_10
@@ -3295,30 +3194,9 @@ proxy-groups:
       - _NON_Chen-2021.12.19_98 2
       - _NON_Chen-2021.12.19_99
       - _NON_Chen-2021.12.19_99 2
-      - _RU_俄罗斯联邦_5
-      - _SG_新加坡_12
-      - _SG_新加坡_14
-      - _SG_新加坡_22
-      - _SG_新加坡_30
-      - _SG_新加坡_38
-      - _SG_新加坡_40
-      - _SG_新加坡_43
-      - _SG_新加坡_44
-      - _SG_新加坡_45
-      - _SG_新加坡_7
-      - _TW_台湾_46
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_32
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_36
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_49
-      - _US_美国_10
-      - _US_美国_17
-      - _US_美国_20
-      - _US_美国_29
-      - _US_美国_3
-      - _US_美国_4
-      - _US_美国_6
-      - _US_美国_8
-      - _US_美国_9
+      - _RU俄罗斯联邦_4
+      - _SG新加坡_7
+      - _US美国_3
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
       - 乌克兰（YouTube资源分享者） 3
