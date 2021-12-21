@@ -10,19 +10,11 @@ proxies:
   - {name: '🇺🇸_US_美国_3', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
   - {name: '🇺🇸_US_美国_4', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
   - {name: 'default_name_5', server: 104.21.60.154, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
-  - {name: '🇨🇦_CA_加拿大_6', server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: '🇺🇸_US_美国_7', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '🇧🇬_BG_保加利亚_8', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: '🇸🇬_SG_新加坡_9', server: 172.104.168.83, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_10', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '🇨🇦_CA_加拿大_11', server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_12', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇫🇷_FR_法国_13', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: '🇮🇳_IN_印度_14', server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
-  - {name: '🇨🇦_CA_加拿大_15', server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_美国_16', server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
-  - {name: '🇸🇬_SG_新加坡_17', server: 172.104.168.83, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇬🇧_GB_英国_18', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇷🇺_RU_俄罗斯联邦_6', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: '🇨🇦_CA_加拿大_7', server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '🇺🇸_US_美国_8', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: '🇧🇬_BG_保加利亚_9', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: '🇸🇬_SG_新加坡_10', server: 172.104.168.83, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -34,19 +26,11 @@ proxy-groups:
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - default_name_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇧🇬_BG_保加利亚_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇺🇸_US_美国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇺🇸_US_美国_12
-      - 🇫🇷_FR_法国_13
-      - 🇮🇳_IN_印度_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇺🇸_US_美国_16
-      - 🇸🇬_SG_新加坡_17
-      - 🇬🇧_GB_英国_18
+      - 🇷🇺_RU_俄罗斯联邦_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇸🇬_SG_新加坡_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -57,19 +41,11 @@ proxy-groups:
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - default_name_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇧🇬_BG_保加利亚_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇺🇸_US_美国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇺🇸_US_美国_12
-      - 🇫🇷_FR_法国_13
-      - 🇮🇳_IN_印度_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇺🇸_US_美国_16
-      - 🇸🇬_SG_新加坡_17
-      - 🇬🇧_GB_英国_18
+      - 🇷🇺_RU_俄罗斯联邦_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇸🇬_SG_新加坡_10
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -81,19 +57,11 @@ proxy-groups:
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - default_name_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇧🇬_BG_保加利亚_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇺🇸_US_美国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇺🇸_US_美国_12
-      - 🇫🇷_FR_法国_13
-      - 🇮🇳_IN_印度_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇺🇸_US_美国_16
-      - 🇸🇬_SG_新加坡_17
-      - 🇬🇧_GB_英国_18
+      - 🇷🇺_RU_俄罗斯联邦_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇸🇬_SG_新加坡_10
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -104,19 +72,11 @@ proxy-groups:
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - default_name_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇧🇬_BG_保加利亚_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇺🇸_US_美国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇺🇸_US_美国_12
-      - 🇫🇷_FR_法国_13
-      - 🇮🇳_IN_印度_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇺🇸_US_美国_16
-      - 🇸🇬_SG_新加坡_17
-      - 🇬🇧_GB_英国_18
+      - 🇷🇺_RU_俄罗斯联邦_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇸🇬_SG_新加坡_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -127,19 +87,11 @@ proxy-groups:
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - default_name_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇧🇬_BG_保加利亚_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇺🇸_US_美国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇺🇸_US_美国_12
-      - 🇫🇷_FR_法国_13
-      - 🇮🇳_IN_印度_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇺🇸_US_美国_16
-      - 🇸🇬_SG_新加坡_17
-      - 🇬🇧_GB_英国_18
+      - 🇷🇺_RU_俄罗斯联邦_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇸🇬_SG_新加坡_10
   - name: 📲 电报信息
     type: select
     proxies:
@@ -150,19 +102,11 @@ proxy-groups:
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - default_name_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇧🇬_BG_保加利亚_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇺🇸_US_美国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇺🇸_US_美国_12
-      - 🇫🇷_FR_法国_13
-      - 🇮🇳_IN_印度_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇺🇸_US_美国_16
-      - 🇸🇬_SG_新加坡_17
-      - 🇬🇧_GB_英国_18
+      - 🇷🇺_RU_俄罗斯联邦_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇸🇬_SG_新加坡_10
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -174,19 +118,11 @@ proxy-groups:
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - default_name_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇧🇬_BG_保加利亚_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇺🇸_US_美国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇺🇸_US_美国_12
-      - 🇫🇷_FR_法国_13
-      - 🇮🇳_IN_印度_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇺🇸_US_美国_16
-      - 🇸🇬_SG_新加坡_17
-      - 🇬🇧_GB_英国_18
+      - 🇷🇺_RU_俄罗斯联邦_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇸🇬_SG_新加坡_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -207,19 +143,11 @@ proxy-groups:
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - default_name_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇧🇬_BG_保加利亚_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇺🇸_US_美国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇺🇸_US_美国_12
-      - 🇫🇷_FR_法国_13
-      - 🇮🇳_IN_印度_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇺🇸_US_美国_16
-      - 🇸🇬_SG_新加坡_17
-      - 🇬🇧_GB_英国_18
+      - 🇷🇺_RU_俄罗斯联邦_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇸🇬_SG_新加坡_10
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
