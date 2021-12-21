@@ -5,76 +5,76 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_1', server: 120.232.43.189, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418}
-  - {name: '🇨🇦_CA_加拿大_2', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇪🇬_EG_埃及_3', server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
-  - {name: '🇳🇴_NO_挪威_4', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB_英国_1', server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇬🇧_GB_英国_2', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇷🇺_RU_俄罗斯联邦_3', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: '🇨🇦_CA_加拿大_4', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇪🇬_EG_埃及_3
-      - 🇳🇴_NO_挪威_4
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇨🇦_CA_加拿大_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇪🇬_EG_埃及_3
-      - 🇳🇴_NO_挪威_4
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇨🇦_CA_加拿大_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇪🇬_EG_埃及_3
-      - 🇳🇴_NO_挪威_4
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇨🇦_CA_加拿大_4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇪🇬_EG_埃及_3
-      - 🇳🇴_NO_挪威_4
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇨🇦_CA_加拿大_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇪🇬_EG_埃及_3
-      - 🇳🇴_NO_挪威_4
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇨🇦_CA_加拿大_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇪🇬_EG_埃及_3
-      - 🇳🇴_NO_挪威_4
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇨🇦_CA_加拿大_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇪🇬_EG_埃及_3
-      - 🇳🇴_NO_挪威_4
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇨🇦_CA_加拿大_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,10 +90,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇪🇬_EG_埃及_3
-      - 🇳🇴_NO_挪威_4
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇨🇦_CA_加拿大_4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
