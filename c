@@ -5,76 +5,844 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇳🇴_NO_挪威_1', server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇫🇷_FR_法国_2', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '🇨🇦_CA_加拿大_3', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇳🇴_NO_挪威_4', server: 46.29.218.146, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '英国_Node_1', server: 172.99.190.90, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '布维岛_Node_2', server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '英国_Node_3', server: 172.99.190.90, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '加拿大_Node_4', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '挪威_Node_5', server: 46.29.218.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '挪威_Node_6', server: 46.29.218.146, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '布维岛_Node_7', server: 46.29.219.246, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '加拿大_Node_8', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '英国_Node_9', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '加拿大_Node_10', server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '加拿大_Node_11', server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '加拿大_Node_12', server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '英国_Node_13', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '布维岛_Node_14', server: 46.29.219.246, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '英国_Node_15', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '布维岛_Node_16', server: 46.29.219.246, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '挪威_Node_17', server: 46.29.218.146, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '新加坡_Node_18', server: 81.90.189.33, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
+  - {name: '美国_Node_19', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '英国_Node_20', server: 172.99.190.90, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '英国_Node_21', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '巴西_Node_22', server: 177.54.150.39, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '加拿大_Node_23', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '加拿大_Node_24', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '加拿大_Node_25', server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '芬兰_Node_26', server: 185.212.149.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: SxFvGWWUtEjyQnGbggq2}
+  - {name: '日本_Node_27', server: 85.208.108.146, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '加拿大_Node_28', server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '加拿大_Node_29', server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '挪威_Node_30', server: 46.29.218.146, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '加拿大_Node_31', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '挪威_Node_32', server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: '加拿大_Node_33', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '加拿大_Node_34', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '埃及_Node_35', server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
+  - {name: '法国_Node_36', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '加拿大_Node_37', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '中国_Node_38', server: 120.232.43.189, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418}
+  - {name: '布维岛_Node_39', server: 46.29.219.246, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '俄罗斯联邦_Node_40', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: '英国_Node_41', server: 172.99.190.90, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国_Node_42', server: 167.88.62.104, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '奥地利_Node_43', server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL}
+  - {name: '加拿大_Node_44', server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '加拿大_Node_45', server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: '法国_Node_46', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '法国_Node_47', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '韩国_Node_48', server: 141.164.53.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '布维岛_Node_49', server: 46.29.219.246, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '布维岛_Node_50', server: 46.29.219.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '乌克兰_Node_51', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: '美国_Node_52', server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '加拿大_Node_53', server: 134.195.198.95, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '加拿大_Node_54', server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '澳大利亚_Node_55', server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: '丹麦_Node_56', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: '法国_Node_57', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '挪威_Node_58', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '越南_Node_59', server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: '日本_Node_60', server: 85.208.108.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '挪威_Node_61', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '挪威_Node_62', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '英国_Node_63', server: 172.99.190.90, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '美国_Node_64', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: '英国_Node_65', server: 172.99.190.35, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '加拿大_Node_66', server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '加拿大_Node_67', server: 134.195.198.95, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '葡萄牙_Node_68', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: '韩国_Node_69', server: 158.247.222.102, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '韩国_Node_70', server: 158.247.222.102, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '日本_Node_71', server: 85.208.108.90, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '挪威_Node_72', server: 46.29.218.146, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '加拿大_Node_73', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '法国_Node_74', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '法国_Node_75', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '法国_Node_76', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '布维岛_Node_77', server: 46.29.219.246, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '挪威_Node_78', server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国_Node_79', server: 66.55.92.75, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 6g8n89NARNcuTH2XvUtZ}
+  - {name: '美国_Node_80', server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国_Node_81', server: 38.75.137.66, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '美国_Node_82', server: 38.68.134.85, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '美国_Node_83', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: '加拿大_Node_84', server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '加拿大_Node_85', server: 134.195.196.219, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '加拿大_Node_86', server: 134.195.196.231, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '法国_Node_87', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '日本_Node_88', server: 172.105.232.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '新西兰_Node_89', server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
+  - {name: '新加坡_Node_90', server: 217.197.161.164, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '英国_Node_91', server: 172.99.190.90, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '英国_Node_92', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '美国_Node_93', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '美国_Node_94', server: 142.202.48.43, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '英国_Node_95', server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '英国_Node_96', server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国_Node_97', server: 38.68.134.69, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国_Node_98', server: 142.202.48.43, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '美国_Node_99', server: 38.75.137.66, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '加拿大_Node_100', server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇴_NO_挪威_1
-      - 🇫🇷_FR_法国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇳🇴_NO_挪威_4
+      - 英国_Node_1
+      - 布维岛_Node_2
+      - 英国_Node_3
+      - 加拿大_Node_4
+      - 挪威_Node_5
+      - 挪威_Node_6
+      - 布维岛_Node_7
+      - 加拿大_Node_8
+      - 英国_Node_9
+      - 加拿大_Node_10
+      - 加拿大_Node_11
+      - 加拿大_Node_12
+      - 英国_Node_13
+      - 布维岛_Node_14
+      - 英国_Node_15
+      - 布维岛_Node_16
+      - 挪威_Node_17
+      - 新加坡_Node_18
+      - 美国_Node_19
+      - 英国_Node_20
+      - 英国_Node_21
+      - 巴西_Node_22
+      - 加拿大_Node_23
+      - 加拿大_Node_24
+      - 加拿大_Node_25
+      - 芬兰_Node_26
+      - 日本_Node_27
+      - 加拿大_Node_28
+      - 加拿大_Node_29
+      - 挪威_Node_30
+      - 加拿大_Node_31
+      - 挪威_Node_32
+      - 加拿大_Node_33
+      - 加拿大_Node_34
+      - 埃及_Node_35
+      - 法国_Node_36
+      - 加拿大_Node_37
+      - 中国_Node_38
+      - 布维岛_Node_39
+      - 俄罗斯联邦_Node_40
+      - 英国_Node_41
+      - 美国_Node_42
+      - 奥地利_Node_43
+      - 加拿大_Node_44
+      - 加拿大_Node_45
+      - 法国_Node_46
+      - 法国_Node_47
+      - 韩国_Node_48
+      - 布维岛_Node_49
+      - 布维岛_Node_50
+      - 乌克兰_Node_51
+      - 美国_Node_52
+      - 加拿大_Node_53
+      - 加拿大_Node_54
+      - 澳大利亚_Node_55
+      - 丹麦_Node_56
+      - 法国_Node_57
+      - 挪威_Node_58
+      - 越南_Node_59
+      - 日本_Node_60
+      - 挪威_Node_61
+      - 挪威_Node_62
+      - 英国_Node_63
+      - 美国_Node_64
+      - 英国_Node_65
+      - 加拿大_Node_66
+      - 加拿大_Node_67
+      - 葡萄牙_Node_68
+      - 韩国_Node_69
+      - 韩国_Node_70
+      - 日本_Node_71
+      - 挪威_Node_72
+      - 加拿大_Node_73
+      - 法国_Node_74
+      - 法国_Node_75
+      - 法国_Node_76
+      - 布维岛_Node_77
+      - 挪威_Node_78
+      - 美国_Node_79
+      - 美国_Node_80
+      - 美国_Node_81
+      - 美国_Node_82
+      - 美国_Node_83
+      - 加拿大_Node_84
+      - 加拿大_Node_85
+      - 加拿大_Node_86
+      - 法国_Node_87
+      - 日本_Node_88
+      - 新西兰_Node_89
+      - 新加坡_Node_90
+      - 英国_Node_91
+      - 英国_Node_92
+      - 美国_Node_93
+      - 美国_Node_94
+      - 英国_Node_95
+      - 英国_Node_96
+      - 美国_Node_97
+      - 美国_Node_98
+      - 美国_Node_99
+      - 加拿大_Node_100
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇳🇴_NO_挪威_1
-      - 🇫🇷_FR_法国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇳🇴_NO_挪威_4
+      - 英国_Node_1
+      - 布维岛_Node_2
+      - 英国_Node_3
+      - 加拿大_Node_4
+      - 挪威_Node_5
+      - 挪威_Node_6
+      - 布维岛_Node_7
+      - 加拿大_Node_8
+      - 英国_Node_9
+      - 加拿大_Node_10
+      - 加拿大_Node_11
+      - 加拿大_Node_12
+      - 英国_Node_13
+      - 布维岛_Node_14
+      - 英国_Node_15
+      - 布维岛_Node_16
+      - 挪威_Node_17
+      - 新加坡_Node_18
+      - 美国_Node_19
+      - 英国_Node_20
+      - 英国_Node_21
+      - 巴西_Node_22
+      - 加拿大_Node_23
+      - 加拿大_Node_24
+      - 加拿大_Node_25
+      - 芬兰_Node_26
+      - 日本_Node_27
+      - 加拿大_Node_28
+      - 加拿大_Node_29
+      - 挪威_Node_30
+      - 加拿大_Node_31
+      - 挪威_Node_32
+      - 加拿大_Node_33
+      - 加拿大_Node_34
+      - 埃及_Node_35
+      - 法国_Node_36
+      - 加拿大_Node_37
+      - 中国_Node_38
+      - 布维岛_Node_39
+      - 俄罗斯联邦_Node_40
+      - 英国_Node_41
+      - 美国_Node_42
+      - 奥地利_Node_43
+      - 加拿大_Node_44
+      - 加拿大_Node_45
+      - 法国_Node_46
+      - 法国_Node_47
+      - 韩国_Node_48
+      - 布维岛_Node_49
+      - 布维岛_Node_50
+      - 乌克兰_Node_51
+      - 美国_Node_52
+      - 加拿大_Node_53
+      - 加拿大_Node_54
+      - 澳大利亚_Node_55
+      - 丹麦_Node_56
+      - 法国_Node_57
+      - 挪威_Node_58
+      - 越南_Node_59
+      - 日本_Node_60
+      - 挪威_Node_61
+      - 挪威_Node_62
+      - 英国_Node_63
+      - 美国_Node_64
+      - 英国_Node_65
+      - 加拿大_Node_66
+      - 加拿大_Node_67
+      - 葡萄牙_Node_68
+      - 韩国_Node_69
+      - 韩国_Node_70
+      - 日本_Node_71
+      - 挪威_Node_72
+      - 加拿大_Node_73
+      - 法国_Node_74
+      - 法国_Node_75
+      - 法国_Node_76
+      - 布维岛_Node_77
+      - 挪威_Node_78
+      - 美国_Node_79
+      - 美国_Node_80
+      - 美国_Node_81
+      - 美国_Node_82
+      - 美国_Node_83
+      - 加拿大_Node_84
+      - 加拿大_Node_85
+      - 加拿大_Node_86
+      - 法国_Node_87
+      - 日本_Node_88
+      - 新西兰_Node_89
+      - 新加坡_Node_90
+      - 英国_Node_91
+      - 英国_Node_92
+      - 美国_Node_93
+      - 美国_Node_94
+      - 英国_Node_95
+      - 英国_Node_96
+      - 美国_Node_97
+      - 美国_Node_98
+      - 美国_Node_99
+      - 加拿大_Node_100
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇴_NO_挪威_1
-      - 🇫🇷_FR_法国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇳🇴_NO_挪威_4
+      - 英国_Node_1
+      - 布维岛_Node_2
+      - 英国_Node_3
+      - 加拿大_Node_4
+      - 挪威_Node_5
+      - 挪威_Node_6
+      - 布维岛_Node_7
+      - 加拿大_Node_8
+      - 英国_Node_9
+      - 加拿大_Node_10
+      - 加拿大_Node_11
+      - 加拿大_Node_12
+      - 英国_Node_13
+      - 布维岛_Node_14
+      - 英国_Node_15
+      - 布维岛_Node_16
+      - 挪威_Node_17
+      - 新加坡_Node_18
+      - 美国_Node_19
+      - 英国_Node_20
+      - 英国_Node_21
+      - 巴西_Node_22
+      - 加拿大_Node_23
+      - 加拿大_Node_24
+      - 加拿大_Node_25
+      - 芬兰_Node_26
+      - 日本_Node_27
+      - 加拿大_Node_28
+      - 加拿大_Node_29
+      - 挪威_Node_30
+      - 加拿大_Node_31
+      - 挪威_Node_32
+      - 加拿大_Node_33
+      - 加拿大_Node_34
+      - 埃及_Node_35
+      - 法国_Node_36
+      - 加拿大_Node_37
+      - 中国_Node_38
+      - 布维岛_Node_39
+      - 俄罗斯联邦_Node_40
+      - 英国_Node_41
+      - 美国_Node_42
+      - 奥地利_Node_43
+      - 加拿大_Node_44
+      - 加拿大_Node_45
+      - 法国_Node_46
+      - 法国_Node_47
+      - 韩国_Node_48
+      - 布维岛_Node_49
+      - 布维岛_Node_50
+      - 乌克兰_Node_51
+      - 美国_Node_52
+      - 加拿大_Node_53
+      - 加拿大_Node_54
+      - 澳大利亚_Node_55
+      - 丹麦_Node_56
+      - 法国_Node_57
+      - 挪威_Node_58
+      - 越南_Node_59
+      - 日本_Node_60
+      - 挪威_Node_61
+      - 挪威_Node_62
+      - 英国_Node_63
+      - 美国_Node_64
+      - 英国_Node_65
+      - 加拿大_Node_66
+      - 加拿大_Node_67
+      - 葡萄牙_Node_68
+      - 韩国_Node_69
+      - 韩国_Node_70
+      - 日本_Node_71
+      - 挪威_Node_72
+      - 加拿大_Node_73
+      - 法国_Node_74
+      - 法国_Node_75
+      - 法国_Node_76
+      - 布维岛_Node_77
+      - 挪威_Node_78
+      - 美国_Node_79
+      - 美国_Node_80
+      - 美国_Node_81
+      - 美国_Node_82
+      - 美国_Node_83
+      - 加拿大_Node_84
+      - 加拿大_Node_85
+      - 加拿大_Node_86
+      - 法国_Node_87
+      - 日本_Node_88
+      - 新西兰_Node_89
+      - 新加坡_Node_90
+      - 英国_Node_91
+      - 英国_Node_92
+      - 美国_Node_93
+      - 美国_Node_94
+      - 英国_Node_95
+      - 英国_Node_96
+      - 美国_Node_97
+      - 美国_Node_98
+      - 美国_Node_99
+      - 加拿大_Node_100
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇴_NO_挪威_1
-      - 🇫🇷_FR_法国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇳🇴_NO_挪威_4
+      - 英国_Node_1
+      - 布维岛_Node_2
+      - 英国_Node_3
+      - 加拿大_Node_4
+      - 挪威_Node_5
+      - 挪威_Node_6
+      - 布维岛_Node_7
+      - 加拿大_Node_8
+      - 英国_Node_9
+      - 加拿大_Node_10
+      - 加拿大_Node_11
+      - 加拿大_Node_12
+      - 英国_Node_13
+      - 布维岛_Node_14
+      - 英国_Node_15
+      - 布维岛_Node_16
+      - 挪威_Node_17
+      - 新加坡_Node_18
+      - 美国_Node_19
+      - 英国_Node_20
+      - 英国_Node_21
+      - 巴西_Node_22
+      - 加拿大_Node_23
+      - 加拿大_Node_24
+      - 加拿大_Node_25
+      - 芬兰_Node_26
+      - 日本_Node_27
+      - 加拿大_Node_28
+      - 加拿大_Node_29
+      - 挪威_Node_30
+      - 加拿大_Node_31
+      - 挪威_Node_32
+      - 加拿大_Node_33
+      - 加拿大_Node_34
+      - 埃及_Node_35
+      - 法国_Node_36
+      - 加拿大_Node_37
+      - 中国_Node_38
+      - 布维岛_Node_39
+      - 俄罗斯联邦_Node_40
+      - 英国_Node_41
+      - 美国_Node_42
+      - 奥地利_Node_43
+      - 加拿大_Node_44
+      - 加拿大_Node_45
+      - 法国_Node_46
+      - 法国_Node_47
+      - 韩国_Node_48
+      - 布维岛_Node_49
+      - 布维岛_Node_50
+      - 乌克兰_Node_51
+      - 美国_Node_52
+      - 加拿大_Node_53
+      - 加拿大_Node_54
+      - 澳大利亚_Node_55
+      - 丹麦_Node_56
+      - 法国_Node_57
+      - 挪威_Node_58
+      - 越南_Node_59
+      - 日本_Node_60
+      - 挪威_Node_61
+      - 挪威_Node_62
+      - 英国_Node_63
+      - 美国_Node_64
+      - 英国_Node_65
+      - 加拿大_Node_66
+      - 加拿大_Node_67
+      - 葡萄牙_Node_68
+      - 韩国_Node_69
+      - 韩国_Node_70
+      - 日本_Node_71
+      - 挪威_Node_72
+      - 加拿大_Node_73
+      - 法国_Node_74
+      - 法国_Node_75
+      - 法国_Node_76
+      - 布维岛_Node_77
+      - 挪威_Node_78
+      - 美国_Node_79
+      - 美国_Node_80
+      - 美国_Node_81
+      - 美国_Node_82
+      - 美国_Node_83
+      - 加拿大_Node_84
+      - 加拿大_Node_85
+      - 加拿大_Node_86
+      - 法国_Node_87
+      - 日本_Node_88
+      - 新西兰_Node_89
+      - 新加坡_Node_90
+      - 英国_Node_91
+      - 英国_Node_92
+      - 美国_Node_93
+      - 美国_Node_94
+      - 英国_Node_95
+      - 英国_Node_96
+      - 美国_Node_97
+      - 美国_Node_98
+      - 美国_Node_99
+      - 加拿大_Node_100
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇴_NO_挪威_1
-      - 🇫🇷_FR_法国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇳🇴_NO_挪威_4
+      - 英国_Node_1
+      - 布维岛_Node_2
+      - 英国_Node_3
+      - 加拿大_Node_4
+      - 挪威_Node_5
+      - 挪威_Node_6
+      - 布维岛_Node_7
+      - 加拿大_Node_8
+      - 英国_Node_9
+      - 加拿大_Node_10
+      - 加拿大_Node_11
+      - 加拿大_Node_12
+      - 英国_Node_13
+      - 布维岛_Node_14
+      - 英国_Node_15
+      - 布维岛_Node_16
+      - 挪威_Node_17
+      - 新加坡_Node_18
+      - 美国_Node_19
+      - 英国_Node_20
+      - 英国_Node_21
+      - 巴西_Node_22
+      - 加拿大_Node_23
+      - 加拿大_Node_24
+      - 加拿大_Node_25
+      - 芬兰_Node_26
+      - 日本_Node_27
+      - 加拿大_Node_28
+      - 加拿大_Node_29
+      - 挪威_Node_30
+      - 加拿大_Node_31
+      - 挪威_Node_32
+      - 加拿大_Node_33
+      - 加拿大_Node_34
+      - 埃及_Node_35
+      - 法国_Node_36
+      - 加拿大_Node_37
+      - 中国_Node_38
+      - 布维岛_Node_39
+      - 俄罗斯联邦_Node_40
+      - 英国_Node_41
+      - 美国_Node_42
+      - 奥地利_Node_43
+      - 加拿大_Node_44
+      - 加拿大_Node_45
+      - 法国_Node_46
+      - 法国_Node_47
+      - 韩国_Node_48
+      - 布维岛_Node_49
+      - 布维岛_Node_50
+      - 乌克兰_Node_51
+      - 美国_Node_52
+      - 加拿大_Node_53
+      - 加拿大_Node_54
+      - 澳大利亚_Node_55
+      - 丹麦_Node_56
+      - 法国_Node_57
+      - 挪威_Node_58
+      - 越南_Node_59
+      - 日本_Node_60
+      - 挪威_Node_61
+      - 挪威_Node_62
+      - 英国_Node_63
+      - 美国_Node_64
+      - 英国_Node_65
+      - 加拿大_Node_66
+      - 加拿大_Node_67
+      - 葡萄牙_Node_68
+      - 韩国_Node_69
+      - 韩国_Node_70
+      - 日本_Node_71
+      - 挪威_Node_72
+      - 加拿大_Node_73
+      - 法国_Node_74
+      - 法国_Node_75
+      - 法国_Node_76
+      - 布维岛_Node_77
+      - 挪威_Node_78
+      - 美国_Node_79
+      - 美国_Node_80
+      - 美国_Node_81
+      - 美国_Node_82
+      - 美国_Node_83
+      - 加拿大_Node_84
+      - 加拿大_Node_85
+      - 加拿大_Node_86
+      - 法国_Node_87
+      - 日本_Node_88
+      - 新西兰_Node_89
+      - 新加坡_Node_90
+      - 英国_Node_91
+      - 英国_Node_92
+      - 美国_Node_93
+      - 美国_Node_94
+      - 英国_Node_95
+      - 英国_Node_96
+      - 美国_Node_97
+      - 美国_Node_98
+      - 美国_Node_99
+      - 加拿大_Node_100
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇳🇴_NO_挪威_1
-      - 🇫🇷_FR_法国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇳🇴_NO_挪威_4
+      - 英国_Node_1
+      - 布维岛_Node_2
+      - 英国_Node_3
+      - 加拿大_Node_4
+      - 挪威_Node_5
+      - 挪威_Node_6
+      - 布维岛_Node_7
+      - 加拿大_Node_8
+      - 英国_Node_9
+      - 加拿大_Node_10
+      - 加拿大_Node_11
+      - 加拿大_Node_12
+      - 英国_Node_13
+      - 布维岛_Node_14
+      - 英国_Node_15
+      - 布维岛_Node_16
+      - 挪威_Node_17
+      - 新加坡_Node_18
+      - 美国_Node_19
+      - 英国_Node_20
+      - 英国_Node_21
+      - 巴西_Node_22
+      - 加拿大_Node_23
+      - 加拿大_Node_24
+      - 加拿大_Node_25
+      - 芬兰_Node_26
+      - 日本_Node_27
+      - 加拿大_Node_28
+      - 加拿大_Node_29
+      - 挪威_Node_30
+      - 加拿大_Node_31
+      - 挪威_Node_32
+      - 加拿大_Node_33
+      - 加拿大_Node_34
+      - 埃及_Node_35
+      - 法国_Node_36
+      - 加拿大_Node_37
+      - 中国_Node_38
+      - 布维岛_Node_39
+      - 俄罗斯联邦_Node_40
+      - 英国_Node_41
+      - 美国_Node_42
+      - 奥地利_Node_43
+      - 加拿大_Node_44
+      - 加拿大_Node_45
+      - 法国_Node_46
+      - 法国_Node_47
+      - 韩国_Node_48
+      - 布维岛_Node_49
+      - 布维岛_Node_50
+      - 乌克兰_Node_51
+      - 美国_Node_52
+      - 加拿大_Node_53
+      - 加拿大_Node_54
+      - 澳大利亚_Node_55
+      - 丹麦_Node_56
+      - 法国_Node_57
+      - 挪威_Node_58
+      - 越南_Node_59
+      - 日本_Node_60
+      - 挪威_Node_61
+      - 挪威_Node_62
+      - 英国_Node_63
+      - 美国_Node_64
+      - 英国_Node_65
+      - 加拿大_Node_66
+      - 加拿大_Node_67
+      - 葡萄牙_Node_68
+      - 韩国_Node_69
+      - 韩国_Node_70
+      - 日本_Node_71
+      - 挪威_Node_72
+      - 加拿大_Node_73
+      - 法国_Node_74
+      - 法国_Node_75
+      - 法国_Node_76
+      - 布维岛_Node_77
+      - 挪威_Node_78
+      - 美国_Node_79
+      - 美国_Node_80
+      - 美国_Node_81
+      - 美国_Node_82
+      - 美国_Node_83
+      - 加拿大_Node_84
+      - 加拿大_Node_85
+      - 加拿大_Node_86
+      - 法国_Node_87
+      - 日本_Node_88
+      - 新西兰_Node_89
+      - 新加坡_Node_90
+      - 英国_Node_91
+      - 英国_Node_92
+      - 美国_Node_93
+      - 美国_Node_94
+      - 英国_Node_95
+      - 英国_Node_96
+      - 美国_Node_97
+      - 美国_Node_98
+      - 美国_Node_99
+      - 加拿大_Node_100
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇴_NO_挪威_1
-      - 🇫🇷_FR_法国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇳🇴_NO_挪威_4
+      - 英国_Node_1
+      - 布维岛_Node_2
+      - 英国_Node_3
+      - 加拿大_Node_4
+      - 挪威_Node_5
+      - 挪威_Node_6
+      - 布维岛_Node_7
+      - 加拿大_Node_8
+      - 英国_Node_9
+      - 加拿大_Node_10
+      - 加拿大_Node_11
+      - 加拿大_Node_12
+      - 英国_Node_13
+      - 布维岛_Node_14
+      - 英国_Node_15
+      - 布维岛_Node_16
+      - 挪威_Node_17
+      - 新加坡_Node_18
+      - 美国_Node_19
+      - 英国_Node_20
+      - 英国_Node_21
+      - 巴西_Node_22
+      - 加拿大_Node_23
+      - 加拿大_Node_24
+      - 加拿大_Node_25
+      - 芬兰_Node_26
+      - 日本_Node_27
+      - 加拿大_Node_28
+      - 加拿大_Node_29
+      - 挪威_Node_30
+      - 加拿大_Node_31
+      - 挪威_Node_32
+      - 加拿大_Node_33
+      - 加拿大_Node_34
+      - 埃及_Node_35
+      - 法国_Node_36
+      - 加拿大_Node_37
+      - 中国_Node_38
+      - 布维岛_Node_39
+      - 俄罗斯联邦_Node_40
+      - 英国_Node_41
+      - 美国_Node_42
+      - 奥地利_Node_43
+      - 加拿大_Node_44
+      - 加拿大_Node_45
+      - 法国_Node_46
+      - 法国_Node_47
+      - 韩国_Node_48
+      - 布维岛_Node_49
+      - 布维岛_Node_50
+      - 乌克兰_Node_51
+      - 美国_Node_52
+      - 加拿大_Node_53
+      - 加拿大_Node_54
+      - 澳大利亚_Node_55
+      - 丹麦_Node_56
+      - 法国_Node_57
+      - 挪威_Node_58
+      - 越南_Node_59
+      - 日本_Node_60
+      - 挪威_Node_61
+      - 挪威_Node_62
+      - 英国_Node_63
+      - 美国_Node_64
+      - 英国_Node_65
+      - 加拿大_Node_66
+      - 加拿大_Node_67
+      - 葡萄牙_Node_68
+      - 韩国_Node_69
+      - 韩国_Node_70
+      - 日本_Node_71
+      - 挪威_Node_72
+      - 加拿大_Node_73
+      - 法国_Node_74
+      - 法国_Node_75
+      - 法国_Node_76
+      - 布维岛_Node_77
+      - 挪威_Node_78
+      - 美国_Node_79
+      - 美国_Node_80
+      - 美国_Node_81
+      - 美国_Node_82
+      - 美国_Node_83
+      - 加拿大_Node_84
+      - 加拿大_Node_85
+      - 加拿大_Node_86
+      - 法国_Node_87
+      - 日本_Node_88
+      - 新西兰_Node_89
+      - 新加坡_Node_90
+      - 英国_Node_91
+      - 英国_Node_92
+      - 美国_Node_93
+      - 美国_Node_94
+      - 英国_Node_95
+      - 英国_Node_96
+      - 美国_Node_97
+      - 美国_Node_98
+      - 美国_Node_99
+      - 加拿大_Node_100
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,10 +858,106 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇴_NO_挪威_1
-      - 🇫🇷_FR_法国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇳🇴_NO_挪威_4
+      - 英国_Node_1
+      - 布维岛_Node_2
+      - 英国_Node_3
+      - 加拿大_Node_4
+      - 挪威_Node_5
+      - 挪威_Node_6
+      - 布维岛_Node_7
+      - 加拿大_Node_8
+      - 英国_Node_9
+      - 加拿大_Node_10
+      - 加拿大_Node_11
+      - 加拿大_Node_12
+      - 英国_Node_13
+      - 布维岛_Node_14
+      - 英国_Node_15
+      - 布维岛_Node_16
+      - 挪威_Node_17
+      - 新加坡_Node_18
+      - 美国_Node_19
+      - 英国_Node_20
+      - 英国_Node_21
+      - 巴西_Node_22
+      - 加拿大_Node_23
+      - 加拿大_Node_24
+      - 加拿大_Node_25
+      - 芬兰_Node_26
+      - 日本_Node_27
+      - 加拿大_Node_28
+      - 加拿大_Node_29
+      - 挪威_Node_30
+      - 加拿大_Node_31
+      - 挪威_Node_32
+      - 加拿大_Node_33
+      - 加拿大_Node_34
+      - 埃及_Node_35
+      - 法国_Node_36
+      - 加拿大_Node_37
+      - 中国_Node_38
+      - 布维岛_Node_39
+      - 俄罗斯联邦_Node_40
+      - 英国_Node_41
+      - 美国_Node_42
+      - 奥地利_Node_43
+      - 加拿大_Node_44
+      - 加拿大_Node_45
+      - 法国_Node_46
+      - 法国_Node_47
+      - 韩国_Node_48
+      - 布维岛_Node_49
+      - 布维岛_Node_50
+      - 乌克兰_Node_51
+      - 美国_Node_52
+      - 加拿大_Node_53
+      - 加拿大_Node_54
+      - 澳大利亚_Node_55
+      - 丹麦_Node_56
+      - 法国_Node_57
+      - 挪威_Node_58
+      - 越南_Node_59
+      - 日本_Node_60
+      - 挪威_Node_61
+      - 挪威_Node_62
+      - 英国_Node_63
+      - 美国_Node_64
+      - 英国_Node_65
+      - 加拿大_Node_66
+      - 加拿大_Node_67
+      - 葡萄牙_Node_68
+      - 韩国_Node_69
+      - 韩国_Node_70
+      - 日本_Node_71
+      - 挪威_Node_72
+      - 加拿大_Node_73
+      - 法国_Node_74
+      - 法国_Node_75
+      - 法国_Node_76
+      - 布维岛_Node_77
+      - 挪威_Node_78
+      - 美国_Node_79
+      - 美国_Node_80
+      - 美国_Node_81
+      - 美国_Node_82
+      - 美国_Node_83
+      - 加拿大_Node_84
+      - 加拿大_Node_85
+      - 加拿大_Node_86
+      - 法国_Node_87
+      - 日本_Node_88
+      - 新西兰_Node_89
+      - 新加坡_Node_90
+      - 英国_Node_91
+      - 英国_Node_92
+      - 美国_Node_93
+      - 美国_Node_94
+      - 英国_Node_95
+      - 英国_Node_96
+      - 美国_Node_97
+      - 美国_Node_98
+      - 美国_Node_99
+      - 加拿大_Node_100
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
