@@ -410,19 +410,6 @@ proxies:
   - {name: Youtube:鹏哥分享_97, server: 120.197.88.216, port: 20006, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
   - {name: Youtube:鹏哥分享_98, server: global-transit-02-sg.pucdn.me, port: 63005, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-05.pucdn.me}}
   - {name: Youtube:鹏哥分享_99, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _A_1, server: hk1.mlsao.dynv6.net, port: 80, type: vmess, uuid: 2d919aa8-4660-498e-b4b3-7fc443adb98d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
-  - {name: _A_10, server: cd1.mlsao.dynv6.net, port: 80, type: vmess, uuid: 2d919aa8-4660-498e-b4b3-7fc443adb98d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
-  - {name: _A_11, server: bj1.mlsao.dynv6.net, port: 80, type: vmess, uuid: 2d919aa8-4660-498e-b4b3-7fc443adb98d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
-  - {name: _A_12, server: gz1.mlsao.dynv6.net, port: 80, type: vmess, uuid: 2d919aa8-4660-498e-b4b3-7fc443adb98d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
-  - {name: _A_13, server: 103.163.46.174, port: 80, type: vmess, uuid: 2d919aa8-4660-498e-b4b3-7fc443adb98d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /wangwang, ws-headers: {Host: a.189.cn}}
-  - {name: _A_2, server: hk2.mlsao.dynv6.net, port: 80, type: vmess, uuid: 2d919aa8-4660-498e-b4b3-7fc443adb98d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
-  - {name: _A_3, server: hk3.mlsao.dynv6.net, port: 80, type: vmess, uuid: 2d919aa8-4660-498e-b4b3-7fc443adb98d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
-  - {name: _A_4, server: hk4.mlsao.dynv6.net, port: 443, type: vmess, uuid: 2d919aa8-4660-498e-b4b3-7fc443adb98d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: a.189.cn}}
-  - {name: _A_5, server: hk5.mlsao.dynv6.net, port: 80, type: vmess, uuid: 2d919aa8-4660-498e-b4b3-7fc443adb98d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: gd.189.cn}}
-  - {name: _A_6, server: hk6.mlsao.dynv6.net, port: 80, type: vmess, uuid: 2d919aa8-4660-498e-b4b3-7fc443adb98d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: a.189.cn}}
-  - {name: _A_7, server: hk7.mlsao.dynv6.net, port: 80, type: vmess, uuid: 2d919aa8-4660-498e-b4b3-7fc443adb98d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
-  - {name: _A_8, server: cs.mlsao.dynv6.net, port: 80, type: vmess, uuid: 2d919aa8-4660-498e-b4b3-7fc443adb98d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /802, ws-headers: {Host: a.189.cn}}
-  - {name: _A_9, server: hz.mlsao.dynv6.net, port: 80, type: vmess, uuid: 2d919aa8-4660-498e-b4b3-7fc443adb98d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
   - {name: _NON_Chen-2021.12.19_1, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: _NON_Chen-2021.12.19_1 2, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: _NON_Chen-2021.12.19_10, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
@@ -601,6 +588,7 @@ proxies:
   - {name: _NON_Chen-2021.12.19_98 2, server: global-transit-hk-v2.pucdn.me, port: 40010, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-10.pucdn.me}}
   - {name: _NON_Chen-2021.12.19_99, server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
   - {name: _NON_Chen-2021.12.19_99 2, server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
+  - {name: _US_美国_1, server: 142.202.48.83, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 乌克兰（YouTube资源分享者）, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 2, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 3, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
@@ -1293,6 +1281,7 @@ proxy-groups:
       - "@SSRSUB-美国V09-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-美国V16-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-美国V16-付费推荐::suo.yt/ssrsub 2"
+      - _US_美国_1
       - 美国
       - 美国 2
       - 美国 3
@@ -1962,19 +1951,6 @@ proxy-groups:
       - Youtube:鹏哥分享_97
       - Youtube:鹏哥分享_98
       - Youtube:鹏哥分享_99
-      - _A_1
-      - _A_10
-      - _A_11
-      - _A_12
-      - _A_13
-      - _A_2
-      - _A_3
-      - _A_4
-      - _A_5
-      - _A_6
-      - _A_7
-      - _A_8
-      - _A_9
       - _NON_Chen-2021.12.19_1
       - _NON_Chen-2021.12.19_1 2
       - _NON_Chen-2021.12.19_10
@@ -2153,6 +2129,7 @@ proxy-groups:
       - _NON_Chen-2021.12.19_98 2
       - _NON_Chen-2021.12.19_99
       - _NON_Chen-2021.12.19_99 2
+      - _US_美国_1
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
       - 乌克兰（YouTube资源分享者） 3
