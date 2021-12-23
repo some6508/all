@@ -5,268 +5,204 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇺🇸_US_美国_1', server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
-  - {name: '🇺🇸_US_美国_2', server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray}
-  - {name: '🇺🇸_US_美国_3', server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: '🇺🇸_US_美国_4', server: api.ssfree.ru, port: 443, type: vmess, uuid: 38decc58-6340-11ec-a6b0-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /getweather}
-  - {name: '🇺🇸_US_美国_5', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '🇺🇸_US_美国_6', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: 'default_name_7', server: 104.21.62.193, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 'default_name_8', server: 104.21.62.193, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
-  - {name: '🇨🇦_CA_加拿大_9', server: v3.ssrsub.com, port: 443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇺🇸_US_美国_10', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '🇺🇸_US_美国_11', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: '🇺🇸_US_美国_12', server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13', server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
-  - {name: '🇺🇸_US_美国_14', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '🇺🇸_US_美国_15', server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16', server: 172.67.176.114, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 'default_name_17', server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: '🇺🇸_US_美国_18', server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19', server: free-russian02-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_20', server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 'default_name_21', server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
-  - {name: '🇺🇸_US_美国_22', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: '🇭🇰_HK_香港->🇮🇳_IN_印度_23', server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24', server: 172.67.138.170, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 'default_name_25', server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: '🇭🇰_HK_香港->🇮🇳_IN_印度_26', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
-  - {name: '🇺🇸_US_美国_27', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: 'default_name_28', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: 'github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 1_1', server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray}
+  - {name: 'github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 2_2', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
+  - {name: 'github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 3_3', server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
+  - {name: 'github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 4_4', server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray}
+  - {name: 'github.com/freefq - 美国CloudFlare公司CDN节点 5_5', server: api.ssfree.ru, port: 443, type: vmess, uuid: 62fbeb5a-6409-11ec-a7e0-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /getweather}
+  - {name: 'github.com/freefq - 美国蒙大拿州Sharktech公司 6_6', server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: 'github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7_7', server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: 'github.com/freefq - 加拿大  8_8', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 'github.com/freefq - 加拿大  9_9', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 'github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 10_10', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: 'github.com/freefq - 俄罗斯莫斯科Relcom网络 11  _11', server: t7.ssrsub.com, port: 8443, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a}
+  - {name: 'github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 12_12', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 'github.com/freefq - 英国  13  _13', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 14  _14', server: t3.ssrsub.com, port: 156, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689}
+  - {name: 'github.com/freefq - 加拿大  15_15', server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16_16', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 'github.com/freefq - 挪威  17  _17', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'github.com/freefq - 香港Zenlayer 18_18', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
+  - {name: 'github.com/freefq - 加拿大  19_19', server: 165.154.229.22, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 165.154.229.22}}
+  - {name: 'github.com/freefq - 马来西亚  20  _20', server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - default_name_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_20
-      - default_name_21
-      - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24
-      - default_name_25
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_26
-      - 🇺🇸_US_美国_27
-      - default_name_28
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 1_1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 3_3
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 4_4
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_5
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 6_6
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7_7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 加拿大  9_9
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 10_10
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 11  _11
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 12_12
+      - github.com/freefq - 英国  13  _13
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 14  _14
+      - github.com/freefq - 加拿大  15_15
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16_16
+      - github.com/freefq - 挪威  17  _17
+      - github.com/freefq - 香港Zenlayer 18_18
+      - github.com/freefq - 加拿大  19_19
+      - github.com/freefq - 马来西亚  20  _20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - default_name_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_20
-      - default_name_21
-      - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24
-      - default_name_25
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_26
-      - 🇺🇸_US_美国_27
-      - default_name_28
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 1_1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 3_3
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 4_4
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_5
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 6_6
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7_7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 加拿大  9_9
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 10_10
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 11  _11
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 12_12
+      - github.com/freefq - 英国  13  _13
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 14  _14
+      - github.com/freefq - 加拿大  15_15
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16_16
+      - github.com/freefq - 挪威  17  _17
+      - github.com/freefq - 香港Zenlayer 18_18
+      - github.com/freefq - 加拿大  19_19
+      - github.com/freefq - 马来西亚  20  _20
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - default_name_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_20
-      - default_name_21
-      - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24
-      - default_name_25
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_26
-      - 🇺🇸_US_美国_27
-      - default_name_28
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 1_1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 3_3
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 4_4
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_5
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 6_6
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7_7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 加拿大  9_9
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 10_10
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 11  _11
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 12_12
+      - github.com/freefq - 英国  13  _13
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 14  _14
+      - github.com/freefq - 加拿大  15_15
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16_16
+      - github.com/freefq - 挪威  17  _17
+      - github.com/freefq - 香港Zenlayer 18_18
+      - github.com/freefq - 加拿大  19_19
+      - github.com/freefq - 马来西亚  20  _20
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - default_name_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_20
-      - default_name_21
-      - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24
-      - default_name_25
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_26
-      - 🇺🇸_US_美国_27
-      - default_name_28
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 1_1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 3_3
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 4_4
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_5
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 6_6
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7_7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 加拿大  9_9
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 10_10
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 11  _11
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 12_12
+      - github.com/freefq - 英国  13  _13
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 14  _14
+      - github.com/freefq - 加拿大  15_15
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16_16
+      - github.com/freefq - 挪威  17  _17
+      - github.com/freefq - 香港Zenlayer 18_18
+      - github.com/freefq - 加拿大  19_19
+      - github.com/freefq - 马来西亚  20  _20
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - default_name_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_20
-      - default_name_21
-      - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24
-      - default_name_25
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_26
-      - 🇺🇸_US_美国_27
-      - default_name_28
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 1_1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 3_3
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 4_4
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_5
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 6_6
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7_7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 加拿大  9_9
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 10_10
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 11  _11
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 12_12
+      - github.com/freefq - 英国  13  _13
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 14  _14
+      - github.com/freefq - 加拿大  15_15
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16_16
+      - github.com/freefq - 挪威  17  _17
+      - github.com/freefq - 香港Zenlayer 18_18
+      - github.com/freefq - 加拿大  19_19
+      - github.com/freefq - 马来西亚  20  _20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - default_name_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_20
-      - default_name_21
-      - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24
-      - default_name_25
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_26
-      - 🇺🇸_US_美国_27
-      - default_name_28
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 1_1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 3_3
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 4_4
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_5
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 6_6
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7_7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 加拿大  9_9
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 10_10
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 11  _11
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 12_12
+      - github.com/freefq - 英国  13  _13
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 14  _14
+      - github.com/freefq - 加拿大  15_15
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16_16
+      - github.com/freefq - 挪威  17  _17
+      - github.com/freefq - 香港Zenlayer 18_18
+      - github.com/freefq - 加拿大  19_19
+      - github.com/freefq - 马来西亚  20  _20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - default_name_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_20
-      - default_name_21
-      - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24
-      - default_name_25
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_26
-      - 🇺🇸_US_美国_27
-      - default_name_28
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 1_1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 3_3
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 4_4
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_5
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 6_6
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7_7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 加拿大  9_9
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 10_10
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 11  _11
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 12_12
+      - github.com/freefq - 英国  13  _13
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 14  _14
+      - github.com/freefq - 加拿大  15_15
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16_16
+      - github.com/freefq - 挪威  17  _17
+      - github.com/freefq - 香港Zenlayer 18_18
+      - github.com/freefq - 加拿大  19_19
+      - github.com/freefq - 马来西亚  20  _20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -282,34 +218,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - default_name_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - default_name_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_20
-      - default_name_21
-      - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24
-      - default_name_25
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_26
-      - 🇺🇸_US_美国_27
-      - default_name_28
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 1_1
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 2_2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWebSFO12数据中心 3_3
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 4_4
+      - github.com/freefq - 美国CloudFlare公司CDN节点 5_5
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 6_6
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7_7
+      - github.com/freefq - 加拿大  8_8
+      - github.com/freefq - 加拿大  9_9
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 10_10
+      - github.com/freefq - 俄罗斯莫斯科Relcom网络 11  _11
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 12_12
+      - github.com/freefq - 英国  13  _13
+      - github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 14  _14
+      - github.com/freefq - 加拿大  15_15
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16_16
+      - github.com/freefq - 挪威  17  _17
+      - github.com/freefq - 香港Zenlayer 18_18
+      - github.com/freefq - 加拿大  19_19
+      - github.com/freefq - 马来西亚  20  _20
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
