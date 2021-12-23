@@ -5,76 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇵🇹_PT_葡萄牙_1', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: '🇨🇦_CA_加拿大_2', server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇯🇵_JP_日本_3', server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_美国_4', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: 'n_233v2.com_8.45.42.189', server: 8.45.42.189, port: 24232, type: vmess, uuid: adc06a3e-580e-439b-a4d9-abafa1fff7b3, alterId: 0, cipher: auto, tls: false, network: tcp}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇵🇹_PT_葡萄牙_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
+      - n_233v2.com_8.45.42.189
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇵🇹_PT_葡萄牙_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
+      - n_233v2.com_8.45.42.189
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇵🇹_PT_葡萄牙_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
+      - n_233v2.com_8.45.42.189
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇵🇹_PT_葡萄牙_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
+      - n_233v2.com_8.45.42.189
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇵🇹_PT_葡萄牙_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
+      - n_233v2.com_8.45.42.189
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇵🇹_PT_葡萄牙_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
+      - n_233v2.com_8.45.42.189
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇵🇹_PT_葡萄牙_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
+      - n_233v2.com_8.45.42.189
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,10 +66,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇵🇹_PT_葡萄牙_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
+      - n_233v2.com_8.45.42.189
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
