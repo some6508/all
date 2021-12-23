@@ -412,7 +412,7 @@ proxies:
   - {name: Youtube:鹏哥分享_99, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: _AU_澳大利亚, server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: _AU_澳大利亚 2, server: 192.53.169.116, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _AU_澳大利亚_8, server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _AU_澳大利亚_8, server: 192.53.169.116, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _CA_加拿大, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _CA_加拿大 2, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: _CA_加拿大 3, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -424,6 +424,7 @@ proxies:
   - {name: _CA_加拿大 9, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: _CA_加拿大 10, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _DE_德国, server: 193.108.118.182, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _DE_德国_10, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
   - {name: _DK_丹麦, server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
   - {name: _EG_埃及, server: 188.214.122.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
   - {name: _EG_埃及 2, server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
@@ -436,7 +437,11 @@ proxies:
   - {name: _FR_法国 7, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _FR_法国 8, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _FR_法国 9, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _FR_法国_3, server: 62.210.140.163, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: _FR_法国_1, server: 141.95.0.23, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: _FR_法国_2, server: 141.95.0.23, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: _FR_法国_3, server: 62.210.140.163, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: _FR_法国_4, server: 141.95.0.23, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: _FR_法国_5, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
   - {name: _GB_英国, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _GB_英国 2, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: _GB_英国 3, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
@@ -447,13 +452,10 @@ proxies:
   - {name: _HK_香港 3, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _HK_香港 4, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: _HK_香港->🇮🇳_IN_印度, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
-  - {name: _HK_香港_4, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
   - {name: _HU_匈牙利, server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy}
   - {name: _IE_爱尔兰, server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: _IE_爱尔兰_7, server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
   - {name: _IL_以色列, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
   - {name: _IL_以色列 2, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: _IL_以色列_10, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
   - {name: _IN_印度, server: 192.46.210.73, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _IN_印度 2, server: 192.46.208.123, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: _IN_印度 3, server: 172.105.41.63, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -482,9 +484,6 @@ proxies:
   - {name: _KR_韩国 9, server: 141.164.56.250, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: _KR_韩国 10, server: 141.164.56.250, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: _KR_韩国 11, server: 158.247.209.92, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _KR_韩国_1, server: 158.247.209.92, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _KR_韩国_2, server: 158.247.203.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _KR_韩国_9, server: 158.247.203.168, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: _MY_马来西亚, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
   - {name: _NON_Chen-2021.12.19_1, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: _NON_Chen-2021.12.19_1 2, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
@@ -683,7 +682,6 @@ proxies:
   - {name: _NO_挪威 17, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _NO_挪威 18, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
   - {name: _NO_挪威 19, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NO_挪威_6, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _PH_菲律宾, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
   - {name: _PT_葡萄牙, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
   - {name: _SE_瑞典, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
@@ -730,7 +728,9 @@ proxies:
   - {name: _US_美国 36, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
   - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
   - {name: _US_美国->🇷🇺_RU_俄罗斯联邦 2, server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: _US_美国_5, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: _US_美国_6, server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
+  - {name: _US_美国_7, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
+  - {name: _US_美国_9, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
   - {name: _VN_越南, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
   - {name: default_name, server: 104.21.62.193, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
   - {name: 乌克兰（YouTube资源分享者）, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
@@ -1281,7 +1281,6 @@ proxy-groups:
       - _HK_香港 3
       - _HK_香港 4
       - _HK_香港->🇮🇳_IN_印度
-      - _HK_香港_4
       - 香港
       - 香港 2
       - 香港 3
@@ -1475,7 +1474,9 @@ proxy-groups:
       - _US_美国 36
       - _US_美国->🇷🇺_RU_俄罗斯联邦
       - _US_美国->🇷🇺_RU_俄罗斯联邦 2
-      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_9
       - 美国
       - 美国 2
       - 美国 3
@@ -1627,9 +1628,6 @@ proxy-groups:
       - _KR_韩国 9
       - _KR_韩国 10
       - _KR_韩国 11
-      - _KR_韩国_1
-      - _KR_韩国_2
-      - _KR_韩国_9
       - 日韩频道 TG@shoucangAV
   - name: 🌍 其他地区
     type: select
@@ -1717,6 +1715,7 @@ proxy-groups:
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _DE_德国
+      - _DE_德国_10
       - _GB_英国
       - _GB_英国 2
       - _GB_英国 3
@@ -2211,6 +2210,7 @@ proxy-groups:
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _DE_德国
+      - _DE_德国_10
       - _DK_丹麦
       - _EG_埃及
       - _EG_埃及 2
@@ -2223,7 +2223,11 @@ proxy-groups:
       - _FR_法国 7
       - _FR_法国 8
       - _FR_法国 9
+      - _FR_法国_1
+      - _FR_法国_2
       - _FR_法国_3
+      - _FR_法国_4
+      - _FR_法国_5
       - _GB_英国
       - _GB_英国 2
       - _GB_英国 3
@@ -2234,13 +2238,10 @@ proxy-groups:
       - _HK_香港 3
       - _HK_香港 4
       - _HK_香港->🇮🇳_IN_印度
-      - _HK_香港_4
       - _HU_匈牙利
       - _IE_爱尔兰
-      - _IE_爱尔兰_7
       - _IL_以色列
       - _IL_以色列 2
-      - _IL_以色列_10
       - _IN_印度
       - _IN_印度 2
       - _IN_印度 3
@@ -2269,9 +2270,6 @@ proxy-groups:
       - _KR_韩国 9
       - _KR_韩国 10
       - _KR_韩国 11
-      - _KR_韩国_1
-      - _KR_韩国_2
-      - _KR_韩国_9
       - _MY_马来西亚
       - _NON_Chen-2021.12.19_1
       - _NON_Chen-2021.12.19_1 2
@@ -2470,7 +2468,6 @@ proxy-groups:
       - _NO_挪威 17
       - _NO_挪威 18
       - _NO_挪威 19
-      - _NO_挪威_6
       - _PH_菲律宾
       - _PT_葡萄牙
       - _SE_瑞典
@@ -2517,7 +2514,9 @@ proxy-groups:
       - _US_美国 36
       - _US_美国->🇷🇺_RU_俄罗斯联邦
       - _US_美国->🇷🇺_RU_俄罗斯联邦 2
-      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_9
       - _VN_越南
       - default_name
       - 乌克兰（YouTube资源分享者）
