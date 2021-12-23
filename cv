@@ -770,113 +770,78 @@ proxies:
   - {name: CYL-科技（2021.12.22） 465, server: v36.88host.buzz, port: 18069, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: CYL-科技（2021.12.22） 466, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: CYL-科技（2021.12.22） 467, server: 00.cn2.rocketdns.xyz, port: 65013, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: Youtube:鹏哥分享_1, server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
-  - {name: Youtube:鹏哥分享_10, server: 120.197.88.216, port: 20002, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: Youtube:鹏哥分享_100, server: 185.252.223.203, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.16675463.xyz}}
-  - {name: Youtube:鹏哥分享_101, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: Youtube:鹏哥分享_102, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享_103, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: Youtube:鹏哥分享_104, server: 149.248.18.62, port: 64827, type: vmess, uuid: ab1b264e-5fae-11ec-b1b0-560003be094f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ESewoGXy/, ws-headers: {Host: 149.248.18.62}}
-  - {name: Youtube:鹏哥分享_105, server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: Youtube:鹏哥分享_106, server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /inde, ws-headers: {Host: 120.232.173.88}}
-  - {name: Youtube:鹏哥分享_107, server: 104.168.83.22, port: 80, type: vmess, uuid: 892ebb75-7055-3007-8d16-356e65c6a49a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v1032N9rN0yPy, ws-headers: {Host: gd.189.cn}}
-  - {name: Youtube:鹏哥分享_11, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
-  - {name: Youtube:鹏哥分享_12, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: Youtube:鹏哥分享_13, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: Youtube:鹏哥分享_14, server: 120.197.88.216, port: 20003, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: Youtube:鹏哥分享_15, server: 120.197.88.216, port: 20006, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: Youtube:鹏哥分享_16, server: global-transit-02-sg.pucdn.me, port: 63008, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: global-transit-02-sg.pucdn.me}}
-  - {name: Youtube:鹏哥分享_17, server: 183.232.163.3, port: 2424, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: Youtube:鹏哥分享_18, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: Youtube:鹏哥分享_19, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享_2, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
-  - {name: Youtube:鹏哥分享_20, server: v8.ssrsub.com, port: 443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
-  - {name: Youtube:鹏哥分享_21, server: 183.232.163.3, port: 4343, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: Youtube:鹏哥分享_22, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: Youtube:鹏哥分享_23, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享_24, server: 120.197.88.216, port: 20047, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: Youtube:鹏哥分享_25, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: Youtube:鹏哥分享_26, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: Youtube:鹏哥分享_27, server: 192.74.254.112, port: 52244, type: vmess, uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /E0Y46mSw/, ws-headers: {Host: 192.74.254.112}}
-  - {name: Youtube:鹏哥分享_28, server: 194.156.120.52, port: 41002, type: vmess, uuid: ebb93e84-5bb7-11ec-8bc6-6a5c6e054e4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Youtube:鹏哥分享_29, server: 120.197.88.216, port: 20005, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: Youtube:鹏哥分享_3, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: Youtube:鹏哥分享_30, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享_31, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: Youtube:鹏哥分享_32, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: Youtube:鹏哥分享_33, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享_34, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: Youtube:鹏哥分享_35, server: 183.232.163.3, port: 2020, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: Youtube:鹏哥分享_36, server: 183.232.163.3, port: 5253, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: Youtube:鹏哥分享_37, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: Youtube:鹏哥分享_38, server: 183.232.163.3, port: 4646, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: Youtube:鹏哥分享_39, server: 183.232.163.3, port: 5254, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: Youtube:鹏哥分享_4, server: 183.232.163.3, port: 2525, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: Youtube:鹏哥分享_40, server: 120.241.72.84, port: 18009, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: 120.241.72.84}}
-  - {name: Youtube:鹏哥分享_41, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: Youtube:鹏哥分享_42, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: Youtube:鹏哥分享_43, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享_44, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: Youtube:鹏哥分享_45, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享_46, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享_47, server: 120.241.72.84, port: 18015, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: 120.241.72.84}}
-  - {name: Youtube:鹏哥分享_48, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: Youtube:鹏哥分享_49, server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Youtube:鹏哥分享_5, server: global-transit-02-sg.pucdn.me, port: 62010, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: global-transit-02-sg.pucdn.me}}
-  - {name: Youtube:鹏哥分享_50, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: Youtube:鹏哥分享_51, server: 120.241.72.84, port: 18120, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Youtube:鹏哥分享_52, server: 183.232.163.3, port: 2727, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: Youtube:鹏哥分享_53, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: Youtube:鹏哥分享_54, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享_55, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: Youtube:鹏哥分享_56, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享_57, server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Youtube:鹏哥分享_58, server: 120.241.72.84, port: 18003, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: 120.241.72.84}}
-  - {name: Youtube:鹏哥分享_59, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
-  - {name: Youtube:鹏哥分享_6, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: Youtube:鹏哥分享_60, server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
-  - {name: Youtube:鹏哥分享_61, server: 183.232.163.3, port: 2626, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: Youtube:鹏哥分享_62, server: 120.241.72.97, port: 18119, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Youtube:鹏哥分享_63, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享_64, server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
-  - {name: Youtube:鹏哥分享_65, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: Youtube:鹏哥分享_66, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: Youtube:鹏哥分享_67, server: pr1.mooncloud.bike, port: 8443, type: vmess, uuid: 79fedd93-e758-4655-83ed-574f4afe2a04, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pr1.mooncloud.bike}}
-  - {name: Youtube:鹏哥分享_68, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: Youtube:鹏哥分享_69, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: Youtube:鹏哥分享_7, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: Youtube:鹏哥分享_70, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: Youtube:鹏哥分享_71, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: Youtube:鹏哥分享_72, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: Youtube:鹏哥分享_73, server: hz.marslink.icu, port: 64040, type: ss, cipher: chacha20-ietf-poly1305, password: 61778bc0-071e-4620-8a6a-c15ab268e093}
-  - {name: Youtube:鹏哥分享_74, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 71759943-32fe-4dc2-bc20-fb67502c5dc2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
-  - {name: Youtube:鹏哥分享_75, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: Youtube:鹏哥分享_76, server: xg3.justcn2.top, port: 80, type: vmess, uuid: 796013c6-c97c-380e-9b02-af1f23588f70, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
-  - {name: Youtube:鹏哥分享_77, server: xg5.justcn2.top, port: 80, type: vmess, uuid: 796013c6-c97c-380e-9b02-af1f23588f70, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
-  - {name: Youtube:鹏哥分享_78, server: 120.197.88.216, port: 20015, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: Youtube:鹏哥分享_79, server: xg7.justcn2.top, port: 80, type: vmess, uuid: 796013c6-c97c-380e-9b02-af1f23588f70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
-  - {name: Youtube:鹏哥分享_8, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享_80, server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
-  - {name: Youtube:鹏哥分享_81, server: v3.ssrsub.com, port: 443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
-  - {name: Youtube:鹏哥分享_82, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
-  - {name: Youtube:鹏哥分享_83, server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: d1f1d432-0300-3b65-b90e-b65beaa68180, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1207tw.fans8.xyz}}
-  - {name: Youtube:鹏哥分享_84, server: v103.v2dns.xyz, port: 80, type: vmess, uuid: 892ebb75-7055-3007-8d16-356e65c6a49a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v1032N9rN0yPy, ws-headers: {Host: gd.189.cn}}
-  - {name: Youtube:鹏哥分享_85, server: 1215tw1.fans8.xyz, port: 80, type: vmess, uuid: d1f1d432-0300-3b65-b90e-b65beaa68180, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1215tw1.fans8.xyz}}
-  - {name: Youtube:鹏哥分享_86, server: US-GCP1.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-gcp1.payday505.workers.dev}}
-  - {name: Youtube:鹏哥分享_87, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}}
-  - {name: Youtube:鹏哥分享_88, server: 1211tw.fans8.xyz, port: 80, type: vmess, uuid: d1f1d432-0300-3b65-b90e-b65beaa68180, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1211tw.fans8.xyz}}
-  - {name: Youtube:鹏哥分享_89, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 71759943-32fe-4dc2-bc20-fb67502c5dc2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
-  - {name: Youtube:鹏哥分享_9, server: 120.197.88.216, port: 20015, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: Youtube:鹏哥分享_90, server: v12.88host.buzz, port: 18004, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}}
-  - {name: Youtube:鹏哥分享_91, server: hz.marslink.icu, port: 41104, type: ss, cipher: chacha20-ietf-poly1305, password: 47288a4c-f5e0-47d0-9fbb-ed22becdf96e}
-  - {name: Youtube:鹏哥分享_92, server: v12.88host.buzz, port: 18006, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}}
-  - {name: Youtube:鹏哥分享_93, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: Youtube:鹏哥分享_94, server: 120.197.88.216, port: 20002, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: yoututbe-aweikeji}}
-  - {name: Youtube:鹏哥分享_95, server: 120.197.88.216, port: 20015, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: Youtube:鹏哥分享_96, server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /inde, ws-headers: {Host: yoututbe-aweikeji}}
-  - {name: Youtube:鹏哥分享_97, server: 120.197.88.216, port: 20006, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: Youtube:鹏哥分享_98, server: global-transit-02-sg.pucdn.me, port: 63005, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-05.pucdn.me}}
-  - {name: Youtube:鹏哥分享_99, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Ytb:冰河圈子_1, server: zz.gzyd.xyz, port: 2121, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
+  - {name: Ytb:冰河圈子_10, server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0}
+  - {name: Ytb:冰河圈子_11, server: zz.gzyd.xyz, port: 9191, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
+  - {name: Ytb:冰河圈子_12, server: zz.gzyd.xyz, port: 5454, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
+  - {name: Ytb:冰河圈子_13, server: zz.gzyd.xyz, port: 5200, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
+  - {name: Ytb:冰河圈子_14, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: Ytb:冰河圈子_15, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Ytb:冰河圈子_16, server: 167.160.91.131, port: 2948, type: ss, cipher: aes-256-gcm, password: c9ff20111b73874292da92cc4166421e}
+  - {name: Ytb:冰河圈子_17, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: Ytb:冰河圈子_18, server: 108.165.196.212, port: 2340, type: ss, cipher: aes-256-gcm, password: 81d7d46b9c66c779e81b83bc594df5eb}
+  - {name: Ytb:冰河圈子_19, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Ytb:冰河圈子_2, server: zz.gzyd.xyz, port: 2525, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
+  - {name: Ytb:冰河圈子_20, server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
+  - {name: Ytb:冰河圈子_21, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Ytb:冰河圈子_22, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:冰河圈子_23, server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: 12c00b6c-bdec-3162-aac2-2ae87e174156, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-02.xncloud.xyz}}
+  - {name: Ytb:冰河圈子_24, server: zz.gzyd.xyz, port: 3131, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
+  - {name: Ytb:冰河圈子_25, server: zz.gzyd.xyz, port: 2626, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
+  - {name: Ytb:冰河圈子_26, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:冰河圈子_27, server: zz.gzyd.xyz, port: 161, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
+  - {name: Ytb:冰河圈子_28, server: 169.197.142.250, port: 2800, type: ss, cipher: aes-256-gcm, password: d3bbe88595e1dfaa2c9085aa9bdaf3e4}
+  - {name: Ytb:冰河圈子_29, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: Ytb:冰河圈子_3, server: zz.gzyd.xyz, port: 5757, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
+  - {name: Ytb:冰河圈子_30, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: Ytb:冰河圈子_31, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: Ytb:冰河圈子_32, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
+  - {name: Ytb:冰河圈子_33, server: 120.232.82.190, port: 2010, type: ss, cipher: aes-256-gcm, password: fb3ff83bac9e4aed4a6a7d4a1f321f1a}
+  - {name: Ytb:冰河圈子_34, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: Ytb:冰河圈子_35, server: 120.232.82.190, port: 3002, type: ss, cipher: aes-256-gcm, password: 16b33a734063d5bb793634198ca90b73}
+  - {name: Ytb:冰河圈子_36, server: iepl.sg.bd6f.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_37, server: iepl.hk.4a75.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_38, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: Ytb:冰河圈子_39, server: iepl.hk.0686.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_4, server: zz.gzyd.xyz, port: 2424, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
+  - {name: Ytb:冰河圈子_40, server: zz.gzyd.xyz, port: 3434, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
+  - {name: Ytb:冰河圈子_41, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Ytb:冰河圈子_42, server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: Ytb:冰河圈子_43, server: iepl.hk.71bc.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_44, server: iepl.hk.7512.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_45, server: iepl.tw.9548.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_46, server: iepl.sg.e0c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_47, server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9}
+  - {name: Ytb:冰河圈子_48, server: iepl.hk.f663.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_49, server: iepl.sg.21ce.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_5, server: 120.232.82.190, port: 4008, type: ss, cipher: aes-256-gcm, password: d6d495a2aa737bf578e58868a96be20f}
+  - {name: Ytb:冰河圈子_50, server: iepl.hk.fda0.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_51, server: iepl.sg.f84d.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_52, server: iepl.hk.f6e8.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_53, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:冰河圈子_54, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Ytb:冰河圈子_55, server: iepl.tw.4edb.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_56, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:冰河圈子_57, server: iepl.hk.206f.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_58, server: iepl.hk.31c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_59, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:冰河圈子_6, server: zz.gzyd.xyz, port: 899, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
+  - {name: Ytb:冰河圈子_60, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: Ytb:冰河圈子_61, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:冰河圈子_62, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:冰河圈子_63, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: Ytb:冰河圈子_64, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:冰河圈子_65, server: 185.237.98.69, port: 3212, type: ss, cipher: aes-256-gcm, password: 13f91d7fd2461aa8ac178d360d94b2a8}
+  - {name: Ytb:冰河圈子_66, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Ytb:冰河圈子_67, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:冰河圈子_68, server: 85.208.108.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: Ytb:冰河圈子_69, server: iepl.sg.d6e4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_7, server: 120.232.82.190, port: 4001, type: ss, cipher: aes-256-gcm, password: 43e27d84de893cced5b4d6adfd087cff}
+  - {name: Ytb:冰河圈子_70, server: iepl.hk.023d.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:冰河圈子_71, server: v13.88host.buzz, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}}
+  - {name: Ytb:冰河圈子_72, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Ytb:冰河圈子_8, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 649f95f3-ab9c-429c-9185-ff5e44b7805d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: Ytb:冰河圈子_9, server: zz.gzyd.xyz, port: 2020, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
   - {name: _NON_Chen-2021.12.19_1, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: _NON_Chen-2021.12.19_1 2, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: _NON_Chen-2021.12.19_10, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
@@ -1055,7 +1020,10 @@ proxies:
   - {name: _NON_Chen-2021.12.19_98 2, server: global-transit-hk-v2.pucdn.me, port: 40010, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-10.pucdn.me}}
   - {name: _NON_Chen-2021.12.19_99, server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
   - {name: _NON_Chen-2021.12.19_99 2, server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
-  - {name: n_233v2.com_8.45.42.189, server: 8.45.42.189, port: 24232, type: vmess, uuid: adc06a3e-580e-439b-a4d9-abafa1fff7b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: _PT_葡萄牙_4, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: _US_美国_1, server: 142.202.48.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _US_美国_2, server: 142.202.48.78, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _US_美国_3, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
   - {name: 乌克兰（YouTube资源分享者）, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 2, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 3, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
@@ -1748,6 +1716,9 @@ proxy-groups:
       - "@SSRSUB-美国V09-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-美国V16-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-美国V16-付费推荐::suo.yt/ssrsub 2"
+      - _US_美国_1
+      - _US_美国_2
+      - _US_美国_3
       - 美国
       - 美国 2
       - 美国 3
@@ -2777,113 +2748,78 @@ proxy-groups:
       - CYL-科技（2021.12.22） 465
       - CYL-科技（2021.12.22） 466
       - CYL-科技（2021.12.22） 467
-      - Youtube:鹏哥分享_1
-      - Youtube:鹏哥分享_10
-      - Youtube:鹏哥分享_100
-      - Youtube:鹏哥分享_101
-      - Youtube:鹏哥分享_102
-      - Youtube:鹏哥分享_103
-      - Youtube:鹏哥分享_104
-      - Youtube:鹏哥分享_105
-      - Youtube:鹏哥分享_106
-      - Youtube:鹏哥分享_107
-      - Youtube:鹏哥分享_11
-      - Youtube:鹏哥分享_12
-      - Youtube:鹏哥分享_13
-      - Youtube:鹏哥分享_14
-      - Youtube:鹏哥分享_15
-      - Youtube:鹏哥分享_16
-      - Youtube:鹏哥分享_17
-      - Youtube:鹏哥分享_18
-      - Youtube:鹏哥分享_19
-      - Youtube:鹏哥分享_2
-      - Youtube:鹏哥分享_20
-      - Youtube:鹏哥分享_21
-      - Youtube:鹏哥分享_22
-      - Youtube:鹏哥分享_23
-      - Youtube:鹏哥分享_24
-      - Youtube:鹏哥分享_25
-      - Youtube:鹏哥分享_26
-      - Youtube:鹏哥分享_27
-      - Youtube:鹏哥分享_28
-      - Youtube:鹏哥分享_29
-      - Youtube:鹏哥分享_3
-      - Youtube:鹏哥分享_30
-      - Youtube:鹏哥分享_31
-      - Youtube:鹏哥分享_32
-      - Youtube:鹏哥分享_33
-      - Youtube:鹏哥分享_34
-      - Youtube:鹏哥分享_35
-      - Youtube:鹏哥分享_36
-      - Youtube:鹏哥分享_37
-      - Youtube:鹏哥分享_38
-      - Youtube:鹏哥分享_39
-      - Youtube:鹏哥分享_4
-      - Youtube:鹏哥分享_40
-      - Youtube:鹏哥分享_41
-      - Youtube:鹏哥分享_42
-      - Youtube:鹏哥分享_43
-      - Youtube:鹏哥分享_44
-      - Youtube:鹏哥分享_45
-      - Youtube:鹏哥分享_46
-      - Youtube:鹏哥分享_47
-      - Youtube:鹏哥分享_48
-      - Youtube:鹏哥分享_49
-      - Youtube:鹏哥分享_5
-      - Youtube:鹏哥分享_50
-      - Youtube:鹏哥分享_51
-      - Youtube:鹏哥分享_52
-      - Youtube:鹏哥分享_53
-      - Youtube:鹏哥分享_54
-      - Youtube:鹏哥分享_55
-      - Youtube:鹏哥分享_56
-      - Youtube:鹏哥分享_57
-      - Youtube:鹏哥分享_58
-      - Youtube:鹏哥分享_59
-      - Youtube:鹏哥分享_6
-      - Youtube:鹏哥分享_60
-      - Youtube:鹏哥分享_61
-      - Youtube:鹏哥分享_62
-      - Youtube:鹏哥分享_63
-      - Youtube:鹏哥分享_64
-      - Youtube:鹏哥分享_65
-      - Youtube:鹏哥分享_66
-      - Youtube:鹏哥分享_67
-      - Youtube:鹏哥分享_68
-      - Youtube:鹏哥分享_69
-      - Youtube:鹏哥分享_7
-      - Youtube:鹏哥分享_70
-      - Youtube:鹏哥分享_71
-      - Youtube:鹏哥分享_72
-      - Youtube:鹏哥分享_73
-      - Youtube:鹏哥分享_74
-      - Youtube:鹏哥分享_75
-      - Youtube:鹏哥分享_76
-      - Youtube:鹏哥分享_77
-      - Youtube:鹏哥分享_78
-      - Youtube:鹏哥分享_79
-      - Youtube:鹏哥分享_8
-      - Youtube:鹏哥分享_80
-      - Youtube:鹏哥分享_81
-      - Youtube:鹏哥分享_82
-      - Youtube:鹏哥分享_83
-      - Youtube:鹏哥分享_84
-      - Youtube:鹏哥分享_85
-      - Youtube:鹏哥分享_86
-      - Youtube:鹏哥分享_87
-      - Youtube:鹏哥分享_88
-      - Youtube:鹏哥分享_89
-      - Youtube:鹏哥分享_9
-      - Youtube:鹏哥分享_90
-      - Youtube:鹏哥分享_91
-      - Youtube:鹏哥分享_92
-      - Youtube:鹏哥分享_93
-      - Youtube:鹏哥分享_94
-      - Youtube:鹏哥分享_95
-      - Youtube:鹏哥分享_96
-      - Youtube:鹏哥分享_97
-      - Youtube:鹏哥分享_98
-      - Youtube:鹏哥分享_99
+      - Ytb:冰河圈子_1
+      - Ytb:冰河圈子_10
+      - Ytb:冰河圈子_11
+      - Ytb:冰河圈子_12
+      - Ytb:冰河圈子_13
+      - Ytb:冰河圈子_14
+      - Ytb:冰河圈子_15
+      - Ytb:冰河圈子_16
+      - Ytb:冰河圈子_17
+      - Ytb:冰河圈子_18
+      - Ytb:冰河圈子_19
+      - Ytb:冰河圈子_2
+      - Ytb:冰河圈子_20
+      - Ytb:冰河圈子_21
+      - Ytb:冰河圈子_22
+      - Ytb:冰河圈子_23
+      - Ytb:冰河圈子_24
+      - Ytb:冰河圈子_25
+      - Ytb:冰河圈子_26
+      - Ytb:冰河圈子_27
+      - Ytb:冰河圈子_28
+      - Ytb:冰河圈子_29
+      - Ytb:冰河圈子_3
+      - Ytb:冰河圈子_30
+      - Ytb:冰河圈子_31
+      - Ytb:冰河圈子_32
+      - Ytb:冰河圈子_33
+      - Ytb:冰河圈子_34
+      - Ytb:冰河圈子_35
+      - Ytb:冰河圈子_36
+      - Ytb:冰河圈子_37
+      - Ytb:冰河圈子_38
+      - Ytb:冰河圈子_39
+      - Ytb:冰河圈子_4
+      - Ytb:冰河圈子_40
+      - Ytb:冰河圈子_41
+      - Ytb:冰河圈子_42
+      - Ytb:冰河圈子_43
+      - Ytb:冰河圈子_44
+      - Ytb:冰河圈子_45
+      - Ytb:冰河圈子_46
+      - Ytb:冰河圈子_47
+      - Ytb:冰河圈子_48
+      - Ytb:冰河圈子_49
+      - Ytb:冰河圈子_5
+      - Ytb:冰河圈子_50
+      - Ytb:冰河圈子_51
+      - Ytb:冰河圈子_52
+      - Ytb:冰河圈子_53
+      - Ytb:冰河圈子_54
+      - Ytb:冰河圈子_55
+      - Ytb:冰河圈子_56
+      - Ytb:冰河圈子_57
+      - Ytb:冰河圈子_58
+      - Ytb:冰河圈子_59
+      - Ytb:冰河圈子_6
+      - Ytb:冰河圈子_60
+      - Ytb:冰河圈子_61
+      - Ytb:冰河圈子_62
+      - Ytb:冰河圈子_63
+      - Ytb:冰河圈子_64
+      - Ytb:冰河圈子_65
+      - Ytb:冰河圈子_66
+      - Ytb:冰河圈子_67
+      - Ytb:冰河圈子_68
+      - Ytb:冰河圈子_69
+      - Ytb:冰河圈子_7
+      - Ytb:冰河圈子_70
+      - Ytb:冰河圈子_71
+      - Ytb:冰河圈子_72
+      - Ytb:冰河圈子_8
+      - Ytb:冰河圈子_9
       - _NON_Chen-2021.12.19_1
       - _NON_Chen-2021.12.19_1 2
       - _NON_Chen-2021.12.19_10
@@ -3062,7 +2998,10 @@ proxy-groups:
       - _NON_Chen-2021.12.19_98 2
       - _NON_Chen-2021.12.19_99
       - _NON_Chen-2021.12.19_99 2
-      - n_233v2.com_8.45.42.189
+      - _PT_葡萄牙_4
+      - _US_美国_1
+      - _US_美国_2
+      - _US_美国_3
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
       - 乌克兰（YouTube资源分享者） 3
