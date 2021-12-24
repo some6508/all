@@ -403,7 +403,6 @@ proxies:
   - {name: _CA_加拿大 23, server: 134.195.196.51, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _CA_加拿大 24, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _CA_加拿大 25, server: 134.195.198.178, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _CA_加拿大_1, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: _DE_德国, server: 172.105.244.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _DE_德国 2, server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _DE_德国 3, server: 172.105.244.165, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
@@ -433,7 +432,6 @@ proxies:
   - {name: _HK_香港, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _HK_香港 2, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: _HK_香港 3, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _IN_印度_3, server: 192.46.210.73, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _JP_日本, server: 172.105.234.211, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: _MX_墨西哥, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
   - {name: _NON_Chen-2021.12.19_1, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
@@ -1692,7 +1690,6 @@ proxy-groups:
       - _CA_加拿大 23
       - _CA_加拿大 24
       - _CA_加拿大 25
-      - _CA_加拿大_1
       - _DE_德国
       - _DE_德国 2
       - _DE_德国 3
@@ -1717,7 +1714,6 @@ proxy-groups:
       - _GB_英国 12
       - _GB_英国 13
       - _GB_英国 14
-      - _IN_印度_3
       - _RO_罗马尼亚
       - _US_美国->🇷🇺_RU_俄罗斯联邦
       - _US_美国->🇷🇺_RU_俄罗斯联邦 2
@@ -2168,7 +2164,6 @@ proxy-groups:
       - _CA_加拿大 23
       - _CA_加拿大 24
       - _CA_加拿大 25
-      - _CA_加拿大_1
       - _DE_德国
       - _DE_德国 2
       - _DE_德国 3
@@ -2198,7 +2193,6 @@ proxy-groups:
       - _HK_香港
       - _HK_香港 2
       - _HK_香港 3
-      - _IN_印度_3
       - _JP_日本
       - _MX_墨西哥
       - _NON_Chen-2021.12.19_1
