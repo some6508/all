@@ -5,124 +5,340 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇭🇰_HK_香港_1', server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0}
-  - {name: '🇺🇸_US_美国_2', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: '🇺🇸_US_美国_3', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: '🇺🇸_US_美国_4', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: '🇩🇪_DE_德国_5', server: 172.105.244.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇩🇪_DE_德国_6', server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇩🇪_DE_德国_7', server: 172.105.244.165, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_美国_8', server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
-  - {name: '🇧🇬_BG_保加利亚_9', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: '🇺🇸_US_美国_10', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '剩余流量：5.33TB_1', server: www.mxyssr.site, port: 10086, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '过期时间：2022-02-25_2', server: www.mxyssr.site, port: 10086, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '①V2RAY vip2广移-中转-新加坡_3', server: 37.mxysss.top, port: 42237, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '②V2RAY vip2广移-中转-新加坡_4', server: 38.mxysss.top, port: 42238, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '③V2RAY vip2广移-中转-日本_5', server: 39.mxysss.top, port: 42239, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '④V2RAY vip2广移-中转-新加坡_6', server: 40.mxysss.top, port: 42240, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⑤V2RAY vip2广移--中转-新加坡_7', server: 41.mxysss.top, port: 42241, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⑥V2RAY vip2上海联通-中转-日本_8', server: 42.mxysss.top, port: 42242, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⑦V2RAY vip2北京BGP-中转-新加坡_9', server: 43.mxysss.top, port: 42243, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⑧V2RAY vip2北京BGP-中转-香港_10', server: 44.mxysss.top, port: 42244, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⑨V2RAY vip2北京BGP-中转-香港_11', server: 45.mxysss.top, port: 42245, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⑩V2RAY vip2北京BGP-中转-香港_12', server: 46.mxysss.top, port: 42246, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⑪V2RAY vip2電信-中转-日本_13', server: 52.mxysss.top, port: 42252, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⑫V2RAY vip2IPLC专线-游戏|深圳|新加坡_14', server: 53.mxysss.top, port: 42253, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⑬V2RAY vip2IPLC专线-游戏|深圳|新加坡_15', server: 54.mxysss.top, port: 42254, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⑭V2RAY vip2IPLC专线-游戏|深圳|新加坡_16', server: 55.mxysss.top, port: 42255, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⑮V2RAY vip2IPLC专线-游戏|深圳|新加坡_17', server: 56.mxysss.top, port: 42256, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⑯V2RAY vip2IPLC专线-游戏|香港原生IP_18', server: 57.mxysss.top, port: 42257, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⑰V2RAY vip2IPLC专线-游戏|香港原生IP_19', server: 58.mxysss.top, port: 42258, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒈V2RAY vip1北京BGP-中转-AWS香港_20', server: 9.mxysss.top, port: 41109, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒉V2RAY vip1广移-中转-新加坡_21', server: 10.mxysss.top, port: 41110, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒊V2RAY vip1广移-中转-新加坡_22', server: 11.mxysss.top, port: 41111, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒋V2RAY vip1广移-中转-新加坡_23', server: 12.mxysss.top, port: 41112, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒌V2RAY vip1上海cn2-中转-新加坡_24', server: 13.mxysss.top, port: 41113, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒍V2RAY vip1北京BGP-中转-新加坡_25', server: 14.mxysss.top, port: 41114, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒎V2RAY vip1广移-中转-新加坡_26', server: 15.mxysss.top, port: 41115, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒏V2RAY vip1电信-中转-日本_27', server: 16.mxysss.top, port: 41116, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒐V2RAY vip1广移-中转-新加坡_28', server: 17.mxysss.top, port: 41117, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒑V2RAY vip1北京BGP-中转-香港_29', server: 18.mxysss.top, port: 41118, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒒V2RAYvip1北京BGP-中转-新加坡_30', server: 19.mxysss.top, port: 41119, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒓V2RAY vip1北京BGP-中转-日本_31', server: 20.mxysss.top, port: 41120, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒔V2RAY vip1北京BGP-中转-日本_32', server: 21.mxysss.top, port: 41121, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒕V2RAY vip1北京BGP-中转-新加坡_33', server: 26.mxysss.top, port: 41126, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒖V2RAY vip1上海cn2-中转-日本_34', server: 27.mxysss.top, port: 41127, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒗V2RAY vip1电信-中转-新加坡_35', server: 29.mxysss.top, port: 41129, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒘V2RAY vip1电信-中转-香港_36', server: 31.mxysss.top, port: 41131, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '⒙V2RAY vip1北京BGP-中转-美国_37', server: 32.mxysss.top, port: 41132, type: vmess, uuid: d132c827-0407-3a49-aee1-3580d57fda69, alterId: 2, cipher: auto, tls: false, network: tcp}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇩🇪_DE_德国_5
-      - 🇩🇪_DE_德国_6
-      - 🇩🇪_DE_德国_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇺🇸_US_美国_10
+      - 剩余流量：5.33TB_1
+      - 过期时间：2022-02-25_2
+      - ①V2RAY vip2广移-中转-新加坡_3
+      - ②V2RAY vip2广移-中转-新加坡_4
+      - ③V2RAY vip2广移-中转-日本_5
+      - ④V2RAY vip2广移-中转-新加坡_6
+      - ⑤V2RAY vip2广移--中转-新加坡_7
+      - ⑥V2RAY vip2上海联通-中转-日本_8
+      - ⑦V2RAY vip2北京BGP-中转-新加坡_9
+      - ⑧V2RAY vip2北京BGP-中转-香港_10
+      - ⑨V2RAY vip2北京BGP-中转-香港_11
+      - ⑩V2RAY vip2北京BGP-中转-香港_12
+      - ⑪V2RAY vip2電信-中转-日本_13
+      - ⑫V2RAY vip2IPLC专线-游戏|深圳|新加坡_14
+      - ⑬V2RAY vip2IPLC专线-游戏|深圳|新加坡_15
+      - ⑭V2RAY vip2IPLC专线-游戏|深圳|新加坡_16
+      - ⑮V2RAY vip2IPLC专线-游戏|深圳|新加坡_17
+      - ⑯V2RAY vip2IPLC专线-游戏|香港原生IP_18
+      - ⑰V2RAY vip2IPLC专线-游戏|香港原生IP_19
+      - ⒈V2RAY vip1北京BGP-中转-AWS香港_20
+      - ⒉V2RAY vip1广移-中转-新加坡_21
+      - ⒊V2RAY vip1广移-中转-新加坡_22
+      - ⒋V2RAY vip1广移-中转-新加坡_23
+      - ⒌V2RAY vip1上海cn2-中转-新加坡_24
+      - ⒍V2RAY vip1北京BGP-中转-新加坡_25
+      - ⒎V2RAY vip1广移-中转-新加坡_26
+      - ⒏V2RAY vip1电信-中转-日本_27
+      - ⒐V2RAY vip1广移-中转-新加坡_28
+      - ⒑V2RAY vip1北京BGP-中转-香港_29
+      - ⒒V2RAYvip1北京BGP-中转-新加坡_30
+      - ⒓V2RAY vip1北京BGP-中转-日本_31
+      - ⒔V2RAY vip1北京BGP-中转-日本_32
+      - ⒕V2RAY vip1北京BGP-中转-新加坡_33
+      - ⒖V2RAY vip1上海cn2-中转-日本_34
+      - ⒗V2RAY vip1电信-中转-新加坡_35
+      - ⒘V2RAY vip1电信-中转-香港_36
+      - ⒙V2RAY vip1北京BGP-中转-美国_37
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇩🇪_DE_德国_5
-      - 🇩🇪_DE_德国_6
-      - 🇩🇪_DE_德国_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇺🇸_US_美国_10
+      - 剩余流量：5.33TB_1
+      - 过期时间：2022-02-25_2
+      - ①V2RAY vip2广移-中转-新加坡_3
+      - ②V2RAY vip2广移-中转-新加坡_4
+      - ③V2RAY vip2广移-中转-日本_5
+      - ④V2RAY vip2广移-中转-新加坡_6
+      - ⑤V2RAY vip2广移--中转-新加坡_7
+      - ⑥V2RAY vip2上海联通-中转-日本_8
+      - ⑦V2RAY vip2北京BGP-中转-新加坡_9
+      - ⑧V2RAY vip2北京BGP-中转-香港_10
+      - ⑨V2RAY vip2北京BGP-中转-香港_11
+      - ⑩V2RAY vip2北京BGP-中转-香港_12
+      - ⑪V2RAY vip2電信-中转-日本_13
+      - ⑫V2RAY vip2IPLC专线-游戏|深圳|新加坡_14
+      - ⑬V2RAY vip2IPLC专线-游戏|深圳|新加坡_15
+      - ⑭V2RAY vip2IPLC专线-游戏|深圳|新加坡_16
+      - ⑮V2RAY vip2IPLC专线-游戏|深圳|新加坡_17
+      - ⑯V2RAY vip2IPLC专线-游戏|香港原生IP_18
+      - ⑰V2RAY vip2IPLC专线-游戏|香港原生IP_19
+      - ⒈V2RAY vip1北京BGP-中转-AWS香港_20
+      - ⒉V2RAY vip1广移-中转-新加坡_21
+      - ⒊V2RAY vip1广移-中转-新加坡_22
+      - ⒋V2RAY vip1广移-中转-新加坡_23
+      - ⒌V2RAY vip1上海cn2-中转-新加坡_24
+      - ⒍V2RAY vip1北京BGP-中转-新加坡_25
+      - ⒎V2RAY vip1广移-中转-新加坡_26
+      - ⒏V2RAY vip1电信-中转-日本_27
+      - ⒐V2RAY vip1广移-中转-新加坡_28
+      - ⒑V2RAY vip1北京BGP-中转-香港_29
+      - ⒒V2RAYvip1北京BGP-中转-新加坡_30
+      - ⒓V2RAY vip1北京BGP-中转-日本_31
+      - ⒔V2RAY vip1北京BGP-中转-日本_32
+      - ⒕V2RAY vip1北京BGP-中转-新加坡_33
+      - ⒖V2RAY vip1上海cn2-中转-日本_34
+      - ⒗V2RAY vip1电信-中转-新加坡_35
+      - ⒘V2RAY vip1电信-中转-香港_36
+      - ⒙V2RAY vip1北京BGP-中转-美国_37
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇩🇪_DE_德国_5
-      - 🇩🇪_DE_德国_6
-      - 🇩🇪_DE_德国_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇺🇸_US_美国_10
+      - 剩余流量：5.33TB_1
+      - 过期时间：2022-02-25_2
+      - ①V2RAY vip2广移-中转-新加坡_3
+      - ②V2RAY vip2广移-中转-新加坡_4
+      - ③V2RAY vip2广移-中转-日本_5
+      - ④V2RAY vip2广移-中转-新加坡_6
+      - ⑤V2RAY vip2广移--中转-新加坡_7
+      - ⑥V2RAY vip2上海联通-中转-日本_8
+      - ⑦V2RAY vip2北京BGP-中转-新加坡_9
+      - ⑧V2RAY vip2北京BGP-中转-香港_10
+      - ⑨V2RAY vip2北京BGP-中转-香港_11
+      - ⑩V2RAY vip2北京BGP-中转-香港_12
+      - ⑪V2RAY vip2電信-中转-日本_13
+      - ⑫V2RAY vip2IPLC专线-游戏|深圳|新加坡_14
+      - ⑬V2RAY vip2IPLC专线-游戏|深圳|新加坡_15
+      - ⑭V2RAY vip2IPLC专线-游戏|深圳|新加坡_16
+      - ⑮V2RAY vip2IPLC专线-游戏|深圳|新加坡_17
+      - ⑯V2RAY vip2IPLC专线-游戏|香港原生IP_18
+      - ⑰V2RAY vip2IPLC专线-游戏|香港原生IP_19
+      - ⒈V2RAY vip1北京BGP-中转-AWS香港_20
+      - ⒉V2RAY vip1广移-中转-新加坡_21
+      - ⒊V2RAY vip1广移-中转-新加坡_22
+      - ⒋V2RAY vip1广移-中转-新加坡_23
+      - ⒌V2RAY vip1上海cn2-中转-新加坡_24
+      - ⒍V2RAY vip1北京BGP-中转-新加坡_25
+      - ⒎V2RAY vip1广移-中转-新加坡_26
+      - ⒏V2RAY vip1电信-中转-日本_27
+      - ⒐V2RAY vip1广移-中转-新加坡_28
+      - ⒑V2RAY vip1北京BGP-中转-香港_29
+      - ⒒V2RAYvip1北京BGP-中转-新加坡_30
+      - ⒓V2RAY vip1北京BGP-中转-日本_31
+      - ⒔V2RAY vip1北京BGP-中转-日本_32
+      - ⒕V2RAY vip1北京BGP-中转-新加坡_33
+      - ⒖V2RAY vip1上海cn2-中转-日本_34
+      - ⒗V2RAY vip1电信-中转-新加坡_35
+      - ⒘V2RAY vip1电信-中转-香港_36
+      - ⒙V2RAY vip1北京BGP-中转-美国_37
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇩🇪_DE_德国_5
-      - 🇩🇪_DE_德国_6
-      - 🇩🇪_DE_德国_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇺🇸_US_美国_10
+      - 剩余流量：5.33TB_1
+      - 过期时间：2022-02-25_2
+      - ①V2RAY vip2广移-中转-新加坡_3
+      - ②V2RAY vip2广移-中转-新加坡_4
+      - ③V2RAY vip2广移-中转-日本_5
+      - ④V2RAY vip2广移-中转-新加坡_6
+      - ⑤V2RAY vip2广移--中转-新加坡_7
+      - ⑥V2RAY vip2上海联通-中转-日本_8
+      - ⑦V2RAY vip2北京BGP-中转-新加坡_9
+      - ⑧V2RAY vip2北京BGP-中转-香港_10
+      - ⑨V2RAY vip2北京BGP-中转-香港_11
+      - ⑩V2RAY vip2北京BGP-中转-香港_12
+      - ⑪V2RAY vip2電信-中转-日本_13
+      - ⑫V2RAY vip2IPLC专线-游戏|深圳|新加坡_14
+      - ⑬V2RAY vip2IPLC专线-游戏|深圳|新加坡_15
+      - ⑭V2RAY vip2IPLC专线-游戏|深圳|新加坡_16
+      - ⑮V2RAY vip2IPLC专线-游戏|深圳|新加坡_17
+      - ⑯V2RAY vip2IPLC专线-游戏|香港原生IP_18
+      - ⑰V2RAY vip2IPLC专线-游戏|香港原生IP_19
+      - ⒈V2RAY vip1北京BGP-中转-AWS香港_20
+      - ⒉V2RAY vip1广移-中转-新加坡_21
+      - ⒊V2RAY vip1广移-中转-新加坡_22
+      - ⒋V2RAY vip1广移-中转-新加坡_23
+      - ⒌V2RAY vip1上海cn2-中转-新加坡_24
+      - ⒍V2RAY vip1北京BGP-中转-新加坡_25
+      - ⒎V2RAY vip1广移-中转-新加坡_26
+      - ⒏V2RAY vip1电信-中转-日本_27
+      - ⒐V2RAY vip1广移-中转-新加坡_28
+      - ⒑V2RAY vip1北京BGP-中转-香港_29
+      - ⒒V2RAYvip1北京BGP-中转-新加坡_30
+      - ⒓V2RAY vip1北京BGP-中转-日本_31
+      - ⒔V2RAY vip1北京BGP-中转-日本_32
+      - ⒕V2RAY vip1北京BGP-中转-新加坡_33
+      - ⒖V2RAY vip1上海cn2-中转-日本_34
+      - ⒗V2RAY vip1电信-中转-新加坡_35
+      - ⒘V2RAY vip1电信-中转-香港_36
+      - ⒙V2RAY vip1北京BGP-中转-美国_37
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇩🇪_DE_德国_5
-      - 🇩🇪_DE_德国_6
-      - 🇩🇪_DE_德国_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇺🇸_US_美国_10
+      - 剩余流量：5.33TB_1
+      - 过期时间：2022-02-25_2
+      - ①V2RAY vip2广移-中转-新加坡_3
+      - ②V2RAY vip2广移-中转-新加坡_4
+      - ③V2RAY vip2广移-中转-日本_5
+      - ④V2RAY vip2广移-中转-新加坡_6
+      - ⑤V2RAY vip2广移--中转-新加坡_7
+      - ⑥V2RAY vip2上海联通-中转-日本_8
+      - ⑦V2RAY vip2北京BGP-中转-新加坡_9
+      - ⑧V2RAY vip2北京BGP-中转-香港_10
+      - ⑨V2RAY vip2北京BGP-中转-香港_11
+      - ⑩V2RAY vip2北京BGP-中转-香港_12
+      - ⑪V2RAY vip2電信-中转-日本_13
+      - ⑫V2RAY vip2IPLC专线-游戏|深圳|新加坡_14
+      - ⑬V2RAY vip2IPLC专线-游戏|深圳|新加坡_15
+      - ⑭V2RAY vip2IPLC专线-游戏|深圳|新加坡_16
+      - ⑮V2RAY vip2IPLC专线-游戏|深圳|新加坡_17
+      - ⑯V2RAY vip2IPLC专线-游戏|香港原生IP_18
+      - ⑰V2RAY vip2IPLC专线-游戏|香港原生IP_19
+      - ⒈V2RAY vip1北京BGP-中转-AWS香港_20
+      - ⒉V2RAY vip1广移-中转-新加坡_21
+      - ⒊V2RAY vip1广移-中转-新加坡_22
+      - ⒋V2RAY vip1广移-中转-新加坡_23
+      - ⒌V2RAY vip1上海cn2-中转-新加坡_24
+      - ⒍V2RAY vip1北京BGP-中转-新加坡_25
+      - ⒎V2RAY vip1广移-中转-新加坡_26
+      - ⒏V2RAY vip1电信-中转-日本_27
+      - ⒐V2RAY vip1广移-中转-新加坡_28
+      - ⒑V2RAY vip1北京BGP-中转-香港_29
+      - ⒒V2RAYvip1北京BGP-中转-新加坡_30
+      - ⒓V2RAY vip1北京BGP-中转-日本_31
+      - ⒔V2RAY vip1北京BGP-中转-日本_32
+      - ⒕V2RAY vip1北京BGP-中转-新加坡_33
+      - ⒖V2RAY vip1上海cn2-中转-日本_34
+      - ⒗V2RAY vip1电信-中转-新加坡_35
+      - ⒘V2RAY vip1电信-中转-香港_36
+      - ⒙V2RAY vip1北京BGP-中转-美国_37
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇩🇪_DE_德国_5
-      - 🇩🇪_DE_德国_6
-      - 🇩🇪_DE_德国_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇺🇸_US_美国_10
+      - 剩余流量：5.33TB_1
+      - 过期时间：2022-02-25_2
+      - ①V2RAY vip2广移-中转-新加坡_3
+      - ②V2RAY vip2广移-中转-新加坡_4
+      - ③V2RAY vip2广移-中转-日本_5
+      - ④V2RAY vip2广移-中转-新加坡_6
+      - ⑤V2RAY vip2广移--中转-新加坡_7
+      - ⑥V2RAY vip2上海联通-中转-日本_8
+      - ⑦V2RAY vip2北京BGP-中转-新加坡_9
+      - ⑧V2RAY vip2北京BGP-中转-香港_10
+      - ⑨V2RAY vip2北京BGP-中转-香港_11
+      - ⑩V2RAY vip2北京BGP-中转-香港_12
+      - ⑪V2RAY vip2電信-中转-日本_13
+      - ⑫V2RAY vip2IPLC专线-游戏|深圳|新加坡_14
+      - ⑬V2RAY vip2IPLC专线-游戏|深圳|新加坡_15
+      - ⑭V2RAY vip2IPLC专线-游戏|深圳|新加坡_16
+      - ⑮V2RAY vip2IPLC专线-游戏|深圳|新加坡_17
+      - ⑯V2RAY vip2IPLC专线-游戏|香港原生IP_18
+      - ⑰V2RAY vip2IPLC专线-游戏|香港原生IP_19
+      - ⒈V2RAY vip1北京BGP-中转-AWS香港_20
+      - ⒉V2RAY vip1广移-中转-新加坡_21
+      - ⒊V2RAY vip1广移-中转-新加坡_22
+      - ⒋V2RAY vip1广移-中转-新加坡_23
+      - ⒌V2RAY vip1上海cn2-中转-新加坡_24
+      - ⒍V2RAY vip1北京BGP-中转-新加坡_25
+      - ⒎V2RAY vip1广移-中转-新加坡_26
+      - ⒏V2RAY vip1电信-中转-日本_27
+      - ⒐V2RAY vip1广移-中转-新加坡_28
+      - ⒑V2RAY vip1北京BGP-中转-香港_29
+      - ⒒V2RAYvip1北京BGP-中转-新加坡_30
+      - ⒓V2RAY vip1北京BGP-中转-日本_31
+      - ⒔V2RAY vip1北京BGP-中转-日本_32
+      - ⒕V2RAY vip1北京BGP-中转-新加坡_33
+      - ⒖V2RAY vip1上海cn2-中转-日本_34
+      - ⒗V2RAY vip1电信-中转-新加坡_35
+      - ⒘V2RAY vip1电信-中转-香港_36
+      - ⒙V2RAY vip1北京BGP-中转-美国_37
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇩🇪_DE_德国_5
-      - 🇩🇪_DE_德国_6
-      - 🇩🇪_DE_德国_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇺🇸_US_美国_10
+      - 剩余流量：5.33TB_1
+      - 过期时间：2022-02-25_2
+      - ①V2RAY vip2广移-中转-新加坡_3
+      - ②V2RAY vip2广移-中转-新加坡_4
+      - ③V2RAY vip2广移-中转-日本_5
+      - ④V2RAY vip2广移-中转-新加坡_6
+      - ⑤V2RAY vip2广移--中转-新加坡_7
+      - ⑥V2RAY vip2上海联通-中转-日本_8
+      - ⑦V2RAY vip2北京BGP-中转-新加坡_9
+      - ⑧V2RAY vip2北京BGP-中转-香港_10
+      - ⑨V2RAY vip2北京BGP-中转-香港_11
+      - ⑩V2RAY vip2北京BGP-中转-香港_12
+      - ⑪V2RAY vip2電信-中转-日本_13
+      - ⑫V2RAY vip2IPLC专线-游戏|深圳|新加坡_14
+      - ⑬V2RAY vip2IPLC专线-游戏|深圳|新加坡_15
+      - ⑭V2RAY vip2IPLC专线-游戏|深圳|新加坡_16
+      - ⑮V2RAY vip2IPLC专线-游戏|深圳|新加坡_17
+      - ⑯V2RAY vip2IPLC专线-游戏|香港原生IP_18
+      - ⑰V2RAY vip2IPLC专线-游戏|香港原生IP_19
+      - ⒈V2RAY vip1北京BGP-中转-AWS香港_20
+      - ⒉V2RAY vip1广移-中转-新加坡_21
+      - ⒊V2RAY vip1广移-中转-新加坡_22
+      - ⒋V2RAY vip1广移-中转-新加坡_23
+      - ⒌V2RAY vip1上海cn2-中转-新加坡_24
+      - ⒍V2RAY vip1北京BGP-中转-新加坡_25
+      - ⒎V2RAY vip1广移-中转-新加坡_26
+      - ⒏V2RAY vip1电信-中转-日本_27
+      - ⒐V2RAY vip1广移-中转-新加坡_28
+      - ⒑V2RAY vip1北京BGP-中转-香港_29
+      - ⒒V2RAYvip1北京BGP-中转-新加坡_30
+      - ⒓V2RAY vip1北京BGP-中转-日本_31
+      - ⒔V2RAY vip1北京BGP-中转-日本_32
+      - ⒕V2RAY vip1北京BGP-中转-新加坡_33
+      - ⒖V2RAY vip1上海cn2-中转-日本_34
+      - ⒗V2RAY vip1电信-中转-新加坡_35
+      - ⒘V2RAY vip1电信-中转-香港_36
+      - ⒙V2RAY vip1北京BGP-中转-美国_37
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +354,43 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇩🇪_DE_德国_5
-      - 🇩🇪_DE_德国_6
-      - 🇩🇪_DE_德国_7
-      - 🇺🇸_US_美国_8
-      - 🇧🇬_BG_保加利亚_9
-      - 🇺🇸_US_美国_10
+      - 剩余流量：5.33TB_1
+      - 过期时间：2022-02-25_2
+      - ①V2RAY vip2广移-中转-新加坡_3
+      - ②V2RAY vip2广移-中转-新加坡_4
+      - ③V2RAY vip2广移-中转-日本_5
+      - ④V2RAY vip2广移-中转-新加坡_6
+      - ⑤V2RAY vip2广移--中转-新加坡_7
+      - ⑥V2RAY vip2上海联通-中转-日本_8
+      - ⑦V2RAY vip2北京BGP-中转-新加坡_9
+      - ⑧V2RAY vip2北京BGP-中转-香港_10
+      - ⑨V2RAY vip2北京BGP-中转-香港_11
+      - ⑩V2RAY vip2北京BGP-中转-香港_12
+      - ⑪V2RAY vip2電信-中转-日本_13
+      - ⑫V2RAY vip2IPLC专线-游戏|深圳|新加坡_14
+      - ⑬V2RAY vip2IPLC专线-游戏|深圳|新加坡_15
+      - ⑭V2RAY vip2IPLC专线-游戏|深圳|新加坡_16
+      - ⑮V2RAY vip2IPLC专线-游戏|深圳|新加坡_17
+      - ⑯V2RAY vip2IPLC专线-游戏|香港原生IP_18
+      - ⑰V2RAY vip2IPLC专线-游戏|香港原生IP_19
+      - ⒈V2RAY vip1北京BGP-中转-AWS香港_20
+      - ⒉V2RAY vip1广移-中转-新加坡_21
+      - ⒊V2RAY vip1广移-中转-新加坡_22
+      - ⒋V2RAY vip1广移-中转-新加坡_23
+      - ⒌V2RAY vip1上海cn2-中转-新加坡_24
+      - ⒍V2RAY vip1北京BGP-中转-新加坡_25
+      - ⒎V2RAY vip1广移-中转-新加坡_26
+      - ⒏V2RAY vip1电信-中转-日本_27
+      - ⒐V2RAY vip1广移-中转-新加坡_28
+      - ⒑V2RAY vip1北京BGP-中转-香港_29
+      - ⒒V2RAYvip1北京BGP-中转-新加坡_30
+      - ⒓V2RAY vip1北京BGP-中转-日本_31
+      - ⒔V2RAY vip1北京BGP-中转-日本_32
+      - ⒕V2RAY vip1北京BGP-中转-新加坡_33
+      - ⒖V2RAY vip1上海cn2-中转-日本_34
+      - ⒗V2RAY vip1电信-中转-新加坡_35
+      - ⒘V2RAY vip1电信-中转-香港_36
+      - ⒙V2RAY vip1北京BGP-中转-美国_37
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
