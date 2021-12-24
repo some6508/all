@@ -1,23 +1,23 @@
 + PS4='$LINENO: '
 5: cd /home/runner/work/all/all
 114: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-14: echo 2021年12月25日·周6·05点11分40秒.818毫秒
+14: echo 2021年12月25日·周6·06点12分57秒.164毫秒
 115: curl -s https://api.github.com/repos/changfengoss/pub/commits
 115: grep -m 1 html_url
 115: sed 's/.*"html_url": /html_url=/g'
-15: eval 'html_url="https://github.com/changfengoss/pub/commit/91e3a34a60ef9aa0af79fddf09589ebfa2279d11",'
-115: html_url=https://github.com/changfengoss/pub/commit/91e3a34a60ef9aa0af79fddf09589ebfa2279d11,
-116: curl -s https://github.com/changfengoss/pub/commit/91e3a34a60ef9aa0af79fddf09589ebfa2279d11
+15: eval 'html_url="https://github.com/changfengoss/pub/commit/cfd64455aeb14ca4f49014bb1fe9346dc9a8d017",'
+115: html_url=https://github.com/changfengoss/pub/commit/cfd64455aeb14ca4f49014bb1fe9346dc9a8d017,
+116: curl -s https://github.com/changfengoss/pub/commit/cfd64455aeb14ca4f49014bb1fe9346dc9a8d017
 116: sed 's|</a>|"|g'
 116: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/changfengoss/pub/main/|p'
-16: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_25/KE1lUc.yaml"'
-116: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_25/KE1lUc.yaml
+16: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_25/vS8JRZ.yaml"'
+116: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_25/vS8JRZ.yaml
 17: case "$href" in
-19: CURL c https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_25/KE1lUc.yaml
+19: CURL c https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_25/vS8JRZ.yaml
 7: echo --------------------------------------------------
 8: echo '- 下载文件: c'
-9: echo '- 连接链接: https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_25/KE1lUc.yaml'
-10: curl -so /home/runner/work/all/all/c https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_25/KE1lUc.yaml
+9: echo '- 连接链接: https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_25/vS8JRZ.yaml'
+10: curl -so /home/runner/work/all/all/c https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_25/vS8JRZ.yaml
 11: local CURL=0
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
@@ -63,8 +63,8 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1224clash.
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
 336: curl -s https://api.github.com/repos/zyfxz/clash/commits
-336: grep -m 1 html_url
 336: sed 's/.*"html_url": /html_url=/g'
+336: grep -m 1 html_url
 36: eval 'html_url="https://github.com/zyfxz/clash/commit/42e3c11cea51731db5258419d60367f0ca977968",'
 336: html_url=https://github.com/zyfxz/clash/commit/42e3c11cea51731db5258419d60367f0ca977968,
 337: curl -s https://github.com/zyfxz/clash/commit/42e3c11cea51731db5258419d60367f0ca977968
@@ -137,9 +137,9 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1224clash.
 8: echo '- 下载文件: v6'
 9: echo '- 连接链接: https://gitee.com/chenx58/clash/raw/V2R/V2R'
 10: curl -so /home/runner/work/all/all/v6 https://gitee.com/chenx58/clash/raw/V2R/V2R
-11: local CURL=28
-12: [[ 28 = 0 ]]
-12: echo '! 下载失败: 28'
+11: local CURL=0
+12: [[ 0 = 0 ]]
+12: echo '- 下载完成: 0'
 448: curl -s https://api.github.com/repos/bhqz/bhqz/commits
 448: sed 's/.*"html_url": /html_url=/g'
 448: grep -m 1 html_url
@@ -176,9 +176,9 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1224clash.
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
 557: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-57: sed -i '/^|20/c|2021年12月25日·周6·05点14分05秒.352毫秒|' /home/runner/work/all/all/README.md
+57: sed -i '/^|20/c|2021年12月25日·周6·06点13分12秒.946毫秒|' /home/runner/work/all/all/README.md
 558: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒 -d '+1 hour'
-58: sed -i '/^20/c2021年12月25日·周6·06点14分05秒.356毫秒' /home/runner/work/all/all/README.md
+58: sed -i '/^20/c2021年12月25日·周6·07点13分12秒.949毫秒' /home/runner/work/all/all/README.md
 59: echo --------------------------------------------------
 660: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-60: echo 2021年12月25日·周6·05点14分05秒.359毫秒
+60: echo 2021年12月25日·周6·06点13分12秒.953毫秒
