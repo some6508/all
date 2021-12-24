@@ -5,3284 +5,1948 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇷🇺+@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub_1', server: t6.ssrsub.com, port: 8443, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t6.ssrsub.com}
-  - {name: '🇷🇺+@SSRSUB-俄罗斯T11-付费推荐:dlj.tf/ssrsub_2', server: t5.ssrsub.com, port: 8443, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t5.ssrsub.com}
-  - {name: '🇷🇺+@SSRSUB-俄罗斯T05-付费推荐:dlj.tf/ssrsub_3', server: t5.ssrsub.com, port: 8443, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t5.ssrsub.com}
-  - {name: '🇷🇺+@SSRSUB-俄罗斯T06-付费推荐:dlj.tf/ssrsub_4', server: t6.ssrsub.com, port: 8443, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t6.ssrsub.com}
-  - {name: '🇷🇺+@SSRSUB-俄罗斯T07-付费推荐:dlj.tf/ssrsub_5', server: t7.ssrsub.com, port: 8443, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t7.ssrsub.com}
-  - {name: '🇷🇺+@SSRSUB-俄罗斯T01-付费推荐:dlj.tf/ssrsub_6', server: t7.ssrsub.com, port: 8443, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t7.ssrsub.com}
-  - {name: '@SSRSUB-V32-付费推荐:suo.yt/ssrsub_7', server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
-  - {name: '@SSRSUB-V35-付费推荐:suo.yt/ssrsub_8', server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
-  - {name: '@SSRSUB-V21-付费推荐:suo.yt/ssrsub_9', server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: '🇨🇦+@SSRSUB-加拿大T03-付费推荐:dlj.tf/ssrsub_10', server: t3.ssrsub.com, port: 156, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t3.ssrsub.com}
-  - {name: '🇨🇦+@SSRSUB-加拿大T09-付费推荐:dlj.tf/ssrsub_11', server: t3.ssrsub.com, port: 156, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t3.ssrsub.com}
-  - {name: '@SSRSUB-V37-付费推荐:suo.yt/ssrsub_12', server: 172.67.176.114, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: '@SSRSUB-V51-付费推荐:suo.yt/ssrsub_13', server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
-  - {name: '@SSRSUB-V31-付费推荐:suo.yt/ssrsub_14', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '@SSRSUB-V25-付费推荐:suo.yt/ssrsub_15', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: '@SSRSUB-V28-付费推荐:suo.yt/ssrsub_16', server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: '@SSRSUB-V49-付费推荐:suo.yt/ssrsub_17', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '@SSRSUB-V02-付费推荐:suo.yt/ssrsub_18', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '🇷🇺+@SSRSUB-俄罗斯T02-付费推荐:dlj.tf/ssrsub_19', server: t2.ssrsub.com, port: 8443, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t2.ssrsub.com}
-  - {name: '@SSRSUB-V38-付费推荐:suo.yt/ssrsub_20', server: 104.21.62.193, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: '@SSRSUB-V47-付费推荐:suo.yt/ssrsub_21', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_22', server: 165.154.229.22, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 165.154.229.22}}
-  - {name: '@SSRSUB-V10-付费推荐:suo.yt/ssrsub_23', server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: '@SSRSUB-V33-付费推荐:suo.yt/ssrsub_24', server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: '🇷🇺+@SSRSUB-俄罗斯T08-付费推荐:dlj.tf/ssrsub_25', server: t2.ssrsub.com, port: 8443, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t2.ssrsub.com}
-  - {name: '@SSRSUB-V46-付费推荐:suo.yt/ssrsub_26', server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
-  - {name: '@SSRSUB-V14-付费推荐:suo.yt/ssrsub_27', server: 185.252.223.203, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.16675463.xyz}}
-  - {name: '@SSRSUB-V01-付费推荐:suo.yt/ssrsub_28', server: 156.234.95.72, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
-  - {name: '@SSRSUB-V52-付费推荐:suo.yt/ssrsub_29', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: '@SSRSUB-V29-付费推荐:suo.yt/ssrsub_30', server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: '@SSRSUB-V41-付费推荐:suo.yt/ssrsub_31', server: 8.210.55.79, port: 80, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8.210.55.79}}
-  - {name: 'WeVPN+GR+🇬🇷+Athens_32', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: 'WeVPN+CA+🇨🇦+Toronto_33', server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: '🇮🇳+India+8_34', server: 192.46.210.73, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇮🇳+India+9_35', server: 192.46.209.215, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇮🇳+India+13_36', server: 192.46.209.120, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'WeVPN+IL+🇮🇱+Tel+Aviv_37', server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: '🇭🇰+Hong+Kong+5_38', server: 118.107.244.113, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇭🇰+Hong+Kong+9_39', server: 118.107.244.113, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '🇭🇰+Hong+Kong+13_40', server: 118.107.244.109, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇭🇰+Hong+Kong+14_41', server: 118.107.244.109, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'WeVPN+JP+🇯🇵+Tokyo_42', server: 84.17.34.8, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm}
-  - {name: '🇰🇷+Korea,+Republic+of+58_43', server: 158.247.209.92, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇰🇷+Korea,+Republic+of+59_44', server: 141.164.49.240, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇰🇷+Korea,+Republic+of+27_45', server: 141.164.56.250, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇰🇷+Korea,+Republic+of+31_46', server: 141.164.56.250, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇰🇷+Korea,+Republic+of+4_47', server: 141.164.47.208, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇰🇷+Korea,+Republic+of+56_48', server: 158.247.209.92, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'WeVPN+NZ+🇳🇿+Auckland_49', server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
-  - {name: '🇰🇷+Korea,+Republic+of+33_50', server: 141.164.56.250, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇰🇷+Korea,+Republic+of+66_51', server: 141.164.56.110, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'WeVPN+VN+🇻🇳+Hanoi_52', server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
-  - {name: '🇰🇷+Korea,+Republic+of+12_53', server: 158.247.219.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇰🇷+Korea,+Republic+of+34_54', server: 158.247.227.123, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'WeVPN+TW+🇹🇼+Taipei_55', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: 'WeVPN+PH+🇵🇭+Manila_56', server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
-  - {name: '🇰🇷+Korea,+Republic+of+38_57', server: 158.247.227.123, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇰🇷+Korea,+Republic+of+67_58', server: 141.164.56.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇰🇷+Korea,+Republic+of+17_59', server: 158.247.223.116, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'WeVPN+ID+🇮🇩+Jakarta_60', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: 'WeVPN+KR+🇰🇷+Seoul_61', server: 169.56.83.206, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: V9eSCwLbC8xS97e3Brm3}
-  - {name: 'XY+VPN+Italy+🇮🇹+Milan+2_62', server: 185.213.21.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'XY+VPN+USA+🇺🇸+Dalas_63', server: 167.88.62.104, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'ufo+Australia+🇦🇺+Sydney_64', server: 66.203.112.53, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'UK+🇬🇧+London+2_65', server: 77.243.177.78, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Qu9b6jbYLF5Dtha3n7W2}
-  - {name: 'ITA+🇮🇹+Milan_66', server: 95.141.37.111, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ITA+🇮🇹+Milan+5_67', server: 185.213.21.6, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'GRC+🇬🇷+Athens_68', server: 185.51.134.210, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: 'UK 🇬🇧 London 77_69', server: 62.216.74.78, port: 16823, type: vmess, uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: 'NLD 🇳🇱 Amsterdam 8_70', server: 89.31.127.3, port: 16823, type: vmess, uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: 'NOR+🇳🇴+Kristiansand+4_71', server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'NOR+🇳🇴+Kristiansand+15_72', server: 46.29.218.146, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'FIN+🇫🇮+Helsinki+2_73', server: 185.212.149.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: SxFvGWWUtEjyQnGbggq2}
-  - {name: 'IND+🇮🇳+Mumbai+15_74', server: 192.46.209.146, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'IND+🇮🇳+Mumbai+4_75', server: 192.46.209.146, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'IND+🇮🇳+Mumbai+18_76', server: 192.46.209.146, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'ISR+🇮🇱+Tel+Aviv_77', server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: 'USA+🇺🇸+Tennessee_78', server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
-  - {name: 'IND+🇮🇳+Mumbai+8_79', server: 192.46.212.33, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'IND+🇮🇳+Mumbai_80', server: 192.46.210.73, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'IND+🇮🇳+Mumbai+13_81', server: 192.46.209.146, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'IND+🇮🇳+Mumbai+16_82', server: 192.46.210.73, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'USA+🇺🇸+California+2_83', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: 'CAN+🇨🇦+Beauharnois_84', server: 51.161.118.38, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'USA+🇺🇸+Arizona_85', server: 170.130.15.34, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: q8gsJVLZ5eYXU3uhmnbH}
-  - {name: 'IND+🇮🇳+Mumbai+11_86', server: 192.46.209.146, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'IND+🇮🇳+Mumbai+9_87', server: 192.46.212.33, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'JPN+🇯🇵+Tokyo+3_88', server: 89.31.125.216, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'IND+🇮🇳+Mumbai+5_89', server: 192.46.212.33, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'USA+🇺🇸+Washington_90', server: 104.140.21.178, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL}
-  - {name: 'IND+🇮🇳+Mumbai+22_91', server: 192.46.209.215, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'JPN+🇯🇵+Tokyo+19_92', server: 85.208.108.58, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'IND+🇮🇳+Mumbai+23_93', server: 192.46.210.73, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'JPN+🇯🇵+Tokyo+16_94', server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'HKG+🇭🇰+Central+6_95', server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'HKG+🇭🇰+Central+4_96', server: 118.107.244.113, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'HKG+🇭🇰+Central+7_97', server: 118.107.244.109, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'HKG+🇭🇰+Central+9_98', server: 118.107.244.113, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'HKG+🇭🇰+Central+5_99', server: 118.107.244.113, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'BRA+🇧🇷+Sao+Paulo_100', server: 177.54.152.89, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2GWsqE7Gr3nRMuuQZfFa}
-  - {name: 'KOR+🇰🇷+Seoul+93_101', server: 141.164.47.208, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'SNG+🇸🇬+Queenstown+Estate+2_102', server: 81.90.189.33, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
-  - {name: 'KOR+🇰🇷+Seoul+77_103', server: 158.247.223.116, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'KOR+🇰🇷+Seoul+6_104', server: 158.247.201.207, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'KOR+🇰🇷+Seoul+22_105', server: 158.247.213.165, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'KOR+🇰🇷+Seoul+49_106', server: 158.247.199.253, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'KOR+🇰🇷+Seoul+56_107', server: 158.247.200.56, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'KOR+🇰🇷+Seoul+36_108', server: 158.247.205.87, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'KOR+🇰🇷+Seoul+100_109', server: 141.164.52.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'KOR+🇰🇷+Seoul+78_110', server: 158.247.200.56, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'KOR+🇰🇷+Seoul+89_111', server: 158.247.208.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'KOR+🇰🇷+Seoul+66_112', server: 141.164.47.208, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'KOR+🇰🇷+Seoul+41_113', server: 158.247.205.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'KOR+🇰🇷+Seoul+106_114', server: 158.247.213.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'KOR+🇰🇷+Seoul+27_115', server: 158.247.205.87, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'KOR+🇰🇷+Seoul+48_116', server: 141.164.56.250, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'KOR+🇰🇷+Seoul+23_117', server: 141.164.47.208, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'KOR+🇰🇷+Seoul+7_118', server: 158.247.203.40, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'KOR+🇰🇷+Seoul+82_119', server: 158.247.209.92, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'KOR+🇰🇷+Seoul+94_120', server: 141.164.49.240, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'KOR+🇰🇷+Seoul+35_121', server: 158.247.203.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'KOR+🇰🇷+Seoul+50_122', server: 158.247.203.168, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'KOR+🇰🇷+Seoul+20_123', server: 158.247.199.253, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'KOR+🇰🇷+Seoul+98_124', server: 158.247.227.123, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'KOR+🇰🇷+Seoul+65_125', server: 141.164.46.233, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'KOR+🇰🇷+Seoul+14_126', server: 158.247.199.253, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'KOR+🇰🇷+Seoul+10_127', server: 158.247.223.116, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'KOR+🇰🇷+Seoul+61_128', server: 158.247.227.123, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'KOR+🇰🇷+Seoul+51_129', server: 158.247.205.108, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'KOR+🇰🇷+Seoul+69_130', server: 141.164.56.250, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'KOR+🇰🇷+Seoul+55_131', server: 141.164.59.168, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'KOR+🇰🇷+Seoul+68_132', server: 141.164.56.110, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'KOR+🇰🇷+Seoul+33_133', server: 158.247.200.56, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'KOR+🇰🇷+Seoul+67_134', server: 141.164.49.240, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'KOR+🇰🇷+Seoul+34_135', server: 158.247.203.40, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'KOR+🇰🇷+Seoul+72_136', server: 158.247.200.56, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'KOR+🇰🇷+Seoul+9_137', server: 158.247.208.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'KOR+🇰🇷+Seoul+47_138', server: 141.164.52.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'KOR+🇰🇷+Seoul+73_139', server: 158.247.200.56, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'KOR+🇰🇷+Seoul+88_140', server: 158.247.203.40, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'KOR+🇰🇷+Seoul+59_141', server: 158.247.213.165, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'KOR+🇰🇷+Seoul+91_142', server: 158.247.223.116, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'KOR+🇰🇷+Seoul+80_143', server: 158.247.203.40, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'KOR+🇰🇷+Seoul+42_144', server: 158.247.223.116, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'KOR+🇰🇷+Seoul+4_145', server: 141.164.56.250, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'KOR+🇰🇷+Seoul+18_146', server: 141.164.47.208, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'KOR+🇰🇷+Seoul+38_147', server: 158.247.208.21, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'KOR+🇰🇷+Seoul+105_148', server: 158.247.209.92, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'KOR+🇰🇷+Seoul+8_149', server: 158.247.203.168, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'KOR+🇰🇷+Seoul+86_150', server: 141.164.56.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'KOR+🇰🇷+Seoul+26_151', server: 158.247.203.168, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'KOR+🇰🇷+Seoul+24_152', server: 141.164.59.168, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'KOR+🇰🇷+Seoul+25_153', server: 158.247.201.207, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'KOR+🇰🇷+Seoul+76_154', server: 158.247.222.102, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'KOR+🇰🇷+Seoul+87_155', server: 158.247.199.253, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'KOR+🇰🇷+Seoul+15_156', server: 158.247.219.68, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'KOR+🇰🇷+Seoul+96_157', server: 158.247.213.165, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'KOR+🇰🇷+Seoul+40_158', server: 141.164.46.233, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'KOR+🇰🇷+Seoul+21_159', server: 158.247.203.40, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'KOR+🇰🇷+Seoul+75_160', server: 158.247.219.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'KOR+🇰🇷+Seoul+81_161', server: 158.247.205.87, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'KOR+🇰🇷+Seoul+71_162', server: 158.247.199.253, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'KOR+🇰🇷+Seoul+17_163', server: 141.164.42.236, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'KOR+🇰🇷+Seoul+108_164', server: 158.247.223.116, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'KOR+🇰🇷+Seoul+46_165', server: 141.164.47.208, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'KOR+🇰🇷+Seoul+102_166', server: 158.247.201.207, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'KOR+🇰🇷+Seoul+13_167', server: 141.164.59.168, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'KOR+🇰🇷+Seoul+79_168', server: 158.247.201.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'KOR+🇰🇷+Seoul+95_169', server: 158.247.209.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'KOR+🇰🇷+Seoul+90_170', server: 158.247.222.102, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'KOR+🇰🇷+Seoul+83_171', server: 158.247.219.68, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'KOR+🇰🇷+Seoul+53_172', server: 158.247.227.123, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'KOR+🇰🇷+Seoul+29_173', server: 158.247.222.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'KOR+🇰🇷+Seoul+60_174', server: 158.247.222.102, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'KOR+🇰🇷+Seoul+58_175', server: 158.247.208.21, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'KOR+🇰🇷+Seoul+103_176', server: 158.247.205.87, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'UK 🇬🇧 London 78_177', server: 62.216.80.11, port: 16823, type: vmess, uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: 'HKG+🇭🇰+Central+3_178', server: 118.107.244.109, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'NOR+🇳🇴+Kristiansand+13_179', server: 46.29.218.170, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'SNG+🇸🇬+Queenstown+Estate_180', server: 45.88.42.250, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '@proSSHbotUfoVPN-Singapore-QueenstownEstate_181', server: 81.90.189.184, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '@proSSHbotUfoVPN-Australia-Sydney_182', server: 66.203.112.53, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇫🇷+France+4+t.me/SurfShark_ALA_183', server: 95.142.161.161, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: X7EBlPe92tq6}
-  - {name: '📛+YouTube+without+ads+4+t.me/SurfShark_ALA_184', server: 92.243.24.236, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LE6Ee6PELhVu}
-  - {name: '📛+YouTube+without+ads+2+t.me/SurfShark_ALA_185', server: 167.86.82.191, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1z7k5IMlPsvk}
-  - {name: '🇬🇧+UK.London+2+t.me/SurfShark_ALA_186', server: 172.99.190.235, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇫🇷+France+5+t.me/SurfShark_ALA_187', server: 92.243.24.68, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bIS3QQFwFIm1}
-  - {name: '🇩🇪+Germany+8+t.me/SurfShark_ALA_188', server: 146.0.36.44, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '📛+YouTube+without+ads+5+t.me/SurfShark_ALA_189', server: 46.226.111.148, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: vPwCvtbOUMkb}
-  - {name: '📛+YouTube+without+ads+3+t.me/SurfShark_ALA_190', server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN}
-  - {name: '🇷🇺+Russia+2+t.me/SurfShark_ALA_191', server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
-  - {name: '🇺🇸+USA.Georgia.Atlanta+1+t.me/SurfShark_ALA_192', server: 104.223.91.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QKyLzp5JUG6XEGy2wbEE}
-  - {name: '🇺🇸+USA.Texas.Dallas+1+t.me/SurfShark_ALA_193', server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
-  - {name: '🇺🇸+USA.Denver+1+t.me/SurfShark_ALA_194', server: 70.39.71.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
-  - {name: '🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_195', server: 104.140.21.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL}
-  - {name: '🇯🇵+Japan+2+t.me/SurfShark_ALA_196', server: 5.181.5.136, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇦🇷+Argentina+1+t.me/SurfShark_ALA_197', server: 131.255.4.140, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: UHu5NzfXjuur52h9}
-  - {name: '🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_198', server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇧🇷+Brazil++1+t.me/SurfShark_ALA_199', server: 177.54.152.89, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2GWsqE7Gr3nRMuuQZfFa}
-  - {name: '🇰🇷+South+Korea+4+t.me/SurfShark_ALA_200', server: 158.247.200.56, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇰🇷+South+Korea+1+t.me/SurfShark_ALA_201', server: 158.247.200.56, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇦+Ukraine++1+t.me/SurfShark_ALA_202', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: 'Germany/@BN_CHANLL_203', server: 141.95.0.23, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Bosnia+and+Herzegovina/@BN_CHANLL+7_204', server: 185.99.3.205, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 'Canada/@BN_CHANLL+6_205', server: 51.161.118.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Canada/@BN_CHANLL+5_206', server: 51.161.118.38, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Canada/@BN_CHANLL+11_207', server: 51.161.118.38, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Canada/@BN_CHANLL+7_208', server: 51.161.118.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Canada/@BN_CHANLL+2_209', server: 51.161.118.38, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Canada/@BN_CHANLL+9_210', server: 51.161.118.38, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'United+States/@BN_CHANLL_211', server: 77.247.126.153, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'United+States/@BN_CHANLL+8_212', server: 77.247.126.153, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Canada/@BN_CHANLL+3_213', server: 51.161.118.38, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'United+States/@BN_CHANLL+3_214', server: 5.188.111.182, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'Singapore/@BN_CHANLL+2_215', server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
-  - {name: 'United+States/@BN_CHANLL+10_216', server: 66.55.92.75, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 6g8n89NARNcuTH2XvUtZ}
-  - {name: 'Japan/@BN_CHANLL_217', server: 185.160.24.217, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Japan/@BN_CHANLL+5_218', server: 185.160.24.217, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'United+States/@BN_CHANLL+19_219', server: 170.130.15.34, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q8gsJVLZ5eYXU3uhmnbH}
-  - {name: 'Malaysia/@BN_CHANLL_220', server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: 'Japan/@BN_CHANLL+3_221', server: 89.31.125.101, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'United+States/@BN_CHANLL+12_222', server: 169.62.109.140, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 74cf7gsXJgd9Z4MAW42L}
-  - {name: 'Mexico/@BN_CHANLL_223', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: 'Brazil/@BN_CHANLL+2_224', server: 177.54.150.39, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Brazil/@BN_CHANLL_225', server: 177.54.150.39, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Japan/@BN_CHANLL+2_226', server: 103.140.136.200, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Australia/@BN_CHANLL+3_227', server: 118.107.244.114, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Singapore/@BN_CHANLL_228', server: 81.90.188.167, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'India/@BN_CHANLL_229', server: 169.38.107.52, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
-  - {name: 'Australia/@BN_CHANLL+2_230', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Australia/@BN_CHANLL_231', server: 118.107.244.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'defaltName_232', server: 146.0.36.44, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇩🇪DE_278+|22.55Mb', server: 141.95.0.23, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇺🇸US_1709+|12.42Mb', server: 172.99.190.90, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇮🇹IT_476+|10.42Mb', server: 158.58.173.54, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇬🇧_GB_英国+3_236', server: 172.99.190.90, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇩🇪DE_291+|+7.08Mb', server: 146.0.36.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇩🇪DE_259+|18.25Mb', server: 146.0.36.23, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Pool_🇧🇦BA_46+|27.73Mb', server: 185.212.111.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 'defaltName_240', server: 172.99.190.246, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'WinForm+shadoW+30_241', server: 172.99.190.167, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇩🇪DE_300+|19.26Mb', server: 146.0.36.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Pool_🇧🇦BA_65+|24.40Mb', server: 185.99.3.108, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 'defaltName_244', server: 172.99.190.167, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '🇺🇸US_1604+|16.08Mb', server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇩🇪DE_289+|24.43Mb', server: 146.0.36.23, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Pool_🇧🇦BA_31+|17.17Mb', server: 185.99.3.7, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: '🇩🇪DE_296+|19.30Mb', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸US_1543+|+9.03Mb', server: 172.99.190.139, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'WinForm+shadoW+27_250', server: 172.99.190.139, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇩🇪DE_256+|21.46Mb', server: 141.95.0.23, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'WinForm+shadoW+31_252', server: 172.99.190.167, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸US_1548+|15.81Mb', server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸US_1489+|22.21Mb', server: 135.125.248.215, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇺🇸US_1578+|12.88Mb', server: 172.99.190.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸US_1713+|23.05Mb', server: 135.125.248.215, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇩🇪DE_295+|11.02Mb', server: 146.0.36.44, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇬🇧_GB_英国_258', server: 172.99.190.90, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'WinForm+shadoW+18_259', server: 146.0.36.44, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'WinForm+shadoW+34_260', server: 172.99.190.246, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Pool_🇧🇦BA_73+|24.00Mb', server: 185.99.3.108, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: '🇩🇪DE_279+|21.99Mb', server: 141.95.0.23, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Pool_🇧🇦BA_84+|25.39Mb', server: 185.99.3.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 'defaltName_264', server: 146.0.36.44, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'defaltName_265', server: 172.99.190.246, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Pool_🇧🇦BA_69+|23.28Mb', server: 185.99.3.108, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: '🇮🇹IT_475+|21.19Mb', server: 95.141.37.111, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Relay_🏁ZZ-🇬🇧GB_1995+|11.61Mb', server: 77.243.177.78, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Qu9b6jbYLF5Dtha3n7W2}
-  - {name: '🇺🇸US_1509+|23.12Mb', server: 135.125.248.215, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇩🇪DE_258+|10.54Mb', server: 146.0.36.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Pool_🇧🇦BA_79+|26.57Mb', server: 185.99.3.205, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: '🇬🇧_GB_英国+6_272', server: 172.99.190.90, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇩🇪DE_290+|22.76Mb', server: 141.95.0.23, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'WinForm+Germany+🇩🇪+Dusseldorf+1_274', server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇳🇴_NO_挪威+9_275', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'WinForm+shadoW+29_276', server: 172.99.190.139, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '🇩🇪DE_273+|22.26Mb', server: 141.95.0.23, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇺🇸US_1500+|+5.88Mb', server: 172.99.190.167, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Pool_🇧🇦BA_77+|23.38Mb', server: 185.99.3.108, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 'Pool_🇧🇦BA_50+|23.91Mb', server: 185.99.3.108, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 'Pool_🇧🇦BA_66+|24.23Mb', server: 185.99.3.108, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 'WinForm+shadoW+26_282', server: 172.99.190.139, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸US_989+|+8.99Mb', server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Pool_🇧🇦BA_68+|24.69Mb', server: 185.99.3.102, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 'Pool_🇧🇦BA_53+|24.12Mb', server: 185.99.3.108, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: '🇺🇸US_1402+|+8.37Mb', server: 172.99.190.246, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Pool_🇧🇦BA_80+|25.47Mb', server: 185.99.3.108, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 'Pool_🇧🇦BA_22+|24.76Mb', server: 185.99.3.108, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: '🇳🇴_NO_挪威+7_289', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇬🇧_GB_英国+2_290', server: 172.99.190.90, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'defaltName_291', server: 172.99.190.167, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'defaltName_292', server: 172.99.190.246, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇩🇪DE_288+|22.30Mb', server: 141.95.0.23, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇺🇸US_1539+|15.81Mb', server: 172.99.190.139, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇳🇴NO_626+|12.30Mb', server: 46.29.219.246, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Pool_🇧🇦BA_36+|23.67Mb', server: 185.99.3.108, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: '🇺🇸US_1404+|+9.25Mb', server: 172.99.190.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸US_992+|+7.55Mb', server: 172.99.190.167, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇳🇴NO_610+|23.88Mb', server: 46.29.218.170, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'Pool_🇧🇦BA_74+|24.25Mb', server: 185.99.3.108, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 'Pool_🇧🇦BA_28+|25.49Mb', server: 185.99.3.108, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 'Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb', server: 45.152.183.242, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: '🇩🇪DE_281+|21.57Mb', server: 141.95.0.23, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb', server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
-  - {name: '🇺🇸US_1330+|+4.83Mb', server: 172.99.190.167, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Pool_🇧🇦BA_30+|17.70Mb', server: 185.99.3.108, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 'WinForm+Italy_307', server: 158.58.173.240, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇩🇪DE_285+|22.19Mb', server: 141.95.0.23, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇺🇸US_1366+|+9.30Mb', server: 172.99.190.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Pool_🇧🇦BA_44+|23.90Mb', server: 185.99.3.108, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: '🇳🇴_NO_挪威+8_311', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'WinForm+shadoW+38_312', server: 46.29.218.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'WinForm+shadoW+42_313', server: 46.29.218.170, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'Relay_🇪🇸ES-🇪🇸ES_312+|37.73Mb', server: 45.152.183.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: 'defaltName_315', server: 172.99.190.246, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'default_name+2_316', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'Pool_🇧🇦BA_57+|23.71Mb', server: 185.99.3.108, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 'Pool_🇧🇦BA_56+|23.81Mb', server: 185.99.3.108, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: '🇫🇷FR_325+|26.74Mb', server: 213.167.242.16, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: BDybfjpcRuiW}
-  - {name: 'Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb', server: 86.105.25.162, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK}
-  - {name: '🇩🇪DE_280+|22.26Mb', server: 141.95.0.23, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇺🇸US_1494+|+7.92Mb', server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Pool_🇧🇦BA_35+|25.74Mb', server: 185.99.3.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 'WinForm+shadoW+43_324', server: 46.29.219.246, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'WinForm+shadoW+46_325', server: 46.29.219.246, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'defaltName_326', server: 172.99.190.167, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'WinForm+shadoW+28_327', server: 172.99.190.139, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Pool_🇧🇦BA_71+|23.42Mb', server: 185.99.3.108, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
-  - {name: '🇳🇴NO_611+|20.16Mb', server: 46.29.219.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Pool_🇧🇦BA_60+|24.58Mb', server: 185.99.3.108, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 'Pool_🇧🇦BA_67+|14.87Mb', server: 185.99.3.214, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 'Pool_🇧🇦BA_75+|24.86Mb', server: 185.99.3.108, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: '🇳🇴_NO_挪威+12_333', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Pool_🇧🇦BA_21+|26.46Mb', server: 185.212.111.59, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 'WinForm+shadoW+39_335', server: 46.29.218.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'Pool_🇧🇦BA_34+|26.74Mb', server: 185.212.111.59, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 'Pool_🇧🇦BA_78+|22.75Mb', server: 185.99.3.108, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 'Pool_🇧🇦BA_61+|25.78Mb', server: 185.99.3.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 'defaltName_339', server: 46.29.219.246, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇳🇴_NO_挪威+1_340', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸US_1706+|+8.82Mb', server: 172.99.190.90, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇮🇹IT_480+|20.95Mb', server: 95.141.37.111, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇳🇴_NO_挪威+6_343', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇮🇹IT_477+|10.42Mb', server: 158.58.173.54, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'WinForm+shadoW+44_345', server: 46.29.219.246, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'defaltName_346', server: 46.29.218.170, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Pool_🇧🇦BA_37+|17.41Mb', server: 185.99.3.7, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 'defaltName_348', server: 46.29.218.146, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇬🇧_GB_英国+4_349', server: 172.99.190.90, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Pool_🇧🇦BA_82+|26.60Mb', server: 185.212.111.59, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 'Pool_🇧🇦BA_81+|17.08Mb', server: 185.99.3.108, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 'WinForm+shadoW+32_352', server: 172.99.190.246, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Pool_🇧🇦BA_42+|26.37Mb', server: 185.99.3.102, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: '🇩🇪DE_293+|22.31Mb', server: 141.95.0.23, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Pool_🇧🇦BA_51+|25.15Mb', server: 185.99.3.7, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 'Pool_🇧🇦BA_41+|24.53Mb', server: 185.99.3.108, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 'WinForm+shadoW+33_357', server: 172.99.190.246, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Pool_🇧🇦BA_58+|26.57Mb', server: 185.99.3.102, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: '🇩🇪DE_277+|22.10Mb', server: 141.95.0.23, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇳🇴_NO_挪威+5_360', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'defaltName_361', server: 172.99.190.167, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'WinForm+NOR+🇳🇴+Kristiansad_362', server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Pool_🇧🇦BA_33+|23.52Mb', server: 185.99.3.108, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: '🇳🇴NO_624+|22.15Mb', server: 46.29.218.170, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Pool_🇧🇦BA_70+|24.56Mb', server: 185.99.3.108, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 'ufo+United+Kingdom+🇬🇧+London+5_366', server: 92.223.59.188, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Pool_🇧🇦BA_47+|21.32Mb', server: 185.99.3.108, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: '🇺🇸US_1102+|+8.39Mb', server: 172.99.190.90, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸US_1660+|+7.32Mb', server: 172.99.190.139, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Pool_🇧🇦BA_23+|21.79Mb', server: 185.99.3.108, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 'defaltName_371', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Pool_🇧🇦BA_43+|10.42Mb', server: 185.99.3.214, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 'Pool_🇧🇦BA_63+|24.25Mb', server: 185.99.3.108, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: '🇬🇧_GB_英国+1_374', server: 172.99.190.90, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇵🇹_PT_葡萄牙+1_375', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: '🇳🇴_NO_挪威+11_376', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇳🇴NO_619+|25.69Mb', server: 46.29.218.146, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'defaltName_378', server: 172.99.190.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸US_861+|+7.21Mb', server: 172.99.190.139, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Relay_🇷🇴RO-🇷🇴RO_667+|27.50Mb', server: 86.105.25.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK}
-  - {name: 'Pool_🇧🇦BA_72+|26.85Mb', server: 185.212.111.59, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 'Pool_🇧🇦BA_40+|20.58Mb', server: 185.99.3.7, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: '🇵🇱PL_643+|21.69Mb', server: 5.188.108.155, port: 890, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
-  - {name: 'defaltName_384', server: 46.29.218.170, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇵🇱PL_653+|20.03Mb', server: 5.188.108.155, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
-  - {name: '🇳🇴NO_612+|+5.62Mb', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Pool_🇧🇦BA_76+|23.69Mb', server: 185.99.3.108, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 'default_name+5_388', server: 185.212.149.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: SxFvGWWUtEjyQnGbggq2}
-  - {name: 'default_name+8_389', server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: '🇳🇴_NO_挪威+10_390', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇬🇧_GB_英国+5_391', server: 172.99.190.90, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'default_name+7_392', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'WinForm+shadoW+45_393', server: 46.29.219.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇳🇴_NO_挪威+3_394', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇵🇹_PT_葡萄牙_395', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: '🇳🇴NO_614+|12.23Mb', server: 46.29.219.246, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸US_1517+|14.57Mb', server: 172.99.190.167, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Pool_🇧🇦BA_25+|21.51Mb', server: 185.99.3.7, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: '🇺🇸_US_美国+5_399', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: 'WinForm+SS5_400', server: 92.38.169.196, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'WinForm+shadoW+41_401', server: 46.29.218.146, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '🇺🇸_US_美国+6_402', server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: '🇳🇴_NO_挪威+4_403', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸US_1625+|+7.31Mb', server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇩🇪DE_286+|22.88Mb', server: 146.0.36.23, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇭🇰_HK_香港_1', server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0}
+  - {name: '🇺🇸_US_美国_2', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: '🇺🇸_US_美国_3', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: '🇺🇸_US_美国_4', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
+  - {name: '🇩🇪_DE_德国_5', server: 172.105.244.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇩🇪_DE_德国_6', server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇩🇪_DE_德国_7', server: 172.105.244.165, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_8', server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: '🇧🇬_BG_保加利亚_9', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: '🇺🇸_US_美国_10', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '🇺🇸_US_美国_11', server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
+  - {name: '🇨🇦_CA_加拿大_12', server: 134.195.196.51, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13', server: 172.67.144.181, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
+  - {name: '🇩🇪_DE_德国_14', server: 172.105.244.165, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_15', server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/}
+  - {name: '🇭🇰_HK_香港_16', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'default_name_17', server: 104.21.62.193, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
+  - {name: '🇵🇹_PT_葡萄牙_18', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: '🇨🇦_CA_加拿大_19', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_20', server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: '🇩🇪_DE_德国_21', server: 172.105.244.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇳🇴_NO_挪威_22', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇫🇷_FR_法国_23', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇳🇴_NO_挪威_24', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇲🇽_MX_墨西哥_25', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
+  - {name: '🇳🇴_NO_挪威_26', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇳_CN_中国->🇹🇼_TW_台湾_27', server: 120.232.82.190, port: 3002, type: ss, cipher: aes-256-gcm, password: 16b33a734063d5bb793634198ca90b73}
+  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_28', server: 120.232.82.190, port: 4001, type: ss, cipher: aes-256-gcm, password: 43e27d84de893cced5b4d6adfd087cff}
+  - {name: '🇭🇰_HK_香港_29', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_30', server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9}
+  - {name: '🇭🇰_HK_香港_31', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_32', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_33', server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_34', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_35', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_36', server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_37', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: '🇨🇦_CA_加拿大_38', server: 134.195.196.51, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇬🇧_GB_英国_39', server: 86.106.136.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: h6WG7sxsLTBGn7uyvMG8}
+  - {name: '🇺🇸_US_美国_40', server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_41', server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_42', server: 167.88.62.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇯🇵_JP_日本_43', server: 172.105.234.211, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇨🇦_CA_加拿大_44', server: 134.195.196.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_45', server: 142.202.48.43, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇩🇪_DE_德国_46', server: 193.108.118.182, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_47', server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_48', server: 142.202.48.43, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_49', server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: '🇺🇸_US_美国_50', server: 108.165.196.212, port: 2340, type: ss, cipher: aes-256-gcm, password: 81d7d46b9c66c779e81b83bc594df5eb}
+  - {name: 'default_name_51', server: 134.195.198.250, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_52', server: 134.195.196.217, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸_US_美国_53', server: 38.68.135.19, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_54', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: '🇺🇸_US_美国_55', server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
+  - {name: '🇨🇦_CA_加拿大_56', server: 198.57.27.191, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_57', server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_58', server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_59', server: 142.202.48.114, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_60', server: 169.197.142.250, port: 2800, type: ss, cipher: aes-256-gcm, password: d3bbe88595e1dfaa2c9085aa9bdaf3e4}
+  - {name: '🇺🇸_US_美国_61', server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_62', server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_63', server: 142.202.48.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_64', server: 142.202.48.43, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_65', server: 142.202.48.99, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_66', server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_67', server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_68', server: 134.195.198.178, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_69', server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'default_name_70', server: 172.99.190.230, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_71', server: 142.202.48.43, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_72', server: 134.195.196.51, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸_US_美国_73', server: 142.202.48.43, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_74', server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_75', server: 142.202.48.43, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_76', server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_77', server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_78', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_79', server: 142.202.48.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_80', server: 134.195.196.199, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_81', server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇩🇰_DK_丹麦_82', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: '🇺🇸_US_美国_83', server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_84', server: 167.160.91.131, port: 2948, type: ss, cipher: aes-256-gcm, password: c9ff20111b73874292da92cc4166421e}
+  - {name: '🇺🇸_US_美国_85', server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_86', server: 142.202.48.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_87', server: 167.88.63.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_88', server: 134.195.198.178, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_89', server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_90', server: 142.202.48.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_91', server: 142.202.48.43, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦_CA_加拿大_92', server: 198.57.27.184, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_93', server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_94', server: 142.202.48.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_95', server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB_英国_96', server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇩🇪_DE_德国_97', server: 172.105.244.165, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇬🇧_GB_英国_98', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇬🇧_GB_英国_99', server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_GB_英国_100', server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_GB_英国_101', server: 172.99.190.230, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_102', server: 142.202.48.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_103', server: 142.202.48.43, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦_CA_加拿大_104', server: 198.57.27.233, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇬🇧_GB_英国_105', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇩🇪_DE_德国_106', server: 172.105.244.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_107', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '🇺🇸_US_美国_108', server: 142.202.48.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_GB_英国_109', server: 172.99.190.139, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇦_UA_乌克兰_110', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: '🇨🇦_CA_加拿大_111', server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB_英国_112', server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_113', server: 134.195.196.51, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_114', server: 38.107.226.48, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_115', server: 134.195.196.51, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_116', server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇷🇴_RO_罗马尼亚_117', server: 185.233.150.6, port: 18760, type: ss, cipher: aes-256-gcm, password: hg49$WH8943g3}
+  - {name: '🇬🇧_GB_英国_118', server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_GB_英国_119', server: 172.99.190.139, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇬🇧_GB_英国_120', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇦🇺_AU_澳大利亚_121', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇩🇪_DE_德国_122', server: 146.0.36.44, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇬🇧_GB_英国_123', server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_124', server: 134.195.198.178, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'default_name_125', server: 198.57.27.225, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_126', server: 142.202.48.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_127', server: 38.107.226.48, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇻🇳_VN_越南_128', server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: 'default_name_129', server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
+  - {name: '🇦🇺_AU_澳大利亚_130', server: 192.53.169.116, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'default_name_131', server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: '🇬🇧_GB_英国_132', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇩🇪_DE_德国_133', server: 146.0.36.44, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_134', server: 142.202.48.43, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_135', server: 134.195.196.36, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇦_UA_乌克兰_136', server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: '🇬🇧_GB_英国_137', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇸🇪_SE_瑞典_138', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: '🇩🇪_DE_德国_139', server: 172.105.244.165, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇵🇹_PT_葡萄牙_140', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: '🇫🇷_FR_法国_141', server: 46.226.111.148, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: vPwCvtbOUMkb}
+  - {name: '🇦🇺_AU_澳大利亚_142', server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_143', server: 172.67.176.114, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: '🇺🇸_US_美国_144', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 'default_name_145', server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
+  - {name: '🇨🇦_CA_加拿大_146', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'default_name_147', server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
+  - {name: 'default_name_148', server: 104.21.62.193, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_149', server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: '🇺🇸_US_美国_150', server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_151', server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: '🇭🇰_HK_香港_152', server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_153', server: free-russian02-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
+  - {name: '🇨🇦_CA_加拿大_154', server: 134.195.196.51, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_155', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_156', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: '🇨🇦_CA_加拿大_157', server: 134.195.196.217, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇮🇳_IN_印度_158', server: 192.46.210.73, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇮🇳_IN_印度_159', server: 192.46.210.73, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_160', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇺🇸_US_美国_161', server: 142.202.48.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇫🇷_FR_法国_162', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦_CA_加拿大_163', server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_GB_英国_164', server: 172.99.190.230, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_165', server: 172.67.138.170, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
+  - {name: '🇩🇪_DE_德国_166', server: 172.105.244.165, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇬🇧_GB_英国_167', server: 172.99.190.139, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇮🇳_IN_印度_168', server: 192.46.210.73, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇮🇳_IN_印度_169', server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: '🇺🇸_US_美国_170', server: 38.121.43.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇯🇵_JP_日本_171', server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇭🇰_HK_香港->🇮🇳_IN_印度_172', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
+  - {name: '🇨🇦_CA_加拿大_173', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇮🇳_IN_印度_174', server: 192.46.210.73, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇫🇷_FR_法国_175', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇯🇵_JP_日本_176', server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇳🇴_NO_挪威_177', server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: '🇫🇷_FR_法国_178', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_179', server: api.ssfree.ru, port: 443, type: vmess, uuid: 62fbeb5a-6409-11ec-a7e0-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /getweather}
+  - {name: '🇨🇦_CA_加拿大_180', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇮🇳_IN_印度_181', server: 192.46.210.73, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇫🇷_FR_法国_182', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_183', server: 66.55.92.75, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 6g8n89NARNcuTH2XvUtZ}
+  - {name: '🇺🇸_US_美国_184', server: 38.107.226.48, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇮🇳_IN_印度_185', server: 172.105.41.63, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇲🇾_MY_马来西亚_186', server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
+  - {name: '🇨🇦_CA_加拿大_187', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇷_FR_法国_188', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇫🇷_FR_法国_189', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_190', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇫🇷_FR_法国_191', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: '🇧🇦_BA_波黑_192', server: 185.212.111.59, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: '🇳🇴_NO_挪威_193', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇫🇷_FR_法国_194', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '🇺🇸_US_美国_195', server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
+  - {name: '🇨🇦_CA_加拿大_196', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇳🇴_NO_挪威_197', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇫🇷_FR_法国_198', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇦🇪_AE_阿联酋_199', server: 217.138.193.6, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇫🇷_FR_法国_200', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇫🇷_FR_法国_201', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇮🇩_ID_印度尼西亚_202', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: '🇬🇷_GR_希腊_203', server: 185.51.134.210, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: '🇳🇴_NO_挪威_204', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇦🇪_AE_阿联酋_205', server: 217.138.193.6, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇳🇴_NO_挪威_206', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇷_FR_法国_207', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇳🇴_NO_挪威_208', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_209', server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: '🇫🇷_FR_法国_210', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_211', server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
+  - {name: '🇨🇦_CA_加拿大_212', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇳🇴_NO_挪威_213', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_214', server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_215', server: 38.75.136.116, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇫🇷_FR_法国_216', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '🇺🇸_US_美国_217', server: 38.114.114.67, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_218', server: 167.88.62.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_219', server: 38.75.136.102, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_220', server: 198.57.27.233, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_221', server: 134.195.196.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_222', server: 142.202.48.114, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_223', server: 142.202.48.114, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_224', server: 134.195.196.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦_CA_加拿大_225', server: 198.57.27.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_226', server: 198.57.27.233, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_227', server: 198.57.27.184, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇬🇧_GB_英国_228', server: 172.99.190.7, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB_英国_229', server: 172.99.190.7, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇬🇧_GB_英国_230', server: 172.99.190.35, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_231', server: 167.88.61.2, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇳🇴_NO_挪威_232', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_233', server: 134.195.198.250, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇳🇴_NO_挪威_234', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_235', server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: '🇳🇴_NO_挪威_236', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇳🇴_NO_挪威_237', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇬🇷_GR_希腊_238', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺+@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub_1
-      - 🇷🇺+@SSRSUB-俄罗斯T11-付费推荐:dlj.tf/ssrsub_2
-      - 🇷🇺+@SSRSUB-俄罗斯T05-付费推荐:dlj.tf/ssrsub_3
-      - 🇷🇺+@SSRSUB-俄罗斯T06-付费推荐:dlj.tf/ssrsub_4
-      - 🇷🇺+@SSRSUB-俄罗斯T07-付费推荐:dlj.tf/ssrsub_5
-      - 🇷🇺+@SSRSUB-俄罗斯T01-付费推荐:dlj.tf/ssrsub_6
-      - @SSRSUB-V32-付费推荐:suo.yt/ssrsub_7
-      - @SSRSUB-V35-付费推荐:suo.yt/ssrsub_8
-      - @SSRSUB-V21-付费推荐:suo.yt/ssrsub_9
-      - 🇨🇦+@SSRSUB-加拿大T03-付费推荐:dlj.tf/ssrsub_10
-      - 🇨🇦+@SSRSUB-加拿大T09-付费推荐:dlj.tf/ssrsub_11
-      - @SSRSUB-V37-付费推荐:suo.yt/ssrsub_12
-      - @SSRSUB-V51-付费推荐:suo.yt/ssrsub_13
-      - @SSRSUB-V31-付费推荐:suo.yt/ssrsub_14
-      - @SSRSUB-V25-付费推荐:suo.yt/ssrsub_15
-      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_16
-      - @SSRSUB-V49-付费推荐:suo.yt/ssrsub_17
-      - @SSRSUB-V02-付费推荐:suo.yt/ssrsub_18
-      - 🇷🇺+@SSRSUB-俄罗斯T02-付费推荐:dlj.tf/ssrsub_19
-      - @SSRSUB-V38-付费推荐:suo.yt/ssrsub_20
-      - @SSRSUB-V47-付费推荐:suo.yt/ssrsub_21
-      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_22
-      - @SSRSUB-V10-付费推荐:suo.yt/ssrsub_23
-      - @SSRSUB-V33-付费推荐:suo.yt/ssrsub_24
-      - 🇷🇺+@SSRSUB-俄罗斯T08-付费推荐:dlj.tf/ssrsub_25
-      - @SSRSUB-V46-付费推荐:suo.yt/ssrsub_26
-      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_27
-      - @SSRSUB-V01-付费推荐:suo.yt/ssrsub_28
-      - @SSRSUB-V52-付费推荐:suo.yt/ssrsub_29
-      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_30
-      - @SSRSUB-V41-付费推荐:suo.yt/ssrsub_31
-      - WeVPN+GR+🇬🇷+Athens_32
-      - WeVPN+CA+🇨🇦+Toronto_33
-      - 🇮🇳+India+8_34
-      - 🇮🇳+India+9_35
-      - 🇮🇳+India+13_36
-      - WeVPN+IL+🇮🇱+Tel+Aviv_37
-      - 🇭🇰+Hong+Kong+5_38
-      - 🇭🇰+Hong+Kong+9_39
-      - 🇭🇰+Hong+Kong+13_40
-      - 🇭🇰+Hong+Kong+14_41
-      - WeVPN+JP+🇯🇵+Tokyo_42
-      - 🇰🇷+Korea,+Republic+of+58_43
-      - 🇰🇷+Korea,+Republic+of+59_44
-      - 🇰🇷+Korea,+Republic+of+27_45
-      - 🇰🇷+Korea,+Republic+of+31_46
-      - 🇰🇷+Korea,+Republic+of+4_47
-      - 🇰🇷+Korea,+Republic+of+56_48
-      - WeVPN+NZ+🇳🇿+Auckland_49
-      - 🇰🇷+Korea,+Republic+of+33_50
-      - 🇰🇷+Korea,+Republic+of+66_51
-      - WeVPN+VN+🇻🇳+Hanoi_52
-      - 🇰🇷+Korea,+Republic+of+12_53
-      - 🇰🇷+Korea,+Republic+of+34_54
-      - WeVPN+TW+🇹🇼+Taipei_55
-      - WeVPN+PH+🇵🇭+Manila_56
-      - 🇰🇷+Korea,+Republic+of+38_57
-      - 🇰🇷+Korea,+Republic+of+67_58
-      - 🇰🇷+Korea,+Republic+of+17_59
-      - WeVPN+ID+🇮🇩+Jakarta_60
-      - WeVPN+KR+🇰🇷+Seoul_61
-      - XY+VPN+Italy+🇮🇹+Milan+2_62
-      - XY+VPN+USA+🇺🇸+Dalas_63
-      - ufo+Australia+🇦🇺+Sydney_64
-      - UK+🇬🇧+London+2_65
-      - ITA+🇮🇹+Milan_66
-      - ITA+🇮🇹+Milan+5_67
-      - GRC+🇬🇷+Athens_68
-      - UK 🇬🇧 London 77_69
-      - NLD 🇳🇱 Amsterdam 8_70
-      - NOR+🇳🇴+Kristiansand+4_71
-      - NOR+🇳🇴+Kristiansand+15_72
-      - FIN+🇫🇮+Helsinki+2_73
-      - IND+🇮🇳+Mumbai+15_74
-      - IND+🇮🇳+Mumbai+4_75
-      - IND+🇮🇳+Mumbai+18_76
-      - ISR+🇮🇱+Tel+Aviv_77
-      - USA+🇺🇸+Tennessee_78
-      - IND+🇮🇳+Mumbai+8_79
-      - IND+🇮🇳+Mumbai_80
-      - IND+🇮🇳+Mumbai+13_81
-      - IND+🇮🇳+Mumbai+16_82
-      - USA+🇺🇸+California+2_83
-      - CAN+🇨🇦+Beauharnois_84
-      - USA+🇺🇸+Arizona_85
-      - IND+🇮🇳+Mumbai+11_86
-      - IND+🇮🇳+Mumbai+9_87
-      - JPN+🇯🇵+Tokyo+3_88
-      - IND+🇮🇳+Mumbai+5_89
-      - USA+🇺🇸+Washington_90
-      - IND+🇮🇳+Mumbai+22_91
-      - JPN+🇯🇵+Tokyo+19_92
-      - IND+🇮🇳+Mumbai+23_93
-      - JPN+🇯🇵+Tokyo+16_94
-      - HKG+🇭🇰+Central+6_95
-      - HKG+🇭🇰+Central+4_96
-      - HKG+🇭🇰+Central+7_97
-      - HKG+🇭🇰+Central+9_98
-      - HKG+🇭🇰+Central+5_99
-      - BRA+🇧🇷+Sao+Paulo_100
-      - KOR+🇰🇷+Seoul+93_101
-      - SNG+🇸🇬+Queenstown+Estate+2_102
-      - KOR+🇰🇷+Seoul+77_103
-      - KOR+🇰🇷+Seoul+6_104
-      - KOR+🇰🇷+Seoul+22_105
-      - KOR+🇰🇷+Seoul+49_106
-      - KOR+🇰🇷+Seoul+56_107
-      - KOR+🇰🇷+Seoul+36_108
-      - KOR+🇰🇷+Seoul+100_109
-      - KOR+🇰🇷+Seoul+78_110
-      - KOR+🇰🇷+Seoul+89_111
-      - KOR+🇰🇷+Seoul+66_112
-      - KOR+🇰🇷+Seoul+41_113
-      - KOR+🇰🇷+Seoul+106_114
-      - KOR+🇰🇷+Seoul+27_115
-      - KOR+🇰🇷+Seoul+48_116
-      - KOR+🇰🇷+Seoul+23_117
-      - KOR+🇰🇷+Seoul+7_118
-      - KOR+🇰🇷+Seoul+82_119
-      - KOR+🇰🇷+Seoul+94_120
-      - KOR+🇰🇷+Seoul+35_121
-      - KOR+🇰🇷+Seoul+50_122
-      - KOR+🇰🇷+Seoul+20_123
-      - KOR+🇰🇷+Seoul+98_124
-      - KOR+🇰🇷+Seoul+65_125
-      - KOR+🇰🇷+Seoul+14_126
-      - KOR+🇰🇷+Seoul+10_127
-      - KOR+🇰🇷+Seoul+61_128
-      - KOR+🇰🇷+Seoul+51_129
-      - KOR+🇰🇷+Seoul+69_130
-      - KOR+🇰🇷+Seoul+55_131
-      - KOR+🇰🇷+Seoul+68_132
-      - KOR+🇰🇷+Seoul+33_133
-      - KOR+🇰🇷+Seoul+67_134
-      - KOR+🇰🇷+Seoul+34_135
-      - KOR+🇰🇷+Seoul+72_136
-      - KOR+🇰🇷+Seoul+9_137
-      - KOR+🇰🇷+Seoul+47_138
-      - KOR+🇰🇷+Seoul+73_139
-      - KOR+🇰🇷+Seoul+88_140
-      - KOR+🇰🇷+Seoul+59_141
-      - KOR+🇰🇷+Seoul+91_142
-      - KOR+🇰🇷+Seoul+80_143
-      - KOR+🇰🇷+Seoul+42_144
-      - KOR+🇰🇷+Seoul+4_145
-      - KOR+🇰🇷+Seoul+18_146
-      - KOR+🇰🇷+Seoul+38_147
-      - KOR+🇰🇷+Seoul+105_148
-      - KOR+🇰🇷+Seoul+8_149
-      - KOR+🇰🇷+Seoul+86_150
-      - KOR+🇰🇷+Seoul+26_151
-      - KOR+🇰🇷+Seoul+24_152
-      - KOR+🇰🇷+Seoul+25_153
-      - KOR+🇰🇷+Seoul+76_154
-      - KOR+🇰🇷+Seoul+87_155
-      - KOR+🇰🇷+Seoul+15_156
-      - KOR+🇰🇷+Seoul+96_157
-      - KOR+🇰🇷+Seoul+40_158
-      - KOR+🇰🇷+Seoul+21_159
-      - KOR+🇰🇷+Seoul+75_160
-      - KOR+🇰🇷+Seoul+81_161
-      - KOR+🇰🇷+Seoul+71_162
-      - KOR+🇰🇷+Seoul+17_163
-      - KOR+🇰🇷+Seoul+108_164
-      - KOR+🇰🇷+Seoul+46_165
-      - KOR+🇰🇷+Seoul+102_166
-      - KOR+🇰🇷+Seoul+13_167
-      - KOR+🇰🇷+Seoul+79_168
-      - KOR+🇰🇷+Seoul+95_169
-      - KOR+🇰🇷+Seoul+90_170
-      - KOR+🇰🇷+Seoul+83_171
-      - KOR+🇰🇷+Seoul+53_172
-      - KOR+🇰🇷+Seoul+29_173
-      - KOR+🇰🇷+Seoul+60_174
-      - KOR+🇰🇷+Seoul+58_175
-      - KOR+🇰🇷+Seoul+103_176
-      - UK 🇬🇧 London 78_177
-      - HKG+🇭🇰+Central+3_178
-      - NOR+🇳🇴+Kristiansand+13_179
-      - SNG+🇸🇬+Queenstown+Estate_180
-      - @proSSHbotUfoVPN-Singapore-QueenstownEstate_181
-      - @proSSHbotUfoVPN-Australia-Sydney_182
-      - 🇫🇷+France+4+t.me/SurfShark_ALA_183
-      - 📛+YouTube+without+ads+4+t.me/SurfShark_ALA_184
-      - 📛+YouTube+without+ads+2+t.me/SurfShark_ALA_185
-      - 🇬🇧+UK.London+2+t.me/SurfShark_ALA_186
-      - 🇫🇷+France+5+t.me/SurfShark_ALA_187
-      - 🇩🇪+Germany+8+t.me/SurfShark_ALA_188
-      - 📛+YouTube+without+ads+5+t.me/SurfShark_ALA_189
-      - 📛+YouTube+without+ads+3+t.me/SurfShark_ALA_190
-      - 🇷🇺+Russia+2+t.me/SurfShark_ALA_191
-      - 🇺🇸+USA.Georgia.Atlanta+1+t.me/SurfShark_ALA_192
-      - 🇺🇸+USA.Texas.Dallas+1+t.me/SurfShark_ALA_193
-      - 🇺🇸+USA.Denver+1+t.me/SurfShark_ALA_194
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_195
-      - 🇯🇵+Japan+2+t.me/SurfShark_ALA_196
-      - 🇦🇷+Argentina+1+t.me/SurfShark_ALA_197
-      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_198
-      - 🇧🇷+Brazil++1+t.me/SurfShark_ALA_199
-      - 🇰🇷+South+Korea+4+t.me/SurfShark_ALA_200
-      - 🇰🇷+South+Korea+1+t.me/SurfShark_ALA_201
-      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_202
-      - Germany/@BN_CHANLL_203
-      - Bosnia+and+Herzegovina/@BN_CHANLL+7_204
-      - Canada/@BN_CHANLL+6_205
-      - Canada/@BN_CHANLL+5_206
-      - Canada/@BN_CHANLL+11_207
-      - Canada/@BN_CHANLL+7_208
-      - Canada/@BN_CHANLL+2_209
-      - Canada/@BN_CHANLL+9_210
-      - United+States/@BN_CHANLL_211
-      - United+States/@BN_CHANLL+8_212
-      - Canada/@BN_CHANLL+3_213
-      - United+States/@BN_CHANLL+3_214
-      - Singapore/@BN_CHANLL+2_215
-      - United+States/@BN_CHANLL+10_216
-      - Japan/@BN_CHANLL_217
-      - Japan/@BN_CHANLL+5_218
-      - United+States/@BN_CHANLL+19_219
-      - Malaysia/@BN_CHANLL_220
-      - Japan/@BN_CHANLL+3_221
-      - United+States/@BN_CHANLL+12_222
-      - Mexico/@BN_CHANLL_223
-      - Brazil/@BN_CHANLL+2_224
-      - Brazil/@BN_CHANLL_225
-      - Japan/@BN_CHANLL+2_226
-      - Australia/@BN_CHANLL+3_227
-      - Singapore/@BN_CHANLL_228
-      - India/@BN_CHANLL_229
-      - Australia/@BN_CHANLL+2_230
-      - Australia/@BN_CHANLL_231
-      - defaltName_232
-      - 🇩🇪DE_278+|22.55Mb
-      - 🇺🇸US_1709+|12.42Mb
-      - 🇮🇹IT_476+|10.42Mb
-      - 🇬🇧_GB_英国+3_236
-      - 🇩🇪DE_291+|+7.08Mb
-      - 🇩🇪DE_259+|18.25Mb
-      - Pool_🇧🇦BA_46+|27.73Mb
-      - defaltName_240
-      - WinForm+shadoW+30_241
-      - 🇩🇪DE_300+|19.26Mb
-      - Pool_🇧🇦BA_65+|24.40Mb
-      - defaltName_244
-      - 🇺🇸US_1604+|16.08Mb
-      - 🇩🇪DE_289+|24.43Mb
-      - Pool_🇧🇦BA_31+|17.17Mb
-      - 🇩🇪DE_296+|19.30Mb
-      - 🇺🇸US_1543+|+9.03Mb
-      - WinForm+shadoW+27_250
-      - 🇩🇪DE_256+|21.46Mb
-      - WinForm+shadoW+31_252
-      - 🇺🇸US_1548+|15.81Mb
-      - 🇺🇸US_1489+|22.21Mb
-      - 🇺🇸US_1578+|12.88Mb
-      - 🇺🇸US_1713+|23.05Mb
-      - 🇩🇪DE_295+|11.02Mb
-      - 🇬🇧_GB_英国_258
-      - WinForm+shadoW+18_259
-      - WinForm+shadoW+34_260
-      - Pool_🇧🇦BA_73+|24.00Mb
-      - 🇩🇪DE_279+|21.99Mb
-      - Pool_🇧🇦BA_84+|25.39Mb
-      - defaltName_264
-      - defaltName_265
-      - Pool_🇧🇦BA_69+|23.28Mb
-      - 🇮🇹IT_475+|21.19Mb
-      - Relay_🏁ZZ-🇬🇧GB_1995+|11.61Mb
-      - 🇺🇸US_1509+|23.12Mb
-      - 🇩🇪DE_258+|10.54Mb
-      - Pool_🇧🇦BA_79+|26.57Mb
-      - 🇬🇧_GB_英国+6_272
-      - 🇩🇪DE_290+|22.76Mb
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_274
-      - 🇳🇴_NO_挪威+9_275
-      - WinForm+shadoW+29_276
-      - 🇩🇪DE_273+|22.26Mb
-      - 🇺🇸US_1500+|+5.88Mb
-      - Pool_🇧🇦BA_77+|23.38Mb
-      - Pool_🇧🇦BA_50+|23.91Mb
-      - Pool_🇧🇦BA_66+|24.23Mb
-      - WinForm+shadoW+26_282
-      - 🇺🇸US_989+|+8.99Mb
-      - Pool_🇧🇦BA_68+|24.69Mb
-      - Pool_🇧🇦BA_53+|24.12Mb
-      - 🇺🇸US_1402+|+8.37Mb
-      - Pool_🇧🇦BA_80+|25.47Mb
-      - Pool_🇧🇦BA_22+|24.76Mb
-      - 🇳🇴_NO_挪威+7_289
-      - 🇬🇧_GB_英国+2_290
-      - defaltName_291
-      - defaltName_292
-      - 🇩🇪DE_288+|22.30Mb
-      - 🇺🇸US_1539+|15.81Mb
-      - 🇳🇴NO_626+|12.30Mb
-      - Pool_🇧🇦BA_36+|23.67Mb
-      - 🇺🇸US_1404+|+9.25Mb
-      - 🇺🇸US_992+|+7.55Mb
-      - 🇳🇴NO_610+|23.88Mb
-      - Pool_🇧🇦BA_74+|24.25Mb
-      - Pool_🇧🇦BA_28+|25.49Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - 🇩🇪DE_281+|21.57Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - 🇺🇸US_1330+|+4.83Mb
-      - Pool_🇧🇦BA_30+|17.70Mb
-      - WinForm+Italy_307
-      - 🇩🇪DE_285+|22.19Mb
-      - 🇺🇸US_1366+|+9.30Mb
-      - Pool_🇧🇦BA_44+|23.90Mb
-      - 🇳🇴_NO_挪威+8_311
-      - WinForm+shadoW+38_312
-      - WinForm+shadoW+42_313
-      - Relay_🇪🇸ES-🇪🇸ES_312+|37.73Mb
-      - defaltName_315
-      - default_name+2_316
-      - Pool_🇧🇦BA_57+|23.71Mb
-      - Pool_🇧🇦BA_56+|23.81Mb
-      - 🇫🇷FR_325+|26.74Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - 🇩🇪DE_280+|22.26Mb
-      - 🇺🇸US_1494+|+7.92Mb
-      - Pool_🇧🇦BA_35+|25.74Mb
-      - WinForm+shadoW+43_324
-      - WinForm+shadoW+46_325
-      - defaltName_326
-      - WinForm+shadoW+28_327
-      - Pool_🇧🇦BA_71+|23.42Mb
-      - 🇳🇴NO_611+|20.16Mb
-      - Pool_🇧🇦BA_60+|24.58Mb
-      - Pool_🇧🇦BA_67+|14.87Mb
-      - Pool_🇧🇦BA_75+|24.86Mb
-      - 🇳🇴_NO_挪威+12_333
-      - Pool_🇧🇦BA_21+|26.46Mb
-      - WinForm+shadoW+39_335
-      - Pool_🇧🇦BA_34+|26.74Mb
-      - Pool_🇧🇦BA_78+|22.75Mb
-      - Pool_🇧🇦BA_61+|25.78Mb
-      - defaltName_339
-      - 🇳🇴_NO_挪威+1_340
-      - 🇺🇸US_1706+|+8.82Mb
-      - 🇮🇹IT_480+|20.95Mb
-      - 🇳🇴_NO_挪威+6_343
-      - 🇮🇹IT_477+|10.42Mb
-      - WinForm+shadoW+44_345
-      - defaltName_346
-      - Pool_🇧🇦BA_37+|17.41Mb
-      - defaltName_348
-      - 🇬🇧_GB_英国+4_349
-      - Pool_🇧🇦BA_82+|26.60Mb
-      - Pool_🇧🇦BA_81+|17.08Mb
-      - WinForm+shadoW+32_352
-      - Pool_🇧🇦BA_42+|26.37Mb
-      - 🇩🇪DE_293+|22.31Mb
-      - Pool_🇧🇦BA_51+|25.15Mb
-      - Pool_🇧🇦BA_41+|24.53Mb
-      - WinForm+shadoW+33_357
-      - Pool_🇧🇦BA_58+|26.57Mb
-      - 🇩🇪DE_277+|22.10Mb
-      - 🇳🇴_NO_挪威+5_360
-      - defaltName_361
-      - WinForm+NOR+🇳🇴+Kristiansad_362
-      - Pool_🇧🇦BA_33+|23.52Mb
-      - 🇳🇴NO_624+|22.15Mb
-      - Pool_🇧🇦BA_70+|24.56Mb
-      - ufo+United+Kingdom+🇬🇧+London+5_366
-      - Pool_🇧🇦BA_47+|21.32Mb
-      - 🇺🇸US_1102+|+8.39Mb
-      - 🇺🇸US_1660+|+7.32Mb
-      - Pool_🇧🇦BA_23+|21.79Mb
-      - defaltName_371
-      - Pool_🇧🇦BA_43+|10.42Mb
-      - Pool_🇧🇦BA_63+|24.25Mb
-      - 🇬🇧_GB_英国+1_374
-      - 🇵🇹_PT_葡萄牙+1_375
-      - 🇳🇴_NO_挪威+11_376
-      - 🇳🇴NO_619+|25.69Mb
-      - defaltName_378
-      - 🇺🇸US_861+|+7.21Mb
-      - Relay_🇷🇴RO-🇷🇴RO_667+|27.50Mb
-      - Pool_🇧🇦BA_72+|26.85Mb
-      - Pool_🇧🇦BA_40+|20.58Mb
-      - 🇵🇱PL_643+|21.69Mb
-      - defaltName_384
-      - 🇵🇱PL_653+|20.03Mb
-      - 🇳🇴NO_612+|+5.62Mb
-      - Pool_🇧🇦BA_76+|23.69Mb
-      - default_name+5_388
-      - default_name+8_389
-      - 🇳🇴_NO_挪威+10_390
-      - 🇬🇧_GB_英国+5_391
-      - default_name+7_392
-      - WinForm+shadoW+45_393
-      - 🇳🇴_NO_挪威+3_394
-      - 🇵🇹_PT_葡萄牙_395
-      - 🇳🇴NO_614+|12.23Mb
-      - 🇺🇸US_1517+|14.57Mb
-      - Pool_🇧🇦BA_25+|21.51Mb
-      - 🇺🇸_US_美国+5_399
-      - WinForm+SS5_400
-      - WinForm+shadoW+41_401
-      - 🇺🇸_US_美国+6_402
-      - 🇳🇴_NO_挪威+4_403
-      - 🇺🇸US_1625+|+7.31Mb
-      - 🇩🇪DE_286+|22.88Mb
+      - 🇭🇰_HK_香港_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
+      - 🇩🇪_DE_德国_14
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_15
+      - 🇭🇰_HK_香港_16
+      - default_name_17
+      - 🇵🇹_PT_葡萄牙_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇺🇸_US_美国_20
+      - 🇩🇪_DE_德国_21
+      - 🇳🇴_NO_挪威_22
+      - 🇫🇷_FR_法国_23
+      - 🇳🇴_NO_挪威_24
+      - 🇲🇽_MX_墨西哥_25
+      - 🇳🇴_NO_挪威_26
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_27
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_28
+      - 🇭🇰_HK_香港_29
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_30
+      - 🇭🇰_HK_香港_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇬🇧_GB_英国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇯🇵_JP_日本_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - default_name_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇺🇸_US_美国_69
+      - default_name_70
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇺🇸_US_美国_73
+      - 🇨🇦_CA_加拿大_74
+      - 🇺🇸_US_美国_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇺🇸_US_美国_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇨🇦_CA_加拿大_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇩🇰_DK_丹麦_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇨🇦_CA_加拿大_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇸_US_美国_94
+      - 🇨🇦_CA_加拿大_95
+      - 🇬🇧_GB_英国_96
+      - 🇩🇪_DE_德国_97
+      - 🇬🇧_GB_英国_98
+      - 🇬🇧_GB_英国_99
+      - 🇬🇧_GB_英国_100
+      - 🇬🇧_GB_英国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇨🇦_CA_加拿大_104
+      - 🇬🇧_GB_英国_105
+      - 🇩🇪_DE_德国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇺🇦_UA_乌克兰_110
+      - 🇨🇦_CA_加拿大_111
+      - 🇬🇧_GB_英国_112
+      - 🇨🇦_CA_加拿大_113
+      - 🇺🇸_US_美国_114
+      - 🇨🇦_CA_加拿大_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇷🇴_RO_罗马尼亚_117
+      - 🇬🇧_GB_英国_118
+      - 🇬🇧_GB_英国_119
+      - 🇬🇧_GB_英国_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇩🇪_DE_德国_122
+      - 🇬🇧_GB_英国_123
+      - 🇨🇦_CA_加拿大_124
+      - default_name_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇻🇳_VN_越南_128
+      - default_name_129
+      - 🇦🇺_AU_澳大利亚_130
+      - default_name_131
+      - 🇬🇧_GB_英国_132
+      - 🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇺🇦_UA_乌克兰_136
+      - 🇬🇧_GB_英国_137
+      - 🇸🇪_SE_瑞典_138
+      - 🇩🇪_DE_德国_139
+      - 🇵🇹_PT_葡萄牙_140
+      - 🇫🇷_FR_法国_141
+      - 🇦🇺_AU_澳大利亚_142
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_143
+      - 🇺🇸_US_美国_144
+      - default_name_145
+      - 🇨🇦_CA_加拿大_146
+      - default_name_147
+      - default_name_148
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇭🇰_HK_香港_152
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_153
+      - 🇨🇦_CA_加拿大_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇺🇸_US_美国_156
+      - 🇨🇦_CA_加拿大_157
+      - 🇮🇳_IN_印度_158
+      - 🇮🇳_IN_印度_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇫🇷_FR_法国_162
+      - 🇨🇦_CA_加拿大_163
+      - 🇬🇧_GB_英国_164
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_165
+      - 🇩🇪_DE_德国_166
+      - 🇬🇧_GB_英国_167
+      - 🇮🇳_IN_印度_168
+      - 🇮🇳_IN_印度_169
+      - 🇺🇸_US_美国_170
+      - 🇯🇵_JP_日本_171
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_172
+      - 🇨🇦_CA_加拿大_173
+      - 🇮🇳_IN_印度_174
+      - 🇫🇷_FR_法国_175
+      - 🇯🇵_JP_日本_176
+      - 🇳🇴_NO_挪威_177
+      - 🇫🇷_FR_法国_178
+      - 🇺🇸_US_美国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇮🇳_IN_印度_181
+      - 🇫🇷_FR_法国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇮🇳_IN_印度_185
+      - 🇲🇾_MY_马来西亚_186
+      - 🇨🇦_CA_加拿大_187
+      - 🇫🇷_FR_法国_188
+      - 🇫🇷_FR_法国_189
+      - 🇺🇸_US_美国_190
+      - 🇫🇷_FR_法国_191
+      - 🇧🇦_BA_波黑_192
+      - 🇳🇴_NO_挪威_193
+      - 🇫🇷_FR_法国_194
+      - 🇺🇸_US_美国_195
+      - 🇨🇦_CA_加拿大_196
+      - 🇳🇴_NO_挪威_197
+      - 🇫🇷_FR_法国_198
+      - 🇦🇪_AE_阿联酋_199
+      - 🇫🇷_FR_法国_200
+      - 🇫🇷_FR_法国_201
+      - 🇮🇩_ID_印度尼西亚_202
+      - 🇬🇷_GR_希腊_203
+      - 🇳🇴_NO_挪威_204
+      - 🇦🇪_AE_阿联酋_205
+      - 🇳🇴_NO_挪威_206
+      - 🇫🇷_FR_法国_207
+      - 🇳🇴_NO_挪威_208
+      - 🇺🇸_US_美国_209
+      - 🇫🇷_FR_法国_210
+      - 🇺🇸_US_美国_211
+      - 🇨🇦_CA_加拿大_212
+      - 🇳🇴_NO_挪威_213
+      - 🇺🇸_US_美国_214
+      - 🇺🇸_US_美国_215
+      - 🇫🇷_FR_法国_216
+      - 🇺🇸_US_美国_217
+      - 🇺🇸_US_美国_218
+      - 🇺🇸_US_美国_219
+      - 🇨🇦_CA_加拿大_220
+      - 🇨🇦_CA_加拿大_221
+      - 🇺🇸_US_美国_222
+      - 🇺🇸_US_美国_223
+      - 🇨🇦_CA_加拿大_224
+      - 🇨🇦_CA_加拿大_225
+      - 🇨🇦_CA_加拿大_226
+      - 🇨🇦_CA_加拿大_227
+      - 🇬🇧_GB_英国_228
+      - 🇬🇧_GB_英国_229
+      - 🇬🇧_GB_英国_230
+      - 🇺🇸_US_美国_231
+      - 🇳🇴_NO_挪威_232
+      - 🇨🇦_CA_加拿大_233
+      - 🇳🇴_NO_挪威_234
+      - 🇨🇦_CA_加拿大_235
+      - 🇳🇴_NO_挪威_236
+      - 🇳🇴_NO_挪威_237
+      - 🇬🇷_GR_希腊_238
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇷🇺+@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub_1
-      - 🇷🇺+@SSRSUB-俄罗斯T11-付费推荐:dlj.tf/ssrsub_2
-      - 🇷🇺+@SSRSUB-俄罗斯T05-付费推荐:dlj.tf/ssrsub_3
-      - 🇷🇺+@SSRSUB-俄罗斯T06-付费推荐:dlj.tf/ssrsub_4
-      - 🇷🇺+@SSRSUB-俄罗斯T07-付费推荐:dlj.tf/ssrsub_5
-      - 🇷🇺+@SSRSUB-俄罗斯T01-付费推荐:dlj.tf/ssrsub_6
-      - @SSRSUB-V32-付费推荐:suo.yt/ssrsub_7
-      - @SSRSUB-V35-付费推荐:suo.yt/ssrsub_8
-      - @SSRSUB-V21-付费推荐:suo.yt/ssrsub_9
-      - 🇨🇦+@SSRSUB-加拿大T03-付费推荐:dlj.tf/ssrsub_10
-      - 🇨🇦+@SSRSUB-加拿大T09-付费推荐:dlj.tf/ssrsub_11
-      - @SSRSUB-V37-付费推荐:suo.yt/ssrsub_12
-      - @SSRSUB-V51-付费推荐:suo.yt/ssrsub_13
-      - @SSRSUB-V31-付费推荐:suo.yt/ssrsub_14
-      - @SSRSUB-V25-付费推荐:suo.yt/ssrsub_15
-      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_16
-      - @SSRSUB-V49-付费推荐:suo.yt/ssrsub_17
-      - @SSRSUB-V02-付费推荐:suo.yt/ssrsub_18
-      - 🇷🇺+@SSRSUB-俄罗斯T02-付费推荐:dlj.tf/ssrsub_19
-      - @SSRSUB-V38-付费推荐:suo.yt/ssrsub_20
-      - @SSRSUB-V47-付费推荐:suo.yt/ssrsub_21
-      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_22
-      - @SSRSUB-V10-付费推荐:suo.yt/ssrsub_23
-      - @SSRSUB-V33-付费推荐:suo.yt/ssrsub_24
-      - 🇷🇺+@SSRSUB-俄罗斯T08-付费推荐:dlj.tf/ssrsub_25
-      - @SSRSUB-V46-付费推荐:suo.yt/ssrsub_26
-      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_27
-      - @SSRSUB-V01-付费推荐:suo.yt/ssrsub_28
-      - @SSRSUB-V52-付费推荐:suo.yt/ssrsub_29
-      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_30
-      - @SSRSUB-V41-付费推荐:suo.yt/ssrsub_31
-      - WeVPN+GR+🇬🇷+Athens_32
-      - WeVPN+CA+🇨🇦+Toronto_33
-      - 🇮🇳+India+8_34
-      - 🇮🇳+India+9_35
-      - 🇮🇳+India+13_36
-      - WeVPN+IL+🇮🇱+Tel+Aviv_37
-      - 🇭🇰+Hong+Kong+5_38
-      - 🇭🇰+Hong+Kong+9_39
-      - 🇭🇰+Hong+Kong+13_40
-      - 🇭🇰+Hong+Kong+14_41
-      - WeVPN+JP+🇯🇵+Tokyo_42
-      - 🇰🇷+Korea,+Republic+of+58_43
-      - 🇰🇷+Korea,+Republic+of+59_44
-      - 🇰🇷+Korea,+Republic+of+27_45
-      - 🇰🇷+Korea,+Republic+of+31_46
-      - 🇰🇷+Korea,+Republic+of+4_47
-      - 🇰🇷+Korea,+Republic+of+56_48
-      - WeVPN+NZ+🇳🇿+Auckland_49
-      - 🇰🇷+Korea,+Republic+of+33_50
-      - 🇰🇷+Korea,+Republic+of+66_51
-      - WeVPN+VN+🇻🇳+Hanoi_52
-      - 🇰🇷+Korea,+Republic+of+12_53
-      - 🇰🇷+Korea,+Republic+of+34_54
-      - WeVPN+TW+🇹🇼+Taipei_55
-      - WeVPN+PH+🇵🇭+Manila_56
-      - 🇰🇷+Korea,+Republic+of+38_57
-      - 🇰🇷+Korea,+Republic+of+67_58
-      - 🇰🇷+Korea,+Republic+of+17_59
-      - WeVPN+ID+🇮🇩+Jakarta_60
-      - WeVPN+KR+🇰🇷+Seoul_61
-      - XY+VPN+Italy+🇮🇹+Milan+2_62
-      - XY+VPN+USA+🇺🇸+Dalas_63
-      - ufo+Australia+🇦🇺+Sydney_64
-      - UK+🇬🇧+London+2_65
-      - ITA+🇮🇹+Milan_66
-      - ITA+🇮🇹+Milan+5_67
-      - GRC+🇬🇷+Athens_68
-      - UK 🇬🇧 London 77_69
-      - NLD 🇳🇱 Amsterdam 8_70
-      - NOR+🇳🇴+Kristiansand+4_71
-      - NOR+🇳🇴+Kristiansand+15_72
-      - FIN+🇫🇮+Helsinki+2_73
-      - IND+🇮🇳+Mumbai+15_74
-      - IND+🇮🇳+Mumbai+4_75
-      - IND+🇮🇳+Mumbai+18_76
-      - ISR+🇮🇱+Tel+Aviv_77
-      - USA+🇺🇸+Tennessee_78
-      - IND+🇮🇳+Mumbai+8_79
-      - IND+🇮🇳+Mumbai_80
-      - IND+🇮🇳+Mumbai+13_81
-      - IND+🇮🇳+Mumbai+16_82
-      - USA+🇺🇸+California+2_83
-      - CAN+🇨🇦+Beauharnois_84
-      - USA+🇺🇸+Arizona_85
-      - IND+🇮🇳+Mumbai+11_86
-      - IND+🇮🇳+Mumbai+9_87
-      - JPN+🇯🇵+Tokyo+3_88
-      - IND+🇮🇳+Mumbai+5_89
-      - USA+🇺🇸+Washington_90
-      - IND+🇮🇳+Mumbai+22_91
-      - JPN+🇯🇵+Tokyo+19_92
-      - IND+🇮🇳+Mumbai+23_93
-      - JPN+🇯🇵+Tokyo+16_94
-      - HKG+🇭🇰+Central+6_95
-      - HKG+🇭🇰+Central+4_96
-      - HKG+🇭🇰+Central+7_97
-      - HKG+🇭🇰+Central+9_98
-      - HKG+🇭🇰+Central+5_99
-      - BRA+🇧🇷+Sao+Paulo_100
-      - KOR+🇰🇷+Seoul+93_101
-      - SNG+🇸🇬+Queenstown+Estate+2_102
-      - KOR+🇰🇷+Seoul+77_103
-      - KOR+🇰🇷+Seoul+6_104
-      - KOR+🇰🇷+Seoul+22_105
-      - KOR+🇰🇷+Seoul+49_106
-      - KOR+🇰🇷+Seoul+56_107
-      - KOR+🇰🇷+Seoul+36_108
-      - KOR+🇰🇷+Seoul+100_109
-      - KOR+🇰🇷+Seoul+78_110
-      - KOR+🇰🇷+Seoul+89_111
-      - KOR+🇰🇷+Seoul+66_112
-      - KOR+🇰🇷+Seoul+41_113
-      - KOR+🇰🇷+Seoul+106_114
-      - KOR+🇰🇷+Seoul+27_115
-      - KOR+🇰🇷+Seoul+48_116
-      - KOR+🇰🇷+Seoul+23_117
-      - KOR+🇰🇷+Seoul+7_118
-      - KOR+🇰🇷+Seoul+82_119
-      - KOR+🇰🇷+Seoul+94_120
-      - KOR+🇰🇷+Seoul+35_121
-      - KOR+🇰🇷+Seoul+50_122
-      - KOR+🇰🇷+Seoul+20_123
-      - KOR+🇰🇷+Seoul+98_124
-      - KOR+🇰🇷+Seoul+65_125
-      - KOR+🇰🇷+Seoul+14_126
-      - KOR+🇰🇷+Seoul+10_127
-      - KOR+🇰🇷+Seoul+61_128
-      - KOR+🇰🇷+Seoul+51_129
-      - KOR+🇰🇷+Seoul+69_130
-      - KOR+🇰🇷+Seoul+55_131
-      - KOR+🇰🇷+Seoul+68_132
-      - KOR+🇰🇷+Seoul+33_133
-      - KOR+🇰🇷+Seoul+67_134
-      - KOR+🇰🇷+Seoul+34_135
-      - KOR+🇰🇷+Seoul+72_136
-      - KOR+🇰🇷+Seoul+9_137
-      - KOR+🇰🇷+Seoul+47_138
-      - KOR+🇰🇷+Seoul+73_139
-      - KOR+🇰🇷+Seoul+88_140
-      - KOR+🇰🇷+Seoul+59_141
-      - KOR+🇰🇷+Seoul+91_142
-      - KOR+🇰🇷+Seoul+80_143
-      - KOR+🇰🇷+Seoul+42_144
-      - KOR+🇰🇷+Seoul+4_145
-      - KOR+🇰🇷+Seoul+18_146
-      - KOR+🇰🇷+Seoul+38_147
-      - KOR+🇰🇷+Seoul+105_148
-      - KOR+🇰🇷+Seoul+8_149
-      - KOR+🇰🇷+Seoul+86_150
-      - KOR+🇰🇷+Seoul+26_151
-      - KOR+🇰🇷+Seoul+24_152
-      - KOR+🇰🇷+Seoul+25_153
-      - KOR+🇰🇷+Seoul+76_154
-      - KOR+🇰🇷+Seoul+87_155
-      - KOR+🇰🇷+Seoul+15_156
-      - KOR+🇰🇷+Seoul+96_157
-      - KOR+🇰🇷+Seoul+40_158
-      - KOR+🇰🇷+Seoul+21_159
-      - KOR+🇰🇷+Seoul+75_160
-      - KOR+🇰🇷+Seoul+81_161
-      - KOR+🇰🇷+Seoul+71_162
-      - KOR+🇰🇷+Seoul+17_163
-      - KOR+🇰🇷+Seoul+108_164
-      - KOR+🇰🇷+Seoul+46_165
-      - KOR+🇰🇷+Seoul+102_166
-      - KOR+🇰🇷+Seoul+13_167
-      - KOR+🇰🇷+Seoul+79_168
-      - KOR+🇰🇷+Seoul+95_169
-      - KOR+🇰🇷+Seoul+90_170
-      - KOR+🇰🇷+Seoul+83_171
-      - KOR+🇰🇷+Seoul+53_172
-      - KOR+🇰🇷+Seoul+29_173
-      - KOR+🇰🇷+Seoul+60_174
-      - KOR+🇰🇷+Seoul+58_175
-      - KOR+🇰🇷+Seoul+103_176
-      - UK 🇬🇧 London 78_177
-      - HKG+🇭🇰+Central+3_178
-      - NOR+🇳🇴+Kristiansand+13_179
-      - SNG+🇸🇬+Queenstown+Estate_180
-      - @proSSHbotUfoVPN-Singapore-QueenstownEstate_181
-      - @proSSHbotUfoVPN-Australia-Sydney_182
-      - 🇫🇷+France+4+t.me/SurfShark_ALA_183
-      - 📛+YouTube+without+ads+4+t.me/SurfShark_ALA_184
-      - 📛+YouTube+without+ads+2+t.me/SurfShark_ALA_185
-      - 🇬🇧+UK.London+2+t.me/SurfShark_ALA_186
-      - 🇫🇷+France+5+t.me/SurfShark_ALA_187
-      - 🇩🇪+Germany+8+t.me/SurfShark_ALA_188
-      - 📛+YouTube+without+ads+5+t.me/SurfShark_ALA_189
-      - 📛+YouTube+without+ads+3+t.me/SurfShark_ALA_190
-      - 🇷🇺+Russia+2+t.me/SurfShark_ALA_191
-      - 🇺🇸+USA.Georgia.Atlanta+1+t.me/SurfShark_ALA_192
-      - 🇺🇸+USA.Texas.Dallas+1+t.me/SurfShark_ALA_193
-      - 🇺🇸+USA.Denver+1+t.me/SurfShark_ALA_194
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_195
-      - 🇯🇵+Japan+2+t.me/SurfShark_ALA_196
-      - 🇦🇷+Argentina+1+t.me/SurfShark_ALA_197
-      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_198
-      - 🇧🇷+Brazil++1+t.me/SurfShark_ALA_199
-      - 🇰🇷+South+Korea+4+t.me/SurfShark_ALA_200
-      - 🇰🇷+South+Korea+1+t.me/SurfShark_ALA_201
-      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_202
-      - Germany/@BN_CHANLL_203
-      - Bosnia+and+Herzegovina/@BN_CHANLL+7_204
-      - Canada/@BN_CHANLL+6_205
-      - Canada/@BN_CHANLL+5_206
-      - Canada/@BN_CHANLL+11_207
-      - Canada/@BN_CHANLL+7_208
-      - Canada/@BN_CHANLL+2_209
-      - Canada/@BN_CHANLL+9_210
-      - United+States/@BN_CHANLL_211
-      - United+States/@BN_CHANLL+8_212
-      - Canada/@BN_CHANLL+3_213
-      - United+States/@BN_CHANLL+3_214
-      - Singapore/@BN_CHANLL+2_215
-      - United+States/@BN_CHANLL+10_216
-      - Japan/@BN_CHANLL_217
-      - Japan/@BN_CHANLL+5_218
-      - United+States/@BN_CHANLL+19_219
-      - Malaysia/@BN_CHANLL_220
-      - Japan/@BN_CHANLL+3_221
-      - United+States/@BN_CHANLL+12_222
-      - Mexico/@BN_CHANLL_223
-      - Brazil/@BN_CHANLL+2_224
-      - Brazil/@BN_CHANLL_225
-      - Japan/@BN_CHANLL+2_226
-      - Australia/@BN_CHANLL+3_227
-      - Singapore/@BN_CHANLL_228
-      - India/@BN_CHANLL_229
-      - Australia/@BN_CHANLL+2_230
-      - Australia/@BN_CHANLL_231
-      - defaltName_232
-      - 🇩🇪DE_278+|22.55Mb
-      - 🇺🇸US_1709+|12.42Mb
-      - 🇮🇹IT_476+|10.42Mb
-      - 🇬🇧_GB_英国+3_236
-      - 🇩🇪DE_291+|+7.08Mb
-      - 🇩🇪DE_259+|18.25Mb
-      - Pool_🇧🇦BA_46+|27.73Mb
-      - defaltName_240
-      - WinForm+shadoW+30_241
-      - 🇩🇪DE_300+|19.26Mb
-      - Pool_🇧🇦BA_65+|24.40Mb
-      - defaltName_244
-      - 🇺🇸US_1604+|16.08Mb
-      - 🇩🇪DE_289+|24.43Mb
-      - Pool_🇧🇦BA_31+|17.17Mb
-      - 🇩🇪DE_296+|19.30Mb
-      - 🇺🇸US_1543+|+9.03Mb
-      - WinForm+shadoW+27_250
-      - 🇩🇪DE_256+|21.46Mb
-      - WinForm+shadoW+31_252
-      - 🇺🇸US_1548+|15.81Mb
-      - 🇺🇸US_1489+|22.21Mb
-      - 🇺🇸US_1578+|12.88Mb
-      - 🇺🇸US_1713+|23.05Mb
-      - 🇩🇪DE_295+|11.02Mb
-      - 🇬🇧_GB_英国_258
-      - WinForm+shadoW+18_259
-      - WinForm+shadoW+34_260
-      - Pool_🇧🇦BA_73+|24.00Mb
-      - 🇩🇪DE_279+|21.99Mb
-      - Pool_🇧🇦BA_84+|25.39Mb
-      - defaltName_264
-      - defaltName_265
-      - Pool_🇧🇦BA_69+|23.28Mb
-      - 🇮🇹IT_475+|21.19Mb
-      - Relay_🏁ZZ-🇬🇧GB_1995+|11.61Mb
-      - 🇺🇸US_1509+|23.12Mb
-      - 🇩🇪DE_258+|10.54Mb
-      - Pool_🇧🇦BA_79+|26.57Mb
-      - 🇬🇧_GB_英国+6_272
-      - 🇩🇪DE_290+|22.76Mb
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_274
-      - 🇳🇴_NO_挪威+9_275
-      - WinForm+shadoW+29_276
-      - 🇩🇪DE_273+|22.26Mb
-      - 🇺🇸US_1500+|+5.88Mb
-      - Pool_🇧🇦BA_77+|23.38Mb
-      - Pool_🇧🇦BA_50+|23.91Mb
-      - Pool_🇧🇦BA_66+|24.23Mb
-      - WinForm+shadoW+26_282
-      - 🇺🇸US_989+|+8.99Mb
-      - Pool_🇧🇦BA_68+|24.69Mb
-      - Pool_🇧🇦BA_53+|24.12Mb
-      - 🇺🇸US_1402+|+8.37Mb
-      - Pool_🇧🇦BA_80+|25.47Mb
-      - Pool_🇧🇦BA_22+|24.76Mb
-      - 🇳🇴_NO_挪威+7_289
-      - 🇬🇧_GB_英国+2_290
-      - defaltName_291
-      - defaltName_292
-      - 🇩🇪DE_288+|22.30Mb
-      - 🇺🇸US_1539+|15.81Mb
-      - 🇳🇴NO_626+|12.30Mb
-      - Pool_🇧🇦BA_36+|23.67Mb
-      - 🇺🇸US_1404+|+9.25Mb
-      - 🇺🇸US_992+|+7.55Mb
-      - 🇳🇴NO_610+|23.88Mb
-      - Pool_🇧🇦BA_74+|24.25Mb
-      - Pool_🇧🇦BA_28+|25.49Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - 🇩🇪DE_281+|21.57Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - 🇺🇸US_1330+|+4.83Mb
-      - Pool_🇧🇦BA_30+|17.70Mb
-      - WinForm+Italy_307
-      - 🇩🇪DE_285+|22.19Mb
-      - 🇺🇸US_1366+|+9.30Mb
-      - Pool_🇧🇦BA_44+|23.90Mb
-      - 🇳🇴_NO_挪威+8_311
-      - WinForm+shadoW+38_312
-      - WinForm+shadoW+42_313
-      - Relay_🇪🇸ES-🇪🇸ES_312+|37.73Mb
-      - defaltName_315
-      - default_name+2_316
-      - Pool_🇧🇦BA_57+|23.71Mb
-      - Pool_🇧🇦BA_56+|23.81Mb
-      - 🇫🇷FR_325+|26.74Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - 🇩🇪DE_280+|22.26Mb
-      - 🇺🇸US_1494+|+7.92Mb
-      - Pool_🇧🇦BA_35+|25.74Mb
-      - WinForm+shadoW+43_324
-      - WinForm+shadoW+46_325
-      - defaltName_326
-      - WinForm+shadoW+28_327
-      - Pool_🇧🇦BA_71+|23.42Mb
-      - 🇳🇴NO_611+|20.16Mb
-      - Pool_🇧🇦BA_60+|24.58Mb
-      - Pool_🇧🇦BA_67+|14.87Mb
-      - Pool_🇧🇦BA_75+|24.86Mb
-      - 🇳🇴_NO_挪威+12_333
-      - Pool_🇧🇦BA_21+|26.46Mb
-      - WinForm+shadoW+39_335
-      - Pool_🇧🇦BA_34+|26.74Mb
-      - Pool_🇧🇦BA_78+|22.75Mb
-      - Pool_🇧🇦BA_61+|25.78Mb
-      - defaltName_339
-      - 🇳🇴_NO_挪威+1_340
-      - 🇺🇸US_1706+|+8.82Mb
-      - 🇮🇹IT_480+|20.95Mb
-      - 🇳🇴_NO_挪威+6_343
-      - 🇮🇹IT_477+|10.42Mb
-      - WinForm+shadoW+44_345
-      - defaltName_346
-      - Pool_🇧🇦BA_37+|17.41Mb
-      - defaltName_348
-      - 🇬🇧_GB_英国+4_349
-      - Pool_🇧🇦BA_82+|26.60Mb
-      - Pool_🇧🇦BA_81+|17.08Mb
-      - WinForm+shadoW+32_352
-      - Pool_🇧🇦BA_42+|26.37Mb
-      - 🇩🇪DE_293+|22.31Mb
-      - Pool_🇧🇦BA_51+|25.15Mb
-      - Pool_🇧🇦BA_41+|24.53Mb
-      - WinForm+shadoW+33_357
-      - Pool_🇧🇦BA_58+|26.57Mb
-      - 🇩🇪DE_277+|22.10Mb
-      - 🇳🇴_NO_挪威+5_360
-      - defaltName_361
-      - WinForm+NOR+🇳🇴+Kristiansad_362
-      - Pool_🇧🇦BA_33+|23.52Mb
-      - 🇳🇴NO_624+|22.15Mb
-      - Pool_🇧🇦BA_70+|24.56Mb
-      - ufo+United+Kingdom+🇬🇧+London+5_366
-      - Pool_🇧🇦BA_47+|21.32Mb
-      - 🇺🇸US_1102+|+8.39Mb
-      - 🇺🇸US_1660+|+7.32Mb
-      - Pool_🇧🇦BA_23+|21.79Mb
-      - defaltName_371
-      - Pool_🇧🇦BA_43+|10.42Mb
-      - Pool_🇧🇦BA_63+|24.25Mb
-      - 🇬🇧_GB_英国+1_374
-      - 🇵🇹_PT_葡萄牙+1_375
-      - 🇳🇴_NO_挪威+11_376
-      - 🇳🇴NO_619+|25.69Mb
-      - defaltName_378
-      - 🇺🇸US_861+|+7.21Mb
-      - Relay_🇷🇴RO-🇷🇴RO_667+|27.50Mb
-      - Pool_🇧🇦BA_72+|26.85Mb
-      - Pool_🇧🇦BA_40+|20.58Mb
-      - 🇵🇱PL_643+|21.69Mb
-      - defaltName_384
-      - 🇵🇱PL_653+|20.03Mb
-      - 🇳🇴NO_612+|+5.62Mb
-      - Pool_🇧🇦BA_76+|23.69Mb
-      - default_name+5_388
-      - default_name+8_389
-      - 🇳🇴_NO_挪威+10_390
-      - 🇬🇧_GB_英国+5_391
-      - default_name+7_392
-      - WinForm+shadoW+45_393
-      - 🇳🇴_NO_挪威+3_394
-      - 🇵🇹_PT_葡萄牙_395
-      - 🇳🇴NO_614+|12.23Mb
-      - 🇺🇸US_1517+|14.57Mb
-      - Pool_🇧🇦BA_25+|21.51Mb
-      - 🇺🇸_US_美国+5_399
-      - WinForm+SS5_400
-      - WinForm+shadoW+41_401
-      - 🇺🇸_US_美国+6_402
-      - 🇳🇴_NO_挪威+4_403
-      - 🇺🇸US_1625+|+7.31Mb
-      - 🇩🇪DE_286+|22.88Mb
+      - 🇭🇰_HK_香港_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
+      - 🇩🇪_DE_德国_14
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_15
+      - 🇭🇰_HK_香港_16
+      - default_name_17
+      - 🇵🇹_PT_葡萄牙_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇺🇸_US_美国_20
+      - 🇩🇪_DE_德国_21
+      - 🇳🇴_NO_挪威_22
+      - 🇫🇷_FR_法国_23
+      - 🇳🇴_NO_挪威_24
+      - 🇲🇽_MX_墨西哥_25
+      - 🇳🇴_NO_挪威_26
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_27
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_28
+      - 🇭🇰_HK_香港_29
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_30
+      - 🇭🇰_HK_香港_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇬🇧_GB_英国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇯🇵_JP_日本_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - default_name_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇺🇸_US_美国_69
+      - default_name_70
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇺🇸_US_美国_73
+      - 🇨🇦_CA_加拿大_74
+      - 🇺🇸_US_美国_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇺🇸_US_美国_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇨🇦_CA_加拿大_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇩🇰_DK_丹麦_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇨🇦_CA_加拿大_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇸_US_美国_94
+      - 🇨🇦_CA_加拿大_95
+      - 🇬🇧_GB_英国_96
+      - 🇩🇪_DE_德国_97
+      - 🇬🇧_GB_英国_98
+      - 🇬🇧_GB_英国_99
+      - 🇬🇧_GB_英国_100
+      - 🇬🇧_GB_英国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇨🇦_CA_加拿大_104
+      - 🇬🇧_GB_英国_105
+      - 🇩🇪_DE_德国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇺🇦_UA_乌克兰_110
+      - 🇨🇦_CA_加拿大_111
+      - 🇬🇧_GB_英国_112
+      - 🇨🇦_CA_加拿大_113
+      - 🇺🇸_US_美国_114
+      - 🇨🇦_CA_加拿大_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇷🇴_RO_罗马尼亚_117
+      - 🇬🇧_GB_英国_118
+      - 🇬🇧_GB_英国_119
+      - 🇬🇧_GB_英国_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇩🇪_DE_德国_122
+      - 🇬🇧_GB_英国_123
+      - 🇨🇦_CA_加拿大_124
+      - default_name_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇻🇳_VN_越南_128
+      - default_name_129
+      - 🇦🇺_AU_澳大利亚_130
+      - default_name_131
+      - 🇬🇧_GB_英国_132
+      - 🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇺🇦_UA_乌克兰_136
+      - 🇬🇧_GB_英国_137
+      - 🇸🇪_SE_瑞典_138
+      - 🇩🇪_DE_德国_139
+      - 🇵🇹_PT_葡萄牙_140
+      - 🇫🇷_FR_法国_141
+      - 🇦🇺_AU_澳大利亚_142
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_143
+      - 🇺🇸_US_美国_144
+      - default_name_145
+      - 🇨🇦_CA_加拿大_146
+      - default_name_147
+      - default_name_148
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇭🇰_HK_香港_152
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_153
+      - 🇨🇦_CA_加拿大_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇺🇸_US_美国_156
+      - 🇨🇦_CA_加拿大_157
+      - 🇮🇳_IN_印度_158
+      - 🇮🇳_IN_印度_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇫🇷_FR_法国_162
+      - 🇨🇦_CA_加拿大_163
+      - 🇬🇧_GB_英国_164
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_165
+      - 🇩🇪_DE_德国_166
+      - 🇬🇧_GB_英国_167
+      - 🇮🇳_IN_印度_168
+      - 🇮🇳_IN_印度_169
+      - 🇺🇸_US_美国_170
+      - 🇯🇵_JP_日本_171
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_172
+      - 🇨🇦_CA_加拿大_173
+      - 🇮🇳_IN_印度_174
+      - 🇫🇷_FR_法国_175
+      - 🇯🇵_JP_日本_176
+      - 🇳🇴_NO_挪威_177
+      - 🇫🇷_FR_法国_178
+      - 🇺🇸_US_美国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇮🇳_IN_印度_181
+      - 🇫🇷_FR_法国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇮🇳_IN_印度_185
+      - 🇲🇾_MY_马来西亚_186
+      - 🇨🇦_CA_加拿大_187
+      - 🇫🇷_FR_法国_188
+      - 🇫🇷_FR_法国_189
+      - 🇺🇸_US_美国_190
+      - 🇫🇷_FR_法国_191
+      - 🇧🇦_BA_波黑_192
+      - 🇳🇴_NO_挪威_193
+      - 🇫🇷_FR_法国_194
+      - 🇺🇸_US_美国_195
+      - 🇨🇦_CA_加拿大_196
+      - 🇳🇴_NO_挪威_197
+      - 🇫🇷_FR_法国_198
+      - 🇦🇪_AE_阿联酋_199
+      - 🇫🇷_FR_法国_200
+      - 🇫🇷_FR_法国_201
+      - 🇮🇩_ID_印度尼西亚_202
+      - 🇬🇷_GR_希腊_203
+      - 🇳🇴_NO_挪威_204
+      - 🇦🇪_AE_阿联酋_205
+      - 🇳🇴_NO_挪威_206
+      - 🇫🇷_FR_法国_207
+      - 🇳🇴_NO_挪威_208
+      - 🇺🇸_US_美国_209
+      - 🇫🇷_FR_法国_210
+      - 🇺🇸_US_美国_211
+      - 🇨🇦_CA_加拿大_212
+      - 🇳🇴_NO_挪威_213
+      - 🇺🇸_US_美国_214
+      - 🇺🇸_US_美国_215
+      - 🇫🇷_FR_法国_216
+      - 🇺🇸_US_美国_217
+      - 🇺🇸_US_美国_218
+      - 🇺🇸_US_美国_219
+      - 🇨🇦_CA_加拿大_220
+      - 🇨🇦_CA_加拿大_221
+      - 🇺🇸_US_美国_222
+      - 🇺🇸_US_美国_223
+      - 🇨🇦_CA_加拿大_224
+      - 🇨🇦_CA_加拿大_225
+      - 🇨🇦_CA_加拿大_226
+      - 🇨🇦_CA_加拿大_227
+      - 🇬🇧_GB_英国_228
+      - 🇬🇧_GB_英国_229
+      - 🇬🇧_GB_英国_230
+      - 🇺🇸_US_美国_231
+      - 🇳🇴_NO_挪威_232
+      - 🇨🇦_CA_加拿大_233
+      - 🇳🇴_NO_挪威_234
+      - 🇨🇦_CA_加拿大_235
+      - 🇳🇴_NO_挪威_236
+      - 🇳🇴_NO_挪威_237
+      - 🇬🇷_GR_希腊_238
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺+@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub_1
-      - 🇷🇺+@SSRSUB-俄罗斯T11-付费推荐:dlj.tf/ssrsub_2
-      - 🇷🇺+@SSRSUB-俄罗斯T05-付费推荐:dlj.tf/ssrsub_3
-      - 🇷🇺+@SSRSUB-俄罗斯T06-付费推荐:dlj.tf/ssrsub_4
-      - 🇷🇺+@SSRSUB-俄罗斯T07-付费推荐:dlj.tf/ssrsub_5
-      - 🇷🇺+@SSRSUB-俄罗斯T01-付费推荐:dlj.tf/ssrsub_6
-      - @SSRSUB-V32-付费推荐:suo.yt/ssrsub_7
-      - @SSRSUB-V35-付费推荐:suo.yt/ssrsub_8
-      - @SSRSUB-V21-付费推荐:suo.yt/ssrsub_9
-      - 🇨🇦+@SSRSUB-加拿大T03-付费推荐:dlj.tf/ssrsub_10
-      - 🇨🇦+@SSRSUB-加拿大T09-付费推荐:dlj.tf/ssrsub_11
-      - @SSRSUB-V37-付费推荐:suo.yt/ssrsub_12
-      - @SSRSUB-V51-付费推荐:suo.yt/ssrsub_13
-      - @SSRSUB-V31-付费推荐:suo.yt/ssrsub_14
-      - @SSRSUB-V25-付费推荐:suo.yt/ssrsub_15
-      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_16
-      - @SSRSUB-V49-付费推荐:suo.yt/ssrsub_17
-      - @SSRSUB-V02-付费推荐:suo.yt/ssrsub_18
-      - 🇷🇺+@SSRSUB-俄罗斯T02-付费推荐:dlj.tf/ssrsub_19
-      - @SSRSUB-V38-付费推荐:suo.yt/ssrsub_20
-      - @SSRSUB-V47-付费推荐:suo.yt/ssrsub_21
-      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_22
-      - @SSRSUB-V10-付费推荐:suo.yt/ssrsub_23
-      - @SSRSUB-V33-付费推荐:suo.yt/ssrsub_24
-      - 🇷🇺+@SSRSUB-俄罗斯T08-付费推荐:dlj.tf/ssrsub_25
-      - @SSRSUB-V46-付费推荐:suo.yt/ssrsub_26
-      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_27
-      - @SSRSUB-V01-付费推荐:suo.yt/ssrsub_28
-      - @SSRSUB-V52-付费推荐:suo.yt/ssrsub_29
-      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_30
-      - @SSRSUB-V41-付费推荐:suo.yt/ssrsub_31
-      - WeVPN+GR+🇬🇷+Athens_32
-      - WeVPN+CA+🇨🇦+Toronto_33
-      - 🇮🇳+India+8_34
-      - 🇮🇳+India+9_35
-      - 🇮🇳+India+13_36
-      - WeVPN+IL+🇮🇱+Tel+Aviv_37
-      - 🇭🇰+Hong+Kong+5_38
-      - 🇭🇰+Hong+Kong+9_39
-      - 🇭🇰+Hong+Kong+13_40
-      - 🇭🇰+Hong+Kong+14_41
-      - WeVPN+JP+🇯🇵+Tokyo_42
-      - 🇰🇷+Korea,+Republic+of+58_43
-      - 🇰🇷+Korea,+Republic+of+59_44
-      - 🇰🇷+Korea,+Republic+of+27_45
-      - 🇰🇷+Korea,+Republic+of+31_46
-      - 🇰🇷+Korea,+Republic+of+4_47
-      - 🇰🇷+Korea,+Republic+of+56_48
-      - WeVPN+NZ+🇳🇿+Auckland_49
-      - 🇰🇷+Korea,+Republic+of+33_50
-      - 🇰🇷+Korea,+Republic+of+66_51
-      - WeVPN+VN+🇻🇳+Hanoi_52
-      - 🇰🇷+Korea,+Republic+of+12_53
-      - 🇰🇷+Korea,+Republic+of+34_54
-      - WeVPN+TW+🇹🇼+Taipei_55
-      - WeVPN+PH+🇵🇭+Manila_56
-      - 🇰🇷+Korea,+Republic+of+38_57
-      - 🇰🇷+Korea,+Republic+of+67_58
-      - 🇰🇷+Korea,+Republic+of+17_59
-      - WeVPN+ID+🇮🇩+Jakarta_60
-      - WeVPN+KR+🇰🇷+Seoul_61
-      - XY+VPN+Italy+🇮🇹+Milan+2_62
-      - XY+VPN+USA+🇺🇸+Dalas_63
-      - ufo+Australia+🇦🇺+Sydney_64
-      - UK+🇬🇧+London+2_65
-      - ITA+🇮🇹+Milan_66
-      - ITA+🇮🇹+Milan+5_67
-      - GRC+🇬🇷+Athens_68
-      - UK 🇬🇧 London 77_69
-      - NLD 🇳🇱 Amsterdam 8_70
-      - NOR+🇳🇴+Kristiansand+4_71
-      - NOR+🇳🇴+Kristiansand+15_72
-      - FIN+🇫🇮+Helsinki+2_73
-      - IND+🇮🇳+Mumbai+15_74
-      - IND+🇮🇳+Mumbai+4_75
-      - IND+🇮🇳+Mumbai+18_76
-      - ISR+🇮🇱+Tel+Aviv_77
-      - USA+🇺🇸+Tennessee_78
-      - IND+🇮🇳+Mumbai+8_79
-      - IND+🇮🇳+Mumbai_80
-      - IND+🇮🇳+Mumbai+13_81
-      - IND+🇮🇳+Mumbai+16_82
-      - USA+🇺🇸+California+2_83
-      - CAN+🇨🇦+Beauharnois_84
-      - USA+🇺🇸+Arizona_85
-      - IND+🇮🇳+Mumbai+11_86
-      - IND+🇮🇳+Mumbai+9_87
-      - JPN+🇯🇵+Tokyo+3_88
-      - IND+🇮🇳+Mumbai+5_89
-      - USA+🇺🇸+Washington_90
-      - IND+🇮🇳+Mumbai+22_91
-      - JPN+🇯🇵+Tokyo+19_92
-      - IND+🇮🇳+Mumbai+23_93
-      - JPN+🇯🇵+Tokyo+16_94
-      - HKG+🇭🇰+Central+6_95
-      - HKG+🇭🇰+Central+4_96
-      - HKG+🇭🇰+Central+7_97
-      - HKG+🇭🇰+Central+9_98
-      - HKG+🇭🇰+Central+5_99
-      - BRA+🇧🇷+Sao+Paulo_100
-      - KOR+🇰🇷+Seoul+93_101
-      - SNG+🇸🇬+Queenstown+Estate+2_102
-      - KOR+🇰🇷+Seoul+77_103
-      - KOR+🇰🇷+Seoul+6_104
-      - KOR+🇰🇷+Seoul+22_105
-      - KOR+🇰🇷+Seoul+49_106
-      - KOR+🇰🇷+Seoul+56_107
-      - KOR+🇰🇷+Seoul+36_108
-      - KOR+🇰🇷+Seoul+100_109
-      - KOR+🇰🇷+Seoul+78_110
-      - KOR+🇰🇷+Seoul+89_111
-      - KOR+🇰🇷+Seoul+66_112
-      - KOR+🇰🇷+Seoul+41_113
-      - KOR+🇰🇷+Seoul+106_114
-      - KOR+🇰🇷+Seoul+27_115
-      - KOR+🇰🇷+Seoul+48_116
-      - KOR+🇰🇷+Seoul+23_117
-      - KOR+🇰🇷+Seoul+7_118
-      - KOR+🇰🇷+Seoul+82_119
-      - KOR+🇰🇷+Seoul+94_120
-      - KOR+🇰🇷+Seoul+35_121
-      - KOR+🇰🇷+Seoul+50_122
-      - KOR+🇰🇷+Seoul+20_123
-      - KOR+🇰🇷+Seoul+98_124
-      - KOR+🇰🇷+Seoul+65_125
-      - KOR+🇰🇷+Seoul+14_126
-      - KOR+🇰🇷+Seoul+10_127
-      - KOR+🇰🇷+Seoul+61_128
-      - KOR+🇰🇷+Seoul+51_129
-      - KOR+🇰🇷+Seoul+69_130
-      - KOR+🇰🇷+Seoul+55_131
-      - KOR+🇰🇷+Seoul+68_132
-      - KOR+🇰🇷+Seoul+33_133
-      - KOR+🇰🇷+Seoul+67_134
-      - KOR+🇰🇷+Seoul+34_135
-      - KOR+🇰🇷+Seoul+72_136
-      - KOR+🇰🇷+Seoul+9_137
-      - KOR+🇰🇷+Seoul+47_138
-      - KOR+🇰🇷+Seoul+73_139
-      - KOR+🇰🇷+Seoul+88_140
-      - KOR+🇰🇷+Seoul+59_141
-      - KOR+🇰🇷+Seoul+91_142
-      - KOR+🇰🇷+Seoul+80_143
-      - KOR+🇰🇷+Seoul+42_144
-      - KOR+🇰🇷+Seoul+4_145
-      - KOR+🇰🇷+Seoul+18_146
-      - KOR+🇰🇷+Seoul+38_147
-      - KOR+🇰🇷+Seoul+105_148
-      - KOR+🇰🇷+Seoul+8_149
-      - KOR+🇰🇷+Seoul+86_150
-      - KOR+🇰🇷+Seoul+26_151
-      - KOR+🇰🇷+Seoul+24_152
-      - KOR+🇰🇷+Seoul+25_153
-      - KOR+🇰🇷+Seoul+76_154
-      - KOR+🇰🇷+Seoul+87_155
-      - KOR+🇰🇷+Seoul+15_156
-      - KOR+🇰🇷+Seoul+96_157
-      - KOR+🇰🇷+Seoul+40_158
-      - KOR+🇰🇷+Seoul+21_159
-      - KOR+🇰🇷+Seoul+75_160
-      - KOR+🇰🇷+Seoul+81_161
-      - KOR+🇰🇷+Seoul+71_162
-      - KOR+🇰🇷+Seoul+17_163
-      - KOR+🇰🇷+Seoul+108_164
-      - KOR+🇰🇷+Seoul+46_165
-      - KOR+🇰🇷+Seoul+102_166
-      - KOR+🇰🇷+Seoul+13_167
-      - KOR+🇰🇷+Seoul+79_168
-      - KOR+🇰🇷+Seoul+95_169
-      - KOR+🇰🇷+Seoul+90_170
-      - KOR+🇰🇷+Seoul+83_171
-      - KOR+🇰🇷+Seoul+53_172
-      - KOR+🇰🇷+Seoul+29_173
-      - KOR+🇰🇷+Seoul+60_174
-      - KOR+🇰🇷+Seoul+58_175
-      - KOR+🇰🇷+Seoul+103_176
-      - UK 🇬🇧 London 78_177
-      - HKG+🇭🇰+Central+3_178
-      - NOR+🇳🇴+Kristiansand+13_179
-      - SNG+🇸🇬+Queenstown+Estate_180
-      - @proSSHbotUfoVPN-Singapore-QueenstownEstate_181
-      - @proSSHbotUfoVPN-Australia-Sydney_182
-      - 🇫🇷+France+4+t.me/SurfShark_ALA_183
-      - 📛+YouTube+without+ads+4+t.me/SurfShark_ALA_184
-      - 📛+YouTube+without+ads+2+t.me/SurfShark_ALA_185
-      - 🇬🇧+UK.London+2+t.me/SurfShark_ALA_186
-      - 🇫🇷+France+5+t.me/SurfShark_ALA_187
-      - 🇩🇪+Germany+8+t.me/SurfShark_ALA_188
-      - 📛+YouTube+without+ads+5+t.me/SurfShark_ALA_189
-      - 📛+YouTube+without+ads+3+t.me/SurfShark_ALA_190
-      - 🇷🇺+Russia+2+t.me/SurfShark_ALA_191
-      - 🇺🇸+USA.Georgia.Atlanta+1+t.me/SurfShark_ALA_192
-      - 🇺🇸+USA.Texas.Dallas+1+t.me/SurfShark_ALA_193
-      - 🇺🇸+USA.Denver+1+t.me/SurfShark_ALA_194
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_195
-      - 🇯🇵+Japan+2+t.me/SurfShark_ALA_196
-      - 🇦🇷+Argentina+1+t.me/SurfShark_ALA_197
-      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_198
-      - 🇧🇷+Brazil++1+t.me/SurfShark_ALA_199
-      - 🇰🇷+South+Korea+4+t.me/SurfShark_ALA_200
-      - 🇰🇷+South+Korea+1+t.me/SurfShark_ALA_201
-      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_202
-      - Germany/@BN_CHANLL_203
-      - Bosnia+and+Herzegovina/@BN_CHANLL+7_204
-      - Canada/@BN_CHANLL+6_205
-      - Canada/@BN_CHANLL+5_206
-      - Canada/@BN_CHANLL+11_207
-      - Canada/@BN_CHANLL+7_208
-      - Canada/@BN_CHANLL+2_209
-      - Canada/@BN_CHANLL+9_210
-      - United+States/@BN_CHANLL_211
-      - United+States/@BN_CHANLL+8_212
-      - Canada/@BN_CHANLL+3_213
-      - United+States/@BN_CHANLL+3_214
-      - Singapore/@BN_CHANLL+2_215
-      - United+States/@BN_CHANLL+10_216
-      - Japan/@BN_CHANLL_217
-      - Japan/@BN_CHANLL+5_218
-      - United+States/@BN_CHANLL+19_219
-      - Malaysia/@BN_CHANLL_220
-      - Japan/@BN_CHANLL+3_221
-      - United+States/@BN_CHANLL+12_222
-      - Mexico/@BN_CHANLL_223
-      - Brazil/@BN_CHANLL+2_224
-      - Brazil/@BN_CHANLL_225
-      - Japan/@BN_CHANLL+2_226
-      - Australia/@BN_CHANLL+3_227
-      - Singapore/@BN_CHANLL_228
-      - India/@BN_CHANLL_229
-      - Australia/@BN_CHANLL+2_230
-      - Australia/@BN_CHANLL_231
-      - defaltName_232
-      - 🇩🇪DE_278+|22.55Mb
-      - 🇺🇸US_1709+|12.42Mb
-      - 🇮🇹IT_476+|10.42Mb
-      - 🇬🇧_GB_英国+3_236
-      - 🇩🇪DE_291+|+7.08Mb
-      - 🇩🇪DE_259+|18.25Mb
-      - Pool_🇧🇦BA_46+|27.73Mb
-      - defaltName_240
-      - WinForm+shadoW+30_241
-      - 🇩🇪DE_300+|19.26Mb
-      - Pool_🇧🇦BA_65+|24.40Mb
-      - defaltName_244
-      - 🇺🇸US_1604+|16.08Mb
-      - 🇩🇪DE_289+|24.43Mb
-      - Pool_🇧🇦BA_31+|17.17Mb
-      - 🇩🇪DE_296+|19.30Mb
-      - 🇺🇸US_1543+|+9.03Mb
-      - WinForm+shadoW+27_250
-      - 🇩🇪DE_256+|21.46Mb
-      - WinForm+shadoW+31_252
-      - 🇺🇸US_1548+|15.81Mb
-      - 🇺🇸US_1489+|22.21Mb
-      - 🇺🇸US_1578+|12.88Mb
-      - 🇺🇸US_1713+|23.05Mb
-      - 🇩🇪DE_295+|11.02Mb
-      - 🇬🇧_GB_英国_258
-      - WinForm+shadoW+18_259
-      - WinForm+shadoW+34_260
-      - Pool_🇧🇦BA_73+|24.00Mb
-      - 🇩🇪DE_279+|21.99Mb
-      - Pool_🇧🇦BA_84+|25.39Mb
-      - defaltName_264
-      - defaltName_265
-      - Pool_🇧🇦BA_69+|23.28Mb
-      - 🇮🇹IT_475+|21.19Mb
-      - Relay_🏁ZZ-🇬🇧GB_1995+|11.61Mb
-      - 🇺🇸US_1509+|23.12Mb
-      - 🇩🇪DE_258+|10.54Mb
-      - Pool_🇧🇦BA_79+|26.57Mb
-      - 🇬🇧_GB_英国+6_272
-      - 🇩🇪DE_290+|22.76Mb
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_274
-      - 🇳🇴_NO_挪威+9_275
-      - WinForm+shadoW+29_276
-      - 🇩🇪DE_273+|22.26Mb
-      - 🇺🇸US_1500+|+5.88Mb
-      - Pool_🇧🇦BA_77+|23.38Mb
-      - Pool_🇧🇦BA_50+|23.91Mb
-      - Pool_🇧🇦BA_66+|24.23Mb
-      - WinForm+shadoW+26_282
-      - 🇺🇸US_989+|+8.99Mb
-      - Pool_🇧🇦BA_68+|24.69Mb
-      - Pool_🇧🇦BA_53+|24.12Mb
-      - 🇺🇸US_1402+|+8.37Mb
-      - Pool_🇧🇦BA_80+|25.47Mb
-      - Pool_🇧🇦BA_22+|24.76Mb
-      - 🇳🇴_NO_挪威+7_289
-      - 🇬🇧_GB_英国+2_290
-      - defaltName_291
-      - defaltName_292
-      - 🇩🇪DE_288+|22.30Mb
-      - 🇺🇸US_1539+|15.81Mb
-      - 🇳🇴NO_626+|12.30Mb
-      - Pool_🇧🇦BA_36+|23.67Mb
-      - 🇺🇸US_1404+|+9.25Mb
-      - 🇺🇸US_992+|+7.55Mb
-      - 🇳🇴NO_610+|23.88Mb
-      - Pool_🇧🇦BA_74+|24.25Mb
-      - Pool_🇧🇦BA_28+|25.49Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - 🇩🇪DE_281+|21.57Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - 🇺🇸US_1330+|+4.83Mb
-      - Pool_🇧🇦BA_30+|17.70Mb
-      - WinForm+Italy_307
-      - 🇩🇪DE_285+|22.19Mb
-      - 🇺🇸US_1366+|+9.30Mb
-      - Pool_🇧🇦BA_44+|23.90Mb
-      - 🇳🇴_NO_挪威+8_311
-      - WinForm+shadoW+38_312
-      - WinForm+shadoW+42_313
-      - Relay_🇪🇸ES-🇪🇸ES_312+|37.73Mb
-      - defaltName_315
-      - default_name+2_316
-      - Pool_🇧🇦BA_57+|23.71Mb
-      - Pool_🇧🇦BA_56+|23.81Mb
-      - 🇫🇷FR_325+|26.74Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - 🇩🇪DE_280+|22.26Mb
-      - 🇺🇸US_1494+|+7.92Mb
-      - Pool_🇧🇦BA_35+|25.74Mb
-      - WinForm+shadoW+43_324
-      - WinForm+shadoW+46_325
-      - defaltName_326
-      - WinForm+shadoW+28_327
-      - Pool_🇧🇦BA_71+|23.42Mb
-      - 🇳🇴NO_611+|20.16Mb
-      - Pool_🇧🇦BA_60+|24.58Mb
-      - Pool_🇧🇦BA_67+|14.87Mb
-      - Pool_🇧🇦BA_75+|24.86Mb
-      - 🇳🇴_NO_挪威+12_333
-      - Pool_🇧🇦BA_21+|26.46Mb
-      - WinForm+shadoW+39_335
-      - Pool_🇧🇦BA_34+|26.74Mb
-      - Pool_🇧🇦BA_78+|22.75Mb
-      - Pool_🇧🇦BA_61+|25.78Mb
-      - defaltName_339
-      - 🇳🇴_NO_挪威+1_340
-      - 🇺🇸US_1706+|+8.82Mb
-      - 🇮🇹IT_480+|20.95Mb
-      - 🇳🇴_NO_挪威+6_343
-      - 🇮🇹IT_477+|10.42Mb
-      - WinForm+shadoW+44_345
-      - defaltName_346
-      - Pool_🇧🇦BA_37+|17.41Mb
-      - defaltName_348
-      - 🇬🇧_GB_英国+4_349
-      - Pool_🇧🇦BA_82+|26.60Mb
-      - Pool_🇧🇦BA_81+|17.08Mb
-      - WinForm+shadoW+32_352
-      - Pool_🇧🇦BA_42+|26.37Mb
-      - 🇩🇪DE_293+|22.31Mb
-      - Pool_🇧🇦BA_51+|25.15Mb
-      - Pool_🇧🇦BA_41+|24.53Mb
-      - WinForm+shadoW+33_357
-      - Pool_🇧🇦BA_58+|26.57Mb
-      - 🇩🇪DE_277+|22.10Mb
-      - 🇳🇴_NO_挪威+5_360
-      - defaltName_361
-      - WinForm+NOR+🇳🇴+Kristiansad_362
-      - Pool_🇧🇦BA_33+|23.52Mb
-      - 🇳🇴NO_624+|22.15Mb
-      - Pool_🇧🇦BA_70+|24.56Mb
-      - ufo+United+Kingdom+🇬🇧+London+5_366
-      - Pool_🇧🇦BA_47+|21.32Mb
-      - 🇺🇸US_1102+|+8.39Mb
-      - 🇺🇸US_1660+|+7.32Mb
-      - Pool_🇧🇦BA_23+|21.79Mb
-      - defaltName_371
-      - Pool_🇧🇦BA_43+|10.42Mb
-      - Pool_🇧🇦BA_63+|24.25Mb
-      - 🇬🇧_GB_英国+1_374
-      - 🇵🇹_PT_葡萄牙+1_375
-      - 🇳🇴_NO_挪威+11_376
-      - 🇳🇴NO_619+|25.69Mb
-      - defaltName_378
-      - 🇺🇸US_861+|+7.21Mb
-      - Relay_🇷🇴RO-🇷🇴RO_667+|27.50Mb
-      - Pool_🇧🇦BA_72+|26.85Mb
-      - Pool_🇧🇦BA_40+|20.58Mb
-      - 🇵🇱PL_643+|21.69Mb
-      - defaltName_384
-      - 🇵🇱PL_653+|20.03Mb
-      - 🇳🇴NO_612+|+5.62Mb
-      - Pool_🇧🇦BA_76+|23.69Mb
-      - default_name+5_388
-      - default_name+8_389
-      - 🇳🇴_NO_挪威+10_390
-      - 🇬🇧_GB_英国+5_391
-      - default_name+7_392
-      - WinForm+shadoW+45_393
-      - 🇳🇴_NO_挪威+3_394
-      - 🇵🇹_PT_葡萄牙_395
-      - 🇳🇴NO_614+|12.23Mb
-      - 🇺🇸US_1517+|14.57Mb
-      - Pool_🇧🇦BA_25+|21.51Mb
-      - 🇺🇸_US_美国+5_399
-      - WinForm+SS5_400
-      - WinForm+shadoW+41_401
-      - 🇺🇸_US_美国+6_402
-      - 🇳🇴_NO_挪威+4_403
-      - 🇺🇸US_1625+|+7.31Mb
-      - 🇩🇪DE_286+|22.88Mb
+      - 🇭🇰_HK_香港_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
+      - 🇩🇪_DE_德国_14
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_15
+      - 🇭🇰_HK_香港_16
+      - default_name_17
+      - 🇵🇹_PT_葡萄牙_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇺🇸_US_美国_20
+      - 🇩🇪_DE_德国_21
+      - 🇳🇴_NO_挪威_22
+      - 🇫🇷_FR_法国_23
+      - 🇳🇴_NO_挪威_24
+      - 🇲🇽_MX_墨西哥_25
+      - 🇳🇴_NO_挪威_26
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_27
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_28
+      - 🇭🇰_HK_香港_29
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_30
+      - 🇭🇰_HK_香港_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇬🇧_GB_英国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇯🇵_JP_日本_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - default_name_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇺🇸_US_美国_69
+      - default_name_70
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇺🇸_US_美国_73
+      - 🇨🇦_CA_加拿大_74
+      - 🇺🇸_US_美国_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇺🇸_US_美国_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇨🇦_CA_加拿大_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇩🇰_DK_丹麦_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇨🇦_CA_加拿大_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇸_US_美国_94
+      - 🇨🇦_CA_加拿大_95
+      - 🇬🇧_GB_英国_96
+      - 🇩🇪_DE_德国_97
+      - 🇬🇧_GB_英国_98
+      - 🇬🇧_GB_英国_99
+      - 🇬🇧_GB_英国_100
+      - 🇬🇧_GB_英国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇨🇦_CA_加拿大_104
+      - 🇬🇧_GB_英国_105
+      - 🇩🇪_DE_德国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇺🇦_UA_乌克兰_110
+      - 🇨🇦_CA_加拿大_111
+      - 🇬🇧_GB_英国_112
+      - 🇨🇦_CA_加拿大_113
+      - 🇺🇸_US_美国_114
+      - 🇨🇦_CA_加拿大_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇷🇴_RO_罗马尼亚_117
+      - 🇬🇧_GB_英国_118
+      - 🇬🇧_GB_英国_119
+      - 🇬🇧_GB_英国_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇩🇪_DE_德国_122
+      - 🇬🇧_GB_英国_123
+      - 🇨🇦_CA_加拿大_124
+      - default_name_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇻🇳_VN_越南_128
+      - default_name_129
+      - 🇦🇺_AU_澳大利亚_130
+      - default_name_131
+      - 🇬🇧_GB_英国_132
+      - 🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇺🇦_UA_乌克兰_136
+      - 🇬🇧_GB_英国_137
+      - 🇸🇪_SE_瑞典_138
+      - 🇩🇪_DE_德国_139
+      - 🇵🇹_PT_葡萄牙_140
+      - 🇫🇷_FR_法国_141
+      - 🇦🇺_AU_澳大利亚_142
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_143
+      - 🇺🇸_US_美国_144
+      - default_name_145
+      - 🇨🇦_CA_加拿大_146
+      - default_name_147
+      - default_name_148
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇭🇰_HK_香港_152
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_153
+      - 🇨🇦_CA_加拿大_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇺🇸_US_美国_156
+      - 🇨🇦_CA_加拿大_157
+      - 🇮🇳_IN_印度_158
+      - 🇮🇳_IN_印度_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇫🇷_FR_法国_162
+      - 🇨🇦_CA_加拿大_163
+      - 🇬🇧_GB_英国_164
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_165
+      - 🇩🇪_DE_德国_166
+      - 🇬🇧_GB_英国_167
+      - 🇮🇳_IN_印度_168
+      - 🇮🇳_IN_印度_169
+      - 🇺🇸_US_美国_170
+      - 🇯🇵_JP_日本_171
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_172
+      - 🇨🇦_CA_加拿大_173
+      - 🇮🇳_IN_印度_174
+      - 🇫🇷_FR_法国_175
+      - 🇯🇵_JP_日本_176
+      - 🇳🇴_NO_挪威_177
+      - 🇫🇷_FR_法国_178
+      - 🇺🇸_US_美国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇮🇳_IN_印度_181
+      - 🇫🇷_FR_法国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇮🇳_IN_印度_185
+      - 🇲🇾_MY_马来西亚_186
+      - 🇨🇦_CA_加拿大_187
+      - 🇫🇷_FR_法国_188
+      - 🇫🇷_FR_法国_189
+      - 🇺🇸_US_美国_190
+      - 🇫🇷_FR_法国_191
+      - 🇧🇦_BA_波黑_192
+      - 🇳🇴_NO_挪威_193
+      - 🇫🇷_FR_法国_194
+      - 🇺🇸_US_美国_195
+      - 🇨🇦_CA_加拿大_196
+      - 🇳🇴_NO_挪威_197
+      - 🇫🇷_FR_法国_198
+      - 🇦🇪_AE_阿联酋_199
+      - 🇫🇷_FR_法国_200
+      - 🇫🇷_FR_法国_201
+      - 🇮🇩_ID_印度尼西亚_202
+      - 🇬🇷_GR_希腊_203
+      - 🇳🇴_NO_挪威_204
+      - 🇦🇪_AE_阿联酋_205
+      - 🇳🇴_NO_挪威_206
+      - 🇫🇷_FR_法国_207
+      - 🇳🇴_NO_挪威_208
+      - 🇺🇸_US_美国_209
+      - 🇫🇷_FR_法国_210
+      - 🇺🇸_US_美国_211
+      - 🇨🇦_CA_加拿大_212
+      - 🇳🇴_NO_挪威_213
+      - 🇺🇸_US_美国_214
+      - 🇺🇸_US_美国_215
+      - 🇫🇷_FR_法国_216
+      - 🇺🇸_US_美国_217
+      - 🇺🇸_US_美国_218
+      - 🇺🇸_US_美国_219
+      - 🇨🇦_CA_加拿大_220
+      - 🇨🇦_CA_加拿大_221
+      - 🇺🇸_US_美国_222
+      - 🇺🇸_US_美国_223
+      - 🇨🇦_CA_加拿大_224
+      - 🇨🇦_CA_加拿大_225
+      - 🇨🇦_CA_加拿大_226
+      - 🇨🇦_CA_加拿大_227
+      - 🇬🇧_GB_英国_228
+      - 🇬🇧_GB_英国_229
+      - 🇬🇧_GB_英国_230
+      - 🇺🇸_US_美国_231
+      - 🇳🇴_NO_挪威_232
+      - 🇨🇦_CA_加拿大_233
+      - 🇳🇴_NO_挪威_234
+      - 🇨🇦_CA_加拿大_235
+      - 🇳🇴_NO_挪威_236
+      - 🇳🇴_NO_挪威_237
+      - 🇬🇷_GR_希腊_238
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇷🇺+@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub_1
-      - 🇷🇺+@SSRSUB-俄罗斯T11-付费推荐:dlj.tf/ssrsub_2
-      - 🇷🇺+@SSRSUB-俄罗斯T05-付费推荐:dlj.tf/ssrsub_3
-      - 🇷🇺+@SSRSUB-俄罗斯T06-付费推荐:dlj.tf/ssrsub_4
-      - 🇷🇺+@SSRSUB-俄罗斯T07-付费推荐:dlj.tf/ssrsub_5
-      - 🇷🇺+@SSRSUB-俄罗斯T01-付费推荐:dlj.tf/ssrsub_6
-      - @SSRSUB-V32-付费推荐:suo.yt/ssrsub_7
-      - @SSRSUB-V35-付费推荐:suo.yt/ssrsub_8
-      - @SSRSUB-V21-付费推荐:suo.yt/ssrsub_9
-      - 🇨🇦+@SSRSUB-加拿大T03-付费推荐:dlj.tf/ssrsub_10
-      - 🇨🇦+@SSRSUB-加拿大T09-付费推荐:dlj.tf/ssrsub_11
-      - @SSRSUB-V37-付费推荐:suo.yt/ssrsub_12
-      - @SSRSUB-V51-付费推荐:suo.yt/ssrsub_13
-      - @SSRSUB-V31-付费推荐:suo.yt/ssrsub_14
-      - @SSRSUB-V25-付费推荐:suo.yt/ssrsub_15
-      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_16
-      - @SSRSUB-V49-付费推荐:suo.yt/ssrsub_17
-      - @SSRSUB-V02-付费推荐:suo.yt/ssrsub_18
-      - 🇷🇺+@SSRSUB-俄罗斯T02-付费推荐:dlj.tf/ssrsub_19
-      - @SSRSUB-V38-付费推荐:suo.yt/ssrsub_20
-      - @SSRSUB-V47-付费推荐:suo.yt/ssrsub_21
-      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_22
-      - @SSRSUB-V10-付费推荐:suo.yt/ssrsub_23
-      - @SSRSUB-V33-付费推荐:suo.yt/ssrsub_24
-      - 🇷🇺+@SSRSUB-俄罗斯T08-付费推荐:dlj.tf/ssrsub_25
-      - @SSRSUB-V46-付费推荐:suo.yt/ssrsub_26
-      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_27
-      - @SSRSUB-V01-付费推荐:suo.yt/ssrsub_28
-      - @SSRSUB-V52-付费推荐:suo.yt/ssrsub_29
-      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_30
-      - @SSRSUB-V41-付费推荐:suo.yt/ssrsub_31
-      - WeVPN+GR+🇬🇷+Athens_32
-      - WeVPN+CA+🇨🇦+Toronto_33
-      - 🇮🇳+India+8_34
-      - 🇮🇳+India+9_35
-      - 🇮🇳+India+13_36
-      - WeVPN+IL+🇮🇱+Tel+Aviv_37
-      - 🇭🇰+Hong+Kong+5_38
-      - 🇭🇰+Hong+Kong+9_39
-      - 🇭🇰+Hong+Kong+13_40
-      - 🇭🇰+Hong+Kong+14_41
-      - WeVPN+JP+🇯🇵+Tokyo_42
-      - 🇰🇷+Korea,+Republic+of+58_43
-      - 🇰🇷+Korea,+Republic+of+59_44
-      - 🇰🇷+Korea,+Republic+of+27_45
-      - 🇰🇷+Korea,+Republic+of+31_46
-      - 🇰🇷+Korea,+Republic+of+4_47
-      - 🇰🇷+Korea,+Republic+of+56_48
-      - WeVPN+NZ+🇳🇿+Auckland_49
-      - 🇰🇷+Korea,+Republic+of+33_50
-      - 🇰🇷+Korea,+Republic+of+66_51
-      - WeVPN+VN+🇻🇳+Hanoi_52
-      - 🇰🇷+Korea,+Republic+of+12_53
-      - 🇰🇷+Korea,+Republic+of+34_54
-      - WeVPN+TW+🇹🇼+Taipei_55
-      - WeVPN+PH+🇵🇭+Manila_56
-      - 🇰🇷+Korea,+Republic+of+38_57
-      - 🇰🇷+Korea,+Republic+of+67_58
-      - 🇰🇷+Korea,+Republic+of+17_59
-      - WeVPN+ID+🇮🇩+Jakarta_60
-      - WeVPN+KR+🇰🇷+Seoul_61
-      - XY+VPN+Italy+🇮🇹+Milan+2_62
-      - XY+VPN+USA+🇺🇸+Dalas_63
-      - ufo+Australia+🇦🇺+Sydney_64
-      - UK+🇬🇧+London+2_65
-      - ITA+🇮🇹+Milan_66
-      - ITA+🇮🇹+Milan+5_67
-      - GRC+🇬🇷+Athens_68
-      - UK 🇬🇧 London 77_69
-      - NLD 🇳🇱 Amsterdam 8_70
-      - NOR+🇳🇴+Kristiansand+4_71
-      - NOR+🇳🇴+Kristiansand+15_72
-      - FIN+🇫🇮+Helsinki+2_73
-      - IND+🇮🇳+Mumbai+15_74
-      - IND+🇮🇳+Mumbai+4_75
-      - IND+🇮🇳+Mumbai+18_76
-      - ISR+🇮🇱+Tel+Aviv_77
-      - USA+🇺🇸+Tennessee_78
-      - IND+🇮🇳+Mumbai+8_79
-      - IND+🇮🇳+Mumbai_80
-      - IND+🇮🇳+Mumbai+13_81
-      - IND+🇮🇳+Mumbai+16_82
-      - USA+🇺🇸+California+2_83
-      - CAN+🇨🇦+Beauharnois_84
-      - USA+🇺🇸+Arizona_85
-      - IND+🇮🇳+Mumbai+11_86
-      - IND+🇮🇳+Mumbai+9_87
-      - JPN+🇯🇵+Tokyo+3_88
-      - IND+🇮🇳+Mumbai+5_89
-      - USA+🇺🇸+Washington_90
-      - IND+🇮🇳+Mumbai+22_91
-      - JPN+🇯🇵+Tokyo+19_92
-      - IND+🇮🇳+Mumbai+23_93
-      - JPN+🇯🇵+Tokyo+16_94
-      - HKG+🇭🇰+Central+6_95
-      - HKG+🇭🇰+Central+4_96
-      - HKG+🇭🇰+Central+7_97
-      - HKG+🇭🇰+Central+9_98
-      - HKG+🇭🇰+Central+5_99
-      - BRA+🇧🇷+Sao+Paulo_100
-      - KOR+🇰🇷+Seoul+93_101
-      - SNG+🇸🇬+Queenstown+Estate+2_102
-      - KOR+🇰🇷+Seoul+77_103
-      - KOR+🇰🇷+Seoul+6_104
-      - KOR+🇰🇷+Seoul+22_105
-      - KOR+🇰🇷+Seoul+49_106
-      - KOR+🇰🇷+Seoul+56_107
-      - KOR+🇰🇷+Seoul+36_108
-      - KOR+🇰🇷+Seoul+100_109
-      - KOR+🇰🇷+Seoul+78_110
-      - KOR+🇰🇷+Seoul+89_111
-      - KOR+🇰🇷+Seoul+66_112
-      - KOR+🇰🇷+Seoul+41_113
-      - KOR+🇰🇷+Seoul+106_114
-      - KOR+🇰🇷+Seoul+27_115
-      - KOR+🇰🇷+Seoul+48_116
-      - KOR+🇰🇷+Seoul+23_117
-      - KOR+🇰🇷+Seoul+7_118
-      - KOR+🇰🇷+Seoul+82_119
-      - KOR+🇰🇷+Seoul+94_120
-      - KOR+🇰🇷+Seoul+35_121
-      - KOR+🇰🇷+Seoul+50_122
-      - KOR+🇰🇷+Seoul+20_123
-      - KOR+🇰🇷+Seoul+98_124
-      - KOR+🇰🇷+Seoul+65_125
-      - KOR+🇰🇷+Seoul+14_126
-      - KOR+🇰🇷+Seoul+10_127
-      - KOR+🇰🇷+Seoul+61_128
-      - KOR+🇰🇷+Seoul+51_129
-      - KOR+🇰🇷+Seoul+69_130
-      - KOR+🇰🇷+Seoul+55_131
-      - KOR+🇰🇷+Seoul+68_132
-      - KOR+🇰🇷+Seoul+33_133
-      - KOR+🇰🇷+Seoul+67_134
-      - KOR+🇰🇷+Seoul+34_135
-      - KOR+🇰🇷+Seoul+72_136
-      - KOR+🇰🇷+Seoul+9_137
-      - KOR+🇰🇷+Seoul+47_138
-      - KOR+🇰🇷+Seoul+73_139
-      - KOR+🇰🇷+Seoul+88_140
-      - KOR+🇰🇷+Seoul+59_141
-      - KOR+🇰🇷+Seoul+91_142
-      - KOR+🇰🇷+Seoul+80_143
-      - KOR+🇰🇷+Seoul+42_144
-      - KOR+🇰🇷+Seoul+4_145
-      - KOR+🇰🇷+Seoul+18_146
-      - KOR+🇰🇷+Seoul+38_147
-      - KOR+🇰🇷+Seoul+105_148
-      - KOR+🇰🇷+Seoul+8_149
-      - KOR+🇰🇷+Seoul+86_150
-      - KOR+🇰🇷+Seoul+26_151
-      - KOR+🇰🇷+Seoul+24_152
-      - KOR+🇰🇷+Seoul+25_153
-      - KOR+🇰🇷+Seoul+76_154
-      - KOR+🇰🇷+Seoul+87_155
-      - KOR+🇰🇷+Seoul+15_156
-      - KOR+🇰🇷+Seoul+96_157
-      - KOR+🇰🇷+Seoul+40_158
-      - KOR+🇰🇷+Seoul+21_159
-      - KOR+🇰🇷+Seoul+75_160
-      - KOR+🇰🇷+Seoul+81_161
-      - KOR+🇰🇷+Seoul+71_162
-      - KOR+🇰🇷+Seoul+17_163
-      - KOR+🇰🇷+Seoul+108_164
-      - KOR+🇰🇷+Seoul+46_165
-      - KOR+🇰🇷+Seoul+102_166
-      - KOR+🇰🇷+Seoul+13_167
-      - KOR+🇰🇷+Seoul+79_168
-      - KOR+🇰🇷+Seoul+95_169
-      - KOR+🇰🇷+Seoul+90_170
-      - KOR+🇰🇷+Seoul+83_171
-      - KOR+🇰🇷+Seoul+53_172
-      - KOR+🇰🇷+Seoul+29_173
-      - KOR+🇰🇷+Seoul+60_174
-      - KOR+🇰🇷+Seoul+58_175
-      - KOR+🇰🇷+Seoul+103_176
-      - UK 🇬🇧 London 78_177
-      - HKG+🇭🇰+Central+3_178
-      - NOR+🇳🇴+Kristiansand+13_179
-      - SNG+🇸🇬+Queenstown+Estate_180
-      - @proSSHbotUfoVPN-Singapore-QueenstownEstate_181
-      - @proSSHbotUfoVPN-Australia-Sydney_182
-      - 🇫🇷+France+4+t.me/SurfShark_ALA_183
-      - 📛+YouTube+without+ads+4+t.me/SurfShark_ALA_184
-      - 📛+YouTube+without+ads+2+t.me/SurfShark_ALA_185
-      - 🇬🇧+UK.London+2+t.me/SurfShark_ALA_186
-      - 🇫🇷+France+5+t.me/SurfShark_ALA_187
-      - 🇩🇪+Germany+8+t.me/SurfShark_ALA_188
-      - 📛+YouTube+without+ads+5+t.me/SurfShark_ALA_189
-      - 📛+YouTube+without+ads+3+t.me/SurfShark_ALA_190
-      - 🇷🇺+Russia+2+t.me/SurfShark_ALA_191
-      - 🇺🇸+USA.Georgia.Atlanta+1+t.me/SurfShark_ALA_192
-      - 🇺🇸+USA.Texas.Dallas+1+t.me/SurfShark_ALA_193
-      - 🇺🇸+USA.Denver+1+t.me/SurfShark_ALA_194
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_195
-      - 🇯🇵+Japan+2+t.me/SurfShark_ALA_196
-      - 🇦🇷+Argentina+1+t.me/SurfShark_ALA_197
-      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_198
-      - 🇧🇷+Brazil++1+t.me/SurfShark_ALA_199
-      - 🇰🇷+South+Korea+4+t.me/SurfShark_ALA_200
-      - 🇰🇷+South+Korea+1+t.me/SurfShark_ALA_201
-      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_202
-      - Germany/@BN_CHANLL_203
-      - Bosnia+and+Herzegovina/@BN_CHANLL+7_204
-      - Canada/@BN_CHANLL+6_205
-      - Canada/@BN_CHANLL+5_206
-      - Canada/@BN_CHANLL+11_207
-      - Canada/@BN_CHANLL+7_208
-      - Canada/@BN_CHANLL+2_209
-      - Canada/@BN_CHANLL+9_210
-      - United+States/@BN_CHANLL_211
-      - United+States/@BN_CHANLL+8_212
-      - Canada/@BN_CHANLL+3_213
-      - United+States/@BN_CHANLL+3_214
-      - Singapore/@BN_CHANLL+2_215
-      - United+States/@BN_CHANLL+10_216
-      - Japan/@BN_CHANLL_217
-      - Japan/@BN_CHANLL+5_218
-      - United+States/@BN_CHANLL+19_219
-      - Malaysia/@BN_CHANLL_220
-      - Japan/@BN_CHANLL+3_221
-      - United+States/@BN_CHANLL+12_222
-      - Mexico/@BN_CHANLL_223
-      - Brazil/@BN_CHANLL+2_224
-      - Brazil/@BN_CHANLL_225
-      - Japan/@BN_CHANLL+2_226
-      - Australia/@BN_CHANLL+3_227
-      - Singapore/@BN_CHANLL_228
-      - India/@BN_CHANLL_229
-      - Australia/@BN_CHANLL+2_230
-      - Australia/@BN_CHANLL_231
-      - defaltName_232
-      - 🇩🇪DE_278+|22.55Mb
-      - 🇺🇸US_1709+|12.42Mb
-      - 🇮🇹IT_476+|10.42Mb
-      - 🇬🇧_GB_英国+3_236
-      - 🇩🇪DE_291+|+7.08Mb
-      - 🇩🇪DE_259+|18.25Mb
-      - Pool_🇧🇦BA_46+|27.73Mb
-      - defaltName_240
-      - WinForm+shadoW+30_241
-      - 🇩🇪DE_300+|19.26Mb
-      - Pool_🇧🇦BA_65+|24.40Mb
-      - defaltName_244
-      - 🇺🇸US_1604+|16.08Mb
-      - 🇩🇪DE_289+|24.43Mb
-      - Pool_🇧🇦BA_31+|17.17Mb
-      - 🇩🇪DE_296+|19.30Mb
-      - 🇺🇸US_1543+|+9.03Mb
-      - WinForm+shadoW+27_250
-      - 🇩🇪DE_256+|21.46Mb
-      - WinForm+shadoW+31_252
-      - 🇺🇸US_1548+|15.81Mb
-      - 🇺🇸US_1489+|22.21Mb
-      - 🇺🇸US_1578+|12.88Mb
-      - 🇺🇸US_1713+|23.05Mb
-      - 🇩🇪DE_295+|11.02Mb
-      - 🇬🇧_GB_英国_258
-      - WinForm+shadoW+18_259
-      - WinForm+shadoW+34_260
-      - Pool_🇧🇦BA_73+|24.00Mb
-      - 🇩🇪DE_279+|21.99Mb
-      - Pool_🇧🇦BA_84+|25.39Mb
-      - defaltName_264
-      - defaltName_265
-      - Pool_🇧🇦BA_69+|23.28Mb
-      - 🇮🇹IT_475+|21.19Mb
-      - Relay_🏁ZZ-🇬🇧GB_1995+|11.61Mb
-      - 🇺🇸US_1509+|23.12Mb
-      - 🇩🇪DE_258+|10.54Mb
-      - Pool_🇧🇦BA_79+|26.57Mb
-      - 🇬🇧_GB_英国+6_272
-      - 🇩🇪DE_290+|22.76Mb
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_274
-      - 🇳🇴_NO_挪威+9_275
-      - WinForm+shadoW+29_276
-      - 🇩🇪DE_273+|22.26Mb
-      - 🇺🇸US_1500+|+5.88Mb
-      - Pool_🇧🇦BA_77+|23.38Mb
-      - Pool_🇧🇦BA_50+|23.91Mb
-      - Pool_🇧🇦BA_66+|24.23Mb
-      - WinForm+shadoW+26_282
-      - 🇺🇸US_989+|+8.99Mb
-      - Pool_🇧🇦BA_68+|24.69Mb
-      - Pool_🇧🇦BA_53+|24.12Mb
-      - 🇺🇸US_1402+|+8.37Mb
-      - Pool_🇧🇦BA_80+|25.47Mb
-      - Pool_🇧🇦BA_22+|24.76Mb
-      - 🇳🇴_NO_挪威+7_289
-      - 🇬🇧_GB_英国+2_290
-      - defaltName_291
-      - defaltName_292
-      - 🇩🇪DE_288+|22.30Mb
-      - 🇺🇸US_1539+|15.81Mb
-      - 🇳🇴NO_626+|12.30Mb
-      - Pool_🇧🇦BA_36+|23.67Mb
-      - 🇺🇸US_1404+|+9.25Mb
-      - 🇺🇸US_992+|+7.55Mb
-      - 🇳🇴NO_610+|23.88Mb
-      - Pool_🇧🇦BA_74+|24.25Mb
-      - Pool_🇧🇦BA_28+|25.49Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - 🇩🇪DE_281+|21.57Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - 🇺🇸US_1330+|+4.83Mb
-      - Pool_🇧🇦BA_30+|17.70Mb
-      - WinForm+Italy_307
-      - 🇩🇪DE_285+|22.19Mb
-      - 🇺🇸US_1366+|+9.30Mb
-      - Pool_🇧🇦BA_44+|23.90Mb
-      - 🇳🇴_NO_挪威+8_311
-      - WinForm+shadoW+38_312
-      - WinForm+shadoW+42_313
-      - Relay_🇪🇸ES-🇪🇸ES_312+|37.73Mb
-      - defaltName_315
-      - default_name+2_316
-      - Pool_🇧🇦BA_57+|23.71Mb
-      - Pool_🇧🇦BA_56+|23.81Mb
-      - 🇫🇷FR_325+|26.74Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - 🇩🇪DE_280+|22.26Mb
-      - 🇺🇸US_1494+|+7.92Mb
-      - Pool_🇧🇦BA_35+|25.74Mb
-      - WinForm+shadoW+43_324
-      - WinForm+shadoW+46_325
-      - defaltName_326
-      - WinForm+shadoW+28_327
-      - Pool_🇧🇦BA_71+|23.42Mb
-      - 🇳🇴NO_611+|20.16Mb
-      - Pool_🇧🇦BA_60+|24.58Mb
-      - Pool_🇧🇦BA_67+|14.87Mb
-      - Pool_🇧🇦BA_75+|24.86Mb
-      - 🇳🇴_NO_挪威+12_333
-      - Pool_🇧🇦BA_21+|26.46Mb
-      - WinForm+shadoW+39_335
-      - Pool_🇧🇦BA_34+|26.74Mb
-      - Pool_🇧🇦BA_78+|22.75Mb
-      - Pool_🇧🇦BA_61+|25.78Mb
-      - defaltName_339
-      - 🇳🇴_NO_挪威+1_340
-      - 🇺🇸US_1706+|+8.82Mb
-      - 🇮🇹IT_480+|20.95Mb
-      - 🇳🇴_NO_挪威+6_343
-      - 🇮🇹IT_477+|10.42Mb
-      - WinForm+shadoW+44_345
-      - defaltName_346
-      - Pool_🇧🇦BA_37+|17.41Mb
-      - defaltName_348
-      - 🇬🇧_GB_英国+4_349
-      - Pool_🇧🇦BA_82+|26.60Mb
-      - Pool_🇧🇦BA_81+|17.08Mb
-      - WinForm+shadoW+32_352
-      - Pool_🇧🇦BA_42+|26.37Mb
-      - 🇩🇪DE_293+|22.31Mb
-      - Pool_🇧🇦BA_51+|25.15Mb
-      - Pool_🇧🇦BA_41+|24.53Mb
-      - WinForm+shadoW+33_357
-      - Pool_🇧🇦BA_58+|26.57Mb
-      - 🇩🇪DE_277+|22.10Mb
-      - 🇳🇴_NO_挪威+5_360
-      - defaltName_361
-      - WinForm+NOR+🇳🇴+Kristiansad_362
-      - Pool_🇧🇦BA_33+|23.52Mb
-      - 🇳🇴NO_624+|22.15Mb
-      - Pool_🇧🇦BA_70+|24.56Mb
-      - ufo+United+Kingdom+🇬🇧+London+5_366
-      - Pool_🇧🇦BA_47+|21.32Mb
-      - 🇺🇸US_1102+|+8.39Mb
-      - 🇺🇸US_1660+|+7.32Mb
-      - Pool_🇧🇦BA_23+|21.79Mb
-      - defaltName_371
-      - Pool_🇧🇦BA_43+|10.42Mb
-      - Pool_🇧🇦BA_63+|24.25Mb
-      - 🇬🇧_GB_英国+1_374
-      - 🇵🇹_PT_葡萄牙+1_375
-      - 🇳🇴_NO_挪威+11_376
-      - 🇳🇴NO_619+|25.69Mb
-      - defaltName_378
-      - 🇺🇸US_861+|+7.21Mb
-      - Relay_🇷🇴RO-🇷🇴RO_667+|27.50Mb
-      - Pool_🇧🇦BA_72+|26.85Mb
-      - Pool_🇧🇦BA_40+|20.58Mb
-      - 🇵🇱PL_643+|21.69Mb
-      - defaltName_384
-      - 🇵🇱PL_653+|20.03Mb
-      - 🇳🇴NO_612+|+5.62Mb
-      - Pool_🇧🇦BA_76+|23.69Mb
-      - default_name+5_388
-      - default_name+8_389
-      - 🇳🇴_NO_挪威+10_390
-      - 🇬🇧_GB_英国+5_391
-      - default_name+7_392
-      - WinForm+shadoW+45_393
-      - 🇳🇴_NO_挪威+3_394
-      - 🇵🇹_PT_葡萄牙_395
-      - 🇳🇴NO_614+|12.23Mb
-      - 🇺🇸US_1517+|14.57Mb
-      - Pool_🇧🇦BA_25+|21.51Mb
-      - 🇺🇸_US_美国+5_399
-      - WinForm+SS5_400
-      - WinForm+shadoW+41_401
-      - 🇺🇸_US_美国+6_402
-      - 🇳🇴_NO_挪威+4_403
-      - 🇺🇸US_1625+|+7.31Mb
-      - 🇩🇪DE_286+|22.88Mb
+      - 🇭🇰_HK_香港_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
+      - 🇩🇪_DE_德国_14
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_15
+      - 🇭🇰_HK_香港_16
+      - default_name_17
+      - 🇵🇹_PT_葡萄牙_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇺🇸_US_美国_20
+      - 🇩🇪_DE_德国_21
+      - 🇳🇴_NO_挪威_22
+      - 🇫🇷_FR_法国_23
+      - 🇳🇴_NO_挪威_24
+      - 🇲🇽_MX_墨西哥_25
+      - 🇳🇴_NO_挪威_26
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_27
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_28
+      - 🇭🇰_HK_香港_29
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_30
+      - 🇭🇰_HK_香港_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇬🇧_GB_英国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇯🇵_JP_日本_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - default_name_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇺🇸_US_美国_69
+      - default_name_70
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇺🇸_US_美国_73
+      - 🇨🇦_CA_加拿大_74
+      - 🇺🇸_US_美国_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇺🇸_US_美国_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇨🇦_CA_加拿大_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇩🇰_DK_丹麦_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇨🇦_CA_加拿大_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇸_US_美国_94
+      - 🇨🇦_CA_加拿大_95
+      - 🇬🇧_GB_英国_96
+      - 🇩🇪_DE_德国_97
+      - 🇬🇧_GB_英国_98
+      - 🇬🇧_GB_英国_99
+      - 🇬🇧_GB_英国_100
+      - 🇬🇧_GB_英国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇨🇦_CA_加拿大_104
+      - 🇬🇧_GB_英国_105
+      - 🇩🇪_DE_德国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇺🇦_UA_乌克兰_110
+      - 🇨🇦_CA_加拿大_111
+      - 🇬🇧_GB_英国_112
+      - 🇨🇦_CA_加拿大_113
+      - 🇺🇸_US_美国_114
+      - 🇨🇦_CA_加拿大_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇷🇴_RO_罗马尼亚_117
+      - 🇬🇧_GB_英国_118
+      - 🇬🇧_GB_英国_119
+      - 🇬🇧_GB_英国_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇩🇪_DE_德国_122
+      - 🇬🇧_GB_英国_123
+      - 🇨🇦_CA_加拿大_124
+      - default_name_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇻🇳_VN_越南_128
+      - default_name_129
+      - 🇦🇺_AU_澳大利亚_130
+      - default_name_131
+      - 🇬🇧_GB_英国_132
+      - 🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇺🇦_UA_乌克兰_136
+      - 🇬🇧_GB_英国_137
+      - 🇸🇪_SE_瑞典_138
+      - 🇩🇪_DE_德国_139
+      - 🇵🇹_PT_葡萄牙_140
+      - 🇫🇷_FR_法国_141
+      - 🇦🇺_AU_澳大利亚_142
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_143
+      - 🇺🇸_US_美国_144
+      - default_name_145
+      - 🇨🇦_CA_加拿大_146
+      - default_name_147
+      - default_name_148
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇭🇰_HK_香港_152
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_153
+      - 🇨🇦_CA_加拿大_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇺🇸_US_美国_156
+      - 🇨🇦_CA_加拿大_157
+      - 🇮🇳_IN_印度_158
+      - 🇮🇳_IN_印度_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇫🇷_FR_法国_162
+      - 🇨🇦_CA_加拿大_163
+      - 🇬🇧_GB_英国_164
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_165
+      - 🇩🇪_DE_德国_166
+      - 🇬🇧_GB_英国_167
+      - 🇮🇳_IN_印度_168
+      - 🇮🇳_IN_印度_169
+      - 🇺🇸_US_美国_170
+      - 🇯🇵_JP_日本_171
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_172
+      - 🇨🇦_CA_加拿大_173
+      - 🇮🇳_IN_印度_174
+      - 🇫🇷_FR_法国_175
+      - 🇯🇵_JP_日本_176
+      - 🇳🇴_NO_挪威_177
+      - 🇫🇷_FR_法国_178
+      - 🇺🇸_US_美国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇮🇳_IN_印度_181
+      - 🇫🇷_FR_法国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇮🇳_IN_印度_185
+      - 🇲🇾_MY_马来西亚_186
+      - 🇨🇦_CA_加拿大_187
+      - 🇫🇷_FR_法国_188
+      - 🇫🇷_FR_法国_189
+      - 🇺🇸_US_美国_190
+      - 🇫🇷_FR_法国_191
+      - 🇧🇦_BA_波黑_192
+      - 🇳🇴_NO_挪威_193
+      - 🇫🇷_FR_法国_194
+      - 🇺🇸_US_美国_195
+      - 🇨🇦_CA_加拿大_196
+      - 🇳🇴_NO_挪威_197
+      - 🇫🇷_FR_法国_198
+      - 🇦🇪_AE_阿联酋_199
+      - 🇫🇷_FR_法国_200
+      - 🇫🇷_FR_法国_201
+      - 🇮🇩_ID_印度尼西亚_202
+      - 🇬🇷_GR_希腊_203
+      - 🇳🇴_NO_挪威_204
+      - 🇦🇪_AE_阿联酋_205
+      - 🇳🇴_NO_挪威_206
+      - 🇫🇷_FR_法国_207
+      - 🇳🇴_NO_挪威_208
+      - 🇺🇸_US_美国_209
+      - 🇫🇷_FR_法国_210
+      - 🇺🇸_US_美国_211
+      - 🇨🇦_CA_加拿大_212
+      - 🇳🇴_NO_挪威_213
+      - 🇺🇸_US_美国_214
+      - 🇺🇸_US_美国_215
+      - 🇫🇷_FR_法国_216
+      - 🇺🇸_US_美国_217
+      - 🇺🇸_US_美国_218
+      - 🇺🇸_US_美国_219
+      - 🇨🇦_CA_加拿大_220
+      - 🇨🇦_CA_加拿大_221
+      - 🇺🇸_US_美国_222
+      - 🇺🇸_US_美国_223
+      - 🇨🇦_CA_加拿大_224
+      - 🇨🇦_CA_加拿大_225
+      - 🇨🇦_CA_加拿大_226
+      - 🇨🇦_CA_加拿大_227
+      - 🇬🇧_GB_英国_228
+      - 🇬🇧_GB_英国_229
+      - 🇬🇧_GB_英国_230
+      - 🇺🇸_US_美国_231
+      - 🇳🇴_NO_挪威_232
+      - 🇨🇦_CA_加拿大_233
+      - 🇳🇴_NO_挪威_234
+      - 🇨🇦_CA_加拿大_235
+      - 🇳🇴_NO_挪威_236
+      - 🇳🇴_NO_挪威_237
+      - 🇬🇷_GR_希腊_238
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇷🇺+@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub_1
-      - 🇷🇺+@SSRSUB-俄罗斯T11-付费推荐:dlj.tf/ssrsub_2
-      - 🇷🇺+@SSRSUB-俄罗斯T05-付费推荐:dlj.tf/ssrsub_3
-      - 🇷🇺+@SSRSUB-俄罗斯T06-付费推荐:dlj.tf/ssrsub_4
-      - 🇷🇺+@SSRSUB-俄罗斯T07-付费推荐:dlj.tf/ssrsub_5
-      - 🇷🇺+@SSRSUB-俄罗斯T01-付费推荐:dlj.tf/ssrsub_6
-      - @SSRSUB-V32-付费推荐:suo.yt/ssrsub_7
-      - @SSRSUB-V35-付费推荐:suo.yt/ssrsub_8
-      - @SSRSUB-V21-付费推荐:suo.yt/ssrsub_9
-      - 🇨🇦+@SSRSUB-加拿大T03-付费推荐:dlj.tf/ssrsub_10
-      - 🇨🇦+@SSRSUB-加拿大T09-付费推荐:dlj.tf/ssrsub_11
-      - @SSRSUB-V37-付费推荐:suo.yt/ssrsub_12
-      - @SSRSUB-V51-付费推荐:suo.yt/ssrsub_13
-      - @SSRSUB-V31-付费推荐:suo.yt/ssrsub_14
-      - @SSRSUB-V25-付费推荐:suo.yt/ssrsub_15
-      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_16
-      - @SSRSUB-V49-付费推荐:suo.yt/ssrsub_17
-      - @SSRSUB-V02-付费推荐:suo.yt/ssrsub_18
-      - 🇷🇺+@SSRSUB-俄罗斯T02-付费推荐:dlj.tf/ssrsub_19
-      - @SSRSUB-V38-付费推荐:suo.yt/ssrsub_20
-      - @SSRSUB-V47-付费推荐:suo.yt/ssrsub_21
-      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_22
-      - @SSRSUB-V10-付费推荐:suo.yt/ssrsub_23
-      - @SSRSUB-V33-付费推荐:suo.yt/ssrsub_24
-      - 🇷🇺+@SSRSUB-俄罗斯T08-付费推荐:dlj.tf/ssrsub_25
-      - @SSRSUB-V46-付费推荐:suo.yt/ssrsub_26
-      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_27
-      - @SSRSUB-V01-付费推荐:suo.yt/ssrsub_28
-      - @SSRSUB-V52-付费推荐:suo.yt/ssrsub_29
-      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_30
-      - @SSRSUB-V41-付费推荐:suo.yt/ssrsub_31
-      - WeVPN+GR+🇬🇷+Athens_32
-      - WeVPN+CA+🇨🇦+Toronto_33
-      - 🇮🇳+India+8_34
-      - 🇮🇳+India+9_35
-      - 🇮🇳+India+13_36
-      - WeVPN+IL+🇮🇱+Tel+Aviv_37
-      - 🇭🇰+Hong+Kong+5_38
-      - 🇭🇰+Hong+Kong+9_39
-      - 🇭🇰+Hong+Kong+13_40
-      - 🇭🇰+Hong+Kong+14_41
-      - WeVPN+JP+🇯🇵+Tokyo_42
-      - 🇰🇷+Korea,+Republic+of+58_43
-      - 🇰🇷+Korea,+Republic+of+59_44
-      - 🇰🇷+Korea,+Republic+of+27_45
-      - 🇰🇷+Korea,+Republic+of+31_46
-      - 🇰🇷+Korea,+Republic+of+4_47
-      - 🇰🇷+Korea,+Republic+of+56_48
-      - WeVPN+NZ+🇳🇿+Auckland_49
-      - 🇰🇷+Korea,+Republic+of+33_50
-      - 🇰🇷+Korea,+Republic+of+66_51
-      - WeVPN+VN+🇻🇳+Hanoi_52
-      - 🇰🇷+Korea,+Republic+of+12_53
-      - 🇰🇷+Korea,+Republic+of+34_54
-      - WeVPN+TW+🇹🇼+Taipei_55
-      - WeVPN+PH+🇵🇭+Manila_56
-      - 🇰🇷+Korea,+Republic+of+38_57
-      - 🇰🇷+Korea,+Republic+of+67_58
-      - 🇰🇷+Korea,+Republic+of+17_59
-      - WeVPN+ID+🇮🇩+Jakarta_60
-      - WeVPN+KR+🇰🇷+Seoul_61
-      - XY+VPN+Italy+🇮🇹+Milan+2_62
-      - XY+VPN+USA+🇺🇸+Dalas_63
-      - ufo+Australia+🇦🇺+Sydney_64
-      - UK+🇬🇧+London+2_65
-      - ITA+🇮🇹+Milan_66
-      - ITA+🇮🇹+Milan+5_67
-      - GRC+🇬🇷+Athens_68
-      - UK 🇬🇧 London 77_69
-      - NLD 🇳🇱 Amsterdam 8_70
-      - NOR+🇳🇴+Kristiansand+4_71
-      - NOR+🇳🇴+Kristiansand+15_72
-      - FIN+🇫🇮+Helsinki+2_73
-      - IND+🇮🇳+Mumbai+15_74
-      - IND+🇮🇳+Mumbai+4_75
-      - IND+🇮🇳+Mumbai+18_76
-      - ISR+🇮🇱+Tel+Aviv_77
-      - USA+🇺🇸+Tennessee_78
-      - IND+🇮🇳+Mumbai+8_79
-      - IND+🇮🇳+Mumbai_80
-      - IND+🇮🇳+Mumbai+13_81
-      - IND+🇮🇳+Mumbai+16_82
-      - USA+🇺🇸+California+2_83
-      - CAN+🇨🇦+Beauharnois_84
-      - USA+🇺🇸+Arizona_85
-      - IND+🇮🇳+Mumbai+11_86
-      - IND+🇮🇳+Mumbai+9_87
-      - JPN+🇯🇵+Tokyo+3_88
-      - IND+🇮🇳+Mumbai+5_89
-      - USA+🇺🇸+Washington_90
-      - IND+🇮🇳+Mumbai+22_91
-      - JPN+🇯🇵+Tokyo+19_92
-      - IND+🇮🇳+Mumbai+23_93
-      - JPN+🇯🇵+Tokyo+16_94
-      - HKG+🇭🇰+Central+6_95
-      - HKG+🇭🇰+Central+4_96
-      - HKG+🇭🇰+Central+7_97
-      - HKG+🇭🇰+Central+9_98
-      - HKG+🇭🇰+Central+5_99
-      - BRA+🇧🇷+Sao+Paulo_100
-      - KOR+🇰🇷+Seoul+93_101
-      - SNG+🇸🇬+Queenstown+Estate+2_102
-      - KOR+🇰🇷+Seoul+77_103
-      - KOR+🇰🇷+Seoul+6_104
-      - KOR+🇰🇷+Seoul+22_105
-      - KOR+🇰🇷+Seoul+49_106
-      - KOR+🇰🇷+Seoul+56_107
-      - KOR+🇰🇷+Seoul+36_108
-      - KOR+🇰🇷+Seoul+100_109
-      - KOR+🇰🇷+Seoul+78_110
-      - KOR+🇰🇷+Seoul+89_111
-      - KOR+🇰🇷+Seoul+66_112
-      - KOR+🇰🇷+Seoul+41_113
-      - KOR+🇰🇷+Seoul+106_114
-      - KOR+🇰🇷+Seoul+27_115
-      - KOR+🇰🇷+Seoul+48_116
-      - KOR+🇰🇷+Seoul+23_117
-      - KOR+🇰🇷+Seoul+7_118
-      - KOR+🇰🇷+Seoul+82_119
-      - KOR+🇰🇷+Seoul+94_120
-      - KOR+🇰🇷+Seoul+35_121
-      - KOR+🇰🇷+Seoul+50_122
-      - KOR+🇰🇷+Seoul+20_123
-      - KOR+🇰🇷+Seoul+98_124
-      - KOR+🇰🇷+Seoul+65_125
-      - KOR+🇰🇷+Seoul+14_126
-      - KOR+🇰🇷+Seoul+10_127
-      - KOR+🇰🇷+Seoul+61_128
-      - KOR+🇰🇷+Seoul+51_129
-      - KOR+🇰🇷+Seoul+69_130
-      - KOR+🇰🇷+Seoul+55_131
-      - KOR+🇰🇷+Seoul+68_132
-      - KOR+🇰🇷+Seoul+33_133
-      - KOR+🇰🇷+Seoul+67_134
-      - KOR+🇰🇷+Seoul+34_135
-      - KOR+🇰🇷+Seoul+72_136
-      - KOR+🇰🇷+Seoul+9_137
-      - KOR+🇰🇷+Seoul+47_138
-      - KOR+🇰🇷+Seoul+73_139
-      - KOR+🇰🇷+Seoul+88_140
-      - KOR+🇰🇷+Seoul+59_141
-      - KOR+🇰🇷+Seoul+91_142
-      - KOR+🇰🇷+Seoul+80_143
-      - KOR+🇰🇷+Seoul+42_144
-      - KOR+🇰🇷+Seoul+4_145
-      - KOR+🇰🇷+Seoul+18_146
-      - KOR+🇰🇷+Seoul+38_147
-      - KOR+🇰🇷+Seoul+105_148
-      - KOR+🇰🇷+Seoul+8_149
-      - KOR+🇰🇷+Seoul+86_150
-      - KOR+🇰🇷+Seoul+26_151
-      - KOR+🇰🇷+Seoul+24_152
-      - KOR+🇰🇷+Seoul+25_153
-      - KOR+🇰🇷+Seoul+76_154
-      - KOR+🇰🇷+Seoul+87_155
-      - KOR+🇰🇷+Seoul+15_156
-      - KOR+🇰🇷+Seoul+96_157
-      - KOR+🇰🇷+Seoul+40_158
-      - KOR+🇰🇷+Seoul+21_159
-      - KOR+🇰🇷+Seoul+75_160
-      - KOR+🇰🇷+Seoul+81_161
-      - KOR+🇰🇷+Seoul+71_162
-      - KOR+🇰🇷+Seoul+17_163
-      - KOR+🇰🇷+Seoul+108_164
-      - KOR+🇰🇷+Seoul+46_165
-      - KOR+🇰🇷+Seoul+102_166
-      - KOR+🇰🇷+Seoul+13_167
-      - KOR+🇰🇷+Seoul+79_168
-      - KOR+🇰🇷+Seoul+95_169
-      - KOR+🇰🇷+Seoul+90_170
-      - KOR+🇰🇷+Seoul+83_171
-      - KOR+🇰🇷+Seoul+53_172
-      - KOR+🇰🇷+Seoul+29_173
-      - KOR+🇰🇷+Seoul+60_174
-      - KOR+🇰🇷+Seoul+58_175
-      - KOR+🇰🇷+Seoul+103_176
-      - UK 🇬🇧 London 78_177
-      - HKG+🇭🇰+Central+3_178
-      - NOR+🇳🇴+Kristiansand+13_179
-      - SNG+🇸🇬+Queenstown+Estate_180
-      - @proSSHbotUfoVPN-Singapore-QueenstownEstate_181
-      - @proSSHbotUfoVPN-Australia-Sydney_182
-      - 🇫🇷+France+4+t.me/SurfShark_ALA_183
-      - 📛+YouTube+without+ads+4+t.me/SurfShark_ALA_184
-      - 📛+YouTube+without+ads+2+t.me/SurfShark_ALA_185
-      - 🇬🇧+UK.London+2+t.me/SurfShark_ALA_186
-      - 🇫🇷+France+5+t.me/SurfShark_ALA_187
-      - 🇩🇪+Germany+8+t.me/SurfShark_ALA_188
-      - 📛+YouTube+without+ads+5+t.me/SurfShark_ALA_189
-      - 📛+YouTube+without+ads+3+t.me/SurfShark_ALA_190
-      - 🇷🇺+Russia+2+t.me/SurfShark_ALA_191
-      - 🇺🇸+USA.Georgia.Atlanta+1+t.me/SurfShark_ALA_192
-      - 🇺🇸+USA.Texas.Dallas+1+t.me/SurfShark_ALA_193
-      - 🇺🇸+USA.Denver+1+t.me/SurfShark_ALA_194
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_195
-      - 🇯🇵+Japan+2+t.me/SurfShark_ALA_196
-      - 🇦🇷+Argentina+1+t.me/SurfShark_ALA_197
-      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_198
-      - 🇧🇷+Brazil++1+t.me/SurfShark_ALA_199
-      - 🇰🇷+South+Korea+4+t.me/SurfShark_ALA_200
-      - 🇰🇷+South+Korea+1+t.me/SurfShark_ALA_201
-      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_202
-      - Germany/@BN_CHANLL_203
-      - Bosnia+and+Herzegovina/@BN_CHANLL+7_204
-      - Canada/@BN_CHANLL+6_205
-      - Canada/@BN_CHANLL+5_206
-      - Canada/@BN_CHANLL+11_207
-      - Canada/@BN_CHANLL+7_208
-      - Canada/@BN_CHANLL+2_209
-      - Canada/@BN_CHANLL+9_210
-      - United+States/@BN_CHANLL_211
-      - United+States/@BN_CHANLL+8_212
-      - Canada/@BN_CHANLL+3_213
-      - United+States/@BN_CHANLL+3_214
-      - Singapore/@BN_CHANLL+2_215
-      - United+States/@BN_CHANLL+10_216
-      - Japan/@BN_CHANLL_217
-      - Japan/@BN_CHANLL+5_218
-      - United+States/@BN_CHANLL+19_219
-      - Malaysia/@BN_CHANLL_220
-      - Japan/@BN_CHANLL+3_221
-      - United+States/@BN_CHANLL+12_222
-      - Mexico/@BN_CHANLL_223
-      - Brazil/@BN_CHANLL+2_224
-      - Brazil/@BN_CHANLL_225
-      - Japan/@BN_CHANLL+2_226
-      - Australia/@BN_CHANLL+3_227
-      - Singapore/@BN_CHANLL_228
-      - India/@BN_CHANLL_229
-      - Australia/@BN_CHANLL+2_230
-      - Australia/@BN_CHANLL_231
-      - defaltName_232
-      - 🇩🇪DE_278+|22.55Mb
-      - 🇺🇸US_1709+|12.42Mb
-      - 🇮🇹IT_476+|10.42Mb
-      - 🇬🇧_GB_英国+3_236
-      - 🇩🇪DE_291+|+7.08Mb
-      - 🇩🇪DE_259+|18.25Mb
-      - Pool_🇧🇦BA_46+|27.73Mb
-      - defaltName_240
-      - WinForm+shadoW+30_241
-      - 🇩🇪DE_300+|19.26Mb
-      - Pool_🇧🇦BA_65+|24.40Mb
-      - defaltName_244
-      - 🇺🇸US_1604+|16.08Mb
-      - 🇩🇪DE_289+|24.43Mb
-      - Pool_🇧🇦BA_31+|17.17Mb
-      - 🇩🇪DE_296+|19.30Mb
-      - 🇺🇸US_1543+|+9.03Mb
-      - WinForm+shadoW+27_250
-      - 🇩🇪DE_256+|21.46Mb
-      - WinForm+shadoW+31_252
-      - 🇺🇸US_1548+|15.81Mb
-      - 🇺🇸US_1489+|22.21Mb
-      - 🇺🇸US_1578+|12.88Mb
-      - 🇺🇸US_1713+|23.05Mb
-      - 🇩🇪DE_295+|11.02Mb
-      - 🇬🇧_GB_英国_258
-      - WinForm+shadoW+18_259
-      - WinForm+shadoW+34_260
-      - Pool_🇧🇦BA_73+|24.00Mb
-      - 🇩🇪DE_279+|21.99Mb
-      - Pool_🇧🇦BA_84+|25.39Mb
-      - defaltName_264
-      - defaltName_265
-      - Pool_🇧🇦BA_69+|23.28Mb
-      - 🇮🇹IT_475+|21.19Mb
-      - Relay_🏁ZZ-🇬🇧GB_1995+|11.61Mb
-      - 🇺🇸US_1509+|23.12Mb
-      - 🇩🇪DE_258+|10.54Mb
-      - Pool_🇧🇦BA_79+|26.57Mb
-      - 🇬🇧_GB_英国+6_272
-      - 🇩🇪DE_290+|22.76Mb
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_274
-      - 🇳🇴_NO_挪威+9_275
-      - WinForm+shadoW+29_276
-      - 🇩🇪DE_273+|22.26Mb
-      - 🇺🇸US_1500+|+5.88Mb
-      - Pool_🇧🇦BA_77+|23.38Mb
-      - Pool_🇧🇦BA_50+|23.91Mb
-      - Pool_🇧🇦BA_66+|24.23Mb
-      - WinForm+shadoW+26_282
-      - 🇺🇸US_989+|+8.99Mb
-      - Pool_🇧🇦BA_68+|24.69Mb
-      - Pool_🇧🇦BA_53+|24.12Mb
-      - 🇺🇸US_1402+|+8.37Mb
-      - Pool_🇧🇦BA_80+|25.47Mb
-      - Pool_🇧🇦BA_22+|24.76Mb
-      - 🇳🇴_NO_挪威+7_289
-      - 🇬🇧_GB_英国+2_290
-      - defaltName_291
-      - defaltName_292
-      - 🇩🇪DE_288+|22.30Mb
-      - 🇺🇸US_1539+|15.81Mb
-      - 🇳🇴NO_626+|12.30Mb
-      - Pool_🇧🇦BA_36+|23.67Mb
-      - 🇺🇸US_1404+|+9.25Mb
-      - 🇺🇸US_992+|+7.55Mb
-      - 🇳🇴NO_610+|23.88Mb
-      - Pool_🇧🇦BA_74+|24.25Mb
-      - Pool_🇧🇦BA_28+|25.49Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - 🇩🇪DE_281+|21.57Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - 🇺🇸US_1330+|+4.83Mb
-      - Pool_🇧🇦BA_30+|17.70Mb
-      - WinForm+Italy_307
-      - 🇩🇪DE_285+|22.19Mb
-      - 🇺🇸US_1366+|+9.30Mb
-      - Pool_🇧🇦BA_44+|23.90Mb
-      - 🇳🇴_NO_挪威+8_311
-      - WinForm+shadoW+38_312
-      - WinForm+shadoW+42_313
-      - Relay_🇪🇸ES-🇪🇸ES_312+|37.73Mb
-      - defaltName_315
-      - default_name+2_316
-      - Pool_🇧🇦BA_57+|23.71Mb
-      - Pool_🇧🇦BA_56+|23.81Mb
-      - 🇫🇷FR_325+|26.74Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - 🇩🇪DE_280+|22.26Mb
-      - 🇺🇸US_1494+|+7.92Mb
-      - Pool_🇧🇦BA_35+|25.74Mb
-      - WinForm+shadoW+43_324
-      - WinForm+shadoW+46_325
-      - defaltName_326
-      - WinForm+shadoW+28_327
-      - Pool_🇧🇦BA_71+|23.42Mb
-      - 🇳🇴NO_611+|20.16Mb
-      - Pool_🇧🇦BA_60+|24.58Mb
-      - Pool_🇧🇦BA_67+|14.87Mb
-      - Pool_🇧🇦BA_75+|24.86Mb
-      - 🇳🇴_NO_挪威+12_333
-      - Pool_🇧🇦BA_21+|26.46Mb
-      - WinForm+shadoW+39_335
-      - Pool_🇧🇦BA_34+|26.74Mb
-      - Pool_🇧🇦BA_78+|22.75Mb
-      - Pool_🇧🇦BA_61+|25.78Mb
-      - defaltName_339
-      - 🇳🇴_NO_挪威+1_340
-      - 🇺🇸US_1706+|+8.82Mb
-      - 🇮🇹IT_480+|20.95Mb
-      - 🇳🇴_NO_挪威+6_343
-      - 🇮🇹IT_477+|10.42Mb
-      - WinForm+shadoW+44_345
-      - defaltName_346
-      - Pool_🇧🇦BA_37+|17.41Mb
-      - defaltName_348
-      - 🇬🇧_GB_英国+4_349
-      - Pool_🇧🇦BA_82+|26.60Mb
-      - Pool_🇧🇦BA_81+|17.08Mb
-      - WinForm+shadoW+32_352
-      - Pool_🇧🇦BA_42+|26.37Mb
-      - 🇩🇪DE_293+|22.31Mb
-      - Pool_🇧🇦BA_51+|25.15Mb
-      - Pool_🇧🇦BA_41+|24.53Mb
-      - WinForm+shadoW+33_357
-      - Pool_🇧🇦BA_58+|26.57Mb
-      - 🇩🇪DE_277+|22.10Mb
-      - 🇳🇴_NO_挪威+5_360
-      - defaltName_361
-      - WinForm+NOR+🇳🇴+Kristiansad_362
-      - Pool_🇧🇦BA_33+|23.52Mb
-      - 🇳🇴NO_624+|22.15Mb
-      - Pool_🇧🇦BA_70+|24.56Mb
-      - ufo+United+Kingdom+🇬🇧+London+5_366
-      - Pool_🇧🇦BA_47+|21.32Mb
-      - 🇺🇸US_1102+|+8.39Mb
-      - 🇺🇸US_1660+|+7.32Mb
-      - Pool_🇧🇦BA_23+|21.79Mb
-      - defaltName_371
-      - Pool_🇧🇦BA_43+|10.42Mb
-      - Pool_🇧🇦BA_63+|24.25Mb
-      - 🇬🇧_GB_英国+1_374
-      - 🇵🇹_PT_葡萄牙+1_375
-      - 🇳🇴_NO_挪威+11_376
-      - 🇳🇴NO_619+|25.69Mb
-      - defaltName_378
-      - 🇺🇸US_861+|+7.21Mb
-      - Relay_🇷🇴RO-🇷🇴RO_667+|27.50Mb
-      - Pool_🇧🇦BA_72+|26.85Mb
-      - Pool_🇧🇦BA_40+|20.58Mb
-      - 🇵🇱PL_643+|21.69Mb
-      - defaltName_384
-      - 🇵🇱PL_653+|20.03Mb
-      - 🇳🇴NO_612+|+5.62Mb
-      - Pool_🇧🇦BA_76+|23.69Mb
-      - default_name+5_388
-      - default_name+8_389
-      - 🇳🇴_NO_挪威+10_390
-      - 🇬🇧_GB_英国+5_391
-      - default_name+7_392
-      - WinForm+shadoW+45_393
-      - 🇳🇴_NO_挪威+3_394
-      - 🇵🇹_PT_葡萄牙_395
-      - 🇳🇴NO_614+|12.23Mb
-      - 🇺🇸US_1517+|14.57Mb
-      - Pool_🇧🇦BA_25+|21.51Mb
-      - 🇺🇸_US_美国+5_399
-      - WinForm+SS5_400
-      - WinForm+shadoW+41_401
-      - 🇺🇸_US_美国+6_402
-      - 🇳🇴_NO_挪威+4_403
-      - 🇺🇸US_1625+|+7.31Mb
-      - 🇩🇪DE_286+|22.88Mb
+      - 🇭🇰_HK_香港_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
+      - 🇩🇪_DE_德国_14
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_15
+      - 🇭🇰_HK_香港_16
+      - default_name_17
+      - 🇵🇹_PT_葡萄牙_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇺🇸_US_美国_20
+      - 🇩🇪_DE_德国_21
+      - 🇳🇴_NO_挪威_22
+      - 🇫🇷_FR_法国_23
+      - 🇳🇴_NO_挪威_24
+      - 🇲🇽_MX_墨西哥_25
+      - 🇳🇴_NO_挪威_26
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_27
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_28
+      - 🇭🇰_HK_香港_29
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_30
+      - 🇭🇰_HK_香港_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇬🇧_GB_英国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇯🇵_JP_日本_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - default_name_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇺🇸_US_美国_69
+      - default_name_70
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇺🇸_US_美国_73
+      - 🇨🇦_CA_加拿大_74
+      - 🇺🇸_US_美国_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇺🇸_US_美国_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇨🇦_CA_加拿大_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇩🇰_DK_丹麦_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇨🇦_CA_加拿大_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇸_US_美国_94
+      - 🇨🇦_CA_加拿大_95
+      - 🇬🇧_GB_英国_96
+      - 🇩🇪_DE_德国_97
+      - 🇬🇧_GB_英国_98
+      - 🇬🇧_GB_英国_99
+      - 🇬🇧_GB_英国_100
+      - 🇬🇧_GB_英国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇨🇦_CA_加拿大_104
+      - 🇬🇧_GB_英国_105
+      - 🇩🇪_DE_德国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇺🇦_UA_乌克兰_110
+      - 🇨🇦_CA_加拿大_111
+      - 🇬🇧_GB_英国_112
+      - 🇨🇦_CA_加拿大_113
+      - 🇺🇸_US_美国_114
+      - 🇨🇦_CA_加拿大_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇷🇴_RO_罗马尼亚_117
+      - 🇬🇧_GB_英国_118
+      - 🇬🇧_GB_英国_119
+      - 🇬🇧_GB_英国_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇩🇪_DE_德国_122
+      - 🇬🇧_GB_英国_123
+      - 🇨🇦_CA_加拿大_124
+      - default_name_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇻🇳_VN_越南_128
+      - default_name_129
+      - 🇦🇺_AU_澳大利亚_130
+      - default_name_131
+      - 🇬🇧_GB_英国_132
+      - 🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇺🇦_UA_乌克兰_136
+      - 🇬🇧_GB_英国_137
+      - 🇸🇪_SE_瑞典_138
+      - 🇩🇪_DE_德国_139
+      - 🇵🇹_PT_葡萄牙_140
+      - 🇫🇷_FR_法国_141
+      - 🇦🇺_AU_澳大利亚_142
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_143
+      - 🇺🇸_US_美国_144
+      - default_name_145
+      - 🇨🇦_CA_加拿大_146
+      - default_name_147
+      - default_name_148
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇭🇰_HK_香港_152
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_153
+      - 🇨🇦_CA_加拿大_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇺🇸_US_美国_156
+      - 🇨🇦_CA_加拿大_157
+      - 🇮🇳_IN_印度_158
+      - 🇮🇳_IN_印度_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇫🇷_FR_法国_162
+      - 🇨🇦_CA_加拿大_163
+      - 🇬🇧_GB_英国_164
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_165
+      - 🇩🇪_DE_德国_166
+      - 🇬🇧_GB_英国_167
+      - 🇮🇳_IN_印度_168
+      - 🇮🇳_IN_印度_169
+      - 🇺🇸_US_美国_170
+      - 🇯🇵_JP_日本_171
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_172
+      - 🇨🇦_CA_加拿大_173
+      - 🇮🇳_IN_印度_174
+      - 🇫🇷_FR_法国_175
+      - 🇯🇵_JP_日本_176
+      - 🇳🇴_NO_挪威_177
+      - 🇫🇷_FR_法国_178
+      - 🇺🇸_US_美国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇮🇳_IN_印度_181
+      - 🇫🇷_FR_法国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇮🇳_IN_印度_185
+      - 🇲🇾_MY_马来西亚_186
+      - 🇨🇦_CA_加拿大_187
+      - 🇫🇷_FR_法国_188
+      - 🇫🇷_FR_法国_189
+      - 🇺🇸_US_美国_190
+      - 🇫🇷_FR_法国_191
+      - 🇧🇦_BA_波黑_192
+      - 🇳🇴_NO_挪威_193
+      - 🇫🇷_FR_法国_194
+      - 🇺🇸_US_美国_195
+      - 🇨🇦_CA_加拿大_196
+      - 🇳🇴_NO_挪威_197
+      - 🇫🇷_FR_法国_198
+      - 🇦🇪_AE_阿联酋_199
+      - 🇫🇷_FR_法国_200
+      - 🇫🇷_FR_法国_201
+      - 🇮🇩_ID_印度尼西亚_202
+      - 🇬🇷_GR_希腊_203
+      - 🇳🇴_NO_挪威_204
+      - 🇦🇪_AE_阿联酋_205
+      - 🇳🇴_NO_挪威_206
+      - 🇫🇷_FR_法国_207
+      - 🇳🇴_NO_挪威_208
+      - 🇺🇸_US_美国_209
+      - 🇫🇷_FR_法国_210
+      - 🇺🇸_US_美国_211
+      - 🇨🇦_CA_加拿大_212
+      - 🇳🇴_NO_挪威_213
+      - 🇺🇸_US_美国_214
+      - 🇺🇸_US_美国_215
+      - 🇫🇷_FR_法国_216
+      - 🇺🇸_US_美国_217
+      - 🇺🇸_US_美国_218
+      - 🇺🇸_US_美国_219
+      - 🇨🇦_CA_加拿大_220
+      - 🇨🇦_CA_加拿大_221
+      - 🇺🇸_US_美国_222
+      - 🇺🇸_US_美国_223
+      - 🇨🇦_CA_加拿大_224
+      - 🇨🇦_CA_加拿大_225
+      - 🇨🇦_CA_加拿大_226
+      - 🇨🇦_CA_加拿大_227
+      - 🇬🇧_GB_英国_228
+      - 🇬🇧_GB_英国_229
+      - 🇬🇧_GB_英国_230
+      - 🇺🇸_US_美国_231
+      - 🇳🇴_NO_挪威_232
+      - 🇨🇦_CA_加拿大_233
+      - 🇳🇴_NO_挪威_234
+      - 🇨🇦_CA_加拿大_235
+      - 🇳🇴_NO_挪威_236
+      - 🇳🇴_NO_挪威_237
+      - 🇬🇷_GR_希腊_238
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇷🇺+@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub_1
-      - 🇷🇺+@SSRSUB-俄罗斯T11-付费推荐:dlj.tf/ssrsub_2
-      - 🇷🇺+@SSRSUB-俄罗斯T05-付费推荐:dlj.tf/ssrsub_3
-      - 🇷🇺+@SSRSUB-俄罗斯T06-付费推荐:dlj.tf/ssrsub_4
-      - 🇷🇺+@SSRSUB-俄罗斯T07-付费推荐:dlj.tf/ssrsub_5
-      - 🇷🇺+@SSRSUB-俄罗斯T01-付费推荐:dlj.tf/ssrsub_6
-      - @SSRSUB-V32-付费推荐:suo.yt/ssrsub_7
-      - @SSRSUB-V35-付费推荐:suo.yt/ssrsub_8
-      - @SSRSUB-V21-付费推荐:suo.yt/ssrsub_9
-      - 🇨🇦+@SSRSUB-加拿大T03-付费推荐:dlj.tf/ssrsub_10
-      - 🇨🇦+@SSRSUB-加拿大T09-付费推荐:dlj.tf/ssrsub_11
-      - @SSRSUB-V37-付费推荐:suo.yt/ssrsub_12
-      - @SSRSUB-V51-付费推荐:suo.yt/ssrsub_13
-      - @SSRSUB-V31-付费推荐:suo.yt/ssrsub_14
-      - @SSRSUB-V25-付费推荐:suo.yt/ssrsub_15
-      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_16
-      - @SSRSUB-V49-付费推荐:suo.yt/ssrsub_17
-      - @SSRSUB-V02-付费推荐:suo.yt/ssrsub_18
-      - 🇷🇺+@SSRSUB-俄罗斯T02-付费推荐:dlj.tf/ssrsub_19
-      - @SSRSUB-V38-付费推荐:suo.yt/ssrsub_20
-      - @SSRSUB-V47-付费推荐:suo.yt/ssrsub_21
-      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_22
-      - @SSRSUB-V10-付费推荐:suo.yt/ssrsub_23
-      - @SSRSUB-V33-付费推荐:suo.yt/ssrsub_24
-      - 🇷🇺+@SSRSUB-俄罗斯T08-付费推荐:dlj.tf/ssrsub_25
-      - @SSRSUB-V46-付费推荐:suo.yt/ssrsub_26
-      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_27
-      - @SSRSUB-V01-付费推荐:suo.yt/ssrsub_28
-      - @SSRSUB-V52-付费推荐:suo.yt/ssrsub_29
-      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_30
-      - @SSRSUB-V41-付费推荐:suo.yt/ssrsub_31
-      - WeVPN+GR+🇬🇷+Athens_32
-      - WeVPN+CA+🇨🇦+Toronto_33
-      - 🇮🇳+India+8_34
-      - 🇮🇳+India+9_35
-      - 🇮🇳+India+13_36
-      - WeVPN+IL+🇮🇱+Tel+Aviv_37
-      - 🇭🇰+Hong+Kong+5_38
-      - 🇭🇰+Hong+Kong+9_39
-      - 🇭🇰+Hong+Kong+13_40
-      - 🇭🇰+Hong+Kong+14_41
-      - WeVPN+JP+🇯🇵+Tokyo_42
-      - 🇰🇷+Korea,+Republic+of+58_43
-      - 🇰🇷+Korea,+Republic+of+59_44
-      - 🇰🇷+Korea,+Republic+of+27_45
-      - 🇰🇷+Korea,+Republic+of+31_46
-      - 🇰🇷+Korea,+Republic+of+4_47
-      - 🇰🇷+Korea,+Republic+of+56_48
-      - WeVPN+NZ+🇳🇿+Auckland_49
-      - 🇰🇷+Korea,+Republic+of+33_50
-      - 🇰🇷+Korea,+Republic+of+66_51
-      - WeVPN+VN+🇻🇳+Hanoi_52
-      - 🇰🇷+Korea,+Republic+of+12_53
-      - 🇰🇷+Korea,+Republic+of+34_54
-      - WeVPN+TW+🇹🇼+Taipei_55
-      - WeVPN+PH+🇵🇭+Manila_56
-      - 🇰🇷+Korea,+Republic+of+38_57
-      - 🇰🇷+Korea,+Republic+of+67_58
-      - 🇰🇷+Korea,+Republic+of+17_59
-      - WeVPN+ID+🇮🇩+Jakarta_60
-      - WeVPN+KR+🇰🇷+Seoul_61
-      - XY+VPN+Italy+🇮🇹+Milan+2_62
-      - XY+VPN+USA+🇺🇸+Dalas_63
-      - ufo+Australia+🇦🇺+Sydney_64
-      - UK+🇬🇧+London+2_65
-      - ITA+🇮🇹+Milan_66
-      - ITA+🇮🇹+Milan+5_67
-      - GRC+🇬🇷+Athens_68
-      - UK 🇬🇧 London 77_69
-      - NLD 🇳🇱 Amsterdam 8_70
-      - NOR+🇳🇴+Kristiansand+4_71
-      - NOR+🇳🇴+Kristiansand+15_72
-      - FIN+🇫🇮+Helsinki+2_73
-      - IND+🇮🇳+Mumbai+15_74
-      - IND+🇮🇳+Mumbai+4_75
-      - IND+🇮🇳+Mumbai+18_76
-      - ISR+🇮🇱+Tel+Aviv_77
-      - USA+🇺🇸+Tennessee_78
-      - IND+🇮🇳+Mumbai+8_79
-      - IND+🇮🇳+Mumbai_80
-      - IND+🇮🇳+Mumbai+13_81
-      - IND+🇮🇳+Mumbai+16_82
-      - USA+🇺🇸+California+2_83
-      - CAN+🇨🇦+Beauharnois_84
-      - USA+🇺🇸+Arizona_85
-      - IND+🇮🇳+Mumbai+11_86
-      - IND+🇮🇳+Mumbai+9_87
-      - JPN+🇯🇵+Tokyo+3_88
-      - IND+🇮🇳+Mumbai+5_89
-      - USA+🇺🇸+Washington_90
-      - IND+🇮🇳+Mumbai+22_91
-      - JPN+🇯🇵+Tokyo+19_92
-      - IND+🇮🇳+Mumbai+23_93
-      - JPN+🇯🇵+Tokyo+16_94
-      - HKG+🇭🇰+Central+6_95
-      - HKG+🇭🇰+Central+4_96
-      - HKG+🇭🇰+Central+7_97
-      - HKG+🇭🇰+Central+9_98
-      - HKG+🇭🇰+Central+5_99
-      - BRA+🇧🇷+Sao+Paulo_100
-      - KOR+🇰🇷+Seoul+93_101
-      - SNG+🇸🇬+Queenstown+Estate+2_102
-      - KOR+🇰🇷+Seoul+77_103
-      - KOR+🇰🇷+Seoul+6_104
-      - KOR+🇰🇷+Seoul+22_105
-      - KOR+🇰🇷+Seoul+49_106
-      - KOR+🇰🇷+Seoul+56_107
-      - KOR+🇰🇷+Seoul+36_108
-      - KOR+🇰🇷+Seoul+100_109
-      - KOR+🇰🇷+Seoul+78_110
-      - KOR+🇰🇷+Seoul+89_111
-      - KOR+🇰🇷+Seoul+66_112
-      - KOR+🇰🇷+Seoul+41_113
-      - KOR+🇰🇷+Seoul+106_114
-      - KOR+🇰🇷+Seoul+27_115
-      - KOR+🇰🇷+Seoul+48_116
-      - KOR+🇰🇷+Seoul+23_117
-      - KOR+🇰🇷+Seoul+7_118
-      - KOR+🇰🇷+Seoul+82_119
-      - KOR+🇰🇷+Seoul+94_120
-      - KOR+🇰🇷+Seoul+35_121
-      - KOR+🇰🇷+Seoul+50_122
-      - KOR+🇰🇷+Seoul+20_123
-      - KOR+🇰🇷+Seoul+98_124
-      - KOR+🇰🇷+Seoul+65_125
-      - KOR+🇰🇷+Seoul+14_126
-      - KOR+🇰🇷+Seoul+10_127
-      - KOR+🇰🇷+Seoul+61_128
-      - KOR+🇰🇷+Seoul+51_129
-      - KOR+🇰🇷+Seoul+69_130
-      - KOR+🇰🇷+Seoul+55_131
-      - KOR+🇰🇷+Seoul+68_132
-      - KOR+🇰🇷+Seoul+33_133
-      - KOR+🇰🇷+Seoul+67_134
-      - KOR+🇰🇷+Seoul+34_135
-      - KOR+🇰🇷+Seoul+72_136
-      - KOR+🇰🇷+Seoul+9_137
-      - KOR+🇰🇷+Seoul+47_138
-      - KOR+🇰🇷+Seoul+73_139
-      - KOR+🇰🇷+Seoul+88_140
-      - KOR+🇰🇷+Seoul+59_141
-      - KOR+🇰🇷+Seoul+91_142
-      - KOR+🇰🇷+Seoul+80_143
-      - KOR+🇰🇷+Seoul+42_144
-      - KOR+🇰🇷+Seoul+4_145
-      - KOR+🇰🇷+Seoul+18_146
-      - KOR+🇰🇷+Seoul+38_147
-      - KOR+🇰🇷+Seoul+105_148
-      - KOR+🇰🇷+Seoul+8_149
-      - KOR+🇰🇷+Seoul+86_150
-      - KOR+🇰🇷+Seoul+26_151
-      - KOR+🇰🇷+Seoul+24_152
-      - KOR+🇰🇷+Seoul+25_153
-      - KOR+🇰🇷+Seoul+76_154
-      - KOR+🇰🇷+Seoul+87_155
-      - KOR+🇰🇷+Seoul+15_156
-      - KOR+🇰🇷+Seoul+96_157
-      - KOR+🇰🇷+Seoul+40_158
-      - KOR+🇰🇷+Seoul+21_159
-      - KOR+🇰🇷+Seoul+75_160
-      - KOR+🇰🇷+Seoul+81_161
-      - KOR+🇰🇷+Seoul+71_162
-      - KOR+🇰🇷+Seoul+17_163
-      - KOR+🇰🇷+Seoul+108_164
-      - KOR+🇰🇷+Seoul+46_165
-      - KOR+🇰🇷+Seoul+102_166
-      - KOR+🇰🇷+Seoul+13_167
-      - KOR+🇰🇷+Seoul+79_168
-      - KOR+🇰🇷+Seoul+95_169
-      - KOR+🇰🇷+Seoul+90_170
-      - KOR+🇰🇷+Seoul+83_171
-      - KOR+🇰🇷+Seoul+53_172
-      - KOR+🇰🇷+Seoul+29_173
-      - KOR+🇰🇷+Seoul+60_174
-      - KOR+🇰🇷+Seoul+58_175
-      - KOR+🇰🇷+Seoul+103_176
-      - UK 🇬🇧 London 78_177
-      - HKG+🇭🇰+Central+3_178
-      - NOR+🇳🇴+Kristiansand+13_179
-      - SNG+🇸🇬+Queenstown+Estate_180
-      - @proSSHbotUfoVPN-Singapore-QueenstownEstate_181
-      - @proSSHbotUfoVPN-Australia-Sydney_182
-      - 🇫🇷+France+4+t.me/SurfShark_ALA_183
-      - 📛+YouTube+without+ads+4+t.me/SurfShark_ALA_184
-      - 📛+YouTube+without+ads+2+t.me/SurfShark_ALA_185
-      - 🇬🇧+UK.London+2+t.me/SurfShark_ALA_186
-      - 🇫🇷+France+5+t.me/SurfShark_ALA_187
-      - 🇩🇪+Germany+8+t.me/SurfShark_ALA_188
-      - 📛+YouTube+without+ads+5+t.me/SurfShark_ALA_189
-      - 📛+YouTube+without+ads+3+t.me/SurfShark_ALA_190
-      - 🇷🇺+Russia+2+t.me/SurfShark_ALA_191
-      - 🇺🇸+USA.Georgia.Atlanta+1+t.me/SurfShark_ALA_192
-      - 🇺🇸+USA.Texas.Dallas+1+t.me/SurfShark_ALA_193
-      - 🇺🇸+USA.Denver+1+t.me/SurfShark_ALA_194
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_195
-      - 🇯🇵+Japan+2+t.me/SurfShark_ALA_196
-      - 🇦🇷+Argentina+1+t.me/SurfShark_ALA_197
-      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_198
-      - 🇧🇷+Brazil++1+t.me/SurfShark_ALA_199
-      - 🇰🇷+South+Korea+4+t.me/SurfShark_ALA_200
-      - 🇰🇷+South+Korea+1+t.me/SurfShark_ALA_201
-      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_202
-      - Germany/@BN_CHANLL_203
-      - Bosnia+and+Herzegovina/@BN_CHANLL+7_204
-      - Canada/@BN_CHANLL+6_205
-      - Canada/@BN_CHANLL+5_206
-      - Canada/@BN_CHANLL+11_207
-      - Canada/@BN_CHANLL+7_208
-      - Canada/@BN_CHANLL+2_209
-      - Canada/@BN_CHANLL+9_210
-      - United+States/@BN_CHANLL_211
-      - United+States/@BN_CHANLL+8_212
-      - Canada/@BN_CHANLL+3_213
-      - United+States/@BN_CHANLL+3_214
-      - Singapore/@BN_CHANLL+2_215
-      - United+States/@BN_CHANLL+10_216
-      - Japan/@BN_CHANLL_217
-      - Japan/@BN_CHANLL+5_218
-      - United+States/@BN_CHANLL+19_219
-      - Malaysia/@BN_CHANLL_220
-      - Japan/@BN_CHANLL+3_221
-      - United+States/@BN_CHANLL+12_222
-      - Mexico/@BN_CHANLL_223
-      - Brazil/@BN_CHANLL+2_224
-      - Brazil/@BN_CHANLL_225
-      - Japan/@BN_CHANLL+2_226
-      - Australia/@BN_CHANLL+3_227
-      - Singapore/@BN_CHANLL_228
-      - India/@BN_CHANLL_229
-      - Australia/@BN_CHANLL+2_230
-      - Australia/@BN_CHANLL_231
-      - defaltName_232
-      - 🇩🇪DE_278+|22.55Mb
-      - 🇺🇸US_1709+|12.42Mb
-      - 🇮🇹IT_476+|10.42Mb
-      - 🇬🇧_GB_英国+3_236
-      - 🇩🇪DE_291+|+7.08Mb
-      - 🇩🇪DE_259+|18.25Mb
-      - Pool_🇧🇦BA_46+|27.73Mb
-      - defaltName_240
-      - WinForm+shadoW+30_241
-      - 🇩🇪DE_300+|19.26Mb
-      - Pool_🇧🇦BA_65+|24.40Mb
-      - defaltName_244
-      - 🇺🇸US_1604+|16.08Mb
-      - 🇩🇪DE_289+|24.43Mb
-      - Pool_🇧🇦BA_31+|17.17Mb
-      - 🇩🇪DE_296+|19.30Mb
-      - 🇺🇸US_1543+|+9.03Mb
-      - WinForm+shadoW+27_250
-      - 🇩🇪DE_256+|21.46Mb
-      - WinForm+shadoW+31_252
-      - 🇺🇸US_1548+|15.81Mb
-      - 🇺🇸US_1489+|22.21Mb
-      - 🇺🇸US_1578+|12.88Mb
-      - 🇺🇸US_1713+|23.05Mb
-      - 🇩🇪DE_295+|11.02Mb
-      - 🇬🇧_GB_英国_258
-      - WinForm+shadoW+18_259
-      - WinForm+shadoW+34_260
-      - Pool_🇧🇦BA_73+|24.00Mb
-      - 🇩🇪DE_279+|21.99Mb
-      - Pool_🇧🇦BA_84+|25.39Mb
-      - defaltName_264
-      - defaltName_265
-      - Pool_🇧🇦BA_69+|23.28Mb
-      - 🇮🇹IT_475+|21.19Mb
-      - Relay_🏁ZZ-🇬🇧GB_1995+|11.61Mb
-      - 🇺🇸US_1509+|23.12Mb
-      - 🇩🇪DE_258+|10.54Mb
-      - Pool_🇧🇦BA_79+|26.57Mb
-      - 🇬🇧_GB_英国+6_272
-      - 🇩🇪DE_290+|22.76Mb
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_274
-      - 🇳🇴_NO_挪威+9_275
-      - WinForm+shadoW+29_276
-      - 🇩🇪DE_273+|22.26Mb
-      - 🇺🇸US_1500+|+5.88Mb
-      - Pool_🇧🇦BA_77+|23.38Mb
-      - Pool_🇧🇦BA_50+|23.91Mb
-      - Pool_🇧🇦BA_66+|24.23Mb
-      - WinForm+shadoW+26_282
-      - 🇺🇸US_989+|+8.99Mb
-      - Pool_🇧🇦BA_68+|24.69Mb
-      - Pool_🇧🇦BA_53+|24.12Mb
-      - 🇺🇸US_1402+|+8.37Mb
-      - Pool_🇧🇦BA_80+|25.47Mb
-      - Pool_🇧🇦BA_22+|24.76Mb
-      - 🇳🇴_NO_挪威+7_289
-      - 🇬🇧_GB_英国+2_290
-      - defaltName_291
-      - defaltName_292
-      - 🇩🇪DE_288+|22.30Mb
-      - 🇺🇸US_1539+|15.81Mb
-      - 🇳🇴NO_626+|12.30Mb
-      - Pool_🇧🇦BA_36+|23.67Mb
-      - 🇺🇸US_1404+|+9.25Mb
-      - 🇺🇸US_992+|+7.55Mb
-      - 🇳🇴NO_610+|23.88Mb
-      - Pool_🇧🇦BA_74+|24.25Mb
-      - Pool_🇧🇦BA_28+|25.49Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - 🇩🇪DE_281+|21.57Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - 🇺🇸US_1330+|+4.83Mb
-      - Pool_🇧🇦BA_30+|17.70Mb
-      - WinForm+Italy_307
-      - 🇩🇪DE_285+|22.19Mb
-      - 🇺🇸US_1366+|+9.30Mb
-      - Pool_🇧🇦BA_44+|23.90Mb
-      - 🇳🇴_NO_挪威+8_311
-      - WinForm+shadoW+38_312
-      - WinForm+shadoW+42_313
-      - Relay_🇪🇸ES-🇪🇸ES_312+|37.73Mb
-      - defaltName_315
-      - default_name+2_316
-      - Pool_🇧🇦BA_57+|23.71Mb
-      - Pool_🇧🇦BA_56+|23.81Mb
-      - 🇫🇷FR_325+|26.74Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - 🇩🇪DE_280+|22.26Mb
-      - 🇺🇸US_1494+|+7.92Mb
-      - Pool_🇧🇦BA_35+|25.74Mb
-      - WinForm+shadoW+43_324
-      - WinForm+shadoW+46_325
-      - defaltName_326
-      - WinForm+shadoW+28_327
-      - Pool_🇧🇦BA_71+|23.42Mb
-      - 🇳🇴NO_611+|20.16Mb
-      - Pool_🇧🇦BA_60+|24.58Mb
-      - Pool_🇧🇦BA_67+|14.87Mb
-      - Pool_🇧🇦BA_75+|24.86Mb
-      - 🇳🇴_NO_挪威+12_333
-      - Pool_🇧🇦BA_21+|26.46Mb
-      - WinForm+shadoW+39_335
-      - Pool_🇧🇦BA_34+|26.74Mb
-      - Pool_🇧🇦BA_78+|22.75Mb
-      - Pool_🇧🇦BA_61+|25.78Mb
-      - defaltName_339
-      - 🇳🇴_NO_挪威+1_340
-      - 🇺🇸US_1706+|+8.82Mb
-      - 🇮🇹IT_480+|20.95Mb
-      - 🇳🇴_NO_挪威+6_343
-      - 🇮🇹IT_477+|10.42Mb
-      - WinForm+shadoW+44_345
-      - defaltName_346
-      - Pool_🇧🇦BA_37+|17.41Mb
-      - defaltName_348
-      - 🇬🇧_GB_英国+4_349
-      - Pool_🇧🇦BA_82+|26.60Mb
-      - Pool_🇧🇦BA_81+|17.08Mb
-      - WinForm+shadoW+32_352
-      - Pool_🇧🇦BA_42+|26.37Mb
-      - 🇩🇪DE_293+|22.31Mb
-      - Pool_🇧🇦BA_51+|25.15Mb
-      - Pool_🇧🇦BA_41+|24.53Mb
-      - WinForm+shadoW+33_357
-      - Pool_🇧🇦BA_58+|26.57Mb
-      - 🇩🇪DE_277+|22.10Mb
-      - 🇳🇴_NO_挪威+5_360
-      - defaltName_361
-      - WinForm+NOR+🇳🇴+Kristiansad_362
-      - Pool_🇧🇦BA_33+|23.52Mb
-      - 🇳🇴NO_624+|22.15Mb
-      - Pool_🇧🇦BA_70+|24.56Mb
-      - ufo+United+Kingdom+🇬🇧+London+5_366
-      - Pool_🇧🇦BA_47+|21.32Mb
-      - 🇺🇸US_1102+|+8.39Mb
-      - 🇺🇸US_1660+|+7.32Mb
-      - Pool_🇧🇦BA_23+|21.79Mb
-      - defaltName_371
-      - Pool_🇧🇦BA_43+|10.42Mb
-      - Pool_🇧🇦BA_63+|24.25Mb
-      - 🇬🇧_GB_英国+1_374
-      - 🇵🇹_PT_葡萄牙+1_375
-      - 🇳🇴_NO_挪威+11_376
-      - 🇳🇴NO_619+|25.69Mb
-      - defaltName_378
-      - 🇺🇸US_861+|+7.21Mb
-      - Relay_🇷🇴RO-🇷🇴RO_667+|27.50Mb
-      - Pool_🇧🇦BA_72+|26.85Mb
-      - Pool_🇧🇦BA_40+|20.58Mb
-      - 🇵🇱PL_643+|21.69Mb
-      - defaltName_384
-      - 🇵🇱PL_653+|20.03Mb
-      - 🇳🇴NO_612+|+5.62Mb
-      - Pool_🇧🇦BA_76+|23.69Mb
-      - default_name+5_388
-      - default_name+8_389
-      - 🇳🇴_NO_挪威+10_390
-      - 🇬🇧_GB_英国+5_391
-      - default_name+7_392
-      - WinForm+shadoW+45_393
-      - 🇳🇴_NO_挪威+3_394
-      - 🇵🇹_PT_葡萄牙_395
-      - 🇳🇴NO_614+|12.23Mb
-      - 🇺🇸US_1517+|14.57Mb
-      - Pool_🇧🇦BA_25+|21.51Mb
-      - 🇺🇸_US_美国+5_399
-      - WinForm+SS5_400
-      - WinForm+shadoW+41_401
-      - 🇺🇸_US_美国+6_402
-      - 🇳🇴_NO_挪威+4_403
-      - 🇺🇸US_1625+|+7.31Mb
-      - 🇩🇪DE_286+|22.88Mb
+      - 🇭🇰_HK_香港_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
+      - 🇩🇪_DE_德国_14
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_15
+      - 🇭🇰_HK_香港_16
+      - default_name_17
+      - 🇵🇹_PT_葡萄牙_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇺🇸_US_美国_20
+      - 🇩🇪_DE_德国_21
+      - 🇳🇴_NO_挪威_22
+      - 🇫🇷_FR_法国_23
+      - 🇳🇴_NO_挪威_24
+      - 🇲🇽_MX_墨西哥_25
+      - 🇳🇴_NO_挪威_26
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_27
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_28
+      - 🇭🇰_HK_香港_29
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_30
+      - 🇭🇰_HK_香港_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇬🇧_GB_英国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇯🇵_JP_日本_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - default_name_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇺🇸_US_美国_69
+      - default_name_70
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇺🇸_US_美国_73
+      - 🇨🇦_CA_加拿大_74
+      - 🇺🇸_US_美国_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇺🇸_US_美国_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇨🇦_CA_加拿大_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇩🇰_DK_丹麦_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇨🇦_CA_加拿大_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇸_US_美国_94
+      - 🇨🇦_CA_加拿大_95
+      - 🇬🇧_GB_英国_96
+      - 🇩🇪_DE_德国_97
+      - 🇬🇧_GB_英国_98
+      - 🇬🇧_GB_英国_99
+      - 🇬🇧_GB_英国_100
+      - 🇬🇧_GB_英国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇨🇦_CA_加拿大_104
+      - 🇬🇧_GB_英国_105
+      - 🇩🇪_DE_德国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇺🇦_UA_乌克兰_110
+      - 🇨🇦_CA_加拿大_111
+      - 🇬🇧_GB_英国_112
+      - 🇨🇦_CA_加拿大_113
+      - 🇺🇸_US_美国_114
+      - 🇨🇦_CA_加拿大_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇷🇴_RO_罗马尼亚_117
+      - 🇬🇧_GB_英国_118
+      - 🇬🇧_GB_英国_119
+      - 🇬🇧_GB_英国_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇩🇪_DE_德国_122
+      - 🇬🇧_GB_英国_123
+      - 🇨🇦_CA_加拿大_124
+      - default_name_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇻🇳_VN_越南_128
+      - default_name_129
+      - 🇦🇺_AU_澳大利亚_130
+      - default_name_131
+      - 🇬🇧_GB_英国_132
+      - 🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇺🇦_UA_乌克兰_136
+      - 🇬🇧_GB_英国_137
+      - 🇸🇪_SE_瑞典_138
+      - 🇩🇪_DE_德国_139
+      - 🇵🇹_PT_葡萄牙_140
+      - 🇫🇷_FR_法国_141
+      - 🇦🇺_AU_澳大利亚_142
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_143
+      - 🇺🇸_US_美国_144
+      - default_name_145
+      - 🇨🇦_CA_加拿大_146
+      - default_name_147
+      - default_name_148
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇭🇰_HK_香港_152
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_153
+      - 🇨🇦_CA_加拿大_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇺🇸_US_美国_156
+      - 🇨🇦_CA_加拿大_157
+      - 🇮🇳_IN_印度_158
+      - 🇮🇳_IN_印度_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇫🇷_FR_法国_162
+      - 🇨🇦_CA_加拿大_163
+      - 🇬🇧_GB_英国_164
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_165
+      - 🇩🇪_DE_德国_166
+      - 🇬🇧_GB_英国_167
+      - 🇮🇳_IN_印度_168
+      - 🇮🇳_IN_印度_169
+      - 🇺🇸_US_美国_170
+      - 🇯🇵_JP_日本_171
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_172
+      - 🇨🇦_CA_加拿大_173
+      - 🇮🇳_IN_印度_174
+      - 🇫🇷_FR_法国_175
+      - 🇯🇵_JP_日本_176
+      - 🇳🇴_NO_挪威_177
+      - 🇫🇷_FR_法国_178
+      - 🇺🇸_US_美国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇮🇳_IN_印度_181
+      - 🇫🇷_FR_法国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇮🇳_IN_印度_185
+      - 🇲🇾_MY_马来西亚_186
+      - 🇨🇦_CA_加拿大_187
+      - 🇫🇷_FR_法国_188
+      - 🇫🇷_FR_法国_189
+      - 🇺🇸_US_美国_190
+      - 🇫🇷_FR_法国_191
+      - 🇧🇦_BA_波黑_192
+      - 🇳🇴_NO_挪威_193
+      - 🇫🇷_FR_法国_194
+      - 🇺🇸_US_美国_195
+      - 🇨🇦_CA_加拿大_196
+      - 🇳🇴_NO_挪威_197
+      - 🇫🇷_FR_法国_198
+      - 🇦🇪_AE_阿联酋_199
+      - 🇫🇷_FR_法国_200
+      - 🇫🇷_FR_法国_201
+      - 🇮🇩_ID_印度尼西亚_202
+      - 🇬🇷_GR_希腊_203
+      - 🇳🇴_NO_挪威_204
+      - 🇦🇪_AE_阿联酋_205
+      - 🇳🇴_NO_挪威_206
+      - 🇫🇷_FR_法国_207
+      - 🇳🇴_NO_挪威_208
+      - 🇺🇸_US_美国_209
+      - 🇫🇷_FR_法国_210
+      - 🇺🇸_US_美国_211
+      - 🇨🇦_CA_加拿大_212
+      - 🇳🇴_NO_挪威_213
+      - 🇺🇸_US_美国_214
+      - 🇺🇸_US_美国_215
+      - 🇫🇷_FR_法国_216
+      - 🇺🇸_US_美国_217
+      - 🇺🇸_US_美国_218
+      - 🇺🇸_US_美国_219
+      - 🇨🇦_CA_加拿大_220
+      - 🇨🇦_CA_加拿大_221
+      - 🇺🇸_US_美国_222
+      - 🇺🇸_US_美国_223
+      - 🇨🇦_CA_加拿大_224
+      - 🇨🇦_CA_加拿大_225
+      - 🇨🇦_CA_加拿大_226
+      - 🇨🇦_CA_加拿大_227
+      - 🇬🇧_GB_英国_228
+      - 🇬🇧_GB_英国_229
+      - 🇬🇧_GB_英国_230
+      - 🇺🇸_US_美国_231
+      - 🇳🇴_NO_挪威_232
+      - 🇨🇦_CA_加拿大_233
+      - 🇳🇴_NO_挪威_234
+      - 🇨🇦_CA_加拿大_235
+      - 🇳🇴_NO_挪威_236
+      - 🇳🇴_NO_挪威_237
+      - 🇬🇷_GR_希腊_238
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺+@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub_1
-      - 🇷🇺+@SSRSUB-俄罗斯T11-付费推荐:dlj.tf/ssrsub_2
-      - 🇷🇺+@SSRSUB-俄罗斯T05-付费推荐:dlj.tf/ssrsub_3
-      - 🇷🇺+@SSRSUB-俄罗斯T06-付费推荐:dlj.tf/ssrsub_4
-      - 🇷🇺+@SSRSUB-俄罗斯T07-付费推荐:dlj.tf/ssrsub_5
-      - 🇷🇺+@SSRSUB-俄罗斯T01-付费推荐:dlj.tf/ssrsub_6
-      - @SSRSUB-V32-付费推荐:suo.yt/ssrsub_7
-      - @SSRSUB-V35-付费推荐:suo.yt/ssrsub_8
-      - @SSRSUB-V21-付费推荐:suo.yt/ssrsub_9
-      - 🇨🇦+@SSRSUB-加拿大T03-付费推荐:dlj.tf/ssrsub_10
-      - 🇨🇦+@SSRSUB-加拿大T09-付费推荐:dlj.tf/ssrsub_11
-      - @SSRSUB-V37-付费推荐:suo.yt/ssrsub_12
-      - @SSRSUB-V51-付费推荐:suo.yt/ssrsub_13
-      - @SSRSUB-V31-付费推荐:suo.yt/ssrsub_14
-      - @SSRSUB-V25-付费推荐:suo.yt/ssrsub_15
-      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_16
-      - @SSRSUB-V49-付费推荐:suo.yt/ssrsub_17
-      - @SSRSUB-V02-付费推荐:suo.yt/ssrsub_18
-      - 🇷🇺+@SSRSUB-俄罗斯T02-付费推荐:dlj.tf/ssrsub_19
-      - @SSRSUB-V38-付费推荐:suo.yt/ssrsub_20
-      - @SSRSUB-V47-付费推荐:suo.yt/ssrsub_21
-      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_22
-      - @SSRSUB-V10-付费推荐:suo.yt/ssrsub_23
-      - @SSRSUB-V33-付费推荐:suo.yt/ssrsub_24
-      - 🇷🇺+@SSRSUB-俄罗斯T08-付费推荐:dlj.tf/ssrsub_25
-      - @SSRSUB-V46-付费推荐:suo.yt/ssrsub_26
-      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_27
-      - @SSRSUB-V01-付费推荐:suo.yt/ssrsub_28
-      - @SSRSUB-V52-付费推荐:suo.yt/ssrsub_29
-      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_30
-      - @SSRSUB-V41-付费推荐:suo.yt/ssrsub_31
-      - WeVPN+GR+🇬🇷+Athens_32
-      - WeVPN+CA+🇨🇦+Toronto_33
-      - 🇮🇳+India+8_34
-      - 🇮🇳+India+9_35
-      - 🇮🇳+India+13_36
-      - WeVPN+IL+🇮🇱+Tel+Aviv_37
-      - 🇭🇰+Hong+Kong+5_38
-      - 🇭🇰+Hong+Kong+9_39
-      - 🇭🇰+Hong+Kong+13_40
-      - 🇭🇰+Hong+Kong+14_41
-      - WeVPN+JP+🇯🇵+Tokyo_42
-      - 🇰🇷+Korea,+Republic+of+58_43
-      - 🇰🇷+Korea,+Republic+of+59_44
-      - 🇰🇷+Korea,+Republic+of+27_45
-      - 🇰🇷+Korea,+Republic+of+31_46
-      - 🇰🇷+Korea,+Republic+of+4_47
-      - 🇰🇷+Korea,+Republic+of+56_48
-      - WeVPN+NZ+🇳🇿+Auckland_49
-      - 🇰🇷+Korea,+Republic+of+33_50
-      - 🇰🇷+Korea,+Republic+of+66_51
-      - WeVPN+VN+🇻🇳+Hanoi_52
-      - 🇰🇷+Korea,+Republic+of+12_53
-      - 🇰🇷+Korea,+Republic+of+34_54
-      - WeVPN+TW+🇹🇼+Taipei_55
-      - WeVPN+PH+🇵🇭+Manila_56
-      - 🇰🇷+Korea,+Republic+of+38_57
-      - 🇰🇷+Korea,+Republic+of+67_58
-      - 🇰🇷+Korea,+Republic+of+17_59
-      - WeVPN+ID+🇮🇩+Jakarta_60
-      - WeVPN+KR+🇰🇷+Seoul_61
-      - XY+VPN+Italy+🇮🇹+Milan+2_62
-      - XY+VPN+USA+🇺🇸+Dalas_63
-      - ufo+Australia+🇦🇺+Sydney_64
-      - UK+🇬🇧+London+2_65
-      - ITA+🇮🇹+Milan_66
-      - ITA+🇮🇹+Milan+5_67
-      - GRC+🇬🇷+Athens_68
-      - UK 🇬🇧 London 77_69
-      - NLD 🇳🇱 Amsterdam 8_70
-      - NOR+🇳🇴+Kristiansand+4_71
-      - NOR+🇳🇴+Kristiansand+15_72
-      - FIN+🇫🇮+Helsinki+2_73
-      - IND+🇮🇳+Mumbai+15_74
-      - IND+🇮🇳+Mumbai+4_75
-      - IND+🇮🇳+Mumbai+18_76
-      - ISR+🇮🇱+Tel+Aviv_77
-      - USA+🇺🇸+Tennessee_78
-      - IND+🇮🇳+Mumbai+8_79
-      - IND+🇮🇳+Mumbai_80
-      - IND+🇮🇳+Mumbai+13_81
-      - IND+🇮🇳+Mumbai+16_82
-      - USA+🇺🇸+California+2_83
-      - CAN+🇨🇦+Beauharnois_84
-      - USA+🇺🇸+Arizona_85
-      - IND+🇮🇳+Mumbai+11_86
-      - IND+🇮🇳+Mumbai+9_87
-      - JPN+🇯🇵+Tokyo+3_88
-      - IND+🇮🇳+Mumbai+5_89
-      - USA+🇺🇸+Washington_90
-      - IND+🇮🇳+Mumbai+22_91
-      - JPN+🇯🇵+Tokyo+19_92
-      - IND+🇮🇳+Mumbai+23_93
-      - JPN+🇯🇵+Tokyo+16_94
-      - HKG+🇭🇰+Central+6_95
-      - HKG+🇭🇰+Central+4_96
-      - HKG+🇭🇰+Central+7_97
-      - HKG+🇭🇰+Central+9_98
-      - HKG+🇭🇰+Central+5_99
-      - BRA+🇧🇷+Sao+Paulo_100
-      - KOR+🇰🇷+Seoul+93_101
-      - SNG+🇸🇬+Queenstown+Estate+2_102
-      - KOR+🇰🇷+Seoul+77_103
-      - KOR+🇰🇷+Seoul+6_104
-      - KOR+🇰🇷+Seoul+22_105
-      - KOR+🇰🇷+Seoul+49_106
-      - KOR+🇰🇷+Seoul+56_107
-      - KOR+🇰🇷+Seoul+36_108
-      - KOR+🇰🇷+Seoul+100_109
-      - KOR+🇰🇷+Seoul+78_110
-      - KOR+🇰🇷+Seoul+89_111
-      - KOR+🇰🇷+Seoul+66_112
-      - KOR+🇰🇷+Seoul+41_113
-      - KOR+🇰🇷+Seoul+106_114
-      - KOR+🇰🇷+Seoul+27_115
-      - KOR+🇰🇷+Seoul+48_116
-      - KOR+🇰🇷+Seoul+23_117
-      - KOR+🇰🇷+Seoul+7_118
-      - KOR+🇰🇷+Seoul+82_119
-      - KOR+🇰🇷+Seoul+94_120
-      - KOR+🇰🇷+Seoul+35_121
-      - KOR+🇰🇷+Seoul+50_122
-      - KOR+🇰🇷+Seoul+20_123
-      - KOR+🇰🇷+Seoul+98_124
-      - KOR+🇰🇷+Seoul+65_125
-      - KOR+🇰🇷+Seoul+14_126
-      - KOR+🇰🇷+Seoul+10_127
-      - KOR+🇰🇷+Seoul+61_128
-      - KOR+🇰🇷+Seoul+51_129
-      - KOR+🇰🇷+Seoul+69_130
-      - KOR+🇰🇷+Seoul+55_131
-      - KOR+🇰🇷+Seoul+68_132
-      - KOR+🇰🇷+Seoul+33_133
-      - KOR+🇰🇷+Seoul+67_134
-      - KOR+🇰🇷+Seoul+34_135
-      - KOR+🇰🇷+Seoul+72_136
-      - KOR+🇰🇷+Seoul+9_137
-      - KOR+🇰🇷+Seoul+47_138
-      - KOR+🇰🇷+Seoul+73_139
-      - KOR+🇰🇷+Seoul+88_140
-      - KOR+🇰🇷+Seoul+59_141
-      - KOR+🇰🇷+Seoul+91_142
-      - KOR+🇰🇷+Seoul+80_143
-      - KOR+🇰🇷+Seoul+42_144
-      - KOR+🇰🇷+Seoul+4_145
-      - KOR+🇰🇷+Seoul+18_146
-      - KOR+🇰🇷+Seoul+38_147
-      - KOR+🇰🇷+Seoul+105_148
-      - KOR+🇰🇷+Seoul+8_149
-      - KOR+🇰🇷+Seoul+86_150
-      - KOR+🇰🇷+Seoul+26_151
-      - KOR+🇰🇷+Seoul+24_152
-      - KOR+🇰🇷+Seoul+25_153
-      - KOR+🇰🇷+Seoul+76_154
-      - KOR+🇰🇷+Seoul+87_155
-      - KOR+🇰🇷+Seoul+15_156
-      - KOR+🇰🇷+Seoul+96_157
-      - KOR+🇰🇷+Seoul+40_158
-      - KOR+🇰🇷+Seoul+21_159
-      - KOR+🇰🇷+Seoul+75_160
-      - KOR+🇰🇷+Seoul+81_161
-      - KOR+🇰🇷+Seoul+71_162
-      - KOR+🇰🇷+Seoul+17_163
-      - KOR+🇰🇷+Seoul+108_164
-      - KOR+🇰🇷+Seoul+46_165
-      - KOR+🇰🇷+Seoul+102_166
-      - KOR+🇰🇷+Seoul+13_167
-      - KOR+🇰🇷+Seoul+79_168
-      - KOR+🇰🇷+Seoul+95_169
-      - KOR+🇰🇷+Seoul+90_170
-      - KOR+🇰🇷+Seoul+83_171
-      - KOR+🇰🇷+Seoul+53_172
-      - KOR+🇰🇷+Seoul+29_173
-      - KOR+🇰🇷+Seoul+60_174
-      - KOR+🇰🇷+Seoul+58_175
-      - KOR+🇰🇷+Seoul+103_176
-      - UK 🇬🇧 London 78_177
-      - HKG+🇭🇰+Central+3_178
-      - NOR+🇳🇴+Kristiansand+13_179
-      - SNG+🇸🇬+Queenstown+Estate_180
-      - @proSSHbotUfoVPN-Singapore-QueenstownEstate_181
-      - @proSSHbotUfoVPN-Australia-Sydney_182
-      - 🇫🇷+France+4+t.me/SurfShark_ALA_183
-      - 📛+YouTube+without+ads+4+t.me/SurfShark_ALA_184
-      - 📛+YouTube+without+ads+2+t.me/SurfShark_ALA_185
-      - 🇬🇧+UK.London+2+t.me/SurfShark_ALA_186
-      - 🇫🇷+France+5+t.me/SurfShark_ALA_187
-      - 🇩🇪+Germany+8+t.me/SurfShark_ALA_188
-      - 📛+YouTube+without+ads+5+t.me/SurfShark_ALA_189
-      - 📛+YouTube+without+ads+3+t.me/SurfShark_ALA_190
-      - 🇷🇺+Russia+2+t.me/SurfShark_ALA_191
-      - 🇺🇸+USA.Georgia.Atlanta+1+t.me/SurfShark_ALA_192
-      - 🇺🇸+USA.Texas.Dallas+1+t.me/SurfShark_ALA_193
-      - 🇺🇸+USA.Denver+1+t.me/SurfShark_ALA_194
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_195
-      - 🇯🇵+Japan+2+t.me/SurfShark_ALA_196
-      - 🇦🇷+Argentina+1+t.me/SurfShark_ALA_197
-      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_198
-      - 🇧🇷+Brazil++1+t.me/SurfShark_ALA_199
-      - 🇰🇷+South+Korea+4+t.me/SurfShark_ALA_200
-      - 🇰🇷+South+Korea+1+t.me/SurfShark_ALA_201
-      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_202
-      - Germany/@BN_CHANLL_203
-      - Bosnia+and+Herzegovina/@BN_CHANLL+7_204
-      - Canada/@BN_CHANLL+6_205
-      - Canada/@BN_CHANLL+5_206
-      - Canada/@BN_CHANLL+11_207
-      - Canada/@BN_CHANLL+7_208
-      - Canada/@BN_CHANLL+2_209
-      - Canada/@BN_CHANLL+9_210
-      - United+States/@BN_CHANLL_211
-      - United+States/@BN_CHANLL+8_212
-      - Canada/@BN_CHANLL+3_213
-      - United+States/@BN_CHANLL+3_214
-      - Singapore/@BN_CHANLL+2_215
-      - United+States/@BN_CHANLL+10_216
-      - Japan/@BN_CHANLL_217
-      - Japan/@BN_CHANLL+5_218
-      - United+States/@BN_CHANLL+19_219
-      - Malaysia/@BN_CHANLL_220
-      - Japan/@BN_CHANLL+3_221
-      - United+States/@BN_CHANLL+12_222
-      - Mexico/@BN_CHANLL_223
-      - Brazil/@BN_CHANLL+2_224
-      - Brazil/@BN_CHANLL_225
-      - Japan/@BN_CHANLL+2_226
-      - Australia/@BN_CHANLL+3_227
-      - Singapore/@BN_CHANLL_228
-      - India/@BN_CHANLL_229
-      - Australia/@BN_CHANLL+2_230
-      - Australia/@BN_CHANLL_231
-      - defaltName_232
-      - 🇩🇪DE_278+|22.55Mb
-      - 🇺🇸US_1709+|12.42Mb
-      - 🇮🇹IT_476+|10.42Mb
-      - 🇬🇧_GB_英国+3_236
-      - 🇩🇪DE_291+|+7.08Mb
-      - 🇩🇪DE_259+|18.25Mb
-      - Pool_🇧🇦BA_46+|27.73Mb
-      - defaltName_240
-      - WinForm+shadoW+30_241
-      - 🇩🇪DE_300+|19.26Mb
-      - Pool_🇧🇦BA_65+|24.40Mb
-      - defaltName_244
-      - 🇺🇸US_1604+|16.08Mb
-      - 🇩🇪DE_289+|24.43Mb
-      - Pool_🇧🇦BA_31+|17.17Mb
-      - 🇩🇪DE_296+|19.30Mb
-      - 🇺🇸US_1543+|+9.03Mb
-      - WinForm+shadoW+27_250
-      - 🇩🇪DE_256+|21.46Mb
-      - WinForm+shadoW+31_252
-      - 🇺🇸US_1548+|15.81Mb
-      - 🇺🇸US_1489+|22.21Mb
-      - 🇺🇸US_1578+|12.88Mb
-      - 🇺🇸US_1713+|23.05Mb
-      - 🇩🇪DE_295+|11.02Mb
-      - 🇬🇧_GB_英国_258
-      - WinForm+shadoW+18_259
-      - WinForm+shadoW+34_260
-      - Pool_🇧🇦BA_73+|24.00Mb
-      - 🇩🇪DE_279+|21.99Mb
-      - Pool_🇧🇦BA_84+|25.39Mb
-      - defaltName_264
-      - defaltName_265
-      - Pool_🇧🇦BA_69+|23.28Mb
-      - 🇮🇹IT_475+|21.19Mb
-      - Relay_🏁ZZ-🇬🇧GB_1995+|11.61Mb
-      - 🇺🇸US_1509+|23.12Mb
-      - 🇩🇪DE_258+|10.54Mb
-      - Pool_🇧🇦BA_79+|26.57Mb
-      - 🇬🇧_GB_英国+6_272
-      - 🇩🇪DE_290+|22.76Mb
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_274
-      - 🇳🇴_NO_挪威+9_275
-      - WinForm+shadoW+29_276
-      - 🇩🇪DE_273+|22.26Mb
-      - 🇺🇸US_1500+|+5.88Mb
-      - Pool_🇧🇦BA_77+|23.38Mb
-      - Pool_🇧🇦BA_50+|23.91Mb
-      - Pool_🇧🇦BA_66+|24.23Mb
-      - WinForm+shadoW+26_282
-      - 🇺🇸US_989+|+8.99Mb
-      - Pool_🇧🇦BA_68+|24.69Mb
-      - Pool_🇧🇦BA_53+|24.12Mb
-      - 🇺🇸US_1402+|+8.37Mb
-      - Pool_🇧🇦BA_80+|25.47Mb
-      - Pool_🇧🇦BA_22+|24.76Mb
-      - 🇳🇴_NO_挪威+7_289
-      - 🇬🇧_GB_英国+2_290
-      - defaltName_291
-      - defaltName_292
-      - 🇩🇪DE_288+|22.30Mb
-      - 🇺🇸US_1539+|15.81Mb
-      - 🇳🇴NO_626+|12.30Mb
-      - Pool_🇧🇦BA_36+|23.67Mb
-      - 🇺🇸US_1404+|+9.25Mb
-      - 🇺🇸US_992+|+7.55Mb
-      - 🇳🇴NO_610+|23.88Mb
-      - Pool_🇧🇦BA_74+|24.25Mb
-      - Pool_🇧🇦BA_28+|25.49Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - 🇩🇪DE_281+|21.57Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - 🇺🇸US_1330+|+4.83Mb
-      - Pool_🇧🇦BA_30+|17.70Mb
-      - WinForm+Italy_307
-      - 🇩🇪DE_285+|22.19Mb
-      - 🇺🇸US_1366+|+9.30Mb
-      - Pool_🇧🇦BA_44+|23.90Mb
-      - 🇳🇴_NO_挪威+8_311
-      - WinForm+shadoW+38_312
-      - WinForm+shadoW+42_313
-      - Relay_🇪🇸ES-🇪🇸ES_312+|37.73Mb
-      - defaltName_315
-      - default_name+2_316
-      - Pool_🇧🇦BA_57+|23.71Mb
-      - Pool_🇧🇦BA_56+|23.81Mb
-      - 🇫🇷FR_325+|26.74Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - 🇩🇪DE_280+|22.26Mb
-      - 🇺🇸US_1494+|+7.92Mb
-      - Pool_🇧🇦BA_35+|25.74Mb
-      - WinForm+shadoW+43_324
-      - WinForm+shadoW+46_325
-      - defaltName_326
-      - WinForm+shadoW+28_327
-      - Pool_🇧🇦BA_71+|23.42Mb
-      - 🇳🇴NO_611+|20.16Mb
-      - Pool_🇧🇦BA_60+|24.58Mb
-      - Pool_🇧🇦BA_67+|14.87Mb
-      - Pool_🇧🇦BA_75+|24.86Mb
-      - 🇳🇴_NO_挪威+12_333
-      - Pool_🇧🇦BA_21+|26.46Mb
-      - WinForm+shadoW+39_335
-      - Pool_🇧🇦BA_34+|26.74Mb
-      - Pool_🇧🇦BA_78+|22.75Mb
-      - Pool_🇧🇦BA_61+|25.78Mb
-      - defaltName_339
-      - 🇳🇴_NO_挪威+1_340
-      - 🇺🇸US_1706+|+8.82Mb
-      - 🇮🇹IT_480+|20.95Mb
-      - 🇳🇴_NO_挪威+6_343
-      - 🇮🇹IT_477+|10.42Mb
-      - WinForm+shadoW+44_345
-      - defaltName_346
-      - Pool_🇧🇦BA_37+|17.41Mb
-      - defaltName_348
-      - 🇬🇧_GB_英国+4_349
-      - Pool_🇧🇦BA_82+|26.60Mb
-      - Pool_🇧🇦BA_81+|17.08Mb
-      - WinForm+shadoW+32_352
-      - Pool_🇧🇦BA_42+|26.37Mb
-      - 🇩🇪DE_293+|22.31Mb
-      - Pool_🇧🇦BA_51+|25.15Mb
-      - Pool_🇧🇦BA_41+|24.53Mb
-      - WinForm+shadoW+33_357
-      - Pool_🇧🇦BA_58+|26.57Mb
-      - 🇩🇪DE_277+|22.10Mb
-      - 🇳🇴_NO_挪威+5_360
-      - defaltName_361
-      - WinForm+NOR+🇳🇴+Kristiansad_362
-      - Pool_🇧🇦BA_33+|23.52Mb
-      - 🇳🇴NO_624+|22.15Mb
-      - Pool_🇧🇦BA_70+|24.56Mb
-      - ufo+United+Kingdom+🇬🇧+London+5_366
-      - Pool_🇧🇦BA_47+|21.32Mb
-      - 🇺🇸US_1102+|+8.39Mb
-      - 🇺🇸US_1660+|+7.32Mb
-      - Pool_🇧🇦BA_23+|21.79Mb
-      - defaltName_371
-      - Pool_🇧🇦BA_43+|10.42Mb
-      - Pool_🇧🇦BA_63+|24.25Mb
-      - 🇬🇧_GB_英国+1_374
-      - 🇵🇹_PT_葡萄牙+1_375
-      - 🇳🇴_NO_挪威+11_376
-      - 🇳🇴NO_619+|25.69Mb
-      - defaltName_378
-      - 🇺🇸US_861+|+7.21Mb
-      - Relay_🇷🇴RO-🇷🇴RO_667+|27.50Mb
-      - Pool_🇧🇦BA_72+|26.85Mb
-      - Pool_🇧🇦BA_40+|20.58Mb
-      - 🇵🇱PL_643+|21.69Mb
-      - defaltName_384
-      - 🇵🇱PL_653+|20.03Mb
-      - 🇳🇴NO_612+|+5.62Mb
-      - Pool_🇧🇦BA_76+|23.69Mb
-      - default_name+5_388
-      - default_name+8_389
-      - 🇳🇴_NO_挪威+10_390
-      - 🇬🇧_GB_英国+5_391
-      - default_name+7_392
-      - WinForm+shadoW+45_393
-      - 🇳🇴_NO_挪威+3_394
-      - 🇵🇹_PT_葡萄牙_395
-      - 🇳🇴NO_614+|12.23Mb
-      - 🇺🇸US_1517+|14.57Mb
-      - Pool_🇧🇦BA_25+|21.51Mb
-      - 🇺🇸_US_美国+5_399
-      - WinForm+SS5_400
-      - WinForm+shadoW+41_401
-      - 🇺🇸_US_美国+6_402
-      - 🇳🇴_NO_挪威+4_403
-      - 🇺🇸US_1625+|+7.31Mb
-      - 🇩🇪DE_286+|22.88Mb
+      - 🇭🇰_HK_香港_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
+      - 🇩🇪_DE_德国_14
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_15
+      - 🇭🇰_HK_香港_16
+      - default_name_17
+      - 🇵🇹_PT_葡萄牙_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇺🇸_US_美国_20
+      - 🇩🇪_DE_德国_21
+      - 🇳🇴_NO_挪威_22
+      - 🇫🇷_FR_法国_23
+      - 🇳🇴_NO_挪威_24
+      - 🇲🇽_MX_墨西哥_25
+      - 🇳🇴_NO_挪威_26
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_27
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_28
+      - 🇭🇰_HK_香港_29
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_30
+      - 🇭🇰_HK_香港_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇬🇧_GB_英国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇯🇵_JP_日本_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - default_name_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇺🇸_US_美国_69
+      - default_name_70
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇺🇸_US_美国_73
+      - 🇨🇦_CA_加拿大_74
+      - 🇺🇸_US_美国_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇺🇸_US_美国_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇨🇦_CA_加拿大_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇩🇰_DK_丹麦_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇨🇦_CA_加拿大_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇸_US_美国_94
+      - 🇨🇦_CA_加拿大_95
+      - 🇬🇧_GB_英国_96
+      - 🇩🇪_DE_德国_97
+      - 🇬🇧_GB_英国_98
+      - 🇬🇧_GB_英国_99
+      - 🇬🇧_GB_英国_100
+      - 🇬🇧_GB_英国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇨🇦_CA_加拿大_104
+      - 🇬🇧_GB_英国_105
+      - 🇩🇪_DE_德国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇺🇦_UA_乌克兰_110
+      - 🇨🇦_CA_加拿大_111
+      - 🇬🇧_GB_英国_112
+      - 🇨🇦_CA_加拿大_113
+      - 🇺🇸_US_美国_114
+      - 🇨🇦_CA_加拿大_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇷🇴_RO_罗马尼亚_117
+      - 🇬🇧_GB_英国_118
+      - 🇬🇧_GB_英国_119
+      - 🇬🇧_GB_英国_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇩🇪_DE_德国_122
+      - 🇬🇧_GB_英国_123
+      - 🇨🇦_CA_加拿大_124
+      - default_name_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇻🇳_VN_越南_128
+      - default_name_129
+      - 🇦🇺_AU_澳大利亚_130
+      - default_name_131
+      - 🇬🇧_GB_英国_132
+      - 🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇺🇦_UA_乌克兰_136
+      - 🇬🇧_GB_英国_137
+      - 🇸🇪_SE_瑞典_138
+      - 🇩🇪_DE_德国_139
+      - 🇵🇹_PT_葡萄牙_140
+      - 🇫🇷_FR_法国_141
+      - 🇦🇺_AU_澳大利亚_142
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_143
+      - 🇺🇸_US_美国_144
+      - default_name_145
+      - 🇨🇦_CA_加拿大_146
+      - default_name_147
+      - default_name_148
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇭🇰_HK_香港_152
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_153
+      - 🇨🇦_CA_加拿大_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇺🇸_US_美国_156
+      - 🇨🇦_CA_加拿大_157
+      - 🇮🇳_IN_印度_158
+      - 🇮🇳_IN_印度_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇫🇷_FR_法国_162
+      - 🇨🇦_CA_加拿大_163
+      - 🇬🇧_GB_英国_164
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_165
+      - 🇩🇪_DE_德国_166
+      - 🇬🇧_GB_英国_167
+      - 🇮🇳_IN_印度_168
+      - 🇮🇳_IN_印度_169
+      - 🇺🇸_US_美国_170
+      - 🇯🇵_JP_日本_171
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_172
+      - 🇨🇦_CA_加拿大_173
+      - 🇮🇳_IN_印度_174
+      - 🇫🇷_FR_法国_175
+      - 🇯🇵_JP_日本_176
+      - 🇳🇴_NO_挪威_177
+      - 🇫🇷_FR_法国_178
+      - 🇺🇸_US_美国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇮🇳_IN_印度_181
+      - 🇫🇷_FR_法国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇮🇳_IN_印度_185
+      - 🇲🇾_MY_马来西亚_186
+      - 🇨🇦_CA_加拿大_187
+      - 🇫🇷_FR_法国_188
+      - 🇫🇷_FR_法国_189
+      - 🇺🇸_US_美国_190
+      - 🇫🇷_FR_法国_191
+      - 🇧🇦_BA_波黑_192
+      - 🇳🇴_NO_挪威_193
+      - 🇫🇷_FR_法国_194
+      - 🇺🇸_US_美国_195
+      - 🇨🇦_CA_加拿大_196
+      - 🇳🇴_NO_挪威_197
+      - 🇫🇷_FR_法国_198
+      - 🇦🇪_AE_阿联酋_199
+      - 🇫🇷_FR_法国_200
+      - 🇫🇷_FR_法国_201
+      - 🇮🇩_ID_印度尼西亚_202
+      - 🇬🇷_GR_希腊_203
+      - 🇳🇴_NO_挪威_204
+      - 🇦🇪_AE_阿联酋_205
+      - 🇳🇴_NO_挪威_206
+      - 🇫🇷_FR_法国_207
+      - 🇳🇴_NO_挪威_208
+      - 🇺🇸_US_美国_209
+      - 🇫🇷_FR_法国_210
+      - 🇺🇸_US_美国_211
+      - 🇨🇦_CA_加拿大_212
+      - 🇳🇴_NO_挪威_213
+      - 🇺🇸_US_美国_214
+      - 🇺🇸_US_美国_215
+      - 🇫🇷_FR_法国_216
+      - 🇺🇸_US_美国_217
+      - 🇺🇸_US_美国_218
+      - 🇺🇸_US_美国_219
+      - 🇨🇦_CA_加拿大_220
+      - 🇨🇦_CA_加拿大_221
+      - 🇺🇸_US_美国_222
+      - 🇺🇸_US_美国_223
+      - 🇨🇦_CA_加拿大_224
+      - 🇨🇦_CA_加拿大_225
+      - 🇨🇦_CA_加拿大_226
+      - 🇨🇦_CA_加拿大_227
+      - 🇬🇧_GB_英国_228
+      - 🇬🇧_GB_英国_229
+      - 🇬🇧_GB_英国_230
+      - 🇺🇸_US_美国_231
+      - 🇳🇴_NO_挪威_232
+      - 🇨🇦_CA_加拿大_233
+      - 🇳🇴_NO_挪威_234
+      - 🇨🇦_CA_加拿大_235
+      - 🇳🇴_NO_挪威_236
+      - 🇳🇴_NO_挪威_237
+      - 🇬🇷_GR_希腊_238
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3298,411 +1962,244 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺+@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub_1
-      - 🇷🇺+@SSRSUB-俄罗斯T11-付费推荐:dlj.tf/ssrsub_2
-      - 🇷🇺+@SSRSUB-俄罗斯T05-付费推荐:dlj.tf/ssrsub_3
-      - 🇷🇺+@SSRSUB-俄罗斯T06-付费推荐:dlj.tf/ssrsub_4
-      - 🇷🇺+@SSRSUB-俄罗斯T07-付费推荐:dlj.tf/ssrsub_5
-      - 🇷🇺+@SSRSUB-俄罗斯T01-付费推荐:dlj.tf/ssrsub_6
-      - @SSRSUB-V32-付费推荐:suo.yt/ssrsub_7
-      - @SSRSUB-V35-付费推荐:suo.yt/ssrsub_8
-      - @SSRSUB-V21-付费推荐:suo.yt/ssrsub_9
-      - 🇨🇦+@SSRSUB-加拿大T03-付费推荐:dlj.tf/ssrsub_10
-      - 🇨🇦+@SSRSUB-加拿大T09-付费推荐:dlj.tf/ssrsub_11
-      - @SSRSUB-V37-付费推荐:suo.yt/ssrsub_12
-      - @SSRSUB-V51-付费推荐:suo.yt/ssrsub_13
-      - @SSRSUB-V31-付费推荐:suo.yt/ssrsub_14
-      - @SSRSUB-V25-付费推荐:suo.yt/ssrsub_15
-      - @SSRSUB-V28-付费推荐:suo.yt/ssrsub_16
-      - @SSRSUB-V49-付费推荐:suo.yt/ssrsub_17
-      - @SSRSUB-V02-付费推荐:suo.yt/ssrsub_18
-      - 🇷🇺+@SSRSUB-俄罗斯T02-付费推荐:dlj.tf/ssrsub_19
-      - @SSRSUB-V38-付费推荐:suo.yt/ssrsub_20
-      - @SSRSUB-V47-付费推荐:suo.yt/ssrsub_21
-      - @SSRSUB-V03-付费推荐:suo.yt/ssrsub_22
-      - @SSRSUB-V10-付费推荐:suo.yt/ssrsub_23
-      - @SSRSUB-V33-付费推荐:suo.yt/ssrsub_24
-      - 🇷🇺+@SSRSUB-俄罗斯T08-付费推荐:dlj.tf/ssrsub_25
-      - @SSRSUB-V46-付费推荐:suo.yt/ssrsub_26
-      - @SSRSUB-V14-付费推荐:suo.yt/ssrsub_27
-      - @SSRSUB-V01-付费推荐:suo.yt/ssrsub_28
-      - @SSRSUB-V52-付费推荐:suo.yt/ssrsub_29
-      - @SSRSUB-V29-付费推荐:suo.yt/ssrsub_30
-      - @SSRSUB-V41-付费推荐:suo.yt/ssrsub_31
-      - WeVPN+GR+🇬🇷+Athens_32
-      - WeVPN+CA+🇨🇦+Toronto_33
-      - 🇮🇳+India+8_34
-      - 🇮🇳+India+9_35
-      - 🇮🇳+India+13_36
-      - WeVPN+IL+🇮🇱+Tel+Aviv_37
-      - 🇭🇰+Hong+Kong+5_38
-      - 🇭🇰+Hong+Kong+9_39
-      - 🇭🇰+Hong+Kong+13_40
-      - 🇭🇰+Hong+Kong+14_41
-      - WeVPN+JP+🇯🇵+Tokyo_42
-      - 🇰🇷+Korea,+Republic+of+58_43
-      - 🇰🇷+Korea,+Republic+of+59_44
-      - 🇰🇷+Korea,+Republic+of+27_45
-      - 🇰🇷+Korea,+Republic+of+31_46
-      - 🇰🇷+Korea,+Republic+of+4_47
-      - 🇰🇷+Korea,+Republic+of+56_48
-      - WeVPN+NZ+🇳🇿+Auckland_49
-      - 🇰🇷+Korea,+Republic+of+33_50
-      - 🇰🇷+Korea,+Republic+of+66_51
-      - WeVPN+VN+🇻🇳+Hanoi_52
-      - 🇰🇷+Korea,+Republic+of+12_53
-      - 🇰🇷+Korea,+Republic+of+34_54
-      - WeVPN+TW+🇹🇼+Taipei_55
-      - WeVPN+PH+🇵🇭+Manila_56
-      - 🇰🇷+Korea,+Republic+of+38_57
-      - 🇰🇷+Korea,+Republic+of+67_58
-      - 🇰🇷+Korea,+Republic+of+17_59
-      - WeVPN+ID+🇮🇩+Jakarta_60
-      - WeVPN+KR+🇰🇷+Seoul_61
-      - XY+VPN+Italy+🇮🇹+Milan+2_62
-      - XY+VPN+USA+🇺🇸+Dalas_63
-      - ufo+Australia+🇦🇺+Sydney_64
-      - UK+🇬🇧+London+2_65
-      - ITA+🇮🇹+Milan_66
-      - ITA+🇮🇹+Milan+5_67
-      - GRC+🇬🇷+Athens_68
-      - UK 🇬🇧 London 77_69
-      - NLD 🇳🇱 Amsterdam 8_70
-      - NOR+🇳🇴+Kristiansand+4_71
-      - NOR+🇳🇴+Kristiansand+15_72
-      - FIN+🇫🇮+Helsinki+2_73
-      - IND+🇮🇳+Mumbai+15_74
-      - IND+🇮🇳+Mumbai+4_75
-      - IND+🇮🇳+Mumbai+18_76
-      - ISR+🇮🇱+Tel+Aviv_77
-      - USA+🇺🇸+Tennessee_78
-      - IND+🇮🇳+Mumbai+8_79
-      - IND+🇮🇳+Mumbai_80
-      - IND+🇮🇳+Mumbai+13_81
-      - IND+🇮🇳+Mumbai+16_82
-      - USA+🇺🇸+California+2_83
-      - CAN+🇨🇦+Beauharnois_84
-      - USA+🇺🇸+Arizona_85
-      - IND+🇮🇳+Mumbai+11_86
-      - IND+🇮🇳+Mumbai+9_87
-      - JPN+🇯🇵+Tokyo+3_88
-      - IND+🇮🇳+Mumbai+5_89
-      - USA+🇺🇸+Washington_90
-      - IND+🇮🇳+Mumbai+22_91
-      - JPN+🇯🇵+Tokyo+19_92
-      - IND+🇮🇳+Mumbai+23_93
-      - JPN+🇯🇵+Tokyo+16_94
-      - HKG+🇭🇰+Central+6_95
-      - HKG+🇭🇰+Central+4_96
-      - HKG+🇭🇰+Central+7_97
-      - HKG+🇭🇰+Central+9_98
-      - HKG+🇭🇰+Central+5_99
-      - BRA+🇧🇷+Sao+Paulo_100
-      - KOR+🇰🇷+Seoul+93_101
-      - SNG+🇸🇬+Queenstown+Estate+2_102
-      - KOR+🇰🇷+Seoul+77_103
-      - KOR+🇰🇷+Seoul+6_104
-      - KOR+🇰🇷+Seoul+22_105
-      - KOR+🇰🇷+Seoul+49_106
-      - KOR+🇰🇷+Seoul+56_107
-      - KOR+🇰🇷+Seoul+36_108
-      - KOR+🇰🇷+Seoul+100_109
-      - KOR+🇰🇷+Seoul+78_110
-      - KOR+🇰🇷+Seoul+89_111
-      - KOR+🇰🇷+Seoul+66_112
-      - KOR+🇰🇷+Seoul+41_113
-      - KOR+🇰🇷+Seoul+106_114
-      - KOR+🇰🇷+Seoul+27_115
-      - KOR+🇰🇷+Seoul+48_116
-      - KOR+🇰🇷+Seoul+23_117
-      - KOR+🇰🇷+Seoul+7_118
-      - KOR+🇰🇷+Seoul+82_119
-      - KOR+🇰🇷+Seoul+94_120
-      - KOR+🇰🇷+Seoul+35_121
-      - KOR+🇰🇷+Seoul+50_122
-      - KOR+🇰🇷+Seoul+20_123
-      - KOR+🇰🇷+Seoul+98_124
-      - KOR+🇰🇷+Seoul+65_125
-      - KOR+🇰🇷+Seoul+14_126
-      - KOR+🇰🇷+Seoul+10_127
-      - KOR+🇰🇷+Seoul+61_128
-      - KOR+🇰🇷+Seoul+51_129
-      - KOR+🇰🇷+Seoul+69_130
-      - KOR+🇰🇷+Seoul+55_131
-      - KOR+🇰🇷+Seoul+68_132
-      - KOR+🇰🇷+Seoul+33_133
-      - KOR+🇰🇷+Seoul+67_134
-      - KOR+🇰🇷+Seoul+34_135
-      - KOR+🇰🇷+Seoul+72_136
-      - KOR+🇰🇷+Seoul+9_137
-      - KOR+🇰🇷+Seoul+47_138
-      - KOR+🇰🇷+Seoul+73_139
-      - KOR+🇰🇷+Seoul+88_140
-      - KOR+🇰🇷+Seoul+59_141
-      - KOR+🇰🇷+Seoul+91_142
-      - KOR+🇰🇷+Seoul+80_143
-      - KOR+🇰🇷+Seoul+42_144
-      - KOR+🇰🇷+Seoul+4_145
-      - KOR+🇰🇷+Seoul+18_146
-      - KOR+🇰🇷+Seoul+38_147
-      - KOR+🇰🇷+Seoul+105_148
-      - KOR+🇰🇷+Seoul+8_149
-      - KOR+🇰🇷+Seoul+86_150
-      - KOR+🇰🇷+Seoul+26_151
-      - KOR+🇰🇷+Seoul+24_152
-      - KOR+🇰🇷+Seoul+25_153
-      - KOR+🇰🇷+Seoul+76_154
-      - KOR+🇰🇷+Seoul+87_155
-      - KOR+🇰🇷+Seoul+15_156
-      - KOR+🇰🇷+Seoul+96_157
-      - KOR+🇰🇷+Seoul+40_158
-      - KOR+🇰🇷+Seoul+21_159
-      - KOR+🇰🇷+Seoul+75_160
-      - KOR+🇰🇷+Seoul+81_161
-      - KOR+🇰🇷+Seoul+71_162
-      - KOR+🇰🇷+Seoul+17_163
-      - KOR+🇰🇷+Seoul+108_164
-      - KOR+🇰🇷+Seoul+46_165
-      - KOR+🇰🇷+Seoul+102_166
-      - KOR+🇰🇷+Seoul+13_167
-      - KOR+🇰🇷+Seoul+79_168
-      - KOR+🇰🇷+Seoul+95_169
-      - KOR+🇰🇷+Seoul+90_170
-      - KOR+🇰🇷+Seoul+83_171
-      - KOR+🇰🇷+Seoul+53_172
-      - KOR+🇰🇷+Seoul+29_173
-      - KOR+🇰🇷+Seoul+60_174
-      - KOR+🇰🇷+Seoul+58_175
-      - KOR+🇰🇷+Seoul+103_176
-      - UK 🇬🇧 London 78_177
-      - HKG+🇭🇰+Central+3_178
-      - NOR+🇳🇴+Kristiansand+13_179
-      - SNG+🇸🇬+Queenstown+Estate_180
-      - @proSSHbotUfoVPN-Singapore-QueenstownEstate_181
-      - @proSSHbotUfoVPN-Australia-Sydney_182
-      - 🇫🇷+France+4+t.me/SurfShark_ALA_183
-      - 📛+YouTube+without+ads+4+t.me/SurfShark_ALA_184
-      - 📛+YouTube+without+ads+2+t.me/SurfShark_ALA_185
-      - 🇬🇧+UK.London+2+t.me/SurfShark_ALA_186
-      - 🇫🇷+France+5+t.me/SurfShark_ALA_187
-      - 🇩🇪+Germany+8+t.me/SurfShark_ALA_188
-      - 📛+YouTube+without+ads+5+t.me/SurfShark_ALA_189
-      - 📛+YouTube+without+ads+3+t.me/SurfShark_ALA_190
-      - 🇷🇺+Russia+2+t.me/SurfShark_ALA_191
-      - 🇺🇸+USA.Georgia.Atlanta+1+t.me/SurfShark_ALA_192
-      - 🇺🇸+USA.Texas.Dallas+1+t.me/SurfShark_ALA_193
-      - 🇺🇸+USA.Denver+1+t.me/SurfShark_ALA_194
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_195
-      - 🇯🇵+Japan+2+t.me/SurfShark_ALA_196
-      - 🇦🇷+Argentina+1+t.me/SurfShark_ALA_197
-      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_198
-      - 🇧🇷+Brazil++1+t.me/SurfShark_ALA_199
-      - 🇰🇷+South+Korea+4+t.me/SurfShark_ALA_200
-      - 🇰🇷+South+Korea+1+t.me/SurfShark_ALA_201
-      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_202
-      - Germany/@BN_CHANLL_203
-      - Bosnia+and+Herzegovina/@BN_CHANLL+7_204
-      - Canada/@BN_CHANLL+6_205
-      - Canada/@BN_CHANLL+5_206
-      - Canada/@BN_CHANLL+11_207
-      - Canada/@BN_CHANLL+7_208
-      - Canada/@BN_CHANLL+2_209
-      - Canada/@BN_CHANLL+9_210
-      - United+States/@BN_CHANLL_211
-      - United+States/@BN_CHANLL+8_212
-      - Canada/@BN_CHANLL+3_213
-      - United+States/@BN_CHANLL+3_214
-      - Singapore/@BN_CHANLL+2_215
-      - United+States/@BN_CHANLL+10_216
-      - Japan/@BN_CHANLL_217
-      - Japan/@BN_CHANLL+5_218
-      - United+States/@BN_CHANLL+19_219
-      - Malaysia/@BN_CHANLL_220
-      - Japan/@BN_CHANLL+3_221
-      - United+States/@BN_CHANLL+12_222
-      - Mexico/@BN_CHANLL_223
-      - Brazil/@BN_CHANLL+2_224
-      - Brazil/@BN_CHANLL_225
-      - Japan/@BN_CHANLL+2_226
-      - Australia/@BN_CHANLL+3_227
-      - Singapore/@BN_CHANLL_228
-      - India/@BN_CHANLL_229
-      - Australia/@BN_CHANLL+2_230
-      - Australia/@BN_CHANLL_231
-      - defaltName_232
-      - 🇩🇪DE_278+|22.55Mb
-      - 🇺🇸US_1709+|12.42Mb
-      - 🇮🇹IT_476+|10.42Mb
-      - 🇬🇧_GB_英国+3_236
-      - 🇩🇪DE_291+|+7.08Mb
-      - 🇩🇪DE_259+|18.25Mb
-      - Pool_🇧🇦BA_46+|27.73Mb
-      - defaltName_240
-      - WinForm+shadoW+30_241
-      - 🇩🇪DE_300+|19.26Mb
-      - Pool_🇧🇦BA_65+|24.40Mb
-      - defaltName_244
-      - 🇺🇸US_1604+|16.08Mb
-      - 🇩🇪DE_289+|24.43Mb
-      - Pool_🇧🇦BA_31+|17.17Mb
-      - 🇩🇪DE_296+|19.30Mb
-      - 🇺🇸US_1543+|+9.03Mb
-      - WinForm+shadoW+27_250
-      - 🇩🇪DE_256+|21.46Mb
-      - WinForm+shadoW+31_252
-      - 🇺🇸US_1548+|15.81Mb
-      - 🇺🇸US_1489+|22.21Mb
-      - 🇺🇸US_1578+|12.88Mb
-      - 🇺🇸US_1713+|23.05Mb
-      - 🇩🇪DE_295+|11.02Mb
-      - 🇬🇧_GB_英国_258
-      - WinForm+shadoW+18_259
-      - WinForm+shadoW+34_260
-      - Pool_🇧🇦BA_73+|24.00Mb
-      - 🇩🇪DE_279+|21.99Mb
-      - Pool_🇧🇦BA_84+|25.39Mb
-      - defaltName_264
-      - defaltName_265
-      - Pool_🇧🇦BA_69+|23.28Mb
-      - 🇮🇹IT_475+|21.19Mb
-      - Relay_🏁ZZ-🇬🇧GB_1995+|11.61Mb
-      - 🇺🇸US_1509+|23.12Mb
-      - 🇩🇪DE_258+|10.54Mb
-      - Pool_🇧🇦BA_79+|26.57Mb
-      - 🇬🇧_GB_英国+6_272
-      - 🇩🇪DE_290+|22.76Mb
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_274
-      - 🇳🇴_NO_挪威+9_275
-      - WinForm+shadoW+29_276
-      - 🇩🇪DE_273+|22.26Mb
-      - 🇺🇸US_1500+|+5.88Mb
-      - Pool_🇧🇦BA_77+|23.38Mb
-      - Pool_🇧🇦BA_50+|23.91Mb
-      - Pool_🇧🇦BA_66+|24.23Mb
-      - WinForm+shadoW+26_282
-      - 🇺🇸US_989+|+8.99Mb
-      - Pool_🇧🇦BA_68+|24.69Mb
-      - Pool_🇧🇦BA_53+|24.12Mb
-      - 🇺🇸US_1402+|+8.37Mb
-      - Pool_🇧🇦BA_80+|25.47Mb
-      - Pool_🇧🇦BA_22+|24.76Mb
-      - 🇳🇴_NO_挪威+7_289
-      - 🇬🇧_GB_英国+2_290
-      - defaltName_291
-      - defaltName_292
-      - 🇩🇪DE_288+|22.30Mb
-      - 🇺🇸US_1539+|15.81Mb
-      - 🇳🇴NO_626+|12.30Mb
-      - Pool_🇧🇦BA_36+|23.67Mb
-      - 🇺🇸US_1404+|+9.25Mb
-      - 🇺🇸US_992+|+7.55Mb
-      - 🇳🇴NO_610+|23.88Mb
-      - Pool_🇧🇦BA_74+|24.25Mb
-      - Pool_🇧🇦BA_28+|25.49Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - 🇩🇪DE_281+|21.57Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - 🇺🇸US_1330+|+4.83Mb
-      - Pool_🇧🇦BA_30+|17.70Mb
-      - WinForm+Italy_307
-      - 🇩🇪DE_285+|22.19Mb
-      - 🇺🇸US_1366+|+9.30Mb
-      - Pool_🇧🇦BA_44+|23.90Mb
-      - 🇳🇴_NO_挪威+8_311
-      - WinForm+shadoW+38_312
-      - WinForm+shadoW+42_313
-      - Relay_🇪🇸ES-🇪🇸ES_312+|37.73Mb
-      - defaltName_315
-      - default_name+2_316
-      - Pool_🇧🇦BA_57+|23.71Mb
-      - Pool_🇧🇦BA_56+|23.81Mb
-      - 🇫🇷FR_325+|26.74Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - 🇩🇪DE_280+|22.26Mb
-      - 🇺🇸US_1494+|+7.92Mb
-      - Pool_🇧🇦BA_35+|25.74Mb
-      - WinForm+shadoW+43_324
-      - WinForm+shadoW+46_325
-      - defaltName_326
-      - WinForm+shadoW+28_327
-      - Pool_🇧🇦BA_71+|23.42Mb
-      - 🇳🇴NO_611+|20.16Mb
-      - Pool_🇧🇦BA_60+|24.58Mb
-      - Pool_🇧🇦BA_67+|14.87Mb
-      - Pool_🇧🇦BA_75+|24.86Mb
-      - 🇳🇴_NO_挪威+12_333
-      - Pool_🇧🇦BA_21+|26.46Mb
-      - WinForm+shadoW+39_335
-      - Pool_🇧🇦BA_34+|26.74Mb
-      - Pool_🇧🇦BA_78+|22.75Mb
-      - Pool_🇧🇦BA_61+|25.78Mb
-      - defaltName_339
-      - 🇳🇴_NO_挪威+1_340
-      - 🇺🇸US_1706+|+8.82Mb
-      - 🇮🇹IT_480+|20.95Mb
-      - 🇳🇴_NO_挪威+6_343
-      - 🇮🇹IT_477+|10.42Mb
-      - WinForm+shadoW+44_345
-      - defaltName_346
-      - Pool_🇧🇦BA_37+|17.41Mb
-      - defaltName_348
-      - 🇬🇧_GB_英国+4_349
-      - Pool_🇧🇦BA_82+|26.60Mb
-      - Pool_🇧🇦BA_81+|17.08Mb
-      - WinForm+shadoW+32_352
-      - Pool_🇧🇦BA_42+|26.37Mb
-      - 🇩🇪DE_293+|22.31Mb
-      - Pool_🇧🇦BA_51+|25.15Mb
-      - Pool_🇧🇦BA_41+|24.53Mb
-      - WinForm+shadoW+33_357
-      - Pool_🇧🇦BA_58+|26.57Mb
-      - 🇩🇪DE_277+|22.10Mb
-      - 🇳🇴_NO_挪威+5_360
-      - defaltName_361
-      - WinForm+NOR+🇳🇴+Kristiansad_362
-      - Pool_🇧🇦BA_33+|23.52Mb
-      - 🇳🇴NO_624+|22.15Mb
-      - Pool_🇧🇦BA_70+|24.56Mb
-      - ufo+United+Kingdom+🇬🇧+London+5_366
-      - Pool_🇧🇦BA_47+|21.32Mb
-      - 🇺🇸US_1102+|+8.39Mb
-      - 🇺🇸US_1660+|+7.32Mb
-      - Pool_🇧🇦BA_23+|21.79Mb
-      - defaltName_371
-      - Pool_🇧🇦BA_43+|10.42Mb
-      - Pool_🇧🇦BA_63+|24.25Mb
-      - 🇬🇧_GB_英国+1_374
-      - 🇵🇹_PT_葡萄牙+1_375
-      - 🇳🇴_NO_挪威+11_376
-      - 🇳🇴NO_619+|25.69Mb
-      - defaltName_378
-      - 🇺🇸US_861+|+7.21Mb
-      - Relay_🇷🇴RO-🇷🇴RO_667+|27.50Mb
-      - Pool_🇧🇦BA_72+|26.85Mb
-      - Pool_🇧🇦BA_40+|20.58Mb
-      - 🇵🇱PL_643+|21.69Mb
-      - defaltName_384
-      - 🇵🇱PL_653+|20.03Mb
-      - 🇳🇴NO_612+|+5.62Mb
-      - Pool_🇧🇦BA_76+|23.69Mb
-      - default_name+5_388
-      - default_name+8_389
-      - 🇳🇴_NO_挪威+10_390
-      - 🇬🇧_GB_英国+5_391
-      - default_name+7_392
-      - WinForm+shadoW+45_393
-      - 🇳🇴_NO_挪威+3_394
-      - 🇵🇹_PT_葡萄牙_395
-      - 🇳🇴NO_614+|12.23Mb
-      - 🇺🇸US_1517+|14.57Mb
-      - Pool_🇧🇦BA_25+|21.51Mb
-      - 🇺🇸_US_美国+5_399
-      - WinForm+SS5_400
-      - WinForm+shadoW+41_401
-      - 🇺🇸_US_美国+6_402
-      - 🇳🇴_NO_挪威+4_403
-      - 🇺🇸US_1625+|+7.31Mb
-      - 🇩🇪DE_286+|22.88Mb
+      - 🇭🇰_HK_香港_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇺🇸_US_美国_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_13
+      - 🇩🇪_DE_德国_14
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_15
+      - 🇭🇰_HK_香港_16
+      - default_name_17
+      - 🇵🇹_PT_葡萄牙_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇺🇸_US_美国_20
+      - 🇩🇪_DE_德国_21
+      - 🇳🇴_NO_挪威_22
+      - 🇫🇷_FR_法国_23
+      - 🇳🇴_NO_挪威_24
+      - 🇲🇽_MX_墨西哥_25
+      - 🇳🇴_NO_挪威_26
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_27
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_28
+      - 🇭🇰_HK_香港_29
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_30
+      - 🇭🇰_HK_香港_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇬🇧_GB_英国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇯🇵_JP_日本_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇩🇪_DE_德国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - default_name_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇨🇦_CA_加拿大_67
+      - 🇨🇦_CA_加拿大_68
+      - 🇺🇸_US_美国_69
+      - default_name_70
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇺🇸_US_美国_73
+      - 🇨🇦_CA_加拿大_74
+      - 🇺🇸_US_美国_75
+      - 🇨🇦_CA_加拿大_76
+      - 🇺🇸_US_美国_77
+      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_79
+      - 🇨🇦_CA_加拿大_80
+      - 🇨🇦_CA_加拿大_81
+      - 🇩🇰_DK_丹麦_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇨🇦_CA_加拿大_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇸_US_美国_94
+      - 🇨🇦_CA_加拿大_95
+      - 🇬🇧_GB_英国_96
+      - 🇩🇪_DE_德国_97
+      - 🇬🇧_GB_英国_98
+      - 🇬🇧_GB_英国_99
+      - 🇬🇧_GB_英国_100
+      - 🇬🇧_GB_英国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇨🇦_CA_加拿大_104
+      - 🇬🇧_GB_英国_105
+      - 🇩🇪_DE_德国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇬🇧_GB_英国_109
+      - 🇺🇦_UA_乌克兰_110
+      - 🇨🇦_CA_加拿大_111
+      - 🇬🇧_GB_英国_112
+      - 🇨🇦_CA_加拿大_113
+      - 🇺🇸_US_美国_114
+      - 🇨🇦_CA_加拿大_115
+      - 🇨🇦_CA_加拿大_116
+      - 🇷🇴_RO_罗马尼亚_117
+      - 🇬🇧_GB_英国_118
+      - 🇬🇧_GB_英国_119
+      - 🇬🇧_GB_英国_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇩🇪_DE_德国_122
+      - 🇬🇧_GB_英国_123
+      - 🇨🇦_CA_加拿大_124
+      - default_name_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇻🇳_VN_越南_128
+      - default_name_129
+      - 🇦🇺_AU_澳大利亚_130
+      - default_name_131
+      - 🇬🇧_GB_英国_132
+      - 🇩🇪_DE_德国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇺🇦_UA_乌克兰_136
+      - 🇬🇧_GB_英国_137
+      - 🇸🇪_SE_瑞典_138
+      - 🇩🇪_DE_德国_139
+      - 🇵🇹_PT_葡萄牙_140
+      - 🇫🇷_FR_法国_141
+      - 🇦🇺_AU_澳大利亚_142
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_143
+      - 🇺🇸_US_美国_144
+      - default_name_145
+      - 🇨🇦_CA_加拿大_146
+      - default_name_147
+      - default_name_148
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇭🇰_HK_香港_152
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_153
+      - 🇨🇦_CA_加拿大_154
+      - 🇨🇦_CA_加拿大_155
+      - 🇺🇸_US_美国_156
+      - 🇨🇦_CA_加拿大_157
+      - 🇮🇳_IN_印度_158
+      - 🇮🇳_IN_印度_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇫🇷_FR_法国_162
+      - 🇨🇦_CA_加拿大_163
+      - 🇬🇧_GB_英国_164
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_165
+      - 🇩🇪_DE_德国_166
+      - 🇬🇧_GB_英国_167
+      - 🇮🇳_IN_印度_168
+      - 🇮🇳_IN_印度_169
+      - 🇺🇸_US_美国_170
+      - 🇯🇵_JP_日本_171
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_172
+      - 🇨🇦_CA_加拿大_173
+      - 🇮🇳_IN_印度_174
+      - 🇫🇷_FR_法国_175
+      - 🇯🇵_JP_日本_176
+      - 🇳🇴_NO_挪威_177
+      - 🇫🇷_FR_法国_178
+      - 🇺🇸_US_美国_179
+      - 🇨🇦_CA_加拿大_180
+      - 🇮🇳_IN_印度_181
+      - 🇫🇷_FR_法国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇮🇳_IN_印度_185
+      - 🇲🇾_MY_马来西亚_186
+      - 🇨🇦_CA_加拿大_187
+      - 🇫🇷_FR_法国_188
+      - 🇫🇷_FR_法国_189
+      - 🇺🇸_US_美国_190
+      - 🇫🇷_FR_法国_191
+      - 🇧🇦_BA_波黑_192
+      - 🇳🇴_NO_挪威_193
+      - 🇫🇷_FR_法国_194
+      - 🇺🇸_US_美国_195
+      - 🇨🇦_CA_加拿大_196
+      - 🇳🇴_NO_挪威_197
+      - 🇫🇷_FR_法国_198
+      - 🇦🇪_AE_阿联酋_199
+      - 🇫🇷_FR_法国_200
+      - 🇫🇷_FR_法国_201
+      - 🇮🇩_ID_印度尼西亚_202
+      - 🇬🇷_GR_希腊_203
+      - 🇳🇴_NO_挪威_204
+      - 🇦🇪_AE_阿联酋_205
+      - 🇳🇴_NO_挪威_206
+      - 🇫🇷_FR_法国_207
+      - 🇳🇴_NO_挪威_208
+      - 🇺🇸_US_美国_209
+      - 🇫🇷_FR_法国_210
+      - 🇺🇸_US_美国_211
+      - 🇨🇦_CA_加拿大_212
+      - 🇳🇴_NO_挪威_213
+      - 🇺🇸_US_美国_214
+      - 🇺🇸_US_美国_215
+      - 🇫🇷_FR_法国_216
+      - 🇺🇸_US_美国_217
+      - 🇺🇸_US_美国_218
+      - 🇺🇸_US_美国_219
+      - 🇨🇦_CA_加拿大_220
+      - 🇨🇦_CA_加拿大_221
+      - 🇺🇸_US_美国_222
+      - 🇺🇸_US_美国_223
+      - 🇨🇦_CA_加拿大_224
+      - 🇨🇦_CA_加拿大_225
+      - 🇨🇦_CA_加拿大_226
+      - 🇨🇦_CA_加拿大_227
+      - 🇬🇧_GB_英国_228
+      - 🇬🇧_GB_英国_229
+      - 🇬🇧_GB_英国_230
+      - 🇺🇸_US_美国_231
+      - 🇳🇴_NO_挪威_232
+      - 🇨🇦_CA_加拿大_233
+      - 🇳🇴_NO_挪威_234
+      - 🇨🇦_CA_加拿大_235
+      - 🇳🇴_NO_挪威_236
+      - 🇳🇴_NO_挪威_237
+      - 🇬🇷_GR_希腊_238
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
