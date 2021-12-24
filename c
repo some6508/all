@@ -5,804 +5,140 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'CYL-科技（2021.12.23）_1', server: ct.cnhost.top, port: 16618, type: vmess, uuid: 6feece3e-d70e-4388-8cf1-76c1023347cc, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: 'CYL-科技（2021.12.23）_2', server: v28.88host.buzz, port: 18073, type: vmess, uuid: 8e101712-8380-3376-bbeb-ef6ef1eaafb9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v28.88host.buzz}}
-  - {name: 'CYL-科技（2021.12.21）_3', server: v28.88host.buzz, port: 18073, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v28.88host.buzz}}
-  - {name: 'CYL-科技（2021.12.23）_4', server: 169.197.142.250, port: 2800, type: ss, cipher: aes-256-gcm, password: d3bbe88595e1dfaa2c9085aa9bdaf3e4}
-  - {name: '🇭🇰 HKYoutube技术分享室整理_5', server: 155.94.197.20, port: 11021, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 155.94.197.20}}
-  - {name: 'CYL-科技（2021.12.21）_6', server: v23.88host.buzz, port: 18139, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v23.88host.buzz}}
-  - {name: 'CYL-科技（2021.12.21）_7', server: v36.88host.buzz, port: 18078, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: 'CYL-科技（2021.12.23）_8', server: 167.160.91.131, port: 2948, type: ss, cipher: aes-256-gcm, password: c9ff20111b73874292da92cc4166421e}
-  - {name: 'CYL-科技（2021.12.23）_9', server: 3.106.142.132, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 3.106.142.132}}
-  - {name: 'CYL-科技（2021.12.23）_10', server: 108.165.196.212, port: 2340, type: ss, cipher: aes-256-gcm, password: 81d7d46b9c66c779e81b83bc594df5eb}
-  - {name: '🇺🇸USYoutube技术分享室整理_11', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.12.23）_12', server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.12.23）_13', server: 82.202.220.242, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
-  - {name: '🇭🇰 HKYoutube技术分享室整理_14', server: 18.192.212.68, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.192.212.68}}
-  - {name: 'CYL-科技（2021.12.23）_15', server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇭🇰 HKYoutube技术分享室整理_16', server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.218.198.254}}
-  - {name: '🇺🇸USYoutube技术分享室整理_17', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸USYoutube技术分享室整理_18', server: 142.202.48.43, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'CYL-科技（2021.12.23）_19', server: 134.195.196.51, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸USYoutube技术分享室整理_20', server: 142.202.48.43, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'CYL-科技（2021.12.23）_21', server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸USYoutube技术分享室整理_22', server: 142.202.48.43, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸USYoutube技术分享室整理_23', server: 142.202.48.43, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'CYL-科技（2021.12.23）_24', server: 142.202.48.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'CYL-科技（2021.12.23）_25', server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'CYL-科技（2021.12.23）_26', server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'CYL-科技（2021.12.23）_27', server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.12.23）_28', server: t4.ssrsub.com, port: 156, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689}
-  - {name: 'CYL-科技（2021.12.23）_29', server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '加拿大+🇨🇦Youtube技术分享室整理_30', server: 134.195.196.51, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸USYoutube技术分享室整理_31', server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸USYoutube技术分享室整理_32', server: 142.202.48.43, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸USYoutube技术分享室整理_33', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
-  - {name: 'CYL-科技（2021.12.23）_34', server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'CYL-科技（2021.12.23）_35', server: 142.202.48.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'CYL-科技（2021.12.23）_36', server: 38.107.226.48, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'CYL-科技（2021.12.23）_37', server: 38.107.226.48, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'CYL-科技（2021.12.23）_38', server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'CYL-科技（2021.12.23）_39', server: 134.195.196.51, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国Youtube技术分享室整理_40', server: 142.202.48.43, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'CYL-科技（2021.12.23）_41', server: 38.68.135.19, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'CYL-科技（2021.12.23）_42', server: 142.202.48.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'CYL-科技（2021.12.23）_43', server: 38.107.226.48, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'CYL-科技（2021.12.23）_44', server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸USYoutube技术分享室整理_45', server: 142.202.48.43, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸USYoutube技术分享室整理_46', server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸USYoutube技术分享室整理_47', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'CYL-科技（2021.12.23）_48', server: 142.202.48.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.12.23）_49', server: 142.202.48.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'CYL-科技（2021.12.21）_50', server: 00.cn1.rocketdns.xyz, port: 65012, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: 'CYL-科技（2021.12.23）_51', server: 142.202.48.99, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'CYL-科技（2021.12.23）_52', server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'CYL-科技（2021.12.23）_53', server: 142.202.48.43, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'CYL-科技（2021.12.21）_54', server: v24.88host.buzz, port: 18028, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}}
-  - {name: 'CYL-科技（2021.12.23）_55', server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'CYL-科技（2021.12.23）_56', server: 142.202.48.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'CYL-科技（2021.12.23）_57', server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'CYL-科技（2021.12.23）_58', server: 142.202.48.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'CYL-科技（2021.12.23）_59', server: cu.cnhost.top, port: 16618, type: vmess, uuid: 6feece3e-d70e-4388-8cf1-76c1023347cc, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '德国+🇩🇪技术分享室整理,欢迎订阅_60', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '法国感谢订阅——科技网络_61', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'CYL-科技（2021.12.21）_62', server: v34.88host.buzz, port: 18067, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: 'CYL-科技（2021.12.21）_63', server: v21.88host.buzz, port: 18033, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v21.88host.buzz}}
-  - {name: 'CYL-科技（2021.12.23）_64', server: 00.cn2.rocketdns.xyz, port: 65013, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: 'CYL-科技（2021.12.23）_65', server: iepl.hk.31c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'CYL-科技（2021.12.23）_66', server: iepl.sg.21ce.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'CYL-科技（2021.12.21）_67', server: 00.cn2.rocketdns.xyz, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: 'CYL-科技（2021.12.21）_68', server: v22.88host.buzz, port: 18026, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}}
-  - {name: 'CYL-科技（2021.12.21）_69', server: 00.cn2.rocketdns.xyz, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: 'CYL-科技（2021.12.21）_70', server: 00.cn2.rocketdns.xyz, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: 'CYL-科技（2021.12.23）_71', server: iepl.sg.e0c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'CYL-科技（2021.12.21）_72', server: v35.88host.buzz, port: 18068, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '德国+🇩🇪技术分享室整理,欢迎订阅_73', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'CYL-科技（2021.12.23）_74', server: 165.154.226.148, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'CYL-科技（2021.12.23）_75', server: 192.53.169.116, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇫🇷Youtube技术分享室整理_76', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.12.21）_77', server: 00.cn1.rocketdns.xyz, port: 65003, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: '法国Youtube技术分享室整理_78', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇭🇰 HKYoutube技术分享室整理_79', server: 00.cn1.rocketdns.xyz, port: 65017, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: 'CYL-科技（2021.12.23）_80', server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'FRYoutube技术分享室整理_81', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'CYL-科技（2021.12.23）_82', server: 142.202.48.43, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.12.23）_83', server: 142.202.48.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'CYL-科技（2021.12.21）_84', server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: 'CYL-科技（2021.12.21）_85', server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: 'CYL-科技（2021.12.21）_86', server: 00.cn1.rocketdns.xyz, port: 65003, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: 'CYL-科技（2021.12.21）_87', server: v32.88host.buzz, port: 18065, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: 'CYL-科技（2021.12.21）_88', server: v28.88host.buzz, port: 18075, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v28.88host.buzz}}
-  - {name: 'CYL-科技（2021.12.21）_89', server: v12.88host.buzz, port: 18009, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}}
-  - {name: 'CYL-科技（2021.12.21）_90', server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: 973f8975-e494-4c77-921f-212ca83fff8b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 'CYL-科技（2021.12.23）_91', server: 00.cn2.rocketdns.xyz, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: 'CYL-科技（2021.12.21）_92', server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: 9130cf82-3615-4582-a2d0-d7e2a74134d3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 'CYL-科技（2021.12.23）_93', server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: d73ff709-70bf-4183-9648-6cb1f5e8aafd, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: 'CYL-科技（2021.12.21）_94', server: v36.88host.buzz, port: 18069, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: 'CYL-科技（2021.12.23）_95', server: jp14.holiganfan.com, port: 10088, type: trojan, password: 8ee4e5da-93fb-4a55-933b-ff882337b662, sni: jp14.holiganfan.com}
+  - {name: '日本｜03｜广东移动_1', server: gy.xhhv2.com, port: 15010, type: vmess, uuid: eeb48740-5941-39a5-ba07-52e633e9f0a9, alterId: 2, cipher: auto, tls: false, network: tcp, ws-headers: {Host: rb34.xhhv2.com}}
+  - {name: '日本｜01｜80_2', server: rb1.xhhv2.com, port: 80, type: vmess, uuid: eeb48740-5941-39a5-ba07-52e633e9f0a9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: rb1.xhhv2.com}}
+  - {name: '台湾02｜广东移动｜媒流解锁_3', server: gy.xhhv2.com, port: 15009, type: vmess, uuid: eeb48740-5941-39a5-ba07-52e633e9f0a9, alterId: 2, cipher: auto, tls: false, network: tcp, ws-headers: {Host: tw.021112.ml}}
+  - {name: '日本｜02｜媒流解锁_4', server: rb1.xhhv2.com, port: 12012, type: vmess, uuid: eeb48740-5941-39a5-ba07-52e633e9f0a9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: rb1.xhhv2.com}}
+  - {name: '美西 BGP｜06｜广东移动｜媒流解锁_5', server: gy.xhhv2.com, port: 15001, type: vmess, uuid: eeb48740-5941-39a5-ba07-52e633e9f0a9, alterId: 2, cipher: auto, tls: false, network: tcp, ws-headers: {Host: mbgp.021112.ml}}
+  - {name: '韩国｜01_6', server: hg1.xhhv2.com, port: 20102, type: vmess, uuid: eeb48740-5941-39a5-ba07-52e633e9f0a9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: hg1.xhhv2.com}}
+  - {name: '台湾 HiNet｜01｜媒流解锁_7', server: tw.node.qchwnd.moe, port: 10102, type: vmess, uuid: eeb48740-5941-39a5-ba07-52e633e9f0a9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: tw.node.qchwnd.moe}}
+  - {name: '台湾 HiNet｜04｜媒流解锁_8', server: tw.v2ssvps.com, port: 20102, type: vmess, uuid: eeb48740-5941-39a5-ba07-52e633e9f0a9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: tw.v2ssvps.com}}
+  - {name: '香港｜04｜广东移动_9', server: gy.xhhv2.com, port: 15007, type: vmess, uuid: eeb48740-5941-39a5-ba07-52e633e9f0a9, alterId: 2, cipher: auto, tls: false, network: tcp, ws-headers: {Host: xg3.xhhv2.com}}
+  - {name: '韩国｜02_10', server: hg1.xhhv2.com, port: 12011, type: vmess, uuid: eeb48740-5941-39a5-ba07-52e633e9f0a9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: hg1.xhhv2.com}}
+  - {name: '台北 Scloud｜05｜广东移动｜解锁新加坡_11', server: gy.xhhv2.com, port: 15000, type: vmess, uuid: eeb48740-5941-39a5-ba07-52e633e9f0a9, alterId: 2, cipher: auto, tls: false, network: tcp, ws-headers: {Host: tb.021112.ml}}
+  - {name: '新加坡｜04｜长沙联通_12', server: cs.lt.nkeo.top, port: 25215, type: vmess, uuid: eeb48740-5941-39a5-ba07-52e633e9f0a9, alterId: 2, cipher: auto, tls: false, network: tcp, ws-headers: {Host: xjp34.xhhv2.com}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2021.12.23）_1
-      - CYL-科技（2021.12.23）_2
-      - CYL-科技（2021.12.21）_3
-      - CYL-科技（2021.12.23）_4
-      - 🇭🇰 HKYoutube技术分享室整理_5
-      - CYL-科技（2021.12.21）_6
-      - CYL-科技（2021.12.21）_7
-      - CYL-科技（2021.12.23）_8
-      - CYL-科技（2021.12.23）_9
-      - CYL-科技（2021.12.23）_10
-      - 🇺🇸USYoutube技术分享室整理_11
-      - CYL-科技（2021.12.23）_12
-      - CYL-科技（2021.12.23）_13
-      - 🇭🇰 HKYoutube技术分享室整理_14
-      - CYL-科技（2021.12.23）_15
-      - 🇭🇰 HKYoutube技术分享室整理_16
-      - 🇺🇸USYoutube技术分享室整理_17
-      - 🇺🇸USYoutube技术分享室整理_18
-      - CYL-科技（2021.12.23）_19
-      - 🇺🇸USYoutube技术分享室整理_20
-      - CYL-科技（2021.12.23）_21
-      - 🇺🇸USYoutube技术分享室整理_22
-      - 🇺🇸USYoutube技术分享室整理_23
-      - CYL-科技（2021.12.23）_24
-      - CYL-科技（2021.12.23）_25
-      - CYL-科技（2021.12.23）_26
-      - CYL-科技（2021.12.23）_27
-      - CYL-科技（2021.12.23）_28
-      - CYL-科技（2021.12.23）_29
-      - 加拿大+🇨🇦Youtube技术分享室整理_30
-      - 🇺🇸USYoutube技术分享室整理_31
-      - 🇺🇸USYoutube技术分享室整理_32
-      - 🇺🇸USYoutube技术分享室整理_33
-      - CYL-科技（2021.12.23）_34
-      - CYL-科技（2021.12.23）_35
-      - CYL-科技（2021.12.23）_36
-      - CYL-科技（2021.12.23）_37
-      - CYL-科技（2021.12.23）_38
-      - CYL-科技（2021.12.23）_39
-      - 美国Youtube技术分享室整理_40
-      - CYL-科技（2021.12.23）_41
-      - CYL-科技（2021.12.23）_42
-      - CYL-科技（2021.12.23）_43
-      - CYL-科技（2021.12.23）_44
-      - 🇺🇸USYoutube技术分享室整理_45
-      - 🇺🇸USYoutube技术分享室整理_46
-      - 🇺🇸USYoutube技术分享室整理_47
-      - CYL-科技（2021.12.23）_48
-      - CYL-科技（2021.12.23）_49
-      - CYL-科技（2021.12.21）_50
-      - CYL-科技（2021.12.23）_51
-      - CYL-科技（2021.12.23）_52
-      - CYL-科技（2021.12.23）_53
-      - CYL-科技（2021.12.21）_54
-      - CYL-科技（2021.12.23）_55
-      - CYL-科技（2021.12.23）_56
-      - CYL-科技（2021.12.23）_57
-      - CYL-科技（2021.12.23）_58
-      - CYL-科技（2021.12.23）_59
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_60
-      - 法国感谢订阅——科技网络_61
-      - CYL-科技（2021.12.21）_62
-      - CYL-科技（2021.12.21）_63
-      - CYL-科技（2021.12.23）_64
-      - CYL-科技（2021.12.23）_65
-      - CYL-科技（2021.12.23）_66
-      - CYL-科技（2021.12.21）_67
-      - CYL-科技（2021.12.21）_68
-      - CYL-科技（2021.12.21）_69
-      - CYL-科技（2021.12.21）_70
-      - CYL-科技（2021.12.23）_71
-      - CYL-科技（2021.12.21）_72
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_73
-      - CYL-科技（2021.12.23）_74
-      - CYL-科技（2021.12.23）_75
-      - 🇫🇷Youtube技术分享室整理_76
-      - CYL-科技（2021.12.21）_77
-      - 法国Youtube技术分享室整理_78
-      - 🇭🇰 HKYoutube技术分享室整理_79
-      - CYL-科技（2021.12.23）_80
-      - FRYoutube技术分享室整理_81
-      - CYL-科技（2021.12.23）_82
-      - CYL-科技（2021.12.23）_83
-      - CYL-科技（2021.12.21）_84
-      - CYL-科技（2021.12.21）_85
-      - CYL-科技（2021.12.21）_86
-      - CYL-科技（2021.12.21）_87
-      - CYL-科技（2021.12.21）_88
-      - CYL-科技（2021.12.21）_89
-      - CYL-科技（2021.12.21）_90
-      - CYL-科技（2021.12.23）_91
-      - CYL-科技（2021.12.21）_92
-      - CYL-科技（2021.12.23）_93
-      - CYL-科技（2021.12.21）_94
-      - CYL-科技（2021.12.23）_95
+      - 日本｜03｜广东移动_1
+      - 日本｜01｜80_2
+      - 台湾02｜广东移动｜媒流解锁_3
+      - 日本｜02｜媒流解锁_4
+      - 美西 BGP｜06｜广东移动｜媒流解锁_5
+      - 韩国｜01_6
+      - 台湾 HiNet｜01｜媒流解锁_7
+      - 台湾 HiNet｜04｜媒流解锁_8
+      - 香港｜04｜广东移动_9
+      - 韩国｜02_10
+      - 台北 Scloud｜05｜广东移动｜解锁新加坡_11
+      - 新加坡｜04｜长沙联通_12
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CYL-科技（2021.12.23）_1
-      - CYL-科技（2021.12.23）_2
-      - CYL-科技（2021.12.21）_3
-      - CYL-科技（2021.12.23）_4
-      - 🇭🇰 HKYoutube技术分享室整理_5
-      - CYL-科技（2021.12.21）_6
-      - CYL-科技（2021.12.21）_7
-      - CYL-科技（2021.12.23）_8
-      - CYL-科技（2021.12.23）_9
-      - CYL-科技（2021.12.23）_10
-      - 🇺🇸USYoutube技术分享室整理_11
-      - CYL-科技（2021.12.23）_12
-      - CYL-科技（2021.12.23）_13
-      - 🇭🇰 HKYoutube技术分享室整理_14
-      - CYL-科技（2021.12.23）_15
-      - 🇭🇰 HKYoutube技术分享室整理_16
-      - 🇺🇸USYoutube技术分享室整理_17
-      - 🇺🇸USYoutube技术分享室整理_18
-      - CYL-科技（2021.12.23）_19
-      - 🇺🇸USYoutube技术分享室整理_20
-      - CYL-科技（2021.12.23）_21
-      - 🇺🇸USYoutube技术分享室整理_22
-      - 🇺🇸USYoutube技术分享室整理_23
-      - CYL-科技（2021.12.23）_24
-      - CYL-科技（2021.12.23）_25
-      - CYL-科技（2021.12.23）_26
-      - CYL-科技（2021.12.23）_27
-      - CYL-科技（2021.12.23）_28
-      - CYL-科技（2021.12.23）_29
-      - 加拿大+🇨🇦Youtube技术分享室整理_30
-      - 🇺🇸USYoutube技术分享室整理_31
-      - 🇺🇸USYoutube技术分享室整理_32
-      - 🇺🇸USYoutube技术分享室整理_33
-      - CYL-科技（2021.12.23）_34
-      - CYL-科技（2021.12.23）_35
-      - CYL-科技（2021.12.23）_36
-      - CYL-科技（2021.12.23）_37
-      - CYL-科技（2021.12.23）_38
-      - CYL-科技（2021.12.23）_39
-      - 美国Youtube技术分享室整理_40
-      - CYL-科技（2021.12.23）_41
-      - CYL-科技（2021.12.23）_42
-      - CYL-科技（2021.12.23）_43
-      - CYL-科技（2021.12.23）_44
-      - 🇺🇸USYoutube技术分享室整理_45
-      - 🇺🇸USYoutube技术分享室整理_46
-      - 🇺🇸USYoutube技术分享室整理_47
-      - CYL-科技（2021.12.23）_48
-      - CYL-科技（2021.12.23）_49
-      - CYL-科技（2021.12.21）_50
-      - CYL-科技（2021.12.23）_51
-      - CYL-科技（2021.12.23）_52
-      - CYL-科技（2021.12.23）_53
-      - CYL-科技（2021.12.21）_54
-      - CYL-科技（2021.12.23）_55
-      - CYL-科技（2021.12.23）_56
-      - CYL-科技（2021.12.23）_57
-      - CYL-科技（2021.12.23）_58
-      - CYL-科技（2021.12.23）_59
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_60
-      - 法国感谢订阅——科技网络_61
-      - CYL-科技（2021.12.21）_62
-      - CYL-科技（2021.12.21）_63
-      - CYL-科技（2021.12.23）_64
-      - CYL-科技（2021.12.23）_65
-      - CYL-科技（2021.12.23）_66
-      - CYL-科技（2021.12.21）_67
-      - CYL-科技（2021.12.21）_68
-      - CYL-科技（2021.12.21）_69
-      - CYL-科技（2021.12.21）_70
-      - CYL-科技（2021.12.23）_71
-      - CYL-科技（2021.12.21）_72
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_73
-      - CYL-科技（2021.12.23）_74
-      - CYL-科技（2021.12.23）_75
-      - 🇫🇷Youtube技术分享室整理_76
-      - CYL-科技（2021.12.21）_77
-      - 法国Youtube技术分享室整理_78
-      - 🇭🇰 HKYoutube技术分享室整理_79
-      - CYL-科技（2021.12.23）_80
-      - FRYoutube技术分享室整理_81
-      - CYL-科技（2021.12.23）_82
-      - CYL-科技（2021.12.23）_83
-      - CYL-科技（2021.12.21）_84
-      - CYL-科技（2021.12.21）_85
-      - CYL-科技（2021.12.21）_86
-      - CYL-科技（2021.12.21）_87
-      - CYL-科技（2021.12.21）_88
-      - CYL-科技（2021.12.21）_89
-      - CYL-科技（2021.12.21）_90
-      - CYL-科技（2021.12.23）_91
-      - CYL-科技（2021.12.21）_92
-      - CYL-科技（2021.12.23）_93
-      - CYL-科技（2021.12.21）_94
-      - CYL-科技（2021.12.23）_95
+      - 日本｜03｜广东移动_1
+      - 日本｜01｜80_2
+      - 台湾02｜广东移动｜媒流解锁_3
+      - 日本｜02｜媒流解锁_4
+      - 美西 BGP｜06｜广东移动｜媒流解锁_5
+      - 韩国｜01_6
+      - 台湾 HiNet｜01｜媒流解锁_7
+      - 台湾 HiNet｜04｜媒流解锁_8
+      - 香港｜04｜广东移动_9
+      - 韩国｜02_10
+      - 台北 Scloud｜05｜广东移动｜解锁新加坡_11
+      - 新加坡｜04｜长沙联通_12
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2021.12.23）_1
-      - CYL-科技（2021.12.23）_2
-      - CYL-科技（2021.12.21）_3
-      - CYL-科技（2021.12.23）_4
-      - 🇭🇰 HKYoutube技术分享室整理_5
-      - CYL-科技（2021.12.21）_6
-      - CYL-科技（2021.12.21）_7
-      - CYL-科技（2021.12.23）_8
-      - CYL-科技（2021.12.23）_9
-      - CYL-科技（2021.12.23）_10
-      - 🇺🇸USYoutube技术分享室整理_11
-      - CYL-科技（2021.12.23）_12
-      - CYL-科技（2021.12.23）_13
-      - 🇭🇰 HKYoutube技术分享室整理_14
-      - CYL-科技（2021.12.23）_15
-      - 🇭🇰 HKYoutube技术分享室整理_16
-      - 🇺🇸USYoutube技术分享室整理_17
-      - 🇺🇸USYoutube技术分享室整理_18
-      - CYL-科技（2021.12.23）_19
-      - 🇺🇸USYoutube技术分享室整理_20
-      - CYL-科技（2021.12.23）_21
-      - 🇺🇸USYoutube技术分享室整理_22
-      - 🇺🇸USYoutube技术分享室整理_23
-      - CYL-科技（2021.12.23）_24
-      - CYL-科技（2021.12.23）_25
-      - CYL-科技（2021.12.23）_26
-      - CYL-科技（2021.12.23）_27
-      - CYL-科技（2021.12.23）_28
-      - CYL-科技（2021.12.23）_29
-      - 加拿大+🇨🇦Youtube技术分享室整理_30
-      - 🇺🇸USYoutube技术分享室整理_31
-      - 🇺🇸USYoutube技术分享室整理_32
-      - 🇺🇸USYoutube技术分享室整理_33
-      - CYL-科技（2021.12.23）_34
-      - CYL-科技（2021.12.23）_35
-      - CYL-科技（2021.12.23）_36
-      - CYL-科技（2021.12.23）_37
-      - CYL-科技（2021.12.23）_38
-      - CYL-科技（2021.12.23）_39
-      - 美国Youtube技术分享室整理_40
-      - CYL-科技（2021.12.23）_41
-      - CYL-科技（2021.12.23）_42
-      - CYL-科技（2021.12.23）_43
-      - CYL-科技（2021.12.23）_44
-      - 🇺🇸USYoutube技术分享室整理_45
-      - 🇺🇸USYoutube技术分享室整理_46
-      - 🇺🇸USYoutube技术分享室整理_47
-      - CYL-科技（2021.12.23）_48
-      - CYL-科技（2021.12.23）_49
-      - CYL-科技（2021.12.21）_50
-      - CYL-科技（2021.12.23）_51
-      - CYL-科技（2021.12.23）_52
-      - CYL-科技（2021.12.23）_53
-      - CYL-科技（2021.12.21）_54
-      - CYL-科技（2021.12.23）_55
-      - CYL-科技（2021.12.23）_56
-      - CYL-科技（2021.12.23）_57
-      - CYL-科技（2021.12.23）_58
-      - CYL-科技（2021.12.23）_59
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_60
-      - 法国感谢订阅——科技网络_61
-      - CYL-科技（2021.12.21）_62
-      - CYL-科技（2021.12.21）_63
-      - CYL-科技（2021.12.23）_64
-      - CYL-科技（2021.12.23）_65
-      - CYL-科技（2021.12.23）_66
-      - CYL-科技（2021.12.21）_67
-      - CYL-科技（2021.12.21）_68
-      - CYL-科技（2021.12.21）_69
-      - CYL-科技（2021.12.21）_70
-      - CYL-科技（2021.12.23）_71
-      - CYL-科技（2021.12.21）_72
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_73
-      - CYL-科技（2021.12.23）_74
-      - CYL-科技（2021.12.23）_75
-      - 🇫🇷Youtube技术分享室整理_76
-      - CYL-科技（2021.12.21）_77
-      - 法国Youtube技术分享室整理_78
-      - 🇭🇰 HKYoutube技术分享室整理_79
-      - CYL-科技（2021.12.23）_80
-      - FRYoutube技术分享室整理_81
-      - CYL-科技（2021.12.23）_82
-      - CYL-科技（2021.12.23）_83
-      - CYL-科技（2021.12.21）_84
-      - CYL-科技（2021.12.21）_85
-      - CYL-科技（2021.12.21）_86
-      - CYL-科技（2021.12.21）_87
-      - CYL-科技（2021.12.21）_88
-      - CYL-科技（2021.12.21）_89
-      - CYL-科技（2021.12.21）_90
-      - CYL-科技（2021.12.23）_91
-      - CYL-科技（2021.12.21）_92
-      - CYL-科技（2021.12.23）_93
-      - CYL-科技（2021.12.21）_94
-      - CYL-科技（2021.12.23）_95
+      - 日本｜03｜广东移动_1
+      - 日本｜01｜80_2
+      - 台湾02｜广东移动｜媒流解锁_3
+      - 日本｜02｜媒流解锁_4
+      - 美西 BGP｜06｜广东移动｜媒流解锁_5
+      - 韩国｜01_6
+      - 台湾 HiNet｜01｜媒流解锁_7
+      - 台湾 HiNet｜04｜媒流解锁_8
+      - 香港｜04｜广东移动_9
+      - 韩国｜02_10
+      - 台北 Scloud｜05｜广东移动｜解锁新加坡_11
+      - 新加坡｜04｜长沙联通_12
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CYL-科技（2021.12.23）_1
-      - CYL-科技（2021.12.23）_2
-      - CYL-科技（2021.12.21）_3
-      - CYL-科技（2021.12.23）_4
-      - 🇭🇰 HKYoutube技术分享室整理_5
-      - CYL-科技（2021.12.21）_6
-      - CYL-科技（2021.12.21）_7
-      - CYL-科技（2021.12.23）_8
-      - CYL-科技（2021.12.23）_9
-      - CYL-科技（2021.12.23）_10
-      - 🇺🇸USYoutube技术分享室整理_11
-      - CYL-科技（2021.12.23）_12
-      - CYL-科技（2021.12.23）_13
-      - 🇭🇰 HKYoutube技术分享室整理_14
-      - CYL-科技（2021.12.23）_15
-      - 🇭🇰 HKYoutube技术分享室整理_16
-      - 🇺🇸USYoutube技术分享室整理_17
-      - 🇺🇸USYoutube技术分享室整理_18
-      - CYL-科技（2021.12.23）_19
-      - 🇺🇸USYoutube技术分享室整理_20
-      - CYL-科技（2021.12.23）_21
-      - 🇺🇸USYoutube技术分享室整理_22
-      - 🇺🇸USYoutube技术分享室整理_23
-      - CYL-科技（2021.12.23）_24
-      - CYL-科技（2021.12.23）_25
-      - CYL-科技（2021.12.23）_26
-      - CYL-科技（2021.12.23）_27
-      - CYL-科技（2021.12.23）_28
-      - CYL-科技（2021.12.23）_29
-      - 加拿大+🇨🇦Youtube技术分享室整理_30
-      - 🇺🇸USYoutube技术分享室整理_31
-      - 🇺🇸USYoutube技术分享室整理_32
-      - 🇺🇸USYoutube技术分享室整理_33
-      - CYL-科技（2021.12.23）_34
-      - CYL-科技（2021.12.23）_35
-      - CYL-科技（2021.12.23）_36
-      - CYL-科技（2021.12.23）_37
-      - CYL-科技（2021.12.23）_38
-      - CYL-科技（2021.12.23）_39
-      - 美国Youtube技术分享室整理_40
-      - CYL-科技（2021.12.23）_41
-      - CYL-科技（2021.12.23）_42
-      - CYL-科技（2021.12.23）_43
-      - CYL-科技（2021.12.23）_44
-      - 🇺🇸USYoutube技术分享室整理_45
-      - 🇺🇸USYoutube技术分享室整理_46
-      - 🇺🇸USYoutube技术分享室整理_47
-      - CYL-科技（2021.12.23）_48
-      - CYL-科技（2021.12.23）_49
-      - CYL-科技（2021.12.21）_50
-      - CYL-科技（2021.12.23）_51
-      - CYL-科技（2021.12.23）_52
-      - CYL-科技（2021.12.23）_53
-      - CYL-科技（2021.12.21）_54
-      - CYL-科技（2021.12.23）_55
-      - CYL-科技（2021.12.23）_56
-      - CYL-科技（2021.12.23）_57
-      - CYL-科技（2021.12.23）_58
-      - CYL-科技（2021.12.23）_59
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_60
-      - 法国感谢订阅——科技网络_61
-      - CYL-科技（2021.12.21）_62
-      - CYL-科技（2021.12.21）_63
-      - CYL-科技（2021.12.23）_64
-      - CYL-科技（2021.12.23）_65
-      - CYL-科技（2021.12.23）_66
-      - CYL-科技（2021.12.21）_67
-      - CYL-科技（2021.12.21）_68
-      - CYL-科技（2021.12.21）_69
-      - CYL-科技（2021.12.21）_70
-      - CYL-科技（2021.12.23）_71
-      - CYL-科技（2021.12.21）_72
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_73
-      - CYL-科技（2021.12.23）_74
-      - CYL-科技（2021.12.23）_75
-      - 🇫🇷Youtube技术分享室整理_76
-      - CYL-科技（2021.12.21）_77
-      - 法国Youtube技术分享室整理_78
-      - 🇭🇰 HKYoutube技术分享室整理_79
-      - CYL-科技（2021.12.23）_80
-      - FRYoutube技术分享室整理_81
-      - CYL-科技（2021.12.23）_82
-      - CYL-科技（2021.12.23）_83
-      - CYL-科技（2021.12.21）_84
-      - CYL-科技（2021.12.21）_85
-      - CYL-科技（2021.12.21）_86
-      - CYL-科技（2021.12.21）_87
-      - CYL-科技（2021.12.21）_88
-      - CYL-科技（2021.12.21）_89
-      - CYL-科技（2021.12.21）_90
-      - CYL-科技（2021.12.23）_91
-      - CYL-科技（2021.12.21）_92
-      - CYL-科技（2021.12.23）_93
-      - CYL-科技（2021.12.21）_94
-      - CYL-科技（2021.12.23）_95
+      - 日本｜03｜广东移动_1
+      - 日本｜01｜80_2
+      - 台湾02｜广东移动｜媒流解锁_3
+      - 日本｜02｜媒流解锁_4
+      - 美西 BGP｜06｜广东移动｜媒流解锁_5
+      - 韩国｜01_6
+      - 台湾 HiNet｜01｜媒流解锁_7
+      - 台湾 HiNet｜04｜媒流解锁_8
+      - 香港｜04｜广东移动_9
+      - 韩国｜02_10
+      - 台北 Scloud｜05｜广东移动｜解锁新加坡_11
+      - 新加坡｜04｜长沙联通_12
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CYL-科技（2021.12.23）_1
-      - CYL-科技（2021.12.23）_2
-      - CYL-科技（2021.12.21）_3
-      - CYL-科技（2021.12.23）_4
-      - 🇭🇰 HKYoutube技术分享室整理_5
-      - CYL-科技（2021.12.21）_6
-      - CYL-科技（2021.12.21）_7
-      - CYL-科技（2021.12.23）_8
-      - CYL-科技（2021.12.23）_9
-      - CYL-科技（2021.12.23）_10
-      - 🇺🇸USYoutube技术分享室整理_11
-      - CYL-科技（2021.12.23）_12
-      - CYL-科技（2021.12.23）_13
-      - 🇭🇰 HKYoutube技术分享室整理_14
-      - CYL-科技（2021.12.23）_15
-      - 🇭🇰 HKYoutube技术分享室整理_16
-      - 🇺🇸USYoutube技术分享室整理_17
-      - 🇺🇸USYoutube技术分享室整理_18
-      - CYL-科技（2021.12.23）_19
-      - 🇺🇸USYoutube技术分享室整理_20
-      - CYL-科技（2021.12.23）_21
-      - 🇺🇸USYoutube技术分享室整理_22
-      - 🇺🇸USYoutube技术分享室整理_23
-      - CYL-科技（2021.12.23）_24
-      - CYL-科技（2021.12.23）_25
-      - CYL-科技（2021.12.23）_26
-      - CYL-科技（2021.12.23）_27
-      - CYL-科技（2021.12.23）_28
-      - CYL-科技（2021.12.23）_29
-      - 加拿大+🇨🇦Youtube技术分享室整理_30
-      - 🇺🇸USYoutube技术分享室整理_31
-      - 🇺🇸USYoutube技术分享室整理_32
-      - 🇺🇸USYoutube技术分享室整理_33
-      - CYL-科技（2021.12.23）_34
-      - CYL-科技（2021.12.23）_35
-      - CYL-科技（2021.12.23）_36
-      - CYL-科技（2021.12.23）_37
-      - CYL-科技（2021.12.23）_38
-      - CYL-科技（2021.12.23）_39
-      - 美国Youtube技术分享室整理_40
-      - CYL-科技（2021.12.23）_41
-      - CYL-科技（2021.12.23）_42
-      - CYL-科技（2021.12.23）_43
-      - CYL-科技（2021.12.23）_44
-      - 🇺🇸USYoutube技术分享室整理_45
-      - 🇺🇸USYoutube技术分享室整理_46
-      - 🇺🇸USYoutube技术分享室整理_47
-      - CYL-科技（2021.12.23）_48
-      - CYL-科技（2021.12.23）_49
-      - CYL-科技（2021.12.21）_50
-      - CYL-科技（2021.12.23）_51
-      - CYL-科技（2021.12.23）_52
-      - CYL-科技（2021.12.23）_53
-      - CYL-科技（2021.12.21）_54
-      - CYL-科技（2021.12.23）_55
-      - CYL-科技（2021.12.23）_56
-      - CYL-科技（2021.12.23）_57
-      - CYL-科技（2021.12.23）_58
-      - CYL-科技（2021.12.23）_59
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_60
-      - 法国感谢订阅——科技网络_61
-      - CYL-科技（2021.12.21）_62
-      - CYL-科技（2021.12.21）_63
-      - CYL-科技（2021.12.23）_64
-      - CYL-科技（2021.12.23）_65
-      - CYL-科技（2021.12.23）_66
-      - CYL-科技（2021.12.21）_67
-      - CYL-科技（2021.12.21）_68
-      - CYL-科技（2021.12.21）_69
-      - CYL-科技（2021.12.21）_70
-      - CYL-科技（2021.12.23）_71
-      - CYL-科技（2021.12.21）_72
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_73
-      - CYL-科技（2021.12.23）_74
-      - CYL-科技（2021.12.23）_75
-      - 🇫🇷Youtube技术分享室整理_76
-      - CYL-科技（2021.12.21）_77
-      - 法国Youtube技术分享室整理_78
-      - 🇭🇰 HKYoutube技术分享室整理_79
-      - CYL-科技（2021.12.23）_80
-      - FRYoutube技术分享室整理_81
-      - CYL-科技（2021.12.23）_82
-      - CYL-科技（2021.12.23）_83
-      - CYL-科技（2021.12.21）_84
-      - CYL-科技（2021.12.21）_85
-      - CYL-科技（2021.12.21）_86
-      - CYL-科技（2021.12.21）_87
-      - CYL-科技（2021.12.21）_88
-      - CYL-科技（2021.12.21）_89
-      - CYL-科技（2021.12.21）_90
-      - CYL-科技（2021.12.23）_91
-      - CYL-科技（2021.12.21）_92
-      - CYL-科技（2021.12.23）_93
-      - CYL-科技（2021.12.21）_94
-      - CYL-科技（2021.12.23）_95
+      - 日本｜03｜广东移动_1
+      - 日本｜01｜80_2
+      - 台湾02｜广东移动｜媒流解锁_3
+      - 日本｜02｜媒流解锁_4
+      - 美西 BGP｜06｜广东移动｜媒流解锁_5
+      - 韩国｜01_6
+      - 台湾 HiNet｜01｜媒流解锁_7
+      - 台湾 HiNet｜04｜媒流解锁_8
+      - 香港｜04｜广东移动_9
+      - 韩国｜02_10
+      - 台北 Scloud｜05｜广东移动｜解锁新加坡_11
+      - 新加坡｜04｜长沙联通_12
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CYL-科技（2021.12.23）_1
-      - CYL-科技（2021.12.23）_2
-      - CYL-科技（2021.12.21）_3
-      - CYL-科技（2021.12.23）_4
-      - 🇭🇰 HKYoutube技术分享室整理_5
-      - CYL-科技（2021.12.21）_6
-      - CYL-科技（2021.12.21）_7
-      - CYL-科技（2021.12.23）_8
-      - CYL-科技（2021.12.23）_9
-      - CYL-科技（2021.12.23）_10
-      - 🇺🇸USYoutube技术分享室整理_11
-      - CYL-科技（2021.12.23）_12
-      - CYL-科技（2021.12.23）_13
-      - 🇭🇰 HKYoutube技术分享室整理_14
-      - CYL-科技（2021.12.23）_15
-      - 🇭🇰 HKYoutube技术分享室整理_16
-      - 🇺🇸USYoutube技术分享室整理_17
-      - 🇺🇸USYoutube技术分享室整理_18
-      - CYL-科技（2021.12.23）_19
-      - 🇺🇸USYoutube技术分享室整理_20
-      - CYL-科技（2021.12.23）_21
-      - 🇺🇸USYoutube技术分享室整理_22
-      - 🇺🇸USYoutube技术分享室整理_23
-      - CYL-科技（2021.12.23）_24
-      - CYL-科技（2021.12.23）_25
-      - CYL-科技（2021.12.23）_26
-      - CYL-科技（2021.12.23）_27
-      - CYL-科技（2021.12.23）_28
-      - CYL-科技（2021.12.23）_29
-      - 加拿大+🇨🇦Youtube技术分享室整理_30
-      - 🇺🇸USYoutube技术分享室整理_31
-      - 🇺🇸USYoutube技术分享室整理_32
-      - 🇺🇸USYoutube技术分享室整理_33
-      - CYL-科技（2021.12.23）_34
-      - CYL-科技（2021.12.23）_35
-      - CYL-科技（2021.12.23）_36
-      - CYL-科技（2021.12.23）_37
-      - CYL-科技（2021.12.23）_38
-      - CYL-科技（2021.12.23）_39
-      - 美国Youtube技术分享室整理_40
-      - CYL-科技（2021.12.23）_41
-      - CYL-科技（2021.12.23）_42
-      - CYL-科技（2021.12.23）_43
-      - CYL-科技（2021.12.23）_44
-      - 🇺🇸USYoutube技术分享室整理_45
-      - 🇺🇸USYoutube技术分享室整理_46
-      - 🇺🇸USYoutube技术分享室整理_47
-      - CYL-科技（2021.12.23）_48
-      - CYL-科技（2021.12.23）_49
-      - CYL-科技（2021.12.21）_50
-      - CYL-科技（2021.12.23）_51
-      - CYL-科技（2021.12.23）_52
-      - CYL-科技（2021.12.23）_53
-      - CYL-科技（2021.12.21）_54
-      - CYL-科技（2021.12.23）_55
-      - CYL-科技（2021.12.23）_56
-      - CYL-科技（2021.12.23）_57
-      - CYL-科技（2021.12.23）_58
-      - CYL-科技（2021.12.23）_59
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_60
-      - 法国感谢订阅——科技网络_61
-      - CYL-科技（2021.12.21）_62
-      - CYL-科技（2021.12.21）_63
-      - CYL-科技（2021.12.23）_64
-      - CYL-科技（2021.12.23）_65
-      - CYL-科技（2021.12.23）_66
-      - CYL-科技（2021.12.21）_67
-      - CYL-科技（2021.12.21）_68
-      - CYL-科技（2021.12.21）_69
-      - CYL-科技（2021.12.21）_70
-      - CYL-科技（2021.12.23）_71
-      - CYL-科技（2021.12.21）_72
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_73
-      - CYL-科技（2021.12.23）_74
-      - CYL-科技（2021.12.23）_75
-      - 🇫🇷Youtube技术分享室整理_76
-      - CYL-科技（2021.12.21）_77
-      - 法国Youtube技术分享室整理_78
-      - 🇭🇰 HKYoutube技术分享室整理_79
-      - CYL-科技（2021.12.23）_80
-      - FRYoutube技术分享室整理_81
-      - CYL-科技（2021.12.23）_82
-      - CYL-科技（2021.12.23）_83
-      - CYL-科技（2021.12.21）_84
-      - CYL-科技（2021.12.21）_85
-      - CYL-科技（2021.12.21）_86
-      - CYL-科技（2021.12.21）_87
-      - CYL-科技（2021.12.21）_88
-      - CYL-科技（2021.12.21）_89
-      - CYL-科技（2021.12.21）_90
-      - CYL-科技（2021.12.23）_91
-      - CYL-科技（2021.12.21）_92
-      - CYL-科技（2021.12.23）_93
-      - CYL-科技（2021.12.21）_94
-      - CYL-科技（2021.12.23）_95
+      - 日本｜03｜广东移动_1
+      - 日本｜01｜80_2
+      - 台湾02｜广东移动｜媒流解锁_3
+      - 日本｜02｜媒流解锁_4
+      - 美西 BGP｜06｜广东移动｜媒流解锁_5
+      - 韩国｜01_6
+      - 台湾 HiNet｜01｜媒流解锁_7
+      - 台湾 HiNet｜04｜媒流解锁_8
+      - 香港｜04｜广东移动_9
+      - 韩国｜02_10
+      - 台北 Scloud｜05｜广东移动｜解锁新加坡_11
+      - 新加坡｜04｜长沙联通_12
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2021.12.23）_1
-      - CYL-科技（2021.12.23）_2
-      - CYL-科技（2021.12.21）_3
-      - CYL-科技（2021.12.23）_4
-      - 🇭🇰 HKYoutube技术分享室整理_5
-      - CYL-科技（2021.12.21）_6
-      - CYL-科技（2021.12.21）_7
-      - CYL-科技（2021.12.23）_8
-      - CYL-科技（2021.12.23）_9
-      - CYL-科技（2021.12.23）_10
-      - 🇺🇸USYoutube技术分享室整理_11
-      - CYL-科技（2021.12.23）_12
-      - CYL-科技（2021.12.23）_13
-      - 🇭🇰 HKYoutube技术分享室整理_14
-      - CYL-科技（2021.12.23）_15
-      - 🇭🇰 HKYoutube技术分享室整理_16
-      - 🇺🇸USYoutube技术分享室整理_17
-      - 🇺🇸USYoutube技术分享室整理_18
-      - CYL-科技（2021.12.23）_19
-      - 🇺🇸USYoutube技术分享室整理_20
-      - CYL-科技（2021.12.23）_21
-      - 🇺🇸USYoutube技术分享室整理_22
-      - 🇺🇸USYoutube技术分享室整理_23
-      - CYL-科技（2021.12.23）_24
-      - CYL-科技（2021.12.23）_25
-      - CYL-科技（2021.12.23）_26
-      - CYL-科技（2021.12.23）_27
-      - CYL-科技（2021.12.23）_28
-      - CYL-科技（2021.12.23）_29
-      - 加拿大+🇨🇦Youtube技术分享室整理_30
-      - 🇺🇸USYoutube技术分享室整理_31
-      - 🇺🇸USYoutube技术分享室整理_32
-      - 🇺🇸USYoutube技术分享室整理_33
-      - CYL-科技（2021.12.23）_34
-      - CYL-科技（2021.12.23）_35
-      - CYL-科技（2021.12.23）_36
-      - CYL-科技（2021.12.23）_37
-      - CYL-科技（2021.12.23）_38
-      - CYL-科技（2021.12.23）_39
-      - 美国Youtube技术分享室整理_40
-      - CYL-科技（2021.12.23）_41
-      - CYL-科技（2021.12.23）_42
-      - CYL-科技（2021.12.23）_43
-      - CYL-科技（2021.12.23）_44
-      - 🇺🇸USYoutube技术分享室整理_45
-      - 🇺🇸USYoutube技术分享室整理_46
-      - 🇺🇸USYoutube技术分享室整理_47
-      - CYL-科技（2021.12.23）_48
-      - CYL-科技（2021.12.23）_49
-      - CYL-科技（2021.12.21）_50
-      - CYL-科技（2021.12.23）_51
-      - CYL-科技（2021.12.23）_52
-      - CYL-科技（2021.12.23）_53
-      - CYL-科技（2021.12.21）_54
-      - CYL-科技（2021.12.23）_55
-      - CYL-科技（2021.12.23）_56
-      - CYL-科技（2021.12.23）_57
-      - CYL-科技（2021.12.23）_58
-      - CYL-科技（2021.12.23）_59
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_60
-      - 法国感谢订阅——科技网络_61
-      - CYL-科技（2021.12.21）_62
-      - CYL-科技（2021.12.21）_63
-      - CYL-科技（2021.12.23）_64
-      - CYL-科技（2021.12.23）_65
-      - CYL-科技（2021.12.23）_66
-      - CYL-科技（2021.12.21）_67
-      - CYL-科技（2021.12.21）_68
-      - CYL-科技（2021.12.21）_69
-      - CYL-科技（2021.12.21）_70
-      - CYL-科技（2021.12.23）_71
-      - CYL-科技（2021.12.21）_72
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_73
-      - CYL-科技（2021.12.23）_74
-      - CYL-科技（2021.12.23）_75
-      - 🇫🇷Youtube技术分享室整理_76
-      - CYL-科技（2021.12.21）_77
-      - 法国Youtube技术分享室整理_78
-      - 🇭🇰 HKYoutube技术分享室整理_79
-      - CYL-科技（2021.12.23）_80
-      - FRYoutube技术分享室整理_81
-      - CYL-科技（2021.12.23）_82
-      - CYL-科技（2021.12.23）_83
-      - CYL-科技（2021.12.21）_84
-      - CYL-科技（2021.12.21）_85
-      - CYL-科技（2021.12.21）_86
-      - CYL-科技（2021.12.21）_87
-      - CYL-科技（2021.12.21）_88
-      - CYL-科技（2021.12.21）_89
-      - CYL-科技（2021.12.21）_90
-      - CYL-科技（2021.12.23）_91
-      - CYL-科技（2021.12.21）_92
-      - CYL-科技（2021.12.23）_93
-      - CYL-科技（2021.12.21）_94
-      - CYL-科技（2021.12.23）_95
+      - 日本｜03｜广东移动_1
+      - 日本｜01｜80_2
+      - 台湾02｜广东移动｜媒流解锁_3
+      - 日本｜02｜媒流解锁_4
+      - 美西 BGP｜06｜广东移动｜媒流解锁_5
+      - 韩国｜01_6
+      - 台湾 HiNet｜01｜媒流解锁_7
+      - 台湾 HiNet｜04｜媒流解锁_8
+      - 香港｜04｜广东移动_9
+      - 韩国｜02_10
+      - 台北 Scloud｜05｜广东移动｜解锁新加坡_11
+      - 新加坡｜04｜长沙联通_12
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -818,101 +154,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2021.12.23）_1
-      - CYL-科技（2021.12.23）_2
-      - CYL-科技（2021.12.21）_3
-      - CYL-科技（2021.12.23）_4
-      - 🇭🇰 HKYoutube技术分享室整理_5
-      - CYL-科技（2021.12.21）_6
-      - CYL-科技（2021.12.21）_7
-      - CYL-科技（2021.12.23）_8
-      - CYL-科技（2021.12.23）_9
-      - CYL-科技（2021.12.23）_10
-      - 🇺🇸USYoutube技术分享室整理_11
-      - CYL-科技（2021.12.23）_12
-      - CYL-科技（2021.12.23）_13
-      - 🇭🇰 HKYoutube技术分享室整理_14
-      - CYL-科技（2021.12.23）_15
-      - 🇭🇰 HKYoutube技术分享室整理_16
-      - 🇺🇸USYoutube技术分享室整理_17
-      - 🇺🇸USYoutube技术分享室整理_18
-      - CYL-科技（2021.12.23）_19
-      - 🇺🇸USYoutube技术分享室整理_20
-      - CYL-科技（2021.12.23）_21
-      - 🇺🇸USYoutube技术分享室整理_22
-      - 🇺🇸USYoutube技术分享室整理_23
-      - CYL-科技（2021.12.23）_24
-      - CYL-科技（2021.12.23）_25
-      - CYL-科技（2021.12.23）_26
-      - CYL-科技（2021.12.23）_27
-      - CYL-科技（2021.12.23）_28
-      - CYL-科技（2021.12.23）_29
-      - 加拿大+🇨🇦Youtube技术分享室整理_30
-      - 🇺🇸USYoutube技术分享室整理_31
-      - 🇺🇸USYoutube技术分享室整理_32
-      - 🇺🇸USYoutube技术分享室整理_33
-      - CYL-科技（2021.12.23）_34
-      - CYL-科技（2021.12.23）_35
-      - CYL-科技（2021.12.23）_36
-      - CYL-科技（2021.12.23）_37
-      - CYL-科技（2021.12.23）_38
-      - CYL-科技（2021.12.23）_39
-      - 美国Youtube技术分享室整理_40
-      - CYL-科技（2021.12.23）_41
-      - CYL-科技（2021.12.23）_42
-      - CYL-科技（2021.12.23）_43
-      - CYL-科技（2021.12.23）_44
-      - 🇺🇸USYoutube技术分享室整理_45
-      - 🇺🇸USYoutube技术分享室整理_46
-      - 🇺🇸USYoutube技术分享室整理_47
-      - CYL-科技（2021.12.23）_48
-      - CYL-科技（2021.12.23）_49
-      - CYL-科技（2021.12.21）_50
-      - CYL-科技（2021.12.23）_51
-      - CYL-科技（2021.12.23）_52
-      - CYL-科技（2021.12.23）_53
-      - CYL-科技（2021.12.21）_54
-      - CYL-科技（2021.12.23）_55
-      - CYL-科技（2021.12.23）_56
-      - CYL-科技（2021.12.23）_57
-      - CYL-科技（2021.12.23）_58
-      - CYL-科技（2021.12.23）_59
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_60
-      - 法国感谢订阅——科技网络_61
-      - CYL-科技（2021.12.21）_62
-      - CYL-科技（2021.12.21）_63
-      - CYL-科技（2021.12.23）_64
-      - CYL-科技（2021.12.23）_65
-      - CYL-科技（2021.12.23）_66
-      - CYL-科技（2021.12.21）_67
-      - CYL-科技（2021.12.21）_68
-      - CYL-科技（2021.12.21）_69
-      - CYL-科技（2021.12.21）_70
-      - CYL-科技（2021.12.23）_71
-      - CYL-科技（2021.12.21）_72
-      - 德国+🇩🇪技术分享室整理,欢迎订阅_73
-      - CYL-科技（2021.12.23）_74
-      - CYL-科技（2021.12.23）_75
-      - 🇫🇷Youtube技术分享室整理_76
-      - CYL-科技（2021.12.21）_77
-      - 法国Youtube技术分享室整理_78
-      - 🇭🇰 HKYoutube技术分享室整理_79
-      - CYL-科技（2021.12.23）_80
-      - FRYoutube技术分享室整理_81
-      - CYL-科技（2021.12.23）_82
-      - CYL-科技（2021.12.23）_83
-      - CYL-科技（2021.12.21）_84
-      - CYL-科技（2021.12.21）_85
-      - CYL-科技（2021.12.21）_86
-      - CYL-科技（2021.12.21）_87
-      - CYL-科技（2021.12.21）_88
-      - CYL-科技（2021.12.21）_89
-      - CYL-科技（2021.12.21）_90
-      - CYL-科技（2021.12.23）_91
-      - CYL-科技（2021.12.21）_92
-      - CYL-科技（2021.12.23）_93
-      - CYL-科技（2021.12.21）_94
-      - CYL-科技（2021.12.23）_95
+      - 日本｜03｜广东移动_1
+      - 日本｜01｜80_2
+      - 台湾02｜广东移动｜媒流解锁_3
+      - 日本｜02｜媒流解锁_4
+      - 美西 BGP｜06｜广东移动｜媒流解锁_5
+      - 韩国｜01_6
+      - 台湾 HiNet｜01｜媒流解锁_7
+      - 台湾 HiNet｜04｜媒流解锁_8
+      - 香港｜04｜广东移动_9
+      - 韩国｜02_10
+      - 台北 Scloud｜05｜广东移动｜解锁新加坡_11
+      - 新加坡｜04｜长沙联通_12
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
