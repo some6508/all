@@ -329,7 +329,6 @@ proxies:
   - {name: Ytb:冰河圈子_9, server: zz.gzyd.xyz, port: 2020, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
   - {name: _AE_阿联酋_199, server: 217.138.193.6, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: _AE_阿联酋_205, server: 217.138.193.6, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _AU_澳大利亚, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _AU_澳大利亚_121, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _AU_澳大利亚_130, server: 192.53.169.116, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _AU_澳大利亚_142, server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
@@ -627,7 +626,6 @@ proxies:
   - {name: _NON_Chen-2021.12.19_98 2, server: global-transit-hk-v2.pucdn.me, port: 40010, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-10.pucdn.me}}
   - {name: _NON_Chen-2021.12.19_99, server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
   - {name: _NON_Chen-2021.12.19_99 2, server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
-  - {name: _NO_挪威, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _NO_挪威_177, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
   - {name: _NO_挪威_193, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: _NO_挪威_197, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
@@ -648,8 +646,6 @@ proxies:
   - {name: _SE_瑞典_138, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
   - {name: _UA_乌克兰_110, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: _UA_乌克兰_136, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: _US_美国, server: 142.202.48.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _US_美国 2, server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_13, server: 172.67.144.181, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
   - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_143, server: 172.67.176.114, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
   - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_149, server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
@@ -1410,8 +1406,6 @@ proxy-groups:
       - "@SSRSUB-美国V09-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-美国V16-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-美国V16-付费推荐::suo.yt/ssrsub 2"
-      - _US_美国
-      - _US_美国 2
       - _US_美国->🇷🇺_RU_俄罗斯联邦_13
       - _US_美国->🇷🇺_RU_俄罗斯联邦_143
       - _US_美国->🇷🇺_RU_俄罗斯联邦_149
@@ -1707,7 +1701,6 @@ proxy-groups:
       - "@SSRSUB-加拿大V11-付费推荐::suo.yt/ssrsub 2"
       - _AE_阿联酋_199
       - _AE_阿联酋_205
-      - _AU_澳大利亚
       - _AU_澳大利亚_121
       - _AU_澳大利亚_130
       - _AU_澳大利亚_142
@@ -2177,7 +2170,6 @@ proxy-groups:
       - Ytb:冰河圈子_9
       - _AE_阿联酋_199
       - _AE_阿联酋_205
-      - _AU_澳大利亚
       - _AU_澳大利亚_121
       - _AU_澳大利亚_130
       - _AU_澳大利亚_142
@@ -2475,7 +2467,6 @@ proxy-groups:
       - _NON_Chen-2021.12.19_98 2
       - _NON_Chen-2021.12.19_99
       - _NON_Chen-2021.12.19_99 2
-      - _NO_挪威
       - _NO_挪威_177
       - _NO_挪威_193
       - _NO_挪威_197
@@ -2496,8 +2487,6 @@ proxy-groups:
       - _SE_瑞典_138
       - _UA_乌克兰_110
       - _UA_乌克兰_136
-      - _US_美国
-      - _US_美国 2
       - _US_美国->🇷🇺_RU_俄罗斯联邦_13
       - _US_美国->🇷🇺_RU_俄罗斯联邦_143
       - _US_美国->🇷🇺_RU_俄罗斯联邦_149
