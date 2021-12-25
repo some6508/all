@@ -211,32 +211,6 @@ proxies:
   - {name: "@SSRSUB-美国V10-付费推荐::suo.yt/ssrsub 2", server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
   - {name: "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
   - {name: "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub 2", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
-  - {name: Relay_🇨🇳CN-🇨🇳CN_242, server: 120.197.88.216, port: 20047, type: vmess, uuid: 2383d811-a0af-4c51-b9cf-450f42bb7c85, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_227, server: 00.cn3.rocketdns.xyz, port: 65008, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_228, server: 00.cn3.rocketdns.xyz, port: 65020, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_231, server: 00.cn3.rocketdns.xyz, port: 65009, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_233, server: 116.163.10.145, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_241, server: 116.163.14.146, port: 65017, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.163.14.146}}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_244, server: 00.cn2.rocketdns.xyz, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_271, server: 00.cn3.rocketdns.xyz, port: 65015, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_235, server: 116.163.14.146, port: 65003, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.163.14.146}}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_250, server: 00.cn1.rocketdns.xyz, port: 65003, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_251, server: 120.232.173.66, port: 28038, type: vmess, uuid: fead7086-54ec-3772-b603-ba9e740ec3da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hk.jd.com}}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_270, server: 120.197.88.216, port: 20001, type: vmess, uuid: 2383d811-a0af-4c51-b9cf-450f42bb7c85, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_276, server: 120.197.88.216, port: 20001, type: vmess, uuid: d73ff709-70bf-4183-9648-6cb1f5e8aafd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: Relay_🇨🇳CN-🇰🇷KR_249, server: 120.197.88.216, port: 20006, type: vmess, uuid: d73ff709-70bf-4183-9648-6cb1f5e8aafd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_267, server: 00.cn3.rocketdns.xyz, port: 65021, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_268, server: 00.cn2.rocketdns.xyz, port: 65019, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_239, server: 116.163.14.146, port: 65018, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.163.14.146}}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_244, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_247, server: 00.cn1.rocketdns.xyz, port: 65018, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_278, server: 00.cn3.rocketdns.xyz, port: 65014, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: Relay_🇨🇳CN-🇺🇸US_232, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_🇨🇳CN-🇺🇸US_234, server: 120.197.88.216, port: 20005, type: vmess, uuid: 2383d811-a0af-4c51-b9cf-450f42bb7c85, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: Relay_🇨🇳CN-🇺🇸US_236, server: 120.197.88.216, port: 20005, type: vmess, uuid: d73ff709-70bf-4183-9648-6cb1f5e8aafd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: Relay_🇨🇳CN-🇺🇸US_250, server: 116.163.10.145, port: 65010, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: Relay_🇨🇳CN-🇺🇸US_262, server: 00.cn1.rocketdns.xyz, port: 65012, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: Relay_🇨🇳CN-🏁ZZ_240, server: 120.197.88.216, port: 20000, type: vmess, uuid: d73ff709-70bf-4183-9648-6cb1f5e8aafd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
   - {name: Ytb:冰河圈子_1, server: zz.gzyd.xyz, port: 2121, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
   - {name: Ytb:冰河圈子_10, server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0}
   - {name: Ytb:冰河圈子_11, server: zz.gzyd.xyz, port: 9191, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
@@ -322,7 +296,6 @@ proxies:
   - {name: Ytb:鹏哥分享_108, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
   - {name: Ytb:鹏哥分享_109, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
   - {name: Ytb:鹏哥分享_11, server: 120.232.173.66, port: 28038, type: vmess, uuid: fead7086-54ec-3772-b603-ba9e740ec3da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 120.232.173.66}}
-  - {name: Ytb:鹏哥分享_11 2, server: 120.232.173.66, port: 28038, type: vmess, uuid: fead7086-54ec-3772-b603-ba9e740ec3da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 120.232.173.66}}
   - {name: Ytb:鹏哥分享_110, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: Ytb:鹏哥分享_111, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Ytb:鹏哥分享_112, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
@@ -368,7 +341,6 @@ proxies:
   - {name: Ytb:鹏哥分享_149, server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.218.198.254}}
   - {name: Ytb:鹏哥分享_15, server: 120.197.88.216, port: 20049, type: vmess, uuid: 2383d811-a0af-4c51-b9cf-450f42bb7c85, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
   - {name: Ytb:鹏哥分享_150, server: 116.163.10.145, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.163.10.145}}
-  - {name: Ytb:鹏哥分享_150 2, server: 116.163.10.145, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.163.10.145}}
   - {name: Ytb:鹏哥分享_151, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}}
   - {name: Ytb:鹏哥分享_152, server: 120.197.88.216, port: 20004, type: vmess, uuid: 973f8975-e494-4c77-921f-212ca83fff8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
   - {name: Ytb:鹏哥分享_153, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
@@ -411,7 +383,6 @@ proxies:
   - {name: Ytb:鹏哥分享_187, server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
   - {name: Ytb:鹏哥分享_188, server: 120.241.72.90, port: 18119, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: Ytb:鹏哥分享_189, server: 116.163.10.145, port: 65010, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.163.10.145}}
-  - {name: Ytb:鹏哥分享_189 2, server: 116.163.10.145, port: 65010, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.163.10.145}}
   - {name: Ytb:鹏哥分享_19, server: 18.192.212.68, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.192.212.68}}
   - {name: Ytb:鹏哥分享_190, server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: Ytb:鹏哥分享_191, server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
@@ -488,7 +459,6 @@ proxies:
   - {name: Ytb:鹏哥分享_64, server: 00.cn3.rocketdns.xyz, port: 65020, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
   - {name: Ytb:鹏哥分享_65, server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
   - {name: Ytb:鹏哥分享_66, server: iepl.tw.9548.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: Ytb:鹏哥分享_66 2, server: iepl.tw.9548.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
   - {name: Ytb:鹏哥分享_67, server: 120.197.88.216, port: 20049, type: vmess, uuid: d73ff709-70bf-4183-9648-6cb1f5e8aafd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
   - {name: Ytb:鹏哥分享_68, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: Ytb:鹏哥分享_69, server: 38.68.135.19, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
@@ -528,7 +498,6 @@ proxies:
   - {name: _CA_加拿大_3, server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _CA_加拿大_4, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _FR_法国_1, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _JP_日本, server: 172.105.232.147, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _NON_Chen-2021.12.19_1, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: _NON_Chen-2021.12.19_1 2, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: _NON_Chen-2021.12.19_10, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
@@ -1048,9 +1017,6 @@ proxies:
   - {name: 荷兰（YouTube资源分享者） 4, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 4ec1c2fa-5a26-11ec-86de-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
   - {name: 荷兰（YouTube资源分享者） 2 2, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 515275f0-5a26-11ec-86de-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
   - {name: 荷兰（YouTube资源分享者） 3 2, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 4ec1c2fa-5a26-11ec-86de-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
-  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇩🇪DE_31, server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
-  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_321, server: cm-jm.okvpn.xyz, port: 20047, type: vmess, uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
-  - {name: 阿伟科技-油管🇯🇵JP_6362, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
   - {name: 香港, server: 20.187.111.148, port: 12819, type: vmess, uuid: 1be50399-92a2-3df2-8c6a-2b2832f34e5a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: 20.187.111.148}}
   - {name: 香港 2, server: 20.187.111.148, port: 13125, type: vmess, uuid: dadb3c18-4e8c-33fc-9773-5384031d6a60, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
   - {name: 香港 3, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
@@ -1081,8 +1047,6 @@ proxies:
   - {name: 香港（YouTube资源分享者） 7 2, server: 18.162.207.25, port: 5555, type: vmess, uuid: 35a30e95-4874-45e9-a741-5de0239d9074, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 香港（YouTube资源分享者） 8 2, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 香港（YouTube资源分享者） 9 2, server: node04.hookpay.xyz, port: 54123, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 鹏哥分享_90, server: iepl.hk.206f.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 鹏哥分享_93, server: iepl.hk.7512.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
 proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
@@ -1102,11 +1066,6 @@ proxy-groups:
       - 094香港∞中转
       - 095香港∞直连
       - 096香港∞直连
-      - Relay_🇨🇳CN-🇭🇰HK_235
-      - Relay_🇨🇳CN-🇭🇰HK_250
-      - Relay_🇨🇳CN-🇭🇰HK_251
-      - Relay_🇨🇳CN-🇭🇰HK_270
-      - Relay_🇨🇳CN-🇭🇰HK_276
       - 香港
       - 香港 2
       - 香港 3
@@ -1149,7 +1108,6 @@ proxy-groups:
       - 046日本∞中转
       - 047日本∞中转
       - 048日本∞直连
-      - _JP_日本
       - 日本
       - 日本 2
       - 日本（YouTube资源分享者）
@@ -1165,7 +1123,6 @@ proxy-groups:
       - 日本（YouTube资源分享者） 5 2
       - 日本（YouTube资源分享者） 6 2
       - 日韩频道 TG@shoucangAV
-      - 阿伟科技-油管🇯🇵JP_6362
   - name: 🇺🇲 美国节点
     type: select
     proxies:
@@ -1193,11 +1150,6 @@ proxy-groups:
       - "@SSRSUB-美国V10-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub 2"
-      - Relay_🇨🇳CN-🇺🇸US_232
-      - Relay_🇨🇳CN-🇺🇸US_234
-      - Relay_🇨🇳CN-🇺🇸US_236
-      - Relay_🇨🇳CN-🇺🇸US_250
-      - Relay_🇨🇳CN-🇺🇸US_262
       - _US_美国_2
       - 美国
       - 美国 2
@@ -1297,7 +1249,6 @@ proxy-groups:
       - 美国（YouTube资源分享者） 7 2
       - 美国（YouTube资源分享者） 8 2
       - 美国（YouTube资源分享者） 9 2
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_321
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
@@ -1309,10 +1260,6 @@ proxy-groups:
       - 022台湾∞中转
       - 023台湾∞中转
       - 024台湾∞中转
-      - Relay_🇨🇳CN-🇹🇼TW_239
-      - Relay_🇨🇳CN-🇹🇼TW_244
-      - Relay_🇨🇳CN-🇹🇼TW_247
-      - Relay_🇨🇳CN-🇹🇼TW_278
       - 台湾
       - 台湾 2
       - 台湾(欢迎订阅Youtube破解资源君)
@@ -1354,7 +1301,6 @@ proxy-groups:
       - 079韩国∞直连
       - 080韩国∞直连
       - 081韩国∞直连
-      - Relay_🇨🇳CN-🇰🇷KR_249
       - 日韩频道 TG@shoucangAV
   - name: 🌍 其他地区
     type: select
@@ -1463,9 +1409,6 @@ proxy-groups:
       - 英国（YouTube资源分享者） 2 2
       - 英国（YouTube资源分享者） 3 2
       - 英国（YouTube资源分享者） 4 2
-      - 阿伟科技-油管Relay_🇨🇳CN-🇩🇪DE_31
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_321
-      - 阿伟科技-油管🇯🇵JP_6362
   - name: ♻️ 专线节点
     type: select
     proxies:
@@ -1679,32 +1622,6 @@ proxy-groups:
       - "@SSRSUB-美国V10-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub 2"
-      - Relay_🇨🇳CN-🇨🇳CN_242
-      - Relay_🇨🇳CN-🇩🇪DE_227
-      - Relay_🇨🇳CN-🇩🇪DE_228
-      - Relay_🇨🇳CN-🇩🇪DE_231
-      - Relay_🇨🇳CN-🇩🇪DE_233
-      - Relay_🇨🇳CN-🇩🇪DE_241
-      - Relay_🇨🇳CN-🇩🇪DE_244
-      - Relay_🇨🇳CN-🇩🇪DE_271
-      - Relay_🇨🇳CN-🇭🇰HK_235
-      - Relay_🇨🇳CN-🇭🇰HK_250
-      - Relay_🇨🇳CN-🇭🇰HK_251
-      - Relay_🇨🇳CN-🇭🇰HK_270
-      - Relay_🇨🇳CN-🇭🇰HK_276
-      - Relay_🇨🇳CN-🇰🇷KR_249
-      - Relay_🇨🇳CN-🇷🇺RU_267
-      - Relay_🇨🇳CN-🇷🇺RU_268
-      - Relay_🇨🇳CN-🇹🇼TW_239
-      - Relay_🇨🇳CN-🇹🇼TW_244
-      - Relay_🇨🇳CN-🇹🇼TW_247
-      - Relay_🇨🇳CN-🇹🇼TW_278
-      - Relay_🇨🇳CN-🇺🇸US_232
-      - Relay_🇨🇳CN-🇺🇸US_234
-      - Relay_🇨🇳CN-🇺🇸US_236
-      - Relay_🇨🇳CN-🇺🇸US_250
-      - Relay_🇨🇳CN-🇺🇸US_262
-      - Relay_🇨🇳CN-🏁ZZ_240
       - Ytb:冰河圈子_1
       - Ytb:冰河圈子_10
       - Ytb:冰河圈子_11
@@ -1790,7 +1707,6 @@ proxy-groups:
       - Ytb:鹏哥分享_108
       - Ytb:鹏哥分享_109
       - Ytb:鹏哥分享_11
-      - Ytb:鹏哥分享_11 2
       - Ytb:鹏哥分享_110
       - Ytb:鹏哥分享_111
       - Ytb:鹏哥分享_112
@@ -1836,7 +1752,6 @@ proxy-groups:
       - Ytb:鹏哥分享_149
       - Ytb:鹏哥分享_15
       - Ytb:鹏哥分享_150
-      - Ytb:鹏哥分享_150 2
       - Ytb:鹏哥分享_151
       - Ytb:鹏哥分享_152
       - Ytb:鹏哥分享_153
@@ -1879,7 +1794,6 @@ proxy-groups:
       - Ytb:鹏哥分享_187
       - Ytb:鹏哥分享_188
       - Ytb:鹏哥分享_189
-      - Ytb:鹏哥分享_189 2
       - Ytb:鹏哥分享_19
       - Ytb:鹏哥分享_190
       - Ytb:鹏哥分享_191
@@ -1956,7 +1870,6 @@ proxy-groups:
       - Ytb:鹏哥分享_64
       - Ytb:鹏哥分享_65
       - Ytb:鹏哥分享_66
-      - Ytb:鹏哥分享_66 2
       - Ytb:鹏哥分享_67
       - Ytb:鹏哥分享_68
       - Ytb:鹏哥分享_69
@@ -1996,7 +1909,6 @@ proxy-groups:
       - _CA_加拿大_3
       - _CA_加拿大_4
       - _FR_法国_1
-      - _JP_日本
       - _NON_Chen-2021.12.19_1
       - _NON_Chen-2021.12.19_1 2
       - _NON_Chen-2021.12.19_10
@@ -2516,9 +2428,6 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 4
       - 荷兰（YouTube资源分享者） 2 2
       - 荷兰（YouTube资源分享者） 3 2
-      - 阿伟科技-油管Relay_🇨🇳CN-🇩🇪DE_31
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_321
-      - 阿伟科技-油管🇯🇵JP_6362
       - 香港
       - 香港 2
       - 香港 3
@@ -2549,8 +2458,6 @@ proxy-groups:
       - 香港（YouTube资源分享者） 7 2
       - 香港（YouTube资源分享者） 8 2
       - 香港（YouTube资源分享者） 9 2
-      - 鹏哥分享_90
-      - 鹏哥分享_93
   - name: 📲 聊天软件
     type: select
     proxies:
