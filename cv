@@ -327,332 +327,202 @@ proxies:
   - {name: Ytb:鹏哥分享_98, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: Ytb:鹏哥分享_99, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: _AE_阿联酋, server: 217.138.193.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc}
-  - {name: _AE_阿联酋_5, server: 217.138.193.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc}
   - {name: _AU_澳大利亚, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _AU_澳大利亚 2, server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
-  - {name: _AU_澳大利亚_6, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _AU_澳大利亚_7, server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: _AU_澳大利亚_Chen-2021.12.25_63, server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: _AU_澳大利亚_Chen-2021.12.25_63 2, server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: _AU_澳大利亚_Chen-2021.12.25_64, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _AU_澳大利亚_Chen-2021.12.25_64 2, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _BE_比利时, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: _BE_比利时_8, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
   - {name: _BG_保加利亚, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: _BG_保加利亚_9, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
   - {name: _CA_加拿大, server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
-  - {name: _CA_加拿大_10, server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
-  - {name: _CA_加拿大_11, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _CA_加拿大_12, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _CA_加拿大_13, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _CA_加拿大_14, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _CA_加拿大_15, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _CA_加拿大_16, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _CA_加拿大_17, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _CA_加拿大_18, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _CA_加拿大_19, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: _DE_德国_41, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
-  - {name: _DK_丹麦_42, server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
-  - {name: _FI_芬兰_43, server: 185.212.149.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: SxFvGWWUtEjyQnGbggq2}
-  - {name: _FR_法国_44, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: _FR_法国_45, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _FR_法国_46, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _FR_法国_47, server: 217.182.199.168, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _FR_法国_48, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _FR_法国_49, server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _FR_法国_50, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _FR_法国_51, server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: _FR_法国_52, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _FR_法国_53, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _FR_法国_54, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: _FR_法国_55, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _FR_法国_56, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _FR_法国_57, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: _FR_法国_58, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _FR_法国_59, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _FR_法国_60, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _FR_法国_61, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _GB_英国_62, server: 45.141.154.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: sHWJUzzQUXtQSR2P6HNJ}
-  - {name: _GB_英国_63, server: 185.237.98.69, port: 3212, type: ss, cipher: aes-256-gcm, password: 13f91d7fd2461aa8ac178d360d94b2a8}
-  - {name: _GB_英国_64, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _GB_英国_65, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: _GB_英国_66, server: 86.106.136.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: h6WG7sxsLTBGn7uyvMG8}
-  - {name: _GB_英国_67, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _GB_英国_68, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _GB_英国_69, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _GR_希腊_70, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: _HK_香港->🇮🇳_IN_印度_82, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
-  - {name: _HK_香港->🇮🇳_IN_印度_83, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
-  - {name: _HK_香港_71, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _HK_香港_72, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _HK_香港_73, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _HK_香港_74, server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _HK_香港_75, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
-  - {name: _HK_香港_76, server: 161.81.195.100, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
-  - {name: _HK_香港_77, server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
-  - {name: _HK_香港_78, server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _HK_香港_79, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _HK_香港_80, server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _HK_香港_81, server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _ID_印度尼西亚_84, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: _IE_爱尔兰_85, server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: _IL_以色列_86, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: _IL_以色列_87, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: _IN_印度_88, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _IN_印度_89, server: 192.46.210.73, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: _IN_印度_90, server: 192.46.210.73, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _IN_印度_91, server: 192.46.210.73, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _IN_印度_92, server: 192.46.210.73, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _IN_印度_93, server: 192.46.210.73, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _IN_印度_94, server: 172.105.41.63, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _JP_日本_95, server: 172.105.232.147, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _JP_日本_96, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _MX_墨西哥_97, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: _MY_马来西亚_98, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: _NL_荷兰_99, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
-  - {name: _NON_Chen-2021.12.19_1, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _NON_Chen-2021.12.19_1 2, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _NON_Chen-2021.12.19_10, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: _NON_Chen-2021.12.19_10 2, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: _NON_Chen-2021.12.19_100, server: global-transit-hk-v2.pucdn.me, port: 40012, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-12.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_100 2, server: global-transit-hk-v2.pucdn.me, port: 40012, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-12.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_101, server: guangzou-yd-jy-03.pucdn.me, port: 40001, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-01.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_101 2, server: guangzou-yd-jy-03.pucdn.me, port: 40001, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-01.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_102, server: guangzou-yd-jy-03.pucdn.me, port: 40005, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-05.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_102 2, server: guangzou-yd-jy-03.pucdn.me, port: 40005, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-05.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_104, server: jp11.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, skip-cert-verify: false}
-  - {name: _NON_Chen-2021.12.19_104 2, server: jp11.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: jp11.holiganfan.com, skip-cert-verify: false}
-  - {name: _NON_Chen-2021.12.19_11, server: 183.232.163.3, port: 2626, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: _NON_Chen-2021.12.19_11 2, server: 183.232.163.3, port: 2626, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
-  - {name: _NON_Chen-2021.12.19_12, server: 183.232.163.3, port: 2727, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_12 2, server: 183.232.163.3, port: 2727, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_13, server: 183.232.163.3, port: 3434, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_13 2, server: 183.232.163.3, port: 3434, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_14, server: 183.232.163.3, port: 3435, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_14 2, server: 183.232.163.3, port: 3435, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_15, server: 183.232.163.3, port: 5253, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_15 2, server: 183.232.163.3, port: 5253, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_16, server: 183.232.163.3, port: 5254, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_16 2, server: 183.232.163.3, port: 5254, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_17, server: 183.232.163.3, port: 9191, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_17 2, server: 183.232.163.3, port: 9191, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_18, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: _NON_Chen-2021.12.19_18 2, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: _NON_Chen-2021.12.19_19, server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: d1f1d432-0300-3b65-b90e-b65beaa68180, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1207tw.fans8.xyz}}
-  - {name: _NON_Chen-2021.12.19_19 2, server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: d1f1d432-0300-3b65-b90e-b65beaa68180, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1207tw.fans8.xyz}}
-  - {name: _NON_Chen-2021.12.19_2, server: 120.197.88.216, port: 20001, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: _NON_Chen-2021.12.19_2 2, server: 120.197.88.216, port: 20001, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: _NON_Chen-2021.12.19_20, server: 1215tw1.fans8.xyz, port: 80, type: vmess, uuid: d1f1d432-0300-3b65-b90e-b65beaa68180, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1215tw1.fans8.xyz}}
-  - {name: _NON_Chen-2021.12.19_20 2, server: 1215tw1.fans8.xyz, port: 80, type: vmess, uuid: d1f1d432-0300-3b65-b90e-b65beaa68180, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1215tw1.fans8.xyz}}
-  - {name: _NON_Chen-2021.12.19_21, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NON_Chen-2021.12.19_21 2, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NON_Chen-2021.12.19_22, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _NON_Chen-2021.12.19_22 2, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _NON_Chen-2021.12.19_23, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NON_Chen-2021.12.19_23 2, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NON_Chen-2021.12.19_24, server: 198.57.27.152, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_24 2, server: 198.57.27.152, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_25, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NON_Chen-2021.12.19_25 2, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NON_Chen-2021.12.19_26, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _NON_Chen-2021.12.19_26 2, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _NON_Chen-2021.12.19_27, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _NON_Chen-2021.12.19_27 2, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _NON_Chen-2021.12.19_28, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _NON_Chen-2021.12.19_28 2, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _NON_Chen-2021.12.19_29, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_29 2, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_30, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_30 2, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_31, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _NON_Chen-2021.12.19_31 2, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _NON_Chen-2021.12.19_32, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _NON_Chen-2021.12.19_32 2, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _NON_Chen-2021.12.19_33, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _NON_Chen-2021.12.19_33 2, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _NON_Chen-2021.12.19_34, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_34 2, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_35, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_35 2, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_36, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _NON_Chen-2021.12.19_36 2, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _NON_Chen-2021.12.19_37, server: 45.79.121.236, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_37 2, server: 45.79.121.236, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_38, server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
-  - {name: _NON_Chen-2021.12.19_38 2, server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
-  - {name: _NON_Chen-2021.12.19_39, server: 120.197.88.216, port: 20002, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: _NON_Chen-2021.12.19_39 2, server: 120.197.88.216, port: 20002, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: _NON_Chen-2021.12.19_40, server: 120.197.88.216, port: 20002, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: _NON_Chen-2021.12.19_40 2, server: 120.197.88.216, port: 20002, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: _NON_Chen-2021.12.19_41, server: 120.197.88.216, port: 20003, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: _NON_Chen-2021.12.19_41 2, server: 120.197.88.216, port: 20003, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: _NON_Chen-2021.12.19_42, server: 120.197.88.216, port: 20003, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: _NON_Chen-2021.12.19_42 2, server: 120.197.88.216, port: 20003, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: _NON_Chen-2021.12.19_43, server: 120.241.72.84, port: 18118, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _NON_Chen-2021.12.19_43 2, server: 120.241.72.84, port: 18118, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _NON_Chen-2021.12.19_44, server: 120.241.72.84, port: 18120, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _NON_Chen-2021.12.19_44 2, server: 120.241.72.84, port: 18120, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _NON_Chen-2021.12.19_45, server: 183.232.163.3, port: 1313, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_45 2, server: 183.232.163.3, port: 1313, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_46, server: 183.232.163.3, port: 1717, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_46 2, server: 183.232.163.3, port: 1717, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_47, server: 183.232.163.3, port: 5152, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_47 2, server: 183.232.163.3, port: 5152, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_48, server: 183.232.163.3, port: 5959, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_48 2, server: 183.232.163.3, port: 5959, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_49, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: _NON_Chen-2021.12.19_49 2, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: _NON_Chen-2021.12.19_51, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: _NON_Chen-2021.12.19_51 2, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: _NON_Chen-2021.12.19_52, server: cm-jm.okvpn.xyz, port: 20003, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: _NON_Chen-2021.12.19_52 2, server: cm-jm.okvpn.xyz, port: 20003, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: _NON_Chen-2021.12.19_53, server: cm-jm.okvpn.xyz, port: 20003, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: _NON_Chen-2021.12.19_53 2, server: cm-jm.okvpn.xyz, port: 20003, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: _NON_Chen-2021.12.19_58, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: _NON_Chen-2021.12.19_58 2, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: _NON_Chen-2021.12.19_59, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
-  - {name: _NON_Chen-2021.12.19_59 2, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
-  - {name: _NON_Chen-2021.12.19_60, server: 120.241.72.84, port: 18003, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
-  - {name: _NON_Chen-2021.12.19_60 2, server: 120.241.72.84, port: 18003, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
-  - {name: _NON_Chen-2021.12.19_61, server: 120.241.72.84, port: 18015, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
-  - {name: _NON_Chen-2021.12.19_61 2, server: 120.241.72.84, port: 18015, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
-  - {name: _NON_Chen-2021.12.19_62, server: 93.186.201.124, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _NON_Chen-2021.12.19_62 2, server: 93.186.201.124, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _NON_Chen-2021.12.19_63, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: _NON_Chen-2021.12.19_63 2, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: _NON_Chen-2021.12.19_64, server: 193.108.118.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_64 2, server: 193.108.118.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_65, server: 193.108.118.79, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_65 2, server: 193.108.118.79, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_66, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _NON_Chen-2021.12.19_66 2, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _NON_Chen-2021.12.19_67, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NON_Chen-2021.12.19_67 2, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NON_Chen-2021.12.19_68, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NON_Chen-2021.12.19_68 2, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NON_Chen-2021.12.19_69, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NON_Chen-2021.12.19_69 2, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NON_Chen-2021.12.19_70, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _NON_Chen-2021.12.19_70 2, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _NON_Chen-2021.12.19_71, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: _NON_Chen-2021.12.19_71 2, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: _NON_Chen-2021.12.19_72, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _NON_Chen-2021.12.19_72 2, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _NON_Chen-2021.12.19_73, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _NON_Chen-2021.12.19_73 2, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _NON_Chen-2021.12.19_74, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_74 2, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_75, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_75 2, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NON_Chen-2021.12.19_76, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _NON_Chen-2021.12.19_76 2, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _NON_Chen-2021.12.19_77, server: zhuzhu12.com, port: 15724, type: vmess, uuid: 52c197fd-667a-3194-adb6-dfc0ccafa4c5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: _NON_Chen-2021.12.19_77 2, server: zhuzhu12.com, port: 15724, type: vmess, uuid: 52c197fd-667a-3194-adb6-dfc0ccafa4c5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: _NON_Chen-2021.12.19_78, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 52c197fd-667a-3194-adb6-dfc0ccafa4c5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: _NON_Chen-2021.12.19_78 2, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 52c197fd-667a-3194-adb6-dfc0ccafa4c5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: _NON_Chen-2021.12.19_79, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
-  - {name: _NON_Chen-2021.12.19_79 2, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
-  - {name: _NON_Chen-2021.12.19_8, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: _NON_Chen-2021.12.19_8 2, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: _NON_Chen-2021.12.19_80, server: 183.232.163.3, port: 2424, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_80 2, server: 183.232.163.3, port: 2424, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_81, server: 183.232.163.3, port: 2525, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_81 2, server: 183.232.163.3, port: 2525, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _NON_Chen-2021.12.19_83, server: global-transit-02-sg.pucdn.me, port: 61003, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-04.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_83 2, server: global-transit-02-sg.pucdn.me, port: 61003, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-04.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_84, server: global-transit-02-sg.pucdn.me, port: 61004, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-05.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_84 2, server: global-transit-02-sg.pucdn.me, port: 61004, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-05.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_85, server: global-transit-02-sg.pucdn.me, port: 61006, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-07.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_85 2, server: global-transit-02-sg.pucdn.me, port: 61006, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-07.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_86, server: global-transit-02-sg.pucdn.me, port: 61007, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-08.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_86 2, server: global-transit-02-sg.pucdn.me, port: 61007, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-08.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_87, server: mf-aws-sg-12.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-12.xncloud.xyz}}
-  - {name: _NON_Chen-2021.12.19_87 2, server: mf-aws-sg-12.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-12.xncloud.xyz}}
-  - {name: _NON_Chen-2021.12.19_89, server: 81.90.189.18, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _NON_Chen-2021.12.19_89 2, server: 81.90.189.18, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _NON_Chen-2021.12.19_9, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: _NON_Chen-2021.12.19_9 2, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: _NON_Chen-2021.12.19_90, server: 103.62.49.141, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _NON_Chen-2021.12.19_90 2, server: 103.62.49.141, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _NON_Chen-2021.12.19_91, server: zhuzhu12.com, port: 14083, type: vmess, uuid: 52c197fd-667a-3194-adb6-dfc0ccafa4c5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: _NON_Chen-2021.12.19_91 2, server: zhuzhu12.com, port: 14083, type: vmess, uuid: 52c197fd-667a-3194-adb6-dfc0ccafa4c5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: _NON_Chen-2021.12.19_92, server: 120.197.88.216, port: 20015, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: _NON_Chen-2021.12.19_92 2, server: 120.197.88.216, port: 20015, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}}
-  - {name: _NON_Chen-2021.12.19_93, server: 120.197.88.216, port: 20015, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: _NON_Chen-2021.12.19_93 2, server: 120.197.88.216, port: 20015, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: _NON_Chen-2021.12.19_95, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: _NON_Chen-2021.12.19_95 2, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: _NON_Chen-2021.12.19_97, server: global-transit-hk-v2.pucdn.me, port: 40007, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-07.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_97 2, server: global-transit-hk-v2.pucdn.me, port: 40007, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-07.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_98, server: global-transit-hk-v2.pucdn.me, port: 40010, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-10.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_98 2, server: global-transit-hk-v2.pucdn.me, port: 40010, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-10.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_99, server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
-  - {name: _NON_Chen-2021.12.19_99 2, server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
-  - {name: _NO_挪威_100, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: _NO_挪威_101, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: _NO_挪威_102, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NO_挪威_103, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _NO_挪威_104, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _NO_挪威_105, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _NO_挪威_106, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NO_挪威_107, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _NO_挪威_108, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _NO_挪威_109, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _NO_挪威_110, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NO_挪威_111, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NO_挪威_112, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: _NO_挪威_113, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NO_挪威_114, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _NZ_新西兰_115, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
-  - {name: _PH_菲律宾_116, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
-  - {name: _PT_葡萄牙_117, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: _PT_葡萄牙_118, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: _RU_俄罗斯联邦_119, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: _RU_俄罗斯联邦_120, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
-  - {name: _SG_新加坡_121, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
-  - {name: _SG_新加坡_122, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _SG_新加坡_123, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _SG_新加坡_124, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _UA_乌克兰_125, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: _UA_乌克兰_126, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: _US_美国->🇨🇿_CZ_捷克_158, server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v9.ssrsub.com}}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_159, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}}
-  - {name: _US_美国_127, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
-  - {name: _US_美国_128, server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
-  - {name: _US_美国_129, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: _US_美国_130, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
-  - {name: _US_美国_131, server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: _US_美国_132, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
-  - {name: _US_美国_133, server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
-  - {name: _US_美国_134, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
-  - {name: _US_美国_135, server: 167.160.91.131, port: 2948, type: ss, cipher: aes-256-gcm, password: c9ff20111b73874292da92cc4166421e}
-  - {name: _US_美国_136, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
-  - {name: _US_美国_137, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _US_美国_138, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _US_美国_139, server: 104.223.91.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QKyLzp5JUG6XEGy2wbEE}
-  - {name: _US_美国_140, server: 147.182.249.191, port: 30880, type: vmess, uuid: b14e5862-ed44-4ef0-e310-335414d86882, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /114514, ws-headers: {Host: domeixi.nbczl233.ml}}
-  - {name: _US_美国_141, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _US_美国_142, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: _US_美国_143, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: _US_美国_144, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _US_美国_145, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _US_美国_146, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
-  - {name: _US_美国_147, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国_148, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: _US_美国_149, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: _US_美国_150, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: _US_美国_151, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: _US_美国_152, server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
-  - {name: _US_美国_153, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
-  - {name: _US_美国_154, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: _US_美国_155, server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
-  - {name: _US_美国_156, server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
-  - {name: _US_美国_157, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: _VN_越南_160, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: _CA_加拿大_Chen-2021.12.25_14, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _CA_加拿大_Chen-2021.12.25_14 2, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _CA_加拿大_Chen-2021.12.25_15, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _CA_加拿大_Chen-2021.12.25_15 2, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _CA_加拿大_Chen-2021.12.25_16, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _CA_加拿大_Chen-2021.12.25_16 2, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _CA_加拿大_Chen-2021.12.25_17, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _CA_加拿大_Chen-2021.12.25_17 2, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _CA_加拿大_Chen-2021.12.25_18, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _CA_加拿大_Chen-2021.12.25_18 2, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _CA_加拿大_Chen-2021.12.25_19, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _CA_加拿大_Chen-2021.12.25_19 2, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _CA_加拿大_Chen-2021.12.25_20, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _CA_加拿大_Chen-2021.12.25_20 2, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _DE_德国_Chen-2021.12.25_35, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: _DE_德国_Chen-2021.12.25_35 2, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: _DK_丹麦_Chen-2021.12.25_7, server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: _DK_丹麦_Chen-2021.12.25_7 2, server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: _FR_法国_Chen-2021.12.25_55, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: _FR_法国_Chen-2021.12.25_55 2, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: _FR_法国_Chen-2021.12.25_56, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _FR_法国_Chen-2021.12.25_56 2, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _FR_法国_Chen-2021.12.25_57, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _FR_法国_Chen-2021.12.25_57 2, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _FR_法国_Chen-2021.12.25_58, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _FR_法国_Chen-2021.12.25_58 2, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _FR_法国_Chen-2021.12.25_59, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _FR_法国_Chen-2021.12.25_59 2, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _FR_法国_Chen-2021.12.25_60, server: 46.226.111.148, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: vPwCvtbOUMkb}
+  - {name: _FR_法国_Chen-2021.12.25_60 2, server: 46.226.111.148, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: vPwCvtbOUMkb}
+  - {name: _FR_法国_Chen-2021.12.25_61, server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _FR_法国_Chen-2021.12.25_61 2, server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _FR_法国_Chen-2021.12.25_62, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _FR_法国_Chen-2021.12.25_62 2, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _HK_香港_Chen-2021.12.25_30, server: hkaz1.biteb-ssx.xyz, port: 14454, type: vmess, uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: index, ws-headers: {Host: hkaz1.biteb-ssx.xyz}}
+  - {name: _HK_香港_Chen-2021.12.25_30 2, server: hkaz1.biteb-ssx.xyz, port: 14454, type: vmess, uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: index, ws-headers: {Host: hkaz1.biteb-ssx.xyz}}
+  - {name: _HK_香港_Chen-2021.12.25_65, server: 8.210.55.79, port: 80, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 8.210.55.79}}
+  - {name: _HK_香港_Chen-2021.12.25_65 2, server: 8.210.55.79, port: 80, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 8.210.55.79}}
+  - {name: _HK_香港_Chen-2021.12.25_78, server: mf-aws-hk-02.xncloud.xyz, port: 18000, type: vmess, uuid: 12c00b6c-bdec-3162-aac2-2ae87e174156, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-02.xncloud.xyz}}
+  - {name: _HK_香港_Chen-2021.12.25_78 2, server: mf-aws-hk-02.xncloud.xyz, port: 18000, type: vmess, uuid: 12c00b6c-bdec-3162-aac2-2ae87e174156, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-02.xncloud.xyz}}
+  - {name: _HK_香港_Chen-2021.12.25_86, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: _HK_香港_Chen-2021.12.25_86 2, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: _HK_香港_Chen-2021.12.25_96, server: hkaz5.biteb-ssx.xyz, port: 11390, type: vmess, uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: index, ws-headers: {Host: hkaz5.biteb-ssx.xyz}}
+  - {name: _HK_香港_Chen-2021.12.25_96 2, server: hkaz5.biteb-ssx.xyz, port: 11390, type: vmess, uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: index, ws-headers: {Host: hkaz5.biteb-ssx.xyz}}
+  - {name: _HK_香港_Chen-2021.12.25_98, server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0}
+  - {name: _HK_香港_Chen-2021.12.25_98 2, server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0}
+  - {name: _HK_香港_Chen-2021.12.25_99, server: bit-hgc2.giize.com, port: 12632, type: vmess, uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: index, ws-headers: {Host: bit-hgc2.giize.com}}
+  - {name: _HK_香港_Chen-2021.12.25_99 2, server: bit-hgc2.giize.com, port: 12632, type: vmess, uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: index, ws-headers: {Host: bit-hgc2.giize.com}}
+  - {name: _ID_印度尼西亚_Chen-2021.12.25_21, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: _ID_印度尼西亚_Chen-2021.12.25_21 2, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: _IE_爱尔兰_Chen-2021.12.25_3, server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: _IE_爱尔兰_Chen-2021.12.25_3 2, server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: _IN_印度_Chen-2021.12.25_22, server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: _IN_印度_Chen-2021.12.25_22 2, server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: _JP_日本_Chen-2021.12.25_51, server: 185.172.113.156, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: _JP_日本_Chen-2021.12.25_51 2, server: 185.172.113.156, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: _JP_日本_Chen-2021.12.25_52, server: mf-aws-jp-03.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-03.xncloud.xyz}}
+  - {name: _JP_日本_Chen-2021.12.25_52 2, server: mf-aws-jp-03.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-03.xncloud.xyz}}
+  - {name: _JP_日本_Chen-2021.12.25_53, server: mf-aws-jp-03.xncloud.xyz, port: 18000, type: vmess, uuid: 36444988-5420-30e6-8d48-87088c824a49, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _JP_日本_Chen-2021.12.25_53 2, server: mf-aws-jp-03.xncloud.xyz, port: 18000, type: vmess, uuid: 36444988-5420-30e6-8d48-87088c824a49, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _KR_韩国_Chen-2021.12.25_54, server: 146.56.177.34, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 146.56.177.34}}
+  - {name: _KR_韩国_Chen-2021.12.25_54 2, server: 146.56.177.34, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 146.56.177.34}}
+  - {name: _KR_韩国_Chen-2021.12.25_79, server: mf-aws-kr-05.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-05.xncloud.xyz}}
+  - {name: _KR_韩国_Chen-2021.12.25_79 2, server: mf-aws-kr-05.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-05.xncloud.xyz}}
+  - {name: _KR_韩国_Chen-2021.12.25_84, server: mf-aws-kr-01.xncloud.xyz, port: 18000, type: vmess, uuid: 36444988-5420-30e6-8d48-87088c824a49, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _KR_韩国_Chen-2021.12.25_84 2, server: mf-aws-kr-01.xncloud.xyz, port: 18000, type: vmess, uuid: 36444988-5420-30e6-8d48-87088c824a49, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _MX_墨西哥_Chen-2021.12.25_31, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
+  - {name: _MX_墨西哥_Chen-2021.12.25_31 2, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
+  - {name: _MY_马来西亚_Chen-2021.12.25_103, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
+  - {name: _MY_马来西亚_Chen-2021.12.25_103 2, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
+  - {name: _NO_挪威_Chen-2021.12.25_38, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _NO_挪威_Chen-2021.12.25_38 2, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _NO_挪威_Chen-2021.12.25_39, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _NO_挪威_Chen-2021.12.25_39 2, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _NO_挪威_Chen-2021.12.25_40, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _NO_挪威_Chen-2021.12.25_40 2, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _NO_挪威_Chen-2021.12.25_41, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _NO_挪威_Chen-2021.12.25_41 2, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _NO_挪威_Chen-2021.12.25_42, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: _NO_挪威_Chen-2021.12.25_42 2, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: _NO_挪威_Chen-2021.12.25_43, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _NO_挪威_Chen-2021.12.25_43 2, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _PH_菲律宾_Chen-2021.12.25_1, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
+  - {name: _PH_菲律宾_Chen-2021.12.25_1 2, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
+  - {name: _PT_葡萄牙_Chen-2021.12.25_81, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: _PT_葡萄牙_Chen-2021.12.25_81 2, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: _RU_俄罗斯联邦_Chen-2021.12.25_10, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: _RU_俄罗斯联邦_Chen-2021.12.25_10 2, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: _SG_新加坡_Chen-2021.12.25_11, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _SG_新加坡_Chen-2021.12.25_11 2, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _SG_新加坡_Chen-2021.12.25_12, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _SG_新加坡_Chen-2021.12.25_12 2, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _SG_新加坡_Chen-2021.12.25_13, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _SG_新加坡_Chen-2021.12.25_13 2, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _SG_新加坡_Chen-2021.12.25_44, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
+  - {name: _SG_新加坡_Chen-2021.12.25_44 2, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
+  - {name: _SG_新加坡_Chen-2021.12.25_45, server: mf-aws-sg-03.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _SG_新加坡_Chen-2021.12.25_45 2, server: mf-aws-sg-03.xncloud.xyz, port: 18000, type: vmess, uuid: c407f3e3-d302-3e51-a13e-b4d91c53739c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: _TW_台湾_Chen-2021.12.25_29, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: _TW_台湾_Chen-2021.12.25_29 2, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: _UA_乌克兰_Chen-2021.12.25_8, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: _UA_乌克兰_Chen-2021.12.25_8 2, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: _US_美国_Chen-2021.12.25_66, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: _US_美国_Chen-2021.12.25_66 2, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: _US_美国_Chen-2021.12.25_67, server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: _US_美国_Chen-2021.12.25_67 2, server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: _US_美国_Chen-2021.12.25_68, server: 66.55.92.75, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 6g8n89NARNcuTH2XvUtZ}
+  - {name: _US_美国_Chen-2021.12.25_68 2, server: 66.55.92.75, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 6g8n89NARNcuTH2XvUtZ}
+  - {name: _US_美国_Chen-2021.12.25_69, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: _US_美国_Chen-2021.12.25_69 2, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: _US_美国_Chen-2021.12.25_70, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: _US_美国_Chen-2021.12.25_70 2, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: _US_美国_Chen-2021.12.25_71, server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
+  - {name: _US_美国_Chen-2021.12.25_71 2, server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
+  - {name: _US_美国_Chen-2021.12.25_72, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
+  - {name: _US_美国_Chen-2021.12.25_72 2, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
+  - {name: _US_美国_Chen-2021.12.25_73, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: _US_美国_Chen-2021.12.25_73 2, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: _US_美国_Chen-2021.12.25_76, server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: _US_美国_Chen-2021.12.25_76 2, server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: _US_美国_Chen-2021.12.25_77, server: jpaz4.biteb-ssx.xyz, port: 14264, type: vmess, uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: index, ws-headers: {Host: jpaz4.biteb-ssx.xyz}}
+  - {name: _US_美国_Chen-2021.12.25_77 2, server: jpaz4.biteb-ssx.xyz, port: 14264, type: vmess, uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: index, ws-headers: {Host: jpaz4.biteb-ssx.xyz}}
+  - {name: _US_美国_Chen-2021.12.25_80, server: 23.19.26.246, port: 10515, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: _US_美国_Chen-2021.12.25_80 2, server: 23.19.26.246, port: 10515, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: _VN_越南_Chen-2021.12.25_2, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: _VN_越南_Chen-2021.12.25_2 2, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: _乌克兰_欢迎订阅youtube：VV科技_29, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: _乌克兰_欢迎订阅youtube：VV科技_36, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: _俄罗斯联邦_欢迎订阅youtube：VV科技_21, server: 193.233.85.3, port: 45174, type: vmess, uuid: 14823120-5dc2-11ec-b398-3a571dcc9720, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: _俄罗斯联邦_欢迎订阅youtube：VV科技_22, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
+  - {name: _俄罗斯联邦_欢迎订阅youtube：VV科技_75, server: 193.233.85.3, port: 45174, type: vmess, uuid: 14823120-5dc2-11ec-b398-3a571dcc9720, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: _加拿大_欢迎订阅youtube：VV科技_17, server: t3.ssrsub.com, port: 156, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, skip-cert-verify: false}
+  - {name: _加拿大_欢迎订阅youtube：VV科技_30, server: t1.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, skip-cert-verify: false}
+  - {name: _加拿大_欢迎订阅youtube：VV科技_55, server: t4.ssrsub.com, port: 156, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, skip-cert-verify: false}
+  - {name: _加拿大_欢迎订阅youtube：VV科技_62, server: t4.ssrsub.com, port: 156, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, skip-cert-verify: false}
+  - {name: _加拿大_欢迎订阅youtube：VV科技_63, server: t1.ssrsub.com, port: 8443, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, skip-cert-verify: false}
+  - {name: _印度_欢迎订阅youtube：VV科技_1, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _印度_欢迎订阅youtube：VV科技_33, server: 192.46.210.73, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _印度尼西亚_欢迎订阅youtube：VV科技_31, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: _希腊_欢迎订阅youtube：VV科技_37, server: 185.51.134.210, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: _希腊_欢迎订阅youtube：VV科技_77, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: _德国_欢迎订阅youtube：VV科技_57, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: _捷克_欢迎订阅youtube：VV科技_87, server: 195.133.53.192, port: 27182, type: vmess, uuid: a22df2ec-6200-11ec-9070-fecccc2333dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /AmrTCtbk/, ws-headers: {Host: 195.133.53.192}}
+  - {name: _捷克_欢迎订阅youtube：VV科技_98, server: t7.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, skip-cert-verify: false}
+  - {name: _新西兰_欢迎订阅youtube：VV科技_71, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
+  - {name: _比利时_欢迎订阅youtube：VV科技_68, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: _法国_欢迎订阅youtube：VV科技_25, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _法国_欢迎订阅youtube：VV科技_43, server: 217.182.199.168, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _法国_欢迎订阅youtube：VV科技_52, server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _法国_欢迎订阅youtube：VV科技_53, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _法国_欢迎订阅youtube：VV科技_56, server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: _法国_欢迎订阅youtube：VV科技_85, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _澳大利亚_欢迎订阅youtube：VV科技_13, server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
+  - {name: _澳大利亚_欢迎订阅youtube：VV科技_44, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _澳大利亚_欢迎订阅youtube：VV科技_45, server: 129.154.54.111, port: 31608, type: vmess, uuid: b4559f56-8516-4492-acfa-38a145149f36, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: _美国_欢迎订阅youtube：VV科技_10, server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
+  - {name: _美国_欢迎订阅youtube：VV科技_19, server: 147.182.245.22, port: 11126, type: vmess, uuid: cafa4c98-d7cf-4271-9d80-487062250dd9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /api/rn, ws-headers: {Host: usbv2.ddns.tjiasu.xyz}}
+  - {name: _美国_欢迎订阅youtube：VV科技_20, server: 147.182.249.191, port: 30880, type: vmess, uuid: b14e5862-ed44-4ef0-e310-335414d86882, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /114514, ws-headers: {Host: domeixi.nbczl233.ml}}
+  - {name: _美国_欢迎订阅youtube：VV科技_23, server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: _美国_欢迎订阅youtube：VV科技_27, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: _美国_欢迎订阅youtube：VV科技_32, server: 45.32.74.74, port: 46269, type: vmess, uuid: 7ec73cc8-6539-11ec-b5cf-560003c186bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mz2pKaiY/, ws-headers: {Host: 45.32.74.74}}
+  - {name: _美国_欢迎订阅youtube：VV科技_34, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: _美国_欢迎订阅youtube：VV科技_41, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _美国_欢迎订阅youtube：VV科技_42, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: _美国_欢迎订阅youtube：VV科技_47, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _美国_欢迎订阅youtube：VV科技_51, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _美国_欢迎订阅youtube：VV科技_60, server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: _美国_欢迎订阅youtube：VV科技_61, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
+  - {name: _美国_欢迎订阅youtube：VV科技_8, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: _美国_欢迎订阅youtube：VV科技_84, server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: _美国_欢迎订阅youtube：VV科技_95, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: _芬兰_欢迎订阅youtube：VV科技_70, server: 185.212.149.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: SxFvGWWUtEjyQnGbggq2}
+  - {name: _英国_欢迎订阅youtube：VV科技_46, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: _英国_欢迎订阅youtube：VV科技_59, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _英国_欢迎订阅youtube：VV科技_78, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _阿联酋_欢迎订阅youtube：VV科技_54, server: 217.138.193.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc}
+  - {name: _香港_欢迎订阅youtube：VV科技_35, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _香港_欢迎订阅youtube：VV科技_39, server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0}
+  - {name: _香港_欢迎订阅youtube：VV科技_7, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _香港_欢迎订阅youtube：VV科技_79, server: azhk.1122.gay, port: 11139, type: vmess, uuid: 222ce280-0cc7-43c1-b71d-db0246636ef4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: _香港_欢迎订阅youtube：VV科技_81, server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _香港_欢迎订阅youtube：VV科技_9, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _马来西亚_欢迎订阅youtube：VV科技_83, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
   - {name: default_name, server: api.ssfree.ru, port: 443, type: vmess, uuid: b7940768-659b-11ec-895c-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /getweather, ws-headers: {Host: api.ssfree.ru}}
   - {name: default_name 2, server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
   - {name: default_name 3, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
   - {name: default_name 4, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: default_name_1, server: api.ssfree.ru, port: 443, type: vmess, uuid: b7940768-659b-11ec-895c-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /getweather, ws-headers: {Host: api.ssfree.ru}}
-  - {name: default_name_2, server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
-  - {name: default_name_3, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: default_name_4, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
   - {name: 乌克兰（YouTube资源分享者）, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 2, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 3, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
@@ -847,6 +717,7 @@ proxies:
   - {name: 日本（YouTube资源分享者） 5 2, server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: 日本（YouTube资源分享者） 6 2, server: 146.56.177.34, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
   - {name: 日韩频道 TG@shoucangAV, server: 00.cn1.rocketdns.xyz, port: 65003, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: 欢迎订阅youtube：VV科技_101, server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v9.ssrsub.com}}
   - {name: 欧洲, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: 欧洲 2, server: 85.208.108.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: 欧洲 3, server: 172.105.41.63, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -1142,19 +1013,26 @@ proxy-groups:
       - 094香港∞中转
       - 095香港∞直连
       - 096香港∞直连
-      - _HK_香港->🇮🇳_IN_印度_82
-      - _HK_香港->🇮🇳_IN_印度_83
-      - _HK_香港_71
-      - _HK_香港_72
-      - _HK_香港_73
-      - _HK_香港_74
-      - _HK_香港_75
-      - _HK_香港_76
-      - _HK_香港_77
-      - _HK_香港_78
-      - _HK_香港_79
-      - _HK_香港_80
-      - _HK_香港_81
+      - _HK_香港_Chen-2021.12.25_30
+      - _HK_香港_Chen-2021.12.25_30 2
+      - _HK_香港_Chen-2021.12.25_65
+      - _HK_香港_Chen-2021.12.25_65 2
+      - _HK_香港_Chen-2021.12.25_78
+      - _HK_香港_Chen-2021.12.25_78 2
+      - _HK_香港_Chen-2021.12.25_86
+      - _HK_香港_Chen-2021.12.25_86 2
+      - _HK_香港_Chen-2021.12.25_96
+      - _HK_香港_Chen-2021.12.25_96 2
+      - _HK_香港_Chen-2021.12.25_98
+      - _HK_香港_Chen-2021.12.25_98 2
+      - _HK_香港_Chen-2021.12.25_99
+      - _HK_香港_Chen-2021.12.25_99 2
+      - _香港_欢迎订阅youtube：VV科技_35
+      - _香港_欢迎订阅youtube：VV科技_39
+      - _香港_欢迎订阅youtube：VV科技_7
+      - _香港_欢迎订阅youtube：VV科技_79
+      - _香港_欢迎订阅youtube：VV科技_81
+      - _香港_欢迎订阅youtube：VV科技_9
       - 香港
       - 香港 2
       - 香港 3
@@ -1197,8 +1075,12 @@ proxy-groups:
       - 046日本∞中转
       - 047日本∞中转
       - 048日本∞直连
-      - _JP_日本_95
-      - _JP_日本_96
+      - _JP_日本_Chen-2021.12.25_51
+      - _JP_日本_Chen-2021.12.25_51 2
+      - _JP_日本_Chen-2021.12.25_52
+      - _JP_日本_Chen-2021.12.25_52 2
+      - _JP_日本_Chen-2021.12.25_53
+      - _JP_日本_Chen-2021.12.25_53 2
       - 日本
       - 日本 2
       - 日本（YouTube资源分享者）
@@ -1241,39 +1123,44 @@ proxy-groups:
       - "@SSRSUB-美国V10-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub 2"
-      - _US_美国->🇨🇿_CZ_捷克_158
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_159
-      - _US_美国_127
-      - _US_美国_128
-      - _US_美国_129
-      - _US_美国_130
-      - _US_美国_131
-      - _US_美国_132
-      - _US_美国_133
-      - _US_美国_134
-      - _US_美国_135
-      - _US_美国_136
-      - _US_美国_137
-      - _US_美国_138
-      - _US_美国_139
-      - _US_美国_140
-      - _US_美国_141
-      - _US_美国_142
-      - _US_美国_143
-      - _US_美国_144
-      - _US_美国_145
-      - _US_美国_146
-      - _US_美国_147
-      - _US_美国_148
-      - _US_美国_149
-      - _US_美国_150
-      - _US_美国_151
-      - _US_美国_152
-      - _US_美国_153
-      - _US_美国_154
-      - _US_美国_155
-      - _US_美国_156
-      - _US_美国_157
+      - _US_美国_Chen-2021.12.25_66
+      - _US_美国_Chen-2021.12.25_66 2
+      - _US_美国_Chen-2021.12.25_67
+      - _US_美国_Chen-2021.12.25_67 2
+      - _US_美国_Chen-2021.12.25_68
+      - _US_美国_Chen-2021.12.25_68 2
+      - _US_美国_Chen-2021.12.25_69
+      - _US_美国_Chen-2021.12.25_69 2
+      - _US_美国_Chen-2021.12.25_70
+      - _US_美国_Chen-2021.12.25_70 2
+      - _US_美国_Chen-2021.12.25_71
+      - _US_美国_Chen-2021.12.25_71 2
+      - _US_美国_Chen-2021.12.25_72
+      - _US_美国_Chen-2021.12.25_72 2
+      - _US_美国_Chen-2021.12.25_73
+      - _US_美国_Chen-2021.12.25_73 2
+      - _US_美国_Chen-2021.12.25_76
+      - _US_美国_Chen-2021.12.25_76 2
+      - _US_美国_Chen-2021.12.25_77
+      - _US_美国_Chen-2021.12.25_77 2
+      - _US_美国_Chen-2021.12.25_80
+      - _US_美国_Chen-2021.12.25_80 2
+      - _美国_欢迎订阅youtube：VV科技_10
+      - _美国_欢迎订阅youtube：VV科技_19
+      - _美国_欢迎订阅youtube：VV科技_20
+      - _美国_欢迎订阅youtube：VV科技_23
+      - _美国_欢迎订阅youtube：VV科技_27
+      - _美国_欢迎订阅youtube：VV科技_32
+      - _美国_欢迎订阅youtube：VV科技_34
+      - _美国_欢迎订阅youtube：VV科技_41
+      - _美国_欢迎订阅youtube：VV科技_42
+      - _美国_欢迎订阅youtube：VV科技_47
+      - _美国_欢迎订阅youtube：VV科技_51
+      - _美国_欢迎订阅youtube：VV科技_60
+      - _美国_欢迎订阅youtube：VV科技_61
+      - _美国_欢迎订阅youtube：VV科技_8
+      - _美国_欢迎订阅youtube：VV科技_84
+      - _美国_欢迎订阅youtube：VV科技_95
       - 美国
       - 美国 2
       - 美国 3
@@ -1383,6 +1270,8 @@ proxy-groups:
       - 022台湾∞中转
       - 023台湾∞中转
       - 024台湾∞中转
+      - _TW_台湾_Chen-2021.12.25_29
+      - _TW_台湾_Chen-2021.12.25_29 2
       - 台湾
       - 台湾 2
       - 台湾(欢迎订阅Youtube破解资源君)
@@ -1412,10 +1301,16 @@ proxy-groups:
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-新加坡V16-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V16-付费推荐::suo.yt/ssrsub 2"
-      - _SG_新加坡_121
-      - _SG_新加坡_122
-      - _SG_新加坡_123
-      - _SG_新加坡_124
+      - _SG_新加坡_Chen-2021.12.25_11
+      - _SG_新加坡_Chen-2021.12.25_11 2
+      - _SG_新加坡_Chen-2021.12.25_12
+      - _SG_新加坡_Chen-2021.12.25_12 2
+      - _SG_新加坡_Chen-2021.12.25_13
+      - _SG_新加坡_Chen-2021.12.25_13 2
+      - _SG_新加坡_Chen-2021.12.25_44
+      - _SG_新加坡_Chen-2021.12.25_44 2
+      - _SG_新加坡_Chen-2021.12.25_45
+      - _SG_新加坡_Chen-2021.12.25_45 2
       - 新加坡
       - 新加坡 2
       - 新加坡 3
@@ -1428,6 +1323,12 @@ proxy-groups:
       - 079韩国∞直连
       - 080韩国∞直连
       - 081韩国∞直连
+      - _KR_韩国_Chen-2021.12.25_54
+      - _KR_韩国_Chen-2021.12.25_54 2
+      - _KR_韩国_Chen-2021.12.25_79
+      - _KR_韩国_Chen-2021.12.25_79 2
+      - _KR_韩国_Chen-2021.12.25_84
+      - _KR_韩国_Chen-2021.12.25_84 2
       - 日韩频道 TG@shoucangAV
   - name: 🌍 其他地区
     type: select
@@ -1493,46 +1394,59 @@ proxy-groups:
       - "@SSRSUB-加拿大T08-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-加拿大T09-付费推荐:dlj.tf/ssrsub"
       - _AE_阿联酋
-      - _AE_阿联酋_5
       - _AU_澳大利亚
       - _AU_澳大利亚 2
-      - _AU_澳大利亚_6
-      - _AU_澳大利亚_7
+      - _AU_澳大利亚_Chen-2021.12.25_63
+      - _AU_澳大利亚_Chen-2021.12.25_63 2
+      - _AU_澳大利亚_Chen-2021.12.25_64
+      - _AU_澳大利亚_Chen-2021.12.25_64 2
       - _CA_加拿大
-      - _CA_加拿大_10
-      - _CA_加拿大_11
-      - _CA_加拿大_12
-      - _CA_加拿大_13
-      - _CA_加拿大_14
-      - _CA_加拿大_15
-      - _CA_加拿大_16
-      - _CA_加拿大_17
-      - _CA_加拿大_18
-      - _CA_加拿大_19
-      - _DE_德国_41
-      - _GB_英国_62
-      - _GB_英国_63
-      - _GB_英国_64
-      - _GB_英国_65
-      - _GB_英国_66
-      - _GB_英国_67
-      - _GB_英国_68
-      - _GB_英国_69
-      - _HK_香港->🇮🇳_IN_印度_82
-      - _HK_香港->🇮🇳_IN_印度_83
-      - _ID_印度尼西亚_84
-      - _IN_印度_88
-      - _IN_印度_89
-      - _IN_印度_90
-      - _IN_印度_91
-      - _IN_印度_92
-      - _IN_印度_93
-      - _IN_印度_94
-      - _MY_马来西亚_98
-      - _PH_菲律宾_116
-      - _RU_俄罗斯联邦_119
-      - _RU_俄罗斯联邦_120
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_159
+      - _CA_加拿大_Chen-2021.12.25_14
+      - _CA_加拿大_Chen-2021.12.25_14 2
+      - _CA_加拿大_Chen-2021.12.25_15
+      - _CA_加拿大_Chen-2021.12.25_15 2
+      - _CA_加拿大_Chen-2021.12.25_16
+      - _CA_加拿大_Chen-2021.12.25_16 2
+      - _CA_加拿大_Chen-2021.12.25_17
+      - _CA_加拿大_Chen-2021.12.25_17 2
+      - _CA_加拿大_Chen-2021.12.25_18
+      - _CA_加拿大_Chen-2021.12.25_18 2
+      - _CA_加拿大_Chen-2021.12.25_19
+      - _CA_加拿大_Chen-2021.12.25_19 2
+      - _CA_加拿大_Chen-2021.12.25_20
+      - _CA_加拿大_Chen-2021.12.25_20 2
+      - _DE_德国_Chen-2021.12.25_35
+      - _DE_德国_Chen-2021.12.25_35 2
+      - _ID_印度尼西亚_Chen-2021.12.25_21
+      - _ID_印度尼西亚_Chen-2021.12.25_21 2
+      - _IN_印度_Chen-2021.12.25_22
+      - _IN_印度_Chen-2021.12.25_22 2
+      - _MY_马来西亚_Chen-2021.12.25_103
+      - _MY_马来西亚_Chen-2021.12.25_103 2
+      - _PH_菲律宾_Chen-2021.12.25_1
+      - _PH_菲律宾_Chen-2021.12.25_1 2
+      - _RU_俄罗斯联邦_Chen-2021.12.25_10
+      - _RU_俄罗斯联邦_Chen-2021.12.25_10 2
+      - _俄罗斯联邦_欢迎订阅youtube：VV科技_21
+      - _俄罗斯联邦_欢迎订阅youtube：VV科技_22
+      - _俄罗斯联邦_欢迎订阅youtube：VV科技_75
+      - _加拿大_欢迎订阅youtube：VV科技_17
+      - _加拿大_欢迎订阅youtube：VV科技_30
+      - _加拿大_欢迎订阅youtube：VV科技_55
+      - _加拿大_欢迎订阅youtube：VV科技_62
+      - _加拿大_欢迎订阅youtube：VV科技_63
+      - _印度_欢迎订阅youtube：VV科技_1
+      - _印度_欢迎订阅youtube：VV科技_33
+      - _印度尼西亚_欢迎订阅youtube：VV科技_31
+      - _德国_欢迎订阅youtube：VV科技_57
+      - _澳大利亚_欢迎订阅youtube：VV科技_13
+      - _澳大利亚_欢迎订阅youtube：VV科技_44
+      - _澳大利亚_欢迎订阅youtube：VV科技_45
+      - _英国_欢迎订阅youtube：VV科技_46
+      - _英国_欢迎订阅youtube：VV科技_59
+      - _英国_欢迎订阅youtube：VV科技_78
+      - _阿联酋_欢迎订阅youtube：VV科技_54
+      - _马来西亚_欢迎订阅youtube：VV科技_83
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
       - 俄罗斯（YouTube资源分享者） 3
@@ -1904,332 +1818,202 @@ proxy-groups:
       - Ytb:鹏哥分享_98
       - Ytb:鹏哥分享_99
       - _AE_阿联酋
-      - _AE_阿联酋_5
       - _AU_澳大利亚
       - _AU_澳大利亚 2
-      - _AU_澳大利亚_6
-      - _AU_澳大利亚_7
+      - _AU_澳大利亚_Chen-2021.12.25_63
+      - _AU_澳大利亚_Chen-2021.12.25_63 2
+      - _AU_澳大利亚_Chen-2021.12.25_64
+      - _AU_澳大利亚_Chen-2021.12.25_64 2
       - _BE_比利时
-      - _BE_比利时_8
       - _BG_保加利亚
-      - _BG_保加利亚_9
       - _CA_加拿大
-      - _CA_加拿大_10
-      - _CA_加拿大_11
-      - _CA_加拿大_12
-      - _CA_加拿大_13
-      - _CA_加拿大_14
-      - _CA_加拿大_15
-      - _CA_加拿大_16
-      - _CA_加拿大_17
-      - _CA_加拿大_18
-      - _CA_加拿大_19
-      - _DE_德国_41
-      - _DK_丹麦_42
-      - _FI_芬兰_43
-      - _FR_法国_44
-      - _FR_法国_45
-      - _FR_法国_46
-      - _FR_法国_47
-      - _FR_法国_48
-      - _FR_法国_49
-      - _FR_法国_50
-      - _FR_法国_51
-      - _FR_法国_52
-      - _FR_法国_53
-      - _FR_法国_54
-      - _FR_法国_55
-      - _FR_法国_56
-      - _FR_法国_57
-      - _FR_法国_58
-      - _FR_法国_59
-      - _FR_法国_60
-      - _FR_法国_61
-      - _GB_英国_62
-      - _GB_英国_63
-      - _GB_英国_64
-      - _GB_英国_65
-      - _GB_英国_66
-      - _GB_英国_67
-      - _GB_英国_68
-      - _GB_英国_69
-      - _GR_希腊_70
-      - _HK_香港->🇮🇳_IN_印度_82
-      - _HK_香港->🇮🇳_IN_印度_83
-      - _HK_香港_71
-      - _HK_香港_72
-      - _HK_香港_73
-      - _HK_香港_74
-      - _HK_香港_75
-      - _HK_香港_76
-      - _HK_香港_77
-      - _HK_香港_78
-      - _HK_香港_79
-      - _HK_香港_80
-      - _HK_香港_81
-      - _ID_印度尼西亚_84
-      - _IE_爱尔兰_85
-      - _IL_以色列_86
-      - _IL_以色列_87
-      - _IN_印度_88
-      - _IN_印度_89
-      - _IN_印度_90
-      - _IN_印度_91
-      - _IN_印度_92
-      - _IN_印度_93
-      - _IN_印度_94
-      - _JP_日本_95
-      - _JP_日本_96
-      - _MX_墨西哥_97
-      - _MY_马来西亚_98
-      - _NL_荷兰_99
-      - _NON_Chen-2021.12.19_1
-      - _NON_Chen-2021.12.19_1 2
-      - _NON_Chen-2021.12.19_10
-      - _NON_Chen-2021.12.19_10 2
-      - _NON_Chen-2021.12.19_100
-      - _NON_Chen-2021.12.19_100 2
-      - _NON_Chen-2021.12.19_101
-      - _NON_Chen-2021.12.19_101 2
-      - _NON_Chen-2021.12.19_102
-      - _NON_Chen-2021.12.19_102 2
-      - _NON_Chen-2021.12.19_104
-      - _NON_Chen-2021.12.19_104 2
-      - _NON_Chen-2021.12.19_11
-      - _NON_Chen-2021.12.19_11 2
-      - _NON_Chen-2021.12.19_12
-      - _NON_Chen-2021.12.19_12 2
-      - _NON_Chen-2021.12.19_13
-      - _NON_Chen-2021.12.19_13 2
-      - _NON_Chen-2021.12.19_14
-      - _NON_Chen-2021.12.19_14 2
-      - _NON_Chen-2021.12.19_15
-      - _NON_Chen-2021.12.19_15 2
-      - _NON_Chen-2021.12.19_16
-      - _NON_Chen-2021.12.19_16 2
-      - _NON_Chen-2021.12.19_17
-      - _NON_Chen-2021.12.19_17 2
-      - _NON_Chen-2021.12.19_18
-      - _NON_Chen-2021.12.19_18 2
-      - _NON_Chen-2021.12.19_19
-      - _NON_Chen-2021.12.19_19 2
-      - _NON_Chen-2021.12.19_2
-      - _NON_Chen-2021.12.19_2 2
-      - _NON_Chen-2021.12.19_20
-      - _NON_Chen-2021.12.19_20 2
-      - _NON_Chen-2021.12.19_21
-      - _NON_Chen-2021.12.19_21 2
-      - _NON_Chen-2021.12.19_22
-      - _NON_Chen-2021.12.19_22 2
-      - _NON_Chen-2021.12.19_23
-      - _NON_Chen-2021.12.19_23 2
-      - _NON_Chen-2021.12.19_24
-      - _NON_Chen-2021.12.19_24 2
-      - _NON_Chen-2021.12.19_25
-      - _NON_Chen-2021.12.19_25 2
-      - _NON_Chen-2021.12.19_26
-      - _NON_Chen-2021.12.19_26 2
-      - _NON_Chen-2021.12.19_27
-      - _NON_Chen-2021.12.19_27 2
-      - _NON_Chen-2021.12.19_28
-      - _NON_Chen-2021.12.19_28 2
-      - _NON_Chen-2021.12.19_29
-      - _NON_Chen-2021.12.19_29 2
-      - _NON_Chen-2021.12.19_30
-      - _NON_Chen-2021.12.19_30 2
-      - _NON_Chen-2021.12.19_31
-      - _NON_Chen-2021.12.19_31 2
-      - _NON_Chen-2021.12.19_32
-      - _NON_Chen-2021.12.19_32 2
-      - _NON_Chen-2021.12.19_33
-      - _NON_Chen-2021.12.19_33 2
-      - _NON_Chen-2021.12.19_34
-      - _NON_Chen-2021.12.19_34 2
-      - _NON_Chen-2021.12.19_35
-      - _NON_Chen-2021.12.19_35 2
-      - _NON_Chen-2021.12.19_36
-      - _NON_Chen-2021.12.19_36 2
-      - _NON_Chen-2021.12.19_37
-      - _NON_Chen-2021.12.19_37 2
-      - _NON_Chen-2021.12.19_38
-      - _NON_Chen-2021.12.19_38 2
-      - _NON_Chen-2021.12.19_39
-      - _NON_Chen-2021.12.19_39 2
-      - _NON_Chen-2021.12.19_40
-      - _NON_Chen-2021.12.19_40 2
-      - _NON_Chen-2021.12.19_41
-      - _NON_Chen-2021.12.19_41 2
-      - _NON_Chen-2021.12.19_42
-      - _NON_Chen-2021.12.19_42 2
-      - _NON_Chen-2021.12.19_43
-      - _NON_Chen-2021.12.19_43 2
-      - _NON_Chen-2021.12.19_44
-      - _NON_Chen-2021.12.19_44 2
-      - _NON_Chen-2021.12.19_45
-      - _NON_Chen-2021.12.19_45 2
-      - _NON_Chen-2021.12.19_46
-      - _NON_Chen-2021.12.19_46 2
-      - _NON_Chen-2021.12.19_47
-      - _NON_Chen-2021.12.19_47 2
-      - _NON_Chen-2021.12.19_48
-      - _NON_Chen-2021.12.19_48 2
-      - _NON_Chen-2021.12.19_49
-      - _NON_Chen-2021.12.19_49 2
-      - _NON_Chen-2021.12.19_51
-      - _NON_Chen-2021.12.19_51 2
-      - _NON_Chen-2021.12.19_52
-      - _NON_Chen-2021.12.19_52 2
-      - _NON_Chen-2021.12.19_53
-      - _NON_Chen-2021.12.19_53 2
-      - _NON_Chen-2021.12.19_58
-      - _NON_Chen-2021.12.19_58 2
-      - _NON_Chen-2021.12.19_59
-      - _NON_Chen-2021.12.19_59 2
-      - _NON_Chen-2021.12.19_60
-      - _NON_Chen-2021.12.19_60 2
-      - _NON_Chen-2021.12.19_61
-      - _NON_Chen-2021.12.19_61 2
-      - _NON_Chen-2021.12.19_62
-      - _NON_Chen-2021.12.19_62 2
-      - _NON_Chen-2021.12.19_63
-      - _NON_Chen-2021.12.19_63 2
-      - _NON_Chen-2021.12.19_64
-      - _NON_Chen-2021.12.19_64 2
-      - _NON_Chen-2021.12.19_65
-      - _NON_Chen-2021.12.19_65 2
-      - _NON_Chen-2021.12.19_66
-      - _NON_Chen-2021.12.19_66 2
-      - _NON_Chen-2021.12.19_67
-      - _NON_Chen-2021.12.19_67 2
-      - _NON_Chen-2021.12.19_68
-      - _NON_Chen-2021.12.19_68 2
-      - _NON_Chen-2021.12.19_69
-      - _NON_Chen-2021.12.19_69 2
-      - _NON_Chen-2021.12.19_70
-      - _NON_Chen-2021.12.19_70 2
-      - _NON_Chen-2021.12.19_71
-      - _NON_Chen-2021.12.19_71 2
-      - _NON_Chen-2021.12.19_72
-      - _NON_Chen-2021.12.19_72 2
-      - _NON_Chen-2021.12.19_73
-      - _NON_Chen-2021.12.19_73 2
-      - _NON_Chen-2021.12.19_74
-      - _NON_Chen-2021.12.19_74 2
-      - _NON_Chen-2021.12.19_75
-      - _NON_Chen-2021.12.19_75 2
-      - _NON_Chen-2021.12.19_76
-      - _NON_Chen-2021.12.19_76 2
-      - _NON_Chen-2021.12.19_77
-      - _NON_Chen-2021.12.19_77 2
-      - _NON_Chen-2021.12.19_78
-      - _NON_Chen-2021.12.19_78 2
-      - _NON_Chen-2021.12.19_79
-      - _NON_Chen-2021.12.19_79 2
-      - _NON_Chen-2021.12.19_8
-      - _NON_Chen-2021.12.19_8 2
-      - _NON_Chen-2021.12.19_80
-      - _NON_Chen-2021.12.19_80 2
-      - _NON_Chen-2021.12.19_81
-      - _NON_Chen-2021.12.19_81 2
-      - _NON_Chen-2021.12.19_83
-      - _NON_Chen-2021.12.19_83 2
-      - _NON_Chen-2021.12.19_84
-      - _NON_Chen-2021.12.19_84 2
-      - _NON_Chen-2021.12.19_85
-      - _NON_Chen-2021.12.19_85 2
-      - _NON_Chen-2021.12.19_86
-      - _NON_Chen-2021.12.19_86 2
-      - _NON_Chen-2021.12.19_87
-      - _NON_Chen-2021.12.19_87 2
-      - _NON_Chen-2021.12.19_89
-      - _NON_Chen-2021.12.19_89 2
-      - _NON_Chen-2021.12.19_9
-      - _NON_Chen-2021.12.19_9 2
-      - _NON_Chen-2021.12.19_90
-      - _NON_Chen-2021.12.19_90 2
-      - _NON_Chen-2021.12.19_91
-      - _NON_Chen-2021.12.19_91 2
-      - _NON_Chen-2021.12.19_92
-      - _NON_Chen-2021.12.19_92 2
-      - _NON_Chen-2021.12.19_93
-      - _NON_Chen-2021.12.19_93 2
-      - _NON_Chen-2021.12.19_95
-      - _NON_Chen-2021.12.19_95 2
-      - _NON_Chen-2021.12.19_97
-      - _NON_Chen-2021.12.19_97 2
-      - _NON_Chen-2021.12.19_98
-      - _NON_Chen-2021.12.19_98 2
-      - _NON_Chen-2021.12.19_99
-      - _NON_Chen-2021.12.19_99 2
-      - _NO_挪威_100
-      - _NO_挪威_101
-      - _NO_挪威_102
-      - _NO_挪威_103
-      - _NO_挪威_104
-      - _NO_挪威_105
-      - _NO_挪威_106
-      - _NO_挪威_107
-      - _NO_挪威_108
-      - _NO_挪威_109
-      - _NO_挪威_110
-      - _NO_挪威_111
-      - _NO_挪威_112
-      - _NO_挪威_113
-      - _NO_挪威_114
-      - _NZ_新西兰_115
-      - _PH_菲律宾_116
-      - _PT_葡萄牙_117
-      - _PT_葡萄牙_118
-      - _RU_俄罗斯联邦_119
-      - _RU_俄罗斯联邦_120
-      - _SG_新加坡_121
-      - _SG_新加坡_122
-      - _SG_新加坡_123
-      - _SG_新加坡_124
-      - _UA_乌克兰_125
-      - _UA_乌克兰_126
-      - _US_美国->🇨🇿_CZ_捷克_158
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_159
-      - _US_美国_127
-      - _US_美国_128
-      - _US_美国_129
-      - _US_美国_130
-      - _US_美国_131
-      - _US_美国_132
-      - _US_美国_133
-      - _US_美国_134
-      - _US_美国_135
-      - _US_美国_136
-      - _US_美国_137
-      - _US_美国_138
-      - _US_美国_139
-      - _US_美国_140
-      - _US_美国_141
-      - _US_美国_142
-      - _US_美国_143
-      - _US_美国_144
-      - _US_美国_145
-      - _US_美国_146
-      - _US_美国_147
-      - _US_美国_148
-      - _US_美国_149
-      - _US_美国_150
-      - _US_美国_151
-      - _US_美国_152
-      - _US_美国_153
-      - _US_美国_154
-      - _US_美国_155
-      - _US_美国_156
-      - _US_美国_157
-      - _VN_越南_160
+      - _CA_加拿大_Chen-2021.12.25_14
+      - _CA_加拿大_Chen-2021.12.25_14 2
+      - _CA_加拿大_Chen-2021.12.25_15
+      - _CA_加拿大_Chen-2021.12.25_15 2
+      - _CA_加拿大_Chen-2021.12.25_16
+      - _CA_加拿大_Chen-2021.12.25_16 2
+      - _CA_加拿大_Chen-2021.12.25_17
+      - _CA_加拿大_Chen-2021.12.25_17 2
+      - _CA_加拿大_Chen-2021.12.25_18
+      - _CA_加拿大_Chen-2021.12.25_18 2
+      - _CA_加拿大_Chen-2021.12.25_19
+      - _CA_加拿大_Chen-2021.12.25_19 2
+      - _CA_加拿大_Chen-2021.12.25_20
+      - _CA_加拿大_Chen-2021.12.25_20 2
+      - _DE_德国_Chen-2021.12.25_35
+      - _DE_德国_Chen-2021.12.25_35 2
+      - _DK_丹麦_Chen-2021.12.25_7
+      - _DK_丹麦_Chen-2021.12.25_7 2
+      - _FR_法国_Chen-2021.12.25_55
+      - _FR_法国_Chen-2021.12.25_55 2
+      - _FR_法国_Chen-2021.12.25_56
+      - _FR_法国_Chen-2021.12.25_56 2
+      - _FR_法国_Chen-2021.12.25_57
+      - _FR_法国_Chen-2021.12.25_57 2
+      - _FR_法国_Chen-2021.12.25_58
+      - _FR_法国_Chen-2021.12.25_58 2
+      - _FR_法国_Chen-2021.12.25_59
+      - _FR_法国_Chen-2021.12.25_59 2
+      - _FR_法国_Chen-2021.12.25_60
+      - _FR_法国_Chen-2021.12.25_60 2
+      - _FR_法国_Chen-2021.12.25_61
+      - _FR_法国_Chen-2021.12.25_61 2
+      - _FR_法国_Chen-2021.12.25_62
+      - _FR_法国_Chen-2021.12.25_62 2
+      - _HK_香港_Chen-2021.12.25_30
+      - _HK_香港_Chen-2021.12.25_30 2
+      - _HK_香港_Chen-2021.12.25_65
+      - _HK_香港_Chen-2021.12.25_65 2
+      - _HK_香港_Chen-2021.12.25_78
+      - _HK_香港_Chen-2021.12.25_78 2
+      - _HK_香港_Chen-2021.12.25_86
+      - _HK_香港_Chen-2021.12.25_86 2
+      - _HK_香港_Chen-2021.12.25_96
+      - _HK_香港_Chen-2021.12.25_96 2
+      - _HK_香港_Chen-2021.12.25_98
+      - _HK_香港_Chen-2021.12.25_98 2
+      - _HK_香港_Chen-2021.12.25_99
+      - _HK_香港_Chen-2021.12.25_99 2
+      - _ID_印度尼西亚_Chen-2021.12.25_21
+      - _ID_印度尼西亚_Chen-2021.12.25_21 2
+      - _IE_爱尔兰_Chen-2021.12.25_3
+      - _IE_爱尔兰_Chen-2021.12.25_3 2
+      - _IN_印度_Chen-2021.12.25_22
+      - _IN_印度_Chen-2021.12.25_22 2
+      - _JP_日本_Chen-2021.12.25_51
+      - _JP_日本_Chen-2021.12.25_51 2
+      - _JP_日本_Chen-2021.12.25_52
+      - _JP_日本_Chen-2021.12.25_52 2
+      - _JP_日本_Chen-2021.12.25_53
+      - _JP_日本_Chen-2021.12.25_53 2
+      - _KR_韩国_Chen-2021.12.25_54
+      - _KR_韩国_Chen-2021.12.25_54 2
+      - _KR_韩国_Chen-2021.12.25_79
+      - _KR_韩国_Chen-2021.12.25_79 2
+      - _KR_韩国_Chen-2021.12.25_84
+      - _KR_韩国_Chen-2021.12.25_84 2
+      - _MX_墨西哥_Chen-2021.12.25_31
+      - _MX_墨西哥_Chen-2021.12.25_31 2
+      - _MY_马来西亚_Chen-2021.12.25_103
+      - _MY_马来西亚_Chen-2021.12.25_103 2
+      - _NO_挪威_Chen-2021.12.25_38
+      - _NO_挪威_Chen-2021.12.25_38 2
+      - _NO_挪威_Chen-2021.12.25_39
+      - _NO_挪威_Chen-2021.12.25_39 2
+      - _NO_挪威_Chen-2021.12.25_40
+      - _NO_挪威_Chen-2021.12.25_40 2
+      - _NO_挪威_Chen-2021.12.25_41
+      - _NO_挪威_Chen-2021.12.25_41 2
+      - _NO_挪威_Chen-2021.12.25_42
+      - _NO_挪威_Chen-2021.12.25_42 2
+      - _NO_挪威_Chen-2021.12.25_43
+      - _NO_挪威_Chen-2021.12.25_43 2
+      - _PH_菲律宾_Chen-2021.12.25_1
+      - _PH_菲律宾_Chen-2021.12.25_1 2
+      - _PT_葡萄牙_Chen-2021.12.25_81
+      - _PT_葡萄牙_Chen-2021.12.25_81 2
+      - _RU_俄罗斯联邦_Chen-2021.12.25_10
+      - _RU_俄罗斯联邦_Chen-2021.12.25_10 2
+      - _SG_新加坡_Chen-2021.12.25_11
+      - _SG_新加坡_Chen-2021.12.25_11 2
+      - _SG_新加坡_Chen-2021.12.25_12
+      - _SG_新加坡_Chen-2021.12.25_12 2
+      - _SG_新加坡_Chen-2021.12.25_13
+      - _SG_新加坡_Chen-2021.12.25_13 2
+      - _SG_新加坡_Chen-2021.12.25_44
+      - _SG_新加坡_Chen-2021.12.25_44 2
+      - _SG_新加坡_Chen-2021.12.25_45
+      - _SG_新加坡_Chen-2021.12.25_45 2
+      - _TW_台湾_Chen-2021.12.25_29
+      - _TW_台湾_Chen-2021.12.25_29 2
+      - _UA_乌克兰_Chen-2021.12.25_8
+      - _UA_乌克兰_Chen-2021.12.25_8 2
+      - _US_美国_Chen-2021.12.25_66
+      - _US_美国_Chen-2021.12.25_66 2
+      - _US_美国_Chen-2021.12.25_67
+      - _US_美国_Chen-2021.12.25_67 2
+      - _US_美国_Chen-2021.12.25_68
+      - _US_美国_Chen-2021.12.25_68 2
+      - _US_美国_Chen-2021.12.25_69
+      - _US_美国_Chen-2021.12.25_69 2
+      - _US_美国_Chen-2021.12.25_70
+      - _US_美国_Chen-2021.12.25_70 2
+      - _US_美国_Chen-2021.12.25_71
+      - _US_美国_Chen-2021.12.25_71 2
+      - _US_美国_Chen-2021.12.25_72
+      - _US_美国_Chen-2021.12.25_72 2
+      - _US_美国_Chen-2021.12.25_73
+      - _US_美国_Chen-2021.12.25_73 2
+      - _US_美国_Chen-2021.12.25_76
+      - _US_美国_Chen-2021.12.25_76 2
+      - _US_美国_Chen-2021.12.25_77
+      - _US_美国_Chen-2021.12.25_77 2
+      - _US_美国_Chen-2021.12.25_80
+      - _US_美国_Chen-2021.12.25_80 2
+      - _VN_越南_Chen-2021.12.25_2
+      - _VN_越南_Chen-2021.12.25_2 2
+      - _乌克兰_欢迎订阅youtube：VV科技_29
+      - _乌克兰_欢迎订阅youtube：VV科技_36
+      - _俄罗斯联邦_欢迎订阅youtube：VV科技_21
+      - _俄罗斯联邦_欢迎订阅youtube：VV科技_22
+      - _俄罗斯联邦_欢迎订阅youtube：VV科技_75
+      - _加拿大_欢迎订阅youtube：VV科技_17
+      - _加拿大_欢迎订阅youtube：VV科技_30
+      - _加拿大_欢迎订阅youtube：VV科技_55
+      - _加拿大_欢迎订阅youtube：VV科技_62
+      - _加拿大_欢迎订阅youtube：VV科技_63
+      - _印度_欢迎订阅youtube：VV科技_1
+      - _印度_欢迎订阅youtube：VV科技_33
+      - _印度尼西亚_欢迎订阅youtube：VV科技_31
+      - _希腊_欢迎订阅youtube：VV科技_37
+      - _希腊_欢迎订阅youtube：VV科技_77
+      - _德国_欢迎订阅youtube：VV科技_57
+      - _捷克_欢迎订阅youtube：VV科技_87
+      - _捷克_欢迎订阅youtube：VV科技_98
+      - _新西兰_欢迎订阅youtube：VV科技_71
+      - _比利时_欢迎订阅youtube：VV科技_68
+      - _法国_欢迎订阅youtube：VV科技_25
+      - _法国_欢迎订阅youtube：VV科技_43
+      - _法国_欢迎订阅youtube：VV科技_52
+      - _法国_欢迎订阅youtube：VV科技_53
+      - _法国_欢迎订阅youtube：VV科技_56
+      - _法国_欢迎订阅youtube：VV科技_85
+      - _澳大利亚_欢迎订阅youtube：VV科技_13
+      - _澳大利亚_欢迎订阅youtube：VV科技_44
+      - _澳大利亚_欢迎订阅youtube：VV科技_45
+      - _美国_欢迎订阅youtube：VV科技_10
+      - _美国_欢迎订阅youtube：VV科技_19
+      - _美国_欢迎订阅youtube：VV科技_20
+      - _美国_欢迎订阅youtube：VV科技_23
+      - _美国_欢迎订阅youtube：VV科技_27
+      - _美国_欢迎订阅youtube：VV科技_32
+      - _美国_欢迎订阅youtube：VV科技_34
+      - _美国_欢迎订阅youtube：VV科技_41
+      - _美国_欢迎订阅youtube：VV科技_42
+      - _美国_欢迎订阅youtube：VV科技_47
+      - _美国_欢迎订阅youtube：VV科技_51
+      - _美国_欢迎订阅youtube：VV科技_60
+      - _美国_欢迎订阅youtube：VV科技_61
+      - _美国_欢迎订阅youtube：VV科技_8
+      - _美国_欢迎订阅youtube：VV科技_84
+      - _美国_欢迎订阅youtube：VV科技_95
+      - _芬兰_欢迎订阅youtube：VV科技_70
+      - _英国_欢迎订阅youtube：VV科技_46
+      - _英国_欢迎订阅youtube：VV科技_59
+      - _英国_欢迎订阅youtube：VV科技_78
+      - _阿联酋_欢迎订阅youtube：VV科技_54
+      - _香港_欢迎订阅youtube：VV科技_35
+      - _香港_欢迎订阅youtube：VV科技_39
+      - _香港_欢迎订阅youtube：VV科技_7
+      - _香港_欢迎订阅youtube：VV科技_79
+      - _香港_欢迎订阅youtube：VV科技_81
+      - _香港_欢迎订阅youtube：VV科技_9
+      - _马来西亚_欢迎订阅youtube：VV科技_83
       - default_name
       - default_name 2
       - default_name 3
       - default_name 4
-      - default_name_1
-      - default_name_2
-      - default_name_3
-      - default_name_4
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
       - 乌克兰（YouTube资源分享者） 3
@@ -2424,6 +2208,7 @@ proxy-groups:
       - 日本（YouTube资源分享者） 5 2
       - 日本（YouTube资源分享者） 6 2
       - 日韩频道 TG@shoucangAV
+      - 欢迎订阅youtube：VV科技_101
       - 欧洲
       - 欧洲 2
       - 欧洲 3
