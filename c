@@ -5,60 +5,204 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇦🇺_AU_澳大利亚_1', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_美国_2', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'default_name_1', server: api.ssfree.ru, port: 443, type: vmess, uuid: b7940768-659b-11ec-895c-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /getweather}
+  - {name: 'default_name_2', server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
+  - {name: 'default_name_3', server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
+  - {name: 'default_name_4', server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: '🇦🇪_AE_阿联酋_5', server: 217.138.193.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc}
+  - {name: '🇦🇺_AU_澳大利亚_6', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇦🇺_AU_澳大利亚_7', server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: '🇧🇪_BE_比利时_8', server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '🇧🇬_BG_保加利亚_9', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: '🇨🇦_CA_加拿大_10', server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_11', server: iepl.hk.f663.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_12', server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_13', server: 211.99.96.4, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_14', server: iepl.hk.fda0.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_15', server: 211.99.96.9, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_16', server: 211.99.96.10, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_17', server: 120.232.82.190, port: 4001, type: ss, cipher: aes-256-gcm, password: 43e27d84de893cced5b4d6adfd087cff}
+  - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_18', server: 211.99.96.34, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_19', server: 211.99.96.31, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_20', server: 211.99.96.35, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇺🇸_US_美国_2
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - 🇦🇪_AE_阿联酋_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇧🇪_BE_比利时_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_11
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_13
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_16
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_17
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_18
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_19
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇺🇸_US_美国_2
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - 🇦🇪_AE_阿联酋_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇧🇪_BE_比利时_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_11
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_13
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_16
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_17
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_18
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_19
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_20
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇺🇸_US_美国_2
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - 🇦🇪_AE_阿联酋_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇧🇪_BE_比利时_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_11
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_13
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_16
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_17
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_18
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_19
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_20
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇺🇸_US_美国_2
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - 🇦🇪_AE_阿联酋_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇧🇪_BE_比利时_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_11
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_13
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_16
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_17
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_18
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_19
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_20
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇺🇸_US_美国_2
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - 🇦🇪_AE_阿联酋_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇧🇪_BE_比利时_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_11
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_13
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_16
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_17
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_18
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_19
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇺🇸_US_美国_2
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - 🇦🇪_AE_阿联酋_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇧🇪_BE_比利时_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_11
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_13
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_16
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_17
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_18
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_19
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇺🇸_US_美国_2
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - 🇦🇪_AE_阿联酋_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇧🇪_BE_比利时_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_11
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_13
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_16
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_17
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_18
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_19
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +218,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇺🇸_US_美国_2
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - 🇦🇪_AE_阿联酋_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇧🇪_BE_比利时_8
+      - 🇧🇬_BG_保加利亚_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_11
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_13
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_16
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_17
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_18
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_19
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_20
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
