@@ -5,620 +5,844 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Ytb:冰河圈子_1', server: zz.gzyd.xyz, port: 2121, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
-  - {name: 'Ytb:冰河圈子_2', server: zz.gzyd.xyz, port: 2525, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
-  - {name: 'Ytb:冰河圈子_3', server: zz.gzyd.xyz, port: 5757, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
-  - {name: 'Ytb:冰河圈子_4', server: zz.gzyd.xyz, port: 2424, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
-  - {name: 'Ytb:冰河圈子_5', server: 120.232.82.190, port: 4008, type: ss, cipher: aes-256-gcm, password: d6d495a2aa737bf578e58868a96be20f}
-  - {name: 'Ytb:冰河圈子_6', server: zz.gzyd.xyz, port: 899, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
-  - {name: 'Ytb:冰河圈子_7', server: 120.232.82.190, port: 4001, type: ss, cipher: aes-256-gcm, password: 43e27d84de893cced5b4d6adfd087cff}
-  - {name: 'Ytb:冰河圈子_8', server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 649f95f3-ab9c-429c-9185-ff5e44b7805d, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: 'Ytb:冰河圈子_9', server: zz.gzyd.xyz, port: 2020, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
-  - {name: 'Ytb:冰河圈子_10', server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0}
-  - {name: 'Ytb:冰河圈子_11', server: zz.gzyd.xyz, port: 9191, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
-  - {name: 'Ytb:冰河圈子_12', server: zz.gzyd.xyz, port: 5454, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
-  - {name: 'Ytb:冰河圈子_13', server: zz.gzyd.xyz, port: 5200, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
-  - {name: 'Ytb:冰河圈子_14', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: 'Ytb:冰河圈子_15', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:冰河圈子_16', server: 167.160.91.131, port: 2948, type: ss, cipher: aes-256-gcm, password: c9ff20111b73874292da92cc4166421e}
-  - {name: 'Ytb:冰河圈子_17', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Ytb:冰河圈子_18', server: 108.165.196.212, port: 2340, type: ss, cipher: aes-256-gcm, password: 81d7d46b9c66c779e81b83bc594df5eb}
-  - {name: 'Ytb:冰河圈子_19', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Ytb:冰河圈子_20', server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
-  - {name: 'Ytb:冰河圈子_21', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:冰河圈子_22', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:冰河圈子_23', server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: 12c00b6c-bdec-3162-aac2-2ae87e174156, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun}
-  - {name: 'Ytb:冰河圈子_24', server: zz.gzyd.xyz, port: 3131, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
-  - {name: 'Ytb:冰河圈子_25', server: zz.gzyd.xyz, port: 2626, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
-  - {name: 'Ytb:冰河圈子_26', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:冰河圈子_27', server: zz.gzyd.xyz, port: 161, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
-  - {name: 'Ytb:冰河圈子_28', server: 169.197.142.250, port: 2800, type: ss, cipher: aes-256-gcm, password: d3bbe88595e1dfaa2c9085aa9bdaf3e4}
-  - {name: 'Ytb:冰河圈子_29', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: 'Ytb:冰河圈子_30', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'Ytb:冰河圈子_31', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'Ytb:冰河圈子_32', server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
-  - {name: 'Ytb:冰河圈子_33', server: 120.232.82.190, port: 2010, type: ss, cipher: aes-256-gcm, password: fb3ff83bac9e4aed4a6a7d4a1f321f1a}
-  - {name: 'Ytb:冰河圈子_34', server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: 'Ytb:冰河圈子_35', server: 120.232.82.190, port: 3002, type: ss, cipher: aes-256-gcm, password: 16b33a734063d5bb793634198ca90b73}
-  - {name: 'Ytb:冰河圈子_36', server: iepl.sg.bd6f.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_37', server: iepl.hk.4a75.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_38', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: 'Ytb:冰河圈子_39', server: iepl.hk.0686.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_40', server: zz.gzyd.xyz, port: 3434, type: vmess, uuid: c5a3c7fe-18c2-3110-82ca-d005c23fab0c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.gzyd.xyz}}
-  - {name: 'Ytb:冰河圈子_41', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:冰河圈子_42', server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
-  - {name: 'Ytb:冰河圈子_43', server: iepl.hk.71bc.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_44', server: iepl.hk.7512.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_45', server: iepl.tw.9548.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_46', server: iepl.sg.e0c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_47', server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9}
-  - {name: 'Ytb:冰河圈子_48', server: iepl.hk.f663.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_49', server: iepl.sg.21ce.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_50', server: iepl.hk.fda0.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_51', server: iepl.sg.f84d.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_52', server: iepl.hk.f6e8.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_53', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:冰河圈子_54', server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Ytb:冰河圈子_55', server: iepl.tw.4edb.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_56', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:冰河圈子_57', server: iepl.hk.206f.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_58', server: iepl.hk.31c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_59', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:冰河圈子_60', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: 'Ytb:冰河圈子_61', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:冰河圈子_62', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:冰河圈子_63', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: 'Ytb:冰河圈子_64', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:冰河圈子_65', server: 185.237.98.69, port: 3212, type: ss, cipher: aes-256-gcm, password: 13f91d7fd2461aa8ac178d360d94b2a8}
-  - {name: 'Ytb:冰河圈子_66', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:冰河圈子_67', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:冰河圈子_68', server: 85.208.108.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'Ytb:冰河圈子_69', server: iepl.sg.d6e4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_70', server: iepl.hk.023d.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: 'Ytb:冰河圈子_71', server: v13.88host.buzz, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
-  - {name: 'Ytb:冰河圈子_72', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '冰河圈子_1', server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9}
+  - {name: '冰河圈子_2', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '冰河圈子_3', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '冰河圈子_4', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '冰河圈子_5', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '冰河圈子_6', server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: '冰河圈子_7', server: 211.99.96.13, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_8', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '冰河圈子_9', server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '冰河圈子_10', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '冰河圈子_11', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '冰河圈子_12', server: 00.cn3.rocketdns.xyz, port: 65015, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_13', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: '冰河圈子_14', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '冰河圈子_15', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '冰河圈子_16', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: '冰河圈子_17', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '冰河圈子_18', server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '冰河圈子_19', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '冰河圈子_20', server: 00.cn3.rocketdns.xyz, port: 65021, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_21', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: '冰河圈子_22', server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '冰河圈子_23', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '冰河圈子_24', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '冰河圈子_25', server: 00.cn2.rocketdns.xyz, port: 65013, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_26', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '冰河圈子_27', server: 00.cn3.rocketdns.xyz, port: 65011, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_28', server: 00.cn3.rocketdns.xyz, port: 65020, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_29', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '冰河圈子_30', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '冰河圈子_31', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: '冰河圈子_32', server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '冰河圈子_33', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '冰河圈子_34', server: iepl.sg.d6e4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_35', server: 00.cn2.rocketdns.xyz, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_36', server: 211.99.96.32, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_37', server: 211.99.96.33, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_38', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: '冰河圈子_39', server: 116.163.10.145, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_40', server: 18.192.212.68, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '冰河圈子_41', server: iepl.tw.9548.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_42', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '冰河圈子_43', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '冰河圈子_44', server: 211.99.96.16, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_45', server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: '冰河圈子_46', server: 211.99.96.35, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_47', server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_48', server: iepl.hk.f6e8.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_49', server: iepl.tw.4edb.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_50', server: 120.232.82.190, port: 3002, type: ss, cipher: aes-256-gcm, password: 16b33a734063d5bb793634198ca90b73}
+  - {name: '冰河圈子_51', server: 00.cn1.rocketdns.xyz, port: 65018, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_52', server: 116.163.14.146, port: 65018, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_53', server: 116.163.14.146, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_54', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: '冰河圈子_55', server: 211.99.96.9, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_56', server: 00.cn2.rocketdns.xyz, port: 65019, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_57', server: iepl.hk.023d.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_58', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '冰河圈子_59', server: iepl.hk.4a75.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_60', server: 211.99.96.4, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_61', server: 211.99.96.34, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_62', server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '冰河圈子_63', server: 211.99.96.10, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_64', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '冰河圈子_65', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: '冰河圈子_66', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '冰河圈子_67', server: iepl.hk.0686.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_68', server: iepl.sg.bd6f.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_69', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '冰河圈子_70', server: 116.163.10.145, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_71', server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: '冰河圈子_72', server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '冰河圈子_73', server: 00.cn3.rocketdns.xyz, port: 65014, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_74', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '冰河圈子_75', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '冰河圈子_76', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '冰河圈子_77', server: iepl.hk.fda0.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_78', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '冰河圈子_79', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '冰河圈子_80', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '冰河圈子_81', server: iepl.hk.f663.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_82', server: 211.99.96.11, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '冰河圈子_83', server: 00.cn3.rocketdns.xyz, port: 65002, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_84', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '冰河圈子_85', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '冰河圈子_86', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '冰河圈子_87', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: '冰河圈子_88', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '冰河圈子_89', server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: '冰河圈子_90', server: 120.241.72.90, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
+  - {name: '冰河圈子_91', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '冰河圈子_92', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '冰河圈子_93', server: 120.241.72.97, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
+  - {name: '冰河圈子_94', server: 116.163.10.145, port: 65013, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '冰河圈子_95', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '冰河圈子_96', server: 120.241.72.97, port: 18123, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
+  - {name: '冰河圈子_97', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '冰河圈子_98', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '冰河圈子_99', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '冰河圈子_100', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Ytb:冰河圈子_1
-      - Ytb:冰河圈子_2
-      - Ytb:冰河圈子_3
-      - Ytb:冰河圈子_4
-      - Ytb:冰河圈子_5
-      - Ytb:冰河圈子_6
-      - Ytb:冰河圈子_7
-      - Ytb:冰河圈子_8
-      - Ytb:冰河圈子_9
-      - Ytb:冰河圈子_10
-      - Ytb:冰河圈子_11
-      - Ytb:冰河圈子_12
-      - Ytb:冰河圈子_13
-      - Ytb:冰河圈子_14
-      - Ytb:冰河圈子_15
-      - Ytb:冰河圈子_16
-      - Ytb:冰河圈子_17
-      - Ytb:冰河圈子_18
-      - Ytb:冰河圈子_19
-      - Ytb:冰河圈子_20
-      - Ytb:冰河圈子_21
-      - Ytb:冰河圈子_22
-      - Ytb:冰河圈子_23
-      - Ytb:冰河圈子_24
-      - Ytb:冰河圈子_25
-      - Ytb:冰河圈子_26
-      - Ytb:冰河圈子_27
-      - Ytb:冰河圈子_28
-      - Ytb:冰河圈子_29
-      - Ytb:冰河圈子_30
-      - Ytb:冰河圈子_31
-      - Ytb:冰河圈子_32
-      - Ytb:冰河圈子_33
-      - Ytb:冰河圈子_34
-      - Ytb:冰河圈子_35
-      - Ytb:冰河圈子_36
-      - Ytb:冰河圈子_37
-      - Ytb:冰河圈子_38
-      - Ytb:冰河圈子_39
-      - Ytb:冰河圈子_40
-      - Ytb:冰河圈子_41
-      - Ytb:冰河圈子_42
-      - Ytb:冰河圈子_43
-      - Ytb:冰河圈子_44
-      - Ytb:冰河圈子_45
-      - Ytb:冰河圈子_46
-      - Ytb:冰河圈子_47
-      - Ytb:冰河圈子_48
-      - Ytb:冰河圈子_49
-      - Ytb:冰河圈子_50
-      - Ytb:冰河圈子_51
-      - Ytb:冰河圈子_52
-      - Ytb:冰河圈子_53
-      - Ytb:冰河圈子_54
-      - Ytb:冰河圈子_55
-      - Ytb:冰河圈子_56
-      - Ytb:冰河圈子_57
-      - Ytb:冰河圈子_58
-      - Ytb:冰河圈子_59
-      - Ytb:冰河圈子_60
-      - Ytb:冰河圈子_61
-      - Ytb:冰河圈子_62
-      - Ytb:冰河圈子_63
-      - Ytb:冰河圈子_64
-      - Ytb:冰河圈子_65
-      - Ytb:冰河圈子_66
-      - Ytb:冰河圈子_67
-      - Ytb:冰河圈子_68
-      - Ytb:冰河圈子_69
-      - Ytb:冰河圈子_70
-      - Ytb:冰河圈子_71
-      - Ytb:冰河圈子_72
+      - 冰河圈子_1
+      - 冰河圈子_2
+      - 冰河圈子_3
+      - 冰河圈子_4
+      - 冰河圈子_5
+      - 冰河圈子_6
+      - 冰河圈子_7
+      - 冰河圈子_8
+      - 冰河圈子_9
+      - 冰河圈子_10
+      - 冰河圈子_11
+      - 冰河圈子_12
+      - 冰河圈子_13
+      - 冰河圈子_14
+      - 冰河圈子_15
+      - 冰河圈子_16
+      - 冰河圈子_17
+      - 冰河圈子_18
+      - 冰河圈子_19
+      - 冰河圈子_20
+      - 冰河圈子_21
+      - 冰河圈子_22
+      - 冰河圈子_23
+      - 冰河圈子_24
+      - 冰河圈子_25
+      - 冰河圈子_26
+      - 冰河圈子_27
+      - 冰河圈子_28
+      - 冰河圈子_29
+      - 冰河圈子_30
+      - 冰河圈子_31
+      - 冰河圈子_32
+      - 冰河圈子_33
+      - 冰河圈子_34
+      - 冰河圈子_35
+      - 冰河圈子_36
+      - 冰河圈子_37
+      - 冰河圈子_38
+      - 冰河圈子_39
+      - 冰河圈子_40
+      - 冰河圈子_41
+      - 冰河圈子_42
+      - 冰河圈子_43
+      - 冰河圈子_44
+      - 冰河圈子_45
+      - 冰河圈子_46
+      - 冰河圈子_47
+      - 冰河圈子_48
+      - 冰河圈子_49
+      - 冰河圈子_50
+      - 冰河圈子_51
+      - 冰河圈子_52
+      - 冰河圈子_53
+      - 冰河圈子_54
+      - 冰河圈子_55
+      - 冰河圈子_56
+      - 冰河圈子_57
+      - 冰河圈子_58
+      - 冰河圈子_59
+      - 冰河圈子_60
+      - 冰河圈子_61
+      - 冰河圈子_62
+      - 冰河圈子_63
+      - 冰河圈子_64
+      - 冰河圈子_65
+      - 冰河圈子_66
+      - 冰河圈子_67
+      - 冰河圈子_68
+      - 冰河圈子_69
+      - 冰河圈子_70
+      - 冰河圈子_71
+      - 冰河圈子_72
+      - 冰河圈子_73
+      - 冰河圈子_74
+      - 冰河圈子_75
+      - 冰河圈子_76
+      - 冰河圈子_77
+      - 冰河圈子_78
+      - 冰河圈子_79
+      - 冰河圈子_80
+      - 冰河圈子_81
+      - 冰河圈子_82
+      - 冰河圈子_83
+      - 冰河圈子_84
+      - 冰河圈子_85
+      - 冰河圈子_86
+      - 冰河圈子_87
+      - 冰河圈子_88
+      - 冰河圈子_89
+      - 冰河圈子_90
+      - 冰河圈子_91
+      - 冰河圈子_92
+      - 冰河圈子_93
+      - 冰河圈子_94
+      - 冰河圈子_95
+      - 冰河圈子_96
+      - 冰河圈子_97
+      - 冰河圈子_98
+      - 冰河圈子_99
+      - 冰河圈子_100
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Ytb:冰河圈子_1
-      - Ytb:冰河圈子_2
-      - Ytb:冰河圈子_3
-      - Ytb:冰河圈子_4
-      - Ytb:冰河圈子_5
-      - Ytb:冰河圈子_6
-      - Ytb:冰河圈子_7
-      - Ytb:冰河圈子_8
-      - Ytb:冰河圈子_9
-      - Ytb:冰河圈子_10
-      - Ytb:冰河圈子_11
-      - Ytb:冰河圈子_12
-      - Ytb:冰河圈子_13
-      - Ytb:冰河圈子_14
-      - Ytb:冰河圈子_15
-      - Ytb:冰河圈子_16
-      - Ytb:冰河圈子_17
-      - Ytb:冰河圈子_18
-      - Ytb:冰河圈子_19
-      - Ytb:冰河圈子_20
-      - Ytb:冰河圈子_21
-      - Ytb:冰河圈子_22
-      - Ytb:冰河圈子_23
-      - Ytb:冰河圈子_24
-      - Ytb:冰河圈子_25
-      - Ytb:冰河圈子_26
-      - Ytb:冰河圈子_27
-      - Ytb:冰河圈子_28
-      - Ytb:冰河圈子_29
-      - Ytb:冰河圈子_30
-      - Ytb:冰河圈子_31
-      - Ytb:冰河圈子_32
-      - Ytb:冰河圈子_33
-      - Ytb:冰河圈子_34
-      - Ytb:冰河圈子_35
-      - Ytb:冰河圈子_36
-      - Ytb:冰河圈子_37
-      - Ytb:冰河圈子_38
-      - Ytb:冰河圈子_39
-      - Ytb:冰河圈子_40
-      - Ytb:冰河圈子_41
-      - Ytb:冰河圈子_42
-      - Ytb:冰河圈子_43
-      - Ytb:冰河圈子_44
-      - Ytb:冰河圈子_45
-      - Ytb:冰河圈子_46
-      - Ytb:冰河圈子_47
-      - Ytb:冰河圈子_48
-      - Ytb:冰河圈子_49
-      - Ytb:冰河圈子_50
-      - Ytb:冰河圈子_51
-      - Ytb:冰河圈子_52
-      - Ytb:冰河圈子_53
-      - Ytb:冰河圈子_54
-      - Ytb:冰河圈子_55
-      - Ytb:冰河圈子_56
-      - Ytb:冰河圈子_57
-      - Ytb:冰河圈子_58
-      - Ytb:冰河圈子_59
-      - Ytb:冰河圈子_60
-      - Ytb:冰河圈子_61
-      - Ytb:冰河圈子_62
-      - Ytb:冰河圈子_63
-      - Ytb:冰河圈子_64
-      - Ytb:冰河圈子_65
-      - Ytb:冰河圈子_66
-      - Ytb:冰河圈子_67
-      - Ytb:冰河圈子_68
-      - Ytb:冰河圈子_69
-      - Ytb:冰河圈子_70
-      - Ytb:冰河圈子_71
-      - Ytb:冰河圈子_72
+      - 冰河圈子_1
+      - 冰河圈子_2
+      - 冰河圈子_3
+      - 冰河圈子_4
+      - 冰河圈子_5
+      - 冰河圈子_6
+      - 冰河圈子_7
+      - 冰河圈子_8
+      - 冰河圈子_9
+      - 冰河圈子_10
+      - 冰河圈子_11
+      - 冰河圈子_12
+      - 冰河圈子_13
+      - 冰河圈子_14
+      - 冰河圈子_15
+      - 冰河圈子_16
+      - 冰河圈子_17
+      - 冰河圈子_18
+      - 冰河圈子_19
+      - 冰河圈子_20
+      - 冰河圈子_21
+      - 冰河圈子_22
+      - 冰河圈子_23
+      - 冰河圈子_24
+      - 冰河圈子_25
+      - 冰河圈子_26
+      - 冰河圈子_27
+      - 冰河圈子_28
+      - 冰河圈子_29
+      - 冰河圈子_30
+      - 冰河圈子_31
+      - 冰河圈子_32
+      - 冰河圈子_33
+      - 冰河圈子_34
+      - 冰河圈子_35
+      - 冰河圈子_36
+      - 冰河圈子_37
+      - 冰河圈子_38
+      - 冰河圈子_39
+      - 冰河圈子_40
+      - 冰河圈子_41
+      - 冰河圈子_42
+      - 冰河圈子_43
+      - 冰河圈子_44
+      - 冰河圈子_45
+      - 冰河圈子_46
+      - 冰河圈子_47
+      - 冰河圈子_48
+      - 冰河圈子_49
+      - 冰河圈子_50
+      - 冰河圈子_51
+      - 冰河圈子_52
+      - 冰河圈子_53
+      - 冰河圈子_54
+      - 冰河圈子_55
+      - 冰河圈子_56
+      - 冰河圈子_57
+      - 冰河圈子_58
+      - 冰河圈子_59
+      - 冰河圈子_60
+      - 冰河圈子_61
+      - 冰河圈子_62
+      - 冰河圈子_63
+      - 冰河圈子_64
+      - 冰河圈子_65
+      - 冰河圈子_66
+      - 冰河圈子_67
+      - 冰河圈子_68
+      - 冰河圈子_69
+      - 冰河圈子_70
+      - 冰河圈子_71
+      - 冰河圈子_72
+      - 冰河圈子_73
+      - 冰河圈子_74
+      - 冰河圈子_75
+      - 冰河圈子_76
+      - 冰河圈子_77
+      - 冰河圈子_78
+      - 冰河圈子_79
+      - 冰河圈子_80
+      - 冰河圈子_81
+      - 冰河圈子_82
+      - 冰河圈子_83
+      - 冰河圈子_84
+      - 冰河圈子_85
+      - 冰河圈子_86
+      - 冰河圈子_87
+      - 冰河圈子_88
+      - 冰河圈子_89
+      - 冰河圈子_90
+      - 冰河圈子_91
+      - 冰河圈子_92
+      - 冰河圈子_93
+      - 冰河圈子_94
+      - 冰河圈子_95
+      - 冰河圈子_96
+      - 冰河圈子_97
+      - 冰河圈子_98
+      - 冰河圈子_99
+      - 冰河圈子_100
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Ytb:冰河圈子_1
-      - Ytb:冰河圈子_2
-      - Ytb:冰河圈子_3
-      - Ytb:冰河圈子_4
-      - Ytb:冰河圈子_5
-      - Ytb:冰河圈子_6
-      - Ytb:冰河圈子_7
-      - Ytb:冰河圈子_8
-      - Ytb:冰河圈子_9
-      - Ytb:冰河圈子_10
-      - Ytb:冰河圈子_11
-      - Ytb:冰河圈子_12
-      - Ytb:冰河圈子_13
-      - Ytb:冰河圈子_14
-      - Ytb:冰河圈子_15
-      - Ytb:冰河圈子_16
-      - Ytb:冰河圈子_17
-      - Ytb:冰河圈子_18
-      - Ytb:冰河圈子_19
-      - Ytb:冰河圈子_20
-      - Ytb:冰河圈子_21
-      - Ytb:冰河圈子_22
-      - Ytb:冰河圈子_23
-      - Ytb:冰河圈子_24
-      - Ytb:冰河圈子_25
-      - Ytb:冰河圈子_26
-      - Ytb:冰河圈子_27
-      - Ytb:冰河圈子_28
-      - Ytb:冰河圈子_29
-      - Ytb:冰河圈子_30
-      - Ytb:冰河圈子_31
-      - Ytb:冰河圈子_32
-      - Ytb:冰河圈子_33
-      - Ytb:冰河圈子_34
-      - Ytb:冰河圈子_35
-      - Ytb:冰河圈子_36
-      - Ytb:冰河圈子_37
-      - Ytb:冰河圈子_38
-      - Ytb:冰河圈子_39
-      - Ytb:冰河圈子_40
-      - Ytb:冰河圈子_41
-      - Ytb:冰河圈子_42
-      - Ytb:冰河圈子_43
-      - Ytb:冰河圈子_44
-      - Ytb:冰河圈子_45
-      - Ytb:冰河圈子_46
-      - Ytb:冰河圈子_47
-      - Ytb:冰河圈子_48
-      - Ytb:冰河圈子_49
-      - Ytb:冰河圈子_50
-      - Ytb:冰河圈子_51
-      - Ytb:冰河圈子_52
-      - Ytb:冰河圈子_53
-      - Ytb:冰河圈子_54
-      - Ytb:冰河圈子_55
-      - Ytb:冰河圈子_56
-      - Ytb:冰河圈子_57
-      - Ytb:冰河圈子_58
-      - Ytb:冰河圈子_59
-      - Ytb:冰河圈子_60
-      - Ytb:冰河圈子_61
-      - Ytb:冰河圈子_62
-      - Ytb:冰河圈子_63
-      - Ytb:冰河圈子_64
-      - Ytb:冰河圈子_65
-      - Ytb:冰河圈子_66
-      - Ytb:冰河圈子_67
-      - Ytb:冰河圈子_68
-      - Ytb:冰河圈子_69
-      - Ytb:冰河圈子_70
-      - Ytb:冰河圈子_71
-      - Ytb:冰河圈子_72
+      - 冰河圈子_1
+      - 冰河圈子_2
+      - 冰河圈子_3
+      - 冰河圈子_4
+      - 冰河圈子_5
+      - 冰河圈子_6
+      - 冰河圈子_7
+      - 冰河圈子_8
+      - 冰河圈子_9
+      - 冰河圈子_10
+      - 冰河圈子_11
+      - 冰河圈子_12
+      - 冰河圈子_13
+      - 冰河圈子_14
+      - 冰河圈子_15
+      - 冰河圈子_16
+      - 冰河圈子_17
+      - 冰河圈子_18
+      - 冰河圈子_19
+      - 冰河圈子_20
+      - 冰河圈子_21
+      - 冰河圈子_22
+      - 冰河圈子_23
+      - 冰河圈子_24
+      - 冰河圈子_25
+      - 冰河圈子_26
+      - 冰河圈子_27
+      - 冰河圈子_28
+      - 冰河圈子_29
+      - 冰河圈子_30
+      - 冰河圈子_31
+      - 冰河圈子_32
+      - 冰河圈子_33
+      - 冰河圈子_34
+      - 冰河圈子_35
+      - 冰河圈子_36
+      - 冰河圈子_37
+      - 冰河圈子_38
+      - 冰河圈子_39
+      - 冰河圈子_40
+      - 冰河圈子_41
+      - 冰河圈子_42
+      - 冰河圈子_43
+      - 冰河圈子_44
+      - 冰河圈子_45
+      - 冰河圈子_46
+      - 冰河圈子_47
+      - 冰河圈子_48
+      - 冰河圈子_49
+      - 冰河圈子_50
+      - 冰河圈子_51
+      - 冰河圈子_52
+      - 冰河圈子_53
+      - 冰河圈子_54
+      - 冰河圈子_55
+      - 冰河圈子_56
+      - 冰河圈子_57
+      - 冰河圈子_58
+      - 冰河圈子_59
+      - 冰河圈子_60
+      - 冰河圈子_61
+      - 冰河圈子_62
+      - 冰河圈子_63
+      - 冰河圈子_64
+      - 冰河圈子_65
+      - 冰河圈子_66
+      - 冰河圈子_67
+      - 冰河圈子_68
+      - 冰河圈子_69
+      - 冰河圈子_70
+      - 冰河圈子_71
+      - 冰河圈子_72
+      - 冰河圈子_73
+      - 冰河圈子_74
+      - 冰河圈子_75
+      - 冰河圈子_76
+      - 冰河圈子_77
+      - 冰河圈子_78
+      - 冰河圈子_79
+      - 冰河圈子_80
+      - 冰河圈子_81
+      - 冰河圈子_82
+      - 冰河圈子_83
+      - 冰河圈子_84
+      - 冰河圈子_85
+      - 冰河圈子_86
+      - 冰河圈子_87
+      - 冰河圈子_88
+      - 冰河圈子_89
+      - 冰河圈子_90
+      - 冰河圈子_91
+      - 冰河圈子_92
+      - 冰河圈子_93
+      - 冰河圈子_94
+      - 冰河圈子_95
+      - 冰河圈子_96
+      - 冰河圈子_97
+      - 冰河圈子_98
+      - 冰河圈子_99
+      - 冰河圈子_100
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Ytb:冰河圈子_1
-      - Ytb:冰河圈子_2
-      - Ytb:冰河圈子_3
-      - Ytb:冰河圈子_4
-      - Ytb:冰河圈子_5
-      - Ytb:冰河圈子_6
-      - Ytb:冰河圈子_7
-      - Ytb:冰河圈子_8
-      - Ytb:冰河圈子_9
-      - Ytb:冰河圈子_10
-      - Ytb:冰河圈子_11
-      - Ytb:冰河圈子_12
-      - Ytb:冰河圈子_13
-      - Ytb:冰河圈子_14
-      - Ytb:冰河圈子_15
-      - Ytb:冰河圈子_16
-      - Ytb:冰河圈子_17
-      - Ytb:冰河圈子_18
-      - Ytb:冰河圈子_19
-      - Ytb:冰河圈子_20
-      - Ytb:冰河圈子_21
-      - Ytb:冰河圈子_22
-      - Ytb:冰河圈子_23
-      - Ytb:冰河圈子_24
-      - Ytb:冰河圈子_25
-      - Ytb:冰河圈子_26
-      - Ytb:冰河圈子_27
-      - Ytb:冰河圈子_28
-      - Ytb:冰河圈子_29
-      - Ytb:冰河圈子_30
-      - Ytb:冰河圈子_31
-      - Ytb:冰河圈子_32
-      - Ytb:冰河圈子_33
-      - Ytb:冰河圈子_34
-      - Ytb:冰河圈子_35
-      - Ytb:冰河圈子_36
-      - Ytb:冰河圈子_37
-      - Ytb:冰河圈子_38
-      - Ytb:冰河圈子_39
-      - Ytb:冰河圈子_40
-      - Ytb:冰河圈子_41
-      - Ytb:冰河圈子_42
-      - Ytb:冰河圈子_43
-      - Ytb:冰河圈子_44
-      - Ytb:冰河圈子_45
-      - Ytb:冰河圈子_46
-      - Ytb:冰河圈子_47
-      - Ytb:冰河圈子_48
-      - Ytb:冰河圈子_49
-      - Ytb:冰河圈子_50
-      - Ytb:冰河圈子_51
-      - Ytb:冰河圈子_52
-      - Ytb:冰河圈子_53
-      - Ytb:冰河圈子_54
-      - Ytb:冰河圈子_55
-      - Ytb:冰河圈子_56
-      - Ytb:冰河圈子_57
-      - Ytb:冰河圈子_58
-      - Ytb:冰河圈子_59
-      - Ytb:冰河圈子_60
-      - Ytb:冰河圈子_61
-      - Ytb:冰河圈子_62
-      - Ytb:冰河圈子_63
-      - Ytb:冰河圈子_64
-      - Ytb:冰河圈子_65
-      - Ytb:冰河圈子_66
-      - Ytb:冰河圈子_67
-      - Ytb:冰河圈子_68
-      - Ytb:冰河圈子_69
-      - Ytb:冰河圈子_70
-      - Ytb:冰河圈子_71
-      - Ytb:冰河圈子_72
+      - 冰河圈子_1
+      - 冰河圈子_2
+      - 冰河圈子_3
+      - 冰河圈子_4
+      - 冰河圈子_5
+      - 冰河圈子_6
+      - 冰河圈子_7
+      - 冰河圈子_8
+      - 冰河圈子_9
+      - 冰河圈子_10
+      - 冰河圈子_11
+      - 冰河圈子_12
+      - 冰河圈子_13
+      - 冰河圈子_14
+      - 冰河圈子_15
+      - 冰河圈子_16
+      - 冰河圈子_17
+      - 冰河圈子_18
+      - 冰河圈子_19
+      - 冰河圈子_20
+      - 冰河圈子_21
+      - 冰河圈子_22
+      - 冰河圈子_23
+      - 冰河圈子_24
+      - 冰河圈子_25
+      - 冰河圈子_26
+      - 冰河圈子_27
+      - 冰河圈子_28
+      - 冰河圈子_29
+      - 冰河圈子_30
+      - 冰河圈子_31
+      - 冰河圈子_32
+      - 冰河圈子_33
+      - 冰河圈子_34
+      - 冰河圈子_35
+      - 冰河圈子_36
+      - 冰河圈子_37
+      - 冰河圈子_38
+      - 冰河圈子_39
+      - 冰河圈子_40
+      - 冰河圈子_41
+      - 冰河圈子_42
+      - 冰河圈子_43
+      - 冰河圈子_44
+      - 冰河圈子_45
+      - 冰河圈子_46
+      - 冰河圈子_47
+      - 冰河圈子_48
+      - 冰河圈子_49
+      - 冰河圈子_50
+      - 冰河圈子_51
+      - 冰河圈子_52
+      - 冰河圈子_53
+      - 冰河圈子_54
+      - 冰河圈子_55
+      - 冰河圈子_56
+      - 冰河圈子_57
+      - 冰河圈子_58
+      - 冰河圈子_59
+      - 冰河圈子_60
+      - 冰河圈子_61
+      - 冰河圈子_62
+      - 冰河圈子_63
+      - 冰河圈子_64
+      - 冰河圈子_65
+      - 冰河圈子_66
+      - 冰河圈子_67
+      - 冰河圈子_68
+      - 冰河圈子_69
+      - 冰河圈子_70
+      - 冰河圈子_71
+      - 冰河圈子_72
+      - 冰河圈子_73
+      - 冰河圈子_74
+      - 冰河圈子_75
+      - 冰河圈子_76
+      - 冰河圈子_77
+      - 冰河圈子_78
+      - 冰河圈子_79
+      - 冰河圈子_80
+      - 冰河圈子_81
+      - 冰河圈子_82
+      - 冰河圈子_83
+      - 冰河圈子_84
+      - 冰河圈子_85
+      - 冰河圈子_86
+      - 冰河圈子_87
+      - 冰河圈子_88
+      - 冰河圈子_89
+      - 冰河圈子_90
+      - 冰河圈子_91
+      - 冰河圈子_92
+      - 冰河圈子_93
+      - 冰河圈子_94
+      - 冰河圈子_95
+      - 冰河圈子_96
+      - 冰河圈子_97
+      - 冰河圈子_98
+      - 冰河圈子_99
+      - 冰河圈子_100
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Ytb:冰河圈子_1
-      - Ytb:冰河圈子_2
-      - Ytb:冰河圈子_3
-      - Ytb:冰河圈子_4
-      - Ytb:冰河圈子_5
-      - Ytb:冰河圈子_6
-      - Ytb:冰河圈子_7
-      - Ytb:冰河圈子_8
-      - Ytb:冰河圈子_9
-      - Ytb:冰河圈子_10
-      - Ytb:冰河圈子_11
-      - Ytb:冰河圈子_12
-      - Ytb:冰河圈子_13
-      - Ytb:冰河圈子_14
-      - Ytb:冰河圈子_15
-      - Ytb:冰河圈子_16
-      - Ytb:冰河圈子_17
-      - Ytb:冰河圈子_18
-      - Ytb:冰河圈子_19
-      - Ytb:冰河圈子_20
-      - Ytb:冰河圈子_21
-      - Ytb:冰河圈子_22
-      - Ytb:冰河圈子_23
-      - Ytb:冰河圈子_24
-      - Ytb:冰河圈子_25
-      - Ytb:冰河圈子_26
-      - Ytb:冰河圈子_27
-      - Ytb:冰河圈子_28
-      - Ytb:冰河圈子_29
-      - Ytb:冰河圈子_30
-      - Ytb:冰河圈子_31
-      - Ytb:冰河圈子_32
-      - Ytb:冰河圈子_33
-      - Ytb:冰河圈子_34
-      - Ytb:冰河圈子_35
-      - Ytb:冰河圈子_36
-      - Ytb:冰河圈子_37
-      - Ytb:冰河圈子_38
-      - Ytb:冰河圈子_39
-      - Ytb:冰河圈子_40
-      - Ytb:冰河圈子_41
-      - Ytb:冰河圈子_42
-      - Ytb:冰河圈子_43
-      - Ytb:冰河圈子_44
-      - Ytb:冰河圈子_45
-      - Ytb:冰河圈子_46
-      - Ytb:冰河圈子_47
-      - Ytb:冰河圈子_48
-      - Ytb:冰河圈子_49
-      - Ytb:冰河圈子_50
-      - Ytb:冰河圈子_51
-      - Ytb:冰河圈子_52
-      - Ytb:冰河圈子_53
-      - Ytb:冰河圈子_54
-      - Ytb:冰河圈子_55
-      - Ytb:冰河圈子_56
-      - Ytb:冰河圈子_57
-      - Ytb:冰河圈子_58
-      - Ytb:冰河圈子_59
-      - Ytb:冰河圈子_60
-      - Ytb:冰河圈子_61
-      - Ytb:冰河圈子_62
-      - Ytb:冰河圈子_63
-      - Ytb:冰河圈子_64
-      - Ytb:冰河圈子_65
-      - Ytb:冰河圈子_66
-      - Ytb:冰河圈子_67
-      - Ytb:冰河圈子_68
-      - Ytb:冰河圈子_69
-      - Ytb:冰河圈子_70
-      - Ytb:冰河圈子_71
-      - Ytb:冰河圈子_72
+      - 冰河圈子_1
+      - 冰河圈子_2
+      - 冰河圈子_3
+      - 冰河圈子_4
+      - 冰河圈子_5
+      - 冰河圈子_6
+      - 冰河圈子_7
+      - 冰河圈子_8
+      - 冰河圈子_9
+      - 冰河圈子_10
+      - 冰河圈子_11
+      - 冰河圈子_12
+      - 冰河圈子_13
+      - 冰河圈子_14
+      - 冰河圈子_15
+      - 冰河圈子_16
+      - 冰河圈子_17
+      - 冰河圈子_18
+      - 冰河圈子_19
+      - 冰河圈子_20
+      - 冰河圈子_21
+      - 冰河圈子_22
+      - 冰河圈子_23
+      - 冰河圈子_24
+      - 冰河圈子_25
+      - 冰河圈子_26
+      - 冰河圈子_27
+      - 冰河圈子_28
+      - 冰河圈子_29
+      - 冰河圈子_30
+      - 冰河圈子_31
+      - 冰河圈子_32
+      - 冰河圈子_33
+      - 冰河圈子_34
+      - 冰河圈子_35
+      - 冰河圈子_36
+      - 冰河圈子_37
+      - 冰河圈子_38
+      - 冰河圈子_39
+      - 冰河圈子_40
+      - 冰河圈子_41
+      - 冰河圈子_42
+      - 冰河圈子_43
+      - 冰河圈子_44
+      - 冰河圈子_45
+      - 冰河圈子_46
+      - 冰河圈子_47
+      - 冰河圈子_48
+      - 冰河圈子_49
+      - 冰河圈子_50
+      - 冰河圈子_51
+      - 冰河圈子_52
+      - 冰河圈子_53
+      - 冰河圈子_54
+      - 冰河圈子_55
+      - 冰河圈子_56
+      - 冰河圈子_57
+      - 冰河圈子_58
+      - 冰河圈子_59
+      - 冰河圈子_60
+      - 冰河圈子_61
+      - 冰河圈子_62
+      - 冰河圈子_63
+      - 冰河圈子_64
+      - 冰河圈子_65
+      - 冰河圈子_66
+      - 冰河圈子_67
+      - 冰河圈子_68
+      - 冰河圈子_69
+      - 冰河圈子_70
+      - 冰河圈子_71
+      - 冰河圈子_72
+      - 冰河圈子_73
+      - 冰河圈子_74
+      - 冰河圈子_75
+      - 冰河圈子_76
+      - 冰河圈子_77
+      - 冰河圈子_78
+      - 冰河圈子_79
+      - 冰河圈子_80
+      - 冰河圈子_81
+      - 冰河圈子_82
+      - 冰河圈子_83
+      - 冰河圈子_84
+      - 冰河圈子_85
+      - 冰河圈子_86
+      - 冰河圈子_87
+      - 冰河圈子_88
+      - 冰河圈子_89
+      - 冰河圈子_90
+      - 冰河圈子_91
+      - 冰河圈子_92
+      - 冰河圈子_93
+      - 冰河圈子_94
+      - 冰河圈子_95
+      - 冰河圈子_96
+      - 冰河圈子_97
+      - 冰河圈子_98
+      - 冰河圈子_99
+      - 冰河圈子_100
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Ytb:冰河圈子_1
-      - Ytb:冰河圈子_2
-      - Ytb:冰河圈子_3
-      - Ytb:冰河圈子_4
-      - Ytb:冰河圈子_5
-      - Ytb:冰河圈子_6
-      - Ytb:冰河圈子_7
-      - Ytb:冰河圈子_8
-      - Ytb:冰河圈子_9
-      - Ytb:冰河圈子_10
-      - Ytb:冰河圈子_11
-      - Ytb:冰河圈子_12
-      - Ytb:冰河圈子_13
-      - Ytb:冰河圈子_14
-      - Ytb:冰河圈子_15
-      - Ytb:冰河圈子_16
-      - Ytb:冰河圈子_17
-      - Ytb:冰河圈子_18
-      - Ytb:冰河圈子_19
-      - Ytb:冰河圈子_20
-      - Ytb:冰河圈子_21
-      - Ytb:冰河圈子_22
-      - Ytb:冰河圈子_23
-      - Ytb:冰河圈子_24
-      - Ytb:冰河圈子_25
-      - Ytb:冰河圈子_26
-      - Ytb:冰河圈子_27
-      - Ytb:冰河圈子_28
-      - Ytb:冰河圈子_29
-      - Ytb:冰河圈子_30
-      - Ytb:冰河圈子_31
-      - Ytb:冰河圈子_32
-      - Ytb:冰河圈子_33
-      - Ytb:冰河圈子_34
-      - Ytb:冰河圈子_35
-      - Ytb:冰河圈子_36
-      - Ytb:冰河圈子_37
-      - Ytb:冰河圈子_38
-      - Ytb:冰河圈子_39
-      - Ytb:冰河圈子_40
-      - Ytb:冰河圈子_41
-      - Ytb:冰河圈子_42
-      - Ytb:冰河圈子_43
-      - Ytb:冰河圈子_44
-      - Ytb:冰河圈子_45
-      - Ytb:冰河圈子_46
-      - Ytb:冰河圈子_47
-      - Ytb:冰河圈子_48
-      - Ytb:冰河圈子_49
-      - Ytb:冰河圈子_50
-      - Ytb:冰河圈子_51
-      - Ytb:冰河圈子_52
-      - Ytb:冰河圈子_53
-      - Ytb:冰河圈子_54
-      - Ytb:冰河圈子_55
-      - Ytb:冰河圈子_56
-      - Ytb:冰河圈子_57
-      - Ytb:冰河圈子_58
-      - Ytb:冰河圈子_59
-      - Ytb:冰河圈子_60
-      - Ytb:冰河圈子_61
-      - Ytb:冰河圈子_62
-      - Ytb:冰河圈子_63
-      - Ytb:冰河圈子_64
-      - Ytb:冰河圈子_65
-      - Ytb:冰河圈子_66
-      - Ytb:冰河圈子_67
-      - Ytb:冰河圈子_68
-      - Ytb:冰河圈子_69
-      - Ytb:冰河圈子_70
-      - Ytb:冰河圈子_71
-      - Ytb:冰河圈子_72
+      - 冰河圈子_1
+      - 冰河圈子_2
+      - 冰河圈子_3
+      - 冰河圈子_4
+      - 冰河圈子_5
+      - 冰河圈子_6
+      - 冰河圈子_7
+      - 冰河圈子_8
+      - 冰河圈子_9
+      - 冰河圈子_10
+      - 冰河圈子_11
+      - 冰河圈子_12
+      - 冰河圈子_13
+      - 冰河圈子_14
+      - 冰河圈子_15
+      - 冰河圈子_16
+      - 冰河圈子_17
+      - 冰河圈子_18
+      - 冰河圈子_19
+      - 冰河圈子_20
+      - 冰河圈子_21
+      - 冰河圈子_22
+      - 冰河圈子_23
+      - 冰河圈子_24
+      - 冰河圈子_25
+      - 冰河圈子_26
+      - 冰河圈子_27
+      - 冰河圈子_28
+      - 冰河圈子_29
+      - 冰河圈子_30
+      - 冰河圈子_31
+      - 冰河圈子_32
+      - 冰河圈子_33
+      - 冰河圈子_34
+      - 冰河圈子_35
+      - 冰河圈子_36
+      - 冰河圈子_37
+      - 冰河圈子_38
+      - 冰河圈子_39
+      - 冰河圈子_40
+      - 冰河圈子_41
+      - 冰河圈子_42
+      - 冰河圈子_43
+      - 冰河圈子_44
+      - 冰河圈子_45
+      - 冰河圈子_46
+      - 冰河圈子_47
+      - 冰河圈子_48
+      - 冰河圈子_49
+      - 冰河圈子_50
+      - 冰河圈子_51
+      - 冰河圈子_52
+      - 冰河圈子_53
+      - 冰河圈子_54
+      - 冰河圈子_55
+      - 冰河圈子_56
+      - 冰河圈子_57
+      - 冰河圈子_58
+      - 冰河圈子_59
+      - 冰河圈子_60
+      - 冰河圈子_61
+      - 冰河圈子_62
+      - 冰河圈子_63
+      - 冰河圈子_64
+      - 冰河圈子_65
+      - 冰河圈子_66
+      - 冰河圈子_67
+      - 冰河圈子_68
+      - 冰河圈子_69
+      - 冰河圈子_70
+      - 冰河圈子_71
+      - 冰河圈子_72
+      - 冰河圈子_73
+      - 冰河圈子_74
+      - 冰河圈子_75
+      - 冰河圈子_76
+      - 冰河圈子_77
+      - 冰河圈子_78
+      - 冰河圈子_79
+      - 冰河圈子_80
+      - 冰河圈子_81
+      - 冰河圈子_82
+      - 冰河圈子_83
+      - 冰河圈子_84
+      - 冰河圈子_85
+      - 冰河圈子_86
+      - 冰河圈子_87
+      - 冰河圈子_88
+      - 冰河圈子_89
+      - 冰河圈子_90
+      - 冰河圈子_91
+      - 冰河圈子_92
+      - 冰河圈子_93
+      - 冰河圈子_94
+      - 冰河圈子_95
+      - 冰河圈子_96
+      - 冰河圈子_97
+      - 冰河圈子_98
+      - 冰河圈子_99
+      - 冰河圈子_100
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Ytb:冰河圈子_1
-      - Ytb:冰河圈子_2
-      - Ytb:冰河圈子_3
-      - Ytb:冰河圈子_4
-      - Ytb:冰河圈子_5
-      - Ytb:冰河圈子_6
-      - Ytb:冰河圈子_7
-      - Ytb:冰河圈子_8
-      - Ytb:冰河圈子_9
-      - Ytb:冰河圈子_10
-      - Ytb:冰河圈子_11
-      - Ytb:冰河圈子_12
-      - Ytb:冰河圈子_13
-      - Ytb:冰河圈子_14
-      - Ytb:冰河圈子_15
-      - Ytb:冰河圈子_16
-      - Ytb:冰河圈子_17
-      - Ytb:冰河圈子_18
-      - Ytb:冰河圈子_19
-      - Ytb:冰河圈子_20
-      - Ytb:冰河圈子_21
-      - Ytb:冰河圈子_22
-      - Ytb:冰河圈子_23
-      - Ytb:冰河圈子_24
-      - Ytb:冰河圈子_25
-      - Ytb:冰河圈子_26
-      - Ytb:冰河圈子_27
-      - Ytb:冰河圈子_28
-      - Ytb:冰河圈子_29
-      - Ytb:冰河圈子_30
-      - Ytb:冰河圈子_31
-      - Ytb:冰河圈子_32
-      - Ytb:冰河圈子_33
-      - Ytb:冰河圈子_34
-      - Ytb:冰河圈子_35
-      - Ytb:冰河圈子_36
-      - Ytb:冰河圈子_37
-      - Ytb:冰河圈子_38
-      - Ytb:冰河圈子_39
-      - Ytb:冰河圈子_40
-      - Ytb:冰河圈子_41
-      - Ytb:冰河圈子_42
-      - Ytb:冰河圈子_43
-      - Ytb:冰河圈子_44
-      - Ytb:冰河圈子_45
-      - Ytb:冰河圈子_46
-      - Ytb:冰河圈子_47
-      - Ytb:冰河圈子_48
-      - Ytb:冰河圈子_49
-      - Ytb:冰河圈子_50
-      - Ytb:冰河圈子_51
-      - Ytb:冰河圈子_52
-      - Ytb:冰河圈子_53
-      - Ytb:冰河圈子_54
-      - Ytb:冰河圈子_55
-      - Ytb:冰河圈子_56
-      - Ytb:冰河圈子_57
-      - Ytb:冰河圈子_58
-      - Ytb:冰河圈子_59
-      - Ytb:冰河圈子_60
-      - Ytb:冰河圈子_61
-      - Ytb:冰河圈子_62
-      - Ytb:冰河圈子_63
-      - Ytb:冰河圈子_64
-      - Ytb:冰河圈子_65
-      - Ytb:冰河圈子_66
-      - Ytb:冰河圈子_67
-      - Ytb:冰河圈子_68
-      - Ytb:冰河圈子_69
-      - Ytb:冰河圈子_70
-      - Ytb:冰河圈子_71
-      - Ytb:冰河圈子_72
+      - 冰河圈子_1
+      - 冰河圈子_2
+      - 冰河圈子_3
+      - 冰河圈子_4
+      - 冰河圈子_5
+      - 冰河圈子_6
+      - 冰河圈子_7
+      - 冰河圈子_8
+      - 冰河圈子_9
+      - 冰河圈子_10
+      - 冰河圈子_11
+      - 冰河圈子_12
+      - 冰河圈子_13
+      - 冰河圈子_14
+      - 冰河圈子_15
+      - 冰河圈子_16
+      - 冰河圈子_17
+      - 冰河圈子_18
+      - 冰河圈子_19
+      - 冰河圈子_20
+      - 冰河圈子_21
+      - 冰河圈子_22
+      - 冰河圈子_23
+      - 冰河圈子_24
+      - 冰河圈子_25
+      - 冰河圈子_26
+      - 冰河圈子_27
+      - 冰河圈子_28
+      - 冰河圈子_29
+      - 冰河圈子_30
+      - 冰河圈子_31
+      - 冰河圈子_32
+      - 冰河圈子_33
+      - 冰河圈子_34
+      - 冰河圈子_35
+      - 冰河圈子_36
+      - 冰河圈子_37
+      - 冰河圈子_38
+      - 冰河圈子_39
+      - 冰河圈子_40
+      - 冰河圈子_41
+      - 冰河圈子_42
+      - 冰河圈子_43
+      - 冰河圈子_44
+      - 冰河圈子_45
+      - 冰河圈子_46
+      - 冰河圈子_47
+      - 冰河圈子_48
+      - 冰河圈子_49
+      - 冰河圈子_50
+      - 冰河圈子_51
+      - 冰河圈子_52
+      - 冰河圈子_53
+      - 冰河圈子_54
+      - 冰河圈子_55
+      - 冰河圈子_56
+      - 冰河圈子_57
+      - 冰河圈子_58
+      - 冰河圈子_59
+      - 冰河圈子_60
+      - 冰河圈子_61
+      - 冰河圈子_62
+      - 冰河圈子_63
+      - 冰河圈子_64
+      - 冰河圈子_65
+      - 冰河圈子_66
+      - 冰河圈子_67
+      - 冰河圈子_68
+      - 冰河圈子_69
+      - 冰河圈子_70
+      - 冰河圈子_71
+      - 冰河圈子_72
+      - 冰河圈子_73
+      - 冰河圈子_74
+      - 冰河圈子_75
+      - 冰河圈子_76
+      - 冰河圈子_77
+      - 冰河圈子_78
+      - 冰河圈子_79
+      - 冰河圈子_80
+      - 冰河圈子_81
+      - 冰河圈子_82
+      - 冰河圈子_83
+      - 冰河圈子_84
+      - 冰河圈子_85
+      - 冰河圈子_86
+      - 冰河圈子_87
+      - 冰河圈子_88
+      - 冰河圈子_89
+      - 冰河圈子_90
+      - 冰河圈子_91
+      - 冰河圈子_92
+      - 冰河圈子_93
+      - 冰河圈子_94
+      - 冰河圈子_95
+      - 冰河圈子_96
+      - 冰河圈子_97
+      - 冰河圈子_98
+      - 冰河圈子_99
+      - 冰河圈子_100
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -634,78 +858,106 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Ytb:冰河圈子_1
-      - Ytb:冰河圈子_2
-      - Ytb:冰河圈子_3
-      - Ytb:冰河圈子_4
-      - Ytb:冰河圈子_5
-      - Ytb:冰河圈子_6
-      - Ytb:冰河圈子_7
-      - Ytb:冰河圈子_8
-      - Ytb:冰河圈子_9
-      - Ytb:冰河圈子_10
-      - Ytb:冰河圈子_11
-      - Ytb:冰河圈子_12
-      - Ytb:冰河圈子_13
-      - Ytb:冰河圈子_14
-      - Ytb:冰河圈子_15
-      - Ytb:冰河圈子_16
-      - Ytb:冰河圈子_17
-      - Ytb:冰河圈子_18
-      - Ytb:冰河圈子_19
-      - Ytb:冰河圈子_20
-      - Ytb:冰河圈子_21
-      - Ytb:冰河圈子_22
-      - Ytb:冰河圈子_23
-      - Ytb:冰河圈子_24
-      - Ytb:冰河圈子_25
-      - Ytb:冰河圈子_26
-      - Ytb:冰河圈子_27
-      - Ytb:冰河圈子_28
-      - Ytb:冰河圈子_29
-      - Ytb:冰河圈子_30
-      - Ytb:冰河圈子_31
-      - Ytb:冰河圈子_32
-      - Ytb:冰河圈子_33
-      - Ytb:冰河圈子_34
-      - Ytb:冰河圈子_35
-      - Ytb:冰河圈子_36
-      - Ytb:冰河圈子_37
-      - Ytb:冰河圈子_38
-      - Ytb:冰河圈子_39
-      - Ytb:冰河圈子_40
-      - Ytb:冰河圈子_41
-      - Ytb:冰河圈子_42
-      - Ytb:冰河圈子_43
-      - Ytb:冰河圈子_44
-      - Ytb:冰河圈子_45
-      - Ytb:冰河圈子_46
-      - Ytb:冰河圈子_47
-      - Ytb:冰河圈子_48
-      - Ytb:冰河圈子_49
-      - Ytb:冰河圈子_50
-      - Ytb:冰河圈子_51
-      - Ytb:冰河圈子_52
-      - Ytb:冰河圈子_53
-      - Ytb:冰河圈子_54
-      - Ytb:冰河圈子_55
-      - Ytb:冰河圈子_56
-      - Ytb:冰河圈子_57
-      - Ytb:冰河圈子_58
-      - Ytb:冰河圈子_59
-      - Ytb:冰河圈子_60
-      - Ytb:冰河圈子_61
-      - Ytb:冰河圈子_62
-      - Ytb:冰河圈子_63
-      - Ytb:冰河圈子_64
-      - Ytb:冰河圈子_65
-      - Ytb:冰河圈子_66
-      - Ytb:冰河圈子_67
-      - Ytb:冰河圈子_68
-      - Ytb:冰河圈子_69
-      - Ytb:冰河圈子_70
-      - Ytb:冰河圈子_71
-      - Ytb:冰河圈子_72
+      - 冰河圈子_1
+      - 冰河圈子_2
+      - 冰河圈子_3
+      - 冰河圈子_4
+      - 冰河圈子_5
+      - 冰河圈子_6
+      - 冰河圈子_7
+      - 冰河圈子_8
+      - 冰河圈子_9
+      - 冰河圈子_10
+      - 冰河圈子_11
+      - 冰河圈子_12
+      - 冰河圈子_13
+      - 冰河圈子_14
+      - 冰河圈子_15
+      - 冰河圈子_16
+      - 冰河圈子_17
+      - 冰河圈子_18
+      - 冰河圈子_19
+      - 冰河圈子_20
+      - 冰河圈子_21
+      - 冰河圈子_22
+      - 冰河圈子_23
+      - 冰河圈子_24
+      - 冰河圈子_25
+      - 冰河圈子_26
+      - 冰河圈子_27
+      - 冰河圈子_28
+      - 冰河圈子_29
+      - 冰河圈子_30
+      - 冰河圈子_31
+      - 冰河圈子_32
+      - 冰河圈子_33
+      - 冰河圈子_34
+      - 冰河圈子_35
+      - 冰河圈子_36
+      - 冰河圈子_37
+      - 冰河圈子_38
+      - 冰河圈子_39
+      - 冰河圈子_40
+      - 冰河圈子_41
+      - 冰河圈子_42
+      - 冰河圈子_43
+      - 冰河圈子_44
+      - 冰河圈子_45
+      - 冰河圈子_46
+      - 冰河圈子_47
+      - 冰河圈子_48
+      - 冰河圈子_49
+      - 冰河圈子_50
+      - 冰河圈子_51
+      - 冰河圈子_52
+      - 冰河圈子_53
+      - 冰河圈子_54
+      - 冰河圈子_55
+      - 冰河圈子_56
+      - 冰河圈子_57
+      - 冰河圈子_58
+      - 冰河圈子_59
+      - 冰河圈子_60
+      - 冰河圈子_61
+      - 冰河圈子_62
+      - 冰河圈子_63
+      - 冰河圈子_64
+      - 冰河圈子_65
+      - 冰河圈子_66
+      - 冰河圈子_67
+      - 冰河圈子_68
+      - 冰河圈子_69
+      - 冰河圈子_70
+      - 冰河圈子_71
+      - 冰河圈子_72
+      - 冰河圈子_73
+      - 冰河圈子_74
+      - 冰河圈子_75
+      - 冰河圈子_76
+      - 冰河圈子_77
+      - 冰河圈子_78
+      - 冰河圈子_79
+      - 冰河圈子_80
+      - 冰河圈子_81
+      - 冰河圈子_82
+      - 冰河圈子_83
+      - 冰河圈子_84
+      - 冰河圈子_85
+      - 冰河圈子_86
+      - 冰河圈子_87
+      - 冰河圈子_88
+      - 冰河圈子_89
+      - 冰河圈子_90
+      - 冰河圈子_91
+      - 冰河圈子_92
+      - 冰河圈子_93
+      - 冰河圈子_94
+      - 冰河圈子_95
+      - 冰河圈子_96
+      - 冰河圈子_97
+      - 冰河圈子_98
+      - 冰河圈子_99
+      - 冰河圈子_100
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
