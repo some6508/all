@@ -364,6 +364,17 @@ proxies:
   - {name: _FR_法国_Chen-2021.12.25_61 2, server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: _FR_法国_Chen-2021.12.25_62, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _FR_法国_Chen-2021.12.25_62 2, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _HK_香港, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _HK_香港 2, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _HK_香港 3, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _HK_香港 4, server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _HK_香港 5, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: _HK_香港 6, server: 161.81.195.100, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
+  - {name: _HK_香港 7, server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
+  - {name: _HK_香港 8, server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _HK_香港 9, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _HK_香港 10, server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _HK_香港 11, server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _HK_香港_Chen-2021.12.25_30, server: hkaz1.biteb-ssx.xyz, port: 14454, type: vmess, uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: index, ws-headers: {Host: hkaz1.biteb-ssx.xyz}}
   - {name: _HK_香港_Chen-2021.12.25_30 2, server: hkaz1.biteb-ssx.xyz, port: 14454, type: vmess, uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: index, ws-headers: {Host: hkaz1.biteb-ssx.xyz}}
   - {name: _HK_香港_Chen-2021.12.25_65, server: 8.210.55.79, port: 80, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 8.210.55.79}}
@@ -384,7 +395,6 @@ proxies:
   - {name: _IE_爱尔兰_Chen-2021.12.25_3 2, server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
   - {name: _IN_印度_Chen-2021.12.25_22, server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
   - {name: _IN_印度_Chen-2021.12.25_22 2, server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
-  - {name: _JP_日本, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: _JP_日本_Chen-2021.12.25_51, server: 185.172.113.156, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: _JP_日本_Chen-2021.12.25_51 2, server: 185.172.113.156, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: _JP_日本_Chen-2021.12.25_52, server: mf-aws-jp-03.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-03.xncloud.xyz}}
@@ -941,6 +951,17 @@ proxy-groups:
       - 094香港∞中转
       - 095香港∞直连
       - 096香港∞直连
+      - _HK_香港
+      - _HK_香港 2
+      - _HK_香港 3
+      - _HK_香港 4
+      - _HK_香港 5
+      - _HK_香港 6
+      - _HK_香港 7
+      - _HK_香港 8
+      - _HK_香港 9
+      - _HK_香港 10
+      - _HK_香港 11
       - _HK_香港_Chen-2021.12.25_30
       - _HK_香港_Chen-2021.12.25_30 2
       - _HK_香港_Chen-2021.12.25_65
@@ -999,7 +1020,6 @@ proxy-groups:
       - 046日本∞中转
       - 047日本∞中转
       - 048日本∞直连
-      - _JP_日本
       - _JP_日本_Chen-2021.12.25_51
       - _JP_日本_Chen-2021.12.25_51 2
       - _JP_日本_Chen-2021.12.25_52
@@ -1738,6 +1758,17 @@ proxy-groups:
       - _FR_法国_Chen-2021.12.25_61 2
       - _FR_法国_Chen-2021.12.25_62
       - _FR_法国_Chen-2021.12.25_62 2
+      - _HK_香港
+      - _HK_香港 2
+      - _HK_香港 3
+      - _HK_香港 4
+      - _HK_香港 5
+      - _HK_香港 6
+      - _HK_香港 7
+      - _HK_香港 8
+      - _HK_香港 9
+      - _HK_香港 10
+      - _HK_香港 11
       - _HK_香港_Chen-2021.12.25_30
       - _HK_香港_Chen-2021.12.25_30 2
       - _HK_香港_Chen-2021.12.25_65
@@ -1758,7 +1789,6 @@ proxy-groups:
       - _IE_爱尔兰_Chen-2021.12.25_3 2
       - _IN_印度_Chen-2021.12.25_22
       - _IN_印度_Chen-2021.12.25_22 2
-      - _JP_日本
       - _JP_日本_Chen-2021.12.25_51
       - _JP_日本_Chen-2021.12.25_51 2
       - _JP_日本_Chen-2021.12.25_52
