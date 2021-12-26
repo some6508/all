@@ -466,6 +466,8 @@ proxies:
   - {name: default_name 2, server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
   - {name: default_name 3, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
   - {name: default_name 4, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: default_name_1, server: api.ssfree.ru, port: 443, type: vmess, uuid: b7940768-659b-11ec-895c-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /getweather, ws-headers: {Host: api.ssfree.ru}}
+  - {name: default_name_2, server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
   - {name: 乌克兰（YouTube资源分享者）, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 2, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 3, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
@@ -1852,6 +1854,8 @@ proxy-groups:
       - default_name 2
       - default_name 3
       - default_name 4
+      - default_name_1
+      - default_name_2
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
       - 乌克兰（YouTube资源分享者） 3
