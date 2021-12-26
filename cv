@@ -486,9 +486,9 @@ proxies:
   - {name: _ID_印度尼西亚_Chen-2021.12.25_21 2, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
   - {name: _IE_爱尔兰_Chen-2021.12.25_3, server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
   - {name: _IE_爱尔兰_Chen-2021.12.25_3 2, server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: _IN_印度, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: _IN_印度_Chen-2021.12.25_22, server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
   - {name: _IN_印度_Chen-2021.12.25_22 2, server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: _JP_日本, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: _JP_日本_Chen-2021.12.25_51, server: 185.172.113.156, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: _JP_日本_Chen-2021.12.25_51 2, server: 185.172.113.156, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: _JP_日本_Chen-2021.12.25_52, server: mf-aws-jp-03.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-03.xncloud.xyz}}
@@ -1516,6 +1516,7 @@ proxy-groups:
       - 046日本∞中转
       - 047日本∞中转
       - 048日本∞直连
+      - _JP_日本
       - _JP_日本_Chen-2021.12.25_51
       - _JP_日本_Chen-2021.12.25_51 2
       - _JP_日本_Chen-2021.12.25_52
@@ -2238,7 +2239,6 @@ proxy-groups:
       - _GB_英国_60
       - _ID_印度尼西亚_Chen-2021.12.25_21
       - _ID_印度尼西亚_Chen-2021.12.25_21 2
-      - _IN_印度
       - _IN_印度_Chen-2021.12.25_22
       - _IN_印度_Chen-2021.12.25_22 2
       - _MY_马来西亚_Chen-2021.12.25_103
@@ -2950,9 +2950,9 @@ proxy-groups:
       - _ID_印度尼西亚_Chen-2021.12.25_21 2
       - _IE_爱尔兰_Chen-2021.12.25_3
       - _IE_爱尔兰_Chen-2021.12.25_3 2
-      - _IN_印度
       - _IN_印度_Chen-2021.12.25_22
       - _IN_印度_Chen-2021.12.25_22 2
+      - _JP_日本
       - _JP_日本_Chen-2021.12.25_51
       - _JP_日本_Chen-2021.12.25_51 2
       - _JP_日本_Chen-2021.12.25_52
