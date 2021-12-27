@@ -74,6 +74,7 @@ https://raw.githubusercontent.com/some6508/all/master/v7
 |https://bianyuan.xyz/|
 |https://zhuan.jklist.ga/|
 |https://acl4ssr-sub.github.io/|
+|https://ssc.sihai.gq/|
 
 ****
 ````
@@ -82,6 +83,7 @@ http://sub.443.mba/
 https://bianyuan.xyz/
 https://zhuan.jklist.ga/
 https://acl4ssr-sub.github.io/
+https://ssc.sihai.gq/
 ````
 </details>
 
