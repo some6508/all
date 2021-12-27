@@ -362,7 +362,6 @@ proxies:
   - {name: _AU_澳大利亚_FMYC-2021.12.27_9, server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
   - {name: _BG_保加利亚_FMYC-2021.12.27_11, server: 217.138.221.42, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
   - {name: _BG_保加利亚_FMYC-2021.12.27_135, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: _CA_加拿大, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _CA_加拿大_FMYC-2021.12.27_13, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: _CA_加拿大_FMYC-2021.12.27_14, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _CA_加拿大_FMYC-2021.12.27_15, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -444,7 +443,6 @@ proxies:
   - {name: _SG_新加坡_FMYC-2021.12.27_164, server: 217.197.161.166, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: _TW_台湾_FMYC-2021.12.27_177, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _TW_台湾_FMYC-2021.12.27_41, server: 165.154.226.148, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _US_美国, server: api.ssfree.ru, port: 443, type: vmess, uuid: 77aad2d8-66c9-11ec-babb-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /getweather, ws-headers: {Host: api.ssfree.ru}}
   - {name: _US_美国_10, server: ff6.uuv2.co.uk, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
   - {name: _US_美国_4, server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
   - {name: _US_美国_6, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
@@ -494,6 +492,7 @@ proxies:
   - {name: 付费推荐:dlj.tf/ssrsub__15, server: 120.232.82.190, port: 3002, type: ss, cipher: aes-256-gcm, password: 16b33a734063d5bb793634198ca90b73}
   - {name: 以色列（YouTube资源分享者）, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
   - {name: 以色列（YouTube资源分享者） 2, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: 俄罗斯体验x10官网yun.qtsx.xyz, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: 46a900e6-31ff-4d93-8f79-39e2da64a6c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 俄罗斯（YouTube资源分享者）, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
   - {name: 俄罗斯（YouTube资源分享者） 2, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
   - {name: 俄罗斯（YouTube资源分享者） 3, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
@@ -624,6 +623,7 @@ proxies:
   - {name: 加拿大（YouTube资源分享者） 9 2, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: 匈牙利（YouTube资源分享者）, server: 185.252.223.203, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.16675463.xyz}}
   - {name: 匈牙利（YouTube资源分享者） 2, server: 185.252.223.203, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.16675463.xyz}}
+  - {name: 卢森堡 |公益C|官网yun.qtsx.xyz, server: 520yyds.zhqt.xyz, port: 30004, type: vmess, uuid: 46a900e6-31ff-4d93-8f79-39e2da64a6c3, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-3.joker007.top}}
   - {name: 卢森堡（YouTube资源分享者）, server: 23.109.136.210, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.65674186.xyz}}
   - {name: 卢森堡（YouTube资源分享者） 2, server: 23.109.136.210, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.65674186.xyz}}
   - {name: 台湾, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
@@ -653,6 +653,7 @@ proxies:
   - {name: 新加坡, server: 172.104.168.83, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 新加坡 2, server: 172.104.168.83, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 新加坡 3, server: 172.104.168.83, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 新加坡体验x10官网yun.qtsx.xyz, server: 520yyds.zhqt.xyz, port: 30002, type: vmess, uuid: 46a900e6-31ff-4d93-8f79-39e2da64a6c3, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sg1.zhqt.xyz}}
   - {name: 新加坡（YouTube资源分享者）, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
   - {name: 新加坡（YouTube资源分享者） 2, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
   - {name: 日本, server: 172.105.232.147, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
@@ -758,6 +759,7 @@ proxies:
   - {name: 欧洲 9 2, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
   - {name: 比利时（YouTube资源分享者）, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
   - {name: 比利时（YouTube资源分享者） 2, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: 法国 |公益E|官网yun.qtsx.xyz, server: 520yyds.zhqt.xyz, port: 11069, type: vmess, uuid: 46a900e6-31ff-4d93-8f79-39e2da64a6c3, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-5.joker007.top}}
   - {name: 法国（YouTube资源分享者）, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: 法国（YouTube资源分享者） 2, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: 法国（YouTube资源分享者） 3, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
@@ -1080,7 +1082,6 @@ proxy-groups:
       - Youtube:鹏哥分享🇺🇸US_1954 | 8.55Mb
       - Youtube:鹏哥分享🇺🇸US_1958 | 5.13Mb
       - Youtube:鹏哥分享🇺🇸US_2003 | 5.99Mb
-      - _US_美国
       - _US_美国_10
       - _US_美国_4
       - _US_美国_6
@@ -1274,6 +1275,7 @@ proxy-groups:
       - 新加坡
       - 新加坡 2
       - 新加坡 3
+      - 新加坡体验x10官网yun.qtsx.xyz
       - 新加坡（YouTube资源分享者）
       - 新加坡（YouTube资源分享者） 2
   - name: 🇰🇷 韩国节点
@@ -1349,7 +1351,6 @@ proxy-groups:
       - _AU_澳大利亚_FMYC-2021.12.27_7
       - _AU_澳大利亚_FMYC-2021.12.27_8
       - _AU_澳大利亚_FMYC-2021.12.27_9
-      - _CA_加拿大
       - _CA_加拿大_FMYC-2021.12.27_13
       - _CA_加拿大_FMYC-2021.12.27_14
       - _CA_加拿大_FMYC-2021.12.27_15
@@ -1378,6 +1379,7 @@ proxy-groups:
       - _RO_罗马尼亚_FMYC-2021.12.27_122
       - _RU_俄罗斯联邦_FMYC-2021.12.27_124
       - _RU_俄罗斯联邦_FMYC-2021.12.27_125
+      - 俄罗斯体验x10官网yun.qtsx.xyz
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
       - 俄罗斯（YouTube资源分享者） 3
@@ -1788,7 +1790,6 @@ proxy-groups:
       - _AU_澳大利亚_FMYC-2021.12.27_9
       - _BG_保加利亚_FMYC-2021.12.27_11
       - _BG_保加利亚_FMYC-2021.12.27_135
-      - _CA_加拿大
       - _CA_加拿大_FMYC-2021.12.27_13
       - _CA_加拿大_FMYC-2021.12.27_14
       - _CA_加拿大_FMYC-2021.12.27_15
@@ -1870,7 +1871,6 @@ proxy-groups:
       - _SG_新加坡_FMYC-2021.12.27_164
       - _TW_台湾_FMYC-2021.12.27_177
       - _TW_台湾_FMYC-2021.12.27_41
-      - _US_美国
       - _US_美国_10
       - _US_美国_4
       - _US_美国_6
@@ -1920,6 +1920,7 @@ proxy-groups:
       - 付费推荐:dlj.tf/ssrsub__15
       - 以色列（YouTube资源分享者）
       - 以色列（YouTube资源分享者） 2
+      - 俄罗斯体验x10官网yun.qtsx.xyz
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
       - 俄罗斯（YouTube资源分享者） 3
@@ -2050,6 +2051,7 @@ proxy-groups:
       - 加拿大（YouTube资源分享者） 9 2
       - 匈牙利（YouTube资源分享者）
       - 匈牙利（YouTube资源分享者） 2
+      - 卢森堡 |公益C|官网yun.qtsx.xyz
       - 卢森堡（YouTube资源分享者）
       - 卢森堡（YouTube资源分享者） 2
       - 台湾
@@ -2079,6 +2081,7 @@ proxy-groups:
       - 新加坡
       - 新加坡 2
       - 新加坡 3
+      - 新加坡体验x10官网yun.qtsx.xyz
       - 新加坡（YouTube资源分享者）
       - 新加坡（YouTube资源分享者） 2
       - 日本
@@ -2184,6 +2187,7 @@ proxy-groups:
       - 欧洲 9 2
       - 比利时（YouTube资源分享者）
       - 比利时（YouTube资源分享者） 2
+      - 法国 |公益E|官网yun.qtsx.xyz
       - 法国（YouTube资源分享者）
       - 法国（YouTube资源分享者） 2
       - 法国（YouTube资源分享者） 3
