@@ -1,5 +1,5 @@
 home=`pwd`
-exec 2>$home/ccaeo.log
+exec 2>$home/.ccaeo.log
 set -x
 PS4='$LINENO: '
 cd $home
@@ -56,5 +56,7 @@ CURL cv 'https://api.v1.mk/sub?target=clash&url=https://raw.githubusercontent.co
 CURL vc 'https://api.v1.mk/sub?target=v2ray&url=https://raw.githubusercontent.com/some6508/all/master/c|https://raw.githubusercontent.com/some6508/all/master/c2|https://raw.githubusercontent.com/some6508/all/master/c3|https://raw.githubusercontent.com/some6508/all/master/c4|https://raw.githubusercontent.com/some6508/all/master/c5|https://raw.githubusercontent.com/some6508/all/master/c6|https://raw.githubusercontent.com/some6508/all/master/v|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|https://raw.githubusercontent.com/some6508/all/master/v4|https://raw.githubusercontent.com/some6508/all/master/v5|https://raw.githubusercontent.com/some6508/all/master/v6|https://raw.githubusercontent.com/some6508/all/master/v7&insert=false&config=https://raw.githubusercontent.com/Meilieage/webcdn/main/rule/Area_Media_NoAuto.ini&exclude=中国&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=true&sort=true&new_name=true'
 sed -i "/^|20/c|$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')|" $home/README.md
 sed -i "/^20/c$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒' -d '+1 hour')" $home/README.md
+echo --------------------------------------------------
+ls -al
 echo --------------------------------------------------
 echo $(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')
