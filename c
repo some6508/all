@@ -5,996 +5,1004 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇳🇱_NL_荷兰_1', server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
-  - {name: '🇩🇪_DE_德国_2', server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
-  - {name: '🇺🇸_US_美国_3', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
-  - {name: '🇧🇬_BG_保加利亚_4', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: 'default_name_5', server: ff7.uuv2.co.uk, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: '🇫🇷_FR_法国_6', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: '🇺🇸_US_美国_7', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: '🇺🇸_US_美国->🇫🇷_FR_法国_8', server: ff1.uuv2.co.uk, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: uk2.v2rayserv.com}}
-  - {name: '🇺🇸_US_美国_9', server: 104.26.9.74, port: 443, type: vmess, uuid: f6c1babe-416e-47d1-8726-049678e25c7a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: us2.v2rayserv.com}}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10', server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_11', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇺🇸_US_美国_12', server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: '🇺🇸_US_美国->🇨🇿_CZ_捷克_13', server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: 'default_name_14', server: ff6.uuv2.co.uk, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
-  - {name: '🇺🇸_US_美国_15', server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
-  - {name: 'default_name_16', server: 104.21.62.193, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: '🇺🇸_US_美国_17', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇫🇷_FR_法国_18', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇬🇧_GB_英国_19', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇮🇩_ID_印度尼西亚_20', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: '🇬🇧_GB_英国_21', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇳🇴_NO_挪威_22', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇫🇷_FR_法国_23', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_24', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: '🇳🇴_NO_挪威_25', server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: '🇬🇧_GB_英国_26', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇦_CA_加拿大_27', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇫🇷_FR_法国_28', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_29', server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
-  - {name: '🇲🇾_MY_马来西亚_30', server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: '🇳🇴_NO_挪威_31', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇳🇴_NO_挪威_32', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇳🇴_NO_挪威_33', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇭🇰_HK_香港_34', server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇫🇷_FR_法国_35', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇳🇴_NO_挪威_36', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇭🇰_HK_香港->🇮🇳_IN_印度_37', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
-  - {name: '🇭🇰_HK_香港->🇮🇳_IN_印度_38', server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
-  - {name: '🇳🇴_NO_挪威_39', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '🇭🇰_HK_香港_40', server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
-  - {name: '🇬🇧_GB_英国_41', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇹🇼_TW_台湾_42', server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_43', server: 120.232.82.190, port: 2010, type: ss, cipher: aes-256-gcm, password: fb3ff83bac9e4aed4a6a7d4a1f321f1a}
-  - {name: '🇯🇵_JP_日本_44', server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_45', server: 120.232.82.190, port: 4001, type: ss, cipher: aes-256-gcm, password: 43e27d84de893cced5b4d6adfd087cff}
-  - {name: '🇭🇰_HK_香港_46', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇭🇰_HK_香港_47', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇨🇳_CN_中国->🇹🇼_TW_台湾_48', server: 211.99.96.40, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇯🇵_JP_日本_49', server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '🇺🇸_US_美国_50', server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
-  - {name: '🇺🇸_US_美国_51', server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_美国_52', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇨🇦_CA_加拿大_53', server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
-  - {name: '🇩🇰_DK_丹麦_54', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
-  - {name: '🇺🇸_US_美国_55', server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
-  - {name: '🇦🇺_AU_澳大利亚_56', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_57', server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9}
-  - {name: '🇨🇦_CA_加拿大_58', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇮🇱_IL_以色列_59', server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: 'default_name_60', server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: '🇭🇰_HK_香港_61', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_62', server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
-  - {name: '🇨🇦_CA_加拿大_63', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_美国_64', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '🇭🇰_HK_香港_65', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_66', server: 172.67.170.52, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
-  - {name: '🇨🇦_CA_加拿大_67', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_美国_68', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 'default_name_69', server: api.ssfree.ru, port: 443, type: vmess, uuid: 0d0d7ab0-672e-11ec-aa9d-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /getweather}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_70', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇺🇸_US_美国_71', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 'default_name_72', server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
-  - {name: '🇨🇦_CA_加拿大_73', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇷🇺_RU_俄罗斯联邦_74', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: '🇫🇷_FR_法国_75', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '🇫🇮_FI_芬兰_76', server: oz.mooncloud.bike, port: 8443, type: vmess, uuid: 79fedd93-e758-4655-83ed-574f4afe2a04, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /}
-  - {name: '🇸🇪_SE_瑞典_77', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: '🇺🇸_US_美国_78', server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: '🇨🇦_CA_加拿大_79', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦_CA_加拿大_80', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_81', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇫🇷_FR_法国_82', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'default_name_83', server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇦🇺_AU_澳大利亚_84', server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
-  - {name: '🇫🇷_FR_法国_85', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇨🇦_CA_加拿大_86', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇳🇴_NO_挪威_87', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '🇳🇴_NO_挪威_88', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_89', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇬🇧_GB_英国_90', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '🇫🇷_FR_法国_91', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇸🇬_SG_新加坡_92', server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇫🇷_FR_法国_93', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇫🇷_FR_法国_94', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇳🇴_NO_挪威_95', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇫🇷_FR_法国_96', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇸🇬_SG_新加坡_97', server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_98', server: v3.ssrsub.com, port: 443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇺🇸_US_美国_99', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇫🇷_FR_法国_100', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇮🇳_IN_印度_101', server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'default_name_102', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇭🇰_HK_香港_103', server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0}
-  - {name: '🇨🇦_CA_加拿大_104', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇳🇴_NO_挪威_105', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_美国_106', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '🇵🇹_PT_葡萄牙_107', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: '🇺🇸_US_美国_108', server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
-  - {name: '🇸🇬_SG_新加坡_109', server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_美国_110', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_111', server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
-  - {name: '🇫🇷_FR_法国_112', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_113', server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
-  - {name: '🇺🇸_US_美国_114', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '🇭🇰_HK_香港_115', server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇭🇰_HK_香港_116', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_117', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: '🇭🇰_HK_香港_118', server: 118.107.244.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇳🇴_NO_挪威_119', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇯🇵_日本_<电报+YouTube：VV科技>_1', server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
+  - {name: '🇭🇰_香港_<电报+YouTube：VV科技>_2', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇳_中国跳转_<电报+YouTube：VV科技>_3', server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-headers: {Host: shcn2-06b.iplc188.com}}
+  - {name: '🇨🇳_中国跳转_<电报+YouTube：VV科技>_4', server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_5', server: 70.39.71.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: '🇭🇰_香港_<电报+YouTube：VV科技>_6', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇯🇵_日本_<电报+YouTube：VV科技>_7', server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇯🇵_日本_<电报+YouTube：VV科技>_8', server: 172.105.232.147, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_9', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: '🇷🇺_俄罗斯联邦_<电报+YouTube：VV科技>_10', server: 193.233.85.3, port: 45174, type: vmess, uuid: 14823120-5dc2-11ec-b398-3a571dcc9720, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '🇨🇳_中国跳转_<电报+YouTube：VV科技>_11', server: gy.jjxcloud.xyz, port: 42000, type: vmess, uuid: 45834822-3b61-3390-9210-d0910e597293, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: '🇲🇽_墨西哥_<电报+YouTube：VV科技>_12', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
+  - {name: '🇸🇬_新加坡_<电报+YouTube：VV科技>_13', server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇨🇳_中国跳转_<电报+YouTube：VV科技>_14', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_15', server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_16', server: 172.67.170.52, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_17', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_18', server: 104.223.91.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QKyLzp5JUG6XEGy2wbEE}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_19', server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: '🇨🇳_中国跳转_<电报+YouTube：VV科技>_20', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785, alterId: 1, cipher: auto, tls: false, network: ws, ws-headers: {Host: youtube-aweikeji}}
+  - {name: '🇨🇳_中国跳转_<电报+YouTube：VV科技>_21', server: 120.232.82.190, port: 2010, type: ss, cipher: aes-256-gcm, password: fb3ff83bac9e4aed4a6a7d4a1f321f1a}
+  - {name: '🇨🇳_中国跳转_<电报+YouTube：VV科技>_22', server: cm-jm.okvpn.xyz, port: 20047, type: vmess, uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785, alterId: 1, cipher: auto, tls: false, network: ws, ws-headers: {Host: youtube-aweikeji}}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_23', server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: '🇦🇺_澳大利亚_<电报+YouTube：VV科技>_24', server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_25', server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: '🇩🇪_德国_<电报+YouTube：VV科技>_26', server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: '🇭🇰_香港_<电报+YouTube：VV科技>_27', server: mf-aws-hk-12.xncloud.xyz, port: 18000, type: vmess, uuid: 12c00b6c-bdec-3162-aac2-2ae87e174156, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-12.xncloud.xyz}}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_28', server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
+  - {name: '<电报+YouTube：VV科技>_29', server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
+  - {name: '🇦🇺_澳大利亚_<电报+YouTube：VV科技>_30', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇮_芬兰_<电报+YouTube：VV科技>_31', server: oz.mooncloud.bike, port: 8443, type: vmess, uuid: 79fedd93-e758-4655-83ed-574f4afe2a04, alterId: 1, cipher: auto, tls: true, network: ws}
+  - {name: '🇨🇳_中国跳转_<电报+YouTube：VV科技>_32', server: cm-jm.okvpn.xyz, port: 20047, type: vmess, uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇭🇰_香港_<电报+YouTube：VV科技>_33', server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: '🇦🇺_澳大利亚_<电报+YouTube：VV科技>_34', server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: '<电报+YouTube：VV科技>_35', server: ff6.uuv2.co.uk, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
+  - {name: '🇨🇳_中国跳转_<电报+YouTube：VV科技>_36', server: cm-jm.okvpn.xyz, port: 20047, type: vmess, uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
+  - {name: '🇯🇵_日本_<电报+YouTube：VV科技>_37', server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇸🇬_新加坡_<电报+YouTube：VV科技>_38', server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇳🇱_荷兰_<电报+YouTube：VV科技>_39', server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_40', server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
+  - {name: '🇨🇳_中国跳转_<电报+YouTube：VV科技>_41', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
+  - {name: '🇭🇰_香港_<电报+YouTube：VV科技>_42', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇮🇳_印度_<电报+YouTube：VV科技>_43', server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇸🇬_新加坡_<电报+YouTube：VV科技>_44', server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '<电报+YouTube：VV科技>_45', server: api.ssfree.ru, port: 443, type: vmess, uuid: 0d0d7ab0-672e-11ec-aa9d-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /getweather}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_46', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '<电报+YouTube：VV科技>_47', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: '🇫🇮_芬兰_<电报+YouTube：VV科技>_48', server: oz.mooncloud.bike, port: 8443, type: vmess, uuid: 79fedd93-e758-4655-83ed-574f4afe2a04, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /}
+  - {name: '🇨🇦_加拿大_<电报+YouTube：VV科技>_49', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_50', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇨🇦_加拿大_<电报+YouTube：VV科技>_51', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_英国_<电报+YouTube：VV科技>_52', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇳_中国跳转_<电报+YouTube：VV科技>_53', server: 120.232.82.190, port: 4001, type: ss, cipher: aes-256-gcm, password: 43e27d84de893cced5b4d6adfd087cff}
+  - {name: '🇨🇦_加拿大_<电报+YouTube：VV科技>_54', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇧🇪_比利时_<电报+YouTube：VV科技>_55', server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_56', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
+  - {name: '🇨🇳_中国跳转_<电报+YouTube：VV科技>_57', server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /inde}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_58', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}}
+  - {name: '🇫🇷_法国_<电报+YouTube：VV科技>_59', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_加拿大_<电报+YouTube：VV科技>_60', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇷_法国_<电报+YouTube：VV科技>_61', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: '🇮🇱_以色列_<电报+YouTube：VV科技>_62', server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: '🇳🇴_挪威_<电报+YouTube：VV科技>_63', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_64', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_65', server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_66', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: '🇨🇦_加拿大_<电报+YouTube：VV科技>_67', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_68', server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /, ws-headers: {Host: 137.175.30.251}}
+  - {name: '🇩🇰_丹麦_<电报+YouTube：VV科技>_69', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: '🇸🇪_瑞典_<电报+YouTube：VV科技>_70', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_71', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇳🇴_挪威_<电报+YouTube：VV科技>_72', server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: '🇭🇰_香港_<电报+YouTube：VV科技>_73', server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0}
+  - {name: '🇬🇧_英国_<电报+YouTube：VV科技>_74', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇳🇴_挪威_<电报+YouTube：VV科技>_75', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_英国_<电报+YouTube：VV科技>_76', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_77', server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_78', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇮_芬兰_<电报+YouTube：VV科技>_79', server: oz.mooncloud.bike, port: 8443, type: vmess, uuid: 79fedd93-e758-4655-83ed-574f4afe2a04, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: oz.mooncloud.bike}}
+  - {name: '🇨🇦_加拿大_<电报+YouTube：VV科技>_80', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_加拿大_<电报+YouTube：VV科技>_81', server: t1.ssrsub.com, port: 8443, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912}
+  - {name: '🇨🇦_加拿大_<电报+YouTube：VV科技>_82', server: t3.ssrsub.com, port: 156, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917}
+  - {name: '🇨🇦_加拿大_<电报+YouTube：VV科技>_83', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇫🇷_法国_<电报+YouTube：VV科技>_84', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '🇨🇦_加拿大_<电报+YouTube：VV科技>_85', server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: '🇳🇴_挪威_<电报+YouTube：VV科技>_86', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇳🇴_挪威_<电报+YouTube：VV科技>_87', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇬🇧_英国_<电报+YouTube：VV科技>_88', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇨🇦_加拿大_<电报+YouTube：VV科技>_89', server: t1.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917}
+  - {name: '🇨🇦_加拿大_<电报+YouTube：VV科技>_90', server: t3.ssrsub.com, port: 156, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912}
+  - {name: '🇳🇴_挪威_<电报+YouTube：VV科技>_91', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_92', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇫🇷_法国_<电报+YouTube：VV科技>_93', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇳🇴_挪威_<电报+YouTube：VV科技>_94', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇳🇴_挪威_<电报+YouTube：VV科技>_95', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇳🇴_挪威_<电报+YouTube：VV科技>_96', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇿_捷克_<电报+YouTube：VV科技>_97', server: 195.133.53.192, port: 27182, type: vmess, uuid: a22df2ec-6200-11ec-9070-fecccc2333dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /AmrTCtbk/, ws-headers: {Host: 195.133.53.192}}
+  - {name: '🇨🇦_加拿大_<电报+YouTube：VV科技>_98', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_99', server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇨🇦_加拿大_<电报+YouTube：VV科技>_100', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_101', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_102', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
+  - {name: '🇬🇷_希腊_<电报+YouTube：VV科技>_103', server: 185.51.134.210, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: '🇨🇳_中国跳转_<电报+YouTube：VV科技>_104', server: 116.163.14.146, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}}
+  - {name: '🇨🇿_捷克_<电报+YouTube：VV科技>_105', server: t7.ssrsub.com, port: 8443, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_106', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇳🇴_挪威_<电报+YouTube：VV科技>_107', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '<电报+YouTube：VV科技>_108', server: v3.ssrsub.com, port: 443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇳🇴_挪威_<电报+YouTube：VV科技>_109', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇳🇴_挪威_<电报+YouTube：VV科技>_110', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇳🇴_挪威_<电报+YouTube：VV科技>_111', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_112', server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: 142.4.123.249}}
+  - {name: '🇨🇳_中国跳转_<电报+YouTube：VV科技>_113', server: 116.163.14.146, port: 18119, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, network: tcp, ws-headers: {Host: 116.163.14.146}}
+  - {name: '🇫🇷_法国_<电报+YouTube：VV科技>_114', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇿_捷克_<电报+YouTube：VV科技>_115', server: t7.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_116', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_117', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇨🇦_加拿大_<电报+YouTube：VV科技>_118', server: t4.ssrsub.com, port: 156, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_119', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_美国_<电报+YouTube：VV科技>_120', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_3
-      - 🇧🇬_BG_保加利亚_4
-      - default_name_5
-      - 🇫🇷_FR_法国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_13
-      - default_name_14
-      - 🇺🇸_US_美国_15
-      - default_name_16
-      - 🇺🇸_US_美国_17
-      - 🇫🇷_FR_法国_18
-      - 🇬🇧_GB_英国_19
-      - 🇮🇩_ID_印度尼西亚_20
-      - 🇬🇧_GB_英国_21
-      - 🇳🇴_NO_挪威_22
-      - 🇫🇷_FR_法国_23
-      - 🇺🇸_US_美国_24
-      - 🇳🇴_NO_挪威_25
-      - 🇬🇧_GB_英国_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇫🇷_FR_法国_28
-      - 🇺🇸_US_美国_29
-      - 🇲🇾_MY_马来西亚_30
-      - 🇳🇴_NO_挪威_31
-      - 🇳🇴_NO_挪威_32
-      - 🇳🇴_NO_挪威_33
-      - 🇭🇰_HK_香港_34
-      - 🇫🇷_FR_法国_35
-      - 🇳🇴_NO_挪威_36
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_37
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_38
-      - 🇳🇴_NO_挪威_39
-      - 🇭🇰_HK_香港_40
-      - 🇬🇧_GB_英国_41
-      - 🇹🇼_TW_台湾_42
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_43
-      - 🇯🇵_JP_日本_44
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_45
-      - 🇭🇰_HK_香港_46
-      - 🇭🇰_HK_香港_47
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_48
-      - 🇯🇵_JP_日本_49
-      - 🇺🇸_US_美国_50
-      - 🇺🇸_US_美国_51
-      - 🇺🇸_US_美国_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇩🇰_DK_丹麦_54
-      - 🇺🇸_US_美国_55
-      - 🇦🇺_AU_澳大利亚_56
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_57
-      - 🇨🇦_CA_加拿大_58
-      - 🇮🇱_IL_以色列_59
-      - default_name_60
-      - 🇭🇰_HK_香港_61
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇺🇸_US_美国_64
-      - 🇭🇰_HK_香港_65
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_66
-      - 🇨🇦_CA_加拿大_67
-      - 🇺🇸_US_美国_68
-      - default_name_69
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_70
-      - 🇺🇸_US_美国_71
-      - default_name_72
-      - 🇨🇦_CA_加拿大_73
-      - 🇷🇺_RU_俄罗斯联邦_74
-      - 🇫🇷_FR_法国_75
-      - 🇫🇮_FI_芬兰_76
-      - 🇸🇪_SE_瑞典_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇺🇸_US_美国_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇦🇺_AU_澳大利亚_84
-      - 🇫🇷_FR_法国_85
-      - 🇨🇦_CA_加拿大_86
-      - 🇳🇴_NO_挪威_87
-      - 🇳🇴_NO_挪威_88
-      - 🇺🇸_US_美国_89
-      - 🇬🇧_GB_英国_90
-      - 🇫🇷_FR_法国_91
-      - 🇸🇬_SG_新加坡_92
-      - 🇫🇷_FR_法国_93
-      - 🇫🇷_FR_法国_94
-      - 🇳🇴_NO_挪威_95
-      - 🇫🇷_FR_法国_96
-      - 🇸🇬_SG_新加坡_97
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_98
-      - 🇺🇸_US_美国_99
-      - 🇫🇷_FR_法国_100
-      - 🇮🇳_IN_印度_101
-      - default_name_102
-      - 🇭🇰_HK_香港_103
-      - 🇨🇦_CA_加拿大_104
-      - 🇳🇴_NO_挪威_105
-      - 🇺🇸_US_美国_106
-      - 🇵🇹_PT_葡萄牙_107
-      - 🇺🇸_US_美国_108
-      - 🇸🇬_SG_新加坡_109
-      - 🇺🇸_US_美国_110
-      - 🇺🇸_US_美国_111
-      - 🇫🇷_FR_法国_112
-      - 🇺🇸_US_美国_113
-      - 🇺🇸_US_美国_114
-      - 🇭🇰_HK_香港_115
-      - 🇭🇰_HK_香港_116
-      - 🇺🇸_US_美国_117
-      - 🇭🇰_HK_香港_118
-      - 🇳🇴_NO_挪威_119
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_1
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_2
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_3
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_4
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_5
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_6
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_7
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_8
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_9
+      - 🇷🇺_俄罗斯联邦_<电报+YouTube：VV科技>_10
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_11
+      - 🇲🇽_墨西哥_<电报+YouTube：VV科技>_12
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_13
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_14
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_15
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_16
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_17
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_18
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_19
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_20
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_21
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_22
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_23
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_24
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_25
+      - 🇩🇪_德国_<电报+YouTube：VV科技>_26
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_27
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_28
+      - <电报+YouTube：VV科技>_29
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_30
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_31
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_32
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_33
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_34
+      - <电报+YouTube：VV科技>_35
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_36
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_37
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_38
+      - 🇳🇱_荷兰_<电报+YouTube：VV科技>_39
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_40
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_41
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_42
+      - 🇮🇳_印度_<电报+YouTube：VV科技>_43
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_44
+      - <电报+YouTube：VV科技>_45
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_46
+      - <电报+YouTube：VV科技>_47
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_48
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_49
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_50
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_51
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_52
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_53
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_54
+      - 🇧🇪_比利时_<电报+YouTube：VV科技>_55
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_56
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_57
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_58
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_59
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_60
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_61
+      - 🇮🇱_以色列_<电报+YouTube：VV科技>_62
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_63
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_64
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_65
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_66
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_67
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_68
+      - 🇩🇰_丹麦_<电报+YouTube：VV科技>_69
+      - 🇸🇪_瑞典_<电报+YouTube：VV科技>_70
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_71
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_72
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_73
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_74
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_75
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_76
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_77
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_78
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_79
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_80
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_81
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_82
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_83
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_84
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_85
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_86
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_87
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_88
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_89
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_90
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_91
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_92
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_93
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_94
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_95
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_96
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_97
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_98
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_99
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_100
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_101
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_102
+      - 🇬🇷_希腊_<电报+YouTube：VV科技>_103
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_104
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_105
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_106
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_107
+      - <电报+YouTube：VV科技>_108
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_109
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_110
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_111
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_112
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_113
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_114
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_115
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_116
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_117
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_118
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_119
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_120
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇳🇱_NL_荷兰_1
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_3
-      - 🇧🇬_BG_保加利亚_4
-      - default_name_5
-      - 🇫🇷_FR_法国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_13
-      - default_name_14
-      - 🇺🇸_US_美国_15
-      - default_name_16
-      - 🇺🇸_US_美国_17
-      - 🇫🇷_FR_法国_18
-      - 🇬🇧_GB_英国_19
-      - 🇮🇩_ID_印度尼西亚_20
-      - 🇬🇧_GB_英国_21
-      - 🇳🇴_NO_挪威_22
-      - 🇫🇷_FR_法国_23
-      - 🇺🇸_US_美国_24
-      - 🇳🇴_NO_挪威_25
-      - 🇬🇧_GB_英国_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇫🇷_FR_法国_28
-      - 🇺🇸_US_美国_29
-      - 🇲🇾_MY_马来西亚_30
-      - 🇳🇴_NO_挪威_31
-      - 🇳🇴_NO_挪威_32
-      - 🇳🇴_NO_挪威_33
-      - 🇭🇰_HK_香港_34
-      - 🇫🇷_FR_法国_35
-      - 🇳🇴_NO_挪威_36
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_37
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_38
-      - 🇳🇴_NO_挪威_39
-      - 🇭🇰_HK_香港_40
-      - 🇬🇧_GB_英国_41
-      - 🇹🇼_TW_台湾_42
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_43
-      - 🇯🇵_JP_日本_44
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_45
-      - 🇭🇰_HK_香港_46
-      - 🇭🇰_HK_香港_47
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_48
-      - 🇯🇵_JP_日本_49
-      - 🇺🇸_US_美国_50
-      - 🇺🇸_US_美国_51
-      - 🇺🇸_US_美国_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇩🇰_DK_丹麦_54
-      - 🇺🇸_US_美国_55
-      - 🇦🇺_AU_澳大利亚_56
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_57
-      - 🇨🇦_CA_加拿大_58
-      - 🇮🇱_IL_以色列_59
-      - default_name_60
-      - 🇭🇰_HK_香港_61
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇺🇸_US_美国_64
-      - 🇭🇰_HK_香港_65
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_66
-      - 🇨🇦_CA_加拿大_67
-      - 🇺🇸_US_美国_68
-      - default_name_69
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_70
-      - 🇺🇸_US_美国_71
-      - default_name_72
-      - 🇨🇦_CA_加拿大_73
-      - 🇷🇺_RU_俄罗斯联邦_74
-      - 🇫🇷_FR_法国_75
-      - 🇫🇮_FI_芬兰_76
-      - 🇸🇪_SE_瑞典_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇺🇸_US_美国_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇦🇺_AU_澳大利亚_84
-      - 🇫🇷_FR_法国_85
-      - 🇨🇦_CA_加拿大_86
-      - 🇳🇴_NO_挪威_87
-      - 🇳🇴_NO_挪威_88
-      - 🇺🇸_US_美国_89
-      - 🇬🇧_GB_英国_90
-      - 🇫🇷_FR_法国_91
-      - 🇸🇬_SG_新加坡_92
-      - 🇫🇷_FR_法国_93
-      - 🇫🇷_FR_法国_94
-      - 🇳🇴_NO_挪威_95
-      - 🇫🇷_FR_法国_96
-      - 🇸🇬_SG_新加坡_97
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_98
-      - 🇺🇸_US_美国_99
-      - 🇫🇷_FR_法国_100
-      - 🇮🇳_IN_印度_101
-      - default_name_102
-      - 🇭🇰_HK_香港_103
-      - 🇨🇦_CA_加拿大_104
-      - 🇳🇴_NO_挪威_105
-      - 🇺🇸_US_美国_106
-      - 🇵🇹_PT_葡萄牙_107
-      - 🇺🇸_US_美国_108
-      - 🇸🇬_SG_新加坡_109
-      - 🇺🇸_US_美国_110
-      - 🇺🇸_US_美国_111
-      - 🇫🇷_FR_法国_112
-      - 🇺🇸_US_美国_113
-      - 🇺🇸_US_美国_114
-      - 🇭🇰_HK_香港_115
-      - 🇭🇰_HK_香港_116
-      - 🇺🇸_US_美国_117
-      - 🇭🇰_HK_香港_118
-      - 🇳🇴_NO_挪威_119
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_1
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_2
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_3
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_4
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_5
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_6
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_7
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_8
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_9
+      - 🇷🇺_俄罗斯联邦_<电报+YouTube：VV科技>_10
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_11
+      - 🇲🇽_墨西哥_<电报+YouTube：VV科技>_12
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_13
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_14
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_15
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_16
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_17
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_18
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_19
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_20
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_21
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_22
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_23
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_24
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_25
+      - 🇩🇪_德国_<电报+YouTube：VV科技>_26
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_27
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_28
+      - <电报+YouTube：VV科技>_29
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_30
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_31
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_32
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_33
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_34
+      - <电报+YouTube：VV科技>_35
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_36
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_37
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_38
+      - 🇳🇱_荷兰_<电报+YouTube：VV科技>_39
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_40
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_41
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_42
+      - 🇮🇳_印度_<电报+YouTube：VV科技>_43
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_44
+      - <电报+YouTube：VV科技>_45
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_46
+      - <电报+YouTube：VV科技>_47
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_48
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_49
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_50
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_51
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_52
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_53
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_54
+      - 🇧🇪_比利时_<电报+YouTube：VV科技>_55
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_56
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_57
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_58
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_59
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_60
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_61
+      - 🇮🇱_以色列_<电报+YouTube：VV科技>_62
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_63
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_64
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_65
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_66
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_67
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_68
+      - 🇩🇰_丹麦_<电报+YouTube：VV科技>_69
+      - 🇸🇪_瑞典_<电报+YouTube：VV科技>_70
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_71
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_72
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_73
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_74
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_75
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_76
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_77
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_78
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_79
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_80
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_81
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_82
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_83
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_84
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_85
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_86
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_87
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_88
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_89
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_90
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_91
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_92
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_93
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_94
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_95
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_96
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_97
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_98
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_99
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_100
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_101
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_102
+      - 🇬🇷_希腊_<电报+YouTube：VV科技>_103
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_104
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_105
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_106
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_107
+      - <电报+YouTube：VV科技>_108
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_109
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_110
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_111
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_112
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_113
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_114
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_115
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_116
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_117
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_118
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_119
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_120
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_3
-      - 🇧🇬_BG_保加利亚_4
-      - default_name_5
-      - 🇫🇷_FR_法国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_13
-      - default_name_14
-      - 🇺🇸_US_美国_15
-      - default_name_16
-      - 🇺🇸_US_美国_17
-      - 🇫🇷_FR_法国_18
-      - 🇬🇧_GB_英国_19
-      - 🇮🇩_ID_印度尼西亚_20
-      - 🇬🇧_GB_英国_21
-      - 🇳🇴_NO_挪威_22
-      - 🇫🇷_FR_法国_23
-      - 🇺🇸_US_美国_24
-      - 🇳🇴_NO_挪威_25
-      - 🇬🇧_GB_英国_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇫🇷_FR_法国_28
-      - 🇺🇸_US_美国_29
-      - 🇲🇾_MY_马来西亚_30
-      - 🇳🇴_NO_挪威_31
-      - 🇳🇴_NO_挪威_32
-      - 🇳🇴_NO_挪威_33
-      - 🇭🇰_HK_香港_34
-      - 🇫🇷_FR_法国_35
-      - 🇳🇴_NO_挪威_36
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_37
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_38
-      - 🇳🇴_NO_挪威_39
-      - 🇭🇰_HK_香港_40
-      - 🇬🇧_GB_英国_41
-      - 🇹🇼_TW_台湾_42
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_43
-      - 🇯🇵_JP_日本_44
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_45
-      - 🇭🇰_HK_香港_46
-      - 🇭🇰_HK_香港_47
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_48
-      - 🇯🇵_JP_日本_49
-      - 🇺🇸_US_美国_50
-      - 🇺🇸_US_美国_51
-      - 🇺🇸_US_美国_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇩🇰_DK_丹麦_54
-      - 🇺🇸_US_美国_55
-      - 🇦🇺_AU_澳大利亚_56
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_57
-      - 🇨🇦_CA_加拿大_58
-      - 🇮🇱_IL_以色列_59
-      - default_name_60
-      - 🇭🇰_HK_香港_61
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇺🇸_US_美国_64
-      - 🇭🇰_HK_香港_65
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_66
-      - 🇨🇦_CA_加拿大_67
-      - 🇺🇸_US_美国_68
-      - default_name_69
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_70
-      - 🇺🇸_US_美国_71
-      - default_name_72
-      - 🇨🇦_CA_加拿大_73
-      - 🇷🇺_RU_俄罗斯联邦_74
-      - 🇫🇷_FR_法国_75
-      - 🇫🇮_FI_芬兰_76
-      - 🇸🇪_SE_瑞典_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇺🇸_US_美国_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇦🇺_AU_澳大利亚_84
-      - 🇫🇷_FR_法国_85
-      - 🇨🇦_CA_加拿大_86
-      - 🇳🇴_NO_挪威_87
-      - 🇳🇴_NO_挪威_88
-      - 🇺🇸_US_美国_89
-      - 🇬🇧_GB_英国_90
-      - 🇫🇷_FR_法国_91
-      - 🇸🇬_SG_新加坡_92
-      - 🇫🇷_FR_法国_93
-      - 🇫🇷_FR_法国_94
-      - 🇳🇴_NO_挪威_95
-      - 🇫🇷_FR_法国_96
-      - 🇸🇬_SG_新加坡_97
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_98
-      - 🇺🇸_US_美国_99
-      - 🇫🇷_FR_法国_100
-      - 🇮🇳_IN_印度_101
-      - default_name_102
-      - 🇭🇰_HK_香港_103
-      - 🇨🇦_CA_加拿大_104
-      - 🇳🇴_NO_挪威_105
-      - 🇺🇸_US_美国_106
-      - 🇵🇹_PT_葡萄牙_107
-      - 🇺🇸_US_美国_108
-      - 🇸🇬_SG_新加坡_109
-      - 🇺🇸_US_美国_110
-      - 🇺🇸_US_美国_111
-      - 🇫🇷_FR_法国_112
-      - 🇺🇸_US_美国_113
-      - 🇺🇸_US_美国_114
-      - 🇭🇰_HK_香港_115
-      - 🇭🇰_HK_香港_116
-      - 🇺🇸_US_美国_117
-      - 🇭🇰_HK_香港_118
-      - 🇳🇴_NO_挪威_119
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_1
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_2
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_3
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_4
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_5
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_6
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_7
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_8
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_9
+      - 🇷🇺_俄罗斯联邦_<电报+YouTube：VV科技>_10
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_11
+      - 🇲🇽_墨西哥_<电报+YouTube：VV科技>_12
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_13
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_14
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_15
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_16
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_17
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_18
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_19
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_20
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_21
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_22
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_23
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_24
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_25
+      - 🇩🇪_德国_<电报+YouTube：VV科技>_26
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_27
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_28
+      - <电报+YouTube：VV科技>_29
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_30
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_31
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_32
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_33
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_34
+      - <电报+YouTube：VV科技>_35
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_36
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_37
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_38
+      - 🇳🇱_荷兰_<电报+YouTube：VV科技>_39
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_40
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_41
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_42
+      - 🇮🇳_印度_<电报+YouTube：VV科技>_43
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_44
+      - <电报+YouTube：VV科技>_45
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_46
+      - <电报+YouTube：VV科技>_47
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_48
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_49
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_50
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_51
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_52
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_53
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_54
+      - 🇧🇪_比利时_<电报+YouTube：VV科技>_55
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_56
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_57
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_58
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_59
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_60
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_61
+      - 🇮🇱_以色列_<电报+YouTube：VV科技>_62
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_63
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_64
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_65
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_66
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_67
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_68
+      - 🇩🇰_丹麦_<电报+YouTube：VV科技>_69
+      - 🇸🇪_瑞典_<电报+YouTube：VV科技>_70
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_71
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_72
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_73
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_74
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_75
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_76
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_77
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_78
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_79
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_80
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_81
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_82
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_83
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_84
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_85
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_86
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_87
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_88
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_89
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_90
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_91
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_92
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_93
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_94
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_95
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_96
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_97
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_98
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_99
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_100
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_101
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_102
+      - 🇬🇷_希腊_<电报+YouTube：VV科技>_103
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_104
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_105
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_106
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_107
+      - <电报+YouTube：VV科技>_108
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_109
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_110
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_111
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_112
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_113
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_114
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_115
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_116
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_117
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_118
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_119
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_120
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_3
-      - 🇧🇬_BG_保加利亚_4
-      - default_name_5
-      - 🇫🇷_FR_法国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_13
-      - default_name_14
-      - 🇺🇸_US_美国_15
-      - default_name_16
-      - 🇺🇸_US_美国_17
-      - 🇫🇷_FR_法国_18
-      - 🇬🇧_GB_英国_19
-      - 🇮🇩_ID_印度尼西亚_20
-      - 🇬🇧_GB_英国_21
-      - 🇳🇴_NO_挪威_22
-      - 🇫🇷_FR_法国_23
-      - 🇺🇸_US_美国_24
-      - 🇳🇴_NO_挪威_25
-      - 🇬🇧_GB_英国_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇫🇷_FR_法国_28
-      - 🇺🇸_US_美国_29
-      - 🇲🇾_MY_马来西亚_30
-      - 🇳🇴_NO_挪威_31
-      - 🇳🇴_NO_挪威_32
-      - 🇳🇴_NO_挪威_33
-      - 🇭🇰_HK_香港_34
-      - 🇫🇷_FR_法国_35
-      - 🇳🇴_NO_挪威_36
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_37
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_38
-      - 🇳🇴_NO_挪威_39
-      - 🇭🇰_HK_香港_40
-      - 🇬🇧_GB_英国_41
-      - 🇹🇼_TW_台湾_42
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_43
-      - 🇯🇵_JP_日本_44
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_45
-      - 🇭🇰_HK_香港_46
-      - 🇭🇰_HK_香港_47
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_48
-      - 🇯🇵_JP_日本_49
-      - 🇺🇸_US_美国_50
-      - 🇺🇸_US_美国_51
-      - 🇺🇸_US_美国_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇩🇰_DK_丹麦_54
-      - 🇺🇸_US_美国_55
-      - 🇦🇺_AU_澳大利亚_56
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_57
-      - 🇨🇦_CA_加拿大_58
-      - 🇮🇱_IL_以色列_59
-      - default_name_60
-      - 🇭🇰_HK_香港_61
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇺🇸_US_美国_64
-      - 🇭🇰_HK_香港_65
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_66
-      - 🇨🇦_CA_加拿大_67
-      - 🇺🇸_US_美国_68
-      - default_name_69
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_70
-      - 🇺🇸_US_美国_71
-      - default_name_72
-      - 🇨🇦_CA_加拿大_73
-      - 🇷🇺_RU_俄罗斯联邦_74
-      - 🇫🇷_FR_法国_75
-      - 🇫🇮_FI_芬兰_76
-      - 🇸🇪_SE_瑞典_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇺🇸_US_美国_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇦🇺_AU_澳大利亚_84
-      - 🇫🇷_FR_法国_85
-      - 🇨🇦_CA_加拿大_86
-      - 🇳🇴_NO_挪威_87
-      - 🇳🇴_NO_挪威_88
-      - 🇺🇸_US_美国_89
-      - 🇬🇧_GB_英国_90
-      - 🇫🇷_FR_法国_91
-      - 🇸🇬_SG_新加坡_92
-      - 🇫🇷_FR_法国_93
-      - 🇫🇷_FR_法国_94
-      - 🇳🇴_NO_挪威_95
-      - 🇫🇷_FR_法国_96
-      - 🇸🇬_SG_新加坡_97
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_98
-      - 🇺🇸_US_美国_99
-      - 🇫🇷_FR_法国_100
-      - 🇮🇳_IN_印度_101
-      - default_name_102
-      - 🇭🇰_HK_香港_103
-      - 🇨🇦_CA_加拿大_104
-      - 🇳🇴_NO_挪威_105
-      - 🇺🇸_US_美国_106
-      - 🇵🇹_PT_葡萄牙_107
-      - 🇺🇸_US_美国_108
-      - 🇸🇬_SG_新加坡_109
-      - 🇺🇸_US_美国_110
-      - 🇺🇸_US_美国_111
-      - 🇫🇷_FR_法国_112
-      - 🇺🇸_US_美国_113
-      - 🇺🇸_US_美国_114
-      - 🇭🇰_HK_香港_115
-      - 🇭🇰_HK_香港_116
-      - 🇺🇸_US_美国_117
-      - 🇭🇰_HK_香港_118
-      - 🇳🇴_NO_挪威_119
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_1
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_2
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_3
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_4
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_5
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_6
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_7
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_8
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_9
+      - 🇷🇺_俄罗斯联邦_<电报+YouTube：VV科技>_10
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_11
+      - 🇲🇽_墨西哥_<电报+YouTube：VV科技>_12
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_13
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_14
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_15
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_16
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_17
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_18
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_19
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_20
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_21
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_22
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_23
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_24
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_25
+      - 🇩🇪_德国_<电报+YouTube：VV科技>_26
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_27
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_28
+      - <电报+YouTube：VV科技>_29
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_30
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_31
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_32
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_33
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_34
+      - <电报+YouTube：VV科技>_35
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_36
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_37
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_38
+      - 🇳🇱_荷兰_<电报+YouTube：VV科技>_39
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_40
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_41
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_42
+      - 🇮🇳_印度_<电报+YouTube：VV科技>_43
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_44
+      - <电报+YouTube：VV科技>_45
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_46
+      - <电报+YouTube：VV科技>_47
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_48
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_49
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_50
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_51
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_52
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_53
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_54
+      - 🇧🇪_比利时_<电报+YouTube：VV科技>_55
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_56
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_57
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_58
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_59
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_60
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_61
+      - 🇮🇱_以色列_<电报+YouTube：VV科技>_62
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_63
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_64
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_65
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_66
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_67
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_68
+      - 🇩🇰_丹麦_<电报+YouTube：VV科技>_69
+      - 🇸🇪_瑞典_<电报+YouTube：VV科技>_70
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_71
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_72
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_73
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_74
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_75
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_76
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_77
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_78
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_79
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_80
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_81
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_82
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_83
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_84
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_85
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_86
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_87
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_88
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_89
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_90
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_91
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_92
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_93
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_94
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_95
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_96
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_97
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_98
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_99
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_100
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_101
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_102
+      - 🇬🇷_希腊_<电报+YouTube：VV科技>_103
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_104
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_105
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_106
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_107
+      - <电报+YouTube：VV科技>_108
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_109
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_110
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_111
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_112
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_113
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_114
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_115
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_116
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_117
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_118
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_119
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_120
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_3
-      - 🇧🇬_BG_保加利亚_4
-      - default_name_5
-      - 🇫🇷_FR_法国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_13
-      - default_name_14
-      - 🇺🇸_US_美国_15
-      - default_name_16
-      - 🇺🇸_US_美国_17
-      - 🇫🇷_FR_法国_18
-      - 🇬🇧_GB_英国_19
-      - 🇮🇩_ID_印度尼西亚_20
-      - 🇬🇧_GB_英国_21
-      - 🇳🇴_NO_挪威_22
-      - 🇫🇷_FR_法国_23
-      - 🇺🇸_US_美国_24
-      - 🇳🇴_NO_挪威_25
-      - 🇬🇧_GB_英国_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇫🇷_FR_法国_28
-      - 🇺🇸_US_美国_29
-      - 🇲🇾_MY_马来西亚_30
-      - 🇳🇴_NO_挪威_31
-      - 🇳🇴_NO_挪威_32
-      - 🇳🇴_NO_挪威_33
-      - 🇭🇰_HK_香港_34
-      - 🇫🇷_FR_法国_35
-      - 🇳🇴_NO_挪威_36
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_37
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_38
-      - 🇳🇴_NO_挪威_39
-      - 🇭🇰_HK_香港_40
-      - 🇬🇧_GB_英国_41
-      - 🇹🇼_TW_台湾_42
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_43
-      - 🇯🇵_JP_日本_44
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_45
-      - 🇭🇰_HK_香港_46
-      - 🇭🇰_HK_香港_47
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_48
-      - 🇯🇵_JP_日本_49
-      - 🇺🇸_US_美国_50
-      - 🇺🇸_US_美国_51
-      - 🇺🇸_US_美国_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇩🇰_DK_丹麦_54
-      - 🇺🇸_US_美国_55
-      - 🇦🇺_AU_澳大利亚_56
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_57
-      - 🇨🇦_CA_加拿大_58
-      - 🇮🇱_IL_以色列_59
-      - default_name_60
-      - 🇭🇰_HK_香港_61
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇺🇸_US_美国_64
-      - 🇭🇰_HK_香港_65
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_66
-      - 🇨🇦_CA_加拿大_67
-      - 🇺🇸_US_美国_68
-      - default_name_69
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_70
-      - 🇺🇸_US_美国_71
-      - default_name_72
-      - 🇨🇦_CA_加拿大_73
-      - 🇷🇺_RU_俄罗斯联邦_74
-      - 🇫🇷_FR_法国_75
-      - 🇫🇮_FI_芬兰_76
-      - 🇸🇪_SE_瑞典_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇺🇸_US_美国_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇦🇺_AU_澳大利亚_84
-      - 🇫🇷_FR_法国_85
-      - 🇨🇦_CA_加拿大_86
-      - 🇳🇴_NO_挪威_87
-      - 🇳🇴_NO_挪威_88
-      - 🇺🇸_US_美国_89
-      - 🇬🇧_GB_英国_90
-      - 🇫🇷_FR_法国_91
-      - 🇸🇬_SG_新加坡_92
-      - 🇫🇷_FR_法国_93
-      - 🇫🇷_FR_法国_94
-      - 🇳🇴_NO_挪威_95
-      - 🇫🇷_FR_法国_96
-      - 🇸🇬_SG_新加坡_97
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_98
-      - 🇺🇸_US_美国_99
-      - 🇫🇷_FR_法国_100
-      - 🇮🇳_IN_印度_101
-      - default_name_102
-      - 🇭🇰_HK_香港_103
-      - 🇨🇦_CA_加拿大_104
-      - 🇳🇴_NO_挪威_105
-      - 🇺🇸_US_美国_106
-      - 🇵🇹_PT_葡萄牙_107
-      - 🇺🇸_US_美国_108
-      - 🇸🇬_SG_新加坡_109
-      - 🇺🇸_US_美国_110
-      - 🇺🇸_US_美国_111
-      - 🇫🇷_FR_法国_112
-      - 🇺🇸_US_美国_113
-      - 🇺🇸_US_美国_114
-      - 🇭🇰_HK_香港_115
-      - 🇭🇰_HK_香港_116
-      - 🇺🇸_US_美国_117
-      - 🇭🇰_HK_香港_118
-      - 🇳🇴_NO_挪威_119
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_1
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_2
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_3
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_4
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_5
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_6
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_7
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_8
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_9
+      - 🇷🇺_俄罗斯联邦_<电报+YouTube：VV科技>_10
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_11
+      - 🇲🇽_墨西哥_<电报+YouTube：VV科技>_12
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_13
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_14
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_15
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_16
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_17
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_18
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_19
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_20
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_21
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_22
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_23
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_24
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_25
+      - 🇩🇪_德国_<电报+YouTube：VV科技>_26
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_27
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_28
+      - <电报+YouTube：VV科技>_29
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_30
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_31
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_32
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_33
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_34
+      - <电报+YouTube：VV科技>_35
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_36
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_37
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_38
+      - 🇳🇱_荷兰_<电报+YouTube：VV科技>_39
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_40
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_41
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_42
+      - 🇮🇳_印度_<电报+YouTube：VV科技>_43
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_44
+      - <电报+YouTube：VV科技>_45
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_46
+      - <电报+YouTube：VV科技>_47
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_48
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_49
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_50
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_51
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_52
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_53
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_54
+      - 🇧🇪_比利时_<电报+YouTube：VV科技>_55
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_56
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_57
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_58
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_59
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_60
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_61
+      - 🇮🇱_以色列_<电报+YouTube：VV科技>_62
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_63
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_64
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_65
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_66
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_67
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_68
+      - 🇩🇰_丹麦_<电报+YouTube：VV科技>_69
+      - 🇸🇪_瑞典_<电报+YouTube：VV科技>_70
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_71
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_72
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_73
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_74
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_75
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_76
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_77
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_78
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_79
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_80
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_81
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_82
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_83
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_84
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_85
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_86
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_87
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_88
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_89
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_90
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_91
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_92
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_93
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_94
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_95
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_96
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_97
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_98
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_99
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_100
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_101
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_102
+      - 🇬🇷_希腊_<电报+YouTube：VV科技>_103
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_104
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_105
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_106
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_107
+      - <电报+YouTube：VV科技>_108
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_109
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_110
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_111
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_112
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_113
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_114
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_115
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_116
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_117
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_118
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_119
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_120
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_3
-      - 🇧🇬_BG_保加利亚_4
-      - default_name_5
-      - 🇫🇷_FR_法国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_13
-      - default_name_14
-      - 🇺🇸_US_美国_15
-      - default_name_16
-      - 🇺🇸_US_美国_17
-      - 🇫🇷_FR_法国_18
-      - 🇬🇧_GB_英国_19
-      - 🇮🇩_ID_印度尼西亚_20
-      - 🇬🇧_GB_英国_21
-      - 🇳🇴_NO_挪威_22
-      - 🇫🇷_FR_法国_23
-      - 🇺🇸_US_美国_24
-      - 🇳🇴_NO_挪威_25
-      - 🇬🇧_GB_英国_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇫🇷_FR_法国_28
-      - 🇺🇸_US_美国_29
-      - 🇲🇾_MY_马来西亚_30
-      - 🇳🇴_NO_挪威_31
-      - 🇳🇴_NO_挪威_32
-      - 🇳🇴_NO_挪威_33
-      - 🇭🇰_HK_香港_34
-      - 🇫🇷_FR_法国_35
-      - 🇳🇴_NO_挪威_36
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_37
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_38
-      - 🇳🇴_NO_挪威_39
-      - 🇭🇰_HK_香港_40
-      - 🇬🇧_GB_英国_41
-      - 🇹🇼_TW_台湾_42
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_43
-      - 🇯🇵_JP_日本_44
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_45
-      - 🇭🇰_HK_香港_46
-      - 🇭🇰_HK_香港_47
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_48
-      - 🇯🇵_JP_日本_49
-      - 🇺🇸_US_美国_50
-      - 🇺🇸_US_美国_51
-      - 🇺🇸_US_美国_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇩🇰_DK_丹麦_54
-      - 🇺🇸_US_美国_55
-      - 🇦🇺_AU_澳大利亚_56
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_57
-      - 🇨🇦_CA_加拿大_58
-      - 🇮🇱_IL_以色列_59
-      - default_name_60
-      - 🇭🇰_HK_香港_61
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇺🇸_US_美国_64
-      - 🇭🇰_HK_香港_65
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_66
-      - 🇨🇦_CA_加拿大_67
-      - 🇺🇸_US_美国_68
-      - default_name_69
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_70
-      - 🇺🇸_US_美国_71
-      - default_name_72
-      - 🇨🇦_CA_加拿大_73
-      - 🇷🇺_RU_俄罗斯联邦_74
-      - 🇫🇷_FR_法国_75
-      - 🇫🇮_FI_芬兰_76
-      - 🇸🇪_SE_瑞典_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇺🇸_US_美国_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇦🇺_AU_澳大利亚_84
-      - 🇫🇷_FR_法国_85
-      - 🇨🇦_CA_加拿大_86
-      - 🇳🇴_NO_挪威_87
-      - 🇳🇴_NO_挪威_88
-      - 🇺🇸_US_美国_89
-      - 🇬🇧_GB_英国_90
-      - 🇫🇷_FR_法国_91
-      - 🇸🇬_SG_新加坡_92
-      - 🇫🇷_FR_法国_93
-      - 🇫🇷_FR_法国_94
-      - 🇳🇴_NO_挪威_95
-      - 🇫🇷_FR_法国_96
-      - 🇸🇬_SG_新加坡_97
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_98
-      - 🇺🇸_US_美国_99
-      - 🇫🇷_FR_法国_100
-      - 🇮🇳_IN_印度_101
-      - default_name_102
-      - 🇭🇰_HK_香港_103
-      - 🇨🇦_CA_加拿大_104
-      - 🇳🇴_NO_挪威_105
-      - 🇺🇸_US_美国_106
-      - 🇵🇹_PT_葡萄牙_107
-      - 🇺🇸_US_美国_108
-      - 🇸🇬_SG_新加坡_109
-      - 🇺🇸_US_美国_110
-      - 🇺🇸_US_美国_111
-      - 🇫🇷_FR_法国_112
-      - 🇺🇸_US_美国_113
-      - 🇺🇸_US_美国_114
-      - 🇭🇰_HK_香港_115
-      - 🇭🇰_HK_香港_116
-      - 🇺🇸_US_美国_117
-      - 🇭🇰_HK_香港_118
-      - 🇳🇴_NO_挪威_119
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_1
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_2
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_3
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_4
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_5
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_6
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_7
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_8
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_9
+      - 🇷🇺_俄罗斯联邦_<电报+YouTube：VV科技>_10
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_11
+      - 🇲🇽_墨西哥_<电报+YouTube：VV科技>_12
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_13
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_14
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_15
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_16
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_17
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_18
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_19
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_20
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_21
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_22
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_23
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_24
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_25
+      - 🇩🇪_德国_<电报+YouTube：VV科技>_26
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_27
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_28
+      - <电报+YouTube：VV科技>_29
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_30
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_31
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_32
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_33
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_34
+      - <电报+YouTube：VV科技>_35
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_36
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_37
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_38
+      - 🇳🇱_荷兰_<电报+YouTube：VV科技>_39
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_40
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_41
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_42
+      - 🇮🇳_印度_<电报+YouTube：VV科技>_43
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_44
+      - <电报+YouTube：VV科技>_45
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_46
+      - <电报+YouTube：VV科技>_47
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_48
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_49
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_50
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_51
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_52
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_53
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_54
+      - 🇧🇪_比利时_<电报+YouTube：VV科技>_55
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_56
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_57
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_58
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_59
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_60
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_61
+      - 🇮🇱_以色列_<电报+YouTube：VV科技>_62
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_63
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_64
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_65
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_66
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_67
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_68
+      - 🇩🇰_丹麦_<电报+YouTube：VV科技>_69
+      - 🇸🇪_瑞典_<电报+YouTube：VV科技>_70
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_71
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_72
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_73
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_74
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_75
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_76
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_77
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_78
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_79
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_80
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_81
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_82
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_83
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_84
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_85
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_86
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_87
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_88
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_89
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_90
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_91
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_92
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_93
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_94
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_95
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_96
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_97
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_98
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_99
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_100
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_101
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_102
+      - 🇬🇷_希腊_<电报+YouTube：VV科技>_103
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_104
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_105
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_106
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_107
+      - <电报+YouTube：VV科技>_108
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_109
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_110
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_111
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_112
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_113
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_114
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_115
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_116
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_117
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_118
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_119
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_120
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_3
-      - 🇧🇬_BG_保加利亚_4
-      - default_name_5
-      - 🇫🇷_FR_法国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_13
-      - default_name_14
-      - 🇺🇸_US_美国_15
-      - default_name_16
-      - 🇺🇸_US_美国_17
-      - 🇫🇷_FR_法国_18
-      - 🇬🇧_GB_英国_19
-      - 🇮🇩_ID_印度尼西亚_20
-      - 🇬🇧_GB_英国_21
-      - 🇳🇴_NO_挪威_22
-      - 🇫🇷_FR_法国_23
-      - 🇺🇸_US_美国_24
-      - 🇳🇴_NO_挪威_25
-      - 🇬🇧_GB_英国_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇫🇷_FR_法国_28
-      - 🇺🇸_US_美国_29
-      - 🇲🇾_MY_马来西亚_30
-      - 🇳🇴_NO_挪威_31
-      - 🇳🇴_NO_挪威_32
-      - 🇳🇴_NO_挪威_33
-      - 🇭🇰_HK_香港_34
-      - 🇫🇷_FR_法国_35
-      - 🇳🇴_NO_挪威_36
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_37
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_38
-      - 🇳🇴_NO_挪威_39
-      - 🇭🇰_HK_香港_40
-      - 🇬🇧_GB_英国_41
-      - 🇹🇼_TW_台湾_42
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_43
-      - 🇯🇵_JP_日本_44
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_45
-      - 🇭🇰_HK_香港_46
-      - 🇭🇰_HK_香港_47
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_48
-      - 🇯🇵_JP_日本_49
-      - 🇺🇸_US_美国_50
-      - 🇺🇸_US_美国_51
-      - 🇺🇸_US_美国_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇩🇰_DK_丹麦_54
-      - 🇺🇸_US_美国_55
-      - 🇦🇺_AU_澳大利亚_56
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_57
-      - 🇨🇦_CA_加拿大_58
-      - 🇮🇱_IL_以色列_59
-      - default_name_60
-      - 🇭🇰_HK_香港_61
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇺🇸_US_美国_64
-      - 🇭🇰_HK_香港_65
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_66
-      - 🇨🇦_CA_加拿大_67
-      - 🇺🇸_US_美国_68
-      - default_name_69
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_70
-      - 🇺🇸_US_美国_71
-      - default_name_72
-      - 🇨🇦_CA_加拿大_73
-      - 🇷🇺_RU_俄罗斯联邦_74
-      - 🇫🇷_FR_法国_75
-      - 🇫🇮_FI_芬兰_76
-      - 🇸🇪_SE_瑞典_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇺🇸_US_美国_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇦🇺_AU_澳大利亚_84
-      - 🇫🇷_FR_法国_85
-      - 🇨🇦_CA_加拿大_86
-      - 🇳🇴_NO_挪威_87
-      - 🇳🇴_NO_挪威_88
-      - 🇺🇸_US_美国_89
-      - 🇬🇧_GB_英国_90
-      - 🇫🇷_FR_法国_91
-      - 🇸🇬_SG_新加坡_92
-      - 🇫🇷_FR_法国_93
-      - 🇫🇷_FR_法国_94
-      - 🇳🇴_NO_挪威_95
-      - 🇫🇷_FR_法国_96
-      - 🇸🇬_SG_新加坡_97
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_98
-      - 🇺🇸_US_美国_99
-      - 🇫🇷_FR_法国_100
-      - 🇮🇳_IN_印度_101
-      - default_name_102
-      - 🇭🇰_HK_香港_103
-      - 🇨🇦_CA_加拿大_104
-      - 🇳🇴_NO_挪威_105
-      - 🇺🇸_US_美国_106
-      - 🇵🇹_PT_葡萄牙_107
-      - 🇺🇸_US_美国_108
-      - 🇸🇬_SG_新加坡_109
-      - 🇺🇸_US_美国_110
-      - 🇺🇸_US_美国_111
-      - 🇫🇷_FR_法国_112
-      - 🇺🇸_US_美国_113
-      - 🇺🇸_US_美国_114
-      - 🇭🇰_HK_香港_115
-      - 🇭🇰_HK_香港_116
-      - 🇺🇸_US_美国_117
-      - 🇭🇰_HK_香港_118
-      - 🇳🇴_NO_挪威_119
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_1
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_2
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_3
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_4
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_5
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_6
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_7
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_8
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_9
+      - 🇷🇺_俄罗斯联邦_<电报+YouTube：VV科技>_10
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_11
+      - 🇲🇽_墨西哥_<电报+YouTube：VV科技>_12
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_13
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_14
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_15
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_16
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_17
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_18
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_19
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_20
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_21
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_22
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_23
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_24
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_25
+      - 🇩🇪_德国_<电报+YouTube：VV科技>_26
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_27
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_28
+      - <电报+YouTube：VV科技>_29
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_30
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_31
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_32
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_33
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_34
+      - <电报+YouTube：VV科技>_35
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_36
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_37
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_38
+      - 🇳🇱_荷兰_<电报+YouTube：VV科技>_39
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_40
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_41
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_42
+      - 🇮🇳_印度_<电报+YouTube：VV科技>_43
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_44
+      - <电报+YouTube：VV科技>_45
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_46
+      - <电报+YouTube：VV科技>_47
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_48
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_49
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_50
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_51
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_52
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_53
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_54
+      - 🇧🇪_比利时_<电报+YouTube：VV科技>_55
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_56
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_57
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_58
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_59
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_60
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_61
+      - 🇮🇱_以色列_<电报+YouTube：VV科技>_62
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_63
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_64
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_65
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_66
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_67
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_68
+      - 🇩🇰_丹麦_<电报+YouTube：VV科技>_69
+      - 🇸🇪_瑞典_<电报+YouTube：VV科技>_70
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_71
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_72
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_73
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_74
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_75
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_76
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_77
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_78
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_79
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_80
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_81
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_82
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_83
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_84
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_85
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_86
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_87
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_88
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_89
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_90
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_91
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_92
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_93
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_94
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_95
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_96
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_97
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_98
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_99
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_100
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_101
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_102
+      - 🇬🇷_希腊_<电报+YouTube：VV科技>_103
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_104
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_105
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_106
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_107
+      - <电报+YouTube：VV科技>_108
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_109
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_110
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_111
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_112
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_113
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_114
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_115
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_116
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_117
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_118
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_119
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_120
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1010,125 +1018,126 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_3
-      - 🇧🇬_BG_保加利亚_4
-      - default_name_5
-      - 🇫🇷_FR_法国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_13
-      - default_name_14
-      - 🇺🇸_US_美国_15
-      - default_name_16
-      - 🇺🇸_US_美国_17
-      - 🇫🇷_FR_法国_18
-      - 🇬🇧_GB_英国_19
-      - 🇮🇩_ID_印度尼西亚_20
-      - 🇬🇧_GB_英国_21
-      - 🇳🇴_NO_挪威_22
-      - 🇫🇷_FR_法国_23
-      - 🇺🇸_US_美国_24
-      - 🇳🇴_NO_挪威_25
-      - 🇬🇧_GB_英国_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇫🇷_FR_法国_28
-      - 🇺🇸_US_美国_29
-      - 🇲🇾_MY_马来西亚_30
-      - 🇳🇴_NO_挪威_31
-      - 🇳🇴_NO_挪威_32
-      - 🇳🇴_NO_挪威_33
-      - 🇭🇰_HK_香港_34
-      - 🇫🇷_FR_法国_35
-      - 🇳🇴_NO_挪威_36
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_37
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_38
-      - 🇳🇴_NO_挪威_39
-      - 🇭🇰_HK_香港_40
-      - 🇬🇧_GB_英国_41
-      - 🇹🇼_TW_台湾_42
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_43
-      - 🇯🇵_JP_日本_44
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_45
-      - 🇭🇰_HK_香港_46
-      - 🇭🇰_HK_香港_47
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_48
-      - 🇯🇵_JP_日本_49
-      - 🇺🇸_US_美国_50
-      - 🇺🇸_US_美国_51
-      - 🇺🇸_US_美国_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇩🇰_DK_丹麦_54
-      - 🇺🇸_US_美国_55
-      - 🇦🇺_AU_澳大利亚_56
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_57
-      - 🇨🇦_CA_加拿大_58
-      - 🇮🇱_IL_以色列_59
-      - default_name_60
-      - 🇭🇰_HK_香港_61
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇺🇸_US_美国_64
-      - 🇭🇰_HK_香港_65
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_66
-      - 🇨🇦_CA_加拿大_67
-      - 🇺🇸_US_美国_68
-      - default_name_69
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_70
-      - 🇺🇸_US_美国_71
-      - default_name_72
-      - 🇨🇦_CA_加拿大_73
-      - 🇷🇺_RU_俄罗斯联邦_74
-      - 🇫🇷_FR_法国_75
-      - 🇫🇮_FI_芬兰_76
-      - 🇸🇪_SE_瑞典_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇺🇸_US_美国_81
-      - 🇫🇷_FR_法国_82
-      - default_name_83
-      - 🇦🇺_AU_澳大利亚_84
-      - 🇫🇷_FR_法国_85
-      - 🇨🇦_CA_加拿大_86
-      - 🇳🇴_NO_挪威_87
-      - 🇳🇴_NO_挪威_88
-      - 🇺🇸_US_美国_89
-      - 🇬🇧_GB_英国_90
-      - 🇫🇷_FR_法国_91
-      - 🇸🇬_SG_新加坡_92
-      - 🇫🇷_FR_法国_93
-      - 🇫🇷_FR_法国_94
-      - 🇳🇴_NO_挪威_95
-      - 🇫🇷_FR_法国_96
-      - 🇸🇬_SG_新加坡_97
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_98
-      - 🇺🇸_US_美国_99
-      - 🇫🇷_FR_法国_100
-      - 🇮🇳_IN_印度_101
-      - default_name_102
-      - 🇭🇰_HK_香港_103
-      - 🇨🇦_CA_加拿大_104
-      - 🇳🇴_NO_挪威_105
-      - 🇺🇸_US_美国_106
-      - 🇵🇹_PT_葡萄牙_107
-      - 🇺🇸_US_美国_108
-      - 🇸🇬_SG_新加坡_109
-      - 🇺🇸_US_美国_110
-      - 🇺🇸_US_美国_111
-      - 🇫🇷_FR_法国_112
-      - 🇺🇸_US_美国_113
-      - 🇺🇸_US_美国_114
-      - 🇭🇰_HK_香港_115
-      - 🇭🇰_HK_香港_116
-      - 🇺🇸_US_美国_117
-      - 🇭🇰_HK_香港_118
-      - 🇳🇴_NO_挪威_119
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_1
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_2
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_3
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_4
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_5
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_6
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_7
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_8
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_9
+      - 🇷🇺_俄罗斯联邦_<电报+YouTube：VV科技>_10
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_11
+      - 🇲🇽_墨西哥_<电报+YouTube：VV科技>_12
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_13
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_14
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_15
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_16
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_17
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_18
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_19
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_20
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_21
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_22
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_23
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_24
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_25
+      - 🇩🇪_德国_<电报+YouTube：VV科技>_26
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_27
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_28
+      - <电报+YouTube：VV科技>_29
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_30
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_31
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_32
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_33
+      - 🇦🇺_澳大利亚_<电报+YouTube：VV科技>_34
+      - <电报+YouTube：VV科技>_35
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_36
+      - 🇯🇵_日本_<电报+YouTube：VV科技>_37
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_38
+      - 🇳🇱_荷兰_<电报+YouTube：VV科技>_39
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_40
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_41
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_42
+      - 🇮🇳_印度_<电报+YouTube：VV科技>_43
+      - 🇸🇬_新加坡_<电报+YouTube：VV科技>_44
+      - <电报+YouTube：VV科技>_45
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_46
+      - <电报+YouTube：VV科技>_47
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_48
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_49
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_50
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_51
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_52
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_53
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_54
+      - 🇧🇪_比利时_<电报+YouTube：VV科技>_55
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_56
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_57
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_58
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_59
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_60
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_61
+      - 🇮🇱_以色列_<电报+YouTube：VV科技>_62
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_63
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_64
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_65
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_66
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_67
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_68
+      - 🇩🇰_丹麦_<电报+YouTube：VV科技>_69
+      - 🇸🇪_瑞典_<电报+YouTube：VV科技>_70
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_71
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_72
+      - 🇭🇰_香港_<电报+YouTube：VV科技>_73
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_74
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_75
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_76
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_77
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_78
+      - 🇫🇮_芬兰_<电报+YouTube：VV科技>_79
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_80
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_81
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_82
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_83
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_84
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_85
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_86
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_87
+      - 🇬🇧_英国_<电报+YouTube：VV科技>_88
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_89
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_90
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_91
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_92
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_93
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_94
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_95
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_96
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_97
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_98
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_99
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_100
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_101
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_102
+      - 🇬🇷_希腊_<电报+YouTube：VV科技>_103
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_104
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_105
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_106
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_107
+      - <电报+YouTube：VV科技>_108
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_109
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_110
+      - 🇳🇴_挪威_<电报+YouTube：VV科技>_111
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_112
+      - 🇨🇳_中国跳转_<电报+YouTube：VV科技>_113
+      - 🇫🇷_法国_<电报+YouTube：VV科技>_114
+      - 🇨🇿_捷克_<电报+YouTube：VV科技>_115
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_116
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_117
+      - 🇨🇦_加拿大_<电报+YouTube：VV科技>_118
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_119
+      - 🇺🇸_美国_<电报+YouTube：VV科技>_120
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
