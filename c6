@@ -5,844 +5,852 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '冰河圈子_1', server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9}
-  - {name: '冰河圈子_2', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '冰河圈子_3', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '冰河圈子_4', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '冰河圈子_5', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '冰河圈子_6', server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
-  - {name: '冰河圈子_7', server: 211.99.96.13, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_8', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '冰河圈子_9', server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '冰河圈子_10', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '冰河圈子_11', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '冰河圈子_12', server: 00.cn3.rocketdns.xyz, port: 65015, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_13', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
-  - {name: '冰河圈子_14', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '冰河圈子_15', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '冰河圈子_16', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: '冰河圈子_17', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '冰河圈子_18', server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '冰河圈子_19', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '冰河圈子_20', server: 00.cn3.rocketdns.xyz, port: 65021, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_21', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: '冰河圈子_22', server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '冰河圈子_23', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '冰河圈子_24', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '冰河圈子_25', server: 00.cn2.rocketdns.xyz, port: 65013, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_26', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '冰河圈子_27', server: 00.cn3.rocketdns.xyz, port: 65011, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_28', server: 00.cn3.rocketdns.xyz, port: 65020, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_29', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '冰河圈子_30', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '冰河圈子_31', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: '冰河圈子_32', server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '冰河圈子_33', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '冰河圈子_34', server: iepl.sg.d6e4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_35', server: 00.cn2.rocketdns.xyz, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_36', server: 211.99.96.32, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_37', server: 211.99.96.33, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_38', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: '冰河圈子_39', server: 116.163.10.145, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_40', server: 18.192.212.68, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '冰河圈子_41', server: iepl.tw.9548.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_42', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '冰河圈子_43', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '冰河圈子_44', server: 211.99.96.16, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_45', server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
-  - {name: '冰河圈子_46', server: 211.99.96.35, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_47', server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_48', server: iepl.hk.f6e8.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_49', server: iepl.tw.4edb.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_50', server: 120.232.82.190, port: 3002, type: ss, cipher: aes-256-gcm, password: 16b33a734063d5bb793634198ca90b73}
-  - {name: '冰河圈子_51', server: 00.cn1.rocketdns.xyz, port: 65018, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_52', server: 116.163.14.146, port: 65018, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_53', server: 116.163.14.146, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_54', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: '冰河圈子_55', server: 211.99.96.9, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_56', server: 00.cn2.rocketdns.xyz, port: 65019, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_57', server: iepl.hk.023d.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_58', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '冰河圈子_59', server: iepl.hk.4a75.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_60', server: 211.99.96.4, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_61', server: 211.99.96.34, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_62', server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '冰河圈子_63', server: 211.99.96.10, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_64', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '冰河圈子_65', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: '冰河圈子_66', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '冰河圈子_67', server: iepl.hk.0686.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_68', server: iepl.sg.bd6f.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_69', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '冰河圈子_70', server: 116.163.10.145, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_71', server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
-  - {name: '冰河圈子_72', server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '冰河圈子_73', server: 00.cn3.rocketdns.xyz, port: 65014, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_74', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '冰河圈子_75', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '冰河圈子_76', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '冰河圈子_77', server: iepl.hk.fda0.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_78', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '冰河圈子_79', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '冰河圈子_80', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '冰河圈子_81', server: iepl.hk.f663.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_82', server: 211.99.96.11, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '冰河圈子_83', server: 00.cn3.rocketdns.xyz, port: 65002, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_84', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '冰河圈子_85', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '冰河圈子_86', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '冰河圈子_87', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
-  - {name: '冰河圈子_88', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '冰河圈子_89', server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
-  - {name: '冰河圈子_90', server: 120.241.72.90, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
-  - {name: '冰河圈子_91', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '冰河圈子_92', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '冰河圈子_93', server: 120.241.72.97, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
-  - {name: '冰河圈子_94', server: 116.163.10.145, port: 65013, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '冰河圈子_95', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '冰河圈子_96', server: 120.241.72.97, port: 18123, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
-  - {name: '冰河圈子_97', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '冰河圈子_98', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '冰河圈子_99', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '冰河圈子_100', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇦🇺AU_101+|11.78Mb', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇦🇺AU_105+|+9.31Mb', server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_279+|29.39Mb', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_359+|27.39Mb', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_360+|37.03Mb', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_361+|13.62Mb', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_377+|35.87Mb', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇨🇳CN_406+|19.96Mb', server: 211.99.96.40, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Youtube:鹏哥分享🇨🇳CN_407+|+6.46Mb', server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9}
+  - {name: 'Youtube:鹏哥分享🇩🇪+DE_457+|24.92Mb', server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: 'Youtube:鹏哥分享🇩🇪+DE_459+|84.48Mb', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 'Youtube:鹏哥分享🇫🇷FR_550+|224.01Mb', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Youtube:鹏哥分享🇫🇷FR_551+|45.93Mb', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇫🇷FR_554+|13.24Mb', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Youtube:鹏哥分享🇫🇷FR_556+|133.77Mb', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇫🇷FR_557+|127.50Mb', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇫🇷FR_579+|132.10Mb', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇫🇷FR_584+|159.20Mb', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享🇫🇷FR_589+|16.13Mb', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇫🇷FR_591+|34.60Mb', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: 'Youtube:鹏哥分享🇫🇷FR_595+|186.47Mb', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Youtube:鹏哥分享🇬🇧+GB_598+|20.99Mb', server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: 'Youtube:鹏哥分享🇬🇷GR_664+|+4.51Mb', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: 'Youtube:鹏哥分享🇭🇰HK_669+|+3.37Mb', server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇭🇰HK_671+|15.75Mb', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇭🇰HK_676+|+2.63Mb', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享🇭🇰HK_681+|22.55Mb', server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0}
+  - {name: 'Youtube:鹏哥分享🇭🇰HK_682+|+2.75Mb', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇮🇱IL_707+|11.32Mb', server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: 'Youtube:鹏哥分享🇳🇱NL_845+|30.69Mb', server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
+  - {name: 'Youtube:鹏哥分享🇳🇴+NO_858+|+2.37Mb', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇳🇴+NO_859+|17.36Mb', server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: 'Youtube:鹏哥分享🇳🇴+NO_860+|+4.24Mb', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享🇳🇴NO_868+|+1.22Mb', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇳🇴NO_871+|17.58Mb', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇳🇴NO_876+|+4.66Mb', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇳🇴NO_877+|+0.36Mb', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Youtube:鹏哥分享🇳🇴NO_879+|+4.71Mb', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇳🇴NO_882+|+1.34Mb', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇳🇴NO_887+|+2.04Mb', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Youtube:鹏哥分享🇳🇿+NZ_888+|+7.66Mb', server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
+  - {name: 'Youtube:鹏哥分享🇵🇭+PH_898+|+5.92Mb', server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
+  - {name: 'Youtube:鹏哥分享🇵🇹PT_915+|13.14Mb', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: 'Youtube:鹏哥分享🇷🇴RO_924+|+6.93Mb', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: 'Youtube:鹏哥分享🇷🇺+RU_933+|54.40Mb', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 'Youtube:鹏哥分享🇸🇬SG_1033+|+8.48Mb', server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
+  - {name: 'Youtube:鹏哥分享🇹🇼TW_1109+|10.33Mb', server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: 'Youtube:鹏哥分享🇺🇸+US_1134+|+2.10Mb', server: 23.19.26.246, port: 10515, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1244+|27.20Mb', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1253+|25.47Mb', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1284+|28.44Mb', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1511+|25.73Mb', server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1589+|27.22Mb', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1652+|133.13Mb', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1664+|+8.90Mb', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1686+|14.56Mb', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1888+|14.51Mb', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1954+|+8.55Mb', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1958+|+5.13Mb', server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_2003+|+5.99Mb', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇻🇳VN_2126+|+6.55Mb', server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: 'Youtube:鹏哥分享_1', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Youtube:鹏哥分享_2', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: 'Youtube:鹏哥分享_3', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: 'Youtube:鹏哥分享_4', server: 18.192.212.68, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_5', server: iepl.tw.9548.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Youtube:鹏哥分享_6', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: 'Youtube:鹏哥分享_7', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: 'Youtube:鹏哥分享_8', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Youtube:鹏哥分享_9', server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_10', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Youtube:鹏哥分享_11', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Youtube:鹏哥分享_12', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Youtube:鹏哥分享_13', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享_14', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享_15', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Youtube:鹏哥分享_16', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享_17', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Youtube:鹏哥分享_18', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享_19', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: 'Youtube:鹏哥分享_20', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享_21', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Youtube:鹏哥分享_22', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Youtube:鹏哥分享_23', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享_24', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享_25', server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享_26', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Youtube:鹏哥分享_27', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
+  - {name: 'Youtube:鹏哥分享_28', server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
+  - {name: 'Youtube:鹏哥分享_29', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享_30', server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: 'Youtube:鹏哥分享_31', server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: 'Youtube:鹏哥分享_32', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_33', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: 'Youtube:鹏哥分享_34', server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/}
+  - {name: 'Youtube:鹏哥分享_35', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: 'Youtube:鹏哥分享_36', server: 195.133.53.192, port: 27182, type: vmess, uuid: a22df2ec-6200-11ec-9070-fecccc2333dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /AmrTCtbk/}
+  - {name: 'Youtube:鹏哥分享_37', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 'Youtube:鹏哥分享_38', server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Youtube:鹏哥分享_39', server: 116.163.14.146, port: 18119, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Youtube:鹏哥分享_40', server: cm-jm.okvpn.xyz, port: 20047, type: vmess, uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 冰河圈子_1
-      - 冰河圈子_2
-      - 冰河圈子_3
-      - 冰河圈子_4
-      - 冰河圈子_5
-      - 冰河圈子_6
-      - 冰河圈子_7
-      - 冰河圈子_8
-      - 冰河圈子_9
-      - 冰河圈子_10
-      - 冰河圈子_11
-      - 冰河圈子_12
-      - 冰河圈子_13
-      - 冰河圈子_14
-      - 冰河圈子_15
-      - 冰河圈子_16
-      - 冰河圈子_17
-      - 冰河圈子_18
-      - 冰河圈子_19
-      - 冰河圈子_20
-      - 冰河圈子_21
-      - 冰河圈子_22
-      - 冰河圈子_23
-      - 冰河圈子_24
-      - 冰河圈子_25
-      - 冰河圈子_26
-      - 冰河圈子_27
-      - 冰河圈子_28
-      - 冰河圈子_29
-      - 冰河圈子_30
-      - 冰河圈子_31
-      - 冰河圈子_32
-      - 冰河圈子_33
-      - 冰河圈子_34
-      - 冰河圈子_35
-      - 冰河圈子_36
-      - 冰河圈子_37
-      - 冰河圈子_38
-      - 冰河圈子_39
-      - 冰河圈子_40
-      - 冰河圈子_41
-      - 冰河圈子_42
-      - 冰河圈子_43
-      - 冰河圈子_44
-      - 冰河圈子_45
-      - 冰河圈子_46
-      - 冰河圈子_47
-      - 冰河圈子_48
-      - 冰河圈子_49
-      - 冰河圈子_50
-      - 冰河圈子_51
-      - 冰河圈子_52
-      - 冰河圈子_53
-      - 冰河圈子_54
-      - 冰河圈子_55
-      - 冰河圈子_56
-      - 冰河圈子_57
-      - 冰河圈子_58
-      - 冰河圈子_59
-      - 冰河圈子_60
-      - 冰河圈子_61
-      - 冰河圈子_62
-      - 冰河圈子_63
-      - 冰河圈子_64
-      - 冰河圈子_65
-      - 冰河圈子_66
-      - 冰河圈子_67
-      - 冰河圈子_68
-      - 冰河圈子_69
-      - 冰河圈子_70
-      - 冰河圈子_71
-      - 冰河圈子_72
-      - 冰河圈子_73
-      - 冰河圈子_74
-      - 冰河圈子_75
-      - 冰河圈子_76
-      - 冰河圈子_77
-      - 冰河圈子_78
-      - 冰河圈子_79
-      - 冰河圈子_80
-      - 冰河圈子_81
-      - 冰河圈子_82
-      - 冰河圈子_83
-      - 冰河圈子_84
-      - 冰河圈子_85
-      - 冰河圈子_86
-      - 冰河圈子_87
-      - 冰河圈子_88
-      - 冰河圈子_89
-      - 冰河圈子_90
-      - 冰河圈子_91
-      - 冰河圈子_92
-      - 冰河圈子_93
-      - 冰河圈子_94
-      - 冰河圈子_95
-      - 冰河圈子_96
-      - 冰河圈子_97
-      - 冰河圈子_98
-      - 冰河圈子_99
-      - 冰河圈子_100
+      - Youtube:鹏哥分享🇦🇺AU_101+|11.78Mb
+      - Youtube:鹏哥分享🇦🇺AU_105+|+9.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|29.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_359+|27.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_360+|37.03Mb
+      - Youtube:鹏哥分享🇨🇦CA_361+|13.62Mb
+      - Youtube:鹏哥分享🇨🇦CA_377+|35.87Mb
+      - Youtube:鹏哥分享🇨🇳CN_406+|19.96Mb
+      - Youtube:鹏哥分享🇨🇳CN_407+|+6.46Mb
+      - Youtube:鹏哥分享🇩🇪+DE_457+|24.92Mb
+      - Youtube:鹏哥分享🇩🇪+DE_459+|84.48Mb
+      - Youtube:鹏哥分享🇫🇷FR_550+|224.01Mb
+      - Youtube:鹏哥分享🇫🇷FR_551+|45.93Mb
+      - Youtube:鹏哥分享🇫🇷FR_554+|13.24Mb
+      - Youtube:鹏哥分享🇫🇷FR_556+|133.77Mb
+      - Youtube:鹏哥分享🇫🇷FR_557+|127.50Mb
+      - Youtube:鹏哥分享🇫🇷FR_579+|132.10Mb
+      - Youtube:鹏哥分享🇫🇷FR_584+|159.20Mb
+      - Youtube:鹏哥分享🇫🇷FR_589+|16.13Mb
+      - Youtube:鹏哥分享🇫🇷FR_591+|34.60Mb
+      - Youtube:鹏哥分享🇫🇷FR_595+|186.47Mb
+      - Youtube:鹏哥分享🇬🇧+GB_598+|20.99Mb
+      - Youtube:鹏哥分享🇬🇷GR_664+|+4.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_669+|+3.37Mb
+      - Youtube:鹏哥分享🇭🇰HK_671+|15.75Mb
+      - Youtube:鹏哥分享🇭🇰HK_676+|+2.63Mb
+      - Youtube:鹏哥分享🇭🇰HK_681+|22.55Mb
+      - Youtube:鹏哥分享🇭🇰HK_682+|+2.75Mb
+      - Youtube:鹏哥分享🇮🇱IL_707+|11.32Mb
+      - Youtube:鹏哥分享🇳🇱NL_845+|30.69Mb
+      - Youtube:鹏哥分享🇳🇴+NO_858+|+2.37Mb
+      - Youtube:鹏哥分享🇳🇴+NO_859+|17.36Mb
+      - Youtube:鹏哥分享🇳🇴+NO_860+|+4.24Mb
+      - Youtube:鹏哥分享🇳🇴NO_868+|+1.22Mb
+      - Youtube:鹏哥分享🇳🇴NO_871+|17.58Mb
+      - Youtube:鹏哥分享🇳🇴NO_876+|+4.66Mb
+      - Youtube:鹏哥分享🇳🇴NO_877+|+0.36Mb
+      - Youtube:鹏哥分享🇳🇴NO_879+|+4.71Mb
+      - Youtube:鹏哥分享🇳🇴NO_882+|+1.34Mb
+      - Youtube:鹏哥分享🇳🇴NO_887+|+2.04Mb
+      - Youtube:鹏哥分享🇳🇿+NZ_888+|+7.66Mb
+      - Youtube:鹏哥分享🇵🇭+PH_898+|+5.92Mb
+      - Youtube:鹏哥分享🇵🇹PT_915+|13.14Mb
+      - Youtube:鹏哥分享🇷🇴RO_924+|+6.93Mb
+      - Youtube:鹏哥分享🇷🇺+RU_933+|54.40Mb
+      - Youtube:鹏哥分享🇸🇬SG_1033+|+8.48Mb
+      - Youtube:鹏哥分享🇹🇼TW_1109+|10.33Mb
+      - Youtube:鹏哥分享🇺🇸+US_1134+|+2.10Mb
+      - Youtube:鹏哥分享🇺🇸US_1244+|27.20Mb
+      - Youtube:鹏哥分享🇺🇸US_1253+|25.47Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|28.44Mb
+      - Youtube:鹏哥分享🇺🇸US_1511+|25.73Mb
+      - Youtube:鹏哥分享🇺🇸US_1589+|27.22Mb
+      - Youtube:鹏哥分享🇺🇸US_1652+|133.13Mb
+      - Youtube:鹏哥分享🇺🇸US_1664+|+8.90Mb
+      - Youtube:鹏哥分享🇺🇸US_1686+|14.56Mb
+      - Youtube:鹏哥分享🇺🇸US_1888+|14.51Mb
+      - Youtube:鹏哥分享🇺🇸US_1954+|+8.55Mb
+      - Youtube:鹏哥分享🇺🇸US_1958+|+5.13Mb
+      - Youtube:鹏哥分享🇺🇸US_2003+|+5.99Mb
+      - Youtube:鹏哥分享🇻🇳VN_2126+|+6.55Mb
+      - Youtube:鹏哥分享_1
+      - Youtube:鹏哥分享_2
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_4
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_6
+      - Youtube:鹏哥分享_7
+      - Youtube:鹏哥分享_8
+      - Youtube:鹏哥分享_9
+      - Youtube:鹏哥分享_10
+      - Youtube:鹏哥分享_11
+      - Youtube:鹏哥分享_12
+      - Youtube:鹏哥分享_13
+      - Youtube:鹏哥分享_14
+      - Youtube:鹏哥分享_15
+      - Youtube:鹏哥分享_16
+      - Youtube:鹏哥分享_17
+      - Youtube:鹏哥分享_18
+      - Youtube:鹏哥分享_19
+      - Youtube:鹏哥分享_20
+      - Youtube:鹏哥分享_21
+      - Youtube:鹏哥分享_22
+      - Youtube:鹏哥分享_23
+      - Youtube:鹏哥分享_24
+      - Youtube:鹏哥分享_25
+      - Youtube:鹏哥分享_26
+      - Youtube:鹏哥分享_27
+      - Youtube:鹏哥分享_28
+      - Youtube:鹏哥分享_29
+      - Youtube:鹏哥分享_30
+      - Youtube:鹏哥分享_31
+      - Youtube:鹏哥分享_32
+      - Youtube:鹏哥分享_33
+      - Youtube:鹏哥分享_34
+      - Youtube:鹏哥分享_35
+      - Youtube:鹏哥分享_36
+      - Youtube:鹏哥分享_37
+      - Youtube:鹏哥分享_38
+      - Youtube:鹏哥分享_39
+      - Youtube:鹏哥分享_40
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 冰河圈子_1
-      - 冰河圈子_2
-      - 冰河圈子_3
-      - 冰河圈子_4
-      - 冰河圈子_5
-      - 冰河圈子_6
-      - 冰河圈子_7
-      - 冰河圈子_8
-      - 冰河圈子_9
-      - 冰河圈子_10
-      - 冰河圈子_11
-      - 冰河圈子_12
-      - 冰河圈子_13
-      - 冰河圈子_14
-      - 冰河圈子_15
-      - 冰河圈子_16
-      - 冰河圈子_17
-      - 冰河圈子_18
-      - 冰河圈子_19
-      - 冰河圈子_20
-      - 冰河圈子_21
-      - 冰河圈子_22
-      - 冰河圈子_23
-      - 冰河圈子_24
-      - 冰河圈子_25
-      - 冰河圈子_26
-      - 冰河圈子_27
-      - 冰河圈子_28
-      - 冰河圈子_29
-      - 冰河圈子_30
-      - 冰河圈子_31
-      - 冰河圈子_32
-      - 冰河圈子_33
-      - 冰河圈子_34
-      - 冰河圈子_35
-      - 冰河圈子_36
-      - 冰河圈子_37
-      - 冰河圈子_38
-      - 冰河圈子_39
-      - 冰河圈子_40
-      - 冰河圈子_41
-      - 冰河圈子_42
-      - 冰河圈子_43
-      - 冰河圈子_44
-      - 冰河圈子_45
-      - 冰河圈子_46
-      - 冰河圈子_47
-      - 冰河圈子_48
-      - 冰河圈子_49
-      - 冰河圈子_50
-      - 冰河圈子_51
-      - 冰河圈子_52
-      - 冰河圈子_53
-      - 冰河圈子_54
-      - 冰河圈子_55
-      - 冰河圈子_56
-      - 冰河圈子_57
-      - 冰河圈子_58
-      - 冰河圈子_59
-      - 冰河圈子_60
-      - 冰河圈子_61
-      - 冰河圈子_62
-      - 冰河圈子_63
-      - 冰河圈子_64
-      - 冰河圈子_65
-      - 冰河圈子_66
-      - 冰河圈子_67
-      - 冰河圈子_68
-      - 冰河圈子_69
-      - 冰河圈子_70
-      - 冰河圈子_71
-      - 冰河圈子_72
-      - 冰河圈子_73
-      - 冰河圈子_74
-      - 冰河圈子_75
-      - 冰河圈子_76
-      - 冰河圈子_77
-      - 冰河圈子_78
-      - 冰河圈子_79
-      - 冰河圈子_80
-      - 冰河圈子_81
-      - 冰河圈子_82
-      - 冰河圈子_83
-      - 冰河圈子_84
-      - 冰河圈子_85
-      - 冰河圈子_86
-      - 冰河圈子_87
-      - 冰河圈子_88
-      - 冰河圈子_89
-      - 冰河圈子_90
-      - 冰河圈子_91
-      - 冰河圈子_92
-      - 冰河圈子_93
-      - 冰河圈子_94
-      - 冰河圈子_95
-      - 冰河圈子_96
-      - 冰河圈子_97
-      - 冰河圈子_98
-      - 冰河圈子_99
-      - 冰河圈子_100
+      - Youtube:鹏哥分享🇦🇺AU_101+|11.78Mb
+      - Youtube:鹏哥分享🇦🇺AU_105+|+9.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|29.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_359+|27.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_360+|37.03Mb
+      - Youtube:鹏哥分享🇨🇦CA_361+|13.62Mb
+      - Youtube:鹏哥分享🇨🇦CA_377+|35.87Mb
+      - Youtube:鹏哥分享🇨🇳CN_406+|19.96Mb
+      - Youtube:鹏哥分享🇨🇳CN_407+|+6.46Mb
+      - Youtube:鹏哥分享🇩🇪+DE_457+|24.92Mb
+      - Youtube:鹏哥分享🇩🇪+DE_459+|84.48Mb
+      - Youtube:鹏哥分享🇫🇷FR_550+|224.01Mb
+      - Youtube:鹏哥分享🇫🇷FR_551+|45.93Mb
+      - Youtube:鹏哥分享🇫🇷FR_554+|13.24Mb
+      - Youtube:鹏哥分享🇫🇷FR_556+|133.77Mb
+      - Youtube:鹏哥分享🇫🇷FR_557+|127.50Mb
+      - Youtube:鹏哥分享🇫🇷FR_579+|132.10Mb
+      - Youtube:鹏哥分享🇫🇷FR_584+|159.20Mb
+      - Youtube:鹏哥分享🇫🇷FR_589+|16.13Mb
+      - Youtube:鹏哥分享🇫🇷FR_591+|34.60Mb
+      - Youtube:鹏哥分享🇫🇷FR_595+|186.47Mb
+      - Youtube:鹏哥分享🇬🇧+GB_598+|20.99Mb
+      - Youtube:鹏哥分享🇬🇷GR_664+|+4.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_669+|+3.37Mb
+      - Youtube:鹏哥分享🇭🇰HK_671+|15.75Mb
+      - Youtube:鹏哥分享🇭🇰HK_676+|+2.63Mb
+      - Youtube:鹏哥分享🇭🇰HK_681+|22.55Mb
+      - Youtube:鹏哥分享🇭🇰HK_682+|+2.75Mb
+      - Youtube:鹏哥分享🇮🇱IL_707+|11.32Mb
+      - Youtube:鹏哥分享🇳🇱NL_845+|30.69Mb
+      - Youtube:鹏哥分享🇳🇴+NO_858+|+2.37Mb
+      - Youtube:鹏哥分享🇳🇴+NO_859+|17.36Mb
+      - Youtube:鹏哥分享🇳🇴+NO_860+|+4.24Mb
+      - Youtube:鹏哥分享🇳🇴NO_868+|+1.22Mb
+      - Youtube:鹏哥分享🇳🇴NO_871+|17.58Mb
+      - Youtube:鹏哥分享🇳🇴NO_876+|+4.66Mb
+      - Youtube:鹏哥分享🇳🇴NO_877+|+0.36Mb
+      - Youtube:鹏哥分享🇳🇴NO_879+|+4.71Mb
+      - Youtube:鹏哥分享🇳🇴NO_882+|+1.34Mb
+      - Youtube:鹏哥分享🇳🇴NO_887+|+2.04Mb
+      - Youtube:鹏哥分享🇳🇿+NZ_888+|+7.66Mb
+      - Youtube:鹏哥分享🇵🇭+PH_898+|+5.92Mb
+      - Youtube:鹏哥分享🇵🇹PT_915+|13.14Mb
+      - Youtube:鹏哥分享🇷🇴RO_924+|+6.93Mb
+      - Youtube:鹏哥分享🇷🇺+RU_933+|54.40Mb
+      - Youtube:鹏哥分享🇸🇬SG_1033+|+8.48Mb
+      - Youtube:鹏哥分享🇹🇼TW_1109+|10.33Mb
+      - Youtube:鹏哥分享🇺🇸+US_1134+|+2.10Mb
+      - Youtube:鹏哥分享🇺🇸US_1244+|27.20Mb
+      - Youtube:鹏哥分享🇺🇸US_1253+|25.47Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|28.44Mb
+      - Youtube:鹏哥分享🇺🇸US_1511+|25.73Mb
+      - Youtube:鹏哥分享🇺🇸US_1589+|27.22Mb
+      - Youtube:鹏哥分享🇺🇸US_1652+|133.13Mb
+      - Youtube:鹏哥分享🇺🇸US_1664+|+8.90Mb
+      - Youtube:鹏哥分享🇺🇸US_1686+|14.56Mb
+      - Youtube:鹏哥分享🇺🇸US_1888+|14.51Mb
+      - Youtube:鹏哥分享🇺🇸US_1954+|+8.55Mb
+      - Youtube:鹏哥分享🇺🇸US_1958+|+5.13Mb
+      - Youtube:鹏哥分享🇺🇸US_2003+|+5.99Mb
+      - Youtube:鹏哥分享🇻🇳VN_2126+|+6.55Mb
+      - Youtube:鹏哥分享_1
+      - Youtube:鹏哥分享_2
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_4
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_6
+      - Youtube:鹏哥分享_7
+      - Youtube:鹏哥分享_8
+      - Youtube:鹏哥分享_9
+      - Youtube:鹏哥分享_10
+      - Youtube:鹏哥分享_11
+      - Youtube:鹏哥分享_12
+      - Youtube:鹏哥分享_13
+      - Youtube:鹏哥分享_14
+      - Youtube:鹏哥分享_15
+      - Youtube:鹏哥分享_16
+      - Youtube:鹏哥分享_17
+      - Youtube:鹏哥分享_18
+      - Youtube:鹏哥分享_19
+      - Youtube:鹏哥分享_20
+      - Youtube:鹏哥分享_21
+      - Youtube:鹏哥分享_22
+      - Youtube:鹏哥分享_23
+      - Youtube:鹏哥分享_24
+      - Youtube:鹏哥分享_25
+      - Youtube:鹏哥分享_26
+      - Youtube:鹏哥分享_27
+      - Youtube:鹏哥分享_28
+      - Youtube:鹏哥分享_29
+      - Youtube:鹏哥分享_30
+      - Youtube:鹏哥分享_31
+      - Youtube:鹏哥分享_32
+      - Youtube:鹏哥分享_33
+      - Youtube:鹏哥分享_34
+      - Youtube:鹏哥分享_35
+      - Youtube:鹏哥分享_36
+      - Youtube:鹏哥分享_37
+      - Youtube:鹏哥分享_38
+      - Youtube:鹏哥分享_39
+      - Youtube:鹏哥分享_40
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 冰河圈子_1
-      - 冰河圈子_2
-      - 冰河圈子_3
-      - 冰河圈子_4
-      - 冰河圈子_5
-      - 冰河圈子_6
-      - 冰河圈子_7
-      - 冰河圈子_8
-      - 冰河圈子_9
-      - 冰河圈子_10
-      - 冰河圈子_11
-      - 冰河圈子_12
-      - 冰河圈子_13
-      - 冰河圈子_14
-      - 冰河圈子_15
-      - 冰河圈子_16
-      - 冰河圈子_17
-      - 冰河圈子_18
-      - 冰河圈子_19
-      - 冰河圈子_20
-      - 冰河圈子_21
-      - 冰河圈子_22
-      - 冰河圈子_23
-      - 冰河圈子_24
-      - 冰河圈子_25
-      - 冰河圈子_26
-      - 冰河圈子_27
-      - 冰河圈子_28
-      - 冰河圈子_29
-      - 冰河圈子_30
-      - 冰河圈子_31
-      - 冰河圈子_32
-      - 冰河圈子_33
-      - 冰河圈子_34
-      - 冰河圈子_35
-      - 冰河圈子_36
-      - 冰河圈子_37
-      - 冰河圈子_38
-      - 冰河圈子_39
-      - 冰河圈子_40
-      - 冰河圈子_41
-      - 冰河圈子_42
-      - 冰河圈子_43
-      - 冰河圈子_44
-      - 冰河圈子_45
-      - 冰河圈子_46
-      - 冰河圈子_47
-      - 冰河圈子_48
-      - 冰河圈子_49
-      - 冰河圈子_50
-      - 冰河圈子_51
-      - 冰河圈子_52
-      - 冰河圈子_53
-      - 冰河圈子_54
-      - 冰河圈子_55
-      - 冰河圈子_56
-      - 冰河圈子_57
-      - 冰河圈子_58
-      - 冰河圈子_59
-      - 冰河圈子_60
-      - 冰河圈子_61
-      - 冰河圈子_62
-      - 冰河圈子_63
-      - 冰河圈子_64
-      - 冰河圈子_65
-      - 冰河圈子_66
-      - 冰河圈子_67
-      - 冰河圈子_68
-      - 冰河圈子_69
-      - 冰河圈子_70
-      - 冰河圈子_71
-      - 冰河圈子_72
-      - 冰河圈子_73
-      - 冰河圈子_74
-      - 冰河圈子_75
-      - 冰河圈子_76
-      - 冰河圈子_77
-      - 冰河圈子_78
-      - 冰河圈子_79
-      - 冰河圈子_80
-      - 冰河圈子_81
-      - 冰河圈子_82
-      - 冰河圈子_83
-      - 冰河圈子_84
-      - 冰河圈子_85
-      - 冰河圈子_86
-      - 冰河圈子_87
-      - 冰河圈子_88
-      - 冰河圈子_89
-      - 冰河圈子_90
-      - 冰河圈子_91
-      - 冰河圈子_92
-      - 冰河圈子_93
-      - 冰河圈子_94
-      - 冰河圈子_95
-      - 冰河圈子_96
-      - 冰河圈子_97
-      - 冰河圈子_98
-      - 冰河圈子_99
-      - 冰河圈子_100
+      - Youtube:鹏哥分享🇦🇺AU_101+|11.78Mb
+      - Youtube:鹏哥分享🇦🇺AU_105+|+9.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|29.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_359+|27.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_360+|37.03Mb
+      - Youtube:鹏哥分享🇨🇦CA_361+|13.62Mb
+      - Youtube:鹏哥分享🇨🇦CA_377+|35.87Mb
+      - Youtube:鹏哥分享🇨🇳CN_406+|19.96Mb
+      - Youtube:鹏哥分享🇨🇳CN_407+|+6.46Mb
+      - Youtube:鹏哥分享🇩🇪+DE_457+|24.92Mb
+      - Youtube:鹏哥分享🇩🇪+DE_459+|84.48Mb
+      - Youtube:鹏哥分享🇫🇷FR_550+|224.01Mb
+      - Youtube:鹏哥分享🇫🇷FR_551+|45.93Mb
+      - Youtube:鹏哥分享🇫🇷FR_554+|13.24Mb
+      - Youtube:鹏哥分享🇫🇷FR_556+|133.77Mb
+      - Youtube:鹏哥分享🇫🇷FR_557+|127.50Mb
+      - Youtube:鹏哥分享🇫🇷FR_579+|132.10Mb
+      - Youtube:鹏哥分享🇫🇷FR_584+|159.20Mb
+      - Youtube:鹏哥分享🇫🇷FR_589+|16.13Mb
+      - Youtube:鹏哥分享🇫🇷FR_591+|34.60Mb
+      - Youtube:鹏哥分享🇫🇷FR_595+|186.47Mb
+      - Youtube:鹏哥分享🇬🇧+GB_598+|20.99Mb
+      - Youtube:鹏哥分享🇬🇷GR_664+|+4.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_669+|+3.37Mb
+      - Youtube:鹏哥分享🇭🇰HK_671+|15.75Mb
+      - Youtube:鹏哥分享🇭🇰HK_676+|+2.63Mb
+      - Youtube:鹏哥分享🇭🇰HK_681+|22.55Mb
+      - Youtube:鹏哥分享🇭🇰HK_682+|+2.75Mb
+      - Youtube:鹏哥分享🇮🇱IL_707+|11.32Mb
+      - Youtube:鹏哥分享🇳🇱NL_845+|30.69Mb
+      - Youtube:鹏哥分享🇳🇴+NO_858+|+2.37Mb
+      - Youtube:鹏哥分享🇳🇴+NO_859+|17.36Mb
+      - Youtube:鹏哥分享🇳🇴+NO_860+|+4.24Mb
+      - Youtube:鹏哥分享🇳🇴NO_868+|+1.22Mb
+      - Youtube:鹏哥分享🇳🇴NO_871+|17.58Mb
+      - Youtube:鹏哥分享🇳🇴NO_876+|+4.66Mb
+      - Youtube:鹏哥分享🇳🇴NO_877+|+0.36Mb
+      - Youtube:鹏哥分享🇳🇴NO_879+|+4.71Mb
+      - Youtube:鹏哥分享🇳🇴NO_882+|+1.34Mb
+      - Youtube:鹏哥分享🇳🇴NO_887+|+2.04Mb
+      - Youtube:鹏哥分享🇳🇿+NZ_888+|+7.66Mb
+      - Youtube:鹏哥分享🇵🇭+PH_898+|+5.92Mb
+      - Youtube:鹏哥分享🇵🇹PT_915+|13.14Mb
+      - Youtube:鹏哥分享🇷🇴RO_924+|+6.93Mb
+      - Youtube:鹏哥分享🇷🇺+RU_933+|54.40Mb
+      - Youtube:鹏哥分享🇸🇬SG_1033+|+8.48Mb
+      - Youtube:鹏哥分享🇹🇼TW_1109+|10.33Mb
+      - Youtube:鹏哥分享🇺🇸+US_1134+|+2.10Mb
+      - Youtube:鹏哥分享🇺🇸US_1244+|27.20Mb
+      - Youtube:鹏哥分享🇺🇸US_1253+|25.47Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|28.44Mb
+      - Youtube:鹏哥分享🇺🇸US_1511+|25.73Mb
+      - Youtube:鹏哥分享🇺🇸US_1589+|27.22Mb
+      - Youtube:鹏哥分享🇺🇸US_1652+|133.13Mb
+      - Youtube:鹏哥分享🇺🇸US_1664+|+8.90Mb
+      - Youtube:鹏哥分享🇺🇸US_1686+|14.56Mb
+      - Youtube:鹏哥分享🇺🇸US_1888+|14.51Mb
+      - Youtube:鹏哥分享🇺🇸US_1954+|+8.55Mb
+      - Youtube:鹏哥分享🇺🇸US_1958+|+5.13Mb
+      - Youtube:鹏哥分享🇺🇸US_2003+|+5.99Mb
+      - Youtube:鹏哥分享🇻🇳VN_2126+|+6.55Mb
+      - Youtube:鹏哥分享_1
+      - Youtube:鹏哥分享_2
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_4
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_6
+      - Youtube:鹏哥分享_7
+      - Youtube:鹏哥分享_8
+      - Youtube:鹏哥分享_9
+      - Youtube:鹏哥分享_10
+      - Youtube:鹏哥分享_11
+      - Youtube:鹏哥分享_12
+      - Youtube:鹏哥分享_13
+      - Youtube:鹏哥分享_14
+      - Youtube:鹏哥分享_15
+      - Youtube:鹏哥分享_16
+      - Youtube:鹏哥分享_17
+      - Youtube:鹏哥分享_18
+      - Youtube:鹏哥分享_19
+      - Youtube:鹏哥分享_20
+      - Youtube:鹏哥分享_21
+      - Youtube:鹏哥分享_22
+      - Youtube:鹏哥分享_23
+      - Youtube:鹏哥分享_24
+      - Youtube:鹏哥分享_25
+      - Youtube:鹏哥分享_26
+      - Youtube:鹏哥分享_27
+      - Youtube:鹏哥分享_28
+      - Youtube:鹏哥分享_29
+      - Youtube:鹏哥分享_30
+      - Youtube:鹏哥分享_31
+      - Youtube:鹏哥分享_32
+      - Youtube:鹏哥分享_33
+      - Youtube:鹏哥分享_34
+      - Youtube:鹏哥分享_35
+      - Youtube:鹏哥分享_36
+      - Youtube:鹏哥分享_37
+      - Youtube:鹏哥分享_38
+      - Youtube:鹏哥分享_39
+      - Youtube:鹏哥分享_40
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 冰河圈子_1
-      - 冰河圈子_2
-      - 冰河圈子_3
-      - 冰河圈子_4
-      - 冰河圈子_5
-      - 冰河圈子_6
-      - 冰河圈子_7
-      - 冰河圈子_8
-      - 冰河圈子_9
-      - 冰河圈子_10
-      - 冰河圈子_11
-      - 冰河圈子_12
-      - 冰河圈子_13
-      - 冰河圈子_14
-      - 冰河圈子_15
-      - 冰河圈子_16
-      - 冰河圈子_17
-      - 冰河圈子_18
-      - 冰河圈子_19
-      - 冰河圈子_20
-      - 冰河圈子_21
-      - 冰河圈子_22
-      - 冰河圈子_23
-      - 冰河圈子_24
-      - 冰河圈子_25
-      - 冰河圈子_26
-      - 冰河圈子_27
-      - 冰河圈子_28
-      - 冰河圈子_29
-      - 冰河圈子_30
-      - 冰河圈子_31
-      - 冰河圈子_32
-      - 冰河圈子_33
-      - 冰河圈子_34
-      - 冰河圈子_35
-      - 冰河圈子_36
-      - 冰河圈子_37
-      - 冰河圈子_38
-      - 冰河圈子_39
-      - 冰河圈子_40
-      - 冰河圈子_41
-      - 冰河圈子_42
-      - 冰河圈子_43
-      - 冰河圈子_44
-      - 冰河圈子_45
-      - 冰河圈子_46
-      - 冰河圈子_47
-      - 冰河圈子_48
-      - 冰河圈子_49
-      - 冰河圈子_50
-      - 冰河圈子_51
-      - 冰河圈子_52
-      - 冰河圈子_53
-      - 冰河圈子_54
-      - 冰河圈子_55
-      - 冰河圈子_56
-      - 冰河圈子_57
-      - 冰河圈子_58
-      - 冰河圈子_59
-      - 冰河圈子_60
-      - 冰河圈子_61
-      - 冰河圈子_62
-      - 冰河圈子_63
-      - 冰河圈子_64
-      - 冰河圈子_65
-      - 冰河圈子_66
-      - 冰河圈子_67
-      - 冰河圈子_68
-      - 冰河圈子_69
-      - 冰河圈子_70
-      - 冰河圈子_71
-      - 冰河圈子_72
-      - 冰河圈子_73
-      - 冰河圈子_74
-      - 冰河圈子_75
-      - 冰河圈子_76
-      - 冰河圈子_77
-      - 冰河圈子_78
-      - 冰河圈子_79
-      - 冰河圈子_80
-      - 冰河圈子_81
-      - 冰河圈子_82
-      - 冰河圈子_83
-      - 冰河圈子_84
-      - 冰河圈子_85
-      - 冰河圈子_86
-      - 冰河圈子_87
-      - 冰河圈子_88
-      - 冰河圈子_89
-      - 冰河圈子_90
-      - 冰河圈子_91
-      - 冰河圈子_92
-      - 冰河圈子_93
-      - 冰河圈子_94
-      - 冰河圈子_95
-      - 冰河圈子_96
-      - 冰河圈子_97
-      - 冰河圈子_98
-      - 冰河圈子_99
-      - 冰河圈子_100
+      - Youtube:鹏哥分享🇦🇺AU_101+|11.78Mb
+      - Youtube:鹏哥分享🇦🇺AU_105+|+9.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|29.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_359+|27.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_360+|37.03Mb
+      - Youtube:鹏哥分享🇨🇦CA_361+|13.62Mb
+      - Youtube:鹏哥分享🇨🇦CA_377+|35.87Mb
+      - Youtube:鹏哥分享🇨🇳CN_406+|19.96Mb
+      - Youtube:鹏哥分享🇨🇳CN_407+|+6.46Mb
+      - Youtube:鹏哥分享🇩🇪+DE_457+|24.92Mb
+      - Youtube:鹏哥分享🇩🇪+DE_459+|84.48Mb
+      - Youtube:鹏哥分享🇫🇷FR_550+|224.01Mb
+      - Youtube:鹏哥分享🇫🇷FR_551+|45.93Mb
+      - Youtube:鹏哥分享🇫🇷FR_554+|13.24Mb
+      - Youtube:鹏哥分享🇫🇷FR_556+|133.77Mb
+      - Youtube:鹏哥分享🇫🇷FR_557+|127.50Mb
+      - Youtube:鹏哥分享🇫🇷FR_579+|132.10Mb
+      - Youtube:鹏哥分享🇫🇷FR_584+|159.20Mb
+      - Youtube:鹏哥分享🇫🇷FR_589+|16.13Mb
+      - Youtube:鹏哥分享🇫🇷FR_591+|34.60Mb
+      - Youtube:鹏哥分享🇫🇷FR_595+|186.47Mb
+      - Youtube:鹏哥分享🇬🇧+GB_598+|20.99Mb
+      - Youtube:鹏哥分享🇬🇷GR_664+|+4.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_669+|+3.37Mb
+      - Youtube:鹏哥分享🇭🇰HK_671+|15.75Mb
+      - Youtube:鹏哥分享🇭🇰HK_676+|+2.63Mb
+      - Youtube:鹏哥分享🇭🇰HK_681+|22.55Mb
+      - Youtube:鹏哥分享🇭🇰HK_682+|+2.75Mb
+      - Youtube:鹏哥分享🇮🇱IL_707+|11.32Mb
+      - Youtube:鹏哥分享🇳🇱NL_845+|30.69Mb
+      - Youtube:鹏哥分享🇳🇴+NO_858+|+2.37Mb
+      - Youtube:鹏哥分享🇳🇴+NO_859+|17.36Mb
+      - Youtube:鹏哥分享🇳🇴+NO_860+|+4.24Mb
+      - Youtube:鹏哥分享🇳🇴NO_868+|+1.22Mb
+      - Youtube:鹏哥分享🇳🇴NO_871+|17.58Mb
+      - Youtube:鹏哥分享🇳🇴NO_876+|+4.66Mb
+      - Youtube:鹏哥分享🇳🇴NO_877+|+0.36Mb
+      - Youtube:鹏哥分享🇳🇴NO_879+|+4.71Mb
+      - Youtube:鹏哥分享🇳🇴NO_882+|+1.34Mb
+      - Youtube:鹏哥分享🇳🇴NO_887+|+2.04Mb
+      - Youtube:鹏哥分享🇳🇿+NZ_888+|+7.66Mb
+      - Youtube:鹏哥分享🇵🇭+PH_898+|+5.92Mb
+      - Youtube:鹏哥分享🇵🇹PT_915+|13.14Mb
+      - Youtube:鹏哥分享🇷🇴RO_924+|+6.93Mb
+      - Youtube:鹏哥分享🇷🇺+RU_933+|54.40Mb
+      - Youtube:鹏哥分享🇸🇬SG_1033+|+8.48Mb
+      - Youtube:鹏哥分享🇹🇼TW_1109+|10.33Mb
+      - Youtube:鹏哥分享🇺🇸+US_1134+|+2.10Mb
+      - Youtube:鹏哥分享🇺🇸US_1244+|27.20Mb
+      - Youtube:鹏哥分享🇺🇸US_1253+|25.47Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|28.44Mb
+      - Youtube:鹏哥分享🇺🇸US_1511+|25.73Mb
+      - Youtube:鹏哥分享🇺🇸US_1589+|27.22Mb
+      - Youtube:鹏哥分享🇺🇸US_1652+|133.13Mb
+      - Youtube:鹏哥分享🇺🇸US_1664+|+8.90Mb
+      - Youtube:鹏哥分享🇺🇸US_1686+|14.56Mb
+      - Youtube:鹏哥分享🇺🇸US_1888+|14.51Mb
+      - Youtube:鹏哥分享🇺🇸US_1954+|+8.55Mb
+      - Youtube:鹏哥分享🇺🇸US_1958+|+5.13Mb
+      - Youtube:鹏哥分享🇺🇸US_2003+|+5.99Mb
+      - Youtube:鹏哥分享🇻🇳VN_2126+|+6.55Mb
+      - Youtube:鹏哥分享_1
+      - Youtube:鹏哥分享_2
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_4
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_6
+      - Youtube:鹏哥分享_7
+      - Youtube:鹏哥分享_8
+      - Youtube:鹏哥分享_9
+      - Youtube:鹏哥分享_10
+      - Youtube:鹏哥分享_11
+      - Youtube:鹏哥分享_12
+      - Youtube:鹏哥分享_13
+      - Youtube:鹏哥分享_14
+      - Youtube:鹏哥分享_15
+      - Youtube:鹏哥分享_16
+      - Youtube:鹏哥分享_17
+      - Youtube:鹏哥分享_18
+      - Youtube:鹏哥分享_19
+      - Youtube:鹏哥分享_20
+      - Youtube:鹏哥分享_21
+      - Youtube:鹏哥分享_22
+      - Youtube:鹏哥分享_23
+      - Youtube:鹏哥分享_24
+      - Youtube:鹏哥分享_25
+      - Youtube:鹏哥分享_26
+      - Youtube:鹏哥分享_27
+      - Youtube:鹏哥分享_28
+      - Youtube:鹏哥分享_29
+      - Youtube:鹏哥分享_30
+      - Youtube:鹏哥分享_31
+      - Youtube:鹏哥分享_32
+      - Youtube:鹏哥分享_33
+      - Youtube:鹏哥分享_34
+      - Youtube:鹏哥分享_35
+      - Youtube:鹏哥分享_36
+      - Youtube:鹏哥分享_37
+      - Youtube:鹏哥分享_38
+      - Youtube:鹏哥分享_39
+      - Youtube:鹏哥分享_40
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 冰河圈子_1
-      - 冰河圈子_2
-      - 冰河圈子_3
-      - 冰河圈子_4
-      - 冰河圈子_5
-      - 冰河圈子_6
-      - 冰河圈子_7
-      - 冰河圈子_8
-      - 冰河圈子_9
-      - 冰河圈子_10
-      - 冰河圈子_11
-      - 冰河圈子_12
-      - 冰河圈子_13
-      - 冰河圈子_14
-      - 冰河圈子_15
-      - 冰河圈子_16
-      - 冰河圈子_17
-      - 冰河圈子_18
-      - 冰河圈子_19
-      - 冰河圈子_20
-      - 冰河圈子_21
-      - 冰河圈子_22
-      - 冰河圈子_23
-      - 冰河圈子_24
-      - 冰河圈子_25
-      - 冰河圈子_26
-      - 冰河圈子_27
-      - 冰河圈子_28
-      - 冰河圈子_29
-      - 冰河圈子_30
-      - 冰河圈子_31
-      - 冰河圈子_32
-      - 冰河圈子_33
-      - 冰河圈子_34
-      - 冰河圈子_35
-      - 冰河圈子_36
-      - 冰河圈子_37
-      - 冰河圈子_38
-      - 冰河圈子_39
-      - 冰河圈子_40
-      - 冰河圈子_41
-      - 冰河圈子_42
-      - 冰河圈子_43
-      - 冰河圈子_44
-      - 冰河圈子_45
-      - 冰河圈子_46
-      - 冰河圈子_47
-      - 冰河圈子_48
-      - 冰河圈子_49
-      - 冰河圈子_50
-      - 冰河圈子_51
-      - 冰河圈子_52
-      - 冰河圈子_53
-      - 冰河圈子_54
-      - 冰河圈子_55
-      - 冰河圈子_56
-      - 冰河圈子_57
-      - 冰河圈子_58
-      - 冰河圈子_59
-      - 冰河圈子_60
-      - 冰河圈子_61
-      - 冰河圈子_62
-      - 冰河圈子_63
-      - 冰河圈子_64
-      - 冰河圈子_65
-      - 冰河圈子_66
-      - 冰河圈子_67
-      - 冰河圈子_68
-      - 冰河圈子_69
-      - 冰河圈子_70
-      - 冰河圈子_71
-      - 冰河圈子_72
-      - 冰河圈子_73
-      - 冰河圈子_74
-      - 冰河圈子_75
-      - 冰河圈子_76
-      - 冰河圈子_77
-      - 冰河圈子_78
-      - 冰河圈子_79
-      - 冰河圈子_80
-      - 冰河圈子_81
-      - 冰河圈子_82
-      - 冰河圈子_83
-      - 冰河圈子_84
-      - 冰河圈子_85
-      - 冰河圈子_86
-      - 冰河圈子_87
-      - 冰河圈子_88
-      - 冰河圈子_89
-      - 冰河圈子_90
-      - 冰河圈子_91
-      - 冰河圈子_92
-      - 冰河圈子_93
-      - 冰河圈子_94
-      - 冰河圈子_95
-      - 冰河圈子_96
-      - 冰河圈子_97
-      - 冰河圈子_98
-      - 冰河圈子_99
-      - 冰河圈子_100
+      - Youtube:鹏哥分享🇦🇺AU_101+|11.78Mb
+      - Youtube:鹏哥分享🇦🇺AU_105+|+9.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|29.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_359+|27.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_360+|37.03Mb
+      - Youtube:鹏哥分享🇨🇦CA_361+|13.62Mb
+      - Youtube:鹏哥分享🇨🇦CA_377+|35.87Mb
+      - Youtube:鹏哥分享🇨🇳CN_406+|19.96Mb
+      - Youtube:鹏哥分享🇨🇳CN_407+|+6.46Mb
+      - Youtube:鹏哥分享🇩🇪+DE_457+|24.92Mb
+      - Youtube:鹏哥分享🇩🇪+DE_459+|84.48Mb
+      - Youtube:鹏哥分享🇫🇷FR_550+|224.01Mb
+      - Youtube:鹏哥分享🇫🇷FR_551+|45.93Mb
+      - Youtube:鹏哥分享🇫🇷FR_554+|13.24Mb
+      - Youtube:鹏哥分享🇫🇷FR_556+|133.77Mb
+      - Youtube:鹏哥分享🇫🇷FR_557+|127.50Mb
+      - Youtube:鹏哥分享🇫🇷FR_579+|132.10Mb
+      - Youtube:鹏哥分享🇫🇷FR_584+|159.20Mb
+      - Youtube:鹏哥分享🇫🇷FR_589+|16.13Mb
+      - Youtube:鹏哥分享🇫🇷FR_591+|34.60Mb
+      - Youtube:鹏哥分享🇫🇷FR_595+|186.47Mb
+      - Youtube:鹏哥分享🇬🇧+GB_598+|20.99Mb
+      - Youtube:鹏哥分享🇬🇷GR_664+|+4.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_669+|+3.37Mb
+      - Youtube:鹏哥分享🇭🇰HK_671+|15.75Mb
+      - Youtube:鹏哥分享🇭🇰HK_676+|+2.63Mb
+      - Youtube:鹏哥分享🇭🇰HK_681+|22.55Mb
+      - Youtube:鹏哥分享🇭🇰HK_682+|+2.75Mb
+      - Youtube:鹏哥分享🇮🇱IL_707+|11.32Mb
+      - Youtube:鹏哥分享🇳🇱NL_845+|30.69Mb
+      - Youtube:鹏哥分享🇳🇴+NO_858+|+2.37Mb
+      - Youtube:鹏哥分享🇳🇴+NO_859+|17.36Mb
+      - Youtube:鹏哥分享🇳🇴+NO_860+|+4.24Mb
+      - Youtube:鹏哥分享🇳🇴NO_868+|+1.22Mb
+      - Youtube:鹏哥分享🇳🇴NO_871+|17.58Mb
+      - Youtube:鹏哥分享🇳🇴NO_876+|+4.66Mb
+      - Youtube:鹏哥分享🇳🇴NO_877+|+0.36Mb
+      - Youtube:鹏哥分享🇳🇴NO_879+|+4.71Mb
+      - Youtube:鹏哥分享🇳🇴NO_882+|+1.34Mb
+      - Youtube:鹏哥分享🇳🇴NO_887+|+2.04Mb
+      - Youtube:鹏哥分享🇳🇿+NZ_888+|+7.66Mb
+      - Youtube:鹏哥分享🇵🇭+PH_898+|+5.92Mb
+      - Youtube:鹏哥分享🇵🇹PT_915+|13.14Mb
+      - Youtube:鹏哥分享🇷🇴RO_924+|+6.93Mb
+      - Youtube:鹏哥分享🇷🇺+RU_933+|54.40Mb
+      - Youtube:鹏哥分享🇸🇬SG_1033+|+8.48Mb
+      - Youtube:鹏哥分享🇹🇼TW_1109+|10.33Mb
+      - Youtube:鹏哥分享🇺🇸+US_1134+|+2.10Mb
+      - Youtube:鹏哥分享🇺🇸US_1244+|27.20Mb
+      - Youtube:鹏哥分享🇺🇸US_1253+|25.47Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|28.44Mb
+      - Youtube:鹏哥分享🇺🇸US_1511+|25.73Mb
+      - Youtube:鹏哥分享🇺🇸US_1589+|27.22Mb
+      - Youtube:鹏哥分享🇺🇸US_1652+|133.13Mb
+      - Youtube:鹏哥分享🇺🇸US_1664+|+8.90Mb
+      - Youtube:鹏哥分享🇺🇸US_1686+|14.56Mb
+      - Youtube:鹏哥分享🇺🇸US_1888+|14.51Mb
+      - Youtube:鹏哥分享🇺🇸US_1954+|+8.55Mb
+      - Youtube:鹏哥分享🇺🇸US_1958+|+5.13Mb
+      - Youtube:鹏哥分享🇺🇸US_2003+|+5.99Mb
+      - Youtube:鹏哥分享🇻🇳VN_2126+|+6.55Mb
+      - Youtube:鹏哥分享_1
+      - Youtube:鹏哥分享_2
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_4
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_6
+      - Youtube:鹏哥分享_7
+      - Youtube:鹏哥分享_8
+      - Youtube:鹏哥分享_9
+      - Youtube:鹏哥分享_10
+      - Youtube:鹏哥分享_11
+      - Youtube:鹏哥分享_12
+      - Youtube:鹏哥分享_13
+      - Youtube:鹏哥分享_14
+      - Youtube:鹏哥分享_15
+      - Youtube:鹏哥分享_16
+      - Youtube:鹏哥分享_17
+      - Youtube:鹏哥分享_18
+      - Youtube:鹏哥分享_19
+      - Youtube:鹏哥分享_20
+      - Youtube:鹏哥分享_21
+      - Youtube:鹏哥分享_22
+      - Youtube:鹏哥分享_23
+      - Youtube:鹏哥分享_24
+      - Youtube:鹏哥分享_25
+      - Youtube:鹏哥分享_26
+      - Youtube:鹏哥分享_27
+      - Youtube:鹏哥分享_28
+      - Youtube:鹏哥分享_29
+      - Youtube:鹏哥分享_30
+      - Youtube:鹏哥分享_31
+      - Youtube:鹏哥分享_32
+      - Youtube:鹏哥分享_33
+      - Youtube:鹏哥分享_34
+      - Youtube:鹏哥分享_35
+      - Youtube:鹏哥分享_36
+      - Youtube:鹏哥分享_37
+      - Youtube:鹏哥分享_38
+      - Youtube:鹏哥分享_39
+      - Youtube:鹏哥分享_40
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 冰河圈子_1
-      - 冰河圈子_2
-      - 冰河圈子_3
-      - 冰河圈子_4
-      - 冰河圈子_5
-      - 冰河圈子_6
-      - 冰河圈子_7
-      - 冰河圈子_8
-      - 冰河圈子_9
-      - 冰河圈子_10
-      - 冰河圈子_11
-      - 冰河圈子_12
-      - 冰河圈子_13
-      - 冰河圈子_14
-      - 冰河圈子_15
-      - 冰河圈子_16
-      - 冰河圈子_17
-      - 冰河圈子_18
-      - 冰河圈子_19
-      - 冰河圈子_20
-      - 冰河圈子_21
-      - 冰河圈子_22
-      - 冰河圈子_23
-      - 冰河圈子_24
-      - 冰河圈子_25
-      - 冰河圈子_26
-      - 冰河圈子_27
-      - 冰河圈子_28
-      - 冰河圈子_29
-      - 冰河圈子_30
-      - 冰河圈子_31
-      - 冰河圈子_32
-      - 冰河圈子_33
-      - 冰河圈子_34
-      - 冰河圈子_35
-      - 冰河圈子_36
-      - 冰河圈子_37
-      - 冰河圈子_38
-      - 冰河圈子_39
-      - 冰河圈子_40
-      - 冰河圈子_41
-      - 冰河圈子_42
-      - 冰河圈子_43
-      - 冰河圈子_44
-      - 冰河圈子_45
-      - 冰河圈子_46
-      - 冰河圈子_47
-      - 冰河圈子_48
-      - 冰河圈子_49
-      - 冰河圈子_50
-      - 冰河圈子_51
-      - 冰河圈子_52
-      - 冰河圈子_53
-      - 冰河圈子_54
-      - 冰河圈子_55
-      - 冰河圈子_56
-      - 冰河圈子_57
-      - 冰河圈子_58
-      - 冰河圈子_59
-      - 冰河圈子_60
-      - 冰河圈子_61
-      - 冰河圈子_62
-      - 冰河圈子_63
-      - 冰河圈子_64
-      - 冰河圈子_65
-      - 冰河圈子_66
-      - 冰河圈子_67
-      - 冰河圈子_68
-      - 冰河圈子_69
-      - 冰河圈子_70
-      - 冰河圈子_71
-      - 冰河圈子_72
-      - 冰河圈子_73
-      - 冰河圈子_74
-      - 冰河圈子_75
-      - 冰河圈子_76
-      - 冰河圈子_77
-      - 冰河圈子_78
-      - 冰河圈子_79
-      - 冰河圈子_80
-      - 冰河圈子_81
-      - 冰河圈子_82
-      - 冰河圈子_83
-      - 冰河圈子_84
-      - 冰河圈子_85
-      - 冰河圈子_86
-      - 冰河圈子_87
-      - 冰河圈子_88
-      - 冰河圈子_89
-      - 冰河圈子_90
-      - 冰河圈子_91
-      - 冰河圈子_92
-      - 冰河圈子_93
-      - 冰河圈子_94
-      - 冰河圈子_95
-      - 冰河圈子_96
-      - 冰河圈子_97
-      - 冰河圈子_98
-      - 冰河圈子_99
-      - 冰河圈子_100
+      - Youtube:鹏哥分享🇦🇺AU_101+|11.78Mb
+      - Youtube:鹏哥分享🇦🇺AU_105+|+9.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|29.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_359+|27.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_360+|37.03Mb
+      - Youtube:鹏哥分享🇨🇦CA_361+|13.62Mb
+      - Youtube:鹏哥分享🇨🇦CA_377+|35.87Mb
+      - Youtube:鹏哥分享🇨🇳CN_406+|19.96Mb
+      - Youtube:鹏哥分享🇨🇳CN_407+|+6.46Mb
+      - Youtube:鹏哥分享🇩🇪+DE_457+|24.92Mb
+      - Youtube:鹏哥分享🇩🇪+DE_459+|84.48Mb
+      - Youtube:鹏哥分享🇫🇷FR_550+|224.01Mb
+      - Youtube:鹏哥分享🇫🇷FR_551+|45.93Mb
+      - Youtube:鹏哥分享🇫🇷FR_554+|13.24Mb
+      - Youtube:鹏哥分享🇫🇷FR_556+|133.77Mb
+      - Youtube:鹏哥分享🇫🇷FR_557+|127.50Mb
+      - Youtube:鹏哥分享🇫🇷FR_579+|132.10Mb
+      - Youtube:鹏哥分享🇫🇷FR_584+|159.20Mb
+      - Youtube:鹏哥分享🇫🇷FR_589+|16.13Mb
+      - Youtube:鹏哥分享🇫🇷FR_591+|34.60Mb
+      - Youtube:鹏哥分享🇫🇷FR_595+|186.47Mb
+      - Youtube:鹏哥分享🇬🇧+GB_598+|20.99Mb
+      - Youtube:鹏哥分享🇬🇷GR_664+|+4.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_669+|+3.37Mb
+      - Youtube:鹏哥分享🇭🇰HK_671+|15.75Mb
+      - Youtube:鹏哥分享🇭🇰HK_676+|+2.63Mb
+      - Youtube:鹏哥分享🇭🇰HK_681+|22.55Mb
+      - Youtube:鹏哥分享🇭🇰HK_682+|+2.75Mb
+      - Youtube:鹏哥分享🇮🇱IL_707+|11.32Mb
+      - Youtube:鹏哥分享🇳🇱NL_845+|30.69Mb
+      - Youtube:鹏哥分享🇳🇴+NO_858+|+2.37Mb
+      - Youtube:鹏哥分享🇳🇴+NO_859+|17.36Mb
+      - Youtube:鹏哥分享🇳🇴+NO_860+|+4.24Mb
+      - Youtube:鹏哥分享🇳🇴NO_868+|+1.22Mb
+      - Youtube:鹏哥分享🇳🇴NO_871+|17.58Mb
+      - Youtube:鹏哥分享🇳🇴NO_876+|+4.66Mb
+      - Youtube:鹏哥分享🇳🇴NO_877+|+0.36Mb
+      - Youtube:鹏哥分享🇳🇴NO_879+|+4.71Mb
+      - Youtube:鹏哥分享🇳🇴NO_882+|+1.34Mb
+      - Youtube:鹏哥分享🇳🇴NO_887+|+2.04Mb
+      - Youtube:鹏哥分享🇳🇿+NZ_888+|+7.66Mb
+      - Youtube:鹏哥分享🇵🇭+PH_898+|+5.92Mb
+      - Youtube:鹏哥分享🇵🇹PT_915+|13.14Mb
+      - Youtube:鹏哥分享🇷🇴RO_924+|+6.93Mb
+      - Youtube:鹏哥分享🇷🇺+RU_933+|54.40Mb
+      - Youtube:鹏哥分享🇸🇬SG_1033+|+8.48Mb
+      - Youtube:鹏哥分享🇹🇼TW_1109+|10.33Mb
+      - Youtube:鹏哥分享🇺🇸+US_1134+|+2.10Mb
+      - Youtube:鹏哥分享🇺🇸US_1244+|27.20Mb
+      - Youtube:鹏哥分享🇺🇸US_1253+|25.47Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|28.44Mb
+      - Youtube:鹏哥分享🇺🇸US_1511+|25.73Mb
+      - Youtube:鹏哥分享🇺🇸US_1589+|27.22Mb
+      - Youtube:鹏哥分享🇺🇸US_1652+|133.13Mb
+      - Youtube:鹏哥分享🇺🇸US_1664+|+8.90Mb
+      - Youtube:鹏哥分享🇺🇸US_1686+|14.56Mb
+      - Youtube:鹏哥分享🇺🇸US_1888+|14.51Mb
+      - Youtube:鹏哥分享🇺🇸US_1954+|+8.55Mb
+      - Youtube:鹏哥分享🇺🇸US_1958+|+5.13Mb
+      - Youtube:鹏哥分享🇺🇸US_2003+|+5.99Mb
+      - Youtube:鹏哥分享🇻🇳VN_2126+|+6.55Mb
+      - Youtube:鹏哥分享_1
+      - Youtube:鹏哥分享_2
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_4
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_6
+      - Youtube:鹏哥分享_7
+      - Youtube:鹏哥分享_8
+      - Youtube:鹏哥分享_9
+      - Youtube:鹏哥分享_10
+      - Youtube:鹏哥分享_11
+      - Youtube:鹏哥分享_12
+      - Youtube:鹏哥分享_13
+      - Youtube:鹏哥分享_14
+      - Youtube:鹏哥分享_15
+      - Youtube:鹏哥分享_16
+      - Youtube:鹏哥分享_17
+      - Youtube:鹏哥分享_18
+      - Youtube:鹏哥分享_19
+      - Youtube:鹏哥分享_20
+      - Youtube:鹏哥分享_21
+      - Youtube:鹏哥分享_22
+      - Youtube:鹏哥分享_23
+      - Youtube:鹏哥分享_24
+      - Youtube:鹏哥分享_25
+      - Youtube:鹏哥分享_26
+      - Youtube:鹏哥分享_27
+      - Youtube:鹏哥分享_28
+      - Youtube:鹏哥分享_29
+      - Youtube:鹏哥分享_30
+      - Youtube:鹏哥分享_31
+      - Youtube:鹏哥分享_32
+      - Youtube:鹏哥分享_33
+      - Youtube:鹏哥分享_34
+      - Youtube:鹏哥分享_35
+      - Youtube:鹏哥分享_36
+      - Youtube:鹏哥分享_37
+      - Youtube:鹏哥分享_38
+      - Youtube:鹏哥分享_39
+      - Youtube:鹏哥分享_40
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 冰河圈子_1
-      - 冰河圈子_2
-      - 冰河圈子_3
-      - 冰河圈子_4
-      - 冰河圈子_5
-      - 冰河圈子_6
-      - 冰河圈子_7
-      - 冰河圈子_8
-      - 冰河圈子_9
-      - 冰河圈子_10
-      - 冰河圈子_11
-      - 冰河圈子_12
-      - 冰河圈子_13
-      - 冰河圈子_14
-      - 冰河圈子_15
-      - 冰河圈子_16
-      - 冰河圈子_17
-      - 冰河圈子_18
-      - 冰河圈子_19
-      - 冰河圈子_20
-      - 冰河圈子_21
-      - 冰河圈子_22
-      - 冰河圈子_23
-      - 冰河圈子_24
-      - 冰河圈子_25
-      - 冰河圈子_26
-      - 冰河圈子_27
-      - 冰河圈子_28
-      - 冰河圈子_29
-      - 冰河圈子_30
-      - 冰河圈子_31
-      - 冰河圈子_32
-      - 冰河圈子_33
-      - 冰河圈子_34
-      - 冰河圈子_35
-      - 冰河圈子_36
-      - 冰河圈子_37
-      - 冰河圈子_38
-      - 冰河圈子_39
-      - 冰河圈子_40
-      - 冰河圈子_41
-      - 冰河圈子_42
-      - 冰河圈子_43
-      - 冰河圈子_44
-      - 冰河圈子_45
-      - 冰河圈子_46
-      - 冰河圈子_47
-      - 冰河圈子_48
-      - 冰河圈子_49
-      - 冰河圈子_50
-      - 冰河圈子_51
-      - 冰河圈子_52
-      - 冰河圈子_53
-      - 冰河圈子_54
-      - 冰河圈子_55
-      - 冰河圈子_56
-      - 冰河圈子_57
-      - 冰河圈子_58
-      - 冰河圈子_59
-      - 冰河圈子_60
-      - 冰河圈子_61
-      - 冰河圈子_62
-      - 冰河圈子_63
-      - 冰河圈子_64
-      - 冰河圈子_65
-      - 冰河圈子_66
-      - 冰河圈子_67
-      - 冰河圈子_68
-      - 冰河圈子_69
-      - 冰河圈子_70
-      - 冰河圈子_71
-      - 冰河圈子_72
-      - 冰河圈子_73
-      - 冰河圈子_74
-      - 冰河圈子_75
-      - 冰河圈子_76
-      - 冰河圈子_77
-      - 冰河圈子_78
-      - 冰河圈子_79
-      - 冰河圈子_80
-      - 冰河圈子_81
-      - 冰河圈子_82
-      - 冰河圈子_83
-      - 冰河圈子_84
-      - 冰河圈子_85
-      - 冰河圈子_86
-      - 冰河圈子_87
-      - 冰河圈子_88
-      - 冰河圈子_89
-      - 冰河圈子_90
-      - 冰河圈子_91
-      - 冰河圈子_92
-      - 冰河圈子_93
-      - 冰河圈子_94
-      - 冰河圈子_95
-      - 冰河圈子_96
-      - 冰河圈子_97
-      - 冰河圈子_98
-      - 冰河圈子_99
-      - 冰河圈子_100
+      - Youtube:鹏哥分享🇦🇺AU_101+|11.78Mb
+      - Youtube:鹏哥分享🇦🇺AU_105+|+9.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|29.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_359+|27.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_360+|37.03Mb
+      - Youtube:鹏哥分享🇨🇦CA_361+|13.62Mb
+      - Youtube:鹏哥分享🇨🇦CA_377+|35.87Mb
+      - Youtube:鹏哥分享🇨🇳CN_406+|19.96Mb
+      - Youtube:鹏哥分享🇨🇳CN_407+|+6.46Mb
+      - Youtube:鹏哥分享🇩🇪+DE_457+|24.92Mb
+      - Youtube:鹏哥分享🇩🇪+DE_459+|84.48Mb
+      - Youtube:鹏哥分享🇫🇷FR_550+|224.01Mb
+      - Youtube:鹏哥分享🇫🇷FR_551+|45.93Mb
+      - Youtube:鹏哥分享🇫🇷FR_554+|13.24Mb
+      - Youtube:鹏哥分享🇫🇷FR_556+|133.77Mb
+      - Youtube:鹏哥分享🇫🇷FR_557+|127.50Mb
+      - Youtube:鹏哥分享🇫🇷FR_579+|132.10Mb
+      - Youtube:鹏哥分享🇫🇷FR_584+|159.20Mb
+      - Youtube:鹏哥分享🇫🇷FR_589+|16.13Mb
+      - Youtube:鹏哥分享🇫🇷FR_591+|34.60Mb
+      - Youtube:鹏哥分享🇫🇷FR_595+|186.47Mb
+      - Youtube:鹏哥分享🇬🇧+GB_598+|20.99Mb
+      - Youtube:鹏哥分享🇬🇷GR_664+|+4.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_669+|+3.37Mb
+      - Youtube:鹏哥分享🇭🇰HK_671+|15.75Mb
+      - Youtube:鹏哥分享🇭🇰HK_676+|+2.63Mb
+      - Youtube:鹏哥分享🇭🇰HK_681+|22.55Mb
+      - Youtube:鹏哥分享🇭🇰HK_682+|+2.75Mb
+      - Youtube:鹏哥分享🇮🇱IL_707+|11.32Mb
+      - Youtube:鹏哥分享🇳🇱NL_845+|30.69Mb
+      - Youtube:鹏哥分享🇳🇴+NO_858+|+2.37Mb
+      - Youtube:鹏哥分享🇳🇴+NO_859+|17.36Mb
+      - Youtube:鹏哥分享🇳🇴+NO_860+|+4.24Mb
+      - Youtube:鹏哥分享🇳🇴NO_868+|+1.22Mb
+      - Youtube:鹏哥分享🇳🇴NO_871+|17.58Mb
+      - Youtube:鹏哥分享🇳🇴NO_876+|+4.66Mb
+      - Youtube:鹏哥分享🇳🇴NO_877+|+0.36Mb
+      - Youtube:鹏哥分享🇳🇴NO_879+|+4.71Mb
+      - Youtube:鹏哥分享🇳🇴NO_882+|+1.34Mb
+      - Youtube:鹏哥分享🇳🇴NO_887+|+2.04Mb
+      - Youtube:鹏哥分享🇳🇿+NZ_888+|+7.66Mb
+      - Youtube:鹏哥分享🇵🇭+PH_898+|+5.92Mb
+      - Youtube:鹏哥分享🇵🇹PT_915+|13.14Mb
+      - Youtube:鹏哥分享🇷🇴RO_924+|+6.93Mb
+      - Youtube:鹏哥分享🇷🇺+RU_933+|54.40Mb
+      - Youtube:鹏哥分享🇸🇬SG_1033+|+8.48Mb
+      - Youtube:鹏哥分享🇹🇼TW_1109+|10.33Mb
+      - Youtube:鹏哥分享🇺🇸+US_1134+|+2.10Mb
+      - Youtube:鹏哥分享🇺🇸US_1244+|27.20Mb
+      - Youtube:鹏哥分享🇺🇸US_1253+|25.47Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|28.44Mb
+      - Youtube:鹏哥分享🇺🇸US_1511+|25.73Mb
+      - Youtube:鹏哥分享🇺🇸US_1589+|27.22Mb
+      - Youtube:鹏哥分享🇺🇸US_1652+|133.13Mb
+      - Youtube:鹏哥分享🇺🇸US_1664+|+8.90Mb
+      - Youtube:鹏哥分享🇺🇸US_1686+|14.56Mb
+      - Youtube:鹏哥分享🇺🇸US_1888+|14.51Mb
+      - Youtube:鹏哥分享🇺🇸US_1954+|+8.55Mb
+      - Youtube:鹏哥分享🇺🇸US_1958+|+5.13Mb
+      - Youtube:鹏哥分享🇺🇸US_2003+|+5.99Mb
+      - Youtube:鹏哥分享🇻🇳VN_2126+|+6.55Mb
+      - Youtube:鹏哥分享_1
+      - Youtube:鹏哥分享_2
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_4
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_6
+      - Youtube:鹏哥分享_7
+      - Youtube:鹏哥分享_8
+      - Youtube:鹏哥分享_9
+      - Youtube:鹏哥分享_10
+      - Youtube:鹏哥分享_11
+      - Youtube:鹏哥分享_12
+      - Youtube:鹏哥分享_13
+      - Youtube:鹏哥分享_14
+      - Youtube:鹏哥分享_15
+      - Youtube:鹏哥分享_16
+      - Youtube:鹏哥分享_17
+      - Youtube:鹏哥分享_18
+      - Youtube:鹏哥分享_19
+      - Youtube:鹏哥分享_20
+      - Youtube:鹏哥分享_21
+      - Youtube:鹏哥分享_22
+      - Youtube:鹏哥分享_23
+      - Youtube:鹏哥分享_24
+      - Youtube:鹏哥分享_25
+      - Youtube:鹏哥分享_26
+      - Youtube:鹏哥分享_27
+      - Youtube:鹏哥分享_28
+      - Youtube:鹏哥分享_29
+      - Youtube:鹏哥分享_30
+      - Youtube:鹏哥分享_31
+      - Youtube:鹏哥分享_32
+      - Youtube:鹏哥分享_33
+      - Youtube:鹏哥分享_34
+      - Youtube:鹏哥分享_35
+      - Youtube:鹏哥分享_36
+      - Youtube:鹏哥分享_37
+      - Youtube:鹏哥分享_38
+      - Youtube:鹏哥分享_39
+      - Youtube:鹏哥分享_40
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -858,106 +866,107 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 冰河圈子_1
-      - 冰河圈子_2
-      - 冰河圈子_3
-      - 冰河圈子_4
-      - 冰河圈子_5
-      - 冰河圈子_6
-      - 冰河圈子_7
-      - 冰河圈子_8
-      - 冰河圈子_9
-      - 冰河圈子_10
-      - 冰河圈子_11
-      - 冰河圈子_12
-      - 冰河圈子_13
-      - 冰河圈子_14
-      - 冰河圈子_15
-      - 冰河圈子_16
-      - 冰河圈子_17
-      - 冰河圈子_18
-      - 冰河圈子_19
-      - 冰河圈子_20
-      - 冰河圈子_21
-      - 冰河圈子_22
-      - 冰河圈子_23
-      - 冰河圈子_24
-      - 冰河圈子_25
-      - 冰河圈子_26
-      - 冰河圈子_27
-      - 冰河圈子_28
-      - 冰河圈子_29
-      - 冰河圈子_30
-      - 冰河圈子_31
-      - 冰河圈子_32
-      - 冰河圈子_33
-      - 冰河圈子_34
-      - 冰河圈子_35
-      - 冰河圈子_36
-      - 冰河圈子_37
-      - 冰河圈子_38
-      - 冰河圈子_39
-      - 冰河圈子_40
-      - 冰河圈子_41
-      - 冰河圈子_42
-      - 冰河圈子_43
-      - 冰河圈子_44
-      - 冰河圈子_45
-      - 冰河圈子_46
-      - 冰河圈子_47
-      - 冰河圈子_48
-      - 冰河圈子_49
-      - 冰河圈子_50
-      - 冰河圈子_51
-      - 冰河圈子_52
-      - 冰河圈子_53
-      - 冰河圈子_54
-      - 冰河圈子_55
-      - 冰河圈子_56
-      - 冰河圈子_57
-      - 冰河圈子_58
-      - 冰河圈子_59
-      - 冰河圈子_60
-      - 冰河圈子_61
-      - 冰河圈子_62
-      - 冰河圈子_63
-      - 冰河圈子_64
-      - 冰河圈子_65
-      - 冰河圈子_66
-      - 冰河圈子_67
-      - 冰河圈子_68
-      - 冰河圈子_69
-      - 冰河圈子_70
-      - 冰河圈子_71
-      - 冰河圈子_72
-      - 冰河圈子_73
-      - 冰河圈子_74
-      - 冰河圈子_75
-      - 冰河圈子_76
-      - 冰河圈子_77
-      - 冰河圈子_78
-      - 冰河圈子_79
-      - 冰河圈子_80
-      - 冰河圈子_81
-      - 冰河圈子_82
-      - 冰河圈子_83
-      - 冰河圈子_84
-      - 冰河圈子_85
-      - 冰河圈子_86
-      - 冰河圈子_87
-      - 冰河圈子_88
-      - 冰河圈子_89
-      - 冰河圈子_90
-      - 冰河圈子_91
-      - 冰河圈子_92
-      - 冰河圈子_93
-      - 冰河圈子_94
-      - 冰河圈子_95
-      - 冰河圈子_96
-      - 冰河圈子_97
-      - 冰河圈子_98
-      - 冰河圈子_99
-      - 冰河圈子_100
+      - Youtube:鹏哥分享🇦🇺AU_101+|11.78Mb
+      - Youtube:鹏哥分享🇦🇺AU_105+|+9.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|29.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_359+|27.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_360+|37.03Mb
+      - Youtube:鹏哥分享🇨🇦CA_361+|13.62Mb
+      - Youtube:鹏哥分享🇨🇦CA_377+|35.87Mb
+      - Youtube:鹏哥分享🇨🇳CN_406+|19.96Mb
+      - Youtube:鹏哥分享🇨🇳CN_407+|+6.46Mb
+      - Youtube:鹏哥分享🇩🇪+DE_457+|24.92Mb
+      - Youtube:鹏哥分享🇩🇪+DE_459+|84.48Mb
+      - Youtube:鹏哥分享🇫🇷FR_550+|224.01Mb
+      - Youtube:鹏哥分享🇫🇷FR_551+|45.93Mb
+      - Youtube:鹏哥分享🇫🇷FR_554+|13.24Mb
+      - Youtube:鹏哥分享🇫🇷FR_556+|133.77Mb
+      - Youtube:鹏哥分享🇫🇷FR_557+|127.50Mb
+      - Youtube:鹏哥分享🇫🇷FR_579+|132.10Mb
+      - Youtube:鹏哥分享🇫🇷FR_584+|159.20Mb
+      - Youtube:鹏哥分享🇫🇷FR_589+|16.13Mb
+      - Youtube:鹏哥分享🇫🇷FR_591+|34.60Mb
+      - Youtube:鹏哥分享🇫🇷FR_595+|186.47Mb
+      - Youtube:鹏哥分享🇬🇧+GB_598+|20.99Mb
+      - Youtube:鹏哥分享🇬🇷GR_664+|+4.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_669+|+3.37Mb
+      - Youtube:鹏哥分享🇭🇰HK_671+|15.75Mb
+      - Youtube:鹏哥分享🇭🇰HK_676+|+2.63Mb
+      - Youtube:鹏哥分享🇭🇰HK_681+|22.55Mb
+      - Youtube:鹏哥分享🇭🇰HK_682+|+2.75Mb
+      - Youtube:鹏哥分享🇮🇱IL_707+|11.32Mb
+      - Youtube:鹏哥分享🇳🇱NL_845+|30.69Mb
+      - Youtube:鹏哥分享🇳🇴+NO_858+|+2.37Mb
+      - Youtube:鹏哥分享🇳🇴+NO_859+|17.36Mb
+      - Youtube:鹏哥分享🇳🇴+NO_860+|+4.24Mb
+      - Youtube:鹏哥分享🇳🇴NO_868+|+1.22Mb
+      - Youtube:鹏哥分享🇳🇴NO_871+|17.58Mb
+      - Youtube:鹏哥分享🇳🇴NO_876+|+4.66Mb
+      - Youtube:鹏哥分享🇳🇴NO_877+|+0.36Mb
+      - Youtube:鹏哥分享🇳🇴NO_879+|+4.71Mb
+      - Youtube:鹏哥分享🇳🇴NO_882+|+1.34Mb
+      - Youtube:鹏哥分享🇳🇴NO_887+|+2.04Mb
+      - Youtube:鹏哥分享🇳🇿+NZ_888+|+7.66Mb
+      - Youtube:鹏哥分享🇵🇭+PH_898+|+5.92Mb
+      - Youtube:鹏哥分享🇵🇹PT_915+|13.14Mb
+      - Youtube:鹏哥分享🇷🇴RO_924+|+6.93Mb
+      - Youtube:鹏哥分享🇷🇺+RU_933+|54.40Mb
+      - Youtube:鹏哥分享🇸🇬SG_1033+|+8.48Mb
+      - Youtube:鹏哥分享🇹🇼TW_1109+|10.33Mb
+      - Youtube:鹏哥分享🇺🇸+US_1134+|+2.10Mb
+      - Youtube:鹏哥分享🇺🇸US_1244+|27.20Mb
+      - Youtube:鹏哥分享🇺🇸US_1253+|25.47Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|28.44Mb
+      - Youtube:鹏哥分享🇺🇸US_1511+|25.73Mb
+      - Youtube:鹏哥分享🇺🇸US_1589+|27.22Mb
+      - Youtube:鹏哥分享🇺🇸US_1652+|133.13Mb
+      - Youtube:鹏哥分享🇺🇸US_1664+|+8.90Mb
+      - Youtube:鹏哥分享🇺🇸US_1686+|14.56Mb
+      - Youtube:鹏哥分享🇺🇸US_1888+|14.51Mb
+      - Youtube:鹏哥分享🇺🇸US_1954+|+8.55Mb
+      - Youtube:鹏哥分享🇺🇸US_1958+|+5.13Mb
+      - Youtube:鹏哥分享🇺🇸US_2003+|+5.99Mb
+      - Youtube:鹏哥分享🇻🇳VN_2126+|+6.55Mb
+      - Youtube:鹏哥分享_1
+      - Youtube:鹏哥分享_2
+      - Youtube:鹏哥分享_3
+      - Youtube:鹏哥分享_4
+      - Youtube:鹏哥分享_5
+      - Youtube:鹏哥分享_6
+      - Youtube:鹏哥分享_7
+      - Youtube:鹏哥分享_8
+      - Youtube:鹏哥分享_9
+      - Youtube:鹏哥分享_10
+      - Youtube:鹏哥分享_11
+      - Youtube:鹏哥分享_12
+      - Youtube:鹏哥分享_13
+      - Youtube:鹏哥分享_14
+      - Youtube:鹏哥分享_15
+      - Youtube:鹏哥分享_16
+      - Youtube:鹏哥分享_17
+      - Youtube:鹏哥分享_18
+      - Youtube:鹏哥分享_19
+      - Youtube:鹏哥分享_20
+      - Youtube:鹏哥分享_21
+      - Youtube:鹏哥分享_22
+      - Youtube:鹏哥分享_23
+      - Youtube:鹏哥分享_24
+      - Youtube:鹏哥分享_25
+      - Youtube:鹏哥分享_26
+      - Youtube:鹏哥分享_27
+      - Youtube:鹏哥分享_28
+      - Youtube:鹏哥分享_29
+      - Youtube:鹏哥分享_30
+      - Youtube:鹏哥分享_31
+      - Youtube:鹏哥分享_32
+      - Youtube:鹏哥分享_33
+      - Youtube:鹏哥分享_34
+      - Youtube:鹏哥分享_35
+      - Youtube:鹏哥分享_36
+      - Youtube:鹏哥分享_37
+      - Youtube:鹏哥分享_38
+      - Youtube:鹏哥分享_39
+      - Youtube:鹏哥分享_40
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
