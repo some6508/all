@@ -372,8 +372,10 @@ proxies:
   - {name: _DE_德国_FMYC-2021.12.27_29, server: 18.192.212.68, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.192.212.68}}
   - {name: _DE_德国_FMYC-2021.12.27_30, server: 18.192.212.68, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
   - {name: _DK_丹麦_FMYC-2021.12.27_32, server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: _FI_芬兰, server: oz.mooncloud.bike, port: 8443, type: vmess, uuid: 79fedd93-e758-4655-83ed-574f4afe2a04, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: oz.mooncloud.bike}}
   - {name: _FI_芬兰_FMYC-2021.12.27_34, server: oz.mooncloud.bike, port: 8443, type: vmess, uuid: 79fedd93-e758-4655-83ed-574f4afe2a04, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: oz.mooncloud.bike}}
   - {name: _FI_芬兰_FMYC-2021.12.27_35, server: oz.mooncloud.bike, port: 8443, type: vmess, uuid: 79fedd93-e758-4655-83ed-574f4afe2a04, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: oz.mooncloud.bike}}
+  - {name: _FR_法国, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
   - {name: _FR_法国_FMYC-2021.12.27_36, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
   - {name: _FR_法国_FMYC-2021.12.27_37, server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
   - {name: _FR_法国_FMYC-2021.12.27_38, server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
@@ -384,8 +386,6 @@ proxies:
   - {name: _GB_英国_FMYC-2021.12.27_45, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: _GB_英国_FMYC-2021.12.27_46, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: _GB_英国_FMYC-2021.12.27_49, server: 86.106.136.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: h6WG7sxsLTBGn7uyvMG8}
-  - {name: _HK_香港, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _HK_香港 2, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _HK_香港_FMYC-2021.12.27_60, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _HK_香港_FMYC-2021.12.27_61, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _HK_香港_FMYC-2021.12.27_62, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
@@ -402,9 +402,9 @@ proxies:
   - {name: _IN_印度_FMYC-2021.12.27_107, server: 172.105.57.249, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _IN_印度_FMYC-2021.12.27_108, server: 172.105.57.249, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _IN_印度_FMYC-2021.12.27_109, server: 172.105.57.249, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _JP_日本, server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: _JP_日本_FMYC-2021.12.27_115, server: jp14.holiganfan.com, port: 10088, type: trojan, password: a4913b25-1c33-4c75-bd07-ce21526185a9, sni: jp14.holiganfan.com, skip-cert-verify: false}
   - {name: _MY_马来西亚_FMYC-2021.12.27_117, server: 223.25.246.4, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
+  - {name: _NO_挪威, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: _NO_挪威_FMYC-2021.12.27_118, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _NO_挪威_FMYC-2021.12.27_119, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: _PH_菲律宾_FMYC-2021.12.27_120, server: 188.214.125.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
@@ -443,12 +443,6 @@ proxies:
   - {name: _SG_新加坡_FMYC-2021.12.27_164, server: 217.197.161.166, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: _TW_台湾_FMYC-2021.12.27_177, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _TW_台湾_FMYC-2021.12.27_41, server: 165.154.226.148, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _US_美国, server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
-  - {name: _US_美国 2, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
-  - {name: _US_美国 3, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _US_美国 4, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
-  - {name: _US_美国 5, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: _US_美国 6, server: ff6.uuv2.co.uk, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
   - {name: _US_美国_FMYC-2021.12.27_1, server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDC, sni: payday2.eu.org, skip-cert-verify: false}
   - {name: _US_美国_FMYC-2021.12.27_12, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
   - {name: _US_美国_FMYC-2021.12.27_185, server: inapus.mooncloud.bike, port: 443, type: vmess, uuid: 79fedd93-e758-4655-83ed-574f4afe2a04, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: inapus.mooncloud.bike}}
@@ -936,8 +930,6 @@ proxy-groups:
       - Youtube:鹏哥分享🇭🇰HK_679 |20.20Mb
       - Youtube:鹏哥分享🇭🇰HK_681 |22.55Mb
       - Youtube:鹏哥分享🇭🇰HK_682 | 2.75Mb
-      - _HK_香港
-      - _HK_香港 2
       - _HK_香港_FMYC-2021.12.27_60
       - _HK_香港_FMYC-2021.12.27_61
       - _HK_香港_FMYC-2021.12.27_62
@@ -983,7 +975,6 @@ proxy-groups:
       - 053日本∞中转
       - 054日本∞直连
       - 055日本∞直连
-      - _JP_日本
       - _JP_日本_FMYC-2021.12.27_115
       - 日本
       - 日本 2
@@ -1078,12 +1069,6 @@ proxy-groups:
       - Youtube:鹏哥分享🇺🇸US_1954 | 8.55Mb
       - Youtube:鹏哥分享🇺🇸US_1958 | 5.13Mb
       - Youtube:鹏哥分享🇺🇸US_2003 | 5.99Mb
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
       - _US_美国_FMYC-2021.12.27_1
       - _US_美国_FMYC-2021.12.27_12
       - _US_美国_FMYC-2021.12.27_185
@@ -1794,8 +1779,10 @@ proxy-groups:
       - _DE_德国_FMYC-2021.12.27_29
       - _DE_德国_FMYC-2021.12.27_30
       - _DK_丹麦_FMYC-2021.12.27_32
+      - _FI_芬兰
       - _FI_芬兰_FMYC-2021.12.27_34
       - _FI_芬兰_FMYC-2021.12.27_35
+      - _FR_法国
       - _FR_法国_FMYC-2021.12.27_36
       - _FR_法国_FMYC-2021.12.27_37
       - _FR_法国_FMYC-2021.12.27_38
@@ -1806,8 +1793,6 @@ proxy-groups:
       - _GB_英国_FMYC-2021.12.27_45
       - _GB_英国_FMYC-2021.12.27_46
       - _GB_英国_FMYC-2021.12.27_49
-      - _HK_香港
-      - _HK_香港 2
       - _HK_香港_FMYC-2021.12.27_60
       - _HK_香港_FMYC-2021.12.27_61
       - _HK_香港_FMYC-2021.12.27_62
@@ -1824,9 +1809,9 @@ proxy-groups:
       - _IN_印度_FMYC-2021.12.27_107
       - _IN_印度_FMYC-2021.12.27_108
       - _IN_印度_FMYC-2021.12.27_109
-      - _JP_日本
       - _JP_日本_FMYC-2021.12.27_115
       - _MY_马来西亚_FMYC-2021.12.27_117
+      - _NO_挪威
       - _NO_挪威_FMYC-2021.12.27_118
       - _NO_挪威_FMYC-2021.12.27_119
       - _PH_菲律宾_FMYC-2021.12.27_120
@@ -1865,12 +1850,6 @@ proxy-groups:
       - _SG_新加坡_FMYC-2021.12.27_164
       - _TW_台湾_FMYC-2021.12.27_177
       - _TW_台湾_FMYC-2021.12.27_41
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
       - _US_美国_FMYC-2021.12.27_1
       - _US_美国_FMYC-2021.12.27_12
       - _US_美国_FMYC-2021.12.27_185
