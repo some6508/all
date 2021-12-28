@@ -5,52 +5,68 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇨🇳_CN_中国->🇨🇦_CA_加拿大_1', server: gzcm.rokishi.cyou, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: '🇺🇸_US_美国_1', server: 38.64.138.145, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_2', server: 38.64.138.145, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇳🇴_NO_挪威_3', server: 91.189.183.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇳🇴_NO_挪威_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇳🇴_NO_挪威_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇳🇴_NO_挪威_3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇳🇴_NO_挪威_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇳🇴_NO_挪威_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇳🇴_NO_挪威_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇳🇴_NO_挪威_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +82,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇳🇴_NO_挪威_3
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
