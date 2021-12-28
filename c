@@ -5,52 +5,76 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇬🇧_GB_英国_1', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_1', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇫🇷_FR_法国_2', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇭🇰_HK_香港_3', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国->🇫🇷_FR_法国_4', server: ff1.uuv2.co.uk, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: uk2.v2rayserv.com}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_1
+      - 🇫🇷_FR_法国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_1
+      - 🇫🇷_FR_法国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_1
+      - 🇫🇷_FR_法国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_1
+      - 🇫🇷_FR_法国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_1
+      - 🇫🇷_FR_法国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_1
+      - 🇫🇷_FR_法国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_1
+      - 🇫🇷_FR_法国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +90,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_1
+      - 🇫🇷_FR_法国_2
+      - 🇭🇰_HK_香港_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
