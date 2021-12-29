@@ -5,52 +5,828 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇺🇸_US_美国_1', server: 38.91.102.96, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'jmcm10067 @WangCai_1', server: jmcm.rokishi.cyou, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10054 @WangCai_1', server: jmcm.rokishi.cyou, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10016 @WangCai_1', server: jmcm.rokishi.cyou, port: 10016, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10005 @WangCai_1', server: jmcm.rokishi.cyou, port: 10005, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm30044 @WangCai_1', server: gz.cm.data2china.com, port: 30044, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10015 @WangCai_1', server: jmcm.rokishi.cyou, port: 10015, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10079 @WangCai_1', server: jmcm.rokishi.cyou, port: 10079, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20033 @WangCai_1', server: gzcm.rokishi.cyou, port: 20033, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20034 @WangCai_1', server: gzcm.rokishi.cyou, port: 20034, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20002 @WangCai_1', server: gzcm.rokishi.cyou, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10009 @WangCai_1', server: jmcm.rokishi.cyou, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20027 @WangCai_1', server: gzcm.rokishi.cyou, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10008 @WangCai_1', server: jmcm.rokishi.cyou, port: 10008, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'hzcm20006 @WangCai_1', server: hzcm.rokishi.cyou, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20006 @WangCai_1', server: gzcm.rokishi.cyou, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10085 @WangCai_1', server: jmcm.rokishi.cyou, port: 10085, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20029 @WangCai_1', server: gzcm.rokishi.cyou, port: 20029, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10070 @WangCai_1', server: jmcm.rokishi.cyou, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm30043 @WangCai_1', server: gz.cm.data2china.com, port: 30043, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20036 @WangCai_1', server: gzcm.rokishi.cyou, port: 20036, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10056 @WangCai_1', server: jmcm.rokishi.cyou, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20032 @WangCai_1', server: gzcm.rokishi.cyou, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10002 @WangCai_1', server: jmcm.rokishi.cyou, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10093 @WangCai_1', server: jmcm.rokishi.cyou, port: 10093, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10082 @WangCai_1', server: jmcm.rokishi.cyou, port: 10082, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10028 @WangCai_1', server: jmcm.rokishi.cyou, port: 10028, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20012 @WangCai_1', server: gzcm.rokishi.cyou, port: 20012, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10083 @WangCai_1', server: jmcm.rokishi.cyou, port: 10083, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10086 @WangCai_1', server: jmcm.rokishi.cyou, port: 10086, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20001 @WangCai_1', server: gzcm.rokishi.cyou, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm10001 @WangCai_1', server: gzcm.rokishi.cyou, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20038 @WangCai_1', server: gzcm.rokishi.cyou, port: 20038, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10055 @WangCai_1', server: jmcm.rokishi.cyou, port: 10055, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'hzcm20003 @WangCai_1', server: hzcm.rokishi.cyou, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10049 @WangCai_1', server: jmcm.rokishi.cyou, port: 10049, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10006 @WangCai_1', server: jmcm.rokishi.cyou, port: 10006, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10059 @WangCai_1', server: jmcm.rokishi.cyou, port: 10059, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm10000 @WangCai_1', server: gzcm.rokishi.cyou, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10050 @WangCai_1', server: jmcm.rokishi.cyou, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10003 @WangCai_1', server: jmcm.rokishi.cyou, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm10004 @WangCai_1', server: gzcm.rokishi.cyou, port: 10004, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20028 @WangCai_1', server: gzcm.rokishi.cyou, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20005 @WangCai_1', server: gzcm.rokishi.cyou, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10048 @WangCai_1', server: jmcm.rokishi.cyou, port: 10048, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10096 @WangCai_1', server: jmcm.rokishi.cyou, port: 10096, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20035 @WangCai_1', server: gzcm.rokishi.cyou, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10000 @WangCai_1', server: jmcm.rokishi.cyou, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10068 @WangCai_1', server: jmcm.rokishi.cyou, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20024 @WangCai_1', server: gzcm.rokishi.cyou, port: 20024, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10095 @WangCai_1', server: jmcm.rokishi.cyou, port: 10095, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'n_30 WangCai_1', server: 211.99.96.30, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'jmcm10073 @WangCai_1', server: jmcm.rokishi.cyou, port: 10073, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10017 @WangCai_1', server: jmcm.rokishi.cyou, port: 10017, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm10003 @WangCai_1', server: gzcm.rokishi.cyou, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10074 @WangCai_1', server: jmcm.rokishi.cyou, port: 10074, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'n_29 WangCai_1', server: 211.99.96.29, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'jmcm10058 @WangCai_1', server: jmcm.rokishi.cyou, port: 10058, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10071 @WangCai_1', server: jmcm.rokishi.cyou, port: 10071, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'n_28 WangCai_1', server: 211.99.96.28, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'hzcm20000 @WangCai_1', server: hzcm.rokishi.cyou, port: 20000, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20026 @WangCai_1', server: gzcm.rokishi.cyou, port: 20026, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'n_27 WangCai_1', server: 211.99.96.27, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'jmcm10087 @WangCai_1', server: jmcm.rokishi.cyou, port: 10087, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20011 @WangCai_1', server: gzcm.rokishi.cyou, port: 20011, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'n_26 WangCai_1', server: 211.99.96.26, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'jmcm10045 @WangCai_1', server: jmcm.rokishi.cyou, port: 10045, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'hzcm20007 @WangCai_1', server: hzcm.rokishi.cyou, port: 20007, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10018 @WangCai_1', server: jmcm.rokishi.cyou, port: 10018, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10036 @WangCai_1', server: jmcm.rokishi.cyou, port: 10036, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20017 @WangCai_1', server: gzcm.rokishi.cyou, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10001 @WangCai_1', server: jmcm.rokishi.cyou, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10027 @WangCai_1', server: jmcm.rokishi.cyou, port: 10027, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'hzcm20005 @WangCai_1', server: hzcm.rokishi.cyou, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20010 @WangCai_1', server: gzcm.rokishi.cyou, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20031 @WangCai_1', server: gzcm.rokishi.cyou, port: 20031, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20030 @WangCai_1', server: gzcm.rokishi.cyou, port: 20030, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20016 @WangCai_1', server: gzcm.rokishi.cyou, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20004 @WangCai_1', server: gzcm.rokishi.cyou, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10031 @WangCai_1', server: jmcm.rokishi.cyou, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10046 @WangCai_1', server: jmcm.rokishi.cyou, port: 10046, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10030 @WangCai_1', server: jmcm.rokishi.cyou, port: 10030, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10033 @WangCai_1', server: jmcm.rokishi.cyou, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20025 @WangCai_1', server: gzcm.rokishi.cyou, port: 20025, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20008 @WangCai_1', server: gzcm.rokishi.cyou, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10037 @WangCai_1', server: jmcm.rokishi.cyou, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10080 @WangCai_1', server: jmcm.rokishi.cyou, port: 10080, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10060 @WangCai_1', server: jmcm.rokishi.cyou, port: 10060, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20009 @WangCai_1', server: gzcm.rokishi.cyou, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'hzcm20004 @WangCai_1', server: hzcm.rokishi.cyou, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10042 @WangCai_1', server: jmcm.rokishi.cyou, port: 10042, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20018 @WangCai_1', server: gzcm.rokishi.cyou, port: 20018, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20015 @WangCai_1', server: gzcm.rokishi.cyou, port: 20015, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10089 @WangCai_1', server: jmcm.rokishi.cyou, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10094 @WangCai_1', server: jmcm.rokishi.cyou, port: 10094, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'jmcm10097 @WangCai_1', server: jmcm.rokishi.cyou, port: 10097, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20023 @WangCai_1', server: gzcm.rokishi.cyou, port: 20023, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20037 @WangCai_1', server: gzcm.rokishi.cyou, port: 20037, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
+  - {name: 'gzcm20013 @WangCai_1', server: gzcm.rokishi.cyou, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
+      - jmcm10067 @WangCai_1
+      - jmcm10054 @WangCai_1
+      - jmcm10016 @WangCai_1
+      - jmcm10005 @WangCai_1
+      - gzcm30044 @WangCai_1
+      - jmcm10015 @WangCai_1
+      - jmcm10079 @WangCai_1
+      - gzcm20033 @WangCai_1
+      - gzcm20034 @WangCai_1
+      - gzcm20002 @WangCai_1
+      - jmcm10009 @WangCai_1
+      - gzcm20027 @WangCai_1
+      - jmcm10008 @WangCai_1
+      - hzcm20006 @WangCai_1
+      - gzcm20006 @WangCai_1
+      - jmcm10085 @WangCai_1
+      - gzcm20029 @WangCai_1
+      - jmcm10070 @WangCai_1
+      - gzcm30043 @WangCai_1
+      - gzcm20036 @WangCai_1
+      - jmcm10056 @WangCai_1
+      - gzcm20032 @WangCai_1
+      - jmcm10002 @WangCai_1
+      - jmcm10093 @WangCai_1
+      - jmcm10082 @WangCai_1
+      - jmcm10028 @WangCai_1
+      - gzcm20012 @WangCai_1
+      - jmcm10083 @WangCai_1
+      - jmcm10086 @WangCai_1
+      - gzcm20001 @WangCai_1
+      - gzcm10001 @WangCai_1
+      - gzcm20038 @WangCai_1
+      - jmcm10055 @WangCai_1
+      - hzcm20003 @WangCai_1
+      - jmcm10049 @WangCai_1
+      - jmcm10006 @WangCai_1
+      - jmcm10059 @WangCai_1
+      - gzcm10000 @WangCai_1
+      - jmcm10050 @WangCai_1
+      - jmcm10003 @WangCai_1
+      - gzcm10004 @WangCai_1
+      - gzcm20028 @WangCai_1
+      - gzcm20005 @WangCai_1
+      - jmcm10048 @WangCai_1
+      - jmcm10096 @WangCai_1
+      - gzcm20035 @WangCai_1
+      - jmcm10000 @WangCai_1
+      - jmcm10068 @WangCai_1
+      - gzcm20024 @WangCai_1
+      - jmcm10095 @WangCai_1
+      - n_30 WangCai_1
+      - jmcm10073 @WangCai_1
+      - jmcm10017 @WangCai_1
+      - gzcm10003 @WangCai_1
+      - jmcm10074 @WangCai_1
+      - n_29 WangCai_1
+      - jmcm10058 @WangCai_1
+      - jmcm10071 @WangCai_1
+      - n_28 WangCai_1
+      - hzcm20000 @WangCai_1
+      - gzcm20026 @WangCai_1
+      - n_27 WangCai_1
+      - jmcm10087 @WangCai_1
+      - gzcm20011 @WangCai_1
+      - n_26 WangCai_1
+      - jmcm10045 @WangCai_1
+      - hzcm20007 @WangCai_1
+      - jmcm10018 @WangCai_1
+      - jmcm10036 @WangCai_1
+      - gzcm20017 @WangCai_1
+      - jmcm10001 @WangCai_1
+      - jmcm10027 @WangCai_1
+      - hzcm20005 @WangCai_1
+      - gzcm20010 @WangCai_1
+      - gzcm20031 @WangCai_1
+      - gzcm20030 @WangCai_1
+      - gzcm20016 @WangCai_1
+      - gzcm20004 @WangCai_1
+      - jmcm10031 @WangCai_1
+      - jmcm10046 @WangCai_1
+      - jmcm10030 @WangCai_1
+      - jmcm10033 @WangCai_1
+      - gzcm20025 @WangCai_1
+      - gzcm20008 @WangCai_1
+      - jmcm10037 @WangCai_1
+      - jmcm10080 @WangCai_1
+      - jmcm10060 @WangCai_1
+      - gzcm20009 @WangCai_1
+      - hzcm20004 @WangCai_1
+      - jmcm10042 @WangCai_1
+      - gzcm20018 @WangCai_1
+      - gzcm20015 @WangCai_1
+      - jmcm10089 @WangCai_1
+      - jmcm10094 @WangCai_1
+      - jmcm10097 @WangCai_1
+      - gzcm20023 @WangCai_1
+      - gzcm20037 @WangCai_1
+      - gzcm20013 @WangCai_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_美国_1
+      - jmcm10067 @WangCai_1
+      - jmcm10054 @WangCai_1
+      - jmcm10016 @WangCai_1
+      - jmcm10005 @WangCai_1
+      - gzcm30044 @WangCai_1
+      - jmcm10015 @WangCai_1
+      - jmcm10079 @WangCai_1
+      - gzcm20033 @WangCai_1
+      - gzcm20034 @WangCai_1
+      - gzcm20002 @WangCai_1
+      - jmcm10009 @WangCai_1
+      - gzcm20027 @WangCai_1
+      - jmcm10008 @WangCai_1
+      - hzcm20006 @WangCai_1
+      - gzcm20006 @WangCai_1
+      - jmcm10085 @WangCai_1
+      - gzcm20029 @WangCai_1
+      - jmcm10070 @WangCai_1
+      - gzcm30043 @WangCai_1
+      - gzcm20036 @WangCai_1
+      - jmcm10056 @WangCai_1
+      - gzcm20032 @WangCai_1
+      - jmcm10002 @WangCai_1
+      - jmcm10093 @WangCai_1
+      - jmcm10082 @WangCai_1
+      - jmcm10028 @WangCai_1
+      - gzcm20012 @WangCai_1
+      - jmcm10083 @WangCai_1
+      - jmcm10086 @WangCai_1
+      - gzcm20001 @WangCai_1
+      - gzcm10001 @WangCai_1
+      - gzcm20038 @WangCai_1
+      - jmcm10055 @WangCai_1
+      - hzcm20003 @WangCai_1
+      - jmcm10049 @WangCai_1
+      - jmcm10006 @WangCai_1
+      - jmcm10059 @WangCai_1
+      - gzcm10000 @WangCai_1
+      - jmcm10050 @WangCai_1
+      - jmcm10003 @WangCai_1
+      - gzcm10004 @WangCai_1
+      - gzcm20028 @WangCai_1
+      - gzcm20005 @WangCai_1
+      - jmcm10048 @WangCai_1
+      - jmcm10096 @WangCai_1
+      - gzcm20035 @WangCai_1
+      - jmcm10000 @WangCai_1
+      - jmcm10068 @WangCai_1
+      - gzcm20024 @WangCai_1
+      - jmcm10095 @WangCai_1
+      - n_30 WangCai_1
+      - jmcm10073 @WangCai_1
+      - jmcm10017 @WangCai_1
+      - gzcm10003 @WangCai_1
+      - jmcm10074 @WangCai_1
+      - n_29 WangCai_1
+      - jmcm10058 @WangCai_1
+      - jmcm10071 @WangCai_1
+      - n_28 WangCai_1
+      - hzcm20000 @WangCai_1
+      - gzcm20026 @WangCai_1
+      - n_27 WangCai_1
+      - jmcm10087 @WangCai_1
+      - gzcm20011 @WangCai_1
+      - n_26 WangCai_1
+      - jmcm10045 @WangCai_1
+      - hzcm20007 @WangCai_1
+      - jmcm10018 @WangCai_1
+      - jmcm10036 @WangCai_1
+      - gzcm20017 @WangCai_1
+      - jmcm10001 @WangCai_1
+      - jmcm10027 @WangCai_1
+      - hzcm20005 @WangCai_1
+      - gzcm20010 @WangCai_1
+      - gzcm20031 @WangCai_1
+      - gzcm20030 @WangCai_1
+      - gzcm20016 @WangCai_1
+      - gzcm20004 @WangCai_1
+      - jmcm10031 @WangCai_1
+      - jmcm10046 @WangCai_1
+      - jmcm10030 @WangCai_1
+      - jmcm10033 @WangCai_1
+      - gzcm20025 @WangCai_1
+      - gzcm20008 @WangCai_1
+      - jmcm10037 @WangCai_1
+      - jmcm10080 @WangCai_1
+      - jmcm10060 @WangCai_1
+      - gzcm20009 @WangCai_1
+      - hzcm20004 @WangCai_1
+      - jmcm10042 @WangCai_1
+      - gzcm20018 @WangCai_1
+      - gzcm20015 @WangCai_1
+      - jmcm10089 @WangCai_1
+      - jmcm10094 @WangCai_1
+      - jmcm10097 @WangCai_1
+      - gzcm20023 @WangCai_1
+      - gzcm20037 @WangCai_1
+      - gzcm20013 @WangCai_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
+      - jmcm10067 @WangCai_1
+      - jmcm10054 @WangCai_1
+      - jmcm10016 @WangCai_1
+      - jmcm10005 @WangCai_1
+      - gzcm30044 @WangCai_1
+      - jmcm10015 @WangCai_1
+      - jmcm10079 @WangCai_1
+      - gzcm20033 @WangCai_1
+      - gzcm20034 @WangCai_1
+      - gzcm20002 @WangCai_1
+      - jmcm10009 @WangCai_1
+      - gzcm20027 @WangCai_1
+      - jmcm10008 @WangCai_1
+      - hzcm20006 @WangCai_1
+      - gzcm20006 @WangCai_1
+      - jmcm10085 @WangCai_1
+      - gzcm20029 @WangCai_1
+      - jmcm10070 @WangCai_1
+      - gzcm30043 @WangCai_1
+      - gzcm20036 @WangCai_1
+      - jmcm10056 @WangCai_1
+      - gzcm20032 @WangCai_1
+      - jmcm10002 @WangCai_1
+      - jmcm10093 @WangCai_1
+      - jmcm10082 @WangCai_1
+      - jmcm10028 @WangCai_1
+      - gzcm20012 @WangCai_1
+      - jmcm10083 @WangCai_1
+      - jmcm10086 @WangCai_1
+      - gzcm20001 @WangCai_1
+      - gzcm10001 @WangCai_1
+      - gzcm20038 @WangCai_1
+      - jmcm10055 @WangCai_1
+      - hzcm20003 @WangCai_1
+      - jmcm10049 @WangCai_1
+      - jmcm10006 @WangCai_1
+      - jmcm10059 @WangCai_1
+      - gzcm10000 @WangCai_1
+      - jmcm10050 @WangCai_1
+      - jmcm10003 @WangCai_1
+      - gzcm10004 @WangCai_1
+      - gzcm20028 @WangCai_1
+      - gzcm20005 @WangCai_1
+      - jmcm10048 @WangCai_1
+      - jmcm10096 @WangCai_1
+      - gzcm20035 @WangCai_1
+      - jmcm10000 @WangCai_1
+      - jmcm10068 @WangCai_1
+      - gzcm20024 @WangCai_1
+      - jmcm10095 @WangCai_1
+      - n_30 WangCai_1
+      - jmcm10073 @WangCai_1
+      - jmcm10017 @WangCai_1
+      - gzcm10003 @WangCai_1
+      - jmcm10074 @WangCai_1
+      - n_29 WangCai_1
+      - jmcm10058 @WangCai_1
+      - jmcm10071 @WangCai_1
+      - n_28 WangCai_1
+      - hzcm20000 @WangCai_1
+      - gzcm20026 @WangCai_1
+      - n_27 WangCai_1
+      - jmcm10087 @WangCai_1
+      - gzcm20011 @WangCai_1
+      - n_26 WangCai_1
+      - jmcm10045 @WangCai_1
+      - hzcm20007 @WangCai_1
+      - jmcm10018 @WangCai_1
+      - jmcm10036 @WangCai_1
+      - gzcm20017 @WangCai_1
+      - jmcm10001 @WangCai_1
+      - jmcm10027 @WangCai_1
+      - hzcm20005 @WangCai_1
+      - gzcm20010 @WangCai_1
+      - gzcm20031 @WangCai_1
+      - gzcm20030 @WangCai_1
+      - gzcm20016 @WangCai_1
+      - gzcm20004 @WangCai_1
+      - jmcm10031 @WangCai_1
+      - jmcm10046 @WangCai_1
+      - jmcm10030 @WangCai_1
+      - jmcm10033 @WangCai_1
+      - gzcm20025 @WangCai_1
+      - gzcm20008 @WangCai_1
+      - jmcm10037 @WangCai_1
+      - jmcm10080 @WangCai_1
+      - jmcm10060 @WangCai_1
+      - gzcm20009 @WangCai_1
+      - hzcm20004 @WangCai_1
+      - jmcm10042 @WangCai_1
+      - gzcm20018 @WangCai_1
+      - gzcm20015 @WangCai_1
+      - jmcm10089 @WangCai_1
+      - jmcm10094 @WangCai_1
+      - jmcm10097 @WangCai_1
+      - gzcm20023 @WangCai_1
+      - gzcm20037 @WangCai_1
+      - gzcm20013 @WangCai_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
+      - jmcm10067 @WangCai_1
+      - jmcm10054 @WangCai_1
+      - jmcm10016 @WangCai_1
+      - jmcm10005 @WangCai_1
+      - gzcm30044 @WangCai_1
+      - jmcm10015 @WangCai_1
+      - jmcm10079 @WangCai_1
+      - gzcm20033 @WangCai_1
+      - gzcm20034 @WangCai_1
+      - gzcm20002 @WangCai_1
+      - jmcm10009 @WangCai_1
+      - gzcm20027 @WangCai_1
+      - jmcm10008 @WangCai_1
+      - hzcm20006 @WangCai_1
+      - gzcm20006 @WangCai_1
+      - jmcm10085 @WangCai_1
+      - gzcm20029 @WangCai_1
+      - jmcm10070 @WangCai_1
+      - gzcm30043 @WangCai_1
+      - gzcm20036 @WangCai_1
+      - jmcm10056 @WangCai_1
+      - gzcm20032 @WangCai_1
+      - jmcm10002 @WangCai_1
+      - jmcm10093 @WangCai_1
+      - jmcm10082 @WangCai_1
+      - jmcm10028 @WangCai_1
+      - gzcm20012 @WangCai_1
+      - jmcm10083 @WangCai_1
+      - jmcm10086 @WangCai_1
+      - gzcm20001 @WangCai_1
+      - gzcm10001 @WangCai_1
+      - gzcm20038 @WangCai_1
+      - jmcm10055 @WangCai_1
+      - hzcm20003 @WangCai_1
+      - jmcm10049 @WangCai_1
+      - jmcm10006 @WangCai_1
+      - jmcm10059 @WangCai_1
+      - gzcm10000 @WangCai_1
+      - jmcm10050 @WangCai_1
+      - jmcm10003 @WangCai_1
+      - gzcm10004 @WangCai_1
+      - gzcm20028 @WangCai_1
+      - gzcm20005 @WangCai_1
+      - jmcm10048 @WangCai_1
+      - jmcm10096 @WangCai_1
+      - gzcm20035 @WangCai_1
+      - jmcm10000 @WangCai_1
+      - jmcm10068 @WangCai_1
+      - gzcm20024 @WangCai_1
+      - jmcm10095 @WangCai_1
+      - n_30 WangCai_1
+      - jmcm10073 @WangCai_1
+      - jmcm10017 @WangCai_1
+      - gzcm10003 @WangCai_1
+      - jmcm10074 @WangCai_1
+      - n_29 WangCai_1
+      - jmcm10058 @WangCai_1
+      - jmcm10071 @WangCai_1
+      - n_28 WangCai_1
+      - hzcm20000 @WangCai_1
+      - gzcm20026 @WangCai_1
+      - n_27 WangCai_1
+      - jmcm10087 @WangCai_1
+      - gzcm20011 @WangCai_1
+      - n_26 WangCai_1
+      - jmcm10045 @WangCai_1
+      - hzcm20007 @WangCai_1
+      - jmcm10018 @WangCai_1
+      - jmcm10036 @WangCai_1
+      - gzcm20017 @WangCai_1
+      - jmcm10001 @WangCai_1
+      - jmcm10027 @WangCai_1
+      - hzcm20005 @WangCai_1
+      - gzcm20010 @WangCai_1
+      - gzcm20031 @WangCai_1
+      - gzcm20030 @WangCai_1
+      - gzcm20016 @WangCai_1
+      - gzcm20004 @WangCai_1
+      - jmcm10031 @WangCai_1
+      - jmcm10046 @WangCai_1
+      - jmcm10030 @WangCai_1
+      - jmcm10033 @WangCai_1
+      - gzcm20025 @WangCai_1
+      - gzcm20008 @WangCai_1
+      - jmcm10037 @WangCai_1
+      - jmcm10080 @WangCai_1
+      - jmcm10060 @WangCai_1
+      - gzcm20009 @WangCai_1
+      - hzcm20004 @WangCai_1
+      - jmcm10042 @WangCai_1
+      - gzcm20018 @WangCai_1
+      - gzcm20015 @WangCai_1
+      - jmcm10089 @WangCai_1
+      - jmcm10094 @WangCai_1
+      - jmcm10097 @WangCai_1
+      - gzcm20023 @WangCai_1
+      - gzcm20037 @WangCai_1
+      - gzcm20013 @WangCai_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
+      - jmcm10067 @WangCai_1
+      - jmcm10054 @WangCai_1
+      - jmcm10016 @WangCai_1
+      - jmcm10005 @WangCai_1
+      - gzcm30044 @WangCai_1
+      - jmcm10015 @WangCai_1
+      - jmcm10079 @WangCai_1
+      - gzcm20033 @WangCai_1
+      - gzcm20034 @WangCai_1
+      - gzcm20002 @WangCai_1
+      - jmcm10009 @WangCai_1
+      - gzcm20027 @WangCai_1
+      - jmcm10008 @WangCai_1
+      - hzcm20006 @WangCai_1
+      - gzcm20006 @WangCai_1
+      - jmcm10085 @WangCai_1
+      - gzcm20029 @WangCai_1
+      - jmcm10070 @WangCai_1
+      - gzcm30043 @WangCai_1
+      - gzcm20036 @WangCai_1
+      - jmcm10056 @WangCai_1
+      - gzcm20032 @WangCai_1
+      - jmcm10002 @WangCai_1
+      - jmcm10093 @WangCai_1
+      - jmcm10082 @WangCai_1
+      - jmcm10028 @WangCai_1
+      - gzcm20012 @WangCai_1
+      - jmcm10083 @WangCai_1
+      - jmcm10086 @WangCai_1
+      - gzcm20001 @WangCai_1
+      - gzcm10001 @WangCai_1
+      - gzcm20038 @WangCai_1
+      - jmcm10055 @WangCai_1
+      - hzcm20003 @WangCai_1
+      - jmcm10049 @WangCai_1
+      - jmcm10006 @WangCai_1
+      - jmcm10059 @WangCai_1
+      - gzcm10000 @WangCai_1
+      - jmcm10050 @WangCai_1
+      - jmcm10003 @WangCai_1
+      - gzcm10004 @WangCai_1
+      - gzcm20028 @WangCai_1
+      - gzcm20005 @WangCai_1
+      - jmcm10048 @WangCai_1
+      - jmcm10096 @WangCai_1
+      - gzcm20035 @WangCai_1
+      - jmcm10000 @WangCai_1
+      - jmcm10068 @WangCai_1
+      - gzcm20024 @WangCai_1
+      - jmcm10095 @WangCai_1
+      - n_30 WangCai_1
+      - jmcm10073 @WangCai_1
+      - jmcm10017 @WangCai_1
+      - gzcm10003 @WangCai_1
+      - jmcm10074 @WangCai_1
+      - n_29 WangCai_1
+      - jmcm10058 @WangCai_1
+      - jmcm10071 @WangCai_1
+      - n_28 WangCai_1
+      - hzcm20000 @WangCai_1
+      - gzcm20026 @WangCai_1
+      - n_27 WangCai_1
+      - jmcm10087 @WangCai_1
+      - gzcm20011 @WangCai_1
+      - n_26 WangCai_1
+      - jmcm10045 @WangCai_1
+      - hzcm20007 @WangCai_1
+      - jmcm10018 @WangCai_1
+      - jmcm10036 @WangCai_1
+      - gzcm20017 @WangCai_1
+      - jmcm10001 @WangCai_1
+      - jmcm10027 @WangCai_1
+      - hzcm20005 @WangCai_1
+      - gzcm20010 @WangCai_1
+      - gzcm20031 @WangCai_1
+      - gzcm20030 @WangCai_1
+      - gzcm20016 @WangCai_1
+      - gzcm20004 @WangCai_1
+      - jmcm10031 @WangCai_1
+      - jmcm10046 @WangCai_1
+      - jmcm10030 @WangCai_1
+      - jmcm10033 @WangCai_1
+      - gzcm20025 @WangCai_1
+      - gzcm20008 @WangCai_1
+      - jmcm10037 @WangCai_1
+      - jmcm10080 @WangCai_1
+      - jmcm10060 @WangCai_1
+      - gzcm20009 @WangCai_1
+      - hzcm20004 @WangCai_1
+      - jmcm10042 @WangCai_1
+      - gzcm20018 @WangCai_1
+      - gzcm20015 @WangCai_1
+      - jmcm10089 @WangCai_1
+      - jmcm10094 @WangCai_1
+      - jmcm10097 @WangCai_1
+      - gzcm20023 @WangCai_1
+      - gzcm20037 @WangCai_1
+      - gzcm20013 @WangCai_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
+      - jmcm10067 @WangCai_1
+      - jmcm10054 @WangCai_1
+      - jmcm10016 @WangCai_1
+      - jmcm10005 @WangCai_1
+      - gzcm30044 @WangCai_1
+      - jmcm10015 @WangCai_1
+      - jmcm10079 @WangCai_1
+      - gzcm20033 @WangCai_1
+      - gzcm20034 @WangCai_1
+      - gzcm20002 @WangCai_1
+      - jmcm10009 @WangCai_1
+      - gzcm20027 @WangCai_1
+      - jmcm10008 @WangCai_1
+      - hzcm20006 @WangCai_1
+      - gzcm20006 @WangCai_1
+      - jmcm10085 @WangCai_1
+      - gzcm20029 @WangCai_1
+      - jmcm10070 @WangCai_1
+      - gzcm30043 @WangCai_1
+      - gzcm20036 @WangCai_1
+      - jmcm10056 @WangCai_1
+      - gzcm20032 @WangCai_1
+      - jmcm10002 @WangCai_1
+      - jmcm10093 @WangCai_1
+      - jmcm10082 @WangCai_1
+      - jmcm10028 @WangCai_1
+      - gzcm20012 @WangCai_1
+      - jmcm10083 @WangCai_1
+      - jmcm10086 @WangCai_1
+      - gzcm20001 @WangCai_1
+      - gzcm10001 @WangCai_1
+      - gzcm20038 @WangCai_1
+      - jmcm10055 @WangCai_1
+      - hzcm20003 @WangCai_1
+      - jmcm10049 @WangCai_1
+      - jmcm10006 @WangCai_1
+      - jmcm10059 @WangCai_1
+      - gzcm10000 @WangCai_1
+      - jmcm10050 @WangCai_1
+      - jmcm10003 @WangCai_1
+      - gzcm10004 @WangCai_1
+      - gzcm20028 @WangCai_1
+      - gzcm20005 @WangCai_1
+      - jmcm10048 @WangCai_1
+      - jmcm10096 @WangCai_1
+      - gzcm20035 @WangCai_1
+      - jmcm10000 @WangCai_1
+      - jmcm10068 @WangCai_1
+      - gzcm20024 @WangCai_1
+      - jmcm10095 @WangCai_1
+      - n_30 WangCai_1
+      - jmcm10073 @WangCai_1
+      - jmcm10017 @WangCai_1
+      - gzcm10003 @WangCai_1
+      - jmcm10074 @WangCai_1
+      - n_29 WangCai_1
+      - jmcm10058 @WangCai_1
+      - jmcm10071 @WangCai_1
+      - n_28 WangCai_1
+      - hzcm20000 @WangCai_1
+      - gzcm20026 @WangCai_1
+      - n_27 WangCai_1
+      - jmcm10087 @WangCai_1
+      - gzcm20011 @WangCai_1
+      - n_26 WangCai_1
+      - jmcm10045 @WangCai_1
+      - hzcm20007 @WangCai_1
+      - jmcm10018 @WangCai_1
+      - jmcm10036 @WangCai_1
+      - gzcm20017 @WangCai_1
+      - jmcm10001 @WangCai_1
+      - jmcm10027 @WangCai_1
+      - hzcm20005 @WangCai_1
+      - gzcm20010 @WangCai_1
+      - gzcm20031 @WangCai_1
+      - gzcm20030 @WangCai_1
+      - gzcm20016 @WangCai_1
+      - gzcm20004 @WangCai_1
+      - jmcm10031 @WangCai_1
+      - jmcm10046 @WangCai_1
+      - jmcm10030 @WangCai_1
+      - jmcm10033 @WangCai_1
+      - gzcm20025 @WangCai_1
+      - gzcm20008 @WangCai_1
+      - jmcm10037 @WangCai_1
+      - jmcm10080 @WangCai_1
+      - jmcm10060 @WangCai_1
+      - gzcm20009 @WangCai_1
+      - hzcm20004 @WangCai_1
+      - jmcm10042 @WangCai_1
+      - gzcm20018 @WangCai_1
+      - gzcm20015 @WangCai_1
+      - jmcm10089 @WangCai_1
+      - jmcm10094 @WangCai_1
+      - jmcm10097 @WangCai_1
+      - gzcm20023 @WangCai_1
+      - gzcm20037 @WangCai_1
+      - gzcm20013 @WangCai_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
+      - jmcm10067 @WangCai_1
+      - jmcm10054 @WangCai_1
+      - jmcm10016 @WangCai_1
+      - jmcm10005 @WangCai_1
+      - gzcm30044 @WangCai_1
+      - jmcm10015 @WangCai_1
+      - jmcm10079 @WangCai_1
+      - gzcm20033 @WangCai_1
+      - gzcm20034 @WangCai_1
+      - gzcm20002 @WangCai_1
+      - jmcm10009 @WangCai_1
+      - gzcm20027 @WangCai_1
+      - jmcm10008 @WangCai_1
+      - hzcm20006 @WangCai_1
+      - gzcm20006 @WangCai_1
+      - jmcm10085 @WangCai_1
+      - gzcm20029 @WangCai_1
+      - jmcm10070 @WangCai_1
+      - gzcm30043 @WangCai_1
+      - gzcm20036 @WangCai_1
+      - jmcm10056 @WangCai_1
+      - gzcm20032 @WangCai_1
+      - jmcm10002 @WangCai_1
+      - jmcm10093 @WangCai_1
+      - jmcm10082 @WangCai_1
+      - jmcm10028 @WangCai_1
+      - gzcm20012 @WangCai_1
+      - jmcm10083 @WangCai_1
+      - jmcm10086 @WangCai_1
+      - gzcm20001 @WangCai_1
+      - gzcm10001 @WangCai_1
+      - gzcm20038 @WangCai_1
+      - jmcm10055 @WangCai_1
+      - hzcm20003 @WangCai_1
+      - jmcm10049 @WangCai_1
+      - jmcm10006 @WangCai_1
+      - jmcm10059 @WangCai_1
+      - gzcm10000 @WangCai_1
+      - jmcm10050 @WangCai_1
+      - jmcm10003 @WangCai_1
+      - gzcm10004 @WangCai_1
+      - gzcm20028 @WangCai_1
+      - gzcm20005 @WangCai_1
+      - jmcm10048 @WangCai_1
+      - jmcm10096 @WangCai_1
+      - gzcm20035 @WangCai_1
+      - jmcm10000 @WangCai_1
+      - jmcm10068 @WangCai_1
+      - gzcm20024 @WangCai_1
+      - jmcm10095 @WangCai_1
+      - n_30 WangCai_1
+      - jmcm10073 @WangCai_1
+      - jmcm10017 @WangCai_1
+      - gzcm10003 @WangCai_1
+      - jmcm10074 @WangCai_1
+      - n_29 WangCai_1
+      - jmcm10058 @WangCai_1
+      - jmcm10071 @WangCai_1
+      - n_28 WangCai_1
+      - hzcm20000 @WangCai_1
+      - gzcm20026 @WangCai_1
+      - n_27 WangCai_1
+      - jmcm10087 @WangCai_1
+      - gzcm20011 @WangCai_1
+      - n_26 WangCai_1
+      - jmcm10045 @WangCai_1
+      - hzcm20007 @WangCai_1
+      - jmcm10018 @WangCai_1
+      - jmcm10036 @WangCai_1
+      - gzcm20017 @WangCai_1
+      - jmcm10001 @WangCai_1
+      - jmcm10027 @WangCai_1
+      - hzcm20005 @WangCai_1
+      - gzcm20010 @WangCai_1
+      - gzcm20031 @WangCai_1
+      - gzcm20030 @WangCai_1
+      - gzcm20016 @WangCai_1
+      - gzcm20004 @WangCai_1
+      - jmcm10031 @WangCai_1
+      - jmcm10046 @WangCai_1
+      - jmcm10030 @WangCai_1
+      - jmcm10033 @WangCai_1
+      - gzcm20025 @WangCai_1
+      - gzcm20008 @WangCai_1
+      - jmcm10037 @WangCai_1
+      - jmcm10080 @WangCai_1
+      - jmcm10060 @WangCai_1
+      - gzcm20009 @WangCai_1
+      - hzcm20004 @WangCai_1
+      - jmcm10042 @WangCai_1
+      - gzcm20018 @WangCai_1
+      - gzcm20015 @WangCai_1
+      - jmcm10089 @WangCai_1
+      - jmcm10094 @WangCai_1
+      - jmcm10097 @WangCai_1
+      - gzcm20023 @WangCai_1
+      - gzcm20037 @WangCai_1
+      - gzcm20013 @WangCai_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +842,104 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
+      - jmcm10067 @WangCai_1
+      - jmcm10054 @WangCai_1
+      - jmcm10016 @WangCai_1
+      - jmcm10005 @WangCai_1
+      - gzcm30044 @WangCai_1
+      - jmcm10015 @WangCai_1
+      - jmcm10079 @WangCai_1
+      - gzcm20033 @WangCai_1
+      - gzcm20034 @WangCai_1
+      - gzcm20002 @WangCai_1
+      - jmcm10009 @WangCai_1
+      - gzcm20027 @WangCai_1
+      - jmcm10008 @WangCai_1
+      - hzcm20006 @WangCai_1
+      - gzcm20006 @WangCai_1
+      - jmcm10085 @WangCai_1
+      - gzcm20029 @WangCai_1
+      - jmcm10070 @WangCai_1
+      - gzcm30043 @WangCai_1
+      - gzcm20036 @WangCai_1
+      - jmcm10056 @WangCai_1
+      - gzcm20032 @WangCai_1
+      - jmcm10002 @WangCai_1
+      - jmcm10093 @WangCai_1
+      - jmcm10082 @WangCai_1
+      - jmcm10028 @WangCai_1
+      - gzcm20012 @WangCai_1
+      - jmcm10083 @WangCai_1
+      - jmcm10086 @WangCai_1
+      - gzcm20001 @WangCai_1
+      - gzcm10001 @WangCai_1
+      - gzcm20038 @WangCai_1
+      - jmcm10055 @WangCai_1
+      - hzcm20003 @WangCai_1
+      - jmcm10049 @WangCai_1
+      - jmcm10006 @WangCai_1
+      - jmcm10059 @WangCai_1
+      - gzcm10000 @WangCai_1
+      - jmcm10050 @WangCai_1
+      - jmcm10003 @WangCai_1
+      - gzcm10004 @WangCai_1
+      - gzcm20028 @WangCai_1
+      - gzcm20005 @WangCai_1
+      - jmcm10048 @WangCai_1
+      - jmcm10096 @WangCai_1
+      - gzcm20035 @WangCai_1
+      - jmcm10000 @WangCai_1
+      - jmcm10068 @WangCai_1
+      - gzcm20024 @WangCai_1
+      - jmcm10095 @WangCai_1
+      - n_30 WangCai_1
+      - jmcm10073 @WangCai_1
+      - jmcm10017 @WangCai_1
+      - gzcm10003 @WangCai_1
+      - jmcm10074 @WangCai_1
+      - n_29 WangCai_1
+      - jmcm10058 @WangCai_1
+      - jmcm10071 @WangCai_1
+      - n_28 WangCai_1
+      - hzcm20000 @WangCai_1
+      - gzcm20026 @WangCai_1
+      - n_27 WangCai_1
+      - jmcm10087 @WangCai_1
+      - gzcm20011 @WangCai_1
+      - n_26 WangCai_1
+      - jmcm10045 @WangCai_1
+      - hzcm20007 @WangCai_1
+      - jmcm10018 @WangCai_1
+      - jmcm10036 @WangCai_1
+      - gzcm20017 @WangCai_1
+      - jmcm10001 @WangCai_1
+      - jmcm10027 @WangCai_1
+      - hzcm20005 @WangCai_1
+      - gzcm20010 @WangCai_1
+      - gzcm20031 @WangCai_1
+      - gzcm20030 @WangCai_1
+      - gzcm20016 @WangCai_1
+      - gzcm20004 @WangCai_1
+      - jmcm10031 @WangCai_1
+      - jmcm10046 @WangCai_1
+      - jmcm10030 @WangCai_1
+      - jmcm10033 @WangCai_1
+      - gzcm20025 @WangCai_1
+      - gzcm20008 @WangCai_1
+      - jmcm10037 @WangCai_1
+      - jmcm10080 @WangCai_1
+      - jmcm10060 @WangCai_1
+      - gzcm20009 @WangCai_1
+      - hzcm20004 @WangCai_1
+      - jmcm10042 @WangCai_1
+      - gzcm20018 @WangCai_1
+      - gzcm20015 @WangCai_1
+      - jmcm10089 @WangCai_1
+      - jmcm10094 @WangCai_1
+      - jmcm10097 @WangCai_1
+      - gzcm20023 @WangCai_1
+      - gzcm20037 @WangCai_1
+      - gzcm20013 @WangCai_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
