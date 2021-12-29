@@ -5,52 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'V4-#169|广东-香港HKT|NF|x2.0|V2ray_1', server: jzdjd-01.ddns-only.xyz, port: 40169, type: vmess, uuid: 4bed7e8d-f989-3550-8d68-a37a66c57a2b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /jz666666}
+  - {name: '🇺🇸_US_美国_1', server: 38.91.102.96, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V4-#169|广东-香港HKT|NF|x2.0|V2ray_1
+      - 🇺🇸_US_美国_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - V4-#169|广东-香港HKT|NF|x2.0|V2ray_1
+      - 🇺🇸_US_美国_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V4-#169|广东-香港HKT|NF|x2.0|V2ray_1
+      - 🇺🇸_US_美国_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - V4-#169|广东-香港HKT|NF|x2.0|V2ray_1
+      - 🇺🇸_US_美国_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - V4-#169|广东-香港HKT|NF|x2.0|V2ray_1
+      - 🇺🇸_US_美国_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - V4-#169|广东-香港HKT|NF|x2.0|V2ray_1
+      - 🇺🇸_US_美国_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V4-#169|广东-香港HKT|NF|x2.0|V2ray_1
+      - 🇺🇸_US_美国_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +66,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V4-#169|广东-香港HKT|NF|x2.0|V2ray_1
+      - 🇺🇸_US_美国_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
