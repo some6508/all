@@ -62,8 +62,6 @@ mv -f $home/vc1 $home/vc
 fi
 CURL v8 'https://raw.githubusercontent.com/freefq/free/master/v2'
 CURL s 'https://raw.githubusercontent.com/freefq/free/master/ssr'
-by="`curl -s 'https://github.com/some6508/all/actions' | xargs | sed -n 's/<span class="color-fg-muted"> /\n/p' | sed -n 's| </span>.*||p' | sed 's|<a class=".*">|https://github.com/|g; s|</a>||g' | grep -v '<!DOCTYPE html>'`"
-sed -i "s|^### |### $by|g" $home/README.md
 sed -i "/^|20/c|$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')|" $home/README.md
 sed -i "/^20/c$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒' -d '+1 hour')" $home/README.md
 echo --------------------------------------------------
