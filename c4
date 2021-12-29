@@ -5,724 +5,1060 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇦🇺_AU_澳大利亚_FMYC-2021.12.28_1', server: 1.1.1.1, port: 10086, type: ss, cipher: aes-256-gcm, password: @Mshare_T}
-  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.28_2', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.28_3', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.28_4', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.28_5', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.28_6', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.28_7', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.28_8', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.28_9', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇳_CN_中国_FMYC-2021.12.28_10', server: 211.99.96.40, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇩🇪_DE_德国_FMYC-2021.12.28_11', server: 18.192.212.68, port: 21888, type: vmess, uuid: b85b6cbb-ec13-41c6-ba97-52ad48d63c5c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.192.212.68}}
-  - {name: '🇫🇷_FR_法国_FMYC-2021.12.28_12', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇫🇷_FR_法国_FMYC-2021.12.28_13', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇫🇷_FR_法国_FMYC-2021.12.28_14', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇫🇷_FR_法国_FMYC-2021.12.28_15', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇫🇷_FR_法国_FMYC-2021.12.28_16', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇫🇷_FR_法国_FMYC-2021.12.28_17', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇫🇷_FR_法国_FMYC-2021.12.28_18', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '🇫🇷_FR_法国_FMYC-2021.12.28_19', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇫🇷_FR_法国_FMYC-2021.12.28_20', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇫🇷_FR_法国_FMYC-2021.12.28_21', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '🇫🇷_FR_法国_FMYC-2021.12.28_22', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇫🇷_FR_法国_FMYC-2021.12.28_23', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇫🇷_FR_法国_FMYC-2021.12.28_24', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇫🇷_FR_法国_FMYC-2021.12.28_25', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇫🇷_FR_法国_FMYC-2021.12.28_26', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇬🇧_GB_英国_FMYC-2021.12.28_27', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇬🇧_GB_英国_FMYC-2021.12.28_28', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇬🇧_GB_英国_FMYC-2021.12.28_29', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇬🇧_GB_英国_FMYC-2021.12.28_30', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '🇬🇧_GB_英国_FMYC-2021.12.28_31', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇭🇰_HK_香港_FMYC-2021.12.28_32', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇳_CN_中国_FMYC-2021.12.28_33', server: 120.232.82.190, port: 2010, type: ss, cipher: aes-256-gcm, password: fb3ff83bac9e4aed4a6a7d4a1f321f1a}
-  - {name: '🇨🇳_CN_中国_FMYC-2021.12.28_34', server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9}
-  - {name: '🇭🇰_HK_香港_FMYC-2021.12.28_35', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
-  - {name: '🇭🇰_HK_香港_FMYC-2021.12.28_36', server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
-  - {name: '🇭🇰_HK_香港_FMYC-2021.12.28_37', server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0}
-  - {name: '🇮🇩_ID_印度尼西亚_FMYC-2021.12.28_38', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: '🇮🇪_IE_爱尔兰_FMYC-2021.12.28_39', server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: '🇮🇱_IL_以色列_FMYC-2021.12.28_40', server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: '🇮🇳_IN_印度_FMYC-2021.12.28_41', server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇯🇵_JP_日本_FMYC-2021.12.28_42', server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 172.104.98.216}}
-  - {name: '🇯🇵_JP_日本_FMYC-2021.12.28_43', server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇨🇳_CN_中国_FMYC-2021.12.28_44', server: jp-az-yixie.xyx-xy-01.com, port: 17000, type: vmess, uuid: 9ea69a3c-40b7-3cf1-8a72-49cc25541eec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /GensImpact.exe, ws-headers: {Host: www.bing.com}}
-  - {name: '🇨🇳_CN_中国_FMYC-2021.12.28_45', server: jp-az-yixie.xyx-xy-01.com, port: 30022, type: vmess, uuid: 9ea69a3c-40b7-3cf1-8a72-49cc25541eec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: pgc.qcdn.xiaodutv.com}}
-  - {name: '🇨🇳_CN_中国_FMYC-2021.12.28_46', server: jp-az-yixie.xyx-xy-01.com, port: 31020, type: vmess, uuid: 9ea69a3c-40b7-3cf1-8a72-49cc25541eec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: '🇳🇱_NL_荷兰_FMYC-2021.12.28_47', server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
-  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.28_48', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.28_49', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.28_50', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.28_51', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.28_52', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.28_53', server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.28_54', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.28_55', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.28_56', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.28_57', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.28_58', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.28_59', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.28_60', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.28_61', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.28_62', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇵🇭_PH_菲律宾_FMYC-2021.12.28_63', server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
-  - {name: '🇵🇹_PT_葡萄牙_FMYC-2021.12.28_64', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: '🇵🇹_PT_葡萄牙_FMYC-2021.12.28_65', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: '🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.28_66', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: '🇸🇬_SG_新加坡_FMYC-2021.12.28_67', server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇸🇬_SG_新加坡_FMYC-2021.12.28_68', server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
-  - {name: '🇸🇬_SG_新加坡_FMYC-2021.12.28_69', server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇸🇬_SG_新加坡_FMYC-2021.12.28_70', server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇺🇸_US_美国_FMYC-2021.12.28_71', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '🇺🇸_US_美国_FMYC-2021.12.28_72', server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-02.xncloud.xyz}}
-  - {name: '🇺🇸_US_美国_FMYC-2021.12.28_73', server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-02.xncloud.xyz}}
-  - {name: '🇨🇳_CN_中国_FMYC-2021.12.28_74', server: us-l2-cn2.sd-yun.cc, port: 20008, type: vmess, uuid: 9ea69a3c-40b7-3cf1-8a72-49cc25541eec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /api, ws-headers: {Host: www.bing.com}}
-  - {name: '🇨🇳_CN_中国_FMYC-2021.12.28_75', server: us-l2-cn2.sd-yun.cc, port: 10015, type: vmess, uuid: 9ea69a3c-40b7-3cf1-8a72-49cc25541eec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: '🇨🇳_CN_中国_FMYC-2021.12.28_76', server: sh-lt.01.xyx-xy-01.com, port: 34174, type: vmess, uuid: 9ea69a3c-40b7-3cf1-8a72-49cc25541eec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /usray, ws-headers: {Host: www.bing.com}}
-  - {name: '🇨🇳_CN_中国_FMYC-2021.12.28_77', server: sh-lt.01.xyx-xy-01.com, port: 34173, type: vmess, uuid: 9ea69a3c-40b7-3cf1-8a72-49cc25541eec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /usray, ws-headers: {Host: www.bing.com}}
-  - {name: '🇺🇸_US_美国_FMYC-2021.12.28_78', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 'FMYC-2021.12.28_79', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
-  - {name: '🇺🇸_US_美国_FMYC-2021.12.28_80', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_FMYC-2021.12.28_81', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: '🇺🇸_US_美国_FMYC-2021.12.28_82', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
-  - {name: '🇺🇸_US_美国_FMYC-2021.12.28_83', server: 70.39.71.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
-  - {name: '🇺🇸_US_美国_FMYC-2021.12.28_84', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_FMYC-2021.12.28_85', server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: '🇫🇷_FR_法国_FMYC-2021.12.29_1', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.29_2', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_GB_英国_FMYC-2021.12.29_3', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇭🇰_HK_香港_FMYC-2021.12.29_4', server: 118.107.244.109, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_5', server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.29_6', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇦🇺_AU_澳大利亚_FMYC-2021.12.29_7', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇻🇳_VN_越南_FMYC-2021.12.29_8', server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.29_9', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇵🇹_PT_葡萄牙_FMYC-2021.12.29_10', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: 'FMYC-2021.12.29_11', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}}
+  - {name: '🇸🇬_SG_新加坡_FMYC-2021.12.29_12', server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: '🇫🇷_FR_法国_FMYC-2021.12.29_13', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.29_14', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇫🇷_FR_法国_FMYC-2021.12.29_15', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '🇭🇰_HK_香港_FMYC-2021.12.29_16', server: v13.88host.buzz, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_17', server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.29_18', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.29_19', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇭🇰_HK_香港_FMYC-2021.12.29_20', server: 20.187.117.31, port: 36353, type: vmess, uuid: b8dee4a2-75b6-4e36-fc25-fb17e64b198e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.29_21', server: t1.ssrsub.com, port: 8443, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, sni: t1.ssrsub.com}
+  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.29_22', server: t1.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t1.ssrsub.com}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_23', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_24', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_25', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_26', server: 23.19.26.246, port: 10515, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_27', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: '🇨🇳_CN_中国_FMYC-2021.12.29_28', server: 116.163.14.146, port: 18119, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇨🇳_CN_中国_FMYC-2021.12.29_29', server: 116.163.14.146, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
+  - {name: '🇭🇰_HK_香港_FMYC-2021.12.29_30', server: v13.88host.buzz, port: 18119, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇫🇷_FR_法国_FMYC-2021.12.29_31', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.29_32', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇮🇱_IL_以色列_FMYC-2021.12.29_33', server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: '🇬🇷_GR_希腊_FMYC-2021.12.29_34', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_35', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.29_36', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇹🇼_TW_台湾_FMYC-2021.12.29_37', server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: '🇫🇮_FI_芬兰_FMYC-2021.12.29_38', server: oz.mooncloud.bike, port: 8443, type: vmess, uuid: 79fedd93-e758-4655-83ed-574f4afe2a04, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_39', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.29_40', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'FMYC-2021.12.29_41', server: v3.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_42', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_43', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: '🇮🇳_IN_印度_FMYC-2021.12.29_44', server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.29_45', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_46', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_47', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.29_48', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_49', server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.29_50', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇳🇿_NZ_新西兰_FMYC-2021.12.29_51', server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
+  - {name: '🇫🇷_FR_法国_FMYC-2021.12.29_52', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_53', server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: '🇨🇳_CN_中国_FMYC-2021.12.29_54', server: gy.jjxcloud.xyz, port: 42000, type: vmess, uuid: 45834822-3b61-3390-9210-d0910e597293, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.29_55', server: t4.ssrsub.com, port: 156, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t4.ssrsub.com}
+  - {name: '🇫🇷_FR_法国_FMYC-2021.12.29_56', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_57', server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇭🇰_HK_香港_FMYC-2021.12.29_58', server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇷_FR_法国_FMYC-2021.12.29_59', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇦🇺_AU_澳大利亚_FMYC-2021.12.29_60', server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.29_61', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇸🇪_SE_瑞典_FMYC-2021.12.29_62', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: '🇭🇰_HK_香港_FMYC-2021.12.29_63', server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_64', server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.29_65', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_66', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}}
+  - {name: '🇭🇰_HK_香港_FMYC-2021.12.29_67', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇧🇪_BE_比利时_FMYC-2021.12.29_68', server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_69', server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: '🇫🇷_FR_法国_FMYC-2021.12.29_70', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '🇩🇪_DE_德国_FMYC-2021.12.29_71', server: 18.192.212.68, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.29_72', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: '🇭🇰_HK_香港_FMYC-2021.12.29_73', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.29_74', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.29_75', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'FMYC-2021.12.29_76', server: v3.ssrsub.com, port: 443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
+  - {name: '🇸🇬_SG_新加坡_FMYC-2021.12.29_77', server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇸🇬_SG_新加坡_FMYC-2021.12.29_78', server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.29_79', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'FMYC-2021.12.29_80', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇫🇷_FR_法国_FMYC-2021.12.29_81', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇬🇧_GB_英国_FMYC-2021.12.29_82', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇸🇬_SG_新加坡_FMYC-2021.12.29_83', server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.29_84', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇯🇵_JP_日本_FMYC-2021.12.29_85', server: access1.upyun.online, port: 13571, type: vmess, uuid: ff178504-2e01-473c-9b2e-f6b77d3ef4b1, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'FMYC-2021.12.29_86', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇹🇼_TW_台湾_FMYC-2021.12.29_87', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.29_88', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇩🇰_DK_丹麦_FMYC-2021.12.29_89', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: '🇫🇷_FR_法国_FMYC-2021.12.29_90', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.29_91', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇫🇷_FR_法国_FMYC-2021.12.29_92', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_93', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_94', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: 'FMYC-2021.12.29_95', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
+  - {name: '🇭🇰_HK_香港_FMYC-2021.12.29_96', server: v11.88host.buzz, port: 18008, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
+  - {name: '🇭🇰_HK_香港_FMYC-2021.12.29_97', server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_98', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_99', server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.29_100', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇿_CZ_捷克_FMYC-2021.12.29_101', server: t7.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t7.ssrsub.com}
+  - {name: '🇻🇳_VN_越南_FMYC-2021.12.29_102', server: ff5.uuv2.co.uk, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🇰🇷_KR_韩国_FMYC-2021.12.29_103', server: 146.56.177.34, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_104', server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_105', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: '🇬🇧_GB_英国_FMYC-2021.12.29_106', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇻🇳_VN_越南_FMYC-2021.12.29_107', server: ff5.uuv2.co.uk, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: '🇨🇿_CZ_捷克_FMYC-2021.12.29_108', server: t7.ssrsub.com, port: 8443, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, sni: t7.ssrsub.com}
+  - {name: '🇬🇧_GB_英国_FMYC-2021.12.29_109', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇬🇧_GB_英国_FMYC-2021.12.29_110', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇵🇹_PT_葡萄牙_FMYC-2021.12.29_111', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.29_112', server: t3.ssrsub.com, port: 156, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, sni: t3.ssrsub.com}
+  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.29_113', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.29_114', server: t3.ssrsub.com, port: 156, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t3.ssrsub.com}
+  - {name: '🇨🇦_CA_加拿大_FMYC-2021.12.29_115', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'FMYC-2021.12.29_116', server: v3.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇫🇷_FR_法国_FMYC-2021.12.29_117', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_118', server: 45.32.88.178, port: 6490, type: vmess, uuid: 49ea8fba-6786-11ec-8186-560003c2e491, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jAw1IfdO/}
+  - {name: '🇲🇾_MY_马来西亚_FMYC-2021.12.29_119', server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_120', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}}
+  - {name: '🇳🇴_NO_挪威_FMYC-2021.12.29_121', server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: '🇫🇷_FR_法国_FMYC-2021.12.29_122', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇳_CN_中国_FMYC-2021.12.29_123', server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9}
+  - {name: '🇨🇿_CZ_捷克_FMYC-2021.12.29_124', server: t2.ssrsub.com, port: 8443, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, sni: t2.ssrsub.com}
+  - {name: 'FMYC-2021.12.29_125', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}}
+  - {name: '🇺🇸_US_美国_FMYC-2021.12.29_126', server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇫🇷_FR_法国_FMYC-2021.12.29_127', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.28_1
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_2
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_3
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_4
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_5
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_6
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_7
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_8
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_9
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_10
-      - 🇩🇪_DE_德国_FMYC-2021.12.28_11
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_12
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_13
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_14
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_15
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_16
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_17
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_18
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_19
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_20
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_21
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_22
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_23
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_24
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_25
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_26
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_27
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_28
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_29
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_30
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_31
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_32
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_33
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_34
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_35
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_36
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_37
-      - 🇮🇩_ID_印度尼西亚_FMYC-2021.12.28_38
-      - 🇮🇪_IE_爱尔兰_FMYC-2021.12.28_39
-      - 🇮🇱_IL_以色列_FMYC-2021.12.28_40
-      - 🇮🇳_IN_印度_FMYC-2021.12.28_41
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_42
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_43
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_44
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_45
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_46
-      - 🇳🇱_NL_荷兰_FMYC-2021.12.28_47
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_48
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_49
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_50
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_51
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_52
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_53
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_54
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_55
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_56
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_57
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_58
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_59
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_60
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_61
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_62
-      - 🇵🇭_PH_菲律宾_FMYC-2021.12.28_63
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_64
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_65
-      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.28_66
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_67
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_68
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_69
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_70
-      - 🇺🇸_US_美国_FMYC-2021.12.28_71
-      - 🇺🇸_US_美国_FMYC-2021.12.28_72
-      - 🇺🇸_US_美国_FMYC-2021.12.28_73
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_74
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_75
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_76
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_77
-      - 🇺🇸_US_美国_FMYC-2021.12.28_78
-      - FMYC-2021.12.28_79
-      - 🇺🇸_US_美国_FMYC-2021.12.28_80
-      - 🇺🇸_US_美国_FMYC-2021.12.28_81
-      - 🇺🇸_US_美国_FMYC-2021.12.28_82
-      - 🇺🇸_US_美国_FMYC-2021.12.28_83
-      - 🇺🇸_US_美国_FMYC-2021.12.28_84
-      - 🇺🇸_US_美国_FMYC-2021.12.28_85
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_1
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_2
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_3
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_4
+      - 🇺🇸_US_美国_FMYC-2021.12.29_5
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_6
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_7
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_8
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_9
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_10
+      - FMYC-2021.12.29_11
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_12
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_13
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_14
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_15
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_16
+      - 🇺🇸_US_美国_FMYC-2021.12.29_17
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_18
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_19
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_20
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_21
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_22
+      - 🇺🇸_US_美国_FMYC-2021.12.29_23
+      - 🇺🇸_US_美国_FMYC-2021.12.29_24
+      - 🇺🇸_US_美国_FMYC-2021.12.29_25
+      - 🇺🇸_US_美国_FMYC-2021.12.29_26
+      - 🇺🇸_US_美国_FMYC-2021.12.29_27
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_28
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_29
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_30
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_31
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_32
+      - 🇮🇱_IL_以色列_FMYC-2021.12.29_33
+      - 🇬🇷_GR_希腊_FMYC-2021.12.29_34
+      - 🇺🇸_US_美国_FMYC-2021.12.29_35
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_36
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_37
+      - 🇫🇮_FI_芬兰_FMYC-2021.12.29_38
+      - 🇺🇸_US_美国_FMYC-2021.12.29_39
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_40
+      - FMYC-2021.12.29_41
+      - 🇺🇸_US_美国_FMYC-2021.12.29_42
+      - 🇺🇸_US_美国_FMYC-2021.12.29_43
+      - 🇮🇳_IN_印度_FMYC-2021.12.29_44
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_45
+      - 🇺🇸_US_美国_FMYC-2021.12.29_46
+      - 🇺🇸_US_美国_FMYC-2021.12.29_47
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_48
+      - 🇺🇸_US_美国_FMYC-2021.12.29_49
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_50
+      - 🇳🇿_NZ_新西兰_FMYC-2021.12.29_51
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_52
+      - 🇺🇸_US_美国_FMYC-2021.12.29_53
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_54
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_55
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_56
+      - 🇺🇸_US_美国_FMYC-2021.12.29_57
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_58
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_59
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_60
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_61
+      - 🇸🇪_SE_瑞典_FMYC-2021.12.29_62
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_63
+      - 🇺🇸_US_美国_FMYC-2021.12.29_64
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_65
+      - 🇺🇸_US_美国_FMYC-2021.12.29_66
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_67
+      - 🇧🇪_BE_比利时_FMYC-2021.12.29_68
+      - 🇺🇸_US_美国_FMYC-2021.12.29_69
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_70
+      - 🇩🇪_DE_德国_FMYC-2021.12.29_71
+      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.29_72
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_73
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_74
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_75
+      - FMYC-2021.12.29_76
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_77
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_78
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_79
+      - FMYC-2021.12.29_80
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_81
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_82
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_83
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_84
+      - 🇯🇵_JP_日本_FMYC-2021.12.29_85
+      - FMYC-2021.12.29_86
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_87
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_88
+      - 🇩🇰_DK_丹麦_FMYC-2021.12.29_89
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_90
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_91
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_92
+      - 🇺🇸_US_美国_FMYC-2021.12.29_93
+      - 🇺🇸_US_美国_FMYC-2021.12.29_94
+      - FMYC-2021.12.29_95
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_96
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_97
+      - 🇺🇸_US_美国_FMYC-2021.12.29_98
+      - 🇺🇸_US_美国_FMYC-2021.12.29_99
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_100
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_101
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_102
+      - 🇰🇷_KR_韩国_FMYC-2021.12.29_103
+      - 🇺🇸_US_美国_FMYC-2021.12.29_104
+      - 🇺🇸_US_美国_FMYC-2021.12.29_105
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_106
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_107
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_108
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_109
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_110
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_111
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_112
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_113
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_114
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_115
+      - FMYC-2021.12.29_116
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_117
+      - 🇺🇸_US_美国_FMYC-2021.12.29_118
+      - 🇲🇾_MY_马来西亚_FMYC-2021.12.29_119
+      - 🇺🇸_US_美国_FMYC-2021.12.29_120
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_121
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_122
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_123
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_124
+      - FMYC-2021.12.29_125
+      - 🇺🇸_US_美国_FMYC-2021.12.29_126
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_127
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.28_1
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_2
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_3
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_4
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_5
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_6
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_7
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_8
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_9
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_10
-      - 🇩🇪_DE_德国_FMYC-2021.12.28_11
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_12
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_13
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_14
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_15
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_16
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_17
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_18
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_19
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_20
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_21
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_22
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_23
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_24
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_25
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_26
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_27
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_28
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_29
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_30
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_31
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_32
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_33
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_34
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_35
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_36
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_37
-      - 🇮🇩_ID_印度尼西亚_FMYC-2021.12.28_38
-      - 🇮🇪_IE_爱尔兰_FMYC-2021.12.28_39
-      - 🇮🇱_IL_以色列_FMYC-2021.12.28_40
-      - 🇮🇳_IN_印度_FMYC-2021.12.28_41
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_42
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_43
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_44
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_45
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_46
-      - 🇳🇱_NL_荷兰_FMYC-2021.12.28_47
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_48
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_49
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_50
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_51
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_52
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_53
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_54
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_55
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_56
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_57
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_58
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_59
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_60
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_61
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_62
-      - 🇵🇭_PH_菲律宾_FMYC-2021.12.28_63
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_64
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_65
-      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.28_66
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_67
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_68
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_69
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_70
-      - 🇺🇸_US_美国_FMYC-2021.12.28_71
-      - 🇺🇸_US_美国_FMYC-2021.12.28_72
-      - 🇺🇸_US_美国_FMYC-2021.12.28_73
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_74
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_75
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_76
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_77
-      - 🇺🇸_US_美国_FMYC-2021.12.28_78
-      - FMYC-2021.12.28_79
-      - 🇺🇸_US_美国_FMYC-2021.12.28_80
-      - 🇺🇸_US_美国_FMYC-2021.12.28_81
-      - 🇺🇸_US_美国_FMYC-2021.12.28_82
-      - 🇺🇸_US_美国_FMYC-2021.12.28_83
-      - 🇺🇸_US_美国_FMYC-2021.12.28_84
-      - 🇺🇸_US_美国_FMYC-2021.12.28_85
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_1
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_2
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_3
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_4
+      - 🇺🇸_US_美国_FMYC-2021.12.29_5
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_6
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_7
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_8
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_9
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_10
+      - FMYC-2021.12.29_11
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_12
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_13
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_14
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_15
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_16
+      - 🇺🇸_US_美国_FMYC-2021.12.29_17
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_18
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_19
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_20
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_21
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_22
+      - 🇺🇸_US_美国_FMYC-2021.12.29_23
+      - 🇺🇸_US_美国_FMYC-2021.12.29_24
+      - 🇺🇸_US_美国_FMYC-2021.12.29_25
+      - 🇺🇸_US_美国_FMYC-2021.12.29_26
+      - 🇺🇸_US_美国_FMYC-2021.12.29_27
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_28
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_29
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_30
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_31
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_32
+      - 🇮🇱_IL_以色列_FMYC-2021.12.29_33
+      - 🇬🇷_GR_希腊_FMYC-2021.12.29_34
+      - 🇺🇸_US_美国_FMYC-2021.12.29_35
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_36
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_37
+      - 🇫🇮_FI_芬兰_FMYC-2021.12.29_38
+      - 🇺🇸_US_美国_FMYC-2021.12.29_39
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_40
+      - FMYC-2021.12.29_41
+      - 🇺🇸_US_美国_FMYC-2021.12.29_42
+      - 🇺🇸_US_美国_FMYC-2021.12.29_43
+      - 🇮🇳_IN_印度_FMYC-2021.12.29_44
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_45
+      - 🇺🇸_US_美国_FMYC-2021.12.29_46
+      - 🇺🇸_US_美国_FMYC-2021.12.29_47
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_48
+      - 🇺🇸_US_美国_FMYC-2021.12.29_49
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_50
+      - 🇳🇿_NZ_新西兰_FMYC-2021.12.29_51
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_52
+      - 🇺🇸_US_美国_FMYC-2021.12.29_53
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_54
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_55
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_56
+      - 🇺🇸_US_美国_FMYC-2021.12.29_57
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_58
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_59
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_60
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_61
+      - 🇸🇪_SE_瑞典_FMYC-2021.12.29_62
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_63
+      - 🇺🇸_US_美国_FMYC-2021.12.29_64
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_65
+      - 🇺🇸_US_美国_FMYC-2021.12.29_66
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_67
+      - 🇧🇪_BE_比利时_FMYC-2021.12.29_68
+      - 🇺🇸_US_美国_FMYC-2021.12.29_69
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_70
+      - 🇩🇪_DE_德国_FMYC-2021.12.29_71
+      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.29_72
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_73
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_74
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_75
+      - FMYC-2021.12.29_76
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_77
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_78
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_79
+      - FMYC-2021.12.29_80
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_81
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_82
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_83
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_84
+      - 🇯🇵_JP_日本_FMYC-2021.12.29_85
+      - FMYC-2021.12.29_86
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_87
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_88
+      - 🇩🇰_DK_丹麦_FMYC-2021.12.29_89
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_90
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_91
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_92
+      - 🇺🇸_US_美国_FMYC-2021.12.29_93
+      - 🇺🇸_US_美国_FMYC-2021.12.29_94
+      - FMYC-2021.12.29_95
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_96
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_97
+      - 🇺🇸_US_美国_FMYC-2021.12.29_98
+      - 🇺🇸_US_美国_FMYC-2021.12.29_99
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_100
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_101
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_102
+      - 🇰🇷_KR_韩国_FMYC-2021.12.29_103
+      - 🇺🇸_US_美国_FMYC-2021.12.29_104
+      - 🇺🇸_US_美国_FMYC-2021.12.29_105
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_106
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_107
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_108
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_109
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_110
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_111
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_112
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_113
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_114
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_115
+      - FMYC-2021.12.29_116
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_117
+      - 🇺🇸_US_美国_FMYC-2021.12.29_118
+      - 🇲🇾_MY_马来西亚_FMYC-2021.12.29_119
+      - 🇺🇸_US_美国_FMYC-2021.12.29_120
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_121
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_122
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_123
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_124
+      - FMYC-2021.12.29_125
+      - 🇺🇸_US_美国_FMYC-2021.12.29_126
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_127
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.28_1
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_2
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_3
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_4
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_5
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_6
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_7
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_8
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_9
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_10
-      - 🇩🇪_DE_德国_FMYC-2021.12.28_11
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_12
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_13
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_14
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_15
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_16
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_17
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_18
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_19
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_20
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_21
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_22
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_23
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_24
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_25
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_26
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_27
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_28
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_29
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_30
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_31
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_32
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_33
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_34
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_35
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_36
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_37
-      - 🇮🇩_ID_印度尼西亚_FMYC-2021.12.28_38
-      - 🇮🇪_IE_爱尔兰_FMYC-2021.12.28_39
-      - 🇮🇱_IL_以色列_FMYC-2021.12.28_40
-      - 🇮🇳_IN_印度_FMYC-2021.12.28_41
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_42
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_43
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_44
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_45
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_46
-      - 🇳🇱_NL_荷兰_FMYC-2021.12.28_47
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_48
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_49
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_50
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_51
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_52
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_53
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_54
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_55
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_56
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_57
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_58
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_59
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_60
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_61
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_62
-      - 🇵🇭_PH_菲律宾_FMYC-2021.12.28_63
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_64
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_65
-      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.28_66
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_67
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_68
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_69
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_70
-      - 🇺🇸_US_美国_FMYC-2021.12.28_71
-      - 🇺🇸_US_美国_FMYC-2021.12.28_72
-      - 🇺🇸_US_美国_FMYC-2021.12.28_73
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_74
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_75
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_76
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_77
-      - 🇺🇸_US_美国_FMYC-2021.12.28_78
-      - FMYC-2021.12.28_79
-      - 🇺🇸_US_美国_FMYC-2021.12.28_80
-      - 🇺🇸_US_美国_FMYC-2021.12.28_81
-      - 🇺🇸_US_美国_FMYC-2021.12.28_82
-      - 🇺🇸_US_美国_FMYC-2021.12.28_83
-      - 🇺🇸_US_美国_FMYC-2021.12.28_84
-      - 🇺🇸_US_美国_FMYC-2021.12.28_85
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_1
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_2
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_3
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_4
+      - 🇺🇸_US_美国_FMYC-2021.12.29_5
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_6
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_7
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_8
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_9
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_10
+      - FMYC-2021.12.29_11
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_12
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_13
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_14
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_15
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_16
+      - 🇺🇸_US_美国_FMYC-2021.12.29_17
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_18
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_19
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_20
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_21
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_22
+      - 🇺🇸_US_美国_FMYC-2021.12.29_23
+      - 🇺🇸_US_美国_FMYC-2021.12.29_24
+      - 🇺🇸_US_美国_FMYC-2021.12.29_25
+      - 🇺🇸_US_美国_FMYC-2021.12.29_26
+      - 🇺🇸_US_美国_FMYC-2021.12.29_27
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_28
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_29
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_30
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_31
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_32
+      - 🇮🇱_IL_以色列_FMYC-2021.12.29_33
+      - 🇬🇷_GR_希腊_FMYC-2021.12.29_34
+      - 🇺🇸_US_美国_FMYC-2021.12.29_35
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_36
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_37
+      - 🇫🇮_FI_芬兰_FMYC-2021.12.29_38
+      - 🇺🇸_US_美国_FMYC-2021.12.29_39
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_40
+      - FMYC-2021.12.29_41
+      - 🇺🇸_US_美国_FMYC-2021.12.29_42
+      - 🇺🇸_US_美国_FMYC-2021.12.29_43
+      - 🇮🇳_IN_印度_FMYC-2021.12.29_44
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_45
+      - 🇺🇸_US_美国_FMYC-2021.12.29_46
+      - 🇺🇸_US_美国_FMYC-2021.12.29_47
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_48
+      - 🇺🇸_US_美国_FMYC-2021.12.29_49
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_50
+      - 🇳🇿_NZ_新西兰_FMYC-2021.12.29_51
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_52
+      - 🇺🇸_US_美国_FMYC-2021.12.29_53
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_54
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_55
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_56
+      - 🇺🇸_US_美国_FMYC-2021.12.29_57
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_58
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_59
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_60
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_61
+      - 🇸🇪_SE_瑞典_FMYC-2021.12.29_62
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_63
+      - 🇺🇸_US_美国_FMYC-2021.12.29_64
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_65
+      - 🇺🇸_US_美国_FMYC-2021.12.29_66
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_67
+      - 🇧🇪_BE_比利时_FMYC-2021.12.29_68
+      - 🇺🇸_US_美国_FMYC-2021.12.29_69
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_70
+      - 🇩🇪_DE_德国_FMYC-2021.12.29_71
+      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.29_72
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_73
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_74
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_75
+      - FMYC-2021.12.29_76
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_77
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_78
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_79
+      - FMYC-2021.12.29_80
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_81
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_82
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_83
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_84
+      - 🇯🇵_JP_日本_FMYC-2021.12.29_85
+      - FMYC-2021.12.29_86
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_87
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_88
+      - 🇩🇰_DK_丹麦_FMYC-2021.12.29_89
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_90
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_91
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_92
+      - 🇺🇸_US_美国_FMYC-2021.12.29_93
+      - 🇺🇸_US_美国_FMYC-2021.12.29_94
+      - FMYC-2021.12.29_95
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_96
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_97
+      - 🇺🇸_US_美国_FMYC-2021.12.29_98
+      - 🇺🇸_US_美国_FMYC-2021.12.29_99
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_100
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_101
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_102
+      - 🇰🇷_KR_韩国_FMYC-2021.12.29_103
+      - 🇺🇸_US_美国_FMYC-2021.12.29_104
+      - 🇺🇸_US_美国_FMYC-2021.12.29_105
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_106
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_107
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_108
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_109
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_110
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_111
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_112
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_113
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_114
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_115
+      - FMYC-2021.12.29_116
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_117
+      - 🇺🇸_US_美国_FMYC-2021.12.29_118
+      - 🇲🇾_MY_马来西亚_FMYC-2021.12.29_119
+      - 🇺🇸_US_美国_FMYC-2021.12.29_120
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_121
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_122
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_123
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_124
+      - FMYC-2021.12.29_125
+      - 🇺🇸_US_美国_FMYC-2021.12.29_126
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_127
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.28_1
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_2
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_3
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_4
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_5
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_6
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_7
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_8
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_9
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_10
-      - 🇩🇪_DE_德国_FMYC-2021.12.28_11
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_12
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_13
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_14
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_15
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_16
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_17
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_18
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_19
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_20
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_21
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_22
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_23
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_24
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_25
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_26
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_27
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_28
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_29
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_30
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_31
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_32
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_33
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_34
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_35
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_36
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_37
-      - 🇮🇩_ID_印度尼西亚_FMYC-2021.12.28_38
-      - 🇮🇪_IE_爱尔兰_FMYC-2021.12.28_39
-      - 🇮🇱_IL_以色列_FMYC-2021.12.28_40
-      - 🇮🇳_IN_印度_FMYC-2021.12.28_41
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_42
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_43
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_44
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_45
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_46
-      - 🇳🇱_NL_荷兰_FMYC-2021.12.28_47
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_48
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_49
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_50
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_51
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_52
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_53
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_54
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_55
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_56
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_57
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_58
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_59
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_60
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_61
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_62
-      - 🇵🇭_PH_菲律宾_FMYC-2021.12.28_63
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_64
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_65
-      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.28_66
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_67
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_68
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_69
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_70
-      - 🇺🇸_US_美国_FMYC-2021.12.28_71
-      - 🇺🇸_US_美国_FMYC-2021.12.28_72
-      - 🇺🇸_US_美国_FMYC-2021.12.28_73
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_74
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_75
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_76
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_77
-      - 🇺🇸_US_美国_FMYC-2021.12.28_78
-      - FMYC-2021.12.28_79
-      - 🇺🇸_US_美国_FMYC-2021.12.28_80
-      - 🇺🇸_US_美国_FMYC-2021.12.28_81
-      - 🇺🇸_US_美国_FMYC-2021.12.28_82
-      - 🇺🇸_US_美国_FMYC-2021.12.28_83
-      - 🇺🇸_US_美国_FMYC-2021.12.28_84
-      - 🇺🇸_US_美国_FMYC-2021.12.28_85
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_1
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_2
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_3
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_4
+      - 🇺🇸_US_美国_FMYC-2021.12.29_5
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_6
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_7
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_8
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_9
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_10
+      - FMYC-2021.12.29_11
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_12
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_13
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_14
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_15
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_16
+      - 🇺🇸_US_美国_FMYC-2021.12.29_17
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_18
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_19
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_20
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_21
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_22
+      - 🇺🇸_US_美国_FMYC-2021.12.29_23
+      - 🇺🇸_US_美国_FMYC-2021.12.29_24
+      - 🇺🇸_US_美国_FMYC-2021.12.29_25
+      - 🇺🇸_US_美国_FMYC-2021.12.29_26
+      - 🇺🇸_US_美国_FMYC-2021.12.29_27
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_28
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_29
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_30
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_31
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_32
+      - 🇮🇱_IL_以色列_FMYC-2021.12.29_33
+      - 🇬🇷_GR_希腊_FMYC-2021.12.29_34
+      - 🇺🇸_US_美国_FMYC-2021.12.29_35
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_36
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_37
+      - 🇫🇮_FI_芬兰_FMYC-2021.12.29_38
+      - 🇺🇸_US_美国_FMYC-2021.12.29_39
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_40
+      - FMYC-2021.12.29_41
+      - 🇺🇸_US_美国_FMYC-2021.12.29_42
+      - 🇺🇸_US_美国_FMYC-2021.12.29_43
+      - 🇮🇳_IN_印度_FMYC-2021.12.29_44
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_45
+      - 🇺🇸_US_美国_FMYC-2021.12.29_46
+      - 🇺🇸_US_美国_FMYC-2021.12.29_47
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_48
+      - 🇺🇸_US_美国_FMYC-2021.12.29_49
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_50
+      - 🇳🇿_NZ_新西兰_FMYC-2021.12.29_51
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_52
+      - 🇺🇸_US_美国_FMYC-2021.12.29_53
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_54
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_55
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_56
+      - 🇺🇸_US_美国_FMYC-2021.12.29_57
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_58
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_59
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_60
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_61
+      - 🇸🇪_SE_瑞典_FMYC-2021.12.29_62
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_63
+      - 🇺🇸_US_美国_FMYC-2021.12.29_64
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_65
+      - 🇺🇸_US_美国_FMYC-2021.12.29_66
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_67
+      - 🇧🇪_BE_比利时_FMYC-2021.12.29_68
+      - 🇺🇸_US_美国_FMYC-2021.12.29_69
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_70
+      - 🇩🇪_DE_德国_FMYC-2021.12.29_71
+      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.29_72
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_73
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_74
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_75
+      - FMYC-2021.12.29_76
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_77
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_78
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_79
+      - FMYC-2021.12.29_80
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_81
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_82
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_83
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_84
+      - 🇯🇵_JP_日本_FMYC-2021.12.29_85
+      - FMYC-2021.12.29_86
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_87
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_88
+      - 🇩🇰_DK_丹麦_FMYC-2021.12.29_89
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_90
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_91
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_92
+      - 🇺🇸_US_美国_FMYC-2021.12.29_93
+      - 🇺🇸_US_美国_FMYC-2021.12.29_94
+      - FMYC-2021.12.29_95
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_96
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_97
+      - 🇺🇸_US_美国_FMYC-2021.12.29_98
+      - 🇺🇸_US_美国_FMYC-2021.12.29_99
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_100
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_101
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_102
+      - 🇰🇷_KR_韩国_FMYC-2021.12.29_103
+      - 🇺🇸_US_美国_FMYC-2021.12.29_104
+      - 🇺🇸_US_美国_FMYC-2021.12.29_105
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_106
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_107
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_108
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_109
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_110
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_111
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_112
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_113
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_114
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_115
+      - FMYC-2021.12.29_116
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_117
+      - 🇺🇸_US_美国_FMYC-2021.12.29_118
+      - 🇲🇾_MY_马来西亚_FMYC-2021.12.29_119
+      - 🇺🇸_US_美国_FMYC-2021.12.29_120
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_121
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_122
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_123
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_124
+      - FMYC-2021.12.29_125
+      - 🇺🇸_US_美国_FMYC-2021.12.29_126
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_127
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.28_1
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_2
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_3
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_4
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_5
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_6
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_7
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_8
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_9
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_10
-      - 🇩🇪_DE_德国_FMYC-2021.12.28_11
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_12
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_13
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_14
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_15
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_16
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_17
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_18
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_19
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_20
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_21
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_22
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_23
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_24
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_25
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_26
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_27
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_28
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_29
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_30
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_31
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_32
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_33
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_34
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_35
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_36
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_37
-      - 🇮🇩_ID_印度尼西亚_FMYC-2021.12.28_38
-      - 🇮🇪_IE_爱尔兰_FMYC-2021.12.28_39
-      - 🇮🇱_IL_以色列_FMYC-2021.12.28_40
-      - 🇮🇳_IN_印度_FMYC-2021.12.28_41
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_42
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_43
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_44
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_45
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_46
-      - 🇳🇱_NL_荷兰_FMYC-2021.12.28_47
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_48
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_49
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_50
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_51
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_52
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_53
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_54
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_55
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_56
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_57
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_58
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_59
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_60
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_61
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_62
-      - 🇵🇭_PH_菲律宾_FMYC-2021.12.28_63
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_64
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_65
-      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.28_66
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_67
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_68
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_69
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_70
-      - 🇺🇸_US_美国_FMYC-2021.12.28_71
-      - 🇺🇸_US_美国_FMYC-2021.12.28_72
-      - 🇺🇸_US_美国_FMYC-2021.12.28_73
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_74
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_75
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_76
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_77
-      - 🇺🇸_US_美国_FMYC-2021.12.28_78
-      - FMYC-2021.12.28_79
-      - 🇺🇸_US_美国_FMYC-2021.12.28_80
-      - 🇺🇸_US_美国_FMYC-2021.12.28_81
-      - 🇺🇸_US_美国_FMYC-2021.12.28_82
-      - 🇺🇸_US_美国_FMYC-2021.12.28_83
-      - 🇺🇸_US_美国_FMYC-2021.12.28_84
-      - 🇺🇸_US_美国_FMYC-2021.12.28_85
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_1
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_2
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_3
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_4
+      - 🇺🇸_US_美国_FMYC-2021.12.29_5
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_6
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_7
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_8
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_9
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_10
+      - FMYC-2021.12.29_11
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_12
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_13
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_14
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_15
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_16
+      - 🇺🇸_US_美国_FMYC-2021.12.29_17
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_18
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_19
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_20
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_21
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_22
+      - 🇺🇸_US_美国_FMYC-2021.12.29_23
+      - 🇺🇸_US_美国_FMYC-2021.12.29_24
+      - 🇺🇸_US_美国_FMYC-2021.12.29_25
+      - 🇺🇸_US_美国_FMYC-2021.12.29_26
+      - 🇺🇸_US_美国_FMYC-2021.12.29_27
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_28
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_29
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_30
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_31
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_32
+      - 🇮🇱_IL_以色列_FMYC-2021.12.29_33
+      - 🇬🇷_GR_希腊_FMYC-2021.12.29_34
+      - 🇺🇸_US_美国_FMYC-2021.12.29_35
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_36
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_37
+      - 🇫🇮_FI_芬兰_FMYC-2021.12.29_38
+      - 🇺🇸_US_美国_FMYC-2021.12.29_39
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_40
+      - FMYC-2021.12.29_41
+      - 🇺🇸_US_美国_FMYC-2021.12.29_42
+      - 🇺🇸_US_美国_FMYC-2021.12.29_43
+      - 🇮🇳_IN_印度_FMYC-2021.12.29_44
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_45
+      - 🇺🇸_US_美国_FMYC-2021.12.29_46
+      - 🇺🇸_US_美国_FMYC-2021.12.29_47
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_48
+      - 🇺🇸_US_美国_FMYC-2021.12.29_49
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_50
+      - 🇳🇿_NZ_新西兰_FMYC-2021.12.29_51
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_52
+      - 🇺🇸_US_美国_FMYC-2021.12.29_53
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_54
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_55
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_56
+      - 🇺🇸_US_美国_FMYC-2021.12.29_57
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_58
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_59
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_60
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_61
+      - 🇸🇪_SE_瑞典_FMYC-2021.12.29_62
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_63
+      - 🇺🇸_US_美国_FMYC-2021.12.29_64
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_65
+      - 🇺🇸_US_美国_FMYC-2021.12.29_66
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_67
+      - 🇧🇪_BE_比利时_FMYC-2021.12.29_68
+      - 🇺🇸_US_美国_FMYC-2021.12.29_69
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_70
+      - 🇩🇪_DE_德国_FMYC-2021.12.29_71
+      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.29_72
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_73
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_74
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_75
+      - FMYC-2021.12.29_76
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_77
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_78
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_79
+      - FMYC-2021.12.29_80
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_81
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_82
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_83
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_84
+      - 🇯🇵_JP_日本_FMYC-2021.12.29_85
+      - FMYC-2021.12.29_86
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_87
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_88
+      - 🇩🇰_DK_丹麦_FMYC-2021.12.29_89
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_90
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_91
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_92
+      - 🇺🇸_US_美国_FMYC-2021.12.29_93
+      - 🇺🇸_US_美国_FMYC-2021.12.29_94
+      - FMYC-2021.12.29_95
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_96
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_97
+      - 🇺🇸_US_美国_FMYC-2021.12.29_98
+      - 🇺🇸_US_美国_FMYC-2021.12.29_99
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_100
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_101
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_102
+      - 🇰🇷_KR_韩国_FMYC-2021.12.29_103
+      - 🇺🇸_US_美国_FMYC-2021.12.29_104
+      - 🇺🇸_US_美国_FMYC-2021.12.29_105
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_106
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_107
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_108
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_109
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_110
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_111
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_112
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_113
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_114
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_115
+      - FMYC-2021.12.29_116
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_117
+      - 🇺🇸_US_美国_FMYC-2021.12.29_118
+      - 🇲🇾_MY_马来西亚_FMYC-2021.12.29_119
+      - 🇺🇸_US_美国_FMYC-2021.12.29_120
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_121
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_122
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_123
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_124
+      - FMYC-2021.12.29_125
+      - 🇺🇸_US_美国_FMYC-2021.12.29_126
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_127
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.28_1
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_2
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_3
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_4
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_5
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_6
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_7
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_8
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_9
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_10
-      - 🇩🇪_DE_德国_FMYC-2021.12.28_11
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_12
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_13
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_14
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_15
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_16
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_17
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_18
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_19
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_20
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_21
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_22
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_23
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_24
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_25
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_26
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_27
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_28
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_29
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_30
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_31
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_32
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_33
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_34
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_35
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_36
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_37
-      - 🇮🇩_ID_印度尼西亚_FMYC-2021.12.28_38
-      - 🇮🇪_IE_爱尔兰_FMYC-2021.12.28_39
-      - 🇮🇱_IL_以色列_FMYC-2021.12.28_40
-      - 🇮🇳_IN_印度_FMYC-2021.12.28_41
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_42
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_43
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_44
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_45
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_46
-      - 🇳🇱_NL_荷兰_FMYC-2021.12.28_47
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_48
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_49
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_50
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_51
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_52
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_53
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_54
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_55
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_56
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_57
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_58
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_59
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_60
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_61
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_62
-      - 🇵🇭_PH_菲律宾_FMYC-2021.12.28_63
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_64
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_65
-      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.28_66
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_67
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_68
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_69
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_70
-      - 🇺🇸_US_美国_FMYC-2021.12.28_71
-      - 🇺🇸_US_美国_FMYC-2021.12.28_72
-      - 🇺🇸_US_美国_FMYC-2021.12.28_73
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_74
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_75
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_76
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_77
-      - 🇺🇸_US_美国_FMYC-2021.12.28_78
-      - FMYC-2021.12.28_79
-      - 🇺🇸_US_美国_FMYC-2021.12.28_80
-      - 🇺🇸_US_美国_FMYC-2021.12.28_81
-      - 🇺🇸_US_美国_FMYC-2021.12.28_82
-      - 🇺🇸_US_美国_FMYC-2021.12.28_83
-      - 🇺🇸_US_美国_FMYC-2021.12.28_84
-      - 🇺🇸_US_美国_FMYC-2021.12.28_85
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_1
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_2
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_3
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_4
+      - 🇺🇸_US_美国_FMYC-2021.12.29_5
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_6
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_7
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_8
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_9
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_10
+      - FMYC-2021.12.29_11
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_12
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_13
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_14
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_15
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_16
+      - 🇺🇸_US_美国_FMYC-2021.12.29_17
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_18
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_19
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_20
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_21
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_22
+      - 🇺🇸_US_美国_FMYC-2021.12.29_23
+      - 🇺🇸_US_美国_FMYC-2021.12.29_24
+      - 🇺🇸_US_美国_FMYC-2021.12.29_25
+      - 🇺🇸_US_美国_FMYC-2021.12.29_26
+      - 🇺🇸_US_美国_FMYC-2021.12.29_27
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_28
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_29
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_30
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_31
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_32
+      - 🇮🇱_IL_以色列_FMYC-2021.12.29_33
+      - 🇬🇷_GR_希腊_FMYC-2021.12.29_34
+      - 🇺🇸_US_美国_FMYC-2021.12.29_35
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_36
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_37
+      - 🇫🇮_FI_芬兰_FMYC-2021.12.29_38
+      - 🇺🇸_US_美国_FMYC-2021.12.29_39
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_40
+      - FMYC-2021.12.29_41
+      - 🇺🇸_US_美国_FMYC-2021.12.29_42
+      - 🇺🇸_US_美国_FMYC-2021.12.29_43
+      - 🇮🇳_IN_印度_FMYC-2021.12.29_44
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_45
+      - 🇺🇸_US_美国_FMYC-2021.12.29_46
+      - 🇺🇸_US_美国_FMYC-2021.12.29_47
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_48
+      - 🇺🇸_US_美国_FMYC-2021.12.29_49
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_50
+      - 🇳🇿_NZ_新西兰_FMYC-2021.12.29_51
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_52
+      - 🇺🇸_US_美国_FMYC-2021.12.29_53
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_54
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_55
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_56
+      - 🇺🇸_US_美国_FMYC-2021.12.29_57
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_58
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_59
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_60
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_61
+      - 🇸🇪_SE_瑞典_FMYC-2021.12.29_62
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_63
+      - 🇺🇸_US_美国_FMYC-2021.12.29_64
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_65
+      - 🇺🇸_US_美国_FMYC-2021.12.29_66
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_67
+      - 🇧🇪_BE_比利时_FMYC-2021.12.29_68
+      - 🇺🇸_US_美国_FMYC-2021.12.29_69
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_70
+      - 🇩🇪_DE_德国_FMYC-2021.12.29_71
+      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.29_72
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_73
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_74
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_75
+      - FMYC-2021.12.29_76
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_77
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_78
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_79
+      - FMYC-2021.12.29_80
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_81
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_82
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_83
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_84
+      - 🇯🇵_JP_日本_FMYC-2021.12.29_85
+      - FMYC-2021.12.29_86
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_87
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_88
+      - 🇩🇰_DK_丹麦_FMYC-2021.12.29_89
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_90
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_91
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_92
+      - 🇺🇸_US_美国_FMYC-2021.12.29_93
+      - 🇺🇸_US_美国_FMYC-2021.12.29_94
+      - FMYC-2021.12.29_95
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_96
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_97
+      - 🇺🇸_US_美国_FMYC-2021.12.29_98
+      - 🇺🇸_US_美国_FMYC-2021.12.29_99
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_100
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_101
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_102
+      - 🇰🇷_KR_韩国_FMYC-2021.12.29_103
+      - 🇺🇸_US_美国_FMYC-2021.12.29_104
+      - 🇺🇸_US_美国_FMYC-2021.12.29_105
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_106
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_107
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_108
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_109
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_110
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_111
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_112
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_113
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_114
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_115
+      - FMYC-2021.12.29_116
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_117
+      - 🇺🇸_US_美国_FMYC-2021.12.29_118
+      - 🇲🇾_MY_马来西亚_FMYC-2021.12.29_119
+      - 🇺🇸_US_美国_FMYC-2021.12.29_120
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_121
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_122
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_123
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_124
+      - FMYC-2021.12.29_125
+      - 🇺🇸_US_美国_FMYC-2021.12.29_126
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_127
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.28_1
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_2
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_3
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_4
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_5
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_6
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_7
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_8
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_9
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_10
-      - 🇩🇪_DE_德国_FMYC-2021.12.28_11
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_12
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_13
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_14
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_15
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_16
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_17
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_18
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_19
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_20
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_21
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_22
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_23
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_24
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_25
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_26
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_27
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_28
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_29
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_30
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_31
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_32
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_33
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_34
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_35
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_36
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_37
-      - 🇮🇩_ID_印度尼西亚_FMYC-2021.12.28_38
-      - 🇮🇪_IE_爱尔兰_FMYC-2021.12.28_39
-      - 🇮🇱_IL_以色列_FMYC-2021.12.28_40
-      - 🇮🇳_IN_印度_FMYC-2021.12.28_41
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_42
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_43
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_44
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_45
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_46
-      - 🇳🇱_NL_荷兰_FMYC-2021.12.28_47
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_48
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_49
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_50
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_51
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_52
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_53
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_54
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_55
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_56
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_57
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_58
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_59
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_60
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_61
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_62
-      - 🇵🇭_PH_菲律宾_FMYC-2021.12.28_63
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_64
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_65
-      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.28_66
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_67
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_68
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_69
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_70
-      - 🇺🇸_US_美国_FMYC-2021.12.28_71
-      - 🇺🇸_US_美国_FMYC-2021.12.28_72
-      - 🇺🇸_US_美国_FMYC-2021.12.28_73
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_74
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_75
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_76
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_77
-      - 🇺🇸_US_美国_FMYC-2021.12.28_78
-      - FMYC-2021.12.28_79
-      - 🇺🇸_US_美国_FMYC-2021.12.28_80
-      - 🇺🇸_US_美国_FMYC-2021.12.28_81
-      - 🇺🇸_US_美国_FMYC-2021.12.28_82
-      - 🇺🇸_US_美国_FMYC-2021.12.28_83
-      - 🇺🇸_US_美国_FMYC-2021.12.28_84
-      - 🇺🇸_US_美国_FMYC-2021.12.28_85
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_1
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_2
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_3
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_4
+      - 🇺🇸_US_美国_FMYC-2021.12.29_5
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_6
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_7
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_8
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_9
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_10
+      - FMYC-2021.12.29_11
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_12
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_13
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_14
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_15
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_16
+      - 🇺🇸_US_美国_FMYC-2021.12.29_17
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_18
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_19
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_20
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_21
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_22
+      - 🇺🇸_US_美国_FMYC-2021.12.29_23
+      - 🇺🇸_US_美国_FMYC-2021.12.29_24
+      - 🇺🇸_US_美国_FMYC-2021.12.29_25
+      - 🇺🇸_US_美国_FMYC-2021.12.29_26
+      - 🇺🇸_US_美国_FMYC-2021.12.29_27
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_28
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_29
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_30
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_31
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_32
+      - 🇮🇱_IL_以色列_FMYC-2021.12.29_33
+      - 🇬🇷_GR_希腊_FMYC-2021.12.29_34
+      - 🇺🇸_US_美国_FMYC-2021.12.29_35
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_36
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_37
+      - 🇫🇮_FI_芬兰_FMYC-2021.12.29_38
+      - 🇺🇸_US_美国_FMYC-2021.12.29_39
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_40
+      - FMYC-2021.12.29_41
+      - 🇺🇸_US_美国_FMYC-2021.12.29_42
+      - 🇺🇸_US_美国_FMYC-2021.12.29_43
+      - 🇮🇳_IN_印度_FMYC-2021.12.29_44
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_45
+      - 🇺🇸_US_美国_FMYC-2021.12.29_46
+      - 🇺🇸_US_美国_FMYC-2021.12.29_47
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_48
+      - 🇺🇸_US_美国_FMYC-2021.12.29_49
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_50
+      - 🇳🇿_NZ_新西兰_FMYC-2021.12.29_51
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_52
+      - 🇺🇸_US_美国_FMYC-2021.12.29_53
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_54
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_55
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_56
+      - 🇺🇸_US_美国_FMYC-2021.12.29_57
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_58
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_59
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_60
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_61
+      - 🇸🇪_SE_瑞典_FMYC-2021.12.29_62
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_63
+      - 🇺🇸_US_美国_FMYC-2021.12.29_64
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_65
+      - 🇺🇸_US_美国_FMYC-2021.12.29_66
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_67
+      - 🇧🇪_BE_比利时_FMYC-2021.12.29_68
+      - 🇺🇸_US_美国_FMYC-2021.12.29_69
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_70
+      - 🇩🇪_DE_德国_FMYC-2021.12.29_71
+      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.29_72
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_73
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_74
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_75
+      - FMYC-2021.12.29_76
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_77
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_78
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_79
+      - FMYC-2021.12.29_80
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_81
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_82
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_83
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_84
+      - 🇯🇵_JP_日本_FMYC-2021.12.29_85
+      - FMYC-2021.12.29_86
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_87
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_88
+      - 🇩🇰_DK_丹麦_FMYC-2021.12.29_89
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_90
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_91
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_92
+      - 🇺🇸_US_美国_FMYC-2021.12.29_93
+      - 🇺🇸_US_美国_FMYC-2021.12.29_94
+      - FMYC-2021.12.29_95
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_96
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_97
+      - 🇺🇸_US_美国_FMYC-2021.12.29_98
+      - 🇺🇸_US_美国_FMYC-2021.12.29_99
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_100
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_101
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_102
+      - 🇰🇷_KR_韩国_FMYC-2021.12.29_103
+      - 🇺🇸_US_美国_FMYC-2021.12.29_104
+      - 🇺🇸_US_美国_FMYC-2021.12.29_105
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_106
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_107
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_108
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_109
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_110
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_111
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_112
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_113
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_114
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_115
+      - FMYC-2021.12.29_116
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_117
+      - 🇺🇸_US_美国_FMYC-2021.12.29_118
+      - 🇲🇾_MY_马来西亚_FMYC-2021.12.29_119
+      - 🇺🇸_US_美国_FMYC-2021.12.29_120
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_121
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_122
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_123
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_124
+      - FMYC-2021.12.29_125
+      - 🇺🇸_US_美国_FMYC-2021.12.29_126
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_127
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -738,91 +1074,133 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.28_1
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_2
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_3
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_4
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_5
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_6
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_7
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_8
-      - 🇨🇦_CA_加拿大_FMYC-2021.12.28_9
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_10
-      - 🇩🇪_DE_德国_FMYC-2021.12.28_11
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_12
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_13
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_14
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_15
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_16
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_17
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_18
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_19
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_20
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_21
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_22
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_23
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_24
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_25
-      - 🇫🇷_FR_法国_FMYC-2021.12.28_26
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_27
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_28
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_29
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_30
-      - 🇬🇧_GB_英国_FMYC-2021.12.28_31
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_32
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_33
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_34
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_35
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_36
-      - 🇭🇰_HK_香港_FMYC-2021.12.28_37
-      - 🇮🇩_ID_印度尼西亚_FMYC-2021.12.28_38
-      - 🇮🇪_IE_爱尔兰_FMYC-2021.12.28_39
-      - 🇮🇱_IL_以色列_FMYC-2021.12.28_40
-      - 🇮🇳_IN_印度_FMYC-2021.12.28_41
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_42
-      - 🇯🇵_JP_日本_FMYC-2021.12.28_43
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_44
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_45
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_46
-      - 🇳🇱_NL_荷兰_FMYC-2021.12.28_47
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_48
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_49
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_50
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_51
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_52
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_53
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_54
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_55
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_56
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_57
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_58
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_59
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_60
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_61
-      - 🇳🇴_NO_挪威_FMYC-2021.12.28_62
-      - 🇵🇭_PH_菲律宾_FMYC-2021.12.28_63
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_64
-      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.28_65
-      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.28_66
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_67
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_68
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_69
-      - 🇸🇬_SG_新加坡_FMYC-2021.12.28_70
-      - 🇺🇸_US_美国_FMYC-2021.12.28_71
-      - 🇺🇸_US_美国_FMYC-2021.12.28_72
-      - 🇺🇸_US_美国_FMYC-2021.12.28_73
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_74
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_75
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_76
-      - 🇨🇳_CN_中国_FMYC-2021.12.28_77
-      - 🇺🇸_US_美国_FMYC-2021.12.28_78
-      - FMYC-2021.12.28_79
-      - 🇺🇸_US_美国_FMYC-2021.12.28_80
-      - 🇺🇸_US_美国_FMYC-2021.12.28_81
-      - 🇺🇸_US_美国_FMYC-2021.12.28_82
-      - 🇺🇸_US_美国_FMYC-2021.12.28_83
-      - 🇺🇸_US_美国_FMYC-2021.12.28_84
-      - 🇺🇸_US_美国_FMYC-2021.12.28_85
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_1
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_2
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_3
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_4
+      - 🇺🇸_US_美国_FMYC-2021.12.29_5
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_6
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_7
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_8
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_9
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_10
+      - FMYC-2021.12.29_11
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_12
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_13
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_14
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_15
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_16
+      - 🇺🇸_US_美国_FMYC-2021.12.29_17
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_18
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_19
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_20
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_21
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_22
+      - 🇺🇸_US_美国_FMYC-2021.12.29_23
+      - 🇺🇸_US_美国_FMYC-2021.12.29_24
+      - 🇺🇸_US_美国_FMYC-2021.12.29_25
+      - 🇺🇸_US_美国_FMYC-2021.12.29_26
+      - 🇺🇸_US_美国_FMYC-2021.12.29_27
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_28
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_29
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_30
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_31
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_32
+      - 🇮🇱_IL_以色列_FMYC-2021.12.29_33
+      - 🇬🇷_GR_希腊_FMYC-2021.12.29_34
+      - 🇺🇸_US_美国_FMYC-2021.12.29_35
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_36
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_37
+      - 🇫🇮_FI_芬兰_FMYC-2021.12.29_38
+      - 🇺🇸_US_美国_FMYC-2021.12.29_39
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_40
+      - FMYC-2021.12.29_41
+      - 🇺🇸_US_美国_FMYC-2021.12.29_42
+      - 🇺🇸_US_美国_FMYC-2021.12.29_43
+      - 🇮🇳_IN_印度_FMYC-2021.12.29_44
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_45
+      - 🇺🇸_US_美国_FMYC-2021.12.29_46
+      - 🇺🇸_US_美国_FMYC-2021.12.29_47
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_48
+      - 🇺🇸_US_美国_FMYC-2021.12.29_49
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_50
+      - 🇳🇿_NZ_新西兰_FMYC-2021.12.29_51
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_52
+      - 🇺🇸_US_美国_FMYC-2021.12.29_53
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_54
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_55
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_56
+      - 🇺🇸_US_美国_FMYC-2021.12.29_57
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_58
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_59
+      - 🇦🇺_AU_澳大利亚_FMYC-2021.12.29_60
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_61
+      - 🇸🇪_SE_瑞典_FMYC-2021.12.29_62
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_63
+      - 🇺🇸_US_美国_FMYC-2021.12.29_64
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_65
+      - 🇺🇸_US_美国_FMYC-2021.12.29_66
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_67
+      - 🇧🇪_BE_比利时_FMYC-2021.12.29_68
+      - 🇺🇸_US_美国_FMYC-2021.12.29_69
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_70
+      - 🇩🇪_DE_德国_FMYC-2021.12.29_71
+      - 🇷🇺_RU_俄罗斯联邦_FMYC-2021.12.29_72
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_73
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_74
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_75
+      - FMYC-2021.12.29_76
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_77
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_78
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_79
+      - FMYC-2021.12.29_80
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_81
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_82
+      - 🇸🇬_SG_新加坡_FMYC-2021.12.29_83
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_84
+      - 🇯🇵_JP_日本_FMYC-2021.12.29_85
+      - FMYC-2021.12.29_86
+      - 🇹🇼_TW_台湾_FMYC-2021.12.29_87
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_88
+      - 🇩🇰_DK_丹麦_FMYC-2021.12.29_89
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_90
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_91
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_92
+      - 🇺🇸_US_美国_FMYC-2021.12.29_93
+      - 🇺🇸_US_美国_FMYC-2021.12.29_94
+      - FMYC-2021.12.29_95
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_96
+      - 🇭🇰_HK_香港_FMYC-2021.12.29_97
+      - 🇺🇸_US_美国_FMYC-2021.12.29_98
+      - 🇺🇸_US_美国_FMYC-2021.12.29_99
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_100
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_101
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_102
+      - 🇰🇷_KR_韩国_FMYC-2021.12.29_103
+      - 🇺🇸_US_美国_FMYC-2021.12.29_104
+      - 🇺🇸_US_美国_FMYC-2021.12.29_105
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_106
+      - 🇻🇳_VN_越南_FMYC-2021.12.29_107
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_108
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_109
+      - 🇬🇧_GB_英国_FMYC-2021.12.29_110
+      - 🇵🇹_PT_葡萄牙_FMYC-2021.12.29_111
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_112
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_113
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_114
+      - 🇨🇦_CA_加拿大_FMYC-2021.12.29_115
+      - FMYC-2021.12.29_116
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_117
+      - 🇺🇸_US_美国_FMYC-2021.12.29_118
+      - 🇲🇾_MY_马来西亚_FMYC-2021.12.29_119
+      - 🇺🇸_US_美国_FMYC-2021.12.29_120
+      - 🇳🇴_NO_挪威_FMYC-2021.12.29_121
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_122
+      - 🇨🇳_CN_中国_FMYC-2021.12.29_123
+      - 🇨🇿_CZ_捷克_FMYC-2021.12.29_124
+      - FMYC-2021.12.29_125
+      - 🇺🇸_US_美国_FMYC-2021.12.29_126
+      - 🇫🇷_FR_法国_FMYC-2021.12.29_127
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
