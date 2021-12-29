@@ -564,6 +564,7 @@ proxies:
   - {name: _GB_英国_FMYC-2021.12.29_82 2, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _GR_希腊_FMYC-2021.12.29_34, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
   - {name: _GR_希腊_FMYC-2021.12.29_34 2, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: _HK_香港, server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: _HK_香港->🇰🇷_KR_韩国_236, server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
   - {name: _HK_香港->🇰🇷_KR_韩国_275, server: 156.234.95.72, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
   - {name: _HK_香港_1, server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
@@ -683,7 +684,15 @@ proxies:
   - {name: _TW_台湾_FMYC-2021.12.29_37 2, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _TW_台湾_FMYC-2021.12.29_87, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _TW_台湾_FMYC-2021.12.29_87 2, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: _US_美国, server: 167.88.62.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: _US_美国, server: 167.88.61.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: _US_美国 2, server: 167.88.61.60, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _US_美国 3, server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _US_美国 4, server: 167.88.61.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _US_美国 5, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _US_美国 6, server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _US_美国 7, server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _US_美国 8, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _US_美国 9, server: 169.197.142.39, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: _US_美国->🇫🇷_FR_法国_256, server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sshocean, ws-headers: {Host: uk2.v2rayserv.com}}
   - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_209, server: 172.67.170.52, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
   - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_246, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}}
@@ -914,7 +923,6 @@ proxies:
   - {name: _VN_越南_FMYC-2021.12.29_107 2, server: ff5.uuv2.co.uk, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ff5.uuv2.co.uk}}
   - {name: _VN_越南_FMYC-2021.12.29_8, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
   - {name: _VN_越南_FMYC-2021.12.29_8 2, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
-  - {name: default_name, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: default_name_122, server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
   - {name: default_name_177, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
   - {name: default_name_232, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
@@ -1263,6 +1271,7 @@ proxy-groups:
       - Youtube:鹏哥分享🇭🇰HK_676+|+2.63Mb
       - Youtube:鹏哥分享🇭🇰HK_681+|22.55Mb
       - Youtube:鹏哥分享🇭🇰HK_682+|+2.75Mb
+      - _HK_香港
       - _HK_香港->🇰🇷_KR_韩国_236
       - _HK_香港->🇰🇷_KR_韩国_275
       - _HK_香港_1
@@ -1412,6 +1421,14 @@ proxy-groups:
       - Youtube:鹏哥分享🇺🇸US_1958+|+5.13Mb
       - Youtube:鹏哥分享🇺🇸US_2003+|+5.99Mb
       - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
       - _US_美国->🇫🇷_FR_法国_256
       - _US_美国->🇷🇺_RU_俄罗斯联邦_209
       - _US_美国->🇷🇺_RU_俄罗斯联邦_246
@@ -2567,6 +2584,7 @@ proxy-groups:
       - _GB_英国_FMYC-2021.12.29_82 2
       - _GR_希腊_FMYC-2021.12.29_34
       - _GR_希腊_FMYC-2021.12.29_34 2
+      - _HK_香港
       - _HK_香港->🇰🇷_KR_韩国_236
       - _HK_香港->🇰🇷_KR_韩国_275
       - _HK_香港_1
@@ -2687,6 +2705,14 @@ proxy-groups:
       - _TW_台湾_FMYC-2021.12.29_87
       - _TW_台湾_FMYC-2021.12.29_87 2
       - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
       - _US_美国->🇫🇷_FR_法国_256
       - _US_美国->🇷🇺_RU_俄罗斯联邦_209
       - _US_美国->🇷🇺_RU_俄罗斯联邦_246
@@ -2917,7 +2943,6 @@ proxy-groups:
       - _VN_越南_FMYC-2021.12.29_107 2
       - _VN_越南_FMYC-2021.12.29_8
       - _VN_越南_FMYC-2021.12.29_8 2
-      - default_name
       - default_name_122
       - default_name_177
       - default_name_232
