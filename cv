@@ -222,7 +222,6 @@ proxies:
   - {name: FMYC-2021.12.29_86 2, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
   - {name: FMYC-2021.12.29_95, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
   - {name: FMYC-2021.12.29_95 2, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
-  - {name: V4-#169|广东-香港HKT|NF|x2.0|V2ray_1, server: jzdjd-01.ddns-only.xyz, port: 40169, type: vmess, uuid: 4bed7e8d-f989-3550-8d68-a37a66c57a2b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-only.xyz}}
   - {name: Youtube:鹏哥分享_1, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: Youtube:鹏哥分享_10, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: Youtube:鹏哥分享_11, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
@@ -263,167 +262,160 @@ proxies:
   - {name: Youtube:鹏哥分享_7, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
   - {name: Youtube:鹏哥分享_8, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: Youtube:鹏哥分享_9, server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.218.198.254}}
-  - {name: Youtube:鹏哥分享🇦🇺 AU_93 | 4.80Mb, server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
-  - {name: Youtube:鹏哥分享🇦🇺AU_101 |11.78Mb, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: Youtube:鹏哥分享🇦🇺AU_101+|11.78Mb, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享🇦🇺AU_105 | 9.31Mb, server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
   - {name: Youtube:鹏哥分享🇦🇺AU_105+|+9.31Mb, server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
-  - {name: Youtube:鹏哥分享🇨🇦CA_279 |29.39Mb, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: Youtube:鹏哥分享🇨🇦CA_279+|29.39Mb, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: Youtube:鹏哥分享🇨🇦CA_320 |25.82Mb, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享🇨🇦CA_321 |31.98Mb, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: Youtube:鹏哥分享🇨🇦CA_359 |27.39Mb, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: Youtube:鹏哥分享🇨🇦CA_359+|27.39Mb, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: Youtube:鹏哥分享🇨🇦CA_360 |37.03Mb, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: Youtube:鹏哥分享🇨🇦CA_360+|37.03Mb, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: Youtube:鹏哥分享🇨🇦CA_361 |13.62Mb, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Youtube:鹏哥分享🇨🇦CA_361+|13.62Mb, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享🇨🇦CA_377 |35.87Mb, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: Youtube:鹏哥分享🇨🇦CA_377+|35.87Mb, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享🇨🇳CN_406 |19.96Mb, server: 211.99.96.40, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
   - {name: Youtube:鹏哥分享🇨🇳CN_406+|19.96Mb, server: 211.99.96.40, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: Youtube:鹏哥分享🇨🇳CN_407 | 6.46Mb, server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9}
   - {name: Youtube:鹏哥分享🇨🇳CN_407+|+6.46Mb, server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9}
-  - {name: Youtube:鹏哥分享🇩🇪 DE_457 |24.92Mb, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
-  - {name: Youtube:鹏哥分享🇩🇪 DE_459 |84.48Mb, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
   - {name: Youtube:鹏哥分享🇩🇪+DE_457+|24.92Mb, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
   - {name: Youtube:鹏哥分享🇩🇪+DE_459+|84.48Mb, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: Youtube:鹏哥分享🇩🇰 DK_519 |16.02Mb, server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
-  - {name: Youtube:鹏哥分享🇫🇷FR_545 |165.96Mb, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: Youtube:鹏哥分享🇫🇷FR_548 |142.06Mb, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: Youtube:鹏哥分享🇫🇷FR_550 |224.01Mb, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: Youtube:鹏哥分享🇫🇷FR_550+|224.01Mb, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: Youtube:鹏哥分享🇫🇷FR_551 |45.93Mb, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Youtube:鹏哥分享🇫🇷FR_551+|45.93Mb, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享🇫🇷FR_554 |13.24Mb, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: Youtube:鹏哥分享🇫🇷FR_554+|13.24Mb, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: Youtube:鹏哥分享🇫🇷FR_556 |133.77Mb, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: Youtube:鹏哥分享🇫🇷FR_556+|133.77Mb, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: Youtube:鹏哥分享🇫🇷FR_557 |127.50Mb, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: Youtube:鹏哥分享🇫🇷FR_557+|127.50Mb, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享🇫🇷FR_579 |132.10Mb, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: Youtube:鹏哥分享🇫🇷FR_579+|132.10Mb, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享🇫🇷FR_584 |159.20Mb, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: Youtube:鹏哥分享🇫🇷FR_584+|159.20Mb, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: Youtube:鹏哥分享🇫🇷FR_589 |16.13Mb, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Youtube:鹏哥分享🇫🇷FR_589+|16.13Mb, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享🇫🇷FR_591 |34.60Mb, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
   - {name: Youtube:鹏哥分享🇫🇷FR_591+|34.60Mb, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: Youtube:鹏哥分享🇫🇷FR_595 |186.47Mb, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: Youtube:鹏哥分享🇫🇷FR_595+|186.47Mb, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: Youtube:鹏哥分享🇬🇧 GB_598 |20.99Mb, server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
   - {name: Youtube:鹏哥分享🇬🇧+GB_598+|20.99Mb, server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: Youtube:鹏哥分享🇬🇷GR_663 | 3.38Mb, server: 185.51.134.210, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: Youtube:鹏哥分享🇬🇷GR_664 | 4.51Mb, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
   - {name: Youtube:鹏哥分享🇬🇷GR_664+|+4.51Mb, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: Youtube:鹏哥分享🇭🇰HK_669 | 3.37Mb, server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Youtube:鹏哥分享🇭🇰HK_669+|+3.37Mb, server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享🇭🇰HK_671 |15.75Mb, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Youtube:鹏哥分享🇭🇰HK_671+|15.75Mb, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享🇭🇰HK_675 | 1.23Mb, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: Youtube:鹏哥分享🇭🇰HK_676 | 2.63Mb, server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: Youtube:鹏哥分享🇭🇰HK_676+|+2.63Mb, server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: Youtube:鹏哥分享🇭🇰HK_678 |26.50Mb, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: Youtube:鹏哥分享🇭🇰HK_679 |20.20Mb, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: Youtube:鹏哥分享🇭🇰HK_681 |22.55Mb, server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0}
   - {name: Youtube:鹏哥分享🇭🇰HK_681+|22.55Mb, server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0}
-  - {name: Youtube:鹏哥分享🇭🇰HK_682 | 2.75Mb, server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Youtube:鹏哥分享🇭🇰HK_682+|+2.75Mb, server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享🇮🇱IL_705 |13.96Mb, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: Youtube:鹏哥分享🇮🇱IL_707 |11.32Mb, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
   - {name: Youtube:鹏哥分享🇮🇱IL_707+|11.32Mb, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: Youtube:鹏哥分享🇮🇳IN_711 |18.08Mb, server: 172.105.41.63, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享🇮🇳IN_714 | 5.42Mb, server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
-  - {name: Youtube:鹏哥分享🇮🇳IN_715 |37.19Mb, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: Youtube:鹏哥分享🇲🇽MX_823 | 2.94Mb, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: Youtube:鹏哥分享🇳🇱NL_845 |30.69Mb, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
   - {name: Youtube:鹏哥分享🇳🇱NL_845+|30.69Mb, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
-  - {name: Youtube:鹏哥分享🇳🇴 NO_858 | 2.37Mb, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: Youtube:鹏哥分享🇳🇴 NO_859 |17.36Mb, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: Youtube:鹏哥分享🇳🇴 NO_860 | 4.24Mb, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: Youtube:鹏哥分享🇳🇴+NO_858+|+2.37Mb, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: Youtube:鹏哥分享🇳🇴+NO_859+|17.36Mb, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
   - {name: Youtube:鹏哥分享🇳🇴+NO_860+|+4.24Mb, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: Youtube:鹏哥分享🇳🇴NO_868 | 1.22Mb, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Youtube:鹏哥分享🇳🇴NO_868+|+1.22Mb, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享🇳🇴NO_871 |17.58Mb, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Youtube:鹏哥分享🇳🇴NO_871+|17.58Mb, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享🇳🇴NO_876 | 4.66Mb, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: Youtube:鹏哥分享🇳🇴NO_876+|+4.66Mb, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享🇳🇴NO_877 | 0.36Mb, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: Youtube:鹏哥分享🇳🇴NO_877+|+0.36Mb, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: Youtube:鹏哥分享🇳🇴NO_879 | 4.71Mb, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: Youtube:鹏哥分享🇳🇴NO_879+|+4.71Mb, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: Youtube:鹏哥分享🇳🇴NO_882 | 1.34Mb, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Youtube:鹏哥分享🇳🇴NO_882+|+1.34Mb, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享🇳🇴NO_887 | 2.04Mb, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: Youtube:鹏哥分享🇳🇴NO_887+|+2.04Mb, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: Youtube:鹏哥分享🇳🇿 NZ_888 | 7.66Mb, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
   - {name: Youtube:鹏哥分享🇳🇿+NZ_888+|+7.66Mb, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
-  - {name: Youtube:鹏哥分享🇵🇭 PH_898 | 5.92Mb, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
   - {name: Youtube:鹏哥分享🇵🇭+PH_898+|+5.92Mb, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
-  - {name: Youtube:鹏哥分享🇵🇹PT_915 |13.14Mb, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
   - {name: Youtube:鹏哥分享🇵🇹PT_915+|13.14Mb, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: Youtube:鹏哥分享🇷🇴RO_924 | 6.93Mb, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
   - {name: Youtube:鹏哥分享🇷🇴RO_924+|+6.93Mb, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: Youtube:鹏哥分享🇷🇺 RU_933 |54.40Mb, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: Youtube:鹏哥分享🇷🇺+RU_933+|54.40Mb, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: Youtube:鹏哥分享🇸🇬SG_1033 | 8.48Mb, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
   - {name: Youtube:鹏哥分享🇸🇬SG_1033+|+8.48Mb, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
-  - {name: Youtube:鹏哥分享🇹🇼TW_1109 |10.33Mb, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: Youtube:鹏哥分享🇹🇼TW_1109+|10.33Mb, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: Youtube:鹏哥分享🇺🇦UA_1111 |11.99Mb, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: Youtube:鹏哥分享🇺🇸 US_1134 | 2.10Mb, server: 23.19.26.246, port: 10515, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: Youtube:鹏哥分享🇺🇸+US_1134+|+2.10Mb, server: 23.19.26.246, port: 10515, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: Youtube:鹏哥分享🇺🇸US_1244 |27.20Mb, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: Youtube:鹏哥分享🇺🇸US_1244+|27.20Mb, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: Youtube:鹏哥分享🇺🇸US_1253 |25.47Mb, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: Youtube:鹏哥分享🇺🇸US_1253+|25.47Mb, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: Youtube:鹏哥分享🇺🇸US_1284 |28.44Mb, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: Youtube:鹏哥分享🇺🇸US_1284+|28.44Mb, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: Youtube:鹏哥分享🇺🇸US_1511 |25.73Mb, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Youtube:鹏哥分享🇺🇸US_1511+|25.73Mb, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Youtube:鹏哥分享🇺🇸US_1589 |27.22Mb, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: Youtube:鹏哥分享🇺🇸US_1589+|27.22Mb, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享🇺🇸US_1652 |133.13Mb, server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
   - {name: Youtube:鹏哥分享🇺🇸US_1652+|133.13Mb, server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: Youtube:鹏哥分享🇺🇸US_1663 | 4.18Mb, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享🇺🇸US_1664 | 8.90Mb, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: Youtube:鹏哥分享🇺🇸US_1664+|+8.90Mb, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: Youtube:鹏哥分享🇺🇸US_1686 |14.56Mb, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: Youtube:鹏哥分享🇺🇸US_1686+|14.56Mb, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: Youtube:鹏哥分享🇺🇸US_1863 |10.85Mb, server: 192.46.210.73, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: Youtube:鹏哥分享🇺🇸US_1888 |14.51Mb, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: Youtube:鹏哥分享🇺🇸US_1888+|14.51Mb, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: Youtube:鹏哥分享🇺🇸US_1911 |14.30Mb, server: 104.223.91.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QKyLzp5JUG6XEGy2wbEE}
-  - {name: Youtube:鹏哥分享🇺🇸US_1954 | 8.55Mb, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
   - {name: Youtube:鹏哥分享🇺🇸US_1954+|+8.55Mb, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: Youtube:鹏哥分享🇺🇸US_1958 | 5.13Mb, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
   - {name: Youtube:鹏哥分享🇺🇸US_1958+|+5.13Mb, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
-  - {name: Youtube:鹏哥分享🇺🇸US_2003 | 5.99Mb, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: Youtube:鹏哥分享🇺🇸US_2003+|+5.99Mb, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Youtube:鹏哥分享🇻🇳VN_2126 | 6.55Mb, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
   - {name: Youtube:鹏哥分享🇻🇳VN_2126+|+6.55Mb, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
-  - {name: Ytb:鹏哥分享_101, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: Ytb:鹏哥分享_110, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
-  - {name: Ytb:鹏哥分享_114, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: Ytb:鹏哥分享_115, server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Ytb:鹏哥分享_15, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: Ytb:鹏哥分享_18, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: Ytb:鹏哥分享_34, server: 18.192.212.68, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.192.212.68}}
-  - {name: Ytb:鹏哥分享_35, server: iepl.tw.9548.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: Ytb:鹏哥分享_48, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: Ytb:鹏哥分享_49, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: Ytb:鹏哥分享_59, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: Ytb:鹏哥分享_68, server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.218.198.254}}
-  - {name: Ytb:鹏哥分享_77, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: Ytb:鹏哥分享_82, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: Ytb:鹏哥分享_85, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: Ytb:鹏哥分享_87, server: 120.241.72.90, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: 120.241.72.90}}
-  - {name: Ytb:鹏哥分享_88, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Ytb:鹏哥分享_90, server: 120.241.72.97, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: 120.241.72.97}}
-  - {name: Ytb:鹏哥分享_92, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: Ytb:鹏哥分享_97, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Ytb:鹏哥分享_1, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: Ytb:鹏哥分享_10, server: 167.88.62.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Ytb:鹏哥分享_11, server: 167.88.62.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Ytb:鹏哥分享_12, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Ytb:鹏哥分享_13, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Ytb:鹏哥分享_14, server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Ytb:鹏哥分享_15, server: 167.88.62.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_16, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
+  - {name: Ytb:鹏哥分享_17, server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Ytb:鹏哥分享_18, server: 167.88.62.68, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Ytb:鹏哥分享_19, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:鹏哥分享_2, server: 134.209.96.184, port: 36450, type: ss, cipher: chacha20-ietf-poly1305, password: AXy2RnSRP2iBNkH4}
+  - {name: Ytb:鹏哥分享_20, server: 38.75.136.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_21, server: 38.75.136.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Ytb:鹏哥分享_22, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
+  - {name: Ytb:鹏哥分享_23, server: 169.197.141.24, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_24, server: 169.197.141.24, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_25, server: 167.88.62.68, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_26, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Ytb:鹏哥分享_27, server: 169.197.141.24, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_28, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Ytb:鹏哥分享_29, server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Ytb:鹏哥分享_3, server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: Ytb:鹏哥分享_30, server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_31, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: Ytb:鹏哥分享_32, server: 93.186.201.158, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Ytb:鹏哥分享_33, server: 93.186.201.158, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Ytb:鹏哥分享_34, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:鹏哥分享_35, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}}
+  - {name: Ytb:鹏哥分享_36, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_37, server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: Ytb:鹏哥分享_38, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Ytb:鹏哥分享_39, server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Ytb:鹏哥分享_4, server: 38.75.136.21, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_40, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: Ytb:鹏哥分享_41, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: Ytb:鹏哥分享_42, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Ytb:鹏哥分享_43, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Ytb:鹏哥分享_44, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:鹏哥分享_45, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
+  - {name: Ytb:鹏哥分享_46, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_47, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: Ytb:鹏哥分享_48, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Ytb:鹏哥分享_49, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:鹏哥分享_5, server: 167.88.62.68, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Ytb:鹏哥分享_50, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: Ytb:鹏哥分享_51, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:鹏哥分享_52, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Ytb:鹏哥分享_53, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_54, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Ytb:鹏哥分享_55, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Ytb:鹏哥分享_56, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Ytb:鹏哥分享_57, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Ytb:鹏哥分享_58, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: Ytb:鹏哥分享_59, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_6, server: 167.88.62.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Ytb:鹏哥分享_60, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Ytb:鹏哥分享_61, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:鹏哥分享_62, server: 211.99.96.40, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: Ytb:鹏哥分享_63, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Ytb:鹏哥分享_64, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Ytb:鹏哥分享_65, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}}
+  - {name: Ytb:鹏哥分享_66, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Ytb:鹏哥分享_67, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Ytb:鹏哥分享_68, server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Ytb:鹏哥分享_69, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Ytb:鹏哥分享_7, server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy}
+  - {name: Ytb:鹏哥分享_70, server: 38.64.138.145, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_71, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:鹏哥分享_72, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Ytb:鹏哥分享_73, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Ytb:鹏哥分享_74, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Ytb:鹏哥分享_75, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:鹏哥分享_76, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Ytb:鹏哥分享_77, server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_78, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:鹏哥分享_79, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Ytb:鹏哥分享_8, server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Ytb:鹏哥分享_80, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Ytb:鹏哥分享_81, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Ytb:鹏哥分享_82, server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_83, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: Ytb:鹏哥分享_84, server: 38.64.138.145, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_85, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: Ytb:鹏哥分享_86, server: 38.91.102.96, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_87, server: 118.107.244.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Ytb:鹏哥分享_88, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_89, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_9, server: 38.75.136.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:鹏哥分享_90, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: Ytb:鹏哥分享_91, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Ytb:鹏哥分享_92, server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Ytb:鹏哥分享_93, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _AU_澳大利亚_FMYC-2021.12.29_60, server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
   - {name: _AU_澳大利亚_FMYC-2021.12.29_60 2, server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
   - {name: _AU_澳大利亚_FMYC-2021.12.29_7, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
@@ -593,6 +585,7 @@ proxies:
   - {name: _TW_台湾_FMYC-2021.12.29_87, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _TW_台湾_FMYC-2021.12.29_87 2, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _US_美国, server: 169.197.142.39, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _US_美国_1, server: 38.91.102.96, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _US_美国_FMYC-2021.12.29_104, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _US_美国_FMYC-2021.12.29_104 2, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _US_美国_FMYC-2021.12.29_105, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
@@ -989,19 +982,10 @@ proxy-groups:
       - 92香港∞中转
       - 93香港∞中转
       - 94香港∞直连
-      - V4-#169|广东-香港HKT|NF|x2.0|V2ray_1
-      - Youtube:鹏哥分享🇭🇰HK_669 | 3.37Mb
       - Youtube:鹏哥分享🇭🇰HK_669+|+3.37Mb
-      - Youtube:鹏哥分享🇭🇰HK_671 |15.75Mb
       - Youtube:鹏哥分享🇭🇰HK_671+|15.75Mb
-      - Youtube:鹏哥分享🇭🇰HK_675 | 1.23Mb
-      - Youtube:鹏哥分享🇭🇰HK_676 | 2.63Mb
       - Youtube:鹏哥分享🇭🇰HK_676+|+2.63Mb
-      - Youtube:鹏哥分享🇭🇰HK_678 |26.50Mb
-      - Youtube:鹏哥分享🇭🇰HK_679 |20.20Mb
-      - Youtube:鹏哥分享🇭🇰HK_681 |22.55Mb
       - Youtube:鹏哥分享🇭🇰HK_681+|22.55Mb
-      - Youtube:鹏哥分享🇭🇰HK_682 | 2.75Mb
       - Youtube:鹏哥分享🇭🇰HK_682+|+2.75Mb
       - _HK_香港_FMYC-2021.12.29_16
       - _HK_香港_FMYC-2021.12.29_16 2
@@ -1123,36 +1107,21 @@ proxy-groups:
       - "@SSRSUB-美国V10-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub 2"
-      - Youtube:鹏哥分享🇺🇸 US_1134 | 2.10Mb
       - Youtube:鹏哥分享🇺🇸+US_1134+|+2.10Mb
-      - Youtube:鹏哥分享🇺🇸US_1244 |27.20Mb
       - Youtube:鹏哥分享🇺🇸US_1244+|27.20Mb
-      - Youtube:鹏哥分享🇺🇸US_1253 |25.47Mb
       - Youtube:鹏哥分享🇺🇸US_1253+|25.47Mb
-      - Youtube:鹏哥分享🇺🇸US_1284 |28.44Mb
       - Youtube:鹏哥分享🇺🇸US_1284+|28.44Mb
-      - Youtube:鹏哥分享🇺🇸US_1511 |25.73Mb
       - Youtube:鹏哥分享🇺🇸US_1511+|25.73Mb
-      - Youtube:鹏哥分享🇺🇸US_1589 |27.22Mb
       - Youtube:鹏哥分享🇺🇸US_1589+|27.22Mb
-      - Youtube:鹏哥分享🇺🇸US_1652 |133.13Mb
       - Youtube:鹏哥分享🇺🇸US_1652+|133.13Mb
-      - Youtube:鹏哥分享🇺🇸US_1663 | 4.18Mb
-      - Youtube:鹏哥分享🇺🇸US_1664 | 8.90Mb
       - Youtube:鹏哥分享🇺🇸US_1664+|+8.90Mb
-      - Youtube:鹏哥分享🇺🇸US_1686 |14.56Mb
       - Youtube:鹏哥分享🇺🇸US_1686+|14.56Mb
-      - Youtube:鹏哥分享🇺🇸US_1863 |10.85Mb
-      - Youtube:鹏哥分享🇺🇸US_1888 |14.51Mb
       - Youtube:鹏哥分享🇺🇸US_1888+|14.51Mb
-      - Youtube:鹏哥分享🇺🇸US_1911 |14.30Mb
-      - Youtube:鹏哥分享🇺🇸US_1954 | 8.55Mb
       - Youtube:鹏哥分享🇺🇸US_1954+|+8.55Mb
-      - Youtube:鹏哥分享🇺🇸US_1958 | 5.13Mb
       - Youtube:鹏哥分享🇺🇸US_1958+|+5.13Mb
-      - Youtube:鹏哥分享🇺🇸US_2003 | 5.99Mb
       - Youtube:鹏哥分享🇺🇸US_2003+|+5.99Mb
       - _US_美国
+      - _US_美国_1
       - _US_美国_FMYC-2021.12.29_104
       - _US_美国_FMYC-2021.12.29_104 2
       - _US_美国_FMYC-2021.12.29_105
@@ -1305,7 +1274,6 @@ proxy-groups:
       - 13台湾∞中转
       - 14台湾∞中转
       - 15台湾∞中转
-      - Youtube:鹏哥分享🇹🇼TW_1109 |10.33Mb
       - Youtube:鹏哥分享🇹🇼TW_1109+|10.33Mb
       - _TW_台湾_FMYC-2021.12.29_37
       - _TW_台湾_FMYC-2021.12.29_37 2
@@ -1338,7 +1306,6 @@ proxy-groups:
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-新加坡V16-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V16-付费推荐::suo.yt/ssrsub 2"
-      - Youtube:鹏哥分享🇸🇬SG_1033 | 8.48Mb
       - Youtube:鹏哥分享🇸🇬SG_1033+|+8.48Mb
       - _SG_新加坡_FMYC-2021.12.29_12
       - _SG_新加坡_FMYC-2021.12.29_12 2
@@ -1735,7 +1702,6 @@ proxy-groups:
       - FMYC-2021.12.29_86 2
       - FMYC-2021.12.29_95
       - FMYC-2021.12.29_95 2
-      - V4-#169|广东-香港HKT|NF|x2.0|V2ray_1
       - Youtube:鹏哥分享_1
       - Youtube:鹏哥分享_10
       - Youtube:鹏哥分享_11
@@ -1776,167 +1742,160 @@ proxy-groups:
       - Youtube:鹏哥分享_7
       - Youtube:鹏哥分享_8
       - Youtube:鹏哥分享_9
-      - Youtube:鹏哥分享🇦🇺 AU_93 | 4.80Mb
-      - Youtube:鹏哥分享🇦🇺AU_101 |11.78Mb
       - Youtube:鹏哥分享🇦🇺AU_101+|11.78Mb
-      - Youtube:鹏哥分享🇦🇺AU_105 | 9.31Mb
       - Youtube:鹏哥分享🇦🇺AU_105+|+9.31Mb
-      - Youtube:鹏哥分享🇨🇦CA_279 |29.39Mb
       - Youtube:鹏哥分享🇨🇦CA_279+|29.39Mb
-      - Youtube:鹏哥分享🇨🇦CA_320 |25.82Mb
-      - Youtube:鹏哥分享🇨🇦CA_321 |31.98Mb
-      - Youtube:鹏哥分享🇨🇦CA_359 |27.39Mb
       - Youtube:鹏哥分享🇨🇦CA_359+|27.39Mb
-      - Youtube:鹏哥分享🇨🇦CA_360 |37.03Mb
       - Youtube:鹏哥分享🇨🇦CA_360+|37.03Mb
-      - Youtube:鹏哥分享🇨🇦CA_361 |13.62Mb
       - Youtube:鹏哥分享🇨🇦CA_361+|13.62Mb
-      - Youtube:鹏哥分享🇨🇦CA_377 |35.87Mb
       - Youtube:鹏哥分享🇨🇦CA_377+|35.87Mb
-      - Youtube:鹏哥分享🇨🇳CN_406 |19.96Mb
       - Youtube:鹏哥分享🇨🇳CN_406+|19.96Mb
-      - Youtube:鹏哥分享🇨🇳CN_407 | 6.46Mb
       - Youtube:鹏哥分享🇨🇳CN_407+|+6.46Mb
-      - Youtube:鹏哥分享🇩🇪 DE_457 |24.92Mb
-      - Youtube:鹏哥分享🇩🇪 DE_459 |84.48Mb
       - Youtube:鹏哥分享🇩🇪+DE_457+|24.92Mb
       - Youtube:鹏哥分享🇩🇪+DE_459+|84.48Mb
-      - Youtube:鹏哥分享🇩🇰 DK_519 |16.02Mb
-      - Youtube:鹏哥分享🇫🇷FR_545 |165.96Mb
-      - Youtube:鹏哥分享🇫🇷FR_548 |142.06Mb
-      - Youtube:鹏哥分享🇫🇷FR_550 |224.01Mb
       - Youtube:鹏哥分享🇫🇷FR_550+|224.01Mb
-      - Youtube:鹏哥分享🇫🇷FR_551 |45.93Mb
       - Youtube:鹏哥分享🇫🇷FR_551+|45.93Mb
-      - Youtube:鹏哥分享🇫🇷FR_554 |13.24Mb
       - Youtube:鹏哥分享🇫🇷FR_554+|13.24Mb
-      - Youtube:鹏哥分享🇫🇷FR_556 |133.77Mb
       - Youtube:鹏哥分享🇫🇷FR_556+|133.77Mb
-      - Youtube:鹏哥分享🇫🇷FR_557 |127.50Mb
       - Youtube:鹏哥分享🇫🇷FR_557+|127.50Mb
-      - Youtube:鹏哥分享🇫🇷FR_579 |132.10Mb
       - Youtube:鹏哥分享🇫🇷FR_579+|132.10Mb
-      - Youtube:鹏哥分享🇫🇷FR_584 |159.20Mb
       - Youtube:鹏哥分享🇫🇷FR_584+|159.20Mb
-      - Youtube:鹏哥分享🇫🇷FR_589 |16.13Mb
       - Youtube:鹏哥分享🇫🇷FR_589+|16.13Mb
-      - Youtube:鹏哥分享🇫🇷FR_591 |34.60Mb
       - Youtube:鹏哥分享🇫🇷FR_591+|34.60Mb
-      - Youtube:鹏哥分享🇫🇷FR_595 |186.47Mb
       - Youtube:鹏哥分享🇫🇷FR_595+|186.47Mb
-      - Youtube:鹏哥分享🇬🇧 GB_598 |20.99Mb
       - Youtube:鹏哥分享🇬🇧+GB_598+|20.99Mb
-      - Youtube:鹏哥分享🇬🇷GR_663 | 3.38Mb
-      - Youtube:鹏哥分享🇬🇷GR_664 | 4.51Mb
       - Youtube:鹏哥分享🇬🇷GR_664+|+4.51Mb
-      - Youtube:鹏哥分享🇭🇰HK_669 | 3.37Mb
       - Youtube:鹏哥分享🇭🇰HK_669+|+3.37Mb
-      - Youtube:鹏哥分享🇭🇰HK_671 |15.75Mb
       - Youtube:鹏哥分享🇭🇰HK_671+|15.75Mb
-      - Youtube:鹏哥分享🇭🇰HK_675 | 1.23Mb
-      - Youtube:鹏哥分享🇭🇰HK_676 | 2.63Mb
       - Youtube:鹏哥分享🇭🇰HK_676+|+2.63Mb
-      - Youtube:鹏哥分享🇭🇰HK_678 |26.50Mb
-      - Youtube:鹏哥分享🇭🇰HK_679 |20.20Mb
-      - Youtube:鹏哥分享🇭🇰HK_681 |22.55Mb
       - Youtube:鹏哥分享🇭🇰HK_681+|22.55Mb
-      - Youtube:鹏哥分享🇭🇰HK_682 | 2.75Mb
       - Youtube:鹏哥分享🇭🇰HK_682+|+2.75Mb
-      - Youtube:鹏哥分享🇮🇱IL_705 |13.96Mb
-      - Youtube:鹏哥分享🇮🇱IL_707 |11.32Mb
       - Youtube:鹏哥分享🇮🇱IL_707+|11.32Mb
-      - Youtube:鹏哥分享🇮🇳IN_711 |18.08Mb
-      - Youtube:鹏哥分享🇮🇳IN_714 | 5.42Mb
-      - Youtube:鹏哥分享🇮🇳IN_715 |37.19Mb
-      - Youtube:鹏哥分享🇲🇽MX_823 | 2.94Mb
-      - Youtube:鹏哥分享🇳🇱NL_845 |30.69Mb
       - Youtube:鹏哥分享🇳🇱NL_845+|30.69Mb
-      - Youtube:鹏哥分享🇳🇴 NO_858 | 2.37Mb
-      - Youtube:鹏哥分享🇳🇴 NO_859 |17.36Mb
-      - Youtube:鹏哥分享🇳🇴 NO_860 | 4.24Mb
       - Youtube:鹏哥分享🇳🇴+NO_858+|+2.37Mb
       - Youtube:鹏哥分享🇳🇴+NO_859+|17.36Mb
       - Youtube:鹏哥分享🇳🇴+NO_860+|+4.24Mb
-      - Youtube:鹏哥分享🇳🇴NO_868 | 1.22Mb
       - Youtube:鹏哥分享🇳🇴NO_868+|+1.22Mb
-      - Youtube:鹏哥分享🇳🇴NO_871 |17.58Mb
       - Youtube:鹏哥分享🇳🇴NO_871+|17.58Mb
-      - Youtube:鹏哥分享🇳🇴NO_876 | 4.66Mb
       - Youtube:鹏哥分享🇳🇴NO_876+|+4.66Mb
-      - Youtube:鹏哥分享🇳🇴NO_877 | 0.36Mb
       - Youtube:鹏哥分享🇳🇴NO_877+|+0.36Mb
-      - Youtube:鹏哥分享🇳🇴NO_879 | 4.71Mb
       - Youtube:鹏哥分享🇳🇴NO_879+|+4.71Mb
-      - Youtube:鹏哥分享🇳🇴NO_882 | 1.34Mb
       - Youtube:鹏哥分享🇳🇴NO_882+|+1.34Mb
-      - Youtube:鹏哥分享🇳🇴NO_887 | 2.04Mb
       - Youtube:鹏哥分享🇳🇴NO_887+|+2.04Mb
-      - Youtube:鹏哥分享🇳🇿 NZ_888 | 7.66Mb
       - Youtube:鹏哥分享🇳🇿+NZ_888+|+7.66Mb
-      - Youtube:鹏哥分享🇵🇭 PH_898 | 5.92Mb
       - Youtube:鹏哥分享🇵🇭+PH_898+|+5.92Mb
-      - Youtube:鹏哥分享🇵🇹PT_915 |13.14Mb
       - Youtube:鹏哥分享🇵🇹PT_915+|13.14Mb
-      - Youtube:鹏哥分享🇷🇴RO_924 | 6.93Mb
       - Youtube:鹏哥分享🇷🇴RO_924+|+6.93Mb
-      - Youtube:鹏哥分享🇷🇺 RU_933 |54.40Mb
       - Youtube:鹏哥分享🇷🇺+RU_933+|54.40Mb
-      - Youtube:鹏哥分享🇸🇬SG_1033 | 8.48Mb
       - Youtube:鹏哥分享🇸🇬SG_1033+|+8.48Mb
-      - Youtube:鹏哥分享🇹🇼TW_1109 |10.33Mb
       - Youtube:鹏哥分享🇹🇼TW_1109+|10.33Mb
-      - Youtube:鹏哥分享🇺🇦UA_1111 |11.99Mb
-      - Youtube:鹏哥分享🇺🇸 US_1134 | 2.10Mb
       - Youtube:鹏哥分享🇺🇸+US_1134+|+2.10Mb
-      - Youtube:鹏哥分享🇺🇸US_1244 |27.20Mb
       - Youtube:鹏哥分享🇺🇸US_1244+|27.20Mb
-      - Youtube:鹏哥分享🇺🇸US_1253 |25.47Mb
       - Youtube:鹏哥分享🇺🇸US_1253+|25.47Mb
-      - Youtube:鹏哥分享🇺🇸US_1284 |28.44Mb
       - Youtube:鹏哥分享🇺🇸US_1284+|28.44Mb
-      - Youtube:鹏哥分享🇺🇸US_1511 |25.73Mb
       - Youtube:鹏哥分享🇺🇸US_1511+|25.73Mb
-      - Youtube:鹏哥分享🇺🇸US_1589 |27.22Mb
       - Youtube:鹏哥分享🇺🇸US_1589+|27.22Mb
-      - Youtube:鹏哥分享🇺🇸US_1652 |133.13Mb
       - Youtube:鹏哥分享🇺🇸US_1652+|133.13Mb
-      - Youtube:鹏哥分享🇺🇸US_1663 | 4.18Mb
-      - Youtube:鹏哥分享🇺🇸US_1664 | 8.90Mb
       - Youtube:鹏哥分享🇺🇸US_1664+|+8.90Mb
-      - Youtube:鹏哥分享🇺🇸US_1686 |14.56Mb
       - Youtube:鹏哥分享🇺🇸US_1686+|14.56Mb
-      - Youtube:鹏哥分享🇺🇸US_1863 |10.85Mb
-      - Youtube:鹏哥分享🇺🇸US_1888 |14.51Mb
       - Youtube:鹏哥分享🇺🇸US_1888+|14.51Mb
-      - Youtube:鹏哥分享🇺🇸US_1911 |14.30Mb
-      - Youtube:鹏哥分享🇺🇸US_1954 | 8.55Mb
       - Youtube:鹏哥分享🇺🇸US_1954+|+8.55Mb
-      - Youtube:鹏哥分享🇺🇸US_1958 | 5.13Mb
       - Youtube:鹏哥分享🇺🇸US_1958+|+5.13Mb
-      - Youtube:鹏哥分享🇺🇸US_2003 | 5.99Mb
       - Youtube:鹏哥分享🇺🇸US_2003+|+5.99Mb
-      - Youtube:鹏哥分享🇻🇳VN_2126 | 6.55Mb
       - Youtube:鹏哥分享🇻🇳VN_2126+|+6.55Mb
-      - Ytb:鹏哥分享_101
-      - Ytb:鹏哥分享_110
-      - Ytb:鹏哥分享_114
-      - Ytb:鹏哥分享_115
+      - Ytb:鹏哥分享_1
+      - Ytb:鹏哥分享_10
+      - Ytb:鹏哥分享_11
+      - Ytb:鹏哥分享_12
+      - Ytb:鹏哥分享_13
+      - Ytb:鹏哥分享_14
       - Ytb:鹏哥分享_15
+      - Ytb:鹏哥分享_16
+      - Ytb:鹏哥分享_17
       - Ytb:鹏哥分享_18
+      - Ytb:鹏哥分享_19
+      - Ytb:鹏哥分享_2
+      - Ytb:鹏哥分享_20
+      - Ytb:鹏哥分享_21
+      - Ytb:鹏哥分享_22
+      - Ytb:鹏哥分享_23
+      - Ytb:鹏哥分享_24
+      - Ytb:鹏哥分享_25
+      - Ytb:鹏哥分享_26
+      - Ytb:鹏哥分享_27
+      - Ytb:鹏哥分享_28
+      - Ytb:鹏哥分享_29
+      - Ytb:鹏哥分享_3
+      - Ytb:鹏哥分享_30
+      - Ytb:鹏哥分享_31
+      - Ytb:鹏哥分享_32
+      - Ytb:鹏哥分享_33
       - Ytb:鹏哥分享_34
       - Ytb:鹏哥分享_35
+      - Ytb:鹏哥分享_36
+      - Ytb:鹏哥分享_37
+      - Ytb:鹏哥分享_38
+      - Ytb:鹏哥分享_39
+      - Ytb:鹏哥分享_4
+      - Ytb:鹏哥分享_40
+      - Ytb:鹏哥分享_41
+      - Ytb:鹏哥分享_42
+      - Ytb:鹏哥分享_43
+      - Ytb:鹏哥分享_44
+      - Ytb:鹏哥分享_45
+      - Ytb:鹏哥分享_46
+      - Ytb:鹏哥分享_47
       - Ytb:鹏哥分享_48
       - Ytb:鹏哥分享_49
+      - Ytb:鹏哥分享_5
+      - Ytb:鹏哥分享_50
+      - Ytb:鹏哥分享_51
+      - Ytb:鹏哥分享_52
+      - Ytb:鹏哥分享_53
+      - Ytb:鹏哥分享_54
+      - Ytb:鹏哥分享_55
+      - Ytb:鹏哥分享_56
+      - Ytb:鹏哥分享_57
+      - Ytb:鹏哥分享_58
       - Ytb:鹏哥分享_59
+      - Ytb:鹏哥分享_6
+      - Ytb:鹏哥分享_60
+      - Ytb:鹏哥分享_61
+      - Ytb:鹏哥分享_62
+      - Ytb:鹏哥分享_63
+      - Ytb:鹏哥分享_64
+      - Ytb:鹏哥分享_65
+      - Ytb:鹏哥分享_66
+      - Ytb:鹏哥分享_67
       - Ytb:鹏哥分享_68
+      - Ytb:鹏哥分享_69
+      - Ytb:鹏哥分享_7
+      - Ytb:鹏哥分享_70
+      - Ytb:鹏哥分享_71
+      - Ytb:鹏哥分享_72
+      - Ytb:鹏哥分享_73
+      - Ytb:鹏哥分享_74
+      - Ytb:鹏哥分享_75
+      - Ytb:鹏哥分享_76
       - Ytb:鹏哥分享_77
+      - Ytb:鹏哥分享_78
+      - Ytb:鹏哥分享_79
+      - Ytb:鹏哥分享_8
+      - Ytb:鹏哥分享_80
+      - Ytb:鹏哥分享_81
       - Ytb:鹏哥分享_82
+      - Ytb:鹏哥分享_83
+      - Ytb:鹏哥分享_84
       - Ytb:鹏哥分享_85
+      - Ytb:鹏哥分享_86
       - Ytb:鹏哥分享_87
       - Ytb:鹏哥分享_88
+      - Ytb:鹏哥分享_89
+      - Ytb:鹏哥分享_9
       - Ytb:鹏哥分享_90
+      - Ytb:鹏哥分享_91
       - Ytb:鹏哥分享_92
-      - Ytb:鹏哥分享_97
+      - Ytb:鹏哥分享_93
       - _AU_澳大利亚_FMYC-2021.12.29_60
       - _AU_澳大利亚_FMYC-2021.12.29_60 2
       - _AU_澳大利亚_FMYC-2021.12.29_7
@@ -2106,6 +2065,7 @@ proxy-groups:
       - _TW_台湾_FMYC-2021.12.29_87
       - _TW_台湾_FMYC-2021.12.29_87 2
       - _US_美国
+      - _US_美国_1
       - _US_美国_FMYC-2021.12.29_104
       - _US_美国_FMYC-2021.12.29_104 2
       - _US_美国_FMYC-2021.12.29_105
