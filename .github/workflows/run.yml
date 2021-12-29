@@ -2,6 +2,7 @@
 name: all
 
 on:
+  fork
   watch:
     types: [started]
   schedule:
