@@ -5,84 +5,76 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'azhk_1', server: 20.187.117.31, port: 36353, type: vmess, uuid: b8dee4a2-75b6-4e36-fc25-fb17e64b198e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '玖妍_2', server: 185.203.6.225, port: 80, type: vmess, uuid: 1154cfae-be38-4564-840a-46a9e023922b, alterId: 0, cipher: auto, tls: false, network: ws}
-  - {name: '玖妍_3', server: 180.93.172.61, port: 80, type: vmess, uuid: 1154cfae-be38-4564-840a-46a9e023922b, alterId: 0, cipher: auto, tls: false, network: ws}
-  - {name: 'Shadowport Beta Program1_4', server: 43.154.157.216, port: 60151, type: ss, cipher: chacha20-ietf-poly1305, password: dunkpzGG9FM9}
-  - {name: 'AZ-中转IPLC_5', server: azsh.yeem.cc, port: 10830, type: trojan, password: 1OJxENTSKA, sni: bb.shangou.tk}
+  - {name: '🇺🇸_US_美国_1', server: 38.91.102.86, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸_US_美国_2', server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: '🇭🇰_HK_香港_3', server: 118.107.244.112, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇭🇰_HK_香港_4', server: 118.107.244.112, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - azhk_1
-      - 玖妍_2
-      - 玖妍_3
-      - Shadowport Beta Program1_4
-      - AZ-中转IPLC_5
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇭🇰_HK_香港_3
+      - 🇭🇰_HK_香港_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - azhk_1
-      - 玖妍_2
-      - 玖妍_3
-      - Shadowport Beta Program1_4
-      - AZ-中转IPLC_5
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇭🇰_HK_香港_3
+      - 🇭🇰_HK_香港_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - azhk_1
-      - 玖妍_2
-      - 玖妍_3
-      - Shadowport Beta Program1_4
-      - AZ-中转IPLC_5
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇭🇰_HK_香港_3
+      - 🇭🇰_HK_香港_4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - azhk_1
-      - 玖妍_2
-      - 玖妍_3
-      - Shadowport Beta Program1_4
-      - AZ-中转IPLC_5
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇭🇰_HK_香港_3
+      - 🇭🇰_HK_香港_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - azhk_1
-      - 玖妍_2
-      - 玖妍_3
-      - Shadowport Beta Program1_4
-      - AZ-中转IPLC_5
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇭🇰_HK_香港_3
+      - 🇭🇰_HK_香港_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - azhk_1
-      - 玖妍_2
-      - 玖妍_3
-      - Shadowport Beta Program1_4
-      - AZ-中转IPLC_5
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇭🇰_HK_香港_3
+      - 🇭🇰_HK_香港_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - azhk_1
-      - 玖妍_2
-      - 玖妍_3
-      - Shadowport Beta Program1_4
-      - AZ-中转IPLC_5
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇭🇰_HK_香港_3
+      - 🇭🇰_HK_香港_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -98,11 +90,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - azhk_1
-      - 玖妍_2
-      - 玖妍_3
-      - Shadowport Beta Program1_4
-      - AZ-中转IPLC_5
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇭🇰_HK_香港_3
+      - 🇭🇰_HK_香港_4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
