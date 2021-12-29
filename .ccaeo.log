@@ -1,29 +1,29 @@
 + PS4='$LINENO: '
 5: cd /home/runner/work/all/all
 114: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-14: echo 2021年12月29日·周3·19点04分35秒.621毫秒
+14: echo 2021年12月29日·周3·20点10分27秒.423毫秒
 115: curl -s https://api.github.com/repos/changfengoss/pub/commits
 115: grep -m 1 html_url
 115: sed 's/.*"html_url": /html_url=/g'
-15: eval 'html_url="https://github.com/changfengoss/pub/commit/f150de10f06af38039829ab5ae5b095e59d34e1e",'
-115: html_url=https://github.com/changfengoss/pub/commit/f150de10f06af38039829ab5ae5b095e59d34e1e,
-116: curl -s https://github.com/changfengoss/pub/commit/f150de10f06af38039829ab5ae5b095e59d34e1e
+15: eval 'html_url="https://github.com/changfengoss/pub/commit/f74d931e6b8aebce59461ddc1ba2fe0c0424b35b",'
+115: html_url=https://github.com/changfengoss/pub/commit/f74d931e6b8aebce59461ddc1ba2fe0c0424b35b,
+116: curl -s https://github.com/changfengoss/pub/commit/f74d931e6b8aebce59461ddc1ba2fe0c0424b35b
 116: sed 's|</a>|"|g'
 116: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/changfengoss/pub/main/|p'
-16: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_29/IeWEM2.txt"'
-116: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_29/IeWEM2.txt
+16: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_29/klVUoi.yaml"'
+116: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_29/klVUoi.yaml
 17: case "$href" in
-18: CURL v https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_29/IeWEM2.txt
+19: CURL c https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_29/klVUoi.yaml
 7: echo --------------------------------------------------
-8: echo '- 下载文件: v'
-9: echo '- 连接链接: https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_29/IeWEM2.txt'
-10: curl -so /home/runner/work/all/all/v https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_29/IeWEM2.txt
+8: echo '- 下载文件: c'
+9: echo '- 连接链接: https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_29/klVUoi.yaml'
+10: curl -so /home/runner/work/all/all/c https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_29/klVUoi.yaml
 11: local CURL=0
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
+222: curl -s https://api.github.com/repos/pojiezhiyuanjun/freev2/commits
 222: sed 's/.*"html_url": /html_url=/g'
 222: grep -m 1 html_url
-222: curl -s https://api.github.com/repos/pojiezhiyuanjun/freev2/commits
 22: eval 'html_url="https://github.com/pojiezhiyuanjun/freev2/commit/ca73cea38384d0e27f238d8309ee57be3b31cf02",'
 222: html_url=https://github.com/pojiezhiyuanjun/freev2/commit/ca73cea38384d0e27f238d8309ee57be3b31cf02,
 223: curl -s https://github.com/pojiezhiyuanjun/freev2/commit/ca73cea38384d0e27f238d8309ee57be3b31cf02
@@ -44,9 +44,9 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1229clash.
 11: local CURL=0
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
-333: curl -s https://api.github.com/repos/zyfxz/V2Ray/commits
-333: sed 's/.*"html_url": /html_url=/g'
 333: grep -m 1 html_url
+333: sed 's/.*"html_url": /html_url=/g'
+333: curl -s https://api.github.com/repos/zyfxz/V2Ray/commits
 33: eval 'html_url="https://github.com/zyfxz/V2Ray/commit/47ec12a9ae8504239ac9ba1cc95a0a6f33d47880",'
 333: html_url=https://github.com/zyfxz/V2Ray/commit/47ec12a9ae8504239ac9ba1cc95a0a6f33d47880,
 334: curl -s https://github.com/zyfxz/V2Ray/commit/47ec12a9ae8504239ac9ba1cc95a0a6f33d47880
@@ -195,9 +195,9 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1229clash.
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
 665: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-65: sed -i '/^|20/c|2021年12月29日·周3·19点04分53秒.481毫秒|' /home/runner/work/all/all/README.md
+65: sed -i '/^|20/c|2021年12月29日·周3·20点10分41秒.845毫秒|' /home/runner/work/all/all/README.md
 666: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒 -d '+1 hour'
-66: sed -i '/^20/c2021年12月29日·周3·20点04分53秒.488毫秒' /home/runner/work/all/all/README.md
+66: sed -i '/^20/c2021年12月29日·周3·21点10分41秒.848毫秒' /home/runner/work/all/all/README.md
 67: echo --------------------------------------------------
 668: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-68: echo 2021年12月29日·周3·19点04分53秒.492毫秒
+68: echo 2021年12月29日·周3·20点10分41秒.852毫秒
