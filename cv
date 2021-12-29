@@ -584,7 +584,6 @@ proxies:
   - {name: _TW_台湾_FMYC-2021.12.29_37 2, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _TW_台湾_FMYC-2021.12.29_87, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _TW_台湾_FMYC-2021.12.29_87 2, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: _US_美国, server: 169.197.142.39, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: _US_美国_1, server: 38.91.102.96, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _US_美国_FMYC-2021.12.29_104, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _US_美国_FMYC-2021.12.29_104 2, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -1120,7 +1119,6 @@ proxy-groups:
       - Youtube:鹏哥分享🇺🇸US_1954+|+8.55Mb
       - Youtube:鹏哥分享🇺🇸US_1958+|+5.13Mb
       - Youtube:鹏哥分享🇺🇸US_2003+|+5.99Mb
-      - _US_美国
       - _US_美国_1
       - _US_美国_FMYC-2021.12.29_104
       - _US_美国_FMYC-2021.12.29_104 2
@@ -2064,7 +2062,6 @@ proxy-groups:
       - _TW_台湾_FMYC-2021.12.29_37 2
       - _TW_台湾_FMYC-2021.12.29_87
       - _TW_台湾_FMYC-2021.12.29_87 2
-      - _US_美国
       - _US_美国_1
       - _US_美国_FMYC-2021.12.29_104
       - _US_美国_FMYC-2021.12.29_104 2
