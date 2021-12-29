@@ -206,6 +206,7 @@ proxies:
   - {name: "@SSRSUB-美国V10-付费推荐::suo.yt/ssrsub 2", server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
   - {name: "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
   - {name: "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub 2", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: AZ-中转IPLC_5, server: azsh.yeem.cc, port: 10830, type: trojan, password: 1OJxENTSKA, sni: bb.shangou.tk, skip-cert-verify: false}
   - {name: FMYC-2021.12.29_11, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}}
   - {name: FMYC-2021.12.29_11 2, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}}
   - {name: FMYC-2021.12.29_116, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
@@ -222,6 +223,7 @@ proxies:
   - {name: FMYC-2021.12.29_86 2, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
   - {name: FMYC-2021.12.29_95, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
   - {name: FMYC-2021.12.29_95 2, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
+  - {name: Shadowport Beta Program1_4, server: 43.154.157.216, port: 60151, type: ss, cipher: chacha20-ietf-poly1305, password: dunkpzGG9FM9}
   - {name: Youtube:鹏哥分享_1, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: Youtube:鹏哥分享_10, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: Youtube:鹏哥分享_11, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
@@ -676,6 +678,7 @@ proxies:
   - {name: _VN_越南_FMYC-2021.12.29_107 2, server: ff5.uuv2.co.uk, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ff5.uuv2.co.uk}}
   - {name: _VN_越南_FMYC-2021.12.29_8, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
   - {name: _VN_越南_FMYC-2021.12.29_8 2, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: azhk_1, server: 20.187.117.31, port: 36353, type: vmess, uuid: b8dee4a2-75b6-4e36-fc25-fb17e64b198e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 20.187.117.31}}
   - {name: 乌克兰（YouTube资源分享者）, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 2, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 3, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
@@ -865,6 +868,8 @@ proxies:
   - {name: 澳大利亚（YouTube资源分享者） 2 2, server: 192.53.168.189, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: 澳大利亚（YouTube资源分享者） 3 2, server: 192.53.168.189, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 澳大利亚（YouTube资源分享者） 4 2, server: 192.53.168.189, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 玖妍_2, server: 185.203.6.225, port: 80, type: vmess, uuid: 1154cfae-be38-4564-840a-46a9e023922b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 185.203.6.225}}
+  - {name: 玖妍_3, server: 180.93.172.61, port: 80, type: vmess, uuid: 1154cfae-be38-4564-840a-46a9e023922b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 180.93.172.61}}
   - {name: 瑞典（YouTube资源分享者）, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
   - {name: 瑞典（YouTube资源分享者） 2, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
   - {name: 白嫖群组 TG@freeyule, server: 172.105.234.211, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
@@ -1561,7 +1566,7 @@ proxy-groups:
   - name: ♻️ 专线节点
     type: select
     proxies:
-      - DIRECT
+      - AZ-中转IPLC_5
   - name: ♻️ 手动切换
     type: select
     proxies:
@@ -1766,6 +1771,7 @@ proxy-groups:
       - "@SSRSUB-美国V10-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub 2"
+      - AZ-中转IPLC_5
       - FMYC-2021.12.29_11
       - FMYC-2021.12.29_11 2
       - FMYC-2021.12.29_116
@@ -1782,6 +1788,7 @@ proxy-groups:
       - FMYC-2021.12.29_86 2
       - FMYC-2021.12.29_95
       - FMYC-2021.12.29_95 2
+      - Shadowport Beta Program1_4
       - Youtube:鹏哥分享_1
       - Youtube:鹏哥分享_10
       - Youtube:鹏哥分享_11
@@ -2236,6 +2243,7 @@ proxy-groups:
       - _VN_越南_FMYC-2021.12.29_107 2
       - _VN_越南_FMYC-2021.12.29_8
       - _VN_越南_FMYC-2021.12.29_8 2
+      - azhk_1
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
       - 乌克兰（YouTube资源分享者） 3
@@ -2425,6 +2433,8 @@ proxy-groups:
       - 澳大利亚（YouTube资源分享者） 2 2
       - 澳大利亚（YouTube资源分享者） 3 2
       - 澳大利亚（YouTube资源分享者） 4 2
+      - 玖妍_2
+      - 玖妍_3
       - 瑞典（YouTube资源分享者）
       - 瑞典（YouTube资源分享者） 2
       - 白嫖群组 TG@freeyule
