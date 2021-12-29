@@ -60,6 +60,8 @@ else
 mv -f $home/cv1 $home/cv
 mv -f $home/vc1 $home/vc
 fi
+CURL v8 'https://raw.githubusercontent.com/freefq/free/master/v2'
+CURL s 'https://raw.githubusercontent.com/freefq/free/master/ssr'
 sed -i "/^|20/c|$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')|" $home/README.md
 sed -i "/^20/c$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒' -d '+1 hour')" $home/README.md
 echo --------------------------------------------------
