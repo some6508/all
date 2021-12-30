@@ -1,29 +1,29 @@
 + PS4='$LINENO: '
 5: cd /home/runner/work/all/all
 114: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-14: echo 2021年12月31日·周5·00点08分51秒.176毫秒
+14: echo 2021年12月31日·周5·01点15分40秒.339毫秒
 115: curl -s https://api.github.com/repos/changfengoss/pub/commits
 115: grep -m 1 html_url
 115: sed 's/.*"html_url": /html_url=/g'
-15: eval 'html_url="https://github.com/changfengoss/pub/commit/238fcd7eebb27ca3c1a526115183dd268b9fd283",'
-115: html_url=https://github.com/changfengoss/pub/commit/238fcd7eebb27ca3c1a526115183dd268b9fd283,
-116: curl -s https://github.com/changfengoss/pub/commit/238fcd7eebb27ca3c1a526115183dd268b9fd283
+15: eval 'html_url="https://github.com/changfengoss/pub/commit/0de2743419bc0c0c3cd0efc1ac0f23e4b77b29e2",'
+115: html_url=https://github.com/changfengoss/pub/commit/0de2743419bc0c0c3cd0efc1ac0f23e4b77b29e2,
+116: curl -s https://github.com/changfengoss/pub/commit/0de2743419bc0c0c3cd0efc1ac0f23e4b77b29e2
 116: sed 's|</a>|"|g'
 116: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/changfengoss/pub/main/|p'
-16: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_31/b3AwgG.yaml"'
-116: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_31/b3AwgG.yaml
+16: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_31/FHi6yv.txt"'
+116: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_31/FHi6yv.txt
 17: case "$href" in
-19: CURL c https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_31/b3AwgG.yaml
+18: CURL v https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_31/FHi6yv.txt
 7: echo --------------------------------------------------
-8: echo '- 下载文件: c'
-9: echo '- 连接链接: https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_31/b3AwgG.yaml'
-10: curl -so /home/runner/work/all/all/c https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_31/b3AwgG.yaml
+8: echo '- 下载文件: v'
+9: echo '- 连接链接: https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_31/FHi6yv.txt'
+10: curl -so /home/runner/work/all/all/v https://raw.githubusercontent.com/changfengoss/pub/main/data/2021_12_31/FHi6yv.txt
 11: local CURL=0
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
-222: grep -m 1 html_url
-222: sed 's/.*"html_url": /html_url=/g'
 222: curl -s https://api.github.com/repos/pojiezhiyuanjun/freev2/commits
+222: sed 's/.*"html_url": /html_url=/g'
+222: grep -m 1 html_url
 22: eval 'html_url="https://github.com/pojiezhiyuanjun/freev2/commit/adda5989ed55330722dfd0e7d06c884be663bd50",'
 222: html_url=https://github.com/pojiezhiyuanjun/freev2/commit/adda5989ed55330722dfd0e7d06c884be663bd50,
 223: curl -s https://github.com/pojiezhiyuanjun/freev2/commit/adda5989ed55330722dfd0e7d06c884be663bd50
@@ -137,9 +137,9 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1230clash.
 8: echo '- 下载文件: v6'
 9: echo '- 连接链接: https://gitee.com/chenx58/clash/raw/V2R/V2R'
 10: curl -so /home/runner/work/all/all/v6 https://gitee.com/chenx58/clash/raw/V2R/V2R
-11: local CURL=0
-12: [[ 0 = 0 ]]
-12: echo '- 下载完成: 0'
+11: local CURL=35
+12: [[ 35 = 0 ]]
+12: echo '! 下载失败: 35'
 448: curl -s https://api.github.com/repos/bhqz/bhqz/commits
 448: sed 's/.*"html_url": /html_url=/g'
 448: grep -m 1 html_url
@@ -195,9 +195,9 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1230clash.
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
 665: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-65: sed -i '/^|20/c|2021年12月31日·周5·00点09分19秒.343毫秒|' /home/runner/work/all/all/README.md
+65: sed -i '/^|20/c|2021年12月31日·周5·01点17分33秒.719毫秒|' /home/runner/work/all/all/README.md
 666: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒 -d '+1 hour'
-66: sed -i '/^20/c2021年12月31日·周5·01点09分19秒.346毫秒' /home/runner/work/all/all/README.md
+66: sed -i '/^20/c2021年12月31日·周5·02点17分33秒.722毫秒' /home/runner/work/all/all/README.md
 67: echo --------------------------------------------------
 668: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-68: echo 2021年12月31日·周5·00点09分19秒.349毫秒
+68: echo 2021年12月31日·周5·01点17分33秒.725毫秒
