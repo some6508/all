@@ -439,7 +439,6 @@ proxies:
   - {name: _AU_澳大利亚 21, server: 172.105.180.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _AU_澳大利亚 22, server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: _AU_澳大利亚 23, server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _AU_澳大利亚_1, server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: _AU_澳大利亚_FMYC-2021.12.29_60, server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
   - {name: _AU_澳大利亚_FMYC-2021.12.29_60 2, server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
   - {name: _AU_澳大利亚_FMYC-2021.12.29_7, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
@@ -1935,7 +1934,6 @@ proxy-groups:
       - _AU_澳大利亚 21
       - _AU_澳大利亚 22
       - _AU_澳大利亚 23
-      - _AU_澳大利亚_1
       - _AU_澳大利亚_FMYC-2021.12.29_60
       - _AU_澳大利亚_FMYC-2021.12.29_60 2
       - _AU_澳大利亚_FMYC-2021.12.29_7
@@ -2513,7 +2511,6 @@ proxy-groups:
       - _AU_澳大利亚 21
       - _AU_澳大利亚 22
       - _AU_澳大利亚 23
-      - _AU_澳大利亚_1
       - _AU_澳大利亚_FMYC-2021.12.29_60
       - _AU_澳大利亚_FMYC-2021.12.29_60 2
       - _AU_澳大利亚_FMYC-2021.12.29_7
