@@ -564,7 +564,6 @@ proxies:
   - {name: Ytb:鹏哥分享_🇺🇸_US_美国_98, server: 38.91.102.86, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Ytb:鹏哥分享_🇺🇸_US_美国_99, server: 38.64.138.145, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: Ytb:鹏哥分享_🇻🇳_VN_越南_140, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
-  - {name: _AU_澳大利亚, server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _AU_澳大利亚_170, server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _AU_澳大利亚_171, server: 172.105.180.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: _AU_澳大利亚_172, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
@@ -706,6 +705,10 @@ proxies:
   - {name: _GB_英国_FMYC-2021.12.29_82 2, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _GR_希腊_FMYC-2021.12.29_34, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
   - {name: _GR_希腊_FMYC-2021.12.29_34 2, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: _HK_香港, server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: _HK_香港 2, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _HK_香港 3, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _HK_香港 4, server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _HK_香港->🇰🇷_KR_韩国_282, server: 156.234.95.72, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
   - {name: _HK_香港->🇰🇷_KR_韩国_296, server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
   - {name: _HK_香港_15, server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
@@ -822,6 +825,9 @@ proxies:
   - {name: _RU_俄罗斯联邦_FMYC-2021.12.29_72 2, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: _SE_瑞典_FMYC-2021.12.29_62, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
   - {name: _SE_瑞典_FMYC-2021.12.29_62 2, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: _SG_新加坡, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _SG_新加坡 2, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _SG_新加坡 3, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _SG_新加坡_194, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _SG_新加坡_199, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: _SG_新加坡_280, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -1415,6 +1421,10 @@ proxy-groups:
       - Ytb:鹏哥分享_🇭🇰_HK_香港_29
       - Ytb:鹏哥分享_🇭🇰_HK_香港_30
       - Ytb:鹏哥分享_🇭🇰_HK_香港_31
+      - _HK_香港
+      - _HK_香港 2
+      - _HK_香港 3
+      - _HK_香港 4
       - _HK_香港->🇰🇷_KR_韩国_282
       - _HK_香港->🇰🇷_KR_韩国_296
       - _HK_香港_15
@@ -2067,6 +2077,9 @@ proxy-groups:
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-新加坡V16-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V16-付费推荐::suo.yt/ssrsub 2"
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
       - _SG_新加坡_194
       - _SG_新加坡_199
       - _SG_新加坡_280
@@ -2204,7 +2217,6 @@ proxy-groups:
       - Ytb:鹏哥分享_🇲🇾_MY_马来西亚_199
       - Ytb:鹏哥分享_🇵🇭_PH_菲律宾_200
       - Ytb:鹏哥分享_🇷🇺_RU_俄罗斯联邦_61
-      - _AU_澳大利亚
       - _AU_澳大利亚_170
       - _AU_澳大利亚_171
       - _AU_澳大利亚_172
@@ -2925,7 +2937,6 @@ proxy-groups:
       - Ytb:鹏哥分享_🇺🇸_US_美国_98
       - Ytb:鹏哥分享_🇺🇸_US_美国_99
       - Ytb:鹏哥分享_🇻🇳_VN_越南_140
-      - _AU_澳大利亚
       - _AU_澳大利亚_170
       - _AU_澳大利亚_171
       - _AU_澳大利亚_172
@@ -3067,6 +3078,10 @@ proxy-groups:
       - _GB_英国_FMYC-2021.12.29_82 2
       - _GR_希腊_FMYC-2021.12.29_34
       - _GR_希腊_FMYC-2021.12.29_34 2
+      - _HK_香港
+      - _HK_香港 2
+      - _HK_香港 3
+      - _HK_香港 4
       - _HK_香港->🇰🇷_KR_韩国_282
       - _HK_香港->🇰🇷_KR_韩国_296
       - _HK_香港_15
@@ -3183,6 +3198,9 @@ proxy-groups:
       - _RU_俄罗斯联邦_FMYC-2021.12.29_72 2
       - _SE_瑞典_FMYC-2021.12.29_62
       - _SE_瑞典_FMYC-2021.12.29_62 2
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
       - _SG_新加坡_194
       - _SG_新加坡_199
       - _SG_新加坡_280
