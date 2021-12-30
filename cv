@@ -416,6 +416,7 @@ proxies:
   - {name: Ytb:鹏哥分享_91, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: Ytb:鹏哥分享_92, server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: Ytb:鹏哥分享_93, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _AT奥地利_99, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL}
   - {name: _AU_澳大利亚_FMYC-2021.12.29_60, server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
   - {name: _AU_澳大利亚_FMYC-2021.12.29_60 2, server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
   - {name: _AU_澳大利亚_FMYC-2021.12.29_7, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
@@ -450,6 +451,27 @@ proxies:
   - {name: _CA_加拿大_FMYC-2021.12.29_84 2, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _CA_加拿大_FMYC-2021.12.29_9, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: _CA_加拿大_FMYC-2021.12.29_9 2, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _CA加拿大_10, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _CA加拿大_11, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _CA加拿大_12, server: 198.57.27.152, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _CA加拿大_13, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _CA加拿大_14, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _CA加拿大_15, server: 198.57.27.152, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _CA加拿大_25, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _CA加拿大_27, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _CA加拿大_30, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _CA加拿大_31, server: 198.57.27.152, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _CA加拿大_32, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _CA加拿大_51, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _CA加拿大_52, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _CA加拿大_79, server: 134.195.196.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _CA加拿大_8, server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _CA加拿大_80, server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _CA加拿大_81, server: 134.195.196.68, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _CA加拿大_82, server: 134.195.196.68, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _CA加拿大_89, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _CA加拿大_9, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _CH瑞士_71, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
   - {name: _CZ_捷克_FMYC-2021.12.29_101, server: t7.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t7.ssrsub.com, skip-cert-verify: false}
   - {name: _CZ_捷克_FMYC-2021.12.29_101 2, server: t7.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t7.ssrsub.com, skip-cert-verify: false}
   - {name: _CZ_捷克_FMYC-2021.12.29_108, server: t7.ssrsub.com, port: 8443, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, sni: t7.ssrsub.com, skip-cert-verify: false}
@@ -491,6 +513,15 @@ proxies:
   - {name: _FR_法国_FMYC-2021.12.29_90 2, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: _FR_法国_FMYC-2021.12.29_92, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _FR_法国_FMYC-2021.12.29_92 2, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _FR法国_6, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _FR法国_64, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _FR法国_65, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _FR法国_66, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _FR法国_69, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _FR法国_72, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _FR法国_73, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _FR法国_83, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: _FR法国_96, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _GB_英国_FMYC-2021.12.29_106, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _GB_英国_FMYC-2021.12.29_106 2, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _GB_英国_FMYC-2021.12.29_109, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
@@ -501,10 +532,14 @@ proxies:
   - {name: _GB_英国_FMYC-2021.12.29_3 2, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: _GB_英国_FMYC-2021.12.29_82, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _GB_英国_FMYC-2021.12.29_82 2, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _GB英国_34, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _GB英国_41, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: _GB英国_5, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _GB英国_63, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _GB英国_77, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: _GR_希腊_FMYC-2021.12.29_34, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
   - {name: _GR_希腊_FMYC-2021.12.29_34 2, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
   - {name: _HK_香港, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _HK_香港_1, server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: _HK_香港_FMYC-2021.12.29_16, server: v13.88host.buzz, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}}
   - {name: _HK_香港_FMYC-2021.12.29_16 2, server: v13.88host.buzz, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}}
   - {name: _HK_香港_FMYC-2021.12.29_20, server: 20.187.117.31, port: 36353, type: vmess, uuid: b8dee4a2-75b6-4e36-fc25-fb17e64b198e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 20.187.117.31}}
@@ -525,16 +560,35 @@ proxies:
   - {name: _HK_香港_FMYC-2021.12.29_96 2, server: v11.88host.buzz, port: 18008, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
   - {name: _HK_香港_FMYC-2021.12.29_97, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
   - {name: _HK_香港_FMYC-2021.12.29_97 2, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: _HK香港_74, server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _HK香港_84, server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: _HK香港_85, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _HK香港_86, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _HK香港_88, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _HK香港_90, server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: _HK香港_91, server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _HK香港_94, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
   - {name: _IL_以色列_FMYC-2021.12.29_33, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
   - {name: _IL_以色列_FMYC-2021.12.29_33 2, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
   - {name: _IN_印度_FMYC-2021.12.29_44, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: _IN_印度_FMYC-2021.12.29_44 2, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _IN印度_39, server: 192.46.210.73, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _IN印度_40, server: 192.46.210.73, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _IN印度_44, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _IN印度_57, server: 192.46.210.73, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _IN印度_59, server: 192.46.210.73, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _IN印度_68, server: 192.46.210.73, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _JP_日本_FMYC-2021.12.29_85, server: access1.upyun.online, port: 13571, type: vmess, uuid: ff178504-2e01-473c-9b2e-f6b77d3ef4b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: _JP_日本_FMYC-2021.12.29_85 2, server: access1.upyun.online, port: 13571, type: vmess, uuid: ff178504-2e01-473c-9b2e-f6b77d3ef4b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: _KR_韩国_FMYC-2021.12.29_103, server: 146.56.177.34, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 146.56.177.34}}
   - {name: _KR_韩国_FMYC-2021.12.29_103 2, server: 146.56.177.34, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 146.56.177.34}}
+  - {name: _KR韩国_24, server: 141.164.52.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: _KR韩国_29, server: 158.247.219.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _KR韩国_36, server: 141.164.52.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _KR韩国_70, server: 158.247.219.68, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: _MY_马来西亚_FMYC-2021.12.29_119, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
   - {name: _MY_马来西亚_FMYC-2021.12.29_119 2, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
+  - {name: _NL荷兰_43, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
   - {name: _NO_挪威_FMYC-2021.12.29_100, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _NO_挪威_FMYC-2021.12.29_100 2, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _NO_挪威_FMYC-2021.12.29_113, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
@@ -565,14 +619,30 @@ proxies:
   - {name: _NO_挪威_FMYC-2021.12.29_88 2, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: _NO_挪威_FMYC-2021.12.29_91, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _NO_挪威_FMYC-2021.12.29_91 2, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _NO挪威_28, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _NO挪威_33, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _NO挪威_38, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _NO挪威_45, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _NO挪威_46, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: _NO挪威_47, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _NO挪威_53, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _NO挪威_54, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _NO挪威_55, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _NO挪威_75, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _NO挪威_92, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _NO挪威_97, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
   - {name: _NZ_新西兰_FMYC-2021.12.29_51, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
   - {name: _NZ_新西兰_FMYC-2021.12.29_51 2, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
+  - {name: _PH菲律宾_87, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
   - {name: _PT_葡萄牙_FMYC-2021.12.29_10, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
   - {name: _PT_葡萄牙_FMYC-2021.12.29_10 2, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
   - {name: _PT_葡萄牙_FMYC-2021.12.29_111, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
   - {name: _PT_葡萄牙_FMYC-2021.12.29_111 2, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: _PT葡萄牙_76, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
   - {name: _RU_俄罗斯联邦_FMYC-2021.12.29_72, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: _RU_俄罗斯联邦_FMYC-2021.12.29_72 2, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: _RU俄罗斯联邦_62, server: 82.202.220.242, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
+  - {name: _RU俄罗斯联邦_67, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: _SE_瑞典_FMYC-2021.12.29_62, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
   - {name: _SE_瑞典_FMYC-2021.12.29_62 2, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
   - {name: _SG_新加坡_FMYC-2021.12.29_12, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}}
@@ -583,19 +653,13 @@ proxies:
   - {name: _SG_新加坡_FMYC-2021.12.29_78 2, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: _SG_新加坡_FMYC-2021.12.29_83, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _SG_新加坡_FMYC-2021.12.29_83 2, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _SG新加坡_26, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _SG新加坡_37, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _SG新加坡_61, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _TW_台湾_FMYC-2021.12.29_37, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _TW_台湾_FMYC-2021.12.29_37 2, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _TW_台湾_FMYC-2021.12.29_87, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _TW_台湾_FMYC-2021.12.29_87 2, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: _US_美国_10, server: 169.197.142.39, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: _US_美国_2, server: 167.88.61.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _US_美国_3, server: 167.88.61.60, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _US_美国_4, server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _US_美国_5, server: 167.88.61.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _US_美国_6, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _US_美国_7, server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _US_美国_8, server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _US_美国_9, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: _US_美国_FMYC-2021.12.29_104, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _US_美国_FMYC-2021.12.29_104 2, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _US_美国_FMYC-2021.12.29_105, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
@@ -652,6 +716,30 @@ proxies:
   - {name: _US_美国_FMYC-2021.12.29_98 2, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
   - {name: _US_美国_FMYC-2021.12.29_99, server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
   - {name: _US_美国_FMYC-2021.12.29_99 2, server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: _US美国_1, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _US美国_16, server: 169.197.141.24, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _US美国_17, server: 38.68.134.202, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _US美国_18, server: 38.68.134.202, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _US美国_19, server: 38.68.134.202, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _US美国_2, server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _US美国_20, server: 38.68.134.202, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _US美国_21, server: 38.68.134.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _US美国_22, server: 38.68.134.202, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _US美国_23, server: 38.68.134.202, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _US美国_3, server: 38.64.138.145, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _US美国_4, server: 169.197.141.24, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _US美国_42, server: 38.64.138.145, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _US美国_48, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _US美国_49, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _US美国_50, server: 70.39.71.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: _US美国_56, server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _US美国_58, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _US美国_60, server: 169.197.141.24, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _US美国_7, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _US美国_78, server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: _US美国_93, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: _US美国_95, server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: _US美国_98, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
   - {name: _VN_越南_FMYC-2021.12.29_102, server: ff5.uuv2.co.uk, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
   - {name: _VN_越南_FMYC-2021.12.29_102 2, server: ff5.uuv2.co.uk, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
   - {name: _VN_越南_FMYC-2021.12.29_107, server: ff5.uuv2.co.uk, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ff5.uuv2.co.uk}}
@@ -1003,7 +1091,6 @@ proxy-groups:
       - Youtube:鹏哥分享🇭🇰HK_681+|22.55Mb
       - Youtube:鹏哥分享🇭🇰HK_682+|+2.75Mb
       - _HK_香港
-      - _HK_香港_1
       - _HK_香港_FMYC-2021.12.29_16
       - _HK_香港_FMYC-2021.12.29_16 2
       - _HK_香港_FMYC-2021.12.29_20
@@ -1024,6 +1111,14 @@ proxy-groups:
       - _HK_香港_FMYC-2021.12.29_96 2
       - _HK_香港_FMYC-2021.12.29_97
       - _HK_香港_FMYC-2021.12.29_97 2
+      - _HK香港_74
+      - _HK香港_84
+      - _HK香港_85
+      - _HK香港_86
+      - _HK香港_88
+      - _HK香港_90
+      - _HK香港_91
+      - _HK香港_94
       - 香港
       - 香港 2
       - 香港 3
@@ -1134,15 +1229,6 @@ proxy-groups:
       - Youtube:鹏哥分享🇺🇸US_1954+|+8.55Mb
       - Youtube:鹏哥分享🇺🇸US_1958+|+5.13Mb
       - Youtube:鹏哥分享🇺🇸US_2003+|+5.99Mb
-      - _US_美国_10
-      - _US_美国_2
-      - _US_美国_3
-      - _US_美国_4
-      - _US_美国_5
-      - _US_美国_6
-      - _US_美国_7
-      - _US_美国_8
-      - _US_美国_9
       - _US_美国_FMYC-2021.12.29_104
       - _US_美国_FMYC-2021.12.29_104 2
       - _US_美国_FMYC-2021.12.29_105
@@ -1199,6 +1285,30 @@ proxy-groups:
       - _US_美国_FMYC-2021.12.29_98 2
       - _US_美国_FMYC-2021.12.29_99
       - _US_美国_FMYC-2021.12.29_99 2
+      - _US美国_1
+      - _US美国_16
+      - _US美国_17
+      - _US美国_18
+      - _US美国_19
+      - _US美国_2
+      - _US美国_20
+      - _US美国_21
+      - _US美国_22
+      - _US美国_23
+      - _US美国_3
+      - _US美国_4
+      - _US美国_42
+      - _US美国_48
+      - _US美国_49
+      - _US美国_50
+      - _US美国_56
+      - _US美国_58
+      - _US美国_60
+      - _US美国_7
+      - _US美国_78
+      - _US美国_93
+      - _US美国_95
+      - _US美国_98
       - 美国
       - 美国 2
       - 美国 3
@@ -1341,6 +1451,9 @@ proxy-groups:
       - _SG_新加坡_FMYC-2021.12.29_78 2
       - _SG_新加坡_FMYC-2021.12.29_83
       - _SG_新加坡_FMYC-2021.12.29_83 2
+      - _SG新加坡_26
+      - _SG新加坡_37
+      - _SG新加坡_61
       - 新加坡
       - 新加坡 2
       - 新加坡 3
@@ -1352,6 +1465,10 @@ proxy-groups:
       - 91韩国∞直连
       - _KR_韩国_FMYC-2021.12.29_103
       - _KR_韩国_FMYC-2021.12.29_103 2
+      - _KR韩国_24
+      - _KR韩国_29
+      - _KR韩国_36
+      - _KR韩国_70
       - 日韩频道 TG@shoucangAV
   - name: 🌍 其他地区
     type: select
@@ -1443,6 +1560,26 @@ proxy-groups:
       - _CA_加拿大_FMYC-2021.12.29_84 2
       - _CA_加拿大_FMYC-2021.12.29_9
       - _CA_加拿大_FMYC-2021.12.29_9 2
+      - _CA加拿大_10
+      - _CA加拿大_11
+      - _CA加拿大_12
+      - _CA加拿大_13
+      - _CA加拿大_14
+      - _CA加拿大_15
+      - _CA加拿大_25
+      - _CA加拿大_27
+      - _CA加拿大_30
+      - _CA加拿大_31
+      - _CA加拿大_32
+      - _CA加拿大_51
+      - _CA加拿大_52
+      - _CA加拿大_79
+      - _CA加拿大_8
+      - _CA加拿大_80
+      - _CA加拿大_81
+      - _CA加拿大_82
+      - _CA加拿大_89
+      - _CA加拿大_9
       - _DE_德国_FMYC-2021.12.29_71
       - _DE_德国_FMYC-2021.12.29_71 2
       - _GB_英国_FMYC-2021.12.29_106
@@ -1455,12 +1592,26 @@ proxy-groups:
       - _GB_英国_FMYC-2021.12.29_3 2
       - _GB_英国_FMYC-2021.12.29_82
       - _GB_英国_FMYC-2021.12.29_82 2
+      - _GB英国_34
+      - _GB英国_41
+      - _GB英国_5
+      - _GB英国_63
+      - _GB英国_77
       - _IN_印度_FMYC-2021.12.29_44
       - _IN_印度_FMYC-2021.12.29_44 2
+      - _IN印度_39
+      - _IN印度_40
+      - _IN印度_44
+      - _IN印度_57
+      - _IN印度_59
+      - _IN印度_68
       - _MY_马来西亚_FMYC-2021.12.29_119
       - _MY_马来西亚_FMYC-2021.12.29_119 2
+      - _PH菲律宾_87
       - _RU_俄罗斯联邦_FMYC-2021.12.29_72
       - _RU_俄罗斯联邦_FMYC-2021.12.29_72 2
+      - _RU俄罗斯联邦_62
+      - _RU俄罗斯联邦_67
       - 俄罗斯（YouTube资源分享者）
       - 俄罗斯（YouTube资源分享者） 2
       - 俄罗斯（YouTube资源分享者） 3
@@ -1929,6 +2080,7 @@ proxy-groups:
       - Ytb:鹏哥分享_91
       - Ytb:鹏哥分享_92
       - Ytb:鹏哥分享_93
+      - _AT奥地利_99
       - _AU_澳大利亚_FMYC-2021.12.29_60
       - _AU_澳大利亚_FMYC-2021.12.29_60 2
       - _AU_澳大利亚_FMYC-2021.12.29_7
@@ -1963,6 +2115,27 @@ proxy-groups:
       - _CA_加拿大_FMYC-2021.12.29_84 2
       - _CA_加拿大_FMYC-2021.12.29_9
       - _CA_加拿大_FMYC-2021.12.29_9 2
+      - _CA加拿大_10
+      - _CA加拿大_11
+      - _CA加拿大_12
+      - _CA加拿大_13
+      - _CA加拿大_14
+      - _CA加拿大_15
+      - _CA加拿大_25
+      - _CA加拿大_27
+      - _CA加拿大_30
+      - _CA加拿大_31
+      - _CA加拿大_32
+      - _CA加拿大_51
+      - _CA加拿大_52
+      - _CA加拿大_79
+      - _CA加拿大_8
+      - _CA加拿大_80
+      - _CA加拿大_81
+      - _CA加拿大_82
+      - _CA加拿大_89
+      - _CA加拿大_9
+      - _CH瑞士_71
       - _CZ_捷克_FMYC-2021.12.29_101
       - _CZ_捷克_FMYC-2021.12.29_101 2
       - _CZ_捷克_FMYC-2021.12.29_108
@@ -2004,6 +2177,15 @@ proxy-groups:
       - _FR_法国_FMYC-2021.12.29_90 2
       - _FR_法国_FMYC-2021.12.29_92
       - _FR_法国_FMYC-2021.12.29_92 2
+      - _FR法国_6
+      - _FR法国_64
+      - _FR法国_65
+      - _FR法国_66
+      - _FR法国_69
+      - _FR法国_72
+      - _FR法国_73
+      - _FR法国_83
+      - _FR法国_96
       - _GB_英国_FMYC-2021.12.29_106
       - _GB_英国_FMYC-2021.12.29_106 2
       - _GB_英国_FMYC-2021.12.29_109
@@ -2014,10 +2196,14 @@ proxy-groups:
       - _GB_英国_FMYC-2021.12.29_3 2
       - _GB_英国_FMYC-2021.12.29_82
       - _GB_英国_FMYC-2021.12.29_82 2
+      - _GB英国_34
+      - _GB英国_41
+      - _GB英国_5
+      - _GB英国_63
+      - _GB英国_77
       - _GR_希腊_FMYC-2021.12.29_34
       - _GR_希腊_FMYC-2021.12.29_34 2
       - _HK_香港
-      - _HK_香港_1
       - _HK_香港_FMYC-2021.12.29_16
       - _HK_香港_FMYC-2021.12.29_16 2
       - _HK_香港_FMYC-2021.12.29_20
@@ -2038,16 +2224,35 @@ proxy-groups:
       - _HK_香港_FMYC-2021.12.29_96 2
       - _HK_香港_FMYC-2021.12.29_97
       - _HK_香港_FMYC-2021.12.29_97 2
+      - _HK香港_74
+      - _HK香港_84
+      - _HK香港_85
+      - _HK香港_86
+      - _HK香港_88
+      - _HK香港_90
+      - _HK香港_91
+      - _HK香港_94
       - _IL_以色列_FMYC-2021.12.29_33
       - _IL_以色列_FMYC-2021.12.29_33 2
       - _IN_印度_FMYC-2021.12.29_44
       - _IN_印度_FMYC-2021.12.29_44 2
+      - _IN印度_39
+      - _IN印度_40
+      - _IN印度_44
+      - _IN印度_57
+      - _IN印度_59
+      - _IN印度_68
       - _JP_日本_FMYC-2021.12.29_85
       - _JP_日本_FMYC-2021.12.29_85 2
       - _KR_韩国_FMYC-2021.12.29_103
       - _KR_韩国_FMYC-2021.12.29_103 2
+      - _KR韩国_24
+      - _KR韩国_29
+      - _KR韩国_36
+      - _KR韩国_70
       - _MY_马来西亚_FMYC-2021.12.29_119
       - _MY_马来西亚_FMYC-2021.12.29_119 2
+      - _NL荷兰_43
       - _NO_挪威_FMYC-2021.12.29_100
       - _NO_挪威_FMYC-2021.12.29_100 2
       - _NO_挪威_FMYC-2021.12.29_113
@@ -2078,14 +2283,30 @@ proxy-groups:
       - _NO_挪威_FMYC-2021.12.29_88 2
       - _NO_挪威_FMYC-2021.12.29_91
       - _NO_挪威_FMYC-2021.12.29_91 2
+      - _NO挪威_28
+      - _NO挪威_33
+      - _NO挪威_38
+      - _NO挪威_45
+      - _NO挪威_46
+      - _NO挪威_47
+      - _NO挪威_53
+      - _NO挪威_54
+      - _NO挪威_55
+      - _NO挪威_75
+      - _NO挪威_92
+      - _NO挪威_97
       - _NZ_新西兰_FMYC-2021.12.29_51
       - _NZ_新西兰_FMYC-2021.12.29_51 2
+      - _PH菲律宾_87
       - _PT_葡萄牙_FMYC-2021.12.29_10
       - _PT_葡萄牙_FMYC-2021.12.29_10 2
       - _PT_葡萄牙_FMYC-2021.12.29_111
       - _PT_葡萄牙_FMYC-2021.12.29_111 2
+      - _PT葡萄牙_76
       - _RU_俄罗斯联邦_FMYC-2021.12.29_72
       - _RU_俄罗斯联邦_FMYC-2021.12.29_72 2
+      - _RU俄罗斯联邦_62
+      - _RU俄罗斯联邦_67
       - _SE_瑞典_FMYC-2021.12.29_62
       - _SE_瑞典_FMYC-2021.12.29_62 2
       - _SG_新加坡_FMYC-2021.12.29_12
@@ -2096,19 +2317,13 @@ proxy-groups:
       - _SG_新加坡_FMYC-2021.12.29_78 2
       - _SG_新加坡_FMYC-2021.12.29_83
       - _SG_新加坡_FMYC-2021.12.29_83 2
+      - _SG新加坡_26
+      - _SG新加坡_37
+      - _SG新加坡_61
       - _TW_台湾_FMYC-2021.12.29_37
       - _TW_台湾_FMYC-2021.12.29_37 2
       - _TW_台湾_FMYC-2021.12.29_87
       - _TW_台湾_FMYC-2021.12.29_87 2
-      - _US_美国_10
-      - _US_美国_2
-      - _US_美国_3
-      - _US_美国_4
-      - _US_美国_5
-      - _US_美国_6
-      - _US_美国_7
-      - _US_美国_8
-      - _US_美国_9
       - _US_美国_FMYC-2021.12.29_104
       - _US_美国_FMYC-2021.12.29_104 2
       - _US_美国_FMYC-2021.12.29_105
@@ -2165,6 +2380,30 @@ proxy-groups:
       - _US_美国_FMYC-2021.12.29_98 2
       - _US_美国_FMYC-2021.12.29_99
       - _US_美国_FMYC-2021.12.29_99 2
+      - _US美国_1
+      - _US美国_16
+      - _US美国_17
+      - _US美国_18
+      - _US美国_19
+      - _US美国_2
+      - _US美国_20
+      - _US美国_21
+      - _US美国_22
+      - _US美国_23
+      - _US美国_3
+      - _US美国_4
+      - _US美国_42
+      - _US美国_48
+      - _US美国_49
+      - _US美国_50
+      - _US美国_56
+      - _US美国_58
+      - _US美国_60
+      - _US美国_7
+      - _US美国_78
+      - _US美国_93
+      - _US美国_95
+      - _US美国_98
       - _VN_越南_FMYC-2021.12.29_102
       - _VN_越南_FMYC-2021.12.29_102 2
       - _VN_越南_FMYC-2021.12.29_107
