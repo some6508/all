@@ -5,100 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '印度02丨Netflix丨国内转_1', server: apple123.hfnote.top, port: 9017, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple123.hfnote.top}}
-  - {name: '新加坡05丨Do丨丨国内中转_2', server: apple100.hfnote.top, port: 9002, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple100.hfnote.top}}
-  - {name: '日本04丨大阪丨Netfix丨安联中转_3', server: apple140.hfnote.top, port: 14004, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple140.hfnote.top}}
-  - {name: '日本05丨Lin丨国内中转_4', server: apple104.hfnote.top, port: 9006, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple104.hfnote.top}}
-  - {name: '澳大利亚01丨Netfix丨安徽中转_5', server: apple139.hfnote.top, port: 9028, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple139.hfnote.top}}
-  - {name: '英国01丨Netfix丨安徽中转_6', server: apple117.hfnote.top, port: 14003, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple117.hfnote.top}}
-  - {name: '韩国01丨Netfix丨国内中转_7', server: apple131.hfnote.top, port: 9021, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple131.hfnote.top}}
+  - {name: '🇦🇺_AU_澳大利亚_1', server: 172.105.180.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_2', server: hz.marslink.icu, port: 41100, type: ss, cipher: chacha20-ietf-poly1305, password: 4d0d8943-dea3-4d9b-8ae1-cddb560b267c}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 印度02丨Netflix丨国内转_1
-      - 新加坡05丨Do丨丨国内中转_2
-      - 日本04丨大阪丨Netfix丨安联中转_3
-      - 日本05丨Lin丨国内中转_4
-      - 澳大利亚01丨Netfix丨安徽中转_5
-      - 英国01丨Netfix丨安徽中转_6
-      - 韩国01丨Netfix丨国内中转_7
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 印度02丨Netflix丨国内转_1
-      - 新加坡05丨Do丨丨国内中转_2
-      - 日本04丨大阪丨Netfix丨安联中转_3
-      - 日本05丨Lin丨国内中转_4
-      - 澳大利亚01丨Netfix丨安徽中转_5
-      - 英国01丨Netfix丨安徽中转_6
-      - 韩国01丨Netfix丨国内中转_7
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 印度02丨Netflix丨国内转_1
-      - 新加坡05丨Do丨丨国内中转_2
-      - 日本04丨大阪丨Netfix丨安联中转_3
-      - 日本05丨Lin丨国内中转_4
-      - 澳大利亚01丨Netfix丨安徽中转_5
-      - 英国01丨Netfix丨安徽中转_6
-      - 韩国01丨Netfix丨国内中转_7
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 印度02丨Netflix丨国内转_1
-      - 新加坡05丨Do丨丨国内中转_2
-      - 日本04丨大阪丨Netfix丨安联中转_3
-      - 日本05丨Lin丨国内中转_4
-      - 澳大利亚01丨Netfix丨安徽中转_5
-      - 英国01丨Netfix丨安徽中转_6
-      - 韩国01丨Netfix丨国内中转_7
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 印度02丨Netflix丨国内转_1
-      - 新加坡05丨Do丨丨国内中转_2
-      - 日本04丨大阪丨Netfix丨安联中转_3
-      - 日本05丨Lin丨国内中转_4
-      - 澳大利亚01丨Netfix丨安徽中转_5
-      - 英国01丨Netfix丨安徽中转_6
-      - 韩国01丨Netfix丨国内中转_7
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 印度02丨Netflix丨国内转_1
-      - 新加坡05丨Do丨丨国内中转_2
-      - 日本04丨大阪丨Netfix丨安联中转_3
-      - 日本05丨Lin丨国内中转_4
-      - 澳大利亚01丨Netfix丨安徽中转_5
-      - 英国01丨Netfix丨安徽中转_6
-      - 韩国01丨Netfix丨国内中转_7
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 印度02丨Netflix丨国内转_1
-      - 新加坡05丨Do丨丨国内中转_2
-      - 日本04丨大阪丨Netfix丨安联中转_3
-      - 日本05丨Lin丨国内中转_4
-      - 澳大利亚01丨Netfix丨安徽中转_5
-      - 英国01丨Netfix丨安徽中转_6
-      - 韩国01丨Netfix丨国内中转_7
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -114,13 +74,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 印度02丨Netflix丨国内转_1
-      - 新加坡05丨Do丨丨国内中转_2
-      - 日本04丨大阪丨Netfix丨安联中转_3
-      - 日本05丨Lin丨国内中转_4
-      - 澳大利亚01丨Netfix丨安徽中转_5
-      - 英国01丨Netfix丨安徽中转_6
-      - 韩国01丨Netfix丨国内中转_7
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
