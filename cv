@@ -710,6 +710,16 @@ proxies:
   - {name: _HK_香港 10, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: _HK_香港 11, server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _HK_香港->🇮🇳_IN_印度, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
+  - {name: _HK_香港->🇮🇳_IN_印度_17, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
+  - {name: _HK_香港_1, server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: _HK_香港_11, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _HK_香港_12, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _HK_香港_13, server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _HK_香港_14, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: _HK_香港_15, server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _HK_香港_16, server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _HK_香港_2, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _HK_香港_3, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _HK_香港_Chen-2021.12.31_1, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
   - {name: _HK_香港_Chen-2021.12.31_1 2, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
   - {name: _HK_香港_Chen-2021.12.31_2, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
@@ -947,6 +957,13 @@ proxies:
   - {name: _US_美国->🇷🇺_RU_俄罗斯联邦 4, server: 172.67.144.181, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
   - {name: _US_美国->🇷🇺_RU_俄罗斯联邦 5, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
   - {name: _US_美国->🇷🇺_RU_俄罗斯联邦 6, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}}
+  - {name: _US_美国_10, server: 38.91.102.86, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: _US_美国_4, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: _US_美国_5, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: _US_美国_6, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: _US_美国_7, server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _US_美国_8, server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _US_美国_9, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: _US_美国_Chen-2021.12.31_100, server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _US_美国_Chen-2021.12.31_100 2, server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _US_美国_Chen-2021.12.31_101, server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
@@ -1195,7 +1212,6 @@ proxies:
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 9, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
-  - {name: 欧洲Youtube频道：工具大师！_1, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: 比利时（YouTube资源分享者）, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
   - {name: 比利时（YouTube资源分享者） 2, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
   - {name: 法国（YouTube资源分享者）, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
@@ -1362,6 +1378,16 @@ proxy-groups:
       - _HK_香港 10
       - _HK_香港 11
       - _HK_香港->🇮🇳_IN_印度
+      - _HK_香港->🇮🇳_IN_印度_17
+      - _HK_香港_1
+      - _HK_香港_11
+      - _HK_香港_12
+      - _HK_香港_13
+      - _HK_香港_14
+      - _HK_香港_15
+      - _HK_香港_16
+      - _HK_香港_2
+      - _HK_香港_3
       - _HK_香港_Chen-2021.12.31_1
       - _HK_香港_Chen-2021.12.31_1 2
       - _HK_香港_Chen-2021.12.31_2
@@ -1728,6 +1754,13 @@ proxy-groups:
       - _US_美国->🇷🇺_RU_俄罗斯联邦 4
       - _US_美国->🇷🇺_RU_俄罗斯联邦 5
       - _US_美国->🇷🇺_RU_俄罗斯联邦 6
+      - _US_美国_10
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_9
       - _US_美国_Chen-2021.12.31_100
       - _US_美国_Chen-2021.12.31_100 2
       - _US_美国_Chen-2021.12.31_101
@@ -2188,6 +2221,7 @@ proxy-groups:
       - _GB_英国 7
       - _GB_英国 8
       - _HK_香港->🇮🇳_IN_印度
+      - _HK_香港->🇮🇳_IN_印度_17
       - _ID_印度尼西亚
       - _ID_印度尼西亚_Chen-2021.12.31_21
       - _ID_印度尼西亚_Chen-2021.12.31_21 2
@@ -2978,6 +3012,16 @@ proxy-groups:
       - _HK_香港 10
       - _HK_香港 11
       - _HK_香港->🇮🇳_IN_印度
+      - _HK_香港->🇮🇳_IN_印度_17
+      - _HK_香港_1
+      - _HK_香港_11
+      - _HK_香港_12
+      - _HK_香港_13
+      - _HK_香港_14
+      - _HK_香港_15
+      - _HK_香港_16
+      - _HK_香港_2
+      - _HK_香港_3
       - _HK_香港_Chen-2021.12.31_1
       - _HK_香港_Chen-2021.12.31_1 2
       - _HK_香港_Chen-2021.12.31_2
@@ -3215,6 +3259,13 @@ proxy-groups:
       - _US_美国->🇷🇺_RU_俄罗斯联邦 4
       - _US_美国->🇷🇺_RU_俄罗斯联邦 5
       - _US_美国->🇷🇺_RU_俄罗斯联邦 6
+      - _US_美国_10
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_9
       - _US_美国_Chen-2021.12.31_100
       - _US_美国_Chen-2021.12.31_100 2
       - _US_美国_Chen-2021.12.31_101
@@ -3463,7 +3514,6 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 欧洲Youtube频道：工具大师！_1
       - 比利时（YouTube资源分享者）
       - 比利时（YouTube资源分享者） 2
       - 法国（YouTube资源分享者）
