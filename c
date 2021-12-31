@@ -7,6 +7,14 @@ external-controller: 0.0.0.0:9090
 proxies:
   - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_1', server: gzcm.rokishi.cyou, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
   - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_2', server: jmcm.rokishi.cyou, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_3', server: jmcm.rokishi.cyou, port: 10008, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: '🇨🇳_CN_中国->🇹🇼_TW_台湾_4', server: jmcm.rokishi.cyou, port: 10086, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_5', server: gzcm.rokishi.cyou, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_6', server: jmcm.rokishi.cyou, port: 10058, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_7', server: gzcm.rokishi.cyou, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_8', server: gzcm.rokishi.cyou, port: 20036, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: '🇯🇵_JP_日本_9', server: 172.105.232.147, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇳_CN_中国->🇹🇼_TW_台湾_10', server: hzcm.rokishi.cyou, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -15,6 +23,14 @@ proxy-groups:
       - 🎯 全球直连
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇯🇵_JP_日本_9
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -22,6 +38,14 @@ proxy-groups:
     proxies:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇯🇵_JP_日本_9
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_10
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -30,6 +54,14 @@ proxy-groups:
       - 🎯 全球直连
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇯🇵_JP_日本_9
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_10
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -37,6 +69,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇯🇵_JP_日本_9
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -44,6 +84,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇯🇵_JP_日本_9
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_10
   - name: 📲 电报信息
     type: select
     proxies:
@@ -51,6 +99,14 @@ proxy-groups:
       - 🎯 全球直连
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇯🇵_JP_日本_9
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_10
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -59,6 +115,14 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇯🇵_JP_日本_9
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -76,6 +140,14 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇯🇵_JP_日本_9
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_10
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
