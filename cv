@@ -666,6 +666,9 @@ proxies:
   - {name: _FR_法国_Chen-2021.12.31_59 2, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: _FR_法国_Chen-2021.12.31_60, server: 54.38.72.170, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _FR_法国_Chen-2021.12.31_60 2, server: 54.38.72.170, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _HK_香港, server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: _HK_香港 2, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _HK_香港 3, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _HK_香港_Chen-2021.12.31_1, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
   - {name: _HK_香港_Chen-2021.12.31_1 2, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
   - {name: _HK_香港_Chen-2021.12.31_2, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
@@ -733,6 +736,18 @@ proxies:
   - {name: _TW_台湾_Chen-2021.12.31_25 2, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _TW_台湾_Chen-2021.12.31_26, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _TW_台湾_Chen-2021.12.31_26 2, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: _US_美国, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: _US_美国 2, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: _US_美国 3, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: _US_美国 4, server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _US_美国 5, server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _US_美国 6, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: _US_美国 7, server: 38.91.102.86, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: _US_美国 8, server: 38.91.102.86, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: _US_美国 9, server: 38.91.102.86, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: _US_美国 10, server: 169.197.143.157, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _US_美国 11, server: 38.91.102.86, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _US_美国 12, server: 169.197.143.157, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: _US_美国_Chen-2021.12.31_100, server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _US_美国_Chen-2021.12.31_100 2, server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _US_美国_Chen-2021.12.31_101, server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
@@ -1167,6 +1182,9 @@ proxy-groups:
       - Ytb:鹏哥分享_🇭🇰_HK_香港_29
       - Ytb:鹏哥分享_🇭🇰_HK_香港_30
       - Ytb:鹏哥分享_🇭🇰_HK_香港_31
+      - _HK_香港
+      - _HK_香港 2
+      - _HK_香港 3
       - _HK_香港_Chen-2021.12.31_1
       - _HK_香港_Chen-2021.12.31_1 2
       - _HK_香港_Chen-2021.12.31_2
@@ -1428,6 +1446,18 @@ proxy-groups:
       - Ytb:鹏哥分享_🇺🇸_US_美国_97
       - Ytb:鹏哥分享_🇺🇸_US_美国_98
       - Ytb:鹏哥分享_🇺🇸_US_美国_99
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
       - _US_美国_Chen-2021.12.31_100
       - _US_美国_Chen-2021.12.31_100 2
       - _US_美国_Chen-2021.12.31_101
@@ -2611,6 +2641,9 @@ proxy-groups:
       - _FR_法国_Chen-2021.12.31_59 2
       - _FR_法国_Chen-2021.12.31_60
       - _FR_法国_Chen-2021.12.31_60 2
+      - _HK_香港
+      - _HK_香港 2
+      - _HK_香港 3
       - _HK_香港_Chen-2021.12.31_1
       - _HK_香港_Chen-2021.12.31_1 2
       - _HK_香港_Chen-2021.12.31_2
@@ -2678,6 +2711,18 @@ proxy-groups:
       - _TW_台湾_Chen-2021.12.31_25 2
       - _TW_台湾_Chen-2021.12.31_26
       - _TW_台湾_Chen-2021.12.31_26 2
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
       - _US_美国_Chen-2021.12.31_100
       - _US_美国_Chen-2021.12.31_100 2
       - _US_美国_Chen-2021.12.31_101
