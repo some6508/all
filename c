@@ -5,52 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇱🇺_LU_卢森堡_1', server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
+  - {name: 'HK05_1', server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 42ce061a-197e-4a1a-99f1-3b0abf55c049}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇱🇺_LU_卢森堡_1
+      - HK05_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇱🇺_LU_卢森堡_1
+      - HK05_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇱🇺_LU_卢森堡_1
+      - HK05_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇱🇺_LU_卢森堡_1
+      - HK05_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇱🇺_LU_卢森堡_1
+      - HK05_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇱🇺_LU_卢森堡_1
+      - HK05_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇱🇺_LU_卢森堡_1
+      - HK05_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +66,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇱🇺_LU_卢森堡_1
+      - HK05_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

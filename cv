@@ -691,6 +691,7 @@ proxies:
   - {name: _PT_葡萄牙_Chen-2021.12.31_124 2, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
   - {name: _RU_俄罗斯联邦_Chen-2021.12.31_9, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: _RU_俄罗斯联邦_Chen-2021.12.31_9 2, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: _SG_新加坡, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _SG_新加坡_Chen-2021.12.31_11, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: _SG_新加坡_Chen-2021.12.31_11 2, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: _SG_新加坡_Chen-2021.12.31_12, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -699,8 +700,9 @@ proxies:
   - {name: _TW_台湾_Chen-2021.12.31_25 2, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _TW_台湾_Chen-2021.12.31_26, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _TW_台湾_Chen-2021.12.31_26 2, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: _US_美国, server: 38.91.102.96, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _US_美国 2, server: 38.91.102.86, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _US_美国, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: _US_美国 2, server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _US_美国 3, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _US_美国_Chen-2021.12.31_100, server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _US_美国_Chen-2021.12.31_100 2, server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _US_美国_Chen-2021.12.31_101, server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
@@ -1328,6 +1330,7 @@ proxy-groups:
       - Ytb:冰河圈子_US_美国_92
       - _US_美国
       - _US_美国 2
+      - _US_美国 3
       - _US_美国_Chen-2021.12.31_100
       - _US_美国_Chen-2021.12.31_100 2
       - _US_美国_Chen-2021.12.31_101
@@ -1534,6 +1537,7 @@ proxy-groups:
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-新加坡V16-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V16-付费推荐::suo.yt/ssrsub 2"
+      - _SG_新加坡
       - _SG_新加坡_Chen-2021.12.31_11
       - _SG_新加坡_Chen-2021.12.31_11 2
       - _SG_新加坡_Chen-2021.12.31_12
@@ -2496,6 +2500,7 @@ proxy-groups:
       - _PT_葡萄牙_Chen-2021.12.31_124 2
       - _RU_俄罗斯联邦_Chen-2021.12.31_9
       - _RU_俄罗斯联邦_Chen-2021.12.31_9 2
+      - _SG_新加坡
       - _SG_新加坡_Chen-2021.12.31_11
       - _SG_新加坡_Chen-2021.12.31_11 2
       - _SG_新加坡_Chen-2021.12.31_12
@@ -2506,6 +2511,7 @@ proxy-groups:
       - _TW_台湾_Chen-2021.12.31_26 2
       - _US_美国
       - _US_美国 2
+      - _US_美国 3
       - _US_美国_Chen-2021.12.31_100
       - _US_美国_Chen-2021.12.31_100 2
       - _US_美国_Chen-2021.12.31_101
