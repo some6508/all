@@ -544,6 +544,7 @@ proxies:
   - {name: Ytb:鹏哥分享_93, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _AT_奥地利_Chen-2021.12.31_29, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL}
   - {name: _AT_奥地利_Chen-2021.12.31_29 2, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL}
+  - {name: _AU_澳大利亚_1, server: 172.105.180.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: _AU_澳大利亚_Chen-2021.12.31_61, server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
   - {name: _AU_澳大利亚_Chen-2021.12.31_61 2, server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
   - {name: _AU_澳大利亚_Chen-2021.12.31_63, server: 172.105.177.120, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
@@ -855,7 +856,6 @@ proxies:
   - {name: 匈牙利（YouTube资源分享者） 2, server: 185.252.223.203, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.16675463.xyz}}
   - {name: 卢森堡（YouTube资源分享者）, server: 23.109.136.210, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.65674186.xyz}}
   - {name: 卢森堡（YouTube资源分享者） 2, server: 23.109.136.210, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.65674186.xyz}}
-  - {name: 印度02丨Netflix丨国内转_1, server: apple123.hfnote.top, port: 9017, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple123.hfnote.top}}
   - {name: 台湾(欢迎订阅Youtube破解资源君), server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 台湾(欢迎订阅Youtube破解资源君) 2, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 台湾(欢迎订阅Youtube破解资源君) 3, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
@@ -883,13 +883,10 @@ proxies:
   - {name: 将于近期停止ssr更新 2, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 德国（YouTube资源分享者）, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
   - {name: 德国（YouTube资源分享者） 2, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
-  - {name: 新加坡05丨Do丨丨国内中转_2, server: apple100.hfnote.top, port: 9002, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple100.hfnote.top}}
   - {name: 新加坡（YouTube资源分享者）, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
   - {name: 新加坡（YouTube资源分享者） 2, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
   - {name: 日本(欢迎订阅Youtube破解资源君), server: 172.105.232.147, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 日本(欢迎订阅Youtube破解资源君) 2, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
-  - {name: 日本04丨大阪丨Netfix丨安联中转_3, server: apple140.hfnote.top, port: 14004, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple140.hfnote.top}}
-  - {name: 日本05丨Lin丨国内中转_4, server: apple104.hfnote.top, port: 9006, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple104.hfnote.top}}
   - {name: 日本东京Amazon数据中心 3, server: 54.199.57.125, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3oaJ5K2Wn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 日本（YouTube资源分享者）, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 172.104.98.216}}
   - {name: 日本（YouTube资源分享者） 2, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 172.104.98.216}}
@@ -958,7 +955,6 @@ proxies:
   - {name: 法国（YouTube资源分享者） 2 2, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: 法国（YouTube资源分享者） 3 2, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 法国（YouTube资源分享者） 4 2, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 澳大利亚01丨Netfix丨安徽中转_5, server: apple139.hfnote.top, port: 9028, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple139.hfnote.top}}
   - {name: 澳大利亚（YouTube资源分享者）, server: 43.154.121.218, port: 60938, type: ss, cipher: chacha20-ietf-poly1305, password: J36xig8fU64H}
   - {name: 澳大利亚（YouTube资源分享者） 2, server: 43.154.121.218, port: 60938, type: ss, cipher: chacha20-ietf-poly1305, password: J36xig8fU64H}
   - {name: 澳大利亚（YouTube资源分享者） 3, server: 192.53.168.189, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
@@ -1048,7 +1044,6 @@ proxies:
   - {name: 美国（YouTube资源分享者） 7 2, server: domeixi.nbczl233.ml, port: 30880, type: vmess, uuid: b14e5862-ed44-4ef0-e310-335414d86882, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /114514, ws-headers: {Host: domeixi.nbczl233.ml}}
   - {name: 美国（YouTube资源分享者） 8 2, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
   - {name: 美国（YouTube资源分享者） 9 2, server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: armsj2.kozow.com}}
-  - {name: 英国01丨Netfix丨安徽中转_6, server: apple117.hfnote.top, port: 14003, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple117.hfnote.top}}
   - {name: 英国（YouTube资源分享者）, server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
   - {name: 英国（YouTube资源分享者） 2, server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
   - {name: 英国（YouTube资源分享者） 3, server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
@@ -1065,7 +1060,6 @@ proxies:
   - {name: 荷兰（YouTube资源分享者） 3 2, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 4ec1c2fa-5a26-11ec-86de-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
   - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 请换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 韩国01丨Netfix丨国内中转_7, server: apple131.hfnote.top, port: 9021, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple131.hfnote.top}}
   - {name: 香港(欢迎订阅Youtube破解资源君), server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: b029c5b8-023c-4549-8ed6-cca45aaab9b8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
   - {name: 香港(欢迎订阅Youtube破解资源君) 2, server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: b029c5b8-023c-4549-8ed6-cca45aaab9b8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
   - {name: 香港(欢迎订阅Youtube破解资源君) 3, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
@@ -1164,8 +1158,6 @@ proxy-groups:
       - n_044日本∞直连_51
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
-      - 日本04丨大阪丨Netfix丨安联中转_3
-      - 日本05丨Lin丨国内中转_4
       - 日本东京Amazon数据中心 3
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
@@ -1548,7 +1540,6 @@ proxy-groups:
       - _SG_新加坡_Chen-2021.12.31_12 2
       - github.com/freefq - 新加坡OVH 23
       - n_037新加坡∞中转_44
-      - 新加坡05丨Do丨丨国内中转_2
       - 新加坡（YouTube资源分享者）
       - 新加坡（YouTube资源分享者） 2
   - name: 🇰🇷 韩国节点
@@ -1562,7 +1553,6 @@ proxy-groups:
       - n_119韩国∞直连_126
       - 日韩频道 TG@shoucangAV
       - 日韩频道 TGshoucangAV_5
-      - 韩国01丨Netfix丨国内中转_7
   - name: 🌍 其他地区
     type: select
     proxies:
@@ -1686,6 +1676,7 @@ proxy-groups:
       - Ytb:冰河圈子_ID_印度尼西亚_2
       - Ytb:冰河圈子_PH_菲律宾_1
       - Ytb:冰河圈子_RU_俄罗斯联邦_166
+      - _AU_澳大利亚_1
       - _AU_澳大利亚_Chen-2021.12.31_61
       - _AU_澳大利亚_Chen-2021.12.31_61 2
       - _AU_澳大利亚_Chen-2021.12.31_63
@@ -1793,10 +1784,8 @@ proxy-groups:
       - 加拿大（YouTube资源分享者） 7 2
       - 加拿大（YouTube资源分享者） 8 2
       - 加拿大（YouTube资源分享者） 9 2
-      - 印度02丨Netflix丨国内转_1
       - 德国（YouTube资源分享者）
       - 德国（YouTube资源分享者） 2
-      - 澳大利亚01丨Netfix丨安徽中转_5
       - 澳大利亚（YouTube资源分享者）
       - 澳大利亚（YouTube资源分享者） 2
       - 澳大利亚（YouTube资源分享者） 3
@@ -1807,7 +1796,6 @@ proxy-groups:
       - 澳大利亚（YouTube资源分享者） 4 2
       - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 1
       - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 2
-      - 英国01丨Netfix丨安徽中转_6
       - 英国（YouTube资源分享者）
       - 英国（YouTube资源分享者） 2
       - 英国（YouTube资源分享者） 3
@@ -2362,6 +2350,7 @@ proxy-groups:
       - Ytb:鹏哥分享_93
       - _AT_奥地利_Chen-2021.12.31_29
       - _AT_奥地利_Chen-2021.12.31_29 2
+      - _AU_澳大利亚_1
       - _AU_澳大利亚_Chen-2021.12.31_61
       - _AU_澳大利亚_Chen-2021.12.31_61 2
       - _AU_澳大利亚_Chen-2021.12.31_63
@@ -2673,7 +2662,6 @@ proxy-groups:
       - 匈牙利（YouTube资源分享者） 2
       - 卢森堡（YouTube资源分享者）
       - 卢森堡（YouTube资源分享者） 2
-      - 印度02丨Netflix丨国内转_1
       - 台湾(欢迎订阅Youtube破解资源君)
       - 台湾(欢迎订阅Youtube破解资源君) 2
       - 台湾(欢迎订阅Youtube破解资源君) 3
@@ -2701,13 +2689,10 @@ proxy-groups:
       - 将于近期停止ssr更新 2
       - 德国（YouTube资源分享者）
       - 德国（YouTube资源分享者） 2
-      - 新加坡05丨Do丨丨国内中转_2
       - 新加坡（YouTube资源分享者）
       - 新加坡（YouTube资源分享者） 2
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
-      - 日本04丨大阪丨Netfix丨安联中转_3
-      - 日本05丨Lin丨国内中转_4
       - 日本东京Amazon数据中心 3
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
@@ -2776,7 +2761,6 @@ proxy-groups:
       - 法国（YouTube资源分享者） 2 2
       - 法国（YouTube资源分享者） 3 2
       - 法国（YouTube资源分享者） 4 2
-      - 澳大利亚01丨Netfix丨安徽中转_5
       - 澳大利亚（YouTube资源分享者）
       - 澳大利亚（YouTube资源分享者） 2
       - 澳大利亚（YouTube资源分享者） 3
@@ -2866,7 +2850,6 @@ proxy-groups:
       - 美国（YouTube资源分享者） 7 2
       - 美国（YouTube资源分享者） 8 2
       - 美国（YouTube资源分享者） 9 2
-      - 英国01丨Netfix丨安徽中转_6
       - 英国（YouTube资源分享者）
       - 英国（YouTube资源分享者） 2
       - 英国（YouTube资源分享者） 3
@@ -2883,7 +2866,6 @@ proxy-groups:
       - 荷兰（YouTube资源分享者） 3 2
       - 请切换到v2ray
       - 请换到v2ray
-      - 韩国01丨Netfix丨国内中转_7
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
