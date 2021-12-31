@@ -5,1604 +5,1604 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Ytb:鹏哥分享_PH_菲律宾_1', server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
-  - {name: 'Ytb:鹏哥分享_ID_印度尼西亚_2', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: 'Ytb:鹏哥分享_FR_法国_3', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: 'Ytb:鹏哥分享_AT_奥地利_4', server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL}
-  - {name: 'Ytb:鹏哥分享_US_美国_5', server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Ytb:鹏哥分享_US_美国_6', server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Ytb:鹏哥分享_US_美国_7', server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_US_美国_8', server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Ytb:鹏哥分享_US_美国_9', server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Ytb:鹏哥分享_US_美国_10', server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_US_美国_11', server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_US_美国_12', server: 169.197.141.24, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Ytb:鹏哥分享_MX_墨西哥_13', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: 'Ytb:鹏哥分享_US_美国_14', server: 169.197.142.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_15', server: 169.197.142.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_US_美国_16', server: 169.197.141.24, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_US_美国_17', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: 'Ytb:鹏哥分享_CH_瑞士_18', server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
-  - {name: 'Ytb:鹏哥分享_US_美国_19', server: 169.197.141.24, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_US_美国_20', server: 169.197.141.24, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'Ytb:鹏哥分享_US_美国_21', server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'Ytb:鹏哥分享_US_美国_22', server: 169.197.141.24, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_US_美国_23', server: 169.197.141.24, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Ytb:鹏哥分享_US_美国_24', server: 169.197.141.24, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Ytb:鹏哥分享_US_美国_25', server: 169.197.141.24, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_26', server: 172.105.180.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_US_美国_27', server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Ytb:鹏哥分享_US_美国_28', server: 169.197.141.24, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_29', server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Ytb:鹏哥分享_US_美国_30', server: 169.197.141.24, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_31', server: 172.105.180.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_32', server: 134.195.196.68, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_33', server: 134.195.196.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_34', server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_US_美国_35', server: 169.197.141.24, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_US_美国_36', server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_37', server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_38', server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_US_美国_39', server: 169.197.141.24, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'Ytb:鹏哥分享_US_美国_40', server: 169.197.141.24, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_41', server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Ytb:鹏哥分享_US_美国_42', server: 169.197.141.24, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Ytb:鹏哥分享_US_美国_43', server: 169.197.141.24, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_44', server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_45', server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Ytb:鹏哥分享_US_美国_46', server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Ytb:鹏哥分享_US_美国_47', server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_48', server: 172.105.180.227, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Ytb:鹏哥分享_BG_保加利亚_49', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: 'Ytb:鹏哥分享_US_美国_50', server: 169.197.142.39, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_51', server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_US_美国_52', server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Ytb:鹏哥分享_US_美国_53', server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_54', server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_55', server: 172.105.180.227, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_56', server: 167.88.61.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_57', server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_58', server: 169.197.141.24, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_59', server: 169.197.141.24, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_60', server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_61', server: 169.197.141.24, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_62', server: 172.105.180.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Ytb:鹏哥分享_PT_葡萄牙_63', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_64', server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_FR_法国_65', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_NO_挪威_66', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Ytb:鹏哥分享_FR_法国_67', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_US_美国_68', server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_69', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_70', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_71', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_FR_法国_72', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_GB_英国_73', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Ytb:鹏哥分享_GB_英国_74', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Ytb:鹏哥分享_GB_英国_75', server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_76', server: 169.197.141.24, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_77', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_FR_法国_78', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_NO_挪威_79', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_PT_葡萄牙_80', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: 'Ytb:鹏哥分享_US_美国_81', server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Ytb:鹏哥分享_TW_台湾_82', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: 'Ytb:鹏哥分享_US_美国_83', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_84', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_85', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_FR_法国_86', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_87', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_88', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_FR_法国_89', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_GB_英国_90', server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_NO_挪威_91', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_US_美国_92', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_93', server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
-  - {name: 'Ytb:鹏哥分享_FR_法国_94', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_GB_英国_95', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_NO_挪威_96', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Ytb:鹏哥分享_NO_挪威_97', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_NO_挪威_98', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_NO_挪威_99', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'Ytb:鹏哥分享_NO_挪威_100', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_101', server: 172.105.180.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Ytb:鹏哥分享_FR_法国_102', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_103', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_FR_法国_104', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_GB_英国_105', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_GB_英国_106', server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_NO_挪威_107', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_DK_丹麦_108', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
-  - {name: 'Ytb:鹏哥分享_GB_英国_109', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_NO_挪威_110', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_NO_挪威_111', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Ytb:鹏哥分享_SE_瑞典_112', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: 'Ytb:鹏哥分享_113', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: 'Ytb:鹏哥分享_NO_挪威_114', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_NO_挪威_115', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_116', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_US_美国_117', server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_118', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_US_美国_119', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_US_美国_120', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_US_美国_121', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_122', server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_FR_法国_123', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'Ytb:鹏哥分享_FR_法国_124', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_FR_法国_125', server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_GR_希腊_126', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: 'Ytb:鹏哥分享_US_美国_127', server: 38.91.102.86, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_128', server: 38.64.138.145, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_US_美国_129', server: 38.91.102.86, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_130', server: 169.197.143.157, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'Ytb:鹏哥分享_US_美国_131', server: 169.197.143.157, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Ytb:鹏哥分享_US_美国_132', server: 169.197.143.157, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_133', server: 169.197.143.157, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_134', server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_US_美国_135', server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Ytb:鹏哥分享_US_美国_136', server: 38.91.102.86, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Ytb:鹏哥分享_US_美国_137', server: 38.64.138.145, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Ytb:鹏哥分享_US_美国_138', server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_US_美国_139', server: 38.91.102.86, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_140', server: 38.64.138.145, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_141', server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_142', server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_143', server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_144', server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_145', server: 172.105.177.120, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_146', server: 172.105.177.120, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_147', server: 172.105.180.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'Ytb:鹏哥分享_US_美国_148', server: 38.91.102.86, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Ytb:鹏哥分享_US_美国_149', server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_150', server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_US_美国_151', server: 169.197.143.157, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Ytb:鹏哥分享_US_美国_152', server: 169.197.143.157, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Ytb:鹏哥分享_US_美国_153', server: 169.197.143.157, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_154', server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_155', server: 172.105.180.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_AU_澳大利亚_156', server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Ytb:鹏哥分享_FR_法国_157', server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_FR_法国_158', server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Ytb:鹏哥分享_FR_法国_159', server: 62.210.209.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_FR_法国_160', server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Ytb:鹏哥分享_HK_香港_161', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_HK_香港_162', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_HK_香港_163', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_HK_香港_164', server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_HK_香港_165', server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_RU_俄罗斯联邦_166', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 'Ytb:鹏哥分享_US_美国_167', server: 38.64.138.145, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_US_美国_168', server: 38.91.102.86, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_169', server: 38.64.138.145, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'Ytb:鹏哥分享_US_美国_170', server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_US_美国_171', server: 38.91.102.96, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_172', server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_173', server: 169.197.143.157, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_US_美国_174', server: 169.197.143.157, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'Ytb:鹏哥分享_US_美国_175', server: 169.197.143.157, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_US_美国_176', server: 169.197.143.157, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Ytb:鹏哥分享_US_美国_177', server: 169.197.143.157, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Ytb:鹏哥分享_US_美国_178', server: 169.197.143.157, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_179', server: 169.197.143.157, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_180', server: 169.197.143.157, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_181', server: 169.197.143.157, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_182', server: 169.197.143.157, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_US_美国_183', server: 169.197.143.157, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_US_美国_184', server: 38.64.138.145, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_185', server: 38.91.102.86, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Ytb:鹏哥分享_US_美国_186', server: 38.91.102.86, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_US_美国_187', server: 38.91.102.86, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Ytb:鹏哥分享_US_美国_188', server: 38.91.102.86, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_US_美国_189', server: 38.91.102.86, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_US_美国_190', server: 38.64.138.145, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_US_美国_191', server: 38.64.138.145, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_US_美国_192', server: 38.64.138.145, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Ytb:鹏哥分享_US_美国_193', server: 38.64.138.145, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_US_美国_194', server: 38.64.138.145, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_US_美国_195', server: 38.91.102.86, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_PH_菲律宾_1', server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
+  - {name: 'Ytb:冰河圈子_ID_印度尼西亚_2', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: 'Ytb:冰河圈子_FR_法国_3', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: 'Ytb:冰河圈子_AT_奥地利_4', server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL}
+  - {name: 'Ytb:冰河圈子_US_美国_5', server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Ytb:冰河圈子_US_美国_6', server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Ytb:冰河圈子_US_美国_7', server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:冰河圈子_US_美国_8', server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Ytb:冰河圈子_US_美国_9', server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Ytb:冰河圈子_US_美国_10', server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:冰河圈子_US_美国_11', server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_US_美国_12', server: 169.197.141.24, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Ytb:冰河圈子_MX_墨西哥_13', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
+  - {name: 'Ytb:冰河圈子_US_美国_14', server: 169.197.142.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_15', server: 169.197.142.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:冰河圈子_US_美国_16', server: 169.197.141.24, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:冰河圈子_US_美国_17', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: 'Ytb:冰河圈子_CH_瑞士_18', server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: 'Ytb:冰河圈子_US_美国_19', server: 169.197.141.24, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:冰河圈子_US_美国_20', server: 169.197.141.24, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Ytb:冰河圈子_US_美国_21', server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Ytb:冰河圈子_US_美国_22', server: 169.197.141.24, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_US_美国_23', server: 169.197.141.24, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Ytb:冰河圈子_US_美国_24', server: 169.197.141.24, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Ytb:冰河圈子_US_美国_25', server: 169.197.141.24, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_26', server: 172.105.180.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:冰河圈子_US_美国_27', server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Ytb:冰河圈子_US_美国_28', server: 169.197.141.24, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_29', server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Ytb:冰河圈子_US_美国_30', server: 169.197.141.24, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_31', server: 172.105.180.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Ytb:冰河圈子_CA_加拿大_32', server: 134.195.196.68, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:冰河圈子_CA_加拿大_33', server: 134.195.196.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:冰河圈子_CA_加拿大_34', server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:冰河圈子_US_美国_35', server: 169.197.141.24, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:冰河圈子_US_美国_36', server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_37', server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_38', server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:冰河圈子_US_美国_39', server: 169.197.141.24, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Ytb:冰河圈子_US_美国_40', server: 169.197.141.24, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_41', server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Ytb:冰河圈子_US_美国_42', server: 169.197.141.24, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Ytb:冰河圈子_US_美国_43', server: 169.197.141.24, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_44', server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_45', server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Ytb:冰河圈子_US_美国_46', server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Ytb:冰河圈子_US_美国_47', server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_48', server: 172.105.180.227, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Ytb:冰河圈子_BG_保加利亚_49', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: 'Ytb:冰河圈子_US_美国_50', server: 169.197.142.39, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_51', server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:冰河圈子_US_美国_52', server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Ytb:冰河圈子_US_美国_53', server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_54', server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_55', server: 172.105.180.227, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_56', server: 167.88.61.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_57', server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_58', server: 169.197.141.24, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_59', server: 169.197.141.24, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_60', server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_61', server: 169.197.141.24, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_62', server: 172.105.180.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Ytb:冰河圈子_PT_葡萄牙_63', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_64', server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_FR_法国_65', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_NO_挪威_66', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Ytb:冰河圈子_FR_法国_67', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:冰河圈子_US_美国_68', server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_CA_加拿大_69', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:冰河圈子_CA_加拿大_70', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:冰河圈子_CA_加拿大_71', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_FR_法国_72', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_GB_英国_73', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Ytb:冰河圈子_GB_英国_74', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Ytb:冰河圈子_GB_英国_75', server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_76', server: 169.197.141.24, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_CA_加拿大_77', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:冰河圈子_FR_法国_78', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_NO_挪威_79', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:冰河圈子_PT_葡萄牙_80', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: 'Ytb:冰河圈子_US_美国_81', server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Ytb:冰河圈子_TW_台湾_82', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: 'Ytb:冰河圈子_US_美国_83', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: 'Ytb:冰河圈子_CA_加拿大_84', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Ytb:冰河圈子_CA_加拿大_85', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:冰河圈子_FR_法国_86', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Ytb:冰河圈子_CA_加拿大_87', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_CA_加拿大_88', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:冰河圈子_FR_法国_89', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:冰河圈子_GB_英国_90', server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_NO_挪威_91', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:冰河圈子_US_美国_92', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_93', server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: 'Ytb:冰河圈子_FR_法国_94', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:冰河圈子_GB_英国_95', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_NO_挪威_96', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Ytb:冰河圈子_NO_挪威_97', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:冰河圈子_NO_挪威_98', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_NO_挪威_99', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Ytb:冰河圈子_NO_挪威_100', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_101', server: 172.105.180.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Ytb:冰河圈子_FR_法国_102', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:冰河圈子_CA_加拿大_103', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:冰河圈子_FR_法国_104', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_GB_英国_105', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:冰河圈子_GB_英国_106', server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_NO_挪威_107', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:冰河圈子_DK_丹麦_108', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: 'Ytb:冰河圈子_GB_英国_109', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:冰河圈子_NO_挪威_110', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:冰河圈子_NO_挪威_111', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Ytb:冰河圈子_SE_瑞典_112', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: 'Ytb:冰河圈子_US_美国_113', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: 'Ytb:冰河圈子_NO_挪威_114', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:冰河圈子_NO_挪威_115', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_116', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:冰河圈子_US_美国_117', server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_118', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:冰河圈子_US_美国_119', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_US_美国_120', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:冰河圈子_US_美国_121', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_122', server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:冰河圈子_FR_法国_123', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Ytb:冰河圈子_FR_法国_124', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:冰河圈子_FR_法国_125', server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_GR_希腊_126', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: 'Ytb:冰河圈子_US_美国_127', server: 38.91.102.86, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_128', server: 38.64.138.145, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:冰河圈子_US_美国_129', server: 38.91.102.86, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_130', server: 169.197.143.157, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Ytb:冰河圈子_US_美国_131', server: 169.197.143.157, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Ytb:冰河圈子_US_美国_132', server: 169.197.143.157, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_133', server: 169.197.143.157, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_134', server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:冰河圈子_US_美国_135', server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Ytb:冰河圈子_US_美国_136', server: 38.91.102.86, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Ytb:冰河圈子_US_美国_137', server: 38.64.138.145, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Ytb:冰河圈子_US_美国_138', server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:冰河圈子_US_美国_139', server: 38.91.102.86, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_140', server: 38.64.138.145, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_141', server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_142', server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_143', server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_144', server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_145', server: 172.105.177.120, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_146', server: 172.105.177.120, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_147', server: 172.105.180.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Ytb:冰河圈子_US_美国_148', server: 38.91.102.86, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Ytb:冰河圈子_US_美国_149', server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_150', server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:冰河圈子_US_美国_151', server: 169.197.143.157, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Ytb:冰河圈子_US_美国_152', server: 169.197.143.157, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Ytb:冰河圈子_US_美国_153', server: 169.197.143.157, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_154', server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_155', server: 172.105.180.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:冰河圈子_AU_澳大利亚_156', server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Ytb:冰河圈子_FR_法国_157', server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:冰河圈子_FR_法国_158', server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Ytb:冰河圈子_FR_法国_159', server: 62.210.209.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_FR_法国_160', server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Ytb:冰河圈子_HK_香港_161', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_HK_香港_162', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_HK_香港_163', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_HK_香港_164', server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_HK_香港_165', server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:冰河圈子_RU_俄罗斯联邦_166', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 'Ytb:冰河圈子_US_美国_167', server: 38.64.138.145, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:冰河圈子_US_美国_168', server: 38.91.102.86, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_169', server: 38.64.138.145, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Ytb:冰河圈子_US_美国_170', server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_US_美国_171', server: 38.91.102.96, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_172', server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_173', server: 169.197.143.157, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:冰河圈子_US_美国_174', server: 169.197.143.157, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Ytb:冰河圈子_US_美国_175', server: 169.197.143.157, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:冰河圈子_US_美国_176', server: 169.197.143.157, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Ytb:冰河圈子_US_美国_177', server: 169.197.143.157, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Ytb:冰河圈子_US_美国_178', server: 169.197.143.157, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_179', server: 169.197.143.157, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_180', server: 169.197.143.157, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_181', server: 169.197.143.157, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_182', server: 169.197.143.157, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:冰河圈子_US_美国_183', server: 169.197.143.157, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_US_美国_184', server: 38.64.138.145, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:冰河圈子_US_美国_185', server: 38.91.102.86, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Ytb:冰河圈子_US_美国_186', server: 38.91.102.86, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:冰河圈子_US_美国_187', server: 38.91.102.86, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Ytb:冰河圈子_US_美国_188', server: 38.91.102.86, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:冰河圈子_US_美国_189', server: 38.91.102.86, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:冰河圈子_US_美国_190', server: 38.64.138.145, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:冰河圈子_US_美国_191', server: 38.64.138.145, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:冰河圈子_US_美国_192', server: 38.64.138.145, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Ytb:冰河圈子_US_美国_193', server: 38.64.138.145, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:冰河圈子_US_美国_194', server: 38.64.138.145, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:冰河圈子_US_美国_195', server: 38.91.102.86, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Ytb:鹏哥分享_PH_菲律宾_1
-      - Ytb:鹏哥分享_ID_印度尼西亚_2
-      - Ytb:鹏哥分享_FR_法国_3
-      - Ytb:鹏哥分享_AT_奥地利_4
-      - Ytb:鹏哥分享_US_美国_5
-      - Ytb:鹏哥分享_US_美国_6
-      - Ytb:鹏哥分享_US_美国_7
-      - Ytb:鹏哥分享_US_美国_8
-      - Ytb:鹏哥分享_US_美国_9
-      - Ytb:鹏哥分享_US_美国_10
-      - Ytb:鹏哥分享_US_美国_11
-      - Ytb:鹏哥分享_US_美国_12
-      - Ytb:鹏哥分享_MX_墨西哥_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_US_美国_17
-      - Ytb:鹏哥分享_CH_瑞士_18
-      - Ytb:鹏哥分享_US_美国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
-      - Ytb:鹏哥分享_US_美国_22
-      - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_US_美国_25
-      - Ytb:鹏哥分享_AU_澳大利亚_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_US_美国_28
-      - Ytb:鹏哥分享_AU_澳大利亚_29
-      - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_AU_澳大利亚_31
-      - Ytb:鹏哥分享_CA_加拿大_32
-      - Ytb:鹏哥分享_CA_加拿大_33
-      - Ytb:鹏哥分享_CA_加拿大_34
-      - Ytb:鹏哥分享_US_美国_35
-      - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_US_美国_37
-      - Ytb:鹏哥分享_US_美国_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_US_美国_40
-      - Ytb:鹏哥分享_AU_澳大利亚_41
-      - Ytb:鹏哥分享_US_美国_42
-      - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_AU_澳大利亚_44
-      - Ytb:鹏哥分享_AU_澳大利亚_45
-      - Ytb:鹏哥分享_US_美国_46
-      - Ytb:鹏哥分享_US_美国_47
-      - Ytb:鹏哥分享_AU_澳大利亚_48
-      - Ytb:鹏哥分享_BG_保加利亚_49
-      - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_AU_澳大利亚_51
-      - Ytb:鹏哥分享_US_美国_52
-      - Ytb:鹏哥分享_US_美国_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_AU_澳大利亚_55
-      - Ytb:鹏哥分享_US_美国_56
-      - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_US_美国_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_US_美国_61
-      - Ytb:鹏哥分享_AU_澳大利亚_62
-      - Ytb:鹏哥分享_PT_葡萄牙_63
-      - Ytb:鹏哥分享_AU_澳大利亚_64
-      - Ytb:鹏哥分享_FR_法国_65
-      - Ytb:鹏哥分享_NO_挪威_66
-      - Ytb:鹏哥分享_FR_法国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_FR_法国_72
-      - Ytb:鹏哥分享_GB_英国_73
-      - Ytb:鹏哥分享_GB_英国_74
-      - Ytb:鹏哥分享_GB_英国_75
-      - Ytb:鹏哥分享_US_美国_76
-      - Ytb:鹏哥分享_CA_加拿大_77
-      - Ytb:鹏哥分享_FR_法国_78
-      - Ytb:鹏哥分享_NO_挪威_79
-      - Ytb:鹏哥分享_PT_葡萄牙_80
-      - Ytb:鹏哥分享_US_美国_81
-      - Ytb:鹏哥分享_TW_台湾_82
-      - Ytb:鹏哥分享_US_美国_83
-      - Ytb:鹏哥分享_CA_加拿大_84
-      - Ytb:鹏哥分享_CA_加拿大_85
-      - Ytb:鹏哥分享_FR_法国_86
-      - Ytb:鹏哥分享_CA_加拿大_87
-      - Ytb:鹏哥分享_CA_加拿大_88
-      - Ytb:鹏哥分享_FR_法国_89
-      - Ytb:鹏哥分享_GB_英国_90
-      - Ytb:鹏哥分享_NO_挪威_91
-      - Ytb:鹏哥分享_US_美国_92
-      - Ytb:鹏哥分享_AU_澳大利亚_93
-      - Ytb:鹏哥分享_FR_法国_94
-      - Ytb:鹏哥分享_GB_英国_95
-      - Ytb:鹏哥分享_NO_挪威_96
-      - Ytb:鹏哥分享_NO_挪威_97
-      - Ytb:鹏哥分享_NO_挪威_98
-      - Ytb:鹏哥分享_NO_挪威_99
-      - Ytb:鹏哥分享_NO_挪威_100
-      - Ytb:鹏哥分享_AU_澳大利亚_101
-      - Ytb:鹏哥分享_FR_法国_102
-      - Ytb:鹏哥分享_CA_加拿大_103
-      - Ytb:鹏哥分享_FR_法国_104
-      - Ytb:鹏哥分享_GB_英国_105
-      - Ytb:鹏哥分享_GB_英国_106
-      - Ytb:鹏哥分享_NO_挪威_107
-      - Ytb:鹏哥分享_DK_丹麦_108
-      - Ytb:鹏哥分享_GB_英国_109
-      - Ytb:鹏哥分享_NO_挪威_110
-      - Ytb:鹏哥分享_NO_挪威_111
-      - Ytb:鹏哥分享_SE_瑞典_112
-      - Ytb:鹏哥分享_113
-      - Ytb:鹏哥分享_NO_挪威_114
-      - Ytb:鹏哥分享_NO_挪威_115
-      - Ytb:鹏哥分享_US_美国_116
-      - Ytb:鹏哥分享_US_美国_117
-      - Ytb:鹏哥分享_US_美国_118
-      - Ytb:鹏哥分享_US_美国_119
-      - Ytb:鹏哥分享_US_美国_120
-      - Ytb:鹏哥分享_US_美国_121
-      - Ytb:鹏哥分享_AU_澳大利亚_122
-      - Ytb:鹏哥分享_FR_法国_123
-      - Ytb:鹏哥分享_FR_法国_124
-      - Ytb:鹏哥分享_FR_法国_125
-      - Ytb:鹏哥分享_GR_希腊_126
-      - Ytb:鹏哥分享_US_美国_127
-      - Ytb:鹏哥分享_US_美国_128
-      - Ytb:鹏哥分享_US_美国_129
-      - Ytb:鹏哥分享_US_美国_130
-      - Ytb:鹏哥分享_US_美国_131
-      - Ytb:鹏哥分享_US_美国_132
-      - Ytb:鹏哥分享_US_美国_133
-      - Ytb:鹏哥分享_US_美国_134
-      - Ytb:鹏哥分享_US_美国_135
-      - Ytb:鹏哥分享_US_美国_136
-      - Ytb:鹏哥分享_US_美国_137
-      - Ytb:鹏哥分享_US_美国_138
-      - Ytb:鹏哥分享_US_美国_139
-      - Ytb:鹏哥分享_US_美国_140
-      - Ytb:鹏哥分享_US_美国_141
-      - Ytb:鹏哥分享_AU_澳大利亚_142
-      - Ytb:鹏哥分享_AU_澳大利亚_143
-      - Ytb:鹏哥分享_AU_澳大利亚_144
-      - Ytb:鹏哥分享_AU_澳大利亚_145
-      - Ytb:鹏哥分享_AU_澳大利亚_146
-      - Ytb:鹏哥分享_AU_澳大利亚_147
-      - Ytb:鹏哥分享_US_美国_148
-      - Ytb:鹏哥分享_US_美国_149
-      - Ytb:鹏哥分享_US_美国_150
-      - Ytb:鹏哥分享_US_美国_151
-      - Ytb:鹏哥分享_US_美国_152
-      - Ytb:鹏哥分享_US_美国_153
-      - Ytb:鹏哥分享_AU_澳大利亚_154
-      - Ytb:鹏哥分享_AU_澳大利亚_155
-      - Ytb:鹏哥分享_AU_澳大利亚_156
-      - Ytb:鹏哥分享_FR_法国_157
-      - Ytb:鹏哥分享_FR_法国_158
-      - Ytb:鹏哥分享_FR_法国_159
-      - Ytb:鹏哥分享_FR_法国_160
-      - Ytb:鹏哥分享_HK_香港_161
-      - Ytb:鹏哥分享_HK_香港_162
-      - Ytb:鹏哥分享_HK_香港_163
-      - Ytb:鹏哥分享_HK_香港_164
-      - Ytb:鹏哥分享_HK_香港_165
-      - Ytb:鹏哥分享_RU_俄罗斯联邦_166
-      - Ytb:鹏哥分享_US_美国_167
-      - Ytb:鹏哥分享_US_美国_168
-      - Ytb:鹏哥分享_US_美国_169
-      - Ytb:鹏哥分享_US_美国_170
-      - Ytb:鹏哥分享_US_美国_171
-      - Ytb:鹏哥分享_US_美国_172
-      - Ytb:鹏哥分享_US_美国_173
-      - Ytb:鹏哥分享_US_美国_174
-      - Ytb:鹏哥分享_US_美国_175
-      - Ytb:鹏哥分享_US_美国_176
-      - Ytb:鹏哥分享_US_美国_177
-      - Ytb:鹏哥分享_US_美国_178
-      - Ytb:鹏哥分享_US_美国_179
-      - Ytb:鹏哥分享_US_美国_180
-      - Ytb:鹏哥分享_US_美国_181
-      - Ytb:鹏哥分享_US_美国_182
-      - Ytb:鹏哥分享_US_美国_183
-      - Ytb:鹏哥分享_US_美国_184
-      - Ytb:鹏哥分享_US_美国_185
-      - Ytb:鹏哥分享_US_美国_186
-      - Ytb:鹏哥分享_US_美国_187
-      - Ytb:鹏哥分享_US_美国_188
-      - Ytb:鹏哥分享_US_美国_189
-      - Ytb:鹏哥分享_US_美国_190
-      - Ytb:鹏哥分享_US_美国_191
-      - Ytb:鹏哥分享_US_美国_192
-      - Ytb:鹏哥分享_US_美国_193
-      - Ytb:鹏哥分享_US_美国_194
-      - Ytb:鹏哥分享_US_美国_195
+      - Ytb:冰河圈子_PH_菲律宾_1
+      - Ytb:冰河圈子_ID_印度尼西亚_2
+      - Ytb:冰河圈子_FR_法国_3
+      - Ytb:冰河圈子_AT_奥地利_4
+      - Ytb:冰河圈子_US_美国_5
+      - Ytb:冰河圈子_US_美国_6
+      - Ytb:冰河圈子_US_美国_7
+      - Ytb:冰河圈子_US_美国_8
+      - Ytb:冰河圈子_US_美国_9
+      - Ytb:冰河圈子_US_美国_10
+      - Ytb:冰河圈子_US_美国_11
+      - Ytb:冰河圈子_US_美国_12
+      - Ytb:冰河圈子_MX_墨西哥_13
+      - Ytb:冰河圈子_US_美国_14
+      - Ytb:冰河圈子_US_美国_15
+      - Ytb:冰河圈子_US_美国_16
+      - Ytb:冰河圈子_US_美国_17
+      - Ytb:冰河圈子_CH_瑞士_18
+      - Ytb:冰河圈子_US_美国_19
+      - Ytb:冰河圈子_US_美国_20
+      - Ytb:冰河圈子_US_美国_21
+      - Ytb:冰河圈子_US_美国_22
+      - Ytb:冰河圈子_US_美国_23
+      - Ytb:冰河圈子_US_美国_24
+      - Ytb:冰河圈子_US_美国_25
+      - Ytb:冰河圈子_AU_澳大利亚_26
+      - Ytb:冰河圈子_US_美国_27
+      - Ytb:冰河圈子_US_美国_28
+      - Ytb:冰河圈子_AU_澳大利亚_29
+      - Ytb:冰河圈子_US_美国_30
+      - Ytb:冰河圈子_AU_澳大利亚_31
+      - Ytb:冰河圈子_CA_加拿大_32
+      - Ytb:冰河圈子_CA_加拿大_33
+      - Ytb:冰河圈子_CA_加拿大_34
+      - Ytb:冰河圈子_US_美国_35
+      - Ytb:冰河圈子_US_美国_36
+      - Ytb:冰河圈子_US_美国_37
+      - Ytb:冰河圈子_US_美国_38
+      - Ytb:冰河圈子_US_美国_39
+      - Ytb:冰河圈子_US_美国_40
+      - Ytb:冰河圈子_AU_澳大利亚_41
+      - Ytb:冰河圈子_US_美国_42
+      - Ytb:冰河圈子_US_美国_43
+      - Ytb:冰河圈子_AU_澳大利亚_44
+      - Ytb:冰河圈子_AU_澳大利亚_45
+      - Ytb:冰河圈子_US_美国_46
+      - Ytb:冰河圈子_US_美国_47
+      - Ytb:冰河圈子_AU_澳大利亚_48
+      - Ytb:冰河圈子_BG_保加利亚_49
+      - Ytb:冰河圈子_US_美国_50
+      - Ytb:冰河圈子_AU_澳大利亚_51
+      - Ytb:冰河圈子_US_美国_52
+      - Ytb:冰河圈子_US_美国_53
+      - Ytb:冰河圈子_US_美国_54
+      - Ytb:冰河圈子_AU_澳大利亚_55
+      - Ytb:冰河圈子_US_美国_56
+      - Ytb:冰河圈子_US_美国_57
+      - Ytb:冰河圈子_US_美国_58
+      - Ytb:冰河圈子_US_美国_59
+      - Ytb:冰河圈子_US_美国_60
+      - Ytb:冰河圈子_US_美国_61
+      - Ytb:冰河圈子_AU_澳大利亚_62
+      - Ytb:冰河圈子_PT_葡萄牙_63
+      - Ytb:冰河圈子_AU_澳大利亚_64
+      - Ytb:冰河圈子_FR_法国_65
+      - Ytb:冰河圈子_NO_挪威_66
+      - Ytb:冰河圈子_FR_法国_67
+      - Ytb:冰河圈子_US_美国_68
+      - Ytb:冰河圈子_CA_加拿大_69
+      - Ytb:冰河圈子_CA_加拿大_70
+      - Ytb:冰河圈子_CA_加拿大_71
+      - Ytb:冰河圈子_FR_法国_72
+      - Ytb:冰河圈子_GB_英国_73
+      - Ytb:冰河圈子_GB_英国_74
+      - Ytb:冰河圈子_GB_英国_75
+      - Ytb:冰河圈子_US_美国_76
+      - Ytb:冰河圈子_CA_加拿大_77
+      - Ytb:冰河圈子_FR_法国_78
+      - Ytb:冰河圈子_NO_挪威_79
+      - Ytb:冰河圈子_PT_葡萄牙_80
+      - Ytb:冰河圈子_US_美国_81
+      - Ytb:冰河圈子_TW_台湾_82
+      - Ytb:冰河圈子_US_美国_83
+      - Ytb:冰河圈子_CA_加拿大_84
+      - Ytb:冰河圈子_CA_加拿大_85
+      - Ytb:冰河圈子_FR_法国_86
+      - Ytb:冰河圈子_CA_加拿大_87
+      - Ytb:冰河圈子_CA_加拿大_88
+      - Ytb:冰河圈子_FR_法国_89
+      - Ytb:冰河圈子_GB_英国_90
+      - Ytb:冰河圈子_NO_挪威_91
+      - Ytb:冰河圈子_US_美国_92
+      - Ytb:冰河圈子_AU_澳大利亚_93
+      - Ytb:冰河圈子_FR_法国_94
+      - Ytb:冰河圈子_GB_英国_95
+      - Ytb:冰河圈子_NO_挪威_96
+      - Ytb:冰河圈子_NO_挪威_97
+      - Ytb:冰河圈子_NO_挪威_98
+      - Ytb:冰河圈子_NO_挪威_99
+      - Ytb:冰河圈子_NO_挪威_100
+      - Ytb:冰河圈子_AU_澳大利亚_101
+      - Ytb:冰河圈子_FR_法国_102
+      - Ytb:冰河圈子_CA_加拿大_103
+      - Ytb:冰河圈子_FR_法国_104
+      - Ytb:冰河圈子_GB_英国_105
+      - Ytb:冰河圈子_GB_英国_106
+      - Ytb:冰河圈子_NO_挪威_107
+      - Ytb:冰河圈子_DK_丹麦_108
+      - Ytb:冰河圈子_GB_英国_109
+      - Ytb:冰河圈子_NO_挪威_110
+      - Ytb:冰河圈子_NO_挪威_111
+      - Ytb:冰河圈子_SE_瑞典_112
+      - Ytb:冰河圈子_US_美国_113
+      - Ytb:冰河圈子_NO_挪威_114
+      - Ytb:冰河圈子_NO_挪威_115
+      - Ytb:冰河圈子_US_美国_116
+      - Ytb:冰河圈子_US_美国_117
+      - Ytb:冰河圈子_US_美国_118
+      - Ytb:冰河圈子_US_美国_119
+      - Ytb:冰河圈子_US_美国_120
+      - Ytb:冰河圈子_US_美国_121
+      - Ytb:冰河圈子_AU_澳大利亚_122
+      - Ytb:冰河圈子_FR_法国_123
+      - Ytb:冰河圈子_FR_法国_124
+      - Ytb:冰河圈子_FR_法国_125
+      - Ytb:冰河圈子_GR_希腊_126
+      - Ytb:冰河圈子_US_美国_127
+      - Ytb:冰河圈子_US_美国_128
+      - Ytb:冰河圈子_US_美国_129
+      - Ytb:冰河圈子_US_美国_130
+      - Ytb:冰河圈子_US_美国_131
+      - Ytb:冰河圈子_US_美国_132
+      - Ytb:冰河圈子_US_美国_133
+      - Ytb:冰河圈子_US_美国_134
+      - Ytb:冰河圈子_US_美国_135
+      - Ytb:冰河圈子_US_美国_136
+      - Ytb:冰河圈子_US_美国_137
+      - Ytb:冰河圈子_US_美国_138
+      - Ytb:冰河圈子_US_美国_139
+      - Ytb:冰河圈子_US_美国_140
+      - Ytb:冰河圈子_US_美国_141
+      - Ytb:冰河圈子_AU_澳大利亚_142
+      - Ytb:冰河圈子_AU_澳大利亚_143
+      - Ytb:冰河圈子_AU_澳大利亚_144
+      - Ytb:冰河圈子_AU_澳大利亚_145
+      - Ytb:冰河圈子_AU_澳大利亚_146
+      - Ytb:冰河圈子_AU_澳大利亚_147
+      - Ytb:冰河圈子_US_美国_148
+      - Ytb:冰河圈子_US_美国_149
+      - Ytb:冰河圈子_US_美国_150
+      - Ytb:冰河圈子_US_美国_151
+      - Ytb:冰河圈子_US_美国_152
+      - Ytb:冰河圈子_US_美国_153
+      - Ytb:冰河圈子_AU_澳大利亚_154
+      - Ytb:冰河圈子_AU_澳大利亚_155
+      - Ytb:冰河圈子_AU_澳大利亚_156
+      - Ytb:冰河圈子_FR_法国_157
+      - Ytb:冰河圈子_FR_法国_158
+      - Ytb:冰河圈子_FR_法国_159
+      - Ytb:冰河圈子_FR_法国_160
+      - Ytb:冰河圈子_HK_香港_161
+      - Ytb:冰河圈子_HK_香港_162
+      - Ytb:冰河圈子_HK_香港_163
+      - Ytb:冰河圈子_HK_香港_164
+      - Ytb:冰河圈子_HK_香港_165
+      - Ytb:冰河圈子_RU_俄罗斯联邦_166
+      - Ytb:冰河圈子_US_美国_167
+      - Ytb:冰河圈子_US_美国_168
+      - Ytb:冰河圈子_US_美国_169
+      - Ytb:冰河圈子_US_美国_170
+      - Ytb:冰河圈子_US_美国_171
+      - Ytb:冰河圈子_US_美国_172
+      - Ytb:冰河圈子_US_美国_173
+      - Ytb:冰河圈子_US_美国_174
+      - Ytb:冰河圈子_US_美国_175
+      - Ytb:冰河圈子_US_美国_176
+      - Ytb:冰河圈子_US_美国_177
+      - Ytb:冰河圈子_US_美国_178
+      - Ytb:冰河圈子_US_美国_179
+      - Ytb:冰河圈子_US_美国_180
+      - Ytb:冰河圈子_US_美国_181
+      - Ytb:冰河圈子_US_美国_182
+      - Ytb:冰河圈子_US_美国_183
+      - Ytb:冰河圈子_US_美国_184
+      - Ytb:冰河圈子_US_美国_185
+      - Ytb:冰河圈子_US_美国_186
+      - Ytb:冰河圈子_US_美国_187
+      - Ytb:冰河圈子_US_美国_188
+      - Ytb:冰河圈子_US_美国_189
+      - Ytb:冰河圈子_US_美国_190
+      - Ytb:冰河圈子_US_美国_191
+      - Ytb:冰河圈子_US_美国_192
+      - Ytb:冰河圈子_US_美国_193
+      - Ytb:冰河圈子_US_美国_194
+      - Ytb:冰河圈子_US_美国_195
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Ytb:鹏哥分享_PH_菲律宾_1
-      - Ytb:鹏哥分享_ID_印度尼西亚_2
-      - Ytb:鹏哥分享_FR_法国_3
-      - Ytb:鹏哥分享_AT_奥地利_4
-      - Ytb:鹏哥分享_US_美国_5
-      - Ytb:鹏哥分享_US_美国_6
-      - Ytb:鹏哥分享_US_美国_7
-      - Ytb:鹏哥分享_US_美国_8
-      - Ytb:鹏哥分享_US_美国_9
-      - Ytb:鹏哥分享_US_美国_10
-      - Ytb:鹏哥分享_US_美国_11
-      - Ytb:鹏哥分享_US_美国_12
-      - Ytb:鹏哥分享_MX_墨西哥_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_US_美国_17
-      - Ytb:鹏哥分享_CH_瑞士_18
-      - Ytb:鹏哥分享_US_美国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
-      - Ytb:鹏哥分享_US_美国_22
-      - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_US_美国_25
-      - Ytb:鹏哥分享_AU_澳大利亚_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_US_美国_28
-      - Ytb:鹏哥分享_AU_澳大利亚_29
-      - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_AU_澳大利亚_31
-      - Ytb:鹏哥分享_CA_加拿大_32
-      - Ytb:鹏哥分享_CA_加拿大_33
-      - Ytb:鹏哥分享_CA_加拿大_34
-      - Ytb:鹏哥分享_US_美国_35
-      - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_US_美国_37
-      - Ytb:鹏哥分享_US_美国_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_US_美国_40
-      - Ytb:鹏哥分享_AU_澳大利亚_41
-      - Ytb:鹏哥分享_US_美国_42
-      - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_AU_澳大利亚_44
-      - Ytb:鹏哥分享_AU_澳大利亚_45
-      - Ytb:鹏哥分享_US_美国_46
-      - Ytb:鹏哥分享_US_美国_47
-      - Ytb:鹏哥分享_AU_澳大利亚_48
-      - Ytb:鹏哥分享_BG_保加利亚_49
-      - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_AU_澳大利亚_51
-      - Ytb:鹏哥分享_US_美国_52
-      - Ytb:鹏哥分享_US_美国_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_AU_澳大利亚_55
-      - Ytb:鹏哥分享_US_美国_56
-      - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_US_美国_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_US_美国_61
-      - Ytb:鹏哥分享_AU_澳大利亚_62
-      - Ytb:鹏哥分享_PT_葡萄牙_63
-      - Ytb:鹏哥分享_AU_澳大利亚_64
-      - Ytb:鹏哥分享_FR_法国_65
-      - Ytb:鹏哥分享_NO_挪威_66
-      - Ytb:鹏哥分享_FR_法国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_FR_法国_72
-      - Ytb:鹏哥分享_GB_英国_73
-      - Ytb:鹏哥分享_GB_英国_74
-      - Ytb:鹏哥分享_GB_英国_75
-      - Ytb:鹏哥分享_US_美国_76
-      - Ytb:鹏哥分享_CA_加拿大_77
-      - Ytb:鹏哥分享_FR_法国_78
-      - Ytb:鹏哥分享_NO_挪威_79
-      - Ytb:鹏哥分享_PT_葡萄牙_80
-      - Ytb:鹏哥分享_US_美国_81
-      - Ytb:鹏哥分享_TW_台湾_82
-      - Ytb:鹏哥分享_US_美国_83
-      - Ytb:鹏哥分享_CA_加拿大_84
-      - Ytb:鹏哥分享_CA_加拿大_85
-      - Ytb:鹏哥分享_FR_法国_86
-      - Ytb:鹏哥分享_CA_加拿大_87
-      - Ytb:鹏哥分享_CA_加拿大_88
-      - Ytb:鹏哥分享_FR_法国_89
-      - Ytb:鹏哥分享_GB_英国_90
-      - Ytb:鹏哥分享_NO_挪威_91
-      - Ytb:鹏哥分享_US_美国_92
-      - Ytb:鹏哥分享_AU_澳大利亚_93
-      - Ytb:鹏哥分享_FR_法国_94
-      - Ytb:鹏哥分享_GB_英国_95
-      - Ytb:鹏哥分享_NO_挪威_96
-      - Ytb:鹏哥分享_NO_挪威_97
-      - Ytb:鹏哥分享_NO_挪威_98
-      - Ytb:鹏哥分享_NO_挪威_99
-      - Ytb:鹏哥分享_NO_挪威_100
-      - Ytb:鹏哥分享_AU_澳大利亚_101
-      - Ytb:鹏哥分享_FR_法国_102
-      - Ytb:鹏哥分享_CA_加拿大_103
-      - Ytb:鹏哥分享_FR_法国_104
-      - Ytb:鹏哥分享_GB_英国_105
-      - Ytb:鹏哥分享_GB_英国_106
-      - Ytb:鹏哥分享_NO_挪威_107
-      - Ytb:鹏哥分享_DK_丹麦_108
-      - Ytb:鹏哥分享_GB_英国_109
-      - Ytb:鹏哥分享_NO_挪威_110
-      - Ytb:鹏哥分享_NO_挪威_111
-      - Ytb:鹏哥分享_SE_瑞典_112
-      - Ytb:鹏哥分享_113
-      - Ytb:鹏哥分享_NO_挪威_114
-      - Ytb:鹏哥分享_NO_挪威_115
-      - Ytb:鹏哥分享_US_美国_116
-      - Ytb:鹏哥分享_US_美国_117
-      - Ytb:鹏哥分享_US_美国_118
-      - Ytb:鹏哥分享_US_美国_119
-      - Ytb:鹏哥分享_US_美国_120
-      - Ytb:鹏哥分享_US_美国_121
-      - Ytb:鹏哥分享_AU_澳大利亚_122
-      - Ytb:鹏哥分享_FR_法国_123
-      - Ytb:鹏哥分享_FR_法国_124
-      - Ytb:鹏哥分享_FR_法国_125
-      - Ytb:鹏哥分享_GR_希腊_126
-      - Ytb:鹏哥分享_US_美国_127
-      - Ytb:鹏哥分享_US_美国_128
-      - Ytb:鹏哥分享_US_美国_129
-      - Ytb:鹏哥分享_US_美国_130
-      - Ytb:鹏哥分享_US_美国_131
-      - Ytb:鹏哥分享_US_美国_132
-      - Ytb:鹏哥分享_US_美国_133
-      - Ytb:鹏哥分享_US_美国_134
-      - Ytb:鹏哥分享_US_美国_135
-      - Ytb:鹏哥分享_US_美国_136
-      - Ytb:鹏哥分享_US_美国_137
-      - Ytb:鹏哥分享_US_美国_138
-      - Ytb:鹏哥分享_US_美国_139
-      - Ytb:鹏哥分享_US_美国_140
-      - Ytb:鹏哥分享_US_美国_141
-      - Ytb:鹏哥分享_AU_澳大利亚_142
-      - Ytb:鹏哥分享_AU_澳大利亚_143
-      - Ytb:鹏哥分享_AU_澳大利亚_144
-      - Ytb:鹏哥分享_AU_澳大利亚_145
-      - Ytb:鹏哥分享_AU_澳大利亚_146
-      - Ytb:鹏哥分享_AU_澳大利亚_147
-      - Ytb:鹏哥分享_US_美国_148
-      - Ytb:鹏哥分享_US_美国_149
-      - Ytb:鹏哥分享_US_美国_150
-      - Ytb:鹏哥分享_US_美国_151
-      - Ytb:鹏哥分享_US_美国_152
-      - Ytb:鹏哥分享_US_美国_153
-      - Ytb:鹏哥分享_AU_澳大利亚_154
-      - Ytb:鹏哥分享_AU_澳大利亚_155
-      - Ytb:鹏哥分享_AU_澳大利亚_156
-      - Ytb:鹏哥分享_FR_法国_157
-      - Ytb:鹏哥分享_FR_法国_158
-      - Ytb:鹏哥分享_FR_法国_159
-      - Ytb:鹏哥分享_FR_法国_160
-      - Ytb:鹏哥分享_HK_香港_161
-      - Ytb:鹏哥分享_HK_香港_162
-      - Ytb:鹏哥分享_HK_香港_163
-      - Ytb:鹏哥分享_HK_香港_164
-      - Ytb:鹏哥分享_HK_香港_165
-      - Ytb:鹏哥分享_RU_俄罗斯联邦_166
-      - Ytb:鹏哥分享_US_美国_167
-      - Ytb:鹏哥分享_US_美国_168
-      - Ytb:鹏哥分享_US_美国_169
-      - Ytb:鹏哥分享_US_美国_170
-      - Ytb:鹏哥分享_US_美国_171
-      - Ytb:鹏哥分享_US_美国_172
-      - Ytb:鹏哥分享_US_美国_173
-      - Ytb:鹏哥分享_US_美国_174
-      - Ytb:鹏哥分享_US_美国_175
-      - Ytb:鹏哥分享_US_美国_176
-      - Ytb:鹏哥分享_US_美国_177
-      - Ytb:鹏哥分享_US_美国_178
-      - Ytb:鹏哥分享_US_美国_179
-      - Ytb:鹏哥分享_US_美国_180
-      - Ytb:鹏哥分享_US_美国_181
-      - Ytb:鹏哥分享_US_美国_182
-      - Ytb:鹏哥分享_US_美国_183
-      - Ytb:鹏哥分享_US_美国_184
-      - Ytb:鹏哥分享_US_美国_185
-      - Ytb:鹏哥分享_US_美国_186
-      - Ytb:鹏哥分享_US_美国_187
-      - Ytb:鹏哥分享_US_美国_188
-      - Ytb:鹏哥分享_US_美国_189
-      - Ytb:鹏哥分享_US_美国_190
-      - Ytb:鹏哥分享_US_美国_191
-      - Ytb:鹏哥分享_US_美国_192
-      - Ytb:鹏哥分享_US_美国_193
-      - Ytb:鹏哥分享_US_美国_194
-      - Ytb:鹏哥分享_US_美国_195
+      - Ytb:冰河圈子_PH_菲律宾_1
+      - Ytb:冰河圈子_ID_印度尼西亚_2
+      - Ytb:冰河圈子_FR_法国_3
+      - Ytb:冰河圈子_AT_奥地利_4
+      - Ytb:冰河圈子_US_美国_5
+      - Ytb:冰河圈子_US_美国_6
+      - Ytb:冰河圈子_US_美国_7
+      - Ytb:冰河圈子_US_美国_8
+      - Ytb:冰河圈子_US_美国_9
+      - Ytb:冰河圈子_US_美国_10
+      - Ytb:冰河圈子_US_美国_11
+      - Ytb:冰河圈子_US_美国_12
+      - Ytb:冰河圈子_MX_墨西哥_13
+      - Ytb:冰河圈子_US_美国_14
+      - Ytb:冰河圈子_US_美国_15
+      - Ytb:冰河圈子_US_美国_16
+      - Ytb:冰河圈子_US_美国_17
+      - Ytb:冰河圈子_CH_瑞士_18
+      - Ytb:冰河圈子_US_美国_19
+      - Ytb:冰河圈子_US_美国_20
+      - Ytb:冰河圈子_US_美国_21
+      - Ytb:冰河圈子_US_美国_22
+      - Ytb:冰河圈子_US_美国_23
+      - Ytb:冰河圈子_US_美国_24
+      - Ytb:冰河圈子_US_美国_25
+      - Ytb:冰河圈子_AU_澳大利亚_26
+      - Ytb:冰河圈子_US_美国_27
+      - Ytb:冰河圈子_US_美国_28
+      - Ytb:冰河圈子_AU_澳大利亚_29
+      - Ytb:冰河圈子_US_美国_30
+      - Ytb:冰河圈子_AU_澳大利亚_31
+      - Ytb:冰河圈子_CA_加拿大_32
+      - Ytb:冰河圈子_CA_加拿大_33
+      - Ytb:冰河圈子_CA_加拿大_34
+      - Ytb:冰河圈子_US_美国_35
+      - Ytb:冰河圈子_US_美国_36
+      - Ytb:冰河圈子_US_美国_37
+      - Ytb:冰河圈子_US_美国_38
+      - Ytb:冰河圈子_US_美国_39
+      - Ytb:冰河圈子_US_美国_40
+      - Ytb:冰河圈子_AU_澳大利亚_41
+      - Ytb:冰河圈子_US_美国_42
+      - Ytb:冰河圈子_US_美国_43
+      - Ytb:冰河圈子_AU_澳大利亚_44
+      - Ytb:冰河圈子_AU_澳大利亚_45
+      - Ytb:冰河圈子_US_美国_46
+      - Ytb:冰河圈子_US_美国_47
+      - Ytb:冰河圈子_AU_澳大利亚_48
+      - Ytb:冰河圈子_BG_保加利亚_49
+      - Ytb:冰河圈子_US_美国_50
+      - Ytb:冰河圈子_AU_澳大利亚_51
+      - Ytb:冰河圈子_US_美国_52
+      - Ytb:冰河圈子_US_美国_53
+      - Ytb:冰河圈子_US_美国_54
+      - Ytb:冰河圈子_AU_澳大利亚_55
+      - Ytb:冰河圈子_US_美国_56
+      - Ytb:冰河圈子_US_美国_57
+      - Ytb:冰河圈子_US_美国_58
+      - Ytb:冰河圈子_US_美国_59
+      - Ytb:冰河圈子_US_美国_60
+      - Ytb:冰河圈子_US_美国_61
+      - Ytb:冰河圈子_AU_澳大利亚_62
+      - Ytb:冰河圈子_PT_葡萄牙_63
+      - Ytb:冰河圈子_AU_澳大利亚_64
+      - Ytb:冰河圈子_FR_法国_65
+      - Ytb:冰河圈子_NO_挪威_66
+      - Ytb:冰河圈子_FR_法国_67
+      - Ytb:冰河圈子_US_美国_68
+      - Ytb:冰河圈子_CA_加拿大_69
+      - Ytb:冰河圈子_CA_加拿大_70
+      - Ytb:冰河圈子_CA_加拿大_71
+      - Ytb:冰河圈子_FR_法国_72
+      - Ytb:冰河圈子_GB_英国_73
+      - Ytb:冰河圈子_GB_英国_74
+      - Ytb:冰河圈子_GB_英国_75
+      - Ytb:冰河圈子_US_美国_76
+      - Ytb:冰河圈子_CA_加拿大_77
+      - Ytb:冰河圈子_FR_法国_78
+      - Ytb:冰河圈子_NO_挪威_79
+      - Ytb:冰河圈子_PT_葡萄牙_80
+      - Ytb:冰河圈子_US_美国_81
+      - Ytb:冰河圈子_TW_台湾_82
+      - Ytb:冰河圈子_US_美国_83
+      - Ytb:冰河圈子_CA_加拿大_84
+      - Ytb:冰河圈子_CA_加拿大_85
+      - Ytb:冰河圈子_FR_法国_86
+      - Ytb:冰河圈子_CA_加拿大_87
+      - Ytb:冰河圈子_CA_加拿大_88
+      - Ytb:冰河圈子_FR_法国_89
+      - Ytb:冰河圈子_GB_英国_90
+      - Ytb:冰河圈子_NO_挪威_91
+      - Ytb:冰河圈子_US_美国_92
+      - Ytb:冰河圈子_AU_澳大利亚_93
+      - Ytb:冰河圈子_FR_法国_94
+      - Ytb:冰河圈子_GB_英国_95
+      - Ytb:冰河圈子_NO_挪威_96
+      - Ytb:冰河圈子_NO_挪威_97
+      - Ytb:冰河圈子_NO_挪威_98
+      - Ytb:冰河圈子_NO_挪威_99
+      - Ytb:冰河圈子_NO_挪威_100
+      - Ytb:冰河圈子_AU_澳大利亚_101
+      - Ytb:冰河圈子_FR_法国_102
+      - Ytb:冰河圈子_CA_加拿大_103
+      - Ytb:冰河圈子_FR_法国_104
+      - Ytb:冰河圈子_GB_英国_105
+      - Ytb:冰河圈子_GB_英国_106
+      - Ytb:冰河圈子_NO_挪威_107
+      - Ytb:冰河圈子_DK_丹麦_108
+      - Ytb:冰河圈子_GB_英国_109
+      - Ytb:冰河圈子_NO_挪威_110
+      - Ytb:冰河圈子_NO_挪威_111
+      - Ytb:冰河圈子_SE_瑞典_112
+      - Ytb:冰河圈子_US_美国_113
+      - Ytb:冰河圈子_NO_挪威_114
+      - Ytb:冰河圈子_NO_挪威_115
+      - Ytb:冰河圈子_US_美国_116
+      - Ytb:冰河圈子_US_美国_117
+      - Ytb:冰河圈子_US_美国_118
+      - Ytb:冰河圈子_US_美国_119
+      - Ytb:冰河圈子_US_美国_120
+      - Ytb:冰河圈子_US_美国_121
+      - Ytb:冰河圈子_AU_澳大利亚_122
+      - Ytb:冰河圈子_FR_法国_123
+      - Ytb:冰河圈子_FR_法国_124
+      - Ytb:冰河圈子_FR_法国_125
+      - Ytb:冰河圈子_GR_希腊_126
+      - Ytb:冰河圈子_US_美国_127
+      - Ytb:冰河圈子_US_美国_128
+      - Ytb:冰河圈子_US_美国_129
+      - Ytb:冰河圈子_US_美国_130
+      - Ytb:冰河圈子_US_美国_131
+      - Ytb:冰河圈子_US_美国_132
+      - Ytb:冰河圈子_US_美国_133
+      - Ytb:冰河圈子_US_美国_134
+      - Ytb:冰河圈子_US_美国_135
+      - Ytb:冰河圈子_US_美国_136
+      - Ytb:冰河圈子_US_美国_137
+      - Ytb:冰河圈子_US_美国_138
+      - Ytb:冰河圈子_US_美国_139
+      - Ytb:冰河圈子_US_美国_140
+      - Ytb:冰河圈子_US_美国_141
+      - Ytb:冰河圈子_AU_澳大利亚_142
+      - Ytb:冰河圈子_AU_澳大利亚_143
+      - Ytb:冰河圈子_AU_澳大利亚_144
+      - Ytb:冰河圈子_AU_澳大利亚_145
+      - Ytb:冰河圈子_AU_澳大利亚_146
+      - Ytb:冰河圈子_AU_澳大利亚_147
+      - Ytb:冰河圈子_US_美国_148
+      - Ytb:冰河圈子_US_美国_149
+      - Ytb:冰河圈子_US_美国_150
+      - Ytb:冰河圈子_US_美国_151
+      - Ytb:冰河圈子_US_美国_152
+      - Ytb:冰河圈子_US_美国_153
+      - Ytb:冰河圈子_AU_澳大利亚_154
+      - Ytb:冰河圈子_AU_澳大利亚_155
+      - Ytb:冰河圈子_AU_澳大利亚_156
+      - Ytb:冰河圈子_FR_法国_157
+      - Ytb:冰河圈子_FR_法国_158
+      - Ytb:冰河圈子_FR_法国_159
+      - Ytb:冰河圈子_FR_法国_160
+      - Ytb:冰河圈子_HK_香港_161
+      - Ytb:冰河圈子_HK_香港_162
+      - Ytb:冰河圈子_HK_香港_163
+      - Ytb:冰河圈子_HK_香港_164
+      - Ytb:冰河圈子_HK_香港_165
+      - Ytb:冰河圈子_RU_俄罗斯联邦_166
+      - Ytb:冰河圈子_US_美国_167
+      - Ytb:冰河圈子_US_美国_168
+      - Ytb:冰河圈子_US_美国_169
+      - Ytb:冰河圈子_US_美国_170
+      - Ytb:冰河圈子_US_美国_171
+      - Ytb:冰河圈子_US_美国_172
+      - Ytb:冰河圈子_US_美国_173
+      - Ytb:冰河圈子_US_美国_174
+      - Ytb:冰河圈子_US_美国_175
+      - Ytb:冰河圈子_US_美国_176
+      - Ytb:冰河圈子_US_美国_177
+      - Ytb:冰河圈子_US_美国_178
+      - Ytb:冰河圈子_US_美国_179
+      - Ytb:冰河圈子_US_美国_180
+      - Ytb:冰河圈子_US_美国_181
+      - Ytb:冰河圈子_US_美国_182
+      - Ytb:冰河圈子_US_美国_183
+      - Ytb:冰河圈子_US_美国_184
+      - Ytb:冰河圈子_US_美国_185
+      - Ytb:冰河圈子_US_美国_186
+      - Ytb:冰河圈子_US_美国_187
+      - Ytb:冰河圈子_US_美国_188
+      - Ytb:冰河圈子_US_美国_189
+      - Ytb:冰河圈子_US_美国_190
+      - Ytb:冰河圈子_US_美国_191
+      - Ytb:冰河圈子_US_美国_192
+      - Ytb:冰河圈子_US_美国_193
+      - Ytb:冰河圈子_US_美国_194
+      - Ytb:冰河圈子_US_美国_195
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Ytb:鹏哥分享_PH_菲律宾_1
-      - Ytb:鹏哥分享_ID_印度尼西亚_2
-      - Ytb:鹏哥分享_FR_法国_3
-      - Ytb:鹏哥分享_AT_奥地利_4
-      - Ytb:鹏哥分享_US_美国_5
-      - Ytb:鹏哥分享_US_美国_6
-      - Ytb:鹏哥分享_US_美国_7
-      - Ytb:鹏哥分享_US_美国_8
-      - Ytb:鹏哥分享_US_美国_9
-      - Ytb:鹏哥分享_US_美国_10
-      - Ytb:鹏哥分享_US_美国_11
-      - Ytb:鹏哥分享_US_美国_12
-      - Ytb:鹏哥分享_MX_墨西哥_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_US_美国_17
-      - Ytb:鹏哥分享_CH_瑞士_18
-      - Ytb:鹏哥分享_US_美国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
-      - Ytb:鹏哥分享_US_美国_22
-      - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_US_美国_25
-      - Ytb:鹏哥分享_AU_澳大利亚_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_US_美国_28
-      - Ytb:鹏哥分享_AU_澳大利亚_29
-      - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_AU_澳大利亚_31
-      - Ytb:鹏哥分享_CA_加拿大_32
-      - Ytb:鹏哥分享_CA_加拿大_33
-      - Ytb:鹏哥分享_CA_加拿大_34
-      - Ytb:鹏哥分享_US_美国_35
-      - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_US_美国_37
-      - Ytb:鹏哥分享_US_美国_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_US_美国_40
-      - Ytb:鹏哥分享_AU_澳大利亚_41
-      - Ytb:鹏哥分享_US_美国_42
-      - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_AU_澳大利亚_44
-      - Ytb:鹏哥分享_AU_澳大利亚_45
-      - Ytb:鹏哥分享_US_美国_46
-      - Ytb:鹏哥分享_US_美国_47
-      - Ytb:鹏哥分享_AU_澳大利亚_48
-      - Ytb:鹏哥分享_BG_保加利亚_49
-      - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_AU_澳大利亚_51
-      - Ytb:鹏哥分享_US_美国_52
-      - Ytb:鹏哥分享_US_美国_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_AU_澳大利亚_55
-      - Ytb:鹏哥分享_US_美国_56
-      - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_US_美国_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_US_美国_61
-      - Ytb:鹏哥分享_AU_澳大利亚_62
-      - Ytb:鹏哥分享_PT_葡萄牙_63
-      - Ytb:鹏哥分享_AU_澳大利亚_64
-      - Ytb:鹏哥分享_FR_法国_65
-      - Ytb:鹏哥分享_NO_挪威_66
-      - Ytb:鹏哥分享_FR_法国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_FR_法国_72
-      - Ytb:鹏哥分享_GB_英国_73
-      - Ytb:鹏哥分享_GB_英国_74
-      - Ytb:鹏哥分享_GB_英国_75
-      - Ytb:鹏哥分享_US_美国_76
-      - Ytb:鹏哥分享_CA_加拿大_77
-      - Ytb:鹏哥分享_FR_法国_78
-      - Ytb:鹏哥分享_NO_挪威_79
-      - Ytb:鹏哥分享_PT_葡萄牙_80
-      - Ytb:鹏哥分享_US_美国_81
-      - Ytb:鹏哥分享_TW_台湾_82
-      - Ytb:鹏哥分享_US_美国_83
-      - Ytb:鹏哥分享_CA_加拿大_84
-      - Ytb:鹏哥分享_CA_加拿大_85
-      - Ytb:鹏哥分享_FR_法国_86
-      - Ytb:鹏哥分享_CA_加拿大_87
-      - Ytb:鹏哥分享_CA_加拿大_88
-      - Ytb:鹏哥分享_FR_法国_89
-      - Ytb:鹏哥分享_GB_英国_90
-      - Ytb:鹏哥分享_NO_挪威_91
-      - Ytb:鹏哥分享_US_美国_92
-      - Ytb:鹏哥分享_AU_澳大利亚_93
-      - Ytb:鹏哥分享_FR_法国_94
-      - Ytb:鹏哥分享_GB_英国_95
-      - Ytb:鹏哥分享_NO_挪威_96
-      - Ytb:鹏哥分享_NO_挪威_97
-      - Ytb:鹏哥分享_NO_挪威_98
-      - Ytb:鹏哥分享_NO_挪威_99
-      - Ytb:鹏哥分享_NO_挪威_100
-      - Ytb:鹏哥分享_AU_澳大利亚_101
-      - Ytb:鹏哥分享_FR_法国_102
-      - Ytb:鹏哥分享_CA_加拿大_103
-      - Ytb:鹏哥分享_FR_法国_104
-      - Ytb:鹏哥分享_GB_英国_105
-      - Ytb:鹏哥分享_GB_英国_106
-      - Ytb:鹏哥分享_NO_挪威_107
-      - Ytb:鹏哥分享_DK_丹麦_108
-      - Ytb:鹏哥分享_GB_英国_109
-      - Ytb:鹏哥分享_NO_挪威_110
-      - Ytb:鹏哥分享_NO_挪威_111
-      - Ytb:鹏哥分享_SE_瑞典_112
-      - Ytb:鹏哥分享_113
-      - Ytb:鹏哥分享_NO_挪威_114
-      - Ytb:鹏哥分享_NO_挪威_115
-      - Ytb:鹏哥分享_US_美国_116
-      - Ytb:鹏哥分享_US_美国_117
-      - Ytb:鹏哥分享_US_美国_118
-      - Ytb:鹏哥分享_US_美国_119
-      - Ytb:鹏哥分享_US_美国_120
-      - Ytb:鹏哥分享_US_美国_121
-      - Ytb:鹏哥分享_AU_澳大利亚_122
-      - Ytb:鹏哥分享_FR_法国_123
-      - Ytb:鹏哥分享_FR_法国_124
-      - Ytb:鹏哥分享_FR_法国_125
-      - Ytb:鹏哥分享_GR_希腊_126
-      - Ytb:鹏哥分享_US_美国_127
-      - Ytb:鹏哥分享_US_美国_128
-      - Ytb:鹏哥分享_US_美国_129
-      - Ytb:鹏哥分享_US_美国_130
-      - Ytb:鹏哥分享_US_美国_131
-      - Ytb:鹏哥分享_US_美国_132
-      - Ytb:鹏哥分享_US_美国_133
-      - Ytb:鹏哥分享_US_美国_134
-      - Ytb:鹏哥分享_US_美国_135
-      - Ytb:鹏哥分享_US_美国_136
-      - Ytb:鹏哥分享_US_美国_137
-      - Ytb:鹏哥分享_US_美国_138
-      - Ytb:鹏哥分享_US_美国_139
-      - Ytb:鹏哥分享_US_美国_140
-      - Ytb:鹏哥分享_US_美国_141
-      - Ytb:鹏哥分享_AU_澳大利亚_142
-      - Ytb:鹏哥分享_AU_澳大利亚_143
-      - Ytb:鹏哥分享_AU_澳大利亚_144
-      - Ytb:鹏哥分享_AU_澳大利亚_145
-      - Ytb:鹏哥分享_AU_澳大利亚_146
-      - Ytb:鹏哥分享_AU_澳大利亚_147
-      - Ytb:鹏哥分享_US_美国_148
-      - Ytb:鹏哥分享_US_美国_149
-      - Ytb:鹏哥分享_US_美国_150
-      - Ytb:鹏哥分享_US_美国_151
-      - Ytb:鹏哥分享_US_美国_152
-      - Ytb:鹏哥分享_US_美国_153
-      - Ytb:鹏哥分享_AU_澳大利亚_154
-      - Ytb:鹏哥分享_AU_澳大利亚_155
-      - Ytb:鹏哥分享_AU_澳大利亚_156
-      - Ytb:鹏哥分享_FR_法国_157
-      - Ytb:鹏哥分享_FR_法国_158
-      - Ytb:鹏哥分享_FR_法国_159
-      - Ytb:鹏哥分享_FR_法国_160
-      - Ytb:鹏哥分享_HK_香港_161
-      - Ytb:鹏哥分享_HK_香港_162
-      - Ytb:鹏哥分享_HK_香港_163
-      - Ytb:鹏哥分享_HK_香港_164
-      - Ytb:鹏哥分享_HK_香港_165
-      - Ytb:鹏哥分享_RU_俄罗斯联邦_166
-      - Ytb:鹏哥分享_US_美国_167
-      - Ytb:鹏哥分享_US_美国_168
-      - Ytb:鹏哥分享_US_美国_169
-      - Ytb:鹏哥分享_US_美国_170
-      - Ytb:鹏哥分享_US_美国_171
-      - Ytb:鹏哥分享_US_美国_172
-      - Ytb:鹏哥分享_US_美国_173
-      - Ytb:鹏哥分享_US_美国_174
-      - Ytb:鹏哥分享_US_美国_175
-      - Ytb:鹏哥分享_US_美国_176
-      - Ytb:鹏哥分享_US_美国_177
-      - Ytb:鹏哥分享_US_美国_178
-      - Ytb:鹏哥分享_US_美国_179
-      - Ytb:鹏哥分享_US_美国_180
-      - Ytb:鹏哥分享_US_美国_181
-      - Ytb:鹏哥分享_US_美国_182
-      - Ytb:鹏哥分享_US_美国_183
-      - Ytb:鹏哥分享_US_美国_184
-      - Ytb:鹏哥分享_US_美国_185
-      - Ytb:鹏哥分享_US_美国_186
-      - Ytb:鹏哥分享_US_美国_187
-      - Ytb:鹏哥分享_US_美国_188
-      - Ytb:鹏哥分享_US_美国_189
-      - Ytb:鹏哥分享_US_美国_190
-      - Ytb:鹏哥分享_US_美国_191
-      - Ytb:鹏哥分享_US_美国_192
-      - Ytb:鹏哥分享_US_美国_193
-      - Ytb:鹏哥分享_US_美国_194
-      - Ytb:鹏哥分享_US_美国_195
+      - Ytb:冰河圈子_PH_菲律宾_1
+      - Ytb:冰河圈子_ID_印度尼西亚_2
+      - Ytb:冰河圈子_FR_法国_3
+      - Ytb:冰河圈子_AT_奥地利_4
+      - Ytb:冰河圈子_US_美国_5
+      - Ytb:冰河圈子_US_美国_6
+      - Ytb:冰河圈子_US_美国_7
+      - Ytb:冰河圈子_US_美国_8
+      - Ytb:冰河圈子_US_美国_9
+      - Ytb:冰河圈子_US_美国_10
+      - Ytb:冰河圈子_US_美国_11
+      - Ytb:冰河圈子_US_美国_12
+      - Ytb:冰河圈子_MX_墨西哥_13
+      - Ytb:冰河圈子_US_美国_14
+      - Ytb:冰河圈子_US_美国_15
+      - Ytb:冰河圈子_US_美国_16
+      - Ytb:冰河圈子_US_美国_17
+      - Ytb:冰河圈子_CH_瑞士_18
+      - Ytb:冰河圈子_US_美国_19
+      - Ytb:冰河圈子_US_美国_20
+      - Ytb:冰河圈子_US_美国_21
+      - Ytb:冰河圈子_US_美国_22
+      - Ytb:冰河圈子_US_美国_23
+      - Ytb:冰河圈子_US_美国_24
+      - Ytb:冰河圈子_US_美国_25
+      - Ytb:冰河圈子_AU_澳大利亚_26
+      - Ytb:冰河圈子_US_美国_27
+      - Ytb:冰河圈子_US_美国_28
+      - Ytb:冰河圈子_AU_澳大利亚_29
+      - Ytb:冰河圈子_US_美国_30
+      - Ytb:冰河圈子_AU_澳大利亚_31
+      - Ytb:冰河圈子_CA_加拿大_32
+      - Ytb:冰河圈子_CA_加拿大_33
+      - Ytb:冰河圈子_CA_加拿大_34
+      - Ytb:冰河圈子_US_美国_35
+      - Ytb:冰河圈子_US_美国_36
+      - Ytb:冰河圈子_US_美国_37
+      - Ytb:冰河圈子_US_美国_38
+      - Ytb:冰河圈子_US_美国_39
+      - Ytb:冰河圈子_US_美国_40
+      - Ytb:冰河圈子_AU_澳大利亚_41
+      - Ytb:冰河圈子_US_美国_42
+      - Ytb:冰河圈子_US_美国_43
+      - Ytb:冰河圈子_AU_澳大利亚_44
+      - Ytb:冰河圈子_AU_澳大利亚_45
+      - Ytb:冰河圈子_US_美国_46
+      - Ytb:冰河圈子_US_美国_47
+      - Ytb:冰河圈子_AU_澳大利亚_48
+      - Ytb:冰河圈子_BG_保加利亚_49
+      - Ytb:冰河圈子_US_美国_50
+      - Ytb:冰河圈子_AU_澳大利亚_51
+      - Ytb:冰河圈子_US_美国_52
+      - Ytb:冰河圈子_US_美国_53
+      - Ytb:冰河圈子_US_美国_54
+      - Ytb:冰河圈子_AU_澳大利亚_55
+      - Ytb:冰河圈子_US_美国_56
+      - Ytb:冰河圈子_US_美国_57
+      - Ytb:冰河圈子_US_美国_58
+      - Ytb:冰河圈子_US_美国_59
+      - Ytb:冰河圈子_US_美国_60
+      - Ytb:冰河圈子_US_美国_61
+      - Ytb:冰河圈子_AU_澳大利亚_62
+      - Ytb:冰河圈子_PT_葡萄牙_63
+      - Ytb:冰河圈子_AU_澳大利亚_64
+      - Ytb:冰河圈子_FR_法国_65
+      - Ytb:冰河圈子_NO_挪威_66
+      - Ytb:冰河圈子_FR_法国_67
+      - Ytb:冰河圈子_US_美国_68
+      - Ytb:冰河圈子_CA_加拿大_69
+      - Ytb:冰河圈子_CA_加拿大_70
+      - Ytb:冰河圈子_CA_加拿大_71
+      - Ytb:冰河圈子_FR_法国_72
+      - Ytb:冰河圈子_GB_英国_73
+      - Ytb:冰河圈子_GB_英国_74
+      - Ytb:冰河圈子_GB_英国_75
+      - Ytb:冰河圈子_US_美国_76
+      - Ytb:冰河圈子_CA_加拿大_77
+      - Ytb:冰河圈子_FR_法国_78
+      - Ytb:冰河圈子_NO_挪威_79
+      - Ytb:冰河圈子_PT_葡萄牙_80
+      - Ytb:冰河圈子_US_美国_81
+      - Ytb:冰河圈子_TW_台湾_82
+      - Ytb:冰河圈子_US_美国_83
+      - Ytb:冰河圈子_CA_加拿大_84
+      - Ytb:冰河圈子_CA_加拿大_85
+      - Ytb:冰河圈子_FR_法国_86
+      - Ytb:冰河圈子_CA_加拿大_87
+      - Ytb:冰河圈子_CA_加拿大_88
+      - Ytb:冰河圈子_FR_法国_89
+      - Ytb:冰河圈子_GB_英国_90
+      - Ytb:冰河圈子_NO_挪威_91
+      - Ytb:冰河圈子_US_美国_92
+      - Ytb:冰河圈子_AU_澳大利亚_93
+      - Ytb:冰河圈子_FR_法国_94
+      - Ytb:冰河圈子_GB_英国_95
+      - Ytb:冰河圈子_NO_挪威_96
+      - Ytb:冰河圈子_NO_挪威_97
+      - Ytb:冰河圈子_NO_挪威_98
+      - Ytb:冰河圈子_NO_挪威_99
+      - Ytb:冰河圈子_NO_挪威_100
+      - Ytb:冰河圈子_AU_澳大利亚_101
+      - Ytb:冰河圈子_FR_法国_102
+      - Ytb:冰河圈子_CA_加拿大_103
+      - Ytb:冰河圈子_FR_法国_104
+      - Ytb:冰河圈子_GB_英国_105
+      - Ytb:冰河圈子_GB_英国_106
+      - Ytb:冰河圈子_NO_挪威_107
+      - Ytb:冰河圈子_DK_丹麦_108
+      - Ytb:冰河圈子_GB_英国_109
+      - Ytb:冰河圈子_NO_挪威_110
+      - Ytb:冰河圈子_NO_挪威_111
+      - Ytb:冰河圈子_SE_瑞典_112
+      - Ytb:冰河圈子_US_美国_113
+      - Ytb:冰河圈子_NO_挪威_114
+      - Ytb:冰河圈子_NO_挪威_115
+      - Ytb:冰河圈子_US_美国_116
+      - Ytb:冰河圈子_US_美国_117
+      - Ytb:冰河圈子_US_美国_118
+      - Ytb:冰河圈子_US_美国_119
+      - Ytb:冰河圈子_US_美国_120
+      - Ytb:冰河圈子_US_美国_121
+      - Ytb:冰河圈子_AU_澳大利亚_122
+      - Ytb:冰河圈子_FR_法国_123
+      - Ytb:冰河圈子_FR_法国_124
+      - Ytb:冰河圈子_FR_法国_125
+      - Ytb:冰河圈子_GR_希腊_126
+      - Ytb:冰河圈子_US_美国_127
+      - Ytb:冰河圈子_US_美国_128
+      - Ytb:冰河圈子_US_美国_129
+      - Ytb:冰河圈子_US_美国_130
+      - Ytb:冰河圈子_US_美国_131
+      - Ytb:冰河圈子_US_美国_132
+      - Ytb:冰河圈子_US_美国_133
+      - Ytb:冰河圈子_US_美国_134
+      - Ytb:冰河圈子_US_美国_135
+      - Ytb:冰河圈子_US_美国_136
+      - Ytb:冰河圈子_US_美国_137
+      - Ytb:冰河圈子_US_美国_138
+      - Ytb:冰河圈子_US_美国_139
+      - Ytb:冰河圈子_US_美国_140
+      - Ytb:冰河圈子_US_美国_141
+      - Ytb:冰河圈子_AU_澳大利亚_142
+      - Ytb:冰河圈子_AU_澳大利亚_143
+      - Ytb:冰河圈子_AU_澳大利亚_144
+      - Ytb:冰河圈子_AU_澳大利亚_145
+      - Ytb:冰河圈子_AU_澳大利亚_146
+      - Ytb:冰河圈子_AU_澳大利亚_147
+      - Ytb:冰河圈子_US_美国_148
+      - Ytb:冰河圈子_US_美国_149
+      - Ytb:冰河圈子_US_美国_150
+      - Ytb:冰河圈子_US_美国_151
+      - Ytb:冰河圈子_US_美国_152
+      - Ytb:冰河圈子_US_美国_153
+      - Ytb:冰河圈子_AU_澳大利亚_154
+      - Ytb:冰河圈子_AU_澳大利亚_155
+      - Ytb:冰河圈子_AU_澳大利亚_156
+      - Ytb:冰河圈子_FR_法国_157
+      - Ytb:冰河圈子_FR_法国_158
+      - Ytb:冰河圈子_FR_法国_159
+      - Ytb:冰河圈子_FR_法国_160
+      - Ytb:冰河圈子_HK_香港_161
+      - Ytb:冰河圈子_HK_香港_162
+      - Ytb:冰河圈子_HK_香港_163
+      - Ytb:冰河圈子_HK_香港_164
+      - Ytb:冰河圈子_HK_香港_165
+      - Ytb:冰河圈子_RU_俄罗斯联邦_166
+      - Ytb:冰河圈子_US_美国_167
+      - Ytb:冰河圈子_US_美国_168
+      - Ytb:冰河圈子_US_美国_169
+      - Ytb:冰河圈子_US_美国_170
+      - Ytb:冰河圈子_US_美国_171
+      - Ytb:冰河圈子_US_美国_172
+      - Ytb:冰河圈子_US_美国_173
+      - Ytb:冰河圈子_US_美国_174
+      - Ytb:冰河圈子_US_美国_175
+      - Ytb:冰河圈子_US_美国_176
+      - Ytb:冰河圈子_US_美国_177
+      - Ytb:冰河圈子_US_美国_178
+      - Ytb:冰河圈子_US_美国_179
+      - Ytb:冰河圈子_US_美国_180
+      - Ytb:冰河圈子_US_美国_181
+      - Ytb:冰河圈子_US_美国_182
+      - Ytb:冰河圈子_US_美国_183
+      - Ytb:冰河圈子_US_美国_184
+      - Ytb:冰河圈子_US_美国_185
+      - Ytb:冰河圈子_US_美国_186
+      - Ytb:冰河圈子_US_美国_187
+      - Ytb:冰河圈子_US_美国_188
+      - Ytb:冰河圈子_US_美国_189
+      - Ytb:冰河圈子_US_美国_190
+      - Ytb:冰河圈子_US_美国_191
+      - Ytb:冰河圈子_US_美国_192
+      - Ytb:冰河圈子_US_美国_193
+      - Ytb:冰河圈子_US_美国_194
+      - Ytb:冰河圈子_US_美国_195
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Ytb:鹏哥分享_PH_菲律宾_1
-      - Ytb:鹏哥分享_ID_印度尼西亚_2
-      - Ytb:鹏哥分享_FR_法国_3
-      - Ytb:鹏哥分享_AT_奥地利_4
-      - Ytb:鹏哥分享_US_美国_5
-      - Ytb:鹏哥分享_US_美国_6
-      - Ytb:鹏哥分享_US_美国_7
-      - Ytb:鹏哥分享_US_美国_8
-      - Ytb:鹏哥分享_US_美国_9
-      - Ytb:鹏哥分享_US_美国_10
-      - Ytb:鹏哥分享_US_美国_11
-      - Ytb:鹏哥分享_US_美国_12
-      - Ytb:鹏哥分享_MX_墨西哥_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_US_美国_17
-      - Ytb:鹏哥分享_CH_瑞士_18
-      - Ytb:鹏哥分享_US_美国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
-      - Ytb:鹏哥分享_US_美国_22
-      - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_US_美国_25
-      - Ytb:鹏哥分享_AU_澳大利亚_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_US_美国_28
-      - Ytb:鹏哥分享_AU_澳大利亚_29
-      - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_AU_澳大利亚_31
-      - Ytb:鹏哥分享_CA_加拿大_32
-      - Ytb:鹏哥分享_CA_加拿大_33
-      - Ytb:鹏哥分享_CA_加拿大_34
-      - Ytb:鹏哥分享_US_美国_35
-      - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_US_美国_37
-      - Ytb:鹏哥分享_US_美国_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_US_美国_40
-      - Ytb:鹏哥分享_AU_澳大利亚_41
-      - Ytb:鹏哥分享_US_美国_42
-      - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_AU_澳大利亚_44
-      - Ytb:鹏哥分享_AU_澳大利亚_45
-      - Ytb:鹏哥分享_US_美国_46
-      - Ytb:鹏哥分享_US_美国_47
-      - Ytb:鹏哥分享_AU_澳大利亚_48
-      - Ytb:鹏哥分享_BG_保加利亚_49
-      - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_AU_澳大利亚_51
-      - Ytb:鹏哥分享_US_美国_52
-      - Ytb:鹏哥分享_US_美国_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_AU_澳大利亚_55
-      - Ytb:鹏哥分享_US_美国_56
-      - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_US_美国_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_US_美国_61
-      - Ytb:鹏哥分享_AU_澳大利亚_62
-      - Ytb:鹏哥分享_PT_葡萄牙_63
-      - Ytb:鹏哥分享_AU_澳大利亚_64
-      - Ytb:鹏哥分享_FR_法国_65
-      - Ytb:鹏哥分享_NO_挪威_66
-      - Ytb:鹏哥分享_FR_法国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_FR_法国_72
-      - Ytb:鹏哥分享_GB_英国_73
-      - Ytb:鹏哥分享_GB_英国_74
-      - Ytb:鹏哥分享_GB_英国_75
-      - Ytb:鹏哥分享_US_美国_76
-      - Ytb:鹏哥分享_CA_加拿大_77
-      - Ytb:鹏哥分享_FR_法国_78
-      - Ytb:鹏哥分享_NO_挪威_79
-      - Ytb:鹏哥分享_PT_葡萄牙_80
-      - Ytb:鹏哥分享_US_美国_81
-      - Ytb:鹏哥分享_TW_台湾_82
-      - Ytb:鹏哥分享_US_美国_83
-      - Ytb:鹏哥分享_CA_加拿大_84
-      - Ytb:鹏哥分享_CA_加拿大_85
-      - Ytb:鹏哥分享_FR_法国_86
-      - Ytb:鹏哥分享_CA_加拿大_87
-      - Ytb:鹏哥分享_CA_加拿大_88
-      - Ytb:鹏哥分享_FR_法国_89
-      - Ytb:鹏哥分享_GB_英国_90
-      - Ytb:鹏哥分享_NO_挪威_91
-      - Ytb:鹏哥分享_US_美国_92
-      - Ytb:鹏哥分享_AU_澳大利亚_93
-      - Ytb:鹏哥分享_FR_法国_94
-      - Ytb:鹏哥分享_GB_英国_95
-      - Ytb:鹏哥分享_NO_挪威_96
-      - Ytb:鹏哥分享_NO_挪威_97
-      - Ytb:鹏哥分享_NO_挪威_98
-      - Ytb:鹏哥分享_NO_挪威_99
-      - Ytb:鹏哥分享_NO_挪威_100
-      - Ytb:鹏哥分享_AU_澳大利亚_101
-      - Ytb:鹏哥分享_FR_法国_102
-      - Ytb:鹏哥分享_CA_加拿大_103
-      - Ytb:鹏哥分享_FR_法国_104
-      - Ytb:鹏哥分享_GB_英国_105
-      - Ytb:鹏哥分享_GB_英国_106
-      - Ytb:鹏哥分享_NO_挪威_107
-      - Ytb:鹏哥分享_DK_丹麦_108
-      - Ytb:鹏哥分享_GB_英国_109
-      - Ytb:鹏哥分享_NO_挪威_110
-      - Ytb:鹏哥分享_NO_挪威_111
-      - Ytb:鹏哥分享_SE_瑞典_112
-      - Ytb:鹏哥分享_113
-      - Ytb:鹏哥分享_NO_挪威_114
-      - Ytb:鹏哥分享_NO_挪威_115
-      - Ytb:鹏哥分享_US_美国_116
-      - Ytb:鹏哥分享_US_美国_117
-      - Ytb:鹏哥分享_US_美国_118
-      - Ytb:鹏哥分享_US_美国_119
-      - Ytb:鹏哥分享_US_美国_120
-      - Ytb:鹏哥分享_US_美国_121
-      - Ytb:鹏哥分享_AU_澳大利亚_122
-      - Ytb:鹏哥分享_FR_法国_123
-      - Ytb:鹏哥分享_FR_法国_124
-      - Ytb:鹏哥分享_FR_法国_125
-      - Ytb:鹏哥分享_GR_希腊_126
-      - Ytb:鹏哥分享_US_美国_127
-      - Ytb:鹏哥分享_US_美国_128
-      - Ytb:鹏哥分享_US_美国_129
-      - Ytb:鹏哥分享_US_美国_130
-      - Ytb:鹏哥分享_US_美国_131
-      - Ytb:鹏哥分享_US_美国_132
-      - Ytb:鹏哥分享_US_美国_133
-      - Ytb:鹏哥分享_US_美国_134
-      - Ytb:鹏哥分享_US_美国_135
-      - Ytb:鹏哥分享_US_美国_136
-      - Ytb:鹏哥分享_US_美国_137
-      - Ytb:鹏哥分享_US_美国_138
-      - Ytb:鹏哥分享_US_美国_139
-      - Ytb:鹏哥分享_US_美国_140
-      - Ytb:鹏哥分享_US_美国_141
-      - Ytb:鹏哥分享_AU_澳大利亚_142
-      - Ytb:鹏哥分享_AU_澳大利亚_143
-      - Ytb:鹏哥分享_AU_澳大利亚_144
-      - Ytb:鹏哥分享_AU_澳大利亚_145
-      - Ytb:鹏哥分享_AU_澳大利亚_146
-      - Ytb:鹏哥分享_AU_澳大利亚_147
-      - Ytb:鹏哥分享_US_美国_148
-      - Ytb:鹏哥分享_US_美国_149
-      - Ytb:鹏哥分享_US_美国_150
-      - Ytb:鹏哥分享_US_美国_151
-      - Ytb:鹏哥分享_US_美国_152
-      - Ytb:鹏哥分享_US_美国_153
-      - Ytb:鹏哥分享_AU_澳大利亚_154
-      - Ytb:鹏哥分享_AU_澳大利亚_155
-      - Ytb:鹏哥分享_AU_澳大利亚_156
-      - Ytb:鹏哥分享_FR_法国_157
-      - Ytb:鹏哥分享_FR_法国_158
-      - Ytb:鹏哥分享_FR_法国_159
-      - Ytb:鹏哥分享_FR_法国_160
-      - Ytb:鹏哥分享_HK_香港_161
-      - Ytb:鹏哥分享_HK_香港_162
-      - Ytb:鹏哥分享_HK_香港_163
-      - Ytb:鹏哥分享_HK_香港_164
-      - Ytb:鹏哥分享_HK_香港_165
-      - Ytb:鹏哥分享_RU_俄罗斯联邦_166
-      - Ytb:鹏哥分享_US_美国_167
-      - Ytb:鹏哥分享_US_美国_168
-      - Ytb:鹏哥分享_US_美国_169
-      - Ytb:鹏哥分享_US_美国_170
-      - Ytb:鹏哥分享_US_美国_171
-      - Ytb:鹏哥分享_US_美国_172
-      - Ytb:鹏哥分享_US_美国_173
-      - Ytb:鹏哥分享_US_美国_174
-      - Ytb:鹏哥分享_US_美国_175
-      - Ytb:鹏哥分享_US_美国_176
-      - Ytb:鹏哥分享_US_美国_177
-      - Ytb:鹏哥分享_US_美国_178
-      - Ytb:鹏哥分享_US_美国_179
-      - Ytb:鹏哥分享_US_美国_180
-      - Ytb:鹏哥分享_US_美国_181
-      - Ytb:鹏哥分享_US_美国_182
-      - Ytb:鹏哥分享_US_美国_183
-      - Ytb:鹏哥分享_US_美国_184
-      - Ytb:鹏哥分享_US_美国_185
-      - Ytb:鹏哥分享_US_美国_186
-      - Ytb:鹏哥分享_US_美国_187
-      - Ytb:鹏哥分享_US_美国_188
-      - Ytb:鹏哥分享_US_美国_189
-      - Ytb:鹏哥分享_US_美国_190
-      - Ytb:鹏哥分享_US_美国_191
-      - Ytb:鹏哥分享_US_美国_192
-      - Ytb:鹏哥分享_US_美国_193
-      - Ytb:鹏哥分享_US_美国_194
-      - Ytb:鹏哥分享_US_美国_195
+      - Ytb:冰河圈子_PH_菲律宾_1
+      - Ytb:冰河圈子_ID_印度尼西亚_2
+      - Ytb:冰河圈子_FR_法国_3
+      - Ytb:冰河圈子_AT_奥地利_4
+      - Ytb:冰河圈子_US_美国_5
+      - Ytb:冰河圈子_US_美国_6
+      - Ytb:冰河圈子_US_美国_7
+      - Ytb:冰河圈子_US_美国_8
+      - Ytb:冰河圈子_US_美国_9
+      - Ytb:冰河圈子_US_美国_10
+      - Ytb:冰河圈子_US_美国_11
+      - Ytb:冰河圈子_US_美国_12
+      - Ytb:冰河圈子_MX_墨西哥_13
+      - Ytb:冰河圈子_US_美国_14
+      - Ytb:冰河圈子_US_美国_15
+      - Ytb:冰河圈子_US_美国_16
+      - Ytb:冰河圈子_US_美国_17
+      - Ytb:冰河圈子_CH_瑞士_18
+      - Ytb:冰河圈子_US_美国_19
+      - Ytb:冰河圈子_US_美国_20
+      - Ytb:冰河圈子_US_美国_21
+      - Ytb:冰河圈子_US_美国_22
+      - Ytb:冰河圈子_US_美国_23
+      - Ytb:冰河圈子_US_美国_24
+      - Ytb:冰河圈子_US_美国_25
+      - Ytb:冰河圈子_AU_澳大利亚_26
+      - Ytb:冰河圈子_US_美国_27
+      - Ytb:冰河圈子_US_美国_28
+      - Ytb:冰河圈子_AU_澳大利亚_29
+      - Ytb:冰河圈子_US_美国_30
+      - Ytb:冰河圈子_AU_澳大利亚_31
+      - Ytb:冰河圈子_CA_加拿大_32
+      - Ytb:冰河圈子_CA_加拿大_33
+      - Ytb:冰河圈子_CA_加拿大_34
+      - Ytb:冰河圈子_US_美国_35
+      - Ytb:冰河圈子_US_美国_36
+      - Ytb:冰河圈子_US_美国_37
+      - Ytb:冰河圈子_US_美国_38
+      - Ytb:冰河圈子_US_美国_39
+      - Ytb:冰河圈子_US_美国_40
+      - Ytb:冰河圈子_AU_澳大利亚_41
+      - Ytb:冰河圈子_US_美国_42
+      - Ytb:冰河圈子_US_美国_43
+      - Ytb:冰河圈子_AU_澳大利亚_44
+      - Ytb:冰河圈子_AU_澳大利亚_45
+      - Ytb:冰河圈子_US_美国_46
+      - Ytb:冰河圈子_US_美国_47
+      - Ytb:冰河圈子_AU_澳大利亚_48
+      - Ytb:冰河圈子_BG_保加利亚_49
+      - Ytb:冰河圈子_US_美国_50
+      - Ytb:冰河圈子_AU_澳大利亚_51
+      - Ytb:冰河圈子_US_美国_52
+      - Ytb:冰河圈子_US_美国_53
+      - Ytb:冰河圈子_US_美国_54
+      - Ytb:冰河圈子_AU_澳大利亚_55
+      - Ytb:冰河圈子_US_美国_56
+      - Ytb:冰河圈子_US_美国_57
+      - Ytb:冰河圈子_US_美国_58
+      - Ytb:冰河圈子_US_美国_59
+      - Ytb:冰河圈子_US_美国_60
+      - Ytb:冰河圈子_US_美国_61
+      - Ytb:冰河圈子_AU_澳大利亚_62
+      - Ytb:冰河圈子_PT_葡萄牙_63
+      - Ytb:冰河圈子_AU_澳大利亚_64
+      - Ytb:冰河圈子_FR_法国_65
+      - Ytb:冰河圈子_NO_挪威_66
+      - Ytb:冰河圈子_FR_法国_67
+      - Ytb:冰河圈子_US_美国_68
+      - Ytb:冰河圈子_CA_加拿大_69
+      - Ytb:冰河圈子_CA_加拿大_70
+      - Ytb:冰河圈子_CA_加拿大_71
+      - Ytb:冰河圈子_FR_法国_72
+      - Ytb:冰河圈子_GB_英国_73
+      - Ytb:冰河圈子_GB_英国_74
+      - Ytb:冰河圈子_GB_英国_75
+      - Ytb:冰河圈子_US_美国_76
+      - Ytb:冰河圈子_CA_加拿大_77
+      - Ytb:冰河圈子_FR_法国_78
+      - Ytb:冰河圈子_NO_挪威_79
+      - Ytb:冰河圈子_PT_葡萄牙_80
+      - Ytb:冰河圈子_US_美国_81
+      - Ytb:冰河圈子_TW_台湾_82
+      - Ytb:冰河圈子_US_美国_83
+      - Ytb:冰河圈子_CA_加拿大_84
+      - Ytb:冰河圈子_CA_加拿大_85
+      - Ytb:冰河圈子_FR_法国_86
+      - Ytb:冰河圈子_CA_加拿大_87
+      - Ytb:冰河圈子_CA_加拿大_88
+      - Ytb:冰河圈子_FR_法国_89
+      - Ytb:冰河圈子_GB_英国_90
+      - Ytb:冰河圈子_NO_挪威_91
+      - Ytb:冰河圈子_US_美国_92
+      - Ytb:冰河圈子_AU_澳大利亚_93
+      - Ytb:冰河圈子_FR_法国_94
+      - Ytb:冰河圈子_GB_英国_95
+      - Ytb:冰河圈子_NO_挪威_96
+      - Ytb:冰河圈子_NO_挪威_97
+      - Ytb:冰河圈子_NO_挪威_98
+      - Ytb:冰河圈子_NO_挪威_99
+      - Ytb:冰河圈子_NO_挪威_100
+      - Ytb:冰河圈子_AU_澳大利亚_101
+      - Ytb:冰河圈子_FR_法国_102
+      - Ytb:冰河圈子_CA_加拿大_103
+      - Ytb:冰河圈子_FR_法国_104
+      - Ytb:冰河圈子_GB_英国_105
+      - Ytb:冰河圈子_GB_英国_106
+      - Ytb:冰河圈子_NO_挪威_107
+      - Ytb:冰河圈子_DK_丹麦_108
+      - Ytb:冰河圈子_GB_英国_109
+      - Ytb:冰河圈子_NO_挪威_110
+      - Ytb:冰河圈子_NO_挪威_111
+      - Ytb:冰河圈子_SE_瑞典_112
+      - Ytb:冰河圈子_US_美国_113
+      - Ytb:冰河圈子_NO_挪威_114
+      - Ytb:冰河圈子_NO_挪威_115
+      - Ytb:冰河圈子_US_美国_116
+      - Ytb:冰河圈子_US_美国_117
+      - Ytb:冰河圈子_US_美国_118
+      - Ytb:冰河圈子_US_美国_119
+      - Ytb:冰河圈子_US_美国_120
+      - Ytb:冰河圈子_US_美国_121
+      - Ytb:冰河圈子_AU_澳大利亚_122
+      - Ytb:冰河圈子_FR_法国_123
+      - Ytb:冰河圈子_FR_法国_124
+      - Ytb:冰河圈子_FR_法国_125
+      - Ytb:冰河圈子_GR_希腊_126
+      - Ytb:冰河圈子_US_美国_127
+      - Ytb:冰河圈子_US_美国_128
+      - Ytb:冰河圈子_US_美国_129
+      - Ytb:冰河圈子_US_美国_130
+      - Ytb:冰河圈子_US_美国_131
+      - Ytb:冰河圈子_US_美国_132
+      - Ytb:冰河圈子_US_美国_133
+      - Ytb:冰河圈子_US_美国_134
+      - Ytb:冰河圈子_US_美国_135
+      - Ytb:冰河圈子_US_美国_136
+      - Ytb:冰河圈子_US_美国_137
+      - Ytb:冰河圈子_US_美国_138
+      - Ytb:冰河圈子_US_美国_139
+      - Ytb:冰河圈子_US_美国_140
+      - Ytb:冰河圈子_US_美国_141
+      - Ytb:冰河圈子_AU_澳大利亚_142
+      - Ytb:冰河圈子_AU_澳大利亚_143
+      - Ytb:冰河圈子_AU_澳大利亚_144
+      - Ytb:冰河圈子_AU_澳大利亚_145
+      - Ytb:冰河圈子_AU_澳大利亚_146
+      - Ytb:冰河圈子_AU_澳大利亚_147
+      - Ytb:冰河圈子_US_美国_148
+      - Ytb:冰河圈子_US_美国_149
+      - Ytb:冰河圈子_US_美国_150
+      - Ytb:冰河圈子_US_美国_151
+      - Ytb:冰河圈子_US_美国_152
+      - Ytb:冰河圈子_US_美国_153
+      - Ytb:冰河圈子_AU_澳大利亚_154
+      - Ytb:冰河圈子_AU_澳大利亚_155
+      - Ytb:冰河圈子_AU_澳大利亚_156
+      - Ytb:冰河圈子_FR_法国_157
+      - Ytb:冰河圈子_FR_法国_158
+      - Ytb:冰河圈子_FR_法国_159
+      - Ytb:冰河圈子_FR_法国_160
+      - Ytb:冰河圈子_HK_香港_161
+      - Ytb:冰河圈子_HK_香港_162
+      - Ytb:冰河圈子_HK_香港_163
+      - Ytb:冰河圈子_HK_香港_164
+      - Ytb:冰河圈子_HK_香港_165
+      - Ytb:冰河圈子_RU_俄罗斯联邦_166
+      - Ytb:冰河圈子_US_美国_167
+      - Ytb:冰河圈子_US_美国_168
+      - Ytb:冰河圈子_US_美国_169
+      - Ytb:冰河圈子_US_美国_170
+      - Ytb:冰河圈子_US_美国_171
+      - Ytb:冰河圈子_US_美国_172
+      - Ytb:冰河圈子_US_美国_173
+      - Ytb:冰河圈子_US_美国_174
+      - Ytb:冰河圈子_US_美国_175
+      - Ytb:冰河圈子_US_美国_176
+      - Ytb:冰河圈子_US_美国_177
+      - Ytb:冰河圈子_US_美国_178
+      - Ytb:冰河圈子_US_美国_179
+      - Ytb:冰河圈子_US_美国_180
+      - Ytb:冰河圈子_US_美国_181
+      - Ytb:冰河圈子_US_美国_182
+      - Ytb:冰河圈子_US_美国_183
+      - Ytb:冰河圈子_US_美国_184
+      - Ytb:冰河圈子_US_美国_185
+      - Ytb:冰河圈子_US_美国_186
+      - Ytb:冰河圈子_US_美国_187
+      - Ytb:冰河圈子_US_美国_188
+      - Ytb:冰河圈子_US_美国_189
+      - Ytb:冰河圈子_US_美国_190
+      - Ytb:冰河圈子_US_美国_191
+      - Ytb:冰河圈子_US_美国_192
+      - Ytb:冰河圈子_US_美国_193
+      - Ytb:冰河圈子_US_美国_194
+      - Ytb:冰河圈子_US_美国_195
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Ytb:鹏哥分享_PH_菲律宾_1
-      - Ytb:鹏哥分享_ID_印度尼西亚_2
-      - Ytb:鹏哥分享_FR_法国_3
-      - Ytb:鹏哥分享_AT_奥地利_4
-      - Ytb:鹏哥分享_US_美国_5
-      - Ytb:鹏哥分享_US_美国_6
-      - Ytb:鹏哥分享_US_美国_7
-      - Ytb:鹏哥分享_US_美国_8
-      - Ytb:鹏哥分享_US_美国_9
-      - Ytb:鹏哥分享_US_美国_10
-      - Ytb:鹏哥分享_US_美国_11
-      - Ytb:鹏哥分享_US_美国_12
-      - Ytb:鹏哥分享_MX_墨西哥_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_US_美国_17
-      - Ytb:鹏哥分享_CH_瑞士_18
-      - Ytb:鹏哥分享_US_美国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
-      - Ytb:鹏哥分享_US_美国_22
-      - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_US_美国_25
-      - Ytb:鹏哥分享_AU_澳大利亚_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_US_美国_28
-      - Ytb:鹏哥分享_AU_澳大利亚_29
-      - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_AU_澳大利亚_31
-      - Ytb:鹏哥分享_CA_加拿大_32
-      - Ytb:鹏哥分享_CA_加拿大_33
-      - Ytb:鹏哥分享_CA_加拿大_34
-      - Ytb:鹏哥分享_US_美国_35
-      - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_US_美国_37
-      - Ytb:鹏哥分享_US_美国_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_US_美国_40
-      - Ytb:鹏哥分享_AU_澳大利亚_41
-      - Ytb:鹏哥分享_US_美国_42
-      - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_AU_澳大利亚_44
-      - Ytb:鹏哥分享_AU_澳大利亚_45
-      - Ytb:鹏哥分享_US_美国_46
-      - Ytb:鹏哥分享_US_美国_47
-      - Ytb:鹏哥分享_AU_澳大利亚_48
-      - Ytb:鹏哥分享_BG_保加利亚_49
-      - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_AU_澳大利亚_51
-      - Ytb:鹏哥分享_US_美国_52
-      - Ytb:鹏哥分享_US_美国_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_AU_澳大利亚_55
-      - Ytb:鹏哥分享_US_美国_56
-      - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_US_美国_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_US_美国_61
-      - Ytb:鹏哥分享_AU_澳大利亚_62
-      - Ytb:鹏哥分享_PT_葡萄牙_63
-      - Ytb:鹏哥分享_AU_澳大利亚_64
-      - Ytb:鹏哥分享_FR_法国_65
-      - Ytb:鹏哥分享_NO_挪威_66
-      - Ytb:鹏哥分享_FR_法国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_FR_法国_72
-      - Ytb:鹏哥分享_GB_英国_73
-      - Ytb:鹏哥分享_GB_英国_74
-      - Ytb:鹏哥分享_GB_英国_75
-      - Ytb:鹏哥分享_US_美国_76
-      - Ytb:鹏哥分享_CA_加拿大_77
-      - Ytb:鹏哥分享_FR_法国_78
-      - Ytb:鹏哥分享_NO_挪威_79
-      - Ytb:鹏哥分享_PT_葡萄牙_80
-      - Ytb:鹏哥分享_US_美国_81
-      - Ytb:鹏哥分享_TW_台湾_82
-      - Ytb:鹏哥分享_US_美国_83
-      - Ytb:鹏哥分享_CA_加拿大_84
-      - Ytb:鹏哥分享_CA_加拿大_85
-      - Ytb:鹏哥分享_FR_法国_86
-      - Ytb:鹏哥分享_CA_加拿大_87
-      - Ytb:鹏哥分享_CA_加拿大_88
-      - Ytb:鹏哥分享_FR_法国_89
-      - Ytb:鹏哥分享_GB_英国_90
-      - Ytb:鹏哥分享_NO_挪威_91
-      - Ytb:鹏哥分享_US_美国_92
-      - Ytb:鹏哥分享_AU_澳大利亚_93
-      - Ytb:鹏哥分享_FR_法国_94
-      - Ytb:鹏哥分享_GB_英国_95
-      - Ytb:鹏哥分享_NO_挪威_96
-      - Ytb:鹏哥分享_NO_挪威_97
-      - Ytb:鹏哥分享_NO_挪威_98
-      - Ytb:鹏哥分享_NO_挪威_99
-      - Ytb:鹏哥分享_NO_挪威_100
-      - Ytb:鹏哥分享_AU_澳大利亚_101
-      - Ytb:鹏哥分享_FR_法国_102
-      - Ytb:鹏哥分享_CA_加拿大_103
-      - Ytb:鹏哥分享_FR_法国_104
-      - Ytb:鹏哥分享_GB_英国_105
-      - Ytb:鹏哥分享_GB_英国_106
-      - Ytb:鹏哥分享_NO_挪威_107
-      - Ytb:鹏哥分享_DK_丹麦_108
-      - Ytb:鹏哥分享_GB_英国_109
-      - Ytb:鹏哥分享_NO_挪威_110
-      - Ytb:鹏哥分享_NO_挪威_111
-      - Ytb:鹏哥分享_SE_瑞典_112
-      - Ytb:鹏哥分享_113
-      - Ytb:鹏哥分享_NO_挪威_114
-      - Ytb:鹏哥分享_NO_挪威_115
-      - Ytb:鹏哥分享_US_美国_116
-      - Ytb:鹏哥分享_US_美国_117
-      - Ytb:鹏哥分享_US_美国_118
-      - Ytb:鹏哥分享_US_美国_119
-      - Ytb:鹏哥分享_US_美国_120
-      - Ytb:鹏哥分享_US_美国_121
-      - Ytb:鹏哥分享_AU_澳大利亚_122
-      - Ytb:鹏哥分享_FR_法国_123
-      - Ytb:鹏哥分享_FR_法国_124
-      - Ytb:鹏哥分享_FR_法国_125
-      - Ytb:鹏哥分享_GR_希腊_126
-      - Ytb:鹏哥分享_US_美国_127
-      - Ytb:鹏哥分享_US_美国_128
-      - Ytb:鹏哥分享_US_美国_129
-      - Ytb:鹏哥分享_US_美国_130
-      - Ytb:鹏哥分享_US_美国_131
-      - Ytb:鹏哥分享_US_美国_132
-      - Ytb:鹏哥分享_US_美国_133
-      - Ytb:鹏哥分享_US_美国_134
-      - Ytb:鹏哥分享_US_美国_135
-      - Ytb:鹏哥分享_US_美国_136
-      - Ytb:鹏哥分享_US_美国_137
-      - Ytb:鹏哥分享_US_美国_138
-      - Ytb:鹏哥分享_US_美国_139
-      - Ytb:鹏哥分享_US_美国_140
-      - Ytb:鹏哥分享_US_美国_141
-      - Ytb:鹏哥分享_AU_澳大利亚_142
-      - Ytb:鹏哥分享_AU_澳大利亚_143
-      - Ytb:鹏哥分享_AU_澳大利亚_144
-      - Ytb:鹏哥分享_AU_澳大利亚_145
-      - Ytb:鹏哥分享_AU_澳大利亚_146
-      - Ytb:鹏哥分享_AU_澳大利亚_147
-      - Ytb:鹏哥分享_US_美国_148
-      - Ytb:鹏哥分享_US_美国_149
-      - Ytb:鹏哥分享_US_美国_150
-      - Ytb:鹏哥分享_US_美国_151
-      - Ytb:鹏哥分享_US_美国_152
-      - Ytb:鹏哥分享_US_美国_153
-      - Ytb:鹏哥分享_AU_澳大利亚_154
-      - Ytb:鹏哥分享_AU_澳大利亚_155
-      - Ytb:鹏哥分享_AU_澳大利亚_156
-      - Ytb:鹏哥分享_FR_法国_157
-      - Ytb:鹏哥分享_FR_法国_158
-      - Ytb:鹏哥分享_FR_法国_159
-      - Ytb:鹏哥分享_FR_法国_160
-      - Ytb:鹏哥分享_HK_香港_161
-      - Ytb:鹏哥分享_HK_香港_162
-      - Ytb:鹏哥分享_HK_香港_163
-      - Ytb:鹏哥分享_HK_香港_164
-      - Ytb:鹏哥分享_HK_香港_165
-      - Ytb:鹏哥分享_RU_俄罗斯联邦_166
-      - Ytb:鹏哥分享_US_美国_167
-      - Ytb:鹏哥分享_US_美国_168
-      - Ytb:鹏哥分享_US_美国_169
-      - Ytb:鹏哥分享_US_美国_170
-      - Ytb:鹏哥分享_US_美国_171
-      - Ytb:鹏哥分享_US_美国_172
-      - Ytb:鹏哥分享_US_美国_173
-      - Ytb:鹏哥分享_US_美国_174
-      - Ytb:鹏哥分享_US_美国_175
-      - Ytb:鹏哥分享_US_美国_176
-      - Ytb:鹏哥分享_US_美国_177
-      - Ytb:鹏哥分享_US_美国_178
-      - Ytb:鹏哥分享_US_美国_179
-      - Ytb:鹏哥分享_US_美国_180
-      - Ytb:鹏哥分享_US_美国_181
-      - Ytb:鹏哥分享_US_美国_182
-      - Ytb:鹏哥分享_US_美国_183
-      - Ytb:鹏哥分享_US_美国_184
-      - Ytb:鹏哥分享_US_美国_185
-      - Ytb:鹏哥分享_US_美国_186
-      - Ytb:鹏哥分享_US_美国_187
-      - Ytb:鹏哥分享_US_美国_188
-      - Ytb:鹏哥分享_US_美国_189
-      - Ytb:鹏哥分享_US_美国_190
-      - Ytb:鹏哥分享_US_美国_191
-      - Ytb:鹏哥分享_US_美国_192
-      - Ytb:鹏哥分享_US_美国_193
-      - Ytb:鹏哥分享_US_美国_194
-      - Ytb:鹏哥分享_US_美国_195
+      - Ytb:冰河圈子_PH_菲律宾_1
+      - Ytb:冰河圈子_ID_印度尼西亚_2
+      - Ytb:冰河圈子_FR_法国_3
+      - Ytb:冰河圈子_AT_奥地利_4
+      - Ytb:冰河圈子_US_美国_5
+      - Ytb:冰河圈子_US_美国_6
+      - Ytb:冰河圈子_US_美国_7
+      - Ytb:冰河圈子_US_美国_8
+      - Ytb:冰河圈子_US_美国_9
+      - Ytb:冰河圈子_US_美国_10
+      - Ytb:冰河圈子_US_美国_11
+      - Ytb:冰河圈子_US_美国_12
+      - Ytb:冰河圈子_MX_墨西哥_13
+      - Ytb:冰河圈子_US_美国_14
+      - Ytb:冰河圈子_US_美国_15
+      - Ytb:冰河圈子_US_美国_16
+      - Ytb:冰河圈子_US_美国_17
+      - Ytb:冰河圈子_CH_瑞士_18
+      - Ytb:冰河圈子_US_美国_19
+      - Ytb:冰河圈子_US_美国_20
+      - Ytb:冰河圈子_US_美国_21
+      - Ytb:冰河圈子_US_美国_22
+      - Ytb:冰河圈子_US_美国_23
+      - Ytb:冰河圈子_US_美国_24
+      - Ytb:冰河圈子_US_美国_25
+      - Ytb:冰河圈子_AU_澳大利亚_26
+      - Ytb:冰河圈子_US_美国_27
+      - Ytb:冰河圈子_US_美国_28
+      - Ytb:冰河圈子_AU_澳大利亚_29
+      - Ytb:冰河圈子_US_美国_30
+      - Ytb:冰河圈子_AU_澳大利亚_31
+      - Ytb:冰河圈子_CA_加拿大_32
+      - Ytb:冰河圈子_CA_加拿大_33
+      - Ytb:冰河圈子_CA_加拿大_34
+      - Ytb:冰河圈子_US_美国_35
+      - Ytb:冰河圈子_US_美国_36
+      - Ytb:冰河圈子_US_美国_37
+      - Ytb:冰河圈子_US_美国_38
+      - Ytb:冰河圈子_US_美国_39
+      - Ytb:冰河圈子_US_美国_40
+      - Ytb:冰河圈子_AU_澳大利亚_41
+      - Ytb:冰河圈子_US_美国_42
+      - Ytb:冰河圈子_US_美国_43
+      - Ytb:冰河圈子_AU_澳大利亚_44
+      - Ytb:冰河圈子_AU_澳大利亚_45
+      - Ytb:冰河圈子_US_美国_46
+      - Ytb:冰河圈子_US_美国_47
+      - Ytb:冰河圈子_AU_澳大利亚_48
+      - Ytb:冰河圈子_BG_保加利亚_49
+      - Ytb:冰河圈子_US_美国_50
+      - Ytb:冰河圈子_AU_澳大利亚_51
+      - Ytb:冰河圈子_US_美国_52
+      - Ytb:冰河圈子_US_美国_53
+      - Ytb:冰河圈子_US_美国_54
+      - Ytb:冰河圈子_AU_澳大利亚_55
+      - Ytb:冰河圈子_US_美国_56
+      - Ytb:冰河圈子_US_美国_57
+      - Ytb:冰河圈子_US_美国_58
+      - Ytb:冰河圈子_US_美国_59
+      - Ytb:冰河圈子_US_美国_60
+      - Ytb:冰河圈子_US_美国_61
+      - Ytb:冰河圈子_AU_澳大利亚_62
+      - Ytb:冰河圈子_PT_葡萄牙_63
+      - Ytb:冰河圈子_AU_澳大利亚_64
+      - Ytb:冰河圈子_FR_法国_65
+      - Ytb:冰河圈子_NO_挪威_66
+      - Ytb:冰河圈子_FR_法国_67
+      - Ytb:冰河圈子_US_美国_68
+      - Ytb:冰河圈子_CA_加拿大_69
+      - Ytb:冰河圈子_CA_加拿大_70
+      - Ytb:冰河圈子_CA_加拿大_71
+      - Ytb:冰河圈子_FR_法国_72
+      - Ytb:冰河圈子_GB_英国_73
+      - Ytb:冰河圈子_GB_英国_74
+      - Ytb:冰河圈子_GB_英国_75
+      - Ytb:冰河圈子_US_美国_76
+      - Ytb:冰河圈子_CA_加拿大_77
+      - Ytb:冰河圈子_FR_法国_78
+      - Ytb:冰河圈子_NO_挪威_79
+      - Ytb:冰河圈子_PT_葡萄牙_80
+      - Ytb:冰河圈子_US_美国_81
+      - Ytb:冰河圈子_TW_台湾_82
+      - Ytb:冰河圈子_US_美国_83
+      - Ytb:冰河圈子_CA_加拿大_84
+      - Ytb:冰河圈子_CA_加拿大_85
+      - Ytb:冰河圈子_FR_法国_86
+      - Ytb:冰河圈子_CA_加拿大_87
+      - Ytb:冰河圈子_CA_加拿大_88
+      - Ytb:冰河圈子_FR_法国_89
+      - Ytb:冰河圈子_GB_英国_90
+      - Ytb:冰河圈子_NO_挪威_91
+      - Ytb:冰河圈子_US_美国_92
+      - Ytb:冰河圈子_AU_澳大利亚_93
+      - Ytb:冰河圈子_FR_法国_94
+      - Ytb:冰河圈子_GB_英国_95
+      - Ytb:冰河圈子_NO_挪威_96
+      - Ytb:冰河圈子_NO_挪威_97
+      - Ytb:冰河圈子_NO_挪威_98
+      - Ytb:冰河圈子_NO_挪威_99
+      - Ytb:冰河圈子_NO_挪威_100
+      - Ytb:冰河圈子_AU_澳大利亚_101
+      - Ytb:冰河圈子_FR_法国_102
+      - Ytb:冰河圈子_CA_加拿大_103
+      - Ytb:冰河圈子_FR_法国_104
+      - Ytb:冰河圈子_GB_英国_105
+      - Ytb:冰河圈子_GB_英国_106
+      - Ytb:冰河圈子_NO_挪威_107
+      - Ytb:冰河圈子_DK_丹麦_108
+      - Ytb:冰河圈子_GB_英国_109
+      - Ytb:冰河圈子_NO_挪威_110
+      - Ytb:冰河圈子_NO_挪威_111
+      - Ytb:冰河圈子_SE_瑞典_112
+      - Ytb:冰河圈子_US_美国_113
+      - Ytb:冰河圈子_NO_挪威_114
+      - Ytb:冰河圈子_NO_挪威_115
+      - Ytb:冰河圈子_US_美国_116
+      - Ytb:冰河圈子_US_美国_117
+      - Ytb:冰河圈子_US_美国_118
+      - Ytb:冰河圈子_US_美国_119
+      - Ytb:冰河圈子_US_美国_120
+      - Ytb:冰河圈子_US_美国_121
+      - Ytb:冰河圈子_AU_澳大利亚_122
+      - Ytb:冰河圈子_FR_法国_123
+      - Ytb:冰河圈子_FR_法国_124
+      - Ytb:冰河圈子_FR_法国_125
+      - Ytb:冰河圈子_GR_希腊_126
+      - Ytb:冰河圈子_US_美国_127
+      - Ytb:冰河圈子_US_美国_128
+      - Ytb:冰河圈子_US_美国_129
+      - Ytb:冰河圈子_US_美国_130
+      - Ytb:冰河圈子_US_美国_131
+      - Ytb:冰河圈子_US_美国_132
+      - Ytb:冰河圈子_US_美国_133
+      - Ytb:冰河圈子_US_美国_134
+      - Ytb:冰河圈子_US_美国_135
+      - Ytb:冰河圈子_US_美国_136
+      - Ytb:冰河圈子_US_美国_137
+      - Ytb:冰河圈子_US_美国_138
+      - Ytb:冰河圈子_US_美国_139
+      - Ytb:冰河圈子_US_美国_140
+      - Ytb:冰河圈子_US_美国_141
+      - Ytb:冰河圈子_AU_澳大利亚_142
+      - Ytb:冰河圈子_AU_澳大利亚_143
+      - Ytb:冰河圈子_AU_澳大利亚_144
+      - Ytb:冰河圈子_AU_澳大利亚_145
+      - Ytb:冰河圈子_AU_澳大利亚_146
+      - Ytb:冰河圈子_AU_澳大利亚_147
+      - Ytb:冰河圈子_US_美国_148
+      - Ytb:冰河圈子_US_美国_149
+      - Ytb:冰河圈子_US_美国_150
+      - Ytb:冰河圈子_US_美国_151
+      - Ytb:冰河圈子_US_美国_152
+      - Ytb:冰河圈子_US_美国_153
+      - Ytb:冰河圈子_AU_澳大利亚_154
+      - Ytb:冰河圈子_AU_澳大利亚_155
+      - Ytb:冰河圈子_AU_澳大利亚_156
+      - Ytb:冰河圈子_FR_法国_157
+      - Ytb:冰河圈子_FR_法国_158
+      - Ytb:冰河圈子_FR_法国_159
+      - Ytb:冰河圈子_FR_法国_160
+      - Ytb:冰河圈子_HK_香港_161
+      - Ytb:冰河圈子_HK_香港_162
+      - Ytb:冰河圈子_HK_香港_163
+      - Ytb:冰河圈子_HK_香港_164
+      - Ytb:冰河圈子_HK_香港_165
+      - Ytb:冰河圈子_RU_俄罗斯联邦_166
+      - Ytb:冰河圈子_US_美国_167
+      - Ytb:冰河圈子_US_美国_168
+      - Ytb:冰河圈子_US_美国_169
+      - Ytb:冰河圈子_US_美国_170
+      - Ytb:冰河圈子_US_美国_171
+      - Ytb:冰河圈子_US_美国_172
+      - Ytb:冰河圈子_US_美国_173
+      - Ytb:冰河圈子_US_美国_174
+      - Ytb:冰河圈子_US_美国_175
+      - Ytb:冰河圈子_US_美国_176
+      - Ytb:冰河圈子_US_美国_177
+      - Ytb:冰河圈子_US_美国_178
+      - Ytb:冰河圈子_US_美国_179
+      - Ytb:冰河圈子_US_美国_180
+      - Ytb:冰河圈子_US_美国_181
+      - Ytb:冰河圈子_US_美国_182
+      - Ytb:冰河圈子_US_美国_183
+      - Ytb:冰河圈子_US_美国_184
+      - Ytb:冰河圈子_US_美国_185
+      - Ytb:冰河圈子_US_美国_186
+      - Ytb:冰河圈子_US_美国_187
+      - Ytb:冰河圈子_US_美国_188
+      - Ytb:冰河圈子_US_美国_189
+      - Ytb:冰河圈子_US_美国_190
+      - Ytb:冰河圈子_US_美国_191
+      - Ytb:冰河圈子_US_美国_192
+      - Ytb:冰河圈子_US_美国_193
+      - Ytb:冰河圈子_US_美国_194
+      - Ytb:冰河圈子_US_美国_195
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Ytb:鹏哥分享_PH_菲律宾_1
-      - Ytb:鹏哥分享_ID_印度尼西亚_2
-      - Ytb:鹏哥分享_FR_法国_3
-      - Ytb:鹏哥分享_AT_奥地利_4
-      - Ytb:鹏哥分享_US_美国_5
-      - Ytb:鹏哥分享_US_美国_6
-      - Ytb:鹏哥分享_US_美国_7
-      - Ytb:鹏哥分享_US_美国_8
-      - Ytb:鹏哥分享_US_美国_9
-      - Ytb:鹏哥分享_US_美国_10
-      - Ytb:鹏哥分享_US_美国_11
-      - Ytb:鹏哥分享_US_美国_12
-      - Ytb:鹏哥分享_MX_墨西哥_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_US_美国_17
-      - Ytb:鹏哥分享_CH_瑞士_18
-      - Ytb:鹏哥分享_US_美国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
-      - Ytb:鹏哥分享_US_美国_22
-      - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_US_美国_25
-      - Ytb:鹏哥分享_AU_澳大利亚_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_US_美国_28
-      - Ytb:鹏哥分享_AU_澳大利亚_29
-      - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_AU_澳大利亚_31
-      - Ytb:鹏哥分享_CA_加拿大_32
-      - Ytb:鹏哥分享_CA_加拿大_33
-      - Ytb:鹏哥分享_CA_加拿大_34
-      - Ytb:鹏哥分享_US_美国_35
-      - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_US_美国_37
-      - Ytb:鹏哥分享_US_美国_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_US_美国_40
-      - Ytb:鹏哥分享_AU_澳大利亚_41
-      - Ytb:鹏哥分享_US_美国_42
-      - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_AU_澳大利亚_44
-      - Ytb:鹏哥分享_AU_澳大利亚_45
-      - Ytb:鹏哥分享_US_美国_46
-      - Ytb:鹏哥分享_US_美国_47
-      - Ytb:鹏哥分享_AU_澳大利亚_48
-      - Ytb:鹏哥分享_BG_保加利亚_49
-      - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_AU_澳大利亚_51
-      - Ytb:鹏哥分享_US_美国_52
-      - Ytb:鹏哥分享_US_美国_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_AU_澳大利亚_55
-      - Ytb:鹏哥分享_US_美国_56
-      - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_US_美国_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_US_美国_61
-      - Ytb:鹏哥分享_AU_澳大利亚_62
-      - Ytb:鹏哥分享_PT_葡萄牙_63
-      - Ytb:鹏哥分享_AU_澳大利亚_64
-      - Ytb:鹏哥分享_FR_法国_65
-      - Ytb:鹏哥分享_NO_挪威_66
-      - Ytb:鹏哥分享_FR_法国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_FR_法国_72
-      - Ytb:鹏哥分享_GB_英国_73
-      - Ytb:鹏哥分享_GB_英国_74
-      - Ytb:鹏哥分享_GB_英国_75
-      - Ytb:鹏哥分享_US_美国_76
-      - Ytb:鹏哥分享_CA_加拿大_77
-      - Ytb:鹏哥分享_FR_法国_78
-      - Ytb:鹏哥分享_NO_挪威_79
-      - Ytb:鹏哥分享_PT_葡萄牙_80
-      - Ytb:鹏哥分享_US_美国_81
-      - Ytb:鹏哥分享_TW_台湾_82
-      - Ytb:鹏哥分享_US_美国_83
-      - Ytb:鹏哥分享_CA_加拿大_84
-      - Ytb:鹏哥分享_CA_加拿大_85
-      - Ytb:鹏哥分享_FR_法国_86
-      - Ytb:鹏哥分享_CA_加拿大_87
-      - Ytb:鹏哥分享_CA_加拿大_88
-      - Ytb:鹏哥分享_FR_法国_89
-      - Ytb:鹏哥分享_GB_英国_90
-      - Ytb:鹏哥分享_NO_挪威_91
-      - Ytb:鹏哥分享_US_美国_92
-      - Ytb:鹏哥分享_AU_澳大利亚_93
-      - Ytb:鹏哥分享_FR_法国_94
-      - Ytb:鹏哥分享_GB_英国_95
-      - Ytb:鹏哥分享_NO_挪威_96
-      - Ytb:鹏哥分享_NO_挪威_97
-      - Ytb:鹏哥分享_NO_挪威_98
-      - Ytb:鹏哥分享_NO_挪威_99
-      - Ytb:鹏哥分享_NO_挪威_100
-      - Ytb:鹏哥分享_AU_澳大利亚_101
-      - Ytb:鹏哥分享_FR_法国_102
-      - Ytb:鹏哥分享_CA_加拿大_103
-      - Ytb:鹏哥分享_FR_法国_104
-      - Ytb:鹏哥分享_GB_英国_105
-      - Ytb:鹏哥分享_GB_英国_106
-      - Ytb:鹏哥分享_NO_挪威_107
-      - Ytb:鹏哥分享_DK_丹麦_108
-      - Ytb:鹏哥分享_GB_英国_109
-      - Ytb:鹏哥分享_NO_挪威_110
-      - Ytb:鹏哥分享_NO_挪威_111
-      - Ytb:鹏哥分享_SE_瑞典_112
-      - Ytb:鹏哥分享_113
-      - Ytb:鹏哥分享_NO_挪威_114
-      - Ytb:鹏哥分享_NO_挪威_115
-      - Ytb:鹏哥分享_US_美国_116
-      - Ytb:鹏哥分享_US_美国_117
-      - Ytb:鹏哥分享_US_美国_118
-      - Ytb:鹏哥分享_US_美国_119
-      - Ytb:鹏哥分享_US_美国_120
-      - Ytb:鹏哥分享_US_美国_121
-      - Ytb:鹏哥分享_AU_澳大利亚_122
-      - Ytb:鹏哥分享_FR_法国_123
-      - Ytb:鹏哥分享_FR_法国_124
-      - Ytb:鹏哥分享_FR_法国_125
-      - Ytb:鹏哥分享_GR_希腊_126
-      - Ytb:鹏哥分享_US_美国_127
-      - Ytb:鹏哥分享_US_美国_128
-      - Ytb:鹏哥分享_US_美国_129
-      - Ytb:鹏哥分享_US_美国_130
-      - Ytb:鹏哥分享_US_美国_131
-      - Ytb:鹏哥分享_US_美国_132
-      - Ytb:鹏哥分享_US_美国_133
-      - Ytb:鹏哥分享_US_美国_134
-      - Ytb:鹏哥分享_US_美国_135
-      - Ytb:鹏哥分享_US_美国_136
-      - Ytb:鹏哥分享_US_美国_137
-      - Ytb:鹏哥分享_US_美国_138
-      - Ytb:鹏哥分享_US_美国_139
-      - Ytb:鹏哥分享_US_美国_140
-      - Ytb:鹏哥分享_US_美国_141
-      - Ytb:鹏哥分享_AU_澳大利亚_142
-      - Ytb:鹏哥分享_AU_澳大利亚_143
-      - Ytb:鹏哥分享_AU_澳大利亚_144
-      - Ytb:鹏哥分享_AU_澳大利亚_145
-      - Ytb:鹏哥分享_AU_澳大利亚_146
-      - Ytb:鹏哥分享_AU_澳大利亚_147
-      - Ytb:鹏哥分享_US_美国_148
-      - Ytb:鹏哥分享_US_美国_149
-      - Ytb:鹏哥分享_US_美国_150
-      - Ytb:鹏哥分享_US_美国_151
-      - Ytb:鹏哥分享_US_美国_152
-      - Ytb:鹏哥分享_US_美国_153
-      - Ytb:鹏哥分享_AU_澳大利亚_154
-      - Ytb:鹏哥分享_AU_澳大利亚_155
-      - Ytb:鹏哥分享_AU_澳大利亚_156
-      - Ytb:鹏哥分享_FR_法国_157
-      - Ytb:鹏哥分享_FR_法国_158
-      - Ytb:鹏哥分享_FR_法国_159
-      - Ytb:鹏哥分享_FR_法国_160
-      - Ytb:鹏哥分享_HK_香港_161
-      - Ytb:鹏哥分享_HK_香港_162
-      - Ytb:鹏哥分享_HK_香港_163
-      - Ytb:鹏哥分享_HK_香港_164
-      - Ytb:鹏哥分享_HK_香港_165
-      - Ytb:鹏哥分享_RU_俄罗斯联邦_166
-      - Ytb:鹏哥分享_US_美国_167
-      - Ytb:鹏哥分享_US_美国_168
-      - Ytb:鹏哥分享_US_美国_169
-      - Ytb:鹏哥分享_US_美国_170
-      - Ytb:鹏哥分享_US_美国_171
-      - Ytb:鹏哥分享_US_美国_172
-      - Ytb:鹏哥分享_US_美国_173
-      - Ytb:鹏哥分享_US_美国_174
-      - Ytb:鹏哥分享_US_美国_175
-      - Ytb:鹏哥分享_US_美国_176
-      - Ytb:鹏哥分享_US_美国_177
-      - Ytb:鹏哥分享_US_美国_178
-      - Ytb:鹏哥分享_US_美国_179
-      - Ytb:鹏哥分享_US_美国_180
-      - Ytb:鹏哥分享_US_美国_181
-      - Ytb:鹏哥分享_US_美国_182
-      - Ytb:鹏哥分享_US_美国_183
-      - Ytb:鹏哥分享_US_美国_184
-      - Ytb:鹏哥分享_US_美国_185
-      - Ytb:鹏哥分享_US_美国_186
-      - Ytb:鹏哥分享_US_美国_187
-      - Ytb:鹏哥分享_US_美国_188
-      - Ytb:鹏哥分享_US_美国_189
-      - Ytb:鹏哥分享_US_美国_190
-      - Ytb:鹏哥分享_US_美国_191
-      - Ytb:鹏哥分享_US_美国_192
-      - Ytb:鹏哥分享_US_美国_193
-      - Ytb:鹏哥分享_US_美国_194
-      - Ytb:鹏哥分享_US_美国_195
+      - Ytb:冰河圈子_PH_菲律宾_1
+      - Ytb:冰河圈子_ID_印度尼西亚_2
+      - Ytb:冰河圈子_FR_法国_3
+      - Ytb:冰河圈子_AT_奥地利_4
+      - Ytb:冰河圈子_US_美国_5
+      - Ytb:冰河圈子_US_美国_6
+      - Ytb:冰河圈子_US_美国_7
+      - Ytb:冰河圈子_US_美国_8
+      - Ytb:冰河圈子_US_美国_9
+      - Ytb:冰河圈子_US_美国_10
+      - Ytb:冰河圈子_US_美国_11
+      - Ytb:冰河圈子_US_美国_12
+      - Ytb:冰河圈子_MX_墨西哥_13
+      - Ytb:冰河圈子_US_美国_14
+      - Ytb:冰河圈子_US_美国_15
+      - Ytb:冰河圈子_US_美国_16
+      - Ytb:冰河圈子_US_美国_17
+      - Ytb:冰河圈子_CH_瑞士_18
+      - Ytb:冰河圈子_US_美国_19
+      - Ytb:冰河圈子_US_美国_20
+      - Ytb:冰河圈子_US_美国_21
+      - Ytb:冰河圈子_US_美国_22
+      - Ytb:冰河圈子_US_美国_23
+      - Ytb:冰河圈子_US_美国_24
+      - Ytb:冰河圈子_US_美国_25
+      - Ytb:冰河圈子_AU_澳大利亚_26
+      - Ytb:冰河圈子_US_美国_27
+      - Ytb:冰河圈子_US_美国_28
+      - Ytb:冰河圈子_AU_澳大利亚_29
+      - Ytb:冰河圈子_US_美国_30
+      - Ytb:冰河圈子_AU_澳大利亚_31
+      - Ytb:冰河圈子_CA_加拿大_32
+      - Ytb:冰河圈子_CA_加拿大_33
+      - Ytb:冰河圈子_CA_加拿大_34
+      - Ytb:冰河圈子_US_美国_35
+      - Ytb:冰河圈子_US_美国_36
+      - Ytb:冰河圈子_US_美国_37
+      - Ytb:冰河圈子_US_美国_38
+      - Ytb:冰河圈子_US_美国_39
+      - Ytb:冰河圈子_US_美国_40
+      - Ytb:冰河圈子_AU_澳大利亚_41
+      - Ytb:冰河圈子_US_美国_42
+      - Ytb:冰河圈子_US_美国_43
+      - Ytb:冰河圈子_AU_澳大利亚_44
+      - Ytb:冰河圈子_AU_澳大利亚_45
+      - Ytb:冰河圈子_US_美国_46
+      - Ytb:冰河圈子_US_美国_47
+      - Ytb:冰河圈子_AU_澳大利亚_48
+      - Ytb:冰河圈子_BG_保加利亚_49
+      - Ytb:冰河圈子_US_美国_50
+      - Ytb:冰河圈子_AU_澳大利亚_51
+      - Ytb:冰河圈子_US_美国_52
+      - Ytb:冰河圈子_US_美国_53
+      - Ytb:冰河圈子_US_美国_54
+      - Ytb:冰河圈子_AU_澳大利亚_55
+      - Ytb:冰河圈子_US_美国_56
+      - Ytb:冰河圈子_US_美国_57
+      - Ytb:冰河圈子_US_美国_58
+      - Ytb:冰河圈子_US_美国_59
+      - Ytb:冰河圈子_US_美国_60
+      - Ytb:冰河圈子_US_美国_61
+      - Ytb:冰河圈子_AU_澳大利亚_62
+      - Ytb:冰河圈子_PT_葡萄牙_63
+      - Ytb:冰河圈子_AU_澳大利亚_64
+      - Ytb:冰河圈子_FR_法国_65
+      - Ytb:冰河圈子_NO_挪威_66
+      - Ytb:冰河圈子_FR_法国_67
+      - Ytb:冰河圈子_US_美国_68
+      - Ytb:冰河圈子_CA_加拿大_69
+      - Ytb:冰河圈子_CA_加拿大_70
+      - Ytb:冰河圈子_CA_加拿大_71
+      - Ytb:冰河圈子_FR_法国_72
+      - Ytb:冰河圈子_GB_英国_73
+      - Ytb:冰河圈子_GB_英国_74
+      - Ytb:冰河圈子_GB_英国_75
+      - Ytb:冰河圈子_US_美国_76
+      - Ytb:冰河圈子_CA_加拿大_77
+      - Ytb:冰河圈子_FR_法国_78
+      - Ytb:冰河圈子_NO_挪威_79
+      - Ytb:冰河圈子_PT_葡萄牙_80
+      - Ytb:冰河圈子_US_美国_81
+      - Ytb:冰河圈子_TW_台湾_82
+      - Ytb:冰河圈子_US_美国_83
+      - Ytb:冰河圈子_CA_加拿大_84
+      - Ytb:冰河圈子_CA_加拿大_85
+      - Ytb:冰河圈子_FR_法国_86
+      - Ytb:冰河圈子_CA_加拿大_87
+      - Ytb:冰河圈子_CA_加拿大_88
+      - Ytb:冰河圈子_FR_法国_89
+      - Ytb:冰河圈子_GB_英国_90
+      - Ytb:冰河圈子_NO_挪威_91
+      - Ytb:冰河圈子_US_美国_92
+      - Ytb:冰河圈子_AU_澳大利亚_93
+      - Ytb:冰河圈子_FR_法国_94
+      - Ytb:冰河圈子_GB_英国_95
+      - Ytb:冰河圈子_NO_挪威_96
+      - Ytb:冰河圈子_NO_挪威_97
+      - Ytb:冰河圈子_NO_挪威_98
+      - Ytb:冰河圈子_NO_挪威_99
+      - Ytb:冰河圈子_NO_挪威_100
+      - Ytb:冰河圈子_AU_澳大利亚_101
+      - Ytb:冰河圈子_FR_法国_102
+      - Ytb:冰河圈子_CA_加拿大_103
+      - Ytb:冰河圈子_FR_法国_104
+      - Ytb:冰河圈子_GB_英国_105
+      - Ytb:冰河圈子_GB_英国_106
+      - Ytb:冰河圈子_NO_挪威_107
+      - Ytb:冰河圈子_DK_丹麦_108
+      - Ytb:冰河圈子_GB_英国_109
+      - Ytb:冰河圈子_NO_挪威_110
+      - Ytb:冰河圈子_NO_挪威_111
+      - Ytb:冰河圈子_SE_瑞典_112
+      - Ytb:冰河圈子_US_美国_113
+      - Ytb:冰河圈子_NO_挪威_114
+      - Ytb:冰河圈子_NO_挪威_115
+      - Ytb:冰河圈子_US_美国_116
+      - Ytb:冰河圈子_US_美国_117
+      - Ytb:冰河圈子_US_美国_118
+      - Ytb:冰河圈子_US_美国_119
+      - Ytb:冰河圈子_US_美国_120
+      - Ytb:冰河圈子_US_美国_121
+      - Ytb:冰河圈子_AU_澳大利亚_122
+      - Ytb:冰河圈子_FR_法国_123
+      - Ytb:冰河圈子_FR_法国_124
+      - Ytb:冰河圈子_FR_法国_125
+      - Ytb:冰河圈子_GR_希腊_126
+      - Ytb:冰河圈子_US_美国_127
+      - Ytb:冰河圈子_US_美国_128
+      - Ytb:冰河圈子_US_美国_129
+      - Ytb:冰河圈子_US_美国_130
+      - Ytb:冰河圈子_US_美国_131
+      - Ytb:冰河圈子_US_美国_132
+      - Ytb:冰河圈子_US_美国_133
+      - Ytb:冰河圈子_US_美国_134
+      - Ytb:冰河圈子_US_美国_135
+      - Ytb:冰河圈子_US_美国_136
+      - Ytb:冰河圈子_US_美国_137
+      - Ytb:冰河圈子_US_美国_138
+      - Ytb:冰河圈子_US_美国_139
+      - Ytb:冰河圈子_US_美国_140
+      - Ytb:冰河圈子_US_美国_141
+      - Ytb:冰河圈子_AU_澳大利亚_142
+      - Ytb:冰河圈子_AU_澳大利亚_143
+      - Ytb:冰河圈子_AU_澳大利亚_144
+      - Ytb:冰河圈子_AU_澳大利亚_145
+      - Ytb:冰河圈子_AU_澳大利亚_146
+      - Ytb:冰河圈子_AU_澳大利亚_147
+      - Ytb:冰河圈子_US_美国_148
+      - Ytb:冰河圈子_US_美国_149
+      - Ytb:冰河圈子_US_美国_150
+      - Ytb:冰河圈子_US_美国_151
+      - Ytb:冰河圈子_US_美国_152
+      - Ytb:冰河圈子_US_美国_153
+      - Ytb:冰河圈子_AU_澳大利亚_154
+      - Ytb:冰河圈子_AU_澳大利亚_155
+      - Ytb:冰河圈子_AU_澳大利亚_156
+      - Ytb:冰河圈子_FR_法国_157
+      - Ytb:冰河圈子_FR_法国_158
+      - Ytb:冰河圈子_FR_法国_159
+      - Ytb:冰河圈子_FR_法国_160
+      - Ytb:冰河圈子_HK_香港_161
+      - Ytb:冰河圈子_HK_香港_162
+      - Ytb:冰河圈子_HK_香港_163
+      - Ytb:冰河圈子_HK_香港_164
+      - Ytb:冰河圈子_HK_香港_165
+      - Ytb:冰河圈子_RU_俄罗斯联邦_166
+      - Ytb:冰河圈子_US_美国_167
+      - Ytb:冰河圈子_US_美国_168
+      - Ytb:冰河圈子_US_美国_169
+      - Ytb:冰河圈子_US_美国_170
+      - Ytb:冰河圈子_US_美国_171
+      - Ytb:冰河圈子_US_美国_172
+      - Ytb:冰河圈子_US_美国_173
+      - Ytb:冰河圈子_US_美国_174
+      - Ytb:冰河圈子_US_美国_175
+      - Ytb:冰河圈子_US_美国_176
+      - Ytb:冰河圈子_US_美国_177
+      - Ytb:冰河圈子_US_美国_178
+      - Ytb:冰河圈子_US_美国_179
+      - Ytb:冰河圈子_US_美国_180
+      - Ytb:冰河圈子_US_美国_181
+      - Ytb:冰河圈子_US_美国_182
+      - Ytb:冰河圈子_US_美国_183
+      - Ytb:冰河圈子_US_美国_184
+      - Ytb:冰河圈子_US_美国_185
+      - Ytb:冰河圈子_US_美国_186
+      - Ytb:冰河圈子_US_美国_187
+      - Ytb:冰河圈子_US_美国_188
+      - Ytb:冰河圈子_US_美国_189
+      - Ytb:冰河圈子_US_美国_190
+      - Ytb:冰河圈子_US_美国_191
+      - Ytb:冰河圈子_US_美国_192
+      - Ytb:冰河圈子_US_美国_193
+      - Ytb:冰河圈子_US_美国_194
+      - Ytb:冰河圈子_US_美国_195
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Ytb:鹏哥分享_PH_菲律宾_1
-      - Ytb:鹏哥分享_ID_印度尼西亚_2
-      - Ytb:鹏哥分享_FR_法国_3
-      - Ytb:鹏哥分享_AT_奥地利_4
-      - Ytb:鹏哥分享_US_美国_5
-      - Ytb:鹏哥分享_US_美国_6
-      - Ytb:鹏哥分享_US_美国_7
-      - Ytb:鹏哥分享_US_美国_8
-      - Ytb:鹏哥分享_US_美国_9
-      - Ytb:鹏哥分享_US_美国_10
-      - Ytb:鹏哥分享_US_美国_11
-      - Ytb:鹏哥分享_US_美国_12
-      - Ytb:鹏哥分享_MX_墨西哥_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_US_美国_17
-      - Ytb:鹏哥分享_CH_瑞士_18
-      - Ytb:鹏哥分享_US_美国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
-      - Ytb:鹏哥分享_US_美国_22
-      - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_US_美国_25
-      - Ytb:鹏哥分享_AU_澳大利亚_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_US_美国_28
-      - Ytb:鹏哥分享_AU_澳大利亚_29
-      - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_AU_澳大利亚_31
-      - Ytb:鹏哥分享_CA_加拿大_32
-      - Ytb:鹏哥分享_CA_加拿大_33
-      - Ytb:鹏哥分享_CA_加拿大_34
-      - Ytb:鹏哥分享_US_美国_35
-      - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_US_美国_37
-      - Ytb:鹏哥分享_US_美国_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_US_美国_40
-      - Ytb:鹏哥分享_AU_澳大利亚_41
-      - Ytb:鹏哥分享_US_美国_42
-      - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_AU_澳大利亚_44
-      - Ytb:鹏哥分享_AU_澳大利亚_45
-      - Ytb:鹏哥分享_US_美国_46
-      - Ytb:鹏哥分享_US_美国_47
-      - Ytb:鹏哥分享_AU_澳大利亚_48
-      - Ytb:鹏哥分享_BG_保加利亚_49
-      - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_AU_澳大利亚_51
-      - Ytb:鹏哥分享_US_美国_52
-      - Ytb:鹏哥分享_US_美国_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_AU_澳大利亚_55
-      - Ytb:鹏哥分享_US_美国_56
-      - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_US_美国_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_US_美国_61
-      - Ytb:鹏哥分享_AU_澳大利亚_62
-      - Ytb:鹏哥分享_PT_葡萄牙_63
-      - Ytb:鹏哥分享_AU_澳大利亚_64
-      - Ytb:鹏哥分享_FR_法国_65
-      - Ytb:鹏哥分享_NO_挪威_66
-      - Ytb:鹏哥分享_FR_法国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_FR_法国_72
-      - Ytb:鹏哥分享_GB_英国_73
-      - Ytb:鹏哥分享_GB_英国_74
-      - Ytb:鹏哥分享_GB_英国_75
-      - Ytb:鹏哥分享_US_美国_76
-      - Ytb:鹏哥分享_CA_加拿大_77
-      - Ytb:鹏哥分享_FR_法国_78
-      - Ytb:鹏哥分享_NO_挪威_79
-      - Ytb:鹏哥分享_PT_葡萄牙_80
-      - Ytb:鹏哥分享_US_美国_81
-      - Ytb:鹏哥分享_TW_台湾_82
-      - Ytb:鹏哥分享_US_美国_83
-      - Ytb:鹏哥分享_CA_加拿大_84
-      - Ytb:鹏哥分享_CA_加拿大_85
-      - Ytb:鹏哥分享_FR_法国_86
-      - Ytb:鹏哥分享_CA_加拿大_87
-      - Ytb:鹏哥分享_CA_加拿大_88
-      - Ytb:鹏哥分享_FR_法国_89
-      - Ytb:鹏哥分享_GB_英国_90
-      - Ytb:鹏哥分享_NO_挪威_91
-      - Ytb:鹏哥分享_US_美国_92
-      - Ytb:鹏哥分享_AU_澳大利亚_93
-      - Ytb:鹏哥分享_FR_法国_94
-      - Ytb:鹏哥分享_GB_英国_95
-      - Ytb:鹏哥分享_NO_挪威_96
-      - Ytb:鹏哥分享_NO_挪威_97
-      - Ytb:鹏哥分享_NO_挪威_98
-      - Ytb:鹏哥分享_NO_挪威_99
-      - Ytb:鹏哥分享_NO_挪威_100
-      - Ytb:鹏哥分享_AU_澳大利亚_101
-      - Ytb:鹏哥分享_FR_法国_102
-      - Ytb:鹏哥分享_CA_加拿大_103
-      - Ytb:鹏哥分享_FR_法国_104
-      - Ytb:鹏哥分享_GB_英国_105
-      - Ytb:鹏哥分享_GB_英国_106
-      - Ytb:鹏哥分享_NO_挪威_107
-      - Ytb:鹏哥分享_DK_丹麦_108
-      - Ytb:鹏哥分享_GB_英国_109
-      - Ytb:鹏哥分享_NO_挪威_110
-      - Ytb:鹏哥分享_NO_挪威_111
-      - Ytb:鹏哥分享_SE_瑞典_112
-      - Ytb:鹏哥分享_113
-      - Ytb:鹏哥分享_NO_挪威_114
-      - Ytb:鹏哥分享_NO_挪威_115
-      - Ytb:鹏哥分享_US_美国_116
-      - Ytb:鹏哥分享_US_美国_117
-      - Ytb:鹏哥分享_US_美国_118
-      - Ytb:鹏哥分享_US_美国_119
-      - Ytb:鹏哥分享_US_美国_120
-      - Ytb:鹏哥分享_US_美国_121
-      - Ytb:鹏哥分享_AU_澳大利亚_122
-      - Ytb:鹏哥分享_FR_法国_123
-      - Ytb:鹏哥分享_FR_法国_124
-      - Ytb:鹏哥分享_FR_法国_125
-      - Ytb:鹏哥分享_GR_希腊_126
-      - Ytb:鹏哥分享_US_美国_127
-      - Ytb:鹏哥分享_US_美国_128
-      - Ytb:鹏哥分享_US_美国_129
-      - Ytb:鹏哥分享_US_美国_130
-      - Ytb:鹏哥分享_US_美国_131
-      - Ytb:鹏哥分享_US_美国_132
-      - Ytb:鹏哥分享_US_美国_133
-      - Ytb:鹏哥分享_US_美国_134
-      - Ytb:鹏哥分享_US_美国_135
-      - Ytb:鹏哥分享_US_美国_136
-      - Ytb:鹏哥分享_US_美国_137
-      - Ytb:鹏哥分享_US_美国_138
-      - Ytb:鹏哥分享_US_美国_139
-      - Ytb:鹏哥分享_US_美国_140
-      - Ytb:鹏哥分享_US_美国_141
-      - Ytb:鹏哥分享_AU_澳大利亚_142
-      - Ytb:鹏哥分享_AU_澳大利亚_143
-      - Ytb:鹏哥分享_AU_澳大利亚_144
-      - Ytb:鹏哥分享_AU_澳大利亚_145
-      - Ytb:鹏哥分享_AU_澳大利亚_146
-      - Ytb:鹏哥分享_AU_澳大利亚_147
-      - Ytb:鹏哥分享_US_美国_148
-      - Ytb:鹏哥分享_US_美国_149
-      - Ytb:鹏哥分享_US_美国_150
-      - Ytb:鹏哥分享_US_美国_151
-      - Ytb:鹏哥分享_US_美国_152
-      - Ytb:鹏哥分享_US_美国_153
-      - Ytb:鹏哥分享_AU_澳大利亚_154
-      - Ytb:鹏哥分享_AU_澳大利亚_155
-      - Ytb:鹏哥分享_AU_澳大利亚_156
-      - Ytb:鹏哥分享_FR_法国_157
-      - Ytb:鹏哥分享_FR_法国_158
-      - Ytb:鹏哥分享_FR_法国_159
-      - Ytb:鹏哥分享_FR_法国_160
-      - Ytb:鹏哥分享_HK_香港_161
-      - Ytb:鹏哥分享_HK_香港_162
-      - Ytb:鹏哥分享_HK_香港_163
-      - Ytb:鹏哥分享_HK_香港_164
-      - Ytb:鹏哥分享_HK_香港_165
-      - Ytb:鹏哥分享_RU_俄罗斯联邦_166
-      - Ytb:鹏哥分享_US_美国_167
-      - Ytb:鹏哥分享_US_美国_168
-      - Ytb:鹏哥分享_US_美国_169
-      - Ytb:鹏哥分享_US_美国_170
-      - Ytb:鹏哥分享_US_美国_171
-      - Ytb:鹏哥分享_US_美国_172
-      - Ytb:鹏哥分享_US_美国_173
-      - Ytb:鹏哥分享_US_美国_174
-      - Ytb:鹏哥分享_US_美国_175
-      - Ytb:鹏哥分享_US_美国_176
-      - Ytb:鹏哥分享_US_美国_177
-      - Ytb:鹏哥分享_US_美国_178
-      - Ytb:鹏哥分享_US_美国_179
-      - Ytb:鹏哥分享_US_美国_180
-      - Ytb:鹏哥分享_US_美国_181
-      - Ytb:鹏哥分享_US_美国_182
-      - Ytb:鹏哥分享_US_美国_183
-      - Ytb:鹏哥分享_US_美国_184
-      - Ytb:鹏哥分享_US_美国_185
-      - Ytb:鹏哥分享_US_美国_186
-      - Ytb:鹏哥分享_US_美国_187
-      - Ytb:鹏哥分享_US_美国_188
-      - Ytb:鹏哥分享_US_美国_189
-      - Ytb:鹏哥分享_US_美国_190
-      - Ytb:鹏哥分享_US_美国_191
-      - Ytb:鹏哥分享_US_美国_192
-      - Ytb:鹏哥分享_US_美国_193
-      - Ytb:鹏哥分享_US_美国_194
-      - Ytb:鹏哥分享_US_美国_195
+      - Ytb:冰河圈子_PH_菲律宾_1
+      - Ytb:冰河圈子_ID_印度尼西亚_2
+      - Ytb:冰河圈子_FR_法国_3
+      - Ytb:冰河圈子_AT_奥地利_4
+      - Ytb:冰河圈子_US_美国_5
+      - Ytb:冰河圈子_US_美国_6
+      - Ytb:冰河圈子_US_美国_7
+      - Ytb:冰河圈子_US_美国_8
+      - Ytb:冰河圈子_US_美国_9
+      - Ytb:冰河圈子_US_美国_10
+      - Ytb:冰河圈子_US_美国_11
+      - Ytb:冰河圈子_US_美国_12
+      - Ytb:冰河圈子_MX_墨西哥_13
+      - Ytb:冰河圈子_US_美国_14
+      - Ytb:冰河圈子_US_美国_15
+      - Ytb:冰河圈子_US_美国_16
+      - Ytb:冰河圈子_US_美国_17
+      - Ytb:冰河圈子_CH_瑞士_18
+      - Ytb:冰河圈子_US_美国_19
+      - Ytb:冰河圈子_US_美国_20
+      - Ytb:冰河圈子_US_美国_21
+      - Ytb:冰河圈子_US_美国_22
+      - Ytb:冰河圈子_US_美国_23
+      - Ytb:冰河圈子_US_美国_24
+      - Ytb:冰河圈子_US_美国_25
+      - Ytb:冰河圈子_AU_澳大利亚_26
+      - Ytb:冰河圈子_US_美国_27
+      - Ytb:冰河圈子_US_美国_28
+      - Ytb:冰河圈子_AU_澳大利亚_29
+      - Ytb:冰河圈子_US_美国_30
+      - Ytb:冰河圈子_AU_澳大利亚_31
+      - Ytb:冰河圈子_CA_加拿大_32
+      - Ytb:冰河圈子_CA_加拿大_33
+      - Ytb:冰河圈子_CA_加拿大_34
+      - Ytb:冰河圈子_US_美国_35
+      - Ytb:冰河圈子_US_美国_36
+      - Ytb:冰河圈子_US_美国_37
+      - Ytb:冰河圈子_US_美国_38
+      - Ytb:冰河圈子_US_美国_39
+      - Ytb:冰河圈子_US_美国_40
+      - Ytb:冰河圈子_AU_澳大利亚_41
+      - Ytb:冰河圈子_US_美国_42
+      - Ytb:冰河圈子_US_美国_43
+      - Ytb:冰河圈子_AU_澳大利亚_44
+      - Ytb:冰河圈子_AU_澳大利亚_45
+      - Ytb:冰河圈子_US_美国_46
+      - Ytb:冰河圈子_US_美国_47
+      - Ytb:冰河圈子_AU_澳大利亚_48
+      - Ytb:冰河圈子_BG_保加利亚_49
+      - Ytb:冰河圈子_US_美国_50
+      - Ytb:冰河圈子_AU_澳大利亚_51
+      - Ytb:冰河圈子_US_美国_52
+      - Ytb:冰河圈子_US_美国_53
+      - Ytb:冰河圈子_US_美国_54
+      - Ytb:冰河圈子_AU_澳大利亚_55
+      - Ytb:冰河圈子_US_美国_56
+      - Ytb:冰河圈子_US_美国_57
+      - Ytb:冰河圈子_US_美国_58
+      - Ytb:冰河圈子_US_美国_59
+      - Ytb:冰河圈子_US_美国_60
+      - Ytb:冰河圈子_US_美国_61
+      - Ytb:冰河圈子_AU_澳大利亚_62
+      - Ytb:冰河圈子_PT_葡萄牙_63
+      - Ytb:冰河圈子_AU_澳大利亚_64
+      - Ytb:冰河圈子_FR_法国_65
+      - Ytb:冰河圈子_NO_挪威_66
+      - Ytb:冰河圈子_FR_法国_67
+      - Ytb:冰河圈子_US_美国_68
+      - Ytb:冰河圈子_CA_加拿大_69
+      - Ytb:冰河圈子_CA_加拿大_70
+      - Ytb:冰河圈子_CA_加拿大_71
+      - Ytb:冰河圈子_FR_法国_72
+      - Ytb:冰河圈子_GB_英国_73
+      - Ytb:冰河圈子_GB_英国_74
+      - Ytb:冰河圈子_GB_英国_75
+      - Ytb:冰河圈子_US_美国_76
+      - Ytb:冰河圈子_CA_加拿大_77
+      - Ytb:冰河圈子_FR_法国_78
+      - Ytb:冰河圈子_NO_挪威_79
+      - Ytb:冰河圈子_PT_葡萄牙_80
+      - Ytb:冰河圈子_US_美国_81
+      - Ytb:冰河圈子_TW_台湾_82
+      - Ytb:冰河圈子_US_美国_83
+      - Ytb:冰河圈子_CA_加拿大_84
+      - Ytb:冰河圈子_CA_加拿大_85
+      - Ytb:冰河圈子_FR_法国_86
+      - Ytb:冰河圈子_CA_加拿大_87
+      - Ytb:冰河圈子_CA_加拿大_88
+      - Ytb:冰河圈子_FR_法国_89
+      - Ytb:冰河圈子_GB_英国_90
+      - Ytb:冰河圈子_NO_挪威_91
+      - Ytb:冰河圈子_US_美国_92
+      - Ytb:冰河圈子_AU_澳大利亚_93
+      - Ytb:冰河圈子_FR_法国_94
+      - Ytb:冰河圈子_GB_英国_95
+      - Ytb:冰河圈子_NO_挪威_96
+      - Ytb:冰河圈子_NO_挪威_97
+      - Ytb:冰河圈子_NO_挪威_98
+      - Ytb:冰河圈子_NO_挪威_99
+      - Ytb:冰河圈子_NO_挪威_100
+      - Ytb:冰河圈子_AU_澳大利亚_101
+      - Ytb:冰河圈子_FR_法国_102
+      - Ytb:冰河圈子_CA_加拿大_103
+      - Ytb:冰河圈子_FR_法国_104
+      - Ytb:冰河圈子_GB_英国_105
+      - Ytb:冰河圈子_GB_英国_106
+      - Ytb:冰河圈子_NO_挪威_107
+      - Ytb:冰河圈子_DK_丹麦_108
+      - Ytb:冰河圈子_GB_英国_109
+      - Ytb:冰河圈子_NO_挪威_110
+      - Ytb:冰河圈子_NO_挪威_111
+      - Ytb:冰河圈子_SE_瑞典_112
+      - Ytb:冰河圈子_US_美国_113
+      - Ytb:冰河圈子_NO_挪威_114
+      - Ytb:冰河圈子_NO_挪威_115
+      - Ytb:冰河圈子_US_美国_116
+      - Ytb:冰河圈子_US_美国_117
+      - Ytb:冰河圈子_US_美国_118
+      - Ytb:冰河圈子_US_美国_119
+      - Ytb:冰河圈子_US_美国_120
+      - Ytb:冰河圈子_US_美国_121
+      - Ytb:冰河圈子_AU_澳大利亚_122
+      - Ytb:冰河圈子_FR_法国_123
+      - Ytb:冰河圈子_FR_法国_124
+      - Ytb:冰河圈子_FR_法国_125
+      - Ytb:冰河圈子_GR_希腊_126
+      - Ytb:冰河圈子_US_美国_127
+      - Ytb:冰河圈子_US_美国_128
+      - Ytb:冰河圈子_US_美国_129
+      - Ytb:冰河圈子_US_美国_130
+      - Ytb:冰河圈子_US_美国_131
+      - Ytb:冰河圈子_US_美国_132
+      - Ytb:冰河圈子_US_美国_133
+      - Ytb:冰河圈子_US_美国_134
+      - Ytb:冰河圈子_US_美国_135
+      - Ytb:冰河圈子_US_美国_136
+      - Ytb:冰河圈子_US_美国_137
+      - Ytb:冰河圈子_US_美国_138
+      - Ytb:冰河圈子_US_美国_139
+      - Ytb:冰河圈子_US_美国_140
+      - Ytb:冰河圈子_US_美国_141
+      - Ytb:冰河圈子_AU_澳大利亚_142
+      - Ytb:冰河圈子_AU_澳大利亚_143
+      - Ytb:冰河圈子_AU_澳大利亚_144
+      - Ytb:冰河圈子_AU_澳大利亚_145
+      - Ytb:冰河圈子_AU_澳大利亚_146
+      - Ytb:冰河圈子_AU_澳大利亚_147
+      - Ytb:冰河圈子_US_美国_148
+      - Ytb:冰河圈子_US_美国_149
+      - Ytb:冰河圈子_US_美国_150
+      - Ytb:冰河圈子_US_美国_151
+      - Ytb:冰河圈子_US_美国_152
+      - Ytb:冰河圈子_US_美国_153
+      - Ytb:冰河圈子_AU_澳大利亚_154
+      - Ytb:冰河圈子_AU_澳大利亚_155
+      - Ytb:冰河圈子_AU_澳大利亚_156
+      - Ytb:冰河圈子_FR_法国_157
+      - Ytb:冰河圈子_FR_法国_158
+      - Ytb:冰河圈子_FR_法国_159
+      - Ytb:冰河圈子_FR_法国_160
+      - Ytb:冰河圈子_HK_香港_161
+      - Ytb:冰河圈子_HK_香港_162
+      - Ytb:冰河圈子_HK_香港_163
+      - Ytb:冰河圈子_HK_香港_164
+      - Ytb:冰河圈子_HK_香港_165
+      - Ytb:冰河圈子_RU_俄罗斯联邦_166
+      - Ytb:冰河圈子_US_美国_167
+      - Ytb:冰河圈子_US_美国_168
+      - Ytb:冰河圈子_US_美国_169
+      - Ytb:冰河圈子_US_美国_170
+      - Ytb:冰河圈子_US_美国_171
+      - Ytb:冰河圈子_US_美国_172
+      - Ytb:冰河圈子_US_美国_173
+      - Ytb:冰河圈子_US_美国_174
+      - Ytb:冰河圈子_US_美国_175
+      - Ytb:冰河圈子_US_美国_176
+      - Ytb:冰河圈子_US_美国_177
+      - Ytb:冰河圈子_US_美国_178
+      - Ytb:冰河圈子_US_美国_179
+      - Ytb:冰河圈子_US_美国_180
+      - Ytb:冰河圈子_US_美国_181
+      - Ytb:冰河圈子_US_美国_182
+      - Ytb:冰河圈子_US_美国_183
+      - Ytb:冰河圈子_US_美国_184
+      - Ytb:冰河圈子_US_美国_185
+      - Ytb:冰河圈子_US_美国_186
+      - Ytb:冰河圈子_US_美国_187
+      - Ytb:冰河圈子_US_美国_188
+      - Ytb:冰河圈子_US_美国_189
+      - Ytb:冰河圈子_US_美国_190
+      - Ytb:冰河圈子_US_美国_191
+      - Ytb:冰河圈子_US_美国_192
+      - Ytb:冰河圈子_US_美国_193
+      - Ytb:冰河圈子_US_美国_194
+      - Ytb:冰河圈子_US_美国_195
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1618,201 +1618,201 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Ytb:鹏哥分享_PH_菲律宾_1
-      - Ytb:鹏哥分享_ID_印度尼西亚_2
-      - Ytb:鹏哥分享_FR_法国_3
-      - Ytb:鹏哥分享_AT_奥地利_4
-      - Ytb:鹏哥分享_US_美国_5
-      - Ytb:鹏哥分享_US_美国_6
-      - Ytb:鹏哥分享_US_美国_7
-      - Ytb:鹏哥分享_US_美国_8
-      - Ytb:鹏哥分享_US_美国_9
-      - Ytb:鹏哥分享_US_美国_10
-      - Ytb:鹏哥分享_US_美国_11
-      - Ytb:鹏哥分享_US_美国_12
-      - Ytb:鹏哥分享_MX_墨西哥_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_US_美国_17
-      - Ytb:鹏哥分享_CH_瑞士_18
-      - Ytb:鹏哥分享_US_美国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
-      - Ytb:鹏哥分享_US_美国_22
-      - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_US_美国_25
-      - Ytb:鹏哥分享_AU_澳大利亚_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_US_美国_28
-      - Ytb:鹏哥分享_AU_澳大利亚_29
-      - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_AU_澳大利亚_31
-      - Ytb:鹏哥分享_CA_加拿大_32
-      - Ytb:鹏哥分享_CA_加拿大_33
-      - Ytb:鹏哥分享_CA_加拿大_34
-      - Ytb:鹏哥分享_US_美国_35
-      - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_US_美国_37
-      - Ytb:鹏哥分享_US_美国_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_US_美国_40
-      - Ytb:鹏哥分享_AU_澳大利亚_41
-      - Ytb:鹏哥分享_US_美国_42
-      - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_AU_澳大利亚_44
-      - Ytb:鹏哥分享_AU_澳大利亚_45
-      - Ytb:鹏哥分享_US_美国_46
-      - Ytb:鹏哥分享_US_美国_47
-      - Ytb:鹏哥分享_AU_澳大利亚_48
-      - Ytb:鹏哥分享_BG_保加利亚_49
-      - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_AU_澳大利亚_51
-      - Ytb:鹏哥分享_US_美国_52
-      - Ytb:鹏哥分享_US_美国_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_AU_澳大利亚_55
-      - Ytb:鹏哥分享_US_美国_56
-      - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_US_美国_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_US_美国_61
-      - Ytb:鹏哥分享_AU_澳大利亚_62
-      - Ytb:鹏哥分享_PT_葡萄牙_63
-      - Ytb:鹏哥分享_AU_澳大利亚_64
-      - Ytb:鹏哥分享_FR_法国_65
-      - Ytb:鹏哥分享_NO_挪威_66
-      - Ytb:鹏哥分享_FR_法国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_FR_法国_72
-      - Ytb:鹏哥分享_GB_英国_73
-      - Ytb:鹏哥分享_GB_英国_74
-      - Ytb:鹏哥分享_GB_英国_75
-      - Ytb:鹏哥分享_US_美国_76
-      - Ytb:鹏哥分享_CA_加拿大_77
-      - Ytb:鹏哥分享_FR_法国_78
-      - Ytb:鹏哥分享_NO_挪威_79
-      - Ytb:鹏哥分享_PT_葡萄牙_80
-      - Ytb:鹏哥分享_US_美国_81
-      - Ytb:鹏哥分享_TW_台湾_82
-      - Ytb:鹏哥分享_US_美国_83
-      - Ytb:鹏哥分享_CA_加拿大_84
-      - Ytb:鹏哥分享_CA_加拿大_85
-      - Ytb:鹏哥分享_FR_法国_86
-      - Ytb:鹏哥分享_CA_加拿大_87
-      - Ytb:鹏哥分享_CA_加拿大_88
-      - Ytb:鹏哥分享_FR_法国_89
-      - Ytb:鹏哥分享_GB_英国_90
-      - Ytb:鹏哥分享_NO_挪威_91
-      - Ytb:鹏哥分享_US_美国_92
-      - Ytb:鹏哥分享_AU_澳大利亚_93
-      - Ytb:鹏哥分享_FR_法国_94
-      - Ytb:鹏哥分享_GB_英国_95
-      - Ytb:鹏哥分享_NO_挪威_96
-      - Ytb:鹏哥分享_NO_挪威_97
-      - Ytb:鹏哥分享_NO_挪威_98
-      - Ytb:鹏哥分享_NO_挪威_99
-      - Ytb:鹏哥分享_NO_挪威_100
-      - Ytb:鹏哥分享_AU_澳大利亚_101
-      - Ytb:鹏哥分享_FR_法国_102
-      - Ytb:鹏哥分享_CA_加拿大_103
-      - Ytb:鹏哥分享_FR_法国_104
-      - Ytb:鹏哥分享_GB_英国_105
-      - Ytb:鹏哥分享_GB_英国_106
-      - Ytb:鹏哥分享_NO_挪威_107
-      - Ytb:鹏哥分享_DK_丹麦_108
-      - Ytb:鹏哥分享_GB_英国_109
-      - Ytb:鹏哥分享_NO_挪威_110
-      - Ytb:鹏哥分享_NO_挪威_111
-      - Ytb:鹏哥分享_SE_瑞典_112
-      - Ytb:鹏哥分享_113
-      - Ytb:鹏哥分享_NO_挪威_114
-      - Ytb:鹏哥分享_NO_挪威_115
-      - Ytb:鹏哥分享_US_美国_116
-      - Ytb:鹏哥分享_US_美国_117
-      - Ytb:鹏哥分享_US_美国_118
-      - Ytb:鹏哥分享_US_美国_119
-      - Ytb:鹏哥分享_US_美国_120
-      - Ytb:鹏哥分享_US_美国_121
-      - Ytb:鹏哥分享_AU_澳大利亚_122
-      - Ytb:鹏哥分享_FR_法国_123
-      - Ytb:鹏哥分享_FR_法国_124
-      - Ytb:鹏哥分享_FR_法国_125
-      - Ytb:鹏哥分享_GR_希腊_126
-      - Ytb:鹏哥分享_US_美国_127
-      - Ytb:鹏哥分享_US_美国_128
-      - Ytb:鹏哥分享_US_美国_129
-      - Ytb:鹏哥分享_US_美国_130
-      - Ytb:鹏哥分享_US_美国_131
-      - Ytb:鹏哥分享_US_美国_132
-      - Ytb:鹏哥分享_US_美国_133
-      - Ytb:鹏哥分享_US_美国_134
-      - Ytb:鹏哥分享_US_美国_135
-      - Ytb:鹏哥分享_US_美国_136
-      - Ytb:鹏哥分享_US_美国_137
-      - Ytb:鹏哥分享_US_美国_138
-      - Ytb:鹏哥分享_US_美国_139
-      - Ytb:鹏哥分享_US_美国_140
-      - Ytb:鹏哥分享_US_美国_141
-      - Ytb:鹏哥分享_AU_澳大利亚_142
-      - Ytb:鹏哥分享_AU_澳大利亚_143
-      - Ytb:鹏哥分享_AU_澳大利亚_144
-      - Ytb:鹏哥分享_AU_澳大利亚_145
-      - Ytb:鹏哥分享_AU_澳大利亚_146
-      - Ytb:鹏哥分享_AU_澳大利亚_147
-      - Ytb:鹏哥分享_US_美国_148
-      - Ytb:鹏哥分享_US_美国_149
-      - Ytb:鹏哥分享_US_美国_150
-      - Ytb:鹏哥分享_US_美国_151
-      - Ytb:鹏哥分享_US_美国_152
-      - Ytb:鹏哥分享_US_美国_153
-      - Ytb:鹏哥分享_AU_澳大利亚_154
-      - Ytb:鹏哥分享_AU_澳大利亚_155
-      - Ytb:鹏哥分享_AU_澳大利亚_156
-      - Ytb:鹏哥分享_FR_法国_157
-      - Ytb:鹏哥分享_FR_法国_158
-      - Ytb:鹏哥分享_FR_法国_159
-      - Ytb:鹏哥分享_FR_法国_160
-      - Ytb:鹏哥分享_HK_香港_161
-      - Ytb:鹏哥分享_HK_香港_162
-      - Ytb:鹏哥分享_HK_香港_163
-      - Ytb:鹏哥分享_HK_香港_164
-      - Ytb:鹏哥分享_HK_香港_165
-      - Ytb:鹏哥分享_RU_俄罗斯联邦_166
-      - Ytb:鹏哥分享_US_美国_167
-      - Ytb:鹏哥分享_US_美国_168
-      - Ytb:鹏哥分享_US_美国_169
-      - Ytb:鹏哥分享_US_美国_170
-      - Ytb:鹏哥分享_US_美国_171
-      - Ytb:鹏哥分享_US_美国_172
-      - Ytb:鹏哥分享_US_美国_173
-      - Ytb:鹏哥分享_US_美国_174
-      - Ytb:鹏哥分享_US_美国_175
-      - Ytb:鹏哥分享_US_美国_176
-      - Ytb:鹏哥分享_US_美国_177
-      - Ytb:鹏哥分享_US_美国_178
-      - Ytb:鹏哥分享_US_美国_179
-      - Ytb:鹏哥分享_US_美国_180
-      - Ytb:鹏哥分享_US_美国_181
-      - Ytb:鹏哥分享_US_美国_182
-      - Ytb:鹏哥分享_US_美国_183
-      - Ytb:鹏哥分享_US_美国_184
-      - Ytb:鹏哥分享_US_美国_185
-      - Ytb:鹏哥分享_US_美国_186
-      - Ytb:鹏哥分享_US_美国_187
-      - Ytb:鹏哥分享_US_美国_188
-      - Ytb:鹏哥分享_US_美国_189
-      - Ytb:鹏哥分享_US_美国_190
-      - Ytb:鹏哥分享_US_美国_191
-      - Ytb:鹏哥分享_US_美国_192
-      - Ytb:鹏哥分享_US_美国_193
-      - Ytb:鹏哥分享_US_美国_194
-      - Ytb:鹏哥分享_US_美国_195
+      - Ytb:冰河圈子_PH_菲律宾_1
+      - Ytb:冰河圈子_ID_印度尼西亚_2
+      - Ytb:冰河圈子_FR_法国_3
+      - Ytb:冰河圈子_AT_奥地利_4
+      - Ytb:冰河圈子_US_美国_5
+      - Ytb:冰河圈子_US_美国_6
+      - Ytb:冰河圈子_US_美国_7
+      - Ytb:冰河圈子_US_美国_8
+      - Ytb:冰河圈子_US_美国_9
+      - Ytb:冰河圈子_US_美国_10
+      - Ytb:冰河圈子_US_美国_11
+      - Ytb:冰河圈子_US_美国_12
+      - Ytb:冰河圈子_MX_墨西哥_13
+      - Ytb:冰河圈子_US_美国_14
+      - Ytb:冰河圈子_US_美国_15
+      - Ytb:冰河圈子_US_美国_16
+      - Ytb:冰河圈子_US_美国_17
+      - Ytb:冰河圈子_CH_瑞士_18
+      - Ytb:冰河圈子_US_美国_19
+      - Ytb:冰河圈子_US_美国_20
+      - Ytb:冰河圈子_US_美国_21
+      - Ytb:冰河圈子_US_美国_22
+      - Ytb:冰河圈子_US_美国_23
+      - Ytb:冰河圈子_US_美国_24
+      - Ytb:冰河圈子_US_美国_25
+      - Ytb:冰河圈子_AU_澳大利亚_26
+      - Ytb:冰河圈子_US_美国_27
+      - Ytb:冰河圈子_US_美国_28
+      - Ytb:冰河圈子_AU_澳大利亚_29
+      - Ytb:冰河圈子_US_美国_30
+      - Ytb:冰河圈子_AU_澳大利亚_31
+      - Ytb:冰河圈子_CA_加拿大_32
+      - Ytb:冰河圈子_CA_加拿大_33
+      - Ytb:冰河圈子_CA_加拿大_34
+      - Ytb:冰河圈子_US_美国_35
+      - Ytb:冰河圈子_US_美国_36
+      - Ytb:冰河圈子_US_美国_37
+      - Ytb:冰河圈子_US_美国_38
+      - Ytb:冰河圈子_US_美国_39
+      - Ytb:冰河圈子_US_美国_40
+      - Ytb:冰河圈子_AU_澳大利亚_41
+      - Ytb:冰河圈子_US_美国_42
+      - Ytb:冰河圈子_US_美国_43
+      - Ytb:冰河圈子_AU_澳大利亚_44
+      - Ytb:冰河圈子_AU_澳大利亚_45
+      - Ytb:冰河圈子_US_美国_46
+      - Ytb:冰河圈子_US_美国_47
+      - Ytb:冰河圈子_AU_澳大利亚_48
+      - Ytb:冰河圈子_BG_保加利亚_49
+      - Ytb:冰河圈子_US_美国_50
+      - Ytb:冰河圈子_AU_澳大利亚_51
+      - Ytb:冰河圈子_US_美国_52
+      - Ytb:冰河圈子_US_美国_53
+      - Ytb:冰河圈子_US_美国_54
+      - Ytb:冰河圈子_AU_澳大利亚_55
+      - Ytb:冰河圈子_US_美国_56
+      - Ytb:冰河圈子_US_美国_57
+      - Ytb:冰河圈子_US_美国_58
+      - Ytb:冰河圈子_US_美国_59
+      - Ytb:冰河圈子_US_美国_60
+      - Ytb:冰河圈子_US_美国_61
+      - Ytb:冰河圈子_AU_澳大利亚_62
+      - Ytb:冰河圈子_PT_葡萄牙_63
+      - Ytb:冰河圈子_AU_澳大利亚_64
+      - Ytb:冰河圈子_FR_法国_65
+      - Ytb:冰河圈子_NO_挪威_66
+      - Ytb:冰河圈子_FR_法国_67
+      - Ytb:冰河圈子_US_美国_68
+      - Ytb:冰河圈子_CA_加拿大_69
+      - Ytb:冰河圈子_CA_加拿大_70
+      - Ytb:冰河圈子_CA_加拿大_71
+      - Ytb:冰河圈子_FR_法国_72
+      - Ytb:冰河圈子_GB_英国_73
+      - Ytb:冰河圈子_GB_英国_74
+      - Ytb:冰河圈子_GB_英国_75
+      - Ytb:冰河圈子_US_美国_76
+      - Ytb:冰河圈子_CA_加拿大_77
+      - Ytb:冰河圈子_FR_法国_78
+      - Ytb:冰河圈子_NO_挪威_79
+      - Ytb:冰河圈子_PT_葡萄牙_80
+      - Ytb:冰河圈子_US_美国_81
+      - Ytb:冰河圈子_TW_台湾_82
+      - Ytb:冰河圈子_US_美国_83
+      - Ytb:冰河圈子_CA_加拿大_84
+      - Ytb:冰河圈子_CA_加拿大_85
+      - Ytb:冰河圈子_FR_法国_86
+      - Ytb:冰河圈子_CA_加拿大_87
+      - Ytb:冰河圈子_CA_加拿大_88
+      - Ytb:冰河圈子_FR_法国_89
+      - Ytb:冰河圈子_GB_英国_90
+      - Ytb:冰河圈子_NO_挪威_91
+      - Ytb:冰河圈子_US_美国_92
+      - Ytb:冰河圈子_AU_澳大利亚_93
+      - Ytb:冰河圈子_FR_法国_94
+      - Ytb:冰河圈子_GB_英国_95
+      - Ytb:冰河圈子_NO_挪威_96
+      - Ytb:冰河圈子_NO_挪威_97
+      - Ytb:冰河圈子_NO_挪威_98
+      - Ytb:冰河圈子_NO_挪威_99
+      - Ytb:冰河圈子_NO_挪威_100
+      - Ytb:冰河圈子_AU_澳大利亚_101
+      - Ytb:冰河圈子_FR_法国_102
+      - Ytb:冰河圈子_CA_加拿大_103
+      - Ytb:冰河圈子_FR_法国_104
+      - Ytb:冰河圈子_GB_英国_105
+      - Ytb:冰河圈子_GB_英国_106
+      - Ytb:冰河圈子_NO_挪威_107
+      - Ytb:冰河圈子_DK_丹麦_108
+      - Ytb:冰河圈子_GB_英国_109
+      - Ytb:冰河圈子_NO_挪威_110
+      - Ytb:冰河圈子_NO_挪威_111
+      - Ytb:冰河圈子_SE_瑞典_112
+      - Ytb:冰河圈子_US_美国_113
+      - Ytb:冰河圈子_NO_挪威_114
+      - Ytb:冰河圈子_NO_挪威_115
+      - Ytb:冰河圈子_US_美国_116
+      - Ytb:冰河圈子_US_美国_117
+      - Ytb:冰河圈子_US_美国_118
+      - Ytb:冰河圈子_US_美国_119
+      - Ytb:冰河圈子_US_美国_120
+      - Ytb:冰河圈子_US_美国_121
+      - Ytb:冰河圈子_AU_澳大利亚_122
+      - Ytb:冰河圈子_FR_法国_123
+      - Ytb:冰河圈子_FR_法国_124
+      - Ytb:冰河圈子_FR_法国_125
+      - Ytb:冰河圈子_GR_希腊_126
+      - Ytb:冰河圈子_US_美国_127
+      - Ytb:冰河圈子_US_美国_128
+      - Ytb:冰河圈子_US_美国_129
+      - Ytb:冰河圈子_US_美国_130
+      - Ytb:冰河圈子_US_美国_131
+      - Ytb:冰河圈子_US_美国_132
+      - Ytb:冰河圈子_US_美国_133
+      - Ytb:冰河圈子_US_美国_134
+      - Ytb:冰河圈子_US_美国_135
+      - Ytb:冰河圈子_US_美国_136
+      - Ytb:冰河圈子_US_美国_137
+      - Ytb:冰河圈子_US_美国_138
+      - Ytb:冰河圈子_US_美国_139
+      - Ytb:冰河圈子_US_美国_140
+      - Ytb:冰河圈子_US_美国_141
+      - Ytb:冰河圈子_AU_澳大利亚_142
+      - Ytb:冰河圈子_AU_澳大利亚_143
+      - Ytb:冰河圈子_AU_澳大利亚_144
+      - Ytb:冰河圈子_AU_澳大利亚_145
+      - Ytb:冰河圈子_AU_澳大利亚_146
+      - Ytb:冰河圈子_AU_澳大利亚_147
+      - Ytb:冰河圈子_US_美国_148
+      - Ytb:冰河圈子_US_美国_149
+      - Ytb:冰河圈子_US_美国_150
+      - Ytb:冰河圈子_US_美国_151
+      - Ytb:冰河圈子_US_美国_152
+      - Ytb:冰河圈子_US_美国_153
+      - Ytb:冰河圈子_AU_澳大利亚_154
+      - Ytb:冰河圈子_AU_澳大利亚_155
+      - Ytb:冰河圈子_AU_澳大利亚_156
+      - Ytb:冰河圈子_FR_法国_157
+      - Ytb:冰河圈子_FR_法国_158
+      - Ytb:冰河圈子_FR_法国_159
+      - Ytb:冰河圈子_FR_法国_160
+      - Ytb:冰河圈子_HK_香港_161
+      - Ytb:冰河圈子_HK_香港_162
+      - Ytb:冰河圈子_HK_香港_163
+      - Ytb:冰河圈子_HK_香港_164
+      - Ytb:冰河圈子_HK_香港_165
+      - Ytb:冰河圈子_RU_俄罗斯联邦_166
+      - Ytb:冰河圈子_US_美国_167
+      - Ytb:冰河圈子_US_美国_168
+      - Ytb:冰河圈子_US_美国_169
+      - Ytb:冰河圈子_US_美国_170
+      - Ytb:冰河圈子_US_美国_171
+      - Ytb:冰河圈子_US_美国_172
+      - Ytb:冰河圈子_US_美国_173
+      - Ytb:冰河圈子_US_美国_174
+      - Ytb:冰河圈子_US_美国_175
+      - Ytb:冰河圈子_US_美国_176
+      - Ytb:冰河圈子_US_美国_177
+      - Ytb:冰河圈子_US_美国_178
+      - Ytb:冰河圈子_US_美国_179
+      - Ytb:冰河圈子_US_美国_180
+      - Ytb:冰河圈子_US_美国_181
+      - Ytb:冰河圈子_US_美国_182
+      - Ytb:冰河圈子_US_美国_183
+      - Ytb:冰河圈子_US_美国_184
+      - Ytb:冰河圈子_US_美国_185
+      - Ytb:冰河圈子_US_美国_186
+      - Ytb:冰河圈子_US_美国_187
+      - Ytb:冰河圈子_US_美国_188
+      - Ytb:冰河圈子_US_美国_189
+      - Ytb:冰河圈子_US_美国_190
+      - Ytb:冰河圈子_US_美国_191
+      - Ytb:冰河圈子_US_美国_192
+      - Ytb:冰河圈子_US_美国_193
+      - Ytb:冰河圈子_US_美国_194
+      - Ytb:冰河圈子_US_美国_195
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
