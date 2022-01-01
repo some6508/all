@@ -254,6 +254,7 @@ proxies:
   - {name: "@SSRSUB-美国V10-付费推荐::suo.yt/ssrsub 2", server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
   - {name: "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
   - {name: "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub 2", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: HK05_1, server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 42ce061a-197e-4a1a-99f1-3b0abf55c049}
   - {name: Ytb:冰河圈子_AT_奥地利_4, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL}
   - {name: Ytb:冰河圈子_AU_澳大利亚_101, server: 172.105.180.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: Ytb:冰河圈子_AU_澳大利亚_122, server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
@@ -656,7 +657,6 @@ proxies:
   - {name: _JP_日本_Chen-2021.12.31_93 2, server: jpaz3.biteb-ssx.xyz, port: 14464, type: vmess, uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: index, ws-headers: {Host: jpaz3.biteb-ssx.xyz}}
   - {name: _KR_韩国_Chen-2021.12.31_125, server: 52.79.55.81, port: 443, type: ssr, cipher: aes-256-cfb, password: abHpSuLdQ, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: _KR_韩国_Chen-2021.12.31_126, server: kr-am6.eqnode.net, port: 443, type: ssr, cipher: aes-256-cfb, password: abHpSuLdQ, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: _LU_卢森堡_1, server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
   - {name: _MX_墨西哥_Chen-2021.12.31_28, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
   - {name: _MX_墨西哥_Chen-2021.12.31_28 2, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
   - {name: _MY_马来西亚_Chen-2021.12.31_127, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
@@ -1095,6 +1095,7 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
+      - HK05_1
       - Ytb:冰河圈子_HK_香港_161
       - Ytb:冰河圈子_HK_香港_162
       - Ytb:冰河圈子_HK_香港_163
@@ -2063,6 +2064,7 @@ proxy-groups:
       - "@SSRSUB-美国V10-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-美国V17-付费推荐::suo.yt/ssrsub 2"
+      - HK05_1
       - Ytb:冰河圈子_AT_奥地利_4
       - Ytb:冰河圈子_AU_澳大利亚_101
       - Ytb:冰河圈子_AU_澳大利亚_122
@@ -2465,7 +2467,6 @@ proxy-groups:
       - _JP_日本_Chen-2021.12.31_93 2
       - _KR_韩国_Chen-2021.12.31_125
       - _KR_韩国_Chen-2021.12.31_126
-      - _LU_卢森堡_1
       - _MX_墨西哥_Chen-2021.12.31_28
       - _MX_墨西哥_Chen-2021.12.31_28 2
       - _MY_马来西亚_Chen-2021.12.31_127
