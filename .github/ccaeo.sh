@@ -53,6 +53,11 @@ case "$href" in
 *.yaml) CURL c6 "$href" ;;
 *) echo "! 链接错误: $href" ;;
 esac
+CURL v8 'https://raw.githubusercontent.com/freefq/free/master/v2'
+CURL s 'https://raw.githubusercontent.com/freefq/free/master/ssr'
+eval "`curl -s 'https://api.github.com/repos/w379740999/jdlj/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
+eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/w379740999/jdlj/main/|p' | sed 's|</a>|"|g'`"
+CURL v9 "$href"
 CURL cv1 'https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv8%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fs&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&exclude=%E4%B8%AD%E5%9B%BD&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=true&sort=true&new_name=true'
 CURL vc1 'https://api.v1.mk/sub?target=v2ray&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv8%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fs&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&exclude=%E4%B8%AD%E5%9B%BD&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=true&sort=true&new_name=true'
 if grep -q '</html>' $home/cv1
@@ -61,11 +66,6 @@ else
 mv -f $home/cv1 $home/cv
 mv -f $home/vc1 $home/vc
 fi
-CURL v8 'https://raw.githubusercontent.com/freefq/free/master/v2'
-CURL s 'https://raw.githubusercontent.com/freefq/free/master/ssr'
-eval "`curl -s 'https://api.github.com/repos/w379740999/jdlj/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
-eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/w379740999/jdlj/main/|p' | sed 's|</a>|"|g'`"
-CURL v9 "$href"
 sed -i "/^|20/c|$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')|" $home/README.md
 sed -i "/^20/c$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒' -d '+1 hour')" $home/README.md
 echo --------------------------------------------------
