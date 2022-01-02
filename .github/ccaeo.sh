@@ -63,6 +63,9 @@ mv -f $home/vc1 $home/vc
 fi
 CURL v8 'https://raw.githubusercontent.com/freefq/free/master/v2'
 CURL s 'https://raw.githubusercontent.com/freefq/free/master/ssr'
+eval "`curl -s 'https://api.github.com/repos/w379740999/jdlj/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
+eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/w379740999/jdlj/main/|p' | sed 's|</a>|"|g'`"
+CURL v9 "$href"
 sed -i "/^|20/c|$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')|" $home/README.md
 sed -i "/^20/c$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒' -d '+1 hour')" $home/README.md
 echo --------------------------------------------------
