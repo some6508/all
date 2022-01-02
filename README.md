@@ -51,7 +51,8 @@ https://raw.githubusercontent.com/some6508/all/master/c6
 |	6	|[raw](https://raw.githubusercontent.com/some6508/all/master/v6)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/v6)|[staticdn](https://raw.staticdn.net/some6508/all/master/v6)|
 |	7	|[raw](https://raw.githubusercontent.com/some6508/all/master/v7)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/v7)|[staticdn](https://raw.staticdn.net/some6508/all/master/v7)|
 |	8	|[raw](https://raw.githubusercontent.com/some6508/all/master/v8)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/v8)|[staticdn](https://raw.staticdn.net/some6508/all/master/v8)|
-|	9	|[raw](https://raw.githubusercontent.com/some6508/all/master/s)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/s)|[staticdn](https://raw.staticdn.net/some6508/all/master/s)|
+|	9	|[raw](https://raw.githubusercontent.com/some6508/all/master/v9)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/v9)|[staticdn](https://raw.staticdn.net/some6508/all/master/v9)|
+|	10	|[raw](https://raw.githubusercontent.com/some6508/all/master/s)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/s)|[staticdn](https://raw.staticdn.net/some6508/all/master/s)|
 
 ****
 ````
@@ -63,6 +64,7 @@ https://raw.githubusercontent.com/some6508/all/master/v5
 https://raw.githubusercontent.com/some6508/all/master/v6
 https://raw.githubusercontent.com/some6508/all/master/v7
 https://raw.githubusercontent.com/some6508/all/master/v8
+https://raw.githubusercontent.com/some6508/all/master/v9
 https://raw.githubusercontent.com/some6508/all/master/s
 ````
 </details>
