@@ -37,6 +37,7 @@ jobs:
           git add .
           git status
           git commit -m "$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')" -a
+          echo "::notice::$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')"
           echo "::notice::https://cdn.jsdelivr.net/gh/some6508/all@master/cv"
           echo "::notice::https://cdn.jsdelivr.net/gh/some6508/all@master/vc"
 
