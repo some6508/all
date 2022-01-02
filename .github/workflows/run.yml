@@ -17,7 +17,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: 运行操作
+        uses: actions/checkout@v2
         with:
           persist-credentials: false
           fetch-depth: 0
@@ -26,18 +27,30 @@ jobs:
         run: |
           bash ./.github/ccaeo.sh
 
-      - name: 设置机器人
+      - name: 设置上传机器人
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions"
 
-      - name: 添加上传
+      - name: 添加上传文件
         run: |
           git add .
           git status
           git commit -m "$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')" -a
 
-      - name: 开始上传
+      - name: 上传 cv 文件
+        uses: actions/upload-artifact@v2
+        with:
+          name: cv
+          path: './cv'
+
+      - name: 上传 cv 文件
+        uses: actions/upload-artifact@v2
+        with:
+          name: vc
+          path: './vc'
+
+      - name: 开始上传到仓库
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
