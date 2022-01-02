@@ -1,30 +1,30 @@
 + PS4='$LINENO: '
 5: cd /home/runner/work/all/all
 115: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-15: echo 2022年01月02日·周7·18点06分05秒.451毫秒
+15: echo 2022年01月02日·周7·19点04分08秒.458毫秒
 116: curl -s https://api.github.com/repos/changfengoss/pub/commits
-116: sed 's/.*"html_url": /html_url=/g'
 116: grep -m 1 html_url
-16: eval 'html_url="https://github.com/changfengoss/pub/commit/c2ffcb64ab0b20574d178cc652664fae97d6062a",'
-116: html_url=https://github.com/changfengoss/pub/commit/c2ffcb64ab0b20574d178cc652664fae97d6062a,
-117: curl -s https://github.com/changfengoss/pub/commit/c2ffcb64ab0b20574d178cc652664fae97d6062a
+116: sed 's/.*"html_url": /html_url=/g'
+16: eval 'html_url="https://github.com/changfengoss/pub/commit/c4cf8d1e8eecc62d4b333bc52e55529732fad6d5",'
+116: html_url=https://github.com/changfengoss/pub/commit/c4cf8d1e8eecc62d4b333bc52e55529732fad6d5,
+117: curl -s https://github.com/changfengoss/pub/commit/c4cf8d1e8eecc62d4b333bc52e55529732fad6d5
 117: sed 's|</a>|"|g'
 117: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/changfengoss/pub/main/|p'
-17: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/w4o0ua.yaml"'
-117: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/w4o0ua.yaml
+17: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/269lDA.yaml"'
+117: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/269lDA.yaml
 18: case "$href" in
-20: CURL c https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/w4o0ua.yaml
+20: CURL c https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/269lDA.yaml
 7: echo --------------------------------------------------
 8: echo '- 下载文件: c'
-9: echo '- 连接链接: https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/w4o0ua.yaml'
-10: curl -so /home/runner/work/all/all/c https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/w4o0ua.yaml
+9: echo '- 连接链接: https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/269lDA.yaml'
+10: curl -so /home/runner/work/all/all/c https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/269lDA.yaml
 11: local CURL=0
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
 13: return 0
-223: curl -s https://api.github.com/repos/pojiezhiyuanjun/freev2/commits
-223: sed 's/.*"html_url": /html_url=/g'
 223: grep -m 1 html_url
+223: sed 's/.*"html_url": /html_url=/g'
+223: curl -s https://api.github.com/repos/pojiezhiyuanjun/freev2/commits
 23: eval 'html_url="https://github.com/pojiezhiyuanjun/freev2/commit/6e68daea02433880d76d9d9ac3b8256450714003",'
 223: html_url=https://github.com/pojiezhiyuanjun/freev2/commit/6e68daea02433880d76d9d9ac3b8256450714003,
 224: curl -s https://github.com/pojiezhiyuanjun/freev2/commit/6e68daea02433880d76d9d9ac3b8256450714003
@@ -46,9 +46,9 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0101clash.
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
 13: return 0
-334: grep -m 1 html_url
 334: curl -s https://api.github.com/repos/zyfxz/V2Ray/commits
 334: sed 's/.*"html_url": /html_url=/g'
+334: grep -m 1 html_url
 34: eval 'html_url="https://github.com/zyfxz/V2Ray/commit/47ec12a9ae8504239ac9ba1cc95a0a6f33d47880",'
 334: html_url=https://github.com/zyfxz/V2Ray/commit/47ec12a9ae8504239ac9ba1cc95a0a6f33d47880,
 335: curl -s https://github.com/zyfxz/V2Ray/commit/47ec12a9ae8504239ac9ba1cc95a0a6f33d47880
@@ -169,28 +169,7 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0101clash.
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
 13: return 0
-56: CURL cv1 'https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv8%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fs&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&exclude=%E4%B8%AD%E5%9B%BD&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=true&sort=true&new_name=true'
-7: echo --------------------------------------------------
-8: echo '- 下载文件: cv1'
-9: echo '- 连接链接: https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv8%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fs&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&exclude=%E4%B8%AD%E5%9B%BD&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=true&sort=true&new_name=true'
-10: curl -so /home/runner/work/all/all/cv1 'https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv8%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fs&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&exclude=%E4%B8%AD%E5%9B%BD&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=true&sort=true&new_name=true'
-11: local CURL=0
-12: [[ 0 = 0 ]]
-12: echo '- 下载完成: 0'
-13: return 0
-57: CURL vc1 'https://api.v1.mk/sub?target=v2ray&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv8%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fs&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&exclude=%E4%B8%AD%E5%9B%BD&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=true&sort=true&new_name=true'
-7: echo --------------------------------------------------
-8: echo '- 下载文件: vc1'
-9: echo '- 连接链接: https://api.v1.mk/sub?target=v2ray&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv8%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fs&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&exclude=%E4%B8%AD%E5%9B%BD&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=true&sort=true&new_name=true'
-10: curl -so /home/runner/work/all/all/vc1 'https://api.v1.mk/sub?target=v2ray&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv8%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fs&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&exclude=%E4%B8%AD%E5%9B%BD&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=true&sort=true&new_name=true'
-11: local CURL=0
-12: [[ 0 = 0 ]]
-12: echo '- 下载完成: 0'
-13: return 0
-58: grep -q '</html>' /home/runner/work/all/all/cv1
-61: mv -f /home/runner/work/all/all/cv1 /home/runner/work/all/all/cv
-62: mv -f /home/runner/work/all/all/vc1 /home/runner/work/all/all/vc
-64: CURL v8 https://raw.githubusercontent.com/freefq/free/master/v2
+56: CURL v8 https://raw.githubusercontent.com/freefq/free/master/v2
 7: echo --------------------------------------------------
 8: echo '- 下载文件: v8'
 9: echo '- 连接链接: https://raw.githubusercontent.com/freefq/free/master/v2'
@@ -199,7 +178,7 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0101clash.
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
 13: return 0
-65: CURL s https://raw.githubusercontent.com/freefq/free/master/ssr
+57: CURL s https://raw.githubusercontent.com/freefq/free/master/ssr
 7: echo --------------------------------------------------
 8: echo '- 下载文件: s'
 9: echo '- 连接链接: https://raw.githubusercontent.com/freefq/free/master/ssr'
@@ -208,10 +187,69 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0101clash.
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
 13: return 0
-666: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-66: sed -i '/^|20/c|2022年01月02日·周7·18点06分21秒.275毫秒|' /home/runner/work/all/all/README.md
-667: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒 -d '+1 hour'
-67: sed -i '/^20/c2022年01月02日·周7·19点06分21秒.279毫秒' /home/runner/work/all/all/README.md
-68: echo --------------------------------------------------
-669: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-69: echo 2022年01月02日·周7·18点06分21秒.282毫秒
+558: curl -s https://api.github.com/repos/w379740999/jdlj/commits
+558: sed 's/.*"html_url": /html_url=/g'
+558: grep -m 1 html_url
+58: eval 'html_url="https://github.com/w379740999/jdlj/commit/79e76249246c6955dfb4668a0f43c482214e83d6",'
+558: html_url=https://github.com/w379740999/jdlj/commit/79e76249246c6955dfb4668a0f43c482214e83d6,
+559: curl -s https://github.com/w379740999/jdlj/commit/79e76249246c6955dfb4668a0f43c482214e83d6
+559: sed 's|</a>|"|g'
+559: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/w379740999/jdlj/main/|p'
+59: eval 'href="https://raw.githubusercontent.com/w379740999/jdlj/main/12-22ac"'
+559: href=https://raw.githubusercontent.com/w379740999/jdlj/main/12-22ac
+60: CURL v9 https://raw.githubusercontent.com/w379740999/jdlj/main/12-22ac
+7: echo --------------------------------------------------
+8: echo '- 下载文件: v9'
+9: echo '- 连接链接: https://raw.githubusercontent.com/w379740999/jdlj/main/12-22ac'
+10: curl -so /home/runner/work/all/all/v9 https://raw.githubusercontent.com/w379740999/jdlj/main/12-22ac
+11: local CURL=0
+12: [[ 0 = 0 ]]
+12: echo '- 下载完成: 0'
+13: return 0
+661: curl -s https://api.github.com/repos/shangou0923/shangou/commits
+661: sed 's/.*"html_url": /html_url=/g'
+661: grep -m 1 html_url
+61: eval 'html_url="https://github.com/shangou0923/shangou/commit/c06c24171ba3166151ff0bf45c3de0105c4396c1",'
+661: html_url=https://github.com/shangou0923/shangou/commit/c06c24171ba3166151ff0bf45c3de0105c4396c1,
+662: curl -s https://github.com/shangou0923/shangou/commit/c06c24171ba3166151ff0bf45c3de0105c4396c1
+662: sed 's|</a>|"|g'
+662: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/shangou0923/shangou/main/|p'
+62: eval 'href="https://raw.githubusercontent.com/shangou0923/shangou/main/README"'
+662: href=https://raw.githubusercontent.com/shangou0923/shangou/main/README
+63: CURL v10 https://raw.githubusercontent.com/shangou0923/shangou/main/README
+7: echo --------------------------------------------------
+8: echo '- 下载文件: v10'
+9: echo '- 连接链接: https://raw.githubusercontent.com/shangou0923/shangou/main/README'
+10: curl -so /home/runner/work/all/all/v10 https://raw.githubusercontent.com/shangou0923/shangou/main/README
+11: local CURL=0
+12: [[ 0 = 0 ]]
+12: echo '- 下载完成: 0'
+13: return 0
+64: CURL cv1 'https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv8%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fs&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&exclude=%E4%B8%AD%E5%9B%BD&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=true&sort=true&new_name=true'
+7: echo --------------------------------------------------
+8: echo '- 下载文件: cv1'
+9: echo '- 连接链接: https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv8%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fs&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&exclude=%E4%B8%AD%E5%9B%BD&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=true&sort=true&new_name=true'
+10: curl -so /home/runner/work/all/all/cv1 'https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv8%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fs&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&exclude=%E4%B8%AD%E5%9B%BD&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=true&sort=true&new_name=true'
+11: local CURL=0
+12: [[ 0 = 0 ]]
+12: echo '- 下载完成: 0'
+13: return 0
+65: CURL vc1 'https://api.v1.mk/sub?target=v2ray&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv8%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fs&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&exclude=%E4%B8%AD%E5%9B%BD&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=true&sort=true&new_name=true'
+7: echo --------------------------------------------------
+8: echo '- 下载文件: vc1'
+9: echo '- 连接链接: https://api.v1.mk/sub?target=v2ray&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv8%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fs&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&exclude=%E4%B8%AD%E5%9B%BD&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=true&sort=true&new_name=true'
+10: curl -so /home/runner/work/all/all/vc1 'https://api.v1.mk/sub?target=v2ray&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fc6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fv8%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fsome6508%2Fall%2Fmaster%2Fs&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&exclude=%E4%B8%AD%E5%9B%BD&emoji=false&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=true&sort=true&new_name=true'
+11: local CURL=0
+12: [[ 0 = 0 ]]
+12: echo '- 下载完成: 0'
+13: return 0
+66: grep -q '</html>' /home/runner/work/all/all/cv1
+69: mv -f /home/runner/work/all/all/cv1 /home/runner/work/all/all/cv
+70: mv -f /home/runner/work/all/all/vc1 /home/runner/work/all/all/vc
+772: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
+72: sed -i '/^|20/c|2022年01月02日·周7·19点04分28秒.928毫秒|' /home/runner/work/all/all/README.md
+773: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒 -d '+1 hour'
+73: sed -i '/^20/c2022年01月02日·周7·20点04分28秒.938毫秒' /home/runner/work/all/all/README.md
+74: echo --------------------------------------------------
+775: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
+75: echo 2022年01月02日·周7·19点04分28秒.940毫秒
