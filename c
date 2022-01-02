@@ -5,76 +5,124 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇨🇳_CN_中国->🇰🇷_KR_韩国_1', server: jmcm.rokishi.cyou, port: 10060, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458}
-  - {name: '🇺🇸_US_美国_2', server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇺🇸_US_美国_3', server: 38.143.66.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_美国_4', server: 38.91.102.96, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇭🇰_HK_香港_1', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇭🇰_HK_香港_2', server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇭🇰_HK_香港_3', server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸_US_美国_4', server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_5', server: 38.91.102.96, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_6', server: 169.197.142.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_7', server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_8', server: 38.91.102.86, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国_9', server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_10', server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇭🇰_HK_香港_3
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇭🇰_HK_香港_3
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇭🇰_HK_香港_3
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇭🇰_HK_香港_3
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇭🇰_HK_香港_3
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇭🇰_HK_香港_3
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇭🇰_HK_香港_3
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,10 +138,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇭🇰_HK_香港_3
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
