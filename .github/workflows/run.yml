@@ -44,7 +44,7 @@ jobs:
           name: cv
           path: './cv'
 
-      - name: 上传 cv 文件
+      - name: 上传 vc 文件
         uses: actions/upload-artifact@v2
         with:
           name: vc
