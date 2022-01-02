@@ -37,6 +37,8 @@ jobs:
           git add .
           git status
           git commit -m "$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')" -a
+          echo "::notice::下载 cv 链接 https://cdn.jsdelivr.net/gh/some6508/all@master/cv"
+          echo "::notice::下载 vc 链接 https://cdn.jsdelivr.net/gh/some6508/all@master/vc"
 
       - name: 上传 cv 文件
         uses: actions/upload-artifact@v2
