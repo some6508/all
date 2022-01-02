@@ -1,35 +1,35 @@
 + PS4='$LINENO: '
 5: cd /home/runner/work/all/all
 115: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-15: echo 2022年01月02日·周7·08点24分57秒.619毫秒
+15: echo 2022年01月02日·周7·09点59分13秒.955毫秒
 116: curl -s https://api.github.com/repos/changfengoss/pub/commits
-116: grep -m 1 html_url
 116: sed 's/.*"html_url": /html_url=/g'
-16: eval 'html_url="https://github.com/changfengoss/pub/commit/bf7c06a12d840d1ef31738c96d99c1e95fd7c5f6",'
-116: html_url=https://github.com/changfengoss/pub/commit/bf7c06a12d840d1ef31738c96d99c1e95fd7c5f6,
-117: curl -s https://github.com/changfengoss/pub/commit/bf7c06a12d840d1ef31738c96d99c1e95fd7c5f6
+116: grep -m 1 html_url
+16: eval 'html_url="https://github.com/changfengoss/pub/commit/cd6dc2f1e0a3c0d84c279fbbdaa1d726c44cfe8d",'
+116: html_url=https://github.com/changfengoss/pub/commit/cd6dc2f1e0a3c0d84c279fbbdaa1d726c44cfe8d,
+117: curl -s https://github.com/changfengoss/pub/commit/cd6dc2f1e0a3c0d84c279fbbdaa1d726c44cfe8d
 117: sed 's|</a>|"|g'
 117: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/changfengoss/pub/main/|p'
-17: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/pH29Zo.txt"'
-117: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/pH29Zo.txt
+17: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/QShaUO.txt"'
+117: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/QShaUO.txt
 18: case "$href" in
-19: CURL v https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/pH29Zo.txt
+19: CURL v https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/QShaUO.txt
 7: echo --------------------------------------------------
 8: echo '- 下载文件: v'
-9: echo '- 连接链接: https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/pH29Zo.txt'
-10: curl -so /home/runner/work/all/all/v https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/pH29Zo.txt
+9: echo '- 连接链接: https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/QShaUO.txt'
+10: curl -so /home/runner/work/all/all/v https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_02/QShaUO.txt
 11: local CURL=0
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
 13: return 0
-223: grep -m 1 html_url
-223: sed 's/.*"html_url": /html_url=/g'
 223: curl -s https://api.github.com/repos/pojiezhiyuanjun/freev2/commits
+223: sed 's/.*"html_url": /html_url=/g'
+223: grep -m 1 html_url
 23: eval 'html_url="https://github.com/pojiezhiyuanjun/freev2/commit/6e68daea02433880d76d9d9ac3b8256450714003",'
 223: html_url=https://github.com/pojiezhiyuanjun/freev2/commit/6e68daea02433880d76d9d9ac3b8256450714003,
+224: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/|p'
 224: curl -s https://github.com/pojiezhiyuanjun/freev2/commit/6e68daea02433880d76d9d9ac3b8256450714003
 224: sed 's|</a>|"|g'
-224: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/|p'
 24: eval 'href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0101.txt"
 href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0101.zip"
 href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0101clash.yml"'
@@ -209,9 +209,9 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0101clash.
 12: echo '- 下载完成: 0'
 13: return 0
 666: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-66: sed -i '/^|20/c|2022年01月02日·周7·08点25分54秒.579毫秒|' /home/runner/work/all/all/README.md
+66: sed -i '/^|20/c|2022年01月02日·周7·09点59分30秒.064毫秒|' /home/runner/work/all/all/README.md
 667: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒 -d '+1 hour'
-67: sed -i '/^20/c2022年01月02日·周7·09点25分54秒.582毫秒' /home/runner/work/all/all/README.md
+67: sed -i '/^20/c2022年01月02日·周7·10点59分30秒.068毫秒' /home/runner/work/all/all/README.md
 68: echo --------------------------------------------------
 669: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-69: echo 2022年01月02日·周7·08点25分54秒.586毫秒
+69: echo 2022年01月02日·周7·09点59分30秒.072毫秒
