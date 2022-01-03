@@ -1,35 +1,35 @@
 + PS4='$LINENO: '
 5: cd /home/runner/work/all/all
 115: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-15: echo 2022年01月03日·周1·21点16分03秒.339毫秒
+15: echo 2022年01月03日·周1·22点05分59秒.673毫秒
 116: curl -s https://api.github.com/repos/changfengoss/pub/commits
 116: grep -m 1 html_url
 116: sed 's/.*"html_url": /html_url=/g'
-16: eval 'html_url="https://github.com/changfengoss/pub/commit/9bbb2e780b63d0f095495bf6b768b2fed9b4c9ce",'
-116: html_url=https://github.com/changfengoss/pub/commit/9bbb2e780b63d0f095495bf6b768b2fed9b4c9ce,
-117: curl -s https://github.com/changfengoss/pub/commit/9bbb2e780b63d0f095495bf6b768b2fed9b4c9ce
+16: eval 'html_url="https://github.com/changfengoss/pub/commit/f3f366bd79b0ceb9d8f4d89320f842980f43798b",'
+116: html_url=https://github.com/changfengoss/pub/commit/f3f366bd79b0ceb9d8f4d89320f842980f43798b,
+117: curl -s https://github.com/changfengoss/pub/commit/f3f366bd79b0ceb9d8f4d89320f842980f43798b
 117: sed 's|</a>|"|g'
 117: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/changfengoss/pub/main/|p'
-17: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_03/BGoD0k.txt"'
-117: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_03/BGoD0k.txt
+17: eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_03/w4XTnc.yaml"'
+117: href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_03/w4XTnc.yaml
 18: case "$href" in
-19: CURL v https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_03/BGoD0k.txt
+20: CURL c https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_03/w4XTnc.yaml
 7: echo --------------------------------------------------
-8: echo '- 下载文件: v'
-9: echo '- 连接链接: https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_03/BGoD0k.txt'
-10: curl -so /home/runner/work/all/all/v https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_03/BGoD0k.txt
+8: echo '- 下载文件: c'
+9: echo '- 连接链接: https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_03/w4XTnc.yaml'
+10: curl -so /home/runner/work/all/all/c https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_01_03/w4XTnc.yaml
 11: local CURL=0
 12: [[ 0 = 0 ]]
 12: echo '- 下载完成: 0'
 13: return 0
 223: curl -s https://api.github.com/repos/pojiezhiyuanjun/freev2/commits
-223: grep -m 1 html_url
 223: sed 's/.*"html_url": /html_url=/g'
+223: grep -m 1 html_url
 23: eval 'html_url="https://github.com/pojiezhiyuanjun/freev2/commit/caa9962dbde176083c6649d8a6da3efe4dc34cbc",'
 223: html_url=https://github.com/pojiezhiyuanjun/freev2/commit/caa9962dbde176083c6649d8a6da3efe4dc34cbc,
-224: sed 's|</a>|"|g'
-224: curl -s https://github.com/pojiezhiyuanjun/freev2/commit/caa9962dbde176083c6649d8a6da3efe4dc34cbc
 224: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/|p'
+224: curl -s https://github.com/pojiezhiyuanjun/freev2/commit/caa9962dbde176083c6649d8a6da3efe4dc34cbc
+224: sed 's|</a>|"|g'
 24: eval 'href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0103.txt"
 href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0103.zip"
 href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0103clash.yml"'
@@ -51,9 +51,9 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0103clash.
 334: grep -m 1 html_url
 34: eval 'html_url="https://github.com/zyfxz/V2Ray/commit/47ec12a9ae8504239ac9ba1cc95a0a6f33d47880",'
 334: html_url=https://github.com/zyfxz/V2Ray/commit/47ec12a9ae8504239ac9ba1cc95a0a6f33d47880,
-335: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/zyfxz/V2Ray/main/|p'
 335: curl -s https://github.com/zyfxz/V2Ray/commit/47ec12a9ae8504239ac9ba1cc95a0a6f33d47880
 335: sed 's|</a>|"|g'
+335: sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/zyfxz/V2Ray/main/|p'
 35: eval 'href="https://raw.githubusercontent.com/zyfxz/V2Ray/main/area"'
 335: href=https://raw.githubusercontent.com/zyfxz/V2Ray/main/area
 36: CURL v3 https://raw.githubusercontent.com/zyfxz/V2Ray/main/area
@@ -66,8 +66,8 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0103clash.
 12: echo '- 下载完成: 0'
 13: return 0
 337: curl -s https://api.github.com/repos/zyfxz/clash/commits
-337: grep -m 1 html_url
 337: sed 's/.*"html_url": /html_url=/g'
+337: grep -m 1 html_url
 37: eval 'html_url="https://github.com/zyfxz/clash/commit/42e3c11cea51731db5258419d60367f0ca977968",'
 337: html_url=https://github.com/zyfxz/clash/commit/42e3c11cea51731db5258419d60367f0ca977968,
 338: curl -s https://github.com/zyfxz/clash/commit/42e3c11cea51731db5258419d60367f0ca977968
@@ -145,10 +145,10 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0103clash.
 8: echo '- 下载文件: v6'
 9: echo '- 连接链接: https://gitee.com/chenx58/clash/raw/V2R/V2R'
 10: curl -so /home/runner/work/all/all/v6 https://gitee.com/chenx58/clash/raw/V2R/V2R
-11: local CURL=35
-12: [[ 35 = 0 ]]
-12: echo '! 下载失败: 35'
-13: return 35
+11: local CURL=0
+12: [[ 0 = 0 ]]
+12: echo '- 下载完成: 0'
+13: return 0
 449: curl -s https://api.github.com/repos/bhqz/bhqz/commits
 449: sed 's/.*"html_url": /html_url=/g'
 449: grep -m 1 html_url
@@ -247,9 +247,9 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0103clash.
 69: mv -f /home/runner/work/all/all/cv1 /home/runner/work/all/all/cv
 70: mv -f /home/runner/work/all/all/vc1 /home/runner/work/all/all/vc
 772: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-72: sed -i '/^|20/c|2022年01月03日·周1·21点17分56秒.827毫秒|' /home/runner/work/all/all/README.md
+72: sed -i '/^|20/c|2022年01月03日·周1·22点06分21秒.329毫秒|' /home/runner/work/all/all/README.md
 773: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒 -d '+1 hour'
-73: sed -i '/^20/c2022年01月03日·周1·22点17分56秒.833毫秒' /home/runner/work/all/all/README.md
+73: sed -i '/^20/c2022年01月03日·周1·23点06分21秒.332毫秒' /home/runner/work/all/all/README.md
 74: echo --------------------------------------------------
 775: date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-75: echo 2022年01月03日·周1·21点17分56秒.836毫秒
+75: echo 2022年01月03日·周1·22点06分21秒.335毫秒
