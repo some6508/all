@@ -2,11 +2,13 @@
 name: all
 
 on:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
   watch:
     types: [started]
   schedule:
     - cron: '0 */1 * * *'
-  workflow_dispatch:
 
 env:
   TZ: Asia/Shanghai
