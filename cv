@@ -350,35 +350,8 @@ proxies:
   - {name: Ytb:鹏哥分享_US_美国_41, server: 169.197.142.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: Ytb:鹏哥分享_US_美国_42, server: 167.88.61.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: Ytb:鹏哥分享_US_美国_43, server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _AE_阿联酋, server: 217.138.193.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc}
   - {name: _AT_奥地利_Chen-2021.01.01_17, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL}
   - {name: _AT_奥地利_Chen-2022.01.01_17, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL}
-  - {name: _AU_澳大利亚, server: 172.105.180.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _AU_澳大利亚 2, server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _AU_澳大利亚 3, server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _AU_澳大利亚 4, server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _AU_澳大利亚 5, server: 172.105.180.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _AU_澳大利亚 6, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: _AU_澳大利亚 7, server: 172.105.180.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _AU_澳大利亚 8, server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _AU_澳大利亚 9, server: 172.105.180.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _AU_澳大利亚 10, server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: _AU_澳大利亚 11, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _AU_澳大利亚 12, server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _AU_澳大利亚 13, server: 172.105.180.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _AU_澳大利亚 14, server: 172.105.180.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _AU_澳大利亚 15, server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: _AU_澳大利亚 16, server: 172.105.180.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: _AU_澳大利亚 17, server: 172.105.180.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _AU_澳大利亚 18, server: 172.105.180.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: _AU_澳大利亚 19, server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _AU_澳大利亚 20, server: 172.105.180.227, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _AU_澳大利亚 21, server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _AU_澳大利亚 22, server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _AU_澳大利亚 23, server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _AU_澳大利亚 24, server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _AU_澳大利亚 25, server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _AU_澳大利亚 26, server: 172.105.180.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _AU_澳大利亚_Chen-2021.01.01_29, server: 172.105.177.120, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: _AU_澳大利亚_Chen-2021.01.01_30, server: 172.105.177.120, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: _AU_澳大利亚_Chen-2021.01.01_31, server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
@@ -435,17 +408,8 @@ proxies:
   - {name: _AU_澳大利亚_Chen-2022.01.01_54, server: 172.105.180.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _AU_澳大利亚_Chen-2022.01.01_55, server: 172.105.180.227, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: _AU_澳大利亚_Chen-2022.01.01_56, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: _BG_保加利亚, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
   - {name: _BG_保加利亚_Chen-2021.01.01_15, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
   - {name: _BG_保加利亚_Chen-2022.01.01_15, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: _CA_加拿大, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _CA_加拿大 2, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: _CA_加拿大 3, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _CA_加拿大 4, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _CA_加拿大 5, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _CA_加拿大 6, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _CA_加拿大 7, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _CA_加拿大 8, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _CA_加拿大_147, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _CA_加拿大_168, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: _CA_加拿大_174, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
@@ -466,70 +430,28 @@ proxies:
   - {name: _CA_加拿大_Chen-2022.01.01_13, server: t4.ssrsub.com, port: 156, type: trojan, password: 7644049b-79e1-4c3b-b621-0a464ab47db4, sni: t4.ssrsub.com, skip-cert-verify: false}
   - {name: _CA_加拿大_Chen-2022.01.01_14, server: t4.ssrsub.com, port: 156, type: trojan, password: da8ad13d-19e6-4a28-82a6-da15bbc0a968, sni: t4.ssrsub.com, skip-cert-verify: false}
   - {name: _CA_加拿大_Chen-2022.01.01_9, server: t1.ssrsub.com, port: 8443, type: trojan, password: 7644049b-79e1-4c3b-b621-0a464ab47db4, sni: t1.ssrsub.com, skip-cert-verify: false}
-  - {name: _CH_瑞士, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
   - {name: _CH_瑞士_Chen-2021.01.01_57, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
   - {name: _CH_瑞士_Chen-2022.01.01_57, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
-  - {name: _FR_法国, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: _FR_法国 2, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: _FR_法国 3, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _FR_法国 4, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _FR_法国 5, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _FR_法国 6, server: 62.210.209.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _FR_法国 7, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: _FR_法国 8, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _FR_法国 9, server: 62.210.209.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _FR_法国 10, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _FR_法国 11, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _FR_法国 12, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _FR_法国 13, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _FR_法国 14, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: _FR_法国 15, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: _FR_法国 16, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _FR_法国 17, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _FR_法国 18, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _FR_法国 19, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _FR_法国 20, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _FR_法国 21, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _FR_法国 22, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _FR_法国 23, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _FR_法国 24, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _FR_法国_Chen-2021.01.01_18, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
   - {name: _FR_法国_Chen-2021.01.01_28, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
   - {name: _FR_法国_Chen-2022.01.01_18, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
   - {name: _FR_法国_Chen-2022.01.01_28, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: _GB_英国, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _GB_英国 2, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _GB_英国 3, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _GB_英国 4, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _GB_英国 5, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _GB_英国 6, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _GB_英国 7, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: _GB_英国 8, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _GB_英国_Chen-2021.01.01_1, server: 109.74.194.189, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: false}
   - {name: _GB_英国_Chen-2021.01.01_82, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _GB_英国_Chen-2021.01.01_83, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _GB_英国_Chen-2022.01.01_1, server: 109.74.194.189, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: false}
   - {name: _GB_英国_Chen-2022.01.01_82, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _GB_英国_Chen-2022.01.01_83, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _GR_希腊, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
   - {name: _HK_香港, server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: _HK_香港 2, server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: _HK_香港 3, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _HK_香港 4, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: _HK_香港 5, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: _HK_香港 6, server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _HK_香港 7, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _HK_香港 8, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _HK_香港 9, server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _HK_香港->🇮🇳_IN_印度, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
   - {name: _HK_香港_Chen-2021.01.01_3, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
   - {name: _HK_香港_Chen-2021.01.01_4, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
   - {name: _HK_香港_Chen-2022.01.01_3, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
   - {name: _HK_香港_Chen-2022.01.01_4, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
-  - {name: _ID_印度尼西亚, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: _IL_以色列, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: _IL_以色列 2, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: _IN_印度, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: _IN_印度_Chen-2021.01.01_84, server: 192.46.210.73, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: _IN_印度_Chen-2021.01.01_85, server: 192.46.210.73, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _IN_印度_Chen-2021.01.01_86, server: 192.46.210.73, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
@@ -538,7 +460,6 @@ proxies:
   - {name: _IN_印度_Chen-2022.01.01_85, server: 192.46.210.73, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _IN_印度_Chen-2022.01.01_86, server: 192.46.210.73, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: _IN_印度_Chen-2022.01.01_87, server: 192.46.210.73, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _JP_日本, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: _JP_日本_Chen-2021.01.01_24, server: jp-am46.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3oaJ5K2Wn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.com}
   - {name: _JP_日本_Chen-2021.01.01_25, server: jp-am48-9.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3H2aN5Gnm, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: _JP_日本_Chen-2021.01.01_26, server: 52.194.253.5, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3H2aN5Gnm, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
@@ -547,45 +468,19 @@ proxies:
   - {name: _JP_日本_Chen-2022.01.01_25, server: jp-am48-9.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3H2aN5Gnm, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: _JP_日本_Chen-2022.01.01_26, server: 52.194.253.5, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3H2aN5Gnm, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: _JP_日本_Chen-2022.01.01_27, server: 54.199.57.125, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3oaJ5K2Wn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.com}
-  - {name: _MY_马来西亚, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
   - {name: _MY_马来西亚_Chen-2021.01.01_89, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
   - {name: _MY_马来西亚_Chen-2022.01.01_89, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
   - {name: _NL_荷兰, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
-  - {name: _NO_挪威, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _NO_挪威 2, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NO_挪威 3, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NO_挪威 4, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: _NO_挪威 5, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _NO_挪威 6, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NO_挪威 7, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _NO_挪威 8, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _NO_挪威 9, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _NO_挪威 10, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: _NO_挪威 11, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: _NO_挪威 12, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _NO_挪威 13, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _NO_挪威 14, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: _NO_挪威_Chen-2021.01.01_19, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: _NO_挪威_Chen-2021.01.01_20, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: _NO_挪威_Chen-2022.01.01_19, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: _NO_挪威_Chen-2022.01.01_20, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: _NZ_新西兰, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
   - {name: _NZ_新西兰_Chen-2021.01.01_23, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
   - {name: _NZ_新西兰_Chen-2022.01.01_23, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
-  - {name: _PH_菲律宾, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
-  - {name: _PT_葡萄牙, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
   - {name: _PT_葡萄牙_Chen-2021.01.01_2, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
   - {name: _PT_葡萄牙_Chen-2022.01.01_2, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: _RU_俄罗斯联邦, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
-  - {name: _RU_俄罗斯联邦 2, server: 82.202.220.242, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
-  - {name: _RU_俄罗斯联邦 3, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: _RU_俄罗斯联邦_Chen-2021.01.01_8, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: _RU_俄罗斯联邦_Chen-2022.01.01_8, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: _SE_瑞典, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: _SG_新加坡, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _SG_新加坡 2, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _TW_台湾, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: _TW_台湾 2, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
   - {name: _US_美国, server: 38.91.102.96, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: _US_美国 2, server: 38.91.102.96, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: _US_美国 3, server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
@@ -688,85 +583,6 @@ proxies:
   - {name: _US_美国 100, server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _US_美国 101, server: 169.197.142.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _US_美国 102, server: 169.197.142.39, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _US_美国 103, server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 104, server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _US_美国 105, server: 38.91.102.96, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _US_美国 106, server: 38.143.66.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _US_美国 107, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _US_美国 108, server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _US_美国 109, server: 38.91.102.86, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _US_美国 110, server: 38.143.66.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _US_美国 111, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: _US_美国 112, server: 38.91.102.96, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _US_美国 113, server: 38.91.102.86, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: _US_美国 114, server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _US_美国 115, server: 169.197.142.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _US_美国 116, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _US_美国 117, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 118, server: 169.197.142.39, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 119, server: 38.143.66.71, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _US_美国 120, server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 121, server: 169.197.142.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: _US_美国 122, server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _US_美国 123, server: 38.143.66.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: _US_美国 124, server: 169.197.142.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 125, server: 38.75.136.93, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _US_美国 126, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: _US_美国 127, server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _US_美国 128, server: 38.91.102.96, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _US_美国 129, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _US_美国 130, server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
-  - {name: _US_美国 131, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: _US_美国 132, server: 38.91.102.86, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 133, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: _US_美国 134, server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _US_美国 135, server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _US_美国 136, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: _US_美国 137, server: 38.75.136.93, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 138, server: 38.91.102.96, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _US_美国 139, server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _US_美国 140, server: 167.88.61.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _US_美国 141, server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 142, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: _US_美国 143, server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: _US_美国 144, server: 167.88.61.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _US_美国 145, server: 167.88.61.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _US_美国 146, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: _US_美国 147, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: _US_美国 148, server: 38.75.136.93, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 149, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: _US_美国 150, server: 38.91.102.86, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _US_美国 151, server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _US_美国 152, server: 38.91.102.86, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 153, server: 38.91.102.86, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 154, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 155, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: _US_美国 156, server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: _US_美国 157, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 158, server: 38.91.102.96, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 159, server: 38.91.102.86, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _US_美国 160, server: 38.143.66.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 161, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: _US_美国 162, server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: _US_美国 163, server: 38.91.102.96, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _US_美国 164, server: 38.91.102.96, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 165, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 166, server: 167.88.61.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 167, server: 38.91.102.96, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _US_美国 168, server: 38.75.136.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _US_美国 169, server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _US_美国 170, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _US_美国 171, server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 172, server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 173, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: _US_美国 174, server: 38.91.102.96, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _US_美国 175, server: 38.75.136.93, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _US_美国 176, server: 38.91.102.96, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 177, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: _US_美国 178, server: 38.91.102.96, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 179, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
-  - {name: _US_美国 180, server: 38.75.136.93, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _US_美国 181, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
   - {name: _US_美国_1, server: 38.91.102.96, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: _US_美国_10, server: 38.91.102.86, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: _US_美国_100, server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -991,44 +807,40 @@ proxies:
   - {name: _US_美国_Chen-2022.01.01_80, server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: _US_美国_Chen-2022.01.01_81, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: default_name, server: 38.75.136.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: default_name 2, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: default_name 3, server: ff7.uuv2.co.uk, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: default_name 4, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}}
-  - {name: default_name 5, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: github.com/freefq - 上海市徐汇区联通漕河泾数据中心 23, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: github.com/freefq - 加拿大  18, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: github.com/freefq - 加拿大  21, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: github.com/freefq - 安徽省移动 2, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: github.com/freefq - 上海市徐汇区联通漕河泾数据中心 5, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: github.com/freefq - 加拿大  19, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: github.com/freefq - 加拿大  22, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: github.com/freefq - 安徽省移动 13, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: github.com/freefq - 广东省移动 1, server: x.gotout.work, port: 30041, type: ss, cipher: aes-256-gcm, password: 7o8j8vi14nv}
-  - {name: github.com/freefq - 挪威  17, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: github.com/freefq - 挪威  31, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: github.com/freefq - 新加坡OVH 22, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: github.com/freefq - 美国  15, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: github.com/freefq - 美国  28, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v7.ssrsub.com}}
-  - {name: github.com/freefq - 美国  29, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v7.ssrsub.com}}
-  - {name: github.com/freefq - 美国  30, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 19, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 33, server: ff7.uuv2.co.uk, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 7, server: api.ssfree.ru, port: 443, type: vmess, uuid: a08c00c0-6c49-11ec-8273-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /getweather, ws-headers: {Host: api.ssfree.ru}}
-  - {name: github.com/freefq - 美国CloudFlare节点 32, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
-  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 13, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 14, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 34, server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 26, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 3, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: ray, ws-headers: {Host: 45.91.83.111}}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 12, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 6, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 16, server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 20, server: 38.91.102.86, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 25, server: 38.143.66.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: github.com/freefq - 挪威  24, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: github.com/freefq - 挪威  26, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: github.com/freefq - 新加坡OVH 30, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: github.com/freefq - 美国  25, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: github.com/freefq - 美国  27, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: github.com/freefq - 美国  32, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v7.ssrsub.com}}
+  - {name: github.com/freefq - 美国  33, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v7.ssrsub.com}}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 34, server: ff7.uuv2.co.uk, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 7, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 8, server: api.ssfree.ru, port: 443, type: vmess, uuid: a08c00c0-6c49-11ec-8273-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /getweather, ws-headers: {Host: api.ssfree.ru}}
+  - {name: github.com/freefq - 美国CloudFlare节点 12, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
+  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 21, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 23, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 2, server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 10, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 18, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: ray, ws-headers: {Host: 45.91.83.111}}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 11, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 28, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 17, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 29, server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 3, server: 38.143.66.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: github.com/freefq - 美国华盛顿Cogent通信公司 4, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 9, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 10, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 8, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: github.com/freefq - 美国蒙大拿州Sharktech公司 11, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
-  - {name: github.com/freefq - 英国  27, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: github.com/freefq - 荷兰  5, server: 5.255.101.95, port: 60202, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: github.com/freefq - 香港Zenlayer 24, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 129.227.201.234}}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 6, server: 38.91.102.86, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 14, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 15, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: github.com/freefq - 美国蒙大拿州Sharktech公司 20, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: github.com/freefq - 英国  16, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: github.com/freefq - 荷兰  9, server: 5.255.101.95, port: 60202, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
+  - {name: github.com/freefq - 香港Zenlayer 31, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 129.227.201.234}}
   - {name: 乌克兰（YouTube资源分享者）, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 2, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 乌克兰（YouTube资源分享者） 3, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
@@ -1274,7 +1086,7 @@ proxies:
   - {name: 日本（youtube锦囊妙计帮帮帮）, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
   - {name: 日本（youtube锦囊妙计帮帮帮） 2, server: 141.164.57.134, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 日韩频道 TG@shoucangAV, server: hkchiansax2.msservicevip.pw, port: 9359, type: ss, cipher: aes-256-cfb, password: !<str> 73117962}
-  - {name: 更新于:01-03 16:00:02 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 更新于:01-03 20:00:01 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 欧洲, server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 欧洲 10, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
   - {name: 欧洲 11, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
@@ -1866,35 +1678,8 @@ proxy-groups:
       - Ytb:鹏哥分享_US_美国_41
       - Ytb:鹏哥分享_US_美国_42
       - Ytb:鹏哥分享_US_美国_43
-      - _AE_阿联酋
       - _AT_奥地利_Chen-2021.01.01_17
       - _AT_奥地利_Chen-2022.01.01_17
-      - _AU_澳大利亚
-      - _AU_澳大利亚 2
-      - _AU_澳大利亚 3
-      - _AU_澳大利亚 4
-      - _AU_澳大利亚 5
-      - _AU_澳大利亚 6
-      - _AU_澳大利亚 7
-      - _AU_澳大利亚 8
-      - _AU_澳大利亚 9
-      - _AU_澳大利亚 10
-      - _AU_澳大利亚 11
-      - _AU_澳大利亚 12
-      - _AU_澳大利亚 13
-      - _AU_澳大利亚 14
-      - _AU_澳大利亚 15
-      - _AU_澳大利亚 16
-      - _AU_澳大利亚 17
-      - _AU_澳大利亚 18
-      - _AU_澳大利亚 19
-      - _AU_澳大利亚 20
-      - _AU_澳大利亚 21
-      - _AU_澳大利亚 22
-      - _AU_澳大利亚 23
-      - _AU_澳大利亚 24
-      - _AU_澳大利亚 25
-      - _AU_澳大利亚 26
       - _AU_澳大利亚_Chen-2021.01.01_29
       - _AU_澳大利亚_Chen-2021.01.01_30
       - _AU_澳大利亚_Chen-2021.01.01_31
@@ -1951,17 +1736,8 @@ proxy-groups:
       - _AU_澳大利亚_Chen-2022.01.01_54
       - _AU_澳大利亚_Chen-2022.01.01_55
       - _AU_澳大利亚_Chen-2022.01.01_56
-      - _BG_保加利亚
       - _BG_保加利亚_Chen-2021.01.01_15
       - _BG_保加利亚_Chen-2022.01.01_15
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - _CA_加拿大 5
-      - _CA_加拿大 6
-      - _CA_加拿大 7
-      - _CA_加拿大 8
       - _CA_加拿大_147
       - _CA_加拿大_168
       - _CA_加拿大_174
@@ -1982,70 +1758,28 @@ proxy-groups:
       - _CA_加拿大_Chen-2022.01.01_13
       - _CA_加拿大_Chen-2022.01.01_14
       - _CA_加拿大_Chen-2022.01.01_9
-      - _CH_瑞士
       - _CH_瑞士_Chen-2021.01.01_57
       - _CH_瑞士_Chen-2022.01.01_57
-      - _FR_法国
-      - _FR_法国 2
-      - _FR_法国 3
-      - _FR_法国 4
-      - _FR_法国 5
-      - _FR_法国 6
-      - _FR_法国 7
-      - _FR_法国 8
-      - _FR_法国 9
-      - _FR_法国 10
-      - _FR_法国 11
-      - _FR_法国 12
-      - _FR_法国 13
-      - _FR_法国 14
-      - _FR_法国 15
-      - _FR_法国 16
-      - _FR_法国 17
-      - _FR_法国 18
-      - _FR_法国 19
-      - _FR_法国 20
-      - _FR_法国 21
-      - _FR_法国 22
-      - _FR_法国 23
-      - _FR_法国 24
       - _FR_法国_Chen-2021.01.01_18
       - _FR_法国_Chen-2021.01.01_28
       - _FR_法国_Chen-2022.01.01_18
       - _FR_法国_Chen-2022.01.01_28
-      - _GB_英国
-      - _GB_英国 2
-      - _GB_英国 3
-      - _GB_英国 4
-      - _GB_英国 5
-      - _GB_英国 6
-      - _GB_英国 7
-      - _GB_英国 8
       - _GB_英国_Chen-2021.01.01_1
       - _GB_英国_Chen-2021.01.01_82
       - _GB_英国_Chen-2021.01.01_83
       - _GB_英国_Chen-2022.01.01_1
       - _GB_英国_Chen-2022.01.01_82
       - _GB_英国_Chen-2022.01.01_83
-      - _GR_希腊
       - _HK_香港
       - _HK_香港 2
       - _HK_香港 3
       - _HK_香港 4
       - _HK_香港 5
       - _HK_香港 6
-      - _HK_香港 7
-      - _HK_香港 8
-      - _HK_香港 9
-      - _HK_香港->🇮🇳_IN_印度
       - _HK_香港_Chen-2021.01.01_3
       - _HK_香港_Chen-2021.01.01_4
       - _HK_香港_Chen-2022.01.01_3
       - _HK_香港_Chen-2022.01.01_4
-      - _ID_印度尼西亚
-      - _IL_以色列
-      - _IL_以色列 2
-      - _IN_印度
       - _IN_印度_Chen-2021.01.01_84
       - _IN_印度_Chen-2021.01.01_85
       - _IN_印度_Chen-2021.01.01_86
@@ -2054,7 +1788,6 @@ proxy-groups:
       - _IN_印度_Chen-2022.01.01_85
       - _IN_印度_Chen-2022.01.01_86
       - _IN_印度_Chen-2022.01.01_87
-      - _JP_日本
       - _JP_日本_Chen-2021.01.01_24
       - _JP_日本_Chen-2021.01.01_25
       - _JP_日本_Chen-2021.01.01_26
@@ -2063,45 +1796,19 @@ proxy-groups:
       - _JP_日本_Chen-2022.01.01_25
       - _JP_日本_Chen-2022.01.01_26
       - _JP_日本_Chen-2022.01.01_27
-      - _MY_马来西亚
       - _MY_马来西亚_Chen-2021.01.01_89
       - _MY_马来西亚_Chen-2022.01.01_89
       - _NL_荷兰
-      - _NO_挪威
-      - _NO_挪威 2
-      - _NO_挪威 3
-      - _NO_挪威 4
-      - _NO_挪威 5
-      - _NO_挪威 6
-      - _NO_挪威 7
-      - _NO_挪威 8
-      - _NO_挪威 9
-      - _NO_挪威 10
-      - _NO_挪威 11
-      - _NO_挪威 12
-      - _NO_挪威 13
-      - _NO_挪威 14
       - _NO_挪威_Chen-2021.01.01_19
       - _NO_挪威_Chen-2021.01.01_20
       - _NO_挪威_Chen-2022.01.01_19
       - _NO_挪威_Chen-2022.01.01_20
-      - _NZ_新西兰
       - _NZ_新西兰_Chen-2021.01.01_23
       - _NZ_新西兰_Chen-2022.01.01_23
-      - _PH_菲律宾
-      - _PT_葡萄牙
       - _PT_葡萄牙_Chen-2021.01.01_2
       - _PT_葡萄牙_Chen-2022.01.01_2
-      - _RU_俄罗斯联邦
-      - _RU_俄罗斯联邦 2
-      - _RU_俄罗斯联邦 3
       - _RU_俄罗斯联邦_Chen-2021.01.01_8
       - _RU_俄罗斯联邦_Chen-2022.01.01_8
-      - _SE_瑞典
-      - _SG_新加坡
-      - _SG_新加坡 2
-      - _TW_台湾
-      - _TW_台湾 2
       - _US_美国
       - _US_美国 2
       - _US_美国 3
@@ -2204,85 +1911,6 @@ proxy-groups:
       - _US_美国 100
       - _US_美国 101
       - _US_美国 102
-      - _US_美国 103
-      - _US_美国 104
-      - _US_美国 105
-      - _US_美国 106
-      - _US_美国 107
-      - _US_美国 108
-      - _US_美国 109
-      - _US_美国 110
-      - _US_美国 111
-      - _US_美国 112
-      - _US_美国 113
-      - _US_美国 114
-      - _US_美国 115
-      - _US_美国 116
-      - _US_美国 117
-      - _US_美国 118
-      - _US_美国 119
-      - _US_美国 120
-      - _US_美国 121
-      - _US_美国 122
-      - _US_美国 123
-      - _US_美国 124
-      - _US_美国 125
-      - _US_美国 126
-      - _US_美国 127
-      - _US_美国 128
-      - _US_美国 129
-      - _US_美国 130
-      - _US_美国 131
-      - _US_美国 132
-      - _US_美国 133
-      - _US_美国 134
-      - _US_美国 135
-      - _US_美国 136
-      - _US_美国 137
-      - _US_美国 138
-      - _US_美国 139
-      - _US_美国 140
-      - _US_美国 141
-      - _US_美国 142
-      - _US_美国 143
-      - _US_美国 144
-      - _US_美国 145
-      - _US_美国 146
-      - _US_美国 147
-      - _US_美国 148
-      - _US_美国 149
-      - _US_美国 150
-      - _US_美国 151
-      - _US_美国 152
-      - _US_美国 153
-      - _US_美国 154
-      - _US_美国 155
-      - _US_美国 156
-      - _US_美国 157
-      - _US_美国 158
-      - _US_美国 159
-      - _US_美国 160
-      - _US_美国 161
-      - _US_美国 162
-      - _US_美国 163
-      - _US_美国 164
-      - _US_美国 165
-      - _US_美国 166
-      - _US_美国 167
-      - _US_美国 168
-      - _US_美国 169
-      - _US_美国 170
-      - _US_美国 171
-      - _US_美国 172
-      - _US_美国 173
-      - _US_美国 174
-      - _US_美国 175
-      - _US_美国 176
-      - _US_美国 177
-      - _US_美国 178
-      - _US_美国 179
-      - _US_美国 180
-      - _US_美国 181
       - _US_美国_1
       - _US_美国_10
       - _US_美国_100
@@ -2507,44 +2135,40 @@ proxy-groups:
       - _US_美国_Chen-2022.01.01_80
       - _US_美国_Chen-2022.01.01_81
       - default_name
-      - default_name 2
-      - default_name 3
-      - default_name 4
-      - default_name 5
-      - github.com/freefq - 上海市徐汇区联通漕河泾数据中心 23
-      - github.com/freefq - 加拿大  18
-      - github.com/freefq - 加拿大  21
-      - github.com/freefq - 安徽省移动 2
+      - github.com/freefq - 上海市徐汇区联通漕河泾数据中心 5
+      - github.com/freefq - 加拿大  19
+      - github.com/freefq - 加拿大  22
+      - github.com/freefq - 安徽省移动 13
       - github.com/freefq - 广东省移动 1
-      - github.com/freefq - 挪威  17
-      - github.com/freefq - 挪威  31
-      - github.com/freefq - 新加坡OVH 22
-      - github.com/freefq - 美国  15
-      - github.com/freefq - 美国  28
-      - github.com/freefq - 美国  29
-      - github.com/freefq - 美国  30
-      - github.com/freefq - 美国CloudFlare公司CDN节点 19
-      - github.com/freefq - 美国CloudFlare公司CDN节点 33
+      - github.com/freefq - 挪威  24
+      - github.com/freefq - 挪威  26
+      - github.com/freefq - 新加坡OVH 30
+      - github.com/freefq - 美国  25
+      - github.com/freefq - 美国  27
+      - github.com/freefq - 美国  32
+      - github.com/freefq - 美国  33
+      - github.com/freefq - 美国CloudFlare公司CDN节点 34
       - github.com/freefq - 美国CloudFlare公司CDN节点 7
-      - github.com/freefq - 美国CloudFlare节点 32
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 13
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 14
-      - github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 34
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 26
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 3
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 12
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 6
-      - github.com/freefq - 美国华盛顿Cogent通信公司 16
-      - github.com/freefq - 美国华盛顿Cogent通信公司 20
-      - github.com/freefq - 美国华盛顿Cogent通信公司 25
+      - github.com/freefq - 美国CloudFlare公司CDN节点 8
+      - github.com/freefq - 美国CloudFlare节点 12
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 21
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 23
+      - github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 10
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 18
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 11
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 28
+      - github.com/freefq - 美国华盛顿Cogent通信公司 17
+      - github.com/freefq - 美国华盛顿Cogent通信公司 29
+      - github.com/freefq - 美国华盛顿Cogent通信公司 3
       - github.com/freefq - 美国华盛顿Cogent通信公司 4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 9
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 10
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 8
-      - github.com/freefq - 美国蒙大拿州Sharktech公司 11
-      - github.com/freefq - 英国  27
-      - github.com/freefq - 荷兰  5
-      - github.com/freefq - 香港Zenlayer 24
+      - github.com/freefq - 美国华盛顿Cogent通信公司 6
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 14
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 15
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 20
+      - github.com/freefq - 英国  16
+      - github.com/freefq - 荷兰  9
+      - github.com/freefq - 香港Zenlayer 31
       - 乌克兰（YouTube资源分享者）
       - 乌克兰（YouTube资源分享者） 2
       - 乌克兰（YouTube资源分享者） 3
@@ -2790,7 +2414,7 @@ proxy-groups:
       - 日本（youtube锦囊妙计帮帮帮）
       - 日本（youtube锦囊妙计帮帮帮） 2
       - 日韩频道 TG@shoucangAV
-      - 更新于:01-03 16:00:02 - by BuLink.xyz
+      - 更新于:01-03 20:00:01 - by BuLink.xyz
       - 欧洲
       - 欧洲 10
       - 欧洲 11
@@ -3170,15 +2794,11 @@ proxy-groups:
       - _HK_香港 4
       - _HK_香港 5
       - _HK_香港 6
-      - _HK_香港 7
-      - _HK_香港 8
-      - _HK_香港 9
-      - _HK_香港->🇮🇳_IN_印度
       - _HK_香港_Chen-2021.01.01_3
       - _HK_香港_Chen-2021.01.01_4
       - _HK_香港_Chen-2022.01.01_3
       - _HK_香港_Chen-2022.01.01_4
-      - github.com/freefq - 香港Zenlayer 24
+      - github.com/freefq - 香港Zenlayer 31
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
       - 香港（YouTube资源分享者） 3
@@ -3211,8 +2831,6 @@ proxy-groups:
       - 09台湾∞中转
       - 10台湾∞中转
       - Ytb:鹏哥分享_TW_台湾_4
-      - _TW_台湾
-      - _TW_台湾 2
       - 台湾（YouTube资源分享者）
       - 台湾（YouTube资源分享者） 2
       - 台湾（YouTube资源分享者） 3
@@ -3234,15 +2852,13 @@ proxy-groups:
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
-      - _SG_新加坡
-      - _SG_新加坡 2
+      - DIRECT
   - name: 🇯🇵 日本节点
     type: select
     proxies:
       - 20日本∞中转
       - 21日本∞直连
       - 22日本∞直连
-      - _JP_日本
       - _JP_日本_Chen-2021.01.01_24
       - _JP_日本_Chen-2021.01.01_25
       - _JP_日本_Chen-2021.01.01_26
