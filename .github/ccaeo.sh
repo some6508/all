@@ -6,11 +6,11 @@ cd $home
 ec() { echo "$(date '+%M分%S秒.%3N毫秒')	$@"; }
 CURL() {
 echo --------------------------------------------------
-ec "- 下载文件: $1"
-ec "- 连接链接: $2"
+ec "- 下载文件	$1"
+ec "- 连接链接	$2"
 curl -so $home/$1 "$2"
 local CURL=$?
-[[ $CURL = 0 ]] && ec "- 下载完成: $CURL" || ec "! 下载失败: $CURL"
+[[ $CURL = 0 ]] && ec "- 下载完成	$CURL" || ec "! 下载失败	$CURL"
 return $CURL
 }
 echo $(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')
@@ -19,7 +19,7 @@ eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="htt
 case "$href" in
 *.txt) CURL v "$href" ;;
 *.yaml) CURL c "$href" ;;
-*) ec "! 链接错误: $href" ;;
+*) ec "! 链接错误	$href" ;;
 esac
 eval "`curl -s 'https://api.github.com/repos/pojiezhiyuanjun/freev2/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
 eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/|p' | sed 's|</a>|"|g'`"
@@ -27,10 +27,10 @@ case "$href" in
 *.txt) CURL v2 "$href" ;;
 *.yml) CURL c2 "$href" ;;
 *.zip) CURL vc.zip "$href"
-unzip -p $home/vc.zip '*txt' >v2 && ec "- 解压成功: v2" || ec "! 解压失败: v2"
-unzip -p $home/vc.zip '*.yml' >c2 && ec "- 解压成功: c2" || ec "! 解压失败: c2"
+unzip -p $home/vc.zip '*txt' >v2 && ec "- 解压成功	v2" || ec "! 解压失败	v2"
+unzip -p $home/vc.zip '*.yml' >c2 && ec "- 解压成功	c2" || ec "! 解压失败	c2"
 rm -rf $home/vc.zip ;;
-*) ec "! 链接错误: $href" ;;
+*) ec "! 链接错误	$href" ;;
 esac
 eval "`curl -s 'https://api.github.com/repos/zyfxz/V2Ray/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
 eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/zyfxz/V2Ray/main/|p' | sed 's|</a>|"|g'`"
@@ -52,7 +52,7 @@ eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="htt
 case "$href" in
 *.txt) CURL v7 "$href" ;;
 *.yaml) CURL c6 "$href" ;;
-*) ec "! 链接错误: $href" ;;
+*) ec "! 链接错误	$href" ;;
 esac
 CURL v8 'https://raw.githubusercontent.com/freefq/free/master/v2'
 CURL s 'https://raw.githubusercontent.com/freefq/free/master/ssr'
