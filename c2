@@ -5,80 +5,87 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇦 加拿大, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇺🇲 美国, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇺🇲 美国 2, server: 167.88.61.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇲 美国 3, server: 167.88.61.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇲 美国 4, server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 美国 5, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 美国 6, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}, udp: true}
-  - {name: 🇺🇲 美国 7, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}, udp: true}
-  - {name: 🇺🇲 美国 8, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇲 美国 9, server: 38.143.66.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇲 美国 10, server: 38.91.102.86, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 美国 11, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇲 美国 12, server: 38.91.102.96, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇺🇲 美国 13, server: 38.91.102.96, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇲 美国 14, server: 38.91.102.96, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 🇺🇲 美国 15, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: 🇺🇲 美国 16, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ, udp: true}
-  - {name: 🇺🇲 美国 17, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: 🇺🇲 美国 18, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: 🇺🇲 美国 19, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}, udp: true}
-  - {name: 🇺🇲 美国 20, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}, udp: true}
-  - {name: 🇺🇲 美国 21, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君), server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}, udp: true}
-  - {name: 欧洲, server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 欧洲 2, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲 3, server: 169.197.142.39, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲 4, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲 5, server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲 6, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL, udp: true}
-  - {name: 欧洲 7, server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲 8, server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 欧洲 9, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
-  - {name: 欧洲 10, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
-  - {name: 欧洲 11, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
-  - {name: 欧洲 12, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS, udp: true}
-  - {name: 欧洲 13, server: 38.143.66.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲 14, server: 38.75.136.93, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 欧洲 15, server: 38.75.136.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲 16, server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲 17, server: 38.91.102.96, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 欧洲 18, server: 38.91.102.96, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲 19, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲 20, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF, udp: true}
-  - {name: 欧洲 21, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 欧洲 22, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲 23, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 欧洲 24, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲 25, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲 26, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲 27, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲 28, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf, udp: true}
-  - {name: 欧洲 29, server: jp2.racernet.link, port: 443, type: vmess, uuid: 7e4471a9-8c7a-307e-a957-49098d797840, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ct/sh2/jp2, ws-headers: {Host: jp2.racernet.link}, udp: true}
-  - {name: 欧洲 30, server: t1.ssrsub.com, port: 8443, type: trojan, password: da8ad13d-19e6-4a28-82a6-da15bbc0a968, sni: t1.ssrsub.com, skip-cert-verify: false, udp: true}
-  - {name: 欧洲 31, server: t1.ssrsub.com, port: 8443, type: trojan, password: 7644049b-79e1-4c3b-b621-0a464ab47db4, sni: t1.ssrsub.com, skip-cert-verify: false, udp: true}
-  - {name: 欧洲 32, server: t3.ssrsub.com, port: 156, type: trojan, password: da8ad13d-19e6-4a28-82a6-da15bbc0a968, sni: t3.ssrsub.com, skip-cert-verify: false, udp: true}
-  - {name: 欧洲 33, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 欧洲 34, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 欧洲 35, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}, udp: true}
-  - {name: 欧洲 36, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
-  - {name: 欧洲 37, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
-  - {name: 欧洲 38, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}, udp: true}
-  - {name: 欧洲 39, server: v8.ssrsub.com, port: 443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 169.197.142.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 38.143.66.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇺🇲 美国, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇲 美国 2, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}, udp: true}
+  - {name: 🇺🇲 美国 3, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}, udp: true}
+  - {name: 🇺🇲 美国 4, server: 38.143.66.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇲 美国 5, server: 38.91.102.86, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇲 美国 6, server: 38.91.102.96, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇺🇲 美国 7, server: 38.91.102.96, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇺🇲 美国 8, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: 🇺🇲 美国 9, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ, udp: true}
+  - {name: 🇺🇲 美国 10, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: 🇺🇲 美国 11, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: 🇺🇲 美国 12, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}, udp: true}
+  - {name: 🇺🇲 美国 13, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}, udp: true}
+  - {name: 🇺🇲 美国 14, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL, udp: true}
+  - {name: 欧洲 2, server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 欧洲 3, server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 欧洲 4, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
+  - {name: 欧洲 5, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
+  - {name: 欧洲 6, server: 38.143.66.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲 7, server: 38.75.136.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲 8, server: 38.75.136.93, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 欧洲 9, server: 38.91.102.96, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 欧洲 10, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲 11, server: t1.ssrsub.com, port: 8443, type: trojan, password: da8ad13d-19e6-4a28-82a6-da15bbc0a968, sni: t1.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 欧洲 12, server: t3.ssrsub.com, port: 156, type: trojan, password: da8ad13d-19e6-4a28-82a6-da15bbc0a968, sni: t3.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 欧洲 13, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: 欧洲 14, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
+  - {name: 欧洲 15, server: v8.ssrsub.com, port: 443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
+  - {name: 欧洲 16, server: 169.197.142.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲 17, server: 38.143.66.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇺🇲 美国 15, server: 82.202.220.242, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr, udp: true}
+  - {name: 🇺🇲 美国 16, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA, udp: true}
+  - {name: 🇺🇲 美国 17, server: 178.62.224.119, port: 8888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 178.62.224.119}, udp: true}
+  - {name: 欧洲 18, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲 19, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲 20, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲 21, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲 22, server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇲 美国 18, server: 62.210.209.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲 23, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: 欧洲 24, server: 217.138.193.6, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 欧洲 25, server: 217.138.193.6, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 欧洲 26, server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲 27, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇺🇲 美国 19, server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /84c3f/, ws-headers: {Host: cc.hciahciphcie.club}, udp: true}
+  - {name: 🇺🇲 美国 20, server: tw-tpe-hq-v2.node.inforun.work, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 🇺🇲 美国 21, server: de-nue-v2.cdn.savoy.click, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 欧洲 28, server: 38.114.114.67, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇲 美国 22, server: 185.51.134.210, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2, udp: true}
+  - {name: 欧洲 29, server: 38.114.114.67, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇲 美国 23, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS, udp: true}
+  - {name: 欧洲 30, server: 141.164.35.41, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 欧洲 31, server: 141.164.53.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲 32, server: 141.164.53.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 欧洲 33, server: 141.164.53.152, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲 34, server: 141.164.35.41, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 欧洲 35, server: 217.138.193.6, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 欧洲 36, server: 217.138.193.6, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 欧洲 37, server: 38.114.114.67, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇲 美国 24, server: 158.247.208.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇲 美国 25, server: jp-nrt-04-v2.cdn.savoy.click, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 🇺🇲 美国 26, server: sg-sin-krn-v2.node.inforun.work, port: 12888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 🇺🇲 美国 27, server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV, udp: true}
+  - {name: 欧洲 38, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: 欧洲 39, server: 141.164.35.41, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇺🇲 美国 28, server: 141.164.57.134, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇺🇲 美国 29, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf, udp: true}
+  - {name: 🇭🇰 香港, server: hk-hkg-it2-svm-v2.node.inforun.work, port: 13888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 欧洲 40, server: 38.114.114.67, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲 41, server: 173.82.240.245, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /84c3f/, ws-headers: {Host: cc.hciahciphcie.club}, udp: true}
+  - {name: 🇺🇲 美国 30, server: hk-hkg-gz-hk-hkt-v2.node.inforun.work, port: 60088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 🇭🇰 香港 2, server: us-sjc-ap-v2.node.inforun.work, port: 788, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 🇭🇰 香港 3, server: hk-gz-hk-hkt-v2-b.cdn.savoy.click, port: 60188, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 欧洲 42, server: 38.114.114.67, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 加拿大
       - 🇺🇲 美国
       - 🇺🇲 美国 2
       - 🇺🇲 美国 3
@@ -93,16 +100,6 @@ proxy-groups:
       - 🇺🇲 美国 12
       - 🇺🇲 美国 13
       - 🇺🇲 美国 14
-      - 🇺🇲 美国 15
-      - 🇺🇲 美国 16
-      - 🇺🇲 美国 17
-      - 🇺🇲 美国 18
-      - 🇺🇲 美国 19
-      - 🇺🇲 美国 20
-      - 🇺🇲 美国 21
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -120,18 +117,27 @@ proxy-groups:
       - 欧洲 15
       - 欧洲 16
       - 欧洲 17
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
       - 欧洲 18
       - 欧洲 19
       - 欧洲 20
       - 欧洲 21
       - 欧洲 22
+      - 🇺🇲 美国 18
       - 欧洲 23
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
       - 欧洲 27
+      - 🇺🇲 美国 19
+      - 🇺🇲 美国 20
+      - 🇺🇲 美国 21
       - 欧洲 28
+      - 🇺🇲 美国 22
       - 欧洲 29
+      - 🇺🇲 美国 23
       - 欧洲 30
       - 欧洲 31
       - 欧洲 32
@@ -140,17 +146,26 @@ proxy-groups:
       - 欧洲 35
       - 欧洲 36
       - 欧洲 37
+      - 🇺🇲 美国 24
+      - 🇺🇲 美国 25
+      - 🇺🇲 美国 26
+      - 🇺🇲 美国 27
       - 欧洲 38
       - 欧洲 39
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国 28
+      - 🇺🇲 美国 29
+      - 🇭🇰 香港
+      - 欧洲 40
+      - 欧洲 41
+      - 🇺🇲 美国 30
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 欧洲 42
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇦 加拿大
       - 🇺🇲 美国
       - 🇺🇲 美国 2
       - 🇺🇲 美国 3
@@ -165,16 +180,6 @@ proxy-groups:
       - 🇺🇲 美国 12
       - 🇺🇲 美国 13
       - 🇺🇲 美国 14
-      - 🇺🇲 美国 15
-      - 🇺🇲 美国 16
-      - 🇺🇲 美国 17
-      - 🇺🇲 美国 18
-      - 🇺🇲 美国 19
-      - 🇺🇲 美国 20
-      - 🇺🇲 美国 21
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -192,18 +197,27 @@ proxy-groups:
       - 欧洲 15
       - 欧洲 16
       - 欧洲 17
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
       - 欧洲 18
       - 欧洲 19
       - 欧洲 20
       - 欧洲 21
       - 欧洲 22
+      - 🇺🇲 美国 18
       - 欧洲 23
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
       - 欧洲 27
+      - 🇺🇲 美国 19
+      - 🇺🇲 美国 20
+      - 🇺🇲 美国 21
       - 欧洲 28
+      - 🇺🇲 美国 22
       - 欧洲 29
+      - 🇺🇲 美国 23
       - 欧洲 30
       - 欧洲 31
       - 欧洲 32
@@ -212,18 +226,27 @@ proxy-groups:
       - 欧洲 35
       - 欧洲 36
       - 欧洲 37
+      - 🇺🇲 美国 24
+      - 🇺🇲 美国 25
+      - 🇺🇲 美国 26
+      - 🇺🇲 美国 27
       - 欧洲 38
       - 欧洲 39
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国 28
+      - 🇺🇲 美国 29
+      - 🇭🇰 香港
+      - 欧洲 40
+      - 欧洲 41
+      - 🇺🇲 美国 30
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 欧洲 42
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 加拿大
       - 🇺🇲 美国
       - 🇺🇲 美国 2
       - 🇺🇲 美国 3
@@ -238,16 +261,6 @@ proxy-groups:
       - 🇺🇲 美国 12
       - 🇺🇲 美国 13
       - 🇺🇲 美国 14
-      - 🇺🇲 美国 15
-      - 🇺🇲 美国 16
-      - 🇺🇲 美国 17
-      - 🇺🇲 美国 18
-      - 🇺🇲 美国 19
-      - 🇺🇲 美国 20
-      - 🇺🇲 美国 21
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -265,18 +278,27 @@ proxy-groups:
       - 欧洲 15
       - 欧洲 16
       - 欧洲 17
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
       - 欧洲 18
       - 欧洲 19
       - 欧洲 20
       - 欧洲 21
       - 欧洲 22
+      - 🇺🇲 美国 18
       - 欧洲 23
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
       - 欧洲 27
+      - 🇺🇲 美国 19
+      - 🇺🇲 美国 20
+      - 🇺🇲 美国 21
       - 欧洲 28
+      - 🇺🇲 美国 22
       - 欧洲 29
+      - 🇺🇲 美国 23
       - 欧洲 30
       - 欧洲 31
       - 欧洲 32
@@ -285,11 +307,21 @@ proxy-groups:
       - 欧洲 35
       - 欧洲 36
       - 欧洲 37
+      - 🇺🇲 美国 24
+      - 🇺🇲 美国 25
+      - 🇺🇲 美国 26
+      - 🇺🇲 美国 27
       - 欧洲 38
       - 欧洲 39
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国 28
+      - 🇺🇲 美国 29
+      - 🇭🇰 香港
+      - 欧洲 40
+      - 欧洲 41
+      - 🇺🇲 美国 30
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 欧洲 42
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -308,7 +340,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 加拿大
       - 🇺🇲 美国
       - 🇺🇲 美国 2
       - 🇺🇲 美国 3
@@ -323,16 +354,6 @@ proxy-groups:
       - 🇺🇲 美国 12
       - 🇺🇲 美国 13
       - 🇺🇲 美国 14
-      - 🇺🇲 美国 15
-      - 🇺🇲 美国 16
-      - 🇺🇲 美国 17
-      - 🇺🇲 美国 18
-      - 🇺🇲 美国 19
-      - 🇺🇲 美国 20
-      - 🇺🇲 美国 21
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -350,18 +371,27 @@ proxy-groups:
       - 欧洲 15
       - 欧洲 16
       - 欧洲 17
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
       - 欧洲 18
       - 欧洲 19
       - 欧洲 20
       - 欧洲 21
       - 欧洲 22
+      - 🇺🇲 美国 18
       - 欧洲 23
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
       - 欧洲 27
+      - 🇺🇲 美国 19
+      - 🇺🇲 美国 20
+      - 🇺🇲 美国 21
       - 欧洲 28
+      - 🇺🇲 美国 22
       - 欧洲 29
+      - 🇺🇲 美国 23
       - 欧洲 30
       - 欧洲 31
       - 欧洲 32
@@ -370,22 +400,34 @@ proxy-groups:
       - 欧洲 35
       - 欧洲 36
       - 欧洲 37
+      - 🇺🇲 美国 24
+      - 🇺🇲 美国 25
+      - 🇺🇲 美国 26
+      - 🇺🇲 美国 27
       - 欧洲 38
       - 欧洲 39
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国 28
+      - 🇺🇲 美国 29
+      - 🇭🇰 香港
+      - 欧洲 40
+      - 欧洲 41
+      - 🇺🇲 美国 30
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 欧洲 42
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇦 加拿大
       - 🇺🇲 美国
       - 🇺🇲 美国 2
       - 🇺🇲 美国 3
@@ -400,16 +442,6 @@ proxy-groups:
       - 🇺🇲 美国 12
       - 🇺🇲 美国 13
       - 🇺🇲 美国 14
-      - 🇺🇲 美国 15
-      - 🇺🇲 美国 16
-      - 🇺🇲 美国 17
-      - 🇺🇲 美国 18
-      - 🇺🇲 美国 19
-      - 🇺🇲 美国 20
-      - 🇺🇲 美国 21
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -427,18 +459,27 @@ proxy-groups:
       - 欧洲 15
       - 欧洲 16
       - 欧洲 17
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
       - 欧洲 18
       - 欧洲 19
       - 欧洲 20
       - 欧洲 21
       - 欧洲 22
+      - 🇺🇲 美国 18
       - 欧洲 23
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
       - 欧洲 27
+      - 🇺🇲 美国 19
+      - 🇺🇲 美国 20
+      - 🇺🇲 美国 21
       - 欧洲 28
+      - 🇺🇲 美国 22
       - 欧洲 29
+      - 🇺🇲 美国 23
       - 欧洲 30
       - 欧洲 31
       - 欧洲 32
@@ -447,17 +488,26 @@ proxy-groups:
       - 欧洲 35
       - 欧洲 36
       - 欧洲 37
+      - 🇺🇲 美国 24
+      - 🇺🇲 美国 25
+      - 🇺🇲 美国 26
+      - 🇺🇲 美国 27
       - 欧洲 38
       - 欧洲 39
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国 28
+      - 🇺🇲 美国 29
+      - 🇭🇰 香港
+      - 欧洲 40
+      - 欧洲 41
+      - 🇺🇲 美国 30
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 欧洲 42
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇦 加拿大
       - 🇺🇲 美国
       - 🇺🇲 美国 2
       - 🇺🇲 美国 3
@@ -472,16 +522,6 @@ proxy-groups:
       - 🇺🇲 美国 12
       - 🇺🇲 美国 13
       - 🇺🇲 美国 14
-      - 🇺🇲 美国 15
-      - 🇺🇲 美国 16
-      - 🇺🇲 美国 17
-      - 🇺🇲 美国 18
-      - 🇺🇲 美国 19
-      - 🇺🇲 美国 20
-      - 🇺🇲 美国 21
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -499,18 +539,27 @@ proxy-groups:
       - 欧洲 15
       - 欧洲 16
       - 欧洲 17
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
       - 欧洲 18
       - 欧洲 19
       - 欧洲 20
       - 欧洲 21
       - 欧洲 22
+      - 🇺🇲 美国 18
       - 欧洲 23
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
       - 欧洲 27
+      - 🇺🇲 美国 19
+      - 🇺🇲 美国 20
+      - 🇺🇲 美国 21
       - 欧洲 28
+      - 🇺🇲 美国 22
       - 欧洲 29
+      - 🇺🇲 美国 23
       - 欧洲 30
       - 欧洲 31
       - 欧洲 32
@@ -519,18 +568,27 @@ proxy-groups:
       - 欧洲 35
       - 欧洲 36
       - 欧洲 37
+      - 🇺🇲 美国 24
+      - 🇺🇲 美国 25
+      - 🇺🇲 美国 26
+      - 🇺🇲 美国 27
       - 欧洲 38
       - 欧洲 39
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国 28
+      - 🇺🇲 美国 29
+      - 🇭🇰 香港
+      - 欧洲 40
+      - 欧洲 41
+      - 🇺🇲 美国 30
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 欧洲 42
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦 加拿大
       - 🇺🇲 美国
       - 🇺🇲 美国 2
       - 🇺🇲 美国 3
@@ -545,16 +603,6 @@ proxy-groups:
       - 🇺🇲 美国 12
       - 🇺🇲 美国 13
       - 🇺🇲 美国 14
-      - 🇺🇲 美国 15
-      - 🇺🇲 美国 16
-      - 🇺🇲 美国 17
-      - 🇺🇲 美国 18
-      - 🇺🇲 美国 19
-      - 🇺🇲 美国 20
-      - 🇺🇲 美国 21
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -572,18 +620,27 @@ proxy-groups:
       - 欧洲 15
       - 欧洲 16
       - 欧洲 17
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
       - 欧洲 18
       - 欧洲 19
       - 欧洲 20
       - 欧洲 21
       - 欧洲 22
+      - 🇺🇲 美国 18
       - 欧洲 23
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
       - 欧洲 27
+      - 🇺🇲 美国 19
+      - 🇺🇲 美国 20
+      - 🇺🇲 美国 21
       - 欧洲 28
+      - 🇺🇲 美国 22
       - 欧洲 29
+      - 🇺🇲 美国 23
       - 欧洲 30
       - 欧洲 31
       - 欧洲 32
@@ -592,11 +649,21 @@ proxy-groups:
       - 欧洲 35
       - 欧洲 36
       - 欧洲 37
+      - 🇺🇲 美国 24
+      - 🇺🇲 美国 25
+      - 🇺🇲 美国 26
+      - 🇺🇲 美国 27
       - 欧洲 38
       - 欧洲 39
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国 28
+      - 🇺🇲 美国 29
+      - 🇭🇰 香港
+      - 欧洲 40
+      - 欧洲 41
+      - 🇺🇲 美国 30
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 欧洲 42
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -612,7 +679,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦 加拿大
       - 🇺🇲 美国
       - 🇺🇲 美国 2
       - 🇺🇲 美国 3
@@ -627,16 +693,6 @@ proxy-groups:
       - 🇺🇲 美国 12
       - 🇺🇲 美国 13
       - 🇺🇲 美国 14
-      - 🇺🇲 美国 15
-      - 🇺🇲 美国 16
-      - 🇺🇲 美国 17
-      - 🇺🇲 美国 18
-      - 🇺🇲 美国 19
-      - 🇺🇲 美国 20
-      - 🇺🇲 美国 21
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -654,18 +710,27 @@ proxy-groups:
       - 欧洲 15
       - 欧洲 16
       - 欧洲 17
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
       - 欧洲 18
       - 欧洲 19
       - 欧洲 20
       - 欧洲 21
       - 欧洲 22
+      - 🇺🇲 美国 18
       - 欧洲 23
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
       - 欧洲 27
+      - 🇺🇲 美国 19
+      - 🇺🇲 美国 20
+      - 🇺🇲 美国 21
       - 欧洲 28
+      - 🇺🇲 美国 22
       - 欧洲 29
+      - 🇺🇲 美国 23
       - 欧洲 30
       - 欧洲 31
       - 欧洲 32
@@ -674,11 +739,21 @@ proxy-groups:
       - 欧洲 35
       - 欧洲 36
       - 欧洲 37
+      - 🇺🇲 美国 24
+      - 🇺🇲 美国 25
+      - 🇺🇲 美国 26
+      - 🇺🇲 美国 27
       - 欧洲 38
       - 欧洲 39
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国 28
+      - 🇺🇲 美国 29
+      - 🇭🇰 香港
+      - 欧洲 40
+      - 欧洲 41
+      - 🇺🇲 美国 30
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 欧洲 42
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

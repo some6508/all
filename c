@@ -5,260 +5,2516 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇨🇳_CN_中国->🇹🇼_TW_台湾_1', server: tw-tpe-h-v2.cdn.savoy.click, port: 988, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
-  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_2', server: us-sea-sh-us-02-v2.node.inforun.work, port: 22088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
-  - {name: '🇨🇳_CN_中国->🇹🇼_TW_台湾_3', server: hk-hkg-it2-svm-v2.node.inforun.work, port: 13888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
-  - {name: '🇩🇪_DE_德国_4', server: de-nue-v2.cdn.savoy.click, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
-  - {name: '🇺🇸_US_美国_5', server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/bb2b34a1", host: www.ltzs.buzz }}
-  - {name: '🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_6', server: ru-led-sh-ru-v2.node.inforun.work, port: 24088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
-  - {name: '🇺🇸_US_美国_7', server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: iesei1ei.com }}
-  - {name: '🇺🇸_US_美国_8', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: '🇫🇷_FR_法国_9', server: fr-cdg-01-v2.node.inforun.work, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
-  - {name: '🇺🇸_US_美国_10', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: '🇺🇸_US_美国_11', server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-miami.lvuft.com }}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_12', server: hk-hkg-gz-hk-hkt-v2.node.inforun.work, port: 60088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
-  - {name: '🇺🇸_US_美国_13', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_14', server: sh-hk-hgc-1g-v2.node.inforun.work, port: 20288, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_15', server: hk-hkg-shhk-001-v2.cdn.savoy.click, port: 20088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_17', server: sh-hk-hgc-100m-v2.cdn.savoy.click, port: 20188, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
-  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_18', server: us-sjc-na-v2.cdn.savoy.click, port: 688, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_19', server: hk-hkg-sh-hk-02-v2.cdn.savoy.click, port: 21088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
-  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_20', server: us-sjc-ap-v2.node.inforun.work, port: 788, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
-  - {name: '🇺🇸_US_美国_21', server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-sanfrancisco.lvuft.com }}
-  - {name: '🇺🇸_US_美国_22', server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/bb2b34a1", host: www.ltzs.buzz }}
-  - {name: 'default_name_23', server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: { path: "kycc", host: lsb.stupidfellow.cf }}
-  - {name: 'default_name_24', server: 198.41.212.234, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: 2022-world-1.a-yu.xyz }}
-  - {name: '🇹🇼_TW_台湾_25', server: tw-tpe-hq-v2.node.inforun.work, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
-  - {name: '🇺🇸_US_美国_26', server: ff8.uuv2.co.uk, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/bb2b34a1", host: www.ltzs.buzz }}
-  - {name: '🇺🇸_US_美国_27', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws" }}
+  - {name: '🇭🇰_HK_香港_1', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇭🇰_HK_香港_2', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_3', server: 38.143.66.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_4', server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇭🇰_HK_香港_5', server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸_US_美国_6', server: 38.91.102.96, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇭🇰_HK_香港_7', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_8', server: 38.91.102.96, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国_9', server: 38.143.66.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇭🇰_HK_香港_10', server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_11', server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_12', server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_13', server: 169.197.142.39, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国_14', server: 167.88.61.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_US_美国_15', server: 38.91.102.96, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸_US_美国_16', server: 38.91.102.86, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_17', server: 38.91.102.86, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_18', server: 38.91.102.86, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_19', server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸_US_美国_20', server: 38.91.102.96, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_21', server: 169.197.142.39, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸_US_美国_22', server: 38.91.102.86, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸_US_美国_23', server: 38.91.102.86, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_US_美国_24', server: 167.88.61.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_25', server: 38.143.66.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_US_美国_26', server: 38.91.102.96, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_27', server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_28', server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_29', server: 38.91.102.96, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_30', server: 38.91.102.96, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_31', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
+  - {name: '🇺🇸_US_美国_32', server: 38.91.102.86, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_33', server: 38.91.102.96, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_34', server: 38.91.102.96, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_35', server: 169.197.142.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_36', server: 38.91.102.86, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_37', server: 38.91.102.86, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_38', server: 167.88.61.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国_39', server: 38.143.66.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_40', server: 38.143.66.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_41', server: ff8.uuv2.co.uk, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/bb2b34a1", host: www.ltzs.buzz }}
+  - {name: '🇺🇸_US_美国_42', server: 38.91.102.86, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_43', server: 38.91.102.96, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_US_美国_44', server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_45', server: 38.91.102.96, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸_US_美国_46', server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_47', server: 38.143.66.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸_US_美国_48', server: 38.91.102.96, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸_US_美国_49', server: 38.91.102.96, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇭🇰_HK_香港_50', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_51', server: api.ssfree.ru, port: 443, type: vmess, uuid: 35d1a90a-6cae-11ec-8e69-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: { path: "/getweather" }}
+  - {name: '🇳🇱_NL_荷兰_52', server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
+  - {name: '🇺🇸_US_美国_53', server: 38.91.102.96, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_US_美国_54', server: 38.91.102.96, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_55', server: 38.143.66.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇨🇦_CA_加拿大_56', server: 134.195.196.101, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_57', server: 38.143.66.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国_58', server: 38.91.102.86, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_59', server: 38.91.102.96, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'default_name_60', server: 198.41.212.234, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: 2022-world-1.a-yu.xyz }}
+  - {name: '🇺🇸_US_美国_61', server: 38.91.102.96, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_62', server: 169.197.142.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_63', server: 38.91.102.86, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇭🇰_HK_香港_64', server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_65', server: 169.197.142.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_66', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
+  - {name: '🇺🇸_US_美国_67', server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸_US_美国_68', server: 38.91.102.86, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇧🇬_BG_保加利亚_69', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: '🇱🇺_LU_卢森堡_70', server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
+  - {name: '🇺🇸_US_美国_71', server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_72', server: 38.91.102.86, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_73', server: 38.91.102.86, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_74', server: 38.91.102.96, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_75', server: 38.143.66.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇫🇷_FR_法国_76', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国_77', server: 38.91.102.96, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇫🇷_FR_法国_78', server: 62.210.209.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_79', server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_80', server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_81', server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_82', server: us-sea-sh-us-02-v2.node.inforun.work, port: 22088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇺🇸_US_美国_83', server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇧🇪_BE_比利时_84', server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '🇺🇸_US_美国_85', server: 38.143.66.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇳_CN_中国->🇯🇵_JP_日本_86', server: jp-nrt-04-v2.cdn.savoy.click, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇺🇸_US_美国_87', server: 169.197.142.39, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_88', server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-washington.lvuft.com }}
+  - {name: '🇷🇺_RU_俄罗斯联邦_89', server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
+  - {name: '🇺🇸_US_美国_90', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
+  - {name: '🇨🇦_CA_加拿大_91', server: 134.195.196.101, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_92', server: 169.197.142.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_93', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
+  - {name: '🇺🇸_US_美国_94', server: 169.197.142.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_95', server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_96', server: 169.197.142.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国_97', server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇫🇷_FR_法国_98', server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_99', server: 38.91.102.96, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇨🇦_CA_加拿大_100', server: 134.195.196.101, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇳🇴_NO_挪威_101', server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: '🇫🇷_FR_法国_102', server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_US_美国_103', server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_104', server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇫🇷_FR_法国_105', server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_106', server: 38.91.102.96, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_107', server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/bb2b34a1", host: www.ltzs.buzz }}
+  - {name: '🇺🇸_US_美国_108', server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: '🇺🇸_US_美国_109', server: 169.197.142.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_110', server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇫🇷_FR_法国_111', server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇫🇷_FR_法国_112', server: 62.210.209.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_113', server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_114', server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-miami.lvuft.com }}
+  - {name: '🇺🇸_US_美国_115', server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_116', server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_117', server: 38.91.102.86, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_118', server: sh-hk-hgc-1g-v2.node.inforun.work, port: 20288, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇺🇸_US_美国_119', server: 167.88.61.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇨🇳_CN_中国->🇹🇼_TW_台湾_120', server: tw-tpe-h-v2.cdn.savoy.click, port: 988, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇦🇺_AU_澳大利亚_121', server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_122', server: 38.75.136.93, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_123', server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_124', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇫🇷_FR_法国_125', server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇬🇧_GB_英国_126', server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_127', server: 169.197.142.39, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_128', server: 38.143.66.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国_129', server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_130', server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_131', server: 38.91.102.86, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_132', server: 38.91.102.86, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_133', server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸_US_美国_134', server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇨🇦_CA_加拿大_135', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇦🇺_AU_澳大利亚_136', server: 172.105.180.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦_CA_加拿大_137', server: 134.195.196.101, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_138', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-miami.lvuft.com }}
+  - {name: '🇺🇸_US_美国_139', server: 38.91.102.86, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇭🇰_HK_香港_140', server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇦🇺_AU_澳大利亚_141', server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇨🇦_CA_加拿大_142', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_143', server: 38.91.102.86, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇦🇺_AU_澳大利亚_144', server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇦🇺_AU_澳大利亚_145', server: 172.105.180.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇦🇺_AU_澳大利亚_146', server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇦🇺_AU_澳大利亚_147', server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸_US_美国_148', server: 38.143.66.71, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇦🇺_AU_澳大利亚_149', server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇦🇺_AU_澳大利亚_150', server: 172.105.180.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇦🇺_AU_澳大利亚_151', server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_152', server: hk-hkg-sh-hk-02-v2.cdn.savoy.click, port: 21088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇬🇷_GR_希腊_153', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: '🇺🇸_US_美国_154', server: 38.75.136.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸_US_美国_155', server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇦🇺_AU_澳大利亚_156', server: 172.105.180.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_157', server: us-sjc-na-v2.cdn.savoy.click, port: 688, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇺🇸_US_美国_158', server: 38.75.136.93, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇦🇺_AU_澳大利亚_159', server: 172.105.180.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_160', server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸_US_美国_161', server: 38.75.136.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_162', server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_163', server: 38.91.102.86, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸_US_美国_164', server: 38.75.136.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸_US_美国_165', server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇦🇺_AU_澳大利亚_166', server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_167', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇦🇺_AU_澳大利亚_168', server: 172.105.180.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_169', server: us-sjc-ap-v2.node.inforun.work, port: 788, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇨🇦_CA_加拿大_170', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_171', server: 38.91.102.86, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇨🇦_CA_加拿大_172', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇦🇺_AU_澳大利亚_173', server: 172.105.180.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇦🇺_AU_澳大利亚_174', server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇦🇺_AU_澳大利亚_175', server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_176', server: hk-hkg-gz-hk-hkt-v2.node.inforun.work, port: 60088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇦🇺_AU_澳大利亚_177', server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_178', server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇬🇧_GB_英国_179', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_180', server: 169.197.142.39, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇦🇺_AU_澳大利亚_181', server: 172.105.180.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇦🇺_AU_澳大利亚_182', server: 172.105.180.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_183', server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_US_美国_184', server: 38.91.102.86, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸_US_美国_185', server: 38.75.136.93, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_186', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇫🇷_FR_法国_187', server: fr-cdg-01-v2.node.inforun.work, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_188', server: hk-gz-hk-hkt-v2-b.cdn.savoy.click, port: 60188, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇺🇸_US_美国_189', server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_190', server: 38.91.102.86, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸_US_美国_191', server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_192', server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_193', server: sh-hk-hgc-100m-v2.cdn.savoy.click, port: 20188, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇺🇸_US_美国_194', server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸_US_美国_195', server: 38.143.66.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_196', server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_197', server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸_US_美国_198', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_199', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_200', server: 38.75.136.93, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_201', server: 38.91.102.96, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_202', server: 38.91.102.86, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇦🇺_AU_澳大利亚_203', server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_204', server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_205', server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_206', server: 38.91.102.96, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇦🇺_AU_澳大利亚_207', server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇦🇺_AU_澳大利亚_208', server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇬🇧_GB_英国_209', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇬🇧_GB_英国_210', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_211', server: 38.91.102.86, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇫🇷_FR_法国_212', server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇭🇰_HK_香港_213', server: 118.107.244.114, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇫🇷_FR_法国_214', server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_215', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_216', server: 38.75.136.93, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇫🇷_FR_法国_217', server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_218', server: 38.91.102.96, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_219', server: ru-led-sh-ru-v2.node.inforun.work, port: 24088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇬🇧_GB_英国_220', server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_221', server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_222', server: 134.195.196.101, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_223', server: 38.143.66.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_224', server: 38.91.102.86, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇬🇧_GB_英国_225', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇭🇰_HK_香港->🇮🇳_IN_印度_226', server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: aicoo6du.com }}
+  - {name: '🇺🇸_US_美国_227', server: 169.197.142.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇳🇴_NO_挪威_228', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇦🇺_AU_澳大利亚_229', server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_230', server: 169.197.142.39, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_231', server: 38.75.136.93, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_US_美国_232', server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_233', server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-washington.lvuft.com }}
+  - {name: '🇬🇧_GB_英国_234', server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇭🇰_HK_香港_235', server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: { path: "/clientarea", host: cmhk04.xc188.net }}
+  - {name: '🇺🇸_US_美国_236', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇦🇺_AU_澳大利亚_237', server: 172.105.180.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_238', server: 38.75.136.93, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇬🇧_GB_英国_239', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_240', server: 167.88.61.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_241', server: 38.75.136.93, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_242', server: 38.91.102.86, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_243', server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇨🇭_CH_瑞士_244', server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: '🇺🇸_US_美国_245', server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸_US_美国_246', server: 38.91.102.86, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇳🇴_NO_挪威_247', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇳🇴_NO_挪威_248', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇳🇴_NO_挪威_249', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_250', server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇦🇪_AE_阿联酋_251', server: 217.138.193.6, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇺🇸_US_美国_252', server: 169.197.142.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_253', server: sg-sin-krn-v2.node.inforun.work, port: 12888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇨🇦_CA_加拿大_254', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇦🇪_AE_阿联酋_255', server: 217.138.193.6, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇺🇸_US_美国_256', server: 38.91.102.96, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇫🇷_FR_法国_257', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇦🇺_AU_澳大利亚_258', server: 172.105.180.227, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_259', server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: iesei1ei.com }}
+  - {name: '🇺🇸_US_美国_260', server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇫🇷_FR_法国_261', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '🇸🇪_SE_瑞典_262', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: '🇳🇴_NO_挪威_263', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_264', server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇫🇷_FR_法国_265', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇫🇷_FR_法国_266', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇫🇷_FR_法国_267', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇳🇴_NO_挪威_268', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇫🇷_FR_法国_269', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_270', server: 169.197.142.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇳🇴_NO_挪威_271', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇷_FR_法国_272', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_273', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
+  - {name: '🇹🇼_TW_台湾_274', server: tw-tpe-hq-v2.node.inforun.work, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇺🇸_US_美国_275', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-buffalo.lvuft.com }}
+  - {name: '🇺🇸_US_美国_276', server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_277', server: 38.91.102.96, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_278', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_279', server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
+  - {name: '🇺🇸_US_美国_280', server: 38.75.136.93, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇫🇷_FR_法国_281', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇳🇴_NO_挪威_282', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_283', server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_284', server: hk-hkg-shhk-001-v2.cdn.savoy.click, port: 20088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_285', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
+  - {name: '🇳🇴_NO_挪威_286', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇫🇷_FR_法国_287', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_288', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: '🇵🇹_PT_葡萄牙_289', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: '🇳🇴_NO_挪威_290', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸_US_美国_291', server: 167.88.61.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇩🇪_DE_德国_292', server: de-nue-v2.cdn.savoy.click, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: '🇺🇸_US_美国_293', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_294', server: x.gotout.work, port: 30041, type: ss, cipher: aes-256-gcm, password: 7o8j8vi14nv}
+  - {name: '🇭🇰_HK_香港_295', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_296', server: 72.140.224.197, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇭🇰_HK_香港_297', server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: '🇳🇴_NO_挪威_298', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇭🇰_HK_香港->🇮🇳_IN_印度_299', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: aicoo6du.com }}
+  - {name: '🇦🇪_AE_阿联酋_300', server: 217.138.193.6, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇫🇷_FR_法国_301', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇫🇷_FR_法国_302', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'default_name_303', server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: { path: "kycc", host: lsb.stupidfellow.cf }}
+  - {name: '🇳🇴_NO_挪威_304', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇵🇹_PT_葡萄牙_305', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: '🇳🇴_NO_挪威_306', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇳🇴_NO_挪威_307', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_308', server: 38.143.66.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇨🇳_CN_中国->🇹🇼_TW_台湾_309', server: hk-hkg-it2-svm-v2.node.inforun.work, port: 13888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_3
-      - 🇩🇪_DE_德国_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_6
-      - 🇺🇸_US_美国_7
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港_5
+      - 🇺🇸_US_美国_6
+      - 🇭🇰_HK_香港_7
       - 🇺🇸_US_美国_8
-      - 🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_10
       - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_17
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_18
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_19
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - default_name_23
-      - default_name_24
-      - 🇹🇼_TW_台湾_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
       - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇭🇰_HK_香港_50
+      - 🇺🇸_US_美国_51
+      - 🇳🇱_NL_荷兰_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - default_name_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇭🇰_HK_香港_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇧🇬_BG_保加利亚_69
+      - 🇱🇺_LU_卢森堡_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇫🇷_FR_法国_76
+      - 🇺🇸_US_美国_77
+      - 🇫🇷_FR_法国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇧🇪_BE_比利时_84
+      - 🇺🇸_US_美国_85
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇷🇺_RU_俄罗斯联邦_89
+      - 🇺🇸_US_美国_90
+      - 🇨🇦_CA_加拿大_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇫🇷_FR_法国_98
+      - 🇺🇸_US_美国_99
+      - 🇨🇦_CA_加拿大_100
+      - 🇳🇴_NO_挪威_101
+      - 🇫🇷_FR_法国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇫🇷_FR_法国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇫🇷_FR_法国_111
+      - 🇫🇷_FR_法国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_118
+      - 🇺🇸_US_美国_119
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇫🇷_FR_法国_125
+      - 🇬🇧_GB_英国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇦🇺_AU_澳大利亚_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇭🇰_HK_香港_140
+      - 🇦🇺_AU_澳大利亚_141
+      - 🇨🇦_CA_加拿大_142
+      - 🇺🇸_US_美国_143
+      - 🇦🇺_AU_澳大利亚_144
+      - 🇦🇺_AU_澳大利亚_145
+      - 🇦🇺_AU_澳大利亚_146
+      - 🇦🇺_AU_澳大利亚_147
+      - 🇺🇸_US_美国_148
+      - 🇦🇺_AU_澳大利亚_149
+      - 🇦🇺_AU_澳大利亚_150
+      - 🇦🇺_AU_澳大利亚_151
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_152
+      - 🇬🇷_GR_希腊_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇦🇺_AU_澳大利亚_156
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇦🇺_AU_澳大利亚_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇦🇺_AU_澳大利亚_166
+      - 🇨🇦_CA_加拿大_167
+      - 🇦🇺_AU_澳大利亚_168
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_169
+      - 🇨🇦_CA_加拿大_170
+      - 🇺🇸_US_美国_171
+      - 🇨🇦_CA_加拿大_172
+      - 🇦🇺_AU_澳大利亚_173
+      - 🇦🇺_AU_澳大利亚_174
+      - 🇦🇺_AU_澳大利亚_175
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_176
+      - 🇦🇺_AU_澳大利亚_177
+      - 🇺🇸_US_美国_178
+      - 🇬🇧_GB_英国_179
+      - 🇺🇸_US_美国_180
+      - 🇦🇺_AU_澳大利亚_181
+      - 🇦🇺_AU_澳大利亚_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇨🇦_CA_加拿大_186
+      - 🇫🇷_FR_法国_187
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇦🇺_AU_澳大利亚_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇦🇺_AU_澳大利亚_207
+      - 🇦🇺_AU_澳大利亚_208
+      - 🇬🇧_GB_英国_209
+      - 🇬🇧_GB_英国_210
+      - 🇺🇸_US_美国_211
+      - 🇫🇷_FR_法国_212
+      - 🇭🇰_HK_香港_213
+      - 🇫🇷_FR_法国_214
+      - 🇨🇦_CA_加拿大_215
+      - 🇺🇸_US_美国_216
+      - 🇫🇷_FR_法国_217
+      - 🇺🇸_US_美国_218
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_219
+      - 🇬🇧_GB_英国_220
+      - 🇺🇸_US_美国_221
+      - 🇨🇦_CA_加拿大_222
+      - 🇺🇸_US_美国_223
+      - 🇺🇸_US_美国_224
+      - 🇬🇧_GB_英国_225
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_226
+      - 🇺🇸_US_美国_227
+      - 🇳🇴_NO_挪威_228
+      - 🇦🇺_AU_澳大利亚_229
+      - 🇺🇸_US_美国_230
+      - 🇺🇸_US_美国_231
+      - 🇺🇸_US_美国_232
+      - 🇺🇸_US_美国_233
+      - 🇬🇧_GB_英国_234
+      - 🇭🇰_HK_香港_235
+      - 🇺🇸_US_美国_236
+      - 🇦🇺_AU_澳大利亚_237
+      - 🇺🇸_US_美国_238
+      - 🇬🇧_GB_英国_239
+      - 🇺🇸_US_美国_240
+      - 🇺🇸_US_美国_241
+      - 🇺🇸_US_美国_242
+      - 🇺🇸_US_美国_243
+      - 🇨🇭_CH_瑞士_244
+      - 🇺🇸_US_美国_245
+      - 🇺🇸_US_美国_246
+      - 🇳🇴_NO_挪威_247
+      - 🇳🇴_NO_挪威_248
+      - 🇳🇴_NO_挪威_249
+      - 🇺🇸_US_美国_250
+      - 🇦🇪_AE_阿联酋_251
+      - 🇺🇸_US_美国_252
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_253
+      - 🇨🇦_CA_加拿大_254
+      - 🇦🇪_AE_阿联酋_255
+      - 🇺🇸_US_美国_256
+      - 🇫🇷_FR_法国_257
+      - 🇦🇺_AU_澳大利亚_258
+      - 🇺🇸_US_美国_259
+      - 🇺🇸_US_美国_260
+      - 🇫🇷_FR_法国_261
+      - 🇸🇪_SE_瑞典_262
+      - 🇳🇴_NO_挪威_263
+      - 🇺🇸_US_美国_264
+      - 🇫🇷_FR_法国_265
+      - 🇫🇷_FR_法国_266
+      - 🇫🇷_FR_法国_267
+      - 🇳🇴_NO_挪威_268
+      - 🇫🇷_FR_法国_269
+      - 🇺🇸_US_美国_270
+      - 🇳🇴_NO_挪威_271
+      - 🇫🇷_FR_法国_272
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_273
+      - 🇹🇼_TW_台湾_274
+      - 🇺🇸_US_美国_275
+      - 🇺🇸_US_美国_276
+      - 🇺🇸_US_美国_277
+      - 🇨🇦_CA_加拿大_278
+      - 🇺🇸_US_美国_279
+      - 🇺🇸_US_美国_280
+      - 🇫🇷_FR_法国_281
+      - 🇳🇴_NO_挪威_282
+      - 🇺🇸_US_美国_283
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_284
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_285
+      - 🇳🇴_NO_挪威_286
+      - 🇫🇷_FR_法国_287
+      - 🇺🇸_US_美国_288
+      - 🇵🇹_PT_葡萄牙_289
+      - 🇳🇴_NO_挪威_290
+      - 🇺🇸_US_美国_291
+      - 🇩🇪_DE_德国_292
+      - 🇺🇸_US_美国_293
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_294
+      - 🇭🇰_HK_香港_295
+      - 🇨🇦_CA_加拿大_296
+      - 🇭🇰_HK_香港_297
+      - 🇳🇴_NO_挪威_298
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_299
+      - 🇦🇪_AE_阿联酋_300
+      - 🇫🇷_FR_法国_301
+      - 🇫🇷_FR_法国_302
+      - default_name_303
+      - 🇳🇴_NO_挪威_304
+      - 🇵🇹_PT_葡萄牙_305
+      - 🇳🇴_NO_挪威_306
+      - 🇳🇴_NO_挪威_307
+      - 🇺🇸_US_美国_308
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_309
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_3
-      - 🇩🇪_DE_德国_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_6
-      - 🇺🇸_US_美国_7
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港_5
+      - 🇺🇸_US_美国_6
+      - 🇭🇰_HK_香港_7
       - 🇺🇸_US_美国_8
-      - 🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_10
       - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_17
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_18
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_19
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - default_name_23
-      - default_name_24
-      - 🇹🇼_TW_台湾_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
       - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇭🇰_HK_香港_50
+      - 🇺🇸_US_美国_51
+      - 🇳🇱_NL_荷兰_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - default_name_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇭🇰_HK_香港_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇧🇬_BG_保加利亚_69
+      - 🇱🇺_LU_卢森堡_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇫🇷_FR_法国_76
+      - 🇺🇸_US_美国_77
+      - 🇫🇷_FR_法国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇧🇪_BE_比利时_84
+      - 🇺🇸_US_美国_85
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇷🇺_RU_俄罗斯联邦_89
+      - 🇺🇸_US_美国_90
+      - 🇨🇦_CA_加拿大_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇫🇷_FR_法国_98
+      - 🇺🇸_US_美国_99
+      - 🇨🇦_CA_加拿大_100
+      - 🇳🇴_NO_挪威_101
+      - 🇫🇷_FR_法国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇫🇷_FR_法国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇫🇷_FR_法国_111
+      - 🇫🇷_FR_法国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_118
+      - 🇺🇸_US_美国_119
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇫🇷_FR_法国_125
+      - 🇬🇧_GB_英国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇦🇺_AU_澳大利亚_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇭🇰_HK_香港_140
+      - 🇦🇺_AU_澳大利亚_141
+      - 🇨🇦_CA_加拿大_142
+      - 🇺🇸_US_美国_143
+      - 🇦🇺_AU_澳大利亚_144
+      - 🇦🇺_AU_澳大利亚_145
+      - 🇦🇺_AU_澳大利亚_146
+      - 🇦🇺_AU_澳大利亚_147
+      - 🇺🇸_US_美国_148
+      - 🇦🇺_AU_澳大利亚_149
+      - 🇦🇺_AU_澳大利亚_150
+      - 🇦🇺_AU_澳大利亚_151
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_152
+      - 🇬🇷_GR_希腊_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇦🇺_AU_澳大利亚_156
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇦🇺_AU_澳大利亚_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇦🇺_AU_澳大利亚_166
+      - 🇨🇦_CA_加拿大_167
+      - 🇦🇺_AU_澳大利亚_168
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_169
+      - 🇨🇦_CA_加拿大_170
+      - 🇺🇸_US_美国_171
+      - 🇨🇦_CA_加拿大_172
+      - 🇦🇺_AU_澳大利亚_173
+      - 🇦🇺_AU_澳大利亚_174
+      - 🇦🇺_AU_澳大利亚_175
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_176
+      - 🇦🇺_AU_澳大利亚_177
+      - 🇺🇸_US_美国_178
+      - 🇬🇧_GB_英国_179
+      - 🇺🇸_US_美国_180
+      - 🇦🇺_AU_澳大利亚_181
+      - 🇦🇺_AU_澳大利亚_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇨🇦_CA_加拿大_186
+      - 🇫🇷_FR_法国_187
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇦🇺_AU_澳大利亚_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇦🇺_AU_澳大利亚_207
+      - 🇦🇺_AU_澳大利亚_208
+      - 🇬🇧_GB_英国_209
+      - 🇬🇧_GB_英国_210
+      - 🇺🇸_US_美国_211
+      - 🇫🇷_FR_法国_212
+      - 🇭🇰_HK_香港_213
+      - 🇫🇷_FR_法国_214
+      - 🇨🇦_CA_加拿大_215
+      - 🇺🇸_US_美国_216
+      - 🇫🇷_FR_法国_217
+      - 🇺🇸_US_美国_218
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_219
+      - 🇬🇧_GB_英国_220
+      - 🇺🇸_US_美国_221
+      - 🇨🇦_CA_加拿大_222
+      - 🇺🇸_US_美国_223
+      - 🇺🇸_US_美国_224
+      - 🇬🇧_GB_英国_225
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_226
+      - 🇺🇸_US_美国_227
+      - 🇳🇴_NO_挪威_228
+      - 🇦🇺_AU_澳大利亚_229
+      - 🇺🇸_US_美国_230
+      - 🇺🇸_US_美国_231
+      - 🇺🇸_US_美国_232
+      - 🇺🇸_US_美国_233
+      - 🇬🇧_GB_英国_234
+      - 🇭🇰_HK_香港_235
+      - 🇺🇸_US_美国_236
+      - 🇦🇺_AU_澳大利亚_237
+      - 🇺🇸_US_美国_238
+      - 🇬🇧_GB_英国_239
+      - 🇺🇸_US_美国_240
+      - 🇺🇸_US_美国_241
+      - 🇺🇸_US_美国_242
+      - 🇺🇸_US_美国_243
+      - 🇨🇭_CH_瑞士_244
+      - 🇺🇸_US_美国_245
+      - 🇺🇸_US_美国_246
+      - 🇳🇴_NO_挪威_247
+      - 🇳🇴_NO_挪威_248
+      - 🇳🇴_NO_挪威_249
+      - 🇺🇸_US_美国_250
+      - 🇦🇪_AE_阿联酋_251
+      - 🇺🇸_US_美国_252
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_253
+      - 🇨🇦_CA_加拿大_254
+      - 🇦🇪_AE_阿联酋_255
+      - 🇺🇸_US_美国_256
+      - 🇫🇷_FR_法国_257
+      - 🇦🇺_AU_澳大利亚_258
+      - 🇺🇸_US_美国_259
+      - 🇺🇸_US_美国_260
+      - 🇫🇷_FR_法国_261
+      - 🇸🇪_SE_瑞典_262
+      - 🇳🇴_NO_挪威_263
+      - 🇺🇸_US_美国_264
+      - 🇫🇷_FR_法国_265
+      - 🇫🇷_FR_法国_266
+      - 🇫🇷_FR_法国_267
+      - 🇳🇴_NO_挪威_268
+      - 🇫🇷_FR_法国_269
+      - 🇺🇸_US_美国_270
+      - 🇳🇴_NO_挪威_271
+      - 🇫🇷_FR_法国_272
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_273
+      - 🇹🇼_TW_台湾_274
+      - 🇺🇸_US_美国_275
+      - 🇺🇸_US_美国_276
+      - 🇺🇸_US_美国_277
+      - 🇨🇦_CA_加拿大_278
+      - 🇺🇸_US_美国_279
+      - 🇺🇸_US_美国_280
+      - 🇫🇷_FR_法国_281
+      - 🇳🇴_NO_挪威_282
+      - 🇺🇸_US_美国_283
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_284
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_285
+      - 🇳🇴_NO_挪威_286
+      - 🇫🇷_FR_法国_287
+      - 🇺🇸_US_美国_288
+      - 🇵🇹_PT_葡萄牙_289
+      - 🇳🇴_NO_挪威_290
+      - 🇺🇸_US_美国_291
+      - 🇩🇪_DE_德国_292
+      - 🇺🇸_US_美国_293
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_294
+      - 🇭🇰_HK_香港_295
+      - 🇨🇦_CA_加拿大_296
+      - 🇭🇰_HK_香港_297
+      - 🇳🇴_NO_挪威_298
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_299
+      - 🇦🇪_AE_阿联酋_300
+      - 🇫🇷_FR_法国_301
+      - 🇫🇷_FR_法国_302
+      - default_name_303
+      - 🇳🇴_NO_挪威_304
+      - 🇵🇹_PT_葡萄牙_305
+      - 🇳🇴_NO_挪威_306
+      - 🇳🇴_NO_挪威_307
+      - 🇺🇸_US_美国_308
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_309
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_3
-      - 🇩🇪_DE_德国_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_6
-      - 🇺🇸_US_美国_7
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港_5
+      - 🇺🇸_US_美国_6
+      - 🇭🇰_HK_香港_7
       - 🇺🇸_US_美国_8
-      - 🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_10
       - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_17
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_18
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_19
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - default_name_23
-      - default_name_24
-      - 🇹🇼_TW_台湾_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
       - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇭🇰_HK_香港_50
+      - 🇺🇸_US_美国_51
+      - 🇳🇱_NL_荷兰_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - default_name_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇭🇰_HK_香港_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇧🇬_BG_保加利亚_69
+      - 🇱🇺_LU_卢森堡_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇫🇷_FR_法国_76
+      - 🇺🇸_US_美国_77
+      - 🇫🇷_FR_法国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇧🇪_BE_比利时_84
+      - 🇺🇸_US_美国_85
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇷🇺_RU_俄罗斯联邦_89
+      - 🇺🇸_US_美国_90
+      - 🇨🇦_CA_加拿大_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇫🇷_FR_法国_98
+      - 🇺🇸_US_美国_99
+      - 🇨🇦_CA_加拿大_100
+      - 🇳🇴_NO_挪威_101
+      - 🇫🇷_FR_法国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇫🇷_FR_法国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇫🇷_FR_法国_111
+      - 🇫🇷_FR_法国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_118
+      - 🇺🇸_US_美国_119
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇫🇷_FR_法国_125
+      - 🇬🇧_GB_英国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇦🇺_AU_澳大利亚_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇭🇰_HK_香港_140
+      - 🇦🇺_AU_澳大利亚_141
+      - 🇨🇦_CA_加拿大_142
+      - 🇺🇸_US_美国_143
+      - 🇦🇺_AU_澳大利亚_144
+      - 🇦🇺_AU_澳大利亚_145
+      - 🇦🇺_AU_澳大利亚_146
+      - 🇦🇺_AU_澳大利亚_147
+      - 🇺🇸_US_美国_148
+      - 🇦🇺_AU_澳大利亚_149
+      - 🇦🇺_AU_澳大利亚_150
+      - 🇦🇺_AU_澳大利亚_151
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_152
+      - 🇬🇷_GR_希腊_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇦🇺_AU_澳大利亚_156
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇦🇺_AU_澳大利亚_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇦🇺_AU_澳大利亚_166
+      - 🇨🇦_CA_加拿大_167
+      - 🇦🇺_AU_澳大利亚_168
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_169
+      - 🇨🇦_CA_加拿大_170
+      - 🇺🇸_US_美国_171
+      - 🇨🇦_CA_加拿大_172
+      - 🇦🇺_AU_澳大利亚_173
+      - 🇦🇺_AU_澳大利亚_174
+      - 🇦🇺_AU_澳大利亚_175
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_176
+      - 🇦🇺_AU_澳大利亚_177
+      - 🇺🇸_US_美国_178
+      - 🇬🇧_GB_英国_179
+      - 🇺🇸_US_美国_180
+      - 🇦🇺_AU_澳大利亚_181
+      - 🇦🇺_AU_澳大利亚_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇨🇦_CA_加拿大_186
+      - 🇫🇷_FR_法国_187
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇦🇺_AU_澳大利亚_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇦🇺_AU_澳大利亚_207
+      - 🇦🇺_AU_澳大利亚_208
+      - 🇬🇧_GB_英国_209
+      - 🇬🇧_GB_英国_210
+      - 🇺🇸_US_美国_211
+      - 🇫🇷_FR_法国_212
+      - 🇭🇰_HK_香港_213
+      - 🇫🇷_FR_法国_214
+      - 🇨🇦_CA_加拿大_215
+      - 🇺🇸_US_美国_216
+      - 🇫🇷_FR_法国_217
+      - 🇺🇸_US_美国_218
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_219
+      - 🇬🇧_GB_英国_220
+      - 🇺🇸_US_美国_221
+      - 🇨🇦_CA_加拿大_222
+      - 🇺🇸_US_美国_223
+      - 🇺🇸_US_美国_224
+      - 🇬🇧_GB_英国_225
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_226
+      - 🇺🇸_US_美国_227
+      - 🇳🇴_NO_挪威_228
+      - 🇦🇺_AU_澳大利亚_229
+      - 🇺🇸_US_美国_230
+      - 🇺🇸_US_美国_231
+      - 🇺🇸_US_美国_232
+      - 🇺🇸_US_美国_233
+      - 🇬🇧_GB_英国_234
+      - 🇭🇰_HK_香港_235
+      - 🇺🇸_US_美国_236
+      - 🇦🇺_AU_澳大利亚_237
+      - 🇺🇸_US_美国_238
+      - 🇬🇧_GB_英国_239
+      - 🇺🇸_US_美国_240
+      - 🇺🇸_US_美国_241
+      - 🇺🇸_US_美国_242
+      - 🇺🇸_US_美国_243
+      - 🇨🇭_CH_瑞士_244
+      - 🇺🇸_US_美国_245
+      - 🇺🇸_US_美国_246
+      - 🇳🇴_NO_挪威_247
+      - 🇳🇴_NO_挪威_248
+      - 🇳🇴_NO_挪威_249
+      - 🇺🇸_US_美国_250
+      - 🇦🇪_AE_阿联酋_251
+      - 🇺🇸_US_美国_252
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_253
+      - 🇨🇦_CA_加拿大_254
+      - 🇦🇪_AE_阿联酋_255
+      - 🇺🇸_US_美国_256
+      - 🇫🇷_FR_法国_257
+      - 🇦🇺_AU_澳大利亚_258
+      - 🇺🇸_US_美国_259
+      - 🇺🇸_US_美国_260
+      - 🇫🇷_FR_法国_261
+      - 🇸🇪_SE_瑞典_262
+      - 🇳🇴_NO_挪威_263
+      - 🇺🇸_US_美国_264
+      - 🇫🇷_FR_法国_265
+      - 🇫🇷_FR_法国_266
+      - 🇫🇷_FR_法国_267
+      - 🇳🇴_NO_挪威_268
+      - 🇫🇷_FR_法国_269
+      - 🇺🇸_US_美国_270
+      - 🇳🇴_NO_挪威_271
+      - 🇫🇷_FR_法国_272
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_273
+      - 🇹🇼_TW_台湾_274
+      - 🇺🇸_US_美国_275
+      - 🇺🇸_US_美国_276
+      - 🇺🇸_US_美国_277
+      - 🇨🇦_CA_加拿大_278
+      - 🇺🇸_US_美国_279
+      - 🇺🇸_US_美国_280
+      - 🇫🇷_FR_法国_281
+      - 🇳🇴_NO_挪威_282
+      - 🇺🇸_US_美国_283
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_284
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_285
+      - 🇳🇴_NO_挪威_286
+      - 🇫🇷_FR_法国_287
+      - 🇺🇸_US_美国_288
+      - 🇵🇹_PT_葡萄牙_289
+      - 🇳🇴_NO_挪威_290
+      - 🇺🇸_US_美国_291
+      - 🇩🇪_DE_德国_292
+      - 🇺🇸_US_美国_293
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_294
+      - 🇭🇰_HK_香港_295
+      - 🇨🇦_CA_加拿大_296
+      - 🇭🇰_HK_香港_297
+      - 🇳🇴_NO_挪威_298
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_299
+      - 🇦🇪_AE_阿联酋_300
+      - 🇫🇷_FR_法国_301
+      - 🇫🇷_FR_法国_302
+      - default_name_303
+      - 🇳🇴_NO_挪威_304
+      - 🇵🇹_PT_葡萄牙_305
+      - 🇳🇴_NO_挪威_306
+      - 🇳🇴_NO_挪威_307
+      - 🇺🇸_US_美国_308
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_309
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_3
-      - 🇩🇪_DE_德国_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_6
-      - 🇺🇸_US_美国_7
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港_5
+      - 🇺🇸_US_美国_6
+      - 🇭🇰_HK_香港_7
       - 🇺🇸_US_美国_8
-      - 🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_10
       - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_17
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_18
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_19
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - default_name_23
-      - default_name_24
-      - 🇹🇼_TW_台湾_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
       - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇭🇰_HK_香港_50
+      - 🇺🇸_US_美国_51
+      - 🇳🇱_NL_荷兰_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - default_name_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇭🇰_HK_香港_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇧🇬_BG_保加利亚_69
+      - 🇱🇺_LU_卢森堡_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇫🇷_FR_法国_76
+      - 🇺🇸_US_美国_77
+      - 🇫🇷_FR_法国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇧🇪_BE_比利时_84
+      - 🇺🇸_US_美国_85
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇷🇺_RU_俄罗斯联邦_89
+      - 🇺🇸_US_美国_90
+      - 🇨🇦_CA_加拿大_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇫🇷_FR_法国_98
+      - 🇺🇸_US_美国_99
+      - 🇨🇦_CA_加拿大_100
+      - 🇳🇴_NO_挪威_101
+      - 🇫🇷_FR_法国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇫🇷_FR_法国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇫🇷_FR_法国_111
+      - 🇫🇷_FR_法国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_118
+      - 🇺🇸_US_美国_119
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇫🇷_FR_法国_125
+      - 🇬🇧_GB_英国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇦🇺_AU_澳大利亚_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇭🇰_HK_香港_140
+      - 🇦🇺_AU_澳大利亚_141
+      - 🇨🇦_CA_加拿大_142
+      - 🇺🇸_US_美国_143
+      - 🇦🇺_AU_澳大利亚_144
+      - 🇦🇺_AU_澳大利亚_145
+      - 🇦🇺_AU_澳大利亚_146
+      - 🇦🇺_AU_澳大利亚_147
+      - 🇺🇸_US_美国_148
+      - 🇦🇺_AU_澳大利亚_149
+      - 🇦🇺_AU_澳大利亚_150
+      - 🇦🇺_AU_澳大利亚_151
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_152
+      - 🇬🇷_GR_希腊_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇦🇺_AU_澳大利亚_156
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇦🇺_AU_澳大利亚_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇦🇺_AU_澳大利亚_166
+      - 🇨🇦_CA_加拿大_167
+      - 🇦🇺_AU_澳大利亚_168
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_169
+      - 🇨🇦_CA_加拿大_170
+      - 🇺🇸_US_美国_171
+      - 🇨🇦_CA_加拿大_172
+      - 🇦🇺_AU_澳大利亚_173
+      - 🇦🇺_AU_澳大利亚_174
+      - 🇦🇺_AU_澳大利亚_175
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_176
+      - 🇦🇺_AU_澳大利亚_177
+      - 🇺🇸_US_美国_178
+      - 🇬🇧_GB_英国_179
+      - 🇺🇸_US_美国_180
+      - 🇦🇺_AU_澳大利亚_181
+      - 🇦🇺_AU_澳大利亚_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇨🇦_CA_加拿大_186
+      - 🇫🇷_FR_法国_187
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇦🇺_AU_澳大利亚_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇦🇺_AU_澳大利亚_207
+      - 🇦🇺_AU_澳大利亚_208
+      - 🇬🇧_GB_英国_209
+      - 🇬🇧_GB_英国_210
+      - 🇺🇸_US_美国_211
+      - 🇫🇷_FR_法国_212
+      - 🇭🇰_HK_香港_213
+      - 🇫🇷_FR_法国_214
+      - 🇨🇦_CA_加拿大_215
+      - 🇺🇸_US_美国_216
+      - 🇫🇷_FR_法国_217
+      - 🇺🇸_US_美国_218
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_219
+      - 🇬🇧_GB_英国_220
+      - 🇺🇸_US_美国_221
+      - 🇨🇦_CA_加拿大_222
+      - 🇺🇸_US_美国_223
+      - 🇺🇸_US_美国_224
+      - 🇬🇧_GB_英国_225
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_226
+      - 🇺🇸_US_美国_227
+      - 🇳🇴_NO_挪威_228
+      - 🇦🇺_AU_澳大利亚_229
+      - 🇺🇸_US_美国_230
+      - 🇺🇸_US_美国_231
+      - 🇺🇸_US_美国_232
+      - 🇺🇸_US_美国_233
+      - 🇬🇧_GB_英国_234
+      - 🇭🇰_HK_香港_235
+      - 🇺🇸_US_美国_236
+      - 🇦🇺_AU_澳大利亚_237
+      - 🇺🇸_US_美国_238
+      - 🇬🇧_GB_英国_239
+      - 🇺🇸_US_美国_240
+      - 🇺🇸_US_美国_241
+      - 🇺🇸_US_美国_242
+      - 🇺🇸_US_美国_243
+      - 🇨🇭_CH_瑞士_244
+      - 🇺🇸_US_美国_245
+      - 🇺🇸_US_美国_246
+      - 🇳🇴_NO_挪威_247
+      - 🇳🇴_NO_挪威_248
+      - 🇳🇴_NO_挪威_249
+      - 🇺🇸_US_美国_250
+      - 🇦🇪_AE_阿联酋_251
+      - 🇺🇸_US_美国_252
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_253
+      - 🇨🇦_CA_加拿大_254
+      - 🇦🇪_AE_阿联酋_255
+      - 🇺🇸_US_美国_256
+      - 🇫🇷_FR_法国_257
+      - 🇦🇺_AU_澳大利亚_258
+      - 🇺🇸_US_美国_259
+      - 🇺🇸_US_美国_260
+      - 🇫🇷_FR_法国_261
+      - 🇸🇪_SE_瑞典_262
+      - 🇳🇴_NO_挪威_263
+      - 🇺🇸_US_美国_264
+      - 🇫🇷_FR_法国_265
+      - 🇫🇷_FR_法国_266
+      - 🇫🇷_FR_法国_267
+      - 🇳🇴_NO_挪威_268
+      - 🇫🇷_FR_法国_269
+      - 🇺🇸_US_美国_270
+      - 🇳🇴_NO_挪威_271
+      - 🇫🇷_FR_法国_272
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_273
+      - 🇹🇼_TW_台湾_274
+      - 🇺🇸_US_美国_275
+      - 🇺🇸_US_美国_276
+      - 🇺🇸_US_美国_277
+      - 🇨🇦_CA_加拿大_278
+      - 🇺🇸_US_美国_279
+      - 🇺🇸_US_美国_280
+      - 🇫🇷_FR_法国_281
+      - 🇳🇴_NO_挪威_282
+      - 🇺🇸_US_美国_283
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_284
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_285
+      - 🇳🇴_NO_挪威_286
+      - 🇫🇷_FR_法国_287
+      - 🇺🇸_US_美国_288
+      - 🇵🇹_PT_葡萄牙_289
+      - 🇳🇴_NO_挪威_290
+      - 🇺🇸_US_美国_291
+      - 🇩🇪_DE_德国_292
+      - 🇺🇸_US_美国_293
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_294
+      - 🇭🇰_HK_香港_295
+      - 🇨🇦_CA_加拿大_296
+      - 🇭🇰_HK_香港_297
+      - 🇳🇴_NO_挪威_298
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_299
+      - 🇦🇪_AE_阿联酋_300
+      - 🇫🇷_FR_法国_301
+      - 🇫🇷_FR_法国_302
+      - default_name_303
+      - 🇳🇴_NO_挪威_304
+      - 🇵🇹_PT_葡萄牙_305
+      - 🇳🇴_NO_挪威_306
+      - 🇳🇴_NO_挪威_307
+      - 🇺🇸_US_美国_308
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_309
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_3
-      - 🇩🇪_DE_德国_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_6
-      - 🇺🇸_US_美国_7
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港_5
+      - 🇺🇸_US_美国_6
+      - 🇭🇰_HK_香港_7
       - 🇺🇸_US_美国_8
-      - 🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_10
       - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_17
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_18
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_19
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - default_name_23
-      - default_name_24
-      - 🇹🇼_TW_台湾_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
       - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇭🇰_HK_香港_50
+      - 🇺🇸_US_美国_51
+      - 🇳🇱_NL_荷兰_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - default_name_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇭🇰_HK_香港_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇧🇬_BG_保加利亚_69
+      - 🇱🇺_LU_卢森堡_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇫🇷_FR_法国_76
+      - 🇺🇸_US_美国_77
+      - 🇫🇷_FR_法国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇧🇪_BE_比利时_84
+      - 🇺🇸_US_美国_85
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇷🇺_RU_俄罗斯联邦_89
+      - 🇺🇸_US_美国_90
+      - 🇨🇦_CA_加拿大_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇫🇷_FR_法国_98
+      - 🇺🇸_US_美国_99
+      - 🇨🇦_CA_加拿大_100
+      - 🇳🇴_NO_挪威_101
+      - 🇫🇷_FR_法国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇫🇷_FR_法国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇫🇷_FR_法国_111
+      - 🇫🇷_FR_法国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_118
+      - 🇺🇸_US_美国_119
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇫🇷_FR_法国_125
+      - 🇬🇧_GB_英国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇦🇺_AU_澳大利亚_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇭🇰_HK_香港_140
+      - 🇦🇺_AU_澳大利亚_141
+      - 🇨🇦_CA_加拿大_142
+      - 🇺🇸_US_美国_143
+      - 🇦🇺_AU_澳大利亚_144
+      - 🇦🇺_AU_澳大利亚_145
+      - 🇦🇺_AU_澳大利亚_146
+      - 🇦🇺_AU_澳大利亚_147
+      - 🇺🇸_US_美国_148
+      - 🇦🇺_AU_澳大利亚_149
+      - 🇦🇺_AU_澳大利亚_150
+      - 🇦🇺_AU_澳大利亚_151
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_152
+      - 🇬🇷_GR_希腊_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇦🇺_AU_澳大利亚_156
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇦🇺_AU_澳大利亚_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇦🇺_AU_澳大利亚_166
+      - 🇨🇦_CA_加拿大_167
+      - 🇦🇺_AU_澳大利亚_168
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_169
+      - 🇨🇦_CA_加拿大_170
+      - 🇺🇸_US_美国_171
+      - 🇨🇦_CA_加拿大_172
+      - 🇦🇺_AU_澳大利亚_173
+      - 🇦🇺_AU_澳大利亚_174
+      - 🇦🇺_AU_澳大利亚_175
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_176
+      - 🇦🇺_AU_澳大利亚_177
+      - 🇺🇸_US_美国_178
+      - 🇬🇧_GB_英国_179
+      - 🇺🇸_US_美国_180
+      - 🇦🇺_AU_澳大利亚_181
+      - 🇦🇺_AU_澳大利亚_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇨🇦_CA_加拿大_186
+      - 🇫🇷_FR_法国_187
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇦🇺_AU_澳大利亚_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇦🇺_AU_澳大利亚_207
+      - 🇦🇺_AU_澳大利亚_208
+      - 🇬🇧_GB_英国_209
+      - 🇬🇧_GB_英国_210
+      - 🇺🇸_US_美国_211
+      - 🇫🇷_FR_法国_212
+      - 🇭🇰_HK_香港_213
+      - 🇫🇷_FR_法国_214
+      - 🇨🇦_CA_加拿大_215
+      - 🇺🇸_US_美国_216
+      - 🇫🇷_FR_法国_217
+      - 🇺🇸_US_美国_218
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_219
+      - 🇬🇧_GB_英国_220
+      - 🇺🇸_US_美国_221
+      - 🇨🇦_CA_加拿大_222
+      - 🇺🇸_US_美国_223
+      - 🇺🇸_US_美国_224
+      - 🇬🇧_GB_英国_225
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_226
+      - 🇺🇸_US_美国_227
+      - 🇳🇴_NO_挪威_228
+      - 🇦🇺_AU_澳大利亚_229
+      - 🇺🇸_US_美国_230
+      - 🇺🇸_US_美国_231
+      - 🇺🇸_US_美国_232
+      - 🇺🇸_US_美国_233
+      - 🇬🇧_GB_英国_234
+      - 🇭🇰_HK_香港_235
+      - 🇺🇸_US_美国_236
+      - 🇦🇺_AU_澳大利亚_237
+      - 🇺🇸_US_美国_238
+      - 🇬🇧_GB_英国_239
+      - 🇺🇸_US_美国_240
+      - 🇺🇸_US_美国_241
+      - 🇺🇸_US_美国_242
+      - 🇺🇸_US_美国_243
+      - 🇨🇭_CH_瑞士_244
+      - 🇺🇸_US_美国_245
+      - 🇺🇸_US_美国_246
+      - 🇳🇴_NO_挪威_247
+      - 🇳🇴_NO_挪威_248
+      - 🇳🇴_NO_挪威_249
+      - 🇺🇸_US_美国_250
+      - 🇦🇪_AE_阿联酋_251
+      - 🇺🇸_US_美国_252
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_253
+      - 🇨🇦_CA_加拿大_254
+      - 🇦🇪_AE_阿联酋_255
+      - 🇺🇸_US_美国_256
+      - 🇫🇷_FR_法国_257
+      - 🇦🇺_AU_澳大利亚_258
+      - 🇺🇸_US_美国_259
+      - 🇺🇸_US_美国_260
+      - 🇫🇷_FR_法国_261
+      - 🇸🇪_SE_瑞典_262
+      - 🇳🇴_NO_挪威_263
+      - 🇺🇸_US_美国_264
+      - 🇫🇷_FR_法国_265
+      - 🇫🇷_FR_法国_266
+      - 🇫🇷_FR_法国_267
+      - 🇳🇴_NO_挪威_268
+      - 🇫🇷_FR_法国_269
+      - 🇺🇸_US_美国_270
+      - 🇳🇴_NO_挪威_271
+      - 🇫🇷_FR_法国_272
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_273
+      - 🇹🇼_TW_台湾_274
+      - 🇺🇸_US_美国_275
+      - 🇺🇸_US_美国_276
+      - 🇺🇸_US_美国_277
+      - 🇨🇦_CA_加拿大_278
+      - 🇺🇸_US_美国_279
+      - 🇺🇸_US_美国_280
+      - 🇫🇷_FR_法国_281
+      - 🇳🇴_NO_挪威_282
+      - 🇺🇸_US_美国_283
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_284
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_285
+      - 🇳🇴_NO_挪威_286
+      - 🇫🇷_FR_法国_287
+      - 🇺🇸_US_美国_288
+      - 🇵🇹_PT_葡萄牙_289
+      - 🇳🇴_NO_挪威_290
+      - 🇺🇸_US_美国_291
+      - 🇩🇪_DE_德国_292
+      - 🇺🇸_US_美国_293
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_294
+      - 🇭🇰_HK_香港_295
+      - 🇨🇦_CA_加拿大_296
+      - 🇭🇰_HK_香港_297
+      - 🇳🇴_NO_挪威_298
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_299
+      - 🇦🇪_AE_阿联酋_300
+      - 🇫🇷_FR_法国_301
+      - 🇫🇷_FR_法国_302
+      - default_name_303
+      - 🇳🇴_NO_挪威_304
+      - 🇵🇹_PT_葡萄牙_305
+      - 🇳🇴_NO_挪威_306
+      - 🇳🇴_NO_挪威_307
+      - 🇺🇸_US_美国_308
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_309
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_3
-      - 🇩🇪_DE_德国_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_6
-      - 🇺🇸_US_美国_7
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港_5
+      - 🇺🇸_US_美国_6
+      - 🇭🇰_HK_香港_7
       - 🇺🇸_US_美国_8
-      - 🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_10
       - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_17
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_18
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_19
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - default_name_23
-      - default_name_24
-      - 🇹🇼_TW_台湾_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
       - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇭🇰_HK_香港_50
+      - 🇺🇸_US_美国_51
+      - 🇳🇱_NL_荷兰_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - default_name_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇭🇰_HK_香港_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇧🇬_BG_保加利亚_69
+      - 🇱🇺_LU_卢森堡_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇫🇷_FR_法国_76
+      - 🇺🇸_US_美国_77
+      - 🇫🇷_FR_法国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇧🇪_BE_比利时_84
+      - 🇺🇸_US_美国_85
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇷🇺_RU_俄罗斯联邦_89
+      - 🇺🇸_US_美国_90
+      - 🇨🇦_CA_加拿大_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇫🇷_FR_法国_98
+      - 🇺🇸_US_美国_99
+      - 🇨🇦_CA_加拿大_100
+      - 🇳🇴_NO_挪威_101
+      - 🇫🇷_FR_法国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇫🇷_FR_法国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇫🇷_FR_法国_111
+      - 🇫🇷_FR_法国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_118
+      - 🇺🇸_US_美国_119
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇫🇷_FR_法国_125
+      - 🇬🇧_GB_英国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇦🇺_AU_澳大利亚_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇭🇰_HK_香港_140
+      - 🇦🇺_AU_澳大利亚_141
+      - 🇨🇦_CA_加拿大_142
+      - 🇺🇸_US_美国_143
+      - 🇦🇺_AU_澳大利亚_144
+      - 🇦🇺_AU_澳大利亚_145
+      - 🇦🇺_AU_澳大利亚_146
+      - 🇦🇺_AU_澳大利亚_147
+      - 🇺🇸_US_美国_148
+      - 🇦🇺_AU_澳大利亚_149
+      - 🇦🇺_AU_澳大利亚_150
+      - 🇦🇺_AU_澳大利亚_151
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_152
+      - 🇬🇷_GR_希腊_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇦🇺_AU_澳大利亚_156
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇦🇺_AU_澳大利亚_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇦🇺_AU_澳大利亚_166
+      - 🇨🇦_CA_加拿大_167
+      - 🇦🇺_AU_澳大利亚_168
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_169
+      - 🇨🇦_CA_加拿大_170
+      - 🇺🇸_US_美国_171
+      - 🇨🇦_CA_加拿大_172
+      - 🇦🇺_AU_澳大利亚_173
+      - 🇦🇺_AU_澳大利亚_174
+      - 🇦🇺_AU_澳大利亚_175
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_176
+      - 🇦🇺_AU_澳大利亚_177
+      - 🇺🇸_US_美国_178
+      - 🇬🇧_GB_英国_179
+      - 🇺🇸_US_美国_180
+      - 🇦🇺_AU_澳大利亚_181
+      - 🇦🇺_AU_澳大利亚_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇨🇦_CA_加拿大_186
+      - 🇫🇷_FR_法国_187
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇦🇺_AU_澳大利亚_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇦🇺_AU_澳大利亚_207
+      - 🇦🇺_AU_澳大利亚_208
+      - 🇬🇧_GB_英国_209
+      - 🇬🇧_GB_英国_210
+      - 🇺🇸_US_美国_211
+      - 🇫🇷_FR_法国_212
+      - 🇭🇰_HK_香港_213
+      - 🇫🇷_FR_法国_214
+      - 🇨🇦_CA_加拿大_215
+      - 🇺🇸_US_美国_216
+      - 🇫🇷_FR_法国_217
+      - 🇺🇸_US_美国_218
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_219
+      - 🇬🇧_GB_英国_220
+      - 🇺🇸_US_美国_221
+      - 🇨🇦_CA_加拿大_222
+      - 🇺🇸_US_美国_223
+      - 🇺🇸_US_美国_224
+      - 🇬🇧_GB_英国_225
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_226
+      - 🇺🇸_US_美国_227
+      - 🇳🇴_NO_挪威_228
+      - 🇦🇺_AU_澳大利亚_229
+      - 🇺🇸_US_美国_230
+      - 🇺🇸_US_美国_231
+      - 🇺🇸_US_美国_232
+      - 🇺🇸_US_美国_233
+      - 🇬🇧_GB_英国_234
+      - 🇭🇰_HK_香港_235
+      - 🇺🇸_US_美国_236
+      - 🇦🇺_AU_澳大利亚_237
+      - 🇺🇸_US_美国_238
+      - 🇬🇧_GB_英国_239
+      - 🇺🇸_US_美国_240
+      - 🇺🇸_US_美国_241
+      - 🇺🇸_US_美国_242
+      - 🇺🇸_US_美国_243
+      - 🇨🇭_CH_瑞士_244
+      - 🇺🇸_US_美国_245
+      - 🇺🇸_US_美国_246
+      - 🇳🇴_NO_挪威_247
+      - 🇳🇴_NO_挪威_248
+      - 🇳🇴_NO_挪威_249
+      - 🇺🇸_US_美国_250
+      - 🇦🇪_AE_阿联酋_251
+      - 🇺🇸_US_美国_252
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_253
+      - 🇨🇦_CA_加拿大_254
+      - 🇦🇪_AE_阿联酋_255
+      - 🇺🇸_US_美国_256
+      - 🇫🇷_FR_法国_257
+      - 🇦🇺_AU_澳大利亚_258
+      - 🇺🇸_US_美国_259
+      - 🇺🇸_US_美国_260
+      - 🇫🇷_FR_法国_261
+      - 🇸🇪_SE_瑞典_262
+      - 🇳🇴_NO_挪威_263
+      - 🇺🇸_US_美国_264
+      - 🇫🇷_FR_法国_265
+      - 🇫🇷_FR_法国_266
+      - 🇫🇷_FR_法国_267
+      - 🇳🇴_NO_挪威_268
+      - 🇫🇷_FR_法国_269
+      - 🇺🇸_US_美国_270
+      - 🇳🇴_NO_挪威_271
+      - 🇫🇷_FR_法国_272
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_273
+      - 🇹🇼_TW_台湾_274
+      - 🇺🇸_US_美国_275
+      - 🇺🇸_US_美国_276
+      - 🇺🇸_US_美国_277
+      - 🇨🇦_CA_加拿大_278
+      - 🇺🇸_US_美国_279
+      - 🇺🇸_US_美国_280
+      - 🇫🇷_FR_法国_281
+      - 🇳🇴_NO_挪威_282
+      - 🇺🇸_US_美国_283
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_284
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_285
+      - 🇳🇴_NO_挪威_286
+      - 🇫🇷_FR_法国_287
+      - 🇺🇸_US_美国_288
+      - 🇵🇹_PT_葡萄牙_289
+      - 🇳🇴_NO_挪威_290
+      - 🇺🇸_US_美国_291
+      - 🇩🇪_DE_德国_292
+      - 🇺🇸_US_美国_293
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_294
+      - 🇭🇰_HK_香港_295
+      - 🇨🇦_CA_加拿大_296
+      - 🇭🇰_HK_香港_297
+      - 🇳🇴_NO_挪威_298
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_299
+      - 🇦🇪_AE_阿联酋_300
+      - 🇫🇷_FR_法国_301
+      - 🇫🇷_FR_法国_302
+      - default_name_303
+      - 🇳🇴_NO_挪威_304
+      - 🇵🇹_PT_葡萄牙_305
+      - 🇳🇴_NO_挪威_306
+      - 🇳🇴_NO_挪威_307
+      - 🇺🇸_US_美国_308
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_309
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_3
-      - 🇩🇪_DE_德国_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_6
-      - 🇺🇸_US_美国_7
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港_5
+      - 🇺🇸_US_美国_6
+      - 🇭🇰_HK_香港_7
       - 🇺🇸_US_美国_8
-      - 🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_10
       - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_17
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_18
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_19
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - default_name_23
-      - default_name_24
-      - 🇹🇼_TW_台湾_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
       - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇭🇰_HK_香港_50
+      - 🇺🇸_US_美国_51
+      - 🇳🇱_NL_荷兰_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - default_name_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇭🇰_HK_香港_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇧🇬_BG_保加利亚_69
+      - 🇱🇺_LU_卢森堡_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇫🇷_FR_法国_76
+      - 🇺🇸_US_美国_77
+      - 🇫🇷_FR_法国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇧🇪_BE_比利时_84
+      - 🇺🇸_US_美国_85
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇷🇺_RU_俄罗斯联邦_89
+      - 🇺🇸_US_美国_90
+      - 🇨🇦_CA_加拿大_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇫🇷_FR_法国_98
+      - 🇺🇸_US_美国_99
+      - 🇨🇦_CA_加拿大_100
+      - 🇳🇴_NO_挪威_101
+      - 🇫🇷_FR_法国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇫🇷_FR_法国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇫🇷_FR_法国_111
+      - 🇫🇷_FR_法国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_118
+      - 🇺🇸_US_美国_119
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇫🇷_FR_法国_125
+      - 🇬🇧_GB_英国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇦🇺_AU_澳大利亚_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇭🇰_HK_香港_140
+      - 🇦🇺_AU_澳大利亚_141
+      - 🇨🇦_CA_加拿大_142
+      - 🇺🇸_US_美国_143
+      - 🇦🇺_AU_澳大利亚_144
+      - 🇦🇺_AU_澳大利亚_145
+      - 🇦🇺_AU_澳大利亚_146
+      - 🇦🇺_AU_澳大利亚_147
+      - 🇺🇸_US_美国_148
+      - 🇦🇺_AU_澳大利亚_149
+      - 🇦🇺_AU_澳大利亚_150
+      - 🇦🇺_AU_澳大利亚_151
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_152
+      - 🇬🇷_GR_希腊_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇦🇺_AU_澳大利亚_156
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇦🇺_AU_澳大利亚_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇦🇺_AU_澳大利亚_166
+      - 🇨🇦_CA_加拿大_167
+      - 🇦🇺_AU_澳大利亚_168
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_169
+      - 🇨🇦_CA_加拿大_170
+      - 🇺🇸_US_美国_171
+      - 🇨🇦_CA_加拿大_172
+      - 🇦🇺_AU_澳大利亚_173
+      - 🇦🇺_AU_澳大利亚_174
+      - 🇦🇺_AU_澳大利亚_175
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_176
+      - 🇦🇺_AU_澳大利亚_177
+      - 🇺🇸_US_美国_178
+      - 🇬🇧_GB_英国_179
+      - 🇺🇸_US_美国_180
+      - 🇦🇺_AU_澳大利亚_181
+      - 🇦🇺_AU_澳大利亚_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇨🇦_CA_加拿大_186
+      - 🇫🇷_FR_法国_187
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇦🇺_AU_澳大利亚_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇦🇺_AU_澳大利亚_207
+      - 🇦🇺_AU_澳大利亚_208
+      - 🇬🇧_GB_英国_209
+      - 🇬🇧_GB_英国_210
+      - 🇺🇸_US_美国_211
+      - 🇫🇷_FR_法国_212
+      - 🇭🇰_HK_香港_213
+      - 🇫🇷_FR_法国_214
+      - 🇨🇦_CA_加拿大_215
+      - 🇺🇸_US_美国_216
+      - 🇫🇷_FR_法国_217
+      - 🇺🇸_US_美国_218
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_219
+      - 🇬🇧_GB_英国_220
+      - 🇺🇸_US_美国_221
+      - 🇨🇦_CA_加拿大_222
+      - 🇺🇸_US_美国_223
+      - 🇺🇸_US_美国_224
+      - 🇬🇧_GB_英国_225
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_226
+      - 🇺🇸_US_美国_227
+      - 🇳🇴_NO_挪威_228
+      - 🇦🇺_AU_澳大利亚_229
+      - 🇺🇸_US_美国_230
+      - 🇺🇸_US_美国_231
+      - 🇺🇸_US_美国_232
+      - 🇺🇸_US_美国_233
+      - 🇬🇧_GB_英国_234
+      - 🇭🇰_HK_香港_235
+      - 🇺🇸_US_美国_236
+      - 🇦🇺_AU_澳大利亚_237
+      - 🇺🇸_US_美国_238
+      - 🇬🇧_GB_英国_239
+      - 🇺🇸_US_美国_240
+      - 🇺🇸_US_美国_241
+      - 🇺🇸_US_美国_242
+      - 🇺🇸_US_美国_243
+      - 🇨🇭_CH_瑞士_244
+      - 🇺🇸_US_美国_245
+      - 🇺🇸_US_美国_246
+      - 🇳🇴_NO_挪威_247
+      - 🇳🇴_NO_挪威_248
+      - 🇳🇴_NO_挪威_249
+      - 🇺🇸_US_美国_250
+      - 🇦🇪_AE_阿联酋_251
+      - 🇺🇸_US_美国_252
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_253
+      - 🇨🇦_CA_加拿大_254
+      - 🇦🇪_AE_阿联酋_255
+      - 🇺🇸_US_美国_256
+      - 🇫🇷_FR_法国_257
+      - 🇦🇺_AU_澳大利亚_258
+      - 🇺🇸_US_美国_259
+      - 🇺🇸_US_美国_260
+      - 🇫🇷_FR_法国_261
+      - 🇸🇪_SE_瑞典_262
+      - 🇳🇴_NO_挪威_263
+      - 🇺🇸_US_美国_264
+      - 🇫🇷_FR_法国_265
+      - 🇫🇷_FR_法国_266
+      - 🇫🇷_FR_法国_267
+      - 🇳🇴_NO_挪威_268
+      - 🇫🇷_FR_法国_269
+      - 🇺🇸_US_美国_270
+      - 🇳🇴_NO_挪威_271
+      - 🇫🇷_FR_法国_272
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_273
+      - 🇹🇼_TW_台湾_274
+      - 🇺🇸_US_美国_275
+      - 🇺🇸_US_美国_276
+      - 🇺🇸_US_美国_277
+      - 🇨🇦_CA_加拿大_278
+      - 🇺🇸_US_美国_279
+      - 🇺🇸_US_美国_280
+      - 🇫🇷_FR_法国_281
+      - 🇳🇴_NO_挪威_282
+      - 🇺🇸_US_美国_283
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_284
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_285
+      - 🇳🇴_NO_挪威_286
+      - 🇫🇷_FR_法国_287
+      - 🇺🇸_US_美国_288
+      - 🇵🇹_PT_葡萄牙_289
+      - 🇳🇴_NO_挪威_290
+      - 🇺🇸_US_美国_291
+      - 🇩🇪_DE_德国_292
+      - 🇺🇸_US_美国_293
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_294
+      - 🇭🇰_HK_香港_295
+      - 🇨🇦_CA_加拿大_296
+      - 🇭🇰_HK_香港_297
+      - 🇳🇴_NO_挪威_298
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_299
+      - 🇦🇪_AE_阿联酋_300
+      - 🇫🇷_FR_法国_301
+      - 🇫🇷_FR_法国_302
+      - default_name_303
+      - 🇳🇴_NO_挪威_304
+      - 🇵🇹_PT_葡萄牙_305
+      - 🇳🇴_NO_挪威_306
+      - 🇳🇴_NO_挪威_307
+      - 🇺🇸_US_美国_308
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_309
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -274,33 +2530,315 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_3
-      - 🇩🇪_DE_德国_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_6
-      - 🇺🇸_US_美国_7
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港_5
+      - 🇺🇸_US_美国_6
+      - 🇭🇰_HK_香港_7
       - 🇺🇸_US_美国_8
-      - 🇫🇷_FR_法国_9
-      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_10
       - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_14
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_16
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_17
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_18
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_19
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - default_name_23
-      - default_name_24
-      - 🇹🇼_TW_台湾_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
       - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇭🇰_HK_香港_50
+      - 🇺🇸_US_美国_51
+      - 🇳🇱_NL_荷兰_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇨🇦_CA_加拿大_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - default_name_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇭🇰_HK_香港_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇧🇬_BG_保加利亚_69
+      - 🇱🇺_LU_卢森堡_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇫🇷_FR_法国_76
+      - 🇺🇸_US_美国_77
+      - 🇫🇷_FR_法国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇧🇪_BE_比利时_84
+      - 🇺🇸_US_美国_85
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇷🇺_RU_俄罗斯联邦_89
+      - 🇺🇸_US_美国_90
+      - 🇨🇦_CA_加拿大_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇫🇷_FR_法国_98
+      - 🇺🇸_US_美国_99
+      - 🇨🇦_CA_加拿大_100
+      - 🇳🇴_NO_挪威_101
+      - 🇫🇷_FR_法国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇫🇷_FR_法国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇫🇷_FR_法国_111
+      - 🇫🇷_FR_法国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_118
+      - 🇺🇸_US_美国_119
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_120
+      - 🇦🇺_AU_澳大利亚_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇫🇷_FR_法国_125
+      - 🇬🇧_GB_英国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇨🇦_CA_加拿大_135
+      - 🇦🇺_AU_澳大利亚_136
+      - 🇨🇦_CA_加拿大_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇭🇰_HK_香港_140
+      - 🇦🇺_AU_澳大利亚_141
+      - 🇨🇦_CA_加拿大_142
+      - 🇺🇸_US_美国_143
+      - 🇦🇺_AU_澳大利亚_144
+      - 🇦🇺_AU_澳大利亚_145
+      - 🇦🇺_AU_澳大利亚_146
+      - 🇦🇺_AU_澳大利亚_147
+      - 🇺🇸_US_美国_148
+      - 🇦🇺_AU_澳大利亚_149
+      - 🇦🇺_AU_澳大利亚_150
+      - 🇦🇺_AU_澳大利亚_151
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_152
+      - 🇬🇷_GR_希腊_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇦🇺_AU_澳大利亚_156
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇦🇺_AU_澳大利亚_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇦🇺_AU_澳大利亚_166
+      - 🇨🇦_CA_加拿大_167
+      - 🇦🇺_AU_澳大利亚_168
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_169
+      - 🇨🇦_CA_加拿大_170
+      - 🇺🇸_US_美国_171
+      - 🇨🇦_CA_加拿大_172
+      - 🇦🇺_AU_澳大利亚_173
+      - 🇦🇺_AU_澳大利亚_174
+      - 🇦🇺_AU_澳大利亚_175
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_176
+      - 🇦🇺_AU_澳大利亚_177
+      - 🇺🇸_US_美国_178
+      - 🇬🇧_GB_英国_179
+      - 🇺🇸_US_美国_180
+      - 🇦🇺_AU_澳大利亚_181
+      - 🇦🇺_AU_澳大利亚_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇨🇦_CA_加拿大_186
+      - 🇫🇷_FR_法国_187
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇦🇺_AU_澳大利亚_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇦🇺_AU_澳大利亚_207
+      - 🇦🇺_AU_澳大利亚_208
+      - 🇬🇧_GB_英国_209
+      - 🇬🇧_GB_英国_210
+      - 🇺🇸_US_美国_211
+      - 🇫🇷_FR_法国_212
+      - 🇭🇰_HK_香港_213
+      - 🇫🇷_FR_法国_214
+      - 🇨🇦_CA_加拿大_215
+      - 🇺🇸_US_美国_216
+      - 🇫🇷_FR_法国_217
+      - 🇺🇸_US_美国_218
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_219
+      - 🇬🇧_GB_英国_220
+      - 🇺🇸_US_美国_221
+      - 🇨🇦_CA_加拿大_222
+      - 🇺🇸_US_美国_223
+      - 🇺🇸_US_美国_224
+      - 🇬🇧_GB_英国_225
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_226
+      - 🇺🇸_US_美国_227
+      - 🇳🇴_NO_挪威_228
+      - 🇦🇺_AU_澳大利亚_229
+      - 🇺🇸_US_美国_230
+      - 🇺🇸_US_美国_231
+      - 🇺🇸_US_美国_232
+      - 🇺🇸_US_美国_233
+      - 🇬🇧_GB_英国_234
+      - 🇭🇰_HK_香港_235
+      - 🇺🇸_US_美国_236
+      - 🇦🇺_AU_澳大利亚_237
+      - 🇺🇸_US_美国_238
+      - 🇬🇧_GB_英国_239
+      - 🇺🇸_US_美国_240
+      - 🇺🇸_US_美国_241
+      - 🇺🇸_US_美国_242
+      - 🇺🇸_US_美国_243
+      - 🇨🇭_CH_瑞士_244
+      - 🇺🇸_US_美国_245
+      - 🇺🇸_US_美国_246
+      - 🇳🇴_NO_挪威_247
+      - 🇳🇴_NO_挪威_248
+      - 🇳🇴_NO_挪威_249
+      - 🇺🇸_US_美国_250
+      - 🇦🇪_AE_阿联酋_251
+      - 🇺🇸_US_美国_252
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_253
+      - 🇨🇦_CA_加拿大_254
+      - 🇦🇪_AE_阿联酋_255
+      - 🇺🇸_US_美国_256
+      - 🇫🇷_FR_法国_257
+      - 🇦🇺_AU_澳大利亚_258
+      - 🇺🇸_US_美国_259
+      - 🇺🇸_US_美国_260
+      - 🇫🇷_FR_法国_261
+      - 🇸🇪_SE_瑞典_262
+      - 🇳🇴_NO_挪威_263
+      - 🇺🇸_US_美国_264
+      - 🇫🇷_FR_法国_265
+      - 🇫🇷_FR_法国_266
+      - 🇫🇷_FR_法国_267
+      - 🇳🇴_NO_挪威_268
+      - 🇫🇷_FR_法国_269
+      - 🇺🇸_US_美国_270
+      - 🇳🇴_NO_挪威_271
+      - 🇫🇷_FR_法国_272
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_273
+      - 🇹🇼_TW_台湾_274
+      - 🇺🇸_US_美国_275
+      - 🇺🇸_US_美国_276
+      - 🇺🇸_US_美国_277
+      - 🇨🇦_CA_加拿大_278
+      - 🇺🇸_US_美国_279
+      - 🇺🇸_US_美国_280
+      - 🇫🇷_FR_法国_281
+      - 🇳🇴_NO_挪威_282
+      - 🇺🇸_US_美国_283
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_284
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_285
+      - 🇳🇴_NO_挪威_286
+      - 🇫🇷_FR_法国_287
+      - 🇺🇸_US_美国_288
+      - 🇵🇹_PT_葡萄牙_289
+      - 🇳🇴_NO_挪威_290
+      - 🇺🇸_US_美国_291
+      - 🇩🇪_DE_德国_292
+      - 🇺🇸_US_美国_293
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_294
+      - 🇭🇰_HK_香港_295
+      - 🇨🇦_CA_加拿大_296
+      - 🇭🇰_HK_香港_297
+      - 🇳🇴_NO_挪威_298
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_299
+      - 🇦🇪_AE_阿联酋_300
+      - 🇫🇷_FR_法国_301
+      - 🇫🇷_FR_法国_302
+      - default_name_303
+      - 🇳🇴_NO_挪威_304
+      - 🇵🇹_PT_葡萄牙_305
+      - 🇳🇴_NO_挪威_306
+      - 🇳🇴_NO_挪威_307
+      - 🇺🇸_US_美国_308
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_309
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
