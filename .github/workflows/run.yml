@@ -49,12 +49,6 @@ jobs:
           name: ccaeo.log
           path: './.ccaeo.log'
 
-      - name: 上传 ini
-        uses: actions/upload-artifact@v2
-        with:
-          name: all.ini
-          path: './all.ini'
-
       - name: 上传 cv
         uses: actions/upload-artifact@v2
         with:
