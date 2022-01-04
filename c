@@ -5,1516 +5,580 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Free_CN_中国_1', server: cm2.newhua99.xyz, port: 22825, type: ss, cipher: aes-128-gcm, password: 4718cbcc-24b2-4255-b179-d953d0151a80}
-  - {name: 'Free_HK_香港_2', server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Free_HK_香港_3', server: hk.azure.elaina.link, port: 443, type: vmess, uuid: c1af9742-62ff-4295-a49b-32303b88c892, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/JJkuv3", host: hk.azure.elaina.link }}
-  - {name: 'Relay_🇨🇳CN-🇺🇸US_256', server: 183.232.56.182, port: 574, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat}
-  - {name: 'Relay_🇨🇳CN-🇭🇰HK_289', server: 183.232.56.110, port: 575, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat}
-  - {name: 'Free_CN_中国_6', server: cm.newhua99.xyz, port: 22825, type: ss, cipher: aes-128-gcm, password: 4718cbcc-24b2-4255-b179-d953d0151a80}
-  - {name: 'Free_US_美国_7', server: 152.69.223.138, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: 152.69.223.138 }}
-  - {name: 'Relay_🇨🇳CN-🇸🇬SG_298', server: 183.232.56.110, port: 1501, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj}
-  - {name: 'Free_HK_香港_9', server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Relay_🇨🇳CN-🇺🇸US_285', server: 183.232.56.110, port: 574, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat}
-  - {name: 'Free_HK_香港_11', server: hk.azure.elaina.link, port: 55566, type: vmess, uuid: c1af9742-62ff-4295-a49b-32303b88c892, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/hhhaaa114514", host: hk.azure.elaina.link }}
-  - {name: 'Free_CN_中国_12', server: shcn2-01.iplc188.com, port: 10011, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/zz", host: zhuzhu12.com }}
-  - {name: 'Free_CN_中国_13', server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com, port: 30001, type: vmess, uuid: 3fe6a1e0-863c-4db8-ab79-89a8b59ccce8, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: 140.83.54.123 }}
-  - {name: 'Free_JP_日本_14', server: 140.83.54.123, port: 21888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: 140.83.54.123 }}
-  - {name: 'Free_HK_香港_15', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Free_CN_中国_16', server: shcn2-01.iplc188.com, port: 10015, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: 'Free_CN_中国_17', server: shcn2-01.iplc188.com, port: 10011, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/hls/cctv5phd.m3u8", host: apple102.hfnote.top }}
-  - {name: 'Relay_🇨🇳CN-🇹🇼TW_281', server: 183.232.56.110, port: 1203, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat}
-  - {name: 'Free_CN_中国_19', server: cu.newhua99.xyz, port: 22807, type: ss, cipher: aes-128-gcm, password: 4718cbcc-24b2-4255-b179-d953d0151a80}
-  - {name: 'Free_CN_中国_20', server: cm.newhua99.xyz, port: 22803, type: ss, cipher: aes-128-gcm, password: 4718cbcc-24b2-4255-b179-d953d0151a80}
-  - {name: 'Free_PH_菲律宾_21', server: 188.214.125.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
-  - {name: 'Free_CN_中国_22', server: shcn2-01.iplc188.com, port: 10015, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: bb.shangou.tk }}
-  - {name: 'CYL-科技（2021.01.02）_23', server: in-am2.eqnode.net, port: 8080, type: ssr, password: "fD0KP8PWA", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'CYL-科技（2021.01.02） 310_24', server: in-am2.eqnode.net, port: 8080, type: ssr, password: "fD0KP8PWA", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'Free_HK_香港_25', server: 101.32.26.213, port: 33333, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: 140.83.54.123 }}
-  - {name: 'Free_CN_中国_26', server: cu.newhua99.xyz, port: 22808, type: ss, cipher: aes-128-gcm, password: 4718cbcc-24b2-4255-b179-d953d0151a80}
-  - {name: 'Free_CN_中国_27', server: cu.newhua99.xyz, port: 22820, type: ss, cipher: aes-128-gcm, password: 4718cbcc-24b2-4255-b179-d953d0151a80}
-  - {name: 'Free_CN_中国_28', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/DvvUK6Ef", host: free.honeywen.vip }}
-  - {name: 'Free_CN_中国_29', server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com, port: 30012, type: vmess, uuid: 3fe6a1e0-863c-4db8-ab79-89a8b59ccce8, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/hls/cctv5phd.m3u8", host: apple120.hfnote.top }}
-  - {name: 'CYL-科技（2021.01.02） 236_30', server: 54.206.12.203, port: 443, type: ssr, password: "Jz8r4gLNP", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'Free_CN_中国_31', server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com, port: 30013, type: vmess, uuid: 3fe6a1e0-863c-4db8-ab79-89a8b59ccce8, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: 180.93.172.159 }}
-  - {name: 'Free_CN_中国_32', server: shcn2-01.iplc188.com, port: 10015, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/hls/cctv5phd.m3u8", host: apple100.hfnote.top }}
-  - {name: 'Free_CN_中国_33', server: cxcm.jiyunshu.com, port: 58053, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: cxcm.jiyunshu.com }}
-  - {name: 'Free_CN_中国_34', server: ah.jiyunshu.com, port: 61352, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: ah.jiyunshu.com }}
-  - {name: 'Free_35', server: 104.16.181.197, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws/?ed=2048", host: download.china666.ml }}
-  - {name: 'Free_HK_香港_36', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.01.02） 331_37', server: sy-am2.eqsunshine.com, port: 443, type: ssr, password: "Jz8r4gLNP", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'Free_CN_中国_38', server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com, port: 30013, type: vmess, uuid: 3fe6a1e0-863c-4db8-ab79-89a8b59ccce8, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/hls/cctv5phd.m3u8", host: apple120.hfnote.top }}
-  - {name: 'CYL-科技（2021.01.02）_39', server: sy-am2.eqsunshine.com, port: 443, type: ssr, password: "Jz8r4gLNP", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'CYL-科技（2021.01.02） 154_40', server: us-am32-5.eqnode.net, port: 8081, type: ssr, password: "YFVrXZgRo", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'CYL-科技（2021.01.02）_41', server: us-am32-5.eqnode.net, port: 8081, type: ssr, password: "YFVrXZgRo", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'Free_CN_中国_42', server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws" }}
-  - {name: 'Free_CN_中国_43', server: shcn2-01.iplc188.com, port: 10011, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: 'CYL-科技（2021.01.02）_44', server: 54.206.12.203, port: 443, type: ssr, password: "Jz8r4gLNP", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'Free_CN_中国_45', server: cm.newhua99.xyz, port: 22819, type: ss, cipher: aes-128-gcm, password: 4718cbcc-24b2-4255-b179-d953d0151a80}
-  - {name: '翻墙党fanqiangdang.com_US_17', server: 34.219.236.31, port: 8081, type: ssr, password: "YFVrXZgRo", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, obfs-param: t.me/mengge88888888}
-  - {name: 'CYL-科技（2021.01.02）_47', server: uk-am3-5.eqsunshine.com, port: 8181, type: ssr, password: "PNRbp3j9B", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'Free_CN_中国_48', server: shcn2-01.iplc188.com, port: 10012, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/ws", host: usa-buffalo.lvuft.com }}
-  - {name: 'CYL-科技（2021.01.02） 115_49', server: uk-am3-5.eqsunshine.com, port: 8181, type: ssr, password: "PNRbp3j9B", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'CYL-科技（2021.01.02） 113_50', server: 18.133.245.231, port: 8181, type: ssr, password: "PNRbp3j9B", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'Free_CN_中国_51', server: cm.newhua99.xyz, port: 22808, type: ss, cipher: aes-128-gcm, password: 4718cbcc-24b2-4255-b179-d953d0151a80}
-  - {name: 'CYL-科技（2021.01.02） 100_52', server: 18.192.126.228, port: 8080, type: ssr, password: "zsU09Diow", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'Free_US_美国_53', server: 129.159.36.48, port: 9999, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: 129.159.36.48 }}
-  - {name: 'CYL-科技（2021.01.02）_54', server: 35.183.124.2, port: 8080, type: ssr, password: "4axflHccX", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'CYL-科技（2021.01.02）_55', server: 18.192.126.228, port: 8080, type: ssr, password: "zsU09Diow", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'CYL-科技（2021.01.02）_56', server: de-am1.eqnode.net, port: 8080, type: ssr, password: "zsU09Diow", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'CYL-科技（2021.12.30） 53_57', server: de-am1.eqnode.net, port: 8080, type: ssr, password: "zsU09Diow", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'Free_CN_中国_58', server: shcn2-01.iplc188.com, port: 10015, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/hls/cctv5phd.m3u8", host: apple114.hfnote.top }}
-  - {name: 'Free_CN_中国_59', server: ah.jiyunshu.com, port: 61531, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: ah.jiyunshu.com }}
-  - {name: 'CYL-科技（2021.01.02） 257_60', server: 35.183.124.2, port: 8080, type: ssr, password: "4axflHccX", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'Free_CN_中国_61', server: 58.56.34.149, port: 8888, type: ss, cipher: chacha20-ietf-poly1305, password: ed6250f1-85c1-4743-8ab2-7acb0dce829d}
-  - {name: 'CYL-科技（2021.01.02）_62', server: fr-am1-4.eqsunshine.com, port: 8181, type: ssr, password: "X3LKnwp5C", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'CYL-科技（2021.01.02）_63', server: ca-am3.eqnode.net, port: 8080, type: ssr, password: "4axflHccX", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'Free_64', server: cf666.jklist.tk, port: 8080, type: vmess, uuid: 48fde697-e39a-4db5-a665-06af84ffbb11, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/TS/recharge/tzUrl.html", host: els.jklist.tk }}
-  - {name: 'Free_TW_台湾_65', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: 'Free_CN_中国_66', server: niaocloud-gy.niaoyun.online, port: 3003, type: vmess, uuid: 63ed8812-8d06-30a5-b220-4c9b9e32085a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: 'Free_CN_中国_67', server: shcn2-01.iplc188.com, port: 10016, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
-  - {name: 'Free_SE_瑞典_68', server: se.oceancloud.asia, port: 12100, type: vmess, uuid: adfc4bf6-8f7d-393e-9997-7dd969d9ea88, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/se", host: www.baidu.com }}
-  - {name: 'Free_CN_中国_69', server: shcn2-01.iplc188.com, port: 10014, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: shz.mooncloud.bike }}
-  - {name: 'Free_CN_中国_70', server: ah.jiyunshu.com, port: 27120, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: ah.jiyunshu.com }}
-  - {name: 'Free_US_美国_71', server: 142.4.105.253, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: 142.4.105.253 }}
-  - {name: 'CYL-科技（2021.12.30） 197_72', server: fr-am1-4.eqsunshine.com, port: 8181, type: ssr, password: "X3LKnwp5C", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'CYL-科技（2021.01.02） 277_73', server: ca-am3.eqnode.net, port: 8080, type: ssr, password: "4axflHccX", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'CYL-科技（2021.12.30） 288_74', server: 107.167.23.50, port: 8084, type: ssr, password: "RhKqtYoG8", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, obfs-param: releases.ubuntu.com}
-  - {name: 'Free_CN_中国_75', server: cm2.newhua99.xyz, port: 22816, type: ss, cipher: aes-128-gcm, password: 4718cbcc-24b2-4255-b179-d953d0151a80}
-  - {name: 'Free_CN_中国_76', server: shcn2-01.iplc188.com, port: 10015, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/JJkuv3", host: hk.azure.elaina.link }}
-  - {name: 'CYL-科技（2021.01.02）_77', server: 107.167.23.50, port: 8084, type: ssr, password: "RhKqtYoG8", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, obfs-param: releases.ubuntu.com}
-  - {name: 'Free_CN_中国_78', server: shcn2-01.iplc188.com, port: 10012, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess", host: tight-math-32ee.tianzhen4567.workers.dev }}
-  - {name: 'Free_SG_新加坡_79', server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'Free_CN_中国_80', server: shcn2-01.iplc188.com, port: 10012, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: shcn2-01.iplc188.com }}
-  - {name: 'Free_CN_中国_81', server: shcn2-01.iplc188.com, port: 10014, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/hls/cctv5phd.m3u8", host: www.microsoft.com }}
-  - {name: 'Free_CN_中国_82', server: shcn2-01.iplc188.com, port: 10014, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/5YpZGAg8/", host: 66.42.103.1 }}
-  - {name: 'Free_CN_中国_83', server: shcn2-01.iplc188.com, port: 10012, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
-  - {name: 'Free_CN_中国_84', server: shcn2-01.iplc188.com, port: 10014, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/evklvws?ed=2048", host: restless-rain-847c.cocksucker.workers.dev }}
-  - {name: 'Free_CN_中国_85', server: cm.newhua99.xyz, port: 22807, type: ss, cipher: aes-128-gcm, password: 4718cbcc-24b2-4255-b179-d953d0151a80}
-  - {name: 'Free_86', server: 104.16.104.135, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess", host: tight-math-32ee.tianzhen4567.workers.dev }}
-  - {name: 'Free_CN_中国_87', server: shcn2-01.iplc188.com, port: 10016, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/v2ray", host: dx-baiducdnct.inter.iqiyi.com }}
-  - {name: 'CYL-科技（2021.01.02）_88', server: 15.236.122.201, port: 8181, type: ssr, password: "X3LKnwp5C", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'Free_SG_新加坡_89', server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Free_US_美国_90', server: 142.4.105.253, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: %7B%22Host%22:%22142.4.105.253%22%7D }}
-  - {name: 'Free_CN_中国_91', server: niaocloud-gy.niaoyun.online, port: 2001, type: vmess, uuid: 63ed8812-8d06-30a5-b220-4c9b9e32085a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: 'Free_CN_中国_92', server: niaocloud-gy.niaoyun.online, port: 4004, type: vmess, uuid: 63ed8812-8d06-30a5-b220-4c9b9e32085a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: 'CYL-科技（2021.01.02）_93', server: 34.220.180.26, port: 8080, type: ssr, password: "vGndzdmPB", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
-  - {name: 'Free_SG_新加坡_94', server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Free_CN_中国_95', server: niaocloud-gy.niaoyun.online, port: 6106, type: vmess, uuid: 63ed8812-8d06-30a5-b220-4c9b9e32085a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: 'Free_CN_中国_96', server: niaocloud-gy.niaoyun.online, port: 2004, type: vmess, uuid: 63ed8812-8d06-30a5-b220-4c9b9e32085a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: 'Free_US_美国_97', server: 169.197.142.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Free_US_美国_98', server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Free_CN_中国_99', server: shcn2-01.iplc188.com, port: 10011, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/JJkuv3", host: hk.azure.elaina.link }}
-  - {name: 'Free_CN_中国_100', server: niaocloud-gy.niaoyun.online, port: 6101, type: vmess, uuid: 63ed8812-8d06-30a5-b220-4c9b9e32085a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: 'Free_IN_印度_101', server: 172.105.42.228, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Free_IN_印度_102', server: 172.105.42.228, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Free_CN_中国_103', server: niaocloud-gy.niaoyun.online, port: 3004, type: vmess, uuid: 63ed8812-8d06-30a5-b220-4c9b9e32085a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: 'Free_IN_印度_104', server: 172.105.42.228, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Free_IN_印度_105', server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'Free_IN_印度_106', server: 172.105.42.228, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Free_IN_印度_107', server: 172.105.42.228, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Free_IN_印度_108', server: 172.105.42.228, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'Free_CN_中国_109', server: niaocloud-gy.niaoyun.online, port: 3002, type: vmess, uuid: 63ed8812-8d06-30a5-b220-4c9b9e32085a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: 'Free_IN_印度_110', server: 172.105.42.228, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Free_IN_印度_111', server: 172.105.42.228, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Free_IN_印度_112', server: 172.105.42.228, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'Free_IN_印度_113', server: 172.105.42.228, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Free_IN_印度_114', server: 172.105.42.228, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Free_IN_印度_115', server: 172.105.42.228, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Free_IN_印度_116', server: 172.105.42.228, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Free_IN_印度_117', server: 172.105.42.228, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Free_IN_印度_118', server: 172.105.42.228, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Free_IN_印度_119', server: 172.105.42.228, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Free_IN_印度_120', server: 172.105.42.228, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Free_IN_印度_121', server: 172.105.42.228, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Free_IN_印度_122', server: 172.105.42.228, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Free_US_美国_123', server: 167.88.61.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Free_IN_印度_124', server: 172.105.42.228, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Free_IN_印度_125', server: 172.105.42.228, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Free_IN_印度_126', server: 172.105.42.228, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Free_IN_印度_127', server: 172.105.42.228, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Free_CN_中国_128', server: shcn2-01.iplc188.com, port: 10016, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/ssrsub", host: v5.ssrsub.com }}
-  - {name: 'Free_IN_印度_129', server: 172.105.42.228, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Free_CN_中国_130', server: niaocloud-gy.niaoyun.online, port: 4001, type: vmess, uuid: 63ed8812-8d06-30a5-b220-4c9b9e32085a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: 'Free_JP_日本_131', server: 185.160.26.73, port: 890, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
-  - {name: 'Free_IN_印度_132', server: 172.105.42.228, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Free_JP_日本_133', server: 185.160.26.181, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
-  - {name: 'Free_CN_中国_134', server: shcn2-01.iplc188.com, port: 10014, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: 'Free_IN_印度_135', server: 172.105.42.228, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Free_VN_越南_136', server: 180.93.172.159, port: 21888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: 180.93.172.159 }}
-  - {name: 'Free_IN_印度_137', server: 172.105.42.228, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Free_GB_英国_138', server: 172.99.190.87, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Free_CN_中国_139', server: niaocloud-gy.niaoyun.online, port: 4002, type: vmess, uuid: 63ed8812-8d06-30a5-b220-4c9b9e32085a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: 'Free_CN_中国_140', server: shcn2-01.iplc188.com, port: 10014, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/ssrsub", host: v9.ssrsub.com }}
-  - {name: 'Free_CN_中国_141', server: 117.28.243.165, port: 8050, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 'Free_US_美国_142', server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Free_US_美国_143', server: 167.88.61.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Free_US_美国_144', server: 169.197.142.39, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'Free_US_美国_145', server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Free_US_美国_146', server: 169.197.142.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Free_US_美国_147', server: 142.4.105.253, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: a.189.cn }}
-  - {name: 'Free_GB_英国_148', server: 172.99.190.87, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Free_CN_中国_149', server: shcn2-01.iplc188.com, port: 10016, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: shcn2-01.iplc188.com }}
-  - {name: 'Free_US_美国_150', server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Free_151', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub", host: v8.ssrsub.com }}
-  - {name: 'Free_MX_墨西哥_152', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: 'Free_IN_印度_153', server: 172.105.42.228, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Free_IN_印度_154', server: 172.105.42.228, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'n_057机场∞新加坡_155', server: gz2.52168.xyz, port: 2106, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 26901:ggyf3c2qzog, obfs-param: 94d9b26901.baidu.com}
-  - {name: 'Free_GB_英国_156', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Free_IN_印度_157', server: 172.105.42.228, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Free_GB_英国_158', server: 172.99.190.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Free_US_美国_159', server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Free_CN_中国_160', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/ssrsub", host: v1.ssrsub.com }}
-  - {name: 'Free_US_美国_161', server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Free_US_美国_162', server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Free_US_美国_163', server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Free_US_美国_164', server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Free_CN_中国_165', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: 112.33.32.136 }}
-  - {name: 'Free_CN_中国_166', server: shcn2-01.iplc188.com, port: 10011, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/v2ray", host: dx-baiducdnct.inter.iqiyi.com }}
-  - {name: 'Free_US_美国_167', server: 169.197.142.39, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'Free_US_美国_168', server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Free_GB_英国_169', server: 172.99.190.87, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Free_US_美国_170', server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Free_GB_英国_171', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Free_GB_英国_172', server: 172.99.190.87, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Free_GB_英国_173', server: 172.99.190.87, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Free_US_美国_174', server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Free_US_美国_175', server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Free_US_美国_176', server: 169.197.142.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Free_US_美国_177', server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Free_US_美国_178', server: 167.88.61.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Free_US_美国_179', server: 169.197.142.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Free_GB_英国_180', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Free_GB_英国_181', server: 172.99.190.87, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Free_GB_英国_182', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Free_US_美国_183', server: 169.197.142.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Free_GB_英国_184', server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'default_ssr_name_1', server: 183.232.56.110, port: 1503, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_2', server: 183.232.56.110, port: 1501, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_3', server: 183.232.56.182, port: 1252, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_4', server: 183.232.56.182, port: 1254, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_5', server: 183.232.56.110, port: 1501, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_6', server: 183.232.56.110, port: 1251, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_7', server: 183.232.56.182, port: 1254, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_8', server: 183.232.56.182, port: 1252, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_9', server: 183.232.56.110, port: 1201, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_10', server: 183.232.56.110, port: 1253, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_11', server: 183.232.56.110, port: 1201, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_12', server: 183.232.56.110, port: 575, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_13', server: 183.232.13.114, port: 1101, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_14', server: 183.232.56.182, port: 574, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_15', server: 183.232.56.110, port: 1203, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_16', server: 183.232.56.182, port: 574, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_17', server: 101.67.8.247, port: 2204, type: ssr, password: "bcbcba1d18cfd7267fbff1a64fd3e74f", cipher: chacha20-ietf, protocol: auth_sha1_v4, obfs: tls1.2_ticket_auth}
+  - {name: 'default_ssr_name_18', server: sg-am11.eqnode.net, port: 8181, type: ssr, password: "kKdNNt2HZ", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, obfs-param: releases.ubuntu.com}
+  - {name: 'default_ssr_name_19', server: 183.232.13.63, port: 2107, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_20', server: 13.229.104.89, port: 8080, type: ssr, password: "jUQAcjhEG", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_21', server: 52.221.184.61, port: 8181, type: ssr, password: "kKdNNt2HZ", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_22', server: 52.77.239.192, port: 8181, type: ssr, password: "q4UW0QdUl", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_23', server: 52.77.239.192, port: 8181, type: ssr, password: "q4UW0QdUl", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_24', server: sg-am21.eqsunshine.com, port: 8080, type: ssr, password: "jUQAcjhEG", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, obfs-param: releases.ubuntu.com}
+  - {name: 'default_ssr_name_25', server: sg-am15.eqsunshine.com, port: 8181, type: ssr, password: "q4UW0QdUl", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
+  - {name: 'default_ssr_name_26', server: 183.232.13.63, port: 2109, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_27', server: 183.232.13.63, port: 2109, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28416:xul3hsefzm, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_28', server: 183.232.13.63, port: 2106, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_29', server: 183.232.13.114, port: 1109, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28416:xul3hsefzm, obfs-param: t.me/t.me/mengge88888888}
+  - {name: 'default_ssr_name_30', server: 183.232.13.114, port: 1109, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/t.me/mengge88888888}
+  - {name: 'default_ssr_name_31', server: 3.124.12.30, port: 8080, type: ssr, password: "82BMko4lE", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_32', server: 35.180.0.141, port: 8181, type: ssr, password: "gVWc0WaJn", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_33', server: 107.167.23.50, port: 8084, type: ssr, password: "RhKqtYoG8", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/t.me/mengge88888888, obfs-param: t.me/t.me/mengge88888888}
+  - {name: 'default_ssr_name_34', server: 183.232.13.114, port: 1117, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_35', server: 183.232.13.63, port: 2102, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_36', server: 183.232.13.114, port: 1117, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28416:xul3hsefzm, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_37', server: 15.236.122.201, port: 8181, type: ssr, password: "X3LKnwp5C", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_38', server: 183.232.13.114, port: 1116, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_39', server: 34.220.180.26, port: 8080, type: ssr, password: "vGndzdmPB", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_40', server: 183.232.13.63, port: 2102, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28416:xul3hsefzm, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_41', server: 18.133.245.231, port: 8181, type: ssr, password: "PNRbp3j9B", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_42', server: 107.167.23.50, port: 8084, type: ssr, password: "RhKqtYoG8", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, obfs-param: releases.ubuntu.com}
+  - {name: 'default_ssr_name_43', server: 183.232.13.114, port: 1107, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28416:xul3hsefzm, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_44', server: sy-am2.eqsunshine.com, port: 443, type: ssr, password: "Jz8r4gLNP", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
+  - {name: 'default_ssr_name_45', server: 107.167.23.50, port: 8084, type: ssr, password: "RhKqtYoG8", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_46', server: 183.232.13.114, port: 1102, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_47', server: de-am2.eqnode.net, port: 8080, type: ssr, password: "82BMko4lE", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
+  - {name: 'default_ssr_name_48', server: fr-am1-4.eqsunshine.com, port: 8181, type: ssr, password: "X3LKnwp5C", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
+  - {name: 'default_ssr_name_49', server: de-am1.eqnode.net, port: 8080, type: ssr, password: "zsU09Diow", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
+  - {name: 'default_ssr_name_50', server: 54.206.12.203, port: 443, type: ssr, password: "Jz8r4gLNP", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/t.me/mengge88888888, obfs-param: t.me/t.me/mengge88888888}
+  - {name: 'default_ssr_name_51', server: 18.192.126.228, port: 8080, type: ssr, password: "zsU09Diow", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_52', server: 34.219.236.31, port: 8081, type: ssr, password: "YFVrXZgRo", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_53', server: 101.67.8.247, port: 2210, type: ssr, password: "fb3ff83bac9e4aed4a6a7d4a1f321f1a", cipher: chacha20-ietf, protocol: auth_sha1_v4, obfs: tls1.2_ticket_auth}
+  - {name: 'default_ssr_name_54', server: uk-am3-5.eqsunshine.com, port: 8181, type: ssr, password: "PNRbp3j9B", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
+  - {name: 'default_ssr_name_55', server: 101.67.8.247, port: 2202, type: ssr, password: "49f299b4b001bb896143d3e4abfa89e4", cipher: chacha20-ietf, protocol: auth_sha1_v4, obfs: tls1.2_ticket_auth}
+  - {name: 'default_ssr_name_56', server: us-am32-5.eqnode.net, port: 8081, type: ssr, password: "YFVrXZgRo", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
+  - {name: 'default_ssr_name_57', server: us-am11.eqnode.net, port: 8080, type: ssr, password: "vGndzdmPB", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, obfs-param: releases.ubuntu.com}
+  - {name: 'default_ssr_name_58', server: 54.206.12.203, port: 443, type: ssr, password: "Jz8r4gLNP", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_59', server: 183.232.13.63, port: 2104, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28416:xul3hsefzm, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_60', server: 3.124.12.30, port: 8080, type: ssr, password: "82BMko4lE", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/t.me/mengge88888888, obfs-param: t.me/t.me/mengge88888888}
+  - {name: 'default_ssr_name_61', server: 183.232.13.63, port: 2104, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_62', server: fr-am1-1.eqsunshine.com, port: 8181, type: ssr, password: "gVWc0WaJn", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
+  - {name: 'default_ssr_name_63', server: 183.232.56.182, port: 1502, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_64', server: 183.232.13.114, port: 1116, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28416:xul3hsefzm, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_65', server: 35.183.124.2, port: 8080, type: ssr, password: "4axflHccX", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888}
+  - {name: 'default_ssr_name_66', server: ca-am3.eqnode.net, port: 8080, type: ssr, password: "4axflHccX", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
+  - {name: 'default_ssr_name_67', server: sg-am15.eqsunshine.com, port: 8181, type: ssr, password: "q4UW0QdUl", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Free_CN_中国_1
-      - Free_HK_香港_2
-      - Free_HK_香港_3
-      - Relay_🇨🇳CN-🇺🇸US_256
-      - Relay_🇨🇳CN-🇭🇰HK_289
-      - Free_CN_中国_6
-      - Free_US_美国_7
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Free_HK_香港_9
-      - Relay_🇨🇳CN-🇺🇸US_285
-      - Free_HK_香港_11
-      - Free_CN_中国_12
-      - Free_CN_中国_13
-      - Free_JP_日本_14
-      - Free_HK_香港_15
-      - Free_CN_中国_16
-      - Free_CN_中国_17
-      - Relay_🇨🇳CN-🇹🇼TW_281
-      - Free_CN_中国_19
-      - Free_CN_中国_20
-      - Free_PH_菲律宾_21
-      - Free_CN_中国_22
-      - CYL-科技（2021.01.02）_23
-      - CYL-科技（2021.01.02） 310_24
-      - Free_HK_香港_25
-      - Free_CN_中国_26
-      - Free_CN_中国_27
-      - Free_CN_中国_28
-      - Free_CN_中国_29
-      - CYL-科技（2021.01.02） 236_30
-      - Free_CN_中国_31
-      - Free_CN_中国_32
-      - Free_CN_中国_33
-      - Free_CN_中国_34
-      - Free_35
-      - Free_HK_香港_36
-      - CYL-科技（2021.01.02） 331_37
-      - Free_CN_中国_38
-      - CYL-科技（2021.01.02）_39
-      - CYL-科技（2021.01.02） 154_40
-      - CYL-科技（2021.01.02）_41
-      - Free_CN_中国_42
-      - Free_CN_中国_43
-      - CYL-科技（2021.01.02）_44
-      - Free_CN_中国_45
-      - 翻墙党fanqiangdang.com_US_17
-      - CYL-科技（2021.01.02）_47
-      - Free_CN_中国_48
-      - CYL-科技（2021.01.02） 115_49
-      - CYL-科技（2021.01.02） 113_50
-      - Free_CN_中国_51
-      - CYL-科技（2021.01.02） 100_52
-      - Free_US_美国_53
-      - CYL-科技（2021.01.02）_54
-      - CYL-科技（2021.01.02）_55
-      - CYL-科技（2021.01.02）_56
-      - CYL-科技（2021.12.30） 53_57
-      - Free_CN_中国_58
-      - Free_CN_中国_59
-      - CYL-科技（2021.01.02） 257_60
-      - Free_CN_中国_61
-      - CYL-科技（2021.01.02）_62
-      - CYL-科技（2021.01.02）_63
-      - Free_64
-      - Free_TW_台湾_65
-      - Free_CN_中国_66
-      - Free_CN_中国_67
-      - Free_SE_瑞典_68
-      - Free_CN_中国_69
-      - Free_CN_中国_70
-      - Free_US_美国_71
-      - CYL-科技（2021.12.30） 197_72
-      - CYL-科技（2021.01.02） 277_73
-      - CYL-科技（2021.12.30） 288_74
-      - Free_CN_中国_75
-      - Free_CN_中国_76
-      - CYL-科技（2021.01.02）_77
-      - Free_CN_中国_78
-      - Free_SG_新加坡_79
-      - Free_CN_中国_80
-      - Free_CN_中国_81
-      - Free_CN_中国_82
-      - Free_CN_中国_83
-      - Free_CN_中国_84
-      - Free_CN_中国_85
-      - Free_86
-      - Free_CN_中国_87
-      - CYL-科技（2021.01.02）_88
-      - Free_SG_新加坡_89
-      - Free_US_美国_90
-      - Free_CN_中国_91
-      - Free_CN_中国_92
-      - CYL-科技（2021.01.02）_93
-      - Free_SG_新加坡_94
-      - Free_CN_中国_95
-      - Free_CN_中国_96
-      - Free_US_美国_97
-      - Free_US_美国_98
-      - Free_CN_中国_99
-      - Free_CN_中国_100
-      - Free_IN_印度_101
-      - Free_IN_印度_102
-      - Free_CN_中国_103
-      - Free_IN_印度_104
-      - Free_IN_印度_105
-      - Free_IN_印度_106
-      - Free_IN_印度_107
-      - Free_IN_印度_108
-      - Free_CN_中国_109
-      - Free_IN_印度_110
-      - Free_IN_印度_111
-      - Free_IN_印度_112
-      - Free_IN_印度_113
-      - Free_IN_印度_114
-      - Free_IN_印度_115
-      - Free_IN_印度_116
-      - Free_IN_印度_117
-      - Free_IN_印度_118
-      - Free_IN_印度_119
-      - Free_IN_印度_120
-      - Free_IN_印度_121
-      - Free_IN_印度_122
-      - Free_US_美国_123
-      - Free_IN_印度_124
-      - Free_IN_印度_125
-      - Free_IN_印度_126
-      - Free_IN_印度_127
-      - Free_CN_中国_128
-      - Free_IN_印度_129
-      - Free_CN_中国_130
-      - Free_JP_日本_131
-      - Free_IN_印度_132
-      - Free_JP_日本_133
-      - Free_CN_中国_134
-      - Free_IN_印度_135
-      - Free_VN_越南_136
-      - Free_IN_印度_137
-      - Free_GB_英国_138
-      - Free_CN_中国_139
-      - Free_CN_中国_140
-      - Free_CN_中国_141
-      - Free_US_美国_142
-      - Free_US_美国_143
-      - Free_US_美国_144
-      - Free_US_美国_145
-      - Free_US_美国_146
-      - Free_US_美国_147
-      - Free_GB_英国_148
-      - Free_CN_中国_149
-      - Free_US_美国_150
-      - Free_151
-      - Free_MX_墨西哥_152
-      - Free_IN_印度_153
-      - Free_IN_印度_154
-      - n_057机场∞新加坡_155
-      - Free_GB_英国_156
-      - Free_IN_印度_157
-      - Free_GB_英国_158
-      - Free_US_美国_159
-      - Free_CN_中国_160
-      - Free_US_美国_161
-      - Free_US_美国_162
-      - Free_US_美国_163
-      - Free_US_美国_164
-      - Free_CN_中国_165
-      - Free_CN_中国_166
-      - Free_US_美国_167
-      - Free_US_美国_168
-      - Free_GB_英国_169
-      - Free_US_美国_170
-      - Free_GB_英国_171
-      - Free_GB_英国_172
-      - Free_GB_英国_173
-      - Free_US_美国_174
-      - Free_US_美国_175
-      - Free_US_美国_176
-      - Free_US_美国_177
-      - Free_US_美国_178
-      - Free_US_美国_179
-      - Free_GB_英国_180
-      - Free_GB_英国_181
-      - Free_GB_英国_182
-      - Free_US_美国_183
-      - Free_GB_英国_184
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Free_CN_中国_1
-      - Free_HK_香港_2
-      - Free_HK_香港_3
-      - Relay_🇨🇳CN-🇺🇸US_256
-      - Relay_🇨🇳CN-🇭🇰HK_289
-      - Free_CN_中国_6
-      - Free_US_美国_7
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Free_HK_香港_9
-      - Relay_🇨🇳CN-🇺🇸US_285
-      - Free_HK_香港_11
-      - Free_CN_中国_12
-      - Free_CN_中国_13
-      - Free_JP_日本_14
-      - Free_HK_香港_15
-      - Free_CN_中国_16
-      - Free_CN_中国_17
-      - Relay_🇨🇳CN-🇹🇼TW_281
-      - Free_CN_中国_19
-      - Free_CN_中国_20
-      - Free_PH_菲律宾_21
-      - Free_CN_中国_22
-      - CYL-科技（2021.01.02）_23
-      - CYL-科技（2021.01.02） 310_24
-      - Free_HK_香港_25
-      - Free_CN_中国_26
-      - Free_CN_中国_27
-      - Free_CN_中国_28
-      - Free_CN_中国_29
-      - CYL-科技（2021.01.02） 236_30
-      - Free_CN_中国_31
-      - Free_CN_中国_32
-      - Free_CN_中国_33
-      - Free_CN_中国_34
-      - Free_35
-      - Free_HK_香港_36
-      - CYL-科技（2021.01.02） 331_37
-      - Free_CN_中国_38
-      - CYL-科技（2021.01.02）_39
-      - CYL-科技（2021.01.02） 154_40
-      - CYL-科技（2021.01.02）_41
-      - Free_CN_中国_42
-      - Free_CN_中国_43
-      - CYL-科技（2021.01.02）_44
-      - Free_CN_中国_45
-      - 翻墙党fanqiangdang.com_US_17
-      - CYL-科技（2021.01.02）_47
-      - Free_CN_中国_48
-      - CYL-科技（2021.01.02） 115_49
-      - CYL-科技（2021.01.02） 113_50
-      - Free_CN_中国_51
-      - CYL-科技（2021.01.02） 100_52
-      - Free_US_美国_53
-      - CYL-科技（2021.01.02）_54
-      - CYL-科技（2021.01.02）_55
-      - CYL-科技（2021.01.02）_56
-      - CYL-科技（2021.12.30） 53_57
-      - Free_CN_中国_58
-      - Free_CN_中国_59
-      - CYL-科技（2021.01.02） 257_60
-      - Free_CN_中国_61
-      - CYL-科技（2021.01.02）_62
-      - CYL-科技（2021.01.02）_63
-      - Free_64
-      - Free_TW_台湾_65
-      - Free_CN_中国_66
-      - Free_CN_中国_67
-      - Free_SE_瑞典_68
-      - Free_CN_中国_69
-      - Free_CN_中国_70
-      - Free_US_美国_71
-      - CYL-科技（2021.12.30） 197_72
-      - CYL-科技（2021.01.02） 277_73
-      - CYL-科技（2021.12.30） 288_74
-      - Free_CN_中国_75
-      - Free_CN_中国_76
-      - CYL-科技（2021.01.02）_77
-      - Free_CN_中国_78
-      - Free_SG_新加坡_79
-      - Free_CN_中国_80
-      - Free_CN_中国_81
-      - Free_CN_中国_82
-      - Free_CN_中国_83
-      - Free_CN_中国_84
-      - Free_CN_中国_85
-      - Free_86
-      - Free_CN_中国_87
-      - CYL-科技（2021.01.02）_88
-      - Free_SG_新加坡_89
-      - Free_US_美国_90
-      - Free_CN_中国_91
-      - Free_CN_中国_92
-      - CYL-科技（2021.01.02）_93
-      - Free_SG_新加坡_94
-      - Free_CN_中国_95
-      - Free_CN_中国_96
-      - Free_US_美国_97
-      - Free_US_美国_98
-      - Free_CN_中国_99
-      - Free_CN_中国_100
-      - Free_IN_印度_101
-      - Free_IN_印度_102
-      - Free_CN_中国_103
-      - Free_IN_印度_104
-      - Free_IN_印度_105
-      - Free_IN_印度_106
-      - Free_IN_印度_107
-      - Free_IN_印度_108
-      - Free_CN_中国_109
-      - Free_IN_印度_110
-      - Free_IN_印度_111
-      - Free_IN_印度_112
-      - Free_IN_印度_113
-      - Free_IN_印度_114
-      - Free_IN_印度_115
-      - Free_IN_印度_116
-      - Free_IN_印度_117
-      - Free_IN_印度_118
-      - Free_IN_印度_119
-      - Free_IN_印度_120
-      - Free_IN_印度_121
-      - Free_IN_印度_122
-      - Free_US_美国_123
-      - Free_IN_印度_124
-      - Free_IN_印度_125
-      - Free_IN_印度_126
-      - Free_IN_印度_127
-      - Free_CN_中国_128
-      - Free_IN_印度_129
-      - Free_CN_中国_130
-      - Free_JP_日本_131
-      - Free_IN_印度_132
-      - Free_JP_日本_133
-      - Free_CN_中国_134
-      - Free_IN_印度_135
-      - Free_VN_越南_136
-      - Free_IN_印度_137
-      - Free_GB_英国_138
-      - Free_CN_中国_139
-      - Free_CN_中国_140
-      - Free_CN_中国_141
-      - Free_US_美国_142
-      - Free_US_美国_143
-      - Free_US_美国_144
-      - Free_US_美国_145
-      - Free_US_美国_146
-      - Free_US_美国_147
-      - Free_GB_英国_148
-      - Free_CN_中国_149
-      - Free_US_美国_150
-      - Free_151
-      - Free_MX_墨西哥_152
-      - Free_IN_印度_153
-      - Free_IN_印度_154
-      - n_057机场∞新加坡_155
-      - Free_GB_英国_156
-      - Free_IN_印度_157
-      - Free_GB_英国_158
-      - Free_US_美国_159
-      - Free_CN_中国_160
-      - Free_US_美国_161
-      - Free_US_美国_162
-      - Free_US_美国_163
-      - Free_US_美国_164
-      - Free_CN_中国_165
-      - Free_CN_中国_166
-      - Free_US_美国_167
-      - Free_US_美国_168
-      - Free_GB_英国_169
-      - Free_US_美国_170
-      - Free_GB_英国_171
-      - Free_GB_英国_172
-      - Free_GB_英国_173
-      - Free_US_美国_174
-      - Free_US_美国_175
-      - Free_US_美国_176
-      - Free_US_美国_177
-      - Free_US_美国_178
-      - Free_US_美国_179
-      - Free_GB_英国_180
-      - Free_GB_英国_181
-      - Free_GB_英国_182
-      - Free_US_美国_183
-      - Free_GB_英国_184
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Free_CN_中国_1
-      - Free_HK_香港_2
-      - Free_HK_香港_3
-      - Relay_🇨🇳CN-🇺🇸US_256
-      - Relay_🇨🇳CN-🇭🇰HK_289
-      - Free_CN_中国_6
-      - Free_US_美国_7
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Free_HK_香港_9
-      - Relay_🇨🇳CN-🇺🇸US_285
-      - Free_HK_香港_11
-      - Free_CN_中国_12
-      - Free_CN_中国_13
-      - Free_JP_日本_14
-      - Free_HK_香港_15
-      - Free_CN_中国_16
-      - Free_CN_中国_17
-      - Relay_🇨🇳CN-🇹🇼TW_281
-      - Free_CN_中国_19
-      - Free_CN_中国_20
-      - Free_PH_菲律宾_21
-      - Free_CN_中国_22
-      - CYL-科技（2021.01.02）_23
-      - CYL-科技（2021.01.02） 310_24
-      - Free_HK_香港_25
-      - Free_CN_中国_26
-      - Free_CN_中国_27
-      - Free_CN_中国_28
-      - Free_CN_中国_29
-      - CYL-科技（2021.01.02） 236_30
-      - Free_CN_中国_31
-      - Free_CN_中国_32
-      - Free_CN_中国_33
-      - Free_CN_中国_34
-      - Free_35
-      - Free_HK_香港_36
-      - CYL-科技（2021.01.02） 331_37
-      - Free_CN_中国_38
-      - CYL-科技（2021.01.02）_39
-      - CYL-科技（2021.01.02） 154_40
-      - CYL-科技（2021.01.02）_41
-      - Free_CN_中国_42
-      - Free_CN_中国_43
-      - CYL-科技（2021.01.02）_44
-      - Free_CN_中国_45
-      - 翻墙党fanqiangdang.com_US_17
-      - CYL-科技（2021.01.02）_47
-      - Free_CN_中国_48
-      - CYL-科技（2021.01.02） 115_49
-      - CYL-科技（2021.01.02） 113_50
-      - Free_CN_中国_51
-      - CYL-科技（2021.01.02） 100_52
-      - Free_US_美国_53
-      - CYL-科技（2021.01.02）_54
-      - CYL-科技（2021.01.02）_55
-      - CYL-科技（2021.01.02）_56
-      - CYL-科技（2021.12.30） 53_57
-      - Free_CN_中国_58
-      - Free_CN_中国_59
-      - CYL-科技（2021.01.02） 257_60
-      - Free_CN_中国_61
-      - CYL-科技（2021.01.02）_62
-      - CYL-科技（2021.01.02）_63
-      - Free_64
-      - Free_TW_台湾_65
-      - Free_CN_中国_66
-      - Free_CN_中国_67
-      - Free_SE_瑞典_68
-      - Free_CN_中国_69
-      - Free_CN_中国_70
-      - Free_US_美国_71
-      - CYL-科技（2021.12.30） 197_72
-      - CYL-科技（2021.01.02） 277_73
-      - CYL-科技（2021.12.30） 288_74
-      - Free_CN_中国_75
-      - Free_CN_中国_76
-      - CYL-科技（2021.01.02）_77
-      - Free_CN_中国_78
-      - Free_SG_新加坡_79
-      - Free_CN_中国_80
-      - Free_CN_中国_81
-      - Free_CN_中国_82
-      - Free_CN_中国_83
-      - Free_CN_中国_84
-      - Free_CN_中国_85
-      - Free_86
-      - Free_CN_中国_87
-      - CYL-科技（2021.01.02）_88
-      - Free_SG_新加坡_89
-      - Free_US_美国_90
-      - Free_CN_中国_91
-      - Free_CN_中国_92
-      - CYL-科技（2021.01.02）_93
-      - Free_SG_新加坡_94
-      - Free_CN_中国_95
-      - Free_CN_中国_96
-      - Free_US_美国_97
-      - Free_US_美国_98
-      - Free_CN_中国_99
-      - Free_CN_中国_100
-      - Free_IN_印度_101
-      - Free_IN_印度_102
-      - Free_CN_中国_103
-      - Free_IN_印度_104
-      - Free_IN_印度_105
-      - Free_IN_印度_106
-      - Free_IN_印度_107
-      - Free_IN_印度_108
-      - Free_CN_中国_109
-      - Free_IN_印度_110
-      - Free_IN_印度_111
-      - Free_IN_印度_112
-      - Free_IN_印度_113
-      - Free_IN_印度_114
-      - Free_IN_印度_115
-      - Free_IN_印度_116
-      - Free_IN_印度_117
-      - Free_IN_印度_118
-      - Free_IN_印度_119
-      - Free_IN_印度_120
-      - Free_IN_印度_121
-      - Free_IN_印度_122
-      - Free_US_美国_123
-      - Free_IN_印度_124
-      - Free_IN_印度_125
-      - Free_IN_印度_126
-      - Free_IN_印度_127
-      - Free_CN_中国_128
-      - Free_IN_印度_129
-      - Free_CN_中国_130
-      - Free_JP_日本_131
-      - Free_IN_印度_132
-      - Free_JP_日本_133
-      - Free_CN_中国_134
-      - Free_IN_印度_135
-      - Free_VN_越南_136
-      - Free_IN_印度_137
-      - Free_GB_英国_138
-      - Free_CN_中国_139
-      - Free_CN_中国_140
-      - Free_CN_中国_141
-      - Free_US_美国_142
-      - Free_US_美国_143
-      - Free_US_美国_144
-      - Free_US_美国_145
-      - Free_US_美国_146
-      - Free_US_美国_147
-      - Free_GB_英国_148
-      - Free_CN_中国_149
-      - Free_US_美国_150
-      - Free_151
-      - Free_MX_墨西哥_152
-      - Free_IN_印度_153
-      - Free_IN_印度_154
-      - n_057机场∞新加坡_155
-      - Free_GB_英国_156
-      - Free_IN_印度_157
-      - Free_GB_英国_158
-      - Free_US_美国_159
-      - Free_CN_中国_160
-      - Free_US_美国_161
-      - Free_US_美国_162
-      - Free_US_美国_163
-      - Free_US_美国_164
-      - Free_CN_中国_165
-      - Free_CN_中国_166
-      - Free_US_美国_167
-      - Free_US_美国_168
-      - Free_GB_英国_169
-      - Free_US_美国_170
-      - Free_GB_英国_171
-      - Free_GB_英国_172
-      - Free_GB_英国_173
-      - Free_US_美国_174
-      - Free_US_美国_175
-      - Free_US_美国_176
-      - Free_US_美国_177
-      - Free_US_美国_178
-      - Free_US_美国_179
-      - Free_GB_英国_180
-      - Free_GB_英国_181
-      - Free_GB_英国_182
-      - Free_US_美国_183
-      - Free_GB_英国_184
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Free_CN_中国_1
-      - Free_HK_香港_2
-      - Free_HK_香港_3
-      - Relay_🇨🇳CN-🇺🇸US_256
-      - Relay_🇨🇳CN-🇭🇰HK_289
-      - Free_CN_中国_6
-      - Free_US_美国_7
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Free_HK_香港_9
-      - Relay_🇨🇳CN-🇺🇸US_285
-      - Free_HK_香港_11
-      - Free_CN_中国_12
-      - Free_CN_中国_13
-      - Free_JP_日本_14
-      - Free_HK_香港_15
-      - Free_CN_中国_16
-      - Free_CN_中国_17
-      - Relay_🇨🇳CN-🇹🇼TW_281
-      - Free_CN_中国_19
-      - Free_CN_中国_20
-      - Free_PH_菲律宾_21
-      - Free_CN_中国_22
-      - CYL-科技（2021.01.02）_23
-      - CYL-科技（2021.01.02） 310_24
-      - Free_HK_香港_25
-      - Free_CN_中国_26
-      - Free_CN_中国_27
-      - Free_CN_中国_28
-      - Free_CN_中国_29
-      - CYL-科技（2021.01.02） 236_30
-      - Free_CN_中国_31
-      - Free_CN_中国_32
-      - Free_CN_中国_33
-      - Free_CN_中国_34
-      - Free_35
-      - Free_HK_香港_36
-      - CYL-科技（2021.01.02） 331_37
-      - Free_CN_中国_38
-      - CYL-科技（2021.01.02）_39
-      - CYL-科技（2021.01.02） 154_40
-      - CYL-科技（2021.01.02）_41
-      - Free_CN_中国_42
-      - Free_CN_中国_43
-      - CYL-科技（2021.01.02）_44
-      - Free_CN_中国_45
-      - 翻墙党fanqiangdang.com_US_17
-      - CYL-科技（2021.01.02）_47
-      - Free_CN_中国_48
-      - CYL-科技（2021.01.02） 115_49
-      - CYL-科技（2021.01.02） 113_50
-      - Free_CN_中国_51
-      - CYL-科技（2021.01.02） 100_52
-      - Free_US_美国_53
-      - CYL-科技（2021.01.02）_54
-      - CYL-科技（2021.01.02）_55
-      - CYL-科技（2021.01.02）_56
-      - CYL-科技（2021.12.30） 53_57
-      - Free_CN_中国_58
-      - Free_CN_中国_59
-      - CYL-科技（2021.01.02） 257_60
-      - Free_CN_中国_61
-      - CYL-科技（2021.01.02）_62
-      - CYL-科技（2021.01.02）_63
-      - Free_64
-      - Free_TW_台湾_65
-      - Free_CN_中国_66
-      - Free_CN_中国_67
-      - Free_SE_瑞典_68
-      - Free_CN_中国_69
-      - Free_CN_中国_70
-      - Free_US_美国_71
-      - CYL-科技（2021.12.30） 197_72
-      - CYL-科技（2021.01.02） 277_73
-      - CYL-科技（2021.12.30） 288_74
-      - Free_CN_中国_75
-      - Free_CN_中国_76
-      - CYL-科技（2021.01.02）_77
-      - Free_CN_中国_78
-      - Free_SG_新加坡_79
-      - Free_CN_中国_80
-      - Free_CN_中国_81
-      - Free_CN_中国_82
-      - Free_CN_中国_83
-      - Free_CN_中国_84
-      - Free_CN_中国_85
-      - Free_86
-      - Free_CN_中国_87
-      - CYL-科技（2021.01.02）_88
-      - Free_SG_新加坡_89
-      - Free_US_美国_90
-      - Free_CN_中国_91
-      - Free_CN_中国_92
-      - CYL-科技（2021.01.02）_93
-      - Free_SG_新加坡_94
-      - Free_CN_中国_95
-      - Free_CN_中国_96
-      - Free_US_美国_97
-      - Free_US_美国_98
-      - Free_CN_中国_99
-      - Free_CN_中国_100
-      - Free_IN_印度_101
-      - Free_IN_印度_102
-      - Free_CN_中国_103
-      - Free_IN_印度_104
-      - Free_IN_印度_105
-      - Free_IN_印度_106
-      - Free_IN_印度_107
-      - Free_IN_印度_108
-      - Free_CN_中国_109
-      - Free_IN_印度_110
-      - Free_IN_印度_111
-      - Free_IN_印度_112
-      - Free_IN_印度_113
-      - Free_IN_印度_114
-      - Free_IN_印度_115
-      - Free_IN_印度_116
-      - Free_IN_印度_117
-      - Free_IN_印度_118
-      - Free_IN_印度_119
-      - Free_IN_印度_120
-      - Free_IN_印度_121
-      - Free_IN_印度_122
-      - Free_US_美国_123
-      - Free_IN_印度_124
-      - Free_IN_印度_125
-      - Free_IN_印度_126
-      - Free_IN_印度_127
-      - Free_CN_中国_128
-      - Free_IN_印度_129
-      - Free_CN_中国_130
-      - Free_JP_日本_131
-      - Free_IN_印度_132
-      - Free_JP_日本_133
-      - Free_CN_中国_134
-      - Free_IN_印度_135
-      - Free_VN_越南_136
-      - Free_IN_印度_137
-      - Free_GB_英国_138
-      - Free_CN_中国_139
-      - Free_CN_中国_140
-      - Free_CN_中国_141
-      - Free_US_美国_142
-      - Free_US_美国_143
-      - Free_US_美国_144
-      - Free_US_美国_145
-      - Free_US_美国_146
-      - Free_US_美国_147
-      - Free_GB_英国_148
-      - Free_CN_中国_149
-      - Free_US_美国_150
-      - Free_151
-      - Free_MX_墨西哥_152
-      - Free_IN_印度_153
-      - Free_IN_印度_154
-      - n_057机场∞新加坡_155
-      - Free_GB_英国_156
-      - Free_IN_印度_157
-      - Free_GB_英国_158
-      - Free_US_美国_159
-      - Free_CN_中国_160
-      - Free_US_美国_161
-      - Free_US_美国_162
-      - Free_US_美国_163
-      - Free_US_美国_164
-      - Free_CN_中国_165
-      - Free_CN_中国_166
-      - Free_US_美国_167
-      - Free_US_美国_168
-      - Free_GB_英国_169
-      - Free_US_美国_170
-      - Free_GB_英国_171
-      - Free_GB_英国_172
-      - Free_GB_英国_173
-      - Free_US_美国_174
-      - Free_US_美国_175
-      - Free_US_美国_176
-      - Free_US_美国_177
-      - Free_US_美国_178
-      - Free_US_美国_179
-      - Free_GB_英国_180
-      - Free_GB_英国_181
-      - Free_GB_英国_182
-      - Free_US_美国_183
-      - Free_GB_英国_184
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Free_CN_中国_1
-      - Free_HK_香港_2
-      - Free_HK_香港_3
-      - Relay_🇨🇳CN-🇺🇸US_256
-      - Relay_🇨🇳CN-🇭🇰HK_289
-      - Free_CN_中国_6
-      - Free_US_美国_7
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Free_HK_香港_9
-      - Relay_🇨🇳CN-🇺🇸US_285
-      - Free_HK_香港_11
-      - Free_CN_中国_12
-      - Free_CN_中国_13
-      - Free_JP_日本_14
-      - Free_HK_香港_15
-      - Free_CN_中国_16
-      - Free_CN_中国_17
-      - Relay_🇨🇳CN-🇹🇼TW_281
-      - Free_CN_中国_19
-      - Free_CN_中国_20
-      - Free_PH_菲律宾_21
-      - Free_CN_中国_22
-      - CYL-科技（2021.01.02）_23
-      - CYL-科技（2021.01.02） 310_24
-      - Free_HK_香港_25
-      - Free_CN_中国_26
-      - Free_CN_中国_27
-      - Free_CN_中国_28
-      - Free_CN_中国_29
-      - CYL-科技（2021.01.02） 236_30
-      - Free_CN_中国_31
-      - Free_CN_中国_32
-      - Free_CN_中国_33
-      - Free_CN_中国_34
-      - Free_35
-      - Free_HK_香港_36
-      - CYL-科技（2021.01.02） 331_37
-      - Free_CN_中国_38
-      - CYL-科技（2021.01.02）_39
-      - CYL-科技（2021.01.02） 154_40
-      - CYL-科技（2021.01.02）_41
-      - Free_CN_中国_42
-      - Free_CN_中国_43
-      - CYL-科技（2021.01.02）_44
-      - Free_CN_中国_45
-      - 翻墙党fanqiangdang.com_US_17
-      - CYL-科技（2021.01.02）_47
-      - Free_CN_中国_48
-      - CYL-科技（2021.01.02） 115_49
-      - CYL-科技（2021.01.02） 113_50
-      - Free_CN_中国_51
-      - CYL-科技（2021.01.02） 100_52
-      - Free_US_美国_53
-      - CYL-科技（2021.01.02）_54
-      - CYL-科技（2021.01.02）_55
-      - CYL-科技（2021.01.02）_56
-      - CYL-科技（2021.12.30） 53_57
-      - Free_CN_中国_58
-      - Free_CN_中国_59
-      - CYL-科技（2021.01.02） 257_60
-      - Free_CN_中国_61
-      - CYL-科技（2021.01.02）_62
-      - CYL-科技（2021.01.02）_63
-      - Free_64
-      - Free_TW_台湾_65
-      - Free_CN_中国_66
-      - Free_CN_中国_67
-      - Free_SE_瑞典_68
-      - Free_CN_中国_69
-      - Free_CN_中国_70
-      - Free_US_美国_71
-      - CYL-科技（2021.12.30） 197_72
-      - CYL-科技（2021.01.02） 277_73
-      - CYL-科技（2021.12.30） 288_74
-      - Free_CN_中国_75
-      - Free_CN_中国_76
-      - CYL-科技（2021.01.02）_77
-      - Free_CN_中国_78
-      - Free_SG_新加坡_79
-      - Free_CN_中国_80
-      - Free_CN_中国_81
-      - Free_CN_中国_82
-      - Free_CN_中国_83
-      - Free_CN_中国_84
-      - Free_CN_中国_85
-      - Free_86
-      - Free_CN_中国_87
-      - CYL-科技（2021.01.02）_88
-      - Free_SG_新加坡_89
-      - Free_US_美国_90
-      - Free_CN_中国_91
-      - Free_CN_中国_92
-      - CYL-科技（2021.01.02）_93
-      - Free_SG_新加坡_94
-      - Free_CN_中国_95
-      - Free_CN_中国_96
-      - Free_US_美国_97
-      - Free_US_美国_98
-      - Free_CN_中国_99
-      - Free_CN_中国_100
-      - Free_IN_印度_101
-      - Free_IN_印度_102
-      - Free_CN_中国_103
-      - Free_IN_印度_104
-      - Free_IN_印度_105
-      - Free_IN_印度_106
-      - Free_IN_印度_107
-      - Free_IN_印度_108
-      - Free_CN_中国_109
-      - Free_IN_印度_110
-      - Free_IN_印度_111
-      - Free_IN_印度_112
-      - Free_IN_印度_113
-      - Free_IN_印度_114
-      - Free_IN_印度_115
-      - Free_IN_印度_116
-      - Free_IN_印度_117
-      - Free_IN_印度_118
-      - Free_IN_印度_119
-      - Free_IN_印度_120
-      - Free_IN_印度_121
-      - Free_IN_印度_122
-      - Free_US_美国_123
-      - Free_IN_印度_124
-      - Free_IN_印度_125
-      - Free_IN_印度_126
-      - Free_IN_印度_127
-      - Free_CN_中国_128
-      - Free_IN_印度_129
-      - Free_CN_中国_130
-      - Free_JP_日本_131
-      - Free_IN_印度_132
-      - Free_JP_日本_133
-      - Free_CN_中国_134
-      - Free_IN_印度_135
-      - Free_VN_越南_136
-      - Free_IN_印度_137
-      - Free_GB_英国_138
-      - Free_CN_中国_139
-      - Free_CN_中国_140
-      - Free_CN_中国_141
-      - Free_US_美国_142
-      - Free_US_美国_143
-      - Free_US_美国_144
-      - Free_US_美国_145
-      - Free_US_美国_146
-      - Free_US_美国_147
-      - Free_GB_英国_148
-      - Free_CN_中国_149
-      - Free_US_美国_150
-      - Free_151
-      - Free_MX_墨西哥_152
-      - Free_IN_印度_153
-      - Free_IN_印度_154
-      - n_057机场∞新加坡_155
-      - Free_GB_英国_156
-      - Free_IN_印度_157
-      - Free_GB_英国_158
-      - Free_US_美国_159
-      - Free_CN_中国_160
-      - Free_US_美国_161
-      - Free_US_美国_162
-      - Free_US_美国_163
-      - Free_US_美国_164
-      - Free_CN_中国_165
-      - Free_CN_中国_166
-      - Free_US_美国_167
-      - Free_US_美国_168
-      - Free_GB_英国_169
-      - Free_US_美国_170
-      - Free_GB_英国_171
-      - Free_GB_英国_172
-      - Free_GB_英国_173
-      - Free_US_美国_174
-      - Free_US_美国_175
-      - Free_US_美国_176
-      - Free_US_美国_177
-      - Free_US_美国_178
-      - Free_US_美国_179
-      - Free_GB_英国_180
-      - Free_GB_英国_181
-      - Free_GB_英国_182
-      - Free_US_美国_183
-      - Free_GB_英国_184
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Free_CN_中国_1
-      - Free_HK_香港_2
-      - Free_HK_香港_3
-      - Relay_🇨🇳CN-🇺🇸US_256
-      - Relay_🇨🇳CN-🇭🇰HK_289
-      - Free_CN_中国_6
-      - Free_US_美国_7
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Free_HK_香港_9
-      - Relay_🇨🇳CN-🇺🇸US_285
-      - Free_HK_香港_11
-      - Free_CN_中国_12
-      - Free_CN_中国_13
-      - Free_JP_日本_14
-      - Free_HK_香港_15
-      - Free_CN_中国_16
-      - Free_CN_中国_17
-      - Relay_🇨🇳CN-🇹🇼TW_281
-      - Free_CN_中国_19
-      - Free_CN_中国_20
-      - Free_PH_菲律宾_21
-      - Free_CN_中国_22
-      - CYL-科技（2021.01.02）_23
-      - CYL-科技（2021.01.02） 310_24
-      - Free_HK_香港_25
-      - Free_CN_中国_26
-      - Free_CN_中国_27
-      - Free_CN_中国_28
-      - Free_CN_中国_29
-      - CYL-科技（2021.01.02） 236_30
-      - Free_CN_中国_31
-      - Free_CN_中国_32
-      - Free_CN_中国_33
-      - Free_CN_中国_34
-      - Free_35
-      - Free_HK_香港_36
-      - CYL-科技（2021.01.02） 331_37
-      - Free_CN_中国_38
-      - CYL-科技（2021.01.02）_39
-      - CYL-科技（2021.01.02） 154_40
-      - CYL-科技（2021.01.02）_41
-      - Free_CN_中国_42
-      - Free_CN_中国_43
-      - CYL-科技（2021.01.02）_44
-      - Free_CN_中国_45
-      - 翻墙党fanqiangdang.com_US_17
-      - CYL-科技（2021.01.02）_47
-      - Free_CN_中国_48
-      - CYL-科技（2021.01.02） 115_49
-      - CYL-科技（2021.01.02） 113_50
-      - Free_CN_中国_51
-      - CYL-科技（2021.01.02） 100_52
-      - Free_US_美国_53
-      - CYL-科技（2021.01.02）_54
-      - CYL-科技（2021.01.02）_55
-      - CYL-科技（2021.01.02）_56
-      - CYL-科技（2021.12.30） 53_57
-      - Free_CN_中国_58
-      - Free_CN_中国_59
-      - CYL-科技（2021.01.02） 257_60
-      - Free_CN_中国_61
-      - CYL-科技（2021.01.02）_62
-      - CYL-科技（2021.01.02）_63
-      - Free_64
-      - Free_TW_台湾_65
-      - Free_CN_中国_66
-      - Free_CN_中国_67
-      - Free_SE_瑞典_68
-      - Free_CN_中国_69
-      - Free_CN_中国_70
-      - Free_US_美国_71
-      - CYL-科技（2021.12.30） 197_72
-      - CYL-科技（2021.01.02） 277_73
-      - CYL-科技（2021.12.30） 288_74
-      - Free_CN_中国_75
-      - Free_CN_中国_76
-      - CYL-科技（2021.01.02）_77
-      - Free_CN_中国_78
-      - Free_SG_新加坡_79
-      - Free_CN_中国_80
-      - Free_CN_中国_81
-      - Free_CN_中国_82
-      - Free_CN_中国_83
-      - Free_CN_中国_84
-      - Free_CN_中国_85
-      - Free_86
-      - Free_CN_中国_87
-      - CYL-科技（2021.01.02）_88
-      - Free_SG_新加坡_89
-      - Free_US_美国_90
-      - Free_CN_中国_91
-      - Free_CN_中国_92
-      - CYL-科技（2021.01.02）_93
-      - Free_SG_新加坡_94
-      - Free_CN_中国_95
-      - Free_CN_中国_96
-      - Free_US_美国_97
-      - Free_US_美国_98
-      - Free_CN_中国_99
-      - Free_CN_中国_100
-      - Free_IN_印度_101
-      - Free_IN_印度_102
-      - Free_CN_中国_103
-      - Free_IN_印度_104
-      - Free_IN_印度_105
-      - Free_IN_印度_106
-      - Free_IN_印度_107
-      - Free_IN_印度_108
-      - Free_CN_中国_109
-      - Free_IN_印度_110
-      - Free_IN_印度_111
-      - Free_IN_印度_112
-      - Free_IN_印度_113
-      - Free_IN_印度_114
-      - Free_IN_印度_115
-      - Free_IN_印度_116
-      - Free_IN_印度_117
-      - Free_IN_印度_118
-      - Free_IN_印度_119
-      - Free_IN_印度_120
-      - Free_IN_印度_121
-      - Free_IN_印度_122
-      - Free_US_美国_123
-      - Free_IN_印度_124
-      - Free_IN_印度_125
-      - Free_IN_印度_126
-      - Free_IN_印度_127
-      - Free_CN_中国_128
-      - Free_IN_印度_129
-      - Free_CN_中国_130
-      - Free_JP_日本_131
-      - Free_IN_印度_132
-      - Free_JP_日本_133
-      - Free_CN_中国_134
-      - Free_IN_印度_135
-      - Free_VN_越南_136
-      - Free_IN_印度_137
-      - Free_GB_英国_138
-      - Free_CN_中国_139
-      - Free_CN_中国_140
-      - Free_CN_中国_141
-      - Free_US_美国_142
-      - Free_US_美国_143
-      - Free_US_美国_144
-      - Free_US_美国_145
-      - Free_US_美国_146
-      - Free_US_美国_147
-      - Free_GB_英国_148
-      - Free_CN_中国_149
-      - Free_US_美国_150
-      - Free_151
-      - Free_MX_墨西哥_152
-      - Free_IN_印度_153
-      - Free_IN_印度_154
-      - n_057机场∞新加坡_155
-      - Free_GB_英国_156
-      - Free_IN_印度_157
-      - Free_GB_英国_158
-      - Free_US_美国_159
-      - Free_CN_中国_160
-      - Free_US_美国_161
-      - Free_US_美国_162
-      - Free_US_美国_163
-      - Free_US_美国_164
-      - Free_CN_中国_165
-      - Free_CN_中国_166
-      - Free_US_美国_167
-      - Free_US_美国_168
-      - Free_GB_英国_169
-      - Free_US_美国_170
-      - Free_GB_英国_171
-      - Free_GB_英国_172
-      - Free_GB_英国_173
-      - Free_US_美国_174
-      - Free_US_美国_175
-      - Free_US_美国_176
-      - Free_US_美国_177
-      - Free_US_美国_178
-      - Free_US_美国_179
-      - Free_GB_英国_180
-      - Free_GB_英国_181
-      - Free_GB_英国_182
-      - Free_US_美国_183
-      - Free_GB_英国_184
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Free_CN_中国_1
-      - Free_HK_香港_2
-      - Free_HK_香港_3
-      - Relay_🇨🇳CN-🇺🇸US_256
-      - Relay_🇨🇳CN-🇭🇰HK_289
-      - Free_CN_中国_6
-      - Free_US_美国_7
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Free_HK_香港_9
-      - Relay_🇨🇳CN-🇺🇸US_285
-      - Free_HK_香港_11
-      - Free_CN_中国_12
-      - Free_CN_中国_13
-      - Free_JP_日本_14
-      - Free_HK_香港_15
-      - Free_CN_中国_16
-      - Free_CN_中国_17
-      - Relay_🇨🇳CN-🇹🇼TW_281
-      - Free_CN_中国_19
-      - Free_CN_中国_20
-      - Free_PH_菲律宾_21
-      - Free_CN_中国_22
-      - CYL-科技（2021.01.02）_23
-      - CYL-科技（2021.01.02） 310_24
-      - Free_HK_香港_25
-      - Free_CN_中国_26
-      - Free_CN_中国_27
-      - Free_CN_中国_28
-      - Free_CN_中国_29
-      - CYL-科技（2021.01.02） 236_30
-      - Free_CN_中国_31
-      - Free_CN_中国_32
-      - Free_CN_中国_33
-      - Free_CN_中国_34
-      - Free_35
-      - Free_HK_香港_36
-      - CYL-科技（2021.01.02） 331_37
-      - Free_CN_中国_38
-      - CYL-科技（2021.01.02）_39
-      - CYL-科技（2021.01.02） 154_40
-      - CYL-科技（2021.01.02）_41
-      - Free_CN_中国_42
-      - Free_CN_中国_43
-      - CYL-科技（2021.01.02）_44
-      - Free_CN_中国_45
-      - 翻墙党fanqiangdang.com_US_17
-      - CYL-科技（2021.01.02）_47
-      - Free_CN_中国_48
-      - CYL-科技（2021.01.02） 115_49
-      - CYL-科技（2021.01.02） 113_50
-      - Free_CN_中国_51
-      - CYL-科技（2021.01.02） 100_52
-      - Free_US_美国_53
-      - CYL-科技（2021.01.02）_54
-      - CYL-科技（2021.01.02）_55
-      - CYL-科技（2021.01.02）_56
-      - CYL-科技（2021.12.30） 53_57
-      - Free_CN_中国_58
-      - Free_CN_中国_59
-      - CYL-科技（2021.01.02） 257_60
-      - Free_CN_中国_61
-      - CYL-科技（2021.01.02）_62
-      - CYL-科技（2021.01.02）_63
-      - Free_64
-      - Free_TW_台湾_65
-      - Free_CN_中国_66
-      - Free_CN_中国_67
-      - Free_SE_瑞典_68
-      - Free_CN_中国_69
-      - Free_CN_中国_70
-      - Free_US_美国_71
-      - CYL-科技（2021.12.30） 197_72
-      - CYL-科技（2021.01.02） 277_73
-      - CYL-科技（2021.12.30） 288_74
-      - Free_CN_中国_75
-      - Free_CN_中国_76
-      - CYL-科技（2021.01.02）_77
-      - Free_CN_中国_78
-      - Free_SG_新加坡_79
-      - Free_CN_中国_80
-      - Free_CN_中国_81
-      - Free_CN_中国_82
-      - Free_CN_中国_83
-      - Free_CN_中国_84
-      - Free_CN_中国_85
-      - Free_86
-      - Free_CN_中国_87
-      - CYL-科技（2021.01.02）_88
-      - Free_SG_新加坡_89
-      - Free_US_美国_90
-      - Free_CN_中国_91
-      - Free_CN_中国_92
-      - CYL-科技（2021.01.02）_93
-      - Free_SG_新加坡_94
-      - Free_CN_中国_95
-      - Free_CN_中国_96
-      - Free_US_美国_97
-      - Free_US_美国_98
-      - Free_CN_中国_99
-      - Free_CN_中国_100
-      - Free_IN_印度_101
-      - Free_IN_印度_102
-      - Free_CN_中国_103
-      - Free_IN_印度_104
-      - Free_IN_印度_105
-      - Free_IN_印度_106
-      - Free_IN_印度_107
-      - Free_IN_印度_108
-      - Free_CN_中国_109
-      - Free_IN_印度_110
-      - Free_IN_印度_111
-      - Free_IN_印度_112
-      - Free_IN_印度_113
-      - Free_IN_印度_114
-      - Free_IN_印度_115
-      - Free_IN_印度_116
-      - Free_IN_印度_117
-      - Free_IN_印度_118
-      - Free_IN_印度_119
-      - Free_IN_印度_120
-      - Free_IN_印度_121
-      - Free_IN_印度_122
-      - Free_US_美国_123
-      - Free_IN_印度_124
-      - Free_IN_印度_125
-      - Free_IN_印度_126
-      - Free_IN_印度_127
-      - Free_CN_中国_128
-      - Free_IN_印度_129
-      - Free_CN_中国_130
-      - Free_JP_日本_131
-      - Free_IN_印度_132
-      - Free_JP_日本_133
-      - Free_CN_中国_134
-      - Free_IN_印度_135
-      - Free_VN_越南_136
-      - Free_IN_印度_137
-      - Free_GB_英国_138
-      - Free_CN_中国_139
-      - Free_CN_中国_140
-      - Free_CN_中国_141
-      - Free_US_美国_142
-      - Free_US_美国_143
-      - Free_US_美国_144
-      - Free_US_美国_145
-      - Free_US_美国_146
-      - Free_US_美国_147
-      - Free_GB_英国_148
-      - Free_CN_中国_149
-      - Free_US_美国_150
-      - Free_151
-      - Free_MX_墨西哥_152
-      - Free_IN_印度_153
-      - Free_IN_印度_154
-      - n_057机场∞新加坡_155
-      - Free_GB_英国_156
-      - Free_IN_印度_157
-      - Free_GB_英国_158
-      - Free_US_美国_159
-      - Free_CN_中国_160
-      - Free_US_美国_161
-      - Free_US_美国_162
-      - Free_US_美国_163
-      - Free_US_美国_164
-      - Free_CN_中国_165
-      - Free_CN_中国_166
-      - Free_US_美国_167
-      - Free_US_美国_168
-      - Free_GB_英国_169
-      - Free_US_美国_170
-      - Free_GB_英国_171
-      - Free_GB_英国_172
-      - Free_GB_英国_173
-      - Free_US_美国_174
-      - Free_US_美国_175
-      - Free_US_美国_176
-      - Free_US_美国_177
-      - Free_US_美国_178
-      - Free_US_美国_179
-      - Free_GB_英国_180
-      - Free_GB_英国_181
-      - Free_GB_英国_182
-      - Free_US_美国_183
-      - Free_GB_英国_184
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1530,190 +594,73 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Free_CN_中国_1
-      - Free_HK_香港_2
-      - Free_HK_香港_3
-      - Relay_🇨🇳CN-🇺🇸US_256
-      - Relay_🇨🇳CN-🇭🇰HK_289
-      - Free_CN_中国_6
-      - Free_US_美国_7
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Free_HK_香港_9
-      - Relay_🇨🇳CN-🇺🇸US_285
-      - Free_HK_香港_11
-      - Free_CN_中国_12
-      - Free_CN_中国_13
-      - Free_JP_日本_14
-      - Free_HK_香港_15
-      - Free_CN_中国_16
-      - Free_CN_中国_17
-      - Relay_🇨🇳CN-🇹🇼TW_281
-      - Free_CN_中国_19
-      - Free_CN_中国_20
-      - Free_PH_菲律宾_21
-      - Free_CN_中国_22
-      - CYL-科技（2021.01.02）_23
-      - CYL-科技（2021.01.02） 310_24
-      - Free_HK_香港_25
-      - Free_CN_中国_26
-      - Free_CN_中国_27
-      - Free_CN_中国_28
-      - Free_CN_中国_29
-      - CYL-科技（2021.01.02） 236_30
-      - Free_CN_中国_31
-      - Free_CN_中国_32
-      - Free_CN_中国_33
-      - Free_CN_中国_34
-      - Free_35
-      - Free_HK_香港_36
-      - CYL-科技（2021.01.02） 331_37
-      - Free_CN_中国_38
-      - CYL-科技（2021.01.02）_39
-      - CYL-科技（2021.01.02） 154_40
-      - CYL-科技（2021.01.02）_41
-      - Free_CN_中国_42
-      - Free_CN_中国_43
-      - CYL-科技（2021.01.02）_44
-      - Free_CN_中国_45
-      - 翻墙党fanqiangdang.com_US_17
-      - CYL-科技（2021.01.02）_47
-      - Free_CN_中国_48
-      - CYL-科技（2021.01.02） 115_49
-      - CYL-科技（2021.01.02） 113_50
-      - Free_CN_中国_51
-      - CYL-科技（2021.01.02） 100_52
-      - Free_US_美国_53
-      - CYL-科技（2021.01.02）_54
-      - CYL-科技（2021.01.02）_55
-      - CYL-科技（2021.01.02）_56
-      - CYL-科技（2021.12.30） 53_57
-      - Free_CN_中国_58
-      - Free_CN_中国_59
-      - CYL-科技（2021.01.02） 257_60
-      - Free_CN_中国_61
-      - CYL-科技（2021.01.02）_62
-      - CYL-科技（2021.01.02）_63
-      - Free_64
-      - Free_TW_台湾_65
-      - Free_CN_中国_66
-      - Free_CN_中国_67
-      - Free_SE_瑞典_68
-      - Free_CN_中国_69
-      - Free_CN_中国_70
-      - Free_US_美国_71
-      - CYL-科技（2021.12.30） 197_72
-      - CYL-科技（2021.01.02） 277_73
-      - CYL-科技（2021.12.30） 288_74
-      - Free_CN_中国_75
-      - Free_CN_中国_76
-      - CYL-科技（2021.01.02）_77
-      - Free_CN_中国_78
-      - Free_SG_新加坡_79
-      - Free_CN_中国_80
-      - Free_CN_中国_81
-      - Free_CN_中国_82
-      - Free_CN_中国_83
-      - Free_CN_中国_84
-      - Free_CN_中国_85
-      - Free_86
-      - Free_CN_中国_87
-      - CYL-科技（2021.01.02）_88
-      - Free_SG_新加坡_89
-      - Free_US_美国_90
-      - Free_CN_中国_91
-      - Free_CN_中国_92
-      - CYL-科技（2021.01.02）_93
-      - Free_SG_新加坡_94
-      - Free_CN_中国_95
-      - Free_CN_中国_96
-      - Free_US_美国_97
-      - Free_US_美国_98
-      - Free_CN_中国_99
-      - Free_CN_中国_100
-      - Free_IN_印度_101
-      - Free_IN_印度_102
-      - Free_CN_中国_103
-      - Free_IN_印度_104
-      - Free_IN_印度_105
-      - Free_IN_印度_106
-      - Free_IN_印度_107
-      - Free_IN_印度_108
-      - Free_CN_中国_109
-      - Free_IN_印度_110
-      - Free_IN_印度_111
-      - Free_IN_印度_112
-      - Free_IN_印度_113
-      - Free_IN_印度_114
-      - Free_IN_印度_115
-      - Free_IN_印度_116
-      - Free_IN_印度_117
-      - Free_IN_印度_118
-      - Free_IN_印度_119
-      - Free_IN_印度_120
-      - Free_IN_印度_121
-      - Free_IN_印度_122
-      - Free_US_美国_123
-      - Free_IN_印度_124
-      - Free_IN_印度_125
-      - Free_IN_印度_126
-      - Free_IN_印度_127
-      - Free_CN_中国_128
-      - Free_IN_印度_129
-      - Free_CN_中国_130
-      - Free_JP_日本_131
-      - Free_IN_印度_132
-      - Free_JP_日本_133
-      - Free_CN_中国_134
-      - Free_IN_印度_135
-      - Free_VN_越南_136
-      - Free_IN_印度_137
-      - Free_GB_英国_138
-      - Free_CN_中国_139
-      - Free_CN_中国_140
-      - Free_CN_中国_141
-      - Free_US_美国_142
-      - Free_US_美国_143
-      - Free_US_美国_144
-      - Free_US_美国_145
-      - Free_US_美国_146
-      - Free_US_美国_147
-      - Free_GB_英国_148
-      - Free_CN_中国_149
-      - Free_US_美国_150
-      - Free_151
-      - Free_MX_墨西哥_152
-      - Free_IN_印度_153
-      - Free_IN_印度_154
-      - n_057机场∞新加坡_155
-      - Free_GB_英国_156
-      - Free_IN_印度_157
-      - Free_GB_英国_158
-      - Free_US_美国_159
-      - Free_CN_中国_160
-      - Free_US_美国_161
-      - Free_US_美国_162
-      - Free_US_美国_163
-      - Free_US_美国_164
-      - Free_CN_中国_165
-      - Free_CN_中国_166
-      - Free_US_美国_167
-      - Free_US_美国_168
-      - Free_GB_英国_169
-      - Free_US_美国_170
-      - Free_GB_英国_171
-      - Free_GB_英国_172
-      - Free_GB_英国_173
-      - Free_US_美国_174
-      - Free_US_美国_175
-      - Free_US_美国_176
-      - Free_US_美国_177
-      - Free_US_美国_178
-      - Free_US_美国_179
-      - Free_GB_英国_180
-      - Free_GB_英国_181
-      - Free_GB_英国_182
-      - Free_US_美国_183
-      - Free_GB_英国_184
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
