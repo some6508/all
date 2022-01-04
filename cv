@@ -5,10 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _HK_香港_1, server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_2, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_3, server: 38.75.136.93, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国_4, server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_1, server: 167.88.61.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_2, server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 加拿大, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 美国, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: 美国 2, server: 167.88.61.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
@@ -1430,10 +1428,8 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - _HK_香港_1
-      - _CA_加拿大_2
-      - _US_美国_3
-      - _US_美国_4
+      - _US_美国_1
+      - _US_美国_2
       - 加拿大
       - 美国
       - 美国 2
@@ -2845,10 +2841,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - _HK_香港_1
-      - _CA_加拿大_2
-      - _US_美国_3
-      - _US_美国_4
+      - _US_美国_1
+      - _US_美国_2
       - 加拿大
       - 美国
       - 美国 2
@@ -4430,7 +4424,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - _HK_香港_1
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
       - 香港（YouTube资源分享者） 3
@@ -4510,8 +4503,8 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - _US_美国_3
-      - _US_美国_4
+      - _US_美国_1
+      - _US_美国_2
       - 美国
       - 美国 2
       - 美国 3
