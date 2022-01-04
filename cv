@@ -725,43 +725,493 @@ proxies:
   - {name: Ytb:鹏哥分享_US_美国_57, server: 167.88.61.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_58, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_HK_香港_59, server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: _US_美国 2, server: ff8.uuv2.co.uk, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /bb2b34a1, headers: {Host: www.ltzs.buzz}}, udp: true}
-  - {name: _US_美国 3, server: api.ssfree.ru, port: 443, type: vmess, uuid: 35d1a90a-6cae-11ec-8e69-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: api.ssfree.ru}}, udp: true}
-  - {name: default_name, server: 198.41.212.234, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: 2022-world-1.a-yu.xyz}}, udp: true}
-  - {name: _US_美国 4, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: us-sea-sh-us-02-v2.node.inforun.work, port: 22088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本, server: jp-nrt-04-v2.cdn.savoy.click, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _US_美国 5, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
-  - {name: _US_美国 6, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: _US_美国 7, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: _US_美国 8, server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /bb2b34a1, headers: {Host: www.ltzs.buzz}}, udp: true}
-  - {name: _US_美国 9, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: sh-hk-hgc-1g-v2.node.inforun.work, port: 20288, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾, server: tw-tpe-h-v2.cdn.savoy.click, port: 988, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _US_美国 10, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 2, server: hk-hkg-sh-hk-02-v2.cdn.savoy.click, port: 21088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: us-sjc-na-v2.cdn.savoy.click, port: 688, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 3, server: us-sjc-ap-v2.node.inforun.work, port: 788, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 3, server: hk-hkg-gz-hk-hkt-v2.node.inforun.work, port: 60088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _FR_法国, server: fr-cdg-01-v2.node.inforun.work, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 4, server: hk-gz-hk-hkt-v2-b.cdn.savoy.click, port: 60188, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 5, server: sh-hk-hgc-100m-v2.cdn.savoy.click, port: 20188, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦, server: ru-led-sh-ru-v2.node.inforun.work, port: 24088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _HK_香港->🇮🇳_IN_印度, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
-  - {name: _US_美国 11, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
-  - {name: _HK_香港, server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /clientarea, headers: {Host: cmhk04.xc188.net}}, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡, server: sg-sin-krn-v2.node.inforun.work, port: 12888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _US_美国 12, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v6.ssrsub.com}}, udp: true}
-  - {name: _TW_台湾, server: tw-tpe-hq-v2.node.inforun.work, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _US_美国 13, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 6, server: hk-hkg-shhk-001-v2.cdn.savoy.click, port: 20088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦 2, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
-  - {name: _DE_德国, server: de-nue-v2.cdn.savoy.click, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: _HK_香港->🇮🇳_IN_印度 2, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
-  - {name: default_name 2, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: kycc, headers: {Host: lsb.stupidfellow.cf}}, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾 2, server: hk-hkg-it2-svm-v2.node.inforun.work, port: 13888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: HK(Youtube技术分享室整理), server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: HK(Youtube技术分享室整理) 2, server: 161.81.195.100, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /clientarea, headers: {Host: cmhk04.xc188.net}}, udp: true}
+  - {name: US美国(Youtube技术分享室整理), server: 198.41.212.234, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: 2022-world-1.a-yu.xyz}}, udp: true}
+  - {name: HK(Youtube技术分享室整理) 3, server: gz.52node.xyz, port: 28038, type: vmess, uuid: fead7086-54ec-3772-b603-ba9e740ec3da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: hk.jd.com}}, udp: true}
+  - {name: DK(Youtube技术分享室整理), server: 43.132.210.27, port: 41177, type: ss, cipher: chacha20-ietf-poly1305, password: CRueLWJudXF7, udp: true}
+  - {name: HK(Youtube技术分享室整理, server: mf-aws-kr-04.xncloud.xyz, port: 18000, type: vmess, uuid: 42d97108-47ed-3357-86cd-88c434f8db4d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-kr-04.xncloud.xyz}}, udp: true}
+  - {name: HK(Youtube技术分享室整理) 4, server: zhuzhu12.com, port: 14083, type: vmess, uuid: 60957e2b-4568-3054-987c-ad75c6131eac, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
+  - {name: US(Youtube技术分享室整理), server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK(Youtube技术分享室整理) 5, server: 112.64.69.187, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: MY(Youtube技术分享室整理), server: ahH4eihu.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahH4eihu.com}}, udp: true}
+  - {name: HK(Youtube技术分享室整理) 6, server: 62.216.92.179, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: HK(Youtube技术分享室整理) 7, server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /clientarea, headers: {Host: cmhk04.xc188.net}}, udp: true}
+  - {name: US美国(Youtube技术分享室整理) 2, server: 198.41.212.154, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws/?ed=2048", headers: {Host: download.china666.ml}}, udp: true}
+  - {name: TW(Youtube技术分享室整理), server: 116.163.10.208, port: 3389, type: trojan, password: 717f2dadeaa41686, skip-cert-verify: true, udp: true}
+  - {name: HK(Youtube技术分享室整理) 8, server: mf-aws-sg-06.xncloud.xyz, port: 18000, type: vmess, uuid: 71ba860d-7a06-37cc-a3d6-04250bdf118a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-sg-06.xncloud.xyz}}, udp: true}
+  - {name: HK(Youtube技术分享室整理) 9, server: shcn2-06b.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(Youtube技术分享室整理), server: 142.202.48.55, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 2, server: 142.4.105.253, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 142.4.105.253}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 3, server: 107.173.165.223, port: 80, type: vmess, uuid: 379acc51-024c-4c31-965b-324c8c99167a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 107.173.165.223}}, udp: true}
+  - {name: HK(Youtube技术分享室整理) 10, server: mf-aws-sg-09.xncloud.xyz, port: 18000, type: vmess, uuid: 71ba860d-7a06-37cc-a3d6-04250bdf118a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-sg-09.xncloud.xyz}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 4, server: 38.75.137.9, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 5, server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 6, server: 38.75.136.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP(Youtube技术分享室整理), server: 141.164.47.208, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理), server: 134.195.196.107, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 2, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国(Youtube技术分享室整理), server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP(Youtube技术分享室整理) 2, server: 141.164.57.134, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 3, server: 134.195.196.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 4, server: 134.195.196.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US(Youtube技术分享室整理) 7, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 8, server: 38.75.136.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 5, server: 134.195.198.178, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国(Youtube技术分享室整理) 2, server: 142.202.48.114, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 9, server: 104.16.181.103, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws/?ed=2048", headers: {Host: download.china666.ml}}, udp: true}
+  - {name: 加拿大(Youtube技术分享室整理), server: 134.195.196.231, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 6, server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 10, server: 149.202.82.153, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 7, server: 134.195.196.217, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 11, server: 38.114.114.67, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: RO(Youtube技术分享室整理), server: 62.216.92.167, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 8, server: 134.195.196.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(Youtube技术分享室整理) 3, server: 38.91.100.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 12, server: 38.75.136.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "加拿大(技术分享室整理,欢迎订阅)", server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 13, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 14, server: 38.64.138.145, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 日本 🇯🇵(Youtube技术分享室整理), server: 158.247.222.102, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 德国 🇩🇪(Youtube技术分享室整理), server: 172.105.251.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US(Youtube技术分享室整理) 15, server: 167.88.63.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 9, server: 198.57.27.184, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP(Youtube技术分享室整理) 3, server: 141.164.47.208, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 16, server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 17, server: 38.91.101.11, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 18, server: 169.197.141.24, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 19, server: 142.202.48.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 20, server: 38.114.114.67, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 21, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 22, server: 167.88.62.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "美国(技术分享室整理,欢迎订阅)", server: 38.107.226.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 23, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: TW(Youtube技术分享室整理) 2, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 24, server: 38.91.100.207, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 25, server: 38.91.100.207, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(Youtube技术分享室整理) 4, server: 38.107.226.146, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 26, server: 141.95.0.23, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US(Youtube技术分享室整理) 27, server: 169.197.141.24, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US(Youtube技术分享室整理) 28, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 日本 🇯🇵(Youtube技术分享室整理) 2, server: 158.247.222.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US(Youtube技术分享室整理) 29, server: 141.95.0.23, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US(Youtube技术分享室整理) 30, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: HK(Youtube技术分享室整理) 11, server: hk-hkg-shhk-001-v2.cdn.savoy.click, port: 20088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 10, server: 134.195.198.178, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 31, server: 38.68.134.37, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 32, server: 142.202.48.114, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国(Youtube技术分享室整理) 5, server: 142.202.48.7, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 33, server: 37.120.212.162, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL, udp: true}
+  - {name: US(Youtube技术分享室整理) 34, server: 172.99.190.186, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 35, server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /bb2b34a1, headers: {Host: www.ltzs.buzz}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 36, server: 167.88.63.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 新加坡 🇸🇬(Youtube技术分享室整理), server: 81.90.189.18, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US(Youtube技术分享室整理) 37, server: 38.75.136.102, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 38, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: HK(Youtube技术分享室整理) 12, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 39, server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 英国 🇬🇧(Youtube技术分享室整理), server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: US(Youtube技术分享室整理) 40, server: 38.75.136.117, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 41, server: 167.88.62.62, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 42, server: 38.91.100.27, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "(技术分享室整理,欢迎订阅)", server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 43, server: 38.68.134.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 日本(Youtube技术分享室整理), server: 172.105.251.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 44, server: 38.64.138.145, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国(Youtube技术分享室整理) 6, server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 45, server: 142.202.48.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 46, server: 142.202.48.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 11, server: 134.195.196.12, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US(Youtube技术分享室整理) 47, server: 142.202.48.7, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 12, server: 134.195.196.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 48, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 13, server: 134.195.196.217, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 日本 🇯🇵(Youtube技术分享室整理) 3, server: 158.247.227.123, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US(Youtube技术分享室整理) 49, server: 142.202.48.105, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 50, server: 142.202.48.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 51, server: 142.202.48.7, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 52, server: 167.88.61.130, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US美国(Youtube技术分享室整理) 3, server: 167.88.61.204, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 14, server: 134.195.196.217, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 越南 🇻🇳(Youtube技术分享室整理), server: 188.214.125.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG, udp: true}
+  - {name: US(Youtube技术分享室整理) 53, server: 142.202.48.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: HK(Youtube技术分享室整理) 13, server: hk-hkg-sh-hk-02-v2.cdn.savoy.click, port: 21088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 15, server: 134.195.196.217, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "美国(技术分享室整理,欢迎订阅) 2", server: 167.88.63.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US(Youtube技术分享室整理) 54, server: 38.114.114.69, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 德国 🇩🇪(Youtube技术分享室整理) 2, server: 146.0.36.23, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US(Youtube技术分享室整理) 55, server: 142.202.48.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US(Youtube技术分享室整理) 56, server: 167.88.63.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 57, server: 167.88.63.74, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 58, server: 142.202.48.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 59, server: 169.197.141.24, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 挪威 🇳🇴(Youtube技术分享室整理), server: 46.29.219.246, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国 🇺🇸(Youtube技术分享室整理), server: 167.88.62.104, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 60, server: 142.202.48.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: DE(Youtube技术分享室整理), server: 91.189.183.38, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US(Youtube技术分享室整理) 61, server: 142.202.48.83, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "加拿大 🇨🇦(技术分享室整理,欢迎订阅)", server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA(Youtube技术分享室整理), server: 72.140.224.197, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US美国(Youtube技术分享室整理) 4, server: 142.202.48.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "_CA加拿大(技术分享室整理,欢迎订阅)", server: 134.195.196.154, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 16, server: 134.195.196.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: HK(Youtube技术分享室整理) 14, server: lsb.stupidfellow.cf, port: 80, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lsb.stupidfellow.cf}}, udp: true}
+  - {name: JP(Youtube技术分享室整理) 4, server: 172.105.251.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 17, server: 134.195.196.51, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 62, server: 167.88.62.68, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 18, server: 134.195.196.199, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US美国(Youtube技术分享室整理) 5, server: 167.88.63.89, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 63, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: "(技术分享室整理,欢迎订阅) 2", server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US(Youtube技术分享室整理) 64, server: 38.68.134.85, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 65, server: 167.88.63.119, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US(Youtube技术分享室整理) 66, server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 19, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: GB(Youtube技术分享室整理), server: 145.239.7.164, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 67, server: 38.75.137.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "(技术分享室整理,欢迎订阅) 3", server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 20, server: 134.195.196.3, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 68, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 日本+🇯🇵(Youtube技术分享室整理), server: 158.247.208.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 21, server: 134.195.196.154, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 69, server: 38.68.134.202, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 70, server: 142.202.48.77, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 71, server: 142.202.48.17, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 德国 🇩🇪(Youtube技术分享室整理) 3, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大(Youtube技术分享室整理) 2, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US(Youtube技术分享室整理) 72, server: 38.75.136.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 73, server: 38.91.100.27, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA(Youtube技术分享室整理) 2, server: 198.57.27.238, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 22, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 74, server: 169.197.141.92, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US(Youtube技术分享室整理) 75, server: 142.202.48.7, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 76, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
+  - {name: US美国(Youtube技术分享室整理) 6, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: BA(Youtube技术分享室整理), server: 185.99.3.214, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: 印度 🇮🇳(Youtube技术分享室整理), server: 192.46.211.249, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 德国 🇩🇪(Youtube技术分享室整理) 4, server: 172.105.244.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 23, server: 134.195.196.217, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: HK(Youtube技术分享室整理) 15, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 77, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(Youtube技术分享室整理) 7, server: 38.114.114.67, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 78, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 24, server: 134.195.196.33, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 印度 🇮🇳(Youtube技术分享室整理) 2, server: 192.46.211.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "加拿大 🇨🇦(技术分享室整理,欢迎订阅) 2", server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 25, server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "加拿大+🇨🇦(技术分享室整理,欢迎订阅)", server: 134.195.196.219, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "(技术分享室整理,欢迎订阅) 4", server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: DE(Youtube技术分享室整理) 2, server: 91.194.84.53, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 日本 🇯🇵(Youtube技术分享室整理) 4, server: 158.247.222.102, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 德国 🇩🇪(Youtube技术分享室整理) 5, server: 193.108.118.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 澳大利亚 🇦🇺(Youtube技术分享室整理), server: 172.105.186.247, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 79, server: 142.202.48.78, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 26, server: 134.195.196.154, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "(技术分享室整理,欢迎订阅) 5", server: 167.88.63.108, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 80, server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 27, server: 134.195.196.68, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 81, server: 142.202.48.43, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 82, server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /84c3f/, headers: {Host: cc.hciahciphcie.club}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 83, server: 142.202.48.105, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 28, server: 198.57.27.188, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: RU(Youtube技术分享室整理), server: v5.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
+  - {name: US美国(Youtube技术分享室整理) 7, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 德国 🇩🇪(Youtube技术分享室整理) 6, server: 172.105.244.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "US(技术分享室整理,欢迎订阅)", server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 84, server: 167.88.63.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP(Youtube技术分享室整理) 5, server: 158.247.208.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: HK(Youtube技术分享室整理) 16, server: us-sea-sh-us-02-v2.node.inforun.work, port: 22088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 85, server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 86, server: 142.202.48.17, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 87, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA(Youtube技术分享室整理) 3, server: t1.ssrsub.com, port: 8443, type: trojan, password: 7644049b-79e1-4c3b-b621-0a464ab47db4, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(Youtube技术分享室整理) 8, server: 169.197.141.24, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA(Youtube技术分享室整理) 4, server: 51.161.118.38, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: FR(Youtube技术分享室整理), server: 54.38.72.170, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国(Youtube技术分享室整理) 8, server: 172.105.59.32, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 挪威 🇳🇴(Youtube技术分享室整理) 2, server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国(Youtube技术分享室整理) 9, server: 38.68.135.26, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 挪威 🇳🇴(Youtube技术分享室整理) 3, server: 46.29.219.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: IN(Youtube技术分享室整理), server: 172.105.40.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 29, server: 198.57.27.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: RU(Youtube技术分享室整理) 2, server: t7.ssrsub.com, port: 8443, type: trojan, password: da8ad13d-19e6-4a28-82a6-da15bbc0a968, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 30, server: 134.195.196.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 88, server: 38.75.136.139, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 89, server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 90, server: 135.125.237.19, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz, udp: true}
+  - {name: US(Youtube技术分享室整理) 91, server: 38.114.114.67, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP(Youtube技术分享室整理) 6, server: 141.164.57.134, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US(Youtube技术分享室整理) 92, server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 31, server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: (Youtube技术分享室整理), server: 217.197.161.166, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 32, server: 198.57.27.152, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 33, server: 134.195.196.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: TW(Youtube技术分享室整理) 3, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 93, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: NO(Youtube技术分享室整理), server: 46.29.218.170, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 34, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP(Youtube技术分享室整理) 7, server: 141.164.35.41, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: GB(Youtube技术分享室整理) 2, server: 35.177.29.114, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 35, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 94, server: 141.95.0.23, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA(Youtube技术分享室整理) 5, server: 51.161.118.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US美国(Youtube技术分享室整理) 9, server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP(Youtube技术分享室整理) 8, server: 141.164.57.134, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US(Youtube技术分享室整理) 95, server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US(Youtube技术分享室整理) 96, server: 38.68.134.196, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 南非 🇿🇦(Youtube技术分享室整理), server: 169.239.129.33, port: 12501, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 169.239.129.33}}, udp: true}
+  - {name: 日本(Youtube技术分享室整理) 2, server: 141.164.56.250, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: HK(Youtube技术分享室整理) 17, server: 120.232.173.154, port: 30004, type: vmess, uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: free-3.joker007.top}}, udp: true}
+  - {name: GB(Youtube技术分享室整理) 3, server: 146.70.71.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: switzerland-zurich.mah3Hoet.com}}, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 36, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 97, server: 162.251.61.221, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US(Youtube技术分享室整理) 98, server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: TW(Youtube技术分享室整理) 4, server: tw-tpe-h-v2.cdn.savoy.click, port: 988, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: 日本(Youtube技术分享室整理) 3, server: 141.164.56.250, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国(Youtube技术分享室整理) 10, server: 38.75.136.102, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "挪威(技术分享室整理,欢迎订阅)", server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "BA(技术分享室整理,欢迎订阅)", server: 185.99.3.7, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: US(Youtube技术分享室整理) 99, server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 日本(Youtube技术分享室整理) 4, server: 141.164.38.135, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP(Youtube技术分享室整理) 9, server: 141.164.57.134, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA(Youtube技术分享室整理) 6, server: 71.19.252.163, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: canada-vancouver.mah3Hoet.com}}, udp: true}
+  - {name: JP(Youtube技术分享室整理) 10, server: 138.3.210.217, port: 60935, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: microsoft.com}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 100, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: SG(Youtube技术分享室整理), server: 217.138.193.6, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 37, server: 134.195.196.118, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 101, server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG(Youtube技术分享室整理) 2, server: ru-led-sh-ru-v2.node.inforun.work, port: 24088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: "_US美国(技术分享室整理,欢迎订阅)", server: 167.88.63.82, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 38, server: 198.57.27.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "加拿大🇨🇦(技术分享室整理,欢迎订阅)", server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: JP(Youtube技术分享室整理) 11, server: 141.164.47.208, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 102, server: 169.197.142.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 39, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US(Youtube技术分享室整理) 103, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "德国 🇩🇪(技术分享室整理,欢迎订阅)", server: 139.162.189.117, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "(技术分享室整理,欢迎订阅) 6", server: 172.99.190.139, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 法国(Youtube技术分享室整理) 2, server: 145.239.7.164, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "美国(技术分享室整理,欢迎订阅) 3", server: 172.99.190.90, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(Youtube技术分享室整理) 11, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 40, server: 134.195.196.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US(Youtube技术分享室整理) 104, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US(Youtube技术分享室整理) 105, server: 142.202.48.108, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 日本(Youtube技术分享室整理) 5, server: 185.172.113.156, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 挪威 🇳🇴(Youtube技术分享室整理) 4, server: 46.29.219.246, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国(Youtube技术分享室整理) 12, server: 172.105.59.32, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 106, server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "CA(技术分享室整理,欢迎订阅)", server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: HK(Youtube技术分享室整理) 18, server: hk-hkg-it2-svm-v2.node.inforun.work, port: 13888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 107, server: 167.88.61.130, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 108, server: 169.197.142.39, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US美国(Youtube技术分享室整理) 10, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大(Youtube技术分享室整理) 3, server: 134.195.196.24, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(Youtube技术分享室整理) 13, server: 38.114.114.68, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 41, server: 198.57.27.184, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: RO(Youtube技术分享室整理) 2, server: 62.216.92.167, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP(Youtube技术分享室整理) 12, server: 141.164.47.208, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 42, server: 198.57.27.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US(Youtube技术分享室整理) 109, server: 38.68.134.196, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP(Youtube技术分享室整理) 13, server: 141.164.47.208, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: JP(Youtube技术分享室整理) 14, server: 141.164.53.152, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 110, server: 38.64.138.145, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US(Youtube技术分享室整理) 111, server: 38.68.134.69, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 112, server: 169.197.141.24, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US(Youtube技术分享室整理) 113, server: 142.202.48.83, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US(Youtube技术分享室整理) 114, server: 142.202.48.114, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: DE(Youtube技术分享室整理) 3, server: 91.189.183.38, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: IN_(Youtube技术分享室整理), server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 115, server: 169.197.142.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 43, server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 116, server: 172.99.190.7, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube技术分享室整理) 117, server: 38.68.134.196, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 美国(Youtube技术分享室整理) 14, server: 198.57.27.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: SG(Youtube技术分享室整理) 3, server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: SG(Youtube技术分享室整理) 4, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
+  - {name: 瑞典(Youtube技术分享室整理), server: 167.88.63.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 118, server: 38.107.226.48, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "CA(技术分享室整理,欢迎订阅) 2", server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US(Youtube技术分享室整理) 119, server: 142.202.48.108, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 120, server: 167.88.63.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 121, server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 44, server: 134.195.196.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 日本(Youtube技术分享室整理) 6, server: 141.164.35.41, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 日本(Youtube技术分享室整理) 7, server: 141.164.35.41, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 45, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 加拿大(Youtube技术分享室整理) 4, server: 198.57.27.191, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 日本 🇯🇵(Youtube技术分享室整理) 5, server: 158.247.226.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 日本(Youtube技术分享室整理) 8, server: 141.164.35.41, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: MY(Youtube技术分享室整理) 2, server: shai7ein.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: shai7ein.com}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 122, server: 38.114.114.67, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 123, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 124, server: 38.75.137.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 125, server: 104.16.181.197, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws/?ed=2048", headers: {Host: download.china666.ml}}, udp: true}
+  - {name: 日本 🇯🇵(Youtube技术分享室整理) 6, server: 158.247.226.61, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 印尼 🇮🇩(Youtube技术分享室整理), server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
+  - {name: TW(Youtube技术分享室整理) 5, server: tw-tpe-hq-v2.node.inforun.work, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: JP(Youtube技术分享室整理) 15, server: 141.164.57.134, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: HK(Youtube技术分享室整理) 19, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US(Youtube技术分享室整理) 126, server: 104.24.160.31, port: 80, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws/?ed=2048", headers: {Host: download.china666.ml}}, udp: true}
+  - {name: HK(Youtube技术分享室整理) 20, server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: zecjk.com}}, udp: true}
+  - {name: JP(Youtube技术分享室整理) 16, server: 141.164.47.208, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: HK(Youtube技术分享室整理) 21, server: ff9.uuv2.co.uk, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: (Youtube技术分享室整理) 2, server: 185.172.113.156, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US(Youtube技术分享室整理) 127, server: 173.230.145.10, port: 10101, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 173.230.145.10}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 128, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: AU(Youtube技术分享室整理), server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: RU(Youtube技术分享室整理) 3, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v6.ssrsub.com}}, udp: true}
+  - {name: HK(Youtube技术分享室整理) 22, server: 62.141.32.182, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz, udp: true}
+  - {name: HK(Youtube技术分享室整理) 23, server: www.digitalocean.com, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws/?ed=2048", headers: {Host: download.china666.ml}}, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 46, server: 134.195.196.217, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 129, server: 104.16.181.150, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws/?ed=2048", headers: {Host: download.china666.ml}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 130, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: SG(Youtube技术分享室整理) 5, server: sg-sin-krn-v2.node.inforun.work, port: 12888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: HK(Youtube技术分享室整理) 24, server: hk-hkg-gz-hk-hkt-v2.node.inforun.work, port: 60088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: 日本 🇯🇵(Youtube技术分享室整理) 7, server: 158.247.213.165, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 马来西亚 🇲🇾(Youtube技术分享室整理), server: 223.25.246.4, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA, udp: true}
+  - {name: US(Youtube技术分享室整理) 131, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: HK(Youtube技术分享室整理) 78, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK(Youtube技术分享室整理) 25, server: hk-gz-hk-hkt-v2-b.cdn.savoy.click, port: 60188, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 132, server: 37.120.147.230, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "(技术分享室整理,欢迎订阅) 7", server: 198.57.27.247, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: HK(Youtube技术分享室整理) 26, server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /bb2b34a1, headers: {Host: www.ltzs.buzz}}, udp: true}
+  - {name: NO(Youtube技术分享室整理) 2, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: RU(Youtube技术分享室整理) 4, server: 194.156.120.52, port: 41002, type: vmess, uuid: ebb93e84-5bb7-11ec-8bc6-6a5c6e054e4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本 🇯🇵(Youtube技术分享室整理) 8, server: 158.247.226.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 133, server: 192.74.254.112, port: 52244, type: vmess, uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /E0Y46mSw/, headers: {Host: 192.74.254.112}}, udp: true}
+  - {name: HK(Youtube技术分享室整理) 27, server: hkaz15.biteb-ssx.xyz, port: 12493, type: vmess, uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: index, headers: {Host: hkaz15.biteb-ssx.xyz}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 134, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b, udp: true}
+  - {name: US(Youtube技术分享室整理) 135, server: 38.91.102.96, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: HK(Youtube技术分享室整理) 28, server: 93.186.201.124, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US美国(Youtube技术分享室整理) 11, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 136, server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 香港 🇭🇰(Youtube技术分享室整理), server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA, udp: true}
+  - {name: CA(Youtube技术分享室整理) 7, server: canada-vancouver.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: canada-vancouver.mah3Hoet.com}}, udp: true}
+  - {name: "挪威 🇳🇴(技术分享室整理,欢迎订阅)", server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: HK(Youtube技术分享室整理) 29, server: 93.186.201.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HK(Youtube技术分享室整理) 30, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA, udp: true}
+  - {name: KR(Youtube技术分享室整理), server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: xe3rayu3.com}}, udp: true}
+  - {name: RU(Youtube技术分享室整理) 5, server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v9.ssrsub.com}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 137, server: 38.68.134.37, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: (Youtube技术分享室整理) 3, server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 印尼 🇮🇩(Youtube技术分享室整理) 2, server: 45.133.181.58, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
+  - {name: "德国 🇩🇪(技术分享室整理,欢迎订阅) 2", server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: HK(Youtube技术分享室整理) 31, server: ff8.uuv2.co.uk, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /bb2b34a1, headers: {Host: www.ltzs.buzz}}, udp: true}
+  - {name: (Youtube技术分享室整理) 4, server: 45.152.183.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
+  - {name: 葡萄牙 🇵🇹(Youtube技术分享室整理), server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
+  - {name: HK(Youtube技术分享室整理) 32, server: ff10.uuv2.co.uk, port: 27182, type: vmess, uuid: a22df2ec-6200-11ec-9070-fecccc2333dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AmrTCtbk/, headers: {Host: ff10.uuv2.co.uk}}, udp: true}
+  - {name: SG(Youtube技术分享室整理) 6, server: 217.197.161.136, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: BE(Youtube技术分享室整理), server: 193.9.114.34, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "挪威 🇳🇴(技术分享室整理,欢迎订阅) 2", server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF, udp: true}
+  - {name: HK(Youtube技术分享室整理) 33, server: jp-nrt-04-v2.cdn.savoy.click, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: AU(Youtube技术分享室整理) 2, server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: NO(Youtube技术分享室整理) 3, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 138, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ, udp: true}
+  - {name: US(Youtube技术分享室整理) 139, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 47, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "挪威 🇳🇴(技术分享室整理,欢迎订阅) 3", server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: GB(Youtube技术分享室整理) 4, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: 45.91.83.111}}, udp: true}
+  - {name: 台湾 🇹🇼(Youtube技术分享室整理), server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH, udp: true}
+  - {name: (Youtube技术分享室整理) 5, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: SG(Youtube技术分享室整理) 7, server: 217.138.193.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc, udp: true}
+  - {name: US(Youtube技术分享室整理) 140, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 141, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 142, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 48, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 143, server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "印度 🇮🇳(技术分享室整理,欢迎订阅)", server: 192.46.208.153, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: RU(Youtube技术分享室整理) 6, server: t2.ssrsub.com, port: 8443, type: trojan, password: da8ad13d-19e6-4a28-82a6-da15bbc0a968, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 台湾 🇹🇼(Youtube技术分享室整理) 2, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH, udp: true}
+  - {name: RU(Youtube技术分享室整理) 7, server: 193.233.85.3, port: 45174, type: vmess, uuid: 14823120-5dc2-11ec-b398-3a571dcc9720, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK(Youtube技术分享室整理) 34, server: sh-hk-hgc-100m-v2.cdn.savoy.click, port: 20188, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: HK(Youtube技术分享室整理) 35, server: de-nue-v2.cdn.savoy.click, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 144, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 法国(Youtube技术分享室整理) 3, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "德国 🇩🇪(技术分享室整理,欢迎订阅) 3", server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 145, server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "加拿大🇨🇦(技术分享室整理,欢迎订阅) 2", server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 146, server: 38.114.114.67, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube技术分享室整理) 49, server: 134.195.196.214, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: AU(Youtube技术分享室整理) 3, server: 172.105.180.227, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US(Youtube技术分享室整理) 147, server: 116.206.230.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: zaNeDgu9mZKpEMTHQJy8, udp: true}
+  - {name: "挪威 🇳🇴(技术分享室整理,欢迎订阅) 4", server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: (Youtube技术分享室整理) 6, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: NO(Youtube技术分享室整理) 4, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: LU(Youtube技术分享室整理), server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: kycc, headers: {Host: lsb.stupidfellow.cf}}, udp: true}
+  - {name: AU(Youtube技术分享室整理) 4, server: 172.105.180.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 日本 🇯🇵(Youtube技术分享室整理) 9, server: 172.105.232.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: NO(Youtube技术分享室整理) 5, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: RU(Youtube技术分享室整理) 8, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
+  - {name: 日本(Youtube技术分享室整理) 9, server: 5.181.5.136, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US美国(Youtube技术分享室整理) 12, server: 169.197.141.24, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: AU(Youtube技术分享室整理) 5, server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: AU(Youtube技术分享室整理) 6, server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: (Youtube技术分享室整理) 7, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: FR(Youtube技术分享室整理) 2, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "挪威 🇳🇴(技术分享室整理,欢迎订阅) 5", server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "德国 🇩🇪(技术分享室整理,欢迎订阅) 4", server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 148, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: SG(Youtube技术分享室整理) 8, server: 217.197.161.138, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: AU(Youtube技术分享室整理) 7, server: 172.105.180.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: AU(Youtube技术分享室整理) 8, server: 172.105.180.227, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: AU(Youtube技术分享室整理) 9, server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: HK(Youtube技术分享室整理) 36, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 挪威 🇳🇴(Youtube技术分享室整理) 5, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA(Youtube技术分享室整理) 8, server: t4.ssrsub.com, port: 156, type: trojan, password: da8ad13d-19e6-4a28-82a6-da15bbc0a968, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: NO(Youtube技术分享室整理) 6, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US(Youtube技术分享室整理) 149, server: 167.88.63.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: AU(Youtube技术分享室整理) 10, server: 172.105.180.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: AU(Youtube技术分享室整理) 11, server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: AU(Youtube技术分享室整理) 12, server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: AU(Youtube技术分享室整理) 13, server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 法国(Youtube技术分享室整理) 4, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: SG(Youtube技术分享室整理) 9, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
+  - {name: 埃及 🇪🇬(Youtube技术分享室整理), server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg, udp: true}
+  - {name: AU(Youtube技术分享室整理) 14, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Finland(Youtube技术分享室整理), server: 188.126.89.174, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: SkGJxCjsuc8DJsB2GtM4, udp: true}
+  - {name: SG(Youtube技术分享室整理) 10, server: 217.138.222.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf, udp: true}
+  - {name: "德国 🇩🇪(技术分享室整理,欢迎订阅) 5", server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: NL(Youtube技术分享室整理), server: 37.120.192.158, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 马来西亚 🇲🇾(Youtube技术分享室整理) 2, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA, udp: true}
+  - {name: CA(Youtube技术分享室整理) 9, server: t3.ssrsub.com, port: 156, type: trojan, password: da8ad13d-19e6-4a28-82a6-da15bbc0a968, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 匈牙利 🇭🇺(Youtube技术分享室整理), server: 185.212.149.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: SxFvGWWUtEjyQnGbggq2, udp: true}
+  - {name: AU(Youtube技术分享室整理) 15, server: 172.105.180.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 葡萄牙 🇵🇹(Youtube技术分享室整理) 2, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2, udp: true}
+  - {name: AU(Youtube技术分享室整理) 16, server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: AU(Youtube技术分享室整理) 17, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: (Youtube技术分享室整理) 8, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: IN(Youtube技术分享室整理) 2, server: 172.105.33.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US(Youtube技术分享室整理) 150, server: v8.ssrsub.com, port: 443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
+  - {name: HK(Youtube技术分享室整理) 37, server: fr-cdg-01-v2.node.inforun.work, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: SG(Youtube技术分享室整理) 11, server: 217.138.221.42, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
+  - {name: TW(Youtube技术分享室整理) 6, server: 139.162.80.175, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US(Youtube技术分享室整理) 151, server: 169.57.35.97, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL, udp: true}
+  - {name: "德国 🇩🇪(技术分享室整理,欢迎订阅) 6", server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 越南 🇻🇳(Youtube技术分享室整理) 2, server: 188.214.152.194, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27, udp: true}
+  - {name: 日本 🇯🇵(Youtube技术分享室整理) 10, server: 172.105.234.211, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: FR(Youtube技术分享室整理) 3, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US(Youtube技术分享室整理) 152, server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.218.198.254}}, udp: true}
+  - {name: "加拿大+🇨🇦(技术分享室整理,欢迎订阅) 2", server: 134.195.196.219, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 153, server: 38.91.102.86, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 154, server: 38.91.102.86, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CN(Youtube技术分享室整理), server: sh-hk-hgc-1g-v2.node.inforun.work, port: 20288, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: GB(Youtube技术分享室整理) 5, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 155, server: 38.91.102.86, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: TW(Youtube技术分享室整理) 7, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: RU(Youtube技术分享室整理) 9, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
+  - {name: HK(Youtube技术分享室整理) 38, server: hzlt.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tus, headers: {Host: hzlt.tuboshu.space}}, udp: true}
+  - {name: US(Youtube技术分享室整理) 156, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 新西兰 🇳🇿(Youtube技术分享室整理), server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5, udp: true}
+  - {name: US(Youtube技术分享室整理) 157, server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US(Youtube技术分享室整理) 158, server: 169.197.143.157, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: HK(Youtube技术分享室整理) 39, server: ff7.uuv2.co.uk, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: kycc, headers: {Host: lsb.stupidfellow.cf}}, udp: true}
+  - {name: JP(Youtube技术分享室整理) 17, server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: FR(Youtube技术分享室整理) 4, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US(Youtube技术分享室整理) 159, server: 38.91.102.86, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 160, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube技术分享室整理) 161, server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US(Youtube技术分享室整理) 162, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER, udp: true}
+  - {name: US(Youtube技术分享室整理) 163, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1250,40 +1700,40 @@ proxies:
   - {name: Ytb:鹏哥分享_91, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: Ytb:鹏哥分享_92, server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_93, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 挪威  1, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq - 荷兰  2, server: 5.255.101.95, port: 60202, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: microsoft.com}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 3, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: 45.91.83.111}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 4, server: api.ssfree.ru, port: 443, type: vmess, uuid: ca6f3fd2-6d12-11ec-9bb7-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: api.ssfree.ru}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 5, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 1, server: 38.91.102.86, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 2, server: 38.143.66.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 3, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 4, server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: github.com/freefq - 挪威  5, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: github.com/freefq - 美国华盛顿Cogent通信公司 6, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 7, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 8, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 9, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 10, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国蒙大拿州Sharktech公司 11, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 12, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 上海市徐汇区联通漕河泾数据中心 13, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  14, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 15, server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: github.com/freefq - 加拿大  16, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 英国  17, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 18, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 19, server: 38.143.66.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 20, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 21, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 美国  22, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: github.com/freefq - 加拿大  23, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 24, server: 38.91.102.86, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 25, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/vmess-share/?ed=2048", headers: {Host: ruvds.testx.eu.org}}, udp: true}
-  - {name: github.com/freefq - 挪威  26, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 27, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: github.com/freefq - 上海市浦东新区电信 28, server: hk-hkg-sh-hk-02-v2.cdn.savoy.click, port: 21088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: github.com/freefq - 美国  29, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}, udp: true}
-  - {name: github.com/freefq - 美国  30, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}, udp: true}
-  - {name: github.com/freefq - 新加坡OVH 31, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: github.com/freefq - 美国  7, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: github.com/freefq - 荷兰  8, server: 5.255.101.95, port: 60202, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: microsoft.com}}, udp: true}
+  - {name: github.com/freefq - 美国  9, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 10, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 11, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 12, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 13, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: 45.91.83.111}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 14, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 15, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 17, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国蒙大拿州Sharktech公司 18, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
+  - {name: github.com/freefq - 加拿大  19, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 新加坡OVH 20, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 21, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 22, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 英国  23, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 24, server: api.ssfree.ru, port: 443, type: vmess, uuid: 5fb1527e-6d77-11ec-82cd-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: api.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 美国  25, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}, udp: true}
+  - {name: github.com/freefq - 美国  26, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}, udp: true}
+  - {name: github.com/freefq - 加拿大  27, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 上海市徐汇区联通漕河泾数据中心 28, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 挪威  29, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 上海市电信 30, server: hk-hkg-sh-hk-02-v2.cdn.savoy.click, port: 21088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 31, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/vmess-share/?ed=2048", headers: {Host: ruvds.testx.eu.org}}, udp: true}
   - {name: 请换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 更新于:01-05 00:00:01 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 更新于:01-05 04:00:01 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新 2, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 付费节点（youtube锦囊妙计帮帮帮）, server: v12.88host.buzz, port: 18004, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mojing, headers: {Host: v12.88host.buzz}}, udp: true}
@@ -2210,43 +2660,493 @@ proxy-groups:
       - Ytb:鹏哥分享_US_美国_57
       - Ytb:鹏哥分享_US_美国_58
       - Ytb:鹏哥分享_HK_香港_59
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - default_name
-      - _US_美国 4
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇯🇵_JP_日本
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇹🇼_TW_台湾
-      - _US_美国 10
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _FR_法国
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - _HK_香港->🇮🇳_IN_印度
-      - _US_美国 11
-      - _HK_香港
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _US_美国 12
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _TW_台湾
-      - _US_美国 13
-      - _CN_中国->🇭🇰_HK_香港 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 2
-      - _DE_德国
-      - _HK_香港->🇮🇳_IN_印度 2
-      - default_name 2
-      - _CN_中国->🇹🇼_TW_台湾 2
+      - HK(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理) 2
+      - US美国(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理) 3
+      - DK(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理
+      - HK(Youtube技术分享室整理) 4
+      - US(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理) 5
+      - MY(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理) 6
+      - HK(Youtube技术分享室整理) 7
+      - US美国(Youtube技术分享室整理) 2
+      - TW(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理) 8
+      - HK(Youtube技术分享室整理) 9
+      - 美国(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 3
+      - HK(Youtube技术分享室整理) 10
+      - US(Youtube技术分享室整理) 4
+      - US(Youtube技术分享室整理) 5
+      - US(Youtube技术分享室整理) 6
+      - JP(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 2
+      - 法国(Youtube技术分享室整理)
+      - JP(Youtube技术分享室整理) 2
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 3
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 4
+      - US(Youtube技术分享室整理) 7
+      - US(Youtube技术分享室整理) 8
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 5
+      - 美国(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 9
+      - 加拿大(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 6
+      - US(Youtube技术分享室整理) 10
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 7
+      - US(Youtube技术分享室整理) 11
+      - RO(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 8
+      - 美国(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 12
+      - 加拿大(技术分享室整理,欢迎订阅)
+      - US(Youtube技术分享室整理) 13
+      - US(Youtube技术分享室整理) 14
+      - 日本 🇯🇵(Youtube技术分享室整理)
+      - 德国 🇩🇪(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 15
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 9
+      - JP(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 16
+      - US(Youtube技术分享室整理) 17
+      - US(Youtube技术分享室整理) 18
+      - US(Youtube技术分享室整理) 19
+      - US(Youtube技术分享室整理) 20
+      - US(Youtube技术分享室整理) 21
+      - US(Youtube技术分享室整理) 22
+      - 美国(技术分享室整理,欢迎订阅)
+      - US(Youtube技术分享室整理) 23
+      - TW(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 24
+      - US(Youtube技术分享室整理) 25
+      - 美国(Youtube技术分享室整理) 4
+      - US(Youtube技术分享室整理) 26
+      - US(Youtube技术分享室整理) 27
+      - US(Youtube技术分享室整理) 28
+      - 日本 🇯🇵(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 29
+      - US(Youtube技术分享室整理) 30
+      - HK(Youtube技术分享室整理) 11
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 10
+      - US(Youtube技术分享室整理) 31
+      - US(Youtube技术分享室整理) 32
+      - 美国(Youtube技术分享室整理) 5
+      - US(Youtube技术分享室整理) 33
+      - US(Youtube技术分享室整理) 34
+      - US(Youtube技术分享室整理) 35
+      - US(Youtube技术分享室整理) 36
+      - 新加坡 🇸🇬(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 37
+      - US(Youtube技术分享室整理) 38
+      - HK(Youtube技术分享室整理) 12
+      - US(Youtube技术分享室整理) 39
+      - 英国 🇬🇧(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 40
+      - US(Youtube技术分享室整理) 41
+      - US(Youtube技术分享室整理) 42
+      - (技术分享室整理,欢迎订阅)
+      - US(Youtube技术分享室整理) 43
+      - 日本(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 44
+      - 美国(Youtube技术分享室整理) 6
+      - US(Youtube技术分享室整理) 45
+      - US(Youtube技术分享室整理) 46
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 11
+      - US(Youtube技术分享室整理) 47
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 12
+      - US(Youtube技术分享室整理) 48
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 13
+      - 日本 🇯🇵(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 49
+      - US(Youtube技术分享室整理) 50
+      - US(Youtube技术分享室整理) 51
+      - US(Youtube技术分享室整理) 52
+      - US美国(Youtube技术分享室整理) 3
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 14
+      - 越南 🇻🇳(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 53
+      - HK(Youtube技术分享室整理) 13
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 15
+      - 美国(技术分享室整理,欢迎订阅) 2
+      - US(Youtube技术分享室整理) 54
+      - 德国 🇩🇪(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 55
+      - US(Youtube技术分享室整理) 56
+      - US(Youtube技术分享室整理) 57
+      - US(Youtube技术分享室整理) 58
+      - US(Youtube技术分享室整理) 59
+      - 挪威 🇳🇴(Youtube技术分享室整理)
+      - 美国 🇺🇸(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 60
+      - DE(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 61
+      - 加拿大 🇨🇦(技术分享室整理,欢迎订阅)
+      - CA(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室整理) 4
+      - _CA加拿大(技术分享室整理,欢迎订阅)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 16
+      - HK(Youtube技术分享室整理) 14
+      - JP(Youtube技术分享室整理) 4
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 17
+      - US(Youtube技术分享室整理) 62
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 18
+      - US美国(Youtube技术分享室整理) 5
+      - US(Youtube技术分享室整理) 63
+      - (技术分享室整理,欢迎订阅) 2
+      - US(Youtube技术分享室整理) 64
+      - US(Youtube技术分享室整理) 65
+      - US(Youtube技术分享室整理) 66
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 19
+      - GB(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 67
+      - (技术分享室整理,欢迎订阅) 3
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 20
+      - US(Youtube技术分享室整理) 68
+      - 日本+🇯🇵(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 21
+      - US(Youtube技术分享室整理) 69
+      - US(Youtube技术分享室整理) 70
+      - US(Youtube技术分享室整理) 71
+      - 德国 🇩🇪(Youtube技术分享室整理) 3
+      - 加拿大(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 72
+      - US(Youtube技术分享室整理) 73
+      - CA(Youtube技术分享室整理) 2
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 22
+      - US(Youtube技术分享室整理) 74
+      - US(Youtube技术分享室整理) 75
+      - US(Youtube技术分享室整理) 76
+      - US美国(Youtube技术分享室整理) 6
+      - BA(Youtube技术分享室整理)
+      - 印度 🇮🇳(Youtube技术分享室整理)
+      - 德国 🇩🇪(Youtube技术分享室整理) 4
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 23
+      - HK(Youtube技术分享室整理) 15
+      - US(Youtube技术分享室整理) 77
+      - 美国(Youtube技术分享室整理) 7
+      - US(Youtube技术分享室整理) 78
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 24
+      - 印度 🇮🇳(Youtube技术分享室整理) 2
+      - 加拿大 🇨🇦(技术分享室整理,欢迎订阅) 2
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 25
+      - 加拿大+🇨🇦(技术分享室整理,欢迎订阅)
+      - (技术分享室整理,欢迎订阅) 4
+      - DE(Youtube技术分享室整理) 2
+      - 日本 🇯🇵(Youtube技术分享室整理) 4
+      - 德国 🇩🇪(Youtube技术分享室整理) 5
+      - 澳大利亚 🇦🇺(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 79
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 26
+      - (技术分享室整理,欢迎订阅) 5
+      - US(Youtube技术分享室整理) 80
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 27
+      - US(Youtube技术分享室整理) 81
+      - US(Youtube技术分享室整理) 82
+      - US(Youtube技术分享室整理) 83
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 28
+      - RU(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室整理) 7
+      - 德国 🇩🇪(Youtube技术分享室整理) 6
+      - US(技术分享室整理,欢迎订阅)
+      - US(Youtube技术分享室整理) 84
+      - JP(Youtube技术分享室整理) 5
+      - HK(Youtube技术分享室整理) 16
+      - US(Youtube技术分享室整理) 85
+      - US(Youtube技术分享室整理) 86
+      - US(Youtube技术分享室整理) 87
+      - CA(Youtube技术分享室整理) 3
+      - US美国(Youtube技术分享室整理) 8
+      - CA(Youtube技术分享室整理) 4
+      - FR(Youtube技术分享室整理)
+      - 美国(Youtube技术分享室整理) 8
+      - 挪威 🇳🇴(Youtube技术分享室整理) 2
+      - 美国(Youtube技术分享室整理) 9
+      - 挪威 🇳🇴(Youtube技术分享室整理) 3
+      - IN(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 29
+      - RU(Youtube技术分享室整理) 2
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 30
+      - US(Youtube技术分享室整理) 88
+      - US(Youtube技术分享室整理) 89
+      - US(Youtube技术分享室整理) 90
+      - US(Youtube技术分享室整理) 91
+      - JP(Youtube技术分享室整理) 6
+      - US(Youtube技术分享室整理) 92
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 31
+      - (Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 32
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 33
+      - TW(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 93
+      - NO(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 34
+      - JP(Youtube技术分享室整理) 7
+      - GB(Youtube技术分享室整理) 2
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 35
+      - US(Youtube技术分享室整理) 94
+      - CA(Youtube技术分享室整理) 5
+      - US美国(Youtube技术分享室整理) 9
+      - JP(Youtube技术分享室整理) 8
+      - US(Youtube技术分享室整理) 95
+      - US(Youtube技术分享室整理) 96
+      - 南非 🇿🇦(Youtube技术分享室整理)
+      - 日本(Youtube技术分享室整理) 2
+      - HK(Youtube技术分享室整理) 17
+      - GB(Youtube技术分享室整理) 3
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 36
+      - US(Youtube技术分享室整理) 97
+      - US(Youtube技术分享室整理) 98
+      - TW(Youtube技术分享室整理) 4
+      - 日本(Youtube技术分享室整理) 3
+      - 美国(Youtube技术分享室整理) 10
+      - 挪威(技术分享室整理,欢迎订阅)
+      - BA(技术分享室整理,欢迎订阅)
+      - US(Youtube技术分享室整理) 99
+      - 日本(Youtube技术分享室整理) 4
+      - JP(Youtube技术分享室整理) 9
+      - CA(Youtube技术分享室整理) 6
+      - JP(Youtube技术分享室整理) 10
+      - US(Youtube技术分享室整理) 100
+      - SG(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 37
+      - US(Youtube技术分享室整理) 101
+      - SG(Youtube技术分享室整理) 2
+      - _US美国(技术分享室整理,欢迎订阅)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 38
+      - 加拿大🇨🇦(技术分享室整理,欢迎订阅)
+      - JP(Youtube技术分享室整理) 11
+      - US(Youtube技术分享室整理) 102
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 39
+      - US(Youtube技术分享室整理) 103
+      - 德国 🇩🇪(技术分享室整理,欢迎订阅)
+      - (技术分享室整理,欢迎订阅) 6
+      - 法国(Youtube技术分享室整理) 2
+      - 美国(技术分享室整理,欢迎订阅) 3
+      - 美国(Youtube技术分享室整理) 11
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 40
+      - US(Youtube技术分享室整理) 104
+      - US(Youtube技术分享室整理) 105
+      - 日本(Youtube技术分享室整理) 5
+      - 挪威 🇳🇴(Youtube技术分享室整理) 4
+      - 美国(Youtube技术分享室整理) 12
+      - US(Youtube技术分享室整理) 106
+      - CA(技术分享室整理,欢迎订阅)
+      - HK(Youtube技术分享室整理) 18
+      - US(Youtube技术分享室整理) 107
+      - US(Youtube技术分享室整理) 108
+      - US美国(Youtube技术分享室整理) 10
+      - 加拿大(Youtube技术分享室整理) 3
+      - 美国(Youtube技术分享室整理) 13
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 41
+      - RO(Youtube技术分享室整理) 2
+      - JP(Youtube技术分享室整理) 12
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 42
+      - US(Youtube技术分享室整理) 109
+      - JP(Youtube技术分享室整理) 13
+      - JP(Youtube技术分享室整理) 14
+      - US(Youtube技术分享室整理) 110
+      - US(Youtube技术分享室整理) 111
+      - US(Youtube技术分享室整理) 112
+      - US(Youtube技术分享室整理) 113
+      - US(Youtube技术分享室整理) 114
+      - DE(Youtube技术分享室整理) 3
+      - IN_(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 115
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 43
+      - US(Youtube技术分享室整理) 116
+      - US(Youtube技术分享室整理) 117
+      - 美国(Youtube技术分享室整理) 14
+      - SG(Youtube技术分享室整理) 3
+      - SG(Youtube技术分享室整理) 4
+      - 瑞典(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 118
+      - CA(技术分享室整理,欢迎订阅) 2
+      - US(Youtube技术分享室整理) 119
+      - US(Youtube技术分享室整理) 120
+      - US(Youtube技术分享室整理) 121
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 44
+      - 日本(Youtube技术分享室整理) 6
+      - 日本(Youtube技术分享室整理) 7
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 45
+      - 加拿大(Youtube技术分享室整理) 4
+      - 日本 🇯🇵(Youtube技术分享室整理) 5
+      - 日本(Youtube技术分享室整理) 8
+      - MY(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 122
+      - US(Youtube技术分享室整理) 123
+      - US(Youtube技术分享室整理) 124
+      - US(Youtube技术分享室整理) 125
+      - 日本 🇯🇵(Youtube技术分享室整理) 6
+      - 印尼 🇮🇩(Youtube技术分享室整理)
+      - TW(Youtube技术分享室整理) 5
+      - JP(Youtube技术分享室整理) 15
+      - HK(Youtube技术分享室整理) 19
+      - US(Youtube技术分享室整理) 126
+      - HK(Youtube技术分享室整理) 20
+      - JP(Youtube技术分享室整理) 16
+      - HK(Youtube技术分享室整理) 21
+      - (Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 127
+      - US(Youtube技术分享室整理) 128
+      - AU(Youtube技术分享室整理)
+      - RU(Youtube技术分享室整理) 3
+      - HK(Youtube技术分享室整理) 22
+      - HK(Youtube技术分享室整理) 23
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 46
+      - US(Youtube技术分享室整理) 129
+      - US(Youtube技术分享室整理) 130
+      - SG(Youtube技术分享室整理) 5
+      - HK(Youtube技术分享室整理) 24
+      - 日本 🇯🇵(Youtube技术分享室整理) 7
+      - 马来西亚 🇲🇾(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 131
+      - HK(Youtube技术分享室整理) 78
+      - HK(Youtube技术分享室整理) 25
+      - US(Youtube技术分享室整理) 132
+      - (技术分享室整理,欢迎订阅) 7
+      - HK(Youtube技术分享室整理) 26
+      - NO(Youtube技术分享室整理) 2
+      - RU(Youtube技术分享室整理) 4
+      - 日本 🇯🇵(Youtube技术分享室整理) 8
+      - US(Youtube技术分享室整理) 133
+      - HK(Youtube技术分享室整理) 27
+      - US(Youtube技术分享室整理) 134
+      - US(Youtube技术分享室整理) 135
+      - HK(Youtube技术分享室整理) 28
+      - US美国(Youtube技术分享室整理) 11
+      - US(Youtube技术分享室整理) 136
+      - 香港 🇭🇰(Youtube技术分享室整理)
+      - CA(Youtube技术分享室整理) 7
+      - 挪威 🇳🇴(技术分享室整理,欢迎订阅)
+      - HK(Youtube技术分享室整理) 29
+      - HK(Youtube技术分享室整理) 30
+      - KR(Youtube技术分享室整理)
+      - RU(Youtube技术分享室整理) 5
+      - US(Youtube技术分享室整理) 137
+      - (Youtube技术分享室整理) 3
+      - 印尼 🇮🇩(Youtube技术分享室整理) 2
+      - 德国 🇩🇪(技术分享室整理,欢迎订阅) 2
+      - HK(Youtube技术分享室整理) 31
+      - (Youtube技术分享室整理) 4
+      - 葡萄牙 🇵🇹(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理) 32
+      - SG(Youtube技术分享室整理) 6
+      - BE(Youtube技术分享室整理)
+      - 挪威 🇳🇴(技术分享室整理,欢迎订阅) 2
+      - HK(Youtube技术分享室整理) 33
+      - AU(Youtube技术分享室整理) 2
+      - NO(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 138
+      - US(Youtube技术分享室整理) 139
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 47
+      - 挪威 🇳🇴(技术分享室整理,欢迎订阅) 3
+      - GB(Youtube技术分享室整理) 4
+      - 台湾 🇹🇼(Youtube技术分享室整理)
+      - (Youtube技术分享室整理) 5
+      - SG(Youtube技术分享室整理) 7
+      - US(Youtube技术分享室整理) 140
+      - US(Youtube技术分享室整理) 141
+      - US(Youtube技术分享室整理) 142
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 48
+      - US(Youtube技术分享室整理) 143
+      - 印度 🇮🇳(技术分享室整理,欢迎订阅)
+      - RU(Youtube技术分享室整理) 6
+      - 台湾 🇹🇼(Youtube技术分享室整理) 2
+      - RU(Youtube技术分享室整理) 7
+      - HK(Youtube技术分享室整理) 34
+      - HK(Youtube技术分享室整理) 35
+      - US(Youtube技术分享室整理) 144
+      - 法国(Youtube技术分享室整理) 3
+      - 德国 🇩🇪(技术分享室整理,欢迎订阅) 3
+      - US(Youtube技术分享室整理) 145
+      - 加拿大🇨🇦(技术分享室整理,欢迎订阅) 2
+      - US(Youtube技术分享室整理) 146
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 49
+      - AU(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 147
+      - 挪威 🇳🇴(技术分享室整理,欢迎订阅) 4
+      - (Youtube技术分享室整理) 6
+      - NO(Youtube技术分享室整理) 4
+      - LU(Youtube技术分享室整理)
+      - AU(Youtube技术分享室整理) 4
+      - 日本 🇯🇵(Youtube技术分享室整理) 9
+      - NO(Youtube技术分享室整理) 5
+      - RU(Youtube技术分享室整理) 8
+      - 日本(Youtube技术分享室整理) 9
+      - US美国(Youtube技术分享室整理) 12
+      - AU(Youtube技术分享室整理) 5
+      - AU(Youtube技术分享室整理) 6
+      - (Youtube技术分享室整理) 7
+      - FR(Youtube技术分享室整理) 2
+      - 挪威 🇳🇴(技术分享室整理,欢迎订阅) 5
+      - 德国 🇩🇪(技术分享室整理,欢迎订阅) 4
+      - US(Youtube技术分享室整理) 148
+      - SG(Youtube技术分享室整理) 8
+      - AU(Youtube技术分享室整理) 7
+      - AU(Youtube技术分享室整理) 8
+      - AU(Youtube技术分享室整理) 9
+      - HK(Youtube技术分享室整理) 36
+      - 挪威 🇳🇴(Youtube技术分享室整理) 5
+      - CA(Youtube技术分享室整理) 8
+      - NO(Youtube技术分享室整理) 6
+      - US(Youtube技术分享室整理) 149
+      - AU(Youtube技术分享室整理) 10
+      - AU(Youtube技术分享室整理) 11
+      - AU(Youtube技术分享室整理) 12
+      - AU(Youtube技术分享室整理) 13
+      - 法国(Youtube技术分享室整理) 4
+      - SG(Youtube技术分享室整理) 9
+      - 埃及 🇪🇬(Youtube技术分享室整理)
+      - AU(Youtube技术分享室整理) 14
+      - Finland(Youtube技术分享室整理)
+      - SG(Youtube技术分享室整理) 10
+      - 德国 🇩🇪(技术分享室整理,欢迎订阅) 5
+      - NL(Youtube技术分享室整理)
+      - 马来西亚 🇲🇾(Youtube技术分享室整理) 2
+      - CA(Youtube技术分享室整理) 9
+      - 匈牙利 🇭🇺(Youtube技术分享室整理)
+      - AU(Youtube技术分享室整理) 15
+      - 葡萄牙 🇵🇹(Youtube技术分享室整理) 2
+      - AU(Youtube技术分享室整理) 16
+      - AU(Youtube技术分享室整理) 17
+      - (Youtube技术分享室整理) 8
+      - IN(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 150
+      - HK(Youtube技术分享室整理) 37
+      - SG(Youtube技术分享室整理) 11
+      - TW(Youtube技术分享室整理) 6
+      - US(Youtube技术分享室整理) 151
+      - 德国 🇩🇪(技术分享室整理,欢迎订阅) 6
+      - 越南 🇻🇳(Youtube技术分享室整理) 2
+      - 日本 🇯🇵(Youtube技术分享室整理) 10
+      - FR(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 152
+      - 加拿大+🇨🇦(技术分享室整理,欢迎订阅) 2
+      - US(Youtube技术分享室整理) 153
+      - US(Youtube技术分享室整理) 154
+      - CN(Youtube技术分享室整理)
+      - GB(Youtube技术分享室整理) 5
+      - US(Youtube技术分享室整理) 155
+      - TW(Youtube技术分享室整理) 7
+      - RU(Youtube技术分享室整理) 9
+      - HK(Youtube技术分享室整理) 38
+      - US(Youtube技术分享室整理) 156
+      - 新西兰 🇳🇿(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 157
+      - US(Youtube技术分享室整理) 158
+      - HK(Youtube技术分享室整理) 39
+      - JP(Youtube技术分享室整理) 17
+      - FR(Youtube技术分享室整理) 4
+      - US(Youtube技术分享室整理) 159
+      - US(Youtube技术分享室整理) 160
+      - US(Youtube技术分享室整理) 161
+      - US(Youtube技术分享室整理) 162
+      - US(Youtube技术分享室整理) 163
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2735,40 +3635,40 @@ proxy-groups:
       - Ytb:鹏哥分享_91
       - Ytb:鹏哥分享_92
       - Ytb:鹏哥分享_93
-      - github.com/freefq - 挪威  1
-      - github.com/freefq - 荷兰  2
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 3
-      - github.com/freefq - 美国CloudFlare节点 4
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 5
+      - github.com/freefq - 美国华盛顿Cogent通信公司 1
+      - github.com/freefq - 美国华盛顿Cogent通信公司 2
+      - github.com/freefq - 美国华盛顿Cogent通信公司 3
+      - github.com/freefq - 美国华盛顿Cogent通信公司 4
+      - github.com/freefq - 挪威  5
       - github.com/freefq - 美国华盛顿Cogent通信公司 6
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 7
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 8
-      - github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - github.com/freefq - 美国  7
+      - github.com/freefq - 荷兰  8
+      - github.com/freefq - 美国  9
       - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 10
-      - github.com/freefq - 美国蒙大拿州Sharktech公司 11
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 11
       - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 12
-      - github.com/freefq - 上海市徐汇区联通漕河泾数据中心 13
-      - github.com/freefq - 美国  14
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - github.com/freefq - 加拿大  16
-      - github.com/freefq - 英国  17
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 18
-      - github.com/freefq - 美国华盛顿Cogent通信公司 19
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 20
-      - github.com/freefq - 美国华盛顿Cogent通信公司 21
-      - github.com/freefq - 美国  22
-      - github.com/freefq - 加拿大  23
-      - github.com/freefq - 美国华盛顿Cogent通信公司 24
-      - github.com/freefq - 美国CloudFlare节点 25
-      - github.com/freefq - 挪威  26
-      - github.com/freefq - 美国CloudFlare节点 27
-      - github.com/freefq - 上海市浦东新区电信 28
-      - github.com/freefq - 美国  29
-      - github.com/freefq - 美国  30
-      - github.com/freefq - 新加坡OVH 31
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 13
+      - github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - github.com/freefq - 美国CloudFlare节点 15
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 17
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 18
+      - github.com/freefq - 加拿大  19
+      - github.com/freefq - 新加坡OVH 20
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 21
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 22
+      - github.com/freefq - 英国  23
+      - github.com/freefq - 美国CloudFlare公司CDN节点 24
+      - github.com/freefq - 美国  25
+      - github.com/freefq - 美国  26
+      - github.com/freefq - 加拿大  27
+      - github.com/freefq - 上海市徐汇区联通漕河泾数据中心 28
+      - github.com/freefq - 挪威  29
+      - github.com/freefq - 上海市电信 30
+      - github.com/freefq - 美国CloudFlare节点 31
       - 请换到v2ray
       - 将于近期停止ssr更新
-      - 更新于:01-05 00:00:01 - by BuLink.xyz
+      - 更新于:01-05 04:00:01 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 付费节点（youtube锦囊妙计帮帮帮）
@@ -3684,43 +4584,493 @@ proxy-groups:
       - Ytb:鹏哥分享_US_美国_57
       - Ytb:鹏哥分享_US_美国_58
       - Ytb:鹏哥分享_HK_香港_59
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - default_name
-      - _US_美国 4
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇯🇵_JP_日本
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇹🇼_TW_台湾
-      - _US_美国 10
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _FR_法国
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - _HK_香港->🇮🇳_IN_印度
-      - _US_美国 11
-      - _HK_香港
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _US_美国 12
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _TW_台湾
-      - _US_美国 13
-      - _CN_中国->🇭🇰_HK_香港 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 2
-      - _DE_德国
-      - _HK_香港->🇮🇳_IN_印度 2
-      - default_name 2
-      - _CN_中国->🇹🇼_TW_台湾 2
+      - HK(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理) 2
+      - US美国(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理) 3
+      - DK(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理
+      - HK(Youtube技术分享室整理) 4
+      - US(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理) 5
+      - MY(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理) 6
+      - HK(Youtube技术分享室整理) 7
+      - US美国(Youtube技术分享室整理) 2
+      - TW(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理) 8
+      - HK(Youtube技术分享室整理) 9
+      - 美国(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 3
+      - HK(Youtube技术分享室整理) 10
+      - US(Youtube技术分享室整理) 4
+      - US(Youtube技术分享室整理) 5
+      - US(Youtube技术分享室整理) 6
+      - JP(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 2
+      - 法国(Youtube技术分享室整理)
+      - JP(Youtube技术分享室整理) 2
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 3
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 4
+      - US(Youtube技术分享室整理) 7
+      - US(Youtube技术分享室整理) 8
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 5
+      - 美国(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 9
+      - 加拿大(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 6
+      - US(Youtube技术分享室整理) 10
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 7
+      - US(Youtube技术分享室整理) 11
+      - RO(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 8
+      - 美国(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 12
+      - 加拿大(技术分享室整理,欢迎订阅)
+      - US(Youtube技术分享室整理) 13
+      - US(Youtube技术分享室整理) 14
+      - 日本 🇯🇵(Youtube技术分享室整理)
+      - 德国 🇩🇪(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 15
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 9
+      - JP(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 16
+      - US(Youtube技术分享室整理) 17
+      - US(Youtube技术分享室整理) 18
+      - US(Youtube技术分享室整理) 19
+      - US(Youtube技术分享室整理) 20
+      - US(Youtube技术分享室整理) 21
+      - US(Youtube技术分享室整理) 22
+      - 美国(技术分享室整理,欢迎订阅)
+      - US(Youtube技术分享室整理) 23
+      - TW(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 24
+      - US(Youtube技术分享室整理) 25
+      - 美国(Youtube技术分享室整理) 4
+      - US(Youtube技术分享室整理) 26
+      - US(Youtube技术分享室整理) 27
+      - US(Youtube技术分享室整理) 28
+      - 日本 🇯🇵(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 29
+      - US(Youtube技术分享室整理) 30
+      - HK(Youtube技术分享室整理) 11
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 10
+      - US(Youtube技术分享室整理) 31
+      - US(Youtube技术分享室整理) 32
+      - 美国(Youtube技术分享室整理) 5
+      - US(Youtube技术分享室整理) 33
+      - US(Youtube技术分享室整理) 34
+      - US(Youtube技术分享室整理) 35
+      - US(Youtube技术分享室整理) 36
+      - 新加坡 🇸🇬(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 37
+      - US(Youtube技术分享室整理) 38
+      - HK(Youtube技术分享室整理) 12
+      - US(Youtube技术分享室整理) 39
+      - 英国 🇬🇧(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 40
+      - US(Youtube技术分享室整理) 41
+      - US(Youtube技术分享室整理) 42
+      - (技术分享室整理,欢迎订阅)
+      - US(Youtube技术分享室整理) 43
+      - 日本(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 44
+      - 美国(Youtube技术分享室整理) 6
+      - US(Youtube技术分享室整理) 45
+      - US(Youtube技术分享室整理) 46
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 11
+      - US(Youtube技术分享室整理) 47
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 12
+      - US(Youtube技术分享室整理) 48
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 13
+      - 日本 🇯🇵(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 49
+      - US(Youtube技术分享室整理) 50
+      - US(Youtube技术分享室整理) 51
+      - US(Youtube技术分享室整理) 52
+      - US美国(Youtube技术分享室整理) 3
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 14
+      - 越南 🇻🇳(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 53
+      - HK(Youtube技术分享室整理) 13
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 15
+      - 美国(技术分享室整理,欢迎订阅) 2
+      - US(Youtube技术分享室整理) 54
+      - 德国 🇩🇪(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 55
+      - US(Youtube技术分享室整理) 56
+      - US(Youtube技术分享室整理) 57
+      - US(Youtube技术分享室整理) 58
+      - US(Youtube技术分享室整理) 59
+      - 挪威 🇳🇴(Youtube技术分享室整理)
+      - 美国 🇺🇸(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 60
+      - DE(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 61
+      - 加拿大 🇨🇦(技术分享室整理,欢迎订阅)
+      - CA(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室整理) 4
+      - _CA加拿大(技术分享室整理,欢迎订阅)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 16
+      - HK(Youtube技术分享室整理) 14
+      - JP(Youtube技术分享室整理) 4
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 17
+      - US(Youtube技术分享室整理) 62
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 18
+      - US美国(Youtube技术分享室整理) 5
+      - US(Youtube技术分享室整理) 63
+      - (技术分享室整理,欢迎订阅) 2
+      - US(Youtube技术分享室整理) 64
+      - US(Youtube技术分享室整理) 65
+      - US(Youtube技术分享室整理) 66
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 19
+      - GB(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 67
+      - (技术分享室整理,欢迎订阅) 3
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 20
+      - US(Youtube技术分享室整理) 68
+      - 日本+🇯🇵(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 21
+      - US(Youtube技术分享室整理) 69
+      - US(Youtube技术分享室整理) 70
+      - US(Youtube技术分享室整理) 71
+      - 德国 🇩🇪(Youtube技术分享室整理) 3
+      - 加拿大(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 72
+      - US(Youtube技术分享室整理) 73
+      - CA(Youtube技术分享室整理) 2
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 22
+      - US(Youtube技术分享室整理) 74
+      - US(Youtube技术分享室整理) 75
+      - US(Youtube技术分享室整理) 76
+      - US美国(Youtube技术分享室整理) 6
+      - BA(Youtube技术分享室整理)
+      - 印度 🇮🇳(Youtube技术分享室整理)
+      - 德国 🇩🇪(Youtube技术分享室整理) 4
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 23
+      - HK(Youtube技术分享室整理) 15
+      - US(Youtube技术分享室整理) 77
+      - 美国(Youtube技术分享室整理) 7
+      - US(Youtube技术分享室整理) 78
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 24
+      - 印度 🇮🇳(Youtube技术分享室整理) 2
+      - 加拿大 🇨🇦(技术分享室整理,欢迎订阅) 2
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 25
+      - 加拿大+🇨🇦(技术分享室整理,欢迎订阅)
+      - (技术分享室整理,欢迎订阅) 4
+      - DE(Youtube技术分享室整理) 2
+      - 日本 🇯🇵(Youtube技术分享室整理) 4
+      - 德国 🇩🇪(Youtube技术分享室整理) 5
+      - 澳大利亚 🇦🇺(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 79
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 26
+      - (技术分享室整理,欢迎订阅) 5
+      - US(Youtube技术分享室整理) 80
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 27
+      - US(Youtube技术分享室整理) 81
+      - US(Youtube技术分享室整理) 82
+      - US(Youtube技术分享室整理) 83
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 28
+      - RU(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室整理) 7
+      - 德国 🇩🇪(Youtube技术分享室整理) 6
+      - US(技术分享室整理,欢迎订阅)
+      - US(Youtube技术分享室整理) 84
+      - JP(Youtube技术分享室整理) 5
+      - HK(Youtube技术分享室整理) 16
+      - US(Youtube技术分享室整理) 85
+      - US(Youtube技术分享室整理) 86
+      - US(Youtube技术分享室整理) 87
+      - CA(Youtube技术分享室整理) 3
+      - US美国(Youtube技术分享室整理) 8
+      - CA(Youtube技术分享室整理) 4
+      - FR(Youtube技术分享室整理)
+      - 美国(Youtube技术分享室整理) 8
+      - 挪威 🇳🇴(Youtube技术分享室整理) 2
+      - 美国(Youtube技术分享室整理) 9
+      - 挪威 🇳🇴(Youtube技术分享室整理) 3
+      - IN(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 29
+      - RU(Youtube技术分享室整理) 2
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 30
+      - US(Youtube技术分享室整理) 88
+      - US(Youtube技术分享室整理) 89
+      - US(Youtube技术分享室整理) 90
+      - US(Youtube技术分享室整理) 91
+      - JP(Youtube技术分享室整理) 6
+      - US(Youtube技术分享室整理) 92
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 31
+      - (Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 32
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 33
+      - TW(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 93
+      - NO(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 34
+      - JP(Youtube技术分享室整理) 7
+      - GB(Youtube技术分享室整理) 2
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 35
+      - US(Youtube技术分享室整理) 94
+      - CA(Youtube技术分享室整理) 5
+      - US美国(Youtube技术分享室整理) 9
+      - JP(Youtube技术分享室整理) 8
+      - US(Youtube技术分享室整理) 95
+      - US(Youtube技术分享室整理) 96
+      - 南非 🇿🇦(Youtube技术分享室整理)
+      - 日本(Youtube技术分享室整理) 2
+      - HK(Youtube技术分享室整理) 17
+      - GB(Youtube技术分享室整理) 3
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 36
+      - US(Youtube技术分享室整理) 97
+      - US(Youtube技术分享室整理) 98
+      - TW(Youtube技术分享室整理) 4
+      - 日本(Youtube技术分享室整理) 3
+      - 美国(Youtube技术分享室整理) 10
+      - 挪威(技术分享室整理,欢迎订阅)
+      - BA(技术分享室整理,欢迎订阅)
+      - US(Youtube技术分享室整理) 99
+      - 日本(Youtube技术分享室整理) 4
+      - JP(Youtube技术分享室整理) 9
+      - CA(Youtube技术分享室整理) 6
+      - JP(Youtube技术分享室整理) 10
+      - US(Youtube技术分享室整理) 100
+      - SG(Youtube技术分享室整理)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 37
+      - US(Youtube技术分享室整理) 101
+      - SG(Youtube技术分享室整理) 2
+      - _US美国(技术分享室整理,欢迎订阅)
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 38
+      - 加拿大🇨🇦(技术分享室整理,欢迎订阅)
+      - JP(Youtube技术分享室整理) 11
+      - US(Youtube技术分享室整理) 102
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 39
+      - US(Youtube技术分享室整理) 103
+      - 德国 🇩🇪(技术分享室整理,欢迎订阅)
+      - (技术分享室整理,欢迎订阅) 6
+      - 法国(Youtube技术分享室整理) 2
+      - 美国(技术分享室整理,欢迎订阅) 3
+      - 美国(Youtube技术分享室整理) 11
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 40
+      - US(Youtube技术分享室整理) 104
+      - US(Youtube技术分享室整理) 105
+      - 日本(Youtube技术分享室整理) 5
+      - 挪威 🇳🇴(Youtube技术分享室整理) 4
+      - 美国(Youtube技术分享室整理) 12
+      - US(Youtube技术分享室整理) 106
+      - CA(技术分享室整理,欢迎订阅)
+      - HK(Youtube技术分享室整理) 18
+      - US(Youtube技术分享室整理) 107
+      - US(Youtube技术分享室整理) 108
+      - US美国(Youtube技术分享室整理) 10
+      - 加拿大(Youtube技术分享室整理) 3
+      - 美国(Youtube技术分享室整理) 13
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 41
+      - RO(Youtube技术分享室整理) 2
+      - JP(Youtube技术分享室整理) 12
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 42
+      - US(Youtube技术分享室整理) 109
+      - JP(Youtube技术分享室整理) 13
+      - JP(Youtube技术分享室整理) 14
+      - US(Youtube技术分享室整理) 110
+      - US(Youtube技术分享室整理) 111
+      - US(Youtube技术分享室整理) 112
+      - US(Youtube技术分享室整理) 113
+      - US(Youtube技术分享室整理) 114
+      - DE(Youtube技术分享室整理) 3
+      - IN_(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 115
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 43
+      - US(Youtube技术分享室整理) 116
+      - US(Youtube技术分享室整理) 117
+      - 美国(Youtube技术分享室整理) 14
+      - SG(Youtube技术分享室整理) 3
+      - SG(Youtube技术分享室整理) 4
+      - 瑞典(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 118
+      - CA(技术分享室整理,欢迎订阅) 2
+      - US(Youtube技术分享室整理) 119
+      - US(Youtube技术分享室整理) 120
+      - US(Youtube技术分享室整理) 121
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 44
+      - 日本(Youtube技术分享室整理) 6
+      - 日本(Youtube技术分享室整理) 7
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 45
+      - 加拿大(Youtube技术分享室整理) 4
+      - 日本 🇯🇵(Youtube技术分享室整理) 5
+      - 日本(Youtube技术分享室整理) 8
+      - MY(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 122
+      - US(Youtube技术分享室整理) 123
+      - US(Youtube技术分享室整理) 124
+      - US(Youtube技术分享室整理) 125
+      - 日本 🇯🇵(Youtube技术分享室整理) 6
+      - 印尼 🇮🇩(Youtube技术分享室整理)
+      - TW(Youtube技术分享室整理) 5
+      - JP(Youtube技术分享室整理) 15
+      - HK(Youtube技术分享室整理) 19
+      - US(Youtube技术分享室整理) 126
+      - HK(Youtube技术分享室整理) 20
+      - JP(Youtube技术分享室整理) 16
+      - HK(Youtube技术分享室整理) 21
+      - (Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 127
+      - US(Youtube技术分享室整理) 128
+      - AU(Youtube技术分享室整理)
+      - RU(Youtube技术分享室整理) 3
+      - HK(Youtube技术分享室整理) 22
+      - HK(Youtube技术分享室整理) 23
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 46
+      - US(Youtube技术分享室整理) 129
+      - US(Youtube技术分享室整理) 130
+      - SG(Youtube技术分享室整理) 5
+      - HK(Youtube技术分享室整理) 24
+      - 日本 🇯🇵(Youtube技术分享室整理) 7
+      - 马来西亚 🇲🇾(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 131
+      - HK(Youtube技术分享室整理) 78
+      - HK(Youtube技术分享室整理) 25
+      - US(Youtube技术分享室整理) 132
+      - (技术分享室整理,欢迎订阅) 7
+      - HK(Youtube技术分享室整理) 26
+      - NO(Youtube技术分享室整理) 2
+      - RU(Youtube技术分享室整理) 4
+      - 日本 🇯🇵(Youtube技术分享室整理) 8
+      - US(Youtube技术分享室整理) 133
+      - HK(Youtube技术分享室整理) 27
+      - US(Youtube技术分享室整理) 134
+      - US(Youtube技术分享室整理) 135
+      - HK(Youtube技术分享室整理) 28
+      - US美国(Youtube技术分享室整理) 11
+      - US(Youtube技术分享室整理) 136
+      - 香港 🇭🇰(Youtube技术分享室整理)
+      - CA(Youtube技术分享室整理) 7
+      - 挪威 🇳🇴(技术分享室整理,欢迎订阅)
+      - HK(Youtube技术分享室整理) 29
+      - HK(Youtube技术分享室整理) 30
+      - KR(Youtube技术分享室整理)
+      - RU(Youtube技术分享室整理) 5
+      - US(Youtube技术分享室整理) 137
+      - (Youtube技术分享室整理) 3
+      - 印尼 🇮🇩(Youtube技术分享室整理) 2
+      - 德国 🇩🇪(技术分享室整理,欢迎订阅) 2
+      - HK(Youtube技术分享室整理) 31
+      - (Youtube技术分享室整理) 4
+      - 葡萄牙 🇵🇹(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理) 32
+      - SG(Youtube技术分享室整理) 6
+      - BE(Youtube技术分享室整理)
+      - 挪威 🇳🇴(技术分享室整理,欢迎订阅) 2
+      - HK(Youtube技术分享室整理) 33
+      - AU(Youtube技术分享室整理) 2
+      - NO(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 138
+      - US(Youtube技术分享室整理) 139
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 47
+      - 挪威 🇳🇴(技术分享室整理,欢迎订阅) 3
+      - GB(Youtube技术分享室整理) 4
+      - 台湾 🇹🇼(Youtube技术分享室整理)
+      - (Youtube技术分享室整理) 5
+      - SG(Youtube技术分享室整理) 7
+      - US(Youtube技术分享室整理) 140
+      - US(Youtube技术分享室整理) 141
+      - US(Youtube技术分享室整理) 142
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 48
+      - US(Youtube技术分享室整理) 143
+      - 印度 🇮🇳(技术分享室整理,欢迎订阅)
+      - RU(Youtube技术分享室整理) 6
+      - 台湾 🇹🇼(Youtube技术分享室整理) 2
+      - RU(Youtube技术分享室整理) 7
+      - HK(Youtube技术分享室整理) 34
+      - HK(Youtube技术分享室整理) 35
+      - US(Youtube技术分享室整理) 144
+      - 法国(Youtube技术分享室整理) 3
+      - 德国 🇩🇪(技术分享室整理,欢迎订阅) 3
+      - US(Youtube技术分享室整理) 145
+      - 加拿大🇨🇦(技术分享室整理,欢迎订阅) 2
+      - US(Youtube技术分享室整理) 146
+      - 加拿大 🇨🇦(Youtube技术分享室整理) 49
+      - AU(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 147
+      - 挪威 🇳🇴(技术分享室整理,欢迎订阅) 4
+      - (Youtube技术分享室整理) 6
+      - NO(Youtube技术分享室整理) 4
+      - LU(Youtube技术分享室整理)
+      - AU(Youtube技术分享室整理) 4
+      - 日本 🇯🇵(Youtube技术分享室整理) 9
+      - NO(Youtube技术分享室整理) 5
+      - RU(Youtube技术分享室整理) 8
+      - 日本(Youtube技术分享室整理) 9
+      - US美国(Youtube技术分享室整理) 12
+      - AU(Youtube技术分享室整理) 5
+      - AU(Youtube技术分享室整理) 6
+      - (Youtube技术分享室整理) 7
+      - FR(Youtube技术分享室整理) 2
+      - 挪威 🇳🇴(技术分享室整理,欢迎订阅) 5
+      - 德国 🇩🇪(技术分享室整理,欢迎订阅) 4
+      - US(Youtube技术分享室整理) 148
+      - SG(Youtube技术分享室整理) 8
+      - AU(Youtube技术分享室整理) 7
+      - AU(Youtube技术分享室整理) 8
+      - AU(Youtube技术分享室整理) 9
+      - HK(Youtube技术分享室整理) 36
+      - 挪威 🇳🇴(Youtube技术分享室整理) 5
+      - CA(Youtube技术分享室整理) 8
+      - NO(Youtube技术分享室整理) 6
+      - US(Youtube技术分享室整理) 149
+      - AU(Youtube技术分享室整理) 10
+      - AU(Youtube技术分享室整理) 11
+      - AU(Youtube技术分享室整理) 12
+      - AU(Youtube技术分享室整理) 13
+      - 法国(Youtube技术分享室整理) 4
+      - SG(Youtube技术分享室整理) 9
+      - 埃及 🇪🇬(Youtube技术分享室整理)
+      - AU(Youtube技术分享室整理) 14
+      - Finland(Youtube技术分享室整理)
+      - SG(Youtube技术分享室整理) 10
+      - 德国 🇩🇪(技术分享室整理,欢迎订阅) 5
+      - NL(Youtube技术分享室整理)
+      - 马来西亚 🇲🇾(Youtube技术分享室整理) 2
+      - CA(Youtube技术分享室整理) 9
+      - 匈牙利 🇭🇺(Youtube技术分享室整理)
+      - AU(Youtube技术分享室整理) 15
+      - 葡萄牙 🇵🇹(Youtube技术分享室整理) 2
+      - AU(Youtube技术分享室整理) 16
+      - AU(Youtube技术分享室整理) 17
+      - (Youtube技术分享室整理) 8
+      - IN(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 150
+      - HK(Youtube技术分享室整理) 37
+      - SG(Youtube技术分享室整理) 11
+      - TW(Youtube技术分享室整理) 6
+      - US(Youtube技术分享室整理) 151
+      - 德国 🇩🇪(技术分享室整理,欢迎订阅) 6
+      - 越南 🇻🇳(Youtube技术分享室整理) 2
+      - 日本 🇯🇵(Youtube技术分享室整理) 10
+      - FR(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 152
+      - 加拿大+🇨🇦(技术分享室整理,欢迎订阅) 2
+      - US(Youtube技术分享室整理) 153
+      - US(Youtube技术分享室整理) 154
+      - CN(Youtube技术分享室整理)
+      - GB(Youtube技术分享室整理) 5
+      - US(Youtube技术分享室整理) 155
+      - TW(Youtube技术分享室整理) 7
+      - RU(Youtube技术分享室整理) 9
+      - HK(Youtube技术分享室整理) 38
+      - US(Youtube技术分享室整理) 156
+      - 新西兰 🇳🇿(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 157
+      - US(Youtube技术分享室整理) 158
+      - HK(Youtube技术分享室整理) 39
+      - JP(Youtube技术分享室整理) 17
+      - FR(Youtube技术分享室整理) 4
+      - US(Youtube技术分享室整理) 159
+      - US(Youtube技术分享室整理) 160
+      - US(Youtube技术分享室整理) 161
+      - US(Youtube技术分享室整理) 162
+      - US(Youtube技术分享室整理) 163
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4209,40 +5559,40 @@ proxy-groups:
       - Ytb:鹏哥分享_91
       - Ytb:鹏哥分享_92
       - Ytb:鹏哥分享_93
-      - github.com/freefq - 挪威  1
-      - github.com/freefq - 荷兰  2
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 3
-      - github.com/freefq - 美国CloudFlare节点 4
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 5
+      - github.com/freefq - 美国华盛顿Cogent通信公司 1
+      - github.com/freefq - 美国华盛顿Cogent通信公司 2
+      - github.com/freefq - 美国华盛顿Cogent通信公司 3
+      - github.com/freefq - 美国华盛顿Cogent通信公司 4
+      - github.com/freefq - 挪威  5
       - github.com/freefq - 美国华盛顿Cogent通信公司 6
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 7
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 8
-      - github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - github.com/freefq - 美国  7
+      - github.com/freefq - 荷兰  8
+      - github.com/freefq - 美国  9
       - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 10
-      - github.com/freefq - 美国蒙大拿州Sharktech公司 11
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 11
       - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 12
-      - github.com/freefq - 上海市徐汇区联通漕河泾数据中心 13
-      - github.com/freefq - 美国  14
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - github.com/freefq - 加拿大  16
-      - github.com/freefq - 英国  17
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 18
-      - github.com/freefq - 美国华盛顿Cogent通信公司 19
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 20
-      - github.com/freefq - 美国华盛顿Cogent通信公司 21
-      - github.com/freefq - 美国  22
-      - github.com/freefq - 加拿大  23
-      - github.com/freefq - 美国华盛顿Cogent通信公司 24
-      - github.com/freefq - 美国CloudFlare节点 25
-      - github.com/freefq - 挪威  26
-      - github.com/freefq - 美国CloudFlare节点 27
-      - github.com/freefq - 上海市浦东新区电信 28
-      - github.com/freefq - 美国  29
-      - github.com/freefq - 美国  30
-      - github.com/freefq - 新加坡OVH 31
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 13
+      - github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - github.com/freefq - 美国CloudFlare节点 15
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 17
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 18
+      - github.com/freefq - 加拿大  19
+      - github.com/freefq - 新加坡OVH 20
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 21
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 22
+      - github.com/freefq - 英国  23
+      - github.com/freefq - 美国CloudFlare公司CDN节点 24
+      - github.com/freefq - 美国  25
+      - github.com/freefq - 美国  26
+      - github.com/freefq - 加拿大  27
+      - github.com/freefq - 上海市徐汇区联通漕河泾数据中心 28
+      - github.com/freefq - 挪威  29
+      - github.com/freefq - 上海市电信 30
+      - github.com/freefq - 美国CloudFlare节点 31
       - 请换到v2ray
       - 将于近期停止ssr更新
-      - 更新于:01-05 00:00:01 - by BuLink.xyz
+      - 更新于:01-05 04:00:01 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 付费节点（youtube锦囊妙计帮帮帮）
@@ -4653,15 +6003,48 @@ proxy-groups:
       - Ytb:鹏哥分享_HK_香港_55
       - Ytb:鹏哥分享_HK_香港_56
       - Ytb:鹏哥分享_HK_香港_59
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _HK_香港->🇮🇳_IN_印度
-      - _HK_香港
-      - _CN_中国->🇭🇰_HK_香港 6
-      - _HK_香港->🇮🇳_IN_印度 2
+      - HK(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理) 2
+      - HK(Youtube技术分享室整理) 3
+      - HK(Youtube技术分享室整理
+      - HK(Youtube技术分享室整理) 4
+      - HK(Youtube技术分享室整理) 5
+      - HK(Youtube技术分享室整理) 6
+      - HK(Youtube技术分享室整理) 7
+      - HK(Youtube技术分享室整理) 8
+      - HK(Youtube技术分享室整理) 9
+      - HK(Youtube技术分享室整理) 10
+      - HK(Youtube技术分享室整理) 11
+      - HK(Youtube技术分享室整理) 12
+      - HK(Youtube技术分享室整理) 13
+      - HK(Youtube技术分享室整理) 14
+      - HK(Youtube技术分享室整理) 15
+      - HK(Youtube技术分享室整理) 16
+      - HK(Youtube技术分享室整理) 17
+      - HK(Youtube技术分享室整理) 18
+      - HK(Youtube技术分享室整理) 19
+      - HK(Youtube技术分享室整理) 20
+      - HK(Youtube技术分享室整理) 21
+      - HK(Youtube技术分享室整理) 22
+      - HK(Youtube技术分享室整理) 23
+      - HK(Youtube技术分享室整理) 24
+      - HK(Youtube技术分享室整理) 78
+      - HK(Youtube技术分享室整理) 25
+      - HK(Youtube技术分享室整理) 26
+      - HK(Youtube技术分享室整理) 27
+      - HK(Youtube技术分享室整理) 28
+      - 香港 🇭🇰(Youtube技术分享室整理)
+      - HK(Youtube技术分享室整理) 29
+      - HK(Youtube技术分享室整理) 30
+      - HK(Youtube技术分享室整理) 31
+      - HK(Youtube技术分享室整理) 32
+      - HK(Youtube技术分享室整理) 33
+      - HK(Youtube技术分享室整理) 34
+      - HK(Youtube技术分享室整理) 35
+      - HK(Youtube技术分享室整理) 36
+      - HK(Youtube技术分享室整理) 37
+      - HK(Youtube技术分享室整理) 38
+      - HK(Youtube技术分享室整理) 39
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -4700,7 +6083,43 @@ proxy-groups:
       - _JP_日本_Chen-2021.01.01_25
       - _JP_日本_Chen-2021.01.01_26
       - _JP_日本_Chen-2021.01.01_27
-      - _CN_中国->🇯🇵_JP_日本
+      - JP(Youtube技术分享室整理)
+      - JP(Youtube技术分享室整理) 2
+      - 日本 🇯🇵(Youtube技术分享室整理)
+      - JP(Youtube技术分享室整理) 3
+      - 日本 🇯🇵(Youtube技术分享室整理) 2
+      - 日本(Youtube技术分享室整理)
+      - 日本 🇯🇵(Youtube技术分享室整理) 3
+      - JP(Youtube技术分享室整理) 4
+      - 日本+🇯🇵(Youtube技术分享室整理)
+      - 日本 🇯🇵(Youtube技术分享室整理) 4
+      - JP(Youtube技术分享室整理) 5
+      - JP(Youtube技术分享室整理) 6
+      - JP(Youtube技术分享室整理) 7
+      - JP(Youtube技术分享室整理) 8
+      - 日本(Youtube技术分享室整理) 2
+      - 日本(Youtube技术分享室整理) 3
+      - 日本(Youtube技术分享室整理) 4
+      - JP(Youtube技术分享室整理) 9
+      - JP(Youtube技术分享室整理) 10
+      - JP(Youtube技术分享室整理) 11
+      - 日本(Youtube技术分享室整理) 5
+      - JP(Youtube技术分享室整理) 12
+      - JP(Youtube技术分享室整理) 13
+      - JP(Youtube技术分享室整理) 14
+      - 日本(Youtube技术分享室整理) 6
+      - 日本(Youtube技术分享室整理) 7
+      - 日本 🇯🇵(Youtube技术分享室整理) 5
+      - 日本(Youtube技术分享室整理) 8
+      - 日本 🇯🇵(Youtube技术分享室整理) 6
+      - JP(Youtube技术分享室整理) 15
+      - JP(Youtube技术分享室整理) 16
+      - 日本 🇯🇵(Youtube技术分享室整理) 7
+      - 日本 🇯🇵(Youtube技术分享室整理) 8
+      - 日本 🇯🇵(Youtube技术分享室整理) 9
+      - 日本(Youtube技术分享室整理) 9
+      - 日本 🇯🇵(Youtube技术分享室整理) 10
+      - JP(Youtube技术分享室整理) 17
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -5019,24 +6438,201 @@ proxy-groups:
       - Ytb:鹏哥分享_US_美国_50
       - Ytb:鹏哥分享_US_美国_57
       - Ytb:鹏哥分享_US_美国_58
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国 13
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 2
+      - US美国(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室整理) 2
+      - 美国(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 4
+      - US(Youtube技术分享室整理) 5
+      - US(Youtube技术分享室整理) 6
+      - US(Youtube技术分享室整理) 7
+      - US(Youtube技术分享室整理) 8
+      - 美国(Youtube技术分享室整理) 2
+      - US(Youtube技术分享室整理) 9
+      - US(Youtube技术分享室整理) 10
+      - US(Youtube技术分享室整理) 11
+      - 美国(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 12
+      - US(Youtube技术分享室整理) 13
+      - US(Youtube技术分享室整理) 14
+      - US(Youtube技术分享室整理) 15
+      - US(Youtube技术分享室整理) 16
+      - US(Youtube技术分享室整理) 17
+      - US(Youtube技术分享室整理) 18
+      - US(Youtube技术分享室整理) 19
+      - US(Youtube技术分享室整理) 20
+      - US(Youtube技术分享室整理) 21
+      - US(Youtube技术分享室整理) 22
+      - 美国(技术分享室整理,欢迎订阅)
+      - US(Youtube技术分享室整理) 23
+      - US(Youtube技术分享室整理) 24
+      - US(Youtube技术分享室整理) 25
+      - 美国(Youtube技术分享室整理) 4
+      - US(Youtube技术分享室整理) 26
+      - US(Youtube技术分享室整理) 27
+      - US(Youtube技术分享室整理) 28
+      - US(Youtube技术分享室整理) 29
+      - US(Youtube技术分享室整理) 30
+      - US(Youtube技术分享室整理) 31
+      - US(Youtube技术分享室整理) 32
+      - 美国(Youtube技术分享室整理) 5
+      - US(Youtube技术分享室整理) 33
+      - US(Youtube技术分享室整理) 34
+      - US(Youtube技术分享室整理) 35
+      - US(Youtube技术分享室整理) 36
+      - US(Youtube技术分享室整理) 37
+      - US(Youtube技术分享室整理) 38
+      - US(Youtube技术分享室整理) 39
+      - US(Youtube技术分享室整理) 40
+      - US(Youtube技术分享室整理) 41
+      - US(Youtube技术分享室整理) 42
+      - US(Youtube技术分享室整理) 43
+      - US(Youtube技术分享室整理) 44
+      - 美国(Youtube技术分享室整理) 6
+      - US(Youtube技术分享室整理) 45
+      - US(Youtube技术分享室整理) 46
+      - US(Youtube技术分享室整理) 47
+      - US(Youtube技术分享室整理) 48
+      - US(Youtube技术分享室整理) 49
+      - US(Youtube技术分享室整理) 50
+      - US(Youtube技术分享室整理) 51
+      - US(Youtube技术分享室整理) 52
+      - US美国(Youtube技术分享室整理) 3
+      - US(Youtube技术分享室整理) 53
+      - 美国(技术分享室整理,欢迎订阅) 2
+      - US(Youtube技术分享室整理) 54
+      - US(Youtube技术分享室整理) 55
+      - US(Youtube技术分享室整理) 56
+      - US(Youtube技术分享室整理) 57
+      - US(Youtube技术分享室整理) 58
+      - US(Youtube技术分享室整理) 59
+      - 美国 🇺🇸(Youtube技术分享室整理)
+      - US(Youtube技术分享室整理) 60
+      - US(Youtube技术分享室整理) 61
+      - US美国(Youtube技术分享室整理) 4
+      - US(Youtube技术分享室整理) 62
+      - US美国(Youtube技术分享室整理) 5
+      - US(Youtube技术分享室整理) 63
+      - US(Youtube技术分享室整理) 64
+      - US(Youtube技术分享室整理) 65
+      - US(Youtube技术分享室整理) 66
+      - US(Youtube技术分享室整理) 67
+      - US(Youtube技术分享室整理) 68
+      - US(Youtube技术分享室整理) 69
+      - US(Youtube技术分享室整理) 70
+      - US(Youtube技术分享室整理) 71
+      - US(Youtube技术分享室整理) 72
+      - US(Youtube技术分享室整理) 73
+      - US(Youtube技术分享室整理) 74
+      - US(Youtube技术分享室整理) 75
+      - US(Youtube技术分享室整理) 76
+      - US美国(Youtube技术分享室整理) 6
+      - US(Youtube技术分享室整理) 77
+      - 美国(Youtube技术分享室整理) 7
+      - US(Youtube技术分享室整理) 78
+      - US(Youtube技术分享室整理) 79
+      - US(Youtube技术分享室整理) 80
+      - US(Youtube技术分享室整理) 81
+      - US(Youtube技术分享室整理) 82
+      - US(Youtube技术分享室整理) 83
+      - US美国(Youtube技术分享室整理) 7
+      - US(技术分享室整理,欢迎订阅)
+      - US(Youtube技术分享室整理) 84
+      - US(Youtube技术分享室整理) 85
+      - US(Youtube技术分享室整理) 86
+      - US(Youtube技术分享室整理) 87
+      - US美国(Youtube技术分享室整理) 8
+      - 美国(Youtube技术分享室整理) 8
+      - 美国(Youtube技术分享室整理) 9
+      - US(Youtube技术分享室整理) 88
+      - US(Youtube技术分享室整理) 89
+      - US(Youtube技术分享室整理) 90
+      - US(Youtube技术分享室整理) 91
+      - US(Youtube技术分享室整理) 92
+      - US(Youtube技术分享室整理) 93
+      - US(Youtube技术分享室整理) 94
+      - US美国(Youtube技术分享室整理) 9
+      - US(Youtube技术分享室整理) 95
+      - US(Youtube技术分享室整理) 96
+      - US(Youtube技术分享室整理) 97
+      - US(Youtube技术分享室整理) 98
+      - 美国(Youtube技术分享室整理) 10
+      - US(Youtube技术分享室整理) 99
+      - US(Youtube技术分享室整理) 100
+      - US(Youtube技术分享室整理) 101
+      - _US美国(技术分享室整理,欢迎订阅)
+      - US(Youtube技术分享室整理) 102
+      - US(Youtube技术分享室整理) 103
+      - 美国(技术分享室整理,欢迎订阅) 3
+      - 美国(Youtube技术分享室整理) 11
+      - US(Youtube技术分享室整理) 104
+      - US(Youtube技术分享室整理) 105
+      - 美国(Youtube技术分享室整理) 12
+      - US(Youtube技术分享室整理) 106
+      - US(Youtube技术分享室整理) 107
+      - US(Youtube技术分享室整理) 108
+      - US美国(Youtube技术分享室整理) 10
+      - 美国(Youtube技术分享室整理) 13
+      - US(Youtube技术分享室整理) 109
+      - US(Youtube技术分享室整理) 110
+      - US(Youtube技术分享室整理) 111
+      - US(Youtube技术分享室整理) 112
+      - US(Youtube技术分享室整理) 113
+      - US(Youtube技术分享室整理) 114
+      - US(Youtube技术分享室整理) 115
+      - US(Youtube技术分享室整理) 116
+      - US(Youtube技术分享室整理) 117
+      - 美国(Youtube技术分享室整理) 14
+      - US(Youtube技术分享室整理) 118
+      - US(Youtube技术分享室整理) 119
+      - US(Youtube技术分享室整理) 120
+      - US(Youtube技术分享室整理) 121
+      - US(Youtube技术分享室整理) 122
+      - US(Youtube技术分享室整理) 123
+      - US(Youtube技术分享室整理) 124
+      - US(Youtube技术分享室整理) 125
+      - US(Youtube技术分享室整理) 126
+      - US(Youtube技术分享室整理) 127
+      - US(Youtube技术分享室整理) 128
+      - US(Youtube技术分享室整理) 129
+      - US(Youtube技术分享室整理) 130
+      - US(Youtube技术分享室整理) 131
+      - US(Youtube技术分享室整理) 132
+      - US(Youtube技术分享室整理) 133
+      - US(Youtube技术分享室整理) 134
+      - US(Youtube技术分享室整理) 135
+      - US美国(Youtube技术分享室整理) 11
+      - US(Youtube技术分享室整理) 136
+      - US(Youtube技术分享室整理) 137
+      - US(Youtube技术分享室整理) 138
+      - US(Youtube技术分享室整理) 139
+      - US(Youtube技术分享室整理) 140
+      - US(Youtube技术分享室整理) 141
+      - US(Youtube技术分享室整理) 142
+      - US(Youtube技术分享室整理) 143
+      - US(Youtube技术分享室整理) 144
+      - US(Youtube技术分享室整理) 145
+      - US(Youtube技术分享室整理) 146
+      - US(Youtube技术分享室整理) 147
+      - US美国(Youtube技术分享室整理) 12
+      - US(Youtube技术分享室整理) 148
+      - US(Youtube技术分享室整理) 149
+      - US(Youtube技术分享室整理) 150
+      - US(Youtube技术分享室整理) 151
+      - US(Youtube技术分享室整理) 152
+      - US(Youtube技术分享室整理) 153
+      - US(Youtube技术分享室整理) 154
+      - US(Youtube技术分享室整理) 155
+      - US(Youtube技术分享室整理) 156
+      - US(Youtube技术分享室整理) 157
+      - US(Youtube技术分享室整理) 158
+      - US(Youtube技术分享室整理) 159
+      - US(Youtube技术分享室整理) 160
+      - US(Youtube技术分享室整理) 161
+      - US(Youtube技术分享室整理) 162
+      - US(Youtube技术分享室整理) 163
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -5151,28 +6747,28 @@ proxy-groups:
       - 126美国∞直连
       - 127美国∞直连
       - 128美国∞直连
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 3
-      - github.com/freefq - 美国CloudFlare节点 4
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 5
+      - github.com/freefq - 美国华盛顿Cogent通信公司 1
+      - github.com/freefq - 美国华盛顿Cogent通信公司 2
+      - github.com/freefq - 美国华盛顿Cogent通信公司 3
+      - github.com/freefq - 美国华盛顿Cogent通信公司 4
       - github.com/freefq - 美国华盛顿Cogent通信公司 6
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 7
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 8
-      - github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - github.com/freefq - 美国  7
+      - github.com/freefq - 美国  9
       - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 10
-      - github.com/freefq - 美国蒙大拿州Sharktech公司 11
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 11
       - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 12
-      - github.com/freefq - 美国  14
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 18
-      - github.com/freefq - 美国华盛顿Cogent通信公司 19
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 20
-      - github.com/freefq - 美国华盛顿Cogent通信公司 21
-      - github.com/freefq - 美国  22
-      - github.com/freefq - 美国华盛顿Cogent通信公司 24
-      - github.com/freefq - 美国CloudFlare节点 25
-      - github.com/freefq - 美国CloudFlare节点 27
-      - github.com/freefq - 美国  29
-      - github.com/freefq - 美国  30
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 13
+      - github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - github.com/freefq - 美国CloudFlare节点 15
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 17
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 18
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 21
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 22
+      - github.com/freefq - 美国CloudFlare公司CDN节点 24
+      - github.com/freefq - 美国  25
+      - github.com/freefq - 美国  26
+      - github.com/freefq - 美国CloudFlare节点 31
       - 美国（youtube锦囊妙计帮帮帮）
       - 美国（youtube锦囊妙计帮帮帮） 2
       - 美国（youtube锦囊妙计帮帮帮） 3
@@ -5218,9 +6814,15 @@ proxy-groups:
       - 台湾（YouTube资源分享者） 6
       - 台湾（YouTube资源分享者） 7
       - 台湾（YouTube资源分享者） 8
-      - _CN_中国->🇹🇼_TW_台湾
-      - _TW_台湾
-      - _CN_中国->🇹🇼_TW_台湾 2
+      - TW(Youtube技术分享室整理)
+      - TW(Youtube技术分享室整理) 2
+      - TW(Youtube技术分享室整理) 3
+      - TW(Youtube技术分享室整理) 4
+      - TW(Youtube技术分享室整理) 5
+      - 台湾 🇹🇼(Youtube技术分享室整理)
+      - 台湾 🇹🇼(Youtube技术分享室整理) 2
+      - TW(Youtube技术分享室整理) 6
+      - TW(Youtube技术分享室整理) 7
       - 台湾（YouTube资源分享者） 9
       - 台湾（YouTube资源分享者） 10
       - 台湾（YouTube资源分享者） 11
@@ -5244,18 +6846,30 @@ proxy-groups:
       - 新加坡（YouTube资源分享者）
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V16-付费推荐::suo.yt/ssrsub"
-      - _CN_中国->🇸🇬_SG_新加坡
+      - 新加坡 🇸🇬(Youtube技术分享室整理)
+      - SG(Youtube技术分享室整理)
+      - SG(Youtube技术分享室整理) 2
+      - SG(Youtube技术分享室整理) 3
+      - SG(Youtube技术分享室整理) 4
+      - SG(Youtube技术分享室整理) 5
+      - SG(Youtube技术分享室整理) 6
+      - SG(Youtube技术分享室整理) 7
+      - SG(Youtube技术分享室整理) 8
+      - SG(Youtube技术分享室整理) 9
+      - SG(Youtube技术分享室整理) 10
+      - SG(Youtube技术分享室整理) 11
       - 新加坡（YouTube资源分享者） 2
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-新加坡V16-付费推荐::suo.yt/ssrsub 2"
       - 018新加坡∞中转
       - 019新加坡∞直连
-      - github.com/freefq - 新加坡OVH 31
+      - github.com/freefq - 新加坡OVH 20
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - KR(Youtube技术分享室整理)
       - 日韩频道 TG@shoucangAV
   - name: 🎥 奈飞节点
     type: select
