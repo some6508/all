@@ -5,52 +5,708 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇫🇷_FR_法国_1', server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '沐小悠_CN_1', server: iepl.elaina.link, port: 50010, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458}
+  - {name: '沐小悠_CN_2', server: iepl.elaina.link, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458}
+  - {name: '沐小悠_CN_3', server: iepl.elaina.link, port: 50009, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458}
+  - {name: '沐小悠_CN_4', server: jmcm.rokishi.cyou, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458}
+  - {name: '沐小悠_CN_5', server: iepl.elaina.link, port: 50006, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458}
+  - {name: '沐小悠_CN_6', server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089?peer=cdn.savoy.click&tfo=1&mux=1undefinedundefined, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp}
+  - {name: '沐小悠_CN_7', server: hk-hkg-it2-svm-tr.node.inforun.work, port: 13889?peer=cdn.savoy.click&tfo=1&mux=1undefinedundefined, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp}
+  - {name: '沐小悠_CN_8', server: sh-hk-hgc-1g-tr.node.inforun.work, port: 20289?peer=cdn.savoy.click&tfo=1&mux=1undefinedundefined, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp}
+  - {name: '沐小悠_CN_9', server: sh-hk-hgc-100m-tr.cdn.savoy.click, port: 20189?peer=cdn.savoy.click&tfo=1&mux=1undefinedundefined, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp}
+  - {name: '沐小悠_CN_10', server: hk-hkg-gz-hk-hkt-v2.node.inforun.work, port: 60089?peer=cdn.savoy.click&tfo=1&mux=1undefinedundefined, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp}
+  - {name: '沐小悠_CN_11', server: hk-hkg-shhk-001-tr.cdn.savoy.click, port: 20089?peer=cdn.savoy.click&tfo=1&mux=1undefinedundefined, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp}
+  - {name: '沐小悠_CN_12', server: sg-sin-krn-tr.node.inforun.work, port: 12889?peer=cdn.savoy.click&tfo=1&mux=1undefinedundefined, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp}
+  - {name: '沐小悠_CN_13', server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 60189?peer=cdn.savoy.click&tfo=1&mux=1undefinedundefined, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp}
+  - {name: '沐小悠_JP_14', server: jp6.chuqianglai.com, port: 443undefinedundefined, type: trojan, password: MdgQdGKztQR36kpba4}
+  - {name: '沐小悠_JP_15', server: jp2.chuqianglai.com, port: 443undefinedundefined, type: trojan, password: MdgQdGKztQR36kpba4}
+  - {name: '沐小悠_CN_16', server: 211.99.96.11, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ}
+  - {name: '沐小悠_CN_17', server: 211.99.96.7, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ}
+  - {name: '沐小悠_CN_18', server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ}
+  - {name: '沐小悠_CN_19', server: 211.99.96.16, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ}
+  - {name: '沐小悠_CN_20', server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ}
+  - {name: '沐小悠_CN_21', server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ}
+  - {name: '沐小悠_CN_22', server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ}
+  - {name: '沐小悠_CN_23', server: 117.28.243.220, port: 8254, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: '沐小悠_CN_24', server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: '沐小悠_TH_25', server: 124.156.246.205, port: 8335, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: '沐小悠_CN_26', server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: '沐小悠_CN_27', server: 117.28.243.220, port: 8036, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: '沐小悠_CN_28', server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: '沐小悠_CN_29', server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: '沐小悠_CN_30', server: 117.28.243.220, port: 8045, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: '沐小悠_CN_31', server: 117.28.243.220, port: 8221, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: '沐小悠_CN_32', server: cn-6.crhnode.top, port: 560, type: ssr, password: "AAEXNETWORKTECHNOLOGYLTD20170715", cipher: rc4-md5, protocol: origin, obfs: http_simple, obfs-param: 15710-0p20uaBc1V.download.microsoft.com}
+  - {name: '沐小悠_CN_33', server: cn-1.crhnode.top, port: 555, type: ssr, password: "AAEXNETWORKTECHNOLOGYLTD20170715", cipher: rc4-md5, protocol: origin, obfs: http_simple, obfs-param: 15710-0p20uaBc1V.download.microsoft.com}
+  - {name: '沐小悠_CN_34', server: cn-1.crhnode.top, port: 557, type: ssr, password: "AAEXNETWORKTECHNOLOGYLTD20170715", cipher: rc4-md5, protocol: origin, obfs: http_simple, obfs-param: 15710-0p20uaBc1V.download.microsoft.com}
+  - {name: '沐小悠_CN_35', server: cn-6.crhnode.top, port: 567, type: ssr, password: "AAEXNETWORKTECHNOLOGYLTD20170715", cipher: rc4-md5, protocol: origin, obfs: http_simple, obfs-param: 15710-0p20uaBc1V.download.microsoft.com}
+  - {name: '沐小悠_CN_36', server: cn-6.crhnode.top, port: 565, type: ssr, password: "AAEXNETWORKTECHNOLOGYLTD20170715", cipher: rc4-md5, protocol: origin, obfs: http_simple, obfs-param: 15710-0p20uaBc1V.download.microsoft.com}
+  - {name: '沐小悠_CN_37', server: cn-6.crhnode.top, port: 566, type: ssr, password: "AAEXNETWORKTECHNOLOGYLTD20170715", cipher: rc4-md5, protocol: origin, obfs: http_simple, obfs-param: 15710-0p20uaBc1V.download.microsoft.com}
+  - {name: '沐小悠_CN_38', server: cn-6.crhnode.top, port: 562, type: ssr, password: "AAEXNETWORKTECHNOLOGYLTD20170715", cipher: rc4-md5, protocol: origin, obfs: http_simple, obfs-param: 15710-0p20uaBc1V.download.microsoft.com}
+  - {name: '沐小悠_CN_39', server: s1.upyun.online, port: 12340?allowInsecure=1&peer=free.upyun.onlineundefinedundefined, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219}
+  - {name: '沐小悠_CN_40', server: s3.upyun.online, port: 12340?allowInsecure=1&peer=free.upyun.onlineundefinedundefined, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219}
+  - {name: '沐小悠_CN_41', server: s1.upyun.online, port: 12340?allowInsecure=1&peer=free.upyun.onlineundefinedundefined, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219}
+  - {name: '沐小悠_CN_42', server: s2.upyun.online, port: 12340?allowInsecure=1&peer=free.upyun.onlineundefinedundefined, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219}
+  - {name: '沐小悠_CN_43', server: s3.upyun.online, port: 12340?allowInsecure=1&peer=free.upyun.onlineundefinedundefined, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219}
+  - {name: '沐小悠_CN_44', server: s2.upyun.online, port: 12340?allowInsecure=1&peer=free.upyun.onlineundefinedundefined, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219}
+  - {name: '沐小悠_FR_45', server: s4.upyun.online, port: 12340?allowInsecure=1&peer=free.upyun.onlineundefinedundefined, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219}
+  - {name: '沐小悠_DE_46', server: de-nue-tr.node.inforun.work, port: 889?peer=cdn.savoy.click&tfo=1&mux=1undefinedundefined, type: trojan, password: SfobRIcergHchqBFzzua}
+  - {name: '沐小悠_GB_47', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '沐小悠_HK_48', server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '沐小悠_HK_49', server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '沐小悠_TW_50', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: '沐小悠_HK_51', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '沐小悠_PH_52', server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
+  - {name: '沐小悠_US_53', server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '沐小悠_US_54', server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '沐小悠_CN_55', server: 122.9.62.60, port: 10081, type: ss, cipher: chacha20-ietf-poly1305, password: dce4c0411b7146eb3d60ed21fd7a9e3e621ac67328fa30daa463f6ac071f4620}
+  - {name: '沐小悠_CN_56', server: 122.9.54.196, port: 6049, type: ss, cipher: chacha20-ietf-poly1305, password: 64ddabdc5868db08181c639e6989ab5f0c083cae983541ee254702287210aa2e}
+  - {name: '沐小悠_CN_57', server: 122.9.62.46, port: 6634, type: ss, cipher: chacha20-ietf-poly1305, password: 661564ea3e4e45b71875794393c811310669141d68f530a2053403a65e612a6a}
+  - {name: '沐小悠_CN_58', server: 122.9.54.26, port: 3720, type: ss, cipher: chacha20-ietf-poly1305, password: 677fd6d6b32d9bff90bbbd5229fef3c8f536695d631d683642beafb9c7ce2016}
+  - {name: '沐小悠_CN_59', server: 122.9.54.138, port: 3713, type: ss, cipher: chacha20-ietf-poly1305, password: 23b67e26178a9a0f0f547b7a7ab5000f3c9db09394a294984ddf76a165088c26}
+  - {name: '沐小悠_HK_60', server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '沐小悠_HK_61', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '沐小悠_HK_62', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '沐小悠_HK_63', server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: '沐小悠_HK_64', server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: '沐小悠_HK_65', server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '沐小悠_HK_66', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '沐小悠_HK_67', server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '沐小悠_HK_68', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '沐小悠_HK_69', server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '沐小悠_HK_70', server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: '沐小悠_HK_71', server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: '沐小悠_SG_72', server: 52.77.239.192, port: 8181, type: ssr, password: "q4UW0QdUl", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/vpnhat, obfs-param: t.me/vpnhat}
+  - {name: '沐小悠_HK_73', server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: '沐小悠_KR_74', server: kr-am6.eqnode.net, port: 443, type: ssr, password: "abHpSuLdQ", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
+  - {name: '沐小悠_CN_75', server: 122.9.62.60, port: 10081, type: ss, cipher: chacha20-ietf-poly1305, password: dce4c0411b7146eb3d60ed21fd7a9e3e621ac67328fa30daa463f6ac071f4620}
+  - {name: '沐小悠_HK_76', server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: '沐小悠_CN_77', server: 122.9.54.196, port: 6049, type: ss, cipher: chacha20-ietf-poly1305, password: 64ddabdc5868db08181c639e6989ab5f0c083cae983541ee254702287210aa2e}
+  - {name: '沐小悠_CN_78', server: 122.9.62.46, port: 6634, type: ss, cipher: chacha20-ietf-poly1305, password: 661564ea3e4e45b71875794393c811310669141d68f530a2053403a65e612a6a}
+  - {name: '沐小悠_CN_79', server: 122.9.54.138, port: 3713, type: ss, cipher: chacha20-ietf-poly1305, password: 23b67e26178a9a0f0f547b7a7ab5000f3c9db09394a294984ddf76a165088c26}
+  - {name: '沐小悠_CN_80', server: 122.9.54.26, port: 3720, type: ss, cipher: chacha20-ietf-poly1305, password: 677fd6d6b32d9bff90bbbd5229fef3c8f536695d631d683642beafb9c7ce2016}
+  - {name: '沐小悠_HK_81', server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '沐小悠_HK_82', server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '沐小悠_HK_83', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国_1
+      - 沐小悠_CN_1
+      - 沐小悠_CN_2
+      - 沐小悠_CN_3
+      - 沐小悠_CN_4
+      - 沐小悠_CN_5
+      - 沐小悠_CN_6
+      - 沐小悠_CN_7
+      - 沐小悠_CN_8
+      - 沐小悠_CN_9
+      - 沐小悠_CN_10
+      - 沐小悠_CN_11
+      - 沐小悠_CN_12
+      - 沐小悠_CN_13
+      - 沐小悠_JP_14
+      - 沐小悠_JP_15
+      - 沐小悠_CN_16
+      - 沐小悠_CN_17
+      - 沐小悠_CN_18
+      - 沐小悠_CN_19
+      - 沐小悠_CN_20
+      - 沐小悠_CN_21
+      - 沐小悠_CN_22
+      - 沐小悠_CN_23
+      - 沐小悠_CN_24
+      - 沐小悠_TH_25
+      - 沐小悠_CN_26
+      - 沐小悠_CN_27
+      - 沐小悠_CN_28
+      - 沐小悠_CN_29
+      - 沐小悠_CN_30
+      - 沐小悠_CN_31
+      - 沐小悠_CN_32
+      - 沐小悠_CN_33
+      - 沐小悠_CN_34
+      - 沐小悠_CN_35
+      - 沐小悠_CN_36
+      - 沐小悠_CN_37
+      - 沐小悠_CN_38
+      - 沐小悠_CN_39
+      - 沐小悠_CN_40
+      - 沐小悠_CN_41
+      - 沐小悠_CN_42
+      - 沐小悠_CN_43
+      - 沐小悠_CN_44
+      - 沐小悠_FR_45
+      - 沐小悠_DE_46
+      - 沐小悠_GB_47
+      - 沐小悠_HK_48
+      - 沐小悠_HK_49
+      - 沐小悠_TW_50
+      - 沐小悠_HK_51
+      - 沐小悠_PH_52
+      - 沐小悠_US_53
+      - 沐小悠_US_54
+      - 沐小悠_CN_55
+      - 沐小悠_CN_56
+      - 沐小悠_CN_57
+      - 沐小悠_CN_58
+      - 沐小悠_CN_59
+      - 沐小悠_HK_60
+      - 沐小悠_HK_61
+      - 沐小悠_HK_62
+      - 沐小悠_HK_63
+      - 沐小悠_HK_64
+      - 沐小悠_HK_65
+      - 沐小悠_HK_66
+      - 沐小悠_HK_67
+      - 沐小悠_HK_68
+      - 沐小悠_HK_69
+      - 沐小悠_HK_70
+      - 沐小悠_HK_71
+      - 沐小悠_SG_72
+      - 沐小悠_HK_73
+      - 沐小悠_KR_74
+      - 沐小悠_CN_75
+      - 沐小悠_HK_76
+      - 沐小悠_CN_77
+      - 沐小悠_CN_78
+      - 沐小悠_CN_79
+      - 沐小悠_CN_80
+      - 沐小悠_HK_81
+      - 沐小悠_HK_82
+      - 沐小悠_HK_83
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇫🇷_FR_法国_1
+      - 沐小悠_CN_1
+      - 沐小悠_CN_2
+      - 沐小悠_CN_3
+      - 沐小悠_CN_4
+      - 沐小悠_CN_5
+      - 沐小悠_CN_6
+      - 沐小悠_CN_7
+      - 沐小悠_CN_8
+      - 沐小悠_CN_9
+      - 沐小悠_CN_10
+      - 沐小悠_CN_11
+      - 沐小悠_CN_12
+      - 沐小悠_CN_13
+      - 沐小悠_JP_14
+      - 沐小悠_JP_15
+      - 沐小悠_CN_16
+      - 沐小悠_CN_17
+      - 沐小悠_CN_18
+      - 沐小悠_CN_19
+      - 沐小悠_CN_20
+      - 沐小悠_CN_21
+      - 沐小悠_CN_22
+      - 沐小悠_CN_23
+      - 沐小悠_CN_24
+      - 沐小悠_TH_25
+      - 沐小悠_CN_26
+      - 沐小悠_CN_27
+      - 沐小悠_CN_28
+      - 沐小悠_CN_29
+      - 沐小悠_CN_30
+      - 沐小悠_CN_31
+      - 沐小悠_CN_32
+      - 沐小悠_CN_33
+      - 沐小悠_CN_34
+      - 沐小悠_CN_35
+      - 沐小悠_CN_36
+      - 沐小悠_CN_37
+      - 沐小悠_CN_38
+      - 沐小悠_CN_39
+      - 沐小悠_CN_40
+      - 沐小悠_CN_41
+      - 沐小悠_CN_42
+      - 沐小悠_CN_43
+      - 沐小悠_CN_44
+      - 沐小悠_FR_45
+      - 沐小悠_DE_46
+      - 沐小悠_GB_47
+      - 沐小悠_HK_48
+      - 沐小悠_HK_49
+      - 沐小悠_TW_50
+      - 沐小悠_HK_51
+      - 沐小悠_PH_52
+      - 沐小悠_US_53
+      - 沐小悠_US_54
+      - 沐小悠_CN_55
+      - 沐小悠_CN_56
+      - 沐小悠_CN_57
+      - 沐小悠_CN_58
+      - 沐小悠_CN_59
+      - 沐小悠_HK_60
+      - 沐小悠_HK_61
+      - 沐小悠_HK_62
+      - 沐小悠_HK_63
+      - 沐小悠_HK_64
+      - 沐小悠_HK_65
+      - 沐小悠_HK_66
+      - 沐小悠_HK_67
+      - 沐小悠_HK_68
+      - 沐小悠_HK_69
+      - 沐小悠_HK_70
+      - 沐小悠_HK_71
+      - 沐小悠_SG_72
+      - 沐小悠_HK_73
+      - 沐小悠_KR_74
+      - 沐小悠_CN_75
+      - 沐小悠_HK_76
+      - 沐小悠_CN_77
+      - 沐小悠_CN_78
+      - 沐小悠_CN_79
+      - 沐小悠_CN_80
+      - 沐小悠_HK_81
+      - 沐小悠_HK_82
+      - 沐小悠_HK_83
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国_1
+      - 沐小悠_CN_1
+      - 沐小悠_CN_2
+      - 沐小悠_CN_3
+      - 沐小悠_CN_4
+      - 沐小悠_CN_5
+      - 沐小悠_CN_6
+      - 沐小悠_CN_7
+      - 沐小悠_CN_8
+      - 沐小悠_CN_9
+      - 沐小悠_CN_10
+      - 沐小悠_CN_11
+      - 沐小悠_CN_12
+      - 沐小悠_CN_13
+      - 沐小悠_JP_14
+      - 沐小悠_JP_15
+      - 沐小悠_CN_16
+      - 沐小悠_CN_17
+      - 沐小悠_CN_18
+      - 沐小悠_CN_19
+      - 沐小悠_CN_20
+      - 沐小悠_CN_21
+      - 沐小悠_CN_22
+      - 沐小悠_CN_23
+      - 沐小悠_CN_24
+      - 沐小悠_TH_25
+      - 沐小悠_CN_26
+      - 沐小悠_CN_27
+      - 沐小悠_CN_28
+      - 沐小悠_CN_29
+      - 沐小悠_CN_30
+      - 沐小悠_CN_31
+      - 沐小悠_CN_32
+      - 沐小悠_CN_33
+      - 沐小悠_CN_34
+      - 沐小悠_CN_35
+      - 沐小悠_CN_36
+      - 沐小悠_CN_37
+      - 沐小悠_CN_38
+      - 沐小悠_CN_39
+      - 沐小悠_CN_40
+      - 沐小悠_CN_41
+      - 沐小悠_CN_42
+      - 沐小悠_CN_43
+      - 沐小悠_CN_44
+      - 沐小悠_FR_45
+      - 沐小悠_DE_46
+      - 沐小悠_GB_47
+      - 沐小悠_HK_48
+      - 沐小悠_HK_49
+      - 沐小悠_TW_50
+      - 沐小悠_HK_51
+      - 沐小悠_PH_52
+      - 沐小悠_US_53
+      - 沐小悠_US_54
+      - 沐小悠_CN_55
+      - 沐小悠_CN_56
+      - 沐小悠_CN_57
+      - 沐小悠_CN_58
+      - 沐小悠_CN_59
+      - 沐小悠_HK_60
+      - 沐小悠_HK_61
+      - 沐小悠_HK_62
+      - 沐小悠_HK_63
+      - 沐小悠_HK_64
+      - 沐小悠_HK_65
+      - 沐小悠_HK_66
+      - 沐小悠_HK_67
+      - 沐小悠_HK_68
+      - 沐小悠_HK_69
+      - 沐小悠_HK_70
+      - 沐小悠_HK_71
+      - 沐小悠_SG_72
+      - 沐小悠_HK_73
+      - 沐小悠_KR_74
+      - 沐小悠_CN_75
+      - 沐小悠_HK_76
+      - 沐小悠_CN_77
+      - 沐小悠_CN_78
+      - 沐小悠_CN_79
+      - 沐小悠_CN_80
+      - 沐小悠_HK_81
+      - 沐小悠_HK_82
+      - 沐小悠_HK_83
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇫🇷_FR_法国_1
+      - 沐小悠_CN_1
+      - 沐小悠_CN_2
+      - 沐小悠_CN_3
+      - 沐小悠_CN_4
+      - 沐小悠_CN_5
+      - 沐小悠_CN_6
+      - 沐小悠_CN_7
+      - 沐小悠_CN_8
+      - 沐小悠_CN_9
+      - 沐小悠_CN_10
+      - 沐小悠_CN_11
+      - 沐小悠_CN_12
+      - 沐小悠_CN_13
+      - 沐小悠_JP_14
+      - 沐小悠_JP_15
+      - 沐小悠_CN_16
+      - 沐小悠_CN_17
+      - 沐小悠_CN_18
+      - 沐小悠_CN_19
+      - 沐小悠_CN_20
+      - 沐小悠_CN_21
+      - 沐小悠_CN_22
+      - 沐小悠_CN_23
+      - 沐小悠_CN_24
+      - 沐小悠_TH_25
+      - 沐小悠_CN_26
+      - 沐小悠_CN_27
+      - 沐小悠_CN_28
+      - 沐小悠_CN_29
+      - 沐小悠_CN_30
+      - 沐小悠_CN_31
+      - 沐小悠_CN_32
+      - 沐小悠_CN_33
+      - 沐小悠_CN_34
+      - 沐小悠_CN_35
+      - 沐小悠_CN_36
+      - 沐小悠_CN_37
+      - 沐小悠_CN_38
+      - 沐小悠_CN_39
+      - 沐小悠_CN_40
+      - 沐小悠_CN_41
+      - 沐小悠_CN_42
+      - 沐小悠_CN_43
+      - 沐小悠_CN_44
+      - 沐小悠_FR_45
+      - 沐小悠_DE_46
+      - 沐小悠_GB_47
+      - 沐小悠_HK_48
+      - 沐小悠_HK_49
+      - 沐小悠_TW_50
+      - 沐小悠_HK_51
+      - 沐小悠_PH_52
+      - 沐小悠_US_53
+      - 沐小悠_US_54
+      - 沐小悠_CN_55
+      - 沐小悠_CN_56
+      - 沐小悠_CN_57
+      - 沐小悠_CN_58
+      - 沐小悠_CN_59
+      - 沐小悠_HK_60
+      - 沐小悠_HK_61
+      - 沐小悠_HK_62
+      - 沐小悠_HK_63
+      - 沐小悠_HK_64
+      - 沐小悠_HK_65
+      - 沐小悠_HK_66
+      - 沐小悠_HK_67
+      - 沐小悠_HK_68
+      - 沐小悠_HK_69
+      - 沐小悠_HK_70
+      - 沐小悠_HK_71
+      - 沐小悠_SG_72
+      - 沐小悠_HK_73
+      - 沐小悠_KR_74
+      - 沐小悠_CN_75
+      - 沐小悠_HK_76
+      - 沐小悠_CN_77
+      - 沐小悠_CN_78
+      - 沐小悠_CN_79
+      - 沐小悠_CN_80
+      - 沐小悠_HK_81
+      - 沐小悠_HK_82
+      - 沐小悠_HK_83
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇫🇷_FR_法国_1
+      - 沐小悠_CN_1
+      - 沐小悠_CN_2
+      - 沐小悠_CN_3
+      - 沐小悠_CN_4
+      - 沐小悠_CN_5
+      - 沐小悠_CN_6
+      - 沐小悠_CN_7
+      - 沐小悠_CN_8
+      - 沐小悠_CN_9
+      - 沐小悠_CN_10
+      - 沐小悠_CN_11
+      - 沐小悠_CN_12
+      - 沐小悠_CN_13
+      - 沐小悠_JP_14
+      - 沐小悠_JP_15
+      - 沐小悠_CN_16
+      - 沐小悠_CN_17
+      - 沐小悠_CN_18
+      - 沐小悠_CN_19
+      - 沐小悠_CN_20
+      - 沐小悠_CN_21
+      - 沐小悠_CN_22
+      - 沐小悠_CN_23
+      - 沐小悠_CN_24
+      - 沐小悠_TH_25
+      - 沐小悠_CN_26
+      - 沐小悠_CN_27
+      - 沐小悠_CN_28
+      - 沐小悠_CN_29
+      - 沐小悠_CN_30
+      - 沐小悠_CN_31
+      - 沐小悠_CN_32
+      - 沐小悠_CN_33
+      - 沐小悠_CN_34
+      - 沐小悠_CN_35
+      - 沐小悠_CN_36
+      - 沐小悠_CN_37
+      - 沐小悠_CN_38
+      - 沐小悠_CN_39
+      - 沐小悠_CN_40
+      - 沐小悠_CN_41
+      - 沐小悠_CN_42
+      - 沐小悠_CN_43
+      - 沐小悠_CN_44
+      - 沐小悠_FR_45
+      - 沐小悠_DE_46
+      - 沐小悠_GB_47
+      - 沐小悠_HK_48
+      - 沐小悠_HK_49
+      - 沐小悠_TW_50
+      - 沐小悠_HK_51
+      - 沐小悠_PH_52
+      - 沐小悠_US_53
+      - 沐小悠_US_54
+      - 沐小悠_CN_55
+      - 沐小悠_CN_56
+      - 沐小悠_CN_57
+      - 沐小悠_CN_58
+      - 沐小悠_CN_59
+      - 沐小悠_HK_60
+      - 沐小悠_HK_61
+      - 沐小悠_HK_62
+      - 沐小悠_HK_63
+      - 沐小悠_HK_64
+      - 沐小悠_HK_65
+      - 沐小悠_HK_66
+      - 沐小悠_HK_67
+      - 沐小悠_HK_68
+      - 沐小悠_HK_69
+      - 沐小悠_HK_70
+      - 沐小悠_HK_71
+      - 沐小悠_SG_72
+      - 沐小悠_HK_73
+      - 沐小悠_KR_74
+      - 沐小悠_CN_75
+      - 沐小悠_HK_76
+      - 沐小悠_CN_77
+      - 沐小悠_CN_78
+      - 沐小悠_CN_79
+      - 沐小悠_CN_80
+      - 沐小悠_HK_81
+      - 沐小悠_HK_82
+      - 沐小悠_HK_83
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国_1
+      - 沐小悠_CN_1
+      - 沐小悠_CN_2
+      - 沐小悠_CN_3
+      - 沐小悠_CN_4
+      - 沐小悠_CN_5
+      - 沐小悠_CN_6
+      - 沐小悠_CN_7
+      - 沐小悠_CN_8
+      - 沐小悠_CN_9
+      - 沐小悠_CN_10
+      - 沐小悠_CN_11
+      - 沐小悠_CN_12
+      - 沐小悠_CN_13
+      - 沐小悠_JP_14
+      - 沐小悠_JP_15
+      - 沐小悠_CN_16
+      - 沐小悠_CN_17
+      - 沐小悠_CN_18
+      - 沐小悠_CN_19
+      - 沐小悠_CN_20
+      - 沐小悠_CN_21
+      - 沐小悠_CN_22
+      - 沐小悠_CN_23
+      - 沐小悠_CN_24
+      - 沐小悠_TH_25
+      - 沐小悠_CN_26
+      - 沐小悠_CN_27
+      - 沐小悠_CN_28
+      - 沐小悠_CN_29
+      - 沐小悠_CN_30
+      - 沐小悠_CN_31
+      - 沐小悠_CN_32
+      - 沐小悠_CN_33
+      - 沐小悠_CN_34
+      - 沐小悠_CN_35
+      - 沐小悠_CN_36
+      - 沐小悠_CN_37
+      - 沐小悠_CN_38
+      - 沐小悠_CN_39
+      - 沐小悠_CN_40
+      - 沐小悠_CN_41
+      - 沐小悠_CN_42
+      - 沐小悠_CN_43
+      - 沐小悠_CN_44
+      - 沐小悠_FR_45
+      - 沐小悠_DE_46
+      - 沐小悠_GB_47
+      - 沐小悠_HK_48
+      - 沐小悠_HK_49
+      - 沐小悠_TW_50
+      - 沐小悠_HK_51
+      - 沐小悠_PH_52
+      - 沐小悠_US_53
+      - 沐小悠_US_54
+      - 沐小悠_CN_55
+      - 沐小悠_CN_56
+      - 沐小悠_CN_57
+      - 沐小悠_CN_58
+      - 沐小悠_CN_59
+      - 沐小悠_HK_60
+      - 沐小悠_HK_61
+      - 沐小悠_HK_62
+      - 沐小悠_HK_63
+      - 沐小悠_HK_64
+      - 沐小悠_HK_65
+      - 沐小悠_HK_66
+      - 沐小悠_HK_67
+      - 沐小悠_HK_68
+      - 沐小悠_HK_69
+      - 沐小悠_HK_70
+      - 沐小悠_HK_71
+      - 沐小悠_SG_72
+      - 沐小悠_HK_73
+      - 沐小悠_KR_74
+      - 沐小悠_CN_75
+      - 沐小悠_HK_76
+      - 沐小悠_CN_77
+      - 沐小悠_CN_78
+      - 沐小悠_CN_79
+      - 沐小悠_CN_80
+      - 沐小悠_HK_81
+      - 沐小悠_HK_82
+      - 沐小悠_HK_83
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷_FR_法国_1
+      - 沐小悠_CN_1
+      - 沐小悠_CN_2
+      - 沐小悠_CN_3
+      - 沐小悠_CN_4
+      - 沐小悠_CN_5
+      - 沐小悠_CN_6
+      - 沐小悠_CN_7
+      - 沐小悠_CN_8
+      - 沐小悠_CN_9
+      - 沐小悠_CN_10
+      - 沐小悠_CN_11
+      - 沐小悠_CN_12
+      - 沐小悠_CN_13
+      - 沐小悠_JP_14
+      - 沐小悠_JP_15
+      - 沐小悠_CN_16
+      - 沐小悠_CN_17
+      - 沐小悠_CN_18
+      - 沐小悠_CN_19
+      - 沐小悠_CN_20
+      - 沐小悠_CN_21
+      - 沐小悠_CN_22
+      - 沐小悠_CN_23
+      - 沐小悠_CN_24
+      - 沐小悠_TH_25
+      - 沐小悠_CN_26
+      - 沐小悠_CN_27
+      - 沐小悠_CN_28
+      - 沐小悠_CN_29
+      - 沐小悠_CN_30
+      - 沐小悠_CN_31
+      - 沐小悠_CN_32
+      - 沐小悠_CN_33
+      - 沐小悠_CN_34
+      - 沐小悠_CN_35
+      - 沐小悠_CN_36
+      - 沐小悠_CN_37
+      - 沐小悠_CN_38
+      - 沐小悠_CN_39
+      - 沐小悠_CN_40
+      - 沐小悠_CN_41
+      - 沐小悠_CN_42
+      - 沐小悠_CN_43
+      - 沐小悠_CN_44
+      - 沐小悠_FR_45
+      - 沐小悠_DE_46
+      - 沐小悠_GB_47
+      - 沐小悠_HK_48
+      - 沐小悠_HK_49
+      - 沐小悠_TW_50
+      - 沐小悠_HK_51
+      - 沐小悠_PH_52
+      - 沐小悠_US_53
+      - 沐小悠_US_54
+      - 沐小悠_CN_55
+      - 沐小悠_CN_56
+      - 沐小悠_CN_57
+      - 沐小悠_CN_58
+      - 沐小悠_CN_59
+      - 沐小悠_HK_60
+      - 沐小悠_HK_61
+      - 沐小悠_HK_62
+      - 沐小悠_HK_63
+      - 沐小悠_HK_64
+      - 沐小悠_HK_65
+      - 沐小悠_HK_66
+      - 沐小悠_HK_67
+      - 沐小悠_HK_68
+      - 沐小悠_HK_69
+      - 沐小悠_HK_70
+      - 沐小悠_HK_71
+      - 沐小悠_SG_72
+      - 沐小悠_HK_73
+      - 沐小悠_KR_74
+      - 沐小悠_CN_75
+      - 沐小悠_HK_76
+      - 沐小悠_CN_77
+      - 沐小悠_CN_78
+      - 沐小悠_CN_79
+      - 沐小悠_CN_80
+      - 沐小悠_HK_81
+      - 沐小悠_HK_82
+      - 沐小悠_HK_83
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +722,89 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷_FR_法国_1
+      - 沐小悠_CN_1
+      - 沐小悠_CN_2
+      - 沐小悠_CN_3
+      - 沐小悠_CN_4
+      - 沐小悠_CN_5
+      - 沐小悠_CN_6
+      - 沐小悠_CN_7
+      - 沐小悠_CN_8
+      - 沐小悠_CN_9
+      - 沐小悠_CN_10
+      - 沐小悠_CN_11
+      - 沐小悠_CN_12
+      - 沐小悠_CN_13
+      - 沐小悠_JP_14
+      - 沐小悠_JP_15
+      - 沐小悠_CN_16
+      - 沐小悠_CN_17
+      - 沐小悠_CN_18
+      - 沐小悠_CN_19
+      - 沐小悠_CN_20
+      - 沐小悠_CN_21
+      - 沐小悠_CN_22
+      - 沐小悠_CN_23
+      - 沐小悠_CN_24
+      - 沐小悠_TH_25
+      - 沐小悠_CN_26
+      - 沐小悠_CN_27
+      - 沐小悠_CN_28
+      - 沐小悠_CN_29
+      - 沐小悠_CN_30
+      - 沐小悠_CN_31
+      - 沐小悠_CN_32
+      - 沐小悠_CN_33
+      - 沐小悠_CN_34
+      - 沐小悠_CN_35
+      - 沐小悠_CN_36
+      - 沐小悠_CN_37
+      - 沐小悠_CN_38
+      - 沐小悠_CN_39
+      - 沐小悠_CN_40
+      - 沐小悠_CN_41
+      - 沐小悠_CN_42
+      - 沐小悠_CN_43
+      - 沐小悠_CN_44
+      - 沐小悠_FR_45
+      - 沐小悠_DE_46
+      - 沐小悠_GB_47
+      - 沐小悠_HK_48
+      - 沐小悠_HK_49
+      - 沐小悠_TW_50
+      - 沐小悠_HK_51
+      - 沐小悠_PH_52
+      - 沐小悠_US_53
+      - 沐小悠_US_54
+      - 沐小悠_CN_55
+      - 沐小悠_CN_56
+      - 沐小悠_CN_57
+      - 沐小悠_CN_58
+      - 沐小悠_CN_59
+      - 沐小悠_HK_60
+      - 沐小悠_HK_61
+      - 沐小悠_HK_62
+      - 沐小悠_HK_63
+      - 沐小悠_HK_64
+      - 沐小悠_HK_65
+      - 沐小悠_HK_66
+      - 沐小悠_HK_67
+      - 沐小悠_HK_68
+      - 沐小悠_HK_69
+      - 沐小悠_HK_70
+      - 沐小悠_HK_71
+      - 沐小悠_SG_72
+      - 沐小悠_HK_73
+      - 沐小悠_KR_74
+      - 沐小悠_CN_75
+      - 沐小悠_HK_76
+      - 沐小悠_CN_77
+      - 沐小悠_CN_78
+      - 沐小悠_CN_79
+      - 沐小悠_CN_80
+      - 沐小悠_HK_81
+      - 沐小悠_HK_82
+      - 沐小悠_HK_83
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
