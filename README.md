@@ -54,7 +54,6 @@ https://raw.githubusercontent.com/some6508/all/master/c6
 |	9	|[raw](https://raw.githubusercontent.com/some6508/all/master/v9)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/v9)|[staticdn](https://raw.staticdn.net/some6508/all/master/v9)|
 |	10	|[raw](https://raw.githubusercontent.com/some6508/all/master/v10)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/v10)|[staticdn](https://raw.staticdn.net/some6508/all/master/v10)|
 |	11	|[raw](https://raw.githubusercontent.com/some6508/all/master/v11)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/v11)|[staticdn](https://raw.staticdn.net/some6508/all/master/v11)|
-|	12	|[raw](https://raw.githubusercontent.com/some6508/all/master/s)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/s)|[staticdn](https://raw.staticdn.net/some6508/all/master/s)|
 
 ****
 ````
@@ -69,7 +68,6 @@ https://raw.githubusercontent.com/some6508/all/master/v8
 https://raw.githubusercontent.com/some6508/all/master/v9
 https://raw.githubusercontent.com/some6508/all/master/v10
 https://raw.githubusercontent.com/some6508/all/master/v11
-https://raw.githubusercontent.com/some6508/all/master/s
 ````
 </details>
 
