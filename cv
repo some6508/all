@@ -5,10 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国_1, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 192.186.129.66}}, udp: true}
-  - {name: _US_美国_2, server: 38.75.136.93, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国_3, server: 70.39.67.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 70.39.67.130}}, udp: true}
-  - {name: _US_美国_4, server: 38.91.102.86, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 香港, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA, udp: true}
   - {name: 欧洲, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: vincent-jackson2021.ga}}, udp: true}
   - {name: 欧洲 2, server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -1301,12 +1297,6 @@ proxies:
   - {name: github.com/freefq - 美国CloudFlare节点 28, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/vmess-share/?ed=2048", headers: {Host: ruvds.testx.eu.org}}, udp: true}
   - {name: github.com/freefq - 美国  29, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}, udp: true}
   - {name: github.com/freefq - 美国  30, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}, udp: true}
-  - {name: 请换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 将于近期停止ssr更新, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 美国惠普公司 1, server: fr-am1-4.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: X3LKnwp5C, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 更新于:01-06 08:00:01 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 将于近期停止ssr更新 2, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 付费节点（youtube锦囊妙计帮帮帮）, server: v12.88host.buzz, port: 18004, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mojing, headers: {Host: v12.88host.buzz}}, udp: true}
   - {name: 付费节点（youtube锦囊妙计帮帮帮） 2, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 付费节点（youtube锦囊妙计帮帮帮） 3, server: v11.88host.buzz, port: 18008, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mojing, headers: {Host: v11.88host.buzz}}, udp: true}
@@ -1651,10 +1641,6 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - _US_美国_1
-      - _US_美国_2
-      - _US_美国_3
-      - _US_美国_4
       - 香港
       - 欧洲
       - 欧洲 2
@@ -2947,12 +2933,6 @@ proxy-groups:
       - github.com/freefq - 美国CloudFlare节点 28
       - github.com/freefq - 美国  29
       - github.com/freefq - 美国  30
-      - 请换到v2ray
-      - 将于近期停止ssr更新
-      - 美国惠普公司 1
-      - 更新于:01-06 08:00:01 - by BuLink.xyz
-      - 将于近期停止ssr更新 2
-      - 请切换到v2ray
       - 付费节点（youtube锦囊妙计帮帮帮）
       - 付费节点（youtube锦囊妙计帮帮帮） 2
       - 付费节点（youtube锦囊妙计帮帮帮） 3
@@ -3286,10 +3266,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_1
-      - _US_美国_2
-      - _US_美国_3
-      - _US_美国_4
       - 香港
       - 欧洲
       - 欧洲 2
@@ -4582,12 +4558,6 @@ proxy-groups:
       - github.com/freefq - 美国CloudFlare节点 28
       - github.com/freefq - 美国  29
       - github.com/freefq - 美国  30
-      - 请换到v2ray
-      - 将于近期停止ssr更新
-      - 美国惠普公司 1
-      - 更新于:01-06 08:00:01 - by BuLink.xyz
-      - 将于近期停止ssr更新 2
-      - 请切换到v2ray
       - 付费节点（youtube锦囊妙计帮帮帮）
       - 付费节点（youtube锦囊妙计帮帮帮） 2
       - 付费节点（youtube锦囊妙计帮帮帮） 3
@@ -5249,10 +5219,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_1
-      - _US_美国_2
-      - _US_美国_3
-      - _US_美国_4
       - 美国
       - 美国 2
       - 美国 3
@@ -5794,7 +5760,6 @@ proxy-groups:
       - github.com/freefq - 美国CloudFlare节点 28
       - github.com/freefq - 美国  29
       - github.com/freefq - 美国  30
-      - 美国惠普公司 1
       - 美国（youtube锦囊妙计帮帮帮）
       - 美国（youtube锦囊妙计帮帮帮） 2
       - 美国（youtube锦囊妙计帮帮帮） 3
