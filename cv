@@ -468,75 +468,8 @@ proxies:
   - {name: Ytb:冰河圈子_US_美国_112, server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /bb2b34a1, headers: {Host: 172.67.197.254}}, udp: true}
   - {name: Ytb:冰河圈子_NL_荷兰_113, server: 154.84.1.250, port: 443, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/261411191011, headers: {Host: 154.84.1.250}}, udp: true}
   - {name: Ytb:冰河圈子_PT_葡萄牙_114, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
-  - {name: 专线|亚洲01|混合主力, server: v31.88host.buzz, port: 18053, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|亚洲02|混合主力, server: v32.88host.buzz, port: 18054, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|亚洲03|混合主力, server: v33.88host.buzz, port: 18055, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|亚洲04|混合主力, server: v34.88host.buzz, port: 18056, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|亚洲05|混合主力, server: v35.88host.buzz, port: 18057, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|亚洲06|混合主力, server: v36.88host.buzz, port: 18058, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|香港01|原生HGCBBS, server: v31.88host.buzz, port: 18064, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|香港02|原生HGCBBS, server: v32.88host.buzz, port: 18065, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|香港03|原生CMI, server: v33.88host.buzz, port: 18066, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|香港04|原生HGCBBS, server: v34.88host.buzz, port: 18067, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|香港05|原生HGCBBS, server: v35.88host.buzz, port: 18068, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|香港06|原生CMI, server: v36.88host.buzz, port: 18069, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|香港07|原生HKBN, server: v31.88host.buzz, port: 18082, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|香港08|原生HKBN, server: v32.88host.buzz, port: 18083, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|台湾01|原生HINET, server: v36.88host.buzz, port: 18078, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|台湾02|原生HINET, server: v35.88host.buzz, port: 18079, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|台湾03|原生HINET, server: v34.88host.buzz, port: 18080, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|台湾04|原生HINET, server: v33.88host.buzz, port: 18081, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|俄罗斯01|原生IP, server: v31.88host.buzz, port: 18059, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|俄罗斯02|原生IP, server: v32.88host.buzz, port: 18060, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|俄罗斯03|原生IP, server: v33.88host.buzz, port: 18061, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|俄罗斯04|原生IP, server: v34.88host.buzz, port: 18062, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|美国01|原生NTT, server: v31.88host.buzz, port: 18042, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|美国02|原生NTT, server: v32.88host.buzz, port: 18043, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|美国03|原生NTT, server: v33.88host.buzz, port: 18044, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|美国04|原生NTT, server: v34.88host.buzz, port: 18045, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|西雅图01|原生NTT, server: v31.88host.buzz, port: 18084, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|西雅图02|原生NTT, server: v32.88host.buzz, port: 18085, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|香港01|解锁流媒体, server: v21.88host.buzz, port: 18025, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|香港02|解锁流媒体, server: v22.88host.buzz, port: 18026, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|香港03|解锁流媒体, server: v23.88host.buzz, port: 18027, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|香港04|解锁流媒体, server: v24.88host.buzz, port: 18028, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|香港05|解锁流媒体, server: v25.88host.buzz, port: 18029, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|日本01|解锁流媒体, server: v21.88host.buzz, port: 18021, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|日本02|解锁流媒体, server: v22.88host.buzz, port: 18022, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|日本03|解锁流媒体, server: v23.88host.buzz, port: 18023, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|日本04|解锁流媒体, server: v24.88host.buzz, port: 18024, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|新加坡01|解锁流媒体, server: v21.88host.buzz, port: 18033, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|新加坡02|解锁流媒体, server: v22.88host.buzz, port: 18034, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|新加坡03|解锁流媒体, server: v23.88host.buzz, port: 18035, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|新加坡04|解锁流媒体, server: v24.88host.buzz, port: 18036, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|美国01|解锁流媒体, server: v22.88host.buzz, port: 18137, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|美国02|解锁流媒体, server: v22.88host.buzz, port: 18138, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|美国03|解锁流媒体, server: v23.88host.buzz, port: 18139, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|美国04|解锁流媒体, server: v24.88host.buzz, port: 18140, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|加拿大01|解锁流媒体, server: v27.88host.buzz, port: 18072, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|加拿大02|解锁流媒体, server: v28.88host.buzz, port: 18073, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|印度01|解锁流媒体, server: v27.88host.buzz, port: 18074, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|印度02|解锁流媒体, server: v28.88host.buzz, port: 18075, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|英国01|解锁流媒体, server: v25.88host.buzz, port: 18076, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|英国02|解锁流媒体, server: v26.88host.buzz, port: 18077, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|台湾01|视频主力, server: v12.88host.buzz, port: 18117, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|台湾02|视频主力, server: v12.88host.buzz, port: 18118, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|台湾03|视频主力, server: v13.88host.buzz, port: 18119, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|台湾04|视频主力, server: v11.88host.buzz, port: 18120, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|香港01|万能主力, server: v11.88host.buzz, port: 18005, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|香港02|万能主力, server: v12.88host.buzz, port: 18006, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|香港03|油管主力, server: v13.88host.buzz, port: 18007, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|香港04|油管主力, server: v11.88host.buzz, port: 18008, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|香港05|社交主力, server: v12.88host.buzz, port: 18009, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|香港06|社交主力, server: v13.88host.buzz, port: 18010, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|俄罗斯01|限速100M, server: v11.88host.buzz, port: 18001, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|俄罗斯02|限速100M, server: v12.88host.buzz, port: 18002, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|俄罗斯03|限速100M, server: v11.88host.buzz, port: 18003, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|俄罗斯04|限速100M, server: v12.88host.buzz, port: 18004, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|美国01|脸书主力, server: v11.88host.buzz, port: 18121, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|美国02|脸书主力, server: v12.88host.buzz, port: 18122, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|美国03|脸书主力, server: v13.88host.buzz, port: 18123, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|美国04|脸书主力, server: v11.88host.buzz, port: 18124, type: vmess, uuid: 0c2a0608-bf70-3183-bd18-94c720c90a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 2, server: 38.91.102.86, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1354,15 +1287,15 @@ proxies:
   - {name: 加拿大, server: 117.28.243.220, port: 8221, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 俄罗斯, server: 117.28.243.220, port: 8045, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 德国, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 专线|香港07|原生HKBN 2, server: v31.88host.buzz, port: 18082, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|台湾01|视频主力 2, server: v12.88host.buzz, port: 18117, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|香港02|原生HGCBBS 2, server: v32.88host.buzz, port: 18065, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|香港04|原生HGCBBS 2, server: v34.88host.buzz, port: 18067, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|香港01|原生HGCBBS 2, server: v31.88host.buzz, port: 18064, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|台湾02|原生HINET 2, server: v35.88host.buzz, port: 18079, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|台湾03|视频主力 2, server: v13.88host.buzz, port: 18119, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|台湾01|原生HINET 2, server: v36.88host.buzz, port: 18078, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|台湾03|原生HINET 2, server: v34.88host.buzz, port: 18080, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|香港07|原生HKBN, server: v31.88host.buzz, port: 18082, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 基础|台湾01|视频主力, server: v12.88host.buzz, port: 18117, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|香港02|原生HGCBBS, server: v32.88host.buzz, port: 18065, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|香港04|原生HGCBBS, server: v34.88host.buzz, port: 18067, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|香港01|原生HGCBBS, server: v31.88host.buzz, port: 18064, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|台湾02|原生HINET, server: v35.88host.buzz, port: 18079, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 基础|台湾03|视频主力, server: v13.88host.buzz, port: 18119, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|台湾01|原生HINET, server: v36.88host.buzz, port: 18078, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|台湾03|原生HINET, server: v34.88host.buzz, port: 18080, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "网址: upyun.online/reg", server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: free.upyun.online, skip-cert-verify: true, udp: true}
   - {name: 全球直连①-TikTok, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: free.upyun.online, skip-cert-verify: true, udp: true}
   - {name: 全球直连③-TikTok, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: free.upyun.online, skip-cert-verify: true, udp: true}
@@ -1902,75 +1835,8 @@ proxy-groups:
       - Ytb:冰河圈子_US_美国_112
       - Ytb:冰河圈子_NL_荷兰_113
       - Ytb:冰河圈子_PT_葡萄牙_114
-      - 专线|亚洲01|混合主力
-      - 专线|亚洲02|混合主力
-      - 专线|亚洲03|混合主力
-      - 专线|亚洲04|混合主力
-      - 专线|亚洲05|混合主力
-      - 专线|亚洲06|混合主力
-      - 专线|香港01|原生HGCBBS
-      - 专线|香港02|原生HGCBBS
-      - 专线|香港03|原生CMI
-      - 专线|香港04|原生HGCBBS
-      - 专线|香港05|原生HGCBBS
-      - 专线|香港06|原生CMI
-      - 专线|香港07|原生HKBN
-      - 专线|香港08|原生HKBN
-      - 专线|台湾01|原生HINET
-      - 专线|台湾02|原生HINET
-      - 专线|台湾03|原生HINET
-      - 专线|台湾04|原生HINET
-      - 专线|俄罗斯01|原生IP
-      - 专线|俄罗斯02|原生IP
-      - 专线|俄罗斯03|原生IP
-      - 专线|俄罗斯04|原生IP
-      - 专线|美国01|原生NTT
-      - 专线|美国02|原生NTT
-      - 专线|美国03|原生NTT
-      - 专线|美国04|原生NTT
-      - 专线|西雅图01|原生NTT
-      - 专线|西雅图02|原生NTT
-      - 标准|香港01|解锁流媒体
-      - 标准|香港02|解锁流媒体
-      - 标准|香港03|解锁流媒体
-      - 标准|香港04|解锁流媒体
-      - 标准|香港05|解锁流媒体
-      - 标准|日本01|解锁流媒体
-      - 标准|日本02|解锁流媒体
-      - 标准|日本03|解锁流媒体
-      - 标准|日本04|解锁流媒体
-      - 标准|新加坡01|解锁流媒体
-      - 标准|新加坡02|解锁流媒体
-      - 标准|新加坡03|解锁流媒体
-      - 标准|新加坡04|解锁流媒体
-      - 标准|美国01|解锁流媒体
-      - 标准|美国02|解锁流媒体
-      - 标准|美国03|解锁流媒体
-      - 标准|美国04|解锁流媒体
-      - 标准|加拿大01|解锁流媒体
-      - 标准|加拿大02|解锁流媒体
-      - 标准|印度01|解锁流媒体
-      - 标准|印度02|解锁流媒体
-      - 标准|英国01|解锁流媒体
-      - 标准|英国02|解锁流媒体
-      - 基础|台湾01|视频主力
-      - 基础|台湾02|视频主力
-      - 基础|台湾03|视频主力
-      - 基础|台湾04|视频主力
-      - 基础|香港01|万能主力
-      - 基础|香港02|万能主力
-      - 基础|香港03|油管主力
-      - 基础|香港04|油管主力
-      - 基础|香港05|社交主力
-      - 基础|香港06|社交主力
-      - 基础|俄罗斯01|限速100M
-      - 基础|俄罗斯02|限速100M
-      - 基础|俄罗斯03|限速100M
-      - 基础|俄罗斯04|限速100M
-      - 基础|美国01|脸书主力
-      - 基础|美国02|脸书主力
-      - 基础|美国03|脸书主力
-      - 基础|美国04|脸书主力
+      - _US_美国
+      - _US_美国 2
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2788,15 +2654,15 @@ proxy-groups:
       - 加拿大
       - 俄罗斯
       - 德国
-      - 专线|香港07|原生HKBN 2
-      - 基础|台湾01|视频主力 2
-      - 专线|香港02|原生HGCBBS 2
-      - 专线|香港04|原生HGCBBS 2
-      - 专线|香港01|原生HGCBBS 2
-      - 专线|台湾02|原生HINET 2
-      - 基础|台湾03|视频主力 2
-      - 专线|台湾01|原生HINET 2
-      - 专线|台湾03|原生HINET 2
+      - 专线|香港07|原生HKBN
+      - 基础|台湾01|视频主力
+      - 专线|香港02|原生HGCBBS
+      - 专线|香港04|原生HGCBBS
+      - 专线|香港01|原生HGCBBS
+      - 专线|台湾02|原生HINET
+      - 基础|台湾03|视频主力
+      - 专线|台湾01|原生HINET
+      - 专线|台湾03|原生HINET
       - "网址: upyun.online/reg"
       - 全球直连①-TikTok
       - 全球直连③-TikTok
@@ -3325,75 +3191,8 @@ proxy-groups:
       - Ytb:冰河圈子_US_美国_112
       - Ytb:冰河圈子_NL_荷兰_113
       - Ytb:冰河圈子_PT_葡萄牙_114
-      - 专线|亚洲01|混合主力
-      - 专线|亚洲02|混合主力
-      - 专线|亚洲03|混合主力
-      - 专线|亚洲04|混合主力
-      - 专线|亚洲05|混合主力
-      - 专线|亚洲06|混合主力
-      - 专线|香港01|原生HGCBBS
-      - 专线|香港02|原生HGCBBS
-      - 专线|香港03|原生CMI
-      - 专线|香港04|原生HGCBBS
-      - 专线|香港05|原生HGCBBS
-      - 专线|香港06|原生CMI
-      - 专线|香港07|原生HKBN
-      - 专线|香港08|原生HKBN
-      - 专线|台湾01|原生HINET
-      - 专线|台湾02|原生HINET
-      - 专线|台湾03|原生HINET
-      - 专线|台湾04|原生HINET
-      - 专线|俄罗斯01|原生IP
-      - 专线|俄罗斯02|原生IP
-      - 专线|俄罗斯03|原生IP
-      - 专线|俄罗斯04|原生IP
-      - 专线|美国01|原生NTT
-      - 专线|美国02|原生NTT
-      - 专线|美国03|原生NTT
-      - 专线|美国04|原生NTT
-      - 专线|西雅图01|原生NTT
-      - 专线|西雅图02|原生NTT
-      - 标准|香港01|解锁流媒体
-      - 标准|香港02|解锁流媒体
-      - 标准|香港03|解锁流媒体
-      - 标准|香港04|解锁流媒体
-      - 标准|香港05|解锁流媒体
-      - 标准|日本01|解锁流媒体
-      - 标准|日本02|解锁流媒体
-      - 标准|日本03|解锁流媒体
-      - 标准|日本04|解锁流媒体
-      - 标准|新加坡01|解锁流媒体
-      - 标准|新加坡02|解锁流媒体
-      - 标准|新加坡03|解锁流媒体
-      - 标准|新加坡04|解锁流媒体
-      - 标准|美国01|解锁流媒体
-      - 标准|美国02|解锁流媒体
-      - 标准|美国03|解锁流媒体
-      - 标准|美国04|解锁流媒体
-      - 标准|加拿大01|解锁流媒体
-      - 标准|加拿大02|解锁流媒体
-      - 标准|印度01|解锁流媒体
-      - 标准|印度02|解锁流媒体
-      - 标准|英国01|解锁流媒体
-      - 标准|英国02|解锁流媒体
-      - 基础|台湾01|视频主力
-      - 基础|台湾02|视频主力
-      - 基础|台湾03|视频主力
-      - 基础|台湾04|视频主力
-      - 基础|香港01|万能主力
-      - 基础|香港02|万能主力
-      - 基础|香港03|油管主力
-      - 基础|香港04|油管主力
-      - 基础|香港05|社交主力
-      - 基础|香港06|社交主力
-      - 基础|俄罗斯01|限速100M
-      - 基础|俄罗斯02|限速100M
-      - 基础|俄罗斯03|限速100M
-      - 基础|俄罗斯04|限速100M
-      - 基础|美国01|脸书主力
-      - 基础|美国02|脸书主力
-      - 基础|美国03|脸书主力
-      - 基础|美国04|脸书主力
+      - _US_美国
+      - _US_美国 2
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4211,15 +4010,15 @@ proxy-groups:
       - 加拿大
       - 俄罗斯
       - 德国
-      - 专线|香港07|原生HKBN 2
-      - 基础|台湾01|视频主力 2
-      - 专线|香港02|原生HGCBBS 2
-      - 专线|香港04|原生HGCBBS 2
-      - 专线|香港01|原生HGCBBS 2
-      - 专线|台湾02|原生HINET 2
-      - 基础|台湾03|视频主力 2
-      - 专线|台湾01|原生HINET 2
-      - 专线|台湾03|原生HINET 2
+      - 专线|香港07|原生HKBN
+      - 基础|台湾01|视频主力
+      - 专线|香港02|原生HGCBBS
+      - 专线|香港04|原生HGCBBS
+      - 专线|香港01|原生HGCBBS
+      - 专线|台湾02|原生HINET
+      - 基础|台湾03|视频主力
+      - 专线|台湾01|原生HINET
+      - 专线|台湾03|原生HINET
       - "网址: upyun.online/reg"
       - 全球直连①-TikTok
       - 全球直连③-TikTok
@@ -4421,29 +4220,6 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 标准|香港01|解锁流媒体
-      - 标准|香港02|解锁流媒体
-      - 标准|香港03|解锁流媒体
-      - 标准|香港04|解锁流媒体
-      - 标准|香港05|解锁流媒体
-      - 标准|日本01|解锁流媒体
-      - 标准|日本02|解锁流媒体
-      - 标准|日本03|解锁流媒体
-      - 标准|日本04|解锁流媒体
-      - 标准|新加坡01|解锁流媒体
-      - 标准|新加坡02|解锁流媒体
-      - 标准|新加坡03|解锁流媒体
-      - 标准|新加坡04|解锁流媒体
-      - 标准|美国01|解锁流媒体
-      - 标准|美国02|解锁流媒体
-      - 标准|美国03|解锁流媒体
-      - 标准|美国04|解锁流媒体
-      - 标准|加拿大01|解锁流媒体
-      - 标准|加拿大02|解锁流媒体
-      - 标准|印度01|解锁流媒体
-      - 标准|印度02|解锁流媒体
-      - 标准|英国01|解锁流媒体
-      - 标准|英国02|解锁流媒体
       - 解锁新加坡奈飞 [Netflix]
       - 中转|香港HKBN01|华南隧道[流媒体解锁]
       - 中转|香港HKBN02|华南隧道[流媒体解锁]
@@ -4518,25 +4294,6 @@ proxy-groups:
       - Ytb:冰河圈子_HK_香港_80
       - Ytb:冰河圈子_HK_香港_81
       - Ytb:冰河圈子_HK_香港_91
-      - 专线|香港01|原生HGCBBS
-      - 专线|香港02|原生HGCBBS
-      - 专线|香港03|原生CMI
-      - 专线|香港04|原生HGCBBS
-      - 专线|香港05|原生HGCBBS
-      - 专线|香港06|原生CMI
-      - 专线|香港07|原生HKBN
-      - 专线|香港08|原生HKBN
-      - 标准|香港01|解锁流媒体
-      - 标准|香港02|解锁流媒体
-      - 标准|香港03|解锁流媒体
-      - 标准|香港04|解锁流媒体
-      - 标准|香港05|解锁流媒体
-      - 基础|香港01|万能主力
-      - 基础|香港02|万能主力
-      - 基础|香港03|油管主力
-      - 基础|香港04|油管主力
-      - 基础|香港05|社交主力
-      - 基础|香港06|社交主力
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -4566,10 +4323,10 @@ proxy-groups:
       - HK HKG SH.HK 001 TR(trojan)
       - HK HKG GZ.HK HKT TR B(trojan)
       - HK HKG GZ.HK HKT TR A(trojan)
-      - 专线|香港07|原生HKBN 2
-      - 专线|香港02|原生HGCBBS 2
-      - 专线|香港04|原生HGCBBS 2
-      - 专线|香港01|原生HGCBBS 2
+      - 专线|香港07|原生HKBN
+      - 专线|香港02|原生HGCBBS
+      - 专线|香港04|原生HGCBBS
+      - 专线|香港01|原生HGCBBS
       - 中转|香港HKBN01|华南隧道[流媒体解锁]
       - 中转|香港HKBN02|华南隧道[流媒体解锁]
       - 香港Azure18|停机卡免流
@@ -4617,10 +4374,6 @@ proxy-groups:
       - _JP_日本_Chen-2021.01.01_25
       - _JP_日本_Chen-2021.01.01_26
       - _JP_日本_Chen-2021.01.01_27
-      - 标准|日本01|解锁流媒体
-      - 标准|日本02|解锁流媒体
-      - 标准|日本03|解锁流媒体
-      - 标准|日本04|解锁流媒体
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -4761,20 +4514,8 @@ proxy-groups:
       - Ytb:冰河圈子_US_美国_106
       - Ytb:冰河圈子_US_美国_107
       - Ytb:冰河圈子_US_美国_112
-      - 专线|美国01|原生NTT
-      - 专线|美国02|原生NTT
-      - 专线|美国03|原生NTT
-      - 专线|美国04|原生NTT
-      - 专线|西雅图01|原生NTT
-      - 专线|西雅图02|原生NTT
-      - 标准|美国01|解锁流媒体
-      - 标准|美国02|解锁流媒体
-      - 标准|美国03|解锁流媒体
-      - 标准|美国04|解锁流媒体
-      - 基础|美国01|脸书主力
-      - 基础|美国02|脸书主力
-      - 基础|美国03|脸书主力
-      - 基础|美国04|脸书主力
+      - _US_美国
+      - _US_美国 2
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -4993,14 +4734,6 @@ proxy-groups:
       - 台湾（YouTube资源分享者） 6
       - 台湾（YouTube资源分享者） 7
       - 台湾（YouTube资源分享者） 8
-      - 专线|台湾01|原生HINET
-      - 专线|台湾02|原生HINET
-      - 专线|台湾03|原生HINET
-      - 专线|台湾04|原生HINET
-      - 基础|台湾01|视频主力
-      - 基础|台湾02|视频主力
-      - 基础|台湾03|视频主力
-      - 基础|台湾04|视频主力
       - 台湾（YouTube资源分享者） 9
       - 台湾（YouTube资源分享者） 10
       - 台湾（YouTube资源分享者） 11
@@ -5014,11 +4747,11 @@ proxy-groups:
       - 台湾（youtube锦囊妙计帮帮帮） 2
       - V1-台湾TW 06 HINET Netflix 1x
       - V1-台湾TW 02 HINET Netflix 2x
-      - 基础|台湾01|视频主力 2
-      - 专线|台湾02|原生HINET 2
-      - 基础|台湾03|视频主力 2
-      - 专线|台湾01|原生HINET 2
-      - 专线|台湾03|原生HINET 2
+      - 基础|台湾01|视频主力
+      - 专线|台湾02|原生HINET
+      - 基础|台湾03|视频主力
+      - 专线|台湾01|原生HINET
+      - 专线|台湾03|原生HINET
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -5027,10 +4760,6 @@ proxy-groups:
       - 新加坡（YouTube资源分享者）
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V16-付费推荐::suo.yt/ssrsub"
-      - 标准|新加坡01|解锁流媒体
-      - 标准|新加坡02|解锁流媒体
-      - 标准|新加坡03|解锁流媒体
-      - 标准|新加坡04|解锁流媒体
       - 新加坡（YouTube资源分享者） 2
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-新加坡V16-付费推荐::suo.yt/ssrsub 2"
@@ -5058,29 +4787,6 @@ proxy-groups:
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 标准|香港01|解锁流媒体
-      - 标准|香港02|解锁流媒体
-      - 标准|香港03|解锁流媒体
-      - 标准|香港04|解锁流媒体
-      - 标准|香港05|解锁流媒体
-      - 标准|日本01|解锁流媒体
-      - 标准|日本02|解锁流媒体
-      - 标准|日本03|解锁流媒体
-      - 标准|日本04|解锁流媒体
-      - 标准|新加坡01|解锁流媒体
-      - 标准|新加坡02|解锁流媒体
-      - 标准|新加坡03|解锁流媒体
-      - 标准|新加坡04|解锁流媒体
-      - 标准|美国01|解锁流媒体
-      - 标准|美国02|解锁流媒体
-      - 标准|美国03|解锁流媒体
-      - 标准|美国04|解锁流媒体
-      - 标准|加拿大01|解锁流媒体
-      - 标准|加拿大02|解锁流媒体
-      - 标准|印度01|解锁流媒体
-      - 标准|印度02|解锁流媒体
-      - 标准|英国01|解锁流媒体
-      - 标准|英国02|解锁流媒体
       - 解锁新加坡奈飞 [Netflix]
       - V1-台湾TW 06 HINET Netflix 1x
       - V1-台湾TW 02 HINET Netflix 2x
