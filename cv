@@ -5,40 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国1-三网优化直连_5, server: a2.paqiangti.top, port: 30000, type: vmess, uuid: 509fd06c-684a-37e0-bfec-f63a14f392b4, alterId: 12, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: a2.paqiangti.top}}, udp: true}
-  - {name: 美国2-三网直连优化_6, server: a3.paqiangti.top, port: 30000, type: vmess, uuid: 509fd06c-684a-37e0-bfec-f63a14f392b4, alterId: 12, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: a3.paqiangti.top}}, udp: true}
-  - {name: 美国3-广移中转_7, server: gy.paqiangti.top, port: 10001, type: vmess, uuid: 509fd06c-684a-37e0-bfec-f63a14f392b4, alterId: 12, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: gy.paqiangti.top}}, udp: true}
-  - {name: 美国4-香港中转_8, server: az.paqiangti.top, port: 10031, type: vmess, uuid: 509fd06c-684a-37e0-bfec-f63a14f392b4, alterId: 12, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: az.paqiangti.top}}, udp: true}
-  - {name: 英国1-直连_9, server: a6.paqiangti.top, port: 30000, type: vmess, uuid: 509fd06c-684a-37e0-bfec-f63a14f392b4, alterId: 12, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: a6.paqiangti.top}}, udp: true}
-  - {name: 英国1-香港中转_10, server: az.paqiangti.top, port: 10034, type: vmess, uuid: 509fd06c-684a-37e0-bfec-f63a14f392b4, alterId: 12, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: az.paqiangti.top}}, udp: true}
-  - {name: 英国2-长沙联通中转                                                                                                                      _11, server: cslt.paqiangti.top, port: 50003, type: vmess, uuid: 509fd06c-684a-37e0-bfec-f63a14f392b4, alterId: 12, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: cslt.paqiangti.top}}, udp: true}
-  - {name: 韩国#370|1.2|1|7%|158G|ggok.xyz|公益节点|26091_12, server: s370.snodes.xyz, port: 26091, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s370.snodes.xyz]}, udp: true}
-  - {name: 韩国#370|1.2|1|7%|158G|ggok.xyz|公益节点_13, server: s370.snodes.xyz, port: 23931, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s370.snodes.xyz]}, udp: true}
-  - {name: 新加坡 网飞#314|1.8|1|8%|208G|ggok.xyz|公益节点|25150_14, server: s314.snodes.xyz, port: 25150, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s314.snodes.xyz]}, udp: true}
-  - {name: 新加坡 网飞#314|1.8|1|8%|208G|ggok.xyz|公益节点_15, server: s314.snodes.xyz, port: 38094, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s314.snodes.xyz]}, udp: true}
-  - {name: 新加坡 网飞#161|1.6|1|9%|184G|ggok.xyz|公益节点|24348_16, server: s161.snodes.xyz, port: 24348, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s161.snodes.xyz]}, udp: true}
-  - {name: 新加坡 网飞#161|1.6|1|9%|184G|ggok.xyz|公益节点_17, server: s161.snodes.xyz, port: 32680, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s161.snodes.xyz]}, udp: true}
-  - {name: 香港 网飞#257|1.9|1|10%|222G|ggok.xyz|公益节点|39359_18, server: s257.snodes.xyz, port: 39359, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s257.snodes.xyz]}, udp: true}
-  - {name: 香港 网飞#257|1.9|1|10%|222G|ggok.xyz|公益节点_19, server: s257.snodes.xyz, port: 25556, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s257.snodes.xyz]}, udp: true}
-  - {name: 韩国#14|0.6|1|10%|73G|ggok.xyz|公益节点|33371_20, server: s14.snodes.xyz, port: 33371, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s14.snodes.xyz]}, udp: true}
-  - {name: 韩国#14|0.6|1|10%|73G|ggok.xyz|公益节点_21, server: s14.snodes.xyz, port: 32551, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s14.snodes.xyz]}, udp: true}
-  - {name: 新加坡 网飞#157|1.7|1|11%|196G|ggok.xyz|公益节点|35711_22, server: s157.snodes.xyz, port: 35711, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s157.snodes.xyz]}, udp: true}
-  - {name: 新加坡 网飞#157|1.7|1|11%|196G|ggok.xyz|公益节点_23, server: s157.snodes.xyz, port: 31949, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s157.snodes.xyz]}, udp: true}
-  - {name: 新加坡 网飞#159|1.8|1|12%|210G|ggok.xyz|公益节点|23741_24, server: s159.snodes.xyz, port: 23741, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s159.snodes.xyz]}, udp: true}
-  - {name: 新加坡 网飞#159|1.8|1|12%|210G|ggok.xyz|公益节点_25, server: s159.snodes.xyz, port: 33573, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s159.snodes.xyz]}, udp: true}
-  - {name: 新加坡 网飞 联通#162|1.6|1|12%|183G|ggok.xyz|公益节点|25586_26, server: s162.snodes.xyz, port: 25586, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s162.snodes.xyz]}, udp: true}
-  - {name: 新加坡 网飞 联通#162|1.6|1|12%|183G|ggok.xyz|公益节点_27, server: s162.snodes.xyz, port: 33336, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s162.snodes.xyz]}, udp: true}
-  - {name: "新加坡 网飞  #299|1.6|1|13%|191G|ggok.xyz|公益节点|24475_28", server: s299.snodes.xyz, port: 24475, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s299.snodes.xyz]}, udp: true}
-  - {name: "新加坡 网飞  #299|1.6|1|13%|191G|ggok.xyz|公益节点_29", server: s299.snodes.xyz, port: 26415, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s299.snodes.xyz]}, udp: true}
-  - {name: 香港 网飞#101|1.9|1|13%|227G|ggok.xyz|公益节点|39795_30, server: s101.snodes.xyz, port: 39795, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s101.snodes.xyz]}, udp: true}
-  - {name: 香港 网飞#101|1.9|1|13%|227G|ggok.xyz|公益节点_31, server: s101.snodes.xyz, port: 32719, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s101.snodes.xyz]}, udp: true}
-  - {name: "新加坡 网飞 #187|2.9|1|13%|339G|ggok.xyz|公益节点|36179_32", server: s187.snodes.xyz, port: 36179, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s187.snodes.xyz]}, udp: true}
-  - {name: "新加坡 网飞 #187|2.9|1|13%|339G|ggok.xyz|公益节点_33", server: s187.snodes.xyz, port: 36297, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s187.snodes.xyz]}, udp: true}
-  - {name: 日本#373|1.8|1|19%|218G|ggok.xyz|公益节点|8443_34, server: s373.snodes.xyz, port: 8443, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /panelmyadmin, headers: {Host: s373.snodes.xyz}}, udp: true}
-  - {name: 日本#373|1.8|1|19%|218G|ggok.xyz|公益节点_35, server: s373.snodes.xyz, port: 443, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /panelmyadmin, headers: {Host: s373.snodes.xyz}}, udp: true}
-  - {name: 香港 网飞 电信#255|1.5|1|19%|172G|ggok.xyz|公益节点_36, server: 104.19.10.9, port: 443, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /panel, headers: {Host: 104.19.10.9}}, udp: true}
-  - {name: "新加坡 网飞  #306|0.2|1|46%|18G|ggok.xyz|公益节点|41431_37", server: s306.snodes.xyz, port: 41431, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s306.snodes.xyz]}, udp: true}
-  - {name: "新加坡 网飞  #306|0.2|1|46%|18G|ggok.xyz|公益节点_38", server: s306.snodes.xyz, port: 38022, type: vmess, uuid: a8c51890-cb69-3fb6-9ae6-87cd788a5267, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [s306.snodes.xyz]}, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 38.143.66.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 172.105.180.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 172.105.180.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
@@ -1533,40 +1499,6 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 美国1-三网优化直连_5
-      - 美国2-三网直连优化_6
-      - 美国3-广移中转_7
-      - 美国4-香港中转_8
-      - 英国1-直连_9
-      - 英国1-香港中转_10
-      - 英国2-长沙联通中转                                                                                                                      _11
-      - 韩国#370|1.2|1|7%|158G|ggok.xyz|公益节点|26091_12
-      - 韩国#370|1.2|1|7%|158G|ggok.xyz|公益节点_13
-      - 新加坡 网飞#314|1.8|1|8%|208G|ggok.xyz|公益节点|25150_14
-      - 新加坡 网飞#314|1.8|1|8%|208G|ggok.xyz|公益节点_15
-      - 新加坡 网飞#161|1.6|1|9%|184G|ggok.xyz|公益节点|24348_16
-      - 新加坡 网飞#161|1.6|1|9%|184G|ggok.xyz|公益节点_17
-      - 香港 网飞#257|1.9|1|10%|222G|ggok.xyz|公益节点|39359_18
-      - 香港 网飞#257|1.9|1|10%|222G|ggok.xyz|公益节点_19
-      - 韩国#14|0.6|1|10%|73G|ggok.xyz|公益节点|33371_20
-      - 韩国#14|0.6|1|10%|73G|ggok.xyz|公益节点_21
-      - 新加坡 网飞#157|1.7|1|11%|196G|ggok.xyz|公益节点|35711_22
-      - 新加坡 网飞#157|1.7|1|11%|196G|ggok.xyz|公益节点_23
-      - 新加坡 网飞#159|1.8|1|12%|210G|ggok.xyz|公益节点|23741_24
-      - 新加坡 网飞#159|1.8|1|12%|210G|ggok.xyz|公益节点_25
-      - 新加坡 网飞 联通#162|1.6|1|12%|183G|ggok.xyz|公益节点|25586_26
-      - 新加坡 网飞 联通#162|1.6|1|12%|183G|ggok.xyz|公益节点_27
-      - "新加坡 网飞  #299|1.6|1|13%|191G|ggok.xyz|公益节点|24475_28"
-      - "新加坡 网飞  #299|1.6|1|13%|191G|ggok.xyz|公益节点_29"
-      - 香港 网飞#101|1.9|1|13%|227G|ggok.xyz|公益节点|39795_30
-      - 香港 网飞#101|1.9|1|13%|227G|ggok.xyz|公益节点_31
-      - "新加坡 网飞 #187|2.9|1|13%|339G|ggok.xyz|公益节点|36179_32"
-      - "新加坡 网飞 #187|2.9|1|13%|339G|ggok.xyz|公益节点_33"
-      - 日本#373|1.8|1|19%|218G|ggok.xyz|公益节点|8443_34
-      - 日本#373|1.8|1|19%|218G|ggok.xyz|公益节点_35
-      - 香港 网飞 电信#255|1.5|1|19%|172G|ggok.xyz|公益节点_36
-      - "新加坡 网飞  #306|0.2|1|46%|18G|ggok.xyz|公益节点|41431_37"
-      - "新加坡 网飞  #306|0.2|1|46%|18G|ggok.xyz|公益节点_38"
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -3050,40 +2982,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国1-三网优化直连_5
-      - 美国2-三网直连优化_6
-      - 美国3-广移中转_7
-      - 美国4-香港中转_8
-      - 英国1-直连_9
-      - 英国1-香港中转_10
-      - 英国2-长沙联通中转                                                                                                                      _11
-      - 韩国#370|1.2|1|7%|158G|ggok.xyz|公益节点|26091_12
-      - 韩国#370|1.2|1|7%|158G|ggok.xyz|公益节点_13
-      - 新加坡 网飞#314|1.8|1|8%|208G|ggok.xyz|公益节点|25150_14
-      - 新加坡 网飞#314|1.8|1|8%|208G|ggok.xyz|公益节点_15
-      - 新加坡 网飞#161|1.6|1|9%|184G|ggok.xyz|公益节点|24348_16
-      - 新加坡 网飞#161|1.6|1|9%|184G|ggok.xyz|公益节点_17
-      - 香港 网飞#257|1.9|1|10%|222G|ggok.xyz|公益节点|39359_18
-      - 香港 网飞#257|1.9|1|10%|222G|ggok.xyz|公益节点_19
-      - 韩国#14|0.6|1|10%|73G|ggok.xyz|公益节点|33371_20
-      - 韩国#14|0.6|1|10%|73G|ggok.xyz|公益节点_21
-      - 新加坡 网飞#157|1.7|1|11%|196G|ggok.xyz|公益节点|35711_22
-      - 新加坡 网飞#157|1.7|1|11%|196G|ggok.xyz|公益节点_23
-      - 新加坡 网飞#159|1.8|1|12%|210G|ggok.xyz|公益节点|23741_24
-      - 新加坡 网飞#159|1.8|1|12%|210G|ggok.xyz|公益节点_25
-      - 新加坡 网飞 联通#162|1.6|1|12%|183G|ggok.xyz|公益节点|25586_26
-      - 新加坡 网飞 联通#162|1.6|1|12%|183G|ggok.xyz|公益节点_27
-      - "新加坡 网飞  #299|1.6|1|13%|191G|ggok.xyz|公益节点|24475_28"
-      - "新加坡 网飞  #299|1.6|1|13%|191G|ggok.xyz|公益节点_29"
-      - 香港 网飞#101|1.9|1|13%|227G|ggok.xyz|公益节点|39795_30
-      - 香港 网飞#101|1.9|1|13%|227G|ggok.xyz|公益节点_31
-      - "新加坡 网飞 #187|2.9|1|13%|339G|ggok.xyz|公益节点|36179_32"
-      - "新加坡 网飞 #187|2.9|1|13%|339G|ggok.xyz|公益节点_33"
-      - 日本#373|1.8|1|19%|218G|ggok.xyz|公益节点|8443_34
-      - 日本#373|1.8|1|19%|218G|ggok.xyz|公益节点_35
-      - 香港 网飞 电信#255|1.5|1|19%|172G|ggok.xyz|公益节点_36
-      - "新加坡 网飞  #306|0.2|1|46%|18G|ggok.xyz|公益节点|41431_37"
-      - "新加坡 网飞  #306|0.2|1|46%|18G|ggok.xyz|公益节点_38"
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -4741,13 +4639,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国4-香港中转_8
-      - 英国1-香港中转_10
-      - 香港 网飞#257|1.9|1|10%|222G|ggok.xyz|公益节点|39359_18
-      - 香港 网飞#257|1.9|1|10%|222G|ggok.xyz|公益节点_19
-      - 香港 网飞#101|1.9|1|13%|227G|ggok.xyz|公益节点|39795_30
-      - 香港 网飞#101|1.9|1|13%|227G|ggok.xyz|公益节点_31
-      - 香港 网飞 电信#255|1.5|1|19%|172G|ggok.xyz|公益节点_36
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
       - 香港（YouTube资源分享者） 3
@@ -4893,8 +4784,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本#373|1.8|1|19%|218G|ggok.xyz|公益节点|8443_34
-      - 日本#373|1.8|1|19%|218G|ggok.xyz|公益节点_35
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
@@ -4938,10 +4827,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国1-三网优化直连_5
-      - 美国2-三网直连优化_6
-      - 美国3-广移中转_7
-      - 美国4-香港中转_8
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -5375,22 +5260,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡 网飞#314|1.8|1|8%|208G|ggok.xyz|公益节点|25150_14
-      - 新加坡 网飞#314|1.8|1|8%|208G|ggok.xyz|公益节点_15
-      - 新加坡 网飞#161|1.6|1|9%|184G|ggok.xyz|公益节点|24348_16
-      - 新加坡 网飞#161|1.6|1|9%|184G|ggok.xyz|公益节点_17
-      - 新加坡 网飞#157|1.7|1|11%|196G|ggok.xyz|公益节点|35711_22
-      - 新加坡 网飞#157|1.7|1|11%|196G|ggok.xyz|公益节点_23
-      - 新加坡 网飞#159|1.8|1|12%|210G|ggok.xyz|公益节点|23741_24
-      - 新加坡 网飞#159|1.8|1|12%|210G|ggok.xyz|公益节点_25
-      - 新加坡 网飞 联通#162|1.6|1|12%|183G|ggok.xyz|公益节点|25586_26
-      - 新加坡 网飞 联通#162|1.6|1|12%|183G|ggok.xyz|公益节点_27
-      - "新加坡 网飞  #299|1.6|1|13%|191G|ggok.xyz|公益节点|24475_28"
-      - "新加坡 网飞  #299|1.6|1|13%|191G|ggok.xyz|公益节点_29"
-      - "新加坡 网飞 #187|2.9|1|13%|339G|ggok.xyz|公益节点|36179_32"
-      - "新加坡 网飞 #187|2.9|1|13%|339G|ggok.xyz|公益节点_33"
-      - "新加坡 网飞  #306|0.2|1|46%|18G|ggok.xyz|公益节点|41431_37"
-      - "新加坡 网飞  #306|0.2|1|46%|18G|ggok.xyz|公益节点_38"
       - 新加坡（YouTube资源分享者）
       - _SG_新加坡_Chen-2022.01.07_8
       - _SG_新加坡_Chen-2022.01.07_9
@@ -5424,10 +5293,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 韩国#370|1.2|1|7%|158G|ggok.xyz|公益节点|26091_12
-      - 韩国#370|1.2|1|7%|158G|ggok.xyz|公益节点_13
-      - 韩国#14|0.6|1|10%|73G|ggok.xyz|公益节点|33371_20
-      - 韩国#14|0.6|1|10%|73G|ggok.xyz|公益节点_21
       - 日韩频道 TG@shoucangAV
       - SG SIN KRN V2(vmess)
       - 韩国B
