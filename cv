@@ -5,15 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CYL-科技（202201.04）_1, server: 47.113.190.48, port: 47972, type: vmess, uuid: d1f1e8e0-bf5c-4219-8ba4-48de32c50557, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HKYoutube技术分享室整理_2, server: 120.232.173.154, port: 30004, type: vmess, uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 120.232.173.154}}, udp: true}
-  - {name: 欧洲_3, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.06）_4, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2021.01.02）_5, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2021.01.02）_6, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.06）_7, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.06）_8, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2021.01.02）_9, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 38.91.102.86, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 38.91.102.86, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 38.91.102.86, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
@@ -1703,15 +1694,6 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - CYL-科技（202201.04）_1
-      - HKYoutube技术分享室整理_2
-      - 欧洲_3
-      - CYL-科技（2022.01.06）_4
-      - CYL-科技（2021.01.02）_5
-      - CYL-科技（2021.01.02）_6
-      - CYL-科技（2022.01.06）_7
-      - CYL-科技（2022.01.06）_8
-      - CYL-科技（2021.01.02）_9
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -3390,15 +3372,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CYL-科技（202201.04）_1
-      - HKYoutube技术分享室整理_2
-      - 欧洲_3
-      - CYL-科技（2022.01.06）_4
-      - CYL-科技（2021.01.02）_5
-      - CYL-科技（2021.01.02）_6
-      - CYL-科技（2022.01.06）_7
-      - CYL-科技（2022.01.06）_8
-      - CYL-科技（2021.01.02）_9
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -5251,7 +5224,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HKYoutube技术分享室整理_2
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
       - 香港（YouTube资源分享者） 3
