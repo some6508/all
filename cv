@@ -519,10 +519,10 @@ proxies:
   - {name: Ytb:冰河圈子_US_美国_112, server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /bb2b34a1, headers: {Host: 172.67.197.254}}, udp: true}
   - {name: Ytb:冰河圈子_NL_荷兰_113, server: 154.84.1.250, port: 443, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/261411191011, headers: {Host: 154.84.1.250}}, udp: true}
   - {name: Ytb:冰河圈子_PT_葡萄牙_114, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
-  - {name: _FR_法国, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
-  - {name: _US_美国 2, server: 38.91.102.86, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 3, server: 38.91.102.86, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国, server: 38.91.102.86, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 2, server: 38.143.66.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _GB_英国, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1947,10 +1947,10 @@ proxy-groups:
       - Ytb:冰河圈子_US_美国_112
       - Ytb:冰河圈子_NL_荷兰_113
       - Ytb:冰河圈子_PT_葡萄牙_114
-      - _FR_法国
       - _US_美国
       - _US_美国 2
-      - _US_美国 3
+      - _GB_英国
+      - _GB_英国 2
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3364,10 +3364,10 @@ proxy-groups:
       - Ytb:冰河圈子_US_美国_112
       - Ytb:冰河圈子_NL_荷兰_113
       - Ytb:冰河圈子_PT_葡萄牙_114
-      - _FR_法国
       - _US_美国
       - _US_美国 2
-      - _US_美国 3
+      - _GB_英国
+      - _GB_英国 2
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4764,7 +4764,6 @@ proxy-groups:
       - Ytb:冰河圈子_US_美国_112
       - _US_美国
       - _US_美国 2
-      - _US_美国 3
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
