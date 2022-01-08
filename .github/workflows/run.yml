@@ -4,11 +4,12 @@ name: all
 on:
   push:
     branches: [ master ]
+  pull_request:
+    branches: [ master ]
   watch:
     types: [started]
   schedule:
     - cron: '0 */1 * * *'
-  pull_request:
   workflow_dispatch:
 
 env:
@@ -34,6 +35,8 @@ jobs:
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions"
+#          git config --global user.email "actions@github.com"
+#          git config --global user.name "actions-user"
 
       - name: 添加上传文件
         run: |
