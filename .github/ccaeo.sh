@@ -8,7 +8,7 @@ CURL() {
 echo --------------------------------------------------
 ec "- 下载文件	$1"
 ec "- 连接链接	$2"
-curl -so $home/$1 "$2"
+curl -s --connect-timeout 10 -o $home/$1 "$2"
 local CURL=$?
 [[ $CURL = 0 ]] && ec "- 下载完成	$CURL" || ec "! 下载失败	$CURL"
 return $CURL
