@@ -739,6 +739,7 @@ proxies:
   - {name: Ytb:冰河圈子_US_美国_112, server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /bb2b34a1, headers: {Host: 172.67.197.254}}, udp: true}
   - {name: Ytb:冰河圈子_NL_荷兰_113, server: 154.84.1.250, port: 443, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/261411191011, headers: {Host: 154.84.1.250}}, udp: true}
   - {name: Ytb:冰河圈子_PT_葡萄牙_114, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
+  - {name: _AU_澳大利亚, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1608,6 +1609,9 @@ proxies:
   - {name: _US_美国 38, server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: _US_美国 14, server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Free-新加坡SG 01 AGA加速 1x, server: v2ray-free-aga-sg-01.yingyun-resolve.com, port: 599, type: vmess, uuid: e552a8ff-e9cc-393d-b9ff-1bc7ac3689c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yingyun, headers: {Host: "%7B%22Host%22:%22v2ray-free-aga-sg-01.yingyun-resolve.com%22%7D"}}, udp: true}
+  - {name: 香港, server: bb.shangou.tk, port: 5000, type: trojan, password: Q3Mutbhgfd, sni: bb.shangou.tk, skip-cert-verify: true, udp: true}
+  - {name: 新加坡, server: bb.shangou.tk, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国, server: bb.shangou.tk, port: 5002, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -2358,6 +2362,7 @@ proxy-groups:
       - Ytb:冰河圈子_US_美国_112
       - Ytb:冰河圈子_NL_荷兰_113
       - Ytb:冰河圈子_PT_葡萄牙_114
+      - _AU_澳大利亚
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3227,6 +3232,9 @@ proxy-groups:
       - _US_美国 38
       - _US_美国 14
       - Free-新加坡SG 01 AGA加速 1x
+      - 香港
+      - 新加坡
+      - 英国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -3966,6 +3974,7 @@ proxy-groups:
       - Ytb:冰河圈子_US_美国_112
       - Ytb:冰河圈子_NL_荷兰_113
       - Ytb:冰河圈子_PT_葡萄牙_114
+      - _AU_澳大利亚
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4835,6 +4844,9 @@ proxy-groups:
       - _US_美国 38
       - _US_美国 14
       - Free-新加坡SG 01 AGA加速 1x
+      - 香港
+      - 新加坡
+      - 英国
   - name: 📲 电报消息
     type: select
     proxies:
@@ -5154,6 +5166,7 @@ proxy-groups:
       - 香港 HK x1.0 A2直连
       - moon365.net🇭🇰HK 369 free
       - moon365.net🇭🇰HK 527 free
+      - 香港
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -5765,6 +5778,7 @@ proxy-groups:
       - moon365.net🇸🇬SG 131 free
       - 新加坡 SG x1.0 01直连 2
       - Free-新加坡SG 01 AGA加速 1x
+      - 新加坡
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
