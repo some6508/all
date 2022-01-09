@@ -5,9 +5,9 @@
 ****
 |最近更新时间|
 | :----: |
-|2022年01月09日·周7·10点26分25秒.868毫秒|
+|2022年01月09日·周7·10点01分34秒.310毫秒|
 |下次更新时间|
-2022年01月09日·周7·11点26分25秒.872毫秒
+2022年01月09日·周7·11点01分34秒.313毫秒
 
 </details>
 
@@ -54,6 +54,7 @@ https://raw.githubusercontent.com/some6508/all/master/c6
 |	9	|[raw](https://raw.githubusercontent.com/some6508/all/master/v9)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/v9)|[staticdn](https://raw.staticdn.net/some6508/all/master/v9)|
 |	10	|[raw](https://raw.githubusercontent.com/some6508/all/master/v10)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/v10)|[staticdn](https://raw.staticdn.net/some6508/all/master/v10)|
 |	11	|[raw](https://raw.githubusercontent.com/some6508/all/master/v11)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/v11)|[staticdn](https://raw.staticdn.net/some6508/all/master/v11)|
+|	12	|[raw](https://raw.githubusercontent.com/some6508/all/master/v12)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/v12)|[staticdn](https://raw.staticdn.net/some6508/all/master/v12)|
 
 ****
 ````
@@ -68,6 +69,7 @@ https://raw.githubusercontent.com/some6508/all/master/v8
 https://raw.githubusercontent.com/some6508/all/master/v9
 https://raw.githubusercontent.com/some6508/all/master/v10
 https://raw.githubusercontent.com/some6508/all/master/v11
+https://raw.githubusercontent.com/some6508/all/master/v12
 ````
 </details>
 
