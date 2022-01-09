@@ -5,220 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '【VIP1】新加坡SG 01 _1', server: niaocloud-gy.niaoyun.online, port: 2001, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP1】新加坡SG 02_2', server: niaocloud-gy.niaoyun.online, port: 2002, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP1】新加坡SG 03_3', server: niaocloud-gy.niaoyun.online, port: 2003, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP1】新加坡SG 04_4', server: niaocloud-gy.niaoyun.online, port: 2004, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP1】日本JP 01_5', server: niaocloud-gy.niaoyun.online, port: 3001, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP1】日本JP 02_6', server: niaocloud-gy.niaoyun.online, port: 3002, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP1】日本JP 03_7', server: niaocloud-gy.niaoyun.online, port: 3003, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP1】日本JP 04_8', server: niaocloud-gy.niaoyun.online, port: 3004, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP1】香港HK 01_9', server: niaocloud-gy.niaoyun.online, port: 4001, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP1】香港HK 02_10', server: niaocloud-gy.niaoyun.online, port: 4002, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP1】香港HK 03_11', server: niaocloud-gy.niaoyun.online, port: 4003, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP1】香港HK 04_12', server: niaocloud-gy.niaoyun.online, port: 4004, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP2】新加坡SG 01_13', server: niaocloud-gy.niaoyun.online, port: 6101, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP2】新加坡SG 02_14', server: niaocloud-gy.niaoyun.online, port: 6102, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP2】新加坡SG 03_15', server: niaocloud-gy.niaoyun.online, port: 6103, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP2】新加坡SG 04_16', server: niaocloud-gy.niaoyun.online, port: 6104, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP2】新加坡SG 05_17', server: niaocloud-gy.niaoyun.online, port: 6105, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP2】新加坡SG 06_18', server: niaocloud-gy.niaoyun.online, port: 6106, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP2】美国UA 01_19', server: niaocloud-gy.niaoyun.online, port: 8201, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP2】美国UA 02_20', server: niaocloud-gy.niaoyun.online, port: 8202, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP2】美国UA 03_21', server: niaocloud-gy.niaoyun.online, port: 8203, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
-  - {name: '【VIP2】美国UA 04_22', server: niaocloud-gy.niaoyun.online, port: 8204, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
+  - {name: '🇺🇸_US_美国_1', server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/bb2b34a1", host: www.ltzs.buzz }}
+  - {name: '🇺🇸_US_美国_2', server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/bb2b34a1", host: www.ltzs.buzz }}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【VIP1】新加坡SG 01 _1
-      - 【VIP1】新加坡SG 02_2
-      - 【VIP1】新加坡SG 03_3
-      - 【VIP1】新加坡SG 04_4
-      - 【VIP1】日本JP 01_5
-      - 【VIP1】日本JP 02_6
-      - 【VIP1】日本JP 03_7
-      - 【VIP1】日本JP 04_8
-      - 【VIP1】香港HK 01_9
-      - 【VIP1】香港HK 02_10
-      - 【VIP1】香港HK 03_11
-      - 【VIP1】香港HK 04_12
-      - 【VIP2】新加坡SG 01_13
-      - 【VIP2】新加坡SG 02_14
-      - 【VIP2】新加坡SG 03_15
-      - 【VIP2】新加坡SG 04_16
-      - 【VIP2】新加坡SG 05_17
-      - 【VIP2】新加坡SG 06_18
-      - 【VIP2】美国UA 01_19
-      - 【VIP2】美国UA 02_20
-      - 【VIP2】美国UA 03_21
-      - 【VIP2】美国UA 04_22
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【VIP1】新加坡SG 01 _1
-      - 【VIP1】新加坡SG 02_2
-      - 【VIP1】新加坡SG 03_3
-      - 【VIP1】新加坡SG 04_4
-      - 【VIP1】日本JP 01_5
-      - 【VIP1】日本JP 02_6
-      - 【VIP1】日本JP 03_7
-      - 【VIP1】日本JP 04_8
-      - 【VIP1】香港HK 01_9
-      - 【VIP1】香港HK 02_10
-      - 【VIP1】香港HK 03_11
-      - 【VIP1】香港HK 04_12
-      - 【VIP2】新加坡SG 01_13
-      - 【VIP2】新加坡SG 02_14
-      - 【VIP2】新加坡SG 03_15
-      - 【VIP2】新加坡SG 04_16
-      - 【VIP2】新加坡SG 05_17
-      - 【VIP2】新加坡SG 06_18
-      - 【VIP2】美国UA 01_19
-      - 【VIP2】美国UA 02_20
-      - 【VIP2】美国UA 03_21
-      - 【VIP2】美国UA 04_22
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【VIP1】新加坡SG 01 _1
-      - 【VIP1】新加坡SG 02_2
-      - 【VIP1】新加坡SG 03_3
-      - 【VIP1】新加坡SG 04_4
-      - 【VIP1】日本JP 01_5
-      - 【VIP1】日本JP 02_6
-      - 【VIP1】日本JP 03_7
-      - 【VIP1】日本JP 04_8
-      - 【VIP1】香港HK 01_9
-      - 【VIP1】香港HK 02_10
-      - 【VIP1】香港HK 03_11
-      - 【VIP1】香港HK 04_12
-      - 【VIP2】新加坡SG 01_13
-      - 【VIP2】新加坡SG 02_14
-      - 【VIP2】新加坡SG 03_15
-      - 【VIP2】新加坡SG 04_16
-      - 【VIP2】新加坡SG 05_17
-      - 【VIP2】新加坡SG 06_18
-      - 【VIP2】美国UA 01_19
-      - 【VIP2】美国UA 02_20
-      - 【VIP2】美国UA 03_21
-      - 【VIP2】美国UA 04_22
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 【VIP1】新加坡SG 01 _1
-      - 【VIP1】新加坡SG 02_2
-      - 【VIP1】新加坡SG 03_3
-      - 【VIP1】新加坡SG 04_4
-      - 【VIP1】日本JP 01_5
-      - 【VIP1】日本JP 02_6
-      - 【VIP1】日本JP 03_7
-      - 【VIP1】日本JP 04_8
-      - 【VIP1】香港HK 01_9
-      - 【VIP1】香港HK 02_10
-      - 【VIP1】香港HK 03_11
-      - 【VIP1】香港HK 04_12
-      - 【VIP2】新加坡SG 01_13
-      - 【VIP2】新加坡SG 02_14
-      - 【VIP2】新加坡SG 03_15
-      - 【VIP2】新加坡SG 04_16
-      - 【VIP2】新加坡SG 05_17
-      - 【VIP2】新加坡SG 06_18
-      - 【VIP2】美国UA 01_19
-      - 【VIP2】美国UA 02_20
-      - 【VIP2】美国UA 03_21
-      - 【VIP2】美国UA 04_22
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 【VIP1】新加坡SG 01 _1
-      - 【VIP1】新加坡SG 02_2
-      - 【VIP1】新加坡SG 03_3
-      - 【VIP1】新加坡SG 04_4
-      - 【VIP1】日本JP 01_5
-      - 【VIP1】日本JP 02_6
-      - 【VIP1】日本JP 03_7
-      - 【VIP1】日本JP 04_8
-      - 【VIP1】香港HK 01_9
-      - 【VIP1】香港HK 02_10
-      - 【VIP1】香港HK 03_11
-      - 【VIP1】香港HK 04_12
-      - 【VIP2】新加坡SG 01_13
-      - 【VIP2】新加坡SG 02_14
-      - 【VIP2】新加坡SG 03_15
-      - 【VIP2】新加坡SG 04_16
-      - 【VIP2】新加坡SG 05_17
-      - 【VIP2】新加坡SG 06_18
-      - 【VIP2】美国UA 01_19
-      - 【VIP2】美国UA 02_20
-      - 【VIP2】美国UA 03_21
-      - 【VIP2】美国UA 04_22
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 【VIP1】新加坡SG 01 _1
-      - 【VIP1】新加坡SG 02_2
-      - 【VIP1】新加坡SG 03_3
-      - 【VIP1】新加坡SG 04_4
-      - 【VIP1】日本JP 01_5
-      - 【VIP1】日本JP 02_6
-      - 【VIP1】日本JP 03_7
-      - 【VIP1】日本JP 04_8
-      - 【VIP1】香港HK 01_9
-      - 【VIP1】香港HK 02_10
-      - 【VIP1】香港HK 03_11
-      - 【VIP1】香港HK 04_12
-      - 【VIP2】新加坡SG 01_13
-      - 【VIP2】新加坡SG 02_14
-      - 【VIP2】新加坡SG 03_15
-      - 【VIP2】新加坡SG 04_16
-      - 【VIP2】新加坡SG 05_17
-      - 【VIP2】新加坡SG 06_18
-      - 【VIP2】美国UA 01_19
-      - 【VIP2】美国UA 02_20
-      - 【VIP2】美国UA 03_21
-      - 【VIP2】美国UA 04_22
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【VIP1】新加坡SG 01 _1
-      - 【VIP1】新加坡SG 02_2
-      - 【VIP1】新加坡SG 03_3
-      - 【VIP1】新加坡SG 04_4
-      - 【VIP1】日本JP 01_5
-      - 【VIP1】日本JP 02_6
-      - 【VIP1】日本JP 03_7
-      - 【VIP1】日本JP 04_8
-      - 【VIP1】香港HK 01_9
-      - 【VIP1】香港HK 02_10
-      - 【VIP1】香港HK 03_11
-      - 【VIP1】香港HK 04_12
-      - 【VIP2】新加坡SG 01_13
-      - 【VIP2】新加坡SG 02_14
-      - 【VIP2】新加坡SG 03_15
-      - 【VIP2】新加坡SG 04_16
-      - 【VIP2】新加坡SG 05_17
-      - 【VIP2】新加坡SG 06_18
-      - 【VIP2】美国UA 01_19
-      - 【VIP2】美国UA 02_20
-      - 【VIP2】美国UA 03_21
-      - 【VIP2】美国UA 04_22
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -234,28 +74,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【VIP1】新加坡SG 01 _1
-      - 【VIP1】新加坡SG 02_2
-      - 【VIP1】新加坡SG 03_3
-      - 【VIP1】新加坡SG 04_4
-      - 【VIP1】日本JP 01_5
-      - 【VIP1】日本JP 02_6
-      - 【VIP1】日本JP 03_7
-      - 【VIP1】日本JP 04_8
-      - 【VIP1】香港HK 01_9
-      - 【VIP1】香港HK 02_10
-      - 【VIP1】香港HK 03_11
-      - 【VIP1】香港HK 04_12
-      - 【VIP2】新加坡SG 01_13
-      - 【VIP2】新加坡SG 02_14
-      - 【VIP2】新加坡SG 03_15
-      - 【VIP2】新加坡SG 04_16
-      - 【VIP2】新加坡SG 05_17
-      - 【VIP2】新加坡SG 06_18
-      - 【VIP2】美国UA 01_19
-      - 【VIP2】美国UA 02_20
-      - 【VIP2】美国UA 03_21
-      - 【VIP2】美国UA 04_22
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
