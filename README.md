@@ -24,6 +24,7 @@
 |	4	|[raw](https://raw.githubusercontent.com/some6508/all/master/c4)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/c4)|[staticdn](https://raw.staticdn.net/some6508/all/master/c4)|
 |	5	|[raw](https://raw.githubusercontent.com/some6508/all/master/c5)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/c5)|[staticdn](https://raw.staticdn.net/some6508/all/master/c5)|
 |	6	|[raw](https://raw.githubusercontent.com/some6508/all/master/c6)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/c6)|[staticdn](https://raw.staticdn.net/some6508/all/master/c6)|
+|	7	|[raw](https://raw.githubusercontent.com/some6508/all/master/c7)|[jsdelivr](https://cdn.jsdelivr.net/gh/some6508/all@master/c7)|[staticdn](https://raw.staticdn.net/some6508/all/master/c7)|
 
 ****
 ````
@@ -33,6 +34,7 @@ https://raw.githubusercontent.com/some6508/all/master/c3
 https://raw.githubusercontent.com/some6508/all/master/c4
 https://raw.githubusercontent.com/some6508/all/master/c5
 https://raw.githubusercontent.com/some6508/all/master/c6
+https://raw.githubusercontent.com/some6508/all/master/c7
 ````
 </details>
 
