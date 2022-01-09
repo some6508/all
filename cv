@@ -739,6 +739,52 @@ proxies:
   - {name: Ytb:冰河圈子_US_美国_112, server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /bb2b34a1, headers: {Host: 172.67.197.254}}, udp: true}
   - {name: Ytb:冰河圈子_NL_荷兰_113, server: 154.84.1.250, port: 443, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/261411191011, headers: {Host: 154.84.1.250}}, udp: true}
   - {name: Ytb:冰河圈子_PT_葡萄牙_114, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
+  - {name: 新加坡TG@moneyflychat  02, server: 183.240.69.50, port: 11001, type: ss, cipher: aes-256-gcm, password: 89e6bc58-1e27-4e31-9ba4-4da71ce09882, udp: true}
+  - {name: 香港负载均衡 1-1, server: shusacu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 19531:781150, obfs-param: "", udp: true}
+  - {name: 自研加速隧道香港 1-1, server: shusacu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 19531:781150, obfs-param: "", udp: true}
+  - {name: 基础|香港04|负载均衡, server: v11.88host.buzz, port: 18008, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 基础|香港05|负载均衡, server: v12.88host.buzz, port: 18009, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|香港07|原生HKBN, server: v31.88host.buzz, port: 18082, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 基础|香港02|负载均衡, server: v12.88host.buzz, port: 18006, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|日本01|解锁流媒体, server: v21.88host.buzz, port: 18021, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat  高速166, server: vipdedi.boom.ovh, port: 65521, type: vmess, uuid: a40efc44-e837-3f49-90c5-78a0cab7a598, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mydisk, headers: {Host: vipdedi.boom.ovh}}, udp: true}
+  - {name: 2.74| 专线西雅图01原生NTT, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.29| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.74| 专线西雅图01原生NTT 2, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|加拿大01|解锁流媒体, server: v27.88host.buzz, port: 18072, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 基础|台湾02|负载均衡, server: v12.88host.buzz, port: 18118, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.29| 专线中国台湾03原生HINET 2, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.27| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|加拿大02|解锁流媒体, server: v28.88host.buzz, port: 18073, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|英国01|解锁流媒体, server: v25.88host.buzz, port: 18076, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 基础|俄罗斯03|负载均衡, server: v11.88host.buzz, port: 18003, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|英国02|解锁流媒体, server: v26.88host.buzz, port: 18077, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 基础|俄罗斯01|负载均衡, server: v11.88host.buzz, port: 18001, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 5.20| 专线香港08原生HGCBBS, server: zfd.out02.nodeserver.top, port: 16237, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG | AZ Lite 01, server: 52.187.160.204, port: 80, type: vmess, uuid: 07ceb0b4-1405-47c5-88af-804edf696bcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 52.187.160.204}}, udp: true}
+  - {name: 基础|美国04|负载均衡, server: v11.88host.buzz, port: 18124, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 基础|美国02|负载均衡, server: v12.88host.buzz, port: 18122, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 基础|美国03|负载均衡, server: v13.88host.buzz, port: 18123, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.04| 专线中国台湾05原生HINET, server: zfd.out04.nodeserver.top, port: 16226, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国TG@moneyflychat  16, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: 2.04| 专线中国台湾05原生HINET 2, server: zfd.out04.nodeserver.top, port: 16226, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国TG@moneyflychat  15, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: 1.73|US美国94, server: 107.167.23.50, port: 8084, type: ssr, cipher: aes-256-cfb, password: RhKqtYoG8, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/vpnhat, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 法国, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 韩国B, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 香港TG@moneyflychat  362 free, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  359 free, server: 211.99.96.7, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat, server: 211.99.96.7, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港TG@moneyflychat  2, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港TG@moneyflychat  360 free, server: 211.99.96.16, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  353 free, server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  3, server: 211.99.96.12, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港TG@moneyflychat  4, server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港TG@moneyflychat  5, server: 211.99.96.16, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港TG@moneyflychat  6, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港TG@moneyflychat  363 free, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  7, server: 211.99.96.19, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港TG@moneyflychat  8, server: 211.99.96.14, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
   - {name: _FR_法国, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: _US_美国, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
   - {name: _HK_香港, server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
@@ -1539,7 +1585,7 @@ proxies:
   - {name: _US_美国 22, server: 169.197.142.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 中国_TG@nodesharing_27, server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, sni: hk-hkg-sh-hk-02-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
   - {name: V1-日本JP 12 IDCF CDN加速 Netflix 2x, server: global-sakura-jp-c-02.yingyun-resolve.com, port: 126, type: vmess, uuid: e552a8ff-e9cc-393d-b9ff-1bc7ac3689c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vvv, headers: {Host: "%7B%22Host%22:%22v2ray-v1-idcf-jp-02.yingyun-resolve.com%22%7D"}}, udp: true}
-  - {name: 法国, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 法国 2, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 加拿大, server: 117.28.243.220, port: 8221, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 高速节点 suo.yt/gvip（复制到浏览器打开） 33, server: 38.75.136.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 高速节点 suo.yt/gvip（复制到浏览器打开） 6, server: 38.75.136.93, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
@@ -1603,7 +1649,7 @@ proxies:
   - {name: moon365.net🇰🇷KR 147 free, server: gdgz.marslink.icu, port: 41114, type: ss, cipher: chacha20-ietf-poly1305, password: 041cf8e3-1b1d-4f2b-a2ad-f9c392aa15a9, udp: true}
   - {name: 香港 HK x1.0 A16直连, server: hkaz16.biteb-ssx.xyz, port: 12493, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: index, headers: {Host: hkaz16.biteb-ssx.xyz}}, udp: true}
   - {name: 【新鸟免费】日本JP-AWS 01 1.0x, server: mf-aws-jp-01.xncloud.xyz, port: 18000, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-jp-01.xncloud.xyz}}, udp: true}
-  - {name: 韩国B, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 韩国B 2, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 香港 HK x1.0 A2直连, server: hkaz2.biteb-ssx.xyz, port: 14445, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: index, headers: {Host: hkaz2.biteb-ssx.xyz}}, udp: true}
   - {name: 全球直连③-TikTok, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: free.upyun.online, skip-cert-verify: true, udp: true}
   - {name: moon365.net🇭🇰HK 369 free, server: 117.28.242.137, port: 9359, type: ss, cipher: aes-256-cfb, password: !<str> 73117962, udp: true}
@@ -2365,6 +2411,52 @@ proxy-groups:
       - Ytb:冰河圈子_US_美国_112
       - Ytb:冰河圈子_NL_荷兰_113
       - Ytb:冰河圈子_PT_葡萄牙_114
+      - 新加坡TG@moneyflychat  02
+      - 香港负载均衡 1-1
+      - 自研加速隧道香港 1-1
+      - 基础|香港04|负载均衡
+      - 基础|香港05|负载均衡
+      - 专线|香港07|原生HKBN
+      - 基础|香港02|负载均衡
+      - 标准|日本01|解锁流媒体
+      - TG@moneyflychat  高速166
+      - 2.74| 专线西雅图01原生NTT
+      - 2.29| 专线中国台湾03原生HINET
+      - 2.74| 专线西雅图01原生NTT 2
+      - 标准|加拿大01|解锁流媒体
+      - 基础|台湾02|负载均衡
+      - 2.29| 专线中国台湾03原生HINET 2
+      - 2.27| 专线中国台湾03原生HINET
+      - 标准|加拿大02|解锁流媒体
+      - 标准|英国01|解锁流媒体
+      - 基础|俄罗斯03|负载均衡
+      - 标准|英国02|解锁流媒体
+      - 基础|俄罗斯01|负载均衡
+      - 5.20| 专线香港08原生HGCBBS
+      - SG | AZ Lite 01
+      - 基础|美国04|负载均衡
+      - 基础|美国02|负载均衡
+      - 基础|美国03|负载均衡
+      - 2.04| 专线中国台湾05原生HINET
+      - 美国TG@moneyflychat  16
+      - 2.04| 专线中国台湾05原生HINET 2
+      - 美国TG@moneyflychat  15
+      - 1.73|US美国94
+      - 法国
+      - 韩国B
+      - 香港TG@moneyflychat  362 free
+      - 香港TG@moneyflychat  359 free
+      - 香港TG@moneyflychat
+      - 香港TG@moneyflychat  2
+      - 香港TG@moneyflychat  360 free
+      - 香港TG@moneyflychat  353 free
+      - 香港TG@moneyflychat  3
+      - 香港TG@moneyflychat  4
+      - 香港TG@moneyflychat  5
+      - 香港TG@moneyflychat  6
+      - 香港TG@moneyflychat  363 free
+      - 香港TG@moneyflychat  7
+      - 香港TG@moneyflychat  8
       - _FR_法国
       - _US_美国
       - _HK_香港
@@ -3165,7 +3257,7 @@ proxy-groups:
       - _US_美国 22
       - 中国_TG@nodesharing_27
       - V1-日本JP 12 IDCF CDN加速 Netflix 2x
-      - 法国
+      - 法国 2
       - 加拿大
       - 高速节点 suo.yt/gvip（复制到浏览器打开） 33
       - 高速节点 suo.yt/gvip（复制到浏览器打开） 6
@@ -3229,7 +3321,7 @@ proxy-groups:
       - moon365.net🇰🇷KR 147 free
       - 香港 HK x1.0 A16直连
       - 【新鸟免费】日本JP-AWS 01 1.0x
-      - 韩国B
+      - 韩国B 2
       - 香港 HK x1.0 A2直连
       - 全球直连③-TikTok
       - moon365.net🇭🇰HK 369 free
@@ -3980,6 +4072,52 @@ proxy-groups:
       - Ytb:冰河圈子_US_美国_112
       - Ytb:冰河圈子_NL_荷兰_113
       - Ytb:冰河圈子_PT_葡萄牙_114
+      - 新加坡TG@moneyflychat  02
+      - 香港负载均衡 1-1
+      - 自研加速隧道香港 1-1
+      - 基础|香港04|负载均衡
+      - 基础|香港05|负载均衡
+      - 专线|香港07|原生HKBN
+      - 基础|香港02|负载均衡
+      - 标准|日本01|解锁流媒体
+      - TG@moneyflychat  高速166
+      - 2.74| 专线西雅图01原生NTT
+      - 2.29| 专线中国台湾03原生HINET
+      - 2.74| 专线西雅图01原生NTT 2
+      - 标准|加拿大01|解锁流媒体
+      - 基础|台湾02|负载均衡
+      - 2.29| 专线中国台湾03原生HINET 2
+      - 2.27| 专线中国台湾03原生HINET
+      - 标准|加拿大02|解锁流媒体
+      - 标准|英国01|解锁流媒体
+      - 基础|俄罗斯03|负载均衡
+      - 标准|英国02|解锁流媒体
+      - 基础|俄罗斯01|负载均衡
+      - 5.20| 专线香港08原生HGCBBS
+      - SG | AZ Lite 01
+      - 基础|美国04|负载均衡
+      - 基础|美国02|负载均衡
+      - 基础|美国03|负载均衡
+      - 2.04| 专线中国台湾05原生HINET
+      - 美国TG@moneyflychat  16
+      - 2.04| 专线中国台湾05原生HINET 2
+      - 美国TG@moneyflychat  15
+      - 1.73|US美国94
+      - 法国
+      - 韩国B
+      - 香港TG@moneyflychat  362 free
+      - 香港TG@moneyflychat  359 free
+      - 香港TG@moneyflychat
+      - 香港TG@moneyflychat  2
+      - 香港TG@moneyflychat  360 free
+      - 香港TG@moneyflychat  353 free
+      - 香港TG@moneyflychat  3
+      - 香港TG@moneyflychat  4
+      - 香港TG@moneyflychat  5
+      - 香港TG@moneyflychat  6
+      - 香港TG@moneyflychat  363 free
+      - 香港TG@moneyflychat  7
+      - 香港TG@moneyflychat  8
       - _FR_法国
       - _US_美国
       - _HK_香港
@@ -4780,7 +4918,7 @@ proxy-groups:
       - _US_美国 22
       - 中国_TG@nodesharing_27
       - V1-日本JP 12 IDCF CDN加速 Netflix 2x
-      - 法国
+      - 法国 2
       - 加拿大
       - 高速节点 suo.yt/gvip（复制到浏览器打开） 33
       - 高速节点 suo.yt/gvip（复制到浏览器打开） 6
@@ -4844,7 +4982,7 @@ proxy-groups:
       - moon365.net🇰🇷KR 147 free
       - 香港 HK x1.0 A16直连
       - 【新鸟免费】日本JP-AWS 01 1.0x
-      - 韩国B
+      - 韩国B 2
       - 香港 HK x1.0 A2直连
       - 全球直连③-TikTok
       - moon365.net🇭🇰HK 369 free
@@ -4997,6 +5135,11 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 标准|日本01|解锁流媒体
+      - 标准|加拿大01|解锁流媒体
+      - 标准|加拿大02|解锁流媒体
+      - 标准|英国01|解锁流媒体
+      - 标准|英国02|解锁流媒体
       - 广州-日本 DMIT丨全解锁丨A3_1
   - name: 🎯 全球直连
     type: select
@@ -5083,6 +5226,26 @@ proxy-groups:
       - Ytb:冰河圈子_HK_香港_80
       - Ytb:冰河圈子_HK_香港_81
       - Ytb:冰河圈子_HK_香港_91
+      - 香港负载均衡 1-1
+      - 自研加速隧道香港 1-1
+      - 基础|香港04|负载均衡
+      - 基础|香港05|负载均衡
+      - 专线|香港07|原生HKBN
+      - 基础|香港02|负载均衡
+      - 5.20| 专线香港08原生HGCBBS
+      - 香港TG@moneyflychat  362 free
+      - 香港TG@moneyflychat  359 free
+      - 香港TG@moneyflychat
+      - 香港TG@moneyflychat  2
+      - 香港TG@moneyflychat  360 free
+      - 香港TG@moneyflychat  353 free
+      - 香港TG@moneyflychat  3
+      - 香港TG@moneyflychat  4
+      - 香港TG@moneyflychat  5
+      - 香港TG@moneyflychat  6
+      - 香港TG@moneyflychat  363 free
+      - 香港TG@moneyflychat  7
+      - 香港TG@moneyflychat  8
       - _HK_香港
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
@@ -5194,6 +5357,7 @@ proxy-groups:
       - n_017日本∞直连_20
       - _JP_日本_Chen-2022.01.07_25
       - _JP_日本_Chen-2022.01.07_26
+      - 标准|日本01|解锁流媒体
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -5484,6 +5648,14 @@ proxy-groups:
       - Ytb:冰河圈子_US_美国_106
       - Ytb:冰河圈子_US_美国_107
       - Ytb:冰河圈子_US_美国_112
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 2
+      - 基础|美国04|负载均衡
+      - 基础|美国02|负载均衡
+      - 基础|美国03|负载均衡
+      - 美国TG@moneyflychat  16
+      - 美国TG@moneyflychat  15
+      - 1.73|US美国94
       - _US_美国
       - _US_美国 2
       - 美国（YouTube资源分享者） 34
@@ -5707,6 +5879,12 @@ proxy-groups:
       - 台湾（YouTube资源分享者） 8
       - _TW_台湾_Chen-2022.01.07_14
       - _TW_台湾_Chen-2022.01.07_16
+      - 2.29| 专线中国台湾03原生HINET
+      - 基础|台湾02|负载均衡
+      - 2.29| 专线中国台湾03原生HINET 2
+      - 2.27| 专线中国台湾03原生HINET
+      - 2.04| 专线中国台湾05原生HINET
+      - 2.04| 专线中国台湾05原生HINET 2
       - 台湾（YouTube资源分享者） 9
       - 台湾（YouTube资源分享者） 10
       - 台湾（YouTube资源分享者） 11
@@ -5766,6 +5944,8 @@ proxy-groups:
       - _SG_新加坡_Chen-2022.01.07_22
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V17-付费推荐::suo.yt/ssrsub"
+      - 新加坡TG@moneyflychat  02
+      - SG | AZ Lite 01
       - 新加坡（YouTube资源分享者） 2
       - _SG_新加坡_Chen-2022.01.07_8 2
       - _SG_新加坡_Chen-2022.01.07_9 2
@@ -5800,15 +5980,21 @@ proxy-groups:
       - "@SSRSUB-韩国V20-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-韩国T05-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-韩国T11-付费推荐:dlj.tf/ssrsub"
+      - 韩国B
       - "@SSRSUB-韩国V10-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-韩国V20-付费推荐::suo.yt/ssrsub 2"
       - 日韩频道 TG@shoucangAV
       - moon365.net🇰🇷KR 01 free
       - moon365.net🇰🇷KR 147 free
-      - 韩国B
+      - 韩国B 2
   - name: 🎥 奈飞节点
     type: select
     proxies:
+      - 标准|日本01|解锁流媒体
+      - 标准|加拿大01|解锁流媒体
+      - 标准|加拿大02|解锁流媒体
+      - 标准|英国01|解锁流媒体
+      - 标准|英国02|解锁流媒体
       - V1-台湾TW 04 HINET Netflix 2x
       - V1-台湾TW 02 HINET Netflix 2x
       - 俄罗斯 - 新西伯利亚 [BGPA] [SVIP] [Netflix]
