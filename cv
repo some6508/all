@@ -5,60 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 【新鸟免费】俄罗斯RU-Justhost 01 免流 1.0x_4, server: mf-justhost-ru-01.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-justhost-ru-01.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】俄罗斯RU-Justhost 02  免流 1.0x_5, server: mf-justhost-ru-02.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-justhost-ru-02.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】俄罗斯RU-Justhost 03 免流 1.0x_6, server: mf-justhost-ru-03.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-justhost-ru-03.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】俄罗斯RU-Justhost 04 免流 1.0x_7, server: mf-justhost-ru-04.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-justhost-ru-04.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】印度IN-AZ 01 免流 1.0x_8, server: mf-az-yd-01.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-az-yd-01.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】印度IN-AZ 02 免流 1.0x_9, server: mf-az-yd-02.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-az-yd-02.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 01 1.0x_10, server: zz-az-hk-01.xncloud.xyz, port: 101, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: zz-az-hk-01.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 02 1.0x_11, server: zz-az-hk-01.xncloud.xyz, port: 102, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: zz-az-hk-01.xncloud.xyz}}, udp: true}
-  - {name: "【新鸟免费】新加坡SG-AWS 03 1.0x\t_12", server: zz-az-hk-01.xncloud.xyz, port: 103, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: zz-az-hk-01.xncloud.xyz}}, udp: true}
-  - {name: "【新鸟免费】新加坡SG-AWS 04 1.0x\t_13", server: zz-az-hk-01.xncloud.xyz, port: 104, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: zz-az-hk-01.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 05 1.0x_14, server: zz-az-hk-01.xncloud.xyz, port: 105, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: zz-az-hk-01.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 06 1.0x_15, server: zz-az-hk-01.xncloud.xyz, port: 106, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: zz-az-hk-01.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 07 1.0x_16, server: zz-az-hk-01.xncloud.xyz, port: 107, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: zz-az-hk-01.xncloud.xyz}}, udp: true}
-  - {name: "【新鸟免费】新加坡SG-AWS 08 1.0x\t_17", server: zz-az-hk-01.xncloud.xyz, port: 108, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: zz-az-hk-01.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 09 1.0x_18, server: zz-az-hk-01.xncloud.xyz, port: 109, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: zz-az-hk-01.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 10 1.0x_19, server: zz-az-hk-01.xncloud.xyz, port: 110, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: zz-az-hk-01.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 11 1.0x_20, server: mf-aws-sg-11.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-sg-11.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 12 1.0x_21, server: mf-aws-sg-12.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-sg-12.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 13 1.0x_22, server: mf-aws-sg-13.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-sg-13.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 14 1.0x_23, server: mf-aws-sg-14.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-sg-14.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 15 1.0x_24, server: mf-aws-sg-15.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-sg-15.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 01 1.0x_25, server: mf-aws-jp-01.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-jp-01.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 02 1.0x_26, server: mf-aws-jp-02.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-jp-02.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 03 1.0x_27, server: mf-aws-jp-03.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-jp-03.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 04 1.0x_28, server: mf-aws-jp-04.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-jp-04.xncloud.xyz}}, udp: true}
-  - {name: "【新鸟免费】日本JP-AWS 05 1.0x\t_29", server: mf-aws-jp-05.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-jp-05.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 06 1.0x_30, server: mf-aws-jp-06.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-jp-06.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 07 1.0x_31, server: mf-aws-jp-07.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-jp-07.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 08 1.0x_32, server: mf-aws-jp-08.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-jp-08.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 09 1.0x_33, server: mf-aws-jp-09.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-jp-09.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 10 1.0x_34, server: mf-aws-jp-10.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-jp-10.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】日本东京-Oracle 01 免流 1.0x_35, server: mf-oracle-jp-01.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-oracle-jp-01.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】日本东京-Oracle 02 免流 1.0x_36, server: mf-oracle-jp-02.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-oracle-jp-02.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】美国UA -DO 01 免流 1.0x_37, server: mf-do-ua-01.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-do-ua-01.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】美国UA -DO 02 免流 1.0x_38, server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-do-ua-02.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】美国UA -DO 03 免流 1.0x_39, server: mf-do-ua-03.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-do-ua-03.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】美国UA -DO 04 免流 1.0x_40, server: mf-do-ua-04.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-do-ua-04.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】美国UA -DO 05 免流 1.0x_41, server: mf-do-ua-05.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-do-ua-05.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】美国UA -DO 06 免流 1.0x_42, server: mf-do-ua-06.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-do-ua-06.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】美国UA -DO 07 免流 1.0x_43, server: mf-do-ua-07.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-do-ua-07.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】美国UA -DO 08 免流 1.0x_44, server: mf-do-ua-08.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-do-ua-08.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】美国UA -DO 09 免流 1.0x_45, server: mf-do-ua-09.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-do-ua-09.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】美国UA -DO 10 免流 1.0x_46, server: mf-do-ua-10.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-do-ua-10.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】英国UK-AZ 01 免流 1.0x_47, server: mf-az-uk-01.xncloud.xyz, port: 80, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-az-uk-01.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】韩国KR-AWS 01 1.0x_48, server: mf-aws-kr-01.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-kr-01.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】韩国KR-AWS 02 1.0x_49, server: mf-aws-kr-02.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-kr-02.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】韩国KR-AWS 03 1.0x_50, server: mf-aws-kr-03.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-kr-03.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】韩国KR-AWS 04 1.0x_51, server: mf-aws-kr-04.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-kr-04.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】韩国KR-AWS 05 1.0x_52, server: mf-aws-kr-05.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-kr-05.xncloud.xyz}}, udp: true}
-  - {name: "【新鸟免费】香港HK-AWS 01 1.0x\t_53", server: mf-aws-hk-01.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-hk-01.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】香港HK-AWS 02 1.0x_54, server: mf-aws-hk-02.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-hk-02.xncloud.xyz}}, udp: true}
-  - {name: "【新鸟免费】香港HK-AWS 03 1.0x\t_55", server: mf-aws-hk-03.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-hk-03.xncloud.xyz}}, udp: true}
-  - {name: "【新鸟免费】香港HK-AWS 04 1.0x\t_56", server: mf-aws-hk-04.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-hk-04.xncloud.xyz}}, udp: true}
-  - {name: "【新鸟免费】香港HK-AWS 05 1.0x\t_57", server: mf-aws-hk-05.xncloud.xyz, port: 18000, type: vmess, uuid: da3c56b4-3cfd-3ed7-84a0-2faee199a365, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-hk-05.xncloud.xyz}}, udp: true}
+  - {name: _US_美国_1, server: 38.75.136.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 38.143.66.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 38.143.66.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 38.143.66.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
@@ -1431,60 +1378,7 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 【新鸟免费】俄罗斯RU-Justhost 01 免流 1.0x_4
-      - 【新鸟免费】俄罗斯RU-Justhost 02  免流 1.0x_5
-      - 【新鸟免费】俄罗斯RU-Justhost 03 免流 1.0x_6
-      - 【新鸟免费】俄罗斯RU-Justhost 04 免流 1.0x_7
-      - 【新鸟免费】印度IN-AZ 01 免流 1.0x_8
-      - 【新鸟免费】印度IN-AZ 02 免流 1.0x_9
-      - 【新鸟免费】新加坡SG-AWS 01 1.0x_10
-      - 【新鸟免费】新加坡SG-AWS 02 1.0x_11
-      - "【新鸟免费】新加坡SG-AWS 03 1.0x\t_12"
-      - "【新鸟免费】新加坡SG-AWS 04 1.0x\t_13"
-      - 【新鸟免费】新加坡SG-AWS 05 1.0x_14
-      - 【新鸟免费】新加坡SG-AWS 06 1.0x_15
-      - 【新鸟免费】新加坡SG-AWS 07 1.0x_16
-      - "【新鸟免费】新加坡SG-AWS 08 1.0x\t_17"
-      - 【新鸟免费】新加坡SG-AWS 09 1.0x_18
-      - 【新鸟免费】新加坡SG-AWS 10 1.0x_19
-      - 【新鸟免费】新加坡SG-AWS 11 1.0x_20
-      - 【新鸟免费】新加坡SG-AWS 12 1.0x_21
-      - 【新鸟免费】新加坡SG-AWS 13 1.0x_22
-      - 【新鸟免费】新加坡SG-AWS 14 1.0x_23
-      - 【新鸟免费】新加坡SG-AWS 15 1.0x_24
-      - 【新鸟免费】日本JP-AWS 01 1.0x_25
-      - 【新鸟免费】日本JP-AWS 02 1.0x_26
-      - 【新鸟免费】日本JP-AWS 03 1.0x_27
-      - 【新鸟免费】日本JP-AWS 04 1.0x_28
-      - "【新鸟免费】日本JP-AWS 05 1.0x\t_29"
-      - 【新鸟免费】日本JP-AWS 06 1.0x_30
-      - 【新鸟免费】日本JP-AWS 07 1.0x_31
-      - 【新鸟免费】日本JP-AWS 08 1.0x_32
-      - 【新鸟免费】日本JP-AWS 09 1.0x_33
-      - 【新鸟免费】日本JP-AWS 10 1.0x_34
-      - 【新鸟免费】日本东京-Oracle 01 免流 1.0x_35
-      - 【新鸟免费】日本东京-Oracle 02 免流 1.0x_36
-      - 【新鸟免费】美国UA -DO 01 免流 1.0x_37
-      - 【新鸟免费】美国UA -DO 02 免流 1.0x_38
-      - 【新鸟免费】美国UA -DO 03 免流 1.0x_39
-      - 【新鸟免费】美国UA -DO 04 免流 1.0x_40
-      - 【新鸟免费】美国UA -DO 05 免流 1.0x_41
-      - 【新鸟免费】美国UA -DO 06 免流 1.0x_42
-      - 【新鸟免费】美国UA -DO 07 免流 1.0x_43
-      - 【新鸟免费】美国UA -DO 08 免流 1.0x_44
-      - 【新鸟免费】美国UA -DO 09 免流 1.0x_45
-      - 【新鸟免费】美国UA -DO 10 免流 1.0x_46
-      - 【新鸟免费】英国UK-AZ 01 免流 1.0x_47
-      - 【新鸟免费】韩国KR-AWS 01 1.0x_48
-      - 【新鸟免费】韩国KR-AWS 02 1.0x_49
-      - 【新鸟免费】韩国KR-AWS 03 1.0x_50
-      - 【新鸟免费】韩国KR-AWS 04 1.0x_51
-      - 【新鸟免费】韩国KR-AWS 05 1.0x_52
-      - "【新鸟免费】香港HK-AWS 01 1.0x\t_53"
-      - 【新鸟免费】香港HK-AWS 02 1.0x_54
-      - "【新鸟免费】香港HK-AWS 03 1.0x\t_55"
-      - "【新鸟免费】香港HK-AWS 04 1.0x\t_56"
-      - "【新鸟免费】香港HK-AWS 05 1.0x\t_57"
+      - _US_美国_1
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -2846,60 +2740,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【新鸟免费】俄罗斯RU-Justhost 01 免流 1.0x_4
-      - 【新鸟免费】俄罗斯RU-Justhost 02  免流 1.0x_5
-      - 【新鸟免费】俄罗斯RU-Justhost 03 免流 1.0x_6
-      - 【新鸟免费】俄罗斯RU-Justhost 04 免流 1.0x_7
-      - 【新鸟免费】印度IN-AZ 01 免流 1.0x_8
-      - 【新鸟免费】印度IN-AZ 02 免流 1.0x_9
-      - 【新鸟免费】新加坡SG-AWS 01 1.0x_10
-      - 【新鸟免费】新加坡SG-AWS 02 1.0x_11
-      - "【新鸟免费】新加坡SG-AWS 03 1.0x\t_12"
-      - "【新鸟免费】新加坡SG-AWS 04 1.0x\t_13"
-      - 【新鸟免费】新加坡SG-AWS 05 1.0x_14
-      - 【新鸟免费】新加坡SG-AWS 06 1.0x_15
-      - 【新鸟免费】新加坡SG-AWS 07 1.0x_16
-      - "【新鸟免费】新加坡SG-AWS 08 1.0x\t_17"
-      - 【新鸟免费】新加坡SG-AWS 09 1.0x_18
-      - 【新鸟免费】新加坡SG-AWS 10 1.0x_19
-      - 【新鸟免费】新加坡SG-AWS 11 1.0x_20
-      - 【新鸟免费】新加坡SG-AWS 12 1.0x_21
-      - 【新鸟免费】新加坡SG-AWS 13 1.0x_22
-      - 【新鸟免费】新加坡SG-AWS 14 1.0x_23
-      - 【新鸟免费】新加坡SG-AWS 15 1.0x_24
-      - 【新鸟免费】日本JP-AWS 01 1.0x_25
-      - 【新鸟免费】日本JP-AWS 02 1.0x_26
-      - 【新鸟免费】日本JP-AWS 03 1.0x_27
-      - 【新鸟免费】日本JP-AWS 04 1.0x_28
-      - "【新鸟免费】日本JP-AWS 05 1.0x\t_29"
-      - 【新鸟免费】日本JP-AWS 06 1.0x_30
-      - 【新鸟免费】日本JP-AWS 07 1.0x_31
-      - 【新鸟免费】日本JP-AWS 08 1.0x_32
-      - 【新鸟免费】日本JP-AWS 09 1.0x_33
-      - 【新鸟免费】日本JP-AWS 10 1.0x_34
-      - 【新鸟免费】日本东京-Oracle 01 免流 1.0x_35
-      - 【新鸟免费】日本东京-Oracle 02 免流 1.0x_36
-      - 【新鸟免费】美国UA -DO 01 免流 1.0x_37
-      - 【新鸟免费】美国UA -DO 02 免流 1.0x_38
-      - 【新鸟免费】美国UA -DO 03 免流 1.0x_39
-      - 【新鸟免费】美国UA -DO 04 免流 1.0x_40
-      - 【新鸟免费】美国UA -DO 05 免流 1.0x_41
-      - 【新鸟免费】美国UA -DO 06 免流 1.0x_42
-      - 【新鸟免费】美国UA -DO 07 免流 1.0x_43
-      - 【新鸟免费】美国UA -DO 08 免流 1.0x_44
-      - 【新鸟免费】美国UA -DO 09 免流 1.0x_45
-      - 【新鸟免费】美国UA -DO 10 免流 1.0x_46
-      - 【新鸟免费】英国UK-AZ 01 免流 1.0x_47
-      - 【新鸟免费】韩国KR-AWS 01 1.0x_48
-      - 【新鸟免费】韩国KR-AWS 02 1.0x_49
-      - 【新鸟免费】韩国KR-AWS 03 1.0x_50
-      - 【新鸟免费】韩国KR-AWS 04 1.0x_51
-      - 【新鸟免费】韩国KR-AWS 05 1.0x_52
-      - "【新鸟免费】香港HK-AWS 01 1.0x\t_53"
-      - 【新鸟免费】香港HK-AWS 02 1.0x_54
-      - "【新鸟免费】香港HK-AWS 03 1.0x\t_55"
-      - "【新鸟免费】香港HK-AWS 04 1.0x\t_56"
-      - "【新鸟免费】香港HK-AWS 05 1.0x\t_57"
+      - _US_美国_1
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -4437,11 +4278,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "【新鸟免费】香港HK-AWS 01 1.0x\t_53"
-      - 【新鸟免费】香港HK-AWS 02 1.0x_54
-      - "【新鸟免费】香港HK-AWS 03 1.0x\t_55"
-      - "【新鸟免费】香港HK-AWS 04 1.0x\t_56"
-      - "【新鸟免费】香港HK-AWS 05 1.0x\t_57"
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
       - 香港（YouTube资源分享者） 3
@@ -4584,18 +4420,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【新鸟免费】日本JP-AWS 01 1.0x_25
-      - 【新鸟免费】日本JP-AWS 02 1.0x_26
-      - 【新鸟免费】日本JP-AWS 03 1.0x_27
-      - 【新鸟免费】日本JP-AWS 04 1.0x_28
-      - "【新鸟免费】日本JP-AWS 05 1.0x\t_29"
-      - 【新鸟免费】日本JP-AWS 06 1.0x_30
-      - 【新鸟免费】日本JP-AWS 07 1.0x_31
-      - 【新鸟免费】日本JP-AWS 08 1.0x_32
-      - 【新鸟免费】日本JP-AWS 09 1.0x_33
-      - 【新鸟免费】日本JP-AWS 10 1.0x_34
-      - 【新鸟免费】日本东京-Oracle 01 免流 1.0x_35
-      - 【新鸟免费】日本东京-Oracle 02 免流 1.0x_36
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
@@ -4647,16 +4471,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【新鸟免费】美国UA -DO 01 免流 1.0x_37
-      - 【新鸟免费】美国UA -DO 02 免流 1.0x_38
-      - 【新鸟免费】美国UA -DO 03 免流 1.0x_39
-      - 【新鸟免费】美国UA -DO 04 免流 1.0x_40
-      - 【新鸟免费】美国UA -DO 05 免流 1.0x_41
-      - 【新鸟免费】美国UA -DO 06 免流 1.0x_42
-      - 【新鸟免费】美国UA -DO 07 免流 1.0x_43
-      - 【新鸟免费】美国UA -DO 08 免流 1.0x_44
-      - 【新鸟免费】美国UA -DO 09 免流 1.0x_45
-      - 【新鸟免费】美国UA -DO 10 免流 1.0x_46
+      - _US_美国_1
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -5061,21 +4876,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【新鸟免费】新加坡SG-AWS 01 1.0x_10
-      - 【新鸟免费】新加坡SG-AWS 02 1.0x_11
-      - "【新鸟免费】新加坡SG-AWS 03 1.0x\t_12"
-      - "【新鸟免费】新加坡SG-AWS 04 1.0x\t_13"
-      - 【新鸟免费】新加坡SG-AWS 05 1.0x_14
-      - 【新鸟免费】新加坡SG-AWS 06 1.0x_15
-      - 【新鸟免费】新加坡SG-AWS 07 1.0x_16
-      - "【新鸟免费】新加坡SG-AWS 08 1.0x\t_17"
-      - 【新鸟免费】新加坡SG-AWS 09 1.0x_18
-      - 【新鸟免费】新加坡SG-AWS 10 1.0x_19
-      - 【新鸟免费】新加坡SG-AWS 11 1.0x_20
-      - 【新鸟免费】新加坡SG-AWS 12 1.0x_21
-      - 【新鸟免费】新加坡SG-AWS 13 1.0x_22
-      - 【新鸟免费】新加坡SG-AWS 14 1.0x_23
-      - 【新鸟免费】新加坡SG-AWS 15 1.0x_24
       - 新加坡（YouTube资源分享者）
       - _SG_新加坡_Chen-2022.01.07_8
       - _SG_新加坡_Chen-2022.01.07_9
@@ -5117,11 +4917,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【新鸟免费】韩国KR-AWS 01 1.0x_48
-      - 【新鸟免费】韩国KR-AWS 02 1.0x_49
-      - 【新鸟免费】韩国KR-AWS 03 1.0x_50
-      - 【新鸟免费】韩国KR-AWS 04 1.0x_51
-      - 【新鸟免费】韩国KR-AWS 05 1.0x_52
       - "@SSRSUB-韩国V10-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-韩国V20-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-韩国T05-付费推荐:dlj.tf/ssrsub"
