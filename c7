@@ -5,207 +5,215 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡TG@moneyflychat  02, server: 183.240.69.50, port: 11001, type: ss, cipher: aes-256-gcm, password: 89e6bc58-1e27-4e31-9ba4-4da71ce09882, udp: true}
-  - {name: 香港负载均衡 1-1, server: shusacu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 19531:781150, obfs-param: "", udp: true}
-  - {name: 自研加速隧道香港 1-1, server: shusacu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 19531:781150, obfs-param: "", udp: true}
-  - {name: 基础|香港04|负载均衡, server: v11.88host.buzz, port: 18008, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|香港05|负载均衡, server: v12.88host.buzz, port: 18009, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|香港07|原生HKBN, server: v31.88host.buzz, port: 18082, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|香港02|负载均衡, server: v12.88host.buzz, port: 18006, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|日本01|解锁流媒体, server: v21.88host.buzz, port: 18021, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@moneyflychat  高速166, server: vipdedi.boom.ovh, port: 65521, type: vmess, uuid: a40efc44-e837-3f49-90c5-78a0cab7a598, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mydisk, ws-headers: {Host: vipdedi.boom.ovh}, udp: true}
-  - {name: 2.74| 专线西雅图01原生NTT, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.29| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.74| 专线西雅图01原生NTT 2, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|加拿大01|解锁流媒体, server: v27.88host.buzz, port: 18072, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|台湾02|负载均衡, server: v12.88host.buzz, port: 18118, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.29| 专线中国台湾03原生HINET 2, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.27| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|加拿大02|解锁流媒体, server: v28.88host.buzz, port: 18073, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|英国01|解锁流媒体, server: v25.88host.buzz, port: 18076, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|俄罗斯03|负载均衡, server: v11.88host.buzz, port: 18003, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|英国02|解锁流媒体, server: v26.88host.buzz, port: 18077, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|俄罗斯01|负载均衡, server: v11.88host.buzz, port: 18001, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 5.20| 专线香港08原生HGCBBS, server: zfd.out02.nodeserver.top, port: 16237, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG | AZ Lite 01, server: 52.187.160.204, port: 80, type: vmess, uuid: 07ceb0b4-1405-47c5-88af-804edf696bcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 52.187.160.204}, udp: true}
-  - {name: 基础|美国04|负载均衡, server: v11.88host.buzz, port: 18124, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|美国02|负载均衡, server: v12.88host.buzz, port: 18122, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|美国03|负载均衡, server: v13.88host.buzz, port: 18123, type: vmess, uuid: e857dbdb-c466-3d96-9140-afdca8e076e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.04| 专线中国台湾05原生HINET, server: zfd.out04.nodeserver.top, port: 16226, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国TG@moneyflychat  16, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: 2.04| 专线中国台湾05原生HINET 2, server: zfd.out04.nodeserver.top, port: 16226, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国TG@moneyflychat  15, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: 1.73|US美国94, server: 107.167.23.50, port: 8084, type: ssr, cipher: aes-256-cfb, password: RhKqtYoG8, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/vpnhat, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 法国, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 韩国B, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 香港TG@moneyflychat  362 free, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: 香港TG@moneyflychat  359 free, server: 211.99.96.7, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: 香港TG@moneyflychat  , server: 211.99.96.7, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: 香港TG@moneyflychat  2, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: 香港TG@moneyflychat  360 free, server: 211.99.96.16, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: 香港TG@moneyflychat  353 free, server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: 香港TG@moneyflychat  3, server: 211.99.96.12, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: 香港TG@moneyflychat  4, server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: 香港TG@moneyflychat  5, server: 211.99.96.16, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: 香港TG@moneyflychat  6, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: 香港TG@moneyflychat  363 free, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: 香港TG@moneyflychat  7, server: 211.99.96.19, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: 香港TG@moneyflychat  8, server: 211.99.96.14, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港TG@moneyflychat  中转1, server: 211.99.96.7, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  中转2, server: 211.99.96.12, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  中转3, server: 211.99.96.19, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  中转4, server: 211.99.96.16, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  中转5, server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  中转6, server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  中转7, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  中转8, server: 211.99.96.17, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  中转9, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  中转10, server: 211.99.96.14, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  中转11, server: 211.99.96.11, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: HK 353, server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: HK 355, server: 211.99.96.11, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: HK 359, server: 211.99.96.7, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: HK 360, server: 211.99.96.16, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: HK 362, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: HK 363, server: 211.99.96.24, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  2, server: 211.99.96.4, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  3, server: 211.99.96.6, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  4, server: 211.99.96.7, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  5, server: 211.99.96.8, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  6, server: 211.99.96.9, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  7, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  8, server: 211.99.96.11, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  9, server: 211.99.96.12, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  10, server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  11, server: 211.99.96.14, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  12, server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  13, server: 211.99.96.16, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  14, server: 211.99.96.17, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  15, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  16, server: 211.99.96.19, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  17, server: 211.99.96.20, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  18, server: 211.99.96.21, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  19, server: 211.99.96.22, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  20, server: 211.99.96.23, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  21, server: 211.99.96.24, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港TG@moneyflychat  22, server: 211.99.96.26, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港2, server: 211.99.96.27, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港3, server: 211.99.96.28, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港4, server: 211.99.96.29, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港5, server: 211.99.96.30, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港6, server: 211.99.96.32, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港7, server: 211.99.96.35, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港8, server: 211.99.96.36, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港9, server: 211.99.96.37, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港10, server: 211.99.96.39, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港11, server: 211.99.96.40, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡TG@moneyflychat  02
-      - 香港负载均衡 1-1
-      - 自研加速隧道香港 1-1
-      - 基础|香港04|负载均衡
-      - 基础|香港05|负载均衡
-      - 专线|香港07|原生HKBN
-      - 基础|香港02|负载均衡
-      - 标准|日本01|解锁流媒体
-      - TG@moneyflychat  高速166
-      - 2.74| 专线西雅图01原生NTT
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.74| 专线西雅图01原生NTT 2
-      - 标准|加拿大01|解锁流媒体
-      - 基础|台湾02|负载均衡
-      - 2.29| 专线中国台湾03原生HINET 2
-      - 2.27| 专线中国台湾03原生HINET
-      - 标准|加拿大02|解锁流媒体
-      - 标准|英国01|解锁流媒体
-      - 基础|俄罗斯03|负载均衡
-      - 标准|英国02|解锁流媒体
-      - 基础|俄罗斯01|负载均衡
-      - 5.20| 专线香港08原生HGCBBS
-      - SG | AZ Lite 01
-      - 基础|美国04|负载均衡
-      - 基础|美国02|负载均衡
-      - 基础|美国03|负载均衡
-      - 2.04| 专线中国台湾05原生HINET
-      - 美国TG@moneyflychat  16
-      - 2.04| 专线中国台湾05原生HINET 2
-      - 美国TG@moneyflychat  15
-      - 1.73|US美国94
-      - 法国
-      - 韩国B
-      - 香港TG@moneyflychat  362 free
-      - 香港TG@moneyflychat  359 free
-      - 香港TG@moneyflychat  
+      - 香港TG@moneyflychat  中转1
+      - 香港TG@moneyflychat  中转2
+      - 香港TG@moneyflychat  中转3
+      - 香港TG@moneyflychat  中转4
+      - 香港TG@moneyflychat  中转5
+      - 香港TG@moneyflychat  中转6
+      - 香港TG@moneyflychat  中转7
+      - 香港TG@moneyflychat  中转8
+      - 香港TG@moneyflychat  中转9
+      - 香港TG@moneyflychat  中转10
+      - 香港TG@moneyflychat  中转11
+      - HK 353
+      - HK 355
+      - HK 359
+      - HK 360
+      - HK 362
+      - HK 363
       - 香港TG@moneyflychat  2
-      - 香港TG@moneyflychat  360 free
-      - 香港TG@moneyflychat  353 free
       - 香港TG@moneyflychat  3
       - 香港TG@moneyflychat  4
       - 香港TG@moneyflychat  5
       - 香港TG@moneyflychat  6
-      - 香港TG@moneyflychat  363 free
       - 香港TG@moneyflychat  7
       - 香港TG@moneyflychat  8
+      - 香港TG@moneyflychat  9
+      - 香港TG@moneyflychat  10
+      - 香港TG@moneyflychat  11
+      - 香港TG@moneyflychat  12
+      - 香港TG@moneyflychat  13
+      - 香港TG@moneyflychat  14
+      - 香港TG@moneyflychat  15
+      - 香港TG@moneyflychat  16
+      - 香港TG@moneyflychat  17
+      - 香港TG@moneyflychat  18
+      - 香港TG@moneyflychat  19
+      - 香港TG@moneyflychat  20
+      - 香港TG@moneyflychat  21
+      - 香港TG@moneyflychat  22
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡TG@moneyflychat  02
-      - 香港负载均衡 1-1
-      - 自研加速隧道香港 1-1
-      - 基础|香港04|负载均衡
-      - 基础|香港05|负载均衡
-      - 专线|香港07|原生HKBN
-      - 基础|香港02|负载均衡
-      - 标准|日本01|解锁流媒体
-      - TG@moneyflychat  高速166
-      - 2.74| 专线西雅图01原生NTT
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.74| 专线西雅图01原生NTT 2
-      - 标准|加拿大01|解锁流媒体
-      - 基础|台湾02|负载均衡
-      - 2.29| 专线中国台湾03原生HINET 2
-      - 2.27| 专线中国台湾03原生HINET
-      - 标准|加拿大02|解锁流媒体
-      - 标准|英国01|解锁流媒体
-      - 基础|俄罗斯03|负载均衡
-      - 标准|英国02|解锁流媒体
-      - 基础|俄罗斯01|负载均衡
-      - 5.20| 专线香港08原生HGCBBS
-      - SG | AZ Lite 01
-      - 基础|美国04|负载均衡
-      - 基础|美国02|负载均衡
-      - 基础|美国03|负载均衡
-      - 2.04| 专线中国台湾05原生HINET
-      - 美国TG@moneyflychat  16
-      - 2.04| 专线中国台湾05原生HINET 2
-      - 美国TG@moneyflychat  15
-      - 1.73|US美国94
-      - 法国
-      - 韩国B
-      - 香港TG@moneyflychat  362 free
-      - 香港TG@moneyflychat  359 free
-      - 香港TG@moneyflychat  
+      - 香港TG@moneyflychat  中转1
+      - 香港TG@moneyflychat  中转2
+      - 香港TG@moneyflychat  中转3
+      - 香港TG@moneyflychat  中转4
+      - 香港TG@moneyflychat  中转5
+      - 香港TG@moneyflychat  中转6
+      - 香港TG@moneyflychat  中转7
+      - 香港TG@moneyflychat  中转8
+      - 香港TG@moneyflychat  中转9
+      - 香港TG@moneyflychat  中转10
+      - 香港TG@moneyflychat  中转11
+      - HK 353
+      - HK 355
+      - HK 359
+      - HK 360
+      - HK 362
+      - HK 363
       - 香港TG@moneyflychat  2
-      - 香港TG@moneyflychat  360 free
-      - 香港TG@moneyflychat  353 free
       - 香港TG@moneyflychat  3
       - 香港TG@moneyflychat  4
       - 香港TG@moneyflychat  5
       - 香港TG@moneyflychat  6
-      - 香港TG@moneyflychat  363 free
       - 香港TG@moneyflychat  7
       - 香港TG@moneyflychat  8
+      - 香港TG@moneyflychat  9
+      - 香港TG@moneyflychat  10
+      - 香港TG@moneyflychat  11
+      - 香港TG@moneyflychat  12
+      - 香港TG@moneyflychat  13
+      - 香港TG@moneyflychat  14
+      - 香港TG@moneyflychat  15
+      - 香港TG@moneyflychat  16
+      - 香港TG@moneyflychat  17
+      - 香港TG@moneyflychat  18
+      - 香港TG@moneyflychat  19
+      - 香港TG@moneyflychat  20
+      - 香港TG@moneyflychat  21
+      - 香港TG@moneyflychat  22
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡TG@moneyflychat  02
-      - 香港负载均衡 1-1
-      - 自研加速隧道香港 1-1
-      - 基础|香港04|负载均衡
-      - 基础|香港05|负载均衡
-      - 专线|香港07|原生HKBN
-      - 基础|香港02|负载均衡
-      - 标准|日本01|解锁流媒体
-      - TG@moneyflychat  高速166
-      - 2.74| 专线西雅图01原生NTT
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.74| 专线西雅图01原生NTT 2
-      - 标准|加拿大01|解锁流媒体
-      - 基础|台湾02|负载均衡
-      - 2.29| 专线中国台湾03原生HINET 2
-      - 2.27| 专线中国台湾03原生HINET
-      - 标准|加拿大02|解锁流媒体
-      - 标准|英国01|解锁流媒体
-      - 基础|俄罗斯03|负载均衡
-      - 标准|英国02|解锁流媒体
-      - 基础|俄罗斯01|负载均衡
-      - 5.20| 专线香港08原生HGCBBS
-      - SG | AZ Lite 01
-      - 基础|美国04|负载均衡
-      - 基础|美国02|负载均衡
-      - 基础|美国03|负载均衡
-      - 2.04| 专线中国台湾05原生HINET
-      - 美国TG@moneyflychat  16
-      - 2.04| 专线中国台湾05原生HINET 2
-      - 美国TG@moneyflychat  15
-      - 1.73|US美国94
-      - 法国
-      - 韩国B
-      - 香港TG@moneyflychat  362 free
-      - 香港TG@moneyflychat  359 free
-      - 香港TG@moneyflychat  
+      - 香港TG@moneyflychat  中转1
+      - 香港TG@moneyflychat  中转2
+      - 香港TG@moneyflychat  中转3
+      - 香港TG@moneyflychat  中转4
+      - 香港TG@moneyflychat  中转5
+      - 香港TG@moneyflychat  中转6
+      - 香港TG@moneyflychat  中转7
+      - 香港TG@moneyflychat  中转8
+      - 香港TG@moneyflychat  中转9
+      - 香港TG@moneyflychat  中转10
+      - 香港TG@moneyflychat  中转11
+      - HK 353
+      - HK 355
+      - HK 359
+      - HK 360
+      - HK 362
+      - HK 363
       - 香港TG@moneyflychat  2
-      - 香港TG@moneyflychat  360 free
-      - 香港TG@moneyflychat  353 free
       - 香港TG@moneyflychat  3
       - 香港TG@moneyflychat  4
       - 香港TG@moneyflychat  5
       - 香港TG@moneyflychat  6
-      - 香港TG@moneyflychat  363 free
       - 香港TG@moneyflychat  7
       - 香港TG@moneyflychat  8
+      - 香港TG@moneyflychat  9
+      - 香港TG@moneyflychat  10
+      - 香港TG@moneyflychat  11
+      - 香港TG@moneyflychat  12
+      - 香港TG@moneyflychat  13
+      - 香港TG@moneyflychat  14
+      - 香港TG@moneyflychat  15
+      - 香港TG@moneyflychat  16
+      - 香港TG@moneyflychat  17
+      - 香港TG@moneyflychat  18
+      - 香港TG@moneyflychat  19
+      - 香港TG@moneyflychat  20
+      - 香港TG@moneyflychat  21
+      - 香港TG@moneyflychat  22
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -224,224 +232,240 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡TG@moneyflychat  02
-      - 香港负载均衡 1-1
-      - 自研加速隧道香港 1-1
-      - 基础|香港04|负载均衡
-      - 基础|香港05|负载均衡
-      - 专线|香港07|原生HKBN
-      - 基础|香港02|负载均衡
-      - 标准|日本01|解锁流媒体
-      - TG@moneyflychat  高速166
-      - 2.74| 专线西雅图01原生NTT
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.74| 专线西雅图01原生NTT 2
-      - 标准|加拿大01|解锁流媒体
-      - 基础|台湾02|负载均衡
-      - 2.29| 专线中国台湾03原生HINET 2
-      - 2.27| 专线中国台湾03原生HINET
-      - 标准|加拿大02|解锁流媒体
-      - 标准|英国01|解锁流媒体
-      - 基础|俄罗斯03|负载均衡
-      - 标准|英国02|解锁流媒体
-      - 基础|俄罗斯01|负载均衡
-      - 5.20| 专线香港08原生HGCBBS
-      - SG | AZ Lite 01
-      - 基础|美国04|负载均衡
-      - 基础|美国02|负载均衡
-      - 基础|美国03|负载均衡
-      - 2.04| 专线中国台湾05原生HINET
-      - 美国TG@moneyflychat  16
-      - 2.04| 专线中国台湾05原生HINET 2
-      - 美国TG@moneyflychat  15
-      - 1.73|US美国94
-      - 法国
-      - 韩国B
-      - 香港TG@moneyflychat  362 free
-      - 香港TG@moneyflychat  359 free
-      - 香港TG@moneyflychat  
+      - 香港TG@moneyflychat  中转1
+      - 香港TG@moneyflychat  中转2
+      - 香港TG@moneyflychat  中转3
+      - 香港TG@moneyflychat  中转4
+      - 香港TG@moneyflychat  中转5
+      - 香港TG@moneyflychat  中转6
+      - 香港TG@moneyflychat  中转7
+      - 香港TG@moneyflychat  中转8
+      - 香港TG@moneyflychat  中转9
+      - 香港TG@moneyflychat  中转10
+      - 香港TG@moneyflychat  中转11
+      - HK 353
+      - HK 355
+      - HK 359
+      - HK 360
+      - HK 362
+      - HK 363
       - 香港TG@moneyflychat  2
-      - 香港TG@moneyflychat  360 free
-      - 香港TG@moneyflychat  353 free
       - 香港TG@moneyflychat  3
       - 香港TG@moneyflychat  4
       - 香港TG@moneyflychat  5
       - 香港TG@moneyflychat  6
-      - 香港TG@moneyflychat  363 free
       - 香港TG@moneyflychat  7
       - 香港TG@moneyflychat  8
+      - 香港TG@moneyflychat  9
+      - 香港TG@moneyflychat  10
+      - 香港TG@moneyflychat  11
+      - 香港TG@moneyflychat  12
+      - 香港TG@moneyflychat  13
+      - 香港TG@moneyflychat  14
+      - 香港TG@moneyflychat  15
+      - 香港TG@moneyflychat  16
+      - 香港TG@moneyflychat  17
+      - 香港TG@moneyflychat  18
+      - 香港TG@moneyflychat  19
+      - 香港TG@moneyflychat  20
+      - 香港TG@moneyflychat  21
+      - 香港TG@moneyflychat  22
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港负载均衡 1-1
-      - 自研加速隧道香港 1-1
-      - 基础|香港04|负载均衡
-      - 基础|香港05|负载均衡
-      - 专线|香港07|原生HKBN
-      - 基础|香港02|负载均衡
-      - 2.29| 专线中国台湾03原生HINET
-      - 基础|台湾02|负载均衡
-      - 2.29| 专线中国台湾03原生HINET 2
-      - 2.27| 专线中国台湾03原生HINET
-      - 5.20| 专线香港08原生HGCBBS
-      - 2.04| 专线中国台湾05原生HINET
-      - 2.04| 专线中国台湾05原生HINET 2
+      - 香港TG@moneyflychat  中转1
+      - 香港TG@moneyflychat  中转2
+      - 香港TG@moneyflychat  中转3
+      - 香港TG@moneyflychat  中转4
+      - 香港TG@moneyflychat  中转5
+      - 香港TG@moneyflychat  中转6
+      - 香港TG@moneyflychat  中转7
+      - 香港TG@moneyflychat  中转8
+      - 香港TG@moneyflychat  中转9
+      - 香港TG@moneyflychat  中转10
+      - 香港TG@moneyflychat  中转11
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡TG@moneyflychat  02
-      - 香港负载均衡 1-1
-      - 自研加速隧道香港 1-1
-      - 基础|香港04|负载均衡
-      - 基础|香港05|负载均衡
-      - 专线|香港07|原生HKBN
-      - 基础|香港02|负载均衡
-      - 标准|日本01|解锁流媒体
-      - TG@moneyflychat  高速166
-      - 2.74| 专线西雅图01原生NTT
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.74| 专线西雅图01原生NTT 2
-      - 标准|加拿大01|解锁流媒体
-      - 基础|台湾02|负载均衡
-      - 2.29| 专线中国台湾03原生HINET 2
-      - 2.27| 专线中国台湾03原生HINET
-      - 标准|加拿大02|解锁流媒体
-      - 标准|英国01|解锁流媒体
-      - 基础|俄罗斯03|负载均衡
-      - 标准|英国02|解锁流媒体
-      - 基础|俄罗斯01|负载均衡
-      - 5.20| 专线香港08原生HGCBBS
-      - SG | AZ Lite 01
-      - 基础|美国04|负载均衡
-      - 基础|美国02|负载均衡
-      - 基础|美国03|负载均衡
-      - 2.04| 专线中国台湾05原生HINET
-      - 美国TG@moneyflychat  16
-      - 2.04| 专线中国台湾05原生HINET 2
-      - 美国TG@moneyflychat  15
-      - 1.73|US美国94
-      - 法国
-      - 韩国B
-      - 香港TG@moneyflychat  362 free
-      - 香港TG@moneyflychat  359 free
-      - 香港TG@moneyflychat  
+      - 香港TG@moneyflychat  中转1
+      - 香港TG@moneyflychat  中转2
+      - 香港TG@moneyflychat  中转3
+      - 香港TG@moneyflychat  中转4
+      - 香港TG@moneyflychat  中转5
+      - 香港TG@moneyflychat  中转6
+      - 香港TG@moneyflychat  中转7
+      - 香港TG@moneyflychat  中转8
+      - 香港TG@moneyflychat  中转9
+      - 香港TG@moneyflychat  中转10
+      - 香港TG@moneyflychat  中转11
+      - HK 353
+      - HK 355
+      - HK 359
+      - HK 360
+      - HK 362
+      - HK 363
       - 香港TG@moneyflychat  2
-      - 香港TG@moneyflychat  360 free
-      - 香港TG@moneyflychat  353 free
       - 香港TG@moneyflychat  3
       - 香港TG@moneyflychat  4
       - 香港TG@moneyflychat  5
       - 香港TG@moneyflychat  6
-      - 香港TG@moneyflychat  363 free
       - 香港TG@moneyflychat  7
       - 香港TG@moneyflychat  8
+      - 香港TG@moneyflychat  9
+      - 香港TG@moneyflychat  10
+      - 香港TG@moneyflychat  11
+      - 香港TG@moneyflychat  12
+      - 香港TG@moneyflychat  13
+      - 香港TG@moneyflychat  14
+      - 香港TG@moneyflychat  15
+      - 香港TG@moneyflychat  16
+      - 香港TG@moneyflychat  17
+      - 香港TG@moneyflychat  18
+      - 香港TG@moneyflychat  19
+      - 香港TG@moneyflychat  20
+      - 香港TG@moneyflychat  21
+      - 香港TG@moneyflychat  22
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡TG@moneyflychat  02
-      - 香港负载均衡 1-1
-      - 自研加速隧道香港 1-1
-      - 基础|香港04|负载均衡
-      - 基础|香港05|负载均衡
-      - 专线|香港07|原生HKBN
-      - 基础|香港02|负载均衡
-      - 标准|日本01|解锁流媒体
-      - TG@moneyflychat  高速166
-      - 2.74| 专线西雅图01原生NTT
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.74| 专线西雅图01原生NTT 2
-      - 标准|加拿大01|解锁流媒体
-      - 基础|台湾02|负载均衡
-      - 2.29| 专线中国台湾03原生HINET 2
-      - 2.27| 专线中国台湾03原生HINET
-      - 标准|加拿大02|解锁流媒体
-      - 标准|英国01|解锁流媒体
-      - 基础|俄罗斯03|负载均衡
-      - 标准|英国02|解锁流媒体
-      - 基础|俄罗斯01|负载均衡
-      - 5.20| 专线香港08原生HGCBBS
-      - SG | AZ Lite 01
-      - 基础|美国04|负载均衡
-      - 基础|美国02|负载均衡
-      - 基础|美国03|负载均衡
-      - 2.04| 专线中国台湾05原生HINET
-      - 美国TG@moneyflychat  16
-      - 2.04| 专线中国台湾05原生HINET 2
-      - 美国TG@moneyflychat  15
-      - 1.73|US美国94
-      - 法国
-      - 韩国B
-      - 香港TG@moneyflychat  362 free
-      - 香港TG@moneyflychat  359 free
-      - 香港TG@moneyflychat  
+      - 香港TG@moneyflychat  中转1
+      - 香港TG@moneyflychat  中转2
+      - 香港TG@moneyflychat  中转3
+      - 香港TG@moneyflychat  中转4
+      - 香港TG@moneyflychat  中转5
+      - 香港TG@moneyflychat  中转6
+      - 香港TG@moneyflychat  中转7
+      - 香港TG@moneyflychat  中转8
+      - 香港TG@moneyflychat  中转9
+      - 香港TG@moneyflychat  中转10
+      - 香港TG@moneyflychat  中转11
+      - HK 353
+      - HK 355
+      - HK 359
+      - HK 360
+      - HK 362
+      - HK 363
       - 香港TG@moneyflychat  2
-      - 香港TG@moneyflychat  360 free
-      - 香港TG@moneyflychat  353 free
       - 香港TG@moneyflychat  3
       - 香港TG@moneyflychat  4
       - 香港TG@moneyflychat  5
       - 香港TG@moneyflychat  6
-      - 香港TG@moneyflychat  363 free
       - 香港TG@moneyflychat  7
       - 香港TG@moneyflychat  8
+      - 香港TG@moneyflychat  9
+      - 香港TG@moneyflychat  10
+      - 香港TG@moneyflychat  11
+      - 香港TG@moneyflychat  12
+      - 香港TG@moneyflychat  13
+      - 香港TG@moneyflychat  14
+      - 香港TG@moneyflychat  15
+      - 香港TG@moneyflychat  16
+      - 香港TG@moneyflychat  17
+      - 香港TG@moneyflychat  18
+      - 香港TG@moneyflychat  19
+      - 香港TG@moneyflychat  20
+      - 香港TG@moneyflychat  21
+      - 香港TG@moneyflychat  22
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡TG@moneyflychat  02
-      - 香港负载均衡 1-1
-      - 自研加速隧道香港 1-1
-      - 基础|香港04|负载均衡
-      - 基础|香港05|负载均衡
-      - 专线|香港07|原生HKBN
-      - 基础|香港02|负载均衡
-      - 标准|日本01|解锁流媒体
-      - TG@moneyflychat  高速166
-      - 2.74| 专线西雅图01原生NTT
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.74| 专线西雅图01原生NTT 2
-      - 标准|加拿大01|解锁流媒体
-      - 基础|台湾02|负载均衡
-      - 2.29| 专线中国台湾03原生HINET 2
-      - 2.27| 专线中国台湾03原生HINET
-      - 标准|加拿大02|解锁流媒体
-      - 标准|英国01|解锁流媒体
-      - 基础|俄罗斯03|负载均衡
-      - 标准|英国02|解锁流媒体
-      - 基础|俄罗斯01|负载均衡
-      - 5.20| 专线香港08原生HGCBBS
-      - SG | AZ Lite 01
-      - 基础|美国04|负载均衡
-      - 基础|美国02|负载均衡
-      - 基础|美国03|负载均衡
-      - 2.04| 专线中国台湾05原生HINET
-      - 美国TG@moneyflychat  16
-      - 2.04| 专线中国台湾05原生HINET 2
-      - 美国TG@moneyflychat  15
-      - 1.73|US美国94
-      - 法国
-      - 韩国B
-      - 香港TG@moneyflychat  362 free
-      - 香港TG@moneyflychat  359 free
-      - 香港TG@moneyflychat  
+      - 香港TG@moneyflychat  中转1
+      - 香港TG@moneyflychat  中转2
+      - 香港TG@moneyflychat  中转3
+      - 香港TG@moneyflychat  中转4
+      - 香港TG@moneyflychat  中转5
+      - 香港TG@moneyflychat  中转6
+      - 香港TG@moneyflychat  中转7
+      - 香港TG@moneyflychat  中转8
+      - 香港TG@moneyflychat  中转9
+      - 香港TG@moneyflychat  中转10
+      - 香港TG@moneyflychat  中转11
+      - HK 353
+      - HK 355
+      - HK 359
+      - HK 360
+      - HK 362
+      - HK 363
       - 香港TG@moneyflychat  2
-      - 香港TG@moneyflychat  360 free
-      - 香港TG@moneyflychat  353 free
       - 香港TG@moneyflychat  3
       - 香港TG@moneyflychat  4
       - 香港TG@moneyflychat  5
       - 香港TG@moneyflychat  6
-      - 香港TG@moneyflychat  363 free
       - 香港TG@moneyflychat  7
       - 香港TG@moneyflychat  8
+      - 香港TG@moneyflychat  9
+      - 香港TG@moneyflychat  10
+      - 香港TG@moneyflychat  11
+      - 香港TG@moneyflychat  12
+      - 香港TG@moneyflychat  13
+      - 香港TG@moneyflychat  14
+      - 香港TG@moneyflychat  15
+      - 香港TG@moneyflychat  16
+      - 香港TG@moneyflychat  17
+      - 香港TG@moneyflychat  18
+      - 香港TG@moneyflychat  19
+      - 香港TG@moneyflychat  20
+      - 香港TG@moneyflychat  21
+      - 香港TG@moneyflychat  22
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -457,52 +481,54 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡TG@moneyflychat  02
-      - 香港负载均衡 1-1
-      - 自研加速隧道香港 1-1
-      - 基础|香港04|负载均衡
-      - 基础|香港05|负载均衡
-      - 专线|香港07|原生HKBN
-      - 基础|香港02|负载均衡
-      - 标准|日本01|解锁流媒体
-      - TG@moneyflychat  高速166
-      - 2.74| 专线西雅图01原生NTT
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.74| 专线西雅图01原生NTT 2
-      - 标准|加拿大01|解锁流媒体
-      - 基础|台湾02|负载均衡
-      - 2.29| 专线中国台湾03原生HINET 2
-      - 2.27| 专线中国台湾03原生HINET
-      - 标准|加拿大02|解锁流媒体
-      - 标准|英国01|解锁流媒体
-      - 基础|俄罗斯03|负载均衡
-      - 标准|英国02|解锁流媒体
-      - 基础|俄罗斯01|负载均衡
-      - 5.20| 专线香港08原生HGCBBS
-      - SG | AZ Lite 01
-      - 基础|美国04|负载均衡
-      - 基础|美国02|负载均衡
-      - 基础|美国03|负载均衡
-      - 2.04| 专线中国台湾05原生HINET
-      - 美国TG@moneyflychat  16
-      - 2.04| 专线中国台湾05原生HINET 2
-      - 美国TG@moneyflychat  15
-      - 1.73|US美国94
-      - 法国
-      - 韩国B
-      - 香港TG@moneyflychat  362 free
-      - 香港TG@moneyflychat  359 free
-      - 香港TG@moneyflychat  
+      - 香港TG@moneyflychat  中转1
+      - 香港TG@moneyflychat  中转2
+      - 香港TG@moneyflychat  中转3
+      - 香港TG@moneyflychat  中转4
+      - 香港TG@moneyflychat  中转5
+      - 香港TG@moneyflychat  中转6
+      - 香港TG@moneyflychat  中转7
+      - 香港TG@moneyflychat  中转8
+      - 香港TG@moneyflychat  中转9
+      - 香港TG@moneyflychat  中转10
+      - 香港TG@moneyflychat  中转11
+      - HK 353
+      - HK 355
+      - HK 359
+      - HK 360
+      - HK 362
+      - HK 363
       - 香港TG@moneyflychat  2
-      - 香港TG@moneyflychat  360 free
-      - 香港TG@moneyflychat  353 free
       - 香港TG@moneyflychat  3
       - 香港TG@moneyflychat  4
       - 香港TG@moneyflychat  5
       - 香港TG@moneyflychat  6
-      - 香港TG@moneyflychat  363 free
       - 香港TG@moneyflychat  7
       - 香港TG@moneyflychat  8
+      - 香港TG@moneyflychat  9
+      - 香港TG@moneyflychat  10
+      - 香港TG@moneyflychat  11
+      - 香港TG@moneyflychat  12
+      - 香港TG@moneyflychat  13
+      - 香港TG@moneyflychat  14
+      - 香港TG@moneyflychat  15
+      - 香港TG@moneyflychat  16
+      - 香港TG@moneyflychat  17
+      - 香港TG@moneyflychat  18
+      - 香港TG@moneyflychat  19
+      - 香港TG@moneyflychat  20
+      - 香港TG@moneyflychat  21
+      - 香港TG@moneyflychat  22
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
