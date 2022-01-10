@@ -1,5 +1,5 @@
 echo "::notice::$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')"
-echo "::notice::https://github.com/some6508/all/archive/$(curl -s 'https://api.github.com/repos/some6508/all/commits' | grep -m 1 'sha' | sed 's/.*"sha": //g').zip"
+echo "::notice::https://github.com/some6508/all/archive/$(curl -s 'https://api.github.com/repos/some6508/all/commits' | grep -m 1 'sha' | sed 's/.*"sha": "//g; s/",//g').zip"
 home=`pwd`
 exec 2>$home/.ccaeo.log
 set -x
