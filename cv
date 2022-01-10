@@ -533,15 +533,27 @@ proxies:
   - {name: 香港9, server: 211.99.96.37, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
   - {name: 香港10, server: 211.99.96.39, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
   - {name: 香港11, server: 211.99.96.40, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: 1, server: 169.197.142.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 2, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 3, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 4, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 5, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 6, server: 167.88.61.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 7, server: 194.68.225.104, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 8, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj, udp: true}
-  - {name: 9, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_5, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_7, server: 70.39.67.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: amu1ahfi.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_8, server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: amu1ahfi.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_9, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_10, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_12, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_14, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_16, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_17, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_20, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_21, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_24, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_26, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: dax6ujai.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_HU_28, server: 185.252.223.204, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/243535322906, headers: {Host: www.16675463.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_HU_29, server: 185.252.223.204, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/261411191011, headers: {Host: www.16675463.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_HU_30, server: 185.252.223.204, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/243535322906, headers: {Host: www.16675463.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_31, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_33, server: fa1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_35, server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: dax6ujai.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_37, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: 翻墙党fanqiangdang.com_US_38, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2009,15 +2021,27 @@ proxy-groups:
       - 香港9
       - 香港10
       - 香港11
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
+      - 翻墙党fanqiangdang.com_US_5
+      - 翻墙党fanqiangdang.com_US_7
+      - 翻墙党fanqiangdang.com_US_8
+      - 翻墙党fanqiangdang.com_US_9
+      - 翻墙党fanqiangdang.com_US_10
+      - 翻墙党fanqiangdang.com_US_12
+      - 翻墙党fanqiangdang.com_US_14
+      - 翻墙党fanqiangdang.com_US_16
+      - 翻墙党fanqiangdang.com_US_17
+      - 翻墙党fanqiangdang.com_US_20
+      - 翻墙党fanqiangdang.com_US_21
+      - 翻墙党fanqiangdang.com_US_24
+      - 翻墙党fanqiangdang.com_US_26
+      - 翻墙党fanqiangdang.com_HU_28
+      - 翻墙党fanqiangdang.com_HU_29
+      - 翻墙党fanqiangdang.com_HU_30
+      - 翻墙党fanqiangdang.com_US_31
+      - 翻墙党fanqiangdang.com_US_33
+      - 翻墙党fanqiangdang.com_US_35
+      - 翻墙党fanqiangdang.com_US_37
+      - 翻墙党fanqiangdang.com_US_38
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3474,15 +3498,27 @@ proxy-groups:
       - 香港9
       - 香港10
       - 香港11
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
+      - 翻墙党fanqiangdang.com_US_5
+      - 翻墙党fanqiangdang.com_US_7
+      - 翻墙党fanqiangdang.com_US_8
+      - 翻墙党fanqiangdang.com_US_9
+      - 翻墙党fanqiangdang.com_US_10
+      - 翻墙党fanqiangdang.com_US_12
+      - 翻墙党fanqiangdang.com_US_14
+      - 翻墙党fanqiangdang.com_US_16
+      - 翻墙党fanqiangdang.com_US_17
+      - 翻墙党fanqiangdang.com_US_20
+      - 翻墙党fanqiangdang.com_US_21
+      - 翻墙党fanqiangdang.com_US_24
+      - 翻墙党fanqiangdang.com_US_26
+      - 翻墙党fanqiangdang.com_HU_28
+      - 翻墙党fanqiangdang.com_HU_29
+      - 翻墙党fanqiangdang.com_HU_30
+      - 翻墙党fanqiangdang.com_US_31
+      - 翻墙党fanqiangdang.com_US_33
+      - 翻墙党fanqiangdang.com_US_35
+      - 翻墙党fanqiangdang.com_US_37
+      - 翻墙党fanqiangdang.com_US_38
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4982,6 +5018,24 @@ proxy-groups:
       - Ytb:鹏哥分享_US_美国_58
       - Ytb:鹏哥分享_US_美国_59
       - Ytb:鹏哥分享_US_美国_60
+      - 翻墙党fanqiangdang.com_US_5
+      - 翻墙党fanqiangdang.com_US_7
+      - 翻墙党fanqiangdang.com_US_8
+      - 翻墙党fanqiangdang.com_US_9
+      - 翻墙党fanqiangdang.com_US_10
+      - 翻墙党fanqiangdang.com_US_12
+      - 翻墙党fanqiangdang.com_US_14
+      - 翻墙党fanqiangdang.com_US_16
+      - 翻墙党fanqiangdang.com_US_17
+      - 翻墙党fanqiangdang.com_US_20
+      - 翻墙党fanqiangdang.com_US_21
+      - 翻墙党fanqiangdang.com_US_24
+      - 翻墙党fanqiangdang.com_US_26
+      - 翻墙党fanqiangdang.com_US_31
+      - 翻墙党fanqiangdang.com_US_33
+      - 翻墙党fanqiangdang.com_US_35
+      - 翻墙党fanqiangdang.com_US_37
+      - 翻墙党fanqiangdang.com_US_38
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
