@@ -5,76 +5,1140 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇨🇦_CA_加拿大_1', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇫🇷_FR_法国_2', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_美国_3', server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '🇺🇸_US_美国_4', server: 38.143.66.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '_比利时_+T_90', server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '澳大利亚w_18', server: 172.105.180.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '法国w_13', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '_澳大利亚_+T_59', server: 172.105.180.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '_澳大利亚_+T_51', server: 172.105.180.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '_US_美国+14_6', server: 38.143.66.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '_US_美国+15_7', server: 38.143.66.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '_US_美国+16_8', server: 38.143.66.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '美国+8_9', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '台湾 6_10', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: t1.ssrsub.com }}
+  - {name: '_US_美国+17_11', server: 38.75.136.93, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '_US_美国+18_12', server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '_US_美国+19_13', server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '_US_美国+20_14', server: 38.75.136.93, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '_US_美国+21_15', server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国+9_16', server: 169.197.142.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '美国+10_17', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '_US_美国+22_18', server: 38.143.66.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '美国+11_19', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '_US_美国 23_20', server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: amu1ahfi.com }}
+  - {name: '_US_美国+24_21', server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '_US_美国 25_22', server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: iesei1ei.com }}
+  - {name: '加拿大+3_23', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '加拿大+4_24', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '台湾 7_25', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/ws", host: iesei1ei.com }}
+  - {name: '法国+2_26', server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '_US_美国 26_27', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-sanfrancisco.lvuft.com }}
+  - {name: '_US_美国+27_28', server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '法国+3_29', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '法国+4_30', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '美国+12_31', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国 13_32', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
+  - {name: '美国 14_33', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
+  - {name: '美国+15_34', server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '美国+16_35', server: 169.197.142.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国+17_36', server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '_US_美国+28_37', server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '澳大利亚_38', server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '俄罗斯+2_39', server: t7.ssrsub.com, port: 8443, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t7.ssrsub.com}
+  - {name: '法国+5_40', server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '加拿大+5_41', server: t3.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t3.ssrsub.com}
+  - {name: '_AU_澳大利亚_42', server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '_US_美国 29_43', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
+  - {name: '_US_美国+30_44', server: 38.143.66.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '_US_美国+31_45', server: 169.197.142.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '_US_美国+32_46', server: 169.197.142.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '法国+6_47', server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '法国+7_48', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '法国+8_49', server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '法国+9_50', server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '法国+10_51', server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '加拿大+6_52', server: t3.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t3.ssrsub.com}
+  - {name: '美国 18_53', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-miami.lvuft.com }}
+  - {name: '美国+19_54', server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '美国+20_55', server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '美国 21_56', server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-sanfrancisco.lvuft.com }}
+  - {name: '_AU_澳大利亚+2_57', server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '_US_美国+33_58', server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '_US_美国 34_59', server: 70.39.67.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: amu1ahfi.com }}
+  - {name: '_US_美国+35_60', server: 167.88.61.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '澳大利亚+2_61', server: 172.105.180.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '法国+11_62', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '法国+12_63', server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '加拿大+7_64', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '美国+22_65', server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '美国+23_66', server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '美国+24_67', server: 38.143.66.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '_US_美国+36_68', server: 169.197.142.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Te_69', server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online}
+  - {name: 'Te+3_70', server: s2.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s2.upyun.online}
+  - {name: 'Te+5_71', server: 62.210.209.50, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Te+6_72', server: 62.210.209.50, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Te+7_73', server: 62.210.209.50, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Te+8_74', server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Te+9_75', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Te 10_76', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/The-Great-Awakening_vws?ed=2048", host: vincent-jackson2021.ga }}
+  - {name: 'Te+11_77', server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Te+12_78', server: 62.210.209.50, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Te+13_79', server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Te+14_80', server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Te+15_81', server: 62.210.209.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Te+16_82', server: 62.210.209.50, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Te+17_83', server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Te+18_84', server: 62.210.209.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Te 19_85', server: tw-tpe-h-v2.cdn.savoy.click, port: 988, type: vmess, uuid: adef7fc3-66d8-4709-b588-30b8ba07f5ff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: 'Te+21_86', server: 62.210.209.50, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Te+22_87', server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Te+23_88', server: 62.210.209.50, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Te+24_89', server: 62.210.209.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Te+25_90', server: 62.210.209.50, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Te+26_91', server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Te 27_92', server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: 'Te 30_93', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: 'Te+33_94', server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Te 34_95', server: jp-nrt-04-v2.cdn.savoy.click, port: 888, type: vmess, uuid: adef7fc3-66d8-4709-b588-30b8ba07f5ff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: cdn.savoy.click }}
+  - {name: 'Te+35_96', server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Te+36_97', server: 38.143.66.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Te+37_98', server: gz1.dddd.cool, port: 24999, type: ss, cipher: chacha20-ietf-poly1305, password: 813c7a5c-755c-4011-85d5-ed9e209d07ec}
+  - {name: 'Te+38_99', server: 107.182.234.233, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: 'Te+39_100', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Te+45_101', server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Te+50_102', server: 62.210.209.50, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Te+52_103', server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Te+54_104', server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Te+57_105', server: 172.99.190.87, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Te+59_106', server: 62.210.209.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Te+64_107', server: 172.99.190.87, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Te+66_108', server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Te+68_109', server: 172.99.190.87, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Te+70_110', server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Te+73_111', server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Te 77_112', server: 112.64.69.187, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: 178.62.224.119 }}
+  - {name: 'Te+79_113', server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Te+80_114', server: 38.75.136.93, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Te+81_115', server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Te+94_116', server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Te+95_117', server: 172.99.190.87, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Te+96_118', server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Te+97_119', server: 172.105.180.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Te+99_120', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Te+102_121', server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Te+103_122', server: 172.105.180.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Te+105_123', server: 172.99.190.87, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Te+106_124', server: 172.105.180.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Te+110_125', server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Te+116_126', server: 62.210.209.50, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Te+117_127', server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Te+118_128', server: 172.105.180.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Te+120_129', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '加拿大 8_130', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-buffalo.lvuft.com }}
+  - {name: '美国+25_131', server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '美国+26_132', server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '_CA_加拿大_133', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '加拿大 9_134', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-buffalo.lvuft.com }}
+  - {name: '美国+27_135', server: 172.105.180.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '美国 28_136', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-buffalo.lvuft.com }}
+  - {name: '美国+29_137', server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇫🇷_FR_法国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - _比利时_+T_90
+      - 澳大利亚w_18
+      - 法国w_13
+      - _澳大利亚_+T_59
+      - _澳大利亚_+T_51
+      - _US_美国+14_6
+      - _US_美国+15_7
+      - _US_美国+16_8
+      - 美国+8_9
+      - 台湾 6_10
+      - _US_美国+17_11
+      - _US_美国+18_12
+      - _US_美国+19_13
+      - _US_美国+20_14
+      - _US_美国+21_15
+      - 美国+9_16
+      - 美国+10_17
+      - _US_美国+22_18
+      - 美国+11_19
+      - _US_美国 23_20
+      - _US_美国+24_21
+      - _US_美国 25_22
+      - 加拿大+3_23
+      - 加拿大+4_24
+      - 台湾 7_25
+      - 法国+2_26
+      - _US_美国 26_27
+      - _US_美国+27_28
+      - 法国+3_29
+      - 法国+4_30
+      - 美国+12_31
+      - 美国 13_32
+      - 美国 14_33
+      - 美国+15_34
+      - 美国+16_35
+      - 美国+17_36
+      - _US_美国+28_37
+      - 澳大利亚_38
+      - 俄罗斯+2_39
+      - 法国+5_40
+      - 加拿大+5_41
+      - _AU_澳大利亚_42
+      - _US_美国 29_43
+      - _US_美国+30_44
+      - _US_美国+31_45
+      - _US_美国+32_46
+      - 法国+6_47
+      - 法国+7_48
+      - 法国+8_49
+      - 法国+9_50
+      - 法国+10_51
+      - 加拿大+6_52
+      - 美国 18_53
+      - 美国+19_54
+      - 美国+20_55
+      - 美国 21_56
+      - _AU_澳大利亚+2_57
+      - _US_美国+33_58
+      - _US_美国 34_59
+      - _US_美国+35_60
+      - 澳大利亚+2_61
+      - 法国+11_62
+      - 法国+12_63
+      - 加拿大+7_64
+      - 美国+22_65
+      - 美国+23_66
+      - 美国+24_67
+      - _US_美国+36_68
+      - Te_69
+      - Te+3_70
+      - Te+5_71
+      - Te+6_72
+      - Te+7_73
+      - Te+8_74
+      - Te+9_75
+      - Te 10_76
+      - Te+11_77
+      - Te+12_78
+      - Te+13_79
+      - Te+14_80
+      - Te+15_81
+      - Te+16_82
+      - Te+17_83
+      - Te+18_84
+      - Te 19_85
+      - Te+21_86
+      - Te+22_87
+      - Te+23_88
+      - Te+24_89
+      - Te+25_90
+      - Te+26_91
+      - Te 27_92
+      - Te 30_93
+      - Te+33_94
+      - Te 34_95
+      - Te+35_96
+      - Te+36_97
+      - Te+37_98
+      - Te+38_99
+      - Te+39_100
+      - Te+45_101
+      - Te+50_102
+      - Te+52_103
+      - Te+54_104
+      - Te+57_105
+      - Te+59_106
+      - Te+64_107
+      - Te+66_108
+      - Te+68_109
+      - Te+70_110
+      - Te+73_111
+      - Te 77_112
+      - Te+79_113
+      - Te+80_114
+      - Te+81_115
+      - Te+94_116
+      - Te+95_117
+      - Te+96_118
+      - Te+97_119
+      - Te+99_120
+      - Te+102_121
+      - Te+103_122
+      - Te+105_123
+      - Te+106_124
+      - Te+110_125
+      - Te+116_126
+      - Te+117_127
+      - Te+118_128
+      - Te+120_129
+      - 加拿大 8_130
+      - 美国+25_131
+      - 美国+26_132
+      - _CA_加拿大_133
+      - 加拿大 9_134
+      - 美国+27_135
+      - 美国 28_136
+      - 美国+29_137
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇦_CA_加拿大_1
-      - 🇫🇷_FR_法国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - _比利时_+T_90
+      - 澳大利亚w_18
+      - 法国w_13
+      - _澳大利亚_+T_59
+      - _澳大利亚_+T_51
+      - _US_美国+14_6
+      - _US_美国+15_7
+      - _US_美国+16_8
+      - 美国+8_9
+      - 台湾 6_10
+      - _US_美国+17_11
+      - _US_美国+18_12
+      - _US_美国+19_13
+      - _US_美国+20_14
+      - _US_美国+21_15
+      - 美国+9_16
+      - 美国+10_17
+      - _US_美国+22_18
+      - 美国+11_19
+      - _US_美国 23_20
+      - _US_美国+24_21
+      - _US_美国 25_22
+      - 加拿大+3_23
+      - 加拿大+4_24
+      - 台湾 7_25
+      - 法国+2_26
+      - _US_美国 26_27
+      - _US_美国+27_28
+      - 法国+3_29
+      - 法国+4_30
+      - 美国+12_31
+      - 美国 13_32
+      - 美国 14_33
+      - 美国+15_34
+      - 美国+16_35
+      - 美国+17_36
+      - _US_美国+28_37
+      - 澳大利亚_38
+      - 俄罗斯+2_39
+      - 法国+5_40
+      - 加拿大+5_41
+      - _AU_澳大利亚_42
+      - _US_美国 29_43
+      - _US_美国+30_44
+      - _US_美国+31_45
+      - _US_美国+32_46
+      - 法国+6_47
+      - 法国+7_48
+      - 法国+8_49
+      - 法国+9_50
+      - 法国+10_51
+      - 加拿大+6_52
+      - 美国 18_53
+      - 美国+19_54
+      - 美国+20_55
+      - 美国 21_56
+      - _AU_澳大利亚+2_57
+      - _US_美国+33_58
+      - _US_美国 34_59
+      - _US_美国+35_60
+      - 澳大利亚+2_61
+      - 法国+11_62
+      - 法国+12_63
+      - 加拿大+7_64
+      - 美国+22_65
+      - 美国+23_66
+      - 美国+24_67
+      - _US_美国+36_68
+      - Te_69
+      - Te+3_70
+      - Te+5_71
+      - Te+6_72
+      - Te+7_73
+      - Te+8_74
+      - Te+9_75
+      - Te 10_76
+      - Te+11_77
+      - Te+12_78
+      - Te+13_79
+      - Te+14_80
+      - Te+15_81
+      - Te+16_82
+      - Te+17_83
+      - Te+18_84
+      - Te 19_85
+      - Te+21_86
+      - Te+22_87
+      - Te+23_88
+      - Te+24_89
+      - Te+25_90
+      - Te+26_91
+      - Te 27_92
+      - Te 30_93
+      - Te+33_94
+      - Te 34_95
+      - Te+35_96
+      - Te+36_97
+      - Te+37_98
+      - Te+38_99
+      - Te+39_100
+      - Te+45_101
+      - Te+50_102
+      - Te+52_103
+      - Te+54_104
+      - Te+57_105
+      - Te+59_106
+      - Te+64_107
+      - Te+66_108
+      - Te+68_109
+      - Te+70_110
+      - Te+73_111
+      - Te 77_112
+      - Te+79_113
+      - Te+80_114
+      - Te+81_115
+      - Te+94_116
+      - Te+95_117
+      - Te+96_118
+      - Te+97_119
+      - Te+99_120
+      - Te+102_121
+      - Te+103_122
+      - Te+105_123
+      - Te+106_124
+      - Te+110_125
+      - Te+116_126
+      - Te+117_127
+      - Te+118_128
+      - Te+120_129
+      - 加拿大 8_130
+      - 美国+25_131
+      - 美国+26_132
+      - _CA_加拿大_133
+      - 加拿大 9_134
+      - 美国+27_135
+      - 美国 28_136
+      - 美国+29_137
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇫🇷_FR_法国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - _比利时_+T_90
+      - 澳大利亚w_18
+      - 法国w_13
+      - _澳大利亚_+T_59
+      - _澳大利亚_+T_51
+      - _US_美国+14_6
+      - _US_美国+15_7
+      - _US_美国+16_8
+      - 美国+8_9
+      - 台湾 6_10
+      - _US_美国+17_11
+      - _US_美国+18_12
+      - _US_美国+19_13
+      - _US_美国+20_14
+      - _US_美国+21_15
+      - 美国+9_16
+      - 美国+10_17
+      - _US_美国+22_18
+      - 美国+11_19
+      - _US_美国 23_20
+      - _US_美国+24_21
+      - _US_美国 25_22
+      - 加拿大+3_23
+      - 加拿大+4_24
+      - 台湾 7_25
+      - 法国+2_26
+      - _US_美国 26_27
+      - _US_美国+27_28
+      - 法国+3_29
+      - 法国+4_30
+      - 美国+12_31
+      - 美国 13_32
+      - 美国 14_33
+      - 美国+15_34
+      - 美国+16_35
+      - 美国+17_36
+      - _US_美国+28_37
+      - 澳大利亚_38
+      - 俄罗斯+2_39
+      - 法国+5_40
+      - 加拿大+5_41
+      - _AU_澳大利亚_42
+      - _US_美国 29_43
+      - _US_美国+30_44
+      - _US_美国+31_45
+      - _US_美国+32_46
+      - 法国+6_47
+      - 法国+7_48
+      - 法国+8_49
+      - 法国+9_50
+      - 法国+10_51
+      - 加拿大+6_52
+      - 美国 18_53
+      - 美国+19_54
+      - 美国+20_55
+      - 美国 21_56
+      - _AU_澳大利亚+2_57
+      - _US_美国+33_58
+      - _US_美国 34_59
+      - _US_美国+35_60
+      - 澳大利亚+2_61
+      - 法国+11_62
+      - 法国+12_63
+      - 加拿大+7_64
+      - 美国+22_65
+      - 美国+23_66
+      - 美国+24_67
+      - _US_美国+36_68
+      - Te_69
+      - Te+3_70
+      - Te+5_71
+      - Te+6_72
+      - Te+7_73
+      - Te+8_74
+      - Te+9_75
+      - Te 10_76
+      - Te+11_77
+      - Te+12_78
+      - Te+13_79
+      - Te+14_80
+      - Te+15_81
+      - Te+16_82
+      - Te+17_83
+      - Te+18_84
+      - Te 19_85
+      - Te+21_86
+      - Te+22_87
+      - Te+23_88
+      - Te+24_89
+      - Te+25_90
+      - Te+26_91
+      - Te 27_92
+      - Te 30_93
+      - Te+33_94
+      - Te 34_95
+      - Te+35_96
+      - Te+36_97
+      - Te+37_98
+      - Te+38_99
+      - Te+39_100
+      - Te+45_101
+      - Te+50_102
+      - Te+52_103
+      - Te+54_104
+      - Te+57_105
+      - Te+59_106
+      - Te+64_107
+      - Te+66_108
+      - Te+68_109
+      - Te+70_110
+      - Te+73_111
+      - Te 77_112
+      - Te+79_113
+      - Te+80_114
+      - Te+81_115
+      - Te+94_116
+      - Te+95_117
+      - Te+96_118
+      - Te+97_119
+      - Te+99_120
+      - Te+102_121
+      - Te+103_122
+      - Te+105_123
+      - Te+106_124
+      - Te+110_125
+      - Te+116_126
+      - Te+117_127
+      - Te+118_128
+      - Te+120_129
+      - 加拿大 8_130
+      - 美国+25_131
+      - 美国+26_132
+      - _CA_加拿大_133
+      - 加拿大 9_134
+      - 美国+27_135
+      - 美国 28_136
+      - 美国+29_137
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇫🇷_FR_法国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - _比利时_+T_90
+      - 澳大利亚w_18
+      - 法国w_13
+      - _澳大利亚_+T_59
+      - _澳大利亚_+T_51
+      - _US_美国+14_6
+      - _US_美国+15_7
+      - _US_美国+16_8
+      - 美国+8_9
+      - 台湾 6_10
+      - _US_美国+17_11
+      - _US_美国+18_12
+      - _US_美国+19_13
+      - _US_美国+20_14
+      - _US_美国+21_15
+      - 美国+9_16
+      - 美国+10_17
+      - _US_美国+22_18
+      - 美国+11_19
+      - _US_美国 23_20
+      - _US_美国+24_21
+      - _US_美国 25_22
+      - 加拿大+3_23
+      - 加拿大+4_24
+      - 台湾 7_25
+      - 法国+2_26
+      - _US_美国 26_27
+      - _US_美国+27_28
+      - 法国+3_29
+      - 法国+4_30
+      - 美国+12_31
+      - 美国 13_32
+      - 美国 14_33
+      - 美国+15_34
+      - 美国+16_35
+      - 美国+17_36
+      - _US_美国+28_37
+      - 澳大利亚_38
+      - 俄罗斯+2_39
+      - 法国+5_40
+      - 加拿大+5_41
+      - _AU_澳大利亚_42
+      - _US_美国 29_43
+      - _US_美国+30_44
+      - _US_美国+31_45
+      - _US_美国+32_46
+      - 法国+6_47
+      - 法国+7_48
+      - 法国+8_49
+      - 法国+9_50
+      - 法国+10_51
+      - 加拿大+6_52
+      - 美国 18_53
+      - 美国+19_54
+      - 美国+20_55
+      - 美国 21_56
+      - _AU_澳大利亚+2_57
+      - _US_美国+33_58
+      - _US_美国 34_59
+      - _US_美国+35_60
+      - 澳大利亚+2_61
+      - 法国+11_62
+      - 法国+12_63
+      - 加拿大+7_64
+      - 美国+22_65
+      - 美国+23_66
+      - 美国+24_67
+      - _US_美国+36_68
+      - Te_69
+      - Te+3_70
+      - Te+5_71
+      - Te+6_72
+      - Te+7_73
+      - Te+8_74
+      - Te+9_75
+      - Te 10_76
+      - Te+11_77
+      - Te+12_78
+      - Te+13_79
+      - Te+14_80
+      - Te+15_81
+      - Te+16_82
+      - Te+17_83
+      - Te+18_84
+      - Te 19_85
+      - Te+21_86
+      - Te+22_87
+      - Te+23_88
+      - Te+24_89
+      - Te+25_90
+      - Te+26_91
+      - Te 27_92
+      - Te 30_93
+      - Te+33_94
+      - Te 34_95
+      - Te+35_96
+      - Te+36_97
+      - Te+37_98
+      - Te+38_99
+      - Te+39_100
+      - Te+45_101
+      - Te+50_102
+      - Te+52_103
+      - Te+54_104
+      - Te+57_105
+      - Te+59_106
+      - Te+64_107
+      - Te+66_108
+      - Te+68_109
+      - Te+70_110
+      - Te+73_111
+      - Te 77_112
+      - Te+79_113
+      - Te+80_114
+      - Te+81_115
+      - Te+94_116
+      - Te+95_117
+      - Te+96_118
+      - Te+97_119
+      - Te+99_120
+      - Te+102_121
+      - Te+103_122
+      - Te+105_123
+      - Te+106_124
+      - Te+110_125
+      - Te+116_126
+      - Te+117_127
+      - Te+118_128
+      - Te+120_129
+      - 加拿大 8_130
+      - 美国+25_131
+      - 美国+26_132
+      - _CA_加拿大_133
+      - 加拿大 9_134
+      - 美国+27_135
+      - 美国 28_136
+      - 美国+29_137
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇫🇷_FR_法国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - _比利时_+T_90
+      - 澳大利亚w_18
+      - 法国w_13
+      - _澳大利亚_+T_59
+      - _澳大利亚_+T_51
+      - _US_美国+14_6
+      - _US_美国+15_7
+      - _US_美国+16_8
+      - 美国+8_9
+      - 台湾 6_10
+      - _US_美国+17_11
+      - _US_美国+18_12
+      - _US_美国+19_13
+      - _US_美国+20_14
+      - _US_美国+21_15
+      - 美国+9_16
+      - 美国+10_17
+      - _US_美国+22_18
+      - 美国+11_19
+      - _US_美国 23_20
+      - _US_美国+24_21
+      - _US_美国 25_22
+      - 加拿大+3_23
+      - 加拿大+4_24
+      - 台湾 7_25
+      - 法国+2_26
+      - _US_美国 26_27
+      - _US_美国+27_28
+      - 法国+3_29
+      - 法国+4_30
+      - 美国+12_31
+      - 美国 13_32
+      - 美国 14_33
+      - 美国+15_34
+      - 美国+16_35
+      - 美国+17_36
+      - _US_美国+28_37
+      - 澳大利亚_38
+      - 俄罗斯+2_39
+      - 法国+5_40
+      - 加拿大+5_41
+      - _AU_澳大利亚_42
+      - _US_美国 29_43
+      - _US_美国+30_44
+      - _US_美国+31_45
+      - _US_美国+32_46
+      - 法国+6_47
+      - 法国+7_48
+      - 法国+8_49
+      - 法国+9_50
+      - 法国+10_51
+      - 加拿大+6_52
+      - 美国 18_53
+      - 美国+19_54
+      - 美国+20_55
+      - 美国 21_56
+      - _AU_澳大利亚+2_57
+      - _US_美国+33_58
+      - _US_美国 34_59
+      - _US_美国+35_60
+      - 澳大利亚+2_61
+      - 法国+11_62
+      - 法国+12_63
+      - 加拿大+7_64
+      - 美国+22_65
+      - 美国+23_66
+      - 美国+24_67
+      - _US_美国+36_68
+      - Te_69
+      - Te+3_70
+      - Te+5_71
+      - Te+6_72
+      - Te+7_73
+      - Te+8_74
+      - Te+9_75
+      - Te 10_76
+      - Te+11_77
+      - Te+12_78
+      - Te+13_79
+      - Te+14_80
+      - Te+15_81
+      - Te+16_82
+      - Te+17_83
+      - Te+18_84
+      - Te 19_85
+      - Te+21_86
+      - Te+22_87
+      - Te+23_88
+      - Te+24_89
+      - Te+25_90
+      - Te+26_91
+      - Te 27_92
+      - Te 30_93
+      - Te+33_94
+      - Te 34_95
+      - Te+35_96
+      - Te+36_97
+      - Te+37_98
+      - Te+38_99
+      - Te+39_100
+      - Te+45_101
+      - Te+50_102
+      - Te+52_103
+      - Te+54_104
+      - Te+57_105
+      - Te+59_106
+      - Te+64_107
+      - Te+66_108
+      - Te+68_109
+      - Te+70_110
+      - Te+73_111
+      - Te 77_112
+      - Te+79_113
+      - Te+80_114
+      - Te+81_115
+      - Te+94_116
+      - Te+95_117
+      - Te+96_118
+      - Te+97_119
+      - Te+99_120
+      - Te+102_121
+      - Te+103_122
+      - Te+105_123
+      - Te+106_124
+      - Te+110_125
+      - Te+116_126
+      - Te+117_127
+      - Te+118_128
+      - Te+120_129
+      - 加拿大 8_130
+      - 美国+25_131
+      - 美国+26_132
+      - _CA_加拿大_133
+      - 加拿大 9_134
+      - 美国+27_135
+      - 美国 28_136
+      - 美国+29_137
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇫🇷_FR_法国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - _比利时_+T_90
+      - 澳大利亚w_18
+      - 法国w_13
+      - _澳大利亚_+T_59
+      - _澳大利亚_+T_51
+      - _US_美国+14_6
+      - _US_美国+15_7
+      - _US_美国+16_8
+      - 美国+8_9
+      - 台湾 6_10
+      - _US_美国+17_11
+      - _US_美国+18_12
+      - _US_美国+19_13
+      - _US_美国+20_14
+      - _US_美国+21_15
+      - 美国+9_16
+      - 美国+10_17
+      - _US_美国+22_18
+      - 美国+11_19
+      - _US_美国 23_20
+      - _US_美国+24_21
+      - _US_美国 25_22
+      - 加拿大+3_23
+      - 加拿大+4_24
+      - 台湾 7_25
+      - 法国+2_26
+      - _US_美国 26_27
+      - _US_美国+27_28
+      - 法国+3_29
+      - 法国+4_30
+      - 美国+12_31
+      - 美国 13_32
+      - 美国 14_33
+      - 美国+15_34
+      - 美国+16_35
+      - 美国+17_36
+      - _US_美国+28_37
+      - 澳大利亚_38
+      - 俄罗斯+2_39
+      - 法国+5_40
+      - 加拿大+5_41
+      - _AU_澳大利亚_42
+      - _US_美国 29_43
+      - _US_美国+30_44
+      - _US_美国+31_45
+      - _US_美国+32_46
+      - 法国+6_47
+      - 法国+7_48
+      - 法国+8_49
+      - 法国+9_50
+      - 法国+10_51
+      - 加拿大+6_52
+      - 美国 18_53
+      - 美国+19_54
+      - 美国+20_55
+      - 美国 21_56
+      - _AU_澳大利亚+2_57
+      - _US_美国+33_58
+      - _US_美国 34_59
+      - _US_美国+35_60
+      - 澳大利亚+2_61
+      - 法国+11_62
+      - 法国+12_63
+      - 加拿大+7_64
+      - 美国+22_65
+      - 美国+23_66
+      - 美国+24_67
+      - _US_美国+36_68
+      - Te_69
+      - Te+3_70
+      - Te+5_71
+      - Te+6_72
+      - Te+7_73
+      - Te+8_74
+      - Te+9_75
+      - Te 10_76
+      - Te+11_77
+      - Te+12_78
+      - Te+13_79
+      - Te+14_80
+      - Te+15_81
+      - Te+16_82
+      - Te+17_83
+      - Te+18_84
+      - Te 19_85
+      - Te+21_86
+      - Te+22_87
+      - Te+23_88
+      - Te+24_89
+      - Te+25_90
+      - Te+26_91
+      - Te 27_92
+      - Te 30_93
+      - Te+33_94
+      - Te 34_95
+      - Te+35_96
+      - Te+36_97
+      - Te+37_98
+      - Te+38_99
+      - Te+39_100
+      - Te+45_101
+      - Te+50_102
+      - Te+52_103
+      - Te+54_104
+      - Te+57_105
+      - Te+59_106
+      - Te+64_107
+      - Te+66_108
+      - Te+68_109
+      - Te+70_110
+      - Te+73_111
+      - Te 77_112
+      - Te+79_113
+      - Te+80_114
+      - Te+81_115
+      - Te+94_116
+      - Te+95_117
+      - Te+96_118
+      - Te+97_119
+      - Te+99_120
+      - Te+102_121
+      - Te+103_122
+      - Te+105_123
+      - Te+106_124
+      - Te+110_125
+      - Te+116_126
+      - Te+117_127
+      - Te+118_128
+      - Te+120_129
+      - 加拿大 8_130
+      - 美国+25_131
+      - 美国+26_132
+      - _CA_加拿大_133
+      - 加拿大 9_134
+      - 美国+27_135
+      - 美国 28_136
+      - 美国+29_137
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇫🇷_FR_法国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - _比利时_+T_90
+      - 澳大利亚w_18
+      - 法国w_13
+      - _澳大利亚_+T_59
+      - _澳大利亚_+T_51
+      - _US_美国+14_6
+      - _US_美国+15_7
+      - _US_美国+16_8
+      - 美国+8_9
+      - 台湾 6_10
+      - _US_美国+17_11
+      - _US_美国+18_12
+      - _US_美国+19_13
+      - _US_美国+20_14
+      - _US_美国+21_15
+      - 美国+9_16
+      - 美国+10_17
+      - _US_美国+22_18
+      - 美国+11_19
+      - _US_美国 23_20
+      - _US_美国+24_21
+      - _US_美国 25_22
+      - 加拿大+3_23
+      - 加拿大+4_24
+      - 台湾 7_25
+      - 法国+2_26
+      - _US_美国 26_27
+      - _US_美国+27_28
+      - 法国+3_29
+      - 法国+4_30
+      - 美国+12_31
+      - 美国 13_32
+      - 美国 14_33
+      - 美国+15_34
+      - 美国+16_35
+      - 美国+17_36
+      - _US_美国+28_37
+      - 澳大利亚_38
+      - 俄罗斯+2_39
+      - 法国+5_40
+      - 加拿大+5_41
+      - _AU_澳大利亚_42
+      - _US_美国 29_43
+      - _US_美国+30_44
+      - _US_美国+31_45
+      - _US_美国+32_46
+      - 法国+6_47
+      - 法国+7_48
+      - 法国+8_49
+      - 法国+9_50
+      - 法国+10_51
+      - 加拿大+6_52
+      - 美国 18_53
+      - 美国+19_54
+      - 美国+20_55
+      - 美国 21_56
+      - _AU_澳大利亚+2_57
+      - _US_美国+33_58
+      - _US_美国 34_59
+      - _US_美国+35_60
+      - 澳大利亚+2_61
+      - 法国+11_62
+      - 法国+12_63
+      - 加拿大+7_64
+      - 美国+22_65
+      - 美国+23_66
+      - 美国+24_67
+      - _US_美国+36_68
+      - Te_69
+      - Te+3_70
+      - Te+5_71
+      - Te+6_72
+      - Te+7_73
+      - Te+8_74
+      - Te+9_75
+      - Te 10_76
+      - Te+11_77
+      - Te+12_78
+      - Te+13_79
+      - Te+14_80
+      - Te+15_81
+      - Te+16_82
+      - Te+17_83
+      - Te+18_84
+      - Te 19_85
+      - Te+21_86
+      - Te+22_87
+      - Te+23_88
+      - Te+24_89
+      - Te+25_90
+      - Te+26_91
+      - Te 27_92
+      - Te 30_93
+      - Te+33_94
+      - Te 34_95
+      - Te+35_96
+      - Te+36_97
+      - Te+37_98
+      - Te+38_99
+      - Te+39_100
+      - Te+45_101
+      - Te+50_102
+      - Te+52_103
+      - Te+54_104
+      - Te+57_105
+      - Te+59_106
+      - Te+64_107
+      - Te+66_108
+      - Te+68_109
+      - Te+70_110
+      - Te+73_111
+      - Te 77_112
+      - Te+79_113
+      - Te+80_114
+      - Te+81_115
+      - Te+94_116
+      - Te+95_117
+      - Te+96_118
+      - Te+97_119
+      - Te+99_120
+      - Te+102_121
+      - Te+103_122
+      - Te+105_123
+      - Te+106_124
+      - Te+110_125
+      - Te+116_126
+      - Te+117_127
+      - Te+118_128
+      - Te+120_129
+      - 加拿大 8_130
+      - 美国+25_131
+      - 美国+26_132
+      - _CA_加拿大_133
+      - 加拿大 9_134
+      - 美国+27_135
+      - 美国 28_136
+      - 美国+29_137
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,10 +1154,143 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇫🇷_FR_法国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - _比利时_+T_90
+      - 澳大利亚w_18
+      - 法国w_13
+      - _澳大利亚_+T_59
+      - _澳大利亚_+T_51
+      - _US_美国+14_6
+      - _US_美国+15_7
+      - _US_美国+16_8
+      - 美国+8_9
+      - 台湾 6_10
+      - _US_美国+17_11
+      - _US_美国+18_12
+      - _US_美国+19_13
+      - _US_美国+20_14
+      - _US_美国+21_15
+      - 美国+9_16
+      - 美国+10_17
+      - _US_美国+22_18
+      - 美国+11_19
+      - _US_美国 23_20
+      - _US_美国+24_21
+      - _US_美国 25_22
+      - 加拿大+3_23
+      - 加拿大+4_24
+      - 台湾 7_25
+      - 法国+2_26
+      - _US_美国 26_27
+      - _US_美国+27_28
+      - 法国+3_29
+      - 法国+4_30
+      - 美国+12_31
+      - 美国 13_32
+      - 美国 14_33
+      - 美国+15_34
+      - 美国+16_35
+      - 美国+17_36
+      - _US_美国+28_37
+      - 澳大利亚_38
+      - 俄罗斯+2_39
+      - 法国+5_40
+      - 加拿大+5_41
+      - _AU_澳大利亚_42
+      - _US_美国 29_43
+      - _US_美国+30_44
+      - _US_美国+31_45
+      - _US_美国+32_46
+      - 法国+6_47
+      - 法国+7_48
+      - 法国+8_49
+      - 法国+9_50
+      - 法国+10_51
+      - 加拿大+6_52
+      - 美国 18_53
+      - 美国+19_54
+      - 美国+20_55
+      - 美国 21_56
+      - _AU_澳大利亚+2_57
+      - _US_美国+33_58
+      - _US_美国 34_59
+      - _US_美国+35_60
+      - 澳大利亚+2_61
+      - 法国+11_62
+      - 法国+12_63
+      - 加拿大+7_64
+      - 美国+22_65
+      - 美国+23_66
+      - 美国+24_67
+      - _US_美国+36_68
+      - Te_69
+      - Te+3_70
+      - Te+5_71
+      - Te+6_72
+      - Te+7_73
+      - Te+8_74
+      - Te+9_75
+      - Te 10_76
+      - Te+11_77
+      - Te+12_78
+      - Te+13_79
+      - Te+14_80
+      - Te+15_81
+      - Te+16_82
+      - Te+17_83
+      - Te+18_84
+      - Te 19_85
+      - Te+21_86
+      - Te+22_87
+      - Te+23_88
+      - Te+24_89
+      - Te+25_90
+      - Te+26_91
+      - Te 27_92
+      - Te 30_93
+      - Te+33_94
+      - Te 34_95
+      - Te+35_96
+      - Te+36_97
+      - Te+37_98
+      - Te+38_99
+      - Te+39_100
+      - Te+45_101
+      - Te+50_102
+      - Te+52_103
+      - Te+54_104
+      - Te+57_105
+      - Te+59_106
+      - Te+64_107
+      - Te+66_108
+      - Te+68_109
+      - Te+70_110
+      - Te+73_111
+      - Te 77_112
+      - Te+79_113
+      - Te+80_114
+      - Te+81_115
+      - Te+94_116
+      - Te+95_117
+      - Te+96_118
+      - Te+97_119
+      - Te+99_120
+      - Te+102_121
+      - Te+103_122
+      - Te+105_123
+      - Te+106_124
+      - Te+110_125
+      - Te+116_126
+      - Te+117_127
+      - Te+118_128
+      - Te+120_129
+      - 加拿大 8_130
+      - 美国+25_131
+      - 美国+26_132
+      - _CA_加拿大_133
+      - 加拿大 9_134
+      - 美国+27_135
+      - 美国 28_136
+      - 美国+29_137
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
