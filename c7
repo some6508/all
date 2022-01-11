@@ -5,83 +5,223 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "v2ray 新加坡(移动) [Netflix]", server: cm.cheapv2.xyz, port: 29901, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}, udp: true}
-  - {name: "v2ray 美国(移动) [Netflix]", server: cm.cheapv2.xyz, port: 23308, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}, udp: true}
-  - {name: "v2ray 香港HGC(移动) [Netflix]", server: cm.cheapv2.xyz, port: 23318, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}, udp: true}
-  - {name: "v2ray 香港HKBN(移动) [Netflix]", server: cm.cheapv2.xyz, port: 26609, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}, udp: true}
-  - {name: "v2ray 日本(移动) [Netflix]", server: cm2.cheapv2.xyz, port: 28802, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}, udp: true}
-  - {name: "v2ray 新加坡(联通) [Netflix]", server: cu.cheapv2.xyz, port: 29901, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
-  - {name: "v2ray 日本(联通) [Netflix]", server: cu.cheapv2.xyz, port: 28802, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
-  - {name: "v2ray 美国(联通) [Netflix]", server: cu.cheapv2.xyz, port: 23308, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
-  - {name: "v2ray 香港HGC(联通) [Netflix]", server: cu.cheapv2.xyz, port: 23318, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
-  - {name: "v2ray 香港HKBN(联通) [Netflix]", server: cu.cheapv2.xyz, port: 26609, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
-  - {name: 2.74| 专线西雅图01原生NTT, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.74| 专线西雅图01原生NTT 2, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 5.20| 专线香港08原生HGCBBS, server: zfd.out02.nodeserver.top, port: 16237, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.29| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.27| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港01, server: iepl.hk.02d0.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港02, server: iepl.hk.c474.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港03, server: iepl.hk.9e09.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港04, server: iepl.hk.a934.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港05, server: iepl.hk.f6e8.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港06, server: iepl.hk.0686.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港07, server: iepl.hk.cc38.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港08, server: iepl.hk.4a75.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港09, server: iepl.hk.023d.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港10, server: iepl.hk.fda0.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港11, server: iepl.hk.206f.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港12, server: iepl.hk.b22f.linkit.dev, port: 447, type: ss, cipher: xchacha20-ietf-poly1305, password: IlIIlIllIlIIlIll, plugin: obfs, plugin-opts: {mode: http, host: 5bca555450.ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港13, server: iepl.hk.31c4.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港14, server: iepl.hk.71bc.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港15, server: iepl.hk.7512.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港16, server: iepl.hk.f663.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 日本01 | Media, server: iepl.jp.883b.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 日本02 | Media, server: iepl.jp.f43f.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 日本03 | Media, server: iepl.jp.44cc.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 日本04 | Media, server: iepl.jp.e688.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 日本05 | Media, server: iepl.jp.ab0c.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 日本06 | Media, server: iepl.jp.22e5.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 新加坡01 | Media, server: iepl.sg.21ce.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 新加坡02 | Media, server: iepl.sg.d6e4.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 新加坡03 | Media, server: iepl.sg.bd6f.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 新加坡04 | Media, server: iepl.sg.e0c4.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 新加坡05 | Media, server: iepl.sg.f84d.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 新加坡06 | Media, server: iepl.sg.1312.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 台湾01 | Shenzhen, server: iepl.tw.4edb.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 台湾02 | Shenzhen, server: iepl.tw.a4a2.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 台湾03 | Shenzhen, server: iepl.tw.5e24.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 台湾04 | Shenzhen, server: iepl.tw.9548.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 美国01 | Media, server: iepl.us.e99c.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 美国02 | Media, server: iepl.us.e8c3.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 美国03 | Media, server: iepl.us.4447.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 美国04 | Media, server: iepl.us.6e28.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 美国05 | Media, server: iepl.us.4bcf.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 香港1, server: 103.138.75.235, port: 443, type: vmess, uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: 103.138.75.235}, udp: true}
+  - {name: 香港2, server: 103.138.75.235, port: 443, type: vmess, uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: 103.138.75.235}, udp: true}
+  - {name: 香港, server: iepl.hk.f6e8.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 2HK-香港, server: iepl.hk.0686.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 3HK-香港, server: iepl.hk.cc38.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 4HK-香港, server: iepl.hk.4a75.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 5HK-香港, server: iepl.hk.023d.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 6HK-香港, server: iepl.hk.fda0.linkit.dev, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 台湾, server: abnode05-2.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode05-2.makegamegoal.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡, server: abnode10.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode10.makegamegoal.com, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: abnode12.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode12.makegamegoal.com, skip-cert-verify: true, udp: true}
+  - {name: 香港001, server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0, udp: true}
+  - {name: 美国001, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2ray 新加坡(移动) [Netflix]
-      - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
-      - v2ray 日本(移动) [Netflix]
-      - v2ray 新加坡(联通) [Netflix]
-      - v2ray 日本(联通) [Netflix]
-      - v2ray 美国(联通) [Netflix]
-      - v2ray 香港HGC(联通) [Netflix]
-      - v2ray 香港HKBN(联通) [Netflix]
-      - 2.74| 专线西雅图01原生NTT
-      - 2.74| 专线西雅图01原生NTT 2
-      - 5.20| 专线香港08原生HGCBBS
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.27| 专线中国台湾03原生HINET
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09
+      - 香港10
+      - 香港11
+      - 香港12
+      - 香港13
+      - 香港14
+      - 香港15
+      - 香港16
+      - 日本01 | Media
+      - 日本02 | Media
+      - 日本03 | Media
+      - 日本04 | Media
+      - 日本05 | Media
+      - 日本06 | Media
+      - 新加坡01 | Media
+      - 新加坡02 | Media
+      - 新加坡03 | Media
+      - 新加坡04 | Media
+      - 新加坡05 | Media
+      - 新加坡06 | Media
+      - 台湾01 | Shenzhen
+      - 台湾02 | Shenzhen
+      - 台湾03 | Shenzhen
+      - 台湾04 | Shenzhen
+      - 美国01 | Media
+      - 美国02 | Media
+      - 美国03 | Media
+      - 美国04 | Media
+      - 美国05 | Media
+      - 香港1
+      - 香港2
+      - 香港
+      - 2HK-香港
+      - 3HK-香港
+      - 4HK-香港
+      - 5HK-香港
+      - 6HK-香港
+      - 台湾
+      - 新加坡
+      - 美国
+      - 香港001
+      - 美国001
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - v2ray 新加坡(移动) [Netflix]
-      - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
-      - v2ray 日本(移动) [Netflix]
-      - v2ray 新加坡(联通) [Netflix]
-      - v2ray 日本(联通) [Netflix]
-      - v2ray 美国(联通) [Netflix]
-      - v2ray 香港HGC(联通) [Netflix]
-      - v2ray 香港HKBN(联通) [Netflix]
-      - 2.74| 专线西雅图01原生NTT
-      - 2.74| 专线西雅图01原生NTT 2
-      - 5.20| 专线香港08原生HGCBBS
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.27| 专线中国台湾03原生HINET
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09
+      - 香港10
+      - 香港11
+      - 香港12
+      - 香港13
+      - 香港14
+      - 香港15
+      - 香港16
+      - 日本01 | Media
+      - 日本02 | Media
+      - 日本03 | Media
+      - 日本04 | Media
+      - 日本05 | Media
+      - 日本06 | Media
+      - 新加坡01 | Media
+      - 新加坡02 | Media
+      - 新加坡03 | Media
+      - 新加坡04 | Media
+      - 新加坡05 | Media
+      - 新加坡06 | Media
+      - 台湾01 | Shenzhen
+      - 台湾02 | Shenzhen
+      - 台湾03 | Shenzhen
+      - 台湾04 | Shenzhen
+      - 美国01 | Media
+      - 美国02 | Media
+      - 美国03 | Media
+      - 美国04 | Media
+      - 美国05 | Media
+      - 香港1
+      - 香港2
+      - 香港
+      - 2HK-香港
+      - 3HK-香港
+      - 4HK-香港
+      - 5HK-香港
+      - 6HK-香港
+      - 台湾
+      - 新加坡
+      - 美国
+      - 香港001
+      - 美国001
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2ray 新加坡(移动) [Netflix]
-      - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
-      - v2ray 日本(移动) [Netflix]
-      - v2ray 新加坡(联通) [Netflix]
-      - v2ray 日本(联通) [Netflix]
-      - v2ray 美国(联通) [Netflix]
-      - v2ray 香港HGC(联通) [Netflix]
-      - v2ray 香港HKBN(联通) [Netflix]
-      - 2.74| 专线西雅图01原生NTT
-      - 2.74| 专线西雅图01原生NTT 2
-      - 5.20| 专线香港08原生HGCBBS
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.27| 专线中国台湾03原生HINET
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09
+      - 香港10
+      - 香港11
+      - 香港12
+      - 香港13
+      - 香港14
+      - 香港15
+      - 香港16
+      - 日本01 | Media
+      - 日本02 | Media
+      - 日本03 | Media
+      - 日本04 | Media
+      - 日本05 | Media
+      - 日本06 | Media
+      - 新加坡01 | Media
+      - 新加坡02 | Media
+      - 新加坡03 | Media
+      - 新加坡04 | Media
+      - 新加坡05 | Media
+      - 新加坡06 | Media
+      - 台湾01 | Shenzhen
+      - 台湾02 | Shenzhen
+      - 台湾03 | Shenzhen
+      - 台湾04 | Shenzhen
+      - 美国01 | Media
+      - 美国02 | Media
+      - 美国03 | Media
+      - 美国04 | Media
+      - 美国05 | Media
+      - 香港1
+      - 香港2
+      - 香港
+      - 2HK-香港
+      - 3HK-香港
+      - 4HK-香港
+      - 5HK-香港
+      - 6HK-香港
+      - 台湾
+      - 新加坡
+      - 美国
+      - 香港001
+      - 美国001
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,94 +240,257 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2ray 新加坡(移动) [Netflix]
-      - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
-      - v2ray 日本(移动) [Netflix]
-      - v2ray 新加坡(联通) [Netflix]
-      - v2ray 日本(联通) [Netflix]
-      - v2ray 美国(联通) [Netflix]
-      - v2ray 香港HGC(联通) [Netflix]
-      - v2ray 香港HKBN(联通) [Netflix]
-      - 2.74| 专线西雅图01原生NTT
-      - 2.74| 专线西雅图01原生NTT 2
-      - 5.20| 专线香港08原生HGCBBS
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.27| 专线中国台湾03原生HINET
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09
+      - 香港10
+      - 香港11
+      - 香港12
+      - 香港13
+      - 香港14
+      - 香港15
+      - 香港16
+      - 日本01 | Media
+      - 日本02 | Media
+      - 日本03 | Media
+      - 日本04 | Media
+      - 日本05 | Media
+      - 日本06 | Media
+      - 新加坡01 | Media
+      - 新加坡02 | Media
+      - 新加坡03 | Media
+      - 新加坡04 | Media
+      - 新加坡05 | Media
+      - 新加坡06 | Media
+      - 台湾01 | Shenzhen
+      - 台湾02 | Shenzhen
+      - 台湾03 | Shenzhen
+      - 台湾04 | Shenzhen
+      - 美国01 | Media
+      - 美国02 | Media
+      - 美国03 | Media
+      - 美国04 | Media
+      - 美国05 | Media
+      - 香港1
+      - 香港2
+      - 香港
+      - 2HK-香港
+      - 3HK-香港
+      - 4HK-香港
+      - 5HK-香港
+      - 6HK-香港
+      - 台湾
+      - 新加坡
+      - 美国
+      - 香港001
+      - 美国001
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
-      - v2ray 香港HGC(联通) [Netflix]
-      - v2ray 香港HKBN(联通) [Netflix]
-      - 5.20| 专线香港08原生HGCBBS
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.27| 专线中国台湾03原生HINET
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09
+      - 香港10
+      - 香港11
+      - 香港12
+      - 香港13
+      - 香港14
+      - 香港15
+      - 香港16
+      - 台湾01 | Shenzhen
+      - 台湾02 | Shenzhen
+      - 台湾03 | Shenzhen
+      - 台湾04 | Shenzhen
+      - 香港1
+      - 香港2
+      - 香港
+      - 2HK-香港
+      - 3HK-香港
+      - 4HK-香港
+      - 5HK-香港
+      - 6HK-香港
+      - 台湾
+      - 香港001
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v2ray 新加坡(移动) [Netflix]
-      - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
-      - v2ray 日本(移动) [Netflix]
-      - v2ray 新加坡(联通) [Netflix]
-      - v2ray 日本(联通) [Netflix]
-      - v2ray 美国(联通) [Netflix]
-      - v2ray 香港HGC(联通) [Netflix]
-      - v2ray 香港HKBN(联通) [Netflix]
-      - 2.74| 专线西雅图01原生NTT
-      - 2.74| 专线西雅图01原生NTT 2
-      - 5.20| 专线香港08原生HGCBBS
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.27| 专线中国台湾03原生HINET
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09
+      - 香港10
+      - 香港11
+      - 香港12
+      - 香港13
+      - 香港14
+      - 香港15
+      - 香港16
+      - 日本01 | Media
+      - 日本02 | Media
+      - 日本03 | Media
+      - 日本04 | Media
+      - 日本05 | Media
+      - 日本06 | Media
+      - 新加坡01 | Media
+      - 新加坡02 | Media
+      - 新加坡03 | Media
+      - 新加坡04 | Media
+      - 新加坡05 | Media
+      - 新加坡06 | Media
+      - 台湾01 | Shenzhen
+      - 台湾02 | Shenzhen
+      - 台湾03 | Shenzhen
+      - 台湾04 | Shenzhen
+      - 美国01 | Media
+      - 美国02 | Media
+      - 美国03 | Media
+      - 美国04 | Media
+      - 美国05 | Media
+      - 香港1
+      - 香港2
+      - 香港
+      - 2HK-香港
+      - 3HK-香港
+      - 4HK-香港
+      - 5HK-香港
+      - 6HK-香港
+      - 台湾
+      - 新加坡
+      - 美国
+      - 香港001
+      - 美国001
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - v2ray 新加坡(移动) [Netflix]
-      - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
-      - v2ray 日本(移动) [Netflix]
-      - v2ray 新加坡(联通) [Netflix]
-      - v2ray 日本(联通) [Netflix]
-      - v2ray 美国(联通) [Netflix]
-      - v2ray 香港HGC(联通) [Netflix]
-      - v2ray 香港HKBN(联通) [Netflix]
-      - 2.74| 专线西雅图01原生NTT
-      - 2.74| 专线西雅图01原生NTT 2
-      - 5.20| 专线香港08原生HGCBBS
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.27| 专线中国台湾03原生HINET
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09
+      - 香港10
+      - 香港11
+      - 香港12
+      - 香港13
+      - 香港14
+      - 香港15
+      - 香港16
+      - 日本01 | Media
+      - 日本02 | Media
+      - 日本03 | Media
+      - 日本04 | Media
+      - 日本05 | Media
+      - 日本06 | Media
+      - 新加坡01 | Media
+      - 新加坡02 | Media
+      - 新加坡03 | Media
+      - 新加坡04 | Media
+      - 新加坡05 | Media
+      - 新加坡06 | Media
+      - 台湾01 | Shenzhen
+      - 台湾02 | Shenzhen
+      - 台湾03 | Shenzhen
+      - 台湾04 | Shenzhen
+      - 美国01 | Media
+      - 美国02 | Media
+      - 美国03 | Media
+      - 美国04 | Media
+      - 美国05 | Media
+      - 香港1
+      - 香港2
+      - 香港
+      - 2HK-香港
+      - 3HK-香港
+      - 4HK-香港
+      - 5HK-香港
+      - 6HK-香港
+      - 台湾
+      - 新加坡
+      - 美国
+      - 香港001
+      - 美国001
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2ray 新加坡(移动) [Netflix]
-      - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
-      - v2ray 日本(移动) [Netflix]
-      - v2ray 新加坡(联通) [Netflix]
-      - v2ray 日本(联通) [Netflix]
-      - v2ray 美国(联通) [Netflix]
-      - v2ray 香港HGC(联通) [Netflix]
-      - v2ray 香港HKBN(联通) [Netflix]
-      - 2.74| 专线西雅图01原生NTT
-      - 2.74| 专线西雅图01原生NTT 2
-      - 5.20| 专线香港08原生HGCBBS
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.27| 专线中国台湾03原生HINET
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09
+      - 香港10
+      - 香港11
+      - 香港12
+      - 香港13
+      - 香港14
+      - 香港15
+      - 香港16
+      - 日本01 | Media
+      - 日本02 | Media
+      - 日本03 | Media
+      - 日本04 | Media
+      - 日本05 | Media
+      - 日本06 | Media
+      - 新加坡01 | Media
+      - 新加坡02 | Media
+      - 新加坡03 | Media
+      - 新加坡04 | Media
+      - 新加坡05 | Media
+      - 新加坡06 | Media
+      - 台湾01 | Shenzhen
+      - 台湾02 | Shenzhen
+      - 台湾03 | Shenzhen
+      - 台湾04 | Shenzhen
+      - 美国01 | Media
+      - 美国02 | Media
+      - 美国03 | Media
+      - 美国04 | Media
+      - 美国05 | Media
+      - 香港1
+      - 香港2
+      - 香港
+      - 2HK-香港
+      - 3HK-香港
+      - 4HK-香港
+      - 5HK-香港
+      - 6HK-香港
+      - 台湾
+      - 新加坡
+      - 美国
+      - 香港001
+      - 美国001
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -203,21 +506,56 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2ray 新加坡(移动) [Netflix]
-      - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
-      - v2ray 日本(移动) [Netflix]
-      - v2ray 新加坡(联通) [Netflix]
-      - v2ray 日本(联通) [Netflix]
-      - v2ray 美国(联通) [Netflix]
-      - v2ray 香港HGC(联通) [Netflix]
-      - v2ray 香港HKBN(联通) [Netflix]
-      - 2.74| 专线西雅图01原生NTT
-      - 2.74| 专线西雅图01原生NTT 2
-      - 5.20| 专线香港08原生HGCBBS
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.27| 专线中国台湾03原生HINET
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09
+      - 香港10
+      - 香港11
+      - 香港12
+      - 香港13
+      - 香港14
+      - 香港15
+      - 香港16
+      - 日本01 | Media
+      - 日本02 | Media
+      - 日本03 | Media
+      - 日本04 | Media
+      - 日本05 | Media
+      - 日本06 | Media
+      - 新加坡01 | Media
+      - 新加坡02 | Media
+      - 新加坡03 | Media
+      - 新加坡04 | Media
+      - 新加坡05 | Media
+      - 新加坡06 | Media
+      - 台湾01 | Shenzhen
+      - 台湾02 | Shenzhen
+      - 台湾03 | Shenzhen
+      - 台湾04 | Shenzhen
+      - 美国01 | Media
+      - 美国02 | Media
+      - 美国03 | Media
+      - 美国04 | Media
+      - 美国05 | Media
+      - 香港1
+      - 香港2
+      - 香港
+      - 2HK-香港
+      - 3HK-香港
+      - 4HK-香港
+      - 5HK-香港
+      - 6HK-香港
+      - 台湾
+      - 新加坡
+      - 美国
+      - 香港001
+      - 美国001
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
