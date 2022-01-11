@@ -532,7 +532,8 @@ proxies:
   - {name: 5.20| 专线香港08原生HGCBBS, server: zfd.out02.nodeserver.top, port: 16237, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 2.29| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 2.27| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _PT_葡萄牙, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
+  - {name: _US_美国, server: 38.143.66.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 2, server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1309,7 +1310,7 @@ proxies:
   - {name: V1-台湾TW 02 HINET Netflix 2x, server: global-sakura-tw-a-01.yingyun-resolve.com, port: 102, type: vmess, uuid: e552a8ff-e9cc-393d-b9ff-1bc7ac3689c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vvv, headers: {Host: "%7B%22Host%22:%22v2ray-v1-hinet-tw-02.yingyun-resolve.com%22%7D"}}, udp: true}
   - {name: _US_美国 29, server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: _US_美国 4, server: 38.75.136.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国, server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 3, server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: _US_美国 9, server: 38.75.136.93, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国 14, server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 【直连】新加坡【无限量-0.2x】, server: azsgwx.52jjyun.top, port: 80, type: vmess, uuid: 7224175a-5f3e-4f29-aff8-d185363e5853, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jjyun, headers: {Host: azsgwx.52jjyun.top}}, udp: true}
@@ -1951,7 +1952,8 @@ proxy-groups:
       - 5.20| 专线香港08原生HGCBBS
       - 2.29| 专线中国台湾03原生HINET
       - 2.27| 专线中国台湾03原生HINET
-      - _PT_葡萄牙
+      - _US_美国
+      - _US_美国 2
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2728,7 +2730,7 @@ proxy-groups:
       - V1-台湾TW 02 HINET Netflix 2x
       - _US_美国 29
       - _US_美国 4
-      - _US_美国
+      - _US_美国 3
       - _US_美国 9
       - _US_美国 14
       - 【直连】新加坡【无限量-0.2x】
@@ -3359,7 +3361,8 @@ proxy-groups:
       - 5.20| 专线香港08原生HGCBBS
       - 2.29| 专线中国台湾03原生HINET
       - 2.27| 专线中国台湾03原生HINET
-      - _PT_葡萄牙
+      - _US_美国
+      - _US_美国 2
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4136,7 +4139,7 @@ proxy-groups:
       - V1-台湾TW 02 HINET Netflix 2x
       - _US_美国 29
       - _US_美国 4
-      - _US_美国
+      - _US_美国 3
       - _US_美国 9
       - _US_美国 14
       - 【直连】新加坡【无限量-0.2x】
@@ -4749,6 +4752,8 @@ proxy-groups:
       - v2ray 美国(联通) [Netflix]
       - 2.74| 专线西雅图01原生NTT
       - 2.74| 专线西雅图01原生NTT 2
+      - _US_美国
+      - _US_美国 2
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -4962,7 +4967,7 @@ proxy-groups:
       - "[直连] 美国3 解锁流媒体 1x"
       - _US_美国 29
       - _US_美国 4
-      - _US_美国
+      - _US_美国 3
       - _US_美国 9
       - _US_美国 14
       - 【新鸟免费】美国UA -DO 01 免流 1.0x
