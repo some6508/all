@@ -638,67 +638,98 @@ proxies:
   - {name: "@SSRSUB-加拿大T10-付费推荐:dlj.tf/ssrsub", server: t4.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-韩国T11-付费推荐:dlj.tf/ssrsub", server: t5.ssrsub.com, port: 8443, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t5.ssrsub.com, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub", server: t7.ssrsub.com, port: 8443, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_PH_菲律宾_1, server: 188.214.125.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_2, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_3, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ, udp: true}
-  - {name: Ytb:鹏哥分享_NL_荷兰_4, server: 178.62.224.119, port: 8888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 178.62.224.119}}, udp: true}
-  - {name: Ytb:鹏哥分享_ID_印度尼西亚_5, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
-  - {name: Ytb:鹏哥分享_IL_以色列_6, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
-  - {name: Ytb:鹏哥分享_IL_以色列_7, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
-  - {name: Ytb:鹏哥分享_TW_台湾_8, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH, udp: true}
-  - {name: Ytb:鹏哥分享_TW_台湾_9, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH, udp: true}
-  - {name: Ytb:鹏哥分享_LU_卢森堡_10, server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC, udp: true}
-  - {name: Ytb:鹏哥分享_FR_法国_11, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_12, server: 169.197.142.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Ytb:鹏哥分享_GB_英国_13, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Ytb:鹏哥分享_GB_英国_14, server: 172.99.190.87, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_15, server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Ytb:鹏哥分享_GB_英国_16, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_17, server: 167.88.61.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_18, server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Ytb:鹏哥分享_VN_越南_19, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_20, server: 167.88.61.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_21, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_22, server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Ytb:鹏哥分享_SG_新加坡_23, server: 81.90.189.172, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_24, server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_25, server: 169.197.142.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Ytb:鹏哥分享_GB_英国_26, server: 172.99.190.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_27, server: 169.197.142.39, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_28, server: 169.197.142.39, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: Ytb:鹏哥分享_GB_英国_29, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_30, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_31, server: 167.88.61.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_32, server: 169.197.142.39, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_33, server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_34, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_35, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_36, server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_37, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_38, server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_39, server: 167.88.61.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Ytb:鹏哥分享_CA_加拿大_40, server: t1.ssrsub.com, port: 8443, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_41, server: 169.197.142.39, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_42, server: 169.197.142.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_NO_挪威_43, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Ytb:鹏哥分享_GB_英国_44, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_45, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_46, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_47, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Ytb:鹏哥分享_CA_加拿大_48, server: t4.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_CA_加拿大_49, server: t1.ssrsub.com, port: 8443, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_50, server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_51, server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_NO_挪威_52, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_53, server: 167.88.61.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_CA_加拿大_54, server: t4.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_CA_加拿大_55, server: t3.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_NO_挪威_56, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Ytb:鹏哥分享_CA_加拿大_57, server: t3.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_58, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_59, server: 167.88.61.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_60, server: 169.197.142.39, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Ytb:鹏哥分享_NL_荷兰_61, server: 178.62.224.119, port: 8888, type: vmess, uuid: b85b6cbb-ec13-41c6-ba97-52ad48d63c5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 178.62.224.119}}, udp: true}
+  - {name: Ytb:鹏哥分享_CN_中国_1, server: 118.193.179.2, port: 36923, type: ss, cipher: chacha20-ietf-poly1305, password: koko666, udp: true}
+  - {name: Ytb:鹏哥分享_HK_香港_2, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Ytb:鹏哥分享_SG_新加坡_3, server: fuck.biubiubiu.cloud, port: 443, type: trojan, password: B4iK9pXaRnHfr9Rp, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_HK_香港_4, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Ytb:鹏哥分享_PH_菲律宾_5, server: 188.214.125.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG, udp: true}
+  - {name: Ytb:鹏哥分享_HK_香港_6, server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Ytb:鹏哥分享_HK_香港_7, server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_FR_法国_8, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b, udp: true}
+  - {name: Ytb:鹏哥分享_CH_瑞士_9, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS, udp: true}
+  - {name: Ytb:鹏哥分享_HU_匈牙利_10, server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy, udp: true}
+  - {name: Ytb:鹏哥分享_NL_荷兰_11, server: 178.62.224.119, port: 8888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 178.62.224.119}}, udp: true}
+  - {name: Ytb:鹏哥分享_NL_荷兰_12, server: 178.62.224.119, port: 8888, type: vmess, uuid: b85b6cbb-ec13-41c6-ba97-52ad48d63c5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 178.62.224.119}}, udp: true}
+  - {name: Ytb:鹏哥分享_PT_葡萄牙_13, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
+  - {name: Ytb:鹏哥分享_IL_以色列_14, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
+  - {name: Ytb:鹏哥分享_CA_加拿大_15, server: t4.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_BG_保加利亚_16, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
+  - {name: Ytb:鹏哥分享_HK_香港_17, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_CA_加拿大_18, server: t4.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_FR_法国_19, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_20, server: 169.197.142.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_21, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Ytb:鹏哥分享_GB_英国_22, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_GB_英国_23, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Ytb:鹏哥分享_GB_英国_24, server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_25, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_26, server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_27, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_28, server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_29, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_30, server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_GB_英国_31, server: 172.99.190.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_32, server: 169.197.142.39, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_33, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_34, server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_35, server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Ytb:鹏哥分享_CA_加拿大_36, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Ytb:鹏哥分享_CN_中国_37, server: 120.232.214.36, port: 5002, type: ss, cipher: aes-256-gcm, password: 1f6aca3cebd21a4cd5a80718ed16b74c, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_38, server: 169.197.142.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Ytb:鹏哥分享_GB_英国_39, server: 172.99.190.87, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Ytb:鹏哥分享_NO_挪威_40, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_41, server: 167.88.61.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_42, server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_43, server: 169.197.142.39, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Ytb:鹏哥分享_GB_英国_44, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_NO_挪威_45, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_46, server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Ytb:鹏哥分享_CA_加拿大_47, server: t3.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_NO_挪威_48, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_49, server: 169.197.142.39, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_50, server: 167.88.61.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_51, server: 169.197.142.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Ytb:鹏哥分享_CA_加拿大_52, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_53, server: 167.88.61.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_54, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_55, server: 167.88.61.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_56, server: 167.88.61.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Ytb:鹏哥分享_NO_挪威_57, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_58, server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_59, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_60, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_61, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Ytb:鹏哥分享_GB_英国_62, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_63, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj, udp: true}
+  - {name: Ytb:鹏哥分享_CA_加拿大_64, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Ytb:鹏哥分享_NO_挪威_65, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Ytb:鹏哥分享_CA_加拿大_66, server: t1.ssrsub.com, port: 8443, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_67, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_68, server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_69, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_70, server: 167.88.61.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Ytb:鹏哥分享_NO_挪威_71, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_72, server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Ytb:鹏哥分享_NO_挪威_73, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Ytb:鹏哥分享_CN_中国_74, server: 183.232.56.202, port: 64068, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: 183.232.56.202}}, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_75, server: 169.197.142.39, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_76, server: 167.88.61.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_GB_英国_77, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Ytb:鹏哥分享_CA_加拿大_78, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_79, server: 169.197.142.39, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_80, server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_81, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_82, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_83, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_84, server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Ytb:鹏哥分享_NO_挪威_85, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Ytb:鹏哥分享_CA_加拿大_86, server: t3.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_87, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Ytb:鹏哥分享_CA_加拿大_88, server: t1.ssrsub.com, port: 8443, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_89, server: 169.197.142.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_90, server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Ytb:鹏哥分享_GB_英国_91, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Ytb:鹏哥分享_GB_英国_92, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 新加坡, server: abnode10.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode10.makegamegoal.com, skip-cert-verify: true, udp: true}
   - {name: 美国, server: abnode12.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode12.makegamegoal.com, skip-cert-verify: true, udp: true}
   - {name: 新加坣, server: abnode16.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode16.makegamegoal.com, skip-cert-verify: true, udp: true}
@@ -725,21 +756,7 @@ proxies:
   - {name: 5.20| 专线香港08原生HGCBBS, server: zfd.out02.nodeserver.top, port: 16237, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 2.29| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 2.27| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 G口-1-v2ray, server: asg1.kxnet.xyz, port: 14431, type: vmess, uuid: 656f0762-0d01-302c-8f84-d61b759ebb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /logs, headers: {Host: asg1.kxnet.xyz}}, udp: true}
-  - {name: 新加坡 G口-1-v2ray-广州移动x2, server: gzyd1.8848nav.com, port: 21411, type: vmess, uuid: 656f0762-0d01-302c-8f84-d61b759ebb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /logs, headers: {Host: asg1.kxnet.xyz}}, udp: true}
-  - {name: 日本 G口-1-v2ray, server: ajp1.kxnet.xyz, port: 14433, type: vmess, uuid: 656f0762-0d01-302c-8f84-d61b759ebb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /logs, headers: {Host: ajp1.kxnet.xyz}}, udp: true}
-  - {name: 日本 G口-2-v2ray-443端口, server: ajp2.kxnet.xyz, port: 443, type: vmess, uuid: 656f0762-0d01-302c-8f84-d61b759ebb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /logs, headers: {Host: ajp2.kxnet.xyz}}, udp: true}
-  - {name: 日本 G口-3-v2ray, server: ajp3.kxnet.xyz, port: 14433, type: vmess, uuid: 656f0762-0d01-302c-8f84-d61b759ebb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /logs, headers: {Host: ajp3.kxnet.xyz}}, udp: true}
-  - {name: 日本 G口-3-v2ray-广州移动x2, server: gzyd1.8848nav.com, port: 12147, type: vmess, uuid: 656f0762-0d01-302c-8f84-d61b759ebb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /logs, headers: {Host: ajp3.kxnet.xyz}}, udp: true}
-  - {name: 美国 1-v2ray, server: aus1.kxnet.xyz, port: 15131, type: vmess, uuid: 656f0762-0d01-302c-8f84-d61b759ebb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /logs, headers: {Host: aus1.kxnet.xyz}}, udp: true}
-  - {name: 美国 2-v2ray, server: aus2.kxnet.xyz, port: 16741, type: vmess, uuid: 656f0762-0d01-302c-8f84-d61b759ebb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /logs, headers: {Host: aus2.kxnet.xyz}}, udp: true}
-  - {name: 美国 3-v2ray, server: aus3.kxnet.xyz, port: 5433, type: vmess, uuid: 656f0762-0d01-302c-8f84-d61b759ebb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /logs, headers: {Host: aus3.kxnet.xyz}}, udp: true}
-  - {name: 美国 4-v2ray, server: aus4.kxnet.xyz, port: 15412, type: vmess, uuid: 656f0762-0d01-302c-8f84-d61b759ebb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /logs, headers: {Host: aus4.kxnet.xyz}}, udp: true}
-  - {name: 美国 6-v2ray, server: aus6.kxnet.xyz, port: 41371, type: vmess, uuid: 656f0762-0d01-302c-8f84-d61b759ebb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /logs, headers: {Host: aus6.kxnet.xyz}}, udp: true}
-  - {name: 美国 7-v2ray, server: aus7.kxnet.xyz, port: 12231, type: vmess, uuid: 656f0762-0d01-302c-8f84-d61b759ebb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /logs, headers: {Host: aus7.kxnet.xyz}}, udp: true}
-  - {name: 美国 8-v2ray, server: aus8.kxnet.xyz, port: 12231, type: vmess, uuid: 656f0762-0d01-302c-8f84-d61b759ebb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /logs, headers: {Host: aus8.kxnet.xyz}}, udp: true}
-  - {name: 美国 9-v2ray, server: aus9.kxnet.xyz, port: 41120, type: vmess, uuid: 656f0762-0d01-302c-8f84-d61b759ebb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /logs, headers: {Host: aus9.kxnet.xyz}}, udp: true}
-  - {name: 韩国 G口-1-v2ray, server: akt1.kxnet.xyz, port: 57411, type: vmess, uuid: 656f0762-0d01-302c-8f84-d61b759ebb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /logs, headers: {Host: akt1.kxnet.xyz}}, udp: true}
+  - {name: _US_美国, server: 38.75.136.93, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1175,9 +1192,9 @@ proxies:
   - {name: 129香港∞直连, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, sni: hk31.ssgnode.ga, skip-cert-verify: true, udp: true}
   - {name: 130香港∞直连, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top, skip-cert-verify: true, udp: true}
   - {name: Ytb:鹏哥分享_NL_荷兰_1, server: 178.62.224.119, port: 8888, type: vmess, uuid: b85b6cbb-ec13-41c6-ba97-52ad48d63c5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 178.62.224.119}}, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_2 2, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_2, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Ytb:鹏哥分享_CA_加拿大_3, server: t4.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_NL_荷兰_4 2, server: 178.62.224.119, port: 8888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 178.62.224.119}}, udp: true}
+  - {name: Ytb:鹏哥分享_NL_荷兰_4, server: 178.62.224.119, port: 8888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 178.62.224.119}}, udp: true}
   - {name: Ytb:鹏哥分享_CA_加拿大_5, server: t4.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
   - {name: Ytb:鹏哥分享_CA_加拿大_6, server: t1.ssrsub.com, port: 8443, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_7, server: 169.197.142.39, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -1191,58 +1208,58 @@ proxies:
   - {name: Ytb:鹏哥分享_TW_台湾_15, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_16, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: Ytb:鹏哥分享_GB_英国_17, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_18 2, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_18, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_19, server: 169.197.142.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_20 2, server: 167.88.61.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: Ytb:鹏哥分享_GB_英国_21, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_22 2, server: 167.88.61.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Ytb:鹏哥分享_GB_英国_23, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_24 2, server: 169.197.142.39, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_22, server: 167.88.61.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Ytb:鹏哥分享_GB_英国_23 2, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_24, server: 169.197.142.39, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_25 2, server: 169.197.142.39, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Ytb:鹏哥分享_GB_英国_26 2, server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Ytb:鹏哥分享_GB_英国_26, server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_27 2, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_28 2, server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_29, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_29 2, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_30 2, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_31 2, server: 169.197.142.39, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_31, server: 169.197.142.39, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_32 2, server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_33 2, server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_CA_加拿大_34, server: t1.ssrsub.com, port: 8443, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
   - {name: Ytb:鹏哥分享_GB_英国_35, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: Ytb:鹏哥分享_IL_以色列_36, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_37 2, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_37, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_38 2, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_39 2, server: 167.88.61.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_39, server: 167.88.61.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_GB_英国_40, server: 172.99.190.87, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_41 2, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: Ytb:鹏哥分享_NO_挪威_42, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_43, server: 169.197.142.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_43 2, server: 169.197.142.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_44, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: Ytb:鹏哥分享_TW_台湾_45, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_46 2, server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_47 2, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_47, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_48, server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: Ytb:鹏哥分享_GB_英国_49, server: 172.99.190.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_50 2, server: 167.88.61.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_51 2, server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Ytb:鹏哥分享_NO_挪威_52 2, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Ytb:鹏哥分享_NO_挪威_52, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: Ytb:鹏哥分享_GB_英国_53, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: Ytb:鹏哥分享_ID_印度尼西亚_54, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_55, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_56, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_55 2, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_56 2, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_57, server: 167.88.61.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_58 2, server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_59 2, server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: Ytb:鹏哥分享_NO_挪威_60, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: Ytb:鹏哥分享_BG_保加利亚_61, server: 217.138.221.42, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_62, server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_63, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_63 2, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_NO_挪威_64, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_65, server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Ytb:鹏哥分享_CA_加拿大_66, server: t3.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_CA_加拿大_66 2, server: t3.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
   - {name: Ytb:鹏哥分享_CA_加拿大_67, server: t3.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_68, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_69, server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_68 2, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_69 2, server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 1, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: 45.91.83.111}}, udp: true}
   - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 2, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
   - {name: github.com/freefq - 美国CloudFlare公司CDN节点 3, server: api.ssfree.ru, port: 443, type: vmess, uuid: f372e412-7292-11ec-a56f-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: api.ssfree.ru}}, udp: true}
@@ -1529,7 +1546,7 @@ proxies:
   - {name: V1-台湾TW 02 HINET Netflix 2x, server: global-sakura-tw-a-01.yingyun-resolve.com, port: 102, type: vmess, uuid: e552a8ff-e9cc-393d-b9ff-1bc7ac3689c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vvv, headers: {Host: "%7B%22Host%22:%22v2ray-v1-hinet-tw-02.yingyun-resolve.com%22%7D"}}, udp: true}
   - {name: _US_美国 29, server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: _US_美国 4, server: 38.75.136.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国, server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 2, server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: _US_美国 9, server: 38.75.136.93, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国 14, server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 【直连】新加坡【无限量-0.2x】, server: azsgwx.52jjyun.top, port: 80, type: vmess, uuid: 7224175a-5f3e-4f29-aff8-d185363e5853, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jjyun, headers: {Host: azsgwx.52jjyun.top}}, udp: true}
@@ -1615,7 +1632,7 @@ proxies:
   - {name: taiwan-zhuanxian, server: v35.88host.buzz, port: 18079, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: true, udp: true}
   - {name: "德国 - 法尔肯施泰因 [BGPA] [SVIP] [Netflix]", server: 122.9.54.196, port: 6049, type: ss, cipher: chacha20-ietf-poly1305, password: 64ddabdc5868db08181c639e6989ab5f0c083cae983541ee254702287210aa2e, udp: true}
   - {name: Hong Kong - 1, server: oaQuie3i.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: oaQuie3i.com}}, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_72, server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_72 2, server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 全球直连③-TikTok, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: free.upyun.online, skip-cert-verify: true, udp: true}
   - {name: "网址: upyun.online/reg 2", server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: free.upyun.online, skip-cert-verify: true, udp: true}
   - {name: V1-台湾05 中继C 2x 2, server: in03.2333dns.com, port: 64068, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: cdn.bootcdn.net}}, udp: true}
@@ -2277,67 +2294,98 @@ proxy-groups:
       - "@SSRSUB-加拿大T10-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-韩国T11-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub"
-      - Ytb:鹏哥分享_PH_菲律宾_1
-      - Ytb:鹏哥分享_US_美国_2
-      - Ytb:鹏哥分享_US_美国_3
-      - Ytb:鹏哥分享_NL_荷兰_4
-      - Ytb:鹏哥分享_ID_印度尼西亚_5
-      - Ytb:鹏哥分享_IL_以色列_6
-      - Ytb:鹏哥分享_IL_以色列_7
-      - Ytb:鹏哥分享_TW_台湾_8
-      - Ytb:鹏哥分享_TW_台湾_9
-      - Ytb:鹏哥分享_LU_卢森堡_10
-      - Ytb:鹏哥分享_FR_法国_11
-      - Ytb:鹏哥分享_US_美国_12
-      - Ytb:鹏哥分享_GB_英国_13
-      - Ytb:鹏哥分享_GB_英国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_GB_英国_16
-      - Ytb:鹏哥分享_US_美国_17
-      - Ytb:鹏哥分享_US_美国_18
-      - Ytb:鹏哥分享_VN_越南_19
+      - Ytb:鹏哥分享_CN_中国_1
+      - Ytb:鹏哥分享_HK_香港_2
+      - Ytb:鹏哥分享_SG_新加坡_3
+      - Ytb:鹏哥分享_HK_香港_4
+      - Ytb:鹏哥分享_PH_菲律宾_5
+      - Ytb:鹏哥分享_HK_香港_6
+      - Ytb:鹏哥分享_HK_香港_7
+      - Ytb:鹏哥分享_FR_法国_8
+      - Ytb:鹏哥分享_CH_瑞士_9
+      - Ytb:鹏哥分享_HU_匈牙利_10
+      - Ytb:鹏哥分享_NL_荷兰_11
+      - Ytb:鹏哥分享_NL_荷兰_12
+      - Ytb:鹏哥分享_PT_葡萄牙_13
+      - Ytb:鹏哥分享_IL_以色列_14
+      - Ytb:鹏哥分享_CA_加拿大_15
+      - Ytb:鹏哥分享_BG_保加利亚_16
+      - Ytb:鹏哥分享_HK_香港_17
+      - Ytb:鹏哥分享_CA_加拿大_18
+      - Ytb:鹏哥分享_FR_法国_19
       - Ytb:鹏哥分享_US_美国_20
       - Ytb:鹏哥分享_US_美国_21
-      - Ytb:鹏哥分享_US_美国_22
-      - Ytb:鹏哥分享_SG_新加坡_23
-      - Ytb:鹏哥分享_US_美国_24
+      - Ytb:鹏哥分享_GB_英国_22
+      - Ytb:鹏哥分享_GB_英国_23
+      - Ytb:鹏哥分享_GB_英国_24
       - Ytb:鹏哥分享_US_美国_25
-      - Ytb:鹏哥分享_GB_英国_26
+      - Ytb:鹏哥分享_US_美国_26
       - Ytb:鹏哥分享_US_美国_27
       - Ytb:鹏哥分享_US_美国_28
-      - Ytb:鹏哥分享_GB_英国_29
+      - Ytb:鹏哥分享_US_美国_29
       - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_US_美国_31
+      - Ytb:鹏哥分享_GB_英国_31
       - Ytb:鹏哥分享_US_美国_32
       - Ytb:鹏哥分享_US_美国_33
       - Ytb:鹏哥分享_US_美国_34
       - Ytb:鹏哥分享_US_美国_35
-      - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_US_美国_37
+      - Ytb:鹏哥分享_CA_加拿大_36
+      - Ytb:鹏哥分享_CN_中国_37
       - Ytb:鹏哥分享_US_美国_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_CA_加拿大_40
+      - Ytb:鹏哥分享_GB_英国_39
+      - Ytb:鹏哥分享_NO_挪威_40
       - Ytb:鹏哥分享_US_美国_41
       - Ytb:鹏哥分享_US_美国_42
-      - Ytb:鹏哥分享_NO_挪威_43
+      - Ytb:鹏哥分享_US_美国_43
       - Ytb:鹏哥分享_GB_英国_44
-      - Ytb:鹏哥分享_US_美国_45
+      - Ytb:鹏哥分享_NO_挪威_45
       - Ytb:鹏哥分享_US_美国_46
-      - Ytb:鹏哥分享_US_美国_47
-      - Ytb:鹏哥分享_CA_加拿大_48
-      - Ytb:鹏哥分享_CA_加拿大_49
+      - Ytb:鹏哥分享_CA_加拿大_47
+      - Ytb:鹏哥分享_NO_挪威_48
+      - Ytb:鹏哥分享_US_美国_49
       - Ytb:鹏哥分享_US_美国_50
       - Ytb:鹏哥分享_US_美国_51
-      - Ytb:鹏哥分享_NO_挪威_52
+      - Ytb:鹏哥分享_CA_加拿大_52
       - Ytb:鹏哥分享_US_美国_53
-      - Ytb:鹏哥分享_CA_加拿大_54
-      - Ytb:鹏哥分享_CA_加拿大_55
-      - Ytb:鹏哥分享_NO_挪威_56
-      - Ytb:鹏哥分享_CA_加拿大_57
+      - Ytb:鹏哥分享_US_美国_54
+      - Ytb:鹏哥分享_US_美国_55
+      - Ytb:鹏哥分享_US_美国_56
+      - Ytb:鹏哥分享_NO_挪威_57
       - Ytb:鹏哥分享_US_美国_58
       - Ytb:鹏哥分享_US_美国_59
       - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_NL_荷兰_61
+      - Ytb:鹏哥分享_US_美国_61
+      - Ytb:鹏哥分享_GB_英国_62
+      - Ytb:鹏哥分享_US_美国_63
+      - Ytb:鹏哥分享_CA_加拿大_64
+      - Ytb:鹏哥分享_NO_挪威_65
+      - Ytb:鹏哥分享_CA_加拿大_66
+      - Ytb:鹏哥分享_US_美国_67
+      - Ytb:鹏哥分享_US_美国_68
+      - Ytb:鹏哥分享_US_美国_69
+      - Ytb:鹏哥分享_US_美国_70
+      - Ytb:鹏哥分享_NO_挪威_71
+      - Ytb:鹏哥分享_US_美国_72
+      - Ytb:鹏哥分享_NO_挪威_73
+      - Ytb:鹏哥分享_CN_中国_74
+      - Ytb:鹏哥分享_US_美国_75
+      - Ytb:鹏哥分享_US_美国_76
+      - Ytb:鹏哥分享_GB_英国_77
+      - Ytb:鹏哥分享_CA_加拿大_78
+      - Ytb:鹏哥分享_US_美国_79
+      - Ytb:鹏哥分享_US_美国_80
+      - Ytb:鹏哥分享_US_美国_81
+      - Ytb:鹏哥分享_US_美国_82
+      - Ytb:鹏哥分享_US_美国_83
+      - Ytb:鹏哥分享_US_美国_84
+      - Ytb:鹏哥分享_NO_挪威_85
+      - Ytb:鹏哥分享_CA_加拿大_86
+      - Ytb:鹏哥分享_US_美国_87
+      - Ytb:鹏哥分享_CA_加拿大_88
+      - Ytb:鹏哥分享_US_美国_89
+      - Ytb:鹏哥分享_US_美国_90
+      - Ytb:鹏哥分享_GB_英国_91
+      - Ytb:鹏哥分享_GB_英国_92
       - 新加坡
       - 美国
       - 新加坣
@@ -2364,21 +2412,7 @@ proxy-groups:
       - 5.20| 专线香港08原生HGCBBS
       - 2.29| 专线中国台湾03原生HINET
       - 2.27| 专线中国台湾03原生HINET
-      - 新加坡 G口-1-v2ray
-      - 新加坡 G口-1-v2ray-广州移动x2
-      - 日本 G口-1-v2ray
-      - 日本 G口-2-v2ray-443端口
-      - 日本 G口-3-v2ray
-      - 日本 G口-3-v2ray-广州移动x2
-      - 美国 1-v2ray
-      - 美国 2-v2ray
-      - 美国 3-v2ray
-      - 美国 4-v2ray
-      - 美国 6-v2ray
-      - 美国 7-v2ray
-      - 美国 8-v2ray
-      - 美国 9-v2ray
-      - 韩国 G口-1-v2ray
+      - _US_美国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2814,9 +2848,9 @@ proxy-groups:
       - 129香港∞直连
       - 130香港∞直连
       - Ytb:鹏哥分享_NL_荷兰_1
-      - Ytb:鹏哥分享_US_美国_2 2
+      - Ytb:鹏哥分享_US_美国_2
       - Ytb:鹏哥分享_CA_加拿大_3
-      - Ytb:鹏哥分享_NL_荷兰_4 2
+      - Ytb:鹏哥分享_NL_荷兰_4
       - Ytb:鹏哥分享_CA_加拿大_5
       - Ytb:鹏哥分享_CA_加拿大_6
       - Ytb:鹏哥分享_US_美国_7
@@ -2830,58 +2864,58 @@ proxy-groups:
       - Ytb:鹏哥分享_TW_台湾_15
       - Ytb:鹏哥分享_US_美国_16
       - Ytb:鹏哥分享_GB_英国_17
-      - Ytb:鹏哥分享_US_美国_18 2
+      - Ytb:鹏哥分享_US_美国_18
       - Ytb:鹏哥分享_US_美国_19
       - Ytb:鹏哥分享_US_美国_20 2
       - Ytb:鹏哥分享_GB_英国_21
-      - Ytb:鹏哥分享_US_美国_22 2
-      - Ytb:鹏哥分享_GB_英国_23
-      - Ytb:鹏哥分享_US_美国_24 2
+      - Ytb:鹏哥分享_US_美国_22
+      - Ytb:鹏哥分享_GB_英国_23 2
+      - Ytb:鹏哥分享_US_美国_24
       - Ytb:鹏哥分享_US_美国_25 2
-      - Ytb:鹏哥分享_GB_英国_26 2
+      - Ytb:鹏哥分享_GB_英国_26
       - Ytb:鹏哥分享_US_美国_27 2
       - Ytb:鹏哥分享_US_美国_28 2
-      - Ytb:鹏哥分享_US_美国_29
+      - Ytb:鹏哥分享_US_美国_29 2
       - Ytb:鹏哥分享_US_美国_30 2
-      - Ytb:鹏哥分享_US_美国_31 2
+      - Ytb:鹏哥分享_US_美国_31
       - Ytb:鹏哥分享_US_美国_32 2
       - Ytb:鹏哥分享_US_美国_33 2
       - Ytb:鹏哥分享_CA_加拿大_34
       - Ytb:鹏哥分享_GB_英国_35
       - Ytb:鹏哥分享_IL_以色列_36
-      - Ytb:鹏哥分享_US_美国_37 2
+      - Ytb:鹏哥分享_US_美国_37
       - Ytb:鹏哥分享_US_美国_38 2
-      - Ytb:鹏哥分享_US_美国_39 2
+      - Ytb:鹏哥分享_US_美国_39
       - Ytb:鹏哥分享_GB_英国_40
       - Ytb:鹏哥分享_US_美国_41 2
       - Ytb:鹏哥分享_NO_挪威_42
-      - Ytb:鹏哥分享_US_美国_43
+      - Ytb:鹏哥分享_US_美国_43 2
       - Ytb:鹏哥分享_US_美国_44
       - Ytb:鹏哥分享_TW_台湾_45
       - Ytb:鹏哥分享_US_美国_46 2
-      - Ytb:鹏哥分享_US_美国_47 2
+      - Ytb:鹏哥分享_US_美国_47
       - Ytb:鹏哥分享_US_美国_48
       - Ytb:鹏哥分享_GB_英国_49
       - Ytb:鹏哥分享_US_美国_50 2
       - Ytb:鹏哥分享_US_美国_51 2
-      - Ytb:鹏哥分享_NO_挪威_52 2
+      - Ytb:鹏哥分享_NO_挪威_52
       - Ytb:鹏哥分享_GB_英国_53
       - Ytb:鹏哥分享_ID_印度尼西亚_54
-      - Ytb:鹏哥分享_US_美国_55
-      - Ytb:鹏哥分享_US_美国_56
+      - Ytb:鹏哥分享_US_美国_55 2
+      - Ytb:鹏哥分享_US_美国_56 2
       - Ytb:鹏哥分享_US_美国_57
       - Ytb:鹏哥分享_US_美国_58 2
       - Ytb:鹏哥分享_US_美国_59 2
       - Ytb:鹏哥分享_NO_挪威_60
       - Ytb:鹏哥分享_BG_保加利亚_61
       - Ytb:鹏哥分享_US_美国_62
-      - Ytb:鹏哥分享_US_美国_63
+      - Ytb:鹏哥分享_US_美国_63 2
       - Ytb:鹏哥分享_NO_挪威_64
       - Ytb:鹏哥分享_US_美国_65
-      - Ytb:鹏哥分享_CA_加拿大_66
+      - Ytb:鹏哥分享_CA_加拿大_66 2
       - Ytb:鹏哥分享_CA_加拿大_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_US_美国_69
+      - Ytb:鹏哥分享_US_美国_68 2
+      - Ytb:鹏哥分享_US_美国_69 2
       - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 1
       - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 2
       - github.com/freefq - 美国CloudFlare公司CDN节点 3
@@ -3168,7 +3202,7 @@ proxy-groups:
       - V1-台湾TW 02 HINET Netflix 2x
       - _US_美国 29
       - _US_美国 4
-      - _US_美国
+      - _US_美国 2
       - _US_美国 9
       - _US_美国 14
       - 【直连】新加坡【无限量-0.2x】
@@ -3254,7 +3288,7 @@ proxy-groups:
       - taiwan-zhuanxian
       - 德国 - 法尔肯施泰因 [BGPA] [SVIP] [Netflix]
       - Hong Kong - 1
-      - Ytb:鹏哥分享_US_美国_72
+      - Ytb:鹏哥分享_US_美国_72 2
       - 全球直连③-TikTok
       - "网址: upyun.online/reg 2"
       - V1-台湾05 中继C 2x 2
@@ -3905,67 +3939,98 @@ proxy-groups:
       - "@SSRSUB-加拿大T10-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-韩国T11-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub"
-      - Ytb:鹏哥分享_PH_菲律宾_1
-      - Ytb:鹏哥分享_US_美国_2
-      - Ytb:鹏哥分享_US_美国_3
-      - Ytb:鹏哥分享_NL_荷兰_4
-      - Ytb:鹏哥分享_ID_印度尼西亚_5
-      - Ytb:鹏哥分享_IL_以色列_6
-      - Ytb:鹏哥分享_IL_以色列_7
-      - Ytb:鹏哥分享_TW_台湾_8
-      - Ytb:鹏哥分享_TW_台湾_9
-      - Ytb:鹏哥分享_LU_卢森堡_10
-      - Ytb:鹏哥分享_FR_法国_11
-      - Ytb:鹏哥分享_US_美国_12
-      - Ytb:鹏哥分享_GB_英国_13
-      - Ytb:鹏哥分享_GB_英国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_GB_英国_16
-      - Ytb:鹏哥分享_US_美国_17
-      - Ytb:鹏哥分享_US_美国_18
-      - Ytb:鹏哥分享_VN_越南_19
+      - Ytb:鹏哥分享_CN_中国_1
+      - Ytb:鹏哥分享_HK_香港_2
+      - Ytb:鹏哥分享_SG_新加坡_3
+      - Ytb:鹏哥分享_HK_香港_4
+      - Ytb:鹏哥分享_PH_菲律宾_5
+      - Ytb:鹏哥分享_HK_香港_6
+      - Ytb:鹏哥分享_HK_香港_7
+      - Ytb:鹏哥分享_FR_法国_8
+      - Ytb:鹏哥分享_CH_瑞士_9
+      - Ytb:鹏哥分享_HU_匈牙利_10
+      - Ytb:鹏哥分享_NL_荷兰_11
+      - Ytb:鹏哥分享_NL_荷兰_12
+      - Ytb:鹏哥分享_PT_葡萄牙_13
+      - Ytb:鹏哥分享_IL_以色列_14
+      - Ytb:鹏哥分享_CA_加拿大_15
+      - Ytb:鹏哥分享_BG_保加利亚_16
+      - Ytb:鹏哥分享_HK_香港_17
+      - Ytb:鹏哥分享_CA_加拿大_18
+      - Ytb:鹏哥分享_FR_法国_19
       - Ytb:鹏哥分享_US_美国_20
       - Ytb:鹏哥分享_US_美国_21
-      - Ytb:鹏哥分享_US_美国_22
-      - Ytb:鹏哥分享_SG_新加坡_23
-      - Ytb:鹏哥分享_US_美国_24
+      - Ytb:鹏哥分享_GB_英国_22
+      - Ytb:鹏哥分享_GB_英国_23
+      - Ytb:鹏哥分享_GB_英国_24
       - Ytb:鹏哥分享_US_美国_25
-      - Ytb:鹏哥分享_GB_英国_26
+      - Ytb:鹏哥分享_US_美国_26
       - Ytb:鹏哥分享_US_美国_27
       - Ytb:鹏哥分享_US_美国_28
-      - Ytb:鹏哥分享_GB_英国_29
+      - Ytb:鹏哥分享_US_美国_29
       - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_US_美国_31
+      - Ytb:鹏哥分享_GB_英国_31
       - Ytb:鹏哥分享_US_美国_32
       - Ytb:鹏哥分享_US_美国_33
       - Ytb:鹏哥分享_US_美国_34
       - Ytb:鹏哥分享_US_美国_35
-      - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_US_美国_37
+      - Ytb:鹏哥分享_CA_加拿大_36
+      - Ytb:鹏哥分享_CN_中国_37
       - Ytb:鹏哥分享_US_美国_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_CA_加拿大_40
+      - Ytb:鹏哥分享_GB_英国_39
+      - Ytb:鹏哥分享_NO_挪威_40
       - Ytb:鹏哥分享_US_美国_41
       - Ytb:鹏哥分享_US_美国_42
-      - Ytb:鹏哥分享_NO_挪威_43
+      - Ytb:鹏哥分享_US_美国_43
       - Ytb:鹏哥分享_GB_英国_44
-      - Ytb:鹏哥分享_US_美国_45
+      - Ytb:鹏哥分享_NO_挪威_45
       - Ytb:鹏哥分享_US_美国_46
-      - Ytb:鹏哥分享_US_美国_47
-      - Ytb:鹏哥分享_CA_加拿大_48
-      - Ytb:鹏哥分享_CA_加拿大_49
+      - Ytb:鹏哥分享_CA_加拿大_47
+      - Ytb:鹏哥分享_NO_挪威_48
+      - Ytb:鹏哥分享_US_美国_49
       - Ytb:鹏哥分享_US_美国_50
       - Ytb:鹏哥分享_US_美国_51
-      - Ytb:鹏哥分享_NO_挪威_52
+      - Ytb:鹏哥分享_CA_加拿大_52
       - Ytb:鹏哥分享_US_美国_53
-      - Ytb:鹏哥分享_CA_加拿大_54
-      - Ytb:鹏哥分享_CA_加拿大_55
-      - Ytb:鹏哥分享_NO_挪威_56
-      - Ytb:鹏哥分享_CA_加拿大_57
+      - Ytb:鹏哥分享_US_美国_54
+      - Ytb:鹏哥分享_US_美国_55
+      - Ytb:鹏哥分享_US_美国_56
+      - Ytb:鹏哥分享_NO_挪威_57
       - Ytb:鹏哥分享_US_美国_58
       - Ytb:鹏哥分享_US_美国_59
       - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_NL_荷兰_61
+      - Ytb:鹏哥分享_US_美国_61
+      - Ytb:鹏哥分享_GB_英国_62
+      - Ytb:鹏哥分享_US_美国_63
+      - Ytb:鹏哥分享_CA_加拿大_64
+      - Ytb:鹏哥分享_NO_挪威_65
+      - Ytb:鹏哥分享_CA_加拿大_66
+      - Ytb:鹏哥分享_US_美国_67
+      - Ytb:鹏哥分享_US_美国_68
+      - Ytb:鹏哥分享_US_美国_69
+      - Ytb:鹏哥分享_US_美国_70
+      - Ytb:鹏哥分享_NO_挪威_71
+      - Ytb:鹏哥分享_US_美国_72
+      - Ytb:鹏哥分享_NO_挪威_73
+      - Ytb:鹏哥分享_CN_中国_74
+      - Ytb:鹏哥分享_US_美国_75
+      - Ytb:鹏哥分享_US_美国_76
+      - Ytb:鹏哥分享_GB_英国_77
+      - Ytb:鹏哥分享_CA_加拿大_78
+      - Ytb:鹏哥分享_US_美国_79
+      - Ytb:鹏哥分享_US_美国_80
+      - Ytb:鹏哥分享_US_美国_81
+      - Ytb:鹏哥分享_US_美国_82
+      - Ytb:鹏哥分享_US_美国_83
+      - Ytb:鹏哥分享_US_美国_84
+      - Ytb:鹏哥分享_NO_挪威_85
+      - Ytb:鹏哥分享_CA_加拿大_86
+      - Ytb:鹏哥分享_US_美国_87
+      - Ytb:鹏哥分享_CA_加拿大_88
+      - Ytb:鹏哥分享_US_美国_89
+      - Ytb:鹏哥分享_US_美国_90
+      - Ytb:鹏哥分享_GB_英国_91
+      - Ytb:鹏哥分享_GB_英国_92
       - 新加坡
       - 美国
       - 新加坣
@@ -3992,21 +4057,7 @@ proxy-groups:
       - 5.20| 专线香港08原生HGCBBS
       - 2.29| 专线中国台湾03原生HINET
       - 2.27| 专线中国台湾03原生HINET
-      - 新加坡 G口-1-v2ray
-      - 新加坡 G口-1-v2ray-广州移动x2
-      - 日本 G口-1-v2ray
-      - 日本 G口-2-v2ray-443端口
-      - 日本 G口-3-v2ray
-      - 日本 G口-3-v2ray-广州移动x2
-      - 美国 1-v2ray
-      - 美国 2-v2ray
-      - 美国 3-v2ray
-      - 美国 4-v2ray
-      - 美国 6-v2ray
-      - 美国 7-v2ray
-      - 美国 8-v2ray
-      - 美国 9-v2ray
-      - 韩国 G口-1-v2ray
+      - _US_美国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4442,9 +4493,9 @@ proxy-groups:
       - 129香港∞直连
       - 130香港∞直连
       - Ytb:鹏哥分享_NL_荷兰_1
-      - Ytb:鹏哥分享_US_美国_2 2
+      - Ytb:鹏哥分享_US_美国_2
       - Ytb:鹏哥分享_CA_加拿大_3
-      - Ytb:鹏哥分享_NL_荷兰_4 2
+      - Ytb:鹏哥分享_NL_荷兰_4
       - Ytb:鹏哥分享_CA_加拿大_5
       - Ytb:鹏哥分享_CA_加拿大_6
       - Ytb:鹏哥分享_US_美国_7
@@ -4458,58 +4509,58 @@ proxy-groups:
       - Ytb:鹏哥分享_TW_台湾_15
       - Ytb:鹏哥分享_US_美国_16
       - Ytb:鹏哥分享_GB_英国_17
-      - Ytb:鹏哥分享_US_美国_18 2
+      - Ytb:鹏哥分享_US_美国_18
       - Ytb:鹏哥分享_US_美国_19
       - Ytb:鹏哥分享_US_美国_20 2
       - Ytb:鹏哥分享_GB_英国_21
-      - Ytb:鹏哥分享_US_美国_22 2
-      - Ytb:鹏哥分享_GB_英国_23
-      - Ytb:鹏哥分享_US_美国_24 2
+      - Ytb:鹏哥分享_US_美国_22
+      - Ytb:鹏哥分享_GB_英国_23 2
+      - Ytb:鹏哥分享_US_美国_24
       - Ytb:鹏哥分享_US_美国_25 2
-      - Ytb:鹏哥分享_GB_英国_26 2
+      - Ytb:鹏哥分享_GB_英国_26
       - Ytb:鹏哥分享_US_美国_27 2
       - Ytb:鹏哥分享_US_美国_28 2
-      - Ytb:鹏哥分享_US_美国_29
+      - Ytb:鹏哥分享_US_美国_29 2
       - Ytb:鹏哥分享_US_美国_30 2
-      - Ytb:鹏哥分享_US_美国_31 2
+      - Ytb:鹏哥分享_US_美国_31
       - Ytb:鹏哥分享_US_美国_32 2
       - Ytb:鹏哥分享_US_美国_33 2
       - Ytb:鹏哥分享_CA_加拿大_34
       - Ytb:鹏哥分享_GB_英国_35
       - Ytb:鹏哥分享_IL_以色列_36
-      - Ytb:鹏哥分享_US_美国_37 2
+      - Ytb:鹏哥分享_US_美国_37
       - Ytb:鹏哥分享_US_美国_38 2
-      - Ytb:鹏哥分享_US_美国_39 2
+      - Ytb:鹏哥分享_US_美国_39
       - Ytb:鹏哥分享_GB_英国_40
       - Ytb:鹏哥分享_US_美国_41 2
       - Ytb:鹏哥分享_NO_挪威_42
-      - Ytb:鹏哥分享_US_美国_43
+      - Ytb:鹏哥分享_US_美国_43 2
       - Ytb:鹏哥分享_US_美国_44
       - Ytb:鹏哥分享_TW_台湾_45
       - Ytb:鹏哥分享_US_美国_46 2
-      - Ytb:鹏哥分享_US_美国_47 2
+      - Ytb:鹏哥分享_US_美国_47
       - Ytb:鹏哥分享_US_美国_48
       - Ytb:鹏哥分享_GB_英国_49
       - Ytb:鹏哥分享_US_美国_50 2
       - Ytb:鹏哥分享_US_美国_51 2
-      - Ytb:鹏哥分享_NO_挪威_52 2
+      - Ytb:鹏哥分享_NO_挪威_52
       - Ytb:鹏哥分享_GB_英国_53
       - Ytb:鹏哥分享_ID_印度尼西亚_54
-      - Ytb:鹏哥分享_US_美国_55
-      - Ytb:鹏哥分享_US_美国_56
+      - Ytb:鹏哥分享_US_美国_55 2
+      - Ytb:鹏哥分享_US_美国_56 2
       - Ytb:鹏哥分享_US_美国_57
       - Ytb:鹏哥分享_US_美国_58 2
       - Ytb:鹏哥分享_US_美国_59 2
       - Ytb:鹏哥分享_NO_挪威_60
       - Ytb:鹏哥分享_BG_保加利亚_61
       - Ytb:鹏哥分享_US_美国_62
-      - Ytb:鹏哥分享_US_美国_63
+      - Ytb:鹏哥分享_US_美国_63 2
       - Ytb:鹏哥分享_NO_挪威_64
       - Ytb:鹏哥分享_US_美国_65
-      - Ytb:鹏哥分享_CA_加拿大_66
+      - Ytb:鹏哥分享_CA_加拿大_66 2
       - Ytb:鹏哥分享_CA_加拿大_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_US_美国_69
+      - Ytb:鹏哥分享_US_美国_68 2
+      - Ytb:鹏哥分享_US_美国_69 2
       - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 1
       - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 2
       - github.com/freefq - 美国CloudFlare公司CDN节点 3
@@ -4796,7 +4847,7 @@ proxy-groups:
       - V1-台湾TW 02 HINET Netflix 2x
       - _US_美国 29
       - _US_美国 4
-      - _US_美国
+      - _US_美国 2
       - _US_美国 9
       - _US_美国 14
       - 【直连】新加坡【无限量-0.2x】
@@ -4882,7 +4933,7 @@ proxy-groups:
       - taiwan-zhuanxian
       - 德国 - 法尔肯施泰因 [BGPA] [SVIP] [Netflix]
       - Hong Kong - 1
-      - Ytb:鹏哥分享_US_美国_72
+      - Ytb:鹏哥分享_US_美国_72 2
       - 全球直连③-TikTok
       - "网址: upyun.online/reg 2"
       - V1-台湾05 中继C 2x 2
@@ -5118,6 +5169,11 @@ proxy-groups:
       - _HK_香港_Chen-2022.01.07_124
       - _HK_香港_Chen-2022.01.07_125
       - _HK_香港_Chen-2022.01.07_127
+      - Ytb:鹏哥分享_HK_香港_2
+      - Ytb:鹏哥分享_HK_香港_4
+      - Ytb:鹏哥分享_HK_香港_6
+      - Ytb:鹏哥分享_HK_香港_7
+      - Ytb:鹏哥分享_HK_香港_17
       - v2ray 香港HGC(移动) [Netflix]
       - v2ray 香港HKBN(移动) [Netflix]
       - v2ray 香港HGC(联通) [Netflix]
@@ -5230,10 +5286,6 @@ proxy-groups:
       - _JP_日本_Chen-2022.01.07_116
       - v2ray 日本(移动) [Netflix]
       - v2ray 日本(联通) [Netflix]
-      - 日本 G口-1-v2ray
-      - 日本 G口-2-v2ray-443端口
-      - 日本 G口-3-v2ray
-      - 日本 G口-3-v2ray-广州移动x2
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -5486,53 +5538,57 @@ proxy-groups:
       - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-美国V11-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-美国V18-付费推荐::suo.yt/ssrsub"
-      - Ytb:鹏哥分享_US_美国_2
-      - Ytb:鹏哥分享_US_美国_3
-      - Ytb:鹏哥分享_US_美国_12
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_17
-      - Ytb:鹏哥分享_US_美国_18
       - Ytb:鹏哥分享_US_美国_20
       - Ytb:鹏哥分享_US_美国_21
-      - Ytb:鹏哥分享_US_美国_22
-      - Ytb:鹏哥分享_US_美国_24
       - Ytb:鹏哥分享_US_美国_25
+      - Ytb:鹏哥分享_US_美国_26
       - Ytb:鹏哥分享_US_美国_27
       - Ytb:鹏哥分享_US_美国_28
+      - Ytb:鹏哥分享_US_美国_29
       - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_US_美国_31
       - Ytb:鹏哥分享_US_美国_32
       - Ytb:鹏哥分享_US_美国_33
       - Ytb:鹏哥分享_US_美国_34
       - Ytb:鹏哥分享_US_美国_35
-      - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_US_美国_37
       - Ytb:鹏哥分享_US_美国_38
-      - Ytb:鹏哥分享_US_美国_39
       - Ytb:鹏哥分享_US_美国_41
       - Ytb:鹏哥分享_US_美国_42
-      - Ytb:鹏哥分享_US_美国_45
+      - Ytb:鹏哥分享_US_美国_43
       - Ytb:鹏哥分享_US_美国_46
-      - Ytb:鹏哥分享_US_美国_47
+      - Ytb:鹏哥分享_US_美国_49
       - Ytb:鹏哥分享_US_美国_50
       - Ytb:鹏哥分享_US_美国_51
       - Ytb:鹏哥分享_US_美国_53
+      - Ytb:鹏哥分享_US_美国_54
+      - Ytb:鹏哥分享_US_美国_55
+      - Ytb:鹏哥分享_US_美国_56
       - Ytb:鹏哥分享_US_美国_58
       - Ytb:鹏哥分享_US_美国_59
       - Ytb:鹏哥分享_US_美国_60
+      - Ytb:鹏哥分享_US_美国_61
+      - Ytb:鹏哥分享_US_美国_63
+      - Ytb:鹏哥分享_US_美国_67
+      - Ytb:鹏哥分享_US_美国_68
+      - Ytb:鹏哥分享_US_美国_69
+      - Ytb:鹏哥分享_US_美国_70
+      - Ytb:鹏哥分享_US_美国_72
+      - Ytb:鹏哥分享_US_美国_75
+      - Ytb:鹏哥分享_US_美国_76
+      - Ytb:鹏哥分享_US_美国_79
+      - Ytb:鹏哥分享_US_美国_80
+      - Ytb:鹏哥分享_US_美国_81
+      - Ytb:鹏哥分享_US_美国_82
+      - Ytb:鹏哥分享_US_美国_83
+      - Ytb:鹏哥分享_US_美国_84
+      - Ytb:鹏哥分享_US_美国_87
+      - Ytb:鹏哥分享_US_美国_89
+      - Ytb:鹏哥分享_US_美国_90
       - 美国
       - v2ray 美国(移动) [Netflix]
       - v2ray 美国(联通) [Netflix]
       - 2.74| 专线西雅图01原生NTT
       - 2.74| 专线西雅图01原生NTT 2
-      - 美国 1-v2ray
-      - 美国 2-v2ray
-      - 美国 3-v2ray
-      - 美国 4-v2ray
-      - 美国 6-v2ray
-      - 美国 7-v2ray
-      - 美国 8-v2ray
-      - 美国 9-v2ray
+      - _US_美国
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -5659,47 +5715,47 @@ proxy-groups:
       - 111美国∞直连
       - 112美国∞直连
       - 113美国∞直连
-      - Ytb:鹏哥分享_US_美国_2 2
+      - Ytb:鹏哥分享_US_美国_2
       - Ytb:鹏哥分享_US_美国_7
       - Ytb:鹏哥分享_US_美国_8
       - Ytb:鹏哥分享_US_美国_11
       - Ytb:鹏哥分享_US_美国_13
       - Ytb:鹏哥分享_US_美国_14
       - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_US_美国_18 2
+      - Ytb:鹏哥分享_US_美国_18
       - Ytb:鹏哥分享_US_美国_19
       - Ytb:鹏哥分享_US_美国_20 2
-      - Ytb:鹏哥分享_US_美国_22 2
-      - Ytb:鹏哥分享_US_美国_24 2
+      - Ytb:鹏哥分享_US_美国_22
+      - Ytb:鹏哥分享_US_美国_24
       - Ytb:鹏哥分享_US_美国_25 2
       - Ytb:鹏哥分享_US_美国_27 2
       - Ytb:鹏哥分享_US_美国_28 2
-      - Ytb:鹏哥分享_US_美国_29
+      - Ytb:鹏哥分享_US_美国_29 2
       - Ytb:鹏哥分享_US_美国_30 2
-      - Ytb:鹏哥分享_US_美国_31 2
+      - Ytb:鹏哥分享_US_美国_31
       - Ytb:鹏哥分享_US_美国_32 2
       - Ytb:鹏哥分享_US_美国_33 2
-      - Ytb:鹏哥分享_US_美国_37 2
+      - Ytb:鹏哥分享_US_美国_37
       - Ytb:鹏哥分享_US_美国_38 2
-      - Ytb:鹏哥分享_US_美国_39 2
+      - Ytb:鹏哥分享_US_美国_39
       - Ytb:鹏哥分享_US_美国_41 2
-      - Ytb:鹏哥分享_US_美国_43
+      - Ytb:鹏哥分享_US_美国_43 2
       - Ytb:鹏哥分享_US_美国_44
       - Ytb:鹏哥分享_US_美国_46 2
-      - Ytb:鹏哥分享_US_美国_47 2
+      - Ytb:鹏哥分享_US_美国_47
       - Ytb:鹏哥分享_US_美国_48
       - Ytb:鹏哥分享_US_美国_50 2
       - Ytb:鹏哥分享_US_美国_51 2
-      - Ytb:鹏哥分享_US_美国_55
-      - Ytb:鹏哥分享_US_美国_56
+      - Ytb:鹏哥分享_US_美国_55 2
+      - Ytb:鹏哥分享_US_美国_56 2
       - Ytb:鹏哥分享_US_美国_57
       - Ytb:鹏哥分享_US_美国_58 2
       - Ytb:鹏哥分享_US_美国_59 2
       - Ytb:鹏哥分享_US_美国_62
-      - Ytb:鹏哥分享_US_美国_63
+      - Ytb:鹏哥分享_US_美国_63 2
       - Ytb:鹏哥分享_US_美国_65
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_US_美国_69
+      - Ytb:鹏哥分享_US_美国_68 2
+      - Ytb:鹏哥分享_US_美国_69 2
       - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 1
       - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 2
       - github.com/freefq - 美国CloudFlare公司CDN节点 3
@@ -5747,14 +5803,14 @@ proxy-groups:
       - "[直连] 美国3 解锁流媒体 1x"
       - _US_美国 29
       - _US_美国 4
-      - _US_美国
+      - _US_美国 2
       - _US_美国 9
       - _US_美国 14
       - 【新鸟免费】美国UA -DO 01 免流 1.0x
       - 【新鸟免费】美国UA -DO 10 免流 1.0x
       - 【新鸟免费】美国UA -DO 05 免流 1.0x
       - 【新鸟免费】美国UA -DO 07 免流 1.0x
-      - Ytb:鹏哥分享_US_美国_72
+      - Ytb:鹏哥分享_US_美国_72 2
       - "[直连] 美国3 解锁流媒体 1x 2"
   - name: 🇨🇳 台湾节点
     type: url-test
@@ -5773,8 +5829,6 @@ proxy-groups:
       - _TW_台湾_Chen-2022.01.07_14
       - _TW_台湾_Chen-2022.01.07_15
       - _TW_台湾_Chen-2022.01.07_16
-      - Ytb:鹏哥分享_TW_台湾_8
-      - Ytb:鹏哥分享_TW_台湾_9
       - 2.29| 专线中国台湾03原生HINET
       - 2.27| 专线中国台湾03原生HINET
       - 台湾（YouTube资源分享者） 9
@@ -5841,14 +5895,12 @@ proxy-groups:
       - _SG_新加坡_Chen-2022.01.07_23
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V17-付费推荐::suo.yt/ssrsub"
-      - Ytb:鹏哥分享_SG_新加坡_23
+      - Ytb:鹏哥分享_SG_新加坡_3
       - 新加坡
       - 新加坡2
       - 新加坡6
       - v2ray 新加坡(移动) [Netflix]
       - v2ray 新加坡(联通) [Netflix]
-      - 新加坡 G口-1-v2ray
-      - 新加坡 G口-1-v2ray-广州移动x2
       - 新加坡（YouTube资源分享者） 2
       - _SG_新加坡_Chen-2022.01.07_8 2
       - _SG_新加坡_Chen-2022.01.07_9 2
@@ -5873,7 +5925,6 @@ proxy-groups:
       - "@SSRSUB-韩国V20-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-韩国T05-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-韩国T11-付费推荐:dlj.tf/ssrsub"
-      - 韩国 G口-1-v2ray
       - "@SSRSUB-韩国V10-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-韩国V20-付费推荐::suo.yt/ssrsub 2"
       - 日韩频道 TG@shoucangAV
