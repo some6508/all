@@ -5,172 +5,236 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇭🇰_HK_香港_1', server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '🇭🇰_HK_香港_2', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇭🇰_HK_香港_3', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇭🇰_HK_香港_4', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇭🇰_HK_香港_5', server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇭🇰_HK_香港_6', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇭🇰_HK_香港_7', server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇭🇰_HK_香港_8', server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '🇭🇰_HK_香港->🇨🇿_CZ_捷克_9', server: 13.75.3.16, port: 831, type: vmess, uuid: d06330a7-1fdd-3b99-a0ed-754e6a11d4ce, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: { path: "/v2ray", host: 1.baiyun.pw }}
-  - {name: '🇭🇰_HK_香港_10', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇭🇰_HK_香港->🇮🇳_IN_印度_11', server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: aicoo6du.com }}
-  - {name: '🇭🇰_HK_香港_12', server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
-  - {name: '🇭🇰_HK_香港->🇮🇳_IN_印度_13', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: aicoo6du.com }}
-  - {name: '🇭🇰_HK_香港_14', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇭🇰_HK_香港_15', server: 118.107.244.110, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇭🇰_HK_香港_16', server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: '🇦🇺_AU_澳大利亚_1', server: 172.105.180.227, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇦🇺_AU_澳大利亚_2', server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇦🇺_AU_澳大利亚_3', server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇦🇺_AU_澳大利亚_4', server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇦🇺_AU_澳大利亚_5', server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇦🇺_AU_澳大利亚_6', server: 172.105.180.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇦🇺_AU_澳大利亚_7', server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇦🇺_AU_澳大利亚_8', server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇦🇺_AU_澳大利亚_9', server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇦🇺_AU_澳大利亚_10', server: 172.105.180.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇦🇺_AU_澳大利亚_11', server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇦🇺_AU_澳大利亚_12', server: 172.105.180.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇦🇺_AU_澳大利亚_13', server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇦🇺_AU_澳大利亚_14', server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇦🇺_AU_澳大利亚_15', server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇦🇺_AU_澳大利亚_16', server: 172.105.180.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇦🇺_AU_澳大利亚_17', server: 172.105.180.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇦🇺_AU_澳大利亚_18', server: 172.105.180.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇦🇺_AU_澳大利亚_19', server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇦🇺_AU_澳大利亚_20', server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇦🇺_AU_澳大利亚_21', server: 172.105.180.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇦🇺_AU_澳大利亚_22', server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇦🇺_AU_澳大利亚_23', server: 172.105.180.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇦🇺_AU_澳大利亚_24', server: 172.105.180.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
-      - 🇭🇰_HK_香港->🇨🇿_CZ_捷克_9
-      - 🇭🇰_HK_香港_10
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_11
-      - 🇭🇰_HK_香港_12
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_13
-      - 🇭🇰_HK_香港_14
-      - 🇭🇰_HK_香港_15
-      - 🇭🇰_HK_香港_16
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇦🇺_AU_澳大利亚_2
+      - 🇦🇺_AU_澳大利亚_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇦🇺_AU_澳大利亚_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇦🇺_AU_澳大利亚_8
+      - 🇦🇺_AU_澳大利亚_9
+      - 🇦🇺_AU_澳大利亚_10
+      - 🇦🇺_AU_澳大利亚_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇦🇺_AU_澳大利亚_13
+      - 🇦🇺_AU_澳大利亚_14
+      - 🇦🇺_AU_澳大利亚_15
+      - 🇦🇺_AU_澳大利亚_16
+      - 🇦🇺_AU_澳大利亚_17
+      - 🇦🇺_AU_澳大利亚_18
+      - 🇦🇺_AU_澳大利亚_19
+      - 🇦🇺_AU_澳大利亚_20
+      - 🇦🇺_AU_澳大利亚_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇦🇺_AU_澳大利亚_23
+      - 🇦🇺_AU_澳大利亚_24
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
-      - 🇭🇰_HK_香港->🇨🇿_CZ_捷克_9
-      - 🇭🇰_HK_香港_10
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_11
-      - 🇭🇰_HK_香港_12
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_13
-      - 🇭🇰_HK_香港_14
-      - 🇭🇰_HK_香港_15
-      - 🇭🇰_HK_香港_16
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇦🇺_AU_澳大利亚_2
+      - 🇦🇺_AU_澳大利亚_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇦🇺_AU_澳大利亚_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇦🇺_AU_澳大利亚_8
+      - 🇦🇺_AU_澳大利亚_9
+      - 🇦🇺_AU_澳大利亚_10
+      - 🇦🇺_AU_澳大利亚_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇦🇺_AU_澳大利亚_13
+      - 🇦🇺_AU_澳大利亚_14
+      - 🇦🇺_AU_澳大利亚_15
+      - 🇦🇺_AU_澳大利亚_16
+      - 🇦🇺_AU_澳大利亚_17
+      - 🇦🇺_AU_澳大利亚_18
+      - 🇦🇺_AU_澳大利亚_19
+      - 🇦🇺_AU_澳大利亚_20
+      - 🇦🇺_AU_澳大利亚_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇦🇺_AU_澳大利亚_23
+      - 🇦🇺_AU_澳大利亚_24
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
-      - 🇭🇰_HK_香港->🇨🇿_CZ_捷克_9
-      - 🇭🇰_HK_香港_10
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_11
-      - 🇭🇰_HK_香港_12
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_13
-      - 🇭🇰_HK_香港_14
-      - 🇭🇰_HK_香港_15
-      - 🇭🇰_HK_香港_16
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇦🇺_AU_澳大利亚_2
+      - 🇦🇺_AU_澳大利亚_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇦🇺_AU_澳大利亚_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇦🇺_AU_澳大利亚_8
+      - 🇦🇺_AU_澳大利亚_9
+      - 🇦🇺_AU_澳大利亚_10
+      - 🇦🇺_AU_澳大利亚_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇦🇺_AU_澳大利亚_13
+      - 🇦🇺_AU_澳大利亚_14
+      - 🇦🇺_AU_澳大利亚_15
+      - 🇦🇺_AU_澳大利亚_16
+      - 🇦🇺_AU_澳大利亚_17
+      - 🇦🇺_AU_澳大利亚_18
+      - 🇦🇺_AU_澳大利亚_19
+      - 🇦🇺_AU_澳大利亚_20
+      - 🇦🇺_AU_澳大利亚_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇦🇺_AU_澳大利亚_23
+      - 🇦🇺_AU_澳大利亚_24
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
-      - 🇭🇰_HK_香港->🇨🇿_CZ_捷克_9
-      - 🇭🇰_HK_香港_10
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_11
-      - 🇭🇰_HK_香港_12
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_13
-      - 🇭🇰_HK_香港_14
-      - 🇭🇰_HK_香港_15
-      - 🇭🇰_HK_香港_16
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇦🇺_AU_澳大利亚_2
+      - 🇦🇺_AU_澳大利亚_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇦🇺_AU_澳大利亚_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇦🇺_AU_澳大利亚_8
+      - 🇦🇺_AU_澳大利亚_9
+      - 🇦🇺_AU_澳大利亚_10
+      - 🇦🇺_AU_澳大利亚_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇦🇺_AU_澳大利亚_13
+      - 🇦🇺_AU_澳大利亚_14
+      - 🇦🇺_AU_澳大利亚_15
+      - 🇦🇺_AU_澳大利亚_16
+      - 🇦🇺_AU_澳大利亚_17
+      - 🇦🇺_AU_澳大利亚_18
+      - 🇦🇺_AU_澳大利亚_19
+      - 🇦🇺_AU_澳大利亚_20
+      - 🇦🇺_AU_澳大利亚_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇦🇺_AU_澳大利亚_23
+      - 🇦🇺_AU_澳大利亚_24
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
-      - 🇭🇰_HK_香港->🇨🇿_CZ_捷克_9
-      - 🇭🇰_HK_香港_10
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_11
-      - 🇭🇰_HK_香港_12
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_13
-      - 🇭🇰_HK_香港_14
-      - 🇭🇰_HK_香港_15
-      - 🇭🇰_HK_香港_16
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇦🇺_AU_澳大利亚_2
+      - 🇦🇺_AU_澳大利亚_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇦🇺_AU_澳大利亚_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇦🇺_AU_澳大利亚_8
+      - 🇦🇺_AU_澳大利亚_9
+      - 🇦🇺_AU_澳大利亚_10
+      - 🇦🇺_AU_澳大利亚_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇦🇺_AU_澳大利亚_13
+      - 🇦🇺_AU_澳大利亚_14
+      - 🇦🇺_AU_澳大利亚_15
+      - 🇦🇺_AU_澳大利亚_16
+      - 🇦🇺_AU_澳大利亚_17
+      - 🇦🇺_AU_澳大利亚_18
+      - 🇦🇺_AU_澳大利亚_19
+      - 🇦🇺_AU_澳大利亚_20
+      - 🇦🇺_AU_澳大利亚_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇦🇺_AU_澳大利亚_23
+      - 🇦🇺_AU_澳大利亚_24
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
-      - 🇭🇰_HK_香港->🇨🇿_CZ_捷克_9
-      - 🇭🇰_HK_香港_10
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_11
-      - 🇭🇰_HK_香港_12
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_13
-      - 🇭🇰_HK_香港_14
-      - 🇭🇰_HK_香港_15
-      - 🇭🇰_HK_香港_16
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇦🇺_AU_澳大利亚_2
+      - 🇦🇺_AU_澳大利亚_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇦🇺_AU_澳大利亚_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇦🇺_AU_澳大利亚_8
+      - 🇦🇺_AU_澳大利亚_9
+      - 🇦🇺_AU_澳大利亚_10
+      - 🇦🇺_AU_澳大利亚_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇦🇺_AU_澳大利亚_13
+      - 🇦🇺_AU_澳大利亚_14
+      - 🇦🇺_AU_澳大利亚_15
+      - 🇦🇺_AU_澳大利亚_16
+      - 🇦🇺_AU_澳大利亚_17
+      - 🇦🇺_AU_澳大利亚_18
+      - 🇦🇺_AU_澳大利亚_19
+      - 🇦🇺_AU_澳大利亚_20
+      - 🇦🇺_AU_澳大利亚_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇦🇺_AU_澳大利亚_23
+      - 🇦🇺_AU_澳大利亚_24
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
-      - 🇭🇰_HK_香港->🇨🇿_CZ_捷克_9
-      - 🇭🇰_HK_香港_10
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_11
-      - 🇭🇰_HK_香港_12
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_13
-      - 🇭🇰_HK_香港_14
-      - 🇭🇰_HK_香港_15
-      - 🇭🇰_HK_香港_16
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇦🇺_AU_澳大利亚_2
+      - 🇦🇺_AU_澳大利亚_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇦🇺_AU_澳大利亚_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇦🇺_AU_澳大利亚_8
+      - 🇦🇺_AU_澳大利亚_9
+      - 🇦🇺_AU_澳大利亚_10
+      - 🇦🇺_AU_澳大利亚_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇦🇺_AU_澳大利亚_13
+      - 🇦🇺_AU_澳大利亚_14
+      - 🇦🇺_AU_澳大利亚_15
+      - 🇦🇺_AU_澳大利亚_16
+      - 🇦🇺_AU_澳大利亚_17
+      - 🇦🇺_AU_澳大利亚_18
+      - 🇦🇺_AU_澳大利亚_19
+      - 🇦🇺_AU_澳大利亚_20
+      - 🇦🇺_AU_澳大利亚_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇦🇺_AU_澳大利亚_23
+      - 🇦🇺_AU_澳大利亚_24
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -186,22 +250,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
-      - 🇭🇰_HK_香港->🇨🇿_CZ_捷克_9
-      - 🇭🇰_HK_香港_10
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_11
-      - 🇭🇰_HK_香港_12
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_13
-      - 🇭🇰_HK_香港_14
-      - 🇭🇰_HK_香港_15
-      - 🇭🇰_HK_香港_16
+      - 🇦🇺_AU_澳大利亚_1
+      - 🇦🇺_AU_澳大利亚_2
+      - 🇦🇺_AU_澳大利亚_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇦🇺_AU_澳大利亚_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇦🇺_AU_澳大利亚_8
+      - 🇦🇺_AU_澳大利亚_9
+      - 🇦🇺_AU_澳大利亚_10
+      - 🇦🇺_AU_澳大利亚_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇦🇺_AU_澳大利亚_13
+      - 🇦🇺_AU_澳大利亚_14
+      - 🇦🇺_AU_澳大利亚_15
+      - 🇦🇺_AU_澳大利亚_16
+      - 🇦🇺_AU_澳大利亚_17
+      - 🇦🇺_AU_澳大利亚_18
+      - 🇦🇺_AU_澳大利亚_19
+      - 🇦🇺_AU_澳大利亚_20
+      - 🇦🇺_AU_澳大利亚_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇦🇺_AU_澳大利亚_23
+      - 🇦🇺_AU_澳大利亚_24
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

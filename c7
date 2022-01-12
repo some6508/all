@@ -5,34 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港/江门移动A 2, server: jma.v2ray.asia, port: 25425, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: jma.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港/江门移动B 2, server: jmb.v2ray.asia, port: 25315, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: jmb.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港/广州移动A 2, server: gya.v2ray.asia, port: 25168, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: gya.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港/广州移动B 2, server: gyb.v2ray.asia, port: 25106, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: gyb.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港/佛山移动 2, server: fs.v2ray.asia, port: 25069, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: fs.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港/安徽联通 2, server: ah.v2ray.asia, port: 25426, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: ah.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港/长沙联通 2, server: cs.v2ray.asia, port: 25393, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: cs.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港/上海移动 2, server: shy.v2ray.asia, port: 30278, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: shy.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港/上海联通 2, server: shl.v2ray.asia, port: 25580, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: shl.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港B/江门移动A 2, server: jma.v2ray.asia, port: 25439, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: jma.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港B/江门移动B 2, server: jmb.v2ray.asia, port: 25333, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: jmb.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港B/广州移动A 2, server: gya.v2ray.asia, port: 25170, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: gya.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港B/广州移动B 2, server: gyb.v2ray.asia, port: 25134, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: gyb.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港B/佛山移动 2, server: fs.v2ray.asia, port: 25070, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: fs.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港B/安徽联通 2, server: ah.v2ray.asia, port: 25447, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: ah.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港B/长沙联通 2, server: cs.v2ray.asia, port: 25408, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: cs.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港B/上海移动 2, server: shy.v2ray.asia, port: 30317, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: shy.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 香港B/上海联通 2, server: shl.v2ray.asia, port: 25614, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: shl.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 日本/江门移动A 2, server: jma.v2ray.asia, port: 25440, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: jma.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 日本/江门移动B 2, server: jmb.v2ray.asia, port: 25334, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: jmb.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 日本/广州移动A 2, server: gya.v2ray.asia, port: 25171, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: gya.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 日本/广州移动B 2, server: gyb.v2ray.asia, port: 25135, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: gyb.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 日本/佛山移动 2, server: fs.v2ray.asia, port: 25071, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: fs.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 日本/安徽联通 2, server: ah.v2ray.asia, port: 25448, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: ah.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 日本/长沙联通 2, server: cs.v2ray.asia, port: 25409, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: cs.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 日本/上海移动 2, server: shy.v2ray.asia, port: 30320, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: shy.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 日本/上海联通 2, server: shl.v2ray.asia, port: 25615, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: shl.v2ray.asia, skip-cert-verify: true, udp: true}
-  - {name: 台湾/江门移动 2, server: jma.v2ray.asia, port: 25442, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: jma.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat技术分享室整理07, server: shcn2-06b.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat技术分享室整理12, server: transite-shcn2-06.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat技术分享室整理27, server: shcn2-06a.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat技术分享室整理29, server: shcn2-06.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat技术分享室整理07 2, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat技术分享室整理12 2, server: transite-shcn2-06.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 3.33|CN101678251921, server: hzcu.rymv2rayssl.xyz, port: 44605, type: vmess, uuid: 5002a71b-d203-3a1d-987f-99522eccdc25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 185.172.115.80}, udp: true}
+  - {name: TG@moneyflychat004, server: gzcm2.rymv2rayssl.xyz, port: 44605, type: vmess, uuid: 5002a71b-d203-3a1d-987f-99522eccdc25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 185.172.115.80}, udp: true}
+  - {name: 2.84|V1香港B组 直连 速度随缘 1x, server: hk-group-b-direct.myn0des.com, port: 8880, type: vmess, uuid: 8426925e-2f87-349e-a7ba-1375c3afd37b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new.vip.weibo.cn}, udp: true}
+  - {name: 2.59|V1俄罗斯01 中继D 12x, server: in04.2333dns.com, port: 64071, type: vmess, uuid: 8426925e-2f87-349e-a7ba-1375c3afd37b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-ru01.covid19.rip}, udp: true}
   - {name: 新加坡, server: abnode10.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode10.makegamegoal.com, skip-cert-verify: true, udp: true}
   - {name: 美国, server: abnode12.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode12.makegamegoal.com, skip-cert-verify: true, udp: true}
   - {name: 新加坣, server: abnode16.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode16.makegamegoal.com, skip-cert-verify: true, udp: true}
@@ -46,8 +28,6 @@ proxies:
   - {name: 新加坢3, server: abnode13.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode13.makegamegoal.com, skip-cert-verify: true, udp: true}
   - {name: "v2ray 新加坡(移动) [Netflix]", server: cm.cheapv2.xyz, port: 29901, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}, udp: true}
   - {name: "v2ray 美国(移动) [Netflix]", server: cm.cheapv2.xyz, port: 23308, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}, udp: true}
-  - {name: "v2ray 香港HGC(移动) [Netflix]", server: cm.cheapv2.xyz, port: 23318, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}, udp: true}
-  - {name: "v2ray 香港HKBN(移动) [Netflix]", server: cm.cheapv2.xyz, port: 26609, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}, udp: true}
   - {name: "v2ray 日本(移动) [Netflix]", server: cm2.cheapv2.xyz, port: 28802, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}, udp: true}
   - {name: "v2ray 新加坡(联通) [Netflix]", server: cu.cheapv2.xyz, port: 29901, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
   - {name: "v2ray 日本(联通) [Netflix]", server: cu.cheapv2.xyz, port: 28802, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
@@ -65,34 +45,16 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港/江门移动A 2
-      - 香港/江门移动B 2
-      - 香港/广州移动A 2
-      - 香港/广州移动B 2
-      - 香港/佛山移动 2
-      - 香港/安徽联通 2
-      - 香港/长沙联通 2
-      - 香港/上海移动 2
-      - 香港/上海联通 2
-      - 香港B/江门移动A 2
-      - 香港B/江门移动B 2
-      - 香港B/广州移动A 2
-      - 香港B/广州移动B 2
-      - 香港B/佛山移动 2
-      - 香港B/安徽联通 2
-      - 香港B/长沙联通 2
-      - 香港B/上海移动 2
-      - 香港B/上海联通 2
-      - 日本/江门移动A 2
-      - 日本/江门移动B 2
-      - 日本/广州移动A 2
-      - 日本/广州移动B 2
-      - 日本/佛山移动 2
-      - 日本/安徽联通 2
-      - 日本/长沙联通 2
-      - 日本/上海移动 2
-      - 日本/上海联通 2
-      - 台湾/江门移动 2
+      - TG@moneyflychat技术分享室整理07
+      - TG@moneyflychat技术分享室整理12
+      - TG@moneyflychat技术分享室整理27
+      - TG@moneyflychat技术分享室整理29
+      - TG@moneyflychat技术分享室整理07 2
+      - TG@moneyflychat技术分享室整理12 2
+      - 3.33|CN101678251921
+      - TG@moneyflychat004
+      - 2.84|V1香港B组 直连 速度随缘 1x
+      - 2.59|V1俄罗斯01 中继D 12x
       - 新加坡
       - 美国
       - 新加坣
@@ -106,8 +68,6 @@ proxy-groups:
       - 新加坢3
       - v2ray 新加坡(移动) [Netflix]
       - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
       - v2ray 日本(移动) [Netflix]
       - v2ray 新加坡(联通) [Netflix]
       - v2ray 日本(联通) [Netflix]
@@ -124,34 +84,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港/江门移动A 2
-      - 香港/江门移动B 2
-      - 香港/广州移动A 2
-      - 香港/广州移动B 2
-      - 香港/佛山移动 2
-      - 香港/安徽联通 2
-      - 香港/长沙联通 2
-      - 香港/上海移动 2
-      - 香港/上海联通 2
-      - 香港B/江门移动A 2
-      - 香港B/江门移动B 2
-      - 香港B/广州移动A 2
-      - 香港B/广州移动B 2
-      - 香港B/佛山移动 2
-      - 香港B/安徽联通 2
-      - 香港B/长沙联通 2
-      - 香港B/上海移动 2
-      - 香港B/上海联通 2
-      - 日本/江门移动A 2
-      - 日本/江门移动B 2
-      - 日本/广州移动A 2
-      - 日本/广州移动B 2
-      - 日本/佛山移动 2
-      - 日本/安徽联通 2
-      - 日本/长沙联通 2
-      - 日本/上海移动 2
-      - 日本/上海联通 2
-      - 台湾/江门移动 2
+      - TG@moneyflychat技术分享室整理07
+      - TG@moneyflychat技术分享室整理12
+      - TG@moneyflychat技术分享室整理27
+      - TG@moneyflychat技术分享室整理29
+      - TG@moneyflychat技术分享室整理07 2
+      - TG@moneyflychat技术分享室整理12 2
+      - 3.33|CN101678251921
+      - TG@moneyflychat004
+      - 2.84|V1香港B组 直连 速度随缘 1x
+      - 2.59|V1俄罗斯01 中继D 12x
       - 新加坡
       - 美国
       - 新加坣
@@ -165,8 +107,6 @@ proxy-groups:
       - 新加坢3
       - v2ray 新加坡(移动) [Netflix]
       - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
       - v2ray 日本(移动) [Netflix]
       - v2ray 新加坡(联通) [Netflix]
       - v2ray 日本(联通) [Netflix]
@@ -184,34 +124,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港/江门移动A 2
-      - 香港/江门移动B 2
-      - 香港/广州移动A 2
-      - 香港/广州移动B 2
-      - 香港/佛山移动 2
-      - 香港/安徽联通 2
-      - 香港/长沙联通 2
-      - 香港/上海移动 2
-      - 香港/上海联通 2
-      - 香港B/江门移动A 2
-      - 香港B/江门移动B 2
-      - 香港B/广州移动A 2
-      - 香港B/广州移动B 2
-      - 香港B/佛山移动 2
-      - 香港B/安徽联通 2
-      - 香港B/长沙联通 2
-      - 香港B/上海移动 2
-      - 香港B/上海联通 2
-      - 日本/江门移动A 2
-      - 日本/江门移动B 2
-      - 日本/广州移动A 2
-      - 日本/广州移动B 2
-      - 日本/佛山移动 2
-      - 日本/安徽联通 2
-      - 日本/长沙联通 2
-      - 日本/上海移动 2
-      - 日本/上海联通 2
-      - 台湾/江门移动 2
+      - TG@moneyflychat技术分享室整理07
+      - TG@moneyflychat技术分享室整理12
+      - TG@moneyflychat技术分享室整理27
+      - TG@moneyflychat技术分享室整理29
+      - TG@moneyflychat技术分享室整理07 2
+      - TG@moneyflychat技术分享室整理12 2
+      - 3.33|CN101678251921
+      - TG@moneyflychat004
+      - 2.84|V1香港B组 直连 速度随缘 1x
+      - 2.59|V1俄罗斯01 中继D 12x
       - 新加坡
       - 美国
       - 新加坣
@@ -225,8 +147,6 @@ proxy-groups:
       - 新加坢3
       - v2ray 新加坡(移动) [Netflix]
       - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
       - v2ray 日本(移动) [Netflix]
       - v2ray 新加坡(联通) [Netflix]
       - v2ray 日本(联通) [Netflix]
@@ -256,34 +176,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港/江门移动A 2
-      - 香港/江门移动B 2
-      - 香港/广州移动A 2
-      - 香港/广州移动B 2
-      - 香港/佛山移动 2
-      - 香港/安徽联通 2
-      - 香港/长沙联通 2
-      - 香港/上海移动 2
-      - 香港/上海联通 2
-      - 香港B/江门移动A 2
-      - 香港B/江门移动B 2
-      - 香港B/广州移动A 2
-      - 香港B/广州移动B 2
-      - 香港B/佛山移动 2
-      - 香港B/安徽联通 2
-      - 香港B/长沙联通 2
-      - 香港B/上海移动 2
-      - 香港B/上海联通 2
-      - 日本/江门移动A 2
-      - 日本/江门移动B 2
-      - 日本/广州移动A 2
-      - 日本/广州移动B 2
-      - 日本/佛山移动 2
-      - 日本/安徽联通 2
-      - 日本/长沙联通 2
-      - 日本/上海移动 2
-      - 日本/上海联通 2
-      - 台湾/江门移动 2
+      - TG@moneyflychat技术分享室整理07
+      - TG@moneyflychat技术分享室整理12
+      - TG@moneyflychat技术分享室整理27
+      - TG@moneyflychat技术分享室整理29
+      - TG@moneyflychat技术分享室整理07 2
+      - TG@moneyflychat技术分享室整理12 2
+      - 3.33|CN101678251921
+      - TG@moneyflychat004
+      - 2.84|V1香港B组 直连 速度随缘 1x
+      - 2.59|V1俄罗斯01 中继D 12x
       - 新加坡
       - 美国
       - 新加坣
@@ -297,8 +199,6 @@ proxy-groups:
       - 新加坢3
       - v2ray 新加坡(移动) [Netflix]
       - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
       - v2ray 日本(移动) [Netflix]
       - v2ray 新加坡(联通) [Netflix]
       - v2ray 日本(联通) [Netflix]
@@ -314,27 +214,7 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港/江门移动A 2
-      - 香港/江门移动B 2
-      - 香港/广州移动A 2
-      - 香港/广州移动B 2
-      - 香港/佛山移动 2
-      - 香港/安徽联通 2
-      - 香港/长沙联通 2
-      - 香港/上海移动 2
-      - 香港/上海联通 2
-      - 香港B/江门移动A 2
-      - 香港B/江门移动B 2
-      - 香港B/广州移动A 2
-      - 香港B/广州移动B 2
-      - 香港B/佛山移动 2
-      - 香港B/安徽联通 2
-      - 香港B/长沙联通 2
-      - 香港B/上海移动 2
-      - 香港B/上海联通 2
-      - 台湾/江门移动 2
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
+      - 2.84|V1香港B组 直连 速度随缘 1x
       - v2ray 香港HGC(联通) [Netflix]
       - v2ray 香港HKBN(联通) [Netflix]
       - 5.20| 专线香港08原生HGCBBS
@@ -346,34 +226,16 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港/江门移动A 2
-      - 香港/江门移动B 2
-      - 香港/广州移动A 2
-      - 香港/广州移动B 2
-      - 香港/佛山移动 2
-      - 香港/安徽联通 2
-      - 香港/长沙联通 2
-      - 香港/上海移动 2
-      - 香港/上海联通 2
-      - 香港B/江门移动A 2
-      - 香港B/江门移动B 2
-      - 香港B/广州移动A 2
-      - 香港B/广州移动B 2
-      - 香港B/佛山移动 2
-      - 香港B/安徽联通 2
-      - 香港B/长沙联通 2
-      - 香港B/上海移动 2
-      - 香港B/上海联通 2
-      - 日本/江门移动A 2
-      - 日本/江门移动B 2
-      - 日本/广州移动A 2
-      - 日本/广州移动B 2
-      - 日本/佛山移动 2
-      - 日本/安徽联通 2
-      - 日本/长沙联通 2
-      - 日本/上海移动 2
-      - 日本/上海联通 2
-      - 台湾/江门移动 2
+      - TG@moneyflychat技术分享室整理07
+      - TG@moneyflychat技术分享室整理12
+      - TG@moneyflychat技术分享室整理27
+      - TG@moneyflychat技术分享室整理29
+      - TG@moneyflychat技术分享室整理07 2
+      - TG@moneyflychat技术分享室整理12 2
+      - 3.33|CN101678251921
+      - TG@moneyflychat004
+      - 2.84|V1香港B组 直连 速度随缘 1x
+      - 2.59|V1俄罗斯01 中继D 12x
       - 新加坡
       - 美国
       - 新加坣
@@ -387,8 +249,6 @@ proxy-groups:
       - 新加坢3
       - v2ray 新加坡(移动) [Netflix]
       - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
       - v2ray 日本(移动) [Netflix]
       - v2ray 新加坡(联通) [Netflix]
       - v2ray 日本(联通) [Netflix]
@@ -405,34 +265,16 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港/江门移动A 2
-      - 香港/江门移动B 2
-      - 香港/广州移动A 2
-      - 香港/广州移动B 2
-      - 香港/佛山移动 2
-      - 香港/安徽联通 2
-      - 香港/长沙联通 2
-      - 香港/上海移动 2
-      - 香港/上海联通 2
-      - 香港B/江门移动A 2
-      - 香港B/江门移动B 2
-      - 香港B/广州移动A 2
-      - 香港B/广州移动B 2
-      - 香港B/佛山移动 2
-      - 香港B/安徽联通 2
-      - 香港B/长沙联通 2
-      - 香港B/上海移动 2
-      - 香港B/上海联通 2
-      - 日本/江门移动A 2
-      - 日本/江门移动B 2
-      - 日本/广州移动A 2
-      - 日本/广州移动B 2
-      - 日本/佛山移动 2
-      - 日本/安徽联通 2
-      - 日本/长沙联通 2
-      - 日本/上海移动 2
-      - 日本/上海联通 2
-      - 台湾/江门移动 2
+      - TG@moneyflychat技术分享室整理07
+      - TG@moneyflychat技术分享室整理12
+      - TG@moneyflychat技术分享室整理27
+      - TG@moneyflychat技术分享室整理29
+      - TG@moneyflychat技术分享室整理07 2
+      - TG@moneyflychat技术分享室整理12 2
+      - 3.33|CN101678251921
+      - TG@moneyflychat004
+      - 2.84|V1香港B组 直连 速度随缘 1x
+      - 2.59|V1俄罗斯01 中继D 12x
       - 新加坡
       - 美国
       - 新加坣
@@ -446,8 +288,6 @@ proxy-groups:
       - 新加坢3
       - v2ray 新加坡(移动) [Netflix]
       - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
       - v2ray 日本(移动) [Netflix]
       - v2ray 新加坡(联通) [Netflix]
       - v2ray 日本(联通) [Netflix]
@@ -465,34 +305,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港/江门移动A 2
-      - 香港/江门移动B 2
-      - 香港/广州移动A 2
-      - 香港/广州移动B 2
-      - 香港/佛山移动 2
-      - 香港/安徽联通 2
-      - 香港/长沙联通 2
-      - 香港/上海移动 2
-      - 香港/上海联通 2
-      - 香港B/江门移动A 2
-      - 香港B/江门移动B 2
-      - 香港B/广州移动A 2
-      - 香港B/广州移动B 2
-      - 香港B/佛山移动 2
-      - 香港B/安徽联通 2
-      - 香港B/长沙联通 2
-      - 香港B/上海移动 2
-      - 香港B/上海联通 2
-      - 日本/江门移动A 2
-      - 日本/江门移动B 2
-      - 日本/广州移动A 2
-      - 日本/广州移动B 2
-      - 日本/佛山移动 2
-      - 日本/安徽联通 2
-      - 日本/长沙联通 2
-      - 日本/上海移动 2
-      - 日本/上海联通 2
-      - 台湾/江门移动 2
+      - TG@moneyflychat技术分享室整理07
+      - TG@moneyflychat技术分享室整理12
+      - TG@moneyflychat技术分享室整理27
+      - TG@moneyflychat技术分享室整理29
+      - TG@moneyflychat技术分享室整理07 2
+      - TG@moneyflychat技术分享室整理12 2
+      - 3.33|CN101678251921
+      - TG@moneyflychat004
+      - 2.84|V1香港B组 直连 速度随缘 1x
+      - 2.59|V1俄罗斯01 中继D 12x
       - 新加坡
       - 美国
       - 新加坣
@@ -506,8 +328,6 @@ proxy-groups:
       - 新加坢3
       - v2ray 新加坡(移动) [Netflix]
       - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
       - v2ray 日本(移动) [Netflix]
       - v2ray 新加坡(联通) [Netflix]
       - v2ray 日本(联通) [Netflix]
@@ -534,34 +354,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港/江门移动A 2
-      - 香港/江门移动B 2
-      - 香港/广州移动A 2
-      - 香港/广州移动B 2
-      - 香港/佛山移动 2
-      - 香港/安徽联通 2
-      - 香港/长沙联通 2
-      - 香港/上海移动 2
-      - 香港/上海联通 2
-      - 香港B/江门移动A 2
-      - 香港B/江门移动B 2
-      - 香港B/广州移动A 2
-      - 香港B/广州移动B 2
-      - 香港B/佛山移动 2
-      - 香港B/安徽联通 2
-      - 香港B/长沙联通 2
-      - 香港B/上海移动 2
-      - 香港B/上海联通 2
-      - 日本/江门移动A 2
-      - 日本/江门移动B 2
-      - 日本/广州移动A 2
-      - 日本/广州移动B 2
-      - 日本/佛山移动 2
-      - 日本/安徽联通 2
-      - 日本/长沙联通 2
-      - 日本/上海移动 2
-      - 日本/上海联通 2
-      - 台湾/江门移动 2
+      - TG@moneyflychat技术分享室整理07
+      - TG@moneyflychat技术分享室整理12
+      - TG@moneyflychat技术分享室整理27
+      - TG@moneyflychat技术分享室整理29
+      - TG@moneyflychat技术分享室整理07 2
+      - TG@moneyflychat技术分享室整理12 2
+      - 3.33|CN101678251921
+      - TG@moneyflychat004
+      - 2.84|V1香港B组 直连 速度随缘 1x
+      - 2.59|V1俄罗斯01 中继D 12x
       - 新加坡
       - 美国
       - 新加坣
@@ -575,8 +377,6 @@ proxy-groups:
       - 新加坢3
       - v2ray 新加坡(移动) [Netflix]
       - v2ray 美国(移动) [Netflix]
-      - v2ray 香港HGC(移动) [Netflix]
-      - v2ray 香港HKBN(移动) [Netflix]
       - v2ray 日本(移动) [Netflix]
       - v2ray 新加坡(联通) [Netflix]
       - v2ray 日本(联通) [Netflix]
