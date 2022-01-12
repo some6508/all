@@ -5,164 +5,588 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇫🇷_FR_法国_1', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: '🇫🇷_FR_法国_2', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇫🇷_FR_法国_3', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇫🇷_FR_法国_4', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇫🇷_FR_法国_5', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇬🇧_GB_英国_6', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国->🇫🇷_FR_法国_7', server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/shuier", host: xc1.v2rie.pp.ua }}
-  - {name: '🇫🇷_FR_法国_8', server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇫🇷_FR_法国_9', server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '🇫🇷_FR_法国_10', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇬🇧_GB_英国_11', server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇫🇷_FR_法国_12', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇫🇷_FR_法国_13', server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '🇫🇷_FR_法国_14', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇬🇧_GB_英国_15', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'CYL-科技（2022.01.11）_1', server: hzlt.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/thkt" }}
+  - {name: 'CYL-科技（2022.01.11）_2', server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/thkt" }}
+  - {name: 'CYL-科技（2022.01.11）_3', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/video", host: shcn2-06b.iplc188.com }}
+  - {name: 'CYL-科技（2022.01.11）_4', server: hzlt.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tin" }}
+  - {name: 'CYL-科技（2022.01.11）_5', server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tin" }}
+  - {name: '🇭🇰HKYoutube技术分享室整理_6', server: 47.113.190.48, port: 47972, type: vmess, uuid: d1f1e8e0-bf5c-4219-8ba4-48de32c50557, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: 'CYL-科技（2022.01.11）_7', server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/thkt" }}
+  - {name: 'CYL-科技（2021.01.02）_8', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/mojing", host: shcn2-06b.iplc188.com }}
+  - {name: 'CYL-科技（2022.01.11）_9', server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tuk" }}
+  - {name: 'USYoutube技术分享室整理 26_10', server: 158.247.197.36, port: 7244, type: vmess, uuid: f2ec65ae-733c-11ec-a0b8-560003ca3919, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/b7GIli9S/", host: 158.247.197.36 }}
+  - {name: 'CYL-科技（2022.01.11）_11', server: global-transit-hk-v2.pucdn.me, port: 40006, type: vmess, uuid: 5f495bcf-148f-3949-a083-199bc89ef937, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/vvv", host: l1-aws-jp-08.pucdn.me }}
+  - {name: 'CYL-科技（2022.01.09）_12', server: 142.4.105.253, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: 142.4.105.253 }}
+  - {name: 'CYL-科技（2022.01.11）_13', server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tde" }}
+  - {name: 'CYL-科技（2022.01.11）_14', server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tin" }}
+  - {name: 'CYL-科技（2022.01.11）_15', server: hzlt.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tuk" }}
+  - {name: 'CYL-科技（2022.01.11）_16', server: hzlt.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tde" }}
+  - {name: 'CYL-科技（2022.01.11）_17', server: guangzou-yd-jy-03.pucdn.me, port: 40003, type: vmess, uuid: 5f495bcf-148f-3949-a083-199bc89ef937, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/vvv", host: l1-aws-jp-01.pucdn.me }}
+  - {name: 'CYL-科技（2022.01.11）_18', server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tuk" }}
+  - {name: 'CYL-科技（2022.01.11）_19', server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tde" }}
+  - {name: 'CYL-科技（2022.01.06）_20', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/videos", host: shcn2-06b.iplc188.com }}
+  - {name: 'CYL-科技（2022.01.06）_21', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/zh-cn/news", host: www.msn.cn }}
+  - {name: 'CYL-科技（2022.01.11）_22', server: global-transit-hk-v2.pucdn.me, port: 40008, type: vmess, uuid: 5f495bcf-148f-3949-a083-199bc89ef937, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/vvv", host: l1-aws-jp-08.pucdn.me }}
+  - {name: 'CYL-科技（2022.01.11）_23', server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: 5f495bcf-148f-3949-a083-199bc89ef937, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/vvv", host: l1-aws-jp-08.pucdn.me }}
+  - {name: 'CYL-科技（2022.01.11）_24', server: cslt.sf66.cf, port: 34716, type: vmess, uuid: 27aba096-4d20-49d3-9ee8-ae29aaa24b7b, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: 'CYL-科技（2022.01.11）_25', server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tau" }}
+  - {name: 'CYL-科技（2022.01.06）_26', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/" }}
+  - {name: '美国_27', server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/" }}
+  - {name: 'CYL-科技（2022.01.11）_28', server: global-transit-hk-v2.pucdn.me, port: 40009, type: vmess, uuid: 5f495bcf-148f-3949-a083-199bc89ef937, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/vvv", host: l1-aws-jp-08.pucdn.me }}
+  - {name: 'CYL-科技（2022.01.11）_29', server: hzlt.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tau" }}
+  - {name: 'CYL-科技（2022.01.11）_30', server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tde" }}
+  - {name: 'CYL-科技（2022.01.11）_31', server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tau" }}
+  - {name: 'CYL-科技（2022.01.09）_32', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: s3.upyun.online }}
+  - {name: 'CYL-科技（2022.01.11）_33', server: global-transit-hk-v2.pucdn.me, port: 40007, type: vmess, uuid: 5f495bcf-148f-3949-a083-199bc89ef937, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/vvv", host: l1-aws-jp-08.pucdn.me }}
+  - {name: '🇭🇰HKYoutube技术分享室整理_34', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
+  - {name: 'CYL-科技（2021.01.02）_35', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
+  - {name: 'CYL-科技（2022.01.11）_36', server: global-transit-hk-v2.pucdn.me, port: 40012, type: vmess, uuid: 5f495bcf-148f-3949-a083-199bc89ef937, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/vvv", host: l1-aws-jp-08.pucdn.me }}
+  - {name: 'CYL-科技（2022.01.11）_37', server: guangzou-yd-jy-03.pucdn.me, port: 40004, type: vmess, uuid: 5f495bcf-148f-3949-a083-199bc89ef937, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/vvv", host: l1-aws-jp-01.pucdn.me }}
+  - {name: 'CYL-科技（2022.01.11）_38', server: global-transit-hk-v2.pucdn.me, port: 40010, type: vmess, uuid: 5f495bcf-148f-3949-a083-199bc89ef937, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/vvv", host: l1-aws-jp-08.pucdn.me }}
+  - {name: 'CYL-科技（2022.01.06）_39', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: shcn2-06b.iplc188.com }}
+  - {name: 'CYL-科技（2021.01.02）_40', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/ws", host: shcn2-06b.iplc188.com }}
+  - {name: 'CYL-科技（2021.01.02）_41', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
+  - {name: 'CYL-科技（2022.01.06）_42', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/ws", host: usa-buffalo.lvuft.com }}
+  - {name: 'CYL-科技（2022.01.06）_43', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: t7.ssrsub.com }}
+  - {name: '🇺🇸USYoutube技术分享室整理_44', server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
+  - {name: 'CYL-科技（2022.01.11）_45', server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tuk" }}
+  - {name: 'CYL-科技（2022.01.06）_46', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: shcn2-06b.iplc188.com }}
+  - {name: 'CYL-科技（2022.01.11）_47', server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tin" }}
+  - {name: '香港_48', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: shcn2-06b.iplc188.com }}
+  - {name: 'CYL-科技（2022.01.11）_49', server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/tau" }}
+  - {name: 'CYL-科技（2022.01.06）_50', server: 138.3.210.217, port: 60935, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
+  - {name: 'CYL-科技（2022.01.11）_51', server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: c2b44f18-761d-343c-a9ea-ddffd64a4248, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/thkt" }}
+  - {name: '俄罗斯阿伟科技-油管_52', server: ruwx.jjyun.biz, port: 8880, type: vmess, uuid: 7224175a-5f3e-4f29-aff8-d185363e5853, alterId: 10, cipher: auto, tls: false, network: ws, ws-opts: { path: "/jjyun", host: ruwx.jjyun.biz }}
+  - {name: '🇺🇸USYoutube技术分享室整理_53', server: 104.16.181.103, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws/?ed=2048", host: download.china666.ml }}
+  - {name: 'CYL-科技（2021.01.02）_54', server: 198.41.212.234, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: 2022-world-1.a-yu.xyz }}
+  - {name: 'CYL-科技（2021.01.02）_55', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: t1.ssrsub.com }}
+  - {name: 'CYL-科技（2021.01.02）_56', server: 138.3.210.217, port: 60935, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray", host: microsoft.com }}
+  - {name: 'CYL-科技（2022.01.06）_57', server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/The-Great-Awakening_vws", host: vincent-jackson2021.ga }}
+  - {name: '🇭🇰HKYoutube技术分享室整理_58', server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online}
+  - {name: 'CYL-科技（2022.01.11）_59', server: 45.66.134.219, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb}
+  - {name: '🇺🇸USYoutube技术分享室整理_60', server: 104.16.181.150, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws/?ed=2048", host: download.china666.ml }}
+  - {name: '🇺🇸USYoutube技术分享室整理_61', server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/The-Great-Awakening_vws", host: vincent-jackson2021.ga }}
+  - {name: 'CYL-科技（2021.01.02）_62', server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/bb2b34a1", host: www.ltzs.buzz }}
+  - {name: 'CYL-科技（2022.01.09）_63', server: 198.41.212.154, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws/?ed=2048", host: download.china666.ml }}
+  - {name: 'CYL-科技（2021.01.02）_64', server: 104.16.181.197, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws/?ed=2048", host: download.china666.ml }}
+  - {name: '🇺🇸USYoutube技术分享室整理_65', server: 104.23.119.57, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws/?ed=2048", host: download.china666.ml }}
+  - {name: '🇭🇰 HKYoutube技术分享室整理_66', server: www.digitalocean.com, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws/?ed=2048", host: download.china666.ml }}
+  - {name: 'CYL-科技（202201.04）_67', server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/bb2b34a1", host: www.ltzs.buzz }}
+  - {name: 'HKYoutube技术分享室整理 11_68', server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国_1
-      - 🇫🇷_FR_法国_2
-      - 🇫🇷_FR_法国_3
-      - 🇫🇷_FR_法国_4
-      - 🇫🇷_FR_法国_5
-      - 🇬🇧_GB_英国_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇫🇷_FR_法国_8
-      - 🇫🇷_FR_法国_9
-      - 🇫🇷_FR_法国_10
-      - 🇬🇧_GB_英国_11
-      - 🇫🇷_FR_法国_12
-      - 🇫🇷_FR_法国_13
-      - 🇫🇷_FR_法国_14
-      - 🇬🇧_GB_英国_15
+      - CYL-科技（2022.01.11）_1
+      - CYL-科技（2022.01.11）_2
+      - CYL-科技（2022.01.11）_3
+      - CYL-科技（2022.01.11）_4
+      - CYL-科技（2022.01.11）_5
+      - 🇭🇰HKYoutube技术分享室整理_6
+      - CYL-科技（2022.01.11）_7
+      - CYL-科技（2021.01.02）_8
+      - CYL-科技（2022.01.11）_9
+      - USYoutube技术分享室整理 26_10
+      - CYL-科技（2022.01.11）_11
+      - CYL-科技（2022.01.09）_12
+      - CYL-科技（2022.01.11）_13
+      - CYL-科技（2022.01.11）_14
+      - CYL-科技（2022.01.11）_15
+      - CYL-科技（2022.01.11）_16
+      - CYL-科技（2022.01.11）_17
+      - CYL-科技（2022.01.11）_18
+      - CYL-科技（2022.01.11）_19
+      - CYL-科技（2022.01.06）_20
+      - CYL-科技（2022.01.06）_21
+      - CYL-科技（2022.01.11）_22
+      - CYL-科技（2022.01.11）_23
+      - CYL-科技（2022.01.11）_24
+      - CYL-科技（2022.01.11）_25
+      - CYL-科技（2022.01.06）_26
+      - 美国_27
+      - CYL-科技（2022.01.11）_28
+      - CYL-科技（2022.01.11）_29
+      - CYL-科技（2022.01.11）_30
+      - CYL-科技（2022.01.11）_31
+      - CYL-科技（2022.01.09）_32
+      - CYL-科技（2022.01.11）_33
+      - 🇭🇰HKYoutube技术分享室整理_34
+      - CYL-科技（2021.01.02）_35
+      - CYL-科技（2022.01.11）_36
+      - CYL-科技（2022.01.11）_37
+      - CYL-科技（2022.01.11）_38
+      - CYL-科技（2022.01.06）_39
+      - CYL-科技（2021.01.02）_40
+      - CYL-科技（2021.01.02）_41
+      - CYL-科技（2022.01.06）_42
+      - CYL-科技（2022.01.06）_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - CYL-科技（2022.01.11）_45
+      - CYL-科技（2022.01.06）_46
+      - CYL-科技（2022.01.11）_47
+      - 香港_48
+      - CYL-科技（2022.01.11）_49
+      - CYL-科技（2022.01.06）_50
+      - CYL-科技（2022.01.11）_51
+      - 俄罗斯阿伟科技-油管_52
+      - 🇺🇸USYoutube技术分享室整理_53
+      - CYL-科技（2021.01.02）_54
+      - CYL-科技（2021.01.02）_55
+      - CYL-科技（2021.01.02）_56
+      - CYL-科技（2022.01.06）_57
+      - 🇭🇰HKYoutube技术分享室整理_58
+      - CYL-科技（2022.01.11）_59
+      - 🇺🇸USYoutube技术分享室整理_60
+      - 🇺🇸USYoutube技术分享室整理_61
+      - CYL-科技（2021.01.02）_62
+      - CYL-科技（2022.01.09）_63
+      - CYL-科技（2021.01.02）_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 🇭🇰 HKYoutube技术分享室整理_66
+      - CYL-科技（202201.04）_67
+      - HKYoutube技术分享室整理 11_68
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇫🇷_FR_法国_1
-      - 🇫🇷_FR_法国_2
-      - 🇫🇷_FR_法国_3
-      - 🇫🇷_FR_法国_4
-      - 🇫🇷_FR_法国_5
-      - 🇬🇧_GB_英国_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇫🇷_FR_法国_8
-      - 🇫🇷_FR_法国_9
-      - 🇫🇷_FR_法国_10
-      - 🇬🇧_GB_英国_11
-      - 🇫🇷_FR_法国_12
-      - 🇫🇷_FR_法国_13
-      - 🇫🇷_FR_法国_14
-      - 🇬🇧_GB_英国_15
+      - CYL-科技（2022.01.11）_1
+      - CYL-科技（2022.01.11）_2
+      - CYL-科技（2022.01.11）_3
+      - CYL-科技（2022.01.11）_4
+      - CYL-科技（2022.01.11）_5
+      - 🇭🇰HKYoutube技术分享室整理_6
+      - CYL-科技（2022.01.11）_7
+      - CYL-科技（2021.01.02）_8
+      - CYL-科技（2022.01.11）_9
+      - USYoutube技术分享室整理 26_10
+      - CYL-科技（2022.01.11）_11
+      - CYL-科技（2022.01.09）_12
+      - CYL-科技（2022.01.11）_13
+      - CYL-科技（2022.01.11）_14
+      - CYL-科技（2022.01.11）_15
+      - CYL-科技（2022.01.11）_16
+      - CYL-科技（2022.01.11）_17
+      - CYL-科技（2022.01.11）_18
+      - CYL-科技（2022.01.11）_19
+      - CYL-科技（2022.01.06）_20
+      - CYL-科技（2022.01.06）_21
+      - CYL-科技（2022.01.11）_22
+      - CYL-科技（2022.01.11）_23
+      - CYL-科技（2022.01.11）_24
+      - CYL-科技（2022.01.11）_25
+      - CYL-科技（2022.01.06）_26
+      - 美国_27
+      - CYL-科技（2022.01.11）_28
+      - CYL-科技（2022.01.11）_29
+      - CYL-科技（2022.01.11）_30
+      - CYL-科技（2022.01.11）_31
+      - CYL-科技（2022.01.09）_32
+      - CYL-科技（2022.01.11）_33
+      - 🇭🇰HKYoutube技术分享室整理_34
+      - CYL-科技（2021.01.02）_35
+      - CYL-科技（2022.01.11）_36
+      - CYL-科技（2022.01.11）_37
+      - CYL-科技（2022.01.11）_38
+      - CYL-科技（2022.01.06）_39
+      - CYL-科技（2021.01.02）_40
+      - CYL-科技（2021.01.02）_41
+      - CYL-科技（2022.01.06）_42
+      - CYL-科技（2022.01.06）_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - CYL-科技（2022.01.11）_45
+      - CYL-科技（2022.01.06）_46
+      - CYL-科技（2022.01.11）_47
+      - 香港_48
+      - CYL-科技（2022.01.11）_49
+      - CYL-科技（2022.01.06）_50
+      - CYL-科技（2022.01.11）_51
+      - 俄罗斯阿伟科技-油管_52
+      - 🇺🇸USYoutube技术分享室整理_53
+      - CYL-科技（2021.01.02）_54
+      - CYL-科技（2021.01.02）_55
+      - CYL-科技（2021.01.02）_56
+      - CYL-科技（2022.01.06）_57
+      - 🇭🇰HKYoutube技术分享室整理_58
+      - CYL-科技（2022.01.11）_59
+      - 🇺🇸USYoutube技术分享室整理_60
+      - 🇺🇸USYoutube技术分享室整理_61
+      - CYL-科技（2021.01.02）_62
+      - CYL-科技（2022.01.09）_63
+      - CYL-科技（2021.01.02）_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 🇭🇰 HKYoutube技术分享室整理_66
+      - CYL-科技（202201.04）_67
+      - HKYoutube技术分享室整理 11_68
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国_1
-      - 🇫🇷_FR_法国_2
-      - 🇫🇷_FR_法国_3
-      - 🇫🇷_FR_法国_4
-      - 🇫🇷_FR_法国_5
-      - 🇬🇧_GB_英国_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇫🇷_FR_法国_8
-      - 🇫🇷_FR_法国_9
-      - 🇫🇷_FR_法国_10
-      - 🇬🇧_GB_英国_11
-      - 🇫🇷_FR_法国_12
-      - 🇫🇷_FR_法国_13
-      - 🇫🇷_FR_法国_14
-      - 🇬🇧_GB_英国_15
+      - CYL-科技（2022.01.11）_1
+      - CYL-科技（2022.01.11）_2
+      - CYL-科技（2022.01.11）_3
+      - CYL-科技（2022.01.11）_4
+      - CYL-科技（2022.01.11）_5
+      - 🇭🇰HKYoutube技术分享室整理_6
+      - CYL-科技（2022.01.11）_7
+      - CYL-科技（2021.01.02）_8
+      - CYL-科技（2022.01.11）_9
+      - USYoutube技术分享室整理 26_10
+      - CYL-科技（2022.01.11）_11
+      - CYL-科技（2022.01.09）_12
+      - CYL-科技（2022.01.11）_13
+      - CYL-科技（2022.01.11）_14
+      - CYL-科技（2022.01.11）_15
+      - CYL-科技（2022.01.11）_16
+      - CYL-科技（2022.01.11）_17
+      - CYL-科技（2022.01.11）_18
+      - CYL-科技（2022.01.11）_19
+      - CYL-科技（2022.01.06）_20
+      - CYL-科技（2022.01.06）_21
+      - CYL-科技（2022.01.11）_22
+      - CYL-科技（2022.01.11）_23
+      - CYL-科技（2022.01.11）_24
+      - CYL-科技（2022.01.11）_25
+      - CYL-科技（2022.01.06）_26
+      - 美国_27
+      - CYL-科技（2022.01.11）_28
+      - CYL-科技（2022.01.11）_29
+      - CYL-科技（2022.01.11）_30
+      - CYL-科技（2022.01.11）_31
+      - CYL-科技（2022.01.09）_32
+      - CYL-科技（2022.01.11）_33
+      - 🇭🇰HKYoutube技术分享室整理_34
+      - CYL-科技（2021.01.02）_35
+      - CYL-科技（2022.01.11）_36
+      - CYL-科技（2022.01.11）_37
+      - CYL-科技（2022.01.11）_38
+      - CYL-科技（2022.01.06）_39
+      - CYL-科技（2021.01.02）_40
+      - CYL-科技（2021.01.02）_41
+      - CYL-科技（2022.01.06）_42
+      - CYL-科技（2022.01.06）_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - CYL-科技（2022.01.11）_45
+      - CYL-科技（2022.01.06）_46
+      - CYL-科技（2022.01.11）_47
+      - 香港_48
+      - CYL-科技（2022.01.11）_49
+      - CYL-科技（2022.01.06）_50
+      - CYL-科技（2022.01.11）_51
+      - 俄罗斯阿伟科技-油管_52
+      - 🇺🇸USYoutube技术分享室整理_53
+      - CYL-科技（2021.01.02）_54
+      - CYL-科技（2021.01.02）_55
+      - CYL-科技（2021.01.02）_56
+      - CYL-科技（2022.01.06）_57
+      - 🇭🇰HKYoutube技术分享室整理_58
+      - CYL-科技（2022.01.11）_59
+      - 🇺🇸USYoutube技术分享室整理_60
+      - 🇺🇸USYoutube技术分享室整理_61
+      - CYL-科技（2021.01.02）_62
+      - CYL-科技（2022.01.09）_63
+      - CYL-科技（2021.01.02）_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 🇭🇰 HKYoutube技术分享室整理_66
+      - CYL-科技（202201.04）_67
+      - HKYoutube技术分享室整理 11_68
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇫🇷_FR_法国_1
-      - 🇫🇷_FR_法国_2
-      - 🇫🇷_FR_法国_3
-      - 🇫🇷_FR_法国_4
-      - 🇫🇷_FR_法国_5
-      - 🇬🇧_GB_英国_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇫🇷_FR_法国_8
-      - 🇫🇷_FR_法国_9
-      - 🇫🇷_FR_法国_10
-      - 🇬🇧_GB_英国_11
-      - 🇫🇷_FR_法国_12
-      - 🇫🇷_FR_法国_13
-      - 🇫🇷_FR_法国_14
-      - 🇬🇧_GB_英国_15
+      - CYL-科技（2022.01.11）_1
+      - CYL-科技（2022.01.11）_2
+      - CYL-科技（2022.01.11）_3
+      - CYL-科技（2022.01.11）_4
+      - CYL-科技（2022.01.11）_5
+      - 🇭🇰HKYoutube技术分享室整理_6
+      - CYL-科技（2022.01.11）_7
+      - CYL-科技（2021.01.02）_8
+      - CYL-科技（2022.01.11）_9
+      - USYoutube技术分享室整理 26_10
+      - CYL-科技（2022.01.11）_11
+      - CYL-科技（2022.01.09）_12
+      - CYL-科技（2022.01.11）_13
+      - CYL-科技（2022.01.11）_14
+      - CYL-科技（2022.01.11）_15
+      - CYL-科技（2022.01.11）_16
+      - CYL-科技（2022.01.11）_17
+      - CYL-科技（2022.01.11）_18
+      - CYL-科技（2022.01.11）_19
+      - CYL-科技（2022.01.06）_20
+      - CYL-科技（2022.01.06）_21
+      - CYL-科技（2022.01.11）_22
+      - CYL-科技（2022.01.11）_23
+      - CYL-科技（2022.01.11）_24
+      - CYL-科技（2022.01.11）_25
+      - CYL-科技（2022.01.06）_26
+      - 美国_27
+      - CYL-科技（2022.01.11）_28
+      - CYL-科技（2022.01.11）_29
+      - CYL-科技（2022.01.11）_30
+      - CYL-科技（2022.01.11）_31
+      - CYL-科技（2022.01.09）_32
+      - CYL-科技（2022.01.11）_33
+      - 🇭🇰HKYoutube技术分享室整理_34
+      - CYL-科技（2021.01.02）_35
+      - CYL-科技（2022.01.11）_36
+      - CYL-科技（2022.01.11）_37
+      - CYL-科技（2022.01.11）_38
+      - CYL-科技（2022.01.06）_39
+      - CYL-科技（2021.01.02）_40
+      - CYL-科技（2021.01.02）_41
+      - CYL-科技（2022.01.06）_42
+      - CYL-科技（2022.01.06）_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - CYL-科技（2022.01.11）_45
+      - CYL-科技（2022.01.06）_46
+      - CYL-科技（2022.01.11）_47
+      - 香港_48
+      - CYL-科技（2022.01.11）_49
+      - CYL-科技（2022.01.06）_50
+      - CYL-科技（2022.01.11）_51
+      - 俄罗斯阿伟科技-油管_52
+      - 🇺🇸USYoutube技术分享室整理_53
+      - CYL-科技（2021.01.02）_54
+      - CYL-科技（2021.01.02）_55
+      - CYL-科技（2021.01.02）_56
+      - CYL-科技（2022.01.06）_57
+      - 🇭🇰HKYoutube技术分享室整理_58
+      - CYL-科技（2022.01.11）_59
+      - 🇺🇸USYoutube技术分享室整理_60
+      - 🇺🇸USYoutube技术分享室整理_61
+      - CYL-科技（2021.01.02）_62
+      - CYL-科技（2022.01.09）_63
+      - CYL-科技（2021.01.02）_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 🇭🇰 HKYoutube技术分享室整理_66
+      - CYL-科技（202201.04）_67
+      - HKYoutube技术分享室整理 11_68
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇫🇷_FR_法国_1
-      - 🇫🇷_FR_法国_2
-      - 🇫🇷_FR_法国_3
-      - 🇫🇷_FR_法国_4
-      - 🇫🇷_FR_法国_5
-      - 🇬🇧_GB_英国_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇫🇷_FR_法国_8
-      - 🇫🇷_FR_法国_9
-      - 🇫🇷_FR_法国_10
-      - 🇬🇧_GB_英国_11
-      - 🇫🇷_FR_法国_12
-      - 🇫🇷_FR_法国_13
-      - 🇫🇷_FR_法国_14
-      - 🇬🇧_GB_英国_15
+      - CYL-科技（2022.01.11）_1
+      - CYL-科技（2022.01.11）_2
+      - CYL-科技（2022.01.11）_3
+      - CYL-科技（2022.01.11）_4
+      - CYL-科技（2022.01.11）_5
+      - 🇭🇰HKYoutube技术分享室整理_6
+      - CYL-科技（2022.01.11）_7
+      - CYL-科技（2021.01.02）_8
+      - CYL-科技（2022.01.11）_9
+      - USYoutube技术分享室整理 26_10
+      - CYL-科技（2022.01.11）_11
+      - CYL-科技（2022.01.09）_12
+      - CYL-科技（2022.01.11）_13
+      - CYL-科技（2022.01.11）_14
+      - CYL-科技（2022.01.11）_15
+      - CYL-科技（2022.01.11）_16
+      - CYL-科技（2022.01.11）_17
+      - CYL-科技（2022.01.11）_18
+      - CYL-科技（2022.01.11）_19
+      - CYL-科技（2022.01.06）_20
+      - CYL-科技（2022.01.06）_21
+      - CYL-科技（2022.01.11）_22
+      - CYL-科技（2022.01.11）_23
+      - CYL-科技（2022.01.11）_24
+      - CYL-科技（2022.01.11）_25
+      - CYL-科技（2022.01.06）_26
+      - 美国_27
+      - CYL-科技（2022.01.11）_28
+      - CYL-科技（2022.01.11）_29
+      - CYL-科技（2022.01.11）_30
+      - CYL-科技（2022.01.11）_31
+      - CYL-科技（2022.01.09）_32
+      - CYL-科技（2022.01.11）_33
+      - 🇭🇰HKYoutube技术分享室整理_34
+      - CYL-科技（2021.01.02）_35
+      - CYL-科技（2022.01.11）_36
+      - CYL-科技（2022.01.11）_37
+      - CYL-科技（2022.01.11）_38
+      - CYL-科技（2022.01.06）_39
+      - CYL-科技（2021.01.02）_40
+      - CYL-科技（2021.01.02）_41
+      - CYL-科技（2022.01.06）_42
+      - CYL-科技（2022.01.06）_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - CYL-科技（2022.01.11）_45
+      - CYL-科技（2022.01.06）_46
+      - CYL-科技（2022.01.11）_47
+      - 香港_48
+      - CYL-科技（2022.01.11）_49
+      - CYL-科技（2022.01.06）_50
+      - CYL-科技（2022.01.11）_51
+      - 俄罗斯阿伟科技-油管_52
+      - 🇺🇸USYoutube技术分享室整理_53
+      - CYL-科技（2021.01.02）_54
+      - CYL-科技（2021.01.02）_55
+      - CYL-科技（2021.01.02）_56
+      - CYL-科技（2022.01.06）_57
+      - 🇭🇰HKYoutube技术分享室整理_58
+      - CYL-科技（2022.01.11）_59
+      - 🇺🇸USYoutube技术分享室整理_60
+      - 🇺🇸USYoutube技术分享室整理_61
+      - CYL-科技（2021.01.02）_62
+      - CYL-科技（2022.01.09）_63
+      - CYL-科技（2021.01.02）_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 🇭🇰 HKYoutube技术分享室整理_66
+      - CYL-科技（202201.04）_67
+      - HKYoutube技术分享室整理 11_68
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国_1
-      - 🇫🇷_FR_法国_2
-      - 🇫🇷_FR_法国_3
-      - 🇫🇷_FR_法国_4
-      - 🇫🇷_FR_法国_5
-      - 🇬🇧_GB_英国_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇫🇷_FR_法国_8
-      - 🇫🇷_FR_法国_9
-      - 🇫🇷_FR_法国_10
-      - 🇬🇧_GB_英国_11
-      - 🇫🇷_FR_法国_12
-      - 🇫🇷_FR_法国_13
-      - 🇫🇷_FR_法国_14
-      - 🇬🇧_GB_英国_15
+      - CYL-科技（2022.01.11）_1
+      - CYL-科技（2022.01.11）_2
+      - CYL-科技（2022.01.11）_3
+      - CYL-科技（2022.01.11）_4
+      - CYL-科技（2022.01.11）_5
+      - 🇭🇰HKYoutube技术分享室整理_6
+      - CYL-科技（2022.01.11）_7
+      - CYL-科技（2021.01.02）_8
+      - CYL-科技（2022.01.11）_9
+      - USYoutube技术分享室整理 26_10
+      - CYL-科技（2022.01.11）_11
+      - CYL-科技（2022.01.09）_12
+      - CYL-科技（2022.01.11）_13
+      - CYL-科技（2022.01.11）_14
+      - CYL-科技（2022.01.11）_15
+      - CYL-科技（2022.01.11）_16
+      - CYL-科技（2022.01.11）_17
+      - CYL-科技（2022.01.11）_18
+      - CYL-科技（2022.01.11）_19
+      - CYL-科技（2022.01.06）_20
+      - CYL-科技（2022.01.06）_21
+      - CYL-科技（2022.01.11）_22
+      - CYL-科技（2022.01.11）_23
+      - CYL-科技（2022.01.11）_24
+      - CYL-科技（2022.01.11）_25
+      - CYL-科技（2022.01.06）_26
+      - 美国_27
+      - CYL-科技（2022.01.11）_28
+      - CYL-科技（2022.01.11）_29
+      - CYL-科技（2022.01.11）_30
+      - CYL-科技（2022.01.11）_31
+      - CYL-科技（2022.01.09）_32
+      - CYL-科技（2022.01.11）_33
+      - 🇭🇰HKYoutube技术分享室整理_34
+      - CYL-科技（2021.01.02）_35
+      - CYL-科技（2022.01.11）_36
+      - CYL-科技（2022.01.11）_37
+      - CYL-科技（2022.01.11）_38
+      - CYL-科技（2022.01.06）_39
+      - CYL-科技（2021.01.02）_40
+      - CYL-科技（2021.01.02）_41
+      - CYL-科技（2022.01.06）_42
+      - CYL-科技（2022.01.06）_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - CYL-科技（2022.01.11）_45
+      - CYL-科技（2022.01.06）_46
+      - CYL-科技（2022.01.11）_47
+      - 香港_48
+      - CYL-科技（2022.01.11）_49
+      - CYL-科技（2022.01.06）_50
+      - CYL-科技（2022.01.11）_51
+      - 俄罗斯阿伟科技-油管_52
+      - 🇺🇸USYoutube技术分享室整理_53
+      - CYL-科技（2021.01.02）_54
+      - CYL-科技（2021.01.02）_55
+      - CYL-科技（2021.01.02）_56
+      - CYL-科技（2022.01.06）_57
+      - 🇭🇰HKYoutube技术分享室整理_58
+      - CYL-科技（2022.01.11）_59
+      - 🇺🇸USYoutube技术分享室整理_60
+      - 🇺🇸USYoutube技术分享室整理_61
+      - CYL-科技（2021.01.02）_62
+      - CYL-科技（2022.01.09）_63
+      - CYL-科技（2021.01.02）_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 🇭🇰 HKYoutube技术分享室整理_66
+      - CYL-科技（202201.04）_67
+      - HKYoutube技术分享室整理 11_68
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷_FR_法国_1
-      - 🇫🇷_FR_法国_2
-      - 🇫🇷_FR_法国_3
-      - 🇫🇷_FR_法国_4
-      - 🇫🇷_FR_法国_5
-      - 🇬🇧_GB_英国_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇫🇷_FR_法国_8
-      - 🇫🇷_FR_法国_9
-      - 🇫🇷_FR_法国_10
-      - 🇬🇧_GB_英国_11
-      - 🇫🇷_FR_法国_12
-      - 🇫🇷_FR_法国_13
-      - 🇫🇷_FR_法国_14
-      - 🇬🇧_GB_英国_15
+      - CYL-科技（2022.01.11）_1
+      - CYL-科技（2022.01.11）_2
+      - CYL-科技（2022.01.11）_3
+      - CYL-科技（2022.01.11）_4
+      - CYL-科技（2022.01.11）_5
+      - 🇭🇰HKYoutube技术分享室整理_6
+      - CYL-科技（2022.01.11）_7
+      - CYL-科技（2021.01.02）_8
+      - CYL-科技（2022.01.11）_9
+      - USYoutube技术分享室整理 26_10
+      - CYL-科技（2022.01.11）_11
+      - CYL-科技（2022.01.09）_12
+      - CYL-科技（2022.01.11）_13
+      - CYL-科技（2022.01.11）_14
+      - CYL-科技（2022.01.11）_15
+      - CYL-科技（2022.01.11）_16
+      - CYL-科技（2022.01.11）_17
+      - CYL-科技（2022.01.11）_18
+      - CYL-科技（2022.01.11）_19
+      - CYL-科技（2022.01.06）_20
+      - CYL-科技（2022.01.06）_21
+      - CYL-科技（2022.01.11）_22
+      - CYL-科技（2022.01.11）_23
+      - CYL-科技（2022.01.11）_24
+      - CYL-科技（2022.01.11）_25
+      - CYL-科技（2022.01.06）_26
+      - 美国_27
+      - CYL-科技（2022.01.11）_28
+      - CYL-科技（2022.01.11）_29
+      - CYL-科技（2022.01.11）_30
+      - CYL-科技（2022.01.11）_31
+      - CYL-科技（2022.01.09）_32
+      - CYL-科技（2022.01.11）_33
+      - 🇭🇰HKYoutube技术分享室整理_34
+      - CYL-科技（2021.01.02）_35
+      - CYL-科技（2022.01.11）_36
+      - CYL-科技（2022.01.11）_37
+      - CYL-科技（2022.01.11）_38
+      - CYL-科技（2022.01.06）_39
+      - CYL-科技（2021.01.02）_40
+      - CYL-科技（2021.01.02）_41
+      - CYL-科技（2022.01.06）_42
+      - CYL-科技（2022.01.06）_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - CYL-科技（2022.01.11）_45
+      - CYL-科技（2022.01.06）_46
+      - CYL-科技（2022.01.11）_47
+      - 香港_48
+      - CYL-科技（2022.01.11）_49
+      - CYL-科技（2022.01.06）_50
+      - CYL-科技（2022.01.11）_51
+      - 俄罗斯阿伟科技-油管_52
+      - 🇺🇸USYoutube技术分享室整理_53
+      - CYL-科技（2021.01.02）_54
+      - CYL-科技（2021.01.02）_55
+      - CYL-科技（2021.01.02）_56
+      - CYL-科技（2022.01.06）_57
+      - 🇭🇰HKYoutube技术分享室整理_58
+      - CYL-科技（2022.01.11）_59
+      - 🇺🇸USYoutube技术分享室整理_60
+      - 🇺🇸USYoutube技术分享室整理_61
+      - CYL-科技（2021.01.02）_62
+      - CYL-科技（2022.01.09）_63
+      - CYL-科技（2021.01.02）_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 🇭🇰 HKYoutube技术分享室整理_66
+      - CYL-科技（202201.04）_67
+      - HKYoutube技术分享室整理 11_68
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -178,21 +602,74 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷_FR_法国_1
-      - 🇫🇷_FR_法国_2
-      - 🇫🇷_FR_法国_3
-      - 🇫🇷_FR_法国_4
-      - 🇫🇷_FR_法国_5
-      - 🇬🇧_GB_英国_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇫🇷_FR_法国_8
-      - 🇫🇷_FR_法国_9
-      - 🇫🇷_FR_法国_10
-      - 🇬🇧_GB_英国_11
-      - 🇫🇷_FR_法国_12
-      - 🇫🇷_FR_法国_13
-      - 🇫🇷_FR_法国_14
-      - 🇬🇧_GB_英国_15
+      - CYL-科技（2022.01.11）_1
+      - CYL-科技（2022.01.11）_2
+      - CYL-科技（2022.01.11）_3
+      - CYL-科技（2022.01.11）_4
+      - CYL-科技（2022.01.11）_5
+      - 🇭🇰HKYoutube技术分享室整理_6
+      - CYL-科技（2022.01.11）_7
+      - CYL-科技（2021.01.02）_8
+      - CYL-科技（2022.01.11）_9
+      - USYoutube技术分享室整理 26_10
+      - CYL-科技（2022.01.11）_11
+      - CYL-科技（2022.01.09）_12
+      - CYL-科技（2022.01.11）_13
+      - CYL-科技（2022.01.11）_14
+      - CYL-科技（2022.01.11）_15
+      - CYL-科技（2022.01.11）_16
+      - CYL-科技（2022.01.11）_17
+      - CYL-科技（2022.01.11）_18
+      - CYL-科技（2022.01.11）_19
+      - CYL-科技（2022.01.06）_20
+      - CYL-科技（2022.01.06）_21
+      - CYL-科技（2022.01.11）_22
+      - CYL-科技（2022.01.11）_23
+      - CYL-科技（2022.01.11）_24
+      - CYL-科技（2022.01.11）_25
+      - CYL-科技（2022.01.06）_26
+      - 美国_27
+      - CYL-科技（2022.01.11）_28
+      - CYL-科技（2022.01.11）_29
+      - CYL-科技（2022.01.11）_30
+      - CYL-科技（2022.01.11）_31
+      - CYL-科技（2022.01.09）_32
+      - CYL-科技（2022.01.11）_33
+      - 🇭🇰HKYoutube技术分享室整理_34
+      - CYL-科技（2021.01.02）_35
+      - CYL-科技（2022.01.11）_36
+      - CYL-科技（2022.01.11）_37
+      - CYL-科技（2022.01.11）_38
+      - CYL-科技（2022.01.06）_39
+      - CYL-科技（2021.01.02）_40
+      - CYL-科技（2021.01.02）_41
+      - CYL-科技（2022.01.06）_42
+      - CYL-科技（2022.01.06）_43
+      - 🇺🇸USYoutube技术分享室整理_44
+      - CYL-科技（2022.01.11）_45
+      - CYL-科技（2022.01.06）_46
+      - CYL-科技（2022.01.11）_47
+      - 香港_48
+      - CYL-科技（2022.01.11）_49
+      - CYL-科技（2022.01.06）_50
+      - CYL-科技（2022.01.11）_51
+      - 俄罗斯阿伟科技-油管_52
+      - 🇺🇸USYoutube技术分享室整理_53
+      - CYL-科技（2021.01.02）_54
+      - CYL-科技（2021.01.02）_55
+      - CYL-科技（2021.01.02）_56
+      - CYL-科技（2022.01.06）_57
+      - 🇭🇰HKYoutube技术分享室整理_58
+      - CYL-科技（2022.01.11）_59
+      - 🇺🇸USYoutube技术分享室整理_60
+      - 🇺🇸USYoutube技术分享室整理_61
+      - CYL-科技（2021.01.02）_62
+      - CYL-科技（2022.01.09）_63
+      - CYL-科技（2021.01.02）_64
+      - 🇺🇸USYoutube技术分享室整理_65
+      - 🇭🇰 HKYoutube技术分享室整理_66
+      - CYL-科技（202201.04）_67
+      - HKYoutube技术分享室整理 11_68
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
