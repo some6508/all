@@ -5,236 +5,236 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇦🇺_AU_澳大利亚_1', server: 172.105.180.227, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇦🇺_AU_澳大利亚_2', server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇦🇺_AU_澳大利亚_3', server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇦🇺_AU_澳大利亚_4', server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇦🇺_AU_澳大利亚_5', server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇦🇺_AU_澳大利亚_6', server: 172.105.180.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇦🇺_AU_澳大利亚_7', server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '🇦🇺_AU_澳大利亚_8', server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇦🇺_AU_澳大利亚_9', server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇦🇺_AU_澳大利亚_10', server: 172.105.180.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇦🇺_AU_澳大利亚_11', server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '🇦🇺_AU_澳大利亚_12', server: 172.105.180.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇦🇺_AU_澳大利亚_13', server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇦🇺_AU_澳大利亚_14', server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '🇦🇺_AU_澳大利亚_15', server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇦🇺_AU_澳大利亚_16', server: 172.105.180.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇦🇺_AU_澳大利亚_17', server: 172.105.180.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇦🇺_AU_澳大利亚_18', server: 172.105.180.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '🇦🇺_AU_澳大利亚_19', server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '🇦🇺_AU_澳大利亚_20', server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇦🇺_AU_澳大利亚_21', server: 172.105.180.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇦🇺_AU_澳大利亚_22', server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇦🇺_AU_澳大利亚_23', server: 172.105.180.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇦🇺_AU_澳大利亚_24', server: 172.105.180.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '翻墙党fanqiangdang.com_JP_1', server: 52.140.195.41, port: 8880, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: 52.140.195.41 }}
+  - {name: '翻墙党fanqiangdang.com_CN_2', server: 183.232.56.202, port: 64068, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/video", host: 183.232.56.202 }}
+  - {name: '翻墙党fanqiangdang.com_HK_3', server: 20.205.102.82, port: 8880, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: 20.205.102.82 }}
+  - {name: '翻墙党fanqiangdang.com_4', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1c356475-9d2e-4b35-b05a-95517756e7a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub", host: v8.ssrsub.com }}
+  - {name: '翻墙党fanqiangdang.com_US_5', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub", host: v1.ssrsub.com }}
+  - {name: '翻墙党fanqiangdang.com_6', server: inapus.mooncloud.bike, port: 8443, type: vmess, uuid: 0d69346e-9a21-394e-a00a-ffec7fad5956, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/v2ray", host: inapus.mooncloud.bike }}
+  - {name: '翻墙党fanqiangdang.com_US_7', server: 199.19.226.178, port: 21888, type: vmess, uuid: 27aba096-4d20-49d3-9ee8-ae29aaa24b7b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: 199.19.226.178 }}
+  - {name: '翻墙党fanqiangdang.com_US_8', server: inapus1.mooncloud.bike, port: 8443, type: vmess, uuid: 0d69346e-9a21-394e-a00a-ffec7fad5956, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/v2ray", host: inapus1.mooncloud.bike }}
+  - {name: '翻墙党fanqiangdang.com_NL_9', server: 178.62.224.119, port: 8888, type: vmess, uuid: b85b6cbb-ec13-41c6-ba97-52ad48d63c5c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: 178.62.224.119 }}
+  - {name: '翻墙党fanqiangdang.com_CN_10', server: cslt.sf66.cf, port: 34716, type: vmess, uuid: 27aba096-4d20-49d3-9ee8-ae29aaa24b7b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: cslt.sf66.cf }}
+  - {name: '翻墙党fanqiangdang.com_RU_11', server: 194.87.234.71, port: 8443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub", host: 194.87.234.71 }}
+  - {name: '翻墙党fanqiangdang.com_US_12', server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/bb2b34a1", host: www.ltzs.buzz }}
+  - {name: '翻墙党fanqiangdang.com_US_13', server: shz1.mooncloud.bike, port: 8443, type: vmess, uuid: 0d69346e-9a21-394e-a00a-ffec7fad5956, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/v2ray", host: shz1.mooncloud.bike }}
+  - {name: '翻墙党fanqiangdang.com_NL_14', server: 178.62.224.119, port: 8888, type: vmess, uuid: 27aba096-4d20-49d3-9ee8-ae29aaa24b7b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: 178.62.224.119 }}
+  - {name: '翻墙党fanqiangdang.com_US_15', server: free-russian-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3b29a023-5a4e-412a-a4a6-581437ad5679, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: free-russian-cdn.xiaohouzi.club }}
+  - {name: '翻墙党fanqiangdang.com_RU_16', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub", host: v5.ssrsub.com }}
+  - {name: '翻墙党fanqiangdang.com_CN_17', server: shz3.mooncloud.bike, port: 8443, type: vmess, uuid: 0d69346e-9a21-394e-a00a-ffec7fad5956, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/v2ray", host: shz3.mooncloud.bike }}
+  - {name: '翻墙党fanqiangdang.com_RU_18', server: v4.ssrsub.com, port: 8443, type: vmess, uuid: 1c356475-9d2e-4b35-b05a-95517756e7a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub", host: v4.ssrsub.com }}
+  - {name: '翻墙党fanqiangdang.com_RU_19', server: 93.95.97.120, port: 8443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub", host: 93.95.97.120 }}
+  - {name: '翻墙党fanqiangdang.com_US_20', server: 209.209.114.222, port: 21888, type: vmess, uuid: 27aba096-4d20-49d3-9ee8-ae29aaa24b7b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: 209.209.114.222 }}
+  - {name: '翻墙党fanqiangdang.com_RU_21', server: v4.ssrsub.com, port: 8443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub", host: v4.ssrsub.com }}
+  - {name: '翻墙党fanqiangdang.com_CN_22', server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/", host: 112.33.32.136 }}
+  - {name: '翻墙党fanqiangdang.com_SE_23', server: se.oceancloud.asia, port: 12100, type: vmess, uuid: adfc4bf6-8f7d-393e-9997-7dd969d9ea88, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/se", host: se.oceancloud.asia }}
+  - {name: '翻墙党fanqiangdang.com_CN_24', server: 183.232.56.187, port: 64068, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/video", host: 183.232.56.187 }}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇦🇺_AU_澳大利亚_2
-      - 🇦🇺_AU_澳大利亚_3
-      - 🇦🇺_AU_澳大利亚_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇦🇺_AU_澳大利亚_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇦🇺_AU_澳大利亚_8
-      - 🇦🇺_AU_澳大利亚_9
-      - 🇦🇺_AU_澳大利亚_10
-      - 🇦🇺_AU_澳大利亚_11
-      - 🇦🇺_AU_澳大利亚_12
-      - 🇦🇺_AU_澳大利亚_13
-      - 🇦🇺_AU_澳大利亚_14
-      - 🇦🇺_AU_澳大利亚_15
-      - 🇦🇺_AU_澳大利亚_16
-      - 🇦🇺_AU_澳大利亚_17
-      - 🇦🇺_AU_澳大利亚_18
-      - 🇦🇺_AU_澳大利亚_19
-      - 🇦🇺_AU_澳大利亚_20
-      - 🇦🇺_AU_澳大利亚_21
-      - 🇦🇺_AU_澳大利亚_22
-      - 🇦🇺_AU_澳大利亚_23
-      - 🇦🇺_AU_澳大利亚_24
+      - 翻墙党fanqiangdang.com_JP_1
+      - 翻墙党fanqiangdang.com_CN_2
+      - 翻墙党fanqiangdang.com_HK_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_US_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_US_7
+      - 翻墙党fanqiangdang.com_US_8
+      - 翻墙党fanqiangdang.com_NL_9
+      - 翻墙党fanqiangdang.com_CN_10
+      - 翻墙党fanqiangdang.com_RU_11
+      - 翻墙党fanqiangdang.com_US_12
+      - 翻墙党fanqiangdang.com_US_13
+      - 翻墙党fanqiangdang.com_NL_14
+      - 翻墙党fanqiangdang.com_US_15
+      - 翻墙党fanqiangdang.com_RU_16
+      - 翻墙党fanqiangdang.com_CN_17
+      - 翻墙党fanqiangdang.com_RU_18
+      - 翻墙党fanqiangdang.com_RU_19
+      - 翻墙党fanqiangdang.com_US_20
+      - 翻墙党fanqiangdang.com_RU_21
+      - 翻墙党fanqiangdang.com_CN_22
+      - 翻墙党fanqiangdang.com_SE_23
+      - 翻墙党fanqiangdang.com_CN_24
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇦🇺_AU_澳大利亚_2
-      - 🇦🇺_AU_澳大利亚_3
-      - 🇦🇺_AU_澳大利亚_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇦🇺_AU_澳大利亚_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇦🇺_AU_澳大利亚_8
-      - 🇦🇺_AU_澳大利亚_9
-      - 🇦🇺_AU_澳大利亚_10
-      - 🇦🇺_AU_澳大利亚_11
-      - 🇦🇺_AU_澳大利亚_12
-      - 🇦🇺_AU_澳大利亚_13
-      - 🇦🇺_AU_澳大利亚_14
-      - 🇦🇺_AU_澳大利亚_15
-      - 🇦🇺_AU_澳大利亚_16
-      - 🇦🇺_AU_澳大利亚_17
-      - 🇦🇺_AU_澳大利亚_18
-      - 🇦🇺_AU_澳大利亚_19
-      - 🇦🇺_AU_澳大利亚_20
-      - 🇦🇺_AU_澳大利亚_21
-      - 🇦🇺_AU_澳大利亚_22
-      - 🇦🇺_AU_澳大利亚_23
-      - 🇦🇺_AU_澳大利亚_24
+      - 翻墙党fanqiangdang.com_JP_1
+      - 翻墙党fanqiangdang.com_CN_2
+      - 翻墙党fanqiangdang.com_HK_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_US_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_US_7
+      - 翻墙党fanqiangdang.com_US_8
+      - 翻墙党fanqiangdang.com_NL_9
+      - 翻墙党fanqiangdang.com_CN_10
+      - 翻墙党fanqiangdang.com_RU_11
+      - 翻墙党fanqiangdang.com_US_12
+      - 翻墙党fanqiangdang.com_US_13
+      - 翻墙党fanqiangdang.com_NL_14
+      - 翻墙党fanqiangdang.com_US_15
+      - 翻墙党fanqiangdang.com_RU_16
+      - 翻墙党fanqiangdang.com_CN_17
+      - 翻墙党fanqiangdang.com_RU_18
+      - 翻墙党fanqiangdang.com_RU_19
+      - 翻墙党fanqiangdang.com_US_20
+      - 翻墙党fanqiangdang.com_RU_21
+      - 翻墙党fanqiangdang.com_CN_22
+      - 翻墙党fanqiangdang.com_SE_23
+      - 翻墙党fanqiangdang.com_CN_24
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇦🇺_AU_澳大利亚_2
-      - 🇦🇺_AU_澳大利亚_3
-      - 🇦🇺_AU_澳大利亚_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇦🇺_AU_澳大利亚_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇦🇺_AU_澳大利亚_8
-      - 🇦🇺_AU_澳大利亚_9
-      - 🇦🇺_AU_澳大利亚_10
-      - 🇦🇺_AU_澳大利亚_11
-      - 🇦🇺_AU_澳大利亚_12
-      - 🇦🇺_AU_澳大利亚_13
-      - 🇦🇺_AU_澳大利亚_14
-      - 🇦🇺_AU_澳大利亚_15
-      - 🇦🇺_AU_澳大利亚_16
-      - 🇦🇺_AU_澳大利亚_17
-      - 🇦🇺_AU_澳大利亚_18
-      - 🇦🇺_AU_澳大利亚_19
-      - 🇦🇺_AU_澳大利亚_20
-      - 🇦🇺_AU_澳大利亚_21
-      - 🇦🇺_AU_澳大利亚_22
-      - 🇦🇺_AU_澳大利亚_23
-      - 🇦🇺_AU_澳大利亚_24
+      - 翻墙党fanqiangdang.com_JP_1
+      - 翻墙党fanqiangdang.com_CN_2
+      - 翻墙党fanqiangdang.com_HK_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_US_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_US_7
+      - 翻墙党fanqiangdang.com_US_8
+      - 翻墙党fanqiangdang.com_NL_9
+      - 翻墙党fanqiangdang.com_CN_10
+      - 翻墙党fanqiangdang.com_RU_11
+      - 翻墙党fanqiangdang.com_US_12
+      - 翻墙党fanqiangdang.com_US_13
+      - 翻墙党fanqiangdang.com_NL_14
+      - 翻墙党fanqiangdang.com_US_15
+      - 翻墙党fanqiangdang.com_RU_16
+      - 翻墙党fanqiangdang.com_CN_17
+      - 翻墙党fanqiangdang.com_RU_18
+      - 翻墙党fanqiangdang.com_RU_19
+      - 翻墙党fanqiangdang.com_US_20
+      - 翻墙党fanqiangdang.com_RU_21
+      - 翻墙党fanqiangdang.com_CN_22
+      - 翻墙党fanqiangdang.com_SE_23
+      - 翻墙党fanqiangdang.com_CN_24
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇦🇺_AU_澳大利亚_2
-      - 🇦🇺_AU_澳大利亚_3
-      - 🇦🇺_AU_澳大利亚_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇦🇺_AU_澳大利亚_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇦🇺_AU_澳大利亚_8
-      - 🇦🇺_AU_澳大利亚_9
-      - 🇦🇺_AU_澳大利亚_10
-      - 🇦🇺_AU_澳大利亚_11
-      - 🇦🇺_AU_澳大利亚_12
-      - 🇦🇺_AU_澳大利亚_13
-      - 🇦🇺_AU_澳大利亚_14
-      - 🇦🇺_AU_澳大利亚_15
-      - 🇦🇺_AU_澳大利亚_16
-      - 🇦🇺_AU_澳大利亚_17
-      - 🇦🇺_AU_澳大利亚_18
-      - 🇦🇺_AU_澳大利亚_19
-      - 🇦🇺_AU_澳大利亚_20
-      - 🇦🇺_AU_澳大利亚_21
-      - 🇦🇺_AU_澳大利亚_22
-      - 🇦🇺_AU_澳大利亚_23
-      - 🇦🇺_AU_澳大利亚_24
+      - 翻墙党fanqiangdang.com_JP_1
+      - 翻墙党fanqiangdang.com_CN_2
+      - 翻墙党fanqiangdang.com_HK_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_US_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_US_7
+      - 翻墙党fanqiangdang.com_US_8
+      - 翻墙党fanqiangdang.com_NL_9
+      - 翻墙党fanqiangdang.com_CN_10
+      - 翻墙党fanqiangdang.com_RU_11
+      - 翻墙党fanqiangdang.com_US_12
+      - 翻墙党fanqiangdang.com_US_13
+      - 翻墙党fanqiangdang.com_NL_14
+      - 翻墙党fanqiangdang.com_US_15
+      - 翻墙党fanqiangdang.com_RU_16
+      - 翻墙党fanqiangdang.com_CN_17
+      - 翻墙党fanqiangdang.com_RU_18
+      - 翻墙党fanqiangdang.com_RU_19
+      - 翻墙党fanqiangdang.com_US_20
+      - 翻墙党fanqiangdang.com_RU_21
+      - 翻墙党fanqiangdang.com_CN_22
+      - 翻墙党fanqiangdang.com_SE_23
+      - 翻墙党fanqiangdang.com_CN_24
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇦🇺_AU_澳大利亚_2
-      - 🇦🇺_AU_澳大利亚_3
-      - 🇦🇺_AU_澳大利亚_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇦🇺_AU_澳大利亚_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇦🇺_AU_澳大利亚_8
-      - 🇦🇺_AU_澳大利亚_9
-      - 🇦🇺_AU_澳大利亚_10
-      - 🇦🇺_AU_澳大利亚_11
-      - 🇦🇺_AU_澳大利亚_12
-      - 🇦🇺_AU_澳大利亚_13
-      - 🇦🇺_AU_澳大利亚_14
-      - 🇦🇺_AU_澳大利亚_15
-      - 🇦🇺_AU_澳大利亚_16
-      - 🇦🇺_AU_澳大利亚_17
-      - 🇦🇺_AU_澳大利亚_18
-      - 🇦🇺_AU_澳大利亚_19
-      - 🇦🇺_AU_澳大利亚_20
-      - 🇦🇺_AU_澳大利亚_21
-      - 🇦🇺_AU_澳大利亚_22
-      - 🇦🇺_AU_澳大利亚_23
-      - 🇦🇺_AU_澳大利亚_24
+      - 翻墙党fanqiangdang.com_JP_1
+      - 翻墙党fanqiangdang.com_CN_2
+      - 翻墙党fanqiangdang.com_HK_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_US_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_US_7
+      - 翻墙党fanqiangdang.com_US_8
+      - 翻墙党fanqiangdang.com_NL_9
+      - 翻墙党fanqiangdang.com_CN_10
+      - 翻墙党fanqiangdang.com_RU_11
+      - 翻墙党fanqiangdang.com_US_12
+      - 翻墙党fanqiangdang.com_US_13
+      - 翻墙党fanqiangdang.com_NL_14
+      - 翻墙党fanqiangdang.com_US_15
+      - 翻墙党fanqiangdang.com_RU_16
+      - 翻墙党fanqiangdang.com_CN_17
+      - 翻墙党fanqiangdang.com_RU_18
+      - 翻墙党fanqiangdang.com_RU_19
+      - 翻墙党fanqiangdang.com_US_20
+      - 翻墙党fanqiangdang.com_RU_21
+      - 翻墙党fanqiangdang.com_CN_22
+      - 翻墙党fanqiangdang.com_SE_23
+      - 翻墙党fanqiangdang.com_CN_24
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇦🇺_AU_澳大利亚_2
-      - 🇦🇺_AU_澳大利亚_3
-      - 🇦🇺_AU_澳大利亚_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇦🇺_AU_澳大利亚_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇦🇺_AU_澳大利亚_8
-      - 🇦🇺_AU_澳大利亚_9
-      - 🇦🇺_AU_澳大利亚_10
-      - 🇦🇺_AU_澳大利亚_11
-      - 🇦🇺_AU_澳大利亚_12
-      - 🇦🇺_AU_澳大利亚_13
-      - 🇦🇺_AU_澳大利亚_14
-      - 🇦🇺_AU_澳大利亚_15
-      - 🇦🇺_AU_澳大利亚_16
-      - 🇦🇺_AU_澳大利亚_17
-      - 🇦🇺_AU_澳大利亚_18
-      - 🇦🇺_AU_澳大利亚_19
-      - 🇦🇺_AU_澳大利亚_20
-      - 🇦🇺_AU_澳大利亚_21
-      - 🇦🇺_AU_澳大利亚_22
-      - 🇦🇺_AU_澳大利亚_23
-      - 🇦🇺_AU_澳大利亚_24
+      - 翻墙党fanqiangdang.com_JP_1
+      - 翻墙党fanqiangdang.com_CN_2
+      - 翻墙党fanqiangdang.com_HK_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_US_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_US_7
+      - 翻墙党fanqiangdang.com_US_8
+      - 翻墙党fanqiangdang.com_NL_9
+      - 翻墙党fanqiangdang.com_CN_10
+      - 翻墙党fanqiangdang.com_RU_11
+      - 翻墙党fanqiangdang.com_US_12
+      - 翻墙党fanqiangdang.com_US_13
+      - 翻墙党fanqiangdang.com_NL_14
+      - 翻墙党fanqiangdang.com_US_15
+      - 翻墙党fanqiangdang.com_RU_16
+      - 翻墙党fanqiangdang.com_CN_17
+      - 翻墙党fanqiangdang.com_RU_18
+      - 翻墙党fanqiangdang.com_RU_19
+      - 翻墙党fanqiangdang.com_US_20
+      - 翻墙党fanqiangdang.com_RU_21
+      - 翻墙党fanqiangdang.com_CN_22
+      - 翻墙党fanqiangdang.com_SE_23
+      - 翻墙党fanqiangdang.com_CN_24
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇦🇺_AU_澳大利亚_2
-      - 🇦🇺_AU_澳大利亚_3
-      - 🇦🇺_AU_澳大利亚_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇦🇺_AU_澳大利亚_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇦🇺_AU_澳大利亚_8
-      - 🇦🇺_AU_澳大利亚_9
-      - 🇦🇺_AU_澳大利亚_10
-      - 🇦🇺_AU_澳大利亚_11
-      - 🇦🇺_AU_澳大利亚_12
-      - 🇦🇺_AU_澳大利亚_13
-      - 🇦🇺_AU_澳大利亚_14
-      - 🇦🇺_AU_澳大利亚_15
-      - 🇦🇺_AU_澳大利亚_16
-      - 🇦🇺_AU_澳大利亚_17
-      - 🇦🇺_AU_澳大利亚_18
-      - 🇦🇺_AU_澳大利亚_19
-      - 🇦🇺_AU_澳大利亚_20
-      - 🇦🇺_AU_澳大利亚_21
-      - 🇦🇺_AU_澳大利亚_22
-      - 🇦🇺_AU_澳大利亚_23
-      - 🇦🇺_AU_澳大利亚_24
+      - 翻墙党fanqiangdang.com_JP_1
+      - 翻墙党fanqiangdang.com_CN_2
+      - 翻墙党fanqiangdang.com_HK_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_US_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_US_7
+      - 翻墙党fanqiangdang.com_US_8
+      - 翻墙党fanqiangdang.com_NL_9
+      - 翻墙党fanqiangdang.com_CN_10
+      - 翻墙党fanqiangdang.com_RU_11
+      - 翻墙党fanqiangdang.com_US_12
+      - 翻墙党fanqiangdang.com_US_13
+      - 翻墙党fanqiangdang.com_NL_14
+      - 翻墙党fanqiangdang.com_US_15
+      - 翻墙党fanqiangdang.com_RU_16
+      - 翻墙党fanqiangdang.com_CN_17
+      - 翻墙党fanqiangdang.com_RU_18
+      - 翻墙党fanqiangdang.com_RU_19
+      - 翻墙党fanqiangdang.com_US_20
+      - 翻墙党fanqiangdang.com_RU_21
+      - 翻墙党fanqiangdang.com_CN_22
+      - 翻墙党fanqiangdang.com_SE_23
+      - 翻墙党fanqiangdang.com_CN_24
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -250,30 +250,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇺_AU_澳大利亚_1
-      - 🇦🇺_AU_澳大利亚_2
-      - 🇦🇺_AU_澳大利亚_3
-      - 🇦🇺_AU_澳大利亚_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇦🇺_AU_澳大利亚_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇦🇺_AU_澳大利亚_8
-      - 🇦🇺_AU_澳大利亚_9
-      - 🇦🇺_AU_澳大利亚_10
-      - 🇦🇺_AU_澳大利亚_11
-      - 🇦🇺_AU_澳大利亚_12
-      - 🇦🇺_AU_澳大利亚_13
-      - 🇦🇺_AU_澳大利亚_14
-      - 🇦🇺_AU_澳大利亚_15
-      - 🇦🇺_AU_澳大利亚_16
-      - 🇦🇺_AU_澳大利亚_17
-      - 🇦🇺_AU_澳大利亚_18
-      - 🇦🇺_AU_澳大利亚_19
-      - 🇦🇺_AU_澳大利亚_20
-      - 🇦🇺_AU_澳大利亚_21
-      - 🇦🇺_AU_澳大利亚_22
-      - 🇦🇺_AU_澳大利亚_23
-      - 🇦🇺_AU_澳大利亚_24
+      - 翻墙党fanqiangdang.com_JP_1
+      - 翻墙党fanqiangdang.com_CN_2
+      - 翻墙党fanqiangdang.com_HK_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_US_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_US_7
+      - 翻墙党fanqiangdang.com_US_8
+      - 翻墙党fanqiangdang.com_NL_9
+      - 翻墙党fanqiangdang.com_CN_10
+      - 翻墙党fanqiangdang.com_RU_11
+      - 翻墙党fanqiangdang.com_US_12
+      - 翻墙党fanqiangdang.com_US_13
+      - 翻墙党fanqiangdang.com_NL_14
+      - 翻墙党fanqiangdang.com_US_15
+      - 翻墙党fanqiangdang.com_RU_16
+      - 翻墙党fanqiangdang.com_CN_17
+      - 翻墙党fanqiangdang.com_RU_18
+      - 翻墙党fanqiangdang.com_RU_19
+      - 翻墙党fanqiangdang.com_US_20
+      - 翻墙党fanqiangdang.com_RU_21
+      - 翻墙党fanqiangdang.com_CN_22
+      - 翻墙党fanqiangdang.com_SE_23
+      - 翻墙党fanqiangdang.com_CN_24
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
