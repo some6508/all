@@ -502,6 +502,34 @@ proxies:
   - {name: 冰河圈子_US_美国_90, server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 冰河圈子_GB_英国_91, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 冰河圈子_GB_英国_92, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 香港/江门移动A 2, server: jma.v2ray.asia, port: 25425, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: jma.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港/江门移动B 2, server: jmb.v2ray.asia, port: 25315, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: jmb.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港/广州移动A 2, server: gya.v2ray.asia, port: 25168, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: gya.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港/广州移动B 2, server: gyb.v2ray.asia, port: 25106, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: gyb.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港/佛山移动 2, server: fs.v2ray.asia, port: 25069, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: fs.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港/安徽联通 2, server: ah.v2ray.asia, port: 25426, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: ah.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港/长沙联通 2, server: cs.v2ray.asia, port: 25393, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: cs.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港/上海移动 2, server: shy.v2ray.asia, port: 30278, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: shy.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港/上海联通 2, server: shl.v2ray.asia, port: 25580, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: shl.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港B/江门移动A 2, server: jma.v2ray.asia, port: 25439, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: jma.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港B/江门移动B 2, server: jmb.v2ray.asia, port: 25333, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: jmb.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港B/广州移动A 2, server: gya.v2ray.asia, port: 25170, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: gya.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港B/广州移动B 2, server: gyb.v2ray.asia, port: 25134, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: gyb.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港B/佛山移动 2, server: fs.v2ray.asia, port: 25070, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: fs.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港B/安徽联通 2, server: ah.v2ray.asia, port: 25447, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: ah.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港B/长沙联通 2, server: cs.v2ray.asia, port: 25408, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: cs.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港B/上海移动 2, server: shy.v2ray.asia, port: 30317, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: shy.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 香港B/上海联通 2, server: shl.v2ray.asia, port: 25614, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: shl.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 日本/江门移动A 2, server: jma.v2ray.asia, port: 25440, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: jma.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 日本/江门移动B 2, server: jmb.v2ray.asia, port: 25334, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: jmb.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 日本/广州移动A 2, server: gya.v2ray.asia, port: 25171, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: gya.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 日本/广州移动B 2, server: gyb.v2ray.asia, port: 25135, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: gyb.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 日本/佛山移动 2, server: fs.v2ray.asia, port: 25071, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: fs.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 日本/安徽联通 2, server: ah.v2ray.asia, port: 25448, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: ah.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 日本/长沙联通 2, server: cs.v2ray.asia, port: 25409, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: cs.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 日本/上海移动 2, server: shy.v2ray.asia, port: 30320, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: shy.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 日本/上海联通 2, server: shl.v2ray.asia, port: 25615, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: shl.v2ray.asia, skip-cert-verify: true, udp: true}
+  - {name: 台湾/江门移动 2, server: jma.v2ray.asia, port: 25442, type: trojan, password: 301d401d-6deb-4a0c-bb85-2ed7506cb93a, sni: jma.v2ray.asia, skip-cert-verify: true, udp: true}
   - {name: 新加坡, server: abnode10.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode10.makegamegoal.com, skip-cert-verify: true, udp: true}
   - {name: 美国, server: abnode12.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode12.makegamegoal.com, skip-cert-verify: true, udp: true}
   - {name: 新加坣, server: abnode16.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode16.makegamegoal.com, skip-cert-verify: true, udp: true}
@@ -1952,6 +1980,34 @@ proxy-groups:
       - 冰河圈子_US_美国_90
       - 冰河圈子_GB_英国_91
       - 冰河圈子_GB_英国_92
+      - 香港/江门移动A 2
+      - 香港/江门移动B 2
+      - 香港/广州移动A 2
+      - 香港/广州移动B 2
+      - 香港/佛山移动 2
+      - 香港/安徽联通 2
+      - 香港/长沙联通 2
+      - 香港/上海移动 2
+      - 香港/上海联通 2
+      - 香港B/江门移动A 2
+      - 香港B/江门移动B 2
+      - 香港B/广州移动A 2
+      - 香港B/广州移动B 2
+      - 香港B/佛山移动 2
+      - 香港B/安徽联通 2
+      - 香港B/长沙联通 2
+      - 香港B/上海移动 2
+      - 香港B/上海联通 2
+      - 日本/江门移动A 2
+      - 日本/江门移动B 2
+      - 日本/广州移动A 2
+      - 日本/广州移动B 2
+      - 日本/佛山移动 2
+      - 日本/安徽联通 2
+      - 日本/长沙联通 2
+      - 日本/上海移动 2
+      - 日本/上海联通 2
+      - 台湾/江门移动 2
       - 新加坡
       - 美国
       - 新加坣
@@ -3391,6 +3447,34 @@ proxy-groups:
       - 冰河圈子_US_美国_90
       - 冰河圈子_GB_英国_91
       - 冰河圈子_GB_英国_92
+      - 香港/江门移动A 2
+      - 香港/江门移动B 2
+      - 香港/广州移动A 2
+      - 香港/广州移动B 2
+      - 香港/佛山移动 2
+      - 香港/安徽联通 2
+      - 香港/长沙联通 2
+      - 香港/上海移动 2
+      - 香港/上海联通 2
+      - 香港B/江门移动A 2
+      - 香港B/江门移动B 2
+      - 香港B/广州移动A 2
+      - 香港B/广州移动B 2
+      - 香港B/佛山移动 2
+      - 香港B/安徽联通 2
+      - 香港B/长沙联通 2
+      - 香港B/上海移动 2
+      - 香港B/上海联通 2
+      - 日本/江门移动A 2
+      - 日本/江门移动B 2
+      - 日本/广州移动A 2
+      - 日本/广州移动B 2
+      - 日本/佛山移动 2
+      - 日本/安徽联通 2
+      - 日本/长沙联通 2
+      - 日本/上海移动 2
+      - 日本/上海联通 2
+      - 台湾/江门移动 2
       - 新加坡
       - 美国
       - 新加坣
@@ -4549,6 +4633,24 @@ proxy-groups:
       - 冰河圈子_HK_香港_6
       - 冰河圈子_HK_香港_7
       - 冰河圈子_HK_香港_17
+      - 香港/江门移动A 2
+      - 香港/江门移动B 2
+      - 香港/广州移动A 2
+      - 香港/广州移动B 2
+      - 香港/佛山移动 2
+      - 香港/安徽联通 2
+      - 香港/长沙联通 2
+      - 香港/上海移动 2
+      - 香港/上海联通 2
+      - 香港B/江门移动A 2
+      - 香港B/江门移动B 2
+      - 香港B/广州移动A 2
+      - 香港B/广州移动B 2
+      - 香港B/佛山移动 2
+      - 香港B/安徽联通 2
+      - 香港B/长沙联通 2
+      - 香港B/上海移动 2
+      - 香港B/上海联通 2
       - v2ray 香港HGC(移动) [Netflix]
       - v2ray 香港HKBN(移动) [Netflix]
       - v2ray 香港HGC(联通) [Netflix]
@@ -4660,6 +4762,15 @@ proxy-groups:
       - _JP_日本_Chen-2022.01.07_26
       - _JP_日本_Chen-2022.01.07_115
       - _JP_日本_Chen-2022.01.07_116
+      - 日本/江门移动A 2
+      - 日本/江门移动B 2
+      - 日本/广州移动A 2
+      - 日本/广州移动B 2
+      - 日本/佛山移动 2
+      - 日本/安徽联通 2
+      - 日本/长沙联通 2
+      - 日本/上海移动 2
+      - 日本/上海联通 2
       - v2ray 日本(移动) [Netflix]
       - v2ray 日本(联通) [Netflix]
       - 日本（YouTube资源分享者） 7
@@ -5101,6 +5212,7 @@ proxy-groups:
       - _TW_台湾_Chen-2022.01.07_14
       - _TW_台湾_Chen-2022.01.07_15
       - _TW_台湾_Chen-2022.01.07_16
+      - 台湾/江门移动 2
       - 2.29| 专线中国台湾03原生HINET
       - 2.27| 专线中国台湾03原生HINET
       - 台湾（YouTube资源分享者） 9
