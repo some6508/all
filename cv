@@ -529,8 +529,7 @@ proxies:
   - {name: 5.20| 专线香港08原生HGCBBS, server: zfd.out02.nodeserver.top, port: 16237, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 2.29| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 2.27| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _AT_奥地利, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL, udp: true}
-  - {name: _US_美国, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
+  - {name: _US_美国, server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1972,7 +1971,6 @@ proxy-groups:
       - 5.20| 专线香港08原生HGCBBS
       - 2.29| 专线中国台湾03原生HINET
       - 2.27| 专线中国台湾03原生HINET
-      - _AT_奥地利
       - _US_美国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
@@ -3404,7 +3402,6 @@ proxy-groups:
       - 5.20| 专线香港08原生HGCBBS
       - 2.29| 专线中国台湾03原生HINET
       - 2.27| 专线中国台湾03原生HINET
-      - _AT_奥地利
       - _US_美国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
