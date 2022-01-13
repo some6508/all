@@ -513,41 +513,42 @@ proxies:
   - {name: 冰河圈子_US_美国_90, server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 冰河圈子_GB_英国_91, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 冰河圈子_GB_英国_92, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: TG@moneyflychat技术分享室整理07, server: shcn2-06b.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@moneyflychat技术分享室整理12, server: transite-shcn2-06.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@moneyflychat技术分享室整理27, server: shcn2-06a.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@moneyflychat技术分享室整理29, server: shcn2-06.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@moneyflychat技术分享室整理07 2, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@moneyflychat技术分享室整理12 2, server: transite-shcn2-06.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3.33|CN101678251921, server: hzcu.rymv2rayssl.xyz, port: 44605, type: vmess, uuid: 5002a71b-d203-3a1d-987f-99522eccdc25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 185.172.115.80}}, udp: true}
-  - {name: TG@moneyflychat004, server: gzcm2.rymv2rayssl.xyz, port: 44605, type: vmess, uuid: 5002a71b-d203-3a1d-987f-99522eccdc25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 185.172.115.80}}, udp: true}
-  - {name: 2.84|V1香港B组 直连 速度随缘 1x, server: hk-group-b-direct.myn0des.com, port: 8880, type: vmess, uuid: 8426925e-2f87-349e-a7ba-1375c3afd37b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: new.vip.weibo.cn}}, udp: true}
-  - {name: 2.59|V1俄罗斯01 中继D 12x, server: in04.2333dns.com, port: 64071, type: vmess, uuid: 8426925e-2f87-349e-a7ba-1375c3afd37b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biteb-ru01.covid19.rip}}, udp: true}
-  - {name: 新加坡, server: abnode10.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode10.makegamegoal.com, skip-cert-verify: true, udp: true}
-  - {name: 美国, server: abnode12.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode12.makegamegoal.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坣, server: abnode16.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode16.makegamegoal.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坤, server: abnode18.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode18.makegamegoal.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坥, server: abnode12.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode12.makegamegoal.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坦, server: abnode08.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode08.makegamegoal.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坧, server: abnode17.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode17.makegamegoal.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坨, server: abnode07.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode07.makegamegoal.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坡2, server: abnode09.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode09.makegamegoal.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坡6, server: abnode10.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode10.makegamegoal.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坢3, server: abnode13.makegamegoal.com, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, sni: abnode13.makegamegoal.com, skip-cert-verify: true, udp: true}
-  - {name: "v2ray 新加坡(移动) [Netflix]", server: cm.cheapv2.xyz, port: 29901, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cm.cheapv2.xyz}}, udp: true}
-  - {name: "v2ray 美国(移动) [Netflix]", server: cm.cheapv2.xyz, port: 23308, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cm.cheapv2.xyz}}, udp: true}
-  - {name: "v2ray 日本(移动) [Netflix]", server: cm2.cheapv2.xyz, port: 28802, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cm2.cheapv2.xyz}}, udp: true}
-  - {name: "v2ray 新加坡(联通) [Netflix]", server: cu.cheapv2.xyz, port: 29901, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cu.cheapv2.xyz}}, udp: true}
-  - {name: "v2ray 日本(联通) [Netflix]", server: cu.cheapv2.xyz, port: 28802, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cu.cheapv2.xyz}}, udp: true}
-  - {name: "v2ray 美国(联通) [Netflix]", server: cu.cheapv2.xyz, port: 23308, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cu.cheapv2.xyz}}, udp: true}
-  - {name: "v2ray 香港HGC(联通) [Netflix]", server: cu.cheapv2.xyz, port: 23318, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cu.cheapv2.xyz}}, udp: true}
-  - {name: "v2ray 香港HKBN(联通) [Netflix]", server: cu.cheapv2.xyz, port: 26609, type: vmess, uuid: 4cf39ff7-3b04-3138-8b83-0a6d5cb7dc5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cu.cheapv2.xyz}}, udp: true}
-  - {name: 2.74| 专线西雅图01原生NTT, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.74| 专线西雅图01原生NTT 2, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 5.20| 专线香港08原生HGCBBS, server: zfd.out02.nodeserver.top, port: 16237, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.29| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.27| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: 38.143.66.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: HK-52.229.134.93-797, server: az.cnbnewbot.cc, port: 443, type: vmess, uuid: a6583148-6f03-49f8-b636-2f295fb3953e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: az.cnbnewbot.cc}}, udp: true}
+  - {name: CN-39.145.17.177-801, server: ahyd.transfer.mugocloud.top, port: 22556, type: trojan, password: 1351a400-fd12-34a8-986c-d91e1c27740a, sni: ahyd.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: CN-120.232.43.168-804, server: jm.04.nkeo.top, port: 49001, type: vmess, uuid: 2fc746e5-14ee-3635-bcf1-94a4287ed134, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgchk, headers: {Host: jm.04.nkeo.top}}, udp: true}
+  - {name: CN-116.192.169.94-806, server: sh-hk-hgc-1g-v2.node.inforun.work, port: 20288, type: vmess, uuid: f87311c1-3a22-4dad-b42b-a93e9279d758, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: ID-45.133.181.58-807, server: 45.133.181.58, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
+  - {name: CN-106.75.233.91-810, server: 106.75.233.91, port: 3389, type: trojan, password: 1a1247ea6cb266b4, skip-cert-verify: true, udp: true}
+  - {name: CN-113.31.155.165-814, server: 113.31.155.165, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true, udp: true}
+  - {name: CN-123.59.72.193-815, server: 123.59.72.193, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true, udp: true}
+  - {name: CN-123.59.87.29-816, server: 123.59.87.29, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true, udp: true}
+  - {name: CN-58.32.11.113-817, server: vipdedi.boom.ovh, port: 65521, type: vmess, uuid: a8d9724a-d61c-3d85-8cad-07e4d45a9441, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mydisk, headers: {Host: vipdedi.boom.ovh}}, udp: true}
+  - {name: CN-116.162.33.223-821, server: cs.transfer.mugocloud.top, port: 21412, type: trojan, password: 1351a400-fd12-34a8-986c-d91e1c27740a, sni: cs.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: HK-62.216.92.179-822, server: 62.216.92.179, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: SG-18.141.200.183-827, server: sg27.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: sg27.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: CN-120.232.208.234-828, server: sg-sin-krn-v2.node.inforun.work, port: 12888, type: vmess, uuid: f87311c1-3a22-4dad-b42b-a93e9279d758, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: 香港, server: az.cnbnewbot.cc, port: 443, type: vmess, uuid: a6583148-6f03-49f8-b636-2f295fb3953e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: az.cnbnewbot.cc}}, udp: true}
+  - {name: 香港\r, server: ahyd.transfer.mugocloud.top, port: 22556, type: trojan, password: 1351a400-fd12-34a8-986c-d91e1c27740a, sni: ahyd.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 香港\r 2, server: ahyd.transfer.mugocloud.top, port: 22456, type: trojan, password: 1351a400-fd12-34a8-986c-d91e1c27740a, sni: ahyd.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 香港 2, server: jm.04.nkeo.top, port: 49001, type: vmess, uuid: 2fc746e5-14ee-3635-bcf1-94a4287ed134, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgchk, headers: {Host: jm.04.nkeo.top}}, udp: true}
+  - {name: 香港 3, server: jm.04.nkeo.top, port: 38887, type: vmess, uuid: 2fc746e5-14ee-3635-bcf1-94a4287ed134, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hkt, headers: {Host: jm.04.nkeo.top}}, udp: true}
+  - {name: 印度尼西亚\r, server: 45.133.181.58, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
+  - {name: 印度\r, server: ahyd.transfer.mugocloud.top, port: 22312, type: trojan, password: 1351a400-fd12-34a8-986c-d91e1c27740a, sni: ahyd.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 日本\r, server: 106.75.233.91, port: 3389, type: trojan, password: 1a1247ea6cb266b4, skip-cert-verify: true, udp: true}
+  - {name: 日本\r 2, server: 113.31.155.165, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true, udp: true}
+  - {name: 日本\r 3, server: 123.59.72.193, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true, udp: true}
+  - {name: 日本\r 4, server: 123.59.87.29, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true, udp: true}
+  - {name: 日本, server: vipdedi.boom.ovh, port: 65521, type: vmess, uuid: a8d9724a-d61c-3d85-8cad-07e4d45a9441, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mydisk, headers: {Host: vipdedi.boom.ovh}}, udp: true}
+  - {name: 日本 2, server: jp1.ftnodes1.xyz, port: 80, type: vmess, uuid: 19d4f460-862a-4884-98ab-40befb18e504, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 马来西亚, server: jm.04.nkeo.top, port: 38887, type: vmess, uuid: 2fc746e5-14ee-3635-bcf1-94a4287ed134, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mlxy, headers: {Host: jm.04.nkeo.top}}, udp: true}
+  - {name: 马来西亚 2, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: aaaced8e-e212-431a-8671-9f414a2ec807, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
+  - {name: 罗马尼亚\r, server: 62.216.92.179, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: 罗马尼亚\r 2, server: 62.216.92.179, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: 新加坡\r, server: sg27.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: sg27.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡, server: jm.04.nkeo.top, port: 38887, type: vmess, uuid: 2fc746e5-14ee-3635-bcf1-94a4287ed134, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /doxjp2, headers: {Host: jm.04.nkeo.top}}, udp: true}
+  - {name: 美国, server: ddns04.r8o8c8k.xyz, port: 65012, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: 越南\r, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27, udp: true}
+  - {name: _US_美国, server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /bb2b34a1, headers: {Host: www.ltzs.buzz}}, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1381,7 +1382,7 @@ proxies:
   - {name: Moon365.net🇯🇵JP 115 free, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: bbf375e6-d185-4d08-9c29-142169e08ca0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22cm-jm.okvpn.xyz%22%7D"}}, udp: true}
   - {name: Moon365.net🇭🇰HK 329 free, server: sl201.jdxx.xyz, port: 35001, type: ssr, cipher: chacha20-ietf, password: MaOKEa, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 91:rfwijt, obfs-param: t.me/proxypoolqwerty426, udp: true}
   - {name: Moon365.net🇭🇰HK 331 free, server: sl201.jdxx.xyz, port: 25988, type: ssr, cipher: chacha20-ietf, password: MaOKEa, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 91:rfwijt, obfs-param: t.me/proxypoolqwerty426, udp: true}
-  - {name: 香港, server: bb.shangou.tk, port: 5000, type: trojan, password: Q3Mutbhgfd, sni: bb.shangou.tk, skip-cert-verify: true, udp: true}
+  - {name: 香港 4, server: bb.shangou.tk, port: 5000, type: trojan, password: Q3Mutbhgfd, sni: bb.shangou.tk, skip-cert-verify: true, udp: true}
   - {name: 新加坡 2, server: bb.shangou.tk, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 英国, server: bb.shangou.tk, port: 5002, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
@@ -1908,40 +1909,41 @@ proxy-groups:
       - 冰河圈子_US_美国_90
       - 冰河圈子_GB_英国_91
       - 冰河圈子_GB_英国_92
-      - TG@moneyflychat技术分享室整理07
-      - TG@moneyflychat技术分享室整理12
-      - TG@moneyflychat技术分享室整理27
-      - TG@moneyflychat技术分享室整理29
-      - TG@moneyflychat技术分享室整理07 2
-      - TG@moneyflychat技术分享室整理12 2
-      - 3.33|CN101678251921
-      - TG@moneyflychat004
-      - 2.84|V1香港B组 直连 速度随缘 1x
-      - 2.59|V1俄罗斯01 中继D 12x
+      - HK-52.229.134.93-797
+      - CN-39.145.17.177-801
+      - CN-120.232.43.168-804
+      - CN-116.192.169.94-806
+      - ID-45.133.181.58-807
+      - CN-106.75.233.91-810
+      - CN-113.31.155.165-814
+      - CN-123.59.72.193-815
+      - CN-123.59.87.29-816
+      - CN-58.32.11.113-817
+      - CN-116.162.33.223-821
+      - HK-62.216.92.179-822
+      - SG-18.141.200.183-827
+      - CN-120.232.208.234-828
+      - 香港
+      - 香港\r
+      - 香港\r 2
+      - 香港 2
+      - 香港 3
+      - 印度尼西亚\r
+      - 印度\r
+      - 日本\r
+      - 日本\r 2
+      - 日本\r 3
+      - 日本\r 4
+      - 日本
+      - 日本 2
+      - 马来西亚
+      - 马来西亚 2
+      - 罗马尼亚\r
+      - 罗马尼亚\r 2
+      - 新加坡\r
       - 新加坡
       - 美国
-      - 新加坣
-      - 新加坤
-      - 新加坥
-      - 新加坦
-      - 新加坧
-      - 新加坨
-      - 新加坡2
-      - 新加坡6
-      - 新加坢3
-      - v2ray 新加坡(移动) [Netflix]
-      - v2ray 美国(移动) [Netflix]
-      - v2ray 日本(移动) [Netflix]
-      - v2ray 新加坡(联通) [Netflix]
-      - v2ray 日本(联通) [Netflix]
-      - v2ray 美国(联通) [Netflix]
-      - v2ray 香港HGC(联通) [Netflix]
-      - v2ray 香港HKBN(联通) [Netflix]
-      - 2.74| 专线西雅图01原生NTT
-      - 2.74| 专线西雅图01原生NTT 2
-      - 5.20| 专线香港08原生HGCBBS
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.27| 专线中国台湾03原生HINET
+      - 越南\r
       - _US_美国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
@@ -2776,7 +2778,7 @@ proxy-groups:
       - Moon365.net🇯🇵JP 115 free
       - Moon365.net🇭🇰HK 329 free
       - Moon365.net🇭🇰HK 331 free
-      - 香港
+      - 香港 4
       - 新加坡 2
       - 英国
   - name: ♻️ 自动选择
@@ -3292,40 +3294,41 @@ proxy-groups:
       - 冰河圈子_US_美国_90
       - 冰河圈子_GB_英国_91
       - 冰河圈子_GB_英国_92
-      - TG@moneyflychat技术分享室整理07
-      - TG@moneyflychat技术分享室整理12
-      - TG@moneyflychat技术分享室整理27
-      - TG@moneyflychat技术分享室整理29
-      - TG@moneyflychat技术分享室整理07 2
-      - TG@moneyflychat技术分享室整理12 2
-      - 3.33|CN101678251921
-      - TG@moneyflychat004
-      - 2.84|V1香港B组 直连 速度随缘 1x
-      - 2.59|V1俄罗斯01 中继D 12x
+      - HK-52.229.134.93-797
+      - CN-39.145.17.177-801
+      - CN-120.232.43.168-804
+      - CN-116.192.169.94-806
+      - ID-45.133.181.58-807
+      - CN-106.75.233.91-810
+      - CN-113.31.155.165-814
+      - CN-123.59.72.193-815
+      - CN-123.59.87.29-816
+      - CN-58.32.11.113-817
+      - CN-116.162.33.223-821
+      - HK-62.216.92.179-822
+      - SG-18.141.200.183-827
+      - CN-120.232.208.234-828
+      - 香港
+      - 香港\r
+      - 香港\r 2
+      - 香港 2
+      - 香港 3
+      - 印度尼西亚\r
+      - 印度\r
+      - 日本\r
+      - 日本\r 2
+      - 日本\r 3
+      - 日本\r 4
+      - 日本
+      - 日本 2
+      - 马来西亚
+      - 马来西亚 2
+      - 罗马尼亚\r
+      - 罗马尼亚\r 2
+      - 新加坡\r
       - 新加坡
       - 美国
-      - 新加坣
-      - 新加坤
-      - 新加坥
-      - 新加坦
-      - 新加坧
-      - 新加坨
-      - 新加坡2
-      - 新加坡6
-      - 新加坢3
-      - v2ray 新加坡(移动) [Netflix]
-      - v2ray 美国(移动) [Netflix]
-      - v2ray 日本(移动) [Netflix]
-      - v2ray 新加坡(联通) [Netflix]
-      - v2ray 日本(联通) [Netflix]
-      - v2ray 美国(联通) [Netflix]
-      - v2ray 香港HGC(联通) [Netflix]
-      - v2ray 香港HKBN(联通) [Netflix]
-      - 2.74| 专线西雅图01原生NTT
-      - 2.74| 专线西雅图01原生NTT 2
-      - 5.20| 专线香港08原生HGCBBS
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.27| 专线中国台湾03原生HINET
+      - 越南\r
       - _US_美国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
@@ -4160,7 +4163,7 @@ proxy-groups:
       - Moon365.net🇯🇵JP 115 free
       - Moon365.net🇭🇰HK 329 free
       - Moon365.net🇭🇰HK 331 free
-      - 香港
+      - 香港 4
       - 新加坡 2
       - 英国
   - name: 📲 电报消息
@@ -4388,10 +4391,13 @@ proxy-groups:
       - 冰河圈子_HK_香港_6
       - 冰河圈子_HK_香港_7
       - 冰河圈子_HK_香港_17
-      - 2.84|V1香港B组 直连 速度随缘 1x
-      - v2ray 香港HGC(联通) [Netflix]
-      - v2ray 香港HKBN(联通) [Netflix]
-      - 5.20| 专线香港08原生HGCBBS
+      - HK-52.229.134.93-797
+      - HK-62.216.92.179-822
+      - 香港
+      - 香港\r
+      - 香港\r 2
+      - 香港 2
+      - 香港 3
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -4453,7 +4459,7 @@ proxy-groups:
       - Moon365.net🇭🇰HK 519 free
       - Moon365.net🇭🇰HK 329 free
       - Moon365.net🇭🇰HK 331 free
-      - 香港
+      - 香港 4
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -4472,8 +4478,12 @@ proxy-groups:
       - _JP_日本_Chen-2022.01.07_26
       - _JP_日本_Chen-2022.01.07_115
       - _JP_日本_Chen-2022.01.07_116
-      - v2ray 日本(移动) [Netflix]
-      - v2ray 日本(联通) [Netflix]
+      - 日本\r
+      - 日本\r 2
+      - 日本\r 3
+      - 日本\r 4
+      - 日本
+      - 日本 2
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -4670,10 +4680,6 @@ proxy-groups:
       - 冰河圈子_US_美国_89
       - 冰河圈子_US_美国_90
       - 美国
-      - v2ray 美国(移动) [Netflix]
-      - v2ray 美国(联通) [Netflix]
-      - 2.74| 专线西雅图01原生NTT
-      - 2.74| 专线西雅图01原生NTT 2
       - _US_美国
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
@@ -4893,8 +4899,6 @@ proxy-groups:
       - _TW_台湾_Chen-2022.01.07_14
       - _TW_台湾_Chen-2022.01.07_15
       - _TW_台湾_Chen-2022.01.07_16
-      - 2.29| 专线中国台湾03原生HINET
-      - 2.27| 专线中国台湾03原生HINET
       - 台湾（YouTube资源分享者） 9
       - 台湾（YouTube资源分享者） 10
       - 台湾（YouTube资源分享者） 11
@@ -4935,11 +4939,9 @@ proxy-groups:
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V17-付费推荐::suo.yt/ssrsub"
       - 冰河圈子_SG_新加坡_3
+      - SG-18.141.200.183-827
+      - 新加坡\r
       - 新加坡
-      - 新加坡2
-      - 新加坡6
-      - v2ray 新加坡(移动) [Netflix]
-      - v2ray 新加坡(联通) [Netflix]
       - 新加坡（YouTube资源分享者） 2
       - _SG_新加坡_Chen-2022.01.07_8 2
       - _SG_新加坡_Chen-2022.01.07_9 2
@@ -4984,14 +4986,6 @@ proxy-groups:
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - v2ray 新加坡(移动) [Netflix]
-      - v2ray 美国(移动) [Netflix]
-      - v2ray 日本(移动) [Netflix]
-      - v2ray 新加坡(联通) [Netflix]
-      - v2ray 日本(联通) [Netflix]
-      - v2ray 美国(联通) [Netflix]
-      - v2ray 香港HGC(联通) [Netflix]
-      - v2ray 香港HKBN(联通) [Netflix]
       - 中转|日本GMO08|华南隧道[流媒体解锁]
       - 中转|新加坡Singtel04|华南隧道[流媒体解锁]
       - 中转|新加坡Singtel03|华南隧道[流媒体解锁]
