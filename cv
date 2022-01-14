@@ -806,16 +806,33 @@ proxies:
   - {name: 新加坡, server: jm.04.nkeo.top, port: 38887, type: vmess, uuid: 2fc746e5-14ee-3635-bcf1-94a4287ed134, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /doxjp2, headers: {Host: jm.04.nkeo.top}}, udp: true}
   - {name: 美国, server: ddns04.r8o8c8k.xyz, port: 65012, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: t.me/vpnhat}}, udp: true}
   - {name: 越南\r, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27, udp: true}
-  - {name: _CN_中国, server: 118.193.179.2, port: 36923, type: ss, cipher: chacha20-ietf-poly1305, password: koko666, udp: true}
-  - {name: _JP_日本, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _HK_香港, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _HK_香港 2, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _JP_日本 2, server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _HK_香港 3, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _HK_香港 4, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _HK_香港 5, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _HK_香港 6, server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: n_172.105.180.227:2376_1, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: n_118.107.244.112:5004_2, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Relay_🇸🇬SG-🇸🇬SG_861, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: jp-tokyo-node2.ycgyg.com}}, udp: true}
+  - {name: n_37.120.136.234:8389_4, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b, udp: true}
+  - {name: Relay_🇷🇺RU-🇷🇺RU_757, server: oz.mooncloud.bike, port: 8443, type: vmess, uuid: 79fedd93-e758-4655-83ed-574f4afe2a04, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.mooncloud.bike}}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_291, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_294, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇮🇳IN-🇮🇳IN_579, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
+  - {name: Pool_🇮🇳IN_580, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
+  - {name: RU_838, server: 194.156.120.52, port: 41002, type: vmess, uuid: ebb93e84-5bb7-11ec-8bc6-6a5c6e054e4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1921, server: www.666tl.com, port: 2082, type: vmess, uuid: ed7ee105-f3c2-487a-9b24-07b01745695d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index.php, headers: {Host: meiguo.jisuxiang.one}}, udp: true}
+  - {name: Relay_🇺🇸US-🇷🇺RU_1954, server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v9.ssrsub.com}}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1960, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: RU_844, server: 193.233.85.3, port: 45174, type: vmess, uuid: 14823120-5dc2-11ec-b398-3a571dcc9720, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: n_118.107.244.112:3306_15, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: +US_1867, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: usa-server-02.selfupay.com, skip-cert-verify: true, udp: true}
+  - {name: +US_1868, server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: n_172.105.180.227:7306_18, server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: n_172.105.180.227:6379_19, server: 172.105.180.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: n_172.105.180.227:9101_20, server: 172.105.180.227, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: n_172.105.180.227:7001_21, server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: n_172.105.180.227:9102_22, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: n_37.120.137.82:8389_23, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS, udp: true}
+  - {name: n_46.29.218.6:3306_24, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: n_46.29.218.6:7307_25, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: n_46.29.218.6:8008_26, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: n_46.29.218.6:5004_27, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2503,16 +2520,33 @@ proxy-groups:
       - 新加坡
       - 美国
       - 越南\r
-      - _CN_中国
-      - _JP_日本
-      - _HK_香港
-      - _HK_香港 2
-      - _JP_日本 2
-      - _HK_香港 3
-      - _HK_香港 4
-      - _HK_香港 5
-      - _HK_香港 6
-      - _US_美国
+      - n_172.105.180.227:2376_1
+      - n_118.107.244.112:5004_2
+      - Relay_🇸🇬SG-🇸🇬SG_861
+      - n_37.120.136.234:8389_4
+      - Relay_🇷🇺RU-🇷🇺RU_757
+      - Relay_🇨🇳CN-🇺🇸US_291
+      - Relay_🇨🇳CN-🇭🇰HK_294
+      - Relay_🇮🇳IN-🇮🇳IN_579
+      - Pool_🇮🇳IN_580
+      - RU_838
+      - Relay_🇺🇸US-🇺🇸US_1921
+      - Relay_🇺🇸US-🇷🇺RU_1954
+      - Relay_🇺🇸US-🇺🇸US_1960
+      - RU_844
+      - n_118.107.244.112:3306_15
+      - +US_1867
+      - +US_1868
+      - n_172.105.180.227:7306_18
+      - n_172.105.180.227:6379_19
+      - n_172.105.180.227:9101_20
+      - n_172.105.180.227:7001_21
+      - n_172.105.180.227:9102_22
+      - n_37.120.137.82:8389_23
+      - n_46.29.218.6:3306_24
+      - n_46.29.218.6:7307_25
+      - n_46.29.218.6:8008_26
+      - n_46.29.218.6:5004_27
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4189,16 +4223,33 @@ proxy-groups:
       - 新加坡
       - 美国
       - 越南\r
-      - _CN_中国
-      - _JP_日本
-      - _HK_香港
-      - _HK_香港 2
-      - _JP_日本 2
-      - _HK_香港 3
-      - _HK_香港 4
-      - _HK_香港 5
-      - _HK_香港 6
-      - _US_美国
+      - n_172.105.180.227:2376_1
+      - n_118.107.244.112:5004_2
+      - Relay_🇸🇬SG-🇸🇬SG_861
+      - n_37.120.136.234:8389_4
+      - Relay_🇷🇺RU-🇷🇺RU_757
+      - Relay_🇨🇳CN-🇺🇸US_291
+      - Relay_🇨🇳CN-🇭🇰HK_294
+      - Relay_🇮🇳IN-🇮🇳IN_579
+      - Pool_🇮🇳IN_580
+      - RU_838
+      - Relay_🇺🇸US-🇺🇸US_1921
+      - Relay_🇺🇸US-🇷🇺RU_1954
+      - Relay_🇺🇸US-🇺🇸US_1960
+      - RU_844
+      - n_118.107.244.112:3306_15
+      - +US_1867
+      - +US_1868
+      - n_172.105.180.227:7306_18
+      - n_172.105.180.227:6379_19
+      - n_172.105.180.227:9101_20
+      - n_172.105.180.227:7001_21
+      - n_172.105.180.227:9102_22
+      - n_37.120.137.82:8389_23
+      - n_46.29.218.6:3306_24
+      - n_46.29.218.6:7307_25
+      - n_46.29.218.6:8008_26
+      - n_46.29.218.6:5004_27
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5298,12 +5349,7 @@ proxy-groups:
       - 香港\r 2
       - 香港 2
       - 香港 3
-      - _HK_香港
-      - _HK_香港 2
-      - _HK_香港 3
-      - _HK_香港 4
-      - _HK_香港 5
-      - _HK_香港 6
+      - Relay_🇨🇳CN-🇭🇰HK_294
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -5402,8 +5448,6 @@ proxy-groups:
       - 日本\r 4
       - 日本
       - 日本 2
-      - _JP_日本
-      - _JP_日本 2
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -5732,7 +5776,12 @@ proxy-groups:
       - YTB:鹏哥分享_US_美国_63
       - YTB:鹏哥分享_US_美国_65
       - 美国
-      - _US_美国
+      - Relay_🇨🇳CN-🇺🇸US_291
+      - Relay_🇺🇸US-🇺🇸US_1921
+      - Relay_🇺🇸US-🇷🇺RU_1954
+      - Relay_🇺🇸US-🇺🇸US_1960
+      - +US_1867
+      - +US_1868
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -6009,6 +6058,7 @@ proxy-groups:
       - SG-18.141.200.183-827
       - 新加坡\r
       - 新加坡
+      - Relay_🇸🇬SG-🇸🇬SG_861
       - 新加坡（YouTube资源分享者） 2
       - _SG_新加坡_Chen-2022.01.07_8 2
       - _SG_新加坡_Chen-2022.01.07_9 2
