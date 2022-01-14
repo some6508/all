@@ -5,20 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _HK_香港_Daniel_1, server: 0110hk01.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0110hk01.fans8.xyz}}, udp: true}
-  - {name: _HK_香港_Daniel_2, server: 1218hk.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1218hk.fans8.xyz}}, udp: true}
-  - {name: _HK_香港_Daniel_3, server: 1229hk.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1229hk.fans8.xyz}}, udp: true}
-  - {name: _KR_韩国_Daniel_4, server: 1211kr.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1211kr.fans8.xyz}}, udp: true}
-  - {name: _US_美国_Daniel_5, server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222us.fans8.xyz}}, udp: true}
-  - {name: _KR_韩国_Daniel_6, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1031kr.fans8.xyz}}, udp: true}
-  - {name: _LT_立陶宛_Daniel_7, server: 1222ru.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222ru.fans8.xyz}}, udp: true}
-  - {name: _HK_香港_Daniel_8, server: 0107hk.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0107hk.fans8.xyz}}, udp: true}
-  - {name: _PH_菲律宾_Daniel_9, server: 1222mnl.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222mnl.fans8.xyz}}, udp: true}
-  - {name: _HK_香港_Daniel_10, server: 1222hk3.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222hk3.fans8.xyz}}, udp: true}
-  - {name: _HK_香港_Daniel_11, server: 1211hk1.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1211hk1.fans8.xyz}}, udp: true}
-  - {name: _TW_台湾_Daniel_12, server: 0109tw.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0109tw.fans8.xyz}}, udp: true}
-  - {name: _TW_台湾_Daniel_13, server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1207tw.fans8.xyz}}, udp: true}
-  - {name: _TW_台湾_Daniel_14, server: 0105tw.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0105tw.fans8.xyz}}, udp: true}
+  - {name: n_233v2.com_20.196.197.142, server: 20.196.197.142, port: 61489, type: vmess, uuid: 1a05cb1a-703d-4b3b-a91f-5bbddabca1df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: 194.87.234.71, port: 8443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: 193.42.114.254, port: 45531, type: vmess, uuid: 2763c4b0-740c-11ec-a0cf-aa317bcbd0cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 3, server: 194.5.79.15, port: 60764, type: vmess, uuid: e1107940-740b-11ec-8f34-0e8969ca1a20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1456,20 +1443,7 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - _HK_香港_Daniel_1
-      - _HK_香港_Daniel_2
-      - _HK_香港_Daniel_3
-      - _KR_韩国_Daniel_4
-      - _US_美国_Daniel_5
-      - _KR_韩国_Daniel_6
-      - _LT_立陶宛_Daniel_7
-      - _HK_香港_Daniel_8
-      - _PH_菲律宾_Daniel_9
-      - _HK_香港_Daniel_10
-      - _HK_香港_Daniel_11
-      - _TW_台湾_Daniel_12
-      - _TW_台湾_Daniel_13
-      - _TW_台湾_Daniel_14
+      - n_233v2.com_20.196.197.142
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
@@ -2896,20 +2870,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _HK_香港_Daniel_1
-      - _HK_香港_Daniel_2
-      - _HK_香港_Daniel_3
-      - _KR_韩国_Daniel_4
-      - _US_美国_Daniel_5
-      - _KR_韩国_Daniel_6
-      - _LT_立陶宛_Daniel_7
-      - _HK_香港_Daniel_8
-      - _PH_菲律宾_Daniel_9
-      - _HK_香港_Daniel_10
-      - _HK_香港_Daniel_11
-      - _TW_台湾_Daniel_12
-      - _TW_台湾_Daniel_13
-      - _TW_台湾_Daniel_14
+      - n_233v2.com_20.196.197.142
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
@@ -4512,12 +4473,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _HK_香港_Daniel_1
-      - _HK_香港_Daniel_2
-      - _HK_香港_Daniel_3
-      - _HK_香港_Daniel_8
-      - _HK_香港_Daniel_10
-      - _HK_香港_Daniel_11
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港（YouTube资源分享者）
@@ -4709,7 +4664,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_Daniel_5
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -5065,9 +5019,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _TW_台湾_Daniel_12
-      - _TW_台湾_Daniel_13
-      - _TW_台湾_Daniel_14
       - 台湾（YouTube资源分享者）
       - 台湾（YouTube资源分享者） 2
       - 台湾（YouTube资源分享者） 3
@@ -5169,8 +5120,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _KR_韩国_Daniel_4
-      - _KR_韩国_Daniel_6
       - "@SSRSUB-韩国V10-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-韩国V20-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-韩国T05-付费推荐:dlj.tf/ssrsub"
