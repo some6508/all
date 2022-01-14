@@ -5,156 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇭🇰_HK_香港_Daniel_1', server: 0110hk01.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
-  - {name: '🇭🇰_HK_香港_Daniel_2', server: 1218hk.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
-  - {name: '🇭🇰_HK_香港_Daniel_3', server: 1229hk.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
-  - {name: '🇰🇷_KR_韩国_Daniel_4', server: 1211kr.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
-  - {name: '🇺🇸_US_美国_Daniel_5', server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
-  - {name: '🇰🇷_KR_韩国_Daniel_6', server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
-  - {name: '🇱🇹_LT_立陶宛_Daniel_7', server: 1222ru.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
-  - {name: '🇭🇰_HK_香港_Daniel_8', server: 0107hk.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
-  - {name: '🇵🇭_PH_菲律宾_Daniel_9', server: 1222mnl.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
-  - {name: '🇭🇰_HK_香港_Daniel_10', server: 1222hk3.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
-  - {name: '🇭🇰_HK_香港_Daniel_11', server: 1211hk1.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
-  - {name: '🇹🇼_TW_台湾_Daniel_12', server: 0109tw.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
-  - {name: '🇹🇼_TW_台湾_Daniel_13', server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
-  - {name: '🇹🇼_TW_台湾_Daniel_14', server: 0105tw.fans8.xyz, port: 80, type: vmess, uuid: af89a403-262b-3a95-b15e-c1a8c552342e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
+  - {name: 'n_233v2.com_20.196.197.142', server: 20.196.197.142, port: 61489, type: vmess, uuid: 1a05cb1a-703d-4b3b-a91f-5bbddabca1df, alterId: 0, cipher: auto, tls: false, network: tcp}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_Daniel_1
-      - 🇭🇰_HK_香港_Daniel_2
-      - 🇭🇰_HK_香港_Daniel_3
-      - 🇰🇷_KR_韩国_Daniel_4
-      - 🇺🇸_US_美国_Daniel_5
-      - 🇰🇷_KR_韩国_Daniel_6
-      - 🇱🇹_LT_立陶宛_Daniel_7
-      - 🇭🇰_HK_香港_Daniel_8
-      - 🇵🇭_PH_菲律宾_Daniel_9
-      - 🇭🇰_HK_香港_Daniel_10
-      - 🇭🇰_HK_香港_Daniel_11
-      - 🇹🇼_TW_台湾_Daniel_12
-      - 🇹🇼_TW_台湾_Daniel_13
-      - 🇹🇼_TW_台湾_Daniel_14
+      - n_233v2.com_20.196.197.142
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰_HK_香港_Daniel_1
-      - 🇭🇰_HK_香港_Daniel_2
-      - 🇭🇰_HK_香港_Daniel_3
-      - 🇰🇷_KR_韩国_Daniel_4
-      - 🇺🇸_US_美国_Daniel_5
-      - 🇰🇷_KR_韩国_Daniel_6
-      - 🇱🇹_LT_立陶宛_Daniel_7
-      - 🇭🇰_HK_香港_Daniel_8
-      - 🇵🇭_PH_菲律宾_Daniel_9
-      - 🇭🇰_HK_香港_Daniel_10
-      - 🇭🇰_HK_香港_Daniel_11
-      - 🇹🇼_TW_台湾_Daniel_12
-      - 🇹🇼_TW_台湾_Daniel_13
-      - 🇹🇼_TW_台湾_Daniel_14
+      - n_233v2.com_20.196.197.142
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_Daniel_1
-      - 🇭🇰_HK_香港_Daniel_2
-      - 🇭🇰_HK_香港_Daniel_3
-      - 🇰🇷_KR_韩国_Daniel_4
-      - 🇺🇸_US_美国_Daniel_5
-      - 🇰🇷_KR_韩国_Daniel_6
-      - 🇱🇹_LT_立陶宛_Daniel_7
-      - 🇭🇰_HK_香港_Daniel_8
-      - 🇵🇭_PH_菲律宾_Daniel_9
-      - 🇭🇰_HK_香港_Daniel_10
-      - 🇭🇰_HK_香港_Daniel_11
-      - 🇹🇼_TW_台湾_Daniel_12
-      - 🇹🇼_TW_台湾_Daniel_13
-      - 🇹🇼_TW_台湾_Daniel_14
+      - n_233v2.com_20.196.197.142
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_Daniel_1
-      - 🇭🇰_HK_香港_Daniel_2
-      - 🇭🇰_HK_香港_Daniel_3
-      - 🇰🇷_KR_韩国_Daniel_4
-      - 🇺🇸_US_美国_Daniel_5
-      - 🇰🇷_KR_韩国_Daniel_6
-      - 🇱🇹_LT_立陶宛_Daniel_7
-      - 🇭🇰_HK_香港_Daniel_8
-      - 🇵🇭_PH_菲律宾_Daniel_9
-      - 🇭🇰_HK_香港_Daniel_10
-      - 🇭🇰_HK_香港_Daniel_11
-      - 🇹🇼_TW_台湾_Daniel_12
-      - 🇹🇼_TW_台湾_Daniel_13
-      - 🇹🇼_TW_台湾_Daniel_14
+      - n_233v2.com_20.196.197.142
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_Daniel_1
-      - 🇭🇰_HK_香港_Daniel_2
-      - 🇭🇰_HK_香港_Daniel_3
-      - 🇰🇷_KR_韩国_Daniel_4
-      - 🇺🇸_US_美国_Daniel_5
-      - 🇰🇷_KR_韩国_Daniel_6
-      - 🇱🇹_LT_立陶宛_Daniel_7
-      - 🇭🇰_HK_香港_Daniel_8
-      - 🇵🇭_PH_菲律宾_Daniel_9
-      - 🇭🇰_HK_香港_Daniel_10
-      - 🇭🇰_HK_香港_Daniel_11
-      - 🇹🇼_TW_台湾_Daniel_12
-      - 🇹🇼_TW_台湾_Daniel_13
-      - 🇹🇼_TW_台湾_Daniel_14
+      - n_233v2.com_20.196.197.142
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_Daniel_1
-      - 🇭🇰_HK_香港_Daniel_2
-      - 🇭🇰_HK_香港_Daniel_3
-      - 🇰🇷_KR_韩国_Daniel_4
-      - 🇺🇸_US_美国_Daniel_5
-      - 🇰🇷_KR_韩国_Daniel_6
-      - 🇱🇹_LT_立陶宛_Daniel_7
-      - 🇭🇰_HK_香港_Daniel_8
-      - 🇵🇭_PH_菲律宾_Daniel_9
-      - 🇭🇰_HK_香港_Daniel_10
-      - 🇭🇰_HK_香港_Daniel_11
-      - 🇹🇼_TW_台湾_Daniel_12
-      - 🇹🇼_TW_台湾_Daniel_13
-      - 🇹🇼_TW_台湾_Daniel_14
+      - n_233v2.com_20.196.197.142
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_Daniel_1
-      - 🇭🇰_HK_香港_Daniel_2
-      - 🇭🇰_HK_香港_Daniel_3
-      - 🇰🇷_KR_韩国_Daniel_4
-      - 🇺🇸_US_美国_Daniel_5
-      - 🇰🇷_KR_韩国_Daniel_6
-      - 🇱🇹_LT_立陶宛_Daniel_7
-      - 🇭🇰_HK_香港_Daniel_8
-      - 🇵🇭_PH_菲律宾_Daniel_9
-      - 🇭🇰_HK_香港_Daniel_10
-      - 🇭🇰_HK_香港_Daniel_11
-      - 🇹🇼_TW_台湾_Daniel_12
-      - 🇹🇼_TW_台湾_Daniel_13
-      - 🇹🇼_TW_台湾_Daniel_14
+      - n_233v2.com_20.196.197.142
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -170,20 +66,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_Daniel_1
-      - 🇭🇰_HK_香港_Daniel_2
-      - 🇭🇰_HK_香港_Daniel_3
-      - 🇰🇷_KR_韩国_Daniel_4
-      - 🇺🇸_US_美国_Daniel_5
-      - 🇰🇷_KR_韩国_Daniel_6
-      - 🇱🇹_LT_立陶宛_Daniel_7
-      - 🇭🇰_HK_香港_Daniel_8
-      - 🇵🇭_PH_菲律宾_Daniel_9
-      - 🇭🇰_HK_香港_Daniel_10
-      - 🇭🇰_HK_香港_Daniel_11
-      - 🇹🇼_TW_台湾_Daniel_12
-      - 🇹🇼_TW_台湾_Daniel_13
-      - 🇹🇼_TW_台湾_Daniel_14
+      - n_233v2.com_20.196.197.142
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
