@@ -669,14 +669,16 @@ proxies:
   - {name: 2.74| 专线西雅图01原生NTT 2 2, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 5.20| 专线香港08原生HGCBBS 3, server: zfd.out02.nodeserver.top, port: 16237, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 2.29| 专线中国台湾03原生HINET 4, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港, server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _HK_香港 2, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _HK_香港 3, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _HK_香港 4, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国, server: 38.114.114.67, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 2, server: 167.88.61.96, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 3, server: 167.88.61.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国 4, server: 167.88.61.60, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国shz, server: shz3.mooncloud.bike, port: 8443, type: vmess, uuid: 57b212be-d6bf-4f5d-98d2-dfe3843c426f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shz3.mooncloud.bike}}, udp: true}
+  - {name: 美国shz（CDN）, server: shz1.mooncloud.bike, port: 8443, type: vmess, uuid: 57b212be-d6bf-4f5d-98d2-dfe3843c426f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shz3.mooncloud.bike}}, udp: true}
+  - {name: 美国inap, server: inapus1.mooncloud.bike, port: 8443, type: vmess, uuid: 57b212be-d6bf-4f5d-98d2-dfe3843c426f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: inapus1.mooncloud.bike}}, udp: true}
+  - {name: 美国inap（CDN）, server: inapus.mooncloud.bike, port: 8443, type: vmess, uuid: 57b212be-d6bf-4f5d-98d2-dfe3843c426f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: inapus1.mooncloud.bike}}, udp: true}
+  - {name: 德国(速度超快), server: 20.79.17.130, port: 10080, type: vmess, uuid: 57b212be-d6bf-4f5d-98d2-dfe3843c426f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20.79.17.130}}, udp: true}
+  - {name: 德国ipv6, server: v6d.mooncloud.bike, port: 8443, type: vmess, uuid: 57b212be-d6bf-4f5d-98d2-dfe3843c426f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6d.mooncloud.bike}}, udp: true}
+  - {name: 德国(CDN), server: v6d1.mooncloud.bike, port: 8443, type: vmess, uuid: 57b212be-d6bf-4f5d-98d2-dfe3843c426f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6d.mooncloud.bike}}, udp: true}
+  - {name: 欧洲, server: oz.mooncloud.bike, port: 8443, type: vmess, uuid: 57b212be-d6bf-4f5d-98d2-dfe3843c426f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.mooncloud.bike}}, udp: true}
+  - {name: 欧洲(CDN), server: oz1.mooncloud.bike, port: 8443, type: vmess, uuid: 57b212be-d6bf-4f5d-98d2-dfe3843c426f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.mooncloud.bike}}, udp: true}
+  - {name: 美国pr(CDN), server: pr1.mooncloud.bike, port: 8443, type: vmess, uuid: 57b212be-d6bf-4f5d-98d2-dfe3843c426f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pr1.mooncloud.bike}}, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2216,14 +2218,16 @@ proxy-groups:
       - 2.74| 专线西雅图01原生NTT 2 2
       - 5.20| 专线香港08原生HGCBBS 3
       - 2.29| 专线中国台湾03原生HINET 4
-      - _HK_香港
-      - _HK_香港 2
-      - _HK_香港 3
-      - _HK_香港 4
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
+      - 美国shz
+      - 美国shz（CDN）
+      - 美国inap
+      - 美国inap（CDN）
+      - 德国(速度超快)
+      - 德国ipv6
+      - 德国(CDN)
+      - 欧洲
+      - 欧洲(CDN)
+      - 美国pr(CDN)
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3752,14 +3756,16 @@ proxy-groups:
       - 2.74| 专线西雅图01原生NTT 2 2
       - 5.20| 专线香港08原生HGCBBS 3
       - 2.29| 专线中国台湾03原生HINET 4
-      - _HK_香港
-      - _HK_香港 2
-      - _HK_香港 3
-      - _HK_香港 4
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
+      - 美国shz
+      - 美国shz（CDN）
+      - 美国inap
+      - 美国inap（CDN）
+      - 德国(速度超快)
+      - 德国ipv6
+      - 德国(CDN)
+      - 欧洲
+      - 欧洲(CDN)
+      - 美国pr(CDN)
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4863,10 +4869,6 @@ proxy-groups:
       - 香港 HKT02 移动_14
       - 香港 HKT04 移动_15
       - 5.20| 专线香港08原生HGCBBS 3
-      - _HK_香港
-      - _HK_香港 2
-      - _HK_香港 3
-      - _HK_香港 4
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -5225,10 +5227,11 @@ proxy-groups:
       - 美国
       - 2.74| 专线西雅图01原生NTT 4
       - 2.74| 专线西雅图01原生NTT 2 2
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
+      - 美国shz
+      - 美国shz（CDN）
+      - 美国inap
+      - 美国inap（CDN）
+      - 美国pr(CDN)
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
