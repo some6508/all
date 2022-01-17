@@ -5,124 +5,116 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇭🇰_HK_香港_1', server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '🇯🇵_JP_日本_2', server: 172.105.234.211, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '🇭🇰_HK_香港_3', server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '🇭🇰_HK_香港_4', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇸🇬_SG_新加坡_5', server: 172.104.44.88, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '🇭🇰_HK_香港_6', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇸🇬_SG_新加坡_7', server: 172.104.44.88, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇸🇬_SG_新加坡_8', server: 172.104.44.88, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇯🇵_JP_日本_9', server: 5.180.76.74, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'default_name_10', server: 20.205.106.28, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
+  - {name: '@vpnhat：99.91%|97.57TB|2022-03-29_1', server: vpnhat.vpnpool.EXTM3U, port: 10086, type: vmess, uuid: f27f36fb-3967-3efe-beeb-1d8827ce1b5b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/hls/cctv5phd.m3u8", host: t.me/vpnhat }}
+  - {name: '东京高速【Netflix】_2', server: jp2.zzjs.site, port: 31621, type: vmess, uuid: f27f36fb-3967-3efe-beeb-1d8827ce1b5b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/hls/cctv5phd.m3u8", host: t.me/vpnhat }}
+  - {name: '日本普通AWS_3', server: jppt2.zzjs.site, port: 21845, type: vmess, uuid: f27f36fb-3967-3efe-beeb-1d8827ce1b5b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/hls/cctv5phd.m3u8", host: t.me/vpnhat }}
+  - {name: '美国AWS俄勒冈_4', server: us2.zzjs.site, port: 32354, type: vmess, uuid: f27f36fb-3967-3efe-beeb-1d8827ce1b5b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/hls/cctv5phd.m3u8", host: t.me/vpnhat }}
+  - {name: '洛杉矶高速【Netflix】_5', server: us6.zzjs.site, port: 33440, type: vmess, uuid: f27f36fb-3967-3efe-beeb-1d8827ce1b5b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/hls/cctv5phd.m3u8", host: t.me/vpnhat }}
+  - {name: '洛杉矶高速【联通推荐】【解锁所有美区流媒体】_6', server: us9.zzjs.site, port: 32355, type: vmess, uuid: f27f36fb-3967-3efe-beeb-1d8827ce1b5b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/hls/cctv5phd.m3u8", host: t.me/vpnhat }}
+  - {name: '英国伦敦普通_7', server: uk1.zzjs.site, port: 23628, type: vmess, uuid: f27f36fb-3967-3efe-beeb-1d8827ce1b5b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/hls/cctv5phd.m3u8", host: t.me/vpnhat }}
+  - {name: '美国普通AWS_8', server: uspt2.zzjs.site, port: 26328, type: vmess, uuid: f27f36fb-3967-3efe-beeb-1d8827ce1b5b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/hls/cctv5phd.m3u8", host: t.me/vpnhat }}
+  - {name: '日本普通AWS_9', server: jppt1.zzjs.site, port: 24637, type: vmess, uuid: f27f36fb-3967-3efe-beeb-1d8827ce1b5b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/hls/cctv5phd.m3u8", host: t.me/vpnhat }}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - @vpnhat：99.91%|97.57TB|2022-03-29_1
+      - 东京高速【Netflix】_2
+      - 日本普通AWS_3
+      - 美国AWS俄勒冈_4
+      - 洛杉矶高速【Netflix】_5
+      - 洛杉矶高速【联通推荐】【解锁所有美区流媒体】_6
+      - 英国伦敦普通_7
+      - 美国普通AWS_8
+      - 日本普通AWS_9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - @vpnhat：99.91%|97.57TB|2022-03-29_1
+      - 东京高速【Netflix】_2
+      - 日本普通AWS_3
+      - 美国AWS俄勒冈_4
+      - 洛杉矶高速【Netflix】_5
+      - 洛杉矶高速【联通推荐】【解锁所有美区流媒体】_6
+      - 英国伦敦普通_7
+      - 美国普通AWS_8
+      - 日本普通AWS_9
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - @vpnhat：99.91%|97.57TB|2022-03-29_1
+      - 东京高速【Netflix】_2
+      - 日本普通AWS_3
+      - 美国AWS俄勒冈_4
+      - 洛杉矶高速【Netflix】_5
+      - 洛杉矶高速【联通推荐】【解锁所有美区流媒体】_6
+      - 英国伦敦普通_7
+      - 美国普通AWS_8
+      - 日本普通AWS_9
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - @vpnhat：99.91%|97.57TB|2022-03-29_1
+      - 东京高速【Netflix】_2
+      - 日本普通AWS_3
+      - 美国AWS俄勒冈_4
+      - 洛杉矶高速【Netflix】_5
+      - 洛杉矶高速【联通推荐】【解锁所有美区流媒体】_6
+      - 英国伦敦普通_7
+      - 美国普通AWS_8
+      - 日本普通AWS_9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - @vpnhat：99.91%|97.57TB|2022-03-29_1
+      - 东京高速【Netflix】_2
+      - 日本普通AWS_3
+      - 美国AWS俄勒冈_4
+      - 洛杉矶高速【Netflix】_5
+      - 洛杉矶高速【联通推荐】【解锁所有美区流媒体】_6
+      - 英国伦敦普通_7
+      - 美国普通AWS_8
+      - 日本普通AWS_9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - @vpnhat：99.91%|97.57TB|2022-03-29_1
+      - 东京高速【Netflix】_2
+      - 日本普通AWS_3
+      - 美国AWS俄勒冈_4
+      - 洛杉矶高速【Netflix】_5
+      - 洛杉矶高速【联通推荐】【解锁所有美区流媒体】_6
+      - 英国伦敦普通_7
+      - 美国普通AWS_8
+      - 日本普通AWS_9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - @vpnhat：99.91%|97.57TB|2022-03-29_1
+      - 东京高速【Netflix】_2
+      - 日本普通AWS_3
+      - 美国AWS俄勒冈_4
+      - 洛杉矶高速【Netflix】_5
+      - 洛杉矶高速【联通推荐】【解锁所有美区流媒体】_6
+      - 英国伦敦普通_7
+      - 美国普通AWS_8
+      - 日本普通AWS_9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +130,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - @vpnhat：99.91%|97.57TB|2022-03-29_1
+      - 东京高速【Netflix】_2
+      - 日本普通AWS_3
+      - 美国AWS俄勒冈_4
+      - 洛杉矶高速【Netflix】_5
+      - 洛杉矶高速【联通推荐】【解锁所有美区流媒体】_6
+      - 英国伦敦普通_7
+      - 美国普通AWS_8
+      - 日本普通AWS_9
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
