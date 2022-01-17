@@ -5,124 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'default_name_1', server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/The-Great-Awakening_vws", host: vincent-jackson2021.ga }}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2', server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: '🇸🇬_SG_新加坡_3', server: 43.135.158.134, port: 443, type: vmess, uuid: 454b1d77-cf64-4971-8cfd-d2932a4f49a0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/BGfcXfYN9", host: 10086.ezydfdd.com }}
-  - {name: '🇺🇸_US_美国_4', server: v8.ssrsub.com, port: 443, type: vmess, uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: '🇺🇸_US_美国_5', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: 'default_name_6', server: v6d1.mooncloud.bike, port: 8443, type: vmess, uuid: f1533fd1-4562-4935-a1e6-832685d4a919, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: v6d.mooncloud.bike }}
-  - {name: '🇺🇸_US_美国->🇫🇷_FR_法国_7', server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/shuier", host: xc1.v2rie.pp.ua }}
-  - {name: '🇿🇦_ZA_南非_8', server: 13.245.199.187, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: Eiha7iew.com }}
-  - {name: '🇺🇸_US_美国->🇯🇵_JP_日本_9', server: rb1.moonfree.top, port: 8443, type: vmess, uuid: f1533fd1-4562-4935-a1e6-832685d4a919, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: rb.moonfree.top }}
-  - {name: 'default_name_10', server: 198.41.212.8, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
+  - {name: '🇺🇸_US_美国_1', server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - default_name_1
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - default_name_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇿🇦_ZA_南非_8
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_9
-      - default_name_10
+      - 🇺🇸_US_美国_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - default_name_1
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - default_name_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇿🇦_ZA_南非_8
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_9
-      - default_name_10
+      - 🇺🇸_US_美国_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - default_name_1
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - default_name_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇿🇦_ZA_南非_8
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_9
-      - default_name_10
+      - 🇺🇸_US_美国_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - default_name_1
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - default_name_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇿🇦_ZA_南非_8
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_9
-      - default_name_10
+      - 🇺🇸_US_美国_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - default_name_1
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - default_name_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇿🇦_ZA_南非_8
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_9
-      - default_name_10
+      - 🇺🇸_US_美国_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - default_name_1
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - default_name_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇿🇦_ZA_南非_8
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_9
-      - default_name_10
+      - 🇺🇸_US_美国_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - default_name_1
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - default_name_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇿🇦_ZA_南非_8
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_9
-      - default_name_10
+      - 🇺🇸_US_美国_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +66,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - default_name_1
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - default_name_6
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_7
-      - 🇿🇦_ZA_南非_8
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_9
-      - default_name_10
+      - 🇺🇸_US_美国_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
