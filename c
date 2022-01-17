@@ -5,124 +5,252 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇭🇰_HK_香港_1', server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '🇯🇵_JP_日本_2', server: 172.105.234.211, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '🇭🇰_HK_香港_3', server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '🇭🇰_HK_香港_4', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇸🇬_SG_新加坡_5', server: 172.104.44.88, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '🇭🇰_HK_香港_6', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇸🇬_SG_新加坡_7', server: 172.104.44.88, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇸🇬_SG_新加坡_8', server: 172.104.44.88, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇯🇵_JP_日本_9', server: 5.180.76.74, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'default_name_10', server: 20.205.106.28, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
+  - {name: '最新官网地址：https://www.v2gyy.com_1', server: gy.a8.nkeo.top, port: 25080, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: '官方TG群：https://t.me/v2gyy_2', server: gy.a8.nkeo.top, port: 25080, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: '如果您不能使用请更新您的客户端为最新版本_3', server: gy.a8.nkeo.top, port: 25080, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'HK/香港SS-01 - 1000M - 1X_4', server: cs.v2bees.net, port: 25120, type: ss, cipher: chacha20-ietf-poly1305, password: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb}
+  - {name: 'HK/香港SS-02 - 1000M - 1X_5', server: cs.v2bees.net, port: 25126, type: ss, cipher: chacha20-ietf-poly1305, password: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb}
+  - {name: 'HK/香港SS-03 - 1000M - 1X_6', server: cs.v2bees.net, port: 25131, type: ss, cipher: chacha20-ietf-poly1305, password: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb}
+  - {name: 'HK/香港SS-04 - 1000M - 1X_7', server: cs.v2bees.net, port: 25134, type: ss, cipher: chacha20-ietf-poly1305, password: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb}
+  - {name: 'HK/香港SS-05 - 1000M - 1X_8', server: cs.v2bees.net, port: 25137, type: ss, cipher: chacha20-ietf-poly1305, password: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb}
+  - {name: 'HK/香港SS-06 - 1000M - 2X-流媒体解锁_9', server: gza8.v2bees.net, port: 45214, type: ss, cipher: chacha20-ietf-poly1305, password: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb}
+  - {name: 'HK/香港01 - 1000M - 1X_10', server: gza8.v2bees.net, port: 25080, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'HK/香港02 - 1000M - 1X_11', server: fs.01.nkeo.top, port: 25068, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'HK/香港03 - 1000M - 1X_12', server: cs.lt.nkeo.top, port: 25378, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'HK/香港04 - 1000M - 1X_13', server: cs.lt.nkeo.top, port: 25379, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'HK/香港05 - 1000M - 1X_14', server: cs.lt.nkeo.top, port: 25377, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'SG/新加坡01 - 1000M - 1X_15', server: gza8.v2bees.net, port: 25098, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'SG/新加坡02 - 1000M - 1X_16', server: gza8.v2bees.net, port: 25101, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'SG/新加坡03 - 1000M - 1X_17', server: gza8.v2bees.net, port: 25103, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'JP/日本01 - 1000M - 1X_18', server: gza8.v2bees.net, port: 25158, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'JP/日本02 - 1000M - 1X_19', server: gza8.v2bees.net, port: 25159, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'JP/日本03 - 1000M - 1X_20', server: gza8.v2bees.net, port: 25160, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'HK/香港01 - 1000M - 2X - 流媒体解锁_21', server: gza8.v2bees.net, port: 25087, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'HK/香港02 - 1000M - 2X - 流媒体解锁_22', server: gza8.v2bees.net, port: 45437, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'HK/香港03 - 1000M - 2X - 流媒体解锁_23', server: gza8.v2bees.net, port: 25164, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'TW/台湾01 - 1000M - 2X - 流媒体解锁_24', server: gza8.v2bees.net, port: 45037, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'US/美国01 - 1000M - 2X - 流媒体解锁_25', server: gza8.v2bees.net, port: 45028, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
+  - {name: 'VN/越南01 - 1000M - 2X - 流媒体解锁_26', server: ah.cu.nkeo.top, port: 25187, type: vmess, uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/images", host: v.qq.com }}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - 最新官网地址：https://www.v2gyy.com_1
+      - 官方TG群：https://t.me/v2gyy_2
+      - 如果您不能使用请更新您的客户端为最新版本_3
+      - HK/香港SS-01 - 1000M - 1X_4
+      - HK/香港SS-02 - 1000M - 1X_5
+      - HK/香港SS-03 - 1000M - 1X_6
+      - HK/香港SS-04 - 1000M - 1X_7
+      - HK/香港SS-05 - 1000M - 1X_8
+      - HK/香港SS-06 - 1000M - 2X-流媒体解锁_9
+      - HK/香港01 - 1000M - 1X_10
+      - HK/香港02 - 1000M - 1X_11
+      - HK/香港03 - 1000M - 1X_12
+      - HK/香港04 - 1000M - 1X_13
+      - HK/香港05 - 1000M - 1X_14
+      - SG/新加坡01 - 1000M - 1X_15
+      - SG/新加坡02 - 1000M - 1X_16
+      - SG/新加坡03 - 1000M - 1X_17
+      - JP/日本01 - 1000M - 1X_18
+      - JP/日本02 - 1000M - 1X_19
+      - JP/日本03 - 1000M - 1X_20
+      - HK/香港01 - 1000M - 2X - 流媒体解锁_21
+      - HK/香港02 - 1000M - 2X - 流媒体解锁_22
+      - HK/香港03 - 1000M - 2X - 流媒体解锁_23
+      - TW/台湾01 - 1000M - 2X - 流媒体解锁_24
+      - US/美国01 - 1000M - 2X - 流媒体解锁_25
+      - VN/越南01 - 1000M - 2X - 流媒体解锁_26
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - 最新官网地址：https://www.v2gyy.com_1
+      - 官方TG群：https://t.me/v2gyy_2
+      - 如果您不能使用请更新您的客户端为最新版本_3
+      - HK/香港SS-01 - 1000M - 1X_4
+      - HK/香港SS-02 - 1000M - 1X_5
+      - HK/香港SS-03 - 1000M - 1X_6
+      - HK/香港SS-04 - 1000M - 1X_7
+      - HK/香港SS-05 - 1000M - 1X_8
+      - HK/香港SS-06 - 1000M - 2X-流媒体解锁_9
+      - HK/香港01 - 1000M - 1X_10
+      - HK/香港02 - 1000M - 1X_11
+      - HK/香港03 - 1000M - 1X_12
+      - HK/香港04 - 1000M - 1X_13
+      - HK/香港05 - 1000M - 1X_14
+      - SG/新加坡01 - 1000M - 1X_15
+      - SG/新加坡02 - 1000M - 1X_16
+      - SG/新加坡03 - 1000M - 1X_17
+      - JP/日本01 - 1000M - 1X_18
+      - JP/日本02 - 1000M - 1X_19
+      - JP/日本03 - 1000M - 1X_20
+      - HK/香港01 - 1000M - 2X - 流媒体解锁_21
+      - HK/香港02 - 1000M - 2X - 流媒体解锁_22
+      - HK/香港03 - 1000M - 2X - 流媒体解锁_23
+      - TW/台湾01 - 1000M - 2X - 流媒体解锁_24
+      - US/美国01 - 1000M - 2X - 流媒体解锁_25
+      - VN/越南01 - 1000M - 2X - 流媒体解锁_26
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - 最新官网地址：https://www.v2gyy.com_1
+      - 官方TG群：https://t.me/v2gyy_2
+      - 如果您不能使用请更新您的客户端为最新版本_3
+      - HK/香港SS-01 - 1000M - 1X_4
+      - HK/香港SS-02 - 1000M - 1X_5
+      - HK/香港SS-03 - 1000M - 1X_6
+      - HK/香港SS-04 - 1000M - 1X_7
+      - HK/香港SS-05 - 1000M - 1X_8
+      - HK/香港SS-06 - 1000M - 2X-流媒体解锁_9
+      - HK/香港01 - 1000M - 1X_10
+      - HK/香港02 - 1000M - 1X_11
+      - HK/香港03 - 1000M - 1X_12
+      - HK/香港04 - 1000M - 1X_13
+      - HK/香港05 - 1000M - 1X_14
+      - SG/新加坡01 - 1000M - 1X_15
+      - SG/新加坡02 - 1000M - 1X_16
+      - SG/新加坡03 - 1000M - 1X_17
+      - JP/日本01 - 1000M - 1X_18
+      - JP/日本02 - 1000M - 1X_19
+      - JP/日本03 - 1000M - 1X_20
+      - HK/香港01 - 1000M - 2X - 流媒体解锁_21
+      - HK/香港02 - 1000M - 2X - 流媒体解锁_22
+      - HK/香港03 - 1000M - 2X - 流媒体解锁_23
+      - TW/台湾01 - 1000M - 2X - 流媒体解锁_24
+      - US/美国01 - 1000M - 2X - 流媒体解锁_25
+      - VN/越南01 - 1000M - 2X - 流媒体解锁_26
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - 最新官网地址：https://www.v2gyy.com_1
+      - 官方TG群：https://t.me/v2gyy_2
+      - 如果您不能使用请更新您的客户端为最新版本_3
+      - HK/香港SS-01 - 1000M - 1X_4
+      - HK/香港SS-02 - 1000M - 1X_5
+      - HK/香港SS-03 - 1000M - 1X_6
+      - HK/香港SS-04 - 1000M - 1X_7
+      - HK/香港SS-05 - 1000M - 1X_8
+      - HK/香港SS-06 - 1000M - 2X-流媒体解锁_9
+      - HK/香港01 - 1000M - 1X_10
+      - HK/香港02 - 1000M - 1X_11
+      - HK/香港03 - 1000M - 1X_12
+      - HK/香港04 - 1000M - 1X_13
+      - HK/香港05 - 1000M - 1X_14
+      - SG/新加坡01 - 1000M - 1X_15
+      - SG/新加坡02 - 1000M - 1X_16
+      - SG/新加坡03 - 1000M - 1X_17
+      - JP/日本01 - 1000M - 1X_18
+      - JP/日本02 - 1000M - 1X_19
+      - JP/日本03 - 1000M - 1X_20
+      - HK/香港01 - 1000M - 2X - 流媒体解锁_21
+      - HK/香港02 - 1000M - 2X - 流媒体解锁_22
+      - HK/香港03 - 1000M - 2X - 流媒体解锁_23
+      - TW/台湾01 - 1000M - 2X - 流媒体解锁_24
+      - US/美国01 - 1000M - 2X - 流媒体解锁_25
+      - VN/越南01 - 1000M - 2X - 流媒体解锁_26
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - 最新官网地址：https://www.v2gyy.com_1
+      - 官方TG群：https://t.me/v2gyy_2
+      - 如果您不能使用请更新您的客户端为最新版本_3
+      - HK/香港SS-01 - 1000M - 1X_4
+      - HK/香港SS-02 - 1000M - 1X_5
+      - HK/香港SS-03 - 1000M - 1X_6
+      - HK/香港SS-04 - 1000M - 1X_7
+      - HK/香港SS-05 - 1000M - 1X_8
+      - HK/香港SS-06 - 1000M - 2X-流媒体解锁_9
+      - HK/香港01 - 1000M - 1X_10
+      - HK/香港02 - 1000M - 1X_11
+      - HK/香港03 - 1000M - 1X_12
+      - HK/香港04 - 1000M - 1X_13
+      - HK/香港05 - 1000M - 1X_14
+      - SG/新加坡01 - 1000M - 1X_15
+      - SG/新加坡02 - 1000M - 1X_16
+      - SG/新加坡03 - 1000M - 1X_17
+      - JP/日本01 - 1000M - 1X_18
+      - JP/日本02 - 1000M - 1X_19
+      - JP/日本03 - 1000M - 1X_20
+      - HK/香港01 - 1000M - 2X - 流媒体解锁_21
+      - HK/香港02 - 1000M - 2X - 流媒体解锁_22
+      - HK/香港03 - 1000M - 2X - 流媒体解锁_23
+      - TW/台湾01 - 1000M - 2X - 流媒体解锁_24
+      - US/美国01 - 1000M - 2X - 流媒体解锁_25
+      - VN/越南01 - 1000M - 2X - 流媒体解锁_26
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - 最新官网地址：https://www.v2gyy.com_1
+      - 官方TG群：https://t.me/v2gyy_2
+      - 如果您不能使用请更新您的客户端为最新版本_3
+      - HK/香港SS-01 - 1000M - 1X_4
+      - HK/香港SS-02 - 1000M - 1X_5
+      - HK/香港SS-03 - 1000M - 1X_6
+      - HK/香港SS-04 - 1000M - 1X_7
+      - HK/香港SS-05 - 1000M - 1X_8
+      - HK/香港SS-06 - 1000M - 2X-流媒体解锁_9
+      - HK/香港01 - 1000M - 1X_10
+      - HK/香港02 - 1000M - 1X_11
+      - HK/香港03 - 1000M - 1X_12
+      - HK/香港04 - 1000M - 1X_13
+      - HK/香港05 - 1000M - 1X_14
+      - SG/新加坡01 - 1000M - 1X_15
+      - SG/新加坡02 - 1000M - 1X_16
+      - SG/新加坡03 - 1000M - 1X_17
+      - JP/日本01 - 1000M - 1X_18
+      - JP/日本02 - 1000M - 1X_19
+      - JP/日本03 - 1000M - 1X_20
+      - HK/香港01 - 1000M - 2X - 流媒体解锁_21
+      - HK/香港02 - 1000M - 2X - 流媒体解锁_22
+      - HK/香港03 - 1000M - 2X - 流媒体解锁_23
+      - TW/台湾01 - 1000M - 2X - 流媒体解锁_24
+      - US/美国01 - 1000M - 2X - 流媒体解锁_25
+      - VN/越南01 - 1000M - 2X - 流媒体解锁_26
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - 最新官网地址：https://www.v2gyy.com_1
+      - 官方TG群：https://t.me/v2gyy_2
+      - 如果您不能使用请更新您的客户端为最新版本_3
+      - HK/香港SS-01 - 1000M - 1X_4
+      - HK/香港SS-02 - 1000M - 1X_5
+      - HK/香港SS-03 - 1000M - 1X_6
+      - HK/香港SS-04 - 1000M - 1X_7
+      - HK/香港SS-05 - 1000M - 1X_8
+      - HK/香港SS-06 - 1000M - 2X-流媒体解锁_9
+      - HK/香港01 - 1000M - 1X_10
+      - HK/香港02 - 1000M - 1X_11
+      - HK/香港03 - 1000M - 1X_12
+      - HK/香港04 - 1000M - 1X_13
+      - HK/香港05 - 1000M - 1X_14
+      - SG/新加坡01 - 1000M - 1X_15
+      - SG/新加坡02 - 1000M - 1X_16
+      - SG/新加坡03 - 1000M - 1X_17
+      - JP/日本01 - 1000M - 1X_18
+      - JP/日本02 - 1000M - 1X_19
+      - JP/日本03 - 1000M - 1X_20
+      - HK/香港01 - 1000M - 2X - 流媒体解锁_21
+      - HK/香港02 - 1000M - 2X - 流媒体解锁_22
+      - HK/香港03 - 1000M - 2X - 流媒体解锁_23
+      - TW/台湾01 - 1000M - 2X - 流媒体解锁_24
+      - US/美国01 - 1000M - 2X - 流媒体解锁_25
+      - VN/越南01 - 1000M - 2X - 流媒体解锁_26
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +266,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇭🇰_HK_香港_6
-      - 🇸🇬_SG_新加坡_7
-      - 🇸🇬_SG_新加坡_8
-      - 🇯🇵_JP_日本_9
-      - default_name_10
+      - 最新官网地址：https://www.v2gyy.com_1
+      - 官方TG群：https://t.me/v2gyy_2
+      - 如果您不能使用请更新您的客户端为最新版本_3
+      - HK/香港SS-01 - 1000M - 1X_4
+      - HK/香港SS-02 - 1000M - 1X_5
+      - HK/香港SS-03 - 1000M - 1X_6
+      - HK/香港SS-04 - 1000M - 1X_7
+      - HK/香港SS-05 - 1000M - 1X_8
+      - HK/香港SS-06 - 1000M - 2X-流媒体解锁_9
+      - HK/香港01 - 1000M - 1X_10
+      - HK/香港02 - 1000M - 1X_11
+      - HK/香港03 - 1000M - 1X_12
+      - HK/香港04 - 1000M - 1X_13
+      - HK/香港05 - 1000M - 1X_14
+      - SG/新加坡01 - 1000M - 1X_15
+      - SG/新加坡02 - 1000M - 1X_16
+      - SG/新加坡03 - 1000M - 1X_17
+      - JP/日本01 - 1000M - 1X_18
+      - JP/日本02 - 1000M - 1X_19
+      - JP/日本03 - 1000M - 1X_20
+      - HK/香港01 - 1000M - 2X - 流媒体解锁_21
+      - HK/香港02 - 1000M - 2X - 流媒体解锁_22
+      - HK/香港03 - 1000M - 2X - 流媒体解锁_23
+      - TW/台湾01 - 1000M - 2X - 流媒体解锁_24
+      - US/美国01 - 1000M - 2X - 流媒体解锁_25
+      - VN/越南01 - 1000M - 2X - 流媒体解锁_26
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
