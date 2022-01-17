@@ -5,156 +5,76 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '美国②-az千兆_1', server: us2.otwc-node.cc, port: 88, type: vmess, uuid: 74c0d343-aad2-4a4b-8482-15e0e8ce89d5, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '韩国①-az千兆_2', server: kr1.otwc-node.cc, port: 88, type: vmess, uuid: 74c0d343-aad2-4a4b-8482-15e0e8ce89d5, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '韩国②-az千兆_3', server: kr2.otwc-node.cc, port: 88, type: vmess, uuid: 74c0d343-aad2-4a4b-8482-15e0e8ce89d5, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '美国①-az千兆_4', server: us1.otwc-node.cc, port: 88, type: vmess, uuid: 74c0d343-aad2-4a4b-8482-15e0e8ce89d5, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '香港③-az千兆_5', server: hk3.otwc-node.cc, port: 88, type: vmess, uuid: 74c0d343-aad2-4a4b-8482-15e0e8ce89d5, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '香港④-az千兆_6', server: hk4.otwc-node.cc, port: 88, type: vmess, uuid: 74c0d343-aad2-4a4b-8482-15e0e8ce89d5, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '新加坡③-az千兆_7', server: sg3.otwc-node.cc, port: 88, type: vmess, uuid: 74c0d343-aad2-4a4b-8482-15e0e8ce89d5, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '日本①-az千兆_8', server: jp1.otwc-node.cc, port: 88, type: vmess, uuid: 74c0d343-aad2-4a4b-8482-15e0e8ce89d5, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '日本②-az千兆_9', server: jp2.otwc-node.cc, port: 88, type: vmess, uuid: 74c0d343-aad2-4a4b-8482-15e0e8ce89d5, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '香港②-az千兆_10', server: hk2.otwc-node.cc, port: 88, type: vmess, uuid: 74c0d343-aad2-4a4b-8482-15e0e8ce89d5, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '新加坡②-az千兆_11', server: sg2.otwc-node.cc, port: 88, type: vmess, uuid: 74c0d343-aad2-4a4b-8482-15e0e8ce89d5, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '新加坡①-az千兆_12', server: sg1.otwc-node.cc, port: 88, type: vmess, uuid: 74c0d343-aad2-4a4b-8482-15e0e8ce89d5, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '香港①-az千兆_13', server: hk1.otwc-node.cc, port: 88, type: vmess, uuid: 74c0d343-aad2-4a4b-8482-15e0e8ce89d5, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '日本③-az千兆_14', server: jp3.otwc-node.cc, port: 88, type: vmess, uuid: 74c0d343-aad2-4a4b-8482-15e0e8ce89d5, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🇺🇸_US_美国_1', server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_2', server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: amu1ahfi.com }}
+  - {name: '🇯🇵_JP_日本_3', server: 85.208.110.2, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国_4', server: 38.86.135.27, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国②-az千兆_1
-      - 韩国①-az千兆_2
-      - 韩国②-az千兆_3
-      - 美国①-az千兆_4
-      - 香港③-az千兆_5
-      - 香港④-az千兆_6
-      - 新加坡③-az千兆_7
-      - 日本①-az千兆_8
-      - 日本②-az千兆_9
-      - 香港②-az千兆_10
-      - 新加坡②-az千兆_11
-      - 新加坡①-az千兆_12
-      - 香港①-az千兆_13
-      - 日本③-az千兆_14
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本_3
+      - 🇺🇸_US_美国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国②-az千兆_1
-      - 韩国①-az千兆_2
-      - 韩国②-az千兆_3
-      - 美国①-az千兆_4
-      - 香港③-az千兆_5
-      - 香港④-az千兆_6
-      - 新加坡③-az千兆_7
-      - 日本①-az千兆_8
-      - 日本②-az千兆_9
-      - 香港②-az千兆_10
-      - 新加坡②-az千兆_11
-      - 新加坡①-az千兆_12
-      - 香港①-az千兆_13
-      - 日本③-az千兆_14
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本_3
+      - 🇺🇸_US_美国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国②-az千兆_1
-      - 韩国①-az千兆_2
-      - 韩国②-az千兆_3
-      - 美国①-az千兆_4
-      - 香港③-az千兆_5
-      - 香港④-az千兆_6
-      - 新加坡③-az千兆_7
-      - 日本①-az千兆_8
-      - 日本②-az千兆_9
-      - 香港②-az千兆_10
-      - 新加坡②-az千兆_11
-      - 新加坡①-az千兆_12
-      - 香港①-az千兆_13
-      - 日本③-az千兆_14
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本_3
+      - 🇺🇸_US_美国_4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国②-az千兆_1
-      - 韩国①-az千兆_2
-      - 韩国②-az千兆_3
-      - 美国①-az千兆_4
-      - 香港③-az千兆_5
-      - 香港④-az千兆_6
-      - 新加坡③-az千兆_7
-      - 日本①-az千兆_8
-      - 日本②-az千兆_9
-      - 香港②-az千兆_10
-      - 新加坡②-az千兆_11
-      - 新加坡①-az千兆_12
-      - 香港①-az千兆_13
-      - 日本③-az千兆_14
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本_3
+      - 🇺🇸_US_美国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国②-az千兆_1
-      - 韩国①-az千兆_2
-      - 韩国②-az千兆_3
-      - 美国①-az千兆_4
-      - 香港③-az千兆_5
-      - 香港④-az千兆_6
-      - 新加坡③-az千兆_7
-      - 日本①-az千兆_8
-      - 日本②-az千兆_9
-      - 香港②-az千兆_10
-      - 新加坡②-az千兆_11
-      - 新加坡①-az千兆_12
-      - 香港①-az千兆_13
-      - 日本③-az千兆_14
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本_3
+      - 🇺🇸_US_美国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国②-az千兆_1
-      - 韩国①-az千兆_2
-      - 韩国②-az千兆_3
-      - 美国①-az千兆_4
-      - 香港③-az千兆_5
-      - 香港④-az千兆_6
-      - 新加坡③-az千兆_7
-      - 日本①-az千兆_8
-      - 日本②-az千兆_9
-      - 香港②-az千兆_10
-      - 新加坡②-az千兆_11
-      - 新加坡①-az千兆_12
-      - 香港①-az千兆_13
-      - 日本③-az千兆_14
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本_3
+      - 🇺🇸_US_美国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国②-az千兆_1
-      - 韩国①-az千兆_2
-      - 韩国②-az千兆_3
-      - 美国①-az千兆_4
-      - 香港③-az千兆_5
-      - 香港④-az千兆_6
-      - 新加坡③-az千兆_7
-      - 日本①-az千兆_8
-      - 日本②-az千兆_9
-      - 香港②-az千兆_10
-      - 新加坡②-az千兆_11
-      - 新加坡①-az千兆_12
-      - 香港①-az千兆_13
-      - 日本③-az千兆_14
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本_3
+      - 🇺🇸_US_美国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -170,20 +90,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国②-az千兆_1
-      - 韩国①-az千兆_2
-      - 韩国②-az千兆_3
-      - 美国①-az千兆_4
-      - 香港③-az千兆_5
-      - 香港④-az千兆_6
-      - 新加坡③-az千兆_7
-      - 日本①-az千兆_8
-      - 日本②-az千兆_9
-      - 香港②-az千兆_10
-      - 新加坡②-az千兆_11
-      - 新加坡①-az千兆_12
-      - 香港①-az千兆_13
-      - 日本③-az千兆_14
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本_3
+      - 🇺🇸_US_美国_4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
