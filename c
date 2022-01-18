@@ -5,100 +5,404 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇭🇰_HK_香港_1', server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇭🇰_HK_香港_2', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇭🇰_HK_香港_3', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇭🇰_HK_香港_4', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇭🇰_HK_香港_5', server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '🇭🇰_HK_香港_6', server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '🇭🇰_HK_香港_7', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🍄🍄華人社區_經紀人CC🍄🍄_134', server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: 'Ytb:鹏哥分享_US_美国_6', server: 167.88.61.96, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🍄🍄華人社區_經紀人CC🍄🍄_164', server: 167.88.61.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_4', server: 167.88.63.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_5', server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_6', server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_7', server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_8', server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_9', server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_5000+@WangCai_1', server: 38.86.135.27, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_11', server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_12', server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧GB_6379+@WangCai_1', server: 212.38.189.174, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🍄🍄華人社區_經紀人CC🍄🍄_414', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
+  - {name: '🇺🇸_US_美国_15', server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸US_8882+@WangCai_1', server: 38.86.135.27, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇬🇧GB_8882+@WangCai_1', server: 212.38.189.174, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_18', server: 167.88.63.74, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_8881+@WangCai_1', server: 38.86.135.27, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸US_8118+@WangCai_1', server: 38.86.135.27, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇬🇧GB_5500+@WangCai_1', server: 212.38.189.174, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸US_8009+@WangCai_1', server: 38.86.135.27, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸US_9102+@WangCai_1', server: 38.86.135.27, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_US_美国_24', server: 169.197.142.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇬🇧GB_5600+@WangCai_1', server: 212.38.189.174, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇬🇧GB_2375+@WangCai_1', server: 212.38.189.174, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_7002+@WangCai_1', server: 38.86.135.27, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸US_5004+@WangCai_1', server: 38.86.135.27, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸US_8000+@WangCai_1', server: 38.86.135.27, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇬🇧GB_8090+@WangCai_1', server: 212.38.189.174, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US_9101+@WangCai_1', server: 38.86.135.27, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸US_6379+@WangCai_1', server: 38.86.135.27, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇬🇧GB_8008+@WangCai_1', server: 212.38.189.174, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇬🇧GB_2376+@WangCai_1', server: 212.38.189.174, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇬🇧GB_6697+@WangCai_1', server: 212.38.189.174, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇬🇧GB_7002+@WangCai_1', server: 212.38.189.174, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸_US_美国_37', server: 167.88.63.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇬🇧GB_6679+@WangCai_1', server: 212.38.189.174, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸US_8091+@WangCai_1', server: 38.86.135.27, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US_8008+@WangCai_1', server: 38.86.135.27, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸US_5001+@WangCai_1', server: 38.86.135.27, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇬🇧GB_8009+@WangCai_1', server: 212.38.189.174, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇬🇧GB_5001+@WangCai_1', server: 212.38.189.174, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇬🇧GB_8000+@WangCai_1', server: 212.38.189.174, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🍄🍄華人社區_經紀人CC🍄🍄_16', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
+      - 🍄🍄華人社區_經紀人CC🍄🍄_134
+      - Ytb:鹏哥分享_US_美国_6
+      - 🍄🍄華人社區_經紀人CC🍄🍄_164
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸US_5000+@WangCai_1
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇬🇧GB_6379+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_414
+      - 🇺🇸_US_美国_15
+      - 🇺🇸US_8882+@WangCai_1
+      - 🇬🇧GB_8882+@WangCai_1
+      - 🇺🇸_US_美国_18
+      - 🇺🇸US_8881+@WangCai_1
+      - 🇺🇸US_8118+@WangCai_1
+      - 🇬🇧GB_5500+@WangCai_1
+      - 🇺🇸US_8009+@WangCai_1
+      - 🇺🇸US_9102+@WangCai_1
+      - 🇺🇸_US_美国_24
+      - 🇬🇧GB_5600+@WangCai_1
+      - 🇬🇧GB_2375+@WangCai_1
+      - 🇺🇸US_7002+@WangCai_1
+      - 🇺🇸US_5004+@WangCai_1
+      - 🇺🇸US_8000+@WangCai_1
+      - 🇬🇧GB_8090+@WangCai_1
+      - 🇺🇸US_9101+@WangCai_1
+      - 🇺🇸US_6379+@WangCai_1
+      - 🇬🇧GB_8008+@WangCai_1
+      - 🇬🇧GB_2376+@WangCai_1
+      - 🇬🇧GB_6697+@WangCai_1
+      - 🇬🇧GB_7002+@WangCai_1
+      - 🇺🇸_US_美国_37
+      - 🇬🇧GB_6679+@WangCai_1
+      - 🇺🇸US_8091+@WangCai_1
+      - 🇺🇸US_8008+@WangCai_1
+      - 🇺🇸US_5001+@WangCai_1
+      - 🇬🇧GB_8009+@WangCai_1
+      - 🇬🇧GB_5001+@WangCai_1
+      - 🇬🇧GB_8000+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
+      - 🍄🍄華人社區_經紀人CC🍄🍄_134
+      - Ytb:鹏哥分享_US_美国_6
+      - 🍄🍄華人社區_經紀人CC🍄🍄_164
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸US_5000+@WangCai_1
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇬🇧GB_6379+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_414
+      - 🇺🇸_US_美国_15
+      - 🇺🇸US_8882+@WangCai_1
+      - 🇬🇧GB_8882+@WangCai_1
+      - 🇺🇸_US_美国_18
+      - 🇺🇸US_8881+@WangCai_1
+      - 🇺🇸US_8118+@WangCai_1
+      - 🇬🇧GB_5500+@WangCai_1
+      - 🇺🇸US_8009+@WangCai_1
+      - 🇺🇸US_9102+@WangCai_1
+      - 🇺🇸_US_美国_24
+      - 🇬🇧GB_5600+@WangCai_1
+      - 🇬🇧GB_2375+@WangCai_1
+      - 🇺🇸US_7002+@WangCai_1
+      - 🇺🇸US_5004+@WangCai_1
+      - 🇺🇸US_8000+@WangCai_1
+      - 🇬🇧GB_8090+@WangCai_1
+      - 🇺🇸US_9101+@WangCai_1
+      - 🇺🇸US_6379+@WangCai_1
+      - 🇬🇧GB_8008+@WangCai_1
+      - 🇬🇧GB_2376+@WangCai_1
+      - 🇬🇧GB_6697+@WangCai_1
+      - 🇬🇧GB_7002+@WangCai_1
+      - 🇺🇸_US_美国_37
+      - 🇬🇧GB_6679+@WangCai_1
+      - 🇺🇸US_8091+@WangCai_1
+      - 🇺🇸US_8008+@WangCai_1
+      - 🇺🇸US_5001+@WangCai_1
+      - 🇬🇧GB_8009+@WangCai_1
+      - 🇬🇧GB_5001+@WangCai_1
+      - 🇬🇧GB_8000+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_16
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
+      - 🍄🍄華人社區_經紀人CC🍄🍄_134
+      - Ytb:鹏哥分享_US_美国_6
+      - 🍄🍄華人社區_經紀人CC🍄🍄_164
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸US_5000+@WangCai_1
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇬🇧GB_6379+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_414
+      - 🇺🇸_US_美国_15
+      - 🇺🇸US_8882+@WangCai_1
+      - 🇬🇧GB_8882+@WangCai_1
+      - 🇺🇸_US_美国_18
+      - 🇺🇸US_8881+@WangCai_1
+      - 🇺🇸US_8118+@WangCai_1
+      - 🇬🇧GB_5500+@WangCai_1
+      - 🇺🇸US_8009+@WangCai_1
+      - 🇺🇸US_9102+@WangCai_1
+      - 🇺🇸_US_美国_24
+      - 🇬🇧GB_5600+@WangCai_1
+      - 🇬🇧GB_2375+@WangCai_1
+      - 🇺🇸US_7002+@WangCai_1
+      - 🇺🇸US_5004+@WangCai_1
+      - 🇺🇸US_8000+@WangCai_1
+      - 🇬🇧GB_8090+@WangCai_1
+      - 🇺🇸US_9101+@WangCai_1
+      - 🇺🇸US_6379+@WangCai_1
+      - 🇬🇧GB_8008+@WangCai_1
+      - 🇬🇧GB_2376+@WangCai_1
+      - 🇬🇧GB_6697+@WangCai_1
+      - 🇬🇧GB_7002+@WangCai_1
+      - 🇺🇸_US_美国_37
+      - 🇬🇧GB_6679+@WangCai_1
+      - 🇺🇸US_8091+@WangCai_1
+      - 🇺🇸US_8008+@WangCai_1
+      - 🇺🇸US_5001+@WangCai_1
+      - 🇬🇧GB_8009+@WangCai_1
+      - 🇬🇧GB_5001+@WangCai_1
+      - 🇬🇧GB_8000+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_16
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
+      - 🍄🍄華人社區_經紀人CC🍄🍄_134
+      - Ytb:鹏哥分享_US_美国_6
+      - 🍄🍄華人社區_經紀人CC🍄🍄_164
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸US_5000+@WangCai_1
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇬🇧GB_6379+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_414
+      - 🇺🇸_US_美国_15
+      - 🇺🇸US_8882+@WangCai_1
+      - 🇬🇧GB_8882+@WangCai_1
+      - 🇺🇸_US_美国_18
+      - 🇺🇸US_8881+@WangCai_1
+      - 🇺🇸US_8118+@WangCai_1
+      - 🇬🇧GB_5500+@WangCai_1
+      - 🇺🇸US_8009+@WangCai_1
+      - 🇺🇸US_9102+@WangCai_1
+      - 🇺🇸_US_美国_24
+      - 🇬🇧GB_5600+@WangCai_1
+      - 🇬🇧GB_2375+@WangCai_1
+      - 🇺🇸US_7002+@WangCai_1
+      - 🇺🇸US_5004+@WangCai_1
+      - 🇺🇸US_8000+@WangCai_1
+      - 🇬🇧GB_8090+@WangCai_1
+      - 🇺🇸US_9101+@WangCai_1
+      - 🇺🇸US_6379+@WangCai_1
+      - 🇬🇧GB_8008+@WangCai_1
+      - 🇬🇧GB_2376+@WangCai_1
+      - 🇬🇧GB_6697+@WangCai_1
+      - 🇬🇧GB_7002+@WangCai_1
+      - 🇺🇸_US_美国_37
+      - 🇬🇧GB_6679+@WangCai_1
+      - 🇺🇸US_8091+@WangCai_1
+      - 🇺🇸US_8008+@WangCai_1
+      - 🇺🇸US_5001+@WangCai_1
+      - 🇬🇧GB_8009+@WangCai_1
+      - 🇬🇧GB_5001+@WangCai_1
+      - 🇬🇧GB_8000+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_16
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
+      - 🍄🍄華人社區_經紀人CC🍄🍄_134
+      - Ytb:鹏哥分享_US_美国_6
+      - 🍄🍄華人社區_經紀人CC🍄🍄_164
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸US_5000+@WangCai_1
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇬🇧GB_6379+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_414
+      - 🇺🇸_US_美国_15
+      - 🇺🇸US_8882+@WangCai_1
+      - 🇬🇧GB_8882+@WangCai_1
+      - 🇺🇸_US_美国_18
+      - 🇺🇸US_8881+@WangCai_1
+      - 🇺🇸US_8118+@WangCai_1
+      - 🇬🇧GB_5500+@WangCai_1
+      - 🇺🇸US_8009+@WangCai_1
+      - 🇺🇸US_9102+@WangCai_1
+      - 🇺🇸_US_美国_24
+      - 🇬🇧GB_5600+@WangCai_1
+      - 🇬🇧GB_2375+@WangCai_1
+      - 🇺🇸US_7002+@WangCai_1
+      - 🇺🇸US_5004+@WangCai_1
+      - 🇺🇸US_8000+@WangCai_1
+      - 🇬🇧GB_8090+@WangCai_1
+      - 🇺🇸US_9101+@WangCai_1
+      - 🇺🇸US_6379+@WangCai_1
+      - 🇬🇧GB_8008+@WangCai_1
+      - 🇬🇧GB_2376+@WangCai_1
+      - 🇬🇧GB_6697+@WangCai_1
+      - 🇬🇧GB_7002+@WangCai_1
+      - 🇺🇸_US_美国_37
+      - 🇬🇧GB_6679+@WangCai_1
+      - 🇺🇸US_8091+@WangCai_1
+      - 🇺🇸US_8008+@WangCai_1
+      - 🇺🇸US_5001+@WangCai_1
+      - 🇬🇧GB_8009+@WangCai_1
+      - 🇬🇧GB_5001+@WangCai_1
+      - 🇬🇧GB_8000+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_16
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
+      - 🍄🍄華人社區_經紀人CC🍄🍄_134
+      - Ytb:鹏哥分享_US_美国_6
+      - 🍄🍄華人社區_經紀人CC🍄🍄_164
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸US_5000+@WangCai_1
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇬🇧GB_6379+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_414
+      - 🇺🇸_US_美国_15
+      - 🇺🇸US_8882+@WangCai_1
+      - 🇬🇧GB_8882+@WangCai_1
+      - 🇺🇸_US_美国_18
+      - 🇺🇸US_8881+@WangCai_1
+      - 🇺🇸US_8118+@WangCai_1
+      - 🇬🇧GB_5500+@WangCai_1
+      - 🇺🇸US_8009+@WangCai_1
+      - 🇺🇸US_9102+@WangCai_1
+      - 🇺🇸_US_美国_24
+      - 🇬🇧GB_5600+@WangCai_1
+      - 🇬🇧GB_2375+@WangCai_1
+      - 🇺🇸US_7002+@WangCai_1
+      - 🇺🇸US_5004+@WangCai_1
+      - 🇺🇸US_8000+@WangCai_1
+      - 🇬🇧GB_8090+@WangCai_1
+      - 🇺🇸US_9101+@WangCai_1
+      - 🇺🇸US_6379+@WangCai_1
+      - 🇬🇧GB_8008+@WangCai_1
+      - 🇬🇧GB_2376+@WangCai_1
+      - 🇬🇧GB_6697+@WangCai_1
+      - 🇬🇧GB_7002+@WangCai_1
+      - 🇺🇸_US_美国_37
+      - 🇬🇧GB_6679+@WangCai_1
+      - 🇺🇸US_8091+@WangCai_1
+      - 🇺🇸US_8008+@WangCai_1
+      - 🇺🇸US_5001+@WangCai_1
+      - 🇬🇧GB_8009+@WangCai_1
+      - 🇬🇧GB_5001+@WangCai_1
+      - 🇬🇧GB_8000+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_16
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
+      - 🍄🍄華人社區_經紀人CC🍄🍄_134
+      - Ytb:鹏哥分享_US_美国_6
+      - 🍄🍄華人社區_經紀人CC🍄🍄_164
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸US_5000+@WangCai_1
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇬🇧GB_6379+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_414
+      - 🇺🇸_US_美国_15
+      - 🇺🇸US_8882+@WangCai_1
+      - 🇬🇧GB_8882+@WangCai_1
+      - 🇺🇸_US_美国_18
+      - 🇺🇸US_8881+@WangCai_1
+      - 🇺🇸US_8118+@WangCai_1
+      - 🇬🇧GB_5500+@WangCai_1
+      - 🇺🇸US_8009+@WangCai_1
+      - 🇺🇸US_9102+@WangCai_1
+      - 🇺🇸_US_美国_24
+      - 🇬🇧GB_5600+@WangCai_1
+      - 🇬🇧GB_2375+@WangCai_1
+      - 🇺🇸US_7002+@WangCai_1
+      - 🇺🇸US_5004+@WangCai_1
+      - 🇺🇸US_8000+@WangCai_1
+      - 🇬🇧GB_8090+@WangCai_1
+      - 🇺🇸US_9101+@WangCai_1
+      - 🇺🇸US_6379+@WangCai_1
+      - 🇬🇧GB_8008+@WangCai_1
+      - 🇬🇧GB_2376+@WangCai_1
+      - 🇬🇧GB_6697+@WangCai_1
+      - 🇬🇧GB_7002+@WangCai_1
+      - 🇺🇸_US_美国_37
+      - 🇬🇧GB_6679+@WangCai_1
+      - 🇺🇸US_8091+@WangCai_1
+      - 🇺🇸US_8008+@WangCai_1
+      - 🇺🇸US_5001+@WangCai_1
+      - 🇬🇧GB_8009+@WangCai_1
+      - 🇬🇧GB_5001+@WangCai_1
+      - 🇬🇧GB_8000+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -114,13 +418,51 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇭🇰_HK_香港_5
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
+      - 🍄🍄華人社區_經紀人CC🍄🍄_134
+      - Ytb:鹏哥分享_US_美国_6
+      - 🍄🍄華人社區_經紀人CC🍄🍄_164
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸US_5000+@WangCai_1
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇬🇧GB_6379+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_414
+      - 🇺🇸_US_美国_15
+      - 🇺🇸US_8882+@WangCai_1
+      - 🇬🇧GB_8882+@WangCai_1
+      - 🇺🇸_US_美国_18
+      - 🇺🇸US_8881+@WangCai_1
+      - 🇺🇸US_8118+@WangCai_1
+      - 🇬🇧GB_5500+@WangCai_1
+      - 🇺🇸US_8009+@WangCai_1
+      - 🇺🇸US_9102+@WangCai_1
+      - 🇺🇸_US_美国_24
+      - 🇬🇧GB_5600+@WangCai_1
+      - 🇬🇧GB_2375+@WangCai_1
+      - 🇺🇸US_7002+@WangCai_1
+      - 🇺🇸US_5004+@WangCai_1
+      - 🇺🇸US_8000+@WangCai_1
+      - 🇬🇧GB_8090+@WangCai_1
+      - 🇺🇸US_9101+@WangCai_1
+      - 🇺🇸US_6379+@WangCai_1
+      - 🇬🇧GB_8008+@WangCai_1
+      - 🇬🇧GB_2376+@WangCai_1
+      - 🇬🇧GB_6697+@WangCai_1
+      - 🇬🇧GB_7002+@WangCai_1
+      - 🇺🇸_US_美国_37
+      - 🇬🇧GB_6679+@WangCai_1
+      - 🇺🇸US_8091+@WangCai_1
+      - 🇺🇸US_8008+@WangCai_1
+      - 🇺🇸US_5001+@WangCai_1
+      - 🇬🇧GB_8009+@WangCai_1
+      - 🇬🇧GB_5001+@WangCai_1
+      - 🇬🇧GB_8000+@WangCai_1
+      - 🍄🍄華人社區_經紀人CC🍄🍄_16
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
