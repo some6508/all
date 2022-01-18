@@ -5,212 +5,116 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '最新官网:j03.space/j04.space_1', server: www.google.com, port: 2, type: ssr, password: "breakwall", cipher: chacha20, protocol: auth_chain_a, obfs: tls1.2_ticket_auth}
-  - {name: '剩余流量：75.19% 483.1GB_2', server: www.google.com, port: 1, type: ssr, password: "breakwall", cipher: chacha20, protocol: auth_chain_a, obfs: tls1.2_ticket_auth}
-  - {name: '过期时间：2022-02-07 08:26:22_3', server: www.google.com, port: 2, type: ssr, password: "breakwall", cipher: chacha20, protocol: auth_chain_a, obfs: tls1.2_ticket_auth}
-  - {name: 'n_01.『ChinaG』几鸡-学习助理_4', server: yqy2321.china-cdn-net.com, port: 2321, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'n_02.官网：http://a.luxury_5', server: yqy2322.china-cdn-net.com, port: 2322, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'n_03.公益等级線路嚴格限速_6', server: yqy2323.china-cdn-net.com, port: 2323, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'n_04.捐赠解锁更多协议线路_7', server: yqy2324.china-cdn-net.com, port: 2324, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'n_05.包括V2ray和Trojan_8', server: yqy2325.china-cdn-net.com, port: 2325, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'n_06.中继中转隧道线路覆盖_9', server: yqy2326.china-cdn-net.com, port: 2326, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'n_07.长期套餐覆盖IPLC专线_10', server: yqy2327.china-cdn-net.com, port: 2327, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'n_08.官网：http://j05.space_11', server: yqy2328.china-cdn-net.com, port: 2328, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'I.TW.高雄.龍抬頭⇠HiNet:RC33127_12', server: yqy33127.china-cdn-net.com, port: 33127, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'I.TW.高雄.龍抬頭⇠HiNet:RC33128_13', server: yqy33128.china-cdn-net.com, port: 33128, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'I.6倍.HK.HKT⇠BGP:RC36124_14', server: yqy36124.china-cdn-net.com, port: 36124, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'I.6倍.HK.HKT⇠BGP:RC36224_15', server: yqy36224.china-cdn-net.com, port: 36224, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'I.6倍.HK.HKT⇠BGP:RC36324_16', server: yqy36324.china-cdn-net.com, port: 36324, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'I.6倍.HK.HKT⇠BGP:RC36424_17', server: yqy36424.china-cdn-net.com, port: 36424, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'I.6倍TW.台北⇠HiNet:RC31127_18', server: yqy31127.china-cdn-net.com, port: 31127, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'I.6倍TW.台北⇠HiNet:RC31128_19', server: yqy31128.china-cdn-net.com, port: 31128, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'I.6倍TW.彰化⇠HiNet:RC32127_20', server: yqy32127.china-cdn-net.com, port: 32127, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
-  - {name: 'I.6倍TW.彰化⇠HiNet:RC32128_21', server: yqy32128.china-cdn-net.com, port: 32128, type: ssr, password: "http://cc.ax/", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1687874:L9iQBS, obfs-param: data.bilibili.com/488c71687874}
+  - {name: '🇺🇸_US_美国_1', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
+  - {name: '🇺🇸_US_美国_2', server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/bb2b34a1", host: www.ltzs.buzz }}
+  - {name: '🇺🇸_US_美国_3', server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-sanfrancisco.lvuft.com }}
+  - {name: '🇸🇬_SG_新加坡_4', server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws" }}
+  - {name: '🇺🇸_US_美国_5', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws" }}
+  - {name: '🇺🇸_US_美国->🇯🇵_JP_日本_6', server: rb1.moonfree.top, port: 8443, type: vmess, uuid: f1533fd1-4562-4935-a1e6-832685d4a919, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: rb.moonfree.top }}
+  - {name: '🇺🇸_US_美国_7', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
+  - {name: '🇺🇸_US_美国_8', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
+  - {name: '🇺🇸_US_美国_9', server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/bb2b34a1", host: www.ltzs.buzz }}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 最新官网:j03.space/j04.space_1
-      - 剩余流量：75.19% 483.1GB_2
-      - 过期时间：2022-02-07 08:26:22_3
-      - n_01.『ChinaG』几鸡-学习助理_4
-      - n_02.官网：http://a.luxury_5
-      - n_03.公益等级線路嚴格限速_6
-      - n_04.捐赠解锁更多协议线路_7
-      - n_05.包括V2ray和Trojan_8
-      - n_06.中继中转隧道线路覆盖_9
-      - n_07.长期套餐覆盖IPLC专线_10
-      - n_08.官网：http://j05.space_11
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33127_12
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33128_13
-      - I.6倍.HK.HKT⇠BGP:RC36124_14
-      - I.6倍.HK.HKT⇠BGP:RC36224_15
-      - I.6倍.HK.HKT⇠BGP:RC36324_16
-      - I.6倍.HK.HKT⇠BGP:RC36424_17
-      - I.6倍TW.台北⇠HiNet:RC31127_18
-      - I.6倍TW.台北⇠HiNet:RC31128_19
-      - I.6倍TW.彰化⇠HiNet:RC32127_20
-      - I.6倍TW.彰化⇠HiNet:RC32128_21
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇸🇬_SG_新加坡_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 最新官网:j03.space/j04.space_1
-      - 剩余流量：75.19% 483.1GB_2
-      - 过期时间：2022-02-07 08:26:22_3
-      - n_01.『ChinaG』几鸡-学习助理_4
-      - n_02.官网：http://a.luxury_5
-      - n_03.公益等级線路嚴格限速_6
-      - n_04.捐赠解锁更多协议线路_7
-      - n_05.包括V2ray和Trojan_8
-      - n_06.中继中转隧道线路覆盖_9
-      - n_07.长期套餐覆盖IPLC专线_10
-      - n_08.官网：http://j05.space_11
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33127_12
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33128_13
-      - I.6倍.HK.HKT⇠BGP:RC36124_14
-      - I.6倍.HK.HKT⇠BGP:RC36224_15
-      - I.6倍.HK.HKT⇠BGP:RC36324_16
-      - I.6倍.HK.HKT⇠BGP:RC36424_17
-      - I.6倍TW.台北⇠HiNet:RC31127_18
-      - I.6倍TW.台北⇠HiNet:RC31128_19
-      - I.6倍TW.彰化⇠HiNet:RC32127_20
-      - I.6倍TW.彰化⇠HiNet:RC32128_21
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇸🇬_SG_新加坡_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 最新官网:j03.space/j04.space_1
-      - 剩余流量：75.19% 483.1GB_2
-      - 过期时间：2022-02-07 08:26:22_3
-      - n_01.『ChinaG』几鸡-学习助理_4
-      - n_02.官网：http://a.luxury_5
-      - n_03.公益等级線路嚴格限速_6
-      - n_04.捐赠解锁更多协议线路_7
-      - n_05.包括V2ray和Trojan_8
-      - n_06.中继中转隧道线路覆盖_9
-      - n_07.长期套餐覆盖IPLC专线_10
-      - n_08.官网：http://j05.space_11
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33127_12
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33128_13
-      - I.6倍.HK.HKT⇠BGP:RC36124_14
-      - I.6倍.HK.HKT⇠BGP:RC36224_15
-      - I.6倍.HK.HKT⇠BGP:RC36324_16
-      - I.6倍.HK.HKT⇠BGP:RC36424_17
-      - I.6倍TW.台北⇠HiNet:RC31127_18
-      - I.6倍TW.台北⇠HiNet:RC31128_19
-      - I.6倍TW.彰化⇠HiNet:RC32127_20
-      - I.6倍TW.彰化⇠HiNet:RC32128_21
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇸🇬_SG_新加坡_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 最新官网:j03.space/j04.space_1
-      - 剩余流量：75.19% 483.1GB_2
-      - 过期时间：2022-02-07 08:26:22_3
-      - n_01.『ChinaG』几鸡-学习助理_4
-      - n_02.官网：http://a.luxury_5
-      - n_03.公益等级線路嚴格限速_6
-      - n_04.捐赠解锁更多协议线路_7
-      - n_05.包括V2ray和Trojan_8
-      - n_06.中继中转隧道线路覆盖_9
-      - n_07.长期套餐覆盖IPLC专线_10
-      - n_08.官网：http://j05.space_11
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33127_12
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33128_13
-      - I.6倍.HK.HKT⇠BGP:RC36124_14
-      - I.6倍.HK.HKT⇠BGP:RC36224_15
-      - I.6倍.HK.HKT⇠BGP:RC36324_16
-      - I.6倍.HK.HKT⇠BGP:RC36424_17
-      - I.6倍TW.台北⇠HiNet:RC31127_18
-      - I.6倍TW.台北⇠HiNet:RC31128_19
-      - I.6倍TW.彰化⇠HiNet:RC32127_20
-      - I.6倍TW.彰化⇠HiNet:RC32128_21
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇸🇬_SG_新加坡_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 最新官网:j03.space/j04.space_1
-      - 剩余流量：75.19% 483.1GB_2
-      - 过期时间：2022-02-07 08:26:22_3
-      - n_01.『ChinaG』几鸡-学习助理_4
-      - n_02.官网：http://a.luxury_5
-      - n_03.公益等级線路嚴格限速_6
-      - n_04.捐赠解锁更多协议线路_7
-      - n_05.包括V2ray和Trojan_8
-      - n_06.中继中转隧道线路覆盖_9
-      - n_07.长期套餐覆盖IPLC专线_10
-      - n_08.官网：http://j05.space_11
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33127_12
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33128_13
-      - I.6倍.HK.HKT⇠BGP:RC36124_14
-      - I.6倍.HK.HKT⇠BGP:RC36224_15
-      - I.6倍.HK.HKT⇠BGP:RC36324_16
-      - I.6倍.HK.HKT⇠BGP:RC36424_17
-      - I.6倍TW.台北⇠HiNet:RC31127_18
-      - I.6倍TW.台北⇠HiNet:RC31128_19
-      - I.6倍TW.彰化⇠HiNet:RC32127_20
-      - I.6倍TW.彰化⇠HiNet:RC32128_21
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇸🇬_SG_新加坡_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 最新官网:j03.space/j04.space_1
-      - 剩余流量：75.19% 483.1GB_2
-      - 过期时间：2022-02-07 08:26:22_3
-      - n_01.『ChinaG』几鸡-学习助理_4
-      - n_02.官网：http://a.luxury_5
-      - n_03.公益等级線路嚴格限速_6
-      - n_04.捐赠解锁更多协议线路_7
-      - n_05.包括V2ray和Trojan_8
-      - n_06.中继中转隧道线路覆盖_9
-      - n_07.长期套餐覆盖IPLC专线_10
-      - n_08.官网：http://j05.space_11
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33127_12
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33128_13
-      - I.6倍.HK.HKT⇠BGP:RC36124_14
-      - I.6倍.HK.HKT⇠BGP:RC36224_15
-      - I.6倍.HK.HKT⇠BGP:RC36324_16
-      - I.6倍.HK.HKT⇠BGP:RC36424_17
-      - I.6倍TW.台北⇠HiNet:RC31127_18
-      - I.6倍TW.台北⇠HiNet:RC31128_19
-      - I.6倍TW.彰化⇠HiNet:RC32127_20
-      - I.6倍TW.彰化⇠HiNet:RC32128_21
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇸🇬_SG_新加坡_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 最新官网:j03.space/j04.space_1
-      - 剩余流量：75.19% 483.1GB_2
-      - 过期时间：2022-02-07 08:26:22_3
-      - n_01.『ChinaG』几鸡-学习助理_4
-      - n_02.官网：http://a.luxury_5
-      - n_03.公益等级線路嚴格限速_6
-      - n_04.捐赠解锁更多协议线路_7
-      - n_05.包括V2ray和Trojan_8
-      - n_06.中继中转隧道线路覆盖_9
-      - n_07.长期套餐覆盖IPLC专线_10
-      - n_08.官网：http://j05.space_11
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33127_12
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33128_13
-      - I.6倍.HK.HKT⇠BGP:RC36124_14
-      - I.6倍.HK.HKT⇠BGP:RC36224_15
-      - I.6倍.HK.HKT⇠BGP:RC36324_16
-      - I.6倍.HK.HKT⇠BGP:RC36424_17
-      - I.6倍TW.台北⇠HiNet:RC31127_18
-      - I.6倍TW.台北⇠HiNet:RC31128_19
-      - I.6倍TW.彰化⇠HiNet:RC32127_20
-      - I.6倍TW.彰化⇠HiNet:RC32128_21
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇸🇬_SG_新加坡_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -226,27 +130,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 最新官网:j03.space/j04.space_1
-      - 剩余流量：75.19% 483.1GB_2
-      - 过期时间：2022-02-07 08:26:22_3
-      - n_01.『ChinaG』几鸡-学习助理_4
-      - n_02.官网：http://a.luxury_5
-      - n_03.公益等级線路嚴格限速_6
-      - n_04.捐赠解锁更多协议线路_7
-      - n_05.包括V2ray和Trojan_8
-      - n_06.中继中转隧道线路覆盖_9
-      - n_07.长期套餐覆盖IPLC专线_10
-      - n_08.官网：http://j05.space_11
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33127_12
-      - I.TW.高雄.龍抬頭⇠HiNet:RC33128_13
-      - I.6倍.HK.HKT⇠BGP:RC36124_14
-      - I.6倍.HK.HKT⇠BGP:RC36224_15
-      - I.6倍.HK.HKT⇠BGP:RC36324_16
-      - I.6倍.HK.HKT⇠BGP:RC36424_17
-      - I.6倍TW.台北⇠HiNet:RC31127_18
-      - I.6倍TW.台北⇠HiNet:RC31128_19
-      - I.6倍TW.彰化⇠HiNet:RC32127_20
-      - I.6倍TW.彰化⇠HiNet:RC32128_21
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇸🇬_SG_新加坡_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
