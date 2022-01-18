@@ -12,7 +12,6 @@ proxies:
   - {name: '🇭🇰_HK_香港_5', server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: '🇭🇰_HK_香港_6', server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: '🇭🇰_HK_香港_7', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇭🇰_HK_香港_8', server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -26,7 +25,6 @@ proxy-groups:
       - 🇭🇰_HK_香港_5
       - 🇭🇰_HK_香港_6
       - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -39,7 +37,6 @@ proxy-groups:
       - 🇭🇰_HK_香港_5
       - 🇭🇰_HK_香港_6
       - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -53,7 +50,6 @@ proxy-groups:
       - 🇭🇰_HK_香港_5
       - 🇭🇰_HK_香港_6
       - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -66,7 +62,6 @@ proxy-groups:
       - 🇭🇰_HK_香港_5
       - 🇭🇰_HK_香港_6
       - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -79,7 +74,6 @@ proxy-groups:
       - 🇭🇰_HK_香港_5
       - 🇭🇰_HK_香港_6
       - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
   - name: 📲 电报信息
     type: select
     proxies:
@@ -92,7 +86,6 @@ proxy-groups:
       - 🇭🇰_HK_香港_5
       - 🇭🇰_HK_香港_6
       - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -106,7 +99,6 @@ proxy-groups:
       - 🇭🇰_HK_香港_5
       - 🇭🇰_HK_香港_6
       - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -129,7 +121,6 @@ proxy-groups:
       - 🇭🇰_HK_香港_5
       - 🇭🇰_HK_香港_6
       - 🇭🇰_HK_香港_7
-      - 🇭🇰_HK_香港_8
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
