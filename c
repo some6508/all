@@ -5,116 +5,124 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇺🇸_US_美国_1', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: '🇺🇸_US_美国_2', server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/bb2b34a1", host: www.ltzs.buzz }}
-  - {name: '🇺🇸_US_美国_3', server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-sanfrancisco.lvuft.com }}
-  - {name: '🇸🇬_SG_新加坡_4', server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws" }}
-  - {name: '🇺🇸_US_美国_5', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws" }}
-  - {name: '🇺🇸_US_美国->🇯🇵_JP_日本_6', server: rb1.moonfree.top, port: 8443, type: vmess, uuid: f1533fd1-4562-4935-a1e6-832685d4a919, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: rb.moonfree.top }}
-  - {name: '🇺🇸_US_美国_7', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
-  - {name: '🇺🇸_US_美国_8', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
-  - {name: '🇺🇸_US_美国_9', server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/bb2b34a1", host: www.ltzs.buzz }}
+  - {name: '🇭🇰_HK_香港_1', server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇭🇰_HK_香港_2', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇸🇬_SG_新加坡_3', server: 139.162.56.155, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇭🇰_HK_香港_4', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇸🇬_SG_新加坡_5', server: 139.162.24.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇭🇰_HK_香港_6', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇳_CN_中国->🇺🇸_US_美国_7', server: cn2.node.zeroteam.top, port: 15580, type: ss, cipher: aes-256-gcm, password: dce3585f-4ce5-4931-8997-89c484496017}
+  - {name: '🇸🇬_SG_新加坡_8', server: 172.104.44.88, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇸🇬_SG_新加坡_9', server: 172.104.44.88, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇭🇰_HK_香港_10', server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇸🇬_SG_新加坡_3
+      - 🇭🇰_HK_香港_4
+      - 🇸🇬_SG_新加坡_5
+      - 🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇸🇬_SG_新加坡_8
+      - 🇸🇬_SG_新加坡_9
+      - 🇭🇰_HK_香港_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇸🇬_SG_新加坡_3
+      - 🇭🇰_HK_香港_4
+      - 🇸🇬_SG_新加坡_5
+      - 🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇸🇬_SG_新加坡_8
+      - 🇸🇬_SG_新加坡_9
+      - 🇭🇰_HK_香港_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇸🇬_SG_新加坡_3
+      - 🇭🇰_HK_香港_4
+      - 🇸🇬_SG_新加坡_5
+      - 🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇸🇬_SG_新加坡_8
+      - 🇸🇬_SG_新加坡_9
+      - 🇭🇰_HK_香港_10
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇸🇬_SG_新加坡_3
+      - 🇭🇰_HK_香港_4
+      - 🇸🇬_SG_新加坡_5
+      - 🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇸🇬_SG_新加坡_8
+      - 🇸🇬_SG_新加坡_9
+      - 🇭🇰_HK_香港_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇸🇬_SG_新加坡_3
+      - 🇭🇰_HK_香港_4
+      - 🇸🇬_SG_新加坡_5
+      - 🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇸🇬_SG_新加坡_8
+      - 🇸🇬_SG_新加坡_9
+      - 🇭🇰_HK_香港_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇸🇬_SG_新加坡_3
+      - 🇭🇰_HK_香港_4
+      - 🇸🇬_SG_新加坡_5
+      - 🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇸🇬_SG_新加坡_8
+      - 🇸🇬_SG_新加坡_9
+      - 🇭🇰_HK_香港_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇸🇬_SG_新加坡_3
+      - 🇭🇰_HK_香港_4
+      - 🇸🇬_SG_新加坡_5
+      - 🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇸🇬_SG_新加坡_8
+      - 🇸🇬_SG_新加坡_9
+      - 🇭🇰_HK_香港_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,15 +138,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇸🇬_SG_新加坡_3
+      - 🇭🇰_HK_香港_4
+      - 🇸🇬_SG_新加坡_5
+      - 🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇸🇬_SG_新加坡_8
+      - 🇸🇬_SG_新加坡_9
+      - 🇭🇰_HK_香港_10
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
