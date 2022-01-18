@@ -1,563 +1,203 @@
-﻿port: 7890
+port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 6.50| 香港HK  D2, server: shcn2.fastcloud.club, port: 41345, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 6.44| RelayCNJP289  460Mb, server: sh.jiyunshu.com, port: 56743, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: sh.jiyunshu.com}, udp: true}
-  - {name: 6.09| 香港HK  D4, server: shcn2.fastcloud.club, port: 41341, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 5.96| 日本JP  02, server: shcn2.fastcloud.club, port: 41337, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 5.42| 新加坡SP  01 沪港, server: shcn2.fastcloud.club, port: 41327, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 5.15| CN68 TGpeekfun, server: 117.28.242.137, port: 9359, type: ss, cipher: aes-256-cfb, password: !<str> 73117962, udp: true}
-  - {name: 5.15| 日本JP  03, server: shcn2.fastcloud.club, port: 41336, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 5.10|v2ray 日本移动 Netflix, server: cm2.cheapv2.xyz, port: 28802, type: vmess, uuid: ef25cb86-f309-337c-b7ea-c5b8f87d34e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}, udp: true}
-  - {name: 4.69|v2ray 日本联通 Netflix, server: cu.cheapv2.xyz, port: 28802, type: vmess, uuid: ef25cb86-f309-337c-b7ea-c5b8f87d34e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
-  - {name: 4.52|RelayCNHK283, server: hkchiansax2.msservicevip.pw, port: 9359, type: ss, cipher: aes-256-cfb, password: !<str> 73117962, udp: true}
-  - {name: 4.48| 日本JP  04, server: shcn2.fastcloud.club, port: 41335, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 4.19| RelayCNTW304  468Mb, server: 139.226.112.116, port: 64068, type: vmess, uuid: 09fe98b8-3795-3294-b749-5a39208a6cdd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: in05.2333dns.com}, udp: true}
-  - {name: 4.11| 日本JP  01, server: shcn2.fastcloud.club, port: 41338, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 4.07| 日本 01 直连Aws, server: 13.115.119.175, port: 8080, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: 3.75| US2014  490Mb, server: 158.247.201.144, port: 57606, type: vmess, uuid: c1b22b5c-740b-11ec-a8ce-560003caafbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JOjns12Y/, ws-headers: {Host: 158.247.201.144}, udp: true}
-  - {name: 3.54|CYL科技20220111 39, server: vipdedi.boom.ovh, port: 65521, type: vmess, uuid: a8d9724a-d61c-3d85-8cad-07e4d45a9441, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mydisk, ws-headers: {Host: vipdedi.boom.ovh}, udp: true}
-  - {name: 3.42| V1台湾05 中继E 2x, server: in05.2333dns.com, port: 64068, type: vmess, uuid: 09fe98b8-3795-3294-b749-5a39208a6cdd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: 3.00|V1台湾05 中继A 2x, server: in01.2333dns.com, port: 64068, type: vmess, uuid: 8426925e-2f87-349e-a7ba-1375c3afd37b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: 2.97|V1日本B组 直连 速度随缘 1x16, server: jp-group-b-direct.myn0des.com, port: 8880, type: vmess, uuid: f0622fcc-55a3-346f-81d1-d60fa5a9fbe8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp-group-b-direct.myn0des.com}, udp: true}
-  - {name: 2.73|标准中国台湾04解锁流媒体, server: zfd.out04.nodeserver.top, port: 16128, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.65|CYL科技20220111 36 2, server: hzcu.rymv2rayssl.xyz, port: 44601, type: vmess, uuid: 5002a71b-d203-3a1d-987f-99522eccdc25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: hzcu.rymv2rayssl.xyz}, udp: true}
-  - {name: 2.63|共享, server: 27.122.57.72, port: 35326, type: vmess, uuid: 217362fd-3e43-4436-be62-92f6dd57303b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.56| 韩国 01 直连Aws, server: 3.34.134.181, port: 80, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: 2.48|HKYoutube技术分享室整理, server: shcn2-06b.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.33| CN386, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.25| RelayCNUS302  825Mb, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.12| RO838, server: 62.216.92.180, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: 2.10| US1951, server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: 2.00| US1846, server: 107.167.23.50, port: 8084, type: ssr, cipher: aes-256-cfb, password: RhKqtYoG8, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 1.98|俄罗斯阿伟科技油管, server: 194.5.79.15, port: 60764, type: vmess, uuid: e1107940-740b-11ec-8f34-0e8969ca1a20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 1.73|CYL科技20220109 68, server: 142.4.105.253, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 142.4.105.253}, udp: true}
-  - {name: 1.54|NONFMYC20211128184, server: us07.vip-v2ray.cf, port: 58740, type: vmess, uuid: 4ca67d33-f626-47ba-e077-0ff6742fc31c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 1.42|101, server: t3.ssrsub.com, port: 8443, type: trojan, password: b3f4826a-01e1-438a-8cb4-becb9e8b140c, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 1.42|98, server: t1.ssrsub.com, port: 8443, type: trojan, password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 1.31|  487Mb, server: fr-am1-4.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: X3LKnwp5C, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 1.28| SSRSUB大阪V15付费推荐suoytssrsub, server: v4.ssrsub.com, port: 166, type: vmess, uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}, udp: true}
-  - {name: 1.26|110, server: t4.ssrsub.com, port: 8443, type: trojan, password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 1.23|RELAY104161041260900, server: 104.16.104.126, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: sweet-salad-aa33.tianzhen19880808.workers.dev}, udp: true}
-  - {name: 1.23| NL787, server: 89.31.127.151, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
-  - {name: 1.16| CN379, server: fa6.uuv2.co.uk, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 1.13|V1俄罗斯01 中继D 12x, server: in04.2333dns.com, port: 64071, type: vmess, uuid: 8426925e-2f87-349e-a7ba-1375c3afd37b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-ru01.covid19.rip}, udp: true}
-  - {name: 1.07| httpsgitiov9999 莫斯科CDN ip4 3, server: 104.27.17.236, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}, udp: true}
-  - {name: 1.07|IN5214012335821, server: 52.140.123.35, port: 80, type: vmess, uuid: 5401fcb0-2899-4c05-8eee-1728b8a1affc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 52.140.123.35}, udp: true}
-  - {name: 1.04|RELAY1042081240490, server: 104.20.81.240, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}, udp: true}
-  - {name: 1.02|RelayCNUS295, server: 120.232.173.154, port: 30004, type: vmess, uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120.232.173.154}, udp: true}
-  - {name: 9.33|CN116192174202812, server: shcn2-06b.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 8.45| 日本JP  02, server: shcn2.fastcloud.club, port: 41337, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 7.46|专线香港02原生HGCBBS, server: v32.88host.buzz, port: 18065, type: vmess, uuid: d6b30550-19ff-324c-b95f-d19a0da68d44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 7.37| 新加坡SP  01 沪港, server: shcn2.fastcloud.club, port: 41327, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 7.28|专线香港01原生HGCBBS, server: v31.88host.buzz, port: 18064, type: vmess, uuid: d6b30550-19ff-324c-b95f-d19a0da68d44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 6.87|v2ray 日本移动 Netflix, server: cm2.cheapv2.xyz, port: 28802, type: vmess, uuid: ef25cb86-f309-337c-b7ea-c5b8f87d34e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}, udp: true}
-  - {name: 6.60|v2ray 马来西亚移动 Netflix, server: cu.cheapv2.xyz, port: 26610, type: vmess, uuid: ef25cb86-f309-337c-b7ea-c5b8f87d34e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
-  - {name: 6.48|专线香港08原生HKBN, server: v32.88host.buzz, port: 18083, type: vmess, uuid: d6b30550-19ff-324c-b95f-d19a0da68d44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 6.47| 香港HK  D2, server: shcn2.fastcloud.club, port: 41345, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 6.45| 日本JP  01, server: shcn2.fastcloud.club, port: 41338, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 6.23|徐州联通彰化Hinetvpnhat, server: 122.192.154.54, port: 3389, type: trojan, password: 1a1247ea6cb266b4, skip-cert-verify: true, udp: true}
-  - {name: 6.10|Relay4947Mb, server: sl201.jdxx.xyz, port: 26389, type: ssr, cipher: chacha20-ietf, password: MaOKEa, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 672:GvYh7Z, obfs-param: t.me/proxypoolqwerty426, udp: true}
-  - {name: 6.01|v2ray 日本联通 Netflix, server: cu.cheapv2.xyz, port: 28802, type: vmess, uuid: ef25cb86-f309-337c-b7ea-c5b8f87d34e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
-  - {name: 5.93|githubcomfreefq  安徽省移动 1, server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 5.35|Relay2926Mb, server: 113.31.155.165, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true, udp: true}
-  - {name: 5.27|徐州联通SGMelbicomvpnhat, server: 122.192.154.50, port: 3389, type: trojan, password: 1a1247ea6cb266b4, skip-cert-verify: true, udp: true}
-  - {name: 5.27| 日本JP  03, server: shcn2.fastcloud.club, port: 41336, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 5.08|徐州联通SGMelbicomvpnhat 3, server: 122.192.189.5, port: 3389, type: trojan, password: 1a1247ea6cb266b4, skip-cert-verify: true, udp: true}
-  - {name: 4.06|专线台湾01原生Taipei, server: v36.88host.buzz, port: 18078, type: vmess, uuid: d6b30550-19ff-324c-b95f-d19a0da68d44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 4.00|专线香港05原生HGCBBS, server: v35.88host.buzz, port: 18068, type: vmess, uuid: d6b30550-19ff-324c-b95f-d19a0da68d44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3.95|Relay2595Mb, server: 106.75.233.91, port: 3389, type: trojan, password: 1a1247ea6cb266b4, skip-cert-verify: true, udp: true}
-  - {name: 3.86|徐州联通SGMelbicomvpnhat 5, server: 122.192.154.53, port: 3389, type: trojan, password: 3426d80c2e066a83, skip-cert-verify: true, udp: true}
-  - {name: 3.57|Relay2421Mb, server: 123.59.87.29, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true, udp: true}
-  - {name: 3.53|Relay2319Mb, server: 123.59.72.193, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true, udp: true}
-  - {name: 3.44|专线香港04原生HGCBBS, server: v34.88host.buzz, port: 18067, type: vmess, uuid: d6b30550-19ff-324c-b95f-d19a0da68d44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3.28|北京科技网TokyoLinodevpnhat 4, server: 120.132.50.158, port: 3389, type: trojan, password: 3426d80c2e066a83, skip-cert-verify: true, udp: true}
-  - {name: 3.26|专线美国03原生Seattle, server: v33.88host.buzz, port: 18044, type: vmess, uuid: 5c4e1928-eed5-3b48-b1dc-1575bdd584dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3.16| CN67, server: hkchiansax2.msservicevip.pw, port: 9359, type: ss, cipher: aes-256-cfb, password: !<str> 73117962, udp: true}
-  - {name: 3.13|标准中国台湾04解锁流媒体, server: zfd.out04.nodeserver.top, port: 16128, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3.05|广州优刻云TokyoLinodevpnhat 2, server: 106.75.154.24, port: 3389, type: trojan, password: 3426d80c2e066a83, skip-cert-verify: true, udp: true}
-  - {name: 2.98| Moon365netTW 374 free, server: in05.2333dns.com, port: 64068, type: vmess, uuid: 09fe98b8-3795-3294-b749-5a39208a6cdd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: "%7B%22Host%22:%22cdn.bootcdn.net%22%7D"}, udp: true}
-  - {name: 2.75|杭州移动彰化Hinetvpnhat, server: 120.232.192.115, port: 3389, type: trojan, password: 1a1247ea6cb266b4, skip-cert-verify: true, udp: true}
-  - {name: 2.58| 日本JP  04, server: shcn2.fastcloud.club, port: 41335, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 2.28|娄底联通SGMelbicomvpnhat, server: 116.163.10.157, port: 3389, type: trojan, password: 1a1247ea6cb266b4, skip-cert-verify: true, udp: true}
-  - {name: 2.19|娄底联通SGMelbicomvpnhat 2, server: 116.163.10.208, port: 3389, type: trojan, password: 1a1247ea6cb266b4, skip-cert-verify: true, udp: true}
-  - {name: 2.12|V1俄罗斯01 中继D 12x, server: in04.2333dns.com, port: 64071, type: vmess, uuid: 8426925e-2f87-349e-a7ba-1375c3afd37b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-ru01.covid19.rip}, udp: true}
-  - {name: 2.07|佛山移动彰化Hinetvpnhat 2, server: 183.232.163.134, port: 3389, type: trojan, password: 3426d80c2e066a83, skip-cert-verify: true, udp: true}
-  - {name: 1.41| CN68 TGpeekfun, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 1.25| SSRSUB首尔V11付费推荐suoytssrsub, server: v11.ssrsub.com, port: 166, type: vmess, uuid: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v11.ssrsub.com}, udp: true}
-  - {name: 1.21| 日本 01 沪联Aws, server: sh.jiyunshu.com, port: 56743, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: 1.19|Relay 295Mb, server: t10.ssrsub.com, port: 8443, type: trojan, password: b3f4826a-01e1-438a-8cb4-becb9e8b140c, sni: t10.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 1.07|专线香港07原生HKBN, server: v31.88host.buzz, port: 18082, type: vmess, uuid: d6b30550-19ff-324c-b95f-d19a0da68d44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 9.33|CN116192174202812 2, server: shcn2-06b.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 8.45| 日本JP  02 2, server: shcn2.fastcloud.club, port: 41337, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 7.46|专线香港02原生HGCBBS 2, server: v32.88host.buzz, port: 18065, type: vmess, uuid: d6b30550-19ff-324c-b95f-d19a0da68d44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 7.37| 新加坡SP  01 沪港 2, server: shcn2.fastcloud.club, port: 41327, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 7.28|专线香港01原生HGCBBS 2, server: v31.88host.buzz, port: 18064, type: vmess, uuid: d6b30550-19ff-324c-b95f-d19a0da68d44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 6.87|v2ray 日本移动 Netflix 2, server: cm2.cheapv2.xyz, port: 28802, type: vmess, uuid: ef25cb86-f309-337c-b7ea-c5b8f87d34e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}, udp: true}
-  - {name: 6.48|专线香港08原生HKBN 2, server: v32.88host.buzz, port: 18083, type: vmess, uuid: d6b30550-19ff-324c-b95f-d19a0da68d44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 6.47| 香港HK  D2 2, server: shcn2.fastcloud.club, port: 41345, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 6.45| 日本JP  01 2, server: shcn2.fastcloud.club, port: 41338, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 6.01|v2ray 日本联通 Netflix 2, server: cu.cheapv2.xyz, port: 28802, type: vmess, uuid: ef25cb86-f309-337c-b7ea-c5b8f87d34e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
-  - {name: 5.27| 日本JP  03 2, server: shcn2.fastcloud.club, port: 41336, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 4.06|专线台湾01原生Taipei 2, server: v36.88host.buzz, port: 18078, type: vmess, uuid: d6b30550-19ff-324c-b95f-d19a0da68d44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 4.00|专线香港05原生HGCBBS 2, server: v35.88host.buzz, port: 18068, type: vmess, uuid: d6b30550-19ff-324c-b95f-d19a0da68d44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3.44|专线香港04原生HGCBBS 2, server: v34.88host.buzz, port: 18067, type: vmess, uuid: d6b30550-19ff-324c-b95f-d19a0da68d44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3.26|专线美国03原生Seattle 2, server: v33.88host.buzz, port: 18044, type: vmess, uuid: 5c4e1928-eed5-3b48-b1dc-1575bdd584dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3.13|标准中国台湾04解锁流媒体 2, server: zfd.out04.nodeserver.top, port: 16128, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.98| Moon365netTW 374 free 2, server: in05.2333dns.com, port: 64068, type: vmess, uuid: 09fe98b8-3795-3294-b749-5a39208a6cdd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: "%7B%22Host%22:%22cdn.bootcdn.net%22%7D"}, udp: true}
-  - {name: 2.58| 日本JP  04 2, server: shcn2.fastcloud.club, port: 41335, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 2.12|V1俄罗斯01 中继D 12x 2, server: in04.2333dns.com, port: 64071, type: vmess, uuid: 8426925e-2f87-349e-a7ba-1375c3afd37b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-ru01.covid19.rip}, udp: true}
-  - {name: 1.41| CN68 TGpeekfun 2, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 1.21| 日本 01 沪联Aws 2, server: sh.jiyunshu.com, port: 56743, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: 1.07|专线香港07原生HKBN 2, server: v31.88host.buzz, port: 18082, type: vmess, uuid: d6b30550-19ff-324c-b95f-d19a0da68d44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 6.50| 香港HK  D2 2, server: shcn2.fastcloud.club, port: 41345, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 6.44| RelayCNJP289  460Mb 2, server: sh.jiyunshu.com, port: 56743, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: sh.jiyunshu.com}, udp: true}
-  - {name: 5.96| 日本JP  02 2, server: shcn2.fastcloud.club, port: 41337, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 5.42| 新加坡SP  01 沪港 2, server: shcn2.fastcloud.club, port: 41327, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 5.15| 日本JP  03 2, server: shcn2.fastcloud.club, port: 41336, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 5.10|v2ray 日本移动 Netflix 2, server: cm2.cheapv2.xyz, port: 28802, type: vmess, uuid: ef25cb86-f309-337c-b7ea-c5b8f87d34e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}, udp: true}
-  - {name: 4.69|v2ray 日本联通 Netflix 2, server: cu.cheapv2.xyz, port: 28802, type: vmess, uuid: ef25cb86-f309-337c-b7ea-c5b8f87d34e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
-  - {name: 4.48| 日本JP  04 2, server: shcn2.fastcloud.club, port: 41335, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 4.19| RelayCNTW304  468Mb 2, server: 139.226.112.116, port: 64068, type: vmess, uuid: 09fe98b8-3795-3294-b749-5a39208a6cdd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: in05.2333dns.com}, udp: true}
-  - {name: 4.12| CN380, server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 4.11| 日本JP  01 2, server: shcn2.fastcloud.club, port: 41338, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 4.07| 日本 01 直连Aws 2, server: 13.115.119.175, port: 8080, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: 3.75| US2014  490Mb 2, server: 158.247.201.144, port: 57606, type: vmess, uuid: c1b22b5c-740b-11ec-a8ce-560003caafbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JOjns12Y/, ws-headers: {Host: 158.247.201.144}, udp: true}
-  - {name: 3.54|CYL科技20220111 39 2, server: vipdedi.boom.ovh, port: 65521, type: vmess, uuid: a8d9724a-d61c-3d85-8cad-07e4d45a9441, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mydisk, ws-headers: {Host: vipdedi.boom.ovh}, udp: true}
-  - {name: 3.42| V1台湾05 中继E 2x 2, server: in05.2333dns.com, port: 64068, type: vmess, uuid: 09fe98b8-3795-3294-b749-5a39208a6cdd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: 3.00|V1台湾05 中继A 2x 2, server: in01.2333dns.com, port: 64068, type: vmess, uuid: 8426925e-2f87-349e-a7ba-1375c3afd37b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: 2.97|V1日本B组 直连 速度随缘 1x16 2, server: jp-group-b-direct.myn0des.com, port: 8880, type: vmess, uuid: f0622fcc-55a3-346f-81d1-d60fa5a9fbe8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp-group-b-direct.myn0des.com}, udp: true}
-  - {name: 2.73|标准中国台湾04解锁流媒体 2, server: zfd.out04.nodeserver.top, port: 16128, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.65|CYL科技20220111 36 2 2, server: hzcu.rymv2rayssl.xyz, port: 44601, type: vmess, uuid: 5002a71b-d203-3a1d-987f-99522eccdc25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: hzcu.rymv2rayssl.xyz}, udp: true}
-  - {name: 2.63|共享 2, server: 27.122.57.72, port: 35326, type: vmess, uuid: 217362fd-3e43-4436-be62-92f6dd57303b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.56| 韩国 01 直连Aws 2, server: 3.34.134.181, port: 80, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: 2.48|HKYoutube技术分享室整理 2, server: shcn2-06b.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.33| CN386 2, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.25| RelayCNUS302  825Mb 2, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 1.98|俄罗斯阿伟科技油管 2, server: 194.5.79.15, port: 60764, type: vmess, uuid: e1107940-740b-11ec-8f34-0e8969ca1a20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 5.20| 专线香港08原生HGCBBS, server: zfd.out02.nodeserver.top, port: 16237, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 5.20| 专线香港08原生HGCBBS 2, server: zfd.out02.nodeserver.top, port: 16237, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 3.22|专线西雅图02原生NTT, server: zfd.out02.nodeserver.top, port: 16234, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 3.04|标准中国台湾04解锁流媒体, server: zfd.out04.nodeserver.top, port: 16128, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.82| CN64, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.74| 专线西雅图01原生NTT, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.74| 专线西雅图01原生NTT 2, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.74| 专线西雅图01原生NTT 3, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.70|专线香港08原生HGCBBS, server: zfd.out02.nodeserver.top, port: 16237, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.59|V1俄罗斯01 中继D 12x, server: in04.2333dns.com, port: 64071, type: vmess, uuid: 8426925e-2f87-349e-a7ba-1375c3afd37b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-ru01.covid19.rip}, udp: true}
+  - {name: 2.29| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.29| 专线中国台湾03原生HINET 2, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.29| 专线中国台湾03原生HINET 3, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.27| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 1.57|CYL科技20220101 30 2, server: sy-am2.eqsunshine.com, port: 443, type: ssr, cipher: aes-256-cfb, password: Jz8r4gLNP, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 1.48|TG@moneyflychat 安徽省移动 21, server: fa6.uuv2.co.uk, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _中国跳转_3, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _中国跳转_2, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[直连] 美国1 解锁流媒体 2", server: 23.234.242.253, port: 8888, type: vmess, uuid: 9bf3ddad-c2a5-4056-8dae-5a3cb9e9b84c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 23.234.242.253}, udp: true}
+  - {name: "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2", server: ah.jiyunshu.com, port: 61352, type: vmess, uuid: 9bf3ddad-c2a5-4056-8dae-5a3cb9e9b84c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ah.jiyunshu.com}, udp: true}
+  - {name: "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2 2", server: ah.jiyunshu.com, port: 61352, type: vmess, uuid: 9bf3ddad-c2a5-4056-8dae-5a3cb9e9b84c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ah.jiyunshu.com}, udp: true}
+  - {name: 2.59|V1俄罗斯01 中继D 12x 2, server: in04.2333dns.com, port: 64071, type: vmess, uuid: 8426925e-2f87-349e-a7ba-1375c3afd37b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-ru01.covid19.rip}, udp: true}
+  - {name: 2.74| 专线西雅图01原生NTT 4, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.74| 专线西雅图01原生NTT 2 2, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 5.20| 专线香港08原生HGCBBS 3, server: zfd.out02.nodeserver.top, port: 16237, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.29| 专线中国台湾03原生HINET 4, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港001, server: gy.170809.xyz, port: 53912, type: ss, cipher: chacha20-ietf-poly1305, password: 89386c1f-435f-4bb5-9c10-118e07c01621, udp: true}
+  - {name: 30香港TG@moneyflychat , server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: zj.haojiahuo.club}, udp: true}
+  - {name: 45香港TG@moneyflychat , server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: 46香港TG@moneyflychat , server: zj.haojiahuo.club, port: 30041, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: 58美国TG@moneyflychat , server: zj.haojiahuo.club, port: 30077, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: 73美国TG@moneyflychat , server: zj.haojiahuo.club, port: 30052, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: TG@moneyflychat 41, server: zj.haojiahuo.club, port: 30077, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: TG@moneyflychat 67, server: zj.haojiahuo.club, port: 30057, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: zj.haojiahuo.club}, udp: true}
+  - {name: TG@moneyflychat 92, server: zj.haojiahuo.club, port: 30052, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: TG@moneyflychat 177, server: zj.haojiahuo.club, port: 30041, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: TG@moneyflychat 201, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: zj.haojiahuo.club}, udp: true}
+  - {name: TG@moneyflychat 208, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: TG@moneyflychat , server: shcu1.qwqcloud.top, port: 11214, type: vmess, uuid: 99c40b31-923a-46df-97ae-b1a98acae529, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat  2, server: shcu1.qwqcloud.top, port: 11216, type: vmess, uuid: 99c40b31-923a-46df-97ae-b1a98acae529, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat  3, server: shcu1.qwqcloud.top, port: 11215, type: vmess, uuid: 99c40b31-923a-46df-97ae-b1a98acae529, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat  4, server: shcu1.qwqcloud.top, port: 11212, type: vmess, uuid: 99c40b31-923a-46df-97ae-b1a98acae529, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat  5, server: shcu1.qwqcloud.top, port: 11211, type: vmess, uuid: 99c40b31-923a-46df-97ae-b1a98acae529, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat  6, server: shcu1.qwqcloud.top, port: 11210, type: vmess, uuid: 99c40b31-923a-46df-97ae-b1a98acae529, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 6.50| 香港HK  D2
-      - 6.44| RelayCNJP289  460Mb
-      - 6.09| 香港HK  D4
-      - 5.96| 日本JP  02
-      - 5.42| 新加坡SP  01 沪港
-      - 5.15| CN68 TGpeekfun
-      - 5.15| 日本JP  03
-      - 5.10|v2ray 日本移动 Netflix
-      - 4.69|v2ray 日本联通 Netflix
-      - 4.52|RelayCNHK283
-      - 4.48| 日本JP  04
-      - 4.19| RelayCNTW304  468Mb
-      - 4.11| 日本JP  01
-      - 4.07| 日本 01 直连Aws
-      - 3.75| US2014  490Mb
-      - 3.54|CYL科技20220111 39
-      - 3.42| V1台湾05 中继E 2x
-      - 3.00|V1台湾05 中继A 2x
-      - 2.97|V1日本B组 直连 速度随缘 1x16
-      - 2.73|标准中国台湾04解锁流媒体
-      - 2.65|CYL科技20220111 36 2
-      - 2.63|共享
-      - 2.56| 韩国 01 直连Aws
-      - 2.48|HKYoutube技术分享室整理
-      - 2.33| CN386
-      - 2.25| RelayCNUS302  825Mb
-      - 2.12| RO838
-      - 2.10| US1951
-      - 2.00| US1846
-      - 1.98|俄罗斯阿伟科技油管
-      - 1.73|CYL科技20220109 68
-      - 1.54|NONFMYC20211128184
-      - 1.42|101
-      - 1.42|98
-      - 1.31|  487Mb
-      - 1.28| SSRSUB大阪V15付费推荐suoytssrsub
-      - 1.26|110
-      - 1.23|RELAY104161041260900
-      - 1.23| NL787
-      - 1.16| CN379
-      - 1.13|V1俄罗斯01 中继D 12x
-      - 1.07| httpsgitiov9999 莫斯科CDN ip4 3
-      - 1.07|IN5214012335821
-      - 1.04|RELAY1042081240490
-      - 1.02|RelayCNUS295
-      - 9.33|CN116192174202812
-      - 8.45| 日本JP  02
-      - 7.46|专线香港02原生HGCBBS
-      - 7.37| 新加坡SP  01 沪港
-      - 7.28|专线香港01原生HGCBBS
-      - 6.87|v2ray 日本移动 Netflix
-      - 6.60|v2ray 马来西亚移动 Netflix
-      - 6.48|专线香港08原生HKBN
-      - 6.47| 香港HK  D2
-      - 6.45| 日本JP  01
-      - 6.23|徐州联通彰化Hinetvpnhat
-      - 6.10|Relay4947Mb
-      - 6.01|v2ray 日本联通 Netflix
-      - 5.93|githubcomfreefq  安徽省移动 1
-      - 5.35|Relay2926Mb
-      - 5.27|徐州联通SGMelbicomvpnhat
-      - 5.27| 日本JP  03
-      - 5.08|徐州联通SGMelbicomvpnhat 3
-      - 4.06|专线台湾01原生Taipei
-      - 4.00|专线香港05原生HGCBBS
-      - 3.95|Relay2595Mb
-      - 3.86|徐州联通SGMelbicomvpnhat 5
-      - 3.57|Relay2421Mb
-      - 3.53|Relay2319Mb
-      - 3.44|专线香港04原生HGCBBS
-      - 3.28|北京科技网TokyoLinodevpnhat 4
-      - 3.26|专线美国03原生Seattle
-      - 3.16| CN67
-      - 3.13|标准中国台湾04解锁流媒体
-      - 3.05|广州优刻云TokyoLinodevpnhat 2
-      - 2.98| Moon365netTW 374 free
-      - 2.75|杭州移动彰化Hinetvpnhat
-      - 2.58| 日本JP  04
-      - 2.28|娄底联通SGMelbicomvpnhat
-      - 2.19|娄底联通SGMelbicomvpnhat 2
-      - 2.12|V1俄罗斯01 中继D 12x
-      - 2.07|佛山移动彰化Hinetvpnhat 2
-      - 1.41| CN68 TGpeekfun
-      - 1.25| SSRSUB首尔V11付费推荐suoytssrsub
-      - 1.21| 日本 01 沪联Aws
-      - 1.19|Relay 295Mb
-      - 1.07|专线香港07原生HKBN
-      - 9.33|CN116192174202812 2
-      - 8.45| 日本JP  02 2
-      - 7.46|专线香港02原生HGCBBS 2
-      - 7.37| 新加坡SP  01 沪港 2
-      - 7.28|专线香港01原生HGCBBS 2
-      - 6.87|v2ray 日本移动 Netflix 2
-      - 6.48|专线香港08原生HKBN 2
-      - 6.47| 香港HK  D2 2
-      - 6.45| 日本JP  01 2
-      - 6.01|v2ray 日本联通 Netflix 2
-      - 5.27| 日本JP  03 2
-      - 4.06|专线台湾01原生Taipei 2
-      - 4.00|专线香港05原生HGCBBS 2
-      - 3.44|专线香港04原生HGCBBS 2
-      - 3.26|专线美国03原生Seattle 2
-      - 3.13|标准中国台湾04解锁流媒体 2
-      - 2.98| Moon365netTW 374 free 2
-      - 2.58| 日本JP  04 2
-      - 2.12|V1俄罗斯01 中继D 12x 2
-      - 1.41| CN68 TGpeekfun 2
-      - 1.21| 日本 01 沪联Aws 2
-      - 1.07|专线香港07原生HKBN 2
-      - 6.50| 香港HK  D2 2
-      - 6.44| RelayCNJP289  460Mb 2
-      - 5.96| 日本JP  02 2
-      - 5.42| 新加坡SP  01 沪港 2
-      - 5.15| 日本JP  03 2
-      - 5.10|v2ray 日本移动 Netflix 2
-      - 4.69|v2ray 日本联通 Netflix 2
-      - 4.48| 日本JP  04 2
-      - 4.19| RelayCNTW304  468Mb 2
-      - 4.12| CN380
-      - 4.11| 日本JP  01 2
-      - 4.07| 日本 01 直连Aws 2
-      - 3.75| US2014  490Mb 2
-      - 3.54|CYL科技20220111 39 2
-      - 3.42| V1台湾05 中继E 2x 2
-      - 3.00|V1台湾05 中继A 2x 2
-      - 2.97|V1日本B组 直连 速度随缘 1x16 2
-      - 2.73|标准中国台湾04解锁流媒体 2
-      - 2.65|CYL科技20220111 36 2 2
-      - 2.63|共享 2
-      - 2.56| 韩国 01 直连Aws 2
-      - 2.48|HKYoutube技术分享室整理 2
-      - 2.33| CN386 2
-      - 2.25| RelayCNUS302  825Mb 2
-      - 1.98|俄罗斯阿伟科技油管 2
+      - 5.20| 专线香港08原生HGCBBS
+      - 5.20| 专线香港08原生HGCBBS 2
+      - 3.22|专线西雅图02原生NTT
+      - 3.04|标准中国台湾04解锁流媒体
+      - 2.82| CN64
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 2
+      - 2.74| 专线西雅图01原生NTT 3
+      - 2.70|专线香港08原生HGCBBS
+      - 2.59|V1俄罗斯01 中继D 12x
+      - 2.29| 专线中国台湾03原生HINET
+      - 2.29| 专线中国台湾03原生HINET 2
+      - 2.29| 专线中国台湾03原生HINET 3
+      - 2.27| 专线中国台湾03原生HINET
+      - 1.57|CYL科技20220101 30 2
+      - 1.48|TG@moneyflychat 安徽省移动 21
+      - _中国跳转_3
+      - _中国跳转_2
+      - "[直连] 美国1 解锁流媒体 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2 2"
+      - 2.59|V1俄罗斯01 中继D 12x 2
+      - 2.74| 专线西雅图01原生NTT 4
+      - 2.74| 专线西雅图01原生NTT 2 2
+      - 5.20| 专线香港08原生HGCBBS 3
+      - 2.29| 专线中国台湾03原生HINET 4
+      - 香港001
+      - 30香港TG@moneyflychat 
+      - 45香港TG@moneyflychat 
+      - 46香港TG@moneyflychat 
+      - 58美国TG@moneyflychat 
+      - 73美国TG@moneyflychat 
+      - TG@moneyflychat 41
+      - TG@moneyflychat 67
+      - TG@moneyflychat 92
+      - TG@moneyflychat 177
+      - TG@moneyflychat 201
+      - TG@moneyflychat 208
+      - TG@moneyflychat 
+      - TG@moneyflychat  2
+      - TG@moneyflychat  3
+      - TG@moneyflychat  4
+      - TG@moneyflychat  5
+      - TG@moneyflychat  6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 6.50| 香港HK  D2
-      - 6.44| RelayCNJP289  460Mb
-      - 6.09| 香港HK  D4
-      - 5.96| 日本JP  02
-      - 5.42| 新加坡SP  01 沪港
-      - 5.15| CN68 TGpeekfun
-      - 5.15| 日本JP  03
-      - 5.10|v2ray 日本移动 Netflix
-      - 4.69|v2ray 日本联通 Netflix
-      - 4.52|RelayCNHK283
-      - 4.48| 日本JP  04
-      - 4.19| RelayCNTW304  468Mb
-      - 4.11| 日本JP  01
-      - 4.07| 日本 01 直连Aws
-      - 3.75| US2014  490Mb
-      - 3.54|CYL科技20220111 39
-      - 3.42| V1台湾05 中继E 2x
-      - 3.00|V1台湾05 中继A 2x
-      - 2.97|V1日本B组 直连 速度随缘 1x16
-      - 2.73|标准中国台湾04解锁流媒体
-      - 2.65|CYL科技20220111 36 2
-      - 2.63|共享
-      - 2.56| 韩国 01 直连Aws
-      - 2.48|HKYoutube技术分享室整理
-      - 2.33| CN386
-      - 2.25| RelayCNUS302  825Mb
-      - 2.12| RO838
-      - 2.10| US1951
-      - 2.00| US1846
-      - 1.98|俄罗斯阿伟科技油管
-      - 1.73|CYL科技20220109 68
-      - 1.54|NONFMYC20211128184
-      - 1.42|101
-      - 1.42|98
-      - 1.31|  487Mb
-      - 1.28| SSRSUB大阪V15付费推荐suoytssrsub
-      - 1.26|110
-      - 1.23|RELAY104161041260900
-      - 1.23| NL787
-      - 1.16| CN379
-      - 1.13|V1俄罗斯01 中继D 12x
-      - 1.07| httpsgitiov9999 莫斯科CDN ip4 3
-      - 1.07|IN5214012335821
-      - 1.04|RELAY1042081240490
-      - 1.02|RelayCNUS295
-      - 9.33|CN116192174202812
-      - 8.45| 日本JP  02
-      - 7.46|专线香港02原生HGCBBS
-      - 7.37| 新加坡SP  01 沪港
-      - 7.28|专线香港01原生HGCBBS
-      - 6.87|v2ray 日本移动 Netflix
-      - 6.60|v2ray 马来西亚移动 Netflix
-      - 6.48|专线香港08原生HKBN
-      - 6.47| 香港HK  D2
-      - 6.45| 日本JP  01
-      - 6.23|徐州联通彰化Hinetvpnhat
-      - 6.10|Relay4947Mb
-      - 6.01|v2ray 日本联通 Netflix
-      - 5.93|githubcomfreefq  安徽省移动 1
-      - 5.35|Relay2926Mb
-      - 5.27|徐州联通SGMelbicomvpnhat
-      - 5.27| 日本JP  03
-      - 5.08|徐州联通SGMelbicomvpnhat 3
-      - 4.06|专线台湾01原生Taipei
-      - 4.00|专线香港05原生HGCBBS
-      - 3.95|Relay2595Mb
-      - 3.86|徐州联通SGMelbicomvpnhat 5
-      - 3.57|Relay2421Mb
-      - 3.53|Relay2319Mb
-      - 3.44|专线香港04原生HGCBBS
-      - 3.28|北京科技网TokyoLinodevpnhat 4
-      - 3.26|专线美国03原生Seattle
-      - 3.16| CN67
-      - 3.13|标准中国台湾04解锁流媒体
-      - 3.05|广州优刻云TokyoLinodevpnhat 2
-      - 2.98| Moon365netTW 374 free
-      - 2.75|杭州移动彰化Hinetvpnhat
-      - 2.58| 日本JP  04
-      - 2.28|娄底联通SGMelbicomvpnhat
-      - 2.19|娄底联通SGMelbicomvpnhat 2
-      - 2.12|V1俄罗斯01 中继D 12x
-      - 2.07|佛山移动彰化Hinetvpnhat 2
-      - 1.41| CN68 TGpeekfun
-      - 1.25| SSRSUB首尔V11付费推荐suoytssrsub
-      - 1.21| 日本 01 沪联Aws
-      - 1.19|Relay 295Mb
-      - 1.07|专线香港07原生HKBN
-      - 9.33|CN116192174202812 2
-      - 8.45| 日本JP  02 2
-      - 7.46|专线香港02原生HGCBBS 2
-      - 7.37| 新加坡SP  01 沪港 2
-      - 7.28|专线香港01原生HGCBBS 2
-      - 6.87|v2ray 日本移动 Netflix 2
-      - 6.48|专线香港08原生HKBN 2
-      - 6.47| 香港HK  D2 2
-      - 6.45| 日本JP  01 2
-      - 6.01|v2ray 日本联通 Netflix 2
-      - 5.27| 日本JP  03 2
-      - 4.06|专线台湾01原生Taipei 2
-      - 4.00|专线香港05原生HGCBBS 2
-      - 3.44|专线香港04原生HGCBBS 2
-      - 3.26|专线美国03原生Seattle 2
-      - 3.13|标准中国台湾04解锁流媒体 2
-      - 2.98| Moon365netTW 374 free 2
-      - 2.58| 日本JP  04 2
-      - 2.12|V1俄罗斯01 中继D 12x 2
-      - 1.41| CN68 TGpeekfun 2
-      - 1.21| 日本 01 沪联Aws 2
-      - 1.07|专线香港07原生HKBN 2
-      - 6.50| 香港HK  D2 2
-      - 6.44| RelayCNJP289  460Mb 2
-      - 5.96| 日本JP  02 2
-      - 5.42| 新加坡SP  01 沪港 2
-      - 5.15| 日本JP  03 2
-      - 5.10|v2ray 日本移动 Netflix 2
-      - 4.69|v2ray 日本联通 Netflix 2
-      - 4.48| 日本JP  04 2
-      - 4.19| RelayCNTW304  468Mb 2
-      - 4.12| CN380
-      - 4.11| 日本JP  01 2
-      - 4.07| 日本 01 直连Aws 2
-      - 3.75| US2014  490Mb 2
-      - 3.54|CYL科技20220111 39 2
-      - 3.42| V1台湾05 中继E 2x 2
-      - 3.00|V1台湾05 中继A 2x 2
-      - 2.97|V1日本B组 直连 速度随缘 1x16 2
-      - 2.73|标准中国台湾04解锁流媒体 2
-      - 2.65|CYL科技20220111 36 2 2
-      - 2.63|共享 2
-      - 2.56| 韩国 01 直连Aws 2
-      - 2.48|HKYoutube技术分享室整理 2
-      - 2.33| CN386 2
-      - 2.25| RelayCNUS302  825Mb 2
-      - 1.98|俄罗斯阿伟科技油管 2
+      - 5.20| 专线香港08原生HGCBBS
+      - 5.20| 专线香港08原生HGCBBS 2
+      - 3.22|专线西雅图02原生NTT
+      - 3.04|标准中国台湾04解锁流媒体
+      - 2.82| CN64
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 2
+      - 2.74| 专线西雅图01原生NTT 3
+      - 2.70|专线香港08原生HGCBBS
+      - 2.59|V1俄罗斯01 中继D 12x
+      - 2.29| 专线中国台湾03原生HINET
+      - 2.29| 专线中国台湾03原生HINET 2
+      - 2.29| 专线中国台湾03原生HINET 3
+      - 2.27| 专线中国台湾03原生HINET
+      - 1.57|CYL科技20220101 30 2
+      - 1.48|TG@moneyflychat 安徽省移动 21
+      - _中国跳转_3
+      - _中国跳转_2
+      - "[直连] 美国1 解锁流媒体 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2 2"
+      - 2.59|V1俄罗斯01 中继D 12x 2
+      - 2.74| 专线西雅图01原生NTT 4
+      - 2.74| 专线西雅图01原生NTT 2 2
+      - 5.20| 专线香港08原生HGCBBS 3
+      - 2.29| 专线中国台湾03原生HINET 4
+      - 香港001
+      - 30香港TG@moneyflychat 
+      - 45香港TG@moneyflychat 
+      - 46香港TG@moneyflychat 
+      - 58美国TG@moneyflychat 
+      - 73美国TG@moneyflychat 
+      - TG@moneyflychat 41
+      - TG@moneyflychat 67
+      - TG@moneyflychat 92
+      - TG@moneyflychat 177
+      - TG@moneyflychat 201
+      - TG@moneyflychat 208
+      - TG@moneyflychat 
+      - TG@moneyflychat  2
+      - TG@moneyflychat  3
+      - TG@moneyflychat  4
+      - TG@moneyflychat  5
+      - TG@moneyflychat  6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 6.50| 香港HK  D2
-      - 6.44| RelayCNJP289  460Mb
-      - 6.09| 香港HK  D4
-      - 5.96| 日本JP  02
-      - 5.42| 新加坡SP  01 沪港
-      - 5.15| CN68 TGpeekfun
-      - 5.15| 日本JP  03
-      - 5.10|v2ray 日本移动 Netflix
-      - 4.69|v2ray 日本联通 Netflix
-      - 4.52|RelayCNHK283
-      - 4.48| 日本JP  04
-      - 4.19| RelayCNTW304  468Mb
-      - 4.11| 日本JP  01
-      - 4.07| 日本 01 直连Aws
-      - 3.75| US2014  490Mb
-      - 3.54|CYL科技20220111 39
-      - 3.42| V1台湾05 中继E 2x
-      - 3.00|V1台湾05 中继A 2x
-      - 2.97|V1日本B组 直连 速度随缘 1x16
-      - 2.73|标准中国台湾04解锁流媒体
-      - 2.65|CYL科技20220111 36 2
-      - 2.63|共享
-      - 2.56| 韩国 01 直连Aws
-      - 2.48|HKYoutube技术分享室整理
-      - 2.33| CN386
-      - 2.25| RelayCNUS302  825Mb
-      - 2.12| RO838
-      - 2.10| US1951
-      - 2.00| US1846
-      - 1.98|俄罗斯阿伟科技油管
-      - 1.73|CYL科技20220109 68
-      - 1.54|NONFMYC20211128184
-      - 1.42|101
-      - 1.42|98
-      - 1.31|  487Mb
-      - 1.28| SSRSUB大阪V15付费推荐suoytssrsub
-      - 1.26|110
-      - 1.23|RELAY104161041260900
-      - 1.23| NL787
-      - 1.16| CN379
-      - 1.13|V1俄罗斯01 中继D 12x
-      - 1.07| httpsgitiov9999 莫斯科CDN ip4 3
-      - 1.07|IN5214012335821
-      - 1.04|RELAY1042081240490
-      - 1.02|RelayCNUS295
-      - 9.33|CN116192174202812
-      - 8.45| 日本JP  02
-      - 7.46|专线香港02原生HGCBBS
-      - 7.37| 新加坡SP  01 沪港
-      - 7.28|专线香港01原生HGCBBS
-      - 6.87|v2ray 日本移动 Netflix
-      - 6.60|v2ray 马来西亚移动 Netflix
-      - 6.48|专线香港08原生HKBN
-      - 6.47| 香港HK  D2
-      - 6.45| 日本JP  01
-      - 6.23|徐州联通彰化Hinetvpnhat
-      - 6.10|Relay4947Mb
-      - 6.01|v2ray 日本联通 Netflix
-      - 5.93|githubcomfreefq  安徽省移动 1
-      - 5.35|Relay2926Mb
-      - 5.27|徐州联通SGMelbicomvpnhat
-      - 5.27| 日本JP  03
-      - 5.08|徐州联通SGMelbicomvpnhat 3
-      - 4.06|专线台湾01原生Taipei
-      - 4.00|专线香港05原生HGCBBS
-      - 3.95|Relay2595Mb
-      - 3.86|徐州联通SGMelbicomvpnhat 5
-      - 3.57|Relay2421Mb
-      - 3.53|Relay2319Mb
-      - 3.44|专线香港04原生HGCBBS
-      - 3.28|北京科技网TokyoLinodevpnhat 4
-      - 3.26|专线美国03原生Seattle
-      - 3.16| CN67
-      - 3.13|标准中国台湾04解锁流媒体
-      - 3.05|广州优刻云TokyoLinodevpnhat 2
-      - 2.98| Moon365netTW 374 free
-      - 2.75|杭州移动彰化Hinetvpnhat
-      - 2.58| 日本JP  04
-      - 2.28|娄底联通SGMelbicomvpnhat
-      - 2.19|娄底联通SGMelbicomvpnhat 2
-      - 2.12|V1俄罗斯01 中继D 12x
-      - 2.07|佛山移动彰化Hinetvpnhat 2
-      - 1.41| CN68 TGpeekfun
-      - 1.25| SSRSUB首尔V11付费推荐suoytssrsub
-      - 1.21| 日本 01 沪联Aws
-      - 1.19|Relay 295Mb
-      - 1.07|专线香港07原生HKBN
-      - 9.33|CN116192174202812 2
-      - 8.45| 日本JP  02 2
-      - 7.46|专线香港02原生HGCBBS 2
-      - 7.37| 新加坡SP  01 沪港 2
-      - 7.28|专线香港01原生HGCBBS 2
-      - 6.87|v2ray 日本移动 Netflix 2
-      - 6.48|专线香港08原生HKBN 2
-      - 6.47| 香港HK  D2 2
-      - 6.45| 日本JP  01 2
-      - 6.01|v2ray 日本联通 Netflix 2
-      - 5.27| 日本JP  03 2
-      - 4.06|专线台湾01原生Taipei 2
-      - 4.00|专线香港05原生HGCBBS 2
-      - 3.44|专线香港04原生HGCBBS 2
-      - 3.26|专线美国03原生Seattle 2
-      - 3.13|标准中国台湾04解锁流媒体 2
-      - 2.98| Moon365netTW 374 free 2
-      - 2.58| 日本JP  04 2
-      - 2.12|V1俄罗斯01 中继D 12x 2
-      - 1.41| CN68 TGpeekfun 2
-      - 1.21| 日本 01 沪联Aws 2
-      - 1.07|专线香港07原生HKBN 2
-      - 6.50| 香港HK  D2 2
-      - 6.44| RelayCNJP289  460Mb 2
-      - 5.96| 日本JP  02 2
-      - 5.42| 新加坡SP  01 沪港 2
-      - 5.15| 日本JP  03 2
-      - 5.10|v2ray 日本移动 Netflix 2
-      - 4.69|v2ray 日本联通 Netflix 2
-      - 4.48| 日本JP  04 2
-      - 4.19| RelayCNTW304  468Mb 2
-      - 4.12| CN380
-      - 4.11| 日本JP  01 2
-      - 4.07| 日本 01 直连Aws 2
-      - 3.75| US2014  490Mb 2
-      - 3.54|CYL科技20220111 39 2
-      - 3.42| V1台湾05 中继E 2x 2
-      - 3.00|V1台湾05 中继A 2x 2
-      - 2.97|V1日本B组 直连 速度随缘 1x16 2
-      - 2.73|标准中国台湾04解锁流媒体 2
-      - 2.65|CYL科技20220111 36 2 2
-      - 2.63|共享 2
-      - 2.56| 韩国 01 直连Aws 2
-      - 2.48|HKYoutube技术分享室整理 2
-      - 2.33| CN386 2
-      - 2.25| RelayCNUS302  825Mb 2
-      - 1.98|俄罗斯阿伟科技油管 2
+      - 5.20| 专线香港08原生HGCBBS
+      - 5.20| 专线香港08原生HGCBBS 2
+      - 3.22|专线西雅图02原生NTT
+      - 3.04|标准中国台湾04解锁流媒体
+      - 2.82| CN64
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 2
+      - 2.74| 专线西雅图01原生NTT 3
+      - 2.70|专线香港08原生HGCBBS
+      - 2.59|V1俄罗斯01 中继D 12x
+      - 2.29| 专线中国台湾03原生HINET
+      - 2.29| 专线中国台湾03原生HINET 2
+      - 2.29| 专线中国台湾03原生HINET 3
+      - 2.27| 专线中国台湾03原生HINET
+      - 1.57|CYL科技20220101 30 2
+      - 1.48|TG@moneyflychat 安徽省移动 21
+      - _中国跳转_3
+      - _中国跳转_2
+      - "[直连] 美国1 解锁流媒体 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2 2"
+      - 2.59|V1俄罗斯01 中继D 12x 2
+      - 2.74| 专线西雅图01原生NTT 4
+      - 2.74| 专线西雅图01原生NTT 2 2
+      - 5.20| 专线香港08原生HGCBBS 3
+      - 2.29| 专线中国台湾03原生HINET 4
+      - 香港001
+      - 30香港TG@moneyflychat 
+      - 45香港TG@moneyflychat 
+      - 46香港TG@moneyflychat 
+      - 58美国TG@moneyflychat 
+      - 73美国TG@moneyflychat 
+      - TG@moneyflychat 41
+      - TG@moneyflychat 67
+      - TG@moneyflychat 92
+      - TG@moneyflychat 177
+      - TG@moneyflychat 201
+      - TG@moneyflychat 208
+      - TG@moneyflychat 
+      - TG@moneyflychat  2
+      - TG@moneyflychat  3
+      - TG@moneyflychat  4
+      - TG@moneyflychat  5
+      - TG@moneyflychat  6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -576,597 +216,217 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 6.50| 香港HK  D2
-      - 6.44| RelayCNJP289  460Mb
-      - 6.09| 香港HK  D4
-      - 5.96| 日本JP  02
-      - 5.42| 新加坡SP  01 沪港
-      - 5.15| CN68 TGpeekfun
-      - 5.15| 日本JP  03
-      - 5.10|v2ray 日本移动 Netflix
-      - 4.69|v2ray 日本联通 Netflix
-      - 4.52|RelayCNHK283
-      - 4.48| 日本JP  04
-      - 4.19| RelayCNTW304  468Mb
-      - 4.11| 日本JP  01
-      - 4.07| 日本 01 直连Aws
-      - 3.75| US2014  490Mb
-      - 3.54|CYL科技20220111 39
-      - 3.42| V1台湾05 中继E 2x
-      - 3.00|V1台湾05 中继A 2x
-      - 2.97|V1日本B组 直连 速度随缘 1x16
-      - 2.73|标准中国台湾04解锁流媒体
-      - 2.65|CYL科技20220111 36 2
-      - 2.63|共享
-      - 2.56| 韩国 01 直连Aws
-      - 2.48|HKYoutube技术分享室整理
-      - 2.33| CN386
-      - 2.25| RelayCNUS302  825Mb
-      - 2.12| RO838
-      - 2.10| US1951
-      - 2.00| US1846
-      - 1.98|俄罗斯阿伟科技油管
-      - 1.73|CYL科技20220109 68
-      - 1.54|NONFMYC20211128184
-      - 1.42|101
-      - 1.42|98
-      - 1.31|  487Mb
-      - 1.28| SSRSUB大阪V15付费推荐suoytssrsub
-      - 1.26|110
-      - 1.23|RELAY104161041260900
-      - 1.23| NL787
-      - 1.16| CN379
-      - 1.13|V1俄罗斯01 中继D 12x
-      - 1.07| httpsgitiov9999 莫斯科CDN ip4 3
-      - 1.07|IN5214012335821
-      - 1.04|RELAY1042081240490
-      - 1.02|RelayCNUS295
-      - 9.33|CN116192174202812
-      - 8.45| 日本JP  02
-      - 7.46|专线香港02原生HGCBBS
-      - 7.37| 新加坡SP  01 沪港
-      - 7.28|专线香港01原生HGCBBS
-      - 6.87|v2ray 日本移动 Netflix
-      - 6.60|v2ray 马来西亚移动 Netflix
-      - 6.48|专线香港08原生HKBN
-      - 6.47| 香港HK  D2
-      - 6.45| 日本JP  01
-      - 6.23|徐州联通彰化Hinetvpnhat
-      - 6.10|Relay4947Mb
-      - 6.01|v2ray 日本联通 Netflix
-      - 5.93|githubcomfreefq  安徽省移动 1
-      - 5.35|Relay2926Mb
-      - 5.27|徐州联通SGMelbicomvpnhat
-      - 5.27| 日本JP  03
-      - 5.08|徐州联通SGMelbicomvpnhat 3
-      - 4.06|专线台湾01原生Taipei
-      - 4.00|专线香港05原生HGCBBS
-      - 3.95|Relay2595Mb
-      - 3.86|徐州联通SGMelbicomvpnhat 5
-      - 3.57|Relay2421Mb
-      - 3.53|Relay2319Mb
-      - 3.44|专线香港04原生HGCBBS
-      - 3.28|北京科技网TokyoLinodevpnhat 4
-      - 3.26|专线美国03原生Seattle
-      - 3.16| CN67
-      - 3.13|标准中国台湾04解锁流媒体
-      - 3.05|广州优刻云TokyoLinodevpnhat 2
-      - 2.98| Moon365netTW 374 free
-      - 2.75|杭州移动彰化Hinetvpnhat
-      - 2.58| 日本JP  04
-      - 2.28|娄底联通SGMelbicomvpnhat
-      - 2.19|娄底联通SGMelbicomvpnhat 2
-      - 2.12|V1俄罗斯01 中继D 12x
-      - 2.07|佛山移动彰化Hinetvpnhat 2
-      - 1.41| CN68 TGpeekfun
-      - 1.25| SSRSUB首尔V11付费推荐suoytssrsub
-      - 1.21| 日本 01 沪联Aws
-      - 1.19|Relay 295Mb
-      - 1.07|专线香港07原生HKBN
-      - 9.33|CN116192174202812 2
-      - 8.45| 日本JP  02 2
-      - 7.46|专线香港02原生HGCBBS 2
-      - 7.37| 新加坡SP  01 沪港 2
-      - 7.28|专线香港01原生HGCBBS 2
-      - 6.87|v2ray 日本移动 Netflix 2
-      - 6.48|专线香港08原生HKBN 2
-      - 6.47| 香港HK  D2 2
-      - 6.45| 日本JP  01 2
-      - 6.01|v2ray 日本联通 Netflix 2
-      - 5.27| 日本JP  03 2
-      - 4.06|专线台湾01原生Taipei 2
-      - 4.00|专线香港05原生HGCBBS 2
-      - 3.44|专线香港04原生HGCBBS 2
-      - 3.26|专线美国03原生Seattle 2
-      - 3.13|标准中国台湾04解锁流媒体 2
-      - 2.98| Moon365netTW 374 free 2
-      - 2.58| 日本JP  04 2
-      - 2.12|V1俄罗斯01 中继D 12x 2
-      - 1.41| CN68 TGpeekfun 2
-      - 1.21| 日本 01 沪联Aws 2
-      - 1.07|专线香港07原生HKBN 2
-      - 6.50| 香港HK  D2 2
-      - 6.44| RelayCNJP289  460Mb 2
-      - 5.96| 日本JP  02 2
-      - 5.42| 新加坡SP  01 沪港 2
-      - 5.15| 日本JP  03 2
-      - 5.10|v2ray 日本移动 Netflix 2
-      - 4.69|v2ray 日本联通 Netflix 2
-      - 4.48| 日本JP  04 2
-      - 4.19| RelayCNTW304  468Mb 2
-      - 4.12| CN380
-      - 4.11| 日本JP  01 2
-      - 4.07| 日本 01 直连Aws 2
-      - 3.75| US2014  490Mb 2
-      - 3.54|CYL科技20220111 39 2
-      - 3.42| V1台湾05 中继E 2x 2
-      - 3.00|V1台湾05 中继A 2x 2
-      - 2.97|V1日本B组 直连 速度随缘 1x16 2
-      - 2.73|标准中国台湾04解锁流媒体 2
-      - 2.65|CYL科技20220111 36 2 2
-      - 2.63|共享 2
-      - 2.56| 韩国 01 直连Aws 2
-      - 2.48|HKYoutube技术分享室整理 2
-      - 2.33| CN386 2
-      - 2.25| RelayCNUS302  825Mb 2
-      - 1.98|俄罗斯阿伟科技油管 2
+      - 5.20| 专线香港08原生HGCBBS
+      - 5.20| 专线香港08原生HGCBBS 2
+      - 3.22|专线西雅图02原生NTT
+      - 3.04|标准中国台湾04解锁流媒体
+      - 2.82| CN64
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 2
+      - 2.74| 专线西雅图01原生NTT 3
+      - 2.70|专线香港08原生HGCBBS
+      - 2.59|V1俄罗斯01 中继D 12x
+      - 2.29| 专线中国台湾03原生HINET
+      - 2.29| 专线中国台湾03原生HINET 2
+      - 2.29| 专线中国台湾03原生HINET 3
+      - 2.27| 专线中国台湾03原生HINET
+      - 1.57|CYL科技20220101 30 2
+      - 1.48|TG@moneyflychat 安徽省移动 21
+      - _中国跳转_3
+      - _中国跳转_2
+      - "[直连] 美国1 解锁流媒体 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2 2"
+      - 2.59|V1俄罗斯01 中继D 12x 2
+      - 2.74| 专线西雅图01原生NTT 4
+      - 2.74| 专线西雅图01原生NTT 2 2
+      - 5.20| 专线香港08原生HGCBBS 3
+      - 2.29| 专线中国台湾03原生HINET 4
+      - 香港001
+      - 30香港TG@moneyflychat 
+      - 45香港TG@moneyflychat 
+      - 46香港TG@moneyflychat 
+      - 58美国TG@moneyflychat 
+      - 73美国TG@moneyflychat 
+      - TG@moneyflychat 41
+      - TG@moneyflychat 67
+      - TG@moneyflychat 92
+      - TG@moneyflychat 177
+      - TG@moneyflychat 201
+      - TG@moneyflychat 208
+      - TG@moneyflychat 
+      - TG@moneyflychat  2
+      - TG@moneyflychat  3
+      - TG@moneyflychat  4
+      - TG@moneyflychat  5
+      - TG@moneyflychat  6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 6.50| 香港HK  D2
-      - 6.09| 香港HK  D4
-      - 5.42| 新加坡SP  01 沪港
-      - 3.42| V1台湾05 中继E 2x
-      - 3.00|V1台湾05 中继A 2x
-      - 2.73|标准中国台湾04解锁流媒体
-      - 7.46|专线香港02原生HGCBBS
-      - 7.37| 新加坡SP  01 沪港
-      - 7.28|专线香港01原生HGCBBS
-      - 6.48|专线香港08原生HKBN
-      - 6.47| 香港HK  D2
-      - 6.23|徐州联通彰化Hinetvpnhat
-      - 4.06|专线台湾01原生Taipei
-      - 4.00|专线香港05原生HGCBBS
-      - 3.44|专线香港04原生HGCBBS
-      - 3.13|标准中国台湾04解锁流媒体
-      - 2.75|杭州移动彰化Hinetvpnhat
-      - 2.07|佛山移动彰化Hinetvpnhat 2
-      - 1.07|专线香港07原生HKBN
-      - 7.46|专线香港02原生HGCBBS 2
-      - 7.37| 新加坡SP  01 沪港 2
-      - 7.28|专线香港01原生HGCBBS 2
-      - 6.48|专线香港08原生HKBN 2
-      - 6.47| 香港HK  D2 2
-      - 4.06|专线台湾01原生Taipei 2
-      - 4.00|专线香港05原生HGCBBS 2
-      - 3.44|专线香港04原生HGCBBS 2
-      - 3.13|标准中国台湾04解锁流媒体 2
-      - 1.07|专线香港07原生HKBN 2
-      - 6.50| 香港HK  D2 2
-      - 5.42| 新加坡SP  01 沪港 2
-      - 3.42| V1台湾05 中继E 2x 2
-      - 3.00|V1台湾05 中继A 2x 2
-      - 2.73|标准中国台湾04解锁流媒体 2
+      - 5.20| 专线香港08原生HGCBBS
+      - 5.20| 专线香港08原生HGCBBS 2
+      - 3.04|标准中国台湾04解锁流媒体
+      - 2.70|专线香港08原生HGCBBS
+      - 2.29| 专线中国台湾03原生HINET
+      - 2.29| 专线中国台湾03原生HINET 2
+      - 2.29| 专线中国台湾03原生HINET 3
+      - 2.27| 专线中国台湾03原生HINET
+      - 5.20| 专线香港08原生HGCBBS 3
+      - 2.29| 专线中国台湾03原生HINET 4
+      - 香港001
+      - 30香港TG@moneyflychat 
+      - 45香港TG@moneyflychat 
+      - 46香港TG@moneyflychat 
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 6.50| 香港HK  D2
-      - 6.44| RelayCNJP289  460Mb
-      - 6.09| 香港HK  D4
-      - 5.96| 日本JP  02
-      - 5.42| 新加坡SP  01 沪港
-      - 5.15| CN68 TGpeekfun
-      - 5.15| 日本JP  03
-      - 5.10|v2ray 日本移动 Netflix
-      - 4.69|v2ray 日本联通 Netflix
-      - 4.52|RelayCNHK283
-      - 4.48| 日本JP  04
-      - 4.19| RelayCNTW304  468Mb
-      - 4.11| 日本JP  01
-      - 4.07| 日本 01 直连Aws
-      - 3.75| US2014  490Mb
-      - 3.54|CYL科技20220111 39
-      - 3.42| V1台湾05 中继E 2x
-      - 3.00|V1台湾05 中继A 2x
-      - 2.97|V1日本B组 直连 速度随缘 1x16
-      - 2.73|标准中国台湾04解锁流媒体
-      - 2.65|CYL科技20220111 36 2
-      - 2.63|共享
-      - 2.56| 韩国 01 直连Aws
-      - 2.48|HKYoutube技术分享室整理
-      - 2.33| CN386
-      - 2.25| RelayCNUS302  825Mb
-      - 2.12| RO838
-      - 2.10| US1951
-      - 2.00| US1846
-      - 1.98|俄罗斯阿伟科技油管
-      - 1.73|CYL科技20220109 68
-      - 1.54|NONFMYC20211128184
-      - 1.42|101
-      - 1.42|98
-      - 1.31|  487Mb
-      - 1.28| SSRSUB大阪V15付费推荐suoytssrsub
-      - 1.26|110
-      - 1.23|RELAY104161041260900
-      - 1.23| NL787
-      - 1.16| CN379
-      - 1.13|V1俄罗斯01 中继D 12x
-      - 1.07| httpsgitiov9999 莫斯科CDN ip4 3
-      - 1.07|IN5214012335821
-      - 1.04|RELAY1042081240490
-      - 1.02|RelayCNUS295
-      - 9.33|CN116192174202812
-      - 8.45| 日本JP  02
-      - 7.46|专线香港02原生HGCBBS
-      - 7.37| 新加坡SP  01 沪港
-      - 7.28|专线香港01原生HGCBBS
-      - 6.87|v2ray 日本移动 Netflix
-      - 6.60|v2ray 马来西亚移动 Netflix
-      - 6.48|专线香港08原生HKBN
-      - 6.47| 香港HK  D2
-      - 6.45| 日本JP  01
-      - 6.23|徐州联通彰化Hinetvpnhat
-      - 6.10|Relay4947Mb
-      - 6.01|v2ray 日本联通 Netflix
-      - 5.93|githubcomfreefq  安徽省移动 1
-      - 5.35|Relay2926Mb
-      - 5.27|徐州联通SGMelbicomvpnhat
-      - 5.27| 日本JP  03
-      - 5.08|徐州联通SGMelbicomvpnhat 3
-      - 4.06|专线台湾01原生Taipei
-      - 4.00|专线香港05原生HGCBBS
-      - 3.95|Relay2595Mb
-      - 3.86|徐州联通SGMelbicomvpnhat 5
-      - 3.57|Relay2421Mb
-      - 3.53|Relay2319Mb
-      - 3.44|专线香港04原生HGCBBS
-      - 3.28|北京科技网TokyoLinodevpnhat 4
-      - 3.26|专线美国03原生Seattle
-      - 3.16| CN67
-      - 3.13|标准中国台湾04解锁流媒体
-      - 3.05|广州优刻云TokyoLinodevpnhat 2
-      - 2.98| Moon365netTW 374 free
-      - 2.75|杭州移动彰化Hinetvpnhat
-      - 2.58| 日本JP  04
-      - 2.28|娄底联通SGMelbicomvpnhat
-      - 2.19|娄底联通SGMelbicomvpnhat 2
-      - 2.12|V1俄罗斯01 中继D 12x
-      - 2.07|佛山移动彰化Hinetvpnhat 2
-      - 1.41| CN68 TGpeekfun
-      - 1.25| SSRSUB首尔V11付费推荐suoytssrsub
-      - 1.21| 日本 01 沪联Aws
-      - 1.19|Relay 295Mb
-      - 1.07|专线香港07原生HKBN
-      - 9.33|CN116192174202812 2
-      - 8.45| 日本JP  02 2
-      - 7.46|专线香港02原生HGCBBS 2
-      - 7.37| 新加坡SP  01 沪港 2
-      - 7.28|专线香港01原生HGCBBS 2
-      - 6.87|v2ray 日本移动 Netflix 2
-      - 6.48|专线香港08原生HKBN 2
-      - 6.47| 香港HK  D2 2
-      - 6.45| 日本JP  01 2
-      - 6.01|v2ray 日本联通 Netflix 2
-      - 5.27| 日本JP  03 2
-      - 4.06|专线台湾01原生Taipei 2
-      - 4.00|专线香港05原生HGCBBS 2
-      - 3.44|专线香港04原生HGCBBS 2
-      - 3.26|专线美国03原生Seattle 2
-      - 3.13|标准中国台湾04解锁流媒体 2
-      - 2.98| Moon365netTW 374 free 2
-      - 2.58| 日本JP  04 2
-      - 2.12|V1俄罗斯01 中继D 12x 2
-      - 1.41| CN68 TGpeekfun 2
-      - 1.21| 日本 01 沪联Aws 2
-      - 1.07|专线香港07原生HKBN 2
-      - 6.50| 香港HK  D2 2
-      - 6.44| RelayCNJP289  460Mb 2
-      - 5.96| 日本JP  02 2
-      - 5.42| 新加坡SP  01 沪港 2
-      - 5.15| 日本JP  03 2
-      - 5.10|v2ray 日本移动 Netflix 2
-      - 4.69|v2ray 日本联通 Netflix 2
-      - 4.48| 日本JP  04 2
-      - 4.19| RelayCNTW304  468Mb 2
-      - 4.12| CN380
-      - 4.11| 日本JP  01 2
-      - 4.07| 日本 01 直连Aws 2
-      - 3.75| US2014  490Mb 2
-      - 3.54|CYL科技20220111 39 2
-      - 3.42| V1台湾05 中继E 2x 2
-      - 3.00|V1台湾05 中继A 2x 2
-      - 2.97|V1日本B组 直连 速度随缘 1x16 2
-      - 2.73|标准中国台湾04解锁流媒体 2
-      - 2.65|CYL科技20220111 36 2 2
-      - 2.63|共享 2
-      - 2.56| 韩国 01 直连Aws 2
-      - 2.48|HKYoutube技术分享室整理 2
-      - 2.33| CN386 2
-      - 2.25| RelayCNUS302  825Mb 2
-      - 1.98|俄罗斯阿伟科技油管 2
+      - 5.20| 专线香港08原生HGCBBS
+      - 5.20| 专线香港08原生HGCBBS 2
+      - 3.22|专线西雅图02原生NTT
+      - 3.04|标准中国台湾04解锁流媒体
+      - 2.82| CN64
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 2
+      - 2.74| 专线西雅图01原生NTT 3
+      - 2.70|专线香港08原生HGCBBS
+      - 2.59|V1俄罗斯01 中继D 12x
+      - 2.29| 专线中国台湾03原生HINET
+      - 2.29| 专线中国台湾03原生HINET 2
+      - 2.29| 专线中国台湾03原生HINET 3
+      - 2.27| 专线中国台湾03原生HINET
+      - 1.57|CYL科技20220101 30 2
+      - 1.48|TG@moneyflychat 安徽省移动 21
+      - _中国跳转_3
+      - _中国跳转_2
+      - "[直连] 美国1 解锁流媒体 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2 2"
+      - 2.59|V1俄罗斯01 中继D 12x 2
+      - 2.74| 专线西雅图01原生NTT 4
+      - 2.74| 专线西雅图01原生NTT 2 2
+      - 5.20| 专线香港08原生HGCBBS 3
+      - 2.29| 专线中国台湾03原生HINET 4
+      - 香港001
+      - 30香港TG@moneyflychat 
+      - 45香港TG@moneyflychat 
+      - 46香港TG@moneyflychat 
+      - 58美国TG@moneyflychat 
+      - 73美国TG@moneyflychat 
+      - TG@moneyflychat 41
+      - TG@moneyflychat 67
+      - TG@moneyflychat 92
+      - TG@moneyflychat 177
+      - TG@moneyflychat 201
+      - TG@moneyflychat 208
+      - TG@moneyflychat 
+      - TG@moneyflychat  2
+      - TG@moneyflychat  3
+      - TG@moneyflychat  4
+      - TG@moneyflychat  5
+      - TG@moneyflychat  6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 6.50| 香港HK  D2
-      - 6.44| RelayCNJP289  460Mb
-      - 6.09| 香港HK  D4
-      - 5.96| 日本JP  02
-      - 5.42| 新加坡SP  01 沪港
-      - 5.15| CN68 TGpeekfun
-      - 5.15| 日本JP  03
-      - 5.10|v2ray 日本移动 Netflix
-      - 4.69|v2ray 日本联通 Netflix
-      - 4.52|RelayCNHK283
-      - 4.48| 日本JP  04
-      - 4.19| RelayCNTW304  468Mb
-      - 4.11| 日本JP  01
-      - 4.07| 日本 01 直连Aws
-      - 3.75| US2014  490Mb
-      - 3.54|CYL科技20220111 39
-      - 3.42| V1台湾05 中继E 2x
-      - 3.00|V1台湾05 中继A 2x
-      - 2.97|V1日本B组 直连 速度随缘 1x16
-      - 2.73|标准中国台湾04解锁流媒体
-      - 2.65|CYL科技20220111 36 2
-      - 2.63|共享
-      - 2.56| 韩国 01 直连Aws
-      - 2.48|HKYoutube技术分享室整理
-      - 2.33| CN386
-      - 2.25| RelayCNUS302  825Mb
-      - 2.12| RO838
-      - 2.10| US1951
-      - 2.00| US1846
-      - 1.98|俄罗斯阿伟科技油管
-      - 1.73|CYL科技20220109 68
-      - 1.54|NONFMYC20211128184
-      - 1.42|101
-      - 1.42|98
-      - 1.31|  487Mb
-      - 1.28| SSRSUB大阪V15付费推荐suoytssrsub
-      - 1.26|110
-      - 1.23|RELAY104161041260900
-      - 1.23| NL787
-      - 1.16| CN379
-      - 1.13|V1俄罗斯01 中继D 12x
-      - 1.07| httpsgitiov9999 莫斯科CDN ip4 3
-      - 1.07|IN5214012335821
-      - 1.04|RELAY1042081240490
-      - 1.02|RelayCNUS295
-      - 9.33|CN116192174202812
-      - 8.45| 日本JP  02
-      - 7.46|专线香港02原生HGCBBS
-      - 7.37| 新加坡SP  01 沪港
-      - 7.28|专线香港01原生HGCBBS
-      - 6.87|v2ray 日本移动 Netflix
-      - 6.60|v2ray 马来西亚移动 Netflix
-      - 6.48|专线香港08原生HKBN
-      - 6.47| 香港HK  D2
-      - 6.45| 日本JP  01
-      - 6.23|徐州联通彰化Hinetvpnhat
-      - 6.10|Relay4947Mb
-      - 6.01|v2ray 日本联通 Netflix
-      - 5.93|githubcomfreefq  安徽省移动 1
-      - 5.35|Relay2926Mb
-      - 5.27|徐州联通SGMelbicomvpnhat
-      - 5.27| 日本JP  03
-      - 5.08|徐州联通SGMelbicomvpnhat 3
-      - 4.06|专线台湾01原生Taipei
-      - 4.00|专线香港05原生HGCBBS
-      - 3.95|Relay2595Mb
-      - 3.86|徐州联通SGMelbicomvpnhat 5
-      - 3.57|Relay2421Mb
-      - 3.53|Relay2319Mb
-      - 3.44|专线香港04原生HGCBBS
-      - 3.28|北京科技网TokyoLinodevpnhat 4
-      - 3.26|专线美国03原生Seattle
-      - 3.16| CN67
-      - 3.13|标准中国台湾04解锁流媒体
-      - 3.05|广州优刻云TokyoLinodevpnhat 2
-      - 2.98| Moon365netTW 374 free
-      - 2.75|杭州移动彰化Hinetvpnhat
-      - 2.58| 日本JP  04
-      - 2.28|娄底联通SGMelbicomvpnhat
-      - 2.19|娄底联通SGMelbicomvpnhat 2
-      - 2.12|V1俄罗斯01 中继D 12x
-      - 2.07|佛山移动彰化Hinetvpnhat 2
-      - 1.41| CN68 TGpeekfun
-      - 1.25| SSRSUB首尔V11付费推荐suoytssrsub
-      - 1.21| 日本 01 沪联Aws
-      - 1.19|Relay 295Mb
-      - 1.07|专线香港07原生HKBN
-      - 9.33|CN116192174202812 2
-      - 8.45| 日本JP  02 2
-      - 7.46|专线香港02原生HGCBBS 2
-      - 7.37| 新加坡SP  01 沪港 2
-      - 7.28|专线香港01原生HGCBBS 2
-      - 6.87|v2ray 日本移动 Netflix 2
-      - 6.48|专线香港08原生HKBN 2
-      - 6.47| 香港HK  D2 2
-      - 6.45| 日本JP  01 2
-      - 6.01|v2ray 日本联通 Netflix 2
-      - 5.27| 日本JP  03 2
-      - 4.06|专线台湾01原生Taipei 2
-      - 4.00|专线香港05原生HGCBBS 2
-      - 3.44|专线香港04原生HGCBBS 2
-      - 3.26|专线美国03原生Seattle 2
-      - 3.13|标准中国台湾04解锁流媒体 2
-      - 2.98| Moon365netTW 374 free 2
-      - 2.58| 日本JP  04 2
-      - 2.12|V1俄罗斯01 中继D 12x 2
-      - 1.41| CN68 TGpeekfun 2
-      - 1.21| 日本 01 沪联Aws 2
-      - 1.07|专线香港07原生HKBN 2
-      - 6.50| 香港HK  D2 2
-      - 6.44| RelayCNJP289  460Mb 2
-      - 5.96| 日本JP  02 2
-      - 5.42| 新加坡SP  01 沪港 2
-      - 5.15| 日本JP  03 2
-      - 5.10|v2ray 日本移动 Netflix 2
-      - 4.69|v2ray 日本联通 Netflix 2
-      - 4.48| 日本JP  04 2
-      - 4.19| RelayCNTW304  468Mb 2
-      - 4.12| CN380
-      - 4.11| 日本JP  01 2
-      - 4.07| 日本 01 直连Aws 2
-      - 3.75| US2014  490Mb 2
-      - 3.54|CYL科技20220111 39 2
-      - 3.42| V1台湾05 中继E 2x 2
-      - 3.00|V1台湾05 中继A 2x 2
-      - 2.97|V1日本B组 直连 速度随缘 1x16 2
-      - 2.73|标准中国台湾04解锁流媒体 2
-      - 2.65|CYL科技20220111 36 2 2
-      - 2.63|共享 2
-      - 2.56| 韩国 01 直连Aws 2
-      - 2.48|HKYoutube技术分享室整理 2
-      - 2.33| CN386 2
-      - 2.25| RelayCNUS302  825Mb 2
-      - 1.98|俄罗斯阿伟科技油管 2
+      - 5.20| 专线香港08原生HGCBBS
+      - 5.20| 专线香港08原生HGCBBS 2
+      - 3.22|专线西雅图02原生NTT
+      - 3.04|标准中国台湾04解锁流媒体
+      - 2.82| CN64
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 2
+      - 2.74| 专线西雅图01原生NTT 3
+      - 2.70|专线香港08原生HGCBBS
+      - 2.59|V1俄罗斯01 中继D 12x
+      - 2.29| 专线中国台湾03原生HINET
+      - 2.29| 专线中国台湾03原生HINET 2
+      - 2.29| 专线中国台湾03原生HINET 3
+      - 2.27| 专线中国台湾03原生HINET
+      - 1.57|CYL科技20220101 30 2
+      - 1.48|TG@moneyflychat 安徽省移动 21
+      - _中国跳转_3
+      - _中国跳转_2
+      - "[直连] 美国1 解锁流媒体 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2 2"
+      - 2.59|V1俄罗斯01 中继D 12x 2
+      - 2.74| 专线西雅图01原生NTT 4
+      - 2.74| 专线西雅图01原生NTT 2 2
+      - 5.20| 专线香港08原生HGCBBS 3
+      - 2.29| 专线中国台湾03原生HINET 4
+      - 香港001
+      - 30香港TG@moneyflychat 
+      - 45香港TG@moneyflychat 
+      - 46香港TG@moneyflychat 
+      - 58美国TG@moneyflychat 
+      - 73美国TG@moneyflychat 
+      - TG@moneyflychat 41
+      - TG@moneyflychat 67
+      - TG@moneyflychat 92
+      - TG@moneyflychat 177
+      - TG@moneyflychat 201
+      - TG@moneyflychat 208
+      - TG@moneyflychat 
+      - TG@moneyflychat  2
+      - TG@moneyflychat  3
+      - TG@moneyflychat  4
+      - TG@moneyflychat  5
+      - TG@moneyflychat  6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 6.50| 香港HK  D2
-      - 6.44| RelayCNJP289  460Mb
-      - 6.09| 香港HK  D4
-      - 5.96| 日本JP  02
-      - 5.42| 新加坡SP  01 沪港
-      - 5.15| CN68 TGpeekfun
-      - 5.15| 日本JP  03
-      - 5.10|v2ray 日本移动 Netflix
-      - 4.69|v2ray 日本联通 Netflix
-      - 4.52|RelayCNHK283
-      - 4.48| 日本JP  04
-      - 4.19| RelayCNTW304  468Mb
-      - 4.11| 日本JP  01
-      - 4.07| 日本 01 直连Aws
-      - 3.75| US2014  490Mb
-      - 3.54|CYL科技20220111 39
-      - 3.42| V1台湾05 中继E 2x
-      - 3.00|V1台湾05 中继A 2x
-      - 2.97|V1日本B组 直连 速度随缘 1x16
-      - 2.73|标准中国台湾04解锁流媒体
-      - 2.65|CYL科技20220111 36 2
-      - 2.63|共享
-      - 2.56| 韩国 01 直连Aws
-      - 2.48|HKYoutube技术分享室整理
-      - 2.33| CN386
-      - 2.25| RelayCNUS302  825Mb
-      - 2.12| RO838
-      - 2.10| US1951
-      - 2.00| US1846
-      - 1.98|俄罗斯阿伟科技油管
-      - 1.73|CYL科技20220109 68
-      - 1.54|NONFMYC20211128184
-      - 1.42|101
-      - 1.42|98
-      - 1.31|  487Mb
-      - 1.28| SSRSUB大阪V15付费推荐suoytssrsub
-      - 1.26|110
-      - 1.23|RELAY104161041260900
-      - 1.23| NL787
-      - 1.16| CN379
-      - 1.13|V1俄罗斯01 中继D 12x
-      - 1.07| httpsgitiov9999 莫斯科CDN ip4 3
-      - 1.07|IN5214012335821
-      - 1.04|RELAY1042081240490
-      - 1.02|RelayCNUS295
-      - 9.33|CN116192174202812
-      - 8.45| 日本JP  02
-      - 7.46|专线香港02原生HGCBBS
-      - 7.37| 新加坡SP  01 沪港
-      - 7.28|专线香港01原生HGCBBS
-      - 6.87|v2ray 日本移动 Netflix
-      - 6.60|v2ray 马来西亚移动 Netflix
-      - 6.48|专线香港08原生HKBN
-      - 6.47| 香港HK  D2
-      - 6.45| 日本JP  01
-      - 6.23|徐州联通彰化Hinetvpnhat
-      - 6.10|Relay4947Mb
-      - 6.01|v2ray 日本联通 Netflix
-      - 5.93|githubcomfreefq  安徽省移动 1
-      - 5.35|Relay2926Mb
-      - 5.27|徐州联通SGMelbicomvpnhat
-      - 5.27| 日本JP  03
-      - 5.08|徐州联通SGMelbicomvpnhat 3
-      - 4.06|专线台湾01原生Taipei
-      - 4.00|专线香港05原生HGCBBS
-      - 3.95|Relay2595Mb
-      - 3.86|徐州联通SGMelbicomvpnhat 5
-      - 3.57|Relay2421Mb
-      - 3.53|Relay2319Mb
-      - 3.44|专线香港04原生HGCBBS
-      - 3.28|北京科技网TokyoLinodevpnhat 4
-      - 3.26|专线美国03原生Seattle
-      - 3.16| CN67
-      - 3.13|标准中国台湾04解锁流媒体
-      - 3.05|广州优刻云TokyoLinodevpnhat 2
-      - 2.98| Moon365netTW 374 free
-      - 2.75|杭州移动彰化Hinetvpnhat
-      - 2.58| 日本JP  04
-      - 2.28|娄底联通SGMelbicomvpnhat
-      - 2.19|娄底联通SGMelbicomvpnhat 2
-      - 2.12|V1俄罗斯01 中继D 12x
-      - 2.07|佛山移动彰化Hinetvpnhat 2
-      - 1.41| CN68 TGpeekfun
-      - 1.25| SSRSUB首尔V11付费推荐suoytssrsub
-      - 1.21| 日本 01 沪联Aws
-      - 1.19|Relay 295Mb
-      - 1.07|专线香港07原生HKBN
-      - 9.33|CN116192174202812 2
-      - 8.45| 日本JP  02 2
-      - 7.46|专线香港02原生HGCBBS 2
-      - 7.37| 新加坡SP  01 沪港 2
-      - 7.28|专线香港01原生HGCBBS 2
-      - 6.87|v2ray 日本移动 Netflix 2
-      - 6.48|专线香港08原生HKBN 2
-      - 6.47| 香港HK  D2 2
-      - 6.45| 日本JP  01 2
-      - 6.01|v2ray 日本联通 Netflix 2
-      - 5.27| 日本JP  03 2
-      - 4.06|专线台湾01原生Taipei 2
-      - 4.00|专线香港05原生HGCBBS 2
-      - 3.44|专线香港04原生HGCBBS 2
-      - 3.26|专线美国03原生Seattle 2
-      - 3.13|标准中国台湾04解锁流媒体 2
-      - 2.98| Moon365netTW 374 free 2
-      - 2.58| 日本JP  04 2
-      - 2.12|V1俄罗斯01 中继D 12x 2
-      - 1.41| CN68 TGpeekfun 2
-      - 1.21| 日本 01 沪联Aws 2
-      - 1.07|专线香港07原生HKBN 2
-      - 6.50| 香港HK  D2 2
-      - 6.44| RelayCNJP289  460Mb 2
-      - 5.96| 日本JP  02 2
-      - 5.42| 新加坡SP  01 沪港 2
-      - 5.15| 日本JP  03 2
-      - 5.10|v2ray 日本移动 Netflix 2
-      - 4.69|v2ray 日本联通 Netflix 2
-      - 4.48| 日本JP  04 2
-      - 4.19| RelayCNTW304  468Mb 2
-      - 4.12| CN380
-      - 4.11| 日本JP  01 2
-      - 4.07| 日本 01 直连Aws 2
-      - 3.75| US2014  490Mb 2
-      - 3.54|CYL科技20220111 39 2
-      - 3.42| V1台湾05 中继E 2x 2
-      - 3.00|V1台湾05 中继A 2x 2
-      - 2.97|V1日本B组 直连 速度随缘 1x16 2
-      - 2.73|标准中国台湾04解锁流媒体 2
-      - 2.65|CYL科技20220111 36 2 2
-      - 2.63|共享 2
-      - 2.56| 韩国 01 直连Aws 2
-      - 2.48|HKYoutube技术分享室整理 2
-      - 2.33| CN386 2
-      - 2.25| RelayCNUS302  825Mb 2
-      - 1.98|俄罗斯阿伟科技油管 2
+      - 5.20| 专线香港08原生HGCBBS
+      - 5.20| 专线香港08原生HGCBBS 2
+      - 3.22|专线西雅图02原生NTT
+      - 3.04|标准中国台湾04解锁流媒体
+      - 2.82| CN64
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 2
+      - 2.74| 专线西雅图01原生NTT 3
+      - 2.70|专线香港08原生HGCBBS
+      - 2.59|V1俄罗斯01 中继D 12x
+      - 2.29| 专线中国台湾03原生HINET
+      - 2.29| 专线中国台湾03原生HINET 2
+      - 2.29| 专线中国台湾03原生HINET 3
+      - 2.27| 专线中国台湾03原生HINET
+      - 1.57|CYL科技20220101 30 2
+      - 1.48|TG@moneyflychat 安徽省移动 21
+      - _中国跳转_3
+      - _中国跳转_2
+      - "[直连] 美国1 解锁流媒体 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2 2"
+      - 2.59|V1俄罗斯01 中继D 12x 2
+      - 2.74| 专线西雅图01原生NTT 4
+      - 2.74| 专线西雅图01原生NTT 2 2
+      - 5.20| 专线香港08原生HGCBBS 3
+      - 2.29| 专线中国台湾03原生HINET 4
+      - 香港001
+      - 30香港TG@moneyflychat 
+      - 45香港TG@moneyflychat 
+      - 46香港TG@moneyflychat 
+      - 58美国TG@moneyflychat 
+      - 73美国TG@moneyflychat 
+      - TG@moneyflychat 41
+      - TG@moneyflychat 67
+      - TG@moneyflychat 92
+      - TG@moneyflychat 177
+      - TG@moneyflychat 201
+      - TG@moneyflychat 208
+      - TG@moneyflychat 
+      - TG@moneyflychat  2
+      - TG@moneyflychat  3
+      - TG@moneyflychat  4
+      - TG@moneyflychat  5
+      - TG@moneyflychat  6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1182,140 +442,50 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 6.50| 香港HK  D2
-      - 6.44| RelayCNJP289  460Mb
-      - 6.09| 香港HK  D4
-      - 5.96| 日本JP  02
-      - 5.42| 新加坡SP  01 沪港
-      - 5.15| CN68 TGpeekfun
-      - 5.15| 日本JP  03
-      - 5.10|v2ray 日本移动 Netflix
-      - 4.69|v2ray 日本联通 Netflix
-      - 4.52|RelayCNHK283
-      - 4.48| 日本JP  04
-      - 4.19| RelayCNTW304  468Mb
-      - 4.11| 日本JP  01
-      - 4.07| 日本 01 直连Aws
-      - 3.75| US2014  490Mb
-      - 3.54|CYL科技20220111 39
-      - 3.42| V1台湾05 中继E 2x
-      - 3.00|V1台湾05 中继A 2x
-      - 2.97|V1日本B组 直连 速度随缘 1x16
-      - 2.73|标准中国台湾04解锁流媒体
-      - 2.65|CYL科技20220111 36 2
-      - 2.63|共享
-      - 2.56| 韩国 01 直连Aws
-      - 2.48|HKYoutube技术分享室整理
-      - 2.33| CN386
-      - 2.25| RelayCNUS302  825Mb
-      - 2.12| RO838
-      - 2.10| US1951
-      - 2.00| US1846
-      - 1.98|俄罗斯阿伟科技油管
-      - 1.73|CYL科技20220109 68
-      - 1.54|NONFMYC20211128184
-      - 1.42|101
-      - 1.42|98
-      - 1.31|  487Mb
-      - 1.28| SSRSUB大阪V15付费推荐suoytssrsub
-      - 1.26|110
-      - 1.23|RELAY104161041260900
-      - 1.23| NL787
-      - 1.16| CN379
-      - 1.13|V1俄罗斯01 中继D 12x
-      - 1.07| httpsgitiov9999 莫斯科CDN ip4 3
-      - 1.07|IN5214012335821
-      - 1.04|RELAY1042081240490
-      - 1.02|RelayCNUS295
-      - 9.33|CN116192174202812
-      - 8.45| 日本JP  02
-      - 7.46|专线香港02原生HGCBBS
-      - 7.37| 新加坡SP  01 沪港
-      - 7.28|专线香港01原生HGCBBS
-      - 6.87|v2ray 日本移动 Netflix
-      - 6.60|v2ray 马来西亚移动 Netflix
-      - 6.48|专线香港08原生HKBN
-      - 6.47| 香港HK  D2
-      - 6.45| 日本JP  01
-      - 6.23|徐州联通彰化Hinetvpnhat
-      - 6.10|Relay4947Mb
-      - 6.01|v2ray 日本联通 Netflix
-      - 5.93|githubcomfreefq  安徽省移动 1
-      - 5.35|Relay2926Mb
-      - 5.27|徐州联通SGMelbicomvpnhat
-      - 5.27| 日本JP  03
-      - 5.08|徐州联通SGMelbicomvpnhat 3
-      - 4.06|专线台湾01原生Taipei
-      - 4.00|专线香港05原生HGCBBS
-      - 3.95|Relay2595Mb
-      - 3.86|徐州联通SGMelbicomvpnhat 5
-      - 3.57|Relay2421Mb
-      - 3.53|Relay2319Mb
-      - 3.44|专线香港04原生HGCBBS
-      - 3.28|北京科技网TokyoLinodevpnhat 4
-      - 3.26|专线美国03原生Seattle
-      - 3.16| CN67
-      - 3.13|标准中国台湾04解锁流媒体
-      - 3.05|广州优刻云TokyoLinodevpnhat 2
-      - 2.98| Moon365netTW 374 free
-      - 2.75|杭州移动彰化Hinetvpnhat
-      - 2.58| 日本JP  04
-      - 2.28|娄底联通SGMelbicomvpnhat
-      - 2.19|娄底联通SGMelbicomvpnhat 2
-      - 2.12|V1俄罗斯01 中继D 12x
-      - 2.07|佛山移动彰化Hinetvpnhat 2
-      - 1.41| CN68 TGpeekfun
-      - 1.25| SSRSUB首尔V11付费推荐suoytssrsub
-      - 1.21| 日本 01 沪联Aws
-      - 1.19|Relay 295Mb
-      - 1.07|专线香港07原生HKBN
-      - 9.33|CN116192174202812 2
-      - 8.45| 日本JP  02 2
-      - 7.46|专线香港02原生HGCBBS 2
-      - 7.37| 新加坡SP  01 沪港 2
-      - 7.28|专线香港01原生HGCBBS 2
-      - 6.87|v2ray 日本移动 Netflix 2
-      - 6.48|专线香港08原生HKBN 2
-      - 6.47| 香港HK  D2 2
-      - 6.45| 日本JP  01 2
-      - 6.01|v2ray 日本联通 Netflix 2
-      - 5.27| 日本JP  03 2
-      - 4.06|专线台湾01原生Taipei 2
-      - 4.00|专线香港05原生HGCBBS 2
-      - 3.44|专线香港04原生HGCBBS 2
-      - 3.26|专线美国03原生Seattle 2
-      - 3.13|标准中国台湾04解锁流媒体 2
-      - 2.98| Moon365netTW 374 free 2
-      - 2.58| 日本JP  04 2
-      - 2.12|V1俄罗斯01 中继D 12x 2
-      - 1.41| CN68 TGpeekfun 2
-      - 1.21| 日本 01 沪联Aws 2
-      - 1.07|专线香港07原生HKBN 2
-      - 6.50| 香港HK  D2 2
-      - 6.44| RelayCNJP289  460Mb 2
-      - 5.96| 日本JP  02 2
-      - 5.42| 新加坡SP  01 沪港 2
-      - 5.15| 日本JP  03 2
-      - 5.10|v2ray 日本移动 Netflix 2
-      - 4.69|v2ray 日本联通 Netflix 2
-      - 4.48| 日本JP  04 2
-      - 4.19| RelayCNTW304  468Mb 2
-      - 4.12| CN380
-      - 4.11| 日本JP  01 2
-      - 4.07| 日本 01 直连Aws 2
-      - 3.75| US2014  490Mb 2
-      - 3.54|CYL科技20220111 39 2
-      - 3.42| V1台湾05 中继E 2x 2
-      - 3.00|V1台湾05 中继A 2x 2
-      - 2.97|V1日本B组 直连 速度随缘 1x16 2
-      - 2.73|标准中国台湾04解锁流媒体 2
-      - 2.65|CYL科技20220111 36 2 2
-      - 2.63|共享 2
-      - 2.56| 韩国 01 直连Aws 2
-      - 2.48|HKYoutube技术分享室整理 2
-      - 2.33| CN386 2
-      - 2.25| RelayCNUS302  825Mb 2
-      - 1.98|俄罗斯阿伟科技油管 2
+      - 5.20| 专线香港08原生HGCBBS
+      - 5.20| 专线香港08原生HGCBBS 2
+      - 3.22|专线西雅图02原生NTT
+      - 3.04|标准中国台湾04解锁流媒体
+      - 2.82| CN64
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 2
+      - 2.74| 专线西雅图01原生NTT 3
+      - 2.70|专线香港08原生HGCBBS
+      - 2.59|V1俄罗斯01 中继D 12x
+      - 2.29| 专线中国台湾03原生HINET
+      - 2.29| 专线中国台湾03原生HINET 2
+      - 2.29| 专线中国台湾03原生HINET 3
+      - 2.27| 专线中国台湾03原生HINET
+      - 1.57|CYL科技20220101 30 2
+      - 1.48|TG@moneyflychat 安徽省移动 21
+      - _中国跳转_3
+      - _中国跳转_2
+      - "[直连] 美国1 解锁流媒体 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2"
+      - "[NAT/皖移] 阿联酋迪拜 ARM Netflix Oracle 2 2"
+      - 2.59|V1俄罗斯01 中继D 12x 2
+      - 2.74| 专线西雅图01原生NTT 4
+      - 2.74| 专线西雅图01原生NTT 2 2
+      - 5.20| 专线香港08原生HGCBBS 3
+      - 2.29| 专线中国台湾03原生HINET 4
+      - 香港001
+      - 30香港TG@moneyflychat 
+      - 45香港TG@moneyflychat 
+      - 46香港TG@moneyflychat 
+      - 58美国TG@moneyflychat 
+      - 73美国TG@moneyflychat 
+      - TG@moneyflychat 41
+      - TG@moneyflychat 67
+      - TG@moneyflychat 92
+      - TG@moneyflychat 177
+      - TG@moneyflychat 201
+      - TG@moneyflychat 208
+      - TG@moneyflychat 
+      - TG@moneyflychat  2
+      - TG@moneyflychat  3
+      - TG@moneyflychat  4
+      - TG@moneyflychat  5
+      - TG@moneyflychat  6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
