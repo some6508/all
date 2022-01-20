@@ -5,212 +5,220 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇺🇸_US_美国_1', server: pr1.mooncloud.bike, port: 8443, type: vmess, uuid: f1533fd1-4562-4935-a1e6-832685d4a919, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: pr1.mooncloud.bike }}
-  - {name: 'default_name_2', server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: 'default_name_3', server: 198.41.212.5, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: 'default_name_4', server: 198.41.212.2, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: '🇺🇸_US_美国->🇨🇿_CZ_捷克_5', server: v9.ssrsub.com, port: 8443, type: vmess, uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: '🇺🇸_US_美国_6', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-miami.lvuft.com }}
-  - {name: '🇺🇸_US_美国_7', server: inapus.mooncloud.bike, port: 8443, type: vmess, uuid: 2c42a34e-5f88-492b-8a59-3531090578f8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: inapus1.mooncloud.bike }}
-  - {name: '🇺🇸_US_美国_8', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
-  - {name: '🇭🇺_HU_匈牙利_9', server: 185.252.223.204, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: { path: "/path/243535322906", host: www.16675463.xyz }}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: '🇺🇸_US_美国_11', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: '🇺🇸_US_美国->🇩🇪_DE_德国_12', server: v6d1.mooncloud.bike, port: 8443, type: vmess, uuid: f1533fd1-4562-4935-a1e6-832685d4a919, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: v6d.mooncloud.bike }}
-  - {name: '🇺🇸_US_美国->🇯🇵_JP_日本_13', server: rb1.moonfree.top, port: 8443, type: vmess, uuid: f1533fd1-4562-4935-a1e6-832685d4a919, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: rb.moonfree.top }}
-  - {name: '🇺🇸_US_美国_14', server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: amu1ahfi.com }}
-  - {name: '🇺🇸_US_美国->🇫🇮_FI_芬兰_15', server: oz1.mooncloud.bike, port: 8443, type: vmess, uuid: f1533fd1-4562-4935-a1e6-832685d4a919, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: oz.mooncloud.bike }}
-  - {name: 'default_name_16', server: 104.19.23.215, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc02.testred.xyz }}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_17', server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: '🇺🇸_US_美国_18', server: 70.39.67.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: amu1ahfi.com }}
-  - {name: 'default_name_19', server: 198.41.212.8, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: 'default_name_20', server: 198.41.212.15, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: 'default_name_21', server: 198.41.212.18, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
+  - {name: '限时 00:00~24:00 极速白嫖-JP | 日本 | A | 限速 50M_1', server: jp-vip-free-a.netduck.xyz, port: 29555, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-JP | 日本 | B | 限速 50M_2', server: jp-vip-free-a.netduck.xyz, port: 29558, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-JP | 日本 | C | 限速 50M_3', server: jp-vip-free-a.netduck.xyz, port: 62202, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-JP | 日本 | D | 限速 50M_4', server: jp-vip-free-a.netduck.xyz, port: 62203, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-JP | 日本 | E | 限速 50M_5', server: us-d.netduck.xyz, port: 12366, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-JP | 日本 | F | 限速 50M_6', server: us-d.netduck.xyz, port: 12966, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-KR | 韩国 | A | 限速 50M_7', server: us-d.netduck.xyz, port: 11999, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-KR | 韩国 | B | 限速 50M_8', server: us-d.netduck.xyz, port: 10999, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-KR | 韩国 | C | 限速 50M_9', server: us-d.netduck.xyz, port: 62200, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-KR | 韩国 | D | 限速 50M_10', server: us-d.netduck.xyz, port: 62201, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-SG | 新加坡 | A | 限速 50M_11', server: sg-free-a.netduck.xyz, port: 19899, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-SG | 新加坡 | B | 限速 50M_12', server: sg-free-b.netduck.xyz, port: 19898, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-SG | 新加坡 | C | 限速 50M_13', server: sg-free-c.netduck.xyz, port: 28100, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-SG | 新加坡 | D | 限速 50M_14', server: sg-free-d.netduck.xyz, port: 28600, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-TW | 台湾 | A | 限速 50M_15', server: tw-vip-free-a.netduck.xyz, port: 29766, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-TW | 台湾 | B | 限速 50M_16', server: tw-d.netduck.xyz, port: 29222, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-TW | 台湾 | C | 限速 50M_17', server: tw-d.netduck.xyz, port: 62621, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-TW | 台湾 | D | 限速 50M_18', server: jp-vip-free-a.netduck.xyz, port: 27666, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 00:00~24:00 极速白嫖-US | 美国 | B | 限速 50M_19', server: us-d.netduck.xyz, port: 19222, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 01:00~24:00 极速白嫖-US | 美国 | A | 限速 50M_20', server: us-d.netduck.xyz, port: 12666, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 01:00~24:00 极速白嫖-US | 美国 | C | 限速 50M_21', server: jp-vip-free-a.netduck.xyz, port: 28300, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
+  - {name: '限时 01:00~24:00 极速白嫖-US | 美国 | D | 限速 50M_22', server: jp-vip-free-a.netduck.xyz, port: 16666, type: vmess, uuid: 11b2befe-1280-35fb-96bd-34f451812927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zh-cn", host: microsoft.com }}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - default_name_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇭🇺_HU_匈牙利_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_15
-      - default_name_16
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_17
-      - 🇺🇸_US_美国_18
-      - default_name_19
-      - default_name_20
-      - default_name_21
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | A | 限速 50M_1
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | B | 限速 50M_2
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | C | 限速 50M_3
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | D | 限速 50M_4
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | E | 限速 50M_5
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | F | 限速 50M_6
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | A | 限速 50M_7
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | B | 限速 50M_8
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | C | 限速 50M_9
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | D | 限速 50M_10
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | A | 限速 50M_11
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | B | 限速 50M_12
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | C | 限速 50M_13
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | D | 限速 50M_14
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | A | 限速 50M_15
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | B | 限速 50M_16
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | C | 限速 50M_17
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | D | 限速 50M_18
+      - 限时 00:00~24:00 极速白嫖-US | 美国 | B | 限速 50M_19
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | A | 限速 50M_20
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | C | 限速 50M_21
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | D | 限速 50M_22
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - default_name_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇭🇺_HU_匈牙利_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_15
-      - default_name_16
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_17
-      - 🇺🇸_US_美国_18
-      - default_name_19
-      - default_name_20
-      - default_name_21
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | A | 限速 50M_1
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | B | 限速 50M_2
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | C | 限速 50M_3
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | D | 限速 50M_4
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | E | 限速 50M_5
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | F | 限速 50M_6
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | A | 限速 50M_7
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | B | 限速 50M_8
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | C | 限速 50M_9
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | D | 限速 50M_10
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | A | 限速 50M_11
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | B | 限速 50M_12
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | C | 限速 50M_13
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | D | 限速 50M_14
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | A | 限速 50M_15
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | B | 限速 50M_16
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | C | 限速 50M_17
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | D | 限速 50M_18
+      - 限时 00:00~24:00 极速白嫖-US | 美国 | B | 限速 50M_19
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | A | 限速 50M_20
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | C | 限速 50M_21
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | D | 限速 50M_22
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - default_name_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇭🇺_HU_匈牙利_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_15
-      - default_name_16
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_17
-      - 🇺🇸_US_美国_18
-      - default_name_19
-      - default_name_20
-      - default_name_21
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | A | 限速 50M_1
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | B | 限速 50M_2
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | C | 限速 50M_3
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | D | 限速 50M_4
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | E | 限速 50M_5
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | F | 限速 50M_6
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | A | 限速 50M_7
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | B | 限速 50M_8
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | C | 限速 50M_9
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | D | 限速 50M_10
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | A | 限速 50M_11
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | B | 限速 50M_12
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | C | 限速 50M_13
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | D | 限速 50M_14
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | A | 限速 50M_15
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | B | 限速 50M_16
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | C | 限速 50M_17
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | D | 限速 50M_18
+      - 限时 00:00~24:00 极速白嫖-US | 美国 | B | 限速 50M_19
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | A | 限速 50M_20
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | C | 限速 50M_21
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | D | 限速 50M_22
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - default_name_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇭🇺_HU_匈牙利_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_15
-      - default_name_16
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_17
-      - 🇺🇸_US_美国_18
-      - default_name_19
-      - default_name_20
-      - default_name_21
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | A | 限速 50M_1
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | B | 限速 50M_2
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | C | 限速 50M_3
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | D | 限速 50M_4
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | E | 限速 50M_5
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | F | 限速 50M_6
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | A | 限速 50M_7
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | B | 限速 50M_8
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | C | 限速 50M_9
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | D | 限速 50M_10
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | A | 限速 50M_11
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | B | 限速 50M_12
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | C | 限速 50M_13
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | D | 限速 50M_14
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | A | 限速 50M_15
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | B | 限速 50M_16
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | C | 限速 50M_17
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | D | 限速 50M_18
+      - 限时 00:00~24:00 极速白嫖-US | 美国 | B | 限速 50M_19
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | A | 限速 50M_20
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | C | 限速 50M_21
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | D | 限速 50M_22
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - default_name_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇭🇺_HU_匈牙利_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_15
-      - default_name_16
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_17
-      - 🇺🇸_US_美国_18
-      - default_name_19
-      - default_name_20
-      - default_name_21
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | A | 限速 50M_1
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | B | 限速 50M_2
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | C | 限速 50M_3
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | D | 限速 50M_4
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | E | 限速 50M_5
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | F | 限速 50M_6
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | A | 限速 50M_7
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | B | 限速 50M_8
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | C | 限速 50M_9
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | D | 限速 50M_10
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | A | 限速 50M_11
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | B | 限速 50M_12
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | C | 限速 50M_13
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | D | 限速 50M_14
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | A | 限速 50M_15
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | B | 限速 50M_16
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | C | 限速 50M_17
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | D | 限速 50M_18
+      - 限时 00:00~24:00 极速白嫖-US | 美国 | B | 限速 50M_19
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | A | 限速 50M_20
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | C | 限速 50M_21
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | D | 限速 50M_22
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - default_name_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇭🇺_HU_匈牙利_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_15
-      - default_name_16
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_17
-      - 🇺🇸_US_美国_18
-      - default_name_19
-      - default_name_20
-      - default_name_21
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | A | 限速 50M_1
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | B | 限速 50M_2
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | C | 限速 50M_3
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | D | 限速 50M_4
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | E | 限速 50M_5
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | F | 限速 50M_6
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | A | 限速 50M_7
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | B | 限速 50M_8
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | C | 限速 50M_9
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | D | 限速 50M_10
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | A | 限速 50M_11
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | B | 限速 50M_12
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | C | 限速 50M_13
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | D | 限速 50M_14
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | A | 限速 50M_15
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | B | 限速 50M_16
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | C | 限速 50M_17
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | D | 限速 50M_18
+      - 限时 00:00~24:00 极速白嫖-US | 美国 | B | 限速 50M_19
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | A | 限速 50M_20
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | C | 限速 50M_21
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | D | 限速 50M_22
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - default_name_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇭🇺_HU_匈牙利_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_15
-      - default_name_16
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_17
-      - 🇺🇸_US_美国_18
-      - default_name_19
-      - default_name_20
-      - default_name_21
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | A | 限速 50M_1
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | B | 限速 50M_2
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | C | 限速 50M_3
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | D | 限速 50M_4
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | E | 限速 50M_5
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | F | 限速 50M_6
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | A | 限速 50M_7
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | B | 限速 50M_8
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | C | 限速 50M_9
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | D | 限速 50M_10
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | A | 限速 50M_11
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | B | 限速 50M_12
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | C | 限速 50M_13
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | D | 限速 50M_14
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | A | 限速 50M_15
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | B | 限速 50M_16
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | C | 限速 50M_17
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | D | 限速 50M_18
+      - 限时 00:00~24:00 极速白嫖-US | 美国 | B | 限速 50M_19
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | A | 限速 50M_20
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | C | 限速 50M_21
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | D | 限速 50M_22
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -226,27 +234,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - default_name_3
-      - default_name_4
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇭🇺_HU_匈牙利_9
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_12
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_15
-      - default_name_16
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_17
-      - 🇺🇸_US_美国_18
-      - default_name_19
-      - default_name_20
-      - default_name_21
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | A | 限速 50M_1
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | B | 限速 50M_2
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | C | 限速 50M_3
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | D | 限速 50M_4
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | E | 限速 50M_5
+      - 限时 00:00~24:00 极速白嫖-JP | 日本 | F | 限速 50M_6
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | A | 限速 50M_7
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | B | 限速 50M_8
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | C | 限速 50M_9
+      - 限时 00:00~24:00 极速白嫖-KR | 韩国 | D | 限速 50M_10
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | A | 限速 50M_11
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | B | 限速 50M_12
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | C | 限速 50M_13
+      - 限时 00:00~24:00 极速白嫖-SG | 新加坡 | D | 限速 50M_14
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | A | 限速 50M_15
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | B | 限速 50M_16
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | C | 限速 50M_17
+      - 限时 00:00~24:00 极速白嫖-TW | 台湾 | D | 限速 50M_18
+      - 限时 00:00~24:00 极速白嫖-US | 美国 | B | 限速 50M_19
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | A | 限速 50M_20
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | C | 限速 50M_21
+      - 限时 01:00~24:00 极速白嫖-US | 美国 | D | 限速 50M_22
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
