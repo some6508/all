@@ -5,231 +5,967 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN-112.33.32.136-0173, server: fa6.uuv2.co.uk, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP-45.95.224.21-0395, server: ty1-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty1-1.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: EE-185.37.253.13-0570, server: ee1-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ee1-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN-183.232.230.6-1153, server: gdyd.xxcv.cc, port: 36660, type: vmess, uuid: 4a53cdc5-1067-3f5c-b1b4-745edfa8b371, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/de?ed=2048", ws-headers: {Host: huayun.xyz}, udp: true}
-  - {name: CN-183.232.230.5-1186, server: gzcm.rymv2rayssl.xyz, port: 44604, type: vmess, uuid: 6095fae1-df2d-3bc6-8d9c-156cfc3db88e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: nat0.mlnl.host}, udp: true}
-  - {name: JP-45.142.165.142-1201, server: os1-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN-58.32.11.113-1204, server: vipdedi.boom.ovh, port: 65521, type: vmess, uuid: a8d9724a-d61c-3d85-8cad-07e4d45a9441, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mydisk, ws-headers: {Host: vipdedi.boom.ovh}, udp: true}
-  - {name: CN-183.232.170.110-1232, server: gdfs.xxcv.cc, port: 26001, type: trojan, password: 4a53cdc5-1067-3f5c-b1b4-745edfa8b371, sni: gdfs.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: CN-183.232.170.110-1233, server: gdfs.xxcv.cc, port: 26003, type: trojan, password: 4a53cdc5-1067-3f5c-b1b4-745edfa8b371, sni: gdfs.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: CN-183.240.69.51-1234, server: qy1.dwjsyz.top, port: 16666, type: vmess, uuid: 0075f65b-7ec6-3b18-a0b6-0c0dc54f9e6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: qy1.dwjsyz.top}, udp: true}
-  - {name: US-199.19.226.178-1313, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: us.lv.buyvm.tgproxy.wtf}, udp: true}
-  - {name: CN-112.33.32.136-0173 2, server: fa6.uuv2.co.uk, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾01解锁流媒体, server: tw1-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: tw1-4.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 英国01解锁流媒体, server: uk1-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: uk1-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国01解锁流媒体, server: os1-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-1.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 荷兰02解锁流媒体, server: nl1-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: nl1-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 荷兰03解锁流媒体, server: nl1-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: nl1-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 测试服务器19, server: ee1-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ee1-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 德国02解锁流媒体, server: de2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: de2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 英国02解锁流媒体, server: uk1-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: uk1-1.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 德国03解锁流媒体, server: de2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: de2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 英国03解锁流媒体, server: uk1-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: uk1-4.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 德国04解锁流媒体, server: de2-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: de2-4.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 德国01解锁流媒体, server: de2-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: de2-1.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 荷兰07解锁流媒体, server: nl1-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: nl1-7.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 英国04解锁流媒体, server: uk1-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: uk1-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 荷兰06解锁流媒体, server: nl1-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: nl1-6.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国04解锁流媒体, server: os1-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-4.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 测试服务器88, server: ee1-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ee1-1.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国06解锁流媒体, server: os1-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-6.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 测试服务器93, server: ty2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 荷兰05解锁流媒体, server: nl1-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: nl1-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 3.22|专线西雅图02原生NTT, server: zfd.out02.nodeserver.top, port: 16234, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.74| 专线西雅图01原生NTT, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2.59|V1俄罗斯01 中继D 12x, server: in04.2333dns.com, port: 64071, type: vmess, uuid: 8426925e-2f87-349e-a7ba-1375c3afd37b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-ru01.covid19.rip}, udp: true}
-  - {name: 2.29| 专线中国台湾03原生HINET, server: zfd.out02.nodeserver.top, port: 16224, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 1.48|TG@moneyflychat 安徽省移动 21, server: fa6.uuv2.co.uk, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[直连] 美国1 解锁流媒体 2", server: 23.234.242.253, port: 8888, type: vmess, uuid: 9bf3ddad-c2a5-4056-8dae-5a3cb9e9b84c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 23.234.242.253}, udp: true}
-  - {name: 2.74| 专线西雅图01原生NTT 4, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 5.20| 专线香港08原生HGCBBS 3, server: zfd.out02.nodeserver.top, port: 16237, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港001, server: gy.170809.xyz, port: 53912, type: ss, cipher: chacha20-ietf-poly1305, password: 89386c1f-435f-4bb5-9c10-118e07c01621, udp: true}
-  - {name: 30香港TG@moneyflychat, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: zj.haojiahuo.club}, udp: true}
-  - {name: 45香港TG@moneyflychat, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: 46香港TG@moneyflychat, server: zj.haojiahuo.club, port: 30041, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: 58美国TG@moneyflychat, server: zj.haojiahuo.club, port: 30077, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: 73美国TG@moneyflychat, server: zj.haojiahuo.club, port: 30052, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: TG@moneyflychat 67, server: zj.haojiahuo.club, port: 30057, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: zj.haojiahuo.club}, udp: true}
-  - {name: TG@moneyflychat, server: shcu1.qwqcloud.top, port: 11214, type: vmess, uuid: 99c40b31-923a-46df-97ae-b1a98acae529, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@moneyflychat  2, server: shcu1.qwqcloud.top, port: 11216, type: vmess, uuid: 99c40b31-923a-46df-97ae-b1a98acae529, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@moneyflychat  4, server: shcu1.qwqcloud.top, port: 11212, type: vmess, uuid: 99c40b31-923a-46df-97ae-b1a98acae529, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@moneyflychat  5, server: shcu1.qwqcloud.top, port: 11211, type: vmess, uuid: 99c40b31-923a-46df-97ae-b1a98acae529, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@moneyflychat  6, server: shcu1.qwqcloud.top, port: 11210, type: vmess, uuid: 99c40b31-923a-46df-97ae-b1a98acae529, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR-145.239.1.100-0001, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US-169.197.141.91-0002, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: FR-62.210.209.50-0003, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US-38.75.136.93-0005, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-142.202.48.34-0006, server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US-38.68.134.191-0008, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US-38.121.43.91-0010, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US-38.68.135.19-0011, server: 38.68.135.19, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: AU-172.105.180.227-0013, server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA-198.57.27.184-0014, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US-167.88.61.130-0015, server: 167.88.61.130, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-38.107.226.48-0016, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: NO-46.29.218.170-0018, server: 46.29.218.170, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CA-198.57.27.172-0022, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA-134.195.196.199-0023, server: 134.195.196.199, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CA-134.195.196.71-0024, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: GB-172.99.190.109-0026, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: GB-212.38.189.174-0028, server: 212.38.189.174, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: NG-102.129.144.142-0032, server: 102.129.144.142, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6, udp: true}
+  - {name: US-169.197.143.157-0034, server: 169.197.143.157, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US-38.68.134.85-0035, server: 38.68.134.85, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US-38.68.134.23-0036, server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US-38.68.134.69-0037, server: 38.68.134.69, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-167.88.63.71-0038, server: 167.88.63.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: DK-37.120.194.82-0039, server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw, udp: true}
+  - {name: US-38.68.134.202-0040, server: 38.68.134.202, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US-38.75.136.45-0042, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-38.121.43.71-0045, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA-134.195.196.33-0046, server: 134.195.196.33, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA-134.195.196.110-0047, server: 134.195.196.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-142.202.48.108-0048, server: 142.202.48.108, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-167.88.62.68-0049, server: 167.88.62.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA-198.57.27.152-0050, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: GB-172.99.190.205-0051, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA-198.57.27.241-0052, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-142.202.48.52-0053, server: 142.202.48.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-198.57.27.191-0055, server: 198.57.27.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA-134.195.196.81-0056, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: GB-172.99.190.39-0059, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-142.202.48.105-0062, server: 142.202.48.105, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: NO-46.29.218.170-0064, server: 46.29.218.170, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ES-45.152.183.242-0065, server: 45.152.183.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
+  - {name: CN-120.233.7.33-0066, server: x.gotout.work, port: 30041, type: ss, cipher: aes-256-gcm, password: 8SFY7w, udp: true}
+  - {name: US-167.88.61.109-0067, server: 167.88.61.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US-38.75.136.58-0068, server: 38.75.136.58, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-167.88.62.34-0069, server: 167.88.62.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-167.88.61.204-0070, server: 167.88.61.204, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US-38.143.66.71-0071, server: 38.143.66.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-134.195.196.199-0073, server: 134.195.196.199, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US-169.197.143.157-0075, server: 169.197.143.157, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US-38.143.66.55-0076, server: 38.143.66.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-38.75.136.93-0077, server: 38.75.136.93, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US-142.202.48.34-0078, server: 142.202.48.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-142.202.48.105-0079, server: 142.202.48.105, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US-142.202.48.52-0081, server: 142.202.48.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US-38.91.101.11-0082, server: 38.91.101.11, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP-85.208.110.2-0083, server: 85.208.110.2, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: JP-85.208.108.134-0086, server: 85.208.108.134, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: CA-198.57.27.172-0087, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-38.68.134.85-0089, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CA-198.57.27.184-0090, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-38.91.100.200-0091, server: 38.91.100.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA-134.195.196.193-0095, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US-169.197.141.244-0096, server: 169.197.141.244, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: HU-185.128.26.130-0097, server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy, udp: true}
+  - {name: JP-85.208.108.106-0098, server: 85.208.108.106, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: RELAY-104.16.169.85-0099, server: 104.16.169.85, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-dc02.testred.xyz}, udp: true}
+  - {name: AU-172.105.180.227-0100, server: 172.105.180.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: AU-172.105.171.80-0102, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-169.197.141.92-0103, server: 169.197.141.92, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-142.202.48.108-0104, server: 142.202.48.108, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: IN-172.105.35.151-0105, server: 172.105.35.151, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US-167.88.63.74-0107, server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: IN-172.105.59.32-0108, server: 172.105.59.32, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: AU-172.105.177.120-0109, server: 172.105.177.120, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: RELAY-104.21.33.178-0110, server: v9.ssrsub.com, port: 8443, type: vmess, uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v9.ssrsub.com}, udp: true}
+  - {name: IN-172.105.59.32-0111, server: 172.105.59.32, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US-169.197.141.240-0112, server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: IN-192.46.208.153-0113, server: 192.46.208.153, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: IT-185.213.21.6-0114, server: 185.213.21.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-169.197.142.39-0116, server: 169.197.142.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-167.88.61.60-0117, server: 167.88.61.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US-66.55.92.101-0119, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
+  - {name: FR-145.239.1.137-0124, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CN-112.64.69.187-0133, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-112.64.69.187-0137, server: 112.64.69.187, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US-138.197.236.77-0144, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 138.197.236.77}, udp: true}
+  - {name: CZ-195.133.53.209-0146, server: t2.ssrsub.com, port: 8443, type: trojan, password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: CA-142.47.89.64-0162, server: t1.ssrsub.com, port: 8443, type: trojan, password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: FR-141.95.0.26-0172, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: BE-77.243.191.178-0188, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs, udp: true}
+  - {name: CA-45.62.247.153-0191, server: t3.ssrsub.com, port: 8443, type: trojan, password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: PT-185.90.57.152-0199, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
+  - {name: RU-195.133.48.9-0213, server: t6.ssrsub.com, port: 8443, type: trojan, password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, sni: t6.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: CZ-194.87.238.109-0258, server: t7.ssrsub.com, port: 8443, type: trojan, password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: US-38.68.134.202-0271, server: 38.68.134.202, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: FR-145.239.1.137-0278, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CN-183.232.170.126-0437, server: ddns04.r8o8c8k.xyz, port: 65009, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: ddns04.r8o8c8k.xyz}, udp: true}
+  - {name: US-167.88.61.96-0954, server: 167.88.61.96, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: TW-188.214.106.98-0960, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH, udp: true}
+  - {name: IL-212.199.61.55-0964, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
+  - {name: MY-223.25.246.4-0966, server: 223.25.246.4, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA, udp: true}
+  - {name: US-96.47.224.2-0970, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj, udp: true}
+  - {name: HK-62.216.92.179-0972, server: 62.216.92.179, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: HK-62.216.92.180-0973, server: 62.216.92.180, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: CA-45.62.250.251-0985, server: t4.ssrsub.com, port: 8443, type: trojan, password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: US-72.167.45.6-0986, server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: US-72.167.45.6-0987, server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: US-72.167.45.6-0988, server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: US-169.197.143.157-0989, server: 169.197.143.157, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP-84.17.34.8-0993, server: 84.17.34.8, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm, udp: true}
+  - {name: NO-84.247.50.10-0994, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf, udp: true}
+  - {name: US-37.218.245.122-0997, server: 37.218.245.122, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fPn40BnheGrB, udp: true}
+  - {name: FR-95.142.175.14-0999, server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN, udp: true}
+  - {name: AU-116.206.230.130-1004, server: 116.206.230.130, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: zaNeDgu9mZKpEMTHQJy8, udp: true}
+  - {name: GB-212.38.189.174-1006, server: 212.38.189.174, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: GB-212.38.189.174-1007, server: 212.38.189.174, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA-198.57.27.241-1008, server: 198.57.27.241, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA-198.57.27.241-1009, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA-198.57.27.191-1010, server: 198.57.27.191, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: CA-198.57.27.184-1012, server: 198.57.27.184, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA-198.57.27.172-1013, server: 198.57.27.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA-198.57.27.152-1014, server: 198.57.27.152, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: CA-134.195.196.81-1015, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA-134.195.196.71-1016, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA-134.195.196.71-1017, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA-134.195.196.33-1018, server: 134.195.196.33, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA-134.195.196.33-1019, server: 134.195.196.33, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-134.195.196.199-1020, server: 134.195.196.199, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CA-134.195.196.199-1021, server: 134.195.196.199, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CA-134.195.196.193-1022, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CN-112.46.22.44-1028, server: cn3.node.zeroteam.top, port: 39898, type: vmess, uuid: ffff0daa-f055-41c4-9b29-629d17f27b3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: DE-217.79.181.49-1029, server: 217.79.181.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: DE-193.108.118.2-1030, server: 193.108.118.2, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: FR-145.239.1.100-1031, server: 145.239.1.100, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: FR-145.239.1.100-1032, server: 145.239.1.100, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: DE-139.162.130.101-1034, server: 139.162.130.101, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: DE-139.162.130.101-1035, server: 139.162.130.101, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: DE-139.162.130.101-1036, server: 139.162.130.101, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: FR-92.243.24.68-1039, server: 92.243.24.68, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bIS3QQFwFIm1, udp: true}
+  - {name: FR-149.202.82.172-1040, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: FR-149.202.82.172-1041, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: FR-149.202.82.172-1042, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: FR-149.202.82.172-1043, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: FR-145.239.1.100-1044, server: 145.239.1.100, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: GB-18.168.67.106-1046, server: uk1.zzjs.site, port: 23628, type: vmess, uuid: f27f36fb-3967-3efe-beeb-1d8827ce1b5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: GB-172.99.190.39-1048, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: GB-172.99.190.39-1049, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: GB-172.99.190.39-1050, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: GB-172.99.190.205-1051, server: 172.99.190.205, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: GB-172.99.190.205-1052, server: 172.99.190.205, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: GB-172.99.190.109-1053, server: 172.99.190.109, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: GB-172.99.190.109-1054, server: 172.99.190.109, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: HK-20.205.105.84-1055, server: azhk.node.qchwnd.moe, port: 44609, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: CN-183.240.69.51-1061, server: qy1.dwjsyz.top, port: 16664, type: vmess, uuid: 0075f65b-7ec6-3b18-a0b6-0c0dc54f9e6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: qy1.dwjsyz.top}, udp: true}
+  - {name: ID-45.133.181.58-1067, server: 45.133.181.58, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
+  - {name: CN-120.232.173.65-1068, server: newgy.jidan666.com, port: 23032, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: newgy.jidan666.com, skip-cert-verify: true, udp: true}
+  - {name: CN-112.64.69.187-1069, server: shcu01a.iplc188.com, port: 10001, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-183.240.69.51-1070, server: qy1.dwjsyz.top, port: 16665, type: vmess, uuid: 0075f65b-7ec6-3b18-a0b6-0c0dc54f9e6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: qy1.dwjsyz.top}, udp: true}
+  - {name: JP-45.66.134.148-1071, server: jp2.zzjs.site, port: 31621, type: vmess, uuid: f27f36fb-3967-3efe-beeb-1d8827ce1b5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: JP-85.208.110.2-1072, server: 85.208.110.2, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP-85.208.110.2-1073, server: 85.208.110.2, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP-85.208.108.134-1074, server: 85.208.108.134, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: CN-112.64.69.187-1079, server: shcu01a.iplc188.com, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: MX-169.57.35.97-1081, server: 169.57.35.97, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL, udp: true}
+  - {name: JP-204.124.181.238-1083, server: 204.124.181.238, port: 56173, type: vmess, uuid: bc9f7296-0788-4f4f-8705-77d1dda92c94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL-104.245.96.211-1084, server: 104.245.96.211, port: 56173, type: vmess, uuid: bc9f7296-0788-4f4f-8705-77d1dda92c94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP-206.190.234.202-1085, server: sb.ballm.eu.org, port: 443, type: trojan, password: ebc3bf91-a087-41dc-966c-ac5bf14286b2, sni: sb.ballm.eu.org, skip-cert-verify: true, udp: true}
+  - {name: PL-194.15.196.106-1088, server: 194.15.196.106, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: PL-194.15.196.106-1089, server: 194.15.196.106, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: PL-194.15.196.106-1090, server: 194.15.196.106, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: PL-194.15.196.106-1091, server: 194.15.196.106, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US-199.19.226.178-1104, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: us.lv.buyvm.tgproxy.wtf}, udp: true}
+  - {name: US-38.75.136.58-1107, server: 38.75.136.58, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-38.75.136.45-1108, server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US-38.75.136.45-1109, server: 38.75.136.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-38.75.136.45-1110, server: 38.75.136.45, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US-38.68.135.19-1111, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-38.68.135.19-1112, server: 38.68.135.19, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US-38.68.134.85-1113, server: 38.68.134.85, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-38.68.134.85-1114, server: 38.68.134.85, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US-38.68.134.69-1115, server: 38.68.134.69, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US-38.68.134.69-1116, server: 38.68.134.69, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US-38.68.134.69-1117, server: 38.68.134.69, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US-38.68.134.23-1118, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US-38.68.134.23-1119, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-38.68.134.202-1120, server: 38.68.134.202, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US-38.68.134.202-1121, server: 38.68.134.202, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US-38.68.134.191-1122, server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-38.68.134.191-1123, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US-38.68.134.191-1124, server: 38.68.134.191, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US-38.121.43.91-1126, server: 38.121.43.91, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US-38.121.43.91-1127, server: 38.121.43.91, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US-38.121.43.71-1128, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-38.121.43.71-1129, server: 38.121.43.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US-38.121.43.142-1130, server: 38.121.43.142, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US-38.121.43.142-1132, server: 38.121.43.142, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US-38.107.226.48-1133, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-38.107.226.48-1135, server: 38.107.226.48, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US-216.24.177.54-1137, server: 216.24.177.54, port: 56173, type: vmess, uuid: bc9f7296-0788-4f4f-8705-77d1dda92c94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR-20.111.31.233-1139, server: 20.111.31.233, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: 5401fcb0-2899-4c05-8eee-1728b8a1affc, udp: true}
+  - {name: US-169.197.142.99-1141, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US-169.197.142.99-1142, server: 169.197.142.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-169.197.142.99-1143, server: 169.197.142.99, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-169.197.142.99-1144, server: 169.197.142.99, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US-169.197.142.238-1145, server: 169.197.142.238, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US-169.197.142.238-1146, server: 169.197.142.238, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-169.197.142.238-1147, server: 169.197.142.238, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-169.197.142.238-1148, server: 169.197.142.238, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-169.197.142.187-1149, server: 169.197.142.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-169.197.142.187-1150, server: 169.197.142.187, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-169.197.142.187-1151, server: 169.197.142.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-169.197.142.187-1152, server: 169.197.142.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US-167.88.63.74-1153, server: 167.88.63.74, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US-167.88.63.74-1154, server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US-167.88.63.71-1155, server: 167.88.63.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-167.88.63.71-1156, server: 167.88.63.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-167.88.62.68-1160, server: 167.88.62.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US-167.88.62.68-1161, server: 167.88.62.68, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-167.88.62.68-1162, server: 167.88.62.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US-167.88.62.34-1163, server: 167.88.62.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-167.88.61.96-1164, server: 167.88.61.96, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-167.88.61.96-1165, server: 167.88.61.96, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US-167.88.61.96-1166, server: 167.88.61.96, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-167.88.61.5-1167, server: 167.88.61.5, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US-167.88.61.5-1168, server: 167.88.61.5, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-167.88.61.5-1169, server: 167.88.61.5, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-167.88.61.5-1170, server: 167.88.61.5, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-167.88.61.204-1171, server: 167.88.61.204, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US-167.88.61.204-1172, server: 167.88.61.204, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US-167.88.61.130-1174, server: 167.88.61.130, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US-167.88.61.130-1175, server: 167.88.61.130, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US-167.88.61.109-1176, server: 167.88.61.109, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US-167.88.61.109-1177, server: 167.88.61.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US-167.88.61.109-1178, server: 167.88.61.109, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US-104.140.21.178-1179, server: 104.140.21.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-112.33.32.136-0173
-      - JP-45.95.224.21-0395
-      - EE-185.37.253.13-0570
-      - CN-183.232.230.6-1153
-      - CN-183.232.230.5-1186
-      - JP-45.142.165.142-1201
-      - CN-58.32.11.113-1204
-      - CN-183.232.170.110-1232
-      - CN-183.232.170.110-1233
-      - CN-183.240.69.51-1234
-      - US-199.19.226.178-1313
-      - CN-112.33.32.136-0173 2
-      - 台湾01解锁流媒体
-      - 英国01解锁流媒体
-      - 美国01解锁流媒体
-      - 荷兰02解锁流媒体
-      - 荷兰03解锁流媒体
-      - 测试服务器19
-      - 德国02解锁流媒体
-      - 英国02解锁流媒体
-      - 德国03解锁流媒体
-      - 英国03解锁流媒体
-      - 德国04解锁流媒体
-      - 德国01解锁流媒体
-      - 荷兰07解锁流媒体
-      - 英国04解锁流媒体
-      - 荷兰06解锁流媒体
-      - 美国04解锁流媒体
-      - 测试服务器88
-      - 美国06解锁流媒体
-      - 测试服务器93
-      - 荷兰05解锁流媒体
-      - 3.22|专线西雅图02原生NTT
-      - 2.74| 专线西雅图01原生NTT
-      - 2.59|V1俄罗斯01 中继D 12x
-      - 2.29| 专线中国台湾03原生HINET
-      - 1.48|TG@moneyflychat 安徽省移动 21
-      - "[直连] 美国1 解锁流媒体 2"
-      - 2.74| 专线西雅图01原生NTT 4
-      - 5.20| 专线香港08原生HGCBBS 3
-      - 香港001
-      - 30香港TG@moneyflychat
-      - 45香港TG@moneyflychat
-      - 46香港TG@moneyflychat
-      - 58美国TG@moneyflychat
-      - 73美国TG@moneyflychat
-      - TG@moneyflychat 67
-      - TG@moneyflychat
-      - TG@moneyflychat  2
-      - TG@moneyflychat  4
-      - TG@moneyflychat  5
-      - TG@moneyflychat  6
+      - FR-145.239.1.100-0001
+      - US-169.197.141.91-0002
+      - FR-62.210.209.50-0003
+      - US-38.75.136.93-0005
+      - US-142.202.48.34-0006
+      - US-38.68.134.191-0008
+      - US-38.121.43.91-0010
+      - US-38.68.135.19-0011
+      - AU-172.105.180.227-0013
+      - CA-198.57.27.184-0014
+      - US-167.88.61.130-0015
+      - US-38.107.226.48-0016
+      - NO-46.29.218.170-0018
+      - CA-198.57.27.172-0022
+      - CA-134.195.196.199-0023
+      - CA-134.195.196.71-0024
+      - GB-172.99.190.109-0026
+      - GB-212.38.189.174-0028
+      - NG-102.129.144.142-0032
+      - US-169.197.143.157-0034
+      - US-38.68.134.85-0035
+      - US-38.68.134.23-0036
+      - US-38.68.134.69-0037
+      - US-167.88.63.71-0038
+      - DK-37.120.194.82-0039
+      - US-38.68.134.202-0040
+      - US-38.75.136.45-0042
+      - US-38.121.43.71-0045
+      - CA-134.195.196.33-0046
+      - CA-134.195.196.110-0047
+      - US-142.202.48.108-0048
+      - US-167.88.62.68-0049
+      - CA-198.57.27.152-0050
+      - GB-172.99.190.205-0051
+      - CA-198.57.27.241-0052
+      - US-142.202.48.52-0053
+      - CA-198.57.27.191-0055
+      - CA-134.195.196.81-0056
+      - GB-172.99.190.39-0059
+      - US-142.202.48.105-0062
+      - NO-46.29.218.170-0064
+      - ES-45.152.183.242-0065
+      - CN-120.233.7.33-0066
+      - US-167.88.61.109-0067
+      - US-38.75.136.58-0068
+      - US-167.88.62.34-0069
+      - US-167.88.61.204-0070
+      - US-38.143.66.71-0071
+      - CA-134.195.196.199-0073
+      - US-169.197.143.157-0075
+      - US-38.143.66.55-0076
+      - US-38.75.136.93-0077
+      - US-142.202.48.34-0078
+      - US-142.202.48.105-0079
+      - US-142.202.48.52-0081
+      - US-38.91.101.11-0082
+      - JP-85.208.110.2-0083
+      - JP-85.208.108.134-0086
+      - CA-198.57.27.172-0087
+      - US-38.68.134.85-0089
+      - CA-198.57.27.184-0090
+      - US-38.91.100.200-0091
+      - CA-134.195.196.193-0095
+      - US-169.197.141.244-0096
+      - HU-185.128.26.130-0097
+      - JP-85.208.108.106-0098
+      - RELAY-104.16.169.85-0099
+      - AU-172.105.180.227-0100
+      - AU-172.105.171.80-0102
+      - US-169.197.141.92-0103
+      - US-142.202.48.108-0104
+      - IN-172.105.35.151-0105
+      - US-167.88.63.74-0107
+      - IN-172.105.59.32-0108
+      - AU-172.105.177.120-0109
+      - RELAY-104.21.33.178-0110
+      - IN-172.105.59.32-0111
+      - US-169.197.141.240-0112
+      - IN-192.46.208.153-0113
+      - IT-185.213.21.6-0114
+      - US-169.197.142.39-0116
+      - US-167.88.61.60-0117
+      - US-66.55.92.101-0119
+      - FR-145.239.1.137-0124
+      - CN-112.64.69.187-0133
+      - CN-112.64.69.187-0137
+      - US-138.197.236.77-0144
+      - CZ-195.133.53.209-0146
+      - CA-142.47.89.64-0162
+      - FR-141.95.0.26-0172
+      - BE-77.243.191.178-0188
+      - CA-45.62.247.153-0191
+      - PT-185.90.57.152-0199
+      - RU-195.133.48.9-0213
+      - CZ-194.87.238.109-0258
+      - US-38.68.134.202-0271
+      - FR-145.239.1.137-0278
+      - CN-183.232.170.126-0437
+      - US-167.88.61.96-0954
+      - TW-188.214.106.98-0960
+      - IL-212.199.61.55-0964
+      - MY-223.25.246.4-0966
+      - US-96.47.224.2-0970
+      - HK-62.216.92.179-0972
+      - HK-62.216.92.180-0973
+      - CA-45.62.250.251-0985
+      - US-72.167.45.6-0986
+      - US-72.167.45.6-0987
+      - US-72.167.45.6-0988
+      - US-169.197.143.157-0989
+      - JP-84.17.34.8-0993
+      - NO-84.247.50.10-0994
+      - US-37.218.245.122-0997
+      - FR-95.142.175.14-0999
+      - AU-116.206.230.130-1004
+      - GB-212.38.189.174-1006
+      - GB-212.38.189.174-1007
+      - CA-198.57.27.241-1008
+      - CA-198.57.27.241-1009
+      - CA-198.57.27.191-1010
+      - CA-198.57.27.184-1012
+      - CA-198.57.27.172-1013
+      - CA-198.57.27.152-1014
+      - CA-134.195.196.81-1015
+      - CA-134.195.196.71-1016
+      - CA-134.195.196.71-1017
+      - CA-134.195.196.33-1018
+      - CA-134.195.196.33-1019
+      - CA-134.195.196.199-1020
+      - CA-134.195.196.199-1021
+      - CA-134.195.196.193-1022
+      - CN-112.46.22.44-1028
+      - DE-217.79.181.49-1029
+      - DE-193.108.118.2-1030
+      - FR-145.239.1.100-1031
+      - FR-145.239.1.100-1032
+      - DE-139.162.130.101-1034
+      - DE-139.162.130.101-1035
+      - DE-139.162.130.101-1036
+      - FR-92.243.24.68-1039
+      - FR-149.202.82.172-1040
+      - FR-149.202.82.172-1041
+      - FR-149.202.82.172-1042
+      - FR-149.202.82.172-1043
+      - FR-145.239.1.100-1044
+      - GB-18.168.67.106-1046
+      - GB-172.99.190.39-1048
+      - GB-172.99.190.39-1049
+      - GB-172.99.190.39-1050
+      - GB-172.99.190.205-1051
+      - GB-172.99.190.205-1052
+      - GB-172.99.190.109-1053
+      - GB-172.99.190.109-1054
+      - HK-20.205.105.84-1055
+      - CN-183.240.69.51-1061
+      - ID-45.133.181.58-1067
+      - CN-120.232.173.65-1068
+      - CN-112.64.69.187-1069
+      - CN-183.240.69.51-1070
+      - JP-45.66.134.148-1071
+      - JP-85.208.110.2-1072
+      - JP-85.208.110.2-1073
+      - JP-85.208.108.134-1074
+      - CN-112.64.69.187-1079
+      - MX-169.57.35.97-1081
+      - JP-204.124.181.238-1083
+      - NL-104.245.96.211-1084
+      - JP-206.190.234.202-1085
+      - PL-194.15.196.106-1088
+      - PL-194.15.196.106-1089
+      - PL-194.15.196.106-1090
+      - PL-194.15.196.106-1091
+      - US-199.19.226.178-1104
+      - US-38.75.136.58-1107
+      - US-38.75.136.45-1108
+      - US-38.75.136.45-1109
+      - US-38.75.136.45-1110
+      - US-38.68.135.19-1111
+      - US-38.68.135.19-1112
+      - US-38.68.134.85-1113
+      - US-38.68.134.85-1114
+      - US-38.68.134.69-1115
+      - US-38.68.134.69-1116
+      - US-38.68.134.69-1117
+      - US-38.68.134.23-1118
+      - US-38.68.134.23-1119
+      - US-38.68.134.202-1120
+      - US-38.68.134.202-1121
+      - US-38.68.134.191-1122
+      - US-38.68.134.191-1123
+      - US-38.68.134.191-1124
+      - US-38.121.43.91-1126
+      - US-38.121.43.91-1127
+      - US-38.121.43.71-1128
+      - US-38.121.43.71-1129
+      - US-38.121.43.142-1130
+      - US-38.121.43.142-1132
+      - US-38.107.226.48-1133
+      - US-38.107.226.48-1135
+      - US-216.24.177.54-1137
+      - FR-20.111.31.233-1139
+      - US-169.197.142.99-1141
+      - US-169.197.142.99-1142
+      - US-169.197.142.99-1143
+      - US-169.197.142.99-1144
+      - US-169.197.142.238-1145
+      - US-169.197.142.238-1146
+      - US-169.197.142.238-1147
+      - US-169.197.142.238-1148
+      - US-169.197.142.187-1149
+      - US-169.197.142.187-1150
+      - US-169.197.142.187-1151
+      - US-169.197.142.187-1152
+      - US-167.88.63.74-1153
+      - US-167.88.63.74-1154
+      - US-167.88.63.71-1155
+      - US-167.88.63.71-1156
+      - US-167.88.62.68-1160
+      - US-167.88.62.68-1161
+      - US-167.88.62.68-1162
+      - US-167.88.62.34-1163
+      - US-167.88.61.96-1164
+      - US-167.88.61.96-1165
+      - US-167.88.61.96-1166
+      - US-167.88.61.5-1167
+      - US-167.88.61.5-1168
+      - US-167.88.61.5-1169
+      - US-167.88.61.5-1170
+      - US-167.88.61.204-1171
+      - US-167.88.61.204-1172
+      - US-167.88.61.130-1174
+      - US-167.88.61.130-1175
+      - US-167.88.61.109-1176
+      - US-167.88.61.109-1177
+      - US-167.88.61.109-1178
+      - US-104.140.21.178-1179
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN-112.33.32.136-0173
-      - JP-45.95.224.21-0395
-      - EE-185.37.253.13-0570
-      - CN-183.232.230.6-1153
-      - CN-183.232.230.5-1186
-      - JP-45.142.165.142-1201
-      - CN-58.32.11.113-1204
-      - CN-183.232.170.110-1232
-      - CN-183.232.170.110-1233
-      - CN-183.240.69.51-1234
-      - US-199.19.226.178-1313
-      - CN-112.33.32.136-0173 2
-      - 台湾01解锁流媒体
-      - 英国01解锁流媒体
-      - 美国01解锁流媒体
-      - 荷兰02解锁流媒体
-      - 荷兰03解锁流媒体
-      - 测试服务器19
-      - 德国02解锁流媒体
-      - 英国02解锁流媒体
-      - 德国03解锁流媒体
-      - 英国03解锁流媒体
-      - 德国04解锁流媒体
-      - 德国01解锁流媒体
-      - 荷兰07解锁流媒体
-      - 英国04解锁流媒体
-      - 荷兰06解锁流媒体
-      - 美国04解锁流媒体
-      - 测试服务器88
-      - 美国06解锁流媒体
-      - 测试服务器93
-      - 荷兰05解锁流媒体
-      - 3.22|专线西雅图02原生NTT
-      - 2.74| 专线西雅图01原生NTT
-      - 2.59|V1俄罗斯01 中继D 12x
-      - 2.29| 专线中国台湾03原生HINET
-      - 1.48|TG@moneyflychat 安徽省移动 21
-      - "[直连] 美国1 解锁流媒体 2"
-      - 2.74| 专线西雅图01原生NTT 4
-      - 5.20| 专线香港08原生HGCBBS 3
-      - 香港001
-      - 30香港TG@moneyflychat
-      - 45香港TG@moneyflychat
-      - 46香港TG@moneyflychat
-      - 58美国TG@moneyflychat
-      - 73美国TG@moneyflychat
-      - TG@moneyflychat 67
-      - TG@moneyflychat
-      - TG@moneyflychat  2
-      - TG@moneyflychat  4
-      - TG@moneyflychat  5
-      - TG@moneyflychat  6
+      - FR-145.239.1.100-0001
+      - US-169.197.141.91-0002
+      - FR-62.210.209.50-0003
+      - US-38.75.136.93-0005
+      - US-142.202.48.34-0006
+      - US-38.68.134.191-0008
+      - US-38.121.43.91-0010
+      - US-38.68.135.19-0011
+      - AU-172.105.180.227-0013
+      - CA-198.57.27.184-0014
+      - US-167.88.61.130-0015
+      - US-38.107.226.48-0016
+      - NO-46.29.218.170-0018
+      - CA-198.57.27.172-0022
+      - CA-134.195.196.199-0023
+      - CA-134.195.196.71-0024
+      - GB-172.99.190.109-0026
+      - GB-212.38.189.174-0028
+      - NG-102.129.144.142-0032
+      - US-169.197.143.157-0034
+      - US-38.68.134.85-0035
+      - US-38.68.134.23-0036
+      - US-38.68.134.69-0037
+      - US-167.88.63.71-0038
+      - DK-37.120.194.82-0039
+      - US-38.68.134.202-0040
+      - US-38.75.136.45-0042
+      - US-38.121.43.71-0045
+      - CA-134.195.196.33-0046
+      - CA-134.195.196.110-0047
+      - US-142.202.48.108-0048
+      - US-167.88.62.68-0049
+      - CA-198.57.27.152-0050
+      - GB-172.99.190.205-0051
+      - CA-198.57.27.241-0052
+      - US-142.202.48.52-0053
+      - CA-198.57.27.191-0055
+      - CA-134.195.196.81-0056
+      - GB-172.99.190.39-0059
+      - US-142.202.48.105-0062
+      - NO-46.29.218.170-0064
+      - ES-45.152.183.242-0065
+      - CN-120.233.7.33-0066
+      - US-167.88.61.109-0067
+      - US-38.75.136.58-0068
+      - US-167.88.62.34-0069
+      - US-167.88.61.204-0070
+      - US-38.143.66.71-0071
+      - CA-134.195.196.199-0073
+      - US-169.197.143.157-0075
+      - US-38.143.66.55-0076
+      - US-38.75.136.93-0077
+      - US-142.202.48.34-0078
+      - US-142.202.48.105-0079
+      - US-142.202.48.52-0081
+      - US-38.91.101.11-0082
+      - JP-85.208.110.2-0083
+      - JP-85.208.108.134-0086
+      - CA-198.57.27.172-0087
+      - US-38.68.134.85-0089
+      - CA-198.57.27.184-0090
+      - US-38.91.100.200-0091
+      - CA-134.195.196.193-0095
+      - US-169.197.141.244-0096
+      - HU-185.128.26.130-0097
+      - JP-85.208.108.106-0098
+      - RELAY-104.16.169.85-0099
+      - AU-172.105.180.227-0100
+      - AU-172.105.171.80-0102
+      - US-169.197.141.92-0103
+      - US-142.202.48.108-0104
+      - IN-172.105.35.151-0105
+      - US-167.88.63.74-0107
+      - IN-172.105.59.32-0108
+      - AU-172.105.177.120-0109
+      - RELAY-104.21.33.178-0110
+      - IN-172.105.59.32-0111
+      - US-169.197.141.240-0112
+      - IN-192.46.208.153-0113
+      - IT-185.213.21.6-0114
+      - US-169.197.142.39-0116
+      - US-167.88.61.60-0117
+      - US-66.55.92.101-0119
+      - FR-145.239.1.137-0124
+      - CN-112.64.69.187-0133
+      - CN-112.64.69.187-0137
+      - US-138.197.236.77-0144
+      - CZ-195.133.53.209-0146
+      - CA-142.47.89.64-0162
+      - FR-141.95.0.26-0172
+      - BE-77.243.191.178-0188
+      - CA-45.62.247.153-0191
+      - PT-185.90.57.152-0199
+      - RU-195.133.48.9-0213
+      - CZ-194.87.238.109-0258
+      - US-38.68.134.202-0271
+      - FR-145.239.1.137-0278
+      - CN-183.232.170.126-0437
+      - US-167.88.61.96-0954
+      - TW-188.214.106.98-0960
+      - IL-212.199.61.55-0964
+      - MY-223.25.246.4-0966
+      - US-96.47.224.2-0970
+      - HK-62.216.92.179-0972
+      - HK-62.216.92.180-0973
+      - CA-45.62.250.251-0985
+      - US-72.167.45.6-0986
+      - US-72.167.45.6-0987
+      - US-72.167.45.6-0988
+      - US-169.197.143.157-0989
+      - JP-84.17.34.8-0993
+      - NO-84.247.50.10-0994
+      - US-37.218.245.122-0997
+      - FR-95.142.175.14-0999
+      - AU-116.206.230.130-1004
+      - GB-212.38.189.174-1006
+      - GB-212.38.189.174-1007
+      - CA-198.57.27.241-1008
+      - CA-198.57.27.241-1009
+      - CA-198.57.27.191-1010
+      - CA-198.57.27.184-1012
+      - CA-198.57.27.172-1013
+      - CA-198.57.27.152-1014
+      - CA-134.195.196.81-1015
+      - CA-134.195.196.71-1016
+      - CA-134.195.196.71-1017
+      - CA-134.195.196.33-1018
+      - CA-134.195.196.33-1019
+      - CA-134.195.196.199-1020
+      - CA-134.195.196.199-1021
+      - CA-134.195.196.193-1022
+      - CN-112.46.22.44-1028
+      - DE-217.79.181.49-1029
+      - DE-193.108.118.2-1030
+      - FR-145.239.1.100-1031
+      - FR-145.239.1.100-1032
+      - DE-139.162.130.101-1034
+      - DE-139.162.130.101-1035
+      - DE-139.162.130.101-1036
+      - FR-92.243.24.68-1039
+      - FR-149.202.82.172-1040
+      - FR-149.202.82.172-1041
+      - FR-149.202.82.172-1042
+      - FR-149.202.82.172-1043
+      - FR-145.239.1.100-1044
+      - GB-18.168.67.106-1046
+      - GB-172.99.190.39-1048
+      - GB-172.99.190.39-1049
+      - GB-172.99.190.39-1050
+      - GB-172.99.190.205-1051
+      - GB-172.99.190.205-1052
+      - GB-172.99.190.109-1053
+      - GB-172.99.190.109-1054
+      - HK-20.205.105.84-1055
+      - CN-183.240.69.51-1061
+      - ID-45.133.181.58-1067
+      - CN-120.232.173.65-1068
+      - CN-112.64.69.187-1069
+      - CN-183.240.69.51-1070
+      - JP-45.66.134.148-1071
+      - JP-85.208.110.2-1072
+      - JP-85.208.110.2-1073
+      - JP-85.208.108.134-1074
+      - CN-112.64.69.187-1079
+      - MX-169.57.35.97-1081
+      - JP-204.124.181.238-1083
+      - NL-104.245.96.211-1084
+      - JP-206.190.234.202-1085
+      - PL-194.15.196.106-1088
+      - PL-194.15.196.106-1089
+      - PL-194.15.196.106-1090
+      - PL-194.15.196.106-1091
+      - US-199.19.226.178-1104
+      - US-38.75.136.58-1107
+      - US-38.75.136.45-1108
+      - US-38.75.136.45-1109
+      - US-38.75.136.45-1110
+      - US-38.68.135.19-1111
+      - US-38.68.135.19-1112
+      - US-38.68.134.85-1113
+      - US-38.68.134.85-1114
+      - US-38.68.134.69-1115
+      - US-38.68.134.69-1116
+      - US-38.68.134.69-1117
+      - US-38.68.134.23-1118
+      - US-38.68.134.23-1119
+      - US-38.68.134.202-1120
+      - US-38.68.134.202-1121
+      - US-38.68.134.191-1122
+      - US-38.68.134.191-1123
+      - US-38.68.134.191-1124
+      - US-38.121.43.91-1126
+      - US-38.121.43.91-1127
+      - US-38.121.43.71-1128
+      - US-38.121.43.71-1129
+      - US-38.121.43.142-1130
+      - US-38.121.43.142-1132
+      - US-38.107.226.48-1133
+      - US-38.107.226.48-1135
+      - US-216.24.177.54-1137
+      - FR-20.111.31.233-1139
+      - US-169.197.142.99-1141
+      - US-169.197.142.99-1142
+      - US-169.197.142.99-1143
+      - US-169.197.142.99-1144
+      - US-169.197.142.238-1145
+      - US-169.197.142.238-1146
+      - US-169.197.142.238-1147
+      - US-169.197.142.238-1148
+      - US-169.197.142.187-1149
+      - US-169.197.142.187-1150
+      - US-169.197.142.187-1151
+      - US-169.197.142.187-1152
+      - US-167.88.63.74-1153
+      - US-167.88.63.74-1154
+      - US-167.88.63.71-1155
+      - US-167.88.63.71-1156
+      - US-167.88.62.68-1160
+      - US-167.88.62.68-1161
+      - US-167.88.62.68-1162
+      - US-167.88.62.34-1163
+      - US-167.88.61.96-1164
+      - US-167.88.61.96-1165
+      - US-167.88.61.96-1166
+      - US-167.88.61.5-1167
+      - US-167.88.61.5-1168
+      - US-167.88.61.5-1169
+      - US-167.88.61.5-1170
+      - US-167.88.61.204-1171
+      - US-167.88.61.204-1172
+      - US-167.88.61.130-1174
+      - US-167.88.61.130-1175
+      - US-167.88.61.109-1176
+      - US-167.88.61.109-1177
+      - US-167.88.61.109-1178
+      - US-104.140.21.178-1179
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-112.33.32.136-0173
-      - JP-45.95.224.21-0395
-      - EE-185.37.253.13-0570
-      - CN-183.232.230.6-1153
-      - CN-183.232.230.5-1186
-      - JP-45.142.165.142-1201
-      - CN-58.32.11.113-1204
-      - CN-183.232.170.110-1232
-      - CN-183.232.170.110-1233
-      - CN-183.240.69.51-1234
-      - US-199.19.226.178-1313
-      - CN-112.33.32.136-0173 2
-      - 台湾01解锁流媒体
-      - 英国01解锁流媒体
-      - 美国01解锁流媒体
-      - 荷兰02解锁流媒体
-      - 荷兰03解锁流媒体
-      - 测试服务器19
-      - 德国02解锁流媒体
-      - 英国02解锁流媒体
-      - 德国03解锁流媒体
-      - 英国03解锁流媒体
-      - 德国04解锁流媒体
-      - 德国01解锁流媒体
-      - 荷兰07解锁流媒体
-      - 英国04解锁流媒体
-      - 荷兰06解锁流媒体
-      - 美国04解锁流媒体
-      - 测试服务器88
-      - 美国06解锁流媒体
-      - 测试服务器93
-      - 荷兰05解锁流媒体
-      - 3.22|专线西雅图02原生NTT
-      - 2.74| 专线西雅图01原生NTT
-      - 2.59|V1俄罗斯01 中继D 12x
-      - 2.29| 专线中国台湾03原生HINET
-      - 1.48|TG@moneyflychat 安徽省移动 21
-      - "[直连] 美国1 解锁流媒体 2"
-      - 2.74| 专线西雅图01原生NTT 4
-      - 5.20| 专线香港08原生HGCBBS 3
-      - 香港001
-      - 30香港TG@moneyflychat
-      - 45香港TG@moneyflychat
-      - 46香港TG@moneyflychat
-      - 58美国TG@moneyflychat
-      - 73美国TG@moneyflychat
-      - TG@moneyflychat 67
-      - TG@moneyflychat
-      - TG@moneyflychat  2
-      - TG@moneyflychat  4
-      - TG@moneyflychat  5
-      - TG@moneyflychat  6
+      - FR-145.239.1.100-0001
+      - US-169.197.141.91-0002
+      - FR-62.210.209.50-0003
+      - US-38.75.136.93-0005
+      - US-142.202.48.34-0006
+      - US-38.68.134.191-0008
+      - US-38.121.43.91-0010
+      - US-38.68.135.19-0011
+      - AU-172.105.180.227-0013
+      - CA-198.57.27.184-0014
+      - US-167.88.61.130-0015
+      - US-38.107.226.48-0016
+      - NO-46.29.218.170-0018
+      - CA-198.57.27.172-0022
+      - CA-134.195.196.199-0023
+      - CA-134.195.196.71-0024
+      - GB-172.99.190.109-0026
+      - GB-212.38.189.174-0028
+      - NG-102.129.144.142-0032
+      - US-169.197.143.157-0034
+      - US-38.68.134.85-0035
+      - US-38.68.134.23-0036
+      - US-38.68.134.69-0037
+      - US-167.88.63.71-0038
+      - DK-37.120.194.82-0039
+      - US-38.68.134.202-0040
+      - US-38.75.136.45-0042
+      - US-38.121.43.71-0045
+      - CA-134.195.196.33-0046
+      - CA-134.195.196.110-0047
+      - US-142.202.48.108-0048
+      - US-167.88.62.68-0049
+      - CA-198.57.27.152-0050
+      - GB-172.99.190.205-0051
+      - CA-198.57.27.241-0052
+      - US-142.202.48.52-0053
+      - CA-198.57.27.191-0055
+      - CA-134.195.196.81-0056
+      - GB-172.99.190.39-0059
+      - US-142.202.48.105-0062
+      - NO-46.29.218.170-0064
+      - ES-45.152.183.242-0065
+      - CN-120.233.7.33-0066
+      - US-167.88.61.109-0067
+      - US-38.75.136.58-0068
+      - US-167.88.62.34-0069
+      - US-167.88.61.204-0070
+      - US-38.143.66.71-0071
+      - CA-134.195.196.199-0073
+      - US-169.197.143.157-0075
+      - US-38.143.66.55-0076
+      - US-38.75.136.93-0077
+      - US-142.202.48.34-0078
+      - US-142.202.48.105-0079
+      - US-142.202.48.52-0081
+      - US-38.91.101.11-0082
+      - JP-85.208.110.2-0083
+      - JP-85.208.108.134-0086
+      - CA-198.57.27.172-0087
+      - US-38.68.134.85-0089
+      - CA-198.57.27.184-0090
+      - US-38.91.100.200-0091
+      - CA-134.195.196.193-0095
+      - US-169.197.141.244-0096
+      - HU-185.128.26.130-0097
+      - JP-85.208.108.106-0098
+      - RELAY-104.16.169.85-0099
+      - AU-172.105.180.227-0100
+      - AU-172.105.171.80-0102
+      - US-169.197.141.92-0103
+      - US-142.202.48.108-0104
+      - IN-172.105.35.151-0105
+      - US-167.88.63.74-0107
+      - IN-172.105.59.32-0108
+      - AU-172.105.177.120-0109
+      - RELAY-104.21.33.178-0110
+      - IN-172.105.59.32-0111
+      - US-169.197.141.240-0112
+      - IN-192.46.208.153-0113
+      - IT-185.213.21.6-0114
+      - US-169.197.142.39-0116
+      - US-167.88.61.60-0117
+      - US-66.55.92.101-0119
+      - FR-145.239.1.137-0124
+      - CN-112.64.69.187-0133
+      - CN-112.64.69.187-0137
+      - US-138.197.236.77-0144
+      - CZ-195.133.53.209-0146
+      - CA-142.47.89.64-0162
+      - FR-141.95.0.26-0172
+      - BE-77.243.191.178-0188
+      - CA-45.62.247.153-0191
+      - PT-185.90.57.152-0199
+      - RU-195.133.48.9-0213
+      - CZ-194.87.238.109-0258
+      - US-38.68.134.202-0271
+      - FR-145.239.1.137-0278
+      - CN-183.232.170.126-0437
+      - US-167.88.61.96-0954
+      - TW-188.214.106.98-0960
+      - IL-212.199.61.55-0964
+      - MY-223.25.246.4-0966
+      - US-96.47.224.2-0970
+      - HK-62.216.92.179-0972
+      - HK-62.216.92.180-0973
+      - CA-45.62.250.251-0985
+      - US-72.167.45.6-0986
+      - US-72.167.45.6-0987
+      - US-72.167.45.6-0988
+      - US-169.197.143.157-0989
+      - JP-84.17.34.8-0993
+      - NO-84.247.50.10-0994
+      - US-37.218.245.122-0997
+      - FR-95.142.175.14-0999
+      - AU-116.206.230.130-1004
+      - GB-212.38.189.174-1006
+      - GB-212.38.189.174-1007
+      - CA-198.57.27.241-1008
+      - CA-198.57.27.241-1009
+      - CA-198.57.27.191-1010
+      - CA-198.57.27.184-1012
+      - CA-198.57.27.172-1013
+      - CA-198.57.27.152-1014
+      - CA-134.195.196.81-1015
+      - CA-134.195.196.71-1016
+      - CA-134.195.196.71-1017
+      - CA-134.195.196.33-1018
+      - CA-134.195.196.33-1019
+      - CA-134.195.196.199-1020
+      - CA-134.195.196.199-1021
+      - CA-134.195.196.193-1022
+      - CN-112.46.22.44-1028
+      - DE-217.79.181.49-1029
+      - DE-193.108.118.2-1030
+      - FR-145.239.1.100-1031
+      - FR-145.239.1.100-1032
+      - DE-139.162.130.101-1034
+      - DE-139.162.130.101-1035
+      - DE-139.162.130.101-1036
+      - FR-92.243.24.68-1039
+      - FR-149.202.82.172-1040
+      - FR-149.202.82.172-1041
+      - FR-149.202.82.172-1042
+      - FR-149.202.82.172-1043
+      - FR-145.239.1.100-1044
+      - GB-18.168.67.106-1046
+      - GB-172.99.190.39-1048
+      - GB-172.99.190.39-1049
+      - GB-172.99.190.39-1050
+      - GB-172.99.190.205-1051
+      - GB-172.99.190.205-1052
+      - GB-172.99.190.109-1053
+      - GB-172.99.190.109-1054
+      - HK-20.205.105.84-1055
+      - CN-183.240.69.51-1061
+      - ID-45.133.181.58-1067
+      - CN-120.232.173.65-1068
+      - CN-112.64.69.187-1069
+      - CN-183.240.69.51-1070
+      - JP-45.66.134.148-1071
+      - JP-85.208.110.2-1072
+      - JP-85.208.110.2-1073
+      - JP-85.208.108.134-1074
+      - CN-112.64.69.187-1079
+      - MX-169.57.35.97-1081
+      - JP-204.124.181.238-1083
+      - NL-104.245.96.211-1084
+      - JP-206.190.234.202-1085
+      - PL-194.15.196.106-1088
+      - PL-194.15.196.106-1089
+      - PL-194.15.196.106-1090
+      - PL-194.15.196.106-1091
+      - US-199.19.226.178-1104
+      - US-38.75.136.58-1107
+      - US-38.75.136.45-1108
+      - US-38.75.136.45-1109
+      - US-38.75.136.45-1110
+      - US-38.68.135.19-1111
+      - US-38.68.135.19-1112
+      - US-38.68.134.85-1113
+      - US-38.68.134.85-1114
+      - US-38.68.134.69-1115
+      - US-38.68.134.69-1116
+      - US-38.68.134.69-1117
+      - US-38.68.134.23-1118
+      - US-38.68.134.23-1119
+      - US-38.68.134.202-1120
+      - US-38.68.134.202-1121
+      - US-38.68.134.191-1122
+      - US-38.68.134.191-1123
+      - US-38.68.134.191-1124
+      - US-38.121.43.91-1126
+      - US-38.121.43.91-1127
+      - US-38.121.43.71-1128
+      - US-38.121.43.71-1129
+      - US-38.121.43.142-1130
+      - US-38.121.43.142-1132
+      - US-38.107.226.48-1133
+      - US-38.107.226.48-1135
+      - US-216.24.177.54-1137
+      - FR-20.111.31.233-1139
+      - US-169.197.142.99-1141
+      - US-169.197.142.99-1142
+      - US-169.197.142.99-1143
+      - US-169.197.142.99-1144
+      - US-169.197.142.238-1145
+      - US-169.197.142.238-1146
+      - US-169.197.142.238-1147
+      - US-169.197.142.238-1148
+      - US-169.197.142.187-1149
+      - US-169.197.142.187-1150
+      - US-169.197.142.187-1151
+      - US-169.197.142.187-1152
+      - US-167.88.63.74-1153
+      - US-167.88.63.74-1154
+      - US-167.88.63.71-1155
+      - US-167.88.63.71-1156
+      - US-167.88.62.68-1160
+      - US-167.88.62.68-1161
+      - US-167.88.62.68-1162
+      - US-167.88.62.34-1163
+      - US-167.88.61.96-1164
+      - US-167.88.61.96-1165
+      - US-167.88.61.96-1166
+      - US-167.88.61.5-1167
+      - US-167.88.61.5-1168
+      - US-167.88.61.5-1169
+      - US-167.88.61.5-1170
+      - US-167.88.61.204-1171
+      - US-167.88.61.204-1172
+      - US-167.88.61.130-1174
+      - US-167.88.61.130-1175
+      - US-167.88.61.109-1176
+      - US-167.88.61.109-1177
+      - US-167.88.61.109-1178
+      - US-104.140.21.178-1179
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -248,241 +984,971 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-112.33.32.136-0173
-      - JP-45.95.224.21-0395
-      - EE-185.37.253.13-0570
-      - CN-183.232.230.6-1153
-      - CN-183.232.230.5-1186
-      - JP-45.142.165.142-1201
-      - CN-58.32.11.113-1204
-      - CN-183.232.170.110-1232
-      - CN-183.232.170.110-1233
-      - CN-183.240.69.51-1234
-      - US-199.19.226.178-1313
-      - CN-112.33.32.136-0173 2
-      - 台湾01解锁流媒体
-      - 英国01解锁流媒体
-      - 美国01解锁流媒体
-      - 荷兰02解锁流媒体
-      - 荷兰03解锁流媒体
-      - 测试服务器19
-      - 德国02解锁流媒体
-      - 英国02解锁流媒体
-      - 德国03解锁流媒体
-      - 英国03解锁流媒体
-      - 德国04解锁流媒体
-      - 德国01解锁流媒体
-      - 荷兰07解锁流媒体
-      - 英国04解锁流媒体
-      - 荷兰06解锁流媒体
-      - 美国04解锁流媒体
-      - 测试服务器88
-      - 美国06解锁流媒体
-      - 测试服务器93
-      - 荷兰05解锁流媒体
-      - 3.22|专线西雅图02原生NTT
-      - 2.74| 专线西雅图01原生NTT
-      - 2.59|V1俄罗斯01 中继D 12x
-      - 2.29| 专线中国台湾03原生HINET
-      - 1.48|TG@moneyflychat 安徽省移动 21
-      - "[直连] 美国1 解锁流媒体 2"
-      - 2.74| 专线西雅图01原生NTT 4
-      - 5.20| 专线香港08原生HGCBBS 3
-      - 香港001
-      - 30香港TG@moneyflychat
-      - 45香港TG@moneyflychat
-      - 46香港TG@moneyflychat
-      - 58美国TG@moneyflychat
-      - 73美国TG@moneyflychat
-      - TG@moneyflychat 67
-      - TG@moneyflychat
-      - TG@moneyflychat  2
-      - TG@moneyflychat  4
-      - TG@moneyflychat  5
-      - TG@moneyflychat  6
+      - FR-145.239.1.100-0001
+      - US-169.197.141.91-0002
+      - FR-62.210.209.50-0003
+      - US-38.75.136.93-0005
+      - US-142.202.48.34-0006
+      - US-38.68.134.191-0008
+      - US-38.121.43.91-0010
+      - US-38.68.135.19-0011
+      - AU-172.105.180.227-0013
+      - CA-198.57.27.184-0014
+      - US-167.88.61.130-0015
+      - US-38.107.226.48-0016
+      - NO-46.29.218.170-0018
+      - CA-198.57.27.172-0022
+      - CA-134.195.196.199-0023
+      - CA-134.195.196.71-0024
+      - GB-172.99.190.109-0026
+      - GB-212.38.189.174-0028
+      - NG-102.129.144.142-0032
+      - US-169.197.143.157-0034
+      - US-38.68.134.85-0035
+      - US-38.68.134.23-0036
+      - US-38.68.134.69-0037
+      - US-167.88.63.71-0038
+      - DK-37.120.194.82-0039
+      - US-38.68.134.202-0040
+      - US-38.75.136.45-0042
+      - US-38.121.43.71-0045
+      - CA-134.195.196.33-0046
+      - CA-134.195.196.110-0047
+      - US-142.202.48.108-0048
+      - US-167.88.62.68-0049
+      - CA-198.57.27.152-0050
+      - GB-172.99.190.205-0051
+      - CA-198.57.27.241-0052
+      - US-142.202.48.52-0053
+      - CA-198.57.27.191-0055
+      - CA-134.195.196.81-0056
+      - GB-172.99.190.39-0059
+      - US-142.202.48.105-0062
+      - NO-46.29.218.170-0064
+      - ES-45.152.183.242-0065
+      - CN-120.233.7.33-0066
+      - US-167.88.61.109-0067
+      - US-38.75.136.58-0068
+      - US-167.88.62.34-0069
+      - US-167.88.61.204-0070
+      - US-38.143.66.71-0071
+      - CA-134.195.196.199-0073
+      - US-169.197.143.157-0075
+      - US-38.143.66.55-0076
+      - US-38.75.136.93-0077
+      - US-142.202.48.34-0078
+      - US-142.202.48.105-0079
+      - US-142.202.48.52-0081
+      - US-38.91.101.11-0082
+      - JP-85.208.110.2-0083
+      - JP-85.208.108.134-0086
+      - CA-198.57.27.172-0087
+      - US-38.68.134.85-0089
+      - CA-198.57.27.184-0090
+      - US-38.91.100.200-0091
+      - CA-134.195.196.193-0095
+      - US-169.197.141.244-0096
+      - HU-185.128.26.130-0097
+      - JP-85.208.108.106-0098
+      - RELAY-104.16.169.85-0099
+      - AU-172.105.180.227-0100
+      - AU-172.105.171.80-0102
+      - US-169.197.141.92-0103
+      - US-142.202.48.108-0104
+      - IN-172.105.35.151-0105
+      - US-167.88.63.74-0107
+      - IN-172.105.59.32-0108
+      - AU-172.105.177.120-0109
+      - RELAY-104.21.33.178-0110
+      - IN-172.105.59.32-0111
+      - US-169.197.141.240-0112
+      - IN-192.46.208.153-0113
+      - IT-185.213.21.6-0114
+      - US-169.197.142.39-0116
+      - US-167.88.61.60-0117
+      - US-66.55.92.101-0119
+      - FR-145.239.1.137-0124
+      - CN-112.64.69.187-0133
+      - CN-112.64.69.187-0137
+      - US-138.197.236.77-0144
+      - CZ-195.133.53.209-0146
+      - CA-142.47.89.64-0162
+      - FR-141.95.0.26-0172
+      - BE-77.243.191.178-0188
+      - CA-45.62.247.153-0191
+      - PT-185.90.57.152-0199
+      - RU-195.133.48.9-0213
+      - CZ-194.87.238.109-0258
+      - US-38.68.134.202-0271
+      - FR-145.239.1.137-0278
+      - CN-183.232.170.126-0437
+      - US-167.88.61.96-0954
+      - TW-188.214.106.98-0960
+      - IL-212.199.61.55-0964
+      - MY-223.25.246.4-0966
+      - US-96.47.224.2-0970
+      - HK-62.216.92.179-0972
+      - HK-62.216.92.180-0973
+      - CA-45.62.250.251-0985
+      - US-72.167.45.6-0986
+      - US-72.167.45.6-0987
+      - US-72.167.45.6-0988
+      - US-169.197.143.157-0989
+      - JP-84.17.34.8-0993
+      - NO-84.247.50.10-0994
+      - US-37.218.245.122-0997
+      - FR-95.142.175.14-0999
+      - AU-116.206.230.130-1004
+      - GB-212.38.189.174-1006
+      - GB-212.38.189.174-1007
+      - CA-198.57.27.241-1008
+      - CA-198.57.27.241-1009
+      - CA-198.57.27.191-1010
+      - CA-198.57.27.184-1012
+      - CA-198.57.27.172-1013
+      - CA-198.57.27.152-1014
+      - CA-134.195.196.81-1015
+      - CA-134.195.196.71-1016
+      - CA-134.195.196.71-1017
+      - CA-134.195.196.33-1018
+      - CA-134.195.196.33-1019
+      - CA-134.195.196.199-1020
+      - CA-134.195.196.199-1021
+      - CA-134.195.196.193-1022
+      - CN-112.46.22.44-1028
+      - DE-217.79.181.49-1029
+      - DE-193.108.118.2-1030
+      - FR-145.239.1.100-1031
+      - FR-145.239.1.100-1032
+      - DE-139.162.130.101-1034
+      - DE-139.162.130.101-1035
+      - DE-139.162.130.101-1036
+      - FR-92.243.24.68-1039
+      - FR-149.202.82.172-1040
+      - FR-149.202.82.172-1041
+      - FR-149.202.82.172-1042
+      - FR-149.202.82.172-1043
+      - FR-145.239.1.100-1044
+      - GB-18.168.67.106-1046
+      - GB-172.99.190.39-1048
+      - GB-172.99.190.39-1049
+      - GB-172.99.190.39-1050
+      - GB-172.99.190.205-1051
+      - GB-172.99.190.205-1052
+      - GB-172.99.190.109-1053
+      - GB-172.99.190.109-1054
+      - HK-20.205.105.84-1055
+      - CN-183.240.69.51-1061
+      - ID-45.133.181.58-1067
+      - CN-120.232.173.65-1068
+      - CN-112.64.69.187-1069
+      - CN-183.240.69.51-1070
+      - JP-45.66.134.148-1071
+      - JP-85.208.110.2-1072
+      - JP-85.208.110.2-1073
+      - JP-85.208.108.134-1074
+      - CN-112.64.69.187-1079
+      - MX-169.57.35.97-1081
+      - JP-204.124.181.238-1083
+      - NL-104.245.96.211-1084
+      - JP-206.190.234.202-1085
+      - PL-194.15.196.106-1088
+      - PL-194.15.196.106-1089
+      - PL-194.15.196.106-1090
+      - PL-194.15.196.106-1091
+      - US-199.19.226.178-1104
+      - US-38.75.136.58-1107
+      - US-38.75.136.45-1108
+      - US-38.75.136.45-1109
+      - US-38.75.136.45-1110
+      - US-38.68.135.19-1111
+      - US-38.68.135.19-1112
+      - US-38.68.134.85-1113
+      - US-38.68.134.85-1114
+      - US-38.68.134.69-1115
+      - US-38.68.134.69-1116
+      - US-38.68.134.69-1117
+      - US-38.68.134.23-1118
+      - US-38.68.134.23-1119
+      - US-38.68.134.202-1120
+      - US-38.68.134.202-1121
+      - US-38.68.134.191-1122
+      - US-38.68.134.191-1123
+      - US-38.68.134.191-1124
+      - US-38.121.43.91-1126
+      - US-38.121.43.91-1127
+      - US-38.121.43.71-1128
+      - US-38.121.43.71-1129
+      - US-38.121.43.142-1130
+      - US-38.121.43.142-1132
+      - US-38.107.226.48-1133
+      - US-38.107.226.48-1135
+      - US-216.24.177.54-1137
+      - FR-20.111.31.233-1139
+      - US-169.197.142.99-1141
+      - US-169.197.142.99-1142
+      - US-169.197.142.99-1143
+      - US-169.197.142.99-1144
+      - US-169.197.142.238-1145
+      - US-169.197.142.238-1146
+      - US-169.197.142.238-1147
+      - US-169.197.142.238-1148
+      - US-169.197.142.187-1149
+      - US-169.197.142.187-1150
+      - US-169.197.142.187-1151
+      - US-169.197.142.187-1152
+      - US-167.88.63.74-1153
+      - US-167.88.63.74-1154
+      - US-167.88.63.71-1155
+      - US-167.88.63.71-1156
+      - US-167.88.62.68-1160
+      - US-167.88.62.68-1161
+      - US-167.88.62.68-1162
+      - US-167.88.62.34-1163
+      - US-167.88.61.96-1164
+      - US-167.88.61.96-1165
+      - US-167.88.61.96-1166
+      - US-167.88.61.5-1167
+      - US-167.88.61.5-1168
+      - US-167.88.61.5-1169
+      - US-167.88.61.5-1170
+      - US-167.88.61.204-1171
+      - US-167.88.61.204-1172
+      - US-167.88.61.130-1174
+      - US-167.88.61.130-1175
+      - US-167.88.61.109-1176
+      - US-167.88.61.109-1177
+      - US-167.88.61.109-1178
+      - US-104.140.21.178-1179
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 2.29| 专线中国台湾03原生HINET
-      - 5.20| 专线香港08原生HGCBBS 3
-      - 香港001
-      - 30香港TG@moneyflychat
-      - 45香港TG@moneyflychat
-      - 46香港TG@moneyflychat
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN-112.33.32.136-0173
-      - JP-45.95.224.21-0395
-      - EE-185.37.253.13-0570
-      - CN-183.232.230.6-1153
-      - CN-183.232.230.5-1186
-      - JP-45.142.165.142-1201
-      - CN-58.32.11.113-1204
-      - CN-183.232.170.110-1232
-      - CN-183.232.170.110-1233
-      - CN-183.240.69.51-1234
-      - US-199.19.226.178-1313
-      - CN-112.33.32.136-0173 2
-      - 台湾01解锁流媒体
-      - 英国01解锁流媒体
-      - 美国01解锁流媒体
-      - 荷兰02解锁流媒体
-      - 荷兰03解锁流媒体
-      - 测试服务器19
-      - 德国02解锁流媒体
-      - 英国02解锁流媒体
-      - 德国03解锁流媒体
-      - 英国03解锁流媒体
-      - 德国04解锁流媒体
-      - 德国01解锁流媒体
-      - 荷兰07解锁流媒体
-      - 英国04解锁流媒体
-      - 荷兰06解锁流媒体
-      - 美国04解锁流媒体
-      - 测试服务器88
-      - 美国06解锁流媒体
-      - 测试服务器93
-      - 荷兰05解锁流媒体
-      - 3.22|专线西雅图02原生NTT
-      - 2.74| 专线西雅图01原生NTT
-      - 2.59|V1俄罗斯01 中继D 12x
-      - 2.29| 专线中国台湾03原生HINET
-      - 1.48|TG@moneyflychat 安徽省移动 21
-      - "[直连] 美国1 解锁流媒体 2"
-      - 2.74| 专线西雅图01原生NTT 4
-      - 5.20| 专线香港08原生HGCBBS 3
-      - 香港001
-      - 30香港TG@moneyflychat
-      - 45香港TG@moneyflychat
-      - 46香港TG@moneyflychat
-      - 58美国TG@moneyflychat
-      - 73美国TG@moneyflychat
-      - TG@moneyflychat 67
-      - TG@moneyflychat
-      - TG@moneyflychat  2
-      - TG@moneyflychat  4
-      - TG@moneyflychat  5
-      - TG@moneyflychat  6
+      - FR-145.239.1.100-0001
+      - US-169.197.141.91-0002
+      - FR-62.210.209.50-0003
+      - US-38.75.136.93-0005
+      - US-142.202.48.34-0006
+      - US-38.68.134.191-0008
+      - US-38.121.43.91-0010
+      - US-38.68.135.19-0011
+      - AU-172.105.180.227-0013
+      - CA-198.57.27.184-0014
+      - US-167.88.61.130-0015
+      - US-38.107.226.48-0016
+      - NO-46.29.218.170-0018
+      - CA-198.57.27.172-0022
+      - CA-134.195.196.199-0023
+      - CA-134.195.196.71-0024
+      - GB-172.99.190.109-0026
+      - GB-212.38.189.174-0028
+      - NG-102.129.144.142-0032
+      - US-169.197.143.157-0034
+      - US-38.68.134.85-0035
+      - US-38.68.134.23-0036
+      - US-38.68.134.69-0037
+      - US-167.88.63.71-0038
+      - DK-37.120.194.82-0039
+      - US-38.68.134.202-0040
+      - US-38.75.136.45-0042
+      - US-38.121.43.71-0045
+      - CA-134.195.196.33-0046
+      - CA-134.195.196.110-0047
+      - US-142.202.48.108-0048
+      - US-167.88.62.68-0049
+      - CA-198.57.27.152-0050
+      - GB-172.99.190.205-0051
+      - CA-198.57.27.241-0052
+      - US-142.202.48.52-0053
+      - CA-198.57.27.191-0055
+      - CA-134.195.196.81-0056
+      - GB-172.99.190.39-0059
+      - US-142.202.48.105-0062
+      - NO-46.29.218.170-0064
+      - ES-45.152.183.242-0065
+      - CN-120.233.7.33-0066
+      - US-167.88.61.109-0067
+      - US-38.75.136.58-0068
+      - US-167.88.62.34-0069
+      - US-167.88.61.204-0070
+      - US-38.143.66.71-0071
+      - CA-134.195.196.199-0073
+      - US-169.197.143.157-0075
+      - US-38.143.66.55-0076
+      - US-38.75.136.93-0077
+      - US-142.202.48.34-0078
+      - US-142.202.48.105-0079
+      - US-142.202.48.52-0081
+      - US-38.91.101.11-0082
+      - JP-85.208.110.2-0083
+      - JP-85.208.108.134-0086
+      - CA-198.57.27.172-0087
+      - US-38.68.134.85-0089
+      - CA-198.57.27.184-0090
+      - US-38.91.100.200-0091
+      - CA-134.195.196.193-0095
+      - US-169.197.141.244-0096
+      - HU-185.128.26.130-0097
+      - JP-85.208.108.106-0098
+      - RELAY-104.16.169.85-0099
+      - AU-172.105.180.227-0100
+      - AU-172.105.171.80-0102
+      - US-169.197.141.92-0103
+      - US-142.202.48.108-0104
+      - IN-172.105.35.151-0105
+      - US-167.88.63.74-0107
+      - IN-172.105.59.32-0108
+      - AU-172.105.177.120-0109
+      - RELAY-104.21.33.178-0110
+      - IN-172.105.59.32-0111
+      - US-169.197.141.240-0112
+      - IN-192.46.208.153-0113
+      - IT-185.213.21.6-0114
+      - US-169.197.142.39-0116
+      - US-167.88.61.60-0117
+      - US-66.55.92.101-0119
+      - FR-145.239.1.137-0124
+      - CN-112.64.69.187-0133
+      - CN-112.64.69.187-0137
+      - US-138.197.236.77-0144
+      - CZ-195.133.53.209-0146
+      - CA-142.47.89.64-0162
+      - FR-141.95.0.26-0172
+      - BE-77.243.191.178-0188
+      - CA-45.62.247.153-0191
+      - PT-185.90.57.152-0199
+      - RU-195.133.48.9-0213
+      - CZ-194.87.238.109-0258
+      - US-38.68.134.202-0271
+      - FR-145.239.1.137-0278
+      - CN-183.232.170.126-0437
+      - US-167.88.61.96-0954
+      - TW-188.214.106.98-0960
+      - IL-212.199.61.55-0964
+      - MY-223.25.246.4-0966
+      - US-96.47.224.2-0970
+      - HK-62.216.92.179-0972
+      - HK-62.216.92.180-0973
+      - CA-45.62.250.251-0985
+      - US-72.167.45.6-0986
+      - US-72.167.45.6-0987
+      - US-72.167.45.6-0988
+      - US-169.197.143.157-0989
+      - JP-84.17.34.8-0993
+      - NO-84.247.50.10-0994
+      - US-37.218.245.122-0997
+      - FR-95.142.175.14-0999
+      - AU-116.206.230.130-1004
+      - GB-212.38.189.174-1006
+      - GB-212.38.189.174-1007
+      - CA-198.57.27.241-1008
+      - CA-198.57.27.241-1009
+      - CA-198.57.27.191-1010
+      - CA-198.57.27.184-1012
+      - CA-198.57.27.172-1013
+      - CA-198.57.27.152-1014
+      - CA-134.195.196.81-1015
+      - CA-134.195.196.71-1016
+      - CA-134.195.196.71-1017
+      - CA-134.195.196.33-1018
+      - CA-134.195.196.33-1019
+      - CA-134.195.196.199-1020
+      - CA-134.195.196.199-1021
+      - CA-134.195.196.193-1022
+      - CN-112.46.22.44-1028
+      - DE-217.79.181.49-1029
+      - DE-193.108.118.2-1030
+      - FR-145.239.1.100-1031
+      - FR-145.239.1.100-1032
+      - DE-139.162.130.101-1034
+      - DE-139.162.130.101-1035
+      - DE-139.162.130.101-1036
+      - FR-92.243.24.68-1039
+      - FR-149.202.82.172-1040
+      - FR-149.202.82.172-1041
+      - FR-149.202.82.172-1042
+      - FR-149.202.82.172-1043
+      - FR-145.239.1.100-1044
+      - GB-18.168.67.106-1046
+      - GB-172.99.190.39-1048
+      - GB-172.99.190.39-1049
+      - GB-172.99.190.39-1050
+      - GB-172.99.190.205-1051
+      - GB-172.99.190.205-1052
+      - GB-172.99.190.109-1053
+      - GB-172.99.190.109-1054
+      - HK-20.205.105.84-1055
+      - CN-183.240.69.51-1061
+      - ID-45.133.181.58-1067
+      - CN-120.232.173.65-1068
+      - CN-112.64.69.187-1069
+      - CN-183.240.69.51-1070
+      - JP-45.66.134.148-1071
+      - JP-85.208.110.2-1072
+      - JP-85.208.110.2-1073
+      - JP-85.208.108.134-1074
+      - CN-112.64.69.187-1079
+      - MX-169.57.35.97-1081
+      - JP-204.124.181.238-1083
+      - NL-104.245.96.211-1084
+      - JP-206.190.234.202-1085
+      - PL-194.15.196.106-1088
+      - PL-194.15.196.106-1089
+      - PL-194.15.196.106-1090
+      - PL-194.15.196.106-1091
+      - US-199.19.226.178-1104
+      - US-38.75.136.58-1107
+      - US-38.75.136.45-1108
+      - US-38.75.136.45-1109
+      - US-38.75.136.45-1110
+      - US-38.68.135.19-1111
+      - US-38.68.135.19-1112
+      - US-38.68.134.85-1113
+      - US-38.68.134.85-1114
+      - US-38.68.134.69-1115
+      - US-38.68.134.69-1116
+      - US-38.68.134.69-1117
+      - US-38.68.134.23-1118
+      - US-38.68.134.23-1119
+      - US-38.68.134.202-1120
+      - US-38.68.134.202-1121
+      - US-38.68.134.191-1122
+      - US-38.68.134.191-1123
+      - US-38.68.134.191-1124
+      - US-38.121.43.91-1126
+      - US-38.121.43.91-1127
+      - US-38.121.43.71-1128
+      - US-38.121.43.71-1129
+      - US-38.121.43.142-1130
+      - US-38.121.43.142-1132
+      - US-38.107.226.48-1133
+      - US-38.107.226.48-1135
+      - US-216.24.177.54-1137
+      - FR-20.111.31.233-1139
+      - US-169.197.142.99-1141
+      - US-169.197.142.99-1142
+      - US-169.197.142.99-1143
+      - US-169.197.142.99-1144
+      - US-169.197.142.238-1145
+      - US-169.197.142.238-1146
+      - US-169.197.142.238-1147
+      - US-169.197.142.238-1148
+      - US-169.197.142.187-1149
+      - US-169.197.142.187-1150
+      - US-169.197.142.187-1151
+      - US-169.197.142.187-1152
+      - US-167.88.63.74-1153
+      - US-167.88.63.74-1154
+      - US-167.88.63.71-1155
+      - US-167.88.63.71-1156
+      - US-167.88.62.68-1160
+      - US-167.88.62.68-1161
+      - US-167.88.62.68-1162
+      - US-167.88.62.34-1163
+      - US-167.88.61.96-1164
+      - US-167.88.61.96-1165
+      - US-167.88.61.96-1166
+      - US-167.88.61.5-1167
+      - US-167.88.61.5-1168
+      - US-167.88.61.5-1169
+      - US-167.88.61.5-1170
+      - US-167.88.61.204-1171
+      - US-167.88.61.204-1172
+      - US-167.88.61.130-1174
+      - US-167.88.61.130-1175
+      - US-167.88.61.109-1176
+      - US-167.88.61.109-1177
+      - US-167.88.61.109-1178
+      - US-104.140.21.178-1179
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN-112.33.32.136-0173
-      - JP-45.95.224.21-0395
-      - EE-185.37.253.13-0570
-      - CN-183.232.230.6-1153
-      - CN-183.232.230.5-1186
-      - JP-45.142.165.142-1201
-      - CN-58.32.11.113-1204
-      - CN-183.232.170.110-1232
-      - CN-183.232.170.110-1233
-      - CN-183.240.69.51-1234
-      - US-199.19.226.178-1313
-      - CN-112.33.32.136-0173 2
-      - 台湾01解锁流媒体
-      - 英国01解锁流媒体
-      - 美国01解锁流媒体
-      - 荷兰02解锁流媒体
-      - 荷兰03解锁流媒体
-      - 测试服务器19
-      - 德国02解锁流媒体
-      - 英国02解锁流媒体
-      - 德国03解锁流媒体
-      - 英国03解锁流媒体
-      - 德国04解锁流媒体
-      - 德国01解锁流媒体
-      - 荷兰07解锁流媒体
-      - 英国04解锁流媒体
-      - 荷兰06解锁流媒体
-      - 美国04解锁流媒体
-      - 测试服务器88
-      - 美国06解锁流媒体
-      - 测试服务器93
-      - 荷兰05解锁流媒体
-      - 3.22|专线西雅图02原生NTT
-      - 2.74| 专线西雅图01原生NTT
-      - 2.59|V1俄罗斯01 中继D 12x
-      - 2.29| 专线中国台湾03原生HINET
-      - 1.48|TG@moneyflychat 安徽省移动 21
-      - "[直连] 美国1 解锁流媒体 2"
-      - 2.74| 专线西雅图01原生NTT 4
-      - 5.20| 专线香港08原生HGCBBS 3
-      - 香港001
-      - 30香港TG@moneyflychat
-      - 45香港TG@moneyflychat
-      - 46香港TG@moneyflychat
-      - 58美国TG@moneyflychat
-      - 73美国TG@moneyflychat
-      - TG@moneyflychat 67
-      - TG@moneyflychat
-      - TG@moneyflychat  2
-      - TG@moneyflychat  4
-      - TG@moneyflychat  5
-      - TG@moneyflychat  6
+      - FR-145.239.1.100-0001
+      - US-169.197.141.91-0002
+      - FR-62.210.209.50-0003
+      - US-38.75.136.93-0005
+      - US-142.202.48.34-0006
+      - US-38.68.134.191-0008
+      - US-38.121.43.91-0010
+      - US-38.68.135.19-0011
+      - AU-172.105.180.227-0013
+      - CA-198.57.27.184-0014
+      - US-167.88.61.130-0015
+      - US-38.107.226.48-0016
+      - NO-46.29.218.170-0018
+      - CA-198.57.27.172-0022
+      - CA-134.195.196.199-0023
+      - CA-134.195.196.71-0024
+      - GB-172.99.190.109-0026
+      - GB-212.38.189.174-0028
+      - NG-102.129.144.142-0032
+      - US-169.197.143.157-0034
+      - US-38.68.134.85-0035
+      - US-38.68.134.23-0036
+      - US-38.68.134.69-0037
+      - US-167.88.63.71-0038
+      - DK-37.120.194.82-0039
+      - US-38.68.134.202-0040
+      - US-38.75.136.45-0042
+      - US-38.121.43.71-0045
+      - CA-134.195.196.33-0046
+      - CA-134.195.196.110-0047
+      - US-142.202.48.108-0048
+      - US-167.88.62.68-0049
+      - CA-198.57.27.152-0050
+      - GB-172.99.190.205-0051
+      - CA-198.57.27.241-0052
+      - US-142.202.48.52-0053
+      - CA-198.57.27.191-0055
+      - CA-134.195.196.81-0056
+      - GB-172.99.190.39-0059
+      - US-142.202.48.105-0062
+      - NO-46.29.218.170-0064
+      - ES-45.152.183.242-0065
+      - CN-120.233.7.33-0066
+      - US-167.88.61.109-0067
+      - US-38.75.136.58-0068
+      - US-167.88.62.34-0069
+      - US-167.88.61.204-0070
+      - US-38.143.66.71-0071
+      - CA-134.195.196.199-0073
+      - US-169.197.143.157-0075
+      - US-38.143.66.55-0076
+      - US-38.75.136.93-0077
+      - US-142.202.48.34-0078
+      - US-142.202.48.105-0079
+      - US-142.202.48.52-0081
+      - US-38.91.101.11-0082
+      - JP-85.208.110.2-0083
+      - JP-85.208.108.134-0086
+      - CA-198.57.27.172-0087
+      - US-38.68.134.85-0089
+      - CA-198.57.27.184-0090
+      - US-38.91.100.200-0091
+      - CA-134.195.196.193-0095
+      - US-169.197.141.244-0096
+      - HU-185.128.26.130-0097
+      - JP-85.208.108.106-0098
+      - RELAY-104.16.169.85-0099
+      - AU-172.105.180.227-0100
+      - AU-172.105.171.80-0102
+      - US-169.197.141.92-0103
+      - US-142.202.48.108-0104
+      - IN-172.105.35.151-0105
+      - US-167.88.63.74-0107
+      - IN-172.105.59.32-0108
+      - AU-172.105.177.120-0109
+      - RELAY-104.21.33.178-0110
+      - IN-172.105.59.32-0111
+      - US-169.197.141.240-0112
+      - IN-192.46.208.153-0113
+      - IT-185.213.21.6-0114
+      - US-169.197.142.39-0116
+      - US-167.88.61.60-0117
+      - US-66.55.92.101-0119
+      - FR-145.239.1.137-0124
+      - CN-112.64.69.187-0133
+      - CN-112.64.69.187-0137
+      - US-138.197.236.77-0144
+      - CZ-195.133.53.209-0146
+      - CA-142.47.89.64-0162
+      - FR-141.95.0.26-0172
+      - BE-77.243.191.178-0188
+      - CA-45.62.247.153-0191
+      - PT-185.90.57.152-0199
+      - RU-195.133.48.9-0213
+      - CZ-194.87.238.109-0258
+      - US-38.68.134.202-0271
+      - FR-145.239.1.137-0278
+      - CN-183.232.170.126-0437
+      - US-167.88.61.96-0954
+      - TW-188.214.106.98-0960
+      - IL-212.199.61.55-0964
+      - MY-223.25.246.4-0966
+      - US-96.47.224.2-0970
+      - HK-62.216.92.179-0972
+      - HK-62.216.92.180-0973
+      - CA-45.62.250.251-0985
+      - US-72.167.45.6-0986
+      - US-72.167.45.6-0987
+      - US-72.167.45.6-0988
+      - US-169.197.143.157-0989
+      - JP-84.17.34.8-0993
+      - NO-84.247.50.10-0994
+      - US-37.218.245.122-0997
+      - FR-95.142.175.14-0999
+      - AU-116.206.230.130-1004
+      - GB-212.38.189.174-1006
+      - GB-212.38.189.174-1007
+      - CA-198.57.27.241-1008
+      - CA-198.57.27.241-1009
+      - CA-198.57.27.191-1010
+      - CA-198.57.27.184-1012
+      - CA-198.57.27.172-1013
+      - CA-198.57.27.152-1014
+      - CA-134.195.196.81-1015
+      - CA-134.195.196.71-1016
+      - CA-134.195.196.71-1017
+      - CA-134.195.196.33-1018
+      - CA-134.195.196.33-1019
+      - CA-134.195.196.199-1020
+      - CA-134.195.196.199-1021
+      - CA-134.195.196.193-1022
+      - CN-112.46.22.44-1028
+      - DE-217.79.181.49-1029
+      - DE-193.108.118.2-1030
+      - FR-145.239.1.100-1031
+      - FR-145.239.1.100-1032
+      - DE-139.162.130.101-1034
+      - DE-139.162.130.101-1035
+      - DE-139.162.130.101-1036
+      - FR-92.243.24.68-1039
+      - FR-149.202.82.172-1040
+      - FR-149.202.82.172-1041
+      - FR-149.202.82.172-1042
+      - FR-149.202.82.172-1043
+      - FR-145.239.1.100-1044
+      - GB-18.168.67.106-1046
+      - GB-172.99.190.39-1048
+      - GB-172.99.190.39-1049
+      - GB-172.99.190.39-1050
+      - GB-172.99.190.205-1051
+      - GB-172.99.190.205-1052
+      - GB-172.99.190.109-1053
+      - GB-172.99.190.109-1054
+      - HK-20.205.105.84-1055
+      - CN-183.240.69.51-1061
+      - ID-45.133.181.58-1067
+      - CN-120.232.173.65-1068
+      - CN-112.64.69.187-1069
+      - CN-183.240.69.51-1070
+      - JP-45.66.134.148-1071
+      - JP-85.208.110.2-1072
+      - JP-85.208.110.2-1073
+      - JP-85.208.108.134-1074
+      - CN-112.64.69.187-1079
+      - MX-169.57.35.97-1081
+      - JP-204.124.181.238-1083
+      - NL-104.245.96.211-1084
+      - JP-206.190.234.202-1085
+      - PL-194.15.196.106-1088
+      - PL-194.15.196.106-1089
+      - PL-194.15.196.106-1090
+      - PL-194.15.196.106-1091
+      - US-199.19.226.178-1104
+      - US-38.75.136.58-1107
+      - US-38.75.136.45-1108
+      - US-38.75.136.45-1109
+      - US-38.75.136.45-1110
+      - US-38.68.135.19-1111
+      - US-38.68.135.19-1112
+      - US-38.68.134.85-1113
+      - US-38.68.134.85-1114
+      - US-38.68.134.69-1115
+      - US-38.68.134.69-1116
+      - US-38.68.134.69-1117
+      - US-38.68.134.23-1118
+      - US-38.68.134.23-1119
+      - US-38.68.134.202-1120
+      - US-38.68.134.202-1121
+      - US-38.68.134.191-1122
+      - US-38.68.134.191-1123
+      - US-38.68.134.191-1124
+      - US-38.121.43.91-1126
+      - US-38.121.43.91-1127
+      - US-38.121.43.71-1128
+      - US-38.121.43.71-1129
+      - US-38.121.43.142-1130
+      - US-38.121.43.142-1132
+      - US-38.107.226.48-1133
+      - US-38.107.226.48-1135
+      - US-216.24.177.54-1137
+      - FR-20.111.31.233-1139
+      - US-169.197.142.99-1141
+      - US-169.197.142.99-1142
+      - US-169.197.142.99-1143
+      - US-169.197.142.99-1144
+      - US-169.197.142.238-1145
+      - US-169.197.142.238-1146
+      - US-169.197.142.238-1147
+      - US-169.197.142.238-1148
+      - US-169.197.142.187-1149
+      - US-169.197.142.187-1150
+      - US-169.197.142.187-1151
+      - US-169.197.142.187-1152
+      - US-167.88.63.74-1153
+      - US-167.88.63.74-1154
+      - US-167.88.63.71-1155
+      - US-167.88.63.71-1156
+      - US-167.88.62.68-1160
+      - US-167.88.62.68-1161
+      - US-167.88.62.68-1162
+      - US-167.88.62.34-1163
+      - US-167.88.61.96-1164
+      - US-167.88.61.96-1165
+      - US-167.88.61.96-1166
+      - US-167.88.61.5-1167
+      - US-167.88.61.5-1168
+      - US-167.88.61.5-1169
+      - US-167.88.61.5-1170
+      - US-167.88.61.204-1171
+      - US-167.88.61.204-1172
+      - US-167.88.61.130-1174
+      - US-167.88.61.130-1175
+      - US-167.88.61.109-1176
+      - US-167.88.61.109-1177
+      - US-167.88.61.109-1178
+      - US-104.140.21.178-1179
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN-112.33.32.136-0173
-      - JP-45.95.224.21-0395
-      - EE-185.37.253.13-0570
-      - CN-183.232.230.6-1153
-      - CN-183.232.230.5-1186
-      - JP-45.142.165.142-1201
-      - CN-58.32.11.113-1204
-      - CN-183.232.170.110-1232
-      - CN-183.232.170.110-1233
-      - CN-183.240.69.51-1234
-      - US-199.19.226.178-1313
-      - CN-112.33.32.136-0173 2
-      - 台湾01解锁流媒体
-      - 英国01解锁流媒体
-      - 美国01解锁流媒体
-      - 荷兰02解锁流媒体
-      - 荷兰03解锁流媒体
-      - 测试服务器19
-      - 德国02解锁流媒体
-      - 英国02解锁流媒体
-      - 德国03解锁流媒体
-      - 英国03解锁流媒体
-      - 德国04解锁流媒体
-      - 德国01解锁流媒体
-      - 荷兰07解锁流媒体
-      - 英国04解锁流媒体
-      - 荷兰06解锁流媒体
-      - 美国04解锁流媒体
-      - 测试服务器88
-      - 美国06解锁流媒体
-      - 测试服务器93
-      - 荷兰05解锁流媒体
-      - 3.22|专线西雅图02原生NTT
-      - 2.74| 专线西雅图01原生NTT
-      - 2.59|V1俄罗斯01 中继D 12x
-      - 2.29| 专线中国台湾03原生HINET
-      - 1.48|TG@moneyflychat 安徽省移动 21
-      - "[直连] 美国1 解锁流媒体 2"
-      - 2.74| 专线西雅图01原生NTT 4
-      - 5.20| 专线香港08原生HGCBBS 3
-      - 香港001
-      - 30香港TG@moneyflychat
-      - 45香港TG@moneyflychat
-      - 46香港TG@moneyflychat
-      - 58美国TG@moneyflychat
-      - 73美国TG@moneyflychat
-      - TG@moneyflychat 67
-      - TG@moneyflychat
-      - TG@moneyflychat  2
-      - TG@moneyflychat  4
-      - TG@moneyflychat  5
-      - TG@moneyflychat  6
+      - FR-145.239.1.100-0001
+      - US-169.197.141.91-0002
+      - FR-62.210.209.50-0003
+      - US-38.75.136.93-0005
+      - US-142.202.48.34-0006
+      - US-38.68.134.191-0008
+      - US-38.121.43.91-0010
+      - US-38.68.135.19-0011
+      - AU-172.105.180.227-0013
+      - CA-198.57.27.184-0014
+      - US-167.88.61.130-0015
+      - US-38.107.226.48-0016
+      - NO-46.29.218.170-0018
+      - CA-198.57.27.172-0022
+      - CA-134.195.196.199-0023
+      - CA-134.195.196.71-0024
+      - GB-172.99.190.109-0026
+      - GB-212.38.189.174-0028
+      - NG-102.129.144.142-0032
+      - US-169.197.143.157-0034
+      - US-38.68.134.85-0035
+      - US-38.68.134.23-0036
+      - US-38.68.134.69-0037
+      - US-167.88.63.71-0038
+      - DK-37.120.194.82-0039
+      - US-38.68.134.202-0040
+      - US-38.75.136.45-0042
+      - US-38.121.43.71-0045
+      - CA-134.195.196.33-0046
+      - CA-134.195.196.110-0047
+      - US-142.202.48.108-0048
+      - US-167.88.62.68-0049
+      - CA-198.57.27.152-0050
+      - GB-172.99.190.205-0051
+      - CA-198.57.27.241-0052
+      - US-142.202.48.52-0053
+      - CA-198.57.27.191-0055
+      - CA-134.195.196.81-0056
+      - GB-172.99.190.39-0059
+      - US-142.202.48.105-0062
+      - NO-46.29.218.170-0064
+      - ES-45.152.183.242-0065
+      - CN-120.233.7.33-0066
+      - US-167.88.61.109-0067
+      - US-38.75.136.58-0068
+      - US-167.88.62.34-0069
+      - US-167.88.61.204-0070
+      - US-38.143.66.71-0071
+      - CA-134.195.196.199-0073
+      - US-169.197.143.157-0075
+      - US-38.143.66.55-0076
+      - US-38.75.136.93-0077
+      - US-142.202.48.34-0078
+      - US-142.202.48.105-0079
+      - US-142.202.48.52-0081
+      - US-38.91.101.11-0082
+      - JP-85.208.110.2-0083
+      - JP-85.208.108.134-0086
+      - CA-198.57.27.172-0087
+      - US-38.68.134.85-0089
+      - CA-198.57.27.184-0090
+      - US-38.91.100.200-0091
+      - CA-134.195.196.193-0095
+      - US-169.197.141.244-0096
+      - HU-185.128.26.130-0097
+      - JP-85.208.108.106-0098
+      - RELAY-104.16.169.85-0099
+      - AU-172.105.180.227-0100
+      - AU-172.105.171.80-0102
+      - US-169.197.141.92-0103
+      - US-142.202.48.108-0104
+      - IN-172.105.35.151-0105
+      - US-167.88.63.74-0107
+      - IN-172.105.59.32-0108
+      - AU-172.105.177.120-0109
+      - RELAY-104.21.33.178-0110
+      - IN-172.105.59.32-0111
+      - US-169.197.141.240-0112
+      - IN-192.46.208.153-0113
+      - IT-185.213.21.6-0114
+      - US-169.197.142.39-0116
+      - US-167.88.61.60-0117
+      - US-66.55.92.101-0119
+      - FR-145.239.1.137-0124
+      - CN-112.64.69.187-0133
+      - CN-112.64.69.187-0137
+      - US-138.197.236.77-0144
+      - CZ-195.133.53.209-0146
+      - CA-142.47.89.64-0162
+      - FR-141.95.0.26-0172
+      - BE-77.243.191.178-0188
+      - CA-45.62.247.153-0191
+      - PT-185.90.57.152-0199
+      - RU-195.133.48.9-0213
+      - CZ-194.87.238.109-0258
+      - US-38.68.134.202-0271
+      - FR-145.239.1.137-0278
+      - CN-183.232.170.126-0437
+      - US-167.88.61.96-0954
+      - TW-188.214.106.98-0960
+      - IL-212.199.61.55-0964
+      - MY-223.25.246.4-0966
+      - US-96.47.224.2-0970
+      - HK-62.216.92.179-0972
+      - HK-62.216.92.180-0973
+      - CA-45.62.250.251-0985
+      - US-72.167.45.6-0986
+      - US-72.167.45.6-0987
+      - US-72.167.45.6-0988
+      - US-169.197.143.157-0989
+      - JP-84.17.34.8-0993
+      - NO-84.247.50.10-0994
+      - US-37.218.245.122-0997
+      - FR-95.142.175.14-0999
+      - AU-116.206.230.130-1004
+      - GB-212.38.189.174-1006
+      - GB-212.38.189.174-1007
+      - CA-198.57.27.241-1008
+      - CA-198.57.27.241-1009
+      - CA-198.57.27.191-1010
+      - CA-198.57.27.184-1012
+      - CA-198.57.27.172-1013
+      - CA-198.57.27.152-1014
+      - CA-134.195.196.81-1015
+      - CA-134.195.196.71-1016
+      - CA-134.195.196.71-1017
+      - CA-134.195.196.33-1018
+      - CA-134.195.196.33-1019
+      - CA-134.195.196.199-1020
+      - CA-134.195.196.199-1021
+      - CA-134.195.196.193-1022
+      - CN-112.46.22.44-1028
+      - DE-217.79.181.49-1029
+      - DE-193.108.118.2-1030
+      - FR-145.239.1.100-1031
+      - FR-145.239.1.100-1032
+      - DE-139.162.130.101-1034
+      - DE-139.162.130.101-1035
+      - DE-139.162.130.101-1036
+      - FR-92.243.24.68-1039
+      - FR-149.202.82.172-1040
+      - FR-149.202.82.172-1041
+      - FR-149.202.82.172-1042
+      - FR-149.202.82.172-1043
+      - FR-145.239.1.100-1044
+      - GB-18.168.67.106-1046
+      - GB-172.99.190.39-1048
+      - GB-172.99.190.39-1049
+      - GB-172.99.190.39-1050
+      - GB-172.99.190.205-1051
+      - GB-172.99.190.205-1052
+      - GB-172.99.190.109-1053
+      - GB-172.99.190.109-1054
+      - HK-20.205.105.84-1055
+      - CN-183.240.69.51-1061
+      - ID-45.133.181.58-1067
+      - CN-120.232.173.65-1068
+      - CN-112.64.69.187-1069
+      - CN-183.240.69.51-1070
+      - JP-45.66.134.148-1071
+      - JP-85.208.110.2-1072
+      - JP-85.208.110.2-1073
+      - JP-85.208.108.134-1074
+      - CN-112.64.69.187-1079
+      - MX-169.57.35.97-1081
+      - JP-204.124.181.238-1083
+      - NL-104.245.96.211-1084
+      - JP-206.190.234.202-1085
+      - PL-194.15.196.106-1088
+      - PL-194.15.196.106-1089
+      - PL-194.15.196.106-1090
+      - PL-194.15.196.106-1091
+      - US-199.19.226.178-1104
+      - US-38.75.136.58-1107
+      - US-38.75.136.45-1108
+      - US-38.75.136.45-1109
+      - US-38.75.136.45-1110
+      - US-38.68.135.19-1111
+      - US-38.68.135.19-1112
+      - US-38.68.134.85-1113
+      - US-38.68.134.85-1114
+      - US-38.68.134.69-1115
+      - US-38.68.134.69-1116
+      - US-38.68.134.69-1117
+      - US-38.68.134.23-1118
+      - US-38.68.134.23-1119
+      - US-38.68.134.202-1120
+      - US-38.68.134.202-1121
+      - US-38.68.134.191-1122
+      - US-38.68.134.191-1123
+      - US-38.68.134.191-1124
+      - US-38.121.43.91-1126
+      - US-38.121.43.91-1127
+      - US-38.121.43.71-1128
+      - US-38.121.43.71-1129
+      - US-38.121.43.142-1130
+      - US-38.121.43.142-1132
+      - US-38.107.226.48-1133
+      - US-38.107.226.48-1135
+      - US-216.24.177.54-1137
+      - FR-20.111.31.233-1139
+      - US-169.197.142.99-1141
+      - US-169.197.142.99-1142
+      - US-169.197.142.99-1143
+      - US-169.197.142.99-1144
+      - US-169.197.142.238-1145
+      - US-169.197.142.238-1146
+      - US-169.197.142.238-1147
+      - US-169.197.142.238-1148
+      - US-169.197.142.187-1149
+      - US-169.197.142.187-1150
+      - US-169.197.142.187-1151
+      - US-169.197.142.187-1152
+      - US-167.88.63.74-1153
+      - US-167.88.63.74-1154
+      - US-167.88.63.71-1155
+      - US-167.88.63.71-1156
+      - US-167.88.62.68-1160
+      - US-167.88.62.68-1161
+      - US-167.88.62.68-1162
+      - US-167.88.62.34-1163
+      - US-167.88.61.96-1164
+      - US-167.88.61.96-1165
+      - US-167.88.61.96-1166
+      - US-167.88.61.5-1167
+      - US-167.88.61.5-1168
+      - US-167.88.61.5-1169
+      - US-167.88.61.5-1170
+      - US-167.88.61.204-1171
+      - US-167.88.61.204-1172
+      - US-167.88.61.130-1174
+      - US-167.88.61.130-1175
+      - US-167.88.61.109-1176
+      - US-167.88.61.109-1177
+      - US-167.88.61.109-1178
+      - US-104.140.21.178-1179
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -498,58 +1964,242 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN-112.33.32.136-0173
-      - JP-45.95.224.21-0395
-      - EE-185.37.253.13-0570
-      - CN-183.232.230.6-1153
-      - CN-183.232.230.5-1186
-      - JP-45.142.165.142-1201
-      - CN-58.32.11.113-1204
-      - CN-183.232.170.110-1232
-      - CN-183.232.170.110-1233
-      - CN-183.240.69.51-1234
-      - US-199.19.226.178-1313
-      - CN-112.33.32.136-0173 2
-      - 台湾01解锁流媒体
-      - 英国01解锁流媒体
-      - 美国01解锁流媒体
-      - 荷兰02解锁流媒体
-      - 荷兰03解锁流媒体
-      - 测试服务器19
-      - 德国02解锁流媒体
-      - 英国02解锁流媒体
-      - 德国03解锁流媒体
-      - 英国03解锁流媒体
-      - 德国04解锁流媒体
-      - 德国01解锁流媒体
-      - 荷兰07解锁流媒体
-      - 英国04解锁流媒体
-      - 荷兰06解锁流媒体
-      - 美国04解锁流媒体
-      - 测试服务器88
-      - 美国06解锁流媒体
-      - 测试服务器93
-      - 荷兰05解锁流媒体
-      - 3.22|专线西雅图02原生NTT
-      - 2.74| 专线西雅图01原生NTT
-      - 2.59|V1俄罗斯01 中继D 12x
-      - 2.29| 专线中国台湾03原生HINET
-      - 1.48|TG@moneyflychat 安徽省移动 21
-      - "[直连] 美国1 解锁流媒体 2"
-      - 2.74| 专线西雅图01原生NTT 4
-      - 5.20| 专线香港08原生HGCBBS 3
-      - 香港001
-      - 30香港TG@moneyflychat
-      - 45香港TG@moneyflychat
-      - 46香港TG@moneyflychat
-      - 58美国TG@moneyflychat
-      - 73美国TG@moneyflychat
-      - TG@moneyflychat 67
-      - TG@moneyflychat
-      - TG@moneyflychat  2
-      - TG@moneyflychat  4
-      - TG@moneyflychat  5
-      - TG@moneyflychat  6
+      - FR-145.239.1.100-0001
+      - US-169.197.141.91-0002
+      - FR-62.210.209.50-0003
+      - US-38.75.136.93-0005
+      - US-142.202.48.34-0006
+      - US-38.68.134.191-0008
+      - US-38.121.43.91-0010
+      - US-38.68.135.19-0011
+      - AU-172.105.180.227-0013
+      - CA-198.57.27.184-0014
+      - US-167.88.61.130-0015
+      - US-38.107.226.48-0016
+      - NO-46.29.218.170-0018
+      - CA-198.57.27.172-0022
+      - CA-134.195.196.199-0023
+      - CA-134.195.196.71-0024
+      - GB-172.99.190.109-0026
+      - GB-212.38.189.174-0028
+      - NG-102.129.144.142-0032
+      - US-169.197.143.157-0034
+      - US-38.68.134.85-0035
+      - US-38.68.134.23-0036
+      - US-38.68.134.69-0037
+      - US-167.88.63.71-0038
+      - DK-37.120.194.82-0039
+      - US-38.68.134.202-0040
+      - US-38.75.136.45-0042
+      - US-38.121.43.71-0045
+      - CA-134.195.196.33-0046
+      - CA-134.195.196.110-0047
+      - US-142.202.48.108-0048
+      - US-167.88.62.68-0049
+      - CA-198.57.27.152-0050
+      - GB-172.99.190.205-0051
+      - CA-198.57.27.241-0052
+      - US-142.202.48.52-0053
+      - CA-198.57.27.191-0055
+      - CA-134.195.196.81-0056
+      - GB-172.99.190.39-0059
+      - US-142.202.48.105-0062
+      - NO-46.29.218.170-0064
+      - ES-45.152.183.242-0065
+      - CN-120.233.7.33-0066
+      - US-167.88.61.109-0067
+      - US-38.75.136.58-0068
+      - US-167.88.62.34-0069
+      - US-167.88.61.204-0070
+      - US-38.143.66.71-0071
+      - CA-134.195.196.199-0073
+      - US-169.197.143.157-0075
+      - US-38.143.66.55-0076
+      - US-38.75.136.93-0077
+      - US-142.202.48.34-0078
+      - US-142.202.48.105-0079
+      - US-142.202.48.52-0081
+      - US-38.91.101.11-0082
+      - JP-85.208.110.2-0083
+      - JP-85.208.108.134-0086
+      - CA-198.57.27.172-0087
+      - US-38.68.134.85-0089
+      - CA-198.57.27.184-0090
+      - US-38.91.100.200-0091
+      - CA-134.195.196.193-0095
+      - US-169.197.141.244-0096
+      - HU-185.128.26.130-0097
+      - JP-85.208.108.106-0098
+      - RELAY-104.16.169.85-0099
+      - AU-172.105.180.227-0100
+      - AU-172.105.171.80-0102
+      - US-169.197.141.92-0103
+      - US-142.202.48.108-0104
+      - IN-172.105.35.151-0105
+      - US-167.88.63.74-0107
+      - IN-172.105.59.32-0108
+      - AU-172.105.177.120-0109
+      - RELAY-104.21.33.178-0110
+      - IN-172.105.59.32-0111
+      - US-169.197.141.240-0112
+      - IN-192.46.208.153-0113
+      - IT-185.213.21.6-0114
+      - US-169.197.142.39-0116
+      - US-167.88.61.60-0117
+      - US-66.55.92.101-0119
+      - FR-145.239.1.137-0124
+      - CN-112.64.69.187-0133
+      - CN-112.64.69.187-0137
+      - US-138.197.236.77-0144
+      - CZ-195.133.53.209-0146
+      - CA-142.47.89.64-0162
+      - FR-141.95.0.26-0172
+      - BE-77.243.191.178-0188
+      - CA-45.62.247.153-0191
+      - PT-185.90.57.152-0199
+      - RU-195.133.48.9-0213
+      - CZ-194.87.238.109-0258
+      - US-38.68.134.202-0271
+      - FR-145.239.1.137-0278
+      - CN-183.232.170.126-0437
+      - US-167.88.61.96-0954
+      - TW-188.214.106.98-0960
+      - IL-212.199.61.55-0964
+      - MY-223.25.246.4-0966
+      - US-96.47.224.2-0970
+      - HK-62.216.92.179-0972
+      - HK-62.216.92.180-0973
+      - CA-45.62.250.251-0985
+      - US-72.167.45.6-0986
+      - US-72.167.45.6-0987
+      - US-72.167.45.6-0988
+      - US-169.197.143.157-0989
+      - JP-84.17.34.8-0993
+      - NO-84.247.50.10-0994
+      - US-37.218.245.122-0997
+      - FR-95.142.175.14-0999
+      - AU-116.206.230.130-1004
+      - GB-212.38.189.174-1006
+      - GB-212.38.189.174-1007
+      - CA-198.57.27.241-1008
+      - CA-198.57.27.241-1009
+      - CA-198.57.27.191-1010
+      - CA-198.57.27.184-1012
+      - CA-198.57.27.172-1013
+      - CA-198.57.27.152-1014
+      - CA-134.195.196.81-1015
+      - CA-134.195.196.71-1016
+      - CA-134.195.196.71-1017
+      - CA-134.195.196.33-1018
+      - CA-134.195.196.33-1019
+      - CA-134.195.196.199-1020
+      - CA-134.195.196.199-1021
+      - CA-134.195.196.193-1022
+      - CN-112.46.22.44-1028
+      - DE-217.79.181.49-1029
+      - DE-193.108.118.2-1030
+      - FR-145.239.1.100-1031
+      - FR-145.239.1.100-1032
+      - DE-139.162.130.101-1034
+      - DE-139.162.130.101-1035
+      - DE-139.162.130.101-1036
+      - FR-92.243.24.68-1039
+      - FR-149.202.82.172-1040
+      - FR-149.202.82.172-1041
+      - FR-149.202.82.172-1042
+      - FR-149.202.82.172-1043
+      - FR-145.239.1.100-1044
+      - GB-18.168.67.106-1046
+      - GB-172.99.190.39-1048
+      - GB-172.99.190.39-1049
+      - GB-172.99.190.39-1050
+      - GB-172.99.190.205-1051
+      - GB-172.99.190.205-1052
+      - GB-172.99.190.109-1053
+      - GB-172.99.190.109-1054
+      - HK-20.205.105.84-1055
+      - CN-183.240.69.51-1061
+      - ID-45.133.181.58-1067
+      - CN-120.232.173.65-1068
+      - CN-112.64.69.187-1069
+      - CN-183.240.69.51-1070
+      - JP-45.66.134.148-1071
+      - JP-85.208.110.2-1072
+      - JP-85.208.110.2-1073
+      - JP-85.208.108.134-1074
+      - CN-112.64.69.187-1079
+      - MX-169.57.35.97-1081
+      - JP-204.124.181.238-1083
+      - NL-104.245.96.211-1084
+      - JP-206.190.234.202-1085
+      - PL-194.15.196.106-1088
+      - PL-194.15.196.106-1089
+      - PL-194.15.196.106-1090
+      - PL-194.15.196.106-1091
+      - US-199.19.226.178-1104
+      - US-38.75.136.58-1107
+      - US-38.75.136.45-1108
+      - US-38.75.136.45-1109
+      - US-38.75.136.45-1110
+      - US-38.68.135.19-1111
+      - US-38.68.135.19-1112
+      - US-38.68.134.85-1113
+      - US-38.68.134.85-1114
+      - US-38.68.134.69-1115
+      - US-38.68.134.69-1116
+      - US-38.68.134.69-1117
+      - US-38.68.134.23-1118
+      - US-38.68.134.23-1119
+      - US-38.68.134.202-1120
+      - US-38.68.134.202-1121
+      - US-38.68.134.191-1122
+      - US-38.68.134.191-1123
+      - US-38.68.134.191-1124
+      - US-38.121.43.91-1126
+      - US-38.121.43.91-1127
+      - US-38.121.43.71-1128
+      - US-38.121.43.71-1129
+      - US-38.121.43.142-1130
+      - US-38.121.43.142-1132
+      - US-38.107.226.48-1133
+      - US-38.107.226.48-1135
+      - US-216.24.177.54-1137
+      - FR-20.111.31.233-1139
+      - US-169.197.142.99-1141
+      - US-169.197.142.99-1142
+      - US-169.197.142.99-1143
+      - US-169.197.142.99-1144
+      - US-169.197.142.238-1145
+      - US-169.197.142.238-1146
+      - US-169.197.142.238-1147
+      - US-169.197.142.238-1148
+      - US-169.197.142.187-1149
+      - US-169.197.142.187-1150
+      - US-169.197.142.187-1151
+      - US-169.197.142.187-1152
+      - US-167.88.63.74-1153
+      - US-167.88.63.74-1154
+      - US-167.88.63.71-1155
+      - US-167.88.63.71-1156
+      - US-167.88.62.68-1160
+      - US-167.88.62.68-1161
+      - US-167.88.62.68-1162
+      - US-167.88.62.34-1163
+      - US-167.88.61.96-1164
+      - US-167.88.61.96-1165
+      - US-167.88.61.96-1166
+      - US-167.88.61.5-1167
+      - US-167.88.61.5-1168
+      - US-167.88.61.5-1169
+      - US-167.88.61.5-1170
+      - US-167.88.61.204-1171
+      - US-167.88.61.204-1172
+      - US-167.88.61.130-1174
+      - US-167.88.61.130-1175
+      - US-167.88.61.109-1176
+      - US-167.88.61.109-1177
+      - US-167.88.61.109-1178
+      - US-104.140.21.178-1179
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
