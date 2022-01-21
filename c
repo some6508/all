@@ -5,260 +5,164 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇺🇸_US_美国_1', server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/bb2b34a1", host: www.ltzs.buzz }}
-  - {name: 'default_name_2', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: '🇺🇸_US_美国_3', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws" }}
-  - {name: '🇺🇸_US_美国_4', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
-  - {name: 'default_name_5', server: 198.41.212.8, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: '🇺🇸_US_美国_6', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
-  - {name: 'default_name_7', server: 198.41.212.2, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: '🇺🇸_US_美国->🇫🇷_FR_法国_8', server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/shuier", host: xc1.v2rie.pp.ua }}
-  - {name: '🇺🇸_US_美国_9', server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-miami.lvuft.com }}
-  - {name: '🇺🇸_US_美国_10', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-miami.lvuft.com }}
-  - {name: 'default_name_11', server: 104.16.169.85, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc02.testred.xyz }}
-  - {name: '🇸🇬_SG_新加坡_12', server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: ycgyg.com }}
-  - {name: '🇺🇸_US_美国_13', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: 'default_name_14', server: 104.19.28.35, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc02.testred.xyz }}
-  - {name: '🇺🇸_US_美国->🇭🇰_HK_香港_15', server: 104.24.172.156, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc02.testred.xyz }}
-  - {name: '🇺🇸_US_美国->🇨🇿_CZ_捷克_16', server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: '🇺🇸_US_美国_17', server: api.ssfree.ru, port: 443, type: vmess, uuid: 06c80014-7a0a-11ec-b4da-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: { path: "/getweather" }}
-  - {name: 'default_name_18', server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: 'default_name_19', server: 104.19.23.215, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc02.testred.xyz }}
-  - {name: '🇭🇺_HU_匈牙利_20', server: 185.252.223.204, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: { path: "/path/243535322906", host: www.16675463.xyz }}
-  - {name: 'default_name_21', server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/The-Great-Awakening_vws", host: vincent-jackson2021.ga }}
-  - {name: 'default_name_22', server: 198.41.212.18, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: '🇺🇸_US_美国_23', server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: amu1ahfi.com }}
-  - {name: '🇺🇸_US_美国_24', server: fa1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-washington.lvuft.com }}
-  - {name: '🇺🇸_US_美国->🇯🇵_JP_日本_25', server: rb1.moonfree.top, port: 8443, type: vmess, uuid: f1533fd1-4562-4935-a1e6-832685d4a919, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: rb.moonfree.top }}
-  - {name: 'default_name_26', server: 198.41.212.5, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: '🇺🇸_US_美国_27', server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-washington.lvuft.com }}
+  - {name: '翻墙党fanqiangdang.com_1', server: hk00.linkzones.xyz, port: 443, type: vmess, uuid: b37a161b-f345-32bd-aa7c-dd5136a216ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: hk00.linknodes.xyz }}
+  - {name: '翻墙党fanqiangdang.com_2', server: hk01.linkzones.xyz, port: 443, type: vmess, uuid: b37a161b-f345-32bd-aa7c-dd5136a216ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: hk01.linknodes.xyz }}
+  - {name: '翻墙党fanqiangdang.com_3', server: hk02.linkzones.xyz, port: 443, type: vmess, uuid: b37a161b-f345-32bd-aa7c-dd5136a216ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: hk02.linknodes.xyz }}
+  - {name: '翻墙党fanqiangdang.com_4', server: ca00.linkzones.xyz, port: 443, type: vmess, uuid: b37a161b-f345-32bd-aa7c-dd5136a216ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: ca00.linknodes.xyz }}
+  - {name: '翻墙党fanqiangdang.com_5', server: ca01.linkzones.xyz, port: 443, type: vmess, uuid: b37a161b-f345-32bd-aa7c-dd5136a216ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: ca01.linknodes.xyz }}
+  - {name: '翻墙党fanqiangdang.com_6', server: ca02.linkzones.xyz, port: 443, type: vmess, uuid: b37a161b-f345-32bd-aa7c-dd5136a216ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: ca02.linknodes.xyz }}
+  - {name: '翻墙党fanqiangdang.com_7', server: sg00.linkzones.xyz, port: 443, type: vmess, uuid: b37a161b-f345-32bd-aa7c-dd5136a216ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: sg00.linknodes.xyz }}
+  - {name: '翻墙党fanqiangdang.com_8', server: sg01.linkzones.xyz, port: 443, type: vmess, uuid: b37a161b-f345-32bd-aa7c-dd5136a216ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: sg01.linknodes.xyz }}
+  - {name: '翻墙党fanqiangdang.com_9', server: sg02.linkzones.xyz, port: 443, type: vmess, uuid: b37a161b-f345-32bd-aa7c-dd5136a216ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: sg02.linknodes.xyz }}
+  - {name: '翻墙党fanqiangdang.com_10', server: jp00.linkzones.xyz, port: 443, type: vmess, uuid: b37a161b-f345-32bd-aa7c-dd5136a216ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: jp00.linknodes.xyz }}
+  - {name: '翻墙党fanqiangdang.com_11', server: jp01.linkzones.xyz, port: 443, type: vmess, uuid: b37a161b-f345-32bd-aa7c-dd5136a216ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: jp01.linknodes.xyz }}
+  - {name: '翻墙党fanqiangdang.com_12', server: jp02.linkzones.xyz, port: 443, type: vmess, uuid: b37a161b-f345-32bd-aa7c-dd5136a216ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: jp02.linknodes.xyz }}
+  - {name: '翻墙党fanqiangdang.com_13', server: us00.linkzones.xyz, port: 443, type: vmess, uuid: b37a161b-f345-32bd-aa7c-dd5136a216ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: us00.linknodes.xyz }}
+  - {name: '翻墙党fanqiangdang.com_14', server: us01.linkzones.xyz, port: 443, type: vmess, uuid: b37a161b-f345-32bd-aa7c-dd5136a216ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: us01.linknodes.xyz }}
+  - {name: '翻墙党fanqiangdang.com_15', server: us02.linkzones.xyz, port: 443, type: vmess, uuid: b37a161b-f345-32bd-aa7c-dd5136a216ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: us02.linknodes.xyz }}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - default_name_11
-      - 🇸🇬_SG_新加坡_12
-      - 🇺🇸_US_美国_13
-      - default_name_14
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇺🇸_US_美国_17
-      - default_name_18
-      - default_name_19
-      - 🇭🇺_HU_匈牙利_20
-      - default_name_21
-      - default_name_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_25
-      - default_name_26
-      - 🇺🇸_US_美国_27
+      - 翻墙党fanqiangdang.com_1
+      - 翻墙党fanqiangdang.com_2
+      - 翻墙党fanqiangdang.com_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_7
+      - 翻墙党fanqiangdang.com_8
+      - 翻墙党fanqiangdang.com_9
+      - 翻墙党fanqiangdang.com_10
+      - 翻墙党fanqiangdang.com_11
+      - 翻墙党fanqiangdang.com_12
+      - 翻墙党fanqiangdang.com_13
+      - 翻墙党fanqiangdang.com_14
+      - 翻墙党fanqiangdang.com_15
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - default_name_11
-      - 🇸🇬_SG_新加坡_12
-      - 🇺🇸_US_美国_13
-      - default_name_14
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇺🇸_US_美国_17
-      - default_name_18
-      - default_name_19
-      - 🇭🇺_HU_匈牙利_20
-      - default_name_21
-      - default_name_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_25
-      - default_name_26
-      - 🇺🇸_US_美国_27
+      - 翻墙党fanqiangdang.com_1
+      - 翻墙党fanqiangdang.com_2
+      - 翻墙党fanqiangdang.com_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_7
+      - 翻墙党fanqiangdang.com_8
+      - 翻墙党fanqiangdang.com_9
+      - 翻墙党fanqiangdang.com_10
+      - 翻墙党fanqiangdang.com_11
+      - 翻墙党fanqiangdang.com_12
+      - 翻墙党fanqiangdang.com_13
+      - 翻墙党fanqiangdang.com_14
+      - 翻墙党fanqiangdang.com_15
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - default_name_11
-      - 🇸🇬_SG_新加坡_12
-      - 🇺🇸_US_美国_13
-      - default_name_14
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇺🇸_US_美国_17
-      - default_name_18
-      - default_name_19
-      - 🇭🇺_HU_匈牙利_20
-      - default_name_21
-      - default_name_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_25
-      - default_name_26
-      - 🇺🇸_US_美国_27
+      - 翻墙党fanqiangdang.com_1
+      - 翻墙党fanqiangdang.com_2
+      - 翻墙党fanqiangdang.com_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_7
+      - 翻墙党fanqiangdang.com_8
+      - 翻墙党fanqiangdang.com_9
+      - 翻墙党fanqiangdang.com_10
+      - 翻墙党fanqiangdang.com_11
+      - 翻墙党fanqiangdang.com_12
+      - 翻墙党fanqiangdang.com_13
+      - 翻墙党fanqiangdang.com_14
+      - 翻墙党fanqiangdang.com_15
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - default_name_11
-      - 🇸🇬_SG_新加坡_12
-      - 🇺🇸_US_美国_13
-      - default_name_14
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇺🇸_US_美国_17
-      - default_name_18
-      - default_name_19
-      - 🇭🇺_HU_匈牙利_20
-      - default_name_21
-      - default_name_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_25
-      - default_name_26
-      - 🇺🇸_US_美国_27
+      - 翻墙党fanqiangdang.com_1
+      - 翻墙党fanqiangdang.com_2
+      - 翻墙党fanqiangdang.com_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_7
+      - 翻墙党fanqiangdang.com_8
+      - 翻墙党fanqiangdang.com_9
+      - 翻墙党fanqiangdang.com_10
+      - 翻墙党fanqiangdang.com_11
+      - 翻墙党fanqiangdang.com_12
+      - 翻墙党fanqiangdang.com_13
+      - 翻墙党fanqiangdang.com_14
+      - 翻墙党fanqiangdang.com_15
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - default_name_11
-      - 🇸🇬_SG_新加坡_12
-      - 🇺🇸_US_美国_13
-      - default_name_14
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇺🇸_US_美国_17
-      - default_name_18
-      - default_name_19
-      - 🇭🇺_HU_匈牙利_20
-      - default_name_21
-      - default_name_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_25
-      - default_name_26
-      - 🇺🇸_US_美国_27
+      - 翻墙党fanqiangdang.com_1
+      - 翻墙党fanqiangdang.com_2
+      - 翻墙党fanqiangdang.com_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_7
+      - 翻墙党fanqiangdang.com_8
+      - 翻墙党fanqiangdang.com_9
+      - 翻墙党fanqiangdang.com_10
+      - 翻墙党fanqiangdang.com_11
+      - 翻墙党fanqiangdang.com_12
+      - 翻墙党fanqiangdang.com_13
+      - 翻墙党fanqiangdang.com_14
+      - 翻墙党fanqiangdang.com_15
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - default_name_11
-      - 🇸🇬_SG_新加坡_12
-      - 🇺🇸_US_美国_13
-      - default_name_14
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇺🇸_US_美国_17
-      - default_name_18
-      - default_name_19
-      - 🇭🇺_HU_匈牙利_20
-      - default_name_21
-      - default_name_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_25
-      - default_name_26
-      - 🇺🇸_US_美国_27
+      - 翻墙党fanqiangdang.com_1
+      - 翻墙党fanqiangdang.com_2
+      - 翻墙党fanqiangdang.com_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_7
+      - 翻墙党fanqiangdang.com_8
+      - 翻墙党fanqiangdang.com_9
+      - 翻墙党fanqiangdang.com_10
+      - 翻墙党fanqiangdang.com_11
+      - 翻墙党fanqiangdang.com_12
+      - 翻墙党fanqiangdang.com_13
+      - 翻墙党fanqiangdang.com_14
+      - 翻墙党fanqiangdang.com_15
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - default_name_11
-      - 🇸🇬_SG_新加坡_12
-      - 🇺🇸_US_美国_13
-      - default_name_14
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇺🇸_US_美国_17
-      - default_name_18
-      - default_name_19
-      - 🇭🇺_HU_匈牙利_20
-      - default_name_21
-      - default_name_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_25
-      - default_name_26
-      - 🇺🇸_US_美国_27
+      - 翻墙党fanqiangdang.com_1
+      - 翻墙党fanqiangdang.com_2
+      - 翻墙党fanqiangdang.com_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_7
+      - 翻墙党fanqiangdang.com_8
+      - 翻墙党fanqiangdang.com_9
+      - 翻墙党fanqiangdang.com_10
+      - 翻墙党fanqiangdang.com_11
+      - 翻墙党fanqiangdang.com_12
+      - 翻墙党fanqiangdang.com_13
+      - 翻墙党fanqiangdang.com_14
+      - 翻墙党fanqiangdang.com_15
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -274,33 +178,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - default_name_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - default_name_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - default_name_11
-      - 🇸🇬_SG_新加坡_12
-      - 🇺🇸_US_美国_13
-      - default_name_14
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇺🇸_US_美国_17
-      - default_name_18
-      - default_name_19
-      - 🇭🇺_HU_匈牙利_20
-      - default_name_21
-      - default_name_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_25
-      - default_name_26
-      - 🇺🇸_US_美国_27
+      - 翻墙党fanqiangdang.com_1
+      - 翻墙党fanqiangdang.com_2
+      - 翻墙党fanqiangdang.com_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_5
+      - 翻墙党fanqiangdang.com_6
+      - 翻墙党fanqiangdang.com_7
+      - 翻墙党fanqiangdang.com_8
+      - 翻墙党fanqiangdang.com_9
+      - 翻墙党fanqiangdang.com_10
+      - 翻墙党fanqiangdang.com_11
+      - 翻墙党fanqiangdang.com_12
+      - 翻墙党fanqiangdang.com_13
+      - 翻墙党fanqiangdang.com_14
+      - 翻墙党fanqiangdang.com_15
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
