@@ -5,52 +5,172 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇸🇬_SG_新加坡_1', server: 172.104.44.88, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '日本A|tg频道:@ripaojiedian_1', server: 104.19.23.215, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc01.testred.xyz }}
+  - {name: '已存活1天美国-4.65MB/sYoutube:不良林_2', server: 38.68.134.85, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '日本B|tg频道:@ripaojiedian_3', server: 104.19.28.35, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc01.testred.xyz }}
+  - {name: '日本C|tg频道:@ripaojiedian_4', server: 104.24.172.156, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc01.testred.xyz }}
+  - {name: '美国-3.39MB/sYoutube:不良林_5', server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '日本D|tg频道:@ripaojiedian_6', server: 104.16.169.85, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc01.testred.xyz }}
+  - {name: '加拿大-3.60MB/sYoutube:不良林_7', server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '美国-3.50MB/sYoutube:不良林_8', server: 142.202.48.105, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '加拿大-3.67MB/sYoutube:不良林_9', server: 134.195.196.199, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '英国-3.46MB/sYoutube:不良林_10', server: 212.38.189.174, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '加拿大-3.21MB/sYoutube:不良林_11', server: 198.57.27.191, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '美国-4.80MB/sYoutube:不良林_12', server: 167.88.61.130, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '美国D|tg频道:@ripaojiedian_13', server: 104.16.169.85, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc02.testred.xyz }}
+  - {name: '美国A|tg频道:@ripaojiedian_14', server: 104.19.23.215, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc02.testred.xyz }}
+  - {name: '美国C|tg频道:@ripaojiedian_15', server: 104.24.172.156, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc02.testred.xyz }}
+  - {name: '美国B|tg频道:@ripaojiedian_16', server: 104.19.28.35, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc02.testred.xyz }}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬_SG_新加坡_1
+      - 日本A|tg频道:@ripaojiedian_1
+      - 已存活1天美国-4.65MB/sYoutube:不良林_2
+      - 日本B|tg频道:@ripaojiedian_3
+      - 日本C|tg频道:@ripaojiedian_4
+      - 美国-3.39MB/sYoutube:不良林_5
+      - 日本D|tg频道:@ripaojiedian_6
+      - 加拿大-3.60MB/sYoutube:不良林_7
+      - 美国-3.50MB/sYoutube:不良林_8
+      - 加拿大-3.67MB/sYoutube:不良林_9
+      - 英国-3.46MB/sYoutube:不良林_10
+      - 加拿大-3.21MB/sYoutube:不良林_11
+      - 美国-4.80MB/sYoutube:不良林_12
+      - 美国D|tg频道:@ripaojiedian_13
+      - 美国A|tg频道:@ripaojiedian_14
+      - 美国C|tg频道:@ripaojiedian_15
+      - 美国B|tg频道:@ripaojiedian_16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬_SG_新加坡_1
+      - 日本A|tg频道:@ripaojiedian_1
+      - 已存活1天美国-4.65MB/sYoutube:不良林_2
+      - 日本B|tg频道:@ripaojiedian_3
+      - 日本C|tg频道:@ripaojiedian_4
+      - 美国-3.39MB/sYoutube:不良林_5
+      - 日本D|tg频道:@ripaojiedian_6
+      - 加拿大-3.60MB/sYoutube:不良林_7
+      - 美国-3.50MB/sYoutube:不良林_8
+      - 加拿大-3.67MB/sYoutube:不良林_9
+      - 英国-3.46MB/sYoutube:不良林_10
+      - 加拿大-3.21MB/sYoutube:不良林_11
+      - 美国-4.80MB/sYoutube:不良林_12
+      - 美国D|tg频道:@ripaojiedian_13
+      - 美国A|tg频道:@ripaojiedian_14
+      - 美国C|tg频道:@ripaojiedian_15
+      - 美国B|tg频道:@ripaojiedian_16
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬_SG_新加坡_1
+      - 日本A|tg频道:@ripaojiedian_1
+      - 已存活1天美国-4.65MB/sYoutube:不良林_2
+      - 日本B|tg频道:@ripaojiedian_3
+      - 日本C|tg频道:@ripaojiedian_4
+      - 美国-3.39MB/sYoutube:不良林_5
+      - 日本D|tg频道:@ripaojiedian_6
+      - 加拿大-3.60MB/sYoutube:不良林_7
+      - 美国-3.50MB/sYoutube:不良林_8
+      - 加拿大-3.67MB/sYoutube:不良林_9
+      - 英国-3.46MB/sYoutube:不良林_10
+      - 加拿大-3.21MB/sYoutube:不良林_11
+      - 美国-4.80MB/sYoutube:不良林_12
+      - 美国D|tg频道:@ripaojiedian_13
+      - 美国A|tg频道:@ripaojiedian_14
+      - 美国C|tg频道:@ripaojiedian_15
+      - 美国B|tg频道:@ripaojiedian_16
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬_SG_新加坡_1
+      - 日本A|tg频道:@ripaojiedian_1
+      - 已存活1天美国-4.65MB/sYoutube:不良林_2
+      - 日本B|tg频道:@ripaojiedian_3
+      - 日本C|tg频道:@ripaojiedian_4
+      - 美国-3.39MB/sYoutube:不良林_5
+      - 日本D|tg频道:@ripaojiedian_6
+      - 加拿大-3.60MB/sYoutube:不良林_7
+      - 美国-3.50MB/sYoutube:不良林_8
+      - 加拿大-3.67MB/sYoutube:不良林_9
+      - 英国-3.46MB/sYoutube:不良林_10
+      - 加拿大-3.21MB/sYoutube:不良林_11
+      - 美国-4.80MB/sYoutube:不良林_12
+      - 美国D|tg频道:@ripaojiedian_13
+      - 美国A|tg频道:@ripaojiedian_14
+      - 美国C|tg频道:@ripaojiedian_15
+      - 美国B|tg频道:@ripaojiedian_16
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬_SG_新加坡_1
+      - 日本A|tg频道:@ripaojiedian_1
+      - 已存活1天美国-4.65MB/sYoutube:不良林_2
+      - 日本B|tg频道:@ripaojiedian_3
+      - 日本C|tg频道:@ripaojiedian_4
+      - 美国-3.39MB/sYoutube:不良林_5
+      - 日本D|tg频道:@ripaojiedian_6
+      - 加拿大-3.60MB/sYoutube:不良林_7
+      - 美国-3.50MB/sYoutube:不良林_8
+      - 加拿大-3.67MB/sYoutube:不良林_9
+      - 英国-3.46MB/sYoutube:不良林_10
+      - 加拿大-3.21MB/sYoutube:不良林_11
+      - 美国-4.80MB/sYoutube:不良林_12
+      - 美国D|tg频道:@ripaojiedian_13
+      - 美国A|tg频道:@ripaojiedian_14
+      - 美国C|tg频道:@ripaojiedian_15
+      - 美国B|tg频道:@ripaojiedian_16
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬_SG_新加坡_1
+      - 日本A|tg频道:@ripaojiedian_1
+      - 已存活1天美国-4.65MB/sYoutube:不良林_2
+      - 日本B|tg频道:@ripaojiedian_3
+      - 日本C|tg频道:@ripaojiedian_4
+      - 美国-3.39MB/sYoutube:不良林_5
+      - 日本D|tg频道:@ripaojiedian_6
+      - 加拿大-3.60MB/sYoutube:不良林_7
+      - 美国-3.50MB/sYoutube:不良林_8
+      - 加拿大-3.67MB/sYoutube:不良林_9
+      - 英国-3.46MB/sYoutube:不良林_10
+      - 加拿大-3.21MB/sYoutube:不良林_11
+      - 美国-4.80MB/sYoutube:不良林_12
+      - 美国D|tg频道:@ripaojiedian_13
+      - 美国A|tg频道:@ripaojiedian_14
+      - 美国C|tg频道:@ripaojiedian_15
+      - 美国B|tg频道:@ripaojiedian_16
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬_SG_新加坡_1
+      - 日本A|tg频道:@ripaojiedian_1
+      - 已存活1天美国-4.65MB/sYoutube:不良林_2
+      - 日本B|tg频道:@ripaojiedian_3
+      - 日本C|tg频道:@ripaojiedian_4
+      - 美国-3.39MB/sYoutube:不良林_5
+      - 日本D|tg频道:@ripaojiedian_6
+      - 加拿大-3.60MB/sYoutube:不良林_7
+      - 美国-3.50MB/sYoutube:不良林_8
+      - 加拿大-3.67MB/sYoutube:不良林_9
+      - 英国-3.46MB/sYoutube:不良林_10
+      - 加拿大-3.21MB/sYoutube:不良林_11
+      - 美国-4.80MB/sYoutube:不良林_12
+      - 美国D|tg频道:@ripaojiedian_13
+      - 美国A|tg频道:@ripaojiedian_14
+      - 美国C|tg频道:@ripaojiedian_15
+      - 美国B|tg频道:@ripaojiedian_16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +186,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬_SG_新加坡_1
+      - 日本A|tg频道:@ripaojiedian_1
+      - 已存活1天美国-4.65MB/sYoutube:不良林_2
+      - 日本B|tg频道:@ripaojiedian_3
+      - 日本C|tg频道:@ripaojiedian_4
+      - 美国-3.39MB/sYoutube:不良林_5
+      - 日本D|tg频道:@ripaojiedian_6
+      - 加拿大-3.60MB/sYoutube:不良林_7
+      - 美国-3.50MB/sYoutube:不良林_8
+      - 加拿大-3.67MB/sYoutube:不良林_9
+      - 英国-3.46MB/sYoutube:不良林_10
+      - 加拿大-3.21MB/sYoutube:不良林_11
+      - 美国-4.80MB/sYoutube:不良林_12
+      - 美国D|tg频道:@ripaojiedian_13
+      - 美国A|tg频道:@ripaojiedian_14
+      - 美国C|tg频道:@ripaojiedian_15
+      - 美国B|tg频道:@ripaojiedian_16
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
