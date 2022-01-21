@@ -5,76 +5,612 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇺🇸_US_美国_1', server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '🇺🇸_US_美国_2', server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '🇺🇸_US_美国_3', server: 167.88.62.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_美国_4', server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'default_ssr_name_1', server: cm03.paofuvip.xyz, port: 1070, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_2', server: cm03.paofuvip.xyz, port: 1071, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_3', server: cm03.paofuvip.xyz, port: 1072, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_4', server: cm03.paofuvip.xyz, port: 1073, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_5', server: cm03.paofuvip.xyz, port: 1090, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_6', server: cm03.paofuvip.xyz, port: 1091, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_7', server: cm03.paofuvip.xyz, port: 1092, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_8', server: cm03.paofuvip.xyz, port: 1093, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_9', server: cm03.paofuvip.xyz, port: 1094, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_10', server: cm01.paofuvip.xyz, port: 1050, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_11', server: cm01.paofuvip.xyz, port: 1051, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_12', server: cm01.paofuvip.xyz, port: 1052, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_13', server: cm01.paofuvip.xyz, port: 1053, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_14', server: cm01.paofuvip.xyz, port: 1054, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_15', server: cm02.paofuvip.xyz, port: 1080, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_16', server: cm02.paofuvip.xyz, port: 1081, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_17', server: cm02.paofuvip.xyz, port: 1082, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_18', server: cm02.paofuvip.xyz, port: 1083, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_19', server: cm02.paofuvip.xyz, port: 1084, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_20', server: cm01.paofuvip.xyz, port: 1020, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_21', server: cm01.paofuvip.xyz, port: 1022, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_22', server: cm01.paofuvip.xyz, port: 1024, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_23', server: cm07.paofuvip.xyz, port: 5950, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_24', server: cm07.paofuvip.xyz, port: 5951, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_25', server: cm07.paofuvip.xyz, port: 5952, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_26', server: cm07.paofuvip.xyz, port: 5953, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_27', server: cm07.paofuvip.xyz, port: 5954, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_28', server: cm07.paofuvip.xyz, port: 5955, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_29', server: cm07.paofuvip.xyz, port: 5956, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_30', server: cm07.paofuvip.xyz, port: 5957, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_31', server: cm07.paofuvip.xyz, port: 5958, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_32', server: cm07.paofuvip.xyz, port: 5959, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_33', server: cm08.paofuvip.xyz, port: 5950, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_34', server: cm08.paofuvip.xyz, port: 5951, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_35', server: cm08.paofuvip.xyz, port: 5952, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_36', server: cm08.paofuvip.xyz, port: 5953, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_37', server: cm08.paofuvip.xyz, port: 5954, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_38', server: cm08.paofuvip.xyz, port: 5955, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_39', server: cm08.paofuvip.xyz, port: 5956, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_40', server: cm08.paofuvip.xyz, port: 5957, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_41', server: cm08.paofuvip.xyz, port: 5958, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_42', server: cm08.paofuvip.xyz, port: 5959, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_43', server: cm02.paofuvip.xyz, port: 1070, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_44', server: cm02.paofuvip.xyz, port: 1071, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_45', server: cm02.paofuvip.xyz, port: 1072, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_46', server: cm02.paofuvip.xyz, port: 1073, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_47', server: cm03.paofuvip.xyz, port: 1095, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_48', server: cm03.paofuvip.xyz, port: 1096, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_49', server: cm03.paofuvip.xyz, port: 1097, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_50', server: cm03.paofuvip.xyz, port: 1098, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_51', server: cm01.paofuvip.xyz, port: 1055, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_52', server: cm01.paofuvip.xyz, port: 1056, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_53', server: cm01.paofuvip.xyz, port: 1057, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_54', server: cm01.paofuvip.xyz, port: 1058, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_55', server: cm02.paofuvip.xyz, port: 1085, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_56', server: cm02.paofuvip.xyz, port: 1086, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_57', server: cm02.paofuvip.xyz, port: 1087, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_58', server: cm02.paofuvip.xyz, port: 1088, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_59', server: cm01.paofuvip.xyz, port: 1021, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_60', server: cm01.paofuvip.xyz, port: 1023, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_61', server: cm01.paofuvip.xyz, port: 1025, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_62', server: cm09.paofuvip.xyz, port: 5959, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_63', server: cm09.paofuvip.xyz, port: 5958, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_64', server: cm09.paofuvip.xyz, port: 5957, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_65', server: cm09.paofuvip.xyz, port: 5956, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_66', server: cm09.paofuvip.xyz, port: 5955, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_67', server: cm09.paofuvip.xyz, port: 5954, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_68', server: cm09.paofuvip.xyz, port: 5953, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_69', server: cm09.paofuvip.xyz, port: 5952, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_70', server: cm09.paofuvip.xyz, port: 5951, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
+  - {name: 'default_ssr_name_71', server: cm09.paofuvip.xyz, port: 5950, type: ssr, password: "0yzag5ftrssb", cipher: chacha20-ietf, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
+      - default_ssr_name_68
+      - default_ssr_name_69
+      - default_ssr_name_70
+      - default_ssr_name_71
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
+      - default_ssr_name_68
+      - default_ssr_name_69
+      - default_ssr_name_70
+      - default_ssr_name_71
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
+      - default_ssr_name_68
+      - default_ssr_name_69
+      - default_ssr_name_70
+      - default_ssr_name_71
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
+      - default_ssr_name_68
+      - default_ssr_name_69
+      - default_ssr_name_70
+      - default_ssr_name_71
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
+      - default_ssr_name_68
+      - default_ssr_name_69
+      - default_ssr_name_70
+      - default_ssr_name_71
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
+      - default_ssr_name_68
+      - default_ssr_name_69
+      - default_ssr_name_70
+      - default_ssr_name_71
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
+      - default_ssr_name_68
+      - default_ssr_name_69
+      - default_ssr_name_70
+      - default_ssr_name_71
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,10 +626,77 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - default_ssr_name_1
+      - default_ssr_name_2
+      - default_ssr_name_3
+      - default_ssr_name_4
+      - default_ssr_name_5
+      - default_ssr_name_6
+      - default_ssr_name_7
+      - default_ssr_name_8
+      - default_ssr_name_9
+      - default_ssr_name_10
+      - default_ssr_name_11
+      - default_ssr_name_12
+      - default_ssr_name_13
+      - default_ssr_name_14
+      - default_ssr_name_15
+      - default_ssr_name_16
+      - default_ssr_name_17
+      - default_ssr_name_18
+      - default_ssr_name_19
+      - default_ssr_name_20
+      - default_ssr_name_21
+      - default_ssr_name_22
+      - default_ssr_name_23
+      - default_ssr_name_24
+      - default_ssr_name_25
+      - default_ssr_name_26
+      - default_ssr_name_27
+      - default_ssr_name_28
+      - default_ssr_name_29
+      - default_ssr_name_30
+      - default_ssr_name_31
+      - default_ssr_name_32
+      - default_ssr_name_33
+      - default_ssr_name_34
+      - default_ssr_name_35
+      - default_ssr_name_36
+      - default_ssr_name_37
+      - default_ssr_name_38
+      - default_ssr_name_39
+      - default_ssr_name_40
+      - default_ssr_name_41
+      - default_ssr_name_42
+      - default_ssr_name_43
+      - default_ssr_name_44
+      - default_ssr_name_45
+      - default_ssr_name_46
+      - default_ssr_name_47
+      - default_ssr_name_48
+      - default_ssr_name_49
+      - default_ssr_name_50
+      - default_ssr_name_51
+      - default_ssr_name_52
+      - default_ssr_name_53
+      - default_ssr_name_54
+      - default_ssr_name_55
+      - default_ssr_name_56
+      - default_ssr_name_57
+      - default_ssr_name_58
+      - default_ssr_name_59
+      - default_ssr_name_60
+      - default_ssr_name_61
+      - default_ssr_name_62
+      - default_ssr_name_63
+      - default_ssr_name_64
+      - default_ssr_name_65
+      - default_ssr_name_66
+      - default_ssr_name_67
+      - default_ssr_name_68
+      - default_ssr_name_69
+      - default_ssr_name_70
+      - default_ssr_name_71
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
