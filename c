@@ -5,252 +5,1700 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'default_name_1', server: 20.205.106.28, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: '🇺🇸_US_美国_2', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: '🇯🇵_JP_日本_3', server: awsrb3.moonfree.top, port: 443, type: vmess, uuid: 348f0186-e84e-4eec-b57f-03b988d2c498, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: awsrb3.moonfree.top }}
-  - {name: 'default_name_4', server: 198.41.212.18, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: 'default_name_5', server: 198.41.212.15, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: 'default_name_6', server: 198.41.212.5, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: '🇺🇸_US_美国_7', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: 'default_name_8', server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: '🇺🇸_US_美国->🇫🇷_FR_法国_9', server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/shuier", host: xc1.v2rie.pp.ua }}
-  - {name: '🇺🇸_US_美国_10', server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: iesei1ei.com }}
-  - {name: '🇺🇸_US_美国_11', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
-  - {name: '🇺🇸_US_美国_12', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-miami.lvuft.com }}
-  - {name: '🇺🇸_US_美国_13', server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-miami.lvuft.com }}
-  - {name: 'default_name_14', server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/The-Great-Awakening_vws", host: vincent-jackson2021.ga }}
-  - {name: 'default_name_15', server: 104.19.23.215, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc02.testred.xyz }}
-  - {name: '🇺🇸_US_美国->🇨🇿_CZ_捷克_16', server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: '🇭🇺_HU_匈牙利_17', server: 185.252.223.204, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: { path: "/path/243535322906", host: www.16675463.xyz }}
-  - {name: '🇺🇸_US_美国->🇭🇰_HK_香港_18', server: 104.24.172.156, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc02.testred.xyz }}
-  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19', server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: 'default_name_20', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: 'default_name_21', server: 104.16.169.85, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc02.testred.xyz }}
-  - {name: '🇺🇸_US_美国_22', server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-washington.lvuft.com }}
-  - {name: '🇭🇰_HK_香港->🇮🇳_IN_印度_23', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: aicoo6du.com }}
-  - {name: 'default_name_24', server: 104.19.28.35, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: cdn-dc02.testred.xyz }}
-  - {name: '🇦🇺_AU_澳大利亚_25', server: v10.ssrsub.com, port: 166, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
-  - {name: '🇺🇸_US_美国_26', server: fa1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-washington.lvuft.com }}
+  - {name: '🇺🇸_US_美国_1', server: 38.114.114.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_2', server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_3', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: '🇺🇸_US_美国_4', server: 38.75.137.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_5', server: 38.75.136.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_6', server: 38.114.114.69, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_7', server: 167.88.61.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_8', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: '🇺🇸_US_美国_9', server: 38.75.137.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_10', server: 38.75.137.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_11', server: 38.114.114.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_12', server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_13', server: 38.114.114.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_14', server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_15', server: 38.114.114.69, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_16', server: 38.75.137.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_17', server: 38.114.114.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_18', server: 38.114.114.69, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_19', server: 38.75.136.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_20', server: 38.75.137.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_21', server: 169.197.143.52, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_22', server: 169.197.143.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_23', server: 167.88.61.109, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_24', server: 38.75.137.66, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_25', server: 167.88.62.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_26', server: 38.75.136.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_27', server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_28', server: 38.68.134.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_29', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
+  - {name: '🇺🇸_US_美国_30', server: 38.75.136.58, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_31', server: 38.68.134.37, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_32', server: 38.75.137.66, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_33', server: 38.68.135.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_34', server: 38.68.134.37, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_35', server: 38.75.136.58, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_36', server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_37', server: 38.68.134.191, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_38', server: 38.75.136.58, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_39', server: 38.68.135.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_40', server: 38.68.135.93, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_41', server: 38.75.136.58, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_42', server: 38.68.134.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_43', server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_44', server: 38.68.134.37, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_45', server: 167.88.62.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_46', server: 167.88.62.34, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_47', server: 167.88.62.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_48', server: 38.68.134.37, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_49', server: 38.68.135.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_50', server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_51', server: 38.143.66.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_52', server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_53', server: 38.68.135.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_54', server: 38.68.134.37, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_55', server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_56', server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_57', server: 38.75.137.66, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_58', server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_59', server: 38.91.100.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_60', server: 38.68.134.190, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_61', server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_62', server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_63', server: 142.202.48.77, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_64', server: 38.68.134.190, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_65', server: 142.202.48.77, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_66', server: 142.202.48.77, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸_US_美国_67', server: 142.202.48.77, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_US_美国_68', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: '🇺🇸_US_美国_69', server: 38.68.134.190, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_70', server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_71', server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸_US_美国_72', server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_73', server: 38.68.134.190, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_74', server: 167.88.63.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_75', server: 142.202.48.58, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_76', server: 169.197.143.52, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_77', server: 142.202.48.77, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_78', server: 142.202.48.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_79', server: 142.202.48.77, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_80', server: 142.202.48.77, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_81', server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_82', server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_83', server: 38.68.134.190, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_84', server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_85', server: 142.202.48.77, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_86', server: 167.88.61.109, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_87', server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_88', server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_89', server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_90', server: 38.68.135.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_91', server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_92', server: 142.202.48.58, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_93', server: 38.107.226.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_94', server: 38.75.136.58, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_95', server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_96', server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_97', server: 142.202.48.58, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_98', server: 142.202.48.77, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_99', server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸_US_美国_100', server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_101', server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_102', server: 142.202.48.58, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_103', server: 142.202.48.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_104', server: 142.202.48.58, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_105', server: 142.202.48.58, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_106', server: 38.107.226.159, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_107', server: 142.202.48.58, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_108', server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_109', server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_110', server: 38.107.226.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_111', server: 38.75.136.93, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_112', server: 38.107.226.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_113', server: 38.91.101.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_114', server: 142.202.48.7, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_115', server: 167.88.62.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_116', server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_117', server: 38.91.101.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_118', server: 38.107.226.238, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_119', server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸_US_美国_120', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
+  - {name: '🇺🇸_US_美国_121', server: 38.91.100.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_122', server: 169.197.143.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_123', server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: iesei1ei.com }}
+  - {name: '🇺🇸_US_美国_124', server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_125', server: 169.197.141.92, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_126', server: 38.68.134.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_127', server: 38.107.226.238, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_128', server: 142.202.48.58, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_129', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
+  - {name: '🇺🇸_US_美国_130', server: 142.202.48.7, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_131', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-miami.lvuft.com }}
+  - {name: '🇺🇸_US_美国_132', server: 38.114.114.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_133', server: 169.197.141.244, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_134', server: 38.75.137.187, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_135', server: 38.75.136.58, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_136', server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-miami.lvuft.com }}
+  - {name: '🇺🇸_US_美国_137', server: 142.202.48.77, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_138', server: 169.197.143.52, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_139', server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_140', server: 38.107.226.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_141', server: 142.202.48.77, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_142', server: 38.91.100.200, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_143', server: 38.91.101.11, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_144', server: 142.202.48.77, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_145', server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_146', server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_147', server: 167.88.61.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸_US_美国_148', server: 38.68.134.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_149', server: 38.107.226.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_150', server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_151', server: 38.75.136.93, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_US_美国_152', server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_153', server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_154', server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_155', server: 38.114.114.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_156', server: 38.68.134.191, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_157', server: 38.68.134.37, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_158', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_159', server: 38.107.226.49, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_160', server: 38.75.136.58, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_161', server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸_US_美国_162', server: 142.202.48.77, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_163', server: 38.68.135.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_164', server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_165', server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_166', server: 142.202.48.7, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_167', server: 38.107.226.48, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_168', server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_169', server: 142.202.48.7, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_170', server: 38.75.136.93, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_171', server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_172', server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_173', server: 167.88.61.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_174', server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_175', server: 167.88.61.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_176', server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-washington.lvuft.com }}
+  - {name: '🇺🇸_US_美国_177', server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_178', server: 38.68.135.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_179', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_180', server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_181', server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_US_美国_182', server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸_US_美国_183', server: 38.75.136.93, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸_US_美国_184', server: 38.107.226.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_185', server: 38.75.136.93, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_186', server: 38.75.136.93, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_187', server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_188', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_189', server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_190', server: 142.202.48.34, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_191', server: 38.75.136.93, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸_US_美国_192', server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_193', server: 38.107.226.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_194', server: 167.88.61.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_195', server: 167.88.61.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国_196', server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇺🇸_US_美国_197', server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国_198', server: 38.68.135.93, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_199', server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_200', server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸_US_美国_201', server: 142.202.48.7, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_202', server: 38.68.134.190, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_203', server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_204', server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_205', server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国_206', server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇺🇸_US_美国_207', server: fa1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-washington.lvuft.com }}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - default_name_1
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - default_name_14
-      - default_name_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇭🇺_HU_匈牙利_17
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - default_name_20
-      - default_name_21
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - default_name_24
-      - 🇦🇺_AU_澳大利亚_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇺🇸_US_美国_51
+      - 🇺🇸_US_美国_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇺🇸_US_美国_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇺🇸_US_美国_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇺🇸_US_美国_76
+      - 🇺🇸_US_美国_77
+      - 🇺🇸_US_美国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇺🇸_US_美国_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇺🇸_US_美国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇺🇸_US_美国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇺🇸_US_美国_111
+      - 🇺🇸_US_美国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇺🇸_US_美国_118
+      - 🇺🇸_US_美国_119
+      - 🇺🇸_US_美国_120
+      - 🇺🇸_US_美国_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇺🇸_US_美国_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国_136
+      - 🇺🇸_US_美国_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇺🇸_US_美国_142
+      - 🇺🇸_US_美国_143
+      - 🇺🇸_US_美国_144
+      - 🇺🇸_US_美国_145
+      - 🇺🇸_US_美国_146
+      - 🇺🇸_US_美国_147
+      - 🇺🇸_US_美国_148
+      - 🇺🇸_US_美国_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇺🇸_US_美国_152
+      - 🇺🇸_US_美国_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇺🇸_US_美国_156
+      - 🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇺🇸_US_美国_166
+      - 🇺🇸_US_美国_167
+      - 🇺🇸_US_美国_168
+      - 🇺🇸_US_美国_169
+      - 🇺🇸_US_美国_170
+      - 🇺🇸_US_美国_171
+      - 🇺🇸_US_美国_172
+      - 🇺🇸_US_美国_173
+      - 🇺🇸_US_美国_174
+      - 🇺🇸_US_美国_175
+      - 🇺🇸_US_美国_176
+      - 🇺🇸_US_美国_177
+      - 🇺🇸_US_美国_178
+      - 🇺🇸_US_美国_179
+      - 🇺🇸_US_美国_180
+      - 🇺🇸_US_美国_181
+      - 🇺🇸_US_美国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇺🇸_US_美国_186
+      - 🇺🇸_US_美国_187
+      - 🇺🇸_US_美国_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇺🇸_US_美国_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇺🇸_US_美国_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇺🇸_US_美国_207
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - default_name_1
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - default_name_14
-      - default_name_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇭🇺_HU_匈牙利_17
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - default_name_20
-      - default_name_21
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - default_name_24
-      - 🇦🇺_AU_澳大利亚_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇺🇸_US_美国_51
+      - 🇺🇸_US_美国_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇺🇸_US_美国_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇺🇸_US_美国_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇺🇸_US_美国_76
+      - 🇺🇸_US_美国_77
+      - 🇺🇸_US_美国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇺🇸_US_美国_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇺🇸_US_美国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇺🇸_US_美国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇺🇸_US_美国_111
+      - 🇺🇸_US_美国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇺🇸_US_美国_118
+      - 🇺🇸_US_美国_119
+      - 🇺🇸_US_美国_120
+      - 🇺🇸_US_美国_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇺🇸_US_美国_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国_136
+      - 🇺🇸_US_美国_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇺🇸_US_美国_142
+      - 🇺🇸_US_美国_143
+      - 🇺🇸_US_美国_144
+      - 🇺🇸_US_美国_145
+      - 🇺🇸_US_美国_146
+      - 🇺🇸_US_美国_147
+      - 🇺🇸_US_美国_148
+      - 🇺🇸_US_美国_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇺🇸_US_美国_152
+      - 🇺🇸_US_美国_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇺🇸_US_美国_156
+      - 🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇺🇸_US_美国_166
+      - 🇺🇸_US_美国_167
+      - 🇺🇸_US_美国_168
+      - 🇺🇸_US_美国_169
+      - 🇺🇸_US_美国_170
+      - 🇺🇸_US_美国_171
+      - 🇺🇸_US_美国_172
+      - 🇺🇸_US_美国_173
+      - 🇺🇸_US_美国_174
+      - 🇺🇸_US_美国_175
+      - 🇺🇸_US_美国_176
+      - 🇺🇸_US_美国_177
+      - 🇺🇸_US_美国_178
+      - 🇺🇸_US_美国_179
+      - 🇺🇸_US_美国_180
+      - 🇺🇸_US_美国_181
+      - 🇺🇸_US_美国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇺🇸_US_美国_186
+      - 🇺🇸_US_美国_187
+      - 🇺🇸_US_美国_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇺🇸_US_美国_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇺🇸_US_美国_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇺🇸_US_美国_207
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - default_name_1
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - default_name_14
-      - default_name_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇭🇺_HU_匈牙利_17
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - default_name_20
-      - default_name_21
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - default_name_24
-      - 🇦🇺_AU_澳大利亚_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇺🇸_US_美国_51
+      - 🇺🇸_US_美国_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇺🇸_US_美国_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇺🇸_US_美国_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇺🇸_US_美国_76
+      - 🇺🇸_US_美国_77
+      - 🇺🇸_US_美国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇺🇸_US_美国_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇺🇸_US_美国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇺🇸_US_美国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇺🇸_US_美国_111
+      - 🇺🇸_US_美国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇺🇸_US_美国_118
+      - 🇺🇸_US_美国_119
+      - 🇺🇸_US_美国_120
+      - 🇺🇸_US_美国_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇺🇸_US_美国_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国_136
+      - 🇺🇸_US_美国_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇺🇸_US_美国_142
+      - 🇺🇸_US_美国_143
+      - 🇺🇸_US_美国_144
+      - 🇺🇸_US_美国_145
+      - 🇺🇸_US_美国_146
+      - 🇺🇸_US_美国_147
+      - 🇺🇸_US_美国_148
+      - 🇺🇸_US_美国_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇺🇸_US_美国_152
+      - 🇺🇸_US_美国_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇺🇸_US_美国_156
+      - 🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇺🇸_US_美国_166
+      - 🇺🇸_US_美国_167
+      - 🇺🇸_US_美国_168
+      - 🇺🇸_US_美国_169
+      - 🇺🇸_US_美国_170
+      - 🇺🇸_US_美国_171
+      - 🇺🇸_US_美国_172
+      - 🇺🇸_US_美国_173
+      - 🇺🇸_US_美国_174
+      - 🇺🇸_US_美国_175
+      - 🇺🇸_US_美国_176
+      - 🇺🇸_US_美国_177
+      - 🇺🇸_US_美国_178
+      - 🇺🇸_US_美国_179
+      - 🇺🇸_US_美国_180
+      - 🇺🇸_US_美国_181
+      - 🇺🇸_US_美国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇺🇸_US_美国_186
+      - 🇺🇸_US_美国_187
+      - 🇺🇸_US_美国_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇺🇸_US_美国_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇺🇸_US_美国_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇺🇸_US_美国_207
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - default_name_1
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - default_name_14
-      - default_name_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇭🇺_HU_匈牙利_17
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - default_name_20
-      - default_name_21
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - default_name_24
-      - 🇦🇺_AU_澳大利亚_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇺🇸_US_美国_51
+      - 🇺🇸_US_美国_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇺🇸_US_美国_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇺🇸_US_美国_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇺🇸_US_美国_76
+      - 🇺🇸_US_美国_77
+      - 🇺🇸_US_美国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇺🇸_US_美国_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇺🇸_US_美国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇺🇸_US_美国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇺🇸_US_美国_111
+      - 🇺🇸_US_美国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇺🇸_US_美国_118
+      - 🇺🇸_US_美国_119
+      - 🇺🇸_US_美国_120
+      - 🇺🇸_US_美国_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇺🇸_US_美国_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国_136
+      - 🇺🇸_US_美国_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇺🇸_US_美国_142
+      - 🇺🇸_US_美国_143
+      - 🇺🇸_US_美国_144
+      - 🇺🇸_US_美国_145
+      - 🇺🇸_US_美国_146
+      - 🇺🇸_US_美国_147
+      - 🇺🇸_US_美国_148
+      - 🇺🇸_US_美国_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇺🇸_US_美国_152
+      - 🇺🇸_US_美国_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇺🇸_US_美国_156
+      - 🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇺🇸_US_美国_166
+      - 🇺🇸_US_美国_167
+      - 🇺🇸_US_美国_168
+      - 🇺🇸_US_美国_169
+      - 🇺🇸_US_美国_170
+      - 🇺🇸_US_美国_171
+      - 🇺🇸_US_美国_172
+      - 🇺🇸_US_美国_173
+      - 🇺🇸_US_美国_174
+      - 🇺🇸_US_美国_175
+      - 🇺🇸_US_美国_176
+      - 🇺🇸_US_美国_177
+      - 🇺🇸_US_美国_178
+      - 🇺🇸_US_美国_179
+      - 🇺🇸_US_美国_180
+      - 🇺🇸_US_美国_181
+      - 🇺🇸_US_美国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇺🇸_US_美国_186
+      - 🇺🇸_US_美国_187
+      - 🇺🇸_US_美国_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇺🇸_US_美国_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇺🇸_US_美国_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇺🇸_US_美国_207
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - default_name_1
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - default_name_14
-      - default_name_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇭🇺_HU_匈牙利_17
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - default_name_20
-      - default_name_21
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - default_name_24
-      - 🇦🇺_AU_澳大利亚_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇺🇸_US_美国_51
+      - 🇺🇸_US_美国_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇺🇸_US_美国_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇺🇸_US_美国_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇺🇸_US_美国_76
+      - 🇺🇸_US_美国_77
+      - 🇺🇸_US_美国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇺🇸_US_美国_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇺🇸_US_美国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇺🇸_US_美国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇺🇸_US_美国_111
+      - 🇺🇸_US_美国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇺🇸_US_美国_118
+      - 🇺🇸_US_美国_119
+      - 🇺🇸_US_美国_120
+      - 🇺🇸_US_美国_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇺🇸_US_美国_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国_136
+      - 🇺🇸_US_美国_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇺🇸_US_美国_142
+      - 🇺🇸_US_美国_143
+      - 🇺🇸_US_美国_144
+      - 🇺🇸_US_美国_145
+      - 🇺🇸_US_美国_146
+      - 🇺🇸_US_美国_147
+      - 🇺🇸_US_美国_148
+      - 🇺🇸_US_美国_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇺🇸_US_美国_152
+      - 🇺🇸_US_美国_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇺🇸_US_美国_156
+      - 🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇺🇸_US_美国_166
+      - 🇺🇸_US_美国_167
+      - 🇺🇸_US_美国_168
+      - 🇺🇸_US_美国_169
+      - 🇺🇸_US_美国_170
+      - 🇺🇸_US_美国_171
+      - 🇺🇸_US_美国_172
+      - 🇺🇸_US_美国_173
+      - 🇺🇸_US_美国_174
+      - 🇺🇸_US_美国_175
+      - 🇺🇸_US_美国_176
+      - 🇺🇸_US_美国_177
+      - 🇺🇸_US_美国_178
+      - 🇺🇸_US_美国_179
+      - 🇺🇸_US_美国_180
+      - 🇺🇸_US_美国_181
+      - 🇺🇸_US_美国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇺🇸_US_美国_186
+      - 🇺🇸_US_美国_187
+      - 🇺🇸_US_美国_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇺🇸_US_美国_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇺🇸_US_美国_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇺🇸_US_美国_207
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - default_name_1
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - default_name_14
-      - default_name_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇭🇺_HU_匈牙利_17
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - default_name_20
-      - default_name_21
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - default_name_24
-      - 🇦🇺_AU_澳大利亚_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇺🇸_US_美国_51
+      - 🇺🇸_US_美国_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇺🇸_US_美国_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇺🇸_US_美国_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇺🇸_US_美国_76
+      - 🇺🇸_US_美国_77
+      - 🇺🇸_US_美国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇺🇸_US_美国_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇺🇸_US_美国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇺🇸_US_美国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇺🇸_US_美国_111
+      - 🇺🇸_US_美国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇺🇸_US_美国_118
+      - 🇺🇸_US_美国_119
+      - 🇺🇸_US_美国_120
+      - 🇺🇸_US_美国_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇺🇸_US_美国_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国_136
+      - 🇺🇸_US_美国_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇺🇸_US_美国_142
+      - 🇺🇸_US_美国_143
+      - 🇺🇸_US_美国_144
+      - 🇺🇸_US_美国_145
+      - 🇺🇸_US_美国_146
+      - 🇺🇸_US_美国_147
+      - 🇺🇸_US_美国_148
+      - 🇺🇸_US_美国_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇺🇸_US_美国_152
+      - 🇺🇸_US_美国_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇺🇸_US_美国_156
+      - 🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇺🇸_US_美国_166
+      - 🇺🇸_US_美国_167
+      - 🇺🇸_US_美国_168
+      - 🇺🇸_US_美国_169
+      - 🇺🇸_US_美国_170
+      - 🇺🇸_US_美国_171
+      - 🇺🇸_US_美国_172
+      - 🇺🇸_US_美国_173
+      - 🇺🇸_US_美国_174
+      - 🇺🇸_US_美国_175
+      - 🇺🇸_US_美国_176
+      - 🇺🇸_US_美国_177
+      - 🇺🇸_US_美国_178
+      - 🇺🇸_US_美国_179
+      - 🇺🇸_US_美国_180
+      - 🇺🇸_US_美国_181
+      - 🇺🇸_US_美国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇺🇸_US_美国_186
+      - 🇺🇸_US_美国_187
+      - 🇺🇸_US_美国_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇺🇸_US_美国_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇺🇸_US_美国_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇺🇸_US_美国_207
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - default_name_1
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - default_name_14
-      - default_name_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇭🇺_HU_匈牙利_17
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - default_name_20
-      - default_name_21
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - default_name_24
-      - 🇦🇺_AU_澳大利亚_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇺🇸_US_美国_51
+      - 🇺🇸_US_美国_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇺🇸_US_美国_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇺🇸_US_美国_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇺🇸_US_美国_76
+      - 🇺🇸_US_美国_77
+      - 🇺🇸_US_美国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇺🇸_US_美国_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇺🇸_US_美国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇺🇸_US_美国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇺🇸_US_美国_111
+      - 🇺🇸_US_美国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇺🇸_US_美国_118
+      - 🇺🇸_US_美国_119
+      - 🇺🇸_US_美国_120
+      - 🇺🇸_US_美国_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇺🇸_US_美国_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国_136
+      - 🇺🇸_US_美国_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇺🇸_US_美国_142
+      - 🇺🇸_US_美国_143
+      - 🇺🇸_US_美国_144
+      - 🇺🇸_US_美国_145
+      - 🇺🇸_US_美国_146
+      - 🇺🇸_US_美国_147
+      - 🇺🇸_US_美国_148
+      - 🇺🇸_US_美国_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇺🇸_US_美国_152
+      - 🇺🇸_US_美国_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇺🇸_US_美国_156
+      - 🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇺🇸_US_美国_166
+      - 🇺🇸_US_美国_167
+      - 🇺🇸_US_美国_168
+      - 🇺🇸_US_美国_169
+      - 🇺🇸_US_美国_170
+      - 🇺🇸_US_美国_171
+      - 🇺🇸_US_美国_172
+      - 🇺🇸_US_美国_173
+      - 🇺🇸_US_美国_174
+      - 🇺🇸_US_美国_175
+      - 🇺🇸_US_美国_176
+      - 🇺🇸_US_美国_177
+      - 🇺🇸_US_美国_178
+      - 🇺🇸_US_美国_179
+      - 🇺🇸_US_美国_180
+      - 🇺🇸_US_美国_181
+      - 🇺🇸_US_美国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇺🇸_US_美国_186
+      - 🇺🇸_US_美国_187
+      - 🇺🇸_US_美国_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇺🇸_US_美国_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇺🇸_US_美国_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇺🇸_US_美国_207
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -266,32 +1714,213 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - default_name_1
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - default_name_8
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_9
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
-      - default_name_14
-      - default_name_15
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_16
-      - 🇭🇺_HU_匈牙利_17
-      - 🇺🇸_US_美国->🇭🇰_HK_香港_18
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_19
-      - default_name_20
-      - default_name_21
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_23
-      - default_name_24
-      - 🇦🇺_AU_澳大利亚_25
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇺🇸_US_美国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇺🇸_US_美国_51
+      - 🇺🇸_US_美国_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇺🇸_US_美国_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇺🇸_US_美国_60
+      - 🇺🇸_US_美国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇺🇸_US_美国_67
+      - 🇺🇸_US_美国_68
+      - 🇺🇸_US_美国_69
+      - 🇺🇸_US_美国_70
+      - 🇺🇸_US_美国_71
+      - 🇺🇸_US_美国_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇺🇸_US_美国_76
+      - 🇺🇸_US_美国_77
+      - 🇺🇸_US_美国_78
+      - 🇺🇸_US_美国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇺🇸_US_美国_85
+      - 🇺🇸_US_美国_86
+      - 🇺🇸_US_美国_87
+      - 🇺🇸_US_美国_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇺🇸_US_美国_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇺🇸_US_美国_101
+      - 🇺🇸_US_美国_102
+      - 🇺🇸_US_美国_103
+      - 🇺🇸_US_美国_104
+      - 🇺🇸_US_美国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇺🇸_US_美国_111
+      - 🇺🇸_US_美国_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇺🇸_US_美国_115
+      - 🇺🇸_US_美国_116
+      - 🇺🇸_US_美国_117
+      - 🇺🇸_US_美国_118
+      - 🇺🇸_US_美国_119
+      - 🇺🇸_US_美国_120
+      - 🇺🇸_US_美国_121
+      - 🇺🇸_US_美国_122
+      - 🇺🇸_US_美国_123
+      - 🇺🇸_US_美国_124
+      - 🇺🇸_US_美国_125
+      - 🇺🇸_US_美国_126
+      - 🇺🇸_US_美国_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇺🇸_US_美国_131
+      - 🇺🇸_US_美国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国_136
+      - 🇺🇸_US_美国_137
+      - 🇺🇸_US_美国_138
+      - 🇺🇸_US_美国_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇺🇸_US_美国_142
+      - 🇺🇸_US_美国_143
+      - 🇺🇸_US_美国_144
+      - 🇺🇸_US_美国_145
+      - 🇺🇸_US_美国_146
+      - 🇺🇸_US_美国_147
+      - 🇺🇸_US_美国_148
+      - 🇺🇸_US_美国_149
+      - 🇺🇸_US_美国_150
+      - 🇺🇸_US_美国_151
+      - 🇺🇸_US_美国_152
+      - 🇺🇸_US_美国_153
+      - 🇺🇸_US_美国_154
+      - 🇺🇸_US_美国_155
+      - 🇺🇸_US_美国_156
+      - 🇺🇸_US_美国_157
+      - 🇺🇸_US_美国_158
+      - 🇺🇸_US_美国_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
+      - 🇺🇸_US_美国_165
+      - 🇺🇸_US_美国_166
+      - 🇺🇸_US_美国_167
+      - 🇺🇸_US_美国_168
+      - 🇺🇸_US_美国_169
+      - 🇺🇸_US_美国_170
+      - 🇺🇸_US_美国_171
+      - 🇺🇸_US_美国_172
+      - 🇺🇸_US_美国_173
+      - 🇺🇸_US_美国_174
+      - 🇺🇸_US_美国_175
+      - 🇺🇸_US_美国_176
+      - 🇺🇸_US_美国_177
+      - 🇺🇸_US_美国_178
+      - 🇺🇸_US_美国_179
+      - 🇺🇸_US_美国_180
+      - 🇺🇸_US_美国_181
+      - 🇺🇸_US_美国_182
+      - 🇺🇸_US_美国_183
+      - 🇺🇸_US_美国_184
+      - 🇺🇸_US_美国_185
+      - 🇺🇸_US_美国_186
+      - 🇺🇸_US_美国_187
+      - 🇺🇸_US_美国_188
+      - 🇺🇸_US_美国_189
+      - 🇺🇸_US_美国_190
+      - 🇺🇸_US_美国_191
+      - 🇺🇸_US_美国_192
+      - 🇺🇸_US_美国_193
+      - 🇺🇸_US_美国_194
+      - 🇺🇸_US_美国_195
+      - 🇺🇸_US_美国_196
+      - 🇺🇸_US_美国_197
+      - 🇺🇸_US_美国_198
+      - 🇺🇸_US_美国_199
+      - 🇺🇸_US_美国_200
+      - 🇺🇸_US_美国_201
+      - 🇺🇸_US_美国_202
+      - 🇺🇸_US_美国_203
+      - 🇺🇸_US_美国_204
+      - 🇺🇸_US_美国_205
+      - 🇺🇸_US_美国_206
+      - 🇺🇸_US_美国_207
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
