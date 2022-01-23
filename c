@@ -5,52 +5,276 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇫🇷_FR_法国_1', server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Argentina_1', server: 131.255.4.140, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: UHu5NzfXjuur52h9}
+  - {name: 'Dalas.usa_2', server: 170.130.31.114, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: 'Los Angeles.USA_3', server: 66.55.92.75, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 6g8n89NARNcuTH2XvUtZ}
+  - {name: 'phoenix.USA_4', server: 170.130.15.34, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q8gsJVLZ5eYXU3uhmnbH}
+  - {name: 'sanjose.USA_5', server: 169.62.109.140, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 74cf7gsXJgd9Z4MAW42L}
+  - {name: 'saopaulo.Brazil_6', server: 177.54.152.89, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2GWsqE7Gr3nRMuuQZfFa}
+  - {name: 'seattle.USA_7', server: 104.140.21.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL}
+  - {name: 'toronto.Canada_8', server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: 'athens🇬🇷_9', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: 'bucharest.🇷🇴_10', server: 86.105.25.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK}
+  - {name: 'helsinki🇫🇮_11', server: 185.212.149.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: SxFvGWWUtEjyQnGbggq2}
+  - {name: 'kyiv.🇺🇦_12', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: 'lisbon🇵🇹_13', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: 'luxembourg🇱🇺_14', server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
+  - {name: 'madrid🇪🇸_15', server: 45.152.183.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: 'milan🇮🇹_16', server: 217.138.197.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: 'auckland🇲🇸_17', server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
+  - {name: 'hanoi🇻🇳_18', server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: 'hongkong🇭🇰_19', server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: 'jakarta🇮🇩_20', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: 'manila.🇸🇽_21', server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
+  - {name: 'melbourne🇦🇺_22', server: 116.206.230.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: zaNeDgu9mZKpEMTHQJy8}
+  - {name: 'seoul.🇰🇷_23', server: 169.56.83.206, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: V9eSCwLbC8xS97e3Brm3}
+  - {name: 'kualalumpur.🇲🇾_24', server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
+  - {name: 'singapore.🇸🇬_25', server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
+  - {name: 'petersburg.🇷🇺_26', server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
+  - {name: 'sydney.🇦🇺_27', server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: 'taipei.🇹🇼_28', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: 'tokyo.🇯🇵_29', server: 84.17.34.8, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国_1
+      - Argentina_1
+      - Dalas.usa_2
+      - Los Angeles.USA_3
+      - phoenix.USA_4
+      - sanjose.USA_5
+      - saopaulo.Brazil_6
+      - seattle.USA_7
+      - toronto.Canada_8
+      - athens🇬🇷_9
+      - bucharest.🇷🇴_10
+      - helsinki🇫🇮_11
+      - kyiv.🇺🇦_12
+      - lisbon🇵🇹_13
+      - luxembourg🇱🇺_14
+      - madrid🇪🇸_15
+      - milan🇮🇹_16
+      - auckland🇲🇸_17
+      - hanoi🇻🇳_18
+      - hongkong🇭🇰_19
+      - jakarta🇮🇩_20
+      - manila.🇸🇽_21
+      - melbourne🇦🇺_22
+      - seoul.🇰🇷_23
+      - kualalumpur.🇲🇾_24
+      - singapore.🇸🇬_25
+      - petersburg.🇷🇺_26
+      - sydney.🇦🇺_27
+      - taipei.🇹🇼_28
+      - tokyo.🇯🇵_29
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇫🇷_FR_法国_1
+      - Argentina_1
+      - Dalas.usa_2
+      - Los Angeles.USA_3
+      - phoenix.USA_4
+      - sanjose.USA_5
+      - saopaulo.Brazil_6
+      - seattle.USA_7
+      - toronto.Canada_8
+      - athens🇬🇷_9
+      - bucharest.🇷🇴_10
+      - helsinki🇫🇮_11
+      - kyiv.🇺🇦_12
+      - lisbon🇵🇹_13
+      - luxembourg🇱🇺_14
+      - madrid🇪🇸_15
+      - milan🇮🇹_16
+      - auckland🇲🇸_17
+      - hanoi🇻🇳_18
+      - hongkong🇭🇰_19
+      - jakarta🇮🇩_20
+      - manila.🇸🇽_21
+      - melbourne🇦🇺_22
+      - seoul.🇰🇷_23
+      - kualalumpur.🇲🇾_24
+      - singapore.🇸🇬_25
+      - petersburg.🇷🇺_26
+      - sydney.🇦🇺_27
+      - taipei.🇹🇼_28
+      - tokyo.🇯🇵_29
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国_1
+      - Argentina_1
+      - Dalas.usa_2
+      - Los Angeles.USA_3
+      - phoenix.USA_4
+      - sanjose.USA_5
+      - saopaulo.Brazil_6
+      - seattle.USA_7
+      - toronto.Canada_8
+      - athens🇬🇷_9
+      - bucharest.🇷🇴_10
+      - helsinki🇫🇮_11
+      - kyiv.🇺🇦_12
+      - lisbon🇵🇹_13
+      - luxembourg🇱🇺_14
+      - madrid🇪🇸_15
+      - milan🇮🇹_16
+      - auckland🇲🇸_17
+      - hanoi🇻🇳_18
+      - hongkong🇭🇰_19
+      - jakarta🇮🇩_20
+      - manila.🇸🇽_21
+      - melbourne🇦🇺_22
+      - seoul.🇰🇷_23
+      - kualalumpur.🇲🇾_24
+      - singapore.🇸🇬_25
+      - petersburg.🇷🇺_26
+      - sydney.🇦🇺_27
+      - taipei.🇹🇼_28
+      - tokyo.🇯🇵_29
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇫🇷_FR_法国_1
+      - Argentina_1
+      - Dalas.usa_2
+      - Los Angeles.USA_3
+      - phoenix.USA_4
+      - sanjose.USA_5
+      - saopaulo.Brazil_6
+      - seattle.USA_7
+      - toronto.Canada_8
+      - athens🇬🇷_9
+      - bucharest.🇷🇴_10
+      - helsinki🇫🇮_11
+      - kyiv.🇺🇦_12
+      - lisbon🇵🇹_13
+      - luxembourg🇱🇺_14
+      - madrid🇪🇸_15
+      - milan🇮🇹_16
+      - auckland🇲🇸_17
+      - hanoi🇻🇳_18
+      - hongkong🇭🇰_19
+      - jakarta🇮🇩_20
+      - manila.🇸🇽_21
+      - melbourne🇦🇺_22
+      - seoul.🇰🇷_23
+      - kualalumpur.🇲🇾_24
+      - singapore.🇸🇬_25
+      - petersburg.🇷🇺_26
+      - sydney.🇦🇺_27
+      - taipei.🇹🇼_28
+      - tokyo.🇯🇵_29
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇫🇷_FR_法国_1
+      - Argentina_1
+      - Dalas.usa_2
+      - Los Angeles.USA_3
+      - phoenix.USA_4
+      - sanjose.USA_5
+      - saopaulo.Brazil_6
+      - seattle.USA_7
+      - toronto.Canada_8
+      - athens🇬🇷_9
+      - bucharest.🇷🇴_10
+      - helsinki🇫🇮_11
+      - kyiv.🇺🇦_12
+      - lisbon🇵🇹_13
+      - luxembourg🇱🇺_14
+      - madrid🇪🇸_15
+      - milan🇮🇹_16
+      - auckland🇲🇸_17
+      - hanoi🇻🇳_18
+      - hongkong🇭🇰_19
+      - jakarta🇮🇩_20
+      - manila.🇸🇽_21
+      - melbourne🇦🇺_22
+      - seoul.🇰🇷_23
+      - kualalumpur.🇲🇾_24
+      - singapore.🇸🇬_25
+      - petersburg.🇷🇺_26
+      - sydney.🇦🇺_27
+      - taipei.🇹🇼_28
+      - tokyo.🇯🇵_29
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国_1
+      - Argentina_1
+      - Dalas.usa_2
+      - Los Angeles.USA_3
+      - phoenix.USA_4
+      - sanjose.USA_5
+      - saopaulo.Brazil_6
+      - seattle.USA_7
+      - toronto.Canada_8
+      - athens🇬🇷_9
+      - bucharest.🇷🇴_10
+      - helsinki🇫🇮_11
+      - kyiv.🇺🇦_12
+      - lisbon🇵🇹_13
+      - luxembourg🇱🇺_14
+      - madrid🇪🇸_15
+      - milan🇮🇹_16
+      - auckland🇲🇸_17
+      - hanoi🇻🇳_18
+      - hongkong🇭🇰_19
+      - jakarta🇮🇩_20
+      - manila.🇸🇽_21
+      - melbourne🇦🇺_22
+      - seoul.🇰🇷_23
+      - kualalumpur.🇲🇾_24
+      - singapore.🇸🇬_25
+      - petersburg.🇷🇺_26
+      - sydney.🇦🇺_27
+      - taipei.🇹🇼_28
+      - tokyo.🇯🇵_29
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷_FR_法国_1
+      - Argentina_1
+      - Dalas.usa_2
+      - Los Angeles.USA_3
+      - phoenix.USA_4
+      - sanjose.USA_5
+      - saopaulo.Brazil_6
+      - seattle.USA_7
+      - toronto.Canada_8
+      - athens🇬🇷_9
+      - bucharest.🇷🇴_10
+      - helsinki🇫🇮_11
+      - kyiv.🇺🇦_12
+      - lisbon🇵🇹_13
+      - luxembourg🇱🇺_14
+      - madrid🇪🇸_15
+      - milan🇮🇹_16
+      - auckland🇲🇸_17
+      - hanoi🇻🇳_18
+      - hongkong🇭🇰_19
+      - jakarta🇮🇩_20
+      - manila.🇸🇽_21
+      - melbourne🇦🇺_22
+      - seoul.🇰🇷_23
+      - kualalumpur.🇲🇾_24
+      - singapore.🇸🇬_25
+      - petersburg.🇷🇺_26
+      - sydney.🇦🇺_27
+      - taipei.🇹🇼_28
+      - tokyo.🇯🇵_29
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +290,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷_FR_法国_1
+      - Argentina_1
+      - Dalas.usa_2
+      - Los Angeles.USA_3
+      - phoenix.USA_4
+      - sanjose.USA_5
+      - saopaulo.Brazil_6
+      - seattle.USA_7
+      - toronto.Canada_8
+      - athens🇬🇷_9
+      - bucharest.🇷🇴_10
+      - helsinki🇫🇮_11
+      - kyiv.🇺🇦_12
+      - lisbon🇵🇹_13
+      - luxembourg🇱🇺_14
+      - madrid🇪🇸_15
+      - milan🇮🇹_16
+      - auckland🇲🇸_17
+      - hanoi🇻🇳_18
+      - hongkong🇭🇰_19
+      - jakarta🇮🇩_20
+      - manila.🇸🇽_21
+      - melbourne🇦🇺_22
+      - seoul.🇰🇷_23
+      - kualalumpur.🇲🇾_24
+      - singapore.🇸🇬_25
+      - petersburg.🇷🇺_26
+      - sydney.🇦🇺_27
+      - taipei.🇹🇼_28
+      - tokyo.🇯🇵_29
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
