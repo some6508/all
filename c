@@ -8,13 +8,6 @@ proxies:
   - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_1', server: iepl.hk.71bc.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
   - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_2', server: iepl.hk.4a75.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
   - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_3', server: iepl.hk.fda0.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_4', server: iepl.hk.7512.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_5', server: iepl.hk.0686.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_6', server: iepl.hk.31c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_7', server: iepl.hk.f6e8.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_8', server: iepl.hk.f663.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_9', server: iepl.sg.e0c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_10', server: iepl.sg.21ce.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -24,13 +17,6 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -39,13 +25,6 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -55,13 +34,6 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -70,13 +42,6 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -85,13 +50,6 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
   - name: 📲 电报信息
     type: select
     proxies:
@@ -100,13 +58,6 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -116,13 +67,6 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,13 +85,6 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
