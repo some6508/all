@@ -5,124 +5,124 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '菲律宾 VIP节点马尼拉●_1', server: gz1.52168.xyz, port: 1102, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com}
-  - {name: '法国 免费节点巴黎●_2', server: gz1.52168.xyz, port: 1116, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com}
-  - {name: '菲律宾 免费节点马尼拉●_3', server: gz1.52168.xyz, port: 1101, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com}
-  - {name: '美国 VIP节点洛杉矶●_4', server: gz1.52168.xyz, port: 1110, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com}
-  - {name: '越南 免费节点胡志明●_5', server: gz1.52168.xyz, port: 1107, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com}
-  - {name: '印度尼西亚 VIP节点雅加达●_6', server: gz1.52168.xyz, port: 1104, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com}
-  - {name: '澳大利亚 免费节点悉尼●_7', server: gz1.52168.xyz, port: 1117, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com}
-  - {name: '香港 广港国际以太网专线AZ●_8', server: gz1.52168.xyz, port: 1114, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com}
-  - {name: '印度尼西亚 免费节点雅加达●_9', server: gz1.52168.xyz, port: 1103, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com}
-  - {name: '香港 VIP节点HKT1 500MB●_10', server: gz1.52168.xyz, port: 1112, type: ssr, password: "epChJS35fV", cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_1', server: iepl.hk.71bc.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_2', server: iepl.hk.4a75.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_3', server: iepl.hk.fda0.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_4', server: iepl.hk.7512.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_5', server: iepl.hk.0686.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_6', server: iepl.hk.31c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_7', server: iepl.hk.f6e8.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_8', server: iepl.hk.f663.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_9', server: iepl.sg.e0c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_10', server: iepl.sg.21ce.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 菲律宾 VIP节点马尼拉●_1
-      - 法国 免费节点巴黎●_2
-      - 菲律宾 免费节点马尼拉●_3
-      - 美国 VIP节点洛杉矶●_4
-      - 越南 免费节点胡志明●_5
-      - 印度尼西亚 VIP节点雅加达●_6
-      - 澳大利亚 免费节点悉尼●_7
-      - 香港 广港国际以太网专线AZ●_8
-      - 印度尼西亚 免费节点雅加达●_9
-      - 香港 VIP节点HKT1 500MB●_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 菲律宾 VIP节点马尼拉●_1
-      - 法国 免费节点巴黎●_2
-      - 菲律宾 免费节点马尼拉●_3
-      - 美国 VIP节点洛杉矶●_4
-      - 越南 免费节点胡志明●_5
-      - 印度尼西亚 VIP节点雅加达●_6
-      - 澳大利亚 免费节点悉尼●_7
-      - 香港 广港国际以太网专线AZ●_8
-      - 印度尼西亚 免费节点雅加达●_9
-      - 香港 VIP节点HKT1 500MB●_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 菲律宾 VIP节点马尼拉●_1
-      - 法国 免费节点巴黎●_2
-      - 菲律宾 免费节点马尼拉●_3
-      - 美国 VIP节点洛杉矶●_4
-      - 越南 免费节点胡志明●_5
-      - 印度尼西亚 VIP节点雅加达●_6
-      - 澳大利亚 免费节点悉尼●_7
-      - 香港 广港国际以太网专线AZ●_8
-      - 印度尼西亚 免费节点雅加达●_9
-      - 香港 VIP节点HKT1 500MB●_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 菲律宾 VIP节点马尼拉●_1
-      - 法国 免费节点巴黎●_2
-      - 菲律宾 免费节点马尼拉●_3
-      - 美国 VIP节点洛杉矶●_4
-      - 越南 免费节点胡志明●_5
-      - 印度尼西亚 VIP节点雅加达●_6
-      - 澳大利亚 免费节点悉尼●_7
-      - 香港 广港国际以太网专线AZ●_8
-      - 印度尼西亚 免费节点雅加达●_9
-      - 香港 VIP节点HKT1 500MB●_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 菲律宾 VIP节点马尼拉●_1
-      - 法国 免费节点巴黎●_2
-      - 菲律宾 免费节点马尼拉●_3
-      - 美国 VIP节点洛杉矶●_4
-      - 越南 免费节点胡志明●_5
-      - 印度尼西亚 VIP节点雅加达●_6
-      - 澳大利亚 免费节点悉尼●_7
-      - 香港 广港国际以太网专线AZ●_8
-      - 印度尼西亚 免费节点雅加达●_9
-      - 香港 VIP节点HKT1 500MB●_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 菲律宾 VIP节点马尼拉●_1
-      - 法国 免费节点巴黎●_2
-      - 菲律宾 免费节点马尼拉●_3
-      - 美国 VIP节点洛杉矶●_4
-      - 越南 免费节点胡志明●_5
-      - 印度尼西亚 VIP节点雅加达●_6
-      - 澳大利亚 免费节点悉尼●_7
-      - 香港 广港国际以太网专线AZ●_8
-      - 印度尼西亚 免费节点雅加达●_9
-      - 香港 VIP节点HKT1 500MB●_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 菲律宾 VIP节点马尼拉●_1
-      - 法国 免费节点巴黎●_2
-      - 菲律宾 免费节点马尼拉●_3
-      - 美国 VIP节点洛杉矶●_4
-      - 越南 免费节点胡志明●_5
-      - 印度尼西亚 VIP节点雅加达●_6
-      - 澳大利亚 免费节点悉尼●_7
-      - 香港 广港国际以太网专线AZ●_8
-      - 印度尼西亚 免费节点雅加达●_9
-      - 香港 VIP节点HKT1 500MB●_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +138,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 菲律宾 VIP节点马尼拉●_1
-      - 法国 免费节点巴黎●_2
-      - 菲律宾 免费节点马尼拉●_3
-      - 美国 VIP节点洛杉矶●_4
-      - 越南 免费节点胡志明●_5
-      - 印度尼西亚 VIP节点雅加达●_6
-      - 澳大利亚 免费节点悉尼●_7
-      - 香港 广港国际以太网专线AZ●_8
-      - 印度尼西亚 免费节点雅加达●_9
-      - 香港 VIP节点HKT1 500MB●_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
