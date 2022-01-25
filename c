@@ -5,1796 +5,468 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '香港_TG@nodesharing_1', server: 93.179.125.232, port: 45387, type: ss, cipher: aes-256-gcm, password: 1wvu9ILlDB}
-  - {name: '香港_TG@nodesharing_2', server: 156.251.176.154, port: 34832, type: vmess, uuid: 495030aa-d52f-4e55-bbe5-d22d38eac3e8, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_3', server: 156.251.176.182, port: 43946, type: ss, cipher: aes-256-gcm, password: 4MHQmljRI0}
-  - {name: '香港_TG@nodesharing_4', server: 93.179.124.239, port: 13591, type: vmess, uuid: 66a19ef5-de9f-4c3f-c0c2-f87852fe2706, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_5', server: 93.179.124.239, port: 36126, type: ss, cipher: aes-256-gcm, password: LOcBPTTK0r}
-  - {name: '香港_TG@nodesharing_6', server: 130.wgong.xyz, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_7', server: 106.wgong.xyz, port: 11223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '中国_TG@nodesharing_8', server: 120.233.150.200, port: 50105, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9}
-  - {name: '香港_TG@nodesharing_9', server: 99.wgong.xyz, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_10', server: 110.wgong.xyz, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_11', server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_12', server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_13', server: 125.wgong.xyz, port: 52225, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_14', server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '美国_TG@nodesharing_15', server: v113.wgong.xyz, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_16', server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_17', server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_18', server: 125.wgong.xyz, port: 52225, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_19', server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_20', server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_21', server: 136.wgong.xyz, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_22', server: 85.wgong.xyz, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_23', server: 136.wgong.xyz, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_24', server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_25', server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_26', server: 20.205.96.84, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_27', server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_28', server: 136.wgong.xyz, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '中国_TG@nodesharing_29', server: 120.233.150.200, port: 50103, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9}
-  - {name: '香港_TG@nodesharing_30', server: 119.wgong.xyz, port: 52219, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_31', server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '中国_TG@nodesharing_32', server: wndjw.ezydfdd.com, port: 443, type: vmess, uuid: 03ab2300-a054-4e6f-bfeb-16864375c44e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/qwe" }}
-  - {name: '美国_TG@nodesharing_33', server: v111.wgong.xyz, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_34', server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_35', server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_36', server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_37', server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_38', server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '中国_TG@nodesharing_39', server: 233.ezydfdd.com, port: 443, type: vmess, uuid: 71e71266-c8b2-4dc7-8a19-f3390a7b1507, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/qwe" }}
-  - {name: '香港_TG@nodesharing_40', server: 127.wgong.xyz, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_41', server: 107.wgong.xyz, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_42', server: 107.wgong.xyz, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_43', server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_44', server: v115.wgong.xyz, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_45', server: 108.wgong.xyz, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_46', server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_47', server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '中国_TG@nodesharing_48', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '美国_TG@nodesharing_49', server: 89.208.245.157, port: 1234, type: ss, cipher: aes-256-gcm, password: 1234}
-  - {name: '香港_TG@nodesharing_50', server: 218.190.242.130, port: 443, type: trojan, password: daozhu-TGID-Uallen_Qbit-zhuanshudailidaoyongsiquanjia, sni: trojan-hongkong-hgc-vds-500mbps.transfer-xray.tk}
-  - {name: '中国_TG@nodesharing_51', server: 120.233.150.200, port: 50301, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9}
-  - {name: '中国_TG@nodesharing_52', server: tunnel-tw-a-01.xncloud.xyz, port: 504, type: vmess, uuid: d2b7d8e8-66ec-36b9-9a9c-5e85e198184f, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/niaoyun", host: mf-hinet-tw-04.xncloud.xyz }}
-  - {name: '中国_TG@nodesharing_53', server: 120.233.150.200, port: 50302, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9}
-  - {name: '美国_TG@nodesharing_54', server: 38.143.66.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '澳大利亚_TG@nodesharing_55', server: 185.212.62.132, port: 18272, type: vmess, uuid: eb9f6094-6c65-470c-a2d8-04c702b8f77c, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '中国_TG@nodesharing_56', server: tunnel-tw-a-01.xncloud.xyz, port: 505, type: vmess, uuid: d2b90316-8969-3f9b-8db2-a5b565a6bde3, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/niaoyun", host: mf-hinet-tw-05.xncloud.xyz }}
-  - {name: '韩国_TG@nodesharing_57', server: 141.164.34.6, port: 41092, type: vmess, uuid: fd2a9866-c16c-49d3-badd-650cdbfa63c8, alterId: 64, cipher: auto, tls: false, network: tcp}
-  - {name: '中国_TG@nodesharing_58', server: 120.233.150.200, port: 50202, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9}
-  - {name: '美国_TG@nodesharing_59', server: 156.251.189.244, port: 36837, type: vmess, uuid: d35c3589-6742-42a3-b86f-426f8a92ba44, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_60', server: 129.wgong.xyz, port: 52329, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '中国_TG@nodesharing_61', server: 120.233.150.200, port: 50201, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9}
-  - {name: '中国_TG@nodesharing_62', server: tunnel-tw-a-01.xncloud.xyz, port: 505, type: vmess, uuid: d2b7d8e8-66ec-36b9-9a9c-5e85e198184f, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/niaoyun", host: mf-hinet-tw-05.xncloud.xyz }}
-  - {name: '美国_TG@nodesharing_63', server: 156.251.189.106, port: 36445, type: vmess, uuid: f3d89fc1-eca6-4dac-bcb6-e609b28dbd5e, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '香港_TG@nodesharing_64', server: 132.wgong.xyz, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '中国_TG@nodesharing_65', server: 120.233.150.200, port: 50104, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9}
-  - {name: '韩国_TG@nodesharing_66', server: 141.164.53.152, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '美国_TG@nodesharing_67', server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国_TG@nodesharing_68', server: 38.143.66.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '中国_TG@nodesharing_69', server: 120.233.150.200, port: 50303, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9}
-  - {name: '德国_TG@nodesharing_70', server: 45.141.152.178, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
-  - {name: '德国_TG@nodesharing_71', server: 45.141.152.178, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
-  - {name: '美国_TG@nodesharing_72', server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国_TG@nodesharing_73', server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '马来西亚_TG@nodesharing_74', server: 223.25.246.4, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: '美国_TG@nodesharing_75', server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '马来西亚_TG@nodesharing_76', server: 223.25.246.4, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: '马来西亚_TG@nodesharing_77', server: 223.25.246.4, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: '美国_TG@nodesharing_78', server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国_TG@nodesharing_79', server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '加拿大_TG@nodesharing_80', server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '中国_TG@nodesharing_81', server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: '加拿大_TG@nodesharing_82', server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '马来西亚_TG@nodesharing_83', server: 223.25.246.4, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: '加拿大_TG@nodesharing_84', server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '美国_TG@nodesharing_85', server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '埃及_TG@nodesharing_86', server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
-  - {name: '美国_TG@nodesharing_87', server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '加拿大_TG@nodesharing_88', server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '加拿大_TG@nodesharing_89', server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '加拿大_TG@nodesharing_90', server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '加拿大_TG@nodesharing_91', server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '加拿大_TG@nodesharing_92', server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国_TG@nodesharing_93', server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '美国_TG@nodesharing_94', server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '加拿大_TG@nodesharing_95', server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国_TG@nodesharing_96', server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国_TG@nodesharing_97', server: 38.75.136.93, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '墨西哥_TG@nodesharing_98', server: 169.57.35.97, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: '中国_TG@nodesharing_99', server: 116.wgong.xyz, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '荷兰_TG@nodesharing_100', server: 89.238.177.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
-  - {name: '加拿大_TG@nodesharing_101', server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '埃及_TG@nodesharing_102', server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
-  - {name: '美国_TG@nodesharing_103', server: 169.197.141.244, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '美国_TG@nodesharing_104', server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '美国_TG@nodesharing_105', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '加拿大_TG@nodesharing_106', server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国_TG@nodesharing_107', server: 38.75.136.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国_TG@nodesharing_108', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国_TG@nodesharing_109', server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '香港_TG@nodesharing_110', server: 127.wgong.xyz, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '俄罗斯联邦_TG@nodesharing_111', server: 82.202.220.242, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
-  - {name: '中国_TG@nodesharing_112', server: 101.wgong.xyz, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '中国_TG@nodesharing_113', server: 118.wgong.xyz, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '美国_TG@nodesharing_114', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国_TG@nodesharing_115', server: 169.197.141.244, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '加拿大_TG@nodesharing_116', server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '马来西亚_TG@nodesharing_117', server: 223.25.246.4, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: '加拿大_TG@nodesharing_118', server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国_TG@nodesharing_119', server: 38.75.136.93, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '法国_TG@nodesharing_120', server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN}
-  - {name: '中国_TG@nodesharing_121', server: 101.wgong.xyz, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '美国_TG@nodesharing_122', server: 38.75.136.93, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '英国_TG@nodesharing_123', server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国_TG@nodesharing_124', server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '美国_TG@nodesharing_125', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '英国_TG@nodesharing_126', server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '葡萄牙_TG@nodesharing_127', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: '马来西亚_TG@nodesharing_128', server: 223.25.246.4, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: '法国_TG@nodesharing_129', server: 92.243.24.68, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bIS3QQFwFIm1}
-  - {name: '葡萄牙_TG@nodesharing_130', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: '英国_TG@nodesharing_131', server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '法国_TG@nodesharing_132', server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN}
-  - {name: '法国_TG@nodesharing_133', server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '德国_TG@nodesharing_134', server: 89.163.140.155, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '美国_TG@nodesharing_135', server: 38.75.136.93, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '香港_TG@nodesharing_136', server: v124.wgong.xyz, port: 52224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '法国_TG@nodesharing_137', server: 92.243.24.68, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bIS3QQFwFIm1}
-  - {name: '法国_TG@nodesharing_138', server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN}
-  - {name: '英国_TG@nodesharing_139', server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '香港_TG@nodesharing_140', server: 123.wgong.xyz, port: 52223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '美国_TG@nodesharing_141', server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '俄罗斯联邦_TG@nodesharing_142', server: jh-rus-01.zimuheikeji.tk, port: 443, type: vmess, uuid: fcc0d060-0806-47f0-eedb-9ef20bc757f2, alterId: 0, cipher: auto, tls: true, network: tcp}
-  - {name: '美国_TG@nodesharing_143', server: 142.4.105.253, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: 142.4.105.253 }}
-  - {name: '中国_TG@nodesharing_144', server: tunnel-jp-a-01.xncloud.xyz, port: 208, type: vmess, uuid: d2b90316-8969-3f9b-8db2-a5b565a6bde3, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/niaoyun", host: mf-aws-jp-08.xncloud.xyz }}
-  - {name: '葡萄牙_TG@nodesharing_145', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: '法国_TG@nodesharing_146', server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN}
-  - {name: '俄罗斯联邦_TG@nodesharing_147', server: msk.mtoly.xyz, port: 39438, type: trojan, password: aefe3659-4737-433a-b879-e172ce7fd212, sni: msk.mtoly.xyz}
-  - {name: '法国_TG@nodesharing_148', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '中国_TG@nodesharing_149', server: one.hmbiplc.com, port: 53894, type: vmess, uuid: 07d676a1-903d-4606-93bd-e3522089f951, alterId: 4, cipher: auto, tls: false, network: tcp}
-  - {name: '印度尼西亚_TG@nodesharing_150', server: 45.133.181.58, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: '印度尼西亚_TG@nodesharing_151', server: 45.133.181.58, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: '美国_TG@nodesharing_152', server: 6.lyzghim.com, port: 443, type: vmess, uuid: 2bb8823b-6938-4c82-87dc-0dee4c118b2d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/qwe" }}
-  - {name: '美国_TG@nodesharing_153', server: daw.ezydfdd.com, port: 443, type: vmess, uuid: ba38c261-7b27-4c96-adf9-0dfcbc8ab40f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/qwe" }}
-  - {name: '美国_TG@nodesharing_154', server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '香港_TG@nodesharing_155', server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219}
-  - {name: '香港_TG@nodesharing_156', server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: free.upyun.online}
-  - {name: '尼日利亚_TG@nodesharing_157', server: 102.129.144.142, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6}
-  - {name: '南非_TG@nodesharing_158', server: 3.ezydfdd.com, port: 443, type: vmess, uuid: 7ab3f0d7-164c-4bde-8a45-2d6653da2ad1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/qwe" }}
-  - {name: '印度_TG@nodesharing_159', server: 172.104.207.231, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '香港_TG@nodesharing_160', server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219}
-  - {name: '印度_TG@nodesharing_161', server: 192.46.209.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '印度_TG@nodesharing_162', server: 172.105.35.151, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '菲律宾_TG@nodesharing_163', server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
-  - {name: '印度_TG@nodesharing_164', server: 192.46.209.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度_TG@nodesharing_165', server: 192.46.209.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度_TG@nodesharing_166', server: 172.105.35.151, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '印度_TG@nodesharing_167', server: 172.105.63.119, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '印度_TG@nodesharing_168', server: 192.46.209.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '印度_TG@nodesharing_169', server: 192.46.209.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '希腊_TG@nodesharing_170', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: '印度_TG@nodesharing_171', server: 192.46.209.227, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '南非_TG@nodesharing_172', server: 3.ezydfdd.com, port: 443, type: vmess, uuid: 7ab3f0d7-164c-4bde-8a45-2d6653da2ad1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/qwe" }}
-  - {name: '印度_TG@nodesharing_173', server: 172.105.35.151, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度_TG@nodesharing_174', server: 172.105.35.151, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度_TG@nodesharing_175', server: 192.46.209.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '印度_TG@nodesharing_176', server: 172.105.35.151, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度_TG@nodesharing_177', server: 172.105.35.151, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度_TG@nodesharing_178', server: 172.105.35.151, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '印度_TG@nodesharing_179', server: 192.46.209.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '印度_TG@nodesharing_180', server: 192.46.209.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国_TG@nodesharing_181', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws" }}
-  - {name: '印度_TG@nodesharing_182', server: 192.46.209.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '印度_TG@nodesharing_183', server: 172.105.35.151, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '印度_TG@nodesharing_184', server: 192.46.209.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '印度_TG@nodesharing_185', server: 172.105.35.151, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国_TG@nodesharing_186', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws" }}
-  - {name: '法国_TG@nodesharing_187', server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN}
-  - {name: '法国_TG@nodesharing_188', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '美国_TG@nodesharing_189', server: 38.75.136.93, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '美国_TG@nodesharing_190', server: 666.lyzghim.com, port: 443, type: vmess, uuid: 435a71b8-197d-4af8-ea17-7b2f7bb9eeda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/qwe" }}
-  - {name: '美国_TG@nodesharing_191', server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: 23a8f304-5667-4f47-9fad-72e23ddc59be, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/theuploadapi" }}
-  - {name: '印度_TG@nodesharing_192', server: 192.46.209.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '法国_TG@nodesharing_193', server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN}
-  - {name: '美国_TG@nodesharing_194', server: aws.us.tgproxy.wtf, port: 21888, type: vmess, uuid: 23a8f304-5667-4f47-9fad-72e23ddc59be, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/theuploadapi" }}
-  - {name: '印度_TG@nodesharing_195', server: 172.105.35.151, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '印度_TG@nodesharing_196', server: 192.46.209.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '香港_TG@nodesharing_197', server: 143.92.43.154, port: 443, type: vmess, uuid: 5ef52f54-b83a-42e8-8a35-0d02cb1f969d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/mYtQlF", host: 1.ezydfdd.com }}
-  - {name: '中国_TG@nodesharing_198', server: 120.233.150.200, port: 50101, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9}
-  - {name: '韩国_TG@nodesharing_199', server: 141.164.62.67, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '阿联酋_TG@nodesharing_200', server: 217.138.193.42, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc}
-  - {name: '法国_TG@nodesharing_201', server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN}
-  - {name: '美国_TG@nodesharing_202', server: daw.ezydfdd.com, port: 443, type: vmess, uuid: ba38c261-7b27-4c96-adf9-0dfcbc8ab40f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/qwe" }}
-  - {name: '中国_TG@nodesharing_203', server: shz.mooncloud.bike, port: 8443, type: vmess, uuid: 21bf6cb2-a4f1-4029-9b9b-9d2a493e057d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: shz.mooncloud.bike }}
-  - {name: '美国_TG@nodesharing_204', server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-sanfrancisco.lvuft.com }}
-  - {name: '香港_TG@nodesharing_205', server: 129.wgong.xyz, port: 52329, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '法国_TG@nodesharing_206', server: ovh.fr.tgproxy.wtf, port: 8888, type: vmess, uuid: 23a8f304-5667-4f47-9fad-72e23ddc59be, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/theuploadapi" }}
-  - {name: 'TG@nodesharing_207', server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/sakura/", host: zero1.a-yu.xyz }}
-  - {name: '匈牙利_TG@nodesharing_208', server: 185.252.223.204, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: { path: "/path/243535322906", host: www.16675463.xyz }}
-  - {name: '俄罗斯联邦_TG@nodesharing_209', server: jh-rus-01.zimuheikeji.tk, port: 443, type: vmess, uuid: fcc0d060-0806-47f0-eedb-9ef20bc757f2, alterId: 0, cipher: auto, tls: true, network: tcp}
-  - {name: '中国_TG@nodesharing_210', server: 116.wgong.xyz, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: '中国_TG@nodesharing_211', server: 120.233.150.200, port: 50102, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9}
-  - {name: 'TG@nodesharing_212', server: 104.16.192.211, port: 443, type: vmess, uuid: 59a44ca8-085b-426f-9e06-51fd334279a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/59a44ca8-085b-426f-9e06-51fd334279a5-vmess", host: eu1.xyou.workers.dev }}
-  - {name: '法国_TG@nodesharing_213', server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国_TG@nodesharing_214', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-sanfrancisco.lvuft.com }}
-  - {name: '美国_TG@nodesharing_215', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws" }}
-  - {name: '美国_TG@nodesharing_216', server: 167.88.61.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '美国_TG@nodesharing_217', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'TG@nodesharing_218', server: xg.mtoly.xyz, port: 16465, type: vmess, uuid: aefe3659-4737-433a-b879-e172ce7fd212, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/" }}
-  - {name: '新加坡_TG@nodesharing_219', server: dajian.1919810.com, port: 14392, type: ss, cipher: aes-256-gcm, password: 6MBzrzqHO3}
+  - {name: '🇨🇦_CA_加拿大_8度科技532M1月25日_1', server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇬🇧_GB_英国_8度科技532M1月25日_2', server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_3', server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_4', server: 169.197.141.244, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_5', server: 38.91.101.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_8度科技532M1月25日_6', server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_8度科技532M1月25日_7', server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_8度科技532M1月25日_8', server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_8度科技532M1月25日_9', server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_10', server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_8度科技532M1月25日_11', server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_12', server: 38.107.226.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_8度科技532M1月25日_13', server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_8度科技532M1月25日_14', server: 198.57.27.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_8度科技532M1月25日_15', server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_16', server: 38.107.226.159, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_8度科技532M1月25日_17', server: 134.195.198.252, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇯🇵_JP_日本_8度科技532M1月25日_18', server: 85.208.110.2, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇬🇧_GB_英国_8度科技532M1月25日_19', server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_GB_英国_8度科技532M1月25日_20', server: 172.99.190.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_21', server: 38.91.100.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_22', server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇬🇧_GB_英国_8度科技532M1月25日_23', server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_24', server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_25', server: 38.107.226.238, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇷_FR_法国_8度科技532M1月25日_26', server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇯🇵_JP_日本_8度科技532M1月25日_27', server: 85.208.110.2, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇯🇵_JP_日本_8度科技532M1月25日_28', server: 85.208.110.138, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_29', server: 38.68.134.190, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_30', server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_31', server: 38.91.100.200, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇫🇷_FR_法国_8度科技532M1月25日_32', server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇫🇷_FR_法国_8度科技532M1月25日_33', server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇫🇷_FR_法国_8度科技532M1月25日_34', server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇨🇦_CA_加拿大_8度科技532M1月25日_35', server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_36', server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇦🇺_AU_澳大利亚_8度科技532M1月25日_37', server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_38', server: 38.68.134.190, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_39', server: 38.75.136.93, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_40', server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_41', server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_42', server: 38.68.134.190, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇮🇳_IN_印度_8度科技532M1月25日_43', server: 172.104.207.140, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇮🇳_IN_印度_8度科技532M1月25日_44', server: 172.104.207.140, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇰🇷_KR_韩国_8度科技532M1月25日_45', server: 141.164.56.110, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇩🇪_DE_德国_8度科技532M1月25日_46', server: 139.162.189.117, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇬🇧_GB_英国_8度科技532M1月25日_47', server: 172.99.190.186, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇧🇻_BV_布维岛_8度科技532M1月25日_48', server: 46.29.219.246, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_49', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
+  - {name: '🇭🇺_HU_匈牙利_8度科技532M1月25日_50', server: 185.252.223.204, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: { path: "/path/243535322906", host: www.16675463.xyz }}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_51', server: fa1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-washington.lvuft.com }}
+  - {name: '🇺🇸_US_美国_8度科技532M1月25日_52', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-dallas.lvuft.com }}
+  - {name: '🇨🇿_CZ_捷克_8度科技532M1月25日_53', server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub" }}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港_TG@nodesharing_1
-      - 香港_TG@nodesharing_2
-      - 香港_TG@nodesharing_3
-      - 香港_TG@nodesharing_4
-      - 香港_TG@nodesharing_5
-      - 香港_TG@nodesharing_6
-      - 香港_TG@nodesharing_7
-      - 中国_TG@nodesharing_8
-      - 香港_TG@nodesharing_9
-      - 香港_TG@nodesharing_10
-      - 香港_TG@nodesharing_11
-      - 香港_TG@nodesharing_12
-      - 香港_TG@nodesharing_13
-      - 香港_TG@nodesharing_14
-      - 美国_TG@nodesharing_15
-      - 香港_TG@nodesharing_16
-      - 香港_TG@nodesharing_17
-      - 香港_TG@nodesharing_18
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_20
-      - 香港_TG@nodesharing_21
-      - 香港_TG@nodesharing_22
-      - 香港_TG@nodesharing_23
-      - 香港_TG@nodesharing_24
-      - 香港_TG@nodesharing_25
-      - 香港_TG@nodesharing_26
-      - 香港_TG@nodesharing_27
-      - 香港_TG@nodesharing_28
-      - 中国_TG@nodesharing_29
-      - 香港_TG@nodesharing_30
-      - 香港_TG@nodesharing_31
-      - 中国_TG@nodesharing_32
-      - 美国_TG@nodesharing_33
-      - 香港_TG@nodesharing_34
-      - 香港_TG@nodesharing_35
-      - 香港_TG@nodesharing_36
-      - 香港_TG@nodesharing_37
-      - 香港_TG@nodesharing_38
-      - 中国_TG@nodesharing_39
-      - 香港_TG@nodesharing_40
-      - 香港_TG@nodesharing_41
-      - 香港_TG@nodesharing_42
-      - 香港_TG@nodesharing_43
-      - 香港_TG@nodesharing_44
-      - 香港_TG@nodesharing_45
-      - 香港_TG@nodesharing_46
-      - 香港_TG@nodesharing_47
-      - 中国_TG@nodesharing_48
-      - 美国_TG@nodesharing_49
-      - 香港_TG@nodesharing_50
-      - 中国_TG@nodesharing_51
-      - 中国_TG@nodesharing_52
-      - 中国_TG@nodesharing_53
-      - 美国_TG@nodesharing_54
-      - 澳大利亚_TG@nodesharing_55
-      - 中国_TG@nodesharing_56
-      - 韩国_TG@nodesharing_57
-      - 中国_TG@nodesharing_58
-      - 美国_TG@nodesharing_59
-      - 香港_TG@nodesharing_60
-      - 中国_TG@nodesharing_61
-      - 中国_TG@nodesharing_62
-      - 美国_TG@nodesharing_63
-      - 香港_TG@nodesharing_64
-      - 中国_TG@nodesharing_65
-      - 韩国_TG@nodesharing_66
-      - 美国_TG@nodesharing_67
-      - 美国_TG@nodesharing_68
-      - 中国_TG@nodesharing_69
-      - 德国_TG@nodesharing_70
-      - 德国_TG@nodesharing_71
-      - 美国_TG@nodesharing_72
-      - 美国_TG@nodesharing_73
-      - 马来西亚_TG@nodesharing_74
-      - 美国_TG@nodesharing_75
-      - 马来西亚_TG@nodesharing_76
-      - 马来西亚_TG@nodesharing_77
-      - 美国_TG@nodesharing_78
-      - 美国_TG@nodesharing_79
-      - 加拿大_TG@nodesharing_80
-      - 中国_TG@nodesharing_81
-      - 加拿大_TG@nodesharing_82
-      - 马来西亚_TG@nodesharing_83
-      - 加拿大_TG@nodesharing_84
-      - 美国_TG@nodesharing_85
-      - 埃及_TG@nodesharing_86
-      - 美国_TG@nodesharing_87
-      - 加拿大_TG@nodesharing_88
-      - 加拿大_TG@nodesharing_89
-      - 加拿大_TG@nodesharing_90
-      - 加拿大_TG@nodesharing_91
-      - 加拿大_TG@nodesharing_92
-      - 美国_TG@nodesharing_93
-      - 美国_TG@nodesharing_94
-      - 加拿大_TG@nodesharing_95
-      - 美国_TG@nodesharing_96
-      - 美国_TG@nodesharing_97
-      - 墨西哥_TG@nodesharing_98
-      - 中国_TG@nodesharing_99
-      - 荷兰_TG@nodesharing_100
-      - 加拿大_TG@nodesharing_101
-      - 埃及_TG@nodesharing_102
-      - 美国_TG@nodesharing_103
-      - 美国_TG@nodesharing_104
-      - 美国_TG@nodesharing_105
-      - 加拿大_TG@nodesharing_106
-      - 美国_TG@nodesharing_107
-      - 美国_TG@nodesharing_108
-      - 美国_TG@nodesharing_109
-      - 香港_TG@nodesharing_110
-      - 俄罗斯联邦_TG@nodesharing_111
-      - 中国_TG@nodesharing_112
-      - 中国_TG@nodesharing_113
-      - 美国_TG@nodesharing_114
-      - 美国_TG@nodesharing_115
-      - 加拿大_TG@nodesharing_116
-      - 马来西亚_TG@nodesharing_117
-      - 加拿大_TG@nodesharing_118
-      - 美国_TG@nodesharing_119
-      - 法国_TG@nodesharing_120
-      - 中国_TG@nodesharing_121
-      - 美国_TG@nodesharing_122
-      - 英国_TG@nodesharing_123
-      - 美国_TG@nodesharing_124
-      - 美国_TG@nodesharing_125
-      - 英国_TG@nodesharing_126
-      - 葡萄牙_TG@nodesharing_127
-      - 马来西亚_TG@nodesharing_128
-      - 法国_TG@nodesharing_129
-      - 葡萄牙_TG@nodesharing_130
-      - 英国_TG@nodesharing_131
-      - 法国_TG@nodesharing_132
-      - 法国_TG@nodesharing_133
-      - 德国_TG@nodesharing_134
-      - 美国_TG@nodesharing_135
-      - 香港_TG@nodesharing_136
-      - 法国_TG@nodesharing_137
-      - 法国_TG@nodesharing_138
-      - 英国_TG@nodesharing_139
-      - 香港_TG@nodesharing_140
-      - 美国_TG@nodesharing_141
-      - 俄罗斯联邦_TG@nodesharing_142
-      - 美国_TG@nodesharing_143
-      - 中国_TG@nodesharing_144
-      - 葡萄牙_TG@nodesharing_145
-      - 法国_TG@nodesharing_146
-      - 俄罗斯联邦_TG@nodesharing_147
-      - 法国_TG@nodesharing_148
-      - 中国_TG@nodesharing_149
-      - 印度尼西亚_TG@nodesharing_150
-      - 印度尼西亚_TG@nodesharing_151
-      - 美国_TG@nodesharing_152
-      - 美国_TG@nodesharing_153
-      - 美国_TG@nodesharing_154
-      - 香港_TG@nodesharing_155
-      - 香港_TG@nodesharing_156
-      - 尼日利亚_TG@nodesharing_157
-      - 南非_TG@nodesharing_158
-      - 印度_TG@nodesharing_159
-      - 香港_TG@nodesharing_160
-      - 印度_TG@nodesharing_161
-      - 印度_TG@nodesharing_162
-      - 菲律宾_TG@nodesharing_163
-      - 印度_TG@nodesharing_164
-      - 印度_TG@nodesharing_165
-      - 印度_TG@nodesharing_166
-      - 印度_TG@nodesharing_167
-      - 印度_TG@nodesharing_168
-      - 印度_TG@nodesharing_169
-      - 希腊_TG@nodesharing_170
-      - 印度_TG@nodesharing_171
-      - 南非_TG@nodesharing_172
-      - 印度_TG@nodesharing_173
-      - 印度_TG@nodesharing_174
-      - 印度_TG@nodesharing_175
-      - 印度_TG@nodesharing_176
-      - 印度_TG@nodesharing_177
-      - 印度_TG@nodesharing_178
-      - 印度_TG@nodesharing_179
-      - 印度_TG@nodesharing_180
-      - 美国_TG@nodesharing_181
-      - 印度_TG@nodesharing_182
-      - 印度_TG@nodesharing_183
-      - 印度_TG@nodesharing_184
-      - 印度_TG@nodesharing_185
-      - 美国_TG@nodesharing_186
-      - 法国_TG@nodesharing_187
-      - 法国_TG@nodesharing_188
-      - 美国_TG@nodesharing_189
-      - 美国_TG@nodesharing_190
-      - 美国_TG@nodesharing_191
-      - 印度_TG@nodesharing_192
-      - 法国_TG@nodesharing_193
-      - 美国_TG@nodesharing_194
-      - 印度_TG@nodesharing_195
-      - 印度_TG@nodesharing_196
-      - 香港_TG@nodesharing_197
-      - 中国_TG@nodesharing_198
-      - 韩国_TG@nodesharing_199
-      - 阿联酋_TG@nodesharing_200
-      - 法国_TG@nodesharing_201
-      - 美国_TG@nodesharing_202
-      - 中国_TG@nodesharing_203
-      - 美国_TG@nodesharing_204
-      - 香港_TG@nodesharing_205
-      - 法国_TG@nodesharing_206
-      - TG@nodesharing_207
-      - 匈牙利_TG@nodesharing_208
-      - 俄罗斯联邦_TG@nodesharing_209
-      - 中国_TG@nodesharing_210
-      - 中国_TG@nodesharing_211
-      - TG@nodesharing_212
-      - 法国_TG@nodesharing_213
-      - 美国_TG@nodesharing_214
-      - 美国_TG@nodesharing_215
-      - 美国_TG@nodesharing_216
-      - 美国_TG@nodesharing_217
-      - TG@nodesharing_218
-      - 新加坡_TG@nodesharing_219
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_1
+      - 🇬🇧_GB_英国_8度科技532M1月25日_2
+      - 🇺🇸_US_美国_8度科技532M1月25日_3
+      - 🇺🇸_US_美国_8度科技532M1月25日_4
+      - 🇺🇸_US_美国_8度科技532M1月25日_5
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_6
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_7
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_8
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_9
+      - 🇺🇸_US_美国_8度科技532M1月25日_10
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_11
+      - 🇺🇸_US_美国_8度科技532M1月25日_12
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_13
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_14
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_15
+      - 🇺🇸_US_美国_8度科技532M1月25日_16
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_17
+      - 🇯🇵_JP_日本_8度科技532M1月25日_18
+      - 🇬🇧_GB_英国_8度科技532M1月25日_19
+      - 🇬🇧_GB_英国_8度科技532M1月25日_20
+      - 🇺🇸_US_美国_8度科技532M1月25日_21
+      - 🇺🇸_US_美国_8度科技532M1月25日_22
+      - 🇬🇧_GB_英国_8度科技532M1月25日_23
+      - 🇺🇸_US_美国_8度科技532M1月25日_24
+      - 🇺🇸_US_美国_8度科技532M1月25日_25
+      - 🇫🇷_FR_法国_8度科技532M1月25日_26
+      - 🇯🇵_JP_日本_8度科技532M1月25日_27
+      - 🇯🇵_JP_日本_8度科技532M1月25日_28
+      - 🇺🇸_US_美国_8度科技532M1月25日_29
+      - 🇺🇸_US_美国_8度科技532M1月25日_30
+      - 🇺🇸_US_美国_8度科技532M1月25日_31
+      - 🇫🇷_FR_法国_8度科技532M1月25日_32
+      - 🇫🇷_FR_法国_8度科技532M1月25日_33
+      - 🇫🇷_FR_法国_8度科技532M1月25日_34
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_35
+      - 🇺🇸_US_美国_8度科技532M1月25日_36
+      - 🇦🇺_AU_澳大利亚_8度科技532M1月25日_37
+      - 🇺🇸_US_美国_8度科技532M1月25日_38
+      - 🇺🇸_US_美国_8度科技532M1月25日_39
+      - 🇺🇸_US_美国_8度科技532M1月25日_40
+      - 🇺🇸_US_美国_8度科技532M1月25日_41
+      - 🇺🇸_US_美国_8度科技532M1月25日_42
+      - 🇮🇳_IN_印度_8度科技532M1月25日_43
+      - 🇮🇳_IN_印度_8度科技532M1月25日_44
+      - 🇰🇷_KR_韩国_8度科技532M1月25日_45
+      - 🇩🇪_DE_德国_8度科技532M1月25日_46
+      - 🇬🇧_GB_英国_8度科技532M1月25日_47
+      - 🇧🇻_BV_布维岛_8度科技532M1月25日_48
+      - 🇺🇸_US_美国_8度科技532M1月25日_49
+      - 🇭🇺_HU_匈牙利_8度科技532M1月25日_50
+      - 🇺🇸_US_美国_8度科技532M1月25日_51
+      - 🇺🇸_US_美国_8度科技532M1月25日_52
+      - 🇨🇿_CZ_捷克_8度科技532M1月25日_53
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港_TG@nodesharing_1
-      - 香港_TG@nodesharing_2
-      - 香港_TG@nodesharing_3
-      - 香港_TG@nodesharing_4
-      - 香港_TG@nodesharing_5
-      - 香港_TG@nodesharing_6
-      - 香港_TG@nodesharing_7
-      - 中国_TG@nodesharing_8
-      - 香港_TG@nodesharing_9
-      - 香港_TG@nodesharing_10
-      - 香港_TG@nodesharing_11
-      - 香港_TG@nodesharing_12
-      - 香港_TG@nodesharing_13
-      - 香港_TG@nodesharing_14
-      - 美国_TG@nodesharing_15
-      - 香港_TG@nodesharing_16
-      - 香港_TG@nodesharing_17
-      - 香港_TG@nodesharing_18
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_20
-      - 香港_TG@nodesharing_21
-      - 香港_TG@nodesharing_22
-      - 香港_TG@nodesharing_23
-      - 香港_TG@nodesharing_24
-      - 香港_TG@nodesharing_25
-      - 香港_TG@nodesharing_26
-      - 香港_TG@nodesharing_27
-      - 香港_TG@nodesharing_28
-      - 中国_TG@nodesharing_29
-      - 香港_TG@nodesharing_30
-      - 香港_TG@nodesharing_31
-      - 中国_TG@nodesharing_32
-      - 美国_TG@nodesharing_33
-      - 香港_TG@nodesharing_34
-      - 香港_TG@nodesharing_35
-      - 香港_TG@nodesharing_36
-      - 香港_TG@nodesharing_37
-      - 香港_TG@nodesharing_38
-      - 中国_TG@nodesharing_39
-      - 香港_TG@nodesharing_40
-      - 香港_TG@nodesharing_41
-      - 香港_TG@nodesharing_42
-      - 香港_TG@nodesharing_43
-      - 香港_TG@nodesharing_44
-      - 香港_TG@nodesharing_45
-      - 香港_TG@nodesharing_46
-      - 香港_TG@nodesharing_47
-      - 中国_TG@nodesharing_48
-      - 美国_TG@nodesharing_49
-      - 香港_TG@nodesharing_50
-      - 中国_TG@nodesharing_51
-      - 中国_TG@nodesharing_52
-      - 中国_TG@nodesharing_53
-      - 美国_TG@nodesharing_54
-      - 澳大利亚_TG@nodesharing_55
-      - 中国_TG@nodesharing_56
-      - 韩国_TG@nodesharing_57
-      - 中国_TG@nodesharing_58
-      - 美国_TG@nodesharing_59
-      - 香港_TG@nodesharing_60
-      - 中国_TG@nodesharing_61
-      - 中国_TG@nodesharing_62
-      - 美国_TG@nodesharing_63
-      - 香港_TG@nodesharing_64
-      - 中国_TG@nodesharing_65
-      - 韩国_TG@nodesharing_66
-      - 美国_TG@nodesharing_67
-      - 美国_TG@nodesharing_68
-      - 中国_TG@nodesharing_69
-      - 德国_TG@nodesharing_70
-      - 德国_TG@nodesharing_71
-      - 美国_TG@nodesharing_72
-      - 美国_TG@nodesharing_73
-      - 马来西亚_TG@nodesharing_74
-      - 美国_TG@nodesharing_75
-      - 马来西亚_TG@nodesharing_76
-      - 马来西亚_TG@nodesharing_77
-      - 美国_TG@nodesharing_78
-      - 美国_TG@nodesharing_79
-      - 加拿大_TG@nodesharing_80
-      - 中国_TG@nodesharing_81
-      - 加拿大_TG@nodesharing_82
-      - 马来西亚_TG@nodesharing_83
-      - 加拿大_TG@nodesharing_84
-      - 美国_TG@nodesharing_85
-      - 埃及_TG@nodesharing_86
-      - 美国_TG@nodesharing_87
-      - 加拿大_TG@nodesharing_88
-      - 加拿大_TG@nodesharing_89
-      - 加拿大_TG@nodesharing_90
-      - 加拿大_TG@nodesharing_91
-      - 加拿大_TG@nodesharing_92
-      - 美国_TG@nodesharing_93
-      - 美国_TG@nodesharing_94
-      - 加拿大_TG@nodesharing_95
-      - 美国_TG@nodesharing_96
-      - 美国_TG@nodesharing_97
-      - 墨西哥_TG@nodesharing_98
-      - 中国_TG@nodesharing_99
-      - 荷兰_TG@nodesharing_100
-      - 加拿大_TG@nodesharing_101
-      - 埃及_TG@nodesharing_102
-      - 美国_TG@nodesharing_103
-      - 美国_TG@nodesharing_104
-      - 美国_TG@nodesharing_105
-      - 加拿大_TG@nodesharing_106
-      - 美国_TG@nodesharing_107
-      - 美国_TG@nodesharing_108
-      - 美国_TG@nodesharing_109
-      - 香港_TG@nodesharing_110
-      - 俄罗斯联邦_TG@nodesharing_111
-      - 中国_TG@nodesharing_112
-      - 中国_TG@nodesharing_113
-      - 美国_TG@nodesharing_114
-      - 美国_TG@nodesharing_115
-      - 加拿大_TG@nodesharing_116
-      - 马来西亚_TG@nodesharing_117
-      - 加拿大_TG@nodesharing_118
-      - 美国_TG@nodesharing_119
-      - 法国_TG@nodesharing_120
-      - 中国_TG@nodesharing_121
-      - 美国_TG@nodesharing_122
-      - 英国_TG@nodesharing_123
-      - 美国_TG@nodesharing_124
-      - 美国_TG@nodesharing_125
-      - 英国_TG@nodesharing_126
-      - 葡萄牙_TG@nodesharing_127
-      - 马来西亚_TG@nodesharing_128
-      - 法国_TG@nodesharing_129
-      - 葡萄牙_TG@nodesharing_130
-      - 英国_TG@nodesharing_131
-      - 法国_TG@nodesharing_132
-      - 法国_TG@nodesharing_133
-      - 德国_TG@nodesharing_134
-      - 美国_TG@nodesharing_135
-      - 香港_TG@nodesharing_136
-      - 法国_TG@nodesharing_137
-      - 法国_TG@nodesharing_138
-      - 英国_TG@nodesharing_139
-      - 香港_TG@nodesharing_140
-      - 美国_TG@nodesharing_141
-      - 俄罗斯联邦_TG@nodesharing_142
-      - 美国_TG@nodesharing_143
-      - 中国_TG@nodesharing_144
-      - 葡萄牙_TG@nodesharing_145
-      - 法国_TG@nodesharing_146
-      - 俄罗斯联邦_TG@nodesharing_147
-      - 法国_TG@nodesharing_148
-      - 中国_TG@nodesharing_149
-      - 印度尼西亚_TG@nodesharing_150
-      - 印度尼西亚_TG@nodesharing_151
-      - 美国_TG@nodesharing_152
-      - 美国_TG@nodesharing_153
-      - 美国_TG@nodesharing_154
-      - 香港_TG@nodesharing_155
-      - 香港_TG@nodesharing_156
-      - 尼日利亚_TG@nodesharing_157
-      - 南非_TG@nodesharing_158
-      - 印度_TG@nodesharing_159
-      - 香港_TG@nodesharing_160
-      - 印度_TG@nodesharing_161
-      - 印度_TG@nodesharing_162
-      - 菲律宾_TG@nodesharing_163
-      - 印度_TG@nodesharing_164
-      - 印度_TG@nodesharing_165
-      - 印度_TG@nodesharing_166
-      - 印度_TG@nodesharing_167
-      - 印度_TG@nodesharing_168
-      - 印度_TG@nodesharing_169
-      - 希腊_TG@nodesharing_170
-      - 印度_TG@nodesharing_171
-      - 南非_TG@nodesharing_172
-      - 印度_TG@nodesharing_173
-      - 印度_TG@nodesharing_174
-      - 印度_TG@nodesharing_175
-      - 印度_TG@nodesharing_176
-      - 印度_TG@nodesharing_177
-      - 印度_TG@nodesharing_178
-      - 印度_TG@nodesharing_179
-      - 印度_TG@nodesharing_180
-      - 美国_TG@nodesharing_181
-      - 印度_TG@nodesharing_182
-      - 印度_TG@nodesharing_183
-      - 印度_TG@nodesharing_184
-      - 印度_TG@nodesharing_185
-      - 美国_TG@nodesharing_186
-      - 法国_TG@nodesharing_187
-      - 法国_TG@nodesharing_188
-      - 美国_TG@nodesharing_189
-      - 美国_TG@nodesharing_190
-      - 美国_TG@nodesharing_191
-      - 印度_TG@nodesharing_192
-      - 法国_TG@nodesharing_193
-      - 美国_TG@nodesharing_194
-      - 印度_TG@nodesharing_195
-      - 印度_TG@nodesharing_196
-      - 香港_TG@nodesharing_197
-      - 中国_TG@nodesharing_198
-      - 韩国_TG@nodesharing_199
-      - 阿联酋_TG@nodesharing_200
-      - 法国_TG@nodesharing_201
-      - 美国_TG@nodesharing_202
-      - 中国_TG@nodesharing_203
-      - 美国_TG@nodesharing_204
-      - 香港_TG@nodesharing_205
-      - 法国_TG@nodesharing_206
-      - TG@nodesharing_207
-      - 匈牙利_TG@nodesharing_208
-      - 俄罗斯联邦_TG@nodesharing_209
-      - 中国_TG@nodesharing_210
-      - 中国_TG@nodesharing_211
-      - TG@nodesharing_212
-      - 法国_TG@nodesharing_213
-      - 美国_TG@nodesharing_214
-      - 美国_TG@nodesharing_215
-      - 美国_TG@nodesharing_216
-      - 美国_TG@nodesharing_217
-      - TG@nodesharing_218
-      - 新加坡_TG@nodesharing_219
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_1
+      - 🇬🇧_GB_英国_8度科技532M1月25日_2
+      - 🇺🇸_US_美国_8度科技532M1月25日_3
+      - 🇺🇸_US_美国_8度科技532M1月25日_4
+      - 🇺🇸_US_美国_8度科技532M1月25日_5
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_6
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_7
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_8
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_9
+      - 🇺🇸_US_美国_8度科技532M1月25日_10
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_11
+      - 🇺🇸_US_美国_8度科技532M1月25日_12
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_13
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_14
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_15
+      - 🇺🇸_US_美国_8度科技532M1月25日_16
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_17
+      - 🇯🇵_JP_日本_8度科技532M1月25日_18
+      - 🇬🇧_GB_英国_8度科技532M1月25日_19
+      - 🇬🇧_GB_英国_8度科技532M1月25日_20
+      - 🇺🇸_US_美国_8度科技532M1月25日_21
+      - 🇺🇸_US_美国_8度科技532M1月25日_22
+      - 🇬🇧_GB_英国_8度科技532M1月25日_23
+      - 🇺🇸_US_美国_8度科技532M1月25日_24
+      - 🇺🇸_US_美国_8度科技532M1月25日_25
+      - 🇫🇷_FR_法国_8度科技532M1月25日_26
+      - 🇯🇵_JP_日本_8度科技532M1月25日_27
+      - 🇯🇵_JP_日本_8度科技532M1月25日_28
+      - 🇺🇸_US_美国_8度科技532M1月25日_29
+      - 🇺🇸_US_美国_8度科技532M1月25日_30
+      - 🇺🇸_US_美国_8度科技532M1月25日_31
+      - 🇫🇷_FR_法国_8度科技532M1月25日_32
+      - 🇫🇷_FR_法国_8度科技532M1月25日_33
+      - 🇫🇷_FR_法国_8度科技532M1月25日_34
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_35
+      - 🇺🇸_US_美国_8度科技532M1月25日_36
+      - 🇦🇺_AU_澳大利亚_8度科技532M1月25日_37
+      - 🇺🇸_US_美国_8度科技532M1月25日_38
+      - 🇺🇸_US_美国_8度科技532M1月25日_39
+      - 🇺🇸_US_美国_8度科技532M1月25日_40
+      - 🇺🇸_US_美国_8度科技532M1月25日_41
+      - 🇺🇸_US_美国_8度科技532M1月25日_42
+      - 🇮🇳_IN_印度_8度科技532M1月25日_43
+      - 🇮🇳_IN_印度_8度科技532M1月25日_44
+      - 🇰🇷_KR_韩国_8度科技532M1月25日_45
+      - 🇩🇪_DE_德国_8度科技532M1月25日_46
+      - 🇬🇧_GB_英国_8度科技532M1月25日_47
+      - 🇧🇻_BV_布维岛_8度科技532M1月25日_48
+      - 🇺🇸_US_美国_8度科技532M1月25日_49
+      - 🇭🇺_HU_匈牙利_8度科技532M1月25日_50
+      - 🇺🇸_US_美国_8度科技532M1月25日_51
+      - 🇺🇸_US_美国_8度科技532M1月25日_52
+      - 🇨🇿_CZ_捷克_8度科技532M1月25日_53
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港_TG@nodesharing_1
-      - 香港_TG@nodesharing_2
-      - 香港_TG@nodesharing_3
-      - 香港_TG@nodesharing_4
-      - 香港_TG@nodesharing_5
-      - 香港_TG@nodesharing_6
-      - 香港_TG@nodesharing_7
-      - 中国_TG@nodesharing_8
-      - 香港_TG@nodesharing_9
-      - 香港_TG@nodesharing_10
-      - 香港_TG@nodesharing_11
-      - 香港_TG@nodesharing_12
-      - 香港_TG@nodesharing_13
-      - 香港_TG@nodesharing_14
-      - 美国_TG@nodesharing_15
-      - 香港_TG@nodesharing_16
-      - 香港_TG@nodesharing_17
-      - 香港_TG@nodesharing_18
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_20
-      - 香港_TG@nodesharing_21
-      - 香港_TG@nodesharing_22
-      - 香港_TG@nodesharing_23
-      - 香港_TG@nodesharing_24
-      - 香港_TG@nodesharing_25
-      - 香港_TG@nodesharing_26
-      - 香港_TG@nodesharing_27
-      - 香港_TG@nodesharing_28
-      - 中国_TG@nodesharing_29
-      - 香港_TG@nodesharing_30
-      - 香港_TG@nodesharing_31
-      - 中国_TG@nodesharing_32
-      - 美国_TG@nodesharing_33
-      - 香港_TG@nodesharing_34
-      - 香港_TG@nodesharing_35
-      - 香港_TG@nodesharing_36
-      - 香港_TG@nodesharing_37
-      - 香港_TG@nodesharing_38
-      - 中国_TG@nodesharing_39
-      - 香港_TG@nodesharing_40
-      - 香港_TG@nodesharing_41
-      - 香港_TG@nodesharing_42
-      - 香港_TG@nodesharing_43
-      - 香港_TG@nodesharing_44
-      - 香港_TG@nodesharing_45
-      - 香港_TG@nodesharing_46
-      - 香港_TG@nodesharing_47
-      - 中国_TG@nodesharing_48
-      - 美国_TG@nodesharing_49
-      - 香港_TG@nodesharing_50
-      - 中国_TG@nodesharing_51
-      - 中国_TG@nodesharing_52
-      - 中国_TG@nodesharing_53
-      - 美国_TG@nodesharing_54
-      - 澳大利亚_TG@nodesharing_55
-      - 中国_TG@nodesharing_56
-      - 韩国_TG@nodesharing_57
-      - 中国_TG@nodesharing_58
-      - 美国_TG@nodesharing_59
-      - 香港_TG@nodesharing_60
-      - 中国_TG@nodesharing_61
-      - 中国_TG@nodesharing_62
-      - 美国_TG@nodesharing_63
-      - 香港_TG@nodesharing_64
-      - 中国_TG@nodesharing_65
-      - 韩国_TG@nodesharing_66
-      - 美国_TG@nodesharing_67
-      - 美国_TG@nodesharing_68
-      - 中国_TG@nodesharing_69
-      - 德国_TG@nodesharing_70
-      - 德国_TG@nodesharing_71
-      - 美国_TG@nodesharing_72
-      - 美国_TG@nodesharing_73
-      - 马来西亚_TG@nodesharing_74
-      - 美国_TG@nodesharing_75
-      - 马来西亚_TG@nodesharing_76
-      - 马来西亚_TG@nodesharing_77
-      - 美国_TG@nodesharing_78
-      - 美国_TG@nodesharing_79
-      - 加拿大_TG@nodesharing_80
-      - 中国_TG@nodesharing_81
-      - 加拿大_TG@nodesharing_82
-      - 马来西亚_TG@nodesharing_83
-      - 加拿大_TG@nodesharing_84
-      - 美国_TG@nodesharing_85
-      - 埃及_TG@nodesharing_86
-      - 美国_TG@nodesharing_87
-      - 加拿大_TG@nodesharing_88
-      - 加拿大_TG@nodesharing_89
-      - 加拿大_TG@nodesharing_90
-      - 加拿大_TG@nodesharing_91
-      - 加拿大_TG@nodesharing_92
-      - 美国_TG@nodesharing_93
-      - 美国_TG@nodesharing_94
-      - 加拿大_TG@nodesharing_95
-      - 美国_TG@nodesharing_96
-      - 美国_TG@nodesharing_97
-      - 墨西哥_TG@nodesharing_98
-      - 中国_TG@nodesharing_99
-      - 荷兰_TG@nodesharing_100
-      - 加拿大_TG@nodesharing_101
-      - 埃及_TG@nodesharing_102
-      - 美国_TG@nodesharing_103
-      - 美国_TG@nodesharing_104
-      - 美国_TG@nodesharing_105
-      - 加拿大_TG@nodesharing_106
-      - 美国_TG@nodesharing_107
-      - 美国_TG@nodesharing_108
-      - 美国_TG@nodesharing_109
-      - 香港_TG@nodesharing_110
-      - 俄罗斯联邦_TG@nodesharing_111
-      - 中国_TG@nodesharing_112
-      - 中国_TG@nodesharing_113
-      - 美国_TG@nodesharing_114
-      - 美国_TG@nodesharing_115
-      - 加拿大_TG@nodesharing_116
-      - 马来西亚_TG@nodesharing_117
-      - 加拿大_TG@nodesharing_118
-      - 美国_TG@nodesharing_119
-      - 法国_TG@nodesharing_120
-      - 中国_TG@nodesharing_121
-      - 美国_TG@nodesharing_122
-      - 英国_TG@nodesharing_123
-      - 美国_TG@nodesharing_124
-      - 美国_TG@nodesharing_125
-      - 英国_TG@nodesharing_126
-      - 葡萄牙_TG@nodesharing_127
-      - 马来西亚_TG@nodesharing_128
-      - 法国_TG@nodesharing_129
-      - 葡萄牙_TG@nodesharing_130
-      - 英国_TG@nodesharing_131
-      - 法国_TG@nodesharing_132
-      - 法国_TG@nodesharing_133
-      - 德国_TG@nodesharing_134
-      - 美国_TG@nodesharing_135
-      - 香港_TG@nodesharing_136
-      - 法国_TG@nodesharing_137
-      - 法国_TG@nodesharing_138
-      - 英国_TG@nodesharing_139
-      - 香港_TG@nodesharing_140
-      - 美国_TG@nodesharing_141
-      - 俄罗斯联邦_TG@nodesharing_142
-      - 美国_TG@nodesharing_143
-      - 中国_TG@nodesharing_144
-      - 葡萄牙_TG@nodesharing_145
-      - 法国_TG@nodesharing_146
-      - 俄罗斯联邦_TG@nodesharing_147
-      - 法国_TG@nodesharing_148
-      - 中国_TG@nodesharing_149
-      - 印度尼西亚_TG@nodesharing_150
-      - 印度尼西亚_TG@nodesharing_151
-      - 美国_TG@nodesharing_152
-      - 美国_TG@nodesharing_153
-      - 美国_TG@nodesharing_154
-      - 香港_TG@nodesharing_155
-      - 香港_TG@nodesharing_156
-      - 尼日利亚_TG@nodesharing_157
-      - 南非_TG@nodesharing_158
-      - 印度_TG@nodesharing_159
-      - 香港_TG@nodesharing_160
-      - 印度_TG@nodesharing_161
-      - 印度_TG@nodesharing_162
-      - 菲律宾_TG@nodesharing_163
-      - 印度_TG@nodesharing_164
-      - 印度_TG@nodesharing_165
-      - 印度_TG@nodesharing_166
-      - 印度_TG@nodesharing_167
-      - 印度_TG@nodesharing_168
-      - 印度_TG@nodesharing_169
-      - 希腊_TG@nodesharing_170
-      - 印度_TG@nodesharing_171
-      - 南非_TG@nodesharing_172
-      - 印度_TG@nodesharing_173
-      - 印度_TG@nodesharing_174
-      - 印度_TG@nodesharing_175
-      - 印度_TG@nodesharing_176
-      - 印度_TG@nodesharing_177
-      - 印度_TG@nodesharing_178
-      - 印度_TG@nodesharing_179
-      - 印度_TG@nodesharing_180
-      - 美国_TG@nodesharing_181
-      - 印度_TG@nodesharing_182
-      - 印度_TG@nodesharing_183
-      - 印度_TG@nodesharing_184
-      - 印度_TG@nodesharing_185
-      - 美国_TG@nodesharing_186
-      - 法国_TG@nodesharing_187
-      - 法国_TG@nodesharing_188
-      - 美国_TG@nodesharing_189
-      - 美国_TG@nodesharing_190
-      - 美国_TG@nodesharing_191
-      - 印度_TG@nodesharing_192
-      - 法国_TG@nodesharing_193
-      - 美国_TG@nodesharing_194
-      - 印度_TG@nodesharing_195
-      - 印度_TG@nodesharing_196
-      - 香港_TG@nodesharing_197
-      - 中国_TG@nodesharing_198
-      - 韩国_TG@nodesharing_199
-      - 阿联酋_TG@nodesharing_200
-      - 法国_TG@nodesharing_201
-      - 美国_TG@nodesharing_202
-      - 中国_TG@nodesharing_203
-      - 美国_TG@nodesharing_204
-      - 香港_TG@nodesharing_205
-      - 法国_TG@nodesharing_206
-      - TG@nodesharing_207
-      - 匈牙利_TG@nodesharing_208
-      - 俄罗斯联邦_TG@nodesharing_209
-      - 中国_TG@nodesharing_210
-      - 中国_TG@nodesharing_211
-      - TG@nodesharing_212
-      - 法国_TG@nodesharing_213
-      - 美国_TG@nodesharing_214
-      - 美国_TG@nodesharing_215
-      - 美国_TG@nodesharing_216
-      - 美国_TG@nodesharing_217
-      - TG@nodesharing_218
-      - 新加坡_TG@nodesharing_219
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_1
+      - 🇬🇧_GB_英国_8度科技532M1月25日_2
+      - 🇺🇸_US_美国_8度科技532M1月25日_3
+      - 🇺🇸_US_美国_8度科技532M1月25日_4
+      - 🇺🇸_US_美国_8度科技532M1月25日_5
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_6
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_7
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_8
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_9
+      - 🇺🇸_US_美国_8度科技532M1月25日_10
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_11
+      - 🇺🇸_US_美国_8度科技532M1月25日_12
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_13
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_14
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_15
+      - 🇺🇸_US_美国_8度科技532M1月25日_16
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_17
+      - 🇯🇵_JP_日本_8度科技532M1月25日_18
+      - 🇬🇧_GB_英国_8度科技532M1月25日_19
+      - 🇬🇧_GB_英国_8度科技532M1月25日_20
+      - 🇺🇸_US_美国_8度科技532M1月25日_21
+      - 🇺🇸_US_美国_8度科技532M1月25日_22
+      - 🇬🇧_GB_英国_8度科技532M1月25日_23
+      - 🇺🇸_US_美国_8度科技532M1月25日_24
+      - 🇺🇸_US_美国_8度科技532M1月25日_25
+      - 🇫🇷_FR_法国_8度科技532M1月25日_26
+      - 🇯🇵_JP_日本_8度科技532M1月25日_27
+      - 🇯🇵_JP_日本_8度科技532M1月25日_28
+      - 🇺🇸_US_美国_8度科技532M1月25日_29
+      - 🇺🇸_US_美国_8度科技532M1月25日_30
+      - 🇺🇸_US_美国_8度科技532M1月25日_31
+      - 🇫🇷_FR_法国_8度科技532M1月25日_32
+      - 🇫🇷_FR_法国_8度科技532M1月25日_33
+      - 🇫🇷_FR_法国_8度科技532M1月25日_34
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_35
+      - 🇺🇸_US_美国_8度科技532M1月25日_36
+      - 🇦🇺_AU_澳大利亚_8度科技532M1月25日_37
+      - 🇺🇸_US_美国_8度科技532M1月25日_38
+      - 🇺🇸_US_美国_8度科技532M1月25日_39
+      - 🇺🇸_US_美国_8度科技532M1月25日_40
+      - 🇺🇸_US_美国_8度科技532M1月25日_41
+      - 🇺🇸_US_美国_8度科技532M1月25日_42
+      - 🇮🇳_IN_印度_8度科技532M1月25日_43
+      - 🇮🇳_IN_印度_8度科技532M1月25日_44
+      - 🇰🇷_KR_韩国_8度科技532M1月25日_45
+      - 🇩🇪_DE_德国_8度科技532M1月25日_46
+      - 🇬🇧_GB_英国_8度科技532M1月25日_47
+      - 🇧🇻_BV_布维岛_8度科技532M1月25日_48
+      - 🇺🇸_US_美国_8度科技532M1月25日_49
+      - 🇭🇺_HU_匈牙利_8度科技532M1月25日_50
+      - 🇺🇸_US_美国_8度科技532M1月25日_51
+      - 🇺🇸_US_美国_8度科技532M1月25日_52
+      - 🇨🇿_CZ_捷克_8度科技532M1月25日_53
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港_TG@nodesharing_1
-      - 香港_TG@nodesharing_2
-      - 香港_TG@nodesharing_3
-      - 香港_TG@nodesharing_4
-      - 香港_TG@nodesharing_5
-      - 香港_TG@nodesharing_6
-      - 香港_TG@nodesharing_7
-      - 中国_TG@nodesharing_8
-      - 香港_TG@nodesharing_9
-      - 香港_TG@nodesharing_10
-      - 香港_TG@nodesharing_11
-      - 香港_TG@nodesharing_12
-      - 香港_TG@nodesharing_13
-      - 香港_TG@nodesharing_14
-      - 美国_TG@nodesharing_15
-      - 香港_TG@nodesharing_16
-      - 香港_TG@nodesharing_17
-      - 香港_TG@nodesharing_18
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_20
-      - 香港_TG@nodesharing_21
-      - 香港_TG@nodesharing_22
-      - 香港_TG@nodesharing_23
-      - 香港_TG@nodesharing_24
-      - 香港_TG@nodesharing_25
-      - 香港_TG@nodesharing_26
-      - 香港_TG@nodesharing_27
-      - 香港_TG@nodesharing_28
-      - 中国_TG@nodesharing_29
-      - 香港_TG@nodesharing_30
-      - 香港_TG@nodesharing_31
-      - 中国_TG@nodesharing_32
-      - 美国_TG@nodesharing_33
-      - 香港_TG@nodesharing_34
-      - 香港_TG@nodesharing_35
-      - 香港_TG@nodesharing_36
-      - 香港_TG@nodesharing_37
-      - 香港_TG@nodesharing_38
-      - 中国_TG@nodesharing_39
-      - 香港_TG@nodesharing_40
-      - 香港_TG@nodesharing_41
-      - 香港_TG@nodesharing_42
-      - 香港_TG@nodesharing_43
-      - 香港_TG@nodesharing_44
-      - 香港_TG@nodesharing_45
-      - 香港_TG@nodesharing_46
-      - 香港_TG@nodesharing_47
-      - 中国_TG@nodesharing_48
-      - 美国_TG@nodesharing_49
-      - 香港_TG@nodesharing_50
-      - 中国_TG@nodesharing_51
-      - 中国_TG@nodesharing_52
-      - 中国_TG@nodesharing_53
-      - 美国_TG@nodesharing_54
-      - 澳大利亚_TG@nodesharing_55
-      - 中国_TG@nodesharing_56
-      - 韩国_TG@nodesharing_57
-      - 中国_TG@nodesharing_58
-      - 美国_TG@nodesharing_59
-      - 香港_TG@nodesharing_60
-      - 中国_TG@nodesharing_61
-      - 中国_TG@nodesharing_62
-      - 美国_TG@nodesharing_63
-      - 香港_TG@nodesharing_64
-      - 中国_TG@nodesharing_65
-      - 韩国_TG@nodesharing_66
-      - 美国_TG@nodesharing_67
-      - 美国_TG@nodesharing_68
-      - 中国_TG@nodesharing_69
-      - 德国_TG@nodesharing_70
-      - 德国_TG@nodesharing_71
-      - 美国_TG@nodesharing_72
-      - 美国_TG@nodesharing_73
-      - 马来西亚_TG@nodesharing_74
-      - 美国_TG@nodesharing_75
-      - 马来西亚_TG@nodesharing_76
-      - 马来西亚_TG@nodesharing_77
-      - 美国_TG@nodesharing_78
-      - 美国_TG@nodesharing_79
-      - 加拿大_TG@nodesharing_80
-      - 中国_TG@nodesharing_81
-      - 加拿大_TG@nodesharing_82
-      - 马来西亚_TG@nodesharing_83
-      - 加拿大_TG@nodesharing_84
-      - 美国_TG@nodesharing_85
-      - 埃及_TG@nodesharing_86
-      - 美国_TG@nodesharing_87
-      - 加拿大_TG@nodesharing_88
-      - 加拿大_TG@nodesharing_89
-      - 加拿大_TG@nodesharing_90
-      - 加拿大_TG@nodesharing_91
-      - 加拿大_TG@nodesharing_92
-      - 美国_TG@nodesharing_93
-      - 美国_TG@nodesharing_94
-      - 加拿大_TG@nodesharing_95
-      - 美国_TG@nodesharing_96
-      - 美国_TG@nodesharing_97
-      - 墨西哥_TG@nodesharing_98
-      - 中国_TG@nodesharing_99
-      - 荷兰_TG@nodesharing_100
-      - 加拿大_TG@nodesharing_101
-      - 埃及_TG@nodesharing_102
-      - 美国_TG@nodesharing_103
-      - 美国_TG@nodesharing_104
-      - 美国_TG@nodesharing_105
-      - 加拿大_TG@nodesharing_106
-      - 美国_TG@nodesharing_107
-      - 美国_TG@nodesharing_108
-      - 美国_TG@nodesharing_109
-      - 香港_TG@nodesharing_110
-      - 俄罗斯联邦_TG@nodesharing_111
-      - 中国_TG@nodesharing_112
-      - 中国_TG@nodesharing_113
-      - 美国_TG@nodesharing_114
-      - 美国_TG@nodesharing_115
-      - 加拿大_TG@nodesharing_116
-      - 马来西亚_TG@nodesharing_117
-      - 加拿大_TG@nodesharing_118
-      - 美国_TG@nodesharing_119
-      - 法国_TG@nodesharing_120
-      - 中国_TG@nodesharing_121
-      - 美国_TG@nodesharing_122
-      - 英国_TG@nodesharing_123
-      - 美国_TG@nodesharing_124
-      - 美国_TG@nodesharing_125
-      - 英国_TG@nodesharing_126
-      - 葡萄牙_TG@nodesharing_127
-      - 马来西亚_TG@nodesharing_128
-      - 法国_TG@nodesharing_129
-      - 葡萄牙_TG@nodesharing_130
-      - 英国_TG@nodesharing_131
-      - 法国_TG@nodesharing_132
-      - 法国_TG@nodesharing_133
-      - 德国_TG@nodesharing_134
-      - 美国_TG@nodesharing_135
-      - 香港_TG@nodesharing_136
-      - 法国_TG@nodesharing_137
-      - 法国_TG@nodesharing_138
-      - 英国_TG@nodesharing_139
-      - 香港_TG@nodesharing_140
-      - 美国_TG@nodesharing_141
-      - 俄罗斯联邦_TG@nodesharing_142
-      - 美国_TG@nodesharing_143
-      - 中国_TG@nodesharing_144
-      - 葡萄牙_TG@nodesharing_145
-      - 法国_TG@nodesharing_146
-      - 俄罗斯联邦_TG@nodesharing_147
-      - 法国_TG@nodesharing_148
-      - 中国_TG@nodesharing_149
-      - 印度尼西亚_TG@nodesharing_150
-      - 印度尼西亚_TG@nodesharing_151
-      - 美国_TG@nodesharing_152
-      - 美国_TG@nodesharing_153
-      - 美国_TG@nodesharing_154
-      - 香港_TG@nodesharing_155
-      - 香港_TG@nodesharing_156
-      - 尼日利亚_TG@nodesharing_157
-      - 南非_TG@nodesharing_158
-      - 印度_TG@nodesharing_159
-      - 香港_TG@nodesharing_160
-      - 印度_TG@nodesharing_161
-      - 印度_TG@nodesharing_162
-      - 菲律宾_TG@nodesharing_163
-      - 印度_TG@nodesharing_164
-      - 印度_TG@nodesharing_165
-      - 印度_TG@nodesharing_166
-      - 印度_TG@nodesharing_167
-      - 印度_TG@nodesharing_168
-      - 印度_TG@nodesharing_169
-      - 希腊_TG@nodesharing_170
-      - 印度_TG@nodesharing_171
-      - 南非_TG@nodesharing_172
-      - 印度_TG@nodesharing_173
-      - 印度_TG@nodesharing_174
-      - 印度_TG@nodesharing_175
-      - 印度_TG@nodesharing_176
-      - 印度_TG@nodesharing_177
-      - 印度_TG@nodesharing_178
-      - 印度_TG@nodesharing_179
-      - 印度_TG@nodesharing_180
-      - 美国_TG@nodesharing_181
-      - 印度_TG@nodesharing_182
-      - 印度_TG@nodesharing_183
-      - 印度_TG@nodesharing_184
-      - 印度_TG@nodesharing_185
-      - 美国_TG@nodesharing_186
-      - 法国_TG@nodesharing_187
-      - 法国_TG@nodesharing_188
-      - 美国_TG@nodesharing_189
-      - 美国_TG@nodesharing_190
-      - 美国_TG@nodesharing_191
-      - 印度_TG@nodesharing_192
-      - 法国_TG@nodesharing_193
-      - 美国_TG@nodesharing_194
-      - 印度_TG@nodesharing_195
-      - 印度_TG@nodesharing_196
-      - 香港_TG@nodesharing_197
-      - 中国_TG@nodesharing_198
-      - 韩国_TG@nodesharing_199
-      - 阿联酋_TG@nodesharing_200
-      - 法国_TG@nodesharing_201
-      - 美国_TG@nodesharing_202
-      - 中国_TG@nodesharing_203
-      - 美国_TG@nodesharing_204
-      - 香港_TG@nodesharing_205
-      - 法国_TG@nodesharing_206
-      - TG@nodesharing_207
-      - 匈牙利_TG@nodesharing_208
-      - 俄罗斯联邦_TG@nodesharing_209
-      - 中国_TG@nodesharing_210
-      - 中国_TG@nodesharing_211
-      - TG@nodesharing_212
-      - 法国_TG@nodesharing_213
-      - 美国_TG@nodesharing_214
-      - 美国_TG@nodesharing_215
-      - 美国_TG@nodesharing_216
-      - 美国_TG@nodesharing_217
-      - TG@nodesharing_218
-      - 新加坡_TG@nodesharing_219
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_1
+      - 🇬🇧_GB_英国_8度科技532M1月25日_2
+      - 🇺🇸_US_美国_8度科技532M1月25日_3
+      - 🇺🇸_US_美国_8度科技532M1月25日_4
+      - 🇺🇸_US_美国_8度科技532M1月25日_5
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_6
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_7
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_8
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_9
+      - 🇺🇸_US_美国_8度科技532M1月25日_10
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_11
+      - 🇺🇸_US_美国_8度科技532M1月25日_12
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_13
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_14
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_15
+      - 🇺🇸_US_美国_8度科技532M1月25日_16
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_17
+      - 🇯🇵_JP_日本_8度科技532M1月25日_18
+      - 🇬🇧_GB_英国_8度科技532M1月25日_19
+      - 🇬🇧_GB_英国_8度科技532M1月25日_20
+      - 🇺🇸_US_美国_8度科技532M1月25日_21
+      - 🇺🇸_US_美国_8度科技532M1月25日_22
+      - 🇬🇧_GB_英国_8度科技532M1月25日_23
+      - 🇺🇸_US_美国_8度科技532M1月25日_24
+      - 🇺🇸_US_美国_8度科技532M1月25日_25
+      - 🇫🇷_FR_法国_8度科技532M1月25日_26
+      - 🇯🇵_JP_日本_8度科技532M1月25日_27
+      - 🇯🇵_JP_日本_8度科技532M1月25日_28
+      - 🇺🇸_US_美国_8度科技532M1月25日_29
+      - 🇺🇸_US_美国_8度科技532M1月25日_30
+      - 🇺🇸_US_美国_8度科技532M1月25日_31
+      - 🇫🇷_FR_法国_8度科技532M1月25日_32
+      - 🇫🇷_FR_法国_8度科技532M1月25日_33
+      - 🇫🇷_FR_法国_8度科技532M1月25日_34
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_35
+      - 🇺🇸_US_美国_8度科技532M1月25日_36
+      - 🇦🇺_AU_澳大利亚_8度科技532M1月25日_37
+      - 🇺🇸_US_美国_8度科技532M1月25日_38
+      - 🇺🇸_US_美国_8度科技532M1月25日_39
+      - 🇺🇸_US_美国_8度科技532M1月25日_40
+      - 🇺🇸_US_美国_8度科技532M1月25日_41
+      - 🇺🇸_US_美国_8度科技532M1月25日_42
+      - 🇮🇳_IN_印度_8度科技532M1月25日_43
+      - 🇮🇳_IN_印度_8度科技532M1月25日_44
+      - 🇰🇷_KR_韩国_8度科技532M1月25日_45
+      - 🇩🇪_DE_德国_8度科技532M1月25日_46
+      - 🇬🇧_GB_英国_8度科技532M1月25日_47
+      - 🇧🇻_BV_布维岛_8度科技532M1月25日_48
+      - 🇺🇸_US_美国_8度科技532M1月25日_49
+      - 🇭🇺_HU_匈牙利_8度科技532M1月25日_50
+      - 🇺🇸_US_美国_8度科技532M1月25日_51
+      - 🇺🇸_US_美国_8度科技532M1月25日_52
+      - 🇨🇿_CZ_捷克_8度科技532M1月25日_53
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港_TG@nodesharing_1
-      - 香港_TG@nodesharing_2
-      - 香港_TG@nodesharing_3
-      - 香港_TG@nodesharing_4
-      - 香港_TG@nodesharing_5
-      - 香港_TG@nodesharing_6
-      - 香港_TG@nodesharing_7
-      - 中国_TG@nodesharing_8
-      - 香港_TG@nodesharing_9
-      - 香港_TG@nodesharing_10
-      - 香港_TG@nodesharing_11
-      - 香港_TG@nodesharing_12
-      - 香港_TG@nodesharing_13
-      - 香港_TG@nodesharing_14
-      - 美国_TG@nodesharing_15
-      - 香港_TG@nodesharing_16
-      - 香港_TG@nodesharing_17
-      - 香港_TG@nodesharing_18
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_20
-      - 香港_TG@nodesharing_21
-      - 香港_TG@nodesharing_22
-      - 香港_TG@nodesharing_23
-      - 香港_TG@nodesharing_24
-      - 香港_TG@nodesharing_25
-      - 香港_TG@nodesharing_26
-      - 香港_TG@nodesharing_27
-      - 香港_TG@nodesharing_28
-      - 中国_TG@nodesharing_29
-      - 香港_TG@nodesharing_30
-      - 香港_TG@nodesharing_31
-      - 中国_TG@nodesharing_32
-      - 美国_TG@nodesharing_33
-      - 香港_TG@nodesharing_34
-      - 香港_TG@nodesharing_35
-      - 香港_TG@nodesharing_36
-      - 香港_TG@nodesharing_37
-      - 香港_TG@nodesharing_38
-      - 中国_TG@nodesharing_39
-      - 香港_TG@nodesharing_40
-      - 香港_TG@nodesharing_41
-      - 香港_TG@nodesharing_42
-      - 香港_TG@nodesharing_43
-      - 香港_TG@nodesharing_44
-      - 香港_TG@nodesharing_45
-      - 香港_TG@nodesharing_46
-      - 香港_TG@nodesharing_47
-      - 中国_TG@nodesharing_48
-      - 美国_TG@nodesharing_49
-      - 香港_TG@nodesharing_50
-      - 中国_TG@nodesharing_51
-      - 中国_TG@nodesharing_52
-      - 中国_TG@nodesharing_53
-      - 美国_TG@nodesharing_54
-      - 澳大利亚_TG@nodesharing_55
-      - 中国_TG@nodesharing_56
-      - 韩国_TG@nodesharing_57
-      - 中国_TG@nodesharing_58
-      - 美国_TG@nodesharing_59
-      - 香港_TG@nodesharing_60
-      - 中国_TG@nodesharing_61
-      - 中国_TG@nodesharing_62
-      - 美国_TG@nodesharing_63
-      - 香港_TG@nodesharing_64
-      - 中国_TG@nodesharing_65
-      - 韩国_TG@nodesharing_66
-      - 美国_TG@nodesharing_67
-      - 美国_TG@nodesharing_68
-      - 中国_TG@nodesharing_69
-      - 德国_TG@nodesharing_70
-      - 德国_TG@nodesharing_71
-      - 美国_TG@nodesharing_72
-      - 美国_TG@nodesharing_73
-      - 马来西亚_TG@nodesharing_74
-      - 美国_TG@nodesharing_75
-      - 马来西亚_TG@nodesharing_76
-      - 马来西亚_TG@nodesharing_77
-      - 美国_TG@nodesharing_78
-      - 美国_TG@nodesharing_79
-      - 加拿大_TG@nodesharing_80
-      - 中国_TG@nodesharing_81
-      - 加拿大_TG@nodesharing_82
-      - 马来西亚_TG@nodesharing_83
-      - 加拿大_TG@nodesharing_84
-      - 美国_TG@nodesharing_85
-      - 埃及_TG@nodesharing_86
-      - 美国_TG@nodesharing_87
-      - 加拿大_TG@nodesharing_88
-      - 加拿大_TG@nodesharing_89
-      - 加拿大_TG@nodesharing_90
-      - 加拿大_TG@nodesharing_91
-      - 加拿大_TG@nodesharing_92
-      - 美国_TG@nodesharing_93
-      - 美国_TG@nodesharing_94
-      - 加拿大_TG@nodesharing_95
-      - 美国_TG@nodesharing_96
-      - 美国_TG@nodesharing_97
-      - 墨西哥_TG@nodesharing_98
-      - 中国_TG@nodesharing_99
-      - 荷兰_TG@nodesharing_100
-      - 加拿大_TG@nodesharing_101
-      - 埃及_TG@nodesharing_102
-      - 美国_TG@nodesharing_103
-      - 美国_TG@nodesharing_104
-      - 美国_TG@nodesharing_105
-      - 加拿大_TG@nodesharing_106
-      - 美国_TG@nodesharing_107
-      - 美国_TG@nodesharing_108
-      - 美国_TG@nodesharing_109
-      - 香港_TG@nodesharing_110
-      - 俄罗斯联邦_TG@nodesharing_111
-      - 中国_TG@nodesharing_112
-      - 中国_TG@nodesharing_113
-      - 美国_TG@nodesharing_114
-      - 美国_TG@nodesharing_115
-      - 加拿大_TG@nodesharing_116
-      - 马来西亚_TG@nodesharing_117
-      - 加拿大_TG@nodesharing_118
-      - 美国_TG@nodesharing_119
-      - 法国_TG@nodesharing_120
-      - 中国_TG@nodesharing_121
-      - 美国_TG@nodesharing_122
-      - 英国_TG@nodesharing_123
-      - 美国_TG@nodesharing_124
-      - 美国_TG@nodesharing_125
-      - 英国_TG@nodesharing_126
-      - 葡萄牙_TG@nodesharing_127
-      - 马来西亚_TG@nodesharing_128
-      - 法国_TG@nodesharing_129
-      - 葡萄牙_TG@nodesharing_130
-      - 英国_TG@nodesharing_131
-      - 法国_TG@nodesharing_132
-      - 法国_TG@nodesharing_133
-      - 德国_TG@nodesharing_134
-      - 美国_TG@nodesharing_135
-      - 香港_TG@nodesharing_136
-      - 法国_TG@nodesharing_137
-      - 法国_TG@nodesharing_138
-      - 英国_TG@nodesharing_139
-      - 香港_TG@nodesharing_140
-      - 美国_TG@nodesharing_141
-      - 俄罗斯联邦_TG@nodesharing_142
-      - 美国_TG@nodesharing_143
-      - 中国_TG@nodesharing_144
-      - 葡萄牙_TG@nodesharing_145
-      - 法国_TG@nodesharing_146
-      - 俄罗斯联邦_TG@nodesharing_147
-      - 法国_TG@nodesharing_148
-      - 中国_TG@nodesharing_149
-      - 印度尼西亚_TG@nodesharing_150
-      - 印度尼西亚_TG@nodesharing_151
-      - 美国_TG@nodesharing_152
-      - 美国_TG@nodesharing_153
-      - 美国_TG@nodesharing_154
-      - 香港_TG@nodesharing_155
-      - 香港_TG@nodesharing_156
-      - 尼日利亚_TG@nodesharing_157
-      - 南非_TG@nodesharing_158
-      - 印度_TG@nodesharing_159
-      - 香港_TG@nodesharing_160
-      - 印度_TG@nodesharing_161
-      - 印度_TG@nodesharing_162
-      - 菲律宾_TG@nodesharing_163
-      - 印度_TG@nodesharing_164
-      - 印度_TG@nodesharing_165
-      - 印度_TG@nodesharing_166
-      - 印度_TG@nodesharing_167
-      - 印度_TG@nodesharing_168
-      - 印度_TG@nodesharing_169
-      - 希腊_TG@nodesharing_170
-      - 印度_TG@nodesharing_171
-      - 南非_TG@nodesharing_172
-      - 印度_TG@nodesharing_173
-      - 印度_TG@nodesharing_174
-      - 印度_TG@nodesharing_175
-      - 印度_TG@nodesharing_176
-      - 印度_TG@nodesharing_177
-      - 印度_TG@nodesharing_178
-      - 印度_TG@nodesharing_179
-      - 印度_TG@nodesharing_180
-      - 美国_TG@nodesharing_181
-      - 印度_TG@nodesharing_182
-      - 印度_TG@nodesharing_183
-      - 印度_TG@nodesharing_184
-      - 印度_TG@nodesharing_185
-      - 美国_TG@nodesharing_186
-      - 法国_TG@nodesharing_187
-      - 法国_TG@nodesharing_188
-      - 美国_TG@nodesharing_189
-      - 美国_TG@nodesharing_190
-      - 美国_TG@nodesharing_191
-      - 印度_TG@nodesharing_192
-      - 法国_TG@nodesharing_193
-      - 美国_TG@nodesharing_194
-      - 印度_TG@nodesharing_195
-      - 印度_TG@nodesharing_196
-      - 香港_TG@nodesharing_197
-      - 中国_TG@nodesharing_198
-      - 韩国_TG@nodesharing_199
-      - 阿联酋_TG@nodesharing_200
-      - 法国_TG@nodesharing_201
-      - 美国_TG@nodesharing_202
-      - 中国_TG@nodesharing_203
-      - 美国_TG@nodesharing_204
-      - 香港_TG@nodesharing_205
-      - 法国_TG@nodesharing_206
-      - TG@nodesharing_207
-      - 匈牙利_TG@nodesharing_208
-      - 俄罗斯联邦_TG@nodesharing_209
-      - 中国_TG@nodesharing_210
-      - 中国_TG@nodesharing_211
-      - TG@nodesharing_212
-      - 法国_TG@nodesharing_213
-      - 美国_TG@nodesharing_214
-      - 美国_TG@nodesharing_215
-      - 美国_TG@nodesharing_216
-      - 美国_TG@nodesharing_217
-      - TG@nodesharing_218
-      - 新加坡_TG@nodesharing_219
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_1
+      - 🇬🇧_GB_英国_8度科技532M1月25日_2
+      - 🇺🇸_US_美国_8度科技532M1月25日_3
+      - 🇺🇸_US_美国_8度科技532M1月25日_4
+      - 🇺🇸_US_美国_8度科技532M1月25日_5
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_6
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_7
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_8
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_9
+      - 🇺🇸_US_美国_8度科技532M1月25日_10
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_11
+      - 🇺🇸_US_美国_8度科技532M1月25日_12
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_13
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_14
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_15
+      - 🇺🇸_US_美国_8度科技532M1月25日_16
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_17
+      - 🇯🇵_JP_日本_8度科技532M1月25日_18
+      - 🇬🇧_GB_英国_8度科技532M1月25日_19
+      - 🇬🇧_GB_英国_8度科技532M1月25日_20
+      - 🇺🇸_US_美国_8度科技532M1月25日_21
+      - 🇺🇸_US_美国_8度科技532M1月25日_22
+      - 🇬🇧_GB_英国_8度科技532M1月25日_23
+      - 🇺🇸_US_美国_8度科技532M1月25日_24
+      - 🇺🇸_US_美国_8度科技532M1月25日_25
+      - 🇫🇷_FR_法国_8度科技532M1月25日_26
+      - 🇯🇵_JP_日本_8度科技532M1月25日_27
+      - 🇯🇵_JP_日本_8度科技532M1月25日_28
+      - 🇺🇸_US_美国_8度科技532M1月25日_29
+      - 🇺🇸_US_美国_8度科技532M1月25日_30
+      - 🇺🇸_US_美国_8度科技532M1月25日_31
+      - 🇫🇷_FR_法国_8度科技532M1月25日_32
+      - 🇫🇷_FR_法国_8度科技532M1月25日_33
+      - 🇫🇷_FR_法国_8度科技532M1月25日_34
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_35
+      - 🇺🇸_US_美国_8度科技532M1月25日_36
+      - 🇦🇺_AU_澳大利亚_8度科技532M1月25日_37
+      - 🇺🇸_US_美国_8度科技532M1月25日_38
+      - 🇺🇸_US_美国_8度科技532M1月25日_39
+      - 🇺🇸_US_美国_8度科技532M1月25日_40
+      - 🇺🇸_US_美国_8度科技532M1月25日_41
+      - 🇺🇸_US_美国_8度科技532M1月25日_42
+      - 🇮🇳_IN_印度_8度科技532M1月25日_43
+      - 🇮🇳_IN_印度_8度科技532M1月25日_44
+      - 🇰🇷_KR_韩国_8度科技532M1月25日_45
+      - 🇩🇪_DE_德国_8度科技532M1月25日_46
+      - 🇬🇧_GB_英国_8度科技532M1月25日_47
+      - 🇧🇻_BV_布维岛_8度科技532M1月25日_48
+      - 🇺🇸_US_美国_8度科技532M1月25日_49
+      - 🇭🇺_HU_匈牙利_8度科技532M1月25日_50
+      - 🇺🇸_US_美国_8度科技532M1月25日_51
+      - 🇺🇸_US_美国_8度科技532M1月25日_52
+      - 🇨🇿_CZ_捷克_8度科技532M1月25日_53
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港_TG@nodesharing_1
-      - 香港_TG@nodesharing_2
-      - 香港_TG@nodesharing_3
-      - 香港_TG@nodesharing_4
-      - 香港_TG@nodesharing_5
-      - 香港_TG@nodesharing_6
-      - 香港_TG@nodesharing_7
-      - 中国_TG@nodesharing_8
-      - 香港_TG@nodesharing_9
-      - 香港_TG@nodesharing_10
-      - 香港_TG@nodesharing_11
-      - 香港_TG@nodesharing_12
-      - 香港_TG@nodesharing_13
-      - 香港_TG@nodesharing_14
-      - 美国_TG@nodesharing_15
-      - 香港_TG@nodesharing_16
-      - 香港_TG@nodesharing_17
-      - 香港_TG@nodesharing_18
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_20
-      - 香港_TG@nodesharing_21
-      - 香港_TG@nodesharing_22
-      - 香港_TG@nodesharing_23
-      - 香港_TG@nodesharing_24
-      - 香港_TG@nodesharing_25
-      - 香港_TG@nodesharing_26
-      - 香港_TG@nodesharing_27
-      - 香港_TG@nodesharing_28
-      - 中国_TG@nodesharing_29
-      - 香港_TG@nodesharing_30
-      - 香港_TG@nodesharing_31
-      - 中国_TG@nodesharing_32
-      - 美国_TG@nodesharing_33
-      - 香港_TG@nodesharing_34
-      - 香港_TG@nodesharing_35
-      - 香港_TG@nodesharing_36
-      - 香港_TG@nodesharing_37
-      - 香港_TG@nodesharing_38
-      - 中国_TG@nodesharing_39
-      - 香港_TG@nodesharing_40
-      - 香港_TG@nodesharing_41
-      - 香港_TG@nodesharing_42
-      - 香港_TG@nodesharing_43
-      - 香港_TG@nodesharing_44
-      - 香港_TG@nodesharing_45
-      - 香港_TG@nodesharing_46
-      - 香港_TG@nodesharing_47
-      - 中国_TG@nodesharing_48
-      - 美国_TG@nodesharing_49
-      - 香港_TG@nodesharing_50
-      - 中国_TG@nodesharing_51
-      - 中国_TG@nodesharing_52
-      - 中国_TG@nodesharing_53
-      - 美国_TG@nodesharing_54
-      - 澳大利亚_TG@nodesharing_55
-      - 中国_TG@nodesharing_56
-      - 韩国_TG@nodesharing_57
-      - 中国_TG@nodesharing_58
-      - 美国_TG@nodesharing_59
-      - 香港_TG@nodesharing_60
-      - 中国_TG@nodesharing_61
-      - 中国_TG@nodesharing_62
-      - 美国_TG@nodesharing_63
-      - 香港_TG@nodesharing_64
-      - 中国_TG@nodesharing_65
-      - 韩国_TG@nodesharing_66
-      - 美国_TG@nodesharing_67
-      - 美国_TG@nodesharing_68
-      - 中国_TG@nodesharing_69
-      - 德国_TG@nodesharing_70
-      - 德国_TG@nodesharing_71
-      - 美国_TG@nodesharing_72
-      - 美国_TG@nodesharing_73
-      - 马来西亚_TG@nodesharing_74
-      - 美国_TG@nodesharing_75
-      - 马来西亚_TG@nodesharing_76
-      - 马来西亚_TG@nodesharing_77
-      - 美国_TG@nodesharing_78
-      - 美国_TG@nodesharing_79
-      - 加拿大_TG@nodesharing_80
-      - 中国_TG@nodesharing_81
-      - 加拿大_TG@nodesharing_82
-      - 马来西亚_TG@nodesharing_83
-      - 加拿大_TG@nodesharing_84
-      - 美国_TG@nodesharing_85
-      - 埃及_TG@nodesharing_86
-      - 美国_TG@nodesharing_87
-      - 加拿大_TG@nodesharing_88
-      - 加拿大_TG@nodesharing_89
-      - 加拿大_TG@nodesharing_90
-      - 加拿大_TG@nodesharing_91
-      - 加拿大_TG@nodesharing_92
-      - 美国_TG@nodesharing_93
-      - 美国_TG@nodesharing_94
-      - 加拿大_TG@nodesharing_95
-      - 美国_TG@nodesharing_96
-      - 美国_TG@nodesharing_97
-      - 墨西哥_TG@nodesharing_98
-      - 中国_TG@nodesharing_99
-      - 荷兰_TG@nodesharing_100
-      - 加拿大_TG@nodesharing_101
-      - 埃及_TG@nodesharing_102
-      - 美国_TG@nodesharing_103
-      - 美国_TG@nodesharing_104
-      - 美国_TG@nodesharing_105
-      - 加拿大_TG@nodesharing_106
-      - 美国_TG@nodesharing_107
-      - 美国_TG@nodesharing_108
-      - 美国_TG@nodesharing_109
-      - 香港_TG@nodesharing_110
-      - 俄罗斯联邦_TG@nodesharing_111
-      - 中国_TG@nodesharing_112
-      - 中国_TG@nodesharing_113
-      - 美国_TG@nodesharing_114
-      - 美国_TG@nodesharing_115
-      - 加拿大_TG@nodesharing_116
-      - 马来西亚_TG@nodesharing_117
-      - 加拿大_TG@nodesharing_118
-      - 美国_TG@nodesharing_119
-      - 法国_TG@nodesharing_120
-      - 中国_TG@nodesharing_121
-      - 美国_TG@nodesharing_122
-      - 英国_TG@nodesharing_123
-      - 美国_TG@nodesharing_124
-      - 美国_TG@nodesharing_125
-      - 英国_TG@nodesharing_126
-      - 葡萄牙_TG@nodesharing_127
-      - 马来西亚_TG@nodesharing_128
-      - 法国_TG@nodesharing_129
-      - 葡萄牙_TG@nodesharing_130
-      - 英国_TG@nodesharing_131
-      - 法国_TG@nodesharing_132
-      - 法国_TG@nodesharing_133
-      - 德国_TG@nodesharing_134
-      - 美国_TG@nodesharing_135
-      - 香港_TG@nodesharing_136
-      - 法国_TG@nodesharing_137
-      - 法国_TG@nodesharing_138
-      - 英国_TG@nodesharing_139
-      - 香港_TG@nodesharing_140
-      - 美国_TG@nodesharing_141
-      - 俄罗斯联邦_TG@nodesharing_142
-      - 美国_TG@nodesharing_143
-      - 中国_TG@nodesharing_144
-      - 葡萄牙_TG@nodesharing_145
-      - 法国_TG@nodesharing_146
-      - 俄罗斯联邦_TG@nodesharing_147
-      - 法国_TG@nodesharing_148
-      - 中国_TG@nodesharing_149
-      - 印度尼西亚_TG@nodesharing_150
-      - 印度尼西亚_TG@nodesharing_151
-      - 美国_TG@nodesharing_152
-      - 美国_TG@nodesharing_153
-      - 美国_TG@nodesharing_154
-      - 香港_TG@nodesharing_155
-      - 香港_TG@nodesharing_156
-      - 尼日利亚_TG@nodesharing_157
-      - 南非_TG@nodesharing_158
-      - 印度_TG@nodesharing_159
-      - 香港_TG@nodesharing_160
-      - 印度_TG@nodesharing_161
-      - 印度_TG@nodesharing_162
-      - 菲律宾_TG@nodesharing_163
-      - 印度_TG@nodesharing_164
-      - 印度_TG@nodesharing_165
-      - 印度_TG@nodesharing_166
-      - 印度_TG@nodesharing_167
-      - 印度_TG@nodesharing_168
-      - 印度_TG@nodesharing_169
-      - 希腊_TG@nodesharing_170
-      - 印度_TG@nodesharing_171
-      - 南非_TG@nodesharing_172
-      - 印度_TG@nodesharing_173
-      - 印度_TG@nodesharing_174
-      - 印度_TG@nodesharing_175
-      - 印度_TG@nodesharing_176
-      - 印度_TG@nodesharing_177
-      - 印度_TG@nodesharing_178
-      - 印度_TG@nodesharing_179
-      - 印度_TG@nodesharing_180
-      - 美国_TG@nodesharing_181
-      - 印度_TG@nodesharing_182
-      - 印度_TG@nodesharing_183
-      - 印度_TG@nodesharing_184
-      - 印度_TG@nodesharing_185
-      - 美国_TG@nodesharing_186
-      - 法国_TG@nodesharing_187
-      - 法国_TG@nodesharing_188
-      - 美国_TG@nodesharing_189
-      - 美国_TG@nodesharing_190
-      - 美国_TG@nodesharing_191
-      - 印度_TG@nodesharing_192
-      - 法国_TG@nodesharing_193
-      - 美国_TG@nodesharing_194
-      - 印度_TG@nodesharing_195
-      - 印度_TG@nodesharing_196
-      - 香港_TG@nodesharing_197
-      - 中国_TG@nodesharing_198
-      - 韩国_TG@nodesharing_199
-      - 阿联酋_TG@nodesharing_200
-      - 法国_TG@nodesharing_201
-      - 美国_TG@nodesharing_202
-      - 中国_TG@nodesharing_203
-      - 美国_TG@nodesharing_204
-      - 香港_TG@nodesharing_205
-      - 法国_TG@nodesharing_206
-      - TG@nodesharing_207
-      - 匈牙利_TG@nodesharing_208
-      - 俄罗斯联邦_TG@nodesharing_209
-      - 中国_TG@nodesharing_210
-      - 中国_TG@nodesharing_211
-      - TG@nodesharing_212
-      - 法国_TG@nodesharing_213
-      - 美国_TG@nodesharing_214
-      - 美国_TG@nodesharing_215
-      - 美国_TG@nodesharing_216
-      - 美国_TG@nodesharing_217
-      - TG@nodesharing_218
-      - 新加坡_TG@nodesharing_219
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_1
+      - 🇬🇧_GB_英国_8度科技532M1月25日_2
+      - 🇺🇸_US_美国_8度科技532M1月25日_3
+      - 🇺🇸_US_美国_8度科技532M1月25日_4
+      - 🇺🇸_US_美国_8度科技532M1月25日_5
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_6
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_7
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_8
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_9
+      - 🇺🇸_US_美国_8度科技532M1月25日_10
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_11
+      - 🇺🇸_US_美国_8度科技532M1月25日_12
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_13
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_14
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_15
+      - 🇺🇸_US_美国_8度科技532M1月25日_16
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_17
+      - 🇯🇵_JP_日本_8度科技532M1月25日_18
+      - 🇬🇧_GB_英国_8度科技532M1月25日_19
+      - 🇬🇧_GB_英国_8度科技532M1月25日_20
+      - 🇺🇸_US_美国_8度科技532M1月25日_21
+      - 🇺🇸_US_美国_8度科技532M1月25日_22
+      - 🇬🇧_GB_英国_8度科技532M1月25日_23
+      - 🇺🇸_US_美国_8度科技532M1月25日_24
+      - 🇺🇸_US_美国_8度科技532M1月25日_25
+      - 🇫🇷_FR_法国_8度科技532M1月25日_26
+      - 🇯🇵_JP_日本_8度科技532M1月25日_27
+      - 🇯🇵_JP_日本_8度科技532M1月25日_28
+      - 🇺🇸_US_美国_8度科技532M1月25日_29
+      - 🇺🇸_US_美国_8度科技532M1月25日_30
+      - 🇺🇸_US_美国_8度科技532M1月25日_31
+      - 🇫🇷_FR_法国_8度科技532M1月25日_32
+      - 🇫🇷_FR_法国_8度科技532M1月25日_33
+      - 🇫🇷_FR_法国_8度科技532M1月25日_34
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_35
+      - 🇺🇸_US_美国_8度科技532M1月25日_36
+      - 🇦🇺_AU_澳大利亚_8度科技532M1月25日_37
+      - 🇺🇸_US_美国_8度科技532M1月25日_38
+      - 🇺🇸_US_美国_8度科技532M1月25日_39
+      - 🇺🇸_US_美国_8度科技532M1月25日_40
+      - 🇺🇸_US_美国_8度科技532M1月25日_41
+      - 🇺🇸_US_美国_8度科技532M1月25日_42
+      - 🇮🇳_IN_印度_8度科技532M1月25日_43
+      - 🇮🇳_IN_印度_8度科技532M1月25日_44
+      - 🇰🇷_KR_韩国_8度科技532M1月25日_45
+      - 🇩🇪_DE_德国_8度科技532M1月25日_46
+      - 🇬🇧_GB_英国_8度科技532M1月25日_47
+      - 🇧🇻_BV_布维岛_8度科技532M1月25日_48
+      - 🇺🇸_US_美国_8度科技532M1月25日_49
+      - 🇭🇺_HU_匈牙利_8度科技532M1月25日_50
+      - 🇺🇸_US_美国_8度科技532M1月25日_51
+      - 🇺🇸_US_美国_8度科技532M1月25日_52
+      - 🇨🇿_CZ_捷克_8度科技532M1月25日_53
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港_TG@nodesharing_1
-      - 香港_TG@nodesharing_2
-      - 香港_TG@nodesharing_3
-      - 香港_TG@nodesharing_4
-      - 香港_TG@nodesharing_5
-      - 香港_TG@nodesharing_6
-      - 香港_TG@nodesharing_7
-      - 中国_TG@nodesharing_8
-      - 香港_TG@nodesharing_9
-      - 香港_TG@nodesharing_10
-      - 香港_TG@nodesharing_11
-      - 香港_TG@nodesharing_12
-      - 香港_TG@nodesharing_13
-      - 香港_TG@nodesharing_14
-      - 美国_TG@nodesharing_15
-      - 香港_TG@nodesharing_16
-      - 香港_TG@nodesharing_17
-      - 香港_TG@nodesharing_18
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_20
-      - 香港_TG@nodesharing_21
-      - 香港_TG@nodesharing_22
-      - 香港_TG@nodesharing_23
-      - 香港_TG@nodesharing_24
-      - 香港_TG@nodesharing_25
-      - 香港_TG@nodesharing_26
-      - 香港_TG@nodesharing_27
-      - 香港_TG@nodesharing_28
-      - 中国_TG@nodesharing_29
-      - 香港_TG@nodesharing_30
-      - 香港_TG@nodesharing_31
-      - 中国_TG@nodesharing_32
-      - 美国_TG@nodesharing_33
-      - 香港_TG@nodesharing_34
-      - 香港_TG@nodesharing_35
-      - 香港_TG@nodesharing_36
-      - 香港_TG@nodesharing_37
-      - 香港_TG@nodesharing_38
-      - 中国_TG@nodesharing_39
-      - 香港_TG@nodesharing_40
-      - 香港_TG@nodesharing_41
-      - 香港_TG@nodesharing_42
-      - 香港_TG@nodesharing_43
-      - 香港_TG@nodesharing_44
-      - 香港_TG@nodesharing_45
-      - 香港_TG@nodesharing_46
-      - 香港_TG@nodesharing_47
-      - 中国_TG@nodesharing_48
-      - 美国_TG@nodesharing_49
-      - 香港_TG@nodesharing_50
-      - 中国_TG@nodesharing_51
-      - 中国_TG@nodesharing_52
-      - 中国_TG@nodesharing_53
-      - 美国_TG@nodesharing_54
-      - 澳大利亚_TG@nodesharing_55
-      - 中国_TG@nodesharing_56
-      - 韩国_TG@nodesharing_57
-      - 中国_TG@nodesharing_58
-      - 美国_TG@nodesharing_59
-      - 香港_TG@nodesharing_60
-      - 中国_TG@nodesharing_61
-      - 中国_TG@nodesharing_62
-      - 美国_TG@nodesharing_63
-      - 香港_TG@nodesharing_64
-      - 中国_TG@nodesharing_65
-      - 韩国_TG@nodesharing_66
-      - 美国_TG@nodesharing_67
-      - 美国_TG@nodesharing_68
-      - 中国_TG@nodesharing_69
-      - 德国_TG@nodesharing_70
-      - 德国_TG@nodesharing_71
-      - 美国_TG@nodesharing_72
-      - 美国_TG@nodesharing_73
-      - 马来西亚_TG@nodesharing_74
-      - 美国_TG@nodesharing_75
-      - 马来西亚_TG@nodesharing_76
-      - 马来西亚_TG@nodesharing_77
-      - 美国_TG@nodesharing_78
-      - 美国_TG@nodesharing_79
-      - 加拿大_TG@nodesharing_80
-      - 中国_TG@nodesharing_81
-      - 加拿大_TG@nodesharing_82
-      - 马来西亚_TG@nodesharing_83
-      - 加拿大_TG@nodesharing_84
-      - 美国_TG@nodesharing_85
-      - 埃及_TG@nodesharing_86
-      - 美国_TG@nodesharing_87
-      - 加拿大_TG@nodesharing_88
-      - 加拿大_TG@nodesharing_89
-      - 加拿大_TG@nodesharing_90
-      - 加拿大_TG@nodesharing_91
-      - 加拿大_TG@nodesharing_92
-      - 美国_TG@nodesharing_93
-      - 美国_TG@nodesharing_94
-      - 加拿大_TG@nodesharing_95
-      - 美国_TG@nodesharing_96
-      - 美国_TG@nodesharing_97
-      - 墨西哥_TG@nodesharing_98
-      - 中国_TG@nodesharing_99
-      - 荷兰_TG@nodesharing_100
-      - 加拿大_TG@nodesharing_101
-      - 埃及_TG@nodesharing_102
-      - 美国_TG@nodesharing_103
-      - 美国_TG@nodesharing_104
-      - 美国_TG@nodesharing_105
-      - 加拿大_TG@nodesharing_106
-      - 美国_TG@nodesharing_107
-      - 美国_TG@nodesharing_108
-      - 美国_TG@nodesharing_109
-      - 香港_TG@nodesharing_110
-      - 俄罗斯联邦_TG@nodesharing_111
-      - 中国_TG@nodesharing_112
-      - 中国_TG@nodesharing_113
-      - 美国_TG@nodesharing_114
-      - 美国_TG@nodesharing_115
-      - 加拿大_TG@nodesharing_116
-      - 马来西亚_TG@nodesharing_117
-      - 加拿大_TG@nodesharing_118
-      - 美国_TG@nodesharing_119
-      - 法国_TG@nodesharing_120
-      - 中国_TG@nodesharing_121
-      - 美国_TG@nodesharing_122
-      - 英国_TG@nodesharing_123
-      - 美国_TG@nodesharing_124
-      - 美国_TG@nodesharing_125
-      - 英国_TG@nodesharing_126
-      - 葡萄牙_TG@nodesharing_127
-      - 马来西亚_TG@nodesharing_128
-      - 法国_TG@nodesharing_129
-      - 葡萄牙_TG@nodesharing_130
-      - 英国_TG@nodesharing_131
-      - 法国_TG@nodesharing_132
-      - 法国_TG@nodesharing_133
-      - 德国_TG@nodesharing_134
-      - 美国_TG@nodesharing_135
-      - 香港_TG@nodesharing_136
-      - 法国_TG@nodesharing_137
-      - 法国_TG@nodesharing_138
-      - 英国_TG@nodesharing_139
-      - 香港_TG@nodesharing_140
-      - 美国_TG@nodesharing_141
-      - 俄罗斯联邦_TG@nodesharing_142
-      - 美国_TG@nodesharing_143
-      - 中国_TG@nodesharing_144
-      - 葡萄牙_TG@nodesharing_145
-      - 法国_TG@nodesharing_146
-      - 俄罗斯联邦_TG@nodesharing_147
-      - 法国_TG@nodesharing_148
-      - 中国_TG@nodesharing_149
-      - 印度尼西亚_TG@nodesharing_150
-      - 印度尼西亚_TG@nodesharing_151
-      - 美国_TG@nodesharing_152
-      - 美国_TG@nodesharing_153
-      - 美国_TG@nodesharing_154
-      - 香港_TG@nodesharing_155
-      - 香港_TG@nodesharing_156
-      - 尼日利亚_TG@nodesharing_157
-      - 南非_TG@nodesharing_158
-      - 印度_TG@nodesharing_159
-      - 香港_TG@nodesharing_160
-      - 印度_TG@nodesharing_161
-      - 印度_TG@nodesharing_162
-      - 菲律宾_TG@nodesharing_163
-      - 印度_TG@nodesharing_164
-      - 印度_TG@nodesharing_165
-      - 印度_TG@nodesharing_166
-      - 印度_TG@nodesharing_167
-      - 印度_TG@nodesharing_168
-      - 印度_TG@nodesharing_169
-      - 希腊_TG@nodesharing_170
-      - 印度_TG@nodesharing_171
-      - 南非_TG@nodesharing_172
-      - 印度_TG@nodesharing_173
-      - 印度_TG@nodesharing_174
-      - 印度_TG@nodesharing_175
-      - 印度_TG@nodesharing_176
-      - 印度_TG@nodesharing_177
-      - 印度_TG@nodesharing_178
-      - 印度_TG@nodesharing_179
-      - 印度_TG@nodesharing_180
-      - 美国_TG@nodesharing_181
-      - 印度_TG@nodesharing_182
-      - 印度_TG@nodesharing_183
-      - 印度_TG@nodesharing_184
-      - 印度_TG@nodesharing_185
-      - 美国_TG@nodesharing_186
-      - 法国_TG@nodesharing_187
-      - 法国_TG@nodesharing_188
-      - 美国_TG@nodesharing_189
-      - 美国_TG@nodesharing_190
-      - 美国_TG@nodesharing_191
-      - 印度_TG@nodesharing_192
-      - 法国_TG@nodesharing_193
-      - 美国_TG@nodesharing_194
-      - 印度_TG@nodesharing_195
-      - 印度_TG@nodesharing_196
-      - 香港_TG@nodesharing_197
-      - 中国_TG@nodesharing_198
-      - 韩国_TG@nodesharing_199
-      - 阿联酋_TG@nodesharing_200
-      - 法国_TG@nodesharing_201
-      - 美国_TG@nodesharing_202
-      - 中国_TG@nodesharing_203
-      - 美国_TG@nodesharing_204
-      - 香港_TG@nodesharing_205
-      - 法国_TG@nodesharing_206
-      - TG@nodesharing_207
-      - 匈牙利_TG@nodesharing_208
-      - 俄罗斯联邦_TG@nodesharing_209
-      - 中国_TG@nodesharing_210
-      - 中国_TG@nodesharing_211
-      - TG@nodesharing_212
-      - 法国_TG@nodesharing_213
-      - 美国_TG@nodesharing_214
-      - 美国_TG@nodesharing_215
-      - 美国_TG@nodesharing_216
-      - 美国_TG@nodesharing_217
-      - TG@nodesharing_218
-      - 新加坡_TG@nodesharing_219
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_1
+      - 🇬🇧_GB_英国_8度科技532M1月25日_2
+      - 🇺🇸_US_美国_8度科技532M1月25日_3
+      - 🇺🇸_US_美国_8度科技532M1月25日_4
+      - 🇺🇸_US_美国_8度科技532M1月25日_5
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_6
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_7
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_8
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_9
+      - 🇺🇸_US_美国_8度科技532M1月25日_10
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_11
+      - 🇺🇸_US_美国_8度科技532M1月25日_12
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_13
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_14
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_15
+      - 🇺🇸_US_美国_8度科技532M1月25日_16
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_17
+      - 🇯🇵_JP_日本_8度科技532M1月25日_18
+      - 🇬🇧_GB_英国_8度科技532M1月25日_19
+      - 🇬🇧_GB_英国_8度科技532M1月25日_20
+      - 🇺🇸_US_美国_8度科技532M1月25日_21
+      - 🇺🇸_US_美国_8度科技532M1月25日_22
+      - 🇬🇧_GB_英国_8度科技532M1月25日_23
+      - 🇺🇸_US_美国_8度科技532M1月25日_24
+      - 🇺🇸_US_美国_8度科技532M1月25日_25
+      - 🇫🇷_FR_法国_8度科技532M1月25日_26
+      - 🇯🇵_JP_日本_8度科技532M1月25日_27
+      - 🇯🇵_JP_日本_8度科技532M1月25日_28
+      - 🇺🇸_US_美国_8度科技532M1月25日_29
+      - 🇺🇸_US_美国_8度科技532M1月25日_30
+      - 🇺🇸_US_美国_8度科技532M1月25日_31
+      - 🇫🇷_FR_法国_8度科技532M1月25日_32
+      - 🇫🇷_FR_法国_8度科技532M1月25日_33
+      - 🇫🇷_FR_法国_8度科技532M1月25日_34
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_35
+      - 🇺🇸_US_美国_8度科技532M1月25日_36
+      - 🇦🇺_AU_澳大利亚_8度科技532M1月25日_37
+      - 🇺🇸_US_美国_8度科技532M1月25日_38
+      - 🇺🇸_US_美国_8度科技532M1月25日_39
+      - 🇺🇸_US_美国_8度科技532M1月25日_40
+      - 🇺🇸_US_美国_8度科技532M1月25日_41
+      - 🇺🇸_US_美国_8度科技532M1月25日_42
+      - 🇮🇳_IN_印度_8度科技532M1月25日_43
+      - 🇮🇳_IN_印度_8度科技532M1月25日_44
+      - 🇰🇷_KR_韩国_8度科技532M1月25日_45
+      - 🇩🇪_DE_德国_8度科技532M1月25日_46
+      - 🇬🇧_GB_英国_8度科技532M1月25日_47
+      - 🇧🇻_BV_布维岛_8度科技532M1月25日_48
+      - 🇺🇸_US_美国_8度科技532M1月25日_49
+      - 🇭🇺_HU_匈牙利_8度科技532M1月25日_50
+      - 🇺🇸_US_美国_8度科技532M1月25日_51
+      - 🇺🇸_US_美国_8度科技532M1月25日_52
+      - 🇨🇿_CZ_捷克_8度科技532M1月25日_53
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1810,225 +482,59 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港_TG@nodesharing_1
-      - 香港_TG@nodesharing_2
-      - 香港_TG@nodesharing_3
-      - 香港_TG@nodesharing_4
-      - 香港_TG@nodesharing_5
-      - 香港_TG@nodesharing_6
-      - 香港_TG@nodesharing_7
-      - 中国_TG@nodesharing_8
-      - 香港_TG@nodesharing_9
-      - 香港_TG@nodesharing_10
-      - 香港_TG@nodesharing_11
-      - 香港_TG@nodesharing_12
-      - 香港_TG@nodesharing_13
-      - 香港_TG@nodesharing_14
-      - 美国_TG@nodesharing_15
-      - 香港_TG@nodesharing_16
-      - 香港_TG@nodesharing_17
-      - 香港_TG@nodesharing_18
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_20
-      - 香港_TG@nodesharing_21
-      - 香港_TG@nodesharing_22
-      - 香港_TG@nodesharing_23
-      - 香港_TG@nodesharing_24
-      - 香港_TG@nodesharing_25
-      - 香港_TG@nodesharing_26
-      - 香港_TG@nodesharing_27
-      - 香港_TG@nodesharing_28
-      - 中国_TG@nodesharing_29
-      - 香港_TG@nodesharing_30
-      - 香港_TG@nodesharing_31
-      - 中国_TG@nodesharing_32
-      - 美国_TG@nodesharing_33
-      - 香港_TG@nodesharing_34
-      - 香港_TG@nodesharing_35
-      - 香港_TG@nodesharing_36
-      - 香港_TG@nodesharing_37
-      - 香港_TG@nodesharing_38
-      - 中国_TG@nodesharing_39
-      - 香港_TG@nodesharing_40
-      - 香港_TG@nodesharing_41
-      - 香港_TG@nodesharing_42
-      - 香港_TG@nodesharing_43
-      - 香港_TG@nodesharing_44
-      - 香港_TG@nodesharing_45
-      - 香港_TG@nodesharing_46
-      - 香港_TG@nodesharing_47
-      - 中国_TG@nodesharing_48
-      - 美国_TG@nodesharing_49
-      - 香港_TG@nodesharing_50
-      - 中国_TG@nodesharing_51
-      - 中国_TG@nodesharing_52
-      - 中国_TG@nodesharing_53
-      - 美国_TG@nodesharing_54
-      - 澳大利亚_TG@nodesharing_55
-      - 中国_TG@nodesharing_56
-      - 韩国_TG@nodesharing_57
-      - 中国_TG@nodesharing_58
-      - 美国_TG@nodesharing_59
-      - 香港_TG@nodesharing_60
-      - 中国_TG@nodesharing_61
-      - 中国_TG@nodesharing_62
-      - 美国_TG@nodesharing_63
-      - 香港_TG@nodesharing_64
-      - 中国_TG@nodesharing_65
-      - 韩国_TG@nodesharing_66
-      - 美国_TG@nodesharing_67
-      - 美国_TG@nodesharing_68
-      - 中国_TG@nodesharing_69
-      - 德国_TG@nodesharing_70
-      - 德国_TG@nodesharing_71
-      - 美国_TG@nodesharing_72
-      - 美国_TG@nodesharing_73
-      - 马来西亚_TG@nodesharing_74
-      - 美国_TG@nodesharing_75
-      - 马来西亚_TG@nodesharing_76
-      - 马来西亚_TG@nodesharing_77
-      - 美国_TG@nodesharing_78
-      - 美国_TG@nodesharing_79
-      - 加拿大_TG@nodesharing_80
-      - 中国_TG@nodesharing_81
-      - 加拿大_TG@nodesharing_82
-      - 马来西亚_TG@nodesharing_83
-      - 加拿大_TG@nodesharing_84
-      - 美国_TG@nodesharing_85
-      - 埃及_TG@nodesharing_86
-      - 美国_TG@nodesharing_87
-      - 加拿大_TG@nodesharing_88
-      - 加拿大_TG@nodesharing_89
-      - 加拿大_TG@nodesharing_90
-      - 加拿大_TG@nodesharing_91
-      - 加拿大_TG@nodesharing_92
-      - 美国_TG@nodesharing_93
-      - 美国_TG@nodesharing_94
-      - 加拿大_TG@nodesharing_95
-      - 美国_TG@nodesharing_96
-      - 美国_TG@nodesharing_97
-      - 墨西哥_TG@nodesharing_98
-      - 中国_TG@nodesharing_99
-      - 荷兰_TG@nodesharing_100
-      - 加拿大_TG@nodesharing_101
-      - 埃及_TG@nodesharing_102
-      - 美国_TG@nodesharing_103
-      - 美国_TG@nodesharing_104
-      - 美国_TG@nodesharing_105
-      - 加拿大_TG@nodesharing_106
-      - 美国_TG@nodesharing_107
-      - 美国_TG@nodesharing_108
-      - 美国_TG@nodesharing_109
-      - 香港_TG@nodesharing_110
-      - 俄罗斯联邦_TG@nodesharing_111
-      - 中国_TG@nodesharing_112
-      - 中国_TG@nodesharing_113
-      - 美国_TG@nodesharing_114
-      - 美国_TG@nodesharing_115
-      - 加拿大_TG@nodesharing_116
-      - 马来西亚_TG@nodesharing_117
-      - 加拿大_TG@nodesharing_118
-      - 美国_TG@nodesharing_119
-      - 法国_TG@nodesharing_120
-      - 中国_TG@nodesharing_121
-      - 美国_TG@nodesharing_122
-      - 英国_TG@nodesharing_123
-      - 美国_TG@nodesharing_124
-      - 美国_TG@nodesharing_125
-      - 英国_TG@nodesharing_126
-      - 葡萄牙_TG@nodesharing_127
-      - 马来西亚_TG@nodesharing_128
-      - 法国_TG@nodesharing_129
-      - 葡萄牙_TG@nodesharing_130
-      - 英国_TG@nodesharing_131
-      - 法国_TG@nodesharing_132
-      - 法国_TG@nodesharing_133
-      - 德国_TG@nodesharing_134
-      - 美国_TG@nodesharing_135
-      - 香港_TG@nodesharing_136
-      - 法国_TG@nodesharing_137
-      - 法国_TG@nodesharing_138
-      - 英国_TG@nodesharing_139
-      - 香港_TG@nodesharing_140
-      - 美国_TG@nodesharing_141
-      - 俄罗斯联邦_TG@nodesharing_142
-      - 美国_TG@nodesharing_143
-      - 中国_TG@nodesharing_144
-      - 葡萄牙_TG@nodesharing_145
-      - 法国_TG@nodesharing_146
-      - 俄罗斯联邦_TG@nodesharing_147
-      - 法国_TG@nodesharing_148
-      - 中国_TG@nodesharing_149
-      - 印度尼西亚_TG@nodesharing_150
-      - 印度尼西亚_TG@nodesharing_151
-      - 美国_TG@nodesharing_152
-      - 美国_TG@nodesharing_153
-      - 美国_TG@nodesharing_154
-      - 香港_TG@nodesharing_155
-      - 香港_TG@nodesharing_156
-      - 尼日利亚_TG@nodesharing_157
-      - 南非_TG@nodesharing_158
-      - 印度_TG@nodesharing_159
-      - 香港_TG@nodesharing_160
-      - 印度_TG@nodesharing_161
-      - 印度_TG@nodesharing_162
-      - 菲律宾_TG@nodesharing_163
-      - 印度_TG@nodesharing_164
-      - 印度_TG@nodesharing_165
-      - 印度_TG@nodesharing_166
-      - 印度_TG@nodesharing_167
-      - 印度_TG@nodesharing_168
-      - 印度_TG@nodesharing_169
-      - 希腊_TG@nodesharing_170
-      - 印度_TG@nodesharing_171
-      - 南非_TG@nodesharing_172
-      - 印度_TG@nodesharing_173
-      - 印度_TG@nodesharing_174
-      - 印度_TG@nodesharing_175
-      - 印度_TG@nodesharing_176
-      - 印度_TG@nodesharing_177
-      - 印度_TG@nodesharing_178
-      - 印度_TG@nodesharing_179
-      - 印度_TG@nodesharing_180
-      - 美国_TG@nodesharing_181
-      - 印度_TG@nodesharing_182
-      - 印度_TG@nodesharing_183
-      - 印度_TG@nodesharing_184
-      - 印度_TG@nodesharing_185
-      - 美国_TG@nodesharing_186
-      - 法国_TG@nodesharing_187
-      - 法国_TG@nodesharing_188
-      - 美国_TG@nodesharing_189
-      - 美国_TG@nodesharing_190
-      - 美国_TG@nodesharing_191
-      - 印度_TG@nodesharing_192
-      - 法国_TG@nodesharing_193
-      - 美国_TG@nodesharing_194
-      - 印度_TG@nodesharing_195
-      - 印度_TG@nodesharing_196
-      - 香港_TG@nodesharing_197
-      - 中国_TG@nodesharing_198
-      - 韩国_TG@nodesharing_199
-      - 阿联酋_TG@nodesharing_200
-      - 法国_TG@nodesharing_201
-      - 美国_TG@nodesharing_202
-      - 中国_TG@nodesharing_203
-      - 美国_TG@nodesharing_204
-      - 香港_TG@nodesharing_205
-      - 法国_TG@nodesharing_206
-      - TG@nodesharing_207
-      - 匈牙利_TG@nodesharing_208
-      - 俄罗斯联邦_TG@nodesharing_209
-      - 中国_TG@nodesharing_210
-      - 中国_TG@nodesharing_211
-      - TG@nodesharing_212
-      - 法国_TG@nodesharing_213
-      - 美国_TG@nodesharing_214
-      - 美国_TG@nodesharing_215
-      - 美国_TG@nodesharing_216
-      - 美国_TG@nodesharing_217
-      - TG@nodesharing_218
-      - 新加坡_TG@nodesharing_219
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_1
+      - 🇬🇧_GB_英国_8度科技532M1月25日_2
+      - 🇺🇸_US_美国_8度科技532M1月25日_3
+      - 🇺🇸_US_美国_8度科技532M1月25日_4
+      - 🇺🇸_US_美国_8度科技532M1月25日_5
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_6
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_7
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_8
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_9
+      - 🇺🇸_US_美国_8度科技532M1月25日_10
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_11
+      - 🇺🇸_US_美国_8度科技532M1月25日_12
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_13
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_14
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_15
+      - 🇺🇸_US_美国_8度科技532M1月25日_16
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_17
+      - 🇯🇵_JP_日本_8度科技532M1月25日_18
+      - 🇬🇧_GB_英国_8度科技532M1月25日_19
+      - 🇬🇧_GB_英国_8度科技532M1月25日_20
+      - 🇺🇸_US_美国_8度科技532M1月25日_21
+      - 🇺🇸_US_美国_8度科技532M1月25日_22
+      - 🇬🇧_GB_英国_8度科技532M1月25日_23
+      - 🇺🇸_US_美国_8度科技532M1月25日_24
+      - 🇺🇸_US_美国_8度科技532M1月25日_25
+      - 🇫🇷_FR_法国_8度科技532M1月25日_26
+      - 🇯🇵_JP_日本_8度科技532M1月25日_27
+      - 🇯🇵_JP_日本_8度科技532M1月25日_28
+      - 🇺🇸_US_美国_8度科技532M1月25日_29
+      - 🇺🇸_US_美国_8度科技532M1月25日_30
+      - 🇺🇸_US_美国_8度科技532M1月25日_31
+      - 🇫🇷_FR_法国_8度科技532M1月25日_32
+      - 🇫🇷_FR_法国_8度科技532M1月25日_33
+      - 🇫🇷_FR_法国_8度科技532M1月25日_34
+      - 🇨🇦_CA_加拿大_8度科技532M1月25日_35
+      - 🇺🇸_US_美国_8度科技532M1月25日_36
+      - 🇦🇺_AU_澳大利亚_8度科技532M1月25日_37
+      - 🇺🇸_US_美国_8度科技532M1月25日_38
+      - 🇺🇸_US_美国_8度科技532M1月25日_39
+      - 🇺🇸_US_美国_8度科技532M1月25日_40
+      - 🇺🇸_US_美国_8度科技532M1月25日_41
+      - 🇺🇸_US_美国_8度科技532M1月25日_42
+      - 🇮🇳_IN_印度_8度科技532M1月25日_43
+      - 🇮🇳_IN_印度_8度科技532M1月25日_44
+      - 🇰🇷_KR_韩国_8度科技532M1月25日_45
+      - 🇩🇪_DE_德国_8度科技532M1月25日_46
+      - 🇬🇧_GB_英国_8度科技532M1月25日_47
+      - 🇧🇻_BV_布维岛_8度科技532M1月25日_48
+      - 🇺🇸_US_美国_8度科技532M1月25日_49
+      - 🇭🇺_HU_匈牙利_8度科技532M1月25日_50
+      - 🇺🇸_US_美国_8度科技532M1月25日_51
+      - 🇺🇸_US_美国_8度科技532M1月25日_52
+      - 🇨🇿_CZ_捷克_8度科技532M1月25日_53
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
