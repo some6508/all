@@ -5,455 +5,95 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 专线 冷门-阿根廷, server: iepl02.789jiasu.com, port: 8591, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 韩国 01, server: in03.789jiasu.com, port: 8651, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 中继 新加坡 02, server: in04.789jiasu.com, port: 8722, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 美国 02, server: in01.789jiasu.com, port: 8632, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 中继 香港 05, server: in04.789jiasu.com, port: 8665, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 中继 新加坡 02 2, server: in04.789jiasu.com, port: 8622, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 香港 02, server: iepl02.789jiasu.com, port: 8562, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 香港 03, server: iepl03.789jiasu.com, port: 8563, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 香港 01, server: iepl01.789jiasu.com, port: 8561, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 香港 01, server: in05.789jiasu.com, port: 8761, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 香港 03 2, server: iepl03.789jiasu.com, port: 8563, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 中继 马来西亚 01, server: in01.789jiasu.com, port: 8671, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 新加坡 02, server: iepl03.789jiasu.com, port: 8522, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 冷门-俄罗斯, server: iepl01.789jiasu.com, port: 8592, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 香港 04, server: iepl01.789jiasu.com, port: 8564, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 新加坡 03, server: in05.789jiasu.com, port: 8723, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: AIA 香港 02, server: aia.789jiasu.com, port: 8562, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: "[GCP]Great Britain 02", server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 中继 新加坡 01, server: in03.789jiasu.com, port: 8721, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 马来西亚 02, server: iepl02.789jiasu.com, port: 8522, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 马来西亚 01 2, server: in01.789jiasu.com, port: 8771, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 马来西亚 03, server: iepl03.789jiasu.com, port: 8523, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 马来西亚 01, server: iepl01.789jiasu.com, port: 8521, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 新加坡 02 2, server: iepl03.789jiasu.com, port: 8522, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 新加坡 01, server: iepl02.789jiasu.com, port: 8521, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 马来西亚 02, server: in02.789jiasu.com, port: 8771, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 马来西亚 02 2, server: in02.789jiasu.com, port: 8671, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: AIA 新加坡 02, server: aia.789jiasu.com, port: 8522, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: AIA 新加坡 01, server: aia.789jiasu.com, port: 8521, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 日本 03, server: iepl01.789jiasu.com, port: 8513, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 日本 01, server: iepl02.789jiasu.com, port: 8511, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 台湾 02, server: in02.789jiasu.com, port: 8641, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: AIA 日本 01, server: aia.789jiasu.com, port: 8511, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 台湾 02, server: iepl01.789jiasu.com, port: 8541, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 韩国 01, server: iepl02.789jiasu.com, port: 8551, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 韩国 02, server: iepl03.789jiasu.com, port: 8551, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 香港 04, server: in03.789jiasu.com, port: 8764, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: AIA 台湾 01, server: aia.789jiasu.com, port: 8541, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 台湾 01, server: iepl03.789jiasu.com, port: 8541, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 新加坡 04, server: in02.789jiasu.com, port: 8623, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: AIA 韩国 01, server: aia.789jiasu.com, port: 8551, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 新加坡 04 2, server: in02.789jiasu.com, port: 8723, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 台湾 01, server: in01.789jiasu.com, port: 8741, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 日本 01, server: in02.789jiasu.com, port: 8711, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 日本 03, server: in04.789jiasu.com, port: 8613, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 中继 日本 03 2, server: in04.789jiasu.com, port: 8713, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 美国 01, server: iepl02.789jiasu.com, port: 8531, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 冷门-澳大利亚, server: iepl03.789jiasu.com, port: 8594, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 日本 01 2, server: in02.789jiasu.com, port: 8611, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 美国 02, server: iepl03.789jiasu.com, port: 8532, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 日本 02, server: in03.789jiasu.com, port: 8712, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 韩国 02, server: in04.789jiasu.com, port: 8651, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 新加坡 03, server: iepl01.789jiasu.com, port: 8523, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 香港 06, server: in05.789jiasu.com, port: 8765, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 美国 03, server: iepl01.789jiasu.com, port: 8533, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: "[IEPL]Canada 06", server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 中继 美国 01, server: in05.789jiasu.com, port: 8631, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 中继 韩国 01 2, server: in03.789jiasu.com, port: 8751, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: "[IEPL]Canada 04", server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 中继 美国 01 2, server: in05.789jiasu.com, port: 8731, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 香港 01 2, server: in05.789jiasu.com, port: 8661, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 中继 韩国 02 2, server: in04.789jiasu.com, port: 8751, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 美国 03, server: in02.789jiasu.com, port: 8632, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 冷门-印度, server: iepl02.789jiasu.com, port: 8598, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 冷门-德国, server: iepl02.789jiasu.com, port: 8597, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: "[IEPL]Great Britain 04", server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 专线 香港 04 2, server: iepl01.789jiasu.com, port: 8564, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 香港 02 2, server: iepl02.789jiasu.com, port: 8562, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 冷门-澳大利亚 2, server: iepl03.789jiasu.com, port: 8594, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 中继 美国 02 2, server: in01.789jiasu.com, port: 8732, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 台湾 01 2, server: in01.789jiasu.com, port: 8641, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 中继 新加坡 03 2, server: in05.789jiasu.com, port: 8623, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 美国 02 2, server: iepl03.789jiasu.com, port: 8532, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 美国 01 2, server: iepl02.789jiasu.com, port: 8531, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 冷门-印度 2, server: iepl02.789jiasu.com, port: 8598, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 中继 日本 02 2, server: in03.789jiasu.com, port: 8612, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 美国 03 2, server: iepl01.789jiasu.com, port: 8533, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 中继 新加坡 01 2, server: in03.789jiasu.com, port: 8621, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 马来西亚 02 2, server: iepl02.789jiasu.com, port: 8522, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 马来西亚 03 2, server: iepl03.789jiasu.com, port: 8523, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 中继 香港 05 2, server: in04.789jiasu.com, port: 8765, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 冷门-德国 2, server: iepl02.789jiasu.com, port: 8597, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 日本 02, server: iepl03.789jiasu.com, port: 8512, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 新加坡 03 2, server: iepl01.789jiasu.com, port: 8523, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 冷门-英国, server: iepl01.789jiasu.com, port: 8593, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 冷门-土耳其, server: iepl03.789jiasu.com, port: 8595, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 新加坡 01 2, server: iepl02.789jiasu.com, port: 8521, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 冷门-巴基斯坦, server: iepl03.789jiasu.com, port: 8599, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 马来西亚 01 2, server: iepl01.789jiasu.com, port: 8521, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 中继 台湾 02 2, server: in02.789jiasu.com, port: 8741, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: AIA 美国 01, server: aia.789jiasu.com, port: 8531, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 专线 日本 02 2, server: iepl03.789jiasu.com, port: 8512, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 冷门-巴基斯坦 2, server: iepl03.789jiasu.com, port: 8599, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 韩国 01 2, server: iepl02.789jiasu.com, port: 8551, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 冷门-土耳其 2, server: iepl03.789jiasu.com, port: 8595, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 韩国 02 2, server: iepl03.789jiasu.com, port: 8551, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 日本 01 2, server: iepl02.789jiasu.com, port: 8511, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 中继 香港 04 2, server: in03.789jiasu.com, port: 8664, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 冷门-英国 2, server: iepl01.789jiasu.com, port: 8593, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 日本 03 2, server: iepl01.789jiasu.com, port: 8513, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 冷门-巴西, server: iepl01.789jiasu.com, port: 8596, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 美国 03 2, server: in02.789jiasu.com, port: 8732, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: ca22e187314.microsoft.com}, udp: true}
-  - {name: 中继 香港 06 2, server: in05.789jiasu.com, port: 8665, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 台湾 01 2, server: iepl03.789jiasu.com, port: 8541, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 冷门-巴西 2, server: iepl01.789jiasu.com, port: 8596, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 冷门-俄罗斯 2, server: iepl01.789jiasu.com, port: 8592, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 香港 01 2, server: iepl01.789jiasu.com, port: 8561, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 专线 台湾 02 2, server: iepl01.789jiasu.com, port: 8541, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
+  - {name: MO-CTM A -原生IP @TD - 300M, server: xiuluo-zs-a.yahaha.live, port: 55404, type: ssr, cipher: chacha20-ietf, password: tGciIL, protocol: auth_sha1_v4, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 1.57|CYL科技20220101 30 2, server: sy-am2.eqsunshine.com, port: 443, type: ssr, cipher: aes-256-cfb, password: Jz8r4gLNP, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: HK-SZ D@IEPL - 1G, server: iepl-hk-d.yahaha.live, port: 55404, type: ssr, cipher: chacha20-ietf, password: tGciIL, protocol: auth_sha1_v4, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
+  - {name: HK-SZ C@IEPL - 1G, server: iepl-hk-c.yahaha.live, port: 55404, type: ssr, cipher: chacha20-ietf, password: tGciIL, protocol: auth_sha1_v4, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
+  - {name: HK-SZ B@IEPL - 1G, server: iepl-hk-b.yahaha.live, port: 55404, type: ssr, cipher: chacha20-ietf, password: tGciIL, protocol: auth_sha1_v4, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
+  - {name: Relay_🇫🇷FR-🇫🇷FR_543, server: fr-am1-4.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: X3LKnwp5C, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: MO-CTM D -原生IP @TD - 300M, server: codeccloud-fs-b.yahaha.live, port: 55404, type: ssr, cipher: chacha20-ietf, password: tGciIL, protocol: auth_sha1_v4, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
+  - {name: CN-183.232.170.110-1232, server: gdfs.xxcv.cc, port: 26001, type: trojan, password: 4a53cdc5-1067-3f5c-b1b4-745edfa8b371, sni: gdfs.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: CN-183.232.170.110-1233, server: gdfs.xxcv.cc, port: 26003, type: trojan, password: 4a53cdc5-1067-3f5c-b1b4-745edfa8b371, sni: gdfs.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: US-199.19.226.178-1313, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: us.lv.buyvm.tgproxy.wtf}, udp: true}
+  - {name: 2.74| 专线西雅图01原生NTT, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.74| 专线西雅图01原生NTT 4, server: zfd.out01.nodeserver.top, port: 16233, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港001, server: gy.170809.xyz, port: 53912, type: ss, cipher: chacha20-ietf-poly1305, password: 89386c1f-435f-4bb5-9c10-118e07c01621, udp: true}
+  - {name: 30香港TG@moneyflychat, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: zj.haojiahuo.club}, udp: true}
+  - {name: 45香港TG@moneyflychat, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: 46香港TG@moneyflychat, server: zj.haojiahuo.club, port: 30041, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: 58美国TG@moneyflychat, server: zj.haojiahuo.club, port: 30077, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: 73美国TG@moneyflychat, server: zj.haojiahuo.club, port: 30052, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 专线 冷门-阿根廷
-      - 中继 韩国 01
-      - 中继 新加坡 02
-      - 中继 美国 02
-      - 中继 香港 05
-      - 中继 新加坡 02 2
-      - 专线 香港 02
-      - 专线 香港 03
-      - 专线 香港 01
-      - 中继 香港 01
-      - 专线 香港 03 2
-      - 中继 马来西亚 01
-      - 专线 新加坡 02
-      - 专线 冷门-俄罗斯
-      - 专线 香港 04
-      - 中继 新加坡 03
-      - AIA 香港 02
-      - "[GCP]Great Britain 02"
-      - 中继 新加坡 01
-      - 专线 马来西亚 02
-      - 中继 马来西亚 01 2
-      - 专线 马来西亚 03
-      - 专线 马来西亚 01
-      - 专线 新加坡 02 2
-      - 专线 新加坡 01
-      - 中继 马来西亚 02
-      - 中继 马来西亚 02 2
-      - AIA 新加坡 02
-      - AIA 新加坡 01
-      - 专线 日本 03
-      - 专线 日本 01
-      - 中继 台湾 02
-      - AIA 日本 01
-      - 专线 台湾 02
-      - 专线 韩国 01
-      - 专线 韩国 02
-      - 中继 香港 04
-      - AIA 台湾 01
-      - 专线 台湾 01
-      - 中继 新加坡 04
-      - AIA 韩国 01
-      - 中继 新加坡 04 2
-      - 中继 台湾 01
-      - 中继 日本 01
-      - 中继 日本 03
-      - 中继 日本 03 2
-      - 专线 美国 01
-      - 专线 冷门-澳大利亚
-      - 中继 日本 01 2
-      - 专线 美国 02
-      - 中继 日本 02
-      - 中继 韩国 02
-      - 专线 新加坡 03
-      - 中继 香港 06
-      - 专线 美国 03
-      - "[IEPL]Canada 06"
-      - 中继 美国 01
-      - 中继 韩国 01 2
-      - "[IEPL]Canada 04"
-      - 中继 美国 01 2
-      - 中继 香港 01 2
-      - 中继 韩国 02 2
-      - 中继 美国 03
-      - 专线 冷门-印度
-      - 专线 冷门-德国
-      - "[IEPL]Great Britain 04"
-      - 专线 香港 04 2
-      - 专线 香港 02 2
-      - 专线 冷门-澳大利亚 2
-      - 中继 美国 02 2
-      - 中继 台湾 01 2
-      - 中继 新加坡 03 2
-      - 专线 美国 02 2
-      - 专线 美国 01 2
-      - 专线 冷门-印度 2
-      - 中继 日本 02 2
-      - 专线 美国 03 2
-      - 中继 新加坡 01 2
-      - 专线 马来西亚 02 2
-      - 专线 马来西亚 03 2
-      - 中继 香港 05 2
-      - 专线 冷门-德国 2
-      - 专线 日本 02
-      - 专线 新加坡 03 2
-      - 专线 冷门-英国
-      - 专线 冷门-土耳其
-      - 专线 新加坡 01 2
-      - 专线 冷门-巴基斯坦
-      - 专线 马来西亚 01 2
-      - 中继 台湾 02 2
-      - AIA 美国 01
-      - 专线 日本 02 2
-      - 专线 冷门-巴基斯坦 2
-      - 专线 韩国 01 2
-      - 专线 冷门-土耳其 2
-      - 专线 韩国 02 2
-      - 专线 日本 01 2
-      - 中继 香港 04 2
-      - 专线 冷门-英国 2
-      - 专线 日本 03 2
-      - 专线 冷门-巴西
-      - 中继 美国 03 2
-      - 中继 香港 06 2
-      - 专线 台湾 01 2
-      - 专线 冷门-巴西 2
-      - 专线 冷门-俄罗斯 2
-      - 专线 香港 01 2
-      - 专线 台湾 02 2
+      - MO-CTM A -原生IP @TD - 300M
+      - 1.57|CYL科技20220101 30 2
+      - HK-SZ D@IEPL - 1G
+      - HK-SZ C@IEPL - 1G
+      - HK-SZ B@IEPL - 1G
+      - Relay_🇫🇷FR-🇫🇷FR_543
+      - MO-CTM D -原生IP @TD - 300M
+      - CN-183.232.170.110-1232
+      - CN-183.232.170.110-1233
+      - US-199.19.226.178-1313
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 4
+      - 香港001
+      - 30香港TG@moneyflychat
+      - 45香港TG@moneyflychat
+      - 46香港TG@moneyflychat
+      - 58美国TG@moneyflychat
+      - 73美国TG@moneyflychat
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 专线 冷门-阿根廷
-      - 中继 韩国 01
-      - 中继 新加坡 02
-      - 中继 美国 02
-      - 中继 香港 05
-      - 中继 新加坡 02 2
-      - 专线 香港 02
-      - 专线 香港 03
-      - 专线 香港 01
-      - 中继 香港 01
-      - 专线 香港 03 2
-      - 中继 马来西亚 01
-      - 专线 新加坡 02
-      - 专线 冷门-俄罗斯
-      - 专线 香港 04
-      - 中继 新加坡 03
-      - AIA 香港 02
-      - "[GCP]Great Britain 02"
-      - 中继 新加坡 01
-      - 专线 马来西亚 02
-      - 中继 马来西亚 01 2
-      - 专线 马来西亚 03
-      - 专线 马来西亚 01
-      - 专线 新加坡 02 2
-      - 专线 新加坡 01
-      - 中继 马来西亚 02
-      - 中继 马来西亚 02 2
-      - AIA 新加坡 02
-      - AIA 新加坡 01
-      - 专线 日本 03
-      - 专线 日本 01
-      - 中继 台湾 02
-      - AIA 日本 01
-      - 专线 台湾 02
-      - 专线 韩国 01
-      - 专线 韩国 02
-      - 中继 香港 04
-      - AIA 台湾 01
-      - 专线 台湾 01
-      - 中继 新加坡 04
-      - AIA 韩国 01
-      - 中继 新加坡 04 2
-      - 中继 台湾 01
-      - 中继 日本 01
-      - 中继 日本 03
-      - 中继 日本 03 2
-      - 专线 美国 01
-      - 专线 冷门-澳大利亚
-      - 中继 日本 01 2
-      - 专线 美国 02
-      - 中继 日本 02
-      - 中继 韩国 02
-      - 专线 新加坡 03
-      - 中继 香港 06
-      - 专线 美国 03
-      - "[IEPL]Canada 06"
-      - 中继 美国 01
-      - 中继 韩国 01 2
-      - "[IEPL]Canada 04"
-      - 中继 美国 01 2
-      - 中继 香港 01 2
-      - 中继 韩国 02 2
-      - 中继 美国 03
-      - 专线 冷门-印度
-      - 专线 冷门-德国
-      - "[IEPL]Great Britain 04"
-      - 专线 香港 04 2
-      - 专线 香港 02 2
-      - 专线 冷门-澳大利亚 2
-      - 中继 美国 02 2
-      - 中继 台湾 01 2
-      - 中继 新加坡 03 2
-      - 专线 美国 02 2
-      - 专线 美国 01 2
-      - 专线 冷门-印度 2
-      - 中继 日本 02 2
-      - 专线 美国 03 2
-      - 中继 新加坡 01 2
-      - 专线 马来西亚 02 2
-      - 专线 马来西亚 03 2
-      - 中继 香港 05 2
-      - 专线 冷门-德国 2
-      - 专线 日本 02
-      - 专线 新加坡 03 2
-      - 专线 冷门-英国
-      - 专线 冷门-土耳其
-      - 专线 新加坡 01 2
-      - 专线 冷门-巴基斯坦
-      - 专线 马来西亚 01 2
-      - 中继 台湾 02 2
-      - AIA 美国 01
-      - 专线 日本 02 2
-      - 专线 冷门-巴基斯坦 2
-      - 专线 韩国 01 2
-      - 专线 冷门-土耳其 2
-      - 专线 韩国 02 2
-      - 专线 日本 01 2
-      - 中继 香港 04 2
-      - 专线 冷门-英国 2
-      - 专线 日本 03 2
-      - 专线 冷门-巴西
-      - 中继 美国 03 2
-      - 中继 香港 06 2
-      - 专线 台湾 01 2
-      - 专线 冷门-巴西 2
-      - 专线 冷门-俄罗斯 2
-      - 专线 香港 01 2
-      - 专线 台湾 02 2
+      - MO-CTM A -原生IP @TD - 300M
+      - 1.57|CYL科技20220101 30 2
+      - HK-SZ D@IEPL - 1G
+      - HK-SZ C@IEPL - 1G
+      - HK-SZ B@IEPL - 1G
+      - Relay_🇫🇷FR-🇫🇷FR_543
+      - MO-CTM D -原生IP @TD - 300M
+      - CN-183.232.170.110-1232
+      - CN-183.232.170.110-1233
+      - US-199.19.226.178-1313
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 4
+      - 香港001
+      - 30香港TG@moneyflychat
+      - 45香港TG@moneyflychat
+      - 46香港TG@moneyflychat
+      - 58美国TG@moneyflychat
+      - 73美国TG@moneyflychat
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 专线 冷门-阿根廷
-      - 中继 韩国 01
-      - 中继 新加坡 02
-      - 中继 美国 02
-      - 中继 香港 05
-      - 中继 新加坡 02 2
-      - 专线 香港 02
-      - 专线 香港 03
-      - 专线 香港 01
-      - 中继 香港 01
-      - 专线 香港 03 2
-      - 中继 马来西亚 01
-      - 专线 新加坡 02
-      - 专线 冷门-俄罗斯
-      - 专线 香港 04
-      - 中继 新加坡 03
-      - AIA 香港 02
-      - "[GCP]Great Britain 02"
-      - 中继 新加坡 01
-      - 专线 马来西亚 02
-      - 中继 马来西亚 01 2
-      - 专线 马来西亚 03
-      - 专线 马来西亚 01
-      - 专线 新加坡 02 2
-      - 专线 新加坡 01
-      - 中继 马来西亚 02
-      - 中继 马来西亚 02 2
-      - AIA 新加坡 02
-      - AIA 新加坡 01
-      - 专线 日本 03
-      - 专线 日本 01
-      - 中继 台湾 02
-      - AIA 日本 01
-      - 专线 台湾 02
-      - 专线 韩国 01
-      - 专线 韩国 02
-      - 中继 香港 04
-      - AIA 台湾 01
-      - 专线 台湾 01
-      - 中继 新加坡 04
-      - AIA 韩国 01
-      - 中继 新加坡 04 2
-      - 中继 台湾 01
-      - 中继 日本 01
-      - 中继 日本 03
-      - 中继 日本 03 2
-      - 专线 美国 01
-      - 专线 冷门-澳大利亚
-      - 中继 日本 01 2
-      - 专线 美国 02
-      - 中继 日本 02
-      - 中继 韩国 02
-      - 专线 新加坡 03
-      - 中继 香港 06
-      - 专线 美国 03
-      - "[IEPL]Canada 06"
-      - 中继 美国 01
-      - 中继 韩国 01 2
-      - "[IEPL]Canada 04"
-      - 中继 美国 01 2
-      - 中继 香港 01 2
-      - 中继 韩国 02 2
-      - 中继 美国 03
-      - 专线 冷门-印度
-      - 专线 冷门-德国
-      - "[IEPL]Great Britain 04"
-      - 专线 香港 04 2
-      - 专线 香港 02 2
-      - 专线 冷门-澳大利亚 2
-      - 中继 美国 02 2
-      - 中继 台湾 01 2
-      - 中继 新加坡 03 2
-      - 专线 美国 02 2
-      - 专线 美国 01 2
-      - 专线 冷门-印度 2
-      - 中继 日本 02 2
-      - 专线 美国 03 2
-      - 中继 新加坡 01 2
-      - 专线 马来西亚 02 2
-      - 专线 马来西亚 03 2
-      - 中继 香港 05 2
-      - 专线 冷门-德国 2
-      - 专线 日本 02
-      - 专线 新加坡 03 2
-      - 专线 冷门-英国
-      - 专线 冷门-土耳其
-      - 专线 新加坡 01 2
-      - 专线 冷门-巴基斯坦
-      - 专线 马来西亚 01 2
-      - 中继 台湾 02 2
-      - AIA 美国 01
-      - 专线 日本 02 2
-      - 专线 冷门-巴基斯坦 2
-      - 专线 韩国 01 2
-      - 专线 冷门-土耳其 2
-      - 专线 韩国 02 2
-      - 专线 日本 01 2
-      - 中继 香港 04 2
-      - 专线 冷门-英国 2
-      - 专线 日本 03 2
-      - 专线 冷门-巴西
-      - 中继 美国 03 2
-      - 中继 香港 06 2
-      - 专线 台湾 01 2
-      - 专线 冷门-巴西 2
-      - 专线 冷门-俄罗斯 2
-      - 专线 香港 01 2
-      - 专线 台湾 02 2
+      - MO-CTM A -原生IP @TD - 300M
+      - 1.57|CYL科技20220101 30 2
+      - HK-SZ D@IEPL - 1G
+      - HK-SZ C@IEPL - 1G
+      - HK-SZ B@IEPL - 1G
+      - Relay_🇫🇷FR-🇫🇷FR_543
+      - MO-CTM D -原生IP @TD - 300M
+      - CN-183.232.170.110-1232
+      - CN-183.232.170.110-1233
+      - US-199.19.226.178-1313
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 4
+      - 香港001
+      - 30香港TG@moneyflychat
+      - 45香港TG@moneyflychat
+      - 46香港TG@moneyflychat
+      - 58美国TG@moneyflychat
+      - 73美国TG@moneyflychat
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -472,485 +112,103 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 专线 冷门-阿根廷
-      - 中继 韩国 01
-      - 中继 新加坡 02
-      - 中继 美国 02
-      - 中继 香港 05
-      - 中继 新加坡 02 2
-      - 专线 香港 02
-      - 专线 香港 03
-      - 专线 香港 01
-      - 中继 香港 01
-      - 专线 香港 03 2
-      - 中继 马来西亚 01
-      - 专线 新加坡 02
-      - 专线 冷门-俄罗斯
-      - 专线 香港 04
-      - 中继 新加坡 03
-      - AIA 香港 02
-      - "[GCP]Great Britain 02"
-      - 中继 新加坡 01
-      - 专线 马来西亚 02
-      - 中继 马来西亚 01 2
-      - 专线 马来西亚 03
-      - 专线 马来西亚 01
-      - 专线 新加坡 02 2
-      - 专线 新加坡 01
-      - 中继 马来西亚 02
-      - 中继 马来西亚 02 2
-      - AIA 新加坡 02
-      - AIA 新加坡 01
-      - 专线 日本 03
-      - 专线 日本 01
-      - 中继 台湾 02
-      - AIA 日本 01
-      - 专线 台湾 02
-      - 专线 韩国 01
-      - 专线 韩国 02
-      - 中继 香港 04
-      - AIA 台湾 01
-      - 专线 台湾 01
-      - 中继 新加坡 04
-      - AIA 韩国 01
-      - 中继 新加坡 04 2
-      - 中继 台湾 01
-      - 中继 日本 01
-      - 中继 日本 03
-      - 中继 日本 03 2
-      - 专线 美国 01
-      - 专线 冷门-澳大利亚
-      - 中继 日本 01 2
-      - 专线 美国 02
-      - 中继 日本 02
-      - 中继 韩国 02
-      - 专线 新加坡 03
-      - 中继 香港 06
-      - 专线 美国 03
-      - "[IEPL]Canada 06"
-      - 中继 美国 01
-      - 中继 韩国 01 2
-      - "[IEPL]Canada 04"
-      - 中继 美国 01 2
-      - 中继 香港 01 2
-      - 中继 韩国 02 2
-      - 中继 美国 03
-      - 专线 冷门-印度
-      - 专线 冷门-德国
-      - "[IEPL]Great Britain 04"
-      - 专线 香港 04 2
-      - 专线 香港 02 2
-      - 专线 冷门-澳大利亚 2
-      - 中继 美国 02 2
-      - 中继 台湾 01 2
-      - 中继 新加坡 03 2
-      - 专线 美国 02 2
-      - 专线 美国 01 2
-      - 专线 冷门-印度 2
-      - 中继 日本 02 2
-      - 专线 美国 03 2
-      - 中继 新加坡 01 2
-      - 专线 马来西亚 02 2
-      - 专线 马来西亚 03 2
-      - 中继 香港 05 2
-      - 专线 冷门-德国 2
-      - 专线 日本 02
-      - 专线 新加坡 03 2
-      - 专线 冷门-英国
-      - 专线 冷门-土耳其
-      - 专线 新加坡 01 2
-      - 专线 冷门-巴基斯坦
-      - 专线 马来西亚 01 2
-      - 中继 台湾 02 2
-      - AIA 美国 01
-      - 专线 日本 02 2
-      - 专线 冷门-巴基斯坦 2
-      - 专线 韩国 01 2
-      - 专线 冷门-土耳其 2
-      - 专线 韩国 02 2
-      - 专线 日本 01 2
-      - 中继 香港 04 2
-      - 专线 冷门-英国 2
-      - 专线 日本 03 2
-      - 专线 冷门-巴西
-      - 中继 美国 03 2
-      - 中继 香港 06 2
-      - 专线 台湾 01 2
-      - 专线 冷门-巴西 2
-      - 专线 冷门-俄罗斯 2
-      - 专线 香港 01 2
-      - 专线 台湾 02 2
+      - MO-CTM A -原生IP @TD - 300M
+      - 1.57|CYL科技20220101 30 2
+      - HK-SZ D@IEPL - 1G
+      - HK-SZ C@IEPL - 1G
+      - HK-SZ B@IEPL - 1G
+      - Relay_🇫🇷FR-🇫🇷FR_543
+      - MO-CTM D -原生IP @TD - 300M
+      - CN-183.232.170.110-1232
+      - CN-183.232.170.110-1233
+      - US-199.19.226.178-1313
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 4
+      - 香港001
+      - 30香港TG@moneyflychat
+      - 45香港TG@moneyflychat
+      - 46香港TG@moneyflychat
+      - 58美国TG@moneyflychat
+      - 73美国TG@moneyflychat
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 中继 香港 05
-      - 专线 香港 02
-      - 专线 香港 03
-      - 专线 香港 01
-      - 中继 香港 01
-      - 专线 香港 03 2
-      - 专线 香港 04
-      - AIA 香港 02
-      - 中继 台湾 02
-      - 专线 台湾 02
-      - 中继 香港 04
-      - AIA 台湾 01
-      - 专线 台湾 01
-      - 中继 台湾 01
-      - 中继 香港 06
-      - 中继 香港 01 2
-      - 专线 香港 04 2
-      - 专线 香港 02 2
-      - 中继 台湾 01 2
-      - 中继 香港 05 2
-      - 中继 台湾 02 2
-      - 中继 香港 04 2
-      - 中继 香港 06 2
-      - 专线 台湾 01 2
-      - 专线 香港 01 2
-      - 专线 台湾 02 2
+      - 香港001
+      - 30香港TG@moneyflychat
+      - 45香港TG@moneyflychat
+      - 46香港TG@moneyflychat
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 专线 冷门-阿根廷
-      - 中继 韩国 01
-      - 中继 新加坡 02
-      - 中继 美国 02
-      - 中继 香港 05
-      - 中继 新加坡 02 2
-      - 专线 香港 02
-      - 专线 香港 03
-      - 专线 香港 01
-      - 中继 香港 01
-      - 专线 香港 03 2
-      - 中继 马来西亚 01
-      - 专线 新加坡 02
-      - 专线 冷门-俄罗斯
-      - 专线 香港 04
-      - 中继 新加坡 03
-      - AIA 香港 02
-      - "[GCP]Great Britain 02"
-      - 中继 新加坡 01
-      - 专线 马来西亚 02
-      - 中继 马来西亚 01 2
-      - 专线 马来西亚 03
-      - 专线 马来西亚 01
-      - 专线 新加坡 02 2
-      - 专线 新加坡 01
-      - 中继 马来西亚 02
-      - 中继 马来西亚 02 2
-      - AIA 新加坡 02
-      - AIA 新加坡 01
-      - 专线 日本 03
-      - 专线 日本 01
-      - 中继 台湾 02
-      - AIA 日本 01
-      - 专线 台湾 02
-      - 专线 韩国 01
-      - 专线 韩国 02
-      - 中继 香港 04
-      - AIA 台湾 01
-      - 专线 台湾 01
-      - 中继 新加坡 04
-      - AIA 韩国 01
-      - 中继 新加坡 04 2
-      - 中继 台湾 01
-      - 中继 日本 01
-      - 中继 日本 03
-      - 中继 日本 03 2
-      - 专线 美国 01
-      - 专线 冷门-澳大利亚
-      - 中继 日本 01 2
-      - 专线 美国 02
-      - 中继 日本 02
-      - 中继 韩国 02
-      - 专线 新加坡 03
-      - 中继 香港 06
-      - 专线 美国 03
-      - "[IEPL]Canada 06"
-      - 中继 美国 01
-      - 中继 韩国 01 2
-      - "[IEPL]Canada 04"
-      - 中继 美国 01 2
-      - 中继 香港 01 2
-      - 中继 韩国 02 2
-      - 中继 美国 03
-      - 专线 冷门-印度
-      - 专线 冷门-德国
-      - "[IEPL]Great Britain 04"
-      - 专线 香港 04 2
-      - 专线 香港 02 2
-      - 专线 冷门-澳大利亚 2
-      - 中继 美国 02 2
-      - 中继 台湾 01 2
-      - 中继 新加坡 03 2
-      - 专线 美国 02 2
-      - 专线 美国 01 2
-      - 专线 冷门-印度 2
-      - 中继 日本 02 2
-      - 专线 美国 03 2
-      - 中继 新加坡 01 2
-      - 专线 马来西亚 02 2
-      - 专线 马来西亚 03 2
-      - 中继 香港 05 2
-      - 专线 冷门-德国 2
-      - 专线 日本 02
-      - 专线 新加坡 03 2
-      - 专线 冷门-英国
-      - 专线 冷门-土耳其
-      - 专线 新加坡 01 2
-      - 专线 冷门-巴基斯坦
-      - 专线 马来西亚 01 2
-      - 中继 台湾 02 2
-      - AIA 美国 01
-      - 专线 日本 02 2
-      - 专线 冷门-巴基斯坦 2
-      - 专线 韩国 01 2
-      - 专线 冷门-土耳其 2
-      - 专线 韩国 02 2
-      - 专线 日本 01 2
-      - 中继 香港 04 2
-      - 专线 冷门-英国 2
-      - 专线 日本 03 2
-      - 专线 冷门-巴西
-      - 中继 美国 03 2
-      - 中继 香港 06 2
-      - 专线 台湾 01 2
-      - 专线 冷门-巴西 2
-      - 专线 冷门-俄罗斯 2
-      - 专线 香港 01 2
-      - 专线 台湾 02 2
+      - MO-CTM A -原生IP @TD - 300M
+      - 1.57|CYL科技20220101 30 2
+      - HK-SZ D@IEPL - 1G
+      - HK-SZ C@IEPL - 1G
+      - HK-SZ B@IEPL - 1G
+      - Relay_🇫🇷FR-🇫🇷FR_543
+      - MO-CTM D -原生IP @TD - 300M
+      - CN-183.232.170.110-1232
+      - CN-183.232.170.110-1233
+      - US-199.19.226.178-1313
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 4
+      - 香港001
+      - 30香港TG@moneyflychat
+      - 45香港TG@moneyflychat
+      - 46香港TG@moneyflychat
+      - 58美国TG@moneyflychat
+      - 73美国TG@moneyflychat
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 专线 冷门-阿根廷
-      - 中继 韩国 01
-      - 中继 新加坡 02
-      - 中继 美国 02
-      - 中继 香港 05
-      - 中继 新加坡 02 2
-      - 专线 香港 02
-      - 专线 香港 03
-      - 专线 香港 01
-      - 中继 香港 01
-      - 专线 香港 03 2
-      - 中继 马来西亚 01
-      - 专线 新加坡 02
-      - 专线 冷门-俄罗斯
-      - 专线 香港 04
-      - 中继 新加坡 03
-      - AIA 香港 02
-      - "[GCP]Great Britain 02"
-      - 中继 新加坡 01
-      - 专线 马来西亚 02
-      - 中继 马来西亚 01 2
-      - 专线 马来西亚 03
-      - 专线 马来西亚 01
-      - 专线 新加坡 02 2
-      - 专线 新加坡 01
-      - 中继 马来西亚 02
-      - 中继 马来西亚 02 2
-      - AIA 新加坡 02
-      - AIA 新加坡 01
-      - 专线 日本 03
-      - 专线 日本 01
-      - 中继 台湾 02
-      - AIA 日本 01
-      - 专线 台湾 02
-      - 专线 韩国 01
-      - 专线 韩国 02
-      - 中继 香港 04
-      - AIA 台湾 01
-      - 专线 台湾 01
-      - 中继 新加坡 04
-      - AIA 韩国 01
-      - 中继 新加坡 04 2
-      - 中继 台湾 01
-      - 中继 日本 01
-      - 中继 日本 03
-      - 中继 日本 03 2
-      - 专线 美国 01
-      - 专线 冷门-澳大利亚
-      - 中继 日本 01 2
-      - 专线 美国 02
-      - 中继 日本 02
-      - 中继 韩国 02
-      - 专线 新加坡 03
-      - 中继 香港 06
-      - 专线 美国 03
-      - "[IEPL]Canada 06"
-      - 中继 美国 01
-      - 中继 韩国 01 2
-      - "[IEPL]Canada 04"
-      - 中继 美国 01 2
-      - 中继 香港 01 2
-      - 中继 韩国 02 2
-      - 中继 美国 03
-      - 专线 冷门-印度
-      - 专线 冷门-德国
-      - "[IEPL]Great Britain 04"
-      - 专线 香港 04 2
-      - 专线 香港 02 2
-      - 专线 冷门-澳大利亚 2
-      - 中继 美国 02 2
-      - 中继 台湾 01 2
-      - 中继 新加坡 03 2
-      - 专线 美国 02 2
-      - 专线 美国 01 2
-      - 专线 冷门-印度 2
-      - 中继 日本 02 2
-      - 专线 美国 03 2
-      - 中继 新加坡 01 2
-      - 专线 马来西亚 02 2
-      - 专线 马来西亚 03 2
-      - 中继 香港 05 2
-      - 专线 冷门-德国 2
-      - 专线 日本 02
-      - 专线 新加坡 03 2
-      - 专线 冷门-英国
-      - 专线 冷门-土耳其
-      - 专线 新加坡 01 2
-      - 专线 冷门-巴基斯坦
-      - 专线 马来西亚 01 2
-      - 中继 台湾 02 2
-      - AIA 美国 01
-      - 专线 日本 02 2
-      - 专线 冷门-巴基斯坦 2
-      - 专线 韩国 01 2
-      - 专线 冷门-土耳其 2
-      - 专线 韩国 02 2
-      - 专线 日本 01 2
-      - 中继 香港 04 2
-      - 专线 冷门-英国 2
-      - 专线 日本 03 2
-      - 专线 冷门-巴西
-      - 中继 美国 03 2
-      - 中继 香港 06 2
-      - 专线 台湾 01 2
-      - 专线 冷门-巴西 2
-      - 专线 冷门-俄罗斯 2
-      - 专线 香港 01 2
-      - 专线 台湾 02 2
+      - MO-CTM A -原生IP @TD - 300M
+      - 1.57|CYL科技20220101 30 2
+      - HK-SZ D@IEPL - 1G
+      - HK-SZ C@IEPL - 1G
+      - HK-SZ B@IEPL - 1G
+      - Relay_🇫🇷FR-🇫🇷FR_543
+      - MO-CTM D -原生IP @TD - 300M
+      - CN-183.232.170.110-1232
+      - CN-183.232.170.110-1233
+      - US-199.19.226.178-1313
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 4
+      - 香港001
+      - 30香港TG@moneyflychat
+      - 45香港TG@moneyflychat
+      - 46香港TG@moneyflychat
+      - 58美国TG@moneyflychat
+      - 73美国TG@moneyflychat
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 专线 冷门-阿根廷
-      - 中继 韩国 01
-      - 中继 新加坡 02
-      - 中继 美国 02
-      - 中继 香港 05
-      - 中继 新加坡 02 2
-      - 专线 香港 02
-      - 专线 香港 03
-      - 专线 香港 01
-      - 中继 香港 01
-      - 专线 香港 03 2
-      - 中继 马来西亚 01
-      - 专线 新加坡 02
-      - 专线 冷门-俄罗斯
-      - 专线 香港 04
-      - 中继 新加坡 03
-      - AIA 香港 02
-      - "[GCP]Great Britain 02"
-      - 中继 新加坡 01
-      - 专线 马来西亚 02
-      - 中继 马来西亚 01 2
-      - 专线 马来西亚 03
-      - 专线 马来西亚 01
-      - 专线 新加坡 02 2
-      - 专线 新加坡 01
-      - 中继 马来西亚 02
-      - 中继 马来西亚 02 2
-      - AIA 新加坡 02
-      - AIA 新加坡 01
-      - 专线 日本 03
-      - 专线 日本 01
-      - 中继 台湾 02
-      - AIA 日本 01
-      - 专线 台湾 02
-      - 专线 韩国 01
-      - 专线 韩国 02
-      - 中继 香港 04
-      - AIA 台湾 01
-      - 专线 台湾 01
-      - 中继 新加坡 04
-      - AIA 韩国 01
-      - 中继 新加坡 04 2
-      - 中继 台湾 01
-      - 中继 日本 01
-      - 中继 日本 03
-      - 中继 日本 03 2
-      - 专线 美国 01
-      - 专线 冷门-澳大利亚
-      - 中继 日本 01 2
-      - 专线 美国 02
-      - 中继 日本 02
-      - 中继 韩国 02
-      - 专线 新加坡 03
-      - 中继 香港 06
-      - 专线 美国 03
-      - "[IEPL]Canada 06"
-      - 中继 美国 01
-      - 中继 韩国 01 2
-      - "[IEPL]Canada 04"
-      - 中继 美国 01 2
-      - 中继 香港 01 2
-      - 中继 韩国 02 2
-      - 中继 美国 03
-      - 专线 冷门-印度
-      - 专线 冷门-德国
-      - "[IEPL]Great Britain 04"
-      - 专线 香港 04 2
-      - 专线 香港 02 2
-      - 专线 冷门-澳大利亚 2
-      - 中继 美国 02 2
-      - 中继 台湾 01 2
-      - 中继 新加坡 03 2
-      - 专线 美国 02 2
-      - 专线 美国 01 2
-      - 专线 冷门-印度 2
-      - 中继 日本 02 2
-      - 专线 美国 03 2
-      - 中继 新加坡 01 2
-      - 专线 马来西亚 02 2
-      - 专线 马来西亚 03 2
-      - 中继 香港 05 2
-      - 专线 冷门-德国 2
-      - 专线 日本 02
-      - 专线 新加坡 03 2
-      - 专线 冷门-英国
-      - 专线 冷门-土耳其
-      - 专线 新加坡 01 2
-      - 专线 冷门-巴基斯坦
-      - 专线 马来西亚 01 2
-      - 中继 台湾 02 2
-      - AIA 美国 01
-      - 专线 日本 02 2
-      - 专线 冷门-巴基斯坦 2
-      - 专线 韩国 01 2
-      - 专线 冷门-土耳其 2
-      - 专线 韩国 02 2
-      - 专线 日本 01 2
-      - 中继 香港 04 2
-      - 专线 冷门-英国 2
-      - 专线 日本 03 2
-      - 专线 冷门-巴西
-      - 中继 美国 03 2
-      - 中继 香港 06 2
-      - 专线 台湾 01 2
-      - 专线 冷门-巴西 2
-      - 专线 冷门-俄罗斯 2
-      - 专线 香港 01 2
-      - 专线 台湾 02 2
+      - MO-CTM A -原生IP @TD - 300M
+      - 1.57|CYL科技20220101 30 2
+      - HK-SZ D@IEPL - 1G
+      - HK-SZ C@IEPL - 1G
+      - HK-SZ B@IEPL - 1G
+      - Relay_🇫🇷FR-🇫🇷FR_543
+      - MO-CTM D -原生IP @TD - 300M
+      - CN-183.232.170.110-1232
+      - CN-183.232.170.110-1233
+      - US-199.19.226.178-1313
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 4
+      - 香港001
+      - 30香港TG@moneyflychat
+      - 45香港TG@moneyflychat
+      - 46香港TG@moneyflychat
+      - 58美国TG@moneyflychat
+      - 73美国TG@moneyflychat
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -966,114 +224,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 专线 冷门-阿根廷
-      - 中继 韩国 01
-      - 中继 新加坡 02
-      - 中继 美国 02
-      - 中继 香港 05
-      - 中继 新加坡 02 2
-      - 专线 香港 02
-      - 专线 香港 03
-      - 专线 香港 01
-      - 中继 香港 01
-      - 专线 香港 03 2
-      - 中继 马来西亚 01
-      - 专线 新加坡 02
-      - 专线 冷门-俄罗斯
-      - 专线 香港 04
-      - 中继 新加坡 03
-      - AIA 香港 02
-      - "[GCP]Great Britain 02"
-      - 中继 新加坡 01
-      - 专线 马来西亚 02
-      - 中继 马来西亚 01 2
-      - 专线 马来西亚 03
-      - 专线 马来西亚 01
-      - 专线 新加坡 02 2
-      - 专线 新加坡 01
-      - 中继 马来西亚 02
-      - 中继 马来西亚 02 2
-      - AIA 新加坡 02
-      - AIA 新加坡 01
-      - 专线 日本 03
-      - 专线 日本 01
-      - 中继 台湾 02
-      - AIA 日本 01
-      - 专线 台湾 02
-      - 专线 韩国 01
-      - 专线 韩国 02
-      - 中继 香港 04
-      - AIA 台湾 01
-      - 专线 台湾 01
-      - 中继 新加坡 04
-      - AIA 韩国 01
-      - 中继 新加坡 04 2
-      - 中继 台湾 01
-      - 中继 日本 01
-      - 中继 日本 03
-      - 中继 日本 03 2
-      - 专线 美国 01
-      - 专线 冷门-澳大利亚
-      - 中继 日本 01 2
-      - 专线 美国 02
-      - 中继 日本 02
-      - 中继 韩国 02
-      - 专线 新加坡 03
-      - 中继 香港 06
-      - 专线 美国 03
-      - "[IEPL]Canada 06"
-      - 中继 美国 01
-      - 中继 韩国 01 2
-      - "[IEPL]Canada 04"
-      - 中继 美国 01 2
-      - 中继 香港 01 2
-      - 中继 韩国 02 2
-      - 中继 美国 03
-      - 专线 冷门-印度
-      - 专线 冷门-德国
-      - "[IEPL]Great Britain 04"
-      - 专线 香港 04 2
-      - 专线 香港 02 2
-      - 专线 冷门-澳大利亚 2
-      - 中继 美国 02 2
-      - 中继 台湾 01 2
-      - 中继 新加坡 03 2
-      - 专线 美国 02 2
-      - 专线 美国 01 2
-      - 专线 冷门-印度 2
-      - 中继 日本 02 2
-      - 专线 美国 03 2
-      - 中继 新加坡 01 2
-      - 专线 马来西亚 02 2
-      - 专线 马来西亚 03 2
-      - 中继 香港 05 2
-      - 专线 冷门-德国 2
-      - 专线 日本 02
-      - 专线 新加坡 03 2
-      - 专线 冷门-英国
-      - 专线 冷门-土耳其
-      - 专线 新加坡 01 2
-      - 专线 冷门-巴基斯坦
-      - 专线 马来西亚 01 2
-      - 中继 台湾 02 2
-      - AIA 美国 01
-      - 专线 日本 02 2
-      - 专线 冷门-巴基斯坦 2
-      - 专线 韩国 01 2
-      - 专线 冷门-土耳其 2
-      - 专线 韩国 02 2
-      - 专线 日本 01 2
-      - 中继 香港 04 2
-      - 专线 冷门-英国 2
-      - 专线 日本 03 2
-      - 专线 冷门-巴西
-      - 中继 美国 03 2
-      - 中继 香港 06 2
-      - 专线 台湾 01 2
-      - 专线 冷门-巴西 2
-      - 专线 冷门-俄罗斯 2
-      - 专线 香港 01 2
-      - 专线 台湾 02 2
+      - MO-CTM A -原生IP @TD - 300M
+      - 1.57|CYL科技20220101 30 2
+      - HK-SZ D@IEPL - 1G
+      - HK-SZ C@IEPL - 1G
+      - HK-SZ B@IEPL - 1G
+      - Relay_🇫🇷FR-🇫🇷FR_543
+      - MO-CTM D -原生IP @TD - 300M
+      - CN-183.232.170.110-1232
+      - CN-183.232.170.110-1233
+      - US-199.19.226.178-1313
+      - 2.74| 专线西雅图01原生NTT
+      - 2.74| 专线西雅图01原生NTT 4
+      - 香港001
+      - 30香港TG@moneyflychat
+      - 45香港TG@moneyflychat
+      - 46香港TG@moneyflychat
+      - 58美国TG@moneyflychat
+      - 73美国TG@moneyflychat
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
