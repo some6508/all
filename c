@@ -5,124 +5,1116 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_1', server: iepl.hk.71bc.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_2', server: iepl.hk.4a75.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_3', server: iepl.hk.fda0.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_4', server: iepl.hk.7512.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_5', server: iepl.hk.0686.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_6', server: iepl.hk.31c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_7', server: iepl.hk.f6e8.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇭🇰_HK_香港_8', server: iepl.hk.f663.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_9', server: iepl.sg.e0c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '🇨🇳_CN_中国->🇸🇬_SG_新加坡_10', server: iepl.sg.21ce.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: '俄罗斯1-三网优化_1', server: 1222ru.fans8.xyz, port: 80, type: vmess, uuid: 745b504f-06da-345d-a389-c6e532334815, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
+  - {name: '俄罗斯2-三网优化_2', server: 0118ru.fans8.xyz, port: 80, type: vmess, uuid: 745b504f-06da-345d-a389-c6e532334815, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
+  - {name: '美国1-三网优化_3', server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: 745b504f-06da-345d-a389-c6e532334815, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray" }}
+  - {name: '香港_4', server: 136.wgong.xyz, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '香港_5', server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: '香港_6', server: azhk.pluscloud.top, port: 443, type: trojan, password: 2a6eed53-4219-4cfa-a869-d9ae3991d9d7, sni: azhk.pluscloud.top}
+  - {name: '香港_7', server: azhk.node.qchwnd.moe, port: 44609, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: cdn.qchwnd.moe}
+  - {name: '香港_8', server: 20.205.96.84, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'Cw+344_9', server: 134.195.196.150, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Cw+345_10', server: 198.57.27.191, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Cw+346_11', server: 38.121.43.91, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Cw+347_12', server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Cw+348_13', server: 169.197.142.238, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Cw+349_14', server: 38.121.43.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Cw+350_15', server: 38.86.135.126, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Cw+351_16', server: 38.86.135.126, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Cw+352_17', server: 38.86.135.126, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Cw+353_18', server: 169.197.141.244, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Cw+354_19', server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Cw+355_20', server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+356_21', server: 38.91.100.199, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Cw+357_22', server: 134.195.196.50, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Cw+358_23', server: 134.195.196.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Cw+359_24', server: 134.195.196.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Cw+360_25', server: 38.121.43.142, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Cw+361_26', server: 38.121.43.142, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Cw+362_27', server: 172.104.157.118, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Cw+363_28', server: 172.105.170.229, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Cw+364_29', server: 172.105.251.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Cw+365_30', server: 134.195.198.95, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Cw+366_31', server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+367_32', server: 134.195.196.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Cw+368_33', server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+369_34', server: 38.91.100.102, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Cw+370_35', server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Cw+371_36', server: 38.91.100.134, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Cw+372_37', server: 45.152.183.242, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: 'Cw 373_38', server: 120.232.174.96, port: 41208, type: vmess, uuid: eb995ed5-d9a4-3ab4-b62d-95d8e9f24417, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/zz", host: 120.232.174.96 }}
+  - {name: 'Cw 374_39', server: 112.33.36.109, port: 44160, type: ssr, password: "wQ16gJrbBvvME3my", cipher: aes-256-cfb, protocol: origin, obfs: http_simple}
+  - {name: 'Cw+375_40', server: 134.195.196.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Cw+376_41', server: 142.202.48.77, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Cw+377_42', server: 134.195.196.128, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Cw+378_43', server: 134.195.198.95, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Cw+379_44', server: 142.202.48.34, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Cw+380_45', server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Cw+381_46', server: 134.195.196.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Cw+382_47', server: 172.99.190.153, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Cw+383_48', server: 134.195.198.95, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Cw+384_49', server: 198.57.27.241, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Cw+385_50', server: 198.57.27.14, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Cw+386_51', server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Cw+387_52', server: 134.195.196.150, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Cw+388_53', server: 38.143.66.20, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Cw+389_54', server: 169.197.143.243, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+390_55', server: 172.99.190.153, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Cw+391_56', server: 188.214.122.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
+  - {name: 'Cw+392_57', server: 92.243.24.68, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bIS3QQFwFIm1}
+  - {name: 'Cw+393_58', server: 193.108.117.75, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Cw+394_59', server: 142.202.48.77, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Cw+395_60', server: 134.195.198.252, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+396_61', server: 134.195.196.51, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Cw+397_62', server: 38.91.100.199, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Cw+398_63', server: 85.208.110.2, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Cw+399_64', server: 172.99.190.153, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Cw+400_65', server: 172.104.157.118, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Cw+401_66', server: 198.57.27.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+402_67', server: 169.197.141.15, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Cw+403_68', server: 169.197.143.243, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Cw+404_69', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
+  - {name: 'Cw 405_70', server: tunnel-jp-a-01.xncloud.xyz, port: 209, type: vmess, uuid: d2b7d8e8-66ec-36b9-9a9c-5e85e198184f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/niaoyun", host: mf-aws-jp-09.xncloud.xyz }}
+  - {name: 'Cw+406_71', server: 38.86.135.169, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Cw+407_72', server: 38.121.43.91, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Cw+408_73', server: 134.195.196.202, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Cw+409_74', server: 134.195.198.252, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Cw+410_75', server: 169.197.142.238, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Cw+411_76', server: 172.99.190.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Cw+412_77', server: 38.86.135.126, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Cw+413_78', server: 38.91.100.134, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Cw+414_79', server: 38.91.100.199, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Cw+415_80', server: 139.162.130.101, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Cw+416_81', server: 38.107.226.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+417_82', server: 38.91.100.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Cw+418_83', server: 134.195.198.252, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+419_84', server: 38.91.100.199, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+420_85', server: 169.197.143.243, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Cw+421_86', server: 169.197.143.141, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Cw+422_87', server: 167.88.61.109, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Cw+423_88', server: 169.197.142.238, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+424_89', server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Cw+425_90', server: 38.121.43.91, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Cw+426_91', server: 38.91.100.134, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Cw+427_92', server: 38.121.43.91, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Cw+428_93', server: 38.68.135.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+429_94', server: 134.195.196.128, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Cw+430_95', server: 198.57.27.241, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Cw+431_96', server: 134.195.196.128, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+432_97', server: 38.91.107.22, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Cw+433_98', server: 139.162.130.101, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Cw+434_99', server: 38.143.66.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Cw+435_100', server: 38.86.135.169, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Cw+436_101', server: 198.57.27.241, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Cw+437_102', server: 134.195.196.128, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Cw+438_103', server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Cw+439_104', server: 145.239.1.100, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Cw+440_105', server: 38.91.101.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Cw+441_106', server: t6.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t6.ssrsub.com}
+  - {name: 'Cw+442_107', server: 172.99.190.153, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Cw+443_108', server: 134.195.196.128, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Cw+444_109', server: 134.195.196.128, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Cw+445_110', server: 134.195.198.178, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Cw+446_111', server: 38.86.135.169, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Cw+447_112', server: 134.195.196.128, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+448_113', server: 38.86.135.169, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+449_114', server: 169.197.141.244, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Cw+450_115', server: 85.208.110.2, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Cw+451_116', server: 142.202.48.77, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+452_117', server: 142.202.48.77, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Cw+453_118', server: 38.121.43.91, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Cw+454_119', server: 193.108.117.75, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Cw+455_120', server: 198.57.27.241, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Cw+456_121', server: 134.195.196.128, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Cw+457_122', server: 198.57.27.241, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Cw+458_123', server: 38.86.135.169, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Cw+459_124', server: 38.143.66.186, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Cw 460_125', server: aws.us.tgproxy.wtf, port: 21888, type: vmess, uuid: 23a8f304-5667-4f47-9fad-72e23ddc59be, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/theuploadapi", host: aws.us.tgproxy.wtf }}
+  - {name: 'Cw+461_126', server: 142.202.48.58, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Cw 462_127', server: 213.183.51.179, port: 3309, type: vmess, uuid: 07d676a1-903d-4606-93bd-e3522089f951, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: 213.183.51.179 }}
+  - {name: 'Cw+463_128', server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Cw+464_129', server: 172.99.190.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Cw+465_130', server: 38.107.226.238, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Cw+466_131', server: 85.208.110.2, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Cw+467_132', server: 38.91.100.199, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Cw+468_133', server: 134.195.196.128, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Cw+469_134', server: 134.195.196.128, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
+      - 俄罗斯1-三网优化_1
+      - 俄罗斯2-三网优化_2
+      - 美国1-三网优化_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - Cw+344_9
+      - Cw+345_10
+      - Cw+346_11
+      - Cw+347_12
+      - Cw+348_13
+      - Cw+349_14
+      - Cw+350_15
+      - Cw+351_16
+      - Cw+352_17
+      - Cw+353_18
+      - Cw+354_19
+      - Cw+355_20
+      - Cw+356_21
+      - Cw+357_22
+      - Cw+358_23
+      - Cw+359_24
+      - Cw+360_25
+      - Cw+361_26
+      - Cw+362_27
+      - Cw+363_28
+      - Cw+364_29
+      - Cw+365_30
+      - Cw+366_31
+      - Cw+367_32
+      - Cw+368_33
+      - Cw+369_34
+      - Cw+370_35
+      - Cw+371_36
+      - Cw+372_37
+      - Cw 373_38
+      - Cw 374_39
+      - Cw+375_40
+      - Cw+376_41
+      - Cw+377_42
+      - Cw+378_43
+      - Cw+379_44
+      - Cw+380_45
+      - Cw+381_46
+      - Cw+382_47
+      - Cw+383_48
+      - Cw+384_49
+      - Cw+385_50
+      - Cw+386_51
+      - Cw+387_52
+      - Cw+388_53
+      - Cw+389_54
+      - Cw+390_55
+      - Cw+391_56
+      - Cw+392_57
+      - Cw+393_58
+      - Cw+394_59
+      - Cw+395_60
+      - Cw+396_61
+      - Cw+397_62
+      - Cw+398_63
+      - Cw+399_64
+      - Cw+400_65
+      - Cw+401_66
+      - Cw+402_67
+      - Cw+403_68
+      - Cw+404_69
+      - Cw 405_70
+      - Cw+406_71
+      - Cw+407_72
+      - Cw+408_73
+      - Cw+409_74
+      - Cw+410_75
+      - Cw+411_76
+      - Cw+412_77
+      - Cw+413_78
+      - Cw+414_79
+      - Cw+415_80
+      - Cw+416_81
+      - Cw+417_82
+      - Cw+418_83
+      - Cw+419_84
+      - Cw+420_85
+      - Cw+421_86
+      - Cw+422_87
+      - Cw+423_88
+      - Cw+424_89
+      - Cw+425_90
+      - Cw+426_91
+      - Cw+427_92
+      - Cw+428_93
+      - Cw+429_94
+      - Cw+430_95
+      - Cw+431_96
+      - Cw+432_97
+      - Cw+433_98
+      - Cw+434_99
+      - Cw+435_100
+      - Cw+436_101
+      - Cw+437_102
+      - Cw+438_103
+      - Cw+439_104
+      - Cw+440_105
+      - Cw+441_106
+      - Cw+442_107
+      - Cw+443_108
+      - Cw+444_109
+      - Cw+445_110
+      - Cw+446_111
+      - Cw+447_112
+      - Cw+448_113
+      - Cw+449_114
+      - Cw+450_115
+      - Cw+451_116
+      - Cw+452_117
+      - Cw+453_118
+      - Cw+454_119
+      - Cw+455_120
+      - Cw+456_121
+      - Cw+457_122
+      - Cw+458_123
+      - Cw+459_124
+      - Cw 460_125
+      - Cw+461_126
+      - Cw 462_127
+      - Cw+463_128
+      - Cw+464_129
+      - Cw+465_130
+      - Cw+466_131
+      - Cw+467_132
+      - Cw+468_133
+      - Cw+469_134
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
+      - 俄罗斯1-三网优化_1
+      - 俄罗斯2-三网优化_2
+      - 美国1-三网优化_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - Cw+344_9
+      - Cw+345_10
+      - Cw+346_11
+      - Cw+347_12
+      - Cw+348_13
+      - Cw+349_14
+      - Cw+350_15
+      - Cw+351_16
+      - Cw+352_17
+      - Cw+353_18
+      - Cw+354_19
+      - Cw+355_20
+      - Cw+356_21
+      - Cw+357_22
+      - Cw+358_23
+      - Cw+359_24
+      - Cw+360_25
+      - Cw+361_26
+      - Cw+362_27
+      - Cw+363_28
+      - Cw+364_29
+      - Cw+365_30
+      - Cw+366_31
+      - Cw+367_32
+      - Cw+368_33
+      - Cw+369_34
+      - Cw+370_35
+      - Cw+371_36
+      - Cw+372_37
+      - Cw 373_38
+      - Cw 374_39
+      - Cw+375_40
+      - Cw+376_41
+      - Cw+377_42
+      - Cw+378_43
+      - Cw+379_44
+      - Cw+380_45
+      - Cw+381_46
+      - Cw+382_47
+      - Cw+383_48
+      - Cw+384_49
+      - Cw+385_50
+      - Cw+386_51
+      - Cw+387_52
+      - Cw+388_53
+      - Cw+389_54
+      - Cw+390_55
+      - Cw+391_56
+      - Cw+392_57
+      - Cw+393_58
+      - Cw+394_59
+      - Cw+395_60
+      - Cw+396_61
+      - Cw+397_62
+      - Cw+398_63
+      - Cw+399_64
+      - Cw+400_65
+      - Cw+401_66
+      - Cw+402_67
+      - Cw+403_68
+      - Cw+404_69
+      - Cw 405_70
+      - Cw+406_71
+      - Cw+407_72
+      - Cw+408_73
+      - Cw+409_74
+      - Cw+410_75
+      - Cw+411_76
+      - Cw+412_77
+      - Cw+413_78
+      - Cw+414_79
+      - Cw+415_80
+      - Cw+416_81
+      - Cw+417_82
+      - Cw+418_83
+      - Cw+419_84
+      - Cw+420_85
+      - Cw+421_86
+      - Cw+422_87
+      - Cw+423_88
+      - Cw+424_89
+      - Cw+425_90
+      - Cw+426_91
+      - Cw+427_92
+      - Cw+428_93
+      - Cw+429_94
+      - Cw+430_95
+      - Cw+431_96
+      - Cw+432_97
+      - Cw+433_98
+      - Cw+434_99
+      - Cw+435_100
+      - Cw+436_101
+      - Cw+437_102
+      - Cw+438_103
+      - Cw+439_104
+      - Cw+440_105
+      - Cw+441_106
+      - Cw+442_107
+      - Cw+443_108
+      - Cw+444_109
+      - Cw+445_110
+      - Cw+446_111
+      - Cw+447_112
+      - Cw+448_113
+      - Cw+449_114
+      - Cw+450_115
+      - Cw+451_116
+      - Cw+452_117
+      - Cw+453_118
+      - Cw+454_119
+      - Cw+455_120
+      - Cw+456_121
+      - Cw+457_122
+      - Cw+458_123
+      - Cw+459_124
+      - Cw 460_125
+      - Cw+461_126
+      - Cw 462_127
+      - Cw+463_128
+      - Cw+464_129
+      - Cw+465_130
+      - Cw+466_131
+      - Cw+467_132
+      - Cw+468_133
+      - Cw+469_134
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
+      - 俄罗斯1-三网优化_1
+      - 俄罗斯2-三网优化_2
+      - 美国1-三网优化_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - Cw+344_9
+      - Cw+345_10
+      - Cw+346_11
+      - Cw+347_12
+      - Cw+348_13
+      - Cw+349_14
+      - Cw+350_15
+      - Cw+351_16
+      - Cw+352_17
+      - Cw+353_18
+      - Cw+354_19
+      - Cw+355_20
+      - Cw+356_21
+      - Cw+357_22
+      - Cw+358_23
+      - Cw+359_24
+      - Cw+360_25
+      - Cw+361_26
+      - Cw+362_27
+      - Cw+363_28
+      - Cw+364_29
+      - Cw+365_30
+      - Cw+366_31
+      - Cw+367_32
+      - Cw+368_33
+      - Cw+369_34
+      - Cw+370_35
+      - Cw+371_36
+      - Cw+372_37
+      - Cw 373_38
+      - Cw 374_39
+      - Cw+375_40
+      - Cw+376_41
+      - Cw+377_42
+      - Cw+378_43
+      - Cw+379_44
+      - Cw+380_45
+      - Cw+381_46
+      - Cw+382_47
+      - Cw+383_48
+      - Cw+384_49
+      - Cw+385_50
+      - Cw+386_51
+      - Cw+387_52
+      - Cw+388_53
+      - Cw+389_54
+      - Cw+390_55
+      - Cw+391_56
+      - Cw+392_57
+      - Cw+393_58
+      - Cw+394_59
+      - Cw+395_60
+      - Cw+396_61
+      - Cw+397_62
+      - Cw+398_63
+      - Cw+399_64
+      - Cw+400_65
+      - Cw+401_66
+      - Cw+402_67
+      - Cw+403_68
+      - Cw+404_69
+      - Cw 405_70
+      - Cw+406_71
+      - Cw+407_72
+      - Cw+408_73
+      - Cw+409_74
+      - Cw+410_75
+      - Cw+411_76
+      - Cw+412_77
+      - Cw+413_78
+      - Cw+414_79
+      - Cw+415_80
+      - Cw+416_81
+      - Cw+417_82
+      - Cw+418_83
+      - Cw+419_84
+      - Cw+420_85
+      - Cw+421_86
+      - Cw+422_87
+      - Cw+423_88
+      - Cw+424_89
+      - Cw+425_90
+      - Cw+426_91
+      - Cw+427_92
+      - Cw+428_93
+      - Cw+429_94
+      - Cw+430_95
+      - Cw+431_96
+      - Cw+432_97
+      - Cw+433_98
+      - Cw+434_99
+      - Cw+435_100
+      - Cw+436_101
+      - Cw+437_102
+      - Cw+438_103
+      - Cw+439_104
+      - Cw+440_105
+      - Cw+441_106
+      - Cw+442_107
+      - Cw+443_108
+      - Cw+444_109
+      - Cw+445_110
+      - Cw+446_111
+      - Cw+447_112
+      - Cw+448_113
+      - Cw+449_114
+      - Cw+450_115
+      - Cw+451_116
+      - Cw+452_117
+      - Cw+453_118
+      - Cw+454_119
+      - Cw+455_120
+      - Cw+456_121
+      - Cw+457_122
+      - Cw+458_123
+      - Cw+459_124
+      - Cw 460_125
+      - Cw+461_126
+      - Cw 462_127
+      - Cw+463_128
+      - Cw+464_129
+      - Cw+465_130
+      - Cw+466_131
+      - Cw+467_132
+      - Cw+468_133
+      - Cw+469_134
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
+      - 俄罗斯1-三网优化_1
+      - 俄罗斯2-三网优化_2
+      - 美国1-三网优化_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - Cw+344_9
+      - Cw+345_10
+      - Cw+346_11
+      - Cw+347_12
+      - Cw+348_13
+      - Cw+349_14
+      - Cw+350_15
+      - Cw+351_16
+      - Cw+352_17
+      - Cw+353_18
+      - Cw+354_19
+      - Cw+355_20
+      - Cw+356_21
+      - Cw+357_22
+      - Cw+358_23
+      - Cw+359_24
+      - Cw+360_25
+      - Cw+361_26
+      - Cw+362_27
+      - Cw+363_28
+      - Cw+364_29
+      - Cw+365_30
+      - Cw+366_31
+      - Cw+367_32
+      - Cw+368_33
+      - Cw+369_34
+      - Cw+370_35
+      - Cw+371_36
+      - Cw+372_37
+      - Cw 373_38
+      - Cw 374_39
+      - Cw+375_40
+      - Cw+376_41
+      - Cw+377_42
+      - Cw+378_43
+      - Cw+379_44
+      - Cw+380_45
+      - Cw+381_46
+      - Cw+382_47
+      - Cw+383_48
+      - Cw+384_49
+      - Cw+385_50
+      - Cw+386_51
+      - Cw+387_52
+      - Cw+388_53
+      - Cw+389_54
+      - Cw+390_55
+      - Cw+391_56
+      - Cw+392_57
+      - Cw+393_58
+      - Cw+394_59
+      - Cw+395_60
+      - Cw+396_61
+      - Cw+397_62
+      - Cw+398_63
+      - Cw+399_64
+      - Cw+400_65
+      - Cw+401_66
+      - Cw+402_67
+      - Cw+403_68
+      - Cw+404_69
+      - Cw 405_70
+      - Cw+406_71
+      - Cw+407_72
+      - Cw+408_73
+      - Cw+409_74
+      - Cw+410_75
+      - Cw+411_76
+      - Cw+412_77
+      - Cw+413_78
+      - Cw+414_79
+      - Cw+415_80
+      - Cw+416_81
+      - Cw+417_82
+      - Cw+418_83
+      - Cw+419_84
+      - Cw+420_85
+      - Cw+421_86
+      - Cw+422_87
+      - Cw+423_88
+      - Cw+424_89
+      - Cw+425_90
+      - Cw+426_91
+      - Cw+427_92
+      - Cw+428_93
+      - Cw+429_94
+      - Cw+430_95
+      - Cw+431_96
+      - Cw+432_97
+      - Cw+433_98
+      - Cw+434_99
+      - Cw+435_100
+      - Cw+436_101
+      - Cw+437_102
+      - Cw+438_103
+      - Cw+439_104
+      - Cw+440_105
+      - Cw+441_106
+      - Cw+442_107
+      - Cw+443_108
+      - Cw+444_109
+      - Cw+445_110
+      - Cw+446_111
+      - Cw+447_112
+      - Cw+448_113
+      - Cw+449_114
+      - Cw+450_115
+      - Cw+451_116
+      - Cw+452_117
+      - Cw+453_118
+      - Cw+454_119
+      - Cw+455_120
+      - Cw+456_121
+      - Cw+457_122
+      - Cw+458_123
+      - Cw+459_124
+      - Cw 460_125
+      - Cw+461_126
+      - Cw 462_127
+      - Cw+463_128
+      - Cw+464_129
+      - Cw+465_130
+      - Cw+466_131
+      - Cw+467_132
+      - Cw+468_133
+      - Cw+469_134
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
+      - 俄罗斯1-三网优化_1
+      - 俄罗斯2-三网优化_2
+      - 美国1-三网优化_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - Cw+344_9
+      - Cw+345_10
+      - Cw+346_11
+      - Cw+347_12
+      - Cw+348_13
+      - Cw+349_14
+      - Cw+350_15
+      - Cw+351_16
+      - Cw+352_17
+      - Cw+353_18
+      - Cw+354_19
+      - Cw+355_20
+      - Cw+356_21
+      - Cw+357_22
+      - Cw+358_23
+      - Cw+359_24
+      - Cw+360_25
+      - Cw+361_26
+      - Cw+362_27
+      - Cw+363_28
+      - Cw+364_29
+      - Cw+365_30
+      - Cw+366_31
+      - Cw+367_32
+      - Cw+368_33
+      - Cw+369_34
+      - Cw+370_35
+      - Cw+371_36
+      - Cw+372_37
+      - Cw 373_38
+      - Cw 374_39
+      - Cw+375_40
+      - Cw+376_41
+      - Cw+377_42
+      - Cw+378_43
+      - Cw+379_44
+      - Cw+380_45
+      - Cw+381_46
+      - Cw+382_47
+      - Cw+383_48
+      - Cw+384_49
+      - Cw+385_50
+      - Cw+386_51
+      - Cw+387_52
+      - Cw+388_53
+      - Cw+389_54
+      - Cw+390_55
+      - Cw+391_56
+      - Cw+392_57
+      - Cw+393_58
+      - Cw+394_59
+      - Cw+395_60
+      - Cw+396_61
+      - Cw+397_62
+      - Cw+398_63
+      - Cw+399_64
+      - Cw+400_65
+      - Cw+401_66
+      - Cw+402_67
+      - Cw+403_68
+      - Cw+404_69
+      - Cw 405_70
+      - Cw+406_71
+      - Cw+407_72
+      - Cw+408_73
+      - Cw+409_74
+      - Cw+410_75
+      - Cw+411_76
+      - Cw+412_77
+      - Cw+413_78
+      - Cw+414_79
+      - Cw+415_80
+      - Cw+416_81
+      - Cw+417_82
+      - Cw+418_83
+      - Cw+419_84
+      - Cw+420_85
+      - Cw+421_86
+      - Cw+422_87
+      - Cw+423_88
+      - Cw+424_89
+      - Cw+425_90
+      - Cw+426_91
+      - Cw+427_92
+      - Cw+428_93
+      - Cw+429_94
+      - Cw+430_95
+      - Cw+431_96
+      - Cw+432_97
+      - Cw+433_98
+      - Cw+434_99
+      - Cw+435_100
+      - Cw+436_101
+      - Cw+437_102
+      - Cw+438_103
+      - Cw+439_104
+      - Cw+440_105
+      - Cw+441_106
+      - Cw+442_107
+      - Cw+443_108
+      - Cw+444_109
+      - Cw+445_110
+      - Cw+446_111
+      - Cw+447_112
+      - Cw+448_113
+      - Cw+449_114
+      - Cw+450_115
+      - Cw+451_116
+      - Cw+452_117
+      - Cw+453_118
+      - Cw+454_119
+      - Cw+455_120
+      - Cw+456_121
+      - Cw+457_122
+      - Cw+458_123
+      - Cw+459_124
+      - Cw 460_125
+      - Cw+461_126
+      - Cw 462_127
+      - Cw+463_128
+      - Cw+464_129
+      - Cw+465_130
+      - Cw+466_131
+      - Cw+467_132
+      - Cw+468_133
+      - Cw+469_134
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
+      - 俄罗斯1-三网优化_1
+      - 俄罗斯2-三网优化_2
+      - 美国1-三网优化_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - Cw+344_9
+      - Cw+345_10
+      - Cw+346_11
+      - Cw+347_12
+      - Cw+348_13
+      - Cw+349_14
+      - Cw+350_15
+      - Cw+351_16
+      - Cw+352_17
+      - Cw+353_18
+      - Cw+354_19
+      - Cw+355_20
+      - Cw+356_21
+      - Cw+357_22
+      - Cw+358_23
+      - Cw+359_24
+      - Cw+360_25
+      - Cw+361_26
+      - Cw+362_27
+      - Cw+363_28
+      - Cw+364_29
+      - Cw+365_30
+      - Cw+366_31
+      - Cw+367_32
+      - Cw+368_33
+      - Cw+369_34
+      - Cw+370_35
+      - Cw+371_36
+      - Cw+372_37
+      - Cw 373_38
+      - Cw 374_39
+      - Cw+375_40
+      - Cw+376_41
+      - Cw+377_42
+      - Cw+378_43
+      - Cw+379_44
+      - Cw+380_45
+      - Cw+381_46
+      - Cw+382_47
+      - Cw+383_48
+      - Cw+384_49
+      - Cw+385_50
+      - Cw+386_51
+      - Cw+387_52
+      - Cw+388_53
+      - Cw+389_54
+      - Cw+390_55
+      - Cw+391_56
+      - Cw+392_57
+      - Cw+393_58
+      - Cw+394_59
+      - Cw+395_60
+      - Cw+396_61
+      - Cw+397_62
+      - Cw+398_63
+      - Cw+399_64
+      - Cw+400_65
+      - Cw+401_66
+      - Cw+402_67
+      - Cw+403_68
+      - Cw+404_69
+      - Cw 405_70
+      - Cw+406_71
+      - Cw+407_72
+      - Cw+408_73
+      - Cw+409_74
+      - Cw+410_75
+      - Cw+411_76
+      - Cw+412_77
+      - Cw+413_78
+      - Cw+414_79
+      - Cw+415_80
+      - Cw+416_81
+      - Cw+417_82
+      - Cw+418_83
+      - Cw+419_84
+      - Cw+420_85
+      - Cw+421_86
+      - Cw+422_87
+      - Cw+423_88
+      - Cw+424_89
+      - Cw+425_90
+      - Cw+426_91
+      - Cw+427_92
+      - Cw+428_93
+      - Cw+429_94
+      - Cw+430_95
+      - Cw+431_96
+      - Cw+432_97
+      - Cw+433_98
+      - Cw+434_99
+      - Cw+435_100
+      - Cw+436_101
+      - Cw+437_102
+      - Cw+438_103
+      - Cw+439_104
+      - Cw+440_105
+      - Cw+441_106
+      - Cw+442_107
+      - Cw+443_108
+      - Cw+444_109
+      - Cw+445_110
+      - Cw+446_111
+      - Cw+447_112
+      - Cw+448_113
+      - Cw+449_114
+      - Cw+450_115
+      - Cw+451_116
+      - Cw+452_117
+      - Cw+453_118
+      - Cw+454_119
+      - Cw+455_120
+      - Cw+456_121
+      - Cw+457_122
+      - Cw+458_123
+      - Cw+459_124
+      - Cw 460_125
+      - Cw+461_126
+      - Cw 462_127
+      - Cw+463_128
+      - Cw+464_129
+      - Cw+465_130
+      - Cw+466_131
+      - Cw+467_132
+      - Cw+468_133
+      - Cw+469_134
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
+      - 俄罗斯1-三网优化_1
+      - 俄罗斯2-三网优化_2
+      - 美国1-三网优化_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - Cw+344_9
+      - Cw+345_10
+      - Cw+346_11
+      - Cw+347_12
+      - Cw+348_13
+      - Cw+349_14
+      - Cw+350_15
+      - Cw+351_16
+      - Cw+352_17
+      - Cw+353_18
+      - Cw+354_19
+      - Cw+355_20
+      - Cw+356_21
+      - Cw+357_22
+      - Cw+358_23
+      - Cw+359_24
+      - Cw+360_25
+      - Cw+361_26
+      - Cw+362_27
+      - Cw+363_28
+      - Cw+364_29
+      - Cw+365_30
+      - Cw+366_31
+      - Cw+367_32
+      - Cw+368_33
+      - Cw+369_34
+      - Cw+370_35
+      - Cw+371_36
+      - Cw+372_37
+      - Cw 373_38
+      - Cw 374_39
+      - Cw+375_40
+      - Cw+376_41
+      - Cw+377_42
+      - Cw+378_43
+      - Cw+379_44
+      - Cw+380_45
+      - Cw+381_46
+      - Cw+382_47
+      - Cw+383_48
+      - Cw+384_49
+      - Cw+385_50
+      - Cw+386_51
+      - Cw+387_52
+      - Cw+388_53
+      - Cw+389_54
+      - Cw+390_55
+      - Cw+391_56
+      - Cw+392_57
+      - Cw+393_58
+      - Cw+394_59
+      - Cw+395_60
+      - Cw+396_61
+      - Cw+397_62
+      - Cw+398_63
+      - Cw+399_64
+      - Cw+400_65
+      - Cw+401_66
+      - Cw+402_67
+      - Cw+403_68
+      - Cw+404_69
+      - Cw 405_70
+      - Cw+406_71
+      - Cw+407_72
+      - Cw+408_73
+      - Cw+409_74
+      - Cw+410_75
+      - Cw+411_76
+      - Cw+412_77
+      - Cw+413_78
+      - Cw+414_79
+      - Cw+415_80
+      - Cw+416_81
+      - Cw+417_82
+      - Cw+418_83
+      - Cw+419_84
+      - Cw+420_85
+      - Cw+421_86
+      - Cw+422_87
+      - Cw+423_88
+      - Cw+424_89
+      - Cw+425_90
+      - Cw+426_91
+      - Cw+427_92
+      - Cw+428_93
+      - Cw+429_94
+      - Cw+430_95
+      - Cw+431_96
+      - Cw+432_97
+      - Cw+433_98
+      - Cw+434_99
+      - Cw+435_100
+      - Cw+436_101
+      - Cw+437_102
+      - Cw+438_103
+      - Cw+439_104
+      - Cw+440_105
+      - Cw+441_106
+      - Cw+442_107
+      - Cw+443_108
+      - Cw+444_109
+      - Cw+445_110
+      - Cw+446_111
+      - Cw+447_112
+      - Cw+448_113
+      - Cw+449_114
+      - Cw+450_115
+      - Cw+451_116
+      - Cw+452_117
+      - Cw+453_118
+      - Cw+454_119
+      - Cw+455_120
+      - Cw+456_121
+      - Cw+457_122
+      - Cw+458_123
+      - Cw+459_124
+      - Cw 460_125
+      - Cw+461_126
+      - Cw 462_127
+      - Cw+463_128
+      - Cw+464_129
+      - Cw+465_130
+      - Cw+466_131
+      - Cw+467_132
+      - Cw+468_133
+      - Cw+469_134
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +1130,140 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
+      - 俄罗斯1-三网优化_1
+      - 俄罗斯2-三网优化_2
+      - 美国1-三网优化_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - Cw+344_9
+      - Cw+345_10
+      - Cw+346_11
+      - Cw+347_12
+      - Cw+348_13
+      - Cw+349_14
+      - Cw+350_15
+      - Cw+351_16
+      - Cw+352_17
+      - Cw+353_18
+      - Cw+354_19
+      - Cw+355_20
+      - Cw+356_21
+      - Cw+357_22
+      - Cw+358_23
+      - Cw+359_24
+      - Cw+360_25
+      - Cw+361_26
+      - Cw+362_27
+      - Cw+363_28
+      - Cw+364_29
+      - Cw+365_30
+      - Cw+366_31
+      - Cw+367_32
+      - Cw+368_33
+      - Cw+369_34
+      - Cw+370_35
+      - Cw+371_36
+      - Cw+372_37
+      - Cw 373_38
+      - Cw 374_39
+      - Cw+375_40
+      - Cw+376_41
+      - Cw+377_42
+      - Cw+378_43
+      - Cw+379_44
+      - Cw+380_45
+      - Cw+381_46
+      - Cw+382_47
+      - Cw+383_48
+      - Cw+384_49
+      - Cw+385_50
+      - Cw+386_51
+      - Cw+387_52
+      - Cw+388_53
+      - Cw+389_54
+      - Cw+390_55
+      - Cw+391_56
+      - Cw+392_57
+      - Cw+393_58
+      - Cw+394_59
+      - Cw+395_60
+      - Cw+396_61
+      - Cw+397_62
+      - Cw+398_63
+      - Cw+399_64
+      - Cw+400_65
+      - Cw+401_66
+      - Cw+402_67
+      - Cw+403_68
+      - Cw+404_69
+      - Cw 405_70
+      - Cw+406_71
+      - Cw+407_72
+      - Cw+408_73
+      - Cw+409_74
+      - Cw+410_75
+      - Cw+411_76
+      - Cw+412_77
+      - Cw+413_78
+      - Cw+414_79
+      - Cw+415_80
+      - Cw+416_81
+      - Cw+417_82
+      - Cw+418_83
+      - Cw+419_84
+      - Cw+420_85
+      - Cw+421_86
+      - Cw+422_87
+      - Cw+423_88
+      - Cw+424_89
+      - Cw+425_90
+      - Cw+426_91
+      - Cw+427_92
+      - Cw+428_93
+      - Cw+429_94
+      - Cw+430_95
+      - Cw+431_96
+      - Cw+432_97
+      - Cw+433_98
+      - Cw+434_99
+      - Cw+435_100
+      - Cw+436_101
+      - Cw+437_102
+      - Cw+438_103
+      - Cw+439_104
+      - Cw+440_105
+      - Cw+441_106
+      - Cw+442_107
+      - Cw+443_108
+      - Cw+444_109
+      - Cw+445_110
+      - Cw+446_111
+      - Cw+447_112
+      - Cw+448_113
+      - Cw+449_114
+      - Cw+450_115
+      - Cw+451_116
+      - Cw+452_117
+      - Cw+453_118
+      - Cw+454_119
+      - Cw+455_120
+      - Cw+456_121
+      - Cw+457_122
+      - Cw+458_123
+      - Cw+459_124
+      - Cw 460_125
+      - Cw+461_126
+      - Cw 462_127
+      - Cw+463_128
+      - Cw+464_129
+      - Cw+465_130
+      - Cw+466_131
+      - Cw+467_132
+      - Cw+468_133
+      - Cw+469_134
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
