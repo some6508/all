@@ -5,204 +5,812 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇺🇸_US_美国_1', server: 38.114.114.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_2', server: 38.114.114.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_3', server: 38.75.137.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_4', server: 38.75.137.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_5', server: 38.114.114.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_美国_6', server: 38.114.114.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_7', server: 38.75.137.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_美国_8', server: 38.75.137.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_9', server: 38.75.137.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_美国_10', server: 38.75.137.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_11', server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_12', server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_美国_13', server: 38.68.134.191, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇨🇳_CN_中国_14', server: 43.154.157.216, port: 60151, type: ss, cipher: chacha20-ietf-poly1305, password: dunkpzGG9FM9}
-  - {name: '🇺🇸_US_美国_15', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_美国_16', server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_美国_17', server: 38.75.137.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_美国_18', server: 38.68.134.37, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_美国_19', server: 38.68.135.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_美国_20', server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
+  - {name: 'n_40300 WangCai_1', server: 106.52.33.67, port: 40300, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40301 WangCai_1', server: 106.52.33.67, port: 40301, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40302 WangCai_1', server: 106.52.33.67, port: 40302, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40303 WangCai_1', server: 106.52.33.67, port: 40303, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40304 WangCai_1', server: 106.52.33.67, port: 40304, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40305 WangCai_1', server: 106.52.33.67, port: 40305, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40306 WangCai_1', server: 106.52.33.67, port: 40306, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40307 WangCai_1', server: 106.52.33.67, port: 40307, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40308 WangCai_1', server: 106.52.33.67, port: 40308, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40309 WangCai_1', server: 106.52.33.67, port: 40309, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40310 WangCai_1', server: 106.52.33.67, port: 40310, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40311 WangCai_1', server: 106.52.33.67, port: 40311, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40312 WangCai_1', server: 106.52.33.67, port: 40312, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40313 WangCai_1', server: 106.52.33.67, port: 40313, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40314 WangCai_1', server: 106.52.33.67, port: 40314, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40315 WangCai_1', server: 106.52.33.67, port: 40315, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40317 WangCai_1', server: 106.52.33.67, port: 40317, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40318 WangCai_1', server: 106.52.33.67, port: 40318, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40319 WangCai_1', server: 106.52.33.67, port: 40319, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40320 WangCai_1', server: 106.52.33.67, port: 40320, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40321 WangCai_1', server: 106.52.33.67, port: 40321, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40322 WangCai_1', server: 106.52.33.67, port: 40322, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40323 WangCai_1', server: 106.52.33.67, port: 40323, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40324 WangCai_1', server: 106.52.33.67, port: 40324, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40325 WangCai_1', server: 106.52.33.67, port: 40325, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40326 WangCai_1', server: 106.52.33.67, port: 40326, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40327 WangCai_1', server: 106.52.33.67, port: 40327, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40328 WangCai_1', server: 106.52.33.67, port: 40328, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40329 WangCai_1', server: 106.52.33.67, port: 40329, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40330 WangCai_1', server: 106.52.33.67, port: 40330, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40331 WangCai_1', server: 106.52.33.67, port: 40331, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40333 WangCai_1', server: 106.52.33.67, port: 40333, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40334 WangCai_1', server: 106.52.33.67, port: 40334, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40335 WangCai_1', server: 106.52.33.67, port: 40335, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40336 WangCai_1', server: 106.52.33.67, port: 40336, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40337 WangCai_1', server: 106.52.33.67, port: 40337, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40338 WangCai_1', server: 106.52.33.67, port: 40338, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40339 WangCai_1', server: 106.52.33.67, port: 40339, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40340 WangCai_1', server: 106.52.33.67, port: 40340, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40341 WangCai_1', server: 106.52.33.67, port: 40341, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40342 WangCai_1', server: 106.52.33.67, port: 40342, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40343 WangCai_1', server: 106.52.33.67, port: 40343, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40344 WangCai_1', server: 106.52.33.67, port: 40344, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40345 WangCai_1', server: 106.52.33.67, port: 40345, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40346 WangCai_1', server: 106.52.33.67, port: 40346, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40347 WangCai_1', server: 106.52.33.67, port: 40347, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40348 WangCai_1', server: 106.52.33.67, port: 40348, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40349 WangCai_1', server: 106.52.33.67, port: 40349, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40350 WangCai_1', server: 106.52.33.67, port: 40350, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40351 WangCai_1', server: 106.52.33.67, port: 40351, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40352 WangCai_1', server: 106.52.33.67, port: 40352, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40353 WangCai_1', server: 106.52.33.67, port: 40353, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40354 WangCai_1', server: 106.52.33.67, port: 40354, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40355 WangCai_1', server: 106.52.33.67, port: 40355, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40356 WangCai_1', server: 106.52.33.67, port: 40356, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40357 WangCai_1', server: 106.52.33.67, port: 40357, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40358 WangCai_1', server: 106.52.33.67, port: 40358, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40359 WangCai_1', server: 106.52.33.67, port: 40359, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40360 WangCai_1', server: 106.52.33.67, port: 40360, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40361 WangCai_1', server: 106.52.33.67, port: 40361, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40362 WangCai_1', server: 106.52.33.67, port: 40362, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40363 WangCai_1', server: 106.52.33.67, port: 40363, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40364 WangCai_1', server: 106.52.33.67, port: 40364, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40365 WangCai_1', server: 106.52.33.67, port: 40365, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40366 WangCai_1', server: 106.52.33.67, port: 40366, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40367 WangCai_1', server: 106.52.33.67, port: 40367, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40368 WangCai_1', server: 106.52.33.67, port: 40368, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40369 WangCai_1', server: 106.52.33.67, port: 40369, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40370 WangCai_1', server: 106.52.33.67, port: 40370, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40371 WangCai_1', server: 106.52.33.67, port: 40371, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40372 WangCai_1', server: 106.52.33.67, port: 40372, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40373 WangCai_1', server: 106.52.33.67, port: 40373, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40375 WangCai_1', server: 106.52.33.67, port: 40375, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40376 WangCai_1', server: 106.52.33.67, port: 40376, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40377 WangCai_1', server: 106.52.33.67, port: 40377, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40379 WangCai_1', server: 106.52.33.67, port: 40379, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40380 WangCai_1', server: 106.52.33.67, port: 40380, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40381 WangCai_1', server: 106.52.33.67, port: 40381, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40382 WangCai_1', server: 106.52.33.67, port: 40382, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40383 WangCai_1', server: 106.52.33.67, port: 40383, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40384 WangCai_1', server: 106.52.33.67, port: 40384, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40385 WangCai_1', server: 106.52.33.67, port: 40385, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40386 WangCai_1', server: 106.52.33.67, port: 40386, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40387 WangCai_1', server: 106.52.33.67, port: 40387, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40388 WangCai_1', server: 106.52.33.67, port: 40388, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40389 WangCai_1', server: 106.52.33.67, port: 40389, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40390 WangCai_1', server: 106.52.33.67, port: 40390, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40391 WangCai_1', server: 106.52.33.67, port: 40391, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40392 WangCai_1', server: 106.52.33.67, port: 40392, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40393 WangCai_1', server: 106.52.33.67, port: 40393, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40394 WangCai_1', server: 106.52.33.67, port: 40394, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40395 WangCai_1', server: 106.52.33.67, port: 40395, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40396 WangCai_1', server: 106.52.33.67, port: 40396, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40397 WangCai_1', server: 106.52.33.67, port: 40397, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40398 WangCai_1', server: 106.52.33.67, port: 40398, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: 'n_40399 WangCai_1', server: 106.52.33.67, port: 40399, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
+      - n_40300 WangCai_1
+      - n_40301 WangCai_1
+      - n_40302 WangCai_1
+      - n_40303 WangCai_1
+      - n_40304 WangCai_1
+      - n_40305 WangCai_1
+      - n_40306 WangCai_1
+      - n_40307 WangCai_1
+      - n_40308 WangCai_1
+      - n_40309 WangCai_1
+      - n_40310 WangCai_1
+      - n_40311 WangCai_1
+      - n_40312 WangCai_1
+      - n_40313 WangCai_1
+      - n_40314 WangCai_1
+      - n_40315 WangCai_1
+      - n_40317 WangCai_1
+      - n_40318 WangCai_1
+      - n_40319 WangCai_1
+      - n_40320 WangCai_1
+      - n_40321 WangCai_1
+      - n_40322 WangCai_1
+      - n_40323 WangCai_1
+      - n_40324 WangCai_1
+      - n_40325 WangCai_1
+      - n_40326 WangCai_1
+      - n_40327 WangCai_1
+      - n_40328 WangCai_1
+      - n_40329 WangCai_1
+      - n_40330 WangCai_1
+      - n_40331 WangCai_1
+      - n_40333 WangCai_1
+      - n_40334 WangCai_1
+      - n_40335 WangCai_1
+      - n_40336 WangCai_1
+      - n_40337 WangCai_1
+      - n_40338 WangCai_1
+      - n_40339 WangCai_1
+      - n_40340 WangCai_1
+      - n_40341 WangCai_1
+      - n_40342 WangCai_1
+      - n_40343 WangCai_1
+      - n_40344 WangCai_1
+      - n_40345 WangCai_1
+      - n_40346 WangCai_1
+      - n_40347 WangCai_1
+      - n_40348 WangCai_1
+      - n_40349 WangCai_1
+      - n_40350 WangCai_1
+      - n_40351 WangCai_1
+      - n_40352 WangCai_1
+      - n_40353 WangCai_1
+      - n_40354 WangCai_1
+      - n_40355 WangCai_1
+      - n_40356 WangCai_1
+      - n_40357 WangCai_1
+      - n_40358 WangCai_1
+      - n_40359 WangCai_1
+      - n_40360 WangCai_1
+      - n_40361 WangCai_1
+      - n_40362 WangCai_1
+      - n_40363 WangCai_1
+      - n_40364 WangCai_1
+      - n_40365 WangCai_1
+      - n_40366 WangCai_1
+      - n_40367 WangCai_1
+      - n_40368 WangCai_1
+      - n_40369 WangCai_1
+      - n_40370 WangCai_1
+      - n_40371 WangCai_1
+      - n_40372 WangCai_1
+      - n_40373 WangCai_1
+      - n_40375 WangCai_1
+      - n_40376 WangCai_1
+      - n_40377 WangCai_1
+      - n_40379 WangCai_1
+      - n_40380 WangCai_1
+      - n_40381 WangCai_1
+      - n_40382 WangCai_1
+      - n_40383 WangCai_1
+      - n_40384 WangCai_1
+      - n_40385 WangCai_1
+      - n_40386 WangCai_1
+      - n_40387 WangCai_1
+      - n_40388 WangCai_1
+      - n_40389 WangCai_1
+      - n_40390 WangCai_1
+      - n_40391 WangCai_1
+      - n_40392 WangCai_1
+      - n_40393 WangCai_1
+      - n_40394 WangCai_1
+      - n_40395 WangCai_1
+      - n_40396 WangCai_1
+      - n_40397 WangCai_1
+      - n_40398 WangCai_1
+      - n_40399 WangCai_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
+      - n_40300 WangCai_1
+      - n_40301 WangCai_1
+      - n_40302 WangCai_1
+      - n_40303 WangCai_1
+      - n_40304 WangCai_1
+      - n_40305 WangCai_1
+      - n_40306 WangCai_1
+      - n_40307 WangCai_1
+      - n_40308 WangCai_1
+      - n_40309 WangCai_1
+      - n_40310 WangCai_1
+      - n_40311 WangCai_1
+      - n_40312 WangCai_1
+      - n_40313 WangCai_1
+      - n_40314 WangCai_1
+      - n_40315 WangCai_1
+      - n_40317 WangCai_1
+      - n_40318 WangCai_1
+      - n_40319 WangCai_1
+      - n_40320 WangCai_1
+      - n_40321 WangCai_1
+      - n_40322 WangCai_1
+      - n_40323 WangCai_1
+      - n_40324 WangCai_1
+      - n_40325 WangCai_1
+      - n_40326 WangCai_1
+      - n_40327 WangCai_1
+      - n_40328 WangCai_1
+      - n_40329 WangCai_1
+      - n_40330 WangCai_1
+      - n_40331 WangCai_1
+      - n_40333 WangCai_1
+      - n_40334 WangCai_1
+      - n_40335 WangCai_1
+      - n_40336 WangCai_1
+      - n_40337 WangCai_1
+      - n_40338 WangCai_1
+      - n_40339 WangCai_1
+      - n_40340 WangCai_1
+      - n_40341 WangCai_1
+      - n_40342 WangCai_1
+      - n_40343 WangCai_1
+      - n_40344 WangCai_1
+      - n_40345 WangCai_1
+      - n_40346 WangCai_1
+      - n_40347 WangCai_1
+      - n_40348 WangCai_1
+      - n_40349 WangCai_1
+      - n_40350 WangCai_1
+      - n_40351 WangCai_1
+      - n_40352 WangCai_1
+      - n_40353 WangCai_1
+      - n_40354 WangCai_1
+      - n_40355 WangCai_1
+      - n_40356 WangCai_1
+      - n_40357 WangCai_1
+      - n_40358 WangCai_1
+      - n_40359 WangCai_1
+      - n_40360 WangCai_1
+      - n_40361 WangCai_1
+      - n_40362 WangCai_1
+      - n_40363 WangCai_1
+      - n_40364 WangCai_1
+      - n_40365 WangCai_1
+      - n_40366 WangCai_1
+      - n_40367 WangCai_1
+      - n_40368 WangCai_1
+      - n_40369 WangCai_1
+      - n_40370 WangCai_1
+      - n_40371 WangCai_1
+      - n_40372 WangCai_1
+      - n_40373 WangCai_1
+      - n_40375 WangCai_1
+      - n_40376 WangCai_1
+      - n_40377 WangCai_1
+      - n_40379 WangCai_1
+      - n_40380 WangCai_1
+      - n_40381 WangCai_1
+      - n_40382 WangCai_1
+      - n_40383 WangCai_1
+      - n_40384 WangCai_1
+      - n_40385 WangCai_1
+      - n_40386 WangCai_1
+      - n_40387 WangCai_1
+      - n_40388 WangCai_1
+      - n_40389 WangCai_1
+      - n_40390 WangCai_1
+      - n_40391 WangCai_1
+      - n_40392 WangCai_1
+      - n_40393 WangCai_1
+      - n_40394 WangCai_1
+      - n_40395 WangCai_1
+      - n_40396 WangCai_1
+      - n_40397 WangCai_1
+      - n_40398 WangCai_1
+      - n_40399 WangCai_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
+      - n_40300 WangCai_1
+      - n_40301 WangCai_1
+      - n_40302 WangCai_1
+      - n_40303 WangCai_1
+      - n_40304 WangCai_1
+      - n_40305 WangCai_1
+      - n_40306 WangCai_1
+      - n_40307 WangCai_1
+      - n_40308 WangCai_1
+      - n_40309 WangCai_1
+      - n_40310 WangCai_1
+      - n_40311 WangCai_1
+      - n_40312 WangCai_1
+      - n_40313 WangCai_1
+      - n_40314 WangCai_1
+      - n_40315 WangCai_1
+      - n_40317 WangCai_1
+      - n_40318 WangCai_1
+      - n_40319 WangCai_1
+      - n_40320 WangCai_1
+      - n_40321 WangCai_1
+      - n_40322 WangCai_1
+      - n_40323 WangCai_1
+      - n_40324 WangCai_1
+      - n_40325 WangCai_1
+      - n_40326 WangCai_1
+      - n_40327 WangCai_1
+      - n_40328 WangCai_1
+      - n_40329 WangCai_1
+      - n_40330 WangCai_1
+      - n_40331 WangCai_1
+      - n_40333 WangCai_1
+      - n_40334 WangCai_1
+      - n_40335 WangCai_1
+      - n_40336 WangCai_1
+      - n_40337 WangCai_1
+      - n_40338 WangCai_1
+      - n_40339 WangCai_1
+      - n_40340 WangCai_1
+      - n_40341 WangCai_1
+      - n_40342 WangCai_1
+      - n_40343 WangCai_1
+      - n_40344 WangCai_1
+      - n_40345 WangCai_1
+      - n_40346 WangCai_1
+      - n_40347 WangCai_1
+      - n_40348 WangCai_1
+      - n_40349 WangCai_1
+      - n_40350 WangCai_1
+      - n_40351 WangCai_1
+      - n_40352 WangCai_1
+      - n_40353 WangCai_1
+      - n_40354 WangCai_1
+      - n_40355 WangCai_1
+      - n_40356 WangCai_1
+      - n_40357 WangCai_1
+      - n_40358 WangCai_1
+      - n_40359 WangCai_1
+      - n_40360 WangCai_1
+      - n_40361 WangCai_1
+      - n_40362 WangCai_1
+      - n_40363 WangCai_1
+      - n_40364 WangCai_1
+      - n_40365 WangCai_1
+      - n_40366 WangCai_1
+      - n_40367 WangCai_1
+      - n_40368 WangCai_1
+      - n_40369 WangCai_1
+      - n_40370 WangCai_1
+      - n_40371 WangCai_1
+      - n_40372 WangCai_1
+      - n_40373 WangCai_1
+      - n_40375 WangCai_1
+      - n_40376 WangCai_1
+      - n_40377 WangCai_1
+      - n_40379 WangCai_1
+      - n_40380 WangCai_1
+      - n_40381 WangCai_1
+      - n_40382 WangCai_1
+      - n_40383 WangCai_1
+      - n_40384 WangCai_1
+      - n_40385 WangCai_1
+      - n_40386 WangCai_1
+      - n_40387 WangCai_1
+      - n_40388 WangCai_1
+      - n_40389 WangCai_1
+      - n_40390 WangCai_1
+      - n_40391 WangCai_1
+      - n_40392 WangCai_1
+      - n_40393 WangCai_1
+      - n_40394 WangCai_1
+      - n_40395 WangCai_1
+      - n_40396 WangCai_1
+      - n_40397 WangCai_1
+      - n_40398 WangCai_1
+      - n_40399 WangCai_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
+      - n_40300 WangCai_1
+      - n_40301 WangCai_1
+      - n_40302 WangCai_1
+      - n_40303 WangCai_1
+      - n_40304 WangCai_1
+      - n_40305 WangCai_1
+      - n_40306 WangCai_1
+      - n_40307 WangCai_1
+      - n_40308 WangCai_1
+      - n_40309 WangCai_1
+      - n_40310 WangCai_1
+      - n_40311 WangCai_1
+      - n_40312 WangCai_1
+      - n_40313 WangCai_1
+      - n_40314 WangCai_1
+      - n_40315 WangCai_1
+      - n_40317 WangCai_1
+      - n_40318 WangCai_1
+      - n_40319 WangCai_1
+      - n_40320 WangCai_1
+      - n_40321 WangCai_1
+      - n_40322 WangCai_1
+      - n_40323 WangCai_1
+      - n_40324 WangCai_1
+      - n_40325 WangCai_1
+      - n_40326 WangCai_1
+      - n_40327 WangCai_1
+      - n_40328 WangCai_1
+      - n_40329 WangCai_1
+      - n_40330 WangCai_1
+      - n_40331 WangCai_1
+      - n_40333 WangCai_1
+      - n_40334 WangCai_1
+      - n_40335 WangCai_1
+      - n_40336 WangCai_1
+      - n_40337 WangCai_1
+      - n_40338 WangCai_1
+      - n_40339 WangCai_1
+      - n_40340 WangCai_1
+      - n_40341 WangCai_1
+      - n_40342 WangCai_1
+      - n_40343 WangCai_1
+      - n_40344 WangCai_1
+      - n_40345 WangCai_1
+      - n_40346 WangCai_1
+      - n_40347 WangCai_1
+      - n_40348 WangCai_1
+      - n_40349 WangCai_1
+      - n_40350 WangCai_1
+      - n_40351 WangCai_1
+      - n_40352 WangCai_1
+      - n_40353 WangCai_1
+      - n_40354 WangCai_1
+      - n_40355 WangCai_1
+      - n_40356 WangCai_1
+      - n_40357 WangCai_1
+      - n_40358 WangCai_1
+      - n_40359 WangCai_1
+      - n_40360 WangCai_1
+      - n_40361 WangCai_1
+      - n_40362 WangCai_1
+      - n_40363 WangCai_1
+      - n_40364 WangCai_1
+      - n_40365 WangCai_1
+      - n_40366 WangCai_1
+      - n_40367 WangCai_1
+      - n_40368 WangCai_1
+      - n_40369 WangCai_1
+      - n_40370 WangCai_1
+      - n_40371 WangCai_1
+      - n_40372 WangCai_1
+      - n_40373 WangCai_1
+      - n_40375 WangCai_1
+      - n_40376 WangCai_1
+      - n_40377 WangCai_1
+      - n_40379 WangCai_1
+      - n_40380 WangCai_1
+      - n_40381 WangCai_1
+      - n_40382 WangCai_1
+      - n_40383 WangCai_1
+      - n_40384 WangCai_1
+      - n_40385 WangCai_1
+      - n_40386 WangCai_1
+      - n_40387 WangCai_1
+      - n_40388 WangCai_1
+      - n_40389 WangCai_1
+      - n_40390 WangCai_1
+      - n_40391 WangCai_1
+      - n_40392 WangCai_1
+      - n_40393 WangCai_1
+      - n_40394 WangCai_1
+      - n_40395 WangCai_1
+      - n_40396 WangCai_1
+      - n_40397 WangCai_1
+      - n_40398 WangCai_1
+      - n_40399 WangCai_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
+      - n_40300 WangCai_1
+      - n_40301 WangCai_1
+      - n_40302 WangCai_1
+      - n_40303 WangCai_1
+      - n_40304 WangCai_1
+      - n_40305 WangCai_1
+      - n_40306 WangCai_1
+      - n_40307 WangCai_1
+      - n_40308 WangCai_1
+      - n_40309 WangCai_1
+      - n_40310 WangCai_1
+      - n_40311 WangCai_1
+      - n_40312 WangCai_1
+      - n_40313 WangCai_1
+      - n_40314 WangCai_1
+      - n_40315 WangCai_1
+      - n_40317 WangCai_1
+      - n_40318 WangCai_1
+      - n_40319 WangCai_1
+      - n_40320 WangCai_1
+      - n_40321 WangCai_1
+      - n_40322 WangCai_1
+      - n_40323 WangCai_1
+      - n_40324 WangCai_1
+      - n_40325 WangCai_1
+      - n_40326 WangCai_1
+      - n_40327 WangCai_1
+      - n_40328 WangCai_1
+      - n_40329 WangCai_1
+      - n_40330 WangCai_1
+      - n_40331 WangCai_1
+      - n_40333 WangCai_1
+      - n_40334 WangCai_1
+      - n_40335 WangCai_1
+      - n_40336 WangCai_1
+      - n_40337 WangCai_1
+      - n_40338 WangCai_1
+      - n_40339 WangCai_1
+      - n_40340 WangCai_1
+      - n_40341 WangCai_1
+      - n_40342 WangCai_1
+      - n_40343 WangCai_1
+      - n_40344 WangCai_1
+      - n_40345 WangCai_1
+      - n_40346 WangCai_1
+      - n_40347 WangCai_1
+      - n_40348 WangCai_1
+      - n_40349 WangCai_1
+      - n_40350 WangCai_1
+      - n_40351 WangCai_1
+      - n_40352 WangCai_1
+      - n_40353 WangCai_1
+      - n_40354 WangCai_1
+      - n_40355 WangCai_1
+      - n_40356 WangCai_1
+      - n_40357 WangCai_1
+      - n_40358 WangCai_1
+      - n_40359 WangCai_1
+      - n_40360 WangCai_1
+      - n_40361 WangCai_1
+      - n_40362 WangCai_1
+      - n_40363 WangCai_1
+      - n_40364 WangCai_1
+      - n_40365 WangCai_1
+      - n_40366 WangCai_1
+      - n_40367 WangCai_1
+      - n_40368 WangCai_1
+      - n_40369 WangCai_1
+      - n_40370 WangCai_1
+      - n_40371 WangCai_1
+      - n_40372 WangCai_1
+      - n_40373 WangCai_1
+      - n_40375 WangCai_1
+      - n_40376 WangCai_1
+      - n_40377 WangCai_1
+      - n_40379 WangCai_1
+      - n_40380 WangCai_1
+      - n_40381 WangCai_1
+      - n_40382 WangCai_1
+      - n_40383 WangCai_1
+      - n_40384 WangCai_1
+      - n_40385 WangCai_1
+      - n_40386 WangCai_1
+      - n_40387 WangCai_1
+      - n_40388 WangCai_1
+      - n_40389 WangCai_1
+      - n_40390 WangCai_1
+      - n_40391 WangCai_1
+      - n_40392 WangCai_1
+      - n_40393 WangCai_1
+      - n_40394 WangCai_1
+      - n_40395 WangCai_1
+      - n_40396 WangCai_1
+      - n_40397 WangCai_1
+      - n_40398 WangCai_1
+      - n_40399 WangCai_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
+      - n_40300 WangCai_1
+      - n_40301 WangCai_1
+      - n_40302 WangCai_1
+      - n_40303 WangCai_1
+      - n_40304 WangCai_1
+      - n_40305 WangCai_1
+      - n_40306 WangCai_1
+      - n_40307 WangCai_1
+      - n_40308 WangCai_1
+      - n_40309 WangCai_1
+      - n_40310 WangCai_1
+      - n_40311 WangCai_1
+      - n_40312 WangCai_1
+      - n_40313 WangCai_1
+      - n_40314 WangCai_1
+      - n_40315 WangCai_1
+      - n_40317 WangCai_1
+      - n_40318 WangCai_1
+      - n_40319 WangCai_1
+      - n_40320 WangCai_1
+      - n_40321 WangCai_1
+      - n_40322 WangCai_1
+      - n_40323 WangCai_1
+      - n_40324 WangCai_1
+      - n_40325 WangCai_1
+      - n_40326 WangCai_1
+      - n_40327 WangCai_1
+      - n_40328 WangCai_1
+      - n_40329 WangCai_1
+      - n_40330 WangCai_1
+      - n_40331 WangCai_1
+      - n_40333 WangCai_1
+      - n_40334 WangCai_1
+      - n_40335 WangCai_1
+      - n_40336 WangCai_1
+      - n_40337 WangCai_1
+      - n_40338 WangCai_1
+      - n_40339 WangCai_1
+      - n_40340 WangCai_1
+      - n_40341 WangCai_1
+      - n_40342 WangCai_1
+      - n_40343 WangCai_1
+      - n_40344 WangCai_1
+      - n_40345 WangCai_1
+      - n_40346 WangCai_1
+      - n_40347 WangCai_1
+      - n_40348 WangCai_1
+      - n_40349 WangCai_1
+      - n_40350 WangCai_1
+      - n_40351 WangCai_1
+      - n_40352 WangCai_1
+      - n_40353 WangCai_1
+      - n_40354 WangCai_1
+      - n_40355 WangCai_1
+      - n_40356 WangCai_1
+      - n_40357 WangCai_1
+      - n_40358 WangCai_1
+      - n_40359 WangCai_1
+      - n_40360 WangCai_1
+      - n_40361 WangCai_1
+      - n_40362 WangCai_1
+      - n_40363 WangCai_1
+      - n_40364 WangCai_1
+      - n_40365 WangCai_1
+      - n_40366 WangCai_1
+      - n_40367 WangCai_1
+      - n_40368 WangCai_1
+      - n_40369 WangCai_1
+      - n_40370 WangCai_1
+      - n_40371 WangCai_1
+      - n_40372 WangCai_1
+      - n_40373 WangCai_1
+      - n_40375 WangCai_1
+      - n_40376 WangCai_1
+      - n_40377 WangCai_1
+      - n_40379 WangCai_1
+      - n_40380 WangCai_1
+      - n_40381 WangCai_1
+      - n_40382 WangCai_1
+      - n_40383 WangCai_1
+      - n_40384 WangCai_1
+      - n_40385 WangCai_1
+      - n_40386 WangCai_1
+      - n_40387 WangCai_1
+      - n_40388 WangCai_1
+      - n_40389 WangCai_1
+      - n_40390 WangCai_1
+      - n_40391 WangCai_1
+      - n_40392 WangCai_1
+      - n_40393 WangCai_1
+      - n_40394 WangCai_1
+      - n_40395 WangCai_1
+      - n_40396 WangCai_1
+      - n_40397 WangCai_1
+      - n_40398 WangCai_1
+      - n_40399 WangCai_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
+      - n_40300 WangCai_1
+      - n_40301 WangCai_1
+      - n_40302 WangCai_1
+      - n_40303 WangCai_1
+      - n_40304 WangCai_1
+      - n_40305 WangCai_1
+      - n_40306 WangCai_1
+      - n_40307 WangCai_1
+      - n_40308 WangCai_1
+      - n_40309 WangCai_1
+      - n_40310 WangCai_1
+      - n_40311 WangCai_1
+      - n_40312 WangCai_1
+      - n_40313 WangCai_1
+      - n_40314 WangCai_1
+      - n_40315 WangCai_1
+      - n_40317 WangCai_1
+      - n_40318 WangCai_1
+      - n_40319 WangCai_1
+      - n_40320 WangCai_1
+      - n_40321 WangCai_1
+      - n_40322 WangCai_1
+      - n_40323 WangCai_1
+      - n_40324 WangCai_1
+      - n_40325 WangCai_1
+      - n_40326 WangCai_1
+      - n_40327 WangCai_1
+      - n_40328 WangCai_1
+      - n_40329 WangCai_1
+      - n_40330 WangCai_1
+      - n_40331 WangCai_1
+      - n_40333 WangCai_1
+      - n_40334 WangCai_1
+      - n_40335 WangCai_1
+      - n_40336 WangCai_1
+      - n_40337 WangCai_1
+      - n_40338 WangCai_1
+      - n_40339 WangCai_1
+      - n_40340 WangCai_1
+      - n_40341 WangCai_1
+      - n_40342 WangCai_1
+      - n_40343 WangCai_1
+      - n_40344 WangCai_1
+      - n_40345 WangCai_1
+      - n_40346 WangCai_1
+      - n_40347 WangCai_1
+      - n_40348 WangCai_1
+      - n_40349 WangCai_1
+      - n_40350 WangCai_1
+      - n_40351 WangCai_1
+      - n_40352 WangCai_1
+      - n_40353 WangCai_1
+      - n_40354 WangCai_1
+      - n_40355 WangCai_1
+      - n_40356 WangCai_1
+      - n_40357 WangCai_1
+      - n_40358 WangCai_1
+      - n_40359 WangCai_1
+      - n_40360 WangCai_1
+      - n_40361 WangCai_1
+      - n_40362 WangCai_1
+      - n_40363 WangCai_1
+      - n_40364 WangCai_1
+      - n_40365 WangCai_1
+      - n_40366 WangCai_1
+      - n_40367 WangCai_1
+      - n_40368 WangCai_1
+      - n_40369 WangCai_1
+      - n_40370 WangCai_1
+      - n_40371 WangCai_1
+      - n_40372 WangCai_1
+      - n_40373 WangCai_1
+      - n_40375 WangCai_1
+      - n_40376 WangCai_1
+      - n_40377 WangCai_1
+      - n_40379 WangCai_1
+      - n_40380 WangCai_1
+      - n_40381 WangCai_1
+      - n_40382 WangCai_1
+      - n_40383 WangCai_1
+      - n_40384 WangCai_1
+      - n_40385 WangCai_1
+      - n_40386 WangCai_1
+      - n_40387 WangCai_1
+      - n_40388 WangCai_1
+      - n_40389 WangCai_1
+      - n_40390 WangCai_1
+      - n_40391 WangCai_1
+      - n_40392 WangCai_1
+      - n_40393 WangCai_1
+      - n_40394 WangCai_1
+      - n_40395 WangCai_1
+      - n_40396 WangCai_1
+      - n_40397 WangCai_1
+      - n_40398 WangCai_1
+      - n_40399 WangCai_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -218,26 +826,102 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇨🇳_CN_中国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
+      - n_40300 WangCai_1
+      - n_40301 WangCai_1
+      - n_40302 WangCai_1
+      - n_40303 WangCai_1
+      - n_40304 WangCai_1
+      - n_40305 WangCai_1
+      - n_40306 WangCai_1
+      - n_40307 WangCai_1
+      - n_40308 WangCai_1
+      - n_40309 WangCai_1
+      - n_40310 WangCai_1
+      - n_40311 WangCai_1
+      - n_40312 WangCai_1
+      - n_40313 WangCai_1
+      - n_40314 WangCai_1
+      - n_40315 WangCai_1
+      - n_40317 WangCai_1
+      - n_40318 WangCai_1
+      - n_40319 WangCai_1
+      - n_40320 WangCai_1
+      - n_40321 WangCai_1
+      - n_40322 WangCai_1
+      - n_40323 WangCai_1
+      - n_40324 WangCai_1
+      - n_40325 WangCai_1
+      - n_40326 WangCai_1
+      - n_40327 WangCai_1
+      - n_40328 WangCai_1
+      - n_40329 WangCai_1
+      - n_40330 WangCai_1
+      - n_40331 WangCai_1
+      - n_40333 WangCai_1
+      - n_40334 WangCai_1
+      - n_40335 WangCai_1
+      - n_40336 WangCai_1
+      - n_40337 WangCai_1
+      - n_40338 WangCai_1
+      - n_40339 WangCai_1
+      - n_40340 WangCai_1
+      - n_40341 WangCai_1
+      - n_40342 WangCai_1
+      - n_40343 WangCai_1
+      - n_40344 WangCai_1
+      - n_40345 WangCai_1
+      - n_40346 WangCai_1
+      - n_40347 WangCai_1
+      - n_40348 WangCai_1
+      - n_40349 WangCai_1
+      - n_40350 WangCai_1
+      - n_40351 WangCai_1
+      - n_40352 WangCai_1
+      - n_40353 WangCai_1
+      - n_40354 WangCai_1
+      - n_40355 WangCai_1
+      - n_40356 WangCai_1
+      - n_40357 WangCai_1
+      - n_40358 WangCai_1
+      - n_40359 WangCai_1
+      - n_40360 WangCai_1
+      - n_40361 WangCai_1
+      - n_40362 WangCai_1
+      - n_40363 WangCai_1
+      - n_40364 WangCai_1
+      - n_40365 WangCai_1
+      - n_40366 WangCai_1
+      - n_40367 WangCai_1
+      - n_40368 WangCai_1
+      - n_40369 WangCai_1
+      - n_40370 WangCai_1
+      - n_40371 WangCai_1
+      - n_40372 WangCai_1
+      - n_40373 WangCai_1
+      - n_40375 WangCai_1
+      - n_40376 WangCai_1
+      - n_40377 WangCai_1
+      - n_40379 WangCai_1
+      - n_40380 WangCai_1
+      - n_40381 WangCai_1
+      - n_40382 WangCai_1
+      - n_40383 WangCai_1
+      - n_40384 WangCai_1
+      - n_40385 WangCai_1
+      - n_40386 WangCai_1
+      - n_40387 WangCai_1
+      - n_40388 WangCai_1
+      - n_40389 WangCai_1
+      - n_40390 WangCai_1
+      - n_40391 WangCai_1
+      - n_40392 WangCai_1
+      - n_40393 WangCai_1
+      - n_40394 WangCai_1
+      - n_40395 WangCai_1
+      - n_40396 WangCai_1
+      - n_40397 WangCai_1
+      - n_40398 WangCai_1
+      - n_40399 WangCai_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
