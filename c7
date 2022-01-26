@@ -5,6 +5,37 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: Lv2 BGP 中继 台湾A, server: dghk.rdns.link, port: 32101, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 3664:tDEFYL, obfs-param: f78013664.software-download.microsoft.com, udp: true}
+  - {name: Lv2 BGP 中继 台湾B, server: dghk.rdns.link, port: 32101, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 3664:tDEFYL, obfs-param: f78013664.software-download.microsoft.com, udp: true}
+  - {name: Lv2 BGP 中继 台湾C, server: dghk.rdns.link, port: 32101, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 3664:tDEFYL, obfs-param: f78013664.software-download.microsoft.com, udp: true}
+  - {name: Lv2 BGP 中继 美国A, server: dghk.rdns.link, port: 32102, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 3664:tDEFYL, obfs-param: f78013664.software-download.microsoft.com, udp: true}
+  - {name: Lv2 BGP 中继 香港B, server: dghk.rdns.link, port: 32103, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 3664:tDEFYL, obfs-param: f78013664.software-download.microsoft.com, udp: true}
+  - {name: 俄罗斯A-RU-CM-0.1x, server: 183.232.226.166, port: 39696, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wx.connectSocket, ws-headers: {Host: www.wechat.com}, udp: true}
+  - {name: 日本B-JP-CM-0.4x, server: 183.232.226.165, port: 59075, type: ss, cipher: chacha20-ietf-poly1305, password: YQx0Ht, udp: true}
+  - {name: 马来西亚A-MY-CM-0.2x, server: 183.232.226.168, port: 43007, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wx.connectSocket, ws-headers: {Host: www.wechat.com}, udp: true}
+  - {name: 普通节点-台湾A, server: trojan.linkdns.xyz, port: 40227, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-台湾B, server: trojan.linkdns.xyz, port: 40228, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-日本B, server: trojan.linkdns.xyz, port: 40202, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-日本C, server: trojan.linkdns.xyz, port: 40218, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-日本D, server: trojan.linkdns.xyz, port: 40220, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-美国A, server: trojan.linkdns.xyz, port: 40204, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-美国C, server: trojan.linkdns.xyz, port: 40216, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-香港A, server: trojan.linkdns.xyz, port: 40206, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-香港B, server: trojan.linkdns.xyz, port: 40208, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-香港C, server: trojan.linkdns.xyz, port: 40212, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-香港D, server: trojan.linkdns.xyz, port: 40214, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-台湾A 2, server: trojan.linkdns.xyz, port: 40227, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-台湾B 2, server: trojan.linkdns.xyz, port: 40228, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-日本B 2, server: trojan.linkdns.xyz, port: 40202, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-日本C 2, server: trojan.linkdns.xyz, port: 40218, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-日本D 2, server: trojan.linkdns.xyz, port: 40220, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-美国A 2, server: trojan.linkdns.xyz, port: 40204, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-美国B, server: trojan.linkdns.xyz, port: 40210, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-美国C 2, server: trojan.linkdns.xyz, port: 40216, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-香港A 2, server: trojan.linkdns.xyz, port: 40206, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-香港B 2, server: trojan.linkdns.xyz, port: 40208, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-香港C 2, server: trojan.linkdns.xyz, port: 40212, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 普通节点-香港D 2, server: trojan.linkdns.xyz, port: 40214, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
   - {name: CN-120.232.174.121-1124, server: iepl.naigai1.club, port: 11895, type: ss, cipher: aes-128-gcm, password: b2e37e3b-d651-46d1-81a8-bb61246de20a, udp: true}
   - {name: CN-112.33.32.136-1125, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US-169.197.142.99-1067, server: 169.197.142.99, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
@@ -89,6 +120,37 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Lv2 BGP 中继 台湾A
+      - Lv2 BGP 中继 台湾B
+      - Lv2 BGP 中继 台湾C
+      - Lv2 BGP 中继 美国A
+      - Lv2 BGP 中继 香港B
+      - 俄罗斯A-RU-CM-0.1x
+      - 日本B-JP-CM-0.4x
+      - 马来西亚A-MY-CM-0.2x
+      - 普通节点-台湾A
+      - 普通节点-台湾B
+      - 普通节点-日本B
+      - 普通节点-日本C
+      - 普通节点-日本D
+      - 普通节点-美国A
+      - 普通节点-美国C
+      - 普通节点-香港A
+      - 普通节点-香港B
+      - 普通节点-香港C
+      - 普通节点-香港D
+      - 普通节点-台湾A 2
+      - 普通节点-台湾B 2
+      - 普通节点-日本B 2
+      - 普通节点-日本C 2
+      - 普通节点-日本D 2
+      - 普通节点-美国A 2
+      - 普通节点-美国B
+      - 普通节点-美国C 2
+      - 普通节点-香港A 2
+      - 普通节点-香港B 2
+      - 普通节点-香港C 2
+      - 普通节点-香港D 2
       - CN-120.232.174.121-1124
       - CN-112.33.32.136-1125
       - US-169.197.142.99-1067
@@ -172,6 +234,37 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Lv2 BGP 中继 台湾A
+      - Lv2 BGP 中继 台湾B
+      - Lv2 BGP 中继 台湾C
+      - Lv2 BGP 中继 美国A
+      - Lv2 BGP 中继 香港B
+      - 俄罗斯A-RU-CM-0.1x
+      - 日本B-JP-CM-0.4x
+      - 马来西亚A-MY-CM-0.2x
+      - 普通节点-台湾A
+      - 普通节点-台湾B
+      - 普通节点-日本B
+      - 普通节点-日本C
+      - 普通节点-日本D
+      - 普通节点-美国A
+      - 普通节点-美国C
+      - 普通节点-香港A
+      - 普通节点-香港B
+      - 普通节点-香港C
+      - 普通节点-香港D
+      - 普通节点-台湾A 2
+      - 普通节点-台湾B 2
+      - 普通节点-日本B 2
+      - 普通节点-日本C 2
+      - 普通节点-日本D 2
+      - 普通节点-美国A 2
+      - 普通节点-美国B
+      - 普通节点-美国C 2
+      - 普通节点-香港A 2
+      - 普通节点-香港B 2
+      - 普通节点-香港C 2
+      - 普通节点-香港D 2
       - CN-120.232.174.121-1124
       - CN-112.33.32.136-1125
       - US-169.197.142.99-1067
@@ -256,6 +349,37 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Lv2 BGP 中继 台湾A
+      - Lv2 BGP 中继 台湾B
+      - Lv2 BGP 中继 台湾C
+      - Lv2 BGP 中继 美国A
+      - Lv2 BGP 中继 香港B
+      - 俄罗斯A-RU-CM-0.1x
+      - 日本B-JP-CM-0.4x
+      - 马来西亚A-MY-CM-0.2x
+      - 普通节点-台湾A
+      - 普通节点-台湾B
+      - 普通节点-日本B
+      - 普通节点-日本C
+      - 普通节点-日本D
+      - 普通节点-美国A
+      - 普通节点-美国C
+      - 普通节点-香港A
+      - 普通节点-香港B
+      - 普通节点-香港C
+      - 普通节点-香港D
+      - 普通节点-台湾A 2
+      - 普通节点-台湾B 2
+      - 普通节点-日本B 2
+      - 普通节点-日本C 2
+      - 普通节点-日本D 2
+      - 普通节点-美国A 2
+      - 普通节点-美国B
+      - 普通节点-美国C 2
+      - 普通节点-香港A 2
+      - 普通节点-香港B 2
+      - 普通节点-香港C 2
+      - 普通节点-香港D 2
       - CN-120.232.174.121-1124
       - CN-112.33.32.136-1125
       - US-169.197.142.99-1067
@@ -352,6 +476,37 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Lv2 BGP 中继 台湾A
+      - Lv2 BGP 中继 台湾B
+      - Lv2 BGP 中继 台湾C
+      - Lv2 BGP 中继 美国A
+      - Lv2 BGP 中继 香港B
+      - 俄罗斯A-RU-CM-0.1x
+      - 日本B-JP-CM-0.4x
+      - 马来西亚A-MY-CM-0.2x
+      - 普通节点-台湾A
+      - 普通节点-台湾B
+      - 普通节点-日本B
+      - 普通节点-日本C
+      - 普通节点-日本D
+      - 普通节点-美国A
+      - 普通节点-美国C
+      - 普通节点-香港A
+      - 普通节点-香港B
+      - 普通节点-香港C
+      - 普通节点-香港D
+      - 普通节点-台湾A 2
+      - 普通节点-台湾B 2
+      - 普通节点-日本B 2
+      - 普通节点-日本C 2
+      - 普通节点-日本D 2
+      - 普通节点-美国A 2
+      - 普通节点-美国B
+      - 普通节点-美国C 2
+      - 普通节点-香港A 2
+      - 普通节点-香港B 2
+      - 普通节点-香港C 2
+      - 普通节点-香港D 2
       - CN-120.232.174.121-1124
       - CN-112.33.32.136-1125
       - US-169.197.142.99-1067
@@ -434,12 +589,59 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - Lv2 BGP 中继 台湾A
+      - Lv2 BGP 中继 台湾B
+      - Lv2 BGP 中继 台湾C
+      - Lv2 BGP 中继 香港B
+      - 普通节点-台湾A
+      - 普通节点-台湾B
+      - 普通节点-香港A
+      - 普通节点-香港B
+      - 普通节点-香港C
+      - 普通节点-香港D
+      - 普通节点-台湾A 2
+      - 普通节点-台湾B 2
+      - 普通节点-香港A 2
+      - 普通节点-香港B 2
+      - 普通节点-香港C 2
+      - 普通节点-香港D 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Lv2 BGP 中继 台湾A
+      - Lv2 BGP 中继 台湾B
+      - Lv2 BGP 中继 台湾C
+      - Lv2 BGP 中继 美国A
+      - Lv2 BGP 中继 香港B
+      - 俄罗斯A-RU-CM-0.1x
+      - 日本B-JP-CM-0.4x
+      - 马来西亚A-MY-CM-0.2x
+      - 普通节点-台湾A
+      - 普通节点-台湾B
+      - 普通节点-日本B
+      - 普通节点-日本C
+      - 普通节点-日本D
+      - 普通节点-美国A
+      - 普通节点-美国C
+      - 普通节点-香港A
+      - 普通节点-香港B
+      - 普通节点-香港C
+      - 普通节点-香港D
+      - 普通节点-台湾A 2
+      - 普通节点-台湾B 2
+      - 普通节点-日本B 2
+      - 普通节点-日本C 2
+      - 普通节点-日本D 2
+      - 普通节点-美国A 2
+      - 普通节点-美国B
+      - 普通节点-美国C 2
+      - 普通节点-香港A 2
+      - 普通节点-香港B 2
+      - 普通节点-香港C 2
+      - 普通节点-香港D 2
       - CN-120.232.174.121-1124
       - CN-112.33.32.136-1125
       - US-169.197.142.99-1067
@@ -523,6 +725,37 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Lv2 BGP 中继 台湾A
+      - Lv2 BGP 中继 台湾B
+      - Lv2 BGP 中继 台湾C
+      - Lv2 BGP 中继 美国A
+      - Lv2 BGP 中继 香港B
+      - 俄罗斯A-RU-CM-0.1x
+      - 日本B-JP-CM-0.4x
+      - 马来西亚A-MY-CM-0.2x
+      - 普通节点-台湾A
+      - 普通节点-台湾B
+      - 普通节点-日本B
+      - 普通节点-日本C
+      - 普通节点-日本D
+      - 普通节点-美国A
+      - 普通节点-美国C
+      - 普通节点-香港A
+      - 普通节点-香港B
+      - 普通节点-香港C
+      - 普通节点-香港D
+      - 普通节点-台湾A 2
+      - 普通节点-台湾B 2
+      - 普通节点-日本B 2
+      - 普通节点-日本C 2
+      - 普通节点-日本D 2
+      - 普通节点-美国A 2
+      - 普通节点-美国B
+      - 普通节点-美国C 2
+      - 普通节点-香港A 2
+      - 普通节点-香港B 2
+      - 普通节点-香港C 2
+      - 普通节点-香港D 2
       - CN-120.232.174.121-1124
       - CN-112.33.32.136-1125
       - US-169.197.142.99-1067
@@ -607,6 +840,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Lv2 BGP 中继 台湾A
+      - Lv2 BGP 中继 台湾B
+      - Lv2 BGP 中继 台湾C
+      - Lv2 BGP 中继 美国A
+      - Lv2 BGP 中继 香港B
+      - 俄罗斯A-RU-CM-0.1x
+      - 日本B-JP-CM-0.4x
+      - 马来西亚A-MY-CM-0.2x
+      - 普通节点-台湾A
+      - 普通节点-台湾B
+      - 普通节点-日本B
+      - 普通节点-日本C
+      - 普通节点-日本D
+      - 普通节点-美国A
+      - 普通节点-美国C
+      - 普通节点-香港A
+      - 普通节点-香港B
+      - 普通节点-香港C
+      - 普通节点-香港D
+      - 普通节点-台湾A 2
+      - 普通节点-台湾B 2
+      - 普通节点-日本B 2
+      - 普通节点-日本C 2
+      - 普通节点-日本D 2
+      - 普通节点-美国A 2
+      - 普通节点-美国B
+      - 普通节点-美国C 2
+      - 普通节点-香港A 2
+      - 普通节点-香港B 2
+      - 普通节点-香港C 2
+      - 普通节点-香港D 2
       - CN-120.232.174.121-1124
       - CN-112.33.32.136-1125
       - US-169.197.142.99-1067
@@ -700,6 +964,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Lv2 BGP 中继 台湾A
+      - Lv2 BGP 中继 台湾B
+      - Lv2 BGP 中继 台湾C
+      - Lv2 BGP 中继 美国A
+      - Lv2 BGP 中继 香港B
+      - 俄罗斯A-RU-CM-0.1x
+      - 日本B-JP-CM-0.4x
+      - 马来西亚A-MY-CM-0.2x
+      - 普通节点-台湾A
+      - 普通节点-台湾B
+      - 普通节点-日本B
+      - 普通节点-日本C
+      - 普通节点-日本D
+      - 普通节点-美国A
+      - 普通节点-美国C
+      - 普通节点-香港A
+      - 普通节点-香港B
+      - 普通节点-香港C
+      - 普通节点-香港D
+      - 普通节点-台湾A 2
+      - 普通节点-台湾B 2
+      - 普通节点-日本B 2
+      - 普通节点-日本C 2
+      - 普通节点-日本D 2
+      - 普通节点-美国A 2
+      - 普通节点-美国B
+      - 普通节点-美国C 2
+      - 普通节点-香港A 2
+      - 普通节点-香港B 2
+      - 普通节点-香港C 2
+      - 普通节点-香港D 2
       - CN-120.232.174.121-1124
       - CN-112.33.32.136-1125
       - US-169.197.142.99-1067
