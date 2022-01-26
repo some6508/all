@@ -5,46 +5,723 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇮🇳_IN_印度_1","server":"192.46.209.227","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"YouTube-由零开始-东京_1","server":"112.33.32.136","port":10005,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube-由零开始-东京
+    2_2","server":"112.33.32.136","port":10001,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube-由零开始-东京
+    3_3","server":"112.33.32.136","port":10001,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-俄罗斯_4","server":"v9.ssrsub.com","port":8443,"type":"vmess","uuid":"51273235-0995-455e-96e4-83b1811b4cab","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v9.ssrsub.com"}}
+  - {"name":"YouTube-由零开始-俄罗斯_5","server":"v5.ssrsub.com","port":8443,"type":"vmess","uuid":"974aeac3-c27c-4e20-86e4-03f526faaccd","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v5.ssrsub.com"}}
+  - {"name":"YouTube由零开始-俄罗斯
+    2_6","server":"v2.ssrsub.com","port":8443,"type":"vmess","uuid":"974aeac3-c27c-4e20-86e4-03f526faaccd","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v2.ssrsub.com"}}
+  - {"name":"YouTube-由零开始-俄罗斯
+    2_7","server":"v2.ssrsub.com","port":8443,"type":"vmess","uuid":"51273235-0995-455e-96e4-83b1811b4cab","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v2.ssrsub.com"}}
+  - {"name":"YouTube由零开始-俄罗斯
+    3_8","server":"v3.ssrsub.com","port":443,"type":"vmess","uuid":"974aeac3-c27c-4e20-86e4-03f526faaccd","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v3.ssrsub.com"}}
+  - {"name":"YouTube-由零开始-俄罗斯
+    3_9","server":"v5.ssrsub.com","port":8443,"type":"vmess","uuid":"51273235-0995-455e-96e4-83b1811b4cab","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v5.ssrsub.com"}}
+  - {"name":"YouTube由零开始-俄罗斯
+    4_10","server":"v2.ssrsub.com","port":8443,"type":"vmess","uuid":"974aeac3-c27c-4e20-86e4-03f526faaccd","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v2.ssrsub.com"}}
+  - {"name":"YouTube由零开始-俄罗斯
+    5_11","server":"v5.ssrsub.com","port":8443,"type":"vmess","uuid":"51273235-0995-455e-96e4-83b1811b4cab","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v5.ssrsub.com"}}
+  - {"name":"YouTube由零开始-俄罗斯
+    6_12","server":"v9.ssrsub.com","port":8443,"type":"vmess","uuid":"974aeac3-c27c-4e20-86e4-03f526faaccd","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v9.ssrsub.com"}}
+  - {"name":"YouTube由零开始-加拿大
+    16_13","server":"canada-vancouver.mah3Hoet.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"canada-vancouver.mah3Hoet.com"}}
+  - {"name":"YouTube-由零开始-加拿大
+    19_14","server":"1222mnl.fans8.xyz","port":80,"type":"vmess","uuid":"5c41411a-750a-37e8-966f-11aea49227c4","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"youtube-aweikeji"}}
+  - {"name":"YouTube-由零开始-美国_15","server":"198.41.212.2","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
+  - {"name":"YouTube由零开始-美国
+    100_16","server":"172.67.68.58","port":443,"type":"vmess","uuid":"f2f578e4-692d-40b5-af99-9f1dd712eb32","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/shuier","host":"xc1.v2rie.pp.ua"}}
+  - {"name":"YouTube由零开始-美国
+    101_17","server":"usa-sanfrancisco.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-sanfrancisco.lvuft.com"}}
+  - {"name":"YouTube由零开始-美国
+    103_18","server":"112.33.32.136","port":10004,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-美国
+    105_19","server":"v1.ssrsub.com","port":8443,"type":"vmess","uuid":"51273235-0995-455e-96e4-83b1811b4cab","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v1.ssrsub.com"}}
+  - {"name":"YouTube-由零开始-美国
+    15_20","server":"192.96.204.250","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-washington.lvuft.com"}}
+  - {"name":"YouTube-由零开始-美国
+    17_21","server":"198.41.212.19","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
+  - {"name":"YouTube由零开始-美国
+    19_22","server":"inapus.mooncloud.bike","port":8443,"type":"vmess","uuid":"997f97bc-1732-4a1c-98c8-3edb8349040f","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","host":"inapus1.mooncloud.bike"}}
+  - {"name":"YouTube由零开始-美国
+    23_23","server":"usa-sanfrancisco.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-sanfrancisco.lvuft.com"}}
+  - {"name":"YouTube-由零开始-美国
+    26_24","server":"usa-washington.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-washington.lvuft.com"}}
+  - {"name":"YouTube由零开始-美国
+    29_25","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-dallas.lvuft.com"}}
+  - {"name":"YouTube由零开始-美国
+    34_26","server":"104.24.223.86","port":2053,"type":"vmess","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","host":"us.fovi.tk"}}
+  - {"name":"YouTube由零开始-美国
+    35_27","server":"hk1.4kxray.xyz","port":4848,"type":"vmess","uuid":"efef2a3a-ce10-328b-b65c-eeae36eb9345","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/v2ray","host":"hk1.4kxray.xyz"}}
+  - {"name":"YouTube-由零开始-美国
+    39_28","server":"v1.ssrsub.com","port":8443,"type":"vmess","uuid":"974aeac3-c27c-4e20-86e4-03f526faaccd","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v1.ssrsub.com"}}
+  - {"name":"YouTube由零开始-美国
+    43_29","server":"usa-washington.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-washington.lvuft.com"}}
+  - {"name":"YouTube-由零开始-美国
+    47_30","server":"104.23.119.57","port":443,"type":"vmess","uuid":"7be43971-52f1-48af-9036-454a94b4723a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws/?ed=2048","host":"download.china666.ml"}}
+  - {"name":"YouTube-由零开始-美国
+    54_31","server":"112.33.32.136","port":10004,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-美国
+    56_32","server":"www.ltzs.buzz","port":443,"type":"vmess","uuid":"d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/bb2b34a1","host":"www.ltzs.buzz"}}
+  - {"name":"YouTube-由零开始-美国
+    58_33","server":"112.33.32.136","port":10004,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube-由零开始-美国
+    59_34","server":"42.193.48.64","port":50002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-美国
+    62_35","server":"42.157.8.162","port":50002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-美国
+    66_36","server":"api.ssfree.ru","port":443,"type":"vmess","uuid":"afe4fa18-7d2e-11ec-9396-000017022008","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/getweather","host":"api.ssfree.ru"}}
+  - {"name":"YouTube由零开始-美国
+    70_37","server":"v8.ssrsub.com","port":443,"type":"vmess","uuid":"974aeac3-c27c-4e20-86e4-03f526faaccd","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v8.ssrsub.com"}}
+  - {"name":"YouTube由零开始-美国
+    88_38","server":"112.33.32.136","port":10004,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":1,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube-由零开始-美国
+    9_39","server":"209.58.139.41","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-sanfrancisco.lvuft.com"}}
+  - {"name":"YouTube由零开始-美国
+    92_40","server":"198.41.212.18","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
+  - {"name":"YouTube-由零开始-日本
+    2_41","server":"112.33.32.136","port":10005,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-日本
+    6_42","server":"109.wgong.xyz","port":52209,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-日本
+    7_43","server":"127.wgong.xyz","port":52227,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-日本
+    8_44","server":"81.wgong.xyz","port":52281,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-台湾_45","server":"101.89.109.30","port":10015,"type":"vmess","uuid":"b82814c6-2b6a-4c15-ae33-a0cc681ee5fb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-台湾
+    11_46","server":"112.33.32.136","port":10003,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-台湾
+    12_47","server":"42.157.8.162","port":50002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-台湾
+    14_48","server":"42.157.8.162","port":50002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-台湾
+    2_49","server":"101.89.109.30","port":10015,"type":"vmess","uuid":"b82814c6-2b6a-4c15-ae33-a0cc681ee5fb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-台湾
+    3_50","server":"shcu01.iplc188.com","port":10004,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-台湾
+    4_51","server":"shcu01.iplc188.com","port":10004,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":1,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-台湾
+    5_52","server":"112.64.69.187","port":10004,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":1,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-台湾
+    6_53","server":"shcu01.iplc188.com","port":10004,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-台湾
+    7_54","server":"112.33.32.136","port":10003,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":1,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-台湾
+    8_55","server":"v2ray.ifuckgfw.ga","port":8443,"type":"vmess","uuid":"8426f358-7514-11ec-a376-52ac0014346a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/nBaG3RmV/","host":"v2ray.ifuckgfw.ga"}}
+  - {"name":"YouTube由零开始-台湾
+    9_56","server":"v2ray.ifuckgfw.ga","port":8443,"type":"vmess","uuid":"81fa1ea2-7514-11ec-a376-52ac0014346a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/nBaG3RmV/","host":"v2ray.ifuckgfw.ga"}}
+  - {"name":"YouTube由零开始-香港_57","server":"101.89.109.30","port":10015,"type":"vmess","uuid":"b82814c6-2b6a-4c15-ae33-a0cc681ee5fb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube-由零开始-香港_58","server":"112.33.32.136","port":10001,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":1,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-香港
+    2_59","server":"101.89.109.30","port":10011,"type":"vmess","uuid":"b82814c6-2b6a-4c15-ae33-a0cc681ee5fb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube-由零开始-香港
+    2_60","server":"112.33.32.136","port":10001,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":1,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-香港
+    3_61","server":"101.89.109.30","port":10015,"type":"vmess","uuid":"b82814c6-2b6a-4c15-ae33-a0cc681ee5fb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube-由零开始-香港
+    3_62","server":"112.33.32.136","port":10001,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-香港
+    4_63","server":"101.89.109.30","port":10011,"type":"vmess","uuid":"b82814c6-2b6a-4c15-ae33-a0cc681ee5fb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube-由零开始-香港
+    4_64","server":"112.33.32.136","port":10001,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-香港
+    5_65","server":"101.89.109.30","port":10011,"type":"vmess","uuid":"b82814c6-2b6a-4c15-ae33-a0cc681ee5fb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube-由零开始-香港
+    5_66","server":"112.33.32.136","port":10001,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-香港
+    6_67","server":"101.89.109.30","port":10015,"type":"vmess","uuid":"b82814c6-2b6a-4c15-ae33-a0cc681ee5fb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube-由零开始-香港
+    6_68","server":"112.33.32.136","port":10001,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-香港
+    7_69","server":"101.89.109.30","port":10011,"type":"vmess","uuid":"b82814c6-2b6a-4c15-ae33-a0cc681ee5fb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube-由零开始-香港
+    7_70","server":"112.33.32.136","port":10001,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube-由零开始-香港
+    8_71","server":"112.33.32.136","port":10001,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":1,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-新加坡_72","server":"135.wgong.xyz","port":52335,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube-由零开始-新加坡_73","server":"ycgyg.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"ycgyg.com"}}
+  - {"name":"YouTube由零开始-新加坡
+    10_74","server":"131.wgong.xyz","port":52331,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-新加坡
+    2_75","server":"99.wgong.xyz","port":52299,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube-由零开始-新加坡
+    2_76","server":"136.wgong.xyz","port":52436,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-新加坡
+    4_77","server":"125.wgong.xyz","port":52225,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-新加坡
+    5_78","server":"100.wgong.xyz","port":11220,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-新加坡
+    6_79","server":"103.wgong.xyz","port":52203,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-新加坡
+    7_80","server":"82.wgong.xyz","port":52282,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-新加坡
+    8_81","server":"ycgyg.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"ycgyg.com"}}
+  - {"name":"YouTube由零开始-新加坡
+    9_82","server":"96.wgong.xyz","port":52296,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"YouTube由零开始-匈牙利_83","server":"185.252.223.204","port":443,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/261411191011","host":"www.16675463.xyz"}}
+  - {"name":"YouTube-由零开始-匈牙利_84","server":"185.252.223.204","port":443,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/243535322906","host":"www.16675463.xyz"}}
+  - {"name":"YouTube由零开始-印度
+    2_85","server":"129.227.201.234","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"aicoo6du.com"}}
+  - {"name":"YouTube由零开始-印尼_86","server":"198.41.212.5","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
+  - {"name":"YouTube由零开始-印尼
+    2_87","server":"198.41.212.1","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇮🇳_IN_印度_1
+      - YouTube-由零开始-东京_1
+      - YouTube-由零开始-东京 2_2
+      - YouTube-由零开始-东京 3_3
+      - YouTube由零开始-俄罗斯_4
+      - YouTube-由零开始-俄罗斯_5
+      - YouTube由零开始-俄罗斯 2_6
+      - YouTube-由零开始-俄罗斯 2_7
+      - YouTube由零开始-俄罗斯 3_8
+      - YouTube-由零开始-俄罗斯 3_9
+      - YouTube由零开始-俄罗斯 4_10
+      - YouTube由零开始-俄罗斯 5_11
+      - YouTube由零开始-俄罗斯 6_12
+      - YouTube由零开始-加拿大 16_13
+      - YouTube-由零开始-加拿大 19_14
+      - YouTube-由零开始-美国_15
+      - YouTube由零开始-美国 100_16
+      - YouTube由零开始-美国 101_17
+      - YouTube由零开始-美国 103_18
+      - YouTube由零开始-美国 105_19
+      - YouTube-由零开始-美国 15_20
+      - YouTube-由零开始-美国 17_21
+      - YouTube由零开始-美国 19_22
+      - YouTube由零开始-美国 23_23
+      - YouTube-由零开始-美国 26_24
+      - YouTube由零开始-美国 29_25
+      - YouTube由零开始-美国 34_26
+      - YouTube由零开始-美国 35_27
+      - YouTube-由零开始-美国 39_28
+      - YouTube由零开始-美国 43_29
+      - YouTube-由零开始-美国 47_30
+      - YouTube-由零开始-美国 54_31
+      - YouTube由零开始-美国 56_32
+      - YouTube-由零开始-美国 58_33
+      - YouTube-由零开始-美国 59_34
+      - YouTube由零开始-美国 62_35
+      - YouTube由零开始-美国 66_36
+      - YouTube由零开始-美国 70_37
+      - YouTube由零开始-美国 88_38
+      - YouTube-由零开始-美国 9_39
+      - YouTube由零开始-美国 92_40
+      - YouTube-由零开始-日本 2_41
+      - YouTube由零开始-日本 6_42
+      - YouTube由零开始-日本 7_43
+      - YouTube由零开始-日本 8_44
+      - YouTube由零开始-台湾_45
+      - YouTube由零开始-台湾 11_46
+      - YouTube由零开始-台湾 12_47
+      - YouTube由零开始-台湾 14_48
+      - YouTube由零开始-台湾 2_49
+      - YouTube由零开始-台湾 3_50
+      - YouTube由零开始-台湾 4_51
+      - YouTube由零开始-台湾 5_52
+      - YouTube由零开始-台湾 6_53
+      - YouTube由零开始-台湾 7_54
+      - YouTube由零开始-台湾 8_55
+      - YouTube由零开始-台湾 9_56
+      - YouTube由零开始-香港_57
+      - YouTube-由零开始-香港_58
+      - YouTube由零开始-香港 2_59
+      - YouTube-由零开始-香港 2_60
+      - YouTube由零开始-香港 3_61
+      - YouTube-由零开始-香港 3_62
+      - YouTube由零开始-香港 4_63
+      - YouTube-由零开始-香港 4_64
+      - YouTube由零开始-香港 5_65
+      - YouTube-由零开始-香港 5_66
+      - YouTube由零开始-香港 6_67
+      - YouTube-由零开始-香港 6_68
+      - YouTube由零开始-香港 7_69
+      - YouTube-由零开始-香港 7_70
+      - YouTube-由零开始-香港 8_71
+      - YouTube由零开始-新加坡_72
+      - YouTube-由零开始-新加坡_73
+      - YouTube由零开始-新加坡 10_74
+      - YouTube由零开始-新加坡 2_75
+      - YouTube-由零开始-新加坡 2_76
+      - YouTube由零开始-新加坡 4_77
+      - YouTube由零开始-新加坡 5_78
+      - YouTube由零开始-新加坡 6_79
+      - YouTube由零开始-新加坡 7_80
+      - YouTube由零开始-新加坡 8_81
+      - YouTube由零开始-新加坡 9_82
+      - YouTube由零开始-匈牙利_83
+      - YouTube-由零开始-匈牙利_84
+      - YouTube由零开始-印度 2_85
+      - YouTube由零开始-印尼_86
+      - YouTube由零开始-印尼 2_87
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇮🇳_IN_印度_1
+      - YouTube-由零开始-东京_1
+      - YouTube-由零开始-东京 2_2
+      - YouTube-由零开始-东京 3_3
+      - YouTube由零开始-俄罗斯_4
+      - YouTube-由零开始-俄罗斯_5
+      - YouTube由零开始-俄罗斯 2_6
+      - YouTube-由零开始-俄罗斯 2_7
+      - YouTube由零开始-俄罗斯 3_8
+      - YouTube-由零开始-俄罗斯 3_9
+      - YouTube由零开始-俄罗斯 4_10
+      - YouTube由零开始-俄罗斯 5_11
+      - YouTube由零开始-俄罗斯 6_12
+      - YouTube由零开始-加拿大 16_13
+      - YouTube-由零开始-加拿大 19_14
+      - YouTube-由零开始-美国_15
+      - YouTube由零开始-美国 100_16
+      - YouTube由零开始-美国 101_17
+      - YouTube由零开始-美国 103_18
+      - YouTube由零开始-美国 105_19
+      - YouTube-由零开始-美国 15_20
+      - YouTube-由零开始-美国 17_21
+      - YouTube由零开始-美国 19_22
+      - YouTube由零开始-美国 23_23
+      - YouTube-由零开始-美国 26_24
+      - YouTube由零开始-美国 29_25
+      - YouTube由零开始-美国 34_26
+      - YouTube由零开始-美国 35_27
+      - YouTube-由零开始-美国 39_28
+      - YouTube由零开始-美国 43_29
+      - YouTube-由零开始-美国 47_30
+      - YouTube-由零开始-美国 54_31
+      - YouTube由零开始-美国 56_32
+      - YouTube-由零开始-美国 58_33
+      - YouTube-由零开始-美国 59_34
+      - YouTube由零开始-美国 62_35
+      - YouTube由零开始-美国 66_36
+      - YouTube由零开始-美国 70_37
+      - YouTube由零开始-美国 88_38
+      - YouTube-由零开始-美国 9_39
+      - YouTube由零开始-美国 92_40
+      - YouTube-由零开始-日本 2_41
+      - YouTube由零开始-日本 6_42
+      - YouTube由零开始-日本 7_43
+      - YouTube由零开始-日本 8_44
+      - YouTube由零开始-台湾_45
+      - YouTube由零开始-台湾 11_46
+      - YouTube由零开始-台湾 12_47
+      - YouTube由零开始-台湾 14_48
+      - YouTube由零开始-台湾 2_49
+      - YouTube由零开始-台湾 3_50
+      - YouTube由零开始-台湾 4_51
+      - YouTube由零开始-台湾 5_52
+      - YouTube由零开始-台湾 6_53
+      - YouTube由零开始-台湾 7_54
+      - YouTube由零开始-台湾 8_55
+      - YouTube由零开始-台湾 9_56
+      - YouTube由零开始-香港_57
+      - YouTube-由零开始-香港_58
+      - YouTube由零开始-香港 2_59
+      - YouTube-由零开始-香港 2_60
+      - YouTube由零开始-香港 3_61
+      - YouTube-由零开始-香港 3_62
+      - YouTube由零开始-香港 4_63
+      - YouTube-由零开始-香港 4_64
+      - YouTube由零开始-香港 5_65
+      - YouTube-由零开始-香港 5_66
+      - YouTube由零开始-香港 6_67
+      - YouTube-由零开始-香港 6_68
+      - YouTube由零开始-香港 7_69
+      - YouTube-由零开始-香港 7_70
+      - YouTube-由零开始-香港 8_71
+      - YouTube由零开始-新加坡_72
+      - YouTube-由零开始-新加坡_73
+      - YouTube由零开始-新加坡 10_74
+      - YouTube由零开始-新加坡 2_75
+      - YouTube-由零开始-新加坡 2_76
+      - YouTube由零开始-新加坡 4_77
+      - YouTube由零开始-新加坡 5_78
+      - YouTube由零开始-新加坡 6_79
+      - YouTube由零开始-新加坡 7_80
+      - YouTube由零开始-新加坡 8_81
+      - YouTube由零开始-新加坡 9_82
+      - YouTube由零开始-匈牙利_83
+      - YouTube-由零开始-匈牙利_84
+      - YouTube由零开始-印度 2_85
+      - YouTube由零开始-印尼_86
+      - YouTube由零开始-印尼 2_87
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇮🇳_IN_印度_1
+      - YouTube-由零开始-东京_1
+      - YouTube-由零开始-东京 2_2
+      - YouTube-由零开始-东京 3_3
+      - YouTube由零开始-俄罗斯_4
+      - YouTube-由零开始-俄罗斯_5
+      - YouTube由零开始-俄罗斯 2_6
+      - YouTube-由零开始-俄罗斯 2_7
+      - YouTube由零开始-俄罗斯 3_8
+      - YouTube-由零开始-俄罗斯 3_9
+      - YouTube由零开始-俄罗斯 4_10
+      - YouTube由零开始-俄罗斯 5_11
+      - YouTube由零开始-俄罗斯 6_12
+      - YouTube由零开始-加拿大 16_13
+      - YouTube-由零开始-加拿大 19_14
+      - YouTube-由零开始-美国_15
+      - YouTube由零开始-美国 100_16
+      - YouTube由零开始-美国 101_17
+      - YouTube由零开始-美国 103_18
+      - YouTube由零开始-美国 105_19
+      - YouTube-由零开始-美国 15_20
+      - YouTube-由零开始-美国 17_21
+      - YouTube由零开始-美国 19_22
+      - YouTube由零开始-美国 23_23
+      - YouTube-由零开始-美国 26_24
+      - YouTube由零开始-美国 29_25
+      - YouTube由零开始-美国 34_26
+      - YouTube由零开始-美国 35_27
+      - YouTube-由零开始-美国 39_28
+      - YouTube由零开始-美国 43_29
+      - YouTube-由零开始-美国 47_30
+      - YouTube-由零开始-美国 54_31
+      - YouTube由零开始-美国 56_32
+      - YouTube-由零开始-美国 58_33
+      - YouTube-由零开始-美国 59_34
+      - YouTube由零开始-美国 62_35
+      - YouTube由零开始-美国 66_36
+      - YouTube由零开始-美国 70_37
+      - YouTube由零开始-美国 88_38
+      - YouTube-由零开始-美国 9_39
+      - YouTube由零开始-美国 92_40
+      - YouTube-由零开始-日本 2_41
+      - YouTube由零开始-日本 6_42
+      - YouTube由零开始-日本 7_43
+      - YouTube由零开始-日本 8_44
+      - YouTube由零开始-台湾_45
+      - YouTube由零开始-台湾 11_46
+      - YouTube由零开始-台湾 12_47
+      - YouTube由零开始-台湾 14_48
+      - YouTube由零开始-台湾 2_49
+      - YouTube由零开始-台湾 3_50
+      - YouTube由零开始-台湾 4_51
+      - YouTube由零开始-台湾 5_52
+      - YouTube由零开始-台湾 6_53
+      - YouTube由零开始-台湾 7_54
+      - YouTube由零开始-台湾 8_55
+      - YouTube由零开始-台湾 9_56
+      - YouTube由零开始-香港_57
+      - YouTube-由零开始-香港_58
+      - YouTube由零开始-香港 2_59
+      - YouTube-由零开始-香港 2_60
+      - YouTube由零开始-香港 3_61
+      - YouTube-由零开始-香港 3_62
+      - YouTube由零开始-香港 4_63
+      - YouTube-由零开始-香港 4_64
+      - YouTube由零开始-香港 5_65
+      - YouTube-由零开始-香港 5_66
+      - YouTube由零开始-香港 6_67
+      - YouTube-由零开始-香港 6_68
+      - YouTube由零开始-香港 7_69
+      - YouTube-由零开始-香港 7_70
+      - YouTube-由零开始-香港 8_71
+      - YouTube由零开始-新加坡_72
+      - YouTube-由零开始-新加坡_73
+      - YouTube由零开始-新加坡 10_74
+      - YouTube由零开始-新加坡 2_75
+      - YouTube-由零开始-新加坡 2_76
+      - YouTube由零开始-新加坡 4_77
+      - YouTube由零开始-新加坡 5_78
+      - YouTube由零开始-新加坡 6_79
+      - YouTube由零开始-新加坡 7_80
+      - YouTube由零开始-新加坡 8_81
+      - YouTube由零开始-新加坡 9_82
+      - YouTube由零开始-匈牙利_83
+      - YouTube-由零开始-匈牙利_84
+      - YouTube由零开始-印度 2_85
+      - YouTube由零开始-印尼_86
+      - YouTube由零开始-印尼 2_87
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇳_IN_印度_1
+      - YouTube-由零开始-东京_1
+      - YouTube-由零开始-东京 2_2
+      - YouTube-由零开始-东京 3_3
+      - YouTube由零开始-俄罗斯_4
+      - YouTube-由零开始-俄罗斯_5
+      - YouTube由零开始-俄罗斯 2_6
+      - YouTube-由零开始-俄罗斯 2_7
+      - YouTube由零开始-俄罗斯 3_8
+      - YouTube-由零开始-俄罗斯 3_9
+      - YouTube由零开始-俄罗斯 4_10
+      - YouTube由零开始-俄罗斯 5_11
+      - YouTube由零开始-俄罗斯 6_12
+      - YouTube由零开始-加拿大 16_13
+      - YouTube-由零开始-加拿大 19_14
+      - YouTube-由零开始-美国_15
+      - YouTube由零开始-美国 100_16
+      - YouTube由零开始-美国 101_17
+      - YouTube由零开始-美国 103_18
+      - YouTube由零开始-美国 105_19
+      - YouTube-由零开始-美国 15_20
+      - YouTube-由零开始-美国 17_21
+      - YouTube由零开始-美国 19_22
+      - YouTube由零开始-美国 23_23
+      - YouTube-由零开始-美国 26_24
+      - YouTube由零开始-美国 29_25
+      - YouTube由零开始-美国 34_26
+      - YouTube由零开始-美国 35_27
+      - YouTube-由零开始-美国 39_28
+      - YouTube由零开始-美国 43_29
+      - YouTube-由零开始-美国 47_30
+      - YouTube-由零开始-美国 54_31
+      - YouTube由零开始-美国 56_32
+      - YouTube-由零开始-美国 58_33
+      - YouTube-由零开始-美国 59_34
+      - YouTube由零开始-美国 62_35
+      - YouTube由零开始-美国 66_36
+      - YouTube由零开始-美国 70_37
+      - YouTube由零开始-美国 88_38
+      - YouTube-由零开始-美国 9_39
+      - YouTube由零开始-美国 92_40
+      - YouTube-由零开始-日本 2_41
+      - YouTube由零开始-日本 6_42
+      - YouTube由零开始-日本 7_43
+      - YouTube由零开始-日本 8_44
+      - YouTube由零开始-台湾_45
+      - YouTube由零开始-台湾 11_46
+      - YouTube由零开始-台湾 12_47
+      - YouTube由零开始-台湾 14_48
+      - YouTube由零开始-台湾 2_49
+      - YouTube由零开始-台湾 3_50
+      - YouTube由零开始-台湾 4_51
+      - YouTube由零开始-台湾 5_52
+      - YouTube由零开始-台湾 6_53
+      - YouTube由零开始-台湾 7_54
+      - YouTube由零开始-台湾 8_55
+      - YouTube由零开始-台湾 9_56
+      - YouTube由零开始-香港_57
+      - YouTube-由零开始-香港_58
+      - YouTube由零开始-香港 2_59
+      - YouTube-由零开始-香港 2_60
+      - YouTube由零开始-香港 3_61
+      - YouTube-由零开始-香港 3_62
+      - YouTube由零开始-香港 4_63
+      - YouTube-由零开始-香港 4_64
+      - YouTube由零开始-香港 5_65
+      - YouTube-由零开始-香港 5_66
+      - YouTube由零开始-香港 6_67
+      - YouTube-由零开始-香港 6_68
+      - YouTube由零开始-香港 7_69
+      - YouTube-由零开始-香港 7_70
+      - YouTube-由零开始-香港 8_71
+      - YouTube由零开始-新加坡_72
+      - YouTube-由零开始-新加坡_73
+      - YouTube由零开始-新加坡 10_74
+      - YouTube由零开始-新加坡 2_75
+      - YouTube-由零开始-新加坡 2_76
+      - YouTube由零开始-新加坡 4_77
+      - YouTube由零开始-新加坡 5_78
+      - YouTube由零开始-新加坡 6_79
+      - YouTube由零开始-新加坡 7_80
+      - YouTube由零开始-新加坡 8_81
+      - YouTube由零开始-新加坡 9_82
+      - YouTube由零开始-匈牙利_83
+      - YouTube-由零开始-匈牙利_84
+      - YouTube由零开始-印度 2_85
+      - YouTube由零开始-印尼_86
+      - YouTube由零开始-印尼 2_87
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇮🇳_IN_印度_1
+      - YouTube-由零开始-东京_1
+      - YouTube-由零开始-东京 2_2
+      - YouTube-由零开始-东京 3_3
+      - YouTube由零开始-俄罗斯_4
+      - YouTube-由零开始-俄罗斯_5
+      - YouTube由零开始-俄罗斯 2_6
+      - YouTube-由零开始-俄罗斯 2_7
+      - YouTube由零开始-俄罗斯 3_8
+      - YouTube-由零开始-俄罗斯 3_9
+      - YouTube由零开始-俄罗斯 4_10
+      - YouTube由零开始-俄罗斯 5_11
+      - YouTube由零开始-俄罗斯 6_12
+      - YouTube由零开始-加拿大 16_13
+      - YouTube-由零开始-加拿大 19_14
+      - YouTube-由零开始-美国_15
+      - YouTube由零开始-美国 100_16
+      - YouTube由零开始-美国 101_17
+      - YouTube由零开始-美国 103_18
+      - YouTube由零开始-美国 105_19
+      - YouTube-由零开始-美国 15_20
+      - YouTube-由零开始-美国 17_21
+      - YouTube由零开始-美国 19_22
+      - YouTube由零开始-美国 23_23
+      - YouTube-由零开始-美国 26_24
+      - YouTube由零开始-美国 29_25
+      - YouTube由零开始-美国 34_26
+      - YouTube由零开始-美国 35_27
+      - YouTube-由零开始-美国 39_28
+      - YouTube由零开始-美国 43_29
+      - YouTube-由零开始-美国 47_30
+      - YouTube-由零开始-美国 54_31
+      - YouTube由零开始-美国 56_32
+      - YouTube-由零开始-美国 58_33
+      - YouTube-由零开始-美国 59_34
+      - YouTube由零开始-美国 62_35
+      - YouTube由零开始-美国 66_36
+      - YouTube由零开始-美国 70_37
+      - YouTube由零开始-美国 88_38
+      - YouTube-由零开始-美国 9_39
+      - YouTube由零开始-美国 92_40
+      - YouTube-由零开始-日本 2_41
+      - YouTube由零开始-日本 6_42
+      - YouTube由零开始-日本 7_43
+      - YouTube由零开始-日本 8_44
+      - YouTube由零开始-台湾_45
+      - YouTube由零开始-台湾 11_46
+      - YouTube由零开始-台湾 12_47
+      - YouTube由零开始-台湾 14_48
+      - YouTube由零开始-台湾 2_49
+      - YouTube由零开始-台湾 3_50
+      - YouTube由零开始-台湾 4_51
+      - YouTube由零开始-台湾 5_52
+      - YouTube由零开始-台湾 6_53
+      - YouTube由零开始-台湾 7_54
+      - YouTube由零开始-台湾 8_55
+      - YouTube由零开始-台湾 9_56
+      - YouTube由零开始-香港_57
+      - YouTube-由零开始-香港_58
+      - YouTube由零开始-香港 2_59
+      - YouTube-由零开始-香港 2_60
+      - YouTube由零开始-香港 3_61
+      - YouTube-由零开始-香港 3_62
+      - YouTube由零开始-香港 4_63
+      - YouTube-由零开始-香港 4_64
+      - YouTube由零开始-香港 5_65
+      - YouTube-由零开始-香港 5_66
+      - YouTube由零开始-香港 6_67
+      - YouTube-由零开始-香港 6_68
+      - YouTube由零开始-香港 7_69
+      - YouTube-由零开始-香港 7_70
+      - YouTube-由零开始-香港 8_71
+      - YouTube由零开始-新加坡_72
+      - YouTube-由零开始-新加坡_73
+      - YouTube由零开始-新加坡 10_74
+      - YouTube由零开始-新加坡 2_75
+      - YouTube-由零开始-新加坡 2_76
+      - YouTube由零开始-新加坡 4_77
+      - YouTube由零开始-新加坡 5_78
+      - YouTube由零开始-新加坡 6_79
+      - YouTube由零开始-新加坡 7_80
+      - YouTube由零开始-新加坡 8_81
+      - YouTube由零开始-新加坡 9_82
+      - YouTube由零开始-匈牙利_83
+      - YouTube-由零开始-匈牙利_84
+      - YouTube由零开始-印度 2_85
+      - YouTube由零开始-印尼_86
+      - YouTube由零开始-印尼 2_87
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇳_IN_印度_1
+      - YouTube-由零开始-东京_1
+      - YouTube-由零开始-东京 2_2
+      - YouTube-由零开始-东京 3_3
+      - YouTube由零开始-俄罗斯_4
+      - YouTube-由零开始-俄罗斯_5
+      - YouTube由零开始-俄罗斯 2_6
+      - YouTube-由零开始-俄罗斯 2_7
+      - YouTube由零开始-俄罗斯 3_8
+      - YouTube-由零开始-俄罗斯 3_9
+      - YouTube由零开始-俄罗斯 4_10
+      - YouTube由零开始-俄罗斯 5_11
+      - YouTube由零开始-俄罗斯 6_12
+      - YouTube由零开始-加拿大 16_13
+      - YouTube-由零开始-加拿大 19_14
+      - YouTube-由零开始-美国_15
+      - YouTube由零开始-美国 100_16
+      - YouTube由零开始-美国 101_17
+      - YouTube由零开始-美国 103_18
+      - YouTube由零开始-美国 105_19
+      - YouTube-由零开始-美国 15_20
+      - YouTube-由零开始-美国 17_21
+      - YouTube由零开始-美国 19_22
+      - YouTube由零开始-美国 23_23
+      - YouTube-由零开始-美国 26_24
+      - YouTube由零开始-美国 29_25
+      - YouTube由零开始-美国 34_26
+      - YouTube由零开始-美国 35_27
+      - YouTube-由零开始-美国 39_28
+      - YouTube由零开始-美国 43_29
+      - YouTube-由零开始-美国 47_30
+      - YouTube-由零开始-美国 54_31
+      - YouTube由零开始-美国 56_32
+      - YouTube-由零开始-美国 58_33
+      - YouTube-由零开始-美国 59_34
+      - YouTube由零开始-美国 62_35
+      - YouTube由零开始-美国 66_36
+      - YouTube由零开始-美国 70_37
+      - YouTube由零开始-美国 88_38
+      - YouTube-由零开始-美国 9_39
+      - YouTube由零开始-美国 92_40
+      - YouTube-由零开始-日本 2_41
+      - YouTube由零开始-日本 6_42
+      - YouTube由零开始-日本 7_43
+      - YouTube由零开始-日本 8_44
+      - YouTube由零开始-台湾_45
+      - YouTube由零开始-台湾 11_46
+      - YouTube由零开始-台湾 12_47
+      - YouTube由零开始-台湾 14_48
+      - YouTube由零开始-台湾 2_49
+      - YouTube由零开始-台湾 3_50
+      - YouTube由零开始-台湾 4_51
+      - YouTube由零开始-台湾 5_52
+      - YouTube由零开始-台湾 6_53
+      - YouTube由零开始-台湾 7_54
+      - YouTube由零开始-台湾 8_55
+      - YouTube由零开始-台湾 9_56
+      - YouTube由零开始-香港_57
+      - YouTube-由零开始-香港_58
+      - YouTube由零开始-香港 2_59
+      - YouTube-由零开始-香港 2_60
+      - YouTube由零开始-香港 3_61
+      - YouTube-由零开始-香港 3_62
+      - YouTube由零开始-香港 4_63
+      - YouTube-由零开始-香港 4_64
+      - YouTube由零开始-香港 5_65
+      - YouTube-由零开始-香港 5_66
+      - YouTube由零开始-香港 6_67
+      - YouTube-由零开始-香港 6_68
+      - YouTube由零开始-香港 7_69
+      - YouTube-由零开始-香港 7_70
+      - YouTube-由零开始-香港 8_71
+      - YouTube由零开始-新加坡_72
+      - YouTube-由零开始-新加坡_73
+      - YouTube由零开始-新加坡 10_74
+      - YouTube由零开始-新加坡 2_75
+      - YouTube-由零开始-新加坡 2_76
+      - YouTube由零开始-新加坡 4_77
+      - YouTube由零开始-新加坡 5_78
+      - YouTube由零开始-新加坡 6_79
+      - YouTube由零开始-新加坡 7_80
+      - YouTube由零开始-新加坡 8_81
+      - YouTube由零开始-新加坡 9_82
+      - YouTube由零开始-匈牙利_83
+      - YouTube-由零开始-匈牙利_84
+      - YouTube由零开始-印度 2_85
+      - YouTube由零开始-印尼_86
+      - YouTube由零开始-印尼 2_87
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +744,93 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇳_IN_印度_1
+      - YouTube-由零开始-东京_1
+      - YouTube-由零开始-东京 2_2
+      - YouTube-由零开始-东京 3_3
+      - YouTube由零开始-俄罗斯_4
+      - YouTube-由零开始-俄罗斯_5
+      - YouTube由零开始-俄罗斯 2_6
+      - YouTube-由零开始-俄罗斯 2_7
+      - YouTube由零开始-俄罗斯 3_8
+      - YouTube-由零开始-俄罗斯 3_9
+      - YouTube由零开始-俄罗斯 4_10
+      - YouTube由零开始-俄罗斯 5_11
+      - YouTube由零开始-俄罗斯 6_12
+      - YouTube由零开始-加拿大 16_13
+      - YouTube-由零开始-加拿大 19_14
+      - YouTube-由零开始-美国_15
+      - YouTube由零开始-美国 100_16
+      - YouTube由零开始-美国 101_17
+      - YouTube由零开始-美国 103_18
+      - YouTube由零开始-美国 105_19
+      - YouTube-由零开始-美国 15_20
+      - YouTube-由零开始-美国 17_21
+      - YouTube由零开始-美国 19_22
+      - YouTube由零开始-美国 23_23
+      - YouTube-由零开始-美国 26_24
+      - YouTube由零开始-美国 29_25
+      - YouTube由零开始-美国 34_26
+      - YouTube由零开始-美国 35_27
+      - YouTube-由零开始-美国 39_28
+      - YouTube由零开始-美国 43_29
+      - YouTube-由零开始-美国 47_30
+      - YouTube-由零开始-美国 54_31
+      - YouTube由零开始-美国 56_32
+      - YouTube-由零开始-美国 58_33
+      - YouTube-由零开始-美国 59_34
+      - YouTube由零开始-美国 62_35
+      - YouTube由零开始-美国 66_36
+      - YouTube由零开始-美国 70_37
+      - YouTube由零开始-美国 88_38
+      - YouTube-由零开始-美国 9_39
+      - YouTube由零开始-美国 92_40
+      - YouTube-由零开始-日本 2_41
+      - YouTube由零开始-日本 6_42
+      - YouTube由零开始-日本 7_43
+      - YouTube由零开始-日本 8_44
+      - YouTube由零开始-台湾_45
+      - YouTube由零开始-台湾 11_46
+      - YouTube由零开始-台湾 12_47
+      - YouTube由零开始-台湾 14_48
+      - YouTube由零开始-台湾 2_49
+      - YouTube由零开始-台湾 3_50
+      - YouTube由零开始-台湾 4_51
+      - YouTube由零开始-台湾 5_52
+      - YouTube由零开始-台湾 6_53
+      - YouTube由零开始-台湾 7_54
+      - YouTube由零开始-台湾 8_55
+      - YouTube由零开始-台湾 9_56
+      - YouTube由零开始-香港_57
+      - YouTube-由零开始-香港_58
+      - YouTube由零开始-香港 2_59
+      - YouTube-由零开始-香港 2_60
+      - YouTube由零开始-香港 3_61
+      - YouTube-由零开始-香港 3_62
+      - YouTube由零开始-香港 4_63
+      - YouTube-由零开始-香港 4_64
+      - YouTube由零开始-香港 5_65
+      - YouTube-由零开始-香港 5_66
+      - YouTube由零开始-香港 6_67
+      - YouTube-由零开始-香港 6_68
+      - YouTube由零开始-香港 7_69
+      - YouTube-由零开始-香港 7_70
+      - YouTube-由零开始-香港 8_71
+      - YouTube由零开始-新加坡_72
+      - YouTube-由零开始-新加坡_73
+      - YouTube由零开始-新加坡 10_74
+      - YouTube由零开始-新加坡 2_75
+      - YouTube-由零开始-新加坡 2_76
+      - YouTube由零开始-新加坡 4_77
+      - YouTube由零开始-新加坡 5_78
+      - YouTube由零开始-新加坡 6_79
+      - YouTube由零开始-新加坡 7_80
+      - YouTube由零开始-新加坡 8_81
+      - YouTube由零开始-新加坡 9_82
+      - YouTube由零开始-匈牙利_83
+      - YouTube-由零开始-匈牙利_84
+      - YouTube由零开始-印度 2_85
+      - YouTube由零开始-印尼_86
+      - YouTube由零开始-印尼 2_87
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
