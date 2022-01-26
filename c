@@ -5,812 +5,964 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'n_40300 WangCai_1', server: 106.52.33.67, port: 40300, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40301 WangCai_1', server: 106.52.33.67, port: 40301, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40302 WangCai_1', server: 106.52.33.67, port: 40302, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40303 WangCai_1', server: 106.52.33.67, port: 40303, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40304 WangCai_1', server: 106.52.33.67, port: 40304, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40305 WangCai_1', server: 106.52.33.67, port: 40305, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40306 WangCai_1', server: 106.52.33.67, port: 40306, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40307 WangCai_1', server: 106.52.33.67, port: 40307, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40308 WangCai_1', server: 106.52.33.67, port: 40308, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40309 WangCai_1', server: 106.52.33.67, port: 40309, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40310 WangCai_1', server: 106.52.33.67, port: 40310, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40311 WangCai_1', server: 106.52.33.67, port: 40311, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40312 WangCai_1', server: 106.52.33.67, port: 40312, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40313 WangCai_1', server: 106.52.33.67, port: 40313, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40314 WangCai_1', server: 106.52.33.67, port: 40314, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40315 WangCai_1', server: 106.52.33.67, port: 40315, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40317 WangCai_1', server: 106.52.33.67, port: 40317, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40318 WangCai_1', server: 106.52.33.67, port: 40318, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40319 WangCai_1', server: 106.52.33.67, port: 40319, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40320 WangCai_1', server: 106.52.33.67, port: 40320, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40321 WangCai_1', server: 106.52.33.67, port: 40321, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40322 WangCai_1', server: 106.52.33.67, port: 40322, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40323 WangCai_1', server: 106.52.33.67, port: 40323, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40324 WangCai_1', server: 106.52.33.67, port: 40324, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40325 WangCai_1', server: 106.52.33.67, port: 40325, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40326 WangCai_1', server: 106.52.33.67, port: 40326, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40327 WangCai_1', server: 106.52.33.67, port: 40327, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40328 WangCai_1', server: 106.52.33.67, port: 40328, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40329 WangCai_1', server: 106.52.33.67, port: 40329, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40330 WangCai_1', server: 106.52.33.67, port: 40330, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40331 WangCai_1', server: 106.52.33.67, port: 40331, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40333 WangCai_1', server: 106.52.33.67, port: 40333, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40334 WangCai_1', server: 106.52.33.67, port: 40334, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40335 WangCai_1', server: 106.52.33.67, port: 40335, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40336 WangCai_1', server: 106.52.33.67, port: 40336, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40337 WangCai_1', server: 106.52.33.67, port: 40337, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40338 WangCai_1', server: 106.52.33.67, port: 40338, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40339 WangCai_1', server: 106.52.33.67, port: 40339, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40340 WangCai_1', server: 106.52.33.67, port: 40340, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40341 WangCai_1', server: 106.52.33.67, port: 40341, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40342 WangCai_1', server: 106.52.33.67, port: 40342, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40343 WangCai_1', server: 106.52.33.67, port: 40343, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40344 WangCai_1', server: 106.52.33.67, port: 40344, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40345 WangCai_1', server: 106.52.33.67, port: 40345, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40346 WangCai_1', server: 106.52.33.67, port: 40346, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40347 WangCai_1', server: 106.52.33.67, port: 40347, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40348 WangCai_1', server: 106.52.33.67, port: 40348, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40349 WangCai_1', server: 106.52.33.67, port: 40349, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40350 WangCai_1', server: 106.52.33.67, port: 40350, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40351 WangCai_1', server: 106.52.33.67, port: 40351, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40352 WangCai_1', server: 106.52.33.67, port: 40352, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40353 WangCai_1', server: 106.52.33.67, port: 40353, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40354 WangCai_1', server: 106.52.33.67, port: 40354, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40355 WangCai_1', server: 106.52.33.67, port: 40355, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40356 WangCai_1', server: 106.52.33.67, port: 40356, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40357 WangCai_1', server: 106.52.33.67, port: 40357, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40358 WangCai_1', server: 106.52.33.67, port: 40358, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40359 WangCai_1', server: 106.52.33.67, port: 40359, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40360 WangCai_1', server: 106.52.33.67, port: 40360, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40361 WangCai_1', server: 106.52.33.67, port: 40361, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40362 WangCai_1', server: 106.52.33.67, port: 40362, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40363 WangCai_1', server: 106.52.33.67, port: 40363, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40364 WangCai_1', server: 106.52.33.67, port: 40364, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40365 WangCai_1', server: 106.52.33.67, port: 40365, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40366 WangCai_1', server: 106.52.33.67, port: 40366, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40367 WangCai_1', server: 106.52.33.67, port: 40367, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40368 WangCai_1', server: 106.52.33.67, port: 40368, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40369 WangCai_1', server: 106.52.33.67, port: 40369, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40370 WangCai_1', server: 106.52.33.67, port: 40370, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40371 WangCai_1', server: 106.52.33.67, port: 40371, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40372 WangCai_1', server: 106.52.33.67, port: 40372, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40373 WangCai_1', server: 106.52.33.67, port: 40373, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40375 WangCai_1', server: 106.52.33.67, port: 40375, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40376 WangCai_1', server: 106.52.33.67, port: 40376, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40377 WangCai_1', server: 106.52.33.67, port: 40377, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40379 WangCai_1', server: 106.52.33.67, port: 40379, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40380 WangCai_1', server: 106.52.33.67, port: 40380, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40381 WangCai_1', server: 106.52.33.67, port: 40381, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40382 WangCai_1', server: 106.52.33.67, port: 40382, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40383 WangCai_1', server: 106.52.33.67, port: 40383, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40384 WangCai_1', server: 106.52.33.67, port: 40384, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40385 WangCai_1', server: 106.52.33.67, port: 40385, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40386 WangCai_1', server: 106.52.33.67, port: 40386, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40387 WangCai_1', server: 106.52.33.67, port: 40387, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40388 WangCai_1', server: 106.52.33.67, port: 40388, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40389 WangCai_1', server: 106.52.33.67, port: 40389, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40390 WangCai_1', server: 106.52.33.67, port: 40390, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40391 WangCai_1', server: 106.52.33.67, port: 40391, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40392 WangCai_1', server: 106.52.33.67, port: 40392, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40393 WangCai_1', server: 106.52.33.67, port: 40393, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40394 WangCai_1', server: 106.52.33.67, port: 40394, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40395 WangCai_1', server: 106.52.33.67, port: 40395, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40396 WangCai_1', server: 106.52.33.67, port: 40396, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40397 WangCai_1', server: 106.52.33.67, port: 40397, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40398 WangCai_1', server: 106.52.33.67, port: 40398, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
-  - {name: 'n_40399 WangCai_1', server: 106.52.33.67, port: 40399, type: ssr, password: "QazEdcTgb159@$*", cipher: aes-128-cfb, protocol: origin, obfs: plain}
+  - {name: '🇺🇸_US_美国_1', server: 38.114.114.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_2', server: 38.114.114.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_3', server: 38.75.137.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_4', server: 38.75.137.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_5', server: 38.114.114.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_6', server: 38.114.114.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_7', server: 38.75.137.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_8', server: 38.75.137.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_9', server: 38.75.137.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_10', server: 38.75.137.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_11', server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_12', server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_13', server: 38.68.134.191, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇳_CN_中国_14', server: 43.154.157.216, port: 60151, type: ss, cipher: chacha20-ietf-poly1305, password: dunkpzGG9FM9}
+  - {name: '🇺🇸_US_美国_15', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_16', server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_17', server: 38.75.137.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_美国_18', server: 38.68.134.37, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_19', server: 38.68.135.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_20', server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
+  - {name: '🇺🇸_US_美国_21', server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_22', server: 134.195.196.150, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇨🇦_CA_加拿大_23', server: 134.195.196.150, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_24', server: 134.195.196.150, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇨🇦_CA_加拿大_25', server: 134.195.196.150, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_26', server: 134.195.196.150, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦_CA_加拿大_27', server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_28', server: 38.91.100.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_29', server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_30', server: 134.195.196.150, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇨🇦_CA_加拿大_31', server: 134.195.196.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇨🇦_CA_加拿大_32', server: 134.195.196.200, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦_CA_加拿大_33', server: 134.195.196.217, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_34', server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_35', server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_36', server: 134.195.196.128, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦_CA_加拿大_37', server: 134.195.196.128, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦_CA_加拿大_38', server: 134.195.196.217, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇨🇦_CA_加拿大_39', server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国_40', server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_美国_41', server: 38.68.134.190, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇨🇦_CA_加拿大_42', server: 134.195.196.214, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇨🇦_CA_加拿大_43', server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_44', server: 134.195.196.128, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸_US_美国_45', server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦_CA_加拿大_46', server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_47', server: 134.195.196.214, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇯🇵_JP_日本_48', server: 172.105.232.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_49', server: 134.195.196.217, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_50', server: 134.195.196.150, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇨🇦_CA_加拿大_51', server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_52', server: 134.195.196.214, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇨🇭_CH_瑞士_53', server: 37.120.137.82, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: '🇫🇷_FR_法国_54', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: '🇨🇦_CA_加拿大_55', server: 134.195.196.217, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸_US_美国_56', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_57', server: 134.195.196.214, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇨🇦_CA_加拿大_58', server: 134.195.196.214, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦_CA_加拿大_59', server: 134.195.196.214, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_60', server: 38.107.226.238, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇬🇧_GB_英国_61', server: 212.38.189.174, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇬🇧_GB_英国_62', server: 212.38.189.174, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇳🇱_NL_荷兰_63', server: 37.218.245.122, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fPn40BnheGrB}
+  - {name: '🇧🇬_BG_保加利亚_64', server: 217.138.221.42, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: '🇧🇬_BG_保加利亚_65', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: '🇯🇵_JP_日本_66', server: 85.208.110.2, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_GB_英国_67', server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB_英国_68', server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇬🇧_GB_英国_69', server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_GB_英国_70', server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB_英国_71', server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇷🇺_RU_俄罗斯联邦_72', server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
+  - {name: '🇬🇧_GB_英国_73', server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇫🇷_FR_法国_74', server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇬🇧_GB_英国_75', server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇯🇵_JP_日本_76', server: 85.208.110.2, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇯🇵_JP_日本_77', server: 85.208.108.106, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇬🇧_GB_英国_78', server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇬🇧_GB_英国_79', server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB_英国_80', server: 172.99.190.139, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB_英国_81', server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB_英国_82', server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB_英国_83', server: 172.99.190.139, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇬🇧_GB_英国_84', server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_GB_英国_85', server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇬🇧_GB_英国_86', server: 212.38.189.174, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇬🇧_GB_英国_87', server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_GB_英国_88', server: 172.99.190.186, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇫🇷_FR_法国_89', server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇷_FR_法国_90', server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇫🇷_FR_法国_91', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇸🇬_SG_新加坡_92', server: 139.162.24.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇮🇹_IT_意大利_93', server: 217.138.197.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: '🇯🇵_JP_日本_94', server: 85.208.110.2, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇦🇺_AU_澳大利亚_95', server: 172.105.180.227, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇧🇻_BV_布维岛_96', server: 46.29.219.246, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇦🇪_AE_阿联酋_97', server: 217.138.193.42, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc}
+  - {name: '🇯🇵_JP_日本_98', server: 172.105.232.147, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇰🇷_KR_韩国_99', server: 158.247.215.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇧🇻_BV_布维岛_100', server: 46.29.219.246, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇧🇻_BV_布维岛_101', server: 46.29.219.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇰🇷_KR_韩国_102', server: 158.247.224.123, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇮🇩_ID_印度尼西亚_103', server: 45.133.181.58, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: '🇹🇼_TW_台湾_104', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: '🇦🇺_AU_澳大利亚_105', server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇧🇷_BR_巴西_106', server: 177.54.152.89, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2GWsqE7Gr3nRMuuQZfFa}
+  - {name: '🇰🇷_KR_韩国_107', server: 158.247.206.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇰🇷_KR_韩国_108', server: 158.247.224.123, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇦🇺_AU_澳大利亚_109', server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇮🇳_IN_印度_110', server: 192.46.209.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇮🇳_IN_印度_111', server: 172.104.207.231, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇮🇳_IN_印度_112', server: 172.104.207.231, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇮🇳_IN_印度_113', server: 172.104.207.231, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇯🇵_JP_日本_114', server: 85.208.108.134, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇰🇷_KR_韩国_115', server: 158.247.206.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - n_40300 WangCai_1
-      - n_40301 WangCai_1
-      - n_40302 WangCai_1
-      - n_40303 WangCai_1
-      - n_40304 WangCai_1
-      - n_40305 WangCai_1
-      - n_40306 WangCai_1
-      - n_40307 WangCai_1
-      - n_40308 WangCai_1
-      - n_40309 WangCai_1
-      - n_40310 WangCai_1
-      - n_40311 WangCai_1
-      - n_40312 WangCai_1
-      - n_40313 WangCai_1
-      - n_40314 WangCai_1
-      - n_40315 WangCai_1
-      - n_40317 WangCai_1
-      - n_40318 WangCai_1
-      - n_40319 WangCai_1
-      - n_40320 WangCai_1
-      - n_40321 WangCai_1
-      - n_40322 WangCai_1
-      - n_40323 WangCai_1
-      - n_40324 WangCai_1
-      - n_40325 WangCai_1
-      - n_40326 WangCai_1
-      - n_40327 WangCai_1
-      - n_40328 WangCai_1
-      - n_40329 WangCai_1
-      - n_40330 WangCai_1
-      - n_40331 WangCai_1
-      - n_40333 WangCai_1
-      - n_40334 WangCai_1
-      - n_40335 WangCai_1
-      - n_40336 WangCai_1
-      - n_40337 WangCai_1
-      - n_40338 WangCai_1
-      - n_40339 WangCai_1
-      - n_40340 WangCai_1
-      - n_40341 WangCai_1
-      - n_40342 WangCai_1
-      - n_40343 WangCai_1
-      - n_40344 WangCai_1
-      - n_40345 WangCai_1
-      - n_40346 WangCai_1
-      - n_40347 WangCai_1
-      - n_40348 WangCai_1
-      - n_40349 WangCai_1
-      - n_40350 WangCai_1
-      - n_40351 WangCai_1
-      - n_40352 WangCai_1
-      - n_40353 WangCai_1
-      - n_40354 WangCai_1
-      - n_40355 WangCai_1
-      - n_40356 WangCai_1
-      - n_40357 WangCai_1
-      - n_40358 WangCai_1
-      - n_40359 WangCai_1
-      - n_40360 WangCai_1
-      - n_40361 WangCai_1
-      - n_40362 WangCai_1
-      - n_40363 WangCai_1
-      - n_40364 WangCai_1
-      - n_40365 WangCai_1
-      - n_40366 WangCai_1
-      - n_40367 WangCai_1
-      - n_40368 WangCai_1
-      - n_40369 WangCai_1
-      - n_40370 WangCai_1
-      - n_40371 WangCai_1
-      - n_40372 WangCai_1
-      - n_40373 WangCai_1
-      - n_40375 WangCai_1
-      - n_40376 WangCai_1
-      - n_40377 WangCai_1
-      - n_40379 WangCai_1
-      - n_40380 WangCai_1
-      - n_40381 WangCai_1
-      - n_40382 WangCai_1
-      - n_40383 WangCai_1
-      - n_40384 WangCai_1
-      - n_40385 WangCai_1
-      - n_40386 WangCai_1
-      - n_40387 WangCai_1
-      - n_40388 WangCai_1
-      - n_40389 WangCai_1
-      - n_40390 WangCai_1
-      - n_40391 WangCai_1
-      - n_40392 WangCai_1
-      - n_40393 WangCai_1
-      - n_40394 WangCai_1
-      - n_40395 WangCai_1
-      - n_40396 WangCai_1
-      - n_40397 WangCai_1
-      - n_40398 WangCai_1
-      - n_40399 WangCai_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇨🇳_CN_中国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇨🇦_CA_加拿大_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇨🇦_CA_加拿大_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - 🇨🇦_CA_加拿大_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇨🇦_CA_加拿大_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇨🇦_CA_加拿大_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇨🇦_CA_加拿大_46
+      - 🇨🇦_CA_加拿大_47
+      - 🇯🇵_JP_日本_48
+      - 🇨🇦_CA_加拿大_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇭_CH_瑞士_53
+      - 🇫🇷_FR_法国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇺🇸_US_美国_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇬🇧_GB_英国_61
+      - 🇬🇧_GB_英国_62
+      - 🇳🇱_NL_荷兰_63
+      - 🇧🇬_BG_保加利亚_64
+      - 🇧🇬_BG_保加利亚_65
+      - 🇯🇵_JP_日本_66
+      - 🇬🇧_GB_英国_67
+      - 🇬🇧_GB_英国_68
+      - 🇬🇧_GB_英国_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇷🇺_RU_俄罗斯联邦_72
+      - 🇬🇧_GB_英国_73
+      - 🇫🇷_FR_法国_74
+      - 🇬🇧_GB_英国_75
+      - 🇯🇵_JP_日本_76
+      - 🇯🇵_JP_日本_77
+      - 🇬🇧_GB_英国_78
+      - 🇬🇧_GB_英国_79
+      - 🇬🇧_GB_英国_80
+      - 🇬🇧_GB_英国_81
+      - 🇬🇧_GB_英国_82
+      - 🇬🇧_GB_英国_83
+      - 🇬🇧_GB_英国_84
+      - 🇬🇧_GB_英国_85
+      - 🇬🇧_GB_英国_86
+      - 🇬🇧_GB_英国_87
+      - 🇬🇧_GB_英国_88
+      - 🇫🇷_FR_法国_89
+      - 🇫🇷_FR_法国_90
+      - 🇫🇷_FR_法国_91
+      - 🇸🇬_SG_新加坡_92
+      - 🇮🇹_IT_意大利_93
+      - 🇯🇵_JP_日本_94
+      - 🇦🇺_AU_澳大利亚_95
+      - 🇧🇻_BV_布维岛_96
+      - 🇦🇪_AE_阿联酋_97
+      - 🇯🇵_JP_日本_98
+      - 🇰🇷_KR_韩国_99
+      - 🇧🇻_BV_布维岛_100
+      - 🇧🇻_BV_布维岛_101
+      - 🇰🇷_KR_韩国_102
+      - 🇮🇩_ID_印度尼西亚_103
+      - 🇹🇼_TW_台湾_104
+      - 🇦🇺_AU_澳大利亚_105
+      - 🇧🇷_BR_巴西_106
+      - 🇰🇷_KR_韩国_107
+      - 🇰🇷_KR_韩国_108
+      - 🇦🇺_AU_澳大利亚_109
+      - 🇮🇳_IN_印度_110
+      - 🇮🇳_IN_印度_111
+      - 🇮🇳_IN_印度_112
+      - 🇮🇳_IN_印度_113
+      - 🇯🇵_JP_日本_114
+      - 🇰🇷_KR_韩国_115
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - n_40300 WangCai_1
-      - n_40301 WangCai_1
-      - n_40302 WangCai_1
-      - n_40303 WangCai_1
-      - n_40304 WangCai_1
-      - n_40305 WangCai_1
-      - n_40306 WangCai_1
-      - n_40307 WangCai_1
-      - n_40308 WangCai_1
-      - n_40309 WangCai_1
-      - n_40310 WangCai_1
-      - n_40311 WangCai_1
-      - n_40312 WangCai_1
-      - n_40313 WangCai_1
-      - n_40314 WangCai_1
-      - n_40315 WangCai_1
-      - n_40317 WangCai_1
-      - n_40318 WangCai_1
-      - n_40319 WangCai_1
-      - n_40320 WangCai_1
-      - n_40321 WangCai_1
-      - n_40322 WangCai_1
-      - n_40323 WangCai_1
-      - n_40324 WangCai_1
-      - n_40325 WangCai_1
-      - n_40326 WangCai_1
-      - n_40327 WangCai_1
-      - n_40328 WangCai_1
-      - n_40329 WangCai_1
-      - n_40330 WangCai_1
-      - n_40331 WangCai_1
-      - n_40333 WangCai_1
-      - n_40334 WangCai_1
-      - n_40335 WangCai_1
-      - n_40336 WangCai_1
-      - n_40337 WangCai_1
-      - n_40338 WangCai_1
-      - n_40339 WangCai_1
-      - n_40340 WangCai_1
-      - n_40341 WangCai_1
-      - n_40342 WangCai_1
-      - n_40343 WangCai_1
-      - n_40344 WangCai_1
-      - n_40345 WangCai_1
-      - n_40346 WangCai_1
-      - n_40347 WangCai_1
-      - n_40348 WangCai_1
-      - n_40349 WangCai_1
-      - n_40350 WangCai_1
-      - n_40351 WangCai_1
-      - n_40352 WangCai_1
-      - n_40353 WangCai_1
-      - n_40354 WangCai_1
-      - n_40355 WangCai_1
-      - n_40356 WangCai_1
-      - n_40357 WangCai_1
-      - n_40358 WangCai_1
-      - n_40359 WangCai_1
-      - n_40360 WangCai_1
-      - n_40361 WangCai_1
-      - n_40362 WangCai_1
-      - n_40363 WangCai_1
-      - n_40364 WangCai_1
-      - n_40365 WangCai_1
-      - n_40366 WangCai_1
-      - n_40367 WangCai_1
-      - n_40368 WangCai_1
-      - n_40369 WangCai_1
-      - n_40370 WangCai_1
-      - n_40371 WangCai_1
-      - n_40372 WangCai_1
-      - n_40373 WangCai_1
-      - n_40375 WangCai_1
-      - n_40376 WangCai_1
-      - n_40377 WangCai_1
-      - n_40379 WangCai_1
-      - n_40380 WangCai_1
-      - n_40381 WangCai_1
-      - n_40382 WangCai_1
-      - n_40383 WangCai_1
-      - n_40384 WangCai_1
-      - n_40385 WangCai_1
-      - n_40386 WangCai_1
-      - n_40387 WangCai_1
-      - n_40388 WangCai_1
-      - n_40389 WangCai_1
-      - n_40390 WangCai_1
-      - n_40391 WangCai_1
-      - n_40392 WangCai_1
-      - n_40393 WangCai_1
-      - n_40394 WangCai_1
-      - n_40395 WangCai_1
-      - n_40396 WangCai_1
-      - n_40397 WangCai_1
-      - n_40398 WangCai_1
-      - n_40399 WangCai_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇨🇳_CN_中国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇨🇦_CA_加拿大_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇨🇦_CA_加拿大_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - 🇨🇦_CA_加拿大_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇨🇦_CA_加拿大_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇨🇦_CA_加拿大_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇨🇦_CA_加拿大_46
+      - 🇨🇦_CA_加拿大_47
+      - 🇯🇵_JP_日本_48
+      - 🇨🇦_CA_加拿大_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇭_CH_瑞士_53
+      - 🇫🇷_FR_法国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇺🇸_US_美国_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇬🇧_GB_英国_61
+      - 🇬🇧_GB_英国_62
+      - 🇳🇱_NL_荷兰_63
+      - 🇧🇬_BG_保加利亚_64
+      - 🇧🇬_BG_保加利亚_65
+      - 🇯🇵_JP_日本_66
+      - 🇬🇧_GB_英国_67
+      - 🇬🇧_GB_英国_68
+      - 🇬🇧_GB_英国_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇷🇺_RU_俄罗斯联邦_72
+      - 🇬🇧_GB_英国_73
+      - 🇫🇷_FR_法国_74
+      - 🇬🇧_GB_英国_75
+      - 🇯🇵_JP_日本_76
+      - 🇯🇵_JP_日本_77
+      - 🇬🇧_GB_英国_78
+      - 🇬🇧_GB_英国_79
+      - 🇬🇧_GB_英国_80
+      - 🇬🇧_GB_英国_81
+      - 🇬🇧_GB_英国_82
+      - 🇬🇧_GB_英国_83
+      - 🇬🇧_GB_英国_84
+      - 🇬🇧_GB_英国_85
+      - 🇬🇧_GB_英国_86
+      - 🇬🇧_GB_英国_87
+      - 🇬🇧_GB_英国_88
+      - 🇫🇷_FR_法国_89
+      - 🇫🇷_FR_法国_90
+      - 🇫🇷_FR_法国_91
+      - 🇸🇬_SG_新加坡_92
+      - 🇮🇹_IT_意大利_93
+      - 🇯🇵_JP_日本_94
+      - 🇦🇺_AU_澳大利亚_95
+      - 🇧🇻_BV_布维岛_96
+      - 🇦🇪_AE_阿联酋_97
+      - 🇯🇵_JP_日本_98
+      - 🇰🇷_KR_韩国_99
+      - 🇧🇻_BV_布维岛_100
+      - 🇧🇻_BV_布维岛_101
+      - 🇰🇷_KR_韩国_102
+      - 🇮🇩_ID_印度尼西亚_103
+      - 🇹🇼_TW_台湾_104
+      - 🇦🇺_AU_澳大利亚_105
+      - 🇧🇷_BR_巴西_106
+      - 🇰🇷_KR_韩国_107
+      - 🇰🇷_KR_韩国_108
+      - 🇦🇺_AU_澳大利亚_109
+      - 🇮🇳_IN_印度_110
+      - 🇮🇳_IN_印度_111
+      - 🇮🇳_IN_印度_112
+      - 🇮🇳_IN_印度_113
+      - 🇯🇵_JP_日本_114
+      - 🇰🇷_KR_韩国_115
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - n_40300 WangCai_1
-      - n_40301 WangCai_1
-      - n_40302 WangCai_1
-      - n_40303 WangCai_1
-      - n_40304 WangCai_1
-      - n_40305 WangCai_1
-      - n_40306 WangCai_1
-      - n_40307 WangCai_1
-      - n_40308 WangCai_1
-      - n_40309 WangCai_1
-      - n_40310 WangCai_1
-      - n_40311 WangCai_1
-      - n_40312 WangCai_1
-      - n_40313 WangCai_1
-      - n_40314 WangCai_1
-      - n_40315 WangCai_1
-      - n_40317 WangCai_1
-      - n_40318 WangCai_1
-      - n_40319 WangCai_1
-      - n_40320 WangCai_1
-      - n_40321 WangCai_1
-      - n_40322 WangCai_1
-      - n_40323 WangCai_1
-      - n_40324 WangCai_1
-      - n_40325 WangCai_1
-      - n_40326 WangCai_1
-      - n_40327 WangCai_1
-      - n_40328 WangCai_1
-      - n_40329 WangCai_1
-      - n_40330 WangCai_1
-      - n_40331 WangCai_1
-      - n_40333 WangCai_1
-      - n_40334 WangCai_1
-      - n_40335 WangCai_1
-      - n_40336 WangCai_1
-      - n_40337 WangCai_1
-      - n_40338 WangCai_1
-      - n_40339 WangCai_1
-      - n_40340 WangCai_1
-      - n_40341 WangCai_1
-      - n_40342 WangCai_1
-      - n_40343 WangCai_1
-      - n_40344 WangCai_1
-      - n_40345 WangCai_1
-      - n_40346 WangCai_1
-      - n_40347 WangCai_1
-      - n_40348 WangCai_1
-      - n_40349 WangCai_1
-      - n_40350 WangCai_1
-      - n_40351 WangCai_1
-      - n_40352 WangCai_1
-      - n_40353 WangCai_1
-      - n_40354 WangCai_1
-      - n_40355 WangCai_1
-      - n_40356 WangCai_1
-      - n_40357 WangCai_1
-      - n_40358 WangCai_1
-      - n_40359 WangCai_1
-      - n_40360 WangCai_1
-      - n_40361 WangCai_1
-      - n_40362 WangCai_1
-      - n_40363 WangCai_1
-      - n_40364 WangCai_1
-      - n_40365 WangCai_1
-      - n_40366 WangCai_1
-      - n_40367 WangCai_1
-      - n_40368 WangCai_1
-      - n_40369 WangCai_1
-      - n_40370 WangCai_1
-      - n_40371 WangCai_1
-      - n_40372 WangCai_1
-      - n_40373 WangCai_1
-      - n_40375 WangCai_1
-      - n_40376 WangCai_1
-      - n_40377 WangCai_1
-      - n_40379 WangCai_1
-      - n_40380 WangCai_1
-      - n_40381 WangCai_1
-      - n_40382 WangCai_1
-      - n_40383 WangCai_1
-      - n_40384 WangCai_1
-      - n_40385 WangCai_1
-      - n_40386 WangCai_1
-      - n_40387 WangCai_1
-      - n_40388 WangCai_1
-      - n_40389 WangCai_1
-      - n_40390 WangCai_1
-      - n_40391 WangCai_1
-      - n_40392 WangCai_1
-      - n_40393 WangCai_1
-      - n_40394 WangCai_1
-      - n_40395 WangCai_1
-      - n_40396 WangCai_1
-      - n_40397 WangCai_1
-      - n_40398 WangCai_1
-      - n_40399 WangCai_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇨🇳_CN_中国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇨🇦_CA_加拿大_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇨🇦_CA_加拿大_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - 🇨🇦_CA_加拿大_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇨🇦_CA_加拿大_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇨🇦_CA_加拿大_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇨🇦_CA_加拿大_46
+      - 🇨🇦_CA_加拿大_47
+      - 🇯🇵_JP_日本_48
+      - 🇨🇦_CA_加拿大_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇭_CH_瑞士_53
+      - 🇫🇷_FR_法国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇺🇸_US_美国_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇬🇧_GB_英国_61
+      - 🇬🇧_GB_英国_62
+      - 🇳🇱_NL_荷兰_63
+      - 🇧🇬_BG_保加利亚_64
+      - 🇧🇬_BG_保加利亚_65
+      - 🇯🇵_JP_日本_66
+      - 🇬🇧_GB_英国_67
+      - 🇬🇧_GB_英国_68
+      - 🇬🇧_GB_英国_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇷🇺_RU_俄罗斯联邦_72
+      - 🇬🇧_GB_英国_73
+      - 🇫🇷_FR_法国_74
+      - 🇬🇧_GB_英国_75
+      - 🇯🇵_JP_日本_76
+      - 🇯🇵_JP_日本_77
+      - 🇬🇧_GB_英国_78
+      - 🇬🇧_GB_英国_79
+      - 🇬🇧_GB_英国_80
+      - 🇬🇧_GB_英国_81
+      - 🇬🇧_GB_英国_82
+      - 🇬🇧_GB_英国_83
+      - 🇬🇧_GB_英国_84
+      - 🇬🇧_GB_英国_85
+      - 🇬🇧_GB_英国_86
+      - 🇬🇧_GB_英国_87
+      - 🇬🇧_GB_英国_88
+      - 🇫🇷_FR_法国_89
+      - 🇫🇷_FR_法国_90
+      - 🇫🇷_FR_法国_91
+      - 🇸🇬_SG_新加坡_92
+      - 🇮🇹_IT_意大利_93
+      - 🇯🇵_JP_日本_94
+      - 🇦🇺_AU_澳大利亚_95
+      - 🇧🇻_BV_布维岛_96
+      - 🇦🇪_AE_阿联酋_97
+      - 🇯🇵_JP_日本_98
+      - 🇰🇷_KR_韩国_99
+      - 🇧🇻_BV_布维岛_100
+      - 🇧🇻_BV_布维岛_101
+      - 🇰🇷_KR_韩国_102
+      - 🇮🇩_ID_印度尼西亚_103
+      - 🇹🇼_TW_台湾_104
+      - 🇦🇺_AU_澳大利亚_105
+      - 🇧🇷_BR_巴西_106
+      - 🇰🇷_KR_韩国_107
+      - 🇰🇷_KR_韩国_108
+      - 🇦🇺_AU_澳大利亚_109
+      - 🇮🇳_IN_印度_110
+      - 🇮🇳_IN_印度_111
+      - 🇮🇳_IN_印度_112
+      - 🇮🇳_IN_印度_113
+      - 🇯🇵_JP_日本_114
+      - 🇰🇷_KR_韩国_115
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - n_40300 WangCai_1
-      - n_40301 WangCai_1
-      - n_40302 WangCai_1
-      - n_40303 WangCai_1
-      - n_40304 WangCai_1
-      - n_40305 WangCai_1
-      - n_40306 WangCai_1
-      - n_40307 WangCai_1
-      - n_40308 WangCai_1
-      - n_40309 WangCai_1
-      - n_40310 WangCai_1
-      - n_40311 WangCai_1
-      - n_40312 WangCai_1
-      - n_40313 WangCai_1
-      - n_40314 WangCai_1
-      - n_40315 WangCai_1
-      - n_40317 WangCai_1
-      - n_40318 WangCai_1
-      - n_40319 WangCai_1
-      - n_40320 WangCai_1
-      - n_40321 WangCai_1
-      - n_40322 WangCai_1
-      - n_40323 WangCai_1
-      - n_40324 WangCai_1
-      - n_40325 WangCai_1
-      - n_40326 WangCai_1
-      - n_40327 WangCai_1
-      - n_40328 WangCai_1
-      - n_40329 WangCai_1
-      - n_40330 WangCai_1
-      - n_40331 WangCai_1
-      - n_40333 WangCai_1
-      - n_40334 WangCai_1
-      - n_40335 WangCai_1
-      - n_40336 WangCai_1
-      - n_40337 WangCai_1
-      - n_40338 WangCai_1
-      - n_40339 WangCai_1
-      - n_40340 WangCai_1
-      - n_40341 WangCai_1
-      - n_40342 WangCai_1
-      - n_40343 WangCai_1
-      - n_40344 WangCai_1
-      - n_40345 WangCai_1
-      - n_40346 WangCai_1
-      - n_40347 WangCai_1
-      - n_40348 WangCai_1
-      - n_40349 WangCai_1
-      - n_40350 WangCai_1
-      - n_40351 WangCai_1
-      - n_40352 WangCai_1
-      - n_40353 WangCai_1
-      - n_40354 WangCai_1
-      - n_40355 WangCai_1
-      - n_40356 WangCai_1
-      - n_40357 WangCai_1
-      - n_40358 WangCai_1
-      - n_40359 WangCai_1
-      - n_40360 WangCai_1
-      - n_40361 WangCai_1
-      - n_40362 WangCai_1
-      - n_40363 WangCai_1
-      - n_40364 WangCai_1
-      - n_40365 WangCai_1
-      - n_40366 WangCai_1
-      - n_40367 WangCai_1
-      - n_40368 WangCai_1
-      - n_40369 WangCai_1
-      - n_40370 WangCai_1
-      - n_40371 WangCai_1
-      - n_40372 WangCai_1
-      - n_40373 WangCai_1
-      - n_40375 WangCai_1
-      - n_40376 WangCai_1
-      - n_40377 WangCai_1
-      - n_40379 WangCai_1
-      - n_40380 WangCai_1
-      - n_40381 WangCai_1
-      - n_40382 WangCai_1
-      - n_40383 WangCai_1
-      - n_40384 WangCai_1
-      - n_40385 WangCai_1
-      - n_40386 WangCai_1
-      - n_40387 WangCai_1
-      - n_40388 WangCai_1
-      - n_40389 WangCai_1
-      - n_40390 WangCai_1
-      - n_40391 WangCai_1
-      - n_40392 WangCai_1
-      - n_40393 WangCai_1
-      - n_40394 WangCai_1
-      - n_40395 WangCai_1
-      - n_40396 WangCai_1
-      - n_40397 WangCai_1
-      - n_40398 WangCai_1
-      - n_40399 WangCai_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇨🇳_CN_中国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇨🇦_CA_加拿大_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇨🇦_CA_加拿大_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - 🇨🇦_CA_加拿大_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇨🇦_CA_加拿大_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇨🇦_CA_加拿大_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇨🇦_CA_加拿大_46
+      - 🇨🇦_CA_加拿大_47
+      - 🇯🇵_JP_日本_48
+      - 🇨🇦_CA_加拿大_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇭_CH_瑞士_53
+      - 🇫🇷_FR_法国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇺🇸_US_美国_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇬🇧_GB_英国_61
+      - 🇬🇧_GB_英国_62
+      - 🇳🇱_NL_荷兰_63
+      - 🇧🇬_BG_保加利亚_64
+      - 🇧🇬_BG_保加利亚_65
+      - 🇯🇵_JP_日本_66
+      - 🇬🇧_GB_英国_67
+      - 🇬🇧_GB_英国_68
+      - 🇬🇧_GB_英国_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇷🇺_RU_俄罗斯联邦_72
+      - 🇬🇧_GB_英国_73
+      - 🇫🇷_FR_法国_74
+      - 🇬🇧_GB_英国_75
+      - 🇯🇵_JP_日本_76
+      - 🇯🇵_JP_日本_77
+      - 🇬🇧_GB_英国_78
+      - 🇬🇧_GB_英国_79
+      - 🇬🇧_GB_英国_80
+      - 🇬🇧_GB_英国_81
+      - 🇬🇧_GB_英国_82
+      - 🇬🇧_GB_英国_83
+      - 🇬🇧_GB_英国_84
+      - 🇬🇧_GB_英国_85
+      - 🇬🇧_GB_英国_86
+      - 🇬🇧_GB_英国_87
+      - 🇬🇧_GB_英国_88
+      - 🇫🇷_FR_法国_89
+      - 🇫🇷_FR_法国_90
+      - 🇫🇷_FR_法国_91
+      - 🇸🇬_SG_新加坡_92
+      - 🇮🇹_IT_意大利_93
+      - 🇯🇵_JP_日本_94
+      - 🇦🇺_AU_澳大利亚_95
+      - 🇧🇻_BV_布维岛_96
+      - 🇦🇪_AE_阿联酋_97
+      - 🇯🇵_JP_日本_98
+      - 🇰🇷_KR_韩国_99
+      - 🇧🇻_BV_布维岛_100
+      - 🇧🇻_BV_布维岛_101
+      - 🇰🇷_KR_韩国_102
+      - 🇮🇩_ID_印度尼西亚_103
+      - 🇹🇼_TW_台湾_104
+      - 🇦🇺_AU_澳大利亚_105
+      - 🇧🇷_BR_巴西_106
+      - 🇰🇷_KR_韩国_107
+      - 🇰🇷_KR_韩国_108
+      - 🇦🇺_AU_澳大利亚_109
+      - 🇮🇳_IN_印度_110
+      - 🇮🇳_IN_印度_111
+      - 🇮🇳_IN_印度_112
+      - 🇮🇳_IN_印度_113
+      - 🇯🇵_JP_日本_114
+      - 🇰🇷_KR_韩国_115
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - n_40300 WangCai_1
-      - n_40301 WangCai_1
-      - n_40302 WangCai_1
-      - n_40303 WangCai_1
-      - n_40304 WangCai_1
-      - n_40305 WangCai_1
-      - n_40306 WangCai_1
-      - n_40307 WangCai_1
-      - n_40308 WangCai_1
-      - n_40309 WangCai_1
-      - n_40310 WangCai_1
-      - n_40311 WangCai_1
-      - n_40312 WangCai_1
-      - n_40313 WangCai_1
-      - n_40314 WangCai_1
-      - n_40315 WangCai_1
-      - n_40317 WangCai_1
-      - n_40318 WangCai_1
-      - n_40319 WangCai_1
-      - n_40320 WangCai_1
-      - n_40321 WangCai_1
-      - n_40322 WangCai_1
-      - n_40323 WangCai_1
-      - n_40324 WangCai_1
-      - n_40325 WangCai_1
-      - n_40326 WangCai_1
-      - n_40327 WangCai_1
-      - n_40328 WangCai_1
-      - n_40329 WangCai_1
-      - n_40330 WangCai_1
-      - n_40331 WangCai_1
-      - n_40333 WangCai_1
-      - n_40334 WangCai_1
-      - n_40335 WangCai_1
-      - n_40336 WangCai_1
-      - n_40337 WangCai_1
-      - n_40338 WangCai_1
-      - n_40339 WangCai_1
-      - n_40340 WangCai_1
-      - n_40341 WangCai_1
-      - n_40342 WangCai_1
-      - n_40343 WangCai_1
-      - n_40344 WangCai_1
-      - n_40345 WangCai_1
-      - n_40346 WangCai_1
-      - n_40347 WangCai_1
-      - n_40348 WangCai_1
-      - n_40349 WangCai_1
-      - n_40350 WangCai_1
-      - n_40351 WangCai_1
-      - n_40352 WangCai_1
-      - n_40353 WangCai_1
-      - n_40354 WangCai_1
-      - n_40355 WangCai_1
-      - n_40356 WangCai_1
-      - n_40357 WangCai_1
-      - n_40358 WangCai_1
-      - n_40359 WangCai_1
-      - n_40360 WangCai_1
-      - n_40361 WangCai_1
-      - n_40362 WangCai_1
-      - n_40363 WangCai_1
-      - n_40364 WangCai_1
-      - n_40365 WangCai_1
-      - n_40366 WangCai_1
-      - n_40367 WangCai_1
-      - n_40368 WangCai_1
-      - n_40369 WangCai_1
-      - n_40370 WangCai_1
-      - n_40371 WangCai_1
-      - n_40372 WangCai_1
-      - n_40373 WangCai_1
-      - n_40375 WangCai_1
-      - n_40376 WangCai_1
-      - n_40377 WangCai_1
-      - n_40379 WangCai_1
-      - n_40380 WangCai_1
-      - n_40381 WangCai_1
-      - n_40382 WangCai_1
-      - n_40383 WangCai_1
-      - n_40384 WangCai_1
-      - n_40385 WangCai_1
-      - n_40386 WangCai_1
-      - n_40387 WangCai_1
-      - n_40388 WangCai_1
-      - n_40389 WangCai_1
-      - n_40390 WangCai_1
-      - n_40391 WangCai_1
-      - n_40392 WangCai_1
-      - n_40393 WangCai_1
-      - n_40394 WangCai_1
-      - n_40395 WangCai_1
-      - n_40396 WangCai_1
-      - n_40397 WangCai_1
-      - n_40398 WangCai_1
-      - n_40399 WangCai_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇨🇳_CN_中国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇨🇦_CA_加拿大_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇨🇦_CA_加拿大_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - 🇨🇦_CA_加拿大_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇨🇦_CA_加拿大_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇨🇦_CA_加拿大_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇨🇦_CA_加拿大_46
+      - 🇨🇦_CA_加拿大_47
+      - 🇯🇵_JP_日本_48
+      - 🇨🇦_CA_加拿大_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇭_CH_瑞士_53
+      - 🇫🇷_FR_法国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇺🇸_US_美国_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇬🇧_GB_英国_61
+      - 🇬🇧_GB_英国_62
+      - 🇳🇱_NL_荷兰_63
+      - 🇧🇬_BG_保加利亚_64
+      - 🇧🇬_BG_保加利亚_65
+      - 🇯🇵_JP_日本_66
+      - 🇬🇧_GB_英国_67
+      - 🇬🇧_GB_英国_68
+      - 🇬🇧_GB_英国_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇷🇺_RU_俄罗斯联邦_72
+      - 🇬🇧_GB_英国_73
+      - 🇫🇷_FR_法国_74
+      - 🇬🇧_GB_英国_75
+      - 🇯🇵_JP_日本_76
+      - 🇯🇵_JP_日本_77
+      - 🇬🇧_GB_英国_78
+      - 🇬🇧_GB_英国_79
+      - 🇬🇧_GB_英国_80
+      - 🇬🇧_GB_英国_81
+      - 🇬🇧_GB_英国_82
+      - 🇬🇧_GB_英国_83
+      - 🇬🇧_GB_英国_84
+      - 🇬🇧_GB_英国_85
+      - 🇬🇧_GB_英国_86
+      - 🇬🇧_GB_英国_87
+      - 🇬🇧_GB_英国_88
+      - 🇫🇷_FR_法国_89
+      - 🇫🇷_FR_法国_90
+      - 🇫🇷_FR_法国_91
+      - 🇸🇬_SG_新加坡_92
+      - 🇮🇹_IT_意大利_93
+      - 🇯🇵_JP_日本_94
+      - 🇦🇺_AU_澳大利亚_95
+      - 🇧🇻_BV_布维岛_96
+      - 🇦🇪_AE_阿联酋_97
+      - 🇯🇵_JP_日本_98
+      - 🇰🇷_KR_韩国_99
+      - 🇧🇻_BV_布维岛_100
+      - 🇧🇻_BV_布维岛_101
+      - 🇰🇷_KR_韩国_102
+      - 🇮🇩_ID_印度尼西亚_103
+      - 🇹🇼_TW_台湾_104
+      - 🇦🇺_AU_澳大利亚_105
+      - 🇧🇷_BR_巴西_106
+      - 🇰🇷_KR_韩国_107
+      - 🇰🇷_KR_韩国_108
+      - 🇦🇺_AU_澳大利亚_109
+      - 🇮🇳_IN_印度_110
+      - 🇮🇳_IN_印度_111
+      - 🇮🇳_IN_印度_112
+      - 🇮🇳_IN_印度_113
+      - 🇯🇵_JP_日本_114
+      - 🇰🇷_KR_韩国_115
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - n_40300 WangCai_1
-      - n_40301 WangCai_1
-      - n_40302 WangCai_1
-      - n_40303 WangCai_1
-      - n_40304 WangCai_1
-      - n_40305 WangCai_1
-      - n_40306 WangCai_1
-      - n_40307 WangCai_1
-      - n_40308 WangCai_1
-      - n_40309 WangCai_1
-      - n_40310 WangCai_1
-      - n_40311 WangCai_1
-      - n_40312 WangCai_1
-      - n_40313 WangCai_1
-      - n_40314 WangCai_1
-      - n_40315 WangCai_1
-      - n_40317 WangCai_1
-      - n_40318 WangCai_1
-      - n_40319 WangCai_1
-      - n_40320 WangCai_1
-      - n_40321 WangCai_1
-      - n_40322 WangCai_1
-      - n_40323 WangCai_1
-      - n_40324 WangCai_1
-      - n_40325 WangCai_1
-      - n_40326 WangCai_1
-      - n_40327 WangCai_1
-      - n_40328 WangCai_1
-      - n_40329 WangCai_1
-      - n_40330 WangCai_1
-      - n_40331 WangCai_1
-      - n_40333 WangCai_1
-      - n_40334 WangCai_1
-      - n_40335 WangCai_1
-      - n_40336 WangCai_1
-      - n_40337 WangCai_1
-      - n_40338 WangCai_1
-      - n_40339 WangCai_1
-      - n_40340 WangCai_1
-      - n_40341 WangCai_1
-      - n_40342 WangCai_1
-      - n_40343 WangCai_1
-      - n_40344 WangCai_1
-      - n_40345 WangCai_1
-      - n_40346 WangCai_1
-      - n_40347 WangCai_1
-      - n_40348 WangCai_1
-      - n_40349 WangCai_1
-      - n_40350 WangCai_1
-      - n_40351 WangCai_1
-      - n_40352 WangCai_1
-      - n_40353 WangCai_1
-      - n_40354 WangCai_1
-      - n_40355 WangCai_1
-      - n_40356 WangCai_1
-      - n_40357 WangCai_1
-      - n_40358 WangCai_1
-      - n_40359 WangCai_1
-      - n_40360 WangCai_1
-      - n_40361 WangCai_1
-      - n_40362 WangCai_1
-      - n_40363 WangCai_1
-      - n_40364 WangCai_1
-      - n_40365 WangCai_1
-      - n_40366 WangCai_1
-      - n_40367 WangCai_1
-      - n_40368 WangCai_1
-      - n_40369 WangCai_1
-      - n_40370 WangCai_1
-      - n_40371 WangCai_1
-      - n_40372 WangCai_1
-      - n_40373 WangCai_1
-      - n_40375 WangCai_1
-      - n_40376 WangCai_1
-      - n_40377 WangCai_1
-      - n_40379 WangCai_1
-      - n_40380 WangCai_1
-      - n_40381 WangCai_1
-      - n_40382 WangCai_1
-      - n_40383 WangCai_1
-      - n_40384 WangCai_1
-      - n_40385 WangCai_1
-      - n_40386 WangCai_1
-      - n_40387 WangCai_1
-      - n_40388 WangCai_1
-      - n_40389 WangCai_1
-      - n_40390 WangCai_1
-      - n_40391 WangCai_1
-      - n_40392 WangCai_1
-      - n_40393 WangCai_1
-      - n_40394 WangCai_1
-      - n_40395 WangCai_1
-      - n_40396 WangCai_1
-      - n_40397 WangCai_1
-      - n_40398 WangCai_1
-      - n_40399 WangCai_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇨🇳_CN_中国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇨🇦_CA_加拿大_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇨🇦_CA_加拿大_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - 🇨🇦_CA_加拿大_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇨🇦_CA_加拿大_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇨🇦_CA_加拿大_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇨🇦_CA_加拿大_46
+      - 🇨🇦_CA_加拿大_47
+      - 🇯🇵_JP_日本_48
+      - 🇨🇦_CA_加拿大_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇭_CH_瑞士_53
+      - 🇫🇷_FR_法国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇺🇸_US_美国_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇬🇧_GB_英国_61
+      - 🇬🇧_GB_英国_62
+      - 🇳🇱_NL_荷兰_63
+      - 🇧🇬_BG_保加利亚_64
+      - 🇧🇬_BG_保加利亚_65
+      - 🇯🇵_JP_日本_66
+      - 🇬🇧_GB_英国_67
+      - 🇬🇧_GB_英国_68
+      - 🇬🇧_GB_英国_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇷🇺_RU_俄罗斯联邦_72
+      - 🇬🇧_GB_英国_73
+      - 🇫🇷_FR_法国_74
+      - 🇬🇧_GB_英国_75
+      - 🇯🇵_JP_日本_76
+      - 🇯🇵_JP_日本_77
+      - 🇬🇧_GB_英国_78
+      - 🇬🇧_GB_英国_79
+      - 🇬🇧_GB_英国_80
+      - 🇬🇧_GB_英国_81
+      - 🇬🇧_GB_英国_82
+      - 🇬🇧_GB_英国_83
+      - 🇬🇧_GB_英国_84
+      - 🇬🇧_GB_英国_85
+      - 🇬🇧_GB_英国_86
+      - 🇬🇧_GB_英国_87
+      - 🇬🇧_GB_英国_88
+      - 🇫🇷_FR_法国_89
+      - 🇫🇷_FR_法国_90
+      - 🇫🇷_FR_法国_91
+      - 🇸🇬_SG_新加坡_92
+      - 🇮🇹_IT_意大利_93
+      - 🇯🇵_JP_日本_94
+      - 🇦🇺_AU_澳大利亚_95
+      - 🇧🇻_BV_布维岛_96
+      - 🇦🇪_AE_阿联酋_97
+      - 🇯🇵_JP_日本_98
+      - 🇰🇷_KR_韩国_99
+      - 🇧🇻_BV_布维岛_100
+      - 🇧🇻_BV_布维岛_101
+      - 🇰🇷_KR_韩国_102
+      - 🇮🇩_ID_印度尼西亚_103
+      - 🇹🇼_TW_台湾_104
+      - 🇦🇺_AU_澳大利亚_105
+      - 🇧🇷_BR_巴西_106
+      - 🇰🇷_KR_韩国_107
+      - 🇰🇷_KR_韩国_108
+      - 🇦🇺_AU_澳大利亚_109
+      - 🇮🇳_IN_印度_110
+      - 🇮🇳_IN_印度_111
+      - 🇮🇳_IN_印度_112
+      - 🇮🇳_IN_印度_113
+      - 🇯🇵_JP_日本_114
+      - 🇰🇷_KR_韩国_115
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - n_40300 WangCai_1
-      - n_40301 WangCai_1
-      - n_40302 WangCai_1
-      - n_40303 WangCai_1
-      - n_40304 WangCai_1
-      - n_40305 WangCai_1
-      - n_40306 WangCai_1
-      - n_40307 WangCai_1
-      - n_40308 WangCai_1
-      - n_40309 WangCai_1
-      - n_40310 WangCai_1
-      - n_40311 WangCai_1
-      - n_40312 WangCai_1
-      - n_40313 WangCai_1
-      - n_40314 WangCai_1
-      - n_40315 WangCai_1
-      - n_40317 WangCai_1
-      - n_40318 WangCai_1
-      - n_40319 WangCai_1
-      - n_40320 WangCai_1
-      - n_40321 WangCai_1
-      - n_40322 WangCai_1
-      - n_40323 WangCai_1
-      - n_40324 WangCai_1
-      - n_40325 WangCai_1
-      - n_40326 WangCai_1
-      - n_40327 WangCai_1
-      - n_40328 WangCai_1
-      - n_40329 WangCai_1
-      - n_40330 WangCai_1
-      - n_40331 WangCai_1
-      - n_40333 WangCai_1
-      - n_40334 WangCai_1
-      - n_40335 WangCai_1
-      - n_40336 WangCai_1
-      - n_40337 WangCai_1
-      - n_40338 WangCai_1
-      - n_40339 WangCai_1
-      - n_40340 WangCai_1
-      - n_40341 WangCai_1
-      - n_40342 WangCai_1
-      - n_40343 WangCai_1
-      - n_40344 WangCai_1
-      - n_40345 WangCai_1
-      - n_40346 WangCai_1
-      - n_40347 WangCai_1
-      - n_40348 WangCai_1
-      - n_40349 WangCai_1
-      - n_40350 WangCai_1
-      - n_40351 WangCai_1
-      - n_40352 WangCai_1
-      - n_40353 WangCai_1
-      - n_40354 WangCai_1
-      - n_40355 WangCai_1
-      - n_40356 WangCai_1
-      - n_40357 WangCai_1
-      - n_40358 WangCai_1
-      - n_40359 WangCai_1
-      - n_40360 WangCai_1
-      - n_40361 WangCai_1
-      - n_40362 WangCai_1
-      - n_40363 WangCai_1
-      - n_40364 WangCai_1
-      - n_40365 WangCai_1
-      - n_40366 WangCai_1
-      - n_40367 WangCai_1
-      - n_40368 WangCai_1
-      - n_40369 WangCai_1
-      - n_40370 WangCai_1
-      - n_40371 WangCai_1
-      - n_40372 WangCai_1
-      - n_40373 WangCai_1
-      - n_40375 WangCai_1
-      - n_40376 WangCai_1
-      - n_40377 WangCai_1
-      - n_40379 WangCai_1
-      - n_40380 WangCai_1
-      - n_40381 WangCai_1
-      - n_40382 WangCai_1
-      - n_40383 WangCai_1
-      - n_40384 WangCai_1
-      - n_40385 WangCai_1
-      - n_40386 WangCai_1
-      - n_40387 WangCai_1
-      - n_40388 WangCai_1
-      - n_40389 WangCai_1
-      - n_40390 WangCai_1
-      - n_40391 WangCai_1
-      - n_40392 WangCai_1
-      - n_40393 WangCai_1
-      - n_40394 WangCai_1
-      - n_40395 WangCai_1
-      - n_40396 WangCai_1
-      - n_40397 WangCai_1
-      - n_40398 WangCai_1
-      - n_40399 WangCai_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇨🇳_CN_中国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇨🇦_CA_加拿大_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇨🇦_CA_加拿大_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - 🇨🇦_CA_加拿大_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇨🇦_CA_加拿大_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇨🇦_CA_加拿大_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇨🇦_CA_加拿大_46
+      - 🇨🇦_CA_加拿大_47
+      - 🇯🇵_JP_日本_48
+      - 🇨🇦_CA_加拿大_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇭_CH_瑞士_53
+      - 🇫🇷_FR_法国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇺🇸_US_美国_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇬🇧_GB_英国_61
+      - 🇬🇧_GB_英国_62
+      - 🇳🇱_NL_荷兰_63
+      - 🇧🇬_BG_保加利亚_64
+      - 🇧🇬_BG_保加利亚_65
+      - 🇯🇵_JP_日本_66
+      - 🇬🇧_GB_英国_67
+      - 🇬🇧_GB_英国_68
+      - 🇬🇧_GB_英国_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇷🇺_RU_俄罗斯联邦_72
+      - 🇬🇧_GB_英国_73
+      - 🇫🇷_FR_法国_74
+      - 🇬🇧_GB_英国_75
+      - 🇯🇵_JP_日本_76
+      - 🇯🇵_JP_日本_77
+      - 🇬🇧_GB_英国_78
+      - 🇬🇧_GB_英国_79
+      - 🇬🇧_GB_英国_80
+      - 🇬🇧_GB_英国_81
+      - 🇬🇧_GB_英国_82
+      - 🇬🇧_GB_英国_83
+      - 🇬🇧_GB_英国_84
+      - 🇬🇧_GB_英国_85
+      - 🇬🇧_GB_英国_86
+      - 🇬🇧_GB_英国_87
+      - 🇬🇧_GB_英国_88
+      - 🇫🇷_FR_法国_89
+      - 🇫🇷_FR_法国_90
+      - 🇫🇷_FR_法国_91
+      - 🇸🇬_SG_新加坡_92
+      - 🇮🇹_IT_意大利_93
+      - 🇯🇵_JP_日本_94
+      - 🇦🇺_AU_澳大利亚_95
+      - 🇧🇻_BV_布维岛_96
+      - 🇦🇪_AE_阿联酋_97
+      - 🇯🇵_JP_日本_98
+      - 🇰🇷_KR_韩国_99
+      - 🇧🇻_BV_布维岛_100
+      - 🇧🇻_BV_布维岛_101
+      - 🇰🇷_KR_韩国_102
+      - 🇮🇩_ID_印度尼西亚_103
+      - 🇹🇼_TW_台湾_104
+      - 🇦🇺_AU_澳大利亚_105
+      - 🇧🇷_BR_巴西_106
+      - 🇰🇷_KR_韩国_107
+      - 🇰🇷_KR_韩国_108
+      - 🇦🇺_AU_澳大利亚_109
+      - 🇮🇳_IN_印度_110
+      - 🇮🇳_IN_印度_111
+      - 🇮🇳_IN_印度_112
+      - 🇮🇳_IN_印度_113
+      - 🇯🇵_JP_日本_114
+      - 🇰🇷_KR_韩国_115
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -826,102 +978,121 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - n_40300 WangCai_1
-      - n_40301 WangCai_1
-      - n_40302 WangCai_1
-      - n_40303 WangCai_1
-      - n_40304 WangCai_1
-      - n_40305 WangCai_1
-      - n_40306 WangCai_1
-      - n_40307 WangCai_1
-      - n_40308 WangCai_1
-      - n_40309 WangCai_1
-      - n_40310 WangCai_1
-      - n_40311 WangCai_1
-      - n_40312 WangCai_1
-      - n_40313 WangCai_1
-      - n_40314 WangCai_1
-      - n_40315 WangCai_1
-      - n_40317 WangCai_1
-      - n_40318 WangCai_1
-      - n_40319 WangCai_1
-      - n_40320 WangCai_1
-      - n_40321 WangCai_1
-      - n_40322 WangCai_1
-      - n_40323 WangCai_1
-      - n_40324 WangCai_1
-      - n_40325 WangCai_1
-      - n_40326 WangCai_1
-      - n_40327 WangCai_1
-      - n_40328 WangCai_1
-      - n_40329 WangCai_1
-      - n_40330 WangCai_1
-      - n_40331 WangCai_1
-      - n_40333 WangCai_1
-      - n_40334 WangCai_1
-      - n_40335 WangCai_1
-      - n_40336 WangCai_1
-      - n_40337 WangCai_1
-      - n_40338 WangCai_1
-      - n_40339 WangCai_1
-      - n_40340 WangCai_1
-      - n_40341 WangCai_1
-      - n_40342 WangCai_1
-      - n_40343 WangCai_1
-      - n_40344 WangCai_1
-      - n_40345 WangCai_1
-      - n_40346 WangCai_1
-      - n_40347 WangCai_1
-      - n_40348 WangCai_1
-      - n_40349 WangCai_1
-      - n_40350 WangCai_1
-      - n_40351 WangCai_1
-      - n_40352 WangCai_1
-      - n_40353 WangCai_1
-      - n_40354 WangCai_1
-      - n_40355 WangCai_1
-      - n_40356 WangCai_1
-      - n_40357 WangCai_1
-      - n_40358 WangCai_1
-      - n_40359 WangCai_1
-      - n_40360 WangCai_1
-      - n_40361 WangCai_1
-      - n_40362 WangCai_1
-      - n_40363 WangCai_1
-      - n_40364 WangCai_1
-      - n_40365 WangCai_1
-      - n_40366 WangCai_1
-      - n_40367 WangCai_1
-      - n_40368 WangCai_1
-      - n_40369 WangCai_1
-      - n_40370 WangCai_1
-      - n_40371 WangCai_1
-      - n_40372 WangCai_1
-      - n_40373 WangCai_1
-      - n_40375 WangCai_1
-      - n_40376 WangCai_1
-      - n_40377 WangCai_1
-      - n_40379 WangCai_1
-      - n_40380 WangCai_1
-      - n_40381 WangCai_1
-      - n_40382 WangCai_1
-      - n_40383 WangCai_1
-      - n_40384 WangCai_1
-      - n_40385 WangCai_1
-      - n_40386 WangCai_1
-      - n_40387 WangCai_1
-      - n_40388 WangCai_1
-      - n_40389 WangCai_1
-      - n_40390 WangCai_1
-      - n_40391 WangCai_1
-      - n_40392 WangCai_1
-      - n_40393 WangCai_1
-      - n_40394 WangCai_1
-      - n_40395 WangCai_1
-      - n_40396 WangCai_1
-      - n_40397 WangCai_1
-      - n_40398 WangCai_1
-      - n_40399 WangCai_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇨🇳_CN_中国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇨🇦_CA_加拿大_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇨🇦_CA_加拿大_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇨🇦_CA_加拿大_30
+      - 🇨🇦_CA_加拿大_31
+      - 🇨🇦_CA_加拿大_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇨🇦_CA_加拿大_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇨🇦_CA_加拿大_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇨🇦_CA_加拿大_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇨🇦_CA_加拿大_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇨🇦_CA_加拿大_44
+      - 🇺🇸_US_美国_45
+      - 🇨🇦_CA_加拿大_46
+      - 🇨🇦_CA_加拿大_47
+      - 🇯🇵_JP_日本_48
+      - 🇨🇦_CA_加拿大_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇨🇦_CA_加拿大_51
+      - 🇨🇦_CA_加拿大_52
+      - 🇨🇭_CH_瑞士_53
+      - 🇫🇷_FR_法国_54
+      - 🇨🇦_CA_加拿大_55
+      - 🇺🇸_US_美国_56
+      - 🇨🇦_CA_加拿大_57
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇺🇸_US_美国_60
+      - 🇬🇧_GB_英国_61
+      - 🇬🇧_GB_英国_62
+      - 🇳🇱_NL_荷兰_63
+      - 🇧🇬_BG_保加利亚_64
+      - 🇧🇬_BG_保加利亚_65
+      - 🇯🇵_JP_日本_66
+      - 🇬🇧_GB_英国_67
+      - 🇬🇧_GB_英国_68
+      - 🇬🇧_GB_英国_69
+      - 🇬🇧_GB_英国_70
+      - 🇬🇧_GB_英国_71
+      - 🇷🇺_RU_俄罗斯联邦_72
+      - 🇬🇧_GB_英国_73
+      - 🇫🇷_FR_法国_74
+      - 🇬🇧_GB_英国_75
+      - 🇯🇵_JP_日本_76
+      - 🇯🇵_JP_日本_77
+      - 🇬🇧_GB_英国_78
+      - 🇬🇧_GB_英国_79
+      - 🇬🇧_GB_英国_80
+      - 🇬🇧_GB_英国_81
+      - 🇬🇧_GB_英国_82
+      - 🇬🇧_GB_英国_83
+      - 🇬🇧_GB_英国_84
+      - 🇬🇧_GB_英国_85
+      - 🇬🇧_GB_英国_86
+      - 🇬🇧_GB_英国_87
+      - 🇬🇧_GB_英国_88
+      - 🇫🇷_FR_法国_89
+      - 🇫🇷_FR_法国_90
+      - 🇫🇷_FR_法国_91
+      - 🇸🇬_SG_新加坡_92
+      - 🇮🇹_IT_意大利_93
+      - 🇯🇵_JP_日本_94
+      - 🇦🇺_AU_澳大利亚_95
+      - 🇧🇻_BV_布维岛_96
+      - 🇦🇪_AE_阿联酋_97
+      - 🇯🇵_JP_日本_98
+      - 🇰🇷_KR_韩国_99
+      - 🇧🇻_BV_布维岛_100
+      - 🇧🇻_BV_布维岛_101
+      - 🇰🇷_KR_韩国_102
+      - 🇮🇩_ID_印度尼西亚_103
+      - 🇹🇼_TW_台湾_104
+      - 🇦🇺_AU_澳大利亚_105
+      - 🇧🇷_BR_巴西_106
+      - 🇰🇷_KR_韩国_107
+      - 🇰🇷_KR_韩国_108
+      - 🇦🇺_AU_澳大利亚_109
+      - 🇮🇳_IN_印度_110
+      - 🇮🇳_IN_印度_111
+      - 🇮🇳_IN_印度_112
+      - 🇮🇳_IN_印度_113
+      - 🇯🇵_JP_日本_114
+      - 🇰🇷_KR_韩国_115
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
