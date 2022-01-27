@@ -5,46 +5,172 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies: 
-  - { name: '🇺🇸United+States_1', server: '167.88.62.24', port: 5000,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: '%E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1', server: 'tolink.site', port: 443, type: vless, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', cipher: 'auto', skip-cert-verify: true, network: tcp }
+  - { name: '%E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink.site_2', server: 'tolink.site', port: 443, type: vless, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', cipher: 'auto', skip-cert-verify: true, network: tcp }
+  - {name: '香港 | 00 | 试用_3', server: 'hk00.linkzones.xyz', port: 443, type: vmess, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'hk00.linknodes.xyz'} }
+  - {name: '香港 | 01_4', server: 'hk01.linkzones.xyz', port: 443, type: vmess, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'hk01.linknodes.xyz'} }
+  - {name: '香港 | 02_5', server: 'hk02.linkzones.xyz', port: 443, type: vmess, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'hk02.linknodes.xyz'} }
+  - {name: '加拿大 | 00 | 试用_6', server: 'ca00.linkzones.xyz', port: 443, type: vmess, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'ca00.linknodes.xyz'} }
+  - {name: '加拿大 | 01_7', server: 'ca01.linkzones.xyz', port: 443, type: vmess, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'ca01.linknodes.xyz'} }
+  - {name: '加拿大 | 02_8', server: 'ca02.linkzones.xyz', port: 443, type: vmess, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'ca02.linknodes.xyz'} }
+  - {name: '新加坡 | 00 | 试用_9', server: 'sg00.linkzones.xyz', port: 443, type: vmess, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'sg00.linknodes.xyz'} }
+  - {name: '新加坡 | 01_10', server: 'sg01.linkzones.xyz', port: 443, type: vmess, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'sg01.linknodes.xyz'} }
+  - {name: '新加坡 | 02_11', server: 'sg02.linkzones.xyz', port: 443, type: vmess, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'sg02.linknodes.xyz'} }
+  - {name: '日本 | 00 | 试用_12', server: 'jp00.linkzones.xyz', port: 443, type: vmess, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'jp00.linknodes.xyz'} }
+  - {name: '日本 | 01_13', server: 'jp01.linkzones.xyz', port: 443, type: vmess, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'jp01.linknodes.xyz'} }
+  - {name: '日本 | 02_14', server: 'jp02.linkzones.xyz', port: 443, type: vmess, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'jp02.linknodes.xyz'} }
+  - {name: '美国 | 00 | 试用_15', server: 'us00.linkzones.xyz', port: 443, type: vmess, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'us00.linknodes.xyz'} }
+  - {name: '美国 | 01 | 洛杉矶 CN2_16', server: 'us01.linkzones.xyz', port: 443, type: vmess, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'us01.linknodes.xyz'} }
+  - {name: '美国 | 02 | 洛杉矶 CN2_17', server: 'us02.linkzones.xyz', port: 443, type: vmess, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'us02.linknodes.xyz'} }
+  - { name: '%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A1.01GB_18', server: 'tolink.site', port: 10086, type: vless, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', cipher: 'auto', skip-cert-verify: true, path: '/', network: tcp }
+  - { name: '%E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-01-29_19', server: 'tolink.site', port: 10086, type: vless, uuid: 'af1ac5f4-a65f-3307-83c4-403358fb8138', cipher: 'auto', skip-cert-verify: true, path: '/', network: tcp }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸United+States_1
+      - %E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1
+      - %E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink.site_2
+      - 香港 | 00 | 试用_3
+      - 香港 | 01_4
+      - 香港 | 02_5
+      - 加拿大 | 00 | 试用_6
+      - 加拿大 | 01_7
+      - 加拿大 | 02_8
+      - 新加坡 | 00 | 试用_9
+      - 新加坡 | 01_10
+      - 新加坡 | 02_11
+      - 日本 | 00 | 试用_12
+      - 日本 | 01_13
+      - 日本 | 02_14
+      - 美国 | 00 | 试用_15
+      - 美国 | 01 | 洛杉矶 CN2_16
+      - 美国 | 02 | 洛杉矶 CN2_17
+      - %E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A1.01GB_18
+      - %E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-01-29_19
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸United+States_1
+      - %E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1
+      - %E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink.site_2
+      - 香港 | 00 | 试用_3
+      - 香港 | 01_4
+      - 香港 | 02_5
+      - 加拿大 | 00 | 试用_6
+      - 加拿大 | 01_7
+      - 加拿大 | 02_8
+      - 新加坡 | 00 | 试用_9
+      - 新加坡 | 01_10
+      - 新加坡 | 02_11
+      - 日本 | 00 | 试用_12
+      - 日本 | 01_13
+      - 日本 | 02_14
+      - 美国 | 00 | 试用_15
+      - 美国 | 01 | 洛杉矶 CN2_16
+      - 美国 | 02 | 洛杉矶 CN2_17
+      - %E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A1.01GB_18
+      - %E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-01-29_19
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸United+States_1
+      - %E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1
+      - %E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink.site_2
+      - 香港 | 00 | 试用_3
+      - 香港 | 01_4
+      - 香港 | 02_5
+      - 加拿大 | 00 | 试用_6
+      - 加拿大 | 01_7
+      - 加拿大 | 02_8
+      - 新加坡 | 00 | 试用_9
+      - 新加坡 | 01_10
+      - 新加坡 | 02_11
+      - 日本 | 00 | 试用_12
+      - 日本 | 01_13
+      - 日本 | 02_14
+      - 美国 | 00 | 试用_15
+      - 美国 | 01 | 洛杉矶 CN2_16
+      - 美国 | 02 | 洛杉矶 CN2_17
+      - %E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A1.01GB_18
+      - %E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-01-29_19
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸United+States_1
+      - %E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1
+      - %E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink.site_2
+      - 香港 | 00 | 试用_3
+      - 香港 | 01_4
+      - 香港 | 02_5
+      - 加拿大 | 00 | 试用_6
+      - 加拿大 | 01_7
+      - 加拿大 | 02_8
+      - 新加坡 | 00 | 试用_9
+      - 新加坡 | 01_10
+      - 新加坡 | 02_11
+      - 日本 | 00 | 试用_12
+      - 日本 | 01_13
+      - 日本 | 02_14
+      - 美国 | 00 | 试用_15
+      - 美国 | 01 | 洛杉矶 CN2_16
+      - 美国 | 02 | 洛杉矶 CN2_17
+      - %E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A1.01GB_18
+      - %E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-01-29_19
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸United+States_1
+      - %E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1
+      - %E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink.site_2
+      - 香港 | 00 | 试用_3
+      - 香港 | 01_4
+      - 香港 | 02_5
+      - 加拿大 | 00 | 试用_6
+      - 加拿大 | 01_7
+      - 加拿大 | 02_8
+      - 新加坡 | 00 | 试用_9
+      - 新加坡 | 01_10
+      - 新加坡 | 02_11
+      - 日本 | 00 | 试用_12
+      - 日本 | 01_13
+      - 日本 | 02_14
+      - 美国 | 00 | 试用_15
+      - 美国 | 01 | 洛杉矶 CN2_16
+      - 美国 | 02 | 洛杉矶 CN2_17
+      - %E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A1.01GB_18
+      - %E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-01-29_19
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸United+States_1
+      - %E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1
+      - %E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink.site_2
+      - 香港 | 00 | 试用_3
+      - 香港 | 01_4
+      - 香港 | 02_5
+      - 加拿大 | 00 | 试用_6
+      - 加拿大 | 01_7
+      - 加拿大 | 02_8
+      - 新加坡 | 00 | 试用_9
+      - 新加坡 | 01_10
+      - 新加坡 | 02_11
+      - 日本 | 00 | 试用_12
+      - 日本 | 01_13
+      - 日本 | 02_14
+      - 美国 | 00 | 试用_15
+      - 美国 | 01 | 洛杉矶 CN2_16
+      - 美国 | 02 | 洛杉矶 CN2_17
+      - %E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A1.01GB_18
+      - %E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-01-29_19
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +193,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸United+States_1
+      - %E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1
+      - %E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink.site_2
+      - 香港 | 00 | 试用_3
+      - 香港 | 01_4
+      - 香港 | 02_5
+      - 加拿大 | 00 | 试用_6
+      - 加拿大 | 01_7
+      - 加拿大 | 02_8
+      - 新加坡 | 00 | 试用_9
+      - 新加坡 | 01_10
+      - 新加坡 | 02_11
+      - 日本 | 00 | 试用_12
+      - 日本 | 01_13
+      - 日本 | 02_14
+      - 美国 | 00 | 试用_15
+      - 美国 | 01 | 洛杉矶 CN2_16
+      - 美国 | 02 | 洛杉矶 CN2_17
+      - %E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A1.01GB_18
+      - %E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-01-29_19
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
