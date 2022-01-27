@@ -4,110 +4,1883 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
-proxies:
-  - {"name":"🇬🇧_GB_英国_1","server":"172.99.190.39","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_2","server":"38.75.136.45","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.217","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US_美国_4","server":"38.121.43.91","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.198.252","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_6","server":"167.88.61.60","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_7","server":"198.57.27.184","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇮🇳_IN_印度_8","server":"192.46.209.227","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_9","server":"134.195.196.81","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_10","server":"38.91.100.200","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+proxies: 
+  - { name: '2022-1-7+更新_1', server: 'iepl.marslink.icu', port: 35017,  type: ss, cipher: 'chacha20-ietf-poly1305', password: '64fffbd5-15a0-45d9-bb84-325fbb6a5f97' }
+  - { name: 'EN01-IEPL+|+3倍_2', server: 'iepl.marslink.icu', port: 35018,  type: ss, cipher: 'chacha20-ietf-poly1305', password: '64fffbd5-15a0-45d9-bb84-325fbb6a5f97' }
+  - { name: 'AU01-IEPL+|+3倍_3', server: 'iepl.marslink.icu', port: 35019,  type: ss, cipher: 'chacha20-ietf-poly1305', password: '64fffbd5-15a0-45d9-bb84-325fbb6a5f97' }
+  - {name: '美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_4', server: '104.16.110.238', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_5', server: '104.18.8.157', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_6', server: '104.20.130.175', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_7', server: '104.21.239.147', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_8', server: '104.22.3.3', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_9', server: '104.22.4.180', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_10', server: '104.22.44.50', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_11', server: '172.67.223.77', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_12', server: '172.67.209.58', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_13', server: '104.25.175.69', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_14', server: 'www.digitalocean.com', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_15', server: 'vincent-jackson2021.cf', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_16', server: '104.20.81.240', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_17', server: '104.19.45.117', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_18', server: '104.16.149.48', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_19', server: '104.21.76.229', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_20', server: '104.17.188.91', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_21', server: '104.16.182.15', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_22', server: '104.16.181.15', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_23', server: '104.16.148.48', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_24', server: '104.19.23.24', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_25', server: 'icook.tw', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_26', server: '104.16.16.255', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_27', server: '104.16.167.138', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_28', server: '104.16.207.196', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-33_29', server: '1.0.0.0', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-34 联通100M+4K_30', server: '104.18.27.64', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-35 联通100M+4K -2_31', server: '104.17.36.178', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_32', server: 'www.garmin.com', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_33', server: '104.18.135.208', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_34', server: '104.20.130.43', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_35', server: '104.25.104.240', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.cf'} }
+  - {name: '美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_36', server: '104.16.160.114', port: 443, type: vmess, uuid: '8e8b5097-1d75-47c4-ff28-eef6609916c1', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws', host: 'vincent-jackson2021.cf'} }
+  - {name: 'vincent-jackson2021.ga_vmess_ws_37', server: 'vincent-jackson2021.ga', port: 443, type: vmess, uuid: 'y', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/rquyvws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: 'vincent-jackson2021.ga_c0f4d26f-b870-3b0d-a77e-1786fcf52e50_38', server: 'vincent-jackson2021.ga', port: 443, type: vmess, uuid: 'c0f4d26f-b870-3b0d-a77e-1786fcf52e50', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/rquyvws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: 'vincent-jackson2021.ga_vmess_ws_39', server: 'vincent-jackson2021.ga', port: 443, type: vmess, uuid: 'y', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - { name: 'vincent-jackson2021.ga_VLESS_WS_40', server: 'vincent-jackson2021.ga', port: 443, type: vless, uuid: 'y', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - {name: 'vincent-jackson2021.ga_vmess_ws_41', server: 'vincent-jackson2021.ga', port: 443, type: vmess, uuid: '67fbfa88-f9e8-4bc1-b13b-73141b64b37e', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: 'vincent-jackson2021.ga_vmess_ws_42', server: 'vincent-jackson2021.ga', port: 443, type: vmess, uuid: '67fbfa88-f9e8-4bc1-b13b-73141b64b37e', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: 'vincent-jackson2021.ga_vmess_ws_43', server: 'vincent-jackson2021.ga', port: 443, type: vmess, uuid: '67fbfa88-f9e8-4bc1-b13b-73141b64b37e', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - { name: 'us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_44', server: 'vincent-jackson2021.ml', port: 443, type: vless, uuid: 'e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakeningws', host: 'vincent-jackson2021.ml', network: http }
+  - { name: 'us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_45', server: 'vincent-jackson2021.ml', port: 443, type: vless, uuid: 'e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakeningws', host: 'vincent-jackson2021.ml', network: http }
+  - { name: 'us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_46', server: '104.22.4.180', port: 443, type: vless, uuid: 'e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakeningws', host: 'vincent-jackson2021.ml', network: http }
+  - { name: 'us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_47', server: '104.22.4.180', port: 443, type: vless, uuid: 'e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakeningws', host: 'vincent-jackson2021.ml', network: http }
+  - { name: 'usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_48', server: 'vincent-jackson2021.ga', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_49', server: 'vincent-jackson2021.ga', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_50', server: '104.21.239.147', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_51', server: '104.21.239.147', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_52', server: '104.22.3.3', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_53', server: '104.22.3.3', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_54', server: '104.22.4.180', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_55', server: '104.22.4.180', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_56', server: '104.22.44.50', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_57', server: '104.22.44.50', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_58', server: '172.67.223.77', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_59', server: '172.67.223.77', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_60', server: '172.67.209.58', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_61', server: '172.67.209.58', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_62', server: '104.20.81.240', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_63', server: '104.20.81.240', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_64', server: 'icook.tw', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_65', server: 'icook.tw', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_66', server: '104.18.135.208', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_67', server: '104.18.135.208', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_68', server: 'www.garmin.com', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_69', server: 'www.garmin.com', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_70', server: 'www.cloudflare.com', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_71', server: 'www.cloudflare.com', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_72', server: '104.16.149.48', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_73', server: '104.16.149.48', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_74', server: '172.25.175.69', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_75', server: '172.25.175.69', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_76', server: '104.19.45.117', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_77', server: '104.19.45.117', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_78', server: '104.19.23.24', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_79', server: '104.19.23.24', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_80', server: '104.21.76.229', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_81', server: '104.21.76.229', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_82', server: '104.17.188.91', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_83', server: '104.17.188.91', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_84', server: '104.16.182.15', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_85', server: '104.16.182.15', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_86', server: '104.16.181.15', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_87', server: '104.16.181.15', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_88', server: '104.16.148.48', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_89', server: '104.16.148.48', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-29_90', server: '1.0.0.0', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-29_91', server: '1.0.0.0', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_92', server: '104.16.16.255', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_93', server: '104.16.16.255', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_94', server: '104.16.167.138', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_95', server: '104.16.167.138', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_96', server: '104.16.207.196', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_97', server: '104.16.207.196', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_98', server: '104.18.27.64', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_99', server: '104.18.27.64', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_100', server: '104.17.36.178', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_101', server: '104.17.36.178', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-35_102', server: 'www.digitalocean.com', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-35_103', server: 'www.digitalocean.com', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_104', server: 'amp.cloudflare.com', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_105', server: 'amp.cloudflare.com', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_106', server: '104.20.130.43', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_107', server: '104.20.130.43', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_108', server: '104.25.104.240', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_109', server: '104.25.104.240', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_110', server: '104.16.160.114', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_111', server: '104.16.160.114', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_112', server: '104.16.8.157', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_113', server: '104.16.8.157', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_114', server: '104.16.110.238', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_115', server: '104.16.110.238', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_116', server: '104.20.130.175', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: 'usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_117', server: '104.20.130.175', port: 443, type: vless, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakening_ws?ed=2048', host: 'vincent-jackson2021.ga', network: http }
+  - { name: '%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3h18eE7_118', server: '104.16.16.255', port: 443, type: vless, uuid: 'c07fef7d-e8d2-42fe-b977-50e368f18293', cipher: 'auto', skip-cert-verify: true, tls: true, flow: 'xtls-rprx-direct-udp443', path: '/The-Great-Awakening_ws', host: 'vincent-jackson2021.ga', network: http }
+  - { name: '%e8%81%94%e9%80%9a100M%2b4K-2_119', server: '104.17.36.178', port: 443, type: vless, uuid: 'e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/The-Great-Awakeningws', host: 'vincent-jackson2021.ml', network: http }
+  - {name: '美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_120', server: '104.16.110.238', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_121', server: '104.18.8.157', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_122', server: '104.20.130.175', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_123', server: '104.21.239.147', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_124', server: '104.22.3.3', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_125', server: '104.22.4.180', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_126', server: '104.22.44.50', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_127', server: '172.67.223.77', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_128', server: '172.67.209.58', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_129', server: '104.25.175.69', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_130', server: 'www.digitalocean.com', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_131', server: 'vincent-jackson2021.ga', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_132', server: '104.20.81.240', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_133', server: '104.19.45.117', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_134', server: '104.16.149.48', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_135', server: '104.21.76.229', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_136', server: '104.17.188.91', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_137', server: '104.16.182.15', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_138', server: '104.16.181.15', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_139', server: '104.16.148.48', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_140', server: '104.19.23.24', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_141', server: 'icook.tw', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_142', server: '104.16.16.255', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_143', server: '104.16.167.138', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_144', server: '104.16.207.196', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-33_145', server: '1.0.0.0', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-34 联通100M+4K_146', server: '104.18.27.64', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-35 联通100M+4K -2_147', server: '104.17.36.178', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_148', server: 'www.garmin.com', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_149', server: '104.18.135.208', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_150', server: '104.20.130.43', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_151', server: '104.25.104.240', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws?ed=2048', host: 'vincent-jackson2021.ga'} }
+  - {name: '美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_152', server: '104.16.160.114', port: 443, type: vmess, uuid: '5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/The-Great-Awakening_vws', host: 'vincent-jackson2021.ga'} }
+  - {name: '节点更新https://bit.ly/3oOSZUc_153', server: 'shcu01.iplc188.com', port: 10004, type: vmess, uuid: '65cac56d-4155-43c8-bae0-f368cb21f771', alterId: 1, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/'} }
+  - {name: '节点更新https://bit.ly/3oOSZUc_154', server: 'shcu01.iplc188.com', port: 10004, type: vmess, uuid: '65cac56d-4155-43c8-bae0-f368cb21f771', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/hls/cctv5phd.m3u8', host: 'apple137.hfnote.top'} }
+  - { name: '节点更新https://bit.ly/3oOSZUc_155', server: '167.88.61.60', port: 6379,  type: ss, cipher: 'aes-256-gcm', password: 'zDNVedRFPQexG9v' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_156', server: '38.75.136.93', port: 6379,  type: ss, cipher: 'aes-256-gcm', password: 'zDNVedRFPQexG9v' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_157', server: '38.91.102.86', port: 443,  type: ss, cipher: 'aes-256-gcm', password: 'pKEW8JPByTVTLtM' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_158', server: 'gz1.dddd.cool', port: 24999,  type: ss, cipher: 'chacha20-ietf-poly1305', password: '813c7a5c-755c-4011-85d5-ed9e209d07ec' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_159', server: '169.197.142.39', port: 9102,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_160', server: '38.91.102.86', port: 8009,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_161', server: '172.99.190.87', port: 5003,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_162', server: '169.197.142.39', port: 2375,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_163', server: '38.75.136.93', port: 7002,  type: ss, cipher: 'aes-256-gcm', password: 'RexnBgU7EV5ADxG' }
+  - {name: '节点更新https://bit.ly/3oOSZUc_164', server: '172.67.197.254', port: 443, type: vmess, uuid: 'd0ce51d5-b4de-4f99-ac7c-c5c1a123bd94', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/bb2b34a1', host: 'www.ltzs.buzz'} }
+  - { name: '节点更新https://bit.ly/3oOSZUc_165', server: '38.75.136.93', port: 6679,  type: ss, cipher: 'aes-256-gcm', password: 'TEzjfAYq2IjtuoS' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_166', server: '172.105.180.227', port: 6379,  type: ss, cipher: 'aes-256-gcm', password: 'zDNVedRFPQexG9v' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_167', server: '38.143.66.71', port: 7002,  type: ss, cipher: 'aes-256-gcm', password: 'RexnBgU7EV5ADxG' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_168', server: '172.105.180.227', port: 2375,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_169', server: '169.197.142.39', port: 8008,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_170', server: '169.197.142.39', port: 8091,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_171', server: '38.91.102.86', port: 6679,  type: ss, cipher: 'aes-256-gcm', password: 'TEzjfAYq2IjtuoS' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_172', server: '167.88.61.60', port: 8881,  type: ss, cipher: 'aes-256-gcm', password: 'kDWvXYZoTBcGkC4' }
+  - {name: '节点更新https://bit.ly/3oOSZUc_173', server: '112.33.32.136', port: 10003, type: vmess, uuid: '65cac56d-4155-43c8-bae0-f368cb21f771', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '112.33.32.136'} }
+  - { name: '节点更新https://bit.ly/3oOSZUc_174', server: '38.91.102.86', port: 2375,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_175', server: '38.75.136.93', port: 8009,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_176', server: '38.91.102.86', port: 8119,  type: ss, cipher: 'aes-256-gcm', password: 'cdBIDV42DCwnfIN' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_177', server: '172.99.190.87', port: 9101,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_178', server: '38.143.66.71', port: 8882,  type: ss, cipher: 'aes-256-gcm', password: 'kDWvXYZoTBcGkC4' }
+  - {name: '节点更新https://bit.ly/3oOSZUc_179', server: 'oz1.mooncloud.bike', port: 2053, type: vmess, uuid: 'c6aa6b6f-66b2-4755-a12e-48c8836fa0ec', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/', host: 'oz.mooncloud.bike'} }
+  - { name: '节点更新https://bit.ly/3oOSZUc_180', server: '169.197.142.39', port: 8090,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_181', server: '38.143.66.71', port: 8119,  type: ss, cipher: 'aes-256-gcm', password: 'cdBIDV42DCwnfIN' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_182', server: '145.239.1.137', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm' }
+  - {name: '节点更新https://bit.ly/3oOSZUc_183', server: '112.33.32.136', port: 10003, type: vmess, uuid: '65cac56d-4155-43c8-bae0-f368cb21f771', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/je5x3pBN1vez3NQudNkB', host: '112.33.32.136'} }
+  - { name: '节点更新https://bit.ly/3oOSZUc_184', server: '38.91.102.86', port: 8008,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_185', server: '167.88.61.60', port: 7002,  type: ss, cipher: 'aes-256-gcm', password: 'RexnBgU7EV5ADxG' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_186', server: '38.75.136.93', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm' }
+  - {name: '节点更新https://bit.ly/3oOSZUc_187', server: '112.33.32.136', port: 10004, type: vmess, uuid: '65cac56d-4155-43c8-bae0-f368cb21f771', alterId: 1, cipher: auto, tls: false, network: 'tcp' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_188', server: '167.88.61.60', port: 5000,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_189', server: '38.91.102.86', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_190', server: '38.143.66.71', port: 8000,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_191', server: '169.197.142.39', port: 443,  type: ss, cipher: 'aes-256-gcm', password: 'pKEW8JPByTVTLtM' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_192', server: '172.105.180.227', port: 8091,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27' }
+  - { name: '节点更新https://bit.ly/3oOSZUc_193', server: '38.143.66.71', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - {name: '节点更新https://bit.ly/3oOSZUc_194', server: '104.16.104.135', port: 443, type: vmess, uuid: '24b4b1e1-7a89-45f6-858c-242cf53b5bdb', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess', host: 'tight-math-32ee.tianzhen4567.workers.dev'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_10_195', server: '66.55.92.101', port: 8389,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'NK4wZejCzDfPdWXTK4FW' }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_11_196', server: '194.50.170.74', port: 63555, type: vmess, uuid: '8cc23f14-5c72-11ec-adab-961d85b1a943', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_12_197', server: '217.182.199.168', port: 8090,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_13_198', server: '141.95.0.26', port: 826,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'sF43Xt2gONqcgFX563' }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_14_199', server: 'usa-buffalo.lvuft.com', port: 443, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_15_200', server: '198.244.150.26', port: 826,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'sF43Xt2gONqcgFX563' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_16_201', server: '172.99.190.87', port: 8008,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74' }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_17_202', server: 'us1nhg-node.aiqiche123.com', port: 13723, type: vmess, uuid: 'a90597c1-bab3-4217-ad6f-0838675c8634', alterId: 10, cipher: auto, tls: true, network: 'ws', ws-opts: { path: 'ray'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_18_203', server: '172.99.190.87', port: 9101,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_19_204', server: '93.186.201.124', port: 812,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'G!yBwPWH3Vao' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_20_205', server: '46.102.153.106', port: 8389,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'dsHq7JmRFhSkvxzCuMFy' }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_21_206', server: 'aicoo6du.com', port: 443, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_22_207', server: '145.239.1.137', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_23_208', server: '145.239.1.137', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_24_209', server: '46.29.218.6', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_25_210', server: '198.57.27.218', port: 8091,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27' }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_26_211', server: 'germany-dusseldorf.mah3Hoet.com', port: 443, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws'} }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_27_212', server: '112.33.32.136', port: 10003, type: vmess, uuid: '65cac56d-4155-43c8-bae0-f368cb21f771', alterId: 1, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/'} }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_28_213', server: '116.192.166.2', port: 10004, type: vmess, uuid: '65cac56d-4155-43c8-bae0-f368cb21f771', alterId: 1, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_29_214', server: '145.239.1.137', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_30_215', server: '145.239.1.137', port: 2376,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_31_216', server: '194.156.120.52', port: 41002, type: vmess, uuid: 'ebb93e84-5bb7-11ec-8bc6-6a5c6e054e4d', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_32_217', server: '198.57.27.218', port: 8090,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_33_218', server: '198.57.27.218', port: 2376,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_34_219', server: '198.57.27.218', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_35_220', server: '198.57.27.218', port: 2375,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_36_221', server: '46.29.163.68', port: 6160, type: vmess, uuid: 'dcb97e4a-5bc5-11ec-8b63-0698663da5a9', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_37_222', server: '46.29.218.6', port: 2375,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_38_223', server: '139.227.219.165', port: 30016, type: vmess, uuid: '5efeb899-e8bd-446f-b0be-863d30331174', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_39_224', server: '145.239.1.137', port: 7307,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_40_225', server: '145.239.1.137', port: 5004,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId' }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_41_226', server: '120.232.173.88', port: 45319, type: vmess, uuid: '310948de-6c49-36f3-990e-2048adea5ab0', alterId: 2, cipher: auto, tls: false, network: 'ws', ws-opts: { path: '/inde'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_42_227', server: '198.57.27.218', port: 443,  type: ss, cipher: 'aes-256-gcm', password: 'pKEW8JPByTVTLtM' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_43_228', server: '46.29.218.6', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_44_229', server: '46.29.218.6', port: 6379,  type: ss, cipher: 'aes-256-gcm', password: 'zDNVedRFPQexG9v' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_45_230', server: '46.29.218.6', port: 8882,  type: ss, cipher: 'aes-256-gcm', password: 'kDWvXYZoTBcGkC4' }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_46_231', server: 'cm-jm.okvpn.xyz', port: 20005, type: vmess, uuid: 'be0acefb-485f-4395-adb9-f15428d10ca4', alterId: 1, cipher: auto, tls: false, network: 'ws', ws-opts: { path: '/', host: 'cm-jm.okvpn.xyz'} }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_47_232', server: '120.197.88.216', port: 20015, type: vmess, uuid: 'be0acefb-485f-4395-adb9-f15428d10ca4', alterId: 1, cipher: auto, tls: false, network: 'ws', ws-opts: { path: '/'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_48_233', server: '145.239.1.137', port: 8090,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27' }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_49_234', server: '149.248.16.94', port: 61489, type: vmess, uuid: '024b5140-5c72-11ec-8d18-560003bc59d9', alterId: 0, cipher: auto, tls: false, network: 'ws', ws-opts: { path: '/bK3AFW57/'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_50_235', server: '185.51.134.210', port: 8389,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'mTrN2fMYeWJwrkWpTnL2' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_51_236', server: '198.57.27.218', port: 5003,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_52_237', server: '198.57.27.218', port: 7307,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_53_238', server: '46.29.218.6', port: 2376,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_54_239', server: '46.29.218.6', port: 8008,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_55_240', server: '46.29.218.6', port: 8090,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_56_241', server: '46.29.218.6', port: 5004,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId' }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_57_242', server: '112.33.32.136', port: 10001, type: vmess, uuid: '65cac56d-4155-43c8-bae0-f368cb21f771', alterId: 1, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_58_243', server: '77.243.177.78', port: 8388,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'Qu9b6jbYLF5Dtha3n7W2' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_59_244', server: '145.239.1.137', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_60_245', server: '145.239.1.137', port: 5003,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_61_246', server: '145.239.1.137', port: 8091,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_62_247', server: '145.239.1.137', port: 443,  type: ss, cipher: 'aes-256-gcm', password: 'pKEW8JPByTVTLtM' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_63_248', server: '46.29.218.6', port: 5000,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_64_249', server: '46.29.218.6', port: 5001,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_65_250', server: '46.29.218.6', port: 8091,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27' }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_66_251', server: 'cm-jm.okvpn.xyz', port: 20049, type: vmess, uuid: 'be0acefb-485f-4395-adb9-f15428d10ca4', alterId: 1, cipher: auto, tls: false, network: 'ws', ws-opts: { path: '/'} }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_67_252', server: 'cm-jm.okvpn.xyz', port: 20015, type: vmess, uuid: 'be0acefb-485f-4395-adb9-f15428d10ca4', alterId: 1, cipher: auto, tls: false, network: 'ws', ws-opts: { path: '/'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_68_253', server: '118.107.244.110', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_69_254', server: '188.214.106.98', port: 8389,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'cNbqVVyUfbJFZ6S8EgRH' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_70_255', server: '118.107.244.110', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_71_256', server: '172.99.190.87', port: 5004,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId' }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_72_257', server: '198.200.51.18', port: 600, type: vmess, uuid: '42f7eabe-0d3f-11ec-859b-00163caf481c', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_73_258', server: '198.57.27.218', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_74_259', server: '23.106.35.90', port: 18336,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_75_260', server: '46.29.218.6', port: 7307,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_76_261', server: '62.210.209.50', port: 8118,  type: ss, cipher: 'aes-256-gcm', password: 'cdBIDV42DCwnfIN' }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_77_262', server: '7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com', port: 30016, type: vmess, uuid: '5efeb899-e8bd-446f-b0be-863d30331174', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/'} }
+  - {name: 'Youtube:https://bit.ly/3oOSZUc_78_263', server: '7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com', port: 30016, type: vmess, uuid: '5efeb899-e8bd-446f-b0be-863d30331174', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com'} }
+  - { name: 'Youtube:https://bit.ly/3oOSZUc_79_264', server: '89.238.177.234', port: 8389,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'VPPqaR4qpLmNw37jaJg6' }
+  - { name: '11111111111111_265', server: '212.199.61.55', port: 8388,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'scDj68fv6xkMg2np9RgW' }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇮🇳_IN_印度_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国_10
+      - 2022-1-7+更新_1
+      - EN01-IEPL+|+3倍_2
+      - AU01-IEPL+|+3倍_3
+      - 美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_4
+      - 美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_5
+      - 美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_6
+      - 美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_7
+      - 美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_8
+      - 美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_9
+      - 美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_10
+      - 美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_11
+      - 美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_12
+      - 美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_13
+      - 美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_14
+      - 美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_15
+      - 美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_16
+      - 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_17
+      - 美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_18
+      - 美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_19
+      - 美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_20
+      - 美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_21
+      - 美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_22
+      - 美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_23
+      - 美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_24
+      - 美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_25
+      - 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_26
+      - 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_27
+      - 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_28
+      - 美国-New York-33_29
+      - 美国-New York-34 联通100M+4K_30
+      - 美国-New York-35 联通100M+4K -2_31
+      - 美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_32
+      - 美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_33
+      - 美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_34
+      - 美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_35
+      - 美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_36
+      - vincent-jackson2021.ga_vmess_ws_37
+      - vincent-jackson2021.ga_c0f4d26f-b870-3b0d-a77e-1786fcf52e50_38
+      - vincent-jackson2021.ga_vmess_ws_39
+      - vincent-jackson2021.ga_VLESS_WS_40
+      - vincent-jackson2021.ga_vmess_ws_41
+      - vincent-jackson2021.ga_vmess_ws_42
+      - vincent-jackson2021.ga_vmess_ws_43
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_44
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_45
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_46
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_47
+      - usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_48
+      - usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_49
+      - usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_50
+      - usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_51
+      - usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_52
+      - usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_53
+      - usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_54
+      - usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_55
+      - usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_56
+      - usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_57
+      - usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_58
+      - usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_59
+      - usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_60
+      - usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_61
+      - usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_62
+      - usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_63
+      - usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_64
+      - usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_65
+      - usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_66
+      - usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_67
+      - usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_68
+      - usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_69
+      - usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_70
+      - usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_71
+      - usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_72
+      - usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_73
+      - usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_74
+      - usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_75
+      - usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_76
+      - usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_77
+      - usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_78
+      - usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_79
+      - usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_80
+      - usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_81
+      - usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_82
+      - usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_83
+      - usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_84
+      - usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_85
+      - usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_86
+      - usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_87
+      - usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_88
+      - usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_89
+      - usa-29_90
+      - usa-29_91
+      - usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_92
+      - usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_93
+      - usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_94
+      - usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_95
+      - usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_96
+      - usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_97
+      - usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_98
+      - usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_99
+      - usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_100
+      - usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_101
+      - usa-35_102
+      - usa-35_103
+      - usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_104
+      - usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_105
+      - usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_106
+      - usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_107
+      - usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_108
+      - usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_109
+      - usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_110
+      - usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_111
+      - usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_112
+      - usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_113
+      - usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_114
+      - usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_115
+      - usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_116
+      - usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_117
+      - 美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_120
+      - 美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_121
+      - 美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_122
+      - 美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_123
+      - 美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_124
+      - 美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_125
+      - 美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_126
+      - 美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_127
+      - 美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_128
+      - 美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_129
+      - 美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_130
+      - 美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_131
+      - 美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_132
+      - 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_133
+      - 美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_134
+      - 美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_135
+      - 美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_136
+      - 美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_137
+      - 美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_138
+      - 美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_139
+      - 美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_140
+      - 美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_141
+      - 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_142
+      - 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_143
+      - 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_144
+      - 美国-New York-33_145
+      - 美国-New York-34 联通100M+4K_146
+      - 美国-New York-35 联通100M+4K -2_147
+      - 美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_148
+      - 美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_149
+      - 美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_150
+      - 美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_151
+      - 美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_152
+      - 节点更新https://bit.ly/3oOSZUc_153
+      - 节点更新https://bit.ly/3oOSZUc_154
+      - 节点更新https://bit.ly/3oOSZUc_155
+      - 节点更新https://bit.ly/3oOSZUc_156
+      - 节点更新https://bit.ly/3oOSZUc_157
+      - 节点更新https://bit.ly/3oOSZUc_158
+      - 节点更新https://bit.ly/3oOSZUc_159
+      - 节点更新https://bit.ly/3oOSZUc_160
+      - 节点更新https://bit.ly/3oOSZUc_161
+      - 节点更新https://bit.ly/3oOSZUc_162
+      - 节点更新https://bit.ly/3oOSZUc_163
+      - 节点更新https://bit.ly/3oOSZUc_164
+      - 节点更新https://bit.ly/3oOSZUc_165
+      - 节点更新https://bit.ly/3oOSZUc_166
+      - 节点更新https://bit.ly/3oOSZUc_167
+      - 节点更新https://bit.ly/3oOSZUc_168
+      - 节点更新https://bit.ly/3oOSZUc_169
+      - 节点更新https://bit.ly/3oOSZUc_170
+      - 节点更新https://bit.ly/3oOSZUc_171
+      - 节点更新https://bit.ly/3oOSZUc_172
+      - 节点更新https://bit.ly/3oOSZUc_173
+      - 节点更新https://bit.ly/3oOSZUc_174
+      - 节点更新https://bit.ly/3oOSZUc_175
+      - 节点更新https://bit.ly/3oOSZUc_176
+      - 节点更新https://bit.ly/3oOSZUc_177
+      - 节点更新https://bit.ly/3oOSZUc_178
+      - 节点更新https://bit.ly/3oOSZUc_179
+      - 节点更新https://bit.ly/3oOSZUc_180
+      - 节点更新https://bit.ly/3oOSZUc_181
+      - 节点更新https://bit.ly/3oOSZUc_182
+      - 节点更新https://bit.ly/3oOSZUc_183
+      - 节点更新https://bit.ly/3oOSZUc_184
+      - 节点更新https://bit.ly/3oOSZUc_185
+      - 节点更新https://bit.ly/3oOSZUc_186
+      - 节点更新https://bit.ly/3oOSZUc_187
+      - 节点更新https://bit.ly/3oOSZUc_188
+      - 节点更新https://bit.ly/3oOSZUc_189
+      - 节点更新https://bit.ly/3oOSZUc_190
+      - 节点更新https://bit.ly/3oOSZUc_191
+      - 节点更新https://bit.ly/3oOSZUc_192
+      - 节点更新https://bit.ly/3oOSZUc_193
+      - 节点更新https://bit.ly/3oOSZUc_194
+      - Youtube:https://bit.ly/3oOSZUc_10_195
+      - Youtube:https://bit.ly/3oOSZUc_11_196
+      - Youtube:https://bit.ly/3oOSZUc_12_197
+      - Youtube:https://bit.ly/3oOSZUc_13_198
+      - Youtube:https://bit.ly/3oOSZUc_14_199
+      - Youtube:https://bit.ly/3oOSZUc_15_200
+      - Youtube:https://bit.ly/3oOSZUc_16_201
+      - Youtube:https://bit.ly/3oOSZUc_17_202
+      - Youtube:https://bit.ly/3oOSZUc_18_203
+      - Youtube:https://bit.ly/3oOSZUc_19_204
+      - Youtube:https://bit.ly/3oOSZUc_20_205
+      - Youtube:https://bit.ly/3oOSZUc_21_206
+      - Youtube:https://bit.ly/3oOSZUc_22_207
+      - Youtube:https://bit.ly/3oOSZUc_23_208
+      - Youtube:https://bit.ly/3oOSZUc_24_209
+      - Youtube:https://bit.ly/3oOSZUc_25_210
+      - Youtube:https://bit.ly/3oOSZUc_26_211
+      - Youtube:https://bit.ly/3oOSZUc_27_212
+      - Youtube:https://bit.ly/3oOSZUc_28_213
+      - Youtube:https://bit.ly/3oOSZUc_29_214
+      - Youtube:https://bit.ly/3oOSZUc_30_215
+      - Youtube:https://bit.ly/3oOSZUc_31_216
+      - Youtube:https://bit.ly/3oOSZUc_32_217
+      - Youtube:https://bit.ly/3oOSZUc_33_218
+      - Youtube:https://bit.ly/3oOSZUc_34_219
+      - Youtube:https://bit.ly/3oOSZUc_35_220
+      - Youtube:https://bit.ly/3oOSZUc_36_221
+      - Youtube:https://bit.ly/3oOSZUc_37_222
+      - Youtube:https://bit.ly/3oOSZUc_38_223
+      - Youtube:https://bit.ly/3oOSZUc_39_224
+      - Youtube:https://bit.ly/3oOSZUc_40_225
+      - Youtube:https://bit.ly/3oOSZUc_41_226
+      - Youtube:https://bit.ly/3oOSZUc_42_227
+      - Youtube:https://bit.ly/3oOSZUc_43_228
+      - Youtube:https://bit.ly/3oOSZUc_44_229
+      - Youtube:https://bit.ly/3oOSZUc_45_230
+      - Youtube:https://bit.ly/3oOSZUc_46_231
+      - Youtube:https://bit.ly/3oOSZUc_47_232
+      - Youtube:https://bit.ly/3oOSZUc_48_233
+      - Youtube:https://bit.ly/3oOSZUc_49_234
+      - Youtube:https://bit.ly/3oOSZUc_50_235
+      - Youtube:https://bit.ly/3oOSZUc_51_236
+      - Youtube:https://bit.ly/3oOSZUc_52_237
+      - Youtube:https://bit.ly/3oOSZUc_53_238
+      - Youtube:https://bit.ly/3oOSZUc_54_239
+      - Youtube:https://bit.ly/3oOSZUc_55_240
+      - Youtube:https://bit.ly/3oOSZUc_56_241
+      - Youtube:https://bit.ly/3oOSZUc_57_242
+      - Youtube:https://bit.ly/3oOSZUc_58_243
+      - Youtube:https://bit.ly/3oOSZUc_59_244
+      - Youtube:https://bit.ly/3oOSZUc_60_245
+      - Youtube:https://bit.ly/3oOSZUc_61_246
+      - Youtube:https://bit.ly/3oOSZUc_62_247
+      - Youtube:https://bit.ly/3oOSZUc_63_248
+      - Youtube:https://bit.ly/3oOSZUc_64_249
+      - Youtube:https://bit.ly/3oOSZUc_65_250
+      - Youtube:https://bit.ly/3oOSZUc_66_251
+      - Youtube:https://bit.ly/3oOSZUc_67_252
+      - Youtube:https://bit.ly/3oOSZUc_68_253
+      - Youtube:https://bit.ly/3oOSZUc_69_254
+      - Youtube:https://bit.ly/3oOSZUc_70_255
+      - Youtube:https://bit.ly/3oOSZUc_71_256
+      - Youtube:https://bit.ly/3oOSZUc_72_257
+      - Youtube:https://bit.ly/3oOSZUc_73_258
+      - Youtube:https://bit.ly/3oOSZUc_74_259
+      - Youtube:https://bit.ly/3oOSZUc_75_260
+      - Youtube:https://bit.ly/3oOSZUc_76_261
+      - Youtube:https://bit.ly/3oOSZUc_77_262
+      - Youtube:https://bit.ly/3oOSZUc_78_263
+      - Youtube:https://bit.ly/3oOSZUc_79_264
+      - 11111111111111_265
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇮🇳_IN_印度_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国_10
+      - 2022-1-7+更新_1
+      - EN01-IEPL+|+3倍_2
+      - AU01-IEPL+|+3倍_3
+      - 美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_4
+      - 美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_5
+      - 美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_6
+      - 美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_7
+      - 美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_8
+      - 美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_9
+      - 美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_10
+      - 美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_11
+      - 美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_12
+      - 美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_13
+      - 美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_14
+      - 美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_15
+      - 美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_16
+      - 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_17
+      - 美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_18
+      - 美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_19
+      - 美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_20
+      - 美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_21
+      - 美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_22
+      - 美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_23
+      - 美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_24
+      - 美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_25
+      - 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_26
+      - 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_27
+      - 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_28
+      - 美国-New York-33_29
+      - 美国-New York-34 联通100M+4K_30
+      - 美国-New York-35 联通100M+4K -2_31
+      - 美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_32
+      - 美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_33
+      - 美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_34
+      - 美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_35
+      - 美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_36
+      - vincent-jackson2021.ga_vmess_ws_37
+      - vincent-jackson2021.ga_c0f4d26f-b870-3b0d-a77e-1786fcf52e50_38
+      - vincent-jackson2021.ga_vmess_ws_39
+      - vincent-jackson2021.ga_VLESS_WS_40
+      - vincent-jackson2021.ga_vmess_ws_41
+      - vincent-jackson2021.ga_vmess_ws_42
+      - vincent-jackson2021.ga_vmess_ws_43
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_44
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_45
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_46
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_47
+      - usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_48
+      - usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_49
+      - usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_50
+      - usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_51
+      - usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_52
+      - usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_53
+      - usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_54
+      - usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_55
+      - usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_56
+      - usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_57
+      - usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_58
+      - usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_59
+      - usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_60
+      - usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_61
+      - usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_62
+      - usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_63
+      - usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_64
+      - usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_65
+      - usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_66
+      - usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_67
+      - usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_68
+      - usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_69
+      - usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_70
+      - usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_71
+      - usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_72
+      - usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_73
+      - usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_74
+      - usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_75
+      - usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_76
+      - usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_77
+      - usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_78
+      - usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_79
+      - usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_80
+      - usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_81
+      - usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_82
+      - usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_83
+      - usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_84
+      - usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_85
+      - usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_86
+      - usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_87
+      - usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_88
+      - usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_89
+      - usa-29_90
+      - usa-29_91
+      - usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_92
+      - usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_93
+      - usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_94
+      - usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_95
+      - usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_96
+      - usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_97
+      - usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_98
+      - usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_99
+      - usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_100
+      - usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_101
+      - usa-35_102
+      - usa-35_103
+      - usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_104
+      - usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_105
+      - usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_106
+      - usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_107
+      - usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_108
+      - usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_109
+      - usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_110
+      - usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_111
+      - usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_112
+      - usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_113
+      - usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_114
+      - usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_115
+      - usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_116
+      - usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_117
+      - 美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_120
+      - 美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_121
+      - 美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_122
+      - 美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_123
+      - 美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_124
+      - 美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_125
+      - 美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_126
+      - 美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_127
+      - 美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_128
+      - 美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_129
+      - 美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_130
+      - 美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_131
+      - 美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_132
+      - 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_133
+      - 美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_134
+      - 美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_135
+      - 美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_136
+      - 美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_137
+      - 美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_138
+      - 美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_139
+      - 美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_140
+      - 美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_141
+      - 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_142
+      - 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_143
+      - 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_144
+      - 美国-New York-33_145
+      - 美国-New York-34 联通100M+4K_146
+      - 美国-New York-35 联通100M+4K -2_147
+      - 美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_148
+      - 美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_149
+      - 美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_150
+      - 美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_151
+      - 美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_152
+      - 节点更新https://bit.ly/3oOSZUc_153
+      - 节点更新https://bit.ly/3oOSZUc_154
+      - 节点更新https://bit.ly/3oOSZUc_155
+      - 节点更新https://bit.ly/3oOSZUc_156
+      - 节点更新https://bit.ly/3oOSZUc_157
+      - 节点更新https://bit.ly/3oOSZUc_158
+      - 节点更新https://bit.ly/3oOSZUc_159
+      - 节点更新https://bit.ly/3oOSZUc_160
+      - 节点更新https://bit.ly/3oOSZUc_161
+      - 节点更新https://bit.ly/3oOSZUc_162
+      - 节点更新https://bit.ly/3oOSZUc_163
+      - 节点更新https://bit.ly/3oOSZUc_164
+      - 节点更新https://bit.ly/3oOSZUc_165
+      - 节点更新https://bit.ly/3oOSZUc_166
+      - 节点更新https://bit.ly/3oOSZUc_167
+      - 节点更新https://bit.ly/3oOSZUc_168
+      - 节点更新https://bit.ly/3oOSZUc_169
+      - 节点更新https://bit.ly/3oOSZUc_170
+      - 节点更新https://bit.ly/3oOSZUc_171
+      - 节点更新https://bit.ly/3oOSZUc_172
+      - 节点更新https://bit.ly/3oOSZUc_173
+      - 节点更新https://bit.ly/3oOSZUc_174
+      - 节点更新https://bit.ly/3oOSZUc_175
+      - 节点更新https://bit.ly/3oOSZUc_176
+      - 节点更新https://bit.ly/3oOSZUc_177
+      - 节点更新https://bit.ly/3oOSZUc_178
+      - 节点更新https://bit.ly/3oOSZUc_179
+      - 节点更新https://bit.ly/3oOSZUc_180
+      - 节点更新https://bit.ly/3oOSZUc_181
+      - 节点更新https://bit.ly/3oOSZUc_182
+      - 节点更新https://bit.ly/3oOSZUc_183
+      - 节点更新https://bit.ly/3oOSZUc_184
+      - 节点更新https://bit.ly/3oOSZUc_185
+      - 节点更新https://bit.ly/3oOSZUc_186
+      - 节点更新https://bit.ly/3oOSZUc_187
+      - 节点更新https://bit.ly/3oOSZUc_188
+      - 节点更新https://bit.ly/3oOSZUc_189
+      - 节点更新https://bit.ly/3oOSZUc_190
+      - 节点更新https://bit.ly/3oOSZUc_191
+      - 节点更新https://bit.ly/3oOSZUc_192
+      - 节点更新https://bit.ly/3oOSZUc_193
+      - 节点更新https://bit.ly/3oOSZUc_194
+      - Youtube:https://bit.ly/3oOSZUc_10_195
+      - Youtube:https://bit.ly/3oOSZUc_11_196
+      - Youtube:https://bit.ly/3oOSZUc_12_197
+      - Youtube:https://bit.ly/3oOSZUc_13_198
+      - Youtube:https://bit.ly/3oOSZUc_14_199
+      - Youtube:https://bit.ly/3oOSZUc_15_200
+      - Youtube:https://bit.ly/3oOSZUc_16_201
+      - Youtube:https://bit.ly/3oOSZUc_17_202
+      - Youtube:https://bit.ly/3oOSZUc_18_203
+      - Youtube:https://bit.ly/3oOSZUc_19_204
+      - Youtube:https://bit.ly/3oOSZUc_20_205
+      - Youtube:https://bit.ly/3oOSZUc_21_206
+      - Youtube:https://bit.ly/3oOSZUc_22_207
+      - Youtube:https://bit.ly/3oOSZUc_23_208
+      - Youtube:https://bit.ly/3oOSZUc_24_209
+      - Youtube:https://bit.ly/3oOSZUc_25_210
+      - Youtube:https://bit.ly/3oOSZUc_26_211
+      - Youtube:https://bit.ly/3oOSZUc_27_212
+      - Youtube:https://bit.ly/3oOSZUc_28_213
+      - Youtube:https://bit.ly/3oOSZUc_29_214
+      - Youtube:https://bit.ly/3oOSZUc_30_215
+      - Youtube:https://bit.ly/3oOSZUc_31_216
+      - Youtube:https://bit.ly/3oOSZUc_32_217
+      - Youtube:https://bit.ly/3oOSZUc_33_218
+      - Youtube:https://bit.ly/3oOSZUc_34_219
+      - Youtube:https://bit.ly/3oOSZUc_35_220
+      - Youtube:https://bit.ly/3oOSZUc_36_221
+      - Youtube:https://bit.ly/3oOSZUc_37_222
+      - Youtube:https://bit.ly/3oOSZUc_38_223
+      - Youtube:https://bit.ly/3oOSZUc_39_224
+      - Youtube:https://bit.ly/3oOSZUc_40_225
+      - Youtube:https://bit.ly/3oOSZUc_41_226
+      - Youtube:https://bit.ly/3oOSZUc_42_227
+      - Youtube:https://bit.ly/3oOSZUc_43_228
+      - Youtube:https://bit.ly/3oOSZUc_44_229
+      - Youtube:https://bit.ly/3oOSZUc_45_230
+      - Youtube:https://bit.ly/3oOSZUc_46_231
+      - Youtube:https://bit.ly/3oOSZUc_47_232
+      - Youtube:https://bit.ly/3oOSZUc_48_233
+      - Youtube:https://bit.ly/3oOSZUc_49_234
+      - Youtube:https://bit.ly/3oOSZUc_50_235
+      - Youtube:https://bit.ly/3oOSZUc_51_236
+      - Youtube:https://bit.ly/3oOSZUc_52_237
+      - Youtube:https://bit.ly/3oOSZUc_53_238
+      - Youtube:https://bit.ly/3oOSZUc_54_239
+      - Youtube:https://bit.ly/3oOSZUc_55_240
+      - Youtube:https://bit.ly/3oOSZUc_56_241
+      - Youtube:https://bit.ly/3oOSZUc_57_242
+      - Youtube:https://bit.ly/3oOSZUc_58_243
+      - Youtube:https://bit.ly/3oOSZUc_59_244
+      - Youtube:https://bit.ly/3oOSZUc_60_245
+      - Youtube:https://bit.ly/3oOSZUc_61_246
+      - Youtube:https://bit.ly/3oOSZUc_62_247
+      - Youtube:https://bit.ly/3oOSZUc_63_248
+      - Youtube:https://bit.ly/3oOSZUc_64_249
+      - Youtube:https://bit.ly/3oOSZUc_65_250
+      - Youtube:https://bit.ly/3oOSZUc_66_251
+      - Youtube:https://bit.ly/3oOSZUc_67_252
+      - Youtube:https://bit.ly/3oOSZUc_68_253
+      - Youtube:https://bit.ly/3oOSZUc_69_254
+      - Youtube:https://bit.ly/3oOSZUc_70_255
+      - Youtube:https://bit.ly/3oOSZUc_71_256
+      - Youtube:https://bit.ly/3oOSZUc_72_257
+      - Youtube:https://bit.ly/3oOSZUc_73_258
+      - Youtube:https://bit.ly/3oOSZUc_74_259
+      - Youtube:https://bit.ly/3oOSZUc_75_260
+      - Youtube:https://bit.ly/3oOSZUc_76_261
+      - Youtube:https://bit.ly/3oOSZUc_77_262
+      - Youtube:https://bit.ly/3oOSZUc_78_263
+      - Youtube:https://bit.ly/3oOSZUc_79_264
+      - 11111111111111_265
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇮🇳_IN_印度_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国_10
+      - 2022-1-7+更新_1
+      - EN01-IEPL+|+3倍_2
+      - AU01-IEPL+|+3倍_3
+      - 美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_4
+      - 美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_5
+      - 美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_6
+      - 美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_7
+      - 美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_8
+      - 美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_9
+      - 美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_10
+      - 美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_11
+      - 美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_12
+      - 美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_13
+      - 美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_14
+      - 美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_15
+      - 美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_16
+      - 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_17
+      - 美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_18
+      - 美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_19
+      - 美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_20
+      - 美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_21
+      - 美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_22
+      - 美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_23
+      - 美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_24
+      - 美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_25
+      - 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_26
+      - 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_27
+      - 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_28
+      - 美国-New York-33_29
+      - 美国-New York-34 联通100M+4K_30
+      - 美国-New York-35 联通100M+4K -2_31
+      - 美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_32
+      - 美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_33
+      - 美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_34
+      - 美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_35
+      - 美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_36
+      - vincent-jackson2021.ga_vmess_ws_37
+      - vincent-jackson2021.ga_c0f4d26f-b870-3b0d-a77e-1786fcf52e50_38
+      - vincent-jackson2021.ga_vmess_ws_39
+      - vincent-jackson2021.ga_VLESS_WS_40
+      - vincent-jackson2021.ga_vmess_ws_41
+      - vincent-jackson2021.ga_vmess_ws_42
+      - vincent-jackson2021.ga_vmess_ws_43
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_44
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_45
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_46
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_47
+      - usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_48
+      - usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_49
+      - usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_50
+      - usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_51
+      - usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_52
+      - usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_53
+      - usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_54
+      - usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_55
+      - usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_56
+      - usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_57
+      - usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_58
+      - usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_59
+      - usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_60
+      - usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_61
+      - usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_62
+      - usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_63
+      - usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_64
+      - usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_65
+      - usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_66
+      - usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_67
+      - usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_68
+      - usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_69
+      - usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_70
+      - usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_71
+      - usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_72
+      - usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_73
+      - usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_74
+      - usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_75
+      - usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_76
+      - usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_77
+      - usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_78
+      - usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_79
+      - usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_80
+      - usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_81
+      - usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_82
+      - usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_83
+      - usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_84
+      - usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_85
+      - usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_86
+      - usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_87
+      - usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_88
+      - usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_89
+      - usa-29_90
+      - usa-29_91
+      - usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_92
+      - usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_93
+      - usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_94
+      - usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_95
+      - usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_96
+      - usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_97
+      - usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_98
+      - usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_99
+      - usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_100
+      - usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_101
+      - usa-35_102
+      - usa-35_103
+      - usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_104
+      - usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_105
+      - usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_106
+      - usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_107
+      - usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_108
+      - usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_109
+      - usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_110
+      - usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_111
+      - usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_112
+      - usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_113
+      - usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_114
+      - usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_115
+      - usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_116
+      - usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_117
+      - 美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_120
+      - 美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_121
+      - 美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_122
+      - 美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_123
+      - 美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_124
+      - 美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_125
+      - 美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_126
+      - 美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_127
+      - 美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_128
+      - 美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_129
+      - 美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_130
+      - 美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_131
+      - 美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_132
+      - 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_133
+      - 美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_134
+      - 美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_135
+      - 美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_136
+      - 美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_137
+      - 美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_138
+      - 美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_139
+      - 美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_140
+      - 美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_141
+      - 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_142
+      - 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_143
+      - 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_144
+      - 美国-New York-33_145
+      - 美国-New York-34 联通100M+4K_146
+      - 美国-New York-35 联通100M+4K -2_147
+      - 美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_148
+      - 美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_149
+      - 美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_150
+      - 美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_151
+      - 美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_152
+      - 节点更新https://bit.ly/3oOSZUc_153
+      - 节点更新https://bit.ly/3oOSZUc_154
+      - 节点更新https://bit.ly/3oOSZUc_155
+      - 节点更新https://bit.ly/3oOSZUc_156
+      - 节点更新https://bit.ly/3oOSZUc_157
+      - 节点更新https://bit.ly/3oOSZUc_158
+      - 节点更新https://bit.ly/3oOSZUc_159
+      - 节点更新https://bit.ly/3oOSZUc_160
+      - 节点更新https://bit.ly/3oOSZUc_161
+      - 节点更新https://bit.ly/3oOSZUc_162
+      - 节点更新https://bit.ly/3oOSZUc_163
+      - 节点更新https://bit.ly/3oOSZUc_164
+      - 节点更新https://bit.ly/3oOSZUc_165
+      - 节点更新https://bit.ly/3oOSZUc_166
+      - 节点更新https://bit.ly/3oOSZUc_167
+      - 节点更新https://bit.ly/3oOSZUc_168
+      - 节点更新https://bit.ly/3oOSZUc_169
+      - 节点更新https://bit.ly/3oOSZUc_170
+      - 节点更新https://bit.ly/3oOSZUc_171
+      - 节点更新https://bit.ly/3oOSZUc_172
+      - 节点更新https://bit.ly/3oOSZUc_173
+      - 节点更新https://bit.ly/3oOSZUc_174
+      - 节点更新https://bit.ly/3oOSZUc_175
+      - 节点更新https://bit.ly/3oOSZUc_176
+      - 节点更新https://bit.ly/3oOSZUc_177
+      - 节点更新https://bit.ly/3oOSZUc_178
+      - 节点更新https://bit.ly/3oOSZUc_179
+      - 节点更新https://bit.ly/3oOSZUc_180
+      - 节点更新https://bit.ly/3oOSZUc_181
+      - 节点更新https://bit.ly/3oOSZUc_182
+      - 节点更新https://bit.ly/3oOSZUc_183
+      - 节点更新https://bit.ly/3oOSZUc_184
+      - 节点更新https://bit.ly/3oOSZUc_185
+      - 节点更新https://bit.ly/3oOSZUc_186
+      - 节点更新https://bit.ly/3oOSZUc_187
+      - 节点更新https://bit.ly/3oOSZUc_188
+      - 节点更新https://bit.ly/3oOSZUc_189
+      - 节点更新https://bit.ly/3oOSZUc_190
+      - 节点更新https://bit.ly/3oOSZUc_191
+      - 节点更新https://bit.ly/3oOSZUc_192
+      - 节点更新https://bit.ly/3oOSZUc_193
+      - 节点更新https://bit.ly/3oOSZUc_194
+      - Youtube:https://bit.ly/3oOSZUc_10_195
+      - Youtube:https://bit.ly/3oOSZUc_11_196
+      - Youtube:https://bit.ly/3oOSZUc_12_197
+      - Youtube:https://bit.ly/3oOSZUc_13_198
+      - Youtube:https://bit.ly/3oOSZUc_14_199
+      - Youtube:https://bit.ly/3oOSZUc_15_200
+      - Youtube:https://bit.ly/3oOSZUc_16_201
+      - Youtube:https://bit.ly/3oOSZUc_17_202
+      - Youtube:https://bit.ly/3oOSZUc_18_203
+      - Youtube:https://bit.ly/3oOSZUc_19_204
+      - Youtube:https://bit.ly/3oOSZUc_20_205
+      - Youtube:https://bit.ly/3oOSZUc_21_206
+      - Youtube:https://bit.ly/3oOSZUc_22_207
+      - Youtube:https://bit.ly/3oOSZUc_23_208
+      - Youtube:https://bit.ly/3oOSZUc_24_209
+      - Youtube:https://bit.ly/3oOSZUc_25_210
+      - Youtube:https://bit.ly/3oOSZUc_26_211
+      - Youtube:https://bit.ly/3oOSZUc_27_212
+      - Youtube:https://bit.ly/3oOSZUc_28_213
+      - Youtube:https://bit.ly/3oOSZUc_29_214
+      - Youtube:https://bit.ly/3oOSZUc_30_215
+      - Youtube:https://bit.ly/3oOSZUc_31_216
+      - Youtube:https://bit.ly/3oOSZUc_32_217
+      - Youtube:https://bit.ly/3oOSZUc_33_218
+      - Youtube:https://bit.ly/3oOSZUc_34_219
+      - Youtube:https://bit.ly/3oOSZUc_35_220
+      - Youtube:https://bit.ly/3oOSZUc_36_221
+      - Youtube:https://bit.ly/3oOSZUc_37_222
+      - Youtube:https://bit.ly/3oOSZUc_38_223
+      - Youtube:https://bit.ly/3oOSZUc_39_224
+      - Youtube:https://bit.ly/3oOSZUc_40_225
+      - Youtube:https://bit.ly/3oOSZUc_41_226
+      - Youtube:https://bit.ly/3oOSZUc_42_227
+      - Youtube:https://bit.ly/3oOSZUc_43_228
+      - Youtube:https://bit.ly/3oOSZUc_44_229
+      - Youtube:https://bit.ly/3oOSZUc_45_230
+      - Youtube:https://bit.ly/3oOSZUc_46_231
+      - Youtube:https://bit.ly/3oOSZUc_47_232
+      - Youtube:https://bit.ly/3oOSZUc_48_233
+      - Youtube:https://bit.ly/3oOSZUc_49_234
+      - Youtube:https://bit.ly/3oOSZUc_50_235
+      - Youtube:https://bit.ly/3oOSZUc_51_236
+      - Youtube:https://bit.ly/3oOSZUc_52_237
+      - Youtube:https://bit.ly/3oOSZUc_53_238
+      - Youtube:https://bit.ly/3oOSZUc_54_239
+      - Youtube:https://bit.ly/3oOSZUc_55_240
+      - Youtube:https://bit.ly/3oOSZUc_56_241
+      - Youtube:https://bit.ly/3oOSZUc_57_242
+      - Youtube:https://bit.ly/3oOSZUc_58_243
+      - Youtube:https://bit.ly/3oOSZUc_59_244
+      - Youtube:https://bit.ly/3oOSZUc_60_245
+      - Youtube:https://bit.ly/3oOSZUc_61_246
+      - Youtube:https://bit.ly/3oOSZUc_62_247
+      - Youtube:https://bit.ly/3oOSZUc_63_248
+      - Youtube:https://bit.ly/3oOSZUc_64_249
+      - Youtube:https://bit.ly/3oOSZUc_65_250
+      - Youtube:https://bit.ly/3oOSZUc_66_251
+      - Youtube:https://bit.ly/3oOSZUc_67_252
+      - Youtube:https://bit.ly/3oOSZUc_68_253
+      - Youtube:https://bit.ly/3oOSZUc_69_254
+      - Youtube:https://bit.ly/3oOSZUc_70_255
+      - Youtube:https://bit.ly/3oOSZUc_71_256
+      - Youtube:https://bit.ly/3oOSZUc_72_257
+      - Youtube:https://bit.ly/3oOSZUc_73_258
+      - Youtube:https://bit.ly/3oOSZUc_74_259
+      - Youtube:https://bit.ly/3oOSZUc_75_260
+      - Youtube:https://bit.ly/3oOSZUc_76_261
+      - Youtube:https://bit.ly/3oOSZUc_77_262
+      - Youtube:https://bit.ly/3oOSZUc_78_263
+      - Youtube:https://bit.ly/3oOSZUc_79_264
+      - 11111111111111_265
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇮🇳_IN_印度_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国_10
+      - 2022-1-7+更新_1
+      - EN01-IEPL+|+3倍_2
+      - AU01-IEPL+|+3倍_3
+      - 美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_4
+      - 美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_5
+      - 美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_6
+      - 美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_7
+      - 美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_8
+      - 美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_9
+      - 美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_10
+      - 美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_11
+      - 美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_12
+      - 美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_13
+      - 美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_14
+      - 美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_15
+      - 美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_16
+      - 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_17
+      - 美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_18
+      - 美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_19
+      - 美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_20
+      - 美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_21
+      - 美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_22
+      - 美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_23
+      - 美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_24
+      - 美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_25
+      - 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_26
+      - 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_27
+      - 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_28
+      - 美国-New York-33_29
+      - 美国-New York-34 联通100M+4K_30
+      - 美国-New York-35 联通100M+4K -2_31
+      - 美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_32
+      - 美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_33
+      - 美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_34
+      - 美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_35
+      - 美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_36
+      - vincent-jackson2021.ga_vmess_ws_37
+      - vincent-jackson2021.ga_c0f4d26f-b870-3b0d-a77e-1786fcf52e50_38
+      - vincent-jackson2021.ga_vmess_ws_39
+      - vincent-jackson2021.ga_VLESS_WS_40
+      - vincent-jackson2021.ga_vmess_ws_41
+      - vincent-jackson2021.ga_vmess_ws_42
+      - vincent-jackson2021.ga_vmess_ws_43
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_44
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_45
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_46
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_47
+      - usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_48
+      - usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_49
+      - usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_50
+      - usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_51
+      - usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_52
+      - usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_53
+      - usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_54
+      - usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_55
+      - usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_56
+      - usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_57
+      - usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_58
+      - usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_59
+      - usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_60
+      - usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_61
+      - usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_62
+      - usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_63
+      - usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_64
+      - usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_65
+      - usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_66
+      - usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_67
+      - usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_68
+      - usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_69
+      - usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_70
+      - usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_71
+      - usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_72
+      - usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_73
+      - usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_74
+      - usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_75
+      - usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_76
+      - usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_77
+      - usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_78
+      - usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_79
+      - usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_80
+      - usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_81
+      - usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_82
+      - usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_83
+      - usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_84
+      - usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_85
+      - usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_86
+      - usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_87
+      - usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_88
+      - usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_89
+      - usa-29_90
+      - usa-29_91
+      - usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_92
+      - usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_93
+      - usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_94
+      - usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_95
+      - usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_96
+      - usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_97
+      - usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_98
+      - usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_99
+      - usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_100
+      - usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_101
+      - usa-35_102
+      - usa-35_103
+      - usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_104
+      - usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_105
+      - usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_106
+      - usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_107
+      - usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_108
+      - usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_109
+      - usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_110
+      - usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_111
+      - usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_112
+      - usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_113
+      - usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_114
+      - usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_115
+      - usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_116
+      - usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_117
+      - 美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_120
+      - 美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_121
+      - 美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_122
+      - 美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_123
+      - 美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_124
+      - 美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_125
+      - 美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_126
+      - 美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_127
+      - 美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_128
+      - 美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_129
+      - 美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_130
+      - 美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_131
+      - 美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_132
+      - 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_133
+      - 美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_134
+      - 美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_135
+      - 美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_136
+      - 美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_137
+      - 美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_138
+      - 美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_139
+      - 美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_140
+      - 美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_141
+      - 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_142
+      - 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_143
+      - 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_144
+      - 美国-New York-33_145
+      - 美国-New York-34 联通100M+4K_146
+      - 美国-New York-35 联通100M+4K -2_147
+      - 美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_148
+      - 美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_149
+      - 美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_150
+      - 美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_151
+      - 美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_152
+      - 节点更新https://bit.ly/3oOSZUc_153
+      - 节点更新https://bit.ly/3oOSZUc_154
+      - 节点更新https://bit.ly/3oOSZUc_155
+      - 节点更新https://bit.ly/3oOSZUc_156
+      - 节点更新https://bit.ly/3oOSZUc_157
+      - 节点更新https://bit.ly/3oOSZUc_158
+      - 节点更新https://bit.ly/3oOSZUc_159
+      - 节点更新https://bit.ly/3oOSZUc_160
+      - 节点更新https://bit.ly/3oOSZUc_161
+      - 节点更新https://bit.ly/3oOSZUc_162
+      - 节点更新https://bit.ly/3oOSZUc_163
+      - 节点更新https://bit.ly/3oOSZUc_164
+      - 节点更新https://bit.ly/3oOSZUc_165
+      - 节点更新https://bit.ly/3oOSZUc_166
+      - 节点更新https://bit.ly/3oOSZUc_167
+      - 节点更新https://bit.ly/3oOSZUc_168
+      - 节点更新https://bit.ly/3oOSZUc_169
+      - 节点更新https://bit.ly/3oOSZUc_170
+      - 节点更新https://bit.ly/3oOSZUc_171
+      - 节点更新https://bit.ly/3oOSZUc_172
+      - 节点更新https://bit.ly/3oOSZUc_173
+      - 节点更新https://bit.ly/3oOSZUc_174
+      - 节点更新https://bit.ly/3oOSZUc_175
+      - 节点更新https://bit.ly/3oOSZUc_176
+      - 节点更新https://bit.ly/3oOSZUc_177
+      - 节点更新https://bit.ly/3oOSZUc_178
+      - 节点更新https://bit.ly/3oOSZUc_179
+      - 节点更新https://bit.ly/3oOSZUc_180
+      - 节点更新https://bit.ly/3oOSZUc_181
+      - 节点更新https://bit.ly/3oOSZUc_182
+      - 节点更新https://bit.ly/3oOSZUc_183
+      - 节点更新https://bit.ly/3oOSZUc_184
+      - 节点更新https://bit.ly/3oOSZUc_185
+      - 节点更新https://bit.ly/3oOSZUc_186
+      - 节点更新https://bit.ly/3oOSZUc_187
+      - 节点更新https://bit.ly/3oOSZUc_188
+      - 节点更新https://bit.ly/3oOSZUc_189
+      - 节点更新https://bit.ly/3oOSZUc_190
+      - 节点更新https://bit.ly/3oOSZUc_191
+      - 节点更新https://bit.ly/3oOSZUc_192
+      - 节点更新https://bit.ly/3oOSZUc_193
+      - 节点更新https://bit.ly/3oOSZUc_194
+      - Youtube:https://bit.ly/3oOSZUc_10_195
+      - Youtube:https://bit.ly/3oOSZUc_11_196
+      - Youtube:https://bit.ly/3oOSZUc_12_197
+      - Youtube:https://bit.ly/3oOSZUc_13_198
+      - Youtube:https://bit.ly/3oOSZUc_14_199
+      - Youtube:https://bit.ly/3oOSZUc_15_200
+      - Youtube:https://bit.ly/3oOSZUc_16_201
+      - Youtube:https://bit.ly/3oOSZUc_17_202
+      - Youtube:https://bit.ly/3oOSZUc_18_203
+      - Youtube:https://bit.ly/3oOSZUc_19_204
+      - Youtube:https://bit.ly/3oOSZUc_20_205
+      - Youtube:https://bit.ly/3oOSZUc_21_206
+      - Youtube:https://bit.ly/3oOSZUc_22_207
+      - Youtube:https://bit.ly/3oOSZUc_23_208
+      - Youtube:https://bit.ly/3oOSZUc_24_209
+      - Youtube:https://bit.ly/3oOSZUc_25_210
+      - Youtube:https://bit.ly/3oOSZUc_26_211
+      - Youtube:https://bit.ly/3oOSZUc_27_212
+      - Youtube:https://bit.ly/3oOSZUc_28_213
+      - Youtube:https://bit.ly/3oOSZUc_29_214
+      - Youtube:https://bit.ly/3oOSZUc_30_215
+      - Youtube:https://bit.ly/3oOSZUc_31_216
+      - Youtube:https://bit.ly/3oOSZUc_32_217
+      - Youtube:https://bit.ly/3oOSZUc_33_218
+      - Youtube:https://bit.ly/3oOSZUc_34_219
+      - Youtube:https://bit.ly/3oOSZUc_35_220
+      - Youtube:https://bit.ly/3oOSZUc_36_221
+      - Youtube:https://bit.ly/3oOSZUc_37_222
+      - Youtube:https://bit.ly/3oOSZUc_38_223
+      - Youtube:https://bit.ly/3oOSZUc_39_224
+      - Youtube:https://bit.ly/3oOSZUc_40_225
+      - Youtube:https://bit.ly/3oOSZUc_41_226
+      - Youtube:https://bit.ly/3oOSZUc_42_227
+      - Youtube:https://bit.ly/3oOSZUc_43_228
+      - Youtube:https://bit.ly/3oOSZUc_44_229
+      - Youtube:https://bit.ly/3oOSZUc_45_230
+      - Youtube:https://bit.ly/3oOSZUc_46_231
+      - Youtube:https://bit.ly/3oOSZUc_47_232
+      - Youtube:https://bit.ly/3oOSZUc_48_233
+      - Youtube:https://bit.ly/3oOSZUc_49_234
+      - Youtube:https://bit.ly/3oOSZUc_50_235
+      - Youtube:https://bit.ly/3oOSZUc_51_236
+      - Youtube:https://bit.ly/3oOSZUc_52_237
+      - Youtube:https://bit.ly/3oOSZUc_53_238
+      - Youtube:https://bit.ly/3oOSZUc_54_239
+      - Youtube:https://bit.ly/3oOSZUc_55_240
+      - Youtube:https://bit.ly/3oOSZUc_56_241
+      - Youtube:https://bit.ly/3oOSZUc_57_242
+      - Youtube:https://bit.ly/3oOSZUc_58_243
+      - Youtube:https://bit.ly/3oOSZUc_59_244
+      - Youtube:https://bit.ly/3oOSZUc_60_245
+      - Youtube:https://bit.ly/3oOSZUc_61_246
+      - Youtube:https://bit.ly/3oOSZUc_62_247
+      - Youtube:https://bit.ly/3oOSZUc_63_248
+      - Youtube:https://bit.ly/3oOSZUc_64_249
+      - Youtube:https://bit.ly/3oOSZUc_65_250
+      - Youtube:https://bit.ly/3oOSZUc_66_251
+      - Youtube:https://bit.ly/3oOSZUc_67_252
+      - Youtube:https://bit.ly/3oOSZUc_68_253
+      - Youtube:https://bit.ly/3oOSZUc_69_254
+      - Youtube:https://bit.ly/3oOSZUc_70_255
+      - Youtube:https://bit.ly/3oOSZUc_71_256
+      - Youtube:https://bit.ly/3oOSZUc_72_257
+      - Youtube:https://bit.ly/3oOSZUc_73_258
+      - Youtube:https://bit.ly/3oOSZUc_74_259
+      - Youtube:https://bit.ly/3oOSZUc_75_260
+      - Youtube:https://bit.ly/3oOSZUc_76_261
+      - Youtube:https://bit.ly/3oOSZUc_77_262
+      - Youtube:https://bit.ly/3oOSZUc_78_263
+      - Youtube:https://bit.ly/3oOSZUc_79_264
+      - 11111111111111_265
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇮🇳_IN_印度_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国_10
+      - 2022-1-7+更新_1
+      - EN01-IEPL+|+3倍_2
+      - AU01-IEPL+|+3倍_3
+      - 美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_4
+      - 美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_5
+      - 美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_6
+      - 美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_7
+      - 美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_8
+      - 美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_9
+      - 美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_10
+      - 美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_11
+      - 美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_12
+      - 美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_13
+      - 美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_14
+      - 美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_15
+      - 美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_16
+      - 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_17
+      - 美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_18
+      - 美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_19
+      - 美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_20
+      - 美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_21
+      - 美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_22
+      - 美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_23
+      - 美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_24
+      - 美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_25
+      - 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_26
+      - 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_27
+      - 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_28
+      - 美国-New York-33_29
+      - 美国-New York-34 联通100M+4K_30
+      - 美国-New York-35 联通100M+4K -2_31
+      - 美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_32
+      - 美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_33
+      - 美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_34
+      - 美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_35
+      - 美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_36
+      - vincent-jackson2021.ga_vmess_ws_37
+      - vincent-jackson2021.ga_c0f4d26f-b870-3b0d-a77e-1786fcf52e50_38
+      - vincent-jackson2021.ga_vmess_ws_39
+      - vincent-jackson2021.ga_VLESS_WS_40
+      - vincent-jackson2021.ga_vmess_ws_41
+      - vincent-jackson2021.ga_vmess_ws_42
+      - vincent-jackson2021.ga_vmess_ws_43
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_44
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_45
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_46
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_47
+      - usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_48
+      - usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_49
+      - usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_50
+      - usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_51
+      - usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_52
+      - usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_53
+      - usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_54
+      - usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_55
+      - usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_56
+      - usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_57
+      - usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_58
+      - usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_59
+      - usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_60
+      - usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_61
+      - usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_62
+      - usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_63
+      - usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_64
+      - usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_65
+      - usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_66
+      - usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_67
+      - usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_68
+      - usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_69
+      - usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_70
+      - usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_71
+      - usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_72
+      - usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_73
+      - usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_74
+      - usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_75
+      - usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_76
+      - usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_77
+      - usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_78
+      - usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_79
+      - usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_80
+      - usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_81
+      - usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_82
+      - usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_83
+      - usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_84
+      - usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_85
+      - usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_86
+      - usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_87
+      - usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_88
+      - usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_89
+      - usa-29_90
+      - usa-29_91
+      - usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_92
+      - usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_93
+      - usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_94
+      - usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_95
+      - usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_96
+      - usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_97
+      - usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_98
+      - usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_99
+      - usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_100
+      - usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_101
+      - usa-35_102
+      - usa-35_103
+      - usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_104
+      - usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_105
+      - usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_106
+      - usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_107
+      - usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_108
+      - usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_109
+      - usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_110
+      - usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_111
+      - usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_112
+      - usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_113
+      - usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_114
+      - usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_115
+      - usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_116
+      - usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_117
+      - 美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_120
+      - 美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_121
+      - 美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_122
+      - 美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_123
+      - 美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_124
+      - 美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_125
+      - 美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_126
+      - 美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_127
+      - 美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_128
+      - 美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_129
+      - 美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_130
+      - 美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_131
+      - 美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_132
+      - 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_133
+      - 美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_134
+      - 美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_135
+      - 美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_136
+      - 美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_137
+      - 美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_138
+      - 美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_139
+      - 美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_140
+      - 美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_141
+      - 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_142
+      - 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_143
+      - 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_144
+      - 美国-New York-33_145
+      - 美国-New York-34 联通100M+4K_146
+      - 美国-New York-35 联通100M+4K -2_147
+      - 美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_148
+      - 美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_149
+      - 美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_150
+      - 美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_151
+      - 美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_152
+      - 节点更新https://bit.ly/3oOSZUc_153
+      - 节点更新https://bit.ly/3oOSZUc_154
+      - 节点更新https://bit.ly/3oOSZUc_155
+      - 节点更新https://bit.ly/3oOSZUc_156
+      - 节点更新https://bit.ly/3oOSZUc_157
+      - 节点更新https://bit.ly/3oOSZUc_158
+      - 节点更新https://bit.ly/3oOSZUc_159
+      - 节点更新https://bit.ly/3oOSZUc_160
+      - 节点更新https://bit.ly/3oOSZUc_161
+      - 节点更新https://bit.ly/3oOSZUc_162
+      - 节点更新https://bit.ly/3oOSZUc_163
+      - 节点更新https://bit.ly/3oOSZUc_164
+      - 节点更新https://bit.ly/3oOSZUc_165
+      - 节点更新https://bit.ly/3oOSZUc_166
+      - 节点更新https://bit.ly/3oOSZUc_167
+      - 节点更新https://bit.ly/3oOSZUc_168
+      - 节点更新https://bit.ly/3oOSZUc_169
+      - 节点更新https://bit.ly/3oOSZUc_170
+      - 节点更新https://bit.ly/3oOSZUc_171
+      - 节点更新https://bit.ly/3oOSZUc_172
+      - 节点更新https://bit.ly/3oOSZUc_173
+      - 节点更新https://bit.ly/3oOSZUc_174
+      - 节点更新https://bit.ly/3oOSZUc_175
+      - 节点更新https://bit.ly/3oOSZUc_176
+      - 节点更新https://bit.ly/3oOSZUc_177
+      - 节点更新https://bit.ly/3oOSZUc_178
+      - 节点更新https://bit.ly/3oOSZUc_179
+      - 节点更新https://bit.ly/3oOSZUc_180
+      - 节点更新https://bit.ly/3oOSZUc_181
+      - 节点更新https://bit.ly/3oOSZUc_182
+      - 节点更新https://bit.ly/3oOSZUc_183
+      - 节点更新https://bit.ly/3oOSZUc_184
+      - 节点更新https://bit.ly/3oOSZUc_185
+      - 节点更新https://bit.ly/3oOSZUc_186
+      - 节点更新https://bit.ly/3oOSZUc_187
+      - 节点更新https://bit.ly/3oOSZUc_188
+      - 节点更新https://bit.ly/3oOSZUc_189
+      - 节点更新https://bit.ly/3oOSZUc_190
+      - 节点更新https://bit.ly/3oOSZUc_191
+      - 节点更新https://bit.ly/3oOSZUc_192
+      - 节点更新https://bit.ly/3oOSZUc_193
+      - 节点更新https://bit.ly/3oOSZUc_194
+      - Youtube:https://bit.ly/3oOSZUc_10_195
+      - Youtube:https://bit.ly/3oOSZUc_11_196
+      - Youtube:https://bit.ly/3oOSZUc_12_197
+      - Youtube:https://bit.ly/3oOSZUc_13_198
+      - Youtube:https://bit.ly/3oOSZUc_14_199
+      - Youtube:https://bit.ly/3oOSZUc_15_200
+      - Youtube:https://bit.ly/3oOSZUc_16_201
+      - Youtube:https://bit.ly/3oOSZUc_17_202
+      - Youtube:https://bit.ly/3oOSZUc_18_203
+      - Youtube:https://bit.ly/3oOSZUc_19_204
+      - Youtube:https://bit.ly/3oOSZUc_20_205
+      - Youtube:https://bit.ly/3oOSZUc_21_206
+      - Youtube:https://bit.ly/3oOSZUc_22_207
+      - Youtube:https://bit.ly/3oOSZUc_23_208
+      - Youtube:https://bit.ly/3oOSZUc_24_209
+      - Youtube:https://bit.ly/3oOSZUc_25_210
+      - Youtube:https://bit.ly/3oOSZUc_26_211
+      - Youtube:https://bit.ly/3oOSZUc_27_212
+      - Youtube:https://bit.ly/3oOSZUc_28_213
+      - Youtube:https://bit.ly/3oOSZUc_29_214
+      - Youtube:https://bit.ly/3oOSZUc_30_215
+      - Youtube:https://bit.ly/3oOSZUc_31_216
+      - Youtube:https://bit.ly/3oOSZUc_32_217
+      - Youtube:https://bit.ly/3oOSZUc_33_218
+      - Youtube:https://bit.ly/3oOSZUc_34_219
+      - Youtube:https://bit.ly/3oOSZUc_35_220
+      - Youtube:https://bit.ly/3oOSZUc_36_221
+      - Youtube:https://bit.ly/3oOSZUc_37_222
+      - Youtube:https://bit.ly/3oOSZUc_38_223
+      - Youtube:https://bit.ly/3oOSZUc_39_224
+      - Youtube:https://bit.ly/3oOSZUc_40_225
+      - Youtube:https://bit.ly/3oOSZUc_41_226
+      - Youtube:https://bit.ly/3oOSZUc_42_227
+      - Youtube:https://bit.ly/3oOSZUc_43_228
+      - Youtube:https://bit.ly/3oOSZUc_44_229
+      - Youtube:https://bit.ly/3oOSZUc_45_230
+      - Youtube:https://bit.ly/3oOSZUc_46_231
+      - Youtube:https://bit.ly/3oOSZUc_47_232
+      - Youtube:https://bit.ly/3oOSZUc_48_233
+      - Youtube:https://bit.ly/3oOSZUc_49_234
+      - Youtube:https://bit.ly/3oOSZUc_50_235
+      - Youtube:https://bit.ly/3oOSZUc_51_236
+      - Youtube:https://bit.ly/3oOSZUc_52_237
+      - Youtube:https://bit.ly/3oOSZUc_53_238
+      - Youtube:https://bit.ly/3oOSZUc_54_239
+      - Youtube:https://bit.ly/3oOSZUc_55_240
+      - Youtube:https://bit.ly/3oOSZUc_56_241
+      - Youtube:https://bit.ly/3oOSZUc_57_242
+      - Youtube:https://bit.ly/3oOSZUc_58_243
+      - Youtube:https://bit.ly/3oOSZUc_59_244
+      - Youtube:https://bit.ly/3oOSZUc_60_245
+      - Youtube:https://bit.ly/3oOSZUc_61_246
+      - Youtube:https://bit.ly/3oOSZUc_62_247
+      - Youtube:https://bit.ly/3oOSZUc_63_248
+      - Youtube:https://bit.ly/3oOSZUc_64_249
+      - Youtube:https://bit.ly/3oOSZUc_65_250
+      - Youtube:https://bit.ly/3oOSZUc_66_251
+      - Youtube:https://bit.ly/3oOSZUc_67_252
+      - Youtube:https://bit.ly/3oOSZUc_68_253
+      - Youtube:https://bit.ly/3oOSZUc_69_254
+      - Youtube:https://bit.ly/3oOSZUc_70_255
+      - Youtube:https://bit.ly/3oOSZUc_71_256
+      - Youtube:https://bit.ly/3oOSZUc_72_257
+      - Youtube:https://bit.ly/3oOSZUc_73_258
+      - Youtube:https://bit.ly/3oOSZUc_74_259
+      - Youtube:https://bit.ly/3oOSZUc_75_260
+      - Youtube:https://bit.ly/3oOSZUc_76_261
+      - Youtube:https://bit.ly/3oOSZUc_77_262
+      - Youtube:https://bit.ly/3oOSZUc_78_263
+      - Youtube:https://bit.ly/3oOSZUc_79_264
+      - 11111111111111_265
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇮🇳_IN_印度_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国_10
+      - 2022-1-7+更新_1
+      - EN01-IEPL+|+3倍_2
+      - AU01-IEPL+|+3倍_3
+      - 美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_4
+      - 美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_5
+      - 美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_6
+      - 美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_7
+      - 美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_8
+      - 美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_9
+      - 美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_10
+      - 美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_11
+      - 美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_12
+      - 美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_13
+      - 美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_14
+      - 美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_15
+      - 美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_16
+      - 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_17
+      - 美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_18
+      - 美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_19
+      - 美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_20
+      - 美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_21
+      - 美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_22
+      - 美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_23
+      - 美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_24
+      - 美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_25
+      - 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_26
+      - 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_27
+      - 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_28
+      - 美国-New York-33_29
+      - 美国-New York-34 联通100M+4K_30
+      - 美国-New York-35 联通100M+4K -2_31
+      - 美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_32
+      - 美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_33
+      - 美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_34
+      - 美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_35
+      - 美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_36
+      - vincent-jackson2021.ga_vmess_ws_37
+      - vincent-jackson2021.ga_c0f4d26f-b870-3b0d-a77e-1786fcf52e50_38
+      - vincent-jackson2021.ga_vmess_ws_39
+      - vincent-jackson2021.ga_VLESS_WS_40
+      - vincent-jackson2021.ga_vmess_ws_41
+      - vincent-jackson2021.ga_vmess_ws_42
+      - vincent-jackson2021.ga_vmess_ws_43
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_44
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_45
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_46
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_47
+      - usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_48
+      - usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_49
+      - usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_50
+      - usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_51
+      - usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_52
+      - usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_53
+      - usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_54
+      - usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_55
+      - usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_56
+      - usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_57
+      - usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_58
+      - usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_59
+      - usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_60
+      - usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_61
+      - usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_62
+      - usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_63
+      - usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_64
+      - usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_65
+      - usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_66
+      - usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_67
+      - usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_68
+      - usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_69
+      - usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_70
+      - usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_71
+      - usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_72
+      - usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_73
+      - usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_74
+      - usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_75
+      - usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_76
+      - usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_77
+      - usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_78
+      - usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_79
+      - usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_80
+      - usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_81
+      - usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_82
+      - usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_83
+      - usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_84
+      - usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_85
+      - usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_86
+      - usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_87
+      - usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_88
+      - usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_89
+      - usa-29_90
+      - usa-29_91
+      - usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_92
+      - usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_93
+      - usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_94
+      - usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_95
+      - usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_96
+      - usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_97
+      - usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_98
+      - usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_99
+      - usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_100
+      - usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_101
+      - usa-35_102
+      - usa-35_103
+      - usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_104
+      - usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_105
+      - usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_106
+      - usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_107
+      - usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_108
+      - usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_109
+      - usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_110
+      - usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_111
+      - usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_112
+      - usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_113
+      - usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_114
+      - usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_115
+      - usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_116
+      - usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_117
+      - 美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_120
+      - 美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_121
+      - 美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_122
+      - 美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_123
+      - 美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_124
+      - 美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_125
+      - 美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_126
+      - 美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_127
+      - 美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_128
+      - 美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_129
+      - 美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_130
+      - 美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_131
+      - 美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_132
+      - 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_133
+      - 美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_134
+      - 美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_135
+      - 美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_136
+      - 美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_137
+      - 美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_138
+      - 美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_139
+      - 美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_140
+      - 美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_141
+      - 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_142
+      - 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_143
+      - 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_144
+      - 美国-New York-33_145
+      - 美国-New York-34 联通100M+4K_146
+      - 美国-New York-35 联通100M+4K -2_147
+      - 美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_148
+      - 美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_149
+      - 美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_150
+      - 美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_151
+      - 美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_152
+      - 节点更新https://bit.ly/3oOSZUc_153
+      - 节点更新https://bit.ly/3oOSZUc_154
+      - 节点更新https://bit.ly/3oOSZUc_155
+      - 节点更新https://bit.ly/3oOSZUc_156
+      - 节点更新https://bit.ly/3oOSZUc_157
+      - 节点更新https://bit.ly/3oOSZUc_158
+      - 节点更新https://bit.ly/3oOSZUc_159
+      - 节点更新https://bit.ly/3oOSZUc_160
+      - 节点更新https://bit.ly/3oOSZUc_161
+      - 节点更新https://bit.ly/3oOSZUc_162
+      - 节点更新https://bit.ly/3oOSZUc_163
+      - 节点更新https://bit.ly/3oOSZUc_164
+      - 节点更新https://bit.ly/3oOSZUc_165
+      - 节点更新https://bit.ly/3oOSZUc_166
+      - 节点更新https://bit.ly/3oOSZUc_167
+      - 节点更新https://bit.ly/3oOSZUc_168
+      - 节点更新https://bit.ly/3oOSZUc_169
+      - 节点更新https://bit.ly/3oOSZUc_170
+      - 节点更新https://bit.ly/3oOSZUc_171
+      - 节点更新https://bit.ly/3oOSZUc_172
+      - 节点更新https://bit.ly/3oOSZUc_173
+      - 节点更新https://bit.ly/3oOSZUc_174
+      - 节点更新https://bit.ly/3oOSZUc_175
+      - 节点更新https://bit.ly/3oOSZUc_176
+      - 节点更新https://bit.ly/3oOSZUc_177
+      - 节点更新https://bit.ly/3oOSZUc_178
+      - 节点更新https://bit.ly/3oOSZUc_179
+      - 节点更新https://bit.ly/3oOSZUc_180
+      - 节点更新https://bit.ly/3oOSZUc_181
+      - 节点更新https://bit.ly/3oOSZUc_182
+      - 节点更新https://bit.ly/3oOSZUc_183
+      - 节点更新https://bit.ly/3oOSZUc_184
+      - 节点更新https://bit.ly/3oOSZUc_185
+      - 节点更新https://bit.ly/3oOSZUc_186
+      - 节点更新https://bit.ly/3oOSZUc_187
+      - 节点更新https://bit.ly/3oOSZUc_188
+      - 节点更新https://bit.ly/3oOSZUc_189
+      - 节点更新https://bit.ly/3oOSZUc_190
+      - 节点更新https://bit.ly/3oOSZUc_191
+      - 节点更新https://bit.ly/3oOSZUc_192
+      - 节点更新https://bit.ly/3oOSZUc_193
+      - 节点更新https://bit.ly/3oOSZUc_194
+      - Youtube:https://bit.ly/3oOSZUc_10_195
+      - Youtube:https://bit.ly/3oOSZUc_11_196
+      - Youtube:https://bit.ly/3oOSZUc_12_197
+      - Youtube:https://bit.ly/3oOSZUc_13_198
+      - Youtube:https://bit.ly/3oOSZUc_14_199
+      - Youtube:https://bit.ly/3oOSZUc_15_200
+      - Youtube:https://bit.ly/3oOSZUc_16_201
+      - Youtube:https://bit.ly/3oOSZUc_17_202
+      - Youtube:https://bit.ly/3oOSZUc_18_203
+      - Youtube:https://bit.ly/3oOSZUc_19_204
+      - Youtube:https://bit.ly/3oOSZUc_20_205
+      - Youtube:https://bit.ly/3oOSZUc_21_206
+      - Youtube:https://bit.ly/3oOSZUc_22_207
+      - Youtube:https://bit.ly/3oOSZUc_23_208
+      - Youtube:https://bit.ly/3oOSZUc_24_209
+      - Youtube:https://bit.ly/3oOSZUc_25_210
+      - Youtube:https://bit.ly/3oOSZUc_26_211
+      - Youtube:https://bit.ly/3oOSZUc_27_212
+      - Youtube:https://bit.ly/3oOSZUc_28_213
+      - Youtube:https://bit.ly/3oOSZUc_29_214
+      - Youtube:https://bit.ly/3oOSZUc_30_215
+      - Youtube:https://bit.ly/3oOSZUc_31_216
+      - Youtube:https://bit.ly/3oOSZUc_32_217
+      - Youtube:https://bit.ly/3oOSZUc_33_218
+      - Youtube:https://bit.ly/3oOSZUc_34_219
+      - Youtube:https://bit.ly/3oOSZUc_35_220
+      - Youtube:https://bit.ly/3oOSZUc_36_221
+      - Youtube:https://bit.ly/3oOSZUc_37_222
+      - Youtube:https://bit.ly/3oOSZUc_38_223
+      - Youtube:https://bit.ly/3oOSZUc_39_224
+      - Youtube:https://bit.ly/3oOSZUc_40_225
+      - Youtube:https://bit.ly/3oOSZUc_41_226
+      - Youtube:https://bit.ly/3oOSZUc_42_227
+      - Youtube:https://bit.ly/3oOSZUc_43_228
+      - Youtube:https://bit.ly/3oOSZUc_44_229
+      - Youtube:https://bit.ly/3oOSZUc_45_230
+      - Youtube:https://bit.ly/3oOSZUc_46_231
+      - Youtube:https://bit.ly/3oOSZUc_47_232
+      - Youtube:https://bit.ly/3oOSZUc_48_233
+      - Youtube:https://bit.ly/3oOSZUc_49_234
+      - Youtube:https://bit.ly/3oOSZUc_50_235
+      - Youtube:https://bit.ly/3oOSZUc_51_236
+      - Youtube:https://bit.ly/3oOSZUc_52_237
+      - Youtube:https://bit.ly/3oOSZUc_53_238
+      - Youtube:https://bit.ly/3oOSZUc_54_239
+      - Youtube:https://bit.ly/3oOSZUc_55_240
+      - Youtube:https://bit.ly/3oOSZUc_56_241
+      - Youtube:https://bit.ly/3oOSZUc_57_242
+      - Youtube:https://bit.ly/3oOSZUc_58_243
+      - Youtube:https://bit.ly/3oOSZUc_59_244
+      - Youtube:https://bit.ly/3oOSZUc_60_245
+      - Youtube:https://bit.ly/3oOSZUc_61_246
+      - Youtube:https://bit.ly/3oOSZUc_62_247
+      - Youtube:https://bit.ly/3oOSZUc_63_248
+      - Youtube:https://bit.ly/3oOSZUc_64_249
+      - Youtube:https://bit.ly/3oOSZUc_65_250
+      - Youtube:https://bit.ly/3oOSZUc_66_251
+      - Youtube:https://bit.ly/3oOSZUc_67_252
+      - Youtube:https://bit.ly/3oOSZUc_68_253
+      - Youtube:https://bit.ly/3oOSZUc_69_254
+      - Youtube:https://bit.ly/3oOSZUc_70_255
+      - Youtube:https://bit.ly/3oOSZUc_71_256
+      - Youtube:https://bit.ly/3oOSZUc_72_257
+      - Youtube:https://bit.ly/3oOSZUc_73_258
+      - Youtube:https://bit.ly/3oOSZUc_74_259
+      - Youtube:https://bit.ly/3oOSZUc_75_260
+      - Youtube:https://bit.ly/3oOSZUc_76_261
+      - Youtube:https://bit.ly/3oOSZUc_77_262
+      - Youtube:https://bit.ly/3oOSZUc_78_263
+      - Youtube:https://bit.ly/3oOSZUc_79_264
+      - 11111111111111_265
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +1903,269 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇮🇳_IN_印度_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国_10
+      - 2022-1-7+更新_1
+      - EN01-IEPL+|+3倍_2
+      - AU01-IEPL+|+3倍_3
+      - 美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_4
+      - 美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_5
+      - 美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_6
+      - 美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_7
+      - 美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_8
+      - 美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_9
+      - 美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_10
+      - 美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_11
+      - 美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_12
+      - 美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_13
+      - 美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_14
+      - 美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_15
+      - 美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_16
+      - 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_17
+      - 美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_18
+      - 美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_19
+      - 美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_20
+      - 美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_21
+      - 美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_22
+      - 美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_23
+      - 美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_24
+      - 美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_25
+      - 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_26
+      - 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_27
+      - 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_28
+      - 美国-New York-33_29
+      - 美国-New York-34 联通100M+4K_30
+      - 美国-New York-35 联通100M+4K -2_31
+      - 美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_32
+      - 美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_33
+      - 美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_34
+      - 美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_35
+      - 美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_36
+      - vincent-jackson2021.ga_vmess_ws_37
+      - vincent-jackson2021.ga_c0f4d26f-b870-3b0d-a77e-1786fcf52e50_38
+      - vincent-jackson2021.ga_vmess_ws_39
+      - vincent-jackson2021.ga_VLESS_WS_40
+      - vincent-jackson2021.ga_vmess_ws_41
+      - vincent-jackson2021.ga_vmess_ws_42
+      - vincent-jackson2021.ga_vmess_ws_43
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_44
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_45
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_46
+      - us%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc-clone_47
+      - usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_48
+      - usa-0%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_49
+      - usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_50
+      - usa-10%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_51
+      - usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_52
+      - usa-11%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_53
+      - usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_54
+      - usa-12%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_55
+      - usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_56
+      - usa-13%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_57
+      - usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_58
+      - usa-14%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_59
+      - usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_60
+      - usa-15%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_61
+      - usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_62
+      - usa-16%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_63
+      - usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_64
+      - usa-17%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_65
+      - usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_66
+      - usa-18%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_67
+      - usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_68
+      - usa-19%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_69
+      - usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_70
+      - usa-2%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_71
+      - usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_72
+      - usa-20%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_73
+      - usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_74
+      - usa-21%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_75
+      - usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_76
+      - usa-22%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_77
+      - usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_78
+      - usa-23%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_79
+      - usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_80
+      - usa-24%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_81
+      - usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_82
+      - usa-25%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_83
+      - usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_84
+      - usa-26%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_85
+      - usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_86
+      - usa-27%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_87
+      - usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_88
+      - usa-28%2b%e7%a7%bb%e5%8a%a8%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_89
+      - usa-29_90
+      - usa-29_91
+      - usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_92
+      - usa-30%e6%bb%a1%e8%b6%b32000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%2b%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b307200%2bkB%2fs%2b%2b%e6%95%b0%2b%e6%8d%ae%e4%b8%ad%e5%bf%83HKG_93
+      - usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_94
+      - usa-31%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_95
+      - usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_96
+      - usa-32%e6%bb%a1%2b%e8%b6%b3%2b%2b2000%2bMbps%e5%b8%a6%2b%e5%ae%bd%2b%e9%9c%80%e6%b1%82%e5%b3%b0%e5%80%bc%2b%e9%80%9f%2b%e5%ba%a6%2b%2b269312%2bkB%2fs_97
+      - usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_98
+      - usa-33%2b%e8%81%94%e9%80%9a100M%2b4K%2b_99
+      - usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_100
+      - usa-34%e8%81%94%e9%80%9a100M%2b4K-2%2b_101
+      - usa-35_102
+      - usa-35_103
+      - usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_104
+      - usa-3%e8%81%94%e9%80%9a%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_105
+      - usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_106
+      - usa-4%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_107
+      - usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_108
+      - usa-5%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_109
+      - usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_110
+      - usa-6%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_111
+      - usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_112
+      - usa-7%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_113
+      - usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_114
+      - usa-8%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_115
+      - usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_116
+      - usa-9%2b%e8%8a%82%e7%82%b9%e6%9b%b4%e6%96%b0https%3a%2f%2fbit.ly%2f3oOSZUc_117
+      - 美国-New York-10@1Gbps节点更新https://bit.ly/3oOSZUc_120
+      - 美国-New York-11@1Gbps节点更新https://bit.ly/3oOSZUc_121
+      - 美国-New York-12@1Gbps节点更新https://bit.ly/3oOSZUc_122
+      - 美国-New York-13@1Gbps节点更新https://bit.ly/3oOSZUc_123
+      - 美国-New York-14@1Gbps节点更新https://bit.ly/3oOSZUc_124
+      - 美国-New York-15@1Gbps节点更新https://bit.ly/3oOSZUc_125
+      - 美国-New York-16@1Gbps节点更新https://bit.ly/3oOSZUc_126
+      - 美国-New York-17@1Gbps节点更新https://bit.ly/3oOSZUc_127
+      - 美国-New York-18@1Gbps节点更新https://bit.ly/3oOSZUc_128
+      - 美国-New York-19@1Gbps节点更新https://bit.ly/3oOSZUc_129
+      - 美国-New York-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc_130
+      - 美国-New York-2@1Gbps节点更新https://bit.ly/3oOSZUc_131
+      - 美国-New York-20@1Gbps节点更新https://bit.ly/3oOSZUc_132
+      - 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3oOSZUc_133
+      - 美国-New York-23@1Gbps节点更新https://bit.ly/3oOSZUc_134
+      - 美国-New York-24@1Gbps节点更新https://bit.ly/3oOSZUc_135
+      - 美国-New York-25@1Gbps节点更新https://bit.ly/3oOSZUc_136
+      - 美国-New York-26@1Gbps节点更新https://bit.ly/3oOSZUc_137
+      - 美国-New York-27@1Gbps节点更新https://bit.ly/3oOSZUc_138
+      - 美国-New York-28@1Gbps节点更新https://bit.ly/3oOSZUc_139
+      - 美国-New York-29@1Gbps节点更新https://bit.ly/3oOSZUc_140
+      - 美国-New York-3@1Gbps节点更新https://bit.ly/3oOSZUc_141
+      - 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG_142
+      - 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s_143
+      - 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone_144
+      - 美国-New York-33_145
+      - 美国-New York-34 联通100M+4K_146
+      - 美国-New York-35 联通100M+4K -2_147
+      - 美国-New York-5@1Gbps节点更新https://bit.ly/3oOSZUc_148
+      - 美国-New York-6@1Gbps节点更新https://bit.ly/3oOSZUc_149
+      - 美国-New York-7@1Gbps节点更新https://bit.ly/3oOSZUc_150
+      - 美国-New York-8@1Gbps节点更新https://bit.ly/3oOSZUc_151
+      - 美国-New York-9@1Gbps节点更新https://bit.ly/3oOSZUc_152
+      - 节点更新https://bit.ly/3oOSZUc_153
+      - 节点更新https://bit.ly/3oOSZUc_154
+      - 节点更新https://bit.ly/3oOSZUc_155
+      - 节点更新https://bit.ly/3oOSZUc_156
+      - 节点更新https://bit.ly/3oOSZUc_157
+      - 节点更新https://bit.ly/3oOSZUc_158
+      - 节点更新https://bit.ly/3oOSZUc_159
+      - 节点更新https://bit.ly/3oOSZUc_160
+      - 节点更新https://bit.ly/3oOSZUc_161
+      - 节点更新https://bit.ly/3oOSZUc_162
+      - 节点更新https://bit.ly/3oOSZUc_163
+      - 节点更新https://bit.ly/3oOSZUc_164
+      - 节点更新https://bit.ly/3oOSZUc_165
+      - 节点更新https://bit.ly/3oOSZUc_166
+      - 节点更新https://bit.ly/3oOSZUc_167
+      - 节点更新https://bit.ly/3oOSZUc_168
+      - 节点更新https://bit.ly/3oOSZUc_169
+      - 节点更新https://bit.ly/3oOSZUc_170
+      - 节点更新https://bit.ly/3oOSZUc_171
+      - 节点更新https://bit.ly/3oOSZUc_172
+      - 节点更新https://bit.ly/3oOSZUc_173
+      - 节点更新https://bit.ly/3oOSZUc_174
+      - 节点更新https://bit.ly/3oOSZUc_175
+      - 节点更新https://bit.ly/3oOSZUc_176
+      - 节点更新https://bit.ly/3oOSZUc_177
+      - 节点更新https://bit.ly/3oOSZUc_178
+      - 节点更新https://bit.ly/3oOSZUc_179
+      - 节点更新https://bit.ly/3oOSZUc_180
+      - 节点更新https://bit.ly/3oOSZUc_181
+      - 节点更新https://bit.ly/3oOSZUc_182
+      - 节点更新https://bit.ly/3oOSZUc_183
+      - 节点更新https://bit.ly/3oOSZUc_184
+      - 节点更新https://bit.ly/3oOSZUc_185
+      - 节点更新https://bit.ly/3oOSZUc_186
+      - 节点更新https://bit.ly/3oOSZUc_187
+      - 节点更新https://bit.ly/3oOSZUc_188
+      - 节点更新https://bit.ly/3oOSZUc_189
+      - 节点更新https://bit.ly/3oOSZUc_190
+      - 节点更新https://bit.ly/3oOSZUc_191
+      - 节点更新https://bit.ly/3oOSZUc_192
+      - 节点更新https://bit.ly/3oOSZUc_193
+      - 节点更新https://bit.ly/3oOSZUc_194
+      - Youtube:https://bit.ly/3oOSZUc_10_195
+      - Youtube:https://bit.ly/3oOSZUc_11_196
+      - Youtube:https://bit.ly/3oOSZUc_12_197
+      - Youtube:https://bit.ly/3oOSZUc_13_198
+      - Youtube:https://bit.ly/3oOSZUc_14_199
+      - Youtube:https://bit.ly/3oOSZUc_15_200
+      - Youtube:https://bit.ly/3oOSZUc_16_201
+      - Youtube:https://bit.ly/3oOSZUc_17_202
+      - Youtube:https://bit.ly/3oOSZUc_18_203
+      - Youtube:https://bit.ly/3oOSZUc_19_204
+      - Youtube:https://bit.ly/3oOSZUc_20_205
+      - Youtube:https://bit.ly/3oOSZUc_21_206
+      - Youtube:https://bit.ly/3oOSZUc_22_207
+      - Youtube:https://bit.ly/3oOSZUc_23_208
+      - Youtube:https://bit.ly/3oOSZUc_24_209
+      - Youtube:https://bit.ly/3oOSZUc_25_210
+      - Youtube:https://bit.ly/3oOSZUc_26_211
+      - Youtube:https://bit.ly/3oOSZUc_27_212
+      - Youtube:https://bit.ly/3oOSZUc_28_213
+      - Youtube:https://bit.ly/3oOSZUc_29_214
+      - Youtube:https://bit.ly/3oOSZUc_30_215
+      - Youtube:https://bit.ly/3oOSZUc_31_216
+      - Youtube:https://bit.ly/3oOSZUc_32_217
+      - Youtube:https://bit.ly/3oOSZUc_33_218
+      - Youtube:https://bit.ly/3oOSZUc_34_219
+      - Youtube:https://bit.ly/3oOSZUc_35_220
+      - Youtube:https://bit.ly/3oOSZUc_36_221
+      - Youtube:https://bit.ly/3oOSZUc_37_222
+      - Youtube:https://bit.ly/3oOSZUc_38_223
+      - Youtube:https://bit.ly/3oOSZUc_39_224
+      - Youtube:https://bit.ly/3oOSZUc_40_225
+      - Youtube:https://bit.ly/3oOSZUc_41_226
+      - Youtube:https://bit.ly/3oOSZUc_42_227
+      - Youtube:https://bit.ly/3oOSZUc_43_228
+      - Youtube:https://bit.ly/3oOSZUc_44_229
+      - Youtube:https://bit.ly/3oOSZUc_45_230
+      - Youtube:https://bit.ly/3oOSZUc_46_231
+      - Youtube:https://bit.ly/3oOSZUc_47_232
+      - Youtube:https://bit.ly/3oOSZUc_48_233
+      - Youtube:https://bit.ly/3oOSZUc_49_234
+      - Youtube:https://bit.ly/3oOSZUc_50_235
+      - Youtube:https://bit.ly/3oOSZUc_51_236
+      - Youtube:https://bit.ly/3oOSZUc_52_237
+      - Youtube:https://bit.ly/3oOSZUc_53_238
+      - Youtube:https://bit.ly/3oOSZUc_54_239
+      - Youtube:https://bit.ly/3oOSZUc_55_240
+      - Youtube:https://bit.ly/3oOSZUc_56_241
+      - Youtube:https://bit.ly/3oOSZUc_57_242
+      - Youtube:https://bit.ly/3oOSZUc_58_243
+      - Youtube:https://bit.ly/3oOSZUc_59_244
+      - Youtube:https://bit.ly/3oOSZUc_60_245
+      - Youtube:https://bit.ly/3oOSZUc_61_246
+      - Youtube:https://bit.ly/3oOSZUc_62_247
+      - Youtube:https://bit.ly/3oOSZUc_63_248
+      - Youtube:https://bit.ly/3oOSZUc_64_249
+      - Youtube:https://bit.ly/3oOSZUc_65_250
+      - Youtube:https://bit.ly/3oOSZUc_66_251
+      - Youtube:https://bit.ly/3oOSZUc_67_252
+      - Youtube:https://bit.ly/3oOSZUc_68_253
+      - Youtube:https://bit.ly/3oOSZUc_69_254
+      - Youtube:https://bit.ly/3oOSZUc_70_255
+      - Youtube:https://bit.ly/3oOSZUc_71_256
+      - Youtube:https://bit.ly/3oOSZUc_72_257
+      - Youtube:https://bit.ly/3oOSZUc_73_258
+      - Youtube:https://bit.ly/3oOSZUc_74_259
+      - Youtube:https://bit.ly/3oOSZUc_75_260
+      - Youtube:https://bit.ly/3oOSZUc_76_261
+      - Youtube:https://bit.ly/3oOSZUc_77_262
+      - Youtube:https://bit.ly/3oOSZUc_78_263
+      - Youtube:https://bit.ly/3oOSZUc_79_264
+      - 11111111111111_265
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
