@@ -5,119 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇸🇬SG_0443
-    @WangCai_1_1","server":"139.162.24.50","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇸🇬SG_2375
-    @WangCai_1_2","server":"139.162.24.50","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇸🇬SG_2376
-    @WangCai_1_3","server":"139.162.24.50","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇸🇬SG_3306
-    @WangCai_1_4","server":"139.162.24.50","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬SG_3389
-    @WangCai_1_5","server":"139.162.24.50","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬SG_4444
-    @WangCai_1_6","server":"139.162.24.50","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇸🇬SG_5000
-    @WangCai_1_7","server":"139.162.24.50","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬SG_5001
-    @WangCai_1_8","server":"139.162.24.50","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬SG_5003
-    @WangCai_1_9","server":"139.162.24.50","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇸🇬SG_5004
-    @WangCai_1_10","server":"139.162.24.50","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_1","server":"23.82.136.151","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-miami.lvuft.com"}}
+  - {"name":"🇺🇸_US_美国_2","server":"usa-miami.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-miami.lvuft.com"}}
+  - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3","server":"v2.ssrsub.com","port":8443,"type":"vmess","uuid":"974aeac3-c27c-4e20-86e4-03f526faaccd","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
+  - {"name":"🇺🇸_US_美国_4","server":"209.58.139.41","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-sanfrancisco.lvuft.com"}}
+  - {"name":"🇭🇰_HK_香港->🇺🇸_US_美国_5","server":"20.205.106.28","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
+  - {"name":"🇨🇦_CA_加拿大_6","server":"71.19.252.163","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"canada-vancouver.mah3Hoet.com"}}
+  - {"name":"🇺🇸_US_美国_7","server":"www.ltzs.buzz","port":443,"type":"vmess","uuid":"d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/bb2b34a1","host":"www.ltzs.buzz"}}
+  - {"name":"🇺🇸_US_美国_8","server":"172.67.197.254","port":443,"type":"vmess","uuid":"d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/bb2b34a1","host":"www.ltzs.buzz"}}
+  - {"name":"🇺🇸_US_美国_9","server":"192.186.129.66","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-buffalo.lvuft.com"}}
+  - {"name":"🇭🇺_HU_匈牙利_10","server":"185.252.223.204","port":443,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/243535322906","host":"www.16675463.xyz"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬SG_0443 @WangCai_1_1
-      - 🇸🇬SG_2375 @WangCai_1_2
-      - 🇸🇬SG_2376 @WangCai_1_3
-      - 🇸🇬SG_3306 @WangCai_1_4
-      - 🇸🇬SG_3389 @WangCai_1_5
-      - 🇸🇬SG_4444 @WangCai_1_6
-      - 🇸🇬SG_5000 @WangCai_1_7
-      - 🇸🇬SG_5001 @WangCai_1_8
-      - 🇸🇬SG_5003 @WangCai_1_9
-      - 🇸🇬SG_5004 @WangCai_1_10
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇭🇺_HU_匈牙利_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬SG_0443 @WangCai_1_1
-      - 🇸🇬SG_2375 @WangCai_1_2
-      - 🇸🇬SG_2376 @WangCai_1_3
-      - 🇸🇬SG_3306 @WangCai_1_4
-      - 🇸🇬SG_3389 @WangCai_1_5
-      - 🇸🇬SG_4444 @WangCai_1_6
-      - 🇸🇬SG_5000 @WangCai_1_7
-      - 🇸🇬SG_5001 @WangCai_1_8
-      - 🇸🇬SG_5003 @WangCai_1_9
-      - 🇸🇬SG_5004 @WangCai_1_10
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇭🇺_HU_匈牙利_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬SG_0443 @WangCai_1_1
-      - 🇸🇬SG_2375 @WangCai_1_2
-      - 🇸🇬SG_2376 @WangCai_1_3
-      - 🇸🇬SG_3306 @WangCai_1_4
-      - 🇸🇬SG_3389 @WangCai_1_5
-      - 🇸🇬SG_4444 @WangCai_1_6
-      - 🇸🇬SG_5000 @WangCai_1_7
-      - 🇸🇬SG_5001 @WangCai_1_8
-      - 🇸🇬SG_5003 @WangCai_1_9
-      - 🇸🇬SG_5004 @WangCai_1_10
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇭🇺_HU_匈牙利_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬SG_0443 @WangCai_1_1
-      - 🇸🇬SG_2375 @WangCai_1_2
-      - 🇸🇬SG_2376 @WangCai_1_3
-      - 🇸🇬SG_3306 @WangCai_1_4
-      - 🇸🇬SG_3389 @WangCai_1_5
-      - 🇸🇬SG_4444 @WangCai_1_6
-      - 🇸🇬SG_5000 @WangCai_1_7
-      - 🇸🇬SG_5001 @WangCai_1_8
-      - 🇸🇬SG_5003 @WangCai_1_9
-      - 🇸🇬SG_5004 @WangCai_1_10
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇭🇺_HU_匈牙利_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬SG_0443 @WangCai_1_1
-      - 🇸🇬SG_2375 @WangCai_1_2
-      - 🇸🇬SG_2376 @WangCai_1_3
-      - 🇸🇬SG_3306 @WangCai_1_4
-      - 🇸🇬SG_3389 @WangCai_1_5
-      - 🇸🇬SG_4444 @WangCai_1_6
-      - 🇸🇬SG_5000 @WangCai_1_7
-      - 🇸🇬SG_5001 @WangCai_1_8
-      - 🇸🇬SG_5003 @WangCai_1_9
-      - 🇸🇬SG_5004 @WangCai_1_10
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇭🇺_HU_匈牙利_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬SG_0443 @WangCai_1_1
-      - 🇸🇬SG_2375 @WangCai_1_2
-      - 🇸🇬SG_2376 @WangCai_1_3
-      - 🇸🇬SG_3306 @WangCai_1_4
-      - 🇸🇬SG_3389 @WangCai_1_5
-      - 🇸🇬SG_4444 @WangCai_1_6
-      - 🇸🇬SG_5000 @WangCai_1_7
-      - 🇸🇬SG_5001 @WangCai_1_8
-      - 🇸🇬SG_5003 @WangCai_1_9
-      - 🇸🇬SG_5004 @WangCai_1_10
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇭🇺_HU_匈牙利_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,16 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬SG_0443 @WangCai_1_1
-      - 🇸🇬SG_2375 @WangCai_1_2
-      - 🇸🇬SG_2376 @WangCai_1_3
-      - 🇸🇬SG_3306 @WangCai_1_4
-      - 🇸🇬SG_3389 @WangCai_1_5
-      - 🇸🇬SG_4444 @WangCai_1_6
-      - 🇸🇬SG_5000 @WangCai_1_7
-      - 🇸🇬SG_5001 @WangCai_1_8
-      - 🇸🇬SG_5003 @WangCai_1_9
-      - 🇸🇬SG_5004 @WangCai_1_10
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇭🇺_HU_匈牙利_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
