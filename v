@@ -5,585 +5,802 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies: 
-  - {name: 'Youtube小露分享_1', server: '109.wgong.xyz', port: 52209, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '109.wgong.xyz'} }
-  - {name: 'Youtube小露分享_2', server: '105.wgong.xyz', port: 52205, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '105.wgong.xyz'} }
-  - {name: 'Youtube小露分享_3', server: '86.wgong.xyz', port: 52286, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '86.wgong.xyz'} }
-  - {name: 'Youtube小露分享_4', server: '133.wgong.xyz', port: 52333, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '133.wgong.xyz'} }
-  - {name: 'Youtube小露分享_5', server: '128.wgong.xyz', port: 52228, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '128.wgong.xyz'} }
-  - {name: 'Youtube小露分享_6', server: '135.wgong.xyz', port: 52335, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '135.wgong.xyz'} }
-  - {name: 'Youtube小露分享_7', server: '125.wgong.xyz', port: 52225, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '125.wgong.xyz'} }
-  - {name: 'Youtube小露分享_8', server: '82.wgong.xyz', port: 52282, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '82.wgong.xyz'} }
-  - {name: 'Youtube小露分享_9', server: '103.wgong.xyz', port: 52203, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '103.wgong.xyz'} }
-  - {name: 'Youtube小露分享_10', server: '81.wgong.xyz', port: 52281, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '81.wgong.xyz'} }
-  - {name: 'Youtube小露分享_11', server: '126.wgong.xyz', port: 52226, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '126.wgong.xyz'} }
-  - {name: 'Youtube小露分享_12', server: '131.wgong.xyz', port: 52331, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '131.wgong.xyz'} }
-  - {name: 'Youtube小露分享_13', server: '100.wgong.xyz', port: 11220, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '100.wgong.xyz'} }
-  - {name: 'Youtube小露分享_14', server: '185.252.223.204', port: 443, type: vmess, uuid: '418048af-a293-4b99-9b0c-98ca3580dd24', alterId: 64, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/path/243535322906', host: 'www.16675463.xyz'} }
-  - {name: 'Youtube小露分享_15', server: '208.98.48.2', port: 443, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'iesei1ei.com'} }
-  - {name: 'Youtube小露分享_16', server: 'usa-dallas.lvuft.com', port: 443, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'usa-dallas.lvuft.com'} }
-  - {name: 'Youtube小露分享_17', server: 'v11.ssrsub.com', port: 166, type: vmess, uuid: '51273235-0995-455e-96e4-83b1811b4cab', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub'} }
-  - {name: 'Youtube小露分享_18', server: 'v11.ssrsub.com', port: 166, type: vmess, uuid: '974aeac3-c27c-4e20-86e4-03f526faaccd', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub'} }
-  - {name: 'Youtube小露分享_19', server: 'v8.ssrsub.com', port: 443, type: vmess, uuid: '51273235-0995-455e-96e4-83b1811b4cab', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub'} }
-  - {name: 'Youtube小露分享_20', server: 'v1.ssrsub.com', port: 8443, type: vmess, uuid: '51273235-0995-455e-96e4-83b1811b4cab', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub'} }
-  - {name: 'Youtube小露分享_21', server: 'v8.ssrsub.com', port: 443, type: vmess, uuid: '974aeac3-c27c-4e20-86e4-03f526faaccd', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub'} }
-  - {name: 'Youtube小露分享_22', server: 'v1.ssrsub.com', port: 8443, type: vmess, uuid: '974aeac3-c27c-4e20-86e4-03f526faaccd', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub'} }
-  - {name: 'Youtube小露分享_23', server: 'v9.ssrsub.com', port: 8443, type: vmess, uuid: '51273235-0995-455e-96e4-83b1811b4cab', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub'} }
-  - {name: 'Youtube小露分享_24', server: 'v5.ssrsub.com', port: 8443, type: vmess, uuid: '51273235-0995-455e-96e4-83b1811b4cab', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub'} }
-  - {name: 'Youtube小露分享_25', server: 'v3.ssrsub.com', port: 443, type: vmess, uuid: '51273235-0995-455e-96e4-83b1811b4cab', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub'} }
-  - {name: 'Youtube小露分享_26', server: 'v9.ssrsub.com', port: 8443, type: vmess, uuid: '974aeac3-c27c-4e20-86e4-03f526faaccd', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub'} }
-  - {name: 'Youtube小露分享_27', server: 'v3.ssrsub.com', port: 443, type: vmess, uuid: '974aeac3-c27c-4e20-86e4-03f526faaccd', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub'} }
-  - {name: 'Youtube小露分享_28', server: 'v2.ssrsub.com', port: 8443, type: vmess, uuid: '51273235-0995-455e-96e4-83b1811b4cab', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub'} }
-  - {name: 'Youtube小露分享_29', server: 'v2.ssrsub.com', port: 8443, type: vmess, uuid: '974aeac3-c27c-4e20-86e4-03f526faaccd', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub'} }
-  - {name: 'Youtube小露分享_30', server: '192.96.204.250', port: 443, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'usa-washington.lvuft.com'} }
-  - {name: 'Youtube小露分享_31', server: 'pr1.mooncloud.bike', port: 8443, type: vmess, uuid: 'f1533fd1-4562-4935-a1e6-832685d4a919', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/', host: 'pr1.mooncloud.bike'} }
-  - {name: 'Youtube小露分享_32', server: '142.4.105.253', port: 9233, type: vmess, uuid: 'be58f4e4-894a-47ee-8836-cf75e74fa9c9', alterId: 0, cipher: auto, tls: false, network: 'ws', ws-opts: { path: '/', host: '142.4.105.253'} }
-  - {name: 'Youtube小露分享_33', server: 'usa-dallas.lvuft.com', port: 443, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'usa-dallas.lvuft.com'} }
-  - {name: 'Youtube小露分享_34', server: 'amu1ahfi.com', port: 443, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'amu1ahfi.com'} }
-  - {name: 'Youtube小露分享_35', server: 'usa-sanfrancisco.lvuft.com', port: 443, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'usa-sanfrancisco.lvuft.com'} }
-  - {name: 'Youtube小露分享_36', server: '70.39.67.130', port: 443, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'amu1ahfi.com'} }
-  - {name: 'Youtube小露分享_37', server: '45.35.84.162', port: 443, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'usa-dallas.lvuft.com'} }
-  - {name: 'Youtube小露分享_38', server: '127.wgong.xyz', port: 52227, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '127.wgong.xyz'} }
-  - {name: 'Youtube小露分享_39', server: '185.252.223.204', port: 443, type: vmess, uuid: '418048af-a293-4b99-9b0c-98ca3580dd24', alterId: 64, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/path/243535322906', host: 'www.16675463.xyz'} }
-  - {name: 'Youtube小露分享_40', server: '136.wgong.xyz', port: 52436, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '136.wgong.xyz'} }
-  - {name: 'Youtube小露分享_41', server: '122.wgong.xyz', port: 52222, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '122.wgong.xyz'} }
-  - {name: 'Youtube小露分享_42', server: '101.wgong.xyz', port: 52201, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '101.wgong.xyz'} }
-  - {name: 'Youtube小露分享_43', server: '116.wgong.xyz', port: 52216, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '116.wgong.xyz'} }
-  - {name: 'Youtube小露分享_44', server: '1222mnl.fans8.xyz', port: 80, type: vmess, uuid: '5c41411a-750a-37e8-966f-11aea49227c4', alterId: 2, cipher: auto, tls: false, network: 'ws', ws-opts: { path: '/v2ray', host: 'youtube-aweikeji'} }
-  - {name: 'Youtube小露分享_45', server: '132.wgong.xyz', port: 52332, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '132.wgong.xyz'} }
-  - {name: 'Youtube小露分享_46', server: '129.wgong.xyz', port: 52329, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '129.wgong.xyz'} }
-  - {name: 'Youtube小露分享_47', server: '42.193.48.64', port: 50002, type: vmess, uuid: '418048af-a293-4b99-9b0c-98ca3580dd24', alterId: 64, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '42.193.48.64'} }
-  - {name: 'Youtube小露分享_48', server: '42.157.8.162', port: 50002, type: vmess, uuid: '418048af-a293-4b99-9b0c-98ca3580dd24', alterId: 64, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '42.157.8.162'} }
-  - {name: 'Youtube小露分享_49', server: 'v2ray.ifuckgfw.ga', port: 8443, type: vmess, uuid: '7d578358-7514-11ec-a376-52ac0014346a', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/nBaG3RmV/'} }
-  - {name: 'Youtube小露分享_50', server: 'v2ray.ifuckgfw.ga', port: 8443, type: vmess, uuid: '7fb9b440-7514-11ec-a376-52ac0014346a', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/nBaG3RmV/'} }
-  - {name: 'Youtube小露分享_51', server: 'v2ray.ifuckgfw.ga', port: 8443, type: vmess, uuid: '81fa1ea2-7514-11ec-a376-52ac0014346a', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/nBaG3RmV/'} }
-  - { name: 'Youtube小露分享_52', server: '38.91.100.27', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm' }
-  - { name: 'Youtube小露分享_53', server: '142.202.48.114', port: 443,  type: ss, cipher: 'aes-256-gcm', password: 'pKEW8JPByTVTLtM' }
-  - { name: 'Youtube小露分享_54', server: '167.88.63.119', port: 2376,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
-  - { name: 'Youtube小露分享_55', server: '38.107.226.48', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
-  - { name: 'Youtube小露分享_56', server: '38.68.134.202', port: 2376,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
-  - { name: 'Youtube小露分享_57', server: '38.114.114.49', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
-  - { name: 'Youtube小露分享_58', server: '167.88.62.34', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
-  - { name: 'Youtube小露分享_59', server: '38.68.134.37', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
-  - { name: 'Youtube小露分享_60', server: '38.68.134.37', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
-  - { name: 'Youtube小露分享_61', server: '142.202.48.108', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
-  - { name: 'Youtube小露分享_62', server: '38.68.135.93', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
-  - { name: 'Youtube小露分享_63', server: '172.105.58.152', port: 8119,  type: ss, cipher: 'aes-256-gcm', password: 'cdBIDV42DCwnfIN' }
-  - { name: 'Youtube小露分享_64', server: '172.105.35.151', port: 2376,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
-  - { name: 'Youtube小露分享_65', server: '212.38.189.174', port: 5001,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
-  - { name: 'Youtube小露分享_66', server: '62.210.209.50', port: 8118,  type: ss, cipher: 'aes-256-gcm', password: 'cdBIDV42DCwnfIN' }
-  - { name: 'Youtube小露分享_67', server: '62.210.209.50', port: 2375,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
-  - { name: 'Youtube小露分享_68', server: '62.210.209.50', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
-  - { name: 'Youtube小露分享_69', server: '62.210.209.50', port: 8000,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm' }
-  - { name: 'Youtube小露分享_70', server: '37.120.136.234', port: 8389,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'Xd2xnHT8tYkVt5BDk92b' }
-  - { name: 'Youtube小露分享_71', server: '45.152.183.242', port: 8388,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'r4MP5DzDNmAqbBHzbSXw' }
-  - { name: 'Youtube小露分享_72', server: '118.107.244.112', port: 8090,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27' }
-  - { name: 'Youtube小露分享_73', server: '38.91.101.11', port: 2375,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
-  - { name: 'Youtube小露分享_74', server: '38.68.134.23', port: 5003,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId' }
-  - { name: 'Youtube小露分享_75', server: '38.75.136.45', port: 2376,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
-  - { name: 'Youtube小露分享_76', server: '172.99.190.87', port: 8008,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74' }
-  - { name: 'Youtube小露分享_77', server: '172.99.190.87', port: 9101,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY' }
-  - { name: 'Youtube小露分享_78', server: '142.202.48.34', port: 7307,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - { name: 'Cw）+360_1', server: '134.195.196.128', port: 5000,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+361_2', server: '38.75.136.45', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - {name: 'Cw） 362_3', server: '112.33.32.136', port: 10003, type: vmess, uuid: '65cac56d-4155-43c8-bae0-f368cb21f771', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/zz', host: '120.232.174.96'} }
+  - { name: 'Cw）+363_4', server: '85.208.110.2', port: 2375,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
+  - { name: 'Cw）+364_5', server: '38.107.226.241', port: 7307,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - { name: 'Cw）+365_6', server: '134.195.196.24', port: 5000,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+366_7', server: '38.68.134.190', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - { name: 'Cw）+367_8', server: '198.57.27.14', port: 7001,  type: ss, cipher: 'aes-256-gcm', password: 'RexnBgU7EV5ADxG' }
+  - { name: 'Cw）+368_9', server: '38.75.136.58', port: 5004,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId' }
+  - { name: 'Cw）+369_10', server: '134.195.196.71', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+370_11', server: '38.121.43.142', port: 5001,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - {name: 'Cw） 371_12', server: 'v2.ssrsub.com', port: 8443, type: vmess, uuid: '974aeac3-c27c-4e20-86e4-03f526faaccd', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub', host: 'v2.ssrsub.com'} }
+  - {name: 'Cw） 372_13', server: z0113.security-cloudfront-cdn.com, port: 44160, type: ssr, password: 'wQ16gJrbBvvME3my', cipher: 'aes-256-cfb', protocol: 'origin', obfs: 'http_simple', obfs-param: 'www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive'}
+  - { name: 'Cw）+373_14', server: '169.197.143.219', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm' }
+  - { name: 'Cw）+374_15', server: '38.86.135.126', port: 7002,  type: ss, cipher: 'aes-256-gcm', password: 'RexnBgU7EV5ADxG' }
+  - { name: 'Cw）+375_16', server: '198.57.27.191', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - { name: 'Cw）+376_17', server: '172.104.157.118', port: 8090,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27' }
+  - { name: 'Cw）+377_18', server: '198.57.27.191', port: 5600,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+378_19', server: '169.197.141.91', port: 5601,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+379_20', server: '193.108.117.24', port: 5601,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - {name: 'Cw） 380_21', server: '172.67.68.58', port: 443, type: vmess, uuid: 'f2f578e4-692d-40b5-af99-9f1dd712eb32', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/shuier', host: 'xc1.v2rie.pp.ua'} }
+  - { name: 'Cw）+381_22', server: '145.239.1.100', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm' }
+  - { name: 'Cw）+382_23', server: '145.239.1.100', port: 8009,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74' }
+  - { name: 'Cw）+383_24', server: '134.195.196.150', port: 8009,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74' }
+  - { name: 'Cw）+384_25', server: '169.197.141.244', port: 9102,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY' }
+  - { name: 'Cw）+385_26', server: '142.202.48.34', port: 8888,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+386_27', server: '139.162.130.101', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+387_28', server: '172.105.251.193', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+388_29', server: '134.195.196.144', port: 5001,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+389_30', server: '38.107.226.48', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+390_31', server: '145.239.1.100', port: 9102,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY' }
+  - { name: 'Cw）+391_32', server: '38.121.43.142', port: 7001,  type: ss, cipher: 'aes-256-gcm', password: 'RexnBgU7EV5ADxG' }
+  - { name: 'Cw）+392_33', server: '193.108.118.36', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+393_34', server: '212.38.189.174', port: 5001,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+394_35', server: '185.213.21.6', port: 2376,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
+  - { name: 'Cw）+395_36', server: '193.108.117.24', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+396_37', server: '169.197.141.91', port: 8888,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - {name: 'Cw） 397_38', server: '112.33.32.136', port: 10002, type: vmess, uuid: '65cac56d-4155-43c8-bae0-f368cb21f771', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/shuier', host: 'xc1.v2rie.pp.ua'} }
+  - { name: 'Cw）+398_39', server: '38.68.134.191', port: 7307,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - { name: 'Cw）+399_40', server: '169.197.141.244', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm' }
+  - { name: 'Cw）+400_41', server: '38.68.135.18', port: 8881,  type: ss, cipher: 'aes-256-gcm', password: 'kDWvXYZoTBcGkC4' }
+  - { name: 'Cw）+401_42', server: '38.86.135.169', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+402_43', server: '193.108.118.36', port: 5000,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+403_44', server: '172.99.190.39', port: 5600,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+404_45', server: '38.107.226.48', port: 8888,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+405_46', server: '134.195.196.144', port: 5601,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+406_47', server: '193.108.117.24', port: 5001,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+407_48', server: '193.108.117.24', port: 8888,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - {name: 'Cw） 408_49', server: '112.64.69.187', port: 10004, type: vmess, uuid: '65cac56d-4155-43c8-bae0-f368cb21f771', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/shuier', host: 'xc1.v2rie.pp.ua'} }
+  - {name: 'Cw） 409_50', server: 'v2ray.ifuckgfw.ga', port: 8443, type: vmess, uuid: '8426f358-7514-11ec-a376-52ac0014346a', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/nBaG3RmV/', host: 'v2ray.ifuckgfw.ga'} }
+  - {name: 'Cw） 410_51', server: 'shcu01.iplc188.com', port: 10004, type: vmess, uuid: '65cac56d-4155-43c8-bae0-f368cb21f771', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/nBaG3RmV/', host: 'v2ray.ifuckgfw.ga'} }
+  - { name: 'Cw）+411_52', server: '198.57.27.14', port: 7307,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - { name: 'Cw）+412_53', server: '139.162.132.116', port: 6679,  type: ss, cipher: 'aes-256-gcm', password: 'TEzjfAYq2IjtuoS' }
+  - { name: 'Cw）+413_54', server: '198.57.27.184', port: 5600,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+414_55', server: '38.107.226.49', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+415_56', server: '134.195.196.227', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+416_57', server: '38.86.135.126', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+417_58', server: '134.195.196.144', port: 8888,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - {name: 'Cw） 418_59', server: '198.41.221.169', port: 443, type: vmess, uuid: 'a8910831-f56b-4ac4-c68f-e4dd83f71e60', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/sakura/', host: 'zero1.a-yu.xyz'} }
+  - {name: 'Cw） 419_60', server: '198.41.212.8', port: 443, type: vmess, uuid: 'a8910831-f56b-4ac4-c68f-e4dd83f71e60', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/sakura/', host: 'zero1.a-yu.xyz'} }
+  - {name: 'Cw） 420_61', server: 'qy1.dwjsyz.top', port: 17007, type: vmess, uuid: '0075f65b-7ec6-3b18-a0b6-0c0dc54f9e6b', alterId: 0, cipher: auto, tls: false, network: 'ws', ws-opts: { path: '/video', host: 'windows.com'} }
+  - { name: 'Cw）+421_62', server: '62.210.209.50', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - {name: 'Cw） 422_63', server: z0114.security-cloudfront-cdn.com, port: 44160, type: ssr, password: 'wQ16gJrbBvvME3my', cipher: 'aes-256-cfb', protocol: 'origin', obfs: 'http_simple', obfs-param: 'www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive'}
+  - { name: 'Cw）+423_64', server: '198.57.27.184', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+424_65', server: '38.121.43.91', port: 7002,  type: ss, cipher: 'aes-256-gcm', password: 'RexnBgU7EV5ADxG' }
+  - { name: 'Cw）+425_66', server: '38.68.134.37', port: 7307,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - { name: 'Cw）+426_67', server: '134.195.196.202', port: 2375,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
+  - { name: 'Cw）+427_68', server: '134.195.196.214', port: 7307,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - { name: 'Cw）+428_69', server: '139.162.132.116', port: 8000,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm' }
+  - { name: 'Cw）+429_70', server: '38.86.135.169', port: 9101,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY' }
+  - { name: 'Cw）+430_71', server: '193.108.118.36', port: 5600,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+431_72', server: '142.202.48.7', port: 2375,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
+  - { name: 'Cw）+432_73', server: '38.91.107.22', port: 8881,  type: ss, cipher: 'aes-256-gcm', password: 'kDWvXYZoTBcGkC4' }
+  - { name: 'Cw）+433_74', server: '38.107.226.48', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm' }
+  - { name: 'Cw）+434_75', server: '38.75.136.49', port: 2375,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
+  - {name: 'Cw） 435_76', server: 'v2ray.ifuckgfw.ga', port: 8443, type: vmess, uuid: '7fb9b440-7514-11ec-a376-52ac0014346a', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/nBaG3RmV/', host: 'v2ray.ifuckgfw.ga'} }
+  - {name: 'Cw） 436_77', server: 'fa6.uuv2.co.uk', port: 10003, type: vmess, uuid: '65cac56d-4155-43c8-bae0-f368cb21f771', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/nBaG3RmV/', host: 'v2ray.ifuckgfw.ga'} }
+  - { name: 'Cw）+437', server: 't7.ssrsub.com', port: 8443?allowInsecure=1&sni=t7.ssrsub.com, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab }
+  - {name: 'Cw） 438_79', server: 'ovh.fr.tgproxy.wtf', port: 8888, type: vmess, uuid: '23a8f304-5667-4f47-9fad-72e23ddc59be', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/theuploadapi', host: 'ovh.fr.tgproxy.wtf'} }
+  - { name: 'Cw）+439_80', server: 'cn2.relay.starlink.st', port: 50102,  type: ss, cipher: 'aes-128-gcm', password: '0f7fe3da-c8eb-48f8-a983-b10ed5edcab9' }
+  - { name: 'Cw）+440_81', server: '198.57.27.191', port: 6679,  type: ss, cipher: 'aes-256-gcm', password: 'TEzjfAYq2IjtuoS' }
+  - { name: 'Cw）+441_82', server: '38.91.100.134', port: 5600,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+442_83', server: '212.38.189.174', port: 8118,  type: ss, cipher: 'aes-256-gcm', password: 'cdBIDV42DCwnfIN' }
+  - { name: 'Cw）+443_84', server: '142.202.48.7', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+444_85', server: '134.195.196.150', port: 8008,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74' }
+  - { name: 'Cw）+445_86', server: '38.75.137.66', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm' }
+  - { name: 'Cw）+446_87', server: '117.28.243.220', port: 8076,  type: ss, cipher: 'rc4-md5', password: 'passinfo123' }
+  - { name: 'Cw）+447_88', server: '142.202.48.34', port: 6379,  type: ss, cipher: 'aes-256-gcm', password: 'zDNVedRFPQexG9v' }
+  - { name: 'Cw）+448_89', server: '212.38.189.174', port: 6379,  type: ss, cipher: 'aes-256-gcm', password: 'zDNVedRFPQexG9v' }
+  - { name: 'Cw）+449_90', server: '38.121.43.91', port: 6697,  type: ss, cipher: 'aes-256-gcm', password: 'TEzjfAYq2IjtuoS' }
+  - { name: 'Cw）+450_91', server: '172.99.190.39', port: 2376,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7' }
+  - { name: 'Cw）+451_92', server: '38.121.43.142', port: 8009,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74' }
+  - { name: 'Cw）+452_93', server: '38.86.135.169', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm' }
+  - { name: 'Cw）+453_94', server: '38.68.134.191', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+454_95', server: '212.38.189.174', port: 5000,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+455_96', server: '38.121.43.71', port: 443,  type: ss, cipher: 'aes-256-gcm', password: 'pKEW8JPByTVTLtM' }
+  - { name: 'Cw）+456_97', server: '172.99.190.205', port: 6379,  type: ss, cipher: 'aes-256-gcm', password: 'zDNVedRFPQexG9v' }
+  - { name: 'Cw）+457_98', server: '198.57.27.152', port: 8881,  type: ss, cipher: 'aes-256-gcm', password: 'kDWvXYZoTBcGkC4' }
+  - { name: 'Cw）+458_99', server: '45.133.181.58', port: 8388,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'qzj5NqakK4YvYYU87eFF' }
+  - { name: 'Cw）+459_100', server: '38.86.135.126', port: 7307,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
+  - {name: 'Cw） 460_101', server: '198.41.212.11', port: 443, type: vmess, uuid: 'a8910831-f56b-4ac4-c68f-e4dd83f71e60', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/sakura/', host: 'zero1.a-yu.xyz'} }
+  - { name: 'Cw）+461_102', server: '145.239.1.137', port: 5003,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId' }
+  - { name: 'Cw）+462_103', server: '85.208.110.2', port: 8888,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+463_104', server: '38.86.135.126', port: 5001,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC' }
+  - { name: 'Cw）+464_105', server: '38.121.43.142', port: 5004,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId' }
+  - { name: 'Cw）+465_106', server: '23.226.131.146', port: 8388,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'ckX2YfENbjCtVzVJphFP' }
+  - {name: 'Cw） 466_107', server: '104.19.28.35', port: 443, type: vmess, uuid: 'c213d58f-9e41-4d9e-ab99-efa6090dee02', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/', host: 'cdn-dc01.testred.xyz'} }
+  - {name: 'Cw） 467_108', server: 'shcu01.iplc188.com', port: 10004, type: vmess, uuid: '65cac56d-4155-43c8-bae0-f368cb21f771', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/', host: 'cdn-dc01.testred.xyz'} }
+  - { name: 'Cw）+468_109', server: '217.79.181.49', port: 7307,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP' }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Youtube小露分享_1
-      - Youtube小露分享_2
-      - Youtube小露分享_3
-      - Youtube小露分享_4
-      - Youtube小露分享_5
-      - Youtube小露分享_6
-      - Youtube小露分享_7
-      - Youtube小露分享_8
-      - Youtube小露分享_9
-      - Youtube小露分享_10
-      - Youtube小露分享_11
-      - Youtube小露分享_12
-      - Youtube小露分享_13
-      - Youtube小露分享_14
-      - Youtube小露分享_15
-      - Youtube小露分享_16
-      - Youtube小露分享_17
-      - Youtube小露分享_18
-      - Youtube小露分享_19
-      - Youtube小露分享_20
-      - Youtube小露分享_21
-      - Youtube小露分享_22
-      - Youtube小露分享_23
-      - Youtube小露分享_24
-      - Youtube小露分享_25
-      - Youtube小露分享_26
-      - Youtube小露分享_27
-      - Youtube小露分享_28
-      - Youtube小露分享_29
-      - Youtube小露分享_30
-      - Youtube小露分享_31
-      - Youtube小露分享_32
-      - Youtube小露分享_33
-      - Youtube小露分享_34
-      - Youtube小露分享_35
-      - Youtube小露分享_36
-      - Youtube小露分享_37
-      - Youtube小露分享_38
-      - Youtube小露分享_39
-      - Youtube小露分享_40
-      - Youtube小露分享_41
-      - Youtube小露分享_42
-      - Youtube小露分享_43
-      - Youtube小露分享_44
-      - Youtube小露分享_45
-      - Youtube小露分享_46
-      - Youtube小露分享_47
-      - Youtube小露分享_48
-      - Youtube小露分享_49
-      - Youtube小露分享_50
-      - Youtube小露分享_51
-      - Youtube小露分享_52
-      - Youtube小露分享_53
-      - Youtube小露分享_54
-      - Youtube小露分享_55
-      - Youtube小露分享_56
-      - Youtube小露分享_57
-      - Youtube小露分享_58
-      - Youtube小露分享_59
-      - Youtube小露分享_60
-      - Youtube小露分享_61
-      - Youtube小露分享_62
-      - Youtube小露分享_63
-      - Youtube小露分享_64
-      - Youtube小露分享_65
-      - Youtube小露分享_66
-      - Youtube小露分享_67
-      - Youtube小露分享_68
-      - Youtube小露分享_69
-      - Youtube小露分享_70
-      - Youtube小露分享_71
-      - Youtube小露分享_72
-      - Youtube小露分享_73
-      - Youtube小露分享_74
-      - Youtube小露分享_75
-      - Youtube小露分享_76
-      - Youtube小露分享_77
-      - Youtube小露分享_78
+      - Cw）+360_1
+      - Cw）+361_2
+      - Cw） 362_3
+      - Cw）+363_4
+      - Cw）+364_5
+      - Cw）+365_6
+      - Cw）+366_7
+      - Cw）+367_8
+      - Cw）+368_9
+      - Cw）+369_10
+      - Cw）+370_11
+      - Cw） 371_12
+      - Cw） 372_13
+      - Cw）+373_14
+      - Cw）+374_15
+      - Cw）+375_16
+      - Cw）+376_17
+      - Cw）+377_18
+      - Cw）+378_19
+      - Cw）+379_20
+      - Cw） 380_21
+      - Cw）+381_22
+      - Cw）+382_23
+      - Cw）+383_24
+      - Cw）+384_25
+      - Cw）+385_26
+      - Cw）+386_27
+      - Cw）+387_28
+      - Cw）+388_29
+      - Cw）+389_30
+      - Cw）+390_31
+      - Cw）+391_32
+      - Cw）+392_33
+      - Cw）+393_34
+      - Cw）+394_35
+      - Cw）+395_36
+      - Cw）+396_37
+      - Cw） 397_38
+      - Cw）+398_39
+      - Cw）+399_40
+      - Cw）+400_41
+      - Cw）+401_42
+      - Cw）+402_43
+      - Cw）+403_44
+      - Cw）+404_45
+      - Cw）+405_46
+      - Cw）+406_47
+      - Cw）+407_48
+      - Cw） 408_49
+      - Cw） 409_50
+      - Cw） 410_51
+      - Cw）+411_52
+      - Cw）+412_53
+      - Cw）+413_54
+      - Cw）+414_55
+      - Cw）+415_56
+      - Cw）+416_57
+      - Cw）+417_58
+      - Cw） 418_59
+      - Cw） 419_60
+      - Cw） 420_61
+      - Cw）+421_62
+      - Cw） 422_63
+      - Cw）+423_64
+      - Cw）+424_65
+      - Cw）+425_66
+      - Cw）+426_67
+      - Cw）+427_68
+      - Cw）+428_69
+      - Cw）+429_70
+      - Cw）+430_71
+      - Cw）+431_72
+      - Cw）+432_73
+      - Cw）+433_74
+      - Cw）+434_75
+      - Cw） 435_76
+      - Cw） 436_77
+      - Cw）+437_78
+      - Cw） 438_79
+      - Cw）+439_80
+      - Cw）+440_81
+      - Cw）+441_82
+      - Cw）+442_83
+      - Cw）+443_84
+      - Cw）+444_85
+      - Cw）+445_86
+      - Cw）+446_87
+      - Cw）+447_88
+      - Cw）+448_89
+      - Cw）+449_90
+      - Cw）+450_91
+      - Cw）+451_92
+      - Cw）+452_93
+      - Cw）+453_94
+      - Cw）+454_95
+      - Cw）+455_96
+      - Cw）+456_97
+      - Cw）+457_98
+      - Cw）+458_99
+      - Cw）+459_100
+      - Cw） 460_101
+      - Cw）+461_102
+      - Cw）+462_103
+      - Cw）+463_104
+      - Cw）+464_105
+      - Cw）+465_106
+      - Cw） 466_107
+      - Cw） 467_108
+      - Cw）+468_109
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Youtube小露分享_1
-      - Youtube小露分享_2
-      - Youtube小露分享_3
-      - Youtube小露分享_4
-      - Youtube小露分享_5
-      - Youtube小露分享_6
-      - Youtube小露分享_7
-      - Youtube小露分享_8
-      - Youtube小露分享_9
-      - Youtube小露分享_10
-      - Youtube小露分享_11
-      - Youtube小露分享_12
-      - Youtube小露分享_13
-      - Youtube小露分享_14
-      - Youtube小露分享_15
-      - Youtube小露分享_16
-      - Youtube小露分享_17
-      - Youtube小露分享_18
-      - Youtube小露分享_19
-      - Youtube小露分享_20
-      - Youtube小露分享_21
-      - Youtube小露分享_22
-      - Youtube小露分享_23
-      - Youtube小露分享_24
-      - Youtube小露分享_25
-      - Youtube小露分享_26
-      - Youtube小露分享_27
-      - Youtube小露分享_28
-      - Youtube小露分享_29
-      - Youtube小露分享_30
-      - Youtube小露分享_31
-      - Youtube小露分享_32
-      - Youtube小露分享_33
-      - Youtube小露分享_34
-      - Youtube小露分享_35
-      - Youtube小露分享_36
-      - Youtube小露分享_37
-      - Youtube小露分享_38
-      - Youtube小露分享_39
-      - Youtube小露分享_40
-      - Youtube小露分享_41
-      - Youtube小露分享_42
-      - Youtube小露分享_43
-      - Youtube小露分享_44
-      - Youtube小露分享_45
-      - Youtube小露分享_46
-      - Youtube小露分享_47
-      - Youtube小露分享_48
-      - Youtube小露分享_49
-      - Youtube小露分享_50
-      - Youtube小露分享_51
-      - Youtube小露分享_52
-      - Youtube小露分享_53
-      - Youtube小露分享_54
-      - Youtube小露分享_55
-      - Youtube小露分享_56
-      - Youtube小露分享_57
-      - Youtube小露分享_58
-      - Youtube小露分享_59
-      - Youtube小露分享_60
-      - Youtube小露分享_61
-      - Youtube小露分享_62
-      - Youtube小露分享_63
-      - Youtube小露分享_64
-      - Youtube小露分享_65
-      - Youtube小露分享_66
-      - Youtube小露分享_67
-      - Youtube小露分享_68
-      - Youtube小露分享_69
-      - Youtube小露分享_70
-      - Youtube小露分享_71
-      - Youtube小露分享_72
-      - Youtube小露分享_73
-      - Youtube小露分享_74
-      - Youtube小露分享_75
-      - Youtube小露分享_76
-      - Youtube小露分享_77
-      - Youtube小露分享_78
+      - Cw）+360_1
+      - Cw）+361_2
+      - Cw） 362_3
+      - Cw）+363_4
+      - Cw）+364_5
+      - Cw）+365_6
+      - Cw）+366_7
+      - Cw）+367_8
+      - Cw）+368_9
+      - Cw）+369_10
+      - Cw）+370_11
+      - Cw） 371_12
+      - Cw） 372_13
+      - Cw）+373_14
+      - Cw）+374_15
+      - Cw）+375_16
+      - Cw）+376_17
+      - Cw）+377_18
+      - Cw）+378_19
+      - Cw）+379_20
+      - Cw） 380_21
+      - Cw）+381_22
+      - Cw）+382_23
+      - Cw）+383_24
+      - Cw）+384_25
+      - Cw）+385_26
+      - Cw）+386_27
+      - Cw）+387_28
+      - Cw）+388_29
+      - Cw）+389_30
+      - Cw）+390_31
+      - Cw）+391_32
+      - Cw）+392_33
+      - Cw）+393_34
+      - Cw）+394_35
+      - Cw）+395_36
+      - Cw）+396_37
+      - Cw） 397_38
+      - Cw）+398_39
+      - Cw）+399_40
+      - Cw）+400_41
+      - Cw）+401_42
+      - Cw）+402_43
+      - Cw）+403_44
+      - Cw）+404_45
+      - Cw）+405_46
+      - Cw）+406_47
+      - Cw）+407_48
+      - Cw） 408_49
+      - Cw） 409_50
+      - Cw） 410_51
+      - Cw）+411_52
+      - Cw）+412_53
+      - Cw）+413_54
+      - Cw）+414_55
+      - Cw）+415_56
+      - Cw）+416_57
+      - Cw）+417_58
+      - Cw） 418_59
+      - Cw） 419_60
+      - Cw） 420_61
+      - Cw）+421_62
+      - Cw） 422_63
+      - Cw）+423_64
+      - Cw）+424_65
+      - Cw）+425_66
+      - Cw）+426_67
+      - Cw）+427_68
+      - Cw）+428_69
+      - Cw）+429_70
+      - Cw）+430_71
+      - Cw）+431_72
+      - Cw）+432_73
+      - Cw）+433_74
+      - Cw）+434_75
+      - Cw） 435_76
+      - Cw） 436_77
+      - Cw）+437_78
+      - Cw） 438_79
+      - Cw）+439_80
+      - Cw）+440_81
+      - Cw）+441_82
+      - Cw）+442_83
+      - Cw）+443_84
+      - Cw）+444_85
+      - Cw）+445_86
+      - Cw）+446_87
+      - Cw）+447_88
+      - Cw）+448_89
+      - Cw）+449_90
+      - Cw）+450_91
+      - Cw）+451_92
+      - Cw）+452_93
+      - Cw）+453_94
+      - Cw）+454_95
+      - Cw）+455_96
+      - Cw）+456_97
+      - Cw）+457_98
+      - Cw）+458_99
+      - Cw）+459_100
+      - Cw） 460_101
+      - Cw）+461_102
+      - Cw）+462_103
+      - Cw）+463_104
+      - Cw）+464_105
+      - Cw）+465_106
+      - Cw） 466_107
+      - Cw） 467_108
+      - Cw）+468_109
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube小露分享_1
-      - Youtube小露分享_2
-      - Youtube小露分享_3
-      - Youtube小露分享_4
-      - Youtube小露分享_5
-      - Youtube小露分享_6
-      - Youtube小露分享_7
-      - Youtube小露分享_8
-      - Youtube小露分享_9
-      - Youtube小露分享_10
-      - Youtube小露分享_11
-      - Youtube小露分享_12
-      - Youtube小露分享_13
-      - Youtube小露分享_14
-      - Youtube小露分享_15
-      - Youtube小露分享_16
-      - Youtube小露分享_17
-      - Youtube小露分享_18
-      - Youtube小露分享_19
-      - Youtube小露分享_20
-      - Youtube小露分享_21
-      - Youtube小露分享_22
-      - Youtube小露分享_23
-      - Youtube小露分享_24
-      - Youtube小露分享_25
-      - Youtube小露分享_26
-      - Youtube小露分享_27
-      - Youtube小露分享_28
-      - Youtube小露分享_29
-      - Youtube小露分享_30
-      - Youtube小露分享_31
-      - Youtube小露分享_32
-      - Youtube小露分享_33
-      - Youtube小露分享_34
-      - Youtube小露分享_35
-      - Youtube小露分享_36
-      - Youtube小露分享_37
-      - Youtube小露分享_38
-      - Youtube小露分享_39
-      - Youtube小露分享_40
-      - Youtube小露分享_41
-      - Youtube小露分享_42
-      - Youtube小露分享_43
-      - Youtube小露分享_44
-      - Youtube小露分享_45
-      - Youtube小露分享_46
-      - Youtube小露分享_47
-      - Youtube小露分享_48
-      - Youtube小露分享_49
-      - Youtube小露分享_50
-      - Youtube小露分享_51
-      - Youtube小露分享_52
-      - Youtube小露分享_53
-      - Youtube小露分享_54
-      - Youtube小露分享_55
-      - Youtube小露分享_56
-      - Youtube小露分享_57
-      - Youtube小露分享_58
-      - Youtube小露分享_59
-      - Youtube小露分享_60
-      - Youtube小露分享_61
-      - Youtube小露分享_62
-      - Youtube小露分享_63
-      - Youtube小露分享_64
-      - Youtube小露分享_65
-      - Youtube小露分享_66
-      - Youtube小露分享_67
-      - Youtube小露分享_68
-      - Youtube小露分享_69
-      - Youtube小露分享_70
-      - Youtube小露分享_71
-      - Youtube小露分享_72
-      - Youtube小露分享_73
-      - Youtube小露分享_74
-      - Youtube小露分享_75
-      - Youtube小露分享_76
-      - Youtube小露分享_77
-      - Youtube小露分享_78
+      - Cw）+360_1
+      - Cw）+361_2
+      - Cw） 362_3
+      - Cw）+363_4
+      - Cw）+364_5
+      - Cw）+365_6
+      - Cw）+366_7
+      - Cw）+367_8
+      - Cw）+368_9
+      - Cw）+369_10
+      - Cw）+370_11
+      - Cw） 371_12
+      - Cw） 372_13
+      - Cw）+373_14
+      - Cw）+374_15
+      - Cw）+375_16
+      - Cw）+376_17
+      - Cw）+377_18
+      - Cw）+378_19
+      - Cw）+379_20
+      - Cw） 380_21
+      - Cw）+381_22
+      - Cw）+382_23
+      - Cw）+383_24
+      - Cw）+384_25
+      - Cw）+385_26
+      - Cw）+386_27
+      - Cw）+387_28
+      - Cw）+388_29
+      - Cw）+389_30
+      - Cw）+390_31
+      - Cw）+391_32
+      - Cw）+392_33
+      - Cw）+393_34
+      - Cw）+394_35
+      - Cw）+395_36
+      - Cw）+396_37
+      - Cw） 397_38
+      - Cw）+398_39
+      - Cw）+399_40
+      - Cw）+400_41
+      - Cw）+401_42
+      - Cw）+402_43
+      - Cw）+403_44
+      - Cw）+404_45
+      - Cw）+405_46
+      - Cw）+406_47
+      - Cw）+407_48
+      - Cw） 408_49
+      - Cw） 409_50
+      - Cw） 410_51
+      - Cw）+411_52
+      - Cw）+412_53
+      - Cw）+413_54
+      - Cw）+414_55
+      - Cw）+415_56
+      - Cw）+416_57
+      - Cw）+417_58
+      - Cw） 418_59
+      - Cw） 419_60
+      - Cw） 420_61
+      - Cw）+421_62
+      - Cw） 422_63
+      - Cw）+423_64
+      - Cw）+424_65
+      - Cw）+425_66
+      - Cw）+426_67
+      - Cw）+427_68
+      - Cw）+428_69
+      - Cw）+429_70
+      - Cw）+430_71
+      - Cw）+431_72
+      - Cw）+432_73
+      - Cw）+433_74
+      - Cw）+434_75
+      - Cw） 435_76
+      - Cw） 436_77
+      - Cw）+437_78
+      - Cw） 438_79
+      - Cw）+439_80
+      - Cw）+440_81
+      - Cw）+441_82
+      - Cw）+442_83
+      - Cw）+443_84
+      - Cw）+444_85
+      - Cw）+445_86
+      - Cw）+446_87
+      - Cw）+447_88
+      - Cw）+448_89
+      - Cw）+449_90
+      - Cw）+450_91
+      - Cw）+451_92
+      - Cw）+452_93
+      - Cw）+453_94
+      - Cw）+454_95
+      - Cw）+455_96
+      - Cw）+456_97
+      - Cw）+457_98
+      - Cw）+458_99
+      - Cw）+459_100
+      - Cw） 460_101
+      - Cw）+461_102
+      - Cw）+462_103
+      - Cw）+463_104
+      - Cw）+464_105
+      - Cw）+465_106
+      - Cw） 466_107
+      - Cw） 467_108
+      - Cw）+468_109
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Youtube小露分享_1
-      - Youtube小露分享_2
-      - Youtube小露分享_3
-      - Youtube小露分享_4
-      - Youtube小露分享_5
-      - Youtube小露分享_6
-      - Youtube小露分享_7
-      - Youtube小露分享_8
-      - Youtube小露分享_9
-      - Youtube小露分享_10
-      - Youtube小露分享_11
-      - Youtube小露分享_12
-      - Youtube小露分享_13
-      - Youtube小露分享_14
-      - Youtube小露分享_15
-      - Youtube小露分享_16
-      - Youtube小露分享_17
-      - Youtube小露分享_18
-      - Youtube小露分享_19
-      - Youtube小露分享_20
-      - Youtube小露分享_21
-      - Youtube小露分享_22
-      - Youtube小露分享_23
-      - Youtube小露分享_24
-      - Youtube小露分享_25
-      - Youtube小露分享_26
-      - Youtube小露分享_27
-      - Youtube小露分享_28
-      - Youtube小露分享_29
-      - Youtube小露分享_30
-      - Youtube小露分享_31
-      - Youtube小露分享_32
-      - Youtube小露分享_33
-      - Youtube小露分享_34
-      - Youtube小露分享_35
-      - Youtube小露分享_36
-      - Youtube小露分享_37
-      - Youtube小露分享_38
-      - Youtube小露分享_39
-      - Youtube小露分享_40
-      - Youtube小露分享_41
-      - Youtube小露分享_42
-      - Youtube小露分享_43
-      - Youtube小露分享_44
-      - Youtube小露分享_45
-      - Youtube小露分享_46
-      - Youtube小露分享_47
-      - Youtube小露分享_48
-      - Youtube小露分享_49
-      - Youtube小露分享_50
-      - Youtube小露分享_51
-      - Youtube小露分享_52
-      - Youtube小露分享_53
-      - Youtube小露分享_54
-      - Youtube小露分享_55
-      - Youtube小露分享_56
-      - Youtube小露分享_57
-      - Youtube小露分享_58
-      - Youtube小露分享_59
-      - Youtube小露分享_60
-      - Youtube小露分享_61
-      - Youtube小露分享_62
-      - Youtube小露分享_63
-      - Youtube小露分享_64
-      - Youtube小露分享_65
-      - Youtube小露分享_66
-      - Youtube小露分享_67
-      - Youtube小露分享_68
-      - Youtube小露分享_69
-      - Youtube小露分享_70
-      - Youtube小露分享_71
-      - Youtube小露分享_72
-      - Youtube小露分享_73
-      - Youtube小露分享_74
-      - Youtube小露分享_75
-      - Youtube小露分享_76
-      - Youtube小露分享_77
-      - Youtube小露分享_78
+      - Cw）+360_1
+      - Cw）+361_2
+      - Cw） 362_3
+      - Cw）+363_4
+      - Cw）+364_5
+      - Cw）+365_6
+      - Cw）+366_7
+      - Cw）+367_8
+      - Cw）+368_9
+      - Cw）+369_10
+      - Cw）+370_11
+      - Cw） 371_12
+      - Cw） 372_13
+      - Cw）+373_14
+      - Cw）+374_15
+      - Cw）+375_16
+      - Cw）+376_17
+      - Cw）+377_18
+      - Cw）+378_19
+      - Cw）+379_20
+      - Cw） 380_21
+      - Cw）+381_22
+      - Cw）+382_23
+      - Cw）+383_24
+      - Cw）+384_25
+      - Cw）+385_26
+      - Cw）+386_27
+      - Cw）+387_28
+      - Cw）+388_29
+      - Cw）+389_30
+      - Cw）+390_31
+      - Cw）+391_32
+      - Cw）+392_33
+      - Cw）+393_34
+      - Cw）+394_35
+      - Cw）+395_36
+      - Cw）+396_37
+      - Cw） 397_38
+      - Cw）+398_39
+      - Cw）+399_40
+      - Cw）+400_41
+      - Cw）+401_42
+      - Cw）+402_43
+      - Cw）+403_44
+      - Cw）+404_45
+      - Cw）+405_46
+      - Cw）+406_47
+      - Cw）+407_48
+      - Cw） 408_49
+      - Cw） 409_50
+      - Cw） 410_51
+      - Cw）+411_52
+      - Cw）+412_53
+      - Cw）+413_54
+      - Cw）+414_55
+      - Cw）+415_56
+      - Cw）+416_57
+      - Cw）+417_58
+      - Cw） 418_59
+      - Cw） 419_60
+      - Cw） 420_61
+      - Cw）+421_62
+      - Cw） 422_63
+      - Cw）+423_64
+      - Cw）+424_65
+      - Cw）+425_66
+      - Cw）+426_67
+      - Cw）+427_68
+      - Cw）+428_69
+      - Cw）+429_70
+      - Cw）+430_71
+      - Cw）+431_72
+      - Cw）+432_73
+      - Cw）+433_74
+      - Cw）+434_75
+      - Cw） 435_76
+      - Cw） 436_77
+      - Cw）+437_78
+      - Cw） 438_79
+      - Cw）+439_80
+      - Cw）+440_81
+      - Cw）+441_82
+      - Cw）+442_83
+      - Cw）+443_84
+      - Cw）+444_85
+      - Cw）+445_86
+      - Cw）+446_87
+      - Cw）+447_88
+      - Cw）+448_89
+      - Cw）+449_90
+      - Cw）+450_91
+      - Cw）+451_92
+      - Cw）+452_93
+      - Cw）+453_94
+      - Cw）+454_95
+      - Cw）+455_96
+      - Cw）+456_97
+      - Cw）+457_98
+      - Cw）+458_99
+      - Cw）+459_100
+      - Cw） 460_101
+      - Cw）+461_102
+      - Cw）+462_103
+      - Cw）+463_104
+      - Cw）+464_105
+      - Cw）+465_106
+      - Cw） 466_107
+      - Cw） 467_108
+      - Cw）+468_109
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Youtube小露分享_1
-      - Youtube小露分享_2
-      - Youtube小露分享_3
-      - Youtube小露分享_4
-      - Youtube小露分享_5
-      - Youtube小露分享_6
-      - Youtube小露分享_7
-      - Youtube小露分享_8
-      - Youtube小露分享_9
-      - Youtube小露分享_10
-      - Youtube小露分享_11
-      - Youtube小露分享_12
-      - Youtube小露分享_13
-      - Youtube小露分享_14
-      - Youtube小露分享_15
-      - Youtube小露分享_16
-      - Youtube小露分享_17
-      - Youtube小露分享_18
-      - Youtube小露分享_19
-      - Youtube小露分享_20
-      - Youtube小露分享_21
-      - Youtube小露分享_22
-      - Youtube小露分享_23
-      - Youtube小露分享_24
-      - Youtube小露分享_25
-      - Youtube小露分享_26
-      - Youtube小露分享_27
-      - Youtube小露分享_28
-      - Youtube小露分享_29
-      - Youtube小露分享_30
-      - Youtube小露分享_31
-      - Youtube小露分享_32
-      - Youtube小露分享_33
-      - Youtube小露分享_34
-      - Youtube小露分享_35
-      - Youtube小露分享_36
-      - Youtube小露分享_37
-      - Youtube小露分享_38
-      - Youtube小露分享_39
-      - Youtube小露分享_40
-      - Youtube小露分享_41
-      - Youtube小露分享_42
-      - Youtube小露分享_43
-      - Youtube小露分享_44
-      - Youtube小露分享_45
-      - Youtube小露分享_46
-      - Youtube小露分享_47
-      - Youtube小露分享_48
-      - Youtube小露分享_49
-      - Youtube小露分享_50
-      - Youtube小露分享_51
-      - Youtube小露分享_52
-      - Youtube小露分享_53
-      - Youtube小露分享_54
-      - Youtube小露分享_55
-      - Youtube小露分享_56
-      - Youtube小露分享_57
-      - Youtube小露分享_58
-      - Youtube小露分享_59
-      - Youtube小露分享_60
-      - Youtube小露分享_61
-      - Youtube小露分享_62
-      - Youtube小露分享_63
-      - Youtube小露分享_64
-      - Youtube小露分享_65
-      - Youtube小露分享_66
-      - Youtube小露分享_67
-      - Youtube小露分享_68
-      - Youtube小露分享_69
-      - Youtube小露分享_70
-      - Youtube小露分享_71
-      - Youtube小露分享_72
-      - Youtube小露分享_73
-      - Youtube小露分享_74
-      - Youtube小露分享_75
-      - Youtube小露分享_76
-      - Youtube小露分享_77
-      - Youtube小露分享_78
+      - Cw）+360_1
+      - Cw）+361_2
+      - Cw） 362_3
+      - Cw）+363_4
+      - Cw）+364_5
+      - Cw）+365_6
+      - Cw）+366_7
+      - Cw）+367_8
+      - Cw）+368_9
+      - Cw）+369_10
+      - Cw）+370_11
+      - Cw） 371_12
+      - Cw） 372_13
+      - Cw）+373_14
+      - Cw）+374_15
+      - Cw）+375_16
+      - Cw）+376_17
+      - Cw）+377_18
+      - Cw）+378_19
+      - Cw）+379_20
+      - Cw） 380_21
+      - Cw）+381_22
+      - Cw）+382_23
+      - Cw）+383_24
+      - Cw）+384_25
+      - Cw）+385_26
+      - Cw）+386_27
+      - Cw）+387_28
+      - Cw）+388_29
+      - Cw）+389_30
+      - Cw）+390_31
+      - Cw）+391_32
+      - Cw）+392_33
+      - Cw）+393_34
+      - Cw）+394_35
+      - Cw）+395_36
+      - Cw）+396_37
+      - Cw） 397_38
+      - Cw）+398_39
+      - Cw）+399_40
+      - Cw）+400_41
+      - Cw）+401_42
+      - Cw）+402_43
+      - Cw）+403_44
+      - Cw）+404_45
+      - Cw）+405_46
+      - Cw）+406_47
+      - Cw）+407_48
+      - Cw） 408_49
+      - Cw） 409_50
+      - Cw） 410_51
+      - Cw）+411_52
+      - Cw）+412_53
+      - Cw）+413_54
+      - Cw）+414_55
+      - Cw）+415_56
+      - Cw）+416_57
+      - Cw）+417_58
+      - Cw） 418_59
+      - Cw） 419_60
+      - Cw） 420_61
+      - Cw）+421_62
+      - Cw） 422_63
+      - Cw）+423_64
+      - Cw）+424_65
+      - Cw）+425_66
+      - Cw）+426_67
+      - Cw）+427_68
+      - Cw）+428_69
+      - Cw）+429_70
+      - Cw）+430_71
+      - Cw）+431_72
+      - Cw）+432_73
+      - Cw）+433_74
+      - Cw）+434_75
+      - Cw） 435_76
+      - Cw） 436_77
+      - Cw）+437_78
+      - Cw） 438_79
+      - Cw）+439_80
+      - Cw）+440_81
+      - Cw）+441_82
+      - Cw）+442_83
+      - Cw）+443_84
+      - Cw）+444_85
+      - Cw）+445_86
+      - Cw）+446_87
+      - Cw）+447_88
+      - Cw）+448_89
+      - Cw）+449_90
+      - Cw）+450_91
+      - Cw）+451_92
+      - Cw）+452_93
+      - Cw）+453_94
+      - Cw）+454_95
+      - Cw）+455_96
+      - Cw）+456_97
+      - Cw）+457_98
+      - Cw）+458_99
+      - Cw）+459_100
+      - Cw） 460_101
+      - Cw）+461_102
+      - Cw）+462_103
+      - Cw）+463_104
+      - Cw）+464_105
+      - Cw）+465_106
+      - Cw） 466_107
+      - Cw） 467_108
+      - Cw）+468_109
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Youtube小露分享_1
-      - Youtube小露分享_2
-      - Youtube小露分享_3
-      - Youtube小露分享_4
-      - Youtube小露分享_5
-      - Youtube小露分享_6
-      - Youtube小露分享_7
-      - Youtube小露分享_8
-      - Youtube小露分享_9
-      - Youtube小露分享_10
-      - Youtube小露分享_11
-      - Youtube小露分享_12
-      - Youtube小露分享_13
-      - Youtube小露分享_14
-      - Youtube小露分享_15
-      - Youtube小露分享_16
-      - Youtube小露分享_17
-      - Youtube小露分享_18
-      - Youtube小露分享_19
-      - Youtube小露分享_20
-      - Youtube小露分享_21
-      - Youtube小露分享_22
-      - Youtube小露分享_23
-      - Youtube小露分享_24
-      - Youtube小露分享_25
-      - Youtube小露分享_26
-      - Youtube小露分享_27
-      - Youtube小露分享_28
-      - Youtube小露分享_29
-      - Youtube小露分享_30
-      - Youtube小露分享_31
-      - Youtube小露分享_32
-      - Youtube小露分享_33
-      - Youtube小露分享_34
-      - Youtube小露分享_35
-      - Youtube小露分享_36
-      - Youtube小露分享_37
-      - Youtube小露分享_38
-      - Youtube小露分享_39
-      - Youtube小露分享_40
-      - Youtube小露分享_41
-      - Youtube小露分享_42
-      - Youtube小露分享_43
-      - Youtube小露分享_44
-      - Youtube小露分享_45
-      - Youtube小露分享_46
-      - Youtube小露分享_47
-      - Youtube小露分享_48
-      - Youtube小露分享_49
-      - Youtube小露分享_50
-      - Youtube小露分享_51
-      - Youtube小露分享_52
-      - Youtube小露分享_53
-      - Youtube小露分享_54
-      - Youtube小露分享_55
-      - Youtube小露分享_56
-      - Youtube小露分享_57
-      - Youtube小露分享_58
-      - Youtube小露分享_59
-      - Youtube小露分享_60
-      - Youtube小露分享_61
-      - Youtube小露分享_62
-      - Youtube小露分享_63
-      - Youtube小露分享_64
-      - Youtube小露分享_65
-      - Youtube小露分享_66
-      - Youtube小露分享_67
-      - Youtube小露分享_68
-      - Youtube小露分享_69
-      - Youtube小露分享_70
-      - Youtube小露分享_71
-      - Youtube小露分享_72
-      - Youtube小露分享_73
-      - Youtube小露分享_74
-      - Youtube小露分享_75
-      - Youtube小露分享_76
-      - Youtube小露分享_77
-      - Youtube小露分享_78
+      - Cw）+360_1
+      - Cw）+361_2
+      - Cw） 362_3
+      - Cw）+363_4
+      - Cw）+364_5
+      - Cw）+365_6
+      - Cw）+366_7
+      - Cw）+367_8
+      - Cw）+368_9
+      - Cw）+369_10
+      - Cw）+370_11
+      - Cw） 371_12
+      - Cw） 372_13
+      - Cw）+373_14
+      - Cw）+374_15
+      - Cw）+375_16
+      - Cw）+376_17
+      - Cw）+377_18
+      - Cw）+378_19
+      - Cw）+379_20
+      - Cw） 380_21
+      - Cw）+381_22
+      - Cw）+382_23
+      - Cw）+383_24
+      - Cw）+384_25
+      - Cw）+385_26
+      - Cw）+386_27
+      - Cw）+387_28
+      - Cw）+388_29
+      - Cw）+389_30
+      - Cw）+390_31
+      - Cw）+391_32
+      - Cw）+392_33
+      - Cw）+393_34
+      - Cw）+394_35
+      - Cw）+395_36
+      - Cw）+396_37
+      - Cw） 397_38
+      - Cw）+398_39
+      - Cw）+399_40
+      - Cw）+400_41
+      - Cw）+401_42
+      - Cw）+402_43
+      - Cw）+403_44
+      - Cw）+404_45
+      - Cw）+405_46
+      - Cw）+406_47
+      - Cw）+407_48
+      - Cw） 408_49
+      - Cw） 409_50
+      - Cw） 410_51
+      - Cw）+411_52
+      - Cw）+412_53
+      - Cw）+413_54
+      - Cw）+414_55
+      - Cw）+415_56
+      - Cw）+416_57
+      - Cw）+417_58
+      - Cw） 418_59
+      - Cw） 419_60
+      - Cw） 420_61
+      - Cw）+421_62
+      - Cw） 422_63
+      - Cw）+423_64
+      - Cw）+424_65
+      - Cw）+425_66
+      - Cw）+426_67
+      - Cw）+427_68
+      - Cw）+428_69
+      - Cw）+429_70
+      - Cw）+430_71
+      - Cw）+431_72
+      - Cw）+432_73
+      - Cw）+433_74
+      - Cw）+434_75
+      - Cw） 435_76
+      - Cw） 436_77
+      - Cw）+437_78
+      - Cw） 438_79
+      - Cw）+439_80
+      - Cw）+440_81
+      - Cw）+441_82
+      - Cw）+442_83
+      - Cw）+443_84
+      - Cw）+444_85
+      - Cw）+445_86
+      - Cw）+446_87
+      - Cw）+447_88
+      - Cw）+448_89
+      - Cw）+449_90
+      - Cw）+450_91
+      - Cw）+451_92
+      - Cw）+452_93
+      - Cw）+453_94
+      - Cw）+454_95
+      - Cw）+455_96
+      - Cw）+456_97
+      - Cw）+457_98
+      - Cw）+458_99
+      - Cw）+459_100
+      - Cw） 460_101
+      - Cw）+461_102
+      - Cw）+462_103
+      - Cw）+463_104
+      - Cw）+464_105
+      - Cw）+465_106
+      - Cw） 466_107
+      - Cw） 467_108
+      - Cw）+468_109
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -606,84 +823,115 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube小露分享_1
-      - Youtube小露分享_2
-      - Youtube小露分享_3
-      - Youtube小露分享_4
-      - Youtube小露分享_5
-      - Youtube小露分享_6
-      - Youtube小露分享_7
-      - Youtube小露分享_8
-      - Youtube小露分享_9
-      - Youtube小露分享_10
-      - Youtube小露分享_11
-      - Youtube小露分享_12
-      - Youtube小露分享_13
-      - Youtube小露分享_14
-      - Youtube小露分享_15
-      - Youtube小露分享_16
-      - Youtube小露分享_17
-      - Youtube小露分享_18
-      - Youtube小露分享_19
-      - Youtube小露分享_20
-      - Youtube小露分享_21
-      - Youtube小露分享_22
-      - Youtube小露分享_23
-      - Youtube小露分享_24
-      - Youtube小露分享_25
-      - Youtube小露分享_26
-      - Youtube小露分享_27
-      - Youtube小露分享_28
-      - Youtube小露分享_29
-      - Youtube小露分享_30
-      - Youtube小露分享_31
-      - Youtube小露分享_32
-      - Youtube小露分享_33
-      - Youtube小露分享_34
-      - Youtube小露分享_35
-      - Youtube小露分享_36
-      - Youtube小露分享_37
-      - Youtube小露分享_38
-      - Youtube小露分享_39
-      - Youtube小露分享_40
-      - Youtube小露分享_41
-      - Youtube小露分享_42
-      - Youtube小露分享_43
-      - Youtube小露分享_44
-      - Youtube小露分享_45
-      - Youtube小露分享_46
-      - Youtube小露分享_47
-      - Youtube小露分享_48
-      - Youtube小露分享_49
-      - Youtube小露分享_50
-      - Youtube小露分享_51
-      - Youtube小露分享_52
-      - Youtube小露分享_53
-      - Youtube小露分享_54
-      - Youtube小露分享_55
-      - Youtube小露分享_56
-      - Youtube小露分享_57
-      - Youtube小露分享_58
-      - Youtube小露分享_59
-      - Youtube小露分享_60
-      - Youtube小露分享_61
-      - Youtube小露分享_62
-      - Youtube小露分享_63
-      - Youtube小露分享_64
-      - Youtube小露分享_65
-      - Youtube小露分享_66
-      - Youtube小露分享_67
-      - Youtube小露分享_68
-      - Youtube小露分享_69
-      - Youtube小露分享_70
-      - Youtube小露分享_71
-      - Youtube小露分享_72
-      - Youtube小露分享_73
-      - Youtube小露分享_74
-      - Youtube小露分享_75
-      - Youtube小露分享_76
-      - Youtube小露分享_77
-      - Youtube小露分享_78
+      - Cw）+360_1
+      - Cw）+361_2
+      - Cw） 362_3
+      - Cw）+363_4
+      - Cw）+364_5
+      - Cw）+365_6
+      - Cw）+366_7
+      - Cw）+367_8
+      - Cw）+368_9
+      - Cw）+369_10
+      - Cw）+370_11
+      - Cw） 371_12
+      - Cw） 372_13
+      - Cw）+373_14
+      - Cw）+374_15
+      - Cw）+375_16
+      - Cw）+376_17
+      - Cw）+377_18
+      - Cw）+378_19
+      - Cw）+379_20
+      - Cw） 380_21
+      - Cw）+381_22
+      - Cw）+382_23
+      - Cw）+383_24
+      - Cw）+384_25
+      - Cw）+385_26
+      - Cw）+386_27
+      - Cw）+387_28
+      - Cw）+388_29
+      - Cw）+389_30
+      - Cw）+390_31
+      - Cw）+391_32
+      - Cw）+392_33
+      - Cw）+393_34
+      - Cw）+394_35
+      - Cw）+395_36
+      - Cw）+396_37
+      - Cw） 397_38
+      - Cw）+398_39
+      - Cw）+399_40
+      - Cw）+400_41
+      - Cw）+401_42
+      - Cw）+402_43
+      - Cw）+403_44
+      - Cw）+404_45
+      - Cw）+405_46
+      - Cw）+406_47
+      - Cw）+407_48
+      - Cw） 408_49
+      - Cw） 409_50
+      - Cw） 410_51
+      - Cw）+411_52
+      - Cw）+412_53
+      - Cw）+413_54
+      - Cw）+414_55
+      - Cw）+415_56
+      - Cw）+416_57
+      - Cw）+417_58
+      - Cw） 418_59
+      - Cw） 419_60
+      - Cw） 420_61
+      - Cw）+421_62
+      - Cw） 422_63
+      - Cw）+423_64
+      - Cw）+424_65
+      - Cw）+425_66
+      - Cw）+426_67
+      - Cw）+427_68
+      - Cw）+428_69
+      - Cw）+429_70
+      - Cw）+430_71
+      - Cw）+431_72
+      - Cw）+432_73
+      - Cw）+433_74
+      - Cw）+434_75
+      - Cw） 435_76
+      - Cw） 436_77
+      - Cw）+437_78
+      - Cw） 438_79
+      - Cw）+439_80
+      - Cw）+440_81
+      - Cw）+441_82
+      - Cw）+442_83
+      - Cw）+443_84
+      - Cw）+444_85
+      - Cw）+445_86
+      - Cw）+446_87
+      - Cw）+447_88
+      - Cw）+448_89
+      - Cw）+449_90
+      - Cw）+450_91
+      - Cw）+451_92
+      - Cw）+452_93
+      - Cw）+453_94
+      - Cw）+454_95
+      - Cw）+455_96
+      - Cw）+456_97
+      - Cw）+457_98
+      - Cw）+458_99
+      - Cw）+459_100
+      - Cw） 460_101
+      - Cw）+461_102
+      - Cw）+462_103
+      - Cw）+463_104
+      - Cw）+464_105
+      - Cw）+465_106
+      - Cw） 466_107
+      - Cw） 467_108
+      - Cw）+468_109
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
