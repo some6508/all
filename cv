@@ -5,61 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CM_香港HKT01_1, server: gz.ddns.miaona.online, port: 10919, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_香港HKT02_2, server: gz.ddns.miaona.online, port: 10920, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_香港HKT03_3, server: gz.ddns.miaona.online, port: 10909, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_香港Kirino01_4, server: gz.ddns.miaona.online, port: 10928, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_香港Kirino02_5, server: gz.ddns.miaona.online, port: 10907, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_狮城Starhub01_6, server: gz.ddns.miaona.online, port: 10910, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_狮城NTT03_7, server: gz.ddns.miaona.online, port: 10942, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_狮城NTT04_8, server: gz.ddns.miaona.online, port: 10946, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_狮城DigitalOcean03_9, server: gz.ddns.miaona.online, port: 20914, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_狮城DigitalOcean04_10, server: gz.ddns.miaona.online, port: 10974, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_狮城Oracle01_11, server: gz.ddns.miaona.online, port: 10934, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CU_日本Hivelocity01_12, server: cs.ddns.miaona.online, port: 10980, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_日本Hivelocity02_13, server: cs.ddns.miaona.online, port: 10981, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_日本Kirino01_14, server: cs.ddns.miaona.online, port: 10915, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_日本Oracle01_15, server: cs.ddns.miaona.online, port: 10959, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_日本Oracle02_16, server: cs.ddns.miaona.online, port: 10984, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_日本Sonet01_17, server: cs.ddns.miaona.online, port: 10987, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CM_日本DMIT01_18, server: gz.ddns.miaona.online, port: 10945, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_日本DMIT02_19, server: gz.ddns.miaona.online, port: 10983, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_台湾Hinet01_20, server: gz.ddns.miaona.online, port: 10933, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_台湾Hinet02_21, server: gz.ddns.miaona.online, port: 10938, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_台湾Hinet03_22, server: gz.ddns.miaona.online, port: 10905, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_台湾Hinet04_23, server: gz.ddns.miaona.online, port: 10944, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_澳门Wind01_24, server: gz.ddns.miaona.online, port: 10917, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_印尼APIK01_25, server: gz.ddns.miaona.online, port: 10982, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_越南FPT01_26, server: gz.ddns.miaona.online, port: 10950, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CM_泰国CAT01_27, server: gz.ddns.miaona.online, port: 1009, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.ddns.miaona.online}}, udp: true}
-  - {name: CU_韩国Oracle01_28, server: cs.ddns.miaona.online, port: 10909, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_韩国Oracle02_29, server: cs.ddns.miaona.online, port: 10890, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_美国Cera01_30, server: cs.ddns.miaona.online, port: 10952, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_美国Cera02_31, server: cs.ddns.miaona.online, port: 10943, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_美国NATO01_32, server: cs.ddns.miaona.online, port: 10932, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_美国Misaka01_33, server: cs.ddns.miaona.online, port: 10966, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_美国Misaka02_34, server: cs.ddns.miaona.online, port: 1004, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_美国Wowrack01_35, server: cs.ddns.miaona.online, port: 10925, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_美国Wowrack02_36, server: cs.ddns.miaona.online, port: 10919, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_美国Wowrack03_37, server: cs.ddns.miaona.online, port: 10916, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_美国Wowrack04_38, server: cs.ddns.miaona.online, port: 10958, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_德国Oracle01_39, server: cs.ddns.miaona.online, port: 2002, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_巴西Lets01_40, server: cs.ddns.miaona.online, port: 1006, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_澳洲NetActuate01_41, server: cs.ddns.miaona.online, port: 10951, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_法国Virtua01_42, server: cs.ddns.miaona.online, port: 1003, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_法国FEELB01_43, server: cs.ddns.miaona.online, port: 10910, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_俄罗斯Melbikomas01_44, server: cs.ddns.miaona.online, port: 10967, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_英国Kamatera01_45, server: cs.ddns.miaona.online, port: 10978, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_印度Linode01_46, server: cs.ddns.miaona.online, port: 10899, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_巴基斯坦Multinet01_47, server: cs.ddns.miaona.online, port: 20686, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_加拿大Limewave01_48, server: cs.ddns.miaona.online, port: 1007, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_意呆利Seflow01_49, server: cs.ddns.miaona.online, port: 20688, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_瑞士Fsit01_50, server: cs.ddns.miaona.online, port: 10929, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_荷兰Misaka01_51, server: cs.ddns.miaona.online, port: 10979, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_菲律宾Eastern01_52, server: cs.ddns.miaona.online, port: 10986, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_土耳其Bursabil01_53, server: cs.ddns.miaona.online, port: 10985, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_阿根廷T-Wireless01_54, server: cs.ddns.miaona.online, port: 10918, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
-  - {name: CU_爱沙尼亚CSpace01_55, server: cs.ddns.miaona.online, port: 10922, type: vmess, uuid: 4b5c481f-2c4d-46ca-950b-7d3a6a525aea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ddns.miaona.online}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com@0130_1, server: 120.232.208.195, port: 19079, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: 120.232.208.195}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com@0130_2, server: 132.wgong.xyz, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 翻墙党fanqiangdang_com@0130_3, server: 120.197.88.216, port: 20008, type: vmess, uuid: 9fcf9f33-407f-40a1-9a32-be97605fd99f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 120.197.88.216}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com@0130_4, server: 120.232.182.190, port: 19079, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: 120.232.182.190}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com@0130_5, server: 120.232.208.195, port: 19085, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: 120.232.208.195}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com@0130_6, server: 101.89.109.30, port: 10015, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 翻墙党fanqiangdang_com@0130_7, server: azkr1.tgsc.xyz, port: 443, type: vmess, uuid: 65cdc2af-606c-4d51-a539-c9e6811bba97, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /4videodC, headers: {Host: azkr1.tgsc.xyz}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com@0130_8, server: 101.89.109.30, port: 10011, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 翻墙党fanqiangdang_com@0130_9, server: 120.232.40.42, port: 19079, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: 120.232.40.42}}, udp: true}
+  - {name: 翻墙党fanqiangdang_com@0130_10, server: 101.89.109.30, port: 10011, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 法国(欢迎订阅Youtube破解资源君), server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 198.57.27.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君) 2, server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS, udp: true}
@@ -2034,61 +1989,16 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - CM_香港HKT01_1
-      - CM_香港HKT02_2
-      - CM_香港HKT03_3
-      - CM_香港Kirino01_4
-      - CM_香港Kirino02_5
-      - CM_狮城Starhub01_6
-      - CM_狮城NTT03_7
-      - CM_狮城NTT04_8
-      - CM_狮城DigitalOcean03_9
-      - CM_狮城DigitalOcean04_10
-      - CM_狮城Oracle01_11
-      - CU_日本Hivelocity01_12
-      - CU_日本Hivelocity02_13
-      - CU_日本Kirino01_14
-      - CU_日本Oracle01_15
-      - CU_日本Oracle02_16
-      - CU_日本Sonet01_17
-      - CM_日本DMIT01_18
-      - CM_日本DMIT02_19
-      - CM_台湾Hinet01_20
-      - CM_台湾Hinet02_21
-      - CM_台湾Hinet03_22
-      - CM_台湾Hinet04_23
-      - CM_澳门Wind01_24
-      - CM_印尼APIK01_25
-      - CM_越南FPT01_26
-      - CM_泰国CAT01_27
-      - CU_韩国Oracle01_28
-      - CU_韩国Oracle02_29
-      - CU_美国Cera01_30
-      - CU_美国Cera02_31
-      - CU_美国NATO01_32
-      - CU_美国Misaka01_33
-      - CU_美国Misaka02_34
-      - CU_美国Wowrack01_35
-      - CU_美国Wowrack02_36
-      - CU_美国Wowrack03_37
-      - CU_美国Wowrack04_38
-      - CU_德国Oracle01_39
-      - CU_巴西Lets01_40
-      - CU_澳洲NetActuate01_41
-      - CU_法国Virtua01_42
-      - CU_法国FEELB01_43
-      - CU_俄罗斯Melbikomas01_44
-      - CU_英国Kamatera01_45
-      - CU_印度Linode01_46
-      - CU_巴基斯坦Multinet01_47
-      - CU_加拿大Limewave01_48
-      - CU_意呆利Seflow01_49
-      - CU_瑞士Fsit01_50
-      - CU_荷兰Misaka01_51
-      - CU_菲律宾Eastern01_52
-      - CU_土耳其Bursabil01_53
-      - CU_阿根廷T-Wireless01_54
-      - CU_爱沙尼亚CSpace01_55
+      - 翻墙党fanqiangdang_com@0130_1
+      - 翻墙党fanqiangdang_com@0130_2
+      - 翻墙党fanqiangdang_com@0130_3
+      - 翻墙党fanqiangdang_com@0130_4
+      - 翻墙党fanqiangdang_com@0130_5
+      - 翻墙党fanqiangdang_com@0130_6
+      - 翻墙党fanqiangdang_com@0130_7
+      - 翻墙党fanqiangdang_com@0130_8
+      - 翻墙党fanqiangdang_com@0130_9
+      - 翻墙党fanqiangdang_com@0130_10
       - 法国(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
@@ -4052,61 +3962,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CM_香港HKT01_1
-      - CM_香港HKT02_2
-      - CM_香港HKT03_3
-      - CM_香港Kirino01_4
-      - CM_香港Kirino02_5
-      - CM_狮城Starhub01_6
-      - CM_狮城NTT03_7
-      - CM_狮城NTT04_8
-      - CM_狮城DigitalOcean03_9
-      - CM_狮城DigitalOcean04_10
-      - CM_狮城Oracle01_11
-      - CU_日本Hivelocity01_12
-      - CU_日本Hivelocity02_13
-      - CU_日本Kirino01_14
-      - CU_日本Oracle01_15
-      - CU_日本Oracle02_16
-      - CU_日本Sonet01_17
-      - CM_日本DMIT01_18
-      - CM_日本DMIT02_19
-      - CM_台湾Hinet01_20
-      - CM_台湾Hinet02_21
-      - CM_台湾Hinet03_22
-      - CM_台湾Hinet04_23
-      - CM_澳门Wind01_24
-      - CM_印尼APIK01_25
-      - CM_越南FPT01_26
-      - CM_泰国CAT01_27
-      - CU_韩国Oracle01_28
-      - CU_韩国Oracle02_29
-      - CU_美国Cera01_30
-      - CU_美国Cera02_31
-      - CU_美国NATO01_32
-      - CU_美国Misaka01_33
-      - CU_美国Misaka02_34
-      - CU_美国Wowrack01_35
-      - CU_美国Wowrack02_36
-      - CU_美国Wowrack03_37
-      - CU_美国Wowrack04_38
-      - CU_德国Oracle01_39
-      - CU_巴西Lets01_40
-      - CU_澳洲NetActuate01_41
-      - CU_法国Virtua01_42
-      - CU_法国FEELB01_43
-      - CU_俄罗斯Melbikomas01_44
-      - CU_英国Kamatera01_45
-      - CU_印度Linode01_46
-      - CU_巴基斯坦Multinet01_47
-      - CU_加拿大Limewave01_48
-      - CU_意呆利Seflow01_49
-      - CU_瑞士Fsit01_50
-      - CU_荷兰Misaka01_51
-      - CU_菲律宾Eastern01_52
-      - CU_土耳其Bursabil01_53
-      - CU_阿根廷T-Wireless01_54
-      - CU_爱沙尼亚CSpace01_55
+      - 翻墙党fanqiangdang_com@0130_1
+      - 翻墙党fanqiangdang_com@0130_2
+      - 翻墙党fanqiangdang_com@0130_3
+      - 翻墙党fanqiangdang_com@0130_4
+      - 翻墙党fanqiangdang_com@0130_5
+      - 翻墙党fanqiangdang_com@0130_6
+      - 翻墙党fanqiangdang_com@0130_7
+      - 翻墙党fanqiangdang_com@0130_8
+      - 翻墙党fanqiangdang_com@0130_9
+      - 翻墙党fanqiangdang_com@0130_10
       - 法国(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
@@ -6245,11 +6110,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CM_香港HKT01_1
-      - CM_香港HKT02_2
-      - CM_香港HKT03_3
-      - CM_香港Kirino01_4
-      - CM_香港Kirino02_5
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
@@ -6388,14 +6248,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CU_日本Hivelocity01_12
-      - CU_日本Hivelocity02_13
-      - CU_日本Kirino01_14
-      - CU_日本Oracle01_15
-      - CU_日本Oracle02_16
-      - CU_日本Sonet01_17
-      - CM_日本DMIT01_18
-      - CM_日本DMIT02_19
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
@@ -6458,15 +6310,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CU_美国Cera01_30
-      - CU_美国Cera02_31
-      - CU_美国NATO01_32
-      - CU_美国Misaka01_33
-      - CU_美国Misaka02_34
-      - CU_美国Wowrack01_35
-      - CU_美国Wowrack02_36
-      - CU_美国Wowrack03_37
-      - CU_美国Wowrack04_38
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -7140,10 +6983,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CM_台湾Hinet01_20
-      - CM_台湾Hinet02_21
-      - CM_台湾Hinet03_22
-      - CM_台湾Hinet04_23
       - 台湾（YouTube资源分享者）
       - 台湾（YouTube资源分享者） 2
       - 台湾（YouTube资源分享者） 3
@@ -7186,12 +7025,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CM_狮城Starhub01_6
-      - CM_狮城NTT03_7
-      - CM_狮城NTT04_8
-      - CM_狮城DigitalOcean03_9
-      - CM_狮城DigitalOcean04_10
-      - CM_狮城Oracle01_11
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡（YouTube资源分享者）
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub"
@@ -7247,8 +7080,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CU_韩国Oracle01_28
-      - CU_韩国Oracle02_29
       - "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-韩国T05-付费推荐:dlj.tf/ssrsub"
