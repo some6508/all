@@ -788,134 +788,76 @@ proxies:
   - {name: RELAY-198.41.212.9-0068, server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
   - {name: FR-149.202.82.172-0000, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: EG-188.214.122.138-1117, server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg, udp: true}
-  - {name: 节点每日更新, server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 订阅YouTube:VV科技(优先在YouTube频道公布), server: 128v.gq, port: 443, type: trojan, password: 32vshopyyds, sni: 128v.gq, skip-cert-verify: true, udp: true}
-  - {name: 电报群:t.me/vvkj11(节点失效会在群里补上), server: trojan.shanjun.me, port: 443, type: trojan, password: 8aa575ab-8f26-3b63-88af-4110282e4100, sni: trojan.shanjun.me, skip-cert-verify: true, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_4, server: 38.75.136.93, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_5, server: t1.ssrsub.com, port: 166, type: trojan, password: 50a90339-8afa-4579-832d-f5d608a6f569, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: _英国_t.me/vvkj11<油管:VV科技>_6, server: 212.38.189.174, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _日本_t.me/vvkj11<油管:VV科技>_7, server: 85.208.110.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: t.me/vvkj11<油管:VV科技>_8, server: oz1.mooncloud.bike, port: 8443, type: vmess, uuid: 2c42a34e-5f88-492b-8a59-3531090578f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.mooncloud.bike}}, udp: true}
-  - {name: _德国_t.me/vvkj11<油管:VV科技>_9, server: 172.105.251.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _日本_t.me/vvkj11<油管:VV科技>_10, server: 84.17.34.8, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_11, server: vwvwvw.xyz, port: 443, type: trojan, password: 1fec465f-c917-4b58-9ae3-0239a2c629e7, sni: vwvwvw.xyz, skip-cert-verify: true, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_12, server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _法国_t.me/vvkj11<油管:VV科技>_13, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _英国_t.me/vvkj11<油管:VV科技>_14, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_15, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_16, server: 134.195.196.128, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _英国_t.me/vvkj11<油管:VV科技>_17, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_18, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_19, server: 134.195.196.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_20, server: 172.99.188.99, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_21, server: 38.75.136.93, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _香港_t.me/vvkj11<油管:VV科技>_22, server: hk.hkt.lilyco.cc, port: 443, type: trojan, password: sharecentre, sni: hk.hkt.lilyco.cc, skip-cert-verify: true, udp: true}
-  - {name: _挪威_t.me/vvkj11<油管:VV科技>_23, server: 46.29.218.170, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_24, server: 38.75.136.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_25, server: 198.57.27.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_26, server: 18.188.3.64, port: 30088, type: vmess, uuid: fea200b3-8737-4b7f-a5a1-d81c059764ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_27, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_28, server: 134.195.196.107, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_29, server: 198.57.27.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_30, server: 134.195.196.214, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_31, server: 38.75.136.93, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_32, server: 134.195.196.128, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _波兰_t.me/vvkj11<油管:VV科技>_33, server: 194.15.196.78, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_34, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_35, server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_36, server: 134.195.196.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_37, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_38, server: 38.75.136.93, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_39, server: 134.195.196.51, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_40, server: 134.195.196.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _波兰_t.me/vvkj11<油管:VV科技>_41, server: 194.15.196.78, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_42, server: 134.195.196.107, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _波兰_t.me/vvkj11<油管:VV科技>_43, server: 194.15.196.78, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_44, server: 38.75.136.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_45, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_46, server: 134.195.196.71, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_47, server: 134.195.196.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_48, server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_49, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_50, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_51, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_52, server: 134.195.196.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_53, server: 134.195.196.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_54, server: 142.202.48.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _新加坡_t.me/vvkj11<油管:VV科技>_55, server: 172.104.168.83, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _新加坡_t.me/vvkj11<油管:VV科技>_56, server: 172.104.168.83, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_57, server: 38.91.100.102, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_58, server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_59, server: 38.107.226.48, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_60, server: 167.88.63.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_61, server: 38.91.100.102, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_62, server: 38.91.100.102, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_63, server: 134.195.196.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_64, server: 134.195.196.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_65, server: 142.202.48.114, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_66, server: 142.202.48.114, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_67, server: 134.195.196.200, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_68, server: 38.91.100.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_69, server: 142.202.48.114, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_70, server: 169.197.141.24, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_71, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_72, server: 38.75.136.45, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_73, server: 38.91.100.102, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_74, server: 142.202.48.105, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_75, server: 38.91.100.27, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_76, server: 38.75.136.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_77, server: 169.197.141.24, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_78, server: 169.197.141.24, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_79, server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_80, server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_81, server: 169.197.141.24, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_82, server: 38.75.136.49, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_83, server: 169.197.141.24, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_84, server: 169.197.141.24, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_85, server: 167.88.63.61, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_86, server: 167.88.63.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_87, server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_88, server: 167.88.63.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_89, server: 167.88.63.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _台湾_t.me/vvkj11<油管:VV科技>_90, server: tw01.lilyco.cc, port: 14874, type: vmess, uuid: 2c0f6edb-791f-4a45-e6b8-dba57a876fd0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _英国_t.me/vvkj11<油管:VV科技>_91, server: 212.38.189.174, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_92, server: 38.75.136.58, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_93, server: 38.68.134.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_94, server: 38.75.136.58, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_95, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_96, server: 38.68.134.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_97, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_98, server: 167.88.61.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_99, server: 38.68.134.37, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_100, server: 38.68.134.23, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_101, server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_102, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_103, server: 38.68.134.23, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_104, server: 167.88.62.24, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_105, server: 38.68.134.23, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _新加坡_t.me/vvkj11<油管:VV科技>_106, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: jp-tokyo-node2.ycgyg.com}}, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_107, server: 167.88.62.24, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_108, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_109, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_110, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_111, server: 38.143.66.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_112, server: 167.88.61.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_113, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
-  - {name: _中国跳转_t.me/vvkj11<油管:VV科技>_114, server: cn2.relay.starlink.st, port: 50105, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
-  - {name: _英国_t.me/vvkj11<油管:VV科技>_115, server: 172.99.190.87, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _中国跳转_t.me/vvkj11<油管:VV科技>_116, server: cn2.relay.starlink.st, port: 50401, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
-  - {name: _中国跳转_t.me/vvkj11<油管:VV科技>_117, server: 120.233.150.200, port: 50301, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
-  - {name: _中国跳转_t.me/vvkj11<油管:VV科技>_118, server: cn2.relay.starlink.st, port: 50302, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
-  - {name: _中国跳转_t.me/vvkj11<油管:VV科技>_119, server: 120.233.150.200, port: 50302, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
-  - {name: _英国_t.me/vvkj11<油管:VV科技>_120, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _中国跳转_t.me/vvkj11<油管:VV科技>_121, server: 120.232.174.94, port: 32004, type: ss, cipher: chacha20-ietf-poly1305, password: cf654d7e-dc89-4b73-a855-8efcc0236c1d, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_122, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _英国_t.me/vvkj11<油管:VV科技>_123, server: 212.38.189.174, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _加拿大_t.me/vvkj11<油管:VV科技>_124, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _美国_t.me/vvkj11<油管:VV科技>_125, server: 38.91.100.200, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _中国跳转_t.me/vvkj11<油管:VV科技>_126, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 5b6dbb06-c330-4508-9653-7fdec8cc124d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
-  - {name: t.me/vvkj11<油管:VV科技>_127, server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: _中国跳转_t.me/vvkj11<油管:VV科技>_128, server: cn2.relay.starlink.st, port: 50102, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
+  - {name: 油管晓飞分享 v2|亚洲|C|混合负载|无敌主力, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7569.sina.cn, udp: true}
+  - {name: 油管晓飞分享 v2|亚洲|B|混合负载|万能主力, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7564.sina.cn, udp: true}
+  - {name: 油管晓飞分享 v2|亚洲|C|混合负载|视频主力, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607776.sina.cn, udp: true}
+  - {name: 油管晓飞分享 v2|亚洲|B|混合负载|低延主力, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607976.sina.cn, udp: true}
+  - {name: 油管晓飞分享 v2|亚洲|A|混合负载|外贸主力, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607876.sina.cn, udp: true}
+  - {name: 油管晓飞分享 v2|亚洲|D|混合负载|极速主力, server: k4.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7763.sina.cn, udp: true}
+  - {name: 油管晓飞分享 v2|亚洲|E|混合负载|稳定主力, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7169.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|香港|A|16台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7568.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|香港|B|22台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7565.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|香港|C|18台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f703860777c.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|香港|B|21台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f703860797d.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|香港|D|15台负载, server: k4.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7760.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|香港|E|14台负载, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7168.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|C|12台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607773.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|C|11台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607771.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|B|10台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607971.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|A|9台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607871.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|D|7台负载, server: k4.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7566.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|E|5台负载, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7167.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇯🇵 v2|日本|C|12台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607770.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇯🇵 v2|日本|B|11台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607970.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇯🇵 v2|日本|A|10台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607870.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇯🇵 v2|日本|B|6台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7563.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇯🇵 v2|日本|D|4台负载, server: k4.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7668.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇯🇵 v2|日本|E|5台负载, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7166.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇺🇸 v2|美国|A|7台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7d65.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇺🇸 v2|美国|B|7台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607873.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇺🇸 v2|美国|C|4台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7d66.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇺🇸 v2|美国|D|5台负载, server: k4.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7661.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇺🇸 v2|美国|E|4台负载, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7165.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|香港|A|8台负载|原生, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607874.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|香港|B|10台负载|原生, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607974.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|香港|C|13台负载|原生, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607774.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|香港|B|9台负载|原生, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f703860797c.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|香港|D|11台负载|原生, server: k4.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7562.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|香港|E|10台负载|原生, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7164.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|台湾|A|6台负载|原生, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7660.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|台湾|B|5台负载|原生, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7768.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|台湾|C|3台负载|原生, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7568.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇨🇳 v2|台湾|E|5台负载|原生, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7163.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|B|5台负载|原生, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7c67.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|A|6台负载|原生, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7c66.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|C|4台负载|原生, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7565.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|E|6台负载|原生, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7162.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇯🇵 v2|日本|B|5台负载|原生, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7265.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇯🇵 v2|日本|C|6台负载|原生, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7264.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇯🇵 v2|日本|D|8台负载|原生, server: k4.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7266.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇯🇵 v2|日本|E|5台负载|原生, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7267.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇺🇸 v2|美国|A|5台负载|原生, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7462.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇺🇸 v2|美国|B|4台负载|原生, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7463.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇺🇸 v2|美国|C|3台负载|原生, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7660.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇺🇸 v2|美国|E|4台负载|原生, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7161.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇪🇺 v2|欧洲|A|3台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f703860787c.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇪🇺 v2|欧洲|B|4台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7665.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇪🇺 v2|欧洲|C|5台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7160.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇦🇺 v2|澳洲|A|6台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7468.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇦🇺 v2|澳洲|B|4台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7664.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇦🇺 v2|澳洲|C|5台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7069.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇰🇷 v2|韩国|A|4台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7469.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇰🇷 v2|韩国|B|5台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7761.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇰🇷 v2|韩国|C|6台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7068.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇺🇸 v2|南美|A|5台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7560.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇺🇸 v2|南美|B|3台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7662.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇺🇸 v2|南美|C|4台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7067.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇮🇳 v2|印度|A|5台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7d68.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇮🇳 v2|印度|B|3台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7666.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇮🇳 v2|印度|C|5台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7066.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇷🇺 v2|俄罗斯|A|4台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7460.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇷🇺 v2|俄罗斯|B|5台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7765.sina.cn, udp: true}
+  - {name: 油管晓飞分享 🇷🇺 v2|俄罗斯|C|3台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7065.sina.cn, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1793,47 +1735,50 @@ proxies:
   - {name: Ytb:鹏哥分享_美国_541, server: 142.202.48.105, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: Ytb:鹏哥分享_美国_542, server: 169.197.141.24, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: github.com/freefq - 美国Microsoft数据中心 1, server: azkr1.tgsc.xyz, port: 443, type: vmess, uuid: 65cdc2af-606c-4d51-a539-c9e6811bba97, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /4videodC, headers: {Host: azkr1.tgsc.xyz}}, udp: true}
-  - {name: github.com/freefq - 瑞典  2, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: github.com/freefq - 澳大利亚  3, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}, udp: true}
-  - {name: github.com/freefq - 瑞典  4, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 5, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 6, server: lin-jp.tgsc.xyz, port: 443, type: vmess, uuid: 57c95541-5147-4dae-81d0-660cc6b25e9b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /FNRWR48K, headers: {Host: lin-jp.tgsc.xyz}}, udp: true}
-  - {name: github.com/freefq - 北美地区  7, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: github.com/freefq - 英国  8, server: 212.38.189.174, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq - 美国俄亥俄州都柏林Amazon数据中心 9, server: 18.188.3.64, port: 30088, type: vmess, uuid: fea200b3-8737-4b7f-a5a1-d81c059764ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 10, server: 38.91.100.102, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: github.com/freefq - 英国  11, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq - 澳大利亚  12, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 13, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 北美地区  14, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 15, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 16, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
-  - {name: github.com/freefq - 美国  17, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: github.com/freefq - 英国  18, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 19, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: 45.91.83.111}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 20, server: api.ssfree.ru, port: 443, type: vmess, uuid: aea9c3fc-81e5-11ec-9080-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: api.ssfree.ru}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
-  - {name: github.com/freefq - 美国  22, server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 23, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 24, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 25, server: 104.16.148.48, port: 443, type: vmess, uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/The-Great-Awakening_vws?ed=2048", headers: {Host: vincent-jackson2021.cf}}, udp: true}
-  - {name: github.com/freefq - 美国  26, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 越南  27, server: 180.93.172.207, port: 30169, type: vmess, uuid: c18c0861-4232-4daa-be46-9fcc6be309b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  28, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 香港CDN77节点 29, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA, udp: true}
+  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 2, server: lin-jp.tgsc.xyz, port: 443, type: vmess, uuid: 57c95541-5147-4dae-81d0-660cc6b25e9b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /FNRWR48K, headers: {Host: lin-jp.tgsc.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国俄亥俄州都柏林Amazon数据中心 3, server: 18.188.3.64, port: 30088, type: vmess, uuid: fea200b3-8737-4b7f-a5a1-d81c059764ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 英国  4, server: 212.38.189.174, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 英国  5, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 北美地区  6, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 7, server: 38.91.100.102, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: github.com/freefq - 日本东京Linode数据中心 8, server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 9, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 10, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: 45.91.83.111}}, udp: true}
+  - {name: github.com/freefq - 美国  11, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 12, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 北美地区  13, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 14, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: github.com/freefq - 澳大利亚  15, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
+  - {name: github.com/freefq - 美国  16, server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 英国  17, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 18, server: api.ssfree.ru, port: 443, type: vmess, uuid: aea9c3fc-81e5-11ec-9080-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: api.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 19, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
+  - {name: github.com/freefq - 北美地区  20, server: 134.195.198.252, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 越南  22, server: 180.93.172.207, port: 30169, type: vmess, uuid: c18c0861-4232-4daa-be46-9fcc6be309b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 23, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 24, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
+  - {name: github.com/freefq - 美国  25, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国  26, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国蒙大拿州Sharktech公司 28, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
+  - {name: github.com/freefq - 澳大利亚  29, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}, udp: true}
   - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 30, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 23.82.136.151}}, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 31, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国蒙大拿州Sharktech公司 32, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
-  - {name: github.com/freefq - 印度  33, server: india.tgsc.xyz, port: 443, type: vmess, uuid: 1355574d-dac9-4006-8420-95a156fa5f32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /V81DFD0H, headers: {Host: india.tgsc.xyz}}, udp: true}
-  - {name: github.com/freefq - 香港电讯盈科有限公司 34, server: 220.246.124.112, port: 23456, type: vmess, uuid: 1685ada0-594e-4fc0-9938-e50764ec9dc7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 瑞典  31, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 瑞典  32, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 33, server: 104.16.148.48, port: 443, type: vmess, uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/The-Great-Awakening_vws?ed=2048", headers: {Host: vincent-jackson2021.cf}}, udp: true}
+  - {name: github.com/freefq - 印度  34, server: india.tgsc.xyz, port: 443, type: vmess, uuid: 1355574d-dac9-4006-8420-95a156fa5f32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /V81DFD0H, headers: {Host: india.tgsc.xyz}}, udp: true}
+  - {name: github.com/freefq - 香港电讯盈科有限公司 35, server: 220.246.124.112, port: 23456, type: vmess, uuid: 1685ada0-594e-4fc0-9938-e50764ec9dc7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 请换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 广东省广州市腾讯云 1, server: 1.14.165.96, port: 40262, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 更新于:01-31 08:00:01 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 广东省广州市腾讯云 2, server: 159.75.50.77, port: 40097, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 3, server: 1.14.165.96, port: 40246, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 4, server: 1.14.165.96, port: 40220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 5, server: 106.52.33.67, port: 40382, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 1, server: 159.75.50.77, port: 40097, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 更新于:01-31 12:00:01 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 广东省广州市腾讯云 2, server: 1.14.165.96, port: 40246, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 3, server: 106.52.33.67, port: 40332, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 澳大利亚悉尼Amazon数据中心 4, server: 3.26.47.77, port: 443, type: ssr, cipher: aes-256-cfb, password: Jz8r4gLNP, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 广东省广州市腾讯云 5, server: 1.14.165.96, port: 40262, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 6, server: 1.14.165.96, port: 40220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 7, server: 106.52.33.67, port: 40382, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 将于近期停止ssr更新 2, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: "香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e, udp: true}
@@ -2793,134 +2738,76 @@ proxy-groups:
       - RELAY-198.41.212.9-0068
       - FR-149.202.82.172-0000
       - EG-188.214.122.138-1117
-      - 节点每日更新
-      - 订阅YouTube:VV科技(优先在YouTube频道公布)
-      - 电报群:t.me/vvkj11(节点失效会在群里补上)
-      - _美国_t.me/vvkj11<油管:VV科技>_4
-      - _美国_t.me/vvkj11<油管:VV科技>_5
-      - _英国_t.me/vvkj11<油管:VV科技>_6
-      - _日本_t.me/vvkj11<油管:VV科技>_7
-      - t.me/vvkj11<油管:VV科技>_8
-      - _德国_t.me/vvkj11<油管:VV科技>_9
-      - _日本_t.me/vvkj11<油管:VV科技>_10
-      - _美国_t.me/vvkj11<油管:VV科技>_11
-      - _加拿大_t.me/vvkj11<油管:VV科技>_12
-      - _法国_t.me/vvkj11<油管:VV科技>_13
-      - _英国_t.me/vvkj11<油管:VV科技>_14
-      - _加拿大_t.me/vvkj11<油管:VV科技>_15
-      - _加拿大_t.me/vvkj11<油管:VV科技>_16
-      - _英国_t.me/vvkj11<油管:VV科技>_17
-      - _加拿大_t.me/vvkj11<油管:VV科技>_18
-      - _加拿大_t.me/vvkj11<油管:VV科技>_19
-      - _美国_t.me/vvkj11<油管:VV科技>_20
-      - _美国_t.me/vvkj11<油管:VV科技>_21
-      - _香港_t.me/vvkj11<油管:VV科技>_22
-      - _挪威_t.me/vvkj11<油管:VV科技>_23
-      - _美国_t.me/vvkj11<油管:VV科技>_24
-      - _加拿大_t.me/vvkj11<油管:VV科技>_25
-      - _美国_t.me/vvkj11<油管:VV科技>_26
-      - _加拿大_t.me/vvkj11<油管:VV科技>_27
-      - _加拿大_t.me/vvkj11<油管:VV科技>_28
-      - _加拿大_t.me/vvkj11<油管:VV科技>_29
-      - _加拿大_t.me/vvkj11<油管:VV科技>_30
-      - _美国_t.me/vvkj11<油管:VV科技>_31
-      - _加拿大_t.me/vvkj11<油管:VV科技>_32
-      - _波兰_t.me/vvkj11<油管:VV科技>_33
-      - _加拿大_t.me/vvkj11<油管:VV科技>_34
-      - _美国_t.me/vvkj11<油管:VV科技>_35
-      - _加拿大_t.me/vvkj11<油管:VV科技>_36
-      - _美国_t.me/vvkj11<油管:VV科技>_37
-      - _美国_t.me/vvkj11<油管:VV科技>_38
-      - _加拿大_t.me/vvkj11<油管:VV科技>_39
-      - _加拿大_t.me/vvkj11<油管:VV科技>_40
-      - _波兰_t.me/vvkj11<油管:VV科技>_41
-      - _加拿大_t.me/vvkj11<油管:VV科技>_42
-      - _波兰_t.me/vvkj11<油管:VV科技>_43
-      - _美国_t.me/vvkj11<油管:VV科技>_44
-      - _加拿大_t.me/vvkj11<油管:VV科技>_45
-      - _加拿大_t.me/vvkj11<油管:VV科技>_46
-      - _加拿大_t.me/vvkj11<油管:VV科技>_47
-      - _美国_t.me/vvkj11<油管:VV科技>_48
-      - _美国_t.me/vvkj11<油管:VV科技>_49
-      - _加拿大_t.me/vvkj11<油管:VV科技>_50
-      - _美国_t.me/vvkj11<油管:VV科技>_51
-      - _加拿大_t.me/vvkj11<油管:VV科技>_52
-      - _加拿大_t.me/vvkj11<油管:VV科技>_53
-      - _美国_t.me/vvkj11<油管:VV科技>_54
-      - _新加坡_t.me/vvkj11<油管:VV科技>_55
-      - _新加坡_t.me/vvkj11<油管:VV科技>_56
-      - _美国_t.me/vvkj11<油管:VV科技>_57
-      - _美国_t.me/vvkj11<油管:VV科技>_58
-      - _美国_t.me/vvkj11<油管:VV科技>_59
-      - _美国_t.me/vvkj11<油管:VV科技>_60
-      - _美国_t.me/vvkj11<油管:VV科技>_61
-      - _美国_t.me/vvkj11<油管:VV科技>_62
-      - _加拿大_t.me/vvkj11<油管:VV科技>_63
-      - _加拿大_t.me/vvkj11<油管:VV科技>_64
-      - _美国_t.me/vvkj11<油管:VV科技>_65
-      - _美国_t.me/vvkj11<油管:VV科技>_66
-      - _加拿大_t.me/vvkj11<油管:VV科技>_67
-      - _美国_t.me/vvkj11<油管:VV科技>_68
-      - _美国_t.me/vvkj11<油管:VV科技>_69
-      - _美国_t.me/vvkj11<油管:VV科技>_70
-      - _美国_t.me/vvkj11<油管:VV科技>_71
-      - _美国_t.me/vvkj11<油管:VV科技>_72
-      - _美国_t.me/vvkj11<油管:VV科技>_73
-      - _美国_t.me/vvkj11<油管:VV科技>_74
-      - _美国_t.me/vvkj11<油管:VV科技>_75
-      - _美国_t.me/vvkj11<油管:VV科技>_76
-      - _美国_t.me/vvkj11<油管:VV科技>_77
-      - _美国_t.me/vvkj11<油管:VV科技>_78
-      - _美国_t.me/vvkj11<油管:VV科技>_79
-      - _美国_t.me/vvkj11<油管:VV科技>_80
-      - _美国_t.me/vvkj11<油管:VV科技>_81
-      - _美国_t.me/vvkj11<油管:VV科技>_82
-      - _美国_t.me/vvkj11<油管:VV科技>_83
-      - _美国_t.me/vvkj11<油管:VV科技>_84
-      - _美国_t.me/vvkj11<油管:VV科技>_85
-      - _美国_t.me/vvkj11<油管:VV科技>_86
-      - _美国_t.me/vvkj11<油管:VV科技>_87
-      - _美国_t.me/vvkj11<油管:VV科技>_88
-      - _美国_t.me/vvkj11<油管:VV科技>_89
-      - _台湾_t.me/vvkj11<油管:VV科技>_90
-      - _英国_t.me/vvkj11<油管:VV科技>_91
-      - _美国_t.me/vvkj11<油管:VV科技>_92
-      - _美国_t.me/vvkj11<油管:VV科技>_93
-      - _美国_t.me/vvkj11<油管:VV科技>_94
-      - _美国_t.me/vvkj11<油管:VV科技>_95
-      - _美国_t.me/vvkj11<油管:VV科技>_96
-      - _美国_t.me/vvkj11<油管:VV科技>_97
-      - _美国_t.me/vvkj11<油管:VV科技>_98
-      - _美国_t.me/vvkj11<油管:VV科技>_99
-      - _美国_t.me/vvkj11<油管:VV科技>_100
-      - _美国_t.me/vvkj11<油管:VV科技>_101
-      - _美国_t.me/vvkj11<油管:VV科技>_102
-      - _美国_t.me/vvkj11<油管:VV科技>_103
-      - _美国_t.me/vvkj11<油管:VV科技>_104
-      - _美国_t.me/vvkj11<油管:VV科技>_105
-      - _新加坡_t.me/vvkj11<油管:VV科技>_106
-      - _美国_t.me/vvkj11<油管:VV科技>_107
-      - _美国_t.me/vvkj11<油管:VV科技>_108
-      - _美国_t.me/vvkj11<油管:VV科技>_109
-      - _美国_t.me/vvkj11<油管:VV科技>_110
-      - _美国_t.me/vvkj11<油管:VV科技>_111
-      - _美国_t.me/vvkj11<油管:VV科技>_112
-      - _美国_t.me/vvkj11<油管:VV科技>_113
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_114
-      - _英国_t.me/vvkj11<油管:VV科技>_115
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_116
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_117
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_118
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_119
-      - _英国_t.me/vvkj11<油管:VV科技>_120
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_121
-      - _美国_t.me/vvkj11<油管:VV科技>_122
-      - _英国_t.me/vvkj11<油管:VV科技>_123
-      - _加拿大_t.me/vvkj11<油管:VV科技>_124
-      - _美国_t.me/vvkj11<油管:VV科技>_125
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_126
-      - t.me/vvkj11<油管:VV科技>_127
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_128
+      - 油管晓飞分享 v2|亚洲|C|混合负载|无敌主力
+      - 油管晓飞分享 v2|亚洲|B|混合负载|万能主力
+      - 油管晓飞分享 v2|亚洲|C|混合负载|视频主力
+      - 油管晓飞分享 v2|亚洲|B|混合负载|低延主力
+      - 油管晓飞分享 v2|亚洲|A|混合负载|外贸主力
+      - 油管晓飞分享 v2|亚洲|D|混合负载|极速主力
+      - 油管晓飞分享 v2|亚洲|E|混合负载|稳定主力
+      - 油管晓飞分享 🇨🇳 v2|香港|A|16台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|B|22台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|C|18台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|B|21台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|D|15台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|E|14台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|C|12台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|C|11台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|B|10台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|A|9台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|D|7台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|E|5台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|C|12台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|B|11台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|A|10台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|B|6台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|D|4台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|A|7台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|B|7台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|C|4台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|D|5台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|A|8台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|B|10台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|C|13台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|B|9台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|D|11台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|E|10台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|台湾|A|6台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|台湾|B|5台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|台湾|C|3台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|台湾|E|5台负载|原生
+      - 油管晓飞分享 🇸🇬 v2|新加坡|B|5台负载|原生
+      - 油管晓飞分享 🇸🇬 v2|新加坡|A|6台负载|原生
+      - 油管晓飞分享 🇸🇬 v2|新加坡|C|4台负载|原生
+      - 油管晓飞分享 🇸🇬 v2|新加坡|E|6台负载|原生
+      - 油管晓飞分享 🇯🇵 v2|日本|B|5台负载|原生
+      - 油管晓飞分享 🇯🇵 v2|日本|C|6台负载|原生
+      - 油管晓飞分享 🇯🇵 v2|日本|D|8台负载|原生
+      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|美国|A|5台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|美国|B|4台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|美国|C|3台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载|原生
+      - 油管晓飞分享 🇪🇺 v2|欧洲|A|3台负载
+      - 油管晓飞分享 🇪🇺 v2|欧洲|B|4台负载
+      - 油管晓飞分享 🇪🇺 v2|欧洲|C|5台负载
+      - 油管晓飞分享 🇦🇺 v2|澳洲|A|6台负载
+      - 油管晓飞分享 🇦🇺 v2|澳洲|B|4台负载
+      - 油管晓飞分享 🇦🇺 v2|澳洲|C|5台负载
+      - 油管晓飞分享 🇰🇷 v2|韩国|A|4台负载
+      - 油管晓飞分享 🇰🇷 v2|韩国|B|5台负载
+      - 油管晓飞分享 🇰🇷 v2|韩国|C|6台负载
+      - 油管晓飞分享 🇺🇸 v2|南美|A|5台负载
+      - 油管晓飞分享 🇺🇸 v2|南美|B|3台负载
+      - 油管晓飞分享 🇺🇸 v2|南美|C|4台负载
+      - 油管晓飞分享 🇮🇳 v2|印度|A|5台负载
+      - 油管晓飞分享 🇮🇳 v2|印度|B|3台负载
+      - 油管晓飞分享 🇮🇳 v2|印度|C|5台负载
+      - 油管晓飞分享 🇷🇺 v2|俄罗斯|A|4台负载
+      - 油管晓飞分享 🇷🇺 v2|俄罗斯|B|5台负载
+      - 油管晓飞分享 🇷🇺 v2|俄罗斯|C|3台负载
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3798,47 +3685,50 @@ proxy-groups:
       - Ytb:鹏哥分享_美国_541
       - Ytb:鹏哥分享_美国_542
       - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 瑞典  2
-      - github.com/freefq - 澳大利亚  3
-      - github.com/freefq - 瑞典  4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 5
-      - github.com/freefq - 日本东京都品川区Linode数据中心 6
-      - github.com/freefq - 北美地区  7
-      - github.com/freefq - 英国  8
-      - github.com/freefq - 美国俄亥俄州都柏林Amazon数据中心 9
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - github.com/freefq - 英国  11
-      - github.com/freefq - 澳大利亚  12
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 13
-      - github.com/freefq - 北美地区  14
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 15
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 16
-      - github.com/freefq - 美国  17
-      - github.com/freefq - 英国  18
+      - github.com/freefq - 日本东京都品川区Linode数据中心 2
+      - github.com/freefq - 美国俄亥俄州都柏林Amazon数据中心 3
+      - github.com/freefq - 英国  4
+      - github.com/freefq - 英国  5
+      - github.com/freefq - 北美地区  6
+      - github.com/freefq - 美国华盛顿Cogent通信公司 7
+      - github.com/freefq - 日本东京Linode数据中心 8
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 9
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 10
+      - github.com/freefq - 美国  11
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 12
+      - github.com/freefq - 北美地区  13
+      - github.com/freefq - 美国华盛顿Cogent通信公司 14
+      - github.com/freefq - 澳大利亚  15
+      - github.com/freefq - 美国  16
+      - github.com/freefq - 英国  17
+      - github.com/freefq - 美国CloudFlare节点 18
       - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 19
-      - github.com/freefq - 美国CloudFlare公司CDN节点 20
+      - github.com/freefq - 北美地区  20
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21
-      - github.com/freefq - 美国  22
+      - github.com/freefq - 越南  22
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 23
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 24
-      - github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 美国  25
       - github.com/freefq - 美国  26
-      - github.com/freefq - 越南  27
-      - github.com/freefq - 美国  28
-      - github.com/freefq - 香港CDN77节点 29
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 28
+      - github.com/freefq - 澳大利亚  29
       - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 30
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 31
-      - github.com/freefq - 美国蒙大拿州Sharktech公司 32
-      - github.com/freefq - 印度  33
-      - github.com/freefq - 香港电讯盈科有限公司 34
+      - github.com/freefq - 瑞典  31
+      - github.com/freefq - 瑞典  32
+      - github.com/freefq - 美国CloudFlare公司CDN节点 33
+      - github.com/freefq - 印度  34
+      - github.com/freefq - 香港电讯盈科有限公司 35
       - 请换到v2ray
       - 将于近期停止ssr更新
       - 广东省广州市腾讯云 1
-      - 更新于:01-31 08:00:01 - by BuLink.xyz
+      - 更新于:01-31 12:00:01 - by BuLink.xyz
       - 广东省广州市腾讯云 2
       - 广东省广州市腾讯云 3
-      - 广东省广州市腾讯云 4
+      - 澳大利亚悉尼Amazon数据中心 4
       - 广东省广州市腾讯云 5
+      - 广东省广州市腾讯云 6
+      - 广东省广州市腾讯云 7
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 香港(中国)🚀[极速稳定]
@@ -4787,134 +4677,76 @@ proxy-groups:
       - RELAY-198.41.212.9-0068
       - FR-149.202.82.172-0000
       - EG-188.214.122.138-1117
-      - 节点每日更新
-      - 订阅YouTube:VV科技(优先在YouTube频道公布)
-      - 电报群:t.me/vvkj11(节点失效会在群里补上)
-      - _美国_t.me/vvkj11<油管:VV科技>_4
-      - _美国_t.me/vvkj11<油管:VV科技>_5
-      - _英国_t.me/vvkj11<油管:VV科技>_6
-      - _日本_t.me/vvkj11<油管:VV科技>_7
-      - t.me/vvkj11<油管:VV科技>_8
-      - _德国_t.me/vvkj11<油管:VV科技>_9
-      - _日本_t.me/vvkj11<油管:VV科技>_10
-      - _美国_t.me/vvkj11<油管:VV科技>_11
-      - _加拿大_t.me/vvkj11<油管:VV科技>_12
-      - _法国_t.me/vvkj11<油管:VV科技>_13
-      - _英国_t.me/vvkj11<油管:VV科技>_14
-      - _加拿大_t.me/vvkj11<油管:VV科技>_15
-      - _加拿大_t.me/vvkj11<油管:VV科技>_16
-      - _英国_t.me/vvkj11<油管:VV科技>_17
-      - _加拿大_t.me/vvkj11<油管:VV科技>_18
-      - _加拿大_t.me/vvkj11<油管:VV科技>_19
-      - _美国_t.me/vvkj11<油管:VV科技>_20
-      - _美国_t.me/vvkj11<油管:VV科技>_21
-      - _香港_t.me/vvkj11<油管:VV科技>_22
-      - _挪威_t.me/vvkj11<油管:VV科技>_23
-      - _美国_t.me/vvkj11<油管:VV科技>_24
-      - _加拿大_t.me/vvkj11<油管:VV科技>_25
-      - _美国_t.me/vvkj11<油管:VV科技>_26
-      - _加拿大_t.me/vvkj11<油管:VV科技>_27
-      - _加拿大_t.me/vvkj11<油管:VV科技>_28
-      - _加拿大_t.me/vvkj11<油管:VV科技>_29
-      - _加拿大_t.me/vvkj11<油管:VV科技>_30
-      - _美国_t.me/vvkj11<油管:VV科技>_31
-      - _加拿大_t.me/vvkj11<油管:VV科技>_32
-      - _波兰_t.me/vvkj11<油管:VV科技>_33
-      - _加拿大_t.me/vvkj11<油管:VV科技>_34
-      - _美国_t.me/vvkj11<油管:VV科技>_35
-      - _加拿大_t.me/vvkj11<油管:VV科技>_36
-      - _美国_t.me/vvkj11<油管:VV科技>_37
-      - _美国_t.me/vvkj11<油管:VV科技>_38
-      - _加拿大_t.me/vvkj11<油管:VV科技>_39
-      - _加拿大_t.me/vvkj11<油管:VV科技>_40
-      - _波兰_t.me/vvkj11<油管:VV科技>_41
-      - _加拿大_t.me/vvkj11<油管:VV科技>_42
-      - _波兰_t.me/vvkj11<油管:VV科技>_43
-      - _美国_t.me/vvkj11<油管:VV科技>_44
-      - _加拿大_t.me/vvkj11<油管:VV科技>_45
-      - _加拿大_t.me/vvkj11<油管:VV科技>_46
-      - _加拿大_t.me/vvkj11<油管:VV科技>_47
-      - _美国_t.me/vvkj11<油管:VV科技>_48
-      - _美国_t.me/vvkj11<油管:VV科技>_49
-      - _加拿大_t.me/vvkj11<油管:VV科技>_50
-      - _美国_t.me/vvkj11<油管:VV科技>_51
-      - _加拿大_t.me/vvkj11<油管:VV科技>_52
-      - _加拿大_t.me/vvkj11<油管:VV科技>_53
-      - _美国_t.me/vvkj11<油管:VV科技>_54
-      - _新加坡_t.me/vvkj11<油管:VV科技>_55
-      - _新加坡_t.me/vvkj11<油管:VV科技>_56
-      - _美国_t.me/vvkj11<油管:VV科技>_57
-      - _美国_t.me/vvkj11<油管:VV科技>_58
-      - _美国_t.me/vvkj11<油管:VV科技>_59
-      - _美国_t.me/vvkj11<油管:VV科技>_60
-      - _美国_t.me/vvkj11<油管:VV科技>_61
-      - _美国_t.me/vvkj11<油管:VV科技>_62
-      - _加拿大_t.me/vvkj11<油管:VV科技>_63
-      - _加拿大_t.me/vvkj11<油管:VV科技>_64
-      - _美国_t.me/vvkj11<油管:VV科技>_65
-      - _美国_t.me/vvkj11<油管:VV科技>_66
-      - _加拿大_t.me/vvkj11<油管:VV科技>_67
-      - _美国_t.me/vvkj11<油管:VV科技>_68
-      - _美国_t.me/vvkj11<油管:VV科技>_69
-      - _美国_t.me/vvkj11<油管:VV科技>_70
-      - _美国_t.me/vvkj11<油管:VV科技>_71
-      - _美国_t.me/vvkj11<油管:VV科技>_72
-      - _美国_t.me/vvkj11<油管:VV科技>_73
-      - _美国_t.me/vvkj11<油管:VV科技>_74
-      - _美国_t.me/vvkj11<油管:VV科技>_75
-      - _美国_t.me/vvkj11<油管:VV科技>_76
-      - _美国_t.me/vvkj11<油管:VV科技>_77
-      - _美国_t.me/vvkj11<油管:VV科技>_78
-      - _美国_t.me/vvkj11<油管:VV科技>_79
-      - _美国_t.me/vvkj11<油管:VV科技>_80
-      - _美国_t.me/vvkj11<油管:VV科技>_81
-      - _美国_t.me/vvkj11<油管:VV科技>_82
-      - _美国_t.me/vvkj11<油管:VV科技>_83
-      - _美国_t.me/vvkj11<油管:VV科技>_84
-      - _美国_t.me/vvkj11<油管:VV科技>_85
-      - _美国_t.me/vvkj11<油管:VV科技>_86
-      - _美国_t.me/vvkj11<油管:VV科技>_87
-      - _美国_t.me/vvkj11<油管:VV科技>_88
-      - _美国_t.me/vvkj11<油管:VV科技>_89
-      - _台湾_t.me/vvkj11<油管:VV科技>_90
-      - _英国_t.me/vvkj11<油管:VV科技>_91
-      - _美国_t.me/vvkj11<油管:VV科技>_92
-      - _美国_t.me/vvkj11<油管:VV科技>_93
-      - _美国_t.me/vvkj11<油管:VV科技>_94
-      - _美国_t.me/vvkj11<油管:VV科技>_95
-      - _美国_t.me/vvkj11<油管:VV科技>_96
-      - _美国_t.me/vvkj11<油管:VV科技>_97
-      - _美国_t.me/vvkj11<油管:VV科技>_98
-      - _美国_t.me/vvkj11<油管:VV科技>_99
-      - _美国_t.me/vvkj11<油管:VV科技>_100
-      - _美国_t.me/vvkj11<油管:VV科技>_101
-      - _美国_t.me/vvkj11<油管:VV科技>_102
-      - _美国_t.me/vvkj11<油管:VV科技>_103
-      - _美国_t.me/vvkj11<油管:VV科技>_104
-      - _美国_t.me/vvkj11<油管:VV科技>_105
-      - _新加坡_t.me/vvkj11<油管:VV科技>_106
-      - _美国_t.me/vvkj11<油管:VV科技>_107
-      - _美国_t.me/vvkj11<油管:VV科技>_108
-      - _美国_t.me/vvkj11<油管:VV科技>_109
-      - _美国_t.me/vvkj11<油管:VV科技>_110
-      - _美国_t.me/vvkj11<油管:VV科技>_111
-      - _美国_t.me/vvkj11<油管:VV科技>_112
-      - _美国_t.me/vvkj11<油管:VV科技>_113
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_114
-      - _英国_t.me/vvkj11<油管:VV科技>_115
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_116
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_117
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_118
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_119
-      - _英国_t.me/vvkj11<油管:VV科技>_120
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_121
-      - _美国_t.me/vvkj11<油管:VV科技>_122
-      - _英国_t.me/vvkj11<油管:VV科技>_123
-      - _加拿大_t.me/vvkj11<油管:VV科技>_124
-      - _美国_t.me/vvkj11<油管:VV科技>_125
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_126
-      - t.me/vvkj11<油管:VV科技>_127
-      - _中国跳转_t.me/vvkj11<油管:VV科技>_128
+      - 油管晓飞分享 v2|亚洲|C|混合负载|无敌主力
+      - 油管晓飞分享 v2|亚洲|B|混合负载|万能主力
+      - 油管晓飞分享 v2|亚洲|C|混合负载|视频主力
+      - 油管晓飞分享 v2|亚洲|B|混合负载|低延主力
+      - 油管晓飞分享 v2|亚洲|A|混合负载|外贸主力
+      - 油管晓飞分享 v2|亚洲|D|混合负载|极速主力
+      - 油管晓飞分享 v2|亚洲|E|混合负载|稳定主力
+      - 油管晓飞分享 🇨🇳 v2|香港|A|16台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|B|22台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|C|18台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|B|21台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|D|15台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|E|14台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|C|12台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|C|11台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|B|10台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|A|9台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|D|7台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|E|5台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|C|12台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|B|11台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|A|10台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|B|6台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|D|4台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|A|7台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|B|7台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|C|4台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|D|5台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|A|8台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|B|10台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|C|13台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|B|9台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|D|11台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|E|10台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|台湾|A|6台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|台湾|B|5台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|台湾|C|3台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|台湾|E|5台负载|原生
+      - 油管晓飞分享 🇸🇬 v2|新加坡|B|5台负载|原生
+      - 油管晓飞分享 🇸🇬 v2|新加坡|A|6台负载|原生
+      - 油管晓飞分享 🇸🇬 v2|新加坡|C|4台负载|原生
+      - 油管晓飞分享 🇸🇬 v2|新加坡|E|6台负载|原生
+      - 油管晓飞分享 🇯🇵 v2|日本|B|5台负载|原生
+      - 油管晓飞分享 🇯🇵 v2|日本|C|6台负载|原生
+      - 油管晓飞分享 🇯🇵 v2|日本|D|8台负载|原生
+      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|美国|A|5台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|美国|B|4台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|美国|C|3台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载|原生
+      - 油管晓飞分享 🇪🇺 v2|欧洲|A|3台负载
+      - 油管晓飞分享 🇪🇺 v2|欧洲|B|4台负载
+      - 油管晓飞分享 🇪🇺 v2|欧洲|C|5台负载
+      - 油管晓飞分享 🇦🇺 v2|澳洲|A|6台负载
+      - 油管晓飞分享 🇦🇺 v2|澳洲|B|4台负载
+      - 油管晓飞分享 🇦🇺 v2|澳洲|C|5台负载
+      - 油管晓飞分享 🇰🇷 v2|韩国|A|4台负载
+      - 油管晓飞分享 🇰🇷 v2|韩国|B|5台负载
+      - 油管晓飞分享 🇰🇷 v2|韩国|C|6台负载
+      - 油管晓飞分享 🇺🇸 v2|南美|A|5台负载
+      - 油管晓飞分享 🇺🇸 v2|南美|B|3台负载
+      - 油管晓飞分享 🇺🇸 v2|南美|C|4台负载
+      - 油管晓飞分享 🇮🇳 v2|印度|A|5台负载
+      - 油管晓飞分享 🇮🇳 v2|印度|B|3台负载
+      - 油管晓飞分享 🇮🇳 v2|印度|C|5台负载
+      - 油管晓飞分享 🇷🇺 v2|俄罗斯|A|4台负载
+      - 油管晓飞分享 🇷🇺 v2|俄罗斯|B|5台负载
+      - 油管晓飞分享 🇷🇺 v2|俄罗斯|C|3台负载
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5792,47 +5624,50 @@ proxy-groups:
       - Ytb:鹏哥分享_美国_541
       - Ytb:鹏哥分享_美国_542
       - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 瑞典  2
-      - github.com/freefq - 澳大利亚  3
-      - github.com/freefq - 瑞典  4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 5
-      - github.com/freefq - 日本东京都品川区Linode数据中心 6
-      - github.com/freefq - 北美地区  7
-      - github.com/freefq - 英国  8
-      - github.com/freefq - 美国俄亥俄州都柏林Amazon数据中心 9
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - github.com/freefq - 英国  11
-      - github.com/freefq - 澳大利亚  12
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 13
-      - github.com/freefq - 北美地区  14
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 15
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 16
-      - github.com/freefq - 美国  17
-      - github.com/freefq - 英国  18
+      - github.com/freefq - 日本东京都品川区Linode数据中心 2
+      - github.com/freefq - 美国俄亥俄州都柏林Amazon数据中心 3
+      - github.com/freefq - 英国  4
+      - github.com/freefq - 英国  5
+      - github.com/freefq - 北美地区  6
+      - github.com/freefq - 美国华盛顿Cogent通信公司 7
+      - github.com/freefq - 日本东京Linode数据中心 8
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 9
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 10
+      - github.com/freefq - 美国  11
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 12
+      - github.com/freefq - 北美地区  13
+      - github.com/freefq - 美国华盛顿Cogent通信公司 14
+      - github.com/freefq - 澳大利亚  15
+      - github.com/freefq - 美国  16
+      - github.com/freefq - 英国  17
+      - github.com/freefq - 美国CloudFlare节点 18
       - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 19
-      - github.com/freefq - 美国CloudFlare公司CDN节点 20
+      - github.com/freefq - 北美地区  20
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21
-      - github.com/freefq - 美国  22
+      - github.com/freefq - 越南  22
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 23
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 24
-      - github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 美国  25
       - github.com/freefq - 美国  26
-      - github.com/freefq - 越南  27
-      - github.com/freefq - 美国  28
-      - github.com/freefq - 香港CDN77节点 29
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 28
+      - github.com/freefq - 澳大利亚  29
       - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 30
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 31
-      - github.com/freefq - 美国蒙大拿州Sharktech公司 32
-      - github.com/freefq - 印度  33
-      - github.com/freefq - 香港电讯盈科有限公司 34
+      - github.com/freefq - 瑞典  31
+      - github.com/freefq - 瑞典  32
+      - github.com/freefq - 美国CloudFlare公司CDN节点 33
+      - github.com/freefq - 印度  34
+      - github.com/freefq - 香港电讯盈科有限公司 35
       - 请换到v2ray
       - 将于近期停止ssr更新
       - 广东省广州市腾讯云 1
-      - 更新于:01-31 08:00:01 - by BuLink.xyz
+      - 更新于:01-31 12:00:01 - by BuLink.xyz
       - 广东省广州市腾讯云 2
       - 广东省广州市腾讯云 3
-      - 广东省广州市腾讯云 4
+      - 澳大利亚悉尼Amazon数据中心 4
       - 广东省广州市腾讯云 5
+      - 广东省广州市腾讯云 6
+      - 广东省广州市腾讯云 7
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 香港(中国)🚀[极速稳定]
@@ -6223,7 +6058,18 @@ proxy-groups:
       - 普通节点-香港B 2
       - 普通节点-香港C 2
       - 普通节点-香港D 2
-      - _香港_t.me/vvkj11<油管:VV科技>_22
+      - 油管晓飞分享 🇨🇳 v2|香港|A|16台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|B|22台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|C|18台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|B|21台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|D|15台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|E|14台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|A|8台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|B|10台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|C|13台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|B|9台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|D|11台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|E|10台负载|原生
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -6247,8 +6093,7 @@ proxy-groups:
       - 86香港∞中转
       - 87香港∞直连
       - Ytb:鹏哥分享_香港_71
-      - github.com/freefq - 香港CDN77节点 29
-      - github.com/freefq - 香港电讯盈科有限公司 34
+      - github.com/freefq - 香港电讯盈科有限公司 35
       - 香港(中国)🚀[极速稳定]
       - 香港 |AS|1G|H1
       - 香港02 | ss
@@ -6347,9 +6192,16 @@ proxy-groups:
       - JP-85.208.110.2-0095
       - JP-45.77.181.112-0951
       - JP-85.208.108.106-0101
-      - 节点每日更新
-      - _日本_t.me/vvkj11<油管:VV科技>_7
-      - _日本_t.me/vvkj11<油管:VV科技>_10
+      - 油管晓飞分享 🇯🇵 v2|日本|C|12台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|B|11台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|A|10台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|B|6台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|D|4台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|B|5台负载|原生
+      - 油管晓飞分享 🇯🇵 v2|日本|C|6台负载|原生
+      - 油管晓飞分享 🇯🇵 v2|日本|D|8台负载|原生
+      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载|原生
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -6364,7 +6216,8 @@ proxy-groups:
       - 24日本∞中转
       - 25日本∞直连
       - Ytb:鹏哥分享_尼日利亚_415
-      - github.com/freefq - 日本东京都品川区Linode数据中心 6
+      - github.com/freefq - 日本东京都品川区Linode数据中心 2
+      - github.com/freefq - 日本东京Linode数据中心 8
       - 日本大板 |AS|1G|J3
       - <公益>Japan 01
       - 小库订阅🇯🇵JP 1292 free
@@ -6598,75 +6451,18 @@ proxy-groups:
       - US-167.88.62.34-0086
       - US-38.68.135.18-1171
       - US-172.67.147.173-0069
-      - _美国_t.me/vvkj11<油管:VV科技>_4
-      - _美国_t.me/vvkj11<油管:VV科技>_5
-      - _美国_t.me/vvkj11<油管:VV科技>_11
-      - _美国_t.me/vvkj11<油管:VV科技>_20
-      - _美国_t.me/vvkj11<油管:VV科技>_21
-      - _美国_t.me/vvkj11<油管:VV科技>_24
-      - _美国_t.me/vvkj11<油管:VV科技>_26
-      - _美国_t.me/vvkj11<油管:VV科技>_31
-      - _美国_t.me/vvkj11<油管:VV科技>_35
-      - _美国_t.me/vvkj11<油管:VV科技>_37
-      - _美国_t.me/vvkj11<油管:VV科技>_38
-      - _美国_t.me/vvkj11<油管:VV科技>_44
-      - _美国_t.me/vvkj11<油管:VV科技>_48
-      - _美国_t.me/vvkj11<油管:VV科技>_49
-      - _美国_t.me/vvkj11<油管:VV科技>_51
-      - _美国_t.me/vvkj11<油管:VV科技>_54
-      - _美国_t.me/vvkj11<油管:VV科技>_57
-      - _美国_t.me/vvkj11<油管:VV科技>_58
-      - _美国_t.me/vvkj11<油管:VV科技>_59
-      - _美国_t.me/vvkj11<油管:VV科技>_60
-      - _美国_t.me/vvkj11<油管:VV科技>_61
-      - _美国_t.me/vvkj11<油管:VV科技>_62
-      - _美国_t.me/vvkj11<油管:VV科技>_65
-      - _美国_t.me/vvkj11<油管:VV科技>_66
-      - _美国_t.me/vvkj11<油管:VV科技>_68
-      - _美国_t.me/vvkj11<油管:VV科技>_69
-      - _美国_t.me/vvkj11<油管:VV科技>_70
-      - _美国_t.me/vvkj11<油管:VV科技>_71
-      - _美国_t.me/vvkj11<油管:VV科技>_72
-      - _美国_t.me/vvkj11<油管:VV科技>_73
-      - _美国_t.me/vvkj11<油管:VV科技>_74
-      - _美国_t.me/vvkj11<油管:VV科技>_75
-      - _美国_t.me/vvkj11<油管:VV科技>_76
-      - _美国_t.me/vvkj11<油管:VV科技>_77
-      - _美国_t.me/vvkj11<油管:VV科技>_78
-      - _美国_t.me/vvkj11<油管:VV科技>_79
-      - _美国_t.me/vvkj11<油管:VV科技>_80
-      - _美国_t.me/vvkj11<油管:VV科技>_81
-      - _美国_t.me/vvkj11<油管:VV科技>_82
-      - _美国_t.me/vvkj11<油管:VV科技>_83
-      - _美国_t.me/vvkj11<油管:VV科技>_84
-      - _美国_t.me/vvkj11<油管:VV科技>_85
-      - _美国_t.me/vvkj11<油管:VV科技>_86
-      - _美国_t.me/vvkj11<油管:VV科技>_87
-      - _美国_t.me/vvkj11<油管:VV科技>_88
-      - _美国_t.me/vvkj11<油管:VV科技>_89
-      - _美国_t.me/vvkj11<油管:VV科技>_92
-      - _美国_t.me/vvkj11<油管:VV科技>_93
-      - _美国_t.me/vvkj11<油管:VV科技>_94
-      - _美国_t.me/vvkj11<油管:VV科技>_95
-      - _美国_t.me/vvkj11<油管:VV科技>_96
-      - _美国_t.me/vvkj11<油管:VV科技>_97
-      - _美国_t.me/vvkj11<油管:VV科技>_98
-      - _美国_t.me/vvkj11<油管:VV科技>_99
-      - _美国_t.me/vvkj11<油管:VV科技>_100
-      - _美国_t.me/vvkj11<油管:VV科技>_101
-      - _美国_t.me/vvkj11<油管:VV科技>_102
-      - _美国_t.me/vvkj11<油管:VV科技>_103
-      - _美国_t.me/vvkj11<油管:VV科技>_104
-      - _美国_t.me/vvkj11<油管:VV科技>_105
-      - _美国_t.me/vvkj11<油管:VV科技>_107
-      - _美国_t.me/vvkj11<油管:VV科技>_108
-      - _美国_t.me/vvkj11<油管:VV科技>_109
-      - _美国_t.me/vvkj11<油管:VV科技>_110
-      - _美国_t.me/vvkj11<油管:VV科技>_111
-      - _美国_t.me/vvkj11<油管:VV科技>_112
-      - _美国_t.me/vvkj11<油管:VV科技>_113
-      - _美国_t.me/vvkj11<油管:VV科技>_122
-      - _美国_t.me/vvkj11<油管:VV科技>_125
+      - 油管晓飞分享 🇺🇸 v2|美国|A|7台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|B|7台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|C|4台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|D|5台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|A|5台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|美国|B|4台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|美国|C|3台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|南美|A|5台负载
+      - 油管晓飞分享 🇺🇸 v2|南美|B|3台负载
+      - 油管晓飞分享 🇺🇸 v2|南美|C|4台负载
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -7043,27 +6839,28 @@ proxy-groups:
       - Ytb:鹏哥分享_美国_541
       - Ytb:鹏哥分享_美国_542
       - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 美国华盛顿Cogent通信公司 5
-      - github.com/freefq - 北美地区  7
-      - github.com/freefq - 美国俄亥俄州都柏林Amazon数据中心 9
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 13
-      - github.com/freefq - 北美地区  14
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 15
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 16
-      - github.com/freefq - 美国  17
+      - github.com/freefq - 美国俄亥俄州都柏林Amazon数据中心 3
+      - github.com/freefq - 北美地区  6
+      - github.com/freefq - 美国华盛顿Cogent通信公司 7
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 9
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 10
+      - github.com/freefq - 美国  11
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 12
+      - github.com/freefq - 北美地区  13
+      - github.com/freefq - 美国华盛顿Cogent通信公司 14
+      - github.com/freefq - 美国  16
+      - github.com/freefq - 美国CloudFlare节点 18
       - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 19
-      - github.com/freefq - 美国CloudFlare公司CDN节点 20
+      - github.com/freefq - 北美地区  20
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21
-      - github.com/freefq - 美国  22
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 23
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 24
-      - github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 美国  25
       - github.com/freefq - 美国  26
-      - github.com/freefq - 美国  28
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 28
       - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 30
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 31
-      - github.com/freefq - 美国蒙大拿州Sharktech公司 32
+      - github.com/freefq - 美国CloudFlare公司CDN节点 33
       - 美国
       - 美国_阿伟科技-油管
       - 美国千兆-01号
@@ -7091,7 +6888,69 @@ proxy-groups:
       - 普通节点-台湾B
       - 普通节点-台湾A 2
       - 普通节点-台湾B 2
-      - _台湾_t.me/vvkj11<油管:VV科技>_90
+      - 油管晓飞分享 🇨🇳 v2|香港|A|16台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|B|22台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|C|18台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|B|21台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|D|15台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|E|14台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|C|12台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|C|11台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|B|10台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|A|9台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|D|7台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|E|5台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|C|12台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|B|11台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|A|10台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|B|6台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|D|4台负载
+      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|A|7台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|B|7台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|C|4台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|D|5台负载
+      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载
+      - 油管晓飞分享 🇨🇳 v2|香港|A|8台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|B|10台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|C|13台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|B|9台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|D|11台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|香港|E|10台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|台湾|A|6台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|台湾|B|5台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|台湾|C|3台负载|原生
+      - 油管晓飞分享 🇨🇳 v2|台湾|E|5台负载|原生
+      - 油管晓飞分享 🇸🇬 v2|新加坡|B|5台负载|原生
+      - 油管晓飞分享 🇸🇬 v2|新加坡|A|6台负载|原生
+      - 油管晓飞分享 🇸🇬 v2|新加坡|C|4台负载|原生
+      - 油管晓飞分享 🇸🇬 v2|新加坡|E|6台负载|原生
+      - 油管晓飞分享 🇯🇵 v2|日本|B|5台负载|原生
+      - 油管晓飞分享 🇯🇵 v2|日本|C|6台负载|原生
+      - 油管晓飞分享 🇯🇵 v2|日本|D|8台负载|原生
+      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|美国|A|5台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|美国|B|4台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|美国|C|3台负载|原生
+      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载|原生
+      - 油管晓飞分享 🇪🇺 v2|欧洲|A|3台负载
+      - 油管晓飞分享 🇪🇺 v2|欧洲|B|4台负载
+      - 油管晓飞分享 🇪🇺 v2|欧洲|C|5台负载
+      - 油管晓飞分享 🇦🇺 v2|澳洲|A|6台负载
+      - 油管晓飞分享 🇦🇺 v2|澳洲|B|4台负载
+      - 油管晓飞分享 🇦🇺 v2|澳洲|C|5台负载
+      - 油管晓飞分享 🇰🇷 v2|韩国|A|4台负载
+      - 油管晓飞分享 🇰🇷 v2|韩国|B|5台负载
+      - 油管晓飞分享 🇰🇷 v2|韩国|C|6台负载
+      - 油管晓飞分享 🇺🇸 v2|南美|A|5台负载
+      - 油管晓飞分享 🇺🇸 v2|南美|B|3台负载
+      - 油管晓飞分享 🇺🇸 v2|南美|C|4台负载
+      - 油管晓飞分享 🇮🇳 v2|印度|A|5台负载
+      - 油管晓飞分享 🇮🇳 v2|印度|B|3台负载
+      - 油管晓飞分享 🇮🇳 v2|印度|C|5台负载
+      - 油管晓飞分享 🇷🇺 v2|俄罗斯|A|4台负载
+      - 油管晓飞分享 🇷🇺 v2|俄罗斯|B|5台负载
+      - 油管晓飞分享 🇷🇺 v2|俄罗斯|C|3台负载
       - 台湾（YouTube资源分享者） 9
       - 台湾（YouTube资源分享者） 10
       - 台湾（YouTube资源分享者） 11
@@ -7120,9 +6979,16 @@ proxy-groups:
       - 新加坡（YouTube资源分享者）
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V18-付费推荐::suo.yt/ssrsub"
-      - _新加坡_t.me/vvkj11<油管:VV科技>_55
-      - _新加坡_t.me/vvkj11<油管:VV科技>_56
-      - _新加坡_t.me/vvkj11<油管:VV科技>_106
+      - 油管晓飞分享 🇸🇬 v2|新加坡|C|12台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|C|11台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|B|10台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|A|9台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|D|7台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|E|5台负载
+      - 油管晓飞分享 🇸🇬 v2|新加坡|B|5台负载|原生
+      - 油管晓飞分享 🇸🇬 v2|新加坡|A|6台负载|原生
+      - 油管晓飞分享 🇸🇬 v2|新加坡|C|4台负载|原生
+      - 油管晓飞分享 🇸🇬 v2|新加坡|E|6台负载|原生
       - 新加坡（YouTube资源分享者） 2
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-新加坡V18-付费推荐::suo.yt/ssrsub 2"
@@ -7168,6 +7034,9 @@ proxy-groups:
       - "@SSRSUB-首尔T10-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-韩国T15-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-首尔T20-付费推荐:dlj.tf/ssrsub"
+      - 油管晓飞分享 🇰🇷 v2|韩国|A|4台负载
+      - 油管晓飞分享 🇰🇷 v2|韩国|B|5台负载
+      - 油管晓飞分享 🇰🇷 v2|韩国|C|6台负载
       - "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub 2"
       - 80韩国∞直连
