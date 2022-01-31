@@ -821,76 +821,106 @@ proxies:
   - {name: RELAY-198.41.212.9-0068, server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
   - {name: FR-149.202.82.172-0000, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: EG-188.214.122.138-1117, server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg, udp: true}
-  - {name: 油管晓飞分享 v2|亚洲|C|混合负载|无敌主力, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7569.sina.cn, udp: true}
-  - {name: 油管晓飞分享 v2|亚洲|B|混合负载|万能主力, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7564.sina.cn, udp: true}
-  - {name: 油管晓飞分享 v2|亚洲|C|混合负载|视频主力, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607776.sina.cn, udp: true}
-  - {name: 油管晓飞分享 v2|亚洲|B|混合负载|低延主力, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607976.sina.cn, udp: true}
-  - {name: 油管晓飞分享 v2|亚洲|A|混合负载|外贸主力, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607876.sina.cn, udp: true}
-  - {name: 油管晓飞分享 v2|亚洲|D|混合负载|极速主力, server: k4.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7763.sina.cn, udp: true}
-  - {name: 油管晓飞分享 v2|亚洲|E|混合负载|稳定主力, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7169.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|香港|A|16台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7568.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|香港|B|22台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7565.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|香港|C|18台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f703860777c.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|香港|B|21台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f703860797d.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|香港|D|15台负载, server: k4.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7760.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|香港|E|14台负载, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7168.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|C|12台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607773.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|C|11台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607771.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|B|10台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607971.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|A|9台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607871.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|D|7台负载, server: k4.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7566.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|E|5台负载, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7167.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇯🇵 v2|日本|C|12台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607770.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇯🇵 v2|日本|B|11台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607970.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇯🇵 v2|日本|A|10台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607870.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇯🇵 v2|日本|B|6台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7563.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇯🇵 v2|日本|D|4台负载, server: k4.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7668.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇯🇵 v2|日本|E|5台负载, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7166.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇺🇸 v2|美国|A|7台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7d65.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇺🇸 v2|美国|B|7台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607873.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇺🇸 v2|美国|C|4台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7d66.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇺🇸 v2|美国|D|5台负载, server: k4.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7661.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇺🇸 v2|美国|E|4台负载, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7165.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|香港|A|8台负载|原生, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607874.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|香港|B|10台负载|原生, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607974.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|香港|C|13台负载|原生, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607774.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|香港|B|9台负载|原生, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f703860797c.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|香港|D|11台负载|原生, server: k4.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7562.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|香港|E|10台负载|原生, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7164.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|台湾|A|6台负载|原生, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7660.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|台湾|B|5台负载|原生, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7768.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|台湾|C|3台负载|原生, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7568.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇨🇳 v2|台湾|E|5台负载|原生, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7163.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|B|5台负载|原生, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7c67.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|A|6台负载|原生, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7c66.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|C|4台负载|原生, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7565.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇸🇬 v2|新加坡|E|6台负载|原生, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7162.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇯🇵 v2|日本|B|5台负载|原生, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7265.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇯🇵 v2|日本|C|6台负载|原生, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7264.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇯🇵 v2|日本|D|8台负载|原生, server: k4.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7266.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇯🇵 v2|日本|E|5台负载|原生, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7267.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇺🇸 v2|美国|A|5台负载|原生, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7462.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇺🇸 v2|美国|B|4台负载|原生, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7463.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇺🇸 v2|美国|C|3台负载|原生, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7660.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇺🇸 v2|美国|E|4台负载|原生, server: k5.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7161.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇪🇺 v2|欧洲|A|3台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f703860787c.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇪🇺 v2|欧洲|B|4台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7665.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇪🇺 v2|欧洲|C|5台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7160.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇦🇺 v2|澳洲|A|6台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7468.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇦🇺 v2|澳洲|B|4台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7664.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇦🇺 v2|澳洲|C|5台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7069.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇰🇷 v2|韩国|A|4台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7469.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇰🇷 v2|韩国|B|5台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7761.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇰🇷 v2|韩国|C|6台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7068.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇺🇸 v2|南美|A|5台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7560.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇺🇸 v2|南美|B|3台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7662.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇺🇸 v2|南美|C|4台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7067.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇮🇳 v2|印度|A|5台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607f7d68.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇮🇳 v2|印度|B|3台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7666.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇮🇳 v2|印度|C|5台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7066.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇷🇺 v2|俄罗斯|A|4台负载, server: k1.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7460.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇷🇺 v2|俄罗斯|B|5台负载, server: k2.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7765.sina.cn, udp: true}
-  - {name: 油管晓飞分享 🇷🇺 v2|俄罗斯|C|3台负载, server: k3.2y7.top, port: 41322, type: ssr, cipher: rc4-md5, password: d4d42409c48b, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 61797f7360706f7038607c7065.sina.cn, udp: true}
+  - {name: _US_美国, server: 169.197.141.24, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国, server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 2, server: 167.88.61.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 3, server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大, server: 198.57.27.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.101, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 4, server: 38.91.100.102, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _AU_澳大利亚, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 5, server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _IN_印度, server: 172.104.207.140, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR_法国, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 6, server: 38.75.136.45, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _IN_印度 2, server: 172.104.207.140, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.51, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 7, server: 38.143.66.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.87, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _FR_法国 2, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 8, server: 38.75.136.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 9, server: 142.202.48.114, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _GB_英国 4, server: 149.7.16.10, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _AU_澳大利亚 2, server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 4, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.128, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 10, server: 38.75.136.58, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 11, server: 167.88.63.61, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.196.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 12, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 13, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _IT_意大利, server: 217.138.197.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy, udp: true}
+  - {name: _CA_加拿大 7, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 8, server: 134.195.196.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 9, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 14, server: 38.91.100.27, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 10, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR_法国 3, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 15, server: 167.88.63.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 11, server: 134.195.196.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 16, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国 5, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _ES_西班牙, server: 45.152.183.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
+  - {name: _AU_澳大利亚 3, server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 17, server: 38.91.100.102, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大 12, server: 198.57.27.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 13, server: 198.57.27.191, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 14, server: 134.195.196.107, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 18, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 19, server: 167.88.63.61, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _GB_英国 6, server: 172.99.190.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 20, server: 38.143.66.20, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _AU_澳大利亚 4, server: 172.105.180.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 21, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
+  - {name: _US_美国 22, server: 169.197.141.24, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 23, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _SE_瑞典, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF, udp: true}
+  - {name: _GB_英国 7, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 15, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 24, server: 38.68.134.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 25, server: 169.197.141.24, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 16, server: 198.57.27.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 26, server: 167.88.63.61, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 27, server: 38.91.100.27, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CN_中国->🇰🇷_KR_韩国, server: 120.233.150.200, port: 50302, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
+  - {name: _CA_加拿大 17, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国 8, server: 212.38.189.174, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大 18, server: 134.195.196.71, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 19, server: 134.195.196.214, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _AU_澳大利亚 5, server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _SG_新加坡, server: 172.104.168.83, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 28, server: 169.197.141.24, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _GB_英国 9, server: 212.38.189.174, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 29, server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 30, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国 10, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 31, server: 169.197.141.24, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大 20, server: 134.195.196.107, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 32, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 21, server: 134.195.196.71, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 33, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
+  - {name: _US_美国 34, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CN_中国->🇰🇷_KR_韩国 2, server: cn2.relay.starlink.st, port: 50401, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
+  - {name: _CA_加拿大 22, server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _JP_日本, server: 85.208.108.106, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 35, server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 23, server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 36, server: 38.91.100.102, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 37, server: 167.88.62.24, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 38, server: 167.88.63.61, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 39, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _HK_香港->🇮🇳_IN_印度, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
+  - {name: _FR_法国 4, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 40, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _NO_挪威, server: 46.29.218.170, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _SG_新加坡 2, server: 172.104.168.83, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 41, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 42, server: 38.91.100.102, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 24, server: 134.195.196.227, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _GB_英国 11, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 43, server: 38.68.134.23, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _JP_日本 2, server: 85.208.108.134, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2804,76 +2834,106 @@ proxy-groups:
       - RELAY-198.41.212.9-0068
       - FR-149.202.82.172-0000
       - EG-188.214.122.138-1117
-      - 油管晓飞分享 v2|亚洲|C|混合负载|无敌主力
-      - 油管晓飞分享 v2|亚洲|B|混合负载|万能主力
-      - 油管晓飞分享 v2|亚洲|C|混合负载|视频主力
-      - 油管晓飞分享 v2|亚洲|B|混合负载|低延主力
-      - 油管晓飞分享 v2|亚洲|A|混合负载|外贸主力
-      - 油管晓飞分享 v2|亚洲|D|混合负载|极速主力
-      - 油管晓飞分享 v2|亚洲|E|混合负载|稳定主力
-      - 油管晓飞分享 🇨🇳 v2|香港|A|16台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|B|22台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|C|18台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|B|21台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|D|15台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|E|14台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|C|12台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|C|11台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|B|10台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|A|9台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|D|7台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|E|5台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|C|12台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|B|11台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|A|10台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|B|6台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|D|4台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|A|7台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|B|7台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|C|4台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|D|5台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|A|8台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|B|10台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|C|13台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|B|9台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|D|11台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|E|10台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|台湾|A|6台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|台湾|B|5台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|台湾|C|3台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|台湾|E|5台负载|原生
-      - 油管晓飞分享 🇸🇬 v2|新加坡|B|5台负载|原生
-      - 油管晓飞分享 🇸🇬 v2|新加坡|A|6台负载|原生
-      - 油管晓飞分享 🇸🇬 v2|新加坡|C|4台负载|原生
-      - 油管晓飞分享 🇸🇬 v2|新加坡|E|6台负载|原生
-      - 油管晓飞分享 🇯🇵 v2|日本|B|5台负载|原生
-      - 油管晓飞分享 🇯🇵 v2|日本|C|6台负载|原生
-      - 油管晓飞分享 🇯🇵 v2|日本|D|8台负载|原生
-      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|美国|A|5台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|美国|B|4台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|美国|C|3台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载|原生
-      - 油管晓飞分享 🇪🇺 v2|欧洲|A|3台负载
-      - 油管晓飞分享 🇪🇺 v2|欧洲|B|4台负载
-      - 油管晓飞分享 🇪🇺 v2|欧洲|C|5台负载
-      - 油管晓飞分享 🇦🇺 v2|澳洲|A|6台负载
-      - 油管晓飞分享 🇦🇺 v2|澳洲|B|4台负载
-      - 油管晓飞分享 🇦🇺 v2|澳洲|C|5台负载
-      - 油管晓飞分享 🇰🇷 v2|韩国|A|4台负载
-      - 油管晓飞分享 🇰🇷 v2|韩国|B|5台负载
-      - 油管晓飞分享 🇰🇷 v2|韩国|C|6台负载
-      - 油管晓飞分享 🇺🇸 v2|南美|A|5台负载
-      - 油管晓飞分享 🇺🇸 v2|南美|B|3台负载
-      - 油管晓飞分享 🇺🇸 v2|南美|C|4台负载
-      - 油管晓飞分享 🇮🇳 v2|印度|A|5台负载
-      - 油管晓飞分享 🇮🇳 v2|印度|B|3台负载
-      - 油管晓飞分享 🇮🇳 v2|印度|C|5台负载
-      - 油管晓飞分享 🇷🇺 v2|俄罗斯|A|4台负载
-      - 油管晓飞分享 🇷🇺 v2|俄罗斯|B|5台负载
-      - 油管晓飞分享 🇷🇺 v2|俄罗斯|C|3台负载
+      - _US_美国
+      - _GB_英国
+      - _US_美国 2
+      - _US_美国 3
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _US_美国 4
+      - _AU_澳大利亚
+      - _US_美国 5
+      - _IN_印度
+      - _FR_法国
+      - _US_美国 6
+      - _GB_英国 2
+      - _IN_印度 2
+      - _CA_加拿大 3
+      - _US_美国 7
+      - _GB_英国 3
+      - _FR_法国 2
+      - _US_美国 8
+      - _US_美国 9
+      - _GB_英国 4
+      - _AU_澳大利亚 2
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _US_美国 10
+      - _US_美国 11
+      - _CA_加拿大 6
+      - _US_美国 12
+      - _US_美国 13
+      - _IT_意大利
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _US_美国 14
+      - _CA_加拿大 10
+      - _FR_法国 3
+      - _US_美国 15
+      - _CA_加拿大 11
+      - _US_美国 16
+      - _GB_英国 5
+      - _ES_西班牙
+      - _AU_澳大利亚 3
+      - _US_美国 17
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _US_美国 18
+      - _US_美国 19
+      - _GB_英国 6
+      - _US_美国 20
+      - _AU_澳大利亚 4
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _SE_瑞典
+      - _GB_英国 7
+      - _CA_加拿大 15
+      - _US_美国 24
+      - _US_美国 25
+      - _CA_加拿大 16
+      - _US_美国 26
+      - _US_美国 27
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CA_加拿大 17
+      - _GB_英国 8
+      - _CA_加拿大 18
+      - _CA_加拿大 19
+      - _AU_澳大利亚 5
+      - _SG_新加坡
+      - _US_美国 28
+      - _GB_英国 9
+      - _US_美国 29
+      - _US_美国 30
+      - _GB_英国 10
+      - _US_美国 31
+      - _CA_加拿大 20
+      - _US_美国 32
+      - _CA_加拿大 21
+      - _US_美国 33
+      - _US_美国 34
+      - _CN_中国->🇰🇷_KR_韩国 2
+      - _CA_加拿大 22
+      - _JP_日本
+      - _US_美国 35
+      - _CA_加拿大 23
+      - _US_美国 36
+      - _US_美国 37
+      - _US_美国 38
+      - _US_美国 39
+      - _HK_香港->🇮🇳_IN_印度
+      - _FR_法国 4
+      - _US_美国 40
+      - _NO_挪威
+      - _SG_新加坡 2
+      - _US_美国 41
+      - _US_美国 42
+      - _CA_加拿大 24
+      - _GB_英国 11
+      - _US_美国 43
+      - _JP_日本 2
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4776,76 +4836,106 @@ proxy-groups:
       - RELAY-198.41.212.9-0068
       - FR-149.202.82.172-0000
       - EG-188.214.122.138-1117
-      - 油管晓飞分享 v2|亚洲|C|混合负载|无敌主力
-      - 油管晓飞分享 v2|亚洲|B|混合负载|万能主力
-      - 油管晓飞分享 v2|亚洲|C|混合负载|视频主力
-      - 油管晓飞分享 v2|亚洲|B|混合负载|低延主力
-      - 油管晓飞分享 v2|亚洲|A|混合负载|外贸主力
-      - 油管晓飞分享 v2|亚洲|D|混合负载|极速主力
-      - 油管晓飞分享 v2|亚洲|E|混合负载|稳定主力
-      - 油管晓飞分享 🇨🇳 v2|香港|A|16台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|B|22台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|C|18台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|B|21台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|D|15台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|E|14台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|C|12台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|C|11台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|B|10台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|A|9台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|D|7台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|E|5台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|C|12台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|B|11台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|A|10台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|B|6台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|D|4台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|A|7台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|B|7台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|C|4台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|D|5台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|A|8台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|B|10台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|C|13台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|B|9台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|D|11台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|E|10台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|台湾|A|6台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|台湾|B|5台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|台湾|C|3台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|台湾|E|5台负载|原生
-      - 油管晓飞分享 🇸🇬 v2|新加坡|B|5台负载|原生
-      - 油管晓飞分享 🇸🇬 v2|新加坡|A|6台负载|原生
-      - 油管晓飞分享 🇸🇬 v2|新加坡|C|4台负载|原生
-      - 油管晓飞分享 🇸🇬 v2|新加坡|E|6台负载|原生
-      - 油管晓飞分享 🇯🇵 v2|日本|B|5台负载|原生
-      - 油管晓飞分享 🇯🇵 v2|日本|C|6台负载|原生
-      - 油管晓飞分享 🇯🇵 v2|日本|D|8台负载|原生
-      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|美国|A|5台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|美国|B|4台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|美国|C|3台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载|原生
-      - 油管晓飞分享 🇪🇺 v2|欧洲|A|3台负载
-      - 油管晓飞分享 🇪🇺 v2|欧洲|B|4台负载
-      - 油管晓飞分享 🇪🇺 v2|欧洲|C|5台负载
-      - 油管晓飞分享 🇦🇺 v2|澳洲|A|6台负载
-      - 油管晓飞分享 🇦🇺 v2|澳洲|B|4台负载
-      - 油管晓飞分享 🇦🇺 v2|澳洲|C|5台负载
-      - 油管晓飞分享 🇰🇷 v2|韩国|A|4台负载
-      - 油管晓飞分享 🇰🇷 v2|韩国|B|5台负载
-      - 油管晓飞分享 🇰🇷 v2|韩国|C|6台负载
-      - 油管晓飞分享 🇺🇸 v2|南美|A|5台负载
-      - 油管晓飞分享 🇺🇸 v2|南美|B|3台负载
-      - 油管晓飞分享 🇺🇸 v2|南美|C|4台负载
-      - 油管晓飞分享 🇮🇳 v2|印度|A|5台负载
-      - 油管晓飞分享 🇮🇳 v2|印度|B|3台负载
-      - 油管晓飞分享 🇮🇳 v2|印度|C|5台负载
-      - 油管晓飞分享 🇷🇺 v2|俄罗斯|A|4台负载
-      - 油管晓飞分享 🇷🇺 v2|俄罗斯|B|5台负载
-      - 油管晓飞分享 🇷🇺 v2|俄罗斯|C|3台负载
+      - _US_美国
+      - _GB_英国
+      - _US_美国 2
+      - _US_美国 3
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _US_美国 4
+      - _AU_澳大利亚
+      - _US_美国 5
+      - _IN_印度
+      - _FR_法国
+      - _US_美国 6
+      - _GB_英国 2
+      - _IN_印度 2
+      - _CA_加拿大 3
+      - _US_美国 7
+      - _GB_英国 3
+      - _FR_法国 2
+      - _US_美国 8
+      - _US_美国 9
+      - _GB_英国 4
+      - _AU_澳大利亚 2
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _US_美国 10
+      - _US_美国 11
+      - _CA_加拿大 6
+      - _US_美国 12
+      - _US_美国 13
+      - _IT_意大利
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _US_美国 14
+      - _CA_加拿大 10
+      - _FR_法国 3
+      - _US_美国 15
+      - _CA_加拿大 11
+      - _US_美国 16
+      - _GB_英国 5
+      - _ES_西班牙
+      - _AU_澳大利亚 3
+      - _US_美国 17
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _US_美国 18
+      - _US_美国 19
+      - _GB_英国 6
+      - _US_美国 20
+      - _AU_澳大利亚 4
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _SE_瑞典
+      - _GB_英国 7
+      - _CA_加拿大 15
+      - _US_美国 24
+      - _US_美国 25
+      - _CA_加拿大 16
+      - _US_美国 26
+      - _US_美国 27
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CA_加拿大 17
+      - _GB_英国 8
+      - _CA_加拿大 18
+      - _CA_加拿大 19
+      - _AU_澳大利亚 5
+      - _SG_新加坡
+      - _US_美国 28
+      - _GB_英国 9
+      - _US_美国 29
+      - _US_美国 30
+      - _GB_英国 10
+      - _US_美国 31
+      - _CA_加拿大 20
+      - _US_美国 32
+      - _CA_加拿大 21
+      - _US_美国 33
+      - _US_美国 34
+      - _CN_中国->🇰🇷_KR_韩国 2
+      - _CA_加拿大 22
+      - _JP_日本
+      - _US_美国 35
+      - _CA_加拿大 23
+      - _US_美国 36
+      - _US_美国 37
+      - _US_美国 38
+      - _US_美国 39
+      - _HK_香港->🇮🇳_IN_印度
+      - _FR_法国 4
+      - _US_美国 40
+      - _NO_挪威
+      - _SG_新加坡 2
+      - _US_美国 41
+      - _US_美国 42
+      - _CA_加拿大 24
+      - _GB_英国 11
+      - _US_美国 43
+      - _JP_日本 2
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -6157,18 +6247,7 @@ proxy-groups:
       - 普通节点-香港B 2
       - 普通节点-香港C 2
       - 普通节点-香港D 2
-      - 油管晓飞分享 🇨🇳 v2|香港|A|16台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|B|22台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|C|18台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|B|21台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|D|15台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|E|14台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|A|8台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|B|10台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|C|13台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|B|9台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|D|11台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|E|10台负载|原生
+      - _HK_香港->🇮🇳_IN_印度
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -6291,16 +6370,8 @@ proxy-groups:
       - JP-85.208.110.2-0095
       - JP-45.77.181.112-0951
       - JP-85.208.108.106-0101
-      - 油管晓飞分享 🇯🇵 v2|日本|C|12台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|B|11台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|A|10台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|B|6台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|D|4台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|B|5台负载|原生
-      - 油管晓飞分享 🇯🇵 v2|日本|C|6台负载|原生
-      - 油管晓飞分享 🇯🇵 v2|日本|D|8台负载|原生
-      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载|原生
+      - _JP_日本
+      - _JP_日本 2
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -6587,18 +6658,49 @@ proxy-groups:
       - US-167.88.62.34-0086
       - US-38.68.135.18-1171
       - US-172.67.147.173-0069
-      - 油管晓飞分享 🇺🇸 v2|美国|A|7台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|B|7台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|C|4台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|D|5台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|A|5台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|美国|B|4台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|美国|C|3台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|南美|A|5台负载
-      - 油管晓飞分享 🇺🇸 v2|南美|B|3台负载
-      - 油管晓飞分享 🇺🇸 v2|南美|C|4台负载
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _US_美国 36
+      - _US_美国 37
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -7024,69 +7126,6 @@ proxy-groups:
       - 普通节点-台湾B
       - 普通节点-台湾A 2
       - 普通节点-台湾B 2
-      - 油管晓飞分享 🇨🇳 v2|香港|A|16台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|B|22台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|C|18台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|B|21台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|D|15台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|E|14台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|C|12台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|C|11台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|B|10台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|A|9台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|D|7台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|E|5台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|C|12台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|B|11台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|A|10台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|B|6台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|D|4台负载
-      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|A|7台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|B|7台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|C|4台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|D|5台负载
-      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载
-      - 油管晓飞分享 🇨🇳 v2|香港|A|8台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|B|10台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|C|13台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|B|9台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|D|11台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|香港|E|10台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|台湾|A|6台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|台湾|B|5台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|台湾|C|3台负载|原生
-      - 油管晓飞分享 🇨🇳 v2|台湾|E|5台负载|原生
-      - 油管晓飞分享 🇸🇬 v2|新加坡|B|5台负载|原生
-      - 油管晓飞分享 🇸🇬 v2|新加坡|A|6台负载|原生
-      - 油管晓飞分享 🇸🇬 v2|新加坡|C|4台负载|原生
-      - 油管晓飞分享 🇸🇬 v2|新加坡|E|6台负载|原生
-      - 油管晓飞分享 🇯🇵 v2|日本|B|5台负载|原生
-      - 油管晓飞分享 🇯🇵 v2|日本|C|6台负载|原生
-      - 油管晓飞分享 🇯🇵 v2|日本|D|8台负载|原生
-      - 油管晓飞分享 🇯🇵 v2|日本|E|5台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|美国|A|5台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|美国|B|4台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|美国|C|3台负载|原生
-      - 油管晓飞分享 🇺🇸 v2|美国|E|4台负载|原生
-      - 油管晓飞分享 🇪🇺 v2|欧洲|A|3台负载
-      - 油管晓飞分享 🇪🇺 v2|欧洲|B|4台负载
-      - 油管晓飞分享 🇪🇺 v2|欧洲|C|5台负载
-      - 油管晓飞分享 🇦🇺 v2|澳洲|A|6台负载
-      - 油管晓飞分享 🇦🇺 v2|澳洲|B|4台负载
-      - 油管晓飞分享 🇦🇺 v2|澳洲|C|5台负载
-      - 油管晓飞分享 🇰🇷 v2|韩国|A|4台负载
-      - 油管晓飞分享 🇰🇷 v2|韩国|B|5台负载
-      - 油管晓飞分享 🇰🇷 v2|韩国|C|6台负载
-      - 油管晓飞分享 🇺🇸 v2|南美|A|5台负载
-      - 油管晓飞分享 🇺🇸 v2|南美|B|3台负载
-      - 油管晓飞分享 🇺🇸 v2|南美|C|4台负载
-      - 油管晓飞分享 🇮🇳 v2|印度|A|5台负载
-      - 油管晓飞分享 🇮🇳 v2|印度|B|3台负载
-      - 油管晓飞分享 🇮🇳 v2|印度|C|5台负载
-      - 油管晓飞分享 🇷🇺 v2|俄罗斯|A|4台负载
-      - 油管晓飞分享 🇷🇺 v2|俄罗斯|B|5台负载
-      - 油管晓飞分享 🇷🇺 v2|俄罗斯|C|3台负载
       - 台湾（YouTube资源分享者） 9
       - 台湾（YouTube资源分享者） 10
       - 台湾（YouTube资源分享者） 11
@@ -7115,16 +7154,8 @@ proxy-groups:
       - 新加坡（YouTube资源分享者）
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V18-付费推荐::suo.yt/ssrsub"
-      - 油管晓飞分享 🇸🇬 v2|新加坡|C|12台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|C|11台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|B|10台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|A|9台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|D|7台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|E|5台负载
-      - 油管晓飞分享 🇸🇬 v2|新加坡|B|5台负载|原生
-      - 油管晓飞分享 🇸🇬 v2|新加坡|A|6台负载|原生
-      - 油管晓飞分享 🇸🇬 v2|新加坡|C|4台负载|原生
-      - 油管晓飞分享 🇸🇬 v2|新加坡|E|6台负载|原生
+      - _SG_新加坡
+      - _SG_新加坡 2
       - 新加坡（YouTube资源分享者） 2
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-新加坡V18-付费推荐::suo.yt/ssrsub 2"
@@ -7170,9 +7201,8 @@ proxy-groups:
       - "@SSRSUB-首尔T10-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-韩国T15-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-首尔T20-付费推荐:dlj.tf/ssrsub"
-      - 油管晓飞分享 🇰🇷 v2|韩国|A|4台负载
-      - 油管晓飞分享 🇰🇷 v2|韩国|B|5台负载
-      - 油管晓飞分享 🇰🇷 v2|韩国|C|6台负载
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇰🇷_KR_韩国 2
       - "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub 2"
       - 80韩国∞直连
