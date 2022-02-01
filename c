@@ -4,47 +4,82 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
-proxies: 
-  - {name: '', server: '144.202.93.155', port: 42281, type: vmess, uuid: 'f6849b36-cf76-402a-ecbc-4746e0ada1e0', alterId: 0, cipher: auto, tls: false, network: 'ws', ws-opts: { path: '/wis'} }
+proxies:
+  - {"name":"🇮🇳+[IEPL]+IN15_2_0x_原生_WARP_1","server":"iepl.elaina.link","port":50013,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"10a83674-1a4f-4c13-81c9-7b3becd90446"}
+  - {"name":"🇯🇵+[IEPL]+JP54_2_0x_原生_GMO_2","server":"iepl.elaina.link","port":50011,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"10a83674-1a4f-4c13-81c9-7b3becd90446"}
+  - {"name":"🇭🇰+[IEPL]+HK65_2_0x_原生_HKT_3","server":"iepl.elaina.link","port":50009,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"10a83674-1a4f-4c13-81c9-7b3becd90446"}
+  - {"name":"🇸🇬+[IEPL]+SG43_2_0x_原生_WARP_4","server":"iepl.elaina.link","port":50006,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"10a83674-1a4f-4c13-81c9-7b3becd90446"}
+  - {"name":"🇺🇸+[IEPL]+US43_2_0x_原生_WARP_5","server":"iepl.elaina.link","port":50003,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"10a83674-1a4f-4c13-81c9-7b3becd90446"}
+  - {"name":"🇨🇳+[IEPL]+TW23_2_0x_原生_Hinet_6","server":"iepl.elaina.link","port":50001,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"10a83674-1a4f-4c13-81c9-7b3becd90446"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 
+      - 🇮🇳+[IEPL]+IN15_2_0x_原生_WARP_1
+      - 🇯🇵+[IEPL]+JP54_2_0x_原生_GMO_2
+      - 🇭🇰+[IEPL]+HK65_2_0x_原生_HKT_3
+      - 🇸🇬+[IEPL]+SG43_2_0x_原生_WARP_4
+      - 🇺🇸+[IEPL]+US43_2_0x_原生_WARP_5
+      - 🇨🇳+[IEPL]+TW23_2_0x_原生_Hinet_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 
+      - 🇮🇳+[IEPL]+IN15_2_0x_原生_WARP_1
+      - 🇯🇵+[IEPL]+JP54_2_0x_原生_GMO_2
+      - 🇭🇰+[IEPL]+HK65_2_0x_原生_HKT_3
+      - 🇸🇬+[IEPL]+SG43_2_0x_原生_WARP_4
+      - 🇺🇸+[IEPL]+US43_2_0x_原生_WARP_5
+      - 🇨🇳+[IEPL]+TW23_2_0x_原生_Hinet_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 
+      - 🇮🇳+[IEPL]+IN15_2_0x_原生_WARP_1
+      - 🇯🇵+[IEPL]+JP54_2_0x_原生_GMO_2
+      - 🇭🇰+[IEPL]+HK65_2_0x_原生_HKT_3
+      - 🇸🇬+[IEPL]+SG43_2_0x_原生_WARP_4
+      - 🇺🇸+[IEPL]+US43_2_0x_原生_WARP_5
+      - 🇨🇳+[IEPL]+TW23_2_0x_原生_Hinet_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 
+      - 🇮🇳+[IEPL]+IN15_2_0x_原生_WARP_1
+      - 🇯🇵+[IEPL]+JP54_2_0x_原生_GMO_2
+      - 🇭🇰+[IEPL]+HK65_2_0x_原生_HKT_3
+      - 🇸🇬+[IEPL]+SG43_2_0x_原生_WARP_4
+      - 🇺🇸+[IEPL]+US43_2_0x_原生_WARP_5
+      - 🇨🇳+[IEPL]+TW23_2_0x_原生_Hinet_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 
+      - 🇮🇳+[IEPL]+IN15_2_0x_原生_WARP_1
+      - 🇯🇵+[IEPL]+JP54_2_0x_原生_GMO_2
+      - 🇭🇰+[IEPL]+HK65_2_0x_原生_HKT_3
+      - 🇸🇬+[IEPL]+SG43_2_0x_原生_WARP_4
+      - 🇺🇸+[IEPL]+US43_2_0x_原生_WARP_5
+      - 🇨🇳+[IEPL]+TW23_2_0x_原生_Hinet_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 
+      - 🇮🇳+[IEPL]+IN15_2_0x_原生_WARP_1
+      - 🇯🇵+[IEPL]+JP54_2_0x_原生_GMO_2
+      - 🇭🇰+[IEPL]+HK65_2_0x_原生_HKT_3
+      - 🇸🇬+[IEPL]+SG43_2_0x_原生_WARP_4
+      - 🇺🇸+[IEPL]+US43_2_0x_原生_WARP_5
+      - 🇨🇳+[IEPL]+TW23_2_0x_原生_Hinet_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +102,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 
+      - 🇮🇳+[IEPL]+IN15_2_0x_原生_WARP_1
+      - 🇯🇵+[IEPL]+JP54_2_0x_原生_GMO_2
+      - 🇭🇰+[IEPL]+HK65_2_0x_原生_HKT_3
+      - 🇸🇬+[IEPL]+SG43_2_0x_原生_WARP_4
+      - 🇺🇸+[IEPL]+US43_2_0x_原生_WARP_5
+      - 🇨🇳+[IEPL]+TW23_2_0x_原生_Hinet_6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
