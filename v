@@ -5,172 +5,81 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies: 
-  - { name: '%E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1', server: 'tolink.site', port: 443, type: vless, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', cipher: 'auto', skip-cert-verify: true, network: tcp }
-  - { name: '%E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink_site_2', server: 'tolink.site', port: 443, type: vless, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', cipher: 'auto', skip-cert-verify: true, network: tcp }
-  - {name: '香港_00_试用_3', server: 'hk00.linkzones.xyz', port: 443, type: vmess, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'hk00.linknodes.xyz'} }
-  - {name: '香港_01', server: 'hk01.linkzones.xyz', port: 443, type: vmess, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'hk01.linknodes.xyz'} }
-  - {name: '香港_02', server: 'hk02.linkzones.xyz', port: 443, type: vmess, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'hk02.linknodes.xyz'} }
-  - {name: '加拿大_00_试用_6', server: 'ca00.linkzones.xyz', port: 443, type: vmess, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'ca00.linknodes.xyz'} }
-  - {name: '加拿大_01', server: 'ca01.linkzones.xyz', port: 443, type: vmess, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'ca01.linknodes.xyz'} }
-  - {name: '加拿大_02', server: 'ca02.linkzones.xyz', port: 443, type: vmess, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'ca02.linknodes.xyz'} }
-  - {name: '新加坡_00_试用_9', server: 'sg00.linkzones.xyz', port: 443, type: vmess, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'sg00.linknodes.xyz'} }
-  - {name: '新加坡_01', server: 'sg01.linkzones.xyz', port: 443, type: vmess, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'sg01.linknodes.xyz'} }
-  - {name: '新加坡_02', server: 'sg02.linkzones.xyz', port: 443, type: vmess, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'sg02.linknodes.xyz'} }
-  - {name: '日本_00_试用_12', server: 'jp00.linkzones.xyz', port: 443, type: vmess, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'jp00.linknodes.xyz'} }
-  - {name: '日本_01', server: 'jp01.linkzones.xyz', port: 443, type: vmess, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'jp01.linknodes.xyz'} }
-  - {name: '日本_02', server: 'jp02.linkzones.xyz', port: 443, type: vmess, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'jp02.linknodes.xyz'} }
-  - {name: '美国_00_试用_15', server: 'us00.linkzones.xyz', port: 443, type: vmess, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'us00.linknodes.xyz'} }
-  - {name: '美国_01_洛杉矶CN2_16', server: 'us01.linkzones.xyz', port: 443, type: vmess, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'us01.linknodes.xyz'} }
-  - {name: '美国_02_洛杉矶CN2_17', server: 'us02.linkzones.xyz', port: 443, type: vmess, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws', host: 'us02.linknodes.xyz'} }
-  - { name: '%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A4_72GB_18', server: 'tolink.site', port: 10086, type: vless, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', cipher: 'auto', skip-cert-verify: true, path: '/', network: tcp }
-  - { name: '%E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-02-05_19', server: 'tolink.site', port: 10086, type: vless, uuid: '9918cb2b-465e-3add-8623-a4d2320ef890', cipher: 'auto', skip-cert-verify: true, path: '/', network: tcp }
+  - {name: 'opentunnel_net-jerrylin_1', server: 'www.linyu.com', port: 443, type: vmess, uuid: 'a40d34c6-b77c-4648-9210-3e8d2f4226b5', alterId: 16, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/opentunnel?user=opentunnel.net-jerrylin', host: 'hkv-1.openv2ray.com'} }
+  - {name: 'opentunnel_net-jerrylin_2', server: 'www.linyu.com', port: 80, type: vmess, uuid: 'a40d34c6-b77c-4648-9210-3e8d2f4226b5', alterId: 16, cipher: auto, tls: false, network: 'ws', ws-opts: { path: '/opentunnel?user=opentunnel.net-jerrylin', host: 'hkv-1.openv2ray.com'} }
+  - {name: 'opentunnel_net-jerrylin_3', server: 'www.kontv.com', port: 443, type: vmess, uuid: 'a40d34c6-b77c-4648-9210-3e8d2f4226b5', alterId: 16, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/opentunnel?user=opentunnel.net-jerrylin', host: 'dev-1.openv2ray.com'} }
+  - {name: 'opentunnel_net-jerrylin_4', server: 'www.kontv.com', port: 80, type: vmess, uuid: 'a40d34c6-b77c-4648-9210-3e8d2f4226b5', alterId: 16, cipher: auto, tls: false, network: 'ws', ws-opts: { path: '/opentunnel?user=opentunnel.net-jerrylin', host: 'dev-1.openv2ray.com'} }
+  - { name: 'opentunnel_net-jerrylin_5', server: 'www.popkon.com', port: 443, type: vless, uuid: '4f17e173-4af9-5041-9662-f6c27e0decfd', cipher: 'auto', skip-cert-verify: true, tls: true, path: '/opentunnel?user=opentunnel.net-jerrylin', host: 'krx-1.openv2ray.com', network: http }
+  - { name: 'opentunnel_net-jerrylin_6', server: 'www.popkon.com', port: 80, type: vless, uuid: '4f17e173-4af9-5041-9662-f6c27e0decfd', cipher: 'auto', skip-cert-verify: true, path: '/opentunnel?user=opentunnel.net-jerrylin', host: 'krx-1.openv2ray.com', network: http }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - %E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1
-      - %E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink_site_2
-      - 香港_00_试用_3
-      - 香港_01
-      - 香港_02
-      - 加拿大_00_试用_6
-      - 加拿大_01
-      - 加拿大_02
-      - 新加坡_00_试用_9
-      - 新加坡_01
-      - 新加坡_02
-      - 日本_00_试用_12
-      - 日本_01
-      - 日本_02
-      - 美国_00_试用_15
-      - 美国_01_洛杉矶CN2_16
-      - 美国_02_洛杉矶CN2_17
-      - %E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A4_72GB_18
-      - %E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-02-05_19
+      - opentunnel_net-jerrylin_1
+      - opentunnel_net-jerrylin_2
+      - opentunnel_net-jerrylin_3
+      - opentunnel_net-jerrylin_4
+      - opentunnel_net-jerrylin_5
+      - opentunnel_net-jerrylin_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - %E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1
-      - %E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink_site_2
-      - 香港_00_试用_3
-      - 香港_01
-      - 香港_02
-      - 加拿大_00_试用_6
-      - 加拿大_01
-      - 加拿大_02
-      - 新加坡_00_试用_9
-      - 新加坡_01
-      - 新加坡_02
-      - 日本_00_试用_12
-      - 日本_01
-      - 日本_02
-      - 美国_00_试用_15
-      - 美国_01_洛杉矶CN2_16
-      - 美国_02_洛杉矶CN2_17
-      - %E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A4_72GB_18
-      - %E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-02-05_19
+      - opentunnel_net-jerrylin_1
+      - opentunnel_net-jerrylin_2
+      - opentunnel_net-jerrylin_3
+      - opentunnel_net-jerrylin_4
+      - opentunnel_net-jerrylin_5
+      - opentunnel_net-jerrylin_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - %E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1
-      - %E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink_site_2
-      - 香港_00_试用_3
-      - 香港_01
-      - 香港_02
-      - 加拿大_00_试用_6
-      - 加拿大_01
-      - 加拿大_02
-      - 新加坡_00_试用_9
-      - 新加坡_01
-      - 新加坡_02
-      - 日本_00_试用_12
-      - 日本_01
-      - 日本_02
-      - 美国_00_试用_15
-      - 美国_01_洛杉矶CN2_16
-      - 美国_02_洛杉矶CN2_17
-      - %E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A4_72GB_18
-      - %E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-02-05_19
+      - opentunnel_net-jerrylin_1
+      - opentunnel_net-jerrylin_2
+      - opentunnel_net-jerrylin_3
+      - opentunnel_net-jerrylin_4
+      - opentunnel_net-jerrylin_5
+      - opentunnel_net-jerrylin_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - %E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1
-      - %E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink_site_2
-      - 香港_00_试用_3
-      - 香港_01
-      - 香港_02
-      - 加拿大_00_试用_6
-      - 加拿大_01
-      - 加拿大_02
-      - 新加坡_00_试用_9
-      - 新加坡_01
-      - 新加坡_02
-      - 日本_00_试用_12
-      - 日本_01
-      - 日本_02
-      - 美国_00_试用_15
-      - 美国_01_洛杉矶CN2_16
-      - 美国_02_洛杉矶CN2_17
-      - %E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A4_72GB_18
-      - %E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-02-05_19
+      - opentunnel_net-jerrylin_1
+      - opentunnel_net-jerrylin_2
+      - opentunnel_net-jerrylin_3
+      - opentunnel_net-jerrylin_4
+      - opentunnel_net-jerrylin_5
+      - opentunnel_net-jerrylin_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - %E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1
-      - %E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink_site_2
-      - 香港_00_试用_3
-      - 香港_01
-      - 香港_02
-      - 加拿大_00_试用_6
-      - 加拿大_01
-      - 加拿大_02
-      - 新加坡_00_试用_9
-      - 新加坡_01
-      - 新加坡_02
-      - 日本_00_试用_12
-      - 日本_01
-      - 日本_02
-      - 美国_00_试用_15
-      - 美国_01_洛杉矶CN2_16
-      - 美国_02_洛杉矶CN2_17
-      - %E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A4_72GB_18
-      - %E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-02-05_19
+      - opentunnel_net-jerrylin_1
+      - opentunnel_net-jerrylin_2
+      - opentunnel_net-jerrylin_3
+      - opentunnel_net-jerrylin_4
+      - opentunnel_net-jerrylin_5
+      - opentunnel_net-jerrylin_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - %E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1
-      - %E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink_site_2
-      - 香港_00_试用_3
-      - 香港_01
-      - 香港_02
-      - 加拿大_00_试用_6
-      - 加拿大_01
-      - 加拿大_02
-      - 新加坡_00_试用_9
-      - 新加坡_01
-      - 新加坡_02
-      - 日本_00_试用_12
-      - 日本_01
-      - 日本_02
-      - 美国_00_试用_15
-      - 美国_01_洛杉矶CN2_16
-      - 美国_02_洛杉矶CN2_17
-      - %E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A4_72GB_18
-      - %E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-02-05_19
+      - opentunnel_net-jerrylin_1
+      - opentunnel_net-jerrylin_2
+      - opentunnel_net-jerrylin_3
+      - opentunnel_net-jerrylin_4
+      - opentunnel_net-jerrylin_5
+      - opentunnel_net-jerrylin_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -193,25 +102,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - %E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E9%80%81%2030G%204K%20%E6%B5%81%E9%87%8F%EF%BC%81%EF%BC%81%EF%BC%81_1
-      - %E5%AE%98%E7%BD%91%EF%BC%9Ahttps%3A%2F%2Ftolink_site_2
-      - 香港_00_试用_3
-      - 香港_01
-      - 香港_02
-      - 加拿大_00_试用_6
-      - 加拿大_01
-      - 加拿大_02
-      - 新加坡_00_试用_9
-      - 新加坡_01
-      - 新加坡_02
-      - 日本_00_试用_12
-      - 日本_01
-      - 日本_02
-      - 美国_00_试用_15
-      - 美国_01_洛杉矶CN2_16
-      - 美国_02_洛杉矶CN2_17
-      - %E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A4_72GB_18
-      - %E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-02-05_19
+      - opentunnel_net-jerrylin_1
+      - opentunnel_net-jerrylin_2
+      - opentunnel_net-jerrylin_3
+      - opentunnel_net-jerrylin_4
+      - opentunnel_net-jerrylin_5
+      - opentunnel_net-jerrylin_6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
