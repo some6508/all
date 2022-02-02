@@ -897,53 +897,16 @@ proxies:
   - {name: RELAY-198.41.212.9-0068, server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
   - {name: FR-149.202.82.172-0000, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: EG-188.214.122.138-1117, server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg, udp: true}
-  - {name: 俄罗斯阿伟科技-新年快乐_1, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
-  - {name: 法国阿伟科技-新年快乐_2, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 芬兰阿伟科技-新年快乐_3, server: ddns04.r8o8c8k.xyz, port: 65009, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: ddns04.r8o8c8k.xyz}}, udp: true}
-  - {name: 芬兰阿伟科技-新年快乐_4, server: ddns04.r8o8c8k.xyz, port: 65009, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: ddns04.r8o8c8k.xyz}}, udp: true}
-  - {name: 韩国阿伟科技-新年快乐_5, server: 183.232.56.161, port: 1203, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
-  - {name: 韩国阿伟科技-新年快乐_6, server: 183.232.56.161, port: 1602, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
-  - {name: 韩国阿伟科技-新年快乐_7, server: 183.232.56.161, port: 1601, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
-  - {name: 马来西亚阿伟科技-新年快乐_8, server: mydf.sczssr.xyz, port: 50003, type: ss, cipher: aes-256-gcm, password: 405303c8-9e49-46df-b275-84a75561ba76, udp: true}
-  - {name: 美国阿伟科技-新年快乐_9, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国阿伟科技-新年快乐_10, server: 6.lyzghim.com, port: 443, type: vmess, uuid: 2bb8823b-6938-4c82-87dc-0dee4c118b2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 6.lyzghim.com}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_11, server: nmsl.lyzghim.com, port: 443, type: vmess, uuid: 0bbf596c-1623-4bfc-8650-80cf343a8e92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: nmsl.lyzghim.com}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_12, server: 3.ezydfdd.com, port: 443, type: vmess, uuid: 7ab3f0d7-164c-4bde-8a45-2d6653da2ad1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 3.ezydfdd.com}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_13, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_14, server: 167.88.63.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国阿伟科技-新年快乐_15, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国阿伟科技-新年快乐_16, server: fa1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: fa1.uuv2.co.uk}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_17, server: 20.205.106.28, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: 20.205.106.28}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_18, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_19, server: oz1.mooncloud.bike, port: 8443, type: vmess, uuid: 2c42a34e-5f88-492b-8a59-3531090578f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz1.mooncloud.bike}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_20, server: oz1.mooncloud.bike, port: 8443, type: vmess, uuid: f1533fd1-4562-4935-a1e6-832685d4a919, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz1.mooncloud.bike}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_21, server: us10.microspeed.info, port: 80, type: vmess, uuid: 32ec7f0d-58d1-36d5-9527-74fca7041f66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls, headers: {Host: us10.microspeed.info}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_22, server: 6.lyzghim.com, port: 443, type: vmess, uuid: 2bb8823b-6938-4c82-87dc-0dee4c118b2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 6.lyzghim.com}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_23, server: 666.lyzghim.com, port: 443, type: vmess, uuid: 435a71b8-197d-4af8-ea17-7b2f7bb9eeda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 666.lyzghim.com}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_24, server: 123.lyzghim.com, port: 443, type: trojan, password: YSmrjN8GpxB2dL9Y, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技-新年快乐_25, server: aws.us.tgproxy.wtf, port: 21888, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: aws.us.tgproxy.wtf}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_26, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国阿伟科技-新年快乐_27, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国阿伟科技-新年快乐_28, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国阿伟科技-新年快乐_29, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国阿伟科技-新年快乐_30, server: targoo1.mirror.cn.com, port: 443, type: vmess, uuid: 351b9b77-a6f0-4772-a845-04bed6814563, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: targoo1.mirror.cn.com}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_31, server: 666.lyzghim.com, port: 443, type: vmess, uuid: 435a71b8-197d-4af8-ea17-7b2f7bb9eeda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 666.lyzghim.com}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_32, server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: 7b9af40a-3af6-327c-9bd4-48e512ceddd6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222us.fans8.xyz}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_33, server: 173.82.240.245, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /84c3f/, headers: {Host: 173.82.240.245}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_34, server: v8.ssrsub.com, port: 443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_35, server: ddns04.r8o8c8k.xyz, port: 65012, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: ddns04.r8o8c8k.xyz}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_36, server: wq199879.gq, port: 34321, type: vmess, uuid: 9e42e8b4-31ef-4c00-be7d-e23ee7aeafe6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技-新年快乐_37, server: 3.ezydfdd.com, port: 443, type: vmess, uuid: 7ab3f0d7-164c-4bde-8a45-2d6653da2ad1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 3.ezydfdd.com}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_38, server: nmsl.lyzghim.com, port: 443, type: vmess, uuid: 0bbf596c-1623-4bfc-8650-80cf343a8e92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: nmsl.lyzghim.com}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_39, server: 104.17.240.131, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: 104.17.240.131}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_40, server: 104.24.223.86, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: 104.24.223.86}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_41, server: 104.16.135.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: 104.16.135.16}}, udp: true}
-  - {name: 美国阿伟科技-新年快乐_42, server: 123.wgong.xyz, port: 52223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技-新年快乐_43, server: 120.wgong.xyz, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美西阿伟科技-新年快乐_44, server: ceraus.moonfree.top, port: 80, type: vmess, uuid: e111e566-795c-42a3-b6c8-5f0a85feba8a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ceraus.moonfree.top}}, udp: true}
-  - {name: 日本阿伟科技-新年快乐_45, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: 104.16.160.114}}, udp: true}
-  - {name: 日本阿伟科技-新年快乐_46, server: azjp.pluscloud.top, port: 10060, type: trojan, password: 2842cbcf-ad92-4a43-bed6-e73e03dc2bbe, sni: azjp.pluscloud.top, skip-cert-verify: true, udp: true}
-  - {name: defaultName_47, server: hz.cm.01.211129.xyz, port: 45761, type: trojan, password: 2842cbcf-ad92-4a43-bed6-e73e03dc2bbe, skip-cert-verify: true, udp: true}
+  - {name: _FR_法国, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国, server: 167.88.63.61, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 2, server: 142.202.48.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 3, server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 4, server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 5, server: 38.68.134.191, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 6, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 7, server: 38.68.134.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1531,51 +1494,51 @@ proxies:
   - {name: Ytb:冰河圈子_尼日利亚_249, server: 102.129.144.142, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6, udp: true}
   - {name: Ytb:冰河圈子_尼日利亚_250, server: 102.129.144.142, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6, udp: true}
   - {name: github.com/freefq - 美国华盛顿Cogent通信公司 1, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: github.com/freefq - 澳大利亚  2, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
-  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 3, server: lin-jp.tgsc.xyz, port: 443, type: vmess, uuid: 57c95541-5147-4dae-81d0-660cc6b25e9b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /FNRWR48K, headers: {Host: lin-jp.tgsc.xyz}}, udp: true}
-  - {name: github.com/freefq - 北美地区  4, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: github.com/freefq - 北美地区  2, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: github.com/freefq - 法国ONLINE S.A.S.数据中心 3, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 4, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: github.com/freefq - 美国  5, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 英国  6, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 7, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 北美地区  8, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 9, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
-  - {name: github.com/freefq - 瑞典  10, server: 167.88.63.61, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 11, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: 45.91.83.111}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 12, server: api.ssfree.ru, port: 443, type: vmess, uuid: 98d037de-83dc-11ec-8837-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: api.ssfree.ru}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 13, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 14, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 15, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: github.com/freefq - 匈牙利  16, server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy, udp: true}
-  - {name: github.com/freefq - 法国ONLINE S.A.S.数据中心 17, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: github.com/freefq - 美国蒙大拿州Sharktech公司 18, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
-  - {name: github.com/freefq - 美国  19, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 20, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 23.82.136.151}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 6, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: 45.91.83.111}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 7, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 8, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 9, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 10, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}, udp: true}
+  - {name: github.com/freefq - 匈牙利  11, server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy, udp: true}
+  - {name: github.com/freefq - 美国蒙大拿州Sharktech公司 12, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
+  - {name: github.com/freefq - 美国  13, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 14, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 15, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 23.82.136.151}}, udp: true}
+  - {name: github.com/freefq - 北美地区  16, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 澳大利亚  17, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}, udp: true}
+  - {name: github.com/freefq - 瑞典  18, server: 167.88.63.61, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: github.com/freefq - 澳大利亚  19, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
+  - {name: github.com/freefq - 美国  20, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
   - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 22, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 北美地区  23, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: github.com/freefq - 美国  24, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 25, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 印度  26, server: india.tgsc.xyz, port: 443, type: vmess, uuid: 1355574d-dac9-4006-8420-95a156fa5f32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /V81DFD0H, headers: {Host: india.tgsc.xyz}}, udp: true}
-  - {name: github.com/freefq - 澳大利亚  27, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 22, server: api.ssfree.ru, port: 443, type: vmess, uuid: 98d037de-83dc-11ec-8837-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: api.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 印度  23, server: india.tgsc.xyz, port: 443, type: vmess, uuid: 1355574d-dac9-4006-8420-95a156fa5f32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /V81DFD0H, headers: {Host: india.tgsc.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 24, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 25, server: lin-jp.tgsc.xyz, port: 443, type: vmess, uuid: 57c95541-5147-4dae-81d0-660cc6b25e9b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /FNRWR48K, headers: {Host: lin-jp.tgsc.xyz}}, udp: true}
+  - {name: github.com/freefq - 英国  26, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 北美地区  27, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: github.com/freefq - 美国CloudFlare公司CDN节点 28, server: 104.16.148.48, port: 443, type: vmess, uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/The-Great-Awakening_vws?ed=2048", headers: {Host: vincent-jackson2021.cf}}, udp: true}
   - {name: 请换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 广东省广州市腾讯云 1, server: 159.75.50.77, port: 40038, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 更新于:02-02 20:00:02 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 广东省广州市腾讯云 2, server: 159.75.50.77, port: 40065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 3, server: 159.75.50.77, port: 40097, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 4, server: 159.75.50.77, port: 40044, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 5, server: 159.75.50.77, port: 40091, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 6, server: 106.52.33.67, port: 40374, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 7, server: 159.75.50.77, port: 40020, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 8, server: 1.14.165.96, port: 40262, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 9, server: 159.75.50.77, port: 40099, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 10, server: 159.75.50.77, port: 40016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 11, server: 1.14.165.96, port: 40246, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 美国Amazon数据中心 12, server: 13.38.75.17, port: 8181, type: ssr, cipher: aes-256-cfb, password: gVWc0WaJn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 加拿大魁北克省蒙特利尔Amazon数据中心 13, server: 35.182.60.100, port: 8080, type: ssr, cipher: aes-256-cfb, password: 4axflHccX, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 广东省广州市腾讯云 14, server: 159.75.50.77, port: 40058, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 15, server: 106.52.33.67, port: 40306, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 1, server: 159.75.50.77, port: 40044, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 更新于:02-03 00:00:02 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 广东省广州市腾讯云 2, server: 106.52.33.67, port: 40374, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 3, server: 159.75.50.77, port: 40065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 4, server: 159.75.50.77, port: 40020, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 5, server: 159.75.50.77, port: 40099, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 6, server: 1.14.165.96, port: 40246, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 7, server: 159.75.50.77, port: 40091, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 8, server: 106.52.33.67, port: 40306, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 9, server: 1.14.165.96, port: 40262, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 印度孟买Amazon数据中心 10, server: 3.6.86.77, port: 8080, type: ssr, cipher: aes-256-cfb, password: fD0KP8PWA, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 加拿大魁北克省蒙特利尔Amazon数据中心 11, server: 35.182.60.100, port: 8080, type: ssr, cipher: aes-256-cfb, password: 4axflHccX, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 广东省广州市腾讯云 12, server: 159.75.50.77, port: 40016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国Amazon数据中心 13, server: 13.38.75.17, port: 8181, type: ssr, cipher: aes-256-cfb, password: gVWc0WaJn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 广东省广州市腾讯云 14, server: 159.75.50.77, port: 40038, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 15, server: 159.75.50.77, port: 40058, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 将于近期停止ssr更新 2, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 印度 孟买, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
@@ -2683,53 +2646,16 @@ proxy-groups:
       - RELAY-198.41.212.9-0068
       - FR-149.202.82.172-0000
       - EG-188.214.122.138-1117
-      - 俄罗斯阿伟科技-新年快乐_1
-      - 法国阿伟科技-新年快乐_2
-      - 芬兰阿伟科技-新年快乐_3
-      - 芬兰阿伟科技-新年快乐_4
-      - 韩国阿伟科技-新年快乐_5
-      - 韩国阿伟科技-新年快乐_6
-      - 韩国阿伟科技-新年快乐_7
-      - 马来西亚阿伟科技-新年快乐_8
-      - 美国阿伟科技-新年快乐_9
-      - 美国阿伟科技-新年快乐_10
-      - 美国阿伟科技-新年快乐_11
-      - 美国阿伟科技-新年快乐_12
-      - 美国阿伟科技-新年快乐_13
-      - 美国阿伟科技-新年快乐_14
-      - 美国阿伟科技-新年快乐_15
-      - 美国阿伟科技-新年快乐_16
-      - 美国阿伟科技-新年快乐_17
-      - 美国阿伟科技-新年快乐_18
-      - 美国阿伟科技-新年快乐_19
-      - 美国阿伟科技-新年快乐_20
-      - 美国阿伟科技-新年快乐_21
-      - 美国阿伟科技-新年快乐_22
-      - 美国阿伟科技-新年快乐_23
-      - 美国阿伟科技-新年快乐_24
-      - 美国阿伟科技-新年快乐_25
-      - 美国阿伟科技-新年快乐_26
-      - 美国阿伟科技-新年快乐_27
-      - 美国阿伟科技-新年快乐_28
-      - 美国阿伟科技-新年快乐_29
-      - 美国阿伟科技-新年快乐_30
-      - 美国阿伟科技-新年快乐_31
-      - 美国阿伟科技-新年快乐_32
-      - 美国阿伟科技-新年快乐_33
-      - 美国阿伟科技-新年快乐_34
-      - 美国阿伟科技-新年快乐_35
-      - 美国阿伟科技-新年快乐_36
-      - 美国阿伟科技-新年快乐_37
-      - 美国阿伟科技-新年快乐_38
-      - 美国阿伟科技-新年快乐_39
-      - 美国阿伟科技-新年快乐_40
-      - 美国阿伟科技-新年快乐_41
-      - 美国阿伟科技-新年快乐_42
-      - 美国阿伟科技-新年快乐_43
-      - 美西阿伟科技-新年快乐_44
-      - 日本阿伟科技-新年快乐_45
-      - 日本阿伟科技-新年快乐_46
-      - defaultName_47
+      - _FR_法国
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _CA_加拿大
+      - _US_美国 5
+      - _CA_加拿大 2
+      - _US_美国 6
+      - _US_美国 7
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3317,37 +3243,37 @@ proxy-groups:
       - Ytb:冰河圈子_尼日利亚_249
       - Ytb:冰河圈子_尼日利亚_250
       - github.com/freefq - 美国华盛顿Cogent通信公司 1
-      - github.com/freefq - 澳大利亚  2
-      - github.com/freefq - 日本东京都品川区Linode数据中心 3
-      - github.com/freefq - 北美地区  4
+      - github.com/freefq - 北美地区  2
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 3
+      - github.com/freefq - 美国华盛顿Cogent通信公司 4
       - github.com/freefq - 美国  5
-      - github.com/freefq - 英国  6
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 7
-      - github.com/freefq - 北美地区  8
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 9
-      - github.com/freefq - 瑞典  10
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 11
-      - github.com/freefq - 美国CloudFlare节点 12
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 13
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 14
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - github.com/freefq - 匈牙利  16
-      - github.com/freefq - 法国ONLINE S.A.S.数据中心 17
-      - github.com/freefq - 美国蒙大拿州Sharktech公司 18
-      - github.com/freefq - 美国  19
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 20
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 6
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 7
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 8
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 9
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 10
+      - github.com/freefq - 匈牙利  11
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 12
+      - github.com/freefq - 美国  13
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 14
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 15
+      - github.com/freefq - 北美地区  16
+      - github.com/freefq - 澳大利亚  17
+      - github.com/freefq - 瑞典  18
+      - github.com/freefq - 澳大利亚  19
+      - github.com/freefq - 美国  20
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 22
-      - github.com/freefq - 北美地区  23
-      - github.com/freefq - 美国  24
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 25
-      - github.com/freefq - 印度  26
-      - github.com/freefq - 澳大利亚  27
+      - github.com/freefq - 美国CloudFlare节点 22
+      - github.com/freefq - 印度  23
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 24
+      - github.com/freefq - 日本东京都品川区Linode数据中心 25
+      - github.com/freefq - 英国  26
+      - github.com/freefq - 北美地区  27
       - github.com/freefq - 美国CloudFlare公司CDN节点 28
       - 请换到v2ray
       - 将于近期停止ssr更新
       - 广东省广州市腾讯云 1
-      - 更新于:02-02 20:00:02 - by BuLink.xyz
+      - 更新于:02-03 00:00:02 - by BuLink.xyz
       - 广东省广州市腾讯云 2
       - 广东省广州市腾讯云 3
       - 广东省广州市腾讯云 4
@@ -3356,10 +3282,10 @@ proxy-groups:
       - 广东省广州市腾讯云 7
       - 广东省广州市腾讯云 8
       - 广东省广州市腾讯云 9
-      - 广东省广州市腾讯云 10
-      - 广东省广州市腾讯云 11
-      - 美国Amazon数据中心 12
-      - 加拿大魁北克省蒙特利尔Amazon数据中心 13
+      - 印度孟买Amazon数据中心 10
+      - 加拿大魁北克省蒙特利尔Amazon数据中心 11
+      - 广东省广州市腾讯云 12
+      - 美国Amazon数据中心 13
       - 广东省广州市腾讯云 14
       - 广东省广州市腾讯云 15
       - 将于近期停止ssr更新 2
@@ -4458,53 +4384,16 @@ proxy-groups:
       - RELAY-198.41.212.9-0068
       - FR-149.202.82.172-0000
       - EG-188.214.122.138-1117
-      - 俄罗斯阿伟科技-新年快乐_1
-      - 法国阿伟科技-新年快乐_2
-      - 芬兰阿伟科技-新年快乐_3
-      - 芬兰阿伟科技-新年快乐_4
-      - 韩国阿伟科技-新年快乐_5
-      - 韩国阿伟科技-新年快乐_6
-      - 韩国阿伟科技-新年快乐_7
-      - 马来西亚阿伟科技-新年快乐_8
-      - 美国阿伟科技-新年快乐_9
-      - 美国阿伟科技-新年快乐_10
-      - 美国阿伟科技-新年快乐_11
-      - 美国阿伟科技-新年快乐_12
-      - 美国阿伟科技-新年快乐_13
-      - 美国阿伟科技-新年快乐_14
-      - 美国阿伟科技-新年快乐_15
-      - 美国阿伟科技-新年快乐_16
-      - 美国阿伟科技-新年快乐_17
-      - 美国阿伟科技-新年快乐_18
-      - 美国阿伟科技-新年快乐_19
-      - 美国阿伟科技-新年快乐_20
-      - 美国阿伟科技-新年快乐_21
-      - 美国阿伟科技-新年快乐_22
-      - 美国阿伟科技-新年快乐_23
-      - 美国阿伟科技-新年快乐_24
-      - 美国阿伟科技-新年快乐_25
-      - 美国阿伟科技-新年快乐_26
-      - 美国阿伟科技-新年快乐_27
-      - 美国阿伟科技-新年快乐_28
-      - 美国阿伟科技-新年快乐_29
-      - 美国阿伟科技-新年快乐_30
-      - 美国阿伟科技-新年快乐_31
-      - 美国阿伟科技-新年快乐_32
-      - 美国阿伟科技-新年快乐_33
-      - 美国阿伟科技-新年快乐_34
-      - 美国阿伟科技-新年快乐_35
-      - 美国阿伟科技-新年快乐_36
-      - 美国阿伟科技-新年快乐_37
-      - 美国阿伟科技-新年快乐_38
-      - 美国阿伟科技-新年快乐_39
-      - 美国阿伟科技-新年快乐_40
-      - 美国阿伟科技-新年快乐_41
-      - 美国阿伟科技-新年快乐_42
-      - 美国阿伟科技-新年快乐_43
-      - 美西阿伟科技-新年快乐_44
-      - 日本阿伟科技-新年快乐_45
-      - 日本阿伟科技-新年快乐_46
-      - defaultName_47
+      - _FR_法国
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _CA_加拿大
+      - _US_美国 5
+      - _CA_加拿大 2
+      - _US_美国 6
+      - _US_美国 7
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5092,37 +4981,37 @@ proxy-groups:
       - Ytb:冰河圈子_尼日利亚_249
       - Ytb:冰河圈子_尼日利亚_250
       - github.com/freefq - 美国华盛顿Cogent通信公司 1
-      - github.com/freefq - 澳大利亚  2
-      - github.com/freefq - 日本东京都品川区Linode数据中心 3
-      - github.com/freefq - 北美地区  4
+      - github.com/freefq - 北美地区  2
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 3
+      - github.com/freefq - 美国华盛顿Cogent通信公司 4
       - github.com/freefq - 美国  5
-      - github.com/freefq - 英国  6
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 7
-      - github.com/freefq - 北美地区  8
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 9
-      - github.com/freefq - 瑞典  10
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 11
-      - github.com/freefq - 美国CloudFlare节点 12
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 13
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 14
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - github.com/freefq - 匈牙利  16
-      - github.com/freefq - 法国ONLINE S.A.S.数据中心 17
-      - github.com/freefq - 美国蒙大拿州Sharktech公司 18
-      - github.com/freefq - 美国  19
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 20
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 6
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 7
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 8
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 9
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 10
+      - github.com/freefq - 匈牙利  11
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 12
+      - github.com/freefq - 美国  13
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 14
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 15
+      - github.com/freefq - 北美地区  16
+      - github.com/freefq - 澳大利亚  17
+      - github.com/freefq - 瑞典  18
+      - github.com/freefq - 澳大利亚  19
+      - github.com/freefq - 美国  20
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 22
-      - github.com/freefq - 北美地区  23
-      - github.com/freefq - 美国  24
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 25
-      - github.com/freefq - 印度  26
-      - github.com/freefq - 澳大利亚  27
+      - github.com/freefq - 美国CloudFlare节点 22
+      - github.com/freefq - 印度  23
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 24
+      - github.com/freefq - 日本东京都品川区Linode数据中心 25
+      - github.com/freefq - 英国  26
+      - github.com/freefq - 北美地区  27
       - github.com/freefq - 美国CloudFlare公司CDN节点 28
       - 请换到v2ray
       - 将于近期停止ssr更新
       - 广东省广州市腾讯云 1
-      - 更新于:02-02 20:00:02 - by BuLink.xyz
+      - 更新于:02-03 00:00:02 - by BuLink.xyz
       - 广东省广州市腾讯云 2
       - 广东省广州市腾讯云 3
       - 广东省广州市腾讯云 4
@@ -5131,10 +5020,10 @@ proxy-groups:
       - 广东省广州市腾讯云 7
       - 广东省广州市腾讯云 8
       - 广东省广州市腾讯云 9
-      - 广东省广州市腾讯云 10
-      - 广东省广州市腾讯云 11
-      - 美国Amazon数据中心 12
-      - 加拿大魁北克省蒙特利尔Amazon数据中心 13
+      - 印度孟买Amazon数据中心 10
+      - 加拿大魁北克省蒙特利尔Amazon数据中心 11
+      - 广东省广州市腾讯云 12
+      - 美国Amazon数据中心 13
       - 广东省广州市腾讯云 14
       - 广东省广州市腾讯云 15
       - 将于近期停止ssr更新 2
@@ -5700,8 +5589,6 @@ proxy-groups:
       - JP-85.208.110.2-0095
       - JP-45.77.181.112-0951
       - JP-85.208.108.106-0101
-      - 日本阿伟科技-新年快乐_45
-      - 日本阿伟科技-新年快乐_46
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -5718,7 +5605,7 @@ proxy-groups:
       - 19日本∞直连
       - Ytb:冰河圈子_尼日利亚_249
       - Ytb:冰河圈子_尼日利亚_250
-      - github.com/freefq - 日本东京都品川区Linode数据中心 3
+      - github.com/freefq - 日本东京都品川区Linode数据中心 25
       - 『0.1x』沪日IPLC
       - 日本千兆-23号
       - 日本千兆-20号
@@ -6020,42 +5907,13 @@ proxy-groups:
       - US-167.88.62.34-0086
       - US-38.68.135.18-1171
       - US-172.67.147.173-0069
-      - 美国阿伟科技-新年快乐_9
-      - 美国阿伟科技-新年快乐_10
-      - 美国阿伟科技-新年快乐_11
-      - 美国阿伟科技-新年快乐_12
-      - 美国阿伟科技-新年快乐_13
-      - 美国阿伟科技-新年快乐_14
-      - 美国阿伟科技-新年快乐_15
-      - 美国阿伟科技-新年快乐_16
-      - 美国阿伟科技-新年快乐_17
-      - 美国阿伟科技-新年快乐_18
-      - 美国阿伟科技-新年快乐_19
-      - 美国阿伟科技-新年快乐_20
-      - 美国阿伟科技-新年快乐_21
-      - 美国阿伟科技-新年快乐_22
-      - 美国阿伟科技-新年快乐_23
-      - 美国阿伟科技-新年快乐_24
-      - 美国阿伟科技-新年快乐_25
-      - 美国阿伟科技-新年快乐_26
-      - 美国阿伟科技-新年快乐_27
-      - 美国阿伟科技-新年快乐_28
-      - 美国阿伟科技-新年快乐_29
-      - 美国阿伟科技-新年快乐_30
-      - 美国阿伟科技-新年快乐_31
-      - 美国阿伟科技-新年快乐_32
-      - 美国阿伟科技-新年快乐_33
-      - 美国阿伟科技-新年快乐_34
-      - 美国阿伟科技-新年快乐_35
-      - 美国阿伟科技-新年快乐_36
-      - 美国阿伟科技-新年快乐_37
-      - 美国阿伟科技-新年快乐_38
-      - 美国阿伟科技-新年快乐_39
-      - 美国阿伟科技-新年快乐_40
-      - 美国阿伟科技-新年快乐_41
-      - 美国阿伟科技-新年快乐_42
-      - 美国阿伟科技-新年快乐_43
-      - 美西阿伟科技-新年快乐_44
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -6307,26 +6165,26 @@ proxy-groups:
       - Ytb:冰河圈子_美国_246
       - Ytb:冰河圈子_美国_247
       - github.com/freefq - 美国华盛顿Cogent通信公司 1
-      - github.com/freefq - 北美地区  4
+      - github.com/freefq - 北美地区  2
+      - github.com/freefq - 美国华盛顿Cogent通信公司 4
       - github.com/freefq - 美国  5
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 7
-      - github.com/freefq - 北美地区  8
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 9
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 11
-      - github.com/freefq - 美国CloudFlare节点 12
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 13
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 14
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - github.com/freefq - 美国蒙大拿州Sharktech公司 18
-      - github.com/freefq - 美国  19
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 20
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 6
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 7
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 8
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 9
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 10
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 12
+      - github.com/freefq - 美国  13
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 14
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 15
+      - github.com/freefq - 北美地区  16
+      - github.com/freefq - 美国  20
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 22
-      - github.com/freefq - 北美地区  23
-      - github.com/freefq - 美国  24
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 25
+      - github.com/freefq - 美国CloudFlare节点 22
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 24
+      - github.com/freefq - 北美地区  27
       - github.com/freefq - 美国CloudFlare公司CDN节点 28
-      - 美国Amazon数据中心 12
+      - 美国Amazon数据中心 13
       - 美国_阿伟科技-油管
       - 美国千兆-01号
       - 美国02
@@ -6428,9 +6286,6 @@ proxy-groups:
       - "@SSRSUB-首尔T10-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-韩国T15-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-首尔T20-付费推荐:dlj.tf/ssrsub"
-      - 韩国阿伟科技-新年快乐_5
-      - 韩国阿伟科技-新年快乐_6
-      - 韩国阿伟科技-新年快乐_7
       - "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub 2"
       - 76韩国∞中转
