@@ -897,16 +897,16 @@ proxies:
   - {name: RELAY-198.41.212.9-0068, server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
   - {name: FR-149.202.82.172-0000, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: EG-188.214.122.138-1117, server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg, udp: true}
-  - {name: _FR_法国, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: _US_美国, server: 167.88.63.61, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: _US_美国 2, server: 142.202.48.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _US_美国 3, server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: _US_美国 4, server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _US_美国 5, server: 38.68.134.191, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _US_美国 6, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国 7, server: 38.68.134.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 8, server: 167.88.63.61, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 9, server: 172.99.188.99, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2646,16 +2646,16 @@ proxy-groups:
       - RELAY-198.41.212.9-0068
       - FR-149.202.82.172-0000
       - EG-188.214.122.138-1117
-      - _FR_法国
       - _US_美国
       - _US_美国 2
       - _US_美国 3
       - _US_美国 4
-      - _CA_加拿大
       - _US_美国 5
-      - _CA_加拿大 2
       - _US_美国 6
       - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4384,16 +4384,16 @@ proxy-groups:
       - RELAY-198.41.212.9-0068
       - FR-149.202.82.172-0000
       - EG-188.214.122.138-1117
-      - _FR_法国
       - _US_美国
       - _US_美国 2
       - _US_美国 3
       - _US_美国 4
-      - _CA_加拿大
       - _US_美国 5
-      - _CA_加拿大 2
       - _US_美国 6
       - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5914,6 +5914,9 @@ proxy-groups:
       - _US_美国 5
       - _US_美国 6
       - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -7074,12 +7077,10 @@ rules:
  - DOMAIN-SUFFIX,activate-sea.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,activate-sjc0.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,activate.adobe.com,🍃 应用净化
- - DOMAIN-SUFFIX,activate.wip3.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,adobe-dns-2.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,adobe-dns-3.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,adobe-dns.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,ereg.adobe.com,🍃 应用净化
- - DOMAIN-SUFFIX,ereg.wip3.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,geo2.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,hl2rcv.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,hlrcv.stage.adobe.com,🍃 应用净化
@@ -7134,7 +7135,6 @@ rules:
  - DOMAIN-SUFFIX,baikebcs.bdimg.com,🍃 应用净化
  - DOMAIN-SUFFIX,banlv.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,bar.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,bdimg.share.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,bdplus.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,btlaunch.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,c.baidu.cn,🍃 应用净化
@@ -7152,7 +7152,6 @@ rules:
  - DOMAIN-SUFFIX,click.hm.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,click.qianqian.com,🍃 应用净化
  - DOMAIN-SUFFIX,cm.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,cm.pos.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,cpro.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,cpro.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,cpro.baidustatic.com,🍃 应用净化
@@ -7255,13 +7254,10 @@ rules:
  - DOMAIN-SUFFIX,rp.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,rplog.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,s.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,s.cpro.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,sa.tuisong.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,sclick.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,sestat.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,shadu.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,share.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,snippet.pos.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,sobar.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,sobartop.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,spcode.baidu.cn,🍃 应用净化
@@ -7278,7 +7274,6 @@ rules:
  - DOMAIN-SUFFIX,tuijian.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,tuisong.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,tuisong.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,uat1.bfsspadserver.8le8le.com,🍃 应用净化
  - DOMAIN-SUFFIX,ubmcmm.baidustatic.com,🍃 应用净化
  - DOMAIN-SUFFIX,ucstat.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ucstat.baidu.com,🍃 应用净化
@@ -7303,7 +7298,6 @@ rules:
  - DOMAIN-SUFFIX,wisepush.video.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,wm.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,wm.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,wn.pos.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,znsv.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,znsv.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,zz.bdstatic.com,🍃 应用净化
@@ -7354,7 +7348,11 @@ rules:
  - DOMAIN-SUFFIX,ic.snssdk.com,🍃 应用净化
  - DOMAIN-SUFFIX,log.snssdk.com,🍃 应用净化
  - DOMAIN-SUFFIX,nativeapp.toutiao.com,🍃 应用净化
+ - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,🍃 应用净化
+ - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,🍃 应用净化
+ - DOMAIN-SUFFIX,pangolin.snssdk.com,🍃 应用净化
  - DOMAIN-SUFFIX,partner.toutiao.com,🍃 应用净化
+ - DOMAIN-SUFFIX,pglstatp-toutiao.com,🍃 应用净化
  - DOMAIN-SUFFIX,sm.toutiao.com,🍃 应用净化
  - DOMAIN-SUFFIX,a.dangdang.com,🍃 应用净化
  - DOMAIN-SUFFIX,click.dangdang.com,🍃 应用净化
@@ -7877,7 +7875,6 @@ rules:
  - DOMAIN-SUFFIX,couchcoaster.jp,🍃 应用净化
  - DOMAIN-SUFFIX,delivery.dmkt-sp.jp,🍃 应用净化
  - DOMAIN-SUFFIX,ehg-youtube.hitbox.com,🍃 应用净化
- - DOMAIN-SUFFIX,m-78.jp,🍃 应用净化
  - DOMAIN-SUFFIX,nichibenren.or.jp,🍃 应用净化
  - DOMAIN-SUFFIX,nicorette.co.kr,🍃 应用净化
  - DOMAIN-SUFFIX,ssl-youtube.2cnt.net,🍃 应用净化
@@ -7888,8 +7885,6 @@ rules:
  - DOMAIN-SUFFIX,ads.wasu.tv,🍃 应用净化
  - DOMAIN-SUFFIX,afp.wasu.tv,🍃 应用净化
  - DOMAIN-SUFFIX,c.algovid.com,🍃 应用净化
- - DOMAIN-SUFFIX,cc.xtgreat.com,🍃 应用净化
- - DOMAIN-SUFFIX,d.dsp.imageter.com,🍃 应用净化
  - DOMAIN-SUFFIX,gg.jtertp.com,🍃 应用净化
  - DOMAIN-SUFFIX,gridsum-vd.cntv.cn,🍃 应用净化
  - DOMAIN-SUFFIX,kwflvcdn.000dn.com,🍃 应用净化
@@ -8271,8 +8266,14 @@ rules:
  - DOMAIN,yt3.ggpht.com,📹 油管视频
  - DOMAIN-SUFFIX,googlevideo.com,📹 油管视频
  - DOMAIN-SUFFIX,gvt2.com,📹 油管视频
+ - DOMAIN-SUFFIX,withyoutube.com,📹 油管视频
  - DOMAIN-SUFFIX,youtu.be,📹 油管视频
+ - DOMAIN-SUFFIX,youtube-nocookie.com,📹 油管视频
  - DOMAIN-SUFFIX,youtube.com,📹 油管视频
+ - DOMAIN-SUFFIX,youtubeeducation.com,📹 油管视频
+ - DOMAIN-SUFFIX,youtubegaming.com,📹 油管视频
+ - DOMAIN-SUFFIX,youtubekids.com,📹 油管视频
+ - DOMAIN-SUFFIX,yt.be,📹 油管视频
  - DOMAIN-SUFFIX,ytimg.com,📹 油管视频
  - DOMAIN-KEYWORD,dualstack.apiproxy-,🎥 奈飞视频
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎥 奈飞视频
@@ -8412,8 +8413,10 @@ rules:
  - DOMAIN,d3196yreox78o9.cloudfront.net,🌍 国外媒体
  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🌍 国外媒体
  - DOMAIN,ktpx.amazon.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,aboutamazon.com,🌍 国外媒体
  - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
  - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
  - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
@@ -8480,7 +8483,6 @@ rules:
  - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
  - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
- - DOMAIN,execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
@@ -8661,8 +8663,14 @@ rules:
  - DOMAIN,yt3.ggpht.com,🌍 国外媒体
  - DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,gvt2.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,withyoutube.com,🌍 国外媒体
  - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
+ - DOMAIN-SUFFIX,youtube-nocookie.com,🌍 国外媒体
  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,youtubeeducation.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,youtubegaming.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,youtubekids.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
  - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
  - DOMAIN,music.youtube.com,🌍 国外媒体
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
@@ -14986,9 +14994,7 @@ rules:
  - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
  - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
  - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
- - DOMAIN-SUFFIX,rarbg.to,🎯 全球直连
  - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
- - DOMAIN-SUFFIX,rrmj.tv,🎯 全球直连
  - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
  - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
  - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
