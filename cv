@@ -897,10 +897,16 @@ proxies:
   - {name: RELAY-198.41.212.9-0068, server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
   - {name: FR-149.202.82.172-0000, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: EG-188.214.122.138-1117, server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg, udp: true}
-  - {name: opentunnel_net-jerrylin_1, server: www.linyu.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-jerrylin", headers: {Host: www.linyu.com}}, udp: true}
-  - {name: opentunnel_net-jerrylin_2, server: www.linyu.com, port: 80, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-jerrylin", headers: {Host: www.linyu.com}}, udp: true}
-  - {name: opentunnel_net-jerrylin_3, server: www.kontv.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-jerrylin", headers: {Host: www.kontv.com}}, udp: true}
-  - {name: opentunnel_net-jerrylin_4, server: www.kontv.com, port: 80, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-jerrylin", headers: {Host: www.kontv.com}}, udp: true}
+  - {name: _KR_韩国, server: 158.247.199.253, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国, server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 2, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR_法国, server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN, udp: true}
+  - {name: _CA_加拿大, server: 198.57.27.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _FR_法国 2, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 2, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _FR_法国 3, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2594,10 +2600,16 @@ proxy-groups:
       - RELAY-198.41.212.9-0068
       - FR-149.202.82.172-0000
       - EG-188.214.122.138-1117
-      - opentunnel_net-jerrylin_1
-      - opentunnel_net-jerrylin_2
-      - opentunnel_net-jerrylin_3
-      - opentunnel_net-jerrylin_4
+      - _KR_韩国
+      - _US_美国
+      - _GB_英国
+      - _US_美国 2
+      - _FR_法国
+      - _CA_加拿大
+      - _FR_法国 2
+      - _CA_加拿大 2
+      - _GB_英国 2
+      - _FR_法国 3
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4280,10 +4292,16 @@ proxy-groups:
       - RELAY-198.41.212.9-0068
       - FR-149.202.82.172-0000
       - EG-188.214.122.138-1117
-      - opentunnel_net-jerrylin_1
-      - opentunnel_net-jerrylin_2
-      - opentunnel_net-jerrylin_3
-      - opentunnel_net-jerrylin_4
+      - _KR_韩国
+      - _US_美国
+      - _GB_英国
+      - _US_美国 2
+      - _FR_法国
+      - _CA_加拿大
+      - _FR_法国 2
+      - _CA_加拿大 2
+      - _GB_英国 2
+      - _FR_法国 3
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5691,6 +5709,8 @@ proxy-groups:
       - US-167.88.62.34-0086
       - US-38.68.135.18-1171
       - US-172.67.147.173-0069
+      - _US_美国
+      - _US_美国 2
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -6077,6 +6097,7 @@ proxy-groups:
       - "@SSRSUB-首尔T10-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-韩国T15-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-首尔T20-付费推荐:dlj.tf/ssrsub"
+      - _KR_韩国
       - "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub 2"
       - 76韩国∞中转
