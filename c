@@ -5,739 +5,2062 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇬🇧_GB_英国_1","server":"172.99.190.87","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.128","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"198.57.27.184","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_4","server":"167.88.61.60","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇸🇬_SG_新加坡_5","server":"139.162.24.50","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_6","server":"198.57.27.184","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_7","server":"167.88.63.61","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_8","server":"198.57.27.172","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇵🇭_PH_菲律宾_9","server":"188.214.125.106","port":8389,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Zq4srheW4eeqMfGeWMTG"}
-  - {"name":"🇨🇦_CA_加拿大_10","server":"198.57.27.152","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_11","server":"198.57.27.184","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_12","server":"208.98.48.2","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"iesei1ei.com"}}
-  - {"name":"🇺🇸_US_美国_13","server":"38.68.134.23","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇩🇪_DE_德国_14","server":"172.105.244.165","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_15","server":"134.195.196.71","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA_加拿大_16","server":"198.57.27.241","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_17","server":"167.88.61.60","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇬🇧_GB_英国_18","server":"172.99.190.205","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_19","server":"38.68.134.23","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_20","server":"38.121.43.71","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_21","server":"167.88.61.60","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_22","server":"198.57.27.152","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_23","server":"38.68.134.23","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_24","server":"198.57.27.184","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US_美国_25","server":"38.91.100.102","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇫🇷_FR_法国_26","server":"149.202.82.172","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_27","server":"38.107.226.48","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇲🇾_MY_马来西亚_28","server":"219.92.35.209","port":50003,"type":"ss","cipher":"aes-256-gcm","password":"06de5f3e-52f3-42b0-a6bb-dd1462aae75a"}
-  - {"name":"🇰🇷_KR_韩国_29","server":"141.164.57.134","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US_美国_30","server":"38.107.226.48","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇬🇧_GB_英国_31","server":"172.99.190.149","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷_FR_法国_32","server":"62.210.209.50","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_33","server":"134.195.196.71","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇯🇵_JP_日本_34","server":"172.105.232.147","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_35","server":"167.88.63.61","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_36","server":"167.88.63.61","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_US_美国_37","server":"167.88.63.61","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇬🇧_GB_英国_38","server":"172.99.190.87","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇩🇪_DE_德国_39","server":"172.105.244.165","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦_CA_加拿大_40","server":"134.195.196.227","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US_美国_41","server":"167.88.63.28","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇬🇧_GB_英国_42","server":"172.99.190.84","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_43","server":"198.57.27.172","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸_US_美国_44","server":"38.68.134.23","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇦🇺_AU_澳大利亚_45","server":"172.105.180.227","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"default_name_46","server":"v2.ssrsub.com","port":8443,"type":"vmess","uuid":"a56903b7-e983-4cd5-99a6-94d62c79b128","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇺🇸_US_美国_47","server":"38.68.134.191","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_48","server":"167.88.63.28","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇦🇺_AU_澳大利亚_49","server":"172.105.180.227","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇦🇺_AU_澳大利亚_50","server":"172.105.180.227","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇸🇬_SG_新加坡_51","server":"139.162.24.50","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_52","server":"134.195.196.71","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇫🇷_FR_法国_53","server":"62.210.209.50","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇬🇧_GB_英国_54","server":"172.99.190.149","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_55","server":"169.197.141.91","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇰🇷_KR_韩国_56","server":"158.247.219.68","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇬🇧_GB_英国_57","server":"172.99.190.205","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US_美国_58","server":"38.68.134.191","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇬🇧_GB_英国_59","server":"172.99.190.149","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"default_name_60","server":"104.16.160.114","port":443,"type":"vmess","uuid":"5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/The-Great-Awakening_vws","host":"vincent-jackson2021.ga"}}
-  - {"name":"🇬🇧_GB_英国_61","server":"172.99.190.149","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸_US_美国_62","server":"38.68.134.23","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA_加拿大_63","server":"134.195.196.51","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸_US_美国_64","server":"38.68.134.23","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸_US_美国_65","server":"38.91.100.102","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_66","server":"198.57.27.241","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_67","server":"142.202.48.34","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_68","server":"38.91.100.102","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA_加拿大_69","server":"134.195.196.227","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_US_美国_70","server":"38.91.101.11","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_71","server":"167.88.63.61","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US_美国_72","server":"167.88.63.28","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US_美国_73","server":"38.75.136.45","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇬🇧_GB_英国_74","server":"172.99.190.87","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_75","server":"167.88.63.61","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_76","server":"134.195.196.71","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_77","server":"167.88.61.60","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_78","server":"38.68.134.23","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_79","server":"198.57.27.172","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_80","server":"198.57.27.172","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_81","server":"172.99.190.205","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇬🇧_GB_英国_82","server":"172.99.190.87","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_83","server":"172.99.190.87","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇦🇺_AU_澳大利亚_84","server":"172.105.171.80","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇬🇧_GB_英国_85","server":"172.99.190.39","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_86","server":"38.68.134.191","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇬🇧_GB_英国_87","server":"172.99.190.87","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_US_美国_88","server":"167.88.61.175","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_89","server":"167.88.63.61","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_90","server":"198.57.27.184","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_91","server":"134.195.196.193","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦_CA_加拿大_92","server":"198.57.27.172","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US_美国_93","server":"167.88.63.74","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_94","server":"172.99.190.149","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_95","server":"198.57.27.172","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇦🇺_AU_澳大利亚_96","server":"172.105.180.227","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_97","server":"198.57.27.172","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_98","server":"198.57.27.172","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇫🇷_FR_法国_99","server":"145.239.1.137","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_100","server":"198.57.27.172","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"香港_TG@nodesharing_1","server":"102.wgong.xyz","port":11221,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"香港_TG@nodesharing_2","server":"136.wgong.xyz","port":52436,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"意大利_TG@nodesharing_3","server":"gg.piyun.bid","port":10651,"type":"trojan","password":"2803debb-27c4-455f-9bff-46ba0bebb710","sni":"azhk-f4s.piyun.design"}
+  - {"name":"中国_TG@nodesharing_4","server":"103.wgong.xyz","port":52203,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"香港_TG@nodesharing_5","server":"136.wgong.xyz","port":52436,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"香港_TG@nodesharing_6","server":"106.wgong.xyz","port":11223,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"香港_TG@nodesharing_7","server":"128.wgong.xyz","port":52228,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"美国_TG@nodesharing_8","server":"119.wgong.xyz","port":52219,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"意大利_TG@nodesharing_9","server":"gg.piyun.bid","port":10651,"type":"trojan","password":"2803debb-27c4-455f-9bff-46ba0bebb710","sni":"azhk-f4s.piyun.design"}
+  - {"name":"香港_TG@nodesharing_10","server":"107.wgong.xyz","port":52207,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"意大利_TG@nodesharing_11","server":"gg.piyun.bid","port":10651,"type":"trojan","password":"2803debb-27c4-455f-9bff-46ba0bebb710","sni":"azhk-f4s.piyun.design"}
+  - {"name":"香港_TG@nodesharing_12","server":"ssl.tcpbbr.net","port":443,"type":"trojan","password":"5c7b33c6-6d83-11eb-b77b-f23c913c8d2b","sni":"ssl.tcpbbr.net"}
+  - {"name":"日本_TG@nodesharing_13","server":"172.105.232.147","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"香港_TG@nodesharing_14","server":"130.wgong.xyz","port":52330,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"香港_TG@nodesharing_15","server":"130.wgong.xyz","port":52330,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"美国_TG@nodesharing_16","server":"167.88.61.175","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"美国_TG@nodesharing_17","server":"167.88.61.175","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_18","server":"167.88.61.175","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"美国_TG@nodesharing_19","server":"38.91.102.124","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_20","server":"38.114.114.19","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_21","server":"167.88.61.175","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_22","server":"167.88.61.175","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_23","server":"167.88.61.175","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国_TG@nodesharing_24","server":"38.114.114.19","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_25","server":"167.88.61.175","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_26","server":"38.114.114.19","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"美国_TG@nodesharing_27","server":"167.88.61.175","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_28","server":"38.114.114.19","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_29","server":"38.91.102.124","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_30","server":"167.88.61.175","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_31","server":"167.88.61.175","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_32","server":"167.88.61.175","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_33","server":"167.88.61.213","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国_TG@nodesharing_34","server":"167.88.61.175","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国_TG@nodesharing_35","server":"38.91.102.123","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_36","server":"167.88.61.175","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_37","server":"169.197.143.29","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国_TG@nodesharing_38","server":"169.197.143.29","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"美国_TG@nodesharing_39","server":"38.114.114.19","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_40","server":"38.114.114.19","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_41","server":"38.143.66.55","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国_TG@nodesharing_42","server":"38.143.66.55","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_43","server":"167.88.61.213","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_44","server":"38.114.114.19","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国_TG@nodesharing_45","server":"38.91.102.123","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"美国_TG@nodesharing_46","server":"169.197.143.29","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"美国_TG@nodesharing_47","server":"38.91.102.123","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_48","server":"38.143.66.20","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"美国_TG@nodesharing_49","server":"38.114.114.19","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_50","server":"38.143.66.55","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_51","server":"38.143.66.55","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_52","server":"167.88.61.175","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_53","server":"38.143.66.210","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"美国_TG@nodesharing_54","server":"167.88.61.175","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_55","server":"167.88.61.14","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_56","server":"38.143.66.55","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国_TG@nodesharing_57","server":"38.114.114.19","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_58","server":"169.197.143.29","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"美国_TG@nodesharing_59","server":"167.88.61.14","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_60","server":"167.88.61.14","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国_TG@nodesharing_61","server":"167.88.61.14","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_62","server":"167.88.61.14","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国_TG@nodesharing_63","server":"38.143.66.55","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_64","server":"167.88.61.14","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_65","server":"167.88.61.175","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_66","server":"38.143.66.20","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_67","server":"167.88.61.175","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_68","server":"38.143.66.20","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_69","server":"38.143.66.55","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_70","server":"167.88.61.175","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_71","server":"167.88.61.213","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_72","server":"38.143.66.249","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_73","server":"167.88.61.213","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国_TG@nodesharing_74","server":"38.143.66.55","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_75","server":"169.197.143.29","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国_TG@nodesharing_76","server":"38.143.66.55","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_77","server":"66.55.92.101","port":8388,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"NK4wZejCzDfPdWXTK4FW"}
+  - {"name":"美国_TG@nodesharing_78","server":"169.197.143.29","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_79","server":"167.88.61.14","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"美国_TG@nodesharing_80","server":"167.88.61.14","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国_TG@nodesharing_81","server":"167.88.61.213","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_82","server":"38.143.66.187","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"美国_TG@nodesharing_83","server":"38.143.66.20","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_84","server":"167.88.61.14","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"美国_TG@nodesharing_85","server":"167.88.61.14","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"荷兰_TG@nodesharing_86","server":"89.238.177.234","port":8388,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"VPPqaR4qpLmNw37jaJg6"}
+  - {"name":"美国_TG@nodesharing_87","server":"167.88.61.213","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_88","server":"167.88.61.14","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"香港_TG@nodesharing_89","server":"azhk.pluscloud.top","port":443,"type":"trojan","password":"c1698db4-42e2-4901-adad-064bf5a8b558","sni":"azhk.pluscloud.top"}
+  - {"name":"美国_TG@nodesharing_90","server":"167.88.61.213","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"美国_TG@nodesharing_91","server":"38.143.66.210","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_92","server":"167.88.61.14","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国_TG@nodesharing_93","server":"167.88.61.175","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国_TG@nodesharing_94","server":"167.88.61.213","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_95","server":"167.88.61.14","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_96","server":"38.143.66.210","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_97","server":"167.88.61.213","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_98","server":"167.88.61.175","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_99","server":"167.88.61.14","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国_TG@nodesharing_100","server":"38.91.102.124","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_101","server":"167.88.61.213","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"美国_TG@nodesharing_102","server":"38.114.114.19","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_103","server":"167.88.61.213","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_104","server":"167.88.61.213","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_105","server":"169.197.143.29","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_106","server":"167.88.61.175","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_107","server":"167.88.61.14","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_108","server":"38.143.66.210","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_109","server":"167.88.61.14","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"美国_TG@nodesharing_110","server":"38.114.114.19","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"美国_TG@nodesharing_111","server":"167.88.61.213","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_112","server":"169.197.143.29","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国_TG@nodesharing_113","server":"38.143.66.55","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_114","server":"38.143.66.55","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_115","server":"169.197.143.29","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国_TG@nodesharing_116","server":"167.88.61.14","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"美国_TG@nodesharing_117","server":"38.143.66.20","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_118","server":"38.114.114.19","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"美国_TG@nodesharing_119","server":"38.143.66.55","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"韩国_TG@nodesharing_120","server":"158.247.226.61","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_121","server":"38.143.66.55","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_122","server":"167.88.61.175","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_123","server":"167.88.61.14","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_124","server":"167.88.61.213","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"美国_TG@nodesharing_125","server":"167.88.61.175","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国_TG@nodesharing_126","server":"167.88.61.213","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国_TG@nodesharing_127","server":"38.114.114.19","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_128","server":"167.88.61.213","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"美国_TG@nodesharing_129","server":"167.88.61.14","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_130","server":"38.143.66.55","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"美国_TG@nodesharing_131","server":"38.143.66.55","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_132","server":"167.88.61.14","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国_TG@nodesharing_133","server":"38.143.66.187","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国_TG@nodesharing_134","server":"38.68.135.112","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_135","server":"38.114.114.19","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_136","server":"38.114.114.19","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_137","server":"167.88.61.213","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_138","server":"38.114.114.19","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_139","server":"38.68.135.112","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_140","server":"38.143.66.55","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_141","server":"167.88.61.213","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"美国_TG@nodesharing_142","server":"38.143.66.55","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_143","server":"167.88.61.14","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"美国_TG@nodesharing_144","server":"167.88.61.213","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_145","server":"38.143.66.55","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"美国_TG@nodesharing_146","server":"167.88.61.213","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_147","server":"169.197.143.29","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国_TG@nodesharing_148","server":"38.68.135.112","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_149","server":"167.88.61.14","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"美国_TG@nodesharing_150","server":"38.68.135.112","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_151","server":"38.68.135.112","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_152","server":"167.88.61.213","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_153","server":"169.197.143.29","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_154","server":"167.88.61.14","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"美国_TG@nodesharing_155","server":"38.68.135.112","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"美国_TG@nodesharing_156","server":"38.143.66.55","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_157","server":"38.143.66.210","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"美国_TG@nodesharing_158","server":"167.88.61.60","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"韩国_TG@nodesharing_159","server":"158.247.219.68","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_160","server":"169.197.143.29","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_161","server":"38.68.134.191","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"美国_TG@nodesharing_162","server":"167.88.62.34","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_163","server":"167.88.61.213","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"美国_TG@nodesharing_164","server":"167.88.61.14","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国_TG@nodesharing_165","server":"38.143.66.55","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"韩国_TG@nodesharing_166","server":"141.164.57.134","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国_TG@nodesharing_167","server":"167.88.61.14","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"韩国_TG@nodesharing_168","server":"158.247.226.61","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_169","server":"38.68.134.191","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国_TG@nodesharing_170","server":"167.88.62.34","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_171","server":"38.143.66.210","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_172","server":"167.88.61.213","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"美国_TG@nodesharing_173","server":"167.88.61.213","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国_TG@nodesharing_174","server":"167.88.62.34","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国_TG@nodesharing_175","server":"169.197.143.29","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"韩国_TG@nodesharing_176","server":"141.164.42.236","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_177","server":"38.91.102.124","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_178","server":"167.88.61.14","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_179","server":"38.68.135.112","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"美国_TG@nodesharing_180","server":"167.88.62.34","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_181","server":"38.68.134.23","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_182","server":"38.68.135.112","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_183","server":"38.68.134.191","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_184","server":"38.143.66.187","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_185","server":"167.88.62.34","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_186","server":"38.68.134.23","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"美国_TG@nodesharing_187","server":"167.88.62.34","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_188","server":"169.197.143.29","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国_TG@nodesharing_189","server":"38.91.102.125","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_190","server":"167.88.62.34","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_191","server":"38.68.134.191","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_192","server":"38.68.134.191","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"美国_TG@nodesharing_193","server":"167.88.62.34","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_194","server":"38.91.102.125","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_195","server":"38.68.134.191","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_196","server":"167.88.62.34","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_197","server":"38.68.134.71","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国_TG@nodesharing_198","server":"167.88.62.34","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_199","server":"38.75.136.127","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"美国_TG@nodesharing_200","server":"167.88.62.34","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国_TG@nodesharing_201","server":"38.68.134.191","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_202","server":"167.88.62.34","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"香港_TG@nodesharing_203","server":"azhk.pluscloud.top","port":443,"type":"trojan","password":"78990d57-2af6-4092-bf6b-f11575db222f","sni":"azhk.pluscloud.top"}
+  - {"name":"美国_TG@nodesharing_204","server":"167.88.62.34","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_205","server":"38.68.135.112","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"美国_TG@nodesharing_206","server":"38.68.134.191","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_207","server":"38.143.66.55","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"美国_TG@nodesharing_208","server":"38.68.135.112","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_209","server":"38.68.134.71","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"香港_TG@nodesharing_210","server":"azhk.pluscloud.top","port":443,"type":"trojan","password":"2842cbcf-ad92-4a43-bed6-e73e03dc2bbe","sni":"azhk.pluscloud.top"}
+  - {"name":"美国_TG@nodesharing_211","server":"38.68.134.191","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_212","server":"167.88.62.34","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国_TG@nodesharing_213","server":"38.68.134.191","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_214","server":"167.88.62.34","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_215","server":"38.68.134.71","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_216","server":"167.88.62.34","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_217","server":"38.75.136.127","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_218","server":"167.88.62.34","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_219","server":"38.75.136.127","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国_TG@nodesharing_220","server":"38.68.134.71","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国_TG@nodesharing_221","server":"38.68.134.71","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_222","server":"38.68.134.71","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"加拿大_TG@nodesharing_223","server":"134.195.196.149","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国_TG@nodesharing_224","server":"38.68.134.191","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"美国_TG@nodesharing_225","server":"38.68.134.71","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_226","server":"38.68.134.23","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_227","server":"38.68.134.71","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_228","server":"38.68.134.71","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_229","server":"38.68.134.71","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_230","server":"167.88.62.34","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_231","server":"167.88.63.33","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_232","server":"167.88.63.74","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_233","server":"38.68.134.23","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_234","server":"167.88.63.33","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国_TG@nodesharing_235","server":"38.68.134.71","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国_TG@nodesharing_236","server":"167.88.62.34","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_237","server":"167.88.62.34","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_238","server":"38.68.134.71","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"美国_TG@nodesharing_239","server":"38.75.136.127","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"美国_TG@nodesharing_240","server":"38.68.134.71","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_241","server":"167.88.62.34","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_242","server":"38.75.136.127","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_243","server":"167.88.63.74","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_244","server":"38.68.134.191","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_245","server":"167.88.62.34","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_246","server":"167.88.63.33","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_247","server":"38.68.134.23","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_248","server":"167.88.62.34","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_249","server":"167.88.63.33","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_250","server":"38.75.136.127","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_251","server":"142.202.48.34","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"加拿大_TG@nodesharing_252","server":"198.57.27.152","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"美国_TG@nodesharing_253","server":"167.88.62.34","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_254","server":"38.68.134.71","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"加拿大_TG@nodesharing_255","server":"134.195.196.71","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_256","server":"38.68.134.191","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"美国_TG@nodesharing_257","server":"167.88.63.74","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_258","server":"167.88.63.28","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_259","server":"167.88.62.34","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"美国_TG@nodesharing_260","server":"38.68.134.71","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"美国_TG@nodesharing_261","server":"38.91.100.134","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_262","server":"167.88.62.34","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"美国_TG@nodesharing_263","server":"167.88.63.33","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国_TG@nodesharing_264","server":"38.68.134.23","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_265","server":"38.68.134.71","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"美国_TG@nodesharing_266","server":"167.88.63.61","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"德国_TG@nodesharing_267","server":"45.141.152.178","port":8388,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"FTvsfXCvXLPFEMKNSADr"}
+  - {"name":"美国_TG@nodesharing_268","server":"38.68.134.23","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"加拿大_TG@nodesharing_269","server":"134.195.196.147","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_270","server":"38.68.134.23","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"加拿大_TG@nodesharing_271","server":"134.195.196.71","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"加拿大_TG@nodesharing_272","server":"134.195.196.193","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"美国_TG@nodesharing_273","server":"38.68.134.23","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国_TG@nodesharing_274","server":"38.68.134.23","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_275","server":"38.68.134.71","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国_TG@nodesharing_276","server":"167.88.63.61","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"美国_TG@nodesharing_277","server":"38.68.134.71","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国_TG@nodesharing_278","server":"38.68.134.71","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"美国_TG@nodesharing_279","server":"167.88.63.33","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"美国_TG@nodesharing_280","server":"38.91.101.11","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"加拿大_TG@nodesharing_281","server":"134.195.196.149","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国_TG@nodesharing_282","server":"38.68.134.71","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"加拿大_TG@nodesharing_283","server":"198.57.27.152","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国_TG@nodesharing_284","server":"38.121.43.91","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"美国_TG@nodesharing_285","server":"38.68.134.191","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_286","server":"38.75.136.127","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国_TG@nodesharing_287","server":"38.68.134.71","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"美国_TG@nodesharing_288","server":"167.88.63.74","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"加拿大_TG@nodesharing_289","server":"134.195.196.200","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇬🇧_GB_英国_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇵🇭_PH_菲律宾_9
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇩🇪_DE_德国_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇺🇸_US_美国_17
-      - 🇬🇧_GB_英国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇺🇸_US_美国_25
-      - 🇫🇷_FR_法国_26
-      - 🇺🇸_US_美国_27
-      - 🇲🇾_MY_马来西亚_28
-      - 🇰🇷_KR_韩国_29
-      - 🇺🇸_US_美国_30
-      - 🇬🇧_GB_英国_31
-      - 🇫🇷_FR_法国_32
-      - 🇨🇦_CA_加拿大_33
-      - 🇯🇵_JP_日本_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇬🇧_GB_英国_38
-      - 🇩🇪_DE_德国_39
-      - 🇨🇦_CA_加拿大_40
-      - 🇺🇸_US_美国_41
-      - 🇬🇧_GB_英国_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇺🇸_US_美国_44
-      - 🇦🇺_AU_澳大利亚_45
-      - default_name_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇦🇺_AU_澳大利亚_49
-      - 🇦🇺_AU_澳大利亚_50
-      - 🇸🇬_SG_新加坡_51
-      - 🇨🇦_CA_加拿大_52
-      - 🇫🇷_FR_法国_53
-      - 🇬🇧_GB_英国_54
-      - 🇺🇸_US_美国_55
-      - 🇰🇷_KR_韩国_56
-      - 🇬🇧_GB_英国_57
-      - 🇺🇸_US_美国_58
-      - 🇬🇧_GB_英国_59
-      - default_name_60
-      - 🇬🇧_GB_英国_61
-      - 🇺🇸_US_美国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇺🇸_US_美国_64
-      - 🇺🇸_US_美国_65
-      - 🇨🇦_CA_加拿大_66
-      - 🇺🇸_US_美国_67
-      - 🇺🇸_US_美国_68
-      - 🇨🇦_CA_加拿大_69
-      - 🇺🇸_US_美国_70
-      - 🇺🇸_US_美国_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇬🇧_GB_英国_74
-      - 🇺🇸_US_美国_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇬🇧_GB_英国_81
-      - 🇬🇧_GB_英国_82
-      - 🇬🇧_GB_英国_83
-      - 🇦🇺_AU_澳大利亚_84
-      - 🇬🇧_GB_英国_85
-      - 🇺🇸_US_美国_86
-      - 🇬🇧_GB_英国_87
-      - 🇺🇸_US_美国_88
-      - 🇺🇸_US_美国_89
-      - 🇨🇦_CA_加拿大_90
-      - 🇨🇦_CA_加拿大_91
-      - 🇨🇦_CA_加拿大_92
-      - 🇺🇸_US_美国_93
-      - 🇬🇧_GB_英国_94
-      - 🇨🇦_CA_加拿大_95
-      - 🇦🇺_AU_澳大利亚_96
-      - 🇨🇦_CA_加拿大_97
-      - 🇨🇦_CA_加拿大_98
-      - 🇫🇷_FR_法国_99
-      - 🇨🇦_CA_加拿大_100
+      - 香港_TG@nodesharing_1
+      - 香港_TG@nodesharing_2
+      - 意大利_TG@nodesharing_3
+      - 中国_TG@nodesharing_4
+      - 香港_TG@nodesharing_5
+      - 香港_TG@nodesharing_6
+      - 香港_TG@nodesharing_7
+      - 美国_TG@nodesharing_8
+      - 意大利_TG@nodesharing_9
+      - 香港_TG@nodesharing_10
+      - 意大利_TG@nodesharing_11
+      - 香港_TG@nodesharing_12
+      - 日本_TG@nodesharing_13
+      - 香港_TG@nodesharing_14
+      - 香港_TG@nodesharing_15
+      - 美国_TG@nodesharing_16
+      - 美国_TG@nodesharing_17
+      - 美国_TG@nodesharing_18
+      - 美国_TG@nodesharing_19
+      - 美国_TG@nodesharing_20
+      - 美国_TG@nodesharing_21
+      - 美国_TG@nodesharing_22
+      - 美国_TG@nodesharing_23
+      - 美国_TG@nodesharing_24
+      - 美国_TG@nodesharing_25
+      - 美国_TG@nodesharing_26
+      - 美国_TG@nodesharing_27
+      - 美国_TG@nodesharing_28
+      - 美国_TG@nodesharing_29
+      - 美国_TG@nodesharing_30
+      - 美国_TG@nodesharing_31
+      - 美国_TG@nodesharing_32
+      - 美国_TG@nodesharing_33
+      - 美国_TG@nodesharing_34
+      - 美国_TG@nodesharing_35
+      - 美国_TG@nodesharing_36
+      - 美国_TG@nodesharing_37
+      - 美国_TG@nodesharing_38
+      - 美国_TG@nodesharing_39
+      - 美国_TG@nodesharing_40
+      - 美国_TG@nodesharing_41
+      - 美国_TG@nodesharing_42
+      - 美国_TG@nodesharing_43
+      - 美国_TG@nodesharing_44
+      - 美国_TG@nodesharing_45
+      - 美国_TG@nodesharing_46
+      - 美国_TG@nodesharing_47
+      - 美国_TG@nodesharing_48
+      - 美国_TG@nodesharing_49
+      - 美国_TG@nodesharing_50
+      - 美国_TG@nodesharing_51
+      - 美国_TG@nodesharing_52
+      - 美国_TG@nodesharing_53
+      - 美国_TG@nodesharing_54
+      - 美国_TG@nodesharing_55
+      - 美国_TG@nodesharing_56
+      - 美国_TG@nodesharing_57
+      - 美国_TG@nodesharing_58
+      - 美国_TG@nodesharing_59
+      - 美国_TG@nodesharing_60
+      - 美国_TG@nodesharing_61
+      - 美国_TG@nodesharing_62
+      - 美国_TG@nodesharing_63
+      - 美国_TG@nodesharing_64
+      - 美国_TG@nodesharing_65
+      - 美国_TG@nodesharing_66
+      - 美国_TG@nodesharing_67
+      - 美国_TG@nodesharing_68
+      - 美国_TG@nodesharing_69
+      - 美国_TG@nodesharing_70
+      - 美国_TG@nodesharing_71
+      - 美国_TG@nodesharing_72
+      - 美国_TG@nodesharing_73
+      - 美国_TG@nodesharing_74
+      - 美国_TG@nodesharing_75
+      - 美国_TG@nodesharing_76
+      - 美国_TG@nodesharing_77
+      - 美国_TG@nodesharing_78
+      - 美国_TG@nodesharing_79
+      - 美国_TG@nodesharing_80
+      - 美国_TG@nodesharing_81
+      - 美国_TG@nodesharing_82
+      - 美国_TG@nodesharing_83
+      - 美国_TG@nodesharing_84
+      - 美国_TG@nodesharing_85
+      - 荷兰_TG@nodesharing_86
+      - 美国_TG@nodesharing_87
+      - 美国_TG@nodesharing_88
+      - 香港_TG@nodesharing_89
+      - 美国_TG@nodesharing_90
+      - 美国_TG@nodesharing_91
+      - 美国_TG@nodesharing_92
+      - 美国_TG@nodesharing_93
+      - 美国_TG@nodesharing_94
+      - 美国_TG@nodesharing_95
+      - 美国_TG@nodesharing_96
+      - 美国_TG@nodesharing_97
+      - 美国_TG@nodesharing_98
+      - 美国_TG@nodesharing_99
+      - 美国_TG@nodesharing_100
+      - 美国_TG@nodesharing_101
+      - 美国_TG@nodesharing_102
+      - 美国_TG@nodesharing_103
+      - 美国_TG@nodesharing_104
+      - 美国_TG@nodesharing_105
+      - 美国_TG@nodesharing_106
+      - 美国_TG@nodesharing_107
+      - 美国_TG@nodesharing_108
+      - 美国_TG@nodesharing_109
+      - 美国_TG@nodesharing_110
+      - 美国_TG@nodesharing_111
+      - 美国_TG@nodesharing_112
+      - 美国_TG@nodesharing_113
+      - 美国_TG@nodesharing_114
+      - 美国_TG@nodesharing_115
+      - 美国_TG@nodesharing_116
+      - 美国_TG@nodesharing_117
+      - 美国_TG@nodesharing_118
+      - 美国_TG@nodesharing_119
+      - 韩国_TG@nodesharing_120
+      - 美国_TG@nodesharing_121
+      - 美国_TG@nodesharing_122
+      - 美国_TG@nodesharing_123
+      - 美国_TG@nodesharing_124
+      - 美国_TG@nodesharing_125
+      - 美国_TG@nodesharing_126
+      - 美国_TG@nodesharing_127
+      - 美国_TG@nodesharing_128
+      - 美国_TG@nodesharing_129
+      - 美国_TG@nodesharing_130
+      - 美国_TG@nodesharing_131
+      - 美国_TG@nodesharing_132
+      - 美国_TG@nodesharing_133
+      - 美国_TG@nodesharing_134
+      - 美国_TG@nodesharing_135
+      - 美国_TG@nodesharing_136
+      - 美国_TG@nodesharing_137
+      - 美国_TG@nodesharing_138
+      - 美国_TG@nodesharing_139
+      - 美国_TG@nodesharing_140
+      - 美国_TG@nodesharing_141
+      - 美国_TG@nodesharing_142
+      - 美国_TG@nodesharing_143
+      - 美国_TG@nodesharing_144
+      - 美国_TG@nodesharing_145
+      - 美国_TG@nodesharing_146
+      - 美国_TG@nodesharing_147
+      - 美国_TG@nodesharing_148
+      - 美国_TG@nodesharing_149
+      - 美国_TG@nodesharing_150
+      - 美国_TG@nodesharing_151
+      - 美国_TG@nodesharing_152
+      - 美国_TG@nodesharing_153
+      - 美国_TG@nodesharing_154
+      - 美国_TG@nodesharing_155
+      - 美国_TG@nodesharing_156
+      - 美国_TG@nodesharing_157
+      - 美国_TG@nodesharing_158
+      - 韩国_TG@nodesharing_159
+      - 美国_TG@nodesharing_160
+      - 美国_TG@nodesharing_161
+      - 美国_TG@nodesharing_162
+      - 美国_TG@nodesharing_163
+      - 美国_TG@nodesharing_164
+      - 美国_TG@nodesharing_165
+      - 韩国_TG@nodesharing_166
+      - 美国_TG@nodesharing_167
+      - 韩国_TG@nodesharing_168
+      - 美国_TG@nodesharing_169
+      - 美国_TG@nodesharing_170
+      - 美国_TG@nodesharing_171
+      - 美国_TG@nodesharing_172
+      - 美国_TG@nodesharing_173
+      - 美国_TG@nodesharing_174
+      - 美国_TG@nodesharing_175
+      - 韩国_TG@nodesharing_176
+      - 美国_TG@nodesharing_177
+      - 美国_TG@nodesharing_178
+      - 美国_TG@nodesharing_179
+      - 美国_TG@nodesharing_180
+      - 美国_TG@nodesharing_181
+      - 美国_TG@nodesharing_182
+      - 美国_TG@nodesharing_183
+      - 美国_TG@nodesharing_184
+      - 美国_TG@nodesharing_185
+      - 美国_TG@nodesharing_186
+      - 美国_TG@nodesharing_187
+      - 美国_TG@nodesharing_188
+      - 美国_TG@nodesharing_189
+      - 美国_TG@nodesharing_190
+      - 美国_TG@nodesharing_191
+      - 美国_TG@nodesharing_192
+      - 美国_TG@nodesharing_193
+      - 美国_TG@nodesharing_194
+      - 美国_TG@nodesharing_195
+      - 美国_TG@nodesharing_196
+      - 美国_TG@nodesharing_197
+      - 美国_TG@nodesharing_198
+      - 美国_TG@nodesharing_199
+      - 美国_TG@nodesharing_200
+      - 美国_TG@nodesharing_201
+      - 美国_TG@nodesharing_202
+      - 香港_TG@nodesharing_203
+      - 美国_TG@nodesharing_204
+      - 美国_TG@nodesharing_205
+      - 美国_TG@nodesharing_206
+      - 美国_TG@nodesharing_207
+      - 美国_TG@nodesharing_208
+      - 美国_TG@nodesharing_209
+      - 香港_TG@nodesharing_210
+      - 美国_TG@nodesharing_211
+      - 美国_TG@nodesharing_212
+      - 美国_TG@nodesharing_213
+      - 美国_TG@nodesharing_214
+      - 美国_TG@nodesharing_215
+      - 美国_TG@nodesharing_216
+      - 美国_TG@nodesharing_217
+      - 美国_TG@nodesharing_218
+      - 美国_TG@nodesharing_219
+      - 美国_TG@nodesharing_220
+      - 美国_TG@nodesharing_221
+      - 美国_TG@nodesharing_222
+      - 加拿大_TG@nodesharing_223
+      - 美国_TG@nodesharing_224
+      - 美国_TG@nodesharing_225
+      - 美国_TG@nodesharing_226
+      - 美国_TG@nodesharing_227
+      - 美国_TG@nodesharing_228
+      - 美国_TG@nodesharing_229
+      - 美国_TG@nodesharing_230
+      - 美国_TG@nodesharing_231
+      - 美国_TG@nodesharing_232
+      - 美国_TG@nodesharing_233
+      - 美国_TG@nodesharing_234
+      - 美国_TG@nodesharing_235
+      - 美国_TG@nodesharing_236
+      - 美国_TG@nodesharing_237
+      - 美国_TG@nodesharing_238
+      - 美国_TG@nodesharing_239
+      - 美国_TG@nodesharing_240
+      - 美国_TG@nodesharing_241
+      - 美国_TG@nodesharing_242
+      - 美国_TG@nodesharing_243
+      - 美国_TG@nodesharing_244
+      - 美国_TG@nodesharing_245
+      - 美国_TG@nodesharing_246
+      - 美国_TG@nodesharing_247
+      - 美国_TG@nodesharing_248
+      - 美国_TG@nodesharing_249
+      - 美国_TG@nodesharing_250
+      - 美国_TG@nodesharing_251
+      - 加拿大_TG@nodesharing_252
+      - 美国_TG@nodesharing_253
+      - 美国_TG@nodesharing_254
+      - 加拿大_TG@nodesharing_255
+      - 美国_TG@nodesharing_256
+      - 美国_TG@nodesharing_257
+      - 美国_TG@nodesharing_258
+      - 美国_TG@nodesharing_259
+      - 美国_TG@nodesharing_260
+      - 美国_TG@nodesharing_261
+      - 美国_TG@nodesharing_262
+      - 美国_TG@nodesharing_263
+      - 美国_TG@nodesharing_264
+      - 美国_TG@nodesharing_265
+      - 美国_TG@nodesharing_266
+      - 德国_TG@nodesharing_267
+      - 美国_TG@nodesharing_268
+      - 加拿大_TG@nodesharing_269
+      - 美国_TG@nodesharing_270
+      - 加拿大_TG@nodesharing_271
+      - 加拿大_TG@nodesharing_272
+      - 美国_TG@nodesharing_273
+      - 美国_TG@nodesharing_274
+      - 美国_TG@nodesharing_275
+      - 美国_TG@nodesharing_276
+      - 美国_TG@nodesharing_277
+      - 美国_TG@nodesharing_278
+      - 美国_TG@nodesharing_279
+      - 美国_TG@nodesharing_280
+      - 加拿大_TG@nodesharing_281
+      - 美国_TG@nodesharing_282
+      - 加拿大_TG@nodesharing_283
+      - 美国_TG@nodesharing_284
+      - 美国_TG@nodesharing_285
+      - 美国_TG@nodesharing_286
+      - 美国_TG@nodesharing_287
+      - 美国_TG@nodesharing_288
+      - 加拿大_TG@nodesharing_289
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧_GB_英国_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇵🇭_PH_菲律宾_9
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇩🇪_DE_德国_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇺🇸_US_美国_17
-      - 🇬🇧_GB_英国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇺🇸_US_美国_25
-      - 🇫🇷_FR_法国_26
-      - 🇺🇸_US_美国_27
-      - 🇲🇾_MY_马来西亚_28
-      - 🇰🇷_KR_韩国_29
-      - 🇺🇸_US_美国_30
-      - 🇬🇧_GB_英国_31
-      - 🇫🇷_FR_法国_32
-      - 🇨🇦_CA_加拿大_33
-      - 🇯🇵_JP_日本_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇬🇧_GB_英国_38
-      - 🇩🇪_DE_德国_39
-      - 🇨🇦_CA_加拿大_40
-      - 🇺🇸_US_美国_41
-      - 🇬🇧_GB_英国_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇺🇸_US_美国_44
-      - 🇦🇺_AU_澳大利亚_45
-      - default_name_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇦🇺_AU_澳大利亚_49
-      - 🇦🇺_AU_澳大利亚_50
-      - 🇸🇬_SG_新加坡_51
-      - 🇨🇦_CA_加拿大_52
-      - 🇫🇷_FR_法国_53
-      - 🇬🇧_GB_英国_54
-      - 🇺🇸_US_美国_55
-      - 🇰🇷_KR_韩国_56
-      - 🇬🇧_GB_英国_57
-      - 🇺🇸_US_美国_58
-      - 🇬🇧_GB_英国_59
-      - default_name_60
-      - 🇬🇧_GB_英国_61
-      - 🇺🇸_US_美国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇺🇸_US_美国_64
-      - 🇺🇸_US_美国_65
-      - 🇨🇦_CA_加拿大_66
-      - 🇺🇸_US_美国_67
-      - 🇺🇸_US_美国_68
-      - 🇨🇦_CA_加拿大_69
-      - 🇺🇸_US_美国_70
-      - 🇺🇸_US_美国_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇬🇧_GB_英国_74
-      - 🇺🇸_US_美国_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇬🇧_GB_英国_81
-      - 🇬🇧_GB_英国_82
-      - 🇬🇧_GB_英国_83
-      - 🇦🇺_AU_澳大利亚_84
-      - 🇬🇧_GB_英国_85
-      - 🇺🇸_US_美国_86
-      - 🇬🇧_GB_英国_87
-      - 🇺🇸_US_美国_88
-      - 🇺🇸_US_美国_89
-      - 🇨🇦_CA_加拿大_90
-      - 🇨🇦_CA_加拿大_91
-      - 🇨🇦_CA_加拿大_92
-      - 🇺🇸_US_美国_93
-      - 🇬🇧_GB_英国_94
-      - 🇨🇦_CA_加拿大_95
-      - 🇦🇺_AU_澳大利亚_96
-      - 🇨🇦_CA_加拿大_97
-      - 🇨🇦_CA_加拿大_98
-      - 🇫🇷_FR_法国_99
-      - 🇨🇦_CA_加拿大_100
+      - 香港_TG@nodesharing_1
+      - 香港_TG@nodesharing_2
+      - 意大利_TG@nodesharing_3
+      - 中国_TG@nodesharing_4
+      - 香港_TG@nodesharing_5
+      - 香港_TG@nodesharing_6
+      - 香港_TG@nodesharing_7
+      - 美国_TG@nodesharing_8
+      - 意大利_TG@nodesharing_9
+      - 香港_TG@nodesharing_10
+      - 意大利_TG@nodesharing_11
+      - 香港_TG@nodesharing_12
+      - 日本_TG@nodesharing_13
+      - 香港_TG@nodesharing_14
+      - 香港_TG@nodesharing_15
+      - 美国_TG@nodesharing_16
+      - 美国_TG@nodesharing_17
+      - 美国_TG@nodesharing_18
+      - 美国_TG@nodesharing_19
+      - 美国_TG@nodesharing_20
+      - 美国_TG@nodesharing_21
+      - 美国_TG@nodesharing_22
+      - 美国_TG@nodesharing_23
+      - 美国_TG@nodesharing_24
+      - 美国_TG@nodesharing_25
+      - 美国_TG@nodesharing_26
+      - 美国_TG@nodesharing_27
+      - 美国_TG@nodesharing_28
+      - 美国_TG@nodesharing_29
+      - 美国_TG@nodesharing_30
+      - 美国_TG@nodesharing_31
+      - 美国_TG@nodesharing_32
+      - 美国_TG@nodesharing_33
+      - 美国_TG@nodesharing_34
+      - 美国_TG@nodesharing_35
+      - 美国_TG@nodesharing_36
+      - 美国_TG@nodesharing_37
+      - 美国_TG@nodesharing_38
+      - 美国_TG@nodesharing_39
+      - 美国_TG@nodesharing_40
+      - 美国_TG@nodesharing_41
+      - 美国_TG@nodesharing_42
+      - 美国_TG@nodesharing_43
+      - 美国_TG@nodesharing_44
+      - 美国_TG@nodesharing_45
+      - 美国_TG@nodesharing_46
+      - 美国_TG@nodesharing_47
+      - 美国_TG@nodesharing_48
+      - 美国_TG@nodesharing_49
+      - 美国_TG@nodesharing_50
+      - 美国_TG@nodesharing_51
+      - 美国_TG@nodesharing_52
+      - 美国_TG@nodesharing_53
+      - 美国_TG@nodesharing_54
+      - 美国_TG@nodesharing_55
+      - 美国_TG@nodesharing_56
+      - 美国_TG@nodesharing_57
+      - 美国_TG@nodesharing_58
+      - 美国_TG@nodesharing_59
+      - 美国_TG@nodesharing_60
+      - 美国_TG@nodesharing_61
+      - 美国_TG@nodesharing_62
+      - 美国_TG@nodesharing_63
+      - 美国_TG@nodesharing_64
+      - 美国_TG@nodesharing_65
+      - 美国_TG@nodesharing_66
+      - 美国_TG@nodesharing_67
+      - 美国_TG@nodesharing_68
+      - 美国_TG@nodesharing_69
+      - 美国_TG@nodesharing_70
+      - 美国_TG@nodesharing_71
+      - 美国_TG@nodesharing_72
+      - 美国_TG@nodesharing_73
+      - 美国_TG@nodesharing_74
+      - 美国_TG@nodesharing_75
+      - 美国_TG@nodesharing_76
+      - 美国_TG@nodesharing_77
+      - 美国_TG@nodesharing_78
+      - 美国_TG@nodesharing_79
+      - 美国_TG@nodesharing_80
+      - 美国_TG@nodesharing_81
+      - 美国_TG@nodesharing_82
+      - 美国_TG@nodesharing_83
+      - 美国_TG@nodesharing_84
+      - 美国_TG@nodesharing_85
+      - 荷兰_TG@nodesharing_86
+      - 美国_TG@nodesharing_87
+      - 美国_TG@nodesharing_88
+      - 香港_TG@nodesharing_89
+      - 美国_TG@nodesharing_90
+      - 美国_TG@nodesharing_91
+      - 美国_TG@nodesharing_92
+      - 美国_TG@nodesharing_93
+      - 美国_TG@nodesharing_94
+      - 美国_TG@nodesharing_95
+      - 美国_TG@nodesharing_96
+      - 美国_TG@nodesharing_97
+      - 美国_TG@nodesharing_98
+      - 美国_TG@nodesharing_99
+      - 美国_TG@nodesharing_100
+      - 美国_TG@nodesharing_101
+      - 美国_TG@nodesharing_102
+      - 美国_TG@nodesharing_103
+      - 美国_TG@nodesharing_104
+      - 美国_TG@nodesharing_105
+      - 美国_TG@nodesharing_106
+      - 美国_TG@nodesharing_107
+      - 美国_TG@nodesharing_108
+      - 美国_TG@nodesharing_109
+      - 美国_TG@nodesharing_110
+      - 美国_TG@nodesharing_111
+      - 美国_TG@nodesharing_112
+      - 美国_TG@nodesharing_113
+      - 美国_TG@nodesharing_114
+      - 美国_TG@nodesharing_115
+      - 美国_TG@nodesharing_116
+      - 美国_TG@nodesharing_117
+      - 美国_TG@nodesharing_118
+      - 美国_TG@nodesharing_119
+      - 韩国_TG@nodesharing_120
+      - 美国_TG@nodesharing_121
+      - 美国_TG@nodesharing_122
+      - 美国_TG@nodesharing_123
+      - 美国_TG@nodesharing_124
+      - 美国_TG@nodesharing_125
+      - 美国_TG@nodesharing_126
+      - 美国_TG@nodesharing_127
+      - 美国_TG@nodesharing_128
+      - 美国_TG@nodesharing_129
+      - 美国_TG@nodesharing_130
+      - 美国_TG@nodesharing_131
+      - 美国_TG@nodesharing_132
+      - 美国_TG@nodesharing_133
+      - 美国_TG@nodesharing_134
+      - 美国_TG@nodesharing_135
+      - 美国_TG@nodesharing_136
+      - 美国_TG@nodesharing_137
+      - 美国_TG@nodesharing_138
+      - 美国_TG@nodesharing_139
+      - 美国_TG@nodesharing_140
+      - 美国_TG@nodesharing_141
+      - 美国_TG@nodesharing_142
+      - 美国_TG@nodesharing_143
+      - 美国_TG@nodesharing_144
+      - 美国_TG@nodesharing_145
+      - 美国_TG@nodesharing_146
+      - 美国_TG@nodesharing_147
+      - 美国_TG@nodesharing_148
+      - 美国_TG@nodesharing_149
+      - 美国_TG@nodesharing_150
+      - 美国_TG@nodesharing_151
+      - 美国_TG@nodesharing_152
+      - 美国_TG@nodesharing_153
+      - 美国_TG@nodesharing_154
+      - 美国_TG@nodesharing_155
+      - 美国_TG@nodesharing_156
+      - 美国_TG@nodesharing_157
+      - 美国_TG@nodesharing_158
+      - 韩国_TG@nodesharing_159
+      - 美国_TG@nodesharing_160
+      - 美国_TG@nodesharing_161
+      - 美国_TG@nodesharing_162
+      - 美国_TG@nodesharing_163
+      - 美国_TG@nodesharing_164
+      - 美国_TG@nodesharing_165
+      - 韩国_TG@nodesharing_166
+      - 美国_TG@nodesharing_167
+      - 韩国_TG@nodesharing_168
+      - 美国_TG@nodesharing_169
+      - 美国_TG@nodesharing_170
+      - 美国_TG@nodesharing_171
+      - 美国_TG@nodesharing_172
+      - 美国_TG@nodesharing_173
+      - 美国_TG@nodesharing_174
+      - 美国_TG@nodesharing_175
+      - 韩国_TG@nodesharing_176
+      - 美国_TG@nodesharing_177
+      - 美国_TG@nodesharing_178
+      - 美国_TG@nodesharing_179
+      - 美国_TG@nodesharing_180
+      - 美国_TG@nodesharing_181
+      - 美国_TG@nodesharing_182
+      - 美国_TG@nodesharing_183
+      - 美国_TG@nodesharing_184
+      - 美国_TG@nodesharing_185
+      - 美国_TG@nodesharing_186
+      - 美国_TG@nodesharing_187
+      - 美国_TG@nodesharing_188
+      - 美国_TG@nodesharing_189
+      - 美国_TG@nodesharing_190
+      - 美国_TG@nodesharing_191
+      - 美国_TG@nodesharing_192
+      - 美国_TG@nodesharing_193
+      - 美国_TG@nodesharing_194
+      - 美国_TG@nodesharing_195
+      - 美国_TG@nodesharing_196
+      - 美国_TG@nodesharing_197
+      - 美国_TG@nodesharing_198
+      - 美国_TG@nodesharing_199
+      - 美国_TG@nodesharing_200
+      - 美国_TG@nodesharing_201
+      - 美国_TG@nodesharing_202
+      - 香港_TG@nodesharing_203
+      - 美国_TG@nodesharing_204
+      - 美国_TG@nodesharing_205
+      - 美国_TG@nodesharing_206
+      - 美国_TG@nodesharing_207
+      - 美国_TG@nodesharing_208
+      - 美国_TG@nodesharing_209
+      - 香港_TG@nodesharing_210
+      - 美国_TG@nodesharing_211
+      - 美国_TG@nodesharing_212
+      - 美国_TG@nodesharing_213
+      - 美国_TG@nodesharing_214
+      - 美国_TG@nodesharing_215
+      - 美国_TG@nodesharing_216
+      - 美国_TG@nodesharing_217
+      - 美国_TG@nodesharing_218
+      - 美国_TG@nodesharing_219
+      - 美国_TG@nodesharing_220
+      - 美国_TG@nodesharing_221
+      - 美国_TG@nodesharing_222
+      - 加拿大_TG@nodesharing_223
+      - 美国_TG@nodesharing_224
+      - 美国_TG@nodesharing_225
+      - 美国_TG@nodesharing_226
+      - 美国_TG@nodesharing_227
+      - 美国_TG@nodesharing_228
+      - 美国_TG@nodesharing_229
+      - 美国_TG@nodesharing_230
+      - 美国_TG@nodesharing_231
+      - 美国_TG@nodesharing_232
+      - 美国_TG@nodesharing_233
+      - 美国_TG@nodesharing_234
+      - 美国_TG@nodesharing_235
+      - 美国_TG@nodesharing_236
+      - 美国_TG@nodesharing_237
+      - 美国_TG@nodesharing_238
+      - 美国_TG@nodesharing_239
+      - 美国_TG@nodesharing_240
+      - 美国_TG@nodesharing_241
+      - 美国_TG@nodesharing_242
+      - 美国_TG@nodesharing_243
+      - 美国_TG@nodesharing_244
+      - 美国_TG@nodesharing_245
+      - 美国_TG@nodesharing_246
+      - 美国_TG@nodesharing_247
+      - 美国_TG@nodesharing_248
+      - 美国_TG@nodesharing_249
+      - 美国_TG@nodesharing_250
+      - 美国_TG@nodesharing_251
+      - 加拿大_TG@nodesharing_252
+      - 美国_TG@nodesharing_253
+      - 美国_TG@nodesharing_254
+      - 加拿大_TG@nodesharing_255
+      - 美国_TG@nodesharing_256
+      - 美国_TG@nodesharing_257
+      - 美国_TG@nodesharing_258
+      - 美国_TG@nodesharing_259
+      - 美国_TG@nodesharing_260
+      - 美国_TG@nodesharing_261
+      - 美国_TG@nodesharing_262
+      - 美国_TG@nodesharing_263
+      - 美国_TG@nodesharing_264
+      - 美国_TG@nodesharing_265
+      - 美国_TG@nodesharing_266
+      - 德国_TG@nodesharing_267
+      - 美国_TG@nodesharing_268
+      - 加拿大_TG@nodesharing_269
+      - 美国_TG@nodesharing_270
+      - 加拿大_TG@nodesharing_271
+      - 加拿大_TG@nodesharing_272
+      - 美国_TG@nodesharing_273
+      - 美国_TG@nodesharing_274
+      - 美国_TG@nodesharing_275
+      - 美国_TG@nodesharing_276
+      - 美国_TG@nodesharing_277
+      - 美国_TG@nodesharing_278
+      - 美国_TG@nodesharing_279
+      - 美国_TG@nodesharing_280
+      - 加拿大_TG@nodesharing_281
+      - 美国_TG@nodesharing_282
+      - 加拿大_TG@nodesharing_283
+      - 美国_TG@nodesharing_284
+      - 美国_TG@nodesharing_285
+      - 美国_TG@nodesharing_286
+      - 美国_TG@nodesharing_287
+      - 美国_TG@nodesharing_288
+      - 加拿大_TG@nodesharing_289
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇵🇭_PH_菲律宾_9
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇩🇪_DE_德国_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇺🇸_US_美国_17
-      - 🇬🇧_GB_英国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇺🇸_US_美国_25
-      - 🇫🇷_FR_法国_26
-      - 🇺🇸_US_美国_27
-      - 🇲🇾_MY_马来西亚_28
-      - 🇰🇷_KR_韩国_29
-      - 🇺🇸_US_美国_30
-      - 🇬🇧_GB_英国_31
-      - 🇫🇷_FR_法国_32
-      - 🇨🇦_CA_加拿大_33
-      - 🇯🇵_JP_日本_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇬🇧_GB_英国_38
-      - 🇩🇪_DE_德国_39
-      - 🇨🇦_CA_加拿大_40
-      - 🇺🇸_US_美国_41
-      - 🇬🇧_GB_英国_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇺🇸_US_美国_44
-      - 🇦🇺_AU_澳大利亚_45
-      - default_name_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇦🇺_AU_澳大利亚_49
-      - 🇦🇺_AU_澳大利亚_50
-      - 🇸🇬_SG_新加坡_51
-      - 🇨🇦_CA_加拿大_52
-      - 🇫🇷_FR_法国_53
-      - 🇬🇧_GB_英国_54
-      - 🇺🇸_US_美国_55
-      - 🇰🇷_KR_韩国_56
-      - 🇬🇧_GB_英国_57
-      - 🇺🇸_US_美国_58
-      - 🇬🇧_GB_英国_59
-      - default_name_60
-      - 🇬🇧_GB_英国_61
-      - 🇺🇸_US_美国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇺🇸_US_美国_64
-      - 🇺🇸_US_美国_65
-      - 🇨🇦_CA_加拿大_66
-      - 🇺🇸_US_美国_67
-      - 🇺🇸_US_美国_68
-      - 🇨🇦_CA_加拿大_69
-      - 🇺🇸_US_美国_70
-      - 🇺🇸_US_美国_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇬🇧_GB_英国_74
-      - 🇺🇸_US_美国_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇬🇧_GB_英国_81
-      - 🇬🇧_GB_英国_82
-      - 🇬🇧_GB_英国_83
-      - 🇦🇺_AU_澳大利亚_84
-      - 🇬🇧_GB_英国_85
-      - 🇺🇸_US_美国_86
-      - 🇬🇧_GB_英国_87
-      - 🇺🇸_US_美国_88
-      - 🇺🇸_US_美国_89
-      - 🇨🇦_CA_加拿大_90
-      - 🇨🇦_CA_加拿大_91
-      - 🇨🇦_CA_加拿大_92
-      - 🇺🇸_US_美国_93
-      - 🇬🇧_GB_英国_94
-      - 🇨🇦_CA_加拿大_95
-      - 🇦🇺_AU_澳大利亚_96
-      - 🇨🇦_CA_加拿大_97
-      - 🇨🇦_CA_加拿大_98
-      - 🇫🇷_FR_法国_99
-      - 🇨🇦_CA_加拿大_100
+      - 香港_TG@nodesharing_1
+      - 香港_TG@nodesharing_2
+      - 意大利_TG@nodesharing_3
+      - 中国_TG@nodesharing_4
+      - 香港_TG@nodesharing_5
+      - 香港_TG@nodesharing_6
+      - 香港_TG@nodesharing_7
+      - 美国_TG@nodesharing_8
+      - 意大利_TG@nodesharing_9
+      - 香港_TG@nodesharing_10
+      - 意大利_TG@nodesharing_11
+      - 香港_TG@nodesharing_12
+      - 日本_TG@nodesharing_13
+      - 香港_TG@nodesharing_14
+      - 香港_TG@nodesharing_15
+      - 美国_TG@nodesharing_16
+      - 美国_TG@nodesharing_17
+      - 美国_TG@nodesharing_18
+      - 美国_TG@nodesharing_19
+      - 美国_TG@nodesharing_20
+      - 美国_TG@nodesharing_21
+      - 美国_TG@nodesharing_22
+      - 美国_TG@nodesharing_23
+      - 美国_TG@nodesharing_24
+      - 美国_TG@nodesharing_25
+      - 美国_TG@nodesharing_26
+      - 美国_TG@nodesharing_27
+      - 美国_TG@nodesharing_28
+      - 美国_TG@nodesharing_29
+      - 美国_TG@nodesharing_30
+      - 美国_TG@nodesharing_31
+      - 美国_TG@nodesharing_32
+      - 美国_TG@nodesharing_33
+      - 美国_TG@nodesharing_34
+      - 美国_TG@nodesharing_35
+      - 美国_TG@nodesharing_36
+      - 美国_TG@nodesharing_37
+      - 美国_TG@nodesharing_38
+      - 美国_TG@nodesharing_39
+      - 美国_TG@nodesharing_40
+      - 美国_TG@nodesharing_41
+      - 美国_TG@nodesharing_42
+      - 美国_TG@nodesharing_43
+      - 美国_TG@nodesharing_44
+      - 美国_TG@nodesharing_45
+      - 美国_TG@nodesharing_46
+      - 美国_TG@nodesharing_47
+      - 美国_TG@nodesharing_48
+      - 美国_TG@nodesharing_49
+      - 美国_TG@nodesharing_50
+      - 美国_TG@nodesharing_51
+      - 美国_TG@nodesharing_52
+      - 美国_TG@nodesharing_53
+      - 美国_TG@nodesharing_54
+      - 美国_TG@nodesharing_55
+      - 美国_TG@nodesharing_56
+      - 美国_TG@nodesharing_57
+      - 美国_TG@nodesharing_58
+      - 美国_TG@nodesharing_59
+      - 美国_TG@nodesharing_60
+      - 美国_TG@nodesharing_61
+      - 美国_TG@nodesharing_62
+      - 美国_TG@nodesharing_63
+      - 美国_TG@nodesharing_64
+      - 美国_TG@nodesharing_65
+      - 美国_TG@nodesharing_66
+      - 美国_TG@nodesharing_67
+      - 美国_TG@nodesharing_68
+      - 美国_TG@nodesharing_69
+      - 美国_TG@nodesharing_70
+      - 美国_TG@nodesharing_71
+      - 美国_TG@nodesharing_72
+      - 美国_TG@nodesharing_73
+      - 美国_TG@nodesharing_74
+      - 美国_TG@nodesharing_75
+      - 美国_TG@nodesharing_76
+      - 美国_TG@nodesharing_77
+      - 美国_TG@nodesharing_78
+      - 美国_TG@nodesharing_79
+      - 美国_TG@nodesharing_80
+      - 美国_TG@nodesharing_81
+      - 美国_TG@nodesharing_82
+      - 美国_TG@nodesharing_83
+      - 美国_TG@nodesharing_84
+      - 美国_TG@nodesharing_85
+      - 荷兰_TG@nodesharing_86
+      - 美国_TG@nodesharing_87
+      - 美国_TG@nodesharing_88
+      - 香港_TG@nodesharing_89
+      - 美国_TG@nodesharing_90
+      - 美国_TG@nodesharing_91
+      - 美国_TG@nodesharing_92
+      - 美国_TG@nodesharing_93
+      - 美国_TG@nodesharing_94
+      - 美国_TG@nodesharing_95
+      - 美国_TG@nodesharing_96
+      - 美国_TG@nodesharing_97
+      - 美国_TG@nodesharing_98
+      - 美国_TG@nodesharing_99
+      - 美国_TG@nodesharing_100
+      - 美国_TG@nodesharing_101
+      - 美国_TG@nodesharing_102
+      - 美国_TG@nodesharing_103
+      - 美国_TG@nodesharing_104
+      - 美国_TG@nodesharing_105
+      - 美国_TG@nodesharing_106
+      - 美国_TG@nodesharing_107
+      - 美国_TG@nodesharing_108
+      - 美国_TG@nodesharing_109
+      - 美国_TG@nodesharing_110
+      - 美国_TG@nodesharing_111
+      - 美国_TG@nodesharing_112
+      - 美国_TG@nodesharing_113
+      - 美国_TG@nodesharing_114
+      - 美国_TG@nodesharing_115
+      - 美国_TG@nodesharing_116
+      - 美国_TG@nodesharing_117
+      - 美国_TG@nodesharing_118
+      - 美国_TG@nodesharing_119
+      - 韩国_TG@nodesharing_120
+      - 美国_TG@nodesharing_121
+      - 美国_TG@nodesharing_122
+      - 美国_TG@nodesharing_123
+      - 美国_TG@nodesharing_124
+      - 美国_TG@nodesharing_125
+      - 美国_TG@nodesharing_126
+      - 美国_TG@nodesharing_127
+      - 美国_TG@nodesharing_128
+      - 美国_TG@nodesharing_129
+      - 美国_TG@nodesharing_130
+      - 美国_TG@nodesharing_131
+      - 美国_TG@nodesharing_132
+      - 美国_TG@nodesharing_133
+      - 美国_TG@nodesharing_134
+      - 美国_TG@nodesharing_135
+      - 美国_TG@nodesharing_136
+      - 美国_TG@nodesharing_137
+      - 美国_TG@nodesharing_138
+      - 美国_TG@nodesharing_139
+      - 美国_TG@nodesharing_140
+      - 美国_TG@nodesharing_141
+      - 美国_TG@nodesharing_142
+      - 美国_TG@nodesharing_143
+      - 美国_TG@nodesharing_144
+      - 美国_TG@nodesharing_145
+      - 美国_TG@nodesharing_146
+      - 美国_TG@nodesharing_147
+      - 美国_TG@nodesharing_148
+      - 美国_TG@nodesharing_149
+      - 美国_TG@nodesharing_150
+      - 美国_TG@nodesharing_151
+      - 美国_TG@nodesharing_152
+      - 美国_TG@nodesharing_153
+      - 美国_TG@nodesharing_154
+      - 美国_TG@nodesharing_155
+      - 美国_TG@nodesharing_156
+      - 美国_TG@nodesharing_157
+      - 美国_TG@nodesharing_158
+      - 韩国_TG@nodesharing_159
+      - 美国_TG@nodesharing_160
+      - 美国_TG@nodesharing_161
+      - 美国_TG@nodesharing_162
+      - 美国_TG@nodesharing_163
+      - 美国_TG@nodesharing_164
+      - 美国_TG@nodesharing_165
+      - 韩国_TG@nodesharing_166
+      - 美国_TG@nodesharing_167
+      - 韩国_TG@nodesharing_168
+      - 美国_TG@nodesharing_169
+      - 美国_TG@nodesharing_170
+      - 美国_TG@nodesharing_171
+      - 美国_TG@nodesharing_172
+      - 美国_TG@nodesharing_173
+      - 美国_TG@nodesharing_174
+      - 美国_TG@nodesharing_175
+      - 韩国_TG@nodesharing_176
+      - 美国_TG@nodesharing_177
+      - 美国_TG@nodesharing_178
+      - 美国_TG@nodesharing_179
+      - 美国_TG@nodesharing_180
+      - 美国_TG@nodesharing_181
+      - 美国_TG@nodesharing_182
+      - 美国_TG@nodesharing_183
+      - 美国_TG@nodesharing_184
+      - 美国_TG@nodesharing_185
+      - 美国_TG@nodesharing_186
+      - 美国_TG@nodesharing_187
+      - 美国_TG@nodesharing_188
+      - 美国_TG@nodesharing_189
+      - 美国_TG@nodesharing_190
+      - 美国_TG@nodesharing_191
+      - 美国_TG@nodesharing_192
+      - 美国_TG@nodesharing_193
+      - 美国_TG@nodesharing_194
+      - 美国_TG@nodesharing_195
+      - 美国_TG@nodesharing_196
+      - 美国_TG@nodesharing_197
+      - 美国_TG@nodesharing_198
+      - 美国_TG@nodesharing_199
+      - 美国_TG@nodesharing_200
+      - 美国_TG@nodesharing_201
+      - 美国_TG@nodesharing_202
+      - 香港_TG@nodesharing_203
+      - 美国_TG@nodesharing_204
+      - 美国_TG@nodesharing_205
+      - 美国_TG@nodesharing_206
+      - 美国_TG@nodesharing_207
+      - 美国_TG@nodesharing_208
+      - 美国_TG@nodesharing_209
+      - 香港_TG@nodesharing_210
+      - 美国_TG@nodesharing_211
+      - 美国_TG@nodesharing_212
+      - 美国_TG@nodesharing_213
+      - 美国_TG@nodesharing_214
+      - 美国_TG@nodesharing_215
+      - 美国_TG@nodesharing_216
+      - 美国_TG@nodesharing_217
+      - 美国_TG@nodesharing_218
+      - 美国_TG@nodesharing_219
+      - 美国_TG@nodesharing_220
+      - 美国_TG@nodesharing_221
+      - 美国_TG@nodesharing_222
+      - 加拿大_TG@nodesharing_223
+      - 美国_TG@nodesharing_224
+      - 美国_TG@nodesharing_225
+      - 美国_TG@nodesharing_226
+      - 美国_TG@nodesharing_227
+      - 美国_TG@nodesharing_228
+      - 美国_TG@nodesharing_229
+      - 美国_TG@nodesharing_230
+      - 美国_TG@nodesharing_231
+      - 美国_TG@nodesharing_232
+      - 美国_TG@nodesharing_233
+      - 美国_TG@nodesharing_234
+      - 美国_TG@nodesharing_235
+      - 美国_TG@nodesharing_236
+      - 美国_TG@nodesharing_237
+      - 美国_TG@nodesharing_238
+      - 美国_TG@nodesharing_239
+      - 美国_TG@nodesharing_240
+      - 美国_TG@nodesharing_241
+      - 美国_TG@nodesharing_242
+      - 美国_TG@nodesharing_243
+      - 美国_TG@nodesharing_244
+      - 美国_TG@nodesharing_245
+      - 美国_TG@nodesharing_246
+      - 美国_TG@nodesharing_247
+      - 美国_TG@nodesharing_248
+      - 美国_TG@nodesharing_249
+      - 美国_TG@nodesharing_250
+      - 美国_TG@nodesharing_251
+      - 加拿大_TG@nodesharing_252
+      - 美国_TG@nodesharing_253
+      - 美国_TG@nodesharing_254
+      - 加拿大_TG@nodesharing_255
+      - 美国_TG@nodesharing_256
+      - 美国_TG@nodesharing_257
+      - 美国_TG@nodesharing_258
+      - 美国_TG@nodesharing_259
+      - 美国_TG@nodesharing_260
+      - 美国_TG@nodesharing_261
+      - 美国_TG@nodesharing_262
+      - 美国_TG@nodesharing_263
+      - 美国_TG@nodesharing_264
+      - 美国_TG@nodesharing_265
+      - 美国_TG@nodesharing_266
+      - 德国_TG@nodesharing_267
+      - 美国_TG@nodesharing_268
+      - 加拿大_TG@nodesharing_269
+      - 美国_TG@nodesharing_270
+      - 加拿大_TG@nodesharing_271
+      - 加拿大_TG@nodesharing_272
+      - 美国_TG@nodesharing_273
+      - 美国_TG@nodesharing_274
+      - 美国_TG@nodesharing_275
+      - 美国_TG@nodesharing_276
+      - 美国_TG@nodesharing_277
+      - 美国_TG@nodesharing_278
+      - 美国_TG@nodesharing_279
+      - 美国_TG@nodesharing_280
+      - 加拿大_TG@nodesharing_281
+      - 美国_TG@nodesharing_282
+      - 加拿大_TG@nodesharing_283
+      - 美国_TG@nodesharing_284
+      - 美国_TG@nodesharing_285
+      - 美国_TG@nodesharing_286
+      - 美国_TG@nodesharing_287
+      - 美国_TG@nodesharing_288
+      - 加拿大_TG@nodesharing_289
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇵🇭_PH_菲律宾_9
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇩🇪_DE_德国_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇺🇸_US_美国_17
-      - 🇬🇧_GB_英国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇺🇸_US_美国_25
-      - 🇫🇷_FR_法国_26
-      - 🇺🇸_US_美国_27
-      - 🇲🇾_MY_马来西亚_28
-      - 🇰🇷_KR_韩国_29
-      - 🇺🇸_US_美国_30
-      - 🇬🇧_GB_英国_31
-      - 🇫🇷_FR_法国_32
-      - 🇨🇦_CA_加拿大_33
-      - 🇯🇵_JP_日本_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇬🇧_GB_英国_38
-      - 🇩🇪_DE_德国_39
-      - 🇨🇦_CA_加拿大_40
-      - 🇺🇸_US_美国_41
-      - 🇬🇧_GB_英国_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇺🇸_US_美国_44
-      - 🇦🇺_AU_澳大利亚_45
-      - default_name_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇦🇺_AU_澳大利亚_49
-      - 🇦🇺_AU_澳大利亚_50
-      - 🇸🇬_SG_新加坡_51
-      - 🇨🇦_CA_加拿大_52
-      - 🇫🇷_FR_法国_53
-      - 🇬🇧_GB_英国_54
-      - 🇺🇸_US_美国_55
-      - 🇰🇷_KR_韩国_56
-      - 🇬🇧_GB_英国_57
-      - 🇺🇸_US_美国_58
-      - 🇬🇧_GB_英国_59
-      - default_name_60
-      - 🇬🇧_GB_英国_61
-      - 🇺🇸_US_美国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇺🇸_US_美国_64
-      - 🇺🇸_US_美国_65
-      - 🇨🇦_CA_加拿大_66
-      - 🇺🇸_US_美国_67
-      - 🇺🇸_US_美国_68
-      - 🇨🇦_CA_加拿大_69
-      - 🇺🇸_US_美国_70
-      - 🇺🇸_US_美国_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇬🇧_GB_英国_74
-      - 🇺🇸_US_美国_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇬🇧_GB_英国_81
-      - 🇬🇧_GB_英国_82
-      - 🇬🇧_GB_英国_83
-      - 🇦🇺_AU_澳大利亚_84
-      - 🇬🇧_GB_英国_85
-      - 🇺🇸_US_美国_86
-      - 🇬🇧_GB_英国_87
-      - 🇺🇸_US_美国_88
-      - 🇺🇸_US_美国_89
-      - 🇨🇦_CA_加拿大_90
-      - 🇨🇦_CA_加拿大_91
-      - 🇨🇦_CA_加拿大_92
-      - 🇺🇸_US_美国_93
-      - 🇬🇧_GB_英国_94
-      - 🇨🇦_CA_加拿大_95
-      - 🇦🇺_AU_澳大利亚_96
-      - 🇨🇦_CA_加拿大_97
-      - 🇨🇦_CA_加拿大_98
-      - 🇫🇷_FR_法国_99
-      - 🇨🇦_CA_加拿大_100
+      - 香港_TG@nodesharing_1
+      - 香港_TG@nodesharing_2
+      - 意大利_TG@nodesharing_3
+      - 中国_TG@nodesharing_4
+      - 香港_TG@nodesharing_5
+      - 香港_TG@nodesharing_6
+      - 香港_TG@nodesharing_7
+      - 美国_TG@nodesharing_8
+      - 意大利_TG@nodesharing_9
+      - 香港_TG@nodesharing_10
+      - 意大利_TG@nodesharing_11
+      - 香港_TG@nodesharing_12
+      - 日本_TG@nodesharing_13
+      - 香港_TG@nodesharing_14
+      - 香港_TG@nodesharing_15
+      - 美国_TG@nodesharing_16
+      - 美国_TG@nodesharing_17
+      - 美国_TG@nodesharing_18
+      - 美国_TG@nodesharing_19
+      - 美国_TG@nodesharing_20
+      - 美国_TG@nodesharing_21
+      - 美国_TG@nodesharing_22
+      - 美国_TG@nodesharing_23
+      - 美国_TG@nodesharing_24
+      - 美国_TG@nodesharing_25
+      - 美国_TG@nodesharing_26
+      - 美国_TG@nodesharing_27
+      - 美国_TG@nodesharing_28
+      - 美国_TG@nodesharing_29
+      - 美国_TG@nodesharing_30
+      - 美国_TG@nodesharing_31
+      - 美国_TG@nodesharing_32
+      - 美国_TG@nodesharing_33
+      - 美国_TG@nodesharing_34
+      - 美国_TG@nodesharing_35
+      - 美国_TG@nodesharing_36
+      - 美国_TG@nodesharing_37
+      - 美国_TG@nodesharing_38
+      - 美国_TG@nodesharing_39
+      - 美国_TG@nodesharing_40
+      - 美国_TG@nodesharing_41
+      - 美国_TG@nodesharing_42
+      - 美国_TG@nodesharing_43
+      - 美国_TG@nodesharing_44
+      - 美国_TG@nodesharing_45
+      - 美国_TG@nodesharing_46
+      - 美国_TG@nodesharing_47
+      - 美国_TG@nodesharing_48
+      - 美国_TG@nodesharing_49
+      - 美国_TG@nodesharing_50
+      - 美国_TG@nodesharing_51
+      - 美国_TG@nodesharing_52
+      - 美国_TG@nodesharing_53
+      - 美国_TG@nodesharing_54
+      - 美国_TG@nodesharing_55
+      - 美国_TG@nodesharing_56
+      - 美国_TG@nodesharing_57
+      - 美国_TG@nodesharing_58
+      - 美国_TG@nodesharing_59
+      - 美国_TG@nodesharing_60
+      - 美国_TG@nodesharing_61
+      - 美国_TG@nodesharing_62
+      - 美国_TG@nodesharing_63
+      - 美国_TG@nodesharing_64
+      - 美国_TG@nodesharing_65
+      - 美国_TG@nodesharing_66
+      - 美国_TG@nodesharing_67
+      - 美国_TG@nodesharing_68
+      - 美国_TG@nodesharing_69
+      - 美国_TG@nodesharing_70
+      - 美国_TG@nodesharing_71
+      - 美国_TG@nodesharing_72
+      - 美国_TG@nodesharing_73
+      - 美国_TG@nodesharing_74
+      - 美国_TG@nodesharing_75
+      - 美国_TG@nodesharing_76
+      - 美国_TG@nodesharing_77
+      - 美国_TG@nodesharing_78
+      - 美国_TG@nodesharing_79
+      - 美国_TG@nodesharing_80
+      - 美国_TG@nodesharing_81
+      - 美国_TG@nodesharing_82
+      - 美国_TG@nodesharing_83
+      - 美国_TG@nodesharing_84
+      - 美国_TG@nodesharing_85
+      - 荷兰_TG@nodesharing_86
+      - 美国_TG@nodesharing_87
+      - 美国_TG@nodesharing_88
+      - 香港_TG@nodesharing_89
+      - 美国_TG@nodesharing_90
+      - 美国_TG@nodesharing_91
+      - 美国_TG@nodesharing_92
+      - 美国_TG@nodesharing_93
+      - 美国_TG@nodesharing_94
+      - 美国_TG@nodesharing_95
+      - 美国_TG@nodesharing_96
+      - 美国_TG@nodesharing_97
+      - 美国_TG@nodesharing_98
+      - 美国_TG@nodesharing_99
+      - 美国_TG@nodesharing_100
+      - 美国_TG@nodesharing_101
+      - 美国_TG@nodesharing_102
+      - 美国_TG@nodesharing_103
+      - 美国_TG@nodesharing_104
+      - 美国_TG@nodesharing_105
+      - 美国_TG@nodesharing_106
+      - 美国_TG@nodesharing_107
+      - 美国_TG@nodesharing_108
+      - 美国_TG@nodesharing_109
+      - 美国_TG@nodesharing_110
+      - 美国_TG@nodesharing_111
+      - 美国_TG@nodesharing_112
+      - 美国_TG@nodesharing_113
+      - 美国_TG@nodesharing_114
+      - 美国_TG@nodesharing_115
+      - 美国_TG@nodesharing_116
+      - 美国_TG@nodesharing_117
+      - 美国_TG@nodesharing_118
+      - 美国_TG@nodesharing_119
+      - 韩国_TG@nodesharing_120
+      - 美国_TG@nodesharing_121
+      - 美国_TG@nodesharing_122
+      - 美国_TG@nodesharing_123
+      - 美国_TG@nodesharing_124
+      - 美国_TG@nodesharing_125
+      - 美国_TG@nodesharing_126
+      - 美国_TG@nodesharing_127
+      - 美国_TG@nodesharing_128
+      - 美国_TG@nodesharing_129
+      - 美国_TG@nodesharing_130
+      - 美国_TG@nodesharing_131
+      - 美国_TG@nodesharing_132
+      - 美国_TG@nodesharing_133
+      - 美国_TG@nodesharing_134
+      - 美国_TG@nodesharing_135
+      - 美国_TG@nodesharing_136
+      - 美国_TG@nodesharing_137
+      - 美国_TG@nodesharing_138
+      - 美国_TG@nodesharing_139
+      - 美国_TG@nodesharing_140
+      - 美国_TG@nodesharing_141
+      - 美国_TG@nodesharing_142
+      - 美国_TG@nodesharing_143
+      - 美国_TG@nodesharing_144
+      - 美国_TG@nodesharing_145
+      - 美国_TG@nodesharing_146
+      - 美国_TG@nodesharing_147
+      - 美国_TG@nodesharing_148
+      - 美国_TG@nodesharing_149
+      - 美国_TG@nodesharing_150
+      - 美国_TG@nodesharing_151
+      - 美国_TG@nodesharing_152
+      - 美国_TG@nodesharing_153
+      - 美国_TG@nodesharing_154
+      - 美国_TG@nodesharing_155
+      - 美国_TG@nodesharing_156
+      - 美国_TG@nodesharing_157
+      - 美国_TG@nodesharing_158
+      - 韩国_TG@nodesharing_159
+      - 美国_TG@nodesharing_160
+      - 美国_TG@nodesharing_161
+      - 美国_TG@nodesharing_162
+      - 美国_TG@nodesharing_163
+      - 美国_TG@nodesharing_164
+      - 美国_TG@nodesharing_165
+      - 韩国_TG@nodesharing_166
+      - 美国_TG@nodesharing_167
+      - 韩国_TG@nodesharing_168
+      - 美国_TG@nodesharing_169
+      - 美国_TG@nodesharing_170
+      - 美国_TG@nodesharing_171
+      - 美国_TG@nodesharing_172
+      - 美国_TG@nodesharing_173
+      - 美国_TG@nodesharing_174
+      - 美国_TG@nodesharing_175
+      - 韩国_TG@nodesharing_176
+      - 美国_TG@nodesharing_177
+      - 美国_TG@nodesharing_178
+      - 美国_TG@nodesharing_179
+      - 美国_TG@nodesharing_180
+      - 美国_TG@nodesharing_181
+      - 美国_TG@nodesharing_182
+      - 美国_TG@nodesharing_183
+      - 美国_TG@nodesharing_184
+      - 美国_TG@nodesharing_185
+      - 美国_TG@nodesharing_186
+      - 美国_TG@nodesharing_187
+      - 美国_TG@nodesharing_188
+      - 美国_TG@nodesharing_189
+      - 美国_TG@nodesharing_190
+      - 美国_TG@nodesharing_191
+      - 美国_TG@nodesharing_192
+      - 美国_TG@nodesharing_193
+      - 美国_TG@nodesharing_194
+      - 美国_TG@nodesharing_195
+      - 美国_TG@nodesharing_196
+      - 美国_TG@nodesharing_197
+      - 美国_TG@nodesharing_198
+      - 美国_TG@nodesharing_199
+      - 美国_TG@nodesharing_200
+      - 美国_TG@nodesharing_201
+      - 美国_TG@nodesharing_202
+      - 香港_TG@nodesharing_203
+      - 美国_TG@nodesharing_204
+      - 美国_TG@nodesharing_205
+      - 美国_TG@nodesharing_206
+      - 美国_TG@nodesharing_207
+      - 美国_TG@nodesharing_208
+      - 美国_TG@nodesharing_209
+      - 香港_TG@nodesharing_210
+      - 美国_TG@nodesharing_211
+      - 美国_TG@nodesharing_212
+      - 美国_TG@nodesharing_213
+      - 美国_TG@nodesharing_214
+      - 美国_TG@nodesharing_215
+      - 美国_TG@nodesharing_216
+      - 美国_TG@nodesharing_217
+      - 美国_TG@nodesharing_218
+      - 美国_TG@nodesharing_219
+      - 美国_TG@nodesharing_220
+      - 美国_TG@nodesharing_221
+      - 美国_TG@nodesharing_222
+      - 加拿大_TG@nodesharing_223
+      - 美国_TG@nodesharing_224
+      - 美国_TG@nodesharing_225
+      - 美国_TG@nodesharing_226
+      - 美国_TG@nodesharing_227
+      - 美国_TG@nodesharing_228
+      - 美国_TG@nodesharing_229
+      - 美国_TG@nodesharing_230
+      - 美国_TG@nodesharing_231
+      - 美国_TG@nodesharing_232
+      - 美国_TG@nodesharing_233
+      - 美国_TG@nodesharing_234
+      - 美国_TG@nodesharing_235
+      - 美国_TG@nodesharing_236
+      - 美国_TG@nodesharing_237
+      - 美国_TG@nodesharing_238
+      - 美国_TG@nodesharing_239
+      - 美国_TG@nodesharing_240
+      - 美国_TG@nodesharing_241
+      - 美国_TG@nodesharing_242
+      - 美国_TG@nodesharing_243
+      - 美国_TG@nodesharing_244
+      - 美国_TG@nodesharing_245
+      - 美国_TG@nodesharing_246
+      - 美国_TG@nodesharing_247
+      - 美国_TG@nodesharing_248
+      - 美国_TG@nodesharing_249
+      - 美国_TG@nodesharing_250
+      - 美国_TG@nodesharing_251
+      - 加拿大_TG@nodesharing_252
+      - 美国_TG@nodesharing_253
+      - 美国_TG@nodesharing_254
+      - 加拿大_TG@nodesharing_255
+      - 美国_TG@nodesharing_256
+      - 美国_TG@nodesharing_257
+      - 美国_TG@nodesharing_258
+      - 美国_TG@nodesharing_259
+      - 美国_TG@nodesharing_260
+      - 美国_TG@nodesharing_261
+      - 美国_TG@nodesharing_262
+      - 美国_TG@nodesharing_263
+      - 美国_TG@nodesharing_264
+      - 美国_TG@nodesharing_265
+      - 美国_TG@nodesharing_266
+      - 德国_TG@nodesharing_267
+      - 美国_TG@nodesharing_268
+      - 加拿大_TG@nodesharing_269
+      - 美国_TG@nodesharing_270
+      - 加拿大_TG@nodesharing_271
+      - 加拿大_TG@nodesharing_272
+      - 美国_TG@nodesharing_273
+      - 美国_TG@nodesharing_274
+      - 美国_TG@nodesharing_275
+      - 美国_TG@nodesharing_276
+      - 美国_TG@nodesharing_277
+      - 美国_TG@nodesharing_278
+      - 美国_TG@nodesharing_279
+      - 美国_TG@nodesharing_280
+      - 加拿大_TG@nodesharing_281
+      - 美国_TG@nodesharing_282
+      - 加拿大_TG@nodesharing_283
+      - 美国_TG@nodesharing_284
+      - 美国_TG@nodesharing_285
+      - 美国_TG@nodesharing_286
+      - 美国_TG@nodesharing_287
+      - 美国_TG@nodesharing_288
+      - 加拿大_TG@nodesharing_289
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇬🇧_GB_英国_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇵🇭_PH_菲律宾_9
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇩🇪_DE_德国_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇺🇸_US_美国_17
-      - 🇬🇧_GB_英国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇺🇸_US_美国_25
-      - 🇫🇷_FR_法国_26
-      - 🇺🇸_US_美国_27
-      - 🇲🇾_MY_马来西亚_28
-      - 🇰🇷_KR_韩国_29
-      - 🇺🇸_US_美国_30
-      - 🇬🇧_GB_英国_31
-      - 🇫🇷_FR_法国_32
-      - 🇨🇦_CA_加拿大_33
-      - 🇯🇵_JP_日本_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇬🇧_GB_英国_38
-      - 🇩🇪_DE_德国_39
-      - 🇨🇦_CA_加拿大_40
-      - 🇺🇸_US_美国_41
-      - 🇬🇧_GB_英国_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇺🇸_US_美国_44
-      - 🇦🇺_AU_澳大利亚_45
-      - default_name_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇦🇺_AU_澳大利亚_49
-      - 🇦🇺_AU_澳大利亚_50
-      - 🇸🇬_SG_新加坡_51
-      - 🇨🇦_CA_加拿大_52
-      - 🇫🇷_FR_法国_53
-      - 🇬🇧_GB_英国_54
-      - 🇺🇸_US_美国_55
-      - 🇰🇷_KR_韩国_56
-      - 🇬🇧_GB_英国_57
-      - 🇺🇸_US_美国_58
-      - 🇬🇧_GB_英国_59
-      - default_name_60
-      - 🇬🇧_GB_英国_61
-      - 🇺🇸_US_美国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇺🇸_US_美国_64
-      - 🇺🇸_US_美国_65
-      - 🇨🇦_CA_加拿大_66
-      - 🇺🇸_US_美国_67
-      - 🇺🇸_US_美国_68
-      - 🇨🇦_CA_加拿大_69
-      - 🇺🇸_US_美国_70
-      - 🇺🇸_US_美国_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇬🇧_GB_英国_74
-      - 🇺🇸_US_美国_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇬🇧_GB_英国_81
-      - 🇬🇧_GB_英国_82
-      - 🇬🇧_GB_英国_83
-      - 🇦🇺_AU_澳大利亚_84
-      - 🇬🇧_GB_英国_85
-      - 🇺🇸_US_美国_86
-      - 🇬🇧_GB_英国_87
-      - 🇺🇸_US_美国_88
-      - 🇺🇸_US_美国_89
-      - 🇨🇦_CA_加拿大_90
-      - 🇨🇦_CA_加拿大_91
-      - 🇨🇦_CA_加拿大_92
-      - 🇺🇸_US_美国_93
-      - 🇬🇧_GB_英国_94
-      - 🇨🇦_CA_加拿大_95
-      - 🇦🇺_AU_澳大利亚_96
-      - 🇨🇦_CA_加拿大_97
-      - 🇨🇦_CA_加拿大_98
-      - 🇫🇷_FR_法国_99
-      - 🇨🇦_CA_加拿大_100
+      - 香港_TG@nodesharing_1
+      - 香港_TG@nodesharing_2
+      - 意大利_TG@nodesharing_3
+      - 中国_TG@nodesharing_4
+      - 香港_TG@nodesharing_5
+      - 香港_TG@nodesharing_6
+      - 香港_TG@nodesharing_7
+      - 美国_TG@nodesharing_8
+      - 意大利_TG@nodesharing_9
+      - 香港_TG@nodesharing_10
+      - 意大利_TG@nodesharing_11
+      - 香港_TG@nodesharing_12
+      - 日本_TG@nodesharing_13
+      - 香港_TG@nodesharing_14
+      - 香港_TG@nodesharing_15
+      - 美国_TG@nodesharing_16
+      - 美国_TG@nodesharing_17
+      - 美国_TG@nodesharing_18
+      - 美国_TG@nodesharing_19
+      - 美国_TG@nodesharing_20
+      - 美国_TG@nodesharing_21
+      - 美国_TG@nodesharing_22
+      - 美国_TG@nodesharing_23
+      - 美国_TG@nodesharing_24
+      - 美国_TG@nodesharing_25
+      - 美国_TG@nodesharing_26
+      - 美国_TG@nodesharing_27
+      - 美国_TG@nodesharing_28
+      - 美国_TG@nodesharing_29
+      - 美国_TG@nodesharing_30
+      - 美国_TG@nodesharing_31
+      - 美国_TG@nodesharing_32
+      - 美国_TG@nodesharing_33
+      - 美国_TG@nodesharing_34
+      - 美国_TG@nodesharing_35
+      - 美国_TG@nodesharing_36
+      - 美国_TG@nodesharing_37
+      - 美国_TG@nodesharing_38
+      - 美国_TG@nodesharing_39
+      - 美国_TG@nodesharing_40
+      - 美国_TG@nodesharing_41
+      - 美国_TG@nodesharing_42
+      - 美国_TG@nodesharing_43
+      - 美国_TG@nodesharing_44
+      - 美国_TG@nodesharing_45
+      - 美国_TG@nodesharing_46
+      - 美国_TG@nodesharing_47
+      - 美国_TG@nodesharing_48
+      - 美国_TG@nodesharing_49
+      - 美国_TG@nodesharing_50
+      - 美国_TG@nodesharing_51
+      - 美国_TG@nodesharing_52
+      - 美国_TG@nodesharing_53
+      - 美国_TG@nodesharing_54
+      - 美国_TG@nodesharing_55
+      - 美国_TG@nodesharing_56
+      - 美国_TG@nodesharing_57
+      - 美国_TG@nodesharing_58
+      - 美国_TG@nodesharing_59
+      - 美国_TG@nodesharing_60
+      - 美国_TG@nodesharing_61
+      - 美国_TG@nodesharing_62
+      - 美国_TG@nodesharing_63
+      - 美国_TG@nodesharing_64
+      - 美国_TG@nodesharing_65
+      - 美国_TG@nodesharing_66
+      - 美国_TG@nodesharing_67
+      - 美国_TG@nodesharing_68
+      - 美国_TG@nodesharing_69
+      - 美国_TG@nodesharing_70
+      - 美国_TG@nodesharing_71
+      - 美国_TG@nodesharing_72
+      - 美国_TG@nodesharing_73
+      - 美国_TG@nodesharing_74
+      - 美国_TG@nodesharing_75
+      - 美国_TG@nodesharing_76
+      - 美国_TG@nodesharing_77
+      - 美国_TG@nodesharing_78
+      - 美国_TG@nodesharing_79
+      - 美国_TG@nodesharing_80
+      - 美国_TG@nodesharing_81
+      - 美国_TG@nodesharing_82
+      - 美国_TG@nodesharing_83
+      - 美国_TG@nodesharing_84
+      - 美国_TG@nodesharing_85
+      - 荷兰_TG@nodesharing_86
+      - 美国_TG@nodesharing_87
+      - 美国_TG@nodesharing_88
+      - 香港_TG@nodesharing_89
+      - 美国_TG@nodesharing_90
+      - 美国_TG@nodesharing_91
+      - 美国_TG@nodesharing_92
+      - 美国_TG@nodesharing_93
+      - 美国_TG@nodesharing_94
+      - 美国_TG@nodesharing_95
+      - 美国_TG@nodesharing_96
+      - 美国_TG@nodesharing_97
+      - 美国_TG@nodesharing_98
+      - 美国_TG@nodesharing_99
+      - 美国_TG@nodesharing_100
+      - 美国_TG@nodesharing_101
+      - 美国_TG@nodesharing_102
+      - 美国_TG@nodesharing_103
+      - 美国_TG@nodesharing_104
+      - 美国_TG@nodesharing_105
+      - 美国_TG@nodesharing_106
+      - 美国_TG@nodesharing_107
+      - 美国_TG@nodesharing_108
+      - 美国_TG@nodesharing_109
+      - 美国_TG@nodesharing_110
+      - 美国_TG@nodesharing_111
+      - 美国_TG@nodesharing_112
+      - 美国_TG@nodesharing_113
+      - 美国_TG@nodesharing_114
+      - 美国_TG@nodesharing_115
+      - 美国_TG@nodesharing_116
+      - 美国_TG@nodesharing_117
+      - 美国_TG@nodesharing_118
+      - 美国_TG@nodesharing_119
+      - 韩国_TG@nodesharing_120
+      - 美国_TG@nodesharing_121
+      - 美国_TG@nodesharing_122
+      - 美国_TG@nodesharing_123
+      - 美国_TG@nodesharing_124
+      - 美国_TG@nodesharing_125
+      - 美国_TG@nodesharing_126
+      - 美国_TG@nodesharing_127
+      - 美国_TG@nodesharing_128
+      - 美国_TG@nodesharing_129
+      - 美国_TG@nodesharing_130
+      - 美国_TG@nodesharing_131
+      - 美国_TG@nodesharing_132
+      - 美国_TG@nodesharing_133
+      - 美国_TG@nodesharing_134
+      - 美国_TG@nodesharing_135
+      - 美国_TG@nodesharing_136
+      - 美国_TG@nodesharing_137
+      - 美国_TG@nodesharing_138
+      - 美国_TG@nodesharing_139
+      - 美国_TG@nodesharing_140
+      - 美国_TG@nodesharing_141
+      - 美国_TG@nodesharing_142
+      - 美国_TG@nodesharing_143
+      - 美国_TG@nodesharing_144
+      - 美国_TG@nodesharing_145
+      - 美国_TG@nodesharing_146
+      - 美国_TG@nodesharing_147
+      - 美国_TG@nodesharing_148
+      - 美国_TG@nodesharing_149
+      - 美国_TG@nodesharing_150
+      - 美国_TG@nodesharing_151
+      - 美国_TG@nodesharing_152
+      - 美国_TG@nodesharing_153
+      - 美国_TG@nodesharing_154
+      - 美国_TG@nodesharing_155
+      - 美国_TG@nodesharing_156
+      - 美国_TG@nodesharing_157
+      - 美国_TG@nodesharing_158
+      - 韩国_TG@nodesharing_159
+      - 美国_TG@nodesharing_160
+      - 美国_TG@nodesharing_161
+      - 美国_TG@nodesharing_162
+      - 美国_TG@nodesharing_163
+      - 美国_TG@nodesharing_164
+      - 美国_TG@nodesharing_165
+      - 韩国_TG@nodesharing_166
+      - 美国_TG@nodesharing_167
+      - 韩国_TG@nodesharing_168
+      - 美国_TG@nodesharing_169
+      - 美国_TG@nodesharing_170
+      - 美国_TG@nodesharing_171
+      - 美国_TG@nodesharing_172
+      - 美国_TG@nodesharing_173
+      - 美国_TG@nodesharing_174
+      - 美国_TG@nodesharing_175
+      - 韩国_TG@nodesharing_176
+      - 美国_TG@nodesharing_177
+      - 美国_TG@nodesharing_178
+      - 美国_TG@nodesharing_179
+      - 美国_TG@nodesharing_180
+      - 美国_TG@nodesharing_181
+      - 美国_TG@nodesharing_182
+      - 美国_TG@nodesharing_183
+      - 美国_TG@nodesharing_184
+      - 美国_TG@nodesharing_185
+      - 美国_TG@nodesharing_186
+      - 美国_TG@nodesharing_187
+      - 美国_TG@nodesharing_188
+      - 美国_TG@nodesharing_189
+      - 美国_TG@nodesharing_190
+      - 美国_TG@nodesharing_191
+      - 美国_TG@nodesharing_192
+      - 美国_TG@nodesharing_193
+      - 美国_TG@nodesharing_194
+      - 美国_TG@nodesharing_195
+      - 美国_TG@nodesharing_196
+      - 美国_TG@nodesharing_197
+      - 美国_TG@nodesharing_198
+      - 美国_TG@nodesharing_199
+      - 美国_TG@nodesharing_200
+      - 美国_TG@nodesharing_201
+      - 美国_TG@nodesharing_202
+      - 香港_TG@nodesharing_203
+      - 美国_TG@nodesharing_204
+      - 美国_TG@nodesharing_205
+      - 美国_TG@nodesharing_206
+      - 美国_TG@nodesharing_207
+      - 美国_TG@nodesharing_208
+      - 美国_TG@nodesharing_209
+      - 香港_TG@nodesharing_210
+      - 美国_TG@nodesharing_211
+      - 美国_TG@nodesharing_212
+      - 美国_TG@nodesharing_213
+      - 美国_TG@nodesharing_214
+      - 美国_TG@nodesharing_215
+      - 美国_TG@nodesharing_216
+      - 美国_TG@nodesharing_217
+      - 美国_TG@nodesharing_218
+      - 美国_TG@nodesharing_219
+      - 美国_TG@nodesharing_220
+      - 美国_TG@nodesharing_221
+      - 美国_TG@nodesharing_222
+      - 加拿大_TG@nodesharing_223
+      - 美国_TG@nodesharing_224
+      - 美国_TG@nodesharing_225
+      - 美国_TG@nodesharing_226
+      - 美国_TG@nodesharing_227
+      - 美国_TG@nodesharing_228
+      - 美国_TG@nodesharing_229
+      - 美国_TG@nodesharing_230
+      - 美国_TG@nodesharing_231
+      - 美国_TG@nodesharing_232
+      - 美国_TG@nodesharing_233
+      - 美国_TG@nodesharing_234
+      - 美国_TG@nodesharing_235
+      - 美国_TG@nodesharing_236
+      - 美国_TG@nodesharing_237
+      - 美国_TG@nodesharing_238
+      - 美国_TG@nodesharing_239
+      - 美国_TG@nodesharing_240
+      - 美国_TG@nodesharing_241
+      - 美国_TG@nodesharing_242
+      - 美国_TG@nodesharing_243
+      - 美国_TG@nodesharing_244
+      - 美国_TG@nodesharing_245
+      - 美国_TG@nodesharing_246
+      - 美国_TG@nodesharing_247
+      - 美国_TG@nodesharing_248
+      - 美国_TG@nodesharing_249
+      - 美国_TG@nodesharing_250
+      - 美国_TG@nodesharing_251
+      - 加拿大_TG@nodesharing_252
+      - 美国_TG@nodesharing_253
+      - 美国_TG@nodesharing_254
+      - 加拿大_TG@nodesharing_255
+      - 美国_TG@nodesharing_256
+      - 美国_TG@nodesharing_257
+      - 美国_TG@nodesharing_258
+      - 美国_TG@nodesharing_259
+      - 美国_TG@nodesharing_260
+      - 美国_TG@nodesharing_261
+      - 美国_TG@nodesharing_262
+      - 美国_TG@nodesharing_263
+      - 美国_TG@nodesharing_264
+      - 美国_TG@nodesharing_265
+      - 美国_TG@nodesharing_266
+      - 德国_TG@nodesharing_267
+      - 美国_TG@nodesharing_268
+      - 加拿大_TG@nodesharing_269
+      - 美国_TG@nodesharing_270
+      - 加拿大_TG@nodesharing_271
+      - 加拿大_TG@nodesharing_272
+      - 美国_TG@nodesharing_273
+      - 美国_TG@nodesharing_274
+      - 美国_TG@nodesharing_275
+      - 美国_TG@nodesharing_276
+      - 美国_TG@nodesharing_277
+      - 美国_TG@nodesharing_278
+      - 美国_TG@nodesharing_279
+      - 美国_TG@nodesharing_280
+      - 加拿大_TG@nodesharing_281
+      - 美国_TG@nodesharing_282
+      - 加拿大_TG@nodesharing_283
+      - 美国_TG@nodesharing_284
+      - 美国_TG@nodesharing_285
+      - 美国_TG@nodesharing_286
+      - 美国_TG@nodesharing_287
+      - 美国_TG@nodesharing_288
+      - 加拿大_TG@nodesharing_289
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇵🇭_PH_菲律宾_9
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇩🇪_DE_德国_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇺🇸_US_美国_17
-      - 🇬🇧_GB_英国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇺🇸_US_美国_25
-      - 🇫🇷_FR_法国_26
-      - 🇺🇸_US_美国_27
-      - 🇲🇾_MY_马来西亚_28
-      - 🇰🇷_KR_韩国_29
-      - 🇺🇸_US_美国_30
-      - 🇬🇧_GB_英国_31
-      - 🇫🇷_FR_法国_32
-      - 🇨🇦_CA_加拿大_33
-      - 🇯🇵_JP_日本_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇬🇧_GB_英国_38
-      - 🇩🇪_DE_德国_39
-      - 🇨🇦_CA_加拿大_40
-      - 🇺🇸_US_美国_41
-      - 🇬🇧_GB_英国_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇺🇸_US_美国_44
-      - 🇦🇺_AU_澳大利亚_45
-      - default_name_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇦🇺_AU_澳大利亚_49
-      - 🇦🇺_AU_澳大利亚_50
-      - 🇸🇬_SG_新加坡_51
-      - 🇨🇦_CA_加拿大_52
-      - 🇫🇷_FR_法国_53
-      - 🇬🇧_GB_英国_54
-      - 🇺🇸_US_美国_55
-      - 🇰🇷_KR_韩国_56
-      - 🇬🇧_GB_英国_57
-      - 🇺🇸_US_美国_58
-      - 🇬🇧_GB_英国_59
-      - default_name_60
-      - 🇬🇧_GB_英国_61
-      - 🇺🇸_US_美国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇺🇸_US_美国_64
-      - 🇺🇸_US_美国_65
-      - 🇨🇦_CA_加拿大_66
-      - 🇺🇸_US_美国_67
-      - 🇺🇸_US_美国_68
-      - 🇨🇦_CA_加拿大_69
-      - 🇺🇸_US_美国_70
-      - 🇺🇸_US_美国_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇬🇧_GB_英国_74
-      - 🇺🇸_US_美国_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇬🇧_GB_英国_81
-      - 🇬🇧_GB_英国_82
-      - 🇬🇧_GB_英国_83
-      - 🇦🇺_AU_澳大利亚_84
-      - 🇬🇧_GB_英国_85
-      - 🇺🇸_US_美国_86
-      - 🇬🇧_GB_英国_87
-      - 🇺🇸_US_美国_88
-      - 🇺🇸_US_美国_89
-      - 🇨🇦_CA_加拿大_90
-      - 🇨🇦_CA_加拿大_91
-      - 🇨🇦_CA_加拿大_92
-      - 🇺🇸_US_美国_93
-      - 🇬🇧_GB_英国_94
-      - 🇨🇦_CA_加拿大_95
-      - 🇦🇺_AU_澳大利亚_96
-      - 🇨🇦_CA_加拿大_97
-      - 🇨🇦_CA_加拿大_98
-      - 🇫🇷_FR_法国_99
-      - 🇨🇦_CA_加拿大_100
+      - 香港_TG@nodesharing_1
+      - 香港_TG@nodesharing_2
+      - 意大利_TG@nodesharing_3
+      - 中国_TG@nodesharing_4
+      - 香港_TG@nodesharing_5
+      - 香港_TG@nodesharing_6
+      - 香港_TG@nodesharing_7
+      - 美国_TG@nodesharing_8
+      - 意大利_TG@nodesharing_9
+      - 香港_TG@nodesharing_10
+      - 意大利_TG@nodesharing_11
+      - 香港_TG@nodesharing_12
+      - 日本_TG@nodesharing_13
+      - 香港_TG@nodesharing_14
+      - 香港_TG@nodesharing_15
+      - 美国_TG@nodesharing_16
+      - 美国_TG@nodesharing_17
+      - 美国_TG@nodesharing_18
+      - 美国_TG@nodesharing_19
+      - 美国_TG@nodesharing_20
+      - 美国_TG@nodesharing_21
+      - 美国_TG@nodesharing_22
+      - 美国_TG@nodesharing_23
+      - 美国_TG@nodesharing_24
+      - 美国_TG@nodesharing_25
+      - 美国_TG@nodesharing_26
+      - 美国_TG@nodesharing_27
+      - 美国_TG@nodesharing_28
+      - 美国_TG@nodesharing_29
+      - 美国_TG@nodesharing_30
+      - 美国_TG@nodesharing_31
+      - 美国_TG@nodesharing_32
+      - 美国_TG@nodesharing_33
+      - 美国_TG@nodesharing_34
+      - 美国_TG@nodesharing_35
+      - 美国_TG@nodesharing_36
+      - 美国_TG@nodesharing_37
+      - 美国_TG@nodesharing_38
+      - 美国_TG@nodesharing_39
+      - 美国_TG@nodesharing_40
+      - 美国_TG@nodesharing_41
+      - 美国_TG@nodesharing_42
+      - 美国_TG@nodesharing_43
+      - 美国_TG@nodesharing_44
+      - 美国_TG@nodesharing_45
+      - 美国_TG@nodesharing_46
+      - 美国_TG@nodesharing_47
+      - 美国_TG@nodesharing_48
+      - 美国_TG@nodesharing_49
+      - 美国_TG@nodesharing_50
+      - 美国_TG@nodesharing_51
+      - 美国_TG@nodesharing_52
+      - 美国_TG@nodesharing_53
+      - 美国_TG@nodesharing_54
+      - 美国_TG@nodesharing_55
+      - 美国_TG@nodesharing_56
+      - 美国_TG@nodesharing_57
+      - 美国_TG@nodesharing_58
+      - 美国_TG@nodesharing_59
+      - 美国_TG@nodesharing_60
+      - 美国_TG@nodesharing_61
+      - 美国_TG@nodesharing_62
+      - 美国_TG@nodesharing_63
+      - 美国_TG@nodesharing_64
+      - 美国_TG@nodesharing_65
+      - 美国_TG@nodesharing_66
+      - 美国_TG@nodesharing_67
+      - 美国_TG@nodesharing_68
+      - 美国_TG@nodesharing_69
+      - 美国_TG@nodesharing_70
+      - 美国_TG@nodesharing_71
+      - 美国_TG@nodesharing_72
+      - 美国_TG@nodesharing_73
+      - 美国_TG@nodesharing_74
+      - 美国_TG@nodesharing_75
+      - 美国_TG@nodesharing_76
+      - 美国_TG@nodesharing_77
+      - 美国_TG@nodesharing_78
+      - 美国_TG@nodesharing_79
+      - 美国_TG@nodesharing_80
+      - 美国_TG@nodesharing_81
+      - 美国_TG@nodesharing_82
+      - 美国_TG@nodesharing_83
+      - 美国_TG@nodesharing_84
+      - 美国_TG@nodesharing_85
+      - 荷兰_TG@nodesharing_86
+      - 美国_TG@nodesharing_87
+      - 美国_TG@nodesharing_88
+      - 香港_TG@nodesharing_89
+      - 美国_TG@nodesharing_90
+      - 美国_TG@nodesharing_91
+      - 美国_TG@nodesharing_92
+      - 美国_TG@nodesharing_93
+      - 美国_TG@nodesharing_94
+      - 美国_TG@nodesharing_95
+      - 美国_TG@nodesharing_96
+      - 美国_TG@nodesharing_97
+      - 美国_TG@nodesharing_98
+      - 美国_TG@nodesharing_99
+      - 美国_TG@nodesharing_100
+      - 美国_TG@nodesharing_101
+      - 美国_TG@nodesharing_102
+      - 美国_TG@nodesharing_103
+      - 美国_TG@nodesharing_104
+      - 美国_TG@nodesharing_105
+      - 美国_TG@nodesharing_106
+      - 美国_TG@nodesharing_107
+      - 美国_TG@nodesharing_108
+      - 美国_TG@nodesharing_109
+      - 美国_TG@nodesharing_110
+      - 美国_TG@nodesharing_111
+      - 美国_TG@nodesharing_112
+      - 美国_TG@nodesharing_113
+      - 美国_TG@nodesharing_114
+      - 美国_TG@nodesharing_115
+      - 美国_TG@nodesharing_116
+      - 美国_TG@nodesharing_117
+      - 美国_TG@nodesharing_118
+      - 美国_TG@nodesharing_119
+      - 韩国_TG@nodesharing_120
+      - 美国_TG@nodesharing_121
+      - 美国_TG@nodesharing_122
+      - 美国_TG@nodesharing_123
+      - 美国_TG@nodesharing_124
+      - 美国_TG@nodesharing_125
+      - 美国_TG@nodesharing_126
+      - 美国_TG@nodesharing_127
+      - 美国_TG@nodesharing_128
+      - 美国_TG@nodesharing_129
+      - 美国_TG@nodesharing_130
+      - 美国_TG@nodesharing_131
+      - 美国_TG@nodesharing_132
+      - 美国_TG@nodesharing_133
+      - 美国_TG@nodesharing_134
+      - 美国_TG@nodesharing_135
+      - 美国_TG@nodesharing_136
+      - 美国_TG@nodesharing_137
+      - 美国_TG@nodesharing_138
+      - 美国_TG@nodesharing_139
+      - 美国_TG@nodesharing_140
+      - 美国_TG@nodesharing_141
+      - 美国_TG@nodesharing_142
+      - 美国_TG@nodesharing_143
+      - 美国_TG@nodesharing_144
+      - 美国_TG@nodesharing_145
+      - 美国_TG@nodesharing_146
+      - 美国_TG@nodesharing_147
+      - 美国_TG@nodesharing_148
+      - 美国_TG@nodesharing_149
+      - 美国_TG@nodesharing_150
+      - 美国_TG@nodesharing_151
+      - 美国_TG@nodesharing_152
+      - 美国_TG@nodesharing_153
+      - 美国_TG@nodesharing_154
+      - 美国_TG@nodesharing_155
+      - 美国_TG@nodesharing_156
+      - 美国_TG@nodesharing_157
+      - 美国_TG@nodesharing_158
+      - 韩国_TG@nodesharing_159
+      - 美国_TG@nodesharing_160
+      - 美国_TG@nodesharing_161
+      - 美国_TG@nodesharing_162
+      - 美国_TG@nodesharing_163
+      - 美国_TG@nodesharing_164
+      - 美国_TG@nodesharing_165
+      - 韩国_TG@nodesharing_166
+      - 美国_TG@nodesharing_167
+      - 韩国_TG@nodesharing_168
+      - 美国_TG@nodesharing_169
+      - 美国_TG@nodesharing_170
+      - 美国_TG@nodesharing_171
+      - 美国_TG@nodesharing_172
+      - 美国_TG@nodesharing_173
+      - 美国_TG@nodesharing_174
+      - 美国_TG@nodesharing_175
+      - 韩国_TG@nodesharing_176
+      - 美国_TG@nodesharing_177
+      - 美国_TG@nodesharing_178
+      - 美国_TG@nodesharing_179
+      - 美国_TG@nodesharing_180
+      - 美国_TG@nodesharing_181
+      - 美国_TG@nodesharing_182
+      - 美国_TG@nodesharing_183
+      - 美国_TG@nodesharing_184
+      - 美国_TG@nodesharing_185
+      - 美国_TG@nodesharing_186
+      - 美国_TG@nodesharing_187
+      - 美国_TG@nodesharing_188
+      - 美国_TG@nodesharing_189
+      - 美国_TG@nodesharing_190
+      - 美国_TG@nodesharing_191
+      - 美国_TG@nodesharing_192
+      - 美国_TG@nodesharing_193
+      - 美国_TG@nodesharing_194
+      - 美国_TG@nodesharing_195
+      - 美国_TG@nodesharing_196
+      - 美国_TG@nodesharing_197
+      - 美国_TG@nodesharing_198
+      - 美国_TG@nodesharing_199
+      - 美国_TG@nodesharing_200
+      - 美国_TG@nodesharing_201
+      - 美国_TG@nodesharing_202
+      - 香港_TG@nodesharing_203
+      - 美国_TG@nodesharing_204
+      - 美国_TG@nodesharing_205
+      - 美国_TG@nodesharing_206
+      - 美国_TG@nodesharing_207
+      - 美国_TG@nodesharing_208
+      - 美国_TG@nodesharing_209
+      - 香港_TG@nodesharing_210
+      - 美国_TG@nodesharing_211
+      - 美国_TG@nodesharing_212
+      - 美国_TG@nodesharing_213
+      - 美国_TG@nodesharing_214
+      - 美国_TG@nodesharing_215
+      - 美国_TG@nodesharing_216
+      - 美国_TG@nodesharing_217
+      - 美国_TG@nodesharing_218
+      - 美国_TG@nodesharing_219
+      - 美国_TG@nodesharing_220
+      - 美国_TG@nodesharing_221
+      - 美国_TG@nodesharing_222
+      - 加拿大_TG@nodesharing_223
+      - 美国_TG@nodesharing_224
+      - 美国_TG@nodesharing_225
+      - 美国_TG@nodesharing_226
+      - 美国_TG@nodesharing_227
+      - 美国_TG@nodesharing_228
+      - 美国_TG@nodesharing_229
+      - 美国_TG@nodesharing_230
+      - 美国_TG@nodesharing_231
+      - 美国_TG@nodesharing_232
+      - 美国_TG@nodesharing_233
+      - 美国_TG@nodesharing_234
+      - 美国_TG@nodesharing_235
+      - 美国_TG@nodesharing_236
+      - 美国_TG@nodesharing_237
+      - 美国_TG@nodesharing_238
+      - 美国_TG@nodesharing_239
+      - 美国_TG@nodesharing_240
+      - 美国_TG@nodesharing_241
+      - 美国_TG@nodesharing_242
+      - 美国_TG@nodesharing_243
+      - 美国_TG@nodesharing_244
+      - 美国_TG@nodesharing_245
+      - 美国_TG@nodesharing_246
+      - 美国_TG@nodesharing_247
+      - 美国_TG@nodesharing_248
+      - 美国_TG@nodesharing_249
+      - 美国_TG@nodesharing_250
+      - 美国_TG@nodesharing_251
+      - 加拿大_TG@nodesharing_252
+      - 美国_TG@nodesharing_253
+      - 美国_TG@nodesharing_254
+      - 加拿大_TG@nodesharing_255
+      - 美国_TG@nodesharing_256
+      - 美国_TG@nodesharing_257
+      - 美国_TG@nodesharing_258
+      - 美国_TG@nodesharing_259
+      - 美国_TG@nodesharing_260
+      - 美国_TG@nodesharing_261
+      - 美国_TG@nodesharing_262
+      - 美国_TG@nodesharing_263
+      - 美国_TG@nodesharing_264
+      - 美国_TG@nodesharing_265
+      - 美国_TG@nodesharing_266
+      - 德国_TG@nodesharing_267
+      - 美国_TG@nodesharing_268
+      - 加拿大_TG@nodesharing_269
+      - 美国_TG@nodesharing_270
+      - 加拿大_TG@nodesharing_271
+      - 加拿大_TG@nodesharing_272
+      - 美国_TG@nodesharing_273
+      - 美国_TG@nodesharing_274
+      - 美国_TG@nodesharing_275
+      - 美国_TG@nodesharing_276
+      - 美国_TG@nodesharing_277
+      - 美国_TG@nodesharing_278
+      - 美国_TG@nodesharing_279
+      - 美国_TG@nodesharing_280
+      - 加拿大_TG@nodesharing_281
+      - 美国_TG@nodesharing_282
+      - 加拿大_TG@nodesharing_283
+      - 美国_TG@nodesharing_284
+      - 美国_TG@nodesharing_285
+      - 美国_TG@nodesharing_286
+      - 美国_TG@nodesharing_287
+      - 美国_TG@nodesharing_288
+      - 加拿大_TG@nodesharing_289
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -760,106 +2083,295 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇵🇭_PH_菲律宾_9
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇩🇪_DE_德国_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇺🇸_US_美国_17
-      - 🇬🇧_GB_英国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇺🇸_US_美国_25
-      - 🇫🇷_FR_法国_26
-      - 🇺🇸_US_美国_27
-      - 🇲🇾_MY_马来西亚_28
-      - 🇰🇷_KR_韩国_29
-      - 🇺🇸_US_美国_30
-      - 🇬🇧_GB_英国_31
-      - 🇫🇷_FR_法国_32
-      - 🇨🇦_CA_加拿大_33
-      - 🇯🇵_JP_日本_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇬🇧_GB_英国_38
-      - 🇩🇪_DE_德国_39
-      - 🇨🇦_CA_加拿大_40
-      - 🇺🇸_US_美国_41
-      - 🇬🇧_GB_英国_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇺🇸_US_美国_44
-      - 🇦🇺_AU_澳大利亚_45
-      - default_name_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇦🇺_AU_澳大利亚_49
-      - 🇦🇺_AU_澳大利亚_50
-      - 🇸🇬_SG_新加坡_51
-      - 🇨🇦_CA_加拿大_52
-      - 🇫🇷_FR_法国_53
-      - 🇬🇧_GB_英国_54
-      - 🇺🇸_US_美国_55
-      - 🇰🇷_KR_韩国_56
-      - 🇬🇧_GB_英国_57
-      - 🇺🇸_US_美国_58
-      - 🇬🇧_GB_英国_59
-      - default_name_60
-      - 🇬🇧_GB_英国_61
-      - 🇺🇸_US_美国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇺🇸_US_美国_64
-      - 🇺🇸_US_美国_65
-      - 🇨🇦_CA_加拿大_66
-      - 🇺🇸_US_美国_67
-      - 🇺🇸_US_美国_68
-      - 🇨🇦_CA_加拿大_69
-      - 🇺🇸_US_美国_70
-      - 🇺🇸_US_美国_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇬🇧_GB_英国_74
-      - 🇺🇸_US_美国_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇬🇧_GB_英国_81
-      - 🇬🇧_GB_英国_82
-      - 🇬🇧_GB_英国_83
-      - 🇦🇺_AU_澳大利亚_84
-      - 🇬🇧_GB_英国_85
-      - 🇺🇸_US_美国_86
-      - 🇬🇧_GB_英国_87
-      - 🇺🇸_US_美国_88
-      - 🇺🇸_US_美国_89
-      - 🇨🇦_CA_加拿大_90
-      - 🇨🇦_CA_加拿大_91
-      - 🇨🇦_CA_加拿大_92
-      - 🇺🇸_US_美国_93
-      - 🇬🇧_GB_英国_94
-      - 🇨🇦_CA_加拿大_95
-      - 🇦🇺_AU_澳大利亚_96
-      - 🇨🇦_CA_加拿大_97
-      - 🇨🇦_CA_加拿大_98
-      - 🇫🇷_FR_法国_99
-      - 🇨🇦_CA_加拿大_100
+      - 香港_TG@nodesharing_1
+      - 香港_TG@nodesharing_2
+      - 意大利_TG@nodesharing_3
+      - 中国_TG@nodesharing_4
+      - 香港_TG@nodesharing_5
+      - 香港_TG@nodesharing_6
+      - 香港_TG@nodesharing_7
+      - 美国_TG@nodesharing_8
+      - 意大利_TG@nodesharing_9
+      - 香港_TG@nodesharing_10
+      - 意大利_TG@nodesharing_11
+      - 香港_TG@nodesharing_12
+      - 日本_TG@nodesharing_13
+      - 香港_TG@nodesharing_14
+      - 香港_TG@nodesharing_15
+      - 美国_TG@nodesharing_16
+      - 美国_TG@nodesharing_17
+      - 美国_TG@nodesharing_18
+      - 美国_TG@nodesharing_19
+      - 美国_TG@nodesharing_20
+      - 美国_TG@nodesharing_21
+      - 美国_TG@nodesharing_22
+      - 美国_TG@nodesharing_23
+      - 美国_TG@nodesharing_24
+      - 美国_TG@nodesharing_25
+      - 美国_TG@nodesharing_26
+      - 美国_TG@nodesharing_27
+      - 美国_TG@nodesharing_28
+      - 美国_TG@nodesharing_29
+      - 美国_TG@nodesharing_30
+      - 美国_TG@nodesharing_31
+      - 美国_TG@nodesharing_32
+      - 美国_TG@nodesharing_33
+      - 美国_TG@nodesharing_34
+      - 美国_TG@nodesharing_35
+      - 美国_TG@nodesharing_36
+      - 美国_TG@nodesharing_37
+      - 美国_TG@nodesharing_38
+      - 美国_TG@nodesharing_39
+      - 美国_TG@nodesharing_40
+      - 美国_TG@nodesharing_41
+      - 美国_TG@nodesharing_42
+      - 美国_TG@nodesharing_43
+      - 美国_TG@nodesharing_44
+      - 美国_TG@nodesharing_45
+      - 美国_TG@nodesharing_46
+      - 美国_TG@nodesharing_47
+      - 美国_TG@nodesharing_48
+      - 美国_TG@nodesharing_49
+      - 美国_TG@nodesharing_50
+      - 美国_TG@nodesharing_51
+      - 美国_TG@nodesharing_52
+      - 美国_TG@nodesharing_53
+      - 美国_TG@nodesharing_54
+      - 美国_TG@nodesharing_55
+      - 美国_TG@nodesharing_56
+      - 美国_TG@nodesharing_57
+      - 美国_TG@nodesharing_58
+      - 美国_TG@nodesharing_59
+      - 美国_TG@nodesharing_60
+      - 美国_TG@nodesharing_61
+      - 美国_TG@nodesharing_62
+      - 美国_TG@nodesharing_63
+      - 美国_TG@nodesharing_64
+      - 美国_TG@nodesharing_65
+      - 美国_TG@nodesharing_66
+      - 美国_TG@nodesharing_67
+      - 美国_TG@nodesharing_68
+      - 美国_TG@nodesharing_69
+      - 美国_TG@nodesharing_70
+      - 美国_TG@nodesharing_71
+      - 美国_TG@nodesharing_72
+      - 美国_TG@nodesharing_73
+      - 美国_TG@nodesharing_74
+      - 美国_TG@nodesharing_75
+      - 美国_TG@nodesharing_76
+      - 美国_TG@nodesharing_77
+      - 美国_TG@nodesharing_78
+      - 美国_TG@nodesharing_79
+      - 美国_TG@nodesharing_80
+      - 美国_TG@nodesharing_81
+      - 美国_TG@nodesharing_82
+      - 美国_TG@nodesharing_83
+      - 美国_TG@nodesharing_84
+      - 美国_TG@nodesharing_85
+      - 荷兰_TG@nodesharing_86
+      - 美国_TG@nodesharing_87
+      - 美国_TG@nodesharing_88
+      - 香港_TG@nodesharing_89
+      - 美国_TG@nodesharing_90
+      - 美国_TG@nodesharing_91
+      - 美国_TG@nodesharing_92
+      - 美国_TG@nodesharing_93
+      - 美国_TG@nodesharing_94
+      - 美国_TG@nodesharing_95
+      - 美国_TG@nodesharing_96
+      - 美国_TG@nodesharing_97
+      - 美国_TG@nodesharing_98
+      - 美国_TG@nodesharing_99
+      - 美国_TG@nodesharing_100
+      - 美国_TG@nodesharing_101
+      - 美国_TG@nodesharing_102
+      - 美国_TG@nodesharing_103
+      - 美国_TG@nodesharing_104
+      - 美国_TG@nodesharing_105
+      - 美国_TG@nodesharing_106
+      - 美国_TG@nodesharing_107
+      - 美国_TG@nodesharing_108
+      - 美国_TG@nodesharing_109
+      - 美国_TG@nodesharing_110
+      - 美国_TG@nodesharing_111
+      - 美国_TG@nodesharing_112
+      - 美国_TG@nodesharing_113
+      - 美国_TG@nodesharing_114
+      - 美国_TG@nodesharing_115
+      - 美国_TG@nodesharing_116
+      - 美国_TG@nodesharing_117
+      - 美国_TG@nodesharing_118
+      - 美国_TG@nodesharing_119
+      - 韩国_TG@nodesharing_120
+      - 美国_TG@nodesharing_121
+      - 美国_TG@nodesharing_122
+      - 美国_TG@nodesharing_123
+      - 美国_TG@nodesharing_124
+      - 美国_TG@nodesharing_125
+      - 美国_TG@nodesharing_126
+      - 美国_TG@nodesharing_127
+      - 美国_TG@nodesharing_128
+      - 美国_TG@nodesharing_129
+      - 美国_TG@nodesharing_130
+      - 美国_TG@nodesharing_131
+      - 美国_TG@nodesharing_132
+      - 美国_TG@nodesharing_133
+      - 美国_TG@nodesharing_134
+      - 美国_TG@nodesharing_135
+      - 美国_TG@nodesharing_136
+      - 美国_TG@nodesharing_137
+      - 美国_TG@nodesharing_138
+      - 美国_TG@nodesharing_139
+      - 美国_TG@nodesharing_140
+      - 美国_TG@nodesharing_141
+      - 美国_TG@nodesharing_142
+      - 美国_TG@nodesharing_143
+      - 美国_TG@nodesharing_144
+      - 美国_TG@nodesharing_145
+      - 美国_TG@nodesharing_146
+      - 美国_TG@nodesharing_147
+      - 美国_TG@nodesharing_148
+      - 美国_TG@nodesharing_149
+      - 美国_TG@nodesharing_150
+      - 美国_TG@nodesharing_151
+      - 美国_TG@nodesharing_152
+      - 美国_TG@nodesharing_153
+      - 美国_TG@nodesharing_154
+      - 美国_TG@nodesharing_155
+      - 美国_TG@nodesharing_156
+      - 美国_TG@nodesharing_157
+      - 美国_TG@nodesharing_158
+      - 韩国_TG@nodesharing_159
+      - 美国_TG@nodesharing_160
+      - 美国_TG@nodesharing_161
+      - 美国_TG@nodesharing_162
+      - 美国_TG@nodesharing_163
+      - 美国_TG@nodesharing_164
+      - 美国_TG@nodesharing_165
+      - 韩国_TG@nodesharing_166
+      - 美国_TG@nodesharing_167
+      - 韩国_TG@nodesharing_168
+      - 美国_TG@nodesharing_169
+      - 美国_TG@nodesharing_170
+      - 美国_TG@nodesharing_171
+      - 美国_TG@nodesharing_172
+      - 美国_TG@nodesharing_173
+      - 美国_TG@nodesharing_174
+      - 美国_TG@nodesharing_175
+      - 韩国_TG@nodesharing_176
+      - 美国_TG@nodesharing_177
+      - 美国_TG@nodesharing_178
+      - 美国_TG@nodesharing_179
+      - 美国_TG@nodesharing_180
+      - 美国_TG@nodesharing_181
+      - 美国_TG@nodesharing_182
+      - 美国_TG@nodesharing_183
+      - 美国_TG@nodesharing_184
+      - 美国_TG@nodesharing_185
+      - 美国_TG@nodesharing_186
+      - 美国_TG@nodesharing_187
+      - 美国_TG@nodesharing_188
+      - 美国_TG@nodesharing_189
+      - 美国_TG@nodesharing_190
+      - 美国_TG@nodesharing_191
+      - 美国_TG@nodesharing_192
+      - 美国_TG@nodesharing_193
+      - 美国_TG@nodesharing_194
+      - 美国_TG@nodesharing_195
+      - 美国_TG@nodesharing_196
+      - 美国_TG@nodesharing_197
+      - 美国_TG@nodesharing_198
+      - 美国_TG@nodesharing_199
+      - 美国_TG@nodesharing_200
+      - 美国_TG@nodesharing_201
+      - 美国_TG@nodesharing_202
+      - 香港_TG@nodesharing_203
+      - 美国_TG@nodesharing_204
+      - 美国_TG@nodesharing_205
+      - 美国_TG@nodesharing_206
+      - 美国_TG@nodesharing_207
+      - 美国_TG@nodesharing_208
+      - 美国_TG@nodesharing_209
+      - 香港_TG@nodesharing_210
+      - 美国_TG@nodesharing_211
+      - 美国_TG@nodesharing_212
+      - 美国_TG@nodesharing_213
+      - 美国_TG@nodesharing_214
+      - 美国_TG@nodesharing_215
+      - 美国_TG@nodesharing_216
+      - 美国_TG@nodesharing_217
+      - 美国_TG@nodesharing_218
+      - 美国_TG@nodesharing_219
+      - 美国_TG@nodesharing_220
+      - 美国_TG@nodesharing_221
+      - 美国_TG@nodesharing_222
+      - 加拿大_TG@nodesharing_223
+      - 美国_TG@nodesharing_224
+      - 美国_TG@nodesharing_225
+      - 美国_TG@nodesharing_226
+      - 美国_TG@nodesharing_227
+      - 美国_TG@nodesharing_228
+      - 美国_TG@nodesharing_229
+      - 美国_TG@nodesharing_230
+      - 美国_TG@nodesharing_231
+      - 美国_TG@nodesharing_232
+      - 美国_TG@nodesharing_233
+      - 美国_TG@nodesharing_234
+      - 美国_TG@nodesharing_235
+      - 美国_TG@nodesharing_236
+      - 美国_TG@nodesharing_237
+      - 美国_TG@nodesharing_238
+      - 美国_TG@nodesharing_239
+      - 美国_TG@nodesharing_240
+      - 美国_TG@nodesharing_241
+      - 美国_TG@nodesharing_242
+      - 美国_TG@nodesharing_243
+      - 美国_TG@nodesharing_244
+      - 美国_TG@nodesharing_245
+      - 美国_TG@nodesharing_246
+      - 美国_TG@nodesharing_247
+      - 美国_TG@nodesharing_248
+      - 美国_TG@nodesharing_249
+      - 美国_TG@nodesharing_250
+      - 美国_TG@nodesharing_251
+      - 加拿大_TG@nodesharing_252
+      - 美国_TG@nodesharing_253
+      - 美国_TG@nodesharing_254
+      - 加拿大_TG@nodesharing_255
+      - 美国_TG@nodesharing_256
+      - 美国_TG@nodesharing_257
+      - 美国_TG@nodesharing_258
+      - 美国_TG@nodesharing_259
+      - 美国_TG@nodesharing_260
+      - 美国_TG@nodesharing_261
+      - 美国_TG@nodesharing_262
+      - 美国_TG@nodesharing_263
+      - 美国_TG@nodesharing_264
+      - 美国_TG@nodesharing_265
+      - 美国_TG@nodesharing_266
+      - 德国_TG@nodesharing_267
+      - 美国_TG@nodesharing_268
+      - 加拿大_TG@nodesharing_269
+      - 美国_TG@nodesharing_270
+      - 加拿大_TG@nodesharing_271
+      - 加拿大_TG@nodesharing_272
+      - 美国_TG@nodesharing_273
+      - 美国_TG@nodesharing_274
+      - 美国_TG@nodesharing_275
+      - 美国_TG@nodesharing_276
+      - 美国_TG@nodesharing_277
+      - 美国_TG@nodesharing_278
+      - 美国_TG@nodesharing_279
+      - 美国_TG@nodesharing_280
+      - 加拿大_TG@nodesharing_281
+      - 美国_TG@nodesharing_282
+      - 加拿大_TG@nodesharing_283
+      - 美国_TG@nodesharing_284
+      - 美国_TG@nodesharing_285
+      - 美国_TG@nodesharing_286
+      - 美国_TG@nodesharing_287
+      - 美国_TG@nodesharing_288
+      - 加拿大_TG@nodesharing_289
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
