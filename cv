@@ -5,106 +5,106 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _GB_英国_1, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_2, server: 167.88.63.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _AU_澳大利亚_3, server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大_4, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _SG_新加坡_5, server: 139.162.24.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _AT_奥地利_6, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL, udp: true}
-  - {name: _CA_加拿大_7, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大_8, server: 198.57.27.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_9, server: 134.195.196.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国_10, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 208.98.48.2}}, udp: true}
-  - {name: _GB_英国_11, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _IN_印度_12, server: 192.46.209.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _GB_英国_13, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_14, server: 172.99.188.99, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_15, server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _SG_新加坡_16, server: 139.162.24.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国_17, server: 38.91.100.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _SG_新加坡_18, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _DE_德国_19, server: 172.105.244.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国_20, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国_21, server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国_22, server: 142.202.48.78, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国_23, server: 38.75.136.93, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国_24, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国_25, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_26, server: 167.88.63.61, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _IN_印度_27, server: 192.46.212.33, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国_28, server: 142.202.48.78, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国_1, server: 172.99.190.87, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大_2, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大_3, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大_4, server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_5, server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_6, server: 167.88.61.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_7, server: 167.88.61.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国_8, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _KR_韩国_9, server: 158.247.224.121, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _KR_韩国_10, server: 158.247.199.253, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_11, server: 38.68.134.23, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国_12, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国_13, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _DE_德国_14, server: 172.105.244.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _KR_韩国_15, server: 141.164.38.135, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_16, server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_17, server: 167.88.63.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_18, server: 142.202.48.78, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _IN_印度_19, server: 192.46.209.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_20, server: 198.57.27.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_英国_21, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _NO_挪威_22, server: 46.29.218.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大_23, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_24, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国_25, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _IN_印度_26, server: 192.46.209.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_27, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _DE_德国_28, server: 172.105.244.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _CA_加拿大_29, server: 198.57.27.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_30, server: 134.195.196.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_31, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _KR_韩国_32, server: 158.247.226.61, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _JP_日本_33, server: 139.162.116.154, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国_34, server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国_35, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
-  - {name: _US_美国_36, server: 38.91.100.102, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _AU_澳大利亚_37, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大_38, server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_39, server: 167.88.63.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_40, server: 38.91.100.102, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _BV_布维岛_41, server: 46.29.219.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大_42, server: 134.195.196.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大_43, server: 198.57.27.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _DE_德国_44, server: 172.105.244.165, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大_45, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国_46, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_47, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _IN_印度_48, server: 192.46.209.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _RU_俄罗斯联邦_49, server: america.lixray.cf, port: 443, type: vmess, uuid: e7145399-4722-41af-f092-6e4ec3094e51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: america.lixray.cf}}, udp: true}
-  - {name: _US_美国_50, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _KR_韩国_51, server: 158.247.203.168, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_52, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _DE_德国_53, server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _GB_英国_54, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_55, server: 38.68.134.23, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国_56, server: 142.202.48.34, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国_57, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国_58, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _NO_挪威_59, server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大_60, server: 134.195.196.128, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _GB_英国_61, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国_62, server: 38.68.134.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国_63, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_64, server: 167.88.63.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _IN_印度_65, server: 192.46.209.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_66, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _IN_印度_67, server: 192.46.209.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国_68, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大_69, server: 134.195.196.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国_70, server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国_71, server: 142.202.48.78, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大_72, server: 198.57.27.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国_73, server: 38.68.134.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国_74, server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大_75, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_76, server: 167.88.61.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大_77, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _KR_韩国_78, server: 158.247.226.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _FR_法国_79, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大_80, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_81, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国_82, server: 38.68.134.23, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大_83, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_84, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_85, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国_86, server: 38.75.136.93, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _GB_英国_87, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_88, server: 38.68.134.23, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国_89, server: 142.202.48.17, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国_90, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _IN_印度_91, server: 192.46.209.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大_92, server: 198.57.27.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_93, server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国_94, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _IN_印度_95, server: 192.46.209.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国_96, server: 38.107.226.48, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_97, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _KR_韩国_98, server: 158.247.199.253, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_99, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _KR_韩国_100, server: 158.247.203.168, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _SG_新加坡_30, server: 139.162.24.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_31, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_32, server: 38.68.134.23, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _NO_挪威_33, server: 46.29.218.146, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国_34, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大_35, server: 134.195.196.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_36, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_37, server: 167.88.63.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大_38, server: canada-vancouver.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: canada-vancouver.mah3Hoet.com}}, udp: true}
+  - {name: _CA_加拿大_39, server: 134.195.196.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_40, server: 167.88.61.14, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_41, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _RU_俄罗斯联邦_42, server: america.lixray.cf, port: 443, type: vmess, uuid: e7145399-4722-41af-f092-6e4ec3094e51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: america.lixray.cf}}, udp: true}
+  - {name: _GB_英国_43, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _ES_西班牙_44, server: 45.152.183.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
+  - {name: _GB_英国_45, server: 172.99.190.87, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_46, server: 38.91.100.102, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_47, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_48, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _IN_印度_49, server: 192.46.209.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _KR_韩国_50, server: 158.247.219.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_51, server: 198.57.27.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_52, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_53, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _AU_澳大利亚_54, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_55, server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_56, server: 142.202.48.17, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_57, server: 38.91.100.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大_58, server: 198.57.27.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_59, server: 142.202.48.78, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_60, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_61, server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_62, server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _SG_新加坡_63, server: 139.162.24.50, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _AU_澳大利亚_64, server: 172.105.180.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _JP_日本_65, server: 85.208.108.106, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_66, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_67, server: 38.68.134.23, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_68, server: 172.99.188.99, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _GB_英国_69, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_70, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大_71, server: 198.57.27.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_72, server: 142.202.48.78, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大_73, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_74, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_75, server: 134.195.196.51, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_76, server: 167.88.63.61, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_77, server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_78, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _AU_澳大利亚_79, server: 172.105.180.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_80, server: 198.57.27.152, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_81, server: 38.91.101.11, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国->🇫🇷_FR_法国_82, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shuier, headers: {Host: 172.67.68.58}}, udp: true}
+  - {name: _US_美国_83, server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /bb2b34a1, headers: {Host: 172.67.197.254}}, udp: true}
+  - {name: _US_美国_84, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大_85, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大_86, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_87, server: 134.195.196.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_88, server: 167.88.61.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国_89, server: 172.99.188.99, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国_90, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _FR_法国_91, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_92, server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV, udp: true}
+  - {name: _US_美国_93, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}, udp: true}
+  - {name: _AU_澳大利亚_94, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _DE_德国_95, server: 172.105.244.165, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _NG_尼日利亚_96, server: 102.129.144.142, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6, udp: true}
+  - {name: _CA_加拿大_97, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_98, server: 38.68.134.23, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _KR_韩国_99, server: 158.247.224.3, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大_100, server: 134.195.196.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 法国(欢迎订阅Youtube破解资源君), server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 法国(欢迎订阅Youtube破解资源君) 2, server: 62.210.209.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
@@ -305,44 +305,123 @@ proxies:
   - {name: _香港_HK-2022.01.28_18_18, server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: _香港_HK-2022.01.28_19_19, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: _中国_HK-2022.01.28_20_20, server: hk_g_ln_k.hudaye.space, port: 2333, type: ss, cipher: aes-256-gcm, password: dce3585f-4ce5-4931-8997-89c484496017, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__01, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__02, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__03, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__04, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__05, server: 167.88.61.130, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__06, server: 167.88.61.130, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__07, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__08, server: 169.197.142.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__09, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__10, server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__11, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__12, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__13, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__14, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__15, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__16, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__17, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__18, server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _01, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _02, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Relay_-🇫🇷FR_03, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _04, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Relay_-🇫🇷FR_05, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Relay_-🇫🇷FR_06, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _07, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: _08, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _09, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _10, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _11, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _12, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _13, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Relay_🇦🇹AT-🇦🇹AT_31, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL, udp: true}
+  - {name: AU_32, server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: AU_33, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: AU_34, server: 172.105.180.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: AU_35, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: AU_36, server: 172.105.180.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: AU_37, server: 172.105.180.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: AU_38, server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CA_39, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA_40, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA_41, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA_42, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA_43, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA_44, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_45, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs, udp: true}
+  - {name: CA_46, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA_47, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_48, server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS, udp: true}
+  - {name: Relay_🇨🇭CH-🇨🇭CH_51, server: 37.120.137.82, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS, udp: true}
+  - {name: Relay_🇩🇪DE-🇩🇪DE_52, server: 45.141.152.178, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr, udp: true}
+  - {name: FR_53, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: FR_54, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: FR_55, server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN, udp: true}
+  - {name: Relay_🇫🇷FR-🇫🇷FR_56, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Relay_🇫🇷FR-🇫🇷FR_57, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: FR_58, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: FR_59, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇬🇷GR-🇬🇷GR_60, server: 185.51.134.210, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_61, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA, udp: true}
+  - {name: Relay_🇭🇺HU-🇭🇺HU_64, server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy, udp: true}
+  - {name: Relay_🇮🇩ID-🇮🇩ID_65, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
+  - {name: Relay_🇮🇱IL-🇮🇱IL_66, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
+  - {name: JP_69, server: 172.105.244.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Relay_🇲🇾MY-🇲🇾MY_72, server: 223.25.246.4, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA, udp: true}
+  - {name: NO_73, server: 46.29.219.246, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: NO_74, server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: PH_75, server: 188.214.125.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG, udp: true}
+  - {name: PH_76, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_77, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH, udp: true}
+  - {name: US_78, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_79, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_80, server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_81, server: 172.104.207.231, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_82, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_83, server: 38.75.136.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_84, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_85, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_86, server: 167.88.63.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_87, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_88, server: 167.88.63.61, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_89, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP, udp: true}
+  - {name: US_90, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_91, server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_92, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Relay_🇺🇸US-🇳🇬NG_93, server: 102.129.144.142, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6, udp: true}
+  - {name: US_94, server: 38.91.100.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_95, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_96, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_97, server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_98, server: 192.46.209.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_99, server: 192.46.209.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_100, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_101, server: 38.91.101.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_102, server: 167.88.61.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_103, server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_104, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_105, server: 167.88.61.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_106, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_107, server: 172.99.190.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_108, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_109, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Relay_🇻🇳VN-🇻🇳VN_115, server: 188.214.152.194, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27, udp: true}
+  - {name: Relay_🇿🇦ZA-🇿🇦ZA_116, server: 102.165.20.38, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: VLGVpK9npKaFqBLHcnu9, udp: true}
+  - {name: ZZ_117, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_118, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_119, server: 134.195.196.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ZZ_120, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_121, server: 134.195.196.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_122, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_123, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_124, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_125, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_126, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_127, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: "@SSRSUB-V01-付费推荐:suo.yt/ssrsub", server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 129.227.201.234}}, udp: true}
-  - {name: "@SSRSUB-V02-付费推荐:suo.yt/ssrsub", server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
+  - {name: "@SSRSUB-V02-付费推荐:suo.yt/ssrsub", server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: 45.91.83.111}}, udp: true}
   - {name: "@SSRSUB-V03-付费推荐:suo.yt/ssrsub", server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 208.98.48.2}}, udp: true}
-  - {name: "@SSRSUB-V04-付费推荐:suo.yt/ssrsub", server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 23.82.136.151}}, udp: true}
-  - {name: "@SSRSUB-V05-付费推荐:suo.yt/ssrsub", server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V06-付费推荐:suo.yt/ssrsub", server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V07-付费推荐:suo.yt/ssrsub", server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: 45.91.83.111}}, udp: true}
-  - {name: "@SSRSUB-V08-付费推荐:suo.yt/ssrsub", server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
+  - {name: "@SSRSUB-V04-付费推荐:suo.yt/ssrsub", server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
+  - {name: "@SSRSUB-V05-付费推荐:suo.yt/ssrsub", server: api.ssfree.ru, port: 443, type: vmess, uuid: 5883da76-850a-11ec-946d-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: api.ssfree.ru}}, udp: true}
+  - {name: "@SSRSUB-V06-付费推荐:suo.yt/ssrsub", server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
+  - {name: "@SSRSUB-V07-付费推荐:suo.yt/ssrsub", server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}, udp: true}
+  - {name: "@SSRSUB-V08-付费推荐:suo.yt/ssrsub", server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
   - {name: "@SSRSUB-V09-付费推荐:suo.yt/ssrsub", server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
   - {name: "@SSRSUB-V10-付费推荐:suo.yt/ssrsub", server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
   - {name: "@SSRSUB-V11-付费推荐:suo.yt/ssrsub", server: 1222mnl.fans8.xyz, port: 80, type: vmess, uuid: 5c41411a-750a-37e8-966f-11aea49227c4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: youtube-aweikeji}}, udp: true}
-  - {name: "@SSRSUB-V12-付费推荐:suo.yt/ssrsub", server: 36.111.146.117, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V12-付费推荐:suo.yt/ssrsub", server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
   - {name: "@SSRSUB-V13-付费推荐:suo.yt/ssrsub", server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V14-付费推荐:suo.yt/ssrsub", server: 112.64.69.187, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V15-付费推荐:suo.yt/ssrsub", server: 112.64.69.187, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V16-付费推荐:suo.yt/ssrsub", server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V17-付费推荐:suo.yt/ssrsub", server: 60.249.3.226, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /s/ff5c0fb.fm.icloud.com:30513, headers: {Host: icloud.com}}, udp: true}
-  - {name: "@SSRSUB-V18-付费推荐:suo.yt/ssrsub", server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
+  - {name: "@SSRSUB-V18-付费推荐:suo.yt/ssrsub", server: 104.16.148.48, port: 443, type: vmess, uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/The-Great-Awakening_vws?ed=2048", headers: {Host: vincent-jackson2021.cf}}, udp: true}
   - {name: "@SSRSUB-V19-付费推荐:suo.yt/ssrsub", server: 211.72.35.152, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /s/ff5c0fb.fm.icloud.com:30513, headers: {Host: ff5c0fb.ra.cloudflare.systems}}, udp: true}
-  - {name: "@SSRSUB-V20-付费推荐:suo.yt/ssrsub", server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}, udp: true}
+  - {name: "@SSRSUB-V20-付费推荐:suo.yt/ssrsub", server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
   - {name: "@SSRSUB-V21-付费推荐:suo.yt/ssrsub", server: wtt.tcpbbr.net, port: 443, type: vmess, uuid: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V22-付费推荐:suo.yt/ssrsub", server: 109.wgong.xyz, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V23-付费推荐:suo.yt/ssrsub", server: 117.wgong.xyz, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -362,57 +441,67 @@ proxies:
   - {name: "@SSRSUB-V40-付费推荐:suo.yt/ssrsub", server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
   - {name: "@SSRSUB-V41-付费推荐:suo.yt/ssrsub", server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V42-付费推荐:suo.yt/ssrsub", server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V43-付费推荐:suo.yt/ssrsub", server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 23.82.136.151}}, udp: true}
+  - {name: "@SSRSUB-V44-付费推荐:suo.yt/ssrsub", server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
   - {name: "@SSRSUB-V45-付费推荐:suo.yt/ssrsub", server: 138.3.210.217, port: 60935, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: microsoft.com}}, udp: true}
-  - {name: "@SSRSUB-V46-付费推荐:suo.yt/ssrsub", server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
-  - {name: "@SSRSUB-V47-付费推荐:suo.yt/ssrsub", server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}, udp: true}
+  - {name: "@SSRSUB-V46-付费推荐:suo.yt/ssrsub", server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: "@SSRSUB-V47-付费推荐:suo.yt/ssrsub", server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: dax6ujai.com}}, udp: true}
+  - {name: "@SSRSUB-V48-付费推荐:suo.yt/ssrsub", server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: "@SSRSUB-V49-付费推荐:suo.yt/ssrsub", server: 192.74.225.120, port: 8443, type: vmess, uuid: 348f0186-e84e-4eec-b57f-03b988d2c498, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shz.mooncloud.bike}}, udp: true}
   - {name: "@SSRSUB-V50-付费推荐:suo.yt/ssrsub", server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V53-付费推荐:suo.yt/ssrsub", server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
+  - {name: "@SSRSUB-V51-付费推荐:suo.yt/ssrsub", server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V52-付费推荐:suo.yt/ssrsub", server: 36.111.146.117, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V53-付费推荐:suo.yt/ssrsub", server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V54-付费推荐:suo.yt/ssrsub", server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: "@SSRSUB-V59-付费推荐:suo.yt/ssrsub", server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: "@SSRSUB-V55-付费推荐:suo.yt/ssrsub", server: 209.209.112.124, port: 8421, type: vmess, uuid: 0ad1e94a-7997-11ec-abb3-621da891c0e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nqEN79Rd/, headers: {Host: 209.209.112.124}}, udp: true}
+  - {name: "@SSRSUB-V56-付费推荐:suo.yt/ssrsub", server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}, udp: true}
+  - {name: "@SSRSUB-V57-付费推荐:suo.yt/ssrsub", server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
+  - {name: "@SSRSUB-V58-付费推荐:suo.yt/ssrsub", server: india.tgsc.xyz, port: 443, type: vmess, uuid: 1355574d-dac9-4006-8420-95a156fa5f32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /V81DFD0H, headers: {Host: india.tgsc.xyz}}, udp: true}
+  - {name: "@SSRSUB-V59-付费推荐:suo.yt/ssrsub", server: lin-jp.tgsc.xyz, port: 443, type: vmess, uuid: 57c95541-5147-4dae-81d0-660cc6b25e9b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /FNRWR48K, headers: {Host: lin-jp.tgsc.xyz}}, udp: true}
   - {name: "@SSRSUB-V60-付费推荐:suo.yt/ssrsub", server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
   - {name: "@SSRSUB-V61-付费推荐:suo.yt/ssrsub", server: 142.4.105.253, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 142.4.105.253}}, udp: true}
-  - {name: "@SSRSUB-加拿大V01-付费推荐::suo.yt/ssrsub", server: v1.ssrsub.com, port: 166, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V03-付费推荐::suo.yt/ssrsub", server: v3.ssrsub.com, port: 443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-大阪V04-付费推荐::suo.yt/ssrsub", server: v4.ssrsub.com, port: 166, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V05-付费推荐::suo.yt/ssrsub", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-东京V06-付费推荐::suo.yt/ssrsub", server: v6.ssrsub.com, port: 166, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v6.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub", server: v7.ssrsub.com, port: 8443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub", server: v8.ssrsub.com, port: 443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V09-付费推荐::suo.yt/ssrsub", server: v9.ssrsub.com, port: 8443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v9.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-春川V10-付费推荐::suo.yt/ssrsub", server: v10.ssrsub.com, port: 166, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v10.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub", server: v11.ssrsub.com, port: 166, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v11.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-加拿大V12-付费推荐::suo.yt/ssrsub", server: v1.ssrsub.com, port: 166, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V14-付费推荐::suo.yt/ssrsub", server: v3.ssrsub.com, port: 443, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-大阪V15-付费推荐::suo.yt/ssrsub", server: v4.ssrsub.com, port: 166, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V16-付费推荐::suo.yt/ssrsub", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-东京V17-付费推荐::suo.yt/ssrsub", server: v6.ssrsub.com, port: 166, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v6.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-新加坡V18-付费推荐::suo.yt/ssrsub", server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-美国V19-付费推荐::suo.yt/ssrsub", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V20-付费推荐::suo.yt/ssrsub", server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v9.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-春川V21-付费推荐::suo.yt/ssrsub", server: v10.ssrsub.com, port: 166, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v10.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub", server: v11.ssrsub.com, port: 166, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v11.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-美国T01-付费推荐:dlj.tf/ssrsub", server: t1.ssrsub.com, port: 166, type: trojan, password: a56903b7-e983-4cd5-99a6-94d62c79b128, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-俄罗斯T02-付费推荐:dlj.tf/ssrsub", server: t2.ssrsub.com, port: 8443, type: trojan, password: a56903b7-e983-4cd5-99a6-94d62c79b128, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-加拿大T03-付费推荐:dlj.tf/ssrsub", server: t3.ssrsub.com, port: 8443, type: trojan, password: a56903b7-e983-4cd5-99a6-94d62c79b128, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-加拿大T04-付费推荐:dlj.tf/ssrsub", server: t4.ssrsub.com, port: 8443, type: trojan, password: a56903b7-e983-4cd5-99a6-94d62c79b128, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-韩国T05-付费推荐:dlj.tf/ssrsub", server: t5.ssrsub.com, port: 8443, type: trojan, password: a56903b7-e983-4cd5-99a6-94d62c79b128, sni: t5.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-俄罗斯T06-付费推荐:dlj.tf/ssrsub", server: t6.ssrsub.com, port: 8443, type: trojan, password: a56903b7-e983-4cd5-99a6-94d62c79b128, sni: t6.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-俄罗斯T07-付费推荐:dlj.tf/ssrsub", server: t7.ssrsub.com, port: 8443, type: trojan, password: a56903b7-e983-4cd5-99a6-94d62c79b128, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-大阪T08-付费推荐:dlj.tf/ssrsub", server: t8.ssrsub.com, port: 8443, type: trojan, password: a56903b7-e983-4cd5-99a6-94d62c79b128, sni: t8.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-东京T09-付费推荐:dlj.tf/ssrsub", server: t9.ssrsub.com, port: 8443, type: trojan, password: a56903b7-e983-4cd5-99a6-94d62c79b128, sni: t9.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-首尔T10-付费推荐:dlj.tf/ssrsub", server: t10.ssrsub.com, port: 8443, type: trojan, password: a56903b7-e983-4cd5-99a6-94d62c79b128, sni: t10.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-美国T11-付费推荐:dlj.tf/ssrsub", server: t1.ssrsub.com, port: 166, type: trojan, password: 50a90339-8afa-4579-832d-f5d608a6f569, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub", server: t2.ssrsub.com, port: 8443, type: trojan, password: 50a90339-8afa-4579-832d-f5d608a6f569, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-加拿大T13-付费推荐:dlj.tf/ssrsub", server: t3.ssrsub.com, port: 8443, type: trojan, password: 50a90339-8afa-4579-832d-f5d608a6f569, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-加拿大T14-付费推荐:dlj.tf/ssrsub", server: t4.ssrsub.com, port: 8443, type: trojan, password: 50a90339-8afa-4579-832d-f5d608a6f569, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-韩国T15-付费推荐:dlj.tf/ssrsub", server: t5.ssrsub.com, port: 8443, type: trojan, password: 50a90339-8afa-4579-832d-f5d608a6f569, sni: t5.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-俄罗斯T16-付费推荐:dlj.tf/ssrsub", server: t6.ssrsub.com, port: 8443, type: trojan, password: 50a90339-8afa-4579-832d-f5d608a6f569, sni: t6.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-俄罗斯T17-付费推荐:dlj.tf/ssrsub", server: t7.ssrsub.com, port: 8443, type: trojan, password: 50a90339-8afa-4579-832d-f5d608a6f569, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-大阪T18-付费推荐:dlj.tf/ssrsub", server: t8.ssrsub.com, port: 8443, type: trojan, password: 50a90339-8afa-4579-832d-f5d608a6f569, sni: t8.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-东京T19-付费推荐:dlj.tf/ssrsub", server: t9.ssrsub.com, port: 8443, type: trojan, password: 50a90339-8afa-4579-832d-f5d608a6f569, sni: t9.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-首尔T20-付费推荐:dlj.tf/ssrsub", server: t10.ssrsub.com, port: 8443, type: trojan, password: 50a90339-8afa-4579-832d-f5d608a6f569, sni: t10.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-美国V01-付费推荐::suo.yt/ssrsub", server: v1.ssrsub.com, port: 443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯V03-付费推荐::suo.yt/ssrsub", server: v3.ssrsub.com, port: 443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-大阪V04-付费推荐::suo.yt/ssrsub", server: v4.ssrsub.com, port: 166, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯V05-付费推荐::suo.yt/ssrsub", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-东京V06-付费推荐::suo.yt/ssrsub", server: v6.ssrsub.com, port: 166, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v6.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub", server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯V09-付费推荐::suo.yt/ssrsub", server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v9.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-春川V10-付费推荐::suo.yt/ssrsub", server: v10.ssrsub.com, port: 166, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v10.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub", server: v11.ssrsub.com, port: 166, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v11.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-美国V12-付费推荐::suo.yt/ssrsub", server: v1.ssrsub.com, port: 443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯V14-付费推荐::suo.yt/ssrsub", server: v3.ssrsub.com, port: 443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-大阪V15-付费推荐::suo.yt/ssrsub", server: v4.ssrsub.com, port: 166, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯V16-付费推荐::suo.yt/ssrsub", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-东京V17-付费推荐::suo.yt/ssrsub", server: v6.ssrsub.com, port: 166, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v6.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-新加坡V18-付费推荐::suo.yt/ssrsub", server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-美国V19-付费推荐::suo.yt/ssrsub", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯V20-付费推荐::suo.yt/ssrsub", server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v9.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-春川V21-付费推荐::suo.yt/ssrsub", server: v10.ssrsub.com, port: 166, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v10.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub", server: v11.ssrsub.com, port: 166, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v11.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-加拿大T01-付费推荐:dlj.tf/ssrsub", server: t1.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-俄罗斯T02-付费推荐:dlj.tf/ssrsub", server: t2.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-加拿大T03-付费推荐:dlj.tf/ssrsub", server: t3.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-加拿大T04-付费推荐:dlj.tf/ssrsub", server: t4.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-韩国T05-付费推荐:dlj.tf/ssrsub", server: t5.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t5.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-俄罗斯T06-付费推荐:dlj.tf/ssrsub", server: t6.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t6.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-俄罗斯T07-付费推荐:dlj.tf/ssrsub", server: t7.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-大阪T08-付费推荐:dlj.tf/ssrsub", server: t8.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t8.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-东京T09-付费推荐:dlj.tf/ssrsub", server: t9.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t9.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-首尔T10-付费推荐:dlj.tf/ssrsub", server: t10.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t10.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-加拿大T11-付费推荐:dlj.tf/ssrsub", server: t1.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub", server: t2.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-加拿大T13-付费推荐:dlj.tf/ssrsub", server: t3.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-加拿大T14-付费推荐:dlj.tf/ssrsub", server: t4.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-韩国T15-付费推荐:dlj.tf/ssrsub", server: t5.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t5.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-俄罗斯T16-付费推荐:dlj.tf/ssrsub", server: t6.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t6.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-俄罗斯T17-付费推荐:dlj.tf/ssrsub", server: t7.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-大阪T18-付费推荐:dlj.tf/ssrsub", server: t8.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t8.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-东京T19-付费推荐:dlj.tf/ssrsub", server: t9.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t9.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-首尔T20-付费推荐:dlj.tf/ssrsub", server: t10.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t10.ssrsub.com, skip-cert-verify: true, udp: true}
   - {name: Ytb:鹏哥分享_CN_中国_1, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Ytb:鹏哥分享_PH_菲律宾_2, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG, udp: true}
   - {name: Ytb:鹏哥分享_DE_德国_3, server: 139.162.189.117, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
@@ -1037,25 +1126,25 @@ proxies:
   - {name: _US_美国_FMYC-2022.01.28_72, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v8.ssrsub.com}}, udp: true}
   - {name: t5.ssrsub.com:84, server: t5.ssrsub.com, port: 84, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t5.ssrsub.com, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V01-付费推荐:suo.yt/ssrsub 2", server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 129.227.201.234}}, udp: true}
-  - {name: "@SSRSUB-V02-付费推荐:suo.yt/ssrsub 2", server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
+  - {name: "@SSRSUB-V02-付费推荐:suo.yt/ssrsub 2", server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: 45.91.83.111}}, udp: true}
   - {name: "@SSRSUB-V03-付费推荐:suo.yt/ssrsub 2", server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 208.98.48.2}}, udp: true}
-  - {name: "@SSRSUB-V04-付费推荐:suo.yt/ssrsub 2", server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 23.82.136.151}}, udp: true}
-  - {name: "@SSRSUB-V05-付费推荐:suo.yt/ssrsub 2", server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V06-付费推荐:suo.yt/ssrsub 2", server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V07-付费推荐:suo.yt/ssrsub 2", server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: 45.91.83.111}}, udp: true}
-  - {name: "@SSRSUB-V08-付费推荐:suo.yt/ssrsub 2", server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
+  - {name: "@SSRSUB-V04-付费推荐:suo.yt/ssrsub 2", server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
+  - {name: "@SSRSUB-V05-付费推荐:suo.yt/ssrsub 2", server: api.ssfree.ru, port: 443, type: vmess, uuid: 5883da76-850a-11ec-946d-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: api.ssfree.ru}}, udp: true}
+  - {name: "@SSRSUB-V06-付费推荐:suo.yt/ssrsub 2", server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
+  - {name: "@SSRSUB-V07-付费推荐:suo.yt/ssrsub 2", server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}, udp: true}
+  - {name: "@SSRSUB-V08-付费推荐:suo.yt/ssrsub 2", server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
   - {name: "@SSRSUB-V09-付费推荐:suo.yt/ssrsub 2", server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
   - {name: "@SSRSUB-V10-付费推荐:suo.yt/ssrsub 2", server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
   - {name: "@SSRSUB-V11-付费推荐:suo.yt/ssrsub 2", server: 1222mnl.fans8.xyz, port: 80, type: vmess, uuid: 5c41411a-750a-37e8-966f-11aea49227c4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: youtube-aweikeji}}, udp: true}
-  - {name: "@SSRSUB-V12-付费推荐:suo.yt/ssrsub 2", server: 36.111.146.117, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V12-付费推荐:suo.yt/ssrsub 2", server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
   - {name: "@SSRSUB-V13-付费推荐:suo.yt/ssrsub 2", server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V14-付费推荐:suo.yt/ssrsub 2", server: 112.64.69.187, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V15-付费推荐:suo.yt/ssrsub 2", server: 112.64.69.187, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V16-付费推荐:suo.yt/ssrsub 2", server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V17-付费推荐:suo.yt/ssrsub 2", server: 60.249.3.226, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /s/ff5c0fb.fm.icloud.com:30513, headers: {Host: icloud.com}}, udp: true}
-  - {name: "@SSRSUB-V18-付费推荐:suo.yt/ssrsub 2", server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
+  - {name: "@SSRSUB-V18-付费推荐:suo.yt/ssrsub 2", server: 104.16.148.48, port: 443, type: vmess, uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/The-Great-Awakening_vws?ed=2048", headers: {Host: vincent-jackson2021.cf}}, udp: true}
   - {name: "@SSRSUB-V19-付费推荐:suo.yt/ssrsub 2", server: 211.72.35.152, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /s/ff5c0fb.fm.icloud.com:30513, headers: {Host: ff5c0fb.ra.cloudflare.systems}}, udp: true}
-  - {name: "@SSRSUB-V20-付费推荐:suo.yt/ssrsub 2", server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}, udp: true}
+  - {name: "@SSRSUB-V20-付费推荐:suo.yt/ssrsub 2", server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
   - {name: "@SSRSUB-V21-付费推荐:suo.yt/ssrsub 2", server: wtt.tcpbbr.net, port: 443, type: vmess, uuid: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V22-付费推荐:suo.yt/ssrsub 2", server: 109.wgong.xyz, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V23-付费推荐:suo.yt/ssrsub 2", server: 117.wgong.xyz, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1075,37 +1164,47 @@ proxies:
   - {name: "@SSRSUB-V40-付费推荐:suo.yt/ssrsub 2", server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
   - {name: "@SSRSUB-V41-付费推荐:suo.yt/ssrsub 2", server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V42-付费推荐:suo.yt/ssrsub 2", server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V43-付费推荐:suo.yt/ssrsub 2", server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 23.82.136.151}}, udp: true}
+  - {name: "@SSRSUB-V44-付费推荐:suo.yt/ssrsub 2", server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
   - {name: "@SSRSUB-V45-付费推荐:suo.yt/ssrsub 2", server: 138.3.210.217, port: 60935, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: microsoft.com}}, udp: true}
-  - {name: "@SSRSUB-V46-付费推荐:suo.yt/ssrsub 2", server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
-  - {name: "@SSRSUB-V47-付费推荐:suo.yt/ssrsub 2", server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}, udp: true}
+  - {name: "@SSRSUB-V46-付费推荐:suo.yt/ssrsub 2", server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: "@SSRSUB-V47-付费推荐:suo.yt/ssrsub 2", server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: dax6ujai.com}}, udp: true}
+  - {name: "@SSRSUB-V48-付费推荐:suo.yt/ssrsub 2", server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: "@SSRSUB-V49-付费推荐:suo.yt/ssrsub 2", server: 192.74.225.120, port: 8443, type: vmess, uuid: 348f0186-e84e-4eec-b57f-03b988d2c498, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shz.mooncloud.bike}}, udp: true}
   - {name: "@SSRSUB-V50-付费推荐:suo.yt/ssrsub 2", server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V53-付费推荐:suo.yt/ssrsub 2", server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
+  - {name: "@SSRSUB-V51-付费推荐:suo.yt/ssrsub 2", server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V52-付费推荐:suo.yt/ssrsub 2", server: 36.111.146.117, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V53-付费推荐:suo.yt/ssrsub 2", server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V54-付费推荐:suo.yt/ssrsub 2", server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: "@SSRSUB-V59-付费推荐:suo.yt/ssrsub 2", server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: "@SSRSUB-V55-付费推荐:suo.yt/ssrsub 2", server: 209.209.112.124, port: 8421, type: vmess, uuid: 0ad1e94a-7997-11ec-abb3-621da891c0e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nqEN79Rd/, headers: {Host: 209.209.112.124}}, udp: true}
+  - {name: "@SSRSUB-V56-付费推荐:suo.yt/ssrsub 2", server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}, udp: true}
+  - {name: "@SSRSUB-V57-付费推荐:suo.yt/ssrsub 2", server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
+  - {name: "@SSRSUB-V58-付费推荐:suo.yt/ssrsub 2", server: india.tgsc.xyz, port: 443, type: vmess, uuid: 1355574d-dac9-4006-8420-95a156fa5f32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /V81DFD0H, headers: {Host: india.tgsc.xyz}}, udp: true}
+  - {name: "@SSRSUB-V59-付费推荐:suo.yt/ssrsub 2", server: lin-jp.tgsc.xyz, port: 443, type: vmess, uuid: 57c95541-5147-4dae-81d0-660cc6b25e9b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /FNRWR48K, headers: {Host: lin-jp.tgsc.xyz}}, udp: true}
   - {name: "@SSRSUB-V60-付费推荐:suo.yt/ssrsub 2", server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
   - {name: "@SSRSUB-V61-付费推荐:suo.yt/ssrsub 2", server: 142.4.105.253, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 142.4.105.253}}, udp: true}
-  - {name: "@SSRSUB-加拿大V01-付费推荐::suo.yt/ssrsub 2", server: v1.ssrsub.com, port: 166, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub 2", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V03-付费推荐::suo.yt/ssrsub 2", server: v3.ssrsub.com, port: 443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-大阪V04-付费推荐::suo.yt/ssrsub 2", server: v4.ssrsub.com, port: 166, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V05-付费推荐::suo.yt/ssrsub 2", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-东京V06-付费推荐::suo.yt/ssrsub 2", server: v6.ssrsub.com, port: 166, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v6.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub 2", server: v7.ssrsub.com, port: 8443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub 2", server: v8.ssrsub.com, port: 443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V09-付费推荐::suo.yt/ssrsub 2", server: v9.ssrsub.com, port: 8443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v9.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-春川V10-付费推荐::suo.yt/ssrsub 2", server: v10.ssrsub.com, port: 166, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v10.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub 2", server: v11.ssrsub.com, port: 166, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v11.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-加拿大V12-付费推荐::suo.yt/ssrsub 2", server: v1.ssrsub.com, port: 166, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub 2", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V14-付费推荐::suo.yt/ssrsub 2", server: v3.ssrsub.com, port: 443, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-大阪V15-付费推荐::suo.yt/ssrsub 2", server: v4.ssrsub.com, port: 166, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V16-付费推荐::suo.yt/ssrsub 2", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-东京V17-付费推荐::suo.yt/ssrsub 2", server: v6.ssrsub.com, port: 166, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v6.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-新加坡V18-付费推荐::suo.yt/ssrsub 2", server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-美国V19-付费推荐::suo.yt/ssrsub 2", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V20-付费推荐::suo.yt/ssrsub 2", server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v9.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-春川V21-付费推荐::suo.yt/ssrsub 2", server: v10.ssrsub.com, port: 166, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v10.ssrsub.com}}, udp: true}
-  - {name: "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub 2", server: v11.ssrsub.com, port: 166, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v11.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-美国V01-付费推荐::suo.yt/ssrsub 2", server: v1.ssrsub.com, port: 443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub 2", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯V03-付费推荐::suo.yt/ssrsub 2", server: v3.ssrsub.com, port: 443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-大阪V04-付费推荐::suo.yt/ssrsub 2", server: v4.ssrsub.com, port: 166, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯V05-付费推荐::suo.yt/ssrsub 2", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-东京V06-付费推荐::suo.yt/ssrsub 2", server: v6.ssrsub.com, port: 166, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v6.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub 2", server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub 2", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯V09-付费推荐::suo.yt/ssrsub 2", server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v9.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-春川V10-付费推荐::suo.yt/ssrsub 2", server: v10.ssrsub.com, port: 166, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v10.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub 2", server: v11.ssrsub.com, port: 166, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v11.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-美国V12-付费推荐::suo.yt/ssrsub 2", server: v1.ssrsub.com, port: 443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub 2", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯V14-付费推荐::suo.yt/ssrsub 2", server: v3.ssrsub.com, port: 443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-大阪V15-付费推荐::suo.yt/ssrsub 2", server: v4.ssrsub.com, port: 166, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯V16-付费推荐::suo.yt/ssrsub 2", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-东京V17-付费推荐::suo.yt/ssrsub 2", server: v6.ssrsub.com, port: 166, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v6.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-新加坡V18-付费推荐::suo.yt/ssrsub 2", server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-美国V19-付费推荐::suo.yt/ssrsub 2", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-俄罗斯V20-付费推荐::suo.yt/ssrsub 2", server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v9.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-春川V21-付费推荐::suo.yt/ssrsub 2", server: v10.ssrsub.com, port: 166, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v10.ssrsub.com}}, udp: true}
+  - {name: "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub 2", server: v11.ssrsub.com, port: 166, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v11.ssrsub.com}}, udp: true}
   - {name: 2022-01-31, server: 128hk8.fans8.xyz, port: 80, type: vmess, uuid: f994b406-4f7c-351d-8678-19e38f81dee9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128hk8.fans8.xyz}}, udp: true}
   - {name: 导航频道 t.me/TBBAD, server: 1222hk3.fans8.xyz, port: 80, type: vmess, uuid: f994b406-4f7c-351d-8678-19e38f81dee9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222hk3.fans8.xyz}}, udp: true}
   - {name: 白嫖群组 t.me/freeyule, server: 1222mnl.fans8.xyz, port: 80, type: vmess, uuid: f994b406-4f7c-351d-8678-19e38f81dee9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222mnl.fans8.xyz}}, udp: true}
@@ -1627,105 +1726,105 @@ proxy-groups:
     type: select
     proxies:
       - _GB_英国_1
-      - _US_美国_2
-      - _AU_澳大利亚_3
+      - _CA_加拿大_2
+      - _CA_加拿大_3
       - _CA_加拿大_4
-      - _SG_新加坡_5
-      - _AT_奥地利_6
-      - _CA_加拿大_7
-      - _CA_加拿大_8
-      - _CA_加拿大_9
-      - _US_美国_10
-      - _GB_英国_11
-      - _IN_印度_12
+      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _GB_英国_8
+      - _KR_韩国_9
+      - _KR_韩国_10
+      - _US_美国_11
+      - _US_美国_12
       - _GB_英国_13
-      - _US_美国_14
-      - _US_美国_15
-      - _SG_新加坡_16
+      - _DE_德国_14
+      - _KR_韩国_15
+      - _CA_加拿大_16
       - _US_美国_17
-      - _SG_新加坡_18
-      - _DE_德国_19
-      - _US_美国_20
-      - _US_美国_21
-      - _US_美国_22
-      - _US_美国_23
-      - _FR_法国_24
-      - _US_美国_25
-      - _US_美国_26
-      - _IN_印度_27
-      - _US_美国_28
+      - _US_美国_18
+      - _IN_印度_19
+      - _CA_加拿大_20
+      - _GB_英国_21
+      - _NO_挪威_22
+      - _CA_加拿大_23
+      - _US_美国_24
+      - _GB_英国_25
+      - _IN_印度_26
+      - _US_美国_27
+      - _DE_德国_28
       - _CA_加拿大_29
-      - _CA_加拿大_30
+      - _SG_新加坡_30
       - _US_美国_31
-      - _KR_韩国_32
-      - _JP_日本_33
-      - _US_美国_34
-      - _US_美国_35
-      - _US_美国_36
-      - _AU_澳大利亚_37
+      - _US_美国_32
+      - _NO_挪威_33
+      - _GB_英国_34
+      - _CA_加拿大_35
+      - _CA_加拿大_36
+      - _US_美国_37
       - _CA_加拿大_38
-      - _US_美国_39
+      - _CA_加拿大_39
       - _US_美国_40
-      - _BV_布维岛_41
-      - _CA_加拿大_42
-      - _CA_加拿大_43
-      - _DE_德国_44
-      - _CA_加拿大_45
+      - _US_美国_41
+      - _RU_俄罗斯联邦_42
+      - _GB_英国_43
+      - _ES_西班牙_44
+      - _GB_英国_45
       - _US_美国_46
       - _US_美国_47
-      - _IN_印度_48
-      - _RU_俄罗斯联邦_49
-      - _US_美国_50
-      - _KR_韩国_51
+      - _CA_加拿大_48
+      - _IN_印度_49
+      - _KR_韩国_50
+      - _CA_加拿大_51
       - _CA_加拿大_52
-      - _DE_德国_53
-      - _GB_英国_54
+      - _CA_加拿大_53
+      - _AU_澳大利亚_54
       - _US_美国_55
       - _US_美国_56
       - _US_美国_57
-      - _US_美国_58
-      - _NO_挪威_59
+      - _CA_加拿大_58
+      - _US_美国_59
       - _CA_加拿大_60
-      - _GB_英国_61
+      - _US_美国_61
       - _US_美国_62
-      - _GB_英国_63
-      - _US_美国_64
-      - _IN_印度_65
-      - _CA_加拿大_66
-      - _IN_印度_67
+      - _SG_新加坡_63
+      - _AU_澳大利亚_64
+      - _JP_日本_65
+      - _US_美国_66
+      - _US_美国_67
       - _US_美国_68
-      - _CA_加拿大_69
-      - _GB_英国_70
-      - _US_美国_71
-      - _CA_加拿大_72
-      - _US_美国_73
-      - _GB_英国_74
+      - _GB_英国_69
+      - _US_美国_70
+      - _CA_加拿大_71
+      - _US_美国_72
+      - _CA_加拿大_73
+      - _CA_加拿大_74
       - _CA_加拿大_75
       - _US_美国_76
-      - _CA_加拿大_77
-      - _KR_韩国_78
-      - _FR_法国_79
+      - _US_美国_77
+      - _US_美国_78
+      - _AU_澳大利亚_79
       - _CA_加拿大_80
       - _US_美国_81
-      - _US_美国_82
-      - _CA_加拿大_83
-      - _CA_加拿大_84
-      - _US_美国_85
-      - _US_美国_86
-      - _GB_英国_87
+      - _US_美国->🇫🇷_FR_法国_82
+      - _US_美国_83
+      - _US_美国_84
+      - _CA_加拿大_85
+      - _CA_加拿大_86
+      - _CA_加拿大_87
       - _US_美国_88
       - _US_美国_89
-      - _FR_法国_90
-      - _IN_印度_91
-      - _CA_加拿大_92
+      - _GB_英国_90
+      - _FR_法国_91
+      - _US_美国_92
       - _US_美国_93
-      - _GB_英国_94
-      - _IN_印度_95
-      - _US_美国_96
+      - _AU_澳大利亚_94
+      - _DE_德国_95
+      - _NG_尼日利亚_96
       - _CA_加拿大_97
-      - _KR_韩国_98
-      - _CA_加拿大_99
-      - _KR_韩国_100
+      - _US_美国_98
+      - _KR_韩国_99
+      - _CA_加拿大_100
       - 法国(欢迎订阅Youtube破解资源君)
       - 法国(欢迎订阅Youtube破解资源君) 2
       - 加拿大(欢迎订阅Youtube破解资源君)
@@ -1926,24 +2025,103 @@ proxy-groups:
       - _香港_HK-2022.01.28_18_18
       - _香港_HK-2022.01.28_19_19
       - _中国_HK-2022.01.28_20_20
-      - 付费推荐:dlj.tf/ssrsub__01
-      - 付费推荐:dlj.tf/ssrsub__02
-      - 付费推荐:dlj.tf/ssrsub__03
-      - 付费推荐:dlj.tf/ssrsub__04
-      - 付费推荐:dlj.tf/ssrsub__05
-      - 付费推荐:dlj.tf/ssrsub__06
-      - 付费推荐:dlj.tf/ssrsub__07
-      - 付费推荐:dlj.tf/ssrsub__08
-      - 付费推荐:dlj.tf/ssrsub__09
-      - 付费推荐:dlj.tf/ssrsub__10
-      - 付费推荐:dlj.tf/ssrsub__11
-      - 付费推荐:dlj.tf/ssrsub__12
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 付费推荐:dlj.tf/ssrsub__14
-      - 付费推荐:dlj.tf/ssrsub__15
-      - 付费推荐:dlj.tf/ssrsub__16
-      - 付费推荐:dlj.tf/ssrsub__17
-      - 付费推荐:dlj.tf/ssrsub__18
+      - _01
+      - _02
+      - Relay_-🇫🇷FR_03
+      - _04
+      - Relay_-🇫🇷FR_05
+      - Relay_-🇫🇷FR_06
+      - _07
+      - _08
+      - _09
+      - _10
+      - _11
+      - _12
+      - _13
+      - Relay_🇦🇹AT-🇦🇹AT_31
+      - AU_32
+      - AU_33
+      - AU_34
+      - AU_35
+      - AU_36
+      - AU_37
+      - AU_38
+      - CA_39
+      - CA_40
+      - CA_41
+      - CA_42
+      - CA_43
+      - CA_44
+      - Relay_🇨🇦CA-🇨🇦CA_45
+      - CA_46
+      - CA_47
+      - Relay_🇨🇦CA-🇨🇦CA_48
+      - Relay_🇨🇭CH-🇨🇭CH_51
+      - Relay_🇩🇪DE-🇩🇪DE_52
+      - FR_53
+      - FR_54
+      - FR_55
+      - Relay_🇫🇷FR-🇫🇷FR_56
+      - Relay_🇫🇷FR-🇫🇷FR_57
+      - FR_58
+      - FR_59
+      - Relay_🇬🇷GR-🇬🇷GR_60
+      - Relay_🇭🇰HK-🇭🇰HK_61
+      - Relay_🇭🇺HU-🇭🇺HU_64
+      - Relay_🇮🇩ID-🇮🇩ID_65
+      - Relay_🇮🇱IL-🇮🇱IL_66
+      - JP_69
+      - Relay_🇲🇾MY-🇲🇾MY_72
+      - NO_73
+      - NO_74
+      - PH_75
+      - PH_76
+      - Relay_🇹🇼TW-🇹🇼TW_77
+      - US_78
+      - US_79
+      - US_80
+      - US_81
+      - US_82
+      - US_83
+      - US_84
+      - US_85
+      - US_86
+      - US_87
+      - US_88
+      - Relay_🇺🇸US-🇺🇸US_89
+      - US_90
+      - US_91
+      - US_92
+      - Relay_🇺🇸US-🇳🇬NG_93
+      - US_94
+      - US_95
+      - US_96
+      - US_97
+      - US_98
+      - US_99
+      - US_100
+      - US_101
+      - US_102
+      - US_103
+      - US_104
+      - US_105
+      - US_106
+      - US_107
+      - US_108
+      - US_109
+      - Relay_🇻🇳VN-🇻🇳VN_115
+      - Relay_🇿🇦ZA-🇿🇦ZA_116
+      - ZZ_117
+      - ZZ_118
+      - ZZ_119
+      - ZZ_120
+      - ZZ_121
+      - ZZ_122
+      - ZZ_123
+      - ZZ_124
+      - ZZ_125
+      - ZZ_126
+      - ZZ_127
       - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V02-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
@@ -1983,16 +2161,26 @@ proxy-groups:
       - "@SSRSUB-V40-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V41-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V42-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V43-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V44-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V45-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V46-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V47-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V48-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V49-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V50-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V51-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V52-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V53-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V54-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V55-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V56-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V57-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V58-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V59-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V60-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V61-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-加拿大V01-付费推荐::suo.yt/ssrsub"
+      - "@SSRSUB-美国V01-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-俄罗斯V03-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-大阪V04-付费推荐::suo.yt/ssrsub"
@@ -2003,7 +2191,7 @@ proxy-groups:
       - "@SSRSUB-俄罗斯V09-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-春川V10-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-加拿大V12-付费推荐::suo.yt/ssrsub"
+      - "@SSRSUB-美国V12-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-俄罗斯V14-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-大阪V15-付费推荐::suo.yt/ssrsub"
@@ -2014,7 +2202,7 @@ proxy-groups:
       - "@SSRSUB-俄罗斯V20-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-春川V21-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-美国T01-付费推荐:dlj.tf/ssrsub"
+      - "@SSRSUB-加拿大T01-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-俄罗斯T02-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-加拿大T03-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-加拿大T04-付费推荐:dlj.tf/ssrsub"
@@ -2024,7 +2212,7 @@ proxy-groups:
       - "@SSRSUB-大阪T08-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-东京T09-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-首尔T10-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-美国T11-付费推荐:dlj.tf/ssrsub"
+      - "@SSRSUB-加拿大T11-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-加拿大T13-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-加拿大T14-付费推荐:dlj.tf/ssrsub"
@@ -2696,16 +2884,26 @@ proxy-groups:
       - "@SSRSUB-V40-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V41-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V42-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V43-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V44-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V45-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V46-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V47-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V48-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V49-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V50-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V51-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V52-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V53-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V54-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V55-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V56-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V57-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V58-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V59-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V60-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V61-付费推荐:suo.yt/ssrsub 2"
-      - "@SSRSUB-加拿大V01-付费推荐::suo.yt/ssrsub 2"
+      - "@SSRSUB-美国V01-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-俄罗斯V03-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-大阪V04-付费推荐::suo.yt/ssrsub 2"
@@ -2716,7 +2914,7 @@ proxy-groups:
       - "@SSRSUB-俄罗斯V09-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-春川V10-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub 2"
-      - "@SSRSUB-加拿大V12-付费推荐::suo.yt/ssrsub 2"
+      - "@SSRSUB-美国V12-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-俄罗斯V14-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-大阪V15-付费推荐::suo.yt/ssrsub 2"
@@ -3237,105 +3435,105 @@ proxy-groups:
     interval: 300
     proxies:
       - _GB_英国_1
-      - _US_美国_2
-      - _AU_澳大利亚_3
+      - _CA_加拿大_2
+      - _CA_加拿大_3
       - _CA_加拿大_4
-      - _SG_新加坡_5
-      - _AT_奥地利_6
-      - _CA_加拿大_7
-      - _CA_加拿大_8
-      - _CA_加拿大_9
-      - _US_美国_10
-      - _GB_英国_11
-      - _IN_印度_12
+      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _GB_英国_8
+      - _KR_韩国_9
+      - _KR_韩国_10
+      - _US_美国_11
+      - _US_美国_12
       - _GB_英国_13
-      - _US_美国_14
-      - _US_美国_15
-      - _SG_新加坡_16
+      - _DE_德国_14
+      - _KR_韩国_15
+      - _CA_加拿大_16
       - _US_美国_17
-      - _SG_新加坡_18
-      - _DE_德国_19
-      - _US_美国_20
-      - _US_美国_21
-      - _US_美国_22
-      - _US_美国_23
-      - _FR_法国_24
-      - _US_美国_25
-      - _US_美国_26
-      - _IN_印度_27
-      - _US_美国_28
+      - _US_美国_18
+      - _IN_印度_19
+      - _CA_加拿大_20
+      - _GB_英国_21
+      - _NO_挪威_22
+      - _CA_加拿大_23
+      - _US_美国_24
+      - _GB_英国_25
+      - _IN_印度_26
+      - _US_美国_27
+      - _DE_德国_28
       - _CA_加拿大_29
-      - _CA_加拿大_30
+      - _SG_新加坡_30
       - _US_美国_31
-      - _KR_韩国_32
-      - _JP_日本_33
-      - _US_美国_34
-      - _US_美国_35
-      - _US_美国_36
-      - _AU_澳大利亚_37
+      - _US_美国_32
+      - _NO_挪威_33
+      - _GB_英国_34
+      - _CA_加拿大_35
+      - _CA_加拿大_36
+      - _US_美国_37
       - _CA_加拿大_38
-      - _US_美国_39
+      - _CA_加拿大_39
       - _US_美国_40
-      - _BV_布维岛_41
-      - _CA_加拿大_42
-      - _CA_加拿大_43
-      - _DE_德国_44
-      - _CA_加拿大_45
+      - _US_美国_41
+      - _RU_俄罗斯联邦_42
+      - _GB_英国_43
+      - _ES_西班牙_44
+      - _GB_英国_45
       - _US_美国_46
       - _US_美国_47
-      - _IN_印度_48
-      - _RU_俄罗斯联邦_49
-      - _US_美国_50
-      - _KR_韩国_51
+      - _CA_加拿大_48
+      - _IN_印度_49
+      - _KR_韩国_50
+      - _CA_加拿大_51
       - _CA_加拿大_52
-      - _DE_德国_53
-      - _GB_英国_54
+      - _CA_加拿大_53
+      - _AU_澳大利亚_54
       - _US_美国_55
       - _US_美国_56
       - _US_美国_57
-      - _US_美国_58
-      - _NO_挪威_59
+      - _CA_加拿大_58
+      - _US_美国_59
       - _CA_加拿大_60
-      - _GB_英国_61
+      - _US_美国_61
       - _US_美国_62
-      - _GB_英国_63
-      - _US_美国_64
-      - _IN_印度_65
-      - _CA_加拿大_66
-      - _IN_印度_67
+      - _SG_新加坡_63
+      - _AU_澳大利亚_64
+      - _JP_日本_65
+      - _US_美国_66
+      - _US_美国_67
       - _US_美国_68
-      - _CA_加拿大_69
-      - _GB_英国_70
-      - _US_美国_71
-      - _CA_加拿大_72
-      - _US_美国_73
-      - _GB_英国_74
+      - _GB_英国_69
+      - _US_美国_70
+      - _CA_加拿大_71
+      - _US_美国_72
+      - _CA_加拿大_73
+      - _CA_加拿大_74
       - _CA_加拿大_75
       - _US_美国_76
-      - _CA_加拿大_77
-      - _KR_韩国_78
-      - _FR_法国_79
+      - _US_美国_77
+      - _US_美国_78
+      - _AU_澳大利亚_79
       - _CA_加拿大_80
       - _US_美国_81
-      - _US_美国_82
-      - _CA_加拿大_83
-      - _CA_加拿大_84
-      - _US_美国_85
-      - _US_美国_86
-      - _GB_英国_87
+      - _US_美国->🇫🇷_FR_法国_82
+      - _US_美国_83
+      - _US_美国_84
+      - _CA_加拿大_85
+      - _CA_加拿大_86
+      - _CA_加拿大_87
       - _US_美国_88
       - _US_美国_89
-      - _FR_法国_90
-      - _IN_印度_91
-      - _CA_加拿大_92
+      - _GB_英国_90
+      - _FR_法国_91
+      - _US_美国_92
       - _US_美国_93
-      - _GB_英国_94
-      - _IN_印度_95
-      - _US_美国_96
+      - _AU_澳大利亚_94
+      - _DE_德国_95
+      - _NG_尼日利亚_96
       - _CA_加拿大_97
-      - _KR_韩国_98
-      - _CA_加拿大_99
-      - _KR_韩国_100
+      - _US_美国_98
+      - _KR_韩国_99
+      - _CA_加拿大_100
       - 法国(欢迎订阅Youtube破解资源君)
       - 法国(欢迎订阅Youtube破解资源君) 2
       - 加拿大(欢迎订阅Youtube破解资源君)
@@ -3536,24 +3734,103 @@ proxy-groups:
       - _香港_HK-2022.01.28_18_18
       - _香港_HK-2022.01.28_19_19
       - _中国_HK-2022.01.28_20_20
-      - 付费推荐:dlj.tf/ssrsub__01
-      - 付费推荐:dlj.tf/ssrsub__02
-      - 付费推荐:dlj.tf/ssrsub__03
-      - 付费推荐:dlj.tf/ssrsub__04
-      - 付费推荐:dlj.tf/ssrsub__05
-      - 付费推荐:dlj.tf/ssrsub__06
-      - 付费推荐:dlj.tf/ssrsub__07
-      - 付费推荐:dlj.tf/ssrsub__08
-      - 付费推荐:dlj.tf/ssrsub__09
-      - 付费推荐:dlj.tf/ssrsub__10
-      - 付费推荐:dlj.tf/ssrsub__11
-      - 付费推荐:dlj.tf/ssrsub__12
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 付费推荐:dlj.tf/ssrsub__14
-      - 付费推荐:dlj.tf/ssrsub__15
-      - 付费推荐:dlj.tf/ssrsub__16
-      - 付费推荐:dlj.tf/ssrsub__17
-      - 付费推荐:dlj.tf/ssrsub__18
+      - _01
+      - _02
+      - Relay_-🇫🇷FR_03
+      - _04
+      - Relay_-🇫🇷FR_05
+      - Relay_-🇫🇷FR_06
+      - _07
+      - _08
+      - _09
+      - _10
+      - _11
+      - _12
+      - _13
+      - Relay_🇦🇹AT-🇦🇹AT_31
+      - AU_32
+      - AU_33
+      - AU_34
+      - AU_35
+      - AU_36
+      - AU_37
+      - AU_38
+      - CA_39
+      - CA_40
+      - CA_41
+      - CA_42
+      - CA_43
+      - CA_44
+      - Relay_🇨🇦CA-🇨🇦CA_45
+      - CA_46
+      - CA_47
+      - Relay_🇨🇦CA-🇨🇦CA_48
+      - Relay_🇨🇭CH-🇨🇭CH_51
+      - Relay_🇩🇪DE-🇩🇪DE_52
+      - FR_53
+      - FR_54
+      - FR_55
+      - Relay_🇫🇷FR-🇫🇷FR_56
+      - Relay_🇫🇷FR-🇫🇷FR_57
+      - FR_58
+      - FR_59
+      - Relay_🇬🇷GR-🇬🇷GR_60
+      - Relay_🇭🇰HK-🇭🇰HK_61
+      - Relay_🇭🇺HU-🇭🇺HU_64
+      - Relay_🇮🇩ID-🇮🇩ID_65
+      - Relay_🇮🇱IL-🇮🇱IL_66
+      - JP_69
+      - Relay_🇲🇾MY-🇲🇾MY_72
+      - NO_73
+      - NO_74
+      - PH_75
+      - PH_76
+      - Relay_🇹🇼TW-🇹🇼TW_77
+      - US_78
+      - US_79
+      - US_80
+      - US_81
+      - US_82
+      - US_83
+      - US_84
+      - US_85
+      - US_86
+      - US_87
+      - US_88
+      - Relay_🇺🇸US-🇺🇸US_89
+      - US_90
+      - US_91
+      - US_92
+      - Relay_🇺🇸US-🇳🇬NG_93
+      - US_94
+      - US_95
+      - US_96
+      - US_97
+      - US_98
+      - US_99
+      - US_100
+      - US_101
+      - US_102
+      - US_103
+      - US_104
+      - US_105
+      - US_106
+      - US_107
+      - US_108
+      - US_109
+      - Relay_🇻🇳VN-🇻🇳VN_115
+      - Relay_🇿🇦ZA-🇿🇦ZA_116
+      - ZZ_117
+      - ZZ_118
+      - ZZ_119
+      - ZZ_120
+      - ZZ_121
+      - ZZ_122
+      - ZZ_123
+      - ZZ_124
+      - ZZ_125
+      - ZZ_126
+      - ZZ_127
       - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V02-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
@@ -3593,16 +3870,26 @@ proxy-groups:
       - "@SSRSUB-V40-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V41-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V42-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V43-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V44-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V45-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V46-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V47-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V48-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V49-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V50-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V51-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V52-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V53-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V54-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V55-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V56-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V57-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V58-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V59-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V60-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V61-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-加拿大V01-付费推荐::suo.yt/ssrsub"
+      - "@SSRSUB-美国V01-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-俄罗斯V03-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-大阪V04-付费推荐::suo.yt/ssrsub"
@@ -3613,7 +3900,7 @@ proxy-groups:
       - "@SSRSUB-俄罗斯V09-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-春川V10-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-加拿大V12-付费推荐::suo.yt/ssrsub"
+      - "@SSRSUB-美国V12-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-俄罗斯V14-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-大阪V15-付费推荐::suo.yt/ssrsub"
@@ -3624,7 +3911,7 @@ proxy-groups:
       - "@SSRSUB-俄罗斯V20-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-春川V21-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-美国T01-付费推荐:dlj.tf/ssrsub"
+      - "@SSRSUB-加拿大T01-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-俄罗斯T02-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-加拿大T03-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-加拿大T04-付费推荐:dlj.tf/ssrsub"
@@ -3634,7 +3921,7 @@ proxy-groups:
       - "@SSRSUB-大阪T08-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-东京T09-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-首尔T10-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-美国T11-付费推荐:dlj.tf/ssrsub"
+      - "@SSRSUB-加拿大T11-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-俄罗斯T12-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-加拿大T13-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-加拿大T14-付费推荐:dlj.tf/ssrsub"
@@ -4306,16 +4593,26 @@ proxy-groups:
       - "@SSRSUB-V40-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V41-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V42-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V43-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V44-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V45-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V46-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V47-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V48-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V49-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V50-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V51-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V52-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V53-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V54-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V55-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V56-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V57-付费推荐:suo.yt/ssrsub 2"
+      - "@SSRSUB-V58-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V59-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V60-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V61-付费推荐:suo.yt/ssrsub 2"
-      - "@SSRSUB-加拿大V01-付费推荐::suo.yt/ssrsub 2"
+      - "@SSRSUB-美国V01-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-俄罗斯V03-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-大阪V04-付费推荐::suo.yt/ssrsub 2"
@@ -4326,7 +4623,7 @@ proxy-groups:
       - "@SSRSUB-俄罗斯V09-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-春川V10-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub 2"
-      - "@SSRSUB-加拿大V12-付费推荐::suo.yt/ssrsub 2"
+      - "@SSRSUB-美国V12-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-俄罗斯V14-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-大阪V15-付费推荐::suo.yt/ssrsub 2"
@@ -5055,6 +5352,7 @@ proxy-groups:
       - _香港_HK-2022.01.28_18_18
       - _香港_HK-2022.01.28_19_19
       - _中国_HK-2022.01.28_20_20
+      - Relay_🇭🇰HK-🇭🇰HK_61
       - Lv2 BGP 中继 香港B
       - 普通节点-香港A
       - 普通节点-香港B
@@ -5123,13 +5421,15 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _JP_日本_33
+      - _JP_日本_65
+      - _NG_尼日利亚_96
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
       - 日本（YouTube资源分享者） 4
       - 日本（YouTube资源分享者） 5
       - 日本（YouTube资源分享者） 6
+      - JP_69
       - "@SSRSUB-大阪V04-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-东京V06-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-大阪V15-付费推荐::suo.yt/ssrsub"
@@ -5179,45 +5479,45 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_2
-      - _US_美国_10
-      - _US_美国_14
-      - _US_美国_15
+      - _US_美国_5
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_11
+      - _US_美国_12
       - _US_美国_17
-      - _US_美国_20
-      - _US_美国_21
-      - _US_美国_22
-      - _US_美国_23
-      - _US_美国_25
-      - _US_美国_26
-      - _US_美国_28
+      - _US_美国_18
+      - _US_美国_24
+      - _US_美国_27
       - _US_美国_31
-      - _US_美国_34
-      - _US_美国_35
-      - _US_美国_36
-      - _US_美国_39
+      - _US_美国_32
+      - _US_美国_37
       - _US_美国_40
+      - _US_美国_41
       - _US_美国_46
       - _US_美国_47
-      - _US_美国_50
       - _US_美国_55
       - _US_美国_56
       - _US_美国_57
-      - _US_美国_58
+      - _US_美国_59
+      - _US_美国_61
       - _US_美国_62
-      - _US_美国_64
+      - _US_美国_66
+      - _US_美国_67
       - _US_美国_68
-      - _US_美国_71
-      - _US_美国_73
+      - _US_美国_70
+      - _US_美国_72
       - _US_美国_76
+      - _US_美国_77
+      - _US_美国_78
       - _US_美国_81
-      - _US_美国_82
-      - _US_美国_85
-      - _US_美国_86
+      - _US_美国->🇫🇷_FR_法国_82
+      - _US_美国_83
+      - _US_美国_84
       - _US_美国_88
       - _US_美国_89
+      - _US_美国_92
       - _US_美国_93
-      - _US_美国_96
+      - _US_美国_98
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -5280,10 +5580,42 @@ proxy-groups:
       - 美国（YouTube资源分享者） 31
       - 美国（YouTube资源分享者） 32
       - 美国（YouTube资源分享者） 33
+      - US_78
+      - US_79
+      - US_80
+      - US_81
+      - US_82
+      - US_83
+      - US_84
+      - US_85
+      - US_86
+      - US_87
+      - US_88
+      - Relay_🇺🇸US-🇺🇸US_89
+      - US_90
+      - US_91
+      - US_92
+      - Relay_🇺🇸US-🇳🇬NG_93
+      - US_94
+      - US_95
+      - US_96
+      - US_97
+      - US_98
+      - US_99
+      - US_100
+      - US_101
+      - US_102
+      - US_103
+      - US_104
+      - US_105
+      - US_106
+      - US_107
+      - US_108
+      - US_109
+      - "@SSRSUB-美国V01-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
+      - "@SSRSUB-美国V12-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-美国V19-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-美国T01-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-美国T11-付费推荐:dlj.tf/ssrsub"
       - Ytb:鹏哥分享_US_美国_7
       - Ytb:鹏哥分享_US_美国_12
       - Ytb:鹏哥分享_US_美国_13
@@ -5520,7 +5852,9 @@ proxy-groups:
       - _US_美国_FMYC-2022.01.28_70
       - _US_美国_FMYC-2022.01.28_71
       - _US_美国_FMYC-2022.01.28_72
+      - "@SSRSUB-美国V01-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub 2"
+      - "@SSRSUB-美国V12-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-美国V19-付费推荐::suo.yt/ssrsub 2"
       - 22美国∞中转
       - 23美国∞中转
@@ -5735,6 +6069,7 @@ proxy-groups:
       - 台湾（YouTube资源分享者） 6
       - 台湾（YouTube资源分享者） 7
       - 台湾（YouTube资源分享者） 8
+      - Relay_🇹🇼TW-🇹🇼TW_77
       - Ytb:鹏哥分享_TW_台湾_272
       - Ytb:鹏哥分享_TW_台湾_284
       - Lv2 BGP 中继 台湾A
@@ -5770,9 +6105,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _SG_新加坡_5
-      - _SG_新加坡_16
-      - _SG_新加坡_18
+      - _SG_新加坡_30
+      - _SG_新加坡_63
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡（YouTube资源分享者）
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub"
@@ -5807,11 +6141,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _KR_韩国_32
-      - _KR_韩国_51
-      - _KR_韩国_78
-      - _KR_韩国_98
-      - _KR_韩国_100
+      - _KR_韩国_9
+      - _KR_韩国_10
+      - _KR_韩国_15
+      - _KR_韩国_50
+      - _KR_韩国_99
       - "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-韩国T05-付费推荐:dlj.tf/ssrsub"
