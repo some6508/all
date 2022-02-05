@@ -947,413 +947,106 @@ proxies:
   - {name: RELAY-198.41.212.9-0068, server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
   - {name: FR-149.202.82.172-0000, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: EG-188.214.122.138-1117, server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg, udp: true}
-  - {name: 科技网络_1, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 科技网络_2, server: 167.88.63.61, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_3, server: 167.88.63.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_4, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_5, server: 38.68.134.23, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_6, server: 38.75.136.93, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_7, server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_8, server: 172.99.190.87, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_9, server: 167.88.63.61, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_10, server: 38.91.101.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_11, server: 167.88.63.74, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_12, server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_13, server: 38.121.43.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_14, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_15, server: 167.88.63.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_16, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_17, server: t5.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_18, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_19, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_20, server: 38.75.136.45, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_21, server: 192.46.209.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_22, server: 38.107.226.48, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_23, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 科技网络_24, server: 134.195.196.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_25, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_26, server: 198.57.27.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_27, server: t3.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_28, server: 38.68.134.23, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_29, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_30, server: t3.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_31, server: 198.57.27.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_32, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_33, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_34, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_35, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_36, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_37, server: 38.107.226.48, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_38, server: t1.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_39, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_40, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_41, server: t1.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_42, server: 192.53.168.189, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_43, server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_44, server: 192.53.168.189, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_45, server: 134.195.196.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_46, server: 192.53.168.189, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_47, server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_48, server: 198.57.27.152, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_49, server: 134.195.196.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_50, server: 134.195.196.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_51, server: 38.68.134.23, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_52, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: 科技网络_53, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_54, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_55, server: ro.scsevers.cf, port: 443, type: trojan, password: scyyds, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_56, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_57, server: 38.75.136.45, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_58, server: 38.75.136.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_59, server: 198.57.27.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 科技网络_60, server: 38.68.134.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_61, server: 139.162.24.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_62, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_63, server: 139.162.52.177, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 科技网络_64, server: 139.162.24.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_65, server: 139.162.24.50, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_66, server: 139.162.24.50, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_67, server: jp11.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_68, server: 139.162.52.177, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_69, server: 139.162.24.50, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_70, server: 139.162.24.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_71, server: 139.162.24.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_72, server: 139.162.52.177, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_73, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_74, server: 139.162.24.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_75, server: 139.162.24.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_76, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_77, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_78, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_79, server: 139.99.68.127, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_80, server: 139.162.24.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_81, server: 139.162.52.177, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_82, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_83, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_84, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_85, server: 158.247.219.68, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_86, server: 51.79.176.48, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_87, server: 158.247.203.168, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_88, server: 158.247.224.3, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_89, server: 38.68.134.23, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_90, server: 158.247.203.168, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 科技网络_91, server: 192.46.209.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_92, server: 172.105.57.249, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_93, server: 192.46.209.227, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_94, server: 172.105.57.249, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_95, server: 192.46.209.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_96, server: 192.46.209.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_97, server: 158.247.203.168, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_98, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_99, server: 192.46.209.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 科技网络_100, server: 192.46.209.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_101, server: 141.164.57.134, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_102, server: 158.247.208.213, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_103, server: 192.46.209.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_104, server: 192.46.209.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_105, server: t9.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_106, server: 141.164.57.134, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_107, server: 192.46.209.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_108, server: t9.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_109, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_110, server: 158.247.203.168, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_111, server: 192.46.209.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_112, server: 192.46.209.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_113, server: 192.46.209.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_114, server: 192.46.209.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_115, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_116, server: 192.46.209.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_117, server: 192.46.209.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 科技网络_118, server: 192.46.209.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_119, server: 192.46.209.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_120, server: 192.46.209.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 科技网络_121, server: 192.46.209.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_122, server: 192.46.209.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_123, server: 172.105.57.249, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_124, server: 192.46.209.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_125, server: 192.46.209.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_126, server: 192.46.209.227, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_127, server: 192.46.209.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_128, server: 192.46.209.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_129, server: 192.46.209.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_130, server: 46.29.219.246, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_131, server: 192.46.209.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 科技网络_132, server: 192.46.209.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_133, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_134, server: 46.29.218.146, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_135, server: 192.46.209.227, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_136, server: tt1.tjvpn.top, port: 2022, type: trojan, password: 0cb2cd1f-870b-485c-914a-60aba39eed39, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_137, server: 169.197.142.48, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_138, server: 169.197.142.48, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_139, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_140, server: t6.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_141, server: 167.88.61.175, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_142, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_143, server: 46.29.219.246, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_144, server: 46.29.219.246, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_145, server: 46.29.219.246, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_146, server: 167.88.61.14, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_147, server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_148, server: 167.88.61.14, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_149, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_150, server: 46.29.218.146, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_151, server: t6.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_152, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_153, server: 46.29.218.146, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_154, server: 46.29.218.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 科技网络_155, server: 46.29.218.146, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_156, server: 172.105.244.165, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_157, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_158, server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_159, server: 38.68.134.191, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_160, server: 46.29.219.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_161, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_162, server: 172.105.244.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_163, server: 38.68.134.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_164, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_165, server: 167.88.62.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_166, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_167, server: 167.88.62.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_168, server: 167.88.63.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_169, server: t5.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_170, server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_171, server: 46.29.219.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_172, server: 167.88.63.61, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_173, server: 38.75.136.93, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 科技网络_174, server: 38.68.134.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_175, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_176, server: 172.105.244.165, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_177, server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_178, server: 167.88.62.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_179, server: 167.88.63.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 科技网络_180, server: 167.88.63.61, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_181, server: t10.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_182, server: 167.88.63.61, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_183, server: 167.88.63.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_184, server: 167.88.63.61, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_185, server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_186, server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_187, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_188, server: 167.88.63.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 科技网络_189, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_190, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_191, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_192, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_193, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_194, server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_195, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 科技网络_196, server: 167.88.63.61, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_197, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_198, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_199, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_200, server: 167.88.63.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_201, server: 38.68.134.23, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 科技网络_202, server: 38.68.134.23, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_203, server: 38.68.134.23, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_204, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_205, server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_206, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_207, server: 172.99.190.87, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_208, server: 62.210.209.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_209, server: 167.88.63.61, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_210, server: 167.88.63.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_211, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_212, server: 38.68.134.23, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_213, server: 38.91.101.11, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_214, server: 167.88.63.61, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_215, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_216, server: 38.68.134.23, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_217, server: 38.68.134.23, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_218, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_219, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_220, server: 167.88.63.61, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_221, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_222, server: 38.68.134.23, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_223, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_224, server: 38.68.134.23, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_225, server: 167.88.63.61, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_226, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_227, server: 134.195.196.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_228, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_229, server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_230, server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_231, server: 38.68.134.23, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_232, server: 62.210.209.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_233, server: 38.75.136.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_234, server: 172.99.190.87, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_235, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_236, server: 172.105.244.165, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_237, server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_238, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_239, server: 142.202.48.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_240, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_241, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_242, server: 134.195.196.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_243, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_244, server: 167.88.63.61, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_245, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_246, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_247, server: 134.195.196.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_248, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_249, server: 38.68.134.23, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 科技网络_250, server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_251, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_252, server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_253, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_254, server: 134.195.196.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_255, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_256, server: 172.105.244.165, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 科技网络_257, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_258, server: 167.88.63.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_259, server: 172.99.190.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 科技网络_260, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_261, server: 167.88.63.61, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_262, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_263, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_264, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_265, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_266, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_267, server: 172.99.190.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_268, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_269, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_270, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 科技网络_271, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_272, server: 134.195.196.71, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_273, server: t8.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_274, server: 134.195.196.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_275, server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_276, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_277, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_278, server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_279, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_280, server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 科技网络_281, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_282, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_283, server: 172.105.244.165, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_284, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_285, server: 198.57.27.200, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_286, server: 43.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_287, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 科技网络_288, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_289, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_290, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_291, server: 142.202.48.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_292, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_293, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_294, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_295, server: 198.57.27.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_296, server: 198.57.27.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_297, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_298, server: 38.75.136.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 科技网络_299, server: 134.195.196.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_300, server: 134.195.196.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 科技网络_301, server: 38.75.136.93, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_302, server: 172.105.244.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_303, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_304, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_305, server: 172.105.244.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_306, server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 科技网络_307, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_308, server: 134.195.196.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_309, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_310, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_311, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_312, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_313, server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_314, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_315, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_316, server: 134.195.196.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_317, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_318, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_319, server: 142.202.48.34, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_320, server: 38.75.136.93, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_321, server: 198.57.27.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_322, server: 134.195.196.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_323, server: 198.57.27.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_324, server: 134.195.196.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_325, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 科技网络_326, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_327, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_328, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_329, server: 38.107.226.48, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_330, server: 198.57.27.200, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_331, server: 198.57.27.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_332, server: 198.57.27.200, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_333, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_334, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_335, server: t8.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_336, server: 198.57.27.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_337, server: 134.195.196.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 科技网络_338, server: 38.75.136.93, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_339, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_340, server: 134.195.196.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_341, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_342, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_343, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_344, server: 198.57.27.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_345, server: 198.57.27.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 科技网络_346, server: 198.57.27.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_347, server: 198.57.27.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_348, server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_349, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_350, server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_351, server: 167.86.82.191, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1z7k5IMlPsvk, udp: true}
-  - {name: 科技网络_352, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_353, server: 198.57.27.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_354, server: 38.75.136.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_355, server: 198.57.27.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 科技网络_356, server: 198.57.27.172, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_357, server: 198.57.27.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_358, server: 198.57.27.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_359, server: 198.57.27.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_360, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_361, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_362, server: 198.57.27.172, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 科技网络_363, server: 38.75.136.93, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_364, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_365, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_366, server: 38.75.136.93, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_367, server: 198.57.27.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 科技网络_368, server: 46.29.218.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_369, server: 134.195.196.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_370, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 科技网络_371, server: 134.195.196.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 科技网络_372, server: 198.57.27.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_373, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_374, server: 198.57.27.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 科技网络_375, server: 134.195.196.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_376, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_377, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_378, server: 198.57.27.152, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_379, server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_380, server: 198.57.27.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 科技网络_381, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_382, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_383, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_384, server: 198.57.27.172, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_385, server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN, udp: true}
-  - {name: 科技网络_386, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_387, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 科技网络_388, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_389, server: 198.57.27.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_390, server: t2.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_391, server: 21.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_392, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_393, server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_394, server: t10.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, skip-cert-verify: true, udp: true}
-  - {name: 科技网络_395, server: 38.107.226.48, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络_396, server: 172.105.244.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_397, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_398, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 科技网络_399, server: 38.68.134.191, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 科技网络_400, server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 科技网络_401, server: 38.68.134.23, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络_402, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络_403, server: 38.68.134.23, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络_404, server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_405, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 科技网络_406, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络_407, server: 134.195.196.128, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _SG_新加坡, server: 139.162.24.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 2, server: 38.75.136.45, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _BV_布维岛, server: 46.29.219.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大 2, server: 198.57.27.200, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 3, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _JP_日本, server: 85.208.108.66, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 4, server: 38.68.134.23, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大 3, server: 198.57.27.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 4, server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _NO_挪威, server: 46.29.218.146, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 5, server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _NO_挪威 2, server: 46.29.218.146, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 5, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 6, server: 38.68.134.23, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: default_name, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _SG_新加坡 2, server: 139.162.24.50, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 6, server: 198.57.27.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 7, server: 172.99.188.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _DE_德国, server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _SG_新加坡 3, server: 139.162.24.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _DE_德国 2, server: 172.105.244.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 7, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 8, server: 38.68.134.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _SG_新加坡 4, server: 139.162.52.177, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大 8, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 9, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 10, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 9, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 10, server: 167.88.63.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 11, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _DE_德国 3, server: 172.105.244.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 12, server: 167.88.63.61, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 11, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 12, server: 198.57.27.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _JP_日本 2, server: linode.jp.tgproxy.wtf, port: 28888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: linode.jp.tgproxy.wtf}}, udp: true}
+  - {name: _CA_加拿大 13, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 13, server: 38.91.101.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 14, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 15, server: 38.68.134.23, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 16, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _DE_德国 4, server: 172.105.244.165, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _JP_日本 3, server: aws.jp.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: aws.jp.tgproxy.wtf}}, udp: true}
+  - {name: _US_美国 17, server: 169.197.142.48, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 18, server: 38.68.134.23, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 19, server: 38.75.136.45, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR_法国, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 14, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 20, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 15, server: 198.57.27.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 21, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _SG_新加坡 5, server: 139.162.24.50, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 22, server: 38.107.226.48, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 23, server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 24, server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 16, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 25, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 17, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 18, server: 134.195.196.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 19, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 26, server: 38.68.134.23, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _NO_挪威 3, server: 46.29.218.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 20, server: 134.195.196.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 21, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 27, server: us3.nodrop.bike, port: 47891, type: vmess, uuid: 70eda8a0-723e-4d7f-82ae-b1621ae8abe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall, headers: {Host: us3.nodrop.bike}}, udp: true}
+  - {name: _US_美国 28, server: 167.88.63.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 29, server: 38.68.134.23, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _BV_布维岛 2, server: 46.29.219.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 30, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 31, server: 38.107.226.48, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 32, server: 142.202.48.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 22, server: 198.57.27.172, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 33, server: 167.88.63.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国 4, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 23, server: 198.57.27.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大 24, server: 134.195.196.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 34, server: 38.68.134.23, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 25, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 26, server: 198.57.27.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 35, server: 167.88.63.61, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _BV_布维岛 3, server: 46.29.219.246, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 36, server: 167.88.63.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 37, server: 167.88.61.14, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 38, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国 5, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 39, server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 40, server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 41, server: 38.68.134.23, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 42, server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 27, server: 198.57.27.200, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 43, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 28, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 44, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 29, server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 30, server: 134.195.196.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_英国 6, server: 172.99.190.87, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -3198,413 +2891,106 @@ proxy-groups:
       - RELAY-198.41.212.9-0068
       - FR-149.202.82.172-0000
       - EG-188.214.122.138-1117
-      - 科技网络_1
-      - 科技网络_2
-      - 科技网络_3
-      - 科技网络_4
-      - 科技网络_5
-      - 科技网络_6
-      - 科技网络_7
-      - 科技网络_8
-      - 科技网络_9
-      - 科技网络_10
-      - 科技网络_11
-      - 科技网络_12
-      - 科技网络_13
-      - 科技网络_14
-      - 科技网络_15
-      - 科技网络_16
-      - 科技网络_17
-      - 科技网络_18
-      - 科技网络_19
-      - 科技网络_20
-      - 科技网络_21
-      - 科技网络_22
-      - 科技网络_23
-      - 科技网络_24
-      - 科技网络_25
-      - 科技网络_26
-      - 科技网络_27
-      - 科技网络_28
-      - 科技网络_29
-      - 科技网络_30
-      - 科技网络_31
-      - 科技网络_32
-      - 科技网络_33
-      - 科技网络_34
-      - 科技网络_35
-      - 科技网络_36
-      - 科技网络_37
-      - 科技网络_38
-      - 科技网络_39
-      - 科技网络_40
-      - 科技网络_41
-      - 科技网络_42
-      - 科技网络_43
-      - 科技网络_44
-      - 科技网络_45
-      - 科技网络_46
-      - 科技网络_47
-      - 科技网络_48
-      - 科技网络_49
-      - 科技网络_50
-      - 科技网络_51
-      - 科技网络_52
-      - 科技网络_53
-      - 科技网络_54
-      - 科技网络_55
-      - 科技网络_56
-      - 科技网络_57
-      - 科技网络_58
-      - 科技网络_59
-      - 科技网络_60
-      - 科技网络_61
-      - 科技网络_62
-      - 科技网络_63
-      - 科技网络_64
-      - 科技网络_65
-      - 科技网络_66
-      - 科技网络_67
-      - 科技网络_68
-      - 科技网络_69
-      - 科技网络_70
-      - 科技网络_71
-      - 科技网络_72
-      - 科技网络_73
-      - 科技网络_74
-      - 科技网络_75
-      - 科技网络_76
-      - 科技网络_77
-      - 科技网络_78
-      - 科技网络_79
-      - 科技网络_80
-      - 科技网络_81
-      - 科技网络_82
-      - 科技网络_83
-      - 科技网络_84
-      - 科技网络_85
-      - 科技网络_86
-      - 科技网络_87
-      - 科技网络_88
-      - 科技网络_89
-      - 科技网络_90
-      - 科技网络_91
-      - 科技网络_92
-      - 科技网络_93
-      - 科技网络_94
-      - 科技网络_95
-      - 科技网络_96
-      - 科技网络_97
-      - 科技网络_98
-      - 科技网络_99
-      - 科技网络_100
-      - 科技网络_101
-      - 科技网络_102
-      - 科技网络_103
-      - 科技网络_104
-      - 科技网络_105
-      - 科技网络_106
-      - 科技网络_107
-      - 科技网络_108
-      - 科技网络_109
-      - 科技网络_110
-      - 科技网络_111
-      - 科技网络_112
-      - 科技网络_113
-      - 科技网络_114
-      - 科技网络_115
-      - 科技网络_116
-      - 科技网络_117
-      - 科技网络_118
-      - 科技网络_119
-      - 科技网络_120
-      - 科技网络_121
-      - 科技网络_122
-      - 科技网络_123
-      - 科技网络_124
-      - 科技网络_125
-      - 科技网络_126
-      - 科技网络_127
-      - 科技网络_128
-      - 科技网络_129
-      - 科技网络_130
-      - 科技网络_131
-      - 科技网络_132
-      - 科技网络_133
-      - 科技网络_134
-      - 科技网络_135
-      - 科技网络_136
-      - 科技网络_137
-      - 科技网络_138
-      - 科技网络_139
-      - 科技网络_140
-      - 科技网络_141
-      - 科技网络_142
-      - 科技网络_143
-      - 科技网络_144
-      - 科技网络_145
-      - 科技网络_146
-      - 科技网络_147
-      - 科技网络_148
-      - 科技网络_149
-      - 科技网络_150
-      - 科技网络_151
-      - 科技网络_152
-      - 科技网络_153
-      - 科技网络_154
-      - 科技网络_155
-      - 科技网络_156
-      - 科技网络_157
-      - 科技网络_158
-      - 科技网络_159
-      - 科技网络_160
-      - 科技网络_161
-      - 科技网络_162
-      - 科技网络_163
-      - 科技网络_164
-      - 科技网络_165
-      - 科技网络_166
-      - 科技网络_167
-      - 科技网络_168
-      - 科技网络_169
-      - 科技网络_170
-      - 科技网络_171
-      - 科技网络_172
-      - 科技网络_173
-      - 科技网络_174
-      - 科技网络_175
-      - 科技网络_176
-      - 科技网络_177
-      - 科技网络_178
-      - 科技网络_179
-      - 科技网络_180
-      - 科技网络_181
-      - 科技网络_182
-      - 科技网络_183
-      - 科技网络_184
-      - 科技网络_185
-      - 科技网络_186
-      - 科技网络_187
-      - 科技网络_188
-      - 科技网络_189
-      - 科技网络_190
-      - 科技网络_191
-      - 科技网络_192
-      - 科技网络_193
-      - 科技网络_194
-      - 科技网络_195
-      - 科技网络_196
-      - 科技网络_197
-      - 科技网络_198
-      - 科技网络_199
-      - 科技网络_200
-      - 科技网络_201
-      - 科技网络_202
-      - 科技网络_203
-      - 科技网络_204
-      - 科技网络_205
-      - 科技网络_206
-      - 科技网络_207
-      - 科技网络_208
-      - 科技网络_209
-      - 科技网络_210
-      - 科技网络_211
-      - 科技网络_212
-      - 科技网络_213
-      - 科技网络_214
-      - 科技网络_215
-      - 科技网络_216
-      - 科技网络_217
-      - 科技网络_218
-      - 科技网络_219
-      - 科技网络_220
-      - 科技网络_221
-      - 科技网络_222
-      - 科技网络_223
-      - 科技网络_224
-      - 科技网络_225
-      - 科技网络_226
-      - 科技网络_227
-      - 科技网络_228
-      - 科技网络_229
-      - 科技网络_230
-      - 科技网络_231
-      - 科技网络_232
-      - 科技网络_233
-      - 科技网络_234
-      - 科技网络_235
-      - 科技网络_236
-      - 科技网络_237
-      - 科技网络_238
-      - 科技网络_239
-      - 科技网络_240
-      - 科技网络_241
-      - 科技网络_242
-      - 科技网络_243
-      - 科技网络_244
-      - 科技网络_245
-      - 科技网络_246
-      - 科技网络_247
-      - 科技网络_248
-      - 科技网络_249
-      - 科技网络_250
-      - 科技网络_251
-      - 科技网络_252
-      - 科技网络_253
-      - 科技网络_254
-      - 科技网络_255
-      - 科技网络_256
-      - 科技网络_257
-      - 科技网络_258
-      - 科技网络_259
-      - 科技网络_260
-      - 科技网络_261
-      - 科技网络_262
-      - 科技网络_263
-      - 科技网络_264
-      - 科技网络_265
-      - 科技网络_266
-      - 科技网络_267
-      - 科技网络_268
-      - 科技网络_269
-      - 科技网络_270
-      - 科技网络_271
-      - 科技网络_272
-      - 科技网络_273
-      - 科技网络_274
-      - 科技网络_275
-      - 科技网络_276
-      - 科技网络_277
-      - 科技网络_278
-      - 科技网络_279
-      - 科技网络_280
-      - 科技网络_281
-      - 科技网络_282
-      - 科技网络_283
-      - 科技网络_284
-      - 科技网络_285
-      - 科技网络_286
-      - 科技网络_287
-      - 科技网络_288
-      - 科技网络_289
-      - 科技网络_290
-      - 科技网络_291
-      - 科技网络_292
-      - 科技网络_293
-      - 科技网络_294
-      - 科技网络_295
-      - 科技网络_296
-      - 科技网络_297
-      - 科技网络_298
-      - 科技网络_299
-      - 科技网络_300
-      - 科技网络_301
-      - 科技网络_302
-      - 科技网络_303
-      - 科技网络_304
-      - 科技网络_305
-      - 科技网络_306
-      - 科技网络_307
-      - 科技网络_308
-      - 科技网络_309
-      - 科技网络_310
-      - 科技网络_311
-      - 科技网络_312
-      - 科技网络_313
-      - 科技网络_314
-      - 科技网络_315
-      - 科技网络_316
-      - 科技网络_317
-      - 科技网络_318
-      - 科技网络_319
-      - 科技网络_320
-      - 科技网络_321
-      - 科技网络_322
-      - 科技网络_323
-      - 科技网络_324
-      - 科技网络_325
-      - 科技网络_326
-      - 科技网络_327
-      - 科技网络_328
-      - 科技网络_329
-      - 科技网络_330
-      - 科技网络_331
-      - 科技网络_332
-      - 科技网络_333
-      - 科技网络_334
-      - 科技网络_335
-      - 科技网络_336
-      - 科技网络_337
-      - 科技网络_338
-      - 科技网络_339
-      - 科技网络_340
-      - 科技网络_341
-      - 科技网络_342
-      - 科技网络_343
-      - 科技网络_344
-      - 科技网络_345
-      - 科技网络_346
-      - 科技网络_347
-      - 科技网络_348
-      - 科技网络_349
-      - 科技网络_350
-      - 科技网络_351
-      - 科技网络_352
-      - 科技网络_353
-      - 科技网络_354
-      - 科技网络_355
-      - 科技网络_356
-      - 科技网络_357
-      - 科技网络_358
-      - 科技网络_359
-      - 科技网络_360
-      - 科技网络_361
-      - 科技网络_362
-      - 科技网络_363
-      - 科技网络_364
-      - 科技网络_365
-      - 科技网络_366
-      - 科技网络_367
-      - 科技网络_368
-      - 科技网络_369
-      - 科技网络_370
-      - 科技网络_371
-      - 科技网络_372
-      - 科技网络_373
-      - 科技网络_374
-      - 科技网络_375
-      - 科技网络_376
-      - 科技网络_377
-      - 科技网络_378
-      - 科技网络_379
-      - 科技网络_380
-      - 科技网络_381
-      - 科技网络_382
-      - 科技网络_383
-      - 科技网络_384
-      - 科技网络_385
-      - 科技网络_386
-      - 科技网络_387
-      - 科技网络_388
-      - 科技网络_389
-      - 科技网络_390
-      - 科技网络_391
-      - 科技网络_392
-      - 科技网络_393
-      - 科技网络_394
-      - 科技网络_395
-      - 科技网络_396
-      - 科技网络_397
-      - 科技网络_398
-      - 科技网络_399
-      - 科技网络_400
-      - 科技网络_401
-      - 科技网络_402
-      - 科技网络_403
-      - 科技网络_404
-      - 科技网络_405
-      - 科技网络_406
-      - 科技网络_407
+      - _US_美国
+      - _SG_新加坡
+      - _US_美国 2
+      - _BV_布维岛
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _US_美国 3
+      - _JP_日本
+      - _US_美国 4
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _NO_挪威
+      - _US_美国 5
+      - _NO_挪威 2
+      - _GB_英国
+      - _CA_加拿大 5
+      - _US_美国 6
+      - default_name
+      - _GB_英国 2
+      - _SG_新加坡 2
+      - _CA_加拿大 6
+      - _US_美国 7
+      - _DE_德国
+      - _SG_新加坡 3
+      - _DE_德国 2
+      - _CA_加拿大 7
+      - _US_美国 8
+      - _SG_新加坡 4
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _DE_德国 3
+      - _US_美国 12
+      - _CA_加拿大 11
+      - _GB_英国 3
+      - _CA_加拿大 12
+      - _JP_日本 2
+      - _CA_加拿大 13
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _DE_德国 4
+      - _JP_日本 3
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _FR_法国
+      - _CA_加拿大 14
+      - _US_美国 20
+      - _CA_加拿大 15
+      - _US_美国 21
+      - _SG_新加坡 5
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国 24
+      - _CA_加拿大 16
+      - _US_美国 25
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _CA_加拿大 19
+      - _US_美国 26
+      - _NO_挪威 3
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - _BV_布维岛 2
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _CA_加拿大 22
+      - _US_美国 33
+      - _GB_英国 4
+      - _CA_加拿大 23
+      - _CA_加拿大 24
+      - _US_美国 34
+      - _CA_加拿大 25
+      - _CA_加拿大 26
+      - _US_美国 35
+      - _BV_布维岛 3
+      - _US_美国 36
+      - _US_美国 37
+      - _US_美国 38
+      - _GB_英国 5
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _CA_加拿大 27
+      - _US_美国 43
+      - _CA_加拿大 28
+      - _US_美国 44
+      - _CA_加拿大 29
+      - _CA_加拿大 30
+      - _GB_英国 6
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5438,413 +4824,106 @@ proxy-groups:
       - RELAY-198.41.212.9-0068
       - FR-149.202.82.172-0000
       - EG-188.214.122.138-1117
-      - 科技网络_1
-      - 科技网络_2
-      - 科技网络_3
-      - 科技网络_4
-      - 科技网络_5
-      - 科技网络_6
-      - 科技网络_7
-      - 科技网络_8
-      - 科技网络_9
-      - 科技网络_10
-      - 科技网络_11
-      - 科技网络_12
-      - 科技网络_13
-      - 科技网络_14
-      - 科技网络_15
-      - 科技网络_16
-      - 科技网络_17
-      - 科技网络_18
-      - 科技网络_19
-      - 科技网络_20
-      - 科技网络_21
-      - 科技网络_22
-      - 科技网络_23
-      - 科技网络_24
-      - 科技网络_25
-      - 科技网络_26
-      - 科技网络_27
-      - 科技网络_28
-      - 科技网络_29
-      - 科技网络_30
-      - 科技网络_31
-      - 科技网络_32
-      - 科技网络_33
-      - 科技网络_34
-      - 科技网络_35
-      - 科技网络_36
-      - 科技网络_37
-      - 科技网络_38
-      - 科技网络_39
-      - 科技网络_40
-      - 科技网络_41
-      - 科技网络_42
-      - 科技网络_43
-      - 科技网络_44
-      - 科技网络_45
-      - 科技网络_46
-      - 科技网络_47
-      - 科技网络_48
-      - 科技网络_49
-      - 科技网络_50
-      - 科技网络_51
-      - 科技网络_52
-      - 科技网络_53
-      - 科技网络_54
-      - 科技网络_55
-      - 科技网络_56
-      - 科技网络_57
-      - 科技网络_58
-      - 科技网络_59
-      - 科技网络_60
-      - 科技网络_61
-      - 科技网络_62
-      - 科技网络_63
-      - 科技网络_64
-      - 科技网络_65
-      - 科技网络_66
-      - 科技网络_67
-      - 科技网络_68
-      - 科技网络_69
-      - 科技网络_70
-      - 科技网络_71
-      - 科技网络_72
-      - 科技网络_73
-      - 科技网络_74
-      - 科技网络_75
-      - 科技网络_76
-      - 科技网络_77
-      - 科技网络_78
-      - 科技网络_79
-      - 科技网络_80
-      - 科技网络_81
-      - 科技网络_82
-      - 科技网络_83
-      - 科技网络_84
-      - 科技网络_85
-      - 科技网络_86
-      - 科技网络_87
-      - 科技网络_88
-      - 科技网络_89
-      - 科技网络_90
-      - 科技网络_91
-      - 科技网络_92
-      - 科技网络_93
-      - 科技网络_94
-      - 科技网络_95
-      - 科技网络_96
-      - 科技网络_97
-      - 科技网络_98
-      - 科技网络_99
-      - 科技网络_100
-      - 科技网络_101
-      - 科技网络_102
-      - 科技网络_103
-      - 科技网络_104
-      - 科技网络_105
-      - 科技网络_106
-      - 科技网络_107
-      - 科技网络_108
-      - 科技网络_109
-      - 科技网络_110
-      - 科技网络_111
-      - 科技网络_112
-      - 科技网络_113
-      - 科技网络_114
-      - 科技网络_115
-      - 科技网络_116
-      - 科技网络_117
-      - 科技网络_118
-      - 科技网络_119
-      - 科技网络_120
-      - 科技网络_121
-      - 科技网络_122
-      - 科技网络_123
-      - 科技网络_124
-      - 科技网络_125
-      - 科技网络_126
-      - 科技网络_127
-      - 科技网络_128
-      - 科技网络_129
-      - 科技网络_130
-      - 科技网络_131
-      - 科技网络_132
-      - 科技网络_133
-      - 科技网络_134
-      - 科技网络_135
-      - 科技网络_136
-      - 科技网络_137
-      - 科技网络_138
-      - 科技网络_139
-      - 科技网络_140
-      - 科技网络_141
-      - 科技网络_142
-      - 科技网络_143
-      - 科技网络_144
-      - 科技网络_145
-      - 科技网络_146
-      - 科技网络_147
-      - 科技网络_148
-      - 科技网络_149
-      - 科技网络_150
-      - 科技网络_151
-      - 科技网络_152
-      - 科技网络_153
-      - 科技网络_154
-      - 科技网络_155
-      - 科技网络_156
-      - 科技网络_157
-      - 科技网络_158
-      - 科技网络_159
-      - 科技网络_160
-      - 科技网络_161
-      - 科技网络_162
-      - 科技网络_163
-      - 科技网络_164
-      - 科技网络_165
-      - 科技网络_166
-      - 科技网络_167
-      - 科技网络_168
-      - 科技网络_169
-      - 科技网络_170
-      - 科技网络_171
-      - 科技网络_172
-      - 科技网络_173
-      - 科技网络_174
-      - 科技网络_175
-      - 科技网络_176
-      - 科技网络_177
-      - 科技网络_178
-      - 科技网络_179
-      - 科技网络_180
-      - 科技网络_181
-      - 科技网络_182
-      - 科技网络_183
-      - 科技网络_184
-      - 科技网络_185
-      - 科技网络_186
-      - 科技网络_187
-      - 科技网络_188
-      - 科技网络_189
-      - 科技网络_190
-      - 科技网络_191
-      - 科技网络_192
-      - 科技网络_193
-      - 科技网络_194
-      - 科技网络_195
-      - 科技网络_196
-      - 科技网络_197
-      - 科技网络_198
-      - 科技网络_199
-      - 科技网络_200
-      - 科技网络_201
-      - 科技网络_202
-      - 科技网络_203
-      - 科技网络_204
-      - 科技网络_205
-      - 科技网络_206
-      - 科技网络_207
-      - 科技网络_208
-      - 科技网络_209
-      - 科技网络_210
-      - 科技网络_211
-      - 科技网络_212
-      - 科技网络_213
-      - 科技网络_214
-      - 科技网络_215
-      - 科技网络_216
-      - 科技网络_217
-      - 科技网络_218
-      - 科技网络_219
-      - 科技网络_220
-      - 科技网络_221
-      - 科技网络_222
-      - 科技网络_223
-      - 科技网络_224
-      - 科技网络_225
-      - 科技网络_226
-      - 科技网络_227
-      - 科技网络_228
-      - 科技网络_229
-      - 科技网络_230
-      - 科技网络_231
-      - 科技网络_232
-      - 科技网络_233
-      - 科技网络_234
-      - 科技网络_235
-      - 科技网络_236
-      - 科技网络_237
-      - 科技网络_238
-      - 科技网络_239
-      - 科技网络_240
-      - 科技网络_241
-      - 科技网络_242
-      - 科技网络_243
-      - 科技网络_244
-      - 科技网络_245
-      - 科技网络_246
-      - 科技网络_247
-      - 科技网络_248
-      - 科技网络_249
-      - 科技网络_250
-      - 科技网络_251
-      - 科技网络_252
-      - 科技网络_253
-      - 科技网络_254
-      - 科技网络_255
-      - 科技网络_256
-      - 科技网络_257
-      - 科技网络_258
-      - 科技网络_259
-      - 科技网络_260
-      - 科技网络_261
-      - 科技网络_262
-      - 科技网络_263
-      - 科技网络_264
-      - 科技网络_265
-      - 科技网络_266
-      - 科技网络_267
-      - 科技网络_268
-      - 科技网络_269
-      - 科技网络_270
-      - 科技网络_271
-      - 科技网络_272
-      - 科技网络_273
-      - 科技网络_274
-      - 科技网络_275
-      - 科技网络_276
-      - 科技网络_277
-      - 科技网络_278
-      - 科技网络_279
-      - 科技网络_280
-      - 科技网络_281
-      - 科技网络_282
-      - 科技网络_283
-      - 科技网络_284
-      - 科技网络_285
-      - 科技网络_286
-      - 科技网络_287
-      - 科技网络_288
-      - 科技网络_289
-      - 科技网络_290
-      - 科技网络_291
-      - 科技网络_292
-      - 科技网络_293
-      - 科技网络_294
-      - 科技网络_295
-      - 科技网络_296
-      - 科技网络_297
-      - 科技网络_298
-      - 科技网络_299
-      - 科技网络_300
-      - 科技网络_301
-      - 科技网络_302
-      - 科技网络_303
-      - 科技网络_304
-      - 科技网络_305
-      - 科技网络_306
-      - 科技网络_307
-      - 科技网络_308
-      - 科技网络_309
-      - 科技网络_310
-      - 科技网络_311
-      - 科技网络_312
-      - 科技网络_313
-      - 科技网络_314
-      - 科技网络_315
-      - 科技网络_316
-      - 科技网络_317
-      - 科技网络_318
-      - 科技网络_319
-      - 科技网络_320
-      - 科技网络_321
-      - 科技网络_322
-      - 科技网络_323
-      - 科技网络_324
-      - 科技网络_325
-      - 科技网络_326
-      - 科技网络_327
-      - 科技网络_328
-      - 科技网络_329
-      - 科技网络_330
-      - 科技网络_331
-      - 科技网络_332
-      - 科技网络_333
-      - 科技网络_334
-      - 科技网络_335
-      - 科技网络_336
-      - 科技网络_337
-      - 科技网络_338
-      - 科技网络_339
-      - 科技网络_340
-      - 科技网络_341
-      - 科技网络_342
-      - 科技网络_343
-      - 科技网络_344
-      - 科技网络_345
-      - 科技网络_346
-      - 科技网络_347
-      - 科技网络_348
-      - 科技网络_349
-      - 科技网络_350
-      - 科技网络_351
-      - 科技网络_352
-      - 科技网络_353
-      - 科技网络_354
-      - 科技网络_355
-      - 科技网络_356
-      - 科技网络_357
-      - 科技网络_358
-      - 科技网络_359
-      - 科技网络_360
-      - 科技网络_361
-      - 科技网络_362
-      - 科技网络_363
-      - 科技网络_364
-      - 科技网络_365
-      - 科技网络_366
-      - 科技网络_367
-      - 科技网络_368
-      - 科技网络_369
-      - 科技网络_370
-      - 科技网络_371
-      - 科技网络_372
-      - 科技网络_373
-      - 科技网络_374
-      - 科技网络_375
-      - 科技网络_376
-      - 科技网络_377
-      - 科技网络_378
-      - 科技网络_379
-      - 科技网络_380
-      - 科技网络_381
-      - 科技网络_382
-      - 科技网络_383
-      - 科技网络_384
-      - 科技网络_385
-      - 科技网络_386
-      - 科技网络_387
-      - 科技网络_388
-      - 科技网络_389
-      - 科技网络_390
-      - 科技网络_391
-      - 科技网络_392
-      - 科技网络_393
-      - 科技网络_394
-      - 科技网络_395
-      - 科技网络_396
-      - 科技网络_397
-      - 科技网络_398
-      - 科技网络_399
-      - 科技网络_400
-      - 科技网络_401
-      - 科技网络_402
-      - 科技网络_403
-      - 科技网络_404
-      - 科技网络_405
-      - 科技网络_406
-      - 科技网络_407
+      - _US_美国
+      - _SG_新加坡
+      - _US_美国 2
+      - _BV_布维岛
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _US_美国 3
+      - _JP_日本
+      - _US_美国 4
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _NO_挪威
+      - _US_美国 5
+      - _NO_挪威 2
+      - _GB_英国
+      - _CA_加拿大 5
+      - _US_美国 6
+      - default_name
+      - _GB_英国 2
+      - _SG_新加坡 2
+      - _CA_加拿大 6
+      - _US_美国 7
+      - _DE_德国
+      - _SG_新加坡 3
+      - _DE_德国 2
+      - _CA_加拿大 7
+      - _US_美国 8
+      - _SG_新加坡 4
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _DE_德国 3
+      - _US_美国 12
+      - _CA_加拿大 11
+      - _GB_英国 3
+      - _CA_加拿大 12
+      - _JP_日本 2
+      - _CA_加拿大 13
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _DE_德国 4
+      - _JP_日本 3
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _FR_法国
+      - _CA_加拿大 14
+      - _US_美国 20
+      - _CA_加拿大 15
+      - _US_美国 21
+      - _SG_新加坡 5
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国 24
+      - _CA_加拿大 16
+      - _US_美国 25
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _CA_加拿大 19
+      - _US_美国 26
+      - _NO_挪威 3
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - _BV_布维岛 2
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _CA_加拿大 22
+      - _US_美国 33
+      - _GB_英国 4
+      - _CA_加拿大 23
+      - _CA_加拿大 24
+      - _US_美国 34
+      - _CA_加拿大 25
+      - _CA_加拿大 26
+      - _US_美国 35
+      - _BV_布维岛 3
+      - _US_美国 36
+      - _US_美国 37
+      - _US_美国 38
+      - _GB_英国 5
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _CA_加拿大 27
+      - _US_美国 43
+      - _CA_加拿大 28
+      - _US_美国 44
+      - _CA_加拿大 29
+      - _CA_加拿大 30
+      - _GB_英国 6
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -7047,6 +6126,9 @@ proxy-groups:
       - JP-85.208.110.2-0095
       - JP-45.77.181.112-0951
       - JP-85.208.108.106-0101
+      - _JP_日本
+      - _JP_日本 2
+      - _JP_日本 3
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -7360,6 +6442,50 @@ proxy-groups:
       - US-167.88.62.34-0086
       - US-38.68.135.18-1171
       - US-172.67.147.173-0069
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _US_美国 36
+      - _US_美国 37
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - _US_美国 44
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -7778,6 +6904,11 @@ proxy-groups:
       - 新加坡（YouTube资源分享者）
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V18-付费推荐::suo.yt/ssrsub"
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - _SG_新加坡 5
       - 新加坡（YouTube资源分享者） 2
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-新加坡V18-付费推荐::suo.yt/ssrsub 2"
