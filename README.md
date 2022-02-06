@@ -1,4 +1,4 @@
-# <span id="top">每`1`小时更新节点</span>
+# <span id="top">每`1`小时更新节点|[	到底部	](#bottom)</span>
 ## 可点击左上角`Star`进行更新节点
 <details><summary><code><strong>「 点击展开 更新时间 」</strong></code></summary>
 
@@ -104,9 +104,7 @@ http://subconver111.coolpage.biz/
 
 ****
 
-## 统计`Star`
+## <span id="bottom">统计`Star`|[	到顶部	](#top)</span>
 [![Stargazers over time](https://starchart.cc/some6508/all.svg)](https://starchart.cc/some6508/all)
 
 ****
-[	回到顶部	](#top)
-
