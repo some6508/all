@@ -5,16 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US美国_1, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US美国_2, server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA加拿大_3, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US美国_4, server: 38.68.134.23, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _GB英国_5, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US美国_6, server: 38.75.136.45, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA加拿大_7, server: 134.195.196.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA加拿大_8, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _NO挪威_9, server: 46.29.218.146, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US美国_10, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _BV_布维岛_1, server: 46.29.219.246, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_2, server: 167.88.63.61, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _NO_挪威_3, server: 46.29.218.146, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_4, server: 167.88.63.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _HK_香港->🇮🇳_IN_印度_5, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
+  - {name: _US_美国_6, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_7, server: 38.68.134.37, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _BV_布维岛_8, server: 46.29.219.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_9, server: 167.88.63.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_10, server: 167.88.62.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _NO_挪威_11, server: 46.29.218.146, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_12, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 208.98.48.2}}, udp: true}
+  - {name: _US_美国_13, server: 167.88.63.61, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _NO_挪威_14, server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大_15, server: 134.195.196.179, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_16, server: 167.88.62.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_17, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: lin-sg.tgproxy.wtf, port: 443, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: lin-sg.tgproxy.wtf}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: 139.162.24.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -3432,16 +3439,23 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - _US美国_1
-      - _US美国_2
-      - _CA加拿大_3
-      - _US美国_4
-      - _GB英国_5
-      - _US美国_6
-      - _CA加拿大_7
-      - _CA加拿大_8
-      - _NO挪威_9
-      - _US美国_10
+      - _BV_布维岛_1
+      - _US_美国_2
+      - _NO_挪威_3
+      - _US_美国_4
+      - _HK_香港->🇮🇳_IN_印度_5
+      - _US_美国_6
+      - _US_美国_7
+      - _BV_布维岛_8
+      - _US_美国_9
+      - _US_美国_10
+      - _NO_挪威_11
+      - _US_美国_12
+      - _US_美国_13
+      - _NO_挪威_14
+      - _CA_加拿大_15
+      - _US_美国_16
+      - _US_美国_17
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -6848,16 +6862,23 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US美国_1
-      - _US美国_2
-      - _CA加拿大_3
-      - _US美国_4
-      - _GB英国_5
-      - _US美国_6
-      - _CA加拿大_7
-      - _CA加拿大_8
-      - _NO挪威_9
-      - _US美国_10
+      - _BV_布维岛_1
+      - _US_美国_2
+      - _NO_挪威_3
+      - _US_美国_4
+      - _HK_香港->🇮🇳_IN_印度_5
+      - _US_美国_6
+      - _US_美国_7
+      - _BV_布维岛_8
+      - _US_美国_9
+      - _US_美国_10
+      - _NO_挪威_11
+      - _US_美国_12
+      - _US_美国_13
+      - _NO_挪威_14
+      - _CA_加拿大_15
+      - _US_美国_16
+      - _US_美国_17
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -10440,6 +10461,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _HK_香港->🇮🇳_IN_印度_5
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
@@ -10838,11 +10860,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US美国_1
-      - _US美国_2
-      - _US美国_4
-      - _US美国_6
-      - _US美国_10
+      - _US_美国_2
+      - _US_美国_4
+      - _US_美国_6
+      - _US_美国_7
+      - _US_美国_9
+      - _US_美国_10
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_16
+      - _US_美国_17
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
