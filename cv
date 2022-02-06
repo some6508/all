@@ -777,116 +777,102 @@ proxies:
   - {name: Ytb:鹏哥分享_IN_印度_330, server: 172.104.207.231, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_331, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_332, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Lv2 BGP 中继 台湾A, server: dghk.rdns.link, port: 32101, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 3664:tDEFYL, obfs-param: f78013664.software-download.microsoft.com, udp: true}
-  - {name: Lv2 BGP 中继 台湾B, server: dghk.rdns.link, port: 32101, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 3664:tDEFYL, obfs-param: f78013664.software-download.microsoft.com, udp: true}
-  - {name: Lv2 BGP 中继 台湾C, server: dghk.rdns.link, port: 32101, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 3664:tDEFYL, obfs-param: f78013664.software-download.microsoft.com, udp: true}
-  - {name: Lv2 BGP 中继 美国A, server: dghk.rdns.link, port: 32102, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 3664:tDEFYL, obfs-param: f78013664.software-download.microsoft.com, udp: true}
-  - {name: Lv2 BGP 中继 香港B, server: dghk.rdns.link, port: 32103, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 3664:tDEFYL, obfs-param: f78013664.software-download.microsoft.com, udp: true}
-  - {name: 俄罗斯A-RU-CM-0.1x, server: 183.232.226.166, port: 39696, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wx.connectSocket, headers: {Host: www.wechat.com}}, udp: true}
-  - {name: 日本B-JP-CM-0.4x, server: 183.232.226.165, port: 59075, type: ss, cipher: chacha20-ietf-poly1305, password: YQx0Ht, udp: true}
-  - {name: 马来西亚A-MY-CM-0.2x, server: 183.232.226.168, port: 43007, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wx.connectSocket, headers: {Host: www.wechat.com}}, udp: true}
-  - {name: 普通节点-台湾A, server: trojan.linkdns.xyz, port: 40227, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-台湾B, server: trojan.linkdns.xyz, port: 40228, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-日本B, server: trojan.linkdns.xyz, port: 40202, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-日本C, server: trojan.linkdns.xyz, port: 40218, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-日本D, server: trojan.linkdns.xyz, port: 40220, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-美国A, server: trojan.linkdns.xyz, port: 40204, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-美国C, server: trojan.linkdns.xyz, port: 40216, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-香港A, server: trojan.linkdns.xyz, port: 40206, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-香港B, server: trojan.linkdns.xyz, port: 40208, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-香港C, server: trojan.linkdns.xyz, port: 40212, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-香港D, server: trojan.linkdns.xyz, port: 40214, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-台湾A 2, server: trojan.linkdns.xyz, port: 40227, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-台湾B 2, server: trojan.linkdns.xyz, port: 40228, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-日本B 2, server: trojan.linkdns.xyz, port: 40202, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-日本C 2, server: trojan.linkdns.xyz, port: 40218, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-日本D 2, server: trojan.linkdns.xyz, port: 40220, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-美国A 2, server: trojan.linkdns.xyz, port: 40204, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-美国B, server: trojan.linkdns.xyz, port: 40210, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-美国C 2, server: trojan.linkdns.xyz, port: 40216, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-香港A 2, server: trojan.linkdns.xyz, port: 40206, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-香港B 2, server: trojan.linkdns.xyz, port: 40208, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-香港C 2, server: trojan.linkdns.xyz, port: 40212, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 普通节点-香港D 2, server: trojan.linkdns.xyz, port: 40214, type: trojan, password: d3269697-de13-3098-9c11-89d893a4dfb5, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN-120.232.174.121-1124, server: iepl.naigai1.club, port: 11895, type: ss, cipher: aes-128-gcm, password: b2e37e3b-d651-46d1-81a8-bb61246de20a, udp: true}
-  - {name: CN-112.33.32.136-1125, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US-169.197.142.99-1067, server: 169.197.142.99, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CN-116.163.14.92-1057, server: ddns04.r8o8c8k.xyz, port: 65012, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: US-169.197.142.99-1156, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US-169.197.142.99-1155, server: 169.197.142.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US-89.208.245.157-1170, server: 89.208.245.157, port: 1234, type: ss, cipher: aes-256-gcm, password: !<str> 1234, udp: true}
-  - {name: US-72.167.45.6-1077, server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
-  - {name: US-38.75.136.49-1159, server: 38.75.136.49, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-38.68.135.18-1169, server: 38.68.135.18, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US-38.68.134.190-1098, server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: DE-193.108.118.36-1115, server: 193.108.118.36, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CN-112.64.69.187-1162, server: 112.64.69.187, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN-116.163.14.92-0725, server: ddns04.r8o8c8k.xyz, port: 65009, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: ddns04.r8o8c8k.xyz}}, udp: true}
-  - {name: US-38.121.43.71-1157, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: FR-20.111.31.233-0473, server: 20.111.31.233, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: 5401fcb0-2899-4c05-8eee-1728b8a1affc, udp: true}
-  - {name: CA-134.195.196.150-1094, server: 134.195.196.150, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US-38.121.43.142-1064, server: 38.121.43.142, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA-134.195.196.150-1095, server: 134.195.196.150, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA-134.195.196.71-0054, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US-38.107.226.241-0017, server: 38.107.226.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CA-134.195.196.71-0110, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-38.121.43.71-0035, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US-142.202.48.34-0030, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-38.121.43.204-1165, server: 38.121.43.204, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA-134.195.196.149-1097, server: 134.195.196.149, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CN-112.64.69.187-1126, server: shcu01a.iplc188.com, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CA-134.195.196.227-1104, server: 134.195.196.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CA-134.195.196.128-0058, server: 134.195.196.128, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US-167.88.63.60-1154, server: 167.88.63.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-167.88.63.60-0027, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA-134.195.196.149-0093, server: 134.195.196.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CA-134.195.196.144-1109, server: 134.195.196.144, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA-134.195.196.227-1103, server: 134.195.196.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US-38.143.66.55-0013, server: 38.143.66.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: RELAY-198.41.212.18-0067, server: 198.41.212.18, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: US-72.167.45.6-1076, server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
-  - {name: RELAY-198.41.212.15-0397, server: 198.41.212.15, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: GB-172.99.190.186-1121, server: 172.99.190.186, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: CA-134.195.196.150-0057, server: 134.195.196.150, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: DE-139.162.132.116-1116, server: 139.162.132.116, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: GB-172.99.190.109-0026, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CN-120.233.150.200-1150, server: 120.233.150.200, port: 50301, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
-  - {name: CZ-194.87.238.162-0077, server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v9.ssrsub.com}}, udp: true}
-  - {name: AU-192.53.169.116-0109, server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: JP-106.180.225.69-1137, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: HU-185.128.26.130-0046, server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy, udp: true}
-  - {name: CN-112.33.32.136-0712, server: fa6.uuv2.co.uk, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: RELAY-198.41.212.20-0392, server: 198.41.212.20, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: RELAY-198.41.221.169-0071, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: US-172.67.147.173-0079, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
-  - {name: US-172.67.147.173-0066, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
-  - {name: CA-134.195.196.193-1111, server: 134.195.196.193, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: JP-85.208.110.2-0095, server: 85.208.110.2, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CA-134.195.198.252-0087, server: 134.195.198.252, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: AE-217.138.193.42-0037, server: 217.138.193.42, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc, udp: true}
-  - {name: RELAY-198.41.212.14-0391, server: 198.41.212.14, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: IN-172.104.207.231-0108, server: 172.104.207.231, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: BV-46.29.219.246-0032, server: 46.29.219.246, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-169.197.141.244-0100, server: 169.197.141.244, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US-154.3.8.151-0028, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA, udp: true}
-  - {name: JP-45.77.181.112-0951, server: 45.77.181.112, port: 22819, type: vmess, uuid: e90fee78-79ba-11ec-8b1e-560003ce900e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AFjUZ0pD/, headers: {Host: 45.77.181.112}}, udp: true}
-  - {name: US-38.75.137.71-0008, server: 38.75.137.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US-167.88.62.34-0086, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: IN-172.104.207.231-0064, server: 172.104.207.231, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US-38.68.135.18-1171, server: 38.68.135.18, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CN-101.89.109.30-0683, server: 101.89.109.30, port: 10015, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US-172.67.147.173-0069, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: CA-198.57.27.188-1108, server: 198.57.27.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA-45.62.250.251-0617, server: t4.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: FR-145.239.1.137-0084, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: GB-172.99.190.87-0091, server: 172.99.190.87, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: JP-85.208.108.106-0101, server: 85.208.108.106, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CN-112.64.69.187-0195, server: 112.64.69.187, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CA-142.47.89.64-0001, server: t1.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: RELAY-198.41.212.9-0068, server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: FR-149.202.82.172-0000, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: EG-188.214.122.138-1117, server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.44, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 韩国 01, server: kr01.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: kr01.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡-优化2, server: cm.cnhost.top, port: 16618, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.cnhost.top}}, udp: true}
+  - {name: 新加坡-01, server: hk.tw.sgp.relay.cccloud.club, port: 11000, type: vmess, uuid: 011fa5b4-e08b-3108-a1df-c4f8c09f7346, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgp-01.cccloud.club}}, udp: true}
+  - {name: 香港 06 - 解锁流媒体, server: hk06.cnzffw.com, port: 13018, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: hk06.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 【固定IP】美国10-解锁流媒体, server: us10.vip-v2ray.ml, port: 22326, type: ss, cipher: aes-256-gcm, password: Yms4d44HLK, udp: true}
+  - {name: 【固定IP】美国05-解锁流媒体, server: us05.vip-v2ray.ml, port: 59452, type: vmess, uuid: 00de191d-2f90-4f71-99a0-01a49428c800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 【固定IP】美国07-解锁流媒体, server: us07.vip-v2ray.ml, port: 58740, type: vmess, uuid: 4ca67d33-f626-47ba-e077-0ff6742fc31c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 【固定IP】美国08-解锁流媒体, server: us08.vip-v2ray.ml, port: 46462, type: vmess, uuid: cd44632e-eaed-45d6-c007-cd4209aa1a56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Canada 69, server: 134.195.196.110, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: XY VPN Norway 🇳🇴 Kristiansad 1, server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: United States 16, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 【固定IP】日本19-解锁流媒体, server: v2.hkintk.icu, port: 46057, type: vmess, uuid: 9d31ad2e-824e-4321-a6a3-f9a91d1fc8be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Canada 65, server: 134.195.196.214, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 高速 02, server: th01.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: th01.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 高速 16, server: wyykr01.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: wyykr01.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 高速 17, server: wyyus01.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: wyyus01.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 高速 20, server: ind01.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: ind01.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 高速 24, server: wyysshk03.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: wyysshk03.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 高速 31, server: wyyjp01.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: wyyjp01.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 高速 35, server: wyyar01.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: wyyar01.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 高速 38, server: wyyhk02.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: wyyhk02.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 高速 42, server: gzdyd.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: gzdyd.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 高速 53, server: sg02.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: sg02.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 高速 55, server: kr01.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: kr01.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 高速 58, server: hk03.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: hk03.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 高速 68, server: ars.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: ars.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 高速 70, server: hk07.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: hk07.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 06 - 解锁流媒体 2, server: hk06.cnzffw.com, port: 13018, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: hk06.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 06 - 解锁流媒体 3, server: hk06.cnzffw.com, port: 13026, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: hk06.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 06 - 解锁流媒体 4, server: hk06.cnzffw.com, port: 13028, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: hk06.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 06 - 解锁流媒体 5, server: hk05.cnzffw.com, port: 13018, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: hk05.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 06 - 解锁流媒体 6, server: hk05.cnzffw.com, port: 13026, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: hk05.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 06 - 解锁流媒体 7, server: hk05.cnzffw.com, port: 13028, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: hk05.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 06 - 解锁流媒体 8, server: hk06.cnzffw.com, port: 16007, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: hk06.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: "", server: gtm.cnhost.top, port: 16617, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gtm.cnhost.top}}, udp: true}
+  - {name: 2, server: cu.cnhost.top, port: 16617, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.cnhost.top}}, udp: true}
+  - {name: 3, server: ct.cnhost.top, port: 16617, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.cnhost.top}}, udp: true}
+  - {name: 4, server: gtm.cnhost.top, port: 16618, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gtm.cnhost.top}}, udp: true}
+  - {name: 5, server: cu.cnhost.top, port: 16618, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.cnhost.top}}, udp: true}
+  - {name: 6, server: cm.cnhost.top, port: 16618, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.cnhost.top}}, udp: true}
+  - {name: 7, server: ct.cnhost.top, port: 16618, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.cnhost.top}}, udp: true}
+  - {name: 8, server: cu.cnhost.top, port: 26622, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.cnhost.top}}, udp: true}
+  - {name: 9, server: cu.cnhost.top, port: 16621, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.cnhost.top}}, udp: true}
+  - {name: 10, server: gtm.gkd.world, port: 16619, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gtm.gkd.world}}, udp: true}
+  - {name: 11, server: cu.cnhost.top, port: 16619, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.cnhost.top}}, udp: true}
+  - {name: 12, server: cm.cnhost.top, port: 16619, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.cnhost.top}}, udp: true}
+  - {name: 13, server: ct.cnhost.top, port: 16619, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.cnhost.top}}, udp: true}
+  - {name: 14, server: gtm.cnhost.top, port: 16626, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gtm.cnhost.top}}, udp: true}
+  - {name: 15, server: cu.cnhost.top, port: 16626, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.cnhost.top}}, udp: true}
+  - {name: 16, server: cm.cnhost.top, port: 16626, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.cnhost.top}}, udp: true}
+  - {name: 17, server: ct.cnhost.top, port: 16626, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.cnhost.top}}, udp: true}
+  - {name: 18, server: gtm.cnhost.top, port: 16616, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gtm.cnhost.top}}, udp: true}
+  - {name: 19, server: cu.cnhost.top, port: 16616, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.cnhost.top}}, udp: true}
+  - {name: 20, server: cm.cnhost.top, port: 16616, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.cnhost.top}}, udp: true}
+  - {name: 21, server: ct.cnhost.top, port: 16616, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.cnhost.top}}, udp: true}
+  - {name: 22, server: 66.94.125.131, port: 6616, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 66.94.125.131}}, udp: true}
+  - {name: 23, server: cu.cnhost.top, port: 16632, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.cnhost.top}}, udp: true}
+  - {name: 24, server: cm.cnhost.top, port: 16632, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.cnhost.top}}, udp: true}
+  - {name: 25, server: ct.cnhost.top, port: 16632, type: vmess, uuid: 04fa0f10-13ee-4801-88f7-00d60b3b09fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.cnhost.top}}, udp: true}
+  - {name: 26, server: 172.105.221.11, port: 6626, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 172.105.221.11}}, udp: true}
+  - {name: 2 2, server: gtm.cnhost.top, port: 16617, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gtm.cnhost.top}}, udp: true}
+  - {name: 3 2, server: cu.cnhost.top, port: 16617, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.cnhost.top}}, udp: true}
+  - {name: 4 2, server: ct.cnhost.top, port: 16617, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.cnhost.top}}, udp: true}
+  - {name: 6 2, server: gtm.cnhost.top, port: 16618, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gtm.cnhost.top}}, udp: true}
+  - {name: 7 2, server: cu.cnhost.top, port: 16618, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.cnhost.top}}, udp: true}
+  - {name: 8 2, server: cm.cnhost.top, port: 16618, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.cnhost.top}}, udp: true}
+  - {name: 9 2, server: ct.cnhost.top, port: 16618, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.cnhost.top}}, udp: true}
+  - {name: 16 2, server: cu.cnhost.top, port: 26622, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.cnhost.top}}, udp: true}
+  - {name: 17 2, server: cm.cnhost.top, port: 26622, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.cnhost.top}}, udp: true}
+  - {name: 18 2, server: ct.cnhost.top, port: 26622, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.cnhost.top}}, udp: true}
+  - {name: 25 2, server: cm.cnhost.top, port: 16622, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.cnhost.top}}, udp: true}
+  - {name: 26 2, server: ct.cnhost.top, port: 16622, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.cnhost.top}}, udp: true}
+  - {name: 29, server: gtm.gkd.world, port: 16619, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gtm.gkd.world}}, udp: true}
+  - {name: 30, server: cu.cnhost.top, port: 16619, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.cnhost.top}}, udp: true}
+  - {name: 31, server: cm.cnhost.top, port: 16619, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.cnhost.top}}, udp: true}
+  - {name: 32, server: ct.cnhost.top, port: 16619, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.cnhost.top}}, udp: true}
+  - {name: 46, server: 66.94.125.131, port: 6616, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 66.94.125.131}}, udp: true}
+  - {name: 48, server: cu.cnhost.top, port: 16632, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.cnhost.top}}, udp: true}
+  - {name: 49, server: cm.cnhost.top, port: 16632, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.cnhost.top}}, udp: true}
+  - {name: 50, server: ct.cnhost.top, port: 16632, type: vmess, uuid: 4ccf1b8c-9f46-4abc-8895-b05f83ef664f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.cnhost.top}}, udp: true}
+  - {name: 1.57|CYL科技20220101 30 2, server: sy-am2.eqsunshine.com, port: 443, type: ssr, cipher: aes-256-cfb, password: Jz8r4gLNP, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: CN-183.232.170.110-1232, server: gdfs.xxcv.cc, port: 26001, type: trojan, password: 4a53cdc5-1067-3f5c-b1b4-745edfa8b371, sni: gdfs.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: CN-183.232.170.110-1233, server: gdfs.xxcv.cc, port: 26003, type: trojan, password: 4a53cdc5-1067-3f5c-b1b4-745edfa8b371, sni: gdfs.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: US-199.19.226.178-1313, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: us.lv.buyvm.tgproxy.wtf}}, udp: true}
+  - {name: 30香港TG@moneyflychat, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.club}}, udp: true}
+  - {name: 45香港TG@moneyflychat, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: xuexi.cn}}, udp: true}
+  - {name: _US_美国, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
+  - {name: _US_美国 2, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: _JP_日本, server: linode.jp.tgproxy.wtf, port: 28888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: linode.jp.tgproxy.wtf}}, udp: true}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦 2, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
+  - {name: _US_美国 3, server: inap.us.tgproxy.wtf, port: 8888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: inap.us.tgproxy.wtf}}, udp: true}
+  - {name: _US_美国 4, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: _US_美国 5, server: api.ssfree.ru, port: 443, type: vmess, uuid: 426a0bf4-8701-11ec-b470-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: api.ssfree.ru}}, udp: true}
+  - {name: default_name, server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v9.ssrsub.com}}, udp: true}
+  - {name: _US_美国 6, server: fa1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1444,77 +1430,75 @@ proxies:
   - {name: Ytb:鹏哥分享_布维岛_183, server: 46.29.219.246, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: Ytb:鹏哥分享_香港_184, server: 62.216.92.167, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: Ytb:鹏哥分享_美国_185, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 广东省深圳市移动 1, server: china-gzyd-1.forwardserver.xyz, port: 36029, type: trojan, password: 36352-2-41419784784722, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 2, server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 3, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 4, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: github.com/freefq - 北美地区  5, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: github.com/freefq - 北美地区  6, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: github.com/freefq - 瑞典  7, server: 167.88.63.61, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: github.com/freefq - 北美地区  8, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: github.com/freefq - 加拿大  9, server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: github.com/freefq - 北美地区  10, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: github.com/freefq - 香港特别行政区 1, server: llaz.scsevers.cf, port: 34699, type: vmess, uuid: 6dc8e6a9-0575-434d-dd26-11ba611c80b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: llaz.scsevers.cf}}, udp: true}
+  - {name: github.com/freefq - 广东省深圳市移动 2, server: china-gzyd-1.forwardserver.xyz, port: 36029, type: trojan, password: 36352-2-41419784784722, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 瑞典  3, server: 167.88.63.61, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: github.com/freefq - 北美地区  4, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: github.com/freefq - 北美地区  5, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: github.com/freefq - 北美地区  6, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: github.com/freefq - 加拿大  7, server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: github.com/freefq - 法国ONLINE S.A.S.数据中心 8, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: github.com/freefq - 美国  9, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 10, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: 45.91.83.111}}, udp: true}
   - {name: github.com/freefq - 北美地区  11, server: 134.195.196.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 法国ONLINE S.A.S.数据中心 12, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: github.com/freefq - 北美地区  13, server: 134.195.196.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: github.com/freefq - 英国  14, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 英国  15, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq - 美国  16, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: github.com/freefq - 日本东京Linode数据中心 17, server: 172.105.244.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 18, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 19, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 北美地区  20, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 21, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: 45.91.83.111}}, udp: true}
-  - {name: github.com/freefq - 美国  22, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 23, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 24, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 25, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 26, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 27, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}, udp: true}
-  - {name: github.com/freefq - 澳大利亚  28, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
-  - {name: github.com/freefq - 挪威  29, server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 30, server: api.ssfree.ru, port: 443, type: vmess, uuid: 426a0bf4-8701-11ec-b470-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: api.ssfree.ru}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 31, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国  32, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 33, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 34, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 23.82.136.151}}, udp: true}
-  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 35, server: lin-jp.tgsc.xyz, port: 443, type: vmess, uuid: 57c95541-5147-4dae-81d0-660cc6b25e9b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /FNRWR48K, headers: {Host: lin-jp.tgsc.xyz}}, udp: true}
-  - {name: github.com/freefq - 北美地区  36, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: github.com/freefq - 日本东京Linode数据中心 12, server: 172.105.244.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 13, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 14, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 15, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: github.com/freefq - 北美地区  16, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 17, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 18, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 19, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 英国  20, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
+  - {name: github.com/freefq - 北美地区  22, server: 134.195.196.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 23, server: lin-jp.tgsc.xyz, port: 443, type: vmess, uuid: 57c95541-5147-4dae-81d0-660cc6b25e9b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /FNRWR48K, headers: {Host: lin-jp.tgsc.xyz}}, udp: true}
+  - {name: github.com/freefq - 北美地区  24, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 25, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 26, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 23.82.136.151}}, udp: true}
+  - {name: github.com/freefq - 美国  28, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国  29, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 30, server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: github.com/freefq - 英国  31, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 北美地区  32, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: github.com/freefq - 美国  33, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 34, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国蒙大拿州Sharktech公司 35, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 36, server: api.ssfree.ru, port: 443, type: vmess, uuid: 426a0bf4-8701-11ec-b470-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: api.ssfree.ru}}, udp: true}
   - {name: github.com/freefq - 印度  37, server: india.tgsc.xyz, port: 443, type: vmess, uuid: 1355574d-dac9-4006-8420-95a156fa5f32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /V81DFD0H, headers: {Host: india.tgsc.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国  38, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国  39, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 澳大利亚  40, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}, udp: true}
-  - {name: github.com/freefq - 美国蒙大拿州Sharktech公司 41, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
+  - {name: github.com/freefq - 澳大利亚  38, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
+  - {name: github.com/freefq - 澳大利亚  39, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}, udp: true}
+  - {name: github.com/freefq - 美国  40, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 41, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
   - {name: 请换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 广东省广州市腾讯云 1, server: 106.52.33.67, port: 40368, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 更新于:02-06 20:00:02 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 广东省广州市腾讯云 2, server: 159.75.50.77, port: 40095, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 3, server: 159.75.50.77, port: 40044, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 4, server: 1.14.165.96, port: 40262, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 5, server: 159.75.50.77, port: 40028, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 6, server: 159.75.50.77, port: 40016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 7, server: 159.75.50.77, port: 40013, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 8, server: 106.52.33.67, port: 40325, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 9, server: 1.14.165.96, port: 40246, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 10, server: 159.75.50.77, port: 40092, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 11, server: 159.75.50.77, port: 40091, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 12, server: 1.14.165.96, port: 40292, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 13, server: 106.52.33.67, port: 40326, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 14, server: 1.14.165.96, port: 40252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 15, server: 106.52.33.67, port: 40344, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 16, server: 159.75.50.77, port: 40034, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 17, server: 1.14.165.96, port: 40293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 18, server: 106.52.33.67, port: 40374, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 美国Amazon数据中心 19, server: 13.38.75.17, port: 8181, type: ssr, cipher: aes-256-cfb, password: gVWc0WaJn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 印度孟买Amazon数据中心 20, server: 3.6.86.77, port: 8080, type: ssr, cipher: aes-256-cfb, password: fD0KP8PWA, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 加拿大魁北克省蒙特利尔Amazon数据中心 21, server: 35.182.60.100, port: 8080, type: ssr, cipher: aes-256-cfb, password: 4axflHccX, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 广东省广州市腾讯云 22, server: 159.75.50.77, port: 40038, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 23, server: 159.75.50.77, port: 40099, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 日本东京Amazon数据中心 24, server: 54.168.200.100, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3H2aN5Gnm, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 广东省广州市腾讯云 25, server: 1.14.165.96, port: 40281, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 26, server: 159.75.50.77, port: 40046, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 27, server: 106.52.33.67, port: 40396, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 1, server: 159.75.50.77, port: 40013, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 更新于:02-07 00:00:02 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 广东省广州市腾讯云 2, server: 106.52.33.67, port: 40325, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 3, server: 159.75.50.77, port: 40034, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 4, server: 159.75.50.77, port: 40046, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 5, server: 106.52.33.67, port: 40344, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 6, server: 159.75.50.77, port: 40092, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 7, server: 106.52.33.67, port: 40396, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 8, server: 159.75.50.77, port: 40099, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 9, server: 159.75.50.77, port: 40091, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 10, server: 1.14.165.96, port: 40293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 11, server: 159.75.50.77, port: 40095, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 12, server: 159.75.50.77, port: 40038, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 13, server: 159.75.50.77, port: 40016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 14, server: 1.14.165.96, port: 40292, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 15, server: 106.52.33.67, port: 40326, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 16, server: 1.14.165.96, port: 40281, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 印度孟买Amazon数据中心 17, server: 3.6.86.77, port: 8080, type: ssr, cipher: aes-256-cfb, password: fD0KP8PWA, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 加拿大魁北克省蒙特利尔Amazon数据中心 18, server: 35.182.60.100, port: 8080, type: ssr, cipher: aes-256-cfb, password: 4axflHccX, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 广东省广州市腾讯云 19, server: 106.52.33.67, port: 40374, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 20, server: 1.14.165.96, port: 40262, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国Amazon数据中心 21, server: 13.38.75.17, port: 8181, type: ssr, cipher: aes-256-cfb, password: gVWc0WaJn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 广东省广州市腾讯云 22, server: 159.75.50.77, port: 40028, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 23, server: 159.75.50.77, port: 40044, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 24, server: 106.52.33.67, port: 40368, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 广东省广州市腾讯云 25, server: 1.14.165.96, port: 40252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 将于近期停止ssr更新 2, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 台6_|NF|动画疯, server: tw6-5641.duuk.info, port: 5306, type: trojan, password: 3681e895-beb2-5114-9fa2-4cfe305291cf, sni: tw-06-592.duuk.info, skip-cert-verify: true, udp: true}
@@ -2558,116 +2542,102 @@ proxy-groups:
       - Ytb:鹏哥分享_IN_印度_330
       - Ytb:鹏哥分享_US_美国_331
       - Ytb:鹏哥分享_US_美国_332
-      - Lv2 BGP 中继 台湾A
-      - Lv2 BGP 中继 台湾B
-      - Lv2 BGP 中继 台湾C
-      - Lv2 BGP 中继 美国A
-      - Lv2 BGP 中继 香港B
-      - 俄罗斯A-RU-CM-0.1x
-      - 日本B-JP-CM-0.4x
-      - 马来西亚A-MY-CM-0.2x
-      - 普通节点-台湾A
-      - 普通节点-台湾B
-      - 普通节点-日本B
-      - 普通节点-日本C
-      - 普通节点-日本D
-      - 普通节点-美国A
-      - 普通节点-美国C
-      - 普通节点-香港A
-      - 普通节点-香港B
-      - 普通节点-香港C
-      - 普通节点-香港D
-      - 普通节点-台湾A 2
-      - 普通节点-台湾B 2
-      - 普通节点-日本B 2
-      - 普通节点-日本C 2
-      - 普通节点-日本D 2
-      - 普通节点-美国A 2
-      - 普通节点-美国B
-      - 普通节点-美国C 2
-      - 普通节点-香港A 2
-      - 普通节点-香港B 2
-      - 普通节点-香港C 2
-      - 普通节点-香港D 2
-      - CN-120.232.174.121-1124
-      - CN-112.33.32.136-1125
-      - US-169.197.142.99-1067
-      - CN-116.163.14.92-1057
-      - US-169.197.142.99-1156
-      - US-169.197.142.99-1155
-      - US-89.208.245.157-1170
-      - US-72.167.45.6-1077
-      - US-38.75.136.49-1159
-      - US-38.68.135.18-1169
-      - US-38.68.134.190-1098
-      - DE-193.108.118.36-1115
-      - CN-112.64.69.187-1162
-      - CN-116.163.14.92-0725
-      - US-38.121.43.71-1157
-      - FR-20.111.31.233-0473
-      - CA-134.195.196.150-1094
-      - US-38.121.43.142-1064
-      - CA-134.195.196.150-1095
-      - CA-134.195.196.71-0054
-      - US-38.107.226.241-0017
-      - CA-134.195.196.71-0110
-      - US-38.121.43.71-0035
-      - US-142.202.48.34-0030
-      - US-38.121.43.204-1165
-      - CA-134.195.196.149-1097
-      - CN-112.64.69.187-1126
-      - CA-134.195.196.227-1104
-      - CA-134.195.196.128-0058
-      - US-167.88.63.60-1154
-      - US-167.88.63.60-0027
-      - CA-134.195.196.149-0093
-      - CA-134.195.196.144-1109
-      - CA-134.195.196.227-1103
-      - US-38.143.66.55-0013
-      - RELAY-198.41.212.18-0067
-      - US-72.167.45.6-1076
-      - RELAY-198.41.212.15-0397
-      - GB-172.99.190.186-1121
-      - CA-134.195.196.150-0057
-      - DE-139.162.132.116-1116
-      - GB-172.99.190.109-0026
-      - CN-120.233.150.200-1150
-      - CZ-194.87.238.162-0077
-      - AU-192.53.169.116-0109
-      - JP-106.180.225.69-1137
-      - HU-185.128.26.130-0046
-      - CN-112.33.32.136-0712
-      - RELAY-198.41.212.20-0392
-      - RELAY-198.41.221.169-0071
-      - US-172.67.147.173-0079
-      - US-172.67.147.173-0066
-      - CA-134.195.196.193-1111
-      - JP-85.208.110.2-0095
-      - CA-134.195.198.252-0087
-      - AE-217.138.193.42-0037
-      - RELAY-198.41.212.14-0391
-      - IN-172.104.207.231-0108
-      - BV-46.29.219.246-0032
-      - US-169.197.141.244-0100
-      - US-154.3.8.151-0028
-      - JP-45.77.181.112-0951
-      - US-38.75.137.71-0008
-      - US-167.88.62.34-0086
-      - IN-172.104.207.231-0064
-      - US-38.68.135.18-1171
-      - CN-101.89.109.30-0683
-      - US-172.67.147.173-0069
-      - CA-198.57.27.188-1108
-      - CA-45.62.250.251-0617
-      - FR-145.239.1.137-0084
-      - GB-172.99.190.87-0091
-      - JP-85.208.108.106-0101
-      - CN-112.64.69.187-0195
-      - CA-142.47.89.64-0001
-      - RELAY-198.41.212.9-0068
-      - FR-149.202.82.172-0000
-      - EG-188.214.122.138-1117
-      - _CA_加拿大
+      - 韩国 01
+      - 新加坡-优化2
+      - 新加坡-01
+      - 香港 06 - 解锁流媒体
+      - 【固定IP】美国10-解锁流媒体
+      - 【固定IP】美国05-解锁流媒体
+      - 【固定IP】美国07-解锁流媒体
+      - 【固定IP】美国08-解锁流媒体
+      - Canada 69
+      - XY VPN Norway 🇳🇴 Kristiansad 1
+      - United States 16
+      - 【固定IP】日本19-解锁流媒体
+      - Canada 65
+      - 高速 02
+      - 高速 16
+      - 高速 17
+      - 高速 20
+      - 高速 24
+      - 高速 31
+      - 高速 35
+      - 高速 38
+      - 高速 42
+      - 高速 53
+      - 高速 55
+      - 高速 58
+      - 高速 68
+      - 高速 70
+      - 香港 06 - 解锁流媒体 2
+      - 香港 06 - 解锁流媒体 3
+      - 香港 06 - 解锁流媒体 4
+      - 香港 06 - 解锁流媒体 5
+      - 香港 06 - 解锁流媒体 6
+      - 香港 06 - 解锁流媒体 7
+      - 香港 06 - 解锁流媒体 8
+      - ""
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 2 2
+      - 3 2
+      - 4 2
+      - 6 2
+      - 7 2
+      - 8 2
+      - 9 2
+      - 16 2
+      - 17 2
+      - 18 2
+      - 25 2
+      - 26 2
+      - 29
+      - 30
+      - 31
+      - 32
+      - 46
+      - 48
+      - 49
+      - 50
+      - 1.57|CYL科技20220101 30 2
+      - CN-183.232.170.110-1232
+      - CN-183.232.170.110-1233
+      - US-199.19.226.178-1313
+      - 30香港TG@moneyflychat
+      - 45香港TG@moneyflychat
+      - _US_美国
+      - _US_美国 2
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _JP_日本
+      - _US_美国->🇷🇺_RU_俄罗斯联邦 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - default_name
+      - _US_美国 6
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3225,51 +3195,51 @@ proxy-groups:
       - Ytb:鹏哥分享_布维岛_183
       - Ytb:鹏哥分享_香港_184
       - Ytb:鹏哥分享_美国_185
-      - github.com/freefq - 广东省深圳市移动 1
-      - github.com/freefq - 美国华盛顿Cogent通信公司 2
-      - github.com/freefq - 美国华盛顿Cogent通信公司 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 4
+      - github.com/freefq - 香港特别行政区 1
+      - github.com/freefq - 广东省深圳市移动 2
+      - github.com/freefq - 瑞典  3
+      - github.com/freefq - 北美地区  4
       - github.com/freefq - 北美地区  5
       - github.com/freefq - 北美地区  6
-      - github.com/freefq - 瑞典  7
-      - github.com/freefq - 北美地区  8
-      - github.com/freefq - 加拿大  9
-      - github.com/freefq - 北美地区  10
+      - github.com/freefq - 加拿大  7
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 8
+      - github.com/freefq - 美国  9
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 10
       - github.com/freefq - 北美地区  11
-      - github.com/freefq - 法国ONLINE S.A.S.数据中心 12
-      - github.com/freefq - 北美地区  13
-      - github.com/freefq - 英国  14
-      - github.com/freefq - 英国  15
-      - github.com/freefq - 美国  16
-      - github.com/freefq - 日本东京Linode数据中心 17
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
+      - github.com/freefq - 日本东京Linode数据中心 12
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 13
+      - github.com/freefq - 美国华盛顿Cogent通信公司 14
+      - github.com/freefq - 美国华盛顿Cogent通信公司 15
+      - github.com/freefq - 北美地区  16
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 17
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 18
       - github.com/freefq - 美国华盛顿Cogent通信公司 19
-      - github.com/freefq - 北美地区  20
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 21
-      - github.com/freefq - 美国  22
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 23
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 24
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 25
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 26
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 27
-      - github.com/freefq - 澳大利亚  28
-      - github.com/freefq - 挪威  29
-      - github.com/freefq - 美国CloudFlare节点 30
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 31
-      - github.com/freefq - 美国  32
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 33
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 34
-      - github.com/freefq - 日本东京都品川区Linode数据中心 35
-      - github.com/freefq - 北美地区  36
+      - github.com/freefq - 英国  20
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21
+      - github.com/freefq - 北美地区  22
+      - github.com/freefq - 日本东京都品川区Linode数据中心 23
+      - github.com/freefq - 北美地区  24
+      - github.com/freefq - 美国华盛顿Cogent通信公司 25
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 26
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 美国  29
+      - github.com/freefq - 美国华盛顿Cogent通信公司 30
+      - github.com/freefq - 英国  31
+      - github.com/freefq - 北美地区  32
+      - github.com/freefq - 美国  33
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 34
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 35
+      - github.com/freefq - 美国CloudFlare节点 36
       - github.com/freefq - 印度  37
-      - github.com/freefq - 美国  38
-      - github.com/freefq - 美国  39
-      - github.com/freefq - 澳大利亚  40
-      - github.com/freefq - 美国蒙大拿州Sharktech公司 41
+      - github.com/freefq - 澳大利亚  38
+      - github.com/freefq - 澳大利亚  39
+      - github.com/freefq - 美国  40
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 41
       - 请换到v2ray
       - 将于近期停止ssr更新
       - 广东省广州市腾讯云 1
-      - 更新于:02-06 20:00:02 - by BuLink.xyz
+      - 更新于:02-07 00:00:02 - by BuLink.xyz
       - 广东省广州市腾讯云 2
       - 广东省广州市腾讯云 3
       - 广东省广州市腾讯云 4
@@ -3285,17 +3255,15 @@ proxy-groups:
       - 广东省广州市腾讯云 14
       - 广东省广州市腾讯云 15
       - 广东省广州市腾讯云 16
-      - 广东省广州市腾讯云 17
-      - 广东省广州市腾讯云 18
-      - 美国Amazon数据中心 19
-      - 印度孟买Amazon数据中心 20
-      - 加拿大魁北克省蒙特利尔Amazon数据中心 21
+      - 印度孟买Amazon数据中心 17
+      - 加拿大魁北克省蒙特利尔Amazon数据中心 18
+      - 广东省广州市腾讯云 19
+      - 广东省广州市腾讯云 20
+      - 美国Amazon数据中心 21
       - 广东省广州市腾讯云 22
       - 广东省广州市腾讯云 23
-      - 日本东京Amazon数据中心 24
+      - 广东省广州市腾讯云 24
       - 广东省广州市腾讯云 25
-      - 广东省广州市腾讯云 26
-      - 广东省广州市腾讯云 27
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 台6_|NF|动画疯
@@ -4328,116 +4296,102 @@ proxy-groups:
       - Ytb:鹏哥分享_IN_印度_330
       - Ytb:鹏哥分享_US_美国_331
       - Ytb:鹏哥分享_US_美国_332
-      - Lv2 BGP 中继 台湾A
-      - Lv2 BGP 中继 台湾B
-      - Lv2 BGP 中继 台湾C
-      - Lv2 BGP 中继 美国A
-      - Lv2 BGP 中继 香港B
-      - 俄罗斯A-RU-CM-0.1x
-      - 日本B-JP-CM-0.4x
-      - 马来西亚A-MY-CM-0.2x
-      - 普通节点-台湾A
-      - 普通节点-台湾B
-      - 普通节点-日本B
-      - 普通节点-日本C
-      - 普通节点-日本D
-      - 普通节点-美国A
-      - 普通节点-美国C
-      - 普通节点-香港A
-      - 普通节点-香港B
-      - 普通节点-香港C
-      - 普通节点-香港D
-      - 普通节点-台湾A 2
-      - 普通节点-台湾B 2
-      - 普通节点-日本B 2
-      - 普通节点-日本C 2
-      - 普通节点-日本D 2
-      - 普通节点-美国A 2
-      - 普通节点-美国B
-      - 普通节点-美国C 2
-      - 普通节点-香港A 2
-      - 普通节点-香港B 2
-      - 普通节点-香港C 2
-      - 普通节点-香港D 2
-      - CN-120.232.174.121-1124
-      - CN-112.33.32.136-1125
-      - US-169.197.142.99-1067
-      - CN-116.163.14.92-1057
-      - US-169.197.142.99-1156
-      - US-169.197.142.99-1155
-      - US-89.208.245.157-1170
-      - US-72.167.45.6-1077
-      - US-38.75.136.49-1159
-      - US-38.68.135.18-1169
-      - US-38.68.134.190-1098
-      - DE-193.108.118.36-1115
-      - CN-112.64.69.187-1162
-      - CN-116.163.14.92-0725
-      - US-38.121.43.71-1157
-      - FR-20.111.31.233-0473
-      - CA-134.195.196.150-1094
-      - US-38.121.43.142-1064
-      - CA-134.195.196.150-1095
-      - CA-134.195.196.71-0054
-      - US-38.107.226.241-0017
-      - CA-134.195.196.71-0110
-      - US-38.121.43.71-0035
-      - US-142.202.48.34-0030
-      - US-38.121.43.204-1165
-      - CA-134.195.196.149-1097
-      - CN-112.64.69.187-1126
-      - CA-134.195.196.227-1104
-      - CA-134.195.196.128-0058
-      - US-167.88.63.60-1154
-      - US-167.88.63.60-0027
-      - CA-134.195.196.149-0093
-      - CA-134.195.196.144-1109
-      - CA-134.195.196.227-1103
-      - US-38.143.66.55-0013
-      - RELAY-198.41.212.18-0067
-      - US-72.167.45.6-1076
-      - RELAY-198.41.212.15-0397
-      - GB-172.99.190.186-1121
-      - CA-134.195.196.150-0057
-      - DE-139.162.132.116-1116
-      - GB-172.99.190.109-0026
-      - CN-120.233.150.200-1150
-      - CZ-194.87.238.162-0077
-      - AU-192.53.169.116-0109
-      - JP-106.180.225.69-1137
-      - HU-185.128.26.130-0046
-      - CN-112.33.32.136-0712
-      - RELAY-198.41.212.20-0392
-      - RELAY-198.41.221.169-0071
-      - US-172.67.147.173-0079
-      - US-172.67.147.173-0066
-      - CA-134.195.196.193-1111
-      - JP-85.208.110.2-0095
-      - CA-134.195.198.252-0087
-      - AE-217.138.193.42-0037
-      - RELAY-198.41.212.14-0391
-      - IN-172.104.207.231-0108
-      - BV-46.29.219.246-0032
-      - US-169.197.141.244-0100
-      - US-154.3.8.151-0028
-      - JP-45.77.181.112-0951
-      - US-38.75.137.71-0008
-      - US-167.88.62.34-0086
-      - IN-172.104.207.231-0064
-      - US-38.68.135.18-1171
-      - CN-101.89.109.30-0683
-      - US-172.67.147.173-0069
-      - CA-198.57.27.188-1108
-      - CA-45.62.250.251-0617
-      - FR-145.239.1.137-0084
-      - GB-172.99.190.87-0091
-      - JP-85.208.108.106-0101
-      - CN-112.64.69.187-0195
-      - CA-142.47.89.64-0001
-      - RELAY-198.41.212.9-0068
-      - FR-149.202.82.172-0000
-      - EG-188.214.122.138-1117
-      - _CA_加拿大
+      - 韩国 01
+      - 新加坡-优化2
+      - 新加坡-01
+      - 香港 06 - 解锁流媒体
+      - 【固定IP】美国10-解锁流媒体
+      - 【固定IP】美国05-解锁流媒体
+      - 【固定IP】美国07-解锁流媒体
+      - 【固定IP】美国08-解锁流媒体
+      - Canada 69
+      - XY VPN Norway 🇳🇴 Kristiansad 1
+      - United States 16
+      - 【固定IP】日本19-解锁流媒体
+      - Canada 65
+      - 高速 02
+      - 高速 16
+      - 高速 17
+      - 高速 20
+      - 高速 24
+      - 高速 31
+      - 高速 35
+      - 高速 38
+      - 高速 42
+      - 高速 53
+      - 高速 55
+      - 高速 58
+      - 高速 68
+      - 高速 70
+      - 香港 06 - 解锁流媒体 2
+      - 香港 06 - 解锁流媒体 3
+      - 香港 06 - 解锁流媒体 4
+      - 香港 06 - 解锁流媒体 5
+      - 香港 06 - 解锁流媒体 6
+      - 香港 06 - 解锁流媒体 7
+      - 香港 06 - 解锁流媒体 8
+      - ""
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 2 2
+      - 3 2
+      - 4 2
+      - 6 2
+      - 7 2
+      - 8 2
+      - 9 2
+      - 16 2
+      - 17 2
+      - 18 2
+      - 25 2
+      - 26 2
+      - 29
+      - 30
+      - 31
+      - 32
+      - 46
+      - 48
+      - 49
+      - 50
+      - 1.57|CYL科技20220101 30 2
+      - CN-183.232.170.110-1232
+      - CN-183.232.170.110-1233
+      - US-199.19.226.178-1313
+      - 30香港TG@moneyflychat
+      - 45香港TG@moneyflychat
+      - _US_美国
+      - _US_美国 2
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _JP_日本
+      - _US_美国->🇷🇺_RU_俄罗斯联邦 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - default_name
+      - _US_美国 6
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4995,51 +4949,51 @@ proxy-groups:
       - Ytb:鹏哥分享_布维岛_183
       - Ytb:鹏哥分享_香港_184
       - Ytb:鹏哥分享_美国_185
-      - github.com/freefq - 广东省深圳市移动 1
-      - github.com/freefq - 美国华盛顿Cogent通信公司 2
-      - github.com/freefq - 美国华盛顿Cogent通信公司 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 4
+      - github.com/freefq - 香港特别行政区 1
+      - github.com/freefq - 广东省深圳市移动 2
+      - github.com/freefq - 瑞典  3
+      - github.com/freefq - 北美地区  4
       - github.com/freefq - 北美地区  5
       - github.com/freefq - 北美地区  6
-      - github.com/freefq - 瑞典  7
-      - github.com/freefq - 北美地区  8
-      - github.com/freefq - 加拿大  9
-      - github.com/freefq - 北美地区  10
+      - github.com/freefq - 加拿大  7
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 8
+      - github.com/freefq - 美国  9
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 10
       - github.com/freefq - 北美地区  11
-      - github.com/freefq - 法国ONLINE S.A.S.数据中心 12
-      - github.com/freefq - 北美地区  13
-      - github.com/freefq - 英国  14
-      - github.com/freefq - 英国  15
-      - github.com/freefq - 美国  16
-      - github.com/freefq - 日本东京Linode数据中心 17
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
+      - github.com/freefq - 日本东京Linode数据中心 12
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 13
+      - github.com/freefq - 美国华盛顿Cogent通信公司 14
+      - github.com/freefq - 美国华盛顿Cogent通信公司 15
+      - github.com/freefq - 北美地区  16
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 17
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 18
       - github.com/freefq - 美国华盛顿Cogent通信公司 19
-      - github.com/freefq - 北美地区  20
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 21
-      - github.com/freefq - 美国  22
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 23
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 24
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 25
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 26
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 27
-      - github.com/freefq - 澳大利亚  28
-      - github.com/freefq - 挪威  29
-      - github.com/freefq - 美国CloudFlare节点 30
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 31
-      - github.com/freefq - 美国  32
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 33
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 34
-      - github.com/freefq - 日本东京都品川区Linode数据中心 35
-      - github.com/freefq - 北美地区  36
+      - github.com/freefq - 英国  20
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21
+      - github.com/freefq - 北美地区  22
+      - github.com/freefq - 日本东京都品川区Linode数据中心 23
+      - github.com/freefq - 北美地区  24
+      - github.com/freefq - 美国华盛顿Cogent通信公司 25
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 26
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 美国  29
+      - github.com/freefq - 美国华盛顿Cogent通信公司 30
+      - github.com/freefq - 英国  31
+      - github.com/freefq - 北美地区  32
+      - github.com/freefq - 美国  33
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 34
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 35
+      - github.com/freefq - 美国CloudFlare节点 36
       - github.com/freefq - 印度  37
-      - github.com/freefq - 美国  38
-      - github.com/freefq - 美国  39
-      - github.com/freefq - 澳大利亚  40
-      - github.com/freefq - 美国蒙大拿州Sharktech公司 41
+      - github.com/freefq - 澳大利亚  38
+      - github.com/freefq - 澳大利亚  39
+      - github.com/freefq - 美国  40
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 41
       - 请换到v2ray
       - 将于近期停止ssr更新
       - 广东省广州市腾讯云 1
-      - 更新于:02-06 20:00:02 - by BuLink.xyz
+      - 更新于:02-07 00:00:02 - by BuLink.xyz
       - 广东省广州市腾讯云 2
       - 广东省广州市腾讯云 3
       - 广东省广州市腾讯云 4
@@ -5055,17 +5009,15 @@ proxy-groups:
       - 广东省广州市腾讯云 14
       - 广东省广州市腾讯云 15
       - 广东省广州市腾讯云 16
-      - 广东省广州市腾讯云 17
-      - 广东省广州市腾讯云 18
-      - 美国Amazon数据中心 19
-      - 印度孟买Amazon数据中心 20
-      - 加拿大魁北克省蒙特利尔Amazon数据中心 21
+      - 印度孟买Amazon数据中心 17
+      - 加拿大魁北克省蒙特利尔Amazon数据中心 18
+      - 广东省广州市腾讯云 19
+      - 广东省广州市腾讯云 20
+      - 美国Amazon数据中心 21
       - 广东省广州市腾讯云 22
       - 广东省广州市腾讯云 23
-      - 日本东京Amazon数据中心 24
+      - 广东省广州市腾讯云 24
       - 广东省广州市腾讯云 25
-      - 广东省广州市腾讯云 26
-      - 广东省广州市腾讯云 27
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 台6_|NF|动画疯
@@ -5462,6 +5414,19 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 香港 06 - 解锁流媒体
+      - 【固定IP】美国10-解锁流媒体
+      - 【固定IP】美国05-解锁流媒体
+      - 【固定IP】美国07-解锁流媒体
+      - 【固定IP】美国08-解锁流媒体
+      - 【固定IP】日本19-解锁流媒体
+      - 香港 06 - 解锁流媒体 2
+      - 香港 06 - 解锁流媒体 3
+      - 香港 06 - 解锁流媒体 4
+      - 香港 06 - 解锁流媒体 5
+      - 香港 06 - 解锁流媒体 6
+      - 香港 06 - 解锁流媒体 7
+      - 香港 06 - 解锁流媒体 8
       - 中转|香港HKBN05|华南隧道[流媒体解锁]
       - 中转|香港HKBN02|华南隧道[流媒体解锁]
       - 中转|香港HKBN04|华南隧道[流媒体解锁]
@@ -5536,15 +5501,16 @@ proxy-groups:
       - _香港_HK-2022.01.28_19_19
       - _中国_HK-2022.01.28_20_20
       - Relay_🇭🇰HK-🇭🇰HK_61
-      - Lv2 BGP 中继 香港B
-      - 普通节点-香港A
-      - 普通节点-香港B
-      - 普通节点-香港C
-      - 普通节点-香港D
-      - 普通节点-香港A 2
-      - 普通节点-香港B 2
-      - 普通节点-香港C 2
-      - 普通节点-香港D 2
+      - 香港 06 - 解锁流媒体
+      - 香港 06 - 解锁流媒体 2
+      - 香港 06 - 解锁流媒体 3
+      - 香港 06 - 解锁流媒体 4
+      - 香港 06 - 解锁流媒体 5
+      - 香港 06 - 解锁流媒体 6
+      - 香港 06 - 解锁流媒体 7
+      - 香港 06 - 解锁流媒体 8
+      - 30香港TG@moneyflychat
+      - 45香港TG@moneyflychat
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -5565,6 +5531,7 @@ proxy-groups:
       - Ytb:鹏哥分享_香港_181
       - Ytb:鹏哥分享_香港_182
       - Ytb:鹏哥分享_香港_184
+      - github.com/freefq - 香港特别行政区 1
       - "*🇭🇰HK -592 T.me/moon365free"
       - "*🇭🇰HK -637 T.me/moon365free"
       - "*🇭🇰HK -972 T.me/moon365free"
@@ -5634,17 +5601,8 @@ proxy-groups:
       - "@SSRSUB-东京T09-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-大阪T18-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-东京T19-付费推荐:dlj.tf/ssrsub"
-      - 日本B-JP-CM-0.4x
-      - 普通节点-日本B
-      - 普通节点-日本C
-      - 普通节点-日本D
-      - 普通节点-日本B 2
-      - 普通节点-日本C 2
-      - 普通节点-日本D 2
-      - JP-106.180.225.69-1137
-      - JP-85.208.110.2-0095
-      - JP-45.77.181.112-0951
-      - JP-85.208.108.106-0101
+      - 【固定IP】日本19-解锁流媒体
+      - _JP_日本
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -5666,9 +5624,8 @@ proxy-groups:
       - 031日本∞直连
       - 032日本∞直连
       - 033日本∞直连
-      - github.com/freefq - 日本东京Linode数据中心 17
-      - github.com/freefq - 日本东京都品川区Linode数据中心 35
-      - 日本东京Amazon数据中心 24
+      - github.com/freefq - 日本东京Linode数据中心 12
+      - github.com/freefq - 日本东京都品川区Linode数据中心 23
       - "*🇯🇵JP -2569 T.me/moon365free"
       - "*🇯🇵JP -988 T.me/moon365free"
       - "*🇯🇵JP -2576 T.me/moon365free"
@@ -5919,38 +5876,20 @@ proxy-groups:
       - Ytb:鹏哥分享_US_美国_329
       - Ytb:鹏哥分享_US_美国_331
       - Ytb:鹏哥分享_US_美国_332
-      - Lv2 BGP 中继 美国A
-      - 普通节点-美国A
-      - 普通节点-美国C
-      - 普通节点-美国A 2
-      - 普通节点-美国B
-      - 普通节点-美国C 2
-      - US-169.197.142.99-1067
-      - US-169.197.142.99-1156
-      - US-169.197.142.99-1155
-      - US-89.208.245.157-1170
-      - US-72.167.45.6-1077
-      - US-38.75.136.49-1159
-      - US-38.68.135.18-1169
-      - US-38.68.134.190-1098
-      - US-38.121.43.71-1157
-      - US-38.121.43.142-1064
-      - US-38.107.226.241-0017
-      - US-38.121.43.71-0035
-      - US-142.202.48.34-0030
-      - US-38.121.43.204-1165
-      - US-167.88.63.60-1154
-      - US-167.88.63.60-0027
-      - US-38.143.66.55-0013
-      - US-72.167.45.6-1076
-      - US-172.67.147.173-0079
-      - US-172.67.147.173-0066
-      - US-169.197.141.244-0100
-      - US-154.3.8.151-0028
-      - US-38.75.137.71-0008
-      - US-167.88.62.34-0086
-      - US-38.68.135.18-1171
-      - US-172.67.147.173-0069
+      - 【固定IP】美国10-解锁流媒体
+      - 【固定IP】美国05-解锁流媒体
+      - 【固定IP】美国07-解锁流媒体
+      - 【固定IP】美国08-解锁流媒体
+      - United States 16
+      - US-199.19.226.178-1313
+      - _US_美国
+      - _US_美国 2
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _US_美国->🇷🇺_RU_俄罗斯联邦 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -6208,36 +6147,36 @@ proxy-groups:
       - Ytb:鹏哥分享_美国_176
       - Ytb:鹏哥分享_美国_177
       - Ytb:鹏哥分享_美国_185
-      - github.com/freefq - 美国华盛顿Cogent通信公司 2
-      - github.com/freefq - 美国华盛顿Cogent通信公司 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 4
+      - github.com/freefq - 北美地区  4
       - github.com/freefq - 北美地区  5
       - github.com/freefq - 北美地区  6
-      - github.com/freefq - 北美地区  8
-      - github.com/freefq - 北美地区  10
+      - github.com/freefq - 美国  9
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 10
       - github.com/freefq - 北美地区  11
-      - github.com/freefq - 北美地区  13
-      - github.com/freefq - 美国  16
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 13
+      - github.com/freefq - 美国华盛顿Cogent通信公司 14
+      - github.com/freefq - 美国华盛顿Cogent通信公司 15
+      - github.com/freefq - 北美地区  16
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 17
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 18
       - github.com/freefq - 美国华盛顿Cogent通信公司 19
-      - github.com/freefq - 北美地区  20
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 21
-      - github.com/freefq - 美国  22
-      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 23
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 24
-      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 25
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 26
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 27
-      - github.com/freefq - 美国CloudFlare节点 30
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 31
-      - github.com/freefq - 美国  32
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 33
-      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 34
-      - github.com/freefq - 北美地区  36
-      - github.com/freefq - 美国  38
-      - github.com/freefq - 美国  39
-      - github.com/freefq - 美国蒙大拿州Sharktech公司 41
-      - 美国Amazon数据中心 19
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21
+      - github.com/freefq - 北美地区  22
+      - github.com/freefq - 北美地区  24
+      - github.com/freefq - 美国华盛顿Cogent通信公司 25
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 26
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 美国  29
+      - github.com/freefq - 美国华盛顿Cogent通信公司 30
+      - github.com/freefq - 北美地区  32
+      - github.com/freefq - 美国  33
+      - github.com/freefq - 美国加利福尼亚州洛杉矶LeaseWeb(SFO12)数据中心 34
+      - github.com/freefq - 美国蒙大拿州Sharktech公司 35
+      - github.com/freefq - 美国CloudFlare节点 36
+      - github.com/freefq - 美国  40
+      - github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 41
+      - 美国Amazon数据中心 21
       - "@nfeng6 US_2401"
       - "@nfeng6 US_2406"
       - "@nfeng6 US_2196"
@@ -6281,13 +6220,6 @@ proxy-groups:
       - Relay_🇹🇼TW-🇹🇼TW_77
       - Ytb:鹏哥分享_TW_台湾_272
       - Ytb:鹏哥分享_TW_台湾_284
-      - Lv2 BGP 中继 台湾A
-      - Lv2 BGP 中继 台湾B
-      - Lv2 BGP 中继 台湾C
-      - 普通节点-台湾A
-      - 普通节点-台湾B
-      - 普通节点-台湾A 2
-      - 普通节点-台湾B 2
       - 台湾（YouTube资源分享者） 9
       - 台湾（YouTube资源分享者） 10
       - 台湾（YouTube资源分享者） 11
@@ -6337,6 +6269,8 @@ proxy-groups:
       - 新加坡（YouTube资源分享者）
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V18-付费推荐::suo.yt/ssrsub"
+      - 新加坡-优化2
+      - 新加坡-01
       - 新加坡（YouTube资源分享者） 2
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-新加坡V18-付费推荐::suo.yt/ssrsub 2"
@@ -6413,6 +6347,7 @@ proxy-groups:
       - "@SSRSUB-首尔T10-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-韩国T15-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-首尔T20-付费推荐:dlj.tf/ssrsub"
+      - 韩国 01
       - "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub 2"
       - 韩国-A Direct
@@ -6422,6 +6357,19 @@ proxy-groups:
   - name: 🎥 奈飞节点
     type: select
     proxies:
+      - 香港 06 - 解锁流媒体
+      - 【固定IP】美国10-解锁流媒体
+      - 【固定IP】美国05-解锁流媒体
+      - 【固定IP】美国07-解锁流媒体
+      - 【固定IP】美国08-解锁流媒体
+      - 【固定IP】日本19-解锁流媒体
+      - 香港 06 - 解锁流媒体 2
+      - 香港 06 - 解锁流媒体 3
+      - 香港 06 - 解锁流媒体 4
+      - 香港 06 - 解锁流媒体 5
+      - 香港 06 - 解锁流媒体 6
+      - 香港 06 - 解锁流媒体 7
+      - 香港 06 - 解锁流媒体 8
       - 台6_|NF|动画疯
       - 台7_|NF|动画疯
       - 中转|香港HKBN05|华南隧道[流媒体解锁]
