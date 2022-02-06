@@ -5,109 +5,158 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US美国_1","server":"167.88.63.74","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US美国_2","server":"167.88.63.74","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_3","server":"198.57.27.241","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US美国_4","server":"38.68.134.23","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇬🇧_GB英国_5","server":"172.99.190.39","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US美国_6","server":"38.75.136.45","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA加拿大_7","server":"134.195.196.71","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_8","server":"134.195.196.71","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇳🇴_NO挪威_9","server":"46.29.218.146","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_US美国_10","server":"142.202.48.34","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇧🇻_BV_布维岛_1","server":"46.29.219.246","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_2","server":"167.88.63.61","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇳🇴_NO_挪威_3","server":"46.29.218.146","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_4","server":"167.88.63.61","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇭🇰_HK_香港->🇮🇳_IN_印度_5","server":"aicoo6du.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"aicoo6du.com"}}
+  - {"name":"🇺🇸_US_美国_6","server":"167.88.63.74","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸_US_美国_7","server":"38.68.134.37","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇧🇻_BV_布维岛_8","server":"46.29.219.246","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_9","server":"167.88.63.61","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_10","server":"167.88.62.34","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇳🇴_NO_挪威_11","server":"46.29.218.146","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_12","server":"208.98.48.2","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"iesei1ei.com"}}
+  - {"name":"🇺🇸_US_美国_13","server":"167.88.63.61","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇳🇴_NO_挪威_14","server":"46.29.218.146","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA_加拿大_15","server":"134.195.196.179","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_16","server":"167.88.62.34","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_17","server":"167.88.62.34","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US美国_1
-      - 🇺🇸_US美国_2
-      - 🇨🇦_CA加拿大_3
-      - 🇺🇸_US美国_4
-      - 🇬🇧_GB英国_5
-      - 🇺🇸_US美国_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇳🇴_NO挪威_9
-      - 🇺🇸_US美国_10
+      - 🇧🇻_BV_布维岛_1
+      - 🇺🇸_US_美国_2
+      - 🇳🇴_NO_挪威_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇧🇻_BV_布维岛_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇳🇴_NO_挪威_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇳🇴_NO_挪威_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US美国_1
-      - 🇺🇸_US美国_2
-      - 🇨🇦_CA加拿大_3
-      - 🇺🇸_US美国_4
-      - 🇬🇧_GB英国_5
-      - 🇺🇸_US美国_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇳🇴_NO挪威_9
-      - 🇺🇸_US美国_10
+      - 🇧🇻_BV_布维岛_1
+      - 🇺🇸_US_美国_2
+      - 🇳🇴_NO_挪威_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇧🇻_BV_布维岛_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇳🇴_NO_挪威_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇳🇴_NO_挪威_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US美国_1
-      - 🇺🇸_US美国_2
-      - 🇨🇦_CA加拿大_3
-      - 🇺🇸_US美国_4
-      - 🇬🇧_GB英国_5
-      - 🇺🇸_US美国_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇳🇴_NO挪威_9
-      - 🇺🇸_US美国_10
+      - 🇧🇻_BV_布维岛_1
+      - 🇺🇸_US_美国_2
+      - 🇳🇴_NO_挪威_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇧🇻_BV_布维岛_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇳🇴_NO_挪威_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇳🇴_NO_挪威_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US美国_1
-      - 🇺🇸_US美国_2
-      - 🇨🇦_CA加拿大_3
-      - 🇺🇸_US美国_4
-      - 🇬🇧_GB英国_5
-      - 🇺🇸_US美国_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇳🇴_NO挪威_9
-      - 🇺🇸_US美国_10
+      - 🇧🇻_BV_布维岛_1
+      - 🇺🇸_US_美国_2
+      - 🇳🇴_NO_挪威_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇧🇻_BV_布维岛_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇳🇴_NO_挪威_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇳🇴_NO_挪威_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US美国_1
-      - 🇺🇸_US美国_2
-      - 🇨🇦_CA加拿大_3
-      - 🇺🇸_US美国_4
-      - 🇬🇧_GB英国_5
-      - 🇺🇸_US美国_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇳🇴_NO挪威_9
-      - 🇺🇸_US美国_10
+      - 🇧🇻_BV_布维岛_1
+      - 🇺🇸_US_美国_2
+      - 🇳🇴_NO_挪威_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇧🇻_BV_布维岛_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇳🇴_NO_挪威_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇳🇴_NO_挪威_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US美国_1
-      - 🇺🇸_US美国_2
-      - 🇨🇦_CA加拿大_3
-      - 🇺🇸_US美国_4
-      - 🇬🇧_GB英国_5
-      - 🇺🇸_US美国_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇳🇴_NO挪威_9
-      - 🇺🇸_US美国_10
+      - 🇧🇻_BV_布维岛_1
+      - 🇺🇸_US_美国_2
+      - 🇳🇴_NO_挪威_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇧🇻_BV_布维岛_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇳🇴_NO_挪威_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇳🇴_NO_挪威_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +179,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US美国_1
-      - 🇺🇸_US美国_2
-      - 🇨🇦_CA加拿大_3
-      - 🇺🇸_US美国_4
-      - 🇬🇧_GB英国_5
-      - 🇺🇸_US美国_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇳🇴_NO挪威_9
-      - 🇺🇸_US美国_10
+      - 🇧🇻_BV_布维岛_1
+      - 🇺🇸_US_美国_2
+      - 🇳🇴_NO_挪威_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港->🇮🇳_IN_印度_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇧🇻_BV_布维岛_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇳🇴_NO_挪威_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇳🇴_NO_挪威_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
