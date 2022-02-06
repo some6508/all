@@ -5,53 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps_1","server":"china-gzyd-1.forwardserver.xyz","port":36029,"type":"trojan","password":"36352-2-41419784784722","sni":"digitalocean-sgp-1.forwardserver.xyz"}
-  - {"name":"🇯🇵atShareCentreProJapan_2","server":"tt6.tjvpn.top","port":443,"type":"trojan","password":"0cb2cd1f-870b-485c-914a-60aba39eed39","sni":"tt6.tjvpn.top"}
+  - {"name":"🇺🇸_US美国_1","server":"167.88.63.74","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US美国_2","server":"167.88.63.74","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_3","server":"198.57.27.241","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US美国_4","server":"38.68.134.23","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇬🇧_GB英国_5","server":"172.99.190.39","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US美国_6","server":"38.75.136.45","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA加拿大_7","server":"134.195.196.71","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_8","server":"134.195.196.71","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇳🇴_NO挪威_9","server":"46.29.218.146","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_US美国_10","server":"142.202.48.34","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps_1
-      - 🇯🇵atShareCentreProJapan_2
+      - 🇺🇸_US美国_1
+      - 🇺🇸_US美国_2
+      - 🇨🇦_CA加拿大_3
+      - 🇺🇸_US美国_4
+      - 🇬🇧_GB英国_5
+      - 🇺🇸_US美国_6
+      - 🇨🇦_CA加拿大_7
+      - 🇨🇦_CA加拿大_8
+      - 🇳🇴_NO挪威_9
+      - 🇺🇸_US美国_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps_1
-      - 🇯🇵atShareCentreProJapan_2
+      - 🇺🇸_US美国_1
+      - 🇺🇸_US美国_2
+      - 🇨🇦_CA加拿大_3
+      - 🇺🇸_US美国_4
+      - 🇬🇧_GB英国_5
+      - 🇺🇸_US美国_6
+      - 🇨🇦_CA加拿大_7
+      - 🇨🇦_CA加拿大_8
+      - 🇳🇴_NO挪威_9
+      - 🇺🇸_US美国_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps_1
-      - 🇯🇵atShareCentreProJapan_2
+      - 🇺🇸_US美国_1
+      - 🇺🇸_US美国_2
+      - 🇨🇦_CA加拿大_3
+      - 🇺🇸_US美国_4
+      - 🇬🇧_GB英国_5
+      - 🇺🇸_US美国_6
+      - 🇨🇦_CA加拿大_7
+      - 🇨🇦_CA加拿大_8
+      - 🇳🇴_NO挪威_9
+      - 🇺🇸_US美国_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps_1
-      - 🇯🇵atShareCentreProJapan_2
+      - 🇺🇸_US美国_1
+      - 🇺🇸_US美国_2
+      - 🇨🇦_CA加拿大_3
+      - 🇺🇸_US美国_4
+      - 🇬🇧_GB英国_5
+      - 🇺🇸_US美国_6
+      - 🇨🇦_CA加拿大_7
+      - 🇨🇦_CA加拿大_8
+      - 🇳🇴_NO挪威_9
+      - 🇺🇸_US美国_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps_1
-      - 🇯🇵atShareCentreProJapan_2
+      - 🇺🇸_US美国_1
+      - 🇺🇸_US美国_2
+      - 🇨🇦_CA加拿大_3
+      - 🇺🇸_US美国_4
+      - 🇬🇧_GB英国_5
+      - 🇺🇸_US美国_6
+      - 🇨🇦_CA加拿大_7
+      - 🇨🇦_CA加拿大_8
+      - 🇳🇴_NO挪威_9
+      - 🇺🇸_US美国_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps_1
-      - 🇯🇵atShareCentreProJapan_2
+      - 🇺🇸_US美国_1
+      - 🇺🇸_US美国_2
+      - 🇨🇦_CA加拿大_3
+      - 🇺🇸_US美国_4
+      - 🇬🇧_GB英国_5
+      - 🇺🇸_US美国_6
+      - 🇨🇦_CA加拿大_7
+      - 🇨🇦_CA加拿大_8
+      - 🇳🇴_NO挪威_9
+      - 🇺🇸_US美国_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps_1
-      - 🇯🇵atShareCentreProJapan_2
+      - 🇺🇸_US美国_1
+      - 🇺🇸_US美国_2
+      - 🇨🇦_CA加拿大_3
+      - 🇺🇸_US美国_4
+      - 🇬🇧_GB英国_5
+      - 🇺🇸_US美国_6
+      - 🇨🇦_CA加拿大_7
+      - 🇨🇦_CA加拿大_8
+      - 🇳🇴_NO挪威_9
+      - 🇺🇸_US美国_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
