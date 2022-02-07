@@ -5,46 +5,53 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"v2_1","server":"v.smme.me","port":443,"type":"vless","uuid":"37a76b88-b3fa-4a92-efd1-bd9d91a3072c","cipher":"auto","skip-cert-verify":true,"tls":true,"flow":"xtls-rprx-direct","network":"tcp"}
+  - {"name":"剩余流量：0_1","server":"j20cloud.info","port":10086,"type":"vmess","uuid":"232b68fe-ae99-377c-aa8d-598c25c8d50e","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"过期时间：2022-02-09_2","server":"j20cloud.info","port":10086,"type":"vmess","uuid":"232b68fe-ae99-377c-aa8d-598c25c8d50e","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - v2_1
+      - 剩余流量：0_1
+      - 过期时间：2022-02-09_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - v2_1
+      - 剩余流量：0_1
+      - 过期时间：2022-02-09_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2_1
+      - 剩余流量：0_1
+      - 过期时间：2022-02-09_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2_1
+      - 剩余流量：0_1
+      - 过期时间：2022-02-09_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - v2_1
+      - 剩余流量：0_1
+      - 过期时间：2022-02-09_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2_1
+      - 剩余流量：0_1
+      - 过期时间：2022-02-09_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +74,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2_1
+      - 剩余流量：0_1
+      - 过期时间：2022-02-09_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
