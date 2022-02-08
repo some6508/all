@@ -5,7 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: American-clone_1, server: divine-waterfall-85c8.lawrong89.workers.dev, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8964d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: divine-waterfall-85c8.lawrong89.workers.dev}}, udp: true}
+  - {name: 节点更新网址ziyun_cyou_2, server: 162.159.132.22, port: 80, type: vmess, uuid: c22d7577-1631-4d13-81bc-20c190c04071, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: 162.159.132.22}}, udp: true}
+  - {name: 300+节点网址ziyun_cyou_3, server: 104.16.18.194, port: 80, type: vmess, uuid: c22d7577-1631-4d13-81bc-20c190c04071, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: 104.16.18.194}}, udp: true}
+  - {name: 高速节点网址ziyun_cyou_4, server: 104.16.19.116, port: 80, type: vmess, uuid: c22d7577-1631-4d13-81bc-20c190c04071, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: 104.16.19.116}}, udp: true}
+  - {name: 欧美节点网址ziyun_cyou_5, server: 104.16.16.199, port: 80, type: vmess, uuid: c22d7577-1631-4d13-81bc-20c190c04071, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: 104.16.16.199}}, udp: true}
+  - {name: 稳定机场网址ziyun_cyou_6, server: 162.159.251.109, port: 80, type: vmess, uuid: c22d7577-1631-4d13-81bc-20c190c04071, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: 162.159.251.109}}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 117.164.185.71, port: 12576, type: ss, cipher: aes-256-gcm, password: 29bbe1a0-e2d2-4e83-975b-6dcec7e2e700, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: 120.232.214.231, port: 29558, type: vmess, uuid: fd74165d-4873-3d7b-8cf1-9d92967c7961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp-vip-free-a.netduck.xyz}}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: 120.232.214.231, port: 19899, type: vmess, uuid: fd74165d-4873-3d7b-8cf1-9d92967c7961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg-free-a.netduck.xyz}}, udp: true}
@@ -1699,7 +1703,11 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - American-clone_1
+      - 节点更新网址ziyun_cyou_2
+      - 300+节点网址ziyun_cyou_3
+      - 高速节点网址ziyun_cyou_4
+      - 欧美节点网址ziyun_cyou_5
+      - 稳定机场网址ziyun_cyou_6
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
@@ -3382,7 +3390,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - American-clone_1
+      - 节点更新网址ziyun_cyou_2
+      - 300+节点网址ziyun_cyou_3
+      - 高速节点网址ziyun_cyou_4
+      - 欧美节点网址ziyun_cyou_5
+      - 稳定机场网址ziyun_cyou_6
       - 亚洲(欢迎订阅Youtube破解资源君)
       - 亚洲(欢迎订阅Youtube破解资源君) 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3
@@ -5452,6 +5464,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 欧美节点网址ziyun_cyou_5
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
