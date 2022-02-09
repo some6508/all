@@ -5,19 +5,29 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 台湾1原生_广州移动_V1_1, server: szzscmmc.moox.icu, port: 40020, type: vmess, uuid: 4f0c0d8e-b96e-4d5e-af48-9824315e4dcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: szzscmmc.moox.icu}}, udp: true}
-  - {name: 台湾3原生_华南移动_V2_2, server: rxzgzq.moox.icu, port: 34004, type: vmess, uuid: 4f0c0d8e-b96e-4d5e-af48-9824315e4dcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rxzgzq.moox.icu}}, udp: true}
-  - {name: 台湾5原生_广州移动_V2_3, server: szzscmmc.moox.icu, port: 40031, type: vmess, uuid: 4f0c0d8e-b96e-4d5e-af48-9824315e4dcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: szzscmmc.moox.icu}}, udp: true}
-  - {name: 台湾7原生_广州移动_V2_4, server: szzscmmc.moox.icu, port: 34105, type: vmess, uuid: 4f0c0d8e-b96e-4d5e-af48-9824315e4dcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: szzscmmc.moox.icu}}, udp: true}
-  - {name: 香港5原生_华南移动_V2*_5, server: rxzgzq.moox.icu, port: 34000, type: vmess, uuid: 4f0c0d8e-b96e-4d5e-af48-9824315e4dcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rxzgzq.moox.icu}}, udp: true}
-  - {name: 香港7原生_广州移动_V2*_6, server: szzscmmc.moox.icu, port: 34003, type: vmess, uuid: 4f0c0d8e-b96e-4d5e-af48-9824315e4dcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: szzscmmc.moox.icu}}, udp: true}
-  - {name: 香港8原生_广州移动_V2*_7, server: szzscmmc.moox.icu, port: 43221, type: vmess, uuid: 4f0c0d8e-b96e-4d5e-af48-9824315e4dcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: szzscmmc.moox.icu}}, udp: true}
-  - {name: 香港9原生_广州移动_V2*_8, server: rxzgzq.moox.icu, port: 43221, type: vmess, uuid: 4f0c0d8e-b96e-4d5e-af48-9824315e4dcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rxzgzq.moox.icu}}, udp: true}
-  - {name: 美国2NF_HBOMAX_广州移动_V2_9, server: rxzgzq.moox.icu, port: 40050, type: vmess, uuid: 4f0c0d8e-b96e-4d5e-af48-9824315e4dcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rxzgzq.moox.icu}}, udp: true}
-  - {name: 美国5华南移动_V1_10, server: szzscmmc.moox.icu, port: 40051, type: vmess, uuid: 4f0c0d8e-b96e-4d5e-af48-9824315e4dcf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: szzscmmc.moox.icu}}, udp: true}
-  - {name: 新加坡1华南移动_V1*_11, server: szzscmmc.moox.icu, port: 34015, type: vmess, uuid: 4f0c0d8e-b96e-4d5e-af48-9824315e4dcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: szzscmmc.moox.icu}}, udp: true}
-  - {name: 新加坡2华南移动_V2*_12, server: rxzgzq.moox.icu, port: 40063, type: vmess, uuid: 4f0c0d8e-b96e-4d5e-af48-9824315e4dcf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rxzgzq.moox.icu}}, udp: true}
-  - {name: 新加坡3广州移动_V2*_13, server: szzscmmc.moox.icu, port: 34016, type: vmess, uuid: 4f0c0d8e-b96e-4d5e-af48-9824315e4dcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: szzscmmc.moox.icu}}, udp: true}
+  - {name: 中国1_1, server: 183.232.157.82, port: 49893, type: vmess, uuid: 75c42326-701f-47e7-8dcc-8ea188dd892c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index.php, headers: {Host: 183.232.157.82}}, udp: true}
+  - {name: 韩国2_2, server: hgcc.jgw.tgproxy.wtf, port: 443, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: hgcc.jgw.tgproxy.wtf}}, udp: true}
+  - {name: 韩国3_3, server: 141.164.42.236, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国4_4, server: 107.wgong.xyz, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港5_5, server: 130.wgong.xyz, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 奥地利6_6, server: 5.253.207.161, port: 443, type: vmess, uuid: ec5f1c3d-2e1d-4516-ab56-e3907bae3976, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 5.253.207.161}}, udp: true}
+  - {name: 中国7_7, server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本8_8, server: linode.jp.tgproxy.wtf, port: 28888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: linode.jp.tgproxy.wtf}}, udp: true}
+  - {name: 日本9_9, server: 69.64.248.199, port: 443, type: vmess, uuid: 7235b329-e205-4fcb-bcd6-81c19fbb9e85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 69.64.248.199}}, udp: true}
+  - {name: 香港10_10, server: 117.wgong.xyz, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国11_11, server: 104.156.229.179, port: 443, type: vmess, uuid: 8d935367-dbcc-497f-b049-ac650a6914ab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 104.156.229.179}}, udp: true}
+  - {name: 美国12_12, server: 65.49.212.228, port: 22987, type: trojan, password: xLnjlJK0ge, skip-cert-verify: true, udp: true}
+  - {name: 美国13_13, server: 169.197.142.216, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国14_14, server: 38.75.136.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 日本15_15, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: 新加坡16_16, server: 139.99.123.156, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 中国17_17, server: 42.157.8.52, port: 48727, type: vmess, uuid: 57aa5ac3-d1d0-4e2f-b32e-6488d5a7cb45, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加拿大18_18, server: 134.195.196.110, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国19_19, server: 169.197.142.216, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 法国20_20, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大21_21, server: 198.57.27.152, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 新加坡22_22, server: 139.99.123.171, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 加拿大23_23, server: 134.195.196.110, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
@@ -1847,19 +1857,29 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 台湾1原生_广州移动_V1_1
-      - 台湾3原生_华南移动_V2_2
-      - 台湾5原生_广州移动_V2_3
-      - 台湾7原生_广州移动_V2_4
-      - 香港5原生_华南移动_V2*_5
-      - 香港7原生_广州移动_V2*_6
-      - 香港8原生_广州移动_V2*_7
-      - 香港9原生_广州移动_V2*_8
-      - 美国2NF_HBOMAX_广州移动_V2_9
-      - 美国5华南移动_V1_10
-      - 新加坡1华南移动_V1*_11
-      - 新加坡2华南移动_V2*_12
-      - 新加坡3广州移动_V2*_13
+      - 中国1_1
+      - 韩国2_2
+      - 韩国3_3
+      - 美国4_4
+      - 香港5_5
+      - 奥地利6_6
+      - 中国7_7
+      - 日本8_8
+      - 日本9_9
+      - 香港10_10
+      - 美国11_11
+      - 美国12_12
+      - 美国13_13
+      - 美国14_14
+      - 日本15_15
+      - 新加坡16_16
+      - 中国17_17
+      - 加拿大18_18
+      - 美国19_19
+      - 法国20_20
+      - 加拿大21_21
+      - 新加坡22_22
+      - 加拿大23_23
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -3678,19 +3698,29 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 台湾1原生_广州移动_V1_1
-      - 台湾3原生_华南移动_V2_2
-      - 台湾5原生_广州移动_V2_3
-      - 台湾7原生_广州移动_V2_4
-      - 香港5原生_华南移动_V2*_5
-      - 香港7原生_广州移动_V2*_6
-      - 香港8原生_广州移动_V2*_7
-      - 香港9原生_广州移动_V2*_8
-      - 美国2NF_HBOMAX_广州移动_V2_9
-      - 美国5华南移动_V1_10
-      - 新加坡1华南移动_V1*_11
-      - 新加坡2华南移动_V2*_12
-      - 新加坡3广州移动_V2*_13
+      - 中国1_1
+      - 韩国2_2
+      - 韩国3_3
+      - 美国4_4
+      - 香港5_5
+      - 奥地利6_6
+      - 中国7_7
+      - 日本8_8
+      - 日本9_9
+      - 香港10_10
+      - 美国11_11
+      - 美国12_12
+      - 美国13_13
+      - 美国14_14
+      - 日本15_15
+      - 新加坡16_16
+      - 中国17_17
+      - 加拿大18_18
+      - 美国19_19
+      - 法国20_20
+      - 加拿大21_21
+      - 新加坡22_22
+      - 加拿大23_23
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -5679,10 +5709,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港5原生_华南移动_V2*_5
-      - 香港7原生_广州移动_V2*_6
-      - 香港8原生_广州移动_V2*_7
-      - 香港9原生_广州移动_V2*_8
+      - 香港5_5
+      - 香港10_10
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
@@ -5814,6 +5842,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 日本8_8
+      - 日本9_9
+      - 日本15_15
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
       - 日本(欢迎订阅Youtube破解资源君) 3
@@ -5894,8 +5925,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国2NF_HBOMAX_广州移动_V2_9
-      - 美国5华南移动_V1_10
+      - 美国4_4
+      - 美国11_11
+      - 美国12_12
+      - 美国13_13
+      - 美国14_14
+      - 美国19_19
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -6552,10 +6587,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 台湾1原生_广州移动_V1_1
-      - 台湾3原生_华南移动_V2_2
-      - 台湾5原生_广州移动_V2_3
-      - 台湾7原生_广州移动_V2_4
       - 台湾(欢迎订阅Youtube破解资源君)
       - 台湾(欢迎订阅Youtube破解资源君) 2
       - 台湾（YouTube资源分享者）
@@ -6617,9 +6648,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡1华南移动_V1*_11
-      - 新加坡2华南移动_V2*_12
-      - 新加坡3广州移动_V2*_13
+      - 新加坡16_16
+      - 新加坡22_22
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡（YouTube资源分享者）
       - _SG_新加坡_FMYC-2022_02_09_4
@@ -6697,6 +6727,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 韩国2_2
+      - 韩国3_3
       - _KR_韩国_FMYC-2022_02_09_28
       - "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub"
@@ -6730,7 +6762,6 @@ proxy-groups:
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 美国2NF_HBOMAX_广州移动_V2_9
       - 俄罗斯 - 新西伯利亚 [BGPA] [SVIP] [Netflix]
       - 德国 - 法尔肯施泰因 [BGPA] [SVIP] [Netflix]
       - 俄罗斯 - 莫斯科 [BGPA] [SVIP] [Netflix]
