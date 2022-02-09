@@ -5,74 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"节点更新网址ziyun_cyou_1","server":"104.17.149.93","port":80,"type":"vmess","uuid":"f14cdb19-5df3-4403-847a-49a2eea6f561","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/wwwnet","host":"usa.ziyun.ga"}}
-  - {"name":"300+节点网址ziyun_cyou_2","server":"104.24.51.39","port":80,"type":"vmess","uuid":"f14cdb19-5df3-4403-847a-49a2eea6f561","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/wwwnet","host":"usa.ziyun.ga"}}
-  - {"name":"高速节点网址ziyun_cyou_3","server":"104.21.3.160","port":80,"type":"vmess","uuid":"f14cdb19-5df3-4403-847a-49a2eea6f561","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/wwwnet","host":"usa.ziyun.ga"}}
-  - {"name":"欧美节点网址ziyun_cyou_4","server":"104.27.112.177","port":80,"type":"vmess","uuid":"f14cdb19-5df3-4403-847a-49a2eea6f561","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/wwwnet","host":"usa.ziyun.ga"}}
-  - {"name":"稳定机场网址ziyun_cyou_5","server":"104.20.232.132","port":80,"type":"vmess","uuid":"f14cdb19-5df3-4403-847a-49a2eea6f561","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/wwwnet","host":"usa.ziyun.ga"}}
+  - {"name":"233v2_com_52_163_89_253","server":"52.163.89.253","port":35252,"type":"vmess","uuid":"84a69512-7365-487f-b2ac-d1d5c4e05750","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 节点更新网址ziyun_cyou_1
-      - 300+节点网址ziyun_cyou_2
-      - 高速节点网址ziyun_cyou_3
-      - 欧美节点网址ziyun_cyou_4
-      - 稳定机场网址ziyun_cyou_5
+      - 233v2_com_52_163_89_253
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 节点更新网址ziyun_cyou_1
-      - 300+节点网址ziyun_cyou_2
-      - 高速节点网址ziyun_cyou_3
-      - 欧美节点网址ziyun_cyou_4
-      - 稳定机场网址ziyun_cyou_5
+      - 233v2_com_52_163_89_253
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 节点更新网址ziyun_cyou_1
-      - 300+节点网址ziyun_cyou_2
-      - 高速节点网址ziyun_cyou_3
-      - 欧美节点网址ziyun_cyou_4
-      - 稳定机场网址ziyun_cyou_5
+      - 233v2_com_52_163_89_253
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 节点更新网址ziyun_cyou_1
-      - 300+节点网址ziyun_cyou_2
-      - 高速节点网址ziyun_cyou_3
-      - 欧美节点网址ziyun_cyou_4
-      - 稳定机场网址ziyun_cyou_5
+      - 233v2_com_52_163_89_253
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 节点更新网址ziyun_cyou_1
-      - 300+节点网址ziyun_cyou_2
-      - 高速节点网址ziyun_cyou_3
-      - 欧美节点网址ziyun_cyou_4
-      - 稳定机场网址ziyun_cyou_5
+      - 233v2_com_52_163_89_253
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 节点更新网址ziyun_cyou_1
-      - 300+节点网址ziyun_cyou_2
-      - 高速节点网址ziyun_cyou_3
-      - 欧美节点网址ziyun_cyou_4
-      - 稳定机场网址ziyun_cyou_5
+      - 233v2_com_52_163_89_253
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,11 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 节点更新网址ziyun_cyou_1
-      - 300+节点网址ziyun_cyou_2
-      - 高速节点网址ziyun_cyou_3
-      - 欧美节点网址ziyun_cyou_4
-      - 稳定机场网址ziyun_cyou_5
+      - 233v2_com_52_163_89_253
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
