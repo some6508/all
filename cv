@@ -1027,7 +1027,16 @@ proxies:
   - {name: Lil 香港10 - nf | IEPL | 倍率:1.6, server: eek8yahv.nodeinfo.icu, port: 2110, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
   - {name: Lil 香港11 - nf | AIA | 倍率:3, server: el2ohqua.nodeinfo.icu, port: 2111, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
   - {name: Lil 香港12 - nf | AIA | 倍率:3, server: oohas7ou.nodeinfo.icu, port: 2112, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: _US_美国, server: 167.88.63.61, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Mars A - 低速低倍率节点×0.1x, server: marsa-s.xnode.cyou, port: 8021, type: vmess, uuid: d699a3d9-96e9-3fe3-9937-ba6d397524b9, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: marsa-s.xnode.cyou}}, udp: true}
+  - {name: 俄罗斯 A - 高级VIP节点, server: rua.s.xnode.cyou, port: 8058, type: vmess, uuid: d699a3d9-96e9-3fe3-9937-ba6d397524b9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾 A - 高级VIP节点, server: twa.s.xnode.cyou, port: 8010, type: vmess, uuid: d699a3d9-96e9-3fe3-9937-ba6d397524b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾 C - 高级VIP节点, server: twc.s.xnode.cyou, port: 8050, type: vmess, uuid: d699a3d9-96e9-3fe3-9937-ba6d397524b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 土耳其 A - 高级VIP节点, server: tra.s.xnode.cyou, port: 8011, type: vmess, uuid: d699a3d9-96e9-3fe3-9937-ba6d397524b9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 A - 基础VIP节点, server: sga.s.xnode.cyou, port: 7000, type: vmess, uuid: d699a3d9-96e9-3fe3-9937-ba6d397524b9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 B - 基础VIP节点, server: sgb.s.xnode.cyou, port: 8053, type: vmess, uuid: d699a3d9-96e9-3fe3-9937-ba6d397524b9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 C - 基础VIP节点, server: sgc.s.xnode.cyou, port: 7001, type: vmess, uuid: d699a3d9-96e9-3fe3-9937-ba6d397524b9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 D - 基础VIP节点, server: sgd.s.xnode.cyou, port: 8001, type: vmess, uuid: d699a3d9-96e9-3fe3-9937-ba6d397524b9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 E - 基础VIP节点, server: sge.s.xnode.cyou, port: 8064, type: vmess, uuid: d699a3d9-96e9-3fe3-9937-ba6d397524b9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2820,7 +2829,16 @@ proxy-groups:
       - Lil 香港10 - nf | IEPL | 倍率:1.6
       - Lil 香港11 - nf | AIA | 倍率:3
       - Lil 香港12 - nf | AIA | 倍率:3
-      - _US_美国
+      - Mars A - 低速低倍率节点×0.1x
+      - 俄罗斯 A - 高级VIP节点
+      - 台湾 A - 高级VIP节点
+      - 台湾 C - 高级VIP节点
+      - 土耳其 A - 高级VIP节点
+      - 新加坡 A - 基础VIP节点
+      - 新加坡 B - 基础VIP节点
+      - 新加坡 C - 基础VIP节点
+      - 新加坡 D - 基础VIP节点
+      - 新加坡 E - 基础VIP节点
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4602,7 +4620,16 @@ proxy-groups:
       - Lil 香港10 - nf | IEPL | 倍率:1.6
       - Lil 香港11 - nf | AIA | 倍率:3
       - Lil 香港12 - nf | AIA | 倍率:3
-      - _US_美国
+      - Mars A - 低速低倍率节点×0.1x
+      - 俄罗斯 A - 高级VIP节点
+      - 台湾 A - 高级VIP节点
+      - 台湾 C - 高级VIP节点
+      - 土耳其 A - 高级VIP节点
+      - 新加坡 A - 基础VIP节点
+      - 新加坡 B - 基础VIP节点
+      - 新加坡 C - 基础VIP节点
+      - 新加坡 D - 基础VIP节点
+      - 新加坡 E - 基础VIP节点
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -6066,7 +6093,6 @@ proxy-groups:
       - Lil 美国09 - allmedia | IEPL | 倍率:1.3
       - Lil 美国10 - allmedia | IEPL | 倍率:1.3
       - Lil 美国11 - all | IEPL | 倍率:2
-      - _US_美国
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -6369,6 +6395,8 @@ proxy-groups:
       - Lil 台湾04 - allmedia | IEPL | 倍率:1.3
       - Lil 台湾05 - allmedia | IEPL | 倍率:1.3
       - Lil 台湾06 - allmedia | IEPL | 倍率:1.3
+      - 台湾 A - 高级VIP节点
+      - 台湾 C - 高级VIP节点
       - 台湾（YouTube资源分享者） 9
       - 台湾（YouTube资源分享者） 10
       - 台湾（YouTube资源分享者） 11
@@ -6428,6 +6456,11 @@ proxy-groups:
       - Lil 新加坡03 - netflix | IEPL | 倍率:1.5
       - Lil 新加坡04 - netflix | IEPL | 倍率:2
       - Lil 新加坡05 - netflix | IEPL | 倍率:2
+      - 新加坡 A - 基础VIP节点
+      - 新加坡 B - 基础VIP节点
+      - 新加坡 C - 基础VIP节点
+      - 新加坡 D - 基础VIP节点
+      - 新加坡 E - 基础VIP节点
       - 新加坡（YouTube资源分享者） 2
       - _SG_新加坡_FMYC-2022.02.09_4
       - _SG_新加坡_FMYC-2022.02.09_5
