@@ -5,480 +5,739 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"翻墙党fanqiangdang_comat0131_1","server":"112.118.0.202","port":4080,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"112.118.0.202"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_2","server":"132.wgong.xyz","port":52332,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"翻墙党fanqiangdang_comat0131_3","server":"183.232.56.161","port":1611,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"183.232.56.161"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_4","server":"183.232.56.161","port":1601,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"183.232.56.161"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_5","server":"120.197.88.216","port":20008,"type":"vmess","uuid":"9fcf9f33-407f-40a1-9a32-be97605fd99f","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/cctv13/hd.m3u8","host":"120.197.88.216"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_6","server":"cm-jm.okvpn.xyz","port":20001,"type":"vmess","uuid":"9fcf9f33-407f-40a1-9a32-be97605fd99f","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","host":"cm-jm.okvpn.xyz"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_7","server":"120.197.88.216","port":20001,"type":"vmess","uuid":"9fcf9f33-407f-40a1-9a32-be97605fd99f","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","host":"120.197.88.216"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_8","server":"vipdedi.boom.ovh","port":65521,"type":"vmess","uuid":"a8d9724a-d61c-3d85-8cad-07e4d45a9441","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/mydisk","host":"vipdedi.boom.ovh"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_9","server":"vipdedi.boom.ovh","port":65521,"type":"vmess","uuid":"a8d9724a-d61c-3d85-8cad-07e4d45a9441","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/mydisk","host":"vipdedi.boom.ovh"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_10","server":"183.232.56.161","port":8002,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"183.232.56.161"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_11","server":"183.232.56.161","port":1602,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"183.232.56.161"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_12","server":"202.61.141.194","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_13","server":"jp-tokyo-node2.ycgyg.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"jp-tokyo-node2.ycgyg.com"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_14","server":"jp-tokyo-node2.ycgyg.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_15","server":"47.113.190.48","port":47972,"type":"vmess","uuid":"d1f1e8e0-bf5c-4219-8ba4-48de32c50557","alterId":64,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"翻墙党fanqiangdang_comat0131_16","server":"202.61.141.194","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_17","server":"cm-jm.okvpn.xyz","port":20008,"type":"vmess","uuid":"9fcf9f33-407f-40a1-9a32-be97605fd99f","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/cctv13/hd.m3u8","host":"cm-jm.okvpn.xyz"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_18","server":"keli.scsevers.cf","port":44444,"type":"vmess","uuid":"3fd63a1f-3f1c-4f62-8073-dfce344a2bcf","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/ws","host":"keli.scsevers.cf"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_19","server":"13.125.75.43","port":65535,"type":"vmess","uuid":"27fecd17-3682-453e-8edd-89c0b0142844","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/index.html","host":"13.125.75.43"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_20","server":"v8.ssrsub.com","port":443,"type":"vmess","uuid":"50a90339-8afa-4579-832d-f5d608a6f569","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v8.ssrsub.com"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_21","server":"172.67.197.254","port":443,"type":"vmess","uuid":"d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/bb2b34a1","host":"www.ltzs.buzz"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_22","server":"198.41.212.8","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_23","server":"220.246.124.112","port":23456,"type":"vmess","uuid":"1685ada0-594e-4fc0-9938-e50764ec9dc7","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/clientarea","host":"220.246.124.112"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_24","server":"198.41.221.169","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_25","server":"104.24.223.86","port":2053,"type":"vmess","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","host":"us.fovi.tk"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_26","server":"198.41.212.9","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_27","server":"198.41.212.5","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_28","server":"Ze9baeS5.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_29","server":"172.67.197.254","port":443,"type":"vmess","uuid":"d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/bb2b34a1","host":"www.ltzs.buzz"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_30","server":"104.17.161.28","port":2053,"type":"vmess","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","host":"us.fovi.tk"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_31","server":"lsj2.aoyou.pw","port":10021,"type":"vmess","uuid":"a9dabfbf-5c2b-4c51-afab-ad810723d89e","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/aoyou","host":"lsj2.aoyou.pw"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_32","server":"v8.ssrsub.com","port":443,"type":"vmess","uuid":"a56903b7-e983-4cd5-99a6-94d62c79b128","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v8.ssrsub.com"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_33","server":"42.193.48.64","port":50002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_34","server":"42.193.48.64","port":50002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"host":"42.193.48.64"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_35","server":"198.41.221.169","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_36","server":"198.41.212.19","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_37","server":"198.41.212.2","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_38","server":"18.188.3.64","port":30088,"type":"vmess","uuid":"fea200b3-8737-4b7f-a5a1-d81c059764ba","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","host":"18.188.3.64"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_39","server":"18.188.3.64","port":30088,"type":"vmess","uuid":"fea200b3-8737-4b7f-a5a1-d81c059764ba","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/ws","host":"18.188.3.64"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_40","server":"104.23.119.57","port":443,"type":"vmess","uuid":"7be43971-52f1-48af-9036-454a94b4723a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws/?ed=2048","host":"download.china666.ml"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_41","server":"Ze9baeS5.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"Ze9baeS5.com"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_42","server":"198.41.212.18","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_43","server":"198.41.212.15","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_44","server":"18.188.3.64","port":30088,"type":"vmess","uuid":"fea200b3-8737-4b7f-a5a1-d81c059764ba","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/getweather","host":"18.188.3.64"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_45","server":"18.188.3.64","port":30088,"type":"vmess","uuid":"fea200b3-8737-4b7f-a5a1-d81c059764ba","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/84c3f/","host":"18.188.3.64"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_46","server":"1222mnl.fans8.xyz","port":80,"type":"vmess","uuid":"5c41411a-750a-37e8-966f-11aea49227c4","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"youtube-aweikeji"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_47","server":"18.188.3.64","port":30088,"type":"vmess","uuid":"fea200b3-8737-4b7f-a5a1-d81c059764ba","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/s/c27821f.fm.icloud.com:16708","host":"18.188.3.64"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_48","server":"42.193.48.64","port":50002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"翻墙党fanqiangdang_comat0131_49","server":"18.188.3.64","port":30088,"type":"vmess","uuid":"fea200b3-8737-4b7f-a5a1-d81c059764ba","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/ssrsub","host":"18.188.3.64"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_50","server":"18.188.3.64","port":30088,"type":"vmess","uuid":"fea200b3-8737-4b7f-a5a1-d81c059764ba","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/v2ray","host":"18.188.3.64"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_51","server":"1031kr.fans8.xyz","port":80,"type":"vmess","uuid":"c1de45d9-87eb-3af5-84fc-db92dc104e16","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"youtube-aweikeji"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_52","server":"keli.scsevers.cf","port":44444,"type":"vmess","uuid":"3fd63a1f-3f1c-4f62-8073-dfce344a2bcf","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/v2ray","host":"keli.scsevers.cf"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_53","server":"198.41.212.1","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_54","server":"13.236.109.118","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_55","server":"42.157.8.52","port":48727,"type":"vmess","uuid":"57aa5ac3-d1d0-4e2f-b32e-6488d5a7cb45","alterId":64,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"翻墙党fanqiangdang_comat0131_56","server":"13.236.109.118","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_57","server":"183.232.56.161","port":1612,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"183.232.56.161"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_58","server":"183.232.56.161","port":8001,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"183.232.56.161"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_59","server":"keli.scsevers.cf","port":44444,"type":"vmess","uuid":"3fd63a1f-3f1c-4f62-8073-dfce344a2bcf","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/clientarea","host":"keli.scsevers.cf"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_60","server":"138.3.210.217","port":60935,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"microsoft.com"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_61","server":"138.3.210.217","port":60935,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"microsoft.com"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_62","server":"us1nhg-node.aiqiche123.com","port":13723,"type":"vmess","uuid":"a90597c1-bab3-4217-ad6f-0838675c8634","alterId":10,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"ray"}}
-  - {"name":"翻墙党fanqiangdang_comat0131_63","server":"45.91.83.111","port":13723,"type":"vmess","uuid":"a90597c1-bab3-4217-ad6f-0838675c8634","alterId":10,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"ray"}}
+  - {"name":"🇺🇸_US美国_1","server":"167.88.63.61","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_CA加拿大_2","server":"134.195.196.227","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA加拿大_3","server":"134.195.196.214","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US美国_4","server":"167.88.63.28","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA加拿大_5","server":"134.195.196.227","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US美国_6","server":"38.91.101.11","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US美国_7","server":"167.88.63.61","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_US美国_8","server":"142.202.48.34","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇬🇧_GB英国_9","server":"172.99.190.205","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇬🇧_GB英国_10","server":"172.99.190.205","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US美国_11","server":"167.88.63.61","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US美国_12","server":"167.88.63.61","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA加拿大_13","server":"198.57.27.172","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_14","server":"134.195.196.214","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA加拿大_15","server":"134.195.196.214","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US美国_16","server":"167.88.63.28","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US美国_17","server":"167.88.63.61","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US美国_18","server":"167.88.63.28","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US美国_19","server":"167.88.63.61","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_20","server":"134.195.198.95","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦_CA加拿大_21","server":"134.195.196.147","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA加拿大_22","server":"134.195.196.71","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_23","server":"134.195.196.214","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US美国_24","server":"169.197.141.91","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_25","server":"134.195.196.214","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_26","server":"134.195.196.214","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA加拿大_27","server":"198.57.27.172","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA加拿大_28","server":"198.57.27.172","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US美国_29","server":"38.68.134.23","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US美国_30","server":"38.107.226.49","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US美国_31","server":"167.88.62.34","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US美国_32","server":"167.88.63.61","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_33","server":"134.195.196.227","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_34","server":"134.195.196.71","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA加拿大_35","server":"134.195.196.71","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US美国_36","server":"169.197.141.91","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US美国_37","server":"38.68.134.23","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US美国_38","server":"38.68.134.23","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA加拿大_39","server":"134.195.196.214","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦_CA加拿大_40","server":"134.195.196.71","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA加拿大_41","server":"134.195.196.71","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA加拿大_42","server":"134.195.196.214","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA加拿大_43","server":"134.195.196.71","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_CA加拿大_44","server":"198.57.27.152","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_45","server":"198.57.27.184","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA加拿大_46","server":"198.57.27.172","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA加拿大_47","server":"198.57.27.152","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US美国_48","server":"167.88.63.61","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US美国_49","server":"167.88.63.61","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇬🇧_GB英国_50","server":"172.99.190.188","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US美国_51","server":"167.88.63.61","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇬🇧_GB英国_52","server":"172.99.190.205","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US美国_53","server":"167.88.63.61","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US美国_54","server":"167.88.63.61","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US美国_55","server":"167.88.63.74","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US美国_56","server":"38.68.134.23","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_CA加拿大_57","server":"134.195.196.214","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA加拿大_58","server":"134.195.196.71","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦_CA加拿大_59","server":"134.195.196.71","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA加拿大_60","server":"134.195.196.71","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA加拿大_61","server":"134.195.196.214","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_62","server":"134.195.196.214","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US美国_63","server":"169.197.141.91","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇮🇳_IN印度_64","server":"192.46.209.146","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_CA加拿大_65","server":"198.57.27.172","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA加拿大_66","server":"198.57.27.241","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA加拿大_67","server":"198.57.27.172","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_68","server":"198.57.27.172","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_69","server":"198.57.27.172","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_70","server":"198.57.27.172","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_CA加拿大_71","server":"198.57.27.172","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦_CA加拿大_72","server":"198.57.27.172","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇫🇷_FR法国_73","server":"145.239.1.137","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇫🇷_FR法国_74","server":"145.239.1.137","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US美国_75","server":"38.107.226.49","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US美国_76","server":"167.88.63.61","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_77","server":"134.195.196.200","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦_CA加拿大_78","server":"134.195.196.71","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA加拿大_79","server":"134.195.196.227","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_CA加拿大_80","server":"134.195.196.71","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇮🇳_IN印度_81","server":"192.46.209.146","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US美国_82","server":"172.99.188.99","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US美国_83","server":"167.88.63.61","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US美国_84","server":"38.121.43.71","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US美国_85","server":"38.68.134.23","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇬🇧_GB英国_86","server":"172.99.190.149","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US美国_87","server":"38.107.226.49","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US美国_88","server":"167.88.63.74","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US美国_89","server":"38.121.43.71","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇬🇧_GB英国_90","server":"172.99.190.188","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US美国_91","server":"167.88.63.61","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US美国_92","server":"38.68.134.23","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA加拿大_93","server":"134.195.196.193","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA加拿大_94","server":"134.195.198.95","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇬🇧_GB英国_95","server":"172.99.190.149","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US美国_96","server":"172.99.188.99","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA加拿大_97","server":"198.57.27.184","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA加拿大_98","server":"198.57.27.172","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA加拿大_99","server":"198.57.27.184","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦_CA加拿大_100","server":"198.57.27.184","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 翻墙党fanqiangdang_comat0131_1
-      - 翻墙党fanqiangdang_comat0131_2
-      - 翻墙党fanqiangdang_comat0131_3
-      - 翻墙党fanqiangdang_comat0131_4
-      - 翻墙党fanqiangdang_comat0131_5
-      - 翻墙党fanqiangdang_comat0131_6
-      - 翻墙党fanqiangdang_comat0131_7
-      - 翻墙党fanqiangdang_comat0131_8
-      - 翻墙党fanqiangdang_comat0131_9
-      - 翻墙党fanqiangdang_comat0131_10
-      - 翻墙党fanqiangdang_comat0131_11
-      - 翻墙党fanqiangdang_comat0131_12
-      - 翻墙党fanqiangdang_comat0131_13
-      - 翻墙党fanqiangdang_comat0131_14
-      - 翻墙党fanqiangdang_comat0131_15
-      - 翻墙党fanqiangdang_comat0131_16
-      - 翻墙党fanqiangdang_comat0131_17
-      - 翻墙党fanqiangdang_comat0131_18
-      - 翻墙党fanqiangdang_comat0131_19
-      - 翻墙党fanqiangdang_comat0131_20
-      - 翻墙党fanqiangdang_comat0131_21
-      - 翻墙党fanqiangdang_comat0131_22
-      - 翻墙党fanqiangdang_comat0131_23
-      - 翻墙党fanqiangdang_comat0131_24
-      - 翻墙党fanqiangdang_comat0131_25
-      - 翻墙党fanqiangdang_comat0131_26
-      - 翻墙党fanqiangdang_comat0131_27
-      - 翻墙党fanqiangdang_comat0131_28
-      - 翻墙党fanqiangdang_comat0131_29
-      - 翻墙党fanqiangdang_comat0131_30
-      - 翻墙党fanqiangdang_comat0131_31
-      - 翻墙党fanqiangdang_comat0131_32
-      - 翻墙党fanqiangdang_comat0131_33
-      - 翻墙党fanqiangdang_comat0131_34
-      - 翻墙党fanqiangdang_comat0131_35
-      - 翻墙党fanqiangdang_comat0131_36
-      - 翻墙党fanqiangdang_comat0131_37
-      - 翻墙党fanqiangdang_comat0131_38
-      - 翻墙党fanqiangdang_comat0131_39
-      - 翻墙党fanqiangdang_comat0131_40
-      - 翻墙党fanqiangdang_comat0131_41
-      - 翻墙党fanqiangdang_comat0131_42
-      - 翻墙党fanqiangdang_comat0131_43
-      - 翻墙党fanqiangdang_comat0131_44
-      - 翻墙党fanqiangdang_comat0131_45
-      - 翻墙党fanqiangdang_comat0131_46
-      - 翻墙党fanqiangdang_comat0131_47
-      - 翻墙党fanqiangdang_comat0131_48
-      - 翻墙党fanqiangdang_comat0131_49
-      - 翻墙党fanqiangdang_comat0131_50
-      - 翻墙党fanqiangdang_comat0131_51
-      - 翻墙党fanqiangdang_comat0131_52
-      - 翻墙党fanqiangdang_comat0131_53
-      - 翻墙党fanqiangdang_comat0131_54
-      - 翻墙党fanqiangdang_comat0131_55
-      - 翻墙党fanqiangdang_comat0131_56
-      - 翻墙党fanqiangdang_comat0131_57
-      - 翻墙党fanqiangdang_comat0131_58
-      - 翻墙党fanqiangdang_comat0131_59
-      - 翻墙党fanqiangdang_comat0131_60
-      - 翻墙党fanqiangdang_comat0131_61
-      - 翻墙党fanqiangdang_comat0131_62
-      - 翻墙党fanqiangdang_comat0131_63
+      - 🇺🇸_US美国_1
+      - 🇨🇦_CA加拿大_2
+      - 🇨🇦_CA加拿大_3
+      - 🇺🇸_US美国_4
+      - 🇨🇦_CA加拿大_5
+      - 🇺🇸_US美国_6
+      - 🇺🇸_US美国_7
+      - 🇺🇸_US美国_8
+      - 🇬🇧_GB英国_9
+      - 🇬🇧_GB英国_10
+      - 🇺🇸_US美国_11
+      - 🇺🇸_US美国_12
+      - 🇨🇦_CA加拿大_13
+      - 🇨🇦_CA加拿大_14
+      - 🇨🇦_CA加拿大_15
+      - 🇺🇸_US美国_16
+      - 🇺🇸_US美国_17
+      - 🇺🇸_US美国_18
+      - 🇺🇸_US美国_19
+      - 🇨🇦_CA加拿大_20
+      - 🇨🇦_CA加拿大_21
+      - 🇨🇦_CA加拿大_22
+      - 🇨🇦_CA加拿大_23
+      - 🇺🇸_US美国_24
+      - 🇨🇦_CA加拿大_25
+      - 🇨🇦_CA加拿大_26
+      - 🇨🇦_CA加拿大_27
+      - 🇨🇦_CA加拿大_28
+      - 🇺🇸_US美国_29
+      - 🇺🇸_US美国_30
+      - 🇺🇸_US美国_31
+      - 🇺🇸_US美国_32
+      - 🇨🇦_CA加拿大_33
+      - 🇨🇦_CA加拿大_34
+      - 🇨🇦_CA加拿大_35
+      - 🇺🇸_US美国_36
+      - 🇺🇸_US美国_37
+      - 🇺🇸_US美国_38
+      - 🇨🇦_CA加拿大_39
+      - 🇨🇦_CA加拿大_40
+      - 🇨🇦_CA加拿大_41
+      - 🇨🇦_CA加拿大_42
+      - 🇨🇦_CA加拿大_43
+      - 🇨🇦_CA加拿大_44
+      - 🇨🇦_CA加拿大_45
+      - 🇨🇦_CA加拿大_46
+      - 🇨🇦_CA加拿大_47
+      - 🇺🇸_US美国_48
+      - 🇺🇸_US美国_49
+      - 🇬🇧_GB英国_50
+      - 🇺🇸_US美国_51
+      - 🇬🇧_GB英国_52
+      - 🇺🇸_US美国_53
+      - 🇺🇸_US美国_54
+      - 🇺🇸_US美国_55
+      - 🇺🇸_US美国_56
+      - 🇨🇦_CA加拿大_57
+      - 🇨🇦_CA加拿大_58
+      - 🇨🇦_CA加拿大_59
+      - 🇨🇦_CA加拿大_60
+      - 🇨🇦_CA加拿大_61
+      - 🇨🇦_CA加拿大_62
+      - 🇺🇸_US美国_63
+      - 🇮🇳_IN印度_64
+      - 🇨🇦_CA加拿大_65
+      - 🇨🇦_CA加拿大_66
+      - 🇨🇦_CA加拿大_67
+      - 🇨🇦_CA加拿大_68
+      - 🇨🇦_CA加拿大_69
+      - 🇨🇦_CA加拿大_70
+      - 🇨🇦_CA加拿大_71
+      - 🇨🇦_CA加拿大_72
+      - 🇫🇷_FR法国_73
+      - 🇫🇷_FR法国_74
+      - 🇺🇸_US美国_75
+      - 🇺🇸_US美国_76
+      - 🇨🇦_CA加拿大_77
+      - 🇨🇦_CA加拿大_78
+      - 🇨🇦_CA加拿大_79
+      - 🇨🇦_CA加拿大_80
+      - 🇮🇳_IN印度_81
+      - 🇺🇸_US美国_82
+      - 🇺🇸_US美国_83
+      - 🇺🇸_US美国_84
+      - 🇺🇸_US美国_85
+      - 🇬🇧_GB英国_86
+      - 🇺🇸_US美国_87
+      - 🇺🇸_US美国_88
+      - 🇺🇸_US美国_89
+      - 🇬🇧_GB英国_90
+      - 🇺🇸_US美国_91
+      - 🇺🇸_US美国_92
+      - 🇨🇦_CA加拿大_93
+      - 🇨🇦_CA加拿大_94
+      - 🇬🇧_GB英国_95
+      - 🇺🇸_US美国_96
+      - 🇨🇦_CA加拿大_97
+      - 🇨🇦_CA加拿大_98
+      - 🇨🇦_CA加拿大_99
+      - 🇨🇦_CA加拿大_100
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 翻墙党fanqiangdang_comat0131_1
-      - 翻墙党fanqiangdang_comat0131_2
-      - 翻墙党fanqiangdang_comat0131_3
-      - 翻墙党fanqiangdang_comat0131_4
-      - 翻墙党fanqiangdang_comat0131_5
-      - 翻墙党fanqiangdang_comat0131_6
-      - 翻墙党fanqiangdang_comat0131_7
-      - 翻墙党fanqiangdang_comat0131_8
-      - 翻墙党fanqiangdang_comat0131_9
-      - 翻墙党fanqiangdang_comat0131_10
-      - 翻墙党fanqiangdang_comat0131_11
-      - 翻墙党fanqiangdang_comat0131_12
-      - 翻墙党fanqiangdang_comat0131_13
-      - 翻墙党fanqiangdang_comat0131_14
-      - 翻墙党fanqiangdang_comat0131_15
-      - 翻墙党fanqiangdang_comat0131_16
-      - 翻墙党fanqiangdang_comat0131_17
-      - 翻墙党fanqiangdang_comat0131_18
-      - 翻墙党fanqiangdang_comat0131_19
-      - 翻墙党fanqiangdang_comat0131_20
-      - 翻墙党fanqiangdang_comat0131_21
-      - 翻墙党fanqiangdang_comat0131_22
-      - 翻墙党fanqiangdang_comat0131_23
-      - 翻墙党fanqiangdang_comat0131_24
-      - 翻墙党fanqiangdang_comat0131_25
-      - 翻墙党fanqiangdang_comat0131_26
-      - 翻墙党fanqiangdang_comat0131_27
-      - 翻墙党fanqiangdang_comat0131_28
-      - 翻墙党fanqiangdang_comat0131_29
-      - 翻墙党fanqiangdang_comat0131_30
-      - 翻墙党fanqiangdang_comat0131_31
-      - 翻墙党fanqiangdang_comat0131_32
-      - 翻墙党fanqiangdang_comat0131_33
-      - 翻墙党fanqiangdang_comat0131_34
-      - 翻墙党fanqiangdang_comat0131_35
-      - 翻墙党fanqiangdang_comat0131_36
-      - 翻墙党fanqiangdang_comat0131_37
-      - 翻墙党fanqiangdang_comat0131_38
-      - 翻墙党fanqiangdang_comat0131_39
-      - 翻墙党fanqiangdang_comat0131_40
-      - 翻墙党fanqiangdang_comat0131_41
-      - 翻墙党fanqiangdang_comat0131_42
-      - 翻墙党fanqiangdang_comat0131_43
-      - 翻墙党fanqiangdang_comat0131_44
-      - 翻墙党fanqiangdang_comat0131_45
-      - 翻墙党fanqiangdang_comat0131_46
-      - 翻墙党fanqiangdang_comat0131_47
-      - 翻墙党fanqiangdang_comat0131_48
-      - 翻墙党fanqiangdang_comat0131_49
-      - 翻墙党fanqiangdang_comat0131_50
-      - 翻墙党fanqiangdang_comat0131_51
-      - 翻墙党fanqiangdang_comat0131_52
-      - 翻墙党fanqiangdang_comat0131_53
-      - 翻墙党fanqiangdang_comat0131_54
-      - 翻墙党fanqiangdang_comat0131_55
-      - 翻墙党fanqiangdang_comat0131_56
-      - 翻墙党fanqiangdang_comat0131_57
-      - 翻墙党fanqiangdang_comat0131_58
-      - 翻墙党fanqiangdang_comat0131_59
-      - 翻墙党fanqiangdang_comat0131_60
-      - 翻墙党fanqiangdang_comat0131_61
-      - 翻墙党fanqiangdang_comat0131_62
-      - 翻墙党fanqiangdang_comat0131_63
+      - 🇺🇸_US美国_1
+      - 🇨🇦_CA加拿大_2
+      - 🇨🇦_CA加拿大_3
+      - 🇺🇸_US美国_4
+      - 🇨🇦_CA加拿大_5
+      - 🇺🇸_US美国_6
+      - 🇺🇸_US美国_7
+      - 🇺🇸_US美国_8
+      - 🇬🇧_GB英国_9
+      - 🇬🇧_GB英国_10
+      - 🇺🇸_US美国_11
+      - 🇺🇸_US美国_12
+      - 🇨🇦_CA加拿大_13
+      - 🇨🇦_CA加拿大_14
+      - 🇨🇦_CA加拿大_15
+      - 🇺🇸_US美国_16
+      - 🇺🇸_US美国_17
+      - 🇺🇸_US美国_18
+      - 🇺🇸_US美国_19
+      - 🇨🇦_CA加拿大_20
+      - 🇨🇦_CA加拿大_21
+      - 🇨🇦_CA加拿大_22
+      - 🇨🇦_CA加拿大_23
+      - 🇺🇸_US美国_24
+      - 🇨🇦_CA加拿大_25
+      - 🇨🇦_CA加拿大_26
+      - 🇨🇦_CA加拿大_27
+      - 🇨🇦_CA加拿大_28
+      - 🇺🇸_US美国_29
+      - 🇺🇸_US美国_30
+      - 🇺🇸_US美国_31
+      - 🇺🇸_US美国_32
+      - 🇨🇦_CA加拿大_33
+      - 🇨🇦_CA加拿大_34
+      - 🇨🇦_CA加拿大_35
+      - 🇺🇸_US美国_36
+      - 🇺🇸_US美国_37
+      - 🇺🇸_US美国_38
+      - 🇨🇦_CA加拿大_39
+      - 🇨🇦_CA加拿大_40
+      - 🇨🇦_CA加拿大_41
+      - 🇨🇦_CA加拿大_42
+      - 🇨🇦_CA加拿大_43
+      - 🇨🇦_CA加拿大_44
+      - 🇨🇦_CA加拿大_45
+      - 🇨🇦_CA加拿大_46
+      - 🇨🇦_CA加拿大_47
+      - 🇺🇸_US美国_48
+      - 🇺🇸_US美国_49
+      - 🇬🇧_GB英国_50
+      - 🇺🇸_US美国_51
+      - 🇬🇧_GB英国_52
+      - 🇺🇸_US美国_53
+      - 🇺🇸_US美国_54
+      - 🇺🇸_US美国_55
+      - 🇺🇸_US美国_56
+      - 🇨🇦_CA加拿大_57
+      - 🇨🇦_CA加拿大_58
+      - 🇨🇦_CA加拿大_59
+      - 🇨🇦_CA加拿大_60
+      - 🇨🇦_CA加拿大_61
+      - 🇨🇦_CA加拿大_62
+      - 🇺🇸_US美国_63
+      - 🇮🇳_IN印度_64
+      - 🇨🇦_CA加拿大_65
+      - 🇨🇦_CA加拿大_66
+      - 🇨🇦_CA加拿大_67
+      - 🇨🇦_CA加拿大_68
+      - 🇨🇦_CA加拿大_69
+      - 🇨🇦_CA加拿大_70
+      - 🇨🇦_CA加拿大_71
+      - 🇨🇦_CA加拿大_72
+      - 🇫🇷_FR法国_73
+      - 🇫🇷_FR法国_74
+      - 🇺🇸_US美国_75
+      - 🇺🇸_US美国_76
+      - 🇨🇦_CA加拿大_77
+      - 🇨🇦_CA加拿大_78
+      - 🇨🇦_CA加拿大_79
+      - 🇨🇦_CA加拿大_80
+      - 🇮🇳_IN印度_81
+      - 🇺🇸_US美国_82
+      - 🇺🇸_US美国_83
+      - 🇺🇸_US美国_84
+      - 🇺🇸_US美国_85
+      - 🇬🇧_GB英国_86
+      - 🇺🇸_US美国_87
+      - 🇺🇸_US美国_88
+      - 🇺🇸_US美国_89
+      - 🇬🇧_GB英国_90
+      - 🇺🇸_US美国_91
+      - 🇺🇸_US美国_92
+      - 🇨🇦_CA加拿大_93
+      - 🇨🇦_CA加拿大_94
+      - 🇬🇧_GB英国_95
+      - 🇺🇸_US美国_96
+      - 🇨🇦_CA加拿大_97
+      - 🇨🇦_CA加拿大_98
+      - 🇨🇦_CA加拿大_99
+      - 🇨🇦_CA加拿大_100
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 翻墙党fanqiangdang_comat0131_1
-      - 翻墙党fanqiangdang_comat0131_2
-      - 翻墙党fanqiangdang_comat0131_3
-      - 翻墙党fanqiangdang_comat0131_4
-      - 翻墙党fanqiangdang_comat0131_5
-      - 翻墙党fanqiangdang_comat0131_6
-      - 翻墙党fanqiangdang_comat0131_7
-      - 翻墙党fanqiangdang_comat0131_8
-      - 翻墙党fanqiangdang_comat0131_9
-      - 翻墙党fanqiangdang_comat0131_10
-      - 翻墙党fanqiangdang_comat0131_11
-      - 翻墙党fanqiangdang_comat0131_12
-      - 翻墙党fanqiangdang_comat0131_13
-      - 翻墙党fanqiangdang_comat0131_14
-      - 翻墙党fanqiangdang_comat0131_15
-      - 翻墙党fanqiangdang_comat0131_16
-      - 翻墙党fanqiangdang_comat0131_17
-      - 翻墙党fanqiangdang_comat0131_18
-      - 翻墙党fanqiangdang_comat0131_19
-      - 翻墙党fanqiangdang_comat0131_20
-      - 翻墙党fanqiangdang_comat0131_21
-      - 翻墙党fanqiangdang_comat0131_22
-      - 翻墙党fanqiangdang_comat0131_23
-      - 翻墙党fanqiangdang_comat0131_24
-      - 翻墙党fanqiangdang_comat0131_25
-      - 翻墙党fanqiangdang_comat0131_26
-      - 翻墙党fanqiangdang_comat0131_27
-      - 翻墙党fanqiangdang_comat0131_28
-      - 翻墙党fanqiangdang_comat0131_29
-      - 翻墙党fanqiangdang_comat0131_30
-      - 翻墙党fanqiangdang_comat0131_31
-      - 翻墙党fanqiangdang_comat0131_32
-      - 翻墙党fanqiangdang_comat0131_33
-      - 翻墙党fanqiangdang_comat0131_34
-      - 翻墙党fanqiangdang_comat0131_35
-      - 翻墙党fanqiangdang_comat0131_36
-      - 翻墙党fanqiangdang_comat0131_37
-      - 翻墙党fanqiangdang_comat0131_38
-      - 翻墙党fanqiangdang_comat0131_39
-      - 翻墙党fanqiangdang_comat0131_40
-      - 翻墙党fanqiangdang_comat0131_41
-      - 翻墙党fanqiangdang_comat0131_42
-      - 翻墙党fanqiangdang_comat0131_43
-      - 翻墙党fanqiangdang_comat0131_44
-      - 翻墙党fanqiangdang_comat0131_45
-      - 翻墙党fanqiangdang_comat0131_46
-      - 翻墙党fanqiangdang_comat0131_47
-      - 翻墙党fanqiangdang_comat0131_48
-      - 翻墙党fanqiangdang_comat0131_49
-      - 翻墙党fanqiangdang_comat0131_50
-      - 翻墙党fanqiangdang_comat0131_51
-      - 翻墙党fanqiangdang_comat0131_52
-      - 翻墙党fanqiangdang_comat0131_53
-      - 翻墙党fanqiangdang_comat0131_54
-      - 翻墙党fanqiangdang_comat0131_55
-      - 翻墙党fanqiangdang_comat0131_56
-      - 翻墙党fanqiangdang_comat0131_57
-      - 翻墙党fanqiangdang_comat0131_58
-      - 翻墙党fanqiangdang_comat0131_59
-      - 翻墙党fanqiangdang_comat0131_60
-      - 翻墙党fanqiangdang_comat0131_61
-      - 翻墙党fanqiangdang_comat0131_62
-      - 翻墙党fanqiangdang_comat0131_63
+      - 🇺🇸_US美国_1
+      - 🇨🇦_CA加拿大_2
+      - 🇨🇦_CA加拿大_3
+      - 🇺🇸_US美国_4
+      - 🇨🇦_CA加拿大_5
+      - 🇺🇸_US美国_6
+      - 🇺🇸_US美国_7
+      - 🇺🇸_US美国_8
+      - 🇬🇧_GB英国_9
+      - 🇬🇧_GB英国_10
+      - 🇺🇸_US美国_11
+      - 🇺🇸_US美国_12
+      - 🇨🇦_CA加拿大_13
+      - 🇨🇦_CA加拿大_14
+      - 🇨🇦_CA加拿大_15
+      - 🇺🇸_US美国_16
+      - 🇺🇸_US美国_17
+      - 🇺🇸_US美国_18
+      - 🇺🇸_US美国_19
+      - 🇨🇦_CA加拿大_20
+      - 🇨🇦_CA加拿大_21
+      - 🇨🇦_CA加拿大_22
+      - 🇨🇦_CA加拿大_23
+      - 🇺🇸_US美国_24
+      - 🇨🇦_CA加拿大_25
+      - 🇨🇦_CA加拿大_26
+      - 🇨🇦_CA加拿大_27
+      - 🇨🇦_CA加拿大_28
+      - 🇺🇸_US美国_29
+      - 🇺🇸_US美国_30
+      - 🇺🇸_US美国_31
+      - 🇺🇸_US美国_32
+      - 🇨🇦_CA加拿大_33
+      - 🇨🇦_CA加拿大_34
+      - 🇨🇦_CA加拿大_35
+      - 🇺🇸_US美国_36
+      - 🇺🇸_US美国_37
+      - 🇺🇸_US美国_38
+      - 🇨🇦_CA加拿大_39
+      - 🇨🇦_CA加拿大_40
+      - 🇨🇦_CA加拿大_41
+      - 🇨🇦_CA加拿大_42
+      - 🇨🇦_CA加拿大_43
+      - 🇨🇦_CA加拿大_44
+      - 🇨🇦_CA加拿大_45
+      - 🇨🇦_CA加拿大_46
+      - 🇨🇦_CA加拿大_47
+      - 🇺🇸_US美国_48
+      - 🇺🇸_US美国_49
+      - 🇬🇧_GB英国_50
+      - 🇺🇸_US美国_51
+      - 🇬🇧_GB英国_52
+      - 🇺🇸_US美国_53
+      - 🇺🇸_US美国_54
+      - 🇺🇸_US美国_55
+      - 🇺🇸_US美国_56
+      - 🇨🇦_CA加拿大_57
+      - 🇨🇦_CA加拿大_58
+      - 🇨🇦_CA加拿大_59
+      - 🇨🇦_CA加拿大_60
+      - 🇨🇦_CA加拿大_61
+      - 🇨🇦_CA加拿大_62
+      - 🇺🇸_US美国_63
+      - 🇮🇳_IN印度_64
+      - 🇨🇦_CA加拿大_65
+      - 🇨🇦_CA加拿大_66
+      - 🇨🇦_CA加拿大_67
+      - 🇨🇦_CA加拿大_68
+      - 🇨🇦_CA加拿大_69
+      - 🇨🇦_CA加拿大_70
+      - 🇨🇦_CA加拿大_71
+      - 🇨🇦_CA加拿大_72
+      - 🇫🇷_FR法国_73
+      - 🇫🇷_FR法国_74
+      - 🇺🇸_US美国_75
+      - 🇺🇸_US美国_76
+      - 🇨🇦_CA加拿大_77
+      - 🇨🇦_CA加拿大_78
+      - 🇨🇦_CA加拿大_79
+      - 🇨🇦_CA加拿大_80
+      - 🇮🇳_IN印度_81
+      - 🇺🇸_US美国_82
+      - 🇺🇸_US美国_83
+      - 🇺🇸_US美国_84
+      - 🇺🇸_US美国_85
+      - 🇬🇧_GB英国_86
+      - 🇺🇸_US美国_87
+      - 🇺🇸_US美国_88
+      - 🇺🇸_US美国_89
+      - 🇬🇧_GB英国_90
+      - 🇺🇸_US美国_91
+      - 🇺🇸_US美国_92
+      - 🇨🇦_CA加拿大_93
+      - 🇨🇦_CA加拿大_94
+      - 🇬🇧_GB英国_95
+      - 🇺🇸_US美国_96
+      - 🇨🇦_CA加拿大_97
+      - 🇨🇦_CA加拿大_98
+      - 🇨🇦_CA加拿大_99
+      - 🇨🇦_CA加拿大_100
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 翻墙党fanqiangdang_comat0131_1
-      - 翻墙党fanqiangdang_comat0131_2
-      - 翻墙党fanqiangdang_comat0131_3
-      - 翻墙党fanqiangdang_comat0131_4
-      - 翻墙党fanqiangdang_comat0131_5
-      - 翻墙党fanqiangdang_comat0131_6
-      - 翻墙党fanqiangdang_comat0131_7
-      - 翻墙党fanqiangdang_comat0131_8
-      - 翻墙党fanqiangdang_comat0131_9
-      - 翻墙党fanqiangdang_comat0131_10
-      - 翻墙党fanqiangdang_comat0131_11
-      - 翻墙党fanqiangdang_comat0131_12
-      - 翻墙党fanqiangdang_comat0131_13
-      - 翻墙党fanqiangdang_comat0131_14
-      - 翻墙党fanqiangdang_comat0131_15
-      - 翻墙党fanqiangdang_comat0131_16
-      - 翻墙党fanqiangdang_comat0131_17
-      - 翻墙党fanqiangdang_comat0131_18
-      - 翻墙党fanqiangdang_comat0131_19
-      - 翻墙党fanqiangdang_comat0131_20
-      - 翻墙党fanqiangdang_comat0131_21
-      - 翻墙党fanqiangdang_comat0131_22
-      - 翻墙党fanqiangdang_comat0131_23
-      - 翻墙党fanqiangdang_comat0131_24
-      - 翻墙党fanqiangdang_comat0131_25
-      - 翻墙党fanqiangdang_comat0131_26
-      - 翻墙党fanqiangdang_comat0131_27
-      - 翻墙党fanqiangdang_comat0131_28
-      - 翻墙党fanqiangdang_comat0131_29
-      - 翻墙党fanqiangdang_comat0131_30
-      - 翻墙党fanqiangdang_comat0131_31
-      - 翻墙党fanqiangdang_comat0131_32
-      - 翻墙党fanqiangdang_comat0131_33
-      - 翻墙党fanqiangdang_comat0131_34
-      - 翻墙党fanqiangdang_comat0131_35
-      - 翻墙党fanqiangdang_comat0131_36
-      - 翻墙党fanqiangdang_comat0131_37
-      - 翻墙党fanqiangdang_comat0131_38
-      - 翻墙党fanqiangdang_comat0131_39
-      - 翻墙党fanqiangdang_comat0131_40
-      - 翻墙党fanqiangdang_comat0131_41
-      - 翻墙党fanqiangdang_comat0131_42
-      - 翻墙党fanqiangdang_comat0131_43
-      - 翻墙党fanqiangdang_comat0131_44
-      - 翻墙党fanqiangdang_comat0131_45
-      - 翻墙党fanqiangdang_comat0131_46
-      - 翻墙党fanqiangdang_comat0131_47
-      - 翻墙党fanqiangdang_comat0131_48
-      - 翻墙党fanqiangdang_comat0131_49
-      - 翻墙党fanqiangdang_comat0131_50
-      - 翻墙党fanqiangdang_comat0131_51
-      - 翻墙党fanqiangdang_comat0131_52
-      - 翻墙党fanqiangdang_comat0131_53
-      - 翻墙党fanqiangdang_comat0131_54
-      - 翻墙党fanqiangdang_comat0131_55
-      - 翻墙党fanqiangdang_comat0131_56
-      - 翻墙党fanqiangdang_comat0131_57
-      - 翻墙党fanqiangdang_comat0131_58
-      - 翻墙党fanqiangdang_comat0131_59
-      - 翻墙党fanqiangdang_comat0131_60
-      - 翻墙党fanqiangdang_comat0131_61
-      - 翻墙党fanqiangdang_comat0131_62
-      - 翻墙党fanqiangdang_comat0131_63
+      - 🇺🇸_US美国_1
+      - 🇨🇦_CA加拿大_2
+      - 🇨🇦_CA加拿大_3
+      - 🇺🇸_US美国_4
+      - 🇨🇦_CA加拿大_5
+      - 🇺🇸_US美国_6
+      - 🇺🇸_US美国_7
+      - 🇺🇸_US美国_8
+      - 🇬🇧_GB英国_9
+      - 🇬🇧_GB英国_10
+      - 🇺🇸_US美国_11
+      - 🇺🇸_US美国_12
+      - 🇨🇦_CA加拿大_13
+      - 🇨🇦_CA加拿大_14
+      - 🇨🇦_CA加拿大_15
+      - 🇺🇸_US美国_16
+      - 🇺🇸_US美国_17
+      - 🇺🇸_US美国_18
+      - 🇺🇸_US美国_19
+      - 🇨🇦_CA加拿大_20
+      - 🇨🇦_CA加拿大_21
+      - 🇨🇦_CA加拿大_22
+      - 🇨🇦_CA加拿大_23
+      - 🇺🇸_US美国_24
+      - 🇨🇦_CA加拿大_25
+      - 🇨🇦_CA加拿大_26
+      - 🇨🇦_CA加拿大_27
+      - 🇨🇦_CA加拿大_28
+      - 🇺🇸_US美国_29
+      - 🇺🇸_US美国_30
+      - 🇺🇸_US美国_31
+      - 🇺🇸_US美国_32
+      - 🇨🇦_CA加拿大_33
+      - 🇨🇦_CA加拿大_34
+      - 🇨🇦_CA加拿大_35
+      - 🇺🇸_US美国_36
+      - 🇺🇸_US美国_37
+      - 🇺🇸_US美国_38
+      - 🇨🇦_CA加拿大_39
+      - 🇨🇦_CA加拿大_40
+      - 🇨🇦_CA加拿大_41
+      - 🇨🇦_CA加拿大_42
+      - 🇨🇦_CA加拿大_43
+      - 🇨🇦_CA加拿大_44
+      - 🇨🇦_CA加拿大_45
+      - 🇨🇦_CA加拿大_46
+      - 🇨🇦_CA加拿大_47
+      - 🇺🇸_US美国_48
+      - 🇺🇸_US美国_49
+      - 🇬🇧_GB英国_50
+      - 🇺🇸_US美国_51
+      - 🇬🇧_GB英国_52
+      - 🇺🇸_US美国_53
+      - 🇺🇸_US美国_54
+      - 🇺🇸_US美国_55
+      - 🇺🇸_US美国_56
+      - 🇨🇦_CA加拿大_57
+      - 🇨🇦_CA加拿大_58
+      - 🇨🇦_CA加拿大_59
+      - 🇨🇦_CA加拿大_60
+      - 🇨🇦_CA加拿大_61
+      - 🇨🇦_CA加拿大_62
+      - 🇺🇸_US美国_63
+      - 🇮🇳_IN印度_64
+      - 🇨🇦_CA加拿大_65
+      - 🇨🇦_CA加拿大_66
+      - 🇨🇦_CA加拿大_67
+      - 🇨🇦_CA加拿大_68
+      - 🇨🇦_CA加拿大_69
+      - 🇨🇦_CA加拿大_70
+      - 🇨🇦_CA加拿大_71
+      - 🇨🇦_CA加拿大_72
+      - 🇫🇷_FR法国_73
+      - 🇫🇷_FR法国_74
+      - 🇺🇸_US美国_75
+      - 🇺🇸_US美国_76
+      - 🇨🇦_CA加拿大_77
+      - 🇨🇦_CA加拿大_78
+      - 🇨🇦_CA加拿大_79
+      - 🇨🇦_CA加拿大_80
+      - 🇮🇳_IN印度_81
+      - 🇺🇸_US美国_82
+      - 🇺🇸_US美国_83
+      - 🇺🇸_US美国_84
+      - 🇺🇸_US美国_85
+      - 🇬🇧_GB英国_86
+      - 🇺🇸_US美国_87
+      - 🇺🇸_US美国_88
+      - 🇺🇸_US美国_89
+      - 🇬🇧_GB英国_90
+      - 🇺🇸_US美国_91
+      - 🇺🇸_US美国_92
+      - 🇨🇦_CA加拿大_93
+      - 🇨🇦_CA加拿大_94
+      - 🇬🇧_GB英国_95
+      - 🇺🇸_US美国_96
+      - 🇨🇦_CA加拿大_97
+      - 🇨🇦_CA加拿大_98
+      - 🇨🇦_CA加拿大_99
+      - 🇨🇦_CA加拿大_100
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 翻墙党fanqiangdang_comat0131_1
-      - 翻墙党fanqiangdang_comat0131_2
-      - 翻墙党fanqiangdang_comat0131_3
-      - 翻墙党fanqiangdang_comat0131_4
-      - 翻墙党fanqiangdang_comat0131_5
-      - 翻墙党fanqiangdang_comat0131_6
-      - 翻墙党fanqiangdang_comat0131_7
-      - 翻墙党fanqiangdang_comat0131_8
-      - 翻墙党fanqiangdang_comat0131_9
-      - 翻墙党fanqiangdang_comat0131_10
-      - 翻墙党fanqiangdang_comat0131_11
-      - 翻墙党fanqiangdang_comat0131_12
-      - 翻墙党fanqiangdang_comat0131_13
-      - 翻墙党fanqiangdang_comat0131_14
-      - 翻墙党fanqiangdang_comat0131_15
-      - 翻墙党fanqiangdang_comat0131_16
-      - 翻墙党fanqiangdang_comat0131_17
-      - 翻墙党fanqiangdang_comat0131_18
-      - 翻墙党fanqiangdang_comat0131_19
-      - 翻墙党fanqiangdang_comat0131_20
-      - 翻墙党fanqiangdang_comat0131_21
-      - 翻墙党fanqiangdang_comat0131_22
-      - 翻墙党fanqiangdang_comat0131_23
-      - 翻墙党fanqiangdang_comat0131_24
-      - 翻墙党fanqiangdang_comat0131_25
-      - 翻墙党fanqiangdang_comat0131_26
-      - 翻墙党fanqiangdang_comat0131_27
-      - 翻墙党fanqiangdang_comat0131_28
-      - 翻墙党fanqiangdang_comat0131_29
-      - 翻墙党fanqiangdang_comat0131_30
-      - 翻墙党fanqiangdang_comat0131_31
-      - 翻墙党fanqiangdang_comat0131_32
-      - 翻墙党fanqiangdang_comat0131_33
-      - 翻墙党fanqiangdang_comat0131_34
-      - 翻墙党fanqiangdang_comat0131_35
-      - 翻墙党fanqiangdang_comat0131_36
-      - 翻墙党fanqiangdang_comat0131_37
-      - 翻墙党fanqiangdang_comat0131_38
-      - 翻墙党fanqiangdang_comat0131_39
-      - 翻墙党fanqiangdang_comat0131_40
-      - 翻墙党fanqiangdang_comat0131_41
-      - 翻墙党fanqiangdang_comat0131_42
-      - 翻墙党fanqiangdang_comat0131_43
-      - 翻墙党fanqiangdang_comat0131_44
-      - 翻墙党fanqiangdang_comat0131_45
-      - 翻墙党fanqiangdang_comat0131_46
-      - 翻墙党fanqiangdang_comat0131_47
-      - 翻墙党fanqiangdang_comat0131_48
-      - 翻墙党fanqiangdang_comat0131_49
-      - 翻墙党fanqiangdang_comat0131_50
-      - 翻墙党fanqiangdang_comat0131_51
-      - 翻墙党fanqiangdang_comat0131_52
-      - 翻墙党fanqiangdang_comat0131_53
-      - 翻墙党fanqiangdang_comat0131_54
-      - 翻墙党fanqiangdang_comat0131_55
-      - 翻墙党fanqiangdang_comat0131_56
-      - 翻墙党fanqiangdang_comat0131_57
-      - 翻墙党fanqiangdang_comat0131_58
-      - 翻墙党fanqiangdang_comat0131_59
-      - 翻墙党fanqiangdang_comat0131_60
-      - 翻墙党fanqiangdang_comat0131_61
-      - 翻墙党fanqiangdang_comat0131_62
-      - 翻墙党fanqiangdang_comat0131_63
+      - 🇺🇸_US美国_1
+      - 🇨🇦_CA加拿大_2
+      - 🇨🇦_CA加拿大_3
+      - 🇺🇸_US美国_4
+      - 🇨🇦_CA加拿大_5
+      - 🇺🇸_US美国_6
+      - 🇺🇸_US美国_7
+      - 🇺🇸_US美国_8
+      - 🇬🇧_GB英国_9
+      - 🇬🇧_GB英国_10
+      - 🇺🇸_US美国_11
+      - 🇺🇸_US美国_12
+      - 🇨🇦_CA加拿大_13
+      - 🇨🇦_CA加拿大_14
+      - 🇨🇦_CA加拿大_15
+      - 🇺🇸_US美国_16
+      - 🇺🇸_US美国_17
+      - 🇺🇸_US美国_18
+      - 🇺🇸_US美国_19
+      - 🇨🇦_CA加拿大_20
+      - 🇨🇦_CA加拿大_21
+      - 🇨🇦_CA加拿大_22
+      - 🇨🇦_CA加拿大_23
+      - 🇺🇸_US美国_24
+      - 🇨🇦_CA加拿大_25
+      - 🇨🇦_CA加拿大_26
+      - 🇨🇦_CA加拿大_27
+      - 🇨🇦_CA加拿大_28
+      - 🇺🇸_US美国_29
+      - 🇺🇸_US美国_30
+      - 🇺🇸_US美国_31
+      - 🇺🇸_US美国_32
+      - 🇨🇦_CA加拿大_33
+      - 🇨🇦_CA加拿大_34
+      - 🇨🇦_CA加拿大_35
+      - 🇺🇸_US美国_36
+      - 🇺🇸_US美国_37
+      - 🇺🇸_US美国_38
+      - 🇨🇦_CA加拿大_39
+      - 🇨🇦_CA加拿大_40
+      - 🇨🇦_CA加拿大_41
+      - 🇨🇦_CA加拿大_42
+      - 🇨🇦_CA加拿大_43
+      - 🇨🇦_CA加拿大_44
+      - 🇨🇦_CA加拿大_45
+      - 🇨🇦_CA加拿大_46
+      - 🇨🇦_CA加拿大_47
+      - 🇺🇸_US美国_48
+      - 🇺🇸_US美国_49
+      - 🇬🇧_GB英国_50
+      - 🇺🇸_US美国_51
+      - 🇬🇧_GB英国_52
+      - 🇺🇸_US美国_53
+      - 🇺🇸_US美国_54
+      - 🇺🇸_US美国_55
+      - 🇺🇸_US美国_56
+      - 🇨🇦_CA加拿大_57
+      - 🇨🇦_CA加拿大_58
+      - 🇨🇦_CA加拿大_59
+      - 🇨🇦_CA加拿大_60
+      - 🇨🇦_CA加拿大_61
+      - 🇨🇦_CA加拿大_62
+      - 🇺🇸_US美国_63
+      - 🇮🇳_IN印度_64
+      - 🇨🇦_CA加拿大_65
+      - 🇨🇦_CA加拿大_66
+      - 🇨🇦_CA加拿大_67
+      - 🇨🇦_CA加拿大_68
+      - 🇨🇦_CA加拿大_69
+      - 🇨🇦_CA加拿大_70
+      - 🇨🇦_CA加拿大_71
+      - 🇨🇦_CA加拿大_72
+      - 🇫🇷_FR法国_73
+      - 🇫🇷_FR法国_74
+      - 🇺🇸_US美国_75
+      - 🇺🇸_US美国_76
+      - 🇨🇦_CA加拿大_77
+      - 🇨🇦_CA加拿大_78
+      - 🇨🇦_CA加拿大_79
+      - 🇨🇦_CA加拿大_80
+      - 🇮🇳_IN印度_81
+      - 🇺🇸_US美国_82
+      - 🇺🇸_US美国_83
+      - 🇺🇸_US美国_84
+      - 🇺🇸_US美国_85
+      - 🇬🇧_GB英国_86
+      - 🇺🇸_US美国_87
+      - 🇺🇸_US美国_88
+      - 🇺🇸_US美国_89
+      - 🇬🇧_GB英国_90
+      - 🇺🇸_US美国_91
+      - 🇺🇸_US美国_92
+      - 🇨🇦_CA加拿大_93
+      - 🇨🇦_CA加拿大_94
+      - 🇬🇧_GB英国_95
+      - 🇺🇸_US美国_96
+      - 🇨🇦_CA加拿大_97
+      - 🇨🇦_CA加拿大_98
+      - 🇨🇦_CA加拿大_99
+      - 🇨🇦_CA加拿大_100
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 翻墙党fanqiangdang_comat0131_1
-      - 翻墙党fanqiangdang_comat0131_2
-      - 翻墙党fanqiangdang_comat0131_3
-      - 翻墙党fanqiangdang_comat0131_4
-      - 翻墙党fanqiangdang_comat0131_5
-      - 翻墙党fanqiangdang_comat0131_6
-      - 翻墙党fanqiangdang_comat0131_7
-      - 翻墙党fanqiangdang_comat0131_8
-      - 翻墙党fanqiangdang_comat0131_9
-      - 翻墙党fanqiangdang_comat0131_10
-      - 翻墙党fanqiangdang_comat0131_11
-      - 翻墙党fanqiangdang_comat0131_12
-      - 翻墙党fanqiangdang_comat0131_13
-      - 翻墙党fanqiangdang_comat0131_14
-      - 翻墙党fanqiangdang_comat0131_15
-      - 翻墙党fanqiangdang_comat0131_16
-      - 翻墙党fanqiangdang_comat0131_17
-      - 翻墙党fanqiangdang_comat0131_18
-      - 翻墙党fanqiangdang_comat0131_19
-      - 翻墙党fanqiangdang_comat0131_20
-      - 翻墙党fanqiangdang_comat0131_21
-      - 翻墙党fanqiangdang_comat0131_22
-      - 翻墙党fanqiangdang_comat0131_23
-      - 翻墙党fanqiangdang_comat0131_24
-      - 翻墙党fanqiangdang_comat0131_25
-      - 翻墙党fanqiangdang_comat0131_26
-      - 翻墙党fanqiangdang_comat0131_27
-      - 翻墙党fanqiangdang_comat0131_28
-      - 翻墙党fanqiangdang_comat0131_29
-      - 翻墙党fanqiangdang_comat0131_30
-      - 翻墙党fanqiangdang_comat0131_31
-      - 翻墙党fanqiangdang_comat0131_32
-      - 翻墙党fanqiangdang_comat0131_33
-      - 翻墙党fanqiangdang_comat0131_34
-      - 翻墙党fanqiangdang_comat0131_35
-      - 翻墙党fanqiangdang_comat0131_36
-      - 翻墙党fanqiangdang_comat0131_37
-      - 翻墙党fanqiangdang_comat0131_38
-      - 翻墙党fanqiangdang_comat0131_39
-      - 翻墙党fanqiangdang_comat0131_40
-      - 翻墙党fanqiangdang_comat0131_41
-      - 翻墙党fanqiangdang_comat0131_42
-      - 翻墙党fanqiangdang_comat0131_43
-      - 翻墙党fanqiangdang_comat0131_44
-      - 翻墙党fanqiangdang_comat0131_45
-      - 翻墙党fanqiangdang_comat0131_46
-      - 翻墙党fanqiangdang_comat0131_47
-      - 翻墙党fanqiangdang_comat0131_48
-      - 翻墙党fanqiangdang_comat0131_49
-      - 翻墙党fanqiangdang_comat0131_50
-      - 翻墙党fanqiangdang_comat0131_51
-      - 翻墙党fanqiangdang_comat0131_52
-      - 翻墙党fanqiangdang_comat0131_53
-      - 翻墙党fanqiangdang_comat0131_54
-      - 翻墙党fanqiangdang_comat0131_55
-      - 翻墙党fanqiangdang_comat0131_56
-      - 翻墙党fanqiangdang_comat0131_57
-      - 翻墙党fanqiangdang_comat0131_58
-      - 翻墙党fanqiangdang_comat0131_59
-      - 翻墙党fanqiangdang_comat0131_60
-      - 翻墙党fanqiangdang_comat0131_61
-      - 翻墙党fanqiangdang_comat0131_62
-      - 翻墙党fanqiangdang_comat0131_63
+      - 🇺🇸_US美国_1
+      - 🇨🇦_CA加拿大_2
+      - 🇨🇦_CA加拿大_3
+      - 🇺🇸_US美国_4
+      - 🇨🇦_CA加拿大_5
+      - 🇺🇸_US美国_6
+      - 🇺🇸_US美国_7
+      - 🇺🇸_US美国_8
+      - 🇬🇧_GB英国_9
+      - 🇬🇧_GB英国_10
+      - 🇺🇸_US美国_11
+      - 🇺🇸_US美国_12
+      - 🇨🇦_CA加拿大_13
+      - 🇨🇦_CA加拿大_14
+      - 🇨🇦_CA加拿大_15
+      - 🇺🇸_US美国_16
+      - 🇺🇸_US美国_17
+      - 🇺🇸_US美国_18
+      - 🇺🇸_US美国_19
+      - 🇨🇦_CA加拿大_20
+      - 🇨🇦_CA加拿大_21
+      - 🇨🇦_CA加拿大_22
+      - 🇨🇦_CA加拿大_23
+      - 🇺🇸_US美国_24
+      - 🇨🇦_CA加拿大_25
+      - 🇨🇦_CA加拿大_26
+      - 🇨🇦_CA加拿大_27
+      - 🇨🇦_CA加拿大_28
+      - 🇺🇸_US美国_29
+      - 🇺🇸_US美国_30
+      - 🇺🇸_US美国_31
+      - 🇺🇸_US美国_32
+      - 🇨🇦_CA加拿大_33
+      - 🇨🇦_CA加拿大_34
+      - 🇨🇦_CA加拿大_35
+      - 🇺🇸_US美国_36
+      - 🇺🇸_US美国_37
+      - 🇺🇸_US美国_38
+      - 🇨🇦_CA加拿大_39
+      - 🇨🇦_CA加拿大_40
+      - 🇨🇦_CA加拿大_41
+      - 🇨🇦_CA加拿大_42
+      - 🇨🇦_CA加拿大_43
+      - 🇨🇦_CA加拿大_44
+      - 🇨🇦_CA加拿大_45
+      - 🇨🇦_CA加拿大_46
+      - 🇨🇦_CA加拿大_47
+      - 🇺🇸_US美国_48
+      - 🇺🇸_US美国_49
+      - 🇬🇧_GB英国_50
+      - 🇺🇸_US美国_51
+      - 🇬🇧_GB英国_52
+      - 🇺🇸_US美国_53
+      - 🇺🇸_US美国_54
+      - 🇺🇸_US美国_55
+      - 🇺🇸_US美国_56
+      - 🇨🇦_CA加拿大_57
+      - 🇨🇦_CA加拿大_58
+      - 🇨🇦_CA加拿大_59
+      - 🇨🇦_CA加拿大_60
+      - 🇨🇦_CA加拿大_61
+      - 🇨🇦_CA加拿大_62
+      - 🇺🇸_US美国_63
+      - 🇮🇳_IN印度_64
+      - 🇨🇦_CA加拿大_65
+      - 🇨🇦_CA加拿大_66
+      - 🇨🇦_CA加拿大_67
+      - 🇨🇦_CA加拿大_68
+      - 🇨🇦_CA加拿大_69
+      - 🇨🇦_CA加拿大_70
+      - 🇨🇦_CA加拿大_71
+      - 🇨🇦_CA加拿大_72
+      - 🇫🇷_FR法国_73
+      - 🇫🇷_FR法国_74
+      - 🇺🇸_US美国_75
+      - 🇺🇸_US美国_76
+      - 🇨🇦_CA加拿大_77
+      - 🇨🇦_CA加拿大_78
+      - 🇨🇦_CA加拿大_79
+      - 🇨🇦_CA加拿大_80
+      - 🇮🇳_IN印度_81
+      - 🇺🇸_US美国_82
+      - 🇺🇸_US美国_83
+      - 🇺🇸_US美国_84
+      - 🇺🇸_US美国_85
+      - 🇬🇧_GB英国_86
+      - 🇺🇸_US美国_87
+      - 🇺🇸_US美国_88
+      - 🇺🇸_US美国_89
+      - 🇬🇧_GB英国_90
+      - 🇺🇸_US美国_91
+      - 🇺🇸_US美国_92
+      - 🇨🇦_CA加拿大_93
+      - 🇨🇦_CA加拿大_94
+      - 🇬🇧_GB英国_95
+      - 🇺🇸_US美国_96
+      - 🇨🇦_CA加拿大_97
+      - 🇨🇦_CA加拿大_98
+      - 🇨🇦_CA加拿大_99
+      - 🇨🇦_CA加拿大_100
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -501,69 +760,106 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 翻墙党fanqiangdang_comat0131_1
-      - 翻墙党fanqiangdang_comat0131_2
-      - 翻墙党fanqiangdang_comat0131_3
-      - 翻墙党fanqiangdang_comat0131_4
-      - 翻墙党fanqiangdang_comat0131_5
-      - 翻墙党fanqiangdang_comat0131_6
-      - 翻墙党fanqiangdang_comat0131_7
-      - 翻墙党fanqiangdang_comat0131_8
-      - 翻墙党fanqiangdang_comat0131_9
-      - 翻墙党fanqiangdang_comat0131_10
-      - 翻墙党fanqiangdang_comat0131_11
-      - 翻墙党fanqiangdang_comat0131_12
-      - 翻墙党fanqiangdang_comat0131_13
-      - 翻墙党fanqiangdang_comat0131_14
-      - 翻墙党fanqiangdang_comat0131_15
-      - 翻墙党fanqiangdang_comat0131_16
-      - 翻墙党fanqiangdang_comat0131_17
-      - 翻墙党fanqiangdang_comat0131_18
-      - 翻墙党fanqiangdang_comat0131_19
-      - 翻墙党fanqiangdang_comat0131_20
-      - 翻墙党fanqiangdang_comat0131_21
-      - 翻墙党fanqiangdang_comat0131_22
-      - 翻墙党fanqiangdang_comat0131_23
-      - 翻墙党fanqiangdang_comat0131_24
-      - 翻墙党fanqiangdang_comat0131_25
-      - 翻墙党fanqiangdang_comat0131_26
-      - 翻墙党fanqiangdang_comat0131_27
-      - 翻墙党fanqiangdang_comat0131_28
-      - 翻墙党fanqiangdang_comat0131_29
-      - 翻墙党fanqiangdang_comat0131_30
-      - 翻墙党fanqiangdang_comat0131_31
-      - 翻墙党fanqiangdang_comat0131_32
-      - 翻墙党fanqiangdang_comat0131_33
-      - 翻墙党fanqiangdang_comat0131_34
-      - 翻墙党fanqiangdang_comat0131_35
-      - 翻墙党fanqiangdang_comat0131_36
-      - 翻墙党fanqiangdang_comat0131_37
-      - 翻墙党fanqiangdang_comat0131_38
-      - 翻墙党fanqiangdang_comat0131_39
-      - 翻墙党fanqiangdang_comat0131_40
-      - 翻墙党fanqiangdang_comat0131_41
-      - 翻墙党fanqiangdang_comat0131_42
-      - 翻墙党fanqiangdang_comat0131_43
-      - 翻墙党fanqiangdang_comat0131_44
-      - 翻墙党fanqiangdang_comat0131_45
-      - 翻墙党fanqiangdang_comat0131_46
-      - 翻墙党fanqiangdang_comat0131_47
-      - 翻墙党fanqiangdang_comat0131_48
-      - 翻墙党fanqiangdang_comat0131_49
-      - 翻墙党fanqiangdang_comat0131_50
-      - 翻墙党fanqiangdang_comat0131_51
-      - 翻墙党fanqiangdang_comat0131_52
-      - 翻墙党fanqiangdang_comat0131_53
-      - 翻墙党fanqiangdang_comat0131_54
-      - 翻墙党fanqiangdang_comat0131_55
-      - 翻墙党fanqiangdang_comat0131_56
-      - 翻墙党fanqiangdang_comat0131_57
-      - 翻墙党fanqiangdang_comat0131_58
-      - 翻墙党fanqiangdang_comat0131_59
-      - 翻墙党fanqiangdang_comat0131_60
-      - 翻墙党fanqiangdang_comat0131_61
-      - 翻墙党fanqiangdang_comat0131_62
-      - 翻墙党fanqiangdang_comat0131_63
+      - 🇺🇸_US美国_1
+      - 🇨🇦_CA加拿大_2
+      - 🇨🇦_CA加拿大_3
+      - 🇺🇸_US美国_4
+      - 🇨🇦_CA加拿大_5
+      - 🇺🇸_US美国_6
+      - 🇺🇸_US美国_7
+      - 🇺🇸_US美国_8
+      - 🇬🇧_GB英国_9
+      - 🇬🇧_GB英国_10
+      - 🇺🇸_US美国_11
+      - 🇺🇸_US美国_12
+      - 🇨🇦_CA加拿大_13
+      - 🇨🇦_CA加拿大_14
+      - 🇨🇦_CA加拿大_15
+      - 🇺🇸_US美国_16
+      - 🇺🇸_US美国_17
+      - 🇺🇸_US美国_18
+      - 🇺🇸_US美国_19
+      - 🇨🇦_CA加拿大_20
+      - 🇨🇦_CA加拿大_21
+      - 🇨🇦_CA加拿大_22
+      - 🇨🇦_CA加拿大_23
+      - 🇺🇸_US美国_24
+      - 🇨🇦_CA加拿大_25
+      - 🇨🇦_CA加拿大_26
+      - 🇨🇦_CA加拿大_27
+      - 🇨🇦_CA加拿大_28
+      - 🇺🇸_US美国_29
+      - 🇺🇸_US美国_30
+      - 🇺🇸_US美国_31
+      - 🇺🇸_US美国_32
+      - 🇨🇦_CA加拿大_33
+      - 🇨🇦_CA加拿大_34
+      - 🇨🇦_CA加拿大_35
+      - 🇺🇸_US美国_36
+      - 🇺🇸_US美国_37
+      - 🇺🇸_US美国_38
+      - 🇨🇦_CA加拿大_39
+      - 🇨🇦_CA加拿大_40
+      - 🇨🇦_CA加拿大_41
+      - 🇨🇦_CA加拿大_42
+      - 🇨🇦_CA加拿大_43
+      - 🇨🇦_CA加拿大_44
+      - 🇨🇦_CA加拿大_45
+      - 🇨🇦_CA加拿大_46
+      - 🇨🇦_CA加拿大_47
+      - 🇺🇸_US美国_48
+      - 🇺🇸_US美国_49
+      - 🇬🇧_GB英国_50
+      - 🇺🇸_US美国_51
+      - 🇬🇧_GB英国_52
+      - 🇺🇸_US美国_53
+      - 🇺🇸_US美国_54
+      - 🇺🇸_US美国_55
+      - 🇺🇸_US美国_56
+      - 🇨🇦_CA加拿大_57
+      - 🇨🇦_CA加拿大_58
+      - 🇨🇦_CA加拿大_59
+      - 🇨🇦_CA加拿大_60
+      - 🇨🇦_CA加拿大_61
+      - 🇨🇦_CA加拿大_62
+      - 🇺🇸_US美国_63
+      - 🇮🇳_IN印度_64
+      - 🇨🇦_CA加拿大_65
+      - 🇨🇦_CA加拿大_66
+      - 🇨🇦_CA加拿大_67
+      - 🇨🇦_CA加拿大_68
+      - 🇨🇦_CA加拿大_69
+      - 🇨🇦_CA加拿大_70
+      - 🇨🇦_CA加拿大_71
+      - 🇨🇦_CA加拿大_72
+      - 🇫🇷_FR法国_73
+      - 🇫🇷_FR法国_74
+      - 🇺🇸_US美国_75
+      - 🇺🇸_US美国_76
+      - 🇨🇦_CA加拿大_77
+      - 🇨🇦_CA加拿大_78
+      - 🇨🇦_CA加拿大_79
+      - 🇨🇦_CA加拿大_80
+      - 🇮🇳_IN印度_81
+      - 🇺🇸_US美国_82
+      - 🇺🇸_US美国_83
+      - 🇺🇸_US美国_84
+      - 🇺🇸_US美国_85
+      - 🇬🇧_GB英国_86
+      - 🇺🇸_US美国_87
+      - 🇺🇸_US美国_88
+      - 🇺🇸_US美国_89
+      - 🇬🇧_GB英国_90
+      - 🇺🇸_US美国_91
+      - 🇺🇸_US美国_92
+      - 🇨🇦_CA加拿大_93
+      - 🇨🇦_CA加拿大_94
+      - 🇬🇧_GB英国_95
+      - 🇺🇸_US美国_96
+      - 🇨🇦_CA加拿大_97
+      - 🇨🇦_CA加拿大_98
+      - 🇨🇦_CA加拿大_99
+      - 🇨🇦_CA加拿大_100
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
