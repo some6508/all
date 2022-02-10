@@ -5,7 +5,75 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: STG08请下载新客户端后导入_1, server: stg08.stgchannelxyzroute.xyz, port: 443, type: vmess, uuid: 79AEE974-1CA0-E631-6E35-BF319DF136AD, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: stg08.stgchannelxyzroute.xyz}}, udp: true}
+  - {name: 【直连】HKG/香港-80端口-1_1, server: 001.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 001.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】HKG/香港-443端口-2_2, server: 002.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 002.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】TYO/东京-80端口-1_3, server: 003.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 003.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】TYO/东京-443端口-2_4, server: 004.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 004.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】ICN/首尔-80端口-1_5, server: 007.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 007.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】ICN/首尔-443端口-2_6, server: 008.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 008.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】SJC/圣荷西-80端口-1_7, server: 009.NA.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 009.NA.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】SJC/圣荷西-443端口-2_8, server: 010.NA.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 010.NA.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】HKG/香港-1_9, server: 021.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 021.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】HKG/香港-2_10, server: 022.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 022.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】TYO/东京-1_11, server: 023.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 023.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】TYO/东京-2_12, server: 024.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 024.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】ICN/首尔-1_13, server: 027.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 027.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】ICN/首尔-2_14, server: 028.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 028.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】SJC/圣荷西-1_15, server: 029.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 029.NA.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】SJC/圣荷西-2_16, server: 030.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 030.NA.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】HKG/香港-3_17, server: 031.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 031.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】HKG/香港-4_18, server: 032.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 032.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】TYO/东京-3_19, server: 033.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 033.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】TYO/东京-4_20, server: 034.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 034.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】ICN/首尔-3_21, server: 037.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 037.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】ICN/首尔-4_22, server: 038.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 038.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】SJC/圣荷西-3_23, server: 039.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 039.NA.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 【直连】SJC/圣荷西-4_24, server: 040.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 07130087-c1c1-4249-941d-72db4de00924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 040.NA.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 新加坡11_25, server: ls.yunsu.ke666.net, port: 9876, type: vmess, uuid: 7a875411-5911-4752-b129-e89722f0e740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yunsunode, headers: {Host: ls.yunsu.ke666.net}}, udp: true}
+  - {name: 新加坡21_26, server: ls.yunsu.ke666.net, port: 34025, type: vmess, uuid: 7a875411-5911-4752-b129-e89722f0e740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yunsunode, headers: {Host: ls.yunsu.ke666.net}}, udp: true}
+  - {name: 日本11_27, server: ls.yunsu.ke666.net, port: 29006, type: vmess, uuid: 7a875411-5911-4752-b129-e89722f0e740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yunsunode, headers: {Host: ls.yunsu.ke666.net}}, udp: true}
+  - {name: 日本21_28, server: ls.yunsu.ke666.net, port: 10509, type: vmess, uuid: 7a875411-5911-4752-b129-e89722f0e740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yunsunode, headers: {Host: ls.yunsu.ke666.net}}, udp: true}
+  - {name: 韩国11_29, server: ls.yunsu.ke666.net, port: 64576, type: vmess, uuid: 7a875411-5911-4752-b129-e89722f0e740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yunsunode, headers: {Host: ls.yunsu.ke666.net}}, udp: true}
+  - {name: 韩国21_30, server: ls.yunsu.ke666.net, port: 43821, type: vmess, uuid: 7a875411-5911-4752-b129-e89722f0e740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yunsunode, headers: {Host: ls.yunsu.ke666.net}}, udp: true}
+  - {name: 美国11_31, server: ls.yunsu.ke666.net, port: 46760, type: vmess, uuid: 7a875411-5911-4752-b129-e89722f0e740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yunsunode, headers: {Host: ls.yunsu.ke666.net}}, udp: true}
+  - {name: 美国21_32, server: ls.yunsu.ke666.net, port: 45512, type: vmess, uuid: 7a875411-5911-4752-b129-e89722f0e740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yunsunode, headers: {Host: ls.yunsu.ke666.net}}, udp: true}
+  - {name: 香港11_33, server: ls.yunsu.ke666.net, port: 55352, type: vmess, uuid: 7a875411-5911-4752-b129-e89722f0e740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yunsunode, headers: {Host: ls.yunsu.ke666.net}}, udp: true}
+  - {name: 香港21_34, server: ls.yunsu.ke666.net, port: 62252, type: vmess, uuid: 7a875411-5911-4752-b129-e89722f0e740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yunsunode, headers: {Host: ls.yunsu.ke666.net}}, udp: true}
+  - {name: 香港31_35, server: ls.yunsu.ke666.net, port: 31115, type: vmess, uuid: 7a875411-5911-4752-b129-e89722f0e740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yunsunode, headers: {Host: ls.yunsu.ke666.net}}, udp: true}
+  - {name: 【中转】JPN/日本A-Anycast_36, server: dkhndazrammw7.cloudfront.cn, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dkhndazrammw7.cloudfront.cn}}, udp: true}
+  - {name: 【中转】SIN/狮城A-Anycast_37, server: dkhndazrammw7.cloudfront.cn, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dkhndazrammw7.cloudfront.cn}}, udp: true}
+  - {name: 【中转】JPN/日本A-1上海_38, server: 120.253.240.228, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】SIN/狮城A-1上海_39, server: 120.253.245.160, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】JPN/日本A-2上海_40, server: 180.163.57.99, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】SIN/狮城A-2上海_41, server: 180.163.57.106, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】JPN/日本A-3上海_42, server: 210.51.40.41, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】SIN/狮城A-3上海_43, server: 210.51.40.32, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】JPN/日本A-4广州_44, server: 119.147.182.164, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】SIN/狮城A-4广州_45, server: 119.147.182.164, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】JPN/日本A-5广州_46, server: 58.254.138.168, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】SIN/狮城A-5广州_47, server: 58.254.138.168, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】JPN/日本A-6宁夏_48, server: 111.51.66.166, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】SIN/狮城A-6宁夏_49, server: 111.51.66.166, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】JPN/日本A-7宁夏_50, server: 116.129.226.35, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】SIN/狮城A-7宁夏_51, server: 116.129.226.35, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】JPN/日本A-8宁夏_52, server: 36.103.232.160, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】SIN/狮城A-8宁夏_53, server: 36.103.232.160, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】JPN/日本A-9北京_54, server: 223.71.71.233, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】SIN/狮城A-9北京_55, server: 223.71.71.233, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】JPN/日本A-10北京_56, server: 118.193.97.166, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】SIN/狮城A-10北京_57, server: 118.193.97.237, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】JPN/日本A-11廊坊_58, server: 120.52.153.193, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【中转】SIN/狮城A-11廊坊_59, server: 120.52.153.193, port: 80, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【测试】深圳->日本A_60, server: 183.240.132.30, port: 10001, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【测试】深圳->香港A_61, server: 183.240.132.30, port: 10002, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【测试】深圳->新加坡A_62, server: 183.240.132.30, port: 10003, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 【直连】HKG/香港融合_63, server: 001.hk.ap.pop.smallairport.net, port: 22356, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 001.hk.ap.pop.smallairport.net}}, udp: true}
+  - {name: 【直连】IST/伊斯坦堡_64, server: 001.tr.eu.pop.smallairport.net, port: 22358, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 001.tr.eu.pop.smallairport.net}}, udp: true}
+  - {name: 【直连】USA/美国A_65, server: 001.us.na.pop.smallairport.net, port: 22356, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 001.us.na.pop.smallairport.net}}, udp: true}
+  - {name: 【直连】AMS/阿姆斯特丹A_66, server: 001.nl.eu.pop.smallairport.net, port: 22357, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 001.nl.eu.pop.smallairport.net}}, udp: true}
+  - {name: 【直连】TWN/台湾A_67, server: twn03.ip4.ddns.acg.photos, port: 22356, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: twn03.ip4.ddns.acg.photos}}, udp: true}
+  - {name: 【直连】TWN/台湾B_68, server: twn01.ip4.ddns.acg.photos, port: 22357, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: twn01.ip4.ddns.acg.photos}}, udp: true}
+  - {name: 【直连】TWN/台湾C_69, server: twn04.ip4.ddns.acg.photos, port: 22357, type: vmess, uuid: 579919af-4c55-4c08-8dbb-d5d74997d7c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: twn04.ip4.ddns.acg.photos}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: lin-sg.tgproxy.wtf, port: 443, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: lin-sg.tgproxy.wtf}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: v10.ssrsub.com, port: 166, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v10.ssrsub.com}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -1731,7 +1799,75 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - STG08请下载新客户端后导入_1
+      - 【直连】HKG/香港-80端口-1_1
+      - 【直连】HKG/香港-443端口-2_2
+      - 【直连】TYO/东京-80端口-1_3
+      - 【直连】TYO/东京-443端口-2_4
+      - 【直连】ICN/首尔-80端口-1_5
+      - 【直连】ICN/首尔-443端口-2_6
+      - 【直连】SJC/圣荷西-80端口-1_7
+      - 【直连】SJC/圣荷西-443端口-2_8
+      - 【直连】HKG/香港-1_9
+      - 【直连】HKG/香港-2_10
+      - 【直连】TYO/东京-1_11
+      - 【直连】TYO/东京-2_12
+      - 【直连】ICN/首尔-1_13
+      - 【直连】ICN/首尔-2_14
+      - 【直连】SJC/圣荷西-1_15
+      - 【直连】SJC/圣荷西-2_16
+      - 【直连】HKG/香港-3_17
+      - 【直连】HKG/香港-4_18
+      - 【直连】TYO/东京-3_19
+      - 【直连】TYO/东京-4_20
+      - 【直连】ICN/首尔-3_21
+      - 【直连】ICN/首尔-4_22
+      - 【直连】SJC/圣荷西-3_23
+      - 【直连】SJC/圣荷西-4_24
+      - 新加坡11_25
+      - 新加坡21_26
+      - 日本11_27
+      - 日本21_28
+      - 韩国11_29
+      - 韩国21_30
+      - 美国11_31
+      - 美国21_32
+      - 香港11_33
+      - 香港21_34
+      - 香港31_35
+      - 【中转】JPN/日本A-Anycast_36
+      - 【中转】SIN/狮城A-Anycast_37
+      - 【中转】JPN/日本A-1上海_38
+      - 【中转】SIN/狮城A-1上海_39
+      - 【中转】JPN/日本A-2上海_40
+      - 【中转】SIN/狮城A-2上海_41
+      - 【中转】JPN/日本A-3上海_42
+      - 【中转】SIN/狮城A-3上海_43
+      - 【中转】JPN/日本A-4广州_44
+      - 【中转】SIN/狮城A-4广州_45
+      - 【中转】JPN/日本A-5广州_46
+      - 【中转】SIN/狮城A-5广州_47
+      - 【中转】JPN/日本A-6宁夏_48
+      - 【中转】SIN/狮城A-6宁夏_49
+      - 【中转】JPN/日本A-7宁夏_50
+      - 【中转】SIN/狮城A-7宁夏_51
+      - 【中转】JPN/日本A-8宁夏_52
+      - 【中转】SIN/狮城A-8宁夏_53
+      - 【中转】JPN/日本A-9北京_54
+      - 【中转】SIN/狮城A-9北京_55
+      - 【中转】JPN/日本A-10北京_56
+      - 【中转】SIN/狮城A-10北京_57
+      - 【中转】JPN/日本A-11廊坊_58
+      - 【中转】SIN/狮城A-11廊坊_59
+      - 【测试】深圳->日本A_60
+      - 【测试】深圳->香港A_61
+      - 【测试】深圳->新加坡A_62
+      - 【直连】HKG/香港融合_63
+      - 【直连】IST/伊斯坦堡_64
+      - 【直连】USA/美国A_65
+      - 【直连】AMS/阿姆斯特丹A_66
+      - 【直连】TWN/台湾A_67
+      - 【直连】TWN/台湾B_68
+      - 【直连】TWN/台湾C_69
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -3446,7 +3582,75 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - STG08请下载新客户端后导入_1
+      - 【直连】HKG/香港-80端口-1_1
+      - 【直连】HKG/香港-443端口-2_2
+      - 【直连】TYO/东京-80端口-1_3
+      - 【直连】TYO/东京-443端口-2_4
+      - 【直连】ICN/首尔-80端口-1_5
+      - 【直连】ICN/首尔-443端口-2_6
+      - 【直连】SJC/圣荷西-80端口-1_7
+      - 【直连】SJC/圣荷西-443端口-2_8
+      - 【直连】HKG/香港-1_9
+      - 【直连】HKG/香港-2_10
+      - 【直连】TYO/东京-1_11
+      - 【直连】TYO/东京-2_12
+      - 【直连】ICN/首尔-1_13
+      - 【直连】ICN/首尔-2_14
+      - 【直连】SJC/圣荷西-1_15
+      - 【直连】SJC/圣荷西-2_16
+      - 【直连】HKG/香港-3_17
+      - 【直连】HKG/香港-4_18
+      - 【直连】TYO/东京-3_19
+      - 【直连】TYO/东京-4_20
+      - 【直连】ICN/首尔-3_21
+      - 【直连】ICN/首尔-4_22
+      - 【直连】SJC/圣荷西-3_23
+      - 【直连】SJC/圣荷西-4_24
+      - 新加坡11_25
+      - 新加坡21_26
+      - 日本11_27
+      - 日本21_28
+      - 韩国11_29
+      - 韩国21_30
+      - 美国11_31
+      - 美国21_32
+      - 香港11_33
+      - 香港21_34
+      - 香港31_35
+      - 【中转】JPN/日本A-Anycast_36
+      - 【中转】SIN/狮城A-Anycast_37
+      - 【中转】JPN/日本A-1上海_38
+      - 【中转】SIN/狮城A-1上海_39
+      - 【中转】JPN/日本A-2上海_40
+      - 【中转】SIN/狮城A-2上海_41
+      - 【中转】JPN/日本A-3上海_42
+      - 【中转】SIN/狮城A-3上海_43
+      - 【中转】JPN/日本A-4广州_44
+      - 【中转】SIN/狮城A-4广州_45
+      - 【中转】JPN/日本A-5广州_46
+      - 【中转】SIN/狮城A-5广州_47
+      - 【中转】JPN/日本A-6宁夏_48
+      - 【中转】SIN/狮城A-6宁夏_49
+      - 【中转】JPN/日本A-7宁夏_50
+      - 【中转】SIN/狮城A-7宁夏_51
+      - 【中转】JPN/日本A-8宁夏_52
+      - 【中转】SIN/狮城A-8宁夏_53
+      - 【中转】JPN/日本A-9北京_54
+      - 【中转】SIN/狮城A-9北京_55
+      - 【中转】JPN/日本A-10北京_56
+      - 【中转】SIN/狮城A-10北京_57
+      - 【中转】JPN/日本A-11廊坊_58
+      - 【中转】SIN/狮城A-11廊坊_59
+      - 【测试】深圳->日本A_60
+      - 【测试】深圳->香港A_61
+      - 【测试】深圳->新加坡A_62
+      - 【直连】HKG/香港融合_63
+      - 【直连】IST/伊斯坦堡_64
+      - 【直连】USA/美国A_65
+      - 【直连】AMS/阿姆斯特丹A_66
+      - 【直连】TWN/台湾A_67
+      - 【直连】TWN/台湾B_68
+      - 【直连】TWN/台湾C_69
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -5331,6 +5535,17 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 【直连】HKG/香港-80端口-1_1
+      - 【直连】HKG/香港-443端口-2_2
+      - 【直连】HKG/香港-1_9
+      - 【直连】HKG/香港-2_10
+      - 【直连】HKG/香港-3_17
+      - 【直连】HKG/香港-4_18
+      - 香港11_33
+      - 香港21_34
+      - 香港31_35
+      - 【测试】深圳->香港A_61
+      - 【直连】HKG/香港融合_63
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
@@ -5458,6 +5673,27 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 【直连】TYO/东京-80端口-1_3
+      - 【直连】TYO/东京-443端口-2_4
+      - 【直连】TYO/东京-1_11
+      - 【直连】TYO/东京-2_12
+      - 【直连】TYO/东京-3_19
+      - 【直连】TYO/东京-4_20
+      - 日本11_27
+      - 日本21_28
+      - 【中转】JPN/日本A-Anycast_36
+      - 【中转】JPN/日本A-1上海_38
+      - 【中转】JPN/日本A-2上海_40
+      - 【中转】JPN/日本A-3上海_42
+      - 【中转】JPN/日本A-4广州_44
+      - 【中转】JPN/日本A-5广州_46
+      - 【中转】JPN/日本A-6宁夏_48
+      - 【中转】JPN/日本A-7宁夏_50
+      - 【中转】JPN/日本A-8宁夏_52
+      - 【中转】JPN/日本A-9北京_54
+      - 【中转】JPN/日本A-10北京_56
+      - 【中转】JPN/日本A-11廊坊_58
+      - 【测试】深圳->日本A_60
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
       - 日本（YouTube资源分享者）
@@ -5527,6 +5763,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 美国11_31
+      - 美国21_32
+      - 【直连】USA/美国A_65
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -6082,6 +6321,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 【直连】TWN/台湾A_67
+      - 【直连】TWN/台湾B_68
+      - 【直连】TWN/台湾C_69
       - 台湾（YouTube资源分享者）
       - 台湾（YouTube资源分享者） 2
       - 台湾（YouTube资源分享者） 3
@@ -6140,6 +6382,21 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 新加坡11_25
+      - 新加坡21_26
+      - 【中转】SIN/狮城A-Anycast_37
+      - 【中转】SIN/狮城A-1上海_39
+      - 【中转】SIN/狮城A-2上海_41
+      - 【中转】SIN/狮城A-3上海_43
+      - 【中转】SIN/狮城A-4广州_45
+      - 【中转】SIN/狮城A-5广州_47
+      - 【中转】SIN/狮城A-6宁夏_49
+      - 【中转】SIN/狮城A-7宁夏_51
+      - 【中转】SIN/狮城A-8宁夏_53
+      - 【中转】SIN/狮城A-9北京_55
+      - 【中转】SIN/狮城A-10北京_57
+      - 【中转】SIN/狮城A-11廊坊_59
+      - 【测试】深圳->新加坡A_62
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -6235,6 +6492,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 【直连】ICN/首尔-80端口-1_5
+      - 【直连】ICN/首尔-443端口-2_6
+      - 【直连】ICN/首尔-1_13
+      - 【直连】ICN/首尔-2_14
+      - 【直连】ICN/首尔-3_21
+      - 【直连】ICN/首尔-4_22
+      - 韩国11_29
+      - 韩国21_30
       - _KR_韩国_FMYC-2022_02_09_28
       - "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub"
