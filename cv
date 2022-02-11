@@ -1024,16 +1024,42 @@ proxies:
   - {name: Lil 香港10 - nf | IEPL | 倍率:1.6, server: eek8yahv.nodeinfo.icu, port: 2110, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
   - {name: Lil 香港11 - nf | AIA | 倍率:3, server: el2ohqua.nodeinfo.icu, port: 2111, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
   - {name: Lil 香港12 - nf | AIA | 倍率:3, server: oohas7ou.nodeinfo.icu, port: 2112, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: "香港 01 [ C1 ]", server: F8zkP8BoHLBUkjp2FUNj.ganode.org, port: 1005, type: ss, cipher: aes-128-gcm, password: kmlWXcKs2l6PFmfu, udp: true}
-  - {name: "香港 02 [ C1 ]", server: F8zkP8BoHLBUkjp2FUNj.ganode.org, port: 1006, type: ss, cipher: aes-128-gcm, password: kmlWXcKs2l6PFmfu, udp: true}
-  - {name: "香港 03 [ C1 ]", server: F8zkP8BoHLBUkjp2FUNj.ganode.org, port: 1007, type: ss, cipher: aes-128-gcm, password: kmlWXcKs2l6PFmfu, udp: true}
-  - {name: "台湾 01 [ C1 ]", server: F8zkP8BoHLBUkjp2FUNj.ganode.org, port: 1003, type: ss, cipher: aes-128-gcm, password: kmlWXcKs2l6PFmfu, udp: true}
-  - {name: "台湾 02 [ C1 ]", server: F8zkP8BoHLBUkjp2FUNj.ganode.org, port: 1004, type: ss, cipher: aes-128-gcm, password: kmlWXcKs2l6PFmfu, udp: true}
-  - {name: "台湾 03 [ C1 ]", server: F8zkP8BoHLBUkjp2FUNj.ganode.org, port: 1027, type: ss, cipher: aes-128-gcm, password: kmlWXcKs2l6PFmfu, udp: true}
-  - {name: "新加坡 01 [ C1 ]", server: F8zkP8BoHLBUkjp2FUNj.ganode.org, port: 1000, type: ss, cipher: aes-128-gcm, password: kmlWXcKs2l6PFmfu, udp: true}
-  - {name: "新加坡 02 [ C1 ]", server: F8zkP8BoHLBUkjp2FUNj.ganode.org, port: 1008, type: ss, cipher: aes-128-gcm, password: kmlWXcKs2l6PFmfu, udp: true}
-  - {name: "新加坡 03 [ C1 ]", server: F8zkP8BoHLBUkjp2FUNj.ganode.org, port: 1012, type: ss, cipher: aes-128-gcm, password: kmlWXcKs2l6PFmfu, udp: true}
-  - {name: "日本 01 [ C1 ]", server: F8zkP8BoHLBUkjp2FUNj.ganode.org, port: 1002, type: ss, cipher: aes-128-gcm, password: kmlWXcKs2l6PFmfu, udp: true}
+  - {name: 科技网络_1, server: 198.57.27.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 科技网络_2, server: 38.114.114.49, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 科技网络_3, server: tt6.tjvpn.top, port: 443, type: trojan, password: 0cb2cd1f-870b-485c-914a-60aba39eed39, skip-cert-verify: true, udp: true}
+  - {name: 科技网络_4, server: 38.68.134.23, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 科技网络_5, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 科技网络_6, server: 198.57.27.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 科技网络_7, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 科技网络_8, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 科技网络_9, server: 38.68.134.23, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 科技网络_10, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 科技网络_11, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 科技网络_12, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 科技网络_13, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 科技网络_14, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 科技网络_15, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 科技网络_16, server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 科技网络_17, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 科技网络_18, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 科技网络_19, server: 38.68.134.23, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 科技网络_20, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 科技网络_21, server: t1.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, skip-cert-verify: true, udp: true}
+  - {name: 科技网络_22, server: 198.57.27.172, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 科技网络_23, server: 198.57.27.184, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 科技网络_24, server: 134.195.196.214, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 科技网络_25, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 科技网络_26, server: t4.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, skip-cert-verify: true, udp: true}
+  - {name: 科技网络_27, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 科技网络_28, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 科技网络_29, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 科技网络_30, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 科技网络_31, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 科技网络_32, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 科技网络_33, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 科技网络_34, server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 科技网络_35, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 科技网络_36, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2819,16 +2845,42 @@ proxy-groups:
       - Lil 香港10 - nf | IEPL | 倍率:1.6
       - Lil 香港11 - nf | AIA | 倍率:3
       - Lil 香港12 - nf | AIA | 倍率:3
-      - 香港 01 [ C1 ]
-      - 香港 02 [ C1 ]
-      - 香港 03 [ C1 ]
-      - 台湾 01 [ C1 ]
-      - 台湾 02 [ C1 ]
-      - 台湾 03 [ C1 ]
-      - 新加坡 01 [ C1 ]
-      - 新加坡 02 [ C1 ]
-      - 新加坡 03 [ C1 ]
-      - 日本 01 [ C1 ]
+      - 科技网络_1
+      - 科技网络_2
+      - 科技网络_3
+      - 科技网络_4
+      - 科技网络_5
+      - 科技网络_6
+      - 科技网络_7
+      - 科技网络_8
+      - 科技网络_9
+      - 科技网络_10
+      - 科技网络_11
+      - 科技网络_12
+      - 科技网络_13
+      - 科技网络_14
+      - 科技网络_15
+      - 科技网络_16
+      - 科技网络_17
+      - 科技网络_18
+      - 科技网络_19
+      - 科技网络_20
+      - 科技网络_21
+      - 科技网络_22
+      - 科技网络_23
+      - 科技网络_24
+      - 科技网络_25
+      - 科技网络_26
+      - 科技网络_27
+      - 科技网络_28
+      - 科技网络_29
+      - 科技网络_30
+      - 科技网络_31
+      - 科技网络_32
+      - 科技网络_33
+      - 科技网络_34
+      - 科技网络_35
+      - 科技网络_36
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4603,16 +4655,42 @@ proxy-groups:
       - Lil 香港10 - nf | IEPL | 倍率:1.6
       - Lil 香港11 - nf | AIA | 倍率:3
       - Lil 香港12 - nf | AIA | 倍率:3
-      - 香港 01 [ C1 ]
-      - 香港 02 [ C1 ]
-      - 香港 03 [ C1 ]
-      - 台湾 01 [ C1 ]
-      - 台湾 02 [ C1 ]
-      - 台湾 03 [ C1 ]
-      - 新加坡 01 [ C1 ]
-      - 新加坡 02 [ C1 ]
-      - 新加坡 03 [ C1 ]
-      - 日本 01 [ C1 ]
+      - 科技网络_1
+      - 科技网络_2
+      - 科技网络_3
+      - 科技网络_4
+      - 科技网络_5
+      - 科技网络_6
+      - 科技网络_7
+      - 科技网络_8
+      - 科技网络_9
+      - 科技网络_10
+      - 科技网络_11
+      - 科技网络_12
+      - 科技网络_13
+      - 科技网络_14
+      - 科技网络_15
+      - 科技网络_16
+      - 科技网络_17
+      - 科技网络_18
+      - 科技网络_19
+      - 科技网络_20
+      - 科技网络_21
+      - 科技网络_22
+      - 科技网络_23
+      - 科技网络_24
+      - 科技网络_25
+      - 科技网络_26
+      - 科技网络_27
+      - 科技网络_28
+      - 科技网络_29
+      - 科技网络_30
+      - 科技网络_31
+      - 科技网络_32
+      - 科技网络_33
+      - 科技网络_34
+      - 科技网络_35
+      - 科技网络_36
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5608,9 +5686,6 @@ proxy-groups:
       - Lil 香港10 - nf | IEPL | 倍率:1.6
       - Lil 香港11 - nf | AIA | 倍率:3
       - Lil 香港12 - nf | AIA | 倍率:3
-      - 香港 01 [ C1 ]
-      - 香港 02 [ C1 ]
-      - 香港 03 [ C1 ]
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -5716,7 +5791,6 @@ proxy-groups:
       - Lil 日本04 - netflix | IEPL | 倍率:1.3
       - Lil 日本05 - netflix | IEPL | 倍率:1.3
       - Lil 日本06 - netflix | IEPL | 倍率:2
-      - 日本 01 [ C1 ]
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -6343,9 +6417,6 @@ proxy-groups:
       - Lil 台湾04 - allmedia | IEPL | 倍率:1.3
       - Lil 台湾05 - allmedia | IEPL | 倍率:1.3
       - Lil 台湾06 - allmedia | IEPL | 倍率:1.3
-      - 台湾 01 [ C1 ]
-      - 台湾 02 [ C1 ]
-      - 台湾 03 [ C1 ]
       - 台湾（YouTube资源分享者） 9
       - 台湾（YouTube资源分享者） 10
       - 台湾（YouTube资源分享者） 11
@@ -6422,9 +6493,6 @@ proxy-groups:
       - Lil 新加坡03 - netflix | IEPL | 倍率:1.5
       - Lil 新加坡04 - netflix | IEPL | 倍率:2
       - Lil 新加坡05 - netflix | IEPL | 倍率:2
-      - 新加坡 01 [ C1 ]
-      - 新加坡 02 [ C1 ]
-      - 新加坡 03 [ C1 ]
       - 新加坡（YouTube资源分享者） 2
       - _SG_新加坡_FMYC-2022.02.09_4
       - _SG_新加坡_FMYC-2022.02.09_5
