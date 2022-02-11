@@ -5,447 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Large 台灣01 - all | IEPL | 倍率:1.8, server: oogha1za.nodeinfo.icu, port: 6501, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 台灣02 - all | IEPL | 倍率:1.8, server: yeen3opa.nodeinfo.icu, port: 6502, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 台灣03 - all | MIEPL | 倍率:1.6, server: keem9bov.nodeinfo.icu, port: 6503, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 台灣04 - all | IEPL | 倍率:1.5, server: zahre8ai.nodeinfo.icu, port: 699, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 台灣05 - all | IEPL | 倍率:1.5, server: eu1she3s.nodeinfo.icu, port: 700, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 新加坡01 - all | IEPL | 倍率:1.5, server: aigha5ay.nodeinfo.icu, port: 3201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 新加坡02 - all | IEPL | 倍率:1.5, server: roog5tee.nodeinfo.icu, port: 3202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 新加坡03 - all | MIEPL | 倍率:1.6, server: eim1kae9.nodeinfo.icu, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 新加坡04 - all | MIEPL | 倍率:1.6, server: ainetu9e.nodeinfo.icu, port: 3204, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 新加坡05 - all | IEPL | 倍率:1.5, server: aebek1oo.nodeinfo.icu, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 新加坡06 - all | IEPL | 倍率:1.5, server: phoo6aem.nodeinfo.icu, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 新加坡07 - all | IEPL | 倍率:1.5, server: eer9iqu7.nodeinfo.icu, port: 1003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 新加坡08 - all | IEPL | 倍率:1.5, server: eu7aish2.nodeinfo.icu, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 新加坡09 - all | IEPL | 倍率:1.5, server: meeku3zi.nodeinfo.icu, port: 3209, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 新加坡10 - all | IEPL | 倍率:1.5, server: aes7oosi.nodeinfo.icu, port: 3210, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 新加坡11 - all | IEPL | 倍率:1.5, server: quo7chie.nodeinfo.icu, port: 3211, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 新加坡12 - all | IEPL | 倍率:1.5, server: iephu5so.nodeinfo.icu, port: 3212, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 日本01 - all | IEPL | 倍率:1.5, server: dua4kie5.nodeinfo.icu, port: 6301, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 日本02 - allmedia | IEPL | 倍率:1.5, server: wi6ru6zo.nodeinfo.icu, port: 6302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 日本03 - allmedia | IEPL | 倍率:1.5, server: eeth0aey.nodeinfo.icu, port: 6303, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 日本04 - allmedia | IEPL | 倍率:1.3, server: ib7uge9u.nodeinfo.icu, port: 6304, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 日本05 - allmedia | IEPL | 倍率:1.3, server: powa8agh.nodeinfo.icu, port: 6305, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 美国01 - allmedia | IEPL | 倍率:1.8, server: yohg2uzi.nodeinfo.icu, port: 1098, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 美国02 - nf&hbo&hulu | IEPL | 倍率:1.6, server: hahw2qui.nodeinfo.icu, port: 6202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 美国03 - nf&hbo&hulu | IEPL | 倍率:1.6, server: ail8bie0.nodeinfo.icu, port: 6203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 美国04 - allmedia | IEPL | 倍率:1.5, server: heeth5va.nodeinfo.icu, port: 1800, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 美国05 - allmedia | IEPL | 倍率:1.5, server: athe0ugh.nodeinfo.icu, port: 1801, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 韩国01 - nf | MIEPL | 倍率:1.6, server: peev0eey.nodeinfo.icu, port: 6101, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 韩国02 - nf | MIEPL | 倍率:1.6, server: rosei6ei.nodeinfo.icu, port: 6102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港01 - allmedia | MIEPL | 倍率:1.8, server: phahw1un.nodeinfo.icu, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港02 - nf | MIEPL | 倍率:1.8, server: ooqu0eep.nodeinfo.icu, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港03 - allmedia | MIEPL | 倍率:1.8, server: wu3gadam.nodeinfo.icu, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港04 - allmedia | MIEPL | 倍率:1.8, server: queigh5h.nodeinfo.icu, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港05 - allmedia | MIEPL | 倍率:1.8, server: keixai3u.nodeinfo.icu, port: 6005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港06 - nf | MIEPL | 倍率:1.8, server: iux7shis.nodeinfo.icu, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港07 - nf | MIEPL | 倍率:1.8, server: ac5mahye.nodeinfo.icu, port: 6007, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港08 - all | AIA | 倍率:1.6, server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港09 - nf | AIA | 倍率:1.6, server: eevahb9v.nodeinfo.icu, port: 6009, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港10 - nf | AIA | 倍率:1.6, server: thoo6foh.nodeinfo.icu, port: 6010, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港11 - nf | AIA | 倍率:1.6, server: aezee4ea.nodeinfo.icu, port: 6011, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港12 - nf | AIA | 倍率:1.6, server: ahheil5u.nodeinfo.icu, port: 6012, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港13 - all | AIA | 倍率:1.6, server: koo3cuiz.nodeinfo.icu, port: 6013, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港14 - nf | MIEPL | 倍率:1.6, server: utai3iw1.nodeinfo.icu, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港15 - allmedia | MIEPL | 倍率:1.6, server: phu8iej2.nodeinfo.icu, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港16 - allmedia | MIEPL | 倍率:1.6, server: quohvop8.nodeinfo.icu, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港17 - all | AIA | 倍率:1.8, server: inu8azei.nodeinfo.icu, port: 6017, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港18 - nf | AIA | 倍率:1.8, server: vieghei0.nodeinfo.icu, port: 6018, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港19 - allmedia | MIEPL | 倍率:1.6, server: yee9iupu.nodeinfo.icu, port: 6019, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港20 - nf | AIA | 倍率:1.6, server: ti5mulix.nodeinfo.icu, port: 6020, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港21 - nfo | MIEPL | 倍率:1.6, server: aic5ucu1.nodeinfo.icu, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港22 - nf | AIA | 倍率:1.8, server: aquoh8xi.nodeinfo.icu, port: 6022, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港23 - nfo | IEPL | 倍率:1.6, server: shei5eij.nodeinfo.icu, port: 3725, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Large 香港24 - nfo | IEPL | 倍率:1.6, server: phahx7xo.nodeinfo.icu, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 俄罗斯01 - SHOPP | IEPL | 倍率:1.3, server: joogh2uf.nodeinfo.icu, port: 1104, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 加拿大1 | IEPL | 倍率:1.3, server: sheo4ush.nodeinfo.icu, port: 1103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 台湾01 - allmedia | IEPL | 倍率:1.5, server: aesohch8.nodeinfo.icu, port: 1111, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 台湾02 - allmedia | IEPL| 倍率:1.3, server: phaiqu4l.nodeinfo.icu, port: 1112, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 台湾03 - allmedia | IEPL | 倍率:1.3, server: uthaez1i.nodeinfo.icu, port: 1113, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 台湾04 - allmedia | IEPL | 倍率:1.3, server: iemath0i.nodeinfo.icu, port: 1114, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 台湾05 - allmedia | IEPL | 倍率:1.3, server: einoo4ai.nodeinfo.icu, port: 1115, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 台湾06 - allmedia | IEPL | 倍率:1.3, server: phi4thuo.nodeinfo.icu, port: 1116, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 新加坡01 - netflix | IEPL | 倍率:1.5, server: goash5ae.nodeinfo.icu, port: 2201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 新加坡02 - netflix | IEPL | 倍率:1.5, server: eip7ahzi.nodeinfo.icu, port: 2202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 新加坡03 - netflix | IEPL | 倍率:1.5, server: ohd8oi6c.nodeinfo.icu, port: 2203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 新加坡04 - netflix | IEPL | 倍率:2, server: ohg5xoot.nodeinfo.icu, port: 2002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 新加坡05 - netflix | IEPL | 倍率:2, server: axeed0uh.nodeinfo.icu, port: 2003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 日本01 - netflix | IEPL | 倍率:1.5, server: weiyoh2u.nodeinfo.icu, port: 2601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 日本02 - netflix | IEPL | 倍率:1.3, server: aih7aso6.nodeinfo.icu, port: 2602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 日本03 - netflix | IEPL | 倍率:1.3, server: tev5aes5.nodeinfo.icu, port: 2603, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 日本04 - netflix | IEPL | 倍率:1.3, server: puf6no0k.nodeinfo.icu, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 日本05 - netflix | IEPL | 倍率:1.3, server: rangahr6.nodeinfo.icu, port: 2605, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 日本06 - netflix | IEPL | 倍率:2, server: eif7aet4.nodeinfo.icu, port: 1097, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 美国01 - nf&hbo | IEPL | 倍率:1.3, server: vopeic0v.nodeinfo.icu, port: 1150, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 美国02 - nf&hbo | IEPL | 倍率:1.3, server: quienu0o.nodeinfo.icu, port: 1151, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 美国03 - nfo&hbo | IEPL | 倍率:1.3, server: iethie6i.nodeinfo.icu, port: 1152, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 美国04 - nf&hbo | IEPL | 倍率:1.3, server: sah3neey.nodeinfo.icu, port: 1153, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 美国05 - nfo&hb | IEPL | 倍率:1.3, server: uth8waiw.nodeinfo.icu, port: 1154, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 美国06 - all | IEPL | 倍率:1.3, server: imohy4to.nodeinfo.icu, port: 1155, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 美国07 - all | IEPL | 倍率:1.3, server: ohjei8ph.nodeinfo.icu, port: 1156, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 美国08 - all | IEPL | 倍率:1.3, server: soh5quik.nodeinfo.icu, port: 1157, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 美国09 - allmedia | IEPL | 倍率:1.3, server: unah2wel.nodeinfo.icu, port: 1158, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 美国10 - allmedia | IEPL | 倍率:1.3, server: fai3ahch.nodeinfo.icu, port: 1159, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 美国11 - all | IEPL | 倍率:2, server: iesoh0fa.nodeinfo.icu, port: 874, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 英国1 - nf&bbc | IEPL | 倍率:1.6, server: ahtai3ie.nodeinfo.icu, port: 1601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 英国2 - nf&bbc | IEPL | 倍率:1.3, server: shee9noh.nodeinfo.icu, port: 1602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 英国3 - all | IEPL | 倍率:1.3, server: jeik8oop.nodeinfo.icu, port: 1603, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 英国4 - nfo&bbc | IEPL | 倍率:1.3, server: thu0thei.nodeinfo.icu, port: 1604, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 英国5 - nfo&bbc | IEPL | 倍率:1.3, server: queipo3w.nodeinfo.icu, port: 1605, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 英国6 - nfo&bbc | IEPL | 倍率:1.3, server: giefaiz4.nodeinfo.icu, port: 1606, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 韩国01 - netflix | IEPL | 倍率:1.5, server: uo6zook8.nodeinfo.icu, port: 2301, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 韩国02 - netflix | IEPL | 倍率:1.5, server: ush7upoh.nodeinfo.icu, port: 2302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 韩国03 - netflix | IEPL | 倍率:1.5, server: eihie4vi.nodeinfo.icu, port: 2303, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 韩国04 - netflix | IEPL | 倍率:2, server: ohchaeb8.nodeinfo.icu, port: 2506, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 韩国05 - netflix | IEPL | 倍率:2, server: iemeith7.nodeinfo.icu, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 香港01 - nf | IEPL | 倍率:1.8, server: ua2ahgha.nodeinfo.icu, port: 2101, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 香港02 - nf | IEPL | 倍率:1.8, server: lae2keu8.nodeinfo.icu, port: 2102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 香港03 - nf | IEPL | 倍率:1.6, server: duqu2yai.nodeinfo.icu, port: 2103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 香港04 - nf | IEPL | 倍率:1.6, server: yeet4iel.nodeinfo.icu, port: 2104, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 香港05 - nf&tvb | IEPL | 倍率:1.5, server: lia7nosh.nodeinfo.icu, port: 2105, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 香港06 - nf&tvb | IEPL | 倍率:1.5, server: bai7oobe.nodeinfo.icu, port: 2106, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 香港07 - nf | IEPL | 倍率:1.5, server: hee4bieh.nodeinfo.icu, port: 2107, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 香港08 - nf | IEPL | 倍率:1.5, server: boo4aem7.nodeinfo.icu, port: 2108, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 香港09 - nf | IEPL | 倍率:1.6, server: aighai2r.nodeinfo.icu, port: 2109, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 香港10 - nf | IEPL | 倍率:1.6, server: eek8yahv.nodeinfo.icu, port: 2110, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 香港11 - nf | AIA | 倍率:3, server: el2ohqua.nodeinfo.icu, port: 2111, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
-  - {name: Lil 香港12 - nf | AIA | 倍率:3, server: oohas7ou.nodeinfo.icu, port: 2112, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 105936:sfSsFSA, obfs-param: 2089a105936.www.gov.hk, udp: true}
+  - {name: V4-中转3087|上海-日本M|解锁|x1.5, server: zhonggang-sy01.ddns-oink.xyz, port: 13087, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: V4-中转3089|上海-日本M|解锁|x1.5, server: zhonggang-sy01.ddns-oink.xyz, port: 13089, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: V3-中转3612|上海-日本M|解锁|x1.5|, server: zhonggang-sy01.ddns-oink.xyz, port: 13612, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: V4-中转2984|广东G-新加坡|x2.0, server: gd-g-suying.ddns-oink.xyz, port: 12984, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: V4-中转2983|广东G-新加坡|x2.0, server: gd-g-suying.ddns-oink.xyz, port: 12983, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: 韩国 01, server: kr01.cnzffw.com, port: 16015, type: trojan, password: 5268de89-9c07-49cd-a023-c0a5f829b238, sni: kr01.cnzffw.com, skip-cert-verify: true, udp: true}
+  - {name: V4-中转2985|广东G-新加坡|x2.0, server: gd-g-suying.ddns-oink.xyz, port: 12985, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: V3中转3545|广东W-香港HKT|解锁|x1.5, server: gd-w-suying.ddns-oink.xyz, port: 13545, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: V4-中转2980|广东G-新加坡|x2.0, server: gd-g-suying.ddns-oink.xyz, port: 12980, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: V4-中转2982|广东G-新加坡|x2.0, server: gd-g-suying.ddns-oink.xyz, port: 12982, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: V4-中转2981|广东G-新加坡|x2.0, server: gd-g-suying.ddns-oink.xyz, port: 12981, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: V3-中转891|上海联通-俄罗斯|x1.5, server: shlt001.ddns-oink.xyz, port: 10891, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: V3-中转890|上海联通-俄罗斯|x1.5, server: shlt001.ddns-oink.xyz, port: 10890, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: V3-中转889|上海联通-俄罗斯|x1.5, server: shlt001.ddns-oink.xyz, port: 10889, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: V3-中转3636|广东M-美国|解锁|x2.5, server: gd-m-ussuying.ddns-oink.xyz, port: 13636, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: V3-中转3634|广东M-美国|解锁|x2.5, server: gd-m-ussuying.ddns-oink.xyz, port: 13634, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: V3-中转3676|广东M-美国|解锁|x2.5, server: gd-m-ussuying.ddns-oink.xyz, port: 13676, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: V3-中转3638|广东M-美国|解锁|x2.5, server: gd-m-ussuying.ddns-oink.xyz, port: 13638, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: 45香港TG@moneyflychat, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: V3-中转3637|广东M-美国|解锁|x2.5, server: gd-m-ussuying.ddns-oink.xyz, port: 13637, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: 30香港TG@moneyflychat, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: zj.haojiahuo.club}, udp: true}
+  - {name: US-199.19.226.178-1415, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: us.lv.buyvm.tgproxy.wtf}, udp: true}
+  - {name: KR | Oracle 甲骨文, server: fq.0112391.xyz, port: 12226, type: trojan, password: 1qaz2wsx, sni: fq.0112391.xyz, skip-cert-verify: true, udp: true}
+  - {name: 30香港TG@moneyflychat 2, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: zj.haojiahuo.club}, udp: true}
+  - {name: 高速中转01, server: nhnlt.okex-tradebot.xyz, port: 30014, type: vmess, uuid: 7800ada8-8774-4641-b0b8-9d88e3c66371, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: nhnlt.okex-tradebot.xyz}, udp: true}
+  - {name: V4-中转2916|广东G-新加坡|x2.5, server: gd-g-suying.ddns-oink.xyz, port: 12916, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: US-199.19.226.178-0364, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: us.lv.buyvm.tgproxy.wtf}, udp: true}
+  - {name: V3-中转3633|广东M-美国|解锁|x2.5, server: gd-m-ussuying.ddns-oink.xyz, port: 13633, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
+  - {name: 45香港TG@moneyflychat 2, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: 新加坡-01, server: hk.tw.sgp.relay.cccloud.club, port: 11000, type: vmess, uuid: 011fa5b4-e08b-3108-a1df-c4f8c09f7346, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sgp-01.cccloud.club}, udp: true}
+  - {name: FR-141.94.115.68-1206, server: ovh.fr.tgproxy.wtf, port: 8888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: ovh.fr.tgproxy.wtf}, udp: true}
+  - {name: CN-101.67.8.140-0041, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: CN-101.67.8.140-0038, server: s2.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: CN-101.67.8.140-0039, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: US-199.19.226.178-1313, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: us.lv.buyvm.tgproxy.wtf}, udp: true}
+  - {name: US-2.56.173.239-1413, server: inap.us.tgproxy.wtf, port: 8888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: inap.us.tgproxy.wtf}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Large 台灣01 - all | IEPL | 倍率:1.8
-      - Large 台灣02 - all | IEPL | 倍率:1.8
-      - Large 台灣03 - all | MIEPL | 倍率:1.6
-      - Large 台灣04 - all | IEPL | 倍率:1.5
-      - Large 台灣05 - all | IEPL | 倍率:1.5
-      - Large 新加坡01 - all | IEPL | 倍率:1.5
-      - Large 新加坡02 - all | IEPL | 倍率:1.5
-      - Large 新加坡03 - all | MIEPL | 倍率:1.6
-      - Large 新加坡04 - all | MIEPL | 倍率:1.6
-      - Large 新加坡05 - all | IEPL | 倍率:1.5
-      - Large 新加坡06 - all | IEPL | 倍率:1.5
-      - Large 新加坡07 - all | IEPL | 倍率:1.5
-      - Large 新加坡08 - all | IEPL | 倍率:1.5
-      - Large 新加坡09 - all | IEPL | 倍率:1.5
-      - Large 新加坡10 - all | IEPL | 倍率:1.5
-      - Large 新加坡11 - all | IEPL | 倍率:1.5
-      - Large 新加坡12 - all | IEPL | 倍率:1.5
-      - Large 日本01 - all | IEPL | 倍率:1.5
-      - Large 日本02 - allmedia | IEPL | 倍率:1.5
-      - Large 日本03 - allmedia | IEPL | 倍率:1.5
-      - Large 日本04 - allmedia | IEPL | 倍率:1.3
-      - Large 日本05 - allmedia | IEPL | 倍率:1.3
-      - Large 美国01 - allmedia | IEPL | 倍率:1.8
-      - Large 美国02 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国03 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国04 - allmedia | IEPL | 倍率:1.5
-      - Large 美国05 - allmedia | IEPL | 倍率:1.5
-      - Large 韩国01 - nf | MIEPL | 倍率:1.6
-      - Large 韩国02 - nf | MIEPL | 倍率:1.6
-      - Large 香港01 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港02 - nf | MIEPL | 倍率:1.8
-      - Large 香港03 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港04 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港05 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港06 - nf | MIEPL | 倍率:1.8
-      - Large 香港07 - nf | MIEPL | 倍率:1.8
-      - Large 香港08 - all | AIA | 倍率:1.6
-      - Large 香港09 - nf | AIA | 倍率:1.6
-      - Large 香港10 - nf | AIA | 倍率:1.6
-      - Large 香港11 - nf | AIA | 倍率:1.6
-      - Large 香港12 - nf | AIA | 倍率:1.6
-      - Large 香港13 - all | AIA | 倍率:1.6
-      - Large 香港14 - nf | MIEPL | 倍率:1.6
-      - Large 香港15 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港16 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港17 - all | AIA | 倍率:1.8
-      - Large 香港18 - nf | AIA | 倍率:1.8
-      - Large 香港19 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港20 - nf | AIA | 倍率:1.6
-      - Large 香港21 - nfo | MIEPL | 倍率:1.6
-      - Large 香港22 - nf | AIA | 倍率:1.8
-      - Large 香港23 - nfo | IEPL | 倍率:1.6
-      - Large 香港24 - nfo | IEPL | 倍率:1.6
-      - Lil 俄罗斯01 - SHOPP | IEPL | 倍率:1.3
-      - Lil 加拿大1 | IEPL | 倍率:1.3
-      - Lil 台湾01 - allmedia | IEPL | 倍率:1.5
-      - Lil 台湾02 - allmedia | IEPL| 倍率:1.3
-      - Lil 台湾03 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾04 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾05 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾06 - allmedia | IEPL | 倍率:1.3
-      - Lil 新加坡01 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡02 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡03 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡04 - netflix | IEPL | 倍率:2
-      - Lil 新加坡05 - netflix | IEPL | 倍率:2
-      - Lil 日本01 - netflix | IEPL | 倍率:1.5
-      - Lil 日本02 - netflix | IEPL | 倍率:1.3
-      - Lil 日本03 - netflix | IEPL | 倍率:1.3
-      - Lil 日本04 - netflix | IEPL | 倍率:1.3
-      - Lil 日本05 - netflix | IEPL | 倍率:1.3
-      - Lil 日本06 - netflix | IEPL | 倍率:2
-      - Lil 美国01 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国02 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国03 - nfo&hbo | IEPL | 倍率:1.3
-      - Lil 美国04 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国05 - nfo&hb | IEPL | 倍率:1.3
-      - Lil 美国06 - all | IEPL | 倍率:1.3
-      - Lil 美国07 - all | IEPL | 倍率:1.3
-      - Lil 美国08 - all | IEPL | 倍率:1.3
-      - Lil 美国09 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国10 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国11 - all | IEPL | 倍率:2
-      - Lil 英国1 - nf&bbc | IEPL | 倍率:1.6
-      - Lil 英国2 - nf&bbc | IEPL | 倍率:1.3
-      - Lil 英国3 - all | IEPL | 倍率:1.3
-      - Lil 英国4 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国5 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国6 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 韩国01 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国02 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国03 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国04 - netflix | IEPL | 倍率:2
-      - Lil 韩国05 - netflix | IEPL | 倍率:2
-      - Lil 香港01 - nf | IEPL | 倍率:1.8
-      - Lil 香港02 - nf | IEPL | 倍率:1.8
-      - Lil 香港03 - nf | IEPL | 倍率:1.6
-      - Lil 香港04 - nf | IEPL | 倍率:1.6
-      - Lil 香港05 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港06 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - Lil 香港08 - nf | IEPL | 倍率:1.5
-      - Lil 香港09 - nf | IEPL | 倍率:1.6
-      - Lil 香港10 - nf | IEPL | 倍率:1.6
-      - Lil 香港11 - nf | AIA | 倍率:3
-      - Lil 香港12 - nf | AIA | 倍率:3
+      - V4-中转3087|上海-日本M|解锁|x1.5
+      - V4-中转3089|上海-日本M|解锁|x1.5
+      - V3-中转3612|上海-日本M|解锁|x1.5|
+      - V4-中转2984|广东G-新加坡|x2.0
+      - V4-中转2983|广东G-新加坡|x2.0
+      - 韩国 01
+      - V4-中转2985|广东G-新加坡|x2.0
+      - V3中转3545|广东W-香港HKT|解锁|x1.5
+      - V4-中转2980|广东G-新加坡|x2.0
+      - V4-中转2982|广东G-新加坡|x2.0
+      - V4-中转2981|广东G-新加坡|x2.0
+      - V3-中转891|上海联通-俄罗斯|x1.5
+      - V3-中转890|上海联通-俄罗斯|x1.5
+      - V3-中转889|上海联通-俄罗斯|x1.5
+      - V3-中转3636|广东M-美国|解锁|x2.5
+      - V3-中转3634|广东M-美国|解锁|x2.5
+      - V3-中转3676|广东M-美国|解锁|x2.5
+      - V3-中转3638|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat
+      - V3-中转3637|广东M-美国|解锁|x2.5
+      - 30香港TG@moneyflychat
+      - US-199.19.226.178-1415
+      - KR | Oracle 甲骨文
+      - 30香港TG@moneyflychat 2
+      - 高速中转01
+      - V4-中转2916|广东G-新加坡|x2.5
+      - US-199.19.226.178-0364
+      - V3-中转3633|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat 2
+      - 新加坡-01
+      - FR-141.94.115.68-1206
+      - CN-101.67.8.140-0041
+      - CN-101.67.8.140-0038
+      - CN-101.67.8.140-0039
+      - US-199.19.226.178-1313
+      - US-2.56.173.239-1413
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Large 台灣01 - all | IEPL | 倍率:1.8
-      - Large 台灣02 - all | IEPL | 倍率:1.8
-      - Large 台灣03 - all | MIEPL | 倍率:1.6
-      - Large 台灣04 - all | IEPL | 倍率:1.5
-      - Large 台灣05 - all | IEPL | 倍率:1.5
-      - Large 新加坡01 - all | IEPL | 倍率:1.5
-      - Large 新加坡02 - all | IEPL | 倍率:1.5
-      - Large 新加坡03 - all | MIEPL | 倍率:1.6
-      - Large 新加坡04 - all | MIEPL | 倍率:1.6
-      - Large 新加坡05 - all | IEPL | 倍率:1.5
-      - Large 新加坡06 - all | IEPL | 倍率:1.5
-      - Large 新加坡07 - all | IEPL | 倍率:1.5
-      - Large 新加坡08 - all | IEPL | 倍率:1.5
-      - Large 新加坡09 - all | IEPL | 倍率:1.5
-      - Large 新加坡10 - all | IEPL | 倍率:1.5
-      - Large 新加坡11 - all | IEPL | 倍率:1.5
-      - Large 新加坡12 - all | IEPL | 倍率:1.5
-      - Large 日本01 - all | IEPL | 倍率:1.5
-      - Large 日本02 - allmedia | IEPL | 倍率:1.5
-      - Large 日本03 - allmedia | IEPL | 倍率:1.5
-      - Large 日本04 - allmedia | IEPL | 倍率:1.3
-      - Large 日本05 - allmedia | IEPL | 倍率:1.3
-      - Large 美国01 - allmedia | IEPL | 倍率:1.8
-      - Large 美国02 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国03 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国04 - allmedia | IEPL | 倍率:1.5
-      - Large 美国05 - allmedia | IEPL | 倍率:1.5
-      - Large 韩国01 - nf | MIEPL | 倍率:1.6
-      - Large 韩国02 - nf | MIEPL | 倍率:1.6
-      - Large 香港01 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港02 - nf | MIEPL | 倍率:1.8
-      - Large 香港03 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港04 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港05 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港06 - nf | MIEPL | 倍率:1.8
-      - Large 香港07 - nf | MIEPL | 倍率:1.8
-      - Large 香港08 - all | AIA | 倍率:1.6
-      - Large 香港09 - nf | AIA | 倍率:1.6
-      - Large 香港10 - nf | AIA | 倍率:1.6
-      - Large 香港11 - nf | AIA | 倍率:1.6
-      - Large 香港12 - nf | AIA | 倍率:1.6
-      - Large 香港13 - all | AIA | 倍率:1.6
-      - Large 香港14 - nf | MIEPL | 倍率:1.6
-      - Large 香港15 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港16 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港17 - all | AIA | 倍率:1.8
-      - Large 香港18 - nf | AIA | 倍率:1.8
-      - Large 香港19 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港20 - nf | AIA | 倍率:1.6
-      - Large 香港21 - nfo | MIEPL | 倍率:1.6
-      - Large 香港22 - nf | AIA | 倍率:1.8
-      - Large 香港23 - nfo | IEPL | 倍率:1.6
-      - Large 香港24 - nfo | IEPL | 倍率:1.6
-      - Lil 俄罗斯01 - SHOPP | IEPL | 倍率:1.3
-      - Lil 加拿大1 | IEPL | 倍率:1.3
-      - Lil 台湾01 - allmedia | IEPL | 倍率:1.5
-      - Lil 台湾02 - allmedia | IEPL| 倍率:1.3
-      - Lil 台湾03 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾04 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾05 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾06 - allmedia | IEPL | 倍率:1.3
-      - Lil 新加坡01 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡02 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡03 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡04 - netflix | IEPL | 倍率:2
-      - Lil 新加坡05 - netflix | IEPL | 倍率:2
-      - Lil 日本01 - netflix | IEPL | 倍率:1.5
-      - Lil 日本02 - netflix | IEPL | 倍率:1.3
-      - Lil 日本03 - netflix | IEPL | 倍率:1.3
-      - Lil 日本04 - netflix | IEPL | 倍率:1.3
-      - Lil 日本05 - netflix | IEPL | 倍率:1.3
-      - Lil 日本06 - netflix | IEPL | 倍率:2
-      - Lil 美国01 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国02 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国03 - nfo&hbo | IEPL | 倍率:1.3
-      - Lil 美国04 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国05 - nfo&hb | IEPL | 倍率:1.3
-      - Lil 美国06 - all | IEPL | 倍率:1.3
-      - Lil 美国07 - all | IEPL | 倍率:1.3
-      - Lil 美国08 - all | IEPL | 倍率:1.3
-      - Lil 美国09 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国10 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国11 - all | IEPL | 倍率:2
-      - Lil 英国1 - nf&bbc | IEPL | 倍率:1.6
-      - Lil 英国2 - nf&bbc | IEPL | 倍率:1.3
-      - Lil 英国3 - all | IEPL | 倍率:1.3
-      - Lil 英国4 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国5 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国6 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 韩国01 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国02 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国03 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国04 - netflix | IEPL | 倍率:2
-      - Lil 韩国05 - netflix | IEPL | 倍率:2
-      - Lil 香港01 - nf | IEPL | 倍率:1.8
-      - Lil 香港02 - nf | IEPL | 倍率:1.8
-      - Lil 香港03 - nf | IEPL | 倍率:1.6
-      - Lil 香港04 - nf | IEPL | 倍率:1.6
-      - Lil 香港05 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港06 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - Lil 香港08 - nf | IEPL | 倍率:1.5
-      - Lil 香港09 - nf | IEPL | 倍率:1.6
-      - Lil 香港10 - nf | IEPL | 倍率:1.6
-      - Lil 香港11 - nf | AIA | 倍率:3
-      - Lil 香港12 - nf | AIA | 倍率:3
+      - V4-中转3087|上海-日本M|解锁|x1.5
+      - V4-中转3089|上海-日本M|解锁|x1.5
+      - V3-中转3612|上海-日本M|解锁|x1.5|
+      - V4-中转2984|广东G-新加坡|x2.0
+      - V4-中转2983|广东G-新加坡|x2.0
+      - 韩国 01
+      - V4-中转2985|广东G-新加坡|x2.0
+      - V3中转3545|广东W-香港HKT|解锁|x1.5
+      - V4-中转2980|广东G-新加坡|x2.0
+      - V4-中转2982|广东G-新加坡|x2.0
+      - V4-中转2981|广东G-新加坡|x2.0
+      - V3-中转891|上海联通-俄罗斯|x1.5
+      - V3-中转890|上海联通-俄罗斯|x1.5
+      - V3-中转889|上海联通-俄罗斯|x1.5
+      - V3-中转3636|广东M-美国|解锁|x2.5
+      - V3-中转3634|广东M-美国|解锁|x2.5
+      - V3-中转3676|广东M-美国|解锁|x2.5
+      - V3-中转3638|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat
+      - V3-中转3637|广东M-美国|解锁|x2.5
+      - 30香港TG@moneyflychat
+      - US-199.19.226.178-1415
+      - KR | Oracle 甲骨文
+      - 30香港TG@moneyflychat 2
+      - 高速中转01
+      - V4-中转2916|广东G-新加坡|x2.5
+      - US-199.19.226.178-0364
+      - V3-中转3633|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat 2
+      - 新加坡-01
+      - FR-141.94.115.68-1206
+      - CN-101.67.8.140-0041
+      - CN-101.67.8.140-0038
+      - CN-101.67.8.140-0039
+      - US-199.19.226.178-1313
+      - US-2.56.173.239-1413
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Large 台灣01 - all | IEPL | 倍率:1.8
-      - Large 台灣02 - all | IEPL | 倍率:1.8
-      - Large 台灣03 - all | MIEPL | 倍率:1.6
-      - Large 台灣04 - all | IEPL | 倍率:1.5
-      - Large 台灣05 - all | IEPL | 倍率:1.5
-      - Large 新加坡01 - all | IEPL | 倍率:1.5
-      - Large 新加坡02 - all | IEPL | 倍率:1.5
-      - Large 新加坡03 - all | MIEPL | 倍率:1.6
-      - Large 新加坡04 - all | MIEPL | 倍率:1.6
-      - Large 新加坡05 - all | IEPL | 倍率:1.5
-      - Large 新加坡06 - all | IEPL | 倍率:1.5
-      - Large 新加坡07 - all | IEPL | 倍率:1.5
-      - Large 新加坡08 - all | IEPL | 倍率:1.5
-      - Large 新加坡09 - all | IEPL | 倍率:1.5
-      - Large 新加坡10 - all | IEPL | 倍率:1.5
-      - Large 新加坡11 - all | IEPL | 倍率:1.5
-      - Large 新加坡12 - all | IEPL | 倍率:1.5
-      - Large 日本01 - all | IEPL | 倍率:1.5
-      - Large 日本02 - allmedia | IEPL | 倍率:1.5
-      - Large 日本03 - allmedia | IEPL | 倍率:1.5
-      - Large 日本04 - allmedia | IEPL | 倍率:1.3
-      - Large 日本05 - allmedia | IEPL | 倍率:1.3
-      - Large 美国01 - allmedia | IEPL | 倍率:1.8
-      - Large 美国02 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国03 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国04 - allmedia | IEPL | 倍率:1.5
-      - Large 美国05 - allmedia | IEPL | 倍率:1.5
-      - Large 韩国01 - nf | MIEPL | 倍率:1.6
-      - Large 韩国02 - nf | MIEPL | 倍率:1.6
-      - Large 香港01 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港02 - nf | MIEPL | 倍率:1.8
-      - Large 香港03 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港04 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港05 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港06 - nf | MIEPL | 倍率:1.8
-      - Large 香港07 - nf | MIEPL | 倍率:1.8
-      - Large 香港08 - all | AIA | 倍率:1.6
-      - Large 香港09 - nf | AIA | 倍率:1.6
-      - Large 香港10 - nf | AIA | 倍率:1.6
-      - Large 香港11 - nf | AIA | 倍率:1.6
-      - Large 香港12 - nf | AIA | 倍率:1.6
-      - Large 香港13 - all | AIA | 倍率:1.6
-      - Large 香港14 - nf | MIEPL | 倍率:1.6
-      - Large 香港15 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港16 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港17 - all | AIA | 倍率:1.8
-      - Large 香港18 - nf | AIA | 倍率:1.8
-      - Large 香港19 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港20 - nf | AIA | 倍率:1.6
-      - Large 香港21 - nfo | MIEPL | 倍率:1.6
-      - Large 香港22 - nf | AIA | 倍率:1.8
-      - Large 香港23 - nfo | IEPL | 倍率:1.6
-      - Large 香港24 - nfo | IEPL | 倍率:1.6
-      - Lil 俄罗斯01 - SHOPP | IEPL | 倍率:1.3
-      - Lil 加拿大1 | IEPL | 倍率:1.3
-      - Lil 台湾01 - allmedia | IEPL | 倍率:1.5
-      - Lil 台湾02 - allmedia | IEPL| 倍率:1.3
-      - Lil 台湾03 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾04 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾05 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾06 - allmedia | IEPL | 倍率:1.3
-      - Lil 新加坡01 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡02 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡03 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡04 - netflix | IEPL | 倍率:2
-      - Lil 新加坡05 - netflix | IEPL | 倍率:2
-      - Lil 日本01 - netflix | IEPL | 倍率:1.5
-      - Lil 日本02 - netflix | IEPL | 倍率:1.3
-      - Lil 日本03 - netflix | IEPL | 倍率:1.3
-      - Lil 日本04 - netflix | IEPL | 倍率:1.3
-      - Lil 日本05 - netflix | IEPL | 倍率:1.3
-      - Lil 日本06 - netflix | IEPL | 倍率:2
-      - Lil 美国01 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国02 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国03 - nfo&hbo | IEPL | 倍率:1.3
-      - Lil 美国04 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国05 - nfo&hb | IEPL | 倍率:1.3
-      - Lil 美国06 - all | IEPL | 倍率:1.3
-      - Lil 美国07 - all | IEPL | 倍率:1.3
-      - Lil 美国08 - all | IEPL | 倍率:1.3
-      - Lil 美国09 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国10 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国11 - all | IEPL | 倍率:2
-      - Lil 英国1 - nf&bbc | IEPL | 倍率:1.6
-      - Lil 英国2 - nf&bbc | IEPL | 倍率:1.3
-      - Lil 英国3 - all | IEPL | 倍率:1.3
-      - Lil 英国4 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国5 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国6 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 韩国01 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国02 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国03 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国04 - netflix | IEPL | 倍率:2
-      - Lil 韩国05 - netflix | IEPL | 倍率:2
-      - Lil 香港01 - nf | IEPL | 倍率:1.8
-      - Lil 香港02 - nf | IEPL | 倍率:1.8
-      - Lil 香港03 - nf | IEPL | 倍率:1.6
-      - Lil 香港04 - nf | IEPL | 倍率:1.6
-      - Lil 香港05 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港06 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - Lil 香港08 - nf | IEPL | 倍率:1.5
-      - Lil 香港09 - nf | IEPL | 倍率:1.6
-      - Lil 香港10 - nf | IEPL | 倍率:1.6
-      - Lil 香港11 - nf | AIA | 倍率:3
-      - Lil 香港12 - nf | AIA | 倍率:3
+      - V4-中转3087|上海-日本M|解锁|x1.5
+      - V4-中转3089|上海-日本M|解锁|x1.5
+      - V3-中转3612|上海-日本M|解锁|x1.5|
+      - V4-中转2984|广东G-新加坡|x2.0
+      - V4-中转2983|广东G-新加坡|x2.0
+      - 韩国 01
+      - V4-中转2985|广东G-新加坡|x2.0
+      - V3中转3545|广东W-香港HKT|解锁|x1.5
+      - V4-中转2980|广东G-新加坡|x2.0
+      - V4-中转2982|广东G-新加坡|x2.0
+      - V4-中转2981|广东G-新加坡|x2.0
+      - V3-中转891|上海联通-俄罗斯|x1.5
+      - V3-中转890|上海联通-俄罗斯|x1.5
+      - V3-中转889|上海联通-俄罗斯|x1.5
+      - V3-中转3636|广东M-美国|解锁|x2.5
+      - V3-中转3634|广东M-美国|解锁|x2.5
+      - V3-中转3676|广东M-美国|解锁|x2.5
+      - V3-中转3638|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat
+      - V3-中转3637|广东M-美国|解锁|x2.5
+      - 30香港TG@moneyflychat
+      - US-199.19.226.178-1415
+      - KR | Oracle 甲骨文
+      - 30香港TG@moneyflychat 2
+      - 高速中转01
+      - V4-中转2916|广东G-新加坡|x2.5
+      - US-199.19.226.178-0364
+      - V3-中转3633|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat 2
+      - 新加坡-01
+      - FR-141.94.115.68-1206
+      - CN-101.67.8.140-0041
+      - CN-101.67.8.140-0038
+      - CN-101.67.8.140-0039
+      - US-199.19.226.178-1313
+      - US-2.56.173.239-1413
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -464,498 +184,176 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Large 台灣01 - all | IEPL | 倍率:1.8
-      - Large 台灣02 - all | IEPL | 倍率:1.8
-      - Large 台灣03 - all | MIEPL | 倍率:1.6
-      - Large 台灣04 - all | IEPL | 倍率:1.5
-      - Large 台灣05 - all | IEPL | 倍率:1.5
-      - Large 新加坡01 - all | IEPL | 倍率:1.5
-      - Large 新加坡02 - all | IEPL | 倍率:1.5
-      - Large 新加坡03 - all | MIEPL | 倍率:1.6
-      - Large 新加坡04 - all | MIEPL | 倍率:1.6
-      - Large 新加坡05 - all | IEPL | 倍率:1.5
-      - Large 新加坡06 - all | IEPL | 倍率:1.5
-      - Large 新加坡07 - all | IEPL | 倍率:1.5
-      - Large 新加坡08 - all | IEPL | 倍率:1.5
-      - Large 新加坡09 - all | IEPL | 倍率:1.5
-      - Large 新加坡10 - all | IEPL | 倍率:1.5
-      - Large 新加坡11 - all | IEPL | 倍率:1.5
-      - Large 新加坡12 - all | IEPL | 倍率:1.5
-      - Large 日本01 - all | IEPL | 倍率:1.5
-      - Large 日本02 - allmedia | IEPL | 倍率:1.5
-      - Large 日本03 - allmedia | IEPL | 倍率:1.5
-      - Large 日本04 - allmedia | IEPL | 倍率:1.3
-      - Large 日本05 - allmedia | IEPL | 倍率:1.3
-      - Large 美国01 - allmedia | IEPL | 倍率:1.8
-      - Large 美国02 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国03 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国04 - allmedia | IEPL | 倍率:1.5
-      - Large 美国05 - allmedia | IEPL | 倍率:1.5
-      - Large 韩国01 - nf | MIEPL | 倍率:1.6
-      - Large 韩国02 - nf | MIEPL | 倍率:1.6
-      - Large 香港01 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港02 - nf | MIEPL | 倍率:1.8
-      - Large 香港03 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港04 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港05 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港06 - nf | MIEPL | 倍率:1.8
-      - Large 香港07 - nf | MIEPL | 倍率:1.8
-      - Large 香港08 - all | AIA | 倍率:1.6
-      - Large 香港09 - nf | AIA | 倍率:1.6
-      - Large 香港10 - nf | AIA | 倍率:1.6
-      - Large 香港11 - nf | AIA | 倍率:1.6
-      - Large 香港12 - nf | AIA | 倍率:1.6
-      - Large 香港13 - all | AIA | 倍率:1.6
-      - Large 香港14 - nf | MIEPL | 倍率:1.6
-      - Large 香港15 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港16 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港17 - all | AIA | 倍率:1.8
-      - Large 香港18 - nf | AIA | 倍率:1.8
-      - Large 香港19 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港20 - nf | AIA | 倍率:1.6
-      - Large 香港21 - nfo | MIEPL | 倍率:1.6
-      - Large 香港22 - nf | AIA | 倍率:1.8
-      - Large 香港23 - nfo | IEPL | 倍率:1.6
-      - Large 香港24 - nfo | IEPL | 倍率:1.6
-      - Lil 俄罗斯01 - SHOPP | IEPL | 倍率:1.3
-      - Lil 加拿大1 | IEPL | 倍率:1.3
-      - Lil 台湾01 - allmedia | IEPL | 倍率:1.5
-      - Lil 台湾02 - allmedia | IEPL| 倍率:1.3
-      - Lil 台湾03 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾04 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾05 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾06 - allmedia | IEPL | 倍率:1.3
-      - Lil 新加坡01 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡02 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡03 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡04 - netflix | IEPL | 倍率:2
-      - Lil 新加坡05 - netflix | IEPL | 倍率:2
-      - Lil 日本01 - netflix | IEPL | 倍率:1.5
-      - Lil 日本02 - netflix | IEPL | 倍率:1.3
-      - Lil 日本03 - netflix | IEPL | 倍率:1.3
-      - Lil 日本04 - netflix | IEPL | 倍率:1.3
-      - Lil 日本05 - netflix | IEPL | 倍率:1.3
-      - Lil 日本06 - netflix | IEPL | 倍率:2
-      - Lil 美国01 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国02 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国03 - nfo&hbo | IEPL | 倍率:1.3
-      - Lil 美国04 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国05 - nfo&hb | IEPL | 倍率:1.3
-      - Lil 美国06 - all | IEPL | 倍率:1.3
-      - Lil 美国07 - all | IEPL | 倍率:1.3
-      - Lil 美国08 - all | IEPL | 倍率:1.3
-      - Lil 美国09 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国10 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国11 - all | IEPL | 倍率:2
-      - Lil 英国1 - nf&bbc | IEPL | 倍率:1.6
-      - Lil 英国2 - nf&bbc | IEPL | 倍率:1.3
-      - Lil 英国3 - all | IEPL | 倍率:1.3
-      - Lil 英国4 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国5 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国6 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 韩国01 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国02 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国03 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国04 - netflix | IEPL | 倍率:2
-      - Lil 韩国05 - netflix | IEPL | 倍率:2
-      - Lil 香港01 - nf | IEPL | 倍率:1.8
-      - Lil 香港02 - nf | IEPL | 倍率:1.8
-      - Lil 香港03 - nf | IEPL | 倍率:1.6
-      - Lil 香港04 - nf | IEPL | 倍率:1.6
-      - Lil 香港05 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港06 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - Lil 香港08 - nf | IEPL | 倍率:1.5
-      - Lil 香港09 - nf | IEPL | 倍率:1.6
-      - Lil 香港10 - nf | IEPL | 倍率:1.6
-      - Lil 香港11 - nf | AIA | 倍率:3
-      - Lil 香港12 - nf | AIA | 倍率:3
+      - V4-中转3087|上海-日本M|解锁|x1.5
+      - V4-中转3089|上海-日本M|解锁|x1.5
+      - V3-中转3612|上海-日本M|解锁|x1.5|
+      - V4-中转2984|广东G-新加坡|x2.0
+      - V4-中转2983|广东G-新加坡|x2.0
+      - 韩国 01
+      - V4-中转2985|广东G-新加坡|x2.0
+      - V3中转3545|广东W-香港HKT|解锁|x1.5
+      - V4-中转2980|广东G-新加坡|x2.0
+      - V4-中转2982|广东G-新加坡|x2.0
+      - V4-中转2981|广东G-新加坡|x2.0
+      - V3-中转891|上海联通-俄罗斯|x1.5
+      - V3-中转890|上海联通-俄罗斯|x1.5
+      - V3-中转889|上海联通-俄罗斯|x1.5
+      - V3-中转3636|广东M-美国|解锁|x2.5
+      - V3-中转3634|广东M-美国|解锁|x2.5
+      - V3-中转3676|广东M-美国|解锁|x2.5
+      - V3-中转3638|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat
+      - V3-中转3637|广东M-美国|解锁|x2.5
+      - 30香港TG@moneyflychat
+      - US-199.19.226.178-1415
+      - KR | Oracle 甲骨文
+      - 30香港TG@moneyflychat 2
+      - 高速中转01
+      - V4-中转2916|广东G-新加坡|x2.5
+      - US-199.19.226.178-0364
+      - V3-中转3633|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat 2
+      - 新加坡-01
+      - FR-141.94.115.68-1206
+      - CN-101.67.8.140-0041
+      - CN-101.67.8.140-0038
+      - CN-101.67.8.140-0039
+      - US-199.19.226.178-1313
+      - US-2.56.173.239-1413
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - Large 台灣01 - all | IEPL | 倍率:1.8
-      - Large 台灣02 - all | IEPL | 倍率:1.8
-      - Large 台灣03 - all | MIEPL | 倍率:1.6
-      - Large 台灣04 - all | IEPL | 倍率:1.5
-      - Large 台灣05 - all | IEPL | 倍率:1.5
-      - Large 香港01 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港02 - nf | MIEPL | 倍率:1.8
-      - Large 香港03 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港04 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港05 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港06 - nf | MIEPL | 倍率:1.8
-      - Large 香港07 - nf | MIEPL | 倍率:1.8
-      - Large 香港08 - all | AIA | 倍率:1.6
-      - Large 香港09 - nf | AIA | 倍率:1.6
-      - Large 香港10 - nf | AIA | 倍率:1.6
-      - Large 香港11 - nf | AIA | 倍率:1.6
-      - Large 香港12 - nf | AIA | 倍率:1.6
-      - Large 香港13 - all | AIA | 倍率:1.6
-      - Large 香港14 - nf | MIEPL | 倍率:1.6
-      - Large 香港15 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港16 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港17 - all | AIA | 倍率:1.8
-      - Large 香港18 - nf | AIA | 倍率:1.8
-      - Large 香港19 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港20 - nf | AIA | 倍率:1.6
-      - Large 香港21 - nfo | MIEPL | 倍率:1.6
-      - Large 香港22 - nf | AIA | 倍率:1.8
-      - Large 香港23 - nfo | IEPL | 倍率:1.6
-      - Large 香港24 - nfo | IEPL | 倍率:1.6
-      - Lil 台湾01 - allmedia | IEPL | 倍率:1.5
-      - Lil 台湾02 - allmedia | IEPL| 倍率:1.3
-      - Lil 台湾03 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾04 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾05 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾06 - allmedia | IEPL | 倍率:1.3
-      - Lil 香港01 - nf | IEPL | 倍率:1.8
-      - Lil 香港02 - nf | IEPL | 倍率:1.8
-      - Lil 香港03 - nf | IEPL | 倍率:1.6
-      - Lil 香港04 - nf | IEPL | 倍率:1.6
-      - Lil 香港05 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港06 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - Lil 香港08 - nf | IEPL | 倍率:1.5
-      - Lil 香港09 - nf | IEPL | 倍率:1.6
-      - Lil 香港10 - nf | IEPL | 倍率:1.6
-      - Lil 香港11 - nf | AIA | 倍率:3
-      - Lil 香港12 - nf | AIA | 倍率:3
+      - V3中转3545|广东W-香港HKT|解锁|x1.5
+      - 45香港TG@moneyflychat
+      - 30香港TG@moneyflychat
+      - 30香港TG@moneyflychat 2
+      - 45香港TG@moneyflychat 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Large 台灣01 - all | IEPL | 倍率:1.8
-      - Large 台灣02 - all | IEPL | 倍率:1.8
-      - Large 台灣03 - all | MIEPL | 倍率:1.6
-      - Large 台灣04 - all | IEPL | 倍率:1.5
-      - Large 台灣05 - all | IEPL | 倍率:1.5
-      - Large 新加坡01 - all | IEPL | 倍率:1.5
-      - Large 新加坡02 - all | IEPL | 倍率:1.5
-      - Large 新加坡03 - all | MIEPL | 倍率:1.6
-      - Large 新加坡04 - all | MIEPL | 倍率:1.6
-      - Large 新加坡05 - all | IEPL | 倍率:1.5
-      - Large 新加坡06 - all | IEPL | 倍率:1.5
-      - Large 新加坡07 - all | IEPL | 倍率:1.5
-      - Large 新加坡08 - all | IEPL | 倍率:1.5
-      - Large 新加坡09 - all | IEPL | 倍率:1.5
-      - Large 新加坡10 - all | IEPL | 倍率:1.5
-      - Large 新加坡11 - all | IEPL | 倍率:1.5
-      - Large 新加坡12 - all | IEPL | 倍率:1.5
-      - Large 日本01 - all | IEPL | 倍率:1.5
-      - Large 日本02 - allmedia | IEPL | 倍率:1.5
-      - Large 日本03 - allmedia | IEPL | 倍率:1.5
-      - Large 日本04 - allmedia | IEPL | 倍率:1.3
-      - Large 日本05 - allmedia | IEPL | 倍率:1.3
-      - Large 美国01 - allmedia | IEPL | 倍率:1.8
-      - Large 美国02 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国03 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国04 - allmedia | IEPL | 倍率:1.5
-      - Large 美国05 - allmedia | IEPL | 倍率:1.5
-      - Large 韩国01 - nf | MIEPL | 倍率:1.6
-      - Large 韩国02 - nf | MIEPL | 倍率:1.6
-      - Large 香港01 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港02 - nf | MIEPL | 倍率:1.8
-      - Large 香港03 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港04 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港05 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港06 - nf | MIEPL | 倍率:1.8
-      - Large 香港07 - nf | MIEPL | 倍率:1.8
-      - Large 香港08 - all | AIA | 倍率:1.6
-      - Large 香港09 - nf | AIA | 倍率:1.6
-      - Large 香港10 - nf | AIA | 倍率:1.6
-      - Large 香港11 - nf | AIA | 倍率:1.6
-      - Large 香港12 - nf | AIA | 倍率:1.6
-      - Large 香港13 - all | AIA | 倍率:1.6
-      - Large 香港14 - nf | MIEPL | 倍率:1.6
-      - Large 香港15 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港16 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港17 - all | AIA | 倍率:1.8
-      - Large 香港18 - nf | AIA | 倍率:1.8
-      - Large 香港19 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港20 - nf | AIA | 倍率:1.6
-      - Large 香港21 - nfo | MIEPL | 倍率:1.6
-      - Large 香港22 - nf | AIA | 倍率:1.8
-      - Large 香港23 - nfo | IEPL | 倍率:1.6
-      - Large 香港24 - nfo | IEPL | 倍率:1.6
-      - Lil 俄罗斯01 - SHOPP | IEPL | 倍率:1.3
-      - Lil 加拿大1 | IEPL | 倍率:1.3
-      - Lil 台湾01 - allmedia | IEPL | 倍率:1.5
-      - Lil 台湾02 - allmedia | IEPL| 倍率:1.3
-      - Lil 台湾03 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾04 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾05 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾06 - allmedia | IEPL | 倍率:1.3
-      - Lil 新加坡01 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡02 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡03 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡04 - netflix | IEPL | 倍率:2
-      - Lil 新加坡05 - netflix | IEPL | 倍率:2
-      - Lil 日本01 - netflix | IEPL | 倍率:1.5
-      - Lil 日本02 - netflix | IEPL | 倍率:1.3
-      - Lil 日本03 - netflix | IEPL | 倍率:1.3
-      - Lil 日本04 - netflix | IEPL | 倍率:1.3
-      - Lil 日本05 - netflix | IEPL | 倍率:1.3
-      - Lil 日本06 - netflix | IEPL | 倍率:2
-      - Lil 美国01 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国02 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国03 - nfo&hbo | IEPL | 倍率:1.3
-      - Lil 美国04 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国05 - nfo&hb | IEPL | 倍率:1.3
-      - Lil 美国06 - all | IEPL | 倍率:1.3
-      - Lil 美国07 - all | IEPL | 倍率:1.3
-      - Lil 美国08 - all | IEPL | 倍率:1.3
-      - Lil 美国09 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国10 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国11 - all | IEPL | 倍率:2
-      - Lil 英国1 - nf&bbc | IEPL | 倍率:1.6
-      - Lil 英国2 - nf&bbc | IEPL | 倍率:1.3
-      - Lil 英国3 - all | IEPL | 倍率:1.3
-      - Lil 英国4 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国5 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国6 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 韩国01 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国02 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国03 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国04 - netflix | IEPL | 倍率:2
-      - Lil 韩国05 - netflix | IEPL | 倍率:2
-      - Lil 香港01 - nf | IEPL | 倍率:1.8
-      - Lil 香港02 - nf | IEPL | 倍率:1.8
-      - Lil 香港03 - nf | IEPL | 倍率:1.6
-      - Lil 香港04 - nf | IEPL | 倍率:1.6
-      - Lil 香港05 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港06 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - Lil 香港08 - nf | IEPL | 倍率:1.5
-      - Lil 香港09 - nf | IEPL | 倍率:1.6
-      - Lil 香港10 - nf | IEPL | 倍率:1.6
-      - Lil 香港11 - nf | AIA | 倍率:3
-      - Lil 香港12 - nf | AIA | 倍率:3
+      - V4-中转3087|上海-日本M|解锁|x1.5
+      - V4-中转3089|上海-日本M|解锁|x1.5
+      - V3-中转3612|上海-日本M|解锁|x1.5|
+      - V4-中转2984|广东G-新加坡|x2.0
+      - V4-中转2983|广东G-新加坡|x2.0
+      - 韩国 01
+      - V4-中转2985|广东G-新加坡|x2.0
+      - V3中转3545|广东W-香港HKT|解锁|x1.5
+      - V4-中转2980|广东G-新加坡|x2.0
+      - V4-中转2982|广东G-新加坡|x2.0
+      - V4-中转2981|广东G-新加坡|x2.0
+      - V3-中转891|上海联通-俄罗斯|x1.5
+      - V3-中转890|上海联通-俄罗斯|x1.5
+      - V3-中转889|上海联通-俄罗斯|x1.5
+      - V3-中转3636|广东M-美国|解锁|x2.5
+      - V3-中转3634|广东M-美国|解锁|x2.5
+      - V3-中转3676|广东M-美国|解锁|x2.5
+      - V3-中转3638|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat
+      - V3-中转3637|广东M-美国|解锁|x2.5
+      - 30香港TG@moneyflychat
+      - US-199.19.226.178-1415
+      - KR | Oracle 甲骨文
+      - 30香港TG@moneyflychat 2
+      - 高速中转01
+      - V4-中转2916|广东G-新加坡|x2.5
+      - US-199.19.226.178-0364
+      - V3-中转3633|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat 2
+      - 新加坡-01
+      - FR-141.94.115.68-1206
+      - CN-101.67.8.140-0041
+      - CN-101.67.8.140-0038
+      - CN-101.67.8.140-0039
+      - US-199.19.226.178-1313
+      - US-2.56.173.239-1413
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Large 台灣01 - all | IEPL | 倍率:1.8
-      - Large 台灣02 - all | IEPL | 倍率:1.8
-      - Large 台灣03 - all | MIEPL | 倍率:1.6
-      - Large 台灣04 - all | IEPL | 倍率:1.5
-      - Large 台灣05 - all | IEPL | 倍率:1.5
-      - Large 新加坡01 - all | IEPL | 倍率:1.5
-      - Large 新加坡02 - all | IEPL | 倍率:1.5
-      - Large 新加坡03 - all | MIEPL | 倍率:1.6
-      - Large 新加坡04 - all | MIEPL | 倍率:1.6
-      - Large 新加坡05 - all | IEPL | 倍率:1.5
-      - Large 新加坡06 - all | IEPL | 倍率:1.5
-      - Large 新加坡07 - all | IEPL | 倍率:1.5
-      - Large 新加坡08 - all | IEPL | 倍率:1.5
-      - Large 新加坡09 - all | IEPL | 倍率:1.5
-      - Large 新加坡10 - all | IEPL | 倍率:1.5
-      - Large 新加坡11 - all | IEPL | 倍率:1.5
-      - Large 新加坡12 - all | IEPL | 倍率:1.5
-      - Large 日本01 - all | IEPL | 倍率:1.5
-      - Large 日本02 - allmedia | IEPL | 倍率:1.5
-      - Large 日本03 - allmedia | IEPL | 倍率:1.5
-      - Large 日本04 - allmedia | IEPL | 倍率:1.3
-      - Large 日本05 - allmedia | IEPL | 倍率:1.3
-      - Large 美国01 - allmedia | IEPL | 倍率:1.8
-      - Large 美国02 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国03 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国04 - allmedia | IEPL | 倍率:1.5
-      - Large 美国05 - allmedia | IEPL | 倍率:1.5
-      - Large 韩国01 - nf | MIEPL | 倍率:1.6
-      - Large 韩国02 - nf | MIEPL | 倍率:1.6
-      - Large 香港01 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港02 - nf | MIEPL | 倍率:1.8
-      - Large 香港03 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港04 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港05 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港06 - nf | MIEPL | 倍率:1.8
-      - Large 香港07 - nf | MIEPL | 倍率:1.8
-      - Large 香港08 - all | AIA | 倍率:1.6
-      - Large 香港09 - nf | AIA | 倍率:1.6
-      - Large 香港10 - nf | AIA | 倍率:1.6
-      - Large 香港11 - nf | AIA | 倍率:1.6
-      - Large 香港12 - nf | AIA | 倍率:1.6
-      - Large 香港13 - all | AIA | 倍率:1.6
-      - Large 香港14 - nf | MIEPL | 倍率:1.6
-      - Large 香港15 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港16 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港17 - all | AIA | 倍率:1.8
-      - Large 香港18 - nf | AIA | 倍率:1.8
-      - Large 香港19 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港20 - nf | AIA | 倍率:1.6
-      - Large 香港21 - nfo | MIEPL | 倍率:1.6
-      - Large 香港22 - nf | AIA | 倍率:1.8
-      - Large 香港23 - nfo | IEPL | 倍率:1.6
-      - Large 香港24 - nfo | IEPL | 倍率:1.6
-      - Lil 俄罗斯01 - SHOPP | IEPL | 倍率:1.3
-      - Lil 加拿大1 | IEPL | 倍率:1.3
-      - Lil 台湾01 - allmedia | IEPL | 倍率:1.5
-      - Lil 台湾02 - allmedia | IEPL| 倍率:1.3
-      - Lil 台湾03 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾04 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾05 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾06 - allmedia | IEPL | 倍率:1.3
-      - Lil 新加坡01 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡02 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡03 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡04 - netflix | IEPL | 倍率:2
-      - Lil 新加坡05 - netflix | IEPL | 倍率:2
-      - Lil 日本01 - netflix | IEPL | 倍率:1.5
-      - Lil 日本02 - netflix | IEPL | 倍率:1.3
-      - Lil 日本03 - netflix | IEPL | 倍率:1.3
-      - Lil 日本04 - netflix | IEPL | 倍率:1.3
-      - Lil 日本05 - netflix | IEPL | 倍率:1.3
-      - Lil 日本06 - netflix | IEPL | 倍率:2
-      - Lil 美国01 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国02 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国03 - nfo&hbo | IEPL | 倍率:1.3
-      - Lil 美国04 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国05 - nfo&hb | IEPL | 倍率:1.3
-      - Lil 美国06 - all | IEPL | 倍率:1.3
-      - Lil 美国07 - all | IEPL | 倍率:1.3
-      - Lil 美国08 - all | IEPL | 倍率:1.3
-      - Lil 美国09 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国10 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国11 - all | IEPL | 倍率:2
-      - Lil 英国1 - nf&bbc | IEPL | 倍率:1.6
-      - Lil 英国2 - nf&bbc | IEPL | 倍率:1.3
-      - Lil 英国3 - all | IEPL | 倍率:1.3
-      - Lil 英国4 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国5 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国6 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 韩国01 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国02 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国03 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国04 - netflix | IEPL | 倍率:2
-      - Lil 韩国05 - netflix | IEPL | 倍率:2
-      - Lil 香港01 - nf | IEPL | 倍率:1.8
-      - Lil 香港02 - nf | IEPL | 倍率:1.8
-      - Lil 香港03 - nf | IEPL | 倍率:1.6
-      - Lil 香港04 - nf | IEPL | 倍率:1.6
-      - Lil 香港05 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港06 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - Lil 香港08 - nf | IEPL | 倍率:1.5
-      - Lil 香港09 - nf | IEPL | 倍率:1.6
-      - Lil 香港10 - nf | IEPL | 倍率:1.6
-      - Lil 香港11 - nf | AIA | 倍率:3
-      - Lil 香港12 - nf | AIA | 倍率:3
+      - V4-中转3087|上海-日本M|解锁|x1.5
+      - V4-中转3089|上海-日本M|解锁|x1.5
+      - V3-中转3612|上海-日本M|解锁|x1.5|
+      - V4-中转2984|广东G-新加坡|x2.0
+      - V4-中转2983|广东G-新加坡|x2.0
+      - 韩国 01
+      - V4-中转2985|广东G-新加坡|x2.0
+      - V3中转3545|广东W-香港HKT|解锁|x1.5
+      - V4-中转2980|广东G-新加坡|x2.0
+      - V4-中转2982|广东G-新加坡|x2.0
+      - V4-中转2981|广东G-新加坡|x2.0
+      - V3-中转891|上海联通-俄罗斯|x1.5
+      - V3-中转890|上海联通-俄罗斯|x1.5
+      - V3-中转889|上海联通-俄罗斯|x1.5
+      - V3-中转3636|广东M-美国|解锁|x2.5
+      - V3-中转3634|广东M-美国|解锁|x2.5
+      - V3-中转3676|广东M-美国|解锁|x2.5
+      - V3-中转3638|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat
+      - V3-中转3637|广东M-美国|解锁|x2.5
+      - 30香港TG@moneyflychat
+      - US-199.19.226.178-1415
+      - KR | Oracle 甲骨文
+      - 30香港TG@moneyflychat 2
+      - 高速中转01
+      - V4-中转2916|广东G-新加坡|x2.5
+      - US-199.19.226.178-0364
+      - V3-中转3633|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat 2
+      - 新加坡-01
+      - FR-141.94.115.68-1206
+      - CN-101.67.8.140-0041
+      - CN-101.67.8.140-0038
+      - CN-101.67.8.140-0039
+      - US-199.19.226.178-1313
+      - US-2.56.173.239-1413
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Large 台灣01 - all | IEPL | 倍率:1.8
-      - Large 台灣02 - all | IEPL | 倍率:1.8
-      - Large 台灣03 - all | MIEPL | 倍率:1.6
-      - Large 台灣04 - all | IEPL | 倍率:1.5
-      - Large 台灣05 - all | IEPL | 倍率:1.5
-      - Large 新加坡01 - all | IEPL | 倍率:1.5
-      - Large 新加坡02 - all | IEPL | 倍率:1.5
-      - Large 新加坡03 - all | MIEPL | 倍率:1.6
-      - Large 新加坡04 - all | MIEPL | 倍率:1.6
-      - Large 新加坡05 - all | IEPL | 倍率:1.5
-      - Large 新加坡06 - all | IEPL | 倍率:1.5
-      - Large 新加坡07 - all | IEPL | 倍率:1.5
-      - Large 新加坡08 - all | IEPL | 倍率:1.5
-      - Large 新加坡09 - all | IEPL | 倍率:1.5
-      - Large 新加坡10 - all | IEPL | 倍率:1.5
-      - Large 新加坡11 - all | IEPL | 倍率:1.5
-      - Large 新加坡12 - all | IEPL | 倍率:1.5
-      - Large 日本01 - all | IEPL | 倍率:1.5
-      - Large 日本02 - allmedia | IEPL | 倍率:1.5
-      - Large 日本03 - allmedia | IEPL | 倍率:1.5
-      - Large 日本04 - allmedia | IEPL | 倍率:1.3
-      - Large 日本05 - allmedia | IEPL | 倍率:1.3
-      - Large 美国01 - allmedia | IEPL | 倍率:1.8
-      - Large 美国02 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国03 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国04 - allmedia | IEPL | 倍率:1.5
-      - Large 美国05 - allmedia | IEPL | 倍率:1.5
-      - Large 韩国01 - nf | MIEPL | 倍率:1.6
-      - Large 韩国02 - nf | MIEPL | 倍率:1.6
-      - Large 香港01 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港02 - nf | MIEPL | 倍率:1.8
-      - Large 香港03 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港04 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港05 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港06 - nf | MIEPL | 倍率:1.8
-      - Large 香港07 - nf | MIEPL | 倍率:1.8
-      - Large 香港08 - all | AIA | 倍率:1.6
-      - Large 香港09 - nf | AIA | 倍率:1.6
-      - Large 香港10 - nf | AIA | 倍率:1.6
-      - Large 香港11 - nf | AIA | 倍率:1.6
-      - Large 香港12 - nf | AIA | 倍率:1.6
-      - Large 香港13 - all | AIA | 倍率:1.6
-      - Large 香港14 - nf | MIEPL | 倍率:1.6
-      - Large 香港15 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港16 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港17 - all | AIA | 倍率:1.8
-      - Large 香港18 - nf | AIA | 倍率:1.8
-      - Large 香港19 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港20 - nf | AIA | 倍率:1.6
-      - Large 香港21 - nfo | MIEPL | 倍率:1.6
-      - Large 香港22 - nf | AIA | 倍率:1.8
-      - Large 香港23 - nfo | IEPL | 倍率:1.6
-      - Large 香港24 - nfo | IEPL | 倍率:1.6
-      - Lil 俄罗斯01 - SHOPP | IEPL | 倍率:1.3
-      - Lil 加拿大1 | IEPL | 倍率:1.3
-      - Lil 台湾01 - allmedia | IEPL | 倍率:1.5
-      - Lil 台湾02 - allmedia | IEPL| 倍率:1.3
-      - Lil 台湾03 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾04 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾05 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾06 - allmedia | IEPL | 倍率:1.3
-      - Lil 新加坡01 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡02 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡03 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡04 - netflix | IEPL | 倍率:2
-      - Lil 新加坡05 - netflix | IEPL | 倍率:2
-      - Lil 日本01 - netflix | IEPL | 倍率:1.5
-      - Lil 日本02 - netflix | IEPL | 倍率:1.3
-      - Lil 日本03 - netflix | IEPL | 倍率:1.3
-      - Lil 日本04 - netflix | IEPL | 倍率:1.3
-      - Lil 日本05 - netflix | IEPL | 倍率:1.3
-      - Lil 日本06 - netflix | IEPL | 倍率:2
-      - Lil 美国01 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国02 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国03 - nfo&hbo | IEPL | 倍率:1.3
-      - Lil 美国04 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国05 - nfo&hb | IEPL | 倍率:1.3
-      - Lil 美国06 - all | IEPL | 倍率:1.3
-      - Lil 美国07 - all | IEPL | 倍率:1.3
-      - Lil 美国08 - all | IEPL | 倍率:1.3
-      - Lil 美国09 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国10 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国11 - all | IEPL | 倍率:2
-      - Lil 英国1 - nf&bbc | IEPL | 倍率:1.6
-      - Lil 英国2 - nf&bbc | IEPL | 倍率:1.3
-      - Lil 英国3 - all | IEPL | 倍率:1.3
-      - Lil 英国4 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国5 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国6 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 韩国01 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国02 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国03 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国04 - netflix | IEPL | 倍率:2
-      - Lil 韩国05 - netflix | IEPL | 倍率:2
-      - Lil 香港01 - nf | IEPL | 倍率:1.8
-      - Lil 香港02 - nf | IEPL | 倍率:1.8
-      - Lil 香港03 - nf | IEPL | 倍率:1.6
-      - Lil 香港04 - nf | IEPL | 倍率:1.6
-      - Lil 香港05 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港06 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - Lil 香港08 - nf | IEPL | 倍率:1.5
-      - Lil 香港09 - nf | IEPL | 倍率:1.6
-      - Lil 香港10 - nf | IEPL | 倍率:1.6
-      - Lil 香港11 - nf | AIA | 倍率:3
-      - Lil 香港12 - nf | AIA | 倍率:3
+      - V4-中转3087|上海-日本M|解锁|x1.5
+      - V4-中转3089|上海-日本M|解锁|x1.5
+      - V3-中转3612|上海-日本M|解锁|x1.5|
+      - V4-中转2984|广东G-新加坡|x2.0
+      - V4-中转2983|广东G-新加坡|x2.0
+      - 韩国 01
+      - V4-中转2985|广东G-新加坡|x2.0
+      - V3中转3545|广东W-香港HKT|解锁|x1.5
+      - V4-中转2980|广东G-新加坡|x2.0
+      - V4-中转2982|广东G-新加坡|x2.0
+      - V4-中转2981|广东G-新加坡|x2.0
+      - V3-中转891|上海联通-俄罗斯|x1.5
+      - V3-中转890|上海联通-俄罗斯|x1.5
+      - V3-中转889|上海联通-俄罗斯|x1.5
+      - V3-中转3636|广东M-美国|解锁|x2.5
+      - V3-中转3634|广东M-美国|解锁|x2.5
+      - V3-中转3676|广东M-美国|解锁|x2.5
+      - V3-中转3638|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat
+      - V3-中转3637|广东M-美国|解锁|x2.5
+      - 30香港TG@moneyflychat
+      - US-199.19.226.178-1415
+      - KR | Oracle 甲骨文
+      - 30香港TG@moneyflychat 2
+      - 高速中转01
+      - V4-中转2916|广东G-新加坡|x2.5
+      - US-199.19.226.178-0364
+      - V3-中转3633|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat 2
+      - 新加坡-01
+      - FR-141.94.115.68-1206
+      - CN-101.67.8.140-0041
+      - CN-101.67.8.140-0038
+      - CN-101.67.8.140-0039
+      - US-199.19.226.178-1313
+      - US-2.56.173.239-1413
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -971,112 +369,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Large 台灣01 - all | IEPL | 倍率:1.8
-      - Large 台灣02 - all | IEPL | 倍率:1.8
-      - Large 台灣03 - all | MIEPL | 倍率:1.6
-      - Large 台灣04 - all | IEPL | 倍率:1.5
-      - Large 台灣05 - all | IEPL | 倍率:1.5
-      - Large 新加坡01 - all | IEPL | 倍率:1.5
-      - Large 新加坡02 - all | IEPL | 倍率:1.5
-      - Large 新加坡03 - all | MIEPL | 倍率:1.6
-      - Large 新加坡04 - all | MIEPL | 倍率:1.6
-      - Large 新加坡05 - all | IEPL | 倍率:1.5
-      - Large 新加坡06 - all | IEPL | 倍率:1.5
-      - Large 新加坡07 - all | IEPL | 倍率:1.5
-      - Large 新加坡08 - all | IEPL | 倍率:1.5
-      - Large 新加坡09 - all | IEPL | 倍率:1.5
-      - Large 新加坡10 - all | IEPL | 倍率:1.5
-      - Large 新加坡11 - all | IEPL | 倍率:1.5
-      - Large 新加坡12 - all | IEPL | 倍率:1.5
-      - Large 日本01 - all | IEPL | 倍率:1.5
-      - Large 日本02 - allmedia | IEPL | 倍率:1.5
-      - Large 日本03 - allmedia | IEPL | 倍率:1.5
-      - Large 日本04 - allmedia | IEPL | 倍率:1.3
-      - Large 日本05 - allmedia | IEPL | 倍率:1.3
-      - Large 美国01 - allmedia | IEPL | 倍率:1.8
-      - Large 美国02 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国03 - nf&hbo&hulu | IEPL | 倍率:1.6
-      - Large 美国04 - allmedia | IEPL | 倍率:1.5
-      - Large 美国05 - allmedia | IEPL | 倍率:1.5
-      - Large 韩国01 - nf | MIEPL | 倍率:1.6
-      - Large 韩国02 - nf | MIEPL | 倍率:1.6
-      - Large 香港01 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港02 - nf | MIEPL | 倍率:1.8
-      - Large 香港03 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港04 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港05 - allmedia | MIEPL | 倍率:1.8
-      - Large 香港06 - nf | MIEPL | 倍率:1.8
-      - Large 香港07 - nf | MIEPL | 倍率:1.8
-      - Large 香港08 - all | AIA | 倍率:1.6
-      - Large 香港09 - nf | AIA | 倍率:1.6
-      - Large 香港10 - nf | AIA | 倍率:1.6
-      - Large 香港11 - nf | AIA | 倍率:1.6
-      - Large 香港12 - nf | AIA | 倍率:1.6
-      - Large 香港13 - all | AIA | 倍率:1.6
-      - Large 香港14 - nf | MIEPL | 倍率:1.6
-      - Large 香港15 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港16 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港17 - all | AIA | 倍率:1.8
-      - Large 香港18 - nf | AIA | 倍率:1.8
-      - Large 香港19 - allmedia | MIEPL | 倍率:1.6
-      - Large 香港20 - nf | AIA | 倍率:1.6
-      - Large 香港21 - nfo | MIEPL | 倍率:1.6
-      - Large 香港22 - nf | AIA | 倍率:1.8
-      - Large 香港23 - nfo | IEPL | 倍率:1.6
-      - Large 香港24 - nfo | IEPL | 倍率:1.6
-      - Lil 俄罗斯01 - SHOPP | IEPL | 倍率:1.3
-      - Lil 加拿大1 | IEPL | 倍率:1.3
-      - Lil 台湾01 - allmedia | IEPL | 倍率:1.5
-      - Lil 台湾02 - allmedia | IEPL| 倍率:1.3
-      - Lil 台湾03 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾04 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾05 - allmedia | IEPL | 倍率:1.3
-      - Lil 台湾06 - allmedia | IEPL | 倍率:1.3
-      - Lil 新加坡01 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡02 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡03 - netflix | IEPL | 倍率:1.5
-      - Lil 新加坡04 - netflix | IEPL | 倍率:2
-      - Lil 新加坡05 - netflix | IEPL | 倍率:2
-      - Lil 日本01 - netflix | IEPL | 倍率:1.5
-      - Lil 日本02 - netflix | IEPL | 倍率:1.3
-      - Lil 日本03 - netflix | IEPL | 倍率:1.3
-      - Lil 日本04 - netflix | IEPL | 倍率:1.3
-      - Lil 日本05 - netflix | IEPL | 倍率:1.3
-      - Lil 日本06 - netflix | IEPL | 倍率:2
-      - Lil 美国01 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国02 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国03 - nfo&hbo | IEPL | 倍率:1.3
-      - Lil 美国04 - nf&hbo | IEPL | 倍率:1.3
-      - Lil 美国05 - nfo&hb | IEPL | 倍率:1.3
-      - Lil 美国06 - all | IEPL | 倍率:1.3
-      - Lil 美国07 - all | IEPL | 倍率:1.3
-      - Lil 美国08 - all | IEPL | 倍率:1.3
-      - Lil 美国09 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国10 - allmedia | IEPL | 倍率:1.3
-      - Lil 美国11 - all | IEPL | 倍率:2
-      - Lil 英国1 - nf&bbc | IEPL | 倍率:1.6
-      - Lil 英国2 - nf&bbc | IEPL | 倍率:1.3
-      - Lil 英国3 - all | IEPL | 倍率:1.3
-      - Lil 英国4 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国5 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 英国6 - nfo&bbc | IEPL | 倍率:1.3
-      - Lil 韩国01 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国02 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国03 - netflix | IEPL | 倍率:1.5
-      - Lil 韩国04 - netflix | IEPL | 倍率:2
-      - Lil 韩国05 - netflix | IEPL | 倍率:2
-      - Lil 香港01 - nf | IEPL | 倍率:1.8
-      - Lil 香港02 - nf | IEPL | 倍率:1.8
-      - Lil 香港03 - nf | IEPL | 倍率:1.6
-      - Lil 香港04 - nf | IEPL | 倍率:1.6
-      - Lil 香港05 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港06 - nf&tvb | IEPL | 倍率:1.5
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - Lil 香港08 - nf | IEPL | 倍率:1.5
-      - Lil 香港09 - nf | IEPL | 倍率:1.6
-      - Lil 香港10 - nf | IEPL | 倍率:1.6
-      - Lil 香港11 - nf | AIA | 倍率:3
-      - Lil 香港12 - nf | AIA | 倍率:3
+      - V4-中转3087|上海-日本M|解锁|x1.5
+      - V4-中转3089|上海-日本M|解锁|x1.5
+      - V3-中转3612|上海-日本M|解锁|x1.5|
+      - V4-中转2984|广东G-新加坡|x2.0
+      - V4-中转2983|广东G-新加坡|x2.0
+      - 韩国 01
+      - V4-中转2985|广东G-新加坡|x2.0
+      - V3中转3545|广东W-香港HKT|解锁|x1.5
+      - V4-中转2980|广东G-新加坡|x2.0
+      - V4-中转2982|广东G-新加坡|x2.0
+      - V4-中转2981|广东G-新加坡|x2.0
+      - V3-中转891|上海联通-俄罗斯|x1.5
+      - V3-中转890|上海联通-俄罗斯|x1.5
+      - V3-中转889|上海联通-俄罗斯|x1.5
+      - V3-中转3636|广东M-美国|解锁|x2.5
+      - V3-中转3634|广东M-美国|解锁|x2.5
+      - V3-中转3676|广东M-美国|解锁|x2.5
+      - V3-中转3638|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat
+      - V3-中转3637|广东M-美国|解锁|x2.5
+      - 30香港TG@moneyflychat
+      - US-199.19.226.178-1415
+      - KR | Oracle 甲骨文
+      - 30香港TG@moneyflychat 2
+      - 高速中转01
+      - V4-中转2916|广东G-新加坡|x2.5
+      - US-199.19.226.178-0364
+      - V3-中转3633|广东M-美国|解锁|x2.5
+      - 45香港TG@moneyflychat 2
+      - 新加坡-01
+      - FR-141.94.115.68-1206
+      - CN-101.67.8.140-0041
+      - CN-101.67.8.140-0038
+      - CN-101.67.8.140-0039
+      - US-199.19.226.178-1313
+      - US-2.56.173.239-1413
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
