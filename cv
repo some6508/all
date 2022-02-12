@@ -5,9 +5,21 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国_1, server: 167.88.61.14, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_2, server: 120.197.85.73, port: 2065, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_3, server: 120.197.85.73, port: 2044, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _US_美国_1, server: 142.202.48.77, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_2, server: 167.88.61.14, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_3, server: 120.197.85.73, port: 2065, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _US_美国_4, server: 6.lyzghim.com, port: 443, type: vmess, uuid: 2bb8823b-6938-4c82-87dc-0dee4c118b2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 6.lyzghim.com}}, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_5, server: 120.197.85.73, port: 5011, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_6, server: 120.197.85.73, port: 2044, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_7, server: 120.197.85.73, port: 4005, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_8, server: 120.197.85.73, port: 2061, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _US_美国_9, server: 167.88.62.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_10, server: 169.197.142.4, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: default_name_11, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: _US_美国_12, server: 167.88.63.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_13, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大_14, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_15, server: 134.195.196.81, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 198.57.27.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君) 2, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: in02.dns2333.xyz, port: 63051, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hls, headers: {Host: mugua-in01.airport-v2.com}}, udp: true}
@@ -1091,7 +1103,7 @@ proxies:
   - {name: _JP_日本_3, server: vincent-jackson2022.ga, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: vincent-jackson2022.ga}}, udp: true}
   - {name: _SG_新加坡_3, server: aws1.sgp.tgproxy.wtf, port: 8899, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: aws1.sgp.tgproxy.wtf}}, udp: true}
   - {name: _US_美国_8, server: inap.us.tgproxy.wtf, port: 8888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: inap.us.tgproxy.wtf}}, udp: true}
-  - {name: _US_美国_2, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: _US_美国_2 2, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
   - {name: V3-中转3183|广东D-香港|解锁|x1.5, server: gd-d-suying.ddns-oink.xyz, port: 13183, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
   - {name: 专线 马来西亚 02, server: iepl02.789jiasu.com, port: 8072, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 41796:A3bDUz, obfs-param: bdcef41796.microsoft.com, udp: true}
   - {name: V3-中转3230|上海联通-俄罗斯|x0.4, server: shanghai02.ddns-oink.xyz, port: 13230, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xdk, obfs-param: d5c87103175.microsoft.com, udp: true}
@@ -2090,8 +2102,20 @@ proxy-groups:
     type: select
     proxies:
       - _US_美国_1
-      - _CN_中国->🇸🇬_SG_新加坡_2
-      - _CN_中国->🇭🇰_HK_香港_3
+      - _US_美国_2
+      - _CN_中国->🇸🇬_SG_新加坡_3
+      - _US_美国_4
+      - _CN_中国->🇹🇼_TW_台湾_5
+      - _CN_中国->🇭🇰_HK_香港_6
+      - _CN_中国->🇺🇸_US_美国_7
+      - _CN_中国->🇸🇬_SG_新加坡_8
+      - _US_美国_9
+      - _US_美国_10
+      - default_name_11
+      - _US_美国_12
+      - _CA_加拿大_13
+      - _CA_加拿大_14
+      - _CA_加拿大_15
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)
@@ -3175,7 +3199,7 @@ proxy-groups:
       - _JP_日本_3
       - _SG_新加坡_3
       - _US_美国_8
-      - _US_美国_2
+      - _US_美国_2 2
       - V3-中转3183|广东D-香港|解锁|x1.5
       - 专线 马来西亚 02
       - V3-中转3230|上海联通-俄罗斯|x0.4
@@ -4163,8 +4187,20 @@ proxy-groups:
     interval: 300
     proxies:
       - _US_美国_1
-      - _CN_中国->🇸🇬_SG_新加坡_2
-      - _CN_中国->🇭🇰_HK_香港_3
+      - _US_美国_2
+      - _CN_中国->🇸🇬_SG_新加坡_3
+      - _US_美国_4
+      - _CN_中国->🇹🇼_TW_台湾_5
+      - _CN_中国->🇭🇰_HK_香港_6
+      - _CN_中国->🇺🇸_US_美国_7
+      - _CN_中国->🇸🇬_SG_新加坡_8
+      - _US_美国_9
+      - _US_美国_10
+      - default_name_11
+      - _US_美国_12
+      - _CA_加拿大_13
+      - _CA_加拿大_14
+      - _CA_加拿大_15
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)
@@ -5248,7 +5284,7 @@ proxy-groups:
       - _JP_日本_3
       - _SG_新加坡_3
       - _US_美国_8
-      - _US_美国_2
+      - _US_美国_2 2
       - V3-中转3183|广东D-香港|解锁|x1.5
       - 专线 马来西亚 02
       - V3-中转3230|上海联通-俄罗斯|x0.4
@@ -6531,7 +6567,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CN_中国->🇭🇰_HK_香港_3
+      - _CN_中国->🇭🇰_HK_香港_6
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
@@ -6799,6 +6835,12 @@ proxy-groups:
     interval: 300
     proxies:
       - _US_美国_1
+      - _US_美国_2
+      - _US_美国_4
+      - _CN_中国->🇺🇸_US_美国_7
+      - _US_美国_9
+      - _US_美国_10
+      - _US_美国_12
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -7176,7 +7218,7 @@ proxy-groups:
       - 美国L2 中继N1 [3]
       - _US_美国->🇫🇮_FI_芬兰_1
       - _US_美国_8
-      - _US_美国_2
+      - _US_美国_2 2
       - V3-中转3637|广东M-美国|解锁|x2.5 2
       - V3-中转3636|广东M-美国|解锁|x2.5 2
       - V3-中转3676|广东M-美国|解锁|x2.5 2
@@ -7363,6 +7405,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _CN_中国->🇹🇼_TW_台湾_5
       - 台湾(欢迎订阅Youtube破解资源君)
       - 台湾(欢迎订阅Youtube破解资源君) 2
       - 台湾(欢迎订阅Youtube破解资源君) 3
@@ -7446,7 +7489,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CN_中国->🇸🇬_SG_新加坡_2
+      - _CN_中国->🇸🇬_SG_新加坡_3
+      - _CN_中国->🇸🇬_SG_新加坡_8
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡（YouTube资源分享者）
