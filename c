@@ -5,109 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.147","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇰🇷_KR_韩国_2","server":"158.247.226.61","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇫🇷_FR_法国_3","server":"145.239.1.100","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇬🇧_GB_英国_4","server":"172.99.190.39","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇦🇺_AU_澳大利亚_5","server":"172.105.180.227","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_6","server":"167.88.63.28","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"default_name_7","server":"198.41.212.20","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
-  - {"name":"🇬🇧_GB_英国_8","server":"172.99.190.39","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇬🇧_GB_英国_9","server":"172.99.190.205","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_10","server":"134.195.196.81","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_1","server":"120.197.85.73","port":2063,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"708de56e-ada7-4bab-86ce-dadd4beabd62"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大_1
-      - 🇰🇷_KR_韩国_2
-      - 🇫🇷_FR_法国_3
-      - 🇬🇧_GB_英国_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大_1
-      - 🇰🇷_KR_韩国_2
-      - 🇫🇷_FR_法国_3
-      - 🇬🇧_GB_英国_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇰🇷_KR_韩国_2
-      - 🇫🇷_FR_法国_3
-      - 🇬🇧_GB_英国_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇰🇷_KR_韩国_2
-      - 🇫🇷_FR_法国_3
-      - 🇬🇧_GB_英国_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇰🇷_KR_韩国_2
-      - 🇫🇷_FR_法国_3
-      - 🇬🇧_GB_英国_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇰🇷_KR_韩国_2
-      - 🇫🇷_FR_法国_3
-      - 🇬🇧_GB_英国_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇰🇷_KR_韩国_2
-      - 🇫🇷_FR_法国_3
-      - 🇬🇧_GB_英国_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇺🇸_US_美国_6
-      - default_name_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
