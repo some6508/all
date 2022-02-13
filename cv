@@ -1504,16 +1504,51 @@ proxies:
   - {name: 30香港TG@moneyflychat 3, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.club}}, udp: true}
   - {name: 45香港TG@moneyflychat 3, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: xuexi.cn}}, udp: true}
   - {name: 73美国TG@moneyflychat, server: zj.haojiahuo.club, port: 30052, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: xuexi.cn}}, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.81, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大 3, server: 198.57.27.243, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: default_name, server: 198.41.212.5, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: _CA_加拿大 4, server: 134.195.196.81, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: default_name 2, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _SG_新加坡, server: 139.162.24.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 5, server: 198.57.27.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: default_name 3, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: _CA_加拿大 6, server: 134.195.196.81, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 45.77.48.44:8099, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
+  - {name: 45.77.48.44:8099 2, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
+  - {name: sy-am2.eqsunshine.com:443, server: sy-am2.eqsunshine.com, port: 443, type: ssr, cipher: aes-256-cfb, password: Jz8r4gLNP, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: ca-am3.eqnode.net:8080, server: ca-am3.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: 4axflHccX, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 35.183.107.5:8080, server: 35.183.107.5, port: 8080, type: ssr, cipher: aes-256-cfb, password: 4axflHccX, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: gd-h-suying.ddns-oink.xyz:13302, server: gd-h-suying.ddns-oink.xyz, port: 13302, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 214117:KMXNd%%�, obfs-param: 446d7214117.microsoft.co%%�, udp: true}
+  - {name: gd-h-suying.ddns-oink.xyz:13301, server: gd-h-suying.ddns-oink.xyz, port: 13301, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 214117:KMXNd%%�, obfs-param: 446d7214117.microsoft.co%%�, udp: true}
+  - {name: gd-h-suying.ddns-oink.xyz:13300, server: gd-h-suying.ddns-oink.xyz, port: 13300, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 214117:KMXNd%%�, obfs-param: 446d7214117.microsoft.co%%�, udp: true}
+  - {name: gd-h-suying.ddns-oink.xyz:13301 2, server: gd-h-suying.ddns-oink.xyz, port: 13301, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: gd-w-suying.ddns-oink.xyz:13448, server: gd-w-suying.ddns-oink.xyz, port: 13448, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: 120.233.151.145:7008, server: 120.233.151.145, port: 7008, type: ssr, cipher: chacha20-ietf, password: gaLgrz, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 188236:c6Iyh%%�, obfs-param: https://t.me/proxypoolqwerty42%%�, udp: true}
+  - {name: shanghai02.ddns-oink.xyz:13229, server: shanghai02.ddns-oink.xyz, port: 13229, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: gd-h-suying.ddns-oink.xyz:13299, server: gd-h-suying.ddns-oink.xyz, port: 13299, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 214117:KMXNd%%�, obfs-param: 446d7214117.microsoft.co%%�, udp: true}
+  - {name: 120.233.151.145:7010, server: 120.233.151.145, port: 7010, type: ssr, cipher: chacha20-ietf, password: gaLgrz, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 188236:c6Iyh%%�, obfs-param: https://t.me/proxypoolqwerty42%%�, udp: true}
+  - {name: 120.233.151.145:7013, server: 120.233.151.145, port: 7013, type: ssr, cipher: chacha20-ietf, password: gaLgrz, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 188236:c6Iyh%%�, obfs-param: https://t.me/proxypoolqwerty42%%�, udp: true}
+  - {name: gd-g-suying.ddns-oink.xyz:13556, server: gd-g-suying.ddns-oink.xyz, port: 13556, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: gd-x-sy183.ddns-oink.xyz:13640, server: gd-x-sy183.ddns-oink.xyz, port: 13640, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: 120.233.151.145:7019, server: 120.233.151.145, port: 7019, type: ssr, cipher: chacha20-ietf, password: gaLgrz, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 188236:c6Iyh%%�, obfs-param: https://t.me/proxypoolqwerty42%%�, udp: true}
+  - {name: shanghai02.ddns-oink.xyz:13206, server: shanghai02.ddns-oink.xyz, port: 13206, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: gd-x-sy183.ddns-oink.xyz:13547, server: gd-x-sy183.ddns-oink.xyz, port: 13547, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: shanghai02.ddns-oink.xyz:13110, server: shanghai02.ddns-oink.xyz, port: 13110, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: shanghai02.ddns-oink.xyz:13222, server: shanghai02.ddns-oink.xyz, port: 13222, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: gd-g-suying.ddns-oink.xyz:12916, server: gd-g-suying.ddns-oink.xyz, port: 12916, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: shanghai02.ddns-oink.xyz:13109, server: shanghai02.ddns-oink.xyz, port: 13109, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: shanghai02.ddns-oink.xyz:13212, server: shanghai02.ddns-oink.xyz, port: 13212, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: 120.233.151.145:7022, server: 120.233.151.145, port: 7022, type: ssr, cipher: chacha20-ietf, password: gaLgrz, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 188236:c6Iyh%%�, obfs-param: https://t.me/proxypoolqwerty42%%�, udp: true}
+  - {name: shanghai02.ddns-oink.xyz:13211, server: shanghai02.ddns-oink.xyz, port: 13211, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: 120.233.151.145:6009, server: 120.233.151.145, port: 6009, type: ssr, cipher: chacha20-ietf, password: gaLgrz, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 188236:c6Iyh%%�, obfs-param: https://t.me/proxypoolqwerty42%%�, udp: true}
+  - {name: shanghai02.ddns-oink.xyz:13108, server: shanghai02.ddns-oink.xyz, port: 13108, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: shanghai02.ddns-oink.xyz:13223, server: shanghai02.ddns-oink.xyz, port: 13223, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: 120.233.151.145:7016, server: 120.233.151.145, port: 7016, type: ssr, cipher: chacha20-ietf, password: gaLgrz, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 188236:c6Iyh%%�, obfs-param: https://t.me/proxypoolqwerty42%%�, udp: true}
+  - {name: gd-h-suying.ddns-oink.xyz:13303, server: gd-h-suying.ddns-oink.xyz, port: 13303, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 214117:KMXNd%%�, obfs-param: 446d7214117.microsoft.co%%�, udp: true}
+  - {name: 120.233.151.145:7007, server: 120.233.151.145, port: 7007, type: ssr, cipher: chacha20-ietf, password: gaLgrz, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 188236:c6Iyh%%�, obfs-param: https://t.me/proxypoolqwerty42%%�, udp: true}
+  - {name: shanghai02.ddns-oink.xyz:10935, server: shanghai02.ddns-oink.xyz, port: 10935, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 103175:SN4Xd%%�, obfs-param: d5c87103175.microsoft.co%%�, udp: true}
+  - {name: fr-am1-1.eqsunshine.com:8181, server: fr-am1-1.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: gVWc0WaJn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 35.177.96.190:8181, server: 35.177.96.190, port: 8181, type: ssr, cipher: aes-256-cfb, password: PNRbp3j9B, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: uk-am3-5.eqsunshine.com:8181, server: uk-am3-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: PNRbp3j9B, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: jp-am48-9.eqnode.net:8081, server: jp-am48-9.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3H2aN5Gnm, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: sg-am11.eqnode.net:8181, server: sg-am11.eqnode.net, port: 8181, type: ssr, cipher: aes-256-cfb, password: kKdNNt2HZ, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.co%%�, udp: true}
+  - {name: 54.169.137.68:8181, server: 54.169.137.68, port: 8181, type: ssr, cipher: aes-256-cfb, password: kKdNNt2HZ, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.co%%�, udp: true}
+  - {name: 59.125.11.158:8158, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: us-am11.eqnode.net:8080, server: us-am11.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: vGndzdmPB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.co%%�, udp: true}
+  - {name: us-am32-5.eqnode.net:8081, server: us-am32-5.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: in-am2.eqnode.net:8080, server: in-am2.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: fD0KP8PWA, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 54.212.113.180:8081, server: 54.212.113.180, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -3614,16 +3649,51 @@ proxy-groups:
       - 30香港TG@moneyflychat 3
       - 45香港TG@moneyflychat 3
       - 73美国TG@moneyflychat
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - default_name
-      - _CA_加拿大 4
-      - default_name 2
-      - _SG_新加坡
-      - _CA_加拿大 5
-      - default_name 3
-      - _CA_加拿大 6
+      - 45.77.48.44:8099
+      - 45.77.48.44:8099 2
+      - sy-am2.eqsunshine.com:443
+      - ca-am3.eqnode.net:8080
+      - 35.183.107.5:8080
+      - gd-h-suying.ddns-oink.xyz:13302
+      - gd-h-suying.ddns-oink.xyz:13301
+      - gd-h-suying.ddns-oink.xyz:13300
+      - gd-h-suying.ddns-oink.xyz:13301 2
+      - gd-w-suying.ddns-oink.xyz:13448
+      - 120.233.151.145:7008
+      - shanghai02.ddns-oink.xyz:13229
+      - gd-h-suying.ddns-oink.xyz:13299
+      - 120.233.151.145:7010
+      - 120.233.151.145:7013
+      - gd-g-suying.ddns-oink.xyz:13556
+      - gd-x-sy183.ddns-oink.xyz:13640
+      - 120.233.151.145:7019
+      - shanghai02.ddns-oink.xyz:13206
+      - gd-x-sy183.ddns-oink.xyz:13547
+      - shanghai02.ddns-oink.xyz:13110
+      - shanghai02.ddns-oink.xyz:13222
+      - gd-g-suying.ddns-oink.xyz:12916
+      - shanghai02.ddns-oink.xyz:13109
+      - shanghai02.ddns-oink.xyz:13212
+      - 120.233.151.145:7022
+      - shanghai02.ddns-oink.xyz:13211
+      - 120.233.151.145:6009
+      - shanghai02.ddns-oink.xyz:13108
+      - shanghai02.ddns-oink.xyz:13223
+      - 120.233.151.145:7016
+      - gd-h-suying.ddns-oink.xyz:13303
+      - 120.233.151.145:7007
+      - shanghai02.ddns-oink.xyz:10935
+      - fr-am1-1.eqsunshine.com:8181
+      - 35.177.96.190:8181
+      - uk-am3-5.eqsunshine.com:8181
+      - jp-am48-9.eqnode.net:8081
+      - sg-am11.eqnode.net:8181
+      - 54.169.137.68:8181
+      - 59.125.11.158:8158
+      - us-am11.eqnode.net:8080
+      - us-am32-5.eqnode.net:8081
+      - in-am2.eqnode.net:8080
+      - 54.212.113.180:8081
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5713,16 +5783,51 @@ proxy-groups:
       - 30香港TG@moneyflychat 3
       - 45香港TG@moneyflychat 3
       - 73美国TG@moneyflychat
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - default_name
-      - _CA_加拿大 4
-      - default_name 2
-      - _SG_新加坡
-      - _CA_加拿大 5
-      - default_name 3
-      - _CA_加拿大 6
+      - 45.77.48.44:8099
+      - 45.77.48.44:8099 2
+      - sy-am2.eqsunshine.com:443
+      - ca-am3.eqnode.net:8080
+      - 35.183.107.5:8080
+      - gd-h-suying.ddns-oink.xyz:13302
+      - gd-h-suying.ddns-oink.xyz:13301
+      - gd-h-suying.ddns-oink.xyz:13300
+      - gd-h-suying.ddns-oink.xyz:13301 2
+      - gd-w-suying.ddns-oink.xyz:13448
+      - 120.233.151.145:7008
+      - shanghai02.ddns-oink.xyz:13229
+      - gd-h-suying.ddns-oink.xyz:13299
+      - 120.233.151.145:7010
+      - 120.233.151.145:7013
+      - gd-g-suying.ddns-oink.xyz:13556
+      - gd-x-sy183.ddns-oink.xyz:13640
+      - 120.233.151.145:7019
+      - shanghai02.ddns-oink.xyz:13206
+      - gd-x-sy183.ddns-oink.xyz:13547
+      - shanghai02.ddns-oink.xyz:13110
+      - shanghai02.ddns-oink.xyz:13222
+      - gd-g-suying.ddns-oink.xyz:12916
+      - shanghai02.ddns-oink.xyz:13109
+      - shanghai02.ddns-oink.xyz:13212
+      - 120.233.151.145:7022
+      - shanghai02.ddns-oink.xyz:13211
+      - 120.233.151.145:6009
+      - shanghai02.ddns-oink.xyz:13108
+      - shanghai02.ddns-oink.xyz:13223
+      - 120.233.151.145:7016
+      - gd-h-suying.ddns-oink.xyz:13303
+      - 120.233.151.145:7007
+      - shanghai02.ddns-oink.xyz:10935
+      - fr-am1-1.eqsunshine.com:8181
+      - 35.177.96.190:8181
+      - uk-am3-5.eqsunshine.com:8181
+      - jp-am48-9.eqnode.net:8081
+      - sg-am11.eqnode.net:8181
+      - 54.169.137.68:8181
+      - 59.125.11.158:8158
+      - us-am11.eqnode.net:8080
+      - us-am32-5.eqnode.net:8081
+      - in-am2.eqnode.net:8080
+      - 54.212.113.180:8081
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -7630,7 +7735,6 @@ proxy-groups:
       - V4-中转3351|广东G-新加坡|x2.5
       - V3-中转2942|广东K-新加坡|x1.5|V2ray
       - V4-中转2991|广东G-新加坡|解锁|x2.0|V2ray 2
-      - _SG_新加坡
       - 新加坡（YouTube资源分享者） 2
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-新加坡V18-付费推荐::suo.yt/ssrsub 2"
