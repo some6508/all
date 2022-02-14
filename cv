@@ -1378,12 +1378,15 @@ proxies:
   - {name: 45香港TG@moneyflychat 3, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: xuexi.cn}}, udp: true}
   - {name: 73美国TG@moneyflychat, server: zj.haojiahuo.club, port: 30052, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: xuexi.cn}}, udp: true}
   - {name: _US_美国, server: 169.197.141.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: default_name, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _JP_日本, server: 85.208.108.106, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 2, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国 3, server: 167.88.63.61, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国 4, server: 167.88.63.61, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国 5, server: 167.88.63.61, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: as43134.freeplesk.com, port: 9922, type: ss, cipher: aes-128-gcm, password: 3f44ca92-41c1-4d6e-b20e-bee399a621ed, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本 2, server: as43134.freeplesk.com, port: 3355, type: ss, cipher: chacha20-ietf-poly1305, password: 3f44ca92-41c1-4d6e-b20e-bee399a621ed, udp: true}
+  - {name: _US_美国 2, server: 6.lyzghim.com, port: 443, type: vmess, uuid: 2bb8823b-6938-4c82-87dc-0dee4c118b2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 6.lyzghim.com}}, udp: true}
+  - {name: _BV_布维岛, server: 46.29.219.246, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: default_name 2, server: 104.27.89.125, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: xiaochen.chenyingjie5201314.workers.dev}}, udp: true}
+  - {name: _US_美国 3, server: 167.88.63.61, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -3610,12 +3613,15 @@ proxy-groups:
       - 45香港TG@moneyflychat 3
       - 73美国TG@moneyflychat
       - _US_美国
+      - _GB_英国
       - default_name
-      - _JP_日本
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇯🇵_JP_日本 2
       - _US_美国 2
+      - _BV_布维岛
+      - _CA_加拿大
+      - default_name 2
       - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5831,12 +5837,15 @@ proxy-groups:
       - 45香港TG@moneyflychat 3
       - 73美国TG@moneyflychat
       - _US_美国
+      - _GB_英国
       - default_name
-      - _JP_日本
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇯🇵_JP_日本 2
       - _US_美国 2
+      - _BV_布维岛
+      - _CA_加拿大
+      - default_name 2
       - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -7240,7 +7249,8 @@ proxy-groups:
       - V3-中转3606|上海-日本M|解锁|x1.5|V2ray
       - V3-中转2960|上海-日本M|解锁|x1.5|V2ray
       - V3-中转3592|上海-日本M|解锁|x1.5
-      - _JP_日本
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇯🇵_JP_日本 2
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -7625,8 +7635,6 @@ proxy-groups:
       - _US_美国
       - _US_美国 2
       - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
