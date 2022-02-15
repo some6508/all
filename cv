@@ -746,95 +746,16 @@ proxies:
   - {name: 解锁流媒体001 18, server: cm.newhua99.ga, port: 22824, type: ss, cipher: aes-128-gcm, password: 6626f856-909b-4e44-b720-c79c6f7cc1fb, udp: true}
   - {name: 解锁流媒体001 19, server: cm.newhua99.ga, port: 22825, type: ss, cipher: aes-128-gcm, password: 6626f856-909b-4e44-b720-c79c6f7cc1fb, udp: true}
   - {name: 解锁流媒体001 20, server: cm.newhua99.ga, port: 22827, type: ss, cipher: aes-128-gcm, password: 6626f856-909b-4e44-b720-c79c6f7cc1fb, udp: true}
-  - {name: 印尼阿伟科技atTG/油管_1, server: 183.232.56.161, port: 1952, type: vmess, uuid: 7ff41058-b662-3352-9e7f-643ef2d78344, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: 意大利阿伟科技atTG/油管_2, server: 37.9.229.103, port: 443, type: vmess, uuid: a30cef7c-77d5-48cb-b2eb-cda85963b42f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: 新加坡阿伟科技atTG/油管_3, server: styd.sf66.cf, port: 52412, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: styd.sf66.cf}}, udp: true}
-  - {name: 新加坡阿伟科技atTG/油管_4, server: 20.212.116.47, port: 80, type: vmess, uuid: a6ee8f1e-21ee-461e-9283-85f2c3de106b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 新加坡阿伟科技atTG/油管_5, server: 20.212.190.157, port: 80, type: vmess, uuid: a6ee8f1e-21ee-461e-9283-85f2c3de106b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 新加坡阿伟科技atTG/油管_6, server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tsg, headers: {Host: fosyd.tuboshu.space}}, udp: true}
-  - {name: 新加坡阿伟科技atTG/油管_7, server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tsg, headers: {Host: gzyd.tuboshu.space}}, udp: true}
-  - {name: 新加坡阿伟科技atTG/油管_8, server: do3.xjp.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: do3.xjp.tgproxy.wtf}}, udp: true}
-  - {name: 新加坡阿伟科技atTG/油管_9, server: 183.232.56.161, port: 1501, type: vmess, uuid: 7ff41058-b662-3352-9e7f-643ef2d78344, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: 新加坡阿伟科技atTG/油管_10, server: ppycn4.ddnsnode.com, port: 26021, type: vmess, uuid: 7f07ee33-7a3d-38c4-9cde-abcfd4be0831, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技atTG/油管_11, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技atTG/油管_12, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技atTG/油管_13, server: keli.scsevers.cf, port: 44444, type: vmess, uuid: 3fd63a1f-3f1c-4f62-8073-dfce344a2bcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技atTG/油管_14, server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技atTG/油管_15, server: 93.wowogg.cyou, port: 52293, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技atTG/油管_16, server: 108.wowogg.cyou, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技atTG/油管_17, server: 85.wgong.xyz, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技atTG/油管_18, server: ggc.sf66.cf, port: 45118, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技atTG/油管_19, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技atTG/油管_20, server: v111.wgong.xyz, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技atTG/油管_21, server: hk-az.licom.ga, port: 10000, type: vmess, uuid: b3491975-1cdc-44e3-888a-2b2e148ce136, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-az.licom.ga}}, udp: true}
-  - {name: 香港阿伟科技atTG/油管_22, server: hk-az.licom.ga, port: 10000, type: vmess, uuid: b3491975-1cdc-44e3-888a-2b2e148ce136, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-az.licom.ga}}, udp: true}
-  - {name: 香港阿伟科技atTG/油管_23, server: 104.208.106.80, port: 21062, type: trojan, password: 24d2f9c6-3174-4e4b-9f25-ad5b191dc49e, sni: mhk17.shanjun.me, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技atTG/油管_24, server: hk-az-2.licom.ga, port: 443, type: trojan, password: b3491975-1cdc-44e3-888a-2b2e148ce136, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技atTG/油管_25, server: v111.wgong.xyz, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技atTG/油管_26, server: 34.96.245.41, port: 40324, type: vmess, uuid: 85a02d24-b7cc-4978-81ba-f43263d73bc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 土耳其阿伟科技atTG/油管_27, server: cslt.sf66.cf, port: 29164, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cslt.sf66.cf}}, udp: true}
-  - {name: 台湾阿伟科技atTG/油管_28, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /biteb}, udp: true}
-  - {name: 台湾阿伟科技atTG/油管_29, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /biteb}, udp: true}
-  - {name: 台湾阿伟科技atTG/油管_30, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw02.fans8.xyz}}, udp: true}
-  - {name: 台湾阿伟科技atTG/油管_31, server: 139.226.78.178, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /biteb}, udp: true}
-  - {name: 台湾阿伟科技atTG/油管_32, server: tunnel-tw-a-01.xncloud.xyz, port: 505, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: tunnel-tw-a-01.xncloud.xyz}}, udp: true}
-  - {name: 台湾阿伟科技atTG/油管_33, server: cslt.sf66.cf, port: 42923, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: cslt.sf66.cf}}, udp: true}
-  - {name: 台湾阿伟科技atTG/油管_34, server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1207tw.fans8.xyz}}, udp: true}
-  - {name: 台湾阿伟科技atTG/油管_35, server: 139.226.78.178, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /biteb}, udp: true}
-  - {name: 台湾阿伟科技atTG/油管_36, server: tunnel-tw-a-01.xncloud.xyz, port: 502, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: tunnel-tw-a-01.xncloud.xyz}}, udp: true}
-  - {name: 台湾阿伟科技atTG/油管_37, server: tw.twz.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: tw.twz.tgproxy.wtf}}, udp: true}
-  - {name: 台湾阿伟科技atTG/油管_38, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw02.fans8.xyz}}, udp: true}
-  - {name: 瑞典阿伟科技atTG/油管_39, server: se.oceancloud.asia, port: 12100, type: vmess, uuid: adfc4bf6-8f7d-393e-9997-7dd969d9ea88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /se, headers: {Host: se.oceancloud.asia}}, udp: true}
-  - {name: 瑞典阿伟科技atTG/油管_40, server: 176.126.70.189, port: 12100, type: vmess, uuid: adfc4bf6-8f7d-393e-9997-7dd969d9ea88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /se}, udp: true}
-  - {name: 日本港阿伟科技atTG/油管_41, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技atTG/油管_42, server: 0211jp11.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0211jp11.fans8.xyz}}, udp: true}
-  - {name: 日本阿伟科技atTG/油管_43, server: 0211jp11.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0211jp11.fans8.xyz}}, udp: true}
-  - {name: 日本阿伟科技atTG/油管_44, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技atTG/油管_45, server: 105.wgong.xyz, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技atTG/油管_46, server: 0211jp11.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0211jp11.fans8.xyz}}, udp: true}
-  - {name: 日本阿伟科技atTG/油管_47, server: 23.100.91.112, port: 52225, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技atTG/油管_48, server: hg-az.licom.ga, port: 80, type: vmess, uuid: b3491975-1cdc-44e3-888a-2b2e148ce136, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hg-az.licom.ga}}, udp: true}
-  - {name: 日本阿伟科技atTG/油管_49, server: 183.232.56.161, port: 1202, type: vmess, uuid: 7ff41058-b662-3352-9e7f-643ef2d78344, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: 日本阿伟科技atTG/油管_50, server: ggc.sf66.cf, port: 45641, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ggc.sf66.cf}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_51, server: 6.lyzghim.com, port: 443, type: vmess, uuid: 2bb8823b-6938-4c82-87dc-0dee4c118b2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 6.lyzghim.com}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_52, server: 6.lyzghim.com, port: 443, type: vmess, uuid: 2bb8823b-6938-4c82-87dc-0dee4c118b2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 6.lyzghim.com}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_53, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技atTG/油管_54, server: fg.jgw.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: fg.jgw.tgproxy.wtf}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_55, server: uswest.licom.ga, port: 80, type: vmess, uuid: b3491975-1cdc-44e3-888a-2b2e148ce136, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uswest.licom.ga}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_56, server: 72.11.136.212, port: 443, type: vmess, uuid: 6b02b504-ead6-4939-ba1c-afa5b92a6f6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_57, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, headers: {Host: anzhuo-hezi1.herokuapp.com}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_58, server: hk-az-2.licom.ga, port: 80, type: vmess, uuid: b3491975-1cdc-44e3-888a-2b2e148ce136, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-az-2.licom.ga}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_59, server: hk1-aws.surplus.buzz, port: 80, type: vmess, uuid: b3491975-1cdc-44e3-888a-2b2e148ce136, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1-aws.surplus.buzz}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_60, server: ggz.jgw.tgproxy.wtf, port: 80, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: ggz.jgw.tgproxy.wtf}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_61, server: us-ny-rn.licom.ga, port: 99, type: vmess, uuid: b3491975-1cdc-44e3-888a-2b2e148ce136, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-ny-rn.licom.ga}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_62, server: hg-az.licom.ga, port: 80, type: vmess, uuid: b3491975-1cdc-44e3-888a-2b2e148ce136, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hg-az.licom.ga}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_63, server: uswest.licom.ga, port: 80, type: vmess, uuid: b3491975-1cdc-44e3-888a-2b2e148ce136, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uswest.licom.ga}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_64, server: us-ny-rn.licom.ga, port: 99, type: vmess, uuid: b3491975-1cdc-44e3-888a-2b2e148ce136, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-ny-rn.licom.ga}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_65, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, headers: {Host: anzhuo-hezi1.herokuapp.com}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_66, server: jinsen.cf, port: 80, type: vmess, uuid: 5eefacb4-ed77-4717-e081-601abe1272d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jinsen.cf}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_67, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shuier}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_68, server: zxc.vincc.top, port: 26050, type: vmess, uuid: c1651f37-934d-43d7-8f69-681b7e93d263, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxc.vincc.top}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_69, server: 196.247.24.156, port: 443, type: vmess, uuid: c028c1ff-c006-4dc7-bd7e-a61c99b4f306, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_70, server: styd.sf66.cf, port: 16990, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: styd.sf66.cf}}, udp: true}
-  - {name: 美国阿伟科技atTG/油管_71, server: aws-us-2.xc163.ml, port: 443, type: trojan, password: gyNQcLqw14, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技atTG/油管_72, server: aws-us-3.xc163.ml, port: 443, type: trojan, password: ZzgkJ2oWtL, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技atTG/油管_73, server: cn2-cn2.ddnsnode.com, port: 26001, type: vmess, uuid: 7f07ee33-7a3d-38c4-9cde-abcfd4be0831, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国阿伟科技atTG/油管_74, server: oracle.kr.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: oracle.kr.tgproxy.wtf}}, udp: true}
-  - {name: 韩国阿伟科技atTG/油管_75, server: dali-hz.8n4t.cn, port: 37211, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: dali-hz.8n4t.cn}}, udp: true}
-  - {name: 韩国阿伟科技atTG/油管_76, server: kr1-aws.surplus.buzz, port: 80, type: vmess, uuid: b3491975-1cdc-44e3-888a-2b2e148ce136, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kr1-aws.surplus.buzz}}, udp: true}
-  - {name: 韩国阿伟科技atTG/油管_77, server: kr1-aws.surplus.buzz, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: b3491975-1cdc-44e3-888a-2b2e148ce136, udp: true}
-  - {name: 韩国阿伟科技atTG/油管_78, server: 146.56.111.194, port: 18408, type: vmess, uuid: 92a5db6f-e3bb-422e-caba-fb52df9350c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯阿伟科技atTG/油管_79, server: 5.188.35.120, port: 443, type: vmess, uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: 俄罗斯阿伟科技atTG/油管_80, server: 128tw01.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw01.fans8.xyz}}, udp: true}
-  - {name: 俄罗斯阿伟科技atTG/油管_81, server: 128tw01.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw01.fans8.xyz}}, udp: true}
-  - {name: 迪拜阿伟科技atTG/油管_82, server: 193.123.95.114, port: 21999, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 迪拜阿伟科技atTG/油管_83, server: styd.sf66.cf, port: 50741, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: styd.sf66.cf}}, udp: true}
-  - {name: 德国阿伟科技atTG/油管_84, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: 德国阿伟科技atTG/油管_85, server: 37.120.134.207, port: 443, type: vmess, uuid: 5c0beec7-9b91-4e28-85b0-e3ff49b4ac50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: 德国阿伟科技atTG/油管_86, server: gia.uk.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: gia.uk.tgproxy.wtf}}, udp: true}
-  - {name: 德国阿伟科技atTG/油管_87, server: dg.jgw.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: dg.jgw.tgproxy.wtf}}, udp: true}
-  - {name: 澳大利亚阿伟科技atTG/油管_88, server: 217.138.204.202, port: 443, type: vmess, uuid: fa1eff46-f454-42d9-b881-90a102d5521d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: 澳大利亚阿伟科技atTG/油管_89, server: ls.yunsu.ke666.net, port: 34025, type: vmess, uuid: 7a875411-5911-4752-b129-e89722f0e740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yunsunode, headers: {Host: ls.yunsu.ke666.net}}, udp: true}
+  - {name: _FR_法国, server: 145.239.1.100, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_英国, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.193, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国, server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: dax6ujai.com}}, udp: true}
+  - {name: _SG_新加坡, server: 139.99.123.156, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2396,95 +2317,16 @@ proxy-groups:
       - 解锁流媒体001 18
       - 解锁流媒体001 19
       - 解锁流媒体001 20
-      - 印尼阿伟科技atTG/油管_1
-      - 意大利阿伟科技atTG/油管_2
-      - 新加坡阿伟科技atTG/油管_3
-      - 新加坡阿伟科技atTG/油管_4
-      - 新加坡阿伟科技atTG/油管_5
-      - 新加坡阿伟科技atTG/油管_6
-      - 新加坡阿伟科技atTG/油管_7
-      - 新加坡阿伟科技atTG/油管_8
-      - 新加坡阿伟科技atTG/油管_9
-      - 新加坡阿伟科技atTG/油管_10
-      - 香港阿伟科技atTG/油管_11
-      - 香港阿伟科技atTG/油管_12
-      - 香港阿伟科技atTG/油管_13
-      - 香港阿伟科技atTG/油管_14
-      - 香港阿伟科技atTG/油管_15
-      - 香港阿伟科技atTG/油管_16
-      - 香港阿伟科技atTG/油管_17
-      - 香港阿伟科技atTG/油管_18
-      - 香港阿伟科技atTG/油管_19
-      - 香港阿伟科技atTG/油管_20
-      - 香港阿伟科技atTG/油管_21
-      - 香港阿伟科技atTG/油管_22
-      - 香港阿伟科技atTG/油管_23
-      - 香港阿伟科技atTG/油管_24
-      - 香港阿伟科技atTG/油管_25
-      - 香港阿伟科技atTG/油管_26
-      - 土耳其阿伟科技atTG/油管_27
-      - 台湾阿伟科技atTG/油管_28
-      - 台湾阿伟科技atTG/油管_29
-      - 台湾阿伟科技atTG/油管_30
-      - 台湾阿伟科技atTG/油管_31
-      - 台湾阿伟科技atTG/油管_32
-      - 台湾阿伟科技atTG/油管_33
-      - 台湾阿伟科技atTG/油管_34
-      - 台湾阿伟科技atTG/油管_35
-      - 台湾阿伟科技atTG/油管_36
-      - 台湾阿伟科技atTG/油管_37
-      - 台湾阿伟科技atTG/油管_38
-      - 瑞典阿伟科技atTG/油管_39
-      - 瑞典阿伟科技atTG/油管_40
-      - 日本港阿伟科技atTG/油管_41
-      - 日本阿伟科技atTG/油管_42
-      - 日本阿伟科技atTG/油管_43
-      - 日本阿伟科技atTG/油管_44
-      - 日本阿伟科技atTG/油管_45
-      - 日本阿伟科技atTG/油管_46
-      - 日本阿伟科技atTG/油管_47
-      - 日本阿伟科技atTG/油管_48
-      - 日本阿伟科技atTG/油管_49
-      - 日本阿伟科技atTG/油管_50
-      - 美国阿伟科技atTG/油管_51
-      - 美国阿伟科技atTG/油管_52
-      - 美国阿伟科技atTG/油管_53
-      - 美国阿伟科技atTG/油管_54
-      - 美国阿伟科技atTG/油管_55
-      - 美国阿伟科技atTG/油管_56
-      - 美国阿伟科技atTG/油管_57
-      - 美国阿伟科技atTG/油管_58
-      - 美国阿伟科技atTG/油管_59
-      - 美国阿伟科技atTG/油管_60
-      - 美国阿伟科技atTG/油管_61
-      - 美国阿伟科技atTG/油管_62
-      - 美国阿伟科技atTG/油管_63
-      - 美国阿伟科技atTG/油管_64
-      - 美国阿伟科技atTG/油管_65
-      - 美国阿伟科技atTG/油管_66
-      - 美国阿伟科技atTG/油管_67
-      - 美国阿伟科技atTG/油管_68
-      - 美国阿伟科技atTG/油管_69
-      - 美国阿伟科技atTG/油管_70
-      - 美国阿伟科技atTG/油管_71
-      - 美国阿伟科技atTG/油管_72
-      - 美国阿伟科技atTG/油管_73
-      - 韩国阿伟科技atTG/油管_74
-      - 韩国阿伟科技atTG/油管_75
-      - 韩国阿伟科技atTG/油管_76
-      - 韩国阿伟科技atTG/油管_77
-      - 韩国阿伟科技atTG/油管_78
-      - 俄罗斯阿伟科技atTG/油管_79
-      - 俄罗斯阿伟科技atTG/油管_80
-      - 俄罗斯阿伟科技atTG/油管_81
-      - 迪拜阿伟科技atTG/油管_82
-      - 迪拜阿伟科技atTG/油管_83
-      - 德国阿伟科技atTG/油管_84
-      - 德国阿伟科技atTG/油管_85
-      - 德国阿伟科技atTG/油管_86
-      - 德国阿伟科技atTG/油管_87
-      - 澳大利亚阿伟科技atTG/油管_88
-      - 澳大利亚阿伟科技atTG/油管_89
+      - _FR_法国
+      - _GB_英国
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _US_美国
+      - _SG_新加坡
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _GB_英国 2
+      - _GB_英国 3
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4035,95 +3877,16 @@ proxy-groups:
       - 解锁流媒体001 18
       - 解锁流媒体001 19
       - 解锁流媒体001 20
-      - 印尼阿伟科技atTG/油管_1
-      - 意大利阿伟科技atTG/油管_2
-      - 新加坡阿伟科技atTG/油管_3
-      - 新加坡阿伟科技atTG/油管_4
-      - 新加坡阿伟科技atTG/油管_5
-      - 新加坡阿伟科技atTG/油管_6
-      - 新加坡阿伟科技atTG/油管_7
-      - 新加坡阿伟科技atTG/油管_8
-      - 新加坡阿伟科技atTG/油管_9
-      - 新加坡阿伟科技atTG/油管_10
-      - 香港阿伟科技atTG/油管_11
-      - 香港阿伟科技atTG/油管_12
-      - 香港阿伟科技atTG/油管_13
-      - 香港阿伟科技atTG/油管_14
-      - 香港阿伟科技atTG/油管_15
-      - 香港阿伟科技atTG/油管_16
-      - 香港阿伟科技atTG/油管_17
-      - 香港阿伟科技atTG/油管_18
-      - 香港阿伟科技atTG/油管_19
-      - 香港阿伟科技atTG/油管_20
-      - 香港阿伟科技atTG/油管_21
-      - 香港阿伟科技atTG/油管_22
-      - 香港阿伟科技atTG/油管_23
-      - 香港阿伟科技atTG/油管_24
-      - 香港阿伟科技atTG/油管_25
-      - 香港阿伟科技atTG/油管_26
-      - 土耳其阿伟科技atTG/油管_27
-      - 台湾阿伟科技atTG/油管_28
-      - 台湾阿伟科技atTG/油管_29
-      - 台湾阿伟科技atTG/油管_30
-      - 台湾阿伟科技atTG/油管_31
-      - 台湾阿伟科技atTG/油管_32
-      - 台湾阿伟科技atTG/油管_33
-      - 台湾阿伟科技atTG/油管_34
-      - 台湾阿伟科技atTG/油管_35
-      - 台湾阿伟科技atTG/油管_36
-      - 台湾阿伟科技atTG/油管_37
-      - 台湾阿伟科技atTG/油管_38
-      - 瑞典阿伟科技atTG/油管_39
-      - 瑞典阿伟科技atTG/油管_40
-      - 日本港阿伟科技atTG/油管_41
-      - 日本阿伟科技atTG/油管_42
-      - 日本阿伟科技atTG/油管_43
-      - 日本阿伟科技atTG/油管_44
-      - 日本阿伟科技atTG/油管_45
-      - 日本阿伟科技atTG/油管_46
-      - 日本阿伟科技atTG/油管_47
-      - 日本阿伟科技atTG/油管_48
-      - 日本阿伟科技atTG/油管_49
-      - 日本阿伟科技atTG/油管_50
-      - 美国阿伟科技atTG/油管_51
-      - 美国阿伟科技atTG/油管_52
-      - 美国阿伟科技atTG/油管_53
-      - 美国阿伟科技atTG/油管_54
-      - 美国阿伟科技atTG/油管_55
-      - 美国阿伟科技atTG/油管_56
-      - 美国阿伟科技atTG/油管_57
-      - 美国阿伟科技atTG/油管_58
-      - 美国阿伟科技atTG/油管_59
-      - 美国阿伟科技atTG/油管_60
-      - 美国阿伟科技atTG/油管_61
-      - 美国阿伟科技atTG/油管_62
-      - 美国阿伟科技atTG/油管_63
-      - 美国阿伟科技atTG/油管_64
-      - 美国阿伟科技atTG/油管_65
-      - 美国阿伟科技atTG/油管_66
-      - 美国阿伟科技atTG/油管_67
-      - 美国阿伟科技atTG/油管_68
-      - 美国阿伟科技atTG/油管_69
-      - 美国阿伟科技atTG/油管_70
-      - 美国阿伟科技atTG/油管_71
-      - 美国阿伟科技atTG/油管_72
-      - 美国阿伟科技atTG/油管_73
-      - 韩国阿伟科技atTG/油管_74
-      - 韩国阿伟科技atTG/油管_75
-      - 韩国阿伟科技atTG/油管_76
-      - 韩国阿伟科技atTG/油管_77
-      - 韩国阿伟科技atTG/油管_78
-      - 俄罗斯阿伟科技atTG/油管_79
-      - 俄罗斯阿伟科技atTG/油管_80
-      - 俄罗斯阿伟科技atTG/油管_81
-      - 迪拜阿伟科技atTG/油管_82
-      - 迪拜阿伟科技atTG/油管_83
-      - 德国阿伟科技atTG/油管_84
-      - 德国阿伟科技atTG/油管_85
-      - 德国阿伟科技atTG/油管_86
-      - 德国阿伟科技atTG/油管_87
-      - 澳大利亚阿伟科技atTG/油管_88
-      - 澳大利亚阿伟科技atTG/油管_89
+      - _FR_法国
+      - _GB_英国
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _US_美国
+      - _SG_新加坡
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _GB_英国 2
+      - _GB_英国 3
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5138,23 +4901,6 @@ proxy-groups:
       - 香港（YouTube资源分享者） 11
       - 香港（YouTube资源分享者） 12
       - 香港（YouTube资源分享者） 13
-      - 香港阿伟科技atTG/油管_11
-      - 香港阿伟科技atTG/油管_12
-      - 香港阿伟科技atTG/油管_13
-      - 香港阿伟科技atTG/油管_14
-      - 香港阿伟科技atTG/油管_15
-      - 香港阿伟科技atTG/油管_16
-      - 香港阿伟科技atTG/油管_17
-      - 香港阿伟科技atTG/油管_18
-      - 香港阿伟科技atTG/油管_19
-      - 香港阿伟科技atTG/油管_20
-      - 香港阿伟科技atTG/油管_21
-      - 香港阿伟科技atTG/油管_22
-      - 香港阿伟科技atTG/油管_23
-      - 香港阿伟科技atTG/油管_24
-      - 香港阿伟科技atTG/油管_25
-      - 香港阿伟科技atTG/油管_26
-      - 日本港阿伟科技atTG/油管_41
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -5235,16 +4981,6 @@ proxy-groups:
       - "@SSRSUB-东京T09-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-大阪T18-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-东京T19-付费推荐:dlj.tf/ssrsub"
-      - 日本港阿伟科技atTG/油管_41
-      - 日本阿伟科技atTG/油管_42
-      - 日本阿伟科技atTG/油管_43
-      - 日本阿伟科技atTG/油管_44
-      - 日本阿伟科技atTG/油管_45
-      - 日本阿伟科技atTG/油管_46
-      - 日本阿伟科技atTG/油管_47
-      - 日本阿伟科技atTG/油管_48
-      - 日本阿伟科技atTG/油管_49
-      - 日本阿伟科技atTG/油管_50
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -5473,29 +5209,7 @@ proxy-groups:
       - Ytb:鹏哥分享_US_美国_329
       - Ytb:鹏哥分享_US_美国_331
       - Ytb:鹏哥分享_US_美国_332
-      - 美国阿伟科技atTG/油管_51
-      - 美国阿伟科技atTG/油管_52
-      - 美国阿伟科技atTG/油管_53
-      - 美国阿伟科技atTG/油管_54
-      - 美国阿伟科技atTG/油管_55
-      - 美国阿伟科技atTG/油管_56
-      - 美国阿伟科技atTG/油管_57
-      - 美国阿伟科技atTG/油管_58
-      - 美国阿伟科技atTG/油管_59
-      - 美国阿伟科技atTG/油管_60
-      - 美国阿伟科技atTG/油管_61
-      - 美国阿伟科技atTG/油管_62
-      - 美国阿伟科技atTG/油管_63
-      - 美国阿伟科技atTG/油管_64
-      - 美国阿伟科技atTG/油管_65
-      - 美国阿伟科技atTG/油管_66
-      - 美国阿伟科技atTG/油管_67
-      - 美国阿伟科技atTG/油管_68
-      - 美国阿伟科技atTG/油管_69
-      - 美国阿伟科技atTG/油管_70
-      - 美国阿伟科技atTG/油管_71
-      - 美国阿伟科技atTG/油管_72
-      - 美国阿伟科技atTG/油管_73
+      - _US_美国
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -5730,17 +5444,6 @@ proxy-groups:
       - 台湾（YouTube资源分享者） 8
       - Ytb:鹏哥分享_TW_台湾_272
       - Ytb:鹏哥分享_TW_台湾_284
-      - 台湾阿伟科技atTG/油管_28
-      - 台湾阿伟科技atTG/油管_29
-      - 台湾阿伟科技atTG/油管_30
-      - 台湾阿伟科技atTG/油管_31
-      - 台湾阿伟科技atTG/油管_32
-      - 台湾阿伟科技atTG/油管_33
-      - 台湾阿伟科技atTG/油管_34
-      - 台湾阿伟科技atTG/油管_35
-      - 台湾阿伟科技atTG/油管_36
-      - 台湾阿伟科技atTG/油管_37
-      - 台湾阿伟科技atTG/油管_38
       - 台湾（YouTube资源分享者） 9
       - 台湾（YouTube资源分享者） 10
       - 台湾（YouTube资源分享者） 11
@@ -5775,14 +5478,7 @@ proxy-groups:
       - 新加坡（YouTube资源分享者）
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V18-付费推荐::suo.yt/ssrsub"
-      - 新加坡阿伟科技atTG/油管_3
-      - 新加坡阿伟科技atTG/油管_4
-      - 新加坡阿伟科技atTG/油管_5
-      - 新加坡阿伟科技atTG/油管_6
-      - 新加坡阿伟科技atTG/油管_7
-      - 新加坡阿伟科技atTG/油管_8
-      - 新加坡阿伟科技atTG/油管_9
-      - 新加坡阿伟科技atTG/油管_10
+      - _SG_新加坡
       - 新加坡（YouTube资源分享者） 2
       - _SG_新加坡_FMYC—2022.02.14_43
       - _SG_新加坡_FMYC—2022.02.14_44
@@ -5829,11 +5525,6 @@ proxy-groups:
       - "@SSRSUB-首尔T10-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-韩国T15-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-首尔T20-付费推荐:dlj.tf/ssrsub"
-      - 韩国阿伟科技atTG/油管_74
-      - 韩国阿伟科技atTG/油管_75
-      - 韩国阿伟科技atTG/油管_76
-      - 韩国阿伟科技atTG/油管_77
-      - 韩国阿伟科技atTG/油管_78
       - _KR_韩国_FMYC—2022.02.14_49
       - _KR_韩国_FMYC—2022.02.14_152
       - _KR_韩国_FMYC—2022.02.14_228
