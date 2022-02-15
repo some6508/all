@@ -5,739 +5,102 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇫🇷_FR_法国_1","server":"145.239.1.100","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇬🇧_GB_英国_2","server":"172.99.190.39","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.193","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.196.193","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸_US_美国_5","server":"45.58.150.130","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"dax6ujai.com"}}
-  - {"name":"🇸🇬_SG_新加坡_6","server":"139.99.123.156","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_7","server":"134.195.196.200","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦_CA_加拿大_8","server":"134.195.196.200","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇬🇧_GB_英国_9","server":"172.99.190.39","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇬🇧_GB_英国_10","server":"172.99.190.205","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"default_name_11","server":"anzhuo-hezi1.herokuapp.com","port":443,"type":"vmess","uuid":"05b8441f-3c76-4af1-b5b9-dd60d27e5ef8","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess"}}
-  - {"name":"🇨🇦_CA_加拿大_12","server":"134.195.196.200","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_13","server":"134.195.196.200","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇫🇷_FR_法国_14","server":"149.202.82.172","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"default_name_15","server":"198.41.212.18","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
-  - {"name":"🇨🇦_CA_加拿大_16","server":"134.195.196.193","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦_CA_加拿大_17","server":"134.195.196.193","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_18","server":"w5.v2mmy.xyz","port":44823,"type":"ss","cipher":"aes-128-gcm","password":"96a8a81d-6180-48ae-aef0-0214c1e7e2ac"}
-  - {"name":"🇬🇧_GB_英国_19","server":"172.99.190.39","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇫🇷_FR_法国_20","server":"149.202.82.172","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸_US_美国_21","server":"169.197.143.219","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"default_name_22","server":"cloudflare.a-yu.xyz","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero2.a-yu.xyz"}}
-  - {"name":"🇫🇷_FR_法国_23","server":"149.202.82.172","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_24","server":"w2.v2mmy.xyz","port":44815,"type":"ss","cipher":"aes-128-gcm","password":"96a8a81d-6180-48ae-aef0-0214c1e7e2ac"}
-  - {"name":"🇫🇷_FR_法国_25","server":"149.202.82.172","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA_加拿大_26","server":"134.195.196.193","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇬🇧_GB_英国_27","server":"172.99.190.149","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷_FR_法国_28","server":"62.210.209.50","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"default_name_29","server":"198.41.212.13","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
-  - {"name":"🇬🇧_GB_英国_30","server":"172.99.190.188","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇬🇧_GB_英国_31","server":"172.99.190.188","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇬🇧_GB_英国_32","server":"172.99.190.188","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇸🇬_SG_新加坡_33","server":"do3.xjp.tgproxy.wtf","port":21888,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"do3.xjp.tgproxy.wtf"}}
-  - {"name":"🇨🇳_CN_中国->🇱🇹_LT_立陶宛_34","server":"w3.v2mmy.xyz","port":44816,"type":"ss","cipher":"aes-128-gcm","password":"96a8a81d-6180-48ae-aef0-0214c1e7e2ac"}
-  - {"name":"default_name_35","server":"v8.ssrsub.com","port":443,"type":"vmess","uuid":"8a233a34-36f4-400d-b7c8-93024e518ddb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇬🇧_GB_英国_36","server":"172.99.190.39","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷_FR_法国_37","server":"149.202.82.172","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇸🇪_SE_瑞典_38","server":"dg.jgw.tgproxy.wtf","port":443,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"dg.jgw.tgproxy.wtf"}}
-  - {"name":"🇱🇻_LV_拉脱维亚_39","server":"lv.tgproxy.wtf","port":2052,"type":"vmess","uuid":"ae7486f9-d7b7-4f26-97a0-dc5b093dfa89","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"lv.tgproxy.wtf"}}
-  - {"name":"default_name_40","server":"styd.sf66.cf","port":38461,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"tw.twz.tgproxy.wtf"}}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_41","server":"w2.v2mmy.xyz","port":44819,"type":"ss","cipher":"aes-128-gcm","password":"96a8a81d-6180-48ae-aef0-0214c1e7e2ac"}
-  - {"name":"🇫🇷_FR_法国_42","server":"145.239.1.100","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇫🇷_FR_法国_43","server":"149.202.82.172","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇫🇷_FR_法国_44","server":"149.202.82.172","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_45","server":"172.99.190.149","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷_FR_法国_46","server":"145.239.1.100","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"default_name_47","server":"v2.ssrsub.com","port":8443,"type":"vmess","uuid":"8a233a34-36f4-400d-b7c8-93024e518ddb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇬🇧_GB_英国_48","server":"172.99.190.39","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇸🇬_SG_新加坡_49","server":"161.117.89.42","port":443,"type":"vmess","uuid":"0a4c6fff-51df-45fb-85af-b64bd3819064","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","host":"govacaxixo.watchdoctor.xyz"}}
-  - {"name":"🇨🇦_CA_加拿大_50","server":"134.195.196.200","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇬🇧_GB_英国_51","server":"172.99.190.205","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇬🇧_GB_英国_52","server":"172.99.190.39","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦_CA_加拿大_53","server":"134.195.196.147","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US_美国_54","server":"169.197.141.91","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"default_name_55","server":"tw.twz.tgproxy.wtf","port":21888,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"tw.twz.tgproxy.wtf"}}
-  - {"name":"🇨🇦_CA_加拿大_56","server":"134.195.196.147","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_57","server":"169.197.143.219","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_58","server":"aws.us.tgproxy.wtf","port":21888,"type":"vmess","uuid":"ae7486f9-d7b7-4f26-97a0-dc5b093dfa89","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"aws.us.tgproxy.wtf"}}
-  - {"name":"🇨🇦_CA_加拿大_59","server":"134.195.196.200","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇬🇧_GB_英国_60","server":"172.99.190.188","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇫🇷_FR_法国_61","server":"149.202.82.172","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_62","server":"134.195.196.193","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇭🇰_HK_香港_63","server":"93.179.125.232","port":21167,"type":"ss","cipher":"aes-128-gcm","password":"Misaka"}
-  - {"name":"🇺🇸_US_美国_64","server":"ggz.jgw.tgproxy.wtf","port":80,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"ggz.jgw.tgproxy.wtf"}}
-  - {"name":"🇨🇦_CA_加拿大_65","server":"134.195.196.200","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"default_name_66","server":"198.41.212.234","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"2022-world-1.a-yu.xyz"}}
-  - {"name":"🇨🇦_CA_加拿大_67","server":"134.195.196.147","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇸🇬_SG_新加坡_68","server":"128.1.95.250","port":443,"type":"vmess","uuid":"65e05113-3849-4ce4-9881-5a891c2b1eeb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","host":"govacaxixo.watchdoctor.xyz"}}
-  - {"name":"🇬🇧_GB_英国_69","server":"172.99.190.39","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_70","server":"134.195.196.200","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷_FR_法国_71","server":"149.202.82.172","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA_加拿大_72","server":"134.195.196.200","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_73","server":"us.lv.buyvm.tgproxy.wtf","port":21888,"type":"vmess","uuid":"d064d11b-477c-4c5d-a2d8-9fd599ef8e79","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi"}}
-  - {"name":"🇫🇷_FR_法国_74","server":"145.239.1.100","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇫🇷_FR_法国_75","server":"145.239.1.100","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇳_CN_中国->🇭🇺_HU_匈牙利_76","server":"w3.v2mmy.xyz","port":44818,"type":"ss","cipher":"aes-128-gcm","password":"96a8a81d-6180-48ae-aef0-0214c1e7e2ac"}
-  - {"name":"🇺🇸_US_美国_77","server":"amu1ahfi.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"amu1ahfi.com"}}
-  - {"name":"🇺🇸_US_美国_78","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-dallas.lvuft.com"}}
-  - {"name":"🇨🇦_CA_加拿大_79","server":"134.195.196.193","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_80","server":"172.99.190.39","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_81","server":"zxc.vincc.top","port":26050,"type":"vmess","uuid":"c1651f37-934d-43d7-8f69-681b7e93d263","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_82","server":"92.223.65.119","port":443,"type":"vmess","uuid":"3fd6713f-e036-4ba9-938a-da7843a17a15","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","host":"govacaxixo.watchdoctor.xyz"}}
-  - {"name":"🇨🇦_CA_加拿大_83","server":"134.195.196.147","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇩🇪_DE_德国_84","server":"37.61.213.94","port":443,"type":"vmess","uuid":"97ff78ea-8807-4c33-93e5-d8481ac0539e","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","host":"govacaxixo.watchdoctor.xyz"}}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_85","server":"w5.v2mmy.xyz","port":44820,"type":"ss","cipher":"aes-128-gcm","password":"96a8a81d-6180-48ae-aef0-0214c1e7e2ac"}
-  - {"name":"🇬🇧_GB_英国_86","server":"172.99.190.188","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇯🇵_JP_日本_87","server":"85.208.108.106","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_88","server":"134.195.196.200","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"default_name_89","server":"104.27.89.125","port":443,"type":"vmess","uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","host":"xiaochen.chenyingjie5201314.workers.dev"}}
-  - {"name":"🇺🇸_US_美国_90","server":"v1.ssrsub.com","port":443,"type":"vmess","uuid":"21627f29-0d0f-4dfa-9740-b5ee360bf061","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"default_name_91","server":"198.41.212.2","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
-  - {"name":"🇬🇧_GB_英国_92","server":"172.99.190.149","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇮🇹_IT_意大利_93","server":"37.9.229.103","port":443,"type":"vmess","uuid":"a30cef7c-77d5-48cb-b2eb-cda85963b42f","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","host":"govacaxixo.watchdoctor.xyz"}}
-  - {"name":"default_name_94","server":"149.202.82.172","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_95","server":"134.195.196.200","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_96","server":"172.99.190.39","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇫🇷_FR_法国_97","server":"145.239.1.100","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇬🇧_GB_英国_98","server":"172.99.190.149","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_99","server":"169.197.143.219","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_100","server":"134.195.196.193","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"做爱电影：shishi871112atgmail_com_1","server":"styd.sf66.cf","port":50741,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","host":"styd.sf66.cf"}}
+  - {"name":"做爱电影：shishi871112atgmail_com_2","server":"do3.xjp.tgproxy.wtf","port":21888,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"do3.xjp.tgproxy.wtf"}}
+  - {"name":"做爱电影：shishi871112atgmail_com_3","server":"dali-hz.8n4t.cn","port":37211,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"oracle.kr.tgproxy.wtf"}}
+  - {"name":"做爱电影：shishi871112atgmail_com_4","server":"92.223.72.42","port":443,"type":"vmess","uuid":"ae08412f-5bb9-4be7-8560-1984976a1097","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","host":"govacaxixo.watchdoctor.xyz"}}
+  - {"name":"做爱电影：shishi871112atgmail_com_5","server":"styd.sf66.cf","port":16990,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"ggz.jgw.tgproxy.wtf"}}
+  - {"name":"做爱电影：shishi871112atgmail_com_6","server":"dg.jgw.tgproxy.wtf","port":443,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"dg.jgw.tgproxy.wtf"}}
+  - {"name":"做爱电影：shishi871112atgmail_com_7","server":"tw.v2ssvps.com","port":60763,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"microsoft.com"}}
+  - {"name":"做爱电影：shishi871112atgmail_com_8","server":"69.64.248.199","port":443,"type":"vmess","uuid":"7235b329-e205-4fcb-bcd6-81c19fbb9e85","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","host":"govacaxixo.watchdoctor.xyz"}}
+  - {"name":"做爱电影：shishi871112atgmail_com_9","server":"128.1.125.164","port":443,"type":"vmess","uuid":"312c3de7-233e-4d72-b3dc-de0205083312","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","host":"govacaxixo.watchdoctor.xyz"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇫🇷_FR_法国_1
-      - 🇬🇧_GB_英国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国_5
-      - 🇸🇬_SG_新加坡_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇫🇷_FR_法国_14
-      - default_name_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_18
-      - 🇬🇧_GB_英国_19
-      - 🇫🇷_FR_法国_20
-      - 🇺🇸_US_美国_21
-      - default_name_22
-      - 🇫🇷_FR_法国_23
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_24
-      - 🇫🇷_FR_法国_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇬🇧_GB_英国_27
-      - 🇫🇷_FR_法国_28
-      - default_name_29
-      - 🇬🇧_GB_英国_30
-      - 🇬🇧_GB_英国_31
-      - 🇬🇧_GB_英国_32
-      - 🇸🇬_SG_新加坡_33
-      - 🇨🇳_CN_中国->🇱🇹_LT_立陶宛_34
-      - default_name_35
-      - 🇬🇧_GB_英国_36
-      - 🇫🇷_FR_法国_37
-      - 🇸🇪_SE_瑞典_38
-      - 🇱🇻_LV_拉脱维亚_39
-      - default_name_40
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_41
-      - 🇫🇷_FR_法国_42
-      - 🇫🇷_FR_法国_43
-      - 🇫🇷_FR_法国_44
-      - 🇬🇧_GB_英国_45
-      - 🇫🇷_FR_法国_46
-      - default_name_47
-      - 🇬🇧_GB_英国_48
-      - 🇸🇬_SG_新加坡_49
-      - 🇨🇦_CA_加拿大_50
-      - 🇬🇧_GB_英国_51
-      - 🇬🇧_GB_英国_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇺🇸_US_美国_54
-      - default_name_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇺🇸_US_美国_57
-      - 🇺🇸_US_美国_58
-      - 🇨🇦_CA_加拿大_59
-      - 🇬🇧_GB_英国_60
-      - 🇫🇷_FR_法国_61
-      - 🇨🇦_CA_加拿大_62
-      - 🇭🇰_HK_香港_63
-      - 🇺🇸_US_美国_64
-      - 🇨🇦_CA_加拿大_65
-      - default_name_66
-      - 🇨🇦_CA_加拿大_67
-      - 🇸🇬_SG_新加坡_68
-      - 🇬🇧_GB_英国_69
-      - 🇨🇦_CA_加拿大_70
-      - 🇫🇷_FR_法国_71
-      - 🇨🇦_CA_加拿大_72
-      - 🇺🇸_US_美国_73
-      - 🇫🇷_FR_法国_74
-      - 🇫🇷_FR_法国_75
-      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利_76
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇬🇧_GB_英国_80
-      - 🇺🇸_US_美国_81
-      - 🇷🇺_RU_俄罗斯联邦_82
-      - 🇨🇦_CA_加拿大_83
-      - 🇩🇪_DE_德国_84
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_85
-      - 🇬🇧_GB_英国_86
-      - 🇯🇵_JP_日本_87
-      - 🇨🇦_CA_加拿大_88
-      - default_name_89
-      - 🇺🇸_US_美国_90
-      - default_name_91
-      - 🇬🇧_GB_英国_92
-      - 🇮🇹_IT_意大利_93
-      - default_name_94
-      - 🇨🇦_CA_加拿大_95
-      - 🇬🇧_GB_英国_96
-      - 🇫🇷_FR_法国_97
-      - 🇬🇧_GB_英国_98
-      - 🇺🇸_US_美国_99
-      - 🇨🇦_CA_加拿大_100
+      - 做爱电影：shishi871112atgmail_com_1
+      - 做爱电影：shishi871112atgmail_com_2
+      - 做爱电影：shishi871112atgmail_com_3
+      - 做爱电影：shishi871112atgmail_com_4
+      - 做爱电影：shishi871112atgmail_com_5
+      - 做爱电影：shishi871112atgmail_com_6
+      - 做爱电影：shishi871112atgmail_com_7
+      - 做爱电影：shishi871112atgmail_com_8
+      - 做爱电影：shishi871112atgmail_com_9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷_FR_法国_1
-      - 🇬🇧_GB_英国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国_5
-      - 🇸🇬_SG_新加坡_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇫🇷_FR_法国_14
-      - default_name_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_18
-      - 🇬🇧_GB_英国_19
-      - 🇫🇷_FR_法国_20
-      - 🇺🇸_US_美国_21
-      - default_name_22
-      - 🇫🇷_FR_法国_23
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_24
-      - 🇫🇷_FR_法国_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇬🇧_GB_英国_27
-      - 🇫🇷_FR_法国_28
-      - default_name_29
-      - 🇬🇧_GB_英国_30
-      - 🇬🇧_GB_英国_31
-      - 🇬🇧_GB_英国_32
-      - 🇸🇬_SG_新加坡_33
-      - 🇨🇳_CN_中国->🇱🇹_LT_立陶宛_34
-      - default_name_35
-      - 🇬🇧_GB_英国_36
-      - 🇫🇷_FR_法国_37
-      - 🇸🇪_SE_瑞典_38
-      - 🇱🇻_LV_拉脱维亚_39
-      - default_name_40
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_41
-      - 🇫🇷_FR_法国_42
-      - 🇫🇷_FR_法国_43
-      - 🇫🇷_FR_法国_44
-      - 🇬🇧_GB_英国_45
-      - 🇫🇷_FR_法国_46
-      - default_name_47
-      - 🇬🇧_GB_英国_48
-      - 🇸🇬_SG_新加坡_49
-      - 🇨🇦_CA_加拿大_50
-      - 🇬🇧_GB_英国_51
-      - 🇬🇧_GB_英国_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇺🇸_US_美国_54
-      - default_name_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇺🇸_US_美国_57
-      - 🇺🇸_US_美国_58
-      - 🇨🇦_CA_加拿大_59
-      - 🇬🇧_GB_英国_60
-      - 🇫🇷_FR_法国_61
-      - 🇨🇦_CA_加拿大_62
-      - 🇭🇰_HK_香港_63
-      - 🇺🇸_US_美国_64
-      - 🇨🇦_CA_加拿大_65
-      - default_name_66
-      - 🇨🇦_CA_加拿大_67
-      - 🇸🇬_SG_新加坡_68
-      - 🇬🇧_GB_英国_69
-      - 🇨🇦_CA_加拿大_70
-      - 🇫🇷_FR_法国_71
-      - 🇨🇦_CA_加拿大_72
-      - 🇺🇸_US_美国_73
-      - 🇫🇷_FR_法国_74
-      - 🇫🇷_FR_法国_75
-      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利_76
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇬🇧_GB_英国_80
-      - 🇺🇸_US_美国_81
-      - 🇷🇺_RU_俄罗斯联邦_82
-      - 🇨🇦_CA_加拿大_83
-      - 🇩🇪_DE_德国_84
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_85
-      - 🇬🇧_GB_英国_86
-      - 🇯🇵_JP_日本_87
-      - 🇨🇦_CA_加拿大_88
-      - default_name_89
-      - 🇺🇸_US_美国_90
-      - default_name_91
-      - 🇬🇧_GB_英国_92
-      - 🇮🇹_IT_意大利_93
-      - default_name_94
-      - 🇨🇦_CA_加拿大_95
-      - 🇬🇧_GB_英国_96
-      - 🇫🇷_FR_法国_97
-      - 🇬🇧_GB_英国_98
-      - 🇺🇸_US_美国_99
-      - 🇨🇦_CA_加拿大_100
+      - 做爱电影：shishi871112atgmail_com_1
+      - 做爱电影：shishi871112atgmail_com_2
+      - 做爱电影：shishi871112atgmail_com_3
+      - 做爱电影：shishi871112atgmail_com_4
+      - 做爱电影：shishi871112atgmail_com_5
+      - 做爱电影：shishi871112atgmail_com_6
+      - 做爱电影：shishi871112atgmail_com_7
+      - 做爱电影：shishi871112atgmail_com_8
+      - 做爱电影：shishi871112atgmail_com_9
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国_1
-      - 🇬🇧_GB_英国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国_5
-      - 🇸🇬_SG_新加坡_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇫🇷_FR_法国_14
-      - default_name_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_18
-      - 🇬🇧_GB_英国_19
-      - 🇫🇷_FR_法国_20
-      - 🇺🇸_US_美国_21
-      - default_name_22
-      - 🇫🇷_FR_法国_23
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_24
-      - 🇫🇷_FR_法国_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇬🇧_GB_英国_27
-      - 🇫🇷_FR_法国_28
-      - default_name_29
-      - 🇬🇧_GB_英国_30
-      - 🇬🇧_GB_英国_31
-      - 🇬🇧_GB_英国_32
-      - 🇸🇬_SG_新加坡_33
-      - 🇨🇳_CN_中国->🇱🇹_LT_立陶宛_34
-      - default_name_35
-      - 🇬🇧_GB_英国_36
-      - 🇫🇷_FR_法国_37
-      - 🇸🇪_SE_瑞典_38
-      - 🇱🇻_LV_拉脱维亚_39
-      - default_name_40
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_41
-      - 🇫🇷_FR_法国_42
-      - 🇫🇷_FR_法国_43
-      - 🇫🇷_FR_法国_44
-      - 🇬🇧_GB_英国_45
-      - 🇫🇷_FR_法国_46
-      - default_name_47
-      - 🇬🇧_GB_英国_48
-      - 🇸🇬_SG_新加坡_49
-      - 🇨🇦_CA_加拿大_50
-      - 🇬🇧_GB_英国_51
-      - 🇬🇧_GB_英国_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇺🇸_US_美国_54
-      - default_name_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇺🇸_US_美国_57
-      - 🇺🇸_US_美国_58
-      - 🇨🇦_CA_加拿大_59
-      - 🇬🇧_GB_英国_60
-      - 🇫🇷_FR_法国_61
-      - 🇨🇦_CA_加拿大_62
-      - 🇭🇰_HK_香港_63
-      - 🇺🇸_US_美国_64
-      - 🇨🇦_CA_加拿大_65
-      - default_name_66
-      - 🇨🇦_CA_加拿大_67
-      - 🇸🇬_SG_新加坡_68
-      - 🇬🇧_GB_英国_69
-      - 🇨🇦_CA_加拿大_70
-      - 🇫🇷_FR_法国_71
-      - 🇨🇦_CA_加拿大_72
-      - 🇺🇸_US_美国_73
-      - 🇫🇷_FR_法国_74
-      - 🇫🇷_FR_法国_75
-      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利_76
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇬🇧_GB_英国_80
-      - 🇺🇸_US_美国_81
-      - 🇷🇺_RU_俄罗斯联邦_82
-      - 🇨🇦_CA_加拿大_83
-      - 🇩🇪_DE_德国_84
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_85
-      - 🇬🇧_GB_英国_86
-      - 🇯🇵_JP_日本_87
-      - 🇨🇦_CA_加拿大_88
-      - default_name_89
-      - 🇺🇸_US_美国_90
-      - default_name_91
-      - 🇬🇧_GB_英国_92
-      - 🇮🇹_IT_意大利_93
-      - default_name_94
-      - 🇨🇦_CA_加拿大_95
-      - 🇬🇧_GB_英国_96
-      - 🇫🇷_FR_法国_97
-      - 🇬🇧_GB_英国_98
-      - 🇺🇸_US_美国_99
-      - 🇨🇦_CA_加拿大_100
+      - 做爱电影：shishi871112atgmail_com_1
+      - 做爱电影：shishi871112atgmail_com_2
+      - 做爱电影：shishi871112atgmail_com_3
+      - 做爱电影：shishi871112atgmail_com_4
+      - 做爱电影：shishi871112atgmail_com_5
+      - 做爱电影：shishi871112atgmail_com_6
+      - 做爱电影：shishi871112atgmail_com_7
+      - 做爱电影：shishi871112atgmail_com_8
+      - 做爱电影：shishi871112atgmail_com_9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国_1
-      - 🇬🇧_GB_英国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国_5
-      - 🇸🇬_SG_新加坡_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇫🇷_FR_法国_14
-      - default_name_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_18
-      - 🇬🇧_GB_英国_19
-      - 🇫🇷_FR_法国_20
-      - 🇺🇸_US_美国_21
-      - default_name_22
-      - 🇫🇷_FR_法国_23
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_24
-      - 🇫🇷_FR_法国_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇬🇧_GB_英国_27
-      - 🇫🇷_FR_法国_28
-      - default_name_29
-      - 🇬🇧_GB_英国_30
-      - 🇬🇧_GB_英国_31
-      - 🇬🇧_GB_英国_32
-      - 🇸🇬_SG_新加坡_33
-      - 🇨🇳_CN_中国->🇱🇹_LT_立陶宛_34
-      - default_name_35
-      - 🇬🇧_GB_英国_36
-      - 🇫🇷_FR_法国_37
-      - 🇸🇪_SE_瑞典_38
-      - 🇱🇻_LV_拉脱维亚_39
-      - default_name_40
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_41
-      - 🇫🇷_FR_法国_42
-      - 🇫🇷_FR_法国_43
-      - 🇫🇷_FR_法国_44
-      - 🇬🇧_GB_英国_45
-      - 🇫🇷_FR_法国_46
-      - default_name_47
-      - 🇬🇧_GB_英国_48
-      - 🇸🇬_SG_新加坡_49
-      - 🇨🇦_CA_加拿大_50
-      - 🇬🇧_GB_英国_51
-      - 🇬🇧_GB_英国_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇺🇸_US_美国_54
-      - default_name_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇺🇸_US_美国_57
-      - 🇺🇸_US_美国_58
-      - 🇨🇦_CA_加拿大_59
-      - 🇬🇧_GB_英国_60
-      - 🇫🇷_FR_法国_61
-      - 🇨🇦_CA_加拿大_62
-      - 🇭🇰_HK_香港_63
-      - 🇺🇸_US_美国_64
-      - 🇨🇦_CA_加拿大_65
-      - default_name_66
-      - 🇨🇦_CA_加拿大_67
-      - 🇸🇬_SG_新加坡_68
-      - 🇬🇧_GB_英国_69
-      - 🇨🇦_CA_加拿大_70
-      - 🇫🇷_FR_法国_71
-      - 🇨🇦_CA_加拿大_72
-      - 🇺🇸_US_美国_73
-      - 🇫🇷_FR_法国_74
-      - 🇫🇷_FR_法国_75
-      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利_76
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇬🇧_GB_英国_80
-      - 🇺🇸_US_美国_81
-      - 🇷🇺_RU_俄罗斯联邦_82
-      - 🇨🇦_CA_加拿大_83
-      - 🇩🇪_DE_德国_84
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_85
-      - 🇬🇧_GB_英国_86
-      - 🇯🇵_JP_日本_87
-      - 🇨🇦_CA_加拿大_88
-      - default_name_89
-      - 🇺🇸_US_美国_90
-      - default_name_91
-      - 🇬🇧_GB_英国_92
-      - 🇮🇹_IT_意大利_93
-      - default_name_94
-      - 🇨🇦_CA_加拿大_95
-      - 🇬🇧_GB_英国_96
-      - 🇫🇷_FR_法国_97
-      - 🇬🇧_GB_英国_98
-      - 🇺🇸_US_美国_99
-      - 🇨🇦_CA_加拿大_100
+      - 做爱电影：shishi871112atgmail_com_1
+      - 做爱电影：shishi871112atgmail_com_2
+      - 做爱电影：shishi871112atgmail_com_3
+      - 做爱电影：shishi871112atgmail_com_4
+      - 做爱电影：shishi871112atgmail_com_5
+      - 做爱电影：shishi871112atgmail_com_6
+      - 做爱电影：shishi871112atgmail_com_7
+      - 做爱电影：shishi871112atgmail_com_8
+      - 做爱电影：shishi871112atgmail_com_9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇫🇷_FR_法国_1
-      - 🇬🇧_GB_英国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国_5
-      - 🇸🇬_SG_新加坡_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇫🇷_FR_法国_14
-      - default_name_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_18
-      - 🇬🇧_GB_英国_19
-      - 🇫🇷_FR_法国_20
-      - 🇺🇸_US_美国_21
-      - default_name_22
-      - 🇫🇷_FR_法国_23
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_24
-      - 🇫🇷_FR_法国_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇬🇧_GB_英国_27
-      - 🇫🇷_FR_法国_28
-      - default_name_29
-      - 🇬🇧_GB_英国_30
-      - 🇬🇧_GB_英国_31
-      - 🇬🇧_GB_英国_32
-      - 🇸🇬_SG_新加坡_33
-      - 🇨🇳_CN_中国->🇱🇹_LT_立陶宛_34
-      - default_name_35
-      - 🇬🇧_GB_英国_36
-      - 🇫🇷_FR_法国_37
-      - 🇸🇪_SE_瑞典_38
-      - 🇱🇻_LV_拉脱维亚_39
-      - default_name_40
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_41
-      - 🇫🇷_FR_法国_42
-      - 🇫🇷_FR_法国_43
-      - 🇫🇷_FR_法国_44
-      - 🇬🇧_GB_英国_45
-      - 🇫🇷_FR_法国_46
-      - default_name_47
-      - 🇬🇧_GB_英国_48
-      - 🇸🇬_SG_新加坡_49
-      - 🇨🇦_CA_加拿大_50
-      - 🇬🇧_GB_英国_51
-      - 🇬🇧_GB_英国_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇺🇸_US_美国_54
-      - default_name_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇺🇸_US_美国_57
-      - 🇺🇸_US_美国_58
-      - 🇨🇦_CA_加拿大_59
-      - 🇬🇧_GB_英国_60
-      - 🇫🇷_FR_法国_61
-      - 🇨🇦_CA_加拿大_62
-      - 🇭🇰_HK_香港_63
-      - 🇺🇸_US_美国_64
-      - 🇨🇦_CA_加拿大_65
-      - default_name_66
-      - 🇨🇦_CA_加拿大_67
-      - 🇸🇬_SG_新加坡_68
-      - 🇬🇧_GB_英国_69
-      - 🇨🇦_CA_加拿大_70
-      - 🇫🇷_FR_法国_71
-      - 🇨🇦_CA_加拿大_72
-      - 🇺🇸_US_美国_73
-      - 🇫🇷_FR_法国_74
-      - 🇫🇷_FR_法国_75
-      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利_76
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇬🇧_GB_英国_80
-      - 🇺🇸_US_美国_81
-      - 🇷🇺_RU_俄罗斯联邦_82
-      - 🇨🇦_CA_加拿大_83
-      - 🇩🇪_DE_德国_84
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_85
-      - 🇬🇧_GB_英国_86
-      - 🇯🇵_JP_日本_87
-      - 🇨🇦_CA_加拿大_88
-      - default_name_89
-      - 🇺🇸_US_美国_90
-      - default_name_91
-      - 🇬🇧_GB_英国_92
-      - 🇮🇹_IT_意大利_93
-      - default_name_94
-      - 🇨🇦_CA_加拿大_95
-      - 🇬🇧_GB_英国_96
-      - 🇫🇷_FR_法国_97
-      - 🇬🇧_GB_英国_98
-      - 🇺🇸_US_美国_99
-      - 🇨🇦_CA_加拿大_100
+      - 做爱电影：shishi871112atgmail_com_1
+      - 做爱电影：shishi871112atgmail_com_2
+      - 做爱电影：shishi871112atgmail_com_3
+      - 做爱电影：shishi871112atgmail_com_4
+      - 做爱电影：shishi871112atgmail_com_5
+      - 做爱电影：shishi871112atgmail_com_6
+      - 做爱电影：shishi871112atgmail_com_7
+      - 做爱电影：shishi871112atgmail_com_8
+      - 做爱电影：shishi871112atgmail_com_9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国_1
-      - 🇬🇧_GB_英国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国_5
-      - 🇸🇬_SG_新加坡_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇫🇷_FR_法国_14
-      - default_name_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_18
-      - 🇬🇧_GB_英国_19
-      - 🇫🇷_FR_法国_20
-      - 🇺🇸_US_美国_21
-      - default_name_22
-      - 🇫🇷_FR_法国_23
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_24
-      - 🇫🇷_FR_法国_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇬🇧_GB_英国_27
-      - 🇫🇷_FR_法国_28
-      - default_name_29
-      - 🇬🇧_GB_英国_30
-      - 🇬🇧_GB_英国_31
-      - 🇬🇧_GB_英国_32
-      - 🇸🇬_SG_新加坡_33
-      - 🇨🇳_CN_中国->🇱🇹_LT_立陶宛_34
-      - default_name_35
-      - 🇬🇧_GB_英国_36
-      - 🇫🇷_FR_法国_37
-      - 🇸🇪_SE_瑞典_38
-      - 🇱🇻_LV_拉脱维亚_39
-      - default_name_40
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_41
-      - 🇫🇷_FR_法国_42
-      - 🇫🇷_FR_法国_43
-      - 🇫🇷_FR_法国_44
-      - 🇬🇧_GB_英国_45
-      - 🇫🇷_FR_法国_46
-      - default_name_47
-      - 🇬🇧_GB_英国_48
-      - 🇸🇬_SG_新加坡_49
-      - 🇨🇦_CA_加拿大_50
-      - 🇬🇧_GB_英国_51
-      - 🇬🇧_GB_英国_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇺🇸_US_美国_54
-      - default_name_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇺🇸_US_美国_57
-      - 🇺🇸_US_美国_58
-      - 🇨🇦_CA_加拿大_59
-      - 🇬🇧_GB_英国_60
-      - 🇫🇷_FR_法国_61
-      - 🇨🇦_CA_加拿大_62
-      - 🇭🇰_HK_香港_63
-      - 🇺🇸_US_美国_64
-      - 🇨🇦_CA_加拿大_65
-      - default_name_66
-      - 🇨🇦_CA_加拿大_67
-      - 🇸🇬_SG_新加坡_68
-      - 🇬🇧_GB_英国_69
-      - 🇨🇦_CA_加拿大_70
-      - 🇫🇷_FR_法国_71
-      - 🇨🇦_CA_加拿大_72
-      - 🇺🇸_US_美国_73
-      - 🇫🇷_FR_法国_74
-      - 🇫🇷_FR_法国_75
-      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利_76
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇬🇧_GB_英国_80
-      - 🇺🇸_US_美国_81
-      - 🇷🇺_RU_俄罗斯联邦_82
-      - 🇨🇦_CA_加拿大_83
-      - 🇩🇪_DE_德国_84
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_85
-      - 🇬🇧_GB_英国_86
-      - 🇯🇵_JP_日本_87
-      - 🇨🇦_CA_加拿大_88
-      - default_name_89
-      - 🇺🇸_US_美国_90
-      - default_name_91
-      - 🇬🇧_GB_英国_92
-      - 🇮🇹_IT_意大利_93
-      - default_name_94
-      - 🇨🇦_CA_加拿大_95
-      - 🇬🇧_GB_英国_96
-      - 🇫🇷_FR_法国_97
-      - 🇬🇧_GB_英国_98
-      - 🇺🇸_US_美国_99
-      - 🇨🇦_CA_加拿大_100
+      - 做爱电影：shishi871112atgmail_com_1
+      - 做爱电影：shishi871112atgmail_com_2
+      - 做爱电影：shishi871112atgmail_com_3
+      - 做爱电影：shishi871112atgmail_com_4
+      - 做爱电影：shishi871112atgmail_com_5
+      - 做爱电影：shishi871112atgmail_com_6
+      - 做爱电影：shishi871112atgmail_com_7
+      - 做爱电影：shishi871112atgmail_com_8
+      - 做爱电影：shishi871112atgmail_com_9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -760,106 +123,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷_FR_法国_1
-      - 🇬🇧_GB_英国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国_5
-      - 🇸🇬_SG_新加坡_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇫🇷_FR_法国_14
-      - default_name_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_18
-      - 🇬🇧_GB_英国_19
-      - 🇫🇷_FR_法国_20
-      - 🇺🇸_US_美国_21
-      - default_name_22
-      - 🇫🇷_FR_法国_23
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_24
-      - 🇫🇷_FR_法国_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇬🇧_GB_英国_27
-      - 🇫🇷_FR_法国_28
-      - default_name_29
-      - 🇬🇧_GB_英国_30
-      - 🇬🇧_GB_英国_31
-      - 🇬🇧_GB_英国_32
-      - 🇸🇬_SG_新加坡_33
-      - 🇨🇳_CN_中国->🇱🇹_LT_立陶宛_34
-      - default_name_35
-      - 🇬🇧_GB_英国_36
-      - 🇫🇷_FR_法国_37
-      - 🇸🇪_SE_瑞典_38
-      - 🇱🇻_LV_拉脱维亚_39
-      - default_name_40
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_41
-      - 🇫🇷_FR_法国_42
-      - 🇫🇷_FR_法国_43
-      - 🇫🇷_FR_法国_44
-      - 🇬🇧_GB_英国_45
-      - 🇫🇷_FR_法国_46
-      - default_name_47
-      - 🇬🇧_GB_英国_48
-      - 🇸🇬_SG_新加坡_49
-      - 🇨🇦_CA_加拿大_50
-      - 🇬🇧_GB_英国_51
-      - 🇬🇧_GB_英国_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇺🇸_US_美国_54
-      - default_name_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇺🇸_US_美国_57
-      - 🇺🇸_US_美国_58
-      - 🇨🇦_CA_加拿大_59
-      - 🇬🇧_GB_英国_60
-      - 🇫🇷_FR_法国_61
-      - 🇨🇦_CA_加拿大_62
-      - 🇭🇰_HK_香港_63
-      - 🇺🇸_US_美国_64
-      - 🇨🇦_CA_加拿大_65
-      - default_name_66
-      - 🇨🇦_CA_加拿大_67
-      - 🇸🇬_SG_新加坡_68
-      - 🇬🇧_GB_英国_69
-      - 🇨🇦_CA_加拿大_70
-      - 🇫🇷_FR_法国_71
-      - 🇨🇦_CA_加拿大_72
-      - 🇺🇸_US_美国_73
-      - 🇫🇷_FR_法国_74
-      - 🇫🇷_FR_法国_75
-      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利_76
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇬🇧_GB_英国_80
-      - 🇺🇸_US_美国_81
-      - 🇷🇺_RU_俄罗斯联邦_82
-      - 🇨🇦_CA_加拿大_83
-      - 🇩🇪_DE_德国_84
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_85
-      - 🇬🇧_GB_英国_86
-      - 🇯🇵_JP_日本_87
-      - 🇨🇦_CA_加拿大_88
-      - default_name_89
-      - 🇺🇸_US_美国_90
-      - default_name_91
-      - 🇬🇧_GB_英国_92
-      - 🇮🇹_IT_意大利_93
-      - default_name_94
-      - 🇨🇦_CA_加拿大_95
-      - 🇬🇧_GB_英国_96
-      - 🇫🇷_FR_法国_97
-      - 🇬🇧_GB_英国_98
-      - 🇺🇸_US_美国_99
-      - 🇨🇦_CA_加拿大_100
+      - 做爱电影：shishi871112atgmail_com_1
+      - 做爱电影：shishi871112atgmail_com_2
+      - 做爱电影：shishi871112atgmail_com_3
+      - 做爱电影：shishi871112atgmail_com_4
+      - 做爱电影：shishi871112atgmail_com_5
+      - 做爱电影：shishi871112atgmail_com_6
+      - 做爱电影：shishi871112atgmail_com_7
+      - 做爱电影：shishi871112atgmail_com_8
+      - 做爱电影：shishi871112atgmail_com_9
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
