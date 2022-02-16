@@ -5,16 +5,50 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _JP_日本_1, server: 85.208.108.194, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国_2, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国_3, server: 169.197.142.4, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _SG_新加坡_4, server: 139.99.123.156, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国_5, server: zxc.vincc.top, port: 26050, type: vmess, uuid: c1651f37-934d-43d7-8f69-681b7e93d263, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxc.vincc.top}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_6, server: w7.v2mmy.xyz, port: 44828, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
-  - {name: _US_美国_7, server: 38.68.134.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国_8, server: 38.64.138.145, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_9, server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_10, server: 142.202.48.108, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_6, server: w2.v2mmy.xyz, port: 44815, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_2, server: w5.v2mmy.xyz, port: 44821, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_4, server: w1.v2mmy.xyz, port: 44812, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_8, server: w5.v2mmy.xyz, port: 44821, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: default_name_5, server: styd.sf66.cf, port: 38461, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: styd.sf66.cf}}, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_9, server: w3.v2mmy.xyz, port: 44817, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_7, server: w5.v2mmy.xyz, port: 44823, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_8, server: w7.v2mmy.xyz, port: 44828, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _HK_香港_1, server: v2.mumi.bid, port: 10123, type: vmess, uuid: 4924189e-9739-47be-9875-fe5c87e485ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2.mumi.bid}}, udp: true}
+  - {name: default_name_10, server: styd.sf66.cf, port: 38461, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: styd.sf66.cf}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_11, server: w5.v2mmy.xyz, port: 44823, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_17, server: w2.v2mmy.xyz, port: 44826, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_13, server: w7.v2mmy.xyz, port: 44827, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_20, server: w5.v2mmy.xyz, port: 44820, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_15, server: w5.v2mmy.xyz, port: 44820, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_105, server: w7.v2mmy.xyz, port: 44827, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_17 2, server: w2.v2mmy.xyz, port: 44826, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_7, server: w6.v2mmy.xyz, port: 25600, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_2, server: w1.v2mmy.xyz, port: 44811, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_61, server: w7.v2mmy.xyz, port: 44828, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_21, server: w6.v2mmy.xyz, port: 25600, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_22, server: w2.v2mmy.xyz, port: 44815, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_23, server: w1.v2mmy.xyz, port: 44812, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: _HK_香港_24, server: v2.mumi.bid, port: 10123, type: vmess, uuid: 4924189e-9739-47be-9875-fe5c87e485ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2.mumi.bid}}, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_25, server: w1.v2mmy.xyz, port: 44811, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: default_name_5 2, server: tw.twz.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw.twz.tgproxy.wtf}}, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_27, server: w3.v2mmy.xyz, port: 44817, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
+  - {name: default_name_28, server: tw.twz.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: tw.twz.tgproxy.wtf}}, udp: true}
+  - {name: _HK_香港_3, server: 93.179.125.232, port: 21167, type: ss, cipher: aes-128-gcm, password: Misaka, udp: true}
+  - {name: _HK_香港_30, server: 93.179.125.232, port: 21167, type: ss, cipher: aes-128-gcm, password: Misaka, udp: true}
+  - {name: _US_美国_31, server: 169.197.143.219, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_115, server: 169.197.143.219, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_58, server: 169.197.143.219, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_34, server: 169.197.143.219, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_101, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 21627f29-0d0f-4dfa-9740-b5ee360bf061, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: default_name_118, server: test.0dc.cn, port: 443, type: vmess, uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: test.0dc.cn}}, udp: true}
+  - {name: _US_美国_37, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 21627f29-0d0f-4dfa-9740-b5ee360bf061, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: default_name_38, server: test.0dc.cn, port: 443, type: vmess, uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: test.0dc.cn}}, udp: true}
+  - {name: _US_美国_39, server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
+  - {name: _US_美国_112, server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国_41, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_42, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_151, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_123, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 法国(欢迎订阅Youtube破解资源君), server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
@@ -1746,16 +1780,50 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - _JP_日本_1
-      - _US_美国_2
-      - _US_美国_3
-      - _SG_新加坡_4
-      - _US_美国_5
-      - _CN_中国->🇺🇸_US_美国_6
-      - _US_美国_7
-      - _US_美国_8
-      - _US_美国_9
-      - _US_美国_10
+      - _CN_中国->🇸🇬_SG_新加坡_6
+      - _CN_中国->🇭🇰_HK_香港_2
+      - _CN_中国->🇭🇰_HK_香港_4
+      - _CN_中国->🇭🇰_HK_香港_8
+      - default_name_5
+      - _CN_中国->🇸🇬_SG_新加坡_9
+      - _CN_中国->🇺🇸_US_美国_7
+      - _CN_中国->🇺🇸_US_美国_8
+      - _HK_香港_1
+      - default_name_10
+      - _CN_中国->🇺🇸_US_美国_11
+      - _CN_中国->🇺🇸_US_美国_17
+      - _CN_中国->🇯🇵_JP_日本_13
+      - _CN_中国->🇭🇰_HK_香港_20
+      - _CN_中国->🇭🇰_HK_香港_15
+      - _CN_中国->🇯🇵_JP_日本_105
+      - _CN_中国->🇺🇸_US_美国_17 2
+      - _CN_中国->🇹🇼_TW_台湾_7
+      - _CN_中国->🇹🇼_TW_台湾_2
+      - _CN_中国->🇺🇸_US_美国_61
+      - _CN_中国->🇹🇼_TW_台湾_21
+      - _CN_中国->🇸🇬_SG_新加坡_22
+      - _CN_中国->🇭🇰_HK_香港_23
+      - _HK_香港_24
+      - _CN_中国->🇹🇼_TW_台湾_25
+      - default_name_5 2
+      - _CN_中国->🇸🇬_SG_新加坡_27
+      - default_name_28
+      - _HK_香港_3
+      - _HK_香港_30
+      - _US_美国_31
+      - _US_美国_115
+      - _US_美国_58
+      - _US_美国_34
+      - _US_美国_101
+      - default_name_118
+      - _US_美国_37
+      - default_name_38
+      - _US_美国_39
+      - _US_美国_112
+      - _US_美国_41
+      - _US_美国_42
+      - _US_美国_151
+      - _US_美国_123
       - 法国(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君)
@@ -3476,16 +3544,50 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _JP_日本_1
-      - _US_美国_2
-      - _US_美国_3
-      - _SG_新加坡_4
-      - _US_美国_5
-      - _CN_中国->🇺🇸_US_美国_6
-      - _US_美国_7
-      - _US_美国_8
-      - _US_美国_9
-      - _US_美国_10
+      - _CN_中国->🇸🇬_SG_新加坡_6
+      - _CN_中国->🇭🇰_HK_香港_2
+      - _CN_中国->🇭🇰_HK_香港_4
+      - _CN_中国->🇭🇰_HK_香港_8
+      - default_name_5
+      - _CN_中国->🇸🇬_SG_新加坡_9
+      - _CN_中国->🇺🇸_US_美国_7
+      - _CN_中国->🇺🇸_US_美国_8
+      - _HK_香港_1
+      - default_name_10
+      - _CN_中国->🇺🇸_US_美国_11
+      - _CN_中国->🇺🇸_US_美国_17
+      - _CN_中国->🇯🇵_JP_日本_13
+      - _CN_中国->🇭🇰_HK_香港_20
+      - _CN_中国->🇭🇰_HK_香港_15
+      - _CN_中国->🇯🇵_JP_日本_105
+      - _CN_中国->🇺🇸_US_美国_17 2
+      - _CN_中国->🇹🇼_TW_台湾_7
+      - _CN_中国->🇹🇼_TW_台湾_2
+      - _CN_中国->🇺🇸_US_美国_61
+      - _CN_中国->🇹🇼_TW_台湾_21
+      - _CN_中国->🇸🇬_SG_新加坡_22
+      - _CN_中国->🇭🇰_HK_香港_23
+      - _HK_香港_24
+      - _CN_中国->🇹🇼_TW_台湾_25
+      - default_name_5 2
+      - _CN_中国->🇸🇬_SG_新加坡_27
+      - default_name_28
+      - _HK_香港_3
+      - _HK_香港_30
+      - _US_美国_31
+      - _US_美国_115
+      - _US_美国_58
+      - _US_美国_34
+      - _US_美国_101
+      - default_name_118
+      - _US_美国_37
+      - default_name_38
+      - _US_美国_39
+      - _US_美国_112
+      - _US_美国_41
+      - _US_美国_42
+      - _US_美国_151
+      - _US_美国_123
       - 法国(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君)
@@ -5396,6 +5498,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _CN_中国->🇭🇰_HK_香港_2
+      - _CN_中国->🇭🇰_HK_香港_4
+      - _CN_中国->🇭🇰_HK_香港_8
+      - _HK_香港_1
+      - _CN_中国->🇭🇰_HK_香港_20
+      - _CN_中国->🇭🇰_HK_香港_15
+      - _CN_中国->🇭🇰_HK_香港_23
+      - _HK_香港_24
+      - _HK_香港_3
+      - _HK_香港_30
       - 香港（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
       - 香港（YouTube资源分享者） 3
@@ -5473,7 +5585,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _JP_日本_1
+      - _CN_中国->🇯🇵_JP_日本_13
+      - _CN_中国->🇯🇵_JP_日本_105
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
@@ -5518,14 +5631,24 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_2
-      - _US_美国_3
-      - _US_美国_5
-      - _CN_中国->🇺🇸_US_美国_6
-      - _US_美国_7
-      - _US_美国_8
-      - _US_美国_9
-      - _US_美国_10
+      - _CN_中国->🇺🇸_US_美国_7
+      - _CN_中国->🇺🇸_US_美国_8
+      - _CN_中国->🇺🇸_US_美国_11
+      - _CN_中国->🇺🇸_US_美国_17
+      - _CN_中国->🇺🇸_US_美国_17 2
+      - _CN_中国->🇺🇸_US_美国_61
+      - _US_美国_31
+      - _US_美国_115
+      - _US_美国_58
+      - _US_美国_34
+      - _US_美国_101
+      - _US_美国_37
+      - _US_美国_39
+      - _US_美国_112
+      - _US_美国_41
+      - _US_美国_42
+      - _US_美国_151
+      - _US_美国_123
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -6026,6 +6149,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _CN_中国->🇹🇼_TW_台湾_7
+      - _CN_中国->🇹🇼_TW_台湾_2
+      - _CN_中国->🇹🇼_TW_台湾_21
+      - _CN_中国->🇹🇼_TW_台湾_25
       - 台湾（YouTube资源分享者）
       - 台湾（YouTube资源分享者） 2
       - 台湾（YouTube资源分享者） 3
@@ -6061,7 +6188,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _SG_新加坡_4
+      - _CN_中国->🇸🇬_SG_新加坡_6
+      - _CN_中国->🇸🇬_SG_新加坡_9
+      - _CN_中国->🇸🇬_SG_新加坡_22
+      - _CN_中国->🇸🇬_SG_新加坡_27
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡（YouTube资源分享者）
       - _SG_新加坡_FMYC-2022_02_16_43
