@@ -5,102 +5,207 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"做爱电影：shishi871112atgmail_com_1","server":"styd.sf66.cf","port":50741,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","host":"styd.sf66.cf"}}
-  - {"name":"做爱电影：shishi871112atgmail_com_2","server":"do3.xjp.tgproxy.wtf","port":21888,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"do3.xjp.tgproxy.wtf"}}
-  - {"name":"做爱电影：shishi871112atgmail_com_3","server":"dali-hz.8n4t.cn","port":37211,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"oracle.kr.tgproxy.wtf"}}
-  - {"name":"做爱电影：shishi871112atgmail_com_4","server":"92.223.72.42","port":443,"type":"vmess","uuid":"ae08412f-5bb9-4be7-8560-1984976a1097","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","host":"govacaxixo.watchdoctor.xyz"}}
-  - {"name":"做爱电影：shishi871112atgmail_com_5","server":"styd.sf66.cf","port":16990,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"ggz.jgw.tgproxy.wtf"}}
-  - {"name":"做爱电影：shishi871112atgmail_com_6","server":"dg.jgw.tgproxy.wtf","port":443,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"dg.jgw.tgproxy.wtf"}}
-  - {"name":"做爱电影：shishi871112atgmail_com_7","server":"tw.v2ssvps.com","port":60763,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"microsoft.com"}}
-  - {"name":"做爱电影：shishi871112atgmail_com_8","server":"69.64.248.199","port":443,"type":"vmess","uuid":"7235b329-e205-4fcb-bcd6-81c19fbb9e85","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","host":"govacaxixo.watchdoctor.xyz"}}
-  - {"name":"做爱电影：shishi871112atgmail_com_9","server":"128.1.125.164","port":443,"type":"vmess","uuid":"312c3de7-233e-4d72-b3dc-de0205083312","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","host":"govacaxixo.watchdoctor.xyz"}}
+  - {"name":"🇺🇸_US_美国_1","server":"38.75.136.21","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_2","server":"v8.ssrsub.com","port":443,"type":"vmess","uuid":"8a233a34-36f4-400d-b7c8-93024e518ddb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
+  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.147","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇫🇷_FR_法国_4","server":"149.202.82.172","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_5","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-dallas.lvuft.com"}}
+  - {"name":"🇫🇷_FR_法国_6","server":"62.210.209.50","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_7","server":"169.197.141.91","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_8","server":"us-ny-rn.licom.ga","port":99,"type":"vmess","uuid":"b3491975-1cdc-44e3-888a-2b2e148ce136","alterId":1,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇫🇷_FR_法国_9","server":"149.202.82.172","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇬🇧_GB_英国_10","server":"172.99.190.39","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇬🇧_GB_英国_11","server":"172.99.190.188","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"default_name_12","server":"styd.sf66.cf","port":38461,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"tw.twz.tgproxy.wtf"}}
+  - {"name":"🇨🇦_CA_加拿大_13","server":"134.195.196.200","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"default_name_14","server":"104.27.89.125","port":443,"type":"vmess","uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","host":"xiaochen.chenyingjie5201314.workers.dev"}}
+  - {"name":"🇫🇷_FR_法国_15","server":"149.202.82.172","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇬🇧_GB_英国_16","server":"172.99.190.205","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_17","server":"142.202.48.52","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸_US_美国_18","server":"38.107.226.146","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_19","server":"167.88.61.60","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国->🇨🇿_CZ_捷克_20","server":"v9.ssrsub.com","port":8443,"type":"vmess","uuid":"21627f29-0d0f-4dfa-9740-b5ee360bf061","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
+  - {"name":"🇫🇷_FR_法国_21","server":"145.239.1.100","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇮🇳_IN_印度_22","server":"192.46.208.153","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇸🇬_SG_新加坡_23","server":"172.104.44.88","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_24","server":"142.202.48.52","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 做爱电影：shishi871112atgmail_com_1
-      - 做爱电影：shishi871112atgmail_com_2
-      - 做爱电影：shishi871112atgmail_com_3
-      - 做爱电影：shishi871112atgmail_com_4
-      - 做爱电影：shishi871112atgmail_com_5
-      - 做爱电影：shishi871112atgmail_com_6
-      - 做爱电影：shishi871112atgmail_com_7
-      - 做爱电影：shishi871112atgmail_com_8
-      - 做爱电影：shishi871112atgmail_com_9
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇫🇷_FR_法国_4
+      - 🇺🇸_US_美国_5
+      - 🇫🇷_FR_法国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_9
+      - 🇬🇧_GB_英国_10
+      - 🇬🇧_GB_英国_11
+      - default_name_12
+      - 🇨🇦_CA_加拿大_13
+      - default_name_14
+      - 🇫🇷_FR_法国_15
+      - 🇬🇧_GB_英国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_20
+      - 🇫🇷_FR_法国_21
+      - 🇮🇳_IN_印度_22
+      - 🇸🇬_SG_新加坡_23
+      - 🇺🇸_US_美国_24
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 做爱电影：shishi871112atgmail_com_1
-      - 做爱电影：shishi871112atgmail_com_2
-      - 做爱电影：shishi871112atgmail_com_3
-      - 做爱电影：shishi871112atgmail_com_4
-      - 做爱电影：shishi871112atgmail_com_5
-      - 做爱电影：shishi871112atgmail_com_6
-      - 做爱电影：shishi871112atgmail_com_7
-      - 做爱电影：shishi871112atgmail_com_8
-      - 做爱电影：shishi871112atgmail_com_9
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇫🇷_FR_法国_4
+      - 🇺🇸_US_美国_5
+      - 🇫🇷_FR_法国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_9
+      - 🇬🇧_GB_英国_10
+      - 🇬🇧_GB_英国_11
+      - default_name_12
+      - 🇨🇦_CA_加拿大_13
+      - default_name_14
+      - 🇫🇷_FR_法国_15
+      - 🇬🇧_GB_英国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_20
+      - 🇫🇷_FR_法国_21
+      - 🇮🇳_IN_印度_22
+      - 🇸🇬_SG_新加坡_23
+      - 🇺🇸_US_美国_24
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 做爱电影：shishi871112atgmail_com_1
-      - 做爱电影：shishi871112atgmail_com_2
-      - 做爱电影：shishi871112atgmail_com_3
-      - 做爱电影：shishi871112atgmail_com_4
-      - 做爱电影：shishi871112atgmail_com_5
-      - 做爱电影：shishi871112atgmail_com_6
-      - 做爱电影：shishi871112atgmail_com_7
-      - 做爱电影：shishi871112atgmail_com_8
-      - 做爱电影：shishi871112atgmail_com_9
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇫🇷_FR_法国_4
+      - 🇺🇸_US_美国_5
+      - 🇫🇷_FR_法国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_9
+      - 🇬🇧_GB_英国_10
+      - 🇬🇧_GB_英国_11
+      - default_name_12
+      - 🇨🇦_CA_加拿大_13
+      - default_name_14
+      - 🇫🇷_FR_法国_15
+      - 🇬🇧_GB_英国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_20
+      - 🇫🇷_FR_法国_21
+      - 🇮🇳_IN_印度_22
+      - 🇸🇬_SG_新加坡_23
+      - 🇺🇸_US_美国_24
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 做爱电影：shishi871112atgmail_com_1
-      - 做爱电影：shishi871112atgmail_com_2
-      - 做爱电影：shishi871112atgmail_com_3
-      - 做爱电影：shishi871112atgmail_com_4
-      - 做爱电影：shishi871112atgmail_com_5
-      - 做爱电影：shishi871112atgmail_com_6
-      - 做爱电影：shishi871112atgmail_com_7
-      - 做爱电影：shishi871112atgmail_com_8
-      - 做爱电影：shishi871112atgmail_com_9
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇫🇷_FR_法国_4
+      - 🇺🇸_US_美国_5
+      - 🇫🇷_FR_法国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_9
+      - 🇬🇧_GB_英国_10
+      - 🇬🇧_GB_英国_11
+      - default_name_12
+      - 🇨🇦_CA_加拿大_13
+      - default_name_14
+      - 🇫🇷_FR_法国_15
+      - 🇬🇧_GB_英国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_20
+      - 🇫🇷_FR_法国_21
+      - 🇮🇳_IN_印度_22
+      - 🇸🇬_SG_新加坡_23
+      - 🇺🇸_US_美国_24
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 做爱电影：shishi871112atgmail_com_1
-      - 做爱电影：shishi871112atgmail_com_2
-      - 做爱电影：shishi871112atgmail_com_3
-      - 做爱电影：shishi871112atgmail_com_4
-      - 做爱电影：shishi871112atgmail_com_5
-      - 做爱电影：shishi871112atgmail_com_6
-      - 做爱电影：shishi871112atgmail_com_7
-      - 做爱电影：shishi871112atgmail_com_8
-      - 做爱电影：shishi871112atgmail_com_9
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇫🇷_FR_法国_4
+      - 🇺🇸_US_美国_5
+      - 🇫🇷_FR_法国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_9
+      - 🇬🇧_GB_英国_10
+      - 🇬🇧_GB_英国_11
+      - default_name_12
+      - 🇨🇦_CA_加拿大_13
+      - default_name_14
+      - 🇫🇷_FR_法国_15
+      - 🇬🇧_GB_英国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_20
+      - 🇫🇷_FR_法国_21
+      - 🇮🇳_IN_印度_22
+      - 🇸🇬_SG_新加坡_23
+      - 🇺🇸_US_美国_24
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 做爱电影：shishi871112atgmail_com_1
-      - 做爱电影：shishi871112atgmail_com_2
-      - 做爱电影：shishi871112atgmail_com_3
-      - 做爱电影：shishi871112atgmail_com_4
-      - 做爱电影：shishi871112atgmail_com_5
-      - 做爱电影：shishi871112atgmail_com_6
-      - 做爱电影：shishi871112atgmail_com_7
-      - 做爱电影：shishi871112atgmail_com_8
-      - 做爱电影：shishi871112atgmail_com_9
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇫🇷_FR_法国_4
+      - 🇺🇸_US_美国_5
+      - 🇫🇷_FR_法国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_9
+      - 🇬🇧_GB_英国_10
+      - 🇬🇧_GB_英国_11
+      - default_name_12
+      - 🇨🇦_CA_加拿大_13
+      - default_name_14
+      - 🇫🇷_FR_法国_15
+      - 🇬🇧_GB_英国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_20
+      - 🇫🇷_FR_法国_21
+      - 🇮🇳_IN_印度_22
+      - 🇸🇬_SG_新加坡_23
+      - 🇺🇸_US_美国_24
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -123,15 +228,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 做爱电影：shishi871112atgmail_com_1
-      - 做爱电影：shishi871112atgmail_com_2
-      - 做爱电影：shishi871112atgmail_com_3
-      - 做爱电影：shishi871112atgmail_com_4
-      - 做爱电影：shishi871112atgmail_com_5
-      - 做爱电影：shishi871112atgmail_com_6
-      - 做爱电影：shishi871112atgmail_com_7
-      - 做爱电影：shishi871112atgmail_com_8
-      - 做爱电影：shishi871112atgmail_com_9
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇫🇷_FR_法国_4
+      - 🇺🇸_US_美国_5
+      - 🇫🇷_FR_法国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_9
+      - 🇬🇧_GB_英国_10
+      - 🇬🇧_GB_英国_11
+      - default_name_12
+      - 🇨🇦_CA_加拿大_13
+      - default_name_14
+      - 🇫🇷_FR_法国_15
+      - 🇬🇧_GB_英国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_20
+      - 🇫🇷_FR_法国_21
+      - 🇮🇳_IN_印度_22
+      - 🇸🇬_SG_新加坡_23
+      - 🇺🇸_US_美国_24
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
