@@ -4,47 +4,299 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
-proxies:
-  - {"name":"www_youneed_win_1","server":"192.96.204.250","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-washington.lvuft.com"}}
+proxies: 
+  - {name: '♥️♥️YouTube梦歌♥️♥️_20', server: 'ls.yunsu.ke666.net', port: 34025, type: vmess, uuid: '7a875411-5911-4752-b129-e89722f0e740', alterId: 0, cipher: auto, tls: false, network: 'ws', ws-opts: { path: '/yunsunode', host: 'ls.yunsu.ke666.net'} }
+  - {name: '🇺🇸_US_美国_2', server: '169.197.142.4', port: 8091,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27'}
+  - {name: '🇺🇸_US_美国_3', server: '169.197.142.4', port: 9102,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY'}
+  - {name: '♥️♥️YouTube梦歌♥️♥️_52', server: 'sxqxj.cn', port: 2164, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws'} }
+  - {name: '香港阿伟科技atTG/油管_5', server: '132.wgong.xyz', port: 52332, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp', ws-opts: {host: '132.wgong.xyz'} }
+  - {name: '🇺🇸_US_美国_6', server: '167.88.61.70', port: 6679,  type: ss, cipher: 'aes-256-gcm', password: 'TEzjfAYq2IjtuoS'}
+  - {name: '♥️♥️YouTube梦歌♥️♥️_23', server: 'dali-hz.8n4t.cn', port: 37211, type: vmess, uuid: '061a5ca3-09f7-413e-8d4d-35775bb5c0eb', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/theuploadapi', host: 'oracle.kr.tgproxy.wtf'} }
+  - {name: '♥️♥️YouTube梦歌♥️♥️_25', server: 'ggc.sf66.cf', port: 45641, type: vmess, uuid: '061a5ca3-09f7-413e-8d4d-35775bb5c0eb', alterId: 0, cipher: auto, tls: false, network: 'ws', ws-opts: { path: '/', host: 'ggc.sf66.cf'} }
+  - {name: '♥️♥️YouTube梦歌♥️♥️_36', server: 'p3.centaur.network', port: 16803, type: trojan, password: 00635f3d-2c64-4281-9367-f3c26ebb6a44, sni: 'p3.centaur.network' }
+  - {name: '美国阿伟科技atTG/油管_10', server: 'n178.centaur.network', port: 8082, type: trojan, password: 12d66073-1c21-45d7-b7e2-6b0ed7eed556 }
+  - {name: '🇺🇸_US_美国_11', server: '169.197.142.4', port: 8118,  type: ss, cipher: 'aes-256-gcm', password: 'cdBIDV42DCwnfIN'}
+  - {name: '🇺🇸_US_美国_12', server: '169.197.143.157', port: 8000,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm'}
+  - {name: '♥️♥️YouTube梦歌♥️♥️_35', server: 'h1r.centaur.network', port: 16802, type: trojan, password: fb39b0bb-acb7-45b8-a896-0ff6b56beb5f, sni: 'h1r.centaur.network' }
+  - {name: '🇺🇸_US_美国_14', server: '169.197.142.39', port: 9101,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY'}
+  - {name: '🇺🇸_US_美国_15', server: '167.88.61.70', port: 8119,  type: ss, cipher: 'aes-256-gcm', password: 'cdBIDV42DCwnfIN'}
+  - {name: '🇺🇸_US_美国_16', server: '169.197.142.39', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP'}
+  - {name: '香港阿伟科技atTG/油管_17', server: '93.179.125.232', port: 21167,  type: ss, cipher: 'aes-128-gcm', password: 'Misaka'}
+  - {name: '韩国阿伟科技atTG/油管_18', server: 'dali-hz.8n4t.cn', port: 37211, type: vmess, uuid: '061a5ca3-09f7-413e-8d4d-35775bb5c0eb', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/theuploadapi', host: 'oracle.kr.tgproxy.wtf'} }
+  - {name: '🇺🇸_US_美国_19', server: '142.202.48.52', port: 7307,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP'}
+  - {name: '♥️♥️YouTube梦歌♥️♥️_63', server: 'styd.sf66.cf', port: 49989, type: vmess, uuid: '061a5ca3-09f7-413e-8d4d-35775bb5c0eb', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/theuploadapi', host: 'hgc01.hk.tgproxy.wtf'} }
+  - {name: '🇭🇰_HK_香港_21', server: '93.179.125.232', port: 21167,  type: ss, cipher: 'aes-128-gcm', password: 'Misaka'}
+  - {name: '♥️♥️YouTube梦歌♥️♥️_17', server: 'styd.sf66.cf', port: 16990, type: vmess, uuid: '061a5ca3-09f7-413e-8d4d-35775bb5c0eb', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/theuploadapi', host: 'ggz.jgw.tgproxy.wtf'} }
+  - {name: '香港阿伟科技atTG/油管_23', server: 'h4r.centaur.network', port: 16801, type: trojan, password: 134b2dad-1ba4-49f6-a8b8-721525213356, sni: 'h4r.centaur.network' }
+  - {name: '🇺🇸_US_美国_24', server: '169.197.142.39', port: 8118,  type: ss, cipher: 'aes-256-gcm', password: 'cdBIDV42DCwnfIN'}
+  - {name: '🇺🇸_US_美国_25', server: '38.68.134.37', port: 5004,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId'}
+  - {name: '美国阿伟科技atTG/油管_26', server: '196.247.24.156', port: 443, type: vmess, uuid: 'c028c1ff-c006-4dc7-bd7e-a61c99b4f306', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ray', host: 'govacaxixo.watchdoctor.xyz'} }
+  - {name: '🇺🇸_US_美国_27', server: '169.197.142.4', port: 8881,  type: ss, cipher: 'aes-256-gcm', password: 'kDWvXYZoTBcGkC4'}
+  - {name: '♥️♥️YouTube梦歌♥️♥️_53', server: '122.wgong.xyz', port: 52222, type: vmess, uuid: '08103798-414e-32b6-8748-2507732d2c51', alterId: 2, cipher: auto, tls: false, network: 'tcp' }
+  - {name: '🇺🇸_US_美国_29', server: '167.88.61.130', port: 2376,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7'}
+  - {name: '🇺🇸_US_美国_30', server: '142.202.48.58', port: 2375,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7'}
+  - {name: '🇺🇸_US_美国_31', server: '167.88.61.70', port: 8009,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74'}
+  - {name: '♥️♥️YouTube梦歌♥️♥️_24', server: 'ggc.sf66.cf', port: 45118, type: vmess, uuid: '061a5ca3-09f7-413e-8d4d-35775bb5c0eb', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/theuploadapi', host: 'oracle.kr.tgproxy.wtf'} }
+  - {name: '🇺🇸_US_美国_33', server: '167.88.62.104', port: 7307,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP'}
+  - {name: '🇺🇸_US_美国_34', server: '169.197.142.39', port: 443,  type: ss, cipher: 'aes-256-gcm', password: 'pKEW8JPByTVTLtM'}
+  - {name: '♥️♥️YouTube梦歌♥️♥️_39', server: 'n200.centaur.network', port: 8081, type: trojan, password: 5106d626-ddc5-452c-8983-c4ba957eb509, sni: 'n200.centaur.network' }
+  - {name: 'US_2816', server: '38.64.138.145', port: 8008,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74'}
+  - {name: '🇺🇸_US_美国_37', server: '167.88.61.60', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP'}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - www_youneed_win_1
+      - ♥️♥️YouTube梦歌♥️♥️_20
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - ♥️♥️YouTube梦歌♥️♥️_52
+      - 香港阿伟科技atTG/油管_5
+      - 🇺🇸_US_美国_6
+      - ♥️♥️YouTube梦歌♥️♥️_23
+      - ♥️♥️YouTube梦歌♥️♥️_25
+      - ♥️♥️YouTube梦歌♥️♥️_36
+      - 美国阿伟科技atTG/油管_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - ♥️♥️YouTube梦歌♥️♥️_35
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 香港阿伟科技atTG/油管_17
+      - 韩国阿伟科技atTG/油管_18
+      - 🇺🇸_US_美国_19
+      - ♥️♥️YouTube梦歌♥️♥️_63
+      - 🇭🇰_HK_香港_21
+      - ♥️♥️YouTube梦歌♥️♥️_17
+      - 香港阿伟科技atTG/油管_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 美国阿伟科技atTG/油管_26
+      - 🇺🇸_US_美国_27
+      - ♥️♥️YouTube梦歌♥️♥️_53
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - ♥️♥️YouTube梦歌♥️♥️_24
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - ♥️♥️YouTube梦歌♥️♥️_39
+      - US_2816
+      - 🇺🇸_US_美国_37
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - www_youneed_win_1
+      - ♥️♥️YouTube梦歌♥️♥️_20
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - ♥️♥️YouTube梦歌♥️♥️_52
+      - 香港阿伟科技atTG/油管_5
+      - 🇺🇸_US_美国_6
+      - ♥️♥️YouTube梦歌♥️♥️_23
+      - ♥️♥️YouTube梦歌♥️♥️_25
+      - ♥️♥️YouTube梦歌♥️♥️_36
+      - 美国阿伟科技atTG/油管_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - ♥️♥️YouTube梦歌♥️♥️_35
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 香港阿伟科技atTG/油管_17
+      - 韩国阿伟科技atTG/油管_18
+      - 🇺🇸_US_美国_19
+      - ♥️♥️YouTube梦歌♥️♥️_63
+      - 🇭🇰_HK_香港_21
+      - ♥️♥️YouTube梦歌♥️♥️_17
+      - 香港阿伟科技atTG/油管_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 美国阿伟科技atTG/油管_26
+      - 🇺🇸_US_美国_27
+      - ♥️♥️YouTube梦歌♥️♥️_53
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - ♥️♥️YouTube梦歌♥️♥️_24
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - ♥️♥️YouTube梦歌♥️♥️_39
+      - US_2816
+      - 🇺🇸_US_美国_37
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - www_youneed_win_1
+      - ♥️♥️YouTube梦歌♥️♥️_20
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - ♥️♥️YouTube梦歌♥️♥️_52
+      - 香港阿伟科技atTG/油管_5
+      - 🇺🇸_US_美国_6
+      - ♥️♥️YouTube梦歌♥️♥️_23
+      - ♥️♥️YouTube梦歌♥️♥️_25
+      - ♥️♥️YouTube梦歌♥️♥️_36
+      - 美国阿伟科技atTG/油管_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - ♥️♥️YouTube梦歌♥️♥️_35
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 香港阿伟科技atTG/油管_17
+      - 韩国阿伟科技atTG/油管_18
+      - 🇺🇸_US_美国_19
+      - ♥️♥️YouTube梦歌♥️♥️_63
+      - 🇭🇰_HK_香港_21
+      - ♥️♥️YouTube梦歌♥️♥️_17
+      - 香港阿伟科技atTG/油管_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 美国阿伟科技atTG/油管_26
+      - 🇺🇸_US_美国_27
+      - ♥️♥️YouTube梦歌♥️♥️_53
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - ♥️♥️YouTube梦歌♥️♥️_24
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - ♥️♥️YouTube梦歌♥️♥️_39
+      - US_2816
+      - 🇺🇸_US_美国_37
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - www_youneed_win_1
+      - ♥️♥️YouTube梦歌♥️♥️_20
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - ♥️♥️YouTube梦歌♥️♥️_52
+      - 香港阿伟科技atTG/油管_5
+      - 🇺🇸_US_美国_6
+      - ♥️♥️YouTube梦歌♥️♥️_23
+      - ♥️♥️YouTube梦歌♥️♥️_25
+      - ♥️♥️YouTube梦歌♥️♥️_36
+      - 美国阿伟科技atTG/油管_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - ♥️♥️YouTube梦歌♥️♥️_35
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 香港阿伟科技atTG/油管_17
+      - 韩国阿伟科技atTG/油管_18
+      - 🇺🇸_US_美国_19
+      - ♥️♥️YouTube梦歌♥️♥️_63
+      - 🇭🇰_HK_香港_21
+      - ♥️♥️YouTube梦歌♥️♥️_17
+      - 香港阿伟科技atTG/油管_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 美国阿伟科技atTG/油管_26
+      - 🇺🇸_US_美国_27
+      - ♥️♥️YouTube梦歌♥️♥️_53
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - ♥️♥️YouTube梦歌♥️♥️_24
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - ♥️♥️YouTube梦歌♥️♥️_39
+      - US_2816
+      - 🇺🇸_US_美国_37
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - www_youneed_win_1
+      - ♥️♥️YouTube梦歌♥️♥️_20
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - ♥️♥️YouTube梦歌♥️♥️_52
+      - 香港阿伟科技atTG/油管_5
+      - 🇺🇸_US_美国_6
+      - ♥️♥️YouTube梦歌♥️♥️_23
+      - ♥️♥️YouTube梦歌♥️♥️_25
+      - ♥️♥️YouTube梦歌♥️♥️_36
+      - 美国阿伟科技atTG/油管_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - ♥️♥️YouTube梦歌♥️♥️_35
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 香港阿伟科技atTG/油管_17
+      - 韩国阿伟科技atTG/油管_18
+      - 🇺🇸_US_美国_19
+      - ♥️♥️YouTube梦歌♥️♥️_63
+      - 🇭🇰_HK_香港_21
+      - ♥️♥️YouTube梦歌♥️♥️_17
+      - 香港阿伟科技atTG/油管_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 美国阿伟科技atTG/油管_26
+      - 🇺🇸_US_美国_27
+      - ♥️♥️YouTube梦歌♥️♥️_53
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - ♥️♥️YouTube梦歌♥️♥️_24
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - ♥️♥️YouTube梦歌♥️♥️_39
+      - US_2816
+      - 🇺🇸_US_美国_37
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - www_youneed_win_1
+      - ♥️♥️YouTube梦歌♥️♥️_20
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - ♥️♥️YouTube梦歌♥️♥️_52
+      - 香港阿伟科技atTG/油管_5
+      - 🇺🇸_US_美国_6
+      - ♥️♥️YouTube梦歌♥️♥️_23
+      - ♥️♥️YouTube梦歌♥️♥️_25
+      - ♥️♥️YouTube梦歌♥️♥️_36
+      - 美国阿伟科技atTG/油管_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - ♥️♥️YouTube梦歌♥️♥️_35
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 香港阿伟科技atTG/油管_17
+      - 韩国阿伟科技atTG/油管_18
+      - 🇺🇸_US_美国_19
+      - ♥️♥️YouTube梦歌♥️♥️_63
+      - 🇭🇰_HK_香港_21
+      - ♥️♥️YouTube梦歌♥️♥️_17
+      - 香港阿伟科技atTG/油管_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 美国阿伟科技atTG/油管_26
+      - 🇺🇸_US_美国_27
+      - ♥️♥️YouTube梦歌♥️♥️_53
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - ♥️♥️YouTube梦歌♥️♥️_24
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - ♥️♥️YouTube梦歌♥️♥️_39
+      - US_2816
+      - 🇺🇸_US_美国_37
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +319,43 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - www_youneed_win_1
+      - ♥️♥️YouTube梦歌♥️♥️_20
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - ♥️♥️YouTube梦歌♥️♥️_52
+      - 香港阿伟科技atTG/油管_5
+      - 🇺🇸_US_美国_6
+      - ♥️♥️YouTube梦歌♥️♥️_23
+      - ♥️♥️YouTube梦歌♥️♥️_25
+      - ♥️♥️YouTube梦歌♥️♥️_36
+      - 美国阿伟科技atTG/油管_10
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
+      - ♥️♥️YouTube梦歌♥️♥️_35
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 香港阿伟科技atTG/油管_17
+      - 韩国阿伟科技atTG/油管_18
+      - 🇺🇸_US_美国_19
+      - ♥️♥️YouTube梦歌♥️♥️_63
+      - 🇭🇰_HK_香港_21
+      - ♥️♥️YouTube梦歌♥️♥️_17
+      - 香港阿伟科技atTG/油管_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 美国阿伟科技atTG/油管_26
+      - 🇺🇸_US_美国_27
+      - ♥️♥️YouTube梦歌♥️♥️_53
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - ♥️♥️YouTube梦歌♥️♥️_24
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - ♥️♥️YouTube梦歌♥️♥️_39
+      - US_2816
+      - 🇺🇸_US_美国_37
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
