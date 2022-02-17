@@ -36,75 +36,72 @@ proxies:
   - {"name":"🇨🇦_CA_加拿大_29","server":"134.195.196.71","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
   - {"name":"🇷🇺_RU_俄罗斯联邦_30","server":"92.223.72.42","port":443,"type":"vmess","uuid":"ae08412f-5bb9-4be7-8560-1984976a1097","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","host":"govacaxixo.watchdoctor.xyz"}}
   - {"name":"🇺🇸_US_美国_31","server":"169.197.142.4","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"default_name_32","server":"icook.tw","port":443,"type":"vmess","uuid":"188741f2-1f14-43cb-be7a-1200a9f4332e","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/The-Great-Awakening_vws","host":"vincent-jackson2022.ml"}}
-  - {"name":"🇬🇧_GB_英国_33","server":"gia.uk.tgproxy.wtf","port":443,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"gia.uk.tgproxy.wtf"}}
-  - {"name":"🇨🇦_CA_加拿大_34","server":"134.195.196.33","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_35","server":"169.197.142.4","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_36","server":"134.195.196.12","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_37","server":"134.195.196.227","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷_FR_法国_38","server":"145.239.1.100","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇫🇷_FR_法国_39","server":"149.202.82.172","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_40","server":"134.195.196.200","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_41","server":"169.197.142.4","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸_US_美国_42","server":"169.197.143.157","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_43","server":"134.195.196.71","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_44","server":"134.195.196.193","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_45","server":"169.197.143.157","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_46","server":"134.195.196.71","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇫🇷_FR_法国_47","server":"145.239.1.100","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_48","server":"169.197.142.39","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_49","server":"134.195.198.252","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_50","server":"169.197.143.157","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_51","server":"134.195.196.199","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_52","server":"169.197.142.39","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"default_name_53","server":"198.41.212.2","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
-  - {"name":"🇺🇸_US_美国_54","server":"169.197.143.219","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_55","server":"169.197.143.157","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇬🇧_GB_英国_56","server":"172.99.190.87","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷_FR_法国_57","server":"141.95.0.26","port":826,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"sF43Xt2gONqcgFX563"}
-  - {"name":"🇺🇸_US_美国_58","server":"cloudflare.a-yu.xyz","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero2.a-yu.xyz"}}
-  - {"name":"🇫🇷_FR_法国_59","server":"149.202.82.172","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA_加拿大_60","server":"134.195.196.200","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇬🇧_GB_英国_61","server":"172.99.190.205","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_62","server":"169.197.142.4","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA_加拿大_63","server":"134.195.196.147","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇫🇷_FR_法国_64","server":"145.239.1.100","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_65","server":"145.239.7.164","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_66","server":"134.195.196.200","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇬🇧_GB_英国_67","server":"172.99.190.139","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_68","server":"134.195.196.200","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇬🇧_GB_英国_69","server":"172.99.190.87","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_70","server":"169.197.142.4","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_71","server":"134.195.196.3","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_72","server":"169.197.142.4","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸_US_美国_73","server":"169.197.143.157","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_74","server":"134.195.198.250","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇭🇰_HK_香港->🇮🇳_IN_印度_75","server":"aicoo6du.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"aicoo6du.com"}}
-  - {"name":"🇨🇦_CA_加拿大_76","server":"134.195.198.250","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US_美国_77","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-dallas.lvuft.com"}}
-  - {"name":"🇨🇦_CA_加拿大_78","server":"134.195.196.193","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_79","server":"172.99.190.205","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦_CA_加拿大_80","server":"134.195.196.71","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_81","server":"172.99.190.158","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇬🇧_GB_英国_82","server":"172.99.190.35","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇫🇷_FR_法国_83","server":"149.202.82.172","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_US_美国_84","server":"169.197.143.157","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_85","server":"134.195.196.71","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇫🇷_FR_法国_86","server":"149.202.82.172","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_87","server":"169.197.143.219","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US_美国_88","server":"104.223.125.53","port":443,"type":"vmess","uuid":"9e83b768-6db7-4537-b8f9-a9d0cb089bdb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","host":"govacaxixo.watchdoctor.xyz"}}
-  - {"name":"🇨🇦_CA_加拿大_89","server":"134.195.196.3","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_90","server":"134.195.196.12","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_91","server":"134.195.198.252","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_92","server":"169.197.142.39","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_US_美国_93","server":"169.197.142.39","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦_CA_加拿大_94","server":"134.195.196.71","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇬🇧_GB_英国_95","server":"172.99.190.87","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇬🇧_GB_英国_96","server":"172.99.190.149","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_97","server":"169.197.142.39","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_98","server":"134.195.196.33","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_99","server":"134.195.196.147","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_100","server":"169.197.143.157","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇬🇧_GB_英国_32","server":"gia.uk.tgproxy.wtf","port":443,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"gia.uk.tgproxy.wtf"}}
+  - {"name":"🇨🇦_CA_加拿大_33","server":"134.195.196.33","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_34","server":"169.197.142.4","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA_加拿大_35","server":"134.195.196.12","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA_加拿大_36","server":"134.195.196.227","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇫🇷_FR_法国_37","server":"145.239.1.100","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇫🇷_FR_法国_38","server":"149.202.82.172","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_39","server":"134.195.196.200","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_40","server":"169.197.142.4","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_41","server":"169.197.143.157","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_42","server":"134.195.196.71","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_43","server":"134.195.196.193","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_44","server":"169.197.143.157","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA_加拿大_45","server":"134.195.196.71","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇫🇷_FR_法国_46","server":"145.239.1.100","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_47","server":"169.197.142.39","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_48","server":"134.195.198.252","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_49","server":"169.197.143.157","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_50","server":"134.195.196.199","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_51","server":"169.197.142.39","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_52","server":"169.197.143.219","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_53","server":"169.197.143.157","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇬🇧_GB_英国_54","server":"172.99.190.87","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇫🇷_FR_法国_55","server":"141.95.0.26","port":826,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"sF43Xt2gONqcgFX563"}
+  - {"name":"🇺🇸_US_美国_56","server":"cloudflare.a-yu.xyz","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero2.a-yu.xyz"}}
+  - {"name":"🇫🇷_FR_法国_57","server":"149.202.82.172","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA_加拿大_58","server":"134.195.196.200","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇬🇧_GB_英国_59","server":"172.99.190.205","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_60","server":"169.197.142.4","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_CA_加拿大_61","server":"134.195.196.147","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇫🇷_FR_法国_62","server":"145.239.1.100","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇬🇧_GB_英国_63","server":"145.239.7.164","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_64","server":"134.195.196.200","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇬🇧_GB_英国_65","server":"172.99.190.139","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA_加拿大_66","server":"134.195.196.200","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇬🇧_GB_英国_67","server":"172.99.190.87","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_68","server":"169.197.142.4","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_69","server":"134.195.196.3","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_70","server":"169.197.142.4","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_71","server":"169.197.143.157","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_72","server":"134.195.198.250","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_73","server":"134.195.198.250","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_74","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"usa-dallas.lvuft.com"}}
+  - {"name":"🇨🇦_CA_加拿大_75","server":"134.195.196.193","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇬🇧_GB_英国_76","server":"172.99.190.205","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_77","server":"134.195.196.71","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇬🇧_GB_英国_78","server":"172.99.190.158","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇬🇧_GB_英国_79","server":"172.99.190.35","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇫🇷_FR_法国_80","server":"149.202.82.172","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_US_美国_81","server":"169.197.143.157","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_82","server":"134.195.196.71","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇫🇷_FR_法国_83","server":"149.202.82.172","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_84","server":"169.197.143.219","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_85","server":"104.223.125.53","port":443,"type":"vmess","uuid":"9e83b768-6db7-4537-b8f9-a9d0cb089bdb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","host":"govacaxixo.watchdoctor.xyz"}}
+  - {"name":"🇨🇦_CA_加拿大_86","server":"134.195.196.3","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA_加拿大_87","server":"134.195.196.12","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_88","server":"134.195.198.252","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_89","server":"169.197.142.39","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_US_美国_90","server":"169.197.142.39","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦_CA_加拿大_91","server":"134.195.196.71","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇬🇧_GB_英国_92","server":"172.99.190.87","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇬🇧_GB_英国_93","server":"172.99.190.149","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_94","server":"169.197.142.39","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_CA_加拿大_95","server":"134.195.196.33","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_96","server":"134.195.196.147","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_97","server":"169.197.143.157","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -142,75 +139,72 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_29
       - 🇷🇺_RU_俄罗斯联邦_30
       - 🇺🇸_US_美国_31
-      - default_name_32
-      - 🇬🇧_GB_英国_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇺🇸_US_美国_35
+      - 🇬🇧_GB_英国_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
       - 🇨🇦_CA_加拿大_36
-      - 🇨🇦_CA_加拿大_37
+      - 🇫🇷_FR_法国_37
       - 🇫🇷_FR_法国_38
-      - 🇫🇷_FR_法国_39
-      - 🇨🇦_CA_加拿大_40
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
       - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
+      - 🇨🇦_CA_加拿大_42
       - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇺🇸_US_美国_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇫🇷_FR_法国_47
-      - 🇺🇸_US_美国_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇺🇸_US_美国_50
-      - 🇨🇦_CA_加拿大_51
+      - 🇺🇸_US_美国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇫🇷_FR_法国_46
+      - 🇺🇸_US_美国_47
+      - 🇨🇦_CA_加拿大_48
+      - 🇺🇸_US_美国_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇺🇸_US_美国_51
       - 🇺🇸_US_美国_52
-      - default_name_53
-      - 🇺🇸_US_美国_54
-      - 🇺🇸_US_美国_55
-      - 🇬🇧_GB_英国_56
+      - 🇺🇸_US_美国_53
+      - 🇬🇧_GB_英国_54
+      - 🇫🇷_FR_法国_55
+      - 🇺🇸_US_美国_56
       - 🇫🇷_FR_法国_57
-      - 🇺🇸_US_美国_58
-      - 🇫🇷_FR_法国_59
-      - 🇨🇦_CA_加拿大_60
-      - 🇬🇧_GB_英国_61
-      - 🇺🇸_US_美国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇫🇷_FR_法国_64
+      - 🇨🇦_CA_加拿大_58
+      - 🇬🇧_GB_英国_59
+      - 🇺🇸_US_美国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇫🇷_FR_法国_62
+      - 🇬🇧_GB_英国_63
+      - 🇨🇦_CA_加拿大_64
       - 🇬🇧_GB_英国_65
       - 🇨🇦_CA_加拿大_66
       - 🇬🇧_GB_英国_67
-      - 🇨🇦_CA_加拿大_68
-      - 🇬🇧_GB_英国_69
+      - 🇺🇸_US_美国_68
+      - 🇨🇦_CA_加拿大_69
       - 🇺🇸_US_美国_70
-      - 🇨🇦_CA_加拿大_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇨🇦_CA_加拿大_74
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇺🇸_US_美国_77
-      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇨🇦_CA_加拿大_73
+      - 🇺🇸_US_美国_74
+      - 🇨🇦_CA_加拿大_75
+      - 🇬🇧_GB_英国_76
+      - 🇨🇦_CA_加拿大_77
+      - 🇬🇧_GB_英国_78
       - 🇬🇧_GB_英国_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇬🇧_GB_英国_81
-      - 🇬🇧_GB_英国_82
+      - 🇫🇷_FR_法国_80
+      - 🇺🇸_US_美国_81
+      - 🇨🇦_CA_加拿大_82
       - 🇫🇷_FR_法国_83
       - 🇺🇸_US_美国_84
-      - 🇨🇦_CA_加拿大_85
-      - 🇫🇷_FR_法国_86
-      - 🇺🇸_US_美国_87
-      - 🇺🇸_US_美国_88
-      - 🇨🇦_CA_加拿大_89
-      - 🇨🇦_CA_加拿大_90
+      - 🇺🇸_US_美国_85
+      - 🇨🇦_CA_加拿大_86
+      - 🇨🇦_CA_加拿大_87
+      - 🇨🇦_CA_加拿大_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
       - 🇨🇦_CA_加拿大_91
-      - 🇺🇸_US_美国_92
-      - 🇺🇸_US_美国_93
-      - 🇨🇦_CA_加拿大_94
-      - 🇬🇧_GB_英国_95
-      - 🇬🇧_GB_英国_96
+      - 🇬🇧_GB_英国_92
+      - 🇬🇧_GB_英国_93
+      - 🇺🇸_US_美国_94
+      - 🇨🇦_CA_加拿大_95
+      - 🇨🇦_CA_加拿大_96
       - 🇺🇸_US_美国_97
-      - 🇨🇦_CA_加拿大_98
-      - 🇨🇦_CA_加拿大_99
-      - 🇺🇸_US_美国_100
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -248,75 +242,72 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_29
       - 🇷🇺_RU_俄罗斯联邦_30
       - 🇺🇸_US_美国_31
-      - default_name_32
-      - 🇬🇧_GB_英国_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇺🇸_US_美国_35
+      - 🇬🇧_GB_英国_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
       - 🇨🇦_CA_加拿大_36
-      - 🇨🇦_CA_加拿大_37
+      - 🇫🇷_FR_法国_37
       - 🇫🇷_FR_法国_38
-      - 🇫🇷_FR_法国_39
-      - 🇨🇦_CA_加拿大_40
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
       - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
+      - 🇨🇦_CA_加拿大_42
       - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇺🇸_US_美国_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇫🇷_FR_法国_47
-      - 🇺🇸_US_美国_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇺🇸_US_美国_50
-      - 🇨🇦_CA_加拿大_51
+      - 🇺🇸_US_美国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇫🇷_FR_法国_46
+      - 🇺🇸_US_美国_47
+      - 🇨🇦_CA_加拿大_48
+      - 🇺🇸_US_美国_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇺🇸_US_美国_51
       - 🇺🇸_US_美国_52
-      - default_name_53
-      - 🇺🇸_US_美国_54
-      - 🇺🇸_US_美国_55
-      - 🇬🇧_GB_英国_56
+      - 🇺🇸_US_美国_53
+      - 🇬🇧_GB_英国_54
+      - 🇫🇷_FR_法国_55
+      - 🇺🇸_US_美国_56
       - 🇫🇷_FR_法国_57
-      - 🇺🇸_US_美国_58
-      - 🇫🇷_FR_法国_59
-      - 🇨🇦_CA_加拿大_60
-      - 🇬🇧_GB_英国_61
-      - 🇺🇸_US_美国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇫🇷_FR_法国_64
+      - 🇨🇦_CA_加拿大_58
+      - 🇬🇧_GB_英国_59
+      - 🇺🇸_US_美国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇫🇷_FR_法国_62
+      - 🇬🇧_GB_英国_63
+      - 🇨🇦_CA_加拿大_64
       - 🇬🇧_GB_英国_65
       - 🇨🇦_CA_加拿大_66
       - 🇬🇧_GB_英国_67
-      - 🇨🇦_CA_加拿大_68
-      - 🇬🇧_GB_英国_69
+      - 🇺🇸_US_美国_68
+      - 🇨🇦_CA_加拿大_69
       - 🇺🇸_US_美国_70
-      - 🇨🇦_CA_加拿大_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇨🇦_CA_加拿大_74
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇺🇸_US_美国_77
-      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇨🇦_CA_加拿大_73
+      - 🇺🇸_US_美国_74
+      - 🇨🇦_CA_加拿大_75
+      - 🇬🇧_GB_英国_76
+      - 🇨🇦_CA_加拿大_77
+      - 🇬🇧_GB_英国_78
       - 🇬🇧_GB_英国_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇬🇧_GB_英国_81
-      - 🇬🇧_GB_英国_82
+      - 🇫🇷_FR_法国_80
+      - 🇺🇸_US_美国_81
+      - 🇨🇦_CA_加拿大_82
       - 🇫🇷_FR_法国_83
       - 🇺🇸_US_美国_84
-      - 🇨🇦_CA_加拿大_85
-      - 🇫🇷_FR_法国_86
-      - 🇺🇸_US_美国_87
-      - 🇺🇸_US_美国_88
-      - 🇨🇦_CA_加拿大_89
-      - 🇨🇦_CA_加拿大_90
+      - 🇺🇸_US_美国_85
+      - 🇨🇦_CA_加拿大_86
+      - 🇨🇦_CA_加拿大_87
+      - 🇨🇦_CA_加拿大_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
       - 🇨🇦_CA_加拿大_91
-      - 🇺🇸_US_美国_92
-      - 🇺🇸_US_美国_93
-      - 🇨🇦_CA_加拿大_94
-      - 🇬🇧_GB_英国_95
-      - 🇬🇧_GB_英国_96
+      - 🇬🇧_GB_英国_92
+      - 🇬🇧_GB_英国_93
+      - 🇺🇸_US_美国_94
+      - 🇨🇦_CA_加拿大_95
+      - 🇨🇦_CA_加拿大_96
       - 🇺🇸_US_美国_97
-      - 🇨🇦_CA_加拿大_98
-      - 🇨🇦_CA_加拿大_99
-      - 🇺🇸_US_美国_100
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -354,75 +345,72 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_29
       - 🇷🇺_RU_俄罗斯联邦_30
       - 🇺🇸_US_美国_31
-      - default_name_32
-      - 🇬🇧_GB_英国_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇺🇸_US_美国_35
+      - 🇬🇧_GB_英国_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
       - 🇨🇦_CA_加拿大_36
-      - 🇨🇦_CA_加拿大_37
+      - 🇫🇷_FR_法国_37
       - 🇫🇷_FR_法国_38
-      - 🇫🇷_FR_法国_39
-      - 🇨🇦_CA_加拿大_40
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
       - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
+      - 🇨🇦_CA_加拿大_42
       - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇺🇸_US_美国_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇫🇷_FR_法国_47
-      - 🇺🇸_US_美国_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇺🇸_US_美国_50
-      - 🇨🇦_CA_加拿大_51
+      - 🇺🇸_US_美国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇫🇷_FR_法国_46
+      - 🇺🇸_US_美国_47
+      - 🇨🇦_CA_加拿大_48
+      - 🇺🇸_US_美国_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇺🇸_US_美国_51
       - 🇺🇸_US_美国_52
-      - default_name_53
-      - 🇺🇸_US_美国_54
-      - 🇺🇸_US_美国_55
-      - 🇬🇧_GB_英国_56
+      - 🇺🇸_US_美国_53
+      - 🇬🇧_GB_英国_54
+      - 🇫🇷_FR_法国_55
+      - 🇺🇸_US_美国_56
       - 🇫🇷_FR_法国_57
-      - 🇺🇸_US_美国_58
-      - 🇫🇷_FR_法国_59
-      - 🇨🇦_CA_加拿大_60
-      - 🇬🇧_GB_英国_61
-      - 🇺🇸_US_美国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇫🇷_FR_法国_64
+      - 🇨🇦_CA_加拿大_58
+      - 🇬🇧_GB_英国_59
+      - 🇺🇸_US_美国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇫🇷_FR_法国_62
+      - 🇬🇧_GB_英国_63
+      - 🇨🇦_CA_加拿大_64
       - 🇬🇧_GB_英国_65
       - 🇨🇦_CA_加拿大_66
       - 🇬🇧_GB_英国_67
-      - 🇨🇦_CA_加拿大_68
-      - 🇬🇧_GB_英国_69
+      - 🇺🇸_US_美国_68
+      - 🇨🇦_CA_加拿大_69
       - 🇺🇸_US_美国_70
-      - 🇨🇦_CA_加拿大_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇨🇦_CA_加拿大_74
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇺🇸_US_美国_77
-      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇨🇦_CA_加拿大_73
+      - 🇺🇸_US_美国_74
+      - 🇨🇦_CA_加拿大_75
+      - 🇬🇧_GB_英国_76
+      - 🇨🇦_CA_加拿大_77
+      - 🇬🇧_GB_英国_78
       - 🇬🇧_GB_英国_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇬🇧_GB_英国_81
-      - 🇬🇧_GB_英国_82
+      - 🇫🇷_FR_法国_80
+      - 🇺🇸_US_美国_81
+      - 🇨🇦_CA_加拿大_82
       - 🇫🇷_FR_法国_83
       - 🇺🇸_US_美国_84
-      - 🇨🇦_CA_加拿大_85
-      - 🇫🇷_FR_法国_86
-      - 🇺🇸_US_美国_87
-      - 🇺🇸_US_美国_88
-      - 🇨🇦_CA_加拿大_89
-      - 🇨🇦_CA_加拿大_90
+      - 🇺🇸_US_美国_85
+      - 🇨🇦_CA_加拿大_86
+      - 🇨🇦_CA_加拿大_87
+      - 🇨🇦_CA_加拿大_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
       - 🇨🇦_CA_加拿大_91
-      - 🇺🇸_US_美国_92
-      - 🇺🇸_US_美国_93
-      - 🇨🇦_CA_加拿大_94
-      - 🇬🇧_GB_英国_95
-      - 🇬🇧_GB_英国_96
+      - 🇬🇧_GB_英国_92
+      - 🇬🇧_GB_英国_93
+      - 🇺🇸_US_美国_94
+      - 🇨🇦_CA_加拿大_95
+      - 🇨🇦_CA_加拿大_96
       - 🇺🇸_US_美国_97
-      - 🇨🇦_CA_加拿大_98
-      - 🇨🇦_CA_加拿大_99
-      - 🇺🇸_US_美国_100
   - name: 📲 电报信息
     type: select
     proxies:
@@ -459,75 +447,72 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_29
       - 🇷🇺_RU_俄罗斯联邦_30
       - 🇺🇸_US_美国_31
-      - default_name_32
-      - 🇬🇧_GB_英国_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇺🇸_US_美国_35
+      - 🇬🇧_GB_英国_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
       - 🇨🇦_CA_加拿大_36
-      - 🇨🇦_CA_加拿大_37
+      - 🇫🇷_FR_法国_37
       - 🇫🇷_FR_法国_38
-      - 🇫🇷_FR_法国_39
-      - 🇨🇦_CA_加拿大_40
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
       - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
+      - 🇨🇦_CA_加拿大_42
       - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇺🇸_US_美国_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇫🇷_FR_法国_47
-      - 🇺🇸_US_美国_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇺🇸_US_美国_50
-      - 🇨🇦_CA_加拿大_51
+      - 🇺🇸_US_美国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇫🇷_FR_法国_46
+      - 🇺🇸_US_美国_47
+      - 🇨🇦_CA_加拿大_48
+      - 🇺🇸_US_美国_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇺🇸_US_美国_51
       - 🇺🇸_US_美国_52
-      - default_name_53
-      - 🇺🇸_US_美国_54
-      - 🇺🇸_US_美国_55
-      - 🇬🇧_GB_英国_56
+      - 🇺🇸_US_美国_53
+      - 🇬🇧_GB_英国_54
+      - 🇫🇷_FR_法国_55
+      - 🇺🇸_US_美国_56
       - 🇫🇷_FR_法国_57
-      - 🇺🇸_US_美国_58
-      - 🇫🇷_FR_法国_59
-      - 🇨🇦_CA_加拿大_60
-      - 🇬🇧_GB_英国_61
-      - 🇺🇸_US_美国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇫🇷_FR_法国_64
+      - 🇨🇦_CA_加拿大_58
+      - 🇬🇧_GB_英国_59
+      - 🇺🇸_US_美国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇫🇷_FR_法国_62
+      - 🇬🇧_GB_英国_63
+      - 🇨🇦_CA_加拿大_64
       - 🇬🇧_GB_英国_65
       - 🇨🇦_CA_加拿大_66
       - 🇬🇧_GB_英国_67
-      - 🇨🇦_CA_加拿大_68
-      - 🇬🇧_GB_英国_69
+      - 🇺🇸_US_美国_68
+      - 🇨🇦_CA_加拿大_69
       - 🇺🇸_US_美国_70
-      - 🇨🇦_CA_加拿大_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇨🇦_CA_加拿大_74
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇺🇸_US_美国_77
-      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇨🇦_CA_加拿大_73
+      - 🇺🇸_US_美国_74
+      - 🇨🇦_CA_加拿大_75
+      - 🇬🇧_GB_英国_76
+      - 🇨🇦_CA_加拿大_77
+      - 🇬🇧_GB_英国_78
       - 🇬🇧_GB_英国_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇬🇧_GB_英国_81
-      - 🇬🇧_GB_英国_82
+      - 🇫🇷_FR_法国_80
+      - 🇺🇸_US_美国_81
+      - 🇨🇦_CA_加拿大_82
       - 🇫🇷_FR_法国_83
       - 🇺🇸_US_美国_84
-      - 🇨🇦_CA_加拿大_85
-      - 🇫🇷_FR_法国_86
-      - 🇺🇸_US_美国_87
-      - 🇺🇸_US_美国_88
-      - 🇨🇦_CA_加拿大_89
-      - 🇨🇦_CA_加拿大_90
+      - 🇺🇸_US_美国_85
+      - 🇨🇦_CA_加拿大_86
+      - 🇨🇦_CA_加拿大_87
+      - 🇨🇦_CA_加拿大_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
       - 🇨🇦_CA_加拿大_91
-      - 🇺🇸_US_美国_92
-      - 🇺🇸_US_美国_93
-      - 🇨🇦_CA_加拿大_94
-      - 🇬🇧_GB_英国_95
-      - 🇬🇧_GB_英国_96
+      - 🇬🇧_GB_英国_92
+      - 🇬🇧_GB_英国_93
+      - 🇺🇸_US_美国_94
+      - 🇨🇦_CA_加拿大_95
+      - 🇨🇦_CA_加拿大_96
       - 🇺🇸_US_美国_97
-      - 🇨🇦_CA_加拿大_98
-      - 🇨🇦_CA_加拿大_99
-      - 🇺🇸_US_美国_100
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -564,75 +549,72 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_29
       - 🇷🇺_RU_俄罗斯联邦_30
       - 🇺🇸_US_美国_31
-      - default_name_32
-      - 🇬🇧_GB_英国_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇺🇸_US_美国_35
+      - 🇬🇧_GB_英国_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
       - 🇨🇦_CA_加拿大_36
-      - 🇨🇦_CA_加拿大_37
+      - 🇫🇷_FR_法国_37
       - 🇫🇷_FR_法国_38
-      - 🇫🇷_FR_法国_39
-      - 🇨🇦_CA_加拿大_40
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
       - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
+      - 🇨🇦_CA_加拿大_42
       - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇺🇸_US_美国_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇫🇷_FR_法国_47
-      - 🇺🇸_US_美国_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇺🇸_US_美国_50
-      - 🇨🇦_CA_加拿大_51
+      - 🇺🇸_US_美国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇫🇷_FR_法国_46
+      - 🇺🇸_US_美国_47
+      - 🇨🇦_CA_加拿大_48
+      - 🇺🇸_US_美国_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇺🇸_US_美国_51
       - 🇺🇸_US_美国_52
-      - default_name_53
-      - 🇺🇸_US_美国_54
-      - 🇺🇸_US_美国_55
-      - 🇬🇧_GB_英国_56
+      - 🇺🇸_US_美国_53
+      - 🇬🇧_GB_英国_54
+      - 🇫🇷_FR_法国_55
+      - 🇺🇸_US_美国_56
       - 🇫🇷_FR_法国_57
-      - 🇺🇸_US_美国_58
-      - 🇫🇷_FR_法国_59
-      - 🇨🇦_CA_加拿大_60
-      - 🇬🇧_GB_英国_61
-      - 🇺🇸_US_美国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇫🇷_FR_法国_64
+      - 🇨🇦_CA_加拿大_58
+      - 🇬🇧_GB_英国_59
+      - 🇺🇸_US_美国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇫🇷_FR_法国_62
+      - 🇬🇧_GB_英国_63
+      - 🇨🇦_CA_加拿大_64
       - 🇬🇧_GB_英国_65
       - 🇨🇦_CA_加拿大_66
       - 🇬🇧_GB_英国_67
-      - 🇨🇦_CA_加拿大_68
-      - 🇬🇧_GB_英国_69
+      - 🇺🇸_US_美国_68
+      - 🇨🇦_CA_加拿大_69
       - 🇺🇸_US_美国_70
-      - 🇨🇦_CA_加拿大_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇨🇦_CA_加拿大_74
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇺🇸_US_美国_77
-      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇨🇦_CA_加拿大_73
+      - 🇺🇸_US_美国_74
+      - 🇨🇦_CA_加拿大_75
+      - 🇬🇧_GB_英国_76
+      - 🇨🇦_CA_加拿大_77
+      - 🇬🇧_GB_英国_78
       - 🇬🇧_GB_英国_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇬🇧_GB_英国_81
-      - 🇬🇧_GB_英国_82
+      - 🇫🇷_FR_法国_80
+      - 🇺🇸_US_美国_81
+      - 🇨🇦_CA_加拿大_82
       - 🇫🇷_FR_法国_83
       - 🇺🇸_US_美国_84
-      - 🇨🇦_CA_加拿大_85
-      - 🇫🇷_FR_法国_86
-      - 🇺🇸_US_美国_87
-      - 🇺🇸_US_美国_88
-      - 🇨🇦_CA_加拿大_89
-      - 🇨🇦_CA_加拿大_90
+      - 🇺🇸_US_美国_85
+      - 🇨🇦_CA_加拿大_86
+      - 🇨🇦_CA_加拿大_87
+      - 🇨🇦_CA_加拿大_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
       - 🇨🇦_CA_加拿大_91
-      - 🇺🇸_US_美国_92
-      - 🇺🇸_US_美国_93
-      - 🇨🇦_CA_加拿大_94
-      - 🇬🇧_GB_英国_95
-      - 🇬🇧_GB_英国_96
+      - 🇬🇧_GB_英国_92
+      - 🇬🇧_GB_英国_93
+      - 🇺🇸_US_美国_94
+      - 🇨🇦_CA_加拿大_95
+      - 🇨🇦_CA_加拿大_96
       - 🇺🇸_US_美国_97
-      - 🇨🇦_CA_加拿大_98
-      - 🇨🇦_CA_加拿大_99
-      - 🇺🇸_US_美国_100
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -669,75 +651,72 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_29
       - 🇷🇺_RU_俄罗斯联邦_30
       - 🇺🇸_US_美国_31
-      - default_name_32
-      - 🇬🇧_GB_英国_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇺🇸_US_美国_35
+      - 🇬🇧_GB_英国_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
       - 🇨🇦_CA_加拿大_36
-      - 🇨🇦_CA_加拿大_37
+      - 🇫🇷_FR_法国_37
       - 🇫🇷_FR_法国_38
-      - 🇫🇷_FR_法国_39
-      - 🇨🇦_CA_加拿大_40
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
       - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
+      - 🇨🇦_CA_加拿大_42
       - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇺🇸_US_美国_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇫🇷_FR_法国_47
-      - 🇺🇸_US_美国_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇺🇸_US_美国_50
-      - 🇨🇦_CA_加拿大_51
+      - 🇺🇸_US_美国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇫🇷_FR_法国_46
+      - 🇺🇸_US_美国_47
+      - 🇨🇦_CA_加拿大_48
+      - 🇺🇸_US_美国_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇺🇸_US_美国_51
       - 🇺🇸_US_美国_52
-      - default_name_53
-      - 🇺🇸_US_美国_54
-      - 🇺🇸_US_美国_55
-      - 🇬🇧_GB_英国_56
+      - 🇺🇸_US_美国_53
+      - 🇬🇧_GB_英国_54
+      - 🇫🇷_FR_法国_55
+      - 🇺🇸_US_美国_56
       - 🇫🇷_FR_法国_57
-      - 🇺🇸_US_美国_58
-      - 🇫🇷_FR_法国_59
-      - 🇨🇦_CA_加拿大_60
-      - 🇬🇧_GB_英国_61
-      - 🇺🇸_US_美国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇫🇷_FR_法国_64
+      - 🇨🇦_CA_加拿大_58
+      - 🇬🇧_GB_英国_59
+      - 🇺🇸_US_美国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇫🇷_FR_法国_62
+      - 🇬🇧_GB_英国_63
+      - 🇨🇦_CA_加拿大_64
       - 🇬🇧_GB_英国_65
       - 🇨🇦_CA_加拿大_66
       - 🇬🇧_GB_英国_67
-      - 🇨🇦_CA_加拿大_68
-      - 🇬🇧_GB_英国_69
+      - 🇺🇸_US_美国_68
+      - 🇨🇦_CA_加拿大_69
       - 🇺🇸_US_美国_70
-      - 🇨🇦_CA_加拿大_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇨🇦_CA_加拿大_74
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇺🇸_US_美国_77
-      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇨🇦_CA_加拿大_73
+      - 🇺🇸_US_美国_74
+      - 🇨🇦_CA_加拿大_75
+      - 🇬🇧_GB_英国_76
+      - 🇨🇦_CA_加拿大_77
+      - 🇬🇧_GB_英国_78
       - 🇬🇧_GB_英国_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇬🇧_GB_英国_81
-      - 🇬🇧_GB_英国_82
+      - 🇫🇷_FR_法国_80
+      - 🇺🇸_US_美国_81
+      - 🇨🇦_CA_加拿大_82
       - 🇫🇷_FR_法国_83
       - 🇺🇸_US_美国_84
-      - 🇨🇦_CA_加拿大_85
-      - 🇫🇷_FR_法国_86
-      - 🇺🇸_US_美国_87
-      - 🇺🇸_US_美国_88
-      - 🇨🇦_CA_加拿大_89
-      - 🇨🇦_CA_加拿大_90
+      - 🇺🇸_US_美国_85
+      - 🇨🇦_CA_加拿大_86
+      - 🇨🇦_CA_加拿大_87
+      - 🇨🇦_CA_加拿大_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
       - 🇨🇦_CA_加拿大_91
-      - 🇺🇸_US_美国_92
-      - 🇺🇸_US_美国_93
-      - 🇨🇦_CA_加拿大_94
-      - 🇬🇧_GB_英国_95
-      - 🇬🇧_GB_英国_96
+      - 🇬🇧_GB_英国_92
+      - 🇬🇧_GB_英国_93
+      - 🇺🇸_US_美国_94
+      - 🇨🇦_CA_加拿大_95
+      - 🇨🇦_CA_加拿大_96
       - 🇺🇸_US_美国_97
-      - 🇨🇦_CA_加拿大_98
-      - 🇨🇦_CA_加拿大_99
-      - 🇺🇸_US_美国_100
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -791,75 +770,72 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_29
       - 🇷🇺_RU_俄罗斯联邦_30
       - 🇺🇸_US_美国_31
-      - default_name_32
-      - 🇬🇧_GB_英国_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇺🇸_US_美国_35
+      - 🇬🇧_GB_英国_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
       - 🇨🇦_CA_加拿大_36
-      - 🇨🇦_CA_加拿大_37
+      - 🇫🇷_FR_法国_37
       - 🇫🇷_FR_法国_38
-      - 🇫🇷_FR_法国_39
-      - 🇨🇦_CA_加拿大_40
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
       - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
+      - 🇨🇦_CA_加拿大_42
       - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇺🇸_US_美国_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇫🇷_FR_法国_47
-      - 🇺🇸_US_美国_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇺🇸_US_美国_50
-      - 🇨🇦_CA_加拿大_51
+      - 🇺🇸_US_美国_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇫🇷_FR_法国_46
+      - 🇺🇸_US_美国_47
+      - 🇨🇦_CA_加拿大_48
+      - 🇺🇸_US_美国_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇺🇸_US_美国_51
       - 🇺🇸_US_美国_52
-      - default_name_53
-      - 🇺🇸_US_美国_54
-      - 🇺🇸_US_美国_55
-      - 🇬🇧_GB_英国_56
+      - 🇺🇸_US_美国_53
+      - 🇬🇧_GB_英国_54
+      - 🇫🇷_FR_法国_55
+      - 🇺🇸_US_美国_56
       - 🇫🇷_FR_法国_57
-      - 🇺🇸_US_美国_58
-      - 🇫🇷_FR_法国_59
-      - 🇨🇦_CA_加拿大_60
-      - 🇬🇧_GB_英国_61
-      - 🇺🇸_US_美国_62
-      - 🇨🇦_CA_加拿大_63
-      - 🇫🇷_FR_法国_64
+      - 🇨🇦_CA_加拿大_58
+      - 🇬🇧_GB_英国_59
+      - 🇺🇸_US_美国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇫🇷_FR_法国_62
+      - 🇬🇧_GB_英国_63
+      - 🇨🇦_CA_加拿大_64
       - 🇬🇧_GB_英国_65
       - 🇨🇦_CA_加拿大_66
       - 🇬🇧_GB_英国_67
-      - 🇨🇦_CA_加拿大_68
-      - 🇬🇧_GB_英国_69
+      - 🇺🇸_US_美国_68
+      - 🇨🇦_CA_加拿大_69
       - 🇺🇸_US_美国_70
-      - 🇨🇦_CA_加拿大_71
-      - 🇺🇸_US_美国_72
-      - 🇺🇸_US_美国_73
-      - 🇨🇦_CA_加拿大_74
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇺🇸_US_美国_77
-      - 🇨🇦_CA_加拿大_78
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇨🇦_CA_加拿大_73
+      - 🇺🇸_US_美国_74
+      - 🇨🇦_CA_加拿大_75
+      - 🇬🇧_GB_英国_76
+      - 🇨🇦_CA_加拿大_77
+      - 🇬🇧_GB_英国_78
       - 🇬🇧_GB_英国_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇬🇧_GB_英国_81
-      - 🇬🇧_GB_英国_82
+      - 🇫🇷_FR_法国_80
+      - 🇺🇸_US_美国_81
+      - 🇨🇦_CA_加拿大_82
       - 🇫🇷_FR_法国_83
       - 🇺🇸_US_美国_84
-      - 🇨🇦_CA_加拿大_85
-      - 🇫🇷_FR_法国_86
-      - 🇺🇸_US_美国_87
-      - 🇺🇸_US_美国_88
-      - 🇨🇦_CA_加拿大_89
-      - 🇨🇦_CA_加拿大_90
+      - 🇺🇸_US_美国_85
+      - 🇨🇦_CA_加拿大_86
+      - 🇨🇦_CA_加拿大_87
+      - 🇨🇦_CA_加拿大_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
       - 🇨🇦_CA_加拿大_91
-      - 🇺🇸_US_美国_92
-      - 🇺🇸_US_美国_93
-      - 🇨🇦_CA_加拿大_94
-      - 🇬🇧_GB_英国_95
-      - 🇬🇧_GB_英国_96
+      - 🇬🇧_GB_英国_92
+      - 🇬🇧_GB_英国_93
+      - 🇺🇸_US_美国_94
+      - 🇨🇦_CA_加拿大_95
+      - 🇨🇦_CA_加拿大_96
       - 🇺🇸_US_美国_97
-      - 🇨🇦_CA_加拿大_98
-      - 🇨🇦_CA_加拿大_99
-      - 🇺🇸_US_美国_100
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
