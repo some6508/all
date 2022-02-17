@@ -1078,106 +1078,48 @@ proxies:
   - {name: 菲律宾 Philippine●, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
   - {name: 韩国 Korea●, server: gz1.52168.xyz, port: 1115, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
   - {name: 香港 Hongkong (AZ)●, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: _FR_法国, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _FR_法国 2, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _FR_法国 3, server: 145.239.1.100, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _GB_英国, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _DE_德国, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
-  - {name: _FR_法国 4, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国 3, server: 172.99.190.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _FR_法国 5, server: 145.239.1.100, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _FR_法国 6, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: default_name, server: icook.tw, port: 443, type: vmess, uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: vincent-jackson2022.ml}}, udp: true}
-  - {name: _FR_法国 7, server: 145.239.1.100, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _LV_拉脱维亚, server: lv.tgproxy.wtf, port: 2052, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: lv.tgproxy.wtf}}, udp: true}
-  - {name: _FR_法国 8, server: 145.239.1.100, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 2, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: _US_美国 3, server: zxc.vincc.top, port: 26050, type: vmess, uuid: c1651f37-934d-43d7-8f69-681b7e93d263, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxc.vincc.top}}, udp: true}
-  - {name: _US_美国 4, server: ggz.jgw.tgproxy.wtf, port: 80, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: ggz.jgw.tgproxy.wtf}}, udp: true}
-  - {name: _GB_英国 4, server: 51.68.205.180, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 3, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _FR_法国 9, server: 145.239.1.100, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大 4, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 5, server: 134.195.198.252, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _FR_法国 10, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _GB_英国 5, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 11, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大 6, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国 6, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: default_name 2, server: 198.41.212.14, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: _FR_法国 12, server: 145.239.1.100, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: default_name 3, server: 104.27.89.125, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: xiaochen.chenyingjie5201314.workers.dev}}, udp: true}
-  - {name: _GB_英国 7, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 7, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _FR_法国 13, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大 8, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 5, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: dax6ujai.com}}, udp: true}
-  - {name: _CA_加拿大 9, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国 8, server: 172.99.190.87, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 10, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _FR_法国 14, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国, server: v6ru1.moonfree.top, port: 443, type: vmess, uuid: 5638fc1a-c3c0-41fd-acb6-2e302e7be794, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6ru.moonfree.top}}, udp: true}
-  - {name: _CA_加拿大 11, server: 134.195.196.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: default_name 4, server: 198.41.212.5, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: _GB_英国 9, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _FR_法国 15, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _GB_英国 10, server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国 6, server: 38.75.136.116, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _AU_澳大利亚, server: 45.76.127.189, port: 443, type: vmess, uuid: 7fc6764a-6cba-4599-95d7-ac7617b7db0a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
-  - {name: _GB_英国 11, server: 51.68.205.180, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 7, server: 38.75.136.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _GB_英国 12, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _FR_法国 16, server: 145.239.1.100, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _FR_法国 17, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: default_name 5, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, headers: {Host: anzhuo-hezi1.herokuapp.com}}, udp: true}
-  - {name: _CA_加拿大 12, server: 134.195.196.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _GB_英国 13, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _GB_英国 14, server: 172.99.190.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: default_name 6, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: _CA_加拿大 13, server: 134.195.196.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _RU_俄罗斯联邦, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
-  - {name: _CA_加拿大 14, server: 134.195.196.193, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大 15, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 15, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 16, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _AU_澳大利亚 2, server: 217.138.204.202, port: 443, type: vmess, uuid: fa1eff46-f454-42d9-b881-90a102d5521d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
-  - {name: _CA_加拿大 17, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 8, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _GB_英国 16, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 17, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _FR_法国 18, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _GB_英国 18, server: 172.99.190.92, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _GB_英国 19, server: 172.99.190.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _FR_法国 19, server: 145.239.1.100, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国 20, server: 51.68.205.180, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _GB_英国 21, server: 172.99.190.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 18, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国 22, server: 145.239.7.164, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 20, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _FR_法国 21, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大 19, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国 23, server: 172.99.190.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国 24, server: 172.99.190.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: default_name 7, server: test.0dc.cn, port: 443, type: vmess, uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: test.0dc.cn}}, udp: true}
-  - {name: _GB_英国 25, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 21627f29-0d0f-4dfa-9740-b5ee360bf061, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
-  - {name: _GB_英国 26, server: gia.uk.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: gia.uk.tgproxy.wtf}}, udp: true}
-  - {name: _CA_加拿大 20, server: 134.195.196.200, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: default_name 8, server: tw.twz.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: tw.twz.tgproxy.wtf}}, udp: true}
-  - {name: _CA_加拿大 21, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _RU_俄罗斯联邦 2, server: 5.188.35.120, port: 443, type: vmess, uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
-  - {name: _GB_英国 27, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 22, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _GB_英国 28, server: 172.99.190.87, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 23, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 22, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 24, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _FR_法国 25, server: fg.jgw.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: fg.jgw.tgproxy.wtf}}, udp: true}
-  - {name: _GB_英国 29, server: 172.99.190.87, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: GLaDOS-N2-00, server: cb44131.pa.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-01, server: cb44131.pb.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-02, server: cb44131.pc.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-03, server: cb44131.pd.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-04, server: cb44131.pe.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-05, server: cb44131.pf.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-06, server: cb44131.pg.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-07, server: cb44131.ph.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-08, server: cb44131.pi.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-Portalgun-00, server: cb44131.v1.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
+  - {name: GLaDOS-Portalgun-01, server: cb44131.v2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
+  - {name: GLaDOS-Portalgun-02, server: cb44131.v3.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
+  - {name: GLaDOS-Portalgun-03, server: cb44131.v4.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
+  - {name: GLaDOS-Portalgun-04, server: cb44131.v5.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
+  - {name: GLaDOS-Portalgun-05, server: cb44131.v6.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
+  - {name: GLaDOS-Portalgun-06, server: cb44131.v7.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
+  - {name: GLaDOS-Portalgun-07, server: cb44131.v8.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
+  - {name: GLaDOS-Portalgun-08, server: cb44131.v9.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
+  - {name: GLaDOS-T1-Netflix, server: cb44131.f1.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
+  - {name: GLaDOS-T2-Netflix, server: cb44131.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
+  - {name: GLaDOS-T3-Netflix, server: cb44131.f3.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
+  - {name: GLaDOS-E01-Economic, server: cb44131.ts.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: edge.moss.network}}, udp: true}
+  - {name: GLaDOS-E02-Economic, server: cb44131.td.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: sg.moss.network}}, udp: true}
+  - {name: GLaDOS-E03-Economic, server: cb44131.tt.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: intrepid.moss.network}}, udp: true}
+  - {name: GLaDOS-E04-Economic, server: cb44131.th.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: enterprise.moss.network}}, udp: true}
+  - {name: GLaDOS-E05-Economic, server: cb44131.nx.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: edge.moss.network}}, udp: true}
+  - {name: GLaDOS-E06-Economic, server: cb44131.cw.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: sg.moss.network}}, udp: true}
+  - {name: US-GLaDOS-GEO-00, server: cb44131.ga.gladns.com, port: 3381, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: US-GLaDOS-GEO-01, server: cb44131.gb.gladns.com, port: 3381, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: US-GLaDOS-GEO-02, server: cb44131.gc.gladns.com, port: 3381, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: JP-GLaDOS-GEO-00, server: cb44131.ga.gladns.com, port: 3382, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: JP-GLaDOS-GEO-01, server: cb44131.gb.gladns.com, port: 3382, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: JP-GLaDOS-GEO-02, server: cb44131.gc.gladns.com, port: 3382, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: TW-GLaDOS-GEO-00, server: cb44131.ga.gladns.com, port: 3383, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: TW-GLaDOS-GEO-01, server: cb44131.gb.gladns.com, port: 3383, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: TW-GLaDOS-GEO-02, server: cb44131.gc.gladns.com, port: 3383, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: HK-GLaDOS-GEO-00, server: cb44131.ga.gladns.com, port: 3384, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: HK-GLaDOS-GEO-01, server: cb44131.gb.gladns.com, port: 3384, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: HK-GLaDOS-GEO-02, server: cb44131.gc.gladns.com, port: 3384, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: SG-GLaDOS-GEO-00, server: cb44131.ga.gladns.com, port: 3385, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: SG-GLaDOS-GEO-01, server: cb44131.gb.gladns.com, port: 3385, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: SG-GLaDOS-GEO-02, server: cb44131.gc.gladns.com, port: 3385, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -3067,106 +3009,48 @@ proxy-groups:
       - 菲律宾 Philippine●
       - 韩国 Korea●
       - 香港 Hongkong (AZ)●
-      - _FR_法国
-      - _FR_法国 2
-      - _FR_法国 3
-      - _GB_英国
-      - _DE_德国
-      - _FR_法国 4
-      - _CA_加拿大
-      - _GB_英国 2
-      - _GB_英国 3
-      - _FR_法国 5
-      - _CA_加拿大 2
-      - _FR_法国 6
-      - default_name
-      - _FR_法国 7
-      - _LV_拉脱维亚
-      - _FR_法国 8
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _GB_英国 4
-      - _CA_加拿大 3
-      - _FR_法国 9
-      - _CA_加拿大 4
-      - _CA_加拿大 5
-      - _FR_法国 10
-      - _GB_英国 5
-      - _FR_法国 11
-      - _CA_加拿大 6
-      - _GB_英国 6
-      - default_name 2
-      - _FR_法国 12
-      - default_name 3
-      - _GB_英国 7
-      - _CA_加拿大 7
-      - _FR_法国 13
-      - _CA_加拿大 8
-      - _US_美国 5
-      - _CA_加拿大 9
-      - _GB_英国 8
-      - _CA_加拿大 10
-      - _FR_法国 14
-      - _US_美国->🇩🇪_DE_德国
-      - _CA_加拿大 11
-      - default_name 4
-      - _GB_英国 9
-      - _FR_法国 15
-      - _GB_英国 10
-      - _US_美国 6
-      - _AU_澳大利亚
-      - _GB_英国 11
-      - _US_美国 7
-      - _GB_英国 12
-      - _FR_法国 16
-      - _FR_法国 17
-      - default_name 5
-      - _CA_加拿大 12
-      - _GB_英国 13
-      - _GB_英国 14
-      - default_name 6
-      - _CA_加拿大 13
-      - _RU_俄罗斯联邦
-      - _CA_加拿大 14
-      - _CA_加拿大 15
-      - _GB_英国 15
-      - _CA_加拿大 16
-      - _AU_澳大利亚 2
-      - _CA_加拿大 17
-      - _US_美国 8
-      - _GB_英国 16
-      - _GB_英国 17
-      - _FR_法国 18
-      - _GB_英国 18
-      - _GB_英国 19
-      - _FR_法国 19
-      - _GB_英国 20
-      - _GB_英国 21
-      - _CA_加拿大 18
-      - _GB_英国 22
-      - _FR_法国 20
-      - _FR_法国 21
-      - _CA_加拿大 19
-      - _GB_英国 23
-      - _GB_英国 24
-      - default_name 7
-      - _GB_英国 25
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _GB_英国 26
-      - _CA_加拿大 20
-      - default_name 8
-      - _CA_加拿大 21
-      - _RU_俄罗斯联邦 2
-      - _GB_英国 27
-      - _FR_法国 22
-      - _GB_英国 28
-      - _FR_法国 23
-      - _CA_加拿大 22
-      - _FR_法国 24
-      - _FR_法国 25
-      - _GB_英国 29
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-N2-06
+      - GLaDOS-N2-07
+      - GLaDOS-N2-08
+      - GLaDOS-Portalgun-00
+      - GLaDOS-Portalgun-01
+      - GLaDOS-Portalgun-02
+      - GLaDOS-Portalgun-03
+      - GLaDOS-Portalgun-04
+      - GLaDOS-Portalgun-05
+      - GLaDOS-Portalgun-06
+      - GLaDOS-Portalgun-07
+      - GLaDOS-Portalgun-08
+      - GLaDOS-T1-Netflix
+      - GLaDOS-T2-Netflix
+      - GLaDOS-T3-Netflix
+      - GLaDOS-E01-Economic
+      - GLaDOS-E02-Economic
+      - GLaDOS-E03-Economic
+      - GLaDOS-E04-Economic
+      - GLaDOS-E05-Economic
+      - GLaDOS-E06-Economic
+      - US-GLaDOS-GEO-00
+      - US-GLaDOS-GEO-01
+      - US-GLaDOS-GEO-02
+      - JP-GLaDOS-GEO-00
+      - JP-GLaDOS-GEO-01
+      - JP-GLaDOS-GEO-02
+      - TW-GLaDOS-GEO-00
+      - TW-GLaDOS-GEO-01
+      - TW-GLaDOS-GEO-02
+      - HK-GLaDOS-GEO-00
+      - HK-GLaDOS-GEO-01
+      - HK-GLaDOS-GEO-02
+      - SG-GLaDOS-GEO-00
+      - SG-GLaDOS-GEO-01
+      - SG-GLaDOS-GEO-02
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5045,106 +4929,48 @@ proxy-groups:
       - 菲律宾 Philippine●
       - 韩国 Korea●
       - 香港 Hongkong (AZ)●
-      - _FR_法国
-      - _FR_法国 2
-      - _FR_法国 3
-      - _GB_英国
-      - _DE_德国
-      - _FR_法国 4
-      - _CA_加拿大
-      - _GB_英国 2
-      - _GB_英国 3
-      - _FR_法国 5
-      - _CA_加拿大 2
-      - _FR_法国 6
-      - default_name
-      - _FR_法国 7
-      - _LV_拉脱维亚
-      - _FR_法国 8
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _GB_英国 4
-      - _CA_加拿大 3
-      - _FR_法国 9
-      - _CA_加拿大 4
-      - _CA_加拿大 5
-      - _FR_法国 10
-      - _GB_英国 5
-      - _FR_法国 11
-      - _CA_加拿大 6
-      - _GB_英国 6
-      - default_name 2
-      - _FR_法国 12
-      - default_name 3
-      - _GB_英国 7
-      - _CA_加拿大 7
-      - _FR_法国 13
-      - _CA_加拿大 8
-      - _US_美国 5
-      - _CA_加拿大 9
-      - _GB_英国 8
-      - _CA_加拿大 10
-      - _FR_法国 14
-      - _US_美国->🇩🇪_DE_德国
-      - _CA_加拿大 11
-      - default_name 4
-      - _GB_英国 9
-      - _FR_法国 15
-      - _GB_英国 10
-      - _US_美国 6
-      - _AU_澳大利亚
-      - _GB_英国 11
-      - _US_美国 7
-      - _GB_英国 12
-      - _FR_法国 16
-      - _FR_法国 17
-      - default_name 5
-      - _CA_加拿大 12
-      - _GB_英国 13
-      - _GB_英国 14
-      - default_name 6
-      - _CA_加拿大 13
-      - _RU_俄罗斯联邦
-      - _CA_加拿大 14
-      - _CA_加拿大 15
-      - _GB_英国 15
-      - _CA_加拿大 16
-      - _AU_澳大利亚 2
-      - _CA_加拿大 17
-      - _US_美国 8
-      - _GB_英国 16
-      - _GB_英国 17
-      - _FR_法国 18
-      - _GB_英国 18
-      - _GB_英国 19
-      - _FR_法国 19
-      - _GB_英国 20
-      - _GB_英国 21
-      - _CA_加拿大 18
-      - _GB_英国 22
-      - _FR_法国 20
-      - _FR_法国 21
-      - _CA_加拿大 19
-      - _GB_英国 23
-      - _GB_英国 24
-      - default_name 7
-      - _GB_英国 25
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _GB_英国 26
-      - _CA_加拿大 20
-      - default_name 8
-      - _CA_加拿大 21
-      - _RU_俄罗斯联邦 2
-      - _GB_英国 27
-      - _FR_法国 22
-      - _GB_英国 28
-      - _FR_法国 23
-      - _CA_加拿大 22
-      - _FR_法国 24
-      - _FR_法国 25
-      - _GB_英国 29
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-N2-06
+      - GLaDOS-N2-07
+      - GLaDOS-N2-08
+      - GLaDOS-Portalgun-00
+      - GLaDOS-Portalgun-01
+      - GLaDOS-Portalgun-02
+      - GLaDOS-Portalgun-03
+      - GLaDOS-Portalgun-04
+      - GLaDOS-Portalgun-05
+      - GLaDOS-Portalgun-06
+      - GLaDOS-Portalgun-07
+      - GLaDOS-Portalgun-08
+      - GLaDOS-T1-Netflix
+      - GLaDOS-T2-Netflix
+      - GLaDOS-T3-Netflix
+      - GLaDOS-E01-Economic
+      - GLaDOS-E02-Economic
+      - GLaDOS-E03-Economic
+      - GLaDOS-E04-Economic
+      - GLaDOS-E05-Economic
+      - GLaDOS-E06-Economic
+      - US-GLaDOS-GEO-00
+      - US-GLaDOS-GEO-01
+      - US-GLaDOS-GEO-02
+      - JP-GLaDOS-GEO-00
+      - JP-GLaDOS-GEO-01
+      - JP-GLaDOS-GEO-02
+      - TW-GLaDOS-GEO-00
+      - TW-GLaDOS-GEO-01
+      - TW-GLaDOS-GEO-02
+      - HK-GLaDOS-GEO-00
+      - HK-GLaDOS-GEO-01
+      - HK-GLaDOS-GEO-02
+      - SG-GLaDOS-GEO-00
+      - SG-GLaDOS-GEO-01
+      - SG-GLaDOS-GEO-02
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -6170,6 +5996,9 @@ proxy-groups:
       - 30香港TG@moneyflychat
       - 1.97| HK625
       - 香港 Hongkong (AZ)●
+      - HK-GLaDOS-GEO-00
+      - HK-GLaDOS-GEO-01
+      - HK-GLaDOS-GEO-02
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -6295,6 +6124,9 @@ proxy-groups:
       - 3.77|RelayEEJP329
       - 3.63|RelayEEJP330
       - 3.17|RelayEEJP327
+      - JP-GLaDOS-GEO-00
+      - JP-GLaDOS-GEO-01
+      - JP-GLaDOS-GEO-02
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -6610,16 +6442,9 @@ proxy-groups:
       - 美国L2 中继M1S2 [2]
       - 美国L2 中继M1S1 [2]
       - US-199.19.226.178-0364
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - US-GLaDOS-GEO-00
+      - US-GLaDOS-GEO-01
+      - US-GLaDOS-GEO-02
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -6839,6 +6664,9 @@ proxy-groups:
       - 台湾（YouTube资源分享者） 8
       - Ytb:鹏哥分享_TW_台湾_272
       - Ytb:鹏哥分享_TW_台湾_284
+      - TW-GLaDOS-GEO-00
+      - TW-GLaDOS-GEO-01
+      - TW-GLaDOS-GEO-02
       - 台湾（YouTube资源分享者） 9
       - 台湾（YouTube资源分享者） 10
       - 台湾（YouTube资源分享者） 11
@@ -6890,6 +6718,9 @@ proxy-groups:
       - 中继 新加坡 01 3
       - 新加坡-01
       - 新加坡 Singapore★
+      - SG-GLaDOS-GEO-00
+      - SG-GLaDOS-GEO-01
+      - SG-GLaDOS-GEO-02
       - 新加坡（YouTube资源分享者） 2
       - _SG_新加坡_FMYC-2022.02.16_43
       - _SG_新加坡_FMYC-2022.02.16_45
@@ -6972,6 +6803,9 @@ proxy-groups:
     type: select
     proxies:
       - GLaDOS-HK-Netflix
+      - GLaDOS-T1-Netflix
+      - GLaDOS-T2-Netflix
+      - GLaDOS-T3-Netflix
       - 港04_|NF
       - 港02_|NF
       - 港03_|NF
