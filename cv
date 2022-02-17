@@ -893,6 +893,50 @@ proxies:
   - {name: Ytb:鹏哥分享_IN_印度_330, server: 172.104.207.231, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_331, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: Ytb:鹏哥分享_US_美国_332, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CM|台湾1|家庭宽带|x1, server: cm1.paoche.cyou, port: 45001, type: trojan, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, sni: cm1.paoche.cyou, skip-cert-verify: true, udp: true}
+  - {name: CM|香港2|家庭宽带|x1, server: cm1.paoche.cyou, port: 45012, type: trojan, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, sni: cm1.paoche.cyou, skip-cert-verify: true, udp: true}
+  - {name: CM|新加坡1 |x1, server: cm1.paoche.cyou, port: 45004, type: trojan, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, sni: cm1.paoche.cyou, skip-cert-verify: true, udp: true}
+  - {name: CM|新加坡2|Netflix|x1, server: cm1.paoche.cyou, port: 45005, type: trojan, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, sni: cm1.paoche.cyou, skip-cert-verify: true, udp: true}
+  - {name: CM|越南1|原生ip|x1, server: cm1.paoche.cyou, port: 45003, type: trojan, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, sni: cm1.paoche.cyou, skip-cert-verify: true, udp: true}
+  - {name: CM|泰国1|原生ip|x1, server: cm1.paoche.cyou, port: 45014, type: trojan, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, sni: cm1.paoche.cyou, skip-cert-verify: true, udp: true}
+  - {name: CM|印度尼西亚1|原生IP|x1, server: cm1.paoche.cyou, port: 45015, type: trojan, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, sni: cm1.paoche.cyou, skip-cert-verify: true, udp: true}
+  - {name: CM|日本1 |x1, server: cm1.paoche.cyou, port: 45006, type: trojan, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, sni: cm1.paoche.cyou, skip-cert-verify: true, udp: true}
+  - {name: CM|韩国1 x1, server: cm1.paoche.cyou, port: 45007, type: trojan, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, sni: cm1.paoche.cyou, skip-cert-verify: true, udp: true}
+  - {name: CM|美国1 |x1, server: cm1.paoche.cyou, port: 45008, type: trojan, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, sni: cm1.paoche.cyou, skip-cert-verify: true, udp: true}
+  - {name: CM|美国2 |x1, server: cm1.paoche.cyou, port: 45011, type: trojan, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, sni: cm1.paoche.cyou, skip-cert-verify: true, udp: true}
+  - {name: CM|德国1 |x1, server: cm1.paoche.cyou, port: 45009, type: trojan, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, sni: cm1.paoche.cyou, skip-cert-verify: true, udp: true}
+  - {name: IEPL|俄罗斯01|原生ip|x3, server: iepl.paoche.cyou, port: 25009, type: ss, cipher: aes-256-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|德国01|x3, server: iepl.paoche.cyou, port: 25010, type: ss, cipher: aes-256-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|英国01 |x3, server: iepl.paoche.cyou, port: 25011, type: ss, cipher: aes-256-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|阿根廷01|原生IP|x3, server: iepl.paoche.cyou, port: 25013, type: ss, cipher: aes-256-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|加拿大01 |x3, server: iepl.paoche.cyou, port: 25012, type: ss, cipher: aes-256-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|美国01 |x3, server: iepl.paoche.cyou, port: 25014, type: ss, cipher: aes-256-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|美国02 |x3, server: iepl.paoche.cyou, port: 25015, type: ss, cipher: aes-256-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|美国03|Netflix|x3, server: iepl.paoche.cyou, port: 25016, type: ss, cipher: aes-128-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|美国04|原生IP|x3, server: iepl.paoche.cyou, port: 25017, type: ss, cipher: aes-128-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|澳大利亚01 |x3, server: iepl.paoche.cyou, port: 25005, type: ss, cipher: aes-256-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|巴基斯坦01|原生IP|x10, server: iepl.paoche.cyou, port: 25006, type: ss, cipher: aes-256-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|土耳其01|原生IP|x3, server: iepl.paoche.cyou, port: 25007, type: ss, cipher: aes-256-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|泰国01|原生IP|x3, server: iepl.paoche.cyou, port: 25008, type: ss, cipher: aes-256-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|印度01 |x3, server: iepl.paoche.cyou, port: 25003, type: ss, cipher: aes-256-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|菲律宾01|原生IP|x3, server: iepl.paoche.cyou, port: 25002, type: ss, cipher: aes-256-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|马来西亚01|原生IP|x3, server: iepl.paoche.cyou, port: 25004, type: ss, cipher: aes-256-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|新加坡01 |x3, server: iepl.paoche.cyou, port: 25018, type: ss, cipher: aes-128-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|新加坡02|Netflix|x3, server: iepl.paoche.cyou, port: 25019, type: ss, cipher: aes-128-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|日本01|Netflix|x3, server: iepl.paoche.cyou, port: 25001, type: ss, cipher: aes-256-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|日本02 |x3, server: iepl.paoche.cyou, port: 25023, type: ss, cipher: aes-128-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|日本03|家庭宽带|x3, server: iepl.paoche.cyou, port: 25024, type: ss, cipher: aes-128-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|韩国01|Netflix|x3, server: iepl.paoche.cyou, port: 25025, type: ss, cipher: aes-128-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|澳门01|家庭宽带|x3, server: iepl.paoche.cyou, port: 25022, type: ss, cipher: aes-128-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|台湾01|家庭宽带|x3, server: iepl.paoche.cyou, port: 25020, type: ss, cipher: aes-128-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|台湾02|Netflix|x3, server: iepl.paoche.cyou, port: 25021, type: ss, cipher: aes-128-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|香港01|原生IP|x3, server: iepl.paoche.cyou, port: 25099, type: ss, cipher: aes-128-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|香港02|家庭宽带|x3, server: iepl.paoche.cyou, port: 25027, type: ss, cipher: aes-128-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: IEPL|香港03|家庭宽带|x3, server: iepl.paoche.cyou, port: 25028, type: ss, cipher: aes-128-gcm, password: a2153312-b2cb-4385-a18c-b1d8d8cc399f, udp: true}
+  - {name: 香港01 _1, server: hmkj1.xyz, port: 10091, type: trojan, password: 9647336e-a6a0-48d6-be97-2d69e1a6765a, sni: hmkj1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国09 _3, server: aotu8.top, port: 54321, type: trojan, password: 9647336e-a6a0-48d6-be97-2d69e1a6765a, sni: aotu8.top, skip-cert-verify: true, udp: true}
+  - {name: 美国04 _4, server: hmkjjc.xyz, port: 54323, type: trojan, password: 9647336e-a6a0-48d6-be97-2d69e1a6765a, sni: hmkjjc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国05 _5, server: aotu9.xyz, port: 54321, type: trojan, password: 9647336e-a6a0-48d6-be97-2d69e1a6765a, sni: aotu9.xyz, skip-cert-verify: true, udp: true}
   - {name: 专线 新加坡 03 3, server: iepl01.789jiasu.com, port: 8523, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
   - {name: 专线 新加坡 03 2, server: iepl01.789jiasu.com, port: 8023, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 41796:A3bDUz, obfs-param: bdcef41796.microsoft.com, udp: true}
   - {name: 专线 新加坡 02 3, server: iepl03.789jiasu.com, port: 8522, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
@@ -942,7 +986,6 @@ proxies:
   - {name: 中继 日本 03, server: in04.789jiasu.com, port: 8613, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
   - {name: 中继 日本 02 2, server: in03.789jiasu.com, port: 8112, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 41796:A3bDUz, obfs-param: bdcef41796.microsoft.com, udp: true}
   - {name: 中继 日本 02, server: in03.789jiasu.com, port: 8612, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
-  - {name: 中继 美国 01, server: in05.789jiasu.com, port: 8131, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 41796:A3bDUz, obfs-param: bdcef41796.microsoft.com, udp: true}
   - {name: 中继 马来西亚 02 3, server: in02.789jiasu.com, port: 8171, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 41796:A3bDUz, obfs-param: bdcef41796.microsoft.com, udp: true}
   - {name: 中继 马来西亚 02, server: in02.789jiasu.com, port: 8671, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
   - {name: 中继 马来西亚 01 2, server: in01.789jiasu.com, port: 8671, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
@@ -952,14 +995,6 @@ proxies:
   - {name: 中继 韩国 01 2, server: in03.789jiasu.com, port: 8151, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 41796:A3bDUz, obfs-param: bdcef41796.microsoft.com, udp: true}
   - {name: 中继 韩国 01, server: in03.789jiasu.com, port: 8651, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: df1c04468.microsoft.com}, udp: true}
   - {name: 新加坡-01, server: hk.tw.sgp.relay.cccloud.club, port: 11000, type: vmess, uuid: 011fa5b4-e08b-3108-a1df-c4f8c09f7346, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgp-01.cccloud.club}}, udp: true}
-  - {name: "香港L2 中继N3 [3]", server: hk-l2-cn2.sd-yun.cc, port: 20004, type: vmess, uuid: 1825afb4-8a09-3aee-a989-b893aba1b370, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ajax.microsoft.com}}, udp: true}
-  - {name: "香港L2 中继N2 [3]", server: hk-l2-cn2.sd-yun.cc, port: 32002, type: vmess, uuid: 1825afb4-8a09-3aee-a989-b893aba1b370, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
-  - {name: "香港L2 中继N1 [3]", server: hk-l2-cn2.sd-yun.cc, port: 28104, type: vmess, uuid: 1825afb4-8a09-3aee-a989-b893aba1b370, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ajax.microsoft.com}}, udp: true}
-  - {name: "香港L2 中继M1S2 [3]", server: hk-l2-m.sd-yun.cc, port: 34149, type: vmess, uuid: 1825afb4-8a09-3aee-a989-b893aba1b370, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ajax.microsoft.com}}, udp: true}
-  - {name: "香港L2 中继M1S1 [3]", server: hk-l2-m.sd-yun.cc, port: 34084, type: vmess, uuid: 1825afb4-8a09-3aee-a989-b893aba1b370, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ajax.microsoft.com}}, udp: true}
-  - {name: "美国L2 中继M1S3 [2]", server: sh-lt.01.xyx-xy-01.com, port: 34174, type: vmess, uuid: 1825afb4-8a09-3aee-a989-b893aba1b370, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
-  - {name: "美国L2 中继M1S2 [2]", server: sh-lt.01.xyx-xy-01.com, port: 34173, type: vmess, uuid: 1825afb4-8a09-3aee-a989-b893aba1b370, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
-  - {name: "美国L2 中继M1S1 [2]", server: sh-lt.01.xyx-xy-01.com, port: 34154, type: vmess, uuid: 1825afb4-8a09-3aee-a989-b893aba1b370, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
   - {name: 高速中转01, server: nhnlt.okex-tradebot.xyz, port: 30014, type: vmess, uuid: 7800ada8-8774-4641-b0b8-9d88e3c66371, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nhnlt.okex-tradebot.xyz}}, udp: true}
   - {name: US-199.19.226.178-0364, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: us.lv.buyvm.tgproxy.wtf}}, udp: true}
   - {name: KR | Oracle 甲骨文, server: fq.0112391.xyz, port: 12226, type: trojan, password: 1qaz2wsx, sni: fq.0112391.xyz, skip-cert-verify: true, udp: true}
@@ -968,73 +1003,27 @@ proxies:
   - {name: CN-183.232.170.110-1232, server: gdfs.xxcv.cc, port: 26001, type: trojan, password: 4a53cdc5-1067-3f5c-b1b4-745edfa8b371, sni: gdfs.xxcv.cc, skip-cert-verify: true, udp: true}
   - {name: CN-101.67.8.140-0039, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
   - {name: CN-101.67.8.140-0038, server: s2.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 4.75|RelayEEJP331, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 4.66|RelayEEJP332, server: os2-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-1.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 4.34|RelayEEJP328, server: os2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-7.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 4.25|RelayEEJP326, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
   - {name: 4.16| nfeng6 JP1354, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
   - {name: 30香港TG@moneyflychat, server: zj.haojiahuo.club, port: 60038, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.club}}, udp: true}
-  - {name: 3.77|RelayEEJP329, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 3.63|RelayEEJP330, server: os2-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-4.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 3.42|httpsgitiov9999 165, server: 128.1.95.250, port: 443, type: vmess, uuid: 65e05113-3849-4ce4-9881-5a891c2b1eeb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
-  - {name: 3.17|RelayEEJP327, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1.97| HK625, server: azaz.scsevers.cf, port: 443, type: trojan, password: ShareCentre, sni: azaz.scsevers.cf, skip-cert-verify: true, udp: true}
   - {name: 1.62|SeoulZenlayer, server: 128.1.125.164, port: 443, type: vmess, uuid: 312c3de7-233e-4d72-b3dc-de0205083312, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
   - {name: 1.57|CYL科技20220101 30 2, server: sy-am2.eqsunshine.com, port: 443, type: ssr, cipher: aes-256-cfb, password: Jz8r4gLNP, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 1.37|FR14194115681008, server: ovh.fr.tgproxy.wtf, port: 8888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: ovh.fr.tgproxy.wtf}}, udp: true}
   - {name: 1.26| GB549, server: uk-am3-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: PNRbp3j9B, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 1.23|拉脱维亚01流解0x, server: lv.tgproxy.wtf, port: 2052, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: lv.tgproxy.wtf}}, udp: true}
   - {name: 印度尼西亚 Indonesia●, server: gz1.52168.xyz, port: 1103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: 土耳其 Turkey★, server: gz2.52168.xyz, port: 2104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: 新加坡 Singapore★, server: gz2.52168.xyz, port: 2106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: 泰国 Thailand★, server: gz2.52168.xyz, port: 2109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
   - {name: 澳大利亚 Australia●, server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
   - {name: 英国 England(Free)★, server: gz2.52168.xyz, port: 2102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
   - {name: 菲律宾 Philippine●, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: 韩国 Korea●, server: gz1.52168.xyz, port: 1115, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
   - {name: 香港 Hongkong (AZ)●, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: GLaDOS-N2-00, server: cb44131.pa.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-01, server: cb44131.pb.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-02, server: cb44131.pc.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-03, server: cb44131.pd.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-04, server: cb44131.pe.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-05, server: cb44131.pf.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-06, server: cb44131.pg.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-07, server: cb44131.ph.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-08, server: cb44131.pi.gladns.com, port: 3389, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-Portalgun-00, server: cb44131.v1.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
-  - {name: GLaDOS-Portalgun-01, server: cb44131.v2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
-  - {name: GLaDOS-Portalgun-02, server: cb44131.v3.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
-  - {name: GLaDOS-Portalgun-03, server: cb44131.v4.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
-  - {name: GLaDOS-Portalgun-04, server: cb44131.v5.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
-  - {name: GLaDOS-Portalgun-05, server: cb44131.v6.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
-  - {name: GLaDOS-Portalgun-06, server: cb44131.v7.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
-  - {name: GLaDOS-Portalgun-07, server: cb44131.v8.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
-  - {name: GLaDOS-Portalgun-08, server: cb44131.v9.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
-  - {name: GLaDOS-T1-Netflix, server: cb44131.f1.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
-  - {name: GLaDOS-T2-Netflix, server: cb44131.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
-  - {name: GLaDOS-T3-Netflix, server: cb44131.f3.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}, udp: true}
-  - {name: GLaDOS-E01-Economic, server: cb44131.ts.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: edge.moss.network}}, udp: true}
-  - {name: GLaDOS-E02-Economic, server: cb44131.td.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: sg.moss.network}}, udp: true}
-  - {name: GLaDOS-E03-Economic, server: cb44131.tt.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: intrepid.moss.network}}, udp: true}
-  - {name: GLaDOS-E04-Economic, server: cb44131.th.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: enterprise.moss.network}}, udp: true}
-  - {name: GLaDOS-E05-Economic, server: cb44131.nx.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: edge.moss.network}}, udp: true}
-  - {name: GLaDOS-E06-Economic, server: cb44131.cw.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t, headers: {Host: sg.moss.network}}, udp: true}
-  - {name: US-GLaDOS-GEO-00, server: cb44131.ga.gladns.com, port: 3381, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: US-GLaDOS-GEO-01, server: cb44131.gb.gladns.com, port: 3381, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: US-GLaDOS-GEO-02, server: cb44131.gc.gladns.com, port: 3381, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: JP-GLaDOS-GEO-00, server: cb44131.ga.gladns.com, port: 3382, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: JP-GLaDOS-GEO-01, server: cb44131.gb.gladns.com, port: 3382, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: JP-GLaDOS-GEO-02, server: cb44131.gc.gladns.com, port: 3382, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: TW-GLaDOS-GEO-00, server: cb44131.ga.gladns.com, port: 3383, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: TW-GLaDOS-GEO-01, server: cb44131.gb.gladns.com, port: 3383, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: TW-GLaDOS-GEO-02, server: cb44131.gc.gladns.com, port: 3383, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: HK-GLaDOS-GEO-00, server: cb44131.ga.gladns.com, port: 3384, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: HK-GLaDOS-GEO-01, server: cb44131.gb.gladns.com, port: 3384, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: HK-GLaDOS-GEO-02, server: cb44131.gc.gladns.com, port: 3384, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: SG-GLaDOS-GEO-00, server: cb44131.ga.gladns.com, port: 3385, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: SG-GLaDOS-GEO-01, server: cb44131.gb.gladns.com, port: 3385, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
-  - {name: SG-GLaDOS-GEO-02, server: cb44131.gc.gladns.com, port: 3385, type: trojan, password: 38e1d7935c775f0d, skip-cert-verify: true, udp: true}
+  - {name: _FR_法国, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _FR_法国 2, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _FR_法国 3, server: 145.239.1.100, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_英国, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _DE_德国, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
+  - {name: _FR_法国 4, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _FR_法国 5, server: 145.239.1.100, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1678,163 +1667,152 @@ proxies:
   - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: jc.ap.fastqvpn.com:29980, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: jc.ap.fastqvpn.com:29980 2, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 阿根廷, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: jc.ap.fastqvpn.com:29980 3, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: jc.ap.fastqvpn.com:29980 4, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: jc.ap.fastqvpn.com:29980 5, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 香港4-小浪浪, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
-  - {name: 香港3-小浪浪, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
-  - {name: 香港1_小浪浪, server: shonlinecu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
+  - {name: "in.gotochinatown.net:108#%%%%%%%%%%%%%%%\x07", server: in.gotochinatown.net, port: 108, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "uk.gotochinatown.net:108#%%%%%%%%%%%%%%%\x03", server: uk.gotochinatown.net, port: 108, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "tw.gotochinatown.net:10881#%%%%%%\x03}", server: tw.gotochinatown.net, port: 10881, type: http, username: 19553398%40qq.com, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
   - {name: 香港2-小浪浪, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
-  - {name: 阿根廷, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 香港4-小浪浪, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
+  - {name: 香港04, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
+  - {name: 香港1_小浪浪, server: shonlinecu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
   - {name: "韩国(首尔) 🚀[极速稳定]", server: 122.9.54.101, port: 4261, type: ss, cipher: chacha20-ietf-poly1305, password: 8cb75ac322fc1e31f50a2703d09b1bd81bd51a74e70ed6c0ca6af91132a0c829, udp: true}
+  - {name: "[VIP]台湾1", server: t.pbaplink.xyz, port: 47586, type: trojan, password: ad983854-167d-478f-88eb-5d494d3b2c24, sni: x.pbaplink.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[VIP]韩国春川2|1x", server: ka1.pbaplink.xyz, port: 48500, type: trojan, password: ad983854-167d-478f-88eb-5d494d3b2c24, sni: ka1.pbaplink.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管, server: p3.centaur.network, port: 16803, type: trojan, password: 00635f3d-2c64-4281-9367-f3c26ebb6a44, sni: p3.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 2, server: h1r.centaur.network, port: 16802, type: trojan, password: fb39b0bb-acb7-45b8-a896-0ff6b56beb5f, sni: h1r.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: CowVagina_2, server: 87.wowogg.cyou, port: 52287, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_ | 2.66Mb, server: 1229hk.fans8.xyz, port: 80, type: vmess, uuid: 9fd65683-3942-3dbf-be07-d2fcdff733f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1229hk.fans8.xyz}}, udp: true}
+  - {name: 香港【YouTube由零開始】, server: 132.wgong.xyz, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_ | 4.69Mb, server: 1229hk.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1229hk.fans8.xyz}}, udp: true}
+  - {name: (3)香港（5000mbps）, server: 5.vpnbro.ml, port: 6666, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, sni: 5.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: (2)香港 (5000Mbps), server: 3.vpnbro.ml, port: 9999, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, sni: 3.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 (200Mbps), server: 4.vpnbro.ml, port: 9999, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: 拉斯维加斯 (1000Mbps), server: 1.vpnbro.ml, port: 9999, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, sni: 1.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: (1)香港 (5000Mbps), server: 2.vpnbro.ml, port: 9999, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, sni: 2.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: 日本_N_1, server: 101.67.8.192, port: 25179, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 香港_R_133, server: gzyd-01.yyuuii.cyou, port: 20001, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 越南_R_377, server: iepl-gz.yyuuii.cyou, port: 10899, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 香港_R_121, server: jx-002.yyuuii.cyou, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 越南_R_380, server: iepl-hn01.qqgg.work, port: 43738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 越南_R_277, server: gzyd-01.yyuuii.cyou, port: 49036, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 台湾_R_318, server: iepl-gz.yyuuii.cyou, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 韩国_R_310, server: gzyd-01.yyuuii.cyou, port: 20003, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 韩国_R_311, server: jx-002.yyuuii.cyou, port: 10020, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 台湾_R_337, server: iepl-hn01.qqgg.work, port: 20399, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 新加坡_R_229, server: gzyd-01.yyuuii.cyou, port: 20002, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 香港03, server: api.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: 香港04 2, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
+  - {name: 日本, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 香港02, server: api.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: 德国, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 亚太H3R, server: h3r.centaur.network, port: 16803, type: trojan, password: bb7c61b5-a5a5-47c3-aa65-92f082e18412, sni: h3r.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: 亚太H4R, server: h4r.centaur.network, port: 16801, type: trojan, password: 134b2dad-1ba4-49f6-a8b8-721525213356, sni: h4r.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: 日本H2R, server: h2r.centaur.network, port: 16801, type: trojan, password: 9be5458a-6a1e-4784-823e-45149d6c0ffc, sni: h2r.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: 日本H1R, server: h1r.centaur.network, port: 16802, type: trojan, password: fb39b0bb-acb7-45b8-a896-0ff6b56beb5f, sni: h1r.centaur.network, skip-cert-verify: true, udp: true}
   - {name: Premium|广港|IEPL|04, server: iepl-premium-1.ninjarelay.pro, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
   - {name: Premium|广港|IEPL|14, server: iepl-premium-2.ninjarelay.pro, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 港04_|NF, server: shanghai-router2-hk4-5478.dk-3a4e.com, port: 8304, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: hk04-01-azure-24567.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: Premium|广台|IEPL|01, server: iepl-premium-1.ninjarelay.pro, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
   - {name: Premium|广新|IEPL|02, server: iepl-premium-1.ninjarelay.pro, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广新|IEPL|03, server: iepl-basic-else-1.ninjarelay.pro, port: 6602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广新|IEPL|05, server: iepl-basic-else-1.ninjarelay.pro, port: 6604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广新|IEPL|07, server: iepl-basic-else-2.ninjarelay.pro, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|19, server: iepl-basic-hk-2.ninjarelay.pro, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广新|IEPL|04, server: iepl-basic-else-1.ninjarelay.pro, port: 6603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|20, server: iepl-basic-hk-2.ninjarelay.pro, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广新|IEPL|02, server: iepl-basic-else-1.ninjarelay.pro, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|18, server: iepl-basic-hk-2.ninjarelay.pro, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|17, server: iepl-basic-hk-2.ninjarelay.pro, port: 3606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Premium|广日|IEPL|01, server: iepl-premium-1.ninjarelay.pro, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广台|IEPL|04, server: iepl-basic-else-1.ninjarelay.pro, port: 3056, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|10, server: iepl-basic-hk-1.ninjarelay.pro, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|16, server: iepl-basic-hk-2.ninjarelay.pro, port: 3605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Premium|广日|IEPL|04, server: iepl-premium-2.ninjarelay.pro, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广日|IEPL|03, server: iepl-basic-else-1.ninjarelay.pro, port: 4602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|12, server: iepl-basic-hk-2.ninjarelay.pro, port: 3601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|14, server: iepl-basic-hk-2.ninjarelay.pro, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 免费丨香港丨1丨30M限速丨速云丨yooo.me丨 更多高速线路请购买套餐, server: yeooo.yeooo.xyz, port: 12345, type: vmess, uuid: e299af98-e9af-35d1-8a24-5c6e205626f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22www.bing.com%22%7D"}}, udp: true}
-  - {name: Standard|广港|IEPL|03, server: iepl-basic-hk-1.ninjarelay.pro, port: 3602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|11, server: iepl-basic-hk-2.ninjarelay.pro, port: 3600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|07, server: iepl-basic-hk-1.ninjarelay.pro, port: 3606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|15, server: iepl-basic-hk-2.ninjarelay.pro, port: 3604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广日|IEPL|08, server: iepl-basic-else-2.ninjarelay.pro, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|13, server: iepl-basic-hk-2.ninjarelay.pro, port: 3602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 港02_|NF, server: hk-route-12369-2.dk-3a4e.com, port: 8302, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: hk-2-561.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: 港10, server: hk10-gray.dk-3a4e.com, port: 8310, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: hk-10-567.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: Standard|广台|IEPL|01, server: iepl-basic-else-1.ninjarelay.pro, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 港08, server: hk-route2-azure-hk8.dk-3a4e.com, port: 8308, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: hk-8-565.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: 港13, server: hk-cnrelay-13-138465.dk-3a4e.com, port: 8313, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: hk-13-568.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: 港03_|NF, server: hk-route-12369-3.dk-3a4e.com, port: 8303, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: hk-3-562.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: Standard|广港|IEPL|09, server: iepl-basic-hk-1.ninjarelay.pro, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 台7_|NF|动画疯, server: tw7-5756.duuk.info, port: 5307, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: tw-07-593.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: 港05_|NF|TVB, server: shanghai-router2-hk5-5478.dk-3a4e.com, port: 8305, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: hk04-azure-uihn01.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: 港06_|NF|TVB, server: hk-route-12369-6.dk-3a4e.com, port: 8306, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: hk-6-563.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: 港07, server: hk-route2-azure-hk7.dk-3a4e.com, port: 8307, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: hk-7-564.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: 台3_|NF|动画疯, server: tw3-5412.duuk.info, port: 5303, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: tw-03-505.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: JK1-V4-江港HGC01|v2ray, server: jike1-gzyd.jiserver.xyz, port: 39451, type: vmess, uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jike1, headers: {Host: "%7B%22Host%22:%22jike1-hgc01.jiserver.xyz%22%7D"}}, udp: true}
-  - {name: Standard|广日|IEPL|07, server: iepl-basic-else-2.ninjarelay.pro, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 台5_|NF|动画疯, server: tw5-5564.duuk.info, port: 5305, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: tw-05-591.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: 台4_|NF|动画疯, server: tw4-5545.duuk.info, port: 5304, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: tw-04-590.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: Standard|广港|IEPL|04, server: iepl-basic-hk-1.ninjarelay.pro, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|02, server: iepl-basic-hk-1.ninjarelay.pro, port: 3601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 台6_|NF|动画疯, server: tw6-5641.duuk.info, port: 5306, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: tw-06-592.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: "v2ray 香港HKT(联通) [Netflix]", server: cu.cheapv2.xyz, port: 23338, type: vmess, uuid: ae36e7c4-457f-3de6-a84b-de02f7d136a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22cu.cheapv2.xyz%22%7D"}}, udp: true}
-  - {name: 免费丨香港丨2丨30M限速丨速云丨yooo.me丨 更多高速线路请购买套餐, server: guang.yeooo.xyz, port: 12346, type: vmess, uuid: e299af98-e9af-35d1-8a24-5c6e205626f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22www.bing.com%22%7D"}}, udp: true}
-  - {name: JK1-V4-江港HGC01|v2ray 2, server: jike1-gzyd.jiserver.xyz, port: 39451, type: vmess, uuid: fdd35f6f-ca75-3134-a290-51dbb470a81b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jike1, headers: {Host: "%7B%22Host%22:%22jike1-hgc01.jiserver.xyz%22%7D"}}, udp: true}
   - {name: Standard|广港|IEPL|01, server: iepl-basic-hk-1.ninjarelay.pro, port: 3600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广台|IEPL|05, server: iepl-basic-else-1.ninjarelay.pro, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广韩|IEPL|01, server: iepl-basic-else-1.ninjarelay.pro, port: 7600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广韩|IEPL|03, server: iepl-basic-else-2.ninjarelay.pro, port: 7600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广韩|IEPL|02, server: iepl-basic-else-1.ninjarelay.pro, port: 7601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 坡01_|NF, server: sg-cn-hk-relay-1-767f45.dk-3a4e.com, port: 9301, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: sgp-1-546.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: 坡07, server: sg-cn-relay-7-74812.dk-3a4e.com, port: 9307, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: sgp-7-552.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: Standard|广港|IEPL|08, server: iepl-basic-hk-1.ninjarelay.pro, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: "香港L2 中继M1S2 [3] 2", server: hk-l2-m.sd-yun.cc, port: 34149, type: vmess, uuid: 8a8c696f-7e5e-3a9d-9274-e257b154fb3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22ajax.microsoft.com%22%7D"}}, udp: true}
-  - {name: Standard|广日|IEPL|05, server: iepl-basic-else-1.ninjarelay.pro, port: 4604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广日|IEPL|06, server: iepl-basic-else-1.ninjarelay.pro, port: 4605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|05, server: iepl-basic-hk-1.ninjarelay.pro, port: 3604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: "香港L2 中继N3 [3] 2", server: hk-l2-cn2.sd-yun.cc, port: 20004, type: vmess, uuid: 8a8c696f-7e5e-3a9d-9274-e257b154fb3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22ajax.microsoft.com%22%7D"}}, udp: true}
-  - {name: Standard|广台|IEPL|03, server: iepl-basic-else-1.ninjarelay.pro, port: 3046, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: ️‍🌈 JK1-V3-广新LINODE02|v2ray|1.5x流量, server: jike1-gzyd.jiserver.xyz, port: 39557, type: vmess, uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jike1, headers: {Host: "%7B%22Host%22:%22jike1-linode04.jiserver.xyz%22%7D"}}, udp: true}
-  - {name: 坡04_|NF, server: sg-cn-hk-relay-4-40e978.dk-3a4e.com, port: 9304, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: sgp-4-549.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: 坡05_|NF, server: sg-cn-hk-relay-5-51f087.dk-3a4e.com, port: 9305, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: sgp-5-550.duuk.info, skip-cert-verify: true, udp: true}
+  - {name: Standard|广港|IEPL|12, server: iepl-basic-hk-2.ninjarelay.pro, port: 3601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Premium|广日|IEPL|02, server: iepl-premium-1.ninjarelay.pro, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|13, server: iepl-basic-hk-2.ninjarelay.pro, port: 3602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|19, server: iepl-basic-hk-2.ninjarelay.pro, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
   - {name: Premium|广日|IEPL|03, server: iepl-premium-2.ninjarelay.pro, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 坡06, server: sg-cn-relay-6-689145.dk-3a4e.com, port: 9306, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: sgp-6-551.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: 日02_|NF|DMM, server: shanghai-router1-892412-jp2.dk-3a4e.com, port: 6302, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: jp-2-555.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: Standard|广日|IEPL|04, server: iepl-basic-else-1.ninjarelay.pro, port: 4603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: "v2ray 台湾2(移动) [Netflix] 2", server: cm.cheapv2.xyz, port: 26617, type: vmess, uuid: ae8b573c-ed9c-318c-a0e6-183b2b5fb03f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22cm.cheapv2.xyz%22%7D"}}, udp: true}
-  - {name: 日03_|NF|DMM, server: shanghai-router1-892412-jp3.dk-3a4e.com, port: 6303, type: trojan, password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61, sni: jp-3-556.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: Standard|广日|IEPL|01, server: iepl-basic-else-1.ninjarelay.pro, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: "v2ray 香港2(移动) [Netflix]", server: cm.cheapv2.xyz, port: 26616, type: vmess, uuid: ae36e7c4-457f-3de6-a84b-de02f7d136a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22cm.cheapv2.xyz%22%7D"}}, udp: true}
-  - {name: vpnpool-SG-DigitalOcean, server: 136.wowogg.cyou, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-SG-DigitalOcean 2, server: 99.wowogg.cyou, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-SG-DigitalOcean 3, server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-SG-EC2, server: 112.wowogg.cyou, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-SG-DigitalOcean 4, server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Standard|广港|IEPL|14, server: iepl-basic-hk-2.ninjarelay.pro, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Premium|广日|IEPL|01, server: iepl-premium-1.ninjarelay.pro, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广新|IEPL|03, server: iepl-basic-else-1.ninjarelay.pro, port: 6602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|08, server: iepl-basic-hk-1.ninjarelay.pro, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|20, server: iepl-basic-hk-2.ninjarelay.pro, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|10, server: iepl-basic-hk-1.ninjarelay.pro, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|02, server: iepl-basic-hk-1.ninjarelay.pro, port: 3601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|07, server: iepl-basic-hk-1.ninjarelay.pro, port: 3606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|16, server: iepl-basic-hk-2.ninjarelay.pro, port: 3605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|05, server: iepl-basic-hk-1.ninjarelay.pro, port: 3604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广台|IEPL|05, server: iepl-basic-else-1.ninjarelay.pro, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|18, server: iepl-basic-hk-2.ninjarelay.pro, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|03, server: iepl-basic-hk-1.ninjarelay.pro, port: 3602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广韩|IEPL|03, server: iepl-basic-else-2.ninjarelay.pro, port: 7600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广韩|IEPL|01, server: iepl-basic-else-1.ninjarelay.pro, port: 7600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|04, server: iepl-basic-hk-1.ninjarelay.pro, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广韩|IEPL|04, server: iepl-basic-else-2.ninjarelay.pro, port: 7601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|17, server: iepl-basic-hk-2.ninjarelay.pro, port: 3606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: 免费丨香港丨1丨30M限速丨速云丨yooo.me丨 更多高速线路请购买套餐, server: yeooo.yeooo.xyz, port: 12345, type: vmess, uuid: e299af98-e9af-35d1-8a24-5c6e205626f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22www.bing.com%22%7D"}}, udp: true}
+  - {name: Premium|广港|IEPL|04 2, server: iepl-premium-1.ninjarelay.pro, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Premium|广港|IEPL|14 2, server: iepl-premium-2.ninjarelay.pro, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|02 2, server: iepl-basic-hk-1.ninjarelay.pro, port: 3601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: vpnpool-SG-DigitalOcean, server: 99.wowogg.cyou, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-SG-DigitalOcean 2, server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-Tokyo-Linode, server: 90.wowogg.cyou, port: 52290, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-SG-DigitalOcean 3, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-SG-DigitalOcean 4, server: 85.wowogg.cyou, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-Tokyo-Linode 2, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: vpnpool-SG-DigitalOcean 5, server: 133.wowogg.cyou, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-Tokyo-Linode 3, server: 128.wowogg.cyou, port: 52228, type: vmess, uuid: 9b1fd2b4-e21a-3922-bca3-b64817c1eb90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-Tokyo-Linode 4, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-SG-DigitalOcean 6, server: 131.wowogg.cyou, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-SG-DigitalOcean 7, server: 108.wowogg.cyou, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-SG-DigitalOcean 8, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-Tokyo-Linode 5, server: 101.wowogg.cyou, port: 52201, type: vmess, uuid: 9b1fd2b4-e21a-3922-bca3-b64817c1eb90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-Tokyo-Linode 6, server: 127.wowogg.cyou, port: 52227, type: vmess, uuid: 9b1fd2b4-e21a-3922-bca3-b64817c1eb90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-Tokyo-Linode 7, server: 109.wowogg.cyou, port: 52209, type: vmess, uuid: 9b1fd2b4-e21a-3922-bca3-b64817c1eb90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-SG-EC2, server: 95.wowogg.cyou, port: 52295, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-SG-DigitalOcean 9, server: 134.wowogg.cyou, port: 52334, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: vpnpool-Tokyo-EC2, server: 114.wowogg.cyou, port: 52214, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-SG-DigitalOcean 6, server: 135.wowogg.cyou, port: 52335, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-SG-DigitalOcean 7, server: 85.wowogg.cyou, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-Tokyo-Linode, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-SG-DigitalOcean 8, server: 134.wowogg.cyou, port: 52334, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-SG-DigitalOcean 9, server: 94.wowogg.cyou, port: 52294, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-Tokyo-Linode 2, server: 81.wowogg.cyou, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-香港腾讯云, server: 132.wowogg.cyou, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-Tokyo-Linode 3, server: 128.wowogg.cyou, port: 52228, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-香港腾讯云 2, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-Tokyo-Linode 4, server: 96.wowogg.cyou, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-SG-DigitalOcean 10, server: 135.wowogg.cyou, port: 52335, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-Tokyo-Linode 8, server: 128.wowogg.cyou, port: 52228, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-SG-DigitalOcean 11, server: 94.wowogg.cyou, port: 52294, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: vpnpool-Tokyo-EC2-dip, server: 117.wowogg.cyou, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-Tokyo-Linode 5, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-Tokyo-Linode 6, server: 91.wowogg.cyou, port: 52291, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-Tokyo-Linode 7, server: 101.wowogg.cyou, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-SG-DigitalOcean 10, server: 98.wowogg.cyou, port: 52298, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-SG-DigitalOcean 11, server: 131.wowogg.cyou, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-SG-EC2 2, server: 95.wowogg.cyou, port: 52295, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-SG-DigitalOcean 12, server: 88.wowogg.cyou, port: 52288, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-香港Azure, server: 118.wowogg.cyou, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-Tokyo-Linode 8, server: 109.wowogg.cyou, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-SG-DigitalOcean 13, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-SG-DigitalOcean 14, server: 105.wowogg.cyou, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-Tokyo-EC2 2, server: 116.wowogg.cyou, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-SG-DigitalOcean 15, server: 103.wowogg.cyou, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-Tokyo-EC2 3, server: 119.wowogg.cyou, port: 52219, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-Tokyo-Linode 9, server: 84.wowogg.cyou, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "*🇭🇰HK -272 TG@moon365free", server: shonlinecu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
-  - {name: "*🇭🇰HK -275 TG@moon365free", server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
-  - {name: "*🇭🇰HK -273 TG@moon365free", server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
-  - {name: "*🇭🇰HK -295 TG@moon365free", server: p3.centaur.network, port: 16803, type: trojan, password: 00635f3d-2c64-4281-9367-f3c26ebb6a44, skip-cert-verify: true, udp: true}
-  - {name: "IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]", server: 122.9.62.44, port: 2945, type: ss, cipher: chacha20-ietf-poly1305, password: 2d5559dc1d6c1d3581f4ee327ac93b58359c963da44aa92faef307ee07a11261, udp: true}
-  - {name: "IOS小火箭专用|香港 (中国) -42 [IPLC]", server: 122.9.62.57, port: 1001, type: ss, cipher: chacha20-ietf-poly1305, password: d448c5c3968140fcd5470e035d443c502faa163363b313e01bcbb2c024d2a510, udp: true}
-  - {name: "IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]", server: 122.9.54.209, port: 5542, type: ss, cipher: chacha20-ietf-poly1305, password: c4e3e2445d3e03e651e620d3357b7c118417cda4605d4714993075cde9e2ba34, udp: true}
-  - {name: "IOS小火箭专用|香港 (中国) -43 [IPLC]", server: 122.9.62.60, port: 1003, type: ss, cipher: chacha20-ietf-poly1305, password: 8eff2ae2afb4d6cbc95dd8006cbadb3ed4077dc878b511edce084361d30b263a, udp: true}
+  - {name: vpnpool-香港腾讯云, server: 132.wowogg.cyou, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-香港腾讯云 2, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "*🇺🇸US -435 TG@moon365free", server: 42.157.195.237, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇺🇸US -440 TG@moon365free", server: 42.157.195.229, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇺🇸US -417 TG@moon365free", server: 42.157.195.232, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇺🇸US -431 TG@moon365free", server: 42.157.195.230, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇭🇰HK -416 TG@moon365free", server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
+  - {name: "*🇯🇵JP -433 TG@moon365free", server: 14.152.92.75, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇭🇰HK -312 TG@moon365free", server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
+  - {name: "*🇯🇵JP -434 TG@moon365free", server: 14.152.92.80, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇯🇵JP -415 TG@moon365free", server: 42.157.195.243, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇯🇵JP -428 TG@moon365free", server: 14.152.92.77, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇭🇰HK -436 TG@moon365free", server: shonlinecu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
+  - {name: "*🇯🇵JP -1010 TG@moon365free", server: jp-am48-9.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3H2aN5Gnm, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "*🇺🇸US -296 TG@moon365free", server: 42.157.195.234, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇯🇵JP -299 TG@moon365free", server: 120.233.10.182, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
   - {name: "IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]", server: 122.9.62.9, port: 7931, type: ss, cipher: chacha20-ietf-poly1305, password: bbea04c91913a27ab1c04f3aedc2a74e1e47c876898738d7f79938fd20c13b5e, udp: true}
-  - {name: "IOS小火箭专用|香港 (中国) -31 [NETSEC] [IPLC]", server: 122.9.54.75, port: 5590, type: ss, cipher: chacha20-ietf-poly1305, password: 82e2b056d73b89bfbbe0ef9127315b9a0144e13bcd2f545c59bce6867a4fd723, udp: true}
-  - {name: "IOS小火箭专用|香港 (中国) -26 [HKBN] [IPLC]", server: 122.9.62.16, port: 2303, type: ss, cipher: chacha20-ietf-poly1305, password: 306b65638148377ebc270d02ed4a8f131e3f757741d27be11ed65fc924d50562, udp: true}
-  - {name: "IOS小火箭专用|新加坡 2 [IPLC]", server: 122.9.54.240, port: 4594, type: ss, cipher: chacha20-ietf-poly1305, password: 1c3217168ffc15a8fb3d49fa3a874036cf15fd90ea719fb0e1186d7b060bf42f, udp: true}
+  - {name: "IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]", server: 122.9.62.44, port: 2945, type: ss, cipher: chacha20-ietf-poly1305, password: 2d5559dc1d6c1d3581f4ee327ac93b58359c963da44aa92faef307ee07a11261, udp: true}
+  - {name: "IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]", server: 122.9.54.209, port: 5542, type: ss, cipher: chacha20-ietf-poly1305, password: c4e3e2445d3e03e651e620d3357b7c118417cda4605d4714993075cde9e2ba34, udp: true}
+  - {name: "IOS小火箭专用|香港 (中国) -42 [IPLC]", server: 122.9.62.57, port: 1001, type: ss, cipher: chacha20-ietf-poly1305, password: d448c5c3968140fcd5470e035d443c502faa163363b313e01bcbb2c024d2a510, udp: true}
+  - {name: "IOS小火箭专用|香港 (中国) -43 [IPLC]", server: 122.9.62.60, port: 1003, type: ss, cipher: chacha20-ietf-poly1305, password: 8eff2ae2afb4d6cbc95dd8006cbadb3ed4077dc878b511edce084361d30b263a, udp: true}
   - {name: "IOS小火箭专用|香港 (中国) -30 [HKBN] [IPLC]", server: 122.9.62.6, port: 5557, type: ss, cipher: chacha20-ietf-poly1305, password: 5912725b993997cf9a926efaa3827f2363a0edc73744ad39976bcb78bfd2995c, udp: true}
-  - {name: "IOS小火箭专用|新加坡 -8 [IPLC]", server: 122.9.62.50, port: 6601, type: ss, cipher: chacha20-ietf-poly1305, password: 8d8c2570832b1650c0024f6d1d3302e4885ba53852b0103d71e16fbae1a27c50, udp: true}
-  - {name: "IOS小火箭专用|新加坡1 [IPLC]", server: 122.9.54.197, port: 2052, type: ss, cipher: chacha20-ietf-poly1305, password: 8de3adaf694efcde412ad4400845da2f0b2183ddb8392e4caeefa1ec2363cd5a, udp: true}
   - {name: "IOS小火箭专用|菲律宾 - 马尼拉 -27 [IPLC]", server: 122.9.62.15, port: 4848, type: ss, cipher: chacha20-ietf-poly1305, password: f46dcfa9264802877761045b54f69eb689c00d0d23af2139ce8a9608767fd00c, udp: true}
+  - {name: "IOS小火箭专用|新加坡 2 [IPLC]", server: 122.9.54.240, port: 4594, type: ss, cipher: chacha20-ietf-poly1305, password: 1c3217168ffc15a8fb3d49fa3a874036cf15fd90ea719fb0e1186d7b060bf42f, udp: true}
+  - {name: "IOS小火箭专用|新加坡1 [IPLC]", server: 122.9.54.197, port: 2052, type: ss, cipher: chacha20-ietf-poly1305, password: 8de3adaf694efcde412ad4400845da2f0b2183ddb8392e4caeefa1ec2363cd5a, udp: true}
+  - {name: "IOS小火箭专用|新加坡 -8 [IPLC]", server: 122.9.62.50, port: 6601, type: ss, cipher: chacha20-ietf-poly1305, password: 8d8c2570832b1650c0024f6d1d3302e4885ba53852b0103d71e16fbae1a27c50, udp: true}
   - {name: 香港8-三网优化_17, server: 1229hk.fans8.xyz, port: 80, type: vmess, uuid: 9fd65683-3942-3dbf-be07-d2fcdff733f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1229hk.fans8.xyz}}, udp: true}
-  - {name: "IOS小火箭专用|日本 - 东京 -33 [IPLC]", server: 122.9.62.6, port: 4413, type: ss, cipher: chacha20-ietf-poly1305, password: 1605b9dd9d2fb4b42bc72e2c30f269ab6cf41c21c5ed062a7fa5ad7553d7735f, udp: true}
   - {name: "IOS小火箭专用|马来西亚 - 雪兰莪48 [IPLC]", server: 122.9.62.27, port: 3666, type: ss, cipher: chacha20-ietf-poly1305, password: f75636d4e8479daaae3e020aa4f6b200ecedb14c06031a98b8a1d8d7f3198034, udp: true}
+  - {name: "IOS小火箭专用|日本 - 东京 -33 [IPLC]", server: 122.9.62.6, port: 4413, type: ss, cipher: chacha20-ietf-poly1305, password: 1605b9dd9d2fb4b42bc72e2c30f269ab6cf41c21c5ed062a7fa5ad7553d7735f, udp: true}
   - {name: "IOS小火箭专用|韩国 - 首尔 -40 [IPLC]", server: 122.9.62.33, port: 6216, type: ss, cipher: chacha20-ietf-poly1305, password: 08895d3caff091bc7fbb442194032a2444e638513272af13408a8165e8789b48, udp: true}
   - {name: "IOS小火箭专用|泰国 - 曼谷 -15 [IPLC] [LineTV] [MelloTV]", server: 122.9.62.17, port: 5245, type: ss, cipher: chacha20-ietf-poly1305, password: 25a6a595ef1924dd4f650e1c62f53a12d6a7ecc827e962efa1a4ed19a326ec72, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 7, server: 1229hk.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%221229hk.fans8.xyz%22%7D"}}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 8, server: 128hk01.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22128hk01.fans8.xyz%22%7D"}}, udp: true}
-  - {name: 韩国(绿头外网集团)(Public), server: 146.56.111.194, port: 18408, type: vmess, uuid: 92a5db6f-e3bb-422e-caba-fb52df9350c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 6, server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "俄罗斯 - 新西伯利亚 [BGPA] [SVIP] [Netflix]", server: 122.9.62.60, port: 10081, type: ss, cipher: chacha20-ietf-poly1305, password: dce4c0411b7146eb3d60ed21fd7a9e3e621ac67328fa30daa463f6ac071f4620, udp: true}
-  - {name: "俄罗斯 - 莫斯科 [BGPA] [SVIP] [Netflix]", server: 122.9.62.46, port: 6634, type: ss, cipher: chacha20-ietf-poly1305, password: 661564ea3e4e45b71875794393c811310669141d68f530a2053403a65e612a6a, udp: true}
-  - {name: "德国 - 法尔肯施泰因 [BGPA] [SVIP] [Netflix]", server: 122.9.54.196, port: 6049, type: ss, cipher: chacha20-ietf-poly1305, password: 64ddabdc5868db08181c639e6989ab5f0c083cae983541ee254702287210aa2e, udp: true}
-  - {name: "法国 - 斯特拉斯堡 [BGPA] [SVIP] [Netflix]", server: 122.9.54.26, port: 3720, type: ss, cipher: chacha20-ietf-poly1305, password: 677fd6d6b32d9bff90bbbd5229fef3c8f536695d631d683642beafb9c7ce2016, udp: true}
-  - {name: "德国 - 法兰克福 [BGPA] [SVIP] [Netflix]", server: 122.9.54.138, port: 3713, type: ss, cipher: chacha20-ietf-poly1305, password: 23b67e26178a9a0f0f547b7a7ab5000f3c9db09394a294984ddf76a165088c26, udp: true}
-  - {name: "[VIP] 新加坡 -1", server: sg27.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, skip-cert-verify: true, udp: true}
-  - {name: "[VIP] 日本 -2", server: jp19.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: jp19.holiganfan.com, skip-cert-verify: true, udp: true}
-  - {name: 香港5-三网优化, server: 128hk01.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128hk01.fans8.xyz}}, udp: true}
-  - {name: 香港8-三网优化, server: 1229hk.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1229hk.fans8.xyz}}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 06 1.0x, server: tunnel-sg-a-01.xncloud.xyz, port: 106, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-sg-06.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 02 1.0x, server: tunnel-sg-a-01.xncloud.xyz, port: 102, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-sg-02.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】台湾TW-Hinet 04 1.0x, server: tunnel-tw-a-01.xncloud.xyz, port: 504, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-hinet-tw-04.xncloud.xyz}}, udp: true}
+  - {name: "IOS小火箭专用|美国 - 洛杉矶 -24 [PZ] [IPLC]", server: 122.9.62.33, port: 5280, type: ss, cipher: chacha20-ietf-poly1305, password: b2d20d7a17300d71f30e8cb11ce9bf2f83e7ff333ff453bd5605fbc361ba0a26, udp: true}
+  - {name: "IOS小火箭专用|美国 - 洛杉矶 -9 [CC] [IPLC]", server: 122.9.54.8, port: 2564, type: ss, cipher: chacha20-ietf-poly1305, password: 2391bfbb2cbb2b4cc7fccbbdc06b09bd28d3a2d3786c4411cff20b0f5cd5fc6a, udp: true}
+  - {name: "IOS小火箭专用|美国 - 洛杉矶 -28 [CC] [IPLC]", server: 122.9.54.148, port: 2340, type: ss, cipher: chacha20-ietf-poly1305, password: af66246f313ae4af711b74ccf761c790eaf3271d7703346bcfd5ec1bc92f3b56, udp: true}
+  - {name: "IOS小火箭专用|英国 - 伦敦 -21 [IPLC]", server: 122.9.62.49, port: 3158, type: ss, cipher: chacha20-ietf-poly1305, password: 75c585219f41f58eca01b272e5ae5d79e26b8c5150373ab101a8b491899d1675, udp: true}
+  - {name: "IOS小火箭专用|美国 - 奥格登7 [IPLC]", server: 122.9.62.49, port: 6486, type: ss, cipher: chacha20-ietf-poly1305, password: 85589e88ea26222bc76895370dfff20f6b87690f67febd482b3fa54562b33164, udp: true}
+  - {name: "IOS小火箭专用|韩国 - 首尔 -23 [IPLC] [推荐]", server: 122.9.54.101, port: 6036, type: ss, cipher: chacha20-ietf-poly1305, password: 8cb75ac322fc1e31f50a2703d09b1bd81bd51a74e70ed6c0ca6af91132a0c829, udp: true}
+  - {name: "IOS小火箭专用|美国 - 洛杉矶 -17 [KP] [IPLC] [推荐]", server: 122.9.54.8, port: 2378, type: ss, cipher: chacha20-ietf-poly1305, password: ffc5460fa1b5c1279a06202f9f9b0fc54f2fd93dbd1df4ca5f304882fa0d3802, udp: true}
+  - {name: "IOS小火箭专用|美国 - 丹佛18 [IPLC]", server: 122.9.54.101, port: 2391, type: ss, cipher: chacha20-ietf-poly1305, password: d5c3c4e4465799ab448748aaffa2943bfb06e4284fd73e0f3c4597ad09701816, udp: true}
+  - {name: "IOS小火箭专用|美国 - 凤凰城 -32 [IPLC] [推荐]", server: 122.9.62.38, port: 2072, type: ss, cipher: chacha20-ietf-poly1305, password: 403c9b97d85b6486b616e21c7453fca71f248e70c1c3faa8da13e91cab79e33b, udp: true}
+  - {name: 香港01, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: 香港02 2, server: api.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: 台灣, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: hgc1.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 香港03 2, server: api.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 27, server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 29, server: 128hk01.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22128hk01.fans8.xyz%22%7D"}}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public), server: china-gzyd-1.forwardserver.xyz, port: 12345, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22china-gzyd-1.forwardserver.xyz%22%7D"}}, udp: true}
+  - {name: 【新鸟免费】新加坡SG-AWS 09 1.0x, server: tunnel-sg-a-01.xncloud.xyz, port: 109, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-sg-09.xncloud.xyz}}, udp: true}
   - {name: 【新鸟免费】台湾TW-Hinet 03 1.0x, server: tunnel-tw-a-01.xncloud.xyz, port: 503, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-hinet-tw-03.xncloud.xyz}}, udp: true}
-  - {name: 【新鸟免费】台湾TW-Hinet 01 1.0x, server: tunnel-tw-a-01.xncloud.xyz, port: 501, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-hinet-tw-01.xncloud.xyz}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -2739,6 +2717,50 @@ proxy-groups:
       - Ytb:鹏哥分享_IN_印度_330
       - Ytb:鹏哥分享_US_美国_331
       - Ytb:鹏哥分享_US_美国_332
+      - CM|台湾1|家庭宽带|x1
+      - CM|香港2|家庭宽带|x1
+      - CM|新加坡1 |x1
+      - CM|新加坡2|Netflix|x1
+      - CM|越南1|原生ip|x1
+      - CM|泰国1|原生ip|x1
+      - CM|印度尼西亚1|原生IP|x1
+      - CM|日本1 |x1
+      - CM|韩国1 x1
+      - CM|美国1 |x1
+      - CM|美国2 |x1
+      - CM|德国1 |x1
+      - IEPL|俄罗斯01|原生ip|x3
+      - IEPL|德国01|x3
+      - IEPL|英国01 |x3
+      - IEPL|阿根廷01|原生IP|x3
+      - IEPL|加拿大01 |x3
+      - IEPL|美国01 |x3
+      - IEPL|美国02 |x3
+      - IEPL|美国03|Netflix|x3
+      - IEPL|美国04|原生IP|x3
+      - IEPL|澳大利亚01 |x3
+      - IEPL|巴基斯坦01|原生IP|x10
+      - IEPL|土耳其01|原生IP|x3
+      - IEPL|泰国01|原生IP|x3
+      - IEPL|印度01 |x3
+      - IEPL|菲律宾01|原生IP|x3
+      - IEPL|马来西亚01|原生IP|x3
+      - IEPL|新加坡01 |x3
+      - IEPL|新加坡02|Netflix|x3
+      - IEPL|日本01|Netflix|x3
+      - IEPL|日本02 |x3
+      - IEPL|日本03|家庭宽带|x3
+      - IEPL|韩国01|Netflix|x3
+      - IEPL|澳门01|家庭宽带|x3
+      - IEPL|台湾01|家庭宽带|x3
+      - IEPL|台湾02|Netflix|x3
+      - IEPL|香港01|原生IP|x3
+      - IEPL|香港02|家庭宽带|x3
+      - IEPL|香港03|家庭宽带|x3
+      - 香港01 _1
+      - 美国09 _3
+      - 美国04 _4
+      - 美国05 _5
       - 专线 新加坡 03 3
       - 专线 新加坡 03 2
       - 专线 新加坡 02 3
@@ -2788,7 +2810,6 @@ proxy-groups:
       - 中继 日本 03
       - 中继 日本 02 2
       - 中继 日本 02
-      - 中继 美国 01
       - 中继 马来西亚 02 3
       - 中继 马来西亚 02
       - 中继 马来西亚 01 2
@@ -2798,14 +2819,6 @@ proxy-groups:
       - 中继 韩国 01 2
       - 中继 韩国 01
       - 新加坡-01
-      - 香港L2 中继N3 [3]
-      - 香港L2 中继N2 [3]
-      - 香港L2 中继N1 [3]
-      - 香港L2 中继M1S2 [3]
-      - 香港L2 中继M1S1 [3]
-      - 美国L2 中继M1S3 [2]
-      - 美国L2 中继M1S2 [2]
-      - 美国L2 中继M1S1 [2]
       - 高速中转01
       - US-199.19.226.178-0364
       - KR | Oracle 甲骨文
@@ -2814,73 +2827,27 @@ proxy-groups:
       - CN-183.232.170.110-1232
       - CN-101.67.8.140-0039
       - CN-101.67.8.140-0038
-      - 4.75|RelayEEJP331
-      - 4.66|RelayEEJP332
-      - 4.34|RelayEEJP328
-      - 4.25|RelayEEJP326
       - 4.16| nfeng6 JP1354
       - 30香港TG@moneyflychat
-      - 3.77|RelayEEJP329
-      - 3.63|RelayEEJP330
-      - 3.42|httpsgitiov9999 165
-      - 3.17|RelayEEJP327
-      - 1.97| HK625
       - 1.62|SeoulZenlayer
       - 1.57|CYL科技20220101 30 2
-      - 1.37|FR14194115681008
       - 1.26| GB549
       - 1.23|拉脱维亚01流解0x
       - 印度尼西亚 Indonesia●
-      - 土耳其 Turkey★
-      - 新加坡 Singapore★
-      - 泰国 Thailand★
       - 澳大利亚 Australia●
       - 英国 England(Free)★
       - 菲律宾 Philippine●
-      - 韩国 Korea●
       - 香港 Hongkong (AZ)●
-      - GLaDOS-N2-00
-      - GLaDOS-N2-01
-      - GLaDOS-N2-02
-      - GLaDOS-N2-03
-      - GLaDOS-N2-04
-      - GLaDOS-N2-05
-      - GLaDOS-N2-06
-      - GLaDOS-N2-07
-      - GLaDOS-N2-08
-      - GLaDOS-Portalgun-00
-      - GLaDOS-Portalgun-01
-      - GLaDOS-Portalgun-02
-      - GLaDOS-Portalgun-03
-      - GLaDOS-Portalgun-04
-      - GLaDOS-Portalgun-05
-      - GLaDOS-Portalgun-06
-      - GLaDOS-Portalgun-07
-      - GLaDOS-Portalgun-08
-      - GLaDOS-T1-Netflix
-      - GLaDOS-T2-Netflix
-      - GLaDOS-T3-Netflix
-      - GLaDOS-E01-Economic
-      - GLaDOS-E02-Economic
-      - GLaDOS-E03-Economic
-      - GLaDOS-E04-Economic
-      - GLaDOS-E05-Economic
-      - GLaDOS-E06-Economic
-      - US-GLaDOS-GEO-00
-      - US-GLaDOS-GEO-01
-      - US-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-00
-      - JP-GLaDOS-GEO-01
-      - JP-GLaDOS-GEO-02
-      - TW-GLaDOS-GEO-00
-      - TW-GLaDOS-GEO-01
-      - TW-GLaDOS-GEO-02
-      - HK-GLaDOS-GEO-00
-      - HK-GLaDOS-GEO-01
-      - HK-GLaDOS-GEO-02
-      - SG-GLaDOS-GEO-00
-      - SG-GLaDOS-GEO-01
-      - SG-GLaDOS-GEO-02
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
+      - _GB_英国
+      - _DE_德国
+      - _FR_法国 4
+      - _CA_加拿大
+      - _GB_英国 2
+      - _GB_英国 3
+      - _FR_法国 5
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3524,163 +3491,152 @@ proxy-groups:
       - 请切换到v2ray
       - jc.ap.fastqvpn.com:29980
       - jc.ap.fastqvpn.com:29980 2
+      - 阿根廷
       - jc.ap.fastqvpn.com:29980 3
       - jc.ap.fastqvpn.com:29980 4
-      - jc.ap.fastqvpn.com:29980 5
-      - 香港4-小浪浪
-      - 香港3-小浪浪
-      - 香港1_小浪浪
+      - "in.gotochinatown.net:108#%%%%%%%%%%%%%%%\x07"
+      - "uk.gotochinatown.net:108#%%%%%%%%%%%%%%%\x03"
+      - "tw.gotochinatown.net:10881#%%%%%%\x03}"
       - 香港2-小浪浪
-      - 阿根廷
+      - 香港4-小浪浪
+      - 香港04
+      - 香港1_小浪浪
       - 韩国(首尔) 🚀[极速稳定]
+      - "[VIP]台湾1"
+      - "[VIP]韩国春川2|1x"
+      - 香港阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
+      - CowVagina_2
+      - Relay_ | 2.66Mb
+      - 香港【YouTube由零開始】
+      - Relay_ | 4.69Mb
+      - (3)香港（5000mbps）
+      - (2)香港 (5000Mbps)
+      - 新加坡 (200Mbps)
+      - 拉斯维加斯 (1000Mbps)
+      - (1)香港 (5000Mbps)
+      - 日本_N_1
+      - 香港_R_133
+      - 越南_R_377
+      - 香港_R_121
+      - 越南_R_380
+      - 越南_R_277
+      - 台湾_R_318
+      - 韩国_R_310
+      - 韩国_R_311
+      - 台湾_R_337
+      - 新加坡_R_229
+      - 香港03
+      - 香港04 2
+      - 日本
+      - 香港02
+      - 德国
+      - 亚太H3R
+      - 亚太H4R
+      - 日本H2R
+      - 日本H1R
       - Premium|广港|IEPL|04
       - Premium|广港|IEPL|14
-      - 港04_|NF
-      - Premium|广台|IEPL|01
       - Premium|广新|IEPL|02
-      - Standard|广新|IEPL|03
-      - Standard|广新|IEPL|05
-      - Standard|广新|IEPL|07
-      - Standard|广港|IEPL|19
-      - Standard|广新|IEPL|04
-      - Standard|广港|IEPL|20
-      - Standard|广新|IEPL|02
-      - Standard|广港|IEPL|18
-      - Standard|广港|IEPL|17
-      - Premium|广日|IEPL|01
-      - Standard|广台|IEPL|04
-      - Standard|广港|IEPL|10
-      - Standard|广港|IEPL|16
-      - Premium|广日|IEPL|04
-      - Standard|广日|IEPL|03
-      - Standard|广港|IEPL|12
-      - Standard|广港|IEPL|14
-      - 免费丨香港丨1丨30M限速丨速云丨yooo.me丨 更多高速线路请购买套餐
-      - Standard|广港|IEPL|03
-      - Standard|广港|IEPL|11
-      - Standard|广港|IEPL|07
-      - Standard|广港|IEPL|15
-      - Standard|广日|IEPL|08
-      - Standard|广港|IEPL|13
-      - 港02_|NF
-      - 港10
-      - Standard|广台|IEPL|01
-      - 港08
-      - 港13
-      - 港03_|NF
-      - Standard|广港|IEPL|09
-      - 台7_|NF|动画疯
-      - 港05_|NF|TVB
-      - 港06_|NF|TVB
-      - 港07
-      - 台3_|NF|动画疯
-      - JK1-V4-江港HGC01|v2ray
-      - Standard|广日|IEPL|07
-      - 台5_|NF|动画疯
-      - 台4_|NF|动画疯
-      - Standard|广港|IEPL|04
-      - Standard|广港|IEPL|02
-      - 台6_|NF|动画疯
-      - v2ray 香港HKT(联通) [Netflix]
-      - 免费丨香港丨2丨30M限速丨速云丨yooo.me丨 更多高速线路请购买套餐
-      - JK1-V4-江港HGC01|v2ray 2
       - Standard|广港|IEPL|01
-      - Standard|广台|IEPL|05
-      - Standard|广韩|IEPL|01
-      - Standard|广韩|IEPL|03
-      - Standard|广韩|IEPL|02
-      - 坡01_|NF
-      - 坡07
-      - Standard|广港|IEPL|08
-      - 香港L2 中继M1S2 [3] 2
-      - Standard|广日|IEPL|05
-      - Standard|广日|IEPL|06
-      - Standard|广港|IEPL|05
-      - 香港L2 中继N3 [3] 2
-      - Standard|广台|IEPL|03
-      - ️‍🌈 JK1-V3-广新LINODE02|v2ray|1.5x流量
-      - 坡04_|NF
-      - 坡05_|NF
+      - Standard|广港|IEPL|12
+      - Premium|广日|IEPL|02
+      - Standard|广港|IEPL|13
+      - Standard|广港|IEPL|19
       - Premium|广日|IEPL|03
-      - 坡06
-      - 日02_|NF|DMM
-      - Standard|广日|IEPL|04
-      - v2ray 台湾2(移动) [Netflix] 2
-      - 日03_|NF|DMM
-      - Standard|广日|IEPL|01
-      - v2ray 香港2(移动) [Netflix]
+      - Standard|广港|IEPL|14
+      - Premium|广日|IEPL|01
+      - Standard|广新|IEPL|03
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|20
+      - Standard|广港|IEPL|10
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|16
+      - Standard|广港|IEPL|05
+      - Standard|广台|IEPL|05
+      - Standard|广港|IEPL|18
+      - Standard|广港|IEPL|03
+      - Standard|广韩|IEPL|03
+      - Standard|广韩|IEPL|01
+      - Standard|广港|IEPL|04
+      - Standard|广韩|IEPL|04
+      - Standard|广港|IEPL|17
+      - 免费丨香港丨1丨30M限速丨速云丨yooo.me丨 更多高速线路请购买套餐
+      - Premium|广港|IEPL|04 2
+      - Premium|广港|IEPL|14 2
+      - Standard|广港|IEPL|02 2
       - vpnpool-SG-DigitalOcean
       - vpnpool-SG-DigitalOcean 2
+      - vpnpool-Tokyo-Linode
       - vpnpool-SG-DigitalOcean 3
-      - vpnpool-SG-EC2
       - vpnpool-SG-DigitalOcean 4
+      - vpnpool-Tokyo-Linode 2
       - vpnpool-SG-DigitalOcean 5
-      - vpnpool-Tokyo-EC2
+      - vpnpool-Tokyo-Linode 3
+      - vpnpool-Tokyo-Linode 4
       - vpnpool-SG-DigitalOcean 6
       - vpnpool-SG-DigitalOcean 7
-      - vpnpool-Tokyo-Linode
       - vpnpool-SG-DigitalOcean 8
-      - vpnpool-SG-DigitalOcean 9
-      - vpnpool-Tokyo-Linode 2
-      - vpnpool-香港腾讯云
-      - vpnpool-Tokyo-Linode 3
-      - vpnpool-香港腾讯云 2
-      - vpnpool-Tokyo-Linode 4
-      - vpnpool-Tokyo-EC2-dip
       - vpnpool-Tokyo-Linode 5
       - vpnpool-Tokyo-Linode 6
       - vpnpool-Tokyo-Linode 7
+      - vpnpool-SG-EC2
+      - vpnpool-SG-DigitalOcean 9
+      - vpnpool-Tokyo-EC2
       - vpnpool-SG-DigitalOcean 10
-      - vpnpool-SG-DigitalOcean 11
-      - vpnpool-SG-EC2 2
-      - vpnpool-SG-DigitalOcean 12
-      - vpnpool-香港Azure
       - vpnpool-Tokyo-Linode 8
-      - vpnpool-SG-DigitalOcean 13
-      - vpnpool-SG-DigitalOcean 14
-      - vpnpool-Tokyo-EC2 2
-      - vpnpool-SG-DigitalOcean 15
-      - vpnpool-Tokyo-EC2 3
-      - vpnpool-Tokyo-Linode 9
-      - "*🇭🇰HK -272 TG@moon365free"
-      - "*🇭🇰HK -275 TG@moon365free"
-      - "*🇭🇰HK -273 TG@moon365free"
-      - "*🇭🇰HK -295 TG@moon365free"
-      - IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
-      - IOS小火箭专用|香港 (中国) -42 [IPLC]
-      - IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]
-      - IOS小火箭专用|香港 (中国) -43 [IPLC]
+      - vpnpool-SG-DigitalOcean 11
+      - vpnpool-Tokyo-EC2-dip
+      - vpnpool-香港腾讯云
+      - vpnpool-香港腾讯云 2
+      - "*🇺🇸US -435 TG@moon365free"
+      - "*🇺🇸US -440 TG@moon365free"
+      - "*🇺🇸US -417 TG@moon365free"
+      - "*🇺🇸US -431 TG@moon365free"
+      - "*🇭🇰HK -416 TG@moon365free"
+      - "*🇯🇵JP -433 TG@moon365free"
+      - "*🇭🇰HK -312 TG@moon365free"
+      - "*🇯🇵JP -434 TG@moon365free"
+      - "*🇯🇵JP -415 TG@moon365free"
+      - "*🇯🇵JP -428 TG@moon365free"
+      - "*🇭🇰HK -436 TG@moon365free"
+      - "*🇯🇵JP -1010 TG@moon365free"
+      - "*🇺🇸US -296 TG@moon365free"
+      - "*🇯🇵JP -299 TG@moon365free"
       - IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]
-      - IOS小火箭专用|香港 (中国) -31 [NETSEC] [IPLC]
-      - IOS小火箭专用|香港 (中国) -26 [HKBN] [IPLC]
-      - IOS小火箭专用|新加坡 2 [IPLC]
+      - IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
+      - IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]
+      - IOS小火箭专用|香港 (中国) -42 [IPLC]
+      - IOS小火箭专用|香港 (中国) -43 [IPLC]
       - IOS小火箭专用|香港 (中国) -30 [HKBN] [IPLC]
-      - IOS小火箭专用|新加坡 -8 [IPLC]
-      - IOS小火箭专用|新加坡1 [IPLC]
       - IOS小火箭专用|菲律宾 - 马尼拉 -27 [IPLC]
+      - IOS小火箭专用|新加坡 2 [IPLC]
+      - IOS小火箭专用|新加坡1 [IPLC]
+      - IOS小火箭专用|新加坡 -8 [IPLC]
       - 香港8-三网优化_17
-      - IOS小火箭专用|日本 - 东京 -33 [IPLC]
       - IOS小火箭专用|马来西亚 - 雪兰莪48 [IPLC]
+      - IOS小火箭专用|日本 - 东京 -33 [IPLC]
       - IOS小火箭专用|韩国 - 首尔 -40 [IPLC]
       - IOS小火箭专用|泰国 - 曼谷 -15 [IPLC] [LineTV] [MelloTV]
-      - 香港(绿头外网集团)(Public) 7
-      - 香港(绿头外网集团)(Public) 8
-      - 韩国(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 6
-      - 俄罗斯 - 新西伯利亚 [BGPA] [SVIP] [Netflix]
-      - 俄罗斯 - 莫斯科 [BGPA] [SVIP] [Netflix]
-      - 德国 - 法尔肯施泰因 [BGPA] [SVIP] [Netflix]
-      - 法国 - 斯特拉斯堡 [BGPA] [SVIP] [Netflix]
-      - 德国 - 法兰克福 [BGPA] [SVIP] [Netflix]
-      - "[VIP] 新加坡 -1"
-      - "[VIP] 日本 -2"
-      - 香港5-三网优化
-      - 香港8-三网优化
-      - 【新鸟免费】新加坡SG-AWS 06 1.0x
-      - 【新鸟免费】新加坡SG-AWS 02 1.0x
-      - 【新鸟免费】台湾TW-Hinet 04 1.0x
+      - IOS小火箭专用|美国 - 洛杉矶 -24 [PZ] [IPLC]
+      - IOS小火箭专用|美国 - 洛杉矶 -9 [CC] [IPLC]
+      - IOS小火箭专用|美国 - 洛杉矶 -28 [CC] [IPLC]
+      - IOS小火箭专用|英国 - 伦敦 -21 [IPLC]
+      - IOS小火箭专用|美国 - 奥格登7 [IPLC]
+      - IOS小火箭专用|韩国 - 首尔 -23 [IPLC] [推荐]
+      - IOS小火箭专用|美国 - 洛杉矶 -17 [KP] [IPLC] [推荐]
+      - IOS小火箭专用|美国 - 丹佛18 [IPLC]
+      - IOS小火箭专用|美国 - 凤凰城 -32 [IPLC] [推荐]
+      - 香港01
+      - 香港02 2
+      - 台灣
+      - 香港03 2
+      - 香港(绿头外网集团)(Public) 27
+      - 香港(绿头外网集团)(Public) 29
+      - 新加坡(绿头外网集团)(Public)
+      - 【新鸟免费】新加坡SG-AWS 09 1.0x
       - 【新鸟免费】台湾TW-Hinet 03 1.0x
-      - 【新鸟免费】台湾TW-Hinet 01 1.0x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -4574,6 +4530,50 @@ proxy-groups:
       - Ytb:鹏哥分享_IN_印度_330
       - Ytb:鹏哥分享_US_美国_331
       - Ytb:鹏哥分享_US_美国_332
+      - CM|台湾1|家庭宽带|x1
+      - CM|香港2|家庭宽带|x1
+      - CM|新加坡1 |x1
+      - CM|新加坡2|Netflix|x1
+      - CM|越南1|原生ip|x1
+      - CM|泰国1|原生ip|x1
+      - CM|印度尼西亚1|原生IP|x1
+      - CM|日本1 |x1
+      - CM|韩国1 x1
+      - CM|美国1 |x1
+      - CM|美国2 |x1
+      - CM|德国1 |x1
+      - IEPL|俄罗斯01|原生ip|x3
+      - IEPL|德国01|x3
+      - IEPL|英国01 |x3
+      - IEPL|阿根廷01|原生IP|x3
+      - IEPL|加拿大01 |x3
+      - IEPL|美国01 |x3
+      - IEPL|美国02 |x3
+      - IEPL|美国03|Netflix|x3
+      - IEPL|美国04|原生IP|x3
+      - IEPL|澳大利亚01 |x3
+      - IEPL|巴基斯坦01|原生IP|x10
+      - IEPL|土耳其01|原生IP|x3
+      - IEPL|泰国01|原生IP|x3
+      - IEPL|印度01 |x3
+      - IEPL|菲律宾01|原生IP|x3
+      - IEPL|马来西亚01|原生IP|x3
+      - IEPL|新加坡01 |x3
+      - IEPL|新加坡02|Netflix|x3
+      - IEPL|日本01|Netflix|x3
+      - IEPL|日本02 |x3
+      - IEPL|日本03|家庭宽带|x3
+      - IEPL|韩国01|Netflix|x3
+      - IEPL|澳门01|家庭宽带|x3
+      - IEPL|台湾01|家庭宽带|x3
+      - IEPL|台湾02|Netflix|x3
+      - IEPL|香港01|原生IP|x3
+      - IEPL|香港02|家庭宽带|x3
+      - IEPL|香港03|家庭宽带|x3
+      - 香港01 _1
+      - 美国09 _3
+      - 美国04 _4
+      - 美国05 _5
       - 专线 新加坡 03 3
       - 专线 新加坡 03 2
       - 专线 新加坡 02 3
@@ -4623,7 +4623,6 @@ proxy-groups:
       - 中继 日本 03
       - 中继 日本 02 2
       - 中继 日本 02
-      - 中继 美国 01
       - 中继 马来西亚 02 3
       - 中继 马来西亚 02
       - 中继 马来西亚 01 2
@@ -4633,14 +4632,6 @@ proxy-groups:
       - 中继 韩国 01 2
       - 中继 韩国 01
       - 新加坡-01
-      - 香港L2 中继N3 [3]
-      - 香港L2 中继N2 [3]
-      - 香港L2 中继N1 [3]
-      - 香港L2 中继M1S2 [3]
-      - 香港L2 中继M1S1 [3]
-      - 美国L2 中继M1S3 [2]
-      - 美国L2 中继M1S2 [2]
-      - 美国L2 中继M1S1 [2]
       - 高速中转01
       - US-199.19.226.178-0364
       - KR | Oracle 甲骨文
@@ -4649,73 +4640,27 @@ proxy-groups:
       - CN-183.232.170.110-1232
       - CN-101.67.8.140-0039
       - CN-101.67.8.140-0038
-      - 4.75|RelayEEJP331
-      - 4.66|RelayEEJP332
-      - 4.34|RelayEEJP328
-      - 4.25|RelayEEJP326
       - 4.16| nfeng6 JP1354
       - 30香港TG@moneyflychat
-      - 3.77|RelayEEJP329
-      - 3.63|RelayEEJP330
-      - 3.42|httpsgitiov9999 165
-      - 3.17|RelayEEJP327
-      - 1.97| HK625
       - 1.62|SeoulZenlayer
       - 1.57|CYL科技20220101 30 2
-      - 1.37|FR14194115681008
       - 1.26| GB549
       - 1.23|拉脱维亚01流解0x
       - 印度尼西亚 Indonesia●
-      - 土耳其 Turkey★
-      - 新加坡 Singapore★
-      - 泰国 Thailand★
       - 澳大利亚 Australia●
       - 英国 England(Free)★
       - 菲律宾 Philippine●
-      - 韩国 Korea●
       - 香港 Hongkong (AZ)●
-      - GLaDOS-N2-00
-      - GLaDOS-N2-01
-      - GLaDOS-N2-02
-      - GLaDOS-N2-03
-      - GLaDOS-N2-04
-      - GLaDOS-N2-05
-      - GLaDOS-N2-06
-      - GLaDOS-N2-07
-      - GLaDOS-N2-08
-      - GLaDOS-Portalgun-00
-      - GLaDOS-Portalgun-01
-      - GLaDOS-Portalgun-02
-      - GLaDOS-Portalgun-03
-      - GLaDOS-Portalgun-04
-      - GLaDOS-Portalgun-05
-      - GLaDOS-Portalgun-06
-      - GLaDOS-Portalgun-07
-      - GLaDOS-Portalgun-08
-      - GLaDOS-T1-Netflix
-      - GLaDOS-T2-Netflix
-      - GLaDOS-T3-Netflix
-      - GLaDOS-E01-Economic
-      - GLaDOS-E02-Economic
-      - GLaDOS-E03-Economic
-      - GLaDOS-E04-Economic
-      - GLaDOS-E05-Economic
-      - GLaDOS-E06-Economic
-      - US-GLaDOS-GEO-00
-      - US-GLaDOS-GEO-01
-      - US-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-00
-      - JP-GLaDOS-GEO-01
-      - JP-GLaDOS-GEO-02
-      - TW-GLaDOS-GEO-00
-      - TW-GLaDOS-GEO-01
-      - TW-GLaDOS-GEO-02
-      - HK-GLaDOS-GEO-00
-      - HK-GLaDOS-GEO-01
-      - HK-GLaDOS-GEO-02
-      - SG-GLaDOS-GEO-00
-      - SG-GLaDOS-GEO-01
-      - SG-GLaDOS-GEO-02
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
+      - _GB_英国
+      - _DE_德国
+      - _FR_法国 4
+      - _CA_加拿大
+      - _GB_英国 2
+      - _GB_英国 3
+      - _FR_法国 5
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5359,163 +5304,152 @@ proxy-groups:
       - 请切换到v2ray
       - jc.ap.fastqvpn.com:29980
       - jc.ap.fastqvpn.com:29980 2
+      - 阿根廷
       - jc.ap.fastqvpn.com:29980 3
       - jc.ap.fastqvpn.com:29980 4
-      - jc.ap.fastqvpn.com:29980 5
-      - 香港4-小浪浪
-      - 香港3-小浪浪
-      - 香港1_小浪浪
+      - "in.gotochinatown.net:108#%%%%%%%%%%%%%%%\x07"
+      - "uk.gotochinatown.net:108#%%%%%%%%%%%%%%%\x03"
+      - "tw.gotochinatown.net:10881#%%%%%%\x03}"
       - 香港2-小浪浪
-      - 阿根廷
+      - 香港4-小浪浪
+      - 香港04
+      - 香港1_小浪浪
       - 韩国(首尔) 🚀[极速稳定]
+      - "[VIP]台湾1"
+      - "[VIP]韩国春川2|1x"
+      - 香港阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
+      - CowVagina_2
+      - Relay_ | 2.66Mb
+      - 香港【YouTube由零開始】
+      - Relay_ | 4.69Mb
+      - (3)香港（5000mbps）
+      - (2)香港 (5000Mbps)
+      - 新加坡 (200Mbps)
+      - 拉斯维加斯 (1000Mbps)
+      - (1)香港 (5000Mbps)
+      - 日本_N_1
+      - 香港_R_133
+      - 越南_R_377
+      - 香港_R_121
+      - 越南_R_380
+      - 越南_R_277
+      - 台湾_R_318
+      - 韩国_R_310
+      - 韩国_R_311
+      - 台湾_R_337
+      - 新加坡_R_229
+      - 香港03
+      - 香港04 2
+      - 日本
+      - 香港02
+      - 德国
+      - 亚太H3R
+      - 亚太H4R
+      - 日本H2R
+      - 日本H1R
       - Premium|广港|IEPL|04
       - Premium|广港|IEPL|14
-      - 港04_|NF
-      - Premium|广台|IEPL|01
       - Premium|广新|IEPL|02
-      - Standard|广新|IEPL|03
-      - Standard|广新|IEPL|05
-      - Standard|广新|IEPL|07
-      - Standard|广港|IEPL|19
-      - Standard|广新|IEPL|04
-      - Standard|广港|IEPL|20
-      - Standard|广新|IEPL|02
-      - Standard|广港|IEPL|18
-      - Standard|广港|IEPL|17
-      - Premium|广日|IEPL|01
-      - Standard|广台|IEPL|04
-      - Standard|广港|IEPL|10
-      - Standard|广港|IEPL|16
-      - Premium|广日|IEPL|04
-      - Standard|广日|IEPL|03
-      - Standard|广港|IEPL|12
-      - Standard|广港|IEPL|14
-      - 免费丨香港丨1丨30M限速丨速云丨yooo.me丨 更多高速线路请购买套餐
-      - Standard|广港|IEPL|03
-      - Standard|广港|IEPL|11
-      - Standard|广港|IEPL|07
-      - Standard|广港|IEPL|15
-      - Standard|广日|IEPL|08
-      - Standard|广港|IEPL|13
-      - 港02_|NF
-      - 港10
-      - Standard|广台|IEPL|01
-      - 港08
-      - 港13
-      - 港03_|NF
-      - Standard|广港|IEPL|09
-      - 台7_|NF|动画疯
-      - 港05_|NF|TVB
-      - 港06_|NF|TVB
-      - 港07
-      - 台3_|NF|动画疯
-      - JK1-V4-江港HGC01|v2ray
-      - Standard|广日|IEPL|07
-      - 台5_|NF|动画疯
-      - 台4_|NF|动画疯
-      - Standard|广港|IEPL|04
-      - Standard|广港|IEPL|02
-      - 台6_|NF|动画疯
-      - v2ray 香港HKT(联通) [Netflix]
-      - 免费丨香港丨2丨30M限速丨速云丨yooo.me丨 更多高速线路请购买套餐
-      - JK1-V4-江港HGC01|v2ray 2
       - Standard|广港|IEPL|01
-      - Standard|广台|IEPL|05
-      - Standard|广韩|IEPL|01
-      - Standard|广韩|IEPL|03
-      - Standard|广韩|IEPL|02
-      - 坡01_|NF
-      - 坡07
-      - Standard|广港|IEPL|08
-      - 香港L2 中继M1S2 [3] 2
-      - Standard|广日|IEPL|05
-      - Standard|广日|IEPL|06
-      - Standard|广港|IEPL|05
-      - 香港L2 中继N3 [3] 2
-      - Standard|广台|IEPL|03
-      - ️‍🌈 JK1-V3-广新LINODE02|v2ray|1.5x流量
-      - 坡04_|NF
-      - 坡05_|NF
+      - Standard|广港|IEPL|12
+      - Premium|广日|IEPL|02
+      - Standard|广港|IEPL|13
+      - Standard|广港|IEPL|19
       - Premium|广日|IEPL|03
-      - 坡06
-      - 日02_|NF|DMM
-      - Standard|广日|IEPL|04
-      - v2ray 台湾2(移动) [Netflix] 2
-      - 日03_|NF|DMM
-      - Standard|广日|IEPL|01
-      - v2ray 香港2(移动) [Netflix]
+      - Standard|广港|IEPL|14
+      - Premium|广日|IEPL|01
+      - Standard|广新|IEPL|03
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|20
+      - Standard|广港|IEPL|10
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|16
+      - Standard|广港|IEPL|05
+      - Standard|广台|IEPL|05
+      - Standard|广港|IEPL|18
+      - Standard|广港|IEPL|03
+      - Standard|广韩|IEPL|03
+      - Standard|广韩|IEPL|01
+      - Standard|广港|IEPL|04
+      - Standard|广韩|IEPL|04
+      - Standard|广港|IEPL|17
+      - 免费丨香港丨1丨30M限速丨速云丨yooo.me丨 更多高速线路请购买套餐
+      - Premium|广港|IEPL|04 2
+      - Premium|广港|IEPL|14 2
+      - Standard|广港|IEPL|02 2
       - vpnpool-SG-DigitalOcean
       - vpnpool-SG-DigitalOcean 2
+      - vpnpool-Tokyo-Linode
       - vpnpool-SG-DigitalOcean 3
-      - vpnpool-SG-EC2
       - vpnpool-SG-DigitalOcean 4
+      - vpnpool-Tokyo-Linode 2
       - vpnpool-SG-DigitalOcean 5
-      - vpnpool-Tokyo-EC2
+      - vpnpool-Tokyo-Linode 3
+      - vpnpool-Tokyo-Linode 4
       - vpnpool-SG-DigitalOcean 6
       - vpnpool-SG-DigitalOcean 7
-      - vpnpool-Tokyo-Linode
       - vpnpool-SG-DigitalOcean 8
-      - vpnpool-SG-DigitalOcean 9
-      - vpnpool-Tokyo-Linode 2
-      - vpnpool-香港腾讯云
-      - vpnpool-Tokyo-Linode 3
-      - vpnpool-香港腾讯云 2
-      - vpnpool-Tokyo-Linode 4
-      - vpnpool-Tokyo-EC2-dip
       - vpnpool-Tokyo-Linode 5
       - vpnpool-Tokyo-Linode 6
       - vpnpool-Tokyo-Linode 7
+      - vpnpool-SG-EC2
+      - vpnpool-SG-DigitalOcean 9
+      - vpnpool-Tokyo-EC2
       - vpnpool-SG-DigitalOcean 10
-      - vpnpool-SG-DigitalOcean 11
-      - vpnpool-SG-EC2 2
-      - vpnpool-SG-DigitalOcean 12
-      - vpnpool-香港Azure
       - vpnpool-Tokyo-Linode 8
-      - vpnpool-SG-DigitalOcean 13
-      - vpnpool-SG-DigitalOcean 14
-      - vpnpool-Tokyo-EC2 2
-      - vpnpool-SG-DigitalOcean 15
-      - vpnpool-Tokyo-EC2 3
-      - vpnpool-Tokyo-Linode 9
-      - "*🇭🇰HK -272 TG@moon365free"
-      - "*🇭🇰HK -275 TG@moon365free"
-      - "*🇭🇰HK -273 TG@moon365free"
-      - "*🇭🇰HK -295 TG@moon365free"
-      - IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
-      - IOS小火箭专用|香港 (中国) -42 [IPLC]
-      - IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]
-      - IOS小火箭专用|香港 (中国) -43 [IPLC]
+      - vpnpool-SG-DigitalOcean 11
+      - vpnpool-Tokyo-EC2-dip
+      - vpnpool-香港腾讯云
+      - vpnpool-香港腾讯云 2
+      - "*🇺🇸US -435 TG@moon365free"
+      - "*🇺🇸US -440 TG@moon365free"
+      - "*🇺🇸US -417 TG@moon365free"
+      - "*🇺🇸US -431 TG@moon365free"
+      - "*🇭🇰HK -416 TG@moon365free"
+      - "*🇯🇵JP -433 TG@moon365free"
+      - "*🇭🇰HK -312 TG@moon365free"
+      - "*🇯🇵JP -434 TG@moon365free"
+      - "*🇯🇵JP -415 TG@moon365free"
+      - "*🇯🇵JP -428 TG@moon365free"
+      - "*🇭🇰HK -436 TG@moon365free"
+      - "*🇯🇵JP -1010 TG@moon365free"
+      - "*🇺🇸US -296 TG@moon365free"
+      - "*🇯🇵JP -299 TG@moon365free"
       - IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]
-      - IOS小火箭专用|香港 (中国) -31 [NETSEC] [IPLC]
-      - IOS小火箭专用|香港 (中国) -26 [HKBN] [IPLC]
-      - IOS小火箭专用|新加坡 2 [IPLC]
+      - IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
+      - IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]
+      - IOS小火箭专用|香港 (中国) -42 [IPLC]
+      - IOS小火箭专用|香港 (中国) -43 [IPLC]
       - IOS小火箭专用|香港 (中国) -30 [HKBN] [IPLC]
-      - IOS小火箭专用|新加坡 -8 [IPLC]
-      - IOS小火箭专用|新加坡1 [IPLC]
       - IOS小火箭专用|菲律宾 - 马尼拉 -27 [IPLC]
+      - IOS小火箭专用|新加坡 2 [IPLC]
+      - IOS小火箭专用|新加坡1 [IPLC]
+      - IOS小火箭专用|新加坡 -8 [IPLC]
       - 香港8-三网优化_17
-      - IOS小火箭专用|日本 - 东京 -33 [IPLC]
       - IOS小火箭专用|马来西亚 - 雪兰莪48 [IPLC]
+      - IOS小火箭专用|日本 - 东京 -33 [IPLC]
       - IOS小火箭专用|韩国 - 首尔 -40 [IPLC]
       - IOS小火箭专用|泰国 - 曼谷 -15 [IPLC] [LineTV] [MelloTV]
-      - 香港(绿头外网集团)(Public) 7
-      - 香港(绿头外网集团)(Public) 8
-      - 韩国(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 6
-      - 俄罗斯 - 新西伯利亚 [BGPA] [SVIP] [Netflix]
-      - 俄罗斯 - 莫斯科 [BGPA] [SVIP] [Netflix]
-      - 德国 - 法尔肯施泰因 [BGPA] [SVIP] [Netflix]
-      - 法国 - 斯特拉斯堡 [BGPA] [SVIP] [Netflix]
-      - 德国 - 法兰克福 [BGPA] [SVIP] [Netflix]
-      - "[VIP] 新加坡 -1"
-      - "[VIP] 日本 -2"
-      - 香港5-三网优化
-      - 香港8-三网优化
-      - 【新鸟免费】新加坡SG-AWS 06 1.0x
-      - 【新鸟免费】新加坡SG-AWS 02 1.0x
-      - 【新鸟免费】台湾TW-Hinet 04 1.0x
+      - IOS小火箭专用|美国 - 洛杉矶 -24 [PZ] [IPLC]
+      - IOS小火箭专用|美国 - 洛杉矶 -9 [CC] [IPLC]
+      - IOS小火箭专用|美国 - 洛杉矶 -28 [CC] [IPLC]
+      - IOS小火箭专用|英国 - 伦敦 -21 [IPLC]
+      - IOS小火箭专用|美国 - 奥格登7 [IPLC]
+      - IOS小火箭专用|韩国 - 首尔 -23 [IPLC] [推荐]
+      - IOS小火箭专用|美国 - 洛杉矶 -17 [KP] [IPLC] [推荐]
+      - IOS小火箭专用|美国 - 丹佛18 [IPLC]
+      - IOS小火箭专用|美国 - 凤凰城 -32 [IPLC] [推荐]
+      - 香港01
+      - 香港02 2
+      - 台灣
+      - 香港03 2
+      - 香港(绿头外网集团)(Public) 27
+      - 香港(绿头外网集团)(Public) 29
+      - 新加坡(绿头外网集团)(Public)
+      - 【新鸟免费】新加坡SG-AWS 09 1.0x
       - 【新鸟免费】台湾TW-Hinet 03 1.0x
-      - 【新鸟免费】台湾TW-Hinet 01 1.0x
   - name: 📲 电报消息
     type: select
     proxies:
@@ -5723,6 +5657,11 @@ proxy-groups:
       - 香港（YouTube资源分享者） 13
       - _HK_香港_FMYC-2022_02_16_31
       - _HK_香港_FMYC-2022_02_16_129
+      - CM|香港2|家庭宽带|x1
+      - IEPL|香港01|原生IP|x3
+      - IEPL|香港02|家庭宽带|x3
+      - IEPL|香港03|家庭宽带|x3
+      - 香港01 _1
       - 专线 香港 04 3
       - 专线 香港 04 2
       - 专线 香港 03 2
@@ -5732,18 +5671,9 @@ proxy-groups:
       - 中继 香港 06
       - 中继 香港 05
       - 中继 香港 04 2
-      - 香港L2 中继N3 [3]
-      - 香港L2 中继N2 [3]
-      - 香港L2 中继N1 [3]
-      - 香港L2 中继M1S2 [3]
-      - 香港L2 中继M1S1 [3]
       - GLaDOS-HK-Netflix
       - 30香港TG@moneyflychat
-      - 1.97| HK625
       - 香港 Hongkong (AZ)●
-      - HK-GLaDOS-GEO-00
-      - HK-GLaDOS-GEO-01
-      - HK-GLaDOS-GEO-02
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -5769,69 +5699,60 @@ proxy-groups:
       - 48香港∞中转
       - 49香港∞中转
       - 50香港∞中转
-      - 香港4-小浪浪
-      - 香港3-小浪浪
-      - 香港1_小浪浪
       - 香港2-小浪浪
+      - 香港4-小浪浪
+      - 香港04
+      - 香港1_小浪浪
+      - 香港阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
+      - 香港【YouTube由零開始】
+      - (3)香港（5000mbps）
+      - (2)香港 (5000Mbps)
+      - (1)香港 (5000Mbps)
+      - 香港_R_133
+      - 香港_R_121
+      - 香港03
+      - 香港04 2
+      - 香港02
       - Premium|广港|IEPL|04
       - Premium|广港|IEPL|14
-      - 港04_|NF
-      - Standard|广港|IEPL|19
-      - Standard|广港|IEPL|20
-      - Standard|广港|IEPL|18
-      - Standard|广港|IEPL|17
-      - Standard|广港|IEPL|10
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|12
-      - Standard|广港|IEPL|14
-      - 免费丨香港丨1丨30M限速丨速云丨yooo.me丨 更多高速线路请购买套餐
-      - Standard|广港|IEPL|03
-      - Standard|广港|IEPL|11
-      - Standard|广港|IEPL|07
-      - Standard|广港|IEPL|15
-      - Standard|广港|IEPL|13
-      - 港02_|NF
-      - 港10
-      - 港08
-      - 港13
-      - 港03_|NF
-      - Standard|广港|IEPL|09
-      - 港05_|NF|TVB
-      - 港06_|NF|TVB
-      - 港07
-      - JK1-V4-江港HGC01|v2ray
-      - Standard|广港|IEPL|04
-      - Standard|广港|IEPL|02
-      - v2ray 香港HKT(联通) [Netflix]
-      - 免费丨香港丨2丨30M限速丨速云丨yooo.me丨 更多高速线路请购买套餐
-      - JK1-V4-江港HGC01|v2ray 2
       - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|12
+      - Standard|广港|IEPL|13
+      - Standard|广港|IEPL|19
+      - Standard|广港|IEPL|14
       - Standard|广港|IEPL|08
-      - 香港L2 中继M1S2 [3] 2
+      - Standard|广港|IEPL|20
+      - Standard|广港|IEPL|10
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|16
       - Standard|广港|IEPL|05
-      - 香港L2 中继N3 [3] 2
-      - v2ray 香港2(移动) [Netflix]
+      - Standard|广港|IEPL|18
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|17
+      - 免费丨香港丨1丨30M限速丨速云丨yooo.me丨 更多高速线路请购买套餐
+      - Premium|广港|IEPL|04 2
+      - Premium|广港|IEPL|14 2
+      - Standard|广港|IEPL|02 2
       - vpnpool-香港腾讯云
       - vpnpool-香港腾讯云 2
-      - vpnpool-香港Azure
-      - "*🇭🇰HK -272 TG@moon365free"
-      - "*🇭🇰HK -275 TG@moon365free"
-      - "*🇭🇰HK -273 TG@moon365free"
-      - "*🇭🇰HK -295 TG@moon365free"
-      - IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
-      - IOS小火箭专用|香港 (中国) -42 [IPLC]
-      - IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]
-      - IOS小火箭专用|香港 (中国) -43 [IPLC]
+      - "*🇭🇰HK -416 TG@moon365free"
+      - "*🇭🇰HK -312 TG@moon365free"
+      - "*🇭🇰HK -436 TG@moon365free"
       - IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]
-      - IOS小火箭专用|香港 (中国) -31 [NETSEC] [IPLC]
-      - IOS小火箭专用|香港 (中国) -26 [HKBN] [IPLC]
+      - IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
+      - IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]
+      - IOS小火箭专用|香港 (中国) -42 [IPLC]
+      - IOS小火箭专用|香港 (中国) -43 [IPLC]
       - IOS小火箭专用|香港 (中国) -30 [HKBN] [IPLC]
       - 香港8-三网优化_17
-      - 香港(绿头外网集团)(Public) 7
-      - 香港(绿头外网集团)(Public) 8
-      - 香港(绿头外网集团)(Public) 6
-      - 香港5-三网优化
-      - 香港8-三网优化
+      - 香港01
+      - 香港02 2
+      - 香港03 2
+      - 香港(绿头外网集团)(Public) 27
+      - 香港(绿头外网集团)(Public) 29
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -5853,23 +5774,17 @@ proxy-groups:
       - "@SSRSUB-东京T09-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-大阪T18-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-东京T19-付费推荐:dlj.tf/ssrsub"
+      - CM|日本1 |x1
+      - IEPL|日本01|Netflix|x3
+      - IEPL|日本02 |x3
+      - IEPL|日本03|家庭宽带|x3
       - 专线 日本 03 2
       - 专线 日本 03
       - 中继 日本 03 3
       - 中继 日本 03
       - 中继 日本 02 2
       - 中继 日本 02
-      - 4.75|RelayEEJP331
-      - 4.66|RelayEEJP332
-      - 4.34|RelayEEJP328
-      - 4.25|RelayEEJP326
       - 4.16| nfeng6 JP1354
-      - 3.77|RelayEEJP329
-      - 3.63|RelayEEJP330
-      - 3.17|RelayEEJP327
-      - JP-GLaDOS-GEO-00
-      - JP-GLaDOS-GEO-01
-      - JP-GLaDOS-GEO-02
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -5884,18 +5799,20 @@ proxy-groups:
       - "@SSRSUB-东京V17-付费推荐::suo.yt/ssrsub 2"
       - 23日本∞中转
       - 24日本∞直连
-      - Premium|广日|IEPL|01
-      - Premium|广日|IEPL|04
-      - Standard|广日|IEPL|03
-      - Standard|广日|IEPL|08
-      - Standard|广日|IEPL|07
-      - Standard|广日|IEPL|05
-      - Standard|广日|IEPL|06
+      - 日本_N_1
+      - 日本
+      - 日本H2R
+      - 日本H1R
+      - Premium|广日|IEPL|02
       - Premium|广日|IEPL|03
-      - Standard|广日|IEPL|04
-      - Standard|广日|IEPL|01
+      - Premium|广日|IEPL|01
+      - "*🇯🇵JP -433 TG@moon365free"
+      - "*🇯🇵JP -434 TG@moon365free"
+      - "*🇯🇵JP -415 TG@moon365free"
+      - "*🇯🇵JP -428 TG@moon365free"
+      - "*🇯🇵JP -1010 TG@moon365free"
+      - "*🇯🇵JP -299 TG@moon365free"
       - IOS小火箭专用|日本 - 东京 -33 [IPLC]
-      - "[VIP] 日本 -2"
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -6165,18 +6082,20 @@ proxy-groups:
       - Ytb:鹏哥分享_US_美国_329
       - Ytb:鹏哥分享_US_美国_331
       - Ytb:鹏哥分享_US_美国_332
+      - CM|美国1 |x1
+      - CM|美国2 |x1
+      - IEPL|美国01 |x3
+      - IEPL|美国02 |x3
+      - IEPL|美国03|Netflix|x3
+      - IEPL|美国04|原生IP|x3
+      - 美国09 _3
+      - 美国04 _4
+      - 美国05 _5
       - 专线 美国 02 3
       - 专线 美国 02
       - 专线 美国 01 3
       - 专线 美国 01 2
-      - 中继 美国 01
-      - 美国L2 中继M1S3 [2]
-      - 美国L2 中继M1S2 [2]
-      - 美国L2 中继M1S1 [2]
       - US-199.19.226.178-0364
-      - US-GLaDOS-GEO-00
-      - US-GLaDOS-GEO-01
-      - US-GLaDOS-GEO-02
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -6374,6 +6293,19 @@ proxy-groups:
       - github.com/freefq - 北美地区  17
       - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 18
       - github.com/freefq - 北美地区  19
+      - 拉斯维加斯 (1000Mbps)
+      - "*🇺🇸US -435 TG@moon365free"
+      - "*🇺🇸US -440 TG@moon365free"
+      - "*🇺🇸US -417 TG@moon365free"
+      - "*🇺🇸US -431 TG@moon365free"
+      - "*🇺🇸US -296 TG@moon365free"
+      - IOS小火箭专用|美国 - 洛杉矶 -24 [PZ] [IPLC]
+      - IOS小火箭专用|美国 - 洛杉矶 -9 [CC] [IPLC]
+      - IOS小火箭专用|美国 - 洛杉矶 -28 [CC] [IPLC]
+      - IOS小火箭专用|美国 - 奥格登7 [IPLC]
+      - IOS小火箭专用|美国 - 洛杉矶 -17 [KP] [IPLC] [推荐]
+      - IOS小火箭专用|美国 - 丹佛18 [IPLC]
+      - IOS小火箭专用|美国 - 凤凰城 -32 [IPLC] [推荐]
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -6396,9 +6328,9 @@ proxy-groups:
       - 台湾（YouTube资源分享者） 8
       - Ytb:鹏哥分享_TW_台湾_272
       - Ytb:鹏哥分享_TW_台湾_284
-      - TW-GLaDOS-GEO-00
-      - TW-GLaDOS-GEO-01
-      - TW-GLaDOS-GEO-02
+      - CM|台湾1|家庭宽带|x1
+      - IEPL|台湾01|家庭宽带|x3
+      - IEPL|台湾02|Netflix|x3
       - 台湾（YouTube资源分享者） 9
       - 台湾（YouTube资源分享者） 10
       - 台湾（YouTube资源分享者） 11
@@ -6412,20 +6344,12 @@ proxy-groups:
       - 12台湾∞中转
       - 13台湾∞中转
       - 14台湾∞中转
-      - Premium|广台|IEPL|01
-      - Standard|广台|IEPL|04
-      - Standard|广台|IEPL|01
-      - 台7_|NF|动画疯
-      - 台3_|NF|动画疯
-      - 台5_|NF|动画疯
-      - 台4_|NF|动画疯
-      - 台6_|NF|动画疯
+      - "[VIP]台湾1"
+      - 台湾_R_318
+      - 台湾_R_337
       - Standard|广台|IEPL|05
-      - Standard|广台|IEPL|03
-      - v2ray 台湾2(移动) [Netflix] 2
-      - 【新鸟免费】台湾TW-Hinet 04 1.0x
+      - 台灣
       - 【新鸟免费】台湾TW-Hinet 03 1.0x
-      - 【新鸟免费】台湾TW-Hinet 01 1.0x
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -6436,6 +6360,10 @@ proxy-groups:
       - _SG_新加坡_FMYC-2022_02_16_45
       - "@SSRSUB-新加坡V07-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-新加坡V18-付费推荐::suo.yt/ssrsub"
+      - CM|新加坡1 |x1
+      - CM|新加坡2|Netflix|x1
+      - IEPL|新加坡01 |x3
+      - IEPL|新加坡02|Netflix|x3
       - 专线 新加坡 03 3
       - 专线 新加坡 03 2
       - 专线 新加坡 02 3
@@ -6449,10 +6377,6 @@ proxy-groups:
       - 中继 新加坡 01 4
       - 中继 新加坡 01 3
       - 新加坡-01
-      - 新加坡 Singapore★
-      - SG-GLaDOS-GEO-00
-      - SG-GLaDOS-GEO-01
-      - SG-GLaDOS-GEO-02
       - 新加坡（YouTube资源分享者） 2
       - _SG_新加坡_FMYC-2022.02.16_43
       - _SG_新加坡_FMYC-2022.02.16_45
@@ -6466,34 +6390,25 @@ proxy-groups:
       - 20新加坡∞中转
       - 21新加坡∞中转
       - 22新加坡∞中转
-      - 坡01_|NF
-      - 坡07
-      - 坡04_|NF
-      - 坡05_|NF
-      - 坡06
+      - 新加坡 (200Mbps)
+      - 新加坡_R_229
       - vpnpool-SG-DigitalOcean
       - vpnpool-SG-DigitalOcean 2
       - vpnpool-SG-DigitalOcean 3
-      - vpnpool-SG-EC2
       - vpnpool-SG-DigitalOcean 4
       - vpnpool-SG-DigitalOcean 5
       - vpnpool-SG-DigitalOcean 6
       - vpnpool-SG-DigitalOcean 7
       - vpnpool-SG-DigitalOcean 8
+      - vpnpool-SG-EC2
       - vpnpool-SG-DigitalOcean 9
       - vpnpool-SG-DigitalOcean 10
       - vpnpool-SG-DigitalOcean 11
-      - vpnpool-SG-EC2 2
-      - vpnpool-SG-DigitalOcean 12
-      - vpnpool-SG-DigitalOcean 13
-      - vpnpool-SG-DigitalOcean 14
-      - vpnpool-SG-DigitalOcean 15
       - IOS小火箭专用|新加坡 2 [IPLC]
-      - IOS小火箭专用|新加坡 -8 [IPLC]
       - IOS小火箭专用|新加坡1 [IPLC]
-      - "[VIP] 新加坡 -1"
-      - 【新鸟免费】新加坡SG-AWS 06 1.0x
-      - 【新鸟免费】新加坡SG-AWS 02 1.0x
+      - IOS小火箭专用|新加坡 -8 [IPLC]
+      - 新加坡(绿头外网集团)(Public)
+      - 【新鸟免费】新加坡SG-AWS 09 1.0x
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -6507,6 +6422,8 @@ proxy-groups:
       - "@SSRSUB-首尔T10-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-韩国T15-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-首尔T20-付费推荐:dlj.tf/ssrsub"
+      - CM|韩国1 x1
+      - IEPL|韩国01|Netflix|x3
       - 专线 韩国 02 3
       - 专线 韩国 02
       - 专线 韩国 01 3
@@ -6516,7 +6433,6 @@ proxy-groups:
       - 中继 韩国 01 2
       - 中继 韩国 01
       - KR | Oracle 甲骨文
-      - 韩国 Korea●
       - _KR_韩国_FMYC-2022.02.16_148
       - _KR_韩国_FMYC-2022.02.16_222
       - "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub 2"
@@ -6526,41 +6442,24 @@ proxy-groups:
       - 41韩国∞直连
       - 42韩国∞直连
       - 韩国(首尔) 🚀[极速稳定]
-      - Standard|广韩|IEPL|01
+      - "[VIP]韩国春川2|1x"
+      - 韩国_R_310
+      - 韩国_R_311
       - Standard|广韩|IEPL|03
-      - Standard|广韩|IEPL|02
+      - Standard|广韩|IEPL|01
+      - Standard|广韩|IEPL|04
       - IOS小火箭专用|韩国 - 首尔 -40 [IPLC]
-      - 韩国(绿头外网集团)(Public)
+      - IOS小火箭专用|韩国 - 首尔 -23 [IPLC] [推荐]
   - name: 🎥 奈飞节点
     type: select
     proxies:
+      - CM|新加坡2|Netflix|x1
+      - IEPL|美国03|Netflix|x3
+      - IEPL|新加坡02|Netflix|x3
+      - IEPL|日本01|Netflix|x3
+      - IEPL|韩国01|Netflix|x3
+      - IEPL|台湾02|Netflix|x3
       - GLaDOS-HK-Netflix
-      - GLaDOS-T1-Netflix
-      - GLaDOS-T2-Netflix
-      - GLaDOS-T3-Netflix
-      - 港04_|NF
-      - 港02_|NF
-      - 港03_|NF
-      - 台7_|NF|动画疯
-      - 港05_|NF|TVB
-      - 港06_|NF|TVB
-      - 台3_|NF|动画疯
-      - 台5_|NF|动画疯
-      - 台4_|NF|动画疯
-      - 台6_|NF|动画疯
-      - v2ray 香港HKT(联通) [Netflix]
-      - 坡01_|NF
-      - 坡04_|NF
-      - 坡05_|NF
-      - 日02_|NF|DMM
-      - v2ray 台湾2(移动) [Netflix] 2
-      - 日03_|NF|DMM
-      - v2ray 香港2(移动) [Netflix]
-      - 俄罗斯 - 新西伯利亚 [BGPA] [SVIP] [Netflix]
-      - 俄罗斯 - 莫斯科 [BGPA] [SVIP] [Netflix]
-      - 德国 - 法尔肯施泰因 [BGPA] [SVIP] [Netflix]
-      - 法国 - 斯特拉斯堡 [BGPA] [SVIP] [Netflix]
-      - 德国 - 法兰克福 [BGPA] [SVIP] [Netflix]
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
