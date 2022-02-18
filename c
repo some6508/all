@@ -5,109 +5,144 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"加拿大-2_37MB/s(Youtube:不良林)_1","server":"134.195.196.200","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"英国-2_97MB/s(Youtube:不良林)_2","server":"172.99.190.205","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"法国-2_55MB/s(Youtube:不良林)_3","server":"145.239.1.100","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"英国-1_95MB/s(Youtube:不良林)_4","server":"172.99.190.205","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"英国-2_93MB/s(Youtube:不良林)_5","server":"172.99.190.39","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"英国-2_93MB/s(Youtube:不良林)_6","server":"172.99.190.39","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"英国-2_79MB/s(Youtube:不良林)_7","server":"172.99.190.39","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"英国-2_96MB/s(Youtube:不良林)_8","server":"172.99.190.188","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"英国-3_03MB/s(Youtube:不良林)_9","server":"172.99.190.205","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"英国-3_02MB/s(Youtube:不良林)_10","server":"172.99.190.205","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇫🇷_FR_法国_1","server":"145.239.1.100","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.147","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇬🇧_GB_英国_3","server":"172.99.190.149","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.196.193","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇬🇧_GB_英国_5","server":"172.99.190.39","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.200","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_US_美国_7","server":"dax6ujai.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","host":"dax6ujai.com"}}
+  - {"name":"🇫🇷_FR_法国_8","server":"145.239.1.100","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇬🇧_GB_英国_9","server":"172.99.190.205","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"default_name_10","server":"198.41.212.18","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
+  - {"name":"🇬🇧_GB_英国_11","server":"172.99.190.87","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_12","server":"134.195.196.200","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"default_name_13","server":"198.41.212.9","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","host":"zero1.a-yu.xyz"}}
+  - {"name":"🇫🇷_FR_法国_14","server":"149.202.82.172","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇫🇷_FR_法国_15","server":"145.239.1.100","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 加拿大-2_37MB/s(Youtube:不良林)_1
-      - 英国-2_97MB/s(Youtube:不良林)_2
-      - 法国-2_55MB/s(Youtube:不良林)_3
-      - 英国-1_95MB/s(Youtube:不良林)_4
-      - 英国-2_93MB/s(Youtube:不良林)_5
-      - 英国-2_93MB/s(Youtube:不良林)_6
-      - 英国-2_79MB/s(Youtube:不良林)_7
-      - 英国-2_96MB/s(Youtube:不良林)_8
-      - 英国-3_03MB/s(Youtube:不良林)_9
-      - 英国-3_02MB/s(Youtube:不良林)_10
+      - 🇫🇷_FR_法国_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇬🇧_GB_英国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_7
+      - 🇫🇷_FR_法国_8
+      - 🇬🇧_GB_英国_9
+      - default_name_10
+      - 🇬🇧_GB_英国_11
+      - 🇨🇦_CA_加拿大_12
+      - default_name_13
+      - 🇫🇷_FR_法国_14
+      - 🇫🇷_FR_法国_15
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 加拿大-2_37MB/s(Youtube:不良林)_1
-      - 英国-2_97MB/s(Youtube:不良林)_2
-      - 法国-2_55MB/s(Youtube:不良林)_3
-      - 英国-1_95MB/s(Youtube:不良林)_4
-      - 英国-2_93MB/s(Youtube:不良林)_5
-      - 英国-2_93MB/s(Youtube:不良林)_6
-      - 英国-2_79MB/s(Youtube:不良林)_7
-      - 英国-2_96MB/s(Youtube:不良林)_8
-      - 英国-3_03MB/s(Youtube:不良林)_9
-      - 英国-3_02MB/s(Youtube:不良林)_10
+      - 🇫🇷_FR_法国_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇬🇧_GB_英国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_7
+      - 🇫🇷_FR_法国_8
+      - 🇬🇧_GB_英国_9
+      - default_name_10
+      - 🇬🇧_GB_英国_11
+      - 🇨🇦_CA_加拿大_12
+      - default_name_13
+      - 🇫🇷_FR_法国_14
+      - 🇫🇷_FR_法国_15
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 加拿大-2_37MB/s(Youtube:不良林)_1
-      - 英国-2_97MB/s(Youtube:不良林)_2
-      - 法国-2_55MB/s(Youtube:不良林)_3
-      - 英国-1_95MB/s(Youtube:不良林)_4
-      - 英国-2_93MB/s(Youtube:不良林)_5
-      - 英国-2_93MB/s(Youtube:不良林)_6
-      - 英国-2_79MB/s(Youtube:不良林)_7
-      - 英国-2_96MB/s(Youtube:不良林)_8
-      - 英国-3_03MB/s(Youtube:不良林)_9
-      - 英国-3_02MB/s(Youtube:不良林)_10
+      - 🇫🇷_FR_法国_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇬🇧_GB_英国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_7
+      - 🇫🇷_FR_法国_8
+      - 🇬🇧_GB_英国_9
+      - default_name_10
+      - 🇬🇧_GB_英国_11
+      - 🇨🇦_CA_加拿大_12
+      - default_name_13
+      - 🇫🇷_FR_法国_14
+      - 🇫🇷_FR_法国_15
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 加拿大-2_37MB/s(Youtube:不良林)_1
-      - 英国-2_97MB/s(Youtube:不良林)_2
-      - 法国-2_55MB/s(Youtube:不良林)_3
-      - 英国-1_95MB/s(Youtube:不良林)_4
-      - 英国-2_93MB/s(Youtube:不良林)_5
-      - 英国-2_93MB/s(Youtube:不良林)_6
-      - 英国-2_79MB/s(Youtube:不良林)_7
-      - 英国-2_96MB/s(Youtube:不良林)_8
-      - 英国-3_03MB/s(Youtube:不良林)_9
-      - 英国-3_02MB/s(Youtube:不良林)_10
+      - 🇫🇷_FR_法国_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇬🇧_GB_英国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_7
+      - 🇫🇷_FR_法国_8
+      - 🇬🇧_GB_英国_9
+      - default_name_10
+      - 🇬🇧_GB_英国_11
+      - 🇨🇦_CA_加拿大_12
+      - default_name_13
+      - 🇫🇷_FR_法国_14
+      - 🇫🇷_FR_法国_15
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 加拿大-2_37MB/s(Youtube:不良林)_1
-      - 英国-2_97MB/s(Youtube:不良林)_2
-      - 法国-2_55MB/s(Youtube:不良林)_3
-      - 英国-1_95MB/s(Youtube:不良林)_4
-      - 英国-2_93MB/s(Youtube:不良林)_5
-      - 英国-2_93MB/s(Youtube:不良林)_6
-      - 英国-2_79MB/s(Youtube:不良林)_7
-      - 英国-2_96MB/s(Youtube:不良林)_8
-      - 英国-3_03MB/s(Youtube:不良林)_9
-      - 英国-3_02MB/s(Youtube:不良林)_10
+      - 🇫🇷_FR_法国_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇬🇧_GB_英国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_7
+      - 🇫🇷_FR_法国_8
+      - 🇬🇧_GB_英国_9
+      - default_name_10
+      - 🇬🇧_GB_英国_11
+      - 🇨🇦_CA_加拿大_12
+      - default_name_13
+      - 🇫🇷_FR_法国_14
+      - 🇫🇷_FR_法国_15
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 加拿大-2_37MB/s(Youtube:不良林)_1
-      - 英国-2_97MB/s(Youtube:不良林)_2
-      - 法国-2_55MB/s(Youtube:不良林)_3
-      - 英国-1_95MB/s(Youtube:不良林)_4
-      - 英国-2_93MB/s(Youtube:不良林)_5
-      - 英国-2_93MB/s(Youtube:不良林)_6
-      - 英国-2_79MB/s(Youtube:不良林)_7
-      - 英国-2_96MB/s(Youtube:不良林)_8
-      - 英国-3_03MB/s(Youtube:不良林)_9
-      - 英国-3_02MB/s(Youtube:不良林)_10
+      - 🇫🇷_FR_法国_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇬🇧_GB_英国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_7
+      - 🇫🇷_FR_法国_8
+      - 🇬🇧_GB_英国_9
+      - default_name_10
+      - 🇬🇧_GB_英国_11
+      - 🇨🇦_CA_加拿大_12
+      - default_name_13
+      - 🇫🇷_FR_法国_14
+      - 🇫🇷_FR_法国_15
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +165,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 加拿大-2_37MB/s(Youtube:不良林)_1
-      - 英国-2_97MB/s(Youtube:不良林)_2
-      - 法国-2_55MB/s(Youtube:不良林)_3
-      - 英国-1_95MB/s(Youtube:不良林)_4
-      - 英国-2_93MB/s(Youtube:不良林)_5
-      - 英国-2_93MB/s(Youtube:不良林)_6
-      - 英国-2_79MB/s(Youtube:不良林)_7
-      - 英国-2_96MB/s(Youtube:不良林)_8
-      - 英国-3_03MB/s(Youtube:不良林)_9
-      - 英国-3_02MB/s(Youtube:不良林)_10
+      - 🇫🇷_FR_法国_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇬🇧_GB_英国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_7
+      - 🇫🇷_FR_法国_8
+      - 🇬🇧_GB_英国_9
+      - default_name_10
+      - 🇬🇧_GB_英国_11
+      - 🇨🇦_CA_加拿大_12
+      - default_name_13
+      - 🇫🇷_FR_法国_14
+      - 🇫🇷_FR_法国_15
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
