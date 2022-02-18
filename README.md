@@ -104,7 +104,17 @@ http://subconver111.coolpage.biz/
 
 ****
 
-## <span id="bottom">统计`Star`|[	到顶部	](#top)</span>
+## 统计`Star`
 [![Stargazers over time](https://starchart.cc/some6508/all.svg)](https://starchart.cc/some6508/all)
+
+****
+
+## 记录`Star`
+[![Stargazers repo roster for @skywolf627/ProxiesActions](https://reporoster.com/stars/some6508/all)](https://github.com/some6508/all/stargazers)
+
+****
+
+## <span id="bottom">记录`Fork`|[	到顶部	](#top)</span>
+[![Forkers repo roster for @skywolf627/ProxiesActions](https://reporoster.com/forks/some6508/all)](https://github.com/some6508/all/network/members)
 
 ****
