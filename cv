@@ -6,55 +6,15 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: _GB_英国_1, server: 172.99.190.205, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _RU_俄罗斯联邦_2, server: 146.185.218.171, port: 443, type: vmess, uuid: 947af181-c509-4245-80de-9baf64f1aa51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: _CA_加拿大_3, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国_4, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _GB_英国_5, server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _JP_日本_6, server: 85.208.108.106, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _GB_英国_7, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _FR_法国_8, server: 95.142.161.171, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: zpK7f8fj6FwW, udp: true}
-  - {name: _US_美国_9, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _GB_英国_10, server: 172.99.190.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _FR_法国_11, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国_12, server: 38.68.135.208, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _RU_俄罗斯联邦_13, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: _GB_英国_14, server: 172.99.190.205, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大_15, server: 134.195.196.193, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国_16, server: 38.68.135.208, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大_17, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _AU_澳大利亚_18, server: 45.76.127.189, port: 443, type: vmess, uuid: 7fc6764a-6cba-4599-95d7-ac7617b7db0a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: _FR_法国_19, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大_20, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国_21, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国_22, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国_23, server: 38.68.135.208, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大_24, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _DE_德国_25, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: _GB_英国_26, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国_27, server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: _GB_英国_28, server: 172.99.190.205, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大_29, server: 134.195.196.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _AU_澳大利亚_30, server: 217.138.204.202, port: 443, type: vmess, uuid: fa1eff46-f454-42d9-b881-90a102d5521d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: _GB_英国_31, server: 172.99.190.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国_32, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: default_name_33, server: 104.17.161.28, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa}, udp: true}
-  - {name: default_name_34, server: 198.41.212.10, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
-  - {name: _GB_英国_35, server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大_36, server: 134.195.196.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_37, server: 134.195.196.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国_38, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国_39, server: 38.68.135.208, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_40, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _FR_法国_41, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大_42, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国_43, server: 38.68.135.208, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国_44, server: 172.99.190.205, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国_45, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: _CA_加拿大_46, server: 134.195.196.200, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国_47, server: 38.91.107.43, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国_48, server: 38.68.135.208, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大_49, server: 134.195.196.193, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: default_name_50, server: 198.41.212.8, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
+  - {name: _CA_加拿大_2, server: 134.195.196.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国_3, server: 38.68.135.208, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_4, server: 134.195.196.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国_5, server: 38.68.135.208, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _FR_法国_6, server: 95.142.161.171, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: zpK7f8fj6FwW, udp: true}
+  - {name: _FR_法国_7, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _RU_俄罗斯联邦_8, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
+  - {name: default_name_9, server: 104.17.161.28, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa}, udp: true}
+  - {name: _GB_英国_10, server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 法国(欢迎订阅Youtube破解资源君), server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 法国(欢迎订阅Youtube破解资源君) 2, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 法国(欢迎订阅Youtube破解资源君) 3, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
@@ -1990,6 +1950,293 @@ proxies:
   - {name: 广东省广州市腾讯云 44, server: 159.75.50.77, port: 40046, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 将于近期停止ssr更新 2, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _HK_香港_FMYC-2022_02_18_1 2, server: 0107hk.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0107hk.fans8.xyz}}, udp: true}
+  - {name: _RU_俄罗斯联邦_FMYC-2022_02_18_2 2, server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /2993fe/, headers: {Host: free-russian01-cdn.xiaohouzi.club}}, udp: true}
+  - {name: _CZ_捷克_FMYC-2022_02_18_3 2, server: t2.ssrsub.com, port: 8443, type: trojan, password: 8a233a34-36f4-400d-b7c8-93024e518ddb, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦_FMYC-2022_02_18_4 2, server: t6.ssrsub.com, port: 8443, type: trojan, password: 8a233a34-36f4-400d-b7c8-93024e518ddb, sni: t6.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: _CZ_捷克_FMYC-2022_02_18_5 2, server: t7.ssrsub.com, port: 8443, type: trojan, password: 8a233a34-36f4-400d-b7c8-93024e518ddb, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦_FMYC-2022_02_18_6 2, server: 5.188.35.120, port: 443, type: vmess, uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
+  - {name: _RU_俄罗斯联邦_FMYC-2022_02_18_7 2, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_8 2, server: 38.64.138.145, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_9 2, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_10 2, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_11 2, server: 38.64.138.145, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_12 2, server: 198.57.27.172, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_13 2, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_14 2, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_15 2, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_16 2, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_17 2, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_18 2, server: canada-vancouver.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: canada-vancouver.mah3Hoet.com}}, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_19 2, server: 71.19.252.163, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_20 2, server: t1.ssrsub.com, port: 8443, type: trojan, password: 8a233a34-36f4-400d-b7c8-93024e518ddb, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_21 2, server: t3.ssrsub.com, port: 8443, type: trojan, password: 8a233a34-36f4-400d-b7c8-93024e518ddb, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_22 2, server: t4.ssrsub.com, port: 8443, type: trojan, password: 8a233a34-36f4-400d-b7c8-93024e518ddb, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_23 2, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_24 2, server: 198.57.27.152, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_25 2, server: 198.57.27.152, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_26 2, server: 198.57.27.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_27 2, server: 198.57.27.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_28 2, server: 198.57.27.184, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_29 2, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_30 2, server: 198.57.27.152, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_31 2, server: 198.57.27.241, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_32 2, server: 198.57.27.184, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _HK_香港_FMYC-2022_02_18_33 2, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
+  - {name: _IN_印度_FMYC-2022_02_18_34 2, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_35 2, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_36 2, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_37 2, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_38 2, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_39 2, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_40 2, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_41 2, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_42 2, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _DE_德国_FMYC-2022_02_18_43 2, server: 193.108.118.2, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_44 2, server: 145.239.1.100, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _SG_新加坡_FMYC-2022_02_18_45 2, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v7.ssrsub.com}}, udp: true}
+  - {name: _SG_新加坡_FMYC-2022_02_18_46 2, server: 4.vpnbro.ml, port: 9999, type: trojan, password: 04a2dba8-1af1-4b30-aabf-a2eeca2a3cb3, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡_FMYC-2022_02_18_47 2, server: lin-sg.tgproxy.wtf, port: 443, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: lin-sg.tgproxy.wtf}}, udp: true}
+  - {name: _JP_日本_FMYC-2022_02_18_48 2, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _SG_新加坡_FMYC-2022_02_18_49 2, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _AU_澳大利亚_FMYC-2022_02_18_50 2, server: 172.105.254.242, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _JP_日本_FMYC-2022_02_18_51 2, server: linode.jp.tgproxy.wtf, port: 28888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: linode.jp.tgproxy.wtf}}, udp: true}
+  - {name: _KR_韩国_FMYC-2022_02_18_52 2, server: oracle.kr.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: oracle.kr.tgproxy.wtf}}, udp: true}
+  - {name: _KR_韩国_FMYC-2022_02_18_53 2, server: 146.56.111.194, port: 18408, type: vmess, uuid: 92a5db6f-e3bb-422e-caba-fb52df9350c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国_FMYC-2022_02_18_54 2, server: arm.50k.one, port: 39966, type: vmess, uuid: 608408f6-fd79-49a3-96ef-003266a773a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国_FMYC-2022_02_18_55 2, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1031kr.fans8.xyz}}, udp: true}
+  - {name: _AU_澳大利亚_FMYC-2022_02_18_56 2, server: 45.76.127.189, port: 443, type: vmess, uuid: 7fc6764a-6cba-4599-95d7-ac7617b7db0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_57 2, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: _BE_比利时_FMYC-2022_02_18_58 2, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_59 2, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_60 2, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_61 2, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_62 2, server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_63 2, server: 62.210.209.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_64 2, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_65 2, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_66 2, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _AU_澳大利亚_FMYC-2022_02_18_67 2, server: 172.105.180.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _AU_澳大利亚_FMYC-2022_02_18_68 2, server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _AU_澳大利亚_FMYC-2022_02_18_69 2, server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _AU_澳大利亚_FMYC-2022_02_18_70 2, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _AU_澳大利亚_FMYC-2022_02_18_71 2, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _AU_澳大利亚_FMYC-2022_02_18_72 2, server: v10.ssrsub.com, port: 166, type: vmess, uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v10.ssrsub.com}}, udp: true}
+  - {name: _AU_澳大利亚_FMYC-2022_02_18_73 2, server: amd.50k.one, port: 30943, type: vmess, uuid: a0654eba-7b58-4d64-cfdb-c006e5d38324, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _SE_瑞典_FMYC-2022_02_18_74 2, server: se.oceancloud.asia, port: 12100, type: vmess, uuid: adfc4bf6-8f7d-393e-9997-7dd969d9ea88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: se.oceancloud.asia}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_75 2, server: 66.42.103.1, port: 50890, type: vmess, uuid: 11365a2e-6938-11ec-9b3d-560003c3fd49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /5YpZGAg8/}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_76 2, server: 70.39.71.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_77 2, server: 169.197.142.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_78 2, server: 169.197.143.157, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_79 2, server: 38.91.102.86, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_80 2, server: 38.143.66.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_81 2, server: 38.91.102.86, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_82 2, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_83 2, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: FMYC-2022_02_18_84 2, server: 104.21.62.193, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /319285eb2d/}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_85 2, server: 38.91.102.86, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_86 2, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_87 2, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: FMYC-2022_02_18_88 2, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: kycc}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_89 2, server: 169.197.142.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_90 2, server: 172.67.176.114, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /2993fe/}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_91 2, server: 38.91.102.86, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_92 2, server: 169.197.143.157, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_93 2, server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_94 2, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: _IN_印度_FMYC-2022_02_18_95 2, server: 192.46.210.73, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _IN_印度_FMYC-2022_02_18_96 2, server: 192.46.210.73, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_97 2, server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_98 2, server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_99 2, server: 169.197.141.24, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_100 2, server: 169.197.141.24, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_101 2, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_102 2, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_103 2, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_104 2, server: 169.197.141.24, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_105 2, server: api.ssfree.ru, port: 443, type: vmess, uuid: 8c089fe0-6989-11ec-9e73-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: api.ssfree.ru}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_106 2, server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /319285eb2d/, headers: {Host: free-russian-cdn.xiaohouzi.club}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_107 2, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_108 2, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _IN_印度_FMYC-2022_02_18_109 2, server: 172.104.207.231, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_110 2, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_111 2, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_112 2, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_113 2, server: 38.121.43.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_114 2, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_115 2, server: 167.88.63.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_116 2, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_117 2, server: 38.68.134.23, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_118 2, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_119 2, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_120 2, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_121 2, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_122 2, server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_123 2, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_124 2, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_125 2, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_126 2, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_127 2, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_128 2, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_129 2, server: 134.195.196.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_130 2, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_131 2, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_132 2, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_133 2, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_134 2, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_135 2, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_136 2, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_137 2, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_138 2, server: 154.94.218.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_139 2, server: 70.39.67.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_140 2, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_141 2, server: 20.24.66.67, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_142 2, server: 20.24.67.68, port: 52335, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_143 2, server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: amu1ahfi.com}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_144 2, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_145 2, server: 192.74.225.120, port: 8443, type: vmess, uuid: 348f0186-e84e-4eec-b57f-03b988d2c498, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_146 2, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: FMYC-2022_02_18_147 2, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: FMYC-2022_02_18_148 2, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v3.ssrsub.com}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_149 2, server: v4.ssrsub.com, port: 166, type: vmess, uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v4.ssrsub.com}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_150 2, server: v6.ssrsub.com, port: 166, type: vmess, uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6.ssrsub.com}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_151 2, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v8.ssrsub.com}}, udp: true}
+  - {name: FMYC-2022_02_18_152 2, server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v9.ssrsub.com}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_153 2, server: t5.ssrsub.com, port: 8443, type: trojan, password: 8a233a34-36f4-400d-b7c8-93024e518ddb, sni: t5.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_154 2, server: t8.ssrsub.com, port: 8443, type: trojan, password: 8a233a34-36f4-400d-b7c8-93024e518ddb, sni: t8.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_155 2, server: t9.ssrsub.com, port: 8443, type: trojan, password: 8a233a34-36f4-400d-b7c8-93024e518ddb, sni: t9.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国_FMYC-2022_02_18_156 2, server: t10.ssrsub.com, port: 8443, type: trojan, password: 8a233a34-36f4-400d-b7c8-93024e518ddb, sni: t10.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_157 2, server: 167.88.63.28, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_158 2, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_159 2, server: 167.88.61.14, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_160 2, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_161 2, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_162 2, server: 134.195.196.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_163 2, server: 134.195.196.81, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_164 2, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_165 2, server: 134.195.196.154, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_166 2, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_167 2, server: 169.197.141.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_168 2, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_169 2, server: 134.195.196.81, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_170 2, server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_171 2, server: 134.195.196.154, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_172 2, server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_173 2, server: 172.99.190.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_174 2, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_175 2, server: 134.195.196.81, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_176 2, server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_177 2, server: 134.195.196.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_178 2, server: 134.195.196.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_179 2, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_180 2, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_181 2, server: 167.88.63.74, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_182 2, server: 38.68.134.23, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_183 2, server: 134.195.196.154, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_184 2, server: 167.88.63.61, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_185 2, server: 134.195.196.154, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_186 2, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_187 2, server: 38.68.134.23, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_188 2, server: 169.197.142.216, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_189 2, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_190 2, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_191 2, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_192 2, server: 134.195.198.95, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_193 2, server: 167.88.63.74, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _IN_印度_FMYC-2022_02_18_194 2, server: 172.104.206.165, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_195 2, server: 167.88.63.74, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_196 2, server: 167.88.62.34, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_197 2, server: 172.99.190.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_198 2, server: 167.88.63.61, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_199 2, server: 167.88.61.14, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_200 2, server: 134.195.198.95, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_201 2, server: 172.99.190.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_202 2, server: 134.195.196.154, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_203 2, server: 167.88.62.34, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_204 2, server: 167.88.62.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_205 2, server: 167.88.63.28, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_206 2, server: 167.88.63.74, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_207 2, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_208 2, server: 142.202.48.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_209 2, server: 167.88.63.28, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_210 2, server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_FMYC-2022_02_18_211 2, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _HK_香港_FMYC-2022_02_18_212 2, server: 96.wgong.xyz, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_213 2, server: v111.wgong.xyz, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_214 2, server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本_FMYC-2022_02_18_215 2, server: n178.centaur.network, port: 8082, type: trojan, password: 12d66073-1c21-45d7-b7e2-6b0ed7eed556, sni: n178.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_216 2, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港_FMYC-2022_02_18_217 2, server: qinton001.bmbai.buzz, port: 10010, type: vmess, uuid: 6089bbd2-2bef-3ee3-a329-1b1a4339d7ed, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: qinton001.bmbai.buzz}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_218 2, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港_FMYC-2022_02_18_219 2, server: azhk.relay001.insnow.xyz, port: 9913, type: trojan, password: 3cd55b21-01fc-4a11-89cf-7c80bb8ed2cb, sni: azhk.relay001.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港_FMYC-2022_02_18_220 2, server: hk1.otwc-node.cc, port: 88, type: vmess, uuid: f8d6b081-9680-4ef8-b387-eb0fe462b55d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.otwc-node.cc}}, udp: true}
+  - {name: _HK_香港_FMYC-2022_02_18_221 2, server: ml02.vproxy.us, port: 8080, type: vmess, uuid: 66090875-8cec-4233-bc8d-935b36bd0a72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TS/recharge/tzUrl.html, headers: {Host: ml02.vproxy.us}}, udp: true}
+  - {name: _JP_日本_FMYC-2022_02_18_222 2, server: cdn005.youxi.gay, port: 443, type: trojan, password: 77cfb34f-c392-44ce-b04f-fca947bf82ab, sni: cdn005.youxi.gay, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_223 2, server: 87.wowogg.cyou, port: 52287, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_224 2, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: us.lv.buyvm.tgproxy.wtf}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_225 2, server: zxc.vincc.top, port: 26050, type: vmess, uuid: c1651f37-934d-43d7-8f69-681b7e93d263, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxc.vincc.top}}, udp: true}
+  - {name: FMYC-2022_02_18_226 2, server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_227 2, server: 108.wowogg.cyou, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_228 2, server: 112.wowogg.cyou, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_229 2, server: ggz.jgw.tgproxy.wtf, port: 80, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: ggz.jgw.tgproxy.wtf}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_230 2, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, headers: {Host: anzhuo-hezi1.herokuapp.com}}, udp: true}
+  - {name: FMYC-2022_02_18_231 2, server: 104.17.161.28, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_232 2, server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_233 2, server: v2us01.isxa.top, port: 443, type: vmess, uuid: b5e2b40b-1ca0-ee11-fa8c-1c00ac295cbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: v2us01.isxa.top}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_234 2, server: v2us02.isxa.top, port: 443, type: vmess, uuid: 6ff043b6-60b9-cdae-5422-3d3ced9bc9c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: v2us02.isxa.top}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_235 2, server: v2us03.isxa.top, port: 443, type: vmess, uuid: 483abe2a-10cd-8341-d09f-f3574c8693e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: v2us03.isxa.top}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_236 2, server: www.kernels.bid, port: 443, type: vmess, uuid: 6c7c5e3a-73ad-467a-1241-206987daa04f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.kernels.bid}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_237 2, server: www.kernels.bid, port: 80, type: vmess, uuid: 25ec39f7-7cdd-4c3c-bc3c-60e9a8927b4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.kernels.bid}}, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_238 2, server: 51.68.205.180, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_239 2, server: 37.120.134.207, port: 443, type: vmess, uuid: 5c0beec7-9b91-4e28-85b0-e3ff49b4ac50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_240 2, server: gia.uk.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: gia.uk.tgproxy.wtf}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_241 2, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_242 2, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_243 2, server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_244 2, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dax6ujai.com}}, udp: true}
+  - {name: _JP_日本_FMYC-2022_02_18_245 2, server: os2-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-1.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本_FMYC-2022_02_18_246 2, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-6.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本_FMYC-2022_02_18_247 2, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本_FMYC-2022_02_18_248 2, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本_FMYC-2022_02_18_249 2, server: os2-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-4.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本_FMYC-2022_02_18_250 2, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: _PT_葡萄牙_FMYC-2022_02_18_251 2, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
+  - {name: _KR_韩国_FMYC-2022_02_18_252 2, server: v11.ssrsub.com, port: 166, type: vmess, uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v11.ssrsub.com}}, udp: true}
+  - {name: _KR_韩国_FMYC-2022_02_18_253 2, server: cdn015.youxi.gay, port: 443, type: trojan, password: 77cfb34f-c392-44ce-b04f-fca947bf82ab, sni: cdn015.youxi.gay, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_254 2, server: 111.28.3.117, port: 60009, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_255 2, server: 183.232.56.161, port: 1101, type: vmess, uuid: 7ff41058-b662-3352-9e7f-643ef2d78344, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_256 2, server: ddns02.r8o8c8k.xyz, port: 65001, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ddns02.r8o8c8k.xyz}}, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_257 2, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_258 2, server: ddns02.r8o8c8k.xyz, port: 65016, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ddns02.r8o8c8k.xyz}}, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_259 2, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_260 2, server: 117.28.243.154, port: 6145, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_261 2, server: 117.28.243.220, port: 8036, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: _TW_台湾_FMYC-2022_02_18_262 2, server: 2.58.242.43, port: 443, type: trojan, password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_263 2, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: _JP_日本_FMYC-2022_02_18_264 2, server: jp-am48-9.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3H2aN5Gnm, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _KR_韩国_FMYC-2022_02_18_265 2, server: tky3.ssgnode.ga, port: 443, type: trojan, password: bcYWVzLTI1Ni1nY206Q1VuZFNabll23115_5a451f03, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_266 2, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_267 2, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_268 2, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_269 2, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_270 2, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_271 2, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_272 2, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_273 2, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_274 2, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_275 2, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_276 2, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR_法国_FMYC-2022_02_18_277 2, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_278 2, server: 111.28.3.106, port: 60011, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_279 2, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_280 2, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: _US_美国_FMYC-2022_02_18_281 2, server: vincent-jackson2021.ga, port: 443, type: trojan, password: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, sni: vincent-jackson2021.ga, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国_FMYC-2022_02_18_282 2, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_283 2, server: gz2.52168.xyz, port: 2109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_284 2, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: _CN_中国_FMYC-2022_02_18_285 2, server: 111.28.3.106, port: 60017, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _HK_香港_FMYC-2022_02_18_286 2, server: api.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: api.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港_FMYC-2022_02_18_287 2, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top, skip-cert-verify: true, udp: true}
   - {name: 香港2-小浪浪分享, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
   - {name: 香港3-小浪浪分享, server: shonlinesandcu03.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
   - {name: 香港1-小浪浪分享, server: shonlinecu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
@@ -2129,55 +2376,15 @@ proxy-groups:
     type: select
     proxies:
       - _GB_英国_1
-      - _RU_俄罗斯联邦_2
-      - _CA_加拿大_3
-      - _GB_英国_4
-      - _GB_英国_5
-      - _JP_日本_6
-      - _GB_英国_7
-      - _FR_法国_8
-      - _US_美国_9
+      - _CA_加拿大_2
+      - _US_美国_3
+      - _CA_加拿大_4
+      - _US_美国_5
+      - _FR_法国_6
+      - _FR_法国_7
+      - _RU_俄罗斯联邦_8
+      - default_name_9
       - _GB_英国_10
-      - _FR_法国_11
-      - _US_美国_12
-      - _RU_俄罗斯联邦_13
-      - _GB_英国_14
-      - _CA_加拿大_15
-      - _US_美国_16
-      - _CA_加拿大_17
-      - _AU_澳大利亚_18
-      - _FR_法国_19
-      - _CA_加拿大_20
-      - _GB_英国_21
-      - _GB_英国_22
-      - _US_美国_23
-      - _CA_加拿大_24
-      - _DE_德国_25
-      - _GB_英国_26
-      - _US_美国_27
-      - _GB_英国_28
-      - _CA_加拿大_29
-      - _AU_澳大利亚_30
-      - _GB_英国_31
-      - _US_美国_32
-      - default_name_33
-      - default_name_34
-      - _GB_英国_35
-      - _CA_加拿大_36
-      - _CA_加拿大_37
-      - _US_美国_38
-      - _US_美国_39
-      - _CA_加拿大_40
-      - _FR_法国_41
-      - _CA_加拿大_42
-      - _US_美国_43
-      - _GB_英国_44
-      - _US_美国_45
-      - _CA_加拿大_46
-      - _US_美国_47
-      - _US_美国_48
-      - _CA_加拿大_49
-      - default_name_50
       - 法国(欢迎订阅Youtube破解资源君)
       - 法国(欢迎订阅Youtube破解资源君) 2
       - 法国(欢迎订阅Youtube破解资源君) 3
@@ -4113,6 +4320,293 @@ proxy-groups:
       - 广东省广州市腾讯云 44
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
+      - _HK_香港_FMYC-2022_02_18_1 2
+      - _RU_俄罗斯联邦_FMYC-2022_02_18_2 2
+      - _CZ_捷克_FMYC-2022_02_18_3 2
+      - _RU_俄罗斯联邦_FMYC-2022_02_18_4 2
+      - _CZ_捷克_FMYC-2022_02_18_5 2
+      - _RU_俄罗斯联邦_FMYC-2022_02_18_6 2
+      - _RU_俄罗斯联邦_FMYC-2022_02_18_7 2
+      - _US_美国_FMYC-2022_02_18_8 2
+      - _CA_加拿大_FMYC-2022_02_18_9 2
+      - _CA_加拿大_FMYC-2022_02_18_10 2
+      - _US_美国_FMYC-2022_02_18_11 2
+      - _CA_加拿大_FMYC-2022_02_18_12 2
+      - _CA_加拿大_FMYC-2022_02_18_13 2
+      - _CA_加拿大_FMYC-2022_02_18_14 2
+      - _CA_加拿大_FMYC-2022_02_18_15 2
+      - _CA_加拿大_FMYC-2022_02_18_16 2
+      - _CA_加拿大_FMYC-2022_02_18_17 2
+      - _CA_加拿大_FMYC-2022_02_18_18 2
+      - _CA_加拿大_FMYC-2022_02_18_19 2
+      - _CA_加拿大_FMYC-2022_02_18_20 2
+      - _CA_加拿大_FMYC-2022_02_18_21 2
+      - _CA_加拿大_FMYC-2022_02_18_22 2
+      - _CA_加拿大_FMYC-2022_02_18_23 2
+      - _CA_加拿大_FMYC-2022_02_18_24 2
+      - _CA_加拿大_FMYC-2022_02_18_25 2
+      - _CA_加拿大_FMYC-2022_02_18_26 2
+      - _CA_加拿大_FMYC-2022_02_18_27 2
+      - _CA_加拿大_FMYC-2022_02_18_28 2
+      - _CA_加拿大_FMYC-2022_02_18_29 2
+      - _CA_加拿大_FMYC-2022_02_18_30 2
+      - _CA_加拿大_FMYC-2022_02_18_31 2
+      - _CA_加拿大_FMYC-2022_02_18_32 2
+      - _HK_香港_FMYC-2022_02_18_33 2
+      - _IN_印度_FMYC-2022_02_18_34 2
+      - _FR_法国_FMYC-2022_02_18_35 2
+      - _FR_法国_FMYC-2022_02_18_36 2
+      - _FR_法国_FMYC-2022_02_18_37 2
+      - _FR_法国_FMYC-2022_02_18_38 2
+      - _FR_法国_FMYC-2022_02_18_39 2
+      - _FR_法国_FMYC-2022_02_18_40 2
+      - _FR_法国_FMYC-2022_02_18_41 2
+      - _FR_法国_FMYC-2022_02_18_42 2
+      - _DE_德国_FMYC-2022_02_18_43 2
+      - _FR_法国_FMYC-2022_02_18_44 2
+      - _SG_新加坡_FMYC-2022_02_18_45 2
+      - _SG_新加坡_FMYC-2022_02_18_46 2
+      - _SG_新加坡_FMYC-2022_02_18_47 2
+      - _JP_日本_FMYC-2022_02_18_48 2
+      - _SG_新加坡_FMYC-2022_02_18_49 2
+      - _AU_澳大利亚_FMYC-2022_02_18_50 2
+      - _JP_日本_FMYC-2022_02_18_51 2
+      - _KR_韩国_FMYC-2022_02_18_52 2
+      - _KR_韩国_FMYC-2022_02_18_53 2
+      - _KR_韩国_FMYC-2022_02_18_54 2
+      - _KR_韩国_FMYC-2022_02_18_55 2
+      - _AU_澳大利亚_FMYC-2022_02_18_56 2
+      - _US_美国_FMYC-2022_02_18_57 2
+      - _BE_比利时_FMYC-2022_02_18_58 2
+      - _FR_法国_FMYC-2022_02_18_59 2
+      - _FR_法国_FMYC-2022_02_18_60 2
+      - _FR_法国_FMYC-2022_02_18_61 2
+      - _FR_法国_FMYC-2022_02_18_62 2
+      - _FR_法国_FMYC-2022_02_18_63 2
+      - _FR_法国_FMYC-2022_02_18_64 2
+      - _FR_法国_FMYC-2022_02_18_65 2
+      - _FR_法国_FMYC-2022_02_18_66 2
+      - _AU_澳大利亚_FMYC-2022_02_18_67 2
+      - _AU_澳大利亚_FMYC-2022_02_18_68 2
+      - _AU_澳大利亚_FMYC-2022_02_18_69 2
+      - _AU_澳大利亚_FMYC-2022_02_18_70 2
+      - _AU_澳大利亚_FMYC-2022_02_18_71 2
+      - _AU_澳大利亚_FMYC-2022_02_18_72 2
+      - _AU_澳大利亚_FMYC-2022_02_18_73 2
+      - _SE_瑞典_FMYC-2022_02_18_74 2
+      - _US_美国_FMYC-2022_02_18_75 2
+      - _US_美国_FMYC-2022_02_18_76 2
+      - _US_美国_FMYC-2022_02_18_77 2
+      - _US_美国_FMYC-2022_02_18_78 2
+      - _US_美国_FMYC-2022_02_18_79 2
+      - _US_美国_FMYC-2022_02_18_80 2
+      - _US_美国_FMYC-2022_02_18_81 2
+      - _US_美国_FMYC-2022_02_18_82 2
+      - _US_美国_FMYC-2022_02_18_83 2
+      - FMYC-2022_02_18_84 2
+      - _US_美国_FMYC-2022_02_18_85 2
+      - _US_美国_FMYC-2022_02_18_86 2
+      - _US_美国_FMYC-2022_02_18_87 2
+      - FMYC-2022_02_18_88 2
+      - _US_美国_FMYC-2022_02_18_89 2
+      - _US_美国_FMYC-2022_02_18_90 2
+      - _US_美国_FMYC-2022_02_18_91 2
+      - _US_美国_FMYC-2022_02_18_92 2
+      - _US_美国_FMYC-2022_02_18_93 2
+      - _US_美国_FMYC-2022_02_18_94 2
+      - _IN_印度_FMYC-2022_02_18_95 2
+      - _IN_印度_FMYC-2022_02_18_96 2
+      - _CA_加拿大_FMYC-2022_02_18_97 2
+      - _US_美国_FMYC-2022_02_18_98 2
+      - _US_美国_FMYC-2022_02_18_99 2
+      - _US_美国_FMYC-2022_02_18_100 2
+      - _US_美国_FMYC-2022_02_18_101 2
+      - _US_美国_FMYC-2022_02_18_102 2
+      - _US_美国_FMYC-2022_02_18_103 2
+      - _US_美国_FMYC-2022_02_18_104 2
+      - _US_美国_FMYC-2022_02_18_105 2
+      - _US_美国_FMYC-2022_02_18_106 2
+      - _US_美国_FMYC-2022_02_18_107 2
+      - _GB_英国_FMYC-2022_02_18_108 2
+      - _IN_印度_FMYC-2022_02_18_109 2
+      - _GB_英国_FMYC-2022_02_18_110 2
+      - _US_美国_FMYC-2022_02_18_111 2
+      - _US_美国_FMYC-2022_02_18_112 2
+      - _US_美国_FMYC-2022_02_18_113 2
+      - _GB_英国_FMYC-2022_02_18_114 2
+      - _US_美国_FMYC-2022_02_18_115 2
+      - _US_美国_FMYC-2022_02_18_116 2
+      - _US_美国_FMYC-2022_02_18_117 2
+      - _GB_英国_FMYC-2022_02_18_118 2
+      - _US_美国_FMYC-2022_02_18_119 2
+      - _US_美国_FMYC-2022_02_18_120 2
+      - _US_美国_FMYC-2022_02_18_121 2
+      - _US_美国_FMYC-2022_02_18_122 2
+      - _GB_英国_FMYC-2022_02_18_123 2
+      - _GB_英国_FMYC-2022_02_18_124 2
+      - _GB_英国_FMYC-2022_02_18_125 2
+      - _CA_加拿大_FMYC-2022_02_18_126 2
+      - _CA_加拿大_FMYC-2022_02_18_127 2
+      - _CA_加拿大_FMYC-2022_02_18_128 2
+      - _CA_加拿大_FMYC-2022_02_18_129 2
+      - _CA_加拿大_FMYC-2022_02_18_130 2
+      - _CA_加拿大_FMYC-2022_02_18_131 2
+      - _CA_加拿大_FMYC-2022_02_18_132 2
+      - _CA_加拿大_FMYC-2022_02_18_133 2
+      - _US_美国_FMYC-2022_02_18_134 2
+      - _CA_加拿大_FMYC-2022_02_18_135 2
+      - _US_美国_FMYC-2022_02_18_136 2
+      - _US_美国_FMYC-2022_02_18_137 2
+      - _US_美国_FMYC-2022_02_18_138 2
+      - _US_美国_FMYC-2022_02_18_139 2
+      - _US_美国_FMYC-2022_02_18_140 2
+      - _US_美国_FMYC-2022_02_18_141 2
+      - _US_美国_FMYC-2022_02_18_142 2
+      - _US_美国_FMYC-2022_02_18_143 2
+      - _US_美国_FMYC-2022_02_18_144 2
+      - _CN_中国_FMYC-2022_02_18_145 2
+      - _US_美国_FMYC-2022_02_18_146 2
+      - FMYC-2022_02_18_147 2
+      - FMYC-2022_02_18_148 2
+      - _US_美国_FMYC-2022_02_18_149 2
+      - _US_美国_FMYC-2022_02_18_150 2
+      - _US_美国_FMYC-2022_02_18_151 2
+      - FMYC-2022_02_18_152 2
+      - _US_美国_FMYC-2022_02_18_153 2
+      - _US_美国_FMYC-2022_02_18_154 2
+      - _US_美国_FMYC-2022_02_18_155 2
+      - _KR_韩国_FMYC-2022_02_18_156 2
+      - _US_美国_FMYC-2022_02_18_157 2
+      - _CA_加拿大_FMYC-2022_02_18_158 2
+      - _US_美国_FMYC-2022_02_18_159 2
+      - _GB_英国_FMYC-2022_02_18_160 2
+      - _GB_英国_FMYC-2022_02_18_161 2
+      - _CA_加拿大_FMYC-2022_02_18_162 2
+      - _CA_加拿大_FMYC-2022_02_18_163 2
+      - _CA_加拿大_FMYC-2022_02_18_164 2
+      - _CA_加拿大_FMYC-2022_02_18_165 2
+      - _GB_英国_FMYC-2022_02_18_166 2
+      - _US_美国_FMYC-2022_02_18_167 2
+      - _CA_加拿大_FMYC-2022_02_18_168 2
+      - _CA_加拿大_FMYC-2022_02_18_169 2
+      - _US_美国_FMYC-2022_02_18_170 2
+      - _CA_加拿大_FMYC-2022_02_18_171 2
+      - _GB_英国_FMYC-2022_02_18_172 2
+      - _GB_英国_FMYC-2022_02_18_173 2
+      - _CA_加拿大_FMYC-2022_02_18_174 2
+      - _CA_加拿大_FMYC-2022_02_18_175 2
+      - _CA_加拿大_FMYC-2022_02_18_176 2
+      - _CA_加拿大_FMYC-2022_02_18_177 2
+      - _CA_加拿大_FMYC-2022_02_18_178 2
+      - _US_美国_FMYC-2022_02_18_179 2
+      - _CA_加拿大_FMYC-2022_02_18_180 2
+      - _US_美国_FMYC-2022_02_18_181 2
+      - _US_美国_FMYC-2022_02_18_182 2
+      - _CA_加拿大_FMYC-2022_02_18_183 2
+      - _US_美国_FMYC-2022_02_18_184 2
+      - _CA_加拿大_FMYC-2022_02_18_185 2
+      - _GB_英国_FMYC-2022_02_18_186 2
+      - _US_美国_FMYC-2022_02_18_187 2
+      - _US_美国_FMYC-2022_02_18_188 2
+      - _GB_英国_FMYC-2022_02_18_189 2
+      - _US_美国_FMYC-2022_02_18_190 2
+      - _US_美国_FMYC-2022_02_18_191 2
+      - _CA_加拿大_FMYC-2022_02_18_192 2
+      - _US_美国_FMYC-2022_02_18_193 2
+      - _IN_印度_FMYC-2022_02_18_194 2
+      - _US_美国_FMYC-2022_02_18_195 2
+      - _US_美国_FMYC-2022_02_18_196 2
+      - _GB_英国_FMYC-2022_02_18_197 2
+      - _US_美国_FMYC-2022_02_18_198 2
+      - _US_美国_FMYC-2022_02_18_199 2
+      - _CA_加拿大_FMYC-2022_02_18_200 2
+      - _GB_英国_FMYC-2022_02_18_201 2
+      - _CA_加拿大_FMYC-2022_02_18_202 2
+      - _US_美国_FMYC-2022_02_18_203 2
+      - _US_美国_FMYC-2022_02_18_204 2
+      - _US_美国_FMYC-2022_02_18_205 2
+      - _US_美国_FMYC-2022_02_18_206 2
+      - _CA_加拿大_FMYC-2022_02_18_207 2
+      - _US_美国_FMYC-2022_02_18_208 2
+      - _US_美国_FMYC-2022_02_18_209 2
+      - _CA_加拿大_FMYC-2022_02_18_210 2
+      - _CA_加拿大_FMYC-2022_02_18_211 2
+      - _HK_香港_FMYC-2022_02_18_212 2
+      - _US_美国_FMYC-2022_02_18_213 2
+      - _US_美国_FMYC-2022_02_18_214 2
+      - _JP_日本_FMYC-2022_02_18_215 2
+      - _US_美国_FMYC-2022_02_18_216 2
+      - _HK_香港_FMYC-2022_02_18_217 2
+      - _US_美国_FMYC-2022_02_18_218 2
+      - _HK_香港_FMYC-2022_02_18_219 2
+      - _HK_香港_FMYC-2022_02_18_220 2
+      - _HK_香港_FMYC-2022_02_18_221 2
+      - _JP_日本_FMYC-2022_02_18_222 2
+      - _US_美国_FMYC-2022_02_18_223 2
+      - _US_美国_FMYC-2022_02_18_224 2
+      - _US_美国_FMYC-2022_02_18_225 2
+      - FMYC-2022_02_18_226 2
+      - _US_美国_FMYC-2022_02_18_227 2
+      - _US_美国_FMYC-2022_02_18_228 2
+      - _US_美国_FMYC-2022_02_18_229 2
+      - _US_美国_FMYC-2022_02_18_230 2
+      - FMYC-2022_02_18_231 2
+      - _US_美国_FMYC-2022_02_18_232 2
+      - _US_美国_FMYC-2022_02_18_233 2
+      - _US_美国_FMYC-2022_02_18_234 2
+      - _US_美国_FMYC-2022_02_18_235 2
+      - _US_美国_FMYC-2022_02_18_236 2
+      - _US_美国_FMYC-2022_02_18_237 2
+      - _GB_英国_FMYC-2022_02_18_238 2
+      - _GB_英国_FMYC-2022_02_18_239 2
+      - _GB_英国_FMYC-2022_02_18_240 2
+      - _US_美国_FMYC-2022_02_18_241 2
+      - _US_美国_FMYC-2022_02_18_242 2
+      - _US_美国_FMYC-2022_02_18_243 2
+      - _US_美国_FMYC-2022_02_18_244 2
+      - _JP_日本_FMYC-2022_02_18_245 2
+      - _JP_日本_FMYC-2022_02_18_246 2
+      - _JP_日本_FMYC-2022_02_18_247 2
+      - _JP_日本_FMYC-2022_02_18_248 2
+      - _JP_日本_FMYC-2022_02_18_249 2
+      - _JP_日本_FMYC-2022_02_18_250 2
+      - _PT_葡萄牙_FMYC-2022_02_18_251 2
+      - _KR_韩国_FMYC-2022_02_18_252 2
+      - _KR_韩国_FMYC-2022_02_18_253 2
+      - _CN_中国_FMYC-2022_02_18_254 2
+      - _CN_中国_FMYC-2022_02_18_255 2
+      - _CN_中国_FMYC-2022_02_18_256 2
+      - _CN_中国_FMYC-2022_02_18_257 2
+      - _CN_中国_FMYC-2022_02_18_258 2
+      - _CN_中国_FMYC-2022_02_18_259 2
+      - _CN_中国_FMYC-2022_02_18_260 2
+      - _CN_中国_FMYC-2022_02_18_261 2
+      - _TW_台湾_FMYC-2022_02_18_262 2
+      - _CN_中国_FMYC-2022_02_18_263 2
+      - _JP_日本_FMYC-2022_02_18_264 2
+      - _KR_韩国_FMYC-2022_02_18_265 2
+      - _FR_法国_FMYC-2022_02_18_266 2
+      - _FR_法国_FMYC-2022_02_18_267 2
+      - _FR_法国_FMYC-2022_02_18_268 2
+      - _FR_法国_FMYC-2022_02_18_269 2
+      - _FR_法国_FMYC-2022_02_18_270 2
+      - _FR_法国_FMYC-2022_02_18_271 2
+      - _FR_法国_FMYC-2022_02_18_272 2
+      - _FR_法国_FMYC-2022_02_18_273 2
+      - _FR_法国_FMYC-2022_02_18_274 2
+      - _FR_法国_FMYC-2022_02_18_275 2
+      - _FR_法国_FMYC-2022_02_18_276 2
+      - _FR_法国_FMYC-2022_02_18_277 2
+      - _CN_中国_FMYC-2022_02_18_278 2
+      - _CN_中国_FMYC-2022_02_18_279 2
+      - _CN_中国_FMYC-2022_02_18_280 2
+      - _US_美国_FMYC-2022_02_18_281 2
+      - _GB_英国_FMYC-2022_02_18_282 2
+      - _CN_中国_FMYC-2022_02_18_283 2
+      - _CN_中国_FMYC-2022_02_18_284 2
+      - _CN_中国_FMYC-2022_02_18_285 2
+      - _HK_香港_FMYC-2022_02_18_286 2
+      - _HK_香港_FMYC-2022_02_18_287 2
       - 香港2-小浪浪分享
       - 香港3-小浪浪分享
       - 香港1-小浪浪分享
@@ -4241,55 +4735,15 @@ proxy-groups:
     interval: 300
     proxies:
       - _GB_英国_1
-      - _RU_俄罗斯联邦_2
-      - _CA_加拿大_3
-      - _GB_英国_4
-      - _GB_英国_5
-      - _JP_日本_6
-      - _GB_英国_7
-      - _FR_法国_8
-      - _US_美国_9
+      - _CA_加拿大_2
+      - _US_美国_3
+      - _CA_加拿大_4
+      - _US_美国_5
+      - _FR_法国_6
+      - _FR_法国_7
+      - _RU_俄罗斯联邦_8
+      - default_name_9
       - _GB_英国_10
-      - _FR_法国_11
-      - _US_美国_12
-      - _RU_俄罗斯联邦_13
-      - _GB_英国_14
-      - _CA_加拿大_15
-      - _US_美国_16
-      - _CA_加拿大_17
-      - _AU_澳大利亚_18
-      - _FR_法国_19
-      - _CA_加拿大_20
-      - _GB_英国_21
-      - _GB_英国_22
-      - _US_美国_23
-      - _CA_加拿大_24
-      - _DE_德国_25
-      - _GB_英国_26
-      - _US_美国_27
-      - _GB_英国_28
-      - _CA_加拿大_29
-      - _AU_澳大利亚_30
-      - _GB_英国_31
-      - _US_美国_32
-      - default_name_33
-      - default_name_34
-      - _GB_英国_35
-      - _CA_加拿大_36
-      - _CA_加拿大_37
-      - _US_美国_38
-      - _US_美国_39
-      - _CA_加拿大_40
-      - _FR_法国_41
-      - _CA_加拿大_42
-      - _US_美国_43
-      - _GB_英国_44
-      - _US_美国_45
-      - _CA_加拿大_46
-      - _US_美国_47
-      - _US_美国_48
-      - _CA_加拿大_49
-      - default_name_50
       - 法国(欢迎订阅Youtube破解资源君)
       - 法国(欢迎订阅Youtube破解资源君) 2
       - 法国(欢迎订阅Youtube破解资源君) 3
@@ -6225,6 +6679,293 @@ proxy-groups:
       - 广东省广州市腾讯云 44
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
+      - _HK_香港_FMYC-2022_02_18_1 2
+      - _RU_俄罗斯联邦_FMYC-2022_02_18_2 2
+      - _CZ_捷克_FMYC-2022_02_18_3 2
+      - _RU_俄罗斯联邦_FMYC-2022_02_18_4 2
+      - _CZ_捷克_FMYC-2022_02_18_5 2
+      - _RU_俄罗斯联邦_FMYC-2022_02_18_6 2
+      - _RU_俄罗斯联邦_FMYC-2022_02_18_7 2
+      - _US_美国_FMYC-2022_02_18_8 2
+      - _CA_加拿大_FMYC-2022_02_18_9 2
+      - _CA_加拿大_FMYC-2022_02_18_10 2
+      - _US_美国_FMYC-2022_02_18_11 2
+      - _CA_加拿大_FMYC-2022_02_18_12 2
+      - _CA_加拿大_FMYC-2022_02_18_13 2
+      - _CA_加拿大_FMYC-2022_02_18_14 2
+      - _CA_加拿大_FMYC-2022_02_18_15 2
+      - _CA_加拿大_FMYC-2022_02_18_16 2
+      - _CA_加拿大_FMYC-2022_02_18_17 2
+      - _CA_加拿大_FMYC-2022_02_18_18 2
+      - _CA_加拿大_FMYC-2022_02_18_19 2
+      - _CA_加拿大_FMYC-2022_02_18_20 2
+      - _CA_加拿大_FMYC-2022_02_18_21 2
+      - _CA_加拿大_FMYC-2022_02_18_22 2
+      - _CA_加拿大_FMYC-2022_02_18_23 2
+      - _CA_加拿大_FMYC-2022_02_18_24 2
+      - _CA_加拿大_FMYC-2022_02_18_25 2
+      - _CA_加拿大_FMYC-2022_02_18_26 2
+      - _CA_加拿大_FMYC-2022_02_18_27 2
+      - _CA_加拿大_FMYC-2022_02_18_28 2
+      - _CA_加拿大_FMYC-2022_02_18_29 2
+      - _CA_加拿大_FMYC-2022_02_18_30 2
+      - _CA_加拿大_FMYC-2022_02_18_31 2
+      - _CA_加拿大_FMYC-2022_02_18_32 2
+      - _HK_香港_FMYC-2022_02_18_33 2
+      - _IN_印度_FMYC-2022_02_18_34 2
+      - _FR_法国_FMYC-2022_02_18_35 2
+      - _FR_法国_FMYC-2022_02_18_36 2
+      - _FR_法国_FMYC-2022_02_18_37 2
+      - _FR_法国_FMYC-2022_02_18_38 2
+      - _FR_法国_FMYC-2022_02_18_39 2
+      - _FR_法国_FMYC-2022_02_18_40 2
+      - _FR_法国_FMYC-2022_02_18_41 2
+      - _FR_法国_FMYC-2022_02_18_42 2
+      - _DE_德国_FMYC-2022_02_18_43 2
+      - _FR_法国_FMYC-2022_02_18_44 2
+      - _SG_新加坡_FMYC-2022_02_18_45 2
+      - _SG_新加坡_FMYC-2022_02_18_46 2
+      - _SG_新加坡_FMYC-2022_02_18_47 2
+      - _JP_日本_FMYC-2022_02_18_48 2
+      - _SG_新加坡_FMYC-2022_02_18_49 2
+      - _AU_澳大利亚_FMYC-2022_02_18_50 2
+      - _JP_日本_FMYC-2022_02_18_51 2
+      - _KR_韩国_FMYC-2022_02_18_52 2
+      - _KR_韩国_FMYC-2022_02_18_53 2
+      - _KR_韩国_FMYC-2022_02_18_54 2
+      - _KR_韩国_FMYC-2022_02_18_55 2
+      - _AU_澳大利亚_FMYC-2022_02_18_56 2
+      - _US_美国_FMYC-2022_02_18_57 2
+      - _BE_比利时_FMYC-2022_02_18_58 2
+      - _FR_法国_FMYC-2022_02_18_59 2
+      - _FR_法国_FMYC-2022_02_18_60 2
+      - _FR_法国_FMYC-2022_02_18_61 2
+      - _FR_法国_FMYC-2022_02_18_62 2
+      - _FR_法国_FMYC-2022_02_18_63 2
+      - _FR_法国_FMYC-2022_02_18_64 2
+      - _FR_法国_FMYC-2022_02_18_65 2
+      - _FR_法国_FMYC-2022_02_18_66 2
+      - _AU_澳大利亚_FMYC-2022_02_18_67 2
+      - _AU_澳大利亚_FMYC-2022_02_18_68 2
+      - _AU_澳大利亚_FMYC-2022_02_18_69 2
+      - _AU_澳大利亚_FMYC-2022_02_18_70 2
+      - _AU_澳大利亚_FMYC-2022_02_18_71 2
+      - _AU_澳大利亚_FMYC-2022_02_18_72 2
+      - _AU_澳大利亚_FMYC-2022_02_18_73 2
+      - _SE_瑞典_FMYC-2022_02_18_74 2
+      - _US_美国_FMYC-2022_02_18_75 2
+      - _US_美国_FMYC-2022_02_18_76 2
+      - _US_美国_FMYC-2022_02_18_77 2
+      - _US_美国_FMYC-2022_02_18_78 2
+      - _US_美国_FMYC-2022_02_18_79 2
+      - _US_美国_FMYC-2022_02_18_80 2
+      - _US_美国_FMYC-2022_02_18_81 2
+      - _US_美国_FMYC-2022_02_18_82 2
+      - _US_美国_FMYC-2022_02_18_83 2
+      - FMYC-2022_02_18_84 2
+      - _US_美国_FMYC-2022_02_18_85 2
+      - _US_美国_FMYC-2022_02_18_86 2
+      - _US_美国_FMYC-2022_02_18_87 2
+      - FMYC-2022_02_18_88 2
+      - _US_美国_FMYC-2022_02_18_89 2
+      - _US_美国_FMYC-2022_02_18_90 2
+      - _US_美国_FMYC-2022_02_18_91 2
+      - _US_美国_FMYC-2022_02_18_92 2
+      - _US_美国_FMYC-2022_02_18_93 2
+      - _US_美国_FMYC-2022_02_18_94 2
+      - _IN_印度_FMYC-2022_02_18_95 2
+      - _IN_印度_FMYC-2022_02_18_96 2
+      - _CA_加拿大_FMYC-2022_02_18_97 2
+      - _US_美国_FMYC-2022_02_18_98 2
+      - _US_美国_FMYC-2022_02_18_99 2
+      - _US_美国_FMYC-2022_02_18_100 2
+      - _US_美国_FMYC-2022_02_18_101 2
+      - _US_美国_FMYC-2022_02_18_102 2
+      - _US_美国_FMYC-2022_02_18_103 2
+      - _US_美国_FMYC-2022_02_18_104 2
+      - _US_美国_FMYC-2022_02_18_105 2
+      - _US_美国_FMYC-2022_02_18_106 2
+      - _US_美国_FMYC-2022_02_18_107 2
+      - _GB_英国_FMYC-2022_02_18_108 2
+      - _IN_印度_FMYC-2022_02_18_109 2
+      - _GB_英国_FMYC-2022_02_18_110 2
+      - _US_美国_FMYC-2022_02_18_111 2
+      - _US_美国_FMYC-2022_02_18_112 2
+      - _US_美国_FMYC-2022_02_18_113 2
+      - _GB_英国_FMYC-2022_02_18_114 2
+      - _US_美国_FMYC-2022_02_18_115 2
+      - _US_美国_FMYC-2022_02_18_116 2
+      - _US_美国_FMYC-2022_02_18_117 2
+      - _GB_英国_FMYC-2022_02_18_118 2
+      - _US_美国_FMYC-2022_02_18_119 2
+      - _US_美国_FMYC-2022_02_18_120 2
+      - _US_美国_FMYC-2022_02_18_121 2
+      - _US_美国_FMYC-2022_02_18_122 2
+      - _GB_英国_FMYC-2022_02_18_123 2
+      - _GB_英国_FMYC-2022_02_18_124 2
+      - _GB_英国_FMYC-2022_02_18_125 2
+      - _CA_加拿大_FMYC-2022_02_18_126 2
+      - _CA_加拿大_FMYC-2022_02_18_127 2
+      - _CA_加拿大_FMYC-2022_02_18_128 2
+      - _CA_加拿大_FMYC-2022_02_18_129 2
+      - _CA_加拿大_FMYC-2022_02_18_130 2
+      - _CA_加拿大_FMYC-2022_02_18_131 2
+      - _CA_加拿大_FMYC-2022_02_18_132 2
+      - _CA_加拿大_FMYC-2022_02_18_133 2
+      - _US_美国_FMYC-2022_02_18_134 2
+      - _CA_加拿大_FMYC-2022_02_18_135 2
+      - _US_美国_FMYC-2022_02_18_136 2
+      - _US_美国_FMYC-2022_02_18_137 2
+      - _US_美国_FMYC-2022_02_18_138 2
+      - _US_美国_FMYC-2022_02_18_139 2
+      - _US_美国_FMYC-2022_02_18_140 2
+      - _US_美国_FMYC-2022_02_18_141 2
+      - _US_美国_FMYC-2022_02_18_142 2
+      - _US_美国_FMYC-2022_02_18_143 2
+      - _US_美国_FMYC-2022_02_18_144 2
+      - _CN_中国_FMYC-2022_02_18_145 2
+      - _US_美国_FMYC-2022_02_18_146 2
+      - FMYC-2022_02_18_147 2
+      - FMYC-2022_02_18_148 2
+      - _US_美国_FMYC-2022_02_18_149 2
+      - _US_美国_FMYC-2022_02_18_150 2
+      - _US_美国_FMYC-2022_02_18_151 2
+      - FMYC-2022_02_18_152 2
+      - _US_美国_FMYC-2022_02_18_153 2
+      - _US_美国_FMYC-2022_02_18_154 2
+      - _US_美国_FMYC-2022_02_18_155 2
+      - _KR_韩国_FMYC-2022_02_18_156 2
+      - _US_美国_FMYC-2022_02_18_157 2
+      - _CA_加拿大_FMYC-2022_02_18_158 2
+      - _US_美国_FMYC-2022_02_18_159 2
+      - _GB_英国_FMYC-2022_02_18_160 2
+      - _GB_英国_FMYC-2022_02_18_161 2
+      - _CA_加拿大_FMYC-2022_02_18_162 2
+      - _CA_加拿大_FMYC-2022_02_18_163 2
+      - _CA_加拿大_FMYC-2022_02_18_164 2
+      - _CA_加拿大_FMYC-2022_02_18_165 2
+      - _GB_英国_FMYC-2022_02_18_166 2
+      - _US_美国_FMYC-2022_02_18_167 2
+      - _CA_加拿大_FMYC-2022_02_18_168 2
+      - _CA_加拿大_FMYC-2022_02_18_169 2
+      - _US_美国_FMYC-2022_02_18_170 2
+      - _CA_加拿大_FMYC-2022_02_18_171 2
+      - _GB_英国_FMYC-2022_02_18_172 2
+      - _GB_英国_FMYC-2022_02_18_173 2
+      - _CA_加拿大_FMYC-2022_02_18_174 2
+      - _CA_加拿大_FMYC-2022_02_18_175 2
+      - _CA_加拿大_FMYC-2022_02_18_176 2
+      - _CA_加拿大_FMYC-2022_02_18_177 2
+      - _CA_加拿大_FMYC-2022_02_18_178 2
+      - _US_美国_FMYC-2022_02_18_179 2
+      - _CA_加拿大_FMYC-2022_02_18_180 2
+      - _US_美国_FMYC-2022_02_18_181 2
+      - _US_美国_FMYC-2022_02_18_182 2
+      - _CA_加拿大_FMYC-2022_02_18_183 2
+      - _US_美国_FMYC-2022_02_18_184 2
+      - _CA_加拿大_FMYC-2022_02_18_185 2
+      - _GB_英国_FMYC-2022_02_18_186 2
+      - _US_美国_FMYC-2022_02_18_187 2
+      - _US_美国_FMYC-2022_02_18_188 2
+      - _GB_英国_FMYC-2022_02_18_189 2
+      - _US_美国_FMYC-2022_02_18_190 2
+      - _US_美国_FMYC-2022_02_18_191 2
+      - _CA_加拿大_FMYC-2022_02_18_192 2
+      - _US_美国_FMYC-2022_02_18_193 2
+      - _IN_印度_FMYC-2022_02_18_194 2
+      - _US_美国_FMYC-2022_02_18_195 2
+      - _US_美国_FMYC-2022_02_18_196 2
+      - _GB_英国_FMYC-2022_02_18_197 2
+      - _US_美国_FMYC-2022_02_18_198 2
+      - _US_美国_FMYC-2022_02_18_199 2
+      - _CA_加拿大_FMYC-2022_02_18_200 2
+      - _GB_英国_FMYC-2022_02_18_201 2
+      - _CA_加拿大_FMYC-2022_02_18_202 2
+      - _US_美国_FMYC-2022_02_18_203 2
+      - _US_美国_FMYC-2022_02_18_204 2
+      - _US_美国_FMYC-2022_02_18_205 2
+      - _US_美国_FMYC-2022_02_18_206 2
+      - _CA_加拿大_FMYC-2022_02_18_207 2
+      - _US_美国_FMYC-2022_02_18_208 2
+      - _US_美国_FMYC-2022_02_18_209 2
+      - _CA_加拿大_FMYC-2022_02_18_210 2
+      - _CA_加拿大_FMYC-2022_02_18_211 2
+      - _HK_香港_FMYC-2022_02_18_212 2
+      - _US_美国_FMYC-2022_02_18_213 2
+      - _US_美国_FMYC-2022_02_18_214 2
+      - _JP_日本_FMYC-2022_02_18_215 2
+      - _US_美国_FMYC-2022_02_18_216 2
+      - _HK_香港_FMYC-2022_02_18_217 2
+      - _US_美国_FMYC-2022_02_18_218 2
+      - _HK_香港_FMYC-2022_02_18_219 2
+      - _HK_香港_FMYC-2022_02_18_220 2
+      - _HK_香港_FMYC-2022_02_18_221 2
+      - _JP_日本_FMYC-2022_02_18_222 2
+      - _US_美国_FMYC-2022_02_18_223 2
+      - _US_美国_FMYC-2022_02_18_224 2
+      - _US_美国_FMYC-2022_02_18_225 2
+      - FMYC-2022_02_18_226 2
+      - _US_美国_FMYC-2022_02_18_227 2
+      - _US_美国_FMYC-2022_02_18_228 2
+      - _US_美国_FMYC-2022_02_18_229 2
+      - _US_美国_FMYC-2022_02_18_230 2
+      - FMYC-2022_02_18_231 2
+      - _US_美国_FMYC-2022_02_18_232 2
+      - _US_美国_FMYC-2022_02_18_233 2
+      - _US_美国_FMYC-2022_02_18_234 2
+      - _US_美国_FMYC-2022_02_18_235 2
+      - _US_美国_FMYC-2022_02_18_236 2
+      - _US_美国_FMYC-2022_02_18_237 2
+      - _GB_英国_FMYC-2022_02_18_238 2
+      - _GB_英国_FMYC-2022_02_18_239 2
+      - _GB_英国_FMYC-2022_02_18_240 2
+      - _US_美国_FMYC-2022_02_18_241 2
+      - _US_美国_FMYC-2022_02_18_242 2
+      - _US_美国_FMYC-2022_02_18_243 2
+      - _US_美国_FMYC-2022_02_18_244 2
+      - _JP_日本_FMYC-2022_02_18_245 2
+      - _JP_日本_FMYC-2022_02_18_246 2
+      - _JP_日本_FMYC-2022_02_18_247 2
+      - _JP_日本_FMYC-2022_02_18_248 2
+      - _JP_日本_FMYC-2022_02_18_249 2
+      - _JP_日本_FMYC-2022_02_18_250 2
+      - _PT_葡萄牙_FMYC-2022_02_18_251 2
+      - _KR_韩国_FMYC-2022_02_18_252 2
+      - _KR_韩国_FMYC-2022_02_18_253 2
+      - _CN_中国_FMYC-2022_02_18_254 2
+      - _CN_中国_FMYC-2022_02_18_255 2
+      - _CN_中国_FMYC-2022_02_18_256 2
+      - _CN_中国_FMYC-2022_02_18_257 2
+      - _CN_中国_FMYC-2022_02_18_258 2
+      - _CN_中国_FMYC-2022_02_18_259 2
+      - _CN_中国_FMYC-2022_02_18_260 2
+      - _CN_中国_FMYC-2022_02_18_261 2
+      - _TW_台湾_FMYC-2022_02_18_262 2
+      - _CN_中国_FMYC-2022_02_18_263 2
+      - _JP_日本_FMYC-2022_02_18_264 2
+      - _KR_韩国_FMYC-2022_02_18_265 2
+      - _FR_法国_FMYC-2022_02_18_266 2
+      - _FR_法国_FMYC-2022_02_18_267 2
+      - _FR_法国_FMYC-2022_02_18_268 2
+      - _FR_法国_FMYC-2022_02_18_269 2
+      - _FR_法国_FMYC-2022_02_18_270 2
+      - _FR_法国_FMYC-2022_02_18_271 2
+      - _FR_法国_FMYC-2022_02_18_272 2
+      - _FR_法国_FMYC-2022_02_18_273 2
+      - _FR_法国_FMYC-2022_02_18_274 2
+      - _FR_法国_FMYC-2022_02_18_275 2
+      - _FR_法国_FMYC-2022_02_18_276 2
+      - _FR_法国_FMYC-2022_02_18_277 2
+      - _CN_中国_FMYC-2022_02_18_278 2
+      - _CN_中国_FMYC-2022_02_18_279 2
+      - _CN_中国_FMYC-2022_02_18_280 2
+      - _US_美国_FMYC-2022_02_18_281 2
+      - _GB_英国_FMYC-2022_02_18_282 2
+      - _CN_中国_FMYC-2022_02_18_283 2
+      - _CN_中国_FMYC-2022_02_18_284 2
+      - _CN_中国_FMYC-2022_02_18_285 2
+      - _HK_香港_FMYC-2022_02_18_286 2
+      - _HK_香港_FMYC-2022_02_18_287 2
       - 香港2-小浪浪分享
       - 香港3-小浪浪分享
       - 香港1-小浪浪分享
@@ -6591,6 +7332,15 @@ proxy-groups:
       - 香港∞直连 2
       - 香港∞直连 3
       - 香港∞直连 4
+      - _HK_香港_FMYC-2022_02_18_1 2
+      - _HK_香港_FMYC-2022_02_18_33 2
+      - _HK_香港_FMYC-2022_02_18_212 2
+      - _HK_香港_FMYC-2022_02_18_217 2
+      - _HK_香港_FMYC-2022_02_18_219 2
+      - _HK_香港_FMYC-2022_02_18_220 2
+      - _HK_香港_FMYC-2022_02_18_221 2
+      - _HK_香港_FMYC-2022_02_18_286 2
+      - _HK_香港_FMYC-2022_02_18_287 2
       - 香港2-小浪浪分享
       - 香港3-小浪浪分享
       - 香港1-小浪浪分享
@@ -6632,7 +7382,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _JP_日本_6
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
       - 日本（YouTube资源分享者） 3
@@ -6702,6 +7451,17 @@ proxy-groups:
       - 日本∞直连 4
       - 日本∞直连 5
       - 日本∞直连 6
+      - _JP_日本_FMYC-2022_02_18_48 2
+      - _JP_日本_FMYC-2022_02_18_51 2
+      - _JP_日本_FMYC-2022_02_18_215 2
+      - _JP_日本_FMYC-2022_02_18_222 2
+      - _JP_日本_FMYC-2022_02_18_245 2
+      - _JP_日本_FMYC-2022_02_18_246 2
+      - _JP_日本_FMYC-2022_02_18_247 2
+      - _JP_日本_FMYC-2022_02_18_248 2
+      - _JP_日本_FMYC-2022_02_18_249 2
+      - _JP_日本_FMYC-2022_02_18_250 2
+      - _JP_日本_FMYC-2022_02_18_264 2
       - 日本-中继-10(CNRelay Japan10)
       - 日本-中继-09(CNRelay Japan09)
       - 日本-中继-03(CNRelay Japan03)
@@ -6716,18 +7476,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_9
-      - _US_美国_12
-      - _US_美国_16
-      - _US_美国_23
-      - _US_美国_27
-      - _US_美国_32
-      - _US_美国_38
-      - _US_美国_39
-      - _US_美国_43
-      - _US_美国_45
-      - _US_美国_47
-      - _US_美国_48
+      - _US_美国_3
+      - _US_美国_5
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -7286,6 +8036,109 @@ proxy-groups:
       - github.com/freefq - 美国  22
       - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 23
       - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 34
+      - _US_美国_FMYC-2022_02_18_8 2
+      - _US_美国_FMYC-2022_02_18_11 2
+      - _US_美国_FMYC-2022_02_18_57 2
+      - _US_美国_FMYC-2022_02_18_75 2
+      - _US_美国_FMYC-2022_02_18_76 2
+      - _US_美国_FMYC-2022_02_18_77 2
+      - _US_美国_FMYC-2022_02_18_78 2
+      - _US_美国_FMYC-2022_02_18_79 2
+      - _US_美国_FMYC-2022_02_18_80 2
+      - _US_美国_FMYC-2022_02_18_81 2
+      - _US_美国_FMYC-2022_02_18_82 2
+      - _US_美国_FMYC-2022_02_18_83 2
+      - _US_美国_FMYC-2022_02_18_85 2
+      - _US_美国_FMYC-2022_02_18_86 2
+      - _US_美国_FMYC-2022_02_18_87 2
+      - _US_美国_FMYC-2022_02_18_89 2
+      - _US_美国_FMYC-2022_02_18_90 2
+      - _US_美国_FMYC-2022_02_18_91 2
+      - _US_美国_FMYC-2022_02_18_92 2
+      - _US_美国_FMYC-2022_02_18_93 2
+      - _US_美国_FMYC-2022_02_18_94 2
+      - _US_美国_FMYC-2022_02_18_98 2
+      - _US_美国_FMYC-2022_02_18_99 2
+      - _US_美国_FMYC-2022_02_18_100 2
+      - _US_美国_FMYC-2022_02_18_101 2
+      - _US_美国_FMYC-2022_02_18_102 2
+      - _US_美国_FMYC-2022_02_18_103 2
+      - _US_美国_FMYC-2022_02_18_104 2
+      - _US_美国_FMYC-2022_02_18_105 2
+      - _US_美国_FMYC-2022_02_18_106 2
+      - _US_美国_FMYC-2022_02_18_107 2
+      - _US_美国_FMYC-2022_02_18_111 2
+      - _US_美国_FMYC-2022_02_18_112 2
+      - _US_美国_FMYC-2022_02_18_113 2
+      - _US_美国_FMYC-2022_02_18_115 2
+      - _US_美国_FMYC-2022_02_18_116 2
+      - _US_美国_FMYC-2022_02_18_117 2
+      - _US_美国_FMYC-2022_02_18_119 2
+      - _US_美国_FMYC-2022_02_18_120 2
+      - _US_美国_FMYC-2022_02_18_121 2
+      - _US_美国_FMYC-2022_02_18_122 2
+      - _US_美国_FMYC-2022_02_18_134 2
+      - _US_美国_FMYC-2022_02_18_136 2
+      - _US_美国_FMYC-2022_02_18_137 2
+      - _US_美国_FMYC-2022_02_18_138 2
+      - _US_美国_FMYC-2022_02_18_139 2
+      - _US_美国_FMYC-2022_02_18_140 2
+      - _US_美国_FMYC-2022_02_18_141 2
+      - _US_美国_FMYC-2022_02_18_142 2
+      - _US_美国_FMYC-2022_02_18_143 2
+      - _US_美国_FMYC-2022_02_18_144 2
+      - _US_美国_FMYC-2022_02_18_146 2
+      - _US_美国_FMYC-2022_02_18_149 2
+      - _US_美国_FMYC-2022_02_18_150 2
+      - _US_美国_FMYC-2022_02_18_151 2
+      - _US_美国_FMYC-2022_02_18_153 2
+      - _US_美国_FMYC-2022_02_18_154 2
+      - _US_美国_FMYC-2022_02_18_155 2
+      - _US_美国_FMYC-2022_02_18_157 2
+      - _US_美国_FMYC-2022_02_18_159 2
+      - _US_美国_FMYC-2022_02_18_167 2
+      - _US_美国_FMYC-2022_02_18_170 2
+      - _US_美国_FMYC-2022_02_18_179 2
+      - _US_美国_FMYC-2022_02_18_181 2
+      - _US_美国_FMYC-2022_02_18_182 2
+      - _US_美国_FMYC-2022_02_18_184 2
+      - _US_美国_FMYC-2022_02_18_187 2
+      - _US_美国_FMYC-2022_02_18_188 2
+      - _US_美国_FMYC-2022_02_18_190 2
+      - _US_美国_FMYC-2022_02_18_191 2
+      - _US_美国_FMYC-2022_02_18_193 2
+      - _US_美国_FMYC-2022_02_18_195 2
+      - _US_美国_FMYC-2022_02_18_196 2
+      - _US_美国_FMYC-2022_02_18_198 2
+      - _US_美国_FMYC-2022_02_18_199 2
+      - _US_美国_FMYC-2022_02_18_203 2
+      - _US_美国_FMYC-2022_02_18_204 2
+      - _US_美国_FMYC-2022_02_18_205 2
+      - _US_美国_FMYC-2022_02_18_206 2
+      - _US_美国_FMYC-2022_02_18_208 2
+      - _US_美国_FMYC-2022_02_18_209 2
+      - _US_美国_FMYC-2022_02_18_213 2
+      - _US_美国_FMYC-2022_02_18_214 2
+      - _US_美国_FMYC-2022_02_18_216 2
+      - _US_美国_FMYC-2022_02_18_218 2
+      - _US_美国_FMYC-2022_02_18_223 2
+      - _US_美国_FMYC-2022_02_18_224 2
+      - _US_美国_FMYC-2022_02_18_225 2
+      - _US_美国_FMYC-2022_02_18_227 2
+      - _US_美国_FMYC-2022_02_18_228 2
+      - _US_美国_FMYC-2022_02_18_229 2
+      - _US_美国_FMYC-2022_02_18_230 2
+      - _US_美国_FMYC-2022_02_18_232 2
+      - _US_美国_FMYC-2022_02_18_233 2
+      - _US_美国_FMYC-2022_02_18_234 2
+      - _US_美国_FMYC-2022_02_18_235 2
+      - _US_美国_FMYC-2022_02_18_236 2
+      - _US_美国_FMYC-2022_02_18_237 2
+      - _US_美国_FMYC-2022_02_18_241 2
+      - _US_美国_FMYC-2022_02_18_242 2
+      - _US_美国_FMYC-2022_02_18_243 2
+      - _US_美国_FMYC-2022_02_18_244 2
+      - _US_美国_FMYC-2022_02_18_281 2
       - 美国[BGPA] 🚀[极速稳定]
       - 美国阿伟科技
       - IOS小火箭专用|美国 - 洛杉矶 -9 [CC] [IPLC]
@@ -7328,6 +8181,7 @@ proxy-groups:
       - 台湾∞中转 3
       - 台湾∞直连
       - 台湾∞直连 2
+      - _TW_台湾_FMYC-2022_02_18_262 2
       - 台湾∞中转 4
       - 台灣
       - 台湾_R_337
@@ -7367,6 +8221,10 @@ proxy-groups:
       - _SG_新加坡_FMYC-2022.02.18_49
       - 新加坡∞中转
       - github.com/freefq - 新加坡Digital Ocean数据中心 19
+      - _SG_新加坡_FMYC-2022_02_18_45 2
+      - _SG_新加坡_FMYC-2022_02_18_46 2
+      - _SG_新加坡_FMYC-2022_02_18_47 2
+      - _SG_新加坡_FMYC-2022_02_18_49 2
       - 新加坡伟科技@TG/油管
       - IOS小火箭专用|新加坡1 [IPLC]
       - IOS小火箭专用|新加坡 -8 [IPLC]
@@ -7434,6 +8292,14 @@ proxy-groups:
       - "@SSRSUB-首尔V07-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-首尔V17-付费推荐::suo.yt/ssrsub 2"
       - 日韩频道 t.me/shoucangav
+      - _KR_韩国_FMYC-2022_02_18_52 2
+      - _KR_韩国_FMYC-2022_02_18_53 2
+      - _KR_韩国_FMYC-2022_02_18_54 2
+      - _KR_韩国_FMYC-2022_02_18_55 2
+      - _KR_韩国_FMYC-2022_02_18_156 2
+      - _KR_韩国_FMYC-2022_02_18_252 2
+      - _KR_韩国_FMYC-2022_02_18_253 2
+      - _KR_韩国_FMYC-2022_02_18_265 2
       - IOS小火箭专用|韩国 - 首尔 -40 [IPLC]
       - 韩国(首尔) 🚀[极速稳定]
       - "[VIP]韩国3|华中入口|1x"
