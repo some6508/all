@@ -1649,44 +1649,104 @@ proxies:
   - {name: "@SSRSUB-俄罗斯V20-付费推荐::suo.yt/ssrsub 2", server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 21627f29-0d0f-4dfa-9740-b5ee360bf061, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v9.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-春川V21-付费推荐::suo.yt/ssrsub 2", server: v10.ssrsub.com, port: 166, type: vmess, uuid: 21627f29-0d0f-4dfa-9740-b5ee360bf061, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v10.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub 2", server: v11.ssrsub.com, port: 166, type: vmess, uuid: 21627f29-0d0f-4dfa-9740-b5ee360bf061, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v11.ssrsub.com}}, udp: true}
-  - {name: 2022-02-18, server: 111.28.3.117, port: 60009, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 111.28.3.117}}, udp: true}
-  - {name: 导航频道 TG@TBBAD, server: 183.232.56.161, port: 1101, type: vmess, uuid: 7ff41058-b662-3352-9e7f-643ef2d78344, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
-  - {name: 白嫖群组 TG@freeyule, server: ddns02.r8o8c8k.xyz, port: 65001, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: ddns02.r8o8c8k.xyz}}, udp: true}
-  - {name: 中国∞直连, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
-  - {name: 加拿大∞中转, server: ddns02.r8o8c8k.xyz, port: 65016, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: ddns02.r8o8c8k.xyz}}, udp: true}
+  - {name: 2022-02-19, server: 3.vpnbro.ml, port: 9999, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, skip-cert-verify: true, udp: true}
+  - {name: 导航频道 t.me/TBBAD, server: 5.vpnbro.ml, port: 6666, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, skip-cert-verify: true, udp: true}
+  - {name: 国产频道 t.me/TBBAC, server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 60189, type: trojan, password: SfobRIcergHchqBFzzua, skip-cert-verify: true, udp: true}
+  - {name: 精选频道 t.me/TBBAV, server: sh-hk-hgc-100m-tr.cdn.savoy.click, port: 20189, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, skip-cert-verify: true, udp: true}
+  - {name: 热播频道 t.me/TBBRB, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
+  - {name: 18AV频道 t.me/TBB18V, server: shonlinecu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
+  - {name: 爱污传媒 t.me/TBBAW, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
+  - {name: 91Po频道 t.me/TBB91P, server: shonlinesandcu03.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
+  - {name: 日韩频道 t.me/shoucangav, server: api.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: 中国∞中转, server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: UiLPqefVfielqkDjEwBV, skip-cert-verify: true, udp: true}
+  - {name: 中国∞直连, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: 中国∞直连 2, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: 中国∞直连 3, server: gz1.52168.xyz, port: 1107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: 中国∞直连 4, server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: SfobRIcergHchqBFzzua, skip-cert-verify: true, udp: true}
+  - {name: 中国∞直连 5, server: hk-hkg-shhk-001-tr.cdn.savoy.click, port: 20089, type: trojan, password: SfobRIcergHchqBFzzua, skip-cert-verify: true, udp: true}
+  - {name: 中国∞直连 6, server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: SfobRIcergHchqBFzzua, skip-cert-verify: true, udp: true}
+  - {name: 中国∞直连 7, server: mg04.nfeng6.pp.ua, port: 63083, type: vmess, uuid: 042250a0-5c14-3394-b57e-cf4970f5dcfc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn.bootcdn.net}}, udp: true}
+  - {name: 中国∞直连 8, server: mg04.nfeng6.pp.ua, port: 63088, type: vmess, uuid: 042250a0-5c14-3394-b57e-cf4970f5dcfc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: cdn.bootcdn.net}}, udp: true}
+  - {name: 中国∞直连 9, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: 中国∞直连 10, server: sh-hk-hgc-100m-tr.cdn.savoy.click, port: 20189, type: trojan, password: SfobRIcergHchqBFzzua, skip-cert-verify: true, udp: true}
+  - {name: 加拿大∞中转, server: ddns01.r8o8c8k.xyz, port: 65015, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: ddns01.r8o8c8k.xyz}}, udp: true}
   - {name: 印度∞中转, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 台湾∞中转, server: 117.28.243.154, port: 6145, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 台湾∞中转 2, server: 117.28.243.220, port: 8036, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 台湾∞中转 3, server: tw.v2ssvps.com, port: 60763, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: tw.v2ssvps.com}}, udp: true}
   - {name: 台湾∞直连, server: 2.58.242.43, port: 443, type: trojan, password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: true, udp: true}
   - {name: 台湾∞直连 2, server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: true, udp: true}
+  - {name: 德国∞中转, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 新加坡∞中转, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 日本∞中转, server: jp-am48-9.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3H2aN5Gnm, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 日本∞直连, server: tky3.ssgnode.ga, port: 443, type: trojan, password: bcYWVzLTI1Ni1nY206Q1VuZFNabll23115_5a451f03, skip-cert-verify: true, udp: true}
-  - {name: 法国∞直连, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 法国∞直连 2, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 日本∞中转 2, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: true, udp: true}
+  - {name: 日本∞中转 3, server: share.softbank.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, skip-cert-verify: true, udp: true}
+  - {name: 日本∞直连, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: 日本∞直连 2, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 日本∞直连 3, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82a115db-6e59-4319-9730-8f5638908d59YWVzLTI1Ni1nY2023115_5a451f03, skip-cert-verify: true, udp: true}
+  - {name: 日本∞直连 4, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 日本∞直连 5, server: tky3.ssgnode.ga, port: 443, type: trojan, password: bcYWVzLTI1Ni1nY206Q1VuZFNabll23115_5a451f03, skip-cert-verify: true, udp: true}
+  - {name: 日本∞直连 6, server: tky3.ssgnode.ga, port: 443, type: trojan, password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 法国∞直连, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 法国∞直连 2, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 法国∞直连 3, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 法国∞直连 4, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 法国∞直连 4, server: 149.202.82.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 法国∞直连 5, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 法国∞直连 6, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 法国∞直连 7, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 法国∞直连 8, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 法国∞直连 9, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 法国∞直连 10, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 法国∞直连 11, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 法国∞直连 12, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 法国∞直连 13, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 法国∞直连 14, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 澳门∞中转, server: 111.28.3.106, port: 60011, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 111.28.3.106}}, udp: true}
-  - {name: 美国∞中转, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 美国∞中转 2, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: 美国∞中转 3, server: vincent-jackson2021.ga, port: 443, type: trojan, password: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, skip-cert-verify: true, udp: true}
-  - {name: 美国∞直连, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国∞直连 2, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03, skip-cert-verify: true, udp: true}
-  - {name: 荷兰∞中转, server: gz2.52168.xyz, port: 2109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: 法国∞直连 6, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国∞直连 7, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 法国∞直连 8, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 法国∞直连 9, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 法国∞直连 10, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 法国∞直连 11, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 法国∞直连 12, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 法国∞直连 13, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 法国∞直连 14, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 法国∞直连 15, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 法国∞直连 16, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 法国∞直连 17, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 法国∞直连 18, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国∞直连 19, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 澳大利亚∞直连, server: hz.pbaplink.xyz, port: 47769, type: trojan, password: ad983854-167d-478f-88eb-5d494d3b2c24, skip-cert-verify: true, udp: true}
+  - {name: 美国∞中转, server: china-gzyd-1.forwardserver.xyz, port: 46514, type: vmess, uuid: cff50059-20ee-4a85-a284-05a83f9eaa55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国∞中转 2, server: china-gzyd-1.forwardserver.xyz, port: 47478, type: vmess, uuid: cff50059-20ee-4a85-a284-05a83f9eaa55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国∞中转 3, server: n178.centaur.network, port: 8082, type: trojan, password: 12d66073-1c21-45d7-b7e2-6b0ed7eed556, skip-cert-verify: true, udp: true}
+  - {name: 美国∞直连, server: 172.99.190.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国∞直连 2, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国∞直连 3, server: 172.99.190.39, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国∞直连 4, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国∞直连 5, server: 172.99.190.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国∞直连 6, server: 172.99.190.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国∞直连 7, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国∞直连 8, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国∞直连 9, server: 172.99.190.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国∞直连 10, server: 172.99.190.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国∞直连 11, server: 172.99.190.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国∞直连 12, server: 172.99.190.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国∞直连 13, server: 172.99.190.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国∞直连 14, server: 172.99.190.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国∞直连 15, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国∞直连 16, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国∞直连 17, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国∞直连 18, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国∞直连 19, server: 172.99.190.149, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国∞直连 20, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国∞直连 21, server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国∞直连 22, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国∞直连 23, server: 172.99.190.149, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国∞直连 24, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国∞直连 25, server: 172.99.190.205, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国∞直连 26, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国∞直连 27, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国∞直连 28, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国∞直连 29, server: 172.99.190.205, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国∞直连 30, server: 172.99.190.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国∞直连 31, server: azhk.relay.qchwnd.moe, port: 443, type: trojan, password: 52face98-c4cb-4299-aa38-9546085b0619, skip-cert-verify: true, udp: true}
+  - {name: 美国∞直连 32, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03, skip-cert-verify: true, udp: true}
   - {name: 菲律宾∞中转, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: 韩国∞中转, server: 111.28.3.106, port: 60017, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 111.28.3.106}}, udp: true}
-  - {name: 香港∞直连, server: api.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
-  - {name: 香港∞直连 2, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, skip-cert-verify: true, udp: true}
+  - {name: 香港∞直连, server: hk1.qtycloud.link, port: 1501, type: vmess, uuid: f6c5e143-fbb2-3cc2-8388-cb74a2e5854e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.qtycloud.link}}, udp: true}
+  - {name: 香港∞直连 2, server: hk1.tgsc.xyz, port: 443, type: trojan, password: PANABtOq, skip-cert-verify: true, udp: true}
+  - {name: 香港∞直连 3, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, skip-cert-verify: true, udp: true}
+  - {name: 香港∞直连 4, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, skip-cert-verify: true, udp: true}
   - {name: Ytb:鹏哥分享_中国_1, server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tsg, headers: {Host: fosyd.tuboshu.space}}, udp: true}
   - {name: Ytb:鹏哥分享_中国_2, server: 111.28.3.106, port: 60011, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 111.28.3.106}}, udp: true}
   - {name: Ytb:鹏哥分享_中国_3, server: 120.197.85.73, port: 2062, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
@@ -1919,7 +1979,7 @@ proxies:
   - {name: 日本-中继-03(CNRelay Japan03), server: cmrelay01.yiyorelay.xyz, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com, udp: true}
   - {name: 香港∞直连 2 2, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top, skip-cert-verify: true, udp: true}
   - {name: 菲律宾∞中转 2, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: 台湾∞中转 3, server: 117.28.243.154, port: 6145, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 台湾∞中转 4, server: 117.28.243.154, port: 6145, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 美国阿伟科技, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港阿伟科技 2, server: 95.wowogg.cyou, port: 52295, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港阿伟科技 6, server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -3690,19 +3750,44 @@ proxy-groups:
       - "@SSRSUB-俄罗斯V20-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-春川V21-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub 2"
-      - 2022-02-18
-      - 导航频道 TG@TBBAD
-      - 白嫖群组 TG@freeyule
+      - 2022-02-19
+      - 导航频道 t.me/TBBAD
+      - 国产频道 t.me/TBBAC
+      - 精选频道 t.me/TBBAV
+      - 热播频道 t.me/TBBRB
+      - 18AV频道 t.me/TBB18V
+      - 爱污传媒 t.me/TBBAW
+      - 91Po频道 t.me/TBB91P
+      - 日韩频道 t.me/shoucangav
+      - 中国∞中转
       - 中国∞直连
+      - 中国∞直连 2
+      - 中国∞直连 3
+      - 中国∞直连 4
+      - 中国∞直连 5
+      - 中国∞直连 6
+      - 中国∞直连 7
+      - 中国∞直连 8
+      - 中国∞直连 9
+      - 中国∞直连 10
       - 加拿大∞中转
       - 印度∞中转
       - 台湾∞中转
       - 台湾∞中转 2
+      - 台湾∞中转 3
       - 台湾∞直连
       - 台湾∞直连 2
+      - 德国∞中转
       - 新加坡∞中转
       - 日本∞中转
+      - 日本∞中转 2
+      - 日本∞中转 3
       - 日本∞直连
+      - 日本∞直连 2
+      - 日本∞直连 3
+      - 日本∞直连 4
+      - 日本∞直连 5
+      - 日本∞直连 6
       - 法国∞直连
       - 法国∞直连 2
       - 法国∞直连 3
@@ -3717,17 +3802,52 @@ proxy-groups:
       - 法国∞直连 12
       - 法国∞直连 13
       - 法国∞直连 14
-      - 澳门∞中转
+      - 法国∞直连 15
+      - 法国∞直连 16
+      - 法国∞直连 17
+      - 法国∞直连 18
+      - 法国∞直连 19
+      - 澳大利亚∞直连
       - 美国∞中转
       - 美国∞中转 2
       - 美国∞中转 3
       - 美国∞直连
       - 美国∞直连 2
-      - 荷兰∞中转
+      - 美国∞直连 3
+      - 美国∞直连 4
+      - 美国∞直连 5
+      - 美国∞直连 6
+      - 美国∞直连 7
+      - 美国∞直连 8
+      - 美国∞直连 9
+      - 美国∞直连 10
+      - 美国∞直连 11
+      - 美国∞直连 12
+      - 美国∞直连 13
+      - 美国∞直连 14
+      - 美国∞直连 15
+      - 美国∞直连 16
+      - 美国∞直连 17
+      - 美国∞直连 18
+      - 美国∞直连 19
+      - 美国∞直连 20
+      - 美国∞直连 21
+      - 美国∞直连 22
+      - 美国∞直连 23
+      - 美国∞直连 24
+      - 美国∞直连 25
+      - 美国∞直连 26
+      - 美国∞直连 27
+      - 美国∞直连 28
+      - 美国∞直连 29
+      - 美国∞直连 30
+      - 美国∞直连 31
+      - 美国∞直连 32
       - 菲律宾∞中转
-      - 韩国∞中转
       - 香港∞直连
       - 香港∞直连 2
+      - 香港∞直连 3
+      - 香港∞直连 4
       - Ytb:鹏哥分享_中国_1
       - Ytb:鹏哥分享_中国_2
       - Ytb:鹏哥分享_中国_3
@@ -3960,7 +4080,7 @@ proxy-groups:
       - 日本-中继-03(CNRelay Japan03)
       - 香港∞直连 2 2
       - 菲律宾∞中转 2
-      - 台湾∞中转 3
+      - 台湾∞中转 4
       - 美国阿伟科技
       - 香港阿伟科技 2
       - 香港阿伟科技 6
@@ -5720,19 +5840,44 @@ proxy-groups:
       - "@SSRSUB-俄罗斯V20-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-春川V21-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub 2"
-      - 2022-02-18
-      - 导航频道 TG@TBBAD
-      - 白嫖群组 TG@freeyule
+      - 2022-02-19
+      - 导航频道 t.me/TBBAD
+      - 国产频道 t.me/TBBAC
+      - 精选频道 t.me/TBBAV
+      - 热播频道 t.me/TBBRB
+      - 18AV频道 t.me/TBB18V
+      - 爱污传媒 t.me/TBBAW
+      - 91Po频道 t.me/TBB91P
+      - 日韩频道 t.me/shoucangav
+      - 中国∞中转
       - 中国∞直连
+      - 中国∞直连 2
+      - 中国∞直连 3
+      - 中国∞直连 4
+      - 中国∞直连 5
+      - 中国∞直连 6
+      - 中国∞直连 7
+      - 中国∞直连 8
+      - 中国∞直连 9
+      - 中国∞直连 10
       - 加拿大∞中转
       - 印度∞中转
       - 台湾∞中转
       - 台湾∞中转 2
+      - 台湾∞中转 3
       - 台湾∞直连
       - 台湾∞直连 2
+      - 德国∞中转
       - 新加坡∞中转
       - 日本∞中转
+      - 日本∞中转 2
+      - 日本∞中转 3
       - 日本∞直连
+      - 日本∞直连 2
+      - 日本∞直连 3
+      - 日本∞直连 4
+      - 日本∞直连 5
+      - 日本∞直连 6
       - 法国∞直连
       - 法国∞直连 2
       - 法国∞直连 3
@@ -5747,17 +5892,52 @@ proxy-groups:
       - 法国∞直连 12
       - 法国∞直连 13
       - 法国∞直连 14
-      - 澳门∞中转
+      - 法国∞直连 15
+      - 法国∞直连 16
+      - 法国∞直连 17
+      - 法国∞直连 18
+      - 法国∞直连 19
+      - 澳大利亚∞直连
       - 美国∞中转
       - 美国∞中转 2
       - 美国∞中转 3
       - 美国∞直连
       - 美国∞直连 2
-      - 荷兰∞中转
+      - 美国∞直连 3
+      - 美国∞直连 4
+      - 美国∞直连 5
+      - 美国∞直连 6
+      - 美国∞直连 7
+      - 美国∞直连 8
+      - 美国∞直连 9
+      - 美国∞直连 10
+      - 美国∞直连 11
+      - 美国∞直连 12
+      - 美国∞直连 13
+      - 美国∞直连 14
+      - 美国∞直连 15
+      - 美国∞直连 16
+      - 美国∞直连 17
+      - 美国∞直连 18
+      - 美国∞直连 19
+      - 美国∞直连 20
+      - 美国∞直连 21
+      - 美国∞直连 22
+      - 美国∞直连 23
+      - 美国∞直连 24
+      - 美国∞直连 25
+      - 美国∞直连 26
+      - 美国∞直连 27
+      - 美国∞直连 28
+      - 美国∞直连 29
+      - 美国∞直连 30
+      - 美国∞直连 31
+      - 美国∞直连 32
       - 菲律宾∞中转
-      - 韩国∞中转
       - 香港∞直连
       - 香港∞直连 2
+      - 香港∞直连 3
+      - 香港∞直连 4
       - Ytb:鹏哥分享_中国_1
       - Ytb:鹏哥分享_中国_2
       - Ytb:鹏哥分享_中国_3
@@ -5990,7 +6170,7 @@ proxy-groups:
       - 日本-中继-03(CNRelay Japan03)
       - 香港∞直连 2 2
       - 菲律宾∞中转 2
-      - 台湾∞中转 3
+      - 台湾∞中转 4
       - 美国阿伟科技
       - 香港阿伟科技 2
       - 香港阿伟科技 6
@@ -6346,6 +6526,8 @@ proxy-groups:
       - _HK_香港_FMYC-2022.02.18_287
       - 香港∞直连
       - 香港∞直连 2
+      - 香港∞直连 3
+      - 香港∞直连 4
       - 香港2-小浪浪分享
       - 香港3-小浪浪分享
       - 香港1-小浪浪分享
@@ -6445,7 +6627,14 @@ proxy-groups:
       - "@SSRSUB-大阪V15-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-东京V17-付费推荐::suo.yt/ssrsub 2"
       - 日本∞中转
+      - 日本∞中转 2
+      - 日本∞中转 3
       - 日本∞直连
+      - 日本∞直连 2
+      - 日本∞直连 3
+      - 日本∞直连 4
+      - 日本∞直连 5
+      - 日本∞直连 6
       - 日本-中继-10(CNRelay Japan10)
       - 日本-中继-09(CNRelay Japan09)
       - 日本-中继-03(CNRelay Japan03)
@@ -6926,6 +7115,36 @@ proxy-groups:
       - 美国∞中转 3
       - 美国∞直连
       - 美国∞直连 2
+      - 美国∞直连 3
+      - 美国∞直连 4
+      - 美国∞直连 5
+      - 美国∞直连 6
+      - 美国∞直连 7
+      - 美国∞直连 8
+      - 美国∞直连 9
+      - 美国∞直连 10
+      - 美国∞直连 11
+      - 美国∞直连 12
+      - 美国∞直连 13
+      - 美国∞直连 14
+      - 美国∞直连 15
+      - 美国∞直连 16
+      - 美国∞直连 17
+      - 美国∞直连 18
+      - 美国∞直连 19
+      - 美国∞直连 20
+      - 美国∞直连 21
+      - 美国∞直连 22
+      - 美国∞直连 23
+      - 美国∞直连 24
+      - 美国∞直连 25
+      - 美国∞直连 26
+      - 美国∞直连 27
+      - 美国∞直连 28
+      - 美国∞直连 29
+      - 美国∞直连 30
+      - 美国∞直连 31
+      - 美国∞直连 32
       - Ytb:鹏哥分享_美国_6
       - Ytb:鹏哥分享_美国_8
       - Ytb:鹏哥分享_美国_10
@@ -7023,9 +7242,10 @@ proxy-groups:
       - _TW_台湾_FMYC-2022.02.18_262
       - 台湾∞中转
       - 台湾∞中转 2
+      - 台湾∞中转 3
       - 台湾∞直连
       - 台湾∞直连 2
-      - 台湾∞中转 3
+      - 台湾∞中转 4
       - 台灣
       - 台湾_R_337
       - vpnpool-台北Hinet-dip
@@ -7132,7 +7352,7 @@ proxy-groups:
       - _KR_韩国_FMYC-2022.02.18_265
       - "@SSRSUB-首尔V11-付费推荐::suo.yt/ssrsub 2"
       - "@SSRSUB-首尔V22-付费推荐::suo.yt/ssrsub 2"
-      - 韩国∞中转
+      - 日韩频道 t.me/shoucangav
       - IOS小火箭专用|韩国 - 首尔 -40 [IPLC]
       - 韩国(首尔) 🚀[极速稳定]
       - "[VIP]韩国3|华中入口|1x"
