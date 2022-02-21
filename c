@@ -5,46 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇬🇧_GB_英国_1","server":"172.99.190.149","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"233v2_com_34_64_155_80","server":"34.64.155.80","port":50734,"type":"vmess","uuid":"85ee0306-057b-4132-b2df-f0ab338098bc","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"荷兰🇳🇱_2","server":"185.239.68.201","port":65446,"type":"vmess","uuid":"5be36837-eb59-4378-a1b0-1a835ccc8559","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"233v2_com_152_69_204_193","server":"152.69.204.193","port":33226,"type":"vmess","uuid":"cfee6a64-66c4-4a20-b193-3326ad7b4cc5","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"233v2_com_138_2_40_187","server":"138.2.40.187","port":21861,"type":"vmess","uuid":"6c9634c7-d410-4034-bea8-ef30b068cdf4","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇬🇧_GB_英国_1
+      - 233v2_com_34_64_155_80
+      - 荷兰🇳🇱_2
+      - 233v2_com_152_69_204_193
+      - 233v2_com_138_2_40_187
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧_GB_英国_1
+      - 233v2_com_34_64_155_80
+      - 荷兰🇳🇱_2
+      - 233v2_com_152_69_204_193
+      - 233v2_com_138_2_40_187
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
+      - 233v2_com_34_64_155_80
+      - 荷兰🇳🇱_2
+      - 233v2_com_152_69_204_193
+      - 233v2_com_138_2_40_187
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
+      - 233v2_com_34_64_155_80
+      - 荷兰🇳🇱_2
+      - 233v2_com_152_69_204_193
+      - 233v2_com_138_2_40_187
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇬🇧_GB_英国_1
+      - 233v2_com_34_64_155_80
+      - 荷兰🇳🇱_2
+      - 233v2_com_152_69_204_193
+      - 233v2_com_138_2_40_187
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
+      - 233v2_com_34_64_155_80
+      - 荷兰🇳🇱_2
+      - 233v2_com_152_69_204_193
+      - 233v2_com_138_2_40_187
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +88,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国_1
+      - 233v2_com_34_64_155_80
+      - 荷兰🇳🇱_2
+      - 233v2_com_152_69_204_193
+      - 233v2_com_138_2_40_187
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
