@@ -5,193 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇫🇷_FR法国_1","server":"92.243.24.68","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"bIS3QQFwFIm1"}
-  - {"name":"🇫🇷_FR法国_2","server":"51.255.66.185","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇫🇷_FR法国_3","server":"149.202.82.172","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇫🇷_FR法国_4","server":"149.202.82.172","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷_FR法国_5","server":"149.202.82.172","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇫🇷_FR法国_6","server":"149.202.82.172","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇫🇷_FR法国_7","server":"149.202.82.172","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇫🇷_FR法国_8","server":"149.202.82.172","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇫🇷_FR法国_9","server":"149.202.82.172","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷_FR法国_10","server":"149.202.82.172","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇫🇷_FR法国_11","server":"149.202.82.172","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇫🇷_FR法国_12","server":"149.202.82.172","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇫🇷_FR法国_13","server":"149.202.82.172","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇫🇷_FR法国_14","server":"149.202.82.172","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇫🇷_FR法国_15","server":"149.202.82.172","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇫🇷_FR法国_16","server":"149.202.82.172","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇫🇷_FR法国_17","server":"149.202.82.172","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇫🇷_FR法国_18","server":"149.202.82.172","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷_FR法国_19","server":"149.202.82.172","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇫🇷_FR法国_20","server":"149.202.82.172","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇫🇷_FR法国_21","server":"149.202.82.172","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇫🇷_FR法国_22","server":"149.202.82.172","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_1","server":"gy.xqcloud.net","port":31008,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"082e09b9-35a1-45af-914c-76bd6562228d"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇫🇷_FR法国_1
-      - 🇫🇷_FR法国_2
-      - 🇫🇷_FR法国_3
-      - 🇫🇷_FR法国_4
-      - 🇫🇷_FR法国_5
-      - 🇫🇷_FR法国_6
-      - 🇫🇷_FR法国_7
-      - 🇫🇷_FR法国_8
-      - 🇫🇷_FR法国_9
-      - 🇫🇷_FR法国_10
-      - 🇫🇷_FR法国_11
-      - 🇫🇷_FR法国_12
-      - 🇫🇷_FR法国_13
-      - 🇫🇷_FR法国_14
-      - 🇫🇷_FR法国_15
-      - 🇫🇷_FR法国_16
-      - 🇫🇷_FR法国_17
-      - 🇫🇷_FR法国_18
-      - 🇫🇷_FR法国_19
-      - 🇫🇷_FR法国_20
-      - 🇫🇷_FR法国_21
-      - 🇫🇷_FR法国_22
+      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷_FR法国_1
-      - 🇫🇷_FR法国_2
-      - 🇫🇷_FR法国_3
-      - 🇫🇷_FR法国_4
-      - 🇫🇷_FR法国_5
-      - 🇫🇷_FR法国_6
-      - 🇫🇷_FR法国_7
-      - 🇫🇷_FR法国_8
-      - 🇫🇷_FR法国_9
-      - 🇫🇷_FR法国_10
-      - 🇫🇷_FR法国_11
-      - 🇫🇷_FR法国_12
-      - 🇫🇷_FR法国_13
-      - 🇫🇷_FR法国_14
-      - 🇫🇷_FR法国_15
-      - 🇫🇷_FR法国_16
-      - 🇫🇷_FR法国_17
-      - 🇫🇷_FR法国_18
-      - 🇫🇷_FR法国_19
-      - 🇫🇷_FR法国_20
-      - 🇫🇷_FR法国_21
-      - 🇫🇷_FR法国_22
+      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇫🇷_FR法国_1
-      - 🇫🇷_FR法国_2
-      - 🇫🇷_FR法国_3
-      - 🇫🇷_FR法国_4
-      - 🇫🇷_FR法国_5
-      - 🇫🇷_FR法国_6
-      - 🇫🇷_FR法国_7
-      - 🇫🇷_FR法国_8
-      - 🇫🇷_FR法国_9
-      - 🇫🇷_FR法国_10
-      - 🇫🇷_FR法国_11
-      - 🇫🇷_FR法国_12
-      - 🇫🇷_FR法国_13
-      - 🇫🇷_FR法国_14
-      - 🇫🇷_FR法国_15
-      - 🇫🇷_FR法国_16
-      - 🇫🇷_FR法国_17
-      - 🇫🇷_FR法国_18
-      - 🇫🇷_FR法国_19
-      - 🇫🇷_FR法国_20
-      - 🇫🇷_FR法国_21
-      - 🇫🇷_FR法国_22
+      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷_FR法国_1
-      - 🇫🇷_FR法国_2
-      - 🇫🇷_FR法国_3
-      - 🇫🇷_FR法国_4
-      - 🇫🇷_FR法国_5
-      - 🇫🇷_FR法国_6
-      - 🇫🇷_FR法国_7
-      - 🇫🇷_FR法国_8
-      - 🇫🇷_FR法国_9
-      - 🇫🇷_FR法国_10
-      - 🇫🇷_FR法国_11
-      - 🇫🇷_FR法国_12
-      - 🇫🇷_FR法国_13
-      - 🇫🇷_FR法国_14
-      - 🇫🇷_FR法国_15
-      - 🇫🇷_FR法国_16
-      - 🇫🇷_FR法国_17
-      - 🇫🇷_FR法国_18
-      - 🇫🇷_FR法国_19
-      - 🇫🇷_FR法国_20
-      - 🇫🇷_FR法国_21
-      - 🇫🇷_FR法国_22
+      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇫🇷_FR法国_1
-      - 🇫🇷_FR法国_2
-      - 🇫🇷_FR法国_3
-      - 🇫🇷_FR法国_4
-      - 🇫🇷_FR法国_5
-      - 🇫🇷_FR法国_6
-      - 🇫🇷_FR法国_7
-      - 🇫🇷_FR法国_8
-      - 🇫🇷_FR法国_9
-      - 🇫🇷_FR法国_10
-      - 🇫🇷_FR法国_11
-      - 🇫🇷_FR法国_12
-      - 🇫🇷_FR法国_13
-      - 🇫🇷_FR法国_14
-      - 🇫🇷_FR法国_15
-      - 🇫🇷_FR法国_16
-      - 🇫🇷_FR法国_17
-      - 🇫🇷_FR法国_18
-      - 🇫🇷_FR法国_19
-      - 🇫🇷_FR法国_20
-      - 🇫🇷_FR法国_21
-      - 🇫🇷_FR法国_22
+      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷_FR法国_1
-      - 🇫🇷_FR法国_2
-      - 🇫🇷_FR法国_3
-      - 🇫🇷_FR法国_4
-      - 🇫🇷_FR法国_5
-      - 🇫🇷_FR法国_6
-      - 🇫🇷_FR法国_7
-      - 🇫🇷_FR法国_8
-      - 🇫🇷_FR法国_9
-      - 🇫🇷_FR法国_10
-      - 🇫🇷_FR法国_11
-      - 🇫🇷_FR法国_12
-      - 🇫🇷_FR法国_13
-      - 🇫🇷_FR法国_14
-      - 🇫🇷_FR法国_15
-      - 🇫🇷_FR法国_16
-      - 🇫🇷_FR法国_17
-      - 🇫🇷_FR法国_18
-      - 🇫🇷_FR法国_19
-      - 🇫🇷_FR法国_20
-      - 🇫🇷_FR法国_21
-      - 🇫🇷_FR法国_22
+      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -214,28 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷_FR法国_1
-      - 🇫🇷_FR法国_2
-      - 🇫🇷_FR法国_3
-      - 🇫🇷_FR法国_4
-      - 🇫🇷_FR法国_5
-      - 🇫🇷_FR法国_6
-      - 🇫🇷_FR法国_7
-      - 🇫🇷_FR法国_8
-      - 🇫🇷_FR法国_9
-      - 🇫🇷_FR法国_10
-      - 🇫🇷_FR法国_11
-      - 🇫🇷_FR法国_12
-      - 🇫🇷_FR法国_13
-      - 🇫🇷_FR法国_14
-      - 🇫🇷_FR法国_15
-      - 🇫🇷_FR法国_16
-      - 🇫🇷_FR法国_17
-      - 🇫🇷_FR法国_18
-      - 🇫🇷_FR法国_19
-      - 🇫🇷_FR法国_20
-      - 🇫🇷_FR法国_21
-      - 🇫🇷_FR法国_22
+      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
