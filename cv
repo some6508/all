@@ -739,16 +739,7 @@ proxies:
   - {name: 新加坡高速专线A1, server: 129.226.148.41, port: 8261, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 新加坡高速专线A2, server: 129.226.148.41, port: 8261, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 新加坡高速专线B2, server: 129.226.195.219, port: 8338, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: _HK_香港, server: v2.mumi.bid, port: 10123, type: vmess, uuid: 4924189e-9739-47be-9875-fe5c87e485ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2.mumi.bid}}, udp: true}
-  - {name: _HK_香港 2, server: v1.mumi.bid, port: 10122, type: vmess, uuid: c8c213ae-a922-4aa2-bc75-e2b529e05362, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v1.mumi.bid}}, udp: true}
-  - {name: _JP_日本, server: aws.jp.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: aws.jp.tgproxy.wtf}}, udp: true}
-  - {name: _US_美国, server: 169.197.142.238, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国 2, server: 169.197.142.238, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.200, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 3, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: us.lv.buyvm.tgproxy.wtf}}, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.200, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大 3, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 98b20eea-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}, udp: true}
+  - {name: _GB_英国, server: 172.99.190.188, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2143,16 +2134,7 @@ proxy-groups:
       - 新加坡高速专线A1
       - 新加坡高速专线A2
       - 新加坡高速专线B2
-      - _HK_香港
-      - _HK_香港 2
-      - _JP_日本
-      - _US_美国
-      - _US_美国 2
-      - _CA_加拿大
-      - _US_美国 3
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - _US_美国->🇳🇱_NL_荷兰
+      - _GB_英国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3536,16 +3518,7 @@ proxy-groups:
       - 新加坡高速专线A1
       - 新加坡高速专线A2
       - 新加坡高速专线B2
-      - _HK_香港
-      - _HK_香港 2
-      - _JP_日本
-      - _US_美国
-      - _US_美国 2
-      - _CA_加拿大
-      - _US_美国 3
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - _US_美国->🇳🇱_NL_荷兰
+      - _GB_英国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4397,8 +4370,6 @@ proxy-groups:
       - 香港极速专线C1
       - 香港极速专线B1
       - 香港高速专线H1
-      - _HK_香港
-      - _HK_香港 2
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -4489,7 +4460,6 @@ proxy-groups:
       - 日本高速专线F1
       - 日本极速专线C1
       - 日本极速专线D1
-      - _JP_日本
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -4710,10 +4680,6 @@ proxy-groups:
       - 美国高速专线D1
       - 美国高速专线Q1
       - 美国高速专线R1
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国->🇳🇱_NL_荷兰
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
