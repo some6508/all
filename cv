@@ -739,7 +739,6 @@ proxies:
   - {name: 新加坡高速专线A1, server: 129.226.148.41, port: 8261, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 新加坡高速专线A2, server: 129.226.148.41, port: 8261, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 新加坡高速专线B2, server: 129.226.195.219, port: 8338, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: _GB_英国, server: 172.99.190.188, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2134,7 +2133,6 @@ proxy-groups:
       - 新加坡高速专线A1
       - 新加坡高速专线A2
       - 新加坡高速专线B2
-      - _GB_英国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3518,7 +3516,6 @@ proxy-groups:
       - 新加坡高速专线A1
       - 新加坡高速专线A2
       - 新加坡高速专线B2
-      - _GB_英国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
