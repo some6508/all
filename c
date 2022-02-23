@@ -5,214 +5,81 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"日本1[光头院长]_5","server":"china-zj-hz-1.forwardserver.xyz","port":41634,"type":"trojan","password":"667c1293-ae71-4454-831d-b387c40084ee","sni":"jpgtyz1.infininode.cf"}
-  - {"name":"日本2+[光头院长]_6","server":"china-zj-hz-1.forwardserver.xyz","port":39583,"type":"trojan","password":"667c1293-ae71-4454-831d-b387c40084ee","sni":"jp3.infininode.tk"}
-  - {"name":"台湾+1+微信：ddly000_7","server":"china-zj-hz-1.forwardserver.xyz","port":37313,"type":"trojan","password":"667c1293-ae71-4454-831d-b387c40084ee","sni":"tw.node.qchwnd.moe"}
-  - {"name":"日本3_8","server":"china-zj-hz-1.forwardserver.xyz","port":44658,"type":"trojan","password":"667c1293-ae71-4454-831d-b387c40084ee","sni":"jp2.infininode.tk"}
-  - {"name":"新加坡1_9","server":"china-zj-hz-1.forwardserver.xyz","port":43841,"type":"trojan","password":"667c1293-ae71-4454-831d-b387c40084ee","sni":"sg1.infininode.tk"}
-  - {"name":"新加坡2_10","server":"139.162.29.4","port":11733,"type":"trojan","password":"667c1293-ae71-4454-831d-b387c40084ee","sni":"sg2.infininode.tk"}
-  - {"name":"美国1_11","server":"173.255.225.7","port":11416,"type":"trojan","password":"667c1293-ae71-4454-831d-b387c40084ee","sni":"us2.infininode.tk"}
-  - {"name":"HKG/香港-_12","server":"002.AP.POP.BIGAIRPORT.NET","port":443,"type":"vmess","uuid":"68e3d710-68f0-4f03-a752-26c2a79770b0","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"TYO/东京_13","server":"004.AP.POP.BIGAIRPORT.NET","port":443,"type":"vmess","uuid":"68e3d710-68f0-4f03-a752-26c2a79770b0","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"SIN/狮城_14","server":"006.AP.POP.BIGAIRPORT.NET","port":443,"type":"vmess","uuid":"68e3d710-68f0-4f03-a752-26c2a79770b0","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"ICN/首尔_15","server":"008.AP.POP.BIGAIRPORT.NET","port":443,"type":"vmess","uuid":"68e3d710-68f0-4f03-a752-26c2a79770b0","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"SJC/圣荷西_16","server":"010.NA.POP.BIGAIRPORT.NET","port":443,"type":"vmess","uuid":"68e3d710-68f0-4f03-a752-26c2a79770b0","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"HKG/香港-1_17","server":"021.AP.POP.BIGAIRPORT.NET","port":12356,"type":"vmess","uuid":"68e3d710-68f0-4f03-a752-26c2a79770b0","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.baidu.com"}}}
-  - {"name":"TYO/东京-1_18","server":"023.AP.POP.BIGAIRPORT.NET","port":12356,"type":"vmess","uuid":"68e3d710-68f0-4f03-a752-26c2a79770b0","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"SIN/狮城-1_19","server":"025.AP.POP.BIGAIRPORT.NET","port":12356,"type":"vmess","uuid":"68e3d710-68f0-4f03-a752-26c2a79770b0","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"ICN/首尔-2_20","server":"028.AP.POP.BIGAIRPORT.NET","port":12356,"type":"vmess","uuid":"68e3d710-68f0-4f03-a752-26c2a79770b0","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"SJC/圣荷西-2_21","server":"030.NA.POP.BIGAIRPORT.NET","port":12356,"type":"vmess","uuid":"68e3d710-68f0-4f03-a752-26c2a79770b0","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"TYO/东京-3_22","server":"033.AP.POP.BIGAIRPORT.NET","port":12356,"type":"vmess","uuid":"68e3d710-68f0-4f03-a752-26c2a79770b0","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"SIN/狮城-4_23","server":"036.AP.POP.BIGAIRPORT.NET","port":12356,"type":"vmess","uuid":"68e3d710-68f0-4f03-a752-26c2a79770b0","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"ICN/首尔-3_24","server":"037.AP.POP.BIGAIRPORT.NET","port":12356,"type":"vmess","uuid":"68e3d710-68f0-4f03-a752-26c2a79770b0","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"SJC/圣荷西-3_25","server":"039.NA.POP.BIGAIRPORT.NET","port":12356,"type":"vmess","uuid":"68e3d710-68f0-4f03-a752-26c2a79770b0","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"JPN/日本A-1上海_26","server":"120.253.240.228","port":80,"type":"vmess","uuid":"8f589707-82be-4ea2-a097-cf535579e332","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cdn.cloudfront.rui77.com"}}}
-  - {"name":"SIN/狮城A-1上海_27","server":"120.253.245.160","port":80,"type":"vmess","uuid":"8f589707-82be-4ea2-a097-cf535579e332","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cdn002.cloudfront.rui77.com"}}}
-  - {"name":"JPN/日本A-9北京_28","server":"223.71.71.233","port":80,"type":"vmess","uuid":"8f589707-82be-4ea2-a097-cf535579e332","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cdn.cloudfront.rui77.com"}}}
-  - {"name":"SIN/狮城A-9北京_29","server":"223.71.71.233","port":80,"type":"vmess","uuid":"8f589707-82be-4ea2-a097-cf535579e332","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cdn002.cloudfront.rui77.com"}}}
+  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.221","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.221","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇬🇧_GB_英国_3","server":"172.99.190.205","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.196.221","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇷🇴_RO_罗马尼亚_5","server":"italy-milan.mah3Hoet.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"italy-milan.mah3Hoet.com"}}}
+  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.221","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 日本1[光头院长]_5
-      - 日本2+[光头院长]_6
-      - 台湾+1+微信：ddly000_7
-      - 日本3_8
-      - 新加坡1_9
-      - 新加坡2_10
-      - 美国1_11
-      - HKG/香港-_12
-      - TYO/东京_13
-      - SIN/狮城_14
-      - ICN/首尔_15
-      - SJC/圣荷西_16
-      - HKG/香港-1_17
-      - TYO/东京-1_18
-      - SIN/狮城-1_19
-      - ICN/首尔-2_20
-      - SJC/圣荷西-2_21
-      - TYO/东京-3_22
-      - SIN/狮城-4_23
-      - ICN/首尔-3_24
-      - SJC/圣荷西-3_25
-      - JPN/日本A-1上海_26
-      - SIN/狮城A-1上海_27
-      - JPN/日本A-9北京_28
-      - SIN/狮城A-9北京_29
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇷🇴_RO_罗马尼亚_5
+      - 🇨🇦_CA_加拿大_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 日本1[光头院长]_5
-      - 日本2+[光头院长]_6
-      - 台湾+1+微信：ddly000_7
-      - 日本3_8
-      - 新加坡1_9
-      - 新加坡2_10
-      - 美国1_11
-      - HKG/香港-_12
-      - TYO/东京_13
-      - SIN/狮城_14
-      - ICN/首尔_15
-      - SJC/圣荷西_16
-      - HKG/香港-1_17
-      - TYO/东京-1_18
-      - SIN/狮城-1_19
-      - ICN/首尔-2_20
-      - SJC/圣荷西-2_21
-      - TYO/东京-3_22
-      - SIN/狮城-4_23
-      - ICN/首尔-3_24
-      - SJC/圣荷西-3_25
-      - JPN/日本A-1上海_26
-      - SIN/狮城A-1上海_27
-      - JPN/日本A-9北京_28
-      - SIN/狮城A-9北京_29
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇷🇴_RO_罗马尼亚_5
+      - 🇨🇦_CA_加拿大_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本1[光头院长]_5
-      - 日本2+[光头院长]_6
-      - 台湾+1+微信：ddly000_7
-      - 日本3_8
-      - 新加坡1_9
-      - 新加坡2_10
-      - 美国1_11
-      - HKG/香港-_12
-      - TYO/东京_13
-      - SIN/狮城_14
-      - ICN/首尔_15
-      - SJC/圣荷西_16
-      - HKG/香港-1_17
-      - TYO/东京-1_18
-      - SIN/狮城-1_19
-      - ICN/首尔-2_20
-      - SJC/圣荷西-2_21
-      - TYO/东京-3_22
-      - SIN/狮城-4_23
-      - ICN/首尔-3_24
-      - SJC/圣荷西-3_25
-      - JPN/日本A-1上海_26
-      - SIN/狮城A-1上海_27
-      - JPN/日本A-9北京_28
-      - SIN/狮城A-9北京_29
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇷🇴_RO_罗马尼亚_5
+      - 🇨🇦_CA_加拿大_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 日本1[光头院长]_5
-      - 日本2+[光头院长]_6
-      - 台湾+1+微信：ddly000_7
-      - 日本3_8
-      - 新加坡1_9
-      - 新加坡2_10
-      - 美国1_11
-      - HKG/香港-_12
-      - TYO/东京_13
-      - SIN/狮城_14
-      - ICN/首尔_15
-      - SJC/圣荷西_16
-      - HKG/香港-1_17
-      - TYO/东京-1_18
-      - SIN/狮城-1_19
-      - ICN/首尔-2_20
-      - SJC/圣荷西-2_21
-      - TYO/东京-3_22
-      - SIN/狮城-4_23
-      - ICN/首尔-3_24
-      - SJC/圣荷西-3_25
-      - JPN/日本A-1上海_26
-      - SIN/狮城A-1上海_27
-      - JPN/日本A-9北京_28
-      - SIN/狮城A-9北京_29
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇷🇴_RO_罗马尼亚_5
+      - 🇨🇦_CA_加拿大_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 日本1[光头院长]_5
-      - 日本2+[光头院长]_6
-      - 台湾+1+微信：ddly000_7
-      - 日本3_8
-      - 新加坡1_9
-      - 新加坡2_10
-      - 美国1_11
-      - HKG/香港-_12
-      - TYO/东京_13
-      - SIN/狮城_14
-      - ICN/首尔_15
-      - SJC/圣荷西_16
-      - HKG/香港-1_17
-      - TYO/东京-1_18
-      - SIN/狮城-1_19
-      - ICN/首尔-2_20
-      - SJC/圣荷西-2_21
-      - TYO/东京-3_22
-      - SIN/狮城-4_23
-      - ICN/首尔-3_24
-      - SJC/圣荷西-3_25
-      - JPN/日本A-1上海_26
-      - SIN/狮城A-1上海_27
-      - JPN/日本A-9北京_28
-      - SIN/狮城A-9北京_29
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇷🇴_RO_罗马尼亚_5
+      - 🇨🇦_CA_加拿大_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 日本1[光头院长]_5
-      - 日本2+[光头院长]_6
-      - 台湾+1+微信：ddly000_7
-      - 日本3_8
-      - 新加坡1_9
-      - 新加坡2_10
-      - 美国1_11
-      - HKG/香港-_12
-      - TYO/东京_13
-      - SIN/狮城_14
-      - ICN/首尔_15
-      - SJC/圣荷西_16
-      - HKG/香港-1_17
-      - TYO/东京-1_18
-      - SIN/狮城-1_19
-      - ICN/首尔-2_20
-      - SJC/圣荷西-2_21
-      - TYO/东京-3_22
-      - SIN/狮城-4_23
-      - ICN/首尔-3_24
-      - SJC/圣荷西-3_25
-      - JPN/日本A-1上海_26
-      - SIN/狮城A-1上海_27
-      - JPN/日本A-9北京_28
-      - SIN/狮城A-9北京_29
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇷🇴_RO_罗马尼亚_5
+      - 🇨🇦_CA_加拿大_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -235,31 +102,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本1[光头院长]_5
-      - 日本2+[光头院长]_6
-      - 台湾+1+微信：ddly000_7
-      - 日本3_8
-      - 新加坡1_9
-      - 新加坡2_10
-      - 美国1_11
-      - HKG/香港-_12
-      - TYO/东京_13
-      - SIN/狮城_14
-      - ICN/首尔_15
-      - SJC/圣荷西_16
-      - HKG/香港-1_17
-      - TYO/东京-1_18
-      - SIN/狮城-1_19
-      - ICN/首尔-2_20
-      - SJC/圣荷西-2_21
-      - TYO/东京-3_22
-      - SIN/狮城-4_23
-      - ICN/首尔-3_24
-      - SJC/圣荷西-3_25
-      - JPN/日本A-1上海_26
-      - SIN/狮城A-1上海_27
-      - JPN/日本A-9北京_28
-      - SIN/狮城A-9北京_29
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇷🇴_RO_罗马尼亚_5
+      - 🇨🇦_CA_加拿大_6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
