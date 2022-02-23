@@ -1038,16 +1038,40 @@ proxies:
   - {name: 新加坡高速专线A1, server: 129.226.148.41, port: 8261, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 新加坡高速专线A2, server: 129.226.148.41, port: 8261, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 新加坡高速专线B2, server: 129.226.195.219, port: 8338, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.193, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.147, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大 3, server: 134.195.196.150, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 4, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大 5, server: 134.195.196.193, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 6, server: 134.195.196.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _GB_英国, server: 172.99.190.205, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.205, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大 7, server: 134.195.196.193, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero2.a-yu.xyz}}, udp: true}
+  - {name: iepl-hn01.qqgg.work:46164, server: iepl-hn01.qqgg.work, port: 46164, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: gzyd-01.yyuuii.cyou:26096, server: gzyd-01.yyuuii.cyou, port: 26096, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: iepl-hn01.qqgg.work:14261, server: iepl-hn01.qqgg.work, port: 14261, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: iepl-hn01.qqgg.work:21637, server: iepl-hn01.qqgg.work, port: 21637, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: jx-002.yyuuii.cyou:10007, server: jx-002.yyuuii.cyou, port: 10007, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: iepl-gz.yyuuii.cyou:10802, server: iepl-gz.yyuuii.cyou, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: iepl-hn01.qqgg.work:20399, server: iepl-hn01.qqgg.work, port: 20399, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: gzyd-01.yyuuii.cyou:30002, server: gzyd-01.yyuuii.cyou, port: 30002, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: iepl-hn01.qqgg.work:48293, server: iepl-hn01.qqgg.work, port: 48293, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: gzyd-01.yyuuii.cyou:20002, server: gzyd-01.yyuuii.cyou, port: 20002, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 101.67.8.192:25179, server: 101.67.8.192, port: 25179, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: jx-002.yyuuii.cyou:10006, server: jx-002.yyuuii.cyou, port: 10006, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: gzyd-01.yyuuii.cyou:45705, server: gzyd-01.yyuuii.cyou, port: 45705, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: gzyd-01.yyuuii.cyou:49036, server: gzyd-01.yyuuii.cyou, port: 49036, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 120.233.10.182:5703, server: 120.233.10.182, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: e167063277.microsoft.com, udp: true}
+  - {name: jx-002.yyuuii.cyou:10019, server: jx-002.yyuuii.cyou, port: 10019, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: gzyd-01.yyuuii.cyou:20001, server: gzyd-01.yyuuii.cyou, port: 20001, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: iepl-hn01.qqgg.work:16319, server: iepl-hn01.qqgg.work, port: 16319, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: iepl-gz.yyuuii.cyou:49853, server: iepl-gz.yyuuii.cyou, port: 49853, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: iepl-hn01.qqgg.work:19563, server: iepl-hn01.qqgg.work, port: 19563, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 183.195.235.47:45089, server: 183.195.235.47, port: 45089, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: jx-002.yyuuii.cyou:10020, server: jx-002.yyuuii.cyou, port: 10020, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: iepl-hn01.qqgg.work:20098, server: iepl-hn01.qqgg.work, port: 20098, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: iepl-gz.yyuuii.cyou:10804, server: iepl-gz.yyuuii.cyou, port: 10804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: jx-002.yyuuii.cyou:10018, server: jx-002.yyuuii.cyou, port: 10018, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: gzyd-01.yyuuii.cyou:40678, server: gzyd-01.yyuuii.cyou, port: 40678, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: jx-002.yyuuii.cyou:12021, server: jx-002.yyuuii.cyou, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: iepl-gz.yyuuii.cyou:15658, server: iepl-gz.yyuuii.cyou, port: 15658, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: iepl-gz.yyuuii.cyou:10899, server: iepl-gz.yyuuii.cyou, port: 10899, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: iepl-hn01.qqgg.work:43738, server: iepl-hn01.qqgg.work, port: 43738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: gzyd-01.yyuuii.cyou:20003, server: gzyd-01.yyuuii.cyou, port: 20003, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: iepl-hn01.qqgg.work:44702, server: iepl-hn01.qqgg.work, port: 44702, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: fr-am1-1.eqsunshine.com:8181, server: fr-am1-1.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: gVWc0WaJn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: uk-am3-5.eqsunshine.com:8181, server: uk-am3-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: PNRbp3j9B, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2821,16 +2845,40 @@ proxy-groups:
       - 新加坡高速专线A1
       - 新加坡高速专线A2
       - 新加坡高速专线B2
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - _CA_加拿大 5
-      - _CA_加拿大 6
-      - _GB_英国
-      - _GB_英国 2
-      - _CA_加拿大 7
-      - _US_美国
+      - iepl-hn01.qqgg.work:46164
+      - gzyd-01.yyuuii.cyou:26096
+      - iepl-hn01.qqgg.work:14261
+      - iepl-hn01.qqgg.work:21637
+      - jx-002.yyuuii.cyou:10007
+      - iepl-gz.yyuuii.cyou:10802
+      - iepl-hn01.qqgg.work:20399
+      - gzyd-01.yyuuii.cyou:30002
+      - iepl-hn01.qqgg.work:48293
+      - gzyd-01.yyuuii.cyou:20002
+      - 101.67.8.192:25179
+      - jx-002.yyuuii.cyou:10006
+      - gzyd-01.yyuuii.cyou:45705
+      - gzyd-01.yyuuii.cyou:49036
+      - 120.233.10.182:5703
+      - jx-002.yyuuii.cyou:10019
+      - gzyd-01.yyuuii.cyou:20001
+      - iepl-hn01.qqgg.work:16319
+      - iepl-gz.yyuuii.cyou:49853
+      - iepl-hn01.qqgg.work:19563
+      - 183.195.235.47:45089
+      - jx-002.yyuuii.cyou:10020
+      - iepl-hn01.qqgg.work:20098
+      - iepl-gz.yyuuii.cyou:10804
+      - jx-002.yyuuii.cyou:10018
+      - gzyd-01.yyuuii.cyou:40678
+      - jx-002.yyuuii.cyou:12021
+      - iepl-gz.yyuuii.cyou:15658
+      - iepl-gz.yyuuii.cyou:10899
+      - iepl-hn01.qqgg.work:43738
+      - gzyd-01.yyuuii.cyou:20003
+      - iepl-hn01.qqgg.work:44702
+      - fr-am1-1.eqsunshine.com:8181
+      - uk-am3-5.eqsunshine.com:8181
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4593,16 +4641,40 @@ proxy-groups:
       - 新加坡高速专线A1
       - 新加坡高速专线A2
       - 新加坡高速专线B2
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - _CA_加拿大 5
-      - _CA_加拿大 6
-      - _GB_英国
-      - _GB_英国 2
-      - _CA_加拿大 7
-      - _US_美国
+      - iepl-hn01.qqgg.work:46164
+      - gzyd-01.yyuuii.cyou:26096
+      - iepl-hn01.qqgg.work:14261
+      - iepl-hn01.qqgg.work:21637
+      - jx-002.yyuuii.cyou:10007
+      - iepl-gz.yyuuii.cyou:10802
+      - iepl-hn01.qqgg.work:20399
+      - gzyd-01.yyuuii.cyou:30002
+      - iepl-hn01.qqgg.work:48293
+      - gzyd-01.yyuuii.cyou:20002
+      - 101.67.8.192:25179
+      - jx-002.yyuuii.cyou:10006
+      - gzyd-01.yyuuii.cyou:45705
+      - gzyd-01.yyuuii.cyou:49036
+      - 120.233.10.182:5703
+      - jx-002.yyuuii.cyou:10019
+      - gzyd-01.yyuuii.cyou:20001
+      - iepl-hn01.qqgg.work:16319
+      - iepl-gz.yyuuii.cyou:49853
+      - iepl-hn01.qqgg.work:19563
+      - 183.195.235.47:45089
+      - jx-002.yyuuii.cyou:10020
+      - iepl-hn01.qqgg.work:20098
+      - iepl-gz.yyuuii.cyou:10804
+      - jx-002.yyuuii.cyou:10018
+      - gzyd-01.yyuuii.cyou:40678
+      - jx-002.yyuuii.cyou:12021
+      - iepl-gz.yyuuii.cyou:15658
+      - iepl-gz.yyuuii.cyou:10899
+      - iepl-hn01.qqgg.work:43738
+      - gzyd-01.yyuuii.cyou:20003
+      - iepl-hn01.qqgg.work:44702
+      - fr-am1-1.eqsunshine.com:8181
+      - uk-am3-5.eqsunshine.com:8181
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5959,7 +6031,6 @@ proxy-groups:
       - 美国高速专线D1
       - 美国高速专线Q1
       - 美国高速专线R1
-      - _US_美国
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
