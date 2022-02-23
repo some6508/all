@@ -5,599 +5,2167 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"‌‌🇨🇦CA_5601atWangCai_1","server":"134.195.196.68","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"‌‌🇨🇦CA_3389atWangCai_1","server":"134.195.196.68","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"‌‌🇨🇦CA_8091atWangCai_1","server":"134.195.196.68","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"‌‌🇨🇦CA_7001atWangCai_1","server":"134.195.196.68","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"‌‌🇨🇦CA_8008atWangCai_1","server":"134.195.196.68","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"‌‌🇨🇦CA_8118atWangCai_1","server":"134.195.196.68","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"‌‌🇨🇦CA_4444atWangCai_1","server":"134.195.196.68","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"‌‌🇨🇦CA_6697atWangCai_1","server":"134.195.196.68","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"‌‌🇨🇦CA_8881atWangCai_1","server":"134.195.196.68","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"‌‌🇨🇦CA_9102atWangCai_1","server":"134.195.196.68","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"‌‌🇨🇦CA_6379atWangCai_1","server":"134.195.196.68","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"‌‌🇨🇦CA_8009atWangCai_1","server":"134.195.196.68","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"‌‌🇨🇦CA_9101atWangCai_1","server":"134.195.196.68","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"‌‌🇨🇦CA_5500atWangCai_1","server":"134.195.196.68","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"‌‌🇨🇦CA_6679atWangCai_1","server":"134.195.196.68","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"‌‌🇨🇦CA_7002atWangCai_1","server":"134.195.196.68","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"‌‌🇨🇦CA_8888atWangCai_1","server":"134.195.196.68","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"‌‌🇨🇦CA_5001atWangCai_1","server":"134.195.196.68","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"‌‌🇨🇦CA_0443atWangCai_1","server":"134.195.196.68","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸US_2375atWangCai_1","server":"169.197.142.47","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸US_8080atWangCai_1","server":"169.197.142.47","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸US_8882atWangCai_1","server":"169.197.142.47","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸US_6379atWangCai_1","server":"169.197.142.47","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇺🇸US_9101atWangCai_1","server":"169.197.142.47","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸US_2376atWangCai_1","server":"169.197.142.47","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸US_8118atWangCai_1","server":"169.197.142.47","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸US_5003atWangCai_1","server":"169.197.142.47","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸US_7001atWangCai_1","server":"169.197.142.47","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸US_4444atWangCai_1","server":"169.197.142.47","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸US_8119atWangCai_1","server":"169.197.142.47","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸US_0443atWangCai_1","server":"169.197.142.47","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸US_3389atWangCai_1","server":"169.197.142.47","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US_6679atWangCai_1","server":"169.197.142.47","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸US_5601atWangCai_1","server":"169.197.142.47","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US_8008atWangCai_1","server":"169.197.142.47","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸US_3306atWangCai_1","server":"169.197.142.47","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US_5500atWangCai_1","server":"169.197.142.47","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸US_5600atWangCai_1","server":"169.197.142.47","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US_6697atWangCai_1","server":"169.197.142.47","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸US_7002atWangCai_1","server":"169.197.142.47","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸US_5004atWangCai_1","server":"169.197.142.47","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸US_9102atWangCai_1","server":"169.197.142.47","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸US_8881atWangCai_1","server":"169.197.142.47","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸US_8091atWangCai_1","server":"169.197.142.47","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸US_5001atWangCai_1","server":"169.197.142.47","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US_8888atWangCai_1","server":"169.197.142.47","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US_8090atWangCai_1","server":"169.197.142.47","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸US_8118atWangCai_1","server":"169.197.142.187","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸US_6697atWangCai_1","server":"169.197.142.187","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸US_5601atWangCai_1","server":"169.197.142.187","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US_8119atWangCai_1","server":"169.197.142.187","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸US_5003atWangCai_1","server":"169.197.142.187","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸US_5001atWangCai_1","server":"169.197.142.187","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US_9102atWangCai_1","server":"169.197.142.187","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸US_7306atWangCai_1","server":"169.197.142.187","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸US_8881atWangCai_1","server":"169.197.142.187","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸US_8080atWangCai_1","server":"169.197.142.187","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸US_5000atWangCai_1","server":"169.197.142.187","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US_4444atWangCai_1","server":"169.197.142.187","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸US_0443atWangCai_1","server":"169.197.142.187","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸US_8009atWangCai_1","server":"169.197.142.187","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸US_8008atWangCai_1","server":"169.197.142.187","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸US_7002atWangCai_1","server":"169.197.142.187","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸US_7307atWangCai_1","server":"169.197.142.187","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸US_3306atWangCai_1","server":"169.197.142.187","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US_8000atWangCai_1","server":"169.197.142.187","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸US_6679atWangCai_1","server":"169.197.142.187","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸US_8888atWangCai_1","server":"169.197.142.187","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US_8090atWangCai_1","server":"169.197.142.187","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸US_8882atWangCai_1","server":"169.197.142.187","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸US_6379atWangCai_1","server":"169.197.142.187","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇺🇸US_9101atWangCai_1","server":"169.197.142.187","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸US_8091atWangCai_1","server":"169.197.142.187","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸US_5500atWangCai_1","server":"169.197.142.187","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸US_5600atWangCai_1","server":"169.197.142.187","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US_5004atWangCai_1","server":"169.197.142.187","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸US_2375atWangCai_1","server":"169.197.142.187","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸US_7001atWangCai_1","server":"169.197.142.187","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸US_3389atWangCai_1","server":"169.197.142.187","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US_2376atWangCai_1","server":"169.197.142.187","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇭🇰_HK_香港_AFTZ-2022_02_23_1","server":"0107hk.fans8.xyz","port":80,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇮🇱_IL_以色列_AFTZ-2022_02_23_2","server":"31.133.100.49","port":50004,"type":"ss","cipher":"aes-256-cfb","password":"4415934295"}
+  - {"name":"🇮🇱_IL_以色列_AFTZ-2022_02_23_3","server":"185.162.125.91","port":50004,"type":"ss","cipher":"aes-256-cfb","password":"4415934295"}
+  - {"name":"🇮🇱_IL_以色列_AFTZ-2022_02_23_4","server":"185.162.126.217","port":50004,"type":"ss","cipher":"aes-256-cfb","password":"4415934295"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_5","server":"free-russian01-cdn.xiaohouzi.club","port":443,"type":"vmess","uuid":"6a7f559d-5401-44c0-b737-bb9f8820681f","alterId":233,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/2993fe/"}}
+  - {"name":"🇱🇹_LT_立陶宛_AFTZ-2022_02_23_6","server":"1222ru.fans8.xyz","port":80,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇵🇱_PL_波兰_AFTZ-2022_02_23_7","server":"0122us.fans8.xyz","port":80,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_8","server":"5.188.35.120","port":443,"type":"vmess","uuid":"0c7a06d0-8061-4df7-b521-960e2b9ce0f7","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_9","server":"92.223.72.42","port":443,"type":"vmess","uuid":"ae08412f-5bb9-4be7-8560-1984976a1097","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇨🇿_CZ_捷克_AFTZ-2022_02_23_10","server":"t2.ssrsub.com","port":8443,"type":"trojan","password":"b2015918-4a70-4250-8afa-dba8a5be97f4","sni":"t2.ssrsub.com"}
+  - {"name":"🇨🇿_CZ_捷克_AFTZ-2022_02_23_11","server":"t7.ssrsub.com","port":8443,"type":"trojan","password":"b2015918-4a70-4250-8afa-dba8a5be97f4","sni":"t7.ssrsub.com"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_12","server":"92.223.65.119","port":443,"type":"vmess","uuid":"3fd6713f-e036-4ba9-938a-da7843a17a15","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/ray"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_13","server":"38.64.138.145","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_14","server":"198.57.27.218","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_15","server":"198.57.27.218","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_16","server":"38.64.138.145","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_17","server":"1222us.fans8.xyz","port":80,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇹🇼_TW_台湾_AFTZ-2022_02_23_18","server":"1207tw.fans8.xyz","port":80,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇵🇭_PH_菲律宾_AFTZ-2022_02_23_19","server":"1222mnl.fans8.xyz","port":80,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇭🇰_HK_香港_AFTZ-2022_02_23_20","server":"128hk8.fans8.xyz","port":80,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇭🇰_HK_香港_AFTZ-2022_02_23_21","server":"1211hk1.fans8.xyz","port":80,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_22","server":"t1.ssrsub.com","port":8443,"type":"trojan","password":"b2015918-4a70-4250-8afa-dba8a5be97f4","sni":"t1.ssrsub.com"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_23","server":"t3.ssrsub.com","port":8443,"type":"trojan","password":"b2015918-4a70-4250-8afa-dba8a5be97f4","sni":"t3.ssrsub.com"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_24","server":"t4.ssrsub.com","port":8443,"type":"trojan","password":"b2015918-4a70-4250-8afa-dba8a5be97f4","sni":"t4.ssrsub.com"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_25","server":"72.140.224.197","port":808,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_26","server":"72.140.224.197","port":811,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_27","server":"72.140.224.197","port":805,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_28","server":"72.140.224.197","port":806,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_29","server":"72.140.224.197","port":812,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇿🇦_ZA_南非_AFTZ-2022_02_23_30","server":"102.130.121.237","port":50004,"type":"ss","cipher":"aes-256-cfb","password":"4415934295"}
+  - {"name":"🇭🇰_HK_香港_AFTZ-2022_02_23_31","server":"aicoo6du.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws"}}
+  - {"name":"🇮🇩_ID_印度尼西亚_AFTZ-2022_02_23_32","server":"108.136.163.50","port":58973,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"0eee7abb-23db-405a-9a97-720fdc01633f"}
+  - {"name":"🇹🇷_TR_土耳其_AFTZ-2022_02_23_33","server":"185.17.113.234","port":804,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇹🇷_TR_土耳其_AFTZ-2022_02_23_34","server":"185.17.113.234","port":809,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇨🇾_CY_塞浦路斯_AFTZ-2022_02_23_35","server":"213.169.137.221","port":989,"type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇮🇳_IN_印度_AFTZ-2022_02_23_36","server":"172.105.35.61","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇫🇷_FR_法国_AFTZ-2022_02_23_37","server":"141.95.0.26","port":826,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"sF43Xt2gONqcgFX563"}
+  - {"name":"🇫🇷_FR_法国_AFTZ-2022_02_23_38","server":"145.239.1.100","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇫🇷_FR_法国_AFTZ-2022_02_23_39","server":"145.239.1.100","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇩🇪_DE_德国_AFTZ-2022_02_23_40","server":"37.61.213.94","port":443,"type":"vmess","uuid":"97ff78ea-8807-4c33-93e5-d8481ac0539e","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇱🇹_LT_立陶宛_AFTZ-2022_02_23_41","server":"0118ru.fans8.xyz","port":80,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇸🇬_SG_新加坡_AFTZ-2022_02_23_42","server":"128.1.95.250","port":443,"type":"vmess","uuid":"65e05113-3849-4ce4-9881-5a891c2b1eeb","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇯🇵_JP_日本_AFTZ-2022_02_23_43","server":"172.104.98.216","port":80,"type":"vmess","uuid":"e5af0cad-295c-37b2-b601-f35d13f6b1bb","alterId":64,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"172.104.98.216"}}}
+  - {"name":"🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_44","server":"45.76.127.189","port":443,"type":"vmess","uuid":"7fc6764a-6cba-4599-95d7-ac7617b7db0a","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇰🇷_KR_韩国_AFTZ-2022_02_23_45","server":"1031kr.fans8.xyz","port":80,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇸🇬_SG_新加坡_AFTZ-2022_02_23_46","server":"202.61.141.130","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇩🇪_DE_德国_AFTZ-2022_02_23_47","server":"172.105.244.165","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇩🇪_DE_德国_AFTZ-2022_02_23_48","server":"172.105.244.165","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇩🇪_DE_德国_AFTZ-2022_02_23_49","server":"172.105.244.165","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇩🇪_DE_德国_AFTZ-2022_02_23_50","server":"172.105.244.165","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇩🇪_DE_德国_AFTZ-2022_02_23_51","server":"172.105.244.165","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇯🇵_JP_日本_AFTZ-2022_02_23_52","server":"89.31.126.150","port":812,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵_JP_日本_AFTZ-2022_02_23_53","server":"89.31.126.150","port":802,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇰🇷_KR_韩国_AFTZ-2022_02_23_54","server":"146.56.108.108","port":37749,"type":"vmess","uuid":"e0e06b1c-ee1e-4dbf-a17a-89f06ff2753c","alterId":0,"cipher":"auto","tls":false}
+  - {"name":"🇯🇵_JP_日本_AFTZ-2022_02_23_55","server":"japanfastnetwork.club","port":443,"type":"vmess","uuid":"fb8ed8a9-ad61-4a12-90c6-55670a4a3332","alterId":64,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/neuromancer"}}
+  - {"name":"🇰🇷_KR_韩国_AFTZ-2022_02_23_56","server":"v.mumi.bid","port":10121,"type":"vmess","uuid":"403acd13-9d60-44f1-ac2d-0359cd5e2d7e","alterId":64,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_57","server":"ahdaeph8.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇧🇪_BE_比利时_AFTZ-2022_02_23_58","server":"77.243.191.178","port":8389,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"47GH3wQRw7V4Zhd35bFs"}
+  - {"name":"🇫🇷_FR_法国_AFTZ-2022_02_23_59","server":"149.202.82.172","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇫🇷_FR_法国_AFTZ-2022_02_23_60","server":"51.255.66.185","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇫🇷_FR_法国_AFTZ-2022_02_23_61","server":"149.202.82.172","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇫🇷_FR_法国_AFTZ-2022_02_23_62","server":"149.202.82.172","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇫🇷_FR_法国_AFTZ-2022_02_23_63","server":"149.202.82.172","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇫🇷_FR_法国_AFTZ-2022_02_23_64","server":"149.202.82.172","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇫🇷_FR_法国_AFTZ-2022_02_23_65","server":"149.202.82.172","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇫🇷_FR_法国_AFTZ-2022_02_23_66","server":"92.243.24.68","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"bIS3QQFwFIm1"}
+  - {"name":"🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_67","server":"172.105.180.227","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_68","server":"172.105.180.227","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_69","server":"172.105.180.227","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_70","server":"172.105.180.227","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_71","server":"v10.ssrsub.com","port":166,"type":"vmess","uuid":"b2015918-4a70-4250-8afa-dba8a5be97f4","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_72","server":"66.42.103.1","port":50890,"type":"vmess","uuid":"11365a2e-6938-11ec-9b3d-560003c3fd49","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/5YpZGAg8/"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_73","server":"70.39.71.2","port":8389,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"XkH8z99cQguQ8ywK5jhV"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_74","server":"169.197.142.39","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_75","server":"169.197.143.157","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_76","server":"38.91.102.86","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_77","server":"38.143.66.71","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_78","server":"38.91.102.86","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_79","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"usa-dallas.lvuft.com"}}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_80","server":"208.98.48.2","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"iesei1ei.com"}}}
+  - {"name":"AFTZ-2022_02_23_81","server":"104.21.62.193","port":443,"type":"vmess","uuid":"e64c6f7c-48eb-4852-9b29-778faef14212","alterId":233,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/319285eb2d/","headers":{"host":"free-russian-cdn.xiaohouzi.club"}}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_82","server":"38.91.102.86","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_83","server":"45.35.84.162","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"usa-dallas.lvuft.com"}}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_84","server":"169.197.142.39","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"AFTZ-2022_02_23_85","server":"104.17.170.210","port":443,"type":"vmess","uuid":"d064d11b-477c-4c5d-a2d8-9fd599ef8e79","alterId":1,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"kycc","headers":{"host":"lsb.stupidfellow.cf"}}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_86","server":"169.197.142.39","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_87","server":"172.67.176.114","port":443,"type":"vmess","uuid":"6a7f559d-5401-44c0-b737-bb9f8820681f","alterId":233,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/2993fe/","headers":{"host":"free-russian01-cdn.xiaohouzi.club"}}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_88","server":"38.91.102.86","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_89","server":"169.197.143.157","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_90","server":"167.88.61.60","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"AFTZ-2022_02_23_91","server":"v1.ssrsub.com","port":8443,"type":"vmess","uuid":"1de99090-4bd5-4670-9cec-05f55b4c6917","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
+  - {"name":"🇮🇳_IN_印度_AFTZ-2022_02_23_92","server":"192.46.210.73","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇮🇳_IN_印度_AFTZ-2022_02_23_93","server":"192.46.210.73","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_94","server":"134.195.196.68","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_95","server":"167.88.61.60","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_96","server":"169.197.141.24","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_97","server":"169.197.141.24","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_98","server":"169.197.142.39","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_99","server":"v5.ssrsub.com","port":8443,"type":"vmess","uuid":"8cf83f44-79ff-4e50-be1a-585c82338912","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_100","server":"38.91.102.96","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_101","server":"169.197.141.24","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_102","server":"api.ssfree.ru","port":443,"type":"vmess","uuid":"8c089fe0-6989-11ec-9e73-000017022008","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/getweather"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_103","server":"free-russian-cdn.xiaohouzi.club","port":443,"type":"vmess","uuid":"e64c6f7c-48eb-4852-9b29-778faef14212","alterId":233,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/319285eb2d/"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_104","server":"169.197.141.91","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_105","server":"172.99.190.39","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_106","server":"134.195.196.200","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_107","server":"169.197.141.91","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_108","server":"38.68.135.208","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_109","server":"134.195.196.200","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_110","server":"134.195.196.193","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_111","server":"172.99.190.188","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_112","server":"134.195.196.147","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_113","server":"172.99.190.205","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_114","server":"172.99.190.149","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_115","server":"172.99.190.188","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_116","server":"134.195.196.193","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_117","server":"172.99.190.205","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_118","server":"115.wowogg.cyou","port":52215,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_119","server":"130.wowogg.cyou","port":52330,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_120","server":"amu1ahfi.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_121","server":"ua1.uuv2.co.uk","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_122","server":"198.148.92.246","port":443,"type":"vmess","uuid":"4f4c3fc0-888d-414e-9965-a41c627fab53","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_123","server":"172.67.68.58","port":443,"type":"vmess","uuid":"f2f578e4-692d-40b5-af99-9f1dd712eb32","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"AFTZ-2022_02_23_124","server":"v1.ssrsub.com","port":443,"type":"vmess","uuid":"b2015918-4a70-4250-8afa-dba8a5be97f4","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"AFTZ-2022_02_23_125","server":"v2.ssrsub.com","port":8443,"type":"vmess","uuid":"b2015918-4a70-4250-8afa-dba8a5be97f4","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_126","server":"v3.ssrsub.com","port":443,"type":"vmess","uuid":"b2015918-4a70-4250-8afa-dba8a5be97f4","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_127","server":"v4.ssrsub.com","port":166,"type":"vmess","uuid":"b2015918-4a70-4250-8afa-dba8a5be97f4","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_128","server":"v6.ssrsub.com","port":166,"type":"vmess","uuid":"b2015918-4a70-4250-8afa-dba8a5be97f4","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_129","server":"v8.ssrsub.com","port":443,"type":"vmess","uuid":"b2015918-4a70-4250-8afa-dba8a5be97f4","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"AFTZ-2022_02_23_130","server":"v9.ssrsub.com","port":8443,"type":"vmess","uuid":"b2015918-4a70-4250-8afa-dba8a5be97f4","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_131","server":"t5.ssrsub.com","port":8443,"type":"trojan","password":"b2015918-4a70-4250-8afa-dba8a5be97f4","sni":"t5.ssrsub.com"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_132","server":"t8.ssrsub.com","port":8443,"type":"trojan","password":"b2015918-4a70-4250-8afa-dba8a5be97f4","sni":"t8.ssrsub.com"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_133","server":"t9.ssrsub.com","port":8443,"type":"trojan","password":"b2015918-4a70-4250-8afa-dba8a5be97f4","sni":"t9.ssrsub.com"}
+  - {"name":"🇰🇷_KR_韩国_AFTZ-2022_02_23_134","server":"t10.ssrsub.com","port":8443,"type":"trojan","password":"b2015918-4a70-4250-8afa-dba8a5be97f4","sni":"t10.ssrsub.com"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_135","server":"134.195.196.193","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_136","server":"134.195.196.193","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_137","server":"172.99.190.205","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_138","server":"172.99.190.205","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_139","server":"134.195.196.193","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_140","server":"172.99.190.205","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_141","server":"172.99.190.205","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_142","server":"169.197.141.91","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_143","server":"172.99.190.205","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_144","server":"134.195.196.147","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_145","server":"134.195.196.147","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_146","server":"172.99.190.149","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_147","server":"169.197.141.91","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_148","server":"134.195.196.200","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_149","server":"172.99.190.149","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_150","server":"172.99.190.188","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_151","server":"134.195.196.200","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_152","server":"172.99.190.188","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_153","server":"172.99.190.188","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_154","server":"172.99.190.188","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_155","server":"172.99.190.149","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_156","server":"134.195.196.147","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_157","server":"134.195.196.200","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_158","server":"172.99.190.149","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_159","server":"134.195.196.200","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_160","server":"134.195.196.193","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_161","server":"172.99.190.188","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_162","server":"38.91.100.27","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇬🇧_GB_英国_AFTZ-2022_02_23_163","server":"172.99.190.149","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_164","server":"167.88.63.99","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_165","server":"38.75.136.58","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇮🇳_IN_印度_AFTZ-2022_02_23_166","server":"192.46.211.249","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_167","server":"38.75.136.58","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_168","server":"38.75.136.58","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_169","server":"38.68.134.196","port":808,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇮🇳_IN_印度_AFTZ-2022_02_23_170","server":"192.46.211.249","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_171","server":"38.68.134.196","port":812,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇮🇳_IN_印度_AFTZ-2022_02_23_172","server":"192.46.211.249","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_173","server":"167.88.63.99","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_174","server":"38.75.136.58","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_175","server":"167.88.63.99","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_176","server":"167.88.63.99","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_177","server":"38.121.43.51","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_178","server":"167.88.63.99","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_179","server":"38.68.135.208","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_180","server":"38.75.136.58","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇮🇳_IN_印度_AFTZ-2022_02_23_181","server":"192.46.211.249","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_182","server":"38.68.134.196","port":805,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_183","server":"38.68.134.196","port":800,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_184","server":"167.88.63.117","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_185","server":"38.68.135.208","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_186","server":"38.68.135.208","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_187","server":"38.68.135.208","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇮🇳_IN_印度_AFTZ-2022_02_23_188","server":"192.46.211.249","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_189","server":"38.68.134.135","port":809,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_190","server":"134.195.196.147","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_191","server":"134.195.196.217","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_192","server":"169.197.141.91","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_193","server":"38.68.134.196","port":802,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_194","server":"126.wgong.xyz","port":52226,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_195","server":"114.wowogg.cyou","port":52214,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_196","server":"121.wowogg.cyou","port":52221,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_197","server":"99.wowogg.cyou","port":52299,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_198","server":"100.wowogg.cyou","port":11220,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_199","server":"us-l1-n1.xyx-xy-01.com","port":8080,"type":"vmess","uuid":"3c655ed5-3971-3c7a-84e1-bd7ff97ac936","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_200","server":"app.ssfree.ru","port":443,"type":"vmess","uuid":"e8cbf81a-9393-11ec-ae82-000017022008","alterId":64,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/getweather"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_201","server":"192.186.129.66","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/ws"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_202","server":"23.82.136.151","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/ws"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_203","server":"test.0dc.cn","port":443,"type":"vmess","uuid":"ebe5703b-c18e-4664-c3a7-9fcf52453898","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"AFTZ-2022_02_23_204","server":"198.41.212.9","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/sakura/"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_205","server":"anzhuo-hezi1.herokuapp.com","port":443,"type":"vmess","uuid":"05b8441f-3c76-4af1-b5b9-dd60d27e5ef8","alterId":64,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_206","server":"104.168.13.8","port":41342,"type":"vmess","uuid":"3aa90670-6d21-4287-eec5-0cd0b21d579a","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_207","server":"v2us01.isxa.top","port":443,"type":"vmess","uuid":"b5e2b40b-1ca0-ee11-fa8c-1c00ac295cbf","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/ray"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_208","server":"v2us02.isxa.top","port":443,"type":"vmess","uuid":"6ff043b6-60b9-cdae-5422-3d3ced9bc9c2","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/ray"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_209","server":"v2us03.isxa.top","port":443,"type":"vmess","uuid":"483abe2a-10cd-8341-d09f-f3574c8693e7","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/ray"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_210","server":"www.kernels.bid","port":443,"type":"vmess","uuid":"6c7c5e3a-73ad-467a-1241-206987daa04f","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_211","server":"www.kernels.bid","port":80,"type":"vmess","uuid":"25ec39f7-7cdd-4c3c-bc3c-60e9a8927b4a","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_212","server":"217.138.204.202","port":443,"type":"vmess","uuid":"fa1eff46-f454-42d9-b881-90a102d5521d","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_213","server":"us1nhg-node.aiqiche123.com","port":13723,"type":"vmess","uuid":"a90597c1-bab3-4217-ad6f-0838675c8634","alterId":10,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_214","server":"45.58.150.130","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_215","server":"dax6ujai.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_216","server":"45.91.83.111","port":13723,"type":"vmess","uuid":"a90597c1-bab3-4217-ad6f-0838675c8634","alterId":10,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇯🇵_JP_日本_AFTZ-2022_02_23_217","server":"os2-6.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb","sni":"os2-6.sstr-api.xyz"}
+  - {"name":"🇯🇵_JP_日本_AFTZ-2022_02_23_218","server":"os2-8.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb","sni":"os2-8.sstr-api.xyz"}
+  - {"name":"🇯🇵_JP_日本_AFTZ-2022_02_23_219","server":"os2-4.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb","sni":"os2-4.sstr-api.xyz"}
+  - {"name":"🇯🇵_JP_日本_AFTZ-2022_02_23_220","server":"os2-5.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb","sni":"os2-5.sstr-api.xyz"}
+  - {"name":"🇵🇹_PT_葡萄牙_AFTZ-2022_02_23_221","server":"185.90.57.152","port":8388,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"qSnstpCypymLvPeyLRqf"}
+  - {"name":"🇰🇷_KR_韩国_AFTZ-2022_02_23_222","server":"v11.ssrsub.com","port":166,"type":"vmess","uuid":"b2015918-4a70-4250-8afa-dba8a5be97f4","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇰🇷_KR_韩国_AFTZ-2022_02_23_223","server":"chuna1.515223.xyz","port":24793,"type":"vmess","uuid":"58975106-dc46-4942-b79e-336da67f1bbd","alterId":0,"cipher":"auto","tls":false}
+  - {"name":"🇰🇷_KR_韩国_AFTZ-2022_02_23_224","server":"128.1.125.164","port":443,"type":"vmess","uuid":"312c3de7-233e-4d72-b3dc-de0205083312","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/ray"}}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_225","server":"134.195.196.68","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_226","server":"134.195.196.68","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_227","server":"134.195.196.68","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_228","server":"134.195.196.68","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_229","server":"134.195.196.68","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_230","server":"134.195.196.68","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_231","server":"134.195.196.68","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_232","server":"134.195.196.68","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_233","server":"134.195.196.68","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_234","server":"134.195.196.68","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_235","server":"134.195.196.68","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_236","server":"134.195.196.68","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_237","server":"134.195.196.68","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_238","server":"134.195.196.68","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_239","server":"134.195.196.68","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_240","server":"134.195.196.68","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_241","server":"134.195.196.68","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_242","server":"134.195.196.68","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_AFTZ-2022_02_23_243","server":"134.195.196.68","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_244","server":"169.197.142.47","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_245","server":"169.197.142.47","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_246","server":"169.197.142.47","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_247","server":"169.197.142.47","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_248","server":"169.197.142.47","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_249","server":"169.197.142.47","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_250","server":"169.197.142.47","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_251","server":"169.197.142.47","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_252","server":"169.197.142.47","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_253","server":"169.197.142.47","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_254","server":"169.197.142.47","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_255","server":"169.197.142.47","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_256","server":"169.197.142.47","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_257","server":"169.197.142.47","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_258","server":"169.197.142.47","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_259","server":"169.197.142.47","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_260","server":"169.197.142.47","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_261","server":"169.197.142.47","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_262","server":"169.197.142.47","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_263","server":"169.197.142.47","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_264","server":"169.197.142.47","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_265","server":"169.197.142.47","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_266","server":"169.197.142.47","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_267","server":"169.197.142.47","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_268","server":"169.197.142.47","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_269","server":"169.197.142.47","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_270","server":"169.197.142.47","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_271","server":"169.197.142.47","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_272","server":"169.197.142.187","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_273","server":"169.197.142.187","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_274","server":"169.197.142.187","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_275","server":"169.197.142.187","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_276","server":"169.197.142.187","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_277","server":"169.197.142.187","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_278","server":"169.197.142.187","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_279","server":"169.197.142.187","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_280","server":"169.197.142.187","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_281","server":"169.197.142.187","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_282","server":"169.197.142.187","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_283","server":"169.197.142.187","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_284","server":"169.197.142.187","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_285","server":"169.197.142.187","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_286","server":"169.197.142.187","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_287","server":"169.197.142.187","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_288","server":"169.197.142.187","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_289","server":"169.197.142.187","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_290","server":"169.197.142.187","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_291","server":"169.197.142.187","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_292","server":"169.197.142.187","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_293","server":"169.197.142.187","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_294","server":"169.197.142.187","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_295","server":"169.197.142.187","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_296","server":"169.197.142.187","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_297","server":"169.197.142.187","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_298","server":"169.197.142.187","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_299","server":"169.197.142.187","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_300","server":"169.197.142.187","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_301","server":"169.197.142.187","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_302","server":"169.197.142.187","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_303","server":"169.197.142.187","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_AFTZ-2022_02_23_304","server":"169.197.142.187","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ‌‌🇨🇦CA_5601atWangCai_1
-      - ‌‌🇨🇦CA_3389atWangCai_1
-      - ‌‌🇨🇦CA_8091atWangCai_1
-      - ‌‌🇨🇦CA_7001atWangCai_1
-      - ‌‌🇨🇦CA_8008atWangCai_1
-      - ‌‌🇨🇦CA_8118atWangCai_1
-      - ‌‌🇨🇦CA_4444atWangCai_1
-      - ‌‌🇨🇦CA_6697atWangCai_1
-      - ‌‌🇨🇦CA_8881atWangCai_1
-      - ‌‌🇨🇦CA_9102atWangCai_1
-      - ‌‌🇨🇦CA_6379atWangCai_1
-      - ‌‌🇨🇦CA_8009atWangCai_1
-      - ‌‌🇨🇦CA_9101atWangCai_1
-      - ‌‌🇨🇦CA_5500atWangCai_1
-      - ‌‌🇨🇦CA_6679atWangCai_1
-      - ‌‌🇨🇦CA_7002atWangCai_1
-      - ‌‌🇨🇦CA_8888atWangCai_1
-      - ‌‌🇨🇦CA_5001atWangCai_1
-      - ‌‌🇨🇦CA_0443atWangCai_1
-      - 🇺🇸US_2375atWangCai_1
-      - 🇺🇸US_8080atWangCai_1
-      - 🇺🇸US_8882atWangCai_1
-      - 🇺🇸US_6379atWangCai_1
-      - 🇺🇸US_9101atWangCai_1
-      - 🇺🇸US_2376atWangCai_1
-      - 🇺🇸US_8118atWangCai_1
-      - 🇺🇸US_5003atWangCai_1
-      - 🇺🇸US_7001atWangCai_1
-      - 🇺🇸US_4444atWangCai_1
-      - 🇺🇸US_8119atWangCai_1
-      - 🇺🇸US_0443atWangCai_1
-      - 🇺🇸US_3389atWangCai_1
-      - 🇺🇸US_6679atWangCai_1
-      - 🇺🇸US_5601atWangCai_1
-      - 🇺🇸US_8008atWangCai_1
-      - 🇺🇸US_3306atWangCai_1
-      - 🇺🇸US_5500atWangCai_1
-      - 🇺🇸US_5600atWangCai_1
-      - 🇺🇸US_6697atWangCai_1
-      - 🇺🇸US_7002atWangCai_1
-      - 🇺🇸US_5004atWangCai_1
-      - 🇺🇸US_9102atWangCai_1
-      - 🇺🇸US_8881atWangCai_1
-      - 🇺🇸US_8091atWangCai_1
-      - 🇺🇸US_5001atWangCai_1
-      - 🇺🇸US_8888atWangCai_1
-      - 🇺🇸US_8090atWangCai_1
-      - 🇺🇸US_8118atWangCai_1
-      - 🇺🇸US_6697atWangCai_1
-      - 🇺🇸US_5601atWangCai_1
-      - 🇺🇸US_8119atWangCai_1
-      - 🇺🇸US_5003atWangCai_1
-      - 🇺🇸US_5001atWangCai_1
-      - 🇺🇸US_9102atWangCai_1
-      - 🇺🇸US_7306atWangCai_1
-      - 🇺🇸US_8881atWangCai_1
-      - 🇺🇸US_8080atWangCai_1
-      - 🇺🇸US_5000atWangCai_1
-      - 🇺🇸US_4444atWangCai_1
-      - 🇺🇸US_0443atWangCai_1
-      - 🇺🇸US_8009atWangCai_1
-      - 🇺🇸US_8008atWangCai_1
-      - 🇺🇸US_7002atWangCai_1
-      - 🇺🇸US_7307atWangCai_1
-      - 🇺🇸US_3306atWangCai_1
-      - 🇺🇸US_8000atWangCai_1
-      - 🇺🇸US_6679atWangCai_1
-      - 🇺🇸US_8888atWangCai_1
-      - 🇺🇸US_8090atWangCai_1
-      - 🇺🇸US_8882atWangCai_1
-      - 🇺🇸US_6379atWangCai_1
-      - 🇺🇸US_9101atWangCai_1
-      - 🇺🇸US_8091atWangCai_1
-      - 🇺🇸US_5500atWangCai_1
-      - 🇺🇸US_5600atWangCai_1
-      - 🇺🇸US_5004atWangCai_1
-      - 🇺🇸US_2375atWangCai_1
-      - 🇺🇸US_7001atWangCai_1
-      - 🇺🇸US_3389atWangCai_1
-      - 🇺🇸US_2376atWangCai_1
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_1
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_2
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_3
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_4
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_5
+      - 🇱🇹_LT_立陶宛_AFTZ-2022_02_23_6
+      - 🇵🇱_PL_波兰_AFTZ-2022_02_23_7
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_8
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_9
+      - 🇨🇿_CZ_捷克_AFTZ-2022_02_23_10
+      - 🇨🇿_CZ_捷克_AFTZ-2022_02_23_11
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_12
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_13
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_14
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_15
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_16
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_17
+      - 🇹🇼_TW_台湾_AFTZ-2022_02_23_18
+      - 🇵🇭_PH_菲律宾_AFTZ-2022_02_23_19
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_20
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_21
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_22
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_23
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_24
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_25
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_26
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_27
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_28
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_29
+      - 🇿🇦_ZA_南非_AFTZ-2022_02_23_30
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_31
+      - 🇮🇩_ID_印度尼西亚_AFTZ-2022_02_23_32
+      - 🇹🇷_TR_土耳其_AFTZ-2022_02_23_33
+      - 🇹🇷_TR_土耳其_AFTZ-2022_02_23_34
+      - 🇨🇾_CY_塞浦路斯_AFTZ-2022_02_23_35
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_36
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_37
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_38
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_39
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_40
+      - 🇱🇹_LT_立陶宛_AFTZ-2022_02_23_41
+      - 🇸🇬_SG_新加坡_AFTZ-2022_02_23_42
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_43
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_44
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_45
+      - 🇸🇬_SG_新加坡_AFTZ-2022_02_23_46
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_47
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_48
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_49
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_50
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_51
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_52
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_53
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_54
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_55
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_56
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_57
+      - 🇧🇪_BE_比利时_AFTZ-2022_02_23_58
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_59
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_60
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_61
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_62
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_63
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_64
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_65
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_66
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_67
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_68
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_69
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_70
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_71
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_72
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_73
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_74
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_75
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_76
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_77
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_78
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_79
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_80
+      - AFTZ-2022_02_23_81
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_82
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_83
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_84
+      - AFTZ-2022_02_23_85
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_86
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_87
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_88
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_89
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_90
+      - AFTZ-2022_02_23_91
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_92
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_93
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_94
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_95
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_96
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_97
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_98
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_99
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_100
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_101
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_102
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_103
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_104
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_105
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_106
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_107
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_108
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_109
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_110
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_111
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_112
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_113
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_114
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_115
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_116
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_117
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_118
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_119
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_120
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_121
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_122
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_123
+      - AFTZ-2022_02_23_124
+      - AFTZ-2022_02_23_125
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_126
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_127
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_128
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_129
+      - AFTZ-2022_02_23_130
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_131
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_132
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_133
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_134
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_135
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_136
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_137
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_138
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_139
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_140
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_141
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_142
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_143
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_144
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_145
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_146
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_147
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_148
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_149
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_150
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_151
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_152
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_153
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_154
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_155
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_156
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_157
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_158
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_159
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_160
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_161
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_162
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_163
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_164
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_165
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_166
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_167
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_168
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_169
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_170
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_171
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_172
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_173
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_174
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_175
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_176
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_177
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_178
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_179
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_180
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_181
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_182
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_183
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_184
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_185
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_186
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_187
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_188
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_189
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_190
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_191
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_192
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_193
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_194
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_195
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_196
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_197
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_198
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_199
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_200
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_201
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_202
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_203
+      - AFTZ-2022_02_23_204
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_205
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_206
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_207
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_208
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_209
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_210
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_211
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_212
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_213
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_214
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_215
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_216
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_217
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_218
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_219
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_220
+      - 🇵🇹_PT_葡萄牙_AFTZ-2022_02_23_221
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_222
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_223
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_224
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_225
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_226
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_227
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_228
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_229
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_230
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_231
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_232
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_233
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_234
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_235
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_236
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_237
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_238
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_239
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_240
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_241
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_242
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_243
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_244
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_245
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_246
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_247
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_248
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_249
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_250
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_251
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_252
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_253
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_254
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_255
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_256
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_257
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_258
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_259
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_260
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_261
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_262
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_263
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_264
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_265
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_266
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_267
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_268
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_269
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_270
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_271
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_272
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_273
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_274
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_275
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_276
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_277
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_278
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_279
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_280
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_281
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_282
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_283
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_284
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_285
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_286
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_287
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_288
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_289
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_290
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_291
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_292
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_293
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_294
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_295
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_296
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_297
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_298
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_299
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_300
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_301
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_302
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_303
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_304
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ‌‌🇨🇦CA_5601atWangCai_1
-      - ‌‌🇨🇦CA_3389atWangCai_1
-      - ‌‌🇨🇦CA_8091atWangCai_1
-      - ‌‌🇨🇦CA_7001atWangCai_1
-      - ‌‌🇨🇦CA_8008atWangCai_1
-      - ‌‌🇨🇦CA_8118atWangCai_1
-      - ‌‌🇨🇦CA_4444atWangCai_1
-      - ‌‌🇨🇦CA_6697atWangCai_1
-      - ‌‌🇨🇦CA_8881atWangCai_1
-      - ‌‌🇨🇦CA_9102atWangCai_1
-      - ‌‌🇨🇦CA_6379atWangCai_1
-      - ‌‌🇨🇦CA_8009atWangCai_1
-      - ‌‌🇨🇦CA_9101atWangCai_1
-      - ‌‌🇨🇦CA_5500atWangCai_1
-      - ‌‌🇨🇦CA_6679atWangCai_1
-      - ‌‌🇨🇦CA_7002atWangCai_1
-      - ‌‌🇨🇦CA_8888atWangCai_1
-      - ‌‌🇨🇦CA_5001atWangCai_1
-      - ‌‌🇨🇦CA_0443atWangCai_1
-      - 🇺🇸US_2375atWangCai_1
-      - 🇺🇸US_8080atWangCai_1
-      - 🇺🇸US_8882atWangCai_1
-      - 🇺🇸US_6379atWangCai_1
-      - 🇺🇸US_9101atWangCai_1
-      - 🇺🇸US_2376atWangCai_1
-      - 🇺🇸US_8118atWangCai_1
-      - 🇺🇸US_5003atWangCai_1
-      - 🇺🇸US_7001atWangCai_1
-      - 🇺🇸US_4444atWangCai_1
-      - 🇺🇸US_8119atWangCai_1
-      - 🇺🇸US_0443atWangCai_1
-      - 🇺🇸US_3389atWangCai_1
-      - 🇺🇸US_6679atWangCai_1
-      - 🇺🇸US_5601atWangCai_1
-      - 🇺🇸US_8008atWangCai_1
-      - 🇺🇸US_3306atWangCai_1
-      - 🇺🇸US_5500atWangCai_1
-      - 🇺🇸US_5600atWangCai_1
-      - 🇺🇸US_6697atWangCai_1
-      - 🇺🇸US_7002atWangCai_1
-      - 🇺🇸US_5004atWangCai_1
-      - 🇺🇸US_9102atWangCai_1
-      - 🇺🇸US_8881atWangCai_1
-      - 🇺🇸US_8091atWangCai_1
-      - 🇺🇸US_5001atWangCai_1
-      - 🇺🇸US_8888atWangCai_1
-      - 🇺🇸US_8090atWangCai_1
-      - 🇺🇸US_8118atWangCai_1
-      - 🇺🇸US_6697atWangCai_1
-      - 🇺🇸US_5601atWangCai_1
-      - 🇺🇸US_8119atWangCai_1
-      - 🇺🇸US_5003atWangCai_1
-      - 🇺🇸US_5001atWangCai_1
-      - 🇺🇸US_9102atWangCai_1
-      - 🇺🇸US_7306atWangCai_1
-      - 🇺🇸US_8881atWangCai_1
-      - 🇺🇸US_8080atWangCai_1
-      - 🇺🇸US_5000atWangCai_1
-      - 🇺🇸US_4444atWangCai_1
-      - 🇺🇸US_0443atWangCai_1
-      - 🇺🇸US_8009atWangCai_1
-      - 🇺🇸US_8008atWangCai_1
-      - 🇺🇸US_7002atWangCai_1
-      - 🇺🇸US_7307atWangCai_1
-      - 🇺🇸US_3306atWangCai_1
-      - 🇺🇸US_8000atWangCai_1
-      - 🇺🇸US_6679atWangCai_1
-      - 🇺🇸US_8888atWangCai_1
-      - 🇺🇸US_8090atWangCai_1
-      - 🇺🇸US_8882atWangCai_1
-      - 🇺🇸US_6379atWangCai_1
-      - 🇺🇸US_9101atWangCai_1
-      - 🇺🇸US_8091atWangCai_1
-      - 🇺🇸US_5500atWangCai_1
-      - 🇺🇸US_5600atWangCai_1
-      - 🇺🇸US_5004atWangCai_1
-      - 🇺🇸US_2375atWangCai_1
-      - 🇺🇸US_7001atWangCai_1
-      - 🇺🇸US_3389atWangCai_1
-      - 🇺🇸US_2376atWangCai_1
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_1
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_2
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_3
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_4
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_5
+      - 🇱🇹_LT_立陶宛_AFTZ-2022_02_23_6
+      - 🇵🇱_PL_波兰_AFTZ-2022_02_23_7
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_8
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_9
+      - 🇨🇿_CZ_捷克_AFTZ-2022_02_23_10
+      - 🇨🇿_CZ_捷克_AFTZ-2022_02_23_11
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_12
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_13
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_14
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_15
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_16
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_17
+      - 🇹🇼_TW_台湾_AFTZ-2022_02_23_18
+      - 🇵🇭_PH_菲律宾_AFTZ-2022_02_23_19
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_20
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_21
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_22
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_23
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_24
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_25
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_26
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_27
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_28
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_29
+      - 🇿🇦_ZA_南非_AFTZ-2022_02_23_30
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_31
+      - 🇮🇩_ID_印度尼西亚_AFTZ-2022_02_23_32
+      - 🇹🇷_TR_土耳其_AFTZ-2022_02_23_33
+      - 🇹🇷_TR_土耳其_AFTZ-2022_02_23_34
+      - 🇨🇾_CY_塞浦路斯_AFTZ-2022_02_23_35
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_36
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_37
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_38
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_39
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_40
+      - 🇱🇹_LT_立陶宛_AFTZ-2022_02_23_41
+      - 🇸🇬_SG_新加坡_AFTZ-2022_02_23_42
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_43
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_44
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_45
+      - 🇸🇬_SG_新加坡_AFTZ-2022_02_23_46
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_47
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_48
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_49
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_50
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_51
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_52
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_53
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_54
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_55
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_56
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_57
+      - 🇧🇪_BE_比利时_AFTZ-2022_02_23_58
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_59
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_60
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_61
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_62
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_63
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_64
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_65
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_66
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_67
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_68
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_69
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_70
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_71
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_72
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_73
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_74
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_75
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_76
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_77
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_78
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_79
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_80
+      - AFTZ-2022_02_23_81
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_82
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_83
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_84
+      - AFTZ-2022_02_23_85
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_86
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_87
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_88
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_89
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_90
+      - AFTZ-2022_02_23_91
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_92
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_93
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_94
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_95
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_96
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_97
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_98
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_99
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_100
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_101
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_102
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_103
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_104
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_105
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_106
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_107
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_108
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_109
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_110
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_111
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_112
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_113
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_114
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_115
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_116
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_117
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_118
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_119
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_120
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_121
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_122
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_123
+      - AFTZ-2022_02_23_124
+      - AFTZ-2022_02_23_125
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_126
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_127
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_128
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_129
+      - AFTZ-2022_02_23_130
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_131
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_132
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_133
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_134
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_135
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_136
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_137
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_138
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_139
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_140
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_141
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_142
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_143
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_144
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_145
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_146
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_147
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_148
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_149
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_150
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_151
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_152
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_153
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_154
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_155
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_156
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_157
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_158
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_159
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_160
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_161
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_162
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_163
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_164
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_165
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_166
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_167
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_168
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_169
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_170
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_171
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_172
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_173
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_174
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_175
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_176
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_177
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_178
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_179
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_180
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_181
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_182
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_183
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_184
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_185
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_186
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_187
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_188
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_189
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_190
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_191
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_192
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_193
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_194
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_195
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_196
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_197
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_198
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_199
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_200
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_201
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_202
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_203
+      - AFTZ-2022_02_23_204
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_205
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_206
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_207
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_208
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_209
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_210
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_211
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_212
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_213
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_214
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_215
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_216
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_217
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_218
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_219
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_220
+      - 🇵🇹_PT_葡萄牙_AFTZ-2022_02_23_221
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_222
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_223
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_224
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_225
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_226
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_227
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_228
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_229
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_230
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_231
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_232
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_233
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_234
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_235
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_236
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_237
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_238
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_239
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_240
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_241
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_242
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_243
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_244
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_245
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_246
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_247
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_248
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_249
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_250
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_251
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_252
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_253
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_254
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_255
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_256
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_257
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_258
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_259
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_260
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_261
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_262
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_263
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_264
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_265
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_266
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_267
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_268
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_269
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_270
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_271
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_272
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_273
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_274
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_275
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_276
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_277
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_278
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_279
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_280
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_281
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_282
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_283
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_284
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_285
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_286
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_287
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_288
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_289
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_290
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_291
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_292
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_293
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_294
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_295
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_296
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_297
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_298
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_299
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_300
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_301
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_302
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_303
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_304
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ‌‌🇨🇦CA_5601atWangCai_1
-      - ‌‌🇨🇦CA_3389atWangCai_1
-      - ‌‌🇨🇦CA_8091atWangCai_1
-      - ‌‌🇨🇦CA_7001atWangCai_1
-      - ‌‌🇨🇦CA_8008atWangCai_1
-      - ‌‌🇨🇦CA_8118atWangCai_1
-      - ‌‌🇨🇦CA_4444atWangCai_1
-      - ‌‌🇨🇦CA_6697atWangCai_1
-      - ‌‌🇨🇦CA_8881atWangCai_1
-      - ‌‌🇨🇦CA_9102atWangCai_1
-      - ‌‌🇨🇦CA_6379atWangCai_1
-      - ‌‌🇨🇦CA_8009atWangCai_1
-      - ‌‌🇨🇦CA_9101atWangCai_1
-      - ‌‌🇨🇦CA_5500atWangCai_1
-      - ‌‌🇨🇦CA_6679atWangCai_1
-      - ‌‌🇨🇦CA_7002atWangCai_1
-      - ‌‌🇨🇦CA_8888atWangCai_1
-      - ‌‌🇨🇦CA_5001atWangCai_1
-      - ‌‌🇨🇦CA_0443atWangCai_1
-      - 🇺🇸US_2375atWangCai_1
-      - 🇺🇸US_8080atWangCai_1
-      - 🇺🇸US_8882atWangCai_1
-      - 🇺🇸US_6379atWangCai_1
-      - 🇺🇸US_9101atWangCai_1
-      - 🇺🇸US_2376atWangCai_1
-      - 🇺🇸US_8118atWangCai_1
-      - 🇺🇸US_5003atWangCai_1
-      - 🇺🇸US_7001atWangCai_1
-      - 🇺🇸US_4444atWangCai_1
-      - 🇺🇸US_8119atWangCai_1
-      - 🇺🇸US_0443atWangCai_1
-      - 🇺🇸US_3389atWangCai_1
-      - 🇺🇸US_6679atWangCai_1
-      - 🇺🇸US_5601atWangCai_1
-      - 🇺🇸US_8008atWangCai_1
-      - 🇺🇸US_3306atWangCai_1
-      - 🇺🇸US_5500atWangCai_1
-      - 🇺🇸US_5600atWangCai_1
-      - 🇺🇸US_6697atWangCai_1
-      - 🇺🇸US_7002atWangCai_1
-      - 🇺🇸US_5004atWangCai_1
-      - 🇺🇸US_9102atWangCai_1
-      - 🇺🇸US_8881atWangCai_1
-      - 🇺🇸US_8091atWangCai_1
-      - 🇺🇸US_5001atWangCai_1
-      - 🇺🇸US_8888atWangCai_1
-      - 🇺🇸US_8090atWangCai_1
-      - 🇺🇸US_8118atWangCai_1
-      - 🇺🇸US_6697atWangCai_1
-      - 🇺🇸US_5601atWangCai_1
-      - 🇺🇸US_8119atWangCai_1
-      - 🇺🇸US_5003atWangCai_1
-      - 🇺🇸US_5001atWangCai_1
-      - 🇺🇸US_9102atWangCai_1
-      - 🇺🇸US_7306atWangCai_1
-      - 🇺🇸US_8881atWangCai_1
-      - 🇺🇸US_8080atWangCai_1
-      - 🇺🇸US_5000atWangCai_1
-      - 🇺🇸US_4444atWangCai_1
-      - 🇺🇸US_0443atWangCai_1
-      - 🇺🇸US_8009atWangCai_1
-      - 🇺🇸US_8008atWangCai_1
-      - 🇺🇸US_7002atWangCai_1
-      - 🇺🇸US_7307atWangCai_1
-      - 🇺🇸US_3306atWangCai_1
-      - 🇺🇸US_8000atWangCai_1
-      - 🇺🇸US_6679atWangCai_1
-      - 🇺🇸US_8888atWangCai_1
-      - 🇺🇸US_8090atWangCai_1
-      - 🇺🇸US_8882atWangCai_1
-      - 🇺🇸US_6379atWangCai_1
-      - 🇺🇸US_9101atWangCai_1
-      - 🇺🇸US_8091atWangCai_1
-      - 🇺🇸US_5500atWangCai_1
-      - 🇺🇸US_5600atWangCai_1
-      - 🇺🇸US_5004atWangCai_1
-      - 🇺🇸US_2375atWangCai_1
-      - 🇺🇸US_7001atWangCai_1
-      - 🇺🇸US_3389atWangCai_1
-      - 🇺🇸US_2376atWangCai_1
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_1
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_2
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_3
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_4
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_5
+      - 🇱🇹_LT_立陶宛_AFTZ-2022_02_23_6
+      - 🇵🇱_PL_波兰_AFTZ-2022_02_23_7
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_8
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_9
+      - 🇨🇿_CZ_捷克_AFTZ-2022_02_23_10
+      - 🇨🇿_CZ_捷克_AFTZ-2022_02_23_11
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_12
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_13
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_14
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_15
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_16
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_17
+      - 🇹🇼_TW_台湾_AFTZ-2022_02_23_18
+      - 🇵🇭_PH_菲律宾_AFTZ-2022_02_23_19
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_20
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_21
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_22
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_23
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_24
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_25
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_26
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_27
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_28
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_29
+      - 🇿🇦_ZA_南非_AFTZ-2022_02_23_30
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_31
+      - 🇮🇩_ID_印度尼西亚_AFTZ-2022_02_23_32
+      - 🇹🇷_TR_土耳其_AFTZ-2022_02_23_33
+      - 🇹🇷_TR_土耳其_AFTZ-2022_02_23_34
+      - 🇨🇾_CY_塞浦路斯_AFTZ-2022_02_23_35
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_36
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_37
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_38
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_39
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_40
+      - 🇱🇹_LT_立陶宛_AFTZ-2022_02_23_41
+      - 🇸🇬_SG_新加坡_AFTZ-2022_02_23_42
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_43
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_44
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_45
+      - 🇸🇬_SG_新加坡_AFTZ-2022_02_23_46
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_47
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_48
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_49
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_50
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_51
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_52
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_53
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_54
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_55
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_56
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_57
+      - 🇧🇪_BE_比利时_AFTZ-2022_02_23_58
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_59
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_60
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_61
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_62
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_63
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_64
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_65
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_66
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_67
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_68
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_69
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_70
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_71
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_72
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_73
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_74
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_75
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_76
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_77
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_78
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_79
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_80
+      - AFTZ-2022_02_23_81
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_82
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_83
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_84
+      - AFTZ-2022_02_23_85
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_86
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_87
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_88
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_89
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_90
+      - AFTZ-2022_02_23_91
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_92
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_93
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_94
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_95
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_96
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_97
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_98
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_99
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_100
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_101
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_102
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_103
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_104
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_105
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_106
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_107
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_108
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_109
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_110
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_111
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_112
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_113
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_114
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_115
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_116
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_117
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_118
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_119
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_120
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_121
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_122
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_123
+      - AFTZ-2022_02_23_124
+      - AFTZ-2022_02_23_125
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_126
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_127
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_128
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_129
+      - AFTZ-2022_02_23_130
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_131
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_132
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_133
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_134
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_135
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_136
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_137
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_138
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_139
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_140
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_141
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_142
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_143
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_144
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_145
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_146
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_147
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_148
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_149
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_150
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_151
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_152
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_153
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_154
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_155
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_156
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_157
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_158
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_159
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_160
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_161
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_162
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_163
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_164
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_165
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_166
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_167
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_168
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_169
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_170
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_171
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_172
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_173
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_174
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_175
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_176
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_177
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_178
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_179
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_180
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_181
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_182
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_183
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_184
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_185
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_186
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_187
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_188
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_189
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_190
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_191
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_192
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_193
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_194
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_195
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_196
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_197
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_198
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_199
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_200
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_201
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_202
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_203
+      - AFTZ-2022_02_23_204
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_205
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_206
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_207
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_208
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_209
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_210
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_211
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_212
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_213
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_214
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_215
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_216
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_217
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_218
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_219
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_220
+      - 🇵🇹_PT_葡萄牙_AFTZ-2022_02_23_221
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_222
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_223
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_224
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_225
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_226
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_227
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_228
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_229
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_230
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_231
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_232
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_233
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_234
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_235
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_236
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_237
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_238
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_239
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_240
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_241
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_242
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_243
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_244
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_245
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_246
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_247
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_248
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_249
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_250
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_251
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_252
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_253
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_254
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_255
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_256
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_257
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_258
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_259
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_260
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_261
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_262
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_263
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_264
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_265
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_266
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_267
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_268
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_269
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_270
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_271
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_272
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_273
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_274
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_275
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_276
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_277
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_278
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_279
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_280
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_281
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_282
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_283
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_284
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_285
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_286
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_287
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_288
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_289
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_290
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_291
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_292
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_293
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_294
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_295
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_296
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_297
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_298
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_299
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_300
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_301
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_302
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_303
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_304
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ‌‌🇨🇦CA_5601atWangCai_1
-      - ‌‌🇨🇦CA_3389atWangCai_1
-      - ‌‌🇨🇦CA_8091atWangCai_1
-      - ‌‌🇨🇦CA_7001atWangCai_1
-      - ‌‌🇨🇦CA_8008atWangCai_1
-      - ‌‌🇨🇦CA_8118atWangCai_1
-      - ‌‌🇨🇦CA_4444atWangCai_1
-      - ‌‌🇨🇦CA_6697atWangCai_1
-      - ‌‌🇨🇦CA_8881atWangCai_1
-      - ‌‌🇨🇦CA_9102atWangCai_1
-      - ‌‌🇨🇦CA_6379atWangCai_1
-      - ‌‌🇨🇦CA_8009atWangCai_1
-      - ‌‌🇨🇦CA_9101atWangCai_1
-      - ‌‌🇨🇦CA_5500atWangCai_1
-      - ‌‌🇨🇦CA_6679atWangCai_1
-      - ‌‌🇨🇦CA_7002atWangCai_1
-      - ‌‌🇨🇦CA_8888atWangCai_1
-      - ‌‌🇨🇦CA_5001atWangCai_1
-      - ‌‌🇨🇦CA_0443atWangCai_1
-      - 🇺🇸US_2375atWangCai_1
-      - 🇺🇸US_8080atWangCai_1
-      - 🇺🇸US_8882atWangCai_1
-      - 🇺🇸US_6379atWangCai_1
-      - 🇺🇸US_9101atWangCai_1
-      - 🇺🇸US_2376atWangCai_1
-      - 🇺🇸US_8118atWangCai_1
-      - 🇺🇸US_5003atWangCai_1
-      - 🇺🇸US_7001atWangCai_1
-      - 🇺🇸US_4444atWangCai_1
-      - 🇺🇸US_8119atWangCai_1
-      - 🇺🇸US_0443atWangCai_1
-      - 🇺🇸US_3389atWangCai_1
-      - 🇺🇸US_6679atWangCai_1
-      - 🇺🇸US_5601atWangCai_1
-      - 🇺🇸US_8008atWangCai_1
-      - 🇺🇸US_3306atWangCai_1
-      - 🇺🇸US_5500atWangCai_1
-      - 🇺🇸US_5600atWangCai_1
-      - 🇺🇸US_6697atWangCai_1
-      - 🇺🇸US_7002atWangCai_1
-      - 🇺🇸US_5004atWangCai_1
-      - 🇺🇸US_9102atWangCai_1
-      - 🇺🇸US_8881atWangCai_1
-      - 🇺🇸US_8091atWangCai_1
-      - 🇺🇸US_5001atWangCai_1
-      - 🇺🇸US_8888atWangCai_1
-      - 🇺🇸US_8090atWangCai_1
-      - 🇺🇸US_8118atWangCai_1
-      - 🇺🇸US_6697atWangCai_1
-      - 🇺🇸US_5601atWangCai_1
-      - 🇺🇸US_8119atWangCai_1
-      - 🇺🇸US_5003atWangCai_1
-      - 🇺🇸US_5001atWangCai_1
-      - 🇺🇸US_9102atWangCai_1
-      - 🇺🇸US_7306atWangCai_1
-      - 🇺🇸US_8881atWangCai_1
-      - 🇺🇸US_8080atWangCai_1
-      - 🇺🇸US_5000atWangCai_1
-      - 🇺🇸US_4444atWangCai_1
-      - 🇺🇸US_0443atWangCai_1
-      - 🇺🇸US_8009atWangCai_1
-      - 🇺🇸US_8008atWangCai_1
-      - 🇺🇸US_7002atWangCai_1
-      - 🇺🇸US_7307atWangCai_1
-      - 🇺🇸US_3306atWangCai_1
-      - 🇺🇸US_8000atWangCai_1
-      - 🇺🇸US_6679atWangCai_1
-      - 🇺🇸US_8888atWangCai_1
-      - 🇺🇸US_8090atWangCai_1
-      - 🇺🇸US_8882atWangCai_1
-      - 🇺🇸US_6379atWangCai_1
-      - 🇺🇸US_9101atWangCai_1
-      - 🇺🇸US_8091atWangCai_1
-      - 🇺🇸US_5500atWangCai_1
-      - 🇺🇸US_5600atWangCai_1
-      - 🇺🇸US_5004atWangCai_1
-      - 🇺🇸US_2375atWangCai_1
-      - 🇺🇸US_7001atWangCai_1
-      - 🇺🇸US_3389atWangCai_1
-      - 🇺🇸US_2376atWangCai_1
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_1
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_2
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_3
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_4
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_5
+      - 🇱🇹_LT_立陶宛_AFTZ-2022_02_23_6
+      - 🇵🇱_PL_波兰_AFTZ-2022_02_23_7
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_8
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_9
+      - 🇨🇿_CZ_捷克_AFTZ-2022_02_23_10
+      - 🇨🇿_CZ_捷克_AFTZ-2022_02_23_11
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_12
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_13
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_14
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_15
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_16
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_17
+      - 🇹🇼_TW_台湾_AFTZ-2022_02_23_18
+      - 🇵🇭_PH_菲律宾_AFTZ-2022_02_23_19
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_20
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_21
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_22
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_23
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_24
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_25
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_26
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_27
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_28
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_29
+      - 🇿🇦_ZA_南非_AFTZ-2022_02_23_30
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_31
+      - 🇮🇩_ID_印度尼西亚_AFTZ-2022_02_23_32
+      - 🇹🇷_TR_土耳其_AFTZ-2022_02_23_33
+      - 🇹🇷_TR_土耳其_AFTZ-2022_02_23_34
+      - 🇨🇾_CY_塞浦路斯_AFTZ-2022_02_23_35
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_36
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_37
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_38
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_39
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_40
+      - 🇱🇹_LT_立陶宛_AFTZ-2022_02_23_41
+      - 🇸🇬_SG_新加坡_AFTZ-2022_02_23_42
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_43
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_44
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_45
+      - 🇸🇬_SG_新加坡_AFTZ-2022_02_23_46
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_47
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_48
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_49
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_50
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_51
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_52
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_53
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_54
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_55
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_56
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_57
+      - 🇧🇪_BE_比利时_AFTZ-2022_02_23_58
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_59
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_60
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_61
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_62
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_63
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_64
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_65
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_66
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_67
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_68
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_69
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_70
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_71
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_72
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_73
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_74
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_75
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_76
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_77
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_78
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_79
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_80
+      - AFTZ-2022_02_23_81
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_82
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_83
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_84
+      - AFTZ-2022_02_23_85
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_86
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_87
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_88
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_89
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_90
+      - AFTZ-2022_02_23_91
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_92
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_93
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_94
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_95
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_96
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_97
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_98
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_99
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_100
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_101
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_102
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_103
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_104
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_105
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_106
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_107
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_108
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_109
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_110
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_111
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_112
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_113
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_114
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_115
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_116
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_117
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_118
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_119
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_120
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_121
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_122
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_123
+      - AFTZ-2022_02_23_124
+      - AFTZ-2022_02_23_125
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_126
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_127
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_128
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_129
+      - AFTZ-2022_02_23_130
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_131
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_132
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_133
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_134
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_135
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_136
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_137
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_138
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_139
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_140
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_141
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_142
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_143
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_144
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_145
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_146
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_147
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_148
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_149
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_150
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_151
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_152
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_153
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_154
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_155
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_156
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_157
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_158
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_159
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_160
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_161
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_162
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_163
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_164
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_165
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_166
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_167
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_168
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_169
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_170
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_171
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_172
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_173
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_174
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_175
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_176
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_177
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_178
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_179
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_180
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_181
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_182
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_183
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_184
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_185
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_186
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_187
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_188
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_189
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_190
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_191
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_192
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_193
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_194
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_195
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_196
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_197
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_198
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_199
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_200
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_201
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_202
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_203
+      - AFTZ-2022_02_23_204
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_205
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_206
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_207
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_208
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_209
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_210
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_211
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_212
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_213
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_214
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_215
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_216
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_217
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_218
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_219
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_220
+      - 🇵🇹_PT_葡萄牙_AFTZ-2022_02_23_221
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_222
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_223
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_224
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_225
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_226
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_227
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_228
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_229
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_230
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_231
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_232
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_233
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_234
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_235
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_236
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_237
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_238
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_239
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_240
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_241
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_242
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_243
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_244
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_245
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_246
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_247
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_248
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_249
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_250
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_251
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_252
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_253
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_254
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_255
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_256
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_257
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_258
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_259
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_260
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_261
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_262
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_263
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_264
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_265
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_266
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_267
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_268
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_269
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_270
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_271
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_272
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_273
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_274
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_275
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_276
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_277
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_278
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_279
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_280
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_281
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_282
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_283
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_284
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_285
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_286
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_287
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_288
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_289
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_290
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_291
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_292
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_293
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_294
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_295
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_296
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_297
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_298
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_299
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_300
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_301
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_302
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_303
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_304
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ‌‌🇨🇦CA_5601atWangCai_1
-      - ‌‌🇨🇦CA_3389atWangCai_1
-      - ‌‌🇨🇦CA_8091atWangCai_1
-      - ‌‌🇨🇦CA_7001atWangCai_1
-      - ‌‌🇨🇦CA_8008atWangCai_1
-      - ‌‌🇨🇦CA_8118atWangCai_1
-      - ‌‌🇨🇦CA_4444atWangCai_1
-      - ‌‌🇨🇦CA_6697atWangCai_1
-      - ‌‌🇨🇦CA_8881atWangCai_1
-      - ‌‌🇨🇦CA_9102atWangCai_1
-      - ‌‌🇨🇦CA_6379atWangCai_1
-      - ‌‌🇨🇦CA_8009atWangCai_1
-      - ‌‌🇨🇦CA_9101atWangCai_1
-      - ‌‌🇨🇦CA_5500atWangCai_1
-      - ‌‌🇨🇦CA_6679atWangCai_1
-      - ‌‌🇨🇦CA_7002atWangCai_1
-      - ‌‌🇨🇦CA_8888atWangCai_1
-      - ‌‌🇨🇦CA_5001atWangCai_1
-      - ‌‌🇨🇦CA_0443atWangCai_1
-      - 🇺🇸US_2375atWangCai_1
-      - 🇺🇸US_8080atWangCai_1
-      - 🇺🇸US_8882atWangCai_1
-      - 🇺🇸US_6379atWangCai_1
-      - 🇺🇸US_9101atWangCai_1
-      - 🇺🇸US_2376atWangCai_1
-      - 🇺🇸US_8118atWangCai_1
-      - 🇺🇸US_5003atWangCai_1
-      - 🇺🇸US_7001atWangCai_1
-      - 🇺🇸US_4444atWangCai_1
-      - 🇺🇸US_8119atWangCai_1
-      - 🇺🇸US_0443atWangCai_1
-      - 🇺🇸US_3389atWangCai_1
-      - 🇺🇸US_6679atWangCai_1
-      - 🇺🇸US_5601atWangCai_1
-      - 🇺🇸US_8008atWangCai_1
-      - 🇺🇸US_3306atWangCai_1
-      - 🇺🇸US_5500atWangCai_1
-      - 🇺🇸US_5600atWangCai_1
-      - 🇺🇸US_6697atWangCai_1
-      - 🇺🇸US_7002atWangCai_1
-      - 🇺🇸US_5004atWangCai_1
-      - 🇺🇸US_9102atWangCai_1
-      - 🇺🇸US_8881atWangCai_1
-      - 🇺🇸US_8091atWangCai_1
-      - 🇺🇸US_5001atWangCai_1
-      - 🇺🇸US_8888atWangCai_1
-      - 🇺🇸US_8090atWangCai_1
-      - 🇺🇸US_8118atWangCai_1
-      - 🇺🇸US_6697atWangCai_1
-      - 🇺🇸US_5601atWangCai_1
-      - 🇺🇸US_8119atWangCai_1
-      - 🇺🇸US_5003atWangCai_1
-      - 🇺🇸US_5001atWangCai_1
-      - 🇺🇸US_9102atWangCai_1
-      - 🇺🇸US_7306atWangCai_1
-      - 🇺🇸US_8881atWangCai_1
-      - 🇺🇸US_8080atWangCai_1
-      - 🇺🇸US_5000atWangCai_1
-      - 🇺🇸US_4444atWangCai_1
-      - 🇺🇸US_0443atWangCai_1
-      - 🇺🇸US_8009atWangCai_1
-      - 🇺🇸US_8008atWangCai_1
-      - 🇺🇸US_7002atWangCai_1
-      - 🇺🇸US_7307atWangCai_1
-      - 🇺🇸US_3306atWangCai_1
-      - 🇺🇸US_8000atWangCai_1
-      - 🇺🇸US_6679atWangCai_1
-      - 🇺🇸US_8888atWangCai_1
-      - 🇺🇸US_8090atWangCai_1
-      - 🇺🇸US_8882atWangCai_1
-      - 🇺🇸US_6379atWangCai_1
-      - 🇺🇸US_9101atWangCai_1
-      - 🇺🇸US_8091atWangCai_1
-      - 🇺🇸US_5500atWangCai_1
-      - 🇺🇸US_5600atWangCai_1
-      - 🇺🇸US_5004atWangCai_1
-      - 🇺🇸US_2375atWangCai_1
-      - 🇺🇸US_7001atWangCai_1
-      - 🇺🇸US_3389atWangCai_1
-      - 🇺🇸US_2376atWangCai_1
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_1
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_2
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_3
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_4
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_5
+      - 🇱🇹_LT_立陶宛_AFTZ-2022_02_23_6
+      - 🇵🇱_PL_波兰_AFTZ-2022_02_23_7
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_8
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_9
+      - 🇨🇿_CZ_捷克_AFTZ-2022_02_23_10
+      - 🇨🇿_CZ_捷克_AFTZ-2022_02_23_11
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_12
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_13
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_14
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_15
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_16
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_17
+      - 🇹🇼_TW_台湾_AFTZ-2022_02_23_18
+      - 🇵🇭_PH_菲律宾_AFTZ-2022_02_23_19
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_20
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_21
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_22
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_23
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_24
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_25
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_26
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_27
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_28
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_29
+      - 🇿🇦_ZA_南非_AFTZ-2022_02_23_30
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_31
+      - 🇮🇩_ID_印度尼西亚_AFTZ-2022_02_23_32
+      - 🇹🇷_TR_土耳其_AFTZ-2022_02_23_33
+      - 🇹🇷_TR_土耳其_AFTZ-2022_02_23_34
+      - 🇨🇾_CY_塞浦路斯_AFTZ-2022_02_23_35
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_36
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_37
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_38
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_39
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_40
+      - 🇱🇹_LT_立陶宛_AFTZ-2022_02_23_41
+      - 🇸🇬_SG_新加坡_AFTZ-2022_02_23_42
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_43
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_44
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_45
+      - 🇸🇬_SG_新加坡_AFTZ-2022_02_23_46
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_47
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_48
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_49
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_50
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_51
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_52
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_53
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_54
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_55
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_56
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_57
+      - 🇧🇪_BE_比利时_AFTZ-2022_02_23_58
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_59
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_60
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_61
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_62
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_63
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_64
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_65
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_66
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_67
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_68
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_69
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_70
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_71
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_72
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_73
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_74
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_75
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_76
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_77
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_78
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_79
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_80
+      - AFTZ-2022_02_23_81
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_82
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_83
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_84
+      - AFTZ-2022_02_23_85
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_86
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_87
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_88
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_89
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_90
+      - AFTZ-2022_02_23_91
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_92
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_93
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_94
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_95
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_96
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_97
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_98
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_99
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_100
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_101
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_102
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_103
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_104
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_105
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_106
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_107
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_108
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_109
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_110
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_111
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_112
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_113
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_114
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_115
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_116
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_117
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_118
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_119
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_120
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_121
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_122
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_123
+      - AFTZ-2022_02_23_124
+      - AFTZ-2022_02_23_125
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_126
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_127
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_128
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_129
+      - AFTZ-2022_02_23_130
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_131
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_132
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_133
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_134
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_135
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_136
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_137
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_138
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_139
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_140
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_141
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_142
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_143
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_144
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_145
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_146
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_147
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_148
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_149
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_150
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_151
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_152
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_153
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_154
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_155
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_156
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_157
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_158
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_159
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_160
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_161
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_162
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_163
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_164
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_165
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_166
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_167
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_168
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_169
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_170
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_171
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_172
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_173
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_174
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_175
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_176
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_177
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_178
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_179
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_180
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_181
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_182
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_183
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_184
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_185
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_186
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_187
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_188
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_189
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_190
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_191
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_192
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_193
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_194
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_195
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_196
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_197
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_198
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_199
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_200
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_201
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_202
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_203
+      - AFTZ-2022_02_23_204
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_205
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_206
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_207
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_208
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_209
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_210
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_211
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_212
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_213
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_214
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_215
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_216
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_217
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_218
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_219
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_220
+      - 🇵🇹_PT_葡萄牙_AFTZ-2022_02_23_221
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_222
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_223
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_224
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_225
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_226
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_227
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_228
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_229
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_230
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_231
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_232
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_233
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_234
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_235
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_236
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_237
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_238
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_239
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_240
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_241
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_242
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_243
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_244
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_245
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_246
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_247
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_248
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_249
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_250
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_251
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_252
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_253
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_254
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_255
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_256
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_257
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_258
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_259
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_260
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_261
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_262
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_263
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_264
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_265
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_266
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_267
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_268
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_269
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_270
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_271
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_272
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_273
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_274
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_275
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_276
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_277
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_278
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_279
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_280
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_281
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_282
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_283
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_284
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_285
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_286
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_287
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_288
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_289
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_290
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_291
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_292
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_293
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_294
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_295
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_296
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_297
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_298
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_299
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_300
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_301
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_302
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_303
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_304
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ‌‌🇨🇦CA_5601atWangCai_1
-      - ‌‌🇨🇦CA_3389atWangCai_1
-      - ‌‌🇨🇦CA_8091atWangCai_1
-      - ‌‌🇨🇦CA_7001atWangCai_1
-      - ‌‌🇨🇦CA_8008atWangCai_1
-      - ‌‌🇨🇦CA_8118atWangCai_1
-      - ‌‌🇨🇦CA_4444atWangCai_1
-      - ‌‌🇨🇦CA_6697atWangCai_1
-      - ‌‌🇨🇦CA_8881atWangCai_1
-      - ‌‌🇨🇦CA_9102atWangCai_1
-      - ‌‌🇨🇦CA_6379atWangCai_1
-      - ‌‌🇨🇦CA_8009atWangCai_1
-      - ‌‌🇨🇦CA_9101atWangCai_1
-      - ‌‌🇨🇦CA_5500atWangCai_1
-      - ‌‌🇨🇦CA_6679atWangCai_1
-      - ‌‌🇨🇦CA_7002atWangCai_1
-      - ‌‌🇨🇦CA_8888atWangCai_1
-      - ‌‌🇨🇦CA_5001atWangCai_1
-      - ‌‌🇨🇦CA_0443atWangCai_1
-      - 🇺🇸US_2375atWangCai_1
-      - 🇺🇸US_8080atWangCai_1
-      - 🇺🇸US_8882atWangCai_1
-      - 🇺🇸US_6379atWangCai_1
-      - 🇺🇸US_9101atWangCai_1
-      - 🇺🇸US_2376atWangCai_1
-      - 🇺🇸US_8118atWangCai_1
-      - 🇺🇸US_5003atWangCai_1
-      - 🇺🇸US_7001atWangCai_1
-      - 🇺🇸US_4444atWangCai_1
-      - 🇺🇸US_8119atWangCai_1
-      - 🇺🇸US_0443atWangCai_1
-      - 🇺🇸US_3389atWangCai_1
-      - 🇺🇸US_6679atWangCai_1
-      - 🇺🇸US_5601atWangCai_1
-      - 🇺🇸US_8008atWangCai_1
-      - 🇺🇸US_3306atWangCai_1
-      - 🇺🇸US_5500atWangCai_1
-      - 🇺🇸US_5600atWangCai_1
-      - 🇺🇸US_6697atWangCai_1
-      - 🇺🇸US_7002atWangCai_1
-      - 🇺🇸US_5004atWangCai_1
-      - 🇺🇸US_9102atWangCai_1
-      - 🇺🇸US_8881atWangCai_1
-      - 🇺🇸US_8091atWangCai_1
-      - 🇺🇸US_5001atWangCai_1
-      - 🇺🇸US_8888atWangCai_1
-      - 🇺🇸US_8090atWangCai_1
-      - 🇺🇸US_8118atWangCai_1
-      - 🇺🇸US_6697atWangCai_1
-      - 🇺🇸US_5601atWangCai_1
-      - 🇺🇸US_8119atWangCai_1
-      - 🇺🇸US_5003atWangCai_1
-      - 🇺🇸US_5001atWangCai_1
-      - 🇺🇸US_9102atWangCai_1
-      - 🇺🇸US_7306atWangCai_1
-      - 🇺🇸US_8881atWangCai_1
-      - 🇺🇸US_8080atWangCai_1
-      - 🇺🇸US_5000atWangCai_1
-      - 🇺🇸US_4444atWangCai_1
-      - 🇺🇸US_0443atWangCai_1
-      - 🇺🇸US_8009atWangCai_1
-      - 🇺🇸US_8008atWangCai_1
-      - 🇺🇸US_7002atWangCai_1
-      - 🇺🇸US_7307atWangCai_1
-      - 🇺🇸US_3306atWangCai_1
-      - 🇺🇸US_8000atWangCai_1
-      - 🇺🇸US_6679atWangCai_1
-      - 🇺🇸US_8888atWangCai_1
-      - 🇺🇸US_8090atWangCai_1
-      - 🇺🇸US_8882atWangCai_1
-      - 🇺🇸US_6379atWangCai_1
-      - 🇺🇸US_9101atWangCai_1
-      - 🇺🇸US_8091atWangCai_1
-      - 🇺🇸US_5500atWangCai_1
-      - 🇺🇸US_5600atWangCai_1
-      - 🇺🇸US_5004atWangCai_1
-      - 🇺🇸US_2375atWangCai_1
-      - 🇺🇸US_7001atWangCai_1
-      - 🇺🇸US_3389atWangCai_1
-      - 🇺🇸US_2376atWangCai_1
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_1
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_2
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_3
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_4
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_5
+      - 🇱🇹_LT_立陶宛_AFTZ-2022_02_23_6
+      - 🇵🇱_PL_波兰_AFTZ-2022_02_23_7
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_8
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_9
+      - 🇨🇿_CZ_捷克_AFTZ-2022_02_23_10
+      - 🇨🇿_CZ_捷克_AFTZ-2022_02_23_11
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_12
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_13
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_14
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_15
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_16
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_17
+      - 🇹🇼_TW_台湾_AFTZ-2022_02_23_18
+      - 🇵🇭_PH_菲律宾_AFTZ-2022_02_23_19
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_20
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_21
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_22
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_23
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_24
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_25
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_26
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_27
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_28
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_29
+      - 🇿🇦_ZA_南非_AFTZ-2022_02_23_30
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_31
+      - 🇮🇩_ID_印度尼西亚_AFTZ-2022_02_23_32
+      - 🇹🇷_TR_土耳其_AFTZ-2022_02_23_33
+      - 🇹🇷_TR_土耳其_AFTZ-2022_02_23_34
+      - 🇨🇾_CY_塞浦路斯_AFTZ-2022_02_23_35
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_36
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_37
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_38
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_39
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_40
+      - 🇱🇹_LT_立陶宛_AFTZ-2022_02_23_41
+      - 🇸🇬_SG_新加坡_AFTZ-2022_02_23_42
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_43
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_44
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_45
+      - 🇸🇬_SG_新加坡_AFTZ-2022_02_23_46
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_47
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_48
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_49
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_50
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_51
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_52
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_53
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_54
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_55
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_56
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_57
+      - 🇧🇪_BE_比利时_AFTZ-2022_02_23_58
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_59
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_60
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_61
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_62
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_63
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_64
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_65
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_66
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_67
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_68
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_69
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_70
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_71
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_72
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_73
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_74
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_75
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_76
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_77
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_78
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_79
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_80
+      - AFTZ-2022_02_23_81
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_82
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_83
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_84
+      - AFTZ-2022_02_23_85
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_86
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_87
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_88
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_89
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_90
+      - AFTZ-2022_02_23_91
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_92
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_93
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_94
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_95
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_96
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_97
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_98
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_99
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_100
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_101
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_102
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_103
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_104
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_105
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_106
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_107
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_108
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_109
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_110
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_111
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_112
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_113
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_114
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_115
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_116
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_117
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_118
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_119
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_120
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_121
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_122
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_123
+      - AFTZ-2022_02_23_124
+      - AFTZ-2022_02_23_125
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_126
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_127
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_128
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_129
+      - AFTZ-2022_02_23_130
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_131
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_132
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_133
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_134
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_135
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_136
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_137
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_138
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_139
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_140
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_141
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_142
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_143
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_144
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_145
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_146
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_147
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_148
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_149
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_150
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_151
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_152
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_153
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_154
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_155
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_156
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_157
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_158
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_159
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_160
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_161
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_162
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_163
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_164
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_165
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_166
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_167
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_168
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_169
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_170
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_171
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_172
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_173
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_174
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_175
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_176
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_177
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_178
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_179
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_180
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_181
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_182
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_183
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_184
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_185
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_186
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_187
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_188
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_189
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_190
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_191
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_192
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_193
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_194
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_195
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_196
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_197
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_198
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_199
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_200
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_201
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_202
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_203
+      - AFTZ-2022_02_23_204
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_205
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_206
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_207
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_208
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_209
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_210
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_211
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_212
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_213
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_214
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_215
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_216
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_217
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_218
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_219
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_220
+      - 🇵🇹_PT_葡萄牙_AFTZ-2022_02_23_221
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_222
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_223
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_224
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_225
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_226
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_227
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_228
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_229
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_230
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_231
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_232
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_233
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_234
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_235
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_236
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_237
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_238
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_239
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_240
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_241
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_242
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_243
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_244
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_245
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_246
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_247
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_248
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_249
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_250
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_251
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_252
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_253
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_254
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_255
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_256
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_257
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_258
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_259
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_260
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_261
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_262
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_263
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_264
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_265
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_266
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_267
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_268
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_269
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_270
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_271
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_272
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_273
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_274
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_275
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_276
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_277
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_278
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_279
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_280
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_281
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_282
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_283
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_284
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_285
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_286
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_287
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_288
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_289
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_290
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_291
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_292
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_293
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_294
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_295
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_296
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_297
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_298
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_299
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_300
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_301
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_302
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_303
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_304
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -620,86 +2188,310 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ‌‌🇨🇦CA_5601atWangCai_1
-      - ‌‌🇨🇦CA_3389atWangCai_1
-      - ‌‌🇨🇦CA_8091atWangCai_1
-      - ‌‌🇨🇦CA_7001atWangCai_1
-      - ‌‌🇨🇦CA_8008atWangCai_1
-      - ‌‌🇨🇦CA_8118atWangCai_1
-      - ‌‌🇨🇦CA_4444atWangCai_1
-      - ‌‌🇨🇦CA_6697atWangCai_1
-      - ‌‌🇨🇦CA_8881atWangCai_1
-      - ‌‌🇨🇦CA_9102atWangCai_1
-      - ‌‌🇨🇦CA_6379atWangCai_1
-      - ‌‌🇨🇦CA_8009atWangCai_1
-      - ‌‌🇨🇦CA_9101atWangCai_1
-      - ‌‌🇨🇦CA_5500atWangCai_1
-      - ‌‌🇨🇦CA_6679atWangCai_1
-      - ‌‌🇨🇦CA_7002atWangCai_1
-      - ‌‌🇨🇦CA_8888atWangCai_1
-      - ‌‌🇨🇦CA_5001atWangCai_1
-      - ‌‌🇨🇦CA_0443atWangCai_1
-      - 🇺🇸US_2375atWangCai_1
-      - 🇺🇸US_8080atWangCai_1
-      - 🇺🇸US_8882atWangCai_1
-      - 🇺🇸US_6379atWangCai_1
-      - 🇺🇸US_9101atWangCai_1
-      - 🇺🇸US_2376atWangCai_1
-      - 🇺🇸US_8118atWangCai_1
-      - 🇺🇸US_5003atWangCai_1
-      - 🇺🇸US_7001atWangCai_1
-      - 🇺🇸US_4444atWangCai_1
-      - 🇺🇸US_8119atWangCai_1
-      - 🇺🇸US_0443atWangCai_1
-      - 🇺🇸US_3389atWangCai_1
-      - 🇺🇸US_6679atWangCai_1
-      - 🇺🇸US_5601atWangCai_1
-      - 🇺🇸US_8008atWangCai_1
-      - 🇺🇸US_3306atWangCai_1
-      - 🇺🇸US_5500atWangCai_1
-      - 🇺🇸US_5600atWangCai_1
-      - 🇺🇸US_6697atWangCai_1
-      - 🇺🇸US_7002atWangCai_1
-      - 🇺🇸US_5004atWangCai_1
-      - 🇺🇸US_9102atWangCai_1
-      - 🇺🇸US_8881atWangCai_1
-      - 🇺🇸US_8091atWangCai_1
-      - 🇺🇸US_5001atWangCai_1
-      - 🇺🇸US_8888atWangCai_1
-      - 🇺🇸US_8090atWangCai_1
-      - 🇺🇸US_8118atWangCai_1
-      - 🇺🇸US_6697atWangCai_1
-      - 🇺🇸US_5601atWangCai_1
-      - 🇺🇸US_8119atWangCai_1
-      - 🇺🇸US_5003atWangCai_1
-      - 🇺🇸US_5001atWangCai_1
-      - 🇺🇸US_9102atWangCai_1
-      - 🇺🇸US_7306atWangCai_1
-      - 🇺🇸US_8881atWangCai_1
-      - 🇺🇸US_8080atWangCai_1
-      - 🇺🇸US_5000atWangCai_1
-      - 🇺🇸US_4444atWangCai_1
-      - 🇺🇸US_0443atWangCai_1
-      - 🇺🇸US_8009atWangCai_1
-      - 🇺🇸US_8008atWangCai_1
-      - 🇺🇸US_7002atWangCai_1
-      - 🇺🇸US_7307atWangCai_1
-      - 🇺🇸US_3306atWangCai_1
-      - 🇺🇸US_8000atWangCai_1
-      - 🇺🇸US_6679atWangCai_1
-      - 🇺🇸US_8888atWangCai_1
-      - 🇺🇸US_8090atWangCai_1
-      - 🇺🇸US_8882atWangCai_1
-      - 🇺🇸US_6379atWangCai_1
-      - 🇺🇸US_9101atWangCai_1
-      - 🇺🇸US_8091atWangCai_1
-      - 🇺🇸US_5500atWangCai_1
-      - 🇺🇸US_5600atWangCai_1
-      - 🇺🇸US_5004atWangCai_1
-      - 🇺🇸US_2375atWangCai_1
-      - 🇺🇸US_7001atWangCai_1
-      - 🇺🇸US_3389atWangCai_1
-      - 🇺🇸US_2376atWangCai_1
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_1
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_2
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_3
+      - 🇮🇱_IL_以色列_AFTZ-2022_02_23_4
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_5
+      - 🇱🇹_LT_立陶宛_AFTZ-2022_02_23_6
+      - 🇵🇱_PL_波兰_AFTZ-2022_02_23_7
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_8
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_9
+      - 🇨🇿_CZ_捷克_AFTZ-2022_02_23_10
+      - 🇨🇿_CZ_捷克_AFTZ-2022_02_23_11
+      - 🇷🇺_RU_俄罗斯联邦_AFTZ-2022_02_23_12
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_13
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_14
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_15
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_16
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_17
+      - 🇹🇼_TW_台湾_AFTZ-2022_02_23_18
+      - 🇵🇭_PH_菲律宾_AFTZ-2022_02_23_19
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_20
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_21
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_22
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_23
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_24
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_25
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_26
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_27
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_28
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_29
+      - 🇿🇦_ZA_南非_AFTZ-2022_02_23_30
+      - 🇭🇰_HK_香港_AFTZ-2022_02_23_31
+      - 🇮🇩_ID_印度尼西亚_AFTZ-2022_02_23_32
+      - 🇹🇷_TR_土耳其_AFTZ-2022_02_23_33
+      - 🇹🇷_TR_土耳其_AFTZ-2022_02_23_34
+      - 🇨🇾_CY_塞浦路斯_AFTZ-2022_02_23_35
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_36
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_37
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_38
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_39
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_40
+      - 🇱🇹_LT_立陶宛_AFTZ-2022_02_23_41
+      - 🇸🇬_SG_新加坡_AFTZ-2022_02_23_42
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_43
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_44
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_45
+      - 🇸🇬_SG_新加坡_AFTZ-2022_02_23_46
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_47
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_48
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_49
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_50
+      - 🇩🇪_DE_德国_AFTZ-2022_02_23_51
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_52
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_53
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_54
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_55
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_56
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_57
+      - 🇧🇪_BE_比利时_AFTZ-2022_02_23_58
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_59
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_60
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_61
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_62
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_63
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_64
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_65
+      - 🇫🇷_FR_法国_AFTZ-2022_02_23_66
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_67
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_68
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_69
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_70
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_71
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_72
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_73
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_74
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_75
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_76
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_77
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_78
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_79
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_80
+      - AFTZ-2022_02_23_81
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_82
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_83
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_84
+      - AFTZ-2022_02_23_85
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_86
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_87
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_88
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_89
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_90
+      - AFTZ-2022_02_23_91
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_92
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_93
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_94
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_95
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_96
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_97
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_98
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_99
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_100
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_101
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_102
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_103
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_104
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_105
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_106
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_107
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_108
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_109
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_110
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_111
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_112
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_113
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_114
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_115
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_116
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_117
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_118
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_119
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_120
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_121
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_122
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_123
+      - AFTZ-2022_02_23_124
+      - AFTZ-2022_02_23_125
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_126
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_127
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_128
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_129
+      - AFTZ-2022_02_23_130
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_131
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_132
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_133
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_134
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_135
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_136
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_137
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_138
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_139
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_140
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_141
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_142
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_143
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_144
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_145
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_146
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_147
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_148
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_149
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_150
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_151
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_152
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_153
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_154
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_155
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_156
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_157
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_158
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_159
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_160
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_161
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_162
+      - 🇬🇧_GB_英国_AFTZ-2022_02_23_163
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_164
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_165
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_166
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_167
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_168
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_169
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_170
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_171
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_172
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_173
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_174
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_175
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_176
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_177
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_178
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_179
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_180
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_181
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_182
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_183
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_184
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_185
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_186
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_187
+      - 🇮🇳_IN_印度_AFTZ-2022_02_23_188
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_189
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_190
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_191
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_192
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_193
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_194
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_195
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_196
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_197
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_198
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_199
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_200
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_201
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_202
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_203
+      - AFTZ-2022_02_23_204
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_205
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_206
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_207
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_208
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_209
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_210
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_211
+      - 🇦🇺_AU_澳大利亚_AFTZ-2022_02_23_212
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_213
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_214
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_215
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_216
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_217
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_218
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_219
+      - 🇯🇵_JP_日本_AFTZ-2022_02_23_220
+      - 🇵🇹_PT_葡萄牙_AFTZ-2022_02_23_221
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_222
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_223
+      - 🇰🇷_KR_韩国_AFTZ-2022_02_23_224
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_225
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_226
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_227
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_228
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_229
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_230
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_231
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_232
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_233
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_234
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_235
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_236
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_237
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_238
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_239
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_240
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_241
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_242
+      - 🇨🇦_CA_加拿大_AFTZ-2022_02_23_243
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_244
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_245
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_246
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_247
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_248
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_249
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_250
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_251
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_252
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_253
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_254
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_255
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_256
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_257
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_258
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_259
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_260
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_261
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_262
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_263
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_264
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_265
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_266
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_267
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_268
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_269
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_270
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_271
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_272
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_273
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_274
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_275
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_276
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_277
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_278
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_279
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_280
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_281
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_282
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_283
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_284
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_285
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_286
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_287
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_288
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_289
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_290
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_291
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_292
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_293
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_294
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_295
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_296
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_297
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_298
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_299
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_300
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_301
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_302
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_303
+      - 🇺🇸_US_美国_AFTZ-2022_02_23_304
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
