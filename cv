@@ -5,32 +5,25 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CA_加拿大_1, server: 134.195.196.150, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_2, server: 134.195.196.150, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _DE_德国_3, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: _FR_法国_4, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _GB_英国_5, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _GB_英国_6, server: 172.99.190.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _GB_英国_7, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国_8, server: 172.99.190.188, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_9, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _GB_英国_10, server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _GB_英国_11, server: 172.99.190.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大_12, server: 134.195.196.150, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国_13, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _RU_俄罗斯联邦_14, server: 146.185.218.171, port: 443, type: vmess, uuid: 947af181-c509-4245-80de-9baf64f1aa51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: _JP_日本_15, server: 85.208.108.106, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _GB_英国_16, server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_17, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国_18, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国_19, server: 172.99.190.205, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大_20, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国_21, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _GB_英国_22, server: 172.99.190.188, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大_23, server: 134.195.196.150, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _GB_英国_24, server: 172.99.190.188, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _GB_英国_25, server: 172.99.190.188, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: default_name_26, server: 162.159.204.77, port: 443, type: vmess, uuid: 3646a0c9-69b0-4cf9-c262-890ab5466d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /freebaipiao}, udp: true}
+  - {name: Relay_🇭🇰HK-🇹🇼TW_104, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_137, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1031kr.fans8.xyz}}, udp: true}
+  - {name: Relay_🇭🇰HK-🇹🇼TW_123, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国高速专线U1_4, server: 45.91.83.25, port: 8228, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 香港极速专线C1_5, server: 117.28.243.173, port: 2173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 香港高速专线P1_6, server: 206.119.125.70, port: 8282, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 美国高速专线G1_7, server: 107.148.209.44, port: 8281, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 美国高速专线D1_8, server: 107.148.215.142, port: 8371, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 美国高速专线H1_9, server: 107.148.210.76, port: 8378, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 法国极速专线A1_10, server: 117.28.243.141, port: 6119, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 香港高速专线F1_11, server: 118.107.44.6, port: 8329, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 日本极速专线D1_12, server: 117.28.243.141, port: 6126, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 美国高速专线L1_13, server: 45.91.83.226, port: 6349, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 美国高速专线R1_14, server: 104.233.228.56, port: 8364, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 台湾极速专线B1_15, server: 117.28.243.154, port: 6150, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 美国高速专线T1_16, server: 104.233.181.105, port: 8325, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 日本极速专线C1_17, server: 117.28.243.141, port: 6125, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 香港高速专线L1_18, server: 118.107.44.38, port: 8360, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 新加坡高速专线B1_19, server: 129.226.195.219, port: 8338, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 3, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
@@ -1478,32 +1471,25 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - _CA_加拿大_1
-      - _CA_加拿大_2
-      - _DE_德国_3
-      - _FR_法国_4
-      - _GB_英国_5
-      - _GB_英国_6
-      - _GB_英国_7
-      - _GB_英国_8
-      - _US_美国_9
-      - _GB_英国_10
-      - _GB_英国_11
-      - _CA_加拿大_12
-      - _US_美国_13
-      - _RU_俄罗斯联邦_14
-      - _JP_日本_15
-      - _GB_英国_16
-      - _US_美国_17
-      - _GB_英国_18
-      - _GB_英国_19
-      - _CA_加拿大_20
-      - _US_美国_21
-      - _GB_英国_22
-      - _CA_加拿大_23
-      - _GB_英国_24
-      - _GB_英国_25
-      - default_name_26
+      - Relay_🇭🇰HK-🇹🇼TW_104
+      - Relay_🇯🇵JP-🇯🇵JP_137
+      - Relay_🇭🇰HK-🇹🇼TW_123
+      - 美国高速专线U1_4
+      - 香港极速专线C1_5
+      - 香港高速专线P1_6
+      - 美国高速专线G1_7
+      - 美国高速专线D1_8
+      - 美国高速专线H1_9
+      - 法国极速专线A1_10
+      - 香港高速专线F1_11
+      - 日本极速专线D1_12
+      - 美国高速专线L1_13
+      - 美国高速专线R1_14
+      - 台湾极速专线B1_15
+      - 美国高速专线T1_16
+      - 日本极速专线C1_17
+      - 香港高速专线L1_18
+      - 新加坡高速专线B1_19
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
@@ -2940,32 +2926,25 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CA_加拿大_1
-      - _CA_加拿大_2
-      - _DE_德国_3
-      - _FR_法国_4
-      - _GB_英国_5
-      - _GB_英国_6
-      - _GB_英国_7
-      - _GB_英国_8
-      - _US_美国_9
-      - _GB_英国_10
-      - _GB_英国_11
-      - _CA_加拿大_12
-      - _US_美国_13
-      - _RU_俄罗斯联邦_14
-      - _JP_日本_15
-      - _GB_英国_16
-      - _US_美国_17
-      - _GB_英国_18
-      - _GB_英国_19
-      - _CA_加拿大_20
-      - _US_美国_21
-      - _GB_英国_22
-      - _CA_加拿大_23
-      - _GB_英国_24
-      - _GB_英国_25
-      - default_name_26
+      - Relay_🇭🇰HK-🇹🇼TW_104
+      - Relay_🇯🇵JP-🇯🇵JP_137
+      - Relay_🇭🇰HK-🇹🇼TW_123
+      - 美国高速专线U1_4
+      - 香港极速专线C1_5
+      - 香港高速专线P1_6
+      - 美国高速专线G1_7
+      - 美国高速专线D1_8
+      - 美国高速专线H1_9
+      - 法国极速专线A1_10
+      - 香港高速专线F1_11
+      - 日本极速专线D1_12
+      - 美国高速专线L1_13
+      - 美国高速专线R1_14
+      - 台湾极速专线B1_15
+      - 美国高速专线T1_16
+      - 日本极速专线C1_17
+      - 香港高速专线L1_18
+      - 新加坡高速专线B1_19
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
@@ -4572,6 +4551,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Relay_🇭🇰HK-🇹🇼TW_104
+      - Relay_🇭🇰HK-🇹🇼TW_123
+      - 香港极速专线C1_5
+      - 香港高速专线P1_6
+      - 香港高速专线F1_11
+      - 香港高速专线L1_18
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
@@ -4618,7 +4603,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _JP_日本_15
+      - Relay_🇯🇵JP-🇯🇵JP_137
+      - 日本极速专线D1_12
+      - 日本极速专线C1_17
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
@@ -4671,10 +4658,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_9
-      - _US_美国_13
-      - _US_美国_17
-      - _US_美国_21
+      - 美国高速专线U1_4
+      - 美国高速专线G1_7
+      - 美国高速专线D1_8
+      - 美国高速专线H1_9
+      - 美国高速专线L1_13
+      - 美国高速专线R1_14
+      - 美国高速专线T1_16
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -4967,6 +4957,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Relay_🇭🇰HK-🇹🇼TW_104
+      - Relay_🇭🇰HK-🇹🇼TW_123
+      - 台湾极速专线B1_15
       - 台湾(欢迎订阅Youtube破解资源君)
       - 台湾（YouTube资源分享者）
       - 台湾（YouTube资源分享者） 2
@@ -5004,6 +4997,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 新加坡高速专线B1_19
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
