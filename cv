@@ -5,16 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _GB_英国_1, server: 172.99.190.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: default_name_2, server: 162.159.204.77, port: 443, type: vmess, uuid: 3646a0c9-69b0-4cf9-c262-890ab5466d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /freebaipiao}, udp: true}
-  - {name: _US_美国_3, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大_4, server: 134.195.196.147, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_5, server: in05.dns2333.xyz, port: 63069, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in05.dns2333.xyz}}, udp: true}
-  - {name: _CA_加拿大_6, server: 134.195.196.193, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _FR_法国_7, server: 92.243.24.68, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bIS3QQFwFIm1, udp: true}
-  - {name: _GB_英国_8, server: 172.99.190.188, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _GB_英国_9, server: 172.99.190.188, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_10, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: 0118ru.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0118ru.fans8.xyz}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: 0122us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0122us.fans8.xyz}}, udp: true}
   - {name: 法国(欢迎订阅Youtube破解资源君), server: v8.ssrsub.com, port: 443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
@@ -1364,16 +1354,6 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - _GB_英国_1
-      - default_name_2
-      - _US_美国_3
-      - _CA_加拿大_4
-      - _CN_中国->🇺🇸_US_美国_5
-      - _CA_加拿大_6
-      - _FR_法国_7
-      - _GB_英国_8
-      - _GB_英国_9
-      - _CA_加拿大_10
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 法国(欢迎订阅Youtube破解资源君)
@@ -2712,16 +2692,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _GB_英国_1
-      - default_name_2
-      - _US_美国_3
-      - _CA_加拿大_4
-      - _CN_中国->🇺🇸_US_美国_5
-      - _CA_加拿大_6
-      - _FR_法国_7
-      - _GB_英国_8
-      - _GB_英国_9
-      - _CA_加拿大_10
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 法国(欢迎订阅Youtube破解资源君)
@@ -4330,8 +4300,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_3
-      - _CN_中国->🇺🇸_US_美国_5
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
