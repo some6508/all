@@ -5,46 +5,102 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"us_QN机房_1","server":"prvm.youliss.club","port":443,"type":"vmess","uuid":"d86cd24d-2065-42ae-eec7-4feb9af8c3d3","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/data","headers":{"host":"prvm.youliss.club"}}}
+  - {"name":"🇺🇸_US_美国_1","server":"198.148.92.246","port":443,"type":"vmess","uuid":"4f4c3fc0-888d-414e-9965-a41c627fab53","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"govacaxixo.watchdoctor.xyz"}}}
+  - {"name":"🇯🇵_JP_日本_2","server":"85.208.108.106","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_3","server":"92.223.72.42","port":443,"type":"vmess","uuid":"ae08412f-5bb9-4be7-8560-1984976a1097","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"govacaxixo.watchdoctor.xyz"}}}
+  - {"name":"🇬🇧_GB_英国_4","server":"172.99.190.205","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇬🇧_GB_英国_5","server":"172.99.190.188","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"default_name_6","server":"198.41.221.169","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
+  - {"name":"🇦🇺_AU_澳大利亚_7","server":"172.105.162.49","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇬🇧_GB_英国_8","server":"172.99.190.188","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇰🇷_KR_韩国_9","server":"141.164.49.240","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - us_QN机房_1
+      - 🇺🇸_US_美国_1
+      - 🇯🇵_JP_日本_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇬🇧_GB_英国_4
+      - 🇬🇧_GB_英国_5
+      - default_name_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇬🇧_GB_英国_8
+      - 🇰🇷_KR_韩国_9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - us_QN机房_1
+      - 🇺🇸_US_美国_1
+      - 🇯🇵_JP_日本_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇬🇧_GB_英国_4
+      - 🇬🇧_GB_英国_5
+      - default_name_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇬🇧_GB_英国_8
+      - 🇰🇷_KR_韩国_9
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - us_QN机房_1
+      - 🇺🇸_US_美国_1
+      - 🇯🇵_JP_日本_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇬🇧_GB_英国_4
+      - 🇬🇧_GB_英国_5
+      - default_name_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇬🇧_GB_英国_8
+      - 🇰🇷_KR_韩国_9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - us_QN机房_1
+      - 🇺🇸_US_美国_1
+      - 🇯🇵_JP_日本_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇬🇧_GB_英国_4
+      - 🇬🇧_GB_英国_5
+      - default_name_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇬🇧_GB_英国_8
+      - 🇰🇷_KR_韩国_9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - us_QN机房_1
+      - 🇺🇸_US_美国_1
+      - 🇯🇵_JP_日本_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇬🇧_GB_英国_4
+      - 🇬🇧_GB_英国_5
+      - default_name_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇬🇧_GB_英国_8
+      - 🇰🇷_KR_韩国_9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - us_QN机房_1
+      - 🇺🇸_US_美国_1
+      - 🇯🇵_JP_日本_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇬🇧_GB_英国_4
+      - 🇬🇧_GB_英国_5
+      - default_name_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇬🇧_GB_英国_8
+      - 🇰🇷_KR_韩国_9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +123,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - us_QN机房_1
+      - 🇺🇸_US_美国_1
+      - 🇯🇵_JP_日本_2
+      - 🇷🇺_RU_俄罗斯联邦_3
+      - 🇬🇧_GB_英国_4
+      - 🇬🇧_GB_英国_5
+      - default_name_6
+      - 🇦🇺_AU_澳大利亚_7
+      - 🇬🇧_GB_英国_8
+      - 🇰🇷_KR_韩国_9
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

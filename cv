@@ -692,171 +692,106 @@ proxies:
   - {name: "| 02", server: in04.dns2333.xyz, port: 63071, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-ru01.myn1des.com}}, udp: true}
   - {name: "| 01", server: in05.dns2333.xyz, port: 63069, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-us03.covid19.rip}}, udp: true}
   - {name: "| 53", server: in05.dns2333.xyz, port: 63014, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: mugua-us01.covid19.rip}}, udp: true}
-  - {name: _KR_韩国, server: v.mumi.bid, port: 10121, type: vmess, uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v.mumi.bid}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: fc.gzbgp.wokuaitule.xyz, port: 10010, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 10.wokuaitule.xyz}}, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡, server: fc.jm.wokuaitule.xyz, port: 40012, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 12.wokuaitule.xyz}}, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 2, server: fc.jm.wokuaitule.xyz, port: 40011, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 11.wokuaitule.xyz}}, udp: true}
-  - {name: _US_美国, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero2.a-yu.xyz}}, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 3, server: fc.st.wokuaitule.xyz, port: 40015, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 15.wokuaitule.xyz}}, udp: true}
-  - {name: _CA_加拿大, server: 198.57.27.191, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: default_name, server: icook.tw, port: 443, type: vmess, uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: vincent-jackson2022.ml}}, udp: true}
-  - {name: _CA_加拿大 2, server: 198.57.27.191, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大 3, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大 4, server: 198.57.27.191, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大 5, server: 134.195.196.147, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国->🇫🇷_FR_法国, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shuier, headers: {Host: xc1.v2rie.pp.ua}}, udp: true}
-  - {name: _DE_德国, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
-  - {name: _CA_加拿大 6, server: 198.57.27.191, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大 7, server: 198.57.27.191, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大 8, server: 198.57.27.191, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大 9, server: 198.57.27.191, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大 10, server: 198.57.27.191, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 11, server: 198.57.27.191, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _GB_英国, server: 172.99.190.92, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 12, server: 198.57.27.191, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: default_name 2, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.205, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _RU_俄罗斯联邦, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
-  - {name: _CA_加拿大 13, server: 134.195.196.147, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: default_name 3, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 9b04ac52-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}, udp: true}
-  - {name: _FR_法国, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 14, server: 134.195.196.147, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大 15, server: 134.195.196.147, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大 16, server: 134.195.196.147, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国 3, server: 172.99.190.205, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大 17, server: 198.57.27.191, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _GB_英国 4, server: 172.99.190.205, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大 18, server: 134.195.196.147, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _RU_俄罗斯联邦 2, server: 146.185.218.171, port: 443, type: vmess, uuid: 947af181-c509-4245-80de-9baf64f1aa51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
-  - {name: _FR_法国 2, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _GB_英国 5, server: 172.99.190.188, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 19, server: 134.195.196.147, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _GB_英国 6, server: 172.99.190.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国 7, server: 172.99.190.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 2, server: app.ssfree.ru, port: 443, type: vmess, uuid: d3108524-958a-11ec-9f34-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: _FR_法国 3, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大 20, server: 134.195.196.147, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _GB_英国 8, server: 172.99.190.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _GB_英国 9, server: 172.99.190.205, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _GB_英国 10, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _FR_法国 4, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _GB_英国 11, server: 172.99.190.188, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 21, server: 134.195.196.150, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _FR_法国 5, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 22, server: 134.195.196.147, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 23, server: 134.195.196.147, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 24, server: 198.57.27.191, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: default_name 4, server: 198.41.212.10, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: _FR_法国 6, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 25, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 26, server: 134.195.196.193, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大 27, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国 12, server: 172.99.190.188, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国 3, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _GB_英国 13, server: 172.99.190.205, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 4, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 28, server: 134.195.196.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大 29, server: 134.195.196.147, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大 30, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 5, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 31, server: 198.57.27.191, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国 14, server: 172.99.190.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _GB_英国 15, server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: default_name 5, server: 198.41.212.20, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: _CA_加拿大 32, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _GB_英国 16, server: 172.99.190.188, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 7, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国 17, server: 172.99.190.205, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大 33, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 18, server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 19, server: 172.99.190.205, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 34, server: 134.195.196.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _GB_英国 20, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _FR_法国 8, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _FR_法国 9, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 35, server: 134.195.196.200, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _FR_法国 10, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 6, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大 36, server: 134.195.196.147, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 37, server: 134.195.196.147, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _GB_英国 21, server: 172.99.190.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _GB_英国 22, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大 38, server: 134.195.196.193, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大 39, server: 134.195.196.200, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大 40, server: 134.195.196.147, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大 41, server: 134.195.196.147, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 11, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大 42, server: 198.57.27.191, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 43, server: 134.195.196.147, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _GB_英国 23, server: 172.99.190.188, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大 44, server: 134.195.196.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 45, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _FR_法国 12, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国 24, server: 172.99.190.205, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 46, server: 134.195.196.147, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _GB_英国 25, server: 172.99.190.188, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 47, server: 134.195.196.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _GB_英国 26, server: 172.99.190.205, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _FR_法国 13, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _FR_法国 14, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 48, server: 134.195.196.200, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _GB_英国 27, server: 172.99.190.188, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 49, server: 198.57.27.191, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _FR_法国 15, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _FR_法国 16, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国 28, server: 172.99.190.205, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 50, server: 198.57.27.191, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 17, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _HK_香港->🇮🇳_IN_印度, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
-  - {name: _KR_韩国 2, server: 128.1.125.164, port: 443, type: vmess, uuid: 312c3de7-233e-4d72-b3dc-de0205083312, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
-  - {name: _CA_加拿大 51, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 52, server: 134.195.196.193, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _FR_法国 18, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大 53, server: 134.195.196.193, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大 54, server: 198.57.27.191, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 55, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _GB_英国 29, server: 172.99.190.188, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 7, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: _CA_加拿大 56, server: 134.195.196.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _FR_法国 19, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大 57, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国 30, server: 172.99.190.205, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _FR_法国 20, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 21, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大 58, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 59, server: 134.195.196.147, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 60, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大 61, server: 134.195.196.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _GB_英国 31, server: 172.99.190.205, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大 62, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _GB_英国 32, server: 172.99.190.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _GB_英国 33, server: 172.99.190.205, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 22, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _RU_俄罗斯联邦 3, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
-  - {name: _CA_加拿大 63, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 64, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 8, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: dax6ujai.com}}, udp: true}
-  - {name: _CA_加拿大 65, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 66, server: 134.195.196.193, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大 67, server: 134.195.196.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大 68, server: 134.195.196.147, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _GB_英国 34, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 69, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 35, server: 172.99.190.205, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 70, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 71, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 72, server: 134.195.196.193, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _GB_英国 36, server: 172.99.190.188, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 73, server: 134.195.196.193, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _GB_英国 37, server: 172.99.190.205, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 23, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国 38, server: 172.99.190.188, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 9, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 74, server: 134.195.196.147, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _GB_英国 39, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _GB_英国 40, server: 172.99.190.188, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _GB_英国 41, server: 172.99.190.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 75, server: 134.195.196.193, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _GB英国, server: 172.99.190.188, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB英国 2, server: 172.99.190.188, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA加拿大, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB英国 3, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB英国 4, server: 172.99.190.205, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA加拿大 2, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _FR法国, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB英国 5, server: 172.99.190.188, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _GB英国 6, server: 172.99.190.205, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB英国 7, server: 172.99.190.188, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB英国 8, server: 172.99.190.188, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB英国 9, server: 172.99.190.188, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA加拿大 3, server: 134.195.196.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA加拿大 4, server: 134.195.196.193, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA加拿大 5, server: 134.195.196.147, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA加拿大 6, server: 134.195.196.147, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _GB英国 10, server: 172.99.190.188, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _FR法国 2, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB英国 11, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB英国 12, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _GB英国 13, server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB英国 14, server: 172.99.190.188, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA加拿大 7, server: 134.195.196.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA加拿大 8, server: 134.195.196.193, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB英国 15, server: 172.99.190.188, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB英国 16, server: 172.99.190.188, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB英国 17, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB英国 18, server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA加拿大 9, server: 134.195.196.193, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA加拿大 10, server: 134.195.196.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA加拿大 11, server: 134.195.196.147, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA加拿大 12, server: 134.195.196.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA加拿大 13, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US美国, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA加拿大 14, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR法国 3, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR法国 4, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _FR法国 5, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB英国 19, server: 172.99.190.188, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _GB英国 20, server: 172.99.190.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _GB英国 21, server: 172.99.190.205, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB英国 22, server: 172.99.190.188, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB英国 23, server: 172.99.190.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _GB英国 24, server: 172.99.190.205, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _GB英国 25, server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB英国 26, server: 172.99.190.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _GB英国 27, server: 172.99.190.188, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _GB英国 28, server: 172.99.190.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB英国 29, server: 172.99.190.205, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _GB英国 30, server: 172.99.190.188, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _GB英国 31, server: 172.99.190.188, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA加拿大 15, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA加拿大 16, server: 134.195.196.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA加拿大 17, server: 134.195.196.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA加拿大 18, server: 134.195.196.200, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA加拿大 19, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA加拿大 20, server: 134.195.196.147, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA加拿大 21, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA加拿大 22, server: 134.195.196.193, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US美国 2, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA加拿大 23, server: 134.195.196.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US美国 3, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA加拿大 24, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA加拿大 25, server: 134.195.196.193, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB英国 32, server: 172.99.190.205, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB英国 33, server: 172.99.190.205, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CN中国->🇳🇱_NL荷兰, server: gzyd.wozcjd.xyz, port: 11348, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
+  - {name: _CN中国->🇳🇱_NL荷兰 2, server: 120.232.192.187, port: 11348, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
+  - {name: _FR法国 6, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB英国 34, server: 172.99.190.188, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB英国 35, server: 172.99.190.205, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB英国 36, server: 172.99.190.188, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _GB英国 37, server: 172.99.190.188, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _GB英国 38, server: 172.99.190.205, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA加拿大 26, server: 134.195.196.147, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA加拿大 27, server: 134.195.196.147, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA加拿大 28, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA加拿大 29, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA加拿大 30, server: 134.195.196.193, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA加拿大 31, server: 134.195.196.200, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA加拿大 32, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA加拿大 33, server: 134.195.196.193, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA加拿大 34, server: 134.195.196.193, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA加拿大 35, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA加拿大 36, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR法国 7, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _FR法国 8, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _FR法国 9, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _FR法国 10, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _GB英国 39, server: 172.99.190.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB英国 40, server: 172.99.190.188, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB英国 41, server: 172.99.190.205, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _GB英国 42, server: 172.99.190.188, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB英国 43, server: 172.99.190.188, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB英国 44, server: 172.99.190.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB英国 45, server: 172.99.190.205, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _GB英国 46, server: 172.99.190.205, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA加拿大 37, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA加拿大 38, server: 134.195.196.147, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA加拿大 39, server: 134.195.196.147, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1368,111 +1303,132 @@ proxies:
   - {name: 广东省广州市腾讯云 46, server: 106.52.33.67, port: 40374, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 将于近期停止ssr更新 2, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 65机场👉魔戒.net, server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e, udp: true}
-  - {name: 64机场👉魔戒.net, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 65机场👉魔戒.net 2, server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 66机场👉魔戒.net, server: 103.wowogg.cyou, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 67机场👉魔戒.net, server: 116.wowogg.cyou, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 68机场👉魔戒.net, server: 100.wowogg.cyou, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 69机场👉魔戒.net, server: 105.wowogg.cyou, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 71机场👉魔戒.net, server: 85.wowogg.cyou, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 70机场👉魔戒.net, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 72机场👉魔戒.net, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 73机场👉魔戒.net, server: 84.wowogg.cyou, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 74机场👉魔戒.net, server: 91.wowogg.cyou, port: 52291, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 75机场👉魔戒.net, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 61机场👉魔戒.net, server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: 62机场👉魔戒.net, server: gdgz.marslink.icu, port: 41105, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: 76机场👉魔戒.net, server: gdgz.marslink.icu, port: 41109, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: 63机场👉魔戒.net, server: hz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: 49机场👉魔戒.net, server: ir02.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 50机场👉魔戒.net, server: pvcc01.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 51机场👉魔戒.net, server: ir01.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 52机场👉魔戒.net, server: sg05.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 53机场👉魔戒.net, server: sg06.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 54机场👉魔戒.net, server: sg11.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 55机场👉魔戒.net, server: hkt03.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 56机场👉魔戒.net, server: hk05.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 57机场👉魔戒.net, server: sg07.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 58机场👉魔戒.net, server: hkt05.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 59机场👉魔戒.net, server: hkt02.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 60机场👉魔戒.net, server: hkt07.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 77机场👉魔戒.net, server: sg04.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 43机场👉魔戒.net, server: tghk2.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, sni: tghk2.77710086.xyz, skip-cert-verify: true, udp: true}
-  - {name: 44机场👉魔戒.net, server: tghk2.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, sni: tghk2.77710086.xyz, skip-cert-verify: true, udp: true}
-  - {name: 45机场👉魔戒.net, server: jpoo.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, sni: jpoo.77710086.xyz, skip-cert-verify: true, udp: true}
-  - {name: 46机场👉魔戒.net, server: jpoo.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, sni: jpoo.77710086.xyz, skip-cert-verify: true, udp: true}
-  - {name: 47机场👉魔戒.net, server: tghg.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, sni: tghg.77710086.xyz, skip-cert-verify: true, udp: true}
-  - {name: 48机场👉魔戒.net, server: tghg.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, sni: tghg.77710086.xyz, skip-cert-verify: true, udp: true}
-  - {name: 78机场👉魔戒.net, server: 104.208.80.56, port: 8080, type: vmess, uuid: 2c875731-0df7-4e51-842f-b9efca25abc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: 38机场👉魔戒.net, server: 122.9.62.6, port: 5557, type: ss, cipher: chacha20-ietf-poly1305, password: 5912725b993997cf9a926efaa3827f2363a0edc73744ad39976bcb78bfd2995c, udp: true}
-  - {name: 39机场👉魔戒.net, server: 122.9.62.44, port: 2945, type: ss, cipher: chacha20-ietf-poly1305, password: 2d5559dc1d6c1d3581f4ee327ac93b58359c963da44aa92faef307ee07a11261, udp: true}
-  - {name: 40机场👉魔戒.net, server: 122.9.62.60, port: 1003, type: ss, cipher: chacha20-ietf-poly1305, password: 8eff2ae2afb4d6cbc95dd8006cbadb3ed4077dc878b511edce084361d30b263a, udp: true}
-  - {name: 41机场👉魔戒.net, server: 122.9.62.57, port: 1001, type: ss, cipher: chacha20-ietf-poly1305, password: d448c5c3968140fcd5470e035d443c502faa163363b313e01bcbb2c024d2a510, udp: true}
-  - {name: 42机场👉魔戒.net, server: 122.9.62.16, port: 2303, type: ss, cipher: chacha20-ietf-poly1305, password: 306b65638148377ebc270d02ed4a8f131e3f757741d27be11ed65fc924d50562, udp: true}
-  - {name: 36机场👉魔戒.net, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
-  - {name: 37机场👉魔戒.net, server: api.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
-  - {name: 79机场👉魔戒.net, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: hgc1.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 80机场👉魔戒.net, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: "魔戒.net韩国(首尔) 🚀[极速稳定]", server: 122.9.54.101, port: 4261, type: ss, cipher: chacha20-ietf-poly1305, password: 8cb75ac322fc1e31f50a2703d09b1bd81bd51a74e70ed6c0ca6af91132a0c829, udp: true}
+  - {name: "魔戒.net美国[BGPA] 🚀[极速稳定]", server: 122.9.54.196, port: 3615, type: ss, cipher: chacha20-ietf-poly1305, password: ac6a3c9db57828907e36c7fb42f7abb17da8f149b3282565cdd98e198b944b46, udp: true}
+  - {name: 魔戒.net香港 20 Microsoft, server: 112.wowogg.cyou, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net香港 01 Microsoft, server: 105.wowogg.cyou, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net香港 17 Microsoft, server: 136.wowogg.cyou, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net香港 11 Microsoft, server: 90.wowogg.cyou, port: 52290, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net香港 16 Microsoft, server: 133.wowogg.cyou, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net越南_R_377, server: iepl-gz.yyuuii.cyou, port: 10899, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 魔戒.net中国香港_R_450, server: iepl-hn01.qqgg.work, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 魔戒.net日本_R_498, server: iepl-hn01.qqgg.work, port: 27078, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 魔戒.net中国台湾_R_314, server: ieplszhk-sz.qqgg.work, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 魔戒.net中国香港_R_121, server: jx-002.yyuuii.cyou, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 魔戒.net日本_N_1, server: 101.67.8.192, port: 25179, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 魔戒.net中国香港_R_316, server: iepl-gz.yyuuii.cyou, port: 10804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 魔戒.net新加坡_R_229, server: gzyd-01.yyuuii.cyou, port: 20002, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 魔戒.net V3香港A13丨5x丨深港专线, server: sz-hk-kl.klee.store, port: 45661, type: trojan, password: 32b9c1f3-5eed-3965-9e03-ad704ed01119, sni: sz-hk-kl.klee.store, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net V2香港A02丨1x丨流媒体, server: gz-cm-kl.klee.store, port: 11174, type: trojan, password: 32b9c1f3-5eed-3965-9e03-ad704ed01119, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net V1台湾A08丨1x, server: gz-cm-kl.klee.store, port: 11228, type: trojan, password: 32b9c1f3-5eed-3965-9e03-ad704ed01119, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net V1香港A07丨1x, server: gz-cm-kl.klee.store, port: 11179, type: trojan, password: 32b9c1f3-5eed-3965-9e03-ad704ed01119, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net V1香港A06丨1x, server: gz-cm-kl.klee.store, port: 11178, type: trojan, password: 32b9c1f3-5eed-3965-9e03-ad704ed01119, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net Hong Kong IPLC Gaming 8Mbps 5×, server: 175.178.25.233, port: 667, type: ss, cipher: chacha20-ietf-poly1305, password: c8feca65-65fe-4689-92e3-af81125c72fc, udp: true}
+  - {name: 魔戒.net Japan, server: 120.232.192.211, port: 42726, type: ss, cipher: chacha20-ietf-poly1305, password: c8feca65-65fe-4689-92e3-af81125c72fc, udp: true}
+  - {name: 魔戒.net Hong Kong IEPL 5×, server: 120.232.214.132, port: 20234, type: ss, cipher: chacha20-ietf-poly1305, password: c8feca65-65fe-4689-92e3-af81125c72fc, udp: true}
+  - {name: "魔戒.net Planevpn香港 (中国)-26[WhatsApp] [LineApp]", server: 122.9.54.18, port: 1026, type: ss, cipher: chacha20-ietf-poly1305, password: 87813d504d8ea626434f091f4f02bc841f3c739842aff46fe2dc8c709dba2d25, udp: true}
+  - {name: "魔戒.net Planevpn香港 (中国)-20[WhatsApp] [LineApp]", server: 122.9.54.108, port: 1001, type: ss, cipher: chacha20-ietf-poly1305, password: ac185494fa8b6c546a33084835ce0539b13ed1a09244346c4282e8adabf46d32, udp: true}
+  - {name: "魔戒.net Planevpn香港 (中国)-19[WhatsApp] [LineApp]", server: 122.9.62.9, port: 1004, type: ss, cipher: chacha20-ietf-poly1305, password: a420056c3d197e3c4f6c7f20626f0c9543ebc86172974ef9bdd112043ee8ca02, udp: true}
+  - {name: "魔戒.net Planevpn香港  (中国)-1[NETSEC]", server: 122.9.54.61, port: 4727, type: ss, cipher: chacha20-ietf-poly1305, password: e4bab7736cfbf390fc718d94ccd07b364cb25bbf9460d61b499f5f2670375747, udp: true}
+  - {name: "魔戒.net Planevpn香港 (中国)-10[HKT]", server: 122.9.62.36, port: 5757, type: ss, cipher: chacha20-ietf-poly1305, password: 4d95b36bc60713a358c075251b1d6ccee39ea11922ef84964155bfd5eff1d51f, udp: true}
+  - {name: "魔戒.net[CT/CM] HKT J", server: shonlinesandcu02.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
+  - {name: "魔戒.net[CT/CM] HKT A", server: shonlinecu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
+  - {name: "魔戒.net[CT/CM] HKBN B", server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
+  - {name: "魔戒.net[CT/CM] HKBN A", server: shonlinesandcu02.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
+  - {name: "魔戒.net[CT/CM] HKT B", server: cncusouth.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
+  - {name: "魔戒.net[CT/CM] HKBN D", server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
+  - {name: "魔戒.net[CT/CM] HKT D", server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
+  - {name: "魔戒.net[CT/CM] HKT H", server: shonlinecu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
+  - {name: "魔戒.net[CT/CM] HKT L", server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
+  - {name: "魔戒.net[CT/CM] HKT I", server: cusouthcmhk.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
+  - {name: "魔戒.net[CT/CM] HKT E", server: cncusouth.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
+  - {name: "魔戒.net[CT/CM] HKT M", server: shcris02stand.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
+  - {name: "魔戒.net香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e, udp: true}
+  - {name: 魔戒.net 🇭🇰香港01, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇭🇰香港03, server: api.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net台灣, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: hgc1.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇯🇵日本, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net 🇩🇪 德国, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net 🇭🇰 香港4-Baron小浪浪, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52030:ff778899, obfs-param: "", udp: true}
+  - {name: 魔戒.net 🇭🇰 香港3-Baron小浪浪, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52030:ff778899, obfs-param: "", udp: true}
+  - {name: 魔戒.net 🇭🇰 香港1-Baron小浪浪, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52030:ff778899, obfs-param: "", udp: true}
+  - {name: 魔戒.net 🇭🇰 香港2-Baron小浪浪, server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52030:ff778899, obfs-param: "", udp: true}
+  - {name: 魔戒.net 🇰🇷 韩国-Baron小浪浪, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52030:ff778899, obfs-param: "", udp: true}
+  - {name: 魔戒.net美国千兆-01号, server: 101.wowogg.cyou, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net美国千兆-06号, server: 98.wowogg.cyou, port: 52298, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net香港-日本千兆-11号, server: 90.wowogg.cyou, port: 52290, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net日本千兆-05号, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net日本千兆-10号, server: 114.wowogg.cyou, port: 52214, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net美国-日本千兆-02号, server: 131.wowogg.cyou, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net日本千兆-17号, server: 127.wowogg.cyou, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net日本千兆-02号, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net日本千兆-24号, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net日本千兆-07号, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net日本千兆-09号, server: 110.wowogg.cyou, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net香港-日本千兆-08号, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net日本千兆-16号, server: 126.wowogg.cyou, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net日本千兆-01号, server: 100.wowogg.cyou, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net香港-日本千兆-03号, server: 133.wowogg.cyou, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net日本千兆-21号, server: 84.wowogg.cyou, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]", server: 122.9.62.9, port: 7931, type: ss, cipher: chacha20-ietf-poly1305, password: bbea04c91913a27ab1c04f3aedc2a74e1e47c876898738d7f79938fd20c13b5e, udp: true}
+  - {name: "魔戒.net 🇸🇬 IOS小火箭专用|新加坡1 [IPLC]", server: 122.9.54.197, port: 2052, type: ss, cipher: chacha20-ietf-poly1305, password: 8de3adaf694efcde412ad4400845da2f0b2183ddb8392e4caeefa1ec2363cd5a, udp: true}
+  - {name: "魔戒.net 🇸🇬 IOS小火箭专用|新加坡 2 [IPLC]", server: 122.9.54.240, port: 4594, type: ss, cipher: chacha20-ietf-poly1305, password: 1c3217168ffc15a8fb3d49fa3a874036cf15fd90ea719fb0e1186d7b060bf42f, udp: true}
+  - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]", server: 122.9.62.44, port: 2945, type: ss, cipher: chacha20-ietf-poly1305, password: 2d5559dc1d6c1d3581f4ee327ac93b58359c963da44aa92faef307ee07a11261, udp: true}
+  - {name: "魔戒.net 🇯🇵 IOS小火箭专用|日本 - 东京 -33 [IPLC]", server: 122.9.62.6, port: 4413, type: ss, cipher: chacha20-ietf-poly1305, password: 1605b9dd9d2fb4b42bc72e2c30f269ab6cf41c21c5ed062a7fa5ad7553d7735f, udp: true}
+  - {name: "魔戒.net 🇵🇭 IOS小火箭专用|菲律宾 - 马尼拉 -27 [IPLC]", server: 122.9.62.15, port: 4848, type: ss, cipher: chacha20-ietf-poly1305, password: f46dcfa9264802877761045b54f69eb689c00d0d23af2139ce8a9608767fd00c, udp: true}
   - {name: jc.ap.fastqvpn.com:29980, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 31机场👉魔戒.net, server: iepl-hn01.qqgg.work, port: 44702, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 32机场👉魔戒.net, server: gzyd-01.yyuuii.cyou, port: 20002, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 33机场👉魔戒.net, server: gzyd-01.yyuuii.cyou, port: 49036, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 34机场👉魔戒.net, server: 101.67.8.192, port: 25179, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 35机场👉魔戒.net, server: jx-002.yyuuii.cyou, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: TG频道@Jsnzk, server: gzbgpss.8n4t.cn, port: 20115, type: trojan, password: 43a29215-a4c6-3b8a-9697-5242c8f09213, sni: hkgy.xdmyyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 82机场👉魔戒.net, server: kl.pbaplink.xyz, port: 48511, type: trojan, password: a6525e92-f057-4c25-a446-e6fdbec87177, sni: kl.pbaplink.xyz, skip-cert-verify: true, udp: true}
-  - {name: 83机场👉魔戒.net, server: k11.pbaplink.xyz, port: 48500, type: trojan, password: a6525e92-f057-4c25-a446-e6fdbec87177, sni: k11.pbaplink.xyz, skip-cert-verify: true, udp: true}
-  - {name: 22机场👉魔戒.net, server: 99.wowogg.cyou, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 21机场👉魔戒.net, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 23机场👉魔戒.net, server: 117.wowogg.cyou, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 24机场👉魔戒.net, server: 129.wowogg.cyou, port: 52329, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 25机场👉魔戒.net, server: 119.wowogg.cyou, port: 52219, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 26机场👉魔戒.net, server: 116.wowogg.cyou, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 27机场👉魔戒.net, server: 96.wowogg.cyou, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 28机场👉魔戒.net, server: 91.wowogg.cyou, port: 52291, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 29机场👉魔戒.net, server: 109.wowogg.cyou, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 30机场👉魔戒.net, server: 108.wowogg.cyou, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12机场👉魔戒.net, server: tghk2.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, skip-cert-verify: true, udp: true}
-  - {name: 13机场👉魔戒.net, server: 103.wowogg.cyou, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 14机场👉魔戒.net, server: 109.wowogg.cyou, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 15机场👉魔戒.net, server: 0220hk05.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%220220hk05.fans8.xyz%22%7D"}}, udp: true}
-  - {name: 16机场👉魔戒.net, server: 100.wowogg.cyou, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 17机场👉魔戒.net, server: 98.wowogg.cyou, port: 52298, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 18机场👉魔戒.net, server: 101.wowogg.cyou, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 19机场👉魔戒.net, server: tw13.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 20机场👉魔戒.net, server: 119.wowogg.cyou, port: 52219, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 84机场👉魔戒.net, server: 122.9.62.57, port: 1003, type: ss, cipher: chacha20-ietf-poly1305, password: d448c5c3968140fcd5470e035d443c502faa163363b313e01bcbb2c024d2a510, udp: true}
-  - {name: 85机场👉魔戒.net, server: 122.9.54.80, port: 1027, type: ss, cipher: chacha20-ietf-poly1305, password: cbb28b0ee184b34ab6881ec4aecbcaeaa9e8c1072e7b3c2cc5c447bd2fd07c5a, udp: true}
-  - {name: 86机场👉魔戒.net, server: 122.9.54.226, port: 6504, type: ss, cipher: chacha20-ietf-poly1305, password: 0a12b07c1783f13621276fc107b0d70d33d502819c6f5dcdbaf8f0e541d7c941, udp: true}
-  - {name: 87机场👉魔戒.net, server: 122.9.54.18, port: 1029, type: ss, cipher: chacha20-ietf-poly1305, password: 87813d504d8ea626434f091f4f02bc841f3c739842aff46fe2dc8c709dba2d25, udp: true}
-  - {name: 88机场👉魔戒.net, server: 122.9.54.125, port: 6621, type: ss, cipher: chacha20-ietf-poly1305, password: 8dbbdb0923c4a7ab1ae472c634d01f2d8c66570d11c623e712b892e8aa2e8410, udp: true}
-  - {name: 5机场👉魔戒.net, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 6机场👉魔戒.net, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
-  - {name: 7机场👉魔戒.net, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 8机场👉魔戒.net, server: cn2.wecanfly.top, port: 51134, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cn2.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 9机场👉魔戒.net, server: fsyd.wecanfly.top, port: 51221, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 10机场👉魔戒.net, server: gzyd.wozcjd.xyz, port: 11348, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
-  - {name: 11机场👉魔戒.net, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
-  - {name: 4机场👉魔戒.net, server: 0219sg.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0219sg.fans8.xyz}}, udp: true}
-  - {name: 1机场👉魔戒.net, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: 5efeb899-e8bd-446f-b0be-863d30331174, udp: true}
-  - {name: 2机场👉魔戒.net, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: 5efeb899-e8bd-446f-b0be-863d30331174, udp: true}
-  - {name: 3机场👉魔戒.net, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: 5efeb899-e8bd-446f-b0be-863d30331174, udp: true}
-  - {name: 23机场👉魔戒.net 2, server: sg08.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 24机场👉魔戒.net 2, server: sg10.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 26机场👉魔戒.net 2, server: hkt01.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 4机场👉魔戒.net 2, server: tghk2.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, sni: tghk2.77710086.xyz, skip-cert-verify: true, udp: true}
-  - {name: 3机场👉魔戒.net 2, server: tghk2.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, sni: tghk2.77710086.xyz, skip-cert-verify: true, udp: true}
-  - {name: 28机场👉魔戒.net 2, server: hr05.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 29机场👉魔戒.net 2, server: jp05.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 27机场👉魔戒.net 2, server: hr04.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 30机场👉魔戒.net 2, server: jp09.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 31机场👉魔戒.net 2, server: tw13.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 32机场👉魔戒.net 2, server: tw15.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
-  - {name: 33机场👉魔戒.net 2, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: true, udp: true}
-  - {name: 6机场👉魔戒.net 2, server: jpoo.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, sni: jpoo.77710086.xyz, skip-cert-verify: true, udp: true}
-  - {name: 5机场👉魔戒.net 2, server: jpoo.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, sni: jpoo.77710086.xyz, skip-cert-verify: true, udp: true}
-  - {name: 7机场👉魔戒.net 2, server: tghg.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, sni: tghg.77710086.xyz, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net香港BGP丨黑砖无限流量丨零倍率, server: gzbgpss.8n4t.cn, port: 20115, type: trojan, password: 43a29215-a4c6-3b8a-9697-5242c8f09213, sni: hkgy.xdmyyds.cc, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net韩国1 福利 0x, server: kl.pbaplink.xyz, port: 48511, type: trojan, password: a6525e92-f057-4c25-a446-e6fdbec87177, sni: kl.pbaplink.xyz, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net vpnpool-SG-DigitalOcean, server: 85.wowogg.cyou, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net vpnpool-Tokyo-Linode, server: 126.wowogg.cyou, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net vpnpool-Tokyo-Linode 2, server: 128.wowogg.cyou, port: 52228, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net vpnpool-Tokyo-Linode 3, server: 96.wowogg.cyou, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net vpnpool-SG-DigitalOcean 2, server: 110.wowogg.cyou, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net vpnpool-Tokyo-Linode 4, server: 81.wowogg.cyou, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net vpnpool-Tokyo-Linode 5, server: 93.wowogg.cyou, port: 52293, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net vpnpool-香港腾讯云, server: 132.wowogg.cyou, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net*🇯🇵JP 647| hi-moon.pw, server: 103.wowogg.cyou, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net*🇯🇵JP 693| hi-moon.pw, server: 104.208.94.36, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net*🇯🇵JP 643| hi-moon.pw, server: 100.wowogg.cyou, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net*🇯🇵JP 1582| hi-moon.pw, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net*🇯🇵JP 625| hi-moon.pw, server: 82.wowogg.cyou, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net*🇯🇵JP 659| hi-moon.pw, server: 129.wowogg.cyou, port: 52329, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net*🇯🇵JP 650| hi-moon.pw, server: 84.wowogg.cyou, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net*🇯🇵JP 652| hi-moon.pw, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net*🇭🇰HK 35| hi-moon.pw, server: sh.cm.xfss.cc, port: 25029, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net*🇸🇬SG 46| hi-moon.pw, server: gy.hkb.xfss.cc, port: 9474, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net*🇭🇰HK 39| hi-moon.pw, server: sh.bgp.xfss.cc, port: 17896, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net*🇭🇰HK 37| hi-moon.pw, server: sh.bgp.xfss.cc, port: 14288, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net*🇭🇰HK 38| hi-moon.pw, server: sh.bgp.xfss.cc, port: 16389, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net*🇺🇸US 40| hi-moon.pw, server: 101.67.8.181, port: 55113, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net*🇭🇰HK 36| hi-moon.pw, server: sh.bgp.xfss.cc, port: 17893, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net*🇭🇰HK 32| hi-moon.pw, server: 116.162.33.210, port: 25501, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net*🇯🇵JP 646| hi-moon.pw, server: 119.wowogg.cyou, port: 52219, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net*🇭🇰HK 43| hi-moon.pw, server: ls.cm.xfss.cc, port: 14291, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net*🇯🇵JP 654| hi-moon.pw, server: 85.wowogg.cyou, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net*🇯🇵JP 1583| hi-moon.pw, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net日本(绿头外网集团)(Public), server: 116.162.33.210, port: 25501, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net新加坡(绿头外网集团)(Public) 5, server: gy.hkb.xfss.cc, port: 9474, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net香港(绿头外网集团)(Public) 3, server: sh.cm.xfss.cc, port: 25029, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net香港(绿头外网集团)(Public), server: gzbgpss.8n4t.cn, port: 20115, type: trojan, password: 43a29215-a4c6-3b8a-9697-5242c8f09213, sni: gzbgpss.8n4t.cn, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net香港(绿头外网集团)(Public) 10, server: 120.240.86.101, port: 25155, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net香港(绿头外网集团)(Public) 6, server: sh.bgp.xfss.cc, port: 16389, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net香港(绿头外网集团)(Public) 7, server: sh.bgp.xfss.cc, port: 17896, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net美國(绿头外网集团)(Public) 10, server: 101.67.8.181, port: 55113, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net香港(绿头外网集团)(Public) 5, server: sh.bgp.xfss.cc, port: 14288, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net韓國(绿头外网集团)(Public), server: shcu.xfss.cc, port: 39577, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net韓國(绿头外网集团)(Public) 3, server: shcu.xfss.cc, port: 34289, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net香港(绿头外网集团)(Public) 4, server: sh.bgp.xfss.cc, port: 17893, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net香港(绿头外网集团)(Public) 8, server: ls.cm.xfss.cc, port: 14291, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net韓國(绿头外网集团)(Public) 2, server: shcu.xfss.cc, port: 39578, type: ss, cipher: chacha20-ietf-poly1305, password: 4002906a-64e0-49c7-9065-9eb67554a8c1, udp: true}
+  - {name: 魔戒.net愛沙尼亞(绿头外网集团)(Public), server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net香港2-三网优化, server: 0220hk05.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0220hk05.fans8.xyz}}, udp: true}
+  - {name: 魔戒.net韩国1-三网优化, server: 0218kr02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218kr02.fans8.xyz}}, udp: true}
+  - {name: 魔戒.net韩国8-三网优化, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1031kr.fans8.xyz}}, udp: true}
+  - {name: 魔戒.net 🇯🇵日本 JP-Y01, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 5efeb899-e8bd-446f-b0be-863d30331174, udp: true}
+  - {name: 魔戒.net 🇸🇬新加坡 SG-Y01, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: 5efeb899-e8bd-446f-b0be-863d30331174, udp: true}
+  - {name: 魔戒.net 🇸🇬新加坡 SG-Y02, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 30005, type: ss, cipher: chacha20-ietf-poly1305, password: 5efeb899-e8bd-446f-b0be-863d30331174, udp: true}
+  - {name: 魔戒.net 🇭🇰香港 HK-Y01, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 5efeb899-e8bd-446f-b0be-863d30331174, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -2176,171 +2132,106 @@ proxy-groups:
       - "| 02"
       - "| 01"
       - "| 53"
-      - _KR_韩国
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇸🇬_SG_新加坡 2
-      - _US_美国
-      - _CN_中国->🇸🇬_SG_新加坡 3
-      - _CA_加拿大
-      - default_name
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - _CA_加拿大 5
-      - _US_美国->🇫🇷_FR_法国
-      - _DE_德国
-      - _CA_加拿大 6
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - _CA_加拿大 9
-      - _CA_加拿大 10
-      - _CA_加拿大 11
-      - _GB_英国
-      - _CA_加拿大 12
-      - default_name 2
-      - _GB_英国 2
-      - _RU_俄罗斯联邦
-      - _CA_加拿大 13
-      - default_name 3
-      - _FR_法国
-      - _CA_加拿大 14
-      - _CA_加拿大 15
-      - _CA_加拿大 16
-      - _GB_英国 3
-      - _CA_加拿大 17
-      - _GB_英国 4
-      - _CA_加拿大 18
-      - _RU_俄罗斯联邦 2
-      - _FR_法国 2
-      - _GB_英国 5
-      - _CA_加拿大 19
-      - _GB_英国 6
-      - _GB_英国 7
-      - _US_美国 2
-      - _FR_法国 3
-      - _CA_加拿大 20
-      - _GB_英国 8
-      - _GB_英国 9
-      - _GB_英国 10
-      - _FR_法国 4
-      - _GB_英国 11
-      - _CA_加拿大 21
-      - _FR_法国 5
-      - _CA_加拿大 22
-      - _CA_加拿大 23
-      - _CA_加拿大 24
-      - default_name 4
-      - _FR_法国 6
-      - _CA_加拿大 25
-      - _CA_加拿大 26
-      - _CA_加拿大 27
-      - _GB_英国 12
-      - _US_美国 3
-      - _GB_英国 13
-      - _US_美国 4
-      - _CA_加拿大 28
-      - _CA_加拿大 29
-      - _CA_加拿大 30
-      - _US_美国 5
-      - _CA_加拿大 31
-      - _GB_英国 14
-      - _GB_英国 15
-      - default_name 5
-      - _CA_加拿大 32
-      - _GB_英国 16
-      - _FR_法国 7
-      - _GB_英国 17
-      - _CA_加拿大 33
-      - _GB_英国 18
-      - _GB_英国 19
-      - _CA_加拿大 34
-      - _GB_英国 20
-      - _FR_法国 8
-      - _FR_法国 9
-      - _CA_加拿大 35
-      - _FR_法国 10
-      - _US_美国 6
-      - _CA_加拿大 36
-      - _CA_加拿大 37
-      - _GB_英国 21
-      - _GB_英国 22
-      - _CA_加拿大 38
-      - _CA_加拿大 39
-      - _CA_加拿大 40
-      - _CA_加拿大 41
-      - _FR_法国 11
-      - _CA_加拿大 42
-      - _CA_加拿大 43
-      - _GB_英国 23
-      - _CA_加拿大 44
-      - _CA_加拿大 45
-      - _FR_法国 12
-      - _GB_英国 24
-      - _CA_加拿大 46
-      - _GB_英国 25
-      - _CA_加拿大 47
-      - _GB_英国 26
-      - _FR_法国 13
-      - _FR_法国 14
-      - _CA_加拿大 48
-      - _GB_英国 27
-      - _CA_加拿大 49
-      - _FR_法国 15
-      - _FR_法国 16
-      - _GB_英国 28
-      - _CA_加拿大 50
-      - _FR_法国 17
-      - _HK_香港->🇮🇳_IN_印度
-      - _KR_韩国 2
-      - _CA_加拿大 51
-      - _CA_加拿大 52
-      - _FR_法国 18
-      - _CA_加拿大 53
-      - _CA_加拿大 54
-      - _CA_加拿大 55
-      - _GB_英国 29
-      - _US_美国 7
-      - _CA_加拿大 56
-      - _FR_法国 19
-      - _CA_加拿大 57
-      - _GB_英国 30
-      - _FR_法国 20
-      - _FR_法国 21
-      - _CA_加拿大 58
-      - _CA_加拿大 59
-      - _CA_加拿大 60
-      - _CA_加拿大 61
-      - _GB_英国 31
-      - _CA_加拿大 62
-      - _GB_英国 32
-      - _GB_英国 33
-      - _FR_法国 22
-      - _RU_俄罗斯联邦 3
-      - _CA_加拿大 63
-      - _CA_加拿大 64
-      - _US_美国 8
-      - _CA_加拿大 65
-      - _CA_加拿大 66
-      - _CA_加拿大 67
-      - _CA_加拿大 68
-      - _GB_英国 34
-      - _CA_加拿大 69
-      - _GB_英国 35
-      - _CA_加拿大 70
-      - _CA_加拿大 71
-      - _CA_加拿大 72
-      - _GB_英国 36
-      - _CA_加拿大 73
-      - _GB_英国 37
-      - _FR_法国 23
-      - _GB_英国 38
-      - _US_美国 9
-      - _CA_加拿大 74
-      - _GB_英国 39
-      - _GB_英国 40
-      - _GB_英国 41
-      - _CA_加拿大 75
+      - _GB英国
+      - _GB英国 2
+      - _CA加拿大
+      - _GB英国 3
+      - _GB英国 4
+      - _CA加拿大 2
+      - _FR法国
+      - _GB英国 5
+      - _GB英国 6
+      - _GB英国 7
+      - _GB英国 8
+      - _GB英国 9
+      - _CA加拿大 3
+      - _CA加拿大 4
+      - _CA加拿大 5
+      - _CA加拿大 6
+      - _GB英国 10
+      - _FR法国 2
+      - _GB英国 11
+      - _GB英国 12
+      - _GB英国 13
+      - _GB英国 14
+      - _CA加拿大 7
+      - _CA加拿大 8
+      - _GB英国 15
+      - _GB英国 16
+      - _GB英国 17
+      - _GB英国 18
+      - _CA加拿大 9
+      - _CA加拿大 10
+      - _CA加拿大 11
+      - _CA加拿大 12
+      - _CA加拿大 13
+      - _US美国
+      - _CA加拿大 14
+      - _FR法国 3
+      - _FR法国 4
+      - _FR法国 5
+      - _GB英国 19
+      - _GB英国 20
+      - _GB英国 21
+      - _GB英国 22
+      - _GB英国 23
+      - _GB英国 24
+      - _GB英国 25
+      - _GB英国 26
+      - _GB英国 27
+      - _GB英国 28
+      - _GB英国 29
+      - _GB英国 30
+      - _GB英国 31
+      - _CA加拿大 15
+      - _CA加拿大 16
+      - _CA加拿大 17
+      - _CA加拿大 18
+      - _CA加拿大 19
+      - _CA加拿大 20
+      - _CA加拿大 21
+      - _CA加拿大 22
+      - _US美国 2
+      - _CA加拿大 23
+      - _US美国 3
+      - _CA加拿大 24
+      - _CA加拿大 25
+      - _GB英国 32
+      - _GB英国 33
+      - _CN中国->🇳🇱_NL荷兰
+      - _CN中国->🇳🇱_NL荷兰 2
+      - _FR法国 6
+      - _GB英国 34
+      - _GB英国 35
+      - _GB英国 36
+      - _GB英国 37
+      - _GB英国 38
+      - _CA加拿大 26
+      - _CA加拿大 27
+      - _CA加拿大 28
+      - _CA加拿大 29
+      - _CA加拿大 30
+      - _CA加拿大 31
+      - _CA加拿大 32
+      - _CA加拿大 33
+      - _CA加拿大 34
+      - _CA加拿大 35
+      - _CA加拿大 36
+      - _FR法国 7
+      - _FR法国 8
+      - _FR法国 9
+      - _FR法国 10
+      - _GB英国 39
+      - _GB英国 40
+      - _GB英国 41
+      - _GB英国 42
+      - _GB英国 43
+      - _GB英国 44
+      - _GB英国 45
+      - _GB英国 46
+      - _CA加拿大 37
+      - _CA加拿大 38
+      - _CA加拿大 39
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2852,111 +2743,132 @@ proxy-groups:
       - 广东省广州市腾讯云 46
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
-      - 65机场👉魔戒.net
-      - 64机场👉魔戒.net
-      - 65机场👉魔戒.net 2
-      - 66机场👉魔戒.net
-      - 67机场👉魔戒.net
-      - 68机场👉魔戒.net
-      - 69机场👉魔戒.net
-      - 71机场👉魔戒.net
-      - 70机场👉魔戒.net
-      - 72机场👉魔戒.net
-      - 73机场👉魔戒.net
-      - 74机场👉魔戒.net
-      - 75机场👉魔戒.net
-      - 61机场👉魔戒.net
-      - 62机场👉魔戒.net
-      - 76机场👉魔戒.net
-      - 63机场👉魔戒.net
-      - 49机场👉魔戒.net
-      - 50机场👉魔戒.net
-      - 51机场👉魔戒.net
-      - 52机场👉魔戒.net
-      - 53机场👉魔戒.net
-      - 54机场👉魔戒.net
-      - 55机场👉魔戒.net
-      - 56机场👉魔戒.net
-      - 57机场👉魔戒.net
-      - 58机场👉魔戒.net
-      - 59机场👉魔戒.net
-      - 60机场👉魔戒.net
-      - 77机场👉魔戒.net
-      - 43机场👉魔戒.net
-      - 44机场👉魔戒.net
-      - 45机场👉魔戒.net
-      - 46机场👉魔戒.net
-      - 47机场👉魔戒.net
-      - 48机场👉魔戒.net
-      - 78机场👉魔戒.net
-      - 38机场👉魔戒.net
-      - 39机场👉魔戒.net
-      - 40机场👉魔戒.net
-      - 41机场👉魔戒.net
-      - 42机场👉魔戒.net
-      - 36机场👉魔戒.net
-      - 37机场👉魔戒.net
-      - 79机场👉魔戒.net
-      - 80机场👉魔戒.net
+      - 魔戒.net韩国(首尔) 🚀[极速稳定]
+      - 魔戒.net美国[BGPA] 🚀[极速稳定]
+      - 魔戒.net香港 20 Microsoft
+      - 魔戒.net香港 01 Microsoft
+      - 魔戒.net香港 17 Microsoft
+      - 魔戒.net香港 11 Microsoft
+      - 魔戒.net香港 16 Microsoft
+      - 魔戒.net越南_R_377
+      - 魔戒.net中国香港_R_450
+      - 魔戒.net日本_R_498
+      - 魔戒.net中国台湾_R_314
+      - 魔戒.net中国香港_R_121
+      - 魔戒.net日本_N_1
+      - 魔戒.net中国香港_R_316
+      - 魔戒.net新加坡_R_229
+      - 魔戒.net V3香港A13丨5x丨深港专线
+      - 魔戒.net V2香港A02丨1x丨流媒体
+      - 魔戒.net V1台湾A08丨1x
+      - 魔戒.net V1香港A07丨1x
+      - 魔戒.net V1香港A06丨1x
+      - 魔戒.net Hong Kong IPLC Gaming 8Mbps 5×
+      - 魔戒.net Japan
+      - 魔戒.net Hong Kong IEPL 5×
+      - 魔戒.net Planevpn香港 (中国)-26[WhatsApp] [LineApp]
+      - 魔戒.net Planevpn香港 (中国)-20[WhatsApp] [LineApp]
+      - 魔戒.net Planevpn香港 (中国)-19[WhatsApp] [LineApp]
+      - 魔戒.net Planevpn香港  (中国)-1[NETSEC]
+      - 魔戒.net Planevpn香港 (中国)-10[HKT]
+      - 魔戒.net[CT/CM] HKT J
+      - 魔戒.net[CT/CM] HKT A
+      - 魔戒.net[CT/CM] HKBN B
+      - 魔戒.net[CT/CM] HKBN A
+      - 魔戒.net[CT/CM] HKT B
+      - 魔戒.net[CT/CM] HKBN D
+      - 魔戒.net[CT/CM] HKT D
+      - 魔戒.net[CT/CM] HKT H
+      - 魔戒.net[CT/CM] HKT L
+      - 魔戒.net[CT/CM] HKT I
+      - 魔戒.net[CT/CM] HKT E
+      - 魔戒.net[CT/CM] HKT M
+      - 魔戒.net香港(中国)🚀[极速稳定]
+      - 魔戒.net 🇭🇰香港01
+      - 魔戒.net 🇭🇰香港03
+      - 魔戒.net台灣
+      - 魔戒.net 🇯🇵日本
+      - 魔戒.net 🇩🇪 德国
+      - 魔戒.net 🇭🇰 香港4-Baron小浪浪
+      - 魔戒.net 🇭🇰 香港3-Baron小浪浪
+      - 魔戒.net 🇭🇰 香港1-Baron小浪浪
+      - 魔戒.net 🇭🇰 香港2-Baron小浪浪
+      - 魔戒.net 🇰🇷 韩国-Baron小浪浪
+      - 魔戒.net美国千兆-01号
+      - 魔戒.net美国千兆-06号
+      - 魔戒.net香港-日本千兆-11号
+      - 魔戒.net日本千兆-05号
+      - 魔戒.net日本千兆-10号
+      - 魔戒.net美国-日本千兆-02号
+      - 魔戒.net日本千兆-17号
+      - 魔戒.net日本千兆-02号
+      - 魔戒.net日本千兆-24号
+      - 魔戒.net日本千兆-07号
+      - 魔戒.net日本千兆-09号
+      - 魔戒.net香港-日本千兆-08号
+      - 魔戒.net日本千兆-16号
+      - 魔戒.net日本千兆-01号
+      - 魔戒.net香港-日本千兆-03号
+      - 魔戒.net日本千兆-21号
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]
+      - 魔戒.net 🇸🇬 IOS小火箭专用|新加坡1 [IPLC]
+      - 魔戒.net 🇸🇬 IOS小火箭专用|新加坡 2 [IPLC]
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
+      - 魔戒.net 🇯🇵 IOS小火箭专用|日本 - 东京 -33 [IPLC]
+      - 魔戒.net 🇵🇭 IOS小火箭专用|菲律宾 - 马尼拉 -27 [IPLC]
       - jc.ap.fastqvpn.com:29980
-      - 31机场👉魔戒.net
-      - 32机场👉魔戒.net
-      - 33机场👉魔戒.net
-      - 34机场👉魔戒.net
-      - 35机场👉魔戒.net
-      - TG频道@Jsnzk
-      - 82机场👉魔戒.net
-      - 83机场👉魔戒.net
-      - 22机场👉魔戒.net
-      - 21机场👉魔戒.net
-      - 23机场👉魔戒.net
-      - 24机场👉魔戒.net
-      - 25机场👉魔戒.net
-      - 26机场👉魔戒.net
-      - 27机场👉魔戒.net
-      - 28机场👉魔戒.net
-      - 29机场👉魔戒.net
-      - 30机场👉魔戒.net
-      - 12机场👉魔戒.net
-      - 13机场👉魔戒.net
-      - 14机场👉魔戒.net
-      - 15机场👉魔戒.net
-      - 16机场👉魔戒.net
-      - 17机场👉魔戒.net
-      - 18机场👉魔戒.net
-      - 19机场👉魔戒.net
-      - 20机场👉魔戒.net
-      - 84机场👉魔戒.net
-      - 85机场👉魔戒.net
-      - 86机场👉魔戒.net
-      - 87机场👉魔戒.net
-      - 88机场👉魔戒.net
-      - 5机场👉魔戒.net
-      - 6机场👉魔戒.net
-      - 7机场👉魔戒.net
-      - 8机场👉魔戒.net
-      - 9机场👉魔戒.net
-      - 10机场👉魔戒.net
-      - 11机场👉魔戒.net
-      - 4机场👉魔戒.net
-      - 1机场👉魔戒.net
-      - 2机场👉魔戒.net
-      - 3机场👉魔戒.net
-      - 23机场👉魔戒.net 2
-      - 24机场👉魔戒.net 2
-      - 26机场👉魔戒.net 2
-      - 4机场👉魔戒.net 2
-      - 3机场👉魔戒.net 2
-      - 28机场👉魔戒.net 2
-      - 29机场👉魔戒.net 2
-      - 27机场👉魔戒.net 2
-      - 30机场👉魔戒.net 2
-      - 31机场👉魔戒.net 2
-      - 32机场👉魔戒.net 2
-      - 33机场👉魔戒.net 2
-      - 6机场👉魔戒.net 2
-      - 5机场👉魔戒.net 2
-      - 7机场👉魔戒.net 2
+      - 魔戒.net香港BGP丨黑砖无限流量丨零倍率
+      - 魔戒.net韩国1 福利 0x
+      - 魔戒.net vpnpool-SG-DigitalOcean
+      - 魔戒.net vpnpool-Tokyo-Linode
+      - 魔戒.net vpnpool-Tokyo-Linode 2
+      - 魔戒.net vpnpool-Tokyo-Linode 3
+      - 魔戒.net vpnpool-SG-DigitalOcean 2
+      - 魔戒.net vpnpool-Tokyo-Linode 4
+      - 魔戒.net vpnpool-Tokyo-Linode 5
+      - 魔戒.net vpnpool-香港腾讯云
+      - 魔戒.net*🇯🇵JP 647| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 693| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 643| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 1582| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 625| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 659| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 650| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 652| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 35| hi-moon.pw
+      - 魔戒.net*🇸🇬SG 46| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 39| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 37| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 38| hi-moon.pw
+      - 魔戒.net*🇺🇸US 40| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 36| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 32| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 646| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 43| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 654| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 1583| hi-moon.pw
+      - 魔戒.net日本(绿头外网集团)(Public)
+      - 魔戒.net新加坡(绿头外网集团)(Public) 5
+      - 魔戒.net香港(绿头外网集团)(Public) 3
+      - 魔戒.net香港(绿头外网集团)(Public)
+      - 魔戒.net香港(绿头外网集团)(Public) 10
+      - 魔戒.net香港(绿头外网集团)(Public) 6
+      - 魔戒.net香港(绿头外网集团)(Public) 7
+      - 魔戒.net美國(绿头外网集团)(Public) 10
+      - 魔戒.net香港(绿头外网集团)(Public) 5
+      - 魔戒.net韓國(绿头外网集团)(Public)
+      - 魔戒.net韓國(绿头外网集团)(Public) 3
+      - 魔戒.net香港(绿头外网集团)(Public) 4
+      - 魔戒.net香港(绿头外网集团)(Public) 8
+      - 魔戒.net韓國(绿头外网集团)(Public) 2
+      - 魔戒.net愛沙尼亞(绿头外网集团)(Public)
+      - 魔戒.net香港2-三网优化
+      - 魔戒.net韩国1-三网优化
+      - 魔戒.net韩国8-三网优化
+      - 魔戒.net 🇯🇵日本 JP-Y01
+      - 魔戒.net 🇸🇬新加坡 SG-Y01
+      - 魔戒.net 🇸🇬新加坡 SG-Y02
+      - 魔戒.net 🇭🇰香港 HK-Y01
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -3649,171 +3561,106 @@ proxy-groups:
       - "| 02"
       - "| 01"
       - "| 53"
-      - _KR_韩国
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇸🇬_SG_新加坡 2
-      - _US_美国
-      - _CN_中国->🇸🇬_SG_新加坡 3
-      - _CA_加拿大
-      - default_name
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - _CA_加拿大 5
-      - _US_美国->🇫🇷_FR_法国
-      - _DE_德国
-      - _CA_加拿大 6
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - _CA_加拿大 9
-      - _CA_加拿大 10
-      - _CA_加拿大 11
-      - _GB_英国
-      - _CA_加拿大 12
-      - default_name 2
-      - _GB_英国 2
-      - _RU_俄罗斯联邦
-      - _CA_加拿大 13
-      - default_name 3
-      - _FR_法国
-      - _CA_加拿大 14
-      - _CA_加拿大 15
-      - _CA_加拿大 16
-      - _GB_英国 3
-      - _CA_加拿大 17
-      - _GB_英国 4
-      - _CA_加拿大 18
-      - _RU_俄罗斯联邦 2
-      - _FR_法国 2
-      - _GB_英国 5
-      - _CA_加拿大 19
-      - _GB_英国 6
-      - _GB_英国 7
-      - _US_美国 2
-      - _FR_法国 3
-      - _CA_加拿大 20
-      - _GB_英国 8
-      - _GB_英国 9
-      - _GB_英国 10
-      - _FR_法国 4
-      - _GB_英国 11
-      - _CA_加拿大 21
-      - _FR_法国 5
-      - _CA_加拿大 22
-      - _CA_加拿大 23
-      - _CA_加拿大 24
-      - default_name 4
-      - _FR_法国 6
-      - _CA_加拿大 25
-      - _CA_加拿大 26
-      - _CA_加拿大 27
-      - _GB_英国 12
-      - _US_美国 3
-      - _GB_英国 13
-      - _US_美国 4
-      - _CA_加拿大 28
-      - _CA_加拿大 29
-      - _CA_加拿大 30
-      - _US_美国 5
-      - _CA_加拿大 31
-      - _GB_英国 14
-      - _GB_英国 15
-      - default_name 5
-      - _CA_加拿大 32
-      - _GB_英国 16
-      - _FR_法国 7
-      - _GB_英国 17
-      - _CA_加拿大 33
-      - _GB_英国 18
-      - _GB_英国 19
-      - _CA_加拿大 34
-      - _GB_英国 20
-      - _FR_法国 8
-      - _FR_法国 9
-      - _CA_加拿大 35
-      - _FR_法国 10
-      - _US_美国 6
-      - _CA_加拿大 36
-      - _CA_加拿大 37
-      - _GB_英国 21
-      - _GB_英国 22
-      - _CA_加拿大 38
-      - _CA_加拿大 39
-      - _CA_加拿大 40
-      - _CA_加拿大 41
-      - _FR_法国 11
-      - _CA_加拿大 42
-      - _CA_加拿大 43
-      - _GB_英国 23
-      - _CA_加拿大 44
-      - _CA_加拿大 45
-      - _FR_法国 12
-      - _GB_英国 24
-      - _CA_加拿大 46
-      - _GB_英国 25
-      - _CA_加拿大 47
-      - _GB_英国 26
-      - _FR_法国 13
-      - _FR_法国 14
-      - _CA_加拿大 48
-      - _GB_英国 27
-      - _CA_加拿大 49
-      - _FR_法国 15
-      - _FR_法国 16
-      - _GB_英国 28
-      - _CA_加拿大 50
-      - _FR_法国 17
-      - _HK_香港->🇮🇳_IN_印度
-      - _KR_韩国 2
-      - _CA_加拿大 51
-      - _CA_加拿大 52
-      - _FR_法国 18
-      - _CA_加拿大 53
-      - _CA_加拿大 54
-      - _CA_加拿大 55
-      - _GB_英国 29
-      - _US_美国 7
-      - _CA_加拿大 56
-      - _FR_法国 19
-      - _CA_加拿大 57
-      - _GB_英国 30
-      - _FR_法国 20
-      - _FR_法国 21
-      - _CA_加拿大 58
-      - _CA_加拿大 59
-      - _CA_加拿大 60
-      - _CA_加拿大 61
-      - _GB_英国 31
-      - _CA_加拿大 62
-      - _GB_英国 32
-      - _GB_英国 33
-      - _FR_法国 22
-      - _RU_俄罗斯联邦 3
-      - _CA_加拿大 63
-      - _CA_加拿大 64
-      - _US_美国 8
-      - _CA_加拿大 65
-      - _CA_加拿大 66
-      - _CA_加拿大 67
-      - _CA_加拿大 68
-      - _GB_英国 34
-      - _CA_加拿大 69
-      - _GB_英国 35
-      - _CA_加拿大 70
-      - _CA_加拿大 71
-      - _CA_加拿大 72
-      - _GB_英国 36
-      - _CA_加拿大 73
-      - _GB_英国 37
-      - _FR_法国 23
-      - _GB_英国 38
-      - _US_美国 9
-      - _CA_加拿大 74
-      - _GB_英国 39
-      - _GB_英国 40
-      - _GB_英国 41
-      - _CA_加拿大 75
+      - _GB英国
+      - _GB英国 2
+      - _CA加拿大
+      - _GB英国 3
+      - _GB英国 4
+      - _CA加拿大 2
+      - _FR法国
+      - _GB英国 5
+      - _GB英国 6
+      - _GB英国 7
+      - _GB英国 8
+      - _GB英国 9
+      - _CA加拿大 3
+      - _CA加拿大 4
+      - _CA加拿大 5
+      - _CA加拿大 6
+      - _GB英国 10
+      - _FR法国 2
+      - _GB英国 11
+      - _GB英国 12
+      - _GB英国 13
+      - _GB英国 14
+      - _CA加拿大 7
+      - _CA加拿大 8
+      - _GB英国 15
+      - _GB英国 16
+      - _GB英国 17
+      - _GB英国 18
+      - _CA加拿大 9
+      - _CA加拿大 10
+      - _CA加拿大 11
+      - _CA加拿大 12
+      - _CA加拿大 13
+      - _US美国
+      - _CA加拿大 14
+      - _FR法国 3
+      - _FR法国 4
+      - _FR法国 5
+      - _GB英国 19
+      - _GB英国 20
+      - _GB英国 21
+      - _GB英国 22
+      - _GB英国 23
+      - _GB英国 24
+      - _GB英国 25
+      - _GB英国 26
+      - _GB英国 27
+      - _GB英国 28
+      - _GB英国 29
+      - _GB英国 30
+      - _GB英国 31
+      - _CA加拿大 15
+      - _CA加拿大 16
+      - _CA加拿大 17
+      - _CA加拿大 18
+      - _CA加拿大 19
+      - _CA加拿大 20
+      - _CA加拿大 21
+      - _CA加拿大 22
+      - _US美国 2
+      - _CA加拿大 23
+      - _US美国 3
+      - _CA加拿大 24
+      - _CA加拿大 25
+      - _GB英国 32
+      - _GB英国 33
+      - _CN中国->🇳🇱_NL荷兰
+      - _CN中国->🇳🇱_NL荷兰 2
+      - _FR法国 6
+      - _GB英国 34
+      - _GB英国 35
+      - _GB英国 36
+      - _GB英国 37
+      - _GB英国 38
+      - _CA加拿大 26
+      - _CA加拿大 27
+      - _CA加拿大 28
+      - _CA加拿大 29
+      - _CA加拿大 30
+      - _CA加拿大 31
+      - _CA加拿大 32
+      - _CA加拿大 33
+      - _CA加拿大 34
+      - _CA加拿大 35
+      - _CA加拿大 36
+      - _FR法国 7
+      - _FR法国 8
+      - _FR法国 9
+      - _FR法国 10
+      - _GB英国 39
+      - _GB英国 40
+      - _GB英国 41
+      - _GB英国 42
+      - _GB英国 43
+      - _GB英国 44
+      - _GB英国 45
+      - _GB英国 46
+      - _CA加拿大 37
+      - _CA加拿大 38
+      - _CA加拿大 39
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4325,111 +4172,132 @@ proxy-groups:
       - 广东省广州市腾讯云 46
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
-      - 65机场👉魔戒.net
-      - 64机场👉魔戒.net
-      - 65机场👉魔戒.net 2
-      - 66机场👉魔戒.net
-      - 67机场👉魔戒.net
-      - 68机场👉魔戒.net
-      - 69机场👉魔戒.net
-      - 71机场👉魔戒.net
-      - 70机场👉魔戒.net
-      - 72机场👉魔戒.net
-      - 73机场👉魔戒.net
-      - 74机场👉魔戒.net
-      - 75机场👉魔戒.net
-      - 61机场👉魔戒.net
-      - 62机场👉魔戒.net
-      - 76机场👉魔戒.net
-      - 63机场👉魔戒.net
-      - 49机场👉魔戒.net
-      - 50机场👉魔戒.net
-      - 51机场👉魔戒.net
-      - 52机场👉魔戒.net
-      - 53机场👉魔戒.net
-      - 54机场👉魔戒.net
-      - 55机场👉魔戒.net
-      - 56机场👉魔戒.net
-      - 57机场👉魔戒.net
-      - 58机场👉魔戒.net
-      - 59机场👉魔戒.net
-      - 60机场👉魔戒.net
-      - 77机场👉魔戒.net
-      - 43机场👉魔戒.net
-      - 44机场👉魔戒.net
-      - 45机场👉魔戒.net
-      - 46机场👉魔戒.net
-      - 47机场👉魔戒.net
-      - 48机场👉魔戒.net
-      - 78机场👉魔戒.net
-      - 38机场👉魔戒.net
-      - 39机场👉魔戒.net
-      - 40机场👉魔戒.net
-      - 41机场👉魔戒.net
-      - 42机场👉魔戒.net
-      - 36机场👉魔戒.net
-      - 37机场👉魔戒.net
-      - 79机场👉魔戒.net
-      - 80机场👉魔戒.net
+      - 魔戒.net韩国(首尔) 🚀[极速稳定]
+      - 魔戒.net美国[BGPA] 🚀[极速稳定]
+      - 魔戒.net香港 20 Microsoft
+      - 魔戒.net香港 01 Microsoft
+      - 魔戒.net香港 17 Microsoft
+      - 魔戒.net香港 11 Microsoft
+      - 魔戒.net香港 16 Microsoft
+      - 魔戒.net越南_R_377
+      - 魔戒.net中国香港_R_450
+      - 魔戒.net日本_R_498
+      - 魔戒.net中国台湾_R_314
+      - 魔戒.net中国香港_R_121
+      - 魔戒.net日本_N_1
+      - 魔戒.net中国香港_R_316
+      - 魔戒.net新加坡_R_229
+      - 魔戒.net V3香港A13丨5x丨深港专线
+      - 魔戒.net V2香港A02丨1x丨流媒体
+      - 魔戒.net V1台湾A08丨1x
+      - 魔戒.net V1香港A07丨1x
+      - 魔戒.net V1香港A06丨1x
+      - 魔戒.net Hong Kong IPLC Gaming 8Mbps 5×
+      - 魔戒.net Japan
+      - 魔戒.net Hong Kong IEPL 5×
+      - 魔戒.net Planevpn香港 (中国)-26[WhatsApp] [LineApp]
+      - 魔戒.net Planevpn香港 (中国)-20[WhatsApp] [LineApp]
+      - 魔戒.net Planevpn香港 (中国)-19[WhatsApp] [LineApp]
+      - 魔戒.net Planevpn香港  (中国)-1[NETSEC]
+      - 魔戒.net Planevpn香港 (中国)-10[HKT]
+      - 魔戒.net[CT/CM] HKT J
+      - 魔戒.net[CT/CM] HKT A
+      - 魔戒.net[CT/CM] HKBN B
+      - 魔戒.net[CT/CM] HKBN A
+      - 魔戒.net[CT/CM] HKT B
+      - 魔戒.net[CT/CM] HKBN D
+      - 魔戒.net[CT/CM] HKT D
+      - 魔戒.net[CT/CM] HKT H
+      - 魔戒.net[CT/CM] HKT L
+      - 魔戒.net[CT/CM] HKT I
+      - 魔戒.net[CT/CM] HKT E
+      - 魔戒.net[CT/CM] HKT M
+      - 魔戒.net香港(中国)🚀[极速稳定]
+      - 魔戒.net 🇭🇰香港01
+      - 魔戒.net 🇭🇰香港03
+      - 魔戒.net台灣
+      - 魔戒.net 🇯🇵日本
+      - 魔戒.net 🇩🇪 德国
+      - 魔戒.net 🇭🇰 香港4-Baron小浪浪
+      - 魔戒.net 🇭🇰 香港3-Baron小浪浪
+      - 魔戒.net 🇭🇰 香港1-Baron小浪浪
+      - 魔戒.net 🇭🇰 香港2-Baron小浪浪
+      - 魔戒.net 🇰🇷 韩国-Baron小浪浪
+      - 魔戒.net美国千兆-01号
+      - 魔戒.net美国千兆-06号
+      - 魔戒.net香港-日本千兆-11号
+      - 魔戒.net日本千兆-05号
+      - 魔戒.net日本千兆-10号
+      - 魔戒.net美国-日本千兆-02号
+      - 魔戒.net日本千兆-17号
+      - 魔戒.net日本千兆-02号
+      - 魔戒.net日本千兆-24号
+      - 魔戒.net日本千兆-07号
+      - 魔戒.net日本千兆-09号
+      - 魔戒.net香港-日本千兆-08号
+      - 魔戒.net日本千兆-16号
+      - 魔戒.net日本千兆-01号
+      - 魔戒.net香港-日本千兆-03号
+      - 魔戒.net日本千兆-21号
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]
+      - 魔戒.net 🇸🇬 IOS小火箭专用|新加坡1 [IPLC]
+      - 魔戒.net 🇸🇬 IOS小火箭专用|新加坡 2 [IPLC]
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
+      - 魔戒.net 🇯🇵 IOS小火箭专用|日本 - 东京 -33 [IPLC]
+      - 魔戒.net 🇵🇭 IOS小火箭专用|菲律宾 - 马尼拉 -27 [IPLC]
       - jc.ap.fastqvpn.com:29980
-      - 31机场👉魔戒.net
-      - 32机场👉魔戒.net
-      - 33机场👉魔戒.net
-      - 34机场👉魔戒.net
-      - 35机场👉魔戒.net
-      - TG频道@Jsnzk
-      - 82机场👉魔戒.net
-      - 83机场👉魔戒.net
-      - 22机场👉魔戒.net
-      - 21机场👉魔戒.net
-      - 23机场👉魔戒.net
-      - 24机场👉魔戒.net
-      - 25机场👉魔戒.net
-      - 26机场👉魔戒.net
-      - 27机场👉魔戒.net
-      - 28机场👉魔戒.net
-      - 29机场👉魔戒.net
-      - 30机场👉魔戒.net
-      - 12机场👉魔戒.net
-      - 13机场👉魔戒.net
-      - 14机场👉魔戒.net
-      - 15机场👉魔戒.net
-      - 16机场👉魔戒.net
-      - 17机场👉魔戒.net
-      - 18机场👉魔戒.net
-      - 19机场👉魔戒.net
-      - 20机场👉魔戒.net
-      - 84机场👉魔戒.net
-      - 85机场👉魔戒.net
-      - 86机场👉魔戒.net
-      - 87机场👉魔戒.net
-      - 88机场👉魔戒.net
-      - 5机场👉魔戒.net
-      - 6机场👉魔戒.net
-      - 7机场👉魔戒.net
-      - 8机场👉魔戒.net
-      - 9机场👉魔戒.net
-      - 10机场👉魔戒.net
-      - 11机场👉魔戒.net
-      - 4机场👉魔戒.net
-      - 1机场👉魔戒.net
-      - 2机场👉魔戒.net
-      - 3机场👉魔戒.net
-      - 23机场👉魔戒.net 2
-      - 24机场👉魔戒.net 2
-      - 26机场👉魔戒.net 2
-      - 4机场👉魔戒.net 2
-      - 3机场👉魔戒.net 2
-      - 28机场👉魔戒.net 2
-      - 29机场👉魔戒.net 2
-      - 27机场👉魔戒.net 2
-      - 30机场👉魔戒.net 2
-      - 31机场👉魔戒.net 2
-      - 32机场👉魔戒.net 2
-      - 33机场👉魔戒.net 2
-      - 6机场👉魔戒.net 2
-      - 5机场👉魔戒.net 2
-      - 7机场👉魔戒.net 2
+      - 魔戒.net香港BGP丨黑砖无限流量丨零倍率
+      - 魔戒.net韩国1 福利 0x
+      - 魔戒.net vpnpool-SG-DigitalOcean
+      - 魔戒.net vpnpool-Tokyo-Linode
+      - 魔戒.net vpnpool-Tokyo-Linode 2
+      - 魔戒.net vpnpool-Tokyo-Linode 3
+      - 魔戒.net vpnpool-SG-DigitalOcean 2
+      - 魔戒.net vpnpool-Tokyo-Linode 4
+      - 魔戒.net vpnpool-Tokyo-Linode 5
+      - 魔戒.net vpnpool-香港腾讯云
+      - 魔戒.net*🇯🇵JP 647| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 693| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 643| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 1582| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 625| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 659| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 650| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 652| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 35| hi-moon.pw
+      - 魔戒.net*🇸🇬SG 46| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 39| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 37| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 38| hi-moon.pw
+      - 魔戒.net*🇺🇸US 40| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 36| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 32| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 646| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 43| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 654| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 1583| hi-moon.pw
+      - 魔戒.net日本(绿头外网集团)(Public)
+      - 魔戒.net新加坡(绿头外网集团)(Public) 5
+      - 魔戒.net香港(绿头外网集团)(Public) 3
+      - 魔戒.net香港(绿头外网集团)(Public)
+      - 魔戒.net香港(绿头外网集团)(Public) 10
+      - 魔戒.net香港(绿头外网集团)(Public) 6
+      - 魔戒.net香港(绿头外网集团)(Public) 7
+      - 魔戒.net美國(绿头外网集团)(Public) 10
+      - 魔戒.net香港(绿头外网集团)(Public) 5
+      - 魔戒.net韓國(绿头外网集团)(Public)
+      - 魔戒.net韓國(绿头外网集团)(Public) 3
+      - 魔戒.net香港(绿头外网集团)(Public) 4
+      - 魔戒.net香港(绿头外网集团)(Public) 8
+      - 魔戒.net韓國(绿头外网集团)(Public) 2
+      - 魔戒.net愛沙尼亞(绿头外网集团)(Public)
+      - 魔戒.net香港2-三网优化
+      - 魔戒.net韩国1-三网优化
+      - 魔戒.net韩国8-三网优化
+      - 魔戒.net 🇯🇵日本 JP-Y01
+      - 魔戒.net 🇸🇬新加坡 SG-Y01
+      - 魔戒.net 🇸🇬新加坡 SG-Y02
+      - 魔戒.net 🇭🇰香港 HK-Y01
   - name: 📲 电报消息
     type: select
     proxies:
@@ -4628,8 +4496,6 @@ proxy-groups:
       - _HK_香港_ChenX-2022_02_24_48
       - _HK_香港_ChenX-2022_02_24_49
       - _HK_香港_ChenX-2022_02_24_51
-      - _CN_中国->🇭🇰_HK_香港
-      - _HK_香港->🇮🇳_IN_印度
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -4650,6 +4516,68 @@ proxy-groups:
       - 43香港∞直连
       - 44香港∞直连
       - 45香港∞直连
+      - 魔戒.net香港 20 Microsoft
+      - 魔戒.net香港 01 Microsoft
+      - 魔戒.net香港 17 Microsoft
+      - 魔戒.net香港 11 Microsoft
+      - 魔戒.net香港 16 Microsoft
+      - 魔戒.net中国香港_R_450
+      - 魔戒.net中国香港_R_121
+      - 魔戒.net中国香港_R_316
+      - 魔戒.net V3香港A13丨5x丨深港专线
+      - 魔戒.net V2香港A02丨1x丨流媒体
+      - 魔戒.net V1香港A07丨1x
+      - 魔戒.net V1香港A06丨1x
+      - 魔戒.net Hong Kong IPLC Gaming 8Mbps 5×
+      - 魔戒.net Hong Kong IEPL 5×
+      - 魔戒.net Planevpn香港 (中国)-26[WhatsApp] [LineApp]
+      - 魔戒.net Planevpn香港 (中国)-20[WhatsApp] [LineApp]
+      - 魔戒.net Planevpn香港 (中国)-19[WhatsApp] [LineApp]
+      - 魔戒.net Planevpn香港  (中国)-1[NETSEC]
+      - 魔戒.net Planevpn香港 (中国)-10[HKT]
+      - 魔戒.net[CT/CM] HKT J
+      - 魔戒.net[CT/CM] HKT A
+      - 魔戒.net[CT/CM] HKBN B
+      - 魔戒.net[CT/CM] HKBN A
+      - 魔戒.net[CT/CM] HKT B
+      - 魔戒.net[CT/CM] HKBN D
+      - 魔戒.net[CT/CM] HKT D
+      - 魔戒.net[CT/CM] HKT H
+      - 魔戒.net[CT/CM] HKT L
+      - 魔戒.net[CT/CM] HKT I
+      - 魔戒.net[CT/CM] HKT E
+      - 魔戒.net[CT/CM] HKT M
+      - 魔戒.net香港(中国)🚀[极速稳定]
+      - 魔戒.net 🇭🇰香港01
+      - 魔戒.net 🇭🇰香港03
+      - 魔戒.net 🇭🇰 香港4-Baron小浪浪
+      - 魔戒.net 🇭🇰 香港3-Baron小浪浪
+      - 魔戒.net 🇭🇰 香港1-Baron小浪浪
+      - 魔戒.net 🇭🇰 香港2-Baron小浪浪
+      - 魔戒.net香港-日本千兆-11号
+      - 魔戒.net香港-日本千兆-08号
+      - 魔戒.net香港-日本千兆-03号
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
+      - 魔戒.net香港BGP丨黑砖无限流量丨零倍率
+      - 魔戒.net vpnpool-香港腾讯云
+      - 魔戒.net*🇭🇰HK 35| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 39| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 37| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 38| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 36| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 32| hi-moon.pw
+      - 魔戒.net*🇭🇰HK 43| hi-moon.pw
+      - 魔戒.net香港(绿头外网集团)(Public) 3
+      - 魔戒.net香港(绿头外网集团)(Public)
+      - 魔戒.net香港(绿头外网集团)(Public) 10
+      - 魔戒.net香港(绿头外网集团)(Public) 6
+      - 魔戒.net香港(绿头外网集团)(Public) 7
+      - 魔戒.net香港(绿头外网集团)(Public) 5
+      - 魔戒.net香港(绿头外网集团)(Public) 4
+      - 魔戒.net香港(绿头外网集团)(Public) 8
+      - 魔戒.net香港2-三网优化
+      - 魔戒.net 🇭🇰香港 HK-Y01
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -4692,6 +4620,38 @@ proxy-groups:
       - 33日本∞直连
       - 34日本∞直连
       - 35日本∞直连
+      - 魔戒.net日本_R_498
+      - 魔戒.net日本_N_1
+      - 魔戒.net Japan
+      - 魔戒.net 🇯🇵日本
+      - 魔戒.net香港-日本千兆-11号
+      - 魔戒.net日本千兆-05号
+      - 魔戒.net日本千兆-10号
+      - 魔戒.net美国-日本千兆-02号
+      - 魔戒.net日本千兆-17号
+      - 魔戒.net日本千兆-02号
+      - 魔戒.net日本千兆-24号
+      - 魔戒.net日本千兆-07号
+      - 魔戒.net日本千兆-09号
+      - 魔戒.net香港-日本千兆-08号
+      - 魔戒.net日本千兆-16号
+      - 魔戒.net日本千兆-01号
+      - 魔戒.net香港-日本千兆-03号
+      - 魔戒.net日本千兆-21号
+      - 魔戒.net 🇯🇵 IOS小火箭专用|日本 - 东京 -33 [IPLC]
+      - 魔戒.net*🇯🇵JP 647| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 693| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 643| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 1582| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 625| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 659| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 650| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 652| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 646| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 654| hi-moon.pw
+      - 魔戒.net*🇯🇵JP 1583| hi-moon.pw
+      - 魔戒.net日本(绿头外网集团)(Public)
+      - 魔戒.net 🇯🇵日本 JP-Y01
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -4867,16 +4827,9 @@ proxy-groups:
       - Ytb:鹏哥分享_US_美国_329
       - Ytb:鹏哥分享_US_美国_331
       - Ytb:鹏哥分享_US_美国_332
-      - _US_美国
-      - _US_美国->🇫🇷_FR_法国
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
+      - _US美国
+      - _US美国 2
+      - _US美国 3
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -4975,6 +4928,12 @@ proxy-groups:
       - github.com/freefq - 美国CloudFlare节点 29
       - github.com/freefq - 北美地区  30
       - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 31
+      - 魔戒.net美国[BGPA] 🚀[极速稳定]
+      - 魔戒.net美国千兆-01号
+      - 魔戒.net美国千兆-06号
+      - 魔戒.net美国-日本千兆-02号
+      - 魔戒.net*🇺🇸US 40| hi-moon.pw
+      - 魔戒.net美國(绿头外网集团)(Public) 10
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -5013,6 +4972,9 @@ proxy-groups:
       - 16台湾∞直连
       - 17台湾∞直连
       - 18台湾∞直连
+      - 魔戒.net中国台湾_R_314
+      - 魔戒.net V1台湾A08丨1x
+      - 魔戒.net台灣
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -5028,9 +4990,6 @@ proxy-groups:
       - _SG_新加坡_ChenX-2022_02_24_34
       - _SG_新加坡_ChenX-2022_02_24_43
       - _SG_新加坡_ChenX-2022_02_24_50
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇸🇬_SG_新加坡 2
-      - _CN_中国->🇸🇬_SG_新加坡 3
       - 新加坡（YouTube资源分享者） 2
       - _SG_新加坡_ChenX-2022.02.24_27
       - _SG_新加坡_ChenX-2022.02.24_28
@@ -5047,17 +5006,32 @@ proxy-groups:
       - 26新加坡∞直连
       - 27新加坡∞直连
       - 28新加坡∞直连
+      - 魔戒.net新加坡_R_229
+      - 魔戒.net 🇸🇬 IOS小火箭专用|新加坡1 [IPLC]
+      - 魔戒.net 🇸🇬 IOS小火箭专用|新加坡 2 [IPLC]
+      - 魔戒.net vpnpool-SG-DigitalOcean
+      - 魔戒.net vpnpool-SG-DigitalOcean 2
+      - 魔戒.net*🇸🇬SG 46| hi-moon.pw
+      - 魔戒.net新加坡(绿头外网集团)(Public) 5
+      - 魔戒.net 🇸🇬新加坡 SG-Y01
+      - 魔戒.net 🇸🇬新加坡 SG-Y02
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - _KR_韩国_ChenX-2022_02_24_41
-      - _KR_韩国
-      - _KR_韩国 2
       - _KR_韩国_ChenX-2022.02.24_41
       - 日韩频道 t.me/shoucangav
       - 41韩国∞中转
+      - 魔戒.net韩国(首尔) 🚀[极速稳定]
+      - 魔戒.net 🇰🇷 韩国-Baron小浪浪
+      - 魔戒.net韩国1 福利 0x
+      - 魔戒.net韓國(绿头外网集团)(Public)
+      - 魔戒.net韓國(绿头外网集团)(Public) 3
+      - 魔戒.net韓國(绿头外网集团)(Public) 2
+      - 魔戒.net韩国1-三网优化
+      - 魔戒.net韩国8-三网优化
   - name: 🎥 奈飞节点
     type: select
     proxies:
