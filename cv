@@ -5,16 +5,93 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _KR_韩国_1, server: v.mumi.bid, port: 10121, type: vmess, uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v.mumi.bid}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_2, server: fc.gzbgp.wokuaitule.xyz, port: 10010, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: fc.gzbgp.wokuaitule.xyz}}, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_3, server: fc.jm.wokuaitule.xyz, port: 40012, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: fc.jm.wokuaitule.xyz}}, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_4, server: fc.jm.wokuaitule.xyz, port: 40011, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: fc.jm.wokuaitule.xyz}}, udp: true}
-  - {name: _US_美国_5, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: cloudflare.a-yu.xyz}}, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_6, server: fc.st.wokuaitule.xyz, port: 40015, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: fc.st.wokuaitule.xyz}}, udp: true}
-  - {name: _CA_加拿大_7, server: 198.57.27.191, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: default_name_8, server: icook.tw, port: 443, type: vmess, uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: icook.tw}}, udp: true}
-  - {name: _CA_加拿大_9, server: 198.57.27.191, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大_10, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_1, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享2月25日_2, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
+  - {name: 长风分享2月25日_3, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: cloudflare.a-yu.xyz}}, udp: true}
+  - {name: _GB_英国_长风分享2月25日_4, server: 172.99.190.188, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国_长风分享2月25日_5, server: 172.99.190.188, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _GB_英国_长风分享2月25日_6, server: 172.99.190.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _GB_英国_长风分享2月25日_7, server: 172.99.190.205, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_8, server: 134.195.196.147, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_9, server: 134.195.196.193, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _FR_法国_长风分享2月25日_10, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_11, server: 134.195.196.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_12, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国_长风分享2月25日_13, server: 172.99.190.205, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_长风分享2月25日_14, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国_长风分享2月25日_15, server: 172.99.190.188, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _RU_俄罗斯联邦_长风分享2月25日_16, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_17, server: 134.195.196.147, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_18, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_长风分享2月25日_19, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _FR_法国_长风分享2月25日_20, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _GB_英国_长风分享2月25日_21, server: 172.99.190.188, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_22, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB_英国_长风分享2月25日_23, server: 172.99.190.188, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_24, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _GB_英国_长风分享2月25日_25, server: 172.99.190.188, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_26, server: 134.195.196.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_英国_长风分享2月25日_27, server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_28, server: 134.195.196.147, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_长风分享2月25日_29, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国_长风分享2月25日_30, server: 172.99.190.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_31, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_32, server: 134.195.196.147, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _FR_法国_长风分享2月25日_33, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_34, server: 134.195.196.193, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _JP_日本_长风分享2月25日_35, server: 85.208.108.106, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_长风分享2月25日_36, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: _GB_英国_长风分享2月25日_37, server: 172.99.190.205, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _AU_澳大利亚_长风分享2月25日_38, server: 172.105.162.49, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_39, server: 134.195.196.147, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_40, server: 134.195.196.147, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR_法国_长风分享2月25日_41, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_42, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_43, server: 134.195.196.147, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _GB_英国_长风分享2月25日_44, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_45, server: 134.195.196.147, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CN_中国_长风分享2月25日_46, server: fc.gzbgp.wokuaitule.xyz, port: 10010, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: fc.gzbgp.wokuaitule.xyz}}, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_47, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国_长风分享2月25日_48, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _GB_英国_长风分享2月25日_49, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_50, server: 134.195.196.193, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _GB_英国_长风分享2月25日_51, server: 172.99.190.188, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CN_中国_长风分享2月25日_52, server: fc.st.wokuaitule.xyz, port: 40015, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: fc.st.wokuaitule.xyz}}, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_53, server: 134.195.196.147, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_54, server: 134.195.196.200, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_55, server: 134.195.196.147, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国_长风分享2月25日_56, server: 172.99.190.188, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _GB_英国_长风分享2月25日_57, server: 172.99.190.188, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_58, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_英国_长风分享2月25日_59, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_60, server: 134.195.196.147, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_61, server: 134.195.196.147, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _GB_英国_长风分享2月25日_62, server: 172.99.190.92, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_63, server: 134.195.196.193, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_英国_长风分享2月25日_64, server: 172.99.190.188, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_65, server: 134.195.196.147, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_66, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_67, server: 134.195.196.147, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CN_中国_长风分享2月25日_68, server: fc.jm.wokuaitule.xyz, port: 40011, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: fc.jm.wokuaitule.xyz}}, udp: true}
+  - {name: _GB_英国_长风分享2月25日_69, server: 172.99.190.188, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _FR_法国_长风分享2月25日_70, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_长风分享2月25日_71, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_72, server: 134.195.196.147, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _FR_法国_长风分享2月25日_73, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_74, server: 134.195.196.147, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_75, server: 134.195.196.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_英国_长风分享2月25日_76, server: 172.99.190.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_77, server: 134.195.196.193, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_78, server: 134.195.196.147, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _GB_英国_长风分享2月25日_79, server: 92.223.59.188, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_80, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_长风分享2月25日_81, server: 134.195.196.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _KR_韩国_长风分享2月25日_82, server: v.mumi.bid, port: 10121, type: vmess, uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v.mumi.bid}}, udp: true}
+  - {name: _FR_法国_长风分享2月25日_83, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _GB_英国_长风分享2月25日_84, server: 172.99.190.205, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _GB_英国_长风分享2月25日_85, server: 172.99.190.205, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_英国_长风分享2月25日_86, server: 172.99.190.188, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _GB_英国_长风分享2月25日_87, server: 172.99.190.188, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: fc.jm.wokuaitule.xyz, port: 40011, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 11.wokuaitule.xyz}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: fc.st.wokuaitule.xyz, port: 40015, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 15.wokuaitule.xyz}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 3, server: fc.jm.wokuaitule.xyz, port: 40012, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 12.wokuaitule.xyz}}, udp: true}
@@ -1473,16 +1550,93 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - _KR_韩国_1
-      - _CN_中国->🇭🇰_HK_香港_2
-      - _CN_中国->🇸🇬_SG_新加坡_3
-      - _CN_中国->🇸🇬_SG_新加坡_4
-      - _US_美国_5
-      - _CN_中国->🇸🇬_SG_新加坡_6
-      - _CA_加拿大_7
-      - default_name_8
-      - _CA_加拿大_9
-      - _CA_加拿大_10
+      - _CA_加拿大_长风分享2月25日_1
+      - 长风分享2月25日_2
+      - 长风分享2月25日_3
+      - _GB_英国_长风分享2月25日_4
+      - _GB_英国_长风分享2月25日_5
+      - _GB_英国_长风分享2月25日_6
+      - _GB_英国_长风分享2月25日_7
+      - _CA_加拿大_长风分享2月25日_8
+      - _CA_加拿大_长风分享2月25日_9
+      - _FR_法国_长风分享2月25日_10
+      - _CA_加拿大_长风分享2月25日_11
+      - _CA_加拿大_长风分享2月25日_12
+      - _GB_英国_长风分享2月25日_13
+      - _US_美国_长风分享2月25日_14
+      - _GB_英国_长风分享2月25日_15
+      - _RU_俄罗斯联邦_长风分享2月25日_16
+      - _CA_加拿大_长风分享2月25日_17
+      - _CA_加拿大_长风分享2月25日_18
+      - _US_美国_长风分享2月25日_19
+      - _FR_法国_长风分享2月25日_20
+      - _GB_英国_长风分享2月25日_21
+      - _CA_加拿大_长风分享2月25日_22
+      - _GB_英国_长风分享2月25日_23
+      - _CA_加拿大_长风分享2月25日_24
+      - _GB_英国_长风分享2月25日_25
+      - _CA_加拿大_长风分享2月25日_26
+      - _GB_英国_长风分享2月25日_27
+      - _CA_加拿大_长风分享2月25日_28
+      - _US_美国_长风分享2月25日_29
+      - _GB_英国_长风分享2月25日_30
+      - _CA_加拿大_长风分享2月25日_31
+      - _CA_加拿大_长风分享2月25日_32
+      - _FR_法国_长风分享2月25日_33
+      - _CA_加拿大_长风分享2月25日_34
+      - _JP_日本_长风分享2月25日_35
+      - _US_美国_长风分享2月25日_36
+      - _GB_英国_长风分享2月25日_37
+      - _AU_澳大利亚_长风分享2月25日_38
+      - _CA_加拿大_长风分享2月25日_39
+      - _CA_加拿大_长风分享2月25日_40
+      - _FR_法国_长风分享2月25日_41
+      - _CA_加拿大_长风分享2月25日_42
+      - _CA_加拿大_长风分享2月25日_43
+      - _GB_英国_长风分享2月25日_44
+      - _CA_加拿大_长风分享2月25日_45
+      - _CN_中国_长风分享2月25日_46
+      - _CA_加拿大_长风分享2月25日_47
+      - _US_美国_长风分享2月25日_48
+      - _GB_英国_长风分享2月25日_49
+      - _CA_加拿大_长风分享2月25日_50
+      - _GB_英国_长风分享2月25日_51
+      - _CN_中国_长风分享2月25日_52
+      - _CA_加拿大_长风分享2月25日_53
+      - _CA_加拿大_长风分享2月25日_54
+      - _CA_加拿大_长风分享2月25日_55
+      - _GB_英国_长风分享2月25日_56
+      - _GB_英国_长风分享2月25日_57
+      - _CA_加拿大_长风分享2月25日_58
+      - _GB_英国_长风分享2月25日_59
+      - _CA_加拿大_长风分享2月25日_60
+      - _CA_加拿大_长风分享2月25日_61
+      - _GB_英国_长风分享2月25日_62
+      - _CA_加拿大_长风分享2月25日_63
+      - _GB_英国_长风分享2月25日_64
+      - _CA_加拿大_长风分享2月25日_65
+      - _CA_加拿大_长风分享2月25日_66
+      - _CA_加拿大_长风分享2月25日_67
+      - _CN_中国_长风分享2月25日_68
+      - _GB_英国_长风分享2月25日_69
+      - _FR_法国_长风分享2月25日_70
+      - _US_美国_长风分享2月25日_71
+      - _CA_加拿大_长风分享2月25日_72
+      - _FR_法国_长风分享2月25日_73
+      - _CA_加拿大_长风分享2月25日_74
+      - _CA_加拿大_长风分享2月25日_75
+      - _GB_英国_长风分享2月25日_76
+      - _CA_加拿大_长风分享2月25日_77
+      - _CA_加拿大_长风分享2月25日_78
+      - _GB_英国_长风分享2月25日_79
+      - _CA_加拿大_长风分享2月25日_80
+      - _CA_加拿大_长风分享2月25日_81
+      - _KR_韩国_长风分享2月25日_82
+      - _FR_法国_长风分享2月25日_83
+      - _GB_英国_长风分享2月25日_84
+      - _GB_英国_长风分享2月25日_85
+      - _GB_英国_长风分享2月25日_86
+      - _GB_英国_长风分享2月25日_87
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -2930,16 +3084,93 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _KR_韩国_1
-      - _CN_中国->🇭🇰_HK_香港_2
-      - _CN_中国->🇸🇬_SG_新加坡_3
-      - _CN_中国->🇸🇬_SG_新加坡_4
-      - _US_美国_5
-      - _CN_中国->🇸🇬_SG_新加坡_6
-      - _CA_加拿大_7
-      - default_name_8
-      - _CA_加拿大_9
-      - _CA_加拿大_10
+      - _CA_加拿大_长风分享2月25日_1
+      - 长风分享2月25日_2
+      - 长风分享2月25日_3
+      - _GB_英国_长风分享2月25日_4
+      - _GB_英国_长风分享2月25日_5
+      - _GB_英国_长风分享2月25日_6
+      - _GB_英国_长风分享2月25日_7
+      - _CA_加拿大_长风分享2月25日_8
+      - _CA_加拿大_长风分享2月25日_9
+      - _FR_法国_长风分享2月25日_10
+      - _CA_加拿大_长风分享2月25日_11
+      - _CA_加拿大_长风分享2月25日_12
+      - _GB_英国_长风分享2月25日_13
+      - _US_美国_长风分享2月25日_14
+      - _GB_英国_长风分享2月25日_15
+      - _RU_俄罗斯联邦_长风分享2月25日_16
+      - _CA_加拿大_长风分享2月25日_17
+      - _CA_加拿大_长风分享2月25日_18
+      - _US_美国_长风分享2月25日_19
+      - _FR_法国_长风分享2月25日_20
+      - _GB_英国_长风分享2月25日_21
+      - _CA_加拿大_长风分享2月25日_22
+      - _GB_英国_长风分享2月25日_23
+      - _CA_加拿大_长风分享2月25日_24
+      - _GB_英国_长风分享2月25日_25
+      - _CA_加拿大_长风分享2月25日_26
+      - _GB_英国_长风分享2月25日_27
+      - _CA_加拿大_长风分享2月25日_28
+      - _US_美国_长风分享2月25日_29
+      - _GB_英国_长风分享2月25日_30
+      - _CA_加拿大_长风分享2月25日_31
+      - _CA_加拿大_长风分享2月25日_32
+      - _FR_法国_长风分享2月25日_33
+      - _CA_加拿大_长风分享2月25日_34
+      - _JP_日本_长风分享2月25日_35
+      - _US_美国_长风分享2月25日_36
+      - _GB_英国_长风分享2月25日_37
+      - _AU_澳大利亚_长风分享2月25日_38
+      - _CA_加拿大_长风分享2月25日_39
+      - _CA_加拿大_长风分享2月25日_40
+      - _FR_法国_长风分享2月25日_41
+      - _CA_加拿大_长风分享2月25日_42
+      - _CA_加拿大_长风分享2月25日_43
+      - _GB_英国_长风分享2月25日_44
+      - _CA_加拿大_长风分享2月25日_45
+      - _CN_中国_长风分享2月25日_46
+      - _CA_加拿大_长风分享2月25日_47
+      - _US_美国_长风分享2月25日_48
+      - _GB_英国_长风分享2月25日_49
+      - _CA_加拿大_长风分享2月25日_50
+      - _GB_英国_长风分享2月25日_51
+      - _CN_中国_长风分享2月25日_52
+      - _CA_加拿大_长风分享2月25日_53
+      - _CA_加拿大_长风分享2月25日_54
+      - _CA_加拿大_长风分享2月25日_55
+      - _GB_英国_长风分享2月25日_56
+      - _GB_英国_长风分享2月25日_57
+      - _CA_加拿大_长风分享2月25日_58
+      - _GB_英国_长风分享2月25日_59
+      - _CA_加拿大_长风分享2月25日_60
+      - _CA_加拿大_长风分享2月25日_61
+      - _GB_英国_长风分享2月25日_62
+      - _CA_加拿大_长风分享2月25日_63
+      - _GB_英国_长风分享2月25日_64
+      - _CA_加拿大_长风分享2月25日_65
+      - _CA_加拿大_长风分享2月25日_66
+      - _CA_加拿大_长风分享2月25日_67
+      - _CN_中国_长风分享2月25日_68
+      - _GB_英国_长风分享2月25日_69
+      - _FR_法国_长风分享2月25日_70
+      - _US_美国_长风分享2月25日_71
+      - _CA_加拿大_长风分享2月25日_72
+      - _FR_法国_长风分享2月25日_73
+      - _CA_加拿大_长风分享2月25日_74
+      - _CA_加拿大_长风分享2月25日_75
+      - _GB_英国_长风分享2月25日_76
+      - _CA_加拿大_长风分享2月25日_77
+      - _CA_加拿大_长风分享2月25日_78
+      - _GB_英国_长风分享2月25日_79
+      - _CA_加拿大_长风分享2月25日_80
+      - _CA_加拿大_长风分享2月25日_81
+      - _KR_韩国_长风分享2月25日_82
+      - _FR_法国_长风分享2月25日_83
+      - _GB_英国_长风分享2月25日_84
+      - _GB_英国_长风分享2月25日_85
+      - _GB_英国_长风分享2月25日_86
+      - _GB_英国_长风分享2月25日_87
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -4563,7 +4794,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CN_中国->🇭🇰_HK_香港_2
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
@@ -4615,6 +4845,93 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _CA_加拿大_长风分享2月25日_1
+      - 长风分享2月25日_2
+      - 长风分享2月25日_3
+      - _GB_英国_长风分享2月25日_4
+      - _GB_英国_长风分享2月25日_5
+      - _GB_英国_长风分享2月25日_6
+      - _GB_英国_长风分享2月25日_7
+      - _CA_加拿大_长风分享2月25日_8
+      - _CA_加拿大_长风分享2月25日_9
+      - _FR_法国_长风分享2月25日_10
+      - _CA_加拿大_长风分享2月25日_11
+      - _CA_加拿大_长风分享2月25日_12
+      - _GB_英国_长风分享2月25日_13
+      - _US_美国_长风分享2月25日_14
+      - _GB_英国_长风分享2月25日_15
+      - _RU_俄罗斯联邦_长风分享2月25日_16
+      - _CA_加拿大_长风分享2月25日_17
+      - _CA_加拿大_长风分享2月25日_18
+      - _US_美国_长风分享2月25日_19
+      - _FR_法国_长风分享2月25日_20
+      - _GB_英国_长风分享2月25日_21
+      - _CA_加拿大_长风分享2月25日_22
+      - _GB_英国_长风分享2月25日_23
+      - _CA_加拿大_长风分享2月25日_24
+      - _GB_英国_长风分享2月25日_25
+      - _CA_加拿大_长风分享2月25日_26
+      - _GB_英国_长风分享2月25日_27
+      - _CA_加拿大_长风分享2月25日_28
+      - _US_美国_长风分享2月25日_29
+      - _GB_英国_长风分享2月25日_30
+      - _CA_加拿大_长风分享2月25日_31
+      - _CA_加拿大_长风分享2月25日_32
+      - _FR_法国_长风分享2月25日_33
+      - _CA_加拿大_长风分享2月25日_34
+      - _JP_日本_长风分享2月25日_35
+      - _US_美国_长风分享2月25日_36
+      - _GB_英国_长风分享2月25日_37
+      - _AU_澳大利亚_长风分享2月25日_38
+      - _CA_加拿大_长风分享2月25日_39
+      - _CA_加拿大_长风分享2月25日_40
+      - _FR_法国_长风分享2月25日_41
+      - _CA_加拿大_长风分享2月25日_42
+      - _CA_加拿大_长风分享2月25日_43
+      - _GB_英国_长风分享2月25日_44
+      - _CA_加拿大_长风分享2月25日_45
+      - _CN_中国_长风分享2月25日_46
+      - _CA_加拿大_长风分享2月25日_47
+      - _US_美国_长风分享2月25日_48
+      - _GB_英国_长风分享2月25日_49
+      - _CA_加拿大_长风分享2月25日_50
+      - _GB_英国_长风分享2月25日_51
+      - _CN_中国_长风分享2月25日_52
+      - _CA_加拿大_长风分享2月25日_53
+      - _CA_加拿大_长风分享2月25日_54
+      - _CA_加拿大_长风分享2月25日_55
+      - _GB_英国_长风分享2月25日_56
+      - _GB_英国_长风分享2月25日_57
+      - _CA_加拿大_长风分享2月25日_58
+      - _GB_英国_长风分享2月25日_59
+      - _CA_加拿大_长风分享2月25日_60
+      - _CA_加拿大_长风分享2月25日_61
+      - _GB_英国_长风分享2月25日_62
+      - _CA_加拿大_长风分享2月25日_63
+      - _GB_英国_长风分享2月25日_64
+      - _CA_加拿大_长风分享2月25日_65
+      - _CA_加拿大_长风分享2月25日_66
+      - _CA_加拿大_长风分享2月25日_67
+      - _CN_中国_长风分享2月25日_68
+      - _GB_英国_长风分享2月25日_69
+      - _FR_法国_长风分享2月25日_70
+      - _US_美国_长风分享2月25日_71
+      - _CA_加拿大_长风分享2月25日_72
+      - _FR_法国_长风分享2月25日_73
+      - _CA_加拿大_长风分享2月25日_74
+      - _CA_加拿大_长风分享2月25日_75
+      - _GB_英国_长风分享2月25日_76
+      - _CA_加拿大_长风分享2月25日_77
+      - _CA_加拿大_长风分享2月25日_78
+      - _GB_英国_长风分享2月25日_79
+      - _CA_加拿大_长风分享2月25日_80
+      - _CA_加拿大_长风分享2月25日_81
+      - _KR_韩国_长风分享2月25日_82
+      - _FR_法国_长风分享2月25日_83
+      - _GB_英国_长风分享2月25日_84
+      - _GB_英国_长风分享2月25日_85
+      - _GB_英国_长风分享2月25日_86
+      - _GB_英国_长风分享2月25日_87
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
       - 日本(欢迎订阅Youtube破解资源君) 3
@@ -4670,7 +4987,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_5
+      - _US_美国_长风分享2月25日_14
+      - _US_美国_长风分享2月25日_19
+      - _US_美国_长风分享2月25日_29
+      - _US_美国_长风分享2月25日_36
+      - _US_美国_长风分享2月25日_48
+      - _US_美国_长风分享2月25日_71
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -5043,9 +5365,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CN_中国->🇸🇬_SG_新加坡_3
-      - _CN_中国->🇸🇬_SG_新加坡_4
-      - _CN_中国->🇸🇬_SG_新加坡_6
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -5093,7 +5412,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _KR_韩国_1
+      - _KR_韩国_长风分享2月25日_82
       - _KR_韩国_ChenX-2022_02_24_41
       - "@SSRSUB-首尔V07-付费推荐::suo.yt/ssrsub"
       - "@SSRSUB-首尔V17-付费推荐::suo.yt/ssrsub"
