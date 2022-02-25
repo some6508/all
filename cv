@@ -5,7 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CA_加拿大_1, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_1, server: fc.gzbgp.wokuaitule.xyz, port: 10010, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: fc.gzbgp.wokuaitule.xyz}}, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_2, server: fc.jm.wokuaitule.xyz, port: 40012, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: fc.jm.wokuaitule.xyz}}, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_3, server: fc.st.wokuaitule.xyz, port: 40015, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: fc.st.wokuaitule.xyz}}, udp: true}
+  - {name: _SG_新加坡->🇭🇰_HK_香港_4, server: www.shanpao.xyz, port: 32747, type: vmess, uuid: c460ff8a-c55e-4c7c-d556-356b758af32b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pank, headers: {Host: www.shanpao.xyz}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 3, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
@@ -1488,7 +1491,10 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - _CA_加拿大_1
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _CN_中国->🇸🇬_SG_新加坡_2
+      - _CN_中国->🇸🇬_SG_新加坡_3
+      - _SG_新加坡->🇭🇰_HK_香港_4
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
@@ -2960,7 +2966,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CA_加拿大_1
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _CN_中国->🇸🇬_SG_新加坡_2
+      - _CN_中国->🇸🇬_SG_新加坡_3
+      - _SG_新加坡->🇭🇰_HK_香港_4
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
@@ -4608,6 +4617,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _SG_新加坡->🇭🇰_HK_香港_4
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
@@ -5077,6 +5088,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _CN_中国->🇸🇬_SG_新加坡_2
+      - _CN_中国->🇸🇬_SG_新加坡_3
+      - _SG_新加坡->🇭🇰_HK_香港_4
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
