@@ -1,33 +1,33 @@
 + PS4='$LINENO:	'
 7:	cd /home/runner/work/all/all
 118:	date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-18:	echo 2022年02月25日·周5·12点08分31秒.979毫秒
+18:	echo 2022年02月25日·周5·13点06分50秒.124毫秒
 19:	setsid ping -c 1 -w 1 -A -q some6508.ccaeo.com
-220:	sed 's/.*"html_url": /html_url=/g'
 220:	curl -s https://api.github.com/repos/changfengoss/pub/commits
+220:	sed 's/.*"html_url": /html_url=/g'
 220:	grep -m 1 html_url
-20:	eval 'html_url="https://github.com/changfengoss/pub/commit/cc5d77a035fe29a47bff8ff8713e9c7fca17f5ba",'
-220:	html_url=https://github.com/changfengoss/pub/commit/cc5d77a035fe29a47bff8ff8713e9c7fca17f5ba,
-221:	curl -s https://github.com/changfengoss/pub/commit/cc5d77a035fe29a47bff8ff8713e9c7fca17f5ba
+20:	eval 'html_url="https://github.com/changfengoss/pub/commit/de336f82327c635de858a339248e8ead90475bbf",'
+220:	html_url=https://github.com/changfengoss/pub/commit/de336f82327c635de858a339248e8ead90475bbf,
+221:	curl -s https://github.com/changfengoss/pub/commit/de336f82327c635de858a339248e8ead90475bbf
 221:	sed 's|</a>|"|g'
 221:	sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/changfengoss/pub/main/|p'
-21:	eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_02_25/0JPYwL.yaml"'
-221:	href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_02_25/0JPYwL.yaml
+21:	eval 'href="https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_02_25/N599IA.yaml"'
+221:	href=https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_02_25/N599IA.yaml
 22:	case "$href" in
-24:	CURL c https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_02_25/0JPYwL.yaml
+24:	CURL c https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_02_25/N599IA.yaml
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	c'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分34秒.006毫秒	- 下载文件	c'
-12:	ec '- 连接链接	https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_02_25/0JPYwL.yaml'
+8:	echo '06分52秒.065毫秒	- 下载文件	c'
+12:	ec '- 连接链接	https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_02_25/N599IA.yaml'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分34秒.007毫秒	- 连接链接	https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_02_25/0JPYwL.yaml'
-13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/c https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_02_25/0JPYwL.yaml
+8:	echo '06分52秒.066毫秒	- 连接链接	https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_02_25/N599IA.yaml'
+13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/c https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_02_25/N599IA.yaml
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分34秒.323毫秒	- 下载完成	0'
+8:	echo '06分52秒.268毫秒	- 下载完成	0'
 16:	return 0
 227:	curl -s https://api.github.com/repos/pojiezhiyuanjun/freev2/commits
 227:	sed 's/.*"html_url": /html_url=/g'
@@ -48,16 +48,16 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0224clash.
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	c2'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分35秒.380毫秒	- 下载文件	c2'
+8:	echo '06分52秒.943毫秒	- 下载文件	c2'
 12:	ec '- 连接链接	https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0224clash.yml'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分35秒.382毫秒	- 连接链接	https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0224clash.yml'
+8:	echo '06分52秒.944毫秒	- 连接链接	https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0224clash.yml'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/c2 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0224clash.yml
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分35秒.630毫秒	- 下载完成	0'
+8:	echo '06分53秒.148毫秒	- 下载完成	0'
 16:	return 0
 338:	curl -s https://api.github.com/repos/zyfxz/V2Ray/commits
 338:	sed 's/.*"html_url": /html_url=/g'
@@ -73,16 +73,16 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0224clash.
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	v3'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分36秒.713毫秒	- 下载文件	v3'
+8:	echo '06分53秒.923毫秒	- 下载文件	v3'
 12:	ec '- 连接链接	https://raw.githubusercontent.com/zyfxz/V2Ray/main/area'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分36秒.715毫秒	- 连接链接	https://raw.githubusercontent.com/zyfxz/V2Ray/main/area'
+8:	echo '06分53秒.924毫秒	- 连接链接	https://raw.githubusercontent.com/zyfxz/V2Ray/main/area'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/v3 https://raw.githubusercontent.com/zyfxz/V2Ray/main/area
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分36秒.991毫秒	- 下载完成	0'
+8:	echo '06分54秒.091毫秒	- 下载完成	0'
 16:	return 0
 441:	curl -s https://api.github.com/repos/zyfxz/clash/commits
 441:	sed 's/.*"html_url": /html_url=/g'
@@ -98,19 +98,19 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0224clash.
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	c3'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分38秒.059毫秒	- 下载文件	c3'
+8:	echo '06分54秒.840毫秒	- 下载文件	c3'
 12:	ec '- 连接链接	https://raw.githubusercontent.com/zyfxz/clash/main/area'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分38秒.060毫秒	- 连接链接	https://raw.githubusercontent.com/zyfxz/clash/main/area'
+8:	echo '06分54秒.841毫秒	- 连接链接	https://raw.githubusercontent.com/zyfxz/clash/main/area'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/c3 https://raw.githubusercontent.com/zyfxz/clash/main/area
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分38秒.290毫秒	- 下载完成	0'
+8:	echo '06分55秒.080毫秒	- 下载完成	0'
 16:	return 0
-444:	curl -s https://api.github.com/repos/FMYC2015/V2ray/commits
 444:	sed 's/.*"html_url": /html_url=/g'
+444:	curl -s https://api.github.com/repos/FMYC2015/V2ray/commits
 444:	grep -m 1 html_url
 44:	eval 'html_url="https://github.com/FMYC2015/V2ray/commit/267260fc492866fca6bd1e29003bf30e349fcfee",'
 444:	html_url=https://github.com/FMYC2015/V2ray/commit/267260fc492866fca6bd1e29003bf30e349fcfee,
@@ -123,16 +123,16 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0224clash.
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	v4'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分39秒.336毫秒	- 下载文件	v4'
+8:	echo '06分55秒.882毫秒	- 下载文件	v4'
 12:	ec '- 连接链接	https://raw.githubusercontent.com/FMYC2015/V2ray/main/ChenX'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分39秒.337毫秒	- 连接链接	https://raw.githubusercontent.com/FMYC2015/V2ray/main/ChenX'
+8:	echo '06分55秒.883毫秒	- 连接链接	https://raw.githubusercontent.com/FMYC2015/V2ray/main/ChenX'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/v4 https://raw.githubusercontent.com/FMYC2015/V2ray/main/ChenX
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分39秒.553毫秒	- 下载完成	0'
+8:	echo '06分56秒.028毫秒	- 下载完成	0'
 16:	return 0
 447:	curl -s https://api.github.com/repos/FMYC2015/Clash/commits
 447:	sed 's/.*"html_url": /html_url=/g'
@@ -148,61 +148,61 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0224clash.
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	c4'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分40秒.538毫秒	- 下载文件	c4'
+8:	echo '06分56秒.701毫秒	- 下载文件	c4'
 12:	ec '- 连接链接	https://raw.githubusercontent.com/FMYC2015/Clash/main/ChenX'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分40秒.540毫秒	- 连接链接	https://raw.githubusercontent.com/FMYC2015/Clash/main/ChenX'
+8:	echo '06分56秒.702毫秒	- 连接链接	https://raw.githubusercontent.com/FMYC2015/Clash/main/ChenX'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/c4 https://raw.githubusercontent.com/FMYC2015/Clash/main/ChenX
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分40秒.867毫秒	- 下载完成	0'
+8:	echo '06分56秒.983毫秒	- 下载完成	0'
 16:	return 0
 50:	CURL v5 https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	v5'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分40秒.869毫秒	- 下载文件	v5'
+8:	echo '06分56秒.984毫秒	- 下载文件	v5'
 12:	ec '- 连接链接	https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分40秒.870毫秒	- 连接链接	https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray'
+8:	echo '06分56秒.985毫秒	- 连接链接	https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/v5 https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分40秒.920毫秒	- 下载完成	0'
+8:	echo '06分57秒.164毫秒	- 下载完成	0'
 16:	return 0
 51:	CURL c5 https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	c5'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分40秒.922毫秒	- 下载文件	c5'
+8:	echo '06分57秒.165毫秒	- 下载文件	c5'
 12:	ec '- 连接链接	https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分40秒.923毫秒	- 连接链接	https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml'
+8:	echo '06分57秒.166毫秒	- 连接链接	https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/c5 https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分41秒.164毫秒	- 下载完成	0'
+8:	echo '06分57秒.482毫秒	- 下载完成	0'
 16:	return 0
 52:	CURL v6 https://gitee.com/chenx58/clash/raw/V2R/V2R
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	v6'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分41秒.165毫秒	- 下载文件	v6'
+8:	echo '06分57秒.483毫秒	- 下载文件	v6'
 12:	ec '- 连接链接	https://gitee.com/chenx58/clash/raw/V2R/V2R'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分41秒.167毫秒	- 连接链接	https://gitee.com/chenx58/clash/raw/V2R/V2R'
+8:	echo '06分57秒.484毫秒	- 连接链接	https://gitee.com/chenx58/clash/raw/V2R/V2R'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/v6 https://gitee.com/chenx58/clash/raw/V2R/V2R
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分42秒.162毫秒	- 下载完成	0'
+8:	echo '06分59秒.074毫秒	- 下载完成	0'
 16:	return 0
 553:	curl -s https://api.github.com/repos/bhqz/bhqz/commits
 553:	sed 's/.*"html_url": /html_url=/g'
@@ -217,40 +217,40 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0224clash.
 55:	case "$href" in
 58:	ec '! 链接错误	https://raw.githubusercontent.com/bhqz/bhqz/main/ss/02/24.yml'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分43秒.197毫秒	! 链接错误	https://raw.githubusercontent.com/bhqz/bhqz/main/ss/02/24.yml'
+8:	echo '06分59秒.717毫秒	! 链接错误	https://raw.githubusercontent.com/bhqz/bhqz/main/ss/02/24.yml'
 60:	CURL v8 https://raw.githubusercontent.com/freefq/free/master/v2
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	v8'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分43秒.199毫秒	- 下载文件	v8'
+8:	echo '06分59秒.718毫秒	- 下载文件	v8'
 12:	ec '- 连接链接	https://raw.githubusercontent.com/freefq/free/master/v2'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分43秒.201毫秒	- 连接链接	https://raw.githubusercontent.com/freefq/free/master/v2'
+8:	echo '06分59秒.719毫秒	- 连接链接	https://raw.githubusercontent.com/freefq/free/master/v2'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/v8 https://raw.githubusercontent.com/freefq/free/master/v2
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分43秒.247毫秒	- 下载完成	0'
+8:	echo '06分59秒.808毫秒	- 下载完成	0'
 16:	return 0
 61:	CURL v9 https://raw.githubusercontent.com/freefq/free/master/ssr
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	v9'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分43秒.249毫秒	- 下载文件	v9'
+8:	echo '06分59秒.808毫秒	- 下载文件	v9'
 12:	ec '- 连接链接	https://raw.githubusercontent.com/freefq/free/master/ssr'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分43秒.251毫秒	- 连接链接	https://raw.githubusercontent.com/freefq/free/master/ssr'
+8:	echo '06分59秒.809毫秒	- 连接链接	https://raw.githubusercontent.com/freefq/free/master/ssr'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/v9 https://raw.githubusercontent.com/freefq/free/master/ssr
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分43秒.514毫秒	- 下载完成	0'
+8:	echo '06分59秒.938毫秒	- 下载完成	0'
 16:	return 0
 662:	curl -s https://api.github.com/repos/w379740999/jdlj/commits
-662:	sed 's/.*"html_url": /html_url=/g'
 662:	grep -m 1 html_url
+662:	sed 's/.*"html_url": /html_url=/g'
 62:	eval ''
 663:	curl -s https://github.com/bhqz/bhqz/commit/0b852bded0c1d95ec8919f3324b91f8170a80232
 663:	sed 's|</a>|"|g'
@@ -261,49 +261,49 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0224clash.
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	v10'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分44秒.281毫秒	- 下载文件	v10'
+8:	echo '07分00秒.356毫秒	- 下载文件	v10'
 12:	ec '- 连接链接	https://raw.githubusercontent.com/w379740999/jdlj/main/ss/02/24.yml'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分44秒.282毫秒	- 连接链接	https://raw.githubusercontent.com/w379740999/jdlj/main/ss/02/24.yml'
+8:	echo '07分00秒.357毫秒	- 连接链接	https://raw.githubusercontent.com/w379740999/jdlj/main/ss/02/24.yml'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/v10 https://raw.githubusercontent.com/w379740999/jdlj/main/ss/02/24.yml
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分44秒.457毫秒	- 下载完成	0'
+8:	echo '07分00秒.474毫秒	- 下载完成	0'
 16:	return 0
 65:	CURL v11 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	v11'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分44秒.458毫秒	- 下载文件	v11'
+8:	echo '07分00秒.475毫秒	- 下载文件	v11'
 12:	ec '- 连接链接	https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分44秒.460毫秒	- 连接链接	https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg'
+8:	echo '07分00秒.475毫秒	- 连接链接	https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/v11 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分44秒.606毫秒	- 下载完成	0'
+8:	echo '07分00秒.601毫秒	- 下载完成	0'
 16:	return 0
 66:	CURL v12 https://raw.githubusercontent.com/shangou0923/gou/main/README
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	v12'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分44秒.608毫秒	- 下载文件	v12'
+8:	echo '07分00秒.602毫秒	- 下载文件	v12'
 12:	ec '- 连接链接	https://raw.githubusercontent.com/shangou0923/gou/main/README'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分44秒.609毫秒	- 连接链接	https://raw.githubusercontent.com/shangou0923/gou/main/README'
+8:	echo '07分00秒.603毫秒	- 连接链接	https://raw.githubusercontent.com/shangou0923/gou/main/README'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/v12 https://raw.githubusercontent.com/shangou0923/gou/main/README
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分44秒.844毫秒	- 下载完成	0'
+8:	echo '07分00秒.762毫秒	- 下载完成	0'
 16:	return 0
-667:	curl -s https://api.github.com/repos/moneyfly1/sublist/commits
 667:	sed 's/.*"html_url": /html_url=/g'
+667:	curl -s https://api.github.com/repos/moneyfly1/sublist/commits
 667:	grep -m 1 html_url
 67:	eval 'html_url="https://github.com/moneyfly1/sublist/commit/62f1d3bb5267cbf77d729097650f502f623f6e82",'
 667:	html_url=https://github.com/moneyfly1/sublist/commit/62f1d3bb5267cbf77d729097650f502f623f6e82,
@@ -317,54 +317,54 @@ href="https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0224clash.
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	c7'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分45秒.893毫秒	- 下载文件	c7'
+8:	echo '07分01秒.465毫秒	- 下载文件	c7'
 12:	ec '- 连接链接	https://raw.githubusercontent.com/moneyfly1/sublist/main/clash.yml'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分45秒.894毫秒	- 连接链接	https://raw.githubusercontent.com/moneyfly1/sublist/main/clash.yml'
+8:	echo '07分01秒.466毫秒	- 连接链接	https://raw.githubusercontent.com/moneyfly1/sublist/main/clash.yml'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/c7 https://raw.githubusercontent.com/moneyfly1/sublist/main/clash.yml
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分46秒.132毫秒	- 下载完成	0'
+8:	echo '07分01秒.770毫秒	- 下载完成	0'
 16:	return 0
 73:	CURL cv1 'https://api.v1.mk/sub?target=clash&url=https://raw.githubusercontent.com/some6508/all/master/c|https://raw.githubusercontent.com/some6508/all/master/c2|https://raw.githubusercontent.com/some6508/all/master/c3|https://raw.githubusercontent.com/some6508/all/master/c4|https://raw.githubusercontent.com/some6508/all/master/c5|https://raw.githubusercontent.com/some6508/all/master/c6|https://raw.githubusercontent.com/some6508/all/master/c7|https://raw.githubusercontent.com/some6508/all/master/v|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|https://raw.githubusercontent.com/some6508/all/master/v4|https://raw.githubusercontent.com/some6508/all/master/v5|https://raw.githubusercontent.com/some6508/all/master/v6|https://raw.githubusercontent.com/some6508/all/master/v7|https://raw.githubusercontent.com/some6508/all/master/v8|https://raw.githubusercontent.com/some6508/all/master/v9|https://raw.githubusercontent.com/some6508/all/master/v10|https://raw.githubusercontent.com/some6508/all/master/v11|https://raw.githubusercontent.com/some6508/all/master/v12&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini'
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	cv1'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分46秒.134毫秒	- 下载文件	cv1'
+8:	echo '07分01秒.771毫秒	- 下载文件	cv1'
 12:	ec '- 连接链接	https://api.v1.mk/sub?target=clash&url=https://raw.githubusercontent.com/some6508/all/master/c|https://raw.githubusercontent.com/some6508/all/master/c2|https://raw.githubusercontent.com/some6508/all/master/c3|https://raw.githubusercontent.com/some6508/all/master/c4|https://raw.githubusercontent.com/some6508/all/master/c5|https://raw.githubusercontent.com/some6508/all/master/c6|https://raw.githubusercontent.com/some6508/all/master/c7|https://raw.githubusercontent.com/some6508/all/master/v|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|https://raw.githubusercontent.com/some6508/all/master/v4|https://raw.githubusercontent.com/some6508/all/master/v5|https://raw.githubusercontent.com/some6508/all/master/v6|https://raw.githubusercontent.com/some6508/all/master/v7|https://raw.githubusercontent.com/some6508/all/master/v8|https://raw.githubusercontent.com/some6508/all/master/v9|https://raw.githubusercontent.com/some6508/all/master/v10|https://raw.githubusercontent.com/some6508/all/master/v11|https://raw.githubusercontent.com/some6508/all/master/v12&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '08分46秒.136毫秒	- 连接链接	https://api.v1.mk/sub?target=clash&url=https://raw.githubusercontent.com/some6508/all/master/c|https://raw.githubusercontent.com/some6508/all/master/c2|https://raw.githubusercontent.com/some6508/all/master/c3|https://raw.githubusercontent.com/some6508/all/master/c4|https://raw.githubusercontent.com/some6508/all/master/c5|https://raw.githubusercontent.com/some6508/all/master/c6|https://raw.githubusercontent.com/some6508/all/master/c7|https://raw.githubusercontent.com/some6508/all/master/v|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|https://raw.githubusercontent.com/some6508/all/master/v4|https://raw.githubusercontent.com/some6508/all/master/v5|https://raw.githubusercontent.com/some6508/all/master/v6|https://raw.githubusercontent.com/some6508/all/master/v7|https://raw.githubusercontent.com/some6508/all/master/v8|https://raw.githubusercontent.com/some6508/all/master/v9|https://raw.githubusercontent.com/some6508/all/master/v10|https://raw.githubusercontent.com/some6508/all/master/v11|https://raw.githubusercontent.com/some6508/all/master/v12&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini'
+8:	echo '07分01秒.772毫秒	- 连接链接	https://api.v1.mk/sub?target=clash&url=https://raw.githubusercontent.com/some6508/all/master/c|https://raw.githubusercontent.com/some6508/all/master/c2|https://raw.githubusercontent.com/some6508/all/master/c3|https://raw.githubusercontent.com/some6508/all/master/c4|https://raw.githubusercontent.com/some6508/all/master/c5|https://raw.githubusercontent.com/some6508/all/master/c6|https://raw.githubusercontent.com/some6508/all/master/c7|https://raw.githubusercontent.com/some6508/all/master/v|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|https://raw.githubusercontent.com/some6508/all/master/v4|https://raw.githubusercontent.com/some6508/all/master/v5|https://raw.githubusercontent.com/some6508/all/master/v6|https://raw.githubusercontent.com/some6508/all/master/v7|https://raw.githubusercontent.com/some6508/all/master/v8|https://raw.githubusercontent.com/some6508/all/master/v9|https://raw.githubusercontent.com/some6508/all/master/v10|https://raw.githubusercontent.com/some6508/all/master/v11|https://raw.githubusercontent.com/some6508/all/master/v12&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/cv1 'https://api.v1.mk/sub?target=clash&url=https://raw.githubusercontent.com/some6508/all/master/c|https://raw.githubusercontent.com/some6508/all/master/c2|https://raw.githubusercontent.com/some6508/all/master/c3|https://raw.githubusercontent.com/some6508/all/master/c4|https://raw.githubusercontent.com/some6508/all/master/c5|https://raw.githubusercontent.com/some6508/all/master/c6|https://raw.githubusercontent.com/some6508/all/master/c7|https://raw.githubusercontent.com/some6508/all/master/v|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|https://raw.githubusercontent.com/some6508/all/master/v4|https://raw.githubusercontent.com/some6508/all/master/v5|https://raw.githubusercontent.com/some6508/all/master/v6|https://raw.githubusercontent.com/some6508/all/master/v7|https://raw.githubusercontent.com/some6508/all/master/v8|https://raw.githubusercontent.com/some6508/all/master/v9|https://raw.githubusercontent.com/some6508/all/master/v10|https://raw.githubusercontent.com/some6508/all/master/v11|https://raw.githubusercontent.com/some6508/all/master/v12&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini'
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '09分00秒.177毫秒	- 下载完成	0'
+8:	echo '07分13秒.099毫秒	- 下载完成	0'
 16:	return 0
 74:	CURL vc1 'https://api.v1.mk/sub?target=v2ray&url=https://raw.githubusercontent.com/some6508/all/master/c|https://raw.githubusercontent.com/some6508/all/master/c2|https://raw.githubusercontent.com/some6508/all/master/c3|https://raw.githubusercontent.com/some6508/all/master/c4|https://raw.githubusercontent.com/some6508/all/master/c5|https://raw.githubusercontent.com/some6508/all/master/c6|https://raw.githubusercontent.com/some6508/all/master/c7|https://raw.githubusercontent.com/some6508/all/master/v|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|https://raw.githubusercontent.com/some6508/all/master/v4|https://raw.githubusercontent.com/some6508/all/master/v5|https://raw.githubusercontent.com/some6508/all/master/v6|https://raw.githubusercontent.com/some6508/all/master/v7|https://raw.githubusercontent.com/some6508/all/master/v8|https://raw.githubusercontent.com/some6508/all/master/v9|https://raw.githubusercontent.com/some6508/all/master/v10|https://raw.githubusercontent.com/some6508/all/master/v11|https://raw.githubusercontent.com/some6508/all/master/v12&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini'
 10:	echo --------------------------------------------------
 11:	ec '- 下载文件	vc1'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '09分00秒.179毫秒	- 下载文件	vc1'
+8:	echo '07分13秒.100毫秒	- 下载文件	vc1'
 12:	ec '- 连接链接	https://api.v1.mk/sub?target=v2ray&url=https://raw.githubusercontent.com/some6508/all/master/c|https://raw.githubusercontent.com/some6508/all/master/c2|https://raw.githubusercontent.com/some6508/all/master/c3|https://raw.githubusercontent.com/some6508/all/master/c4|https://raw.githubusercontent.com/some6508/all/master/c5|https://raw.githubusercontent.com/some6508/all/master/c6|https://raw.githubusercontent.com/some6508/all/master/c7|https://raw.githubusercontent.com/some6508/all/master/v|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|https://raw.githubusercontent.com/some6508/all/master/v4|https://raw.githubusercontent.com/some6508/all/master/v5|https://raw.githubusercontent.com/some6508/all/master/v6|https://raw.githubusercontent.com/some6508/all/master/v7|https://raw.githubusercontent.com/some6508/all/master/v8|https://raw.githubusercontent.com/some6508/all/master/v9|https://raw.githubusercontent.com/some6508/all/master/v10|https://raw.githubusercontent.com/some6508/all/master/v11|https://raw.githubusercontent.com/some6508/all/master/v12&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '09分00秒.180毫秒	- 连接链接	https://api.v1.mk/sub?target=v2ray&url=https://raw.githubusercontent.com/some6508/all/master/c|https://raw.githubusercontent.com/some6508/all/master/c2|https://raw.githubusercontent.com/some6508/all/master/c3|https://raw.githubusercontent.com/some6508/all/master/c4|https://raw.githubusercontent.com/some6508/all/master/c5|https://raw.githubusercontent.com/some6508/all/master/c6|https://raw.githubusercontent.com/some6508/all/master/c7|https://raw.githubusercontent.com/some6508/all/master/v|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|https://raw.githubusercontent.com/some6508/all/master/v4|https://raw.githubusercontent.com/some6508/all/master/v5|https://raw.githubusercontent.com/some6508/all/master/v6|https://raw.githubusercontent.com/some6508/all/master/v7|https://raw.githubusercontent.com/some6508/all/master/v8|https://raw.githubusercontent.com/some6508/all/master/v9|https://raw.githubusercontent.com/some6508/all/master/v10|https://raw.githubusercontent.com/some6508/all/master/v11|https://raw.githubusercontent.com/some6508/all/master/v12&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini'
+8:	echo '07分13秒.101毫秒	- 连接链接	https://api.v1.mk/sub?target=v2ray&url=https://raw.githubusercontent.com/some6508/all/master/c|https://raw.githubusercontent.com/some6508/all/master/c2|https://raw.githubusercontent.com/some6508/all/master/c3|https://raw.githubusercontent.com/some6508/all/master/c4|https://raw.githubusercontent.com/some6508/all/master/c5|https://raw.githubusercontent.com/some6508/all/master/c6|https://raw.githubusercontent.com/some6508/all/master/c7|https://raw.githubusercontent.com/some6508/all/master/v|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|https://raw.githubusercontent.com/some6508/all/master/v4|https://raw.githubusercontent.com/some6508/all/master/v5|https://raw.githubusercontent.com/some6508/all/master/v6|https://raw.githubusercontent.com/some6508/all/master/v7|https://raw.githubusercontent.com/some6508/all/master/v8|https://raw.githubusercontent.com/some6508/all/master/v9|https://raw.githubusercontent.com/some6508/all/master/v10|https://raw.githubusercontent.com/some6508/all/master/v11|https://raw.githubusercontent.com/some6508/all/master/v12&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini'
 13:	curl -s --connect-timeout 10 -o /home/runner/work/all/all/vc1 'https://api.v1.mk/sub?target=v2ray&url=https://raw.githubusercontent.com/some6508/all/master/c|https://raw.githubusercontent.com/some6508/all/master/c2|https://raw.githubusercontent.com/some6508/all/master/c3|https://raw.githubusercontent.com/some6508/all/master/c4|https://raw.githubusercontent.com/some6508/all/master/c5|https://raw.githubusercontent.com/some6508/all/master/c6|https://raw.githubusercontent.com/some6508/all/master/c7|https://raw.githubusercontent.com/some6508/all/master/v|https://raw.githubusercontent.com/some6508/all/master/v2|https://raw.githubusercontent.com/some6508/all/master/v3|https://raw.githubusercontent.com/some6508/all/master/v4|https://raw.githubusercontent.com/some6508/all/master/v5|https://raw.githubusercontent.com/some6508/all/master/v6|https://raw.githubusercontent.com/some6508/all/master/v7|https://raw.githubusercontent.com/some6508/all/master/v8|https://raw.githubusercontent.com/some6508/all/master/v9|https://raw.githubusercontent.com/some6508/all/master/v10|https://raw.githubusercontent.com/some6508/all/master/v11|https://raw.githubusercontent.com/some6508/all/master/v12&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini'
 14:	local CURL=0
 15:	[[ 0 = 0 ]]
 15:	ec '- 下载完成	0'
 88:	date +%M分%S秒.%3N毫秒
-8:	echo '09分01秒.084毫秒	- 下载完成	0'
+8:	echo '07分14秒.828毫秒	- 下载完成	0'
 16:	return 0
 75:	grep -q '</html>' /home/runner/work/all/all/cv1
 78:	mv -f /home/runner/work/all/all/cv1 /home/runner/work/all/all/cv
 79:	mv -f /home/runner/work/all/all/vc1 /home/runner/work/all/all/vc
 881:	date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-81:	sed -i '/^|20/c|2022年02月25日·周5·12点09分01秒.093毫秒|' /home/runner/work/all/all/README.md
+81:	sed -i '/^|20/c|2022年02月25日·周5·13点07分14秒.842毫秒|' /home/runner/work/all/all/README.md
 882:	date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒 -d '+1 hour'
-82:	sed -i '/^20/c2022年02月25日·周5·13点09分01秒.096毫秒' /home/runner/work/all/all/README.md
+82:	sed -i '/^20/c2022年02月25日·周5·14点07分14秒.844毫秒' /home/runner/work/all/all/README.md
 83:	echo --------------------------------------------------
 884:	date +%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒
-84:	echo 2022年02月25日·周5·12点09分01秒.099毫秒
+84:	echo 2022年02月25日·周5·13点07分14秒.846毫秒
