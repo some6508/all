@@ -5,53 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1","server":"00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz","port":6595,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ab8e1ec9-5024-4995-9728-1881490f72dd"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","server":"00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz","port":18888,"type":"vmess","uuid":"e5bf31e0-0ffc-4acf-877e-442fab645ec3","alterId":0,"cipher":"auto","tls":true,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"CYL-科技（2022_02_24）_1","server":"185.148.14.58","port":53514,"type":"trojan","password":"3r90JDGBYA"}
+  - {"name":"CYL-科技（2022_02_24）_2","server":"35.153.162.49","port":27080,"type":"vmess","uuid":"6334db00-f39b-49d7-d12a-2e3c037c5d97","alterId":0,"cipher":"auto","tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"35.153.162.49"}}}
+  - {"name":"🇫🇷_FR_法国_3","server":"51.255.66.185","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇫🇷_FR_法国_4","server":"149.202.82.172","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - CYL-科技（2022_02_24）_1
+      - CYL-科技（2022_02_24）_2
+      - 🇫🇷_FR_法国_3
+      - 🇫🇷_FR_法国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - CYL-科技（2022_02_24）_1
+      - CYL-科技（2022_02_24）_2
+      - 🇫🇷_FR_法国_3
+      - 🇫🇷_FR_法国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - CYL-科技（2022_02_24）_1
+      - CYL-科技（2022_02_24）_2
+      - 🇫🇷_FR_法国_3
+      - 🇫🇷_FR_法国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - CYL-科技（2022_02_24）_1
+      - CYL-科技（2022_02_24）_2
+      - 🇫🇷_FR_法国_3
+      - 🇫🇷_FR_法国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - CYL-科技（2022_02_24）_1
+      - CYL-科技（2022_02_24）_2
+      - 🇫🇷_FR_法国_3
+      - 🇫🇷_FR_法国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - CYL-科技（2022_02_24）_1
+      - CYL-科技（2022_02_24）_2
+      - 🇫🇷_FR_法国_3
+      - 🇫🇷_FR_法国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +88,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - CYL-科技（2022_02_24）_1
+      - CYL-科技（2022_02_24）_2
+      - 🇫🇷_FR_法国_3
+      - 🇫🇷_FR_法国_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
