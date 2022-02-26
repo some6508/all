@@ -5,48 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_285, server: 223.166.145.124, port: 39999, type: vmess, uuid: f7fae0ff-dfcf-34f8-99bd-d52a2ca19c1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: HK_1529, server: 112.118.0.202, port: 4080, type: vmess, uuid: 7ff41058-b662-3352-9e7f-643ef2d78344, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: HK_1530, server: 23.100.91.112, port: 52225, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_1549, server: 129.wowogg.cyou, port: 52329, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG_1982, server: sg27.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, skip-cert-verify: true, udp: true}
-  - {name: HK_1563, server: 124.wowogg.cyou, port: 52224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_1544, server: 84.wowogg.cyou, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_1522, server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_1533, server: v2.mumi.bid, port: 10123, type: vmess, uuid: 4924189e-9739-47be-9875-fe5c87e485ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2.mumi.bid}}, udp: true}
-  - {name: TW_1987, server: tw.tcpbbr.net, port: 443, type: trojan, password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: HK_1523, server: 98.wowogg.cyou, port: 52298, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_1564, server: 22.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
-  - {name: SG_1979, server: 14.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: true, udp: true}
-  - {name: JP_1733, server: jp19.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, skip-cert-verify: true, udp: true}
-  - {name: HK_1525, server: 118.wowogg.cyou, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG_1981, server: 32.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
-  - {name: HK_1548, server: 104.208.106.80, port: 52287, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_1552, server: v1.mumi.bid, port: 10122, type: vmess, uuid: c8c213ae-a922-4aa2-bc75-e2b529e05362, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v1.mumi.bid}}, udp: true}
-  - {name: RU_1826, server: 0122us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0122us.fans8.xyz}}, udp: true}
-  - {name: JP_1729, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1031kr.fans8.xyz}}, udp: true}
-  - {name: Relay_🇭🇰HK-🇯🇵JP_529_19_08Mb_21, server: 131.wowogg.cyou, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇸🇬SG_535_25_29Mb_22, server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_1949_6_96Mb_23, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇯🇵JP_522_19_06Mb_24, server: 91.wowogg.cyou, port: 52291, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_1952_1_66Mb_25, server: 105.wowogg.cyou, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_1953_9_11Mb_26, server: 100.wowogg.cyou, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_1951_8_73Mb_27, server: 85.wowogg.cyou, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_1950_11_67Mb_28, server: 82.wowogg.cyou, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇯🇵JP_546_13_20Mb_29, server: 90.wowogg.cyou, port: 52290, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇯🇵JP_533_8_87Mb_30, server: 132.wowogg.cyou, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇯🇵JP_543_5_17Mb_31, server: 128.wowogg.cyou, port: 52228, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇯🇵JP_516_11_71Mb_32, server: 136.wowogg.cyou, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇹🇼TW_545_3_95Mb_33, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_1955_1_14Mb_34, server: 114.wowogg.cyou, port: 52214, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_1948_3_29Mb_35, server: 134.wowogg.cyou, port: 52334, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇯🇵JP_547_9_60Mb_36, server: 94.wowogg.cyou, port: 52294, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇯🇵JP_540_6_57Mb_37, server: 116.wowogg.cyou, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇯🇵JP_530_9_11Mb_38, server: 117.wowogg.cyou, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇯🇵JP_534_2_16Mb_39, server: 135.wowogg.cyou, port: 52335, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇯🇵JP_541_8_14Mb_40, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_1959_1_63Mb_41, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_1960_6_87Mb_42, server: 95.wowogg.cyou, port: 52295, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: default_name_1, server: 198.41.212.14, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
+  - {name: _FR_法国_2, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: default_name_3, server: 198.41.212.15, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
+  - {name: _US_美国_4, server: c39s2.jamjams.net, port: 32567, type: ss, cipher: aes-256-gcm, password: m35yfEjtbS, udp: true}
+  - {name: _US_美国_5, server: 23.225.125.82, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/243535322906}, udp: true}
+  - {name: default_name_6, server: 198.41.212.6, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
+  - {name: _JP_日本_7, server: 85.208.108.106, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _NL_荷兰_8, server: 46.182.107.166, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/243535322906}, udp: true}
+  - {name: _US_美国_9, server: lungzaak2022.duckdns.org, port: 443, type: vmess, uuid: 4a0d1ae7-5ffc-4870-bfcd-5a73290851d3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /233blog, headers: {Host: lungzaak2022.duckdns.org}}, udp: true}
+  - {name: _US_美国_10, server: 20.24.66.46, port: 9548, type: ss, cipher: aes-256-gcm, password: 3b07447e-94cf-4d72-96c6-d0a539098049, udp: true}
+  - {name: _US_美国_11, server: 173.255.215.146, port: 11443, type: vmess, uuid: d5c70a71-1b3c-41f2-a8e0-17323bc23821, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/common}, udp: true}
+  - {name: default_name_12, server: icook.tw, port: 443, type: vmess, uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: icook.tw}}, udp: true}
+  - {name: _US_美国->🇭🇰_HK_香港_13, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: cloudflare.a-yu.xyz}}, udp: true}
+  - {name: _US_美国_14, server: c39s1.jamjams.net, port: 32567, type: ss, cipher: aes-256-gcm, password: m35yfEjtbS, udp: true}
+  - {name: default_name_15, server: 198.41.212.20, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰_16, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
+  - {name: _GB_英国_17, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: 0118ru.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0118ru.fans8.xyz}}, udp: true}
   - {name: 法国(欢迎订阅Youtube破解资源君), server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 法国(欢迎订阅Youtube破解资源君) 2, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
@@ -1379,48 +1354,23 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - CN_285
-      - HK_1529
-      - HK_1530
-      - HK_1549
-      - SG_1982
-      - HK_1563
-      - HK_1544
-      - HK_1522
-      - HK_1533
-      - TW_1987
-      - HK_1523
-      - HK_1564
-      - SG_1979
-      - JP_1733
-      - HK_1525
-      - SG_1981
-      - HK_1548
-      - HK_1552
-      - RU_1826
-      - JP_1729
-      - Relay_🇭🇰HK-🇯🇵JP_529_19_08Mb_21
-      - Relay_🇭🇰HK-🇸🇬SG_535_25_29Mb_22
-      - Relay_🇺🇸US-🇯🇵JP_1949_6_96Mb_23
-      - Relay_🇭🇰HK-🇯🇵JP_522_19_06Mb_24
-      - Relay_🇺🇸US-🇯🇵JP_1952_1_66Mb_25
-      - Relay_🇺🇸US-🇯🇵JP_1953_9_11Mb_26
-      - Relay_🇺🇸US-🇯🇵JP_1951_8_73Mb_27
-      - Relay_🇺🇸US-🇯🇵JP_1950_11_67Mb_28
-      - Relay_🇭🇰HK-🇯🇵JP_546_13_20Mb_29
-      - Relay_🇭🇰HK-🇯🇵JP_533_8_87Mb_30
-      - Relay_🇭🇰HK-🇯🇵JP_543_5_17Mb_31
-      - Relay_🇭🇰HK-🇯🇵JP_516_11_71Mb_32
-      - Relay_🇭🇰HK-🇹🇼TW_545_3_95Mb_33
-      - Relay_🇺🇸US-🇯🇵JP_1955_1_14Mb_34
-      - Relay_🇺🇸US-🇯🇵JP_1948_3_29Mb_35
-      - Relay_🇭🇰HK-🇯🇵JP_547_9_60Mb_36
-      - Relay_🇭🇰HK-🇯🇵JP_540_6_57Mb_37
-      - Relay_🇭🇰HK-🇯🇵JP_530_9_11Mb_38
-      - Relay_🇭🇰HK-🇯🇵JP_534_2_16Mb_39
-      - Relay_🇭🇰HK-🇯🇵JP_541_8_14Mb_40
-      - Relay_🇺🇸US-🇯🇵JP_1959_1_63Mb_41
-      - Relay_🇺🇸US-🇯🇵JP_1960_6_87Mb_42
+      - default_name_1
+      - _FR_法国_2
+      - default_name_3
+      - _US_美国_4
+      - _US_美国_5
+      - default_name_6
+      - _JP_日本_7
+      - _NL_荷兰_8
+      - _US_美国_9
+      - _US_美国_10
+      - _US_美国_11
+      - default_name_12
+      - _US_美国->🇭🇰_HK_香港_13
+      - _US_美国_14
+      - default_name_15
+      - _US_美国->🇳🇱_NL_荷兰_16
+      - _GB_英国_17
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 法国(欢迎订阅Youtube破解资源君)
       - 法国(欢迎订阅Youtube破解资源君) 2
@@ -2742,48 +2692,23 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_285
-      - HK_1529
-      - HK_1530
-      - HK_1549
-      - SG_1982
-      - HK_1563
-      - HK_1544
-      - HK_1522
-      - HK_1533
-      - TW_1987
-      - HK_1523
-      - HK_1564
-      - SG_1979
-      - JP_1733
-      - HK_1525
-      - SG_1981
-      - HK_1548
-      - HK_1552
-      - RU_1826
-      - JP_1729
-      - Relay_🇭🇰HK-🇯🇵JP_529_19_08Mb_21
-      - Relay_🇭🇰HK-🇸🇬SG_535_25_29Mb_22
-      - Relay_🇺🇸US-🇯🇵JP_1949_6_96Mb_23
-      - Relay_🇭🇰HK-🇯🇵JP_522_19_06Mb_24
-      - Relay_🇺🇸US-🇯🇵JP_1952_1_66Mb_25
-      - Relay_🇺🇸US-🇯🇵JP_1953_9_11Mb_26
-      - Relay_🇺🇸US-🇯🇵JP_1951_8_73Mb_27
-      - Relay_🇺🇸US-🇯🇵JP_1950_11_67Mb_28
-      - Relay_🇭🇰HK-🇯🇵JP_546_13_20Mb_29
-      - Relay_🇭🇰HK-🇯🇵JP_533_8_87Mb_30
-      - Relay_🇭🇰HK-🇯🇵JP_543_5_17Mb_31
-      - Relay_🇭🇰HK-🇯🇵JP_516_11_71Mb_32
-      - Relay_🇭🇰HK-🇹🇼TW_545_3_95Mb_33
-      - Relay_🇺🇸US-🇯🇵JP_1955_1_14Mb_34
-      - Relay_🇺🇸US-🇯🇵JP_1948_3_29Mb_35
-      - Relay_🇭🇰HK-🇯🇵JP_547_9_60Mb_36
-      - Relay_🇭🇰HK-🇯🇵JP_540_6_57Mb_37
-      - Relay_🇭🇰HK-🇯🇵JP_530_9_11Mb_38
-      - Relay_🇭🇰HK-🇯🇵JP_534_2_16Mb_39
-      - Relay_🇭🇰HK-🇯🇵JP_541_8_14Mb_40
-      - Relay_🇺🇸US-🇯🇵JP_1959_1_63Mb_41
-      - Relay_🇺🇸US-🇯🇵JP_1960_6_87Mb_42
+      - default_name_1
+      - _FR_法国_2
+      - default_name_3
+      - _US_美国_4
+      - _US_美国_5
+      - default_name_6
+      - _JP_日本_7
+      - _NL_荷兰_8
+      - _US_美国_9
+      - _US_美国_10
+      - _US_美国_11
+      - default_name_12
+      - _US_美国->🇭🇰_HK_香港_13
+      - _US_美国_14
+      - default_name_15
+      - _US_美国->🇳🇱_NL_荷兰_16
+      - _GB_英国_17
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 法国(欢迎订阅Youtube破解资源君)
       - 法国(欢迎订阅Youtube破解资源君) 2
@@ -4275,31 +4200,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK_1529
-      - HK_1530
-      - HK_1549
-      - HK_1563
-      - HK_1544
-      - HK_1522
-      - HK_1533
-      - HK_1523
-      - HK_1564
-      - HK_1525
-      - HK_1548
-      - HK_1552
-      - Relay_🇭🇰HK-🇯🇵JP_529_19_08Mb_21
-      - Relay_🇭🇰HK-🇸🇬SG_535_25_29Mb_22
-      - Relay_🇭🇰HK-🇯🇵JP_522_19_06Mb_24
-      - Relay_🇭🇰HK-🇯🇵JP_546_13_20Mb_29
-      - Relay_🇭🇰HK-🇯🇵JP_533_8_87Mb_30
-      - Relay_🇭🇰HK-🇯🇵JP_543_5_17Mb_31
-      - Relay_🇭🇰HK-🇯🇵JP_516_11_71Mb_32
-      - Relay_🇭🇰HK-🇹🇼TW_545_3_95Mb_33
-      - Relay_🇭🇰HK-🇯🇵JP_547_9_60Mb_36
-      - Relay_🇭🇰HK-🇯🇵JP_540_6_57Mb_37
-      - Relay_🇭🇰HK-🇯🇵JP_530_9_11Mb_38
-      - Relay_🇭🇰HK-🇯🇵JP_534_2_16Mb_39
-      - Relay_🇭🇰HK-🇯🇵JP_541_8_14Mb_40
+      - _US_美国->🇭🇰_HK_香港_13
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
@@ -4412,28 +4313,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - JP_1733
-      - JP_1729
-      - Relay_🇭🇰HK-🇯🇵JP_529_19_08Mb_21
-      - Relay_🇺🇸US-🇯🇵JP_1949_6_96Mb_23
-      - Relay_🇭🇰HK-🇯🇵JP_522_19_06Mb_24
-      - Relay_🇺🇸US-🇯🇵JP_1952_1_66Mb_25
-      - Relay_🇺🇸US-🇯🇵JP_1953_9_11Mb_26
-      - Relay_🇺🇸US-🇯🇵JP_1951_8_73Mb_27
-      - Relay_🇺🇸US-🇯🇵JP_1950_11_67Mb_28
-      - Relay_🇭🇰HK-🇯🇵JP_546_13_20Mb_29
-      - Relay_🇭🇰HK-🇯🇵JP_533_8_87Mb_30
-      - Relay_🇭🇰HK-🇯🇵JP_543_5_17Mb_31
-      - Relay_🇭🇰HK-🇯🇵JP_516_11_71Mb_32
-      - Relay_🇺🇸US-🇯🇵JP_1955_1_14Mb_34
-      - Relay_🇺🇸US-🇯🇵JP_1948_3_29Mb_35
-      - Relay_🇭🇰HK-🇯🇵JP_547_9_60Mb_36
-      - Relay_🇭🇰HK-🇯🇵JP_540_6_57Mb_37
-      - Relay_🇭🇰HK-🇯🇵JP_530_9_11Mb_38
-      - Relay_🇭🇰HK-🇯🇵JP_534_2_16Mb_39
-      - Relay_🇭🇰HK-🇯🇵JP_541_8_14Mb_40
-      - Relay_🇺🇸US-🇯🇵JP_1959_1_63Mb_41
-      - Relay_🇺🇸US-🇯🇵JP_1960_6_87Mb_42
+      - _JP_日本_7
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
@@ -4489,15 +4369,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇺🇸US-🇯🇵JP_1949_6_96Mb_23
-      - Relay_🇺🇸US-🇯🇵JP_1952_1_66Mb_25
-      - Relay_🇺🇸US-🇯🇵JP_1953_9_11Mb_26
-      - Relay_🇺🇸US-🇯🇵JP_1951_8_73Mb_27
-      - Relay_🇺🇸US-🇯🇵JP_1950_11_67Mb_28
-      - Relay_🇺🇸US-🇯🇵JP_1955_1_14Mb_34
-      - Relay_🇺🇸US-🇯🇵JP_1948_3_29Mb_35
-      - Relay_🇺🇸US-🇯🇵JP_1959_1_63Mb_41
-      - Relay_🇺🇸US-🇯🇵JP_1960_6_87Mb_42
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_9
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国->🇭🇰_HK_香港_13
+      - _US_美国_14
+      - _US_美国->🇳🇱_NL_荷兰_16
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -4767,8 +4646,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - TW_1987
-      - Relay_🇭🇰HK-🇹🇼TW_545_3_95Mb_33
       - 台湾(欢迎订阅Youtube破解资源君)
       - 台湾(欢迎订阅Youtube破解资源君) 2
       - 台湾（YouTube资源分享者）
@@ -4812,10 +4689,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - SG_1982
-      - SG_1979
-      - SG_1981
-      - Relay_🇭🇰HK-🇸🇬SG_535_25_29Mb_22
       - 新加坡（YouTube资源分享者）
       - 新加坡（YouTube资源分享者） 2
       - _SG_新加坡_AFTZ-2022.02.26_1
