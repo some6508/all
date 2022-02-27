@@ -5,46 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"A_1","server":"51.159.30.61","port":804,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.193","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_2","server":"prvm.youliss.club","port":443,"type":"vmess","uuid":"d86cd24d-2065-42ae-eec7-4feb9af8c3d3","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/data","headers":{"host":"prvm.youliss.club"}}}
+  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.193","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_4","server":"kor.oracleusa.ml","port":443,"type":"vmess","uuid":"78963f70-8605-4ffd-902e-14f824617487","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.196.193","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇯🇵_JP_日本_6","server":"japanfastnetwork.club","port":443,"type":"vmess","uuid":"fb8ed8a9-ad61-4a12-90c6-55670a4a3332","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/neuromancer","headers":{"host":"japanfastnetwork.club"}}}
+  - {"name":"🇺🇸_US_美国_7","server":"lungzaak2022.duckdns.org","port":443,"type":"vmess","uuid":"4a0d1ae7-5ffc-4870-bfcd-5a73290851d3","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/233blog","headers":{"host":"lungzaak2022.duckdns.org"}}}
+  - {"name":"🇨🇦_CA_加拿大_8","server":"134.195.196.193","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_9","server":"centralchina1.cloudlink123.com","port":37002,"type":"ss","cipher":"aes-128-gcm","password":"a9dbdfbc-0964-4bc2-8b39-6e9c3e9fd8d0"}
+  - {"name":"🇺🇸_US_美国_10","server":"vir.oracleusa.ml","port":2053,"type":"vmess","uuid":"78963f70-8605-4ffd-902e-14f824617487","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - A_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_9
+      - 🇺🇸_US_美国_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - A_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_9
+      - 🇺🇸_US_美国_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - A_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_9
+      - 🇺🇸_US_美国_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - A_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_9
+      - 🇺🇸_US_美国_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - A_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_9
+      - 🇺🇸_US_美国_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - A_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_9
+      - 🇺🇸_US_美国_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - A_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇯🇵_JP_日本_6
+      - 🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_9
+      - 🇺🇸_US_美国_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
