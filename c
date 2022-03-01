@@ -5,95 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"github_com/freefq-美国17_17","server":"172.99.190.188","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"github_com/freefq-美国22_22","server":"172.99.190.205","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"github_com/freefq-法国OVH24_24","server":"51.255.66.185","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"github_com/freefq-北美地区27_27","server":"134.195.196.193","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"github_com/freefq-北美地区28_28","server":"134.195.196.147","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"github_com/freefq-北美地区29_29","server":"169.197.141.91","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"github_com/freefq-新加坡DigitalOcean数据中心32_32","server":"32.earths.team","port":443,"type":"trojan","password":"6593b778-e45e-4f94-b5ae-641d4b7b02ae"}
-  - {"name":"github_com/freefq-北美地区34_34","server":"134.195.196.193","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"default_name_1","server":"198.41.221.169","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - github_com/freefq-美国17_17
-      - github_com/freefq-美国22_22
-      - github_com/freefq-法国OVH24_24
-      - github_com/freefq-北美地区27_27
-      - github_com/freefq-北美地区28_28
-      - github_com/freefq-北美地区29_29
-      - github_com/freefq-新加坡DigitalOcean数据中心32_32
-      - github_com/freefq-北美地区34_34
+      - default_name_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - github_com/freefq-美国17_17
-      - github_com/freefq-美国22_22
-      - github_com/freefq-法国OVH24_24
-      - github_com/freefq-北美地区27_27
-      - github_com/freefq-北美地区28_28
-      - github_com/freefq-北美地区29_29
-      - github_com/freefq-新加坡DigitalOcean数据中心32_32
-      - github_com/freefq-北美地区34_34
+      - default_name_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github_com/freefq-美国17_17
-      - github_com/freefq-美国22_22
-      - github_com/freefq-法国OVH24_24
-      - github_com/freefq-北美地区27_27
-      - github_com/freefq-北美地区28_28
-      - github_com/freefq-北美地区29_29
-      - github_com/freefq-新加坡DigitalOcean数据中心32_32
-      - github_com/freefq-北美地区34_34
+      - default_name_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github_com/freefq-美国17_17
-      - github_com/freefq-美国22_22
-      - github_com/freefq-法国OVH24_24
-      - github_com/freefq-北美地区27_27
-      - github_com/freefq-北美地区28_28
-      - github_com/freefq-北美地区29_29
-      - github_com/freefq-新加坡DigitalOcean数据中心32_32
-      - github_com/freefq-北美地区34_34
+      - default_name_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - github_com/freefq-美国17_17
-      - github_com/freefq-美国22_22
-      - github_com/freefq-法国OVH24_24
-      - github_com/freefq-北美地区27_27
-      - github_com/freefq-北美地区28_28
-      - github_com/freefq-北美地区29_29
-      - github_com/freefq-新加坡DigitalOcean数据中心32_32
-      - github_com/freefq-北美地区34_34
+      - default_name_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github_com/freefq-美国17_17
-      - github_com/freefq-美国22_22
-      - github_com/freefq-法国OVH24_24
-      - github_com/freefq-北美地区27_27
-      - github_com/freefq-北美地区28_28
-      - github_com/freefq-北美地区29_29
-      - github_com/freefq-新加坡DigitalOcean数据中心32_32
-      - github_com/freefq-北美地区34_34
+      - default_name_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,14 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github_com/freefq-美国17_17
-      - github_com/freefq-美国22_22
-      - github_com/freefq-法国OVH24_24
-      - github_com/freefq-北美地区27_27
-      - github_com/freefq-北美地区28_28
-      - github_com/freefq-北美地区29_29
-      - github_com/freefq-新加坡DigitalOcean数据中心32_32
-      - github_com/freefq-北美地区34_34
+      - default_name_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
