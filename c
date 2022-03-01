@@ -5,46 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"admin_1","server":"208.64.228.207","port":50519,"type":"vmess","uuid":"702df084-a7f6-4a26-e1b9-8ff27069f433","alterId":0,"cipher":"auto","tls":false,"network":"quic","ws-opts":{"path":"q123465q","headers":{"host":"chacha20-poly1305"}}}
+  - {"name":"🇬🇧_GB_英国_1","server":"145.239.7.164","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_2","server":"38.68.134.85","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇬🇧_GB_英国_3","server":"172.99.190.205","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国->🇨🇭_CH_瑞士_4","server":"sw.gfwglass.tk","port":443,"type":"vmess","uuid":"1ea2aa80-2f1f-4202-bbd0-6f79a1cb0eda","alterId":1,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸_US_美国_5","server":"169.197.141.91","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇬🇧_GB_英国_6","server":"172.99.190.188","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_7","server":"38.91.102.86","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_8","server":"38.91.102.86","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA_加拿大_9","server":"134.195.196.227","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_10","server":"38.91.102.86","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - admin_1
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国->🇨🇭_CH_瑞士_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - admin_1
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国->🇨🇭_CH_瑞士_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - admin_1
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国->🇨🇭_CH_瑞士_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - admin_1
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国->🇨🇭_CH_瑞士_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - admin_1
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国->🇨🇭_CH_瑞士_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - admin_1
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国->🇨🇭_CH_瑞士_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - admin_1
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国->🇨🇭_CH_瑞士_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

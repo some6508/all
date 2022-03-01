@@ -672,16 +672,7 @@ proxies:
   - {name: "| 02", server: in04.dns2333.xyz, port: 63071, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-ru01.myn1des.com}}, udp: true}
   - {name: "| 01", server: in05.dns2333.xyz, port: 63069, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-us03.covid19.rip}}, udp: true}
   - {name: "| 53", server: in05.dns2333.xyz, port: 63014, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: mugua-us01.covid19.rip}}, udp: true}
-  - {name: _US_美国, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国 2, server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 3, server: 38.143.66.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _KR_韩国, server: 141.164.57.134, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国 4, server: 38.86.135.36, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国 5, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 6, server: 38.75.136.102, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _KR_韩国 2, server: 158.247.203.168, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国->🇨🇭_CH_瑞士, server: sw.gfwglass.tk, port: 443, type: vmess, uuid: 1ea2aa80-2f1f-4202-bbd0-6f79a1cb0eda, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sw.gfwglass.tk}}, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2288,16 +2279,7 @@ proxy-groups:
       - "| 02"
       - "| 01"
       - "| 53"
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - _KR_韩国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _KR_韩国 2
+      - _US_美国->🇨🇭_CH_瑞士
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3893,16 +3875,7 @@ proxy-groups:
       - "| 02"
       - "| 01"
       - "| 53"
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - _KR_韩国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _KR_韩国 2
+      - _US_美国->🇨🇭_CH_瑞士
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5357,12 +5330,7 @@ proxy-groups:
       - Ytb:鹏哥分享_US_美国_329
       - Ytb:鹏哥分享_US_美国_331
       - Ytb:鹏哥分享_US_美国_332
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
+      - _US_美国->🇨🇭_CH_瑞士
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -5734,8 +5702,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _KR_韩国
-      - _KR_韩国 2
       - _韩国_AFTZ-2022.02.28_32
       - _韩国_AFTZ-2022.02.28_269
       - _韩国_AFTZ-2022.02.28_270
