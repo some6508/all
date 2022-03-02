@@ -5,46 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"167.88.61.60","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_1","server":"207.46.133.23","port":443,"type":"vmess","uuid":"d5c70a71-1b3c-41f2-a8e0-17323bc23821","alterId":1,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/api/sg","headers":{"host":"sgav2.ddns.tjiasu.xyz"}}}
+  - {"name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_2","server":"v1.369855.xyz","port":11443,"type":"vmess","uuid":"d5c70a71-1b3c-41f2-a8e0-17323bc23821","alterId":1,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/api/sg","headers":{"host":"sgav2.ddns.tjiasu.xyz"}}}
+  - {"name":"🇺🇸_US_美国_3","server":"169.197.142.187","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_4","server":"167.88.61.60","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇺🇸_US_美国_5","server":"38.75.136.102","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_6","server":"38.75.136.93","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_7","server":"c39s1.jamjams.net","port":32567,"type":"ss","cipher":"aes-256-gcm","password":"m35yfEjtbS"}
+  - {"name":"🇺🇸_US_美国_8","server":"169.197.142.187","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_9","server":"38.75.136.102","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_10","server":"167.88.61.60","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
