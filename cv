@@ -900,16 +900,6 @@ proxies:
   - {name: 日本digitalvm 01 联通*, server: gkdcu.gkdcn.net, port: 22677, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 136:7V7xBb, obfs-param: .microsoft.com, udp: true}
   - {name: 日本digitalvm 01 联通* 2, server: gkdcu.gkdcn.net, port: 22677, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 136:7V7xBb, obfs-param: .microsoft.com, udp: true}
   - {name: 日本digitalvm 01 移动*, server: gkdcm.gkdcn.net, port: 22677, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 136:7V7xBb, obfs-param: .microsoft.com, udp: true}
-  - {name: US_油管+TG+8度科技, server: 38.91.100.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CN_油管 TG 8度科技, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: CN_油管 TG 8度科技 2, server: 120.233.10.34, port: 8095, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 35263:sOIDu2, obfs-param: t.me/vpnhat, udp: true}
-  - {name: CN_油管 TG 8度科技 3, server: 120.232.214.83, port: 115, type: vmess, uuid: b5b579f4-3320-301c-a04b-c2473062b46c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vvv, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: CN_油管 TG 8度科技 4, server: 183.232.56.189, port: 8112, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 35263:sOIDu2, obfs-param: t.me/vpnhat, udp: true}
-  - {name: CN_油管 TG 8度科技 5, server: 120.232.214.83, port: 111, type: vmess, uuid: b5b579f4-3320-301c-a04b-c2473062b46c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vvv, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: CN_油管 TG 8度科技 6, server: 120.232.214.83, port: 107, type: vmess, uuid: b5b579f4-3320-301c-a04b-c2473062b46c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vvv, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: US_油管+TG+8度科技 2, server: 38.91.100.102, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CN_油管 TG 8度科技 7, server: 120.232.214.83, port: 116, type: vmess, uuid: b5b579f4-3320-301c-a04b-c2473062b46c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vvv, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: CN_油管 TG 8度科技 8, server: 52.130.253.43, port: 8161, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 35263:sOIDu2, obfs-param: t.me/vpnhat, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1512,45 +1502,40 @@ proxies:
   - {name: Ytb:鹏哥分享_加拿大_151, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_美国_152, server: 167.88.63.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: Ytb:鹏哥分享_澳大利亚_153, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: github.com/freefq - 福建省厦门市电信 1, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 2, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 香港Microsoft数据中心 1, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 2, server: 136.wowogg.cyou, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 3, server: 90.wowogg.cyou, port: 52290, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港Microsoft数据中心 4, server: 103.wowogg.cyou, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港特别行政区 5, server: 116.wowogg.cyou, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港Microsoft数据中心 6, server: 105.wowogg.cyou, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 7, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 8, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 9, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 10, server: 132.wowogg.cyou, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 11, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 12, server: 82.wowogg.cyou, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港Microsoft数据中心 13, server: 91.wowogg.cyou, port: 52291, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 14, server: 84.wowogg.cyou, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 15, server: 127.wowogg.cyou, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港Microsoft数据中心 16, server: 117.wowogg.cyou, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港特别行政区 17, server: 119.wowogg.cyou, port: 52219, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港Microsoft数据中心 18, server: 124.wowogg.cyou, port: 52224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 北美地区  19, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 20, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 21, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 22, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: github.com/freefq - 澳大利亚  23, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
+  - {name: github.com/freefq - 香港Microsoft数据中心 24, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 25, server: 114.wowogg.cyou, port: 52214, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 26, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: ipv6.xrenblog.com}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 27, server: app.ssfree.ru, port: 443, type: vmess, uuid: d201e57c-9a41-11ec-a13d-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 香港Microsoft公司 28, server: 94.wowogg.cyou, port: 52294, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 29, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero2.a-yu.xyz}}, udp: true}
+  - {name: github.com/freefq - 福建省厦门市电信 30, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
   - {name: 请换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 广东省广州市腾讯云 1, server: 106.52.33.67, port: 40326, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 更新于:03-03 08:00:02 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 广东省广州市腾讯云 2, server: 106.52.33.67, port: 40306, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 3, server: 1.14.165.96, port: 40263, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 4, server: 106.52.33.67, port: 40325, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 5, server: 159.75.50.77, port: 40020, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 6, server: 159.75.50.77, port: 40018, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 7, server: 159.75.50.77, port: 40091, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 8, server: 159.75.50.77, port: 40038, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 9, server: 159.75.50.77, port: 40033, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 10, server: 1.14.165.96, port: 40247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 11, server: 1.14.165.96, port: 40271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 12, server: 106.52.33.67, port: 40344, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 13, server: 1.14.165.96, port: 40281, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 14, server: 1.14.165.96, port: 40254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 15, server: 1.14.165.96, port: 40239, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 16, server: 159.75.50.77, port: 40060, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 17, server: 106.52.33.67, port: 40322, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 18, server: 1.14.165.96, port: 40259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 19, server: 159.75.50.77, port: 40013, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 20, server: 1.14.165.96, port: 40262, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 21, server: 159.75.50.77, port: 40026, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 22, server: 106.52.33.67, port: 40341, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 23, server: 1.14.165.96, port: 40209, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 24, server: 159.75.50.77, port: 40065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 25, server: 106.52.33.67, port: 40368, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 26, server: 106.52.33.67, port: 40378, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 27, server: 1.14.165.96, port: 40292, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 28, server: 1.14.165.96, port: 40297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 29, server: 159.75.50.77, port: 40092, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 30, server: 159.75.50.77, port: 40095, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 31, server: 1.14.165.96, port: 40278, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 32, server: 1.14.165.96, port: 40296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 广东省广州市腾讯云 33, server: 1.14.165.96, port: 40252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国俄勒冈州波特兰Amazon数据中心 1, server: 35.163.194.255, port: 8080, type: ssr, cipher: aes-256-cfb, password: vGndzdmPB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 更新于:03-03 10:30:02 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新 2, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 魔戒.net 🇭🇰_CowVagina_2, server: 106.wowogg.cyou, port: 11223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2574,16 +2559,6 @@ proxy-groups:
       - 日本digitalvm 01 联通*
       - 日本digitalvm 01 联通* 2
       - 日本digitalvm 01 移动*
-      - US_油管+TG+8度科技
-      - CN_油管 TG 8度科技
-      - CN_油管 TG 8度科技 2
-      - CN_油管 TG 8度科技 3
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - CN_油管 TG 8度科技 6
-      - US_油管+TG+8度科技 2
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3186,45 +3161,40 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_151
       - Ytb:鹏哥分享_美国_152
       - Ytb:鹏哥分享_澳大利亚_153
-      - github.com/freefq - 福建省厦门市电信 1
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 2
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
+      - github.com/freefq - 香港Microsoft数据中心 1
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/freefq - 香港Microsoft数据中心 4
+      - github.com/freefq - 香港特别行政区 5
+      - github.com/freefq - 香港Microsoft数据中心 6
+      - github.com/freefq - 美国Microsoft数据中心 7
+      - github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 8
+      - github.com/freefq - 美国Microsoft数据中心 9
+      - github.com/freefq - 美国Microsoft数据中心 10
+      - github.com/freefq - 美国Microsoft数据中心 11
+      - github.com/freefq - 美国Microsoft数据中心 12
+      - github.com/freefq - 香港Microsoft数据中心 13
+      - github.com/freefq - 美国Microsoft数据中心 14
+      - github.com/freefq - 美国Microsoft数据中心 15
+      - github.com/freefq - 香港Microsoft数据中心 16
+      - github.com/freefq - 香港特别行政区 17
+      - github.com/freefq - 香港Microsoft数据中心 18
+      - github.com/freefq - 北美地区  19
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 20
+      - github.com/freefq - 美国CloudFlare公司CDN节点 21
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 22
+      - github.com/freefq - 澳大利亚  23
+      - github.com/freefq - 香港Microsoft数据中心 24
+      - github.com/freefq - 美国Microsoft数据中心 25
+      - github.com/freefq - 美国CloudFlare公司CDN节点 26
+      - github.com/freefq - 美国CloudFlare节点 27
+      - github.com/freefq - 香港Microsoft公司 28
+      - github.com/freefq - 美国CloudFlare节点 29
+      - github.com/freefq - 福建省厦门市电信 30
       - 请换到v2ray
       - 将于近期停止ssr更新
-      - 广东省广州市腾讯云 1
-      - 更新于:03-03 08:00:02 - by BuLink.xyz
-      - 广东省广州市腾讯云 2
-      - 广东省广州市腾讯云 3
-      - 广东省广州市腾讯云 4
-      - 广东省广州市腾讯云 5
-      - 广东省广州市腾讯云 6
-      - 广东省广州市腾讯云 7
-      - 广东省广州市腾讯云 8
-      - 广东省广州市腾讯云 9
-      - 广东省广州市腾讯云 10
-      - 广东省广州市腾讯云 11
-      - 广东省广州市腾讯云 12
-      - 广东省广州市腾讯云 13
-      - 广东省广州市腾讯云 14
-      - 广东省广州市腾讯云 15
-      - 广东省广州市腾讯云 16
-      - 广东省广州市腾讯云 17
-      - 广东省广州市腾讯云 18
-      - 广东省广州市腾讯云 19
-      - 广东省广州市腾讯云 20
-      - 广东省广州市腾讯云 21
-      - 广东省广州市腾讯云 22
-      - 广东省广州市腾讯云 23
-      - 广东省广州市腾讯云 24
-      - 广东省广州市腾讯云 25
-      - 广东省广州市腾讯云 26
-      - 广东省广州市腾讯云 27
-      - 广东省广州市腾讯云 28
-      - 广东省广州市腾讯云 29
-      - 广东省广州市腾讯云 30
-      - 广东省广州市腾讯云 31
-      - 广东省广州市腾讯云 32
-      - 广东省广州市腾讯云 33
+      - 美国俄勒冈州波特兰Amazon数据中心 1
+      - 更新于:03-03 10:30:02 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 魔戒.net 🇭🇰_CowVagina_2
@@ -4237,16 +4207,6 @@ proxy-groups:
       - 日本digitalvm 01 联通*
       - 日本digitalvm 01 联通* 2
       - 日本digitalvm 01 移动*
-      - US_油管+TG+8度科技
-      - CN_油管 TG 8度科技
-      - CN_油管 TG 8度科技 2
-      - CN_油管 TG 8度科技 3
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - CN_油管 TG 8度科技 6
-      - US_油管+TG+8度科技 2
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4849,45 +4809,40 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_151
       - Ytb:鹏哥分享_美国_152
       - Ytb:鹏哥分享_澳大利亚_153
-      - github.com/freefq - 福建省厦门市电信 1
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 2
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
+      - github.com/freefq - 香港Microsoft数据中心 1
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/freefq - 香港Microsoft数据中心 4
+      - github.com/freefq - 香港特别行政区 5
+      - github.com/freefq - 香港Microsoft数据中心 6
+      - github.com/freefq - 美国Microsoft数据中心 7
+      - github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 8
+      - github.com/freefq - 美国Microsoft数据中心 9
+      - github.com/freefq - 美国Microsoft数据中心 10
+      - github.com/freefq - 美国Microsoft数据中心 11
+      - github.com/freefq - 美国Microsoft数据中心 12
+      - github.com/freefq - 香港Microsoft数据中心 13
+      - github.com/freefq - 美国Microsoft数据中心 14
+      - github.com/freefq - 美国Microsoft数据中心 15
+      - github.com/freefq - 香港Microsoft数据中心 16
+      - github.com/freefq - 香港特别行政区 17
+      - github.com/freefq - 香港Microsoft数据中心 18
+      - github.com/freefq - 北美地区  19
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 20
+      - github.com/freefq - 美国CloudFlare公司CDN节点 21
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 22
+      - github.com/freefq - 澳大利亚  23
+      - github.com/freefq - 香港Microsoft数据中心 24
+      - github.com/freefq - 美国Microsoft数据中心 25
+      - github.com/freefq - 美国CloudFlare公司CDN节点 26
+      - github.com/freefq - 美国CloudFlare节点 27
+      - github.com/freefq - 香港Microsoft公司 28
+      - github.com/freefq - 美国CloudFlare节点 29
+      - github.com/freefq - 福建省厦门市电信 30
       - 请换到v2ray
       - 将于近期停止ssr更新
-      - 广东省广州市腾讯云 1
-      - 更新于:03-03 08:00:02 - by BuLink.xyz
-      - 广东省广州市腾讯云 2
-      - 广东省广州市腾讯云 3
-      - 广东省广州市腾讯云 4
-      - 广东省广州市腾讯云 5
-      - 广东省广州市腾讯云 6
-      - 广东省广州市腾讯云 7
-      - 广东省广州市腾讯云 8
-      - 广东省广州市腾讯云 9
-      - 广东省广州市腾讯云 10
-      - 广东省广州市腾讯云 11
-      - 广东省广州市腾讯云 12
-      - 广东省广州市腾讯云 13
-      - 广东省广州市腾讯云 14
-      - 广东省广州市腾讯云 15
-      - 广东省广州市腾讯云 16
-      - 广东省广州市腾讯云 17
-      - 广东省广州市腾讯云 18
-      - 广东省广州市腾讯云 19
-      - 广东省广州市腾讯云 20
-      - 广东省广州市腾讯云 21
-      - 广东省广州市腾讯云 22
-      - 广东省广州市腾讯云 23
-      - 广东省广州市腾讯云 24
-      - 广东省广州市腾讯云 25
-      - 广东省广州市腾讯云 26
-      - 广东省广州市腾讯云 27
-      - 广东省广州市腾讯云 28
-      - 广东省广州市腾讯云 29
-      - 广东省广州市腾讯云 30
-      - 广东省广州市腾讯云 31
-      - 广东省广州市腾讯云 32
-      - 广东省广州市腾讯云 33
+      - 美国俄勒冈州波特兰Amazon数据中心 1
+      - 更新于:03-03 10:30:02 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 魔戒.net 🇭🇰_CowVagina_2
@@ -5270,6 +5225,16 @@ proxy-groups:
       - 69香港∞直连
       - 70香港∞直连
       - 71香港∞直连
+      - github.com/freefq - 香港Microsoft数据中心 1
+      - github.com/freefq - 香港Microsoft数据中心 4
+      - github.com/freefq - 香港特别行政区 5
+      - github.com/freefq - 香港Microsoft数据中心 6
+      - github.com/freefq - 香港Microsoft数据中心 13
+      - github.com/freefq - 香港Microsoft数据中心 16
+      - github.com/freefq - 香港特别行政区 17
+      - github.com/freefq - 香港Microsoft数据中心 18
+      - github.com/freefq - 香港Microsoft数据中心 24
+      - github.com/freefq - 香港Microsoft公司 28
       - 魔戒.net香港5
       - 魔戒.net香港9
       - 魔戒.net 香港
@@ -5645,8 +5610,6 @@ proxy-groups:
       - Ytb:鹏哥分享_US_美国_329
       - Ytb:鹏哥分享_US_美国_331
       - Ytb:鹏哥分享_US_美国_332
-      - US_油管+TG+8度科技
-      - US_油管+TG+8度科技 2
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -5814,8 +5777,25 @@ proxy-groups:
       - Ytb:鹏哥分享_美国_147
       - Ytb:鹏哥分享_美国_149
       - Ytb:鹏哥分享_美国_152
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 2
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/freefq - 美国Microsoft数据中心 7
+      - github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 8
+      - github.com/freefq - 美国Microsoft数据中心 9
+      - github.com/freefq - 美国Microsoft数据中心 10
+      - github.com/freefq - 美国Microsoft数据中心 11
+      - github.com/freefq - 美国Microsoft数据中心 12
+      - github.com/freefq - 美国Microsoft数据中心 14
+      - github.com/freefq - 美国Microsoft数据中心 15
+      - github.com/freefq - 北美地区  19
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 20
+      - github.com/freefq - 美国CloudFlare公司CDN节点 21
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 22
+      - github.com/freefq - 美国Microsoft数据中心 25
+      - github.com/freefq - 美国CloudFlare公司CDN节点 26
+      - github.com/freefq - 美国CloudFlare节点 27
+      - github.com/freefq - 美国CloudFlare节点 29
+      - 美国俄勒冈州波特兰Amazon数据中心 1
       - 魔戒.net美国4
       - 魔戒.net美国6
       - 魔戒.net美国7
