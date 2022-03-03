@@ -1100,14 +1100,8 @@ proxies:
   - {name: 日本digitalvm 01 联通*, server: gkdcu.gkdcn.net, port: 22677, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 136:7V7xBb, obfs-param: .microsoft.com, udp: true}
   - {name: 日本digitalvm 01 联通* 2, server: gkdcu.gkdcn.net, port: 22677, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 136:7V7xBb, obfs-param: .microsoft.com, udp: true}
   - {name: 日本digitalvm 01 移动*, server: gkdcm.gkdcn.net, port: 22677, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 136:7V7xBb, obfs-param: .microsoft.com, udp: true}
-  - {name: "|56.31Mb", server: 38.91.102.86, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️YouTube梦歌♥️_70, server: 167.88.63.79, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 馃嚡馃嚨 JP_104 TG@peekfun, server: jp19.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_184, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _55 |10.72Mb, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管, server: 109.wowogg.cyou, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 馃嚟馃嚢 HK_643 |89.44Mb, server: 109.wowogg.cyou, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管 2, server: 109.wowogg.cyou, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -3167,14 +3161,8 @@ proxy-groups:
       - 日本digitalvm 01 联通*
       - 日本digitalvm 01 联通* 2
       - 日本digitalvm 01 移动*
-      - "|56.31Mb"
-      - ♥️YouTube梦歌♥️_70
-      - 馃嚡馃嚨 JP_104 TG@peekfun
-      - ♥️♥️YouTube梦歌♥️♥️_184
-      - _55 |10.72Mb
-      - 日本阿伟科技@TG/油管
-      - 馃嚟馃嚢 HK_643 |89.44Mb
-      - 日本阿伟科技@TG/油管 2
+      - _CA_加拿大
+      - _CA_加拿大 2
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5223,14 +5211,8 @@ proxy-groups:
       - 日本digitalvm 01 联通*
       - 日本digitalvm 01 联通* 2
       - 日本digitalvm 01 移动*
-      - "|56.31Mb"
-      - ♥️YouTube梦歌♥️_70
-      - 馃嚡馃嚨 JP_104 TG@peekfun
-      - ♥️♥️YouTube梦歌♥️♥️_184
-      - _55 |10.72Mb
-      - 日本阿伟科技@TG/油管
-      - 馃嚟馃嚢 HK_643 |89.44Mb
-      - 日本阿伟科技@TG/油管 2
+      - _CA_加拿大
+      - _CA_加拿大 2
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -6390,7 +6372,6 @@ proxy-groups:
       - _香港_AFTZ-2022_03_03_201
       - _香港_AFTZ-2022_03_03_283
       - _香港_AFTZ-2022_03_03_295
-      - 馃嚟馃嚢 HK_643 |89.44Mb
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -6526,9 +6507,6 @@ proxy-groups:
       - 日本digitalvm 01 联通*
       - 日本digitalvm 01 联通* 2
       - 日本digitalvm 01 移动*
-      - 馃嚡馃嚨 JP_104 TG@peekfun
-      - 日本阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
