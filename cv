@@ -1047,16 +1047,100 @@ proxies:
   - {name: 日本digitalvm 01 联通*, server: gkdcu.gkdcn.net, port: 22677, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 136:7V7xBb, obfs-param: .microsoft.com, udp: true}
   - {name: 日本digitalvm 01 联通* 2, server: gkdcu.gkdcn.net, port: 22677, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 136:7V7xBb, obfs-param: .microsoft.com, udp: true}
   - {name: 日本digitalvm 01 移动*, server: gkdcm.gkdcn.net, port: 22677, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 136:7V7xBb, obfs-param: .microsoft.com, udp: true}
-  - {name: _US_美国, server: 169.197.141.92, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 2, server: 38.91.102.86, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _GB_英国, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国 3, server: 38.91.100.102, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 3, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 4, server: 169.197.142.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大 4, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大 5, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: HK_2 @WangCai_1, server: cn2relay01.yiyorelay.xyz, port: 2701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: HK_5 @WangCai_1, server: cn2relay01.yiyorelay.xyz, port: 2704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: HK_10 @WangCai_1, server: cn2relay01.yiyorelay.xyz, port: 2709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: HK_8 @WangCai_1, server: cn2relay01.yiyorelay.xyz, port: 2707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: HK_4 @WangCai_1, server: cn2relay01.yiyorelay.xyz, port: 2703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: HK_6 @WangCai_1, server: cn2relay01.yiyorelay.xyz, port: 2705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: TW_5 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: HK_1 @WangCai_1, server: cn2relay01.yiyorelay.xyz, port: 2700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: HK_9 @WangCai_1, server: cn2relay01.yiyorelay.xyz, port: 2708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: TW_3 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: HK_8 @WangCai_1 2, server: cn2relay01.yiyorelay.xyz, port: 2707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: HK_4 @WangCai_1 2, server: cn2relay01.yiyorelay.xyz, port: 2703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: HK_3 @WangCai_1, server: cn2relay01.yiyorelay.xyz, port: 2702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: TW_1 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: TW_6 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: TW_4 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: HK_7 @WangCai_1, server: cn2relay01.yiyorelay.xyz, port: 2706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: TW_5 @WangCai_1 2, server: cmrelay01.yiyorelay.xyz, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: JP_6 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 3705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: HK_1 @WangCai_1 2, server: cn2relay01.yiyorelay.xyz, port: 2700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: TW_6 @WangCai_1 2, server: cmrelay01.yiyorelay.xyz, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: HK_9 @WangCai_1 2, server: cn2relay01.yiyorelay.xyz, port: 2708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: HK_10 @WangCai_1 2, server: cn2relay01.yiyorelay.xyz, port: 2709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: TW_4 @WangCai_1 2, server: cmrelay01.yiyorelay.xyz, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: JP_油管 TG 8度科技, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 172.105.222.98}}, udp: true}
+  - {name: JP_5 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: TW_2 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 5701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: HK_3 @WangCai_1 2, server: cn2relay01.yiyorelay.xyz, port: 2702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: HK_6 @WangCai_1 2, server: cn2relay01.yiyorelay.xyz, port: 2705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: HK_5 @WangCai_1 2, server: cn2relay01.yiyorelay.xyz, port: 2704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: TW_2 @WangCai_1 2, server: cmrelay01.yiyorelay.xyz, port: 5701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: JP_8 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 3707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: TW_3 @WangCai_1 2, server: cmrelay01.yiyorelay.xyz, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: HK_2 @WangCai_1 2, server: cn2relay01.yiyorelay.xyz, port: 2701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: JP_10 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 3709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: US_2376 @WangCai_1, server: 169.197.142.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP_1 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: JP_4 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 3703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: US_5004 @WangCai_1, server: 169.197.142.187, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP_8 @WangCai_1 2, server: cmrelay01.yiyorelay.xyz, port: 3707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: JP_1 @WangCai_1 2, server: cmrelay01.yiyorelay.xyz, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: US_8000 @WangCai_1, server: 38.143.66.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: SG_8881 @WangCai_1, server: 172.104.168.83, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP_3 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: SG_8008 @WangCai_1, server: 172.104.168.83, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: SG_8882 @WangCai_1, server: 172.104.168.83, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ‌‌🇨🇦CA_6697 @WangCai_1, server: 134.195.196.12, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: JP_3 @WangCai_1 2, server: cmrelay01.yiyorelay.xyz, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: JP_2 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 3701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: ‌‌🇨🇦CA_9101 @WangCai_1, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: JP_2 @WangCai_1 2, server: cmrelay01.yiyorelay.xyz, port: 3701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: ‌‌🇨🇦CA_9102 @WangCai_1, server: 134.195.196.12, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ‌‌🇨🇦CA_5500 @WangCai_1, server: 134.195.196.12, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ‌‌🇨🇦CA_6679 @WangCai_1, server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: SG_8009 @WangCai_1, server: 172.104.168.83, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ‌‌🇨🇦CA_8118 @WangCai_1, server: 134.195.196.12, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ‌‌🇨🇦CA_8009 @WangCai_1, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ‌‌🇨🇦CA_8888 @WangCai_1, server: 134.195.196.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_7 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 3706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: ‌‌🇨🇦CA_8090 @WangCai_1, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ‌‌🇨🇦CA_8881 @WangCai_1, server: 134.195.196.12, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP_9 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 3708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: ‌‌🇨🇦CA_7001 @WangCai_1, server: 134.195.196.12, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: SG_6679 @WangCai_1, server: 172.104.168.83, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: JP_10 @WangCai_1 2, server: cmrelay01.yiyorelay.xyz, port: 3709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: SG_6697 @WangCai_1, server: 172.104.168.83, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: JP_5 @WangCai_1 2, server: cmrelay01.yiyorelay.xyz, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: SG_6379 @WangCai_1, server: 172.104.168.83, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_5500 @WangCai_1, server: 167.88.63.79, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: SG_8000 @WangCai_1, server: 172.104.168.83, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP_9 @WangCai_1 2, server: cmrelay01.yiyorelay.xyz, port: 3708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: US_8119 @WangCai_1, server: 167.88.63.79, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: KR_2 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 4001, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: ‌‌🇨🇦CA_8000 @WangCai_1, server: 134.195.196.12, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: SG_9102 @WangCai_1, server: 172.104.168.83, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: SG_5001 @WangCai_1, server: 172.104.168.83, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_6379 @WangCai_1, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: HK_7 @WangCai_1 2, server: cn2relay01.yiyorelay.xyz, port: 2706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63343:n2xAEI, obfs-param: microsoft.com, udp: true}
+  - {name: SG_8091 @WangCai_1, server: 172.104.168.83, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: SG_5004 @WangCai_1, server: 172.104.168.83, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ‌‌🇨🇦CA_9101 @WangCai_1 2, server: 134.195.196.12, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CN_油管 TG 8度科技, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG_5600 @WangCai_1, server: 172.104.168.83, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_7002 @WangCai_1, server: 134.195.196.12, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ‌‌🇨🇦CA_3306 @WangCai_1, server: 134.195.196.12, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_5600 @WangCai_1, server: 134.195.196.12, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: SG_5000 @WangCai_1, server: 172.104.168.83, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_5000 @WangCai_1, server: 134.195.196.12, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_7001 @WangCai_1 2, server: 134.195.196.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ‌‌🇨🇦CA_2375 @WangCai_1, server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2173 |109.53Mb, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 138.197.236.77}}, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ‌‌🇨🇦CA_6379 @WangCai_1 2, server: 134.195.196.12, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: SG_7306 @WangCai_1, server: 172.104.168.83, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1861,19 +1945,19 @@ proxies:
   - {name: Ytb:鹏哥分享_加拿大_151, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_美国_152, server: 167.88.63.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: Ytb:鹏哥分享_澳大利亚_153, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 1, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero2.a-yu.xyz}}, udp: true}
-  - {name: github.com/freefq - 香港特别行政区 2, server: 116.wowogg.cyou, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: github.com/freefq - 澳大利亚  4, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
-  - {name: github.com/freefq - 北美地区  5, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: github.com/freefq - 福建省厦门市电信 6, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft公司 7, server: 122.wowogg.cyou, port: 52222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 8, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
+  - {name: github.com/freefq - 美国Microsoft公司 1, server: 122.wowogg.cyou, port: 52222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 福建省厦门市电信 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
+  - {name: github.com/freefq - 北美地区  3, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: github.com/freefq - 香港特别行政区 4, server: 116.wowogg.cyou, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 6, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 7, server: app.ssfree.ru, port: 443, type: vmess, uuid: fbe4d678-9b0a-11ec-af84-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 澳大利亚  8, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
   - {name: github.com/freefq - 北美地区  9, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: github.com/freefq - 香港Microsoft公司 10, server: 88.wowogg.cyou, port: 52288, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 10, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero2.a-yu.xyz}}, udp: true}
   - {name: 请换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 更新于:03-04 00:00:02 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 更新于:03-04 04:00:01 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新 2, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 魔戒.net科技网络1, server: 99.wowogg.cyou, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2981,16 +3065,100 @@ proxy-groups:
       - 日本digitalvm 01 联通*
       - 日本digitalvm 01 联通* 2
       - 日本digitalvm 01 移动*
-      - _US_美国
+      - HK_2 @WangCai_1
+      - HK_5 @WangCai_1
+      - HK_10 @WangCai_1
+      - HK_8 @WangCai_1
+      - HK_4 @WangCai_1
+      - HK_6 @WangCai_1
+      - TW_5 @WangCai_1
+      - HK_1 @WangCai_1
+      - HK_9 @WangCai_1
+      - TW_3 @WangCai_1
+      - HK_8 @WangCai_1 2
+      - HK_4 @WangCai_1 2
+      - HK_3 @WangCai_1
+      - TW_1 @WangCai_1
+      - TW_6 @WangCai_1
+      - TW_4 @WangCai_1
+      - HK_7 @WangCai_1
+      - TW_5 @WangCai_1 2
+      - JP_6 @WangCai_1
+      - HK_1 @WangCai_1 2
+      - TW_6 @WangCai_1 2
+      - HK_9 @WangCai_1 2
+      - HK_10 @WangCai_1 2
+      - TW_4 @WangCai_1 2
+      - JP_油管 TG 8度科技
+      - JP_5 @WangCai_1
+      - TW_2 @WangCai_1
+      - HK_3 @WangCai_1 2
+      - HK_6 @WangCai_1 2
+      - HK_5 @WangCai_1 2
+      - TW_2 @WangCai_1 2
+      - JP_8 @WangCai_1
+      - TW_3 @WangCai_1 2
+      - HK_2 @WangCai_1 2
+      - JP_10 @WangCai_1
+      - US_2376 @WangCai_1
+      - JP_1 @WangCai_1
+      - JP_4 @WangCai_1
+      - US_5004 @WangCai_1
+      - JP_8 @WangCai_1 2
+      - JP_1 @WangCai_1 2
+      - US_8000 @WangCai_1
+      - SG_8881 @WangCai_1
+      - JP_3 @WangCai_1
+      - SG_8008 @WangCai_1
+      - SG_8882 @WangCai_1
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - JP_3 @WangCai_1 2
+      - JP_2 @WangCai_1
+      - ‌‌🇨🇦CA_9101 @WangCai_1
+      - JP_2 @WangCai_1 2
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - SG_8009 @WangCai_1
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - JP_7 @WangCai_1
+      - ‌‌🇨🇦CA_8090 @WangCai_1
+      - ‌‌🇨🇦CA_8881 @WangCai_1
+      - JP_9 @WangCai_1
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - SG_6679 @WangCai_1
+      - JP_10 @WangCai_1 2
+      - SG_6697 @WangCai_1
+      - JP_5 @WangCai_1 2
+      - SG_6379 @WangCai_1
+      - US_5500 @WangCai_1
+      - SG_8000 @WangCai_1
+      - JP_9 @WangCai_1 2
+      - US_8119 @WangCai_1
+      - KR_2 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - SG_9102 @WangCai_1
+      - SG_5001 @WangCai_1
+      - ‌‌🇨🇦CA_6379 @WangCai_1
+      - HK_7 @WangCai_1 2
+      - SG_8091 @WangCai_1
+      - SG_5004 @WangCai_1
+      - ‌‌🇨🇦CA_9101 @WangCai_1 2
+      - CN_油管 TG 8度科技
+      - SG_5600 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ‌‌🇨🇦CA_3306 @WangCai_1
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - SG_5000 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - ‌‌🇨🇦CA_2375 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2173 |109.53Mb
       - _CA_加拿大
-      - _US_美国 2
-      - _CA_加拿大 2
-      - _GB_英国
-      - _US_美国 3
-      - _CA_加拿大 3
-      - _US_美国 4
-      - _CA_加拿大 4
-      - _CA_加拿大 5
+      - ‌‌🇨🇦CA_6379 @WangCai_1 2
+      - SG_7306 @WangCai_1
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3795,19 +3963,19 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_151
       - Ytb:鹏哥分享_美国_152
       - Ytb:鹏哥分享_澳大利亚_153
-      - github.com/freefq - 美国CloudFlare节点 1
-      - github.com/freefq - 香港特别行政区 2
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
-      - github.com/freefq - 澳大利亚  4
-      - github.com/freefq - 北美地区  5
-      - github.com/freefq - 福建省厦门市电信 6
-      - github.com/freefq - 美国Microsoft公司 7
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 8
+      - github.com/freefq - 美国Microsoft公司 1
+      - github.com/freefq - 福建省厦门市电信 2
+      - github.com/freefq - 北美地区  3
+      - github.com/freefq - 香港特别行政区 4
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 6
+      - github.com/freefq - 美国CloudFlare节点 7
+      - github.com/freefq - 澳大利亚  8
       - github.com/freefq - 北美地区  9
-      - github.com/freefq - 香港Microsoft公司 10
+      - github.com/freefq - 美国CloudFlare公司CDN节点 10
       - 请换到v2ray
       - 将于近期停止ssr更新
-      - 更新于:03-04 00:00:02 - by BuLink.xyz
+      - 更新于:03-04 04:00:01 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 魔戒.net科技网络1
@@ -4904,16 +5072,100 @@ proxy-groups:
       - 日本digitalvm 01 联通*
       - 日本digitalvm 01 联通* 2
       - 日本digitalvm 01 移动*
-      - _US_美国
+      - HK_2 @WangCai_1
+      - HK_5 @WangCai_1
+      - HK_10 @WangCai_1
+      - HK_8 @WangCai_1
+      - HK_4 @WangCai_1
+      - HK_6 @WangCai_1
+      - TW_5 @WangCai_1
+      - HK_1 @WangCai_1
+      - HK_9 @WangCai_1
+      - TW_3 @WangCai_1
+      - HK_8 @WangCai_1 2
+      - HK_4 @WangCai_1 2
+      - HK_3 @WangCai_1
+      - TW_1 @WangCai_1
+      - TW_6 @WangCai_1
+      - TW_4 @WangCai_1
+      - HK_7 @WangCai_1
+      - TW_5 @WangCai_1 2
+      - JP_6 @WangCai_1
+      - HK_1 @WangCai_1 2
+      - TW_6 @WangCai_1 2
+      - HK_9 @WangCai_1 2
+      - HK_10 @WangCai_1 2
+      - TW_4 @WangCai_1 2
+      - JP_油管 TG 8度科技
+      - JP_5 @WangCai_1
+      - TW_2 @WangCai_1
+      - HK_3 @WangCai_1 2
+      - HK_6 @WangCai_1 2
+      - HK_5 @WangCai_1 2
+      - TW_2 @WangCai_1 2
+      - JP_8 @WangCai_1
+      - TW_3 @WangCai_1 2
+      - HK_2 @WangCai_1 2
+      - JP_10 @WangCai_1
+      - US_2376 @WangCai_1
+      - JP_1 @WangCai_1
+      - JP_4 @WangCai_1
+      - US_5004 @WangCai_1
+      - JP_8 @WangCai_1 2
+      - JP_1 @WangCai_1 2
+      - US_8000 @WangCai_1
+      - SG_8881 @WangCai_1
+      - JP_3 @WangCai_1
+      - SG_8008 @WangCai_1
+      - SG_8882 @WangCai_1
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - JP_3 @WangCai_1 2
+      - JP_2 @WangCai_1
+      - ‌‌🇨🇦CA_9101 @WangCai_1
+      - JP_2 @WangCai_1 2
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - SG_8009 @WangCai_1
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - JP_7 @WangCai_1
+      - ‌‌🇨🇦CA_8090 @WangCai_1
+      - ‌‌🇨🇦CA_8881 @WangCai_1
+      - JP_9 @WangCai_1
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - SG_6679 @WangCai_1
+      - JP_10 @WangCai_1 2
+      - SG_6697 @WangCai_1
+      - JP_5 @WangCai_1 2
+      - SG_6379 @WangCai_1
+      - US_5500 @WangCai_1
+      - SG_8000 @WangCai_1
+      - JP_9 @WangCai_1 2
+      - US_8119 @WangCai_1
+      - KR_2 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - SG_9102 @WangCai_1
+      - SG_5001 @WangCai_1
+      - ‌‌🇨🇦CA_6379 @WangCai_1
+      - HK_7 @WangCai_1 2
+      - SG_8091 @WangCai_1
+      - SG_5004 @WangCai_1
+      - ‌‌🇨🇦CA_9101 @WangCai_1 2
+      - CN_油管 TG 8度科技
+      - SG_5600 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ‌‌🇨🇦CA_3306 @WangCai_1
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - SG_5000 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - ‌‌🇨🇦CA_2375 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2173 |109.53Mb
       - _CA_加拿大
-      - _US_美国 2
-      - _CA_加拿大 2
-      - _GB_英国
-      - _US_美国 3
-      - _CA_加拿大 3
-      - _US_美国 4
-      - _CA_加拿大 4
-      - _CA_加拿大 5
+      - ‌‌🇨🇦CA_6379 @WangCai_1 2
+      - SG_7306 @WangCai_1
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5718,19 +5970,19 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_151
       - Ytb:鹏哥分享_美国_152
       - Ytb:鹏哥分享_澳大利亚_153
-      - github.com/freefq - 美国CloudFlare节点 1
-      - github.com/freefq - 香港特别行政区 2
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
-      - github.com/freefq - 澳大利亚  4
-      - github.com/freefq - 北美地区  5
-      - github.com/freefq - 福建省厦门市电信 6
-      - github.com/freefq - 美国Microsoft公司 7
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 8
+      - github.com/freefq - 美国Microsoft公司 1
+      - github.com/freefq - 福建省厦门市电信 2
+      - github.com/freefq - 北美地区  3
+      - github.com/freefq - 香港特别行政区 4
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 6
+      - github.com/freefq - 美国CloudFlare节点 7
+      - github.com/freefq - 澳大利亚  8
       - github.com/freefq - 北美地区  9
-      - github.com/freefq - 香港Microsoft公司 10
+      - github.com/freefq - 美国CloudFlare公司CDN节点 10
       - 请换到v2ray
       - 将于近期停止ssr更新
-      - 更新于:03-04 00:00:02 - by BuLink.xyz
+      - 更新于:03-04 04:00:01 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 魔戒.net科技网络1
@@ -5991,6 +6243,26 @@ proxy-groups:
       - _香港_AFTZ-2022_03_03_201
       - _香港_AFTZ-2022_03_03_283
       - _香港_AFTZ-2022_03_03_295
+      - HK_2 @WangCai_1
+      - HK_5 @WangCai_1
+      - HK_10 @WangCai_1
+      - HK_8 @WangCai_1
+      - HK_4 @WangCai_1
+      - HK_6 @WangCai_1
+      - HK_1 @WangCai_1
+      - HK_9 @WangCai_1
+      - HK_8 @WangCai_1 2
+      - HK_4 @WangCai_1 2
+      - HK_3 @WangCai_1
+      - HK_7 @WangCai_1
+      - HK_1 @WangCai_1 2
+      - HK_9 @WangCai_1 2
+      - HK_10 @WangCai_1 2
+      - HK_3 @WangCai_1 2
+      - HK_6 @WangCai_1 2
+      - HK_5 @WangCai_1 2
+      - HK_2 @WangCai_1 2
+      - HK_7 @WangCai_1 2
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -6028,8 +6300,7 @@ proxy-groups:
       - 69香港∞直连
       - 70香港∞直连
       - 71香港∞直连
-      - github.com/freefq - 香港特别行政区 2
-      - github.com/freefq - 香港Microsoft公司 10
+      - github.com/freefq - 香港特别行政区 4
       - 魔戒.net 🇭🇰 香港-日本千兆-04号
       - 魔戒.net香港1026c
       - 魔戒.net香港1029a
@@ -6078,6 +6349,24 @@ proxy-groups:
       - 日本digitalvm 01 联通*
       - 日本digitalvm 01 联通* 2
       - 日本digitalvm 01 移动*
+      - JP_6 @WangCai_1
+      - JP_油管 TG 8度科技
+      - JP_5 @WangCai_1
+      - JP_8 @WangCai_1
+      - JP_10 @WangCai_1
+      - JP_1 @WangCai_1
+      - JP_4 @WangCai_1
+      - JP_8 @WangCai_1 2
+      - JP_1 @WangCai_1 2
+      - JP_3 @WangCai_1
+      - JP_3 @WangCai_1 2
+      - JP_2 @WangCai_1
+      - JP_2 @WangCai_1 2
+      - JP_7 @WangCai_1
+      - JP_9 @WangCai_1
+      - JP_10 @WangCai_1 2
+      - JP_5 @WangCai_1 2
+      - JP_9 @WangCai_1 2
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -6494,10 +6783,12 @@ proxy-groups:
       - Ytb:鹏哥分享_US_美国_329
       - Ytb:鹏哥分享_US_美国_331
       - Ytb:鹏哥分享_US_美国_332
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
+      - US_2376 @WangCai_1
+      - US_5004 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_8119 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2173 |109.53Mb
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -6789,12 +7080,13 @@ proxy-groups:
       - Ytb:鹏哥分享_美国_147
       - Ytb:鹏哥分享_美国_149
       - Ytb:鹏哥分享_美国_152
-      - github.com/freefq - 美国CloudFlare节点 1
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
-      - github.com/freefq - 北美地区  5
-      - github.com/freefq - 美国Microsoft公司 7
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 8
+      - github.com/freefq - 美国Microsoft公司 1
+      - github.com/freefq - 北美地区  3
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 6
+      - github.com/freefq - 美国CloudFlare节点 7
       - github.com/freefq - 北美地区  9
+      - github.com/freefq - 美国CloudFlare公司CDN节点 10
       - 魔戒.net Ytb:鹏哥分享_美国_14
       - 魔戒.net Ytb:鹏哥分享_美国_70
       - 魔戒.net Ytb:鹏哥分享_美国_79
@@ -6829,6 +7121,17 @@ proxy-groups:
       - _台湾_AFTZ-2022_03_03_91
       - Ytb:鹏哥分享_TW_台湾_272
       - Ytb:鹏哥分享_TW_台湾_284
+      - TW_5 @WangCai_1
+      - TW_3 @WangCai_1
+      - TW_1 @WangCai_1
+      - TW_6 @WangCai_1
+      - TW_4 @WangCai_1
+      - TW_5 @WangCai_1 2
+      - TW_6 @WangCai_1 2
+      - TW_4 @WangCai_1 2
+      - TW_2 @WangCai_1
+      - TW_2 @WangCai_1 2
+      - TW_3 @WangCai_1 2
       - 台湾（YouTube资源分享者） 9
       - 台湾（YouTube资源分享者） 10
       - 台湾（YouTube资源分享者） 11
@@ -6866,6 +7169,21 @@ proxy-groups:
       - _新加坡_AFTZ-2022_03_03_118
       - _新加坡_AFTZ-2022_03_03_121
       - _新加坡_AFTZ-2022_03_03_129
+      - SG_8881 @WangCai_1
+      - SG_8008 @WangCai_1
+      - SG_8882 @WangCai_1
+      - SG_8009 @WangCai_1
+      - SG_6679 @WangCai_1
+      - SG_6697 @WangCai_1
+      - SG_6379 @WangCai_1
+      - SG_8000 @WangCai_1
+      - SG_9102 @WangCai_1
+      - SG_5001 @WangCai_1
+      - SG_8091 @WangCai_1
+      - SG_5004 @WangCai_1
+      - SG_5600 @WangCai_1
+      - SG_5000 @WangCai_1
+      - SG_7306 @WangCai_1
       - 新加坡（YouTube资源分享者） 2
       - _新加坡_AFTZ-2022.03.03_36
       - _新加坡_AFTZ-2022.03.03_80
@@ -6896,6 +7214,7 @@ proxy-groups:
       - _韩国_AFTZ-2022_03_03_397
       - _韩国_AFTZ-2022_03_03_398
       - _韩国_AFTZ-2022_03_03_399
+      - KR_2 @WangCai_1
       - _韩国_AFTZ-2022.03.03_41
       - _韩国_AFTZ-2022.03.03_99
       - _韩国_AFTZ-2022.03.03_120
