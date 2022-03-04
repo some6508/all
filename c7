@@ -5,35 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本digitalvm 01 联通*, server: gkdcu.gkdcn.net, port: 22677, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 136:7V7xBb, obfs-param: .microsoft.com, udp: true}
-  - {name: 日本digitalvm 01 联通* 2, server: gkdcu.gkdcn.net, port: 22677, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 136:7V7xBb, obfs-param: .microsoft.com, udp: true}
-  - {name: 日本digitalvm 01 移动*, server: gkdcm.gkdcn.net, port: 22677, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 136:7V7xBb, obfs-param: .microsoft.com, udp: true}
+  - {name: sunny08韩国Kr, server: yii37.vipvip11.top, port: 20779, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb, udp: true}
+  - {name: sunny09日本Jp, server: yii32.vipvip11.top, port: 20179, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb, udp: true}
+  - {name: sunny10俄罗斯r, server: yii33.vipvip11.top, port: 34115, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb, udp: true}
+  - {name: sunny11香港hk, server: yii40.vipvip11.top, port: 30012, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb, udp: true}
+  - {name: sunny12新加坡sgc, server: yii2.vipvip11.top, port: 20800, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb, udp: true}
+  - {name: sunny13香港hkc, server: yii21.vipvip11.top, port: 20279, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb, udp: true}
+  - {name: sunny16新加坡sg, server: yii27.vipvip11.top, port: 30113, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb, udp: true}
+  - {name: sunny19美国usc, server: yii39.vipvip11.top, port: 22779, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb, udp: true}
+  - {name: sunny20美国us, server: yii8.vipvip11.top, port: 22788, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb, udp: true}
+  - {name: sunny21美国usc, server: yii1.vipvip11.top, port: 21779, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb, udp: true}
+  - {name: 日本1号, server: jpa3.wujie8.xyz, port: 4431, type: trojan, password: bLYUuMKgn1aHGKID, sni: jpa3.wujie8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国7号, server: usa7.wujie8.xyz, port: 443, type: trojan, password: bLYUuMKgn1aHGKID, sni: usa7.wujie8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国8号, server: usa8.wujie8.xyz, port: 443, type: trojan, password: bLYUuMKgn1aHGKID, sni: usa8.wujie8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国10号, server: usa10.wujie8.xyz, port: 443, type: trojan, password: bLYUuMKgn1aHGKID, sni: usa10.wujie8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国11号, server: usa11.wujie8.xyz, port: 4431, type: trojan, password: bLYUuMKgn1aHGKID, sni: usa11.wujie8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本2号, server: jpa2.wujie8.xyz, port: 443, type: trojan, password: zJ0zxQSuVuvk3vzN, sni: jpa2.wujie8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本2号 2, server: jpa2.wujie8.xyz, port: 443, type: trojan, password: QafpFKuyAp20jHmh, sni: jpa2.wujie8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本1号 2, server: jpa3.wujie8.xyz, port: 4431, type: trojan, password: QafpFKuyAp20jHmh, sni: jpa3.wujie8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本2号 4, server: jpa2.wujie8.xyz, port: 443, type: trojan, password: bLYUuMKgn1aHGKID, sni: jpa2.wujie8.xyz, skip-cert-verify: true, udp: true}
+  - {name: Netherlands, server: 213.183.51.171, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
+  - {name: USA, server: 62.216.91.229, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: Singapore, server: 103.172.116.5, port: 9099, type: ss, cipher: aes-256-cfb, password: 7heRqkPG3hg4UnRm, udp: true}
+  - {name: Singapore 2, server: 103.172.116.9, port: 9099, type: ss, cipher: aes-256-cfb, password: 7heRqkPG3hg4UnRm, udp: true}
+  - {name: Singapore 3, server: 103.172.116.6, port: 9099, type: ss, cipher: aes-256-cfb, password: 7heRqkPG3hg4UnRm, udp: true}
+  - {name: Singapore 4, server: 103.172.116.7, port: 9099, type: ss, cipher: aes-256-cfb, password: 7heRqkPG3hg4UnRm, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本digitalvm 01 联通*
-      - 日本digitalvm 01 联通* 2
-      - 日本digitalvm 01 移动*
+      - sunny08韩国Kr
+      - sunny09日本Jp
+      - sunny10俄罗斯r
+      - sunny11香港hk
+      - sunny12新加坡sgc
+      - sunny13香港hkc
+      - sunny16新加坡sg
+      - sunny19美国usc
+      - sunny20美国us
+      - sunny21美国usc
+      - 日本1号
+      - 美国7号
+      - 美国8号
+      - 美国10号
+      - 美国11号
+      - 日本2号
+      - 日本2号 2
+      - 日本1号 2
+      - 日本2号 4
+      - Netherlands
+      - USA
+      - Singapore
+      - Singapore 2
+      - Singapore 3
+      - Singapore 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本digitalvm 01 联通*
-      - 日本digitalvm 01 联通* 2
-      - 日本digitalvm 01 移动*
+      - sunny08韩国Kr
+      - sunny09日本Jp
+      - sunny10俄罗斯r
+      - sunny11香港hk
+      - sunny12新加坡sgc
+      - sunny13香港hkc
+      - sunny16新加坡sg
+      - sunny19美国usc
+      - sunny20美国us
+      - sunny21美国usc
+      - 日本1号
+      - 美国7号
+      - 美国8号
+      - 美国10号
+      - 美国11号
+      - 日本2号
+      - 日本2号 2
+      - 日本1号 2
+      - 日本2号 4
+      - Netherlands
+      - USA
+      - Singapore
+      - Singapore 2
+      - Singapore 3
+      - Singapore 4
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本digitalvm 01 联通*
-      - 日本digitalvm 01 联通* 2
-      - 日本digitalvm 01 移动*
+      - sunny08韩国Kr
+      - sunny09日本Jp
+      - sunny10俄罗斯r
+      - sunny11香港hk
+      - sunny12新加坡sgc
+      - sunny13香港hkc
+      - sunny16新加坡sg
+      - sunny19美国usc
+      - sunny20美国us
+      - sunny21美国usc
+      - 日本1号
+      - 美国7号
+      - 美国8号
+      - 美国10号
+      - 美国11号
+      - 日本2号
+      - 日本2号 2
+      - 日本1号 2
+      - 日本2号 4
+      - Netherlands
+      - USA
+      - Singapore
+      - Singapore 2
+      - Singapore 3
+      - Singapore 4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -52,39 +140,129 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本digitalvm 01 联通*
-      - 日本digitalvm 01 联通* 2
-      - 日本digitalvm 01 移动*
+      - sunny08韩国Kr
+      - sunny09日本Jp
+      - sunny10俄罗斯r
+      - sunny11香港hk
+      - sunny12新加坡sgc
+      - sunny13香港hkc
+      - sunny16新加坡sg
+      - sunny19美国usc
+      - sunny20美国us
+      - sunny21美国usc
+      - 日本1号
+      - 美国7号
+      - 美国8号
+      - 美国10号
+      - 美国11号
+      - 日本2号
+      - 日本2号 2
+      - 日本1号 2
+      - 日本2号 4
+      - Netherlands
+      - USA
+      - Singapore
+      - Singapore 2
+      - Singapore 3
+      - Singapore 4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - sunny11香港hk
+      - sunny13香港hkc
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本digitalvm 01 联通*
-      - 日本digitalvm 01 联通* 2
-      - 日本digitalvm 01 移动*
+      - sunny08韩国Kr
+      - sunny09日本Jp
+      - sunny10俄罗斯r
+      - sunny11香港hk
+      - sunny12新加坡sgc
+      - sunny13香港hkc
+      - sunny16新加坡sg
+      - sunny19美国usc
+      - sunny20美国us
+      - sunny21美国usc
+      - 日本1号
+      - 美国7号
+      - 美国8号
+      - 美国10号
+      - 美国11号
+      - 日本2号
+      - 日本2号 2
+      - 日本1号 2
+      - 日本2号 4
+      - Netherlands
+      - USA
+      - Singapore
+      - Singapore 2
+      - Singapore 3
+      - Singapore 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本digitalvm 01 联通*
-      - 日本digitalvm 01 联通* 2
-      - 日本digitalvm 01 移动*
+      - sunny08韩国Kr
+      - sunny09日本Jp
+      - sunny10俄罗斯r
+      - sunny11香港hk
+      - sunny12新加坡sgc
+      - sunny13香港hkc
+      - sunny16新加坡sg
+      - sunny19美国usc
+      - sunny20美国us
+      - sunny21美国usc
+      - 日本1号
+      - 美国7号
+      - 美国8号
+      - 美国10号
+      - 美国11号
+      - 日本2号
+      - 日本2号 2
+      - 日本1号 2
+      - 日本2号 4
+      - Netherlands
+      - USA
+      - Singapore
+      - Singapore 2
+      - Singapore 3
+      - Singapore 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本digitalvm 01 联通*
-      - 日本digitalvm 01 联通* 2
-      - 日本digitalvm 01 移动*
+      - sunny08韩国Kr
+      - sunny09日本Jp
+      - sunny10俄罗斯r
+      - sunny11香港hk
+      - sunny12新加坡sgc
+      - sunny13香港hkc
+      - sunny16新加坡sg
+      - sunny19美国usc
+      - sunny20美国us
+      - sunny21美国usc
+      - 日本1号
+      - 美国7号
+      - 美国8号
+      - 美国10号
+      - 美国11号
+      - 日本2号
+      - 日本2号 2
+      - 日本1号 2
+      - 日本2号 4
+      - Netherlands
+      - USA
+      - Singapore
+      - Singapore 2
+      - Singapore 3
+      - Singapore 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,9 +278,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本digitalvm 01 联通*
-      - 日本digitalvm 01 联通* 2
-      - 日本digitalvm 01 移动*
+      - sunny08韩国Kr
+      - sunny09日本Jp
+      - sunny10俄罗斯r
+      - sunny11香港hk
+      - sunny12新加坡sgc
+      - sunny13香港hkc
+      - sunny16新加坡sg
+      - sunny19美国usc
+      - sunny20美国us
+      - sunny21美国usc
+      - 日本1号
+      - 美国7号
+      - 美国8号
+      - 美国10号
+      - 美国11号
+      - 日本2号
+      - 日本2号 2
+      - 日本1号 2
+      - 日本2号 4
+      - Netherlands
+      - USA
+      - Singapore
+      - Singapore 2
+      - Singapore 3
+      - Singapore 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

@@ -1676,34 +1676,20 @@ proxies:
   - {name: Ytb:鹏哥分享_加拿大_151, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_美国_152, server: 167.88.63.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: Ytb:鹏哥分享_澳大利亚_153, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 1, server: 82.wowogg.cyou, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港Microsoft公司 2, server: 96.wowogg.cyou, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港Microsoft数据中心 3, server: 103.wowogg.cyou, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 4, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港Microsoft数据中心 5, server: 105.wowogg.cyou, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港Microsoft数据中心 6, server: 91.wowogg.cyou, port: 52291, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港Microsoft数据中心 7, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港特别行政区 8, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港Microsoft公司 9, server: 87.wowogg.cyou, port: 52287, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港Microsoft公司 10, server: 131.wowogg.cyou, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 11, server: 90.wowogg.cyou, port: 52290, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 北美地区  12, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: github.com/freefq - 乌克兰  13, server: 193.108.117.75, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 香港Microsoft数据中心 14, server: 124.wowogg.cyou, port: 52224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港Microsoft公司 15, server: 98.wowogg.cyou, port: 52298, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 17, server: app.ssfree.ru, port: 443, type: vmess, uuid: 9135bdb4-9b6f-11ec-a503-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 18, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 19, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: ipv6.xrenblog.com}}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 20, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 澳大利亚  22, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
-  - {name: github.com/freefq - 福建省厦门市电信 23, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: github.com/freefq - 北美地区  24, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: github.com/freefq - 香港特别行政区 25, server: 100.wowogg.cyou, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港Microsoft数据中心 1, server: 103.wowogg.cyou, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港Microsoft数据中心 2, server: 124.wowogg.cyou, port: 52224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: github.com/freefq - 香港Microsoft数据中心 6, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 北美地区  7, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: github.com/freefq - 澳大利亚  8, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
+  - {name: github.com/freefq - 香港特别行政区 9, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 北美地区  10, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 11, server: app.ssfree.ru, port: 443, type: vmess, uuid: 9135bdb4-9b6f-11ec-a503-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
   - {name: 请换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 更新于:03-04 20:00:01 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 更新于:03-05 00:00:01 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新 2, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 魔戒.net-70, server: 52.175.56.93, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -3517,34 +3503,20 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_151
       - Ytb:鹏哥分享_美国_152
       - Ytb:鹏哥分享_澳大利亚_153
-      - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 香港Microsoft公司 2
-      - github.com/freefq - 香港Microsoft数据中心 3
-      - github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 4
-      - github.com/freefq - 香港Microsoft数据中心 5
+      - github.com/freefq - 香港Microsoft数据中心 1
+      - github.com/freefq - 香港Microsoft数据中心 2
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5
       - github.com/freefq - 香港Microsoft数据中心 6
-      - github.com/freefq - 香港Microsoft数据中心 7
-      - github.com/freefq - 香港特别行政区 8
-      - github.com/freefq - 香港Microsoft公司 9
-      - github.com/freefq - 香港Microsoft公司 10
-      - github.com/freefq - 美国Microsoft数据中心 11
-      - github.com/freefq - 北美地区  12
-      - github.com/freefq - 乌克兰  13
-      - github.com/freefq - 香港Microsoft数据中心 14
-      - github.com/freefq - 香港Microsoft公司 15
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16
-      - github.com/freefq - 美国CloudFlare节点 17
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 18
-      - github.com/freefq - 美国CloudFlare公司CDN节点 19
-      - github.com/freefq - 美国Microsoft数据中心 20
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21
-      - github.com/freefq - 澳大利亚  22
-      - github.com/freefq - 福建省厦门市电信 23
-      - github.com/freefq - 北美地区  24
-      - github.com/freefq - 香港特别行政区 25
+      - github.com/freefq - 北美地区  7
+      - github.com/freefq - 澳大利亚  8
+      - github.com/freefq - 香港特别行政区 9
+      - github.com/freefq - 北美地区  10
+      - github.com/freefq - 美国CloudFlare节点 11
       - 请换到v2ray
       - 将于近期停止ssr更新
-      - 更新于:03-04 20:00:01 - by BuLink.xyz
+      - 更新于:03-05 00:00:01 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 魔戒.net-70
@@ -5347,34 +5319,20 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_151
       - Ytb:鹏哥分享_美国_152
       - Ytb:鹏哥分享_澳大利亚_153
-      - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 香港Microsoft公司 2
-      - github.com/freefq - 香港Microsoft数据中心 3
-      - github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 4
-      - github.com/freefq - 香港Microsoft数据中心 5
+      - github.com/freefq - 香港Microsoft数据中心 1
+      - github.com/freefq - 香港Microsoft数据中心 2
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5
       - github.com/freefq - 香港Microsoft数据中心 6
-      - github.com/freefq - 香港Microsoft数据中心 7
-      - github.com/freefq - 香港特别行政区 8
-      - github.com/freefq - 香港Microsoft公司 9
-      - github.com/freefq - 香港Microsoft公司 10
-      - github.com/freefq - 美国Microsoft数据中心 11
-      - github.com/freefq - 北美地区  12
-      - github.com/freefq - 乌克兰  13
-      - github.com/freefq - 香港Microsoft数据中心 14
-      - github.com/freefq - 香港Microsoft公司 15
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16
-      - github.com/freefq - 美国CloudFlare节点 17
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 18
-      - github.com/freefq - 美国CloudFlare公司CDN节点 19
-      - github.com/freefq - 美国Microsoft数据中心 20
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21
-      - github.com/freefq - 澳大利亚  22
-      - github.com/freefq - 福建省厦门市电信 23
-      - github.com/freefq - 北美地区  24
-      - github.com/freefq - 香港特别行政区 25
+      - github.com/freefq - 北美地区  7
+      - github.com/freefq - 澳大利亚  8
+      - github.com/freefq - 香港特别行政区 9
+      - github.com/freefq - 北美地区  10
+      - github.com/freefq - 美国CloudFlare节点 11
       - 请换到v2ray
       - 将于近期停止ssr更新
-      - 更新于:03-04 20:00:01 - by BuLink.xyz
+      - 更新于:03-05 00:00:01 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 魔戒.net-70
@@ -5754,17 +5712,10 @@ proxy-groups:
       - 78香港∞中转
       - 79香港∞直连
       - 80香港∞直连
-      - github.com/freefq - 香港Microsoft公司 2
-      - github.com/freefq - 香港Microsoft数据中心 3
-      - github.com/freefq - 香港Microsoft数据中心 5
+      - github.com/freefq - 香港Microsoft数据中心 1
+      - github.com/freefq - 香港Microsoft数据中心 2
       - github.com/freefq - 香港Microsoft数据中心 6
-      - github.com/freefq - 香港Microsoft数据中心 7
-      - github.com/freefq - 香港特别行政区 8
-      - github.com/freefq - 香港Microsoft公司 9
-      - github.com/freefq - 香港Microsoft公司 10
-      - github.com/freefq - 香港Microsoft数据中心 14
-      - github.com/freefq - 香港Microsoft公司 15
-      - github.com/freefq - 香港特别行政区 25
+      - github.com/freefq - 香港特别行政区 9
       - 魔戒.net HK1
       - 魔戒.net香港 A
       - 魔戒.net香港 B
@@ -6392,17 +6343,12 @@ proxy-groups:
       - Ytb:鹏哥分享_美国_147
       - Ytb:鹏哥分享_美国_149
       - Ytb:鹏哥分享_美国_152
-      - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 4
-      - github.com/freefq - 美国Microsoft数据中心 11
-      - github.com/freefq - 北美地区  12
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 16
-      - github.com/freefq - 美国CloudFlare节点 17
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 18
-      - github.com/freefq - 美国CloudFlare公司CDN节点 19
-      - github.com/freefq - 美国Microsoft数据中心 20
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 21
-      - github.com/freefq - 北美地区  24
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5
+      - github.com/freefq - 北美地区  7
+      - github.com/freefq - 北美地区  10
+      - github.com/freefq - 美国CloudFlare节点 11
       - 魔戒.net 🇯🇵 美国-日本千兆-02号
       - 魔戒.net 🇯🇵 美国-日本千兆-01号
       - 魔戒.net 🇯🇵 美国-日本千兆-04号
