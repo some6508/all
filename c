@@ -5,739 +5,739 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US美国_1","server":"38.91.102.86","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇬🇧_GB英国_2","server":"172.99.190.92","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇬🇧_GB英国_3","server":"172.99.190.92","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA加拿大_4","server":"134.195.196.68","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA加拿大_5","server":"134.195.196.68","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA加拿大_6","server":"134.195.196.68","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇨🇦_CA加拿大_7","server":"134.195.196.68","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_8","server":"134.195.196.187","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA加拿大_9","server":"134.195.196.68","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA加拿大_10","server":"134.195.196.3","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇨🇦_CA加拿大_11","server":"134.195.196.68","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_US美国_12","server":"167.88.63.79","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇬🇧_GB英国_13","server":"172.99.190.92","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA加拿大_14","server":"134.195.196.187","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US美国_15","server":"169.197.142.187","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸_US美国_16","server":"169.197.142.187","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦_CA加拿大_17","server":"134.195.196.68","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA加拿大_18","server":"134.195.196.187","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA加拿大_19","server":"134.195.196.3","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US美国_20","server":"38.143.66.71","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇮🇳_IN印度_21","server":"192.46.209.227","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_22","server":"134.195.196.227","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷_FR法国_23","server":"51.255.66.185","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA加拿大_24","server":"198.57.27.218","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇩🇪_DE德国_25","server":"193.108.117.75","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇩🇪_DE德国_26","server":"193.108.117.75","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US美国_27","server":"38.91.102.86","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA加拿大_28","server":"134.195.196.3","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA加拿大_29","server":"134.195.196.3","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA加拿大_30","server":"134.195.196.187","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA加拿大_31","server":"134.195.196.187","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US美国_32","server":"169.197.142.187","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦_CA加拿大_33","server":"134.195.196.187","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦_CA加拿大_34","server":"134.195.196.187","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA加拿大_35","server":"134.195.196.68","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_36","server":"134.195.196.187","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_US美国_37","server":"169.197.142.187","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_38","server":"198.57.27.218","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇨🇦_CA加拿大_39","server":"198.57.27.218","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA加拿大_40","server":"198.57.27.218","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇯🇵_JP日本_41","server":"85.208.108.90","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US美国_42","server":"38.91.102.86","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US美国_43","server":"38.143.66.71","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US美国_44","server":"38.143.66.71","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US美国_45","server":"38.143.66.71","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA加拿大_46","server":"134.195.196.12","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA加拿大_47","server":"134.195.196.12","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_48","server":"134.195.196.12","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA加拿大_49","server":"134.195.196.12","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA加拿大_50","server":"134.195.196.12","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_51","server":"134.195.196.12","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇨🇦_CA加拿大_52","server":"134.195.196.227","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA加拿大_53","server":"134.195.196.187","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA加拿大_54","server":"134.195.196.187","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA加拿大_55","server":"134.195.196.12","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA加拿大_56","server":"134.195.196.227","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA加拿大_57","server":"134.195.196.12","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_58","server":"134.195.196.12","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦_CA加拿大_59","server":"134.195.196.12","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA加拿大_60","server":"134.195.196.227","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA加拿大_61","server":"134.195.196.12","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA加拿大_62","server":"134.195.196.12","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA加拿大_63","server":"134.195.196.227","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA加拿大_64","server":"134.195.196.12","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA加拿大_65","server":"134.195.196.12","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦_CA加拿大_66","server":"134.195.196.68","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB英国_67","server":"172.99.190.92","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA加拿大_68","server":"134.195.196.12","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA加拿大_69","server":"134.195.196.68","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA加拿大_70","server":"134.195.196.12","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_71","server":"134.195.196.187","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_72","server":"198.57.27.218","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA加拿大_73","server":"198.57.27.218","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA加拿大_74","server":"198.57.27.218","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA加拿大_75","server":"198.57.27.218","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸_US美国_76","server":"38.91.100.102","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA加拿大_77","server":"198.57.27.172","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA加拿大_78","server":"134.195.196.68","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US美国_79","server":"169.197.142.187","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US美国_80","server":"169.197.142.187","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸_US美国_81","server":"169.197.142.187","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA加拿大_82","server":"134.195.196.12","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA加拿大_83","server":"134.195.196.12","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA加拿大_84","server":"134.195.196.3","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇬🇧_GB英国_85","server":"145.239.7.164","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦_CA加拿大_86","server":"134.195.196.12","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA加拿大_87","server":"134.195.196.12","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA加拿大_88","server":"134.195.196.12","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA加拿大_89","server":"134.195.196.187","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA加拿大_90","server":"134.195.196.12","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA加拿大_91","server":"134.195.196.187","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_92","server":"134.195.196.227","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US美国_93","server":"169.197.142.187","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇫🇷_FR法国_94","server":"51.255.66.185","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇫🇷_FR法国_95","server":"51.255.66.185","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US美国_96","server":"167.88.61.175","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_97","server":"198.57.27.172","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_98","server":"198.57.27.172","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA加拿大_99","server":"198.57.27.172","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇬🇧_GB英国_100","server":"145.239.7.164","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"新加坡阿伟科技atTG/油管_1","server":"167.71.197.50","port":44194,"type":"vmess","uuid":"5cc6c2cf-af81-4341-f8f7-af8a83804d46","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"167.71.197.50"}}}
+  - {"name":"新加坡阿伟科技atTG/油管_2","server":"sg4.bpyun.live","port":443,"type":"vmess","uuid":"38485f54-6ad7-3e73-945c-188031547ca3","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/cocksucker"}}
+  - {"name":"新加坡阿伟科技atTG/油管_3","server":"sg27.holiganfan.com","port":10088,"type":"trojan","password":"34963c3a-9a60-496d-b27e-41e1cd6b9b9d"}
+  - {"name":"香港阿伟科技atTG/油管_4","server":"china-f4s-az-hk.898868.xyz","port":62315,"type":"vmess","uuid":"3b07447e-94cf-4d72-96c6-d0a539098049","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"香港阿伟科技atTG/油管_5","server":"183.232.56.81","port":16627,"type":"vmess","uuid":"5fba0013-29be-3008-911b-f127aac4f676","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray"}}
+  - {"name":"香港阿伟科技atTG/油管_6","server":"52.175.74.188","port":16409,"type":"vmess","uuid":"fe30afa1-4f35-431b-bc18-21a1606ff3bf","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"香港阿伟科技atTG/油管_7","server":"stg88.stgchannelxyzroute.xyz","port":443,"type":"vmess","uuid":"329107b6-739f-4d72-9295-cfc533197a39","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"stg88.stgchannelxyzroute.xyz"}}}
+  - {"name":"香港阿伟科技atTG/油管_8","server":"china-f4s-az-hk.898868.xyz","port":51645,"type":"vmess","uuid":"3b07447e-94cf-4d72-96c6-d0a539098049","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"香港阿伟科技atTG/油管_9","server":"00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz","port":6599,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"21eda7ab-7263-4214-a056-59cb153ad0e0"}
+  - {"name":"香港阿伟科技atTG/油管_10","server":"00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz","port":6386,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"21eda7ab-7263-4214-a056-59cb153ad0e0"}
+  - {"name":"香港阿伟科技atTG/油管_11","server":"00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz","port":6592,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"21eda7ab-7263-4214-a056-59cb153ad0e0"}
+  - {"name":"香港阿伟科技atTG/油管_12","server":"00178641680d4f73a85ff60e4cd27629.jkcloud.xyz","port":6386,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"21eda7ab-7263-4214-a056-59cb153ad0e0"}
+  - {"name":"香港阿伟科技atTG/油管_13","server":"02b8176c05bf44698ab04428526a213e.jkcloud.xyz","port":6658,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"21eda7ab-7263-4214-a056-59cb153ad0e0"}
+  - {"name":"香港阿伟科技atTG/油管_14","server":"02b8176c05bf44698ab04428526a213e.jkcloud.xyz","port":6386,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"21eda7ab-7263-4214-a056-59cb153ad0e0"}
+  - {"name":"香港阿伟科技atTG/油管_15","server":"azhk01.cafeisgood.ml","port":10001,"type":"ss","cipher":"aes-256-gcm","password":"98d55f8f-cfac-45b0-8b4a-ea9047606293"}
+  - {"name":"日本阿伟科技atTG/油管_16","server":"146.56.110.246","port":45177,"type":"vmess","uuid":"c2f1ae57-7ada-4bac-f510-a8336c8708dd","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/neuromancer","headers":{"host":"146.56.110.246"}}}
+  - {"name":"日本阿伟科技atTG/油管_17","server":"85.208.108.90","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"日本阿伟科技atTG/油管_18","server":"13.208.183.247","port":23123,"type":"ss","cipher":"aes-256-gcm","password":"64486b07-808d-4826-a36e-1be8dcaa5256"}
+  - {"name":"日本阿伟科技atTG/油管_19","server":"jp5.bpyun.live","port":443,"type":"vmess","uuid":"b653838d-e6c6-3d4f-9d44-cc6588adf203","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/cocksucker"}}
+  - {"name":"日本阿伟科技atTG/油管_20","server":"jp3.bpyun.live","port":443,"type":"vmess","uuid":"c9c6aa36-c89c-3dc2-8b1c-3927e857aa0f","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/cocksucker"}}
+  - {"name":"日本阿伟科技atTG/油管_21","server":"jp19.holiganfan.com","port":10088,"type":"trojan","password":"34963c3a-9a60-496d-b27e-41e1cd6b9b9d","sni":"jp19.holiganfan.com"}
+  - {"name":"美国阿伟科技atTG/油管_22","server":"158.101.23.126","port":2222,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"miaoge110"}
+  - {"name":"美国阿伟科技atTG/油管_23","server":"shz.moonfree.top","port":443,"type":"vmess","uuid":"54565809-c153-44f3-a869-33f7b76707d3","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"shz.moonfree.top"}}}
+  - {"name":"美国阿伟科技atTG/油管_24","server":"linodemx0303.moonfree.top","port":443,"type":"vmess","uuid":"54565809-c153-44f3-a869-33f7b76707d3","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"linodemx0303.moonfree.top"}}}
+  - {"name":"美国阿伟科技atTG/油管_25","server":"150.230.40.8","port":29036,"type":"vmess","uuid":"8e5708d2-7c39-4e65-aab0-8ae53444a47a","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/ws","headers":{"host":"150.230.40.8"}}}
+  - {"name":"美国阿伟科技atTG/油管_26","server":"38.64.138.145","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国阿伟科技atTG/油管_27","server":"host.chenxinboxerbyby.xyz","port":443,"type":"trojan","password":"06955d8f-8e46-4c43-8966-c6cc458cb28a"}
+  - {"name":"美国阿伟科技atTG/油管_28","server":"us4.bpyun.live","port":443,"type":"vmess","uuid":"ead1f6eb-a3c5-304a-bd25-e8e6c793e702","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/cocksucker"}}
+  - {"name":"美国阿伟科技atTG/油管_29","server":"gcusfree.galaxycloud.buzz","port":443,"type":"vmess","uuid":"b2bd8287-d57e-4cc7-ad60-ab5afd45ff17","alterId":1,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/0DGCTPQ","headers":{"host":"gcusfree.galaxycloud.buzz"}}}
+  - {"name":"美国阿伟科技atTG/油管_30","server":"linodeusfree2.galaxycloud.buzz","port":443,"type":"vmess","uuid":"9b340451-d225-4b8f-96f3-239a049e7daa","alterId":1,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/t6n76BJ1","headers":{"host":"linodeusfree2.galaxycloud.buzz"}}}
+  - {"name":"美国阿伟科技atTG/油管_31","server":"linodeusfree1.galaxycloud.buzz","port":443,"type":"vmess","uuid":"72260b4a-e40a-41c5-ae8b-c8c4649eb95e","alterId":1,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/xnzogRmfh","headers":{"host":"linodeusfree1.galaxycloud.buzz"}}}
+  - {"name":"美国阿伟科技atTG/油管_32","server":"us8.bpyun.live","port":443,"type":"vmess","uuid":"c9c6aa36-c89c-3dc2-8b1c-3927e857aa0f","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/cocksucker"}}
+  - {"name":"美国阿伟科技atTG/油管_33","server":"us28.holiganfan.com","port":10088,"type":"trojan","password":"34963c3a-9a60-496d-b27e-41e1cd6b9b9d","sni":"us28.holiganfan.com"}
+  - {"name":"加拿大阿伟科技atTG/油管_34","server":"198.57.27.172","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"加拿大阿伟科技atTG/油管_35","server":"198.57.27.172","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"加拿大阿伟科技atTG/油管_36","server":"198.57.27.172","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"加拿大阿伟科技atTG/油管_37","server":"198.57.27.172","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"韩国阿伟科技atTG/油管_38","server":"129.154.50.0","port":29363,"type":"vmess","uuid":"c71ba6b4-98c0-4e7c-b8a1-4b074a44933c","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/neuromancer","headers":{"host":"129.154.50.0"}}}
+  - {"name":"韩国阿伟科技atTG/油管_39","server":"kr3.bpyun.live","port":443,"type":"vmess","uuid":"b653838d-e6c6-3d4f-9d44-cc6588adf203","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/cocksucker"}}
+  - {"name":"韩国阿伟科技atTG/油管_40","server":"kr4.bpyun.live","port":443,"type":"vmess","uuid":"38485f54-6ad7-3e73-945c-188031547ca3","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/cocksucker"}}
+  - {"name":"迪拜阿伟科技atTG/油管_41","server":"193.123.83.36","port":53920,"type":"vmess","uuid":"d962ab66-3f72-4e99-888c-34bffa421c55","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"193.123.83.36"}}}
+  - {"name":"德国阿伟科技atTG/油管_42","server":"193.108.117.75","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"德国阿伟科技atTG/油管_43","server":"31.22.108.243","port":12856,"type":"vmess","uuid":"d3409b56-49d4-4f30-b093-b71fef2c3382","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"德国阿伟科技atTG/油管_44","server":"v6d.moonfree.top","port":443,"type":"vmess","uuid":"54565809-c153-44f3-a869-33f7b76707d3","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"v6d.moonfree.top"}}}
+  - {"name":"德国阿伟科技atTG/油管_45","server":"194.195.240.132","port":33210,"type":"vmess","uuid":"f46d05d6-8d41-4e0a-993e-e2658ac29f85","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"德国阿伟科技atTG/油管_46","server":"193.108.117.75","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"德国阿伟科技atTG/油管_47","server":"43.131.51.120","port":44970,"type":"vmess","uuid":"334181ca-0c75-4fd2-fd56-51a510c7be65","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/index","headers":{"host":"43.131.51.120"}}}
+  - {"name":"🇬🇧_GB_英国_48","server":"172.99.190.92","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦CA-134_195_196_3-3773_49","server":"134.195.196.3","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦CA-134_195_196_3-0031_50","server":"134.195.196.3","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦CA-134_195_196_12-3716_51","server":"134.195.196.12","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦CA-134_195_196_12-0094_52","server":"134.195.196.12","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦CA-134_195_196_12-0058_53","server":"134.195.196.12","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦CA-134_195_196_12-0057_54","server":"134.195.196.12","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦_CA_加拿大_85","server":"134.195.196.187","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.196.12","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦_CA_加拿大_10","server":"134.195.196.12","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_58","server":"134.195.196.68","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦_CA_加拿大_59","server":"134.195.196.68","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_60","server":"134.195.196.12","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦_CA_加拿大_61","server":"134.195.196.12","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA_加拿大_62","server":"134.195.196.187","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_63","server":"134.195.196.187","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇦🇶CZ-194_87_106_222-3884_64","server":"data.chenxinboxerbyby.xyz","port":443,"type":"trojan","password":"36dfa760-041e-4da2-a89a-71f86ee0639f"}
+  - {"name":"ZZ_687","server":"134.195.196.68","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"ZZ_681","server":"134.195.196.68","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"ZZ_680","server":"134.195.196.68","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"ZZ_667","server":"134.195.196.12","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"ZZ_665","server":"134.195.196.3","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"ZZ_664","server":"134.195.196.3","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"ZZ_655","server":"134.195.196.12","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"ZZ_629","server":"134.195.196.68","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"ZZ_622","server":"134.195.196.12","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"ZZ_606","server":"134.195.196.3","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"ZZ_605","server":"134.195.196.68","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"ZZ_597","server":"134.195.196.68","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"ZZ_591","server":"134.195.196.12","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"ZZ_583","server":"134.195.196.12","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"ZZ_573","server":"134.195.196.12","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"ZZ_572","server":"134.195.196.12","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"ZZ_557","server":"134.195.196.68","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"US_347","server":"38.64.138.145","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"US_337","server":"167.88.63.79","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"US_2546","server":"38.64.138.145","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"US_2522","server":"38.64.138.145","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"US_2464","server":"38.64.138.145","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"US_2381","server":"38.64.138.145","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"US_2358","server":"38.64.138.145","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"US_2332","server":"38.64.138.145","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"US_2329","server":"38.64.138.145","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"US_2256","server":"38.64.138.145","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"US_2194","server":"38.64.138.145","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"US_2025","server":"38.64.138.145","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"US_1986","server":"38.64.138.145","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"US_1943","server":"38.64.138.145","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"US_1851","server":"38.64.138.145","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"US_1825","server":"38.64.138.145","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"US_1680","server":"38.64.138.145","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"US_1651","server":"38.64.138.145","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"US_1587","server":"38.64.138.145","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US美国_1
-      - 🇬🇧_GB英国_2
-      - 🇬🇧_GB英国_3
-      - 🇨🇦_CA加拿大_4
-      - 🇨🇦_CA加拿大_5
-      - 🇨🇦_CA加拿大_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇨🇦_CA加拿大_9
-      - 🇨🇦_CA加拿大_10
-      - 🇨🇦_CA加拿大_11
-      - 🇺🇸_US美国_12
-      - 🇬🇧_GB英国_13
-      - 🇨🇦_CA加拿大_14
-      - 🇺🇸_US美国_15
-      - 🇺🇸_US美国_16
-      - 🇨🇦_CA加拿大_17
-      - 🇨🇦_CA加拿大_18
-      - 🇨🇦_CA加拿大_19
-      - 🇺🇸_US美国_20
-      - 🇮🇳_IN印度_21
-      - 🇨🇦_CA加拿大_22
-      - 🇫🇷_FR法国_23
-      - 🇨🇦_CA加拿大_24
-      - 🇩🇪_DE德国_25
-      - 🇩🇪_DE德国_26
-      - 🇺🇸_US美国_27
-      - 🇨🇦_CA加拿大_28
-      - 🇨🇦_CA加拿大_29
-      - 🇨🇦_CA加拿大_30
-      - 🇨🇦_CA加拿大_31
-      - 🇺🇸_US美国_32
-      - 🇨🇦_CA加拿大_33
-      - 🇨🇦_CA加拿大_34
-      - 🇨🇦_CA加拿大_35
-      - 🇨🇦_CA加拿大_36
-      - 🇺🇸_US美国_37
-      - 🇨🇦_CA加拿大_38
-      - 🇨🇦_CA加拿大_39
-      - 🇨🇦_CA加拿大_40
-      - 🇯🇵_JP日本_41
-      - 🇺🇸_US美国_42
-      - 🇺🇸_US美国_43
-      - 🇺🇸_US美国_44
-      - 🇺🇸_US美国_45
-      - 🇨🇦_CA加拿大_46
-      - 🇨🇦_CA加拿大_47
-      - 🇨🇦_CA加拿大_48
-      - 🇨🇦_CA加拿大_49
-      - 🇨🇦_CA加拿大_50
-      - 🇨🇦_CA加拿大_51
-      - 🇨🇦_CA加拿大_52
-      - 🇨🇦_CA加拿大_53
-      - 🇨🇦_CA加拿大_54
-      - 🇨🇦_CA加拿大_55
-      - 🇨🇦_CA加拿大_56
-      - 🇨🇦_CA加拿大_57
-      - 🇨🇦_CA加拿大_58
-      - 🇨🇦_CA加拿大_59
-      - 🇨🇦_CA加拿大_60
-      - 🇨🇦_CA加拿大_61
-      - 🇨🇦_CA加拿大_62
-      - 🇨🇦_CA加拿大_63
-      - 🇨🇦_CA加拿大_64
-      - 🇨🇦_CA加拿大_65
-      - 🇨🇦_CA加拿大_66
-      - 🇬🇧_GB英国_67
-      - 🇨🇦_CA加拿大_68
-      - 🇨🇦_CA加拿大_69
-      - 🇨🇦_CA加拿大_70
-      - 🇨🇦_CA加拿大_71
-      - 🇨🇦_CA加拿大_72
-      - 🇨🇦_CA加拿大_73
-      - 🇨🇦_CA加拿大_74
-      - 🇨🇦_CA加拿大_75
-      - 🇺🇸_US美国_76
-      - 🇨🇦_CA加拿大_77
-      - 🇨🇦_CA加拿大_78
-      - 🇺🇸_US美国_79
-      - 🇺🇸_US美国_80
-      - 🇺🇸_US美国_81
-      - 🇨🇦_CA加拿大_82
-      - 🇨🇦_CA加拿大_83
-      - 🇨🇦_CA加拿大_84
-      - 🇬🇧_GB英国_85
-      - 🇨🇦_CA加拿大_86
-      - 🇨🇦_CA加拿大_87
-      - 🇨🇦_CA加拿大_88
-      - 🇨🇦_CA加拿大_89
-      - 🇨🇦_CA加拿大_90
-      - 🇨🇦_CA加拿大_91
-      - 🇨🇦_CA加拿大_92
-      - 🇺🇸_US美国_93
-      - 🇫🇷_FR法国_94
-      - 🇫🇷_FR法国_95
-      - 🇺🇸_US美国_96
-      - 🇨🇦_CA加拿大_97
-      - 🇨🇦_CA加拿大_98
-      - 🇨🇦_CA加拿大_99
-      - 🇬🇧_GB英国_100
+      - 新加坡阿伟科技atTG/油管_1
+      - 新加坡阿伟科技atTG/油管_2
+      - 新加坡阿伟科技atTG/油管_3
+      - 香港阿伟科技atTG/油管_4
+      - 香港阿伟科技atTG/油管_5
+      - 香港阿伟科技atTG/油管_6
+      - 香港阿伟科技atTG/油管_7
+      - 香港阿伟科技atTG/油管_8
+      - 香港阿伟科技atTG/油管_9
+      - 香港阿伟科技atTG/油管_10
+      - 香港阿伟科技atTG/油管_11
+      - 香港阿伟科技atTG/油管_12
+      - 香港阿伟科技atTG/油管_13
+      - 香港阿伟科技atTG/油管_14
+      - 香港阿伟科技atTG/油管_15
+      - 日本阿伟科技atTG/油管_16
+      - 日本阿伟科技atTG/油管_17
+      - 日本阿伟科技atTG/油管_18
+      - 日本阿伟科技atTG/油管_19
+      - 日本阿伟科技atTG/油管_20
+      - 日本阿伟科技atTG/油管_21
+      - 美国阿伟科技atTG/油管_22
+      - 美国阿伟科技atTG/油管_23
+      - 美国阿伟科技atTG/油管_24
+      - 美国阿伟科技atTG/油管_25
+      - 美国阿伟科技atTG/油管_26
+      - 美国阿伟科技atTG/油管_27
+      - 美国阿伟科技atTG/油管_28
+      - 美国阿伟科技atTG/油管_29
+      - 美国阿伟科技atTG/油管_30
+      - 美国阿伟科技atTG/油管_31
+      - 美国阿伟科技atTG/油管_32
+      - 美国阿伟科技atTG/油管_33
+      - 加拿大阿伟科技atTG/油管_34
+      - 加拿大阿伟科技atTG/油管_35
+      - 加拿大阿伟科技atTG/油管_36
+      - 加拿大阿伟科技atTG/油管_37
+      - 韩国阿伟科技atTG/油管_38
+      - 韩国阿伟科技atTG/油管_39
+      - 韩国阿伟科技atTG/油管_40
+      - 迪拜阿伟科技atTG/油管_41
+      - 德国阿伟科技atTG/油管_42
+      - 德国阿伟科技atTG/油管_43
+      - 德国阿伟科技atTG/油管_44
+      - 德国阿伟科技atTG/油管_45
+      - 德国阿伟科技atTG/油管_46
+      - 德国阿伟科技atTG/油管_47
+      - 🇬🇧_GB_英国_48
+      - 🇨🇦CA-134_195_196_3-3773_49
+      - 🇨🇦CA-134_195_196_3-0031_50
+      - 🇨🇦CA-134_195_196_12-3716_51
+      - 🇨🇦CA-134_195_196_12-0094_52
+      - 🇨🇦CA-134_195_196_12-0058_53
+      - 🇨🇦CA-134_195_196_12-0057_54
+      - 🇨🇦_CA_加拿大_85
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇨🇦_CA_加拿大_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇨🇦_CA_加拿大_62
+      - 🇨🇦_CA_加拿大_63
+      - 🇦🇶CZ-194_87_106_222-3884_64
+      - ZZ_687
+      - ZZ_681
+      - ZZ_680
+      - ZZ_667
+      - ZZ_665
+      - ZZ_664
+      - ZZ_655
+      - ZZ_629
+      - ZZ_622
+      - ZZ_606
+      - ZZ_605
+      - ZZ_597
+      - ZZ_591
+      - ZZ_583
+      - ZZ_573
+      - ZZ_572
+      - ZZ_557
+      - US_347
+      - US_337
+      - US_2546
+      - US_2522
+      - US_2464
+      - US_2381
+      - US_2358
+      - US_2332
+      - US_2329
+      - US_2256
+      - US_2194
+      - US_2025
+      - US_1986
+      - US_1943
+      - US_1851
+      - US_1825
+      - US_1680
+      - US_1651
+      - US_1587
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US美国_1
-      - 🇬🇧_GB英国_2
-      - 🇬🇧_GB英国_3
-      - 🇨🇦_CA加拿大_4
-      - 🇨🇦_CA加拿大_5
-      - 🇨🇦_CA加拿大_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇨🇦_CA加拿大_9
-      - 🇨🇦_CA加拿大_10
-      - 🇨🇦_CA加拿大_11
-      - 🇺🇸_US美国_12
-      - 🇬🇧_GB英国_13
-      - 🇨🇦_CA加拿大_14
-      - 🇺🇸_US美国_15
-      - 🇺🇸_US美国_16
-      - 🇨🇦_CA加拿大_17
-      - 🇨🇦_CA加拿大_18
-      - 🇨🇦_CA加拿大_19
-      - 🇺🇸_US美国_20
-      - 🇮🇳_IN印度_21
-      - 🇨🇦_CA加拿大_22
-      - 🇫🇷_FR法国_23
-      - 🇨🇦_CA加拿大_24
-      - 🇩🇪_DE德国_25
-      - 🇩🇪_DE德国_26
-      - 🇺🇸_US美国_27
-      - 🇨🇦_CA加拿大_28
-      - 🇨🇦_CA加拿大_29
-      - 🇨🇦_CA加拿大_30
-      - 🇨🇦_CA加拿大_31
-      - 🇺🇸_US美国_32
-      - 🇨🇦_CA加拿大_33
-      - 🇨🇦_CA加拿大_34
-      - 🇨🇦_CA加拿大_35
-      - 🇨🇦_CA加拿大_36
-      - 🇺🇸_US美国_37
-      - 🇨🇦_CA加拿大_38
-      - 🇨🇦_CA加拿大_39
-      - 🇨🇦_CA加拿大_40
-      - 🇯🇵_JP日本_41
-      - 🇺🇸_US美国_42
-      - 🇺🇸_US美国_43
-      - 🇺🇸_US美国_44
-      - 🇺🇸_US美国_45
-      - 🇨🇦_CA加拿大_46
-      - 🇨🇦_CA加拿大_47
-      - 🇨🇦_CA加拿大_48
-      - 🇨🇦_CA加拿大_49
-      - 🇨🇦_CA加拿大_50
-      - 🇨🇦_CA加拿大_51
-      - 🇨🇦_CA加拿大_52
-      - 🇨🇦_CA加拿大_53
-      - 🇨🇦_CA加拿大_54
-      - 🇨🇦_CA加拿大_55
-      - 🇨🇦_CA加拿大_56
-      - 🇨🇦_CA加拿大_57
-      - 🇨🇦_CA加拿大_58
-      - 🇨🇦_CA加拿大_59
-      - 🇨🇦_CA加拿大_60
-      - 🇨🇦_CA加拿大_61
-      - 🇨🇦_CA加拿大_62
-      - 🇨🇦_CA加拿大_63
-      - 🇨🇦_CA加拿大_64
-      - 🇨🇦_CA加拿大_65
-      - 🇨🇦_CA加拿大_66
-      - 🇬🇧_GB英国_67
-      - 🇨🇦_CA加拿大_68
-      - 🇨🇦_CA加拿大_69
-      - 🇨🇦_CA加拿大_70
-      - 🇨🇦_CA加拿大_71
-      - 🇨🇦_CA加拿大_72
-      - 🇨🇦_CA加拿大_73
-      - 🇨🇦_CA加拿大_74
-      - 🇨🇦_CA加拿大_75
-      - 🇺🇸_US美国_76
-      - 🇨🇦_CA加拿大_77
-      - 🇨🇦_CA加拿大_78
-      - 🇺🇸_US美国_79
-      - 🇺🇸_US美国_80
-      - 🇺🇸_US美国_81
-      - 🇨🇦_CA加拿大_82
-      - 🇨🇦_CA加拿大_83
-      - 🇨🇦_CA加拿大_84
-      - 🇬🇧_GB英国_85
-      - 🇨🇦_CA加拿大_86
-      - 🇨🇦_CA加拿大_87
-      - 🇨🇦_CA加拿大_88
-      - 🇨🇦_CA加拿大_89
-      - 🇨🇦_CA加拿大_90
-      - 🇨🇦_CA加拿大_91
-      - 🇨🇦_CA加拿大_92
-      - 🇺🇸_US美国_93
-      - 🇫🇷_FR法国_94
-      - 🇫🇷_FR法国_95
-      - 🇺🇸_US美国_96
-      - 🇨🇦_CA加拿大_97
-      - 🇨🇦_CA加拿大_98
-      - 🇨🇦_CA加拿大_99
-      - 🇬🇧_GB英国_100
+      - 新加坡阿伟科技atTG/油管_1
+      - 新加坡阿伟科技atTG/油管_2
+      - 新加坡阿伟科技atTG/油管_3
+      - 香港阿伟科技atTG/油管_4
+      - 香港阿伟科技atTG/油管_5
+      - 香港阿伟科技atTG/油管_6
+      - 香港阿伟科技atTG/油管_7
+      - 香港阿伟科技atTG/油管_8
+      - 香港阿伟科技atTG/油管_9
+      - 香港阿伟科技atTG/油管_10
+      - 香港阿伟科技atTG/油管_11
+      - 香港阿伟科技atTG/油管_12
+      - 香港阿伟科技atTG/油管_13
+      - 香港阿伟科技atTG/油管_14
+      - 香港阿伟科技atTG/油管_15
+      - 日本阿伟科技atTG/油管_16
+      - 日本阿伟科技atTG/油管_17
+      - 日本阿伟科技atTG/油管_18
+      - 日本阿伟科技atTG/油管_19
+      - 日本阿伟科技atTG/油管_20
+      - 日本阿伟科技atTG/油管_21
+      - 美国阿伟科技atTG/油管_22
+      - 美国阿伟科技atTG/油管_23
+      - 美国阿伟科技atTG/油管_24
+      - 美国阿伟科技atTG/油管_25
+      - 美国阿伟科技atTG/油管_26
+      - 美国阿伟科技atTG/油管_27
+      - 美国阿伟科技atTG/油管_28
+      - 美国阿伟科技atTG/油管_29
+      - 美国阿伟科技atTG/油管_30
+      - 美国阿伟科技atTG/油管_31
+      - 美国阿伟科技atTG/油管_32
+      - 美国阿伟科技atTG/油管_33
+      - 加拿大阿伟科技atTG/油管_34
+      - 加拿大阿伟科技atTG/油管_35
+      - 加拿大阿伟科技atTG/油管_36
+      - 加拿大阿伟科技atTG/油管_37
+      - 韩国阿伟科技atTG/油管_38
+      - 韩国阿伟科技atTG/油管_39
+      - 韩国阿伟科技atTG/油管_40
+      - 迪拜阿伟科技atTG/油管_41
+      - 德国阿伟科技atTG/油管_42
+      - 德国阿伟科技atTG/油管_43
+      - 德国阿伟科技atTG/油管_44
+      - 德国阿伟科技atTG/油管_45
+      - 德国阿伟科技atTG/油管_46
+      - 德国阿伟科技atTG/油管_47
+      - 🇬🇧_GB_英国_48
+      - 🇨🇦CA-134_195_196_3-3773_49
+      - 🇨🇦CA-134_195_196_3-0031_50
+      - 🇨🇦CA-134_195_196_12-3716_51
+      - 🇨🇦CA-134_195_196_12-0094_52
+      - 🇨🇦CA-134_195_196_12-0058_53
+      - 🇨🇦CA-134_195_196_12-0057_54
+      - 🇨🇦_CA_加拿大_85
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇨🇦_CA_加拿大_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇨🇦_CA_加拿大_62
+      - 🇨🇦_CA_加拿大_63
+      - 🇦🇶CZ-194_87_106_222-3884_64
+      - ZZ_687
+      - ZZ_681
+      - ZZ_680
+      - ZZ_667
+      - ZZ_665
+      - ZZ_664
+      - ZZ_655
+      - ZZ_629
+      - ZZ_622
+      - ZZ_606
+      - ZZ_605
+      - ZZ_597
+      - ZZ_591
+      - ZZ_583
+      - ZZ_573
+      - ZZ_572
+      - ZZ_557
+      - US_347
+      - US_337
+      - US_2546
+      - US_2522
+      - US_2464
+      - US_2381
+      - US_2358
+      - US_2332
+      - US_2329
+      - US_2256
+      - US_2194
+      - US_2025
+      - US_1986
+      - US_1943
+      - US_1851
+      - US_1825
+      - US_1680
+      - US_1651
+      - US_1587
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US美国_1
-      - 🇬🇧_GB英国_2
-      - 🇬🇧_GB英国_3
-      - 🇨🇦_CA加拿大_4
-      - 🇨🇦_CA加拿大_5
-      - 🇨🇦_CA加拿大_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇨🇦_CA加拿大_9
-      - 🇨🇦_CA加拿大_10
-      - 🇨🇦_CA加拿大_11
-      - 🇺🇸_US美国_12
-      - 🇬🇧_GB英国_13
-      - 🇨🇦_CA加拿大_14
-      - 🇺🇸_US美国_15
-      - 🇺🇸_US美国_16
-      - 🇨🇦_CA加拿大_17
-      - 🇨🇦_CA加拿大_18
-      - 🇨🇦_CA加拿大_19
-      - 🇺🇸_US美国_20
-      - 🇮🇳_IN印度_21
-      - 🇨🇦_CA加拿大_22
-      - 🇫🇷_FR法国_23
-      - 🇨🇦_CA加拿大_24
-      - 🇩🇪_DE德国_25
-      - 🇩🇪_DE德国_26
-      - 🇺🇸_US美国_27
-      - 🇨🇦_CA加拿大_28
-      - 🇨🇦_CA加拿大_29
-      - 🇨🇦_CA加拿大_30
-      - 🇨🇦_CA加拿大_31
-      - 🇺🇸_US美国_32
-      - 🇨🇦_CA加拿大_33
-      - 🇨🇦_CA加拿大_34
-      - 🇨🇦_CA加拿大_35
-      - 🇨🇦_CA加拿大_36
-      - 🇺🇸_US美国_37
-      - 🇨🇦_CA加拿大_38
-      - 🇨🇦_CA加拿大_39
-      - 🇨🇦_CA加拿大_40
-      - 🇯🇵_JP日本_41
-      - 🇺🇸_US美国_42
-      - 🇺🇸_US美国_43
-      - 🇺🇸_US美国_44
-      - 🇺🇸_US美国_45
-      - 🇨🇦_CA加拿大_46
-      - 🇨🇦_CA加拿大_47
-      - 🇨🇦_CA加拿大_48
-      - 🇨🇦_CA加拿大_49
-      - 🇨🇦_CA加拿大_50
-      - 🇨🇦_CA加拿大_51
-      - 🇨🇦_CA加拿大_52
-      - 🇨🇦_CA加拿大_53
-      - 🇨🇦_CA加拿大_54
-      - 🇨🇦_CA加拿大_55
-      - 🇨🇦_CA加拿大_56
-      - 🇨🇦_CA加拿大_57
-      - 🇨🇦_CA加拿大_58
-      - 🇨🇦_CA加拿大_59
-      - 🇨🇦_CA加拿大_60
-      - 🇨🇦_CA加拿大_61
-      - 🇨🇦_CA加拿大_62
-      - 🇨🇦_CA加拿大_63
-      - 🇨🇦_CA加拿大_64
-      - 🇨🇦_CA加拿大_65
-      - 🇨🇦_CA加拿大_66
-      - 🇬🇧_GB英国_67
-      - 🇨🇦_CA加拿大_68
-      - 🇨🇦_CA加拿大_69
-      - 🇨🇦_CA加拿大_70
-      - 🇨🇦_CA加拿大_71
-      - 🇨🇦_CA加拿大_72
-      - 🇨🇦_CA加拿大_73
-      - 🇨🇦_CA加拿大_74
-      - 🇨🇦_CA加拿大_75
-      - 🇺🇸_US美国_76
-      - 🇨🇦_CA加拿大_77
-      - 🇨🇦_CA加拿大_78
-      - 🇺🇸_US美国_79
-      - 🇺🇸_US美国_80
-      - 🇺🇸_US美国_81
-      - 🇨🇦_CA加拿大_82
-      - 🇨🇦_CA加拿大_83
-      - 🇨🇦_CA加拿大_84
-      - 🇬🇧_GB英国_85
-      - 🇨🇦_CA加拿大_86
-      - 🇨🇦_CA加拿大_87
-      - 🇨🇦_CA加拿大_88
-      - 🇨🇦_CA加拿大_89
-      - 🇨🇦_CA加拿大_90
-      - 🇨🇦_CA加拿大_91
-      - 🇨🇦_CA加拿大_92
-      - 🇺🇸_US美国_93
-      - 🇫🇷_FR法国_94
-      - 🇫🇷_FR法国_95
-      - 🇺🇸_US美国_96
-      - 🇨🇦_CA加拿大_97
-      - 🇨🇦_CA加拿大_98
-      - 🇨🇦_CA加拿大_99
-      - 🇬🇧_GB英国_100
+      - 新加坡阿伟科技atTG/油管_1
+      - 新加坡阿伟科技atTG/油管_2
+      - 新加坡阿伟科技atTG/油管_3
+      - 香港阿伟科技atTG/油管_4
+      - 香港阿伟科技atTG/油管_5
+      - 香港阿伟科技atTG/油管_6
+      - 香港阿伟科技atTG/油管_7
+      - 香港阿伟科技atTG/油管_8
+      - 香港阿伟科技atTG/油管_9
+      - 香港阿伟科技atTG/油管_10
+      - 香港阿伟科技atTG/油管_11
+      - 香港阿伟科技atTG/油管_12
+      - 香港阿伟科技atTG/油管_13
+      - 香港阿伟科技atTG/油管_14
+      - 香港阿伟科技atTG/油管_15
+      - 日本阿伟科技atTG/油管_16
+      - 日本阿伟科技atTG/油管_17
+      - 日本阿伟科技atTG/油管_18
+      - 日本阿伟科技atTG/油管_19
+      - 日本阿伟科技atTG/油管_20
+      - 日本阿伟科技atTG/油管_21
+      - 美国阿伟科技atTG/油管_22
+      - 美国阿伟科技atTG/油管_23
+      - 美国阿伟科技atTG/油管_24
+      - 美国阿伟科技atTG/油管_25
+      - 美国阿伟科技atTG/油管_26
+      - 美国阿伟科技atTG/油管_27
+      - 美国阿伟科技atTG/油管_28
+      - 美国阿伟科技atTG/油管_29
+      - 美国阿伟科技atTG/油管_30
+      - 美国阿伟科技atTG/油管_31
+      - 美国阿伟科技atTG/油管_32
+      - 美国阿伟科技atTG/油管_33
+      - 加拿大阿伟科技atTG/油管_34
+      - 加拿大阿伟科技atTG/油管_35
+      - 加拿大阿伟科技atTG/油管_36
+      - 加拿大阿伟科技atTG/油管_37
+      - 韩国阿伟科技atTG/油管_38
+      - 韩国阿伟科技atTG/油管_39
+      - 韩国阿伟科技atTG/油管_40
+      - 迪拜阿伟科技atTG/油管_41
+      - 德国阿伟科技atTG/油管_42
+      - 德国阿伟科技atTG/油管_43
+      - 德国阿伟科技atTG/油管_44
+      - 德国阿伟科技atTG/油管_45
+      - 德国阿伟科技atTG/油管_46
+      - 德国阿伟科技atTG/油管_47
+      - 🇬🇧_GB_英国_48
+      - 🇨🇦CA-134_195_196_3-3773_49
+      - 🇨🇦CA-134_195_196_3-0031_50
+      - 🇨🇦CA-134_195_196_12-3716_51
+      - 🇨🇦CA-134_195_196_12-0094_52
+      - 🇨🇦CA-134_195_196_12-0058_53
+      - 🇨🇦CA-134_195_196_12-0057_54
+      - 🇨🇦_CA_加拿大_85
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇨🇦_CA_加拿大_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇨🇦_CA_加拿大_62
+      - 🇨🇦_CA_加拿大_63
+      - 🇦🇶CZ-194_87_106_222-3884_64
+      - ZZ_687
+      - ZZ_681
+      - ZZ_680
+      - ZZ_667
+      - ZZ_665
+      - ZZ_664
+      - ZZ_655
+      - ZZ_629
+      - ZZ_622
+      - ZZ_606
+      - ZZ_605
+      - ZZ_597
+      - ZZ_591
+      - ZZ_583
+      - ZZ_573
+      - ZZ_572
+      - ZZ_557
+      - US_347
+      - US_337
+      - US_2546
+      - US_2522
+      - US_2464
+      - US_2381
+      - US_2358
+      - US_2332
+      - US_2329
+      - US_2256
+      - US_2194
+      - US_2025
+      - US_1986
+      - US_1943
+      - US_1851
+      - US_1825
+      - US_1680
+      - US_1651
+      - US_1587
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US美国_1
-      - 🇬🇧_GB英国_2
-      - 🇬🇧_GB英国_3
-      - 🇨🇦_CA加拿大_4
-      - 🇨🇦_CA加拿大_5
-      - 🇨🇦_CA加拿大_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇨🇦_CA加拿大_9
-      - 🇨🇦_CA加拿大_10
-      - 🇨🇦_CA加拿大_11
-      - 🇺🇸_US美国_12
-      - 🇬🇧_GB英国_13
-      - 🇨🇦_CA加拿大_14
-      - 🇺🇸_US美国_15
-      - 🇺🇸_US美国_16
-      - 🇨🇦_CA加拿大_17
-      - 🇨🇦_CA加拿大_18
-      - 🇨🇦_CA加拿大_19
-      - 🇺🇸_US美国_20
-      - 🇮🇳_IN印度_21
-      - 🇨🇦_CA加拿大_22
-      - 🇫🇷_FR法国_23
-      - 🇨🇦_CA加拿大_24
-      - 🇩🇪_DE德国_25
-      - 🇩🇪_DE德国_26
-      - 🇺🇸_US美国_27
-      - 🇨🇦_CA加拿大_28
-      - 🇨🇦_CA加拿大_29
-      - 🇨🇦_CA加拿大_30
-      - 🇨🇦_CA加拿大_31
-      - 🇺🇸_US美国_32
-      - 🇨🇦_CA加拿大_33
-      - 🇨🇦_CA加拿大_34
-      - 🇨🇦_CA加拿大_35
-      - 🇨🇦_CA加拿大_36
-      - 🇺🇸_US美国_37
-      - 🇨🇦_CA加拿大_38
-      - 🇨🇦_CA加拿大_39
-      - 🇨🇦_CA加拿大_40
-      - 🇯🇵_JP日本_41
-      - 🇺🇸_US美国_42
-      - 🇺🇸_US美国_43
-      - 🇺🇸_US美国_44
-      - 🇺🇸_US美国_45
-      - 🇨🇦_CA加拿大_46
-      - 🇨🇦_CA加拿大_47
-      - 🇨🇦_CA加拿大_48
-      - 🇨🇦_CA加拿大_49
-      - 🇨🇦_CA加拿大_50
-      - 🇨🇦_CA加拿大_51
-      - 🇨🇦_CA加拿大_52
-      - 🇨🇦_CA加拿大_53
-      - 🇨🇦_CA加拿大_54
-      - 🇨🇦_CA加拿大_55
-      - 🇨🇦_CA加拿大_56
-      - 🇨🇦_CA加拿大_57
-      - 🇨🇦_CA加拿大_58
-      - 🇨🇦_CA加拿大_59
-      - 🇨🇦_CA加拿大_60
-      - 🇨🇦_CA加拿大_61
-      - 🇨🇦_CA加拿大_62
-      - 🇨🇦_CA加拿大_63
-      - 🇨🇦_CA加拿大_64
-      - 🇨🇦_CA加拿大_65
-      - 🇨🇦_CA加拿大_66
-      - 🇬🇧_GB英国_67
-      - 🇨🇦_CA加拿大_68
-      - 🇨🇦_CA加拿大_69
-      - 🇨🇦_CA加拿大_70
-      - 🇨🇦_CA加拿大_71
-      - 🇨🇦_CA加拿大_72
-      - 🇨🇦_CA加拿大_73
-      - 🇨🇦_CA加拿大_74
-      - 🇨🇦_CA加拿大_75
-      - 🇺🇸_US美国_76
-      - 🇨🇦_CA加拿大_77
-      - 🇨🇦_CA加拿大_78
-      - 🇺🇸_US美国_79
-      - 🇺🇸_US美国_80
-      - 🇺🇸_US美国_81
-      - 🇨🇦_CA加拿大_82
-      - 🇨🇦_CA加拿大_83
-      - 🇨🇦_CA加拿大_84
-      - 🇬🇧_GB英国_85
-      - 🇨🇦_CA加拿大_86
-      - 🇨🇦_CA加拿大_87
-      - 🇨🇦_CA加拿大_88
-      - 🇨🇦_CA加拿大_89
-      - 🇨🇦_CA加拿大_90
-      - 🇨🇦_CA加拿大_91
-      - 🇨🇦_CA加拿大_92
-      - 🇺🇸_US美国_93
-      - 🇫🇷_FR法国_94
-      - 🇫🇷_FR法国_95
-      - 🇺🇸_US美国_96
-      - 🇨🇦_CA加拿大_97
-      - 🇨🇦_CA加拿大_98
-      - 🇨🇦_CA加拿大_99
-      - 🇬🇧_GB英国_100
+      - 新加坡阿伟科技atTG/油管_1
+      - 新加坡阿伟科技atTG/油管_2
+      - 新加坡阿伟科技atTG/油管_3
+      - 香港阿伟科技atTG/油管_4
+      - 香港阿伟科技atTG/油管_5
+      - 香港阿伟科技atTG/油管_6
+      - 香港阿伟科技atTG/油管_7
+      - 香港阿伟科技atTG/油管_8
+      - 香港阿伟科技atTG/油管_9
+      - 香港阿伟科技atTG/油管_10
+      - 香港阿伟科技atTG/油管_11
+      - 香港阿伟科技atTG/油管_12
+      - 香港阿伟科技atTG/油管_13
+      - 香港阿伟科技atTG/油管_14
+      - 香港阿伟科技atTG/油管_15
+      - 日本阿伟科技atTG/油管_16
+      - 日本阿伟科技atTG/油管_17
+      - 日本阿伟科技atTG/油管_18
+      - 日本阿伟科技atTG/油管_19
+      - 日本阿伟科技atTG/油管_20
+      - 日本阿伟科技atTG/油管_21
+      - 美国阿伟科技atTG/油管_22
+      - 美国阿伟科技atTG/油管_23
+      - 美国阿伟科技atTG/油管_24
+      - 美国阿伟科技atTG/油管_25
+      - 美国阿伟科技atTG/油管_26
+      - 美国阿伟科技atTG/油管_27
+      - 美国阿伟科技atTG/油管_28
+      - 美国阿伟科技atTG/油管_29
+      - 美国阿伟科技atTG/油管_30
+      - 美国阿伟科技atTG/油管_31
+      - 美国阿伟科技atTG/油管_32
+      - 美国阿伟科技atTG/油管_33
+      - 加拿大阿伟科技atTG/油管_34
+      - 加拿大阿伟科技atTG/油管_35
+      - 加拿大阿伟科技atTG/油管_36
+      - 加拿大阿伟科技atTG/油管_37
+      - 韩国阿伟科技atTG/油管_38
+      - 韩国阿伟科技atTG/油管_39
+      - 韩国阿伟科技atTG/油管_40
+      - 迪拜阿伟科技atTG/油管_41
+      - 德国阿伟科技atTG/油管_42
+      - 德国阿伟科技atTG/油管_43
+      - 德国阿伟科技atTG/油管_44
+      - 德国阿伟科技atTG/油管_45
+      - 德国阿伟科技atTG/油管_46
+      - 德国阿伟科技atTG/油管_47
+      - 🇬🇧_GB_英国_48
+      - 🇨🇦CA-134_195_196_3-3773_49
+      - 🇨🇦CA-134_195_196_3-0031_50
+      - 🇨🇦CA-134_195_196_12-3716_51
+      - 🇨🇦CA-134_195_196_12-0094_52
+      - 🇨🇦CA-134_195_196_12-0058_53
+      - 🇨🇦CA-134_195_196_12-0057_54
+      - 🇨🇦_CA_加拿大_85
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇨🇦_CA_加拿大_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇨🇦_CA_加拿大_62
+      - 🇨🇦_CA_加拿大_63
+      - 🇦🇶CZ-194_87_106_222-3884_64
+      - ZZ_687
+      - ZZ_681
+      - ZZ_680
+      - ZZ_667
+      - ZZ_665
+      - ZZ_664
+      - ZZ_655
+      - ZZ_629
+      - ZZ_622
+      - ZZ_606
+      - ZZ_605
+      - ZZ_597
+      - ZZ_591
+      - ZZ_583
+      - ZZ_573
+      - ZZ_572
+      - ZZ_557
+      - US_347
+      - US_337
+      - US_2546
+      - US_2522
+      - US_2464
+      - US_2381
+      - US_2358
+      - US_2332
+      - US_2329
+      - US_2256
+      - US_2194
+      - US_2025
+      - US_1986
+      - US_1943
+      - US_1851
+      - US_1825
+      - US_1680
+      - US_1651
+      - US_1587
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US美国_1
-      - 🇬🇧_GB英国_2
-      - 🇬🇧_GB英国_3
-      - 🇨🇦_CA加拿大_4
-      - 🇨🇦_CA加拿大_5
-      - 🇨🇦_CA加拿大_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇨🇦_CA加拿大_9
-      - 🇨🇦_CA加拿大_10
-      - 🇨🇦_CA加拿大_11
-      - 🇺🇸_US美国_12
-      - 🇬🇧_GB英国_13
-      - 🇨🇦_CA加拿大_14
-      - 🇺🇸_US美国_15
-      - 🇺🇸_US美国_16
-      - 🇨🇦_CA加拿大_17
-      - 🇨🇦_CA加拿大_18
-      - 🇨🇦_CA加拿大_19
-      - 🇺🇸_US美国_20
-      - 🇮🇳_IN印度_21
-      - 🇨🇦_CA加拿大_22
-      - 🇫🇷_FR法国_23
-      - 🇨🇦_CA加拿大_24
-      - 🇩🇪_DE德国_25
-      - 🇩🇪_DE德国_26
-      - 🇺🇸_US美国_27
-      - 🇨🇦_CA加拿大_28
-      - 🇨🇦_CA加拿大_29
-      - 🇨🇦_CA加拿大_30
-      - 🇨🇦_CA加拿大_31
-      - 🇺🇸_US美国_32
-      - 🇨🇦_CA加拿大_33
-      - 🇨🇦_CA加拿大_34
-      - 🇨🇦_CA加拿大_35
-      - 🇨🇦_CA加拿大_36
-      - 🇺🇸_US美国_37
-      - 🇨🇦_CA加拿大_38
-      - 🇨🇦_CA加拿大_39
-      - 🇨🇦_CA加拿大_40
-      - 🇯🇵_JP日本_41
-      - 🇺🇸_US美国_42
-      - 🇺🇸_US美国_43
-      - 🇺🇸_US美国_44
-      - 🇺🇸_US美国_45
-      - 🇨🇦_CA加拿大_46
-      - 🇨🇦_CA加拿大_47
-      - 🇨🇦_CA加拿大_48
-      - 🇨🇦_CA加拿大_49
-      - 🇨🇦_CA加拿大_50
-      - 🇨🇦_CA加拿大_51
-      - 🇨🇦_CA加拿大_52
-      - 🇨🇦_CA加拿大_53
-      - 🇨🇦_CA加拿大_54
-      - 🇨🇦_CA加拿大_55
-      - 🇨🇦_CA加拿大_56
-      - 🇨🇦_CA加拿大_57
-      - 🇨🇦_CA加拿大_58
-      - 🇨🇦_CA加拿大_59
-      - 🇨🇦_CA加拿大_60
-      - 🇨🇦_CA加拿大_61
-      - 🇨🇦_CA加拿大_62
-      - 🇨🇦_CA加拿大_63
-      - 🇨🇦_CA加拿大_64
-      - 🇨🇦_CA加拿大_65
-      - 🇨🇦_CA加拿大_66
-      - 🇬🇧_GB英国_67
-      - 🇨🇦_CA加拿大_68
-      - 🇨🇦_CA加拿大_69
-      - 🇨🇦_CA加拿大_70
-      - 🇨🇦_CA加拿大_71
-      - 🇨🇦_CA加拿大_72
-      - 🇨🇦_CA加拿大_73
-      - 🇨🇦_CA加拿大_74
-      - 🇨🇦_CA加拿大_75
-      - 🇺🇸_US美国_76
-      - 🇨🇦_CA加拿大_77
-      - 🇨🇦_CA加拿大_78
-      - 🇺🇸_US美国_79
-      - 🇺🇸_US美国_80
-      - 🇺🇸_US美国_81
-      - 🇨🇦_CA加拿大_82
-      - 🇨🇦_CA加拿大_83
-      - 🇨🇦_CA加拿大_84
-      - 🇬🇧_GB英国_85
-      - 🇨🇦_CA加拿大_86
-      - 🇨🇦_CA加拿大_87
-      - 🇨🇦_CA加拿大_88
-      - 🇨🇦_CA加拿大_89
-      - 🇨🇦_CA加拿大_90
-      - 🇨🇦_CA加拿大_91
-      - 🇨🇦_CA加拿大_92
-      - 🇺🇸_US美国_93
-      - 🇫🇷_FR法国_94
-      - 🇫🇷_FR法国_95
-      - 🇺🇸_US美国_96
-      - 🇨🇦_CA加拿大_97
-      - 🇨🇦_CA加拿大_98
-      - 🇨🇦_CA加拿大_99
-      - 🇬🇧_GB英国_100
+      - 新加坡阿伟科技atTG/油管_1
+      - 新加坡阿伟科技atTG/油管_2
+      - 新加坡阿伟科技atTG/油管_3
+      - 香港阿伟科技atTG/油管_4
+      - 香港阿伟科技atTG/油管_5
+      - 香港阿伟科技atTG/油管_6
+      - 香港阿伟科技atTG/油管_7
+      - 香港阿伟科技atTG/油管_8
+      - 香港阿伟科技atTG/油管_9
+      - 香港阿伟科技atTG/油管_10
+      - 香港阿伟科技atTG/油管_11
+      - 香港阿伟科技atTG/油管_12
+      - 香港阿伟科技atTG/油管_13
+      - 香港阿伟科技atTG/油管_14
+      - 香港阿伟科技atTG/油管_15
+      - 日本阿伟科技atTG/油管_16
+      - 日本阿伟科技atTG/油管_17
+      - 日本阿伟科技atTG/油管_18
+      - 日本阿伟科技atTG/油管_19
+      - 日本阿伟科技atTG/油管_20
+      - 日本阿伟科技atTG/油管_21
+      - 美国阿伟科技atTG/油管_22
+      - 美国阿伟科技atTG/油管_23
+      - 美国阿伟科技atTG/油管_24
+      - 美国阿伟科技atTG/油管_25
+      - 美国阿伟科技atTG/油管_26
+      - 美国阿伟科技atTG/油管_27
+      - 美国阿伟科技atTG/油管_28
+      - 美国阿伟科技atTG/油管_29
+      - 美国阿伟科技atTG/油管_30
+      - 美国阿伟科技atTG/油管_31
+      - 美国阿伟科技atTG/油管_32
+      - 美国阿伟科技atTG/油管_33
+      - 加拿大阿伟科技atTG/油管_34
+      - 加拿大阿伟科技atTG/油管_35
+      - 加拿大阿伟科技atTG/油管_36
+      - 加拿大阿伟科技atTG/油管_37
+      - 韩国阿伟科技atTG/油管_38
+      - 韩国阿伟科技atTG/油管_39
+      - 韩国阿伟科技atTG/油管_40
+      - 迪拜阿伟科技atTG/油管_41
+      - 德国阿伟科技atTG/油管_42
+      - 德国阿伟科技atTG/油管_43
+      - 德国阿伟科技atTG/油管_44
+      - 德国阿伟科技atTG/油管_45
+      - 德国阿伟科技atTG/油管_46
+      - 德国阿伟科技atTG/油管_47
+      - 🇬🇧_GB_英国_48
+      - 🇨🇦CA-134_195_196_3-3773_49
+      - 🇨🇦CA-134_195_196_3-0031_50
+      - 🇨🇦CA-134_195_196_12-3716_51
+      - 🇨🇦CA-134_195_196_12-0094_52
+      - 🇨🇦CA-134_195_196_12-0058_53
+      - 🇨🇦CA-134_195_196_12-0057_54
+      - 🇨🇦_CA_加拿大_85
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇨🇦_CA_加拿大_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇨🇦_CA_加拿大_62
+      - 🇨🇦_CA_加拿大_63
+      - 🇦🇶CZ-194_87_106_222-3884_64
+      - ZZ_687
+      - ZZ_681
+      - ZZ_680
+      - ZZ_667
+      - ZZ_665
+      - ZZ_664
+      - ZZ_655
+      - ZZ_629
+      - ZZ_622
+      - ZZ_606
+      - ZZ_605
+      - ZZ_597
+      - ZZ_591
+      - ZZ_583
+      - ZZ_573
+      - ZZ_572
+      - ZZ_557
+      - US_347
+      - US_337
+      - US_2546
+      - US_2522
+      - US_2464
+      - US_2381
+      - US_2358
+      - US_2332
+      - US_2329
+      - US_2256
+      - US_2194
+      - US_2025
+      - US_1986
+      - US_1943
+      - US_1851
+      - US_1825
+      - US_1680
+      - US_1651
+      - US_1587
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US美国_1
-      - 🇬🇧_GB英国_2
-      - 🇬🇧_GB英国_3
-      - 🇨🇦_CA加拿大_4
-      - 🇨🇦_CA加拿大_5
-      - 🇨🇦_CA加拿大_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇨🇦_CA加拿大_9
-      - 🇨🇦_CA加拿大_10
-      - 🇨🇦_CA加拿大_11
-      - 🇺🇸_US美国_12
-      - 🇬🇧_GB英国_13
-      - 🇨🇦_CA加拿大_14
-      - 🇺🇸_US美国_15
-      - 🇺🇸_US美国_16
-      - 🇨🇦_CA加拿大_17
-      - 🇨🇦_CA加拿大_18
-      - 🇨🇦_CA加拿大_19
-      - 🇺🇸_US美国_20
-      - 🇮🇳_IN印度_21
-      - 🇨🇦_CA加拿大_22
-      - 🇫🇷_FR法国_23
-      - 🇨🇦_CA加拿大_24
-      - 🇩🇪_DE德国_25
-      - 🇩🇪_DE德国_26
-      - 🇺🇸_US美国_27
-      - 🇨🇦_CA加拿大_28
-      - 🇨🇦_CA加拿大_29
-      - 🇨🇦_CA加拿大_30
-      - 🇨🇦_CA加拿大_31
-      - 🇺🇸_US美国_32
-      - 🇨🇦_CA加拿大_33
-      - 🇨🇦_CA加拿大_34
-      - 🇨🇦_CA加拿大_35
-      - 🇨🇦_CA加拿大_36
-      - 🇺🇸_US美国_37
-      - 🇨🇦_CA加拿大_38
-      - 🇨🇦_CA加拿大_39
-      - 🇨🇦_CA加拿大_40
-      - 🇯🇵_JP日本_41
-      - 🇺🇸_US美国_42
-      - 🇺🇸_US美国_43
-      - 🇺🇸_US美国_44
-      - 🇺🇸_US美国_45
-      - 🇨🇦_CA加拿大_46
-      - 🇨🇦_CA加拿大_47
-      - 🇨🇦_CA加拿大_48
-      - 🇨🇦_CA加拿大_49
-      - 🇨🇦_CA加拿大_50
-      - 🇨🇦_CA加拿大_51
-      - 🇨🇦_CA加拿大_52
-      - 🇨🇦_CA加拿大_53
-      - 🇨🇦_CA加拿大_54
-      - 🇨🇦_CA加拿大_55
-      - 🇨🇦_CA加拿大_56
-      - 🇨🇦_CA加拿大_57
-      - 🇨🇦_CA加拿大_58
-      - 🇨🇦_CA加拿大_59
-      - 🇨🇦_CA加拿大_60
-      - 🇨🇦_CA加拿大_61
-      - 🇨🇦_CA加拿大_62
-      - 🇨🇦_CA加拿大_63
-      - 🇨🇦_CA加拿大_64
-      - 🇨🇦_CA加拿大_65
-      - 🇨🇦_CA加拿大_66
-      - 🇬🇧_GB英国_67
-      - 🇨🇦_CA加拿大_68
-      - 🇨🇦_CA加拿大_69
-      - 🇨🇦_CA加拿大_70
-      - 🇨🇦_CA加拿大_71
-      - 🇨🇦_CA加拿大_72
-      - 🇨🇦_CA加拿大_73
-      - 🇨🇦_CA加拿大_74
-      - 🇨🇦_CA加拿大_75
-      - 🇺🇸_US美国_76
-      - 🇨🇦_CA加拿大_77
-      - 🇨🇦_CA加拿大_78
-      - 🇺🇸_US美国_79
-      - 🇺🇸_US美国_80
-      - 🇺🇸_US美国_81
-      - 🇨🇦_CA加拿大_82
-      - 🇨🇦_CA加拿大_83
-      - 🇨🇦_CA加拿大_84
-      - 🇬🇧_GB英国_85
-      - 🇨🇦_CA加拿大_86
-      - 🇨🇦_CA加拿大_87
-      - 🇨🇦_CA加拿大_88
-      - 🇨🇦_CA加拿大_89
-      - 🇨🇦_CA加拿大_90
-      - 🇨🇦_CA加拿大_91
-      - 🇨🇦_CA加拿大_92
-      - 🇺🇸_US美国_93
-      - 🇫🇷_FR法国_94
-      - 🇫🇷_FR法国_95
-      - 🇺🇸_US美国_96
-      - 🇨🇦_CA加拿大_97
-      - 🇨🇦_CA加拿大_98
-      - 🇨🇦_CA加拿大_99
-      - 🇬🇧_GB英国_100
+      - 新加坡阿伟科技atTG/油管_1
+      - 新加坡阿伟科技atTG/油管_2
+      - 新加坡阿伟科技atTG/油管_3
+      - 香港阿伟科技atTG/油管_4
+      - 香港阿伟科技atTG/油管_5
+      - 香港阿伟科技atTG/油管_6
+      - 香港阿伟科技atTG/油管_7
+      - 香港阿伟科技atTG/油管_8
+      - 香港阿伟科技atTG/油管_9
+      - 香港阿伟科技atTG/油管_10
+      - 香港阿伟科技atTG/油管_11
+      - 香港阿伟科技atTG/油管_12
+      - 香港阿伟科技atTG/油管_13
+      - 香港阿伟科技atTG/油管_14
+      - 香港阿伟科技atTG/油管_15
+      - 日本阿伟科技atTG/油管_16
+      - 日本阿伟科技atTG/油管_17
+      - 日本阿伟科技atTG/油管_18
+      - 日本阿伟科技atTG/油管_19
+      - 日本阿伟科技atTG/油管_20
+      - 日本阿伟科技atTG/油管_21
+      - 美国阿伟科技atTG/油管_22
+      - 美国阿伟科技atTG/油管_23
+      - 美国阿伟科技atTG/油管_24
+      - 美国阿伟科技atTG/油管_25
+      - 美国阿伟科技atTG/油管_26
+      - 美国阿伟科技atTG/油管_27
+      - 美国阿伟科技atTG/油管_28
+      - 美国阿伟科技atTG/油管_29
+      - 美国阿伟科技atTG/油管_30
+      - 美国阿伟科技atTG/油管_31
+      - 美国阿伟科技atTG/油管_32
+      - 美国阿伟科技atTG/油管_33
+      - 加拿大阿伟科技atTG/油管_34
+      - 加拿大阿伟科技atTG/油管_35
+      - 加拿大阿伟科技atTG/油管_36
+      - 加拿大阿伟科技atTG/油管_37
+      - 韩国阿伟科技atTG/油管_38
+      - 韩国阿伟科技atTG/油管_39
+      - 韩国阿伟科技atTG/油管_40
+      - 迪拜阿伟科技atTG/油管_41
+      - 德国阿伟科技atTG/油管_42
+      - 德国阿伟科技atTG/油管_43
+      - 德国阿伟科技atTG/油管_44
+      - 德国阿伟科技atTG/油管_45
+      - 德国阿伟科技atTG/油管_46
+      - 德国阿伟科技atTG/油管_47
+      - 🇬🇧_GB_英国_48
+      - 🇨🇦CA-134_195_196_3-3773_49
+      - 🇨🇦CA-134_195_196_3-0031_50
+      - 🇨🇦CA-134_195_196_12-3716_51
+      - 🇨🇦CA-134_195_196_12-0094_52
+      - 🇨🇦CA-134_195_196_12-0058_53
+      - 🇨🇦CA-134_195_196_12-0057_54
+      - 🇨🇦_CA_加拿大_85
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇨🇦_CA_加拿大_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇨🇦_CA_加拿大_62
+      - 🇨🇦_CA_加拿大_63
+      - 🇦🇶CZ-194_87_106_222-3884_64
+      - ZZ_687
+      - ZZ_681
+      - ZZ_680
+      - ZZ_667
+      - ZZ_665
+      - ZZ_664
+      - ZZ_655
+      - ZZ_629
+      - ZZ_622
+      - ZZ_606
+      - ZZ_605
+      - ZZ_597
+      - ZZ_591
+      - ZZ_583
+      - ZZ_573
+      - ZZ_572
+      - ZZ_557
+      - US_347
+      - US_337
+      - US_2546
+      - US_2522
+      - US_2464
+      - US_2381
+      - US_2358
+      - US_2332
+      - US_2329
+      - US_2256
+      - US_2194
+      - US_2025
+      - US_1986
+      - US_1943
+      - US_1851
+      - US_1825
+      - US_1680
+      - US_1651
+      - US_1587
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -760,106 +760,106 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US美国_1
-      - 🇬🇧_GB英国_2
-      - 🇬🇧_GB英国_3
-      - 🇨🇦_CA加拿大_4
-      - 🇨🇦_CA加拿大_5
-      - 🇨🇦_CA加拿大_6
-      - 🇨🇦_CA加拿大_7
-      - 🇨🇦_CA加拿大_8
-      - 🇨🇦_CA加拿大_9
-      - 🇨🇦_CA加拿大_10
-      - 🇨🇦_CA加拿大_11
-      - 🇺🇸_US美国_12
-      - 🇬🇧_GB英国_13
-      - 🇨🇦_CA加拿大_14
-      - 🇺🇸_US美国_15
-      - 🇺🇸_US美国_16
-      - 🇨🇦_CA加拿大_17
-      - 🇨🇦_CA加拿大_18
-      - 🇨🇦_CA加拿大_19
-      - 🇺🇸_US美国_20
-      - 🇮🇳_IN印度_21
-      - 🇨🇦_CA加拿大_22
-      - 🇫🇷_FR法国_23
-      - 🇨🇦_CA加拿大_24
-      - 🇩🇪_DE德国_25
-      - 🇩🇪_DE德国_26
-      - 🇺🇸_US美国_27
-      - 🇨🇦_CA加拿大_28
-      - 🇨🇦_CA加拿大_29
-      - 🇨🇦_CA加拿大_30
-      - 🇨🇦_CA加拿大_31
-      - 🇺🇸_US美国_32
-      - 🇨🇦_CA加拿大_33
-      - 🇨🇦_CA加拿大_34
-      - 🇨🇦_CA加拿大_35
-      - 🇨🇦_CA加拿大_36
-      - 🇺🇸_US美国_37
-      - 🇨🇦_CA加拿大_38
-      - 🇨🇦_CA加拿大_39
-      - 🇨🇦_CA加拿大_40
-      - 🇯🇵_JP日本_41
-      - 🇺🇸_US美国_42
-      - 🇺🇸_US美国_43
-      - 🇺🇸_US美国_44
-      - 🇺🇸_US美国_45
-      - 🇨🇦_CA加拿大_46
-      - 🇨🇦_CA加拿大_47
-      - 🇨🇦_CA加拿大_48
-      - 🇨🇦_CA加拿大_49
-      - 🇨🇦_CA加拿大_50
-      - 🇨🇦_CA加拿大_51
-      - 🇨🇦_CA加拿大_52
-      - 🇨🇦_CA加拿大_53
-      - 🇨🇦_CA加拿大_54
-      - 🇨🇦_CA加拿大_55
-      - 🇨🇦_CA加拿大_56
-      - 🇨🇦_CA加拿大_57
-      - 🇨🇦_CA加拿大_58
-      - 🇨🇦_CA加拿大_59
-      - 🇨🇦_CA加拿大_60
-      - 🇨🇦_CA加拿大_61
-      - 🇨🇦_CA加拿大_62
-      - 🇨🇦_CA加拿大_63
-      - 🇨🇦_CA加拿大_64
-      - 🇨🇦_CA加拿大_65
-      - 🇨🇦_CA加拿大_66
-      - 🇬🇧_GB英国_67
-      - 🇨🇦_CA加拿大_68
-      - 🇨🇦_CA加拿大_69
-      - 🇨🇦_CA加拿大_70
-      - 🇨🇦_CA加拿大_71
-      - 🇨🇦_CA加拿大_72
-      - 🇨🇦_CA加拿大_73
-      - 🇨🇦_CA加拿大_74
-      - 🇨🇦_CA加拿大_75
-      - 🇺🇸_US美国_76
-      - 🇨🇦_CA加拿大_77
-      - 🇨🇦_CA加拿大_78
-      - 🇺🇸_US美国_79
-      - 🇺🇸_US美国_80
-      - 🇺🇸_US美国_81
-      - 🇨🇦_CA加拿大_82
-      - 🇨🇦_CA加拿大_83
-      - 🇨🇦_CA加拿大_84
-      - 🇬🇧_GB英国_85
-      - 🇨🇦_CA加拿大_86
-      - 🇨🇦_CA加拿大_87
-      - 🇨🇦_CA加拿大_88
-      - 🇨🇦_CA加拿大_89
-      - 🇨🇦_CA加拿大_90
-      - 🇨🇦_CA加拿大_91
-      - 🇨🇦_CA加拿大_92
-      - 🇺🇸_US美国_93
-      - 🇫🇷_FR法国_94
-      - 🇫🇷_FR法国_95
-      - 🇺🇸_US美国_96
-      - 🇨🇦_CA加拿大_97
-      - 🇨🇦_CA加拿大_98
-      - 🇨🇦_CA加拿大_99
-      - 🇬🇧_GB英国_100
+      - 新加坡阿伟科技atTG/油管_1
+      - 新加坡阿伟科技atTG/油管_2
+      - 新加坡阿伟科技atTG/油管_3
+      - 香港阿伟科技atTG/油管_4
+      - 香港阿伟科技atTG/油管_5
+      - 香港阿伟科技atTG/油管_6
+      - 香港阿伟科技atTG/油管_7
+      - 香港阿伟科技atTG/油管_8
+      - 香港阿伟科技atTG/油管_9
+      - 香港阿伟科技atTG/油管_10
+      - 香港阿伟科技atTG/油管_11
+      - 香港阿伟科技atTG/油管_12
+      - 香港阿伟科技atTG/油管_13
+      - 香港阿伟科技atTG/油管_14
+      - 香港阿伟科技atTG/油管_15
+      - 日本阿伟科技atTG/油管_16
+      - 日本阿伟科技atTG/油管_17
+      - 日本阿伟科技atTG/油管_18
+      - 日本阿伟科技atTG/油管_19
+      - 日本阿伟科技atTG/油管_20
+      - 日本阿伟科技atTG/油管_21
+      - 美国阿伟科技atTG/油管_22
+      - 美国阿伟科技atTG/油管_23
+      - 美国阿伟科技atTG/油管_24
+      - 美国阿伟科技atTG/油管_25
+      - 美国阿伟科技atTG/油管_26
+      - 美国阿伟科技atTG/油管_27
+      - 美国阿伟科技atTG/油管_28
+      - 美国阿伟科技atTG/油管_29
+      - 美国阿伟科技atTG/油管_30
+      - 美国阿伟科技atTG/油管_31
+      - 美国阿伟科技atTG/油管_32
+      - 美国阿伟科技atTG/油管_33
+      - 加拿大阿伟科技atTG/油管_34
+      - 加拿大阿伟科技atTG/油管_35
+      - 加拿大阿伟科技atTG/油管_36
+      - 加拿大阿伟科技atTG/油管_37
+      - 韩国阿伟科技atTG/油管_38
+      - 韩国阿伟科技atTG/油管_39
+      - 韩国阿伟科技atTG/油管_40
+      - 迪拜阿伟科技atTG/油管_41
+      - 德国阿伟科技atTG/油管_42
+      - 德国阿伟科技atTG/油管_43
+      - 德国阿伟科技atTG/油管_44
+      - 德国阿伟科技atTG/油管_45
+      - 德国阿伟科技atTG/油管_46
+      - 德国阿伟科技atTG/油管_47
+      - 🇬🇧_GB_英国_48
+      - 🇨🇦CA-134_195_196_3-3773_49
+      - 🇨🇦CA-134_195_196_3-0031_50
+      - 🇨🇦CA-134_195_196_12-3716_51
+      - 🇨🇦CA-134_195_196_12-0094_52
+      - 🇨🇦CA-134_195_196_12-0058_53
+      - 🇨🇦CA-134_195_196_12-0057_54
+      - 🇨🇦_CA_加拿大_85
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇨🇦_CA_加拿大_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇨🇦_CA_加拿大_62
+      - 🇨🇦_CA_加拿大_63
+      - 🇦🇶CZ-194_87_106_222-3884_64
+      - ZZ_687
+      - ZZ_681
+      - ZZ_680
+      - ZZ_667
+      - ZZ_665
+      - ZZ_664
+      - ZZ_655
+      - ZZ_629
+      - ZZ_622
+      - ZZ_606
+      - ZZ_605
+      - ZZ_597
+      - ZZ_591
+      - ZZ_583
+      - ZZ_573
+      - ZZ_572
+      - ZZ_557
+      - US_347
+      - US_337
+      - US_2546
+      - US_2522
+      - US_2464
+      - US_2381
+      - US_2358
+      - US_2332
+      - US_2329
+      - US_2256
+      - US_2194
+      - US_2025
+      - US_1986
+      - US_1943
+      - US_1851
+      - US_1825
+      - US_1680
+      - US_1651
+      - US_1587
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
