@@ -739,6 +739,18 @@ proxies:
   - {name: Singapore 2, server: 103.172.116.9, port: 9099, type: ss, cipher: aes-256-cfb, password: 7heRqkPG3hg4UnRm, udp: true}
   - {name: Singapore 3, server: 103.172.116.6, port: 9099, type: ss, cipher: aes-256-cfb, password: 7heRqkPG3hg4UnRm, udp: true}
   - {name: Singapore 4, server: 103.172.116.7, port: 9099, type: ss, cipher: aes-256-cfb, password: 7heRqkPG3hg4UnRm, udp: true}
+  - {name: 俄罗斯A, server: 46.29.161.170, port: 9677, type: ssr, cipher: rc4, password: lncn.org 5f, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯B, server: 46.29.165.18, port: 9677, type: ssr, cipher: rc4, password: lncn.org 5f, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯C, server: 46.29.164.147, port: 9677, type: ssr, cipher: rc4, password: lncn.org 5f, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯D, server: 46.17.46.241, port: 9677, type: ssr, cipher: rc4, password: lncn.org 5f, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯E, server: 193.233.16.243, port: 9677, type: ssr, cipher: rc4, password: lncn.org 8r, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯F, server: 195.245.239.15, port: 9677, type: ssr, cipher: rc4, password: lncn.org 8r, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯G, server: 45.8.158.201, port: 9677, type: ssr, cipher: rc4, password: lncn.org 8r, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯H, server: 46.29.160.130, port: 9677, type: ssr, cipher: rc4, password: lncn.org 8d, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯I, server: 45.89.228.106, port: 9677, type: ssr, cipher: rc4, password: lncn.org 3c, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯J, server: 45.130.147.192, port: 9677, type: ssr, cipher: rc4, password: lncn.org 3c, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯K, server: 194.5.78.202, port: 9677, type: ssr, cipher: rc4, password: lncn.org 3c, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯L, server: 91.206.92.61, port: 9677, type: ssr, cipher: rc4, password: lncn.org 3c, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2056,6 +2068,18 @@ proxy-groups:
       - Singapore 2
       - Singapore 3
       - Singapore 4
+      - 俄罗斯A
+      - 俄罗斯B
+      - 俄罗斯C
+      - 俄罗斯D
+      - 俄罗斯E
+      - 俄罗斯F
+      - 俄罗斯G
+      - 俄罗斯H
+      - 俄罗斯I
+      - 俄罗斯J
+      - 俄罗斯K
+      - 俄罗斯L
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3362,6 +3386,18 @@ proxy-groups:
       - Singapore 2
       - Singapore 3
       - Singapore 4
+      - 俄罗斯A
+      - 俄罗斯B
+      - 俄罗斯C
+      - 俄罗斯D
+      - 俄罗斯E
+      - 俄罗斯F
+      - 俄罗斯G
+      - 俄罗斯H
+      - 俄罗斯I
+      - 俄罗斯J
+      - 俄罗斯K
+      - 俄罗斯L
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
