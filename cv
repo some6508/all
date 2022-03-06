@@ -680,21 +680,224 @@ proxies:
   - {name: Singapore 2, server: 103.172.116.9, port: 9099, type: ss, cipher: aes-256-cfb, password: 7heRqkPG3hg4UnRm, udp: true}
   - {name: Singapore 3, server: 103.172.116.6, port: 9099, type: ss, cipher: aes-256-cfb, password: 7heRqkPG3hg4UnRm, udp: true}
   - {name: Singapore 4, server: 103.172.116.7, port: 9099, type: ss, cipher: aes-256-cfb, password: 7heRqkPG3hg4UnRm, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.12, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大 3, server: 134.195.196.12, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大 4, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大 5, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大 6, server: 134.195.196.12, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大 7, server: 134.195.196.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 8, server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 9, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大 10, server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 11, server: 134.195.196.12, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大 12, server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 13, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大 14, server: 134.195.196.12, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大 15, server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: OK_加拿大_1, server: 134.195.196.12, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_波兰_2, server: pl-waw-01-tr.cdn.savoy.click, port: 889, type: trojan, password: nodnqJmXykIChRXUqqodCfhcWhtFglJX, skip-cert-verify: true, udp: true}
+  - {name: OK_加拿大_3, server: 134.195.196.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: OK_加拿大_4, server: 134.195.196.12, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_美国_5, server: saipa.iranecar.com, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/vmess-share/?ed=2048", headers: {Host: ruvds.testx.eu.org}}, udp: true}
+  - {name: OK_美国_6, server: 38.64.138.145, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_加拿大_7, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: OK_加拿大_8, server: 134.195.196.12, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_美国_9, server: 39.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
+  - {name: OK_美国_10, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: OK_加拿大_11, server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_加拿大_12, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: OK_美国_13, server: 169.197.142.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: OK_加拿大_14, server: 134.195.196.12, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: OK_法国_15, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: OK_加拿大_16, server: 134.195.196.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: OK_加拿大_17, server: 134.195.196.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: OK_加拿大_18, server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: OK_加拿大_19, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_加拿大_20, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_美国_21, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: OK_加拿大_22, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: OK_加拿大_23, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: OK_加拿大_24, server: 134.195.196.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: OK_美国_25, server: 169.197.142.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: OK_美国_26, server: 169.197.142.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_加拿大_27, server: 134.195.196.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_加拿大_28, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_中国_29, server: pmhz.wokuaitule.xyz, port: 20004, type: vmess, uuid: 156a3437-a9e7-3358-9d0d-f04229ab0e44, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 04.wokuaitule.xyz}}, udp: true}
+  - {name: OK_日本_30, server: 3.115.11.163, port: 80, type: vmess, uuid: b898423b-4151-4926-ac9e-d6aa4ae400e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}, udp: true}
+  - {name: OK_美国_31, server: 158.101.23.126, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: miaoge110, udp: true}
+  - {name: OK_美国_32, server: 150.230.40.8, port: 29036, type: vmess, uuid: 8e5708d2-7c39-4e65-aab0-8ae53444a47a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: OK_韩国_33, server: 146.56.110.246, port: 45177, type: vmess, uuid: c2f1ae57-7ada-4bac-f510-a8336c8708dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: OK_澳大利亚_34, server: 129.154.50.0, port: 29363, type: vmess, uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: OK_阿联酋_35, server: 193.123.83.36, port: 53920, type: vmess, uuid: d962ab66-3f72-4e99-888c-34bffa421c55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: OK_加拿大_36, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: OK_加拿大_37, server: 134.195.196.12, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: OK_加拿大_38, server: 134.195.196.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: OK_加拿大_39, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: OK_加拿大_40, server: 134.195.196.68, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: OK_加拿大_41, server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: OK_加拿大_42, server: 134.195.196.12, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: OK_加拿大_43, server: 134.195.196.12, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: OK_加拿大_44, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: OK_加拿大_45, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: OK_加拿大_46, server: 134.195.196.12, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: OK_加拿大_47, server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: OK_美国_48, server: 169.197.142.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: OK_加拿大_49, server: 134.195.196.12, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: OK_美国_50, server: 142.202.48.105, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_法国_51, server: 51.255.66.185, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: OK_日本_52, server: jp19.holiganfan.com, port: 10088, type: trojan, password: 34963c3a-9a60-496d-b27e-41e1cd6b9b9d, skip-cert-verify: true, udp: true}
+  - {name: OK_美国_53, server: 38.64.138.145, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: OK_加拿大_54, server: 134.195.196.12, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_加拿大_55, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_德国_56, server: 193.108.117.75, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: OK_美国_57, server: 169.197.142.187, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: OK_德国_58, server: 193.108.117.75, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_德国_59, server: 193.108.117.75, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: OK_德国_60, server: 193.108.117.75, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: OK_德国_61, server: 193.108.117.75, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_加拿大_62, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: OK_加拿大_63, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: OK_美国_64, server: 38.91.102.86, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: OK_德国_65, server: 193.108.117.75, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: OK_德国_66, server: 193.108.117.75, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: OK_德国_67, server: 193.108.117.75, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: OK_美国_68, server: 169.197.142.187, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_加拿大_69, server: 134.195.196.12, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: OK_美国_70, server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_德国_71, server: 193.108.117.75, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: OK_日本_72, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 172.105.222.98}}, udp: true}
+  - {name: OK_德国_73, server: 193.108.117.75, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: OK_美国_74, server: 38.91.102.86, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_德国_75, server: 193.108.117.75, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: OK_加拿大_76, server: 134.195.196.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: OK_德国_77, server: 193.108.117.75, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: OK_加拿大_78, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: OK_美国_79, server: gcusfree.galaxycloud.buzz, port: 443, type: vmess, uuid: 4c330a26-5aef-4f7e-9193-f2548a200a62, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /0DGCTPQ, headers: {Host: gcusfree.galaxycloud.buzz}}, udp: true}
+  - {name: OK_加拿大_80, server: 198.57.27.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_日本_81, server: 172.104.82.126, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_加拿大_82, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_美国_83, server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_美国_84, server: 38.143.66.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: OK_英国_85, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: OK_加拿大_86, server: 198.57.27.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_美国_87, server: 38.143.66.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_德国_88, server: 193.108.117.75, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: OK_加拿大_89, server: 134.195.196.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_美国_90, server: 38.143.66.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: OK_美国_91, server: 38.64.138.145, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: OK_德国_92, server: 193.108.117.75, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: OK_英国_93, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: OK_加拿大_94, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: OK_加拿大_95, server: 134.195.196.12, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: OK_加拿大_96, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: OK_加拿大_97, server: 134.195.196.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: OK_美国_98, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: OK_美国_99, server: linodeusfree1.galaxycloud.buzz, port: 443, type: vmess, uuid: 4c330a26-5aef-4f7e-9193-f2548a200a62, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xnzogRmfh, headers: {Host: linodeusfree1.galaxycloud.buzz}}, udp: true}
+  - {name: OK_美国_100, server: 169.197.142.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: OK_德国_101, server: 31.22.108.243, port: 12856, type: vmess, uuid: d3409b56-49d4-4f30-b093-b71fef2c3382, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: OK_美国_102, server: 169.197.142.187, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: OK_加拿大_103, server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_美国_104, server: 38.64.138.145, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: OK_美国_105, server: 38.64.138.145, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: OK_美国_106, server: 167.88.63.79, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: OK_美国_107, server: 169.197.142.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_美国_108, server: 169.197.142.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: OK_美国_109, server: 167.88.63.79, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: OK_英国_110, server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: OK_美国_111, server: 38.64.138.145, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: OK_美国_112, server: 38.64.138.145, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: OK_美国_113, server: 38.64.138.145, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_英国_114, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_115, server: 104.16.181.150, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws/?ed=2048", headers: {Host: download.china666.ml}}, udp: true}
+  - {name: OK_香港_116, server: stg88.stgchannelxyzroute.xyz, port: 443, type: vmess, uuid: 329107b6-739f-4d72-9295-cfc533197a39, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: stg88.stgchannelxyzroute.xyz}}, udp: true}
+  - {name: OK_美国_117, server: 38.64.138.145, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_美国_118, server: 38.64.138.145, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: OK_美国_119, server: 38.64.138.145, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_美国_120, server: 38.64.138.145, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: OK_加拿大_121, server: 134.195.196.12, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_美国_122, server: 38.64.138.145, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: OK_美国_123, server: 38.64.138.145, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: OK_美国_124, server: 38.64.138.145, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: OK_美国_125, server: 38.64.138.145, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_美国_126, server: 38.64.138.145, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: OK_加拿大_127, server: 134.195.196.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_美国_128, server: 169.197.142.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_美国_129, server: 169.197.142.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: OK_美国_130, server: 38.64.138.145, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_加拿大_131, server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_加拿大_132, server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: OK_日本_133, server: 185.160.26.181, port: 890, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz, udp: true}
+  - {name: OK_日本_134, server: 172.105.234.211, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: OK_加拿大_135, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_美国_136, server: 142.202.48.105, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_加拿大_137, server: 198.57.27.218, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: OK_加拿大_138, server: 198.57.27.218, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: OK_加拿大_139, server: 198.57.27.218, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_加拿大_140, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: OK_加拿大_141, server: 198.57.27.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: OK_加拿大_142, server: 134.195.196.12, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: OK_英国_143, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: OK_英国_144, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: OK_加拿大_145, server: 198.57.27.218, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: OK_加拿大_146, server: 198.57.27.218, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: OK_加拿大_147, server: 134.195.196.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: OK_加拿大_148, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: OK_加拿大_149, server: 198.57.27.218, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: OK_加拿大_150, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: OK_加拿大_151, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_新加坡_152, server: ce.xjp.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: ce.xjp.tgproxy.wtf}}, udp: true}
+  - {name: OK_加拿大_153, server: 198.57.27.218, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: OK_加拿大_154, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: OK_加拿大_155, server: 198.57.27.218, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: OK_加拿大_156, server: 198.57.27.218, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: OK_加拿大_157, server: 134.195.196.12, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: OK_加拿大_158, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_加拿大_159, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: OK_加拿大_160, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: OK_加拿大_161, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_加拿大_162, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: OK_加拿大_163, server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: OK_美国_164, server: 169.197.142.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: OK_日本_165, server: jp4.bpyun.live, port: 443, type: vmess, uuid: 73328412-247e-3f17-9ca9-36213d9402d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cocksucker, headers: {Host: jp4.bpyun.live}}, udp: true}
+  - {name: OK_新加坡_166, server: sg27.holiganfan.com, port: 10088, type: trojan, password: 34963c3a-9a60-496d-b27e-41e1cd6b9b9d, skip-cert-verify: true, udp: true}
+  - {name: OK_中国_167, server: us28.holiganfan.com, port: 10088, type: trojan, password: 34963c3a-9a60-496d-b27e-41e1cd6b9b9d, skip-cert-verify: true, udp: true}
+  - {name: OK_德国_168, server: 193.108.117.75, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_加拿大_169, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: OK_加拿大_170, server: 134.195.196.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_德国_171, server: 194.195.240.132, port: 33210, type: vmess, uuid: f46d05d6-8d41-4e0a-993e-e2658ac29f85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: OK_加拿大_172, server: 134.195.196.12, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_英国_173, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: OK_加拿大_174, server: 134.195.196.12, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: OK_加拿大_175, server: 134.195.196.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_德国_176, server: 193.108.117.75, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_新加坡_177, server: 172.104.168.83, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: OK_加拿大_178, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: OK_美国_179, server: 169.197.142.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_加拿大_180, server: 134.195.196.12, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: OK_新加坡_181, server: 172.104.168.83, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_新加坡_182, server: 172.104.168.83, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: OK_新加坡_183, server: 172.104.168.83, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: OK_新加坡_184, server: 172.104.168.83, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: OK_新加坡_185, server: 172.104.168.83, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: OK_新加坡_186, server: 172.104.168.83, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: OK_新加坡_187, server: 172.104.168.83, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: OK_新加坡_188, server: 172.104.168.83, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_新加坡_189, server: 172.104.168.83, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_加拿大_190, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: OK_新加坡_191, server: 172.104.168.83, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: OK_加拿大_192, server: 134.195.196.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: OK_加拿大_193, server: 134.195.196.12, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_法国_194, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: OK_美国_195, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: OK_加拿大_196, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_加拿大_197, server: 134.195.196.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: OK_加拿大_198, server: 134.195.196.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: OK_加拿大_199, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: OK_加拿大_200, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_德国_201, server: 193.108.117.75, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: OK_加拿大_202, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: OK_美国_203, server: 169.197.142.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: OK_英国_204, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: OK_新加坡_205, server: 172.104.168.83, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: OK_美国_206, server: 169.197.142.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: OK_法国_207, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: OK_日本_208, server: 172.105.205.190, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: OK_马来西亚_209, server: mydf.sczssr.xyz, port: 50006, type: ss, cipher: aes-256-gcm, password: 70b19847-0370-447c-9f02-1dfde7a5e36c, udp: true}
+  - {name: OK_印度_210, server: 192.46.209.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_印度_211, server: 172.105.43.19, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: OK_法国_212, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: OK_加拿大_213, server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: OK_214, server: www.digitalocean.com, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws/?ed=2048", headers: {Host: download.china666.ml}}, udp: true}
+  - {name: OK_荷兰_215, server: 154.84.1.250, port: 443, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/243535322906, headers: {Host: www.77555071.xyz}}, udp: true}
+  - {name: OK_216, server: 104.16.181.103, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws/?ed=2048", headers: {Host: download.china666.ml}}, udp: true}
+  - {name: OK_美国_217, server: 169.197.142.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: OK_218, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1909,21 +2112,224 @@ proxy-groups:
       - Singapore 2
       - Singapore 3
       - Singapore 4
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - _CA_加拿大 5
-      - _CA_加拿大 6
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - _CA_加拿大 9
-      - _CA_加拿大 10
-      - _CA_加拿大 11
-      - _CA_加拿大 12
-      - _CA_加拿大 13
-      - _CA_加拿大 14
-      - _CA_加拿大 15
+      - OK_加拿大_1
+      - OK_波兰_2
+      - OK_加拿大_3
+      - OK_加拿大_4
+      - OK_美国_5
+      - OK_美国_6
+      - OK_加拿大_7
+      - OK_加拿大_8
+      - OK_美国_9
+      - OK_美国_10
+      - OK_加拿大_11
+      - OK_加拿大_12
+      - OK_美国_13
+      - OK_加拿大_14
+      - OK_法国_15
+      - OK_加拿大_16
+      - OK_加拿大_17
+      - OK_加拿大_18
+      - OK_加拿大_19
+      - OK_加拿大_20
+      - OK_美国_21
+      - OK_加拿大_22
+      - OK_加拿大_23
+      - OK_加拿大_24
+      - OK_美国_25
+      - OK_美国_26
+      - OK_加拿大_27
+      - OK_加拿大_28
+      - OK_中国_29
+      - OK_日本_30
+      - OK_美国_31
+      - OK_美国_32
+      - OK_韩国_33
+      - OK_澳大利亚_34
+      - OK_阿联酋_35
+      - OK_加拿大_36
+      - OK_加拿大_37
+      - OK_加拿大_38
+      - OK_加拿大_39
+      - OK_加拿大_40
+      - OK_加拿大_41
+      - OK_加拿大_42
+      - OK_加拿大_43
+      - OK_加拿大_44
+      - OK_加拿大_45
+      - OK_加拿大_46
+      - OK_加拿大_47
+      - OK_美国_48
+      - OK_加拿大_49
+      - OK_美国_50
+      - OK_法国_51
+      - OK_日本_52
+      - OK_美国_53
+      - OK_加拿大_54
+      - OK_加拿大_55
+      - OK_德国_56
+      - OK_美国_57
+      - OK_德国_58
+      - OK_德国_59
+      - OK_德国_60
+      - OK_德国_61
+      - OK_加拿大_62
+      - OK_加拿大_63
+      - OK_美国_64
+      - OK_德国_65
+      - OK_德国_66
+      - OK_德国_67
+      - OK_美国_68
+      - OK_加拿大_69
+      - OK_美国_70
+      - OK_德国_71
+      - OK_日本_72
+      - OK_德国_73
+      - OK_美国_74
+      - OK_德国_75
+      - OK_加拿大_76
+      - OK_德国_77
+      - OK_加拿大_78
+      - OK_美国_79
+      - OK_加拿大_80
+      - OK_日本_81
+      - OK_加拿大_82
+      - OK_美国_83
+      - OK_美国_84
+      - OK_英国_85
+      - OK_加拿大_86
+      - OK_美国_87
+      - OK_德国_88
+      - OK_加拿大_89
+      - OK_美国_90
+      - OK_美国_91
+      - OK_德国_92
+      - OK_英国_93
+      - OK_加拿大_94
+      - OK_加拿大_95
+      - OK_加拿大_96
+      - OK_加拿大_97
+      - OK_美国_98
+      - OK_美国_99
+      - OK_美国_100
+      - OK_德国_101
+      - OK_美国_102
+      - OK_加拿大_103
+      - OK_美国_104
+      - OK_美国_105
+      - OK_美国_106
+      - OK_美国_107
+      - OK_美国_108
+      - OK_美国_109
+      - OK_英国_110
+      - OK_美国_111
+      - OK_美国_112
+      - OK_美国_113
+      - OK_英国_114
+      - OK_115
+      - OK_香港_116
+      - OK_美国_117
+      - OK_美国_118
+      - OK_美国_119
+      - OK_美国_120
+      - OK_加拿大_121
+      - OK_美国_122
+      - OK_美国_123
+      - OK_美国_124
+      - OK_美国_125
+      - OK_美国_126
+      - OK_加拿大_127
+      - OK_美国_128
+      - OK_美国_129
+      - OK_美国_130
+      - OK_加拿大_131
+      - OK_加拿大_132
+      - OK_日本_133
+      - OK_日本_134
+      - OK_加拿大_135
+      - OK_美国_136
+      - OK_加拿大_137
+      - OK_加拿大_138
+      - OK_加拿大_139
+      - OK_加拿大_140
+      - OK_加拿大_141
+      - OK_加拿大_142
+      - OK_英国_143
+      - OK_英国_144
+      - OK_加拿大_145
+      - OK_加拿大_146
+      - OK_加拿大_147
+      - OK_加拿大_148
+      - OK_加拿大_149
+      - OK_加拿大_150
+      - OK_加拿大_151
+      - OK_新加坡_152
+      - OK_加拿大_153
+      - OK_加拿大_154
+      - OK_加拿大_155
+      - OK_加拿大_156
+      - OK_加拿大_157
+      - OK_加拿大_158
+      - OK_加拿大_159
+      - OK_加拿大_160
+      - OK_加拿大_161
+      - OK_加拿大_162
+      - OK_加拿大_163
+      - OK_美国_164
+      - OK_日本_165
+      - OK_新加坡_166
+      - OK_中国_167
+      - OK_德国_168
+      - OK_加拿大_169
+      - OK_加拿大_170
+      - OK_德国_171
+      - OK_加拿大_172
+      - OK_英国_173
+      - OK_加拿大_174
+      - OK_加拿大_175
+      - OK_德国_176
+      - OK_新加坡_177
+      - OK_加拿大_178
+      - OK_美国_179
+      - OK_加拿大_180
+      - OK_新加坡_181
+      - OK_新加坡_182
+      - OK_新加坡_183
+      - OK_新加坡_184
+      - OK_新加坡_185
+      - OK_新加坡_186
+      - OK_新加坡_187
+      - OK_新加坡_188
+      - OK_新加坡_189
+      - OK_加拿大_190
+      - OK_新加坡_191
+      - OK_加拿大_192
+      - OK_加拿大_193
+      - OK_法国_194
+      - OK_美国_195
+      - OK_加拿大_196
+      - OK_加拿大_197
+      - OK_加拿大_198
+      - OK_加拿大_199
+      - OK_加拿大_200
+      - OK_德国_201
+      - OK_加拿大_202
+      - OK_美国_203
+      - OK_英国_204
+      - OK_新加坡_205
+      - OK_美国_206
+      - OK_法国_207
+      - OK_日本_208
+      - OK_马来西亚_209
+      - OK_印度_210
+      - OK_印度_211
+      - OK_法国_212
+      - OK_加拿大_213
+      - OK_214
+      - OK_荷兰_215
+      - OK_216
+      - OK_美国_217
+      - OK_218
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3127,21 +3533,224 @@ proxy-groups:
       - Singapore 2
       - Singapore 3
       - Singapore 4
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - _CA_加拿大 5
-      - _CA_加拿大 6
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - _CA_加拿大 9
-      - _CA_加拿大 10
-      - _CA_加拿大 11
-      - _CA_加拿大 12
-      - _CA_加拿大 13
-      - _CA_加拿大 14
-      - _CA_加拿大 15
+      - OK_加拿大_1
+      - OK_波兰_2
+      - OK_加拿大_3
+      - OK_加拿大_4
+      - OK_美国_5
+      - OK_美国_6
+      - OK_加拿大_7
+      - OK_加拿大_8
+      - OK_美国_9
+      - OK_美国_10
+      - OK_加拿大_11
+      - OK_加拿大_12
+      - OK_美国_13
+      - OK_加拿大_14
+      - OK_法国_15
+      - OK_加拿大_16
+      - OK_加拿大_17
+      - OK_加拿大_18
+      - OK_加拿大_19
+      - OK_加拿大_20
+      - OK_美国_21
+      - OK_加拿大_22
+      - OK_加拿大_23
+      - OK_加拿大_24
+      - OK_美国_25
+      - OK_美国_26
+      - OK_加拿大_27
+      - OK_加拿大_28
+      - OK_中国_29
+      - OK_日本_30
+      - OK_美国_31
+      - OK_美国_32
+      - OK_韩国_33
+      - OK_澳大利亚_34
+      - OK_阿联酋_35
+      - OK_加拿大_36
+      - OK_加拿大_37
+      - OK_加拿大_38
+      - OK_加拿大_39
+      - OK_加拿大_40
+      - OK_加拿大_41
+      - OK_加拿大_42
+      - OK_加拿大_43
+      - OK_加拿大_44
+      - OK_加拿大_45
+      - OK_加拿大_46
+      - OK_加拿大_47
+      - OK_美国_48
+      - OK_加拿大_49
+      - OK_美国_50
+      - OK_法国_51
+      - OK_日本_52
+      - OK_美国_53
+      - OK_加拿大_54
+      - OK_加拿大_55
+      - OK_德国_56
+      - OK_美国_57
+      - OK_德国_58
+      - OK_德国_59
+      - OK_德国_60
+      - OK_德国_61
+      - OK_加拿大_62
+      - OK_加拿大_63
+      - OK_美国_64
+      - OK_德国_65
+      - OK_德国_66
+      - OK_德国_67
+      - OK_美国_68
+      - OK_加拿大_69
+      - OK_美国_70
+      - OK_德国_71
+      - OK_日本_72
+      - OK_德国_73
+      - OK_美国_74
+      - OK_德国_75
+      - OK_加拿大_76
+      - OK_德国_77
+      - OK_加拿大_78
+      - OK_美国_79
+      - OK_加拿大_80
+      - OK_日本_81
+      - OK_加拿大_82
+      - OK_美国_83
+      - OK_美国_84
+      - OK_英国_85
+      - OK_加拿大_86
+      - OK_美国_87
+      - OK_德国_88
+      - OK_加拿大_89
+      - OK_美国_90
+      - OK_美国_91
+      - OK_德国_92
+      - OK_英国_93
+      - OK_加拿大_94
+      - OK_加拿大_95
+      - OK_加拿大_96
+      - OK_加拿大_97
+      - OK_美国_98
+      - OK_美国_99
+      - OK_美国_100
+      - OK_德国_101
+      - OK_美国_102
+      - OK_加拿大_103
+      - OK_美国_104
+      - OK_美国_105
+      - OK_美国_106
+      - OK_美国_107
+      - OK_美国_108
+      - OK_美国_109
+      - OK_英国_110
+      - OK_美国_111
+      - OK_美国_112
+      - OK_美国_113
+      - OK_英国_114
+      - OK_115
+      - OK_香港_116
+      - OK_美国_117
+      - OK_美国_118
+      - OK_美国_119
+      - OK_美国_120
+      - OK_加拿大_121
+      - OK_美国_122
+      - OK_美国_123
+      - OK_美国_124
+      - OK_美国_125
+      - OK_美国_126
+      - OK_加拿大_127
+      - OK_美国_128
+      - OK_美国_129
+      - OK_美国_130
+      - OK_加拿大_131
+      - OK_加拿大_132
+      - OK_日本_133
+      - OK_日本_134
+      - OK_加拿大_135
+      - OK_美国_136
+      - OK_加拿大_137
+      - OK_加拿大_138
+      - OK_加拿大_139
+      - OK_加拿大_140
+      - OK_加拿大_141
+      - OK_加拿大_142
+      - OK_英国_143
+      - OK_英国_144
+      - OK_加拿大_145
+      - OK_加拿大_146
+      - OK_加拿大_147
+      - OK_加拿大_148
+      - OK_加拿大_149
+      - OK_加拿大_150
+      - OK_加拿大_151
+      - OK_新加坡_152
+      - OK_加拿大_153
+      - OK_加拿大_154
+      - OK_加拿大_155
+      - OK_加拿大_156
+      - OK_加拿大_157
+      - OK_加拿大_158
+      - OK_加拿大_159
+      - OK_加拿大_160
+      - OK_加拿大_161
+      - OK_加拿大_162
+      - OK_加拿大_163
+      - OK_美国_164
+      - OK_日本_165
+      - OK_新加坡_166
+      - OK_中国_167
+      - OK_德国_168
+      - OK_加拿大_169
+      - OK_加拿大_170
+      - OK_德国_171
+      - OK_加拿大_172
+      - OK_英国_173
+      - OK_加拿大_174
+      - OK_加拿大_175
+      - OK_德国_176
+      - OK_新加坡_177
+      - OK_加拿大_178
+      - OK_美国_179
+      - OK_加拿大_180
+      - OK_新加坡_181
+      - OK_新加坡_182
+      - OK_新加坡_183
+      - OK_新加坡_184
+      - OK_新加坡_185
+      - OK_新加坡_186
+      - OK_新加坡_187
+      - OK_新加坡_188
+      - OK_新加坡_189
+      - OK_加拿大_190
+      - OK_新加坡_191
+      - OK_加拿大_192
+      - OK_加拿大_193
+      - OK_法国_194
+      - OK_美国_195
+      - OK_加拿大_196
+      - OK_加拿大_197
+      - OK_加拿大_198
+      - OK_加拿大_199
+      - OK_加拿大_200
+      - OK_德国_201
+      - OK_加拿大_202
+      - OK_美国_203
+      - OK_英国_204
+      - OK_新加坡_205
+      - OK_美国_206
+      - OK_法国_207
+      - OK_日本_208
+      - OK_马来西亚_209
+      - OK_印度_210
+      - OK_印度_211
+      - OK_法国_212
+      - OK_加拿大_213
+      - OK_214
+      - OK_荷兰_215
+      - OK_216
+      - OK_美国_217
+      - OK_218
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3859,6 +4468,7 @@ proxy-groups:
       - 香港（YouTube资源分享者） 13
       - sunny11香港hk
       - sunny13香港hkc
+      - OK_香港_116
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -3939,6 +4549,14 @@ proxy-groups:
       - 日本2号 2
       - 日本1号 2
       - 日本2号 4
+      - OK_日本_30
+      - OK_日本_52
+      - OK_日本_72
+      - OK_日本_81
+      - OK_日本_133
+      - OK_日本_134
+      - OK_日本_165
+      - OK_日本_208
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -4145,6 +4763,62 @@ proxy-groups:
       - 美国10号
       - 美国11号
       - USA
+      - OK_美国_5
+      - OK_美国_6
+      - OK_美国_9
+      - OK_美国_10
+      - OK_美国_13
+      - OK_美国_21
+      - OK_美国_25
+      - OK_美国_26
+      - OK_美国_31
+      - OK_美国_32
+      - OK_美国_48
+      - OK_美国_50
+      - OK_美国_53
+      - OK_美国_57
+      - OK_美国_64
+      - OK_美国_68
+      - OK_美国_70
+      - OK_美国_74
+      - OK_美国_79
+      - OK_美国_83
+      - OK_美国_84
+      - OK_美国_87
+      - OK_美国_90
+      - OK_美国_91
+      - OK_美国_98
+      - OK_美国_99
+      - OK_美国_100
+      - OK_美国_102
+      - OK_美国_104
+      - OK_美国_105
+      - OK_美国_106
+      - OK_美国_107
+      - OK_美国_108
+      - OK_美国_109
+      - OK_美国_111
+      - OK_美国_112
+      - OK_美国_113
+      - OK_美国_117
+      - OK_美国_118
+      - OK_美国_119
+      - OK_美国_120
+      - OK_美国_122
+      - OK_美国_123
+      - OK_美国_124
+      - OK_美国_125
+      - OK_美国_126
+      - OK_美国_128
+      - OK_美国_129
+      - OK_美国_130
+      - OK_美国_136
+      - OK_美国_164
+      - OK_美国_179
+      - OK_美国_195
+      - OK_美国_203
+      - OK_美国_206
+      - OK_美国_217
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -4307,6 +4981,20 @@ proxy-groups:
       - Singapore 2
       - Singapore 3
       - Singapore 4
+      - OK_新加坡_152
+      - OK_新加坡_166
+      - OK_新加坡_177
+      - OK_新加坡_181
+      - OK_新加坡_182
+      - OK_新加坡_183
+      - OK_新加坡_184
+      - OK_新加坡_185
+      - OK_新加坡_186
+      - OK_新加坡_187
+      - OK_新加坡_188
+      - OK_新加坡_189
+      - OK_新加坡_191
+      - OK_新加坡_205
       - 新加坡（YouTube资源分享者） 2
       - _新加坡_ChenX-2022.03.05_32
       - 18新加坡∞中转
@@ -4323,6 +5011,7 @@ proxy-groups:
     interval: 300
     proxies:
       - sunny08韩国Kr
+      - OK_韩国_33
       - _韩国_ChenX-2022.03.05_44
       - 01日韩频道 t.me/shoucangav
   - name: 🎥 奈飞节点
