@@ -5,18 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国_1, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: cloudflare.a-yu.xyz}}, udp: true}
-  - {name: _CA_加拿大_2, server: 134.195.196.68, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国_3, server: 79.110.54.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: _US_美国_4, server: 38.143.66.71, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _GB_英国_5, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国_6, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大_7, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: default_name_8, server: cm.db-link.in, port: 443, type: vmess, uuid: 64e167a8-5cf1-3bbc-866e-13e43b97dda0, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: cm.db-link.in}}, udp: true}
-  - {name: _CA_加拿大_9, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_10, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _FR_法国_11, server: 51.255.66.185, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国_12, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: _CA_加拿大_1, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君) 2, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 0306us09.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0306us09.fans8.xyz}}, udp: true}
@@ -884,66 +873,11 @@ proxies:
   - {name: 30美国∞直连, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 31香港∞中转, server: 183.232.56.161, port: 1101, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
   - {name: 32香港∞中转, server: 183.232.56.161, port: 1612, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
-  - {name: 154.53.48.32:9595, server: 154.53.48.32, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 161.97.173.145:9595, server: 161.97.173.145, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 137.74.76.58:9595, server: 137.74.76.58, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 149.202.154.142:9595, server: 149.202.154.142, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 164.132.83.172:9595, server: 164.132.83.172, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 161.97.103.27:9595, server: 161.97.103.27, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 161.97.104.34:9595, server: 161.97.104.34, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 161.97.104.42:9595, server: 161.97.104.42, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 161.97.70.81:9595, server: 161.97.70.81, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 161.97.173.145:9595 2, server: 161.97.173.145, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 161.97.173.149:9595, server: 161.97.173.149, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 161.97.173.187:9595, server: 161.97.173.187, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 161.97.173.203:9595, server: 161.97.173.203, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Germany 🇩🇪 1, server: 161.97.173.211, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 161.97.173.231:9595, server: 161.97.173.231, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 161.97.174.169:9595, server: 161.97.174.169, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 178.18.241.125:9595, server: 178.18.241.125, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Germany 🇩🇪 2, server: 178.18.241.133, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 178.18.241.134:9595, server: 178.18.241.134, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 141.94.37.128:9595, server: 141.94.37.128, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 141.94.37.129:9595, server: 141.94.37.129, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 141.94.37.130:9595, server: 141.94.37.130, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 141.94.37.131:9595, server: 141.94.37.131, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 141.94.37.132:9595, server: 141.94.37.132, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 141.94.37.133:9595, server: 141.94.37.133, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 51.75.228.109:9595, server: 51.75.228.109, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 51.75.228.108:9595, server: 51.75.228.108, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 51.75.228.106:9595, server: 51.75.228.106, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 51.75.228.107:9595, server: 51.75.228.107, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 51.75.228.105:9595, server: 51.75.228.105, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 51.75.228.104:9595, server: 51.75.228.104, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 149.202.154.143:9595, server: 149.202.154.143, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 149.202.154.142:9595 2, server: 149.202.154.142, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 149.202.154.141:9595, server: 149.202.154.141, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 149.202.154.140:9595, server: 149.202.154.140, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 149.202.154.139:9595, server: 149.202.154.139, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 141.94.37.87:9595, server: 141.94.37.87, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 141.94.37.86:9595, server: 141.94.37.86, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 141.94.37.85:9595, server: 141.94.37.85, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 141.94.37.84:9595, server: 141.94.37.84, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 51.75.236.23:9595, server: 51.75.236.23, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 51.75.236.22:9595, server: 51.75.236.22, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 51.75.236.21:9595, server: 51.75.236.21, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 51.75.236.20:9595, server: 51.75.236.20, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 141.94.37.140:9595, server: 141.94.37.140, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 141.94.37.139:9595, server: 141.94.37.139, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 141.94.37.138:9595, server: 141.94.37.138, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 141.94.37.137:9595, server: 141.94.37.137, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 164.132.83.173:9595, server: 164.132.83.173, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 161.97.174.169:9595 2, server: 161.97.174.169, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 137.74.76.58:9595 2, server: 137.74.76.58, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 137.74.76.59:9595, server: 137.74.76.59, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 51.254.60.186:9595, server: 51.254.60.186, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: France 🇫🇷 1, server: 51.254.60.187, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: USA 🇺🇲 2, server: 154.53.48.29, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: USA 🇺🇲 3, server: 154.53.48.30, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: USA 🇺🇲 4, server: 154.53.48.31, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: USA 🇺🇲 5, server: 154.53.48.33, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 194.233.85.45:9595, server: 194.233.85.45, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 194.233.85.47:9595, server: 194.233.85.47, port: 9595, type: ssr, cipher: aes-256-cfb, password: sk80Likez95, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Ytb:冰河圈子_1, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Ytb:冰河圈子_2, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Ytb:冰河圈子_3, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Ytb:冰河圈子_4, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:冰河圈子_5, server: 5.188.6.94, port: 4515, type: ss, cipher: chacha20, password: VEQpRrWPJv, udp: true}
   - {name: github.com/freefq - 美国加利福尼亚州旧金山DigitalOcean数据中心 1, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 138.197.236.77}}, udp: true}
   - {name: github.com/freefq - 美国CloudFlare节点 2, server: app.ssfree.ru, port: 443, type: vmess, uuid: 10bf38a0-9dcb-11ec-851c-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
   - {name: github.com/freefq - 澳大利亚  3, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
@@ -1086,18 +1020,7 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - _US_美国_1
-      - _CA_加拿大_2
-      - _US_美国_3
-      - _US_美国_4
-      - _GB_英国_5
-      - _FR_法国_6
-      - _CA_加拿大_7
-      - default_name_8
-      - _CA_加拿大_9
-      - _CA_加拿大_10
-      - _FR_法国_11
-      - _US_美国_12
+      - _CA_加拿大_1
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)
@@ -1965,66 +1888,11 @@ proxy-groups:
       - 30美国∞直连
       - 31香港∞中转
       - 32香港∞中转
-      - 154.53.48.32:9595
-      - 161.97.173.145:9595
-      - 137.74.76.58:9595
-      - 149.202.154.142:9595
-      - 164.132.83.172:9595
-      - 161.97.103.27:9595
-      - 161.97.104.34:9595
-      - 161.97.104.42:9595
-      - 161.97.70.81:9595
-      - 161.97.173.145:9595 2
-      - 161.97.173.149:9595
-      - 161.97.173.187:9595
-      - 161.97.173.203:9595
-      - Germany 🇩🇪 1
-      - 161.97.173.231:9595
-      - 161.97.174.169:9595
-      - 178.18.241.125:9595
-      - Germany 🇩🇪 2
-      - 178.18.241.134:9595
-      - 141.94.37.128:9595
-      - 141.94.37.129:9595
-      - 141.94.37.130:9595
-      - 141.94.37.131:9595
-      - 141.94.37.132:9595
-      - 141.94.37.133:9595
-      - 51.75.228.109:9595
-      - 51.75.228.108:9595
-      - 51.75.228.106:9595
-      - 51.75.228.107:9595
-      - 51.75.228.105:9595
-      - 51.75.228.104:9595
-      - 149.202.154.143:9595
-      - 149.202.154.142:9595 2
-      - 149.202.154.141:9595
-      - 149.202.154.140:9595
-      - 149.202.154.139:9595
-      - 141.94.37.87:9595
-      - 141.94.37.86:9595
-      - 141.94.37.85:9595
-      - 141.94.37.84:9595
-      - 51.75.236.23:9595
-      - 51.75.236.22:9595
-      - 51.75.236.21:9595
-      - 51.75.236.20:9595
-      - 141.94.37.140:9595
-      - 141.94.37.139:9595
-      - 141.94.37.138:9595
-      - 141.94.37.137:9595
-      - 164.132.83.173:9595
-      - 161.97.174.169:9595 2
-      - 137.74.76.58:9595 2
-      - 137.74.76.59:9595
-      - 51.254.60.186:9595
-      - France 🇫🇷 1
-      - USA 🇺🇲 2
-      - USA 🇺🇲 3
-      - USA 🇺🇲 4
-      - USA 🇺🇲 5
-      - 194.233.85.45:9595
-      - 194.233.85.47:9595
+      - Ytb:冰河圈子_1
+      - Ytb:冰河圈子_2
+      - Ytb:冰河圈子_3
+      - Ytb:冰河圈子_4
+      - Ytb:冰河圈子_5
       - github.com/freefq - 美国加利福尼亚州旧金山DigitalOcean数据中心 1
       - github.com/freefq - 美国CloudFlare节点 2
       - github.com/freefq - 澳大利亚  3
@@ -2156,18 +2024,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_1
-      - _CA_加拿大_2
-      - _US_美国_3
-      - _US_美国_4
-      - _GB_英国_5
-      - _FR_法国_6
-      - _CA_加拿大_7
-      - default_name_8
-      - _CA_加拿大_9
-      - _CA_加拿大_10
-      - _FR_法国_11
-      - _US_美国_12
+      - _CA_加拿大_1
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)
@@ -3035,66 +2892,11 @@ proxy-groups:
       - 30美国∞直连
       - 31香港∞中转
       - 32香港∞中转
-      - 154.53.48.32:9595
-      - 161.97.173.145:9595
-      - 137.74.76.58:9595
-      - 149.202.154.142:9595
-      - 164.132.83.172:9595
-      - 161.97.103.27:9595
-      - 161.97.104.34:9595
-      - 161.97.104.42:9595
-      - 161.97.70.81:9595
-      - 161.97.173.145:9595 2
-      - 161.97.173.149:9595
-      - 161.97.173.187:9595
-      - 161.97.173.203:9595
-      - Germany 🇩🇪 1
-      - 161.97.173.231:9595
-      - 161.97.174.169:9595
-      - 178.18.241.125:9595
-      - Germany 🇩🇪 2
-      - 178.18.241.134:9595
-      - 141.94.37.128:9595
-      - 141.94.37.129:9595
-      - 141.94.37.130:9595
-      - 141.94.37.131:9595
-      - 141.94.37.132:9595
-      - 141.94.37.133:9595
-      - 51.75.228.109:9595
-      - 51.75.228.108:9595
-      - 51.75.228.106:9595
-      - 51.75.228.107:9595
-      - 51.75.228.105:9595
-      - 51.75.228.104:9595
-      - 149.202.154.143:9595
-      - 149.202.154.142:9595 2
-      - 149.202.154.141:9595
-      - 149.202.154.140:9595
-      - 149.202.154.139:9595
-      - 141.94.37.87:9595
-      - 141.94.37.86:9595
-      - 141.94.37.85:9595
-      - 141.94.37.84:9595
-      - 51.75.236.23:9595
-      - 51.75.236.22:9595
-      - 51.75.236.21:9595
-      - 51.75.236.20:9595
-      - 141.94.37.140:9595
-      - 141.94.37.139:9595
-      - 141.94.37.138:9595
-      - 141.94.37.137:9595
-      - 164.132.83.173:9595
-      - 161.97.174.169:9595 2
-      - 137.74.76.58:9595 2
-      - 137.74.76.59:9595
-      - 51.254.60.186:9595
-      - France 🇫🇷 1
-      - USA 🇺🇲 2
-      - USA 🇺🇲 3
-      - USA 🇺🇲 4
-      - USA 🇺🇲 5
-      - 194.233.85.45:9595
-      - 194.233.85.47:9595
+      - Ytb:冰河圈子_1
+      - Ytb:冰河圈子_2
+      - Ytb:冰河圈子_3
+      - Ytb:冰河圈子_4
+      - Ytb:冰河圈子_5
       - github.com/freefq - 美国加利福尼亚州旧金山DigitalOcean数据中心 1
       - github.com/freefq - 美国CloudFlare节点 2
       - github.com/freefq - 澳大利亚  3
@@ -3497,10 +3299,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_1
-      - _US_美国_3
-      - _US_美国_4
-      - _US_美国_12
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -3730,10 +3528,6 @@ proxy-groups:
       - 28美国∞直连
       - 29美国∞直连
       - 30美国∞直连
-      - USA 🇺🇲 2
-      - USA 🇺🇲 3
-      - USA 🇺🇲 4
-      - USA 🇺🇲 5
       - github.com/freefq - 美国加利福尼亚州旧金山DigitalOcean数据中心 1
       - github.com/freefq - 美国CloudFlare节点 2
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4
