@@ -5,1425 +5,326 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇷🇺_俄罗斯联邦_FMYC-2022_03_07_1","server":"free-russian01-cdn.xiaohouzi.club","port":443,"type":"vmess","uuid":"6a7f559d-5401-44c0-b737-bb9f8820681f","alterId":233,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/2993fe/"}}
-  - {"name":"🇵🇱_波兰_FMYC-2022_03_07_2","server":"5.188.108.155","port":889,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"KhS1x8JT7p58RIp7gz"}
-  - {"name":"🇵🇱_波兰_FMYC-2022_03_07_3","server":"5.188.108.155","port":890,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"KhS1x8JT7p58RIp7gz"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_4","server":"38.64.138.145","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_5","server":"198.57.27.218","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_6","server":"198.57.27.218","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_7","server":"38.64.138.145","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_8","server":"aicoo6du.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"🇮🇳_印度_FMYC-2022_03_07_9","server":"172.105.35.61","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇫🇷_法国_FMYC-2022_03_07_10","server":"141.95.0.26","port":826,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"sF43Xt2gONqcgFX563"}
-  - {"name":"🇩🇪_德国_FMYC-2022_03_07_11","server":"193.108.117.75","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬_新加坡_FMYC-2022_03_07_12","server":"13.67.113.86","port":80,"type":"vmess","uuid":"943c9358-c3da-4ece-bae3-b35bed1743fd","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇯🇵_日本_FMYC-2022_03_07_13","server":"172.104.98.216","port":80,"type":"vmess","uuid":"e5af0cad-295c-37b2-b601-f35d13f6b1bb","alterId":64,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"172.104.98.216"}}}
-  - {"name":"🇸🇬_新加坡_FMYC-2022_03_07_14","server":"202.61.141.130","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"🇯🇵_日本_FMYC-2022_03_07_15","server":"45.66.134.176","port":810,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇯🇵_日本_FMYC-2022_03_07_16","server":"45.66.134.176","port":811,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇯🇵_日本_FMYC-2022_03_07_17","server":"45.66.134.176","port":806,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇯🇵_日本_FMYC-2022_03_07_18","server":"185.160.24.33","port":812,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇯🇵_日本_FMYC-2022_03_07_19","server":"185.160.24.33","port":808,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇯🇵_日本_FMYC-2022_03_07_20","server":"185.160.24.33","port":811,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇯🇵_日本_FMYC-2022_03_07_21","server":"45.66.134.176","port":809,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇯🇵_日本_FMYC-2022_03_07_22","server":"45.66.134.176","port":802,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇸🇬_新加坡_FMYC-2022_03_07_23","server":"202.79.164.124","port":8441,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
-  - {"name":"🇯🇵_日本_FMYC-2022_03_07_24","server":"ms.byronwood.co.uk","port":443,"type":"vmess","uuid":"0ff0b97e-31ea-4447-81da-2b1b5f6a2a7f","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/iso-windows10"}}
-  - {"name":"🇸🇬_新加坡_FMYC-2022_03_07_25","server":"ycgyg.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_26","server":"ahdaeph8.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"🇧🇪_比利时_FMYC-2022_03_07_27","server":"77.243.191.178","port":8389,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"47GH3wQRw7V4Zhd35bFs"}
-  - {"name":"🇫🇷_法国_FMYC-2022_03_07_28","server":"149.202.82.172","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇫🇷_法国_FMYC-2022_03_07_29","server":"51.255.66.185","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇫🇷_法国_FMYC-2022_03_07_30","server":"51.255.66.185","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇫🇷_法国_FMYC-2022_03_07_31","server":"51.255.66.185","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇫🇷_法国_FMYC-2022_03_07_32","server":"51.255.66.185","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇫🇷_法国_FMYC-2022_03_07_33","server":"51.255.66.185","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_34","server":"150.109.147.14","port":443,"type":"vmess","uuid":"2beb7a52-a3cd-43ba-8cef-0ea8f69d38de","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/628429c1-2c63-4cad-92f0-5ab8d4328b93"}}
-  - {"name":"🇦🇺_澳大利亚_FMYC-2022_03_07_35","server":"172.105.180.227","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇦🇺_澳大利亚_FMYC-2022_03_07_36","server":"172.105.180.227","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇦🇺_澳大利亚_FMYC-2022_03_07_37","server":"172.105.180.227","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇦🇺_澳大利亚_FMYC-2022_03_07_38","server":"172.105.180.227","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_39","server":"43.129.187.77","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72"}}
-  - {"name":"🇸🇬_新加坡_FMYC-2022_03_07_40","server":"43.135.9.229","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72"}}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_41","server":"43.129.176.129","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72"}}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_42","server":"43.128.62.61","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72"}}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_43","server":"43.128.9.149","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72"}}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_44","server":"43.128.1.112","port":443,"type":"vmess","uuid":"2beb7a52-a3cd-43ba-8cef-0ea8f69d38de","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/628429c1-2c63-4cad-92f0-5ab8d4328b93"}}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_45","server":"43.129.224.106","port":443,"type":"vmess","uuid":"2beb7a52-a3cd-43ba-8cef-0ea8f69d38de","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/628429c1-2c63-4cad-92f0-5ab8d4328b93"}}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_46","server":"43.129.72.96","port":443,"type":"vmess","uuid":"2beb7a52-a3cd-43ba-8cef-0ea8f69d38de","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/628429c1-2c63-4cad-92f0-5ab8d4328b93"}}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_47","server":"43.129.75.180","port":443,"type":"vmess","uuid":"2beb7a52-a3cd-43ba-8cef-0ea8f69d38de","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/628429c1-2c63-4cad-92f0-5ab8d4328b93"}}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_48","server":"43.129.232.48","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72"}}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_49","server":"43.129.22.175","port":443,"type":"vmess","uuid":"2beb7a52-a3cd-43ba-8cef-0ea8f69d38de","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/628429c1-2c63-4cad-92f0-5ab8d4328b93"}}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_50","server":"43.132.162.119","port":443,"type":"vmess","uuid":"2beb7a52-a3cd-43ba-8cef-0ea8f69d38de","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/628429c1-2c63-4cad-92f0-5ab8d4328b93"}}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_51","server":"43.132.233.101","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72"}}
-  - {"name":"🇸🇬_新加坡_FMYC-2022_03_07_52","server":"43.135.48.190","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72"}}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_53","server":"43.129.253.120","port":443,"type":"vmess","uuid":"2beb7a52-a3cd-43ba-8cef-0ea8f69d38de","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/628429c1-2c63-4cad-92f0-5ab8d4328b93"}}
-  - {"name":"🇸🇬_新加坡_FMYC-2022_03_07_54","server":"43.135.47.9","port":443,"type":"vmess","uuid":"2beb7a52-a3cd-43ba-8cef-0ea8f69d38de","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/628429c1-2c63-4cad-92f0-5ab8d4328b93"}}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_55","server":"43.129.189.128","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72"}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_56","server":"66.42.103.1","port":50890,"type":"vmess","uuid":"11365a2e-6938-11ec-9b3d-560003c3fd49","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/5YpZGAg8/"}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_57","server":"70.39.71.2","port":8389,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"XkH8z99cQguQ8ywK5jhV"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_58","server":"169.197.142.39","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_59","server":"169.197.143.157","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_60","server":"38.91.102.86","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_61","server":"38.143.66.71","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_62","server":"38.91.102.86","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_63","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"usa-dallas.lvuft.com"}}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_64","server":"208.98.48.2","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"iesei1ei.com"}}}
-  - {"name":"FMYC-2022_03_07_65","server":"104.21.62.193","port":443,"type":"vmess","uuid":"e64c6f7c-48eb-4852-9b29-778faef14212","alterId":233,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/319285eb2d/","headers":{"host":"free-russian-cdn.xiaohouzi.club"}}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_66","server":"38.91.102.86","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_67","server":"45.35.84.162","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"usa-dallas.lvuft.com"}}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_68","server":"169.197.142.39","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"FMYC-2022_03_07_69","server":"104.17.170.210","port":443,"type":"vmess","uuid":"d064d11b-477c-4c5d-a2d8-9fd599ef8e79","alterId":1,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"kycc","headers":{"host":"lsb.stupidfellow.cf"}}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_70","server":"169.197.142.39","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_71","server":"172.67.176.114","port":443,"type":"vmess","uuid":"6a7f559d-5401-44c0-b737-bb9f8820681f","alterId":233,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/2993fe/","headers":{"host":"free-russian01-cdn.xiaohouzi.club"}}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_72","server":"38.91.102.86","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_73","server":"169.197.143.157","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_74","server":"167.88.61.60","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_75","server":"v1.ssrsub.com","port":8443,"type":"vmess","uuid":"1de99090-4bd5-4670-9cec-05f55b4c6917","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇮🇳_印度_FMYC-2022_03_07_76","server":"192.46.210.73","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇮🇳_印度_FMYC-2022_03_07_77","server":"192.46.210.73","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_78","server":"134.195.196.68","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_79","server":"167.88.61.60","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_80","server":"169.197.141.24","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_81","server":"169.197.141.24","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_82","server":"169.197.142.39","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"FMYC-2022_03_07_83","server":"v5.ssrsub.com","port":8443,"type":"vmess","uuid":"8cf83f44-79ff-4e50-be1a-585c82338912","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_84","server":"38.91.102.96","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_85","server":"169.197.141.24","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_86","server":"api.ssfree.ru","port":443,"type":"vmess","uuid":"8c089fe0-6989-11ec-9e73-000017022008","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/getweather"}}
-  - {"name":"FMYC-2022_03_07_87","server":"free-russian-cdn.xiaohouzi.club","port":443,"type":"vmess","uuid":"e64c6f7c-48eb-4852-9b29-778faef14212","alterId":233,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/319285eb2d/"}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_88","server":"38.68.134.23","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇮🇳_印度_FMYC-2022_03_07_89","server":"172.104.207.231","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_90","server":"134.195.196.193","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_91","server":"134.195.196.193","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_92","server":"134.195.196.193","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_93","server":"134.195.196.71","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_94","server":"134.195.196.227","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_95","server":"86.wowogg.cyou","port":52286,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_96","server":"114.wowogg.cyou","port":52214,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_97","server":"133.wowogg.cyou","port":52333,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_98","server":"app.ssfree.ru","port":443,"type":"vmess","uuid":"9135bdb4-9b6f-11ec-a503-000017022008","alterId":64,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_99","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"6c175d1a-a57f-4881-a471-173eb139694b","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_100","server":"107.wowogg.cyou","port":52207,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_101","server":"90.wowogg.cyou","port":52290,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_102","server":"127.wowogg.cyou","port":52227,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_103","server":"104.wowogg.cyou","port":11222,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_104","server":"ua1.uuv2.co.uk","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_105","server":"138.197.236.77","port":443,"type":"vmess","uuid":"3579436c-b37e-11eb-8529-0242ac130003","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_106","server":"100.wowogg.cyou","port":11220,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false}
-  - {"name":"FMYC-2022_03_07_107","server":"www.cloudflare.com","port":8443,"type":"trojan","password":"b2015918-4a70-4250-8afa-dba8a5be97f4","sni":"www.cloudflare.com"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_108","server":"169.197.142.187","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇬🇧_英国_FMYC-2022_03_07_109","server":"172.99.190.92","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_110","server":"169.197.142.187","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_111","server":"134.195.196.187","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_112","server":"134.195.196.187","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_113","server":"134.195.196.187","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_114","server":"169.197.142.187","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_115","server":"169.197.142.187","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_116","server":"169.197.142.187","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_117","server":"134.195.196.3","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_118","server":"134.195.196.3","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_119","server":"134.195.196.68","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_120","server":"134.195.196.187","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_121","server":"134.195.196.187","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_122","server":"134.195.196.3","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_123","server":"134.195.196.3","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_124","server":"134.195.196.68","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_125","server":"134.195.196.68","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_126","server":"134.195.196.68","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_127","server":"134.195.196.3","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_128","server":"167.88.63.99","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_129","server":"38.68.134.37","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_130","server":"38.75.137.187","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_131","server":"38.68.134.196","port":808,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_132","server":"38.75.137.187","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_133","server":"38.68.134.37","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_134","server":"162.251.61.221","port":802,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_135","server":"162.251.61.221","port":804,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_136","server":"162.251.61.221","port":800,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_137","server":"38.75.137.187","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_138","server":"38.68.134.196","port":812,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_139","server":"38.68.134.37","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_140","server":"38.68.134.48","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_141","server":"38.75.137.187","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_142","server":"162.251.61.221","port":805,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_143","server":"167.88.63.99","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_144","server":"167.88.63.107","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_145","server":"38.75.137.187","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_146","server":"38.68.134.48","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_147","server":"38.68.134.37","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_148","server":"167.88.63.99","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_149","server":"38.68.134.37","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_150","server":"38.68.134.196","port":802,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_151","server":"167.88.63.99","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_152","server":"162.251.61.221","port":809,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_153","server":"38.121.43.51","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_154","server":"167.88.63.99","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_155","server":"38.68.135.208","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_156","server":"38.68.134.196","port":810,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_157","server":"38.68.134.196","port":805,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_158","server":"167.88.63.107","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_159","server":"167.88.63.107","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_160","server":"167.88.63.117","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_161","server":"38.68.135.208","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_162","server":"167.88.63.107","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_163","server":"38.68.135.208","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_164","server":"38.68.135.208","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_165","server":"167.88.63.107","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_166","server":"38.68.135.208","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_167","server":"38.68.134.135","port":809,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇨🇦_加拿大_FMYC-2022_03_07_168","server":"134.195.196.68","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇳_中国_FMYC-2022_03_07_169","server":"107.148.211.118","port":8450,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_170","server":"104.168.28.154","port":36681,"type":"vmess","uuid":"e8cd3d60-1ec5-489f-d666-6787242e0e8d","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_171","server":"209.94.56.152","port":443,"type":"vmess","uuid":"3033e157-fdc3-47c0-ae32-fc4fe65fc64d","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/9apQabyg9le"}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_172","server":"192.186.129.66","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_173","server":"70.39.67.130","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_174","server":"23.82.136.151","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"FMYC-2022_03_07_175","server":"198.41.221.169","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/sakura/"}}
-  - {"name":"FMYC-2022_03_07_176","server":"198.41.212.9","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/sakura/"}}
-  - {"name":"FMYC-2022_03_07_177","server":"cloudflare.a-yu.xyz","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/sakura/"}}
-  - {"name":"FMYC-2022_03_07_178","server":"icook.hk","port":443,"type":"vmess","uuid":"9a85a293-3eb7-4189-e17d-bfa46f9ad0ce","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/freebaipiao"}}
-  - {"name":"🇩🇪_德国_FMYC-2022_03_07_179","server":"152.70.188.10","port":443,"type":"vmess","uuid":"6ae16454-de6a-4113-c64e-0549be488f15","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"🇭🇰_香港_FMYC-2022_03_07_180","server":"az.bil-bil.org","port":443,"type":"vmess","uuid":"fe4cd7a9-b962-47ea-bb89-29e513b00cb4","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/5bc7654/"}}
-  - {"name":"FMYC-2022_03_07_181","server":"104.18.96.85","port":2053,"type":"vmess","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/eisasqa"}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_182","server":"free.portx.cc","port":443,"type":"vmess","uuid":"2beb7a52-a3cd-43ba-8cef-0ea8f69d38de","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/628429c1-2c63-4cad-92f0-5ab8d4328b93"}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_183","server":"free2.portx.cc","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72"}}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_184","server":"c23s801.jamjams.net","port":61173,"type":"vmess","uuid":"9d1043a6-e87e-4bb7-8858-c1185e9c0c3b","alterId":64,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"🇬🇧_英国_FMYC-2022_03_07_185","server":"145.239.7.164","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇬🇧_英国_FMYC-2022_03_07_186","server":"145.239.7.164","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸_美国_FMYC-2022_03_07_187","server":"45.58.150.130","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"🇵🇹_葡萄牙_FMYC-2022_03_07_188","server":"185.90.57.152","port":8388,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"qSnstpCypymLvPeyLRqf"}
-  - {"name":"🇨🇳_中国_FMYC-2022_03_07_189","server":"guangzhou1.slhy.xyz","port":10039,"type":"vmess","uuid":"5c44ff35-6db3-3b3e-8a17-ed2a45e4037c","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/soulss","headers":{"host":"guangzhou1.slhy.xyz"}}}
-  - {"name":"🇨🇳_中国_FMYC-2022_03_07_190","server":"guangzhou1.slhy.xyz","port":10040,"type":"vmess","uuid":"5c44ff35-6db3-3b3e-8a17-ed2a45e4037c","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/soulss","headers":{"host":"guangzhou1.slhy.xyz"}}}
-  - {"name":"🇨🇳_中国_FMYC-2022_03_07_191","server":"guangzhou1.slhy.xyz","port":10041,"type":"vmess","uuid":"5c44ff35-6db3-3b3e-8a17-ed2a45e4037c","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/soulss","headers":{"host":"guangzhou1.slhy.xyz"}}}
-  - {"name":"🇨🇳_中国_FMYC-2022_03_07_192","server":"guangzhou1.slhy.xyz","port":10042,"type":"vmess","uuid":"5c44ff35-6db3-3b3e-8a17-ed2a45e4037c","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/soulss","headers":{"host":"guangzhou1.slhy.xyz"}}}
-  - {"name":"🇨🇳_中国_FMYC-2022_03_07_193","server":"guangzhou1.slhy.xyz","port":10043,"type":"vmess","uuid":"5c44ff35-6db3-3b3e-8a17-ed2a45e4037c","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/soulss","headers":{"host":"guangzhou1.slhy.xyz"}}}
-  - {"name":"🇨🇳_中国_FMYC-2022_03_07_194","server":"guangzhou1.slhy.xyz","port":10044,"type":"vmess","uuid":"5c44ff35-6db3-3b3e-8a17-ed2a45e4037c","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/soulss","headers":{"host":"guangzhou1.slhy.xyz"}}}
-  - {"name":"🇨🇳_中国_FMYC-2022_03_07_195","server":"guangzhou1.slhy.xyz","port":10045,"type":"vmess","uuid":"5c44ff35-6db3-3b3e-8a17-ed2a45e4037c","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/soulss","headers":{"host":"guangzhou1.slhy.xyz"}}}
-  - {"name":"🇨🇳_中国_FMYC-2022_03_07_196","server":"guangzhou1.slhy.xyz","port":10046,"type":"vmess","uuid":"5c44ff35-6db3-3b3e-8a17-ed2a45e4037c","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/soulss","headers":{"host":"guangzhou1.slhy.xyz"}}}
-  - {"name":"🇨🇳_中国_FMYC-2022_03_07_197","server":"guangzhou1.slhy.xyz","port":10047,"type":"vmess","uuid":"5c44ff35-6db3-3b3e-8a17-ed2a45e4037c","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/soulss","headers":{"host":"guangzhou1.slhy.xyz"}}}
-  - {"name":"🇨🇳_中国_FMYC-2022_03_07_198","server":"guangzhou1.slhy.xyz","port":10048,"type":"vmess","uuid":"5c44ff35-6db3-3b3e-8a17-ed2a45e4037c","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/soulss","headers":{"host":"guangzhou1.slhy.xyz"}}}
+  - {"name":"🇨🇦_CA_加拿大_ChenX-220307_1","server":"134.195.196.200","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_ChenX-220307_2","server":"134.195.196.200","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_ChenX-220307_3","server":"134.195.196.3","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸_US_美国_ChenX-220307_4","server":"169.197.142.187","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_ChenX-220307_5","server":"169.197.142.187","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_ChenX-220307_6","server":"169.197.142.187","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_ChenX-220307_7","server":"134.195.196.200","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_ChenX-220307_8","server":"134.195.196.50","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_ChenX-220307_9","server":"134.195.196.187","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_ChenX-220307_10","server":"134.195.196.3","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_11","server":"gz1.52168.xyz","port":1116,"type":"ssr","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:y711wfz6uln","obfs-param":"30a2a149.baidu.com"}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_12","server":"gz1.52168.xyz","port":1111,"type":"ssr","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:y711wfz6uln","obfs-param":"30a2a149.baidu.com"}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_13","server":"117.28.243.220","port":8147,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_14","server":"183.232.56.161","port":8003,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_15","server":"183.232.56.161","port":8004,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_16","server":"117.28.243.164","port":8007,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_17","server":"183.232.56.161","port":1301,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_18","server":"183.232.56.161","port":1302,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_19","server":"117.28.243.141","port":6149,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_20","server":"117.28.243.220","port":8045,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_21","server":"183.232.56.161","port":1501,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_22","server":"183.232.56.161","port":1202,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_23","server":"183.232.56.161","port":8014,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"🇫🇷_FR_法国_ChenX-220307_24","server":"fr-am1-1.eqsunshine.com","port":8181,"type":"ssr","password":"gVWc0WaJn","cipher":"aes-256-cfb","protocol":"origin","obfs":"tls1.2_ticket_auth"}
+  - {"name":"🇦🇺_AU_澳大利亚_ChenX-220307_25","server":"sy-am2.eqsunshine.com","port":443,"type":"ssr","password":"Jz8r4gLNP","cipher":"aes-256-cfb","protocol":"origin","obfs":"tls1.2_ticket_auth"}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_26","server":"183.232.56.161","port":1704,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_27","server":"183.232.56.161","port":1952,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_28","server":"183.232.56.161","port":8001,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"🇭🇰_HK_香港_ChenX-220307_29","server":"azure-f4s-hk-1.forwardserver.xyz","port":30585,"type":"vmess","uuid":"3b07447e-94cf-4d72-96c6-d0a539098049","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"azure-f4s-hk-1.forwardserver.xyz"}}}
+  - {"name":"🇭🇰_HK_香港_ChenX-220307_30","server":"azure-f4s-hk-1.forwardserver.xyz","port":32434,"type":"vmess","uuid":"3b07447e-94cf-4d72-96c6-d0a539098049","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"azure-f4s-hk-1.forwardserver.xyz"}}}
+  - {"name":"🇭🇰_HK_香港_ChenX-220307_31","server":"azure-f4s-hk-1.forwardserver.xyz","port":41955,"type":"vmess","uuid":"3b07447e-94cf-4d72-96c6-d0a539098049","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"azure-f4s-hk-1.forwardserver.xyz"}}}
+  - {"name":"🇭🇰_HK_香港_ChenX-220307_32","server":"azure-f4s-hk-1.forwardserver.xyz","port":44986,"type":"vmess","uuid":"3b07447e-94cf-4d72-96c6-d0a539098049","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"azure-f4s-hk-1.forwardserver.xyz"}}}
+  - {"name":"🇺🇸_US_美国_ChenX-220307_33","server":"38.91.100.102","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸_US_美国_ChenX-220307_34","server":"38.143.66.71","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸_US_美国_ChenX-220307_35","server":"104.168.176.152","port":23308,"type":"vmess","uuid":"5bf287e9-c85d-40f2-e85b-bf9774d7fa32","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"104.168.176.152"}}}
+  - {"name":"🇩🇪_DE_德国_ChenX-220307_36","server":"152.70.188.10","port":443,"type":"vmess","uuid":"6ae16454-de6a-4113-c64e-0549be488f15","alterId":0,"cipher":"auto","tls":true,"network":"tcp","ws-opts":{"path":"/index","headers":{"host":"104.168.176.152"}}}
+  - {"name":"🇬🇧_GB_英国_ChenX-220307_37","server":"172.99.190.87","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇬🇧_GB_英国_ChenX-220307_38","server":"172.99.190.92","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇬🇧_GB_英国_ChenX-220307_39","server":"172.99.190.92","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_40","server":"183.232.56.161","port":1101,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"🇨🇳_CN_中国_ChenX-220307_41","server":"183.232.56.161","port":1612,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇺_俄罗斯联邦_FMYC-2022_03_07_1
-      - 🇵🇱_波兰_FMYC-2022_03_07_2
-      - 🇵🇱_波兰_FMYC-2022_03_07_3
-      - 🇺🇸_美国_FMYC-2022_03_07_4
-      - 🇨🇦_加拿大_FMYC-2022_03_07_5
-      - 🇨🇦_加拿大_FMYC-2022_03_07_6
-      - 🇺🇸_美国_FMYC-2022_03_07_7
-      - 🇭🇰_香港_FMYC-2022_03_07_8
-      - 🇮🇳_印度_FMYC-2022_03_07_9
-      - 🇫🇷_法国_FMYC-2022_03_07_10
-      - 🇩🇪_德国_FMYC-2022_03_07_11
-      - 🇸🇬_新加坡_FMYC-2022_03_07_12
-      - 🇯🇵_日本_FMYC-2022_03_07_13
-      - 🇸🇬_新加坡_FMYC-2022_03_07_14
-      - 🇯🇵_日本_FMYC-2022_03_07_15
-      - 🇯🇵_日本_FMYC-2022_03_07_16
-      - 🇯🇵_日本_FMYC-2022_03_07_17
-      - 🇯🇵_日本_FMYC-2022_03_07_18
-      - 🇯🇵_日本_FMYC-2022_03_07_19
-      - 🇯🇵_日本_FMYC-2022_03_07_20
-      - 🇯🇵_日本_FMYC-2022_03_07_21
-      - 🇯🇵_日本_FMYC-2022_03_07_22
-      - 🇸🇬_新加坡_FMYC-2022_03_07_23
-      - 🇯🇵_日本_FMYC-2022_03_07_24
-      - 🇸🇬_新加坡_FMYC-2022_03_07_25
-      - 🇺🇸_美国_FMYC-2022_03_07_26
-      - 🇧🇪_比利时_FMYC-2022_03_07_27
-      - 🇫🇷_法国_FMYC-2022_03_07_28
-      - 🇫🇷_法国_FMYC-2022_03_07_29
-      - 🇫🇷_法国_FMYC-2022_03_07_30
-      - 🇫🇷_法国_FMYC-2022_03_07_31
-      - 🇫🇷_法国_FMYC-2022_03_07_32
-      - 🇫🇷_法国_FMYC-2022_03_07_33
-      - 🇭🇰_香港_FMYC-2022_03_07_34
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_35
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_36
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_37
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_38
-      - 🇭🇰_香港_FMYC-2022_03_07_39
-      - 🇸🇬_新加坡_FMYC-2022_03_07_40
-      - 🇭🇰_香港_FMYC-2022_03_07_41
-      - 🇭🇰_香港_FMYC-2022_03_07_42
-      - 🇭🇰_香港_FMYC-2022_03_07_43
-      - 🇭🇰_香港_FMYC-2022_03_07_44
-      - 🇭🇰_香港_FMYC-2022_03_07_45
-      - 🇭🇰_香港_FMYC-2022_03_07_46
-      - 🇭🇰_香港_FMYC-2022_03_07_47
-      - 🇭🇰_香港_FMYC-2022_03_07_48
-      - 🇭🇰_香港_FMYC-2022_03_07_49
-      - 🇭🇰_香港_FMYC-2022_03_07_50
-      - 🇭🇰_香港_FMYC-2022_03_07_51
-      - 🇸🇬_新加坡_FMYC-2022_03_07_52
-      - 🇭🇰_香港_FMYC-2022_03_07_53
-      - 🇸🇬_新加坡_FMYC-2022_03_07_54
-      - 🇭🇰_香港_FMYC-2022_03_07_55
-      - 🇺🇸_美国_FMYC-2022_03_07_56
-      - 🇺🇸_美国_FMYC-2022_03_07_57
-      - 🇺🇸_美国_FMYC-2022_03_07_58
-      - 🇺🇸_美国_FMYC-2022_03_07_59
-      - 🇺🇸_美国_FMYC-2022_03_07_60
-      - 🇺🇸_美国_FMYC-2022_03_07_61
-      - 🇺🇸_美国_FMYC-2022_03_07_62
-      - 🇺🇸_美国_FMYC-2022_03_07_63
-      - 🇺🇸_美国_FMYC-2022_03_07_64
-      - FMYC-2022_03_07_65
-      - 🇺🇸_美国_FMYC-2022_03_07_66
-      - 🇺🇸_美国_FMYC-2022_03_07_67
-      - 🇺🇸_美国_FMYC-2022_03_07_68
-      - FMYC-2022_03_07_69
-      - 🇺🇸_美国_FMYC-2022_03_07_70
-      - 🇺🇸_美国_FMYC-2022_03_07_71
-      - 🇺🇸_美国_FMYC-2022_03_07_72
-      - 🇺🇸_美国_FMYC-2022_03_07_73
-      - 🇺🇸_美国_FMYC-2022_03_07_74
-      - 🇺🇸_美国_FMYC-2022_03_07_75
-      - 🇮🇳_印度_FMYC-2022_03_07_76
-      - 🇮🇳_印度_FMYC-2022_03_07_77
-      - 🇨🇦_加拿大_FMYC-2022_03_07_78
-      - 🇺🇸_美国_FMYC-2022_03_07_79
-      - 🇺🇸_美国_FMYC-2022_03_07_80
-      - 🇺🇸_美国_FMYC-2022_03_07_81
-      - 🇺🇸_美国_FMYC-2022_03_07_82
-      - FMYC-2022_03_07_83
-      - 🇺🇸_美国_FMYC-2022_03_07_84
-      - 🇺🇸_美国_FMYC-2022_03_07_85
-      - 🇺🇸_美国_FMYC-2022_03_07_86
-      - FMYC-2022_03_07_87
-      - 🇺🇸_美国_FMYC-2022_03_07_88
-      - 🇮🇳_印度_FMYC-2022_03_07_89
-      - 🇨🇦_加拿大_FMYC-2022_03_07_90
-      - 🇨🇦_加拿大_FMYC-2022_03_07_91
-      - 🇨🇦_加拿大_FMYC-2022_03_07_92
-      - 🇨🇦_加拿大_FMYC-2022_03_07_93
-      - 🇨🇦_加拿大_FMYC-2022_03_07_94
-      - 🇭🇰_香港_FMYC-2022_03_07_95
-      - 🇭🇰_香港_FMYC-2022_03_07_96
-      - 🇭🇰_香港_FMYC-2022_03_07_97
-      - 🇺🇸_美国_FMYC-2022_03_07_98
-      - 🇺🇸_美国_FMYC-2022_03_07_99
-      - 🇺🇸_美国_FMYC-2022_03_07_100
-      - 🇺🇸_美国_FMYC-2022_03_07_101
-      - 🇭🇰_香港_FMYC-2022_03_07_102
-      - 🇺🇸_美国_FMYC-2022_03_07_103
-      - 🇺🇸_美国_FMYC-2022_03_07_104
-      - 🇺🇸_美国_FMYC-2022_03_07_105
-      - 🇺🇸_美国_FMYC-2022_03_07_106
-      - FMYC-2022_03_07_107
-      - 🇺🇸_美国_FMYC-2022_03_07_108
-      - 🇬🇧_英国_FMYC-2022_03_07_109
-      - 🇺🇸_美国_FMYC-2022_03_07_110
-      - 🇨🇦_加拿大_FMYC-2022_03_07_111
-      - 🇨🇦_加拿大_FMYC-2022_03_07_112
-      - 🇨🇦_加拿大_FMYC-2022_03_07_113
-      - 🇺🇸_美国_FMYC-2022_03_07_114
-      - 🇺🇸_美国_FMYC-2022_03_07_115
-      - 🇺🇸_美国_FMYC-2022_03_07_116
-      - 🇨🇦_加拿大_FMYC-2022_03_07_117
-      - 🇨🇦_加拿大_FMYC-2022_03_07_118
-      - 🇨🇦_加拿大_FMYC-2022_03_07_119
-      - 🇨🇦_加拿大_FMYC-2022_03_07_120
-      - 🇨🇦_加拿大_FMYC-2022_03_07_121
-      - 🇨🇦_加拿大_FMYC-2022_03_07_122
-      - 🇨🇦_加拿大_FMYC-2022_03_07_123
-      - 🇨🇦_加拿大_FMYC-2022_03_07_124
-      - 🇨🇦_加拿大_FMYC-2022_03_07_125
-      - 🇨🇦_加拿大_FMYC-2022_03_07_126
-      - 🇨🇦_加拿大_FMYC-2022_03_07_127
-      - 🇺🇸_美国_FMYC-2022_03_07_128
-      - 🇺🇸_美国_FMYC-2022_03_07_129
-      - 🇺🇸_美国_FMYC-2022_03_07_130
-      - 🇺🇸_美国_FMYC-2022_03_07_131
-      - 🇺🇸_美国_FMYC-2022_03_07_132
-      - 🇺🇸_美国_FMYC-2022_03_07_133
-      - 🇺🇸_美国_FMYC-2022_03_07_134
-      - 🇺🇸_美国_FMYC-2022_03_07_135
-      - 🇺🇸_美国_FMYC-2022_03_07_136
-      - 🇺🇸_美国_FMYC-2022_03_07_137
-      - 🇺🇸_美国_FMYC-2022_03_07_138
-      - 🇺🇸_美国_FMYC-2022_03_07_139
-      - 🇺🇸_美国_FMYC-2022_03_07_140
-      - 🇺🇸_美国_FMYC-2022_03_07_141
-      - 🇺🇸_美国_FMYC-2022_03_07_142
-      - 🇺🇸_美国_FMYC-2022_03_07_143
-      - 🇺🇸_美国_FMYC-2022_03_07_144
-      - 🇺🇸_美国_FMYC-2022_03_07_145
-      - 🇺🇸_美国_FMYC-2022_03_07_146
-      - 🇺🇸_美国_FMYC-2022_03_07_147
-      - 🇺🇸_美国_FMYC-2022_03_07_148
-      - 🇺🇸_美国_FMYC-2022_03_07_149
-      - 🇺🇸_美国_FMYC-2022_03_07_150
-      - 🇺🇸_美国_FMYC-2022_03_07_151
-      - 🇺🇸_美国_FMYC-2022_03_07_152
-      - 🇺🇸_美国_FMYC-2022_03_07_153
-      - 🇺🇸_美国_FMYC-2022_03_07_154
-      - 🇺🇸_美国_FMYC-2022_03_07_155
-      - 🇺🇸_美国_FMYC-2022_03_07_156
-      - 🇺🇸_美国_FMYC-2022_03_07_157
-      - 🇺🇸_美国_FMYC-2022_03_07_158
-      - 🇺🇸_美国_FMYC-2022_03_07_159
-      - 🇺🇸_美国_FMYC-2022_03_07_160
-      - 🇺🇸_美国_FMYC-2022_03_07_161
-      - 🇺🇸_美国_FMYC-2022_03_07_162
-      - 🇺🇸_美国_FMYC-2022_03_07_163
-      - 🇺🇸_美国_FMYC-2022_03_07_164
-      - 🇺🇸_美国_FMYC-2022_03_07_165
-      - 🇺🇸_美国_FMYC-2022_03_07_166
-      - 🇺🇸_美国_FMYC-2022_03_07_167
-      - 🇨🇦_加拿大_FMYC-2022_03_07_168
-      - 🇨🇳_中国_FMYC-2022_03_07_169
-      - 🇺🇸_美国_FMYC-2022_03_07_170
-      - 🇺🇸_美国_FMYC-2022_03_07_171
-      - 🇺🇸_美国_FMYC-2022_03_07_172
-      - 🇺🇸_美国_FMYC-2022_03_07_173
-      - 🇺🇸_美国_FMYC-2022_03_07_174
-      - FMYC-2022_03_07_175
-      - FMYC-2022_03_07_176
-      - FMYC-2022_03_07_177
-      - FMYC-2022_03_07_178
-      - 🇩🇪_德国_FMYC-2022_03_07_179
-      - 🇭🇰_香港_FMYC-2022_03_07_180
-      - FMYC-2022_03_07_181
-      - 🇺🇸_美国_FMYC-2022_03_07_182
-      - 🇺🇸_美国_FMYC-2022_03_07_183
-      - 🇺🇸_美国_FMYC-2022_03_07_184
-      - 🇬🇧_英国_FMYC-2022_03_07_185
-      - 🇬🇧_英国_FMYC-2022_03_07_186
-      - 🇺🇸_美国_FMYC-2022_03_07_187
-      - 🇵🇹_葡萄牙_FMYC-2022_03_07_188
-      - 🇨🇳_中国_FMYC-2022_03_07_189
-      - 🇨🇳_中国_FMYC-2022_03_07_190
-      - 🇨🇳_中国_FMYC-2022_03_07_191
-      - 🇨🇳_中国_FMYC-2022_03_07_192
-      - 🇨🇳_中国_FMYC-2022_03_07_193
-      - 🇨🇳_中国_FMYC-2022_03_07_194
-      - 🇨🇳_中国_FMYC-2022_03_07_195
-      - 🇨🇳_中国_FMYC-2022_03_07_196
-      - 🇨🇳_中国_FMYC-2022_03_07_197
-      - 🇨🇳_中国_FMYC-2022_03_07_198
+      - 🇨🇦_CA_加拿大_ChenX-220307_1
+      - 🇨🇦_CA_加拿大_ChenX-220307_2
+      - 🇨🇦_CA_加拿大_ChenX-220307_3
+      - 🇺🇸_US_美国_ChenX-220307_4
+      - 🇺🇸_US_美国_ChenX-220307_5
+      - 🇺🇸_US_美国_ChenX-220307_6
+      - 🇨🇦_CA_加拿大_ChenX-220307_7
+      - 🇨🇦_CA_加拿大_ChenX-220307_8
+      - 🇨🇦_CA_加拿大_ChenX-220307_9
+      - 🇨🇦_CA_加拿大_ChenX-220307_10
+      - 🇨🇳_CN_中国_ChenX-220307_11
+      - 🇨🇳_CN_中国_ChenX-220307_12
+      - 🇨🇳_CN_中国_ChenX-220307_13
+      - 🇨🇳_CN_中国_ChenX-220307_14
+      - 🇨🇳_CN_中国_ChenX-220307_15
+      - 🇨🇳_CN_中国_ChenX-220307_16
+      - 🇨🇳_CN_中国_ChenX-220307_17
+      - 🇨🇳_CN_中国_ChenX-220307_18
+      - 🇨🇳_CN_中国_ChenX-220307_19
+      - 🇨🇳_CN_中国_ChenX-220307_20
+      - 🇨🇳_CN_中国_ChenX-220307_21
+      - 🇨🇳_CN_中国_ChenX-220307_22
+      - 🇨🇳_CN_中国_ChenX-220307_23
+      - 🇫🇷_FR_法国_ChenX-220307_24
+      - 🇦🇺_AU_澳大利亚_ChenX-220307_25
+      - 🇨🇳_CN_中国_ChenX-220307_26
+      - 🇨🇳_CN_中国_ChenX-220307_27
+      - 🇨🇳_CN_中国_ChenX-220307_28
+      - 🇭🇰_HK_香港_ChenX-220307_29
+      - 🇭🇰_HK_香港_ChenX-220307_30
+      - 🇭🇰_HK_香港_ChenX-220307_31
+      - 🇭🇰_HK_香港_ChenX-220307_32
+      - 🇺🇸_US_美国_ChenX-220307_33
+      - 🇺🇸_US_美国_ChenX-220307_34
+      - 🇺🇸_US_美国_ChenX-220307_35
+      - 🇩🇪_DE_德国_ChenX-220307_36
+      - 🇬🇧_GB_英国_ChenX-220307_37
+      - 🇬🇧_GB_英国_ChenX-220307_38
+      - 🇬🇧_GB_英国_ChenX-220307_39
+      - 🇨🇳_CN_中国_ChenX-220307_40
+      - 🇨🇳_CN_中国_ChenX-220307_41
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇺_俄罗斯联邦_FMYC-2022_03_07_1
-      - 🇵🇱_波兰_FMYC-2022_03_07_2
-      - 🇵🇱_波兰_FMYC-2022_03_07_3
-      - 🇺🇸_美国_FMYC-2022_03_07_4
-      - 🇨🇦_加拿大_FMYC-2022_03_07_5
-      - 🇨🇦_加拿大_FMYC-2022_03_07_6
-      - 🇺🇸_美国_FMYC-2022_03_07_7
-      - 🇭🇰_香港_FMYC-2022_03_07_8
-      - 🇮🇳_印度_FMYC-2022_03_07_9
-      - 🇫🇷_法国_FMYC-2022_03_07_10
-      - 🇩🇪_德国_FMYC-2022_03_07_11
-      - 🇸🇬_新加坡_FMYC-2022_03_07_12
-      - 🇯🇵_日本_FMYC-2022_03_07_13
-      - 🇸🇬_新加坡_FMYC-2022_03_07_14
-      - 🇯🇵_日本_FMYC-2022_03_07_15
-      - 🇯🇵_日本_FMYC-2022_03_07_16
-      - 🇯🇵_日本_FMYC-2022_03_07_17
-      - 🇯🇵_日本_FMYC-2022_03_07_18
-      - 🇯🇵_日本_FMYC-2022_03_07_19
-      - 🇯🇵_日本_FMYC-2022_03_07_20
-      - 🇯🇵_日本_FMYC-2022_03_07_21
-      - 🇯🇵_日本_FMYC-2022_03_07_22
-      - 🇸🇬_新加坡_FMYC-2022_03_07_23
-      - 🇯🇵_日本_FMYC-2022_03_07_24
-      - 🇸🇬_新加坡_FMYC-2022_03_07_25
-      - 🇺🇸_美国_FMYC-2022_03_07_26
-      - 🇧🇪_比利时_FMYC-2022_03_07_27
-      - 🇫🇷_法国_FMYC-2022_03_07_28
-      - 🇫🇷_法国_FMYC-2022_03_07_29
-      - 🇫🇷_法国_FMYC-2022_03_07_30
-      - 🇫🇷_法国_FMYC-2022_03_07_31
-      - 🇫🇷_法国_FMYC-2022_03_07_32
-      - 🇫🇷_法国_FMYC-2022_03_07_33
-      - 🇭🇰_香港_FMYC-2022_03_07_34
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_35
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_36
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_37
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_38
-      - 🇭🇰_香港_FMYC-2022_03_07_39
-      - 🇸🇬_新加坡_FMYC-2022_03_07_40
-      - 🇭🇰_香港_FMYC-2022_03_07_41
-      - 🇭🇰_香港_FMYC-2022_03_07_42
-      - 🇭🇰_香港_FMYC-2022_03_07_43
-      - 🇭🇰_香港_FMYC-2022_03_07_44
-      - 🇭🇰_香港_FMYC-2022_03_07_45
-      - 🇭🇰_香港_FMYC-2022_03_07_46
-      - 🇭🇰_香港_FMYC-2022_03_07_47
-      - 🇭🇰_香港_FMYC-2022_03_07_48
-      - 🇭🇰_香港_FMYC-2022_03_07_49
-      - 🇭🇰_香港_FMYC-2022_03_07_50
-      - 🇭🇰_香港_FMYC-2022_03_07_51
-      - 🇸🇬_新加坡_FMYC-2022_03_07_52
-      - 🇭🇰_香港_FMYC-2022_03_07_53
-      - 🇸🇬_新加坡_FMYC-2022_03_07_54
-      - 🇭🇰_香港_FMYC-2022_03_07_55
-      - 🇺🇸_美国_FMYC-2022_03_07_56
-      - 🇺🇸_美国_FMYC-2022_03_07_57
-      - 🇺🇸_美国_FMYC-2022_03_07_58
-      - 🇺🇸_美国_FMYC-2022_03_07_59
-      - 🇺🇸_美国_FMYC-2022_03_07_60
-      - 🇺🇸_美国_FMYC-2022_03_07_61
-      - 🇺🇸_美国_FMYC-2022_03_07_62
-      - 🇺🇸_美国_FMYC-2022_03_07_63
-      - 🇺🇸_美国_FMYC-2022_03_07_64
-      - FMYC-2022_03_07_65
-      - 🇺🇸_美国_FMYC-2022_03_07_66
-      - 🇺🇸_美国_FMYC-2022_03_07_67
-      - 🇺🇸_美国_FMYC-2022_03_07_68
-      - FMYC-2022_03_07_69
-      - 🇺🇸_美国_FMYC-2022_03_07_70
-      - 🇺🇸_美国_FMYC-2022_03_07_71
-      - 🇺🇸_美国_FMYC-2022_03_07_72
-      - 🇺🇸_美国_FMYC-2022_03_07_73
-      - 🇺🇸_美国_FMYC-2022_03_07_74
-      - 🇺🇸_美国_FMYC-2022_03_07_75
-      - 🇮🇳_印度_FMYC-2022_03_07_76
-      - 🇮🇳_印度_FMYC-2022_03_07_77
-      - 🇨🇦_加拿大_FMYC-2022_03_07_78
-      - 🇺🇸_美国_FMYC-2022_03_07_79
-      - 🇺🇸_美国_FMYC-2022_03_07_80
-      - 🇺🇸_美国_FMYC-2022_03_07_81
-      - 🇺🇸_美国_FMYC-2022_03_07_82
-      - FMYC-2022_03_07_83
-      - 🇺🇸_美国_FMYC-2022_03_07_84
-      - 🇺🇸_美国_FMYC-2022_03_07_85
-      - 🇺🇸_美国_FMYC-2022_03_07_86
-      - FMYC-2022_03_07_87
-      - 🇺🇸_美国_FMYC-2022_03_07_88
-      - 🇮🇳_印度_FMYC-2022_03_07_89
-      - 🇨🇦_加拿大_FMYC-2022_03_07_90
-      - 🇨🇦_加拿大_FMYC-2022_03_07_91
-      - 🇨🇦_加拿大_FMYC-2022_03_07_92
-      - 🇨🇦_加拿大_FMYC-2022_03_07_93
-      - 🇨🇦_加拿大_FMYC-2022_03_07_94
-      - 🇭🇰_香港_FMYC-2022_03_07_95
-      - 🇭🇰_香港_FMYC-2022_03_07_96
-      - 🇭🇰_香港_FMYC-2022_03_07_97
-      - 🇺🇸_美国_FMYC-2022_03_07_98
-      - 🇺🇸_美国_FMYC-2022_03_07_99
-      - 🇺🇸_美国_FMYC-2022_03_07_100
-      - 🇺🇸_美国_FMYC-2022_03_07_101
-      - 🇭🇰_香港_FMYC-2022_03_07_102
-      - 🇺🇸_美国_FMYC-2022_03_07_103
-      - 🇺🇸_美国_FMYC-2022_03_07_104
-      - 🇺🇸_美国_FMYC-2022_03_07_105
-      - 🇺🇸_美国_FMYC-2022_03_07_106
-      - FMYC-2022_03_07_107
-      - 🇺🇸_美国_FMYC-2022_03_07_108
-      - 🇬🇧_英国_FMYC-2022_03_07_109
-      - 🇺🇸_美国_FMYC-2022_03_07_110
-      - 🇨🇦_加拿大_FMYC-2022_03_07_111
-      - 🇨🇦_加拿大_FMYC-2022_03_07_112
-      - 🇨🇦_加拿大_FMYC-2022_03_07_113
-      - 🇺🇸_美国_FMYC-2022_03_07_114
-      - 🇺🇸_美国_FMYC-2022_03_07_115
-      - 🇺🇸_美国_FMYC-2022_03_07_116
-      - 🇨🇦_加拿大_FMYC-2022_03_07_117
-      - 🇨🇦_加拿大_FMYC-2022_03_07_118
-      - 🇨🇦_加拿大_FMYC-2022_03_07_119
-      - 🇨🇦_加拿大_FMYC-2022_03_07_120
-      - 🇨🇦_加拿大_FMYC-2022_03_07_121
-      - 🇨🇦_加拿大_FMYC-2022_03_07_122
-      - 🇨🇦_加拿大_FMYC-2022_03_07_123
-      - 🇨🇦_加拿大_FMYC-2022_03_07_124
-      - 🇨🇦_加拿大_FMYC-2022_03_07_125
-      - 🇨🇦_加拿大_FMYC-2022_03_07_126
-      - 🇨🇦_加拿大_FMYC-2022_03_07_127
-      - 🇺🇸_美国_FMYC-2022_03_07_128
-      - 🇺🇸_美国_FMYC-2022_03_07_129
-      - 🇺🇸_美国_FMYC-2022_03_07_130
-      - 🇺🇸_美国_FMYC-2022_03_07_131
-      - 🇺🇸_美国_FMYC-2022_03_07_132
-      - 🇺🇸_美国_FMYC-2022_03_07_133
-      - 🇺🇸_美国_FMYC-2022_03_07_134
-      - 🇺🇸_美国_FMYC-2022_03_07_135
-      - 🇺🇸_美国_FMYC-2022_03_07_136
-      - 🇺🇸_美国_FMYC-2022_03_07_137
-      - 🇺🇸_美国_FMYC-2022_03_07_138
-      - 🇺🇸_美国_FMYC-2022_03_07_139
-      - 🇺🇸_美国_FMYC-2022_03_07_140
-      - 🇺🇸_美国_FMYC-2022_03_07_141
-      - 🇺🇸_美国_FMYC-2022_03_07_142
-      - 🇺🇸_美国_FMYC-2022_03_07_143
-      - 🇺🇸_美国_FMYC-2022_03_07_144
-      - 🇺🇸_美国_FMYC-2022_03_07_145
-      - 🇺🇸_美国_FMYC-2022_03_07_146
-      - 🇺🇸_美国_FMYC-2022_03_07_147
-      - 🇺🇸_美国_FMYC-2022_03_07_148
-      - 🇺🇸_美国_FMYC-2022_03_07_149
-      - 🇺🇸_美国_FMYC-2022_03_07_150
-      - 🇺🇸_美国_FMYC-2022_03_07_151
-      - 🇺🇸_美国_FMYC-2022_03_07_152
-      - 🇺🇸_美国_FMYC-2022_03_07_153
-      - 🇺🇸_美国_FMYC-2022_03_07_154
-      - 🇺🇸_美国_FMYC-2022_03_07_155
-      - 🇺🇸_美国_FMYC-2022_03_07_156
-      - 🇺🇸_美国_FMYC-2022_03_07_157
-      - 🇺🇸_美国_FMYC-2022_03_07_158
-      - 🇺🇸_美国_FMYC-2022_03_07_159
-      - 🇺🇸_美国_FMYC-2022_03_07_160
-      - 🇺🇸_美国_FMYC-2022_03_07_161
-      - 🇺🇸_美国_FMYC-2022_03_07_162
-      - 🇺🇸_美国_FMYC-2022_03_07_163
-      - 🇺🇸_美国_FMYC-2022_03_07_164
-      - 🇺🇸_美国_FMYC-2022_03_07_165
-      - 🇺🇸_美国_FMYC-2022_03_07_166
-      - 🇺🇸_美国_FMYC-2022_03_07_167
-      - 🇨🇦_加拿大_FMYC-2022_03_07_168
-      - 🇨🇳_中国_FMYC-2022_03_07_169
-      - 🇺🇸_美国_FMYC-2022_03_07_170
-      - 🇺🇸_美国_FMYC-2022_03_07_171
-      - 🇺🇸_美国_FMYC-2022_03_07_172
-      - 🇺🇸_美国_FMYC-2022_03_07_173
-      - 🇺🇸_美国_FMYC-2022_03_07_174
-      - FMYC-2022_03_07_175
-      - FMYC-2022_03_07_176
-      - FMYC-2022_03_07_177
-      - FMYC-2022_03_07_178
-      - 🇩🇪_德国_FMYC-2022_03_07_179
-      - 🇭🇰_香港_FMYC-2022_03_07_180
-      - FMYC-2022_03_07_181
-      - 🇺🇸_美国_FMYC-2022_03_07_182
-      - 🇺🇸_美国_FMYC-2022_03_07_183
-      - 🇺🇸_美国_FMYC-2022_03_07_184
-      - 🇬🇧_英国_FMYC-2022_03_07_185
-      - 🇬🇧_英国_FMYC-2022_03_07_186
-      - 🇺🇸_美国_FMYC-2022_03_07_187
-      - 🇵🇹_葡萄牙_FMYC-2022_03_07_188
-      - 🇨🇳_中国_FMYC-2022_03_07_189
-      - 🇨🇳_中国_FMYC-2022_03_07_190
-      - 🇨🇳_中国_FMYC-2022_03_07_191
-      - 🇨🇳_中国_FMYC-2022_03_07_192
-      - 🇨🇳_中国_FMYC-2022_03_07_193
-      - 🇨🇳_中国_FMYC-2022_03_07_194
-      - 🇨🇳_中国_FMYC-2022_03_07_195
-      - 🇨🇳_中国_FMYC-2022_03_07_196
-      - 🇨🇳_中国_FMYC-2022_03_07_197
-      - 🇨🇳_中国_FMYC-2022_03_07_198
+      - 🇨🇦_CA_加拿大_ChenX-220307_1
+      - 🇨🇦_CA_加拿大_ChenX-220307_2
+      - 🇨🇦_CA_加拿大_ChenX-220307_3
+      - 🇺🇸_US_美国_ChenX-220307_4
+      - 🇺🇸_US_美国_ChenX-220307_5
+      - 🇺🇸_US_美国_ChenX-220307_6
+      - 🇨🇦_CA_加拿大_ChenX-220307_7
+      - 🇨🇦_CA_加拿大_ChenX-220307_8
+      - 🇨🇦_CA_加拿大_ChenX-220307_9
+      - 🇨🇦_CA_加拿大_ChenX-220307_10
+      - 🇨🇳_CN_中国_ChenX-220307_11
+      - 🇨🇳_CN_中国_ChenX-220307_12
+      - 🇨🇳_CN_中国_ChenX-220307_13
+      - 🇨🇳_CN_中国_ChenX-220307_14
+      - 🇨🇳_CN_中国_ChenX-220307_15
+      - 🇨🇳_CN_中国_ChenX-220307_16
+      - 🇨🇳_CN_中国_ChenX-220307_17
+      - 🇨🇳_CN_中国_ChenX-220307_18
+      - 🇨🇳_CN_中国_ChenX-220307_19
+      - 🇨🇳_CN_中国_ChenX-220307_20
+      - 🇨🇳_CN_中国_ChenX-220307_21
+      - 🇨🇳_CN_中国_ChenX-220307_22
+      - 🇨🇳_CN_中国_ChenX-220307_23
+      - 🇫🇷_FR_法国_ChenX-220307_24
+      - 🇦🇺_AU_澳大利亚_ChenX-220307_25
+      - 🇨🇳_CN_中国_ChenX-220307_26
+      - 🇨🇳_CN_中国_ChenX-220307_27
+      - 🇨🇳_CN_中国_ChenX-220307_28
+      - 🇭🇰_HK_香港_ChenX-220307_29
+      - 🇭🇰_HK_香港_ChenX-220307_30
+      - 🇭🇰_HK_香港_ChenX-220307_31
+      - 🇭🇰_HK_香港_ChenX-220307_32
+      - 🇺🇸_US_美国_ChenX-220307_33
+      - 🇺🇸_US_美国_ChenX-220307_34
+      - 🇺🇸_US_美国_ChenX-220307_35
+      - 🇩🇪_DE_德国_ChenX-220307_36
+      - 🇬🇧_GB_英国_ChenX-220307_37
+      - 🇬🇧_GB_英国_ChenX-220307_38
+      - 🇬🇧_GB_英国_ChenX-220307_39
+      - 🇨🇳_CN_中国_ChenX-220307_40
+      - 🇨🇳_CN_中国_ChenX-220307_41
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺_俄罗斯联邦_FMYC-2022_03_07_1
-      - 🇵🇱_波兰_FMYC-2022_03_07_2
-      - 🇵🇱_波兰_FMYC-2022_03_07_3
-      - 🇺🇸_美国_FMYC-2022_03_07_4
-      - 🇨🇦_加拿大_FMYC-2022_03_07_5
-      - 🇨🇦_加拿大_FMYC-2022_03_07_6
-      - 🇺🇸_美国_FMYC-2022_03_07_7
-      - 🇭🇰_香港_FMYC-2022_03_07_8
-      - 🇮🇳_印度_FMYC-2022_03_07_9
-      - 🇫🇷_法国_FMYC-2022_03_07_10
-      - 🇩🇪_德国_FMYC-2022_03_07_11
-      - 🇸🇬_新加坡_FMYC-2022_03_07_12
-      - 🇯🇵_日本_FMYC-2022_03_07_13
-      - 🇸🇬_新加坡_FMYC-2022_03_07_14
-      - 🇯🇵_日本_FMYC-2022_03_07_15
-      - 🇯🇵_日本_FMYC-2022_03_07_16
-      - 🇯🇵_日本_FMYC-2022_03_07_17
-      - 🇯🇵_日本_FMYC-2022_03_07_18
-      - 🇯🇵_日本_FMYC-2022_03_07_19
-      - 🇯🇵_日本_FMYC-2022_03_07_20
-      - 🇯🇵_日本_FMYC-2022_03_07_21
-      - 🇯🇵_日本_FMYC-2022_03_07_22
-      - 🇸🇬_新加坡_FMYC-2022_03_07_23
-      - 🇯🇵_日本_FMYC-2022_03_07_24
-      - 🇸🇬_新加坡_FMYC-2022_03_07_25
-      - 🇺🇸_美国_FMYC-2022_03_07_26
-      - 🇧🇪_比利时_FMYC-2022_03_07_27
-      - 🇫🇷_法国_FMYC-2022_03_07_28
-      - 🇫🇷_法国_FMYC-2022_03_07_29
-      - 🇫🇷_法国_FMYC-2022_03_07_30
-      - 🇫🇷_法国_FMYC-2022_03_07_31
-      - 🇫🇷_法国_FMYC-2022_03_07_32
-      - 🇫🇷_法国_FMYC-2022_03_07_33
-      - 🇭🇰_香港_FMYC-2022_03_07_34
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_35
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_36
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_37
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_38
-      - 🇭🇰_香港_FMYC-2022_03_07_39
-      - 🇸🇬_新加坡_FMYC-2022_03_07_40
-      - 🇭🇰_香港_FMYC-2022_03_07_41
-      - 🇭🇰_香港_FMYC-2022_03_07_42
-      - 🇭🇰_香港_FMYC-2022_03_07_43
-      - 🇭🇰_香港_FMYC-2022_03_07_44
-      - 🇭🇰_香港_FMYC-2022_03_07_45
-      - 🇭🇰_香港_FMYC-2022_03_07_46
-      - 🇭🇰_香港_FMYC-2022_03_07_47
-      - 🇭🇰_香港_FMYC-2022_03_07_48
-      - 🇭🇰_香港_FMYC-2022_03_07_49
-      - 🇭🇰_香港_FMYC-2022_03_07_50
-      - 🇭🇰_香港_FMYC-2022_03_07_51
-      - 🇸🇬_新加坡_FMYC-2022_03_07_52
-      - 🇭🇰_香港_FMYC-2022_03_07_53
-      - 🇸🇬_新加坡_FMYC-2022_03_07_54
-      - 🇭🇰_香港_FMYC-2022_03_07_55
-      - 🇺🇸_美国_FMYC-2022_03_07_56
-      - 🇺🇸_美国_FMYC-2022_03_07_57
-      - 🇺🇸_美国_FMYC-2022_03_07_58
-      - 🇺🇸_美国_FMYC-2022_03_07_59
-      - 🇺🇸_美国_FMYC-2022_03_07_60
-      - 🇺🇸_美国_FMYC-2022_03_07_61
-      - 🇺🇸_美国_FMYC-2022_03_07_62
-      - 🇺🇸_美国_FMYC-2022_03_07_63
-      - 🇺🇸_美国_FMYC-2022_03_07_64
-      - FMYC-2022_03_07_65
-      - 🇺🇸_美国_FMYC-2022_03_07_66
-      - 🇺🇸_美国_FMYC-2022_03_07_67
-      - 🇺🇸_美国_FMYC-2022_03_07_68
-      - FMYC-2022_03_07_69
-      - 🇺🇸_美国_FMYC-2022_03_07_70
-      - 🇺🇸_美国_FMYC-2022_03_07_71
-      - 🇺🇸_美国_FMYC-2022_03_07_72
-      - 🇺🇸_美国_FMYC-2022_03_07_73
-      - 🇺🇸_美国_FMYC-2022_03_07_74
-      - 🇺🇸_美国_FMYC-2022_03_07_75
-      - 🇮🇳_印度_FMYC-2022_03_07_76
-      - 🇮🇳_印度_FMYC-2022_03_07_77
-      - 🇨🇦_加拿大_FMYC-2022_03_07_78
-      - 🇺🇸_美国_FMYC-2022_03_07_79
-      - 🇺🇸_美国_FMYC-2022_03_07_80
-      - 🇺🇸_美国_FMYC-2022_03_07_81
-      - 🇺🇸_美国_FMYC-2022_03_07_82
-      - FMYC-2022_03_07_83
-      - 🇺🇸_美国_FMYC-2022_03_07_84
-      - 🇺🇸_美国_FMYC-2022_03_07_85
-      - 🇺🇸_美国_FMYC-2022_03_07_86
-      - FMYC-2022_03_07_87
-      - 🇺🇸_美国_FMYC-2022_03_07_88
-      - 🇮🇳_印度_FMYC-2022_03_07_89
-      - 🇨🇦_加拿大_FMYC-2022_03_07_90
-      - 🇨🇦_加拿大_FMYC-2022_03_07_91
-      - 🇨🇦_加拿大_FMYC-2022_03_07_92
-      - 🇨🇦_加拿大_FMYC-2022_03_07_93
-      - 🇨🇦_加拿大_FMYC-2022_03_07_94
-      - 🇭🇰_香港_FMYC-2022_03_07_95
-      - 🇭🇰_香港_FMYC-2022_03_07_96
-      - 🇭🇰_香港_FMYC-2022_03_07_97
-      - 🇺🇸_美国_FMYC-2022_03_07_98
-      - 🇺🇸_美国_FMYC-2022_03_07_99
-      - 🇺🇸_美国_FMYC-2022_03_07_100
-      - 🇺🇸_美国_FMYC-2022_03_07_101
-      - 🇭🇰_香港_FMYC-2022_03_07_102
-      - 🇺🇸_美国_FMYC-2022_03_07_103
-      - 🇺🇸_美国_FMYC-2022_03_07_104
-      - 🇺🇸_美国_FMYC-2022_03_07_105
-      - 🇺🇸_美国_FMYC-2022_03_07_106
-      - FMYC-2022_03_07_107
-      - 🇺🇸_美国_FMYC-2022_03_07_108
-      - 🇬🇧_英国_FMYC-2022_03_07_109
-      - 🇺🇸_美国_FMYC-2022_03_07_110
-      - 🇨🇦_加拿大_FMYC-2022_03_07_111
-      - 🇨🇦_加拿大_FMYC-2022_03_07_112
-      - 🇨🇦_加拿大_FMYC-2022_03_07_113
-      - 🇺🇸_美国_FMYC-2022_03_07_114
-      - 🇺🇸_美国_FMYC-2022_03_07_115
-      - 🇺🇸_美国_FMYC-2022_03_07_116
-      - 🇨🇦_加拿大_FMYC-2022_03_07_117
-      - 🇨🇦_加拿大_FMYC-2022_03_07_118
-      - 🇨🇦_加拿大_FMYC-2022_03_07_119
-      - 🇨🇦_加拿大_FMYC-2022_03_07_120
-      - 🇨🇦_加拿大_FMYC-2022_03_07_121
-      - 🇨🇦_加拿大_FMYC-2022_03_07_122
-      - 🇨🇦_加拿大_FMYC-2022_03_07_123
-      - 🇨🇦_加拿大_FMYC-2022_03_07_124
-      - 🇨🇦_加拿大_FMYC-2022_03_07_125
-      - 🇨🇦_加拿大_FMYC-2022_03_07_126
-      - 🇨🇦_加拿大_FMYC-2022_03_07_127
-      - 🇺🇸_美国_FMYC-2022_03_07_128
-      - 🇺🇸_美国_FMYC-2022_03_07_129
-      - 🇺🇸_美国_FMYC-2022_03_07_130
-      - 🇺🇸_美国_FMYC-2022_03_07_131
-      - 🇺🇸_美国_FMYC-2022_03_07_132
-      - 🇺🇸_美国_FMYC-2022_03_07_133
-      - 🇺🇸_美国_FMYC-2022_03_07_134
-      - 🇺🇸_美国_FMYC-2022_03_07_135
-      - 🇺🇸_美国_FMYC-2022_03_07_136
-      - 🇺🇸_美国_FMYC-2022_03_07_137
-      - 🇺🇸_美国_FMYC-2022_03_07_138
-      - 🇺🇸_美国_FMYC-2022_03_07_139
-      - 🇺🇸_美国_FMYC-2022_03_07_140
-      - 🇺🇸_美国_FMYC-2022_03_07_141
-      - 🇺🇸_美国_FMYC-2022_03_07_142
-      - 🇺🇸_美国_FMYC-2022_03_07_143
-      - 🇺🇸_美国_FMYC-2022_03_07_144
-      - 🇺🇸_美国_FMYC-2022_03_07_145
-      - 🇺🇸_美国_FMYC-2022_03_07_146
-      - 🇺🇸_美国_FMYC-2022_03_07_147
-      - 🇺🇸_美国_FMYC-2022_03_07_148
-      - 🇺🇸_美国_FMYC-2022_03_07_149
-      - 🇺🇸_美国_FMYC-2022_03_07_150
-      - 🇺🇸_美国_FMYC-2022_03_07_151
-      - 🇺🇸_美国_FMYC-2022_03_07_152
-      - 🇺🇸_美国_FMYC-2022_03_07_153
-      - 🇺🇸_美国_FMYC-2022_03_07_154
-      - 🇺🇸_美国_FMYC-2022_03_07_155
-      - 🇺🇸_美国_FMYC-2022_03_07_156
-      - 🇺🇸_美国_FMYC-2022_03_07_157
-      - 🇺🇸_美国_FMYC-2022_03_07_158
-      - 🇺🇸_美国_FMYC-2022_03_07_159
-      - 🇺🇸_美国_FMYC-2022_03_07_160
-      - 🇺🇸_美国_FMYC-2022_03_07_161
-      - 🇺🇸_美国_FMYC-2022_03_07_162
-      - 🇺🇸_美国_FMYC-2022_03_07_163
-      - 🇺🇸_美国_FMYC-2022_03_07_164
-      - 🇺🇸_美国_FMYC-2022_03_07_165
-      - 🇺🇸_美国_FMYC-2022_03_07_166
-      - 🇺🇸_美国_FMYC-2022_03_07_167
-      - 🇨🇦_加拿大_FMYC-2022_03_07_168
-      - 🇨🇳_中国_FMYC-2022_03_07_169
-      - 🇺🇸_美国_FMYC-2022_03_07_170
-      - 🇺🇸_美国_FMYC-2022_03_07_171
-      - 🇺🇸_美国_FMYC-2022_03_07_172
-      - 🇺🇸_美国_FMYC-2022_03_07_173
-      - 🇺🇸_美国_FMYC-2022_03_07_174
-      - FMYC-2022_03_07_175
-      - FMYC-2022_03_07_176
-      - FMYC-2022_03_07_177
-      - FMYC-2022_03_07_178
-      - 🇩🇪_德国_FMYC-2022_03_07_179
-      - 🇭🇰_香港_FMYC-2022_03_07_180
-      - FMYC-2022_03_07_181
-      - 🇺🇸_美国_FMYC-2022_03_07_182
-      - 🇺🇸_美国_FMYC-2022_03_07_183
-      - 🇺🇸_美国_FMYC-2022_03_07_184
-      - 🇬🇧_英国_FMYC-2022_03_07_185
-      - 🇬🇧_英国_FMYC-2022_03_07_186
-      - 🇺🇸_美国_FMYC-2022_03_07_187
-      - 🇵🇹_葡萄牙_FMYC-2022_03_07_188
-      - 🇨🇳_中国_FMYC-2022_03_07_189
-      - 🇨🇳_中国_FMYC-2022_03_07_190
-      - 🇨🇳_中国_FMYC-2022_03_07_191
-      - 🇨🇳_中国_FMYC-2022_03_07_192
-      - 🇨🇳_中国_FMYC-2022_03_07_193
-      - 🇨🇳_中国_FMYC-2022_03_07_194
-      - 🇨🇳_中国_FMYC-2022_03_07_195
-      - 🇨🇳_中国_FMYC-2022_03_07_196
-      - 🇨🇳_中国_FMYC-2022_03_07_197
-      - 🇨🇳_中国_FMYC-2022_03_07_198
+      - 🇨🇦_CA_加拿大_ChenX-220307_1
+      - 🇨🇦_CA_加拿大_ChenX-220307_2
+      - 🇨🇦_CA_加拿大_ChenX-220307_3
+      - 🇺🇸_US_美国_ChenX-220307_4
+      - 🇺🇸_US_美国_ChenX-220307_5
+      - 🇺🇸_US_美国_ChenX-220307_6
+      - 🇨🇦_CA_加拿大_ChenX-220307_7
+      - 🇨🇦_CA_加拿大_ChenX-220307_8
+      - 🇨🇦_CA_加拿大_ChenX-220307_9
+      - 🇨🇦_CA_加拿大_ChenX-220307_10
+      - 🇨🇳_CN_中国_ChenX-220307_11
+      - 🇨🇳_CN_中国_ChenX-220307_12
+      - 🇨🇳_CN_中国_ChenX-220307_13
+      - 🇨🇳_CN_中国_ChenX-220307_14
+      - 🇨🇳_CN_中国_ChenX-220307_15
+      - 🇨🇳_CN_中国_ChenX-220307_16
+      - 🇨🇳_CN_中国_ChenX-220307_17
+      - 🇨🇳_CN_中国_ChenX-220307_18
+      - 🇨🇳_CN_中国_ChenX-220307_19
+      - 🇨🇳_CN_中国_ChenX-220307_20
+      - 🇨🇳_CN_中国_ChenX-220307_21
+      - 🇨🇳_CN_中国_ChenX-220307_22
+      - 🇨🇳_CN_中国_ChenX-220307_23
+      - 🇫🇷_FR_法国_ChenX-220307_24
+      - 🇦🇺_AU_澳大利亚_ChenX-220307_25
+      - 🇨🇳_CN_中国_ChenX-220307_26
+      - 🇨🇳_CN_中国_ChenX-220307_27
+      - 🇨🇳_CN_中国_ChenX-220307_28
+      - 🇭🇰_HK_香港_ChenX-220307_29
+      - 🇭🇰_HK_香港_ChenX-220307_30
+      - 🇭🇰_HK_香港_ChenX-220307_31
+      - 🇭🇰_HK_香港_ChenX-220307_32
+      - 🇺🇸_US_美国_ChenX-220307_33
+      - 🇺🇸_US_美国_ChenX-220307_34
+      - 🇺🇸_US_美国_ChenX-220307_35
+      - 🇩🇪_DE_德国_ChenX-220307_36
+      - 🇬🇧_GB_英国_ChenX-220307_37
+      - 🇬🇧_GB_英国_ChenX-220307_38
+      - 🇬🇧_GB_英国_ChenX-220307_39
+      - 🇨🇳_CN_中国_ChenX-220307_40
+      - 🇨🇳_CN_中国_ChenX-220307_41
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺_俄罗斯联邦_FMYC-2022_03_07_1
-      - 🇵🇱_波兰_FMYC-2022_03_07_2
-      - 🇵🇱_波兰_FMYC-2022_03_07_3
-      - 🇺🇸_美国_FMYC-2022_03_07_4
-      - 🇨🇦_加拿大_FMYC-2022_03_07_5
-      - 🇨🇦_加拿大_FMYC-2022_03_07_6
-      - 🇺🇸_美国_FMYC-2022_03_07_7
-      - 🇭🇰_香港_FMYC-2022_03_07_8
-      - 🇮🇳_印度_FMYC-2022_03_07_9
-      - 🇫🇷_法国_FMYC-2022_03_07_10
-      - 🇩🇪_德国_FMYC-2022_03_07_11
-      - 🇸🇬_新加坡_FMYC-2022_03_07_12
-      - 🇯🇵_日本_FMYC-2022_03_07_13
-      - 🇸🇬_新加坡_FMYC-2022_03_07_14
-      - 🇯🇵_日本_FMYC-2022_03_07_15
-      - 🇯🇵_日本_FMYC-2022_03_07_16
-      - 🇯🇵_日本_FMYC-2022_03_07_17
-      - 🇯🇵_日本_FMYC-2022_03_07_18
-      - 🇯🇵_日本_FMYC-2022_03_07_19
-      - 🇯🇵_日本_FMYC-2022_03_07_20
-      - 🇯🇵_日本_FMYC-2022_03_07_21
-      - 🇯🇵_日本_FMYC-2022_03_07_22
-      - 🇸🇬_新加坡_FMYC-2022_03_07_23
-      - 🇯🇵_日本_FMYC-2022_03_07_24
-      - 🇸🇬_新加坡_FMYC-2022_03_07_25
-      - 🇺🇸_美国_FMYC-2022_03_07_26
-      - 🇧🇪_比利时_FMYC-2022_03_07_27
-      - 🇫🇷_法国_FMYC-2022_03_07_28
-      - 🇫🇷_法国_FMYC-2022_03_07_29
-      - 🇫🇷_法国_FMYC-2022_03_07_30
-      - 🇫🇷_法国_FMYC-2022_03_07_31
-      - 🇫🇷_法国_FMYC-2022_03_07_32
-      - 🇫🇷_法国_FMYC-2022_03_07_33
-      - 🇭🇰_香港_FMYC-2022_03_07_34
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_35
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_36
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_37
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_38
-      - 🇭🇰_香港_FMYC-2022_03_07_39
-      - 🇸🇬_新加坡_FMYC-2022_03_07_40
-      - 🇭🇰_香港_FMYC-2022_03_07_41
-      - 🇭🇰_香港_FMYC-2022_03_07_42
-      - 🇭🇰_香港_FMYC-2022_03_07_43
-      - 🇭🇰_香港_FMYC-2022_03_07_44
-      - 🇭🇰_香港_FMYC-2022_03_07_45
-      - 🇭🇰_香港_FMYC-2022_03_07_46
-      - 🇭🇰_香港_FMYC-2022_03_07_47
-      - 🇭🇰_香港_FMYC-2022_03_07_48
-      - 🇭🇰_香港_FMYC-2022_03_07_49
-      - 🇭🇰_香港_FMYC-2022_03_07_50
-      - 🇭🇰_香港_FMYC-2022_03_07_51
-      - 🇸🇬_新加坡_FMYC-2022_03_07_52
-      - 🇭🇰_香港_FMYC-2022_03_07_53
-      - 🇸🇬_新加坡_FMYC-2022_03_07_54
-      - 🇭🇰_香港_FMYC-2022_03_07_55
-      - 🇺🇸_美国_FMYC-2022_03_07_56
-      - 🇺🇸_美国_FMYC-2022_03_07_57
-      - 🇺🇸_美国_FMYC-2022_03_07_58
-      - 🇺🇸_美国_FMYC-2022_03_07_59
-      - 🇺🇸_美国_FMYC-2022_03_07_60
-      - 🇺🇸_美国_FMYC-2022_03_07_61
-      - 🇺🇸_美国_FMYC-2022_03_07_62
-      - 🇺🇸_美国_FMYC-2022_03_07_63
-      - 🇺🇸_美国_FMYC-2022_03_07_64
-      - FMYC-2022_03_07_65
-      - 🇺🇸_美国_FMYC-2022_03_07_66
-      - 🇺🇸_美国_FMYC-2022_03_07_67
-      - 🇺🇸_美国_FMYC-2022_03_07_68
-      - FMYC-2022_03_07_69
-      - 🇺🇸_美国_FMYC-2022_03_07_70
-      - 🇺🇸_美国_FMYC-2022_03_07_71
-      - 🇺🇸_美国_FMYC-2022_03_07_72
-      - 🇺🇸_美国_FMYC-2022_03_07_73
-      - 🇺🇸_美国_FMYC-2022_03_07_74
-      - 🇺🇸_美国_FMYC-2022_03_07_75
-      - 🇮🇳_印度_FMYC-2022_03_07_76
-      - 🇮🇳_印度_FMYC-2022_03_07_77
-      - 🇨🇦_加拿大_FMYC-2022_03_07_78
-      - 🇺🇸_美国_FMYC-2022_03_07_79
-      - 🇺🇸_美国_FMYC-2022_03_07_80
-      - 🇺🇸_美国_FMYC-2022_03_07_81
-      - 🇺🇸_美国_FMYC-2022_03_07_82
-      - FMYC-2022_03_07_83
-      - 🇺🇸_美国_FMYC-2022_03_07_84
-      - 🇺🇸_美国_FMYC-2022_03_07_85
-      - 🇺🇸_美国_FMYC-2022_03_07_86
-      - FMYC-2022_03_07_87
-      - 🇺🇸_美国_FMYC-2022_03_07_88
-      - 🇮🇳_印度_FMYC-2022_03_07_89
-      - 🇨🇦_加拿大_FMYC-2022_03_07_90
-      - 🇨🇦_加拿大_FMYC-2022_03_07_91
-      - 🇨🇦_加拿大_FMYC-2022_03_07_92
-      - 🇨🇦_加拿大_FMYC-2022_03_07_93
-      - 🇨🇦_加拿大_FMYC-2022_03_07_94
-      - 🇭🇰_香港_FMYC-2022_03_07_95
-      - 🇭🇰_香港_FMYC-2022_03_07_96
-      - 🇭🇰_香港_FMYC-2022_03_07_97
-      - 🇺🇸_美国_FMYC-2022_03_07_98
-      - 🇺🇸_美国_FMYC-2022_03_07_99
-      - 🇺🇸_美国_FMYC-2022_03_07_100
-      - 🇺🇸_美国_FMYC-2022_03_07_101
-      - 🇭🇰_香港_FMYC-2022_03_07_102
-      - 🇺🇸_美国_FMYC-2022_03_07_103
-      - 🇺🇸_美国_FMYC-2022_03_07_104
-      - 🇺🇸_美国_FMYC-2022_03_07_105
-      - 🇺🇸_美国_FMYC-2022_03_07_106
-      - FMYC-2022_03_07_107
-      - 🇺🇸_美国_FMYC-2022_03_07_108
-      - 🇬🇧_英国_FMYC-2022_03_07_109
-      - 🇺🇸_美国_FMYC-2022_03_07_110
-      - 🇨🇦_加拿大_FMYC-2022_03_07_111
-      - 🇨🇦_加拿大_FMYC-2022_03_07_112
-      - 🇨🇦_加拿大_FMYC-2022_03_07_113
-      - 🇺🇸_美国_FMYC-2022_03_07_114
-      - 🇺🇸_美国_FMYC-2022_03_07_115
-      - 🇺🇸_美国_FMYC-2022_03_07_116
-      - 🇨🇦_加拿大_FMYC-2022_03_07_117
-      - 🇨🇦_加拿大_FMYC-2022_03_07_118
-      - 🇨🇦_加拿大_FMYC-2022_03_07_119
-      - 🇨🇦_加拿大_FMYC-2022_03_07_120
-      - 🇨🇦_加拿大_FMYC-2022_03_07_121
-      - 🇨🇦_加拿大_FMYC-2022_03_07_122
-      - 🇨🇦_加拿大_FMYC-2022_03_07_123
-      - 🇨🇦_加拿大_FMYC-2022_03_07_124
-      - 🇨🇦_加拿大_FMYC-2022_03_07_125
-      - 🇨🇦_加拿大_FMYC-2022_03_07_126
-      - 🇨🇦_加拿大_FMYC-2022_03_07_127
-      - 🇺🇸_美国_FMYC-2022_03_07_128
-      - 🇺🇸_美国_FMYC-2022_03_07_129
-      - 🇺🇸_美国_FMYC-2022_03_07_130
-      - 🇺🇸_美国_FMYC-2022_03_07_131
-      - 🇺🇸_美国_FMYC-2022_03_07_132
-      - 🇺🇸_美国_FMYC-2022_03_07_133
-      - 🇺🇸_美国_FMYC-2022_03_07_134
-      - 🇺🇸_美国_FMYC-2022_03_07_135
-      - 🇺🇸_美国_FMYC-2022_03_07_136
-      - 🇺🇸_美国_FMYC-2022_03_07_137
-      - 🇺🇸_美国_FMYC-2022_03_07_138
-      - 🇺🇸_美国_FMYC-2022_03_07_139
-      - 🇺🇸_美国_FMYC-2022_03_07_140
-      - 🇺🇸_美国_FMYC-2022_03_07_141
-      - 🇺🇸_美国_FMYC-2022_03_07_142
-      - 🇺🇸_美国_FMYC-2022_03_07_143
-      - 🇺🇸_美国_FMYC-2022_03_07_144
-      - 🇺🇸_美国_FMYC-2022_03_07_145
-      - 🇺🇸_美国_FMYC-2022_03_07_146
-      - 🇺🇸_美国_FMYC-2022_03_07_147
-      - 🇺🇸_美国_FMYC-2022_03_07_148
-      - 🇺🇸_美国_FMYC-2022_03_07_149
-      - 🇺🇸_美国_FMYC-2022_03_07_150
-      - 🇺🇸_美国_FMYC-2022_03_07_151
-      - 🇺🇸_美国_FMYC-2022_03_07_152
-      - 🇺🇸_美国_FMYC-2022_03_07_153
-      - 🇺🇸_美国_FMYC-2022_03_07_154
-      - 🇺🇸_美国_FMYC-2022_03_07_155
-      - 🇺🇸_美国_FMYC-2022_03_07_156
-      - 🇺🇸_美国_FMYC-2022_03_07_157
-      - 🇺🇸_美国_FMYC-2022_03_07_158
-      - 🇺🇸_美国_FMYC-2022_03_07_159
-      - 🇺🇸_美国_FMYC-2022_03_07_160
-      - 🇺🇸_美国_FMYC-2022_03_07_161
-      - 🇺🇸_美国_FMYC-2022_03_07_162
-      - 🇺🇸_美国_FMYC-2022_03_07_163
-      - 🇺🇸_美国_FMYC-2022_03_07_164
-      - 🇺🇸_美国_FMYC-2022_03_07_165
-      - 🇺🇸_美国_FMYC-2022_03_07_166
-      - 🇺🇸_美国_FMYC-2022_03_07_167
-      - 🇨🇦_加拿大_FMYC-2022_03_07_168
-      - 🇨🇳_中国_FMYC-2022_03_07_169
-      - 🇺🇸_美国_FMYC-2022_03_07_170
-      - 🇺🇸_美国_FMYC-2022_03_07_171
-      - 🇺🇸_美国_FMYC-2022_03_07_172
-      - 🇺🇸_美国_FMYC-2022_03_07_173
-      - 🇺🇸_美国_FMYC-2022_03_07_174
-      - FMYC-2022_03_07_175
-      - FMYC-2022_03_07_176
-      - FMYC-2022_03_07_177
-      - FMYC-2022_03_07_178
-      - 🇩🇪_德国_FMYC-2022_03_07_179
-      - 🇭🇰_香港_FMYC-2022_03_07_180
-      - FMYC-2022_03_07_181
-      - 🇺🇸_美国_FMYC-2022_03_07_182
-      - 🇺🇸_美国_FMYC-2022_03_07_183
-      - 🇺🇸_美国_FMYC-2022_03_07_184
-      - 🇬🇧_英国_FMYC-2022_03_07_185
-      - 🇬🇧_英国_FMYC-2022_03_07_186
-      - 🇺🇸_美国_FMYC-2022_03_07_187
-      - 🇵🇹_葡萄牙_FMYC-2022_03_07_188
-      - 🇨🇳_中国_FMYC-2022_03_07_189
-      - 🇨🇳_中国_FMYC-2022_03_07_190
-      - 🇨🇳_中国_FMYC-2022_03_07_191
-      - 🇨🇳_中国_FMYC-2022_03_07_192
-      - 🇨🇳_中国_FMYC-2022_03_07_193
-      - 🇨🇳_中国_FMYC-2022_03_07_194
-      - 🇨🇳_中国_FMYC-2022_03_07_195
-      - 🇨🇳_中国_FMYC-2022_03_07_196
-      - 🇨🇳_中国_FMYC-2022_03_07_197
-      - 🇨🇳_中国_FMYC-2022_03_07_198
+      - 🇨🇦_CA_加拿大_ChenX-220307_1
+      - 🇨🇦_CA_加拿大_ChenX-220307_2
+      - 🇨🇦_CA_加拿大_ChenX-220307_3
+      - 🇺🇸_US_美国_ChenX-220307_4
+      - 🇺🇸_US_美国_ChenX-220307_5
+      - 🇺🇸_US_美国_ChenX-220307_6
+      - 🇨🇦_CA_加拿大_ChenX-220307_7
+      - 🇨🇦_CA_加拿大_ChenX-220307_8
+      - 🇨🇦_CA_加拿大_ChenX-220307_9
+      - 🇨🇦_CA_加拿大_ChenX-220307_10
+      - 🇨🇳_CN_中国_ChenX-220307_11
+      - 🇨🇳_CN_中国_ChenX-220307_12
+      - 🇨🇳_CN_中国_ChenX-220307_13
+      - 🇨🇳_CN_中国_ChenX-220307_14
+      - 🇨🇳_CN_中国_ChenX-220307_15
+      - 🇨🇳_CN_中国_ChenX-220307_16
+      - 🇨🇳_CN_中国_ChenX-220307_17
+      - 🇨🇳_CN_中国_ChenX-220307_18
+      - 🇨🇳_CN_中国_ChenX-220307_19
+      - 🇨🇳_CN_中国_ChenX-220307_20
+      - 🇨🇳_CN_中国_ChenX-220307_21
+      - 🇨🇳_CN_中国_ChenX-220307_22
+      - 🇨🇳_CN_中国_ChenX-220307_23
+      - 🇫🇷_FR_法国_ChenX-220307_24
+      - 🇦🇺_AU_澳大利亚_ChenX-220307_25
+      - 🇨🇳_CN_中国_ChenX-220307_26
+      - 🇨🇳_CN_中国_ChenX-220307_27
+      - 🇨🇳_CN_中国_ChenX-220307_28
+      - 🇭🇰_HK_香港_ChenX-220307_29
+      - 🇭🇰_HK_香港_ChenX-220307_30
+      - 🇭🇰_HK_香港_ChenX-220307_31
+      - 🇭🇰_HK_香港_ChenX-220307_32
+      - 🇺🇸_US_美国_ChenX-220307_33
+      - 🇺🇸_US_美国_ChenX-220307_34
+      - 🇺🇸_US_美国_ChenX-220307_35
+      - 🇩🇪_DE_德国_ChenX-220307_36
+      - 🇬🇧_GB_英国_ChenX-220307_37
+      - 🇬🇧_GB_英国_ChenX-220307_38
+      - 🇬🇧_GB_英国_ChenX-220307_39
+      - 🇨🇳_CN_中国_ChenX-220307_40
+      - 🇨🇳_CN_中国_ChenX-220307_41
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇷🇺_俄罗斯联邦_FMYC-2022_03_07_1
-      - 🇵🇱_波兰_FMYC-2022_03_07_2
-      - 🇵🇱_波兰_FMYC-2022_03_07_3
-      - 🇺🇸_美国_FMYC-2022_03_07_4
-      - 🇨🇦_加拿大_FMYC-2022_03_07_5
-      - 🇨🇦_加拿大_FMYC-2022_03_07_6
-      - 🇺🇸_美国_FMYC-2022_03_07_7
-      - 🇭🇰_香港_FMYC-2022_03_07_8
-      - 🇮🇳_印度_FMYC-2022_03_07_9
-      - 🇫🇷_法国_FMYC-2022_03_07_10
-      - 🇩🇪_德国_FMYC-2022_03_07_11
-      - 🇸🇬_新加坡_FMYC-2022_03_07_12
-      - 🇯🇵_日本_FMYC-2022_03_07_13
-      - 🇸🇬_新加坡_FMYC-2022_03_07_14
-      - 🇯🇵_日本_FMYC-2022_03_07_15
-      - 🇯🇵_日本_FMYC-2022_03_07_16
-      - 🇯🇵_日本_FMYC-2022_03_07_17
-      - 🇯🇵_日本_FMYC-2022_03_07_18
-      - 🇯🇵_日本_FMYC-2022_03_07_19
-      - 🇯🇵_日本_FMYC-2022_03_07_20
-      - 🇯🇵_日本_FMYC-2022_03_07_21
-      - 🇯🇵_日本_FMYC-2022_03_07_22
-      - 🇸🇬_新加坡_FMYC-2022_03_07_23
-      - 🇯🇵_日本_FMYC-2022_03_07_24
-      - 🇸🇬_新加坡_FMYC-2022_03_07_25
-      - 🇺🇸_美国_FMYC-2022_03_07_26
-      - 🇧🇪_比利时_FMYC-2022_03_07_27
-      - 🇫🇷_法国_FMYC-2022_03_07_28
-      - 🇫🇷_法国_FMYC-2022_03_07_29
-      - 🇫🇷_法国_FMYC-2022_03_07_30
-      - 🇫🇷_法国_FMYC-2022_03_07_31
-      - 🇫🇷_法国_FMYC-2022_03_07_32
-      - 🇫🇷_法国_FMYC-2022_03_07_33
-      - 🇭🇰_香港_FMYC-2022_03_07_34
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_35
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_36
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_37
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_38
-      - 🇭🇰_香港_FMYC-2022_03_07_39
-      - 🇸🇬_新加坡_FMYC-2022_03_07_40
-      - 🇭🇰_香港_FMYC-2022_03_07_41
-      - 🇭🇰_香港_FMYC-2022_03_07_42
-      - 🇭🇰_香港_FMYC-2022_03_07_43
-      - 🇭🇰_香港_FMYC-2022_03_07_44
-      - 🇭🇰_香港_FMYC-2022_03_07_45
-      - 🇭🇰_香港_FMYC-2022_03_07_46
-      - 🇭🇰_香港_FMYC-2022_03_07_47
-      - 🇭🇰_香港_FMYC-2022_03_07_48
-      - 🇭🇰_香港_FMYC-2022_03_07_49
-      - 🇭🇰_香港_FMYC-2022_03_07_50
-      - 🇭🇰_香港_FMYC-2022_03_07_51
-      - 🇸🇬_新加坡_FMYC-2022_03_07_52
-      - 🇭🇰_香港_FMYC-2022_03_07_53
-      - 🇸🇬_新加坡_FMYC-2022_03_07_54
-      - 🇭🇰_香港_FMYC-2022_03_07_55
-      - 🇺🇸_美国_FMYC-2022_03_07_56
-      - 🇺🇸_美国_FMYC-2022_03_07_57
-      - 🇺🇸_美国_FMYC-2022_03_07_58
-      - 🇺🇸_美国_FMYC-2022_03_07_59
-      - 🇺🇸_美国_FMYC-2022_03_07_60
-      - 🇺🇸_美国_FMYC-2022_03_07_61
-      - 🇺🇸_美国_FMYC-2022_03_07_62
-      - 🇺🇸_美国_FMYC-2022_03_07_63
-      - 🇺🇸_美国_FMYC-2022_03_07_64
-      - FMYC-2022_03_07_65
-      - 🇺🇸_美国_FMYC-2022_03_07_66
-      - 🇺🇸_美国_FMYC-2022_03_07_67
-      - 🇺🇸_美国_FMYC-2022_03_07_68
-      - FMYC-2022_03_07_69
-      - 🇺🇸_美国_FMYC-2022_03_07_70
-      - 🇺🇸_美国_FMYC-2022_03_07_71
-      - 🇺🇸_美国_FMYC-2022_03_07_72
-      - 🇺🇸_美国_FMYC-2022_03_07_73
-      - 🇺🇸_美国_FMYC-2022_03_07_74
-      - 🇺🇸_美国_FMYC-2022_03_07_75
-      - 🇮🇳_印度_FMYC-2022_03_07_76
-      - 🇮🇳_印度_FMYC-2022_03_07_77
-      - 🇨🇦_加拿大_FMYC-2022_03_07_78
-      - 🇺🇸_美国_FMYC-2022_03_07_79
-      - 🇺🇸_美国_FMYC-2022_03_07_80
-      - 🇺🇸_美国_FMYC-2022_03_07_81
-      - 🇺🇸_美国_FMYC-2022_03_07_82
-      - FMYC-2022_03_07_83
-      - 🇺🇸_美国_FMYC-2022_03_07_84
-      - 🇺🇸_美国_FMYC-2022_03_07_85
-      - 🇺🇸_美国_FMYC-2022_03_07_86
-      - FMYC-2022_03_07_87
-      - 🇺🇸_美国_FMYC-2022_03_07_88
-      - 🇮🇳_印度_FMYC-2022_03_07_89
-      - 🇨🇦_加拿大_FMYC-2022_03_07_90
-      - 🇨🇦_加拿大_FMYC-2022_03_07_91
-      - 🇨🇦_加拿大_FMYC-2022_03_07_92
-      - 🇨🇦_加拿大_FMYC-2022_03_07_93
-      - 🇨🇦_加拿大_FMYC-2022_03_07_94
-      - 🇭🇰_香港_FMYC-2022_03_07_95
-      - 🇭🇰_香港_FMYC-2022_03_07_96
-      - 🇭🇰_香港_FMYC-2022_03_07_97
-      - 🇺🇸_美国_FMYC-2022_03_07_98
-      - 🇺🇸_美国_FMYC-2022_03_07_99
-      - 🇺🇸_美国_FMYC-2022_03_07_100
-      - 🇺🇸_美国_FMYC-2022_03_07_101
-      - 🇭🇰_香港_FMYC-2022_03_07_102
-      - 🇺🇸_美国_FMYC-2022_03_07_103
-      - 🇺🇸_美国_FMYC-2022_03_07_104
-      - 🇺🇸_美国_FMYC-2022_03_07_105
-      - 🇺🇸_美国_FMYC-2022_03_07_106
-      - FMYC-2022_03_07_107
-      - 🇺🇸_美国_FMYC-2022_03_07_108
-      - 🇬🇧_英国_FMYC-2022_03_07_109
-      - 🇺🇸_美国_FMYC-2022_03_07_110
-      - 🇨🇦_加拿大_FMYC-2022_03_07_111
-      - 🇨🇦_加拿大_FMYC-2022_03_07_112
-      - 🇨🇦_加拿大_FMYC-2022_03_07_113
-      - 🇺🇸_美国_FMYC-2022_03_07_114
-      - 🇺🇸_美国_FMYC-2022_03_07_115
-      - 🇺🇸_美国_FMYC-2022_03_07_116
-      - 🇨🇦_加拿大_FMYC-2022_03_07_117
-      - 🇨🇦_加拿大_FMYC-2022_03_07_118
-      - 🇨🇦_加拿大_FMYC-2022_03_07_119
-      - 🇨🇦_加拿大_FMYC-2022_03_07_120
-      - 🇨🇦_加拿大_FMYC-2022_03_07_121
-      - 🇨🇦_加拿大_FMYC-2022_03_07_122
-      - 🇨🇦_加拿大_FMYC-2022_03_07_123
-      - 🇨🇦_加拿大_FMYC-2022_03_07_124
-      - 🇨🇦_加拿大_FMYC-2022_03_07_125
-      - 🇨🇦_加拿大_FMYC-2022_03_07_126
-      - 🇨🇦_加拿大_FMYC-2022_03_07_127
-      - 🇺🇸_美国_FMYC-2022_03_07_128
-      - 🇺🇸_美国_FMYC-2022_03_07_129
-      - 🇺🇸_美国_FMYC-2022_03_07_130
-      - 🇺🇸_美国_FMYC-2022_03_07_131
-      - 🇺🇸_美国_FMYC-2022_03_07_132
-      - 🇺🇸_美国_FMYC-2022_03_07_133
-      - 🇺🇸_美国_FMYC-2022_03_07_134
-      - 🇺🇸_美国_FMYC-2022_03_07_135
-      - 🇺🇸_美国_FMYC-2022_03_07_136
-      - 🇺🇸_美国_FMYC-2022_03_07_137
-      - 🇺🇸_美国_FMYC-2022_03_07_138
-      - 🇺🇸_美国_FMYC-2022_03_07_139
-      - 🇺🇸_美国_FMYC-2022_03_07_140
-      - 🇺🇸_美国_FMYC-2022_03_07_141
-      - 🇺🇸_美国_FMYC-2022_03_07_142
-      - 🇺🇸_美国_FMYC-2022_03_07_143
-      - 🇺🇸_美国_FMYC-2022_03_07_144
-      - 🇺🇸_美国_FMYC-2022_03_07_145
-      - 🇺🇸_美国_FMYC-2022_03_07_146
-      - 🇺🇸_美国_FMYC-2022_03_07_147
-      - 🇺🇸_美国_FMYC-2022_03_07_148
-      - 🇺🇸_美国_FMYC-2022_03_07_149
-      - 🇺🇸_美国_FMYC-2022_03_07_150
-      - 🇺🇸_美国_FMYC-2022_03_07_151
-      - 🇺🇸_美国_FMYC-2022_03_07_152
-      - 🇺🇸_美国_FMYC-2022_03_07_153
-      - 🇺🇸_美国_FMYC-2022_03_07_154
-      - 🇺🇸_美国_FMYC-2022_03_07_155
-      - 🇺🇸_美国_FMYC-2022_03_07_156
-      - 🇺🇸_美国_FMYC-2022_03_07_157
-      - 🇺🇸_美国_FMYC-2022_03_07_158
-      - 🇺🇸_美国_FMYC-2022_03_07_159
-      - 🇺🇸_美国_FMYC-2022_03_07_160
-      - 🇺🇸_美国_FMYC-2022_03_07_161
-      - 🇺🇸_美国_FMYC-2022_03_07_162
-      - 🇺🇸_美国_FMYC-2022_03_07_163
-      - 🇺🇸_美国_FMYC-2022_03_07_164
-      - 🇺🇸_美国_FMYC-2022_03_07_165
-      - 🇺🇸_美国_FMYC-2022_03_07_166
-      - 🇺🇸_美国_FMYC-2022_03_07_167
-      - 🇨🇦_加拿大_FMYC-2022_03_07_168
-      - 🇨🇳_中国_FMYC-2022_03_07_169
-      - 🇺🇸_美国_FMYC-2022_03_07_170
-      - 🇺🇸_美国_FMYC-2022_03_07_171
-      - 🇺🇸_美国_FMYC-2022_03_07_172
-      - 🇺🇸_美国_FMYC-2022_03_07_173
-      - 🇺🇸_美国_FMYC-2022_03_07_174
-      - FMYC-2022_03_07_175
-      - FMYC-2022_03_07_176
-      - FMYC-2022_03_07_177
-      - FMYC-2022_03_07_178
-      - 🇩🇪_德国_FMYC-2022_03_07_179
-      - 🇭🇰_香港_FMYC-2022_03_07_180
-      - FMYC-2022_03_07_181
-      - 🇺🇸_美国_FMYC-2022_03_07_182
-      - 🇺🇸_美国_FMYC-2022_03_07_183
-      - 🇺🇸_美国_FMYC-2022_03_07_184
-      - 🇬🇧_英国_FMYC-2022_03_07_185
-      - 🇬🇧_英国_FMYC-2022_03_07_186
-      - 🇺🇸_美国_FMYC-2022_03_07_187
-      - 🇵🇹_葡萄牙_FMYC-2022_03_07_188
-      - 🇨🇳_中国_FMYC-2022_03_07_189
-      - 🇨🇳_中国_FMYC-2022_03_07_190
-      - 🇨🇳_中国_FMYC-2022_03_07_191
-      - 🇨🇳_中国_FMYC-2022_03_07_192
-      - 🇨🇳_中国_FMYC-2022_03_07_193
-      - 🇨🇳_中国_FMYC-2022_03_07_194
-      - 🇨🇳_中国_FMYC-2022_03_07_195
-      - 🇨🇳_中国_FMYC-2022_03_07_196
-      - 🇨🇳_中国_FMYC-2022_03_07_197
-      - 🇨🇳_中国_FMYC-2022_03_07_198
+      - 🇨🇦_CA_加拿大_ChenX-220307_1
+      - 🇨🇦_CA_加拿大_ChenX-220307_2
+      - 🇨🇦_CA_加拿大_ChenX-220307_3
+      - 🇺🇸_US_美国_ChenX-220307_4
+      - 🇺🇸_US_美国_ChenX-220307_5
+      - 🇺🇸_US_美国_ChenX-220307_6
+      - 🇨🇦_CA_加拿大_ChenX-220307_7
+      - 🇨🇦_CA_加拿大_ChenX-220307_8
+      - 🇨🇦_CA_加拿大_ChenX-220307_9
+      - 🇨🇦_CA_加拿大_ChenX-220307_10
+      - 🇨🇳_CN_中国_ChenX-220307_11
+      - 🇨🇳_CN_中国_ChenX-220307_12
+      - 🇨🇳_CN_中国_ChenX-220307_13
+      - 🇨🇳_CN_中国_ChenX-220307_14
+      - 🇨🇳_CN_中国_ChenX-220307_15
+      - 🇨🇳_CN_中国_ChenX-220307_16
+      - 🇨🇳_CN_中国_ChenX-220307_17
+      - 🇨🇳_CN_中国_ChenX-220307_18
+      - 🇨🇳_CN_中国_ChenX-220307_19
+      - 🇨🇳_CN_中国_ChenX-220307_20
+      - 🇨🇳_CN_中国_ChenX-220307_21
+      - 🇨🇳_CN_中国_ChenX-220307_22
+      - 🇨🇳_CN_中国_ChenX-220307_23
+      - 🇫🇷_FR_法国_ChenX-220307_24
+      - 🇦🇺_AU_澳大利亚_ChenX-220307_25
+      - 🇨🇳_CN_中国_ChenX-220307_26
+      - 🇨🇳_CN_中国_ChenX-220307_27
+      - 🇨🇳_CN_中国_ChenX-220307_28
+      - 🇭🇰_HK_香港_ChenX-220307_29
+      - 🇭🇰_HK_香港_ChenX-220307_30
+      - 🇭🇰_HK_香港_ChenX-220307_31
+      - 🇭🇰_HK_香港_ChenX-220307_32
+      - 🇺🇸_US_美国_ChenX-220307_33
+      - 🇺🇸_US_美国_ChenX-220307_34
+      - 🇺🇸_US_美国_ChenX-220307_35
+      - 🇩🇪_DE_德国_ChenX-220307_36
+      - 🇬🇧_GB_英国_ChenX-220307_37
+      - 🇬🇧_GB_英国_ChenX-220307_38
+      - 🇬🇧_GB_英国_ChenX-220307_39
+      - 🇨🇳_CN_中国_ChenX-220307_40
+      - 🇨🇳_CN_中国_ChenX-220307_41
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺_俄罗斯联邦_FMYC-2022_03_07_1
-      - 🇵🇱_波兰_FMYC-2022_03_07_2
-      - 🇵🇱_波兰_FMYC-2022_03_07_3
-      - 🇺🇸_美国_FMYC-2022_03_07_4
-      - 🇨🇦_加拿大_FMYC-2022_03_07_5
-      - 🇨🇦_加拿大_FMYC-2022_03_07_6
-      - 🇺🇸_美国_FMYC-2022_03_07_7
-      - 🇭🇰_香港_FMYC-2022_03_07_8
-      - 🇮🇳_印度_FMYC-2022_03_07_9
-      - 🇫🇷_法国_FMYC-2022_03_07_10
-      - 🇩🇪_德国_FMYC-2022_03_07_11
-      - 🇸🇬_新加坡_FMYC-2022_03_07_12
-      - 🇯🇵_日本_FMYC-2022_03_07_13
-      - 🇸🇬_新加坡_FMYC-2022_03_07_14
-      - 🇯🇵_日本_FMYC-2022_03_07_15
-      - 🇯🇵_日本_FMYC-2022_03_07_16
-      - 🇯🇵_日本_FMYC-2022_03_07_17
-      - 🇯🇵_日本_FMYC-2022_03_07_18
-      - 🇯🇵_日本_FMYC-2022_03_07_19
-      - 🇯🇵_日本_FMYC-2022_03_07_20
-      - 🇯🇵_日本_FMYC-2022_03_07_21
-      - 🇯🇵_日本_FMYC-2022_03_07_22
-      - 🇸🇬_新加坡_FMYC-2022_03_07_23
-      - 🇯🇵_日本_FMYC-2022_03_07_24
-      - 🇸🇬_新加坡_FMYC-2022_03_07_25
-      - 🇺🇸_美国_FMYC-2022_03_07_26
-      - 🇧🇪_比利时_FMYC-2022_03_07_27
-      - 🇫🇷_法国_FMYC-2022_03_07_28
-      - 🇫🇷_法国_FMYC-2022_03_07_29
-      - 🇫🇷_法国_FMYC-2022_03_07_30
-      - 🇫🇷_法国_FMYC-2022_03_07_31
-      - 🇫🇷_法国_FMYC-2022_03_07_32
-      - 🇫🇷_法国_FMYC-2022_03_07_33
-      - 🇭🇰_香港_FMYC-2022_03_07_34
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_35
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_36
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_37
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_38
-      - 🇭🇰_香港_FMYC-2022_03_07_39
-      - 🇸🇬_新加坡_FMYC-2022_03_07_40
-      - 🇭🇰_香港_FMYC-2022_03_07_41
-      - 🇭🇰_香港_FMYC-2022_03_07_42
-      - 🇭🇰_香港_FMYC-2022_03_07_43
-      - 🇭🇰_香港_FMYC-2022_03_07_44
-      - 🇭🇰_香港_FMYC-2022_03_07_45
-      - 🇭🇰_香港_FMYC-2022_03_07_46
-      - 🇭🇰_香港_FMYC-2022_03_07_47
-      - 🇭🇰_香港_FMYC-2022_03_07_48
-      - 🇭🇰_香港_FMYC-2022_03_07_49
-      - 🇭🇰_香港_FMYC-2022_03_07_50
-      - 🇭🇰_香港_FMYC-2022_03_07_51
-      - 🇸🇬_新加坡_FMYC-2022_03_07_52
-      - 🇭🇰_香港_FMYC-2022_03_07_53
-      - 🇸🇬_新加坡_FMYC-2022_03_07_54
-      - 🇭🇰_香港_FMYC-2022_03_07_55
-      - 🇺🇸_美国_FMYC-2022_03_07_56
-      - 🇺🇸_美国_FMYC-2022_03_07_57
-      - 🇺🇸_美国_FMYC-2022_03_07_58
-      - 🇺🇸_美国_FMYC-2022_03_07_59
-      - 🇺🇸_美国_FMYC-2022_03_07_60
-      - 🇺🇸_美国_FMYC-2022_03_07_61
-      - 🇺🇸_美国_FMYC-2022_03_07_62
-      - 🇺🇸_美国_FMYC-2022_03_07_63
-      - 🇺🇸_美国_FMYC-2022_03_07_64
-      - FMYC-2022_03_07_65
-      - 🇺🇸_美国_FMYC-2022_03_07_66
-      - 🇺🇸_美国_FMYC-2022_03_07_67
-      - 🇺🇸_美国_FMYC-2022_03_07_68
-      - FMYC-2022_03_07_69
-      - 🇺🇸_美国_FMYC-2022_03_07_70
-      - 🇺🇸_美国_FMYC-2022_03_07_71
-      - 🇺🇸_美国_FMYC-2022_03_07_72
-      - 🇺🇸_美国_FMYC-2022_03_07_73
-      - 🇺🇸_美国_FMYC-2022_03_07_74
-      - 🇺🇸_美国_FMYC-2022_03_07_75
-      - 🇮🇳_印度_FMYC-2022_03_07_76
-      - 🇮🇳_印度_FMYC-2022_03_07_77
-      - 🇨🇦_加拿大_FMYC-2022_03_07_78
-      - 🇺🇸_美国_FMYC-2022_03_07_79
-      - 🇺🇸_美国_FMYC-2022_03_07_80
-      - 🇺🇸_美国_FMYC-2022_03_07_81
-      - 🇺🇸_美国_FMYC-2022_03_07_82
-      - FMYC-2022_03_07_83
-      - 🇺🇸_美国_FMYC-2022_03_07_84
-      - 🇺🇸_美国_FMYC-2022_03_07_85
-      - 🇺🇸_美国_FMYC-2022_03_07_86
-      - FMYC-2022_03_07_87
-      - 🇺🇸_美国_FMYC-2022_03_07_88
-      - 🇮🇳_印度_FMYC-2022_03_07_89
-      - 🇨🇦_加拿大_FMYC-2022_03_07_90
-      - 🇨🇦_加拿大_FMYC-2022_03_07_91
-      - 🇨🇦_加拿大_FMYC-2022_03_07_92
-      - 🇨🇦_加拿大_FMYC-2022_03_07_93
-      - 🇨🇦_加拿大_FMYC-2022_03_07_94
-      - 🇭🇰_香港_FMYC-2022_03_07_95
-      - 🇭🇰_香港_FMYC-2022_03_07_96
-      - 🇭🇰_香港_FMYC-2022_03_07_97
-      - 🇺🇸_美国_FMYC-2022_03_07_98
-      - 🇺🇸_美国_FMYC-2022_03_07_99
-      - 🇺🇸_美国_FMYC-2022_03_07_100
-      - 🇺🇸_美国_FMYC-2022_03_07_101
-      - 🇭🇰_香港_FMYC-2022_03_07_102
-      - 🇺🇸_美国_FMYC-2022_03_07_103
-      - 🇺🇸_美国_FMYC-2022_03_07_104
-      - 🇺🇸_美国_FMYC-2022_03_07_105
-      - 🇺🇸_美国_FMYC-2022_03_07_106
-      - FMYC-2022_03_07_107
-      - 🇺🇸_美国_FMYC-2022_03_07_108
-      - 🇬🇧_英国_FMYC-2022_03_07_109
-      - 🇺🇸_美国_FMYC-2022_03_07_110
-      - 🇨🇦_加拿大_FMYC-2022_03_07_111
-      - 🇨🇦_加拿大_FMYC-2022_03_07_112
-      - 🇨🇦_加拿大_FMYC-2022_03_07_113
-      - 🇺🇸_美国_FMYC-2022_03_07_114
-      - 🇺🇸_美国_FMYC-2022_03_07_115
-      - 🇺🇸_美国_FMYC-2022_03_07_116
-      - 🇨🇦_加拿大_FMYC-2022_03_07_117
-      - 🇨🇦_加拿大_FMYC-2022_03_07_118
-      - 🇨🇦_加拿大_FMYC-2022_03_07_119
-      - 🇨🇦_加拿大_FMYC-2022_03_07_120
-      - 🇨🇦_加拿大_FMYC-2022_03_07_121
-      - 🇨🇦_加拿大_FMYC-2022_03_07_122
-      - 🇨🇦_加拿大_FMYC-2022_03_07_123
-      - 🇨🇦_加拿大_FMYC-2022_03_07_124
-      - 🇨🇦_加拿大_FMYC-2022_03_07_125
-      - 🇨🇦_加拿大_FMYC-2022_03_07_126
-      - 🇨🇦_加拿大_FMYC-2022_03_07_127
-      - 🇺🇸_美国_FMYC-2022_03_07_128
-      - 🇺🇸_美国_FMYC-2022_03_07_129
-      - 🇺🇸_美国_FMYC-2022_03_07_130
-      - 🇺🇸_美国_FMYC-2022_03_07_131
-      - 🇺🇸_美国_FMYC-2022_03_07_132
-      - 🇺🇸_美国_FMYC-2022_03_07_133
-      - 🇺🇸_美国_FMYC-2022_03_07_134
-      - 🇺🇸_美国_FMYC-2022_03_07_135
-      - 🇺🇸_美国_FMYC-2022_03_07_136
-      - 🇺🇸_美国_FMYC-2022_03_07_137
-      - 🇺🇸_美国_FMYC-2022_03_07_138
-      - 🇺🇸_美国_FMYC-2022_03_07_139
-      - 🇺🇸_美国_FMYC-2022_03_07_140
-      - 🇺🇸_美国_FMYC-2022_03_07_141
-      - 🇺🇸_美国_FMYC-2022_03_07_142
-      - 🇺🇸_美国_FMYC-2022_03_07_143
-      - 🇺🇸_美国_FMYC-2022_03_07_144
-      - 🇺🇸_美国_FMYC-2022_03_07_145
-      - 🇺🇸_美国_FMYC-2022_03_07_146
-      - 🇺🇸_美国_FMYC-2022_03_07_147
-      - 🇺🇸_美国_FMYC-2022_03_07_148
-      - 🇺🇸_美国_FMYC-2022_03_07_149
-      - 🇺🇸_美国_FMYC-2022_03_07_150
-      - 🇺🇸_美国_FMYC-2022_03_07_151
-      - 🇺🇸_美国_FMYC-2022_03_07_152
-      - 🇺🇸_美国_FMYC-2022_03_07_153
-      - 🇺🇸_美国_FMYC-2022_03_07_154
-      - 🇺🇸_美国_FMYC-2022_03_07_155
-      - 🇺🇸_美国_FMYC-2022_03_07_156
-      - 🇺🇸_美国_FMYC-2022_03_07_157
-      - 🇺🇸_美国_FMYC-2022_03_07_158
-      - 🇺🇸_美国_FMYC-2022_03_07_159
-      - 🇺🇸_美国_FMYC-2022_03_07_160
-      - 🇺🇸_美国_FMYC-2022_03_07_161
-      - 🇺🇸_美国_FMYC-2022_03_07_162
-      - 🇺🇸_美国_FMYC-2022_03_07_163
-      - 🇺🇸_美国_FMYC-2022_03_07_164
-      - 🇺🇸_美国_FMYC-2022_03_07_165
-      - 🇺🇸_美国_FMYC-2022_03_07_166
-      - 🇺🇸_美国_FMYC-2022_03_07_167
-      - 🇨🇦_加拿大_FMYC-2022_03_07_168
-      - 🇨🇳_中国_FMYC-2022_03_07_169
-      - 🇺🇸_美国_FMYC-2022_03_07_170
-      - 🇺🇸_美国_FMYC-2022_03_07_171
-      - 🇺🇸_美国_FMYC-2022_03_07_172
-      - 🇺🇸_美国_FMYC-2022_03_07_173
-      - 🇺🇸_美国_FMYC-2022_03_07_174
-      - FMYC-2022_03_07_175
-      - FMYC-2022_03_07_176
-      - FMYC-2022_03_07_177
-      - FMYC-2022_03_07_178
-      - 🇩🇪_德国_FMYC-2022_03_07_179
-      - 🇭🇰_香港_FMYC-2022_03_07_180
-      - FMYC-2022_03_07_181
-      - 🇺🇸_美国_FMYC-2022_03_07_182
-      - 🇺🇸_美国_FMYC-2022_03_07_183
-      - 🇺🇸_美国_FMYC-2022_03_07_184
-      - 🇬🇧_英国_FMYC-2022_03_07_185
-      - 🇬🇧_英国_FMYC-2022_03_07_186
-      - 🇺🇸_美国_FMYC-2022_03_07_187
-      - 🇵🇹_葡萄牙_FMYC-2022_03_07_188
-      - 🇨🇳_中国_FMYC-2022_03_07_189
-      - 🇨🇳_中国_FMYC-2022_03_07_190
-      - 🇨🇳_中国_FMYC-2022_03_07_191
-      - 🇨🇳_中国_FMYC-2022_03_07_192
-      - 🇨🇳_中国_FMYC-2022_03_07_193
-      - 🇨🇳_中国_FMYC-2022_03_07_194
-      - 🇨🇳_中国_FMYC-2022_03_07_195
-      - 🇨🇳_中国_FMYC-2022_03_07_196
-      - 🇨🇳_中国_FMYC-2022_03_07_197
-      - 🇨🇳_中国_FMYC-2022_03_07_198
+      - 🇨🇦_CA_加拿大_ChenX-220307_1
+      - 🇨🇦_CA_加拿大_ChenX-220307_2
+      - 🇨🇦_CA_加拿大_ChenX-220307_3
+      - 🇺🇸_US_美国_ChenX-220307_4
+      - 🇺🇸_US_美国_ChenX-220307_5
+      - 🇺🇸_US_美国_ChenX-220307_6
+      - 🇨🇦_CA_加拿大_ChenX-220307_7
+      - 🇨🇦_CA_加拿大_ChenX-220307_8
+      - 🇨🇦_CA_加拿大_ChenX-220307_9
+      - 🇨🇦_CA_加拿大_ChenX-220307_10
+      - 🇨🇳_CN_中国_ChenX-220307_11
+      - 🇨🇳_CN_中国_ChenX-220307_12
+      - 🇨🇳_CN_中国_ChenX-220307_13
+      - 🇨🇳_CN_中国_ChenX-220307_14
+      - 🇨🇳_CN_中国_ChenX-220307_15
+      - 🇨🇳_CN_中国_ChenX-220307_16
+      - 🇨🇳_CN_中国_ChenX-220307_17
+      - 🇨🇳_CN_中国_ChenX-220307_18
+      - 🇨🇳_CN_中国_ChenX-220307_19
+      - 🇨🇳_CN_中国_ChenX-220307_20
+      - 🇨🇳_CN_中国_ChenX-220307_21
+      - 🇨🇳_CN_中国_ChenX-220307_22
+      - 🇨🇳_CN_中国_ChenX-220307_23
+      - 🇫🇷_FR_法国_ChenX-220307_24
+      - 🇦🇺_AU_澳大利亚_ChenX-220307_25
+      - 🇨🇳_CN_中国_ChenX-220307_26
+      - 🇨🇳_CN_中国_ChenX-220307_27
+      - 🇨🇳_CN_中国_ChenX-220307_28
+      - 🇭🇰_HK_香港_ChenX-220307_29
+      - 🇭🇰_HK_香港_ChenX-220307_30
+      - 🇭🇰_HK_香港_ChenX-220307_31
+      - 🇭🇰_HK_香港_ChenX-220307_32
+      - 🇺🇸_US_美国_ChenX-220307_33
+      - 🇺🇸_US_美国_ChenX-220307_34
+      - 🇺🇸_US_美国_ChenX-220307_35
+      - 🇩🇪_DE_德国_ChenX-220307_36
+      - 🇬🇧_GB_英国_ChenX-220307_37
+      - 🇬🇧_GB_英国_ChenX-220307_38
+      - 🇬🇧_GB_英国_ChenX-220307_39
+      - 🇨🇳_CN_中国_ChenX-220307_40
+      - 🇨🇳_CN_中国_ChenX-220307_41
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1446,204 +347,47 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺_俄罗斯联邦_FMYC-2022_03_07_1
-      - 🇵🇱_波兰_FMYC-2022_03_07_2
-      - 🇵🇱_波兰_FMYC-2022_03_07_3
-      - 🇺🇸_美国_FMYC-2022_03_07_4
-      - 🇨🇦_加拿大_FMYC-2022_03_07_5
-      - 🇨🇦_加拿大_FMYC-2022_03_07_6
-      - 🇺🇸_美国_FMYC-2022_03_07_7
-      - 🇭🇰_香港_FMYC-2022_03_07_8
-      - 🇮🇳_印度_FMYC-2022_03_07_9
-      - 🇫🇷_法国_FMYC-2022_03_07_10
-      - 🇩🇪_德国_FMYC-2022_03_07_11
-      - 🇸🇬_新加坡_FMYC-2022_03_07_12
-      - 🇯🇵_日本_FMYC-2022_03_07_13
-      - 🇸🇬_新加坡_FMYC-2022_03_07_14
-      - 🇯🇵_日本_FMYC-2022_03_07_15
-      - 🇯🇵_日本_FMYC-2022_03_07_16
-      - 🇯🇵_日本_FMYC-2022_03_07_17
-      - 🇯🇵_日本_FMYC-2022_03_07_18
-      - 🇯🇵_日本_FMYC-2022_03_07_19
-      - 🇯🇵_日本_FMYC-2022_03_07_20
-      - 🇯🇵_日本_FMYC-2022_03_07_21
-      - 🇯🇵_日本_FMYC-2022_03_07_22
-      - 🇸🇬_新加坡_FMYC-2022_03_07_23
-      - 🇯🇵_日本_FMYC-2022_03_07_24
-      - 🇸🇬_新加坡_FMYC-2022_03_07_25
-      - 🇺🇸_美国_FMYC-2022_03_07_26
-      - 🇧🇪_比利时_FMYC-2022_03_07_27
-      - 🇫🇷_法国_FMYC-2022_03_07_28
-      - 🇫🇷_法国_FMYC-2022_03_07_29
-      - 🇫🇷_法国_FMYC-2022_03_07_30
-      - 🇫🇷_法国_FMYC-2022_03_07_31
-      - 🇫🇷_法国_FMYC-2022_03_07_32
-      - 🇫🇷_法国_FMYC-2022_03_07_33
-      - 🇭🇰_香港_FMYC-2022_03_07_34
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_35
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_36
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_37
-      - 🇦🇺_澳大利亚_FMYC-2022_03_07_38
-      - 🇭🇰_香港_FMYC-2022_03_07_39
-      - 🇸🇬_新加坡_FMYC-2022_03_07_40
-      - 🇭🇰_香港_FMYC-2022_03_07_41
-      - 🇭🇰_香港_FMYC-2022_03_07_42
-      - 🇭🇰_香港_FMYC-2022_03_07_43
-      - 🇭🇰_香港_FMYC-2022_03_07_44
-      - 🇭🇰_香港_FMYC-2022_03_07_45
-      - 🇭🇰_香港_FMYC-2022_03_07_46
-      - 🇭🇰_香港_FMYC-2022_03_07_47
-      - 🇭🇰_香港_FMYC-2022_03_07_48
-      - 🇭🇰_香港_FMYC-2022_03_07_49
-      - 🇭🇰_香港_FMYC-2022_03_07_50
-      - 🇭🇰_香港_FMYC-2022_03_07_51
-      - 🇸🇬_新加坡_FMYC-2022_03_07_52
-      - 🇭🇰_香港_FMYC-2022_03_07_53
-      - 🇸🇬_新加坡_FMYC-2022_03_07_54
-      - 🇭🇰_香港_FMYC-2022_03_07_55
-      - 🇺🇸_美国_FMYC-2022_03_07_56
-      - 🇺🇸_美国_FMYC-2022_03_07_57
-      - 🇺🇸_美国_FMYC-2022_03_07_58
-      - 🇺🇸_美国_FMYC-2022_03_07_59
-      - 🇺🇸_美国_FMYC-2022_03_07_60
-      - 🇺🇸_美国_FMYC-2022_03_07_61
-      - 🇺🇸_美国_FMYC-2022_03_07_62
-      - 🇺🇸_美国_FMYC-2022_03_07_63
-      - 🇺🇸_美国_FMYC-2022_03_07_64
-      - FMYC-2022_03_07_65
-      - 🇺🇸_美国_FMYC-2022_03_07_66
-      - 🇺🇸_美国_FMYC-2022_03_07_67
-      - 🇺🇸_美国_FMYC-2022_03_07_68
-      - FMYC-2022_03_07_69
-      - 🇺🇸_美国_FMYC-2022_03_07_70
-      - 🇺🇸_美国_FMYC-2022_03_07_71
-      - 🇺🇸_美国_FMYC-2022_03_07_72
-      - 🇺🇸_美国_FMYC-2022_03_07_73
-      - 🇺🇸_美国_FMYC-2022_03_07_74
-      - 🇺🇸_美国_FMYC-2022_03_07_75
-      - 🇮🇳_印度_FMYC-2022_03_07_76
-      - 🇮🇳_印度_FMYC-2022_03_07_77
-      - 🇨🇦_加拿大_FMYC-2022_03_07_78
-      - 🇺🇸_美国_FMYC-2022_03_07_79
-      - 🇺🇸_美国_FMYC-2022_03_07_80
-      - 🇺🇸_美国_FMYC-2022_03_07_81
-      - 🇺🇸_美国_FMYC-2022_03_07_82
-      - FMYC-2022_03_07_83
-      - 🇺🇸_美国_FMYC-2022_03_07_84
-      - 🇺🇸_美国_FMYC-2022_03_07_85
-      - 🇺🇸_美国_FMYC-2022_03_07_86
-      - FMYC-2022_03_07_87
-      - 🇺🇸_美国_FMYC-2022_03_07_88
-      - 🇮🇳_印度_FMYC-2022_03_07_89
-      - 🇨🇦_加拿大_FMYC-2022_03_07_90
-      - 🇨🇦_加拿大_FMYC-2022_03_07_91
-      - 🇨🇦_加拿大_FMYC-2022_03_07_92
-      - 🇨🇦_加拿大_FMYC-2022_03_07_93
-      - 🇨🇦_加拿大_FMYC-2022_03_07_94
-      - 🇭🇰_香港_FMYC-2022_03_07_95
-      - 🇭🇰_香港_FMYC-2022_03_07_96
-      - 🇭🇰_香港_FMYC-2022_03_07_97
-      - 🇺🇸_美国_FMYC-2022_03_07_98
-      - 🇺🇸_美国_FMYC-2022_03_07_99
-      - 🇺🇸_美国_FMYC-2022_03_07_100
-      - 🇺🇸_美国_FMYC-2022_03_07_101
-      - 🇭🇰_香港_FMYC-2022_03_07_102
-      - 🇺🇸_美国_FMYC-2022_03_07_103
-      - 🇺🇸_美国_FMYC-2022_03_07_104
-      - 🇺🇸_美国_FMYC-2022_03_07_105
-      - 🇺🇸_美国_FMYC-2022_03_07_106
-      - FMYC-2022_03_07_107
-      - 🇺🇸_美国_FMYC-2022_03_07_108
-      - 🇬🇧_英国_FMYC-2022_03_07_109
-      - 🇺🇸_美国_FMYC-2022_03_07_110
-      - 🇨🇦_加拿大_FMYC-2022_03_07_111
-      - 🇨🇦_加拿大_FMYC-2022_03_07_112
-      - 🇨🇦_加拿大_FMYC-2022_03_07_113
-      - 🇺🇸_美国_FMYC-2022_03_07_114
-      - 🇺🇸_美国_FMYC-2022_03_07_115
-      - 🇺🇸_美国_FMYC-2022_03_07_116
-      - 🇨🇦_加拿大_FMYC-2022_03_07_117
-      - 🇨🇦_加拿大_FMYC-2022_03_07_118
-      - 🇨🇦_加拿大_FMYC-2022_03_07_119
-      - 🇨🇦_加拿大_FMYC-2022_03_07_120
-      - 🇨🇦_加拿大_FMYC-2022_03_07_121
-      - 🇨🇦_加拿大_FMYC-2022_03_07_122
-      - 🇨🇦_加拿大_FMYC-2022_03_07_123
-      - 🇨🇦_加拿大_FMYC-2022_03_07_124
-      - 🇨🇦_加拿大_FMYC-2022_03_07_125
-      - 🇨🇦_加拿大_FMYC-2022_03_07_126
-      - 🇨🇦_加拿大_FMYC-2022_03_07_127
-      - 🇺🇸_美国_FMYC-2022_03_07_128
-      - 🇺🇸_美国_FMYC-2022_03_07_129
-      - 🇺🇸_美国_FMYC-2022_03_07_130
-      - 🇺🇸_美国_FMYC-2022_03_07_131
-      - 🇺🇸_美国_FMYC-2022_03_07_132
-      - 🇺🇸_美国_FMYC-2022_03_07_133
-      - 🇺🇸_美国_FMYC-2022_03_07_134
-      - 🇺🇸_美国_FMYC-2022_03_07_135
-      - 🇺🇸_美国_FMYC-2022_03_07_136
-      - 🇺🇸_美国_FMYC-2022_03_07_137
-      - 🇺🇸_美国_FMYC-2022_03_07_138
-      - 🇺🇸_美国_FMYC-2022_03_07_139
-      - 🇺🇸_美国_FMYC-2022_03_07_140
-      - 🇺🇸_美国_FMYC-2022_03_07_141
-      - 🇺🇸_美国_FMYC-2022_03_07_142
-      - 🇺🇸_美国_FMYC-2022_03_07_143
-      - 🇺🇸_美国_FMYC-2022_03_07_144
-      - 🇺🇸_美国_FMYC-2022_03_07_145
-      - 🇺🇸_美国_FMYC-2022_03_07_146
-      - 🇺🇸_美国_FMYC-2022_03_07_147
-      - 🇺🇸_美国_FMYC-2022_03_07_148
-      - 🇺🇸_美国_FMYC-2022_03_07_149
-      - 🇺🇸_美国_FMYC-2022_03_07_150
-      - 🇺🇸_美国_FMYC-2022_03_07_151
-      - 🇺🇸_美国_FMYC-2022_03_07_152
-      - 🇺🇸_美国_FMYC-2022_03_07_153
-      - 🇺🇸_美国_FMYC-2022_03_07_154
-      - 🇺🇸_美国_FMYC-2022_03_07_155
-      - 🇺🇸_美国_FMYC-2022_03_07_156
-      - 🇺🇸_美国_FMYC-2022_03_07_157
-      - 🇺🇸_美国_FMYC-2022_03_07_158
-      - 🇺🇸_美国_FMYC-2022_03_07_159
-      - 🇺🇸_美国_FMYC-2022_03_07_160
-      - 🇺🇸_美国_FMYC-2022_03_07_161
-      - 🇺🇸_美国_FMYC-2022_03_07_162
-      - 🇺🇸_美国_FMYC-2022_03_07_163
-      - 🇺🇸_美国_FMYC-2022_03_07_164
-      - 🇺🇸_美国_FMYC-2022_03_07_165
-      - 🇺🇸_美国_FMYC-2022_03_07_166
-      - 🇺🇸_美国_FMYC-2022_03_07_167
-      - 🇨🇦_加拿大_FMYC-2022_03_07_168
-      - 🇨🇳_中国_FMYC-2022_03_07_169
-      - 🇺🇸_美国_FMYC-2022_03_07_170
-      - 🇺🇸_美国_FMYC-2022_03_07_171
-      - 🇺🇸_美国_FMYC-2022_03_07_172
-      - 🇺🇸_美国_FMYC-2022_03_07_173
-      - 🇺🇸_美国_FMYC-2022_03_07_174
-      - FMYC-2022_03_07_175
-      - FMYC-2022_03_07_176
-      - FMYC-2022_03_07_177
-      - FMYC-2022_03_07_178
-      - 🇩🇪_德国_FMYC-2022_03_07_179
-      - 🇭🇰_香港_FMYC-2022_03_07_180
-      - FMYC-2022_03_07_181
-      - 🇺🇸_美国_FMYC-2022_03_07_182
-      - 🇺🇸_美国_FMYC-2022_03_07_183
-      - 🇺🇸_美国_FMYC-2022_03_07_184
-      - 🇬🇧_英国_FMYC-2022_03_07_185
-      - 🇬🇧_英国_FMYC-2022_03_07_186
-      - 🇺🇸_美国_FMYC-2022_03_07_187
-      - 🇵🇹_葡萄牙_FMYC-2022_03_07_188
-      - 🇨🇳_中国_FMYC-2022_03_07_189
-      - 🇨🇳_中国_FMYC-2022_03_07_190
-      - 🇨🇳_中国_FMYC-2022_03_07_191
-      - 🇨🇳_中国_FMYC-2022_03_07_192
-      - 🇨🇳_中国_FMYC-2022_03_07_193
-      - 🇨🇳_中国_FMYC-2022_03_07_194
-      - 🇨🇳_中国_FMYC-2022_03_07_195
-      - 🇨🇳_中国_FMYC-2022_03_07_196
-      - 🇨🇳_中国_FMYC-2022_03_07_197
-      - 🇨🇳_中国_FMYC-2022_03_07_198
+      - 🇨🇦_CA_加拿大_ChenX-220307_1
+      - 🇨🇦_CA_加拿大_ChenX-220307_2
+      - 🇨🇦_CA_加拿大_ChenX-220307_3
+      - 🇺🇸_US_美国_ChenX-220307_4
+      - 🇺🇸_US_美国_ChenX-220307_5
+      - 🇺🇸_US_美国_ChenX-220307_6
+      - 🇨🇦_CA_加拿大_ChenX-220307_7
+      - 🇨🇦_CA_加拿大_ChenX-220307_8
+      - 🇨🇦_CA_加拿大_ChenX-220307_9
+      - 🇨🇦_CA_加拿大_ChenX-220307_10
+      - 🇨🇳_CN_中国_ChenX-220307_11
+      - 🇨🇳_CN_中国_ChenX-220307_12
+      - 🇨🇳_CN_中国_ChenX-220307_13
+      - 🇨🇳_CN_中国_ChenX-220307_14
+      - 🇨🇳_CN_中国_ChenX-220307_15
+      - 🇨🇳_CN_中国_ChenX-220307_16
+      - 🇨🇳_CN_中国_ChenX-220307_17
+      - 🇨🇳_CN_中国_ChenX-220307_18
+      - 🇨🇳_CN_中国_ChenX-220307_19
+      - 🇨🇳_CN_中国_ChenX-220307_20
+      - 🇨🇳_CN_中国_ChenX-220307_21
+      - 🇨🇳_CN_中国_ChenX-220307_22
+      - 🇨🇳_CN_中国_ChenX-220307_23
+      - 🇫🇷_FR_法国_ChenX-220307_24
+      - 🇦🇺_AU_澳大利亚_ChenX-220307_25
+      - 🇨🇳_CN_中国_ChenX-220307_26
+      - 🇨🇳_CN_中国_ChenX-220307_27
+      - 🇨🇳_CN_中国_ChenX-220307_28
+      - 🇭🇰_HK_香港_ChenX-220307_29
+      - 🇭🇰_HK_香港_ChenX-220307_30
+      - 🇭🇰_HK_香港_ChenX-220307_31
+      - 🇭🇰_HK_香港_ChenX-220307_32
+      - 🇺🇸_US_美国_ChenX-220307_33
+      - 🇺🇸_US_美国_ChenX-220307_34
+      - 🇺🇸_US_美国_ChenX-220307_35
+      - 🇩🇪_DE_德国_ChenX-220307_36
+      - 🇬🇧_GB_英国_ChenX-220307_37
+      - 🇬🇧_GB_英国_ChenX-220307_38
+      - 🇬🇧_GB_英国_ChenX-220307_39
+      - 🇨🇳_CN_中国_ChenX-220307_40
+      - 🇨🇳_CN_中国_ChenX-220307_41
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
