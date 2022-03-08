@@ -5,109 +5,326 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"38.91.100.102","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_2","server":"usaadm.oracleusa.ml","port":2053,"type":"vmess","uuid":"d9d24ce4-7af4-47b6-84a0-6dd13c8a5c8d","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.81","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.196.81","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_5","server":"38.143.66.71","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.81","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇦🇪_AE_阿联酋_7","server":"bi.oracleusa.ml","port":2053,"type":"vmess","uuid":"d9d24ce4-7af4-47b6-84a0-6dd13c8a5c8d","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸_US_美国_8","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"usa-dallas.lvuft.com"}}}
-  - {"name":"🇨🇦_CA_加拿大_9","server":"134.195.196.81","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦_CA_加拿大_10","server":"134.195.196.81","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸+US_118+_+5_20Mb_1","server":"38.91.100.102","port":7307,"type":"vmess","uuid":"FoOiGlkAA9yPEGP","alterId":"undefined","cipher":"auto","tls":false}
+  - {"name":"🇭🇰HK_673_13_50Mb_2","server":"xe3rayu3.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸US_126_5_69Mb_3","server":"208.98.48.2","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇭🇰HK_672_12_80Mb_4","server":"156.234.95.72","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇯🇵JP_878","server":"172.105.222.98","port":80,"type":"vmess","uuid":"4e1d0b12-25f0-363f-8659-9c6a3ca1fcda","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇺🇸US_127_8_19Mb_7","server":"iesei1ei.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇯🇵JP_846","server":"141.164.59.168","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇯🇵JP_851_3_97Mb_9","server":"160.16.199.171","port":443,"type":"vmess","uuid":"fb8ed8a9-ad61-4a12-90c6-55670a4a3332","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇯🇵JP_819","server":"141.164.53.152","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"Relay_🇭🇰HK-🇺🇸US_670","server":"azure-f4s-hk-1.forwardserver.xyz","port":44986,"type":"vmess","uuid":"3b07447e-94cf-4d72-96c6-d0a539098049","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇺🇸+US_115+_+2_01Mb_12","server":"172.99.190.92","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"US_1188","server":"38.114.114.67","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"US_1922","server":"38.75.136.21","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"US_2257","server":"172.99.190.90","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇯🇵JP_856","server":"141.164.35.41","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🏁+ZZ_155+_10_29Mb_17","server":"134.195.196.68","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🏁+ZZ_184+_+6_24Mb_18","server":"134.195.196.187","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"US_2226","server":"172.99.190.205","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"Relay_🇭🇰HK-🇺🇸US_673","server":"azure-f4s-hk-1.forwardserver.xyz","port":49242,"type":"vmess","uuid":"3b07447e-94cf-4d72-96c6-d0a539098049","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"Relay_🇭🇰HK-🇺🇸US_670","server":"azure-f4s-hk-1.forwardserver.xyz","port":32434,"type":"vmess","uuid":"3b07447e-94cf-4d72-96c6-d0a539098049","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"US_1192","server":"38.68.135.93","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"US_1187","server":"38.68.134.85","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"US_2054","server":"167.88.62.104","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"US_1131","server":"38.68.134.202","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"US_2245","server":"38.121.43.71","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"US_1374","server":"172.99.190.188","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"Relay_🇭🇰HK-🇺🇸US_668","server":"azure-f4s-hk-1.forwardserver.xyz","port":30585,"type":"vmess","uuid":"3b07447e-94cf-4d72-96c6-d0a539098049","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"US_1764","server":"38.64.138.145","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"US_1133","server":"142.202.48.58","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"US_1152","server":"142.202.48.108","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"US_1125","server":"167.88.63.74","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"Relay_🇭🇰HK-🇺🇸US_665","server":"azure-f4s-hk-1.forwardserver.xyz","port":30585,"type":"vmess","uuid":"3b07447e-94cf-4d72-96c6-d0a539098049","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"US_1136","server":"142.202.48.17","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"US_1135","server":"142.202.48.43","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"US_1723","server":"38.68.134.71","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"US_1275","server":"vpn01.nfeng6.pp.ua","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"Relay_🇭🇰HK-🇺🇸US_665","server":"azure-f4s-hk-1.forwardserver.xyz","port":30585,"type":"vmess","uuid":"3b07447e-94cf-4d72-96c6-d0a539098049","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🏁+ZZ_173+_20_69Mb_39","server":"134.195.196.3","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🏁+ZZ_186+_17_72Mb_40","server":"134.195.196.3","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"Relay_🇭🇰HK-🇺🇸US_675","server":"azure-f4s-hk-1.forwardserver.xyz","port":32434,"type":"vmess","uuid":"3b07447e-94cf-4d72-96c6-d0a539098049","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"Relay_🇭🇰HK-🇺🇸US_671","server":"azure-f4s-hk-1.forwardserver.xyz","port":44986,"type":"vmess","uuid":"3b07447e-94cf-4d72-96c6-d0a539098049","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇦🇪_AE_阿联酋_7
-      - 🇺🇸_US_美国_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇺🇸+US_118+_+5_20Mb_1
+      - 🇭🇰HK_673_13_50Mb_2
+      - 🇺🇸US_126_5_69Mb_3
+      - 🇭🇰HK_672_12_80Mb_4
+      - 🇯🇵JP_878
+      - 🇺🇸US_127_8_19Mb_7
+      - 🇯🇵JP_846
+      - 🇯🇵JP_851_3_97Mb_9
+      - 🇯🇵JP_819
+      - Relay_🇭🇰HK-🇺🇸US_670
+      - 🇺🇸+US_115+_+2_01Mb_12
+      - US_1188
+      - US_1922
+      - US_2257
+      - 🇯🇵JP_856
+      - 🏁+ZZ_155+_10_29Mb_17
+      - 🏁+ZZ_184+_+6_24Mb_18
+      - US_2226
+      - Relay_🇭🇰HK-🇺🇸US_673
+      - Relay_🇭🇰HK-🇺🇸US_670
+      - US_1192
+      - US_1187
+      - US_2054
+      - US_1131
+      - US_2245
+      - US_1374
+      - Relay_🇭🇰HK-🇺🇸US_668
+      - US_1764
+      - US_1133
+      - US_1152
+      - US_1125
+      - Relay_🇭🇰HK-🇺🇸US_665
+      - US_1136
+      - US_1135
+      - US_1723
+      - US_1275
+      - Relay_🇭🇰HK-🇺🇸US_665
+      - 🏁+ZZ_173+_20_69Mb_39
+      - 🏁+ZZ_186+_17_72Mb_40
+      - Relay_🇭🇰HK-🇺🇸US_675
+      - Relay_🇭🇰HK-🇺🇸US_671
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇦🇪_AE_阿联酋_7
-      - 🇺🇸_US_美国_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇺🇸+US_118+_+5_20Mb_1
+      - 🇭🇰HK_673_13_50Mb_2
+      - 🇺🇸US_126_5_69Mb_3
+      - 🇭🇰HK_672_12_80Mb_4
+      - 🇯🇵JP_878
+      - 🇺🇸US_127_8_19Mb_7
+      - 🇯🇵JP_846
+      - 🇯🇵JP_851_3_97Mb_9
+      - 🇯🇵JP_819
+      - Relay_🇭🇰HK-🇺🇸US_670
+      - 🇺🇸+US_115+_+2_01Mb_12
+      - US_1188
+      - US_1922
+      - US_2257
+      - 🇯🇵JP_856
+      - 🏁+ZZ_155+_10_29Mb_17
+      - 🏁+ZZ_184+_+6_24Mb_18
+      - US_2226
+      - Relay_🇭🇰HK-🇺🇸US_673
+      - Relay_🇭🇰HK-🇺🇸US_670
+      - US_1192
+      - US_1187
+      - US_2054
+      - US_1131
+      - US_2245
+      - US_1374
+      - Relay_🇭🇰HK-🇺🇸US_668
+      - US_1764
+      - US_1133
+      - US_1152
+      - US_1125
+      - Relay_🇭🇰HK-🇺🇸US_665
+      - US_1136
+      - US_1135
+      - US_1723
+      - US_1275
+      - Relay_🇭🇰HK-🇺🇸US_665
+      - 🏁+ZZ_173+_20_69Mb_39
+      - 🏁+ZZ_186+_17_72Mb_40
+      - Relay_🇭🇰HK-🇺🇸US_675
+      - Relay_🇭🇰HK-🇺🇸US_671
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇦🇪_AE_阿联酋_7
-      - 🇺🇸_US_美国_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇺🇸+US_118+_+5_20Mb_1
+      - 🇭🇰HK_673_13_50Mb_2
+      - 🇺🇸US_126_5_69Mb_3
+      - 🇭🇰HK_672_12_80Mb_4
+      - 🇯🇵JP_878
+      - 🇺🇸US_127_8_19Mb_7
+      - 🇯🇵JP_846
+      - 🇯🇵JP_851_3_97Mb_9
+      - 🇯🇵JP_819
+      - Relay_🇭🇰HK-🇺🇸US_670
+      - 🇺🇸+US_115+_+2_01Mb_12
+      - US_1188
+      - US_1922
+      - US_2257
+      - 🇯🇵JP_856
+      - 🏁+ZZ_155+_10_29Mb_17
+      - 🏁+ZZ_184+_+6_24Mb_18
+      - US_2226
+      - Relay_🇭🇰HK-🇺🇸US_673
+      - Relay_🇭🇰HK-🇺🇸US_670
+      - US_1192
+      - US_1187
+      - US_2054
+      - US_1131
+      - US_2245
+      - US_1374
+      - Relay_🇭🇰HK-🇺🇸US_668
+      - US_1764
+      - US_1133
+      - US_1152
+      - US_1125
+      - Relay_🇭🇰HK-🇺🇸US_665
+      - US_1136
+      - US_1135
+      - US_1723
+      - US_1275
+      - Relay_🇭🇰HK-🇺🇸US_665
+      - 🏁+ZZ_173+_20_69Mb_39
+      - 🏁+ZZ_186+_17_72Mb_40
+      - Relay_🇭🇰HK-🇺🇸US_675
+      - Relay_🇭🇰HK-🇺🇸US_671
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇦🇪_AE_阿联酋_7
-      - 🇺🇸_US_美国_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇺🇸+US_118+_+5_20Mb_1
+      - 🇭🇰HK_673_13_50Mb_2
+      - 🇺🇸US_126_5_69Mb_3
+      - 🇭🇰HK_672_12_80Mb_4
+      - 🇯🇵JP_878
+      - 🇺🇸US_127_8_19Mb_7
+      - 🇯🇵JP_846
+      - 🇯🇵JP_851_3_97Mb_9
+      - 🇯🇵JP_819
+      - Relay_🇭🇰HK-🇺🇸US_670
+      - 🇺🇸+US_115+_+2_01Mb_12
+      - US_1188
+      - US_1922
+      - US_2257
+      - 🇯🇵JP_856
+      - 🏁+ZZ_155+_10_29Mb_17
+      - 🏁+ZZ_184+_+6_24Mb_18
+      - US_2226
+      - Relay_🇭🇰HK-🇺🇸US_673
+      - Relay_🇭🇰HK-🇺🇸US_670
+      - US_1192
+      - US_1187
+      - US_2054
+      - US_1131
+      - US_2245
+      - US_1374
+      - Relay_🇭🇰HK-🇺🇸US_668
+      - US_1764
+      - US_1133
+      - US_1152
+      - US_1125
+      - Relay_🇭🇰HK-🇺🇸US_665
+      - US_1136
+      - US_1135
+      - US_1723
+      - US_1275
+      - Relay_🇭🇰HK-🇺🇸US_665
+      - 🏁+ZZ_173+_20_69Mb_39
+      - 🏁+ZZ_186+_17_72Mb_40
+      - Relay_🇭🇰HK-🇺🇸US_675
+      - Relay_🇭🇰HK-🇺🇸US_671
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇦🇪_AE_阿联酋_7
-      - 🇺🇸_US_美国_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇺🇸+US_118+_+5_20Mb_1
+      - 🇭🇰HK_673_13_50Mb_2
+      - 🇺🇸US_126_5_69Mb_3
+      - 🇭🇰HK_672_12_80Mb_4
+      - 🇯🇵JP_878
+      - 🇺🇸US_127_8_19Mb_7
+      - 🇯🇵JP_846
+      - 🇯🇵JP_851_3_97Mb_9
+      - 🇯🇵JP_819
+      - Relay_🇭🇰HK-🇺🇸US_670
+      - 🇺🇸+US_115+_+2_01Mb_12
+      - US_1188
+      - US_1922
+      - US_2257
+      - 🇯🇵JP_856
+      - 🏁+ZZ_155+_10_29Mb_17
+      - 🏁+ZZ_184+_+6_24Mb_18
+      - US_2226
+      - Relay_🇭🇰HK-🇺🇸US_673
+      - Relay_🇭🇰HK-🇺🇸US_670
+      - US_1192
+      - US_1187
+      - US_2054
+      - US_1131
+      - US_2245
+      - US_1374
+      - Relay_🇭🇰HK-🇺🇸US_668
+      - US_1764
+      - US_1133
+      - US_1152
+      - US_1125
+      - Relay_🇭🇰HK-🇺🇸US_665
+      - US_1136
+      - US_1135
+      - US_1723
+      - US_1275
+      - Relay_🇭🇰HK-🇺🇸US_665
+      - 🏁+ZZ_173+_20_69Mb_39
+      - 🏁+ZZ_186+_17_72Mb_40
+      - Relay_🇭🇰HK-🇺🇸US_675
+      - Relay_🇭🇰HK-🇺🇸US_671
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇦🇪_AE_阿联酋_7
-      - 🇺🇸_US_美国_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇺🇸+US_118+_+5_20Mb_1
+      - 🇭🇰HK_673_13_50Mb_2
+      - 🇺🇸US_126_5_69Mb_3
+      - 🇭🇰HK_672_12_80Mb_4
+      - 🇯🇵JP_878
+      - 🇺🇸US_127_8_19Mb_7
+      - 🇯🇵JP_846
+      - 🇯🇵JP_851_3_97Mb_9
+      - 🇯🇵JP_819
+      - Relay_🇭🇰HK-🇺🇸US_670
+      - 🇺🇸+US_115+_+2_01Mb_12
+      - US_1188
+      - US_1922
+      - US_2257
+      - 🇯🇵JP_856
+      - 🏁+ZZ_155+_10_29Mb_17
+      - 🏁+ZZ_184+_+6_24Mb_18
+      - US_2226
+      - Relay_🇭🇰HK-🇺🇸US_673
+      - Relay_🇭🇰HK-🇺🇸US_670
+      - US_1192
+      - US_1187
+      - US_2054
+      - US_1131
+      - US_2245
+      - US_1374
+      - Relay_🇭🇰HK-🇺🇸US_668
+      - US_1764
+      - US_1133
+      - US_1152
+      - US_1125
+      - Relay_🇭🇰HK-🇺🇸US_665
+      - US_1136
+      - US_1135
+      - US_1723
+      - US_1275
+      - Relay_🇭🇰HK-🇺🇸US_665
+      - 🏁+ZZ_173+_20_69Mb_39
+      - 🏁+ZZ_186+_17_72Mb_40
+      - Relay_🇭🇰HK-🇺🇸US_675
+      - Relay_🇭🇰HK-🇺🇸US_671
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +347,47 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇦🇪_AE_阿联酋_7
-      - 🇺🇸_US_美国_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇺🇸+US_118+_+5_20Mb_1
+      - 🇭🇰HK_673_13_50Mb_2
+      - 🇺🇸US_126_5_69Mb_3
+      - 🇭🇰HK_672_12_80Mb_4
+      - 🇯🇵JP_878
+      - 🇺🇸US_127_8_19Mb_7
+      - 🇯🇵JP_846
+      - 🇯🇵JP_851_3_97Mb_9
+      - 🇯🇵JP_819
+      - Relay_🇭🇰HK-🇺🇸US_670
+      - 🇺🇸+US_115+_+2_01Mb_12
+      - US_1188
+      - US_1922
+      - US_2257
+      - 🇯🇵JP_856
+      - 🏁+ZZ_155+_10_29Mb_17
+      - 🏁+ZZ_184+_+6_24Mb_18
+      - US_2226
+      - Relay_🇭🇰HK-🇺🇸US_673
+      - Relay_🇭🇰HK-🇺🇸US_670
+      - US_1192
+      - US_1187
+      - US_2054
+      - US_1131
+      - US_2245
+      - US_1374
+      - Relay_🇭🇰HK-🇺🇸US_668
+      - US_1764
+      - US_1133
+      - US_1152
+      - US_1125
+      - Relay_🇭🇰HK-🇺🇸US_665
+      - US_1136
+      - US_1135
+      - US_1723
+      - US_1275
+      - Relay_🇭🇰HK-🇺🇸US_665
+      - 🏁+ZZ_173+_20_69Mb_39
+      - 🏁+ZZ_186+_17_72Mb_40
+      - Relay_🇭🇰HK-🇺🇸US_675
+      - Relay_🇭🇰HK-🇺🇸US_671
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
