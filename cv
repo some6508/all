@@ -883,22 +883,106 @@ proxies:
   - {name: "US, 4", server: 52.11.250.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "US, 5", server: 54.190.158.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "HK, 2", server: 13.125.126.148, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 香港阿伟科技@TG/油管, server: azure-f4s-hk-1.forwardserver.xyz, port: 35187, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: azure-f4s-hk-1.forwardserver.xyz}}, udp: true}
-  - {name: 韩国阿伟科技@TG/油管, server: tj-05.t8737.shop, port: 11223, type: trojan, password: d1fcee5c-da23-4343-b98a-6b822e341669, skip-cert-verify: true, udp: true}
-  - {name: 瑞士阿伟科技@TG/油管, server: sw.oracleusa.ml, port: 2053, type: vmess, uuid: 33cabb34-fc80-4eb0-a688-0f134d0e11e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sw.oracleusa.ml}}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 13, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
+  - {name: _JP_日本->🇺🇸_US_美国, server: cmi.db-link.in, port: 21152, type: vmess, uuid: 7cdf5275-cb65-3363-9872-e9aa0d0f53f2, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us2.db-link.in}}, udp: true}
+  - {name: default_name, server: usa.oracleusa.ml, port: 2053, type: vmess, uuid: 928d2df4-6c5e-4274-9af4-b2769ea9dd96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usa.oracleusa.ml}}, udp: true}
+  - {name: _US_美国->🇨🇭_CH_瑞士, server: sw.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sw.oracleusa.ml}}, udp: true}
+  - {name: _US_美国 2, server: 38.143.66.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: 120.197.85.73, port: 5001, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: 120.197.85.73, port: 5009, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 7, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _FR_法国, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: _CA_加拿大 8, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 9, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港, server: 120.197.85.73, port: 2041, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _CA_加拿大 10, server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 11, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 12, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: default_name 2, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 98b20eea-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}, udp: true}
+  - {name: _CA_加拿大 13, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _HK_香港->🇷🇺_RU_俄罗斯联邦, server: 47.56.143.21, port: 443, type: vmess, uuid: 514e8598-aae2-4c76-a1a7-da12941f8e09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /af913804-d31a-45e8-9851-a4c5f8013d72, headers: {Host: free2.portx.cc}}, udp: true}
+  - {name: _US_美国->🇨🇭_CH_瑞士 2, server: sw.gfwglass.tk, port: 443, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sw.gfwglass.tk}}, udp: true}
+  - {name: _CA_加拿大 14, server: 134.195.196.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 15, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 2, server: 120.197.85.73, port: 2040, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾, server: 120.197.85.73, port: 5012, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _CA_加拿大 16, server: 134.195.196.81, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 17, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_英国, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国->🇯🇵_JP_日本, server: icook.hk, port: 443, type: vmess, uuid: 9a85a293-3eb7-4189-e17d-bfa46f9ad0ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /freebaipiao, headers: {Host: xmlinodejp2.aifx.eu.org}}, udp: true}
-  - {name: 111, server: usa.oracleusa.ml, port: 2053, type: vmess, uuid: caf379cf-30d5-4cbc-9126-49ff279f4a60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usa.oracleusa.ml}}, udp: true}
-  - {name: 韩国阿伟科技@TG/油管 2, server: tj-07.t8737.shop, port: 11223, type: trojan, password: d1fcee5c-da23-4343-b98a-6b822e341669, skip-cert-verify: true, udp: true}
-  - {name: 新加坡阿伟科技@TG/油管, server: sg27.holiganfan.com, port: 10088, type: trojan, password: cbb104a6-a43f-42d6-b897-474906361501, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 2, server: iepl04.zerohost.live, port: 11008, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: iepl04.zerohost.live}}, udp: true}
-  - {name: 韩国阿伟科技@TG/油管 3, server: tj-05.t8737.shop, port: 11223, type: trojan, password: 2d4a8cf5-a1e7-472e-bbd5-6d3471aa904e, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 3, server: 0306hk05.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0306hk05.fans8.xyz}}, udp: true}
-  - {name: 香港阿伟科技@TG/油管 4, server: tj-01.t8737.shop, port: 11223, type: trojan, password: 685a6f31-346b-4df0-9b9f-f222e9bf45bd, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: gcusfree.galaxycloud.buzz, port: 443, type: vmess, uuid: 6b417897-13d4-4130-927c-d1595d967445, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /0DGCTPQ, headers: {Host: gcusfree.galaxycloud.buzz}}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 2, server: usaadm.oracleusa.ml, port: 2053, type: vmess, uuid: d9d24ce4-7af4-47b6-84a0-6dd13c8a5c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usaadm.oracleusa.ml}}, udp: true}
-  - {name: 土耳其阿伟科技@TG/油管, server: rq.nodrop.bike, port: 443, type: vmess, uuid: defaa893-6ef9-4f02-bde5-be3937817a10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: rq.nodrop.bike, network: ws, ws-opts: {path: /onefall.top, headers: {Host: rq.nodrop.bike}}, udp: true}
-  - {name: 土耳其阿伟科技@TG/油管 2, server: rq.nodrop.bike, port: 443, type: vmess, uuid: 30e46917-9383-4248-be0a-65b68de6eb6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: rq.nodrop.bike, network: ws, ws-opts: {path: /onefall.top, headers: {Host: rq.nodrop.bike}}, udp: true}
+  - {name: _CA_加拿大 18, server: 134.195.196.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大 19, server: 134.195.196.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 20, server: 134.195.196.81, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 21, server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: default_name 3, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 22, server: 134.195.196.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 23, server: 134.195.196.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大 24, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _JP_日本->🇺🇸_US_美国 2, server: cmi.db-link.in, port: 21154, type: vmess, uuid: 7cdf5275-cb65-3363-9872-e9aa0d0f53f2, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us4.db-link.in}}, udp: true}
+  - {name: _CA_加拿大 25, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR_法国 2, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 26, server: 134.195.196.81, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大 27, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国->🇯🇵_JP_日本 2, server: gongyijp1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyijp1.yigeweizhuang.com}}, udp: true}
+  - {name: _CA_加拿大 28, server: 134.195.196.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 29, server: 134.195.196.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 3, server: 120.197.85.73, port: 5010, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: default_name 4, server: kor.oracleusa.ml, port: 443, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kor.oracleusa.ml}}, udp: true}
+  - {name: default_name 5, server: cm.db-link.in, port: 443, type: vmess, uuid: 7cdf5275-cb65-3363-9872-e9aa0d0f53f2, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us01.db-link.in}}, udp: true}
+  - {name: default_name 6, server: de.oracleusa.ml, port: 443, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de.oracleusa.ml}}, udp: true}
+  - {name: _CA_加拿大 30, server: 134.195.196.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 31, server: 134.195.196.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 3, server: 120.197.85.73, port: 2092, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _CA_加拿大 32, server: 134.195.196.81, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡, server: 120.197.85.73, port: 2062, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _CA_加拿大 33, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: default_name 7, server: gongyius1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyius1.yigeweizhuang.com}}, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 3, server: usaadm.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usaadm.oracleusa.ml}}, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰, server: nl.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nl.oracleusa.ml}}, udp: true}
+  - {name: _JP_日本->🇺🇸_US_美国 3, server: cmi.db-link.in, port: 21153, type: vmess, uuid: 7cdf5275-cb65-3363-9872-e9aa0d0f53f2, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us3.db-link.in}}, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡 2, server: 120.197.85.73, port: 2065, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _CA_加拿大 34, server: 134.195.196.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 35, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 36, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 4, server: 120.197.85.73, port: 2063, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _FR_法国 3, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_英国 3, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 37, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: default_name 8, server: gongyisg1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyisg1.yigeweizhuang.com}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 5, server: 120.197.85.73, port: 2064, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _FR_法国 4, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 38, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 39, server: 134.195.196.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 40, server: 134.195.196.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 4, server: 38.143.66.71, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 6, server: 120.197.85.73, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _CA_加拿大 41, server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: default_name 9, server: vir2.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vir2.oracleusa.ml}}, udp: true}
+  - {name: _CA_加拿大 42, server: 134.195.196.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: 120.197.85.73, port: 5016, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _US_美国 5, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero2.a-yu.xyz}}, udp: true}
+  - {name: _AE_阿联酋, server: uae.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uae.oracleusa.ml}}, udp: true}
+  - {name: default_name 10, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
+  - {name: default_name 11, server: fr.oracleusa.ml, port: 443, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.oracleusa.ml}}, udp: true}
+  - {name: _CA_加拿大 43, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大 44, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 45, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 46, server: 134.195.196.81, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 47, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_英国 4, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: default_name 12, server: ru.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ru.oracleusa.ml}}, udp: true}
+  - {name: _US_美国->🇲🇩_MD_摩尔多瓦, server: ex.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ex.oracleusa.ml}}, udp: true}
+  - {name: _CA_加拿大 48, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本 2, server: 120.197.85.73, port: 5015, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: _CA_加拿大 49, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 50, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2376,22 +2460,106 @@ proxy-groups:
       - US, 4
       - US, 5
       - HK, 2
-      - 香港阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管
-      - 瑞士阿伟科技@TG/油管
-      - 美国(欢迎订阅Youtube破解资源君) 13
+      - _US_美国
+      - _JP_日本->🇺🇸_US_美国
+      - default_name
+      - _US_美国->🇨🇭_CH_瑞士
+      - _US_美国 2
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _FR_法国
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CN_中国->🇭🇰_HK_香港
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - default_name 2
+      - _CA_加拿大 13
+      - _HK_香港->🇷🇺_RU_俄罗斯联邦
+      - _US_美国->🇨🇭_CH_瑞士 2
+      - _CA_加拿大 14
+      - _CA_加拿大 15
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _GB_英国
       - _US_美国->🇯🇵_JP_日本
-      - 111
-      - 韩国阿伟科技@TG/油管 2
-      - 新加坡阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 韩国阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - 土耳其阿伟科技@TG/油管
-      - 土耳其阿伟科技@TG/油管 2
+      - _CA_加拿大 18
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - default_name 3
+      - _CA_加拿大 22
+      - _CA_加拿大 23
+      - _CA_加拿大 24
+      - _JP_日本->🇺🇸_US_美国 2
+      - _CA_加拿大 25
+      - _FR_法国 2
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _US_美国->🇯🇵_JP_日本 2
+      - _CA_加拿大 28
+      - _CA_加拿大 29
+      - _CN_中国->🇺🇸_US_美国 3
+      - default_name 4
+      - default_name 5
+      - default_name 6
+      - _CA_加拿大 30
+      - _CA_加拿大 31
+      - _CN_中国->🇭🇰_HK_香港 3
+      - _CA_加拿大 32
+      - _CN_中国->🇸🇬_SG_新加坡
+      - _CA_加拿大 33
+      - default_name 7
+      - _GB_英国 2
+      - _US_美国 3
+      - _US_美国->🇳🇱_NL_荷兰
+      - _JP_日本->🇺🇸_US_美国 3
+      - _CN_中国->🇸🇬_SG_新加坡 2
+      - _CA_加拿大 34
+      - _CA_加拿大 35
+      - _CA_加拿大 36
+      - _CN_中国->🇺🇸_US_美国 4
+      - _FR_法国 3
+      - _GB_英国 3
+      - _CA_加拿大 37
+      - default_name 8
+      - _CN_中国->🇺🇸_US_美国 5
+      - _FR_法国 4
+      - _CA_加拿大 38
+      - _CA_加拿大 39
+      - _CA_加拿大 40
+      - _US_美国 4
+      - _CN_中国->🇺🇸_US_美国 6
+      - _CA_加拿大 41
+      - default_name 9
+      - _CA_加拿大 42
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 5
+      - _AE_阿联酋
+      - default_name 10
+      - default_name 11
+      - _CA_加拿大 43
+      - _CA_加拿大 44
+      - _CA_加拿大 45
+      - _CA_加拿大 46
+      - _CA_加拿大 47
+      - _GB_英国 4
+      - default_name 12
+      - _US_美国->🇲🇩_MD_摩尔多瓦
+      - _CA_加拿大 48
+      - _CN_中国->🇯🇵_JP_日本 2
+      - _CA_加拿大 49
+      - _CA_加拿大 50
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3858,22 +4026,106 @@ proxy-groups:
       - US, 4
       - US, 5
       - HK, 2
-      - 香港阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管
-      - 瑞士阿伟科技@TG/油管
-      - 美国(欢迎订阅Youtube破解资源君) 13
+      - _US_美国
+      - _JP_日本->🇺🇸_US_美国
+      - default_name
+      - _US_美国->🇨🇭_CH_瑞士
+      - _US_美国 2
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _FR_法国
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CN_中国->🇭🇰_HK_香港
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - default_name 2
+      - _CA_加拿大 13
+      - _HK_香港->🇷🇺_RU_俄罗斯联邦
+      - _US_美国->🇨🇭_CH_瑞士 2
+      - _CA_加拿大 14
+      - _CA_加拿大 15
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _GB_英国
       - _US_美国->🇯🇵_JP_日本
-      - 111
-      - 韩国阿伟科技@TG/油管 2
-      - 新加坡阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 韩国阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - 土耳其阿伟科技@TG/油管
-      - 土耳其阿伟科技@TG/油管 2
+      - _CA_加拿大 18
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - default_name 3
+      - _CA_加拿大 22
+      - _CA_加拿大 23
+      - _CA_加拿大 24
+      - _JP_日本->🇺🇸_US_美国 2
+      - _CA_加拿大 25
+      - _FR_法国 2
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _US_美国->🇯🇵_JP_日本 2
+      - _CA_加拿大 28
+      - _CA_加拿大 29
+      - _CN_中国->🇺🇸_US_美国 3
+      - default_name 4
+      - default_name 5
+      - default_name 6
+      - _CA_加拿大 30
+      - _CA_加拿大 31
+      - _CN_中国->🇭🇰_HK_香港 3
+      - _CA_加拿大 32
+      - _CN_中国->🇸🇬_SG_新加坡
+      - _CA_加拿大 33
+      - default_name 7
+      - _GB_英国 2
+      - _US_美国 3
+      - _US_美国->🇳🇱_NL_荷兰
+      - _JP_日本->🇺🇸_US_美国 3
+      - _CN_中国->🇸🇬_SG_新加坡 2
+      - _CA_加拿大 34
+      - _CA_加拿大 35
+      - _CA_加拿大 36
+      - _CN_中国->🇺🇸_US_美国 4
+      - _FR_法国 3
+      - _GB_英国 3
+      - _CA_加拿大 37
+      - default_name 8
+      - _CN_中国->🇺🇸_US_美国 5
+      - _FR_法国 4
+      - _CA_加拿大 38
+      - _CA_加拿大 39
+      - _CA_加拿大 40
+      - _US_美国 4
+      - _CN_中国->🇺🇸_US_美国 6
+      - _CA_加拿大 41
+      - default_name 9
+      - _CA_加拿大 42
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 5
+      - _AE_阿联酋
+      - default_name 10
+      - default_name 11
+      - _CA_加拿大 43
+      - _CA_加拿大 44
+      - _CA_加拿大 45
+      - _CA_加拿大 46
+      - _CA_加拿大 47
+      - _GB_英国 4
+      - default_name 12
+      - _US_美国->🇲🇩_MD_摩尔多瓦
+      - _CA_加拿大 48
+      - _CN_中国->🇯🇵_JP_日本 2
+      - _CA_加拿大 49
+      - _CA_加拿大 50
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4679,10 +4931,10 @@ proxy-groups:
       - _HK_香港_FMYC-220308_222
       - HK,
       - HK, 2
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 香港阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 4
+      - _CN_中国->🇭🇰_HK_香港
+      - _HK_香港->🇷🇺_RU_俄罗斯联邦
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _CN_中国->🇭🇰_HK_香港 3
       - 香港（YouTube资源分享者） 14
       - 香港（YouTube资源分享者） 15
       - 香港（YouTube资源分享者） 16
@@ -4811,7 +5063,13 @@ proxy-groups:
       - JP,
       - JP, 2
       - JP, 3
+      - _JP_日本->🇺🇸_US_美国
       - _US_美国->🇯🇵_JP_日本
+      - _JP_日本->🇺🇸_US_美国 2
+      - _US_美国->🇯🇵_JP_日本 2
+      - _JP_日本->🇺🇸_US_美国 3
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇯🇵_JP_日本 2
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -5134,10 +5392,26 @@ proxy-groups:
       - US, 3
       - US, 4
       - US, 5
-      - 美国(欢迎订阅Youtube破解资源君) 13
+      - _US_美国
+      - _JP_日本->🇺🇸_US_美国
+      - _US_美国->🇨🇭_CH_瑞士
+      - _US_美国 2
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _US_美国->🇨🇭_CH_瑞士 2
       - _US_美国->🇯🇵_JP_日本
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
+      - _JP_日本->🇺🇸_US_美国 2
+      - _US_美国->🇯🇵_JP_日本 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _US_美国 3
+      - _US_美国->🇳🇱_NL_荷兰
+      - _JP_日本->🇺🇸_US_美国 3
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
+      - _US_美国 4
+      - _CN_中国->🇺🇸_US_美国 6
+      - _US_美国 5
+      - _US_美国->🇲🇩_MD_摩尔多瓦
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -5333,6 +5607,7 @@ proxy-groups:
       - Ytb:鹏哥分享_TW_台湾_272
       - Ytb:鹏哥分享_TW_台湾_284
       - TW,
+      - _CN_中国->🇹🇼_TW_台湾
       - 台湾（YouTube资源分享者） 9
       - 台湾（YouTube资源分享者） 10
       - 台湾（YouTube资源分享者） 11
@@ -5358,7 +5633,8 @@ proxy-groups:
       - _SG_新加坡_FMYC-220308_55
       - _SG_新加坡_FMYC-220308_57
       - SG,
-      - 新加坡阿伟科技@TG/油管
+      - _CN_中国->🇸🇬_SG_新加坡
+      - _CN_中国->🇸🇬_SG_新加坡 2
       - 新加坡（YouTube资源分享者） 2
       - _SG_新加坡_FMYC-220308_16 2
       - _SG_新加坡_FMYC-220308_18 2
@@ -5373,9 +5649,6 @@ proxy-groups:
     interval: 300
     proxies:
       - KR,
-      - 韩国阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管 2
-      - 韩国阿伟科技@TG/油管 3
       - 日韩频道 t.me/shoucangav
       - 17韩国∞中转
       - 18韩国∞中转
