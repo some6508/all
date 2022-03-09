@@ -753,31 +753,6 @@ proxies:
   - {name: "US, 4", server: 52.11.250.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "US, 5", server: 54.190.158.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "HK, 2", server: 13.125.126.148, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国->🇸🇬_SG_新加坡, server: gongyisg1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyisg1.yigeweizhuang.com}}, udp: true}
-  - {name: _US_美国, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国->🇯🇵_JP_日本, server: icook.hk, port: 443, type: vmess, uuid: 9a85a293-3eb7-4189-e17d-bfa46f9ad0ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /freebaipiao, headers: {Host: xmlinodejp2.aifx.eu.org}}, udp: true}
-  - {name: _US_美国->🇨🇭_CH_瑞士, server: sw.gfwglass.tk, port: 443, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sw.gfwglass.tk}}, udp: true}
-  - {name: _US_美国 2, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
-  - {name: _US_美国 3, server: usa.oracleusa.ml, port: 2053, type: vmess, uuid: 928d2df4-6c5e-4274-9af4-b2769ea9dd96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usa.oracleusa.ml}}, udp: true}
-  - {name: _US_美国 4, server: vir2.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vir2.oracleusa.ml}}, udp: true}
-  - {name: _US_美国 5, server: 38.91.102.86, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰, server: nl.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nl.oracleusa.ml}}, udp: true}
-  - {name: _US_美国 6, server: gongyius1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyius1.yigeweizhuang.com}}, udp: true}
-  - {name: _US_美国 7, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 8, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: ru.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ru.oracleusa.ml}}, udp: true}
-  - {name: _US_美国->🇨🇭_CH_瑞士 2, server: sw.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sw.oracleusa.ml}}, udp: true}
-  - {name: _US_美国 9, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国 10, server: oioooo.tk, port: 443, type: vmess, uuid: c15dcbbb-3cb8-4227-86b5-b34171872290, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctvvws, headers: {Host: oioooo.tk}}, udp: true}
-  - {name: _US_美国 11, server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国->🇲🇩_MD_摩尔多瓦, server: ex.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ex.oracleusa.ml}}, udp: true}
-  - {name: _US_美国->🇯🇵_JP_日本 2, server: gongyijp2.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyijp2.yigeweizhuang.com}}, udp: true}
-  - {name: _US_美国->🇯🇵_JP_日本 3, server: gongyijp1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyijp1.yigeweizhuang.com}}, udp: true}
-  - {name: _US_美国 12, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: _US_美国 13, server: 142.202.48.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 14, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国 15, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 16, server: kor.oracleusa.ml, port: 443, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kor.oracleusa.ml}}, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1266,18 +1241,18 @@ proxies:
   - {name: Ytb:冰河圈子_3, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: Ytb:冰河圈子_4, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:冰河圈子_5, server: 5.188.6.94, port: 4515, type: ss, cipher: chacha20, password: VEQpRrWPJv, udp: true}
-  - {name: github.com/freefq - 北美地区  1, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 2, server: app.ssfree.ru, port: 443, type: vmess, uuid: 6523a9e2-9f5d-11ec-822e-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: github.com/freefq - 北美地区  1, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 2, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
   - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 澳大利亚  5, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 6, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
-  - {name: github.com/freefq - 北美地区  7, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 北美地区  8, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: github.com/freefq - 北美地区  9, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 北美地区  5, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: github.com/freefq - 澳大利亚  6, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
+  - {name: github.com/freefq - 北美地区  7, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 北美地区  8, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 北美地区  9, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 请换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 更新于:03-09 16:00:01 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 更新于:03-09 20:00:01 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新 2, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: "魔戒.net-香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e, udp: true}
@@ -2154,31 +2129,6 @@ proxy-groups:
       - US, 4
       - US, 5
       - HK, 2
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国
-      - _US_美国->🇯🇵_JP_日本
-      - _US_美国->🇨🇭_CH_瑞士
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇨🇭_CH_瑞士 2
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国->🇲🇩_MD_摩尔多瓦
-      - _US_美国->🇯🇵_JP_日本 2
-      - _US_美国->🇯🇵_JP_日本 3
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
-      - _US_美国 15
-      - _US_美国 16
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2668,17 +2618,17 @@ proxy-groups:
       - Ytb:冰河圈子_4
       - Ytb:冰河圈子_5
       - github.com/freefq - 北美地区  1
-      - github.com/freefq - 美国CloudFlare节点 2
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 2
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4
-      - github.com/freefq - 澳大利亚  5
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 6
+      - github.com/freefq - 北美地区  5
+      - github.com/freefq - 澳大利亚  6
       - github.com/freefq - 北美地区  7
       - github.com/freefq - 北美地区  8
       - github.com/freefq - 北美地区  9
       - 请换到v2ray
       - 将于近期停止ssr更新
-      - 更新于:03-09 16:00:01 - by BuLink.xyz
+      - 更新于:03-09 20:00:01 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 魔戒.net-香港(中国)🚀[极速稳定]
@@ -3544,31 +3494,6 @@ proxy-groups:
       - US, 4
       - US, 5
       - HK, 2
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国
-      - _US_美国->🇯🇵_JP_日本
-      - _US_美国->🇨🇭_CH_瑞士
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇨🇭_CH_瑞士 2
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国->🇲🇩_MD_摩尔多瓦
-      - _US_美国->🇯🇵_JP_日本 2
-      - _US_美国->🇯🇵_JP_日本 3
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
-      - _US_美国 15
-      - _US_美国 16
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4058,17 +3983,17 @@ proxy-groups:
       - Ytb:冰河圈子_4
       - Ytb:冰河圈子_5
       - github.com/freefq - 北美地区  1
-      - github.com/freefq - 美国CloudFlare节点 2
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 2
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4
-      - github.com/freefq - 澳大利亚  5
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 6
+      - github.com/freefq - 北美地区  5
+      - github.com/freefq - 澳大利亚  6
       - github.com/freefq - 北美地区  7
       - github.com/freefq - 北美地区  8
       - github.com/freefq - 北美地区  9
       - 请换到v2ray
       - 将于近期停止ssr更新
-      - 更新于:03-09 16:00:01 - by BuLink.xyz
+      - 更新于:03-09 20:00:01 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 魔戒.net-香港(中国)🚀[极速稳定]
@@ -4554,9 +4479,6 @@ proxy-groups:
       - JP,
       - JP, 2
       - JP, 3
-      - _US_美国->🇯🇵_JP_日本
-      - _US_美国->🇯🇵_JP_日本 2
-      - _US_美国->🇯🇵_JP_日本 3
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -4781,31 +4703,6 @@ proxy-groups:
       - US, 3
       - US, 4
       - US, 5
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国
-      - _US_美国->🇯🇵_JP_日本
-      - _US_美国->🇨🇭_CH_瑞士
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇨🇭_CH_瑞士 2
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国->🇲🇩_MD_摩尔多瓦
-      - _US_美国->🇯🇵_JP_日本 2
-      - _US_美国->🇯🇵_JP_日本 3
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
-      - _US_美国 15
-      - _US_美国 16
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -4988,10 +4885,10 @@ proxy-groups:
       - 14美国∞直连
       - 15美国∞直连
       - github.com/freefq - 北美地区  1
-      - github.com/freefq - 美国CloudFlare节点 2
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 2
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 6
+      - github.com/freefq - 北美地区  5
       - github.com/freefq - 北美地区  7
       - github.com/freefq - 北美地区  8
       - github.com/freefq - 北美地区  9
@@ -5063,7 +4960,6 @@ proxy-groups:
       - SG-Detour02_90
       - SG-Detour03_91
       - SG,
-      - _US_美国->🇸🇬_SG_新加坡
       - 新加坡（YouTube资源分享者） 2
       - _新加坡_FMYC-220309_44
       - _新加坡_FMYC-220309_253
