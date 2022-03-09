@@ -4,47 +4,271 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
-proxies:
-  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.187","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+proxies: 
+  - { name: 'NONE_1', server: 'www.seetheworldjp.ga', port: 443, type: trojan, password: f42e1a2e-e650-44f4-8d17-bcb68663da18 }
+  - {name: '', server: 'iepl02.zerohost.live', port: 11018, type: vmess, uuid: 'c008a763-2123-312f-bae6-bf7630517e22', alterId: 2, cipher: auto, tls: false, network: 'ws', ws-opts: { path: '/v2ray', headers: {host: 'iepl02.zerohost.live'}} }
+  - {name: 'defaultName_3', server: gz1.52168.xyz, port: 1107, type: ssr, password: 'epChJS35fV', cipher: 'aes-256-cfb', protocol: 'auth_aes128_sha1', obfs: 'tls1.2_ticket_auth', protocol-param: '149:y711wfz6uln', obfs-param: '30a2a149.baidu.com'}
+  - { name: 'NONE_4', server: 'www.gomacau.gq', port: 443, type: trojan, password: b5fc9fa9-796d-4185-a316-395ecac04a85 }
+  - {name: 'defaultName_5', server: gz1.52168.xyz, port: 1109, type: ssr, password: 'epChJS35fV', cipher: 'aes-256-cfb', protocol: 'auth_aes128_sha1', obfs: 'tls1.2_ticket_auth', protocol-param: '149:y711wfz6uln', obfs-param: '30a2a149.baidu.com'}
+  - {name: 'defaultName_6', server: '134.195.196.81', port: 7001,  type: ss, cipher: 'aes-256-gcm', password: 'RexnBgU7EV5ADxG'}
+  - {name: 'defaultName_7', server: '198.244.150.26', port: 826,  type: ss, cipher: 'chacha20-ietf-poly1305', password: 'sF43Xt2gONqcgFX563'}
+  - {name: 'defaultName_8', server: '134.195.196.81', port: 9102,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY'}
+  - {name: 'defaultName_9', server: '134.195.196.81', port: 5001,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
+  - {name: 'defaultName_10', server: '38.64.138.145', port: 8008,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74'}
+  - {name: 'defaultName_11', server: '38.64.138.145', port: 8090,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27'}
+  - {name: 'defaultName_12', server: '38.64.138.145', port: 7307,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP'}
+  - {name: 'defaultName_13', server: '38.64.138.145', port: 5500,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm'}
+  - {name: 'defaultName_14', server: '38.64.138.145', port: 7002,  type: ss, cipher: 'aes-256-gcm', password: 'RexnBgU7EV5ADxG'}
+  - {name: 'defaultName_15', server: '38.64.138.145', port: 8000,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm'}
+  - {name: 'defaultName_16', server: '38.64.138.145', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP'}
+  - {name: 'defaultName_17', server: '38.64.138.145', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
+  - {name: 'defaultName_18', server: '38.64.138.145', port: 5000,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
+  - {name: 'defaultName_19', server: '38.64.138.145', port: 2376,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7'}
+  - {name: 'defaultName_20', server: '38.64.138.145', port: 2375,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7'}
+  - {name: 'defaultName_21', server: '38.64.138.145', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm'}
+  - {name: 'defaultName_22', server: '38.64.138.145', port: 8009,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74'}
+  - {name: 'defaultName_23', server: '38.64.138.145', port: 5003,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId'}
+  - {name: 'defaultName_24', server: '38.64.138.145', port: 5004,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId'}
+  - {name: 'defaultName_25', server: '38.64.138.145', port: 6679,  type: ss, cipher: 'aes-256-gcm', password: 'TEzjfAYq2IjtuoS'}
+  - {name: 'defaultName_26', server: '38.64.138.145', port: 8091,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27'}
+  - {name: 'defaultName_27', server: '134.195.196.81', port: 9101,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY'}
+  - {name: 'defaultName_28', server: '169.197.142.99', port: 443,  type: ss, cipher: 'aes-256-gcm', password: 'pKEW8JPByTVTLtM'}
+  - {name: 'defaultName_29', server: '38.64.138.145', port: 6379,  type: ss, cipher: 'aes-256-gcm', password: 'zDNVedRFPQexG9v'}
+  - {name: 'defaultName_30', server: '38.64.138.145', port: 5600,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
+  - {name: 'defaultName_31', server: '38.64.138.145', port: 443,  type: ss, cipher: 'aes-256-gcm', password: 'pKEW8JPByTVTLtM'}
+  - {name: 'defaultName_32', server: '38.64.138.145', port: 5001,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
+  - {name: 'defaultName_33', server: '38.64.138.145', port: 6697,  type: ss, cipher: 'aes-256-gcm', password: 'TEzjfAYq2IjtuoS'}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大_1
+      - NONE_1
+      - 
+      - defaultName_3
+      - NONE_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大_1
+      - NONE_1
+      - 
+      - defaultName_3
+      - NONE_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
+      - NONE_1
+      - 
+      - defaultName_3
+      - NONE_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
+      - NONE_1
+      - 
+      - defaultName_3
+      - NONE_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大_1
+      - NONE_1
+      - 
+      - defaultName_3
+      - NONE_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
+      - NONE_1
+      - 
+      - defaultName_3
+      - NONE_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +291,39 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
+      - NONE_1
+      - 
+      - defaultName_3
+      - NONE_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
