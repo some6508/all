@@ -5,162 +5,30 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_1, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: cloudflare.a-yu.xyz}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_2, server: gongyijp2.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyijp2.yigeweizhuang.com}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_3, server: gongyius1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyius1.yigeweizhuang.com}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_4, server: icook.hk, port: 443, type: vmess, uuid: 9a85a293-3eb7-4189-e17d-bfa46f9ad0ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /freebaipiao, headers: {Host: icook.hk}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_5, server: 38.143.66.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: (欢迎订阅钱科技0310)_6, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_7, server: 38.143.66.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_8, server: 142.202.48.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_9, server: gongyisg1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyisg1.yigeweizhuang.com}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_10, server: oioooo.tk, port: 443, type: vmess, uuid: c15dcbbb-3cb8-4227-86b5-b34171872290, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctvvws, headers: {Host: oioooo.tk}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_11, server: gongyijp1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyijp1.yigeweizhuang.com}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_12, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_13, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_14, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_15, server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_16, server: 134.195.196.81, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_17, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_18, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_19, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_20, server: 134.195.196.81, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_21, server: 134.195.196.81, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇬🇧_GB_英国_22, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_23, server: 134.195.196.81, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_24, server: 134.195.196.81, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_25, server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_26, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_27, server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_28, server: 134.195.196.81, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_29, server: 134.195.196.81, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_30, server: 134.195.196.81, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_31, server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_32, server: 134.195.196.81, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_33, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_34, server: 114.wowogg.cyou, port: 52214, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_35, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_36, server: 112.wowogg.cyou, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_37, server: 105.wowogg.cyou, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_38, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_39, server: 133.wowogg.cyou, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_40, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇳_CN_中国_41, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_42, server: 117.wowogg.cyou, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_43, server: app.ssfree.ru, port: 443, type: vmess, uuid: 9135bdb4-9b6f-11ec-a503-000017022008, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_44, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇸🇬_SG_新加坡_45, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_46, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_47, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇳_CN_中国_48, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_49, server: 94.wowogg.cyou, port: 52294, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_50, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_51, server: 90.wowogg.cyou, port: 52290, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_52, server: 131.wowogg.cyou, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_53, server: 82.wowogg.cyou, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_54, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_55, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_56, server: 91.wowogg.cyou, port: 52291, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_57, server: 124.wowogg.cyou, port: 52224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_58, server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_59, server: 122.wowogg.cyou, port: 52222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_60, server: 129.wowogg.cyou, port: 52329, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_61, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_62, server: 98.wowogg.cyou, port: 52298, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_63, server: 127.wowogg.cyou, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_64, server: 103.wowogg.cyou, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇭🇰_HK_香港_65, server: 96.wowogg.cyou, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_66, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_67, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_68, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_69, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_70, server: 100.wowogg.cyou, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_71, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_72, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇬🇧_GB_英国_73, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇬🇧_GB_英国_74, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇬🇧_GB_英国_75, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_76, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇫🇷_FR_法国_77, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇬🇧_GB_英国_78, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_79, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_80, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_81, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_82, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_83, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_84, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_85, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_86, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_87, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_88, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_89, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_90, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_91, server: 134.195.196.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_92, server: 134.195.196.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_93, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_94, server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_95, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_96, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_97, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_98, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_99, server: 134.195.196.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_100, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_101, server: 134.195.196.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_102, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_103, server: 134.195.196.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_104, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇫🇷_FR_法国_105, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇫🇷_FR_法国_106, server: 51.255.66.185, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇫🇷_FR_法国_107, server: 51.255.66.185, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_108, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_109, server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_110, server: 134.195.196.81, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_111, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_112, server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_113, server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_114, server: 134.195.196.81, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_115, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_116, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_117, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_118, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_119, server: 134.195.196.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_120, server: 134.195.196.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_121, server: 134.195.196.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_122, server: 134.195.196.81, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_123, server: 134.195.196.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_124, server: 134.195.196.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_125, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_126, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_127, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_128, server: 134.195.196.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇮🇳_IN_印度_129, server: 172.105.59.32, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_130, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_131, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_132, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_133, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_134, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_135, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇫🇷_FR_法国_136, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_137, server: 134.195.196.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇫🇷_FR_法国_138, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇫🇷_FR_法国_139, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_140, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_141, server: 134.195.196.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇨🇭_CH_瑞士_142, server: sw.gfwglass.tk, port: 443, type: vmess, uuid: 5f90fd9b-c4a4-44bb-b706-2e92ffe1259a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sw.gfwglass.tk}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_143, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_144, server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_145, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shuier}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_146, server: test.0dc.cn, port: 443, type: vmess, uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: test.0dc.cn}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_147, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_148, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 9b04ac52-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_🇺🇸_US_美国_149, server: 104.27.89.125, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_150, server: 198.41.212.18, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_151, server: 198.41.212.8, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_152, server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_153, server: 198.41.212.3, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_154, server: 198.41.212.13, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_155, server: 198.41.212.10, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
-  - {name: (欢迎订阅钱科技0310)_156, server: 198.41.212.15, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
+  - {name: default_name_1, server: gongyijp2.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyijp2.yigeweizhuang.com}}, udp: true}
+  - {name: _US_美国_2, server: vir2.oracleusa.ml, port: 2053, type: vmess, uuid: 0b97a9b1-a671-4b32-a02e-17850a466fdc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vir2.oracleusa.ml}}, udp: true}
+  - {name: _GB_英国_3, server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_4, server: 134.195.196.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大_5, server: 134.195.196.179, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国_6, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大_7, server: 134.195.196.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_8, server: 38.68.134.9, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _GB_英国_9, server: 172.99.190.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: default_name_10, server: gongyisg1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyisg1.yigeweizhuang.com}}, udp: true}
+  - {name: _CA_加拿大_11, server: 134.195.196.179, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _GB_英国_12, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_13, server: 38.114.114.77, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大_14, server: 134.195.196.179, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB_英国_15, server: 172.99.190.139, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_英国_16, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国->🇯🇵_JP_日本_17, server: gongyijp1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyijp1.yigeweizhuang.com}}, udp: true}
+  - {name: _CA_加拿大_18, server: 134.195.196.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_19, server: 134.195.196.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_20, server: 38.86.135.36, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _GB_英国_21, server: 172.99.190.139, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_22, server: 134.195.196.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大_23, server: 134.195.196.50, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _GB_英国_24, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: iepl02.zerohost.live, port: 11015, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: iepl02.zerohost.live}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero2.a-yu.xyz}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 155.94.228.34, port: 13178, type: vmess, uuid: 5199bb32-dc28-4489-96d8-8efbebed4e17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1399,20 +1267,18 @@ proxies:
   - {name: Ytb:冰河圈子_3, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: Ytb:冰河圈子_4, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:冰河圈子_5, server: 5.188.6.94, port: 4515, type: ss, cipher: chacha20, password: VEQpRrWPJv, udp: true}
-  - {name: github.com/freefq - 香港Google云计算数据中心 1, server: hantesi.xyz, port: 50129, type: vmess, uuid: dd64d4c0-71fa-455a-ed52-ed6d947aa0d8, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hello, headers: {Host: hantesi.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 2, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 3, server: 158.101.23.126, port: 80, type: ss, cipher: aes-256-gcm, password: miaoge110, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: github.com/freefq - 北美地区  6, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: github.com/freefq - 北美地区  7, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: github.com/freefq - 北美地区  8, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 澳大利亚  9, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
-  - {name: github.com/freefq - 北美地区  10, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: github.com/freefq - 澳大利亚  1, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 2, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
+  - {name: github.com/freefq - 北美地区  5, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: github.com/freefq - 北美地区  6, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: github.com/freefq - 北美地区  7, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 北美地区  8, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 请换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 美国Amazon数据中心 1, server: 13.40.120.115, port: 8181, type: ssr, cipher: aes-256-cfb, password: PNRbp3j9B, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 更新于:03-10 16:00:01 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 更新于:03-10 20:00:01 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新 2, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: "魔戒.net-香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e, udp: true}
@@ -1541,162 +1407,30 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_1
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_2
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_3
-      - (欢迎订阅钱科技0310)_4
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_5
-      - (欢迎订阅钱科技0310)_6
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_7
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_8
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_9
-      - (欢迎订阅钱科技0310)_10
-      - (欢迎订阅钱科技0310)_11
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_12
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_13
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_14
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_15
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_16
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_17
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_18
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_19
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_20
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_21
-      - (欢迎订阅钱科技0310)_🇬🇧_GB_英国_22
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_23
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_24
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_25
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_26
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_27
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_28
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_29
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_30
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_31
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_32
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_33
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_34
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_35
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_36
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_37
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_38
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_39
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_40
-      - (欢迎订阅钱科技0310)_🇨🇳_CN_中国_41
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_42
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_43
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_44
-      - (欢迎订阅钱科技0310)_🇸🇬_SG_新加坡_45
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_46
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_47
-      - (欢迎订阅钱科技0310)_🇨🇳_CN_中国_48
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_49
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_50
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_51
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_52
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_53
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_54
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_55
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_56
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_57
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_58
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_59
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_60
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_61
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_62
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_63
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_64
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_65
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_66
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_67
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_68
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_69
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_70
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_71
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_72
-      - (欢迎订阅钱科技0310)_🇬🇧_GB_英国_73
-      - (欢迎订阅钱科技0310)_🇬🇧_GB_英国_74
-      - (欢迎订阅钱科技0310)_🇬🇧_GB_英国_75
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_76
-      - (欢迎订阅钱科技0310)_🇫🇷_FR_法国_77
-      - (欢迎订阅钱科技0310)_🇬🇧_GB_英国_78
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_79
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_80
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_81
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_82
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_83
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_84
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_85
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_86
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_87
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_88
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_89
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_90
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_91
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_92
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_93
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_94
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_95
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_96
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_97
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_98
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_99
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_100
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_101
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_102
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_103
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_104
-      - (欢迎订阅钱科技0310)_🇫🇷_FR_法国_105
-      - (欢迎订阅钱科技0310)_🇫🇷_FR_法国_106
-      - (欢迎订阅钱科技0310)_🇫🇷_FR_法国_107
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_108
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_109
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_110
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_111
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_112
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_113
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_114
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_115
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_116
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_117
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_118
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_119
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_120
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_121
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_122
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_123
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_124
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_125
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_126
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_127
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_128
-      - (欢迎订阅钱科技0310)_🇮🇳_IN_印度_129
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_130
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_131
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_132
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_133
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_134
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_135
-      - (欢迎订阅钱科技0310)_🇫🇷_FR_法国_136
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_137
-      - (欢迎订阅钱科技0310)_🇫🇷_FR_法国_138
-      - (欢迎订阅钱科技0310)_🇫🇷_FR_法国_139
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_140
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_141
-      - (欢迎订阅钱科技0310)_🇨🇭_CH_瑞士_142
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_143
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_144
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_145
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_146
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_147
-      - (欢迎订阅钱科技0310)_148
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_149
-      - (欢迎订阅钱科技0310)_150
-      - (欢迎订阅钱科技0310)_151
-      - (欢迎订阅钱科技0310)_152
-      - (欢迎订阅钱科技0310)_153
-      - (欢迎订阅钱科技0310)_154
-      - (欢迎订阅钱科技0310)_155
-      - (欢迎订阅钱科技0310)_156
+      - default_name_1
+      - _US_美国_2
+      - _GB_英国_3
+      - _CA_加拿大_4
+      - _CA_加拿大_5
+      - _GB_英国_6
+      - _CA_加拿大_7
+      - _US_美国_8
+      - _GB_英国_9
+      - default_name_10
+      - _CA_加拿大_11
+      - _GB_英国_12
+      - _US_美国_13
+      - _CA_加拿大_14
+      - _GB_英国_15
+      - _GB_英国_16
+      - _US_美国->🇯🇵_JP_日本_17
+      - _CA_加拿大_18
+      - _CA_加拿大_19
+      - _US_美国_20
+      - _GB_英国_21
+      - _CA_加拿大_22
+      - _CA_加拿大_23
+      - _GB_英国_24
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -2935,20 +2669,18 @@ proxy-groups:
       - Ytb:冰河圈子_3
       - Ytb:冰河圈子_4
       - Ytb:冰河圈子_5
-      - github.com/freefq - 香港Google云计算数据中心 1
+      - github.com/freefq - 澳大利亚  1
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 2
-      - github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 3
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5
+      - github.com/freefq - 北美地区  5
       - github.com/freefq - 北美地区  6
       - github.com/freefq - 北美地区  7
       - github.com/freefq - 北美地区  8
-      - github.com/freefq - 澳大利亚  9
-      - github.com/freefq - 北美地区  10
       - 请换到v2ray
       - 将于近期停止ssr更新
       - 美国Amazon数据中心 1
-      - 更新于:03-10 16:00:01 - by BuLink.xyz
+      - 更新于:03-10 20:00:01 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 魔戒.net-香港(中国)🚀[极速稳定]
@@ -3066,162 +2798,30 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_1
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_2
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_3
-      - (欢迎订阅钱科技0310)_4
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_5
-      - (欢迎订阅钱科技0310)_6
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_7
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_8
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_9
-      - (欢迎订阅钱科技0310)_10
-      - (欢迎订阅钱科技0310)_11
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_12
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_13
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_14
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_15
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_16
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_17
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_18
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_19
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_20
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_21
-      - (欢迎订阅钱科技0310)_🇬🇧_GB_英国_22
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_23
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_24
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_25
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_26
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_27
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_28
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_29
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_30
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_31
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_32
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_33
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_34
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_35
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_36
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_37
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_38
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_39
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_40
-      - (欢迎订阅钱科技0310)_🇨🇳_CN_中国_41
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_42
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_43
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_44
-      - (欢迎订阅钱科技0310)_🇸🇬_SG_新加坡_45
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_46
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_47
-      - (欢迎订阅钱科技0310)_🇨🇳_CN_中国_48
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_49
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_50
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_51
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_52
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_53
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_54
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_55
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_56
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_57
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_58
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_59
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_60
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_61
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_62
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_63
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_64
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_65
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_66
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_67
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_68
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_69
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_70
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_71
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_72
-      - (欢迎订阅钱科技0310)_🇬🇧_GB_英国_73
-      - (欢迎订阅钱科技0310)_🇬🇧_GB_英国_74
-      - (欢迎订阅钱科技0310)_🇬🇧_GB_英国_75
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_76
-      - (欢迎订阅钱科技0310)_🇫🇷_FR_法国_77
-      - (欢迎订阅钱科技0310)_🇬🇧_GB_英国_78
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_79
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_80
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_81
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_82
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_83
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_84
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_85
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_86
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_87
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_88
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_89
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_90
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_91
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_92
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_93
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_94
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_95
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_96
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_97
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_98
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_99
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_100
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_101
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_102
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_103
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_104
-      - (欢迎订阅钱科技0310)_🇫🇷_FR_法国_105
-      - (欢迎订阅钱科技0310)_🇫🇷_FR_法国_106
-      - (欢迎订阅钱科技0310)_🇫🇷_FR_法国_107
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_108
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_109
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_110
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_111
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_112
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_113
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_114
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_115
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_116
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_117
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_118
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_119
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_120
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_121
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_122
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_123
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_124
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_125
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_126
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_127
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_128
-      - (欢迎订阅钱科技0310)_🇮🇳_IN_印度_129
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_130
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_131
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_132
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_133
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_134
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_135
-      - (欢迎订阅钱科技0310)_🇫🇷_FR_法国_136
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_137
-      - (欢迎订阅钱科技0310)_🇫🇷_FR_法国_138
-      - (欢迎订阅钱科技0310)_🇫🇷_FR_法国_139
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_140
-      - (欢迎订阅钱科技0310)_🇨🇦_CA_加拿大_141
-      - (欢迎订阅钱科技0310)_🇨🇭_CH_瑞士_142
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_143
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_144
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_145
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_146
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_147
-      - (欢迎订阅钱科技0310)_148
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_149
-      - (欢迎订阅钱科技0310)_150
-      - (欢迎订阅钱科技0310)_151
-      - (欢迎订阅钱科技0310)_152
-      - (欢迎订阅钱科技0310)_153
-      - (欢迎订阅钱科技0310)_154
-      - (欢迎订阅钱科技0310)_155
-      - (欢迎订阅钱科技0310)_156
+      - default_name_1
+      - _US_美国_2
+      - _GB_英国_3
+      - _CA_加拿大_4
+      - _CA_加拿大_5
+      - _GB_英国_6
+      - _CA_加拿大_7
+      - _US_美国_8
+      - _GB_英国_9
+      - default_name_10
+      - _CA_加拿大_11
+      - _GB_英国_12
+      - _US_美国_13
+      - _CA_加拿大_14
+      - _GB_英国_15
+      - _GB_英国_16
+      - _US_美国->🇯🇵_JP_日本_17
+      - _CA_加拿大_18
+      - _CA_加拿大_19
+      - _US_美国_20
+      - _GB_英国_21
+      - _CA_加拿大_22
+      - _CA_加拿大_23
+      - _GB_英国_24
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -4460,20 +4060,18 @@ proxy-groups:
       - Ytb:冰河圈子_3
       - Ytb:冰河圈子_4
       - Ytb:冰河圈子_5
-      - github.com/freefq - 香港Google云计算数据中心 1
+      - github.com/freefq - 澳大利亚  1
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 2
-      - github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 3
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5
+      - github.com/freefq - 北美地区  5
       - github.com/freefq - 北美地区  6
       - github.com/freefq - 北美地区  7
       - github.com/freefq - 北美地区  8
-      - github.com/freefq - 澳大利亚  9
-      - github.com/freefq - 北美地区  10
       - 请换到v2ray
       - 将于近期停止ssr更新
       - 美国Amazon数据中心 1
-      - 更新于:03-10 16:00:01 - by BuLink.xyz
+      - 更新于:03-10 20:00:01 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 魔戒.net-香港(中国)🚀[极速稳定]
@@ -4761,27 +4359,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_34
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_36
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_37
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_38
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_39
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_40
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_42
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_49
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_52
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_53
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_54
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_55
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_57
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_58
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_59
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_60
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_61
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_62
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_63
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_64
-      - (欢迎订阅钱科技0310)_🇭🇰_HK_香港_65
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
@@ -4910,7 +4487,6 @@ proxy-groups:
       - 24香港∞中转
       - 25香港∞中转
       - 26香港∞中转
-      - github.com/freefq - 香港Google云计算数据中心 1
       - 魔戒.net-香港(中国)🚀[极速稳定]
       - 魔戒.net-中国-香港 IEPL Equinix HK2 E 14
       - 魔戒.net-中港专线 IPLC E17 1000Mbps
@@ -4966,6 +4542,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _US_美国->🇯🇵_JP_日本_17
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
       - 日本(欢迎订阅Youtube破解资源君) 3
@@ -5015,39 +4592,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_1
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_2
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_3
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_5
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_7
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_8
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_9
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_12
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_13
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_14
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_17
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_18
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_19
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_35
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_43
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_44
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_46
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_47
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_50
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_51
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_56
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_66
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_67
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_68
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_69
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_70
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_127
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_143
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_144
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_145
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_146
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_147
-      - (欢迎订阅钱科技0310)_🇺🇸_US_美国_149
+      - _US_美国_2
+      - _US_美国_8
+      - _US_美国_13
+      - _US_美国->🇯🇵_JP_日本_17
+      - _US_美国_20
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -5435,13 +4984,12 @@ proxy-groups:
       - 14美国∞直连
       - 15美国∞直连
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 2
-      - github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 3
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
       - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5
+      - github.com/freefq - 北美地区  5
       - github.com/freefq - 北美地区  6
       - github.com/freefq - 北美地区  7
       - github.com/freefq - 北美地区  8
-      - github.com/freefq - 北美地区  10
       - 美国Amazon数据中心 1
       - 魔戒.net*🇺🇸美国US 423【hi-moon.pw】
       - 魔戒.net*🇺🇸美国US 04【hi-moon.pw】
@@ -5500,7 +5048,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - (欢迎订阅钱科技0310)_🇸🇬_SG_新加坡_45
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
