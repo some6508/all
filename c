@@ -5,16 +5,17 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"169.197.142.99","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"default_name_2","server":"104.27.89.125","port":443,"type":"vmess","uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","headers":{"host":"xiaochen.chenyingjie5201314.workers.dev"}}}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.68","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_4","server":"158.101.23.126","port":80,"type":"ss","cipher":"aes-256-gcm","password":"miaoge110"}
-  - {"name":"🇺🇸_US_美国_5","server":"38.86.135.36","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸_US_美国->🇯🇵_JP_日本_6","server":"gongyijp1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyijp1.yigeweizhuang.com"}}}
-  - {"name":"default_name_7","server":"cm.db-link.in","port":443,"type":"vmess","uuid":"9b6dd8ea-fe2e-3508-b099-8e25bdf6b5fe","alterId":1,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/db","headers":{"host":"us01.db-link.in"}}}
-  - {"name":"🇺🇸_US_美国_8","server":"gongyius1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyius1.yigeweizhuang.com"}}}
-  - {"name":"🇮🇳_IN_印度_9","server":"172.105.59.32","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_10","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"usa-dallas.lvuft.com"}}}
+  - {"name":"🇺🇸_US_美国_1","server":"169.197.142.99","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_2","server":"169.197.142.99","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.81","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"default_name_4","server":"104.27.89.125","port":443,"type":"vmess","uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","headers":{"host":"xiaochen.chenyingjie5201314.workers.dev"}}}
+  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.196.68","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_6","server":"158.101.23.126","port":80,"type":"ss","cipher":"aes-256-gcm","password":"miaoge110"}
+  - {"name":"🇺🇸_US_美国_7","server":"38.86.135.36","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国->🇯🇵_JP_日本_8","server":"gongyijp1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyijp1.yigeweizhuang.com"}}}
+  - {"name":"default_name_9","server":"cm.db-link.in","port":443,"type":"vmess","uuid":"9b6dd8ea-fe2e-3508-b099-8e25bdf6b5fe","alterId":1,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/db","headers":{"host":"us01.db-link.in"}}}
+  - {"name":"🇺🇸_US_美国_10","server":"gongyius1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyius1.yigeweizhuang.com"}}}
+  - {"name":"🇺🇸_US_美国_11","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"usa-dallas.lvuft.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -22,15 +23,16 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇺🇸_US_美国_1
-      - default_name_2
+      - 🇺🇸_US_美国_2
       - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
-      - default_name_7
-      - 🇺🇸_US_美国_8
-      - 🇮🇳_IN_印度_9
+      - default_name_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_8
+      - default_name_9
       - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -38,15 +40,16 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇺🇸_US_美国_1
-      - default_name_2
+      - 🇺🇸_US_美国_2
       - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
-      - default_name_7
-      - 🇺🇸_US_美国_8
-      - 🇮🇳_IN_印度_9
+      - default_name_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_8
+      - default_name_9
       - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -54,60 +57,64 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
-      - default_name_2
+      - 🇺🇸_US_美国_2
       - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
-      - default_name_7
-      - 🇺🇸_US_美国_8
-      - 🇮🇳_IN_印度_9
+      - default_name_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_8
+      - default_name_9
       - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
-      - default_name_2
+      - 🇺🇸_US_美国_2
       - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
-      - default_name_7
-      - 🇺🇸_US_美国_8
-      - 🇮🇳_IN_印度_9
+      - default_name_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_8
+      - default_name_9
       - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇺🇸_US_美国_1
-      - default_name_2
+      - 🇺🇸_US_美国_2
       - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
-      - default_name_7
-      - 🇺🇸_US_美国_8
-      - 🇮🇳_IN_印度_9
+      - default_name_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_8
+      - default_name_9
       - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
-      - default_name_2
+      - 🇺🇸_US_美国_2
       - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
-      - default_name_7
-      - 🇺🇸_US_美国_8
-      - 🇮🇳_IN_印度_9
+      - default_name_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_8
+      - default_name_9
       - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -131,15 +138,16 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸_US_美国_1
-      - default_name_2
+      - 🇺🇸_US_美国_2
       - 🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_6
-      - default_name_7
-      - 🇺🇸_US_美国_8
-      - 🇮🇳_IN_印度_9
+      - default_name_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国->🇯🇵_JP_日本_8
+      - default_name_9
       - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
