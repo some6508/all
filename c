@@ -5,144 +5,739 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.3","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸_US_美国_2","server":"23.224.69.21","port":443,"type":"vmess","uuid":"946ba5df-5771-4873-a3cb-892378526147","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/080331123005","headers":{"host":"www.73788846.xyz"}}}
-  - {"name":"🇺🇸_US_美国->🇯🇵_JP_日本_3","server":"gongyijp2.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyijp2.yigeweizhuang.com"}}}
-  - {"name":"🇺🇸_US_美国_4","server":"169.197.142.99","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.196.3","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.81","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸_US_美国_7","server":"23.225.213.243","port":443,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/080331123005","headers":{"host":"www.95314708.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_8","server":"134.195.196.3","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国->🇨🇦_CA_加拿大_9","server":"gongyica1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇦_CA_加拿大_10","server":"134.195.196.3","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"default_name_11","server":"198.41.212.3","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_12","server":"134.195.196.68","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_US_美国_13","server":"gongyius1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyius1.yigeweizhuang.com"}}}
-  - {"name":"🇺🇸_US_美国_14","server":"172.247.198.123","port":443,"type":"vmess","uuid":"7e68e0da-4264-4bd2-accc-ee977b3df1f5","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/353021140201","headers":{"host":"www.23063069.xyz"}}}
-  - {"name":"default_name_15","server":"198.41.212.2","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
+  - {"name":"🇬🇧_GB_英国_tg频道：atbpjzx2_1","server":"172.99.190.92","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"tg频道：atbpjzx2_2","server":"v2ray.ifuckgfw.ga","port":8443,"type":"vmess","uuid":"98b20eea-8a11-11ec-9aeb-52ac0014346a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/nBaG3RmV/"}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_3","server":"134.195.196.187","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_4","server":"172.67.68.58","port":443,"type":"vmess","uuid":"f2f578e4-692d-40b5-af99-9f1dd712eb32","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/shuier","headers":{"host":"xc1.v2rie.pp.ua"}}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_5","server":"134.195.196.68","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"tg频道：atbpjzx2_6","server":"gongyiin1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyiin1.yigeweizhuang.com"}}}
+  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_7","server":"154.84.1.198","port":443,"type":"vmess","uuid":"743bdc87-1dea-41bf-aa0b-51dfbbfec8aa","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/080331123005","headers":{"host":"www.54872833.xyz"}}}
+  - {"name":"tg频道：atbpjzx2_8","server":"gongyide1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_9","server":"134.195.196.68","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_10","server":"134.195.196.187","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"tg频道：atbpjzx2_11","server":"198.41.212.14","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
+  - {"name":"🇫🇷_FR_法国_tg频道：atbpjzx2_12","server":"51.255.66.185","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_13","server":"134.195.196.3","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"tg频道：atbpjzx2_14","server":"198.41.212.11","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
+  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_15","server":"23.224.69.21","port":443,"type":"vmess","uuid":"946ba5df-5771-4873-a3cb-892378526147","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/080331123005","headers":{"host":"www.73788846.xyz"}}}
+  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_16","server":"gongyijp2.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyijp2.yigeweizhuang.com"}}}
+  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_17","server":"169.197.142.99","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_18","server":"134.195.196.187","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_19","server":"134.195.196.187","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_20","server":"134.195.196.3","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_21","server":"134.195.196.68","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_22","server":"134.195.196.81","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_23","server":"134.195.196.81","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_24","server":"134.195.196.68","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_25","server":"154.84.1.87","port":443,"type":"vmess","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/261217002001","headers":{"host":"www.94226049.xyz"}}}
+  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_26","server":"nl.oracleusa.ml","port":2053,"type":"vmess","uuid":"d176bc78-9bf9-4ab3-9af9-a1e412d95c53","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_27","server":"gongyijp1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyijp1.yigeweizhuang.com"}}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_28","server":"134.195.196.81","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_29","server":"23.225.213.243","port":443,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/080331123005","headers":{"host":"www.95314708.xyz"}}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_30","server":"134.195.196.187","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_31","server":"134.195.196.187","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_32","server":"154.84.1.142","port":443,"type":"vmess","uuid":"ebec2adf-e940-446f-bed4-d8c91143b54a","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/353021140201","headers":{"host":"www.13624885.xyz"}}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_33","server":"134.195.196.187","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_34","server":"134.195.196.3","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_35","server":"134.195.196.68","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇬🇧_GB_英国_tg频道：atbpjzx2_36","server":"145.239.7.164","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_37","server":"134.195.196.81","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_38","server":"gongyica1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_39","server":"134.195.196.3","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_40","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"usa-dallas.lvuft.com"}}}
+  - {"name":"🇫🇷_FR_法国_tg频道：atbpjzx2_41","server":"51.255.66.185","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_42","server":"134.195.196.3","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"tg频道：atbpjzx2_43","server":"198.41.221.169","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
+  - {"name":"🇬🇧_GB_英国_tg频道：atbpjzx2_44","server":"172.99.190.92","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_45","server":"134.195.196.68","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_46","server":"154.84.1.177","port":443,"type":"vmess","uuid":"9c026efe-6af0-465f-b8c0-3f58c8c2d4c5","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/353021140201","headers":{"host":"www.90408767.xyz"}}}
+  - {"name":"🇫🇷_FR_法国_tg频道：atbpjzx2_47","server":"51.255.66.185","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇫🇷_FR_法国_tg频道：atbpjzx2_48","server":"51.255.66.185","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_49","server":"134.195.196.68","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"tg频道：atbpjzx2_50","server":"198.41.212.7","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_51","server":"134.195.196.68","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_52","server":"134.195.196.187","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇫🇷_FR_法国_tg频道：atbpjzx2_53","server":"51.255.66.185","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_54","server":"134.195.196.187","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"tg频道：atbpjzx2_55","server":"198.41.212.3","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_56","server":"134.195.196.81","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_57","server":"134.195.196.187","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_58","server":"134.195.196.68","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_59","server":"134.195.196.187","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_60","server":"134.195.196.68","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_61","server":"46.182.107.70","port":443,"type":"vmess","uuid":"d024fd8b-ea78-4789-b928-70afa1a910ce","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/353021140201","headers":{"host":"www.24164786.xyz"}}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_62","server":"134.195.196.187","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_63","server":"154.84.1.250","port":443,"type":"vmess","uuid":"6e79eea4-5f72-4683-ad0e-5339f013421b","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/080331123005","headers":{"host":"www.77555071.xyz"}}}
+  - {"name":"tg频道：atbpjzx2_64","server":"198.41.212.15","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_65","server":"134.195.196.187","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_66","server":"134.195.196.68","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_67","server":"134.195.196.187","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_68","server":"134.195.196.187","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_69","server":"46.182.107.23","port":443,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/353021140201","headers":{"host":"www.11300814.xyz"}}}
+  - {"name":"🇫🇷_FR_法国_tg频道：atbpjzx2_70","server":"51.255.66.185","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_71","server":"134.195.196.187","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"tg频道：atbpjzx2_72","server":"gongyius1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyius1.yigeweizhuang.com"}}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_73","server":"134.195.196.187","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_74","server":"134.195.196.3","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇨🇳_CN_中国_tg频道：atbpjzx2_75","server":"117.185.229.112","port":25117,"type":"ss","cipher":"aes-256-gcm","password":"a7997951-8649-4e93-a727-2e1945b96f6c"}
+  - {"name":"tg频道：atbpjzx2_76","server":"198.41.212.12","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_77","server":"134.195.196.187","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_78","server":"46.182.107.92","port":443,"type":"vmess","uuid":"84d1de11-ce12-4a15-8312-1338356d4ac4","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/353021140201","headers":{"host":"www.36121039.xyz"}}}
+  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_79","server":"172.247.198.123","port":443,"type":"vmess","uuid":"7e68e0da-4264-4bd2-accc-ee977b3df1f5","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/353021140201","headers":{"host":"www.23063069.xyz"}}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_80","server":"134.195.196.68","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_81","server":"134.195.196.187","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_82","server":"134.195.196.187","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_83","server":"gongyiau1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyiau1.yigeweizhuang.com"}}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_84","server":"134.195.196.187","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇬🇧_GB_英国_tg频道：atbpjzx2_85","server":"172.99.190.92","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_86","server":"134.195.196.68","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇬🇧_GB_英国_tg频道：atbpjzx2_87","server":"145.239.7.164","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_88","server":"134.195.196.68","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"tg频道：atbpjzx2_89","server":"gongyisg1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyisg1.yigeweizhuang.com"}}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_90","server":"134.195.196.187","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_91","server":"134.195.196.3","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_92","server":"134.195.196.81","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_93","server":"134.195.196.187","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"tg频道：atbpjzx2_94","server":"198.41.212.2","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_95","server":"134.195.196.187","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_96","server":"134.195.196.187","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_97","server":"134.195.196.187","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"tg频道：atbpjzx2_98","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"6c175d1a-a57f-4881-a471-173eb139694b","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/xrenblog/","headers":{"host":"ipv6.xrenblog.com"}}}
+  - {"name":"🇬🇧_GB_英国_tg频道：atbpjzx2_99","server":"145.239.7.164","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"tg频道：atbpjzx2_100","server":"cm.db-link.in","port":443,"type":"vmess","uuid":"e65b42e6-a404-3dd0-ae1c-11ec8f507020","alterId":1,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/db","headers":{"host":"us01.db-link.in"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - default_name_15
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_1
+      - tg频道：atbpjzx2_2
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_3
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_4
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_5
+      - tg频道：atbpjzx2_6
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_7
+      - tg频道：atbpjzx2_8
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_9
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_10
+      - tg频道：atbpjzx2_11
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_12
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_13
+      - tg频道：atbpjzx2_14
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_15
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_16
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_17
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_18
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_19
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_20
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_21
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_22
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_23
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_24
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_25
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_26
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_27
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_28
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_29
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_30
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_31
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_32
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_33
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_34
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_35
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_36
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_37
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_38
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_39
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_40
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_41
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_42
+      - tg频道：atbpjzx2_43
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_44
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_45
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_46
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_47
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_48
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_49
+      - tg频道：atbpjzx2_50
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_51
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_52
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_53
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_54
+      - tg频道：atbpjzx2_55
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_56
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_57
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_58
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_59
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_60
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_61
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_62
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_63
+      - tg频道：atbpjzx2_64
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_65
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_66
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_67
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_68
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_69
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_70
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_71
+      - tg频道：atbpjzx2_72
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_73
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_74
+      - 🇨🇳_CN_中国_tg频道：atbpjzx2_75
+      - tg频道：atbpjzx2_76
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_77
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_78
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_79
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_80
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_81
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_82
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_83
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_84
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_85
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_86
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_87
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_88
+      - tg频道：atbpjzx2_89
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_90
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_91
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_92
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_93
+      - tg频道：atbpjzx2_94
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_95
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_96
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_97
+      - tg频道：atbpjzx2_98
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_99
+      - tg频道：atbpjzx2_100
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - default_name_15
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_1
+      - tg频道：atbpjzx2_2
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_3
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_4
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_5
+      - tg频道：atbpjzx2_6
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_7
+      - tg频道：atbpjzx2_8
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_9
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_10
+      - tg频道：atbpjzx2_11
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_12
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_13
+      - tg频道：atbpjzx2_14
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_15
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_16
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_17
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_18
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_19
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_20
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_21
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_22
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_23
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_24
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_25
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_26
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_27
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_28
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_29
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_30
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_31
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_32
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_33
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_34
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_35
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_36
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_37
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_38
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_39
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_40
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_41
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_42
+      - tg频道：atbpjzx2_43
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_44
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_45
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_46
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_47
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_48
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_49
+      - tg频道：atbpjzx2_50
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_51
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_52
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_53
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_54
+      - tg频道：atbpjzx2_55
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_56
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_57
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_58
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_59
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_60
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_61
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_62
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_63
+      - tg频道：atbpjzx2_64
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_65
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_66
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_67
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_68
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_69
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_70
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_71
+      - tg频道：atbpjzx2_72
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_73
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_74
+      - 🇨🇳_CN_中国_tg频道：atbpjzx2_75
+      - tg频道：atbpjzx2_76
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_77
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_78
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_79
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_80
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_81
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_82
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_83
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_84
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_85
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_86
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_87
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_88
+      - tg频道：atbpjzx2_89
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_90
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_91
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_92
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_93
+      - tg频道：atbpjzx2_94
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_95
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_96
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_97
+      - tg频道：atbpjzx2_98
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_99
+      - tg频道：atbpjzx2_100
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - default_name_15
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_1
+      - tg频道：atbpjzx2_2
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_3
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_4
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_5
+      - tg频道：atbpjzx2_6
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_7
+      - tg频道：atbpjzx2_8
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_9
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_10
+      - tg频道：atbpjzx2_11
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_12
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_13
+      - tg频道：atbpjzx2_14
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_15
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_16
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_17
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_18
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_19
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_20
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_21
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_22
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_23
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_24
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_25
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_26
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_27
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_28
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_29
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_30
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_31
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_32
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_33
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_34
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_35
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_36
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_37
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_38
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_39
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_40
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_41
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_42
+      - tg频道：atbpjzx2_43
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_44
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_45
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_46
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_47
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_48
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_49
+      - tg频道：atbpjzx2_50
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_51
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_52
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_53
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_54
+      - tg频道：atbpjzx2_55
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_56
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_57
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_58
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_59
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_60
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_61
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_62
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_63
+      - tg频道：atbpjzx2_64
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_65
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_66
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_67
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_68
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_69
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_70
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_71
+      - tg频道：atbpjzx2_72
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_73
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_74
+      - 🇨🇳_CN_中国_tg频道：atbpjzx2_75
+      - tg频道：atbpjzx2_76
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_77
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_78
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_79
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_80
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_81
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_82
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_83
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_84
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_85
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_86
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_87
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_88
+      - tg频道：atbpjzx2_89
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_90
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_91
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_92
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_93
+      - tg频道：atbpjzx2_94
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_95
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_96
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_97
+      - tg频道：atbpjzx2_98
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_99
+      - tg频道：atbpjzx2_100
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - default_name_15
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_1
+      - tg频道：atbpjzx2_2
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_3
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_4
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_5
+      - tg频道：atbpjzx2_6
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_7
+      - tg频道：atbpjzx2_8
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_9
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_10
+      - tg频道：atbpjzx2_11
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_12
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_13
+      - tg频道：atbpjzx2_14
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_15
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_16
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_17
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_18
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_19
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_20
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_21
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_22
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_23
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_24
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_25
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_26
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_27
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_28
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_29
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_30
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_31
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_32
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_33
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_34
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_35
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_36
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_37
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_38
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_39
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_40
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_41
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_42
+      - tg频道：atbpjzx2_43
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_44
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_45
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_46
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_47
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_48
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_49
+      - tg频道：atbpjzx2_50
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_51
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_52
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_53
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_54
+      - tg频道：atbpjzx2_55
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_56
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_57
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_58
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_59
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_60
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_61
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_62
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_63
+      - tg频道：atbpjzx2_64
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_65
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_66
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_67
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_68
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_69
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_70
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_71
+      - tg频道：atbpjzx2_72
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_73
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_74
+      - 🇨🇳_CN_中国_tg频道：atbpjzx2_75
+      - tg频道：atbpjzx2_76
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_77
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_78
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_79
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_80
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_81
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_82
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_83
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_84
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_85
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_86
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_87
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_88
+      - tg频道：atbpjzx2_89
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_90
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_91
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_92
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_93
+      - tg频道：atbpjzx2_94
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_95
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_96
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_97
+      - tg频道：atbpjzx2_98
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_99
+      - tg频道：atbpjzx2_100
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - default_name_15
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_1
+      - tg频道：atbpjzx2_2
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_3
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_4
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_5
+      - tg频道：atbpjzx2_6
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_7
+      - tg频道：atbpjzx2_8
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_9
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_10
+      - tg频道：atbpjzx2_11
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_12
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_13
+      - tg频道：atbpjzx2_14
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_15
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_16
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_17
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_18
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_19
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_20
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_21
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_22
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_23
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_24
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_25
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_26
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_27
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_28
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_29
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_30
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_31
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_32
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_33
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_34
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_35
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_36
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_37
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_38
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_39
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_40
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_41
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_42
+      - tg频道：atbpjzx2_43
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_44
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_45
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_46
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_47
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_48
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_49
+      - tg频道：atbpjzx2_50
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_51
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_52
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_53
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_54
+      - tg频道：atbpjzx2_55
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_56
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_57
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_58
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_59
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_60
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_61
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_62
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_63
+      - tg频道：atbpjzx2_64
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_65
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_66
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_67
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_68
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_69
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_70
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_71
+      - tg频道：atbpjzx2_72
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_73
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_74
+      - 🇨🇳_CN_中国_tg频道：atbpjzx2_75
+      - tg频道：atbpjzx2_76
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_77
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_78
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_79
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_80
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_81
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_82
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_83
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_84
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_85
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_86
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_87
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_88
+      - tg频道：atbpjzx2_89
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_90
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_91
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_92
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_93
+      - tg频道：atbpjzx2_94
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_95
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_96
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_97
+      - tg频道：atbpjzx2_98
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_99
+      - tg频道：atbpjzx2_100
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - default_name_15
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_1
+      - tg频道：atbpjzx2_2
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_3
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_4
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_5
+      - tg频道：atbpjzx2_6
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_7
+      - tg频道：atbpjzx2_8
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_9
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_10
+      - tg频道：atbpjzx2_11
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_12
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_13
+      - tg频道：atbpjzx2_14
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_15
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_16
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_17
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_18
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_19
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_20
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_21
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_22
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_23
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_24
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_25
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_26
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_27
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_28
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_29
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_30
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_31
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_32
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_33
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_34
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_35
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_36
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_37
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_38
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_39
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_40
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_41
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_42
+      - tg频道：atbpjzx2_43
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_44
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_45
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_46
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_47
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_48
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_49
+      - tg频道：atbpjzx2_50
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_51
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_52
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_53
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_54
+      - tg频道：atbpjzx2_55
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_56
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_57
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_58
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_59
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_60
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_61
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_62
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_63
+      - tg频道：atbpjzx2_64
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_65
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_66
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_67
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_68
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_69
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_70
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_71
+      - tg频道：atbpjzx2_72
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_73
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_74
+      - 🇨🇳_CN_中国_tg频道：atbpjzx2_75
+      - tg频道：atbpjzx2_76
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_77
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_78
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_79
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_80
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_81
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_82
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_83
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_84
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_85
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_86
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_87
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_88
+      - tg频道：atbpjzx2_89
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_90
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_91
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_92
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_93
+      - tg频道：atbpjzx2_94
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_95
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_96
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_97
+      - tg频道：atbpjzx2_98
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_99
+      - tg频道：atbpjzx2_100
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -165,21 +760,106 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - default_name_15
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_1
+      - tg频道：atbpjzx2_2
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_3
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_4
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_5
+      - tg频道：atbpjzx2_6
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_7
+      - tg频道：atbpjzx2_8
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_9
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_10
+      - tg频道：atbpjzx2_11
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_12
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_13
+      - tg频道：atbpjzx2_14
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_15
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_16
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_17
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_18
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_19
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_20
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_21
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_22
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_23
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_24
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_25
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_26
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_27
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_28
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_29
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_30
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_31
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_32
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_33
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_34
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_35
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_36
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_37
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_38
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_39
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_40
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_41
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_42
+      - tg频道：atbpjzx2_43
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_44
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_45
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_46
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_47
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_48
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_49
+      - tg频道：atbpjzx2_50
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_51
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_52
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_53
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_54
+      - tg频道：atbpjzx2_55
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_56
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_57
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_58
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_59
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_60
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_61
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_62
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_63
+      - tg频道：atbpjzx2_64
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_65
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_66
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_67
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_68
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_69
+      - 🇫🇷_FR_法国_tg频道：atbpjzx2_70
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_71
+      - tg频道：atbpjzx2_72
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_73
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_74
+      - 🇨🇳_CN_中国_tg频道：atbpjzx2_75
+      - tg频道：atbpjzx2_76
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_77
+      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_78
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_79
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_80
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_81
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_82
+      - 🇺🇸_US_美国_tg频道：atbpjzx2_83
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_84
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_85
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_86
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_87
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_88
+      - tg频道：atbpjzx2_89
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_90
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_91
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_92
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_93
+      - tg频道：atbpjzx2_94
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_95
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_96
+      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_97
+      - tg频道：atbpjzx2_98
+      - 🇬🇧_GB_英国_tg频道：atbpjzx2_99
+      - tg频道：atbpjzx2_100
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
