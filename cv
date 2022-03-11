@@ -5,14 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国_1, server: my.aoyyds.ga, port: 8443, type: vmess, uuid: e230dabd-7152-3c22-c9e5-79c84fb76236, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xsqfvws, headers: {Host: my.aoyyds.ga}}, udp: true}
-  - {name: _DE_德国_2, server: 193.108.118.182, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国_3, server: 137.175.3.205, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/261217002001}, udp: true}
-  - {name: _HK_香港->🇺🇸_US_美国_4, server: az01.thenodemoon365.xyz, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: f5937a46-7fb1-480f-95d5-abe8f1dad53f, udp: true}
-  - {name: _US_美国_5, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _HK_香港->🇺🇸_US_美国_6, server: az01.thenodemoon365.xyz, port: 20002, type: ss, cipher: aes-256-gcm, password: f5937a46-7fb1-480f-95d5-abe8f1dad53f, udp: true}
-  - {name: _HK_香港->🇺🇸_US_美国_7, server: az01.thenodemoon365.xyz, port: 20000, type: ss, cipher: chacha20-ietf-poly1305, password: f5937a46-7fb1-480f-95d5-abe8f1dad53f, udp: true}
-  - {name: _HK_香港->🇺🇸_US_美国_8, server: az01.thenodemoon365.xyz, port: 20007, type: ss, cipher: chacha20-ietf-poly1305, password: f5937a46-7fb1-480f-95d5-abe8f1dad53f, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: cu.chashao.buzz, port: 21213, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
@@ -1269,14 +1261,6 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - _US_美国_1
-      - _DE_德国_2
-      - _US_美国_3
-      - _HK_香港->🇺🇸_US_美国_4
-      - _US_美国_5
-      - _HK_香港->🇺🇸_US_美国_6
-      - _HK_香港->🇺🇸_US_美国_7
-      - _HK_香港->🇺🇸_US_美国_8
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -2522,14 +2506,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_1
-      - _DE_德国_2
-      - _US_美国_3
-      - _HK_香港->🇺🇸_US_美国_4
-      - _US_美国_5
-      - _HK_香港->🇺🇸_US_美国_6
-      - _HK_香港->🇺🇸_US_美国_7
-      - _HK_香港->🇺🇸_US_美国_8
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -3947,10 +3923,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _HK_香港->🇺🇸_US_美国_4
-      - _HK_香港->🇺🇸_US_美国_6
-      - _HK_香港->🇺🇸_US_美国_7
-      - _HK_香港->🇺🇸_US_美国_8
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
@@ -4115,13 +4087,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_1
-      - _US_美国_3
-      - _HK_香港->🇺🇸_US_美国_4
-      - _US_美国_5
-      - _HK_香港->🇺🇸_US_美国_6
-      - _HK_香港->🇺🇸_US_美国_7
-      - _HK_香港->🇺🇸_US_美国_8
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
