@@ -5,739 +5,1453 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇬🇧_GB_英国_tg频道：atbpjzx2_1","server":"172.99.190.92","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"tg频道：atbpjzx2_2","server":"v2ray.ifuckgfw.ga","port":8443,"type":"vmess","uuid":"98b20eea-8a11-11ec-9aeb-52ac0014346a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/nBaG3RmV/"}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_3","server":"134.195.196.187","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_4","server":"172.67.68.58","port":443,"type":"vmess","uuid":"f2f578e4-692d-40b5-af99-9f1dd712eb32","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/shuier","headers":{"host":"xc1.v2rie.pp.ua"}}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_5","server":"134.195.196.68","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"tg频道：atbpjzx2_6","server":"gongyiin1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyiin1.yigeweizhuang.com"}}}
-  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_7","server":"154.84.1.198","port":443,"type":"vmess","uuid":"743bdc87-1dea-41bf-aa0b-51dfbbfec8aa","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/080331123005","headers":{"host":"www.54872833.xyz"}}}
-  - {"name":"tg频道：atbpjzx2_8","server":"gongyide1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_9","server":"134.195.196.68","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_10","server":"134.195.196.187","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"tg频道：atbpjzx2_11","server":"198.41.212.14","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
-  - {"name":"🇫🇷_FR_法国_tg频道：atbpjzx2_12","server":"51.255.66.185","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_13","server":"134.195.196.3","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"tg频道：atbpjzx2_14","server":"198.41.212.11","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
-  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_15","server":"23.224.69.21","port":443,"type":"vmess","uuid":"946ba5df-5771-4873-a3cb-892378526147","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/080331123005","headers":{"host":"www.73788846.xyz"}}}
-  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_16","server":"gongyijp2.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyijp2.yigeweizhuang.com"}}}
-  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_17","server":"169.197.142.99","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_18","server":"134.195.196.187","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_19","server":"134.195.196.187","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_20","server":"134.195.196.3","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_21","server":"134.195.196.68","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_22","server":"134.195.196.81","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_23","server":"134.195.196.81","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_24","server":"134.195.196.68","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_25","server":"154.84.1.87","port":443,"type":"vmess","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/261217002001","headers":{"host":"www.94226049.xyz"}}}
-  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_26","server":"nl.oracleusa.ml","port":2053,"type":"vmess","uuid":"d176bc78-9bf9-4ab3-9af9-a1e412d95c53","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_27","server":"gongyijp1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyijp1.yigeweizhuang.com"}}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_28","server":"134.195.196.81","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_29","server":"23.225.213.243","port":443,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/080331123005","headers":{"host":"www.95314708.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_30","server":"134.195.196.187","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_31","server":"134.195.196.187","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_32","server":"154.84.1.142","port":443,"type":"vmess","uuid":"ebec2adf-e940-446f-bed4-d8c91143b54a","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/353021140201","headers":{"host":"www.13624885.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_33","server":"134.195.196.187","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_34","server":"134.195.196.3","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_35","server":"134.195.196.68","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇬🇧_GB_英国_tg频道：atbpjzx2_36","server":"145.239.7.164","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_37","server":"134.195.196.81","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_38","server":"gongyica1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_39","server":"134.195.196.3","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_40","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"usa-dallas.lvuft.com"}}}
-  - {"name":"🇫🇷_FR_法国_tg频道：atbpjzx2_41","server":"51.255.66.185","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_42","server":"134.195.196.3","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"tg频道：atbpjzx2_43","server":"198.41.221.169","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
-  - {"name":"🇬🇧_GB_英国_tg频道：atbpjzx2_44","server":"172.99.190.92","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_45","server":"134.195.196.68","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_46","server":"154.84.1.177","port":443,"type":"vmess","uuid":"9c026efe-6af0-465f-b8c0-3f58c8c2d4c5","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/353021140201","headers":{"host":"www.90408767.xyz"}}}
-  - {"name":"🇫🇷_FR_法国_tg频道：atbpjzx2_47","server":"51.255.66.185","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇫🇷_FR_法国_tg频道：atbpjzx2_48","server":"51.255.66.185","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_49","server":"134.195.196.68","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"tg频道：atbpjzx2_50","server":"198.41.212.7","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_51","server":"134.195.196.68","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_52","server":"134.195.196.187","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷_FR_法国_tg频道：atbpjzx2_53","server":"51.255.66.185","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_54","server":"134.195.196.187","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"tg频道：atbpjzx2_55","server":"198.41.212.3","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_56","server":"134.195.196.81","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_57","server":"134.195.196.187","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_58","server":"134.195.196.68","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_59","server":"134.195.196.187","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_60","server":"134.195.196.68","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_61","server":"46.182.107.70","port":443,"type":"vmess","uuid":"d024fd8b-ea78-4789-b928-70afa1a910ce","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/353021140201","headers":{"host":"www.24164786.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_62","server":"134.195.196.187","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_63","server":"154.84.1.250","port":443,"type":"vmess","uuid":"6e79eea4-5f72-4683-ad0e-5339f013421b","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/080331123005","headers":{"host":"www.77555071.xyz"}}}
-  - {"name":"tg频道：atbpjzx2_64","server":"198.41.212.15","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_65","server":"134.195.196.187","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_66","server":"134.195.196.68","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_67","server":"134.195.196.187","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_68","server":"134.195.196.187","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_69","server":"46.182.107.23","port":443,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/353021140201","headers":{"host":"www.11300814.xyz"}}}
-  - {"name":"🇫🇷_FR_法国_tg频道：atbpjzx2_70","server":"51.255.66.185","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_71","server":"134.195.196.187","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"tg频道：atbpjzx2_72","server":"gongyius1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyius1.yigeweizhuang.com"}}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_73","server":"134.195.196.187","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_74","server":"134.195.196.3","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇨🇳_CN_中国_tg频道：atbpjzx2_75","server":"117.185.229.112","port":25117,"type":"ss","cipher":"aes-256-gcm","password":"a7997951-8649-4e93-a727-2e1945b96f6c"}
-  - {"name":"tg频道：atbpjzx2_76","server":"198.41.212.12","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_77","server":"134.195.196.187","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇳🇱_NL_荷兰_tg频道：atbpjzx2_78","server":"46.182.107.92","port":443,"type":"vmess","uuid":"84d1de11-ce12-4a15-8312-1338356d4ac4","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/353021140201","headers":{"host":"www.36121039.xyz"}}}
-  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_79","server":"172.247.198.123","port":443,"type":"vmess","uuid":"7e68e0da-4264-4bd2-accc-ee977b3df1f5","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/353021140201","headers":{"host":"www.23063069.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_80","server":"134.195.196.68","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_81","server":"134.195.196.187","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_82","server":"134.195.196.187","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_tg频道：atbpjzx2_83","server":"gongyiau1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyiau1.yigeweizhuang.com"}}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_84","server":"134.195.196.187","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇬🇧_GB_英国_tg频道：atbpjzx2_85","server":"172.99.190.92","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_86","server":"134.195.196.68","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_tg频道：atbpjzx2_87","server":"145.239.7.164","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_88","server":"134.195.196.68","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"tg频道：atbpjzx2_89","server":"gongyisg1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyisg1.yigeweizhuang.com"}}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_90","server":"134.195.196.187","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_91","server":"134.195.196.3","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_92","server":"134.195.196.81","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_93","server":"134.195.196.187","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"tg频道：atbpjzx2_94","server":"198.41.212.2","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_95","server":"134.195.196.187","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_96","server":"134.195.196.187","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_tg频道：atbpjzx2_97","server":"134.195.196.187","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"tg频道：atbpjzx2_98","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"6c175d1a-a57f-4881-a471-173eb139694b","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/xrenblog/","headers":{"host":"ipv6.xrenblog.com"}}}
-  - {"name":"🇬🇧_GB_英国_tg频道：atbpjzx2_99","server":"145.239.7.164","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"tg频道：atbpjzx2_100","server":"cm.db-link.in","port":443,"type":"vmess","uuid":"e65b42e6-a404-3dd0-ae1c-11ec8f507020","alterId":1,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/db","headers":{"host":"us01.db-link.in"}}}
+  - {"name":"_中国_FMYC-220311_1","server":"120.233.7.78","port":50111,"type":"ssr","password":"abK09D1FnV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"http_post","protocol-param":"294794:d39XoFl1My"}
+  - {"name":"_中国_FMYC-220311_2","server":"cn2relay01.yiyorelay.xyz","port":2701,"type":"ssr","password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","obfs":"plain","protocol-param":"62611:fx2iOd","obfs-param":"microsoft.com"}
+  - {"name":"_中国_FMYC-220311_3","server":"cn2relay01.yiyorelay.xyz","port":2709,"type":"ssr","password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","obfs":"plain","protocol-param":"62611:fx2iOd","obfs-param":"microsoft.com"}
+  - {"name":"_中国_FMYC-220311_4","server":"117.28.243.220","port":8221,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_中国_FMYC-220311_5","server":"117.28.243.220","port":8147,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_印度_FMYC-220311_6","server":"172.105.59.32","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"_印度_FMYC-220311_7","server":"172.105.59.32","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"_中国_FMYC-220311_8","server":"117.28.243.154","port":6145,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_中国_FMYC-220311_9","server":"117.28.243.154","port":6150,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_中国_FMYC-220311_10","server":"117.28.243.154","port":6188,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_中国_FMYC-220311_11","server":"117.28.243.164","port":8007,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_中国_FMYC-220311_12","server":"117.28.243.164","port":8366,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_中国_FMYC-220311_13","server":"117.28.243.220","port":8186,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_中国_FMYC-220311_14","server":"117.28.243.220","port":8223,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_中国_FMYC-220311_15","server":"117.28.243.141","port":6112,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_中国_FMYC-220311_16","server":"117.28.243.141","port":6149,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_中国_FMYC-220311_17","server":"117.28.243.220","port":8076,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_新加坡_FMYC-220311_18","server":"sg-am11.eqnode.net","port":8181,"type":"ssr","password":"kKdNNt2HZ","cipher":"aes-256-cfb","protocol":"origin","obfs":"tls1.2_ticket_auth","obfs-param":"releases.ubuntu.com"}
+  - {"name":"_美国_FMYC-220311_19","server":"tj-10.t8737.shop","port":11223,"type":"trojan","password":"7b521a74-6bee-477e-9ae3-bd6a217dcfcc"}
+  - {"name":"_美国_FMYC-220311_20","server":"tj-11.t8737.shop","port":11223,"type":"trojan","password":"7b521a74-6bee-477e-9ae3-bd6a217dcfcc"}
+  - {"name":"_美国_FMYC-220311_21","server":"tj-12.t8737.shop","port":11223,"type":"trojan","password":"7b521a74-6bee-477e-9ae3-bd6a217dcfcc"}
+  - {"name":"_法国_FMYC-220311_22","server":"51.255.66.185","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"_法国_FMYC-220311_23","server":"51.255.66.185","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"_法国_FMYC-220311_24","server":"51.255.87.96","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"_法国_FMYC-220311_25","server":"51.255.87.96","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"_澳大利亚_FMYC-220311_26","server":"129.154.50.0","port":29363,"type":"vmess","uuid":"c71ba6b4-98c0-4e7c-b8a1-4b074a44933c","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"129.154.50.0"}}}
+  - {"name":"_中国_FMYC-220311_27","server":"CMT.SSRSS.CLUB","port":35523,"type":"vmess","uuid":"7ed37d86-0018-194e-5e78-9c7a0846831e","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/yy","headers":{"host":"CMT.SSRSS.CLUB"}}}
+  - {"name":"_中国_FMYC-220311_28","server":"117.28.243.165","port":8050,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_中国_FMYC-220311_29","server":"117.28.243.165","port":8051,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_中国_FMYC-220311_30","server":"117.28.243.173","port":4173,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_中国_FMYC-220311_31","server":"117.28.243.220","port":8254,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"_美国_FMYC-220311_32","server":"tj-13.t8737.shop","port":11223,"type":"trojan","password":"7b521a74-6bee-477e-9ae3-bd6a217dcfcc"}
+  - {"name":"_美国_FMYC-220311_33","server":"tj-14.t8737.shop","port":11223,"type":"trojan","password":"7b521a74-6bee-477e-9ae3-bd6a217dcfcc"}
+  - {"name":"_美国_FMYC-220311_34","server":"tj-15.t8737.shop","port":11223,"type":"trojan","password":"7b521a74-6bee-477e-9ae3-bd6a217dcfcc"}
+  - {"name":"_美国_FMYC-220311_35","server":"38.114.114.67","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"_美国_FMYC-220311_36","server":"45.32.94.166","port":31676,"type":"vmess","uuid":"6f3ec45c-5283-40e8-aea9-7749f4c75753","alterId":0,"cipher":"auto","tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"45.32.94.166"}}}
+  - {"name":"_英国_FMYC-220311_37","server":"172.99.190.92","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"_英国_FMYC-220311_38","server":"172.99.190.92","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"_英国_FMYC-220311_39","server":"172.99.190.92","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"_英国_FMYC-220311_40","server":"172.99.190.92","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"_英国_FMYC-220311_41","server":"172.99.190.188","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"_英国_FMYC-220311_42","server":"172.99.190.188","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"_中国_FMYC-220311_43","server":"CMT.SSRSS.CLUB","port":35518,"type":"vmess","uuid":"7ed37d86-0018-194e-5e78-9c7a0846831e","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/yy","headers":{"host":"CMT.SSRSS.CLUB"}}}
+  - {"name":"_英国_FMYC-220311_44","server":"145.239.7.164","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"_韩国_FMYC-220311_45","server":"tj-05.t8737.shop","port":11223,"type":"trojan","password":"7b521a74-6bee-477e-9ae3-bd6a217dcfcc"}
+  - {"name":"_韩国_FMYC-220311_46","server":"tj-06.t8737.shop","port":11223,"type":"trojan","password":"7b521a74-6bee-477e-9ae3-bd6a217dcfcc"}
+  - {"name":"_韩国_FMYC-220311_47","server":"tj-07.t8737.shop","port":11223,"type":"trojan","password":"7b521a74-6bee-477e-9ae3-bd6a217dcfcc"}
+  - {"name":"_韩国_FMYC-220311_48","server":"tj-08.t8737.shop","port":11223,"type":"trojan","password":"7b521a74-6bee-477e-9ae3-bd6a217dcfcc"}
+  - {"name":"_中国_FMYC-220311_49","server":"183.232.56.81","port":16627,"type":"vmess","uuid":"5fba0013-29be-3008-911b-f127aac4f676","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.81"}}}
+  - {"name":"_香港_FMYC-220311_50","server":"az.tomcloud.buzz","port":80,"type":"vmess","uuid":"54d4220d-7203-45a2-8a43-78fc5c518e66","alterId":0,"cipher":"auto","tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"az.tomcloud.buzz"}}}
+  - {"name":"_中国_FMYC-220311_51","server":"iepl-gz.yyuuii.cyou","port":10804,"type":"ssr","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"32381:C2pHyiQfgm","obfs-param":"ajax.microsoft.com"}
+  - {"name":"_香港_FMYC-220311_52","server":"tj-01.t8737.shop","port":11223,"type":"trojan","password":"7b521a74-6bee-477e-9ae3-bd6a217dcfcc"}
+  - {"name":"_香港_FMYC-220311_53","server":"tj-02.t8737.shop","port":11223,"type":"trojan","password":"7b521a74-6bee-477e-9ae3-bd6a217dcfcc"}
+  - {"name":"_香港_FMYC-220311_54","server":"tj-03.t8737.shop","port":11223,"type":"trojan","password":"7b521a74-6bee-477e-9ae3-bd6a217dcfcc"}
+  - {"name":"_香港_FMYC-220311_55","server":"tj-04.t8737.shop","port":11223,"type":"trojan","password":"7b521a74-6bee-477e-9ae3-bd6a217dcfcc"}
+  - {"name":"_香港_FMYC-220311_56","server":"tj-16.t8737.shop","port":11223,"type":"trojan","password":"7b521a74-6bee-477e-9ae3-bd6a217dcfcc"}
+  - {"name":"_香港_FMYC-220311_57","server":"104.208.109.91","port":10119,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"dRUCE7YmtoVp"}
+  - {"name":"_新加坡_FMYC-220311_58","server":"195.85.19.31","port":30368,"type":"vmess","uuid":"1d74e7ec-d408-49e0-a863-e954dc08fd05","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"195.85.19.31"}}}
+  - {"name":"_香港_FMYC-220311_59","server":"103.164.81.13","port":80,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"103.164.81.13"}}}
+  - {"name":"FMYC-220311_60","server":"103.172.116.113","port":3389,"type":"trojan","password":"cd39f62aed7b90f6"}
+  - {"name":"_美国_FMYC-220311_61","server":"95.163.201.67","port":55371,"type":"vmess","uuid":"293d0062-c5df-47b0-e1f2-339eab0be8b7","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"95.163.201.67"}}}
+  - {"name":"_美国_FMYC-220311_62","server":"95.181.189.60","port":28629,"type":"vmess","uuid":"872808d3-c7de-4f61-a60e-8b2b0bd399d9","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"95.181.189.60"}}}
+  - {"name":"_冰岛_FMYC-220311_63","server":"37.235.49.158","port":989,"type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"_加拿大_FMYC-220311_64","server":"71.19.252.163","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"71.19.252.163"}}}
+  - {"name":"_德国_FMYC-220311_65","server":"116.202.10.189","port":42816,"type":"vmess","uuid":"a16dad91-fea6-4459-9346-ce90cb667bf8","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/ws","headers":{"host":"116.202.10.189"}}}
+  - {"name":"_德国_FMYC-220311_66","server":"78.46.244.34","port":33655,"type":"vmess","uuid":"b41303b4-e2c8-4771-cb6c-ef62244a7621","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/ws","headers":{"host":"78.46.244.34"}}}
+  - {"name":"_印度_FMYC-220311_67","server":"172.105.59.32","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"_新加坡_FMYC-220311_68","server":"194.233.67.49","port":23403,"type":"vmess","uuid":"d7579917-0414-4faa-88ea-d45d7ecc38f6","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/ws","headers":{"host":"194.233.67.49"}}}
+  - {"name":"_法国_FMYC-220311_69","server":"141.95.0.26","port":826,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"sF43Xt2gONqcgFX563"}
+  - {"name":"_德国_FMYC-220311_70","server":"193.108.117.75","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"_德国_FMYC-220311_71","server":"136.243.191.85","port":443,"type":"ssr","password":"sEscPBiAD9K$\\u0026@79","cipher":"aes-128-ctr","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth"}
+  - {"name":"_前南马其顿_FMYC-220311_72","server":"46.183.185.15","port":989,"type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"_新加坡_FMYC-220311_73","server":"13.250.35.171","port":443,"type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"_新加坡_FMYC-220311_74","server":"13.250.2.10","port":443,"type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"_新加坡_FMYC-220311_75","server":"13.250.32.154","port":443,"type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"_新加坡_FMYC-220311_76","server":"13.250.126.43","port":443,"type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"_新加坡_FMYC-220311_77","server":"47.241.191.179","port":46104,"type":"vmess","uuid":"5b7f1d0e-4821-4108-e4bf-fa765ab28f2e","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/ws","headers":{"host":"47.241.191.179"}}}
+  - {"name":"_新加坡_FMYC-220311_78","server":"47.241.102.119","port":34353,"type":"vmess","uuid":"74aee29d-5859-47e7-e15e-20897b3e9a2b","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/ws","headers":{"host":"47.241.102.119"}}}
+  - {"name":"_日本_FMYC-220311_79","server":"45.76.107.77","port":11914,"type":"vmess","uuid":"5aa05713-7d20-4b74-890d-e62054f5cfc0","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/ws","headers":{"host":"45.76.107.77"}}}
+  - {"name":"_日本_FMYC-220311_80","server":"13.231.146.35","port":45530,"type":"vmess","uuid":"94ee1422-8559-4f78-af74-6025f4e300f6","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/ws","headers":{"host":"13.231.146.35"}}}
+  - {"name":"_日本_FMYC-220311_81","server":"18.183.183.234","port":45530,"type":"vmess","uuid":"e53930a9-2ca0-47ff-be66-af6ef9f42e1c","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/ws","headers":{"host":"18.183.183.234"}}}
+  - {"name":"_新加坡_FMYC-220311_82","server":"202.61.141.130","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"202.61.141.130"}}}
+  - {"name":"_日本_FMYC-220311_83","server":"45.66.134.176","port":810,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"_日本_FMYC-220311_84","server":"89.31.126.150","port":812,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"_日本_FMYC-220311_85","server":"89.31.126.150","port":802,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"_日本_FMYC-220311_86","server":"45.66.134.176","port":811,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"_日本_FMYC-220311_87","server":"45.66.134.176","port":806,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"_日本_FMYC-220311_88","server":"45.66.134.176","port":809,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"_日本_FMYC-220311_89","server":"45.66.134.176","port":802,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"_日本_FMYC-220311_90","server":"52.193.99.239","port":443,"type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"_日本_FMYC-220311_91","server":"106.180.225.69","port":1443,"type":"trojan","password":"7x42LetRa0"}
+  - {"name":"_日本_FMYC-220311_92","server":"172.105.222.98","port":80,"type":"vmess","uuid":"4e1d0b12-25f0-363f-8659-9c6a3ca1fcda","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"172.105.222.98"}}}
+  - {"name":"_新加坡_FMYC-220311_93","server":"ycgyg.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"ycgyg.com"}}}
+  - {"name":"_美国_FMYC-220311_94","server":"ahdaeph8.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ahdaeph8.com"}}}
+  - {"name":"_法国_FMYC-220311_95","server":"149.202.82.172","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"_法国_FMYC-220311_96","server":"51.255.66.185","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"_法国_FMYC-220311_97","server":"51.255.66.185","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"_法国_FMYC-220311_98","server":"fr-am1-1.eqsunshine.com","port":8181,"type":"ssr","password":"gVWc0WaJn","cipher":"aes-256-cfb","protocol":"origin","obfs":"tls1.2_ticket_auth"}
+  - {"name":"_香港_FMYC-220311_99","server":"150.109.147.14","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72","headers":{"host":"150.109.147.14"}}}
+  - {"name":"_香港_FMYC-220311_100","server":"43.132.181.104","port":52740,"type":"vmess","uuid":"915dddf1-48ba-436e-974e-00564767039c","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72","headers":{"host":"43.132.181.104"}}}
+  - {"name":"_澳大利亚_FMYC-220311_101","server":"www.ggchk.ga","port":443,"type":"trojan","password":"4ae98d26-b209-4dd5-8e91-bf11d4f10801"}
+  - {"name":"_香港_FMYC-220311_102","server":"43.129.233.11","port":22667,"type":"vmess","uuid":"73464dfc-af93-4e41-d795-68b5d7e77cb4","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"43.129.233.11"}}}
+  - {"name":"_香港_FMYC-220311_103","server":"43.128.12.51","port":18951,"type":"vmess","uuid":"ecac12eb-6c18-4fab-fca1-5fec47b5bb15","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"43.128.12.51"}}}
+  - {"name":"_香港_FMYC-220311_104","server":"43.132.204.8","port":41228,"type":"vmess","uuid":"6001f8c2-70f6-4da2-be90-63aeed26e2db","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"43.132.204.8"}}}
+  - {"name":"_中国_FMYC-220311_105","server":"43.155.70.225","port":15747,"type":"vmess","uuid":"5e9b045f-0894-48db-f76f-06c09b7721dd","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"43.155.70.225"}}}
+  - {"name":"_中国_FMYC-220311_106","server":"www.tokyo2021.ga","port":443,"type":"trojan","password":"7a990132-cf76-4ac2-8a3c-681743fa8627"}
+  - {"name":"_澳大利亚_FMYC-220311_107","server":"185.148.14.58","port":53514,"type":"trojan","password":"3r90JDGBYA"}
+  - {"name":"_香港_FMYC-220311_108","server":"43.132.161.143","port":41667,"type":"vmess","uuid":"26d00b57-b0fe-4a74-faee-5609bff2965d","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"43.132.161.143"}}}
+  - {"name":"_日本_FMYC-220311_109","server":"43.133.9.26","port":46449,"type":"vmess","uuid":"e2b138e2-b7c7-42c0-debf-9cb5fd48f2c8","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"43.133.9.26"}}}
+  - {"name":"_澳大利亚_FMYC-220311_110","server":"sg1.31vpn.com","port":80,"type":"vmess","uuid":"bb4b9e95-c9ff-411c-9a47-483570e169aa","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/fastssh/ffg545/622828452f8ff/","headers":{"host":"sg1.31vpn.com"}}}
+  - {"name":"_香港_FMYC-220311_111","server":"43.128.62.61","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72","headers":{"host":"43.128.62.61"}}}
+  - {"name":"_香港_FMYC-220311_112","server":"43.129.176.129","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72","headers":{"host":"43.129.176.129"}}}
+  - {"name":"_香港_FMYC-220311_113","server":"43.129.189.128","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72","headers":{"host":"43.129.189.128"}}}
+  - {"name":"_香港_FMYC-220311_114","server":"43.128.9.149","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72","headers":{"host":"43.128.9.149"}}}
+  - {"name":"_香港_FMYC-220311_115","server":"43.129.232.48","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72","headers":{"host":"43.129.232.48"}}}
+  - {"name":"_香港_FMYC-220311_116","server":"43.132.162.119","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72","headers":{"host":"43.132.162.119"}}}
+  - {"name":"_香港_FMYC-220311_117","server":"43.129.224.106","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72","headers":{"host":"43.129.224.106"}}}
+  - {"name":"_香港_FMYC-220311_118","server":"43.128.1.112","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72","headers":{"host":"43.128.1.112"}}}
+  - {"name":"_新加坡_FMYC-220311_119","server":"43.135.47.9","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72","headers":{"host":"43.135.47.9"}}}
+  - {"name":"_香港_FMYC-220311_120","server":"43.129.22.175","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72","headers":{"host":"43.129.22.175"}}}
+  - {"name":"_新加坡_FMYC-220311_121","server":"43.135.48.190","port":443,"type":"vmess","uuid":"514e8598-aae2-4c76-a1a7-da12941f8e09","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/af913804-d31a-45e8-9851-a4c5f8013d72","headers":{"host":"43.135.48.190"}}}
+  - {"name":"_瑞士_FMYC-220311_122","server":"sw.oracleusa.ml","port":2053,"type":"vmess","uuid":"0b97a9b1-a671-4b32-a02e-17850a466fdc","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sw.oracleusa.ml"}}}
+  - {"name":"_荷兰_FMYC-220311_123","server":"21.earths.team","port":443,"type":"trojan","password":"6593b778-e45e-4f94-b5ae-641d4b7b02ae"}
+  - {"name":"FMYC-220311_124","server":"104.16.181.197","port":443,"type":"vmess","uuid":"7be43971-52f1-48af-9036-454a94b4723a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"104.16.181.197"}}}
+  - {"name":"_美国_FMYC-220311_125","server":"gongyica1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyica1.yigeweizhuang.com"}}}
+  - {"name":"FMYC-220311_126","server":"gongyide1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyide1.yigeweizhuang.com"}}}
+  - {"name":"_美国_FMYC-220311_127","server":"23.225.183.50","port":33823,"type":"vmess","uuid":"75992b0f-eb30-4a94-81ff-16aef32c17f8","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"23.225.183.50"}}}
+  - {"name":"FMYC-220311_128","server":"104.16.181.150","port":443,"type":"vmess","uuid":"7be43971-52f1-48af-9036-454a94b4723a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"104.16.181.150"}}}
+  - {"name":"_美国_FMYC-220311_129","server":"108.166.223.126","port":1212,"type":"vmess","uuid":"dcc7fea4-9824-4f70-8b5e-9e04fd9d4b35","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"108.166.223.126"}}}
+  - {"name":"_美国_FMYC-220311_130","server":"74.211.103.219","port":16574,"type":"vmess","uuid":"1cccd074-673d-4395-dea1-a03975bb5545","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"74.211.103.219"}}}
+  - {"name":"_南非_FMYC-220311_131","server":"160.119.66.198","port":25044,"type":"vmess","uuid":"a40c22a2-e025-4aec-dc5b-1bbd92ebbbfa","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"160.119.66.198"}}}
+  - {"name":"_美国_FMYC-220311_132","server":"95.169.12.26","port":57804,"type":"vmess","uuid":"8812c8fc-a635-4f02-9ab2-e6a628087dc4","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"95.169.12.26"}}}
+  - {"name":"_美国_FMYC-220311_133","server":"23.225.183.52","port":33823,"type":"vmess","uuid":"75992b0f-eb30-4a94-81ff-16aef32c17f8","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"23.225.183.52"}}}
+  - {"name":"_日本_FMYC-220311_134","server":"35.74.153.69","port":24345,"type":"vmess","uuid":"9f289fe9-99fe-499b-c680-48e1ffb621b9","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"35.74.153.69"}}}
+  - {"name":"_美国_FMYC-220311_135","server":"49.51.35.218","port":55065,"type":"vmess","uuid":"a78b5b5d-ba42-4fb5-86fc-8d21e8de9b4f","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"49.51.35.218"}}}
+  - {"name":"_美国_FMYC-220311_136","server":"67.230.188.146","port":10235,"type":"vmess","uuid":"a708a019-4da7-450a-b192-841bdf8f8965","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"67.230.188.146"}}}
+  - {"name":"_美国_FMYC-220311_137","server":"45.32.132.9","port":34736,"type":"vmess","uuid":"15fd0af6-02b1-46fe-d16a-4cea01c7cb77","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"45.32.132.9"}}}
+  - {"name":"_美国_FMYC-220311_138","server":"155.94.228.34","port":13178,"type":"vmess","uuid":"5199bb32-dc28-4489-96d8-8efbebed4e17","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"155.94.228.34"}}}
+  - {"name":"_美国_FMYC-220311_139","server":"204.44.70.12","port":38860,"type":"vmess","uuid":"f7200edd-7ac2-4272-e1df-525eaefbc251","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"204.44.70.12"}}}
+  - {"name":"_美国_FMYC-220311_140","server":"172.67.68.58","port":443,"type":"vmess","uuid":"f2f578e4-692d-40b5-af99-9f1dd712eb32","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"172.67.68.58"}}}
+  - {"name":"_美国_FMYC-220311_141","server":"96.45.176.119","port":19526,"type":"vmess","uuid":"5ab8cf1f-6381-4127-f3f0-ae3e3e4a4fa7","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"96.45.176.119"}}}
+  - {"name":"_美国_FMYC-220311_142","server":"www.seetheworldjp.ga","port":443,"type":"trojan","password":"f42e1a2e-e650-44f4-8d17-bcb68663da18"}
+  - {"name":"_美国_FMYC-220311_143","server":"95.169.5.231","port":58578,"type":"vmess","uuid":"932d8917-549a-4c9e-cd1e-3fdf2c97c4d8","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"95.169.5.231"}}}
+  - {"name":"_美国_FMYC-220311_144","server":"gongyisg1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyisg1.yigeweizhuang.com"}}}
+  - {"name":"_美国_FMYC-220311_145","server":"vir2.oracleusa.ml","port":2053,"type":"vmess","uuid":"0b97a9b1-a671-4b32-a02e-17850a466fdc","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"vir2.oracleusa.ml"}}}
+  - {"name":"_美国_FMYC-220311_146","server":"173.255.215.146","port":11443,"type":"vmess","uuid":"d5c70a71-1b3c-41f2-a8e0-17323bc23821","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"173.255.215.146"}}}
+  - {"name":"_美国_FMYC-220311_147","server":"34.94.38.156","port":52114,"type":"vmess","uuid":"6c7ee3be-c5ce-4a8c-f7d8-97178a418c05","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"34.94.38.156"}}}
+  - {"name":"_美国_FMYC-220311_148","server":"172.247.31.45","port":10002,"type":"vmess","uuid":"40c938ac-5bc9-43a9-dbae-49038ae4a3c2","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"172.247.31.45"}}}
+  - {"name":"_美国_FMYC-220311_149","server":"23.94.98.60","port":26119,"type":"vmess","uuid":"e7f22ddf-20a3-4bef-bf93-e86fad6591f9","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"23.94.98.60"}}}
+  - {"name":"_美国_FMYC-220311_150","server":"ua1.uuv2.co.uk","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ua1.uuv2.co.uk"}}}
+  - {"name":"_美国_FMYC-220311_151","server":"gongyiau1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyiau1.yigeweizhuang.com"}}}
+  - {"name":"_美国_FMYC-220311_152","server":"34.125.176.33","port":56207,"type":"vmess","uuid":"e11a830a-ae93-4df7-f640-06c88e88851c","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"34.125.176.33"}}}
+  - {"name":"_美国_FMYC-220311_153","server":"34.94.44.208","port":43295,"type":"vmess","uuid":"7a6d0c6c-aaee-4af5-f694-6ffb7f6cfa05","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"34.94.44.208"}}}
+  - {"name":"_美国_FMYC-220311_154","server":"144.168.63.158","port":51688,"type":"vmess","uuid":"4f2eb2c4-4c8a-4931-995c-80d44bebcfb0","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"144.168.63.158"}}}
+  - {"name":"_美国_FMYC-220311_155","server":"172.247.31.42","port":10002,"type":"vmess","uuid":"40c938ac-5bc9-43a9-dbae-49038ae4a3c2","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"172.247.31.42"}}}
+  - {"name":"_美国_FMYC-220311_156","server":"50.21.176.135","port":35376,"type":"vmess","uuid":"d6785dcf-321d-41a4-ab44-aadd29e73dd6","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"50.21.176.135"}}}
+  - {"name":"_美国_FMYC-220311_157","server":"198.211.50.119","port":16420,"type":"vmess","uuid":"3f189962-2a46-4c37-eda7-cc95d6236eb1","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"198.211.50.119"}}}
+  - {"name":"_美国_FMYC-220311_158","server":"45.12.90.181","port":36228,"type":"vmess","uuid":"9cde6198-3f56-4dc2-967c-793a58dd0612","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"45.12.90.181"}}}
+  - {"name":"_美国_FMYC-220311_159","server":"206.81.4.233","port":38748,"type":"vmess","uuid":"a3443216-b604-4f6b-e34c-338988f86d10","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"206.81.4.233"}}}
+  - {"name":"_荷兰_FMYC-220311_160","server":"23.94.120.19","port":28554,"type":"vmess","uuid":"4a4c96c5-7b8b-4612-c715-6b91a9c34d07","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"23.94.120.19"}}}
+  - {"name":"_南非_FMYC-220311_161","server":"20.87.75.193","port":40798,"type":"vmess","uuid":"8d103320-bede-4dfb-c5d7-4f0835c68520","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"20.87.75.193"}}}
+  - {"name":"FMYC-220311_162","server":"test.0dc.cn","port":443,"type":"vmess","uuid":"ebe5703b-c18e-4664-c3a7-9fcf52453898","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"test.0dc.cn"}}}
+  - {"name":"_日本_FMYC-220311_163","server":"cmi.db-link.in","port":21152,"type":"vmess","uuid":"9b6dd8ea-fe2e-3508-b099-8e25bdf6b5fe","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cmi.db-link.in"}}}
+  - {"name":"_美国_FMYC-220311_164","server":"173.255.215.146","port":443,"type":"vmess","uuid":"d5c70a71-1b3c-41f2-a8e0-17323bc23821","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"173.255.215.146"}}}
+  - {"name":"_美国_FMYC-220311_165","server":"3.19.55.153","port":58112,"type":"vmess","uuid":"60777efc-f9b9-4976-d86f-8434ee30c6f8","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"3.19.55.153"}}}
+  - {"name":"_美国_FMYC-220311_166","server":"54.215.223.147","port":51792,"type":"vmess","uuid":"a1ef0a15-709a-4dc2-c52e-e99992dcfb98","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"54.215.223.147"}}}
+  - {"name":"_美国_FMYC-220311_167","server":"154.31.41.10","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"154.31.41.10"}}}
+  - {"name":"_荷兰_FMYC-220311_168","server":"64.227.76.201","port":56633,"type":"vmess","uuid":"da0e5348-e2b6-4fff-e482-f8e137780ebd","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"64.227.76.201"}}}
+  - {"name":"_台湾_FMYC-220311_169","server":"34.80.185.234","port":40762,"type":"vmess","uuid":"63dfb0a0-c0b2-4c46-e821-30e18741e783","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"34.80.185.234"}}}
+  - {"name":"_加拿大_FMYC-220311_170","server":"134.195.196.187","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"_美国_FMYC-220311_171","server":"23.225.183.53","port":33823,"type":"vmess","uuid":"75992b0f-eb30-4a94-81ff-16aef32c17f8","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"23.225.183.53"}}}
+  - {"name":"_加拿大_FMYC-220311_172","server":"134.195.196.81","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"_加拿大_FMYC-220311_173","server":"134.195.196.81","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"_加拿大_FMYC-220311_174","server":"134.195.196.81","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"_加拿大_FMYC-220311_175","server":"134.195.196.81","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"_加拿大_FMYC-220311_176","server":"134.195.196.81","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"_加拿大_FMYC-220311_177","server":"134.195.196.3","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"_美国_FMYC-220311_178","server":"38.68.134.23","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"_印度_FMYC-220311_179","server":"172.104.207.231","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"_加拿大_FMYC-220311_180","server":"134.195.196.193","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"_加拿大_FMYC-220311_181","server":"134.195.196.193","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"_加拿大_FMYC-220311_182","server":"134.195.196.193","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"_加拿大_FMYC-220311_183","server":"134.195.196.71","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"_加拿大_FMYC-220311_184","server":"134.195.196.227","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"_香港_FMYC-220311_185","server":"86.wowogg.cyou","port":52286,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"86.wowogg.cyou"}}}
+  - {"name":"_美国_FMYC-220311_186","server":"45.35.84.162","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"45.35.84.162"}}}
+  - {"name":"_香港_FMYC-220311_187","server":"112.wowogg.cyou","port":52212,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"112.wowogg.cyou"}}}
+  - {"name":"_香港_FMYC-220311_188","server":"133.wowogg.cyou","port":52333,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"133.wowogg.cyou"}}}
+  - {"name":"_香港_FMYC-220311_189","server":"117.wowogg.cyou","port":52217,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"117.wowogg.cyou"}}}
+  - {"name":"_美国_FMYC-220311_190","server":"app.ssfree.ru","port":443,"type":"vmess","uuid":"9135bdb4-9b6f-11ec-a503-000017022008","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"app.ssfree.ru"}}}
+  - {"name":"FMYC-220311_191","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"6c175d1a-a57f-4881-a471-173eb139694b","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cloudflare.xrenblog.com"}}}
+  - {"name":"_美国_FMYC-220311_192","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"usa-dallas.lvuft.com"}}}
+  - {"name":"_美国_FMYC-220311_193","server":"107.wowogg.cyou","port":52207,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"107.wowogg.cyou"}}}
+  - {"name":"_美国_FMYC-220311_194","server":"90.wowogg.cyou","port":52290,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"90.wowogg.cyou"}}}
+  - {"name":"_香港_FMYC-220311_195","server":"102.wowogg.cyou","port":11221,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"102.wowogg.cyou"}}}
+  - {"name":"_美国_FMYC-220311_196","server":"91.wowogg.cyou","port":52291,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"91.wowogg.cyou"}}}
+  - {"name":"_香港_FMYC-220311_197","server":"124.wowogg.cyou","port":52224,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"124.wowogg.cyou"}}}
+  - {"name":"_香港_FMYC-220311_198","server":"127.wowogg.cyou","port":52227,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"127.wowogg.cyou"}}}
+  - {"name":"_美国_FMYC-220311_199","server":"104.wowogg.cyou","port":11222,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"104.wowogg.cyou"}}}
+  - {"name":"_美国_FMYC-220311_200","server":"138.197.236.77","port":443,"type":"vmess","uuid":"3579436c-b37e-11eb-8529-0242ac130003","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"138.197.236.77"}}}
+  - {"name":"_美国_FMYC-220311_201","server":"100.wowogg.cyou","port":11220,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"100.wowogg.cyou"}}}
+  - {"name":"FMYC-220311_202","server":"www.cloudflare.com","port":8443,"type":"trojan","password":"b2015918-4a70-4250-8afa-dba8a5be97f4"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_1
-      - tg频道：atbpjzx2_2
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_3
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_4
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_5
-      - tg频道：atbpjzx2_6
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_7
-      - tg频道：atbpjzx2_8
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_9
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_10
-      - tg频道：atbpjzx2_11
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_12
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_13
-      - tg频道：atbpjzx2_14
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_15
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_16
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_17
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_18
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_19
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_20
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_21
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_22
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_23
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_24
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_25
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_26
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_27
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_28
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_29
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_30
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_31
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_32
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_33
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_34
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_35
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_36
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_37
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_38
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_39
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_40
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_41
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_42
-      - tg频道：atbpjzx2_43
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_44
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_45
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_46
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_47
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_48
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_49
-      - tg频道：atbpjzx2_50
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_51
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_52
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_53
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_54
-      - tg频道：atbpjzx2_55
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_56
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_57
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_58
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_59
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_60
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_61
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_62
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_63
-      - tg频道：atbpjzx2_64
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_65
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_66
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_67
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_68
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_69
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_70
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_71
-      - tg频道：atbpjzx2_72
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_73
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_74
-      - 🇨🇳_CN_中国_tg频道：atbpjzx2_75
-      - tg频道：atbpjzx2_76
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_77
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_78
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_79
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_80
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_81
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_82
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_83
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_84
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_85
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_86
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_87
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_88
-      - tg频道：atbpjzx2_89
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_90
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_91
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_92
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_93
-      - tg频道：atbpjzx2_94
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_95
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_96
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_97
-      - tg频道：atbpjzx2_98
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_99
-      - tg频道：atbpjzx2_100
+      - _中国_FMYC-220311_1
+      - _中国_FMYC-220311_2
+      - _中国_FMYC-220311_3
+      - _中国_FMYC-220311_4
+      - _中国_FMYC-220311_5
+      - _印度_FMYC-220311_6
+      - _印度_FMYC-220311_7
+      - _中国_FMYC-220311_8
+      - _中国_FMYC-220311_9
+      - _中国_FMYC-220311_10
+      - _中国_FMYC-220311_11
+      - _中国_FMYC-220311_12
+      - _中国_FMYC-220311_13
+      - _中国_FMYC-220311_14
+      - _中国_FMYC-220311_15
+      - _中国_FMYC-220311_16
+      - _中国_FMYC-220311_17
+      - _新加坡_FMYC-220311_18
+      - _美国_FMYC-220311_19
+      - _美国_FMYC-220311_20
+      - _美国_FMYC-220311_21
+      - _法国_FMYC-220311_22
+      - _法国_FMYC-220311_23
+      - _法国_FMYC-220311_24
+      - _法国_FMYC-220311_25
+      - _澳大利亚_FMYC-220311_26
+      - _中国_FMYC-220311_27
+      - _中国_FMYC-220311_28
+      - _中国_FMYC-220311_29
+      - _中国_FMYC-220311_30
+      - _中国_FMYC-220311_31
+      - _美国_FMYC-220311_32
+      - _美国_FMYC-220311_33
+      - _美国_FMYC-220311_34
+      - _美国_FMYC-220311_35
+      - _美国_FMYC-220311_36
+      - _英国_FMYC-220311_37
+      - _英国_FMYC-220311_38
+      - _英国_FMYC-220311_39
+      - _英国_FMYC-220311_40
+      - _英国_FMYC-220311_41
+      - _英国_FMYC-220311_42
+      - _中国_FMYC-220311_43
+      - _英国_FMYC-220311_44
+      - _韩国_FMYC-220311_45
+      - _韩国_FMYC-220311_46
+      - _韩国_FMYC-220311_47
+      - _韩国_FMYC-220311_48
+      - _中国_FMYC-220311_49
+      - _香港_FMYC-220311_50
+      - _中国_FMYC-220311_51
+      - _香港_FMYC-220311_52
+      - _香港_FMYC-220311_53
+      - _香港_FMYC-220311_54
+      - _香港_FMYC-220311_55
+      - _香港_FMYC-220311_56
+      - _香港_FMYC-220311_57
+      - _新加坡_FMYC-220311_58
+      - _香港_FMYC-220311_59
+      - FMYC-220311_60
+      - _美国_FMYC-220311_61
+      - _美国_FMYC-220311_62
+      - _冰岛_FMYC-220311_63
+      - _加拿大_FMYC-220311_64
+      - _德国_FMYC-220311_65
+      - _德国_FMYC-220311_66
+      - _印度_FMYC-220311_67
+      - _新加坡_FMYC-220311_68
+      - _法国_FMYC-220311_69
+      - _德国_FMYC-220311_70
+      - _德国_FMYC-220311_71
+      - _前南马其顿_FMYC-220311_72
+      - _新加坡_FMYC-220311_73
+      - _新加坡_FMYC-220311_74
+      - _新加坡_FMYC-220311_75
+      - _新加坡_FMYC-220311_76
+      - _新加坡_FMYC-220311_77
+      - _新加坡_FMYC-220311_78
+      - _日本_FMYC-220311_79
+      - _日本_FMYC-220311_80
+      - _日本_FMYC-220311_81
+      - _新加坡_FMYC-220311_82
+      - _日本_FMYC-220311_83
+      - _日本_FMYC-220311_84
+      - _日本_FMYC-220311_85
+      - _日本_FMYC-220311_86
+      - _日本_FMYC-220311_87
+      - _日本_FMYC-220311_88
+      - _日本_FMYC-220311_89
+      - _日本_FMYC-220311_90
+      - _日本_FMYC-220311_91
+      - _日本_FMYC-220311_92
+      - _新加坡_FMYC-220311_93
+      - _美国_FMYC-220311_94
+      - _法国_FMYC-220311_95
+      - _法国_FMYC-220311_96
+      - _法国_FMYC-220311_97
+      - _法国_FMYC-220311_98
+      - _香港_FMYC-220311_99
+      - _香港_FMYC-220311_100
+      - _澳大利亚_FMYC-220311_101
+      - _香港_FMYC-220311_102
+      - _香港_FMYC-220311_103
+      - _香港_FMYC-220311_104
+      - _中国_FMYC-220311_105
+      - _中国_FMYC-220311_106
+      - _澳大利亚_FMYC-220311_107
+      - _香港_FMYC-220311_108
+      - _日本_FMYC-220311_109
+      - _澳大利亚_FMYC-220311_110
+      - _香港_FMYC-220311_111
+      - _香港_FMYC-220311_112
+      - _香港_FMYC-220311_113
+      - _香港_FMYC-220311_114
+      - _香港_FMYC-220311_115
+      - _香港_FMYC-220311_116
+      - _香港_FMYC-220311_117
+      - _香港_FMYC-220311_118
+      - _新加坡_FMYC-220311_119
+      - _香港_FMYC-220311_120
+      - _新加坡_FMYC-220311_121
+      - _瑞士_FMYC-220311_122
+      - _荷兰_FMYC-220311_123
+      - FMYC-220311_124
+      - _美国_FMYC-220311_125
+      - FMYC-220311_126
+      - _美国_FMYC-220311_127
+      - FMYC-220311_128
+      - _美国_FMYC-220311_129
+      - _美国_FMYC-220311_130
+      - _南非_FMYC-220311_131
+      - _美国_FMYC-220311_132
+      - _美国_FMYC-220311_133
+      - _日本_FMYC-220311_134
+      - _美国_FMYC-220311_135
+      - _美国_FMYC-220311_136
+      - _美国_FMYC-220311_137
+      - _美国_FMYC-220311_138
+      - _美国_FMYC-220311_139
+      - _美国_FMYC-220311_140
+      - _美国_FMYC-220311_141
+      - _美国_FMYC-220311_142
+      - _美国_FMYC-220311_143
+      - _美国_FMYC-220311_144
+      - _美国_FMYC-220311_145
+      - _美国_FMYC-220311_146
+      - _美国_FMYC-220311_147
+      - _美国_FMYC-220311_148
+      - _美国_FMYC-220311_149
+      - _美国_FMYC-220311_150
+      - _美国_FMYC-220311_151
+      - _美国_FMYC-220311_152
+      - _美国_FMYC-220311_153
+      - _美国_FMYC-220311_154
+      - _美国_FMYC-220311_155
+      - _美国_FMYC-220311_156
+      - _美国_FMYC-220311_157
+      - _美国_FMYC-220311_158
+      - _美国_FMYC-220311_159
+      - _荷兰_FMYC-220311_160
+      - _南非_FMYC-220311_161
+      - FMYC-220311_162
+      - _日本_FMYC-220311_163
+      - _美国_FMYC-220311_164
+      - _美国_FMYC-220311_165
+      - _美国_FMYC-220311_166
+      - _美国_FMYC-220311_167
+      - _荷兰_FMYC-220311_168
+      - _台湾_FMYC-220311_169
+      - _加拿大_FMYC-220311_170
+      - _美国_FMYC-220311_171
+      - _加拿大_FMYC-220311_172
+      - _加拿大_FMYC-220311_173
+      - _加拿大_FMYC-220311_174
+      - _加拿大_FMYC-220311_175
+      - _加拿大_FMYC-220311_176
+      - _加拿大_FMYC-220311_177
+      - _美国_FMYC-220311_178
+      - _印度_FMYC-220311_179
+      - _加拿大_FMYC-220311_180
+      - _加拿大_FMYC-220311_181
+      - _加拿大_FMYC-220311_182
+      - _加拿大_FMYC-220311_183
+      - _加拿大_FMYC-220311_184
+      - _香港_FMYC-220311_185
+      - _美国_FMYC-220311_186
+      - _香港_FMYC-220311_187
+      - _香港_FMYC-220311_188
+      - _香港_FMYC-220311_189
+      - _美国_FMYC-220311_190
+      - FMYC-220311_191
+      - _美国_FMYC-220311_192
+      - _美国_FMYC-220311_193
+      - _美国_FMYC-220311_194
+      - _香港_FMYC-220311_195
+      - _美国_FMYC-220311_196
+      - _香港_FMYC-220311_197
+      - _香港_FMYC-220311_198
+      - _美国_FMYC-220311_199
+      - _美国_FMYC-220311_200
+      - _美国_FMYC-220311_201
+      - FMYC-220311_202
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_1
-      - tg频道：atbpjzx2_2
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_3
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_4
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_5
-      - tg频道：atbpjzx2_6
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_7
-      - tg频道：atbpjzx2_8
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_9
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_10
-      - tg频道：atbpjzx2_11
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_12
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_13
-      - tg频道：atbpjzx2_14
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_15
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_16
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_17
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_18
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_19
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_20
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_21
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_22
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_23
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_24
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_25
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_26
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_27
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_28
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_29
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_30
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_31
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_32
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_33
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_34
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_35
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_36
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_37
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_38
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_39
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_40
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_41
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_42
-      - tg频道：atbpjzx2_43
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_44
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_45
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_46
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_47
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_48
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_49
-      - tg频道：atbpjzx2_50
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_51
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_52
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_53
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_54
-      - tg频道：atbpjzx2_55
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_56
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_57
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_58
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_59
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_60
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_61
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_62
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_63
-      - tg频道：atbpjzx2_64
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_65
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_66
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_67
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_68
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_69
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_70
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_71
-      - tg频道：atbpjzx2_72
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_73
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_74
-      - 🇨🇳_CN_中国_tg频道：atbpjzx2_75
-      - tg频道：atbpjzx2_76
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_77
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_78
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_79
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_80
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_81
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_82
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_83
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_84
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_85
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_86
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_87
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_88
-      - tg频道：atbpjzx2_89
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_90
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_91
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_92
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_93
-      - tg频道：atbpjzx2_94
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_95
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_96
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_97
-      - tg频道：atbpjzx2_98
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_99
-      - tg频道：atbpjzx2_100
+      - _中国_FMYC-220311_1
+      - _中国_FMYC-220311_2
+      - _中国_FMYC-220311_3
+      - _中国_FMYC-220311_4
+      - _中国_FMYC-220311_5
+      - _印度_FMYC-220311_6
+      - _印度_FMYC-220311_7
+      - _中国_FMYC-220311_8
+      - _中国_FMYC-220311_9
+      - _中国_FMYC-220311_10
+      - _中国_FMYC-220311_11
+      - _中国_FMYC-220311_12
+      - _中国_FMYC-220311_13
+      - _中国_FMYC-220311_14
+      - _中国_FMYC-220311_15
+      - _中国_FMYC-220311_16
+      - _中国_FMYC-220311_17
+      - _新加坡_FMYC-220311_18
+      - _美国_FMYC-220311_19
+      - _美国_FMYC-220311_20
+      - _美国_FMYC-220311_21
+      - _法国_FMYC-220311_22
+      - _法国_FMYC-220311_23
+      - _法国_FMYC-220311_24
+      - _法国_FMYC-220311_25
+      - _澳大利亚_FMYC-220311_26
+      - _中国_FMYC-220311_27
+      - _中国_FMYC-220311_28
+      - _中国_FMYC-220311_29
+      - _中国_FMYC-220311_30
+      - _中国_FMYC-220311_31
+      - _美国_FMYC-220311_32
+      - _美国_FMYC-220311_33
+      - _美国_FMYC-220311_34
+      - _美国_FMYC-220311_35
+      - _美国_FMYC-220311_36
+      - _英国_FMYC-220311_37
+      - _英国_FMYC-220311_38
+      - _英国_FMYC-220311_39
+      - _英国_FMYC-220311_40
+      - _英国_FMYC-220311_41
+      - _英国_FMYC-220311_42
+      - _中国_FMYC-220311_43
+      - _英国_FMYC-220311_44
+      - _韩国_FMYC-220311_45
+      - _韩国_FMYC-220311_46
+      - _韩国_FMYC-220311_47
+      - _韩国_FMYC-220311_48
+      - _中国_FMYC-220311_49
+      - _香港_FMYC-220311_50
+      - _中国_FMYC-220311_51
+      - _香港_FMYC-220311_52
+      - _香港_FMYC-220311_53
+      - _香港_FMYC-220311_54
+      - _香港_FMYC-220311_55
+      - _香港_FMYC-220311_56
+      - _香港_FMYC-220311_57
+      - _新加坡_FMYC-220311_58
+      - _香港_FMYC-220311_59
+      - FMYC-220311_60
+      - _美国_FMYC-220311_61
+      - _美国_FMYC-220311_62
+      - _冰岛_FMYC-220311_63
+      - _加拿大_FMYC-220311_64
+      - _德国_FMYC-220311_65
+      - _德国_FMYC-220311_66
+      - _印度_FMYC-220311_67
+      - _新加坡_FMYC-220311_68
+      - _法国_FMYC-220311_69
+      - _德国_FMYC-220311_70
+      - _德国_FMYC-220311_71
+      - _前南马其顿_FMYC-220311_72
+      - _新加坡_FMYC-220311_73
+      - _新加坡_FMYC-220311_74
+      - _新加坡_FMYC-220311_75
+      - _新加坡_FMYC-220311_76
+      - _新加坡_FMYC-220311_77
+      - _新加坡_FMYC-220311_78
+      - _日本_FMYC-220311_79
+      - _日本_FMYC-220311_80
+      - _日本_FMYC-220311_81
+      - _新加坡_FMYC-220311_82
+      - _日本_FMYC-220311_83
+      - _日本_FMYC-220311_84
+      - _日本_FMYC-220311_85
+      - _日本_FMYC-220311_86
+      - _日本_FMYC-220311_87
+      - _日本_FMYC-220311_88
+      - _日本_FMYC-220311_89
+      - _日本_FMYC-220311_90
+      - _日本_FMYC-220311_91
+      - _日本_FMYC-220311_92
+      - _新加坡_FMYC-220311_93
+      - _美国_FMYC-220311_94
+      - _法国_FMYC-220311_95
+      - _法国_FMYC-220311_96
+      - _法国_FMYC-220311_97
+      - _法国_FMYC-220311_98
+      - _香港_FMYC-220311_99
+      - _香港_FMYC-220311_100
+      - _澳大利亚_FMYC-220311_101
+      - _香港_FMYC-220311_102
+      - _香港_FMYC-220311_103
+      - _香港_FMYC-220311_104
+      - _中国_FMYC-220311_105
+      - _中国_FMYC-220311_106
+      - _澳大利亚_FMYC-220311_107
+      - _香港_FMYC-220311_108
+      - _日本_FMYC-220311_109
+      - _澳大利亚_FMYC-220311_110
+      - _香港_FMYC-220311_111
+      - _香港_FMYC-220311_112
+      - _香港_FMYC-220311_113
+      - _香港_FMYC-220311_114
+      - _香港_FMYC-220311_115
+      - _香港_FMYC-220311_116
+      - _香港_FMYC-220311_117
+      - _香港_FMYC-220311_118
+      - _新加坡_FMYC-220311_119
+      - _香港_FMYC-220311_120
+      - _新加坡_FMYC-220311_121
+      - _瑞士_FMYC-220311_122
+      - _荷兰_FMYC-220311_123
+      - FMYC-220311_124
+      - _美国_FMYC-220311_125
+      - FMYC-220311_126
+      - _美国_FMYC-220311_127
+      - FMYC-220311_128
+      - _美国_FMYC-220311_129
+      - _美国_FMYC-220311_130
+      - _南非_FMYC-220311_131
+      - _美国_FMYC-220311_132
+      - _美国_FMYC-220311_133
+      - _日本_FMYC-220311_134
+      - _美国_FMYC-220311_135
+      - _美国_FMYC-220311_136
+      - _美国_FMYC-220311_137
+      - _美国_FMYC-220311_138
+      - _美国_FMYC-220311_139
+      - _美国_FMYC-220311_140
+      - _美国_FMYC-220311_141
+      - _美国_FMYC-220311_142
+      - _美国_FMYC-220311_143
+      - _美国_FMYC-220311_144
+      - _美国_FMYC-220311_145
+      - _美国_FMYC-220311_146
+      - _美国_FMYC-220311_147
+      - _美国_FMYC-220311_148
+      - _美国_FMYC-220311_149
+      - _美国_FMYC-220311_150
+      - _美国_FMYC-220311_151
+      - _美国_FMYC-220311_152
+      - _美国_FMYC-220311_153
+      - _美国_FMYC-220311_154
+      - _美国_FMYC-220311_155
+      - _美国_FMYC-220311_156
+      - _美国_FMYC-220311_157
+      - _美国_FMYC-220311_158
+      - _美国_FMYC-220311_159
+      - _荷兰_FMYC-220311_160
+      - _南非_FMYC-220311_161
+      - FMYC-220311_162
+      - _日本_FMYC-220311_163
+      - _美国_FMYC-220311_164
+      - _美国_FMYC-220311_165
+      - _美国_FMYC-220311_166
+      - _美国_FMYC-220311_167
+      - _荷兰_FMYC-220311_168
+      - _台湾_FMYC-220311_169
+      - _加拿大_FMYC-220311_170
+      - _美国_FMYC-220311_171
+      - _加拿大_FMYC-220311_172
+      - _加拿大_FMYC-220311_173
+      - _加拿大_FMYC-220311_174
+      - _加拿大_FMYC-220311_175
+      - _加拿大_FMYC-220311_176
+      - _加拿大_FMYC-220311_177
+      - _美国_FMYC-220311_178
+      - _印度_FMYC-220311_179
+      - _加拿大_FMYC-220311_180
+      - _加拿大_FMYC-220311_181
+      - _加拿大_FMYC-220311_182
+      - _加拿大_FMYC-220311_183
+      - _加拿大_FMYC-220311_184
+      - _香港_FMYC-220311_185
+      - _美国_FMYC-220311_186
+      - _香港_FMYC-220311_187
+      - _香港_FMYC-220311_188
+      - _香港_FMYC-220311_189
+      - _美国_FMYC-220311_190
+      - FMYC-220311_191
+      - _美国_FMYC-220311_192
+      - _美国_FMYC-220311_193
+      - _美国_FMYC-220311_194
+      - _香港_FMYC-220311_195
+      - _美国_FMYC-220311_196
+      - _香港_FMYC-220311_197
+      - _香港_FMYC-220311_198
+      - _美国_FMYC-220311_199
+      - _美国_FMYC-220311_200
+      - _美国_FMYC-220311_201
+      - FMYC-220311_202
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_1
-      - tg频道：atbpjzx2_2
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_3
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_4
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_5
-      - tg频道：atbpjzx2_6
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_7
-      - tg频道：atbpjzx2_8
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_9
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_10
-      - tg频道：atbpjzx2_11
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_12
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_13
-      - tg频道：atbpjzx2_14
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_15
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_16
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_17
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_18
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_19
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_20
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_21
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_22
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_23
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_24
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_25
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_26
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_27
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_28
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_29
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_30
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_31
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_32
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_33
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_34
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_35
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_36
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_37
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_38
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_39
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_40
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_41
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_42
-      - tg频道：atbpjzx2_43
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_44
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_45
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_46
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_47
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_48
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_49
-      - tg频道：atbpjzx2_50
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_51
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_52
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_53
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_54
-      - tg频道：atbpjzx2_55
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_56
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_57
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_58
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_59
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_60
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_61
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_62
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_63
-      - tg频道：atbpjzx2_64
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_65
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_66
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_67
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_68
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_69
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_70
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_71
-      - tg频道：atbpjzx2_72
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_73
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_74
-      - 🇨🇳_CN_中国_tg频道：atbpjzx2_75
-      - tg频道：atbpjzx2_76
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_77
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_78
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_79
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_80
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_81
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_82
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_83
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_84
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_85
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_86
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_87
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_88
-      - tg频道：atbpjzx2_89
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_90
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_91
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_92
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_93
-      - tg频道：atbpjzx2_94
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_95
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_96
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_97
-      - tg频道：atbpjzx2_98
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_99
-      - tg频道：atbpjzx2_100
+      - _中国_FMYC-220311_1
+      - _中国_FMYC-220311_2
+      - _中国_FMYC-220311_3
+      - _中国_FMYC-220311_4
+      - _中国_FMYC-220311_5
+      - _印度_FMYC-220311_6
+      - _印度_FMYC-220311_7
+      - _中国_FMYC-220311_8
+      - _中国_FMYC-220311_9
+      - _中国_FMYC-220311_10
+      - _中国_FMYC-220311_11
+      - _中国_FMYC-220311_12
+      - _中国_FMYC-220311_13
+      - _中国_FMYC-220311_14
+      - _中国_FMYC-220311_15
+      - _中国_FMYC-220311_16
+      - _中国_FMYC-220311_17
+      - _新加坡_FMYC-220311_18
+      - _美国_FMYC-220311_19
+      - _美国_FMYC-220311_20
+      - _美国_FMYC-220311_21
+      - _法国_FMYC-220311_22
+      - _法国_FMYC-220311_23
+      - _法国_FMYC-220311_24
+      - _法国_FMYC-220311_25
+      - _澳大利亚_FMYC-220311_26
+      - _中国_FMYC-220311_27
+      - _中国_FMYC-220311_28
+      - _中国_FMYC-220311_29
+      - _中国_FMYC-220311_30
+      - _中国_FMYC-220311_31
+      - _美国_FMYC-220311_32
+      - _美国_FMYC-220311_33
+      - _美国_FMYC-220311_34
+      - _美国_FMYC-220311_35
+      - _美国_FMYC-220311_36
+      - _英国_FMYC-220311_37
+      - _英国_FMYC-220311_38
+      - _英国_FMYC-220311_39
+      - _英国_FMYC-220311_40
+      - _英国_FMYC-220311_41
+      - _英国_FMYC-220311_42
+      - _中国_FMYC-220311_43
+      - _英国_FMYC-220311_44
+      - _韩国_FMYC-220311_45
+      - _韩国_FMYC-220311_46
+      - _韩国_FMYC-220311_47
+      - _韩国_FMYC-220311_48
+      - _中国_FMYC-220311_49
+      - _香港_FMYC-220311_50
+      - _中国_FMYC-220311_51
+      - _香港_FMYC-220311_52
+      - _香港_FMYC-220311_53
+      - _香港_FMYC-220311_54
+      - _香港_FMYC-220311_55
+      - _香港_FMYC-220311_56
+      - _香港_FMYC-220311_57
+      - _新加坡_FMYC-220311_58
+      - _香港_FMYC-220311_59
+      - FMYC-220311_60
+      - _美国_FMYC-220311_61
+      - _美国_FMYC-220311_62
+      - _冰岛_FMYC-220311_63
+      - _加拿大_FMYC-220311_64
+      - _德国_FMYC-220311_65
+      - _德国_FMYC-220311_66
+      - _印度_FMYC-220311_67
+      - _新加坡_FMYC-220311_68
+      - _法国_FMYC-220311_69
+      - _德国_FMYC-220311_70
+      - _德国_FMYC-220311_71
+      - _前南马其顿_FMYC-220311_72
+      - _新加坡_FMYC-220311_73
+      - _新加坡_FMYC-220311_74
+      - _新加坡_FMYC-220311_75
+      - _新加坡_FMYC-220311_76
+      - _新加坡_FMYC-220311_77
+      - _新加坡_FMYC-220311_78
+      - _日本_FMYC-220311_79
+      - _日本_FMYC-220311_80
+      - _日本_FMYC-220311_81
+      - _新加坡_FMYC-220311_82
+      - _日本_FMYC-220311_83
+      - _日本_FMYC-220311_84
+      - _日本_FMYC-220311_85
+      - _日本_FMYC-220311_86
+      - _日本_FMYC-220311_87
+      - _日本_FMYC-220311_88
+      - _日本_FMYC-220311_89
+      - _日本_FMYC-220311_90
+      - _日本_FMYC-220311_91
+      - _日本_FMYC-220311_92
+      - _新加坡_FMYC-220311_93
+      - _美国_FMYC-220311_94
+      - _法国_FMYC-220311_95
+      - _法国_FMYC-220311_96
+      - _法国_FMYC-220311_97
+      - _法国_FMYC-220311_98
+      - _香港_FMYC-220311_99
+      - _香港_FMYC-220311_100
+      - _澳大利亚_FMYC-220311_101
+      - _香港_FMYC-220311_102
+      - _香港_FMYC-220311_103
+      - _香港_FMYC-220311_104
+      - _中国_FMYC-220311_105
+      - _中国_FMYC-220311_106
+      - _澳大利亚_FMYC-220311_107
+      - _香港_FMYC-220311_108
+      - _日本_FMYC-220311_109
+      - _澳大利亚_FMYC-220311_110
+      - _香港_FMYC-220311_111
+      - _香港_FMYC-220311_112
+      - _香港_FMYC-220311_113
+      - _香港_FMYC-220311_114
+      - _香港_FMYC-220311_115
+      - _香港_FMYC-220311_116
+      - _香港_FMYC-220311_117
+      - _香港_FMYC-220311_118
+      - _新加坡_FMYC-220311_119
+      - _香港_FMYC-220311_120
+      - _新加坡_FMYC-220311_121
+      - _瑞士_FMYC-220311_122
+      - _荷兰_FMYC-220311_123
+      - FMYC-220311_124
+      - _美国_FMYC-220311_125
+      - FMYC-220311_126
+      - _美国_FMYC-220311_127
+      - FMYC-220311_128
+      - _美国_FMYC-220311_129
+      - _美国_FMYC-220311_130
+      - _南非_FMYC-220311_131
+      - _美国_FMYC-220311_132
+      - _美国_FMYC-220311_133
+      - _日本_FMYC-220311_134
+      - _美国_FMYC-220311_135
+      - _美国_FMYC-220311_136
+      - _美国_FMYC-220311_137
+      - _美国_FMYC-220311_138
+      - _美国_FMYC-220311_139
+      - _美国_FMYC-220311_140
+      - _美国_FMYC-220311_141
+      - _美国_FMYC-220311_142
+      - _美国_FMYC-220311_143
+      - _美国_FMYC-220311_144
+      - _美国_FMYC-220311_145
+      - _美国_FMYC-220311_146
+      - _美国_FMYC-220311_147
+      - _美国_FMYC-220311_148
+      - _美国_FMYC-220311_149
+      - _美国_FMYC-220311_150
+      - _美国_FMYC-220311_151
+      - _美国_FMYC-220311_152
+      - _美国_FMYC-220311_153
+      - _美国_FMYC-220311_154
+      - _美国_FMYC-220311_155
+      - _美国_FMYC-220311_156
+      - _美国_FMYC-220311_157
+      - _美国_FMYC-220311_158
+      - _美国_FMYC-220311_159
+      - _荷兰_FMYC-220311_160
+      - _南非_FMYC-220311_161
+      - FMYC-220311_162
+      - _日本_FMYC-220311_163
+      - _美国_FMYC-220311_164
+      - _美国_FMYC-220311_165
+      - _美国_FMYC-220311_166
+      - _美国_FMYC-220311_167
+      - _荷兰_FMYC-220311_168
+      - _台湾_FMYC-220311_169
+      - _加拿大_FMYC-220311_170
+      - _美国_FMYC-220311_171
+      - _加拿大_FMYC-220311_172
+      - _加拿大_FMYC-220311_173
+      - _加拿大_FMYC-220311_174
+      - _加拿大_FMYC-220311_175
+      - _加拿大_FMYC-220311_176
+      - _加拿大_FMYC-220311_177
+      - _美国_FMYC-220311_178
+      - _印度_FMYC-220311_179
+      - _加拿大_FMYC-220311_180
+      - _加拿大_FMYC-220311_181
+      - _加拿大_FMYC-220311_182
+      - _加拿大_FMYC-220311_183
+      - _加拿大_FMYC-220311_184
+      - _香港_FMYC-220311_185
+      - _美国_FMYC-220311_186
+      - _香港_FMYC-220311_187
+      - _香港_FMYC-220311_188
+      - _香港_FMYC-220311_189
+      - _美国_FMYC-220311_190
+      - FMYC-220311_191
+      - _美国_FMYC-220311_192
+      - _美国_FMYC-220311_193
+      - _美国_FMYC-220311_194
+      - _香港_FMYC-220311_195
+      - _美国_FMYC-220311_196
+      - _香港_FMYC-220311_197
+      - _香港_FMYC-220311_198
+      - _美国_FMYC-220311_199
+      - _美国_FMYC-220311_200
+      - _美国_FMYC-220311_201
+      - FMYC-220311_202
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_1
-      - tg频道：atbpjzx2_2
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_3
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_4
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_5
-      - tg频道：atbpjzx2_6
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_7
-      - tg频道：atbpjzx2_8
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_9
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_10
-      - tg频道：atbpjzx2_11
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_12
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_13
-      - tg频道：atbpjzx2_14
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_15
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_16
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_17
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_18
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_19
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_20
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_21
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_22
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_23
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_24
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_25
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_26
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_27
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_28
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_29
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_30
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_31
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_32
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_33
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_34
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_35
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_36
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_37
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_38
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_39
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_40
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_41
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_42
-      - tg频道：atbpjzx2_43
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_44
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_45
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_46
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_47
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_48
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_49
-      - tg频道：atbpjzx2_50
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_51
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_52
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_53
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_54
-      - tg频道：atbpjzx2_55
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_56
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_57
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_58
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_59
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_60
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_61
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_62
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_63
-      - tg频道：atbpjzx2_64
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_65
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_66
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_67
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_68
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_69
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_70
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_71
-      - tg频道：atbpjzx2_72
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_73
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_74
-      - 🇨🇳_CN_中国_tg频道：atbpjzx2_75
-      - tg频道：atbpjzx2_76
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_77
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_78
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_79
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_80
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_81
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_82
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_83
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_84
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_85
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_86
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_87
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_88
-      - tg频道：atbpjzx2_89
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_90
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_91
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_92
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_93
-      - tg频道：atbpjzx2_94
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_95
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_96
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_97
-      - tg频道：atbpjzx2_98
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_99
-      - tg频道：atbpjzx2_100
+      - _中国_FMYC-220311_1
+      - _中国_FMYC-220311_2
+      - _中国_FMYC-220311_3
+      - _中国_FMYC-220311_4
+      - _中国_FMYC-220311_5
+      - _印度_FMYC-220311_6
+      - _印度_FMYC-220311_7
+      - _中国_FMYC-220311_8
+      - _中国_FMYC-220311_9
+      - _中国_FMYC-220311_10
+      - _中国_FMYC-220311_11
+      - _中国_FMYC-220311_12
+      - _中国_FMYC-220311_13
+      - _中国_FMYC-220311_14
+      - _中国_FMYC-220311_15
+      - _中国_FMYC-220311_16
+      - _中国_FMYC-220311_17
+      - _新加坡_FMYC-220311_18
+      - _美国_FMYC-220311_19
+      - _美国_FMYC-220311_20
+      - _美国_FMYC-220311_21
+      - _法国_FMYC-220311_22
+      - _法国_FMYC-220311_23
+      - _法国_FMYC-220311_24
+      - _法国_FMYC-220311_25
+      - _澳大利亚_FMYC-220311_26
+      - _中国_FMYC-220311_27
+      - _中国_FMYC-220311_28
+      - _中国_FMYC-220311_29
+      - _中国_FMYC-220311_30
+      - _中国_FMYC-220311_31
+      - _美国_FMYC-220311_32
+      - _美国_FMYC-220311_33
+      - _美国_FMYC-220311_34
+      - _美国_FMYC-220311_35
+      - _美国_FMYC-220311_36
+      - _英国_FMYC-220311_37
+      - _英国_FMYC-220311_38
+      - _英国_FMYC-220311_39
+      - _英国_FMYC-220311_40
+      - _英国_FMYC-220311_41
+      - _英国_FMYC-220311_42
+      - _中国_FMYC-220311_43
+      - _英国_FMYC-220311_44
+      - _韩国_FMYC-220311_45
+      - _韩国_FMYC-220311_46
+      - _韩国_FMYC-220311_47
+      - _韩国_FMYC-220311_48
+      - _中国_FMYC-220311_49
+      - _香港_FMYC-220311_50
+      - _中国_FMYC-220311_51
+      - _香港_FMYC-220311_52
+      - _香港_FMYC-220311_53
+      - _香港_FMYC-220311_54
+      - _香港_FMYC-220311_55
+      - _香港_FMYC-220311_56
+      - _香港_FMYC-220311_57
+      - _新加坡_FMYC-220311_58
+      - _香港_FMYC-220311_59
+      - FMYC-220311_60
+      - _美国_FMYC-220311_61
+      - _美国_FMYC-220311_62
+      - _冰岛_FMYC-220311_63
+      - _加拿大_FMYC-220311_64
+      - _德国_FMYC-220311_65
+      - _德国_FMYC-220311_66
+      - _印度_FMYC-220311_67
+      - _新加坡_FMYC-220311_68
+      - _法国_FMYC-220311_69
+      - _德国_FMYC-220311_70
+      - _德国_FMYC-220311_71
+      - _前南马其顿_FMYC-220311_72
+      - _新加坡_FMYC-220311_73
+      - _新加坡_FMYC-220311_74
+      - _新加坡_FMYC-220311_75
+      - _新加坡_FMYC-220311_76
+      - _新加坡_FMYC-220311_77
+      - _新加坡_FMYC-220311_78
+      - _日本_FMYC-220311_79
+      - _日本_FMYC-220311_80
+      - _日本_FMYC-220311_81
+      - _新加坡_FMYC-220311_82
+      - _日本_FMYC-220311_83
+      - _日本_FMYC-220311_84
+      - _日本_FMYC-220311_85
+      - _日本_FMYC-220311_86
+      - _日本_FMYC-220311_87
+      - _日本_FMYC-220311_88
+      - _日本_FMYC-220311_89
+      - _日本_FMYC-220311_90
+      - _日本_FMYC-220311_91
+      - _日本_FMYC-220311_92
+      - _新加坡_FMYC-220311_93
+      - _美国_FMYC-220311_94
+      - _法国_FMYC-220311_95
+      - _法国_FMYC-220311_96
+      - _法国_FMYC-220311_97
+      - _法国_FMYC-220311_98
+      - _香港_FMYC-220311_99
+      - _香港_FMYC-220311_100
+      - _澳大利亚_FMYC-220311_101
+      - _香港_FMYC-220311_102
+      - _香港_FMYC-220311_103
+      - _香港_FMYC-220311_104
+      - _中国_FMYC-220311_105
+      - _中国_FMYC-220311_106
+      - _澳大利亚_FMYC-220311_107
+      - _香港_FMYC-220311_108
+      - _日本_FMYC-220311_109
+      - _澳大利亚_FMYC-220311_110
+      - _香港_FMYC-220311_111
+      - _香港_FMYC-220311_112
+      - _香港_FMYC-220311_113
+      - _香港_FMYC-220311_114
+      - _香港_FMYC-220311_115
+      - _香港_FMYC-220311_116
+      - _香港_FMYC-220311_117
+      - _香港_FMYC-220311_118
+      - _新加坡_FMYC-220311_119
+      - _香港_FMYC-220311_120
+      - _新加坡_FMYC-220311_121
+      - _瑞士_FMYC-220311_122
+      - _荷兰_FMYC-220311_123
+      - FMYC-220311_124
+      - _美国_FMYC-220311_125
+      - FMYC-220311_126
+      - _美国_FMYC-220311_127
+      - FMYC-220311_128
+      - _美国_FMYC-220311_129
+      - _美国_FMYC-220311_130
+      - _南非_FMYC-220311_131
+      - _美国_FMYC-220311_132
+      - _美国_FMYC-220311_133
+      - _日本_FMYC-220311_134
+      - _美国_FMYC-220311_135
+      - _美国_FMYC-220311_136
+      - _美国_FMYC-220311_137
+      - _美国_FMYC-220311_138
+      - _美国_FMYC-220311_139
+      - _美国_FMYC-220311_140
+      - _美国_FMYC-220311_141
+      - _美国_FMYC-220311_142
+      - _美国_FMYC-220311_143
+      - _美国_FMYC-220311_144
+      - _美国_FMYC-220311_145
+      - _美国_FMYC-220311_146
+      - _美国_FMYC-220311_147
+      - _美国_FMYC-220311_148
+      - _美国_FMYC-220311_149
+      - _美国_FMYC-220311_150
+      - _美国_FMYC-220311_151
+      - _美国_FMYC-220311_152
+      - _美国_FMYC-220311_153
+      - _美国_FMYC-220311_154
+      - _美国_FMYC-220311_155
+      - _美国_FMYC-220311_156
+      - _美国_FMYC-220311_157
+      - _美国_FMYC-220311_158
+      - _美国_FMYC-220311_159
+      - _荷兰_FMYC-220311_160
+      - _南非_FMYC-220311_161
+      - FMYC-220311_162
+      - _日本_FMYC-220311_163
+      - _美国_FMYC-220311_164
+      - _美国_FMYC-220311_165
+      - _美国_FMYC-220311_166
+      - _美国_FMYC-220311_167
+      - _荷兰_FMYC-220311_168
+      - _台湾_FMYC-220311_169
+      - _加拿大_FMYC-220311_170
+      - _美国_FMYC-220311_171
+      - _加拿大_FMYC-220311_172
+      - _加拿大_FMYC-220311_173
+      - _加拿大_FMYC-220311_174
+      - _加拿大_FMYC-220311_175
+      - _加拿大_FMYC-220311_176
+      - _加拿大_FMYC-220311_177
+      - _美国_FMYC-220311_178
+      - _印度_FMYC-220311_179
+      - _加拿大_FMYC-220311_180
+      - _加拿大_FMYC-220311_181
+      - _加拿大_FMYC-220311_182
+      - _加拿大_FMYC-220311_183
+      - _加拿大_FMYC-220311_184
+      - _香港_FMYC-220311_185
+      - _美国_FMYC-220311_186
+      - _香港_FMYC-220311_187
+      - _香港_FMYC-220311_188
+      - _香港_FMYC-220311_189
+      - _美国_FMYC-220311_190
+      - FMYC-220311_191
+      - _美国_FMYC-220311_192
+      - _美国_FMYC-220311_193
+      - _美国_FMYC-220311_194
+      - _香港_FMYC-220311_195
+      - _美国_FMYC-220311_196
+      - _香港_FMYC-220311_197
+      - _香港_FMYC-220311_198
+      - _美国_FMYC-220311_199
+      - _美国_FMYC-220311_200
+      - _美国_FMYC-220311_201
+      - FMYC-220311_202
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_1
-      - tg频道：atbpjzx2_2
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_3
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_4
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_5
-      - tg频道：atbpjzx2_6
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_7
-      - tg频道：atbpjzx2_8
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_9
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_10
-      - tg频道：atbpjzx2_11
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_12
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_13
-      - tg频道：atbpjzx2_14
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_15
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_16
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_17
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_18
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_19
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_20
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_21
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_22
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_23
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_24
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_25
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_26
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_27
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_28
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_29
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_30
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_31
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_32
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_33
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_34
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_35
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_36
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_37
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_38
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_39
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_40
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_41
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_42
-      - tg频道：atbpjzx2_43
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_44
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_45
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_46
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_47
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_48
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_49
-      - tg频道：atbpjzx2_50
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_51
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_52
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_53
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_54
-      - tg频道：atbpjzx2_55
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_56
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_57
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_58
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_59
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_60
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_61
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_62
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_63
-      - tg频道：atbpjzx2_64
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_65
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_66
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_67
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_68
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_69
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_70
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_71
-      - tg频道：atbpjzx2_72
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_73
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_74
-      - 🇨🇳_CN_中国_tg频道：atbpjzx2_75
-      - tg频道：atbpjzx2_76
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_77
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_78
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_79
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_80
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_81
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_82
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_83
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_84
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_85
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_86
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_87
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_88
-      - tg频道：atbpjzx2_89
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_90
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_91
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_92
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_93
-      - tg频道：atbpjzx2_94
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_95
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_96
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_97
-      - tg频道：atbpjzx2_98
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_99
-      - tg频道：atbpjzx2_100
+      - _中国_FMYC-220311_1
+      - _中国_FMYC-220311_2
+      - _中国_FMYC-220311_3
+      - _中国_FMYC-220311_4
+      - _中国_FMYC-220311_5
+      - _印度_FMYC-220311_6
+      - _印度_FMYC-220311_7
+      - _中国_FMYC-220311_8
+      - _中国_FMYC-220311_9
+      - _中国_FMYC-220311_10
+      - _中国_FMYC-220311_11
+      - _中国_FMYC-220311_12
+      - _中国_FMYC-220311_13
+      - _中国_FMYC-220311_14
+      - _中国_FMYC-220311_15
+      - _中国_FMYC-220311_16
+      - _中国_FMYC-220311_17
+      - _新加坡_FMYC-220311_18
+      - _美国_FMYC-220311_19
+      - _美国_FMYC-220311_20
+      - _美国_FMYC-220311_21
+      - _法国_FMYC-220311_22
+      - _法国_FMYC-220311_23
+      - _法国_FMYC-220311_24
+      - _法国_FMYC-220311_25
+      - _澳大利亚_FMYC-220311_26
+      - _中国_FMYC-220311_27
+      - _中国_FMYC-220311_28
+      - _中国_FMYC-220311_29
+      - _中国_FMYC-220311_30
+      - _中国_FMYC-220311_31
+      - _美国_FMYC-220311_32
+      - _美国_FMYC-220311_33
+      - _美国_FMYC-220311_34
+      - _美国_FMYC-220311_35
+      - _美国_FMYC-220311_36
+      - _英国_FMYC-220311_37
+      - _英国_FMYC-220311_38
+      - _英国_FMYC-220311_39
+      - _英国_FMYC-220311_40
+      - _英国_FMYC-220311_41
+      - _英国_FMYC-220311_42
+      - _中国_FMYC-220311_43
+      - _英国_FMYC-220311_44
+      - _韩国_FMYC-220311_45
+      - _韩国_FMYC-220311_46
+      - _韩国_FMYC-220311_47
+      - _韩国_FMYC-220311_48
+      - _中国_FMYC-220311_49
+      - _香港_FMYC-220311_50
+      - _中国_FMYC-220311_51
+      - _香港_FMYC-220311_52
+      - _香港_FMYC-220311_53
+      - _香港_FMYC-220311_54
+      - _香港_FMYC-220311_55
+      - _香港_FMYC-220311_56
+      - _香港_FMYC-220311_57
+      - _新加坡_FMYC-220311_58
+      - _香港_FMYC-220311_59
+      - FMYC-220311_60
+      - _美国_FMYC-220311_61
+      - _美国_FMYC-220311_62
+      - _冰岛_FMYC-220311_63
+      - _加拿大_FMYC-220311_64
+      - _德国_FMYC-220311_65
+      - _德国_FMYC-220311_66
+      - _印度_FMYC-220311_67
+      - _新加坡_FMYC-220311_68
+      - _法国_FMYC-220311_69
+      - _德国_FMYC-220311_70
+      - _德国_FMYC-220311_71
+      - _前南马其顿_FMYC-220311_72
+      - _新加坡_FMYC-220311_73
+      - _新加坡_FMYC-220311_74
+      - _新加坡_FMYC-220311_75
+      - _新加坡_FMYC-220311_76
+      - _新加坡_FMYC-220311_77
+      - _新加坡_FMYC-220311_78
+      - _日本_FMYC-220311_79
+      - _日本_FMYC-220311_80
+      - _日本_FMYC-220311_81
+      - _新加坡_FMYC-220311_82
+      - _日本_FMYC-220311_83
+      - _日本_FMYC-220311_84
+      - _日本_FMYC-220311_85
+      - _日本_FMYC-220311_86
+      - _日本_FMYC-220311_87
+      - _日本_FMYC-220311_88
+      - _日本_FMYC-220311_89
+      - _日本_FMYC-220311_90
+      - _日本_FMYC-220311_91
+      - _日本_FMYC-220311_92
+      - _新加坡_FMYC-220311_93
+      - _美国_FMYC-220311_94
+      - _法国_FMYC-220311_95
+      - _法国_FMYC-220311_96
+      - _法国_FMYC-220311_97
+      - _法国_FMYC-220311_98
+      - _香港_FMYC-220311_99
+      - _香港_FMYC-220311_100
+      - _澳大利亚_FMYC-220311_101
+      - _香港_FMYC-220311_102
+      - _香港_FMYC-220311_103
+      - _香港_FMYC-220311_104
+      - _中国_FMYC-220311_105
+      - _中国_FMYC-220311_106
+      - _澳大利亚_FMYC-220311_107
+      - _香港_FMYC-220311_108
+      - _日本_FMYC-220311_109
+      - _澳大利亚_FMYC-220311_110
+      - _香港_FMYC-220311_111
+      - _香港_FMYC-220311_112
+      - _香港_FMYC-220311_113
+      - _香港_FMYC-220311_114
+      - _香港_FMYC-220311_115
+      - _香港_FMYC-220311_116
+      - _香港_FMYC-220311_117
+      - _香港_FMYC-220311_118
+      - _新加坡_FMYC-220311_119
+      - _香港_FMYC-220311_120
+      - _新加坡_FMYC-220311_121
+      - _瑞士_FMYC-220311_122
+      - _荷兰_FMYC-220311_123
+      - FMYC-220311_124
+      - _美国_FMYC-220311_125
+      - FMYC-220311_126
+      - _美国_FMYC-220311_127
+      - FMYC-220311_128
+      - _美国_FMYC-220311_129
+      - _美国_FMYC-220311_130
+      - _南非_FMYC-220311_131
+      - _美国_FMYC-220311_132
+      - _美国_FMYC-220311_133
+      - _日本_FMYC-220311_134
+      - _美国_FMYC-220311_135
+      - _美国_FMYC-220311_136
+      - _美国_FMYC-220311_137
+      - _美国_FMYC-220311_138
+      - _美国_FMYC-220311_139
+      - _美国_FMYC-220311_140
+      - _美国_FMYC-220311_141
+      - _美国_FMYC-220311_142
+      - _美国_FMYC-220311_143
+      - _美国_FMYC-220311_144
+      - _美国_FMYC-220311_145
+      - _美国_FMYC-220311_146
+      - _美国_FMYC-220311_147
+      - _美国_FMYC-220311_148
+      - _美国_FMYC-220311_149
+      - _美国_FMYC-220311_150
+      - _美国_FMYC-220311_151
+      - _美国_FMYC-220311_152
+      - _美国_FMYC-220311_153
+      - _美国_FMYC-220311_154
+      - _美国_FMYC-220311_155
+      - _美国_FMYC-220311_156
+      - _美国_FMYC-220311_157
+      - _美国_FMYC-220311_158
+      - _美国_FMYC-220311_159
+      - _荷兰_FMYC-220311_160
+      - _南非_FMYC-220311_161
+      - FMYC-220311_162
+      - _日本_FMYC-220311_163
+      - _美国_FMYC-220311_164
+      - _美国_FMYC-220311_165
+      - _美国_FMYC-220311_166
+      - _美国_FMYC-220311_167
+      - _荷兰_FMYC-220311_168
+      - _台湾_FMYC-220311_169
+      - _加拿大_FMYC-220311_170
+      - _美国_FMYC-220311_171
+      - _加拿大_FMYC-220311_172
+      - _加拿大_FMYC-220311_173
+      - _加拿大_FMYC-220311_174
+      - _加拿大_FMYC-220311_175
+      - _加拿大_FMYC-220311_176
+      - _加拿大_FMYC-220311_177
+      - _美国_FMYC-220311_178
+      - _印度_FMYC-220311_179
+      - _加拿大_FMYC-220311_180
+      - _加拿大_FMYC-220311_181
+      - _加拿大_FMYC-220311_182
+      - _加拿大_FMYC-220311_183
+      - _加拿大_FMYC-220311_184
+      - _香港_FMYC-220311_185
+      - _美国_FMYC-220311_186
+      - _香港_FMYC-220311_187
+      - _香港_FMYC-220311_188
+      - _香港_FMYC-220311_189
+      - _美国_FMYC-220311_190
+      - FMYC-220311_191
+      - _美国_FMYC-220311_192
+      - _美国_FMYC-220311_193
+      - _美国_FMYC-220311_194
+      - _香港_FMYC-220311_195
+      - _美国_FMYC-220311_196
+      - _香港_FMYC-220311_197
+      - _香港_FMYC-220311_198
+      - _美国_FMYC-220311_199
+      - _美国_FMYC-220311_200
+      - _美国_FMYC-220311_201
+      - FMYC-220311_202
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_1
-      - tg频道：atbpjzx2_2
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_3
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_4
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_5
-      - tg频道：atbpjzx2_6
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_7
-      - tg频道：atbpjzx2_8
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_9
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_10
-      - tg频道：atbpjzx2_11
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_12
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_13
-      - tg频道：atbpjzx2_14
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_15
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_16
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_17
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_18
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_19
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_20
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_21
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_22
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_23
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_24
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_25
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_26
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_27
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_28
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_29
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_30
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_31
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_32
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_33
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_34
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_35
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_36
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_37
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_38
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_39
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_40
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_41
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_42
-      - tg频道：atbpjzx2_43
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_44
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_45
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_46
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_47
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_48
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_49
-      - tg频道：atbpjzx2_50
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_51
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_52
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_53
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_54
-      - tg频道：atbpjzx2_55
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_56
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_57
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_58
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_59
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_60
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_61
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_62
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_63
-      - tg频道：atbpjzx2_64
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_65
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_66
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_67
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_68
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_69
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_70
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_71
-      - tg频道：atbpjzx2_72
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_73
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_74
-      - 🇨🇳_CN_中国_tg频道：atbpjzx2_75
-      - tg频道：atbpjzx2_76
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_77
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_78
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_79
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_80
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_81
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_82
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_83
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_84
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_85
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_86
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_87
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_88
-      - tg频道：atbpjzx2_89
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_90
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_91
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_92
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_93
-      - tg频道：atbpjzx2_94
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_95
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_96
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_97
-      - tg频道：atbpjzx2_98
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_99
-      - tg频道：atbpjzx2_100
+      - _中国_FMYC-220311_1
+      - _中国_FMYC-220311_2
+      - _中国_FMYC-220311_3
+      - _中国_FMYC-220311_4
+      - _中国_FMYC-220311_5
+      - _印度_FMYC-220311_6
+      - _印度_FMYC-220311_7
+      - _中国_FMYC-220311_8
+      - _中国_FMYC-220311_9
+      - _中国_FMYC-220311_10
+      - _中国_FMYC-220311_11
+      - _中国_FMYC-220311_12
+      - _中国_FMYC-220311_13
+      - _中国_FMYC-220311_14
+      - _中国_FMYC-220311_15
+      - _中国_FMYC-220311_16
+      - _中国_FMYC-220311_17
+      - _新加坡_FMYC-220311_18
+      - _美国_FMYC-220311_19
+      - _美国_FMYC-220311_20
+      - _美国_FMYC-220311_21
+      - _法国_FMYC-220311_22
+      - _法国_FMYC-220311_23
+      - _法国_FMYC-220311_24
+      - _法国_FMYC-220311_25
+      - _澳大利亚_FMYC-220311_26
+      - _中国_FMYC-220311_27
+      - _中国_FMYC-220311_28
+      - _中国_FMYC-220311_29
+      - _中国_FMYC-220311_30
+      - _中国_FMYC-220311_31
+      - _美国_FMYC-220311_32
+      - _美国_FMYC-220311_33
+      - _美国_FMYC-220311_34
+      - _美国_FMYC-220311_35
+      - _美国_FMYC-220311_36
+      - _英国_FMYC-220311_37
+      - _英国_FMYC-220311_38
+      - _英国_FMYC-220311_39
+      - _英国_FMYC-220311_40
+      - _英国_FMYC-220311_41
+      - _英国_FMYC-220311_42
+      - _中国_FMYC-220311_43
+      - _英国_FMYC-220311_44
+      - _韩国_FMYC-220311_45
+      - _韩国_FMYC-220311_46
+      - _韩国_FMYC-220311_47
+      - _韩国_FMYC-220311_48
+      - _中国_FMYC-220311_49
+      - _香港_FMYC-220311_50
+      - _中国_FMYC-220311_51
+      - _香港_FMYC-220311_52
+      - _香港_FMYC-220311_53
+      - _香港_FMYC-220311_54
+      - _香港_FMYC-220311_55
+      - _香港_FMYC-220311_56
+      - _香港_FMYC-220311_57
+      - _新加坡_FMYC-220311_58
+      - _香港_FMYC-220311_59
+      - FMYC-220311_60
+      - _美国_FMYC-220311_61
+      - _美国_FMYC-220311_62
+      - _冰岛_FMYC-220311_63
+      - _加拿大_FMYC-220311_64
+      - _德国_FMYC-220311_65
+      - _德国_FMYC-220311_66
+      - _印度_FMYC-220311_67
+      - _新加坡_FMYC-220311_68
+      - _法国_FMYC-220311_69
+      - _德国_FMYC-220311_70
+      - _德国_FMYC-220311_71
+      - _前南马其顿_FMYC-220311_72
+      - _新加坡_FMYC-220311_73
+      - _新加坡_FMYC-220311_74
+      - _新加坡_FMYC-220311_75
+      - _新加坡_FMYC-220311_76
+      - _新加坡_FMYC-220311_77
+      - _新加坡_FMYC-220311_78
+      - _日本_FMYC-220311_79
+      - _日本_FMYC-220311_80
+      - _日本_FMYC-220311_81
+      - _新加坡_FMYC-220311_82
+      - _日本_FMYC-220311_83
+      - _日本_FMYC-220311_84
+      - _日本_FMYC-220311_85
+      - _日本_FMYC-220311_86
+      - _日本_FMYC-220311_87
+      - _日本_FMYC-220311_88
+      - _日本_FMYC-220311_89
+      - _日本_FMYC-220311_90
+      - _日本_FMYC-220311_91
+      - _日本_FMYC-220311_92
+      - _新加坡_FMYC-220311_93
+      - _美国_FMYC-220311_94
+      - _法国_FMYC-220311_95
+      - _法国_FMYC-220311_96
+      - _法国_FMYC-220311_97
+      - _法国_FMYC-220311_98
+      - _香港_FMYC-220311_99
+      - _香港_FMYC-220311_100
+      - _澳大利亚_FMYC-220311_101
+      - _香港_FMYC-220311_102
+      - _香港_FMYC-220311_103
+      - _香港_FMYC-220311_104
+      - _中国_FMYC-220311_105
+      - _中国_FMYC-220311_106
+      - _澳大利亚_FMYC-220311_107
+      - _香港_FMYC-220311_108
+      - _日本_FMYC-220311_109
+      - _澳大利亚_FMYC-220311_110
+      - _香港_FMYC-220311_111
+      - _香港_FMYC-220311_112
+      - _香港_FMYC-220311_113
+      - _香港_FMYC-220311_114
+      - _香港_FMYC-220311_115
+      - _香港_FMYC-220311_116
+      - _香港_FMYC-220311_117
+      - _香港_FMYC-220311_118
+      - _新加坡_FMYC-220311_119
+      - _香港_FMYC-220311_120
+      - _新加坡_FMYC-220311_121
+      - _瑞士_FMYC-220311_122
+      - _荷兰_FMYC-220311_123
+      - FMYC-220311_124
+      - _美国_FMYC-220311_125
+      - FMYC-220311_126
+      - _美国_FMYC-220311_127
+      - FMYC-220311_128
+      - _美国_FMYC-220311_129
+      - _美国_FMYC-220311_130
+      - _南非_FMYC-220311_131
+      - _美国_FMYC-220311_132
+      - _美国_FMYC-220311_133
+      - _日本_FMYC-220311_134
+      - _美国_FMYC-220311_135
+      - _美国_FMYC-220311_136
+      - _美国_FMYC-220311_137
+      - _美国_FMYC-220311_138
+      - _美国_FMYC-220311_139
+      - _美国_FMYC-220311_140
+      - _美国_FMYC-220311_141
+      - _美国_FMYC-220311_142
+      - _美国_FMYC-220311_143
+      - _美国_FMYC-220311_144
+      - _美国_FMYC-220311_145
+      - _美国_FMYC-220311_146
+      - _美国_FMYC-220311_147
+      - _美国_FMYC-220311_148
+      - _美国_FMYC-220311_149
+      - _美国_FMYC-220311_150
+      - _美国_FMYC-220311_151
+      - _美国_FMYC-220311_152
+      - _美国_FMYC-220311_153
+      - _美国_FMYC-220311_154
+      - _美国_FMYC-220311_155
+      - _美国_FMYC-220311_156
+      - _美国_FMYC-220311_157
+      - _美国_FMYC-220311_158
+      - _美国_FMYC-220311_159
+      - _荷兰_FMYC-220311_160
+      - _南非_FMYC-220311_161
+      - FMYC-220311_162
+      - _日本_FMYC-220311_163
+      - _美国_FMYC-220311_164
+      - _美国_FMYC-220311_165
+      - _美国_FMYC-220311_166
+      - _美国_FMYC-220311_167
+      - _荷兰_FMYC-220311_168
+      - _台湾_FMYC-220311_169
+      - _加拿大_FMYC-220311_170
+      - _美国_FMYC-220311_171
+      - _加拿大_FMYC-220311_172
+      - _加拿大_FMYC-220311_173
+      - _加拿大_FMYC-220311_174
+      - _加拿大_FMYC-220311_175
+      - _加拿大_FMYC-220311_176
+      - _加拿大_FMYC-220311_177
+      - _美国_FMYC-220311_178
+      - _印度_FMYC-220311_179
+      - _加拿大_FMYC-220311_180
+      - _加拿大_FMYC-220311_181
+      - _加拿大_FMYC-220311_182
+      - _加拿大_FMYC-220311_183
+      - _加拿大_FMYC-220311_184
+      - _香港_FMYC-220311_185
+      - _美国_FMYC-220311_186
+      - _香港_FMYC-220311_187
+      - _香港_FMYC-220311_188
+      - _香港_FMYC-220311_189
+      - _美国_FMYC-220311_190
+      - FMYC-220311_191
+      - _美国_FMYC-220311_192
+      - _美国_FMYC-220311_193
+      - _美国_FMYC-220311_194
+      - _香港_FMYC-220311_195
+      - _美国_FMYC-220311_196
+      - _香港_FMYC-220311_197
+      - _香港_FMYC-220311_198
+      - _美国_FMYC-220311_199
+      - _美国_FMYC-220311_200
+      - _美国_FMYC-220311_201
+      - FMYC-220311_202
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -760,106 +1474,208 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_1
-      - tg频道：atbpjzx2_2
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_3
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_4
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_5
-      - tg频道：atbpjzx2_6
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_7
-      - tg频道：atbpjzx2_8
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_9
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_10
-      - tg频道：atbpjzx2_11
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_12
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_13
-      - tg频道：atbpjzx2_14
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_15
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_16
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_17
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_18
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_19
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_20
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_21
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_22
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_23
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_24
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_25
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_26
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_27
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_28
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_29
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_30
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_31
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_32
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_33
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_34
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_35
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_36
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_37
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_38
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_39
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_40
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_41
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_42
-      - tg频道：atbpjzx2_43
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_44
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_45
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_46
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_47
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_48
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_49
-      - tg频道：atbpjzx2_50
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_51
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_52
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_53
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_54
-      - tg频道：atbpjzx2_55
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_56
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_57
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_58
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_59
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_60
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_61
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_62
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_63
-      - tg频道：atbpjzx2_64
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_65
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_66
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_67
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_68
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_69
-      - 🇫🇷_FR_法国_tg频道：atbpjzx2_70
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_71
-      - tg频道：atbpjzx2_72
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_73
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_74
-      - 🇨🇳_CN_中国_tg频道：atbpjzx2_75
-      - tg频道：atbpjzx2_76
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_77
-      - 🇳🇱_NL_荷兰_tg频道：atbpjzx2_78
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_79
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_80
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_81
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_82
-      - 🇺🇸_US_美国_tg频道：atbpjzx2_83
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_84
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_85
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_86
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_87
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_88
-      - tg频道：atbpjzx2_89
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_90
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_91
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_92
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_93
-      - tg频道：atbpjzx2_94
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_95
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_96
-      - 🇨🇦_CA_加拿大_tg频道：atbpjzx2_97
-      - tg频道：atbpjzx2_98
-      - 🇬🇧_GB_英国_tg频道：atbpjzx2_99
-      - tg频道：atbpjzx2_100
+      - _中国_FMYC-220311_1
+      - _中国_FMYC-220311_2
+      - _中国_FMYC-220311_3
+      - _中国_FMYC-220311_4
+      - _中国_FMYC-220311_5
+      - _印度_FMYC-220311_6
+      - _印度_FMYC-220311_7
+      - _中国_FMYC-220311_8
+      - _中国_FMYC-220311_9
+      - _中国_FMYC-220311_10
+      - _中国_FMYC-220311_11
+      - _中国_FMYC-220311_12
+      - _中国_FMYC-220311_13
+      - _中国_FMYC-220311_14
+      - _中国_FMYC-220311_15
+      - _中国_FMYC-220311_16
+      - _中国_FMYC-220311_17
+      - _新加坡_FMYC-220311_18
+      - _美国_FMYC-220311_19
+      - _美国_FMYC-220311_20
+      - _美国_FMYC-220311_21
+      - _法国_FMYC-220311_22
+      - _法国_FMYC-220311_23
+      - _法国_FMYC-220311_24
+      - _法国_FMYC-220311_25
+      - _澳大利亚_FMYC-220311_26
+      - _中国_FMYC-220311_27
+      - _中国_FMYC-220311_28
+      - _中国_FMYC-220311_29
+      - _中国_FMYC-220311_30
+      - _中国_FMYC-220311_31
+      - _美国_FMYC-220311_32
+      - _美国_FMYC-220311_33
+      - _美国_FMYC-220311_34
+      - _美国_FMYC-220311_35
+      - _美国_FMYC-220311_36
+      - _英国_FMYC-220311_37
+      - _英国_FMYC-220311_38
+      - _英国_FMYC-220311_39
+      - _英国_FMYC-220311_40
+      - _英国_FMYC-220311_41
+      - _英国_FMYC-220311_42
+      - _中国_FMYC-220311_43
+      - _英国_FMYC-220311_44
+      - _韩国_FMYC-220311_45
+      - _韩国_FMYC-220311_46
+      - _韩国_FMYC-220311_47
+      - _韩国_FMYC-220311_48
+      - _中国_FMYC-220311_49
+      - _香港_FMYC-220311_50
+      - _中国_FMYC-220311_51
+      - _香港_FMYC-220311_52
+      - _香港_FMYC-220311_53
+      - _香港_FMYC-220311_54
+      - _香港_FMYC-220311_55
+      - _香港_FMYC-220311_56
+      - _香港_FMYC-220311_57
+      - _新加坡_FMYC-220311_58
+      - _香港_FMYC-220311_59
+      - FMYC-220311_60
+      - _美国_FMYC-220311_61
+      - _美国_FMYC-220311_62
+      - _冰岛_FMYC-220311_63
+      - _加拿大_FMYC-220311_64
+      - _德国_FMYC-220311_65
+      - _德国_FMYC-220311_66
+      - _印度_FMYC-220311_67
+      - _新加坡_FMYC-220311_68
+      - _法国_FMYC-220311_69
+      - _德国_FMYC-220311_70
+      - _德国_FMYC-220311_71
+      - _前南马其顿_FMYC-220311_72
+      - _新加坡_FMYC-220311_73
+      - _新加坡_FMYC-220311_74
+      - _新加坡_FMYC-220311_75
+      - _新加坡_FMYC-220311_76
+      - _新加坡_FMYC-220311_77
+      - _新加坡_FMYC-220311_78
+      - _日本_FMYC-220311_79
+      - _日本_FMYC-220311_80
+      - _日本_FMYC-220311_81
+      - _新加坡_FMYC-220311_82
+      - _日本_FMYC-220311_83
+      - _日本_FMYC-220311_84
+      - _日本_FMYC-220311_85
+      - _日本_FMYC-220311_86
+      - _日本_FMYC-220311_87
+      - _日本_FMYC-220311_88
+      - _日本_FMYC-220311_89
+      - _日本_FMYC-220311_90
+      - _日本_FMYC-220311_91
+      - _日本_FMYC-220311_92
+      - _新加坡_FMYC-220311_93
+      - _美国_FMYC-220311_94
+      - _法国_FMYC-220311_95
+      - _法国_FMYC-220311_96
+      - _法国_FMYC-220311_97
+      - _法国_FMYC-220311_98
+      - _香港_FMYC-220311_99
+      - _香港_FMYC-220311_100
+      - _澳大利亚_FMYC-220311_101
+      - _香港_FMYC-220311_102
+      - _香港_FMYC-220311_103
+      - _香港_FMYC-220311_104
+      - _中国_FMYC-220311_105
+      - _中国_FMYC-220311_106
+      - _澳大利亚_FMYC-220311_107
+      - _香港_FMYC-220311_108
+      - _日本_FMYC-220311_109
+      - _澳大利亚_FMYC-220311_110
+      - _香港_FMYC-220311_111
+      - _香港_FMYC-220311_112
+      - _香港_FMYC-220311_113
+      - _香港_FMYC-220311_114
+      - _香港_FMYC-220311_115
+      - _香港_FMYC-220311_116
+      - _香港_FMYC-220311_117
+      - _香港_FMYC-220311_118
+      - _新加坡_FMYC-220311_119
+      - _香港_FMYC-220311_120
+      - _新加坡_FMYC-220311_121
+      - _瑞士_FMYC-220311_122
+      - _荷兰_FMYC-220311_123
+      - FMYC-220311_124
+      - _美国_FMYC-220311_125
+      - FMYC-220311_126
+      - _美国_FMYC-220311_127
+      - FMYC-220311_128
+      - _美国_FMYC-220311_129
+      - _美国_FMYC-220311_130
+      - _南非_FMYC-220311_131
+      - _美国_FMYC-220311_132
+      - _美国_FMYC-220311_133
+      - _日本_FMYC-220311_134
+      - _美国_FMYC-220311_135
+      - _美国_FMYC-220311_136
+      - _美国_FMYC-220311_137
+      - _美国_FMYC-220311_138
+      - _美国_FMYC-220311_139
+      - _美国_FMYC-220311_140
+      - _美国_FMYC-220311_141
+      - _美国_FMYC-220311_142
+      - _美国_FMYC-220311_143
+      - _美国_FMYC-220311_144
+      - _美国_FMYC-220311_145
+      - _美国_FMYC-220311_146
+      - _美国_FMYC-220311_147
+      - _美国_FMYC-220311_148
+      - _美国_FMYC-220311_149
+      - _美国_FMYC-220311_150
+      - _美国_FMYC-220311_151
+      - _美国_FMYC-220311_152
+      - _美国_FMYC-220311_153
+      - _美国_FMYC-220311_154
+      - _美国_FMYC-220311_155
+      - _美国_FMYC-220311_156
+      - _美国_FMYC-220311_157
+      - _美国_FMYC-220311_158
+      - _美国_FMYC-220311_159
+      - _荷兰_FMYC-220311_160
+      - _南非_FMYC-220311_161
+      - FMYC-220311_162
+      - _日本_FMYC-220311_163
+      - _美国_FMYC-220311_164
+      - _美国_FMYC-220311_165
+      - _美国_FMYC-220311_166
+      - _美国_FMYC-220311_167
+      - _荷兰_FMYC-220311_168
+      - _台湾_FMYC-220311_169
+      - _加拿大_FMYC-220311_170
+      - _美国_FMYC-220311_171
+      - _加拿大_FMYC-220311_172
+      - _加拿大_FMYC-220311_173
+      - _加拿大_FMYC-220311_174
+      - _加拿大_FMYC-220311_175
+      - _加拿大_FMYC-220311_176
+      - _加拿大_FMYC-220311_177
+      - _美国_FMYC-220311_178
+      - _印度_FMYC-220311_179
+      - _加拿大_FMYC-220311_180
+      - _加拿大_FMYC-220311_181
+      - _加拿大_FMYC-220311_182
+      - _加拿大_FMYC-220311_183
+      - _加拿大_FMYC-220311_184
+      - _香港_FMYC-220311_185
+      - _美国_FMYC-220311_186
+      - _香港_FMYC-220311_187
+      - _香港_FMYC-220311_188
+      - _香港_FMYC-220311_189
+      - _美国_FMYC-220311_190
+      - FMYC-220311_191
+      - _美国_FMYC-220311_192
+      - _美国_FMYC-220311_193
+      - _美国_FMYC-220311_194
+      - _香港_FMYC-220311_195
+      - _美国_FMYC-220311_196
+      - _香港_FMYC-220311_197
+      - _香港_FMYC-220311_198
+      - _美国_FMYC-220311_199
+      - _美国_FMYC-220311_200
+      - _美国_FMYC-220311_201
+      - FMYC-220311_202
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
