@@ -5,74 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇳🇱_NL_荷兰_1","server":"154.84.1.198","port":443,"type":"vmess","uuid":"743bdc87-1dea-41bf-aa0b-51dfbbfec8aa","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/path/080331123005","headers":{"host":"www.54872833.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.68","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇭🇰_HK_香港_3","server":"13.70.56.108","port":11172,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"mrjgsYsfaXLp"}
-  - {"name":"🇺🇸_US_美国_4","server":"169.197.142.99","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇭🇰_HK_香港_5","server":"13.70.56.108","port":11172,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"mrjgsYsfaXLp"}
+  - {"name":"🇭🇰_HK_香港->🇺🇸_US_美国_1","server":"az01.thenodemoon365.xyz","port":20002,"type":"ss","cipher":"aes-256-gcm","password":"f5937a46-7fb1-480f-95d5-abe8f1dad53f"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇳🇱_NL_荷兰_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_4
-      - 🇭🇰_HK_香港_5
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇳🇱_NL_荷兰_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_4
-      - 🇭🇰_HK_香港_5
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_4
-      - 🇭🇰_HK_香港_5
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_4
-      - 🇭🇰_HK_香港_5
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_4
-      - 🇭🇰_HK_香港_5
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_4
-      - 🇭🇰_HK_香港_5
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,11 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_4
-      - 🇭🇰_HK_香港_5
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
