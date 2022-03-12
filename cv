@@ -5,106 +5,51 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CA_加拿大_1, server: 134.195.196.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大_2, server: 134.195.196.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国->🇫🇷_FR_法国_3, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shuier}, udp: true}
-  - {name: _CA_加拿大_4, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_5, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大_6, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: default_name_7, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
-  - {name: _CA_加拿大_8, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_9, server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _FR_法国_10, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_11, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国_12, server: app.ssfree.ru, port: 443, type: vmess, uuid: 4fe71476-a154-11ec-a740-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: _CA_加拿大_13, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国_14, server: test.0dc.cn, port: 443, type: vmess, uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: test.0dc.cn}}, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_15, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
-  - {name: _FR_法国_16, server: 51.255.66.185, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大_17, server: 134.195.196.3, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_18, server: 134.195.196.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大_19, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大_20, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大_21, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大_22, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _FR_法国_23, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _FR_法国_24, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国_25, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_26, server: 134.195.196.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_27, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_28, server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _GB_英国_29, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大_30, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _IN_印度_31, server: 172.105.39.228, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_32, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大_33, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _GB_英国_34, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大_35, server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大_36, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大_37, server: 134.195.196.81, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_38, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_39, server: 134.195.196.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_40, server: 134.195.196.3, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_41, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大_42, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _GB_英国_43, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大_44, server: 134.195.196.3, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国_45, server: my.aoyyds.ga, port: 8443, type: vmess, uuid: e230dabd-7152-3c22-c9e5-79c84fb76236, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xsqfvws, headers: {Host: my.aoyyds.ga}}, udp: true}
-  - {name: _CA_加拿大_46, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大_47, server: 134.195.196.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大_48, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _FR_法国_49, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大_50, server: 134.195.196.81, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_51, server: 134.195.196.81, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_52, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_53, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_54, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大_55, server: 134.195.196.3, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大_56, server: 134.195.196.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大_57, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大_58, server: 134.195.196.3, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大_59, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大_60, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_61, server: 134.195.196.3, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_62, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_63, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: _CA_加拿大_64, server: 134.195.196.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大_65, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国_66, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大_67, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国_68, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _GB_英国_69, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国_70, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大_71, server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国_72, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大_73, server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _GB_英国_74, server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大_75, server: 134.195.196.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_76, server: 134.195.196.3, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大_77, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国_78, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: _CA_加拿大_79, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大_80, server: 134.195.196.3, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大_81, server: 134.195.196.81, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大_82, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大_83, server: 134.195.196.81, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_84, server: 134.195.196.81, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大_85, server: 134.195.196.81, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大_86, server: 134.195.196.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大_87, server: 134.195.196.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大_88, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_89, server: 134.195.196.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大_90, server: 134.195.196.81, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国_91, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国_92, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大_93, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大_94, server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_95, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_96, server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_97, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大_98, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大_99, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大_100, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大_1, server: 134.195.196.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国->🇫🇷_FR_法国_2, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shuier}, udp: true}
+  - {name: _CA_加拿大_3, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_4, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: default_name_5, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
+  - {name: _CA_加拿大_6, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_7, server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大_8, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_9, server: app.ssfree.ru, port: 443, type: vmess, uuid: 4fe71476-a154-11ec-a740-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: _CA_加拿大_10, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_11, server: test.0dc.cn, port: 443, type: vmess, uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: test.0dc.cn}}, udp: true}
+  - {name: _CA_加拿大_12, server: 134.195.196.3, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_13, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大_14, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _IN_印度_15, server: 172.105.39.228, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_16, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大_17, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_18, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大_19, server: 134.195.196.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_20, server: 134.195.196.3, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_21, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _GB_英国_22, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_23, server: my.aoyyds.ga, port: 8443, type: vmess, uuid: e230dabd-7152-3c22-c9e5-79c84fb76236, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xsqfvws, headers: {Host: my.aoyyds.ga}}, udp: true}
+  - {name: _CA_加拿大_24, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大_25, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大_26, server: 134.195.196.81, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_27, server: 134.195.196.81, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_28, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大_29, server: 134.195.196.3, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_30, server: 134.195.196.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_31, server: 134.195.196.3, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_32, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: _CA_加拿大_33, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_34, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大_35, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_36, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_37, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_38, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_39, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_40, server: 134.195.196.3, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大_41, server: 134.195.196.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_42, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_43, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大_44, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大_45, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: cu.chashao.buzz, port: 21213, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
@@ -1382,105 +1327,50 @@ proxy-groups:
     type: select
     proxies:
       - _CA_加拿大_1
-      - _CA_加拿大_2
-      - _US_美国->🇫🇷_FR_法国_3
+      - _US_美国->🇫🇷_FR_法国_2
+      - _CA_加拿大_3
       - _CA_加拿大_4
-      - _CA_加拿大_5
+      - default_name_5
       - _CA_加拿大_6
-      - default_name_7
+      - _CA_加拿大_7
       - _CA_加拿大_8
-      - _CA_加拿大_9
-      - _FR_法国_10
-      - _CA_加拿大_11
-      - _US_美国_12
+      - _US_美国_9
+      - _CA_加拿大_10
+      - _US_美国_11
+      - _CA_加拿大_12
       - _CA_加拿大_13
-      - _US_美国_14
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_15
-      - _FR_法国_16
+      - _CA_加拿大_14
+      - _IN_印度_15
+      - _CA_加拿大_16
       - _CA_加拿大_17
       - _CA_加拿大_18
       - _CA_加拿大_19
       - _CA_加拿大_20
       - _CA_加拿大_21
-      - _CA_加拿大_22
-      - _FR_法国_23
-      - _FR_法国_24
-      - _US_美国_25
+      - _GB_英国_22
+      - _US_美国_23
+      - _CA_加拿大_24
+      - _CA_加拿大_25
       - _CA_加拿大_26
       - _CA_加拿大_27
       - _CA_加拿大_28
-      - _GB_英国_29
+      - _CA_加拿大_29
       - _CA_加拿大_30
-      - _IN_印度_31
-      - _CA_加拿大_32
+      - _CA_加拿大_31
+      - _US_美国_32
       - _CA_加拿大_33
-      - _GB_英国_34
+      - _US_美国_34
       - _CA_加拿大_35
-      - _CA_加拿大_36
-      - _CA_加拿大_37
+      - _US_美国_36
+      - _US_美国_37
       - _CA_加拿大_38
       - _CA_加拿大_39
       - _CA_加拿大_40
       - _CA_加拿大_41
-      - _CA_加拿大_42
-      - _GB_英国_43
+      - _US_美国_42
+      - _US_美国_43
       - _CA_加拿大_44
-      - _US_美国_45
-      - _CA_加拿大_46
-      - _CA_加拿大_47
-      - _CA_加拿大_48
-      - _FR_法国_49
-      - _CA_加拿大_50
-      - _CA_加拿大_51
-      - _CA_加拿大_52
-      - _US_美国_53
-      - _CA_加拿大_54
-      - _CA_加拿大_55
-      - _CA_加拿大_56
-      - _CA_加拿大_57
-      - _CA_加拿大_58
-      - _CA_加拿大_59
-      - _CA_加拿大_60
-      - _CA_加拿大_61
-      - _CA_加拿大_62
-      - _US_美国_63
-      - _CA_加拿大_64
-      - _CA_加拿大_65
-      - _US_美国_66
-      - _CA_加拿大_67
-      - _US_美国_68
-      - _GB_英国_69
-      - _US_美国_70
-      - _CA_加拿大_71
-      - _US_美国_72
-      - _CA_加拿大_73
-      - _GB_英国_74
-      - _CA_加拿大_75
-      - _CA_加拿大_76
-      - _CA_加拿大_77
-      - _US_美国_78
-      - _CA_加拿大_79
-      - _CA_加拿大_80
-      - _CA_加拿大_81
-      - _CA_加拿大_82
-      - _CA_加拿大_83
-      - _CA_加拿大_84
-      - _CA_加拿大_85
-      - _CA_加拿大_86
-      - _CA_加拿大_87
-      - _CA_加拿大_88
-      - _CA_加拿大_89
-      - _CA_加拿大_90
-      - _US_美国_91
-      - _US_美国_92
-      - _CA_加拿大_93
-      - _CA_加拿大_94
-      - _CA_加拿大_95
-      - _CA_加拿大_96
-      - _CA_加拿大_97
-      - _CA_加拿大_98
-      - _CA_加拿大_99
-      - _CA_加拿大_100
+      - _CA_加拿大_45
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -2747,105 +2637,50 @@ proxy-groups:
     interval: 300
     proxies:
       - _CA_加拿大_1
-      - _CA_加拿大_2
-      - _US_美国->🇫🇷_FR_法国_3
+      - _US_美国->🇫🇷_FR_法国_2
+      - _CA_加拿大_3
       - _CA_加拿大_4
-      - _CA_加拿大_5
+      - default_name_5
       - _CA_加拿大_6
-      - default_name_7
+      - _CA_加拿大_7
       - _CA_加拿大_8
-      - _CA_加拿大_9
-      - _FR_法国_10
-      - _CA_加拿大_11
-      - _US_美国_12
+      - _US_美国_9
+      - _CA_加拿大_10
+      - _US_美国_11
+      - _CA_加拿大_12
       - _CA_加拿大_13
-      - _US_美国_14
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_15
-      - _FR_法国_16
+      - _CA_加拿大_14
+      - _IN_印度_15
+      - _CA_加拿大_16
       - _CA_加拿大_17
       - _CA_加拿大_18
       - _CA_加拿大_19
       - _CA_加拿大_20
       - _CA_加拿大_21
-      - _CA_加拿大_22
-      - _FR_法国_23
-      - _FR_法国_24
-      - _US_美国_25
+      - _GB_英国_22
+      - _US_美国_23
+      - _CA_加拿大_24
+      - _CA_加拿大_25
       - _CA_加拿大_26
       - _CA_加拿大_27
       - _CA_加拿大_28
-      - _GB_英国_29
+      - _CA_加拿大_29
       - _CA_加拿大_30
-      - _IN_印度_31
-      - _CA_加拿大_32
+      - _CA_加拿大_31
+      - _US_美国_32
       - _CA_加拿大_33
-      - _GB_英国_34
+      - _US_美国_34
       - _CA_加拿大_35
-      - _CA_加拿大_36
-      - _CA_加拿大_37
+      - _US_美国_36
+      - _US_美国_37
       - _CA_加拿大_38
       - _CA_加拿大_39
       - _CA_加拿大_40
       - _CA_加拿大_41
-      - _CA_加拿大_42
-      - _GB_英国_43
+      - _US_美国_42
+      - _US_美国_43
       - _CA_加拿大_44
-      - _US_美国_45
-      - _CA_加拿大_46
-      - _CA_加拿大_47
-      - _CA_加拿大_48
-      - _FR_法国_49
-      - _CA_加拿大_50
-      - _CA_加拿大_51
-      - _CA_加拿大_52
-      - _US_美国_53
-      - _CA_加拿大_54
-      - _CA_加拿大_55
-      - _CA_加拿大_56
-      - _CA_加拿大_57
-      - _CA_加拿大_58
-      - _CA_加拿大_59
-      - _CA_加拿大_60
-      - _CA_加拿大_61
-      - _CA_加拿大_62
-      - _US_美国_63
-      - _CA_加拿大_64
-      - _CA_加拿大_65
-      - _US_美国_66
-      - _CA_加拿大_67
-      - _US_美国_68
-      - _GB_英国_69
-      - _US_美国_70
-      - _CA_加拿大_71
-      - _US_美国_72
-      - _CA_加拿大_73
-      - _GB_英国_74
-      - _CA_加拿大_75
-      - _CA_加拿大_76
-      - _CA_加拿大_77
-      - _US_美国_78
-      - _CA_加拿大_79
-      - _CA_加拿大_80
-      - _CA_加拿大_81
-      - _CA_加拿大_82
-      - _CA_加拿大_83
-      - _CA_加拿大_84
-      - _CA_加拿大_85
-      - _CA_加拿大_86
-      - _CA_加拿大_87
-      - _CA_加拿大_88
-      - _CA_加拿大_89
-      - _CA_加拿大_90
-      - _US_美国_91
-      - _US_美国_92
-      - _CA_加拿大_93
-      - _CA_加拿大_94
-      - _CA_加拿大_95
-      - _CA_加拿大_96
-      - _CA_加拿大_97
-      - _CA_加拿大_98
-      - _CA_加拿大_99
-      - _CA_加拿大_100
+      - _CA_加拿大_45
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -4450,21 +4285,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国->🇫🇷_FR_法国_3
-      - _US_美国_12
-      - _US_美国_14
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_15
-      - _US_美国_25
-      - _US_美国_45
-      - _US_美国_53
-      - _US_美国_63
-      - _US_美国_66
-      - _US_美国_68
-      - _US_美国_70
-      - _US_美国_72
-      - _US_美国_78
-      - _US_美国_91
-      - _US_美国_92
+      - _US_美国->🇫🇷_FR_法国_2
+      - _US_美国_9
+      - _US_美国_11
+      - _US_美国_23
+      - _US_美国_32
+      - _US_美国_34
+      - _US_美国_36
+      - _US_美国_37
+      - _US_美国_42
+      - _US_美国_43
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
