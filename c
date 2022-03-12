@@ -5,46 +5,53 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"坚果极客vmess_1","server":"213.183.41.136","port":22222,"type":"vmess","uuid":"8C1F9C41-4D26-0BD6-A223-56874778BD10","alterId":0,"cipher":"auto","tls":true,"network":"tcp","ws-opts":{"headers":{"host":"nutgeek.gjffjfzxjh.club"}}}
+  - {"name":"🇺🇸_US_美国_1","server":"169.197.142.99","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇩🇪_DE_德国_2","server":"193.108.117.75","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 坚果极客vmess_1
+      - 🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 坚果极客vmess_1
+      - 🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 坚果极客vmess_1
+      - 🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 坚果极客vmess_1
+      - 🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 坚果极客vmess_1
+      - 🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 坚果极客vmess_1
+      - 🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +74,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 坚果极客vmess_1
+      - 🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
