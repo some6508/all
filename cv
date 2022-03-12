@@ -641,36 +641,43 @@ proxies:
   - {name: "US, 4", server: 52.11.250.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "US, 5", server: 54.190.158.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "HK, 2", server: 13.125.126.148, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国, server: gongyide1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyide1.yigeweizhuang.com}}, udp: true}
-  - {name: _US_美国->🇮🇳_IN_印度, server: gongyiin1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyiin1.yigeweizhuang.com}}, udp: true}
-  - {name: _NL_荷兰, server: 154.84.1.12, port: 443, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/353021140201, headers: {Host: www.99684777.xyz}}, udp: true}
-  - {name: _NL_荷兰 2, server: 154.84.1.177, port: 443, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/353021140201, headers: {Host: www.90408767.xyz}}, udp: true}
-  - {name: _US_美国, server: 137.175.3.205, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/261217002001, headers: {Host: www.19264742.xyz}}, udp: true}
-  - {name: _US_美国 2, server: 137.175.58.42, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/353021140201, headers: {Host: www.51869272.xyz}}, udp: true}
-  - {name: _US_美国 3, server: 23.225.33.42, port: 443, type: vmess, uuid: aaea45eb-7b4b-44d4-9080-56470ddfc58a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/261217002001, headers: {Host: www.20405808.xyz}}, udp: true}
-  - {name: _US_美国 4, server: 23.225.165.245, port: 443, type: vmess, uuid: 95f388b3-68c9-421a-9de2-d8ab2e414a5e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.19241194.xyz}}, udp: true}
-  - {name: _US_美国->🇯🇵_JP_日本, server: gongyijp2.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyijp2.yigeweizhuang.com}}, udp: true}
-  - {name: _NL_荷兰 3, server: 154.84.1.198, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/080331123005, headers: {Host: www.54872833.xyz}}, udp: true}
-  - {name: _US_美国 5, server: 23.225.213.243, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/080331123005, headers: {Host: www.95314708.xyz}}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大, server: gongyica1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyica1.yigeweizhuang.com}}, udp: true}
-  - {name: _AE_阿联酋, server: uae.oracleusa.ml, port: 2053, type: vmess, uuid: 810a7deb-4fcf-4e21-93bd-3d7685bb8cb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uae.oracleusa.ml}}, udp: true}
-  - {name: _AE_阿联酋 2, server: bi.oracleusa.ml, port: 2053, type: vmess, uuid: 810a7deb-4fcf-4e21-93bd-3d7685bb8cb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bi.oracleusa.ml}}, udp: true}
-  - {name: _NL_荷兰 4, server: 154.84.1.55, port: 443, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/261217002001, headers: {Host: www.85790200.xyz}}, udp: true}
-  - {name: _JP_日本->🇺🇸_US_美国, server: cmi.db-link.in, port: 21153, type: vmess, uuid: e65b42e6-a404-3dd0-ae1c-11ec8f507020, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us3.db-link.in}}, udp: true}
-  - {name: _NL_荷兰 5, server: 154.84.1.214, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/080331123005, headers: {Host: www.44590130.xyz}}, udp: true}
-  - {name: _NL_荷兰 6, server: 46.182.107.55, port: 443, type: vmess, uuid: 0056e4b1-ab31-457e-b028-ab86e9a46842, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/353021140201, headers: {Host: www.65397453.xyz}}, udp: true}
-  - {name: default_name, server: cm.db-link.in, port: 443, type: vmess, uuid: e65b42e6-a404-3dd0-ae1c-11ec8f507020, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us01.db-link.in}}, udp: true}
-  - {name: _US_美国->🇨🇳_CN_中国, server: 137.175.21.195, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/261217002001, headers: {Host: www.09622821.xyz}}, udp: true}
-  - {name: _US_美国 6, server: 192.151.220.102, port: 443, type: vmess, uuid: 9b9bb4ab-cd05-4dfe-ab55-06975aebe548, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/353021140201, headers: {Host: www.88445767.xyz}}, udp: true}
-  - {name: _US_美国 7, server: 23.225.125.194, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/261217002001, headers: {Host: www.95314708.xyz}}, udp: true}
-  - {name: _JP_日本->🇺🇸_US_美国 2, server: cmi.db-link.in, port: 21152, type: vmess, uuid: e65b42e6-a404-3dd0-ae1c-11ec8f507020, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us2.db-link.in}}, udp: true}
-  - {name: _US_美国 8, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: ipv6.xrenblog.com}}, udp: true}
-  - {name: _US_美国 9, server: usaadm.oracleusa.ml, port: 2053, type: vmess, uuid: c0a40c0e-1724-4cdc-8795-8c2397bb5594, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usaadm.oracleusa.ml}}, udp: true}
-  - {name: default_name 2, server: gongyisg1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyisg1.yigeweizhuang.com}}, udp: true}
-  - {name: _US_美国 10, server: gongyius1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyius1.yigeweizhuang.com}}, udp: true}
-  - {name: _US_美国->🇯🇵_JP_日本 2, server: gongyijp1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyijp1.yigeweizhuang.com}}, udp: true}
-  - {name: default_name 3, server: gongyiau1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gongyiau1.yigeweizhuang.com}}, udp: true}
+  - {name: _GB_英国, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.196.68, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 2, server: 167.88.63.89, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 7, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 8, server: 134.195.196.3, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_英国 2, server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 9, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 10, server: 134.195.196.3, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大 11, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 12, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 13, server: 134.195.196.81, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 14, server: 134.195.196.81, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 3, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 15, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _FR_法国, server: 51.255.66.185, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 16, server: 134.195.196.3, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 17, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 18, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 4, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 5, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: _FR_法国 2, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 19, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 6, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 20, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 21, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _GB_英国 4, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: default_name, server: 104.27.89.125, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: xiaochen.chenyingjie5201314.workers.dev}}, udp: true}
+  - {name: _US_美国 7, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 22, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 23, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1962,36 +1969,43 @@ proxy-groups:
       - US, 4
       - US, 5
       - HK, 2
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国->🇮🇳_IN_印度
-      - _NL_荷兰
-      - _NL_荷兰 2
+      - _GB_英国
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
       - _US_美国
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
       - _US_美国 2
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _GB_英国 2
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
       - _US_美国 3
+      - _CA_加拿大 15
+      - _FR_法国
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
       - _US_美国 4
-      - _US_美国->🇯🇵_JP_日本
-      - _NL_荷兰 3
+      - _GB_英国 3
       - _US_美国 5
-      - _US_美国->🇨🇦_CA_加拿大
-      - _AE_阿联酋
-      - _AE_阿联酋 2
-      - _NL_荷兰 4
-      - _JP_日本->🇺🇸_US_美国
-      - _NL_荷兰 5
-      - _NL_荷兰 6
-      - default_name
-      - _US_美国->🇨🇳_CN_中国
+      - _FR_法国 2
+      - _CA_加拿大 19
       - _US_美国 6
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - _GB_英国 4
+      - default_name
       - _US_美国 7
-      - _JP_日本->🇺🇸_US_美国 2
-      - _US_美国 8
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国 9
-      - default_name 2
-      - _US_美国 10
-      - _US_美国->🇯🇵_JP_日本 2
-      - default_name 3
+      - _CA_加拿大 22
+      - _CA_加拿大 23
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3272,36 +3286,43 @@ proxy-groups:
       - US, 4
       - US, 5
       - HK, 2
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国->🇮🇳_IN_印度
-      - _NL_荷兰
-      - _NL_荷兰 2
+      - _GB_英国
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
       - _US_美国
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
       - _US_美国 2
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _GB_英国 2
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
       - _US_美国 3
+      - _CA_加拿大 15
+      - _FR_法国
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
       - _US_美国 4
-      - _US_美国->🇯🇵_JP_日本
-      - _NL_荷兰 3
+      - _GB_英国 3
       - _US_美国 5
-      - _US_美国->🇨🇦_CA_加拿大
-      - _AE_阿联酋
-      - _AE_阿联酋 2
-      - _NL_荷兰 4
-      - _JP_日本->🇺🇸_US_美国
-      - _NL_荷兰 5
-      - _NL_荷兰 6
-      - default_name
-      - _US_美国->🇨🇳_CN_中国
+      - _FR_法国 2
+      - _CA_加拿大 19
       - _US_美国 6
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - _GB_英国 4
+      - default_name
       - _US_美国 7
-      - _JP_日本->🇺🇸_US_美国 2
-      - _US_美国 8
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国 9
-      - default_name 2
-      - _US_美国 10
-      - _US_美国->🇯🇵_JP_日本 2
-      - default_name 3
+      - _CA_加拿大 22
+      - _CA_加拿大 23
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4246,10 +4267,6 @@ proxy-groups:
       - JP,
       - JP, 2
       - JP, 3
-      - _US_美国->🇯🇵_JP_日本
-      - _JP_日本->🇺🇸_US_美国
-      - _JP_日本->🇺🇸_US_美国 2
-      - _US_美国->🇯🇵_JP_日本 2
       - 日本（YouTube资源分享者） 7
       - 日本（YouTube资源分享者） 8
       - 日本（YouTube资源分享者） 9
@@ -4457,25 +4474,13 @@ proxy-groups:
       - US, 3
       - US, 4
       - US, 5
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国->🇮🇳_IN_印度
       - _US_美国
       - _US_美国 2
       - _US_美国 3
       - _US_美国 4
-      - _US_美国->🇯🇵_JP_日本
       - _US_美国 5
-      - _US_美国->🇨🇦_CA_加拿大
-      - _JP_日本->🇺🇸_US_美国
-      - _US_美国->🇨🇳_CN_中国
       - _US_美国 6
       - _US_美国 7
-      - _JP_日本->🇺🇸_US_美国 2
-      - _US_美国 8
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国->🇯🇵_JP_日本 2
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
