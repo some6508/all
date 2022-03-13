@@ -5,11 +5,11 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.3","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇻🇳_VN_越南_2","server":"103.81.85.191","port":4588,"type":"vmess","uuid":"c031e096-2d02-39da-8d81-c651e09ed0d1","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/doufen","headers":{"host":"vn.doubledou.win"}}}
-  - {"name":"🇺🇸_US_美国_3","server":"my.aoyyds.ga","port":8443,"type":"vmess","uuid":"e230dabd-7152-3c22-c9e5-79c84fb76236","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/xsqfvws","headers":{"host":"my.aoyyds.ga"}}}
-  - {"name":"🇬🇧_GB_英国_4","server":"145.239.7.164","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"default_name_5","server":"172.67.140.165","port":443,"type":"vmess","uuid":"0797aba7-f60a-4bc3-acd9-946a85a1e864","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/google.com","headers":{"host":"1.72vpn.xyz"}}}
+  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.81","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.187","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_3","server":"169.197.142.99","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.196.81","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.196.3","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -17,10 +17,10 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇨🇦_CA_加拿大_1
-      - 🇻🇳_VN_越南_2
+      - 🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_3
-      - 🇬🇧_GB_英国_4
-      - default_name_5
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -28,10 +28,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇨🇦_CA_加拿大_1
-      - 🇻🇳_VN_越南_2
+      - 🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_3
-      - 🇬🇧_GB_英国_4
-      - default_name_5
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -39,40 +39,40 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇨🇦_CA_加拿大_1
-      - 🇻🇳_VN_越南_2
+      - 🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_3
-      - 🇬🇧_GB_英国_4
-      - default_name_5
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇨🇦_CA_加拿大_1
-      - 🇻🇳_VN_越南_2
+      - 🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_3
-      - 🇬🇧_GB_英国_4
-      - default_name_5
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇨🇦_CA_加拿大_1
-      - 🇻🇳_VN_越南_2
+      - 🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_3
-      - 🇬🇧_GB_英国_4
-      - default_name_5
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇨🇦_CA_加拿大_1
-      - 🇻🇳_VN_越南_2
+      - 🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_3
-      - 🇬🇧_GB_英国_4
-      - default_name_5
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -96,10 +96,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇨🇦_CA_加拿大_1
-      - 🇻🇳_VN_越南_2
+      - 🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_3
-      - 🇬🇧_GB_英国_4
-      - default_name_5
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
