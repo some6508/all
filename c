@@ -15,6 +15,16 @@ proxies:
   - {"name":"🇬🇧_GB_英国_8","server":"172.99.190.92","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
   - {"name":"🇨🇦_CA_加拿大_9","server":"134.195.196.68","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
   - {"name":"🇨🇦_CA_加拿大_10","server":"134.195.196.68","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_11","server":"134.195.196.3","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_12","server":"134.195.196.81","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA_加拿大_13","server":"134.195.196.81","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦_CA_加拿大_14","server":"134.195.196.81","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦_CA_加拿大_15","server":"134.195.196.187","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_16","server":"134.195.196.3","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇫🇷_FR_法国_17","server":"51.255.66.185","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_18","server":"134.195.196.3","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_CA_加拿大_19","server":"134.195.196.81","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_20","server":"169.197.142.99","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,6 +41,16 @@ proxy-groups:
       - 🇬🇧_GB_英国_8
       - 🇨🇦_CA_加拿大_9
       - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇦_CA_加拿大_13
+      - 🇨🇦_CA_加拿大_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇨🇦_CA_加拿大_16
+      - 🇫🇷_FR_法国_17
+      - 🇨🇦_CA_加拿大_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇺🇸_US_美国_20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -47,6 +67,16 @@ proxy-groups:
       - 🇬🇧_GB_英国_8
       - 🇨🇦_CA_加拿大_9
       - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇦_CA_加拿大_13
+      - 🇨🇦_CA_加拿大_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇨🇦_CA_加拿大_16
+      - 🇫🇷_FR_法国_17
+      - 🇨🇦_CA_加拿大_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇺🇸_US_美国_20
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -63,6 +93,16 @@ proxy-groups:
       - 🇬🇧_GB_英国_8
       - 🇨🇦_CA_加拿大_9
       - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇦_CA_加拿大_13
+      - 🇨🇦_CA_加拿大_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇨🇦_CA_加拿大_16
+      - 🇫🇷_FR_法国_17
+      - 🇨🇦_CA_加拿大_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇺🇸_US_美国_20
   - name: 📲 电报信息
     type: select
     proxies:
@@ -78,6 +118,16 @@ proxy-groups:
       - 🇬🇧_GB_英国_8
       - 🇨🇦_CA_加拿大_9
       - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇦_CA_加拿大_13
+      - 🇨🇦_CA_加拿大_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇨🇦_CA_加拿大_16
+      - 🇫🇷_FR_法国_17
+      - 🇨🇦_CA_加拿大_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇺🇸_US_美国_20
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -93,6 +143,16 @@ proxy-groups:
       - 🇬🇧_GB_英国_8
       - 🇨🇦_CA_加拿大_9
       - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇦_CA_加拿大_13
+      - 🇨🇦_CA_加拿大_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇨🇦_CA_加拿大_16
+      - 🇫🇷_FR_法国_17
+      - 🇨🇦_CA_加拿大_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇺🇸_US_美国_20
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -108,6 +168,16 @@ proxy-groups:
       - 🇬🇧_GB_英国_8
       - 🇨🇦_CA_加拿大_9
       - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇦_CA_加拿大_13
+      - 🇨🇦_CA_加拿大_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇨🇦_CA_加拿大_16
+      - 🇫🇷_FR_法国_17
+      - 🇨🇦_CA_加拿大_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇺🇸_US_美国_20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,6 +210,16 @@ proxy-groups:
       - 🇬🇧_GB_英国_8
       - 🇨🇦_CA_加拿大_9
       - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇦_CA_加拿大_13
+      - 🇨🇦_CA_加拿大_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇨🇦_CA_加拿大_16
+      - 🇫🇷_FR_法国_17
+      - 🇨🇦_CA_加拿大_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇺🇸_US_美国_20
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
