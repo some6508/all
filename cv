@@ -559,10 +559,36 @@ proxies:
   - {name: "US, 4", server: 65.49.223.117, port: 239, type: ss, cipher: aes-256-cfb, password: bwhskrskr06, udp: true}
   - {name: "CA,", server: 3.36.121.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "US, 5", server: 97.64.31.80, port: 247, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: _GB_英国, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_英国, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _FR_法国, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.81, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: _GB_英国 2, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _VN_越南, server: 103.81.85.191, port: 4588, type: vmess, uuid: c031e096-2d02-39da-8d81-c651e09ed0d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /doufen, headers: {Host: vn.doubledou.win}}, udp: true}
-  - {name: _VN_越南 2, server: 103.81.85.191, port: 4588, type: vmess, uuid: c031e096-2d02-39da-8d81-c651e09ed0d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /doufen, headers: {Host: vn.doubledou.win}}, udp: true}
+  - {name: _CA_加拿大 7, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 8, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 9, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 10, server: 134.195.196.3, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 11, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 12, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 13, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大 14, server: 134.195.196.3, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: default_name, server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 2, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 3, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 15, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大 16, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 17, server: 134.195.196.3, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _FR_法国 2, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _FR_法国 3, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 18, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 4, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero2.a-yu.xyz}}, udp: true}
+  - {name: _CA_加拿大 19, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1121,114 +1147,103 @@ proxies:
   - {name: 更新于:03-13 20:00:02 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新 2, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 魔戒.net-000, server: 25.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /google.com, headers: {Host: 25.72vpn.xyz}}, udp: true}
-  - {name: 魔戒.net-111, server: 74.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /google.com, headers: {Host: 74.72vpn.xyz}}, udp: true}
-  - {name: 魔戒.net-222, server: 71.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /google.com, headers: {Host: 71.72vpn.xyz}}, udp: true}
-  - {name: 魔戒.net-444, server: 73.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /google.com, headers: {Host: 73.72vpn.xyz}}, udp: true}
-  - {name: 魔戒.net-333, server: 10.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /google.com, headers: {Host: 10.72vpn.xyz}}, udp: true}
-  - {name: 1 魔戒.net, server: 23.102.234.10, port: 11190, type: vmess, uuid: e9878bd5-2257-4c4c-b1a3-329b8808743d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%2223.102.234.10%22%7D"}}, udp: true}
-  - {name: 7 魔戒.net, server: 13.75.105.89, port: 20528, type: vmess, uuid: e6f3a8af-3507-4c5a-dc72-f5264fdf4374, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%2213.75.105.89%22%7D"}}, udp: true}
-  - {name: 5 魔戒.net, server: 13.75.105.89, port: 35353, type: vmess, uuid: fcc0fc7d-0d47-4968-842d-b525299af111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%2213.75.105.89%22%7D"}}, udp: true}
-  - {name: 2 魔戒.net, server: 23.102.234.10, port: 23684, type: vmess, uuid: f73f82ab-d439-444b-887f-860ba0aa6618, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%2223.102.234.10%22%7D"}}, udp: true}
-  - {name: 3 魔戒.net, server: 23.102.234.10, port: 37154, type: vmess, uuid: 99da417a-3716-4b2d-e73f-4f07663513e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%2223.102.234.10%22%7D"}}, udp: true}
-  - {name: 4 魔戒.net, server: 23.102.234.10, port: 35504, type: vmess, uuid: 13d195a3-1b9d-4fd5-96ed-ce6c703f7106, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%2223.102.234.10%22%7D"}}, udp: true}
-  - {name: 8 魔戒.net, server: 13.75.105.89, port: 51306, type: vmess, uuid: 06fbac56-cbcb-4fc6-aac7-d36f938b38ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%2213.75.105.89%22%7D"}}, udp: true}
-  - {name: 6 魔戒.net, server: 13.75.105.89, port: 12258, type: vmess, uuid: c2aa2592-aa31-4ae7-84bd-14f0ca3b3e83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%2213.75.105.89%22%7D"}}, udp: true}
-  - {name: 魔戒.net 🇭🇰香港-核心访问 HKT, server: trahk5.bitznet.cloud, port: 32000, type: ss, cipher: aes-256-gcm, password: 11cf8903-f780-4b00-b3d8-9a4ae85dc47c, udp: true}
-  - {name: 魔戒.net香港免流节点3号|10Gps, server: 207.46.144.220, port: 443, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}, udp: true}
-  - {name: 魔戒.net 4.61|AzureHongKong2Vpnpool专属 2, server: vpnpool.hongkong.2.xiaocai.ga, port: 80, type: vmess, uuid: f6fffc7f-ab53-4ab7-af70-50923a525798, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vpnpool.hongkong.2.xiaocai.ga}}, udp: true}
-  - {name: 魔戒.net KINGS HK 01, server: 104.208.106.196, port: 80, type: vmess, uuid: 6c8c2636-3c08-4d40-d2af-d4fc46b75482, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: viettel.akamaized.net}}, udp: true}
-  - {name: 魔戒.net【426节点池】HK_1759, server: 13.70.31.16, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇭🇰香港|IPEL| 中环, server: 120.233.7.10, port: 19114, type: vmess, uuid: 348c48d4-1722-37a6-8484-aba37ff7b16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 3.95|狮城  Azure InfiniPort, server: 20.212.150.16, port: 11610, type: vmess, uuid: dd57bb2b-a9d4-4c6b-9a83-1c4289e70a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇯🇵 JP_740 | 6.35Mb, server: jp-am48-9.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3H2aN5Gnm, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 魔戒.net gsou12_65, server: iepl.hk.stohb.nodeg.cloud, port: 30003, type: vmess, uuid: 23a3db66-2651-3fae-b042-83b437e871fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net gsou9_62, server: iepl.hk.stohb.nodeg.cloud, port: 30021, type: vmess, uuid: 23a3db66-2651-3fae-b042-83b437e871fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net gsou10_63, server: iepl.hk.stohb.nodeg.cloud, port: 30020, type: vmess, uuid: 23a3db66-2651-3fae-b042-83b437e871fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net gsou11_64, server: iepl.hk.stohb.nodeg.cloud, port: 30004, type: vmess, uuid: 23a3db66-2651-3fae-b042-83b437e871fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net gsou3_56, server: iepl.hk.stohb.nodeg.cloud, port: 30008, type: vmess, uuid: 23a3db66-2651-3fae-b042-83b437e871fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net gsou4_57, server: iepl.hk.stohb.nodeg.cloud, port: 30007, type: vmess, uuid: 23a3db66-2651-3fae-b042-83b437e871fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net SG 5 Pro, server: sgp05v2.datapn.net, port: 80, type: vmess, uuid: 8f6930ce-1ee1-4420-a7c7-6e780fd10647, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: livestream2.tv360.vn}}, udp: true}
-  - {name: 魔戒.net不限时 00:00~24:00 白嫖线路 | 新加坡 | 1 | 限速 30M, server: sg-a.663106.xyz, port: 19896, type: vmess, uuid: 1acfabf9-303b-3b18-8cdb-813be3f197e0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: microsoft.com}}, udp: true}
-  - {name: 魔戒.net <S>直连｜香港 Azure, server: 104.208.110.196, port: 80, type: vmess, uuid: c92d1217-aa09-43fd-b860-9d6664edb4dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index.html, headers: {Host: baidu.com}}, udp: true}
-  - {name: 魔戒.net 8A5【精品】上海-香港PCCW | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
-  - {name: 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: "香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e, udp: true}
+  - {name: jc.ap.fastqvpn.com:29980, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 3.37.127.222:43293, server: 3.37.127.222, port: 43293, type: vmess, uuid: b7f9aced-c870-494c-986c-17848e06cbd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net-26, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net 63, server: 117.28.243.141, port: 6149, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net免费-日本1, server: jp01-vm0.entry.ikuuu.casa, port: 446, type: vmess, uuid: e9952831-ac54-3b51-9a0b-b2ddc3ff235d, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp01-vm0.entry.ikuuu.casa}}, udp: true}
+  - {name: 魔戒.net HK-Azure|香港, server: az.jiashumao.net, port: 36666, type: trojan, password: e89255d7-7f45-39ed-8f57-64362885afc0, sni: az.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net HK-BGP.0|香港, server: hk-bgp-se.jiashumao.net, port: 38888, type: trojan, password: e89255d7-7f45-39ed-8f57-64362885afc0, sni: hk-bgp-se.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net v1|日本|E|3台负载|原生 366, server: 42.193.120.172, port: 40534, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 魔戒.net v1|香港|B|9台负载|原生 338, server: 42.193.120.172, port: 40562, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 魔戒.net v1|南美|C|6台负载 314, server: 42.193.120.172, port: 40586, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 魔戒.net v1|南美|B|9台负载 304, server: 42.193.120.172, port: 40596, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 魔戒.net v1|日本|E|3台负载|原生 359, server: 42.193.120.172, port: 40541, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 魔戒.net新加坡, server: 4.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /google.com, headers: {Host: 4.72vpn.xyz}}, udp: true}
+  - {name: 魔戒.net_469 |33.54Mb, server: 120.232.174.85, port: 24089, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: 魔戒.net 🇨🇳 CN_688, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: 魔戒.net_471 |32.46Mb, server: 120.232.174.85, port: 25081, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: 魔戒.net 🇨🇳 CN_690 | 6.69Mb, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: 魔戒.net_472 |33.46Mb, server: 120.232.174.85, port: 47985, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: 魔戒.net 🇨🇳 CN_683, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: 魔戒.net_470 |26.92Mb, server: 120.232.174.85, port: 27938, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: 魔戒.net_560 |12.93Mb, server: bj.ftnodes1.xyz, port: 80, type: vmess, uuid: e4fb1a56-8b94-4ab7-832e-fa077a024145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bj.ftnodes1.xyz}}, udp: true}
+  - {name: 魔戒.net_468 |19.77Mb, server: 120.232.174.85, port: 29147, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: 魔戒.net 🇯🇵 JP_759 | 3.82Mb, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net_557 | 7.24Mb, server: gyb.ftnodes1.xyz, port: 80, type: vmess, uuid: e4fb1a56-8b94-4ab7-832e-fa077a024145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gyb.ftnodes1.xyz}}, udp: true}
   - {name: 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
-  - {name: 魔戒.net 🇹🇼 10台湾∞中转, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net 🇮🇳 04印度∞中转, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net 🇷🇺 01俄罗斯∞中转, server: cn2relay01.yiyorelay.xyz, port: 2701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
-  - {name: 魔戒.net 🇩🇪 13德国∞中转, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net*🇭🇰香港HK 1801【hi-moon.pw】, server: az01.thenodemoon365.xyz, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: f5937a46-7fb1-480f-95d5-abe8f1dad53f, udp: true}
-  - {name: 魔戒.net*🇭🇰香港HK 1835【hi-moon.pw】, server: hkaz1.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net新加坡SG 2419【hi-moon.pw】, server: 20.212.150.16, port: 11610, type: vmess, uuid: dd57bb2b-a9d4-4c6b-9a83-1c4289e70a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net*🇭🇰香港HK 1143【hi-moon.pw】, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 294796:kf4QcXlBUm, obfs-param: "", udp: true}
-  - {name: 魔戒.net*🇰🇷韩国KR 1798【hi-moon.pw】, server: az01.thenodemoon365.xyz, port: 20007, type: ss, cipher: chacha20-ietf-poly1305, password: f5937a46-7fb1-480f-95d5-abe8f1dad53f, udp: true}
-  - {name: 魔戒.net 🇭🇰香港(绿头外网集团)(Public) 9, server: 13.70.31.16, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇭🇰香港(绿头外网集团)(Public) 10, server: 104.208.112.171, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇹🇼台灣(绿头外网集团)(Public) 8, server: 211.72.35.153, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇹🇼台灣(绿头外网集团)(Public) 5, server: 211.72.35.153, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 9, server: 106.75.154.24, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 15, server: 106.75.168.104, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 2, server: 20.89.238.230, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 19, server: 113.31.109.30, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 3, server: 20.89.238.230, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 7, server: 116.129.253.177, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net香港4132a, server: 122.9.54.75, port: 4132, type: ss, cipher: chacha20-ietf-poly1305, password: a3c206f508a4e15b0c837117af7c73b37f20ad62537f02c18085d05eec48f312, udp: true}
-  - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]", server: 122.9.62.9, port: 7931, type: ss, cipher: chacha20-ietf-poly1305, password: bbea04c91913a27ab1c04f3aedc2a74e1e47c876898738d7f79938fd20c13b5e, udp: true}
-  - {name: "魔戒.net-香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e, udp: true}
-  - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]", server: 122.9.62.44, port: 2945, type: ss, cipher: chacha20-ietf-poly1305, password: 2d5559dc1d6c1d3581f4ee327ac93b58359c963da44aa92faef307ee07a11261, udp: true}
-  - {name: 魔戒.net香港1029a, server: 122.9.54.153, port: 1029, type: ss, cipher: chacha20-ietf-poly1305, password: 8d0bcb875191315e459288411c18c38963d0627e1990a8fa9cc84dd43e6e8050, udp: true}
-  - {name: 魔戒.net香港1002b, server: 122.9.62.9, port: 1002, type: ss, cipher: chacha20-ietf-poly1305, password: a420056c3d197e3c4f6c7f20626f0c9543ebc86172974ef9bdd112043ee8ca02, udp: true}
+  - {name: 魔戒.net 8A3【精品】上海-香港WTT | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 魔戒.net 8A6【精品】广州-香港PCCW | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 魔戒.net 8B2【精品】广州-台湾 | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50221, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 魔戒.net 8B1【精品】上海-台湾 | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50221, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 魔戒.net日本东京 |AS|1G|J2, server: jp2.bpyun.live, port: 443, type: vmess, uuid: 5c923218-d8a0-3f35-b618-c6d0aebf2a63, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cocksucker, headers: {Host: jp2.bpyun.live}}, udp: true}
+  - {name: 魔戒.net 03-HK, server: TJ-03.t8737.shop, port: 11223, type: trojan, password: 8a06dd72-43f2-40fa-a2dd-a19d44ccee46, sni: TJ-03.t8737.shop, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net日本JP 174【hi-moon.pw】, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net日本JP 172【hi-moon.pw】, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22172.105.222.98%22%7D"}}, udp: true}
   - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -42 [IPLC]", server: 122.9.62.57, port: 1001, type: ss, cipher: chacha20-ietf-poly1305, password: d448c5c3968140fcd5470e035d443c502faa163363b313e01bcbb2c024d2a510, udp: true}
+  - {name: 魔戒.net香港1029a, server: 122.9.54.153, port: 1029, type: ss, cipher: chacha20-ietf-poly1305, password: 8d0bcb875191315e459288411c18c38963d0627e1990a8fa9cc84dd43e6e8050, udp: true}
   - {name: 魔戒.net香港1027b, server: 122.9.62.52, port: 1027, type: ss, cipher: chacha20-ietf-poly1305, password: 4ff06d2cba70849a0b891027d008f5668da1050f1f491cc774794c16eb4bbd79, udp: true}
   - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]", server: 122.9.54.209, port: 5542, type: ss, cipher: chacha20-ietf-poly1305, password: c4e3e2445d3e03e651e620d3357b7c118417cda4605d4714993075cde9e2ba34, udp: true}
-  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继2, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 86, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继1, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-26, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: jc.ap.fastqvpn.com:29980, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-6, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继3, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net香港1027c, server: 122.9.54.162, port: 1027, type: ss, cipher: chacha20-ietf-poly1305, password: 23d4a66a9e97b16f55ecab270da6820093515b366eb1026cea909ffeb244682c, udp: true}
+  - {name: 魔戒.net香港4132a, server: 122.9.54.75, port: 4132, type: ss, cipher: chacha20-ietf-poly1305, password: a3c206f508a4e15b0c837117af7c73b37f20ad62537f02c18085d05eec48f312, udp: true}
+  - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]", server: 122.9.62.9, port: 7931, type: ss, cipher: chacha20-ietf-poly1305, password: bbea04c91913a27ab1c04f3aedc2a74e1e47c876898738d7f79938fd20c13b5e, udp: true}
   - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -30 [HKBN] [IPLC]", server: 122.9.62.6, port: 5557, type: ss, cipher: chacha20-ietf-poly1305, password: 5912725b993997cf9a926efaa3827f2363a0edc73744ad39976bcb78bfd2995c, udp: true}
+  - {name: "魔戒.net-香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e, udp: true}
+  - {name: 魔戒.net香港1027c, server: 122.9.54.162, port: 1027, type: ss, cipher: chacha20-ietf-poly1305, password: 23d4a66a9e97b16f55ecab270da6820093515b366eb1026cea909ffeb244682c, udp: true}
+  - {name: 魔戒.net香港1002b, server: 122.9.62.9, port: 1002, type: ss, cipher: chacha20-ietf-poly1305, password: a420056c3d197e3c4f6c7f20626f0c9543ebc86172974ef9bdd112043ee8ca02, udp: true}
+  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继2, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继2 2, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]", server: 122.9.62.44, port: 2945, type: ss, cipher: chacha20-ietf-poly1305, password: 2d5559dc1d6c1d3581f4ee327ac93b58359c963da44aa92faef307ee07a11261, udp: true}
+  - {name: 魔戒.net-10, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: jc.ap.fastqvpn.com:29980 2, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 魔戒.net 🇹🇼 10台湾∞中转, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net-6, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net-13, server: cscu.wecanfly.top, port: 51131, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net-26 2, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net-12, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net *🇨🇳台湾TW 1068【hi-moon.pw】, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net-26 3, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net-052, server: tky3.ssgnode.ga, port: 443, type: trojan, password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net-18, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net-29, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: "*🇨🇳台湾TW 1059【hi-moon.pw】", server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net-15, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继3, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net-060, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继3 2, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net-19, server: cscu.wecanfly.top, port: 51210, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net-14, server: cscu.wecanfly.top, port: 51210, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 日本JP 1996【hi-moon.pw】, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继1, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇯🇵JP-106.180.225.69-40, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇸🇬 T.20.新.中继3, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇸🇬 T.20.新.中继3 2, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇮🇳 04印度∞中转, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net 🇸🇬 T.20.新.中继3 3, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
   - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继1 2, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
   - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继1 3, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继3 2, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-10, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-14, server: cscu.wecanfly.top, port: 51210, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-13, server: cscu.wecanfly.top, port: 51131, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-18, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-058, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
   - {name: 魔戒.net *🇩🇪德国DE 1064【hi-moon.pw】, server: 117.28.243.141, port: 6112, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net 🇸🇬 T.20.新.中继3, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-19, server: cscu.wecanfly.top, port: 51210, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-060, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net *🇩🇪德国DE 1066【hi-moon.pw】, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net-052, server: tky3.ssgnode.ga, port: 443, type: trojan, password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
-  - {name: "*🇨🇳台湾TW 1059【hi-moon.pw】", server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net 63, server: 117.28.243.141, port: 6149, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 魔戒.net 63 2, server: 117.28.243.141, port: 6149, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: "*🇷🇺俄罗斯RU 1055【hi-moon.pw】", server: 117.28.243.220, port: 8045, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net-29, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net-28, server: 117.28.243.220, port: 8045, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net-15, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇯🇵JP-106.180.225.69-40, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-28 2, server: 117.28.243.220, port: 8045, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net 日本JP 1996【hi-moon.pw】, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继2 2, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-28 3, server: 117.28.243.220, port: 8045, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net香港_R_160, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 魔戒.net 🇸🇬 T.20.新.中继3 2, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-9, server: 117.28.243.141, port: 6149, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net *🇩🇪德国DE 1063【hi-moon.pw】, server: 117.28.243.141, port: 6149, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: "*🇩🇪德国DE 1072【hi-moon.pw】", server: 117.28.243.141, port: 6149, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net-26 2, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net 🇸🇬 T.20.新.中继3 3, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-8, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net *🇨🇳台湾TW 1068【hi-moon.pw】, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net-12, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: "*🇸🇬新加坡SG 2399【hi-moon.pw】", server: sg-am11.eqnode.net, port: 8181, type: ssr, cipher: aes-256-cfb, password: kKdNNt2HZ, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 魔戒.net-058, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
   - {name: 魔戒.net-25, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net-28, server: 117.28.243.220, port: 8045, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: "*🇷🇺俄罗斯RU 1055【hi-moon.pw】", server: 117.28.243.220, port: 8045, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net-444, server: 73.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /google.com, headers: {Host: 73.72vpn.xyz}}, udp: true}
+  - {name: 魔戒.net-333, server: 10.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /google.com, headers: {Host: 10.72vpn.xyz}}, udp: true}
+  - {name: 魔戒.net *🇩🇪德国DE 1066【hi-moon.pw】, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net 63 3, server: 117.28.243.141, port: 6149, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net 🇩🇪 13德国∞中转, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net *🇩🇪德国DE 1063【hi-moon.pw】, server: 117.28.243.141, port: 6149, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net-222, server: 71.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /google.com, headers: {Host: 71.72vpn.xyz}}, udp: true}
+  - {name: 魔戒.net-8, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net 86, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net-9, server: 117.28.243.141, port: 6149, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net-28 2, server: 117.28.243.220, port: 8045, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net-111, server: 74.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /google.com, headers: {Host: 74.72vpn.xyz}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -1799,10 +1814,36 @@ proxy-groups:
       - US, 4
       - CA,
       - US, 5
+      - _US_美国
+      - _CA_加拿大
       - _GB_英国
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _FR_法国
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
       - _GB_英国 2
-      - _VN_越南
-      - _VN_越南 2
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _GB_英国 3
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - default_name
+      - _US_美国 2
+      - _US_美国 3
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _FR_法国 2
+      - _FR_法国 3
+      - _CA_加拿大 18
+      - _US_美国 4
+      - _CA_加拿大 19
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2361,114 +2402,103 @@ proxy-groups:
       - 更新于:03-13 20:00:02 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
-      - 魔戒.net-000
-      - 魔戒.net-111
-      - 魔戒.net-222
-      - 魔戒.net-444
-      - 魔戒.net-333
-      - 1 魔戒.net
-      - 7 魔戒.net
-      - 5 魔戒.net
-      - 2 魔戒.net
-      - 3 魔戒.net
-      - 4 魔戒.net
-      - 8 魔戒.net
-      - 6 魔戒.net
-      - 魔戒.net 🇭🇰香港-核心访问 HKT
-      - 魔戒.net香港免流节点3号|10Gps
-      - 魔戒.net 4.61|AzureHongKong2Vpnpool专属 2
-      - 魔戒.net KINGS HK 01
-      - 魔戒.net【426节点池】HK_1759
-      - 魔戒.net 🇭🇰香港|IPEL| 中环
-      - 魔戒.net 3.95|狮城  Azure InfiniPort
-      - 魔戒.net 🇯🇵 JP_740 | 6.35Mb
-      - 魔戒.net gsou12_65
-      - 魔戒.net gsou9_62
-      - 魔戒.net gsou10_63
-      - 魔戒.net gsou11_64
-      - 魔戒.net gsou3_56
-      - 魔戒.net gsou4_57
-      - 魔戒.net SG 5 Pro
-      - 魔戒.net不限时 00:00~24:00 白嫖线路 | 新加坡 | 1 | 限速 30M
-      - 魔戒.net <S>直连｜香港 Azure
-      - 魔戒.net 8A5【精品】上海-香港PCCW | V2RAY隧道 |
-      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
+      - 香港(中国)🚀[极速稳定]
+      - jc.ap.fastqvpn.com:29980
+      - 3.37.127.222:43293
+      - 魔戒.net-26
+      - 魔戒.net 63
+      - 魔戒.net免费-日本1
+      - 魔戒.net HK-Azure|香港
+      - 魔戒.net HK-BGP.0|香港
+      - 魔戒.net v1|日本|E|3台负载|原生 366
+      - 魔戒.net v1|香港|B|9台负载|原生 338
+      - 魔戒.net v1|南美|C|6台负载 314
+      - 魔戒.net v1|南美|B|9台负载 304
+      - 魔戒.net v1|日本|E|3台负载|原生 359
+      - 魔戒.net新加坡
+      - 魔戒.net_469 |33.54Mb
+      - 魔戒.net 🇨🇳 CN_688
+      - 魔戒.net_471 |32.46Mb
+      - 魔戒.net 🇨🇳 CN_690 | 6.69Mb
+      - 魔戒.net_472 |33.46Mb
+      - 魔戒.net 🇨🇳 CN_683
+      - 魔戒.net_470 |26.92Mb
+      - 魔戒.net_560 |12.93Mb
+      - 魔戒.net_468 |19.77Mb
+      - 魔戒.net 🇯🇵 JP_759 | 3.82Mb
+      - 魔戒.net_557 | 7.24Mb
       - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
-      - 魔戒.net 🇹🇼 10台湾∞中转
-      - 魔戒.net 🇮🇳 04印度∞中转
-      - 魔戒.net 🇷🇺 01俄罗斯∞中转
-      - 魔戒.net 🇩🇪 13德国∞中转
-      - 魔戒.net*🇭🇰香港HK 1801【hi-moon.pw】
-      - 魔戒.net*🇭🇰香港HK 1835【hi-moon.pw】
-      - 魔戒.net新加坡SG 2419【hi-moon.pw】
-      - 魔戒.net*🇭🇰香港HK 1143【hi-moon.pw】
-      - 魔戒.net*🇰🇷韩国KR 1798【hi-moon.pw】
-      - 魔戒.net 🇭🇰香港(绿头外网集团)(Public) 9
-      - 魔戒.net 🇭🇰香港(绿头外网集团)(Public) 10
-      - 魔戒.net 🇹🇼台灣(绿头外网集团)(Public) 8
-      - 魔戒.net 🇹🇼台灣(绿头外网集团)(Public) 5
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 9
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 15
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 2
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 19
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 3
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 7
-      - 魔戒.net香港4132a
-      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]
-      - 魔戒.net-香港(中国)🚀[极速稳定]
-      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
-      - 魔戒.net香港1029a
-      - 魔戒.net香港1002b
+      - 魔戒.net 8A3【精品】上海-香港WTT | V2RAY隧道 |
+      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
+      - 魔戒.net 8A6【精品】广州-香港PCCW | V2RAY隧道 |
+      - 魔戒.net 8B2【精品】广州-台湾 | V2RAY隧道 |
+      - 魔戒.net 8B1【精品】上海-台湾 | V2RAY隧道 |
+      - 魔戒.net日本东京 |AS|1G|J2
+      - 魔戒.net 03-HK
+      - 魔戒.net日本JP 174【hi-moon.pw】
+      - 魔戒.net日本JP 172【hi-moon.pw】
       - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -42 [IPLC]
+      - 魔戒.net香港1029a
       - 魔戒.net香港1027b
       - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2
-      - 魔戒.net 86
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1
-      - 魔戒.net-26
-      - jc.ap.fastqvpn.com:29980
-      - 魔戒.net-6
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3
-      - 魔戒.net香港1027c
+      - 魔戒.net香港4132a
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]
       - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -30 [HKBN] [IPLC]
+      - 魔戒.net-香港(中国)🚀[极速稳定]
+      - 魔戒.net香港1027c
+      - 魔戒.net香港1002b
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2 2
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
+      - 魔戒.net-10
+      - jc.ap.fastqvpn.com:29980 2
+      - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2
+      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2
+      - 魔戒.net 🇹🇼 10台湾∞中转
+      - 魔戒.net-6
+      - 魔戒.net-13
+      - 魔戒.net-26 2
+      - 魔戒.net-12
+      - 魔戒.net *🇨🇳台湾TW 1068【hi-moon.pw】
+      - 魔戒.net-26 3
+      - 魔戒.net-052
+      - 魔戒.net-18
+      - 魔戒.net-29
+      - "*🇨🇳台湾TW 1059【hi-moon.pw】"
+      - 魔戒.net-15
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3
+      - 魔戒.net-060
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3 2
+      - 魔戒.net-19
+      - 魔戒.net-14
+      - 魔戒.net 日本JP 1996【hi-moon.pw】
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1
+      - 魔戒.net 🇯🇵JP-106.180.225.69-40
+      - 魔戒.net 🇸🇬 T.20.新.中继3
+      - 魔戒.net 🇸🇬 T.20.新.中继3 2
+      - 魔戒.net 🇮🇳 04印度∞中转
+      - 魔戒.net 🇸🇬 T.20.新.中继3 3
       - 魔戒.net 🇭🇰 T.00.港.HKG.中继1 2
       - 魔戒.net 🇭🇰 T.00.港.HKG.中继1 3
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3 2
-      - 魔戒.net-10
-      - 魔戒.net-14
-      - 魔戒.net-13
-      - 魔戒.net-18
-      - 魔戒.net-058
       - 魔戒.net *🇩🇪德国DE 1064【hi-moon.pw】
-      - 魔戒.net 🇸🇬 T.20.新.中继3
-      - 魔戒.net-19
-      - 魔戒.net-060
-      - 魔戒.net *🇩🇪德国DE 1066【hi-moon.pw】
-      - 魔戒.net-052
-      - "*🇨🇳台湾TW 1059【hi-moon.pw】"
-      - 魔戒.net 63
       - 魔戒.net 63 2
-      - "*🇷🇺俄罗斯RU 1055【hi-moon.pw】"
-      - 魔戒.net-29
-      - 魔戒.net-28
-      - 魔戒.net-15
-      - 魔戒.net 🇯🇵JP-106.180.225.69-40
-      - 魔戒.net-28 2
-      - 魔戒.net 日本JP 1996【hi-moon.pw】
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2 2
-      - 魔戒.net-28 3
-      - 魔戒.net香港_R_160
-      - 魔戒.net 🇸🇬 T.20.新.中继3 2
-      - 魔戒.net-9
-      - 魔戒.net *🇩🇪德国DE 1063【hi-moon.pw】
       - "*🇩🇪德国DE 1072【hi-moon.pw】"
-      - 魔戒.net-26 2
-      - 魔戒.net 🇸🇬 T.20.新.中继3 3
-      - 魔戒.net-8
-      - 魔戒.net *🇨🇳台湾TW 1068【hi-moon.pw】
-      - 魔戒.net-12
-      - "*🇸🇬新加坡SG 2399【hi-moon.pw】"
+      - 魔戒.net-058
       - 魔戒.net-25
+      - 魔戒.net-28
+      - "*🇷🇺俄罗斯RU 1055【hi-moon.pw】"
+      - 魔戒.net-444
+      - 魔戒.net-333
+      - 魔戒.net *🇩🇪德国DE 1066【hi-moon.pw】
+      - 魔戒.net 63 3
+      - 魔戒.net 🇩🇪 13德国∞中转
+      - 魔戒.net *🇩🇪德国DE 1063【hi-moon.pw】
+      - 魔戒.net-222
+      - 魔戒.net-8
+      - 魔戒.net 86
+      - 魔戒.net-9
+      - 魔戒.net-28 2
+      - 魔戒.net-111
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -3028,10 +3058,36 @@ proxy-groups:
       - US, 4
       - CA,
       - US, 5
+      - _US_美国
+      - _CA_加拿大
       - _GB_英国
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _FR_法国
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
       - _GB_英国 2
-      - _VN_越南
-      - _VN_越南 2
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _GB_英国 3
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - default_name
+      - _US_美国 2
+      - _US_美国 3
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _FR_法国 2
+      - _FR_法国 3
+      - _CA_加拿大 18
+      - _US_美国 4
+      - _CA_加拿大 19
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3590,114 +3646,103 @@ proxy-groups:
       - 更新于:03-13 20:00:02 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
-      - 魔戒.net-000
-      - 魔戒.net-111
-      - 魔戒.net-222
-      - 魔戒.net-444
-      - 魔戒.net-333
-      - 1 魔戒.net
-      - 7 魔戒.net
-      - 5 魔戒.net
-      - 2 魔戒.net
-      - 3 魔戒.net
-      - 4 魔戒.net
-      - 8 魔戒.net
-      - 6 魔戒.net
-      - 魔戒.net 🇭🇰香港-核心访问 HKT
-      - 魔戒.net香港免流节点3号|10Gps
-      - 魔戒.net 4.61|AzureHongKong2Vpnpool专属 2
-      - 魔戒.net KINGS HK 01
-      - 魔戒.net【426节点池】HK_1759
-      - 魔戒.net 🇭🇰香港|IPEL| 中环
-      - 魔戒.net 3.95|狮城  Azure InfiniPort
-      - 魔戒.net 🇯🇵 JP_740 | 6.35Mb
-      - 魔戒.net gsou12_65
-      - 魔戒.net gsou9_62
-      - 魔戒.net gsou10_63
-      - 魔戒.net gsou11_64
-      - 魔戒.net gsou3_56
-      - 魔戒.net gsou4_57
-      - 魔戒.net SG 5 Pro
-      - 魔戒.net不限时 00:00~24:00 白嫖线路 | 新加坡 | 1 | 限速 30M
-      - 魔戒.net <S>直连｜香港 Azure
-      - 魔戒.net 8A5【精品】上海-香港PCCW | V2RAY隧道 |
-      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
+      - 香港(中国)🚀[极速稳定]
+      - jc.ap.fastqvpn.com:29980
+      - 3.37.127.222:43293
+      - 魔戒.net-26
+      - 魔戒.net 63
+      - 魔戒.net免费-日本1
+      - 魔戒.net HK-Azure|香港
+      - 魔戒.net HK-BGP.0|香港
+      - 魔戒.net v1|日本|E|3台负载|原生 366
+      - 魔戒.net v1|香港|B|9台负载|原生 338
+      - 魔戒.net v1|南美|C|6台负载 314
+      - 魔戒.net v1|南美|B|9台负载 304
+      - 魔戒.net v1|日本|E|3台负载|原生 359
+      - 魔戒.net新加坡
+      - 魔戒.net_469 |33.54Mb
+      - 魔戒.net 🇨🇳 CN_688
+      - 魔戒.net_471 |32.46Mb
+      - 魔戒.net 🇨🇳 CN_690 | 6.69Mb
+      - 魔戒.net_472 |33.46Mb
+      - 魔戒.net 🇨🇳 CN_683
+      - 魔戒.net_470 |26.92Mb
+      - 魔戒.net_560 |12.93Mb
+      - 魔戒.net_468 |19.77Mb
+      - 魔戒.net 🇯🇵 JP_759 | 3.82Mb
+      - 魔戒.net_557 | 7.24Mb
       - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
-      - 魔戒.net 🇹🇼 10台湾∞中转
-      - 魔戒.net 🇮🇳 04印度∞中转
-      - 魔戒.net 🇷🇺 01俄罗斯∞中转
-      - 魔戒.net 🇩🇪 13德国∞中转
-      - 魔戒.net*🇭🇰香港HK 1801【hi-moon.pw】
-      - 魔戒.net*🇭🇰香港HK 1835【hi-moon.pw】
-      - 魔戒.net新加坡SG 2419【hi-moon.pw】
-      - 魔戒.net*🇭🇰香港HK 1143【hi-moon.pw】
-      - 魔戒.net*🇰🇷韩国KR 1798【hi-moon.pw】
-      - 魔戒.net 🇭🇰香港(绿头外网集团)(Public) 9
-      - 魔戒.net 🇭🇰香港(绿头外网集团)(Public) 10
-      - 魔戒.net 🇹🇼台灣(绿头外网集团)(Public) 8
-      - 魔戒.net 🇹🇼台灣(绿头外网集团)(Public) 5
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 9
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 15
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 2
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 19
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 3
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 7
-      - 魔戒.net香港4132a
-      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]
-      - 魔戒.net-香港(中国)🚀[极速稳定]
-      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
-      - 魔戒.net香港1029a
-      - 魔戒.net香港1002b
+      - 魔戒.net 8A3【精品】上海-香港WTT | V2RAY隧道 |
+      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
+      - 魔戒.net 8A6【精品】广州-香港PCCW | V2RAY隧道 |
+      - 魔戒.net 8B2【精品】广州-台湾 | V2RAY隧道 |
+      - 魔戒.net 8B1【精品】上海-台湾 | V2RAY隧道 |
+      - 魔戒.net日本东京 |AS|1G|J2
+      - 魔戒.net 03-HK
+      - 魔戒.net日本JP 174【hi-moon.pw】
+      - 魔戒.net日本JP 172【hi-moon.pw】
       - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -42 [IPLC]
+      - 魔戒.net香港1029a
       - 魔戒.net香港1027b
       - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2
-      - 魔戒.net 86
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1
-      - 魔戒.net-26
-      - jc.ap.fastqvpn.com:29980
-      - 魔戒.net-6
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3
-      - 魔戒.net香港1027c
+      - 魔戒.net香港4132a
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]
       - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -30 [HKBN] [IPLC]
+      - 魔戒.net-香港(中国)🚀[极速稳定]
+      - 魔戒.net香港1027c
+      - 魔戒.net香港1002b
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2 2
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
+      - 魔戒.net-10
+      - jc.ap.fastqvpn.com:29980 2
+      - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2
+      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2
+      - 魔戒.net 🇹🇼 10台湾∞中转
+      - 魔戒.net-6
+      - 魔戒.net-13
+      - 魔戒.net-26 2
+      - 魔戒.net-12
+      - 魔戒.net *🇨🇳台湾TW 1068【hi-moon.pw】
+      - 魔戒.net-26 3
+      - 魔戒.net-052
+      - 魔戒.net-18
+      - 魔戒.net-29
+      - "*🇨🇳台湾TW 1059【hi-moon.pw】"
+      - 魔戒.net-15
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3
+      - 魔戒.net-060
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3 2
+      - 魔戒.net-19
+      - 魔戒.net-14
+      - 魔戒.net 日本JP 1996【hi-moon.pw】
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1
+      - 魔戒.net 🇯🇵JP-106.180.225.69-40
+      - 魔戒.net 🇸🇬 T.20.新.中继3
+      - 魔戒.net 🇸🇬 T.20.新.中继3 2
+      - 魔戒.net 🇮🇳 04印度∞中转
+      - 魔戒.net 🇸🇬 T.20.新.中继3 3
       - 魔戒.net 🇭🇰 T.00.港.HKG.中继1 2
       - 魔戒.net 🇭🇰 T.00.港.HKG.中继1 3
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3 2
-      - 魔戒.net-10
-      - 魔戒.net-14
-      - 魔戒.net-13
-      - 魔戒.net-18
-      - 魔戒.net-058
       - 魔戒.net *🇩🇪德国DE 1064【hi-moon.pw】
-      - 魔戒.net 🇸🇬 T.20.新.中继3
-      - 魔戒.net-19
-      - 魔戒.net-060
-      - 魔戒.net *🇩🇪德国DE 1066【hi-moon.pw】
-      - 魔戒.net-052
-      - "*🇨🇳台湾TW 1059【hi-moon.pw】"
-      - 魔戒.net 63
       - 魔戒.net 63 2
-      - "*🇷🇺俄罗斯RU 1055【hi-moon.pw】"
-      - 魔戒.net-29
-      - 魔戒.net-28
-      - 魔戒.net-15
-      - 魔戒.net 🇯🇵JP-106.180.225.69-40
-      - 魔戒.net-28 2
-      - 魔戒.net 日本JP 1996【hi-moon.pw】
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2 2
-      - 魔戒.net-28 3
-      - 魔戒.net香港_R_160
-      - 魔戒.net 🇸🇬 T.20.新.中继3 2
-      - 魔戒.net-9
-      - 魔戒.net *🇩🇪德国DE 1063【hi-moon.pw】
       - "*🇩🇪德国DE 1072【hi-moon.pw】"
-      - 魔戒.net-26 2
-      - 魔戒.net 🇸🇬 T.20.新.中继3 3
-      - 魔戒.net-8
-      - 魔戒.net *🇨🇳台湾TW 1068【hi-moon.pw】
-      - 魔戒.net-12
-      - "*🇸🇬新加坡SG 2399【hi-moon.pw】"
+      - 魔戒.net-058
       - 魔戒.net-25
+      - 魔戒.net-28
+      - "*🇷🇺俄罗斯RU 1055【hi-moon.pw】"
+      - 魔戒.net-444
+      - 魔戒.net-333
+      - 魔戒.net *🇩🇪德国DE 1066【hi-moon.pw】
+      - 魔戒.net 63 3
+      - 魔戒.net 🇩🇪 13德国∞中转
+      - 魔戒.net *🇩🇪德国DE 1063【hi-moon.pw】
+      - 魔戒.net-222
+      - 魔戒.net-8
+      - 魔戒.net 86
+      - 魔戒.net-9
+      - 魔戒.net-28 2
+      - 魔戒.net-111
   - name: 📲 电报消息
     type: select
     proxies:
@@ -3839,8 +3884,10 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
       - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
+      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
+      - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2
+      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3942,39 +3989,35 @@ proxy-groups:
       - 54香港∞中转
       - 55香港∞中转
       - 56香港∞直连
-      - 魔戒.net 🇭🇰香港-核心访问 HKT
-      - 魔戒.net香港免流节点3号|10Gps
-      - 魔戒.net KINGS HK 01
-      - 魔戒.net【426节点池】HK_1759
-      - 魔戒.net 🇭🇰香港|IPEL| 中环
-      - 魔戒.net <S>直连｜香港 Azure
-      - 魔戒.net 8A5【精品】上海-香港PCCW | V2RAY隧道 |
-      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
+      - 香港(中国)🚀[极速稳定]
+      - 魔戒.net HK-Azure|香港
+      - 魔戒.net HK-BGP.0|香港
+      - 魔戒.net v1|香港|B|9台负载|原生 338
       - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
-      - 魔戒.net*🇭🇰香港HK 1801【hi-moon.pw】
-      - 魔戒.net*🇭🇰香港HK 1835【hi-moon.pw】
-      - 魔戒.net*🇭🇰香港HK 1143【hi-moon.pw】
-      - 魔戒.net 🇭🇰香港(绿头外网集团)(Public) 9
-      - 魔戒.net 🇭🇰香港(绿头外网集团)(Public) 10
-      - 魔戒.net香港4132a
-      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]
-      - 魔戒.net-香港(中国)🚀[极速稳定]
-      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
-      - 魔戒.net香港1029a
-      - 魔戒.net香港1002b
+      - 魔戒.net 8A3【精品】上海-香港WTT | V2RAY隧道 |
+      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
+      - 魔戒.net 8A6【精品】广州-香港PCCW | V2RAY隧道 |
+      - 魔戒.net 03-HK
       - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -42 [IPLC]
+      - 魔戒.net香港1029a
       - 魔戒.net香港1027b
       - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3
-      - 魔戒.net香港1027c
+      - 魔戒.net香港4132a
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]
       - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -30 [HKBN] [IPLC]
+      - 魔戒.net-香港(中国)🚀[极速稳定]
+      - 魔戒.net香港1027c
+      - 魔戒.net香港1002b
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2 2
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
+      - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2
+      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3 2
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1
       - 魔戒.net 🇭🇰 T.00.港.HKG.中继1 2
       - 魔戒.net 🇭🇰 T.00.港.HKG.中继1 3
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3 2
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2 2
-      - 魔戒.net香港_R_160
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -4014,15 +4057,15 @@ proxy-groups:
       - _日本_FMYC-220311_134
       - _日本_FMYC-220311_163
       - github.com/freefq - 日本东京Linode数据中心 4
-      - 魔戒.net 🇯🇵 JP_740 | 6.35Mb
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 9
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 15
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 2
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 19
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 3
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 7
-      - 魔戒.net 🇯🇵JP-106.180.225.69-40
+      - 魔戒.net免费-日本1
+      - 魔戒.net v1|日本|E|3台负载|原生 366
+      - 魔戒.net v1|日本|E|3台负载|原生 359
+      - 魔戒.net 🇯🇵 JP_759 | 3.82Mb
+      - 魔戒.net日本东京 |AS|1G|J2
+      - 魔戒.net日本JP 174【hi-moon.pw】
+      - 魔戒.net日本JP 172【hi-moon.pw】
       - 魔戒.net 日本JP 1996【hi-moon.pw】
+      - 魔戒.net 🇯🇵JP-106.180.225.69-40
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -4179,6 +4222,10 @@ proxy-groups:
       - US, 3
       - US, 4
       - US, 5
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
       - 美国（YouTube资源分享者） 34
       - 美国（YouTube资源分享者） 35
       - 美国（YouTube资源分享者） 36
@@ -4374,6 +4421,8 @@ proxy-groups:
       - github.com/freefq - 北美地区  11
       - github.com/freefq - 美国CloudFlare节点 13
       - github.com/freefq - 北美地区  14
+      - 魔戒.net v1|南美|C|6台负载 314
+      - 魔戒.net v1|南美|B|9台负载 304
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -4405,11 +4454,16 @@ proxy-groups:
       - 09台湾∞中转
       - 10台湾∞中转
       - 11台湾∞中转
+      - 魔戒.net v1|日本|E|3台负载|原生 366
+      - 魔戒.net v1|香港|B|9台负载|原生 338
+      - 魔戒.net v1|南美|C|6台负载 314
+      - 魔戒.net v1|南美|B|9台负载 304
+      - 魔戒.net v1|日本|E|3台负载|原生 359
+      - 魔戒.net 8B2【精品】广州-台湾 | V2RAY隧道 |
+      - 魔戒.net 8B1【精品】上海-台湾 | V2RAY隧道 |
       - 魔戒.net 🇹🇼 10台湾∞中转
-      - 魔戒.net 🇹🇼台灣(绿头外网集团)(Public) 8
-      - 魔戒.net 🇹🇼台灣(绿头外网集团)(Public) 5
-      - "*🇨🇳台湾TW 1059【hi-moon.pw】"
       - 魔戒.net *🇨🇳台湾TW 1068【hi-moon.pw】
+      - "*🇨🇳台湾TW 1059【hi-moon.pw】"
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -4440,11 +4494,7 @@ proxy-groups:
       - 18新加坡∞中转
       - 19新加坡∞中转
       - 20新加坡∞中转
-      - 魔戒.net 3.95|狮城  Azure InfiniPort
-      - 魔戒.net SG 5 Pro
-      - 魔戒.net不限时 00:00~24:00 白嫖线路 | 新加坡 | 1 | 限速 30M
-      - 魔戒.net新加坡SG 2419【hi-moon.pw】
-      - "*🇸🇬新加坡SG 2399【hi-moon.pw】"
+      - 魔戒.net新加坡
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -4460,12 +4510,13 @@ proxy-groups:
       - 45韩国∞中转
       - 46韩国∞中转
       - 47韩国∞中转
-      - 魔戒.net*🇰🇷韩国KR 1798【hi-moon.pw】
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
       - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
+      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
+      - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2
+      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
