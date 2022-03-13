@@ -5,25 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: default_name_1, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大_2, server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国_3, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_4, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _GB_英国_5, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: default_name_6, server: 104.27.89.125, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess}, udp: true}
-  - {name: _FR_法国_7, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国->🇫🇷_FR_法国_8, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shuier}, udp: true}
-  - {name: _VN_越南_9, server: 103.81.85.191, port: 4588, type: vmess, uuid: c031e096-2d02-39da-8d81-c651e09ed0d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /doufen}, udp: true}
-  - {name: _CA_加拿大_10, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_11, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大_12, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _GB_英国_13, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _GB_英国_14, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _HK_香港->🇺🇸_US_美国_15, server: 20.187.183.67, port: 46899, type: vmess, uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /liuwei}, udp: true}
-  - {name: _FR_法国_16, server: 51.255.66.185, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大_17, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大_18, server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: default_name_19, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_1, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大_2, server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _VN_越南_3, server: 103.81.85.191, port: 4588, type: vmess, uuid: c031e096-2d02-39da-8d81-c651e09ed0d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /doufen}, udp: true}
+  - {name: default_name_4, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
+  - {name: _CA_加拿大_5, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _FR_法国_6, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_7, server: 134.195.196.68, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: default_name_8, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: cu.chashao.buzz, port: 21213, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
@@ -1180,24 +1169,24 @@ proxies:
   - {name: Ytb:鹏哥分享_加拿大_30, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_31, server: 134.195.196.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_32, server: 134.195.196.81, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: github.com/freefq - 美国  1, server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
-  - {name: github.com/freefq - 美国  2, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
-  - {name: github.com/freefq - 北美地区  3, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: github.com/freefq - 法国OVH 5, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: github.com/freefq - 北美地区  6, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: github.com/freefq - 北美地区  7, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: github.com/freefq - 北美地区  8, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: github.com/freefq - 澳大利亚  9, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 10, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
-  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 11, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: github.com/freefq - 北美地区  12, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 1, server: app.ssfree.ru, port: 443, type: vmess, uuid: 0eb3512a-a282-11ec-9459-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 美国  2, server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
+  - {name: github.com/freefq - 北美地区  4, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: github.com/freefq - 美国  6, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
+  - {name: github.com/freefq - 法国OVH 7, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 8, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: github.com/freefq - 日本东京Linode数据中心 9, server: lijp.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 北美地区  10, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: github.com/freefq - 北美地区  11, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 北美地区  12, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: github.com/freefq - 美国  13, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: github.com/freefq - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 14, server: 52.193.99.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: github.com/freefq - 美国  15, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: github.com/freefq - 北美地区  14, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: github.com/freefq - 美国俄勒冈州波特兰Amazon数据中心 15, server: 52.11.250.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 请换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 更新于:03-13 12:00:01 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 更新于:03-13 16:00:01 - by BuLink.xyz, server: 如超过4小时请更新订阅, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 将于近期停止ssr更新 2, server: 将于近期停止ssr更新, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 请切换到v2ray, server: 请换到v2ray, port: 80, type: ssr, cipher: dummy, password: BuLink.xyz, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 魔戒.net-000, server: 25.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /google.com, headers: {Host: 25.72vpn.xyz}}, udp: true}
@@ -1324,25 +1313,14 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - default_name_1
+      - _US_美国_1
       - _CA_加拿大_2
-      - _US_美国_3
-      - _CA_加拿大_4
-      - _GB_英国_5
-      - default_name_6
-      - _FR_法国_7
-      - _US_美国->🇫🇷_FR_法国_8
-      - _VN_越南_9
-      - _CA_加拿大_10
-      - _US_美国_11
-      - _CA_加拿大_12
-      - _GB_英国_13
-      - _GB_英国_14
-      - _HK_香港->🇺🇸_US_美国_15
-      - _FR_法国_16
-      - _CA_加拿大_17
-      - _CA_加拿大_18
-      - default_name_19
+      - _VN_越南_3
+      - default_name_4
+      - _CA_加拿大_5
+      - _FR_法国_6
+      - _CA_加拿大_7
+      - default_name_8
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -2499,24 +2477,24 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_30
       - Ytb:鹏哥分享_加拿大_31
       - Ytb:鹏哥分享_加拿大_32
-      - github.com/freefq - 美国  1
+      - github.com/freefq - 美国CloudFlare节点 1
       - github.com/freefq - 美国  2
-      - github.com/freefq - 北美地区  3
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4
-      - github.com/freefq - 法国OVH 5
-      - github.com/freefq - 北美地区  6
-      - github.com/freefq - 北美地区  7
-      - github.com/freefq - 北美地区  8
-      - github.com/freefq - 澳大利亚  9
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 10
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 11
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
+      - github.com/freefq - 北美地区  4
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5
+      - github.com/freefq - 美国  6
+      - github.com/freefq - 法国OVH 7
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 8
+      - github.com/freefq - 日本东京Linode数据中心 9
+      - github.com/freefq - 北美地区  10
+      - github.com/freefq - 北美地区  11
       - github.com/freefq - 北美地区  12
       - github.com/freefq - 美国  13
-      - github.com/freefq - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 14
-      - github.com/freefq - 美国  15
+      - github.com/freefq - 北美地区  14
+      - github.com/freefq - 美国俄勒冈州波特兰Amazon数据中心 15
       - 请换到v2ray
       - 将于近期停止ssr更新
-      - 更新于:03-13 12:00:01 - by BuLink.xyz
+      - 更新于:03-13 16:00:01 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 魔戒.net-000
@@ -2632,25 +2610,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - default_name_1
+      - _US_美国_1
       - _CA_加拿大_2
-      - _US_美国_3
-      - _CA_加拿大_4
-      - _GB_英国_5
-      - default_name_6
-      - _FR_法国_7
-      - _US_美国->🇫🇷_FR_法国_8
-      - _VN_越南_9
-      - _CA_加拿大_10
-      - _US_美国_11
-      - _CA_加拿大_12
-      - _GB_英国_13
-      - _GB_英国_14
-      - _HK_香港->🇺🇸_US_美国_15
-      - _FR_法国_16
-      - _CA_加拿大_17
-      - _CA_加拿大_18
-      - default_name_19
+      - _VN_越南_3
+      - default_name_4
+      - _CA_加拿大_5
+      - _FR_法国_6
+      - _CA_加拿大_7
+      - default_name_8
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -3807,24 +3774,24 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_30
       - Ytb:鹏哥分享_加拿大_31
       - Ytb:鹏哥分享_加拿大_32
-      - github.com/freefq - 美国  1
+      - github.com/freefq - 美国CloudFlare节点 1
       - github.com/freefq - 美国  2
-      - github.com/freefq - 北美地区  3
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4
-      - github.com/freefq - 法国OVH 5
-      - github.com/freefq - 北美地区  6
-      - github.com/freefq - 北美地区  7
-      - github.com/freefq - 北美地区  8
-      - github.com/freefq - 澳大利亚  9
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 10
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 11
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
+      - github.com/freefq - 北美地区  4
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5
+      - github.com/freefq - 美国  6
+      - github.com/freefq - 法国OVH 7
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 8
+      - github.com/freefq - 日本东京Linode数据中心 9
+      - github.com/freefq - 北美地区  10
+      - github.com/freefq - 北美地区  11
       - github.com/freefq - 北美地区  12
       - github.com/freefq - 美国  13
-      - github.com/freefq - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 14
-      - github.com/freefq - 美国  15
+      - github.com/freefq - 北美地区  14
+      - github.com/freefq - 美国俄勒冈州波特兰Amazon数据中心 15
       - 请换到v2ray
       - 将于近期停止ssr更新
-      - 更新于:03-13 12:00:01 - by BuLink.xyz
+      - 更新于:03-13 16:00:01 - by BuLink.xyz
       - 将于近期停止ssr更新 2
       - 请切换到v2ray
       - 魔戒.net-000
@@ -4112,7 +4079,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _HK_香港->🇺🇸_US_美国_15
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
@@ -4263,6 +4229,7 @@ proxy-groups:
       - _日本_FMYC-220311_109
       - _日本_FMYC-220311_134
       - _日本_FMYC-220311_163
+      - github.com/freefq - 日本东京Linode数据中心 9
       - 魔戒.net 🇯🇵 JP_740 | 6.35Mb
       - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 9
       - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 15
@@ -4277,10 +4244,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_3
-      - _US_美国->🇫🇷_FR_法国_8
-      - _US_美国_11
-      - _HK_香港->🇺🇸_US_美国_15
+      - _US_美国_1
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -4632,19 +4596,19 @@ proxy-groups:
       - 40美国∞直连
       - 41美国∞直连
       - Ytb:鹏哥分享_高速(美国)3
-      - github.com/freefq - 美国  1
+      - github.com/freefq - 美国CloudFlare节点 1
       - github.com/freefq - 美国  2
-      - github.com/freefq - 北美地区  3
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 4
-      - github.com/freefq - 北美地区  6
-      - github.com/freefq - 北美地区  7
-      - github.com/freefq - 北美地区  8
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 10
-      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 11
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 3
+      - github.com/freefq - 北美地区  4
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 5
+      - github.com/freefq - 美国  6
+      - github.com/freefq - 美国德克萨斯州达拉斯Psychz数据中心 8
+      - github.com/freefq - 北美地区  10
+      - github.com/freefq - 北美地区  11
       - github.com/freefq - 北美地区  12
       - github.com/freefq - 美国  13
-      - github.com/freefq - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 14
-      - github.com/freefq - 美国  15
+      - github.com/freefq - 北美地区  14
+      - github.com/freefq - 美国俄勒冈州波特兰Amazon数据中心 15
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
