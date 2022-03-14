@@ -667,81 +667,40 @@ proxies:
   - {name: "US, 4", server: 65.49.223.117, port: 239, type: ss, cipher: aes-256-cfb, password: bwhskrskr06, udp: true}
   - {name: "CA,", server: 3.36.121.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "US, 5", server: 97.64.31.80, port: 247, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: 中国_OK_1, server: 120.232.174.85, port: 45647, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
-  - {name: 香港_OK_2, server: 34.92.107.101, port: 26066, type: vmess, uuid: 49dd4da0-f306-4ef6-8a8c-17fb6a77340b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港_OK_3, server: 103.135.249.25, port: 153, type: vmess, uuid: cd93c530-a7fe-3f44-985d-5f0836f5e83b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 74527113825.laowanxiang.com}}, udp: true}
-  - {name: 日本_OK_4, server: kix.bgnac.com, port: 80, type: vmess, uuid: 63e07aea-fb06-4fc8-b3cc-c19d1d5767db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kix.bgnac.com}}, udp: true}
-  - {name: 美国_OK_5, server: sin.bgnac.com, port: 80, type: vmess, uuid: 63e07aea-fb06-4fc8-b3cc-c19d1d5767db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sin.bgnac.com}}, udp: true}
-  - {name: 中国_OK_6, server: 9c29ba40.ddns.tokyo, port: 46392, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /74af4591-6b6c-4205-a1fa-331dab9103c6, headers: {Host: t.bilibili.com}}, udp: true}
-  - {name: 美国_OK_7, server: mb22.ml, port: 53143, type: vmess, uuid: 04f2a2c2-d6a2-4e82-9862-a1aa008dc6d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国_OK_8, server: 120.232.174.85, port: 45445, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
-  - {name: 日本_OK_9, server: nrt2.bgnac.com, port: 80, type: vmess, uuid: 63e07aea-fb06-4fc8-b3cc-c19d1d5767db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nrt2.bgnac.com}}, udp: true}
-  - {name: 澳大利亚_OK_10, server: 129.154.50.0, port: 29363, type: vmess, uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本_OK_11, server: 40.74.119.112, port: 4256, type: vmess, uuid: 79902e3a-6c8f-40f8-a367-74079db1fa32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港_OK_12, server: 207.46.131.81, port: 12455, type: vmess, uuid: e1e7c8da-c24b-4a2f-d4e8-c492f26f0b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 中国_OK_13, server: 120.233.147.118, port: 56390, type: vmess, uuid: e9f489b6-af82-44a4-a23f-f37374cbd4d3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: usaarm1.oracleusa.ml, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 中国_OK_14, server: 864e2e1a.ddns.tokyo, port: 57551, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /81be8658-391b-42cb-97e0-eaaa3d1bd7de, headers: {Host: account.weibo.com}}, udp: true}
-  - {name: 中国_OK_15, server: 120.233.147.118, port: 53962, type: vmess, uuid: 3b149bd9-83a1-4779-9d2c-a6b72bfd5e75, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sw.oracleusa.ml, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 中国_OK_16, server: 864e2e1a.ddns.tokyo, port: 42727, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2e6a1066-e5f5-46f1-8e6a-80727460e879, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 韩国_OK_17, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: fa0fde96-4c33-4034-b3a7-45df14d19f1b, skip-cert-verify: true, udp: true}
-  - {name: 中国_OK_18, server: 120.233.147.118, port: 58938, type: vmess, uuid: 5158d1fe-c744-4679-842c-67318fb18d87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uae.oracleusa.ml, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国_OK_19, server: www.gomacau.gq, port: 443, type: trojan, password: b5fc9fa9-796d-4185-a316-395ecac04a85, skip-cert-verify: true, udp: true}
-  - {name: 美国_OK_20, server: 3c08v1.hk.static.ipv4.oreoapi.com, port: 80, type: vmess, uuid: 24C621F9-AEB4-E792-2E5C-8999FF44E896, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度_OK_21, server: in1.qingyun123.xyz, port: 443, type: trojan, password: fa0fde96-4c33-4034-b3a7-45df14d19f1b, skip-cert-verify: true, udp: true}
-  - {name: 美国_OK_22, server: ss.2024.ml, port: 8080, type: vmess, uuid: a1ed9c3b-2412-4fb4-a731-4d2dc2842c35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ss.2024.ml}}, udp: true}
-  - {name: 中国_OK_23, server: 9c29ba40.ddns.tokyo, port: 50452, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6447d108-ae3d-488b-9f9f-0571f3fa17fa, headers: {Host: www.so.com}}, udp: true}
-  - {name: 中国_OK_24, server: 864e2e1a.ddns.tokyo, port: 57551, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6f153699-4408-460c-be5f-fe104a7e9707, headers: {Host: weishi.360.cn}}, udp: true}
-  - {name: 香港_OK_25, server: 13.75.105.89, port: 30554, type: vmess, uuid: 10087c2b-3d3e-40e1-a75b-e4f34bc1cf08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.75.105.89}}, udp: true}
-  - {name: 美国_OK_26, server: smoracle2.515223.xyz, port: 25859, type: vmess, uuid: 620e3569-7653-4456-9f71-c6f19f3839fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国_OK_27, server: b7a4e9f8.ddns.tokyo, port: 36265, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f907fc5d-a568-4596-aabb-d27288fdd74e, headers: {Host: image.baidu.com}}, udp: true}
-  - {name: 美国_OK_28, server: 1m8hov.jp.static.ipv4.oreoapi.com, port: 8080, type: vmess, uuid: 24C621F9-AEB4-E792-2E5C-8999FF44E896, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国_OK_29, server: san.515223.xyz, port: 17247, type: vmess, uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: san.515223.xyz}}, udp: true}
-  - {name: 美国_OK_30, server: ericpoweron.pl.eu.org, port: 443, type: vmess, uuid: 43839f89-34d1-4144-8764-40c90c307058, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 美国_OK_31, server: hk-v.apqiang.com, port: 12001, type: trojan, password: 4d0647f3-144b-3878-aef8-d19d465f387f, skip-cert-verify: true, udp: true}
-  - {name: 美国_OK_32, server: 173.82.120.9, port: 59687, type: vmess, uuid: a8035c81-f99e-466f-a515-3b6bb2fe81d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 阿联酋_OK_33, server: 71.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /google.com, headers: {Host: 71.72vpn.xyz}}, udp: true}
-  - {name: 中国_OK_34, server: 120.232.192.119, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: 香港_OK_35, server: 52.184.99.90, port: 8010, type: vmess, uuid: b686abdb-118c-422e-97e0-57c1fa0e1a26, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bi.oracleusa.ml, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 香港_OK_36, server: 13.75.105.89, port: 30554, type: vmess, uuid: 10087c2b-3d3e-40e1-a75b-e4f34bc1cf08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 加拿大_OK_37, server: ca02.holiganfan.com, port: 10088, type: trojan, password: 883f3fef-0d16-4ed0-b463-e61667b47eef, skip-cert-verify: true, udp: true}
-  - {name: 香港_OK_38, server: 52.184.99.90, port: 8010, type: vmess, uuid: 3b149bd9-83a1-4779-9d2c-a6b72bfd5e75, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bi.oracleusa.ml, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 中国_OK_39, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: 美国_OK_40, server: smoracle.515223.xyz, port: 51690, type: vmess, uuid: 30ecebb3-1240-44e1-8551-a100ad13e330, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国_OK_41, server: 20.212.220.101, port: 8010, type: vmess, uuid: b266714b-cfbb-4ded-b780-4d91d4bd1e63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bi.oracleusa.ml, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 阿联酋_OK_42, server: 74.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /google.com, headers: {Host: 74.72vpn.xyz}}, udp: true}
-  - {name: 美国_OK_43, server: us1.2024.ml, port: 8080, type: vmess, uuid: a1ed9c3b-2412-4fb4-a731-4d2dc2842c35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us1.2024.ml}}, udp: true}
-  - {name: 美国_OK_44, server: 20.212.220.101, port: 8006, type: vmess, uuid: e9f489b6-af82-44a4-a23f-f37374cbd4d3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: usaadm.oracleusa.ml, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 台湾_OK_45, server: 60.249.3.229, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: 香港_OK_46, server: 52.184.99.90, port: 8000, type: vmess, uuid: e9f489b6-af82-44a4-a23f-f37374cbd4d3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sw.gfwglass.tk, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 香港_OK_47, server: 104.208.112.171, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: 美国_OK_48, server: dynamic-us1b.obfs.xyz, port: 443, type: vmess, uuid: baa943ec-acaf-4820-ad47-883a5d706f8a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh, headers: {Host: dynamic-us1b.obfs.xyz}}, udp: true}
-  - {name: 瑞士_OK_49, server: sw.gfwglass.tk, port: 2053, type: vmess, uuid: b686abdb-118c-422e-97e0-57c1fa0e1a26, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sw.gfwglass.tk}}, udp: true}
-  - {name: 韩国_OK_50, server: gmp3.bgnac.com, port: 80, type: vmess, uuid: 63e07aea-fb06-4fc8-b3cc-c19d1d5767db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gmp3.bgnac.com}}, udp: true}
-  - {name: 美国_OK_51, server: chuna1.515223.xyz, port: 27201, type: vmess, uuid: b4f2999f-956b-4c6b-93cf-6a20bf3befa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 阿联酋_OK_52, server: ocdb.vproxy.us, port: 34567, type: trojan, password: d3db7e32-3466-49e1-96bb-421222e0b36f, skip-cert-verify: true, udp: true}
-  - {name: 美国_OK_53, server: cat.heimei.cloud, port: 443, type: vmess, uuid: fc695027-72c0-4bd0-9fb1-f25203154297, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /c60b0fb16cf/, headers: {Host: cat.heimei.cloud}}, udp: true}
-  - {name: 美国_OK_54, server: ocph.vproxy.us, port: 34567, type: trojan, password: d3db7e32-3466-49e1-96bb-421222e0b36f, skip-cert-verify: true, udp: true}
-  - {name: 英国_OK_55, server: ocld.vproxy.us, port: 34567, type: trojan, password: d3db7e32-3466-49e1-96bb-421222e0b36f, skip-cert-verify: true, udp: true}
-  - {name: 美国_OK_56, server: my.aoyyds.ga, port: 8443, type: vmess, uuid: e230dabd-7152-3c22-c9e5-79c84fb76236, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xsqfvws, headers: {Host: my.aoyyds.ga}}, udp: true}
-  - {name: 香港_OK_57, server: 13.75.115.207, port: 10035, type: vmess, uuid: 588a9e90-2989-31b5-b812-4536be0a8bae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 美国_OK_58, server: de1.qingyun123.xyz, port: 10050, type: trojan, password: fa0fde96-4c33-4034-b3a7-45df14d19f1b, skip-cert-verify: true, udp: true}
-  - {name: 中国_OK_59, server: cs.anoob.icu, port: 31013, type: vmess, uuid: 9d1cf997-df2b-3656-9fab-23f8ec81f1b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 香港_OK_60, server: azmf.cydonia.club, port: 43110, type: trojan, password: 73461aac-53a9-3326-a4a2-03dddf048d37, skip-cert-verify: true, udp: true}
-  - {name: 韩国_OK_61, server: chun2.515223.xyz, port: 57117, type: vmess, uuid: 0f5e2194-02ad-4295-db03-536381c9db48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港_OK_62, server: 43.132.201.60, port: 53407, type: vmess, uuid: 4ac48580-a2a0-4cf4-ec3d-b230ea5092fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国_OK_63, server: phx.bgnac.com, port: 80, type: vmess, uuid: 63e07aea-fb06-4fc8-b3cc-c19d1d5767db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx.bgnac.com}}, udp: true}
-  - {name: OK_64, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: ipv6.xrenblog.com}}, udp: true}
-  - {name: 美国_OK_65, server: 107.175.62.31, port: 18205, type: vmess, uuid: 51ffe900-f9a4-4517-b123-9d512d0f5069, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本_OK_66, server: rbzf.moonfree.top, port: 10080, type: vmess, uuid: d0ff23a4-37fb-4b37-810f-f16aa829a6f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v6fr1.moonfree.top, network: ws, ws-opts: {path: /, headers: {Host: v6fr.moonfree.top}}, udp: true}
-  - {name: 美国_OK_67, server: de2.2024.ga, port: 8443, type: vmess, uuid: a1ed9c3b-2412-4fb4-a731-4d2dc2842c35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de2.2024.ga}}, udp: true}
-  - {name: 中国_OK_68, server: zfd-cn1.ddnsnode.com, port: 16119, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国_OK_69, server: zfd-cn1.ddnsnode.com, port: 16119, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国_OK_70, server: zfd-cn1.ddnsnode.com, port: 16119, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国_OK_71, server: 107.173.122.51, port: 46390, type: vmess, uuid: 0cb29e24-00e5-4b4f-81b5-e0bc45e75b68, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 107.173.122.51}}, udp: true}
-  - {name: 台湾_OK_72, server: tw1.nodrop.bike, port: 80, type: vmess, uuid: 668a0e8a-42e1-42f0-89a6-549d7904540d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw1.nodrop.bike}}, udp: true}
-  - {name: OK_73, server: fr.oracleusa.ml, port: 2053, type: vmess, uuid: b686abdb-118c-422e-97e0-57c1fa0e1a26, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.oracleusa.ml}}, udp: true}
-  - {name: 韩国_OK_74, server: icn.bgnac.com, port: 80, type: vmess, uuid: 63e07aea-fb06-4fc8-b3cc-c19d1d5767db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: icn.bgnac.comaweikeji-YouTube-TG}}, udp: true}
-  - {name: 新加坡_OK_75, server: sg27.holiganfan.com, port: 10088, type: trojan, password: 883f3fef-0d16-4ed0-b463-e61667b47eef, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: 120.232.174.85, port: 27938, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: _FR_法国, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: default_name, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本 2, server: zu.n.hxray.me, port: 43944, type: ss, cipher: aes-128-gcm, password: 47a56d84-3abb-48b0-b21b-1324b4ba04a0, udp: true}
+  - {name: _GB_英国, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国 2, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _FR_法国 2, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港, server: 120.232.174.85, port: 47985, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 2, server: 120.232.174.85, port: 24089, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 3, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 7, server: 134.195.196.81, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 8, server: 134.195.196.3, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大 9, server: 134.195.196.68, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 10, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 11, server: 134.195.196.3, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 12, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 13, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 14, server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 15, server: 134.195.196.81, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大 16, server: 134.195.196.3, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _FR_法国 3, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 17, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 18, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 19, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 20, server: 134.195.196.81, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1964,81 +1923,40 @@ proxy-groups:
       - US, 4
       - CA,
       - US, 5
-      - 中国_OK_1
-      - 香港_OK_2
-      - 香港_OK_3
-      - 日本_OK_4
-      - 美国_OK_5
-      - 中国_OK_6
-      - 美国_OK_7
-      - 中国_OK_8
-      - 日本_OK_9
-      - 澳大利亚_OK_10
-      - 日本_OK_11
-      - 香港_OK_12
-      - 中国_OK_13
-      - 中国_OK_14
-      - 中国_OK_15
-      - 中国_OK_16
-      - 韩国_OK_17
-      - 中国_OK_18
-      - 美国_OK_19
-      - 美国_OK_20
-      - 印度_OK_21
-      - 美国_OK_22
-      - 中国_OK_23
-      - 中国_OK_24
-      - 香港_OK_25
-      - 美国_OK_26
-      - 中国_OK_27
-      - 美国_OK_28
-      - 美国_OK_29
-      - 美国_OK_30
-      - 美国_OK_31
-      - 美国_OK_32
-      - 阿联酋_OK_33
-      - 中国_OK_34
-      - 香港_OK_35
-      - 香港_OK_36
-      - 加拿大_OK_37
-      - 香港_OK_38
-      - 中国_OK_39
-      - 美国_OK_40
-      - 美国_OK_41
-      - 阿联酋_OK_42
-      - 美国_OK_43
-      - 美国_OK_44
-      - 台湾_OK_45
-      - 香港_OK_46
-      - 香港_OK_47
-      - 美国_OK_48
-      - 瑞士_OK_49
-      - 韩国_OK_50
-      - 美国_OK_51
-      - 阿联酋_OK_52
-      - 美国_OK_53
-      - 美国_OK_54
-      - 英国_OK_55
-      - 美国_OK_56
-      - 香港_OK_57
-      - 美国_OK_58
-      - 中国_OK_59
-      - 香港_OK_60
-      - 韩国_OK_61
-      - 香港_OK_62
-      - 美国_OK_63
-      - OK_64
-      - 美国_OK_65
-      - 日本_OK_66
-      - 美国_OK_67
-      - 中国_OK_68
-      - 中国_OK_69
-      - 中国_OK_70
-      - 美国_OK_71
-      - 台湾_OK_72
-      - OK_73
-      - 韩国_OK_74
-      - 新加坡_OK_75
+      - _CA_加拿大
+      - _CN_中国->🇯🇵_JP_日本
+      - _FR_法国
+      - _US_美国
+      - default_name
+      - _CN_中国->🇯🇵_JP_日本 2
+      - _GB_英国
+      - _GB_英国 2
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _US_美国 2
+      - _FR_法国 2
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _GB_英国 3
+      - _US_美国 3
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _FR_法国 3
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _CA_加拿大 19
+      - _CA_加拿大 20
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3261,81 +3179,40 @@ proxy-groups:
       - US, 4
       - CA,
       - US, 5
-      - 中国_OK_1
-      - 香港_OK_2
-      - 香港_OK_3
-      - 日本_OK_4
-      - 美国_OK_5
-      - 中国_OK_6
-      - 美国_OK_7
-      - 中国_OK_8
-      - 日本_OK_9
-      - 澳大利亚_OK_10
-      - 日本_OK_11
-      - 香港_OK_12
-      - 中国_OK_13
-      - 中国_OK_14
-      - 中国_OK_15
-      - 中国_OK_16
-      - 韩国_OK_17
-      - 中国_OK_18
-      - 美国_OK_19
-      - 美国_OK_20
-      - 印度_OK_21
-      - 美国_OK_22
-      - 中国_OK_23
-      - 中国_OK_24
-      - 香港_OK_25
-      - 美国_OK_26
-      - 中国_OK_27
-      - 美国_OK_28
-      - 美国_OK_29
-      - 美国_OK_30
-      - 美国_OK_31
-      - 美国_OK_32
-      - 阿联酋_OK_33
-      - 中国_OK_34
-      - 香港_OK_35
-      - 香港_OK_36
-      - 加拿大_OK_37
-      - 香港_OK_38
-      - 中国_OK_39
-      - 美国_OK_40
-      - 美国_OK_41
-      - 阿联酋_OK_42
-      - 美国_OK_43
-      - 美国_OK_44
-      - 台湾_OK_45
-      - 香港_OK_46
-      - 香港_OK_47
-      - 美国_OK_48
-      - 瑞士_OK_49
-      - 韩国_OK_50
-      - 美国_OK_51
-      - 阿联酋_OK_52
-      - 美国_OK_53
-      - 美国_OK_54
-      - 英国_OK_55
-      - 美国_OK_56
-      - 香港_OK_57
-      - 美国_OK_58
-      - 中国_OK_59
-      - 香港_OK_60
-      - 韩国_OK_61
-      - 香港_OK_62
-      - 美国_OK_63
-      - OK_64
-      - 美国_OK_65
-      - 日本_OK_66
-      - 美国_OK_67
-      - 中国_OK_68
-      - 中国_OK_69
-      - 中国_OK_70
-      - 美国_OK_71
-      - 台湾_OK_72
-      - OK_73
-      - 韩国_OK_74
-      - 新加坡_OK_75
+      - _CA_加拿大
+      - _CN_中国->🇯🇵_JP_日本
+      - _FR_法国
+      - _US_美国
+      - default_name
+      - _CN_中国->🇯🇵_JP_日本 2
+      - _GB_英国
+      - _GB_英国 2
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _US_美国 2
+      - _FR_法国 2
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _GB_英国 3
+      - _US_美国 3
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _FR_法国 3
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _CA_加拿大 19
+      - _CA_加拿大 20
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
