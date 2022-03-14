@@ -5,109 +5,101 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 【直连】HKG/香港-80端口-1_1, server: 001.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 001.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】HKG/香港-443端口-2_2, server: 002.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 002.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】TYO/东京-80端口-1_3, server: 003.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 003.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】TYO/东京-443端口-2_4, server: 004.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 004.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】SIN/狮城-80端口-1_5, server: 005.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 005.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】SIN/狮城-443端口-2_6, server: 006.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 006.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】ICN/首尔-80端口-1_7, server: 007.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 007.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】ICN/首尔-443端口-2_8, server: 008.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 008.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】SJC/圣荷西-80端口-1_9, server: 009.NA.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 009.NA.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】SJC/圣荷西-443端口-2_10, server: 010.NA.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 010.NA.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】随机节点-随机端口-1_11, server: 011.AP.POP.BIGAIRPORT.NET, port: 26901, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 011.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】随机节点-随机端口-2_12, server: 012.AP.POP.BIGAIRPORT.NET, port: 10392, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 012.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】随机节点-随机端口-3_13, server: 013.AP.POP.BIGAIRPORT.NET, port: 43566, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 013.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】随机节点-随机端口-4_14, server: 014.AP.POP.BIGAIRPORT.NET, port: 12659, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 014.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】随机节点-随机端口-5_15, server: 015.AP.POP.BIGAIRPORT.NET, port: 15092, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 015.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】HKG/香港-1_16, server: 021.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 021.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】HKG/香港-2_17, server: 022.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 022.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】TYO/东京-1_18, server: 023.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 023.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】TYO/东京-2_19, server: 024.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 024.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】SIN/狮城-1_20, server: 025.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 025.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】SIN/狮城-2_21, server: 026.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 026.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】ICN/首尔-1_22, server: 027.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 027.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】ICN/首尔-2_23, server: 028.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 028.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】SJC/圣荷西-1_24, server: 029.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 029.NA.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】SJC/圣荷西-2_25, server: 030.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 030.NA.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】HKG/香港-3_26, server: 031.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 031.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】HKG/香港-4_27, server: 032.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 032.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】TYO/东京-3_28, server: 033.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 033.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】TYO/东京-4_29, server: 034.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 034.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】SIN/狮城-3_30, server: 035.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 035.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】SIN/狮城-4_31, server: 036.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 036.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】ICN/首尔-3_32, server: 037.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 037.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】ICN/首尔-4_33, server: 038.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 038.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】SJC/圣荷西-3_34, server: 039.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 039.NA.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 【直连】SJC/圣荷西-4_35, server: 040.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 67723f5b-3c41-484a-9745-ff300f6b1f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 040.NA.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君), server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 2, server: 51.255.66.185, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 3, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 4, server: 120.232.174.85, port: 29147, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 5, server: 120.232.174.85, port: 24089, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 6, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: ipv6.xrenblog.com}}, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 7, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 8, server: 134.195.196.3, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 9, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-128-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 10, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 11, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 12, server: 138.2.76.152, port: 53143, type: vmess, uuid: 04f2a2c2-d6a2-4e82-9862-a1aa008dc6d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 13, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 14, server: mb22.ml, port: 53143, type: vmess, uuid: 04f2a2c2-d6a2-4e82-9862-a1aa008dc6d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 15, server: zz.vip341.xyz, port: 35899, type: vmess, uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: zz.vip341.xyz}}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 47.241.191.179, port: 46104, type: vmess, uuid: 5b7f1d0e-4821-4108-e4bf-fa765ab28f2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: xiaocaitou.eu.org, port: 7306, type: trojan, password: miaoge110, sni: xiaocaitou.eu.org, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: ocph.vproxy.us, port: 34567, type: trojan, password: fd54b442-3a4c-4580-bd9a-70e1b249eceb, sni: ocph.vproxy.us, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 6, server: www.tokyo2023.ga, port: 443, type: trojan, password: 4f7dc540-d244-4e64-af21-4b5bb300add3, sni: www.tokyo2023.ga, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 7, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 8, server: my.aoyyds.ga, port: 8443, type: vmess, uuid: e230dabd-7152-3c22-c9e5-79c84fb76236, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xsqfvws, headers: {Host: my.aoyyds.ga}}, udp: true}
+  - {name: _CA_加拿大_1, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国_2, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大_3, server: 134.195.196.3, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大_4, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_5, server: 120.232.174.85, port: 47985, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: _CA_加拿大_6, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: default_name_7, server: 198.41.212.5, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
+  - {name: _CA_加拿大_8, server: 134.195.196.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_9, server: 134.195.196.68, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: default_name_10, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_11, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_12, server: 120.232.174.85, port: 24089, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: _FR_法国_13, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大_14, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大_15, server: 134.195.196.3, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本_16, server: 120.232.174.85, port: 27938, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: _CA_加拿大_17, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_18, server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_19, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _VN_越南_20, server: 103.81.85.191, port: 4588, type: vmess, uuid: c031e096-2d02-39da-8d81-c651e09ed0d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /doufen}, udp: true}
+  - {name: _CA_加拿大_21, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_22, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大_23, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_24, server: 134.195.196.3, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大_25, server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大_26, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大_27, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: default_name_28, server: 120.232.174.85, port: 29147, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君), server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: ipv6.xrenblog.com}}, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 2, server: 138.2.76.152, port: 53143, type: vmess, uuid: 04f2a2c2-d6a2-4e82-9862-a1aa008dc6d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 3, server: mb22.ml, port: 53143, type: vmess, uuid: 04f2a2c2-d6a2-4e82-9862-a1aa008dc6d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 4, server: zz.vip341.xyz, port: 35899, type: vmess, uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: zz.vip341.xyz}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 47.241.191.179, port: 46104, type: vmess, uuid: 5b7f1d0e-4821-4108-e4bf-fa765ab28f2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: my.aoyyds.ga, port: 8443, type: vmess, uuid: e230dabd-7152-3c22-c9e5-79c84fb76236, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xsqfvws, headers: {Host: my.aoyyds.ga}}, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 9, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 10, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 11, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 12, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 13, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 14, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 15, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 16, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 17, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 18, server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 19, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 20, server: 67.207.92.252, port: 43700, type: vmess, uuid: 1996, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 21, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 22, server: 134.195.196.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 23, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 24, server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 25, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 26, server: 134.195.196.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 27, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 28, server: 134.195.196.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 29, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 30, server: 21.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 21.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 31, server: 120.232.239.17, port: 16119, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 32, server: 134.195.196.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 33, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 34, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 35, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 36, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 37, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 38, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 39, server: www.digitalocean.com, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws/?ed=2048", headers: {Host: download.china666.ml}}, udp: true}
-  - {name: 日本(欢迎订阅Youtube破解资源君), server: 120.232.174.85, port: 27938, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: 120.232.174.85, port: 25081, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 2, server: 120.232.174.85, port: 47985, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 3, server: 13.75.115.207, port: 10035, type: vmess, uuid: 588a9e90-2989-31b5-b812-4536be0a8bae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 4, server: 168.63.219.147, port: 10033, type: vmess, uuid: 588a9e90-2989-31b5-b812-4536be0a8bae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: 120.232.239.17, port: 16119, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 9, server: www.digitalocean.com, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws/?ed=2048", headers: {Host: download.china666.ml}}, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君), server: 13.75.115.207, port: 10035, type: vmess, uuid: 588a9e90-2989-31b5-b812-4536be0a8bae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君) 2, server: 168.63.219.147, port: 10033, type: vmess, uuid: 588a9e90-2989-31b5-b812-4536be0a8bae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
   - {name: 印度(欢迎订阅Youtube破解资源君), server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 5, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 6, server: 51.255.66.185, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 7, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 8, server: 120.232.174.85, port: 29147, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 9, server: 120.232.174.85, port: 24089, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 10, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 11, server: 134.195.196.3, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 12, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-128-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 13, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 14, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 15, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 10, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 11, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 12, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 13, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 14, server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 15, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 16, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 17, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 18, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 19, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 20, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 21, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 22, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 23, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 24, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 25, server: 134.195.196.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 26, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 27, server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 28, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 29, server: 134.195.196.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 30, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 31, server: 134.195.196.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 32, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 33, server: 134.195.196.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 34, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 35, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 36, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 37, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君), server: 120.232.174.85, port: 27938, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君) 3, server: 120.232.174.85, port: 25081, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君) 4, server: 120.232.174.85, port: 47985, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 6, server: xiaocaitou.eu.org, port: 7306, type: trojan, password: miaoge110, sni: xiaocaitou.eu.org, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 7, server: ocph.vproxy.us, port: 34567, type: trojan, password: fd54b442-3a4c-4580-bd9a-70e1b249eceb, sni: ocph.vproxy.us, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 8, server: www.tokyo2023.ga, port: 443, type: trojan, password: 4f7dc540-d244-4e64-af21-4b5bb300add3, sni: www.tokyo2023.ga, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 38, server: 21.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 21.earths.team, skip-cert-verify: true, udp: true}
   - {name: 香港（YouTube资源分享者）, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者）, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 2, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1216,45 +1208,53 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 【直连】HKG/香港-80端口-1_1
-      - 【直连】HKG/香港-443端口-2_2
-      - 【直连】TYO/东京-80端口-1_3
-      - 【直连】TYO/东京-443端口-2_4
-      - 【直连】SIN/狮城-80端口-1_5
-      - 【直连】SIN/狮城-443端口-2_6
-      - 【直连】ICN/首尔-80端口-1_7
-      - 【直连】ICN/首尔-443端口-2_8
-      - 【直连】SJC/圣荷西-80端口-1_9
-      - 【直连】SJC/圣荷西-443端口-2_10
-      - 【直连】随机节点-随机端口-1_11
-      - 【直连】随机节点-随机端口-2_12
-      - 【直连】随机节点-随机端口-3_13
-      - 【直连】随机节点-随机端口-4_14
-      - 【直连】随机节点-随机端口-5_15
-      - 【直连】HKG/香港-1_16
-      - 【直连】HKG/香港-2_17
-      - 【直连】TYO/东京-1_18
-      - 【直连】TYO/东京-2_19
-      - 【直连】SIN/狮城-1_20
-      - 【直连】SIN/狮城-2_21
-      - 【直连】ICN/首尔-1_22
-      - 【直连】ICN/首尔-2_23
-      - 【直连】SJC/圣荷西-1_24
-      - 【直连】SJC/圣荷西-2_25
-      - 【直连】HKG/香港-3_26
-      - 【直连】HKG/香港-4_27
-      - 【直连】TYO/东京-3_28
-      - 【直连】TYO/东京-4_29
-      - 【直连】SIN/狮城-3_30
-      - 【直连】SIN/狮城-4_31
-      - 【直连】ICN/首尔-3_32
-      - 【直连】ICN/首尔-4_33
-      - 【直连】SJC/圣荷西-3_34
-      - 【直连】SJC/圣荷西-4_35
+      - _CA_加拿大_1
+      - _US_美国_2
+      - _CA_加拿大_3
+      - _CA_加拿大_4
+      - _CN_中国->🇭🇰_HK_香港_5
+      - _CA_加拿大_6
+      - default_name_7
+      - _CA_加拿大_8
+      - _CA_加拿大_9
+      - default_name_10
+      - _CA_加拿大_11
+      - _CN_中国->🇭🇰_HK_香港_12
+      - _FR_法国_13
+      - _CA_加拿大_14
+      - _CA_加拿大_15
+      - _CN_中国->🇯🇵_JP_日本_16
+      - _CA_加拿大_17
+      - _CA_加拿大_18
+      - _US_美国_19
+      - _VN_越南_20
+      - _CA_加拿大_21
+      - _CA_加拿大_22
+      - _CA_加拿大_23
+      - _CA_加拿大_24
+      - _CA_加拿大_25
+      - _CA_加拿大_26
+      - _CA_加拿大_27
+      - default_name_28
       - 法国(欢迎订阅Youtube破解资源君)
       - 法国(欢迎订阅Youtube破解资源君) 2
       - 法国(欢迎订阅Youtube破解资源君) 3
       - 法国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 9
+      - 香港(欢迎订阅Youtube破解资源君)
+      - 香港(欢迎订阅Youtube破解资源君) 2
+      - 印度(欢迎订阅Youtube破解资源君)
       - 法国(欢迎订阅Youtube破解资源君) 5
       - 法国(欢迎订阅Youtube破解资源君) 6
       - 法国(欢迎订阅Youtube破解资源君) 7
@@ -1266,23 +1266,8 @@ proxy-groups:
       - 法国(欢迎订阅Youtube破解资源君) 13
       - 法国(欢迎订阅Youtube破解资源君) 14
       - 法国(欢迎订阅Youtube破解资源君) 15
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
       - 美国(欢迎订阅Youtube破解资源君) 4
       - 美国(欢迎订阅Youtube破解资源君) 5
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国(欢迎订阅Youtube破解资源君) 7
-      - 美国(欢迎订阅Youtube破解资源君) 8
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
@@ -1311,14 +1296,13 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 35
       - 欧洲(欢迎订阅Youtube破解资源君) 36
       - 欧洲(欢迎订阅Youtube破解资源君) 37
-      - 欧洲(欢迎订阅Youtube破解资源君) 38
-      - 欧洲(欢迎订阅Youtube破解资源君) 39
       - 日本(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
       - 香港(欢迎订阅Youtube破解资源君) 4
-      - 印度(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 6
+      - 美国(欢迎订阅Youtube破解资源君) 7
+      - 美国(欢迎订阅Youtube破解资源君) 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 38
       - 香港（YouTube资源分享者）
       - 美国（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
@@ -2416,45 +2400,53 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【直连】HKG/香港-80端口-1_1
-      - 【直连】HKG/香港-443端口-2_2
-      - 【直连】TYO/东京-80端口-1_3
-      - 【直连】TYO/东京-443端口-2_4
-      - 【直连】SIN/狮城-80端口-1_5
-      - 【直连】SIN/狮城-443端口-2_6
-      - 【直连】ICN/首尔-80端口-1_7
-      - 【直连】ICN/首尔-443端口-2_8
-      - 【直连】SJC/圣荷西-80端口-1_9
-      - 【直连】SJC/圣荷西-443端口-2_10
-      - 【直连】随机节点-随机端口-1_11
-      - 【直连】随机节点-随机端口-2_12
-      - 【直连】随机节点-随机端口-3_13
-      - 【直连】随机节点-随机端口-4_14
-      - 【直连】随机节点-随机端口-5_15
-      - 【直连】HKG/香港-1_16
-      - 【直连】HKG/香港-2_17
-      - 【直连】TYO/东京-1_18
-      - 【直连】TYO/东京-2_19
-      - 【直连】SIN/狮城-1_20
-      - 【直连】SIN/狮城-2_21
-      - 【直连】ICN/首尔-1_22
-      - 【直连】ICN/首尔-2_23
-      - 【直连】SJC/圣荷西-1_24
-      - 【直连】SJC/圣荷西-2_25
-      - 【直连】HKG/香港-3_26
-      - 【直连】HKG/香港-4_27
-      - 【直连】TYO/东京-3_28
-      - 【直连】TYO/东京-4_29
-      - 【直连】SIN/狮城-3_30
-      - 【直连】SIN/狮城-4_31
-      - 【直连】ICN/首尔-3_32
-      - 【直连】ICN/首尔-4_33
-      - 【直连】SJC/圣荷西-3_34
-      - 【直连】SJC/圣荷西-4_35
+      - _CA_加拿大_1
+      - _US_美国_2
+      - _CA_加拿大_3
+      - _CA_加拿大_4
+      - _CN_中国->🇭🇰_HK_香港_5
+      - _CA_加拿大_6
+      - default_name_7
+      - _CA_加拿大_8
+      - _CA_加拿大_9
+      - default_name_10
+      - _CA_加拿大_11
+      - _CN_中国->🇭🇰_HK_香港_12
+      - _FR_法国_13
+      - _CA_加拿大_14
+      - _CA_加拿大_15
+      - _CN_中国->🇯🇵_JP_日本_16
+      - _CA_加拿大_17
+      - _CA_加拿大_18
+      - _US_美国_19
+      - _VN_越南_20
+      - _CA_加拿大_21
+      - _CA_加拿大_22
+      - _CA_加拿大_23
+      - _CA_加拿大_24
+      - _CA_加拿大_25
+      - _CA_加拿大_26
+      - _CA_加拿大_27
+      - default_name_28
       - 法国(欢迎订阅Youtube破解资源君)
       - 法国(欢迎订阅Youtube破解资源君) 2
       - 法国(欢迎订阅Youtube破解资源君) 3
       - 法国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 9
+      - 香港(欢迎订阅Youtube破解资源君)
+      - 香港(欢迎订阅Youtube破解资源君) 2
+      - 印度(欢迎订阅Youtube破解资源君)
       - 法国(欢迎订阅Youtube破解资源君) 5
       - 法国(欢迎订阅Youtube破解资源君) 6
       - 法国(欢迎订阅Youtube破解资源君) 7
@@ -2466,23 +2458,8 @@ proxy-groups:
       - 法国(欢迎订阅Youtube破解资源君) 13
       - 法国(欢迎订阅Youtube破解资源君) 14
       - 法国(欢迎订阅Youtube破解资源君) 15
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
       - 美国(欢迎订阅Youtube破解资源君) 4
       - 美国(欢迎订阅Youtube破解资源君) 5
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国(欢迎订阅Youtube破解资源君) 7
-      - 美国(欢迎订阅Youtube破解资源君) 8
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
@@ -2511,14 +2488,13 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 35
       - 欧洲(欢迎订阅Youtube破解资源君) 36
       - 欧洲(欢迎订阅Youtube破解资源君) 37
-      - 欧洲(欢迎订阅Youtube破解资源君) 38
-      - 欧洲(欢迎订阅Youtube破解资源君) 39
       - 日本(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
       - 香港(欢迎订阅Youtube破解资源君) 4
-      - 印度(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 6
+      - 美国(欢迎订阅Youtube破解资源君) 7
+      - 美国(欢迎订阅Youtube破解资源君) 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 38
       - 香港（YouTube资源分享者）
       - 美国（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
@@ -3790,12 +3766,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【直连】HKG/香港-80端口-1_1
-      - 【直连】HKG/香港-443端口-2_2
-      - 【直连】HKG/香港-1_16
-      - 【直连】HKG/香港-2_17
-      - 【直连】HKG/香港-3_26
-      - 【直连】HKG/香港-4_27
+      - _CN_中国->🇭🇰_HK_香港_5
+      - _CN_中国->🇭🇰_HK_香港_12
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君) 3
@@ -3874,12 +3846,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【直连】TYO/东京-80端口-1_3
-      - 【直连】TYO/东京-443端口-2_4
-      - 【直连】TYO/东京-1_18
-      - 【直连】TYO/东京-2_19
-      - 【直连】TYO/东京-3_28
-      - 【直连】TYO/东京-4_29
+      - _CN_中国->🇯🇵_JP_日本_16
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本（YouTube资源分享者）
       - 日本（YouTube资源分享者） 2
@@ -3934,6 +3901,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _US_美国_2
+      - _US_美国_19
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -4236,12 +4205,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【直连】SIN/狮城-80端口-1_5
-      - 【直连】SIN/狮城-443端口-2_6
-      - 【直连】SIN/狮城-1_20
-      - 【直连】SIN/狮城-2_21
-      - 【直连】SIN/狮城-3_30
-      - 【直连】SIN/狮城-4_31
       - 新加坡（YouTube资源分享者）
       - _新加坡_ChenX-220304_47
       - _新加坡_ChenX-220304_48
@@ -4262,12 +4225,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【直连】ICN/首尔-80端口-1_7
-      - 【直连】ICN/首尔-443端口-2_8
-      - 【直连】ICN/首尔-1_22
-      - 【直连】ICN/首尔-2_23
-      - 【直连】ICN/首尔-3_32
-      - 【直连】ICN/首尔-4_33
       - KR,
       - 日韩频道 t.me/shoucangav
   - name: 🎥 奈飞节点
