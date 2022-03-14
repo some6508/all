@@ -5,109 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"加拿大-243_8KB/s(Youtube:不良林)_1","server":"134.195.196.3","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"加拿大-204_6KB/s(Youtube:不良林)_2","server":"134.195.196.187","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"加拿大-226_4KB/s(Youtube:不良林)_3","server":"134.195.196.81","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"加拿大-225_9KB/s(Youtube:不良林)_4","server":"134.195.196.3","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"加拿大-226_7KB/s(Youtube:不良林)_5","server":"134.195.196.81","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"美国-181_4KB/s(Youtube:不良林)_6","server":"169.197.142.99","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"加拿大-186_5KB/s(Youtube:不良林)_7","server":"134.195.196.3","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"英国-170_8KB/s(Youtube:不良林)_8","server":"172.99.190.92","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"美国-181_1KB/s(Youtube:不良林)_9","server":"169.197.142.99","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"中国-436_5KB/s(Youtube:不良林)_10","server":"101.91.121.247","port":50004,"type":"ss","cipher":"aes-256-cfb","password":"4415934295"}
+  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国_1","server":"172.67.68.58","port":443,"type":"vmess","uuid":"f2f578e4-692d-40b5-af99-9f1dd712eb32","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/shuier","headers":{"host":"xc1.v2rie.pp.ua"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 加拿大-243_8KB/s(Youtube:不良林)_1
-      - 加拿大-204_6KB/s(Youtube:不良林)_2
-      - 加拿大-226_4KB/s(Youtube:不良林)_3
-      - 加拿大-225_9KB/s(Youtube:不良林)_4
-      - 加拿大-226_7KB/s(Youtube:不良林)_5
-      - 美国-181_4KB/s(Youtube:不良林)_6
-      - 加拿大-186_5KB/s(Youtube:不良林)_7
-      - 英国-170_8KB/s(Youtube:不良林)_8
-      - 美国-181_1KB/s(Youtube:不良林)_9
-      - 中国-436_5KB/s(Youtube:不良林)_10
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 加拿大-243_8KB/s(Youtube:不良林)_1
-      - 加拿大-204_6KB/s(Youtube:不良林)_2
-      - 加拿大-226_4KB/s(Youtube:不良林)_3
-      - 加拿大-225_9KB/s(Youtube:不良林)_4
-      - 加拿大-226_7KB/s(Youtube:不良林)_5
-      - 美国-181_4KB/s(Youtube:不良林)_6
-      - 加拿大-186_5KB/s(Youtube:不良林)_7
-      - 英国-170_8KB/s(Youtube:不良林)_8
-      - 美国-181_1KB/s(Youtube:不良林)_9
-      - 中国-436_5KB/s(Youtube:不良林)_10
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 加拿大-243_8KB/s(Youtube:不良林)_1
-      - 加拿大-204_6KB/s(Youtube:不良林)_2
-      - 加拿大-226_4KB/s(Youtube:不良林)_3
-      - 加拿大-225_9KB/s(Youtube:不良林)_4
-      - 加拿大-226_7KB/s(Youtube:不良林)_5
-      - 美国-181_4KB/s(Youtube:不良林)_6
-      - 加拿大-186_5KB/s(Youtube:不良林)_7
-      - 英国-170_8KB/s(Youtube:不良林)_8
-      - 美国-181_1KB/s(Youtube:不良林)_9
-      - 中国-436_5KB/s(Youtube:不良林)_10
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 加拿大-243_8KB/s(Youtube:不良林)_1
-      - 加拿大-204_6KB/s(Youtube:不良林)_2
-      - 加拿大-226_4KB/s(Youtube:不良林)_3
-      - 加拿大-225_9KB/s(Youtube:不良林)_4
-      - 加拿大-226_7KB/s(Youtube:不良林)_5
-      - 美国-181_4KB/s(Youtube:不良林)_6
-      - 加拿大-186_5KB/s(Youtube:不良林)_7
-      - 英国-170_8KB/s(Youtube:不良林)_8
-      - 美国-181_1KB/s(Youtube:不良林)_9
-      - 中国-436_5KB/s(Youtube:不良林)_10
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 加拿大-243_8KB/s(Youtube:不良林)_1
-      - 加拿大-204_6KB/s(Youtube:不良林)_2
-      - 加拿大-226_4KB/s(Youtube:不良林)_3
-      - 加拿大-225_9KB/s(Youtube:不良林)_4
-      - 加拿大-226_7KB/s(Youtube:不良林)_5
-      - 美国-181_4KB/s(Youtube:不良林)_6
-      - 加拿大-186_5KB/s(Youtube:不良林)_7
-      - 英国-170_8KB/s(Youtube:不良林)_8
-      - 美国-181_1KB/s(Youtube:不良林)_9
-      - 中国-436_5KB/s(Youtube:不良林)_10
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 加拿大-243_8KB/s(Youtube:不良林)_1
-      - 加拿大-204_6KB/s(Youtube:不良林)_2
-      - 加拿大-226_4KB/s(Youtube:不良林)_3
-      - 加拿大-225_9KB/s(Youtube:不良林)_4
-      - 加拿大-226_7KB/s(Youtube:不良林)_5
-      - 美国-181_4KB/s(Youtube:不良林)_6
-      - 加拿大-186_5KB/s(Youtube:不良林)_7
-      - 英国-170_8KB/s(Youtube:不良林)_8
-      - 美国-181_1KB/s(Youtube:不良林)_9
-      - 中国-436_5KB/s(Youtube:不良林)_10
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 加拿大-243_8KB/s(Youtube:不良林)_1
-      - 加拿大-204_6KB/s(Youtube:不良林)_2
-      - 加拿大-226_4KB/s(Youtube:不良林)_3
-      - 加拿大-225_9KB/s(Youtube:不良林)_4
-      - 加拿大-226_7KB/s(Youtube:不良林)_5
-      - 美国-181_4KB/s(Youtube:不良林)_6
-      - 加拿大-186_5KB/s(Youtube:不良林)_7
-      - 英国-170_8KB/s(Youtube:不良林)_8
-      - 美国-181_1KB/s(Youtube:不良林)_9
-      - 中国-436_5KB/s(Youtube:不良林)_10
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
