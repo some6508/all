@@ -582,44 +582,16 @@ proxies:
   - {name: "US, 4", server: 65.49.223.117, port: 239, type: ss, cipher: aes-256-cfb, password: bwhskrskr06, udp: true}
   - {name: "CA,", server: 3.36.121.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "US, 5", server: 97.64.31.80, port: 247, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: 韩国阿伟科技@TG/油管, server: chuna1.515223.xyz, port: 27201, type: vmess, uuid: b4f2999f-956b-4c6b-93cf-6a20bf3befa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管, server: cn2.anoob.icu, port: 31013, type: vmess, uuid: 9d1cf997-df2b-3656-9fab-23f8ec81f1b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 印度阿伟科技@TG/油管, server: in1.qingyun123.xyz, port: 443, type: trojan, password: fa0fde96-4c33-4034-b3a7-45df14d19f1b, skip-cert-verify: true, udp: true}
-  - {name: 加拿大阿伟科技@TG/油管 4, server: jp.relay.qchwnd.moe, port: 44613, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: 120.233.147.118, port: 56390, type: vmess, uuid: e9f489b6-af82-44a4-a23f-f37374cbd4d3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: usaarm1.oracleusa.ml, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 日本阿伟科技@TG/油管 6, server: 116.129.253.177, port: 3389, type: trojan, password: 0437e2b78115adc2, skip-cert-verify: true, udp: true}
-  - {name: 加拿大阿伟科技@TG/油管 2, server: hncu.relay.qchwnd.moe, port: 44613, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 7, server: 173.82.120.9, port: 59687, type: vmess, uuid: a8035c81-f99e-466f-a515-3b6bb2fe81d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 6, server: smoracle2.515223.xyz, port: 25859, type: vmess, uuid: 620e3569-7653-4456-9f71-c6f19f3839fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 2, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
-  - {name: 德国阿伟科技@TG/油管 2, server: tanz-unicom.ddnsnode.com, port: 35017, type: vmess, uuid: f2ad4004-0e73-3594-a8d9-870818e0034d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 3, server: 104.16.42.170, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
-  - {name: 法国阿伟科技@TG/油管, server: fr.oracleusa.ml, port: 2053, type: vmess, uuid: b686abdb-118c-422e-97e0-57c1fa0e1a26, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.oracleusa.ml}}, udp: true}
-  - {name: 韩国阿伟科技@TG/油管 3, server: chun2.515223.xyz, port: 57117, type: vmess, uuid: 0f5e2194-02ad-4295-db03-536381c9db48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 3 2, server: smoracle2.515223.xyz, port: 25859, type: vmess, uuid: 620e3569-7653-4456-9f71-c6f19f3839fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 法国阿伟科技@TG/油管 2, server: fr.oracleusa.ml, port: 2053, type: vmess, uuid: b686abdb-118c-422e-97e0-57c1fa0e1a26, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.oracleusa.ml}}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 4, server: 173.82.120.9, port: 59687, type: vmess, uuid: a8035c81-f99e-466f-a515-3b6bb2fe81d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 12, server: 211.99.100.90, port: 56098, type: vmess, uuid: 28fae2ae-93f8-4ad8-86aa-f42bc3890173, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 5, server: smoracle2.515223.xyz, port: 25859, type: vmess, uuid: 620e3569-7653-4456-9f71-c6f19f3839fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管原生Netflix 16, server: san.515223.xyz, port: 17247, type: vmess, uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: san.515223.xyz}}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 4 2, server: 173.82.120.9, port: 59687, type: vmess, uuid: a8035c81-f99e-466f-a515-3b6bb2fe81d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 15, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: 韩国阿伟科技@TG/油管 2, server: chun2.515223.xyz, port: 57117, type: vmess, uuid: 0f5e2194-02ad-4295-db03-536381c9db48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管原生Netflix 14, server: smoracle.515223.xyz, port: 51690, type: vmess, uuid: 30ecebb3-1240-44e1-8551-a100ad13e330, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技TG油管, server: hk-v.apqiang.com, port: 12001, type: trojan, password: b3f57c51-206e-3c41-8dba-56921740f9ca, skip-cert-verify: true, udp: true}
-  - {name: 德国阿伟科技@TG/油管, server: fqtest.nsxz.ml, port: 443, type: vmess, uuid: 8f7b3776-e05b-4b2c-d266-2d2b30db4051, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fqtest.nsxz.ml}}, udp: true}
-  - {name: 日本阿伟科技@TG/油管 5, server: 116.129.253.177, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管原生Netflix 6, server: usaadm.oracleusa.ml, port: 2053, type: vmess, uuid: e7426d8f-5644-4856-a1db-af1b8198bd19, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usaadm.oracleusa.ml}}, udp: true}
-  - {name: 美国阿伟科技@TG/油管原生Netflix 7, server: smoracle.515223.xyz, port: 51690, type: vmess, uuid: 30ecebb3-1240-44e1-8551-a100ad13e330, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管 11, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管原生Netflix, server: jp.relay.qchwnd.moe, port: 44610, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 12 2, server: smoracle.515223.xyz, port: 51690, type: vmess, uuid: 30ecebb3-1240-44e1-8551-a100ad13e330, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 2, server: 103.135.249.25, port: 153, type: vmess, uuid: cd93c530-a7fe-3f44-985d-5f0836f5e83b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 74527113825.laowanxiang.com}}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 8, server: gcusfree.galaxycloud.buzz, port: 443, type: vmess, uuid: 23779c35-e8e0-49e6-a681-e1fe3f5c673c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /0DGCTPQ, headers: {Host: gcusfree.galaxycloud.buzz}}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 13, server: all-us.ddnsnode.com, port: 35019, type: vmess, uuid: f2ad4004-0e73-3594-a8d9-870818e0034d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 9, server: smoracle.515223.xyz, port: 51690, type: vmess, uuid: 30ecebb3-1240-44e1-8551-a100ad13e330, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 5 2, server: smoracle.515223.xyz, port: 51690, type: vmess, uuid: 30ecebb3-1240-44e1-8551-a100ad13e330, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管Netflix, server: usaadm.oracleusa.ml, port: 2053, type: vmess, uuid: e7426d8f-5644-4856-a1db-af1b8198bd19, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usaadm.oracleusa.ml}}, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
+  - {name: _AU_澳大利亚, server: 172.105.184.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB_英国, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 2, server: 169.197.142.4, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _FR_法国, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 3, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 4, server: 167.88.63.61, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.81, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1661,44 +1633,16 @@ proxy-groups:
       - US, 4
       - CA,
       - US, 5
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管
-      - 印度阿伟科技@TG/油管
-      - 加拿大阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 6
-      - 加拿大阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 7
-      - 美国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 2
-      - 德国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - 法国阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管 3
-      - 美国阿伟科技@TG/油管 3 2
-      - 法国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 12
-      - 美国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管原生Netflix 16
-      - 美国阿伟科技@TG/油管 4 2
-      - 美国阿伟科技@TG/油管 15
-      - 韩国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管原生Netflix 14
-      - 美国阿伟科技TG油管
-      - 德国阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管原生Netflix 6
-      - 美国阿伟科技@TG/油管原生Netflix 7
-      - 日本阿伟科技@TG/油管 11
-      - 美国阿伟科技@TG/油管原生Netflix
-      - 美国阿伟科技@TG/油管 12 2
-      - 香港阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 8
-      - 美国阿伟科技@TG/油管 13
-      - 美国阿伟科技@TG/油管 9
-      - 美国阿伟科技@TG/油管 5 2
-      - 美国阿伟科技@TG/油管Netflix
+      - _CA_加拿大
+      - _US_美国
+      - _AU_澳大利亚
+      - _CA_加拿大 2
+      - _GB_英国
+      - _US_美国 2
+      - _FR_法国
+      - _US_美国 3
+      - _US_美国 4
+      - _CA_加拿大 3
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2740,44 +2684,16 @@ proxy-groups:
       - US, 4
       - CA,
       - US, 5
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管
-      - 印度阿伟科技@TG/油管
-      - 加拿大阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 6
-      - 加拿大阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 7
-      - 美国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 2
-      - 德国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - 法国阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管 3
-      - 美国阿伟科技@TG/油管 3 2
-      - 法国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 12
-      - 美国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管原生Netflix 16
-      - 美国阿伟科技@TG/油管 4 2
-      - 美国阿伟科技@TG/油管 15
-      - 韩国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管原生Netflix 14
-      - 美国阿伟科技TG油管
-      - 德国阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管原生Netflix 6
-      - 美国阿伟科技@TG/油管原生Netflix 7
-      - 日本阿伟科技@TG/油管 11
-      - 美国阿伟科技@TG/油管原生Netflix
-      - 美国阿伟科技@TG/油管 12 2
-      - 香港阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 8
-      - 美国阿伟科技@TG/油管 13
-      - 美国阿伟科技@TG/油管 9
-      - 美国阿伟科技@TG/油管 5 2
-      - 美国阿伟科技@TG/油管Netflix
+      - _CA_加拿大
+      - _US_美国
+      - _AU_澳大利亚
+      - _CA_加拿大 2
+      - _GB_英国
+      - _US_美国 2
+      - _FR_法国
+      - _US_美国 3
+      - _US_美国 4
+      - _CA_加拿大 3
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
