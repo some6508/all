@@ -5,16 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _GB_英国_1, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_2, server: 169.197.142.4, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: default_name_3, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
-  - {name: _CA_加拿大_4, server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _HK_香港_5, server: hantesi.xyz, port: 50129, type: vmess, uuid: dd64d4c0-71fa-455a-ed52-ed6d947aa0d8, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hello, headers: {Host: hantesi.xyz}}, udp: true}
-  - {name: _GB_英国_6, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_7, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大_8, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_9, server: 198.57.27.191, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国_10, server: 169.197.142.4, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_1, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_2, server: 169.197.142.4, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_3, server: 167.88.63.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: sg3.lingfeiling.tk, port: 25367, type: ss, cipher: chacha20-ietf-poly1305, password: 7ea31095-536a-4d54-9d79-a9973197ece6, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: sgx1.lingfeiling.tk, port: 22116, type: ss, cipher: chacha20-ietf-poly1305, password: 7ea31095-536a-4d54-9d79-a9973197ece6, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 3, server: sg4.lingfeiling.tk, port: 14364, type: ss, cipher: chacha20-ietf-poly1305, password: 7ea31095-536a-4d54-9d79-a9973197ece6, udp: true}
@@ -1040,16 +1033,9 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _GB_英国_1
+      - _CA_加拿大_1
       - _US_美国_2
-      - default_name_3
-      - _CA_加拿大_4
-      - _HK_香港_5
-      - _GB_英国_6
-      - _CA_加拿大_7
-      - _CA_加拿大_8
-      - _CA_加拿大_9
-      - _US_美国_10
+      - _US_美国_3
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -2075,16 +2061,9 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _GB_英国_1
+      - _CA_加拿大_1
       - _US_美国_2
-      - default_name_3
-      - _CA_加拿大_4
-      - _HK_香港_5
-      - _GB_英国_6
-      - _CA_加拿大_7
-      - _CA_加拿大_8
-      - _CA_加拿大_9
-      - _US_美国_10
+      - _US_美国_3
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
