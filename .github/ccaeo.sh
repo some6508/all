@@ -15,6 +15,16 @@ local CURL=$?
 [[ $CURL = 0 ]] && ec "- 下载完成	$CURL" || ec "! 下载失败	$CURL"
 return $CURL
 }
+AAA() {
+curl -s 'https://github.com/some6508/all/actions' | sed -n '/<span class="color-fg-muted">$/,/<\/span>/p' | sed 's/.*">//g; s/<\/a>//g' | while read i; do
+[[ -z $i ]] && continue
+if [[ $i = *"</span>" ]]; then
+	break
+else
+	echo -n "$i	"
+fi
+done
+}
 echo $(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')
 setsid ping -c 1 -w 1 -A -q some6508.ccaeo.com 
 eval "`curl -s 'https://api.github.com/repos/changfengoss/pub/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
@@ -78,6 +88,8 @@ else
 mv -f $home/cv1 $home/cv
 mv -f $home/vc1 $home/vc
 fi
+AAA="`AAA`"
+sed -i "/^> /c$AAA" $home/README.md
 sed -i "/^|20/c|$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')|" $home/README.md
 sed -i "/^20/c$(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒' -d '+1 hour')" $home/README.md
 echo --------------------------------------------------
