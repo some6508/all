@@ -26,7 +26,7 @@ fi
 done
 }
 echo $(date '+%Y年%m月%d日·周%u·%H点%M分%S秒.%3N毫秒')
-setsid ping -c 1 -w 1 -A -q some6508.ccaeo.com 
+setsid curl -sI 'some6508.ccaeo.com'
 eval "`curl -s 'https://api.github.com/repos/changfengoss/pub/commits' | grep -m 1 'html_url' | sed 's/.*"html_url": /html_url=/g'`"
 eval "`curl -s "${html_url//,}" | sed -n 's|^      <a href="#diff-.*">|href="https://raw.githubusercontent.com/changfengoss/pub/main/|p' | sed 's|</a>|"|g'`"
 case "$href" in
