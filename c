@@ -5,1593 +5,319 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳CN-🇯🇵JP_168_12_90Mb_1","server":"101.67.8.151","port":16209,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_224_13_28Mb_2","server":"113.240.73.12","port":16208,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_155_31_33Mb_3","server":"101.67.8.151","port":16133,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_220_75_43Mb_4","server":"113.240.73.12","port":16228,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_176_11_46Mb_5","server":"113.240.73.12","port":16121,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_229_18_62Mb_6","server":"113.240.73.12","port":16209,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_230_10_42Mb_7","server":"113.240.73.12","port":16122,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_258_343_03Mb_8","server":"101.67.8.151","port":16112,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_139_37_24Mb_9","server":"113.240.73.12","port":16214,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_209_42_65Mb_10","server":"113.240.73.12","port":16113,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_158_40_72Mb_11","server":"113.240.73.12","port":16215,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_213_54_47Mb_12","server":"113.240.73.12","port":16230,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_160_56_65Mb_13","server":"113.240.73.12","port":16110,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_132_45_50Mb_14","server":"101.67.8.151","port":16215,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_162_44_92Mb_15","server":"113.240.73.12","port":16216,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_212_15_91Mb_16","server":"113.240.73.12","port":16210,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_218_58_81Mb_17","server":"113.240.73.12","port":16207,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_113_50_74Mb_18","server":"101.67.8.151","port":16247,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_61_42_88Mb_19","server":"183.240.181.40","port":16133,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_59_7_07Mb_20","server":"183.240.181.40","port":16116,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_63_37_21Mb_21","server":"183.240.181.40","port":16108,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_88_24_71Mb_22","server":"183.240.181.40","port":16131,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_127_29_79Mb_23","server":"113.240.73.12","port":16223,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_120_38_12Mb_24","server":"113.240.73.12","port":16245,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_254_10_49Mb_25","server":"183.240.181.40","port":16207,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_227_64_72Mb_26","server":"113.240.73.12","port":16108,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_204_21_71Mb_27","server":"113.240.73.12","port":16112,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_236_20_30Mb_28","server":"113.240.73.12","port":16120,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_256_3_75Mb_29","server":"183.240.181.40","port":16210,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_142_4_35Mb_30","server":"183.240.181.40","port":16121,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_175_7_36Mb_31","server":"120.240.86.91","port":16131,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_185_24_13Mb_32","server":"183.240.181.40","port":16225,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_235_31_83Mb_33","server":"183.240.181.40","port":16230,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_136_45_83Mb_34","server":"113.240.73.12","port":16247,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_75_19_72Mb_35","server":"101.67.8.151","port":16225,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_95_23_86Mb_36","server":"113.240.73.12","port":16133,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_131_15_13Mb_37","server":"183.240.181.40","port":16120,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_86_5_22Mb_38","server":"183.240.181.40","port":16209,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_234_17_55Mb_39","server":"183.240.181.40","port":16228,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_238_15_72Mb_40","server":"120.232.239.51","port":16228,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_106_31_93Mb_41","server":"113.240.73.12","port":16213,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_221_28_13Mb_42","server":"113.240.73.12","port":16114,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_259_25_98Mb_43","server":"183.240.181.40","port":16213,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_102_19_75Mb_44","server":"120.240.86.91","port":16218,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_87_5_18Mb_45","server":"120.240.86.91","port":16115,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_145_13_19Mb_46","server":"183.240.181.40","port":16122,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_62_36_03Mb_47","server":"183.240.181.40","port":16110,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_79_31_32Mb_48","server":"183.240.181.40","port":16129,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_130_29_58Mb_49","server":"120.232.239.51","port":16116,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_251_9_38Mb_50","server":"120.232.239.51","port":16209,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_228_5_43Mb_51","server":"120.240.86.91","port":16230,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_54_21_33Mb_52","server":"183.240.181.40","port":16107,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_124_41_50Mb_53","server":"113.240.73.12","port":16246,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_249_4_90Mb_54","server":"120.232.239.51","port":16208,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_67_20_38Mb_55","server":"120.240.86.91","port":16110,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇳🇱NL-🇳🇱NL_302+_+2_39Mb_56","server":"jgwdj2.gaox.ml","port":443,"type":"trojan","password":"86231db5-96d0-4271-9977-cae3a0cba614","sni":"jgwdj2.gaox.ml"}
-  - {"name":"🇨🇳CN-🇬🇧GB_81_8_87Mb_57","server":"120.232.239.51","port":16115,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_143_7_82Mb_58","server":"120.240.86.91","port":16120,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_146_11_00Mb_59","server":"120.232.239.51","port":16121,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_52_14_41Mb_60","server":"120.232.239.51","port":16215,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_201_35_05Mb_61","server":"120.240.86.91","port":16217,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_215_17_05Mb_62","server":"120.240.86.91","port":16121,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_241_7_30Mb_63","server":"120.240.86.91","port":16210,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_260_51_97Mb_64","server":"120.240.86.91","port":16223,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_93_12_22Mb_65","server":"113.240.73.12","port":16111,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_195_11_39Mb_66","server":"120.232.239.51","port":16217,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_173_7_49Mb_67","server":"120.232.239.51","port":16122,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_137_12_43Mb_68","server":"113.240.73.12","port":16129,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_140_54_24Mb_69","server":"183.240.181.40","port":16216,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_58_33_05Mb_70","server":"120.232.239.51","port":16133,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_200_21_88Mb_71","server":"113.240.73.12","port":16116,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_203_4_53Mb_72","server":"101.67.8.151","port":16122,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_250_9_55Mb_73","server":"120.232.239.51","port":16207,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_252_20_38Mb_74","server":"120.240.86.91","port":16207,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_125_49_74Mb_75","server":"101.67.8.151","port":16216,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_207_47_54Mb_76","server":"101.67.8.151","port":16113,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_257_10_13Mb_77","server":"183.240.181.40","port":16215,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_247_7_14Mb_78","server":"120.240.86.91","port":16209,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_103_29_83Mb_79","server":"113.240.73.12","port":16225,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_122_12_21Mb_80","server":"113.240.73.12","port":16217,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_77_6_33Mb_81","server":"183.240.181.40","port":16217,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_53_30_65Mb_82","server":"120.240.86.91","port":16108,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_69_37_79Mb_83","server":"120.240.86.91","port":16107,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_73_24_51Mb_84","server":"183.240.181.40","port":16113,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_117_41_93Mb_85","server":"113.240.73.12","port":16244,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_97_21_45Mb_86","server":"113.240.73.12","port":16218,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_151_26_54Mb_87","server":"120.232.239.51","port":16246,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_232_21_28Mb_88","server":"120.232.239.51","port":16107,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_60_17_69Mb_89","server":"120.240.86.91","port":16133,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_94_25_43Mb_90","server":"120.232.239.51","port":16216,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_149_12_09Mb_91","server":"120.232.239.51","port":16120,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_57_32_65Mb_92","server":"120.232.239.51","port":16108,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_243_15_59Mb_93","server":"120.240.86.91","port":16208,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_85_6_01Mb_94","server":"120.232.239.51","port":16210,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_66_7_32Mb_95","server":"183.240.181.40","port":16132,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_104_6_57Mb_96","server":"183.240.181.40","port":16250,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_105_11_74Mb_97","server":"120.240.86.91","port":16251,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_110_10_49Mb_98","server":"183.240.181.40","port":16249,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_116_11_72Mb_99","server":"183.240.181.40","port":16248,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_171_11_73Mb_100","server":"183.240.181.40","port":16206,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_211_10_61Mb_101","server":"183.240.181.40","port":16203,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇺🇸US-🇺🇸US_3121","server":"jgwcc2.gaox.ml","port":443,"type":"trojan","password":"9c822f05-cfdc-479a-9534-60f3d4127435"}
-  - {"name":"🇨🇳CN-🇹🇼TW_129_49_51Mb_103","server":"101.67.8.151","port":16245,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_181_13_19Mb_104","server":"183.240.181.40","port":16239,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_108_10_68Mb_105","server":"120.232.239.51","port":16251,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_202_4_23Mb_106","server":"120.240.86.91","port":16205,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_205_11_44Mb_107","server":"120.240.86.91","port":16204,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_163_30_97Mb_108","server":"120.232.239.51","port":16225,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_226_24_04Mb_109","server":"183.240.181.40","port":16223,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_65_41_60Mb_110","server":"120.240.86.91","port":16129,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_174_11_03Mb_111","server":"120.240.86.91","port":16104,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_248_11_48Mb_112","server":"183.240.181.40","port":16105,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_74_15_69Mb_113","server":"120.240.86.91","port":16116,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_154_19_64Mb_114","server":"120.232.239.51","port":16223,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_172_30_78Mb_115","server":"120.240.86.91","port":16225,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_245_1_99Mb_116","server":"120.240.86.91","port":16224,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_115_11_23Mb_117","server":"120.240.86.91","port":16249,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_231_11_41Mb_118","server":"120.240.86.91","port":16103,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_92_14_62Mb_119","server":"183.240.181.40","port":16115,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_183_5_06Mb_120","server":"120.232.239.51","port":16105,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_134_24_40Mb_121","server":"120.232.239.51","port":16110,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_118_12_04Mb_122","server":"101.67.8.151","port":16246,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_135_6_89Mb_123","server":"113.240.73.12","port":16224,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_161_8_57Mb_124","server":"113.240.73.12","port":16132,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_199_15_39Mb_125","server":"183.240.181.40","port":16247,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_76_2_09Mb_126","server":"113.240.73.12","port":16131,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_107_10_39Mb_127","server":"183.240.181.40","port":16251,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_189_2_45Mb_128","server":"120.240.86.91","port":16206,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_192_11_57Mb_129","server":"183.240.181.40","port":16205,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_210_3_66Mb_130","server":"120.240.86.91","port":16203,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_237_7_69Mb_131","server":"113.240.73.12","port":16115,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_126_13_20Mb_132","server":"101.67.8.151","port":16129,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_80_2_46Mb_133","server":"113.240.73.12","port":16251,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇺🇸US-🇺🇸US_3099","server":"jpaz2.xmrth-node.xyz","port":10141,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"🇨🇳CN-🇺🇸US_100_2_33Mb_135","server":"113.240.73.12","port":16104,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_114_9_54Mb_136","server":"120.240.86.91","port":16250,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇭🇰HK-🇩🇪DE_862","server":"hkaz3.xmrth-node.xyz","port":10035,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"🇺🇸US-🇹🇼TW_3107","server":"jpaz1.xmrth-node.xyz","port":10063,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"🇨🇳CN-🇹🇼TW_179_4_59Mb_139","server":"120.240.86.91","port":16226,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_184_11_49Mb_140","server":"120.240.86.91","port":16106,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_196_8_06Mb_141","server":"120.232.239.51","port":16206,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_253_1_76Mb_142","server":"113.240.73.12","port":16203,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_178_8_30Mb_143","server":"183.240.181.40","port":16226,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_68_9_97Mb_144","server":"120.240.86.91","port":16132,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_90","server":"113.240.73.12","port":16106,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇭🇰HK-🇹🇼TW_861","server":"hkaz3.xmrth-node.xyz","port":10019,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"🇺🇸US-🇯🇵JP_3103","server":"jpaz2.xmrth-node.xyz","port":10046,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"🇨🇳CN-🇹🇼TW_123_8_74Mb_148","server":"113.240.73.12","port":16239,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_56_3_25Mb_149","server":"120.232.239.51","port":16239,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_186_7_80Mb_150","server":"120.232.239.51","port":16106,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_51_21_06Mb_151","server":"120.232.239.51","port":16218,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_111_9_88Mb_152","server":"120.232.239.51","port":16250,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇺🇸US-🇩🇪DE_3097","server":"jpaz3.xmrth-node.xyz","port":10135,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"🇨🇳CN-🇯🇵JP_240_20_43Mb_154","server":"183.240.181.40","port":16208,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_187_12_95Mb_155","server":"183.240.181.40","port":16224,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_206_3_87Mb_156","server":"120.232.239.51","port":16205,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇺🇸US-🇹🇼TW_3108","server":"jpaz2.xmrth-node.xyz","port":10067,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"🇨🇳CN-🇹🇼TW_101_10_86Mb_158","server":"183.240.181.40","port":16111,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_128_8_68Mb_159","server":"101.67.8.151","port":16132,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_141_2_86Mb_160","server":"101.67.8.151","port":16106,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_164_10_31Mb_161","server":"120.232.239.51","port":16103,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇭🇰HK-🇸🇬SG_864","server":"hkaz3.xmrth-node.xyz","port":10028,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"🇨🇳CN-🇬🇧GB_72_8_50Mb_163","server":"183.240.181.40","port":16218,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_156_3_32Mb_164","server":"101.67.8.151","port":16104,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_165_3_06Mb_165","server":"113.240.73.12","port":16105,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_112_14_72Mb_166","server":"113.240.73.12","port":16227,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_71_17_82Mb_167","server":"120.232.239.51","port":16114,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_182_9_72Mb_168","server":"120.240.86.91","port":16105,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_194_9_36Mb_169","server":"183.240.181.40","port":16204,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_82","server":"113.240.73.12","port":16205,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_96_5_99Mb_171","server":"101.67.8.151","port":16115,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_190_57_71Mb_172","server":"101.67.8.151","port":16228,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_157_5_24Mb_173","server":"120.240.86.91","port":16239,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_64_8_69Mb_174","server":"120.232.239.51","port":16132,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_89_32_07Mb_175","server":"183.240.181.40","port":16246,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_83_1_87Mb_176","server":"101.67.8.151","port":16105,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇺🇸US-🇺🇸US_3101","server":"jpaz3.xmrth-node.xyz","port":10140,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"🇨🇳CN-🇹🇼TW_70_16_33Mb_178","server":"183.240.181.40","port":16114,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_208_32_61Mb_179","server":"101.67.8.151","port":16120,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_180_4_71Mb_180","server":"120.232.239.51","port":16131,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_109_43_72Mb_181","server":"101.67.8.151","port":16244,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_222_10_61Mb_182","server":"183.240.181.40","port":16104,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇭🇰HK-🇭🇰HK_863","server":"hkaz3.xmrth-node.xyz","port":10009,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"🇨🇳CN-🇹🇼TW_239_20_64Mb_184","server":"120.232.239.51","port":16247,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_169_7_39Mb_185","server":"101.67.8.151","port":16207,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_50_12_37Mb_186","server":"101.67.8.151","port":16108,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_188_11_40Mb_187","server":"183.240.181.40","port":16103,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_148_12_26Mb_188","server":"120.232.239.51","port":16112,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_197_24_22Mb_189","server":"101.67.8.151","port":16114,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_119_10_12Mb_190","server":"120.232.239.51","port":16249,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_217_9_46Mb_191","server":"120.232.239.51","port":16204,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN_61_10_80Mb_192","server":"zfd-unicom.ddnsnode.com","port":16227,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_98_5_90Mb_193","server":"101.67.8.151","port":16116,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_225_2_07Mb_194","server":"101.67.8.151","port":16109,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_244_5_68Mb_195","server":"101.67.8.151","port":16107,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_233_41_47Mb_196","server":"120.232.239.51","port":16129,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_255_10_07Mb_197","server":"120.232.239.51","port":16214,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇺🇸US-🇩🇪DE_3096","server":"jpaz1.xmrth-node.xyz","port":10133,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"🇺🇸US-🇯🇵JP_3102","server":"jpaz1.xmrth-node.xyz","port":10045,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"🇺🇸US-🇺🇸US_3100","server":"jpaz1.xmrth-node.xyz","port":10058,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"🇨🇳CN_67_10_07Mb_201","server":"zfd-unicom.ddnsnode.com","port":16109,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇬🇧GB_191_7_13Mb_202","server":"101.67.8.151","port":16217,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_216_2_63Mb_203","server":"120.240.86.91","port":16229,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_242_9_97Mb_204","server":"120.232.239.51","port":16109,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_198_14_50Mb_205","server":"120.232.239.51","port":16130,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_99_27_26Mb_206","server":"183.240.181.40","port":16130,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_144_15_94Mb_207","server":"120.240.86.91","port":16122,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇯🇵JP_246_2_84Mb_208","server":"zfd-cn1.ddnsnode.com","port":16119,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_133_6_69Mb_209","server":"101.67.8.151","port":16131,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_153_28_49Mb_210","server":"120.232.239.51","port":16245,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇭🇰HK-🇺🇸US_290_11_39Mb_211","server":"12.v2-ray.cyou","port":15012,"type":"vmess","uuid":"047184b7-6da2-3d3f-ac27-6a1a8701daf8","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"🇨🇳CN-🇸🇬SG_55_7_42Mb_212","server":"120.240.86.91","port":16109,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_170_9_82Mb_213","server":"101.67.8.151","port":16111,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_147_3_06Mb_214","server":"113.240.73.12","port":16248,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇺🇸US-🇯🇵JP_3104","server":"jpaz3.xmrth-node.xyz","port":10051,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"🇺🇸US-🇺🇸US_1981_32_03Mb_216","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"🇨🇳CN-🇹🇼TW_121_10_30Mb_217","server":"101.67.8.151","port":16239,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇹🇼TW_159_3_49Mb_218","server":"101.67.8.151","port":16130,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN_77_21_43Mb_219","server":"zfd-unicom.ddnsnode.com","port":16229,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_152_1_62Mb_220","server":"101.67.8.151","port":16203,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_84_2_36Mb_221","server":"113.240.73.12","port":16206,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"🇺🇸US-🇺🇸US_3115","server":"chuch3go.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_1","server":"169.197.142.4","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_2","server":"198.57.27.191","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_3","server":"198.57.27.191","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA_加拿大_4","server":"198.57.27.191","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA_加拿大_5","server":"198.57.27.191","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦_CA_加拿大_6","server":"198.57.27.191","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_7","server":"134.195.196.187","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_8","server":"198.57.27.191","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_9","server":"134.195.196.187","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_10","server":"134.195.196.68","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_CA_加拿大_11","server":"134.195.196.68","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸_US_美国_12","server":"169.197.142.4","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦_CA_加拿大_13","server":"134.195.196.68","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_14","server":"169.197.142.99","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦_CA_加拿大_15","server":"198.57.27.191","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_16","server":"169.197.142.4","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA_加拿大_17","server":"198.57.27.191","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_18","server":"142.202.48.74","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_19","server":"169.197.142.4","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA_加拿大_20","server":"134.195.196.187","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇬🇧_GB_英国_21","server":"172.99.190.92","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_22","server":"142.202.48.74","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_23","server":"134.195.196.68","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇺🇸_US_美国_24","server":"169.197.142.4","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_CA_加拿大_25","server":"134.195.196.187","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_CA_加拿大_26","server":"198.57.27.191","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇫🇷_FR_法国_27","server":"62.210.140.163","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_28","server":"169.197.142.4","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦_CA_加拿大_29","server":"134.195.196.187","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_30","server":"142.202.48.74","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_31","server":"169.197.142.99","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_32","server":"142.202.48.74","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_33","server":"134.195.196.81","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_34","server":"169.197.142.4","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇨🇦_CA_加拿大_35","server":"134.195.196.68","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_36","server":"134.195.196.187","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦_CA_加拿大_37","server":"134.195.196.187","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_38","server":"169.197.142.99","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA_加拿大_39","server":"134.195.196.81","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_40","server":"169.197.142.99","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳CN-🇯🇵JP_168_12_90Mb_1
-      - 🇨🇳CN-🇯🇵JP_224_13_28Mb_2
-      - 🇨🇳CN-🇹🇼TW_155_31_33Mb_3
-      - 🇨🇳CN-🇸🇬SG_220_75_43Mb_4
-      - 🇨🇳CN-🇯🇵JP_176_11_46Mb_5
-      - 🇨🇳CN-🇯🇵JP_229_18_62Mb_6
-      - 🇨🇳CN-🇯🇵JP_230_10_42Mb_7
-      - 🇨🇳CN-🇹🇼TW_258_343_03Mb_8
-      - 🇨🇳CN-🇹🇼TW_139_37_24Mb_9
-      - 🇨🇳CN-🇹🇼TW_209_42_65Mb_10
-      - 🇨🇳CN-🇹🇼TW_158_40_72Mb_11
-      - 🇨🇳CN-🇸🇬SG_213_54_47Mb_12
-      - 🇨🇳CN-🇸🇬SG_160_56_65Mb_13
-      - 🇨🇳CN-🇹🇼TW_132_45_50Mb_14
-      - 🇨🇳CN-🇹🇼TW_162_44_92Mb_15
-      - 🇨🇳CN-🇯🇵JP_212_15_91Mb_16
-      - 🇨🇳CN-🇯🇵JP_218_58_81Mb_17
-      - 🇨🇳CN-🇹🇼TW_113_50_74Mb_18
-      - 🇨🇳CN-🇹🇼TW_61_42_88Mb_19
-      - 🇨🇳CN-🇬🇧GB_59_7_07Mb_20
-      - 🇨🇳CN-🇸🇬SG_63_37_21Mb_21
-      - 🇨🇳CN-🇹🇼TW_88_24_71Mb_22
-      - 🇨🇳CN-🇹🇼TW_127_29_79Mb_23
-      - 🇨🇳CN-🇹🇼TW_120_38_12Mb_24
-      - 🇨🇳CN-🇯🇵JP_254_10_49Mb_25
-      - 🇨🇳CN-🇸🇬SG_227_64_72Mb_26
-      - 🇨🇳CN-🇹🇼TW_204_21_71Mb_27
-      - 🇨🇳CN-🇯🇵JP_236_20_30Mb_28
-      - 🇨🇳CN-🇯🇵JP_256_3_75Mb_29
-      - 🇨🇳CN-🇯🇵JP_142_4_35Mb_30
-      - 🇨🇳CN-🇹🇼TW_175_7_36Mb_31
-      - 🇨🇳CN-🇹🇼TW_185_24_13Mb_32
-      - 🇨🇳CN-🇸🇬SG_235_31_83Mb_33
-      - 🇨🇳CN-🇹🇼TW_136_45_83Mb_34
-      - 🇨🇳CN-🇹🇼TW_75_19_72Mb_35
-      - 🇨🇳CN-🇹🇼TW_95_23_86Mb_36
-      - 🇨🇳CN-🇯🇵JP_131_15_13Mb_37
-      - 🇨🇳CN-🇯🇵JP_86_5_22Mb_38
-      - 🇨🇳CN-🇸🇬SG_234_17_55Mb_39
-      - 🇨🇳CN-🇸🇬SG_238_15_72Mb_40
-      - 🇨🇳CN-🇹🇼TW_106_31_93Mb_41
-      - 🇨🇳CN-🇹🇼TW_221_28_13Mb_42
-      - 🇨🇳CN-🇹🇼TW_259_25_98Mb_43
-      - 🇨🇳CN-🇬🇧GB_102_19_75Mb_44
-      - 🇨🇳CN-🇬🇧GB_87_5_18Mb_45
-      - 🇨🇳CN-🇯🇵JP_145_13_19Mb_46
-      - 🇨🇳CN-🇸🇬SG_62_36_03Mb_47
-      - 🇨🇳CN-🇹🇼TW_79_31_32Mb_48
-      - 🇨🇳CN-🇬🇧GB_130_29_58Mb_49
-      - 🇨🇳CN-🇯🇵JP_251_9_38Mb_50
-      - 🇨🇳CN-🇸🇬SG_228_5_43Mb_51
-      - 🇨🇳CN-🇸🇬SG_54_21_33Mb_52
-      - 🇨🇳CN-🇹🇼TW_124_41_50Mb_53
-      - 🇨🇳CN-🇯🇵JP_249_4_90Mb_54
-      - 🇨🇳CN-🇸🇬SG_67_20_38Mb_55
-      - 🇳🇱NL-🇳🇱NL_302+_+2_39Mb_56
-      - 🇨🇳CN-🇬🇧GB_81_8_87Mb_57
-      - 🇨🇳CN-🇯🇵JP_143_7_82Mb_58
-      - 🇨🇳CN-🇯🇵JP_146_11_00Mb_59
-      - 🇨🇳CN-🇹🇼TW_52_14_41Mb_60
-      - 🇨🇳CN-🇬🇧GB_201_35_05Mb_61
-      - 🇨🇳CN-🇯🇵JP_215_17_05Mb_62
-      - 🇨🇳CN-🇯🇵JP_241_7_30Mb_63
-      - 🇨🇳CN-🇹🇼TW_260_51_97Mb_64
-      - 🇨🇳CN-🇹🇼TW_93_12_22Mb_65
-      - 🇨🇳CN-🇬🇧GB_195_11_39Mb_66
-      - 🇨🇳CN-🇯🇵JP_173_7_49Mb_67
-      - 🇨🇳CN-🇹🇼TW_137_12_43Mb_68
-      - 🇨🇳CN-🇹🇼TW_140_54_24Mb_69
-      - 🇨🇳CN-🇹🇼TW_58_33_05Mb_70
-      - 🇨🇳CN-🇬🇧GB_200_21_88Mb_71
-      - 🇨🇳CN-🇯🇵JP_203_4_53Mb_72
-      - 🇨🇳CN-🇯🇵JP_250_9_55Mb_73
-      - 🇨🇳CN-🇯🇵JP_252_20_38Mb_74
-      - 🇨🇳CN-🇹🇼TW_125_49_74Mb_75
-      - 🇨🇳CN-🇹🇼TW_207_47_54Mb_76
-      - 🇨🇳CN-🇹🇼TW_257_10_13Mb_77
-      - 🇨🇳CN-🇯🇵JP_247_7_14Mb_78
-      - 🇨🇳CN-🇹🇼TW_103_29_83Mb_79
-      - 🇨🇳CN-🇬🇧GB_122_12_21Mb_80
-      - 🇨🇳CN-🇬🇧GB_77_6_33Mb_81
-      - 🇨🇳CN-🇸🇬SG_53_30_65Mb_82
-      - 🇨🇳CN-🇸🇬SG_69_37_79Mb_83
-      - 🇨🇳CN-🇹🇼TW_73_24_51Mb_84
-      - 🇨🇳CN-🇹🇼TW_117_41_93Mb_85
-      - 🇨🇳CN-🇬🇧GB_97_21_45Mb_86
-      - 🇨🇳CN-🇹🇼TW_151_26_54Mb_87
-      - 🇨🇳CN-🇸🇬SG_232_21_28Mb_88
-      - 🇨🇳CN-🇹🇼TW_60_17_69Mb_89
-      - 🇨🇳CN-🇹🇼TW_94_25_43Mb_90
-      - 🇨🇳CN-🇯🇵JP_149_12_09Mb_91
-      - 🇨🇳CN-🇸🇬SG_57_32_65Mb_92
-      - 🇨🇳CN-🇯🇵JP_243_15_59Mb_93
-      - 🇨🇳CN-🇯🇵JP_85_6_01Mb_94
-      - 🇨🇳CN-🇹🇼TW_66_7_32Mb_95
-      - 🇨🇳CN-🇺🇸US_104_6_57Mb_96
-      - 🇨🇳CN-🇺🇸US_105_11_74Mb_97
-      - 🇨🇳CN-🇺🇸US_110_10_49Mb_98
-      - 🇨🇳CN-🇺🇸US_116_11_72Mb_99
-      - 🇨🇳CN-🇺🇸US_171_11_73Mb_100
-      - 🇨🇳CN-🇺🇸US_211_10_61Mb_101
-      - 🇺🇸US-🇺🇸US_3121
-      - 🇨🇳CN-🇹🇼TW_129_49_51Mb_103
-      - 🇨🇳CN-🇹🇼TW_181_13_19Mb_104
-      - 🇨🇳CN-🇺🇸US_108_10_68Mb_105
-      - 🇨🇳CN-🇺🇸US_202_4_23Mb_106
-      - 🇨🇳CN-🇺🇸US_205_11_44Mb_107
-      - 🇨🇳CN-🇹🇼TW_163_30_97Mb_108
-      - 🇨🇳CN-🇹🇼TW_226_24_04Mb_109
-      - 🇨🇳CN-🇹🇼TW_65_41_60Mb_110
-      - 🇨🇳CN-🇺🇸US_174_11_03Mb_111
-      - 🇨🇳CN-🇺🇸US_248_11_48Mb_112
-      - 🇨🇳CN-🇬🇧GB_74_15_69Mb_113
-      - 🇨🇳CN-🇹🇼TW_154_19_64Mb_114
-      - 🇨🇳CN-🇹🇼TW_172_30_78Mb_115
-      - 🇨🇳CN-🇹🇼TW_245_1_99Mb_116
-      - 🇨🇳CN-🇺🇸US_115_11_23Mb_117
-      - 🇨🇳CN-🇺🇸US_231_11_41Mb_118
-      - 🇨🇳CN-🇬🇧GB_92_14_62Mb_119
-      - 🇨🇳CN-🇺🇸US_183_5_06Mb_120
-      - 🇨🇳CN-🇸🇬SG_134_24_40Mb_121
-      - 🇨🇳CN-🇹🇼TW_118_12_04Mb_122
-      - 🇨🇳CN-🇹🇼TW_135_6_89Mb_123
-      - 🇨🇳CN-🇹🇼TW_161_8_57Mb_124
-      - 🇨🇳CN-🇹🇼TW_199_15_39Mb_125
-      - 🇨🇳CN-🇹🇼TW_76_2_09Mb_126
-      - 🇨🇳CN-🇺🇸US_107_10_39Mb_127
-      - 🇨🇳CN-🇺🇸US_189_2_45Mb_128
-      - 🇨🇳CN-🇺🇸US_192_11_57Mb_129
-      - 🇨🇳CN-🇺🇸US_210_3_66Mb_130
-      - 🇨🇳CN-🇬🇧GB_237_7_69Mb_131
-      - 🇨🇳CN-🇹🇼TW_126_13_20Mb_132
-      - 🇨🇳CN-🇺🇸US_80_2_46Mb_133
-      - 🇺🇸US-🇺🇸US_3099
-      - 🇨🇳CN-🇺🇸US_100_2_33Mb_135
-      - 🇨🇳CN-🇺🇸US_114_9_54Mb_136
-      - 🇭🇰HK-🇩🇪DE_862
-      - 🇺🇸US-🇹🇼TW_3107
-      - 🇨🇳CN-🇹🇼TW_179_4_59Mb_139
-      - 🇨🇳CN-🇺🇸US_184_11_49Mb_140
-      - 🇨🇳CN-🇺🇸US_196_8_06Mb_141
-      - 🇨🇳CN-🇺🇸US_253_1_76Mb_142
-      - 🇨🇳CN-🇹🇼TW_178_8_30Mb_143
-      - 🇨🇳CN-🇹🇼TW_68_9_97Mb_144
-      - 🇨🇳CN-🇺🇸US_90
-      - 🇭🇰HK-🇹🇼TW_861
-      - 🇺🇸US-🇯🇵JP_3103
-      - 🇨🇳CN-🇹🇼TW_123_8_74Mb_148
-      - 🇨🇳CN-🇹🇼TW_56_3_25Mb_149
-      - 🇨🇳CN-🇺🇸US_186_7_80Mb_150
-      - 🇨🇳CN-🇬🇧GB_51_21_06Mb_151
-      - 🇨🇳CN-🇺🇸US_111_9_88Mb_152
-      - 🇺🇸US-🇩🇪DE_3097
-      - 🇨🇳CN-🇯🇵JP_240_20_43Mb_154
-      - 🇨🇳CN-🇹🇼TW_187_12_95Mb_155
-      - 🇨🇳CN-🇺🇸US_206_3_87Mb_156
-      - 🇺🇸US-🇹🇼TW_3108
-      - 🇨🇳CN-🇹🇼TW_101_10_86Mb_158
-      - 🇨🇳CN-🇹🇼TW_128_8_68Mb_159
-      - 🇨🇳CN-🇺🇸US_141_2_86Mb_160
-      - 🇨🇳CN-🇺🇸US_164_10_31Mb_161
-      - 🇭🇰HK-🇸🇬SG_864
-      - 🇨🇳CN-🇬🇧GB_72_8_50Mb_163
-      - 🇨🇳CN-🇺🇸US_156_3_32Mb_164
-      - 🇨🇳CN-🇺🇸US_165_3_06Mb_165
-      - 🇨🇳CN-🇸🇬SG_112_14_72Mb_166
-      - 🇨🇳CN-🇹🇼TW_71_17_82Mb_167
-      - 🇨🇳CN-🇺🇸US_182_9_72Mb_168
-      - 🇨🇳CN-🇺🇸US_194_9_36Mb_169
-      - 🇨🇳CN-🇺🇸US_82
-      - 🇨🇳CN-🇬🇧GB_96_5_99Mb_171
-      - 🇨🇳CN-🇸🇬SG_190_57_71Mb_172
-      - 🇨🇳CN-🇹🇼TW_157_5_24Mb_173
-      - 🇨🇳CN-🇹🇼TW_64_8_69Mb_174
-      - 🇨🇳CN-🇹🇼TW_89_32_07Mb_175
-      - 🇨🇳CN-🇺🇸US_83_1_87Mb_176
-      - 🇺🇸US-🇺🇸US_3101
-      - 🇨🇳CN-🇹🇼TW_70_16_33Mb_178
-      - 🇨🇳CN-🇯🇵JP_208_32_61Mb_179
-      - 🇨🇳CN-🇹🇼TW_180_4_71Mb_180
-      - 🇨🇳CN-🇹🇼TW_109_43_72Mb_181
-      - 🇨🇳CN-🇺🇸US_222_10_61Mb_182
-      - 🇭🇰HK-🇭🇰HK_863
-      - 🇨🇳CN-🇹🇼TW_239_20_64Mb_184
-      - 🇨🇳CN-🇯🇵JP_169_7_39Mb_185
-      - 🇨🇳CN-🇸🇬SG_50_12_37Mb_186
-      - 🇨🇳CN-🇺🇸US_188_11_40Mb_187
-      - 🇨🇳CN-🇹🇼TW_148_12_26Mb_188
-      - 🇨🇳CN-🇹🇼TW_197_24_22Mb_189
-      - 🇨🇳CN-🇺🇸US_119_10_12Mb_190
-      - 🇨🇳CN-🇺🇸US_217_9_46Mb_191
-      - 🇨🇳CN_61_10_80Mb_192
-      - 🇨🇳CN-🇬🇧GB_98_5_90Mb_193
-      - 🇨🇳CN-🇸🇬SG_225_2_07Mb_194
-      - 🇨🇳CN-🇸🇬SG_244_5_68Mb_195
-      - 🇨🇳CN-🇹🇼TW_233_41_47Mb_196
-      - 🇨🇳CN-🇹🇼TW_255_10_07Mb_197
-      - 🇺🇸US-🇩🇪DE_3096
-      - 🇺🇸US-🇯🇵JP_3102
-      - 🇺🇸US-🇺🇸US_3100
-      - 🇨🇳CN_67_10_07Mb_201
-      - 🇨🇳CN-🇬🇧GB_191_7_13Mb_202
-      - 🇨🇳CN-🇸🇬SG_216_2_63Mb_203
-      - 🇨🇳CN-🇸🇬SG_242_9_97Mb_204
-      - 🇨🇳CN-🇹🇼TW_198_14_50Mb_205
-      - 🇨🇳CN-🇹🇼TW_99_27_26Mb_206
-      - 🇨🇳CN-🇯🇵JP_144_15_94Mb_207
-      - 🇨🇳CN-🇯🇵JP_246_2_84Mb_208
-      - 🇨🇳CN-🇹🇼TW_133_6_69Mb_209
-      - 🇨🇳CN-🇹🇼TW_153_28_49Mb_210
-      - 🇭🇰HK-🇺🇸US_290_11_39Mb_211
-      - 🇨🇳CN-🇸🇬SG_55_7_42Mb_212
-      - 🇨🇳CN-🇹🇼TW_170_9_82Mb_213
-      - 🇨🇳CN-🇺🇸US_147_3_06Mb_214
-      - 🇺🇸US-🇯🇵JP_3104
-      - 🇺🇸US-🇺🇸US_1981_32_03Mb_216
-      - 🇨🇳CN-🇹🇼TW_121_10_30Mb_217
-      - 🇨🇳CN-🇹🇼TW_159_3_49Mb_218
-      - 🇨🇳CN_77_21_43Mb_219
-      - 🇨🇳CN-🇺🇸US_152_1_62Mb_220
-      - 🇨🇳CN-🇺🇸US_84_2_36Mb_221
-      - 🇺🇸US-🇺🇸US_3115
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_11
+      - 🇺🇸_US_美国_12
+      - 🇨🇦_CA_加拿大_13
+      - 🇺🇸_US_美国_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇺🇸_US_美国_16
+      - 🇨🇦_CA_加拿大_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇨🇦_CA_加拿大_20
+      - 🇬🇧_GB_英国_21
+      - 🇺🇸_US_美国_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇺🇸_US_美国_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇫🇷_FR_法国_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇨🇦_CA_加拿大_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇺🇸_US_美国_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳CN-🇯🇵JP_168_12_90Mb_1
-      - 🇨🇳CN-🇯🇵JP_224_13_28Mb_2
-      - 🇨🇳CN-🇹🇼TW_155_31_33Mb_3
-      - 🇨🇳CN-🇸🇬SG_220_75_43Mb_4
-      - 🇨🇳CN-🇯🇵JP_176_11_46Mb_5
-      - 🇨🇳CN-🇯🇵JP_229_18_62Mb_6
-      - 🇨🇳CN-🇯🇵JP_230_10_42Mb_7
-      - 🇨🇳CN-🇹🇼TW_258_343_03Mb_8
-      - 🇨🇳CN-🇹🇼TW_139_37_24Mb_9
-      - 🇨🇳CN-🇹🇼TW_209_42_65Mb_10
-      - 🇨🇳CN-🇹🇼TW_158_40_72Mb_11
-      - 🇨🇳CN-🇸🇬SG_213_54_47Mb_12
-      - 🇨🇳CN-🇸🇬SG_160_56_65Mb_13
-      - 🇨🇳CN-🇹🇼TW_132_45_50Mb_14
-      - 🇨🇳CN-🇹🇼TW_162_44_92Mb_15
-      - 🇨🇳CN-🇯🇵JP_212_15_91Mb_16
-      - 🇨🇳CN-🇯🇵JP_218_58_81Mb_17
-      - 🇨🇳CN-🇹🇼TW_113_50_74Mb_18
-      - 🇨🇳CN-🇹🇼TW_61_42_88Mb_19
-      - 🇨🇳CN-🇬🇧GB_59_7_07Mb_20
-      - 🇨🇳CN-🇸🇬SG_63_37_21Mb_21
-      - 🇨🇳CN-🇹🇼TW_88_24_71Mb_22
-      - 🇨🇳CN-🇹🇼TW_127_29_79Mb_23
-      - 🇨🇳CN-🇹🇼TW_120_38_12Mb_24
-      - 🇨🇳CN-🇯🇵JP_254_10_49Mb_25
-      - 🇨🇳CN-🇸🇬SG_227_64_72Mb_26
-      - 🇨🇳CN-🇹🇼TW_204_21_71Mb_27
-      - 🇨🇳CN-🇯🇵JP_236_20_30Mb_28
-      - 🇨🇳CN-🇯🇵JP_256_3_75Mb_29
-      - 🇨🇳CN-🇯🇵JP_142_4_35Mb_30
-      - 🇨🇳CN-🇹🇼TW_175_7_36Mb_31
-      - 🇨🇳CN-🇹🇼TW_185_24_13Mb_32
-      - 🇨🇳CN-🇸🇬SG_235_31_83Mb_33
-      - 🇨🇳CN-🇹🇼TW_136_45_83Mb_34
-      - 🇨🇳CN-🇹🇼TW_75_19_72Mb_35
-      - 🇨🇳CN-🇹🇼TW_95_23_86Mb_36
-      - 🇨🇳CN-🇯🇵JP_131_15_13Mb_37
-      - 🇨🇳CN-🇯🇵JP_86_5_22Mb_38
-      - 🇨🇳CN-🇸🇬SG_234_17_55Mb_39
-      - 🇨🇳CN-🇸🇬SG_238_15_72Mb_40
-      - 🇨🇳CN-🇹🇼TW_106_31_93Mb_41
-      - 🇨🇳CN-🇹🇼TW_221_28_13Mb_42
-      - 🇨🇳CN-🇹🇼TW_259_25_98Mb_43
-      - 🇨🇳CN-🇬🇧GB_102_19_75Mb_44
-      - 🇨🇳CN-🇬🇧GB_87_5_18Mb_45
-      - 🇨🇳CN-🇯🇵JP_145_13_19Mb_46
-      - 🇨🇳CN-🇸🇬SG_62_36_03Mb_47
-      - 🇨🇳CN-🇹🇼TW_79_31_32Mb_48
-      - 🇨🇳CN-🇬🇧GB_130_29_58Mb_49
-      - 🇨🇳CN-🇯🇵JP_251_9_38Mb_50
-      - 🇨🇳CN-🇸🇬SG_228_5_43Mb_51
-      - 🇨🇳CN-🇸🇬SG_54_21_33Mb_52
-      - 🇨🇳CN-🇹🇼TW_124_41_50Mb_53
-      - 🇨🇳CN-🇯🇵JP_249_4_90Mb_54
-      - 🇨🇳CN-🇸🇬SG_67_20_38Mb_55
-      - 🇳🇱NL-🇳🇱NL_302+_+2_39Mb_56
-      - 🇨🇳CN-🇬🇧GB_81_8_87Mb_57
-      - 🇨🇳CN-🇯🇵JP_143_7_82Mb_58
-      - 🇨🇳CN-🇯🇵JP_146_11_00Mb_59
-      - 🇨🇳CN-🇹🇼TW_52_14_41Mb_60
-      - 🇨🇳CN-🇬🇧GB_201_35_05Mb_61
-      - 🇨🇳CN-🇯🇵JP_215_17_05Mb_62
-      - 🇨🇳CN-🇯🇵JP_241_7_30Mb_63
-      - 🇨🇳CN-🇹🇼TW_260_51_97Mb_64
-      - 🇨🇳CN-🇹🇼TW_93_12_22Mb_65
-      - 🇨🇳CN-🇬🇧GB_195_11_39Mb_66
-      - 🇨🇳CN-🇯🇵JP_173_7_49Mb_67
-      - 🇨🇳CN-🇹🇼TW_137_12_43Mb_68
-      - 🇨🇳CN-🇹🇼TW_140_54_24Mb_69
-      - 🇨🇳CN-🇹🇼TW_58_33_05Mb_70
-      - 🇨🇳CN-🇬🇧GB_200_21_88Mb_71
-      - 🇨🇳CN-🇯🇵JP_203_4_53Mb_72
-      - 🇨🇳CN-🇯🇵JP_250_9_55Mb_73
-      - 🇨🇳CN-🇯🇵JP_252_20_38Mb_74
-      - 🇨🇳CN-🇹🇼TW_125_49_74Mb_75
-      - 🇨🇳CN-🇹🇼TW_207_47_54Mb_76
-      - 🇨🇳CN-🇹🇼TW_257_10_13Mb_77
-      - 🇨🇳CN-🇯🇵JP_247_7_14Mb_78
-      - 🇨🇳CN-🇹🇼TW_103_29_83Mb_79
-      - 🇨🇳CN-🇬🇧GB_122_12_21Mb_80
-      - 🇨🇳CN-🇬🇧GB_77_6_33Mb_81
-      - 🇨🇳CN-🇸🇬SG_53_30_65Mb_82
-      - 🇨🇳CN-🇸🇬SG_69_37_79Mb_83
-      - 🇨🇳CN-🇹🇼TW_73_24_51Mb_84
-      - 🇨🇳CN-🇹🇼TW_117_41_93Mb_85
-      - 🇨🇳CN-🇬🇧GB_97_21_45Mb_86
-      - 🇨🇳CN-🇹🇼TW_151_26_54Mb_87
-      - 🇨🇳CN-🇸🇬SG_232_21_28Mb_88
-      - 🇨🇳CN-🇹🇼TW_60_17_69Mb_89
-      - 🇨🇳CN-🇹🇼TW_94_25_43Mb_90
-      - 🇨🇳CN-🇯🇵JP_149_12_09Mb_91
-      - 🇨🇳CN-🇸🇬SG_57_32_65Mb_92
-      - 🇨🇳CN-🇯🇵JP_243_15_59Mb_93
-      - 🇨🇳CN-🇯🇵JP_85_6_01Mb_94
-      - 🇨🇳CN-🇹🇼TW_66_7_32Mb_95
-      - 🇨🇳CN-🇺🇸US_104_6_57Mb_96
-      - 🇨🇳CN-🇺🇸US_105_11_74Mb_97
-      - 🇨🇳CN-🇺🇸US_110_10_49Mb_98
-      - 🇨🇳CN-🇺🇸US_116_11_72Mb_99
-      - 🇨🇳CN-🇺🇸US_171_11_73Mb_100
-      - 🇨🇳CN-🇺🇸US_211_10_61Mb_101
-      - 🇺🇸US-🇺🇸US_3121
-      - 🇨🇳CN-🇹🇼TW_129_49_51Mb_103
-      - 🇨🇳CN-🇹🇼TW_181_13_19Mb_104
-      - 🇨🇳CN-🇺🇸US_108_10_68Mb_105
-      - 🇨🇳CN-🇺🇸US_202_4_23Mb_106
-      - 🇨🇳CN-🇺🇸US_205_11_44Mb_107
-      - 🇨🇳CN-🇹🇼TW_163_30_97Mb_108
-      - 🇨🇳CN-🇹🇼TW_226_24_04Mb_109
-      - 🇨🇳CN-🇹🇼TW_65_41_60Mb_110
-      - 🇨🇳CN-🇺🇸US_174_11_03Mb_111
-      - 🇨🇳CN-🇺🇸US_248_11_48Mb_112
-      - 🇨🇳CN-🇬🇧GB_74_15_69Mb_113
-      - 🇨🇳CN-🇹🇼TW_154_19_64Mb_114
-      - 🇨🇳CN-🇹🇼TW_172_30_78Mb_115
-      - 🇨🇳CN-🇹🇼TW_245_1_99Mb_116
-      - 🇨🇳CN-🇺🇸US_115_11_23Mb_117
-      - 🇨🇳CN-🇺🇸US_231_11_41Mb_118
-      - 🇨🇳CN-🇬🇧GB_92_14_62Mb_119
-      - 🇨🇳CN-🇺🇸US_183_5_06Mb_120
-      - 🇨🇳CN-🇸🇬SG_134_24_40Mb_121
-      - 🇨🇳CN-🇹🇼TW_118_12_04Mb_122
-      - 🇨🇳CN-🇹🇼TW_135_6_89Mb_123
-      - 🇨🇳CN-🇹🇼TW_161_8_57Mb_124
-      - 🇨🇳CN-🇹🇼TW_199_15_39Mb_125
-      - 🇨🇳CN-🇹🇼TW_76_2_09Mb_126
-      - 🇨🇳CN-🇺🇸US_107_10_39Mb_127
-      - 🇨🇳CN-🇺🇸US_189_2_45Mb_128
-      - 🇨🇳CN-🇺🇸US_192_11_57Mb_129
-      - 🇨🇳CN-🇺🇸US_210_3_66Mb_130
-      - 🇨🇳CN-🇬🇧GB_237_7_69Mb_131
-      - 🇨🇳CN-🇹🇼TW_126_13_20Mb_132
-      - 🇨🇳CN-🇺🇸US_80_2_46Mb_133
-      - 🇺🇸US-🇺🇸US_3099
-      - 🇨🇳CN-🇺🇸US_100_2_33Mb_135
-      - 🇨🇳CN-🇺🇸US_114_9_54Mb_136
-      - 🇭🇰HK-🇩🇪DE_862
-      - 🇺🇸US-🇹🇼TW_3107
-      - 🇨🇳CN-🇹🇼TW_179_4_59Mb_139
-      - 🇨🇳CN-🇺🇸US_184_11_49Mb_140
-      - 🇨🇳CN-🇺🇸US_196_8_06Mb_141
-      - 🇨🇳CN-🇺🇸US_253_1_76Mb_142
-      - 🇨🇳CN-🇹🇼TW_178_8_30Mb_143
-      - 🇨🇳CN-🇹🇼TW_68_9_97Mb_144
-      - 🇨🇳CN-🇺🇸US_90
-      - 🇭🇰HK-🇹🇼TW_861
-      - 🇺🇸US-🇯🇵JP_3103
-      - 🇨🇳CN-🇹🇼TW_123_8_74Mb_148
-      - 🇨🇳CN-🇹🇼TW_56_3_25Mb_149
-      - 🇨🇳CN-🇺🇸US_186_7_80Mb_150
-      - 🇨🇳CN-🇬🇧GB_51_21_06Mb_151
-      - 🇨🇳CN-🇺🇸US_111_9_88Mb_152
-      - 🇺🇸US-🇩🇪DE_3097
-      - 🇨🇳CN-🇯🇵JP_240_20_43Mb_154
-      - 🇨🇳CN-🇹🇼TW_187_12_95Mb_155
-      - 🇨🇳CN-🇺🇸US_206_3_87Mb_156
-      - 🇺🇸US-🇹🇼TW_3108
-      - 🇨🇳CN-🇹🇼TW_101_10_86Mb_158
-      - 🇨🇳CN-🇹🇼TW_128_8_68Mb_159
-      - 🇨🇳CN-🇺🇸US_141_2_86Mb_160
-      - 🇨🇳CN-🇺🇸US_164_10_31Mb_161
-      - 🇭🇰HK-🇸🇬SG_864
-      - 🇨🇳CN-🇬🇧GB_72_8_50Mb_163
-      - 🇨🇳CN-🇺🇸US_156_3_32Mb_164
-      - 🇨🇳CN-🇺🇸US_165_3_06Mb_165
-      - 🇨🇳CN-🇸🇬SG_112_14_72Mb_166
-      - 🇨🇳CN-🇹🇼TW_71_17_82Mb_167
-      - 🇨🇳CN-🇺🇸US_182_9_72Mb_168
-      - 🇨🇳CN-🇺🇸US_194_9_36Mb_169
-      - 🇨🇳CN-🇺🇸US_82
-      - 🇨🇳CN-🇬🇧GB_96_5_99Mb_171
-      - 🇨🇳CN-🇸🇬SG_190_57_71Mb_172
-      - 🇨🇳CN-🇹🇼TW_157_5_24Mb_173
-      - 🇨🇳CN-🇹🇼TW_64_8_69Mb_174
-      - 🇨🇳CN-🇹🇼TW_89_32_07Mb_175
-      - 🇨🇳CN-🇺🇸US_83_1_87Mb_176
-      - 🇺🇸US-🇺🇸US_3101
-      - 🇨🇳CN-🇹🇼TW_70_16_33Mb_178
-      - 🇨🇳CN-🇯🇵JP_208_32_61Mb_179
-      - 🇨🇳CN-🇹🇼TW_180_4_71Mb_180
-      - 🇨🇳CN-🇹🇼TW_109_43_72Mb_181
-      - 🇨🇳CN-🇺🇸US_222_10_61Mb_182
-      - 🇭🇰HK-🇭🇰HK_863
-      - 🇨🇳CN-🇹🇼TW_239_20_64Mb_184
-      - 🇨🇳CN-🇯🇵JP_169_7_39Mb_185
-      - 🇨🇳CN-🇸🇬SG_50_12_37Mb_186
-      - 🇨🇳CN-🇺🇸US_188_11_40Mb_187
-      - 🇨🇳CN-🇹🇼TW_148_12_26Mb_188
-      - 🇨🇳CN-🇹🇼TW_197_24_22Mb_189
-      - 🇨🇳CN-🇺🇸US_119_10_12Mb_190
-      - 🇨🇳CN-🇺🇸US_217_9_46Mb_191
-      - 🇨🇳CN_61_10_80Mb_192
-      - 🇨🇳CN-🇬🇧GB_98_5_90Mb_193
-      - 🇨🇳CN-🇸🇬SG_225_2_07Mb_194
-      - 🇨🇳CN-🇸🇬SG_244_5_68Mb_195
-      - 🇨🇳CN-🇹🇼TW_233_41_47Mb_196
-      - 🇨🇳CN-🇹🇼TW_255_10_07Mb_197
-      - 🇺🇸US-🇩🇪DE_3096
-      - 🇺🇸US-🇯🇵JP_3102
-      - 🇺🇸US-🇺🇸US_3100
-      - 🇨🇳CN_67_10_07Mb_201
-      - 🇨🇳CN-🇬🇧GB_191_7_13Mb_202
-      - 🇨🇳CN-🇸🇬SG_216_2_63Mb_203
-      - 🇨🇳CN-🇸🇬SG_242_9_97Mb_204
-      - 🇨🇳CN-🇹🇼TW_198_14_50Mb_205
-      - 🇨🇳CN-🇹🇼TW_99_27_26Mb_206
-      - 🇨🇳CN-🇯🇵JP_144_15_94Mb_207
-      - 🇨🇳CN-🇯🇵JP_246_2_84Mb_208
-      - 🇨🇳CN-🇹🇼TW_133_6_69Mb_209
-      - 🇨🇳CN-🇹🇼TW_153_28_49Mb_210
-      - 🇭🇰HK-🇺🇸US_290_11_39Mb_211
-      - 🇨🇳CN-🇸🇬SG_55_7_42Mb_212
-      - 🇨🇳CN-🇹🇼TW_170_9_82Mb_213
-      - 🇨🇳CN-🇺🇸US_147_3_06Mb_214
-      - 🇺🇸US-🇯🇵JP_3104
-      - 🇺🇸US-🇺🇸US_1981_32_03Mb_216
-      - 🇨🇳CN-🇹🇼TW_121_10_30Mb_217
-      - 🇨🇳CN-🇹🇼TW_159_3_49Mb_218
-      - 🇨🇳CN_77_21_43Mb_219
-      - 🇨🇳CN-🇺🇸US_152_1_62Mb_220
-      - 🇨🇳CN-🇺🇸US_84_2_36Mb_221
-      - 🇺🇸US-🇺🇸US_3115
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_11
+      - 🇺🇸_US_美国_12
+      - 🇨🇦_CA_加拿大_13
+      - 🇺🇸_US_美国_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇺🇸_US_美国_16
+      - 🇨🇦_CA_加拿大_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇨🇦_CA_加拿大_20
+      - 🇬🇧_GB_英国_21
+      - 🇺🇸_US_美国_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇺🇸_US_美国_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇫🇷_FR_法国_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇨🇦_CA_加拿大_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇺🇸_US_美国_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳CN-🇯🇵JP_168_12_90Mb_1
-      - 🇨🇳CN-🇯🇵JP_224_13_28Mb_2
-      - 🇨🇳CN-🇹🇼TW_155_31_33Mb_3
-      - 🇨🇳CN-🇸🇬SG_220_75_43Mb_4
-      - 🇨🇳CN-🇯🇵JP_176_11_46Mb_5
-      - 🇨🇳CN-🇯🇵JP_229_18_62Mb_6
-      - 🇨🇳CN-🇯🇵JP_230_10_42Mb_7
-      - 🇨🇳CN-🇹🇼TW_258_343_03Mb_8
-      - 🇨🇳CN-🇹🇼TW_139_37_24Mb_9
-      - 🇨🇳CN-🇹🇼TW_209_42_65Mb_10
-      - 🇨🇳CN-🇹🇼TW_158_40_72Mb_11
-      - 🇨🇳CN-🇸🇬SG_213_54_47Mb_12
-      - 🇨🇳CN-🇸🇬SG_160_56_65Mb_13
-      - 🇨🇳CN-🇹🇼TW_132_45_50Mb_14
-      - 🇨🇳CN-🇹🇼TW_162_44_92Mb_15
-      - 🇨🇳CN-🇯🇵JP_212_15_91Mb_16
-      - 🇨🇳CN-🇯🇵JP_218_58_81Mb_17
-      - 🇨🇳CN-🇹🇼TW_113_50_74Mb_18
-      - 🇨🇳CN-🇹🇼TW_61_42_88Mb_19
-      - 🇨🇳CN-🇬🇧GB_59_7_07Mb_20
-      - 🇨🇳CN-🇸🇬SG_63_37_21Mb_21
-      - 🇨🇳CN-🇹🇼TW_88_24_71Mb_22
-      - 🇨🇳CN-🇹🇼TW_127_29_79Mb_23
-      - 🇨🇳CN-🇹🇼TW_120_38_12Mb_24
-      - 🇨🇳CN-🇯🇵JP_254_10_49Mb_25
-      - 🇨🇳CN-🇸🇬SG_227_64_72Mb_26
-      - 🇨🇳CN-🇹🇼TW_204_21_71Mb_27
-      - 🇨🇳CN-🇯🇵JP_236_20_30Mb_28
-      - 🇨🇳CN-🇯🇵JP_256_3_75Mb_29
-      - 🇨🇳CN-🇯🇵JP_142_4_35Mb_30
-      - 🇨🇳CN-🇹🇼TW_175_7_36Mb_31
-      - 🇨🇳CN-🇹🇼TW_185_24_13Mb_32
-      - 🇨🇳CN-🇸🇬SG_235_31_83Mb_33
-      - 🇨🇳CN-🇹🇼TW_136_45_83Mb_34
-      - 🇨🇳CN-🇹🇼TW_75_19_72Mb_35
-      - 🇨🇳CN-🇹🇼TW_95_23_86Mb_36
-      - 🇨🇳CN-🇯🇵JP_131_15_13Mb_37
-      - 🇨🇳CN-🇯🇵JP_86_5_22Mb_38
-      - 🇨🇳CN-🇸🇬SG_234_17_55Mb_39
-      - 🇨🇳CN-🇸🇬SG_238_15_72Mb_40
-      - 🇨🇳CN-🇹🇼TW_106_31_93Mb_41
-      - 🇨🇳CN-🇹🇼TW_221_28_13Mb_42
-      - 🇨🇳CN-🇹🇼TW_259_25_98Mb_43
-      - 🇨🇳CN-🇬🇧GB_102_19_75Mb_44
-      - 🇨🇳CN-🇬🇧GB_87_5_18Mb_45
-      - 🇨🇳CN-🇯🇵JP_145_13_19Mb_46
-      - 🇨🇳CN-🇸🇬SG_62_36_03Mb_47
-      - 🇨🇳CN-🇹🇼TW_79_31_32Mb_48
-      - 🇨🇳CN-🇬🇧GB_130_29_58Mb_49
-      - 🇨🇳CN-🇯🇵JP_251_9_38Mb_50
-      - 🇨🇳CN-🇸🇬SG_228_5_43Mb_51
-      - 🇨🇳CN-🇸🇬SG_54_21_33Mb_52
-      - 🇨🇳CN-🇹🇼TW_124_41_50Mb_53
-      - 🇨🇳CN-🇯🇵JP_249_4_90Mb_54
-      - 🇨🇳CN-🇸🇬SG_67_20_38Mb_55
-      - 🇳🇱NL-🇳🇱NL_302+_+2_39Mb_56
-      - 🇨🇳CN-🇬🇧GB_81_8_87Mb_57
-      - 🇨🇳CN-🇯🇵JP_143_7_82Mb_58
-      - 🇨🇳CN-🇯🇵JP_146_11_00Mb_59
-      - 🇨🇳CN-🇹🇼TW_52_14_41Mb_60
-      - 🇨🇳CN-🇬🇧GB_201_35_05Mb_61
-      - 🇨🇳CN-🇯🇵JP_215_17_05Mb_62
-      - 🇨🇳CN-🇯🇵JP_241_7_30Mb_63
-      - 🇨🇳CN-🇹🇼TW_260_51_97Mb_64
-      - 🇨🇳CN-🇹🇼TW_93_12_22Mb_65
-      - 🇨🇳CN-🇬🇧GB_195_11_39Mb_66
-      - 🇨🇳CN-🇯🇵JP_173_7_49Mb_67
-      - 🇨🇳CN-🇹🇼TW_137_12_43Mb_68
-      - 🇨🇳CN-🇹🇼TW_140_54_24Mb_69
-      - 🇨🇳CN-🇹🇼TW_58_33_05Mb_70
-      - 🇨🇳CN-🇬🇧GB_200_21_88Mb_71
-      - 🇨🇳CN-🇯🇵JP_203_4_53Mb_72
-      - 🇨🇳CN-🇯🇵JP_250_9_55Mb_73
-      - 🇨🇳CN-🇯🇵JP_252_20_38Mb_74
-      - 🇨🇳CN-🇹🇼TW_125_49_74Mb_75
-      - 🇨🇳CN-🇹🇼TW_207_47_54Mb_76
-      - 🇨🇳CN-🇹🇼TW_257_10_13Mb_77
-      - 🇨🇳CN-🇯🇵JP_247_7_14Mb_78
-      - 🇨🇳CN-🇹🇼TW_103_29_83Mb_79
-      - 🇨🇳CN-🇬🇧GB_122_12_21Mb_80
-      - 🇨🇳CN-🇬🇧GB_77_6_33Mb_81
-      - 🇨🇳CN-🇸🇬SG_53_30_65Mb_82
-      - 🇨🇳CN-🇸🇬SG_69_37_79Mb_83
-      - 🇨🇳CN-🇹🇼TW_73_24_51Mb_84
-      - 🇨🇳CN-🇹🇼TW_117_41_93Mb_85
-      - 🇨🇳CN-🇬🇧GB_97_21_45Mb_86
-      - 🇨🇳CN-🇹🇼TW_151_26_54Mb_87
-      - 🇨🇳CN-🇸🇬SG_232_21_28Mb_88
-      - 🇨🇳CN-🇹🇼TW_60_17_69Mb_89
-      - 🇨🇳CN-🇹🇼TW_94_25_43Mb_90
-      - 🇨🇳CN-🇯🇵JP_149_12_09Mb_91
-      - 🇨🇳CN-🇸🇬SG_57_32_65Mb_92
-      - 🇨🇳CN-🇯🇵JP_243_15_59Mb_93
-      - 🇨🇳CN-🇯🇵JP_85_6_01Mb_94
-      - 🇨🇳CN-🇹🇼TW_66_7_32Mb_95
-      - 🇨🇳CN-🇺🇸US_104_6_57Mb_96
-      - 🇨🇳CN-🇺🇸US_105_11_74Mb_97
-      - 🇨🇳CN-🇺🇸US_110_10_49Mb_98
-      - 🇨🇳CN-🇺🇸US_116_11_72Mb_99
-      - 🇨🇳CN-🇺🇸US_171_11_73Mb_100
-      - 🇨🇳CN-🇺🇸US_211_10_61Mb_101
-      - 🇺🇸US-🇺🇸US_3121
-      - 🇨🇳CN-🇹🇼TW_129_49_51Mb_103
-      - 🇨🇳CN-🇹🇼TW_181_13_19Mb_104
-      - 🇨🇳CN-🇺🇸US_108_10_68Mb_105
-      - 🇨🇳CN-🇺🇸US_202_4_23Mb_106
-      - 🇨🇳CN-🇺🇸US_205_11_44Mb_107
-      - 🇨🇳CN-🇹🇼TW_163_30_97Mb_108
-      - 🇨🇳CN-🇹🇼TW_226_24_04Mb_109
-      - 🇨🇳CN-🇹🇼TW_65_41_60Mb_110
-      - 🇨🇳CN-🇺🇸US_174_11_03Mb_111
-      - 🇨🇳CN-🇺🇸US_248_11_48Mb_112
-      - 🇨🇳CN-🇬🇧GB_74_15_69Mb_113
-      - 🇨🇳CN-🇹🇼TW_154_19_64Mb_114
-      - 🇨🇳CN-🇹🇼TW_172_30_78Mb_115
-      - 🇨🇳CN-🇹🇼TW_245_1_99Mb_116
-      - 🇨🇳CN-🇺🇸US_115_11_23Mb_117
-      - 🇨🇳CN-🇺🇸US_231_11_41Mb_118
-      - 🇨🇳CN-🇬🇧GB_92_14_62Mb_119
-      - 🇨🇳CN-🇺🇸US_183_5_06Mb_120
-      - 🇨🇳CN-🇸🇬SG_134_24_40Mb_121
-      - 🇨🇳CN-🇹🇼TW_118_12_04Mb_122
-      - 🇨🇳CN-🇹🇼TW_135_6_89Mb_123
-      - 🇨🇳CN-🇹🇼TW_161_8_57Mb_124
-      - 🇨🇳CN-🇹🇼TW_199_15_39Mb_125
-      - 🇨🇳CN-🇹🇼TW_76_2_09Mb_126
-      - 🇨🇳CN-🇺🇸US_107_10_39Mb_127
-      - 🇨🇳CN-🇺🇸US_189_2_45Mb_128
-      - 🇨🇳CN-🇺🇸US_192_11_57Mb_129
-      - 🇨🇳CN-🇺🇸US_210_3_66Mb_130
-      - 🇨🇳CN-🇬🇧GB_237_7_69Mb_131
-      - 🇨🇳CN-🇹🇼TW_126_13_20Mb_132
-      - 🇨🇳CN-🇺🇸US_80_2_46Mb_133
-      - 🇺🇸US-🇺🇸US_3099
-      - 🇨🇳CN-🇺🇸US_100_2_33Mb_135
-      - 🇨🇳CN-🇺🇸US_114_9_54Mb_136
-      - 🇭🇰HK-🇩🇪DE_862
-      - 🇺🇸US-🇹🇼TW_3107
-      - 🇨🇳CN-🇹🇼TW_179_4_59Mb_139
-      - 🇨🇳CN-🇺🇸US_184_11_49Mb_140
-      - 🇨🇳CN-🇺🇸US_196_8_06Mb_141
-      - 🇨🇳CN-🇺🇸US_253_1_76Mb_142
-      - 🇨🇳CN-🇹🇼TW_178_8_30Mb_143
-      - 🇨🇳CN-🇹🇼TW_68_9_97Mb_144
-      - 🇨🇳CN-🇺🇸US_90
-      - 🇭🇰HK-🇹🇼TW_861
-      - 🇺🇸US-🇯🇵JP_3103
-      - 🇨🇳CN-🇹🇼TW_123_8_74Mb_148
-      - 🇨🇳CN-🇹🇼TW_56_3_25Mb_149
-      - 🇨🇳CN-🇺🇸US_186_7_80Mb_150
-      - 🇨🇳CN-🇬🇧GB_51_21_06Mb_151
-      - 🇨🇳CN-🇺🇸US_111_9_88Mb_152
-      - 🇺🇸US-🇩🇪DE_3097
-      - 🇨🇳CN-🇯🇵JP_240_20_43Mb_154
-      - 🇨🇳CN-🇹🇼TW_187_12_95Mb_155
-      - 🇨🇳CN-🇺🇸US_206_3_87Mb_156
-      - 🇺🇸US-🇹🇼TW_3108
-      - 🇨🇳CN-🇹🇼TW_101_10_86Mb_158
-      - 🇨🇳CN-🇹🇼TW_128_8_68Mb_159
-      - 🇨🇳CN-🇺🇸US_141_2_86Mb_160
-      - 🇨🇳CN-🇺🇸US_164_10_31Mb_161
-      - 🇭🇰HK-🇸🇬SG_864
-      - 🇨🇳CN-🇬🇧GB_72_8_50Mb_163
-      - 🇨🇳CN-🇺🇸US_156_3_32Mb_164
-      - 🇨🇳CN-🇺🇸US_165_3_06Mb_165
-      - 🇨🇳CN-🇸🇬SG_112_14_72Mb_166
-      - 🇨🇳CN-🇹🇼TW_71_17_82Mb_167
-      - 🇨🇳CN-🇺🇸US_182_9_72Mb_168
-      - 🇨🇳CN-🇺🇸US_194_9_36Mb_169
-      - 🇨🇳CN-🇺🇸US_82
-      - 🇨🇳CN-🇬🇧GB_96_5_99Mb_171
-      - 🇨🇳CN-🇸🇬SG_190_57_71Mb_172
-      - 🇨🇳CN-🇹🇼TW_157_5_24Mb_173
-      - 🇨🇳CN-🇹🇼TW_64_8_69Mb_174
-      - 🇨🇳CN-🇹🇼TW_89_32_07Mb_175
-      - 🇨🇳CN-🇺🇸US_83_1_87Mb_176
-      - 🇺🇸US-🇺🇸US_3101
-      - 🇨🇳CN-🇹🇼TW_70_16_33Mb_178
-      - 🇨🇳CN-🇯🇵JP_208_32_61Mb_179
-      - 🇨🇳CN-🇹🇼TW_180_4_71Mb_180
-      - 🇨🇳CN-🇹🇼TW_109_43_72Mb_181
-      - 🇨🇳CN-🇺🇸US_222_10_61Mb_182
-      - 🇭🇰HK-🇭🇰HK_863
-      - 🇨🇳CN-🇹🇼TW_239_20_64Mb_184
-      - 🇨🇳CN-🇯🇵JP_169_7_39Mb_185
-      - 🇨🇳CN-🇸🇬SG_50_12_37Mb_186
-      - 🇨🇳CN-🇺🇸US_188_11_40Mb_187
-      - 🇨🇳CN-🇹🇼TW_148_12_26Mb_188
-      - 🇨🇳CN-🇹🇼TW_197_24_22Mb_189
-      - 🇨🇳CN-🇺🇸US_119_10_12Mb_190
-      - 🇨🇳CN-🇺🇸US_217_9_46Mb_191
-      - 🇨🇳CN_61_10_80Mb_192
-      - 🇨🇳CN-🇬🇧GB_98_5_90Mb_193
-      - 🇨🇳CN-🇸🇬SG_225_2_07Mb_194
-      - 🇨🇳CN-🇸🇬SG_244_5_68Mb_195
-      - 🇨🇳CN-🇹🇼TW_233_41_47Mb_196
-      - 🇨🇳CN-🇹🇼TW_255_10_07Mb_197
-      - 🇺🇸US-🇩🇪DE_3096
-      - 🇺🇸US-🇯🇵JP_3102
-      - 🇺🇸US-🇺🇸US_3100
-      - 🇨🇳CN_67_10_07Mb_201
-      - 🇨🇳CN-🇬🇧GB_191_7_13Mb_202
-      - 🇨🇳CN-🇸🇬SG_216_2_63Mb_203
-      - 🇨🇳CN-🇸🇬SG_242_9_97Mb_204
-      - 🇨🇳CN-🇹🇼TW_198_14_50Mb_205
-      - 🇨🇳CN-🇹🇼TW_99_27_26Mb_206
-      - 🇨🇳CN-🇯🇵JP_144_15_94Mb_207
-      - 🇨🇳CN-🇯🇵JP_246_2_84Mb_208
-      - 🇨🇳CN-🇹🇼TW_133_6_69Mb_209
-      - 🇨🇳CN-🇹🇼TW_153_28_49Mb_210
-      - 🇭🇰HK-🇺🇸US_290_11_39Mb_211
-      - 🇨🇳CN-🇸🇬SG_55_7_42Mb_212
-      - 🇨🇳CN-🇹🇼TW_170_9_82Mb_213
-      - 🇨🇳CN-🇺🇸US_147_3_06Mb_214
-      - 🇺🇸US-🇯🇵JP_3104
-      - 🇺🇸US-🇺🇸US_1981_32_03Mb_216
-      - 🇨🇳CN-🇹🇼TW_121_10_30Mb_217
-      - 🇨🇳CN-🇹🇼TW_159_3_49Mb_218
-      - 🇨🇳CN_77_21_43Mb_219
-      - 🇨🇳CN-🇺🇸US_152_1_62Mb_220
-      - 🇨🇳CN-🇺🇸US_84_2_36Mb_221
-      - 🇺🇸US-🇺🇸US_3115
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_11
+      - 🇺🇸_US_美国_12
+      - 🇨🇦_CA_加拿大_13
+      - 🇺🇸_US_美国_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇺🇸_US_美国_16
+      - 🇨🇦_CA_加拿大_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇨🇦_CA_加拿大_20
+      - 🇬🇧_GB_英国_21
+      - 🇺🇸_US_美国_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇺🇸_US_美国_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇫🇷_FR_法国_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇨🇦_CA_加拿大_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇺🇸_US_美国_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳CN-🇯🇵JP_168_12_90Mb_1
-      - 🇨🇳CN-🇯🇵JP_224_13_28Mb_2
-      - 🇨🇳CN-🇹🇼TW_155_31_33Mb_3
-      - 🇨🇳CN-🇸🇬SG_220_75_43Mb_4
-      - 🇨🇳CN-🇯🇵JP_176_11_46Mb_5
-      - 🇨🇳CN-🇯🇵JP_229_18_62Mb_6
-      - 🇨🇳CN-🇯🇵JP_230_10_42Mb_7
-      - 🇨🇳CN-🇹🇼TW_258_343_03Mb_8
-      - 🇨🇳CN-🇹🇼TW_139_37_24Mb_9
-      - 🇨🇳CN-🇹🇼TW_209_42_65Mb_10
-      - 🇨🇳CN-🇹🇼TW_158_40_72Mb_11
-      - 🇨🇳CN-🇸🇬SG_213_54_47Mb_12
-      - 🇨🇳CN-🇸🇬SG_160_56_65Mb_13
-      - 🇨🇳CN-🇹🇼TW_132_45_50Mb_14
-      - 🇨🇳CN-🇹🇼TW_162_44_92Mb_15
-      - 🇨🇳CN-🇯🇵JP_212_15_91Mb_16
-      - 🇨🇳CN-🇯🇵JP_218_58_81Mb_17
-      - 🇨🇳CN-🇹🇼TW_113_50_74Mb_18
-      - 🇨🇳CN-🇹🇼TW_61_42_88Mb_19
-      - 🇨🇳CN-🇬🇧GB_59_7_07Mb_20
-      - 🇨🇳CN-🇸🇬SG_63_37_21Mb_21
-      - 🇨🇳CN-🇹🇼TW_88_24_71Mb_22
-      - 🇨🇳CN-🇹🇼TW_127_29_79Mb_23
-      - 🇨🇳CN-🇹🇼TW_120_38_12Mb_24
-      - 🇨🇳CN-🇯🇵JP_254_10_49Mb_25
-      - 🇨🇳CN-🇸🇬SG_227_64_72Mb_26
-      - 🇨🇳CN-🇹🇼TW_204_21_71Mb_27
-      - 🇨🇳CN-🇯🇵JP_236_20_30Mb_28
-      - 🇨🇳CN-🇯🇵JP_256_3_75Mb_29
-      - 🇨🇳CN-🇯🇵JP_142_4_35Mb_30
-      - 🇨🇳CN-🇹🇼TW_175_7_36Mb_31
-      - 🇨🇳CN-🇹🇼TW_185_24_13Mb_32
-      - 🇨🇳CN-🇸🇬SG_235_31_83Mb_33
-      - 🇨🇳CN-🇹🇼TW_136_45_83Mb_34
-      - 🇨🇳CN-🇹🇼TW_75_19_72Mb_35
-      - 🇨🇳CN-🇹🇼TW_95_23_86Mb_36
-      - 🇨🇳CN-🇯🇵JP_131_15_13Mb_37
-      - 🇨🇳CN-🇯🇵JP_86_5_22Mb_38
-      - 🇨🇳CN-🇸🇬SG_234_17_55Mb_39
-      - 🇨🇳CN-🇸🇬SG_238_15_72Mb_40
-      - 🇨🇳CN-🇹🇼TW_106_31_93Mb_41
-      - 🇨🇳CN-🇹🇼TW_221_28_13Mb_42
-      - 🇨🇳CN-🇹🇼TW_259_25_98Mb_43
-      - 🇨🇳CN-🇬🇧GB_102_19_75Mb_44
-      - 🇨🇳CN-🇬🇧GB_87_5_18Mb_45
-      - 🇨🇳CN-🇯🇵JP_145_13_19Mb_46
-      - 🇨🇳CN-🇸🇬SG_62_36_03Mb_47
-      - 🇨🇳CN-🇹🇼TW_79_31_32Mb_48
-      - 🇨🇳CN-🇬🇧GB_130_29_58Mb_49
-      - 🇨🇳CN-🇯🇵JP_251_9_38Mb_50
-      - 🇨🇳CN-🇸🇬SG_228_5_43Mb_51
-      - 🇨🇳CN-🇸🇬SG_54_21_33Mb_52
-      - 🇨🇳CN-🇹🇼TW_124_41_50Mb_53
-      - 🇨🇳CN-🇯🇵JP_249_4_90Mb_54
-      - 🇨🇳CN-🇸🇬SG_67_20_38Mb_55
-      - 🇳🇱NL-🇳🇱NL_302+_+2_39Mb_56
-      - 🇨🇳CN-🇬🇧GB_81_8_87Mb_57
-      - 🇨🇳CN-🇯🇵JP_143_7_82Mb_58
-      - 🇨🇳CN-🇯🇵JP_146_11_00Mb_59
-      - 🇨🇳CN-🇹🇼TW_52_14_41Mb_60
-      - 🇨🇳CN-🇬🇧GB_201_35_05Mb_61
-      - 🇨🇳CN-🇯🇵JP_215_17_05Mb_62
-      - 🇨🇳CN-🇯🇵JP_241_7_30Mb_63
-      - 🇨🇳CN-🇹🇼TW_260_51_97Mb_64
-      - 🇨🇳CN-🇹🇼TW_93_12_22Mb_65
-      - 🇨🇳CN-🇬🇧GB_195_11_39Mb_66
-      - 🇨🇳CN-🇯🇵JP_173_7_49Mb_67
-      - 🇨🇳CN-🇹🇼TW_137_12_43Mb_68
-      - 🇨🇳CN-🇹🇼TW_140_54_24Mb_69
-      - 🇨🇳CN-🇹🇼TW_58_33_05Mb_70
-      - 🇨🇳CN-🇬🇧GB_200_21_88Mb_71
-      - 🇨🇳CN-🇯🇵JP_203_4_53Mb_72
-      - 🇨🇳CN-🇯🇵JP_250_9_55Mb_73
-      - 🇨🇳CN-🇯🇵JP_252_20_38Mb_74
-      - 🇨🇳CN-🇹🇼TW_125_49_74Mb_75
-      - 🇨🇳CN-🇹🇼TW_207_47_54Mb_76
-      - 🇨🇳CN-🇹🇼TW_257_10_13Mb_77
-      - 🇨🇳CN-🇯🇵JP_247_7_14Mb_78
-      - 🇨🇳CN-🇹🇼TW_103_29_83Mb_79
-      - 🇨🇳CN-🇬🇧GB_122_12_21Mb_80
-      - 🇨🇳CN-🇬🇧GB_77_6_33Mb_81
-      - 🇨🇳CN-🇸🇬SG_53_30_65Mb_82
-      - 🇨🇳CN-🇸🇬SG_69_37_79Mb_83
-      - 🇨🇳CN-🇹🇼TW_73_24_51Mb_84
-      - 🇨🇳CN-🇹🇼TW_117_41_93Mb_85
-      - 🇨🇳CN-🇬🇧GB_97_21_45Mb_86
-      - 🇨🇳CN-🇹🇼TW_151_26_54Mb_87
-      - 🇨🇳CN-🇸🇬SG_232_21_28Mb_88
-      - 🇨🇳CN-🇹🇼TW_60_17_69Mb_89
-      - 🇨🇳CN-🇹🇼TW_94_25_43Mb_90
-      - 🇨🇳CN-🇯🇵JP_149_12_09Mb_91
-      - 🇨🇳CN-🇸🇬SG_57_32_65Mb_92
-      - 🇨🇳CN-🇯🇵JP_243_15_59Mb_93
-      - 🇨🇳CN-🇯🇵JP_85_6_01Mb_94
-      - 🇨🇳CN-🇹🇼TW_66_7_32Mb_95
-      - 🇨🇳CN-🇺🇸US_104_6_57Mb_96
-      - 🇨🇳CN-🇺🇸US_105_11_74Mb_97
-      - 🇨🇳CN-🇺🇸US_110_10_49Mb_98
-      - 🇨🇳CN-🇺🇸US_116_11_72Mb_99
-      - 🇨🇳CN-🇺🇸US_171_11_73Mb_100
-      - 🇨🇳CN-🇺🇸US_211_10_61Mb_101
-      - 🇺🇸US-🇺🇸US_3121
-      - 🇨🇳CN-🇹🇼TW_129_49_51Mb_103
-      - 🇨🇳CN-🇹🇼TW_181_13_19Mb_104
-      - 🇨🇳CN-🇺🇸US_108_10_68Mb_105
-      - 🇨🇳CN-🇺🇸US_202_4_23Mb_106
-      - 🇨🇳CN-🇺🇸US_205_11_44Mb_107
-      - 🇨🇳CN-🇹🇼TW_163_30_97Mb_108
-      - 🇨🇳CN-🇹🇼TW_226_24_04Mb_109
-      - 🇨🇳CN-🇹🇼TW_65_41_60Mb_110
-      - 🇨🇳CN-🇺🇸US_174_11_03Mb_111
-      - 🇨🇳CN-🇺🇸US_248_11_48Mb_112
-      - 🇨🇳CN-🇬🇧GB_74_15_69Mb_113
-      - 🇨🇳CN-🇹🇼TW_154_19_64Mb_114
-      - 🇨🇳CN-🇹🇼TW_172_30_78Mb_115
-      - 🇨🇳CN-🇹🇼TW_245_1_99Mb_116
-      - 🇨🇳CN-🇺🇸US_115_11_23Mb_117
-      - 🇨🇳CN-🇺🇸US_231_11_41Mb_118
-      - 🇨🇳CN-🇬🇧GB_92_14_62Mb_119
-      - 🇨🇳CN-🇺🇸US_183_5_06Mb_120
-      - 🇨🇳CN-🇸🇬SG_134_24_40Mb_121
-      - 🇨🇳CN-🇹🇼TW_118_12_04Mb_122
-      - 🇨🇳CN-🇹🇼TW_135_6_89Mb_123
-      - 🇨🇳CN-🇹🇼TW_161_8_57Mb_124
-      - 🇨🇳CN-🇹🇼TW_199_15_39Mb_125
-      - 🇨🇳CN-🇹🇼TW_76_2_09Mb_126
-      - 🇨🇳CN-🇺🇸US_107_10_39Mb_127
-      - 🇨🇳CN-🇺🇸US_189_2_45Mb_128
-      - 🇨🇳CN-🇺🇸US_192_11_57Mb_129
-      - 🇨🇳CN-🇺🇸US_210_3_66Mb_130
-      - 🇨🇳CN-🇬🇧GB_237_7_69Mb_131
-      - 🇨🇳CN-🇹🇼TW_126_13_20Mb_132
-      - 🇨🇳CN-🇺🇸US_80_2_46Mb_133
-      - 🇺🇸US-🇺🇸US_3099
-      - 🇨🇳CN-🇺🇸US_100_2_33Mb_135
-      - 🇨🇳CN-🇺🇸US_114_9_54Mb_136
-      - 🇭🇰HK-🇩🇪DE_862
-      - 🇺🇸US-🇹🇼TW_3107
-      - 🇨🇳CN-🇹🇼TW_179_4_59Mb_139
-      - 🇨🇳CN-🇺🇸US_184_11_49Mb_140
-      - 🇨🇳CN-🇺🇸US_196_8_06Mb_141
-      - 🇨🇳CN-🇺🇸US_253_1_76Mb_142
-      - 🇨🇳CN-🇹🇼TW_178_8_30Mb_143
-      - 🇨🇳CN-🇹🇼TW_68_9_97Mb_144
-      - 🇨🇳CN-🇺🇸US_90
-      - 🇭🇰HK-🇹🇼TW_861
-      - 🇺🇸US-🇯🇵JP_3103
-      - 🇨🇳CN-🇹🇼TW_123_8_74Mb_148
-      - 🇨🇳CN-🇹🇼TW_56_3_25Mb_149
-      - 🇨🇳CN-🇺🇸US_186_7_80Mb_150
-      - 🇨🇳CN-🇬🇧GB_51_21_06Mb_151
-      - 🇨🇳CN-🇺🇸US_111_9_88Mb_152
-      - 🇺🇸US-🇩🇪DE_3097
-      - 🇨🇳CN-🇯🇵JP_240_20_43Mb_154
-      - 🇨🇳CN-🇹🇼TW_187_12_95Mb_155
-      - 🇨🇳CN-🇺🇸US_206_3_87Mb_156
-      - 🇺🇸US-🇹🇼TW_3108
-      - 🇨🇳CN-🇹🇼TW_101_10_86Mb_158
-      - 🇨🇳CN-🇹🇼TW_128_8_68Mb_159
-      - 🇨🇳CN-🇺🇸US_141_2_86Mb_160
-      - 🇨🇳CN-🇺🇸US_164_10_31Mb_161
-      - 🇭🇰HK-🇸🇬SG_864
-      - 🇨🇳CN-🇬🇧GB_72_8_50Mb_163
-      - 🇨🇳CN-🇺🇸US_156_3_32Mb_164
-      - 🇨🇳CN-🇺🇸US_165_3_06Mb_165
-      - 🇨🇳CN-🇸🇬SG_112_14_72Mb_166
-      - 🇨🇳CN-🇹🇼TW_71_17_82Mb_167
-      - 🇨🇳CN-🇺🇸US_182_9_72Mb_168
-      - 🇨🇳CN-🇺🇸US_194_9_36Mb_169
-      - 🇨🇳CN-🇺🇸US_82
-      - 🇨🇳CN-🇬🇧GB_96_5_99Mb_171
-      - 🇨🇳CN-🇸🇬SG_190_57_71Mb_172
-      - 🇨🇳CN-🇹🇼TW_157_5_24Mb_173
-      - 🇨🇳CN-🇹🇼TW_64_8_69Mb_174
-      - 🇨🇳CN-🇹🇼TW_89_32_07Mb_175
-      - 🇨🇳CN-🇺🇸US_83_1_87Mb_176
-      - 🇺🇸US-🇺🇸US_3101
-      - 🇨🇳CN-🇹🇼TW_70_16_33Mb_178
-      - 🇨🇳CN-🇯🇵JP_208_32_61Mb_179
-      - 🇨🇳CN-🇹🇼TW_180_4_71Mb_180
-      - 🇨🇳CN-🇹🇼TW_109_43_72Mb_181
-      - 🇨🇳CN-🇺🇸US_222_10_61Mb_182
-      - 🇭🇰HK-🇭🇰HK_863
-      - 🇨🇳CN-🇹🇼TW_239_20_64Mb_184
-      - 🇨🇳CN-🇯🇵JP_169_7_39Mb_185
-      - 🇨🇳CN-🇸🇬SG_50_12_37Mb_186
-      - 🇨🇳CN-🇺🇸US_188_11_40Mb_187
-      - 🇨🇳CN-🇹🇼TW_148_12_26Mb_188
-      - 🇨🇳CN-🇹🇼TW_197_24_22Mb_189
-      - 🇨🇳CN-🇺🇸US_119_10_12Mb_190
-      - 🇨🇳CN-🇺🇸US_217_9_46Mb_191
-      - 🇨🇳CN_61_10_80Mb_192
-      - 🇨🇳CN-🇬🇧GB_98_5_90Mb_193
-      - 🇨🇳CN-🇸🇬SG_225_2_07Mb_194
-      - 🇨🇳CN-🇸🇬SG_244_5_68Mb_195
-      - 🇨🇳CN-🇹🇼TW_233_41_47Mb_196
-      - 🇨🇳CN-🇹🇼TW_255_10_07Mb_197
-      - 🇺🇸US-🇩🇪DE_3096
-      - 🇺🇸US-🇯🇵JP_3102
-      - 🇺🇸US-🇺🇸US_3100
-      - 🇨🇳CN_67_10_07Mb_201
-      - 🇨🇳CN-🇬🇧GB_191_7_13Mb_202
-      - 🇨🇳CN-🇸🇬SG_216_2_63Mb_203
-      - 🇨🇳CN-🇸🇬SG_242_9_97Mb_204
-      - 🇨🇳CN-🇹🇼TW_198_14_50Mb_205
-      - 🇨🇳CN-🇹🇼TW_99_27_26Mb_206
-      - 🇨🇳CN-🇯🇵JP_144_15_94Mb_207
-      - 🇨🇳CN-🇯🇵JP_246_2_84Mb_208
-      - 🇨🇳CN-🇹🇼TW_133_6_69Mb_209
-      - 🇨🇳CN-🇹🇼TW_153_28_49Mb_210
-      - 🇭🇰HK-🇺🇸US_290_11_39Mb_211
-      - 🇨🇳CN-🇸🇬SG_55_7_42Mb_212
-      - 🇨🇳CN-🇹🇼TW_170_9_82Mb_213
-      - 🇨🇳CN-🇺🇸US_147_3_06Mb_214
-      - 🇺🇸US-🇯🇵JP_3104
-      - 🇺🇸US-🇺🇸US_1981_32_03Mb_216
-      - 🇨🇳CN-🇹🇼TW_121_10_30Mb_217
-      - 🇨🇳CN-🇹🇼TW_159_3_49Mb_218
-      - 🇨🇳CN_77_21_43Mb_219
-      - 🇨🇳CN-🇺🇸US_152_1_62Mb_220
-      - 🇨🇳CN-🇺🇸US_84_2_36Mb_221
-      - 🇺🇸US-🇺🇸US_3115
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_11
+      - 🇺🇸_US_美国_12
+      - 🇨🇦_CA_加拿大_13
+      - 🇺🇸_US_美国_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇺🇸_US_美国_16
+      - 🇨🇦_CA_加拿大_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇨🇦_CA_加拿大_20
+      - 🇬🇧_GB_英国_21
+      - 🇺🇸_US_美国_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇺🇸_US_美国_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇫🇷_FR_法国_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇨🇦_CA_加拿大_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇺🇸_US_美国_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳CN-🇯🇵JP_168_12_90Mb_1
-      - 🇨🇳CN-🇯🇵JP_224_13_28Mb_2
-      - 🇨🇳CN-🇹🇼TW_155_31_33Mb_3
-      - 🇨🇳CN-🇸🇬SG_220_75_43Mb_4
-      - 🇨🇳CN-🇯🇵JP_176_11_46Mb_5
-      - 🇨🇳CN-🇯🇵JP_229_18_62Mb_6
-      - 🇨🇳CN-🇯🇵JP_230_10_42Mb_7
-      - 🇨🇳CN-🇹🇼TW_258_343_03Mb_8
-      - 🇨🇳CN-🇹🇼TW_139_37_24Mb_9
-      - 🇨🇳CN-🇹🇼TW_209_42_65Mb_10
-      - 🇨🇳CN-🇹🇼TW_158_40_72Mb_11
-      - 🇨🇳CN-🇸🇬SG_213_54_47Mb_12
-      - 🇨🇳CN-🇸🇬SG_160_56_65Mb_13
-      - 🇨🇳CN-🇹🇼TW_132_45_50Mb_14
-      - 🇨🇳CN-🇹🇼TW_162_44_92Mb_15
-      - 🇨🇳CN-🇯🇵JP_212_15_91Mb_16
-      - 🇨🇳CN-🇯🇵JP_218_58_81Mb_17
-      - 🇨🇳CN-🇹🇼TW_113_50_74Mb_18
-      - 🇨🇳CN-🇹🇼TW_61_42_88Mb_19
-      - 🇨🇳CN-🇬🇧GB_59_7_07Mb_20
-      - 🇨🇳CN-🇸🇬SG_63_37_21Mb_21
-      - 🇨🇳CN-🇹🇼TW_88_24_71Mb_22
-      - 🇨🇳CN-🇹🇼TW_127_29_79Mb_23
-      - 🇨🇳CN-🇹🇼TW_120_38_12Mb_24
-      - 🇨🇳CN-🇯🇵JP_254_10_49Mb_25
-      - 🇨🇳CN-🇸🇬SG_227_64_72Mb_26
-      - 🇨🇳CN-🇹🇼TW_204_21_71Mb_27
-      - 🇨🇳CN-🇯🇵JP_236_20_30Mb_28
-      - 🇨🇳CN-🇯🇵JP_256_3_75Mb_29
-      - 🇨🇳CN-🇯🇵JP_142_4_35Mb_30
-      - 🇨🇳CN-🇹🇼TW_175_7_36Mb_31
-      - 🇨🇳CN-🇹🇼TW_185_24_13Mb_32
-      - 🇨🇳CN-🇸🇬SG_235_31_83Mb_33
-      - 🇨🇳CN-🇹🇼TW_136_45_83Mb_34
-      - 🇨🇳CN-🇹🇼TW_75_19_72Mb_35
-      - 🇨🇳CN-🇹🇼TW_95_23_86Mb_36
-      - 🇨🇳CN-🇯🇵JP_131_15_13Mb_37
-      - 🇨🇳CN-🇯🇵JP_86_5_22Mb_38
-      - 🇨🇳CN-🇸🇬SG_234_17_55Mb_39
-      - 🇨🇳CN-🇸🇬SG_238_15_72Mb_40
-      - 🇨🇳CN-🇹🇼TW_106_31_93Mb_41
-      - 🇨🇳CN-🇹🇼TW_221_28_13Mb_42
-      - 🇨🇳CN-🇹🇼TW_259_25_98Mb_43
-      - 🇨🇳CN-🇬🇧GB_102_19_75Mb_44
-      - 🇨🇳CN-🇬🇧GB_87_5_18Mb_45
-      - 🇨🇳CN-🇯🇵JP_145_13_19Mb_46
-      - 🇨🇳CN-🇸🇬SG_62_36_03Mb_47
-      - 🇨🇳CN-🇹🇼TW_79_31_32Mb_48
-      - 🇨🇳CN-🇬🇧GB_130_29_58Mb_49
-      - 🇨🇳CN-🇯🇵JP_251_9_38Mb_50
-      - 🇨🇳CN-🇸🇬SG_228_5_43Mb_51
-      - 🇨🇳CN-🇸🇬SG_54_21_33Mb_52
-      - 🇨🇳CN-🇹🇼TW_124_41_50Mb_53
-      - 🇨🇳CN-🇯🇵JP_249_4_90Mb_54
-      - 🇨🇳CN-🇸🇬SG_67_20_38Mb_55
-      - 🇳🇱NL-🇳🇱NL_302+_+2_39Mb_56
-      - 🇨🇳CN-🇬🇧GB_81_8_87Mb_57
-      - 🇨🇳CN-🇯🇵JP_143_7_82Mb_58
-      - 🇨🇳CN-🇯🇵JP_146_11_00Mb_59
-      - 🇨🇳CN-🇹🇼TW_52_14_41Mb_60
-      - 🇨🇳CN-🇬🇧GB_201_35_05Mb_61
-      - 🇨🇳CN-🇯🇵JP_215_17_05Mb_62
-      - 🇨🇳CN-🇯🇵JP_241_7_30Mb_63
-      - 🇨🇳CN-🇹🇼TW_260_51_97Mb_64
-      - 🇨🇳CN-🇹🇼TW_93_12_22Mb_65
-      - 🇨🇳CN-🇬🇧GB_195_11_39Mb_66
-      - 🇨🇳CN-🇯🇵JP_173_7_49Mb_67
-      - 🇨🇳CN-🇹🇼TW_137_12_43Mb_68
-      - 🇨🇳CN-🇹🇼TW_140_54_24Mb_69
-      - 🇨🇳CN-🇹🇼TW_58_33_05Mb_70
-      - 🇨🇳CN-🇬🇧GB_200_21_88Mb_71
-      - 🇨🇳CN-🇯🇵JP_203_4_53Mb_72
-      - 🇨🇳CN-🇯🇵JP_250_9_55Mb_73
-      - 🇨🇳CN-🇯🇵JP_252_20_38Mb_74
-      - 🇨🇳CN-🇹🇼TW_125_49_74Mb_75
-      - 🇨🇳CN-🇹🇼TW_207_47_54Mb_76
-      - 🇨🇳CN-🇹🇼TW_257_10_13Mb_77
-      - 🇨🇳CN-🇯🇵JP_247_7_14Mb_78
-      - 🇨🇳CN-🇹🇼TW_103_29_83Mb_79
-      - 🇨🇳CN-🇬🇧GB_122_12_21Mb_80
-      - 🇨🇳CN-🇬🇧GB_77_6_33Mb_81
-      - 🇨🇳CN-🇸🇬SG_53_30_65Mb_82
-      - 🇨🇳CN-🇸🇬SG_69_37_79Mb_83
-      - 🇨🇳CN-🇹🇼TW_73_24_51Mb_84
-      - 🇨🇳CN-🇹🇼TW_117_41_93Mb_85
-      - 🇨🇳CN-🇬🇧GB_97_21_45Mb_86
-      - 🇨🇳CN-🇹🇼TW_151_26_54Mb_87
-      - 🇨🇳CN-🇸🇬SG_232_21_28Mb_88
-      - 🇨🇳CN-🇹🇼TW_60_17_69Mb_89
-      - 🇨🇳CN-🇹🇼TW_94_25_43Mb_90
-      - 🇨🇳CN-🇯🇵JP_149_12_09Mb_91
-      - 🇨🇳CN-🇸🇬SG_57_32_65Mb_92
-      - 🇨🇳CN-🇯🇵JP_243_15_59Mb_93
-      - 🇨🇳CN-🇯🇵JP_85_6_01Mb_94
-      - 🇨🇳CN-🇹🇼TW_66_7_32Mb_95
-      - 🇨🇳CN-🇺🇸US_104_6_57Mb_96
-      - 🇨🇳CN-🇺🇸US_105_11_74Mb_97
-      - 🇨🇳CN-🇺🇸US_110_10_49Mb_98
-      - 🇨🇳CN-🇺🇸US_116_11_72Mb_99
-      - 🇨🇳CN-🇺🇸US_171_11_73Mb_100
-      - 🇨🇳CN-🇺🇸US_211_10_61Mb_101
-      - 🇺🇸US-🇺🇸US_3121
-      - 🇨🇳CN-🇹🇼TW_129_49_51Mb_103
-      - 🇨🇳CN-🇹🇼TW_181_13_19Mb_104
-      - 🇨🇳CN-🇺🇸US_108_10_68Mb_105
-      - 🇨🇳CN-🇺🇸US_202_4_23Mb_106
-      - 🇨🇳CN-🇺🇸US_205_11_44Mb_107
-      - 🇨🇳CN-🇹🇼TW_163_30_97Mb_108
-      - 🇨🇳CN-🇹🇼TW_226_24_04Mb_109
-      - 🇨🇳CN-🇹🇼TW_65_41_60Mb_110
-      - 🇨🇳CN-🇺🇸US_174_11_03Mb_111
-      - 🇨🇳CN-🇺🇸US_248_11_48Mb_112
-      - 🇨🇳CN-🇬🇧GB_74_15_69Mb_113
-      - 🇨🇳CN-🇹🇼TW_154_19_64Mb_114
-      - 🇨🇳CN-🇹🇼TW_172_30_78Mb_115
-      - 🇨🇳CN-🇹🇼TW_245_1_99Mb_116
-      - 🇨🇳CN-🇺🇸US_115_11_23Mb_117
-      - 🇨🇳CN-🇺🇸US_231_11_41Mb_118
-      - 🇨🇳CN-🇬🇧GB_92_14_62Mb_119
-      - 🇨🇳CN-🇺🇸US_183_5_06Mb_120
-      - 🇨🇳CN-🇸🇬SG_134_24_40Mb_121
-      - 🇨🇳CN-🇹🇼TW_118_12_04Mb_122
-      - 🇨🇳CN-🇹🇼TW_135_6_89Mb_123
-      - 🇨🇳CN-🇹🇼TW_161_8_57Mb_124
-      - 🇨🇳CN-🇹🇼TW_199_15_39Mb_125
-      - 🇨🇳CN-🇹🇼TW_76_2_09Mb_126
-      - 🇨🇳CN-🇺🇸US_107_10_39Mb_127
-      - 🇨🇳CN-🇺🇸US_189_2_45Mb_128
-      - 🇨🇳CN-🇺🇸US_192_11_57Mb_129
-      - 🇨🇳CN-🇺🇸US_210_3_66Mb_130
-      - 🇨🇳CN-🇬🇧GB_237_7_69Mb_131
-      - 🇨🇳CN-🇹🇼TW_126_13_20Mb_132
-      - 🇨🇳CN-🇺🇸US_80_2_46Mb_133
-      - 🇺🇸US-🇺🇸US_3099
-      - 🇨🇳CN-🇺🇸US_100_2_33Mb_135
-      - 🇨🇳CN-🇺🇸US_114_9_54Mb_136
-      - 🇭🇰HK-🇩🇪DE_862
-      - 🇺🇸US-🇹🇼TW_3107
-      - 🇨🇳CN-🇹🇼TW_179_4_59Mb_139
-      - 🇨🇳CN-🇺🇸US_184_11_49Mb_140
-      - 🇨🇳CN-🇺🇸US_196_8_06Mb_141
-      - 🇨🇳CN-🇺🇸US_253_1_76Mb_142
-      - 🇨🇳CN-🇹🇼TW_178_8_30Mb_143
-      - 🇨🇳CN-🇹🇼TW_68_9_97Mb_144
-      - 🇨🇳CN-🇺🇸US_90
-      - 🇭🇰HK-🇹🇼TW_861
-      - 🇺🇸US-🇯🇵JP_3103
-      - 🇨🇳CN-🇹🇼TW_123_8_74Mb_148
-      - 🇨🇳CN-🇹🇼TW_56_3_25Mb_149
-      - 🇨🇳CN-🇺🇸US_186_7_80Mb_150
-      - 🇨🇳CN-🇬🇧GB_51_21_06Mb_151
-      - 🇨🇳CN-🇺🇸US_111_9_88Mb_152
-      - 🇺🇸US-🇩🇪DE_3097
-      - 🇨🇳CN-🇯🇵JP_240_20_43Mb_154
-      - 🇨🇳CN-🇹🇼TW_187_12_95Mb_155
-      - 🇨🇳CN-🇺🇸US_206_3_87Mb_156
-      - 🇺🇸US-🇹🇼TW_3108
-      - 🇨🇳CN-🇹🇼TW_101_10_86Mb_158
-      - 🇨🇳CN-🇹🇼TW_128_8_68Mb_159
-      - 🇨🇳CN-🇺🇸US_141_2_86Mb_160
-      - 🇨🇳CN-🇺🇸US_164_10_31Mb_161
-      - 🇭🇰HK-🇸🇬SG_864
-      - 🇨🇳CN-🇬🇧GB_72_8_50Mb_163
-      - 🇨🇳CN-🇺🇸US_156_3_32Mb_164
-      - 🇨🇳CN-🇺🇸US_165_3_06Mb_165
-      - 🇨🇳CN-🇸🇬SG_112_14_72Mb_166
-      - 🇨🇳CN-🇹🇼TW_71_17_82Mb_167
-      - 🇨🇳CN-🇺🇸US_182_9_72Mb_168
-      - 🇨🇳CN-🇺🇸US_194_9_36Mb_169
-      - 🇨🇳CN-🇺🇸US_82
-      - 🇨🇳CN-🇬🇧GB_96_5_99Mb_171
-      - 🇨🇳CN-🇸🇬SG_190_57_71Mb_172
-      - 🇨🇳CN-🇹🇼TW_157_5_24Mb_173
-      - 🇨🇳CN-🇹🇼TW_64_8_69Mb_174
-      - 🇨🇳CN-🇹🇼TW_89_32_07Mb_175
-      - 🇨🇳CN-🇺🇸US_83_1_87Mb_176
-      - 🇺🇸US-🇺🇸US_3101
-      - 🇨🇳CN-🇹🇼TW_70_16_33Mb_178
-      - 🇨🇳CN-🇯🇵JP_208_32_61Mb_179
-      - 🇨🇳CN-🇹🇼TW_180_4_71Mb_180
-      - 🇨🇳CN-🇹🇼TW_109_43_72Mb_181
-      - 🇨🇳CN-🇺🇸US_222_10_61Mb_182
-      - 🇭🇰HK-🇭🇰HK_863
-      - 🇨🇳CN-🇹🇼TW_239_20_64Mb_184
-      - 🇨🇳CN-🇯🇵JP_169_7_39Mb_185
-      - 🇨🇳CN-🇸🇬SG_50_12_37Mb_186
-      - 🇨🇳CN-🇺🇸US_188_11_40Mb_187
-      - 🇨🇳CN-🇹🇼TW_148_12_26Mb_188
-      - 🇨🇳CN-🇹🇼TW_197_24_22Mb_189
-      - 🇨🇳CN-🇺🇸US_119_10_12Mb_190
-      - 🇨🇳CN-🇺🇸US_217_9_46Mb_191
-      - 🇨🇳CN_61_10_80Mb_192
-      - 🇨🇳CN-🇬🇧GB_98_5_90Mb_193
-      - 🇨🇳CN-🇸🇬SG_225_2_07Mb_194
-      - 🇨🇳CN-🇸🇬SG_244_5_68Mb_195
-      - 🇨🇳CN-🇹🇼TW_233_41_47Mb_196
-      - 🇨🇳CN-🇹🇼TW_255_10_07Mb_197
-      - 🇺🇸US-🇩🇪DE_3096
-      - 🇺🇸US-🇯🇵JP_3102
-      - 🇺🇸US-🇺🇸US_3100
-      - 🇨🇳CN_67_10_07Mb_201
-      - 🇨🇳CN-🇬🇧GB_191_7_13Mb_202
-      - 🇨🇳CN-🇸🇬SG_216_2_63Mb_203
-      - 🇨🇳CN-🇸🇬SG_242_9_97Mb_204
-      - 🇨🇳CN-🇹🇼TW_198_14_50Mb_205
-      - 🇨🇳CN-🇹🇼TW_99_27_26Mb_206
-      - 🇨🇳CN-🇯🇵JP_144_15_94Mb_207
-      - 🇨🇳CN-🇯🇵JP_246_2_84Mb_208
-      - 🇨🇳CN-🇹🇼TW_133_6_69Mb_209
-      - 🇨🇳CN-🇹🇼TW_153_28_49Mb_210
-      - 🇭🇰HK-🇺🇸US_290_11_39Mb_211
-      - 🇨🇳CN-🇸🇬SG_55_7_42Mb_212
-      - 🇨🇳CN-🇹🇼TW_170_9_82Mb_213
-      - 🇨🇳CN-🇺🇸US_147_3_06Mb_214
-      - 🇺🇸US-🇯🇵JP_3104
-      - 🇺🇸US-🇺🇸US_1981_32_03Mb_216
-      - 🇨🇳CN-🇹🇼TW_121_10_30Mb_217
-      - 🇨🇳CN-🇹🇼TW_159_3_49Mb_218
-      - 🇨🇳CN_77_21_43Mb_219
-      - 🇨🇳CN-🇺🇸US_152_1_62Mb_220
-      - 🇨🇳CN-🇺🇸US_84_2_36Mb_221
-      - 🇺🇸US-🇺🇸US_3115
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_11
+      - 🇺🇸_US_美国_12
+      - 🇨🇦_CA_加拿大_13
+      - 🇺🇸_US_美国_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇺🇸_US_美国_16
+      - 🇨🇦_CA_加拿大_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇨🇦_CA_加拿大_20
+      - 🇬🇧_GB_英国_21
+      - 🇺🇸_US_美国_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇺🇸_US_美国_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇫🇷_FR_法国_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇨🇦_CA_加拿大_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇺🇸_US_美国_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳CN-🇯🇵JP_168_12_90Mb_1
-      - 🇨🇳CN-🇯🇵JP_224_13_28Mb_2
-      - 🇨🇳CN-🇹🇼TW_155_31_33Mb_3
-      - 🇨🇳CN-🇸🇬SG_220_75_43Mb_4
-      - 🇨🇳CN-🇯🇵JP_176_11_46Mb_5
-      - 🇨🇳CN-🇯🇵JP_229_18_62Mb_6
-      - 🇨🇳CN-🇯🇵JP_230_10_42Mb_7
-      - 🇨🇳CN-🇹🇼TW_258_343_03Mb_8
-      - 🇨🇳CN-🇹🇼TW_139_37_24Mb_9
-      - 🇨🇳CN-🇹🇼TW_209_42_65Mb_10
-      - 🇨🇳CN-🇹🇼TW_158_40_72Mb_11
-      - 🇨🇳CN-🇸🇬SG_213_54_47Mb_12
-      - 🇨🇳CN-🇸🇬SG_160_56_65Mb_13
-      - 🇨🇳CN-🇹🇼TW_132_45_50Mb_14
-      - 🇨🇳CN-🇹🇼TW_162_44_92Mb_15
-      - 🇨🇳CN-🇯🇵JP_212_15_91Mb_16
-      - 🇨🇳CN-🇯🇵JP_218_58_81Mb_17
-      - 🇨🇳CN-🇹🇼TW_113_50_74Mb_18
-      - 🇨🇳CN-🇹🇼TW_61_42_88Mb_19
-      - 🇨🇳CN-🇬🇧GB_59_7_07Mb_20
-      - 🇨🇳CN-🇸🇬SG_63_37_21Mb_21
-      - 🇨🇳CN-🇹🇼TW_88_24_71Mb_22
-      - 🇨🇳CN-🇹🇼TW_127_29_79Mb_23
-      - 🇨🇳CN-🇹🇼TW_120_38_12Mb_24
-      - 🇨🇳CN-🇯🇵JP_254_10_49Mb_25
-      - 🇨🇳CN-🇸🇬SG_227_64_72Mb_26
-      - 🇨🇳CN-🇹🇼TW_204_21_71Mb_27
-      - 🇨🇳CN-🇯🇵JP_236_20_30Mb_28
-      - 🇨🇳CN-🇯🇵JP_256_3_75Mb_29
-      - 🇨🇳CN-🇯🇵JP_142_4_35Mb_30
-      - 🇨🇳CN-🇹🇼TW_175_7_36Mb_31
-      - 🇨🇳CN-🇹🇼TW_185_24_13Mb_32
-      - 🇨🇳CN-🇸🇬SG_235_31_83Mb_33
-      - 🇨🇳CN-🇹🇼TW_136_45_83Mb_34
-      - 🇨🇳CN-🇹🇼TW_75_19_72Mb_35
-      - 🇨🇳CN-🇹🇼TW_95_23_86Mb_36
-      - 🇨🇳CN-🇯🇵JP_131_15_13Mb_37
-      - 🇨🇳CN-🇯🇵JP_86_5_22Mb_38
-      - 🇨🇳CN-🇸🇬SG_234_17_55Mb_39
-      - 🇨🇳CN-🇸🇬SG_238_15_72Mb_40
-      - 🇨🇳CN-🇹🇼TW_106_31_93Mb_41
-      - 🇨🇳CN-🇹🇼TW_221_28_13Mb_42
-      - 🇨🇳CN-🇹🇼TW_259_25_98Mb_43
-      - 🇨🇳CN-🇬🇧GB_102_19_75Mb_44
-      - 🇨🇳CN-🇬🇧GB_87_5_18Mb_45
-      - 🇨🇳CN-🇯🇵JP_145_13_19Mb_46
-      - 🇨🇳CN-🇸🇬SG_62_36_03Mb_47
-      - 🇨🇳CN-🇹🇼TW_79_31_32Mb_48
-      - 🇨🇳CN-🇬🇧GB_130_29_58Mb_49
-      - 🇨🇳CN-🇯🇵JP_251_9_38Mb_50
-      - 🇨🇳CN-🇸🇬SG_228_5_43Mb_51
-      - 🇨🇳CN-🇸🇬SG_54_21_33Mb_52
-      - 🇨🇳CN-🇹🇼TW_124_41_50Mb_53
-      - 🇨🇳CN-🇯🇵JP_249_4_90Mb_54
-      - 🇨🇳CN-🇸🇬SG_67_20_38Mb_55
-      - 🇳🇱NL-🇳🇱NL_302+_+2_39Mb_56
-      - 🇨🇳CN-🇬🇧GB_81_8_87Mb_57
-      - 🇨🇳CN-🇯🇵JP_143_7_82Mb_58
-      - 🇨🇳CN-🇯🇵JP_146_11_00Mb_59
-      - 🇨🇳CN-🇹🇼TW_52_14_41Mb_60
-      - 🇨🇳CN-🇬🇧GB_201_35_05Mb_61
-      - 🇨🇳CN-🇯🇵JP_215_17_05Mb_62
-      - 🇨🇳CN-🇯🇵JP_241_7_30Mb_63
-      - 🇨🇳CN-🇹🇼TW_260_51_97Mb_64
-      - 🇨🇳CN-🇹🇼TW_93_12_22Mb_65
-      - 🇨🇳CN-🇬🇧GB_195_11_39Mb_66
-      - 🇨🇳CN-🇯🇵JP_173_7_49Mb_67
-      - 🇨🇳CN-🇹🇼TW_137_12_43Mb_68
-      - 🇨🇳CN-🇹🇼TW_140_54_24Mb_69
-      - 🇨🇳CN-🇹🇼TW_58_33_05Mb_70
-      - 🇨🇳CN-🇬🇧GB_200_21_88Mb_71
-      - 🇨🇳CN-🇯🇵JP_203_4_53Mb_72
-      - 🇨🇳CN-🇯🇵JP_250_9_55Mb_73
-      - 🇨🇳CN-🇯🇵JP_252_20_38Mb_74
-      - 🇨🇳CN-🇹🇼TW_125_49_74Mb_75
-      - 🇨🇳CN-🇹🇼TW_207_47_54Mb_76
-      - 🇨🇳CN-🇹🇼TW_257_10_13Mb_77
-      - 🇨🇳CN-🇯🇵JP_247_7_14Mb_78
-      - 🇨🇳CN-🇹🇼TW_103_29_83Mb_79
-      - 🇨🇳CN-🇬🇧GB_122_12_21Mb_80
-      - 🇨🇳CN-🇬🇧GB_77_6_33Mb_81
-      - 🇨🇳CN-🇸🇬SG_53_30_65Mb_82
-      - 🇨🇳CN-🇸🇬SG_69_37_79Mb_83
-      - 🇨🇳CN-🇹🇼TW_73_24_51Mb_84
-      - 🇨🇳CN-🇹🇼TW_117_41_93Mb_85
-      - 🇨🇳CN-🇬🇧GB_97_21_45Mb_86
-      - 🇨🇳CN-🇹🇼TW_151_26_54Mb_87
-      - 🇨🇳CN-🇸🇬SG_232_21_28Mb_88
-      - 🇨🇳CN-🇹🇼TW_60_17_69Mb_89
-      - 🇨🇳CN-🇹🇼TW_94_25_43Mb_90
-      - 🇨🇳CN-🇯🇵JP_149_12_09Mb_91
-      - 🇨🇳CN-🇸🇬SG_57_32_65Mb_92
-      - 🇨🇳CN-🇯🇵JP_243_15_59Mb_93
-      - 🇨🇳CN-🇯🇵JP_85_6_01Mb_94
-      - 🇨🇳CN-🇹🇼TW_66_7_32Mb_95
-      - 🇨🇳CN-🇺🇸US_104_6_57Mb_96
-      - 🇨🇳CN-🇺🇸US_105_11_74Mb_97
-      - 🇨🇳CN-🇺🇸US_110_10_49Mb_98
-      - 🇨🇳CN-🇺🇸US_116_11_72Mb_99
-      - 🇨🇳CN-🇺🇸US_171_11_73Mb_100
-      - 🇨🇳CN-🇺🇸US_211_10_61Mb_101
-      - 🇺🇸US-🇺🇸US_3121
-      - 🇨🇳CN-🇹🇼TW_129_49_51Mb_103
-      - 🇨🇳CN-🇹🇼TW_181_13_19Mb_104
-      - 🇨🇳CN-🇺🇸US_108_10_68Mb_105
-      - 🇨🇳CN-🇺🇸US_202_4_23Mb_106
-      - 🇨🇳CN-🇺🇸US_205_11_44Mb_107
-      - 🇨🇳CN-🇹🇼TW_163_30_97Mb_108
-      - 🇨🇳CN-🇹🇼TW_226_24_04Mb_109
-      - 🇨🇳CN-🇹🇼TW_65_41_60Mb_110
-      - 🇨🇳CN-🇺🇸US_174_11_03Mb_111
-      - 🇨🇳CN-🇺🇸US_248_11_48Mb_112
-      - 🇨🇳CN-🇬🇧GB_74_15_69Mb_113
-      - 🇨🇳CN-🇹🇼TW_154_19_64Mb_114
-      - 🇨🇳CN-🇹🇼TW_172_30_78Mb_115
-      - 🇨🇳CN-🇹🇼TW_245_1_99Mb_116
-      - 🇨🇳CN-🇺🇸US_115_11_23Mb_117
-      - 🇨🇳CN-🇺🇸US_231_11_41Mb_118
-      - 🇨🇳CN-🇬🇧GB_92_14_62Mb_119
-      - 🇨🇳CN-🇺🇸US_183_5_06Mb_120
-      - 🇨🇳CN-🇸🇬SG_134_24_40Mb_121
-      - 🇨🇳CN-🇹🇼TW_118_12_04Mb_122
-      - 🇨🇳CN-🇹🇼TW_135_6_89Mb_123
-      - 🇨🇳CN-🇹🇼TW_161_8_57Mb_124
-      - 🇨🇳CN-🇹🇼TW_199_15_39Mb_125
-      - 🇨🇳CN-🇹🇼TW_76_2_09Mb_126
-      - 🇨🇳CN-🇺🇸US_107_10_39Mb_127
-      - 🇨🇳CN-🇺🇸US_189_2_45Mb_128
-      - 🇨🇳CN-🇺🇸US_192_11_57Mb_129
-      - 🇨🇳CN-🇺🇸US_210_3_66Mb_130
-      - 🇨🇳CN-🇬🇧GB_237_7_69Mb_131
-      - 🇨🇳CN-🇹🇼TW_126_13_20Mb_132
-      - 🇨🇳CN-🇺🇸US_80_2_46Mb_133
-      - 🇺🇸US-🇺🇸US_3099
-      - 🇨🇳CN-🇺🇸US_100_2_33Mb_135
-      - 🇨🇳CN-🇺🇸US_114_9_54Mb_136
-      - 🇭🇰HK-🇩🇪DE_862
-      - 🇺🇸US-🇹🇼TW_3107
-      - 🇨🇳CN-🇹🇼TW_179_4_59Mb_139
-      - 🇨🇳CN-🇺🇸US_184_11_49Mb_140
-      - 🇨🇳CN-🇺🇸US_196_8_06Mb_141
-      - 🇨🇳CN-🇺🇸US_253_1_76Mb_142
-      - 🇨🇳CN-🇹🇼TW_178_8_30Mb_143
-      - 🇨🇳CN-🇹🇼TW_68_9_97Mb_144
-      - 🇨🇳CN-🇺🇸US_90
-      - 🇭🇰HK-🇹🇼TW_861
-      - 🇺🇸US-🇯🇵JP_3103
-      - 🇨🇳CN-🇹🇼TW_123_8_74Mb_148
-      - 🇨🇳CN-🇹🇼TW_56_3_25Mb_149
-      - 🇨🇳CN-🇺🇸US_186_7_80Mb_150
-      - 🇨🇳CN-🇬🇧GB_51_21_06Mb_151
-      - 🇨🇳CN-🇺🇸US_111_9_88Mb_152
-      - 🇺🇸US-🇩🇪DE_3097
-      - 🇨🇳CN-🇯🇵JP_240_20_43Mb_154
-      - 🇨🇳CN-🇹🇼TW_187_12_95Mb_155
-      - 🇨🇳CN-🇺🇸US_206_3_87Mb_156
-      - 🇺🇸US-🇹🇼TW_3108
-      - 🇨🇳CN-🇹🇼TW_101_10_86Mb_158
-      - 🇨🇳CN-🇹🇼TW_128_8_68Mb_159
-      - 🇨🇳CN-🇺🇸US_141_2_86Mb_160
-      - 🇨🇳CN-🇺🇸US_164_10_31Mb_161
-      - 🇭🇰HK-🇸🇬SG_864
-      - 🇨🇳CN-🇬🇧GB_72_8_50Mb_163
-      - 🇨🇳CN-🇺🇸US_156_3_32Mb_164
-      - 🇨🇳CN-🇺🇸US_165_3_06Mb_165
-      - 🇨🇳CN-🇸🇬SG_112_14_72Mb_166
-      - 🇨🇳CN-🇹🇼TW_71_17_82Mb_167
-      - 🇨🇳CN-🇺🇸US_182_9_72Mb_168
-      - 🇨🇳CN-🇺🇸US_194_9_36Mb_169
-      - 🇨🇳CN-🇺🇸US_82
-      - 🇨🇳CN-🇬🇧GB_96_5_99Mb_171
-      - 🇨🇳CN-🇸🇬SG_190_57_71Mb_172
-      - 🇨🇳CN-🇹🇼TW_157_5_24Mb_173
-      - 🇨🇳CN-🇹🇼TW_64_8_69Mb_174
-      - 🇨🇳CN-🇹🇼TW_89_32_07Mb_175
-      - 🇨🇳CN-🇺🇸US_83_1_87Mb_176
-      - 🇺🇸US-🇺🇸US_3101
-      - 🇨🇳CN-🇹🇼TW_70_16_33Mb_178
-      - 🇨🇳CN-🇯🇵JP_208_32_61Mb_179
-      - 🇨🇳CN-🇹🇼TW_180_4_71Mb_180
-      - 🇨🇳CN-🇹🇼TW_109_43_72Mb_181
-      - 🇨🇳CN-🇺🇸US_222_10_61Mb_182
-      - 🇭🇰HK-🇭🇰HK_863
-      - 🇨🇳CN-🇹🇼TW_239_20_64Mb_184
-      - 🇨🇳CN-🇯🇵JP_169_7_39Mb_185
-      - 🇨🇳CN-🇸🇬SG_50_12_37Mb_186
-      - 🇨🇳CN-🇺🇸US_188_11_40Mb_187
-      - 🇨🇳CN-🇹🇼TW_148_12_26Mb_188
-      - 🇨🇳CN-🇹🇼TW_197_24_22Mb_189
-      - 🇨🇳CN-🇺🇸US_119_10_12Mb_190
-      - 🇨🇳CN-🇺🇸US_217_9_46Mb_191
-      - 🇨🇳CN_61_10_80Mb_192
-      - 🇨🇳CN-🇬🇧GB_98_5_90Mb_193
-      - 🇨🇳CN-🇸🇬SG_225_2_07Mb_194
-      - 🇨🇳CN-🇸🇬SG_244_5_68Mb_195
-      - 🇨🇳CN-🇹🇼TW_233_41_47Mb_196
-      - 🇨🇳CN-🇹🇼TW_255_10_07Mb_197
-      - 🇺🇸US-🇩🇪DE_3096
-      - 🇺🇸US-🇯🇵JP_3102
-      - 🇺🇸US-🇺🇸US_3100
-      - 🇨🇳CN_67_10_07Mb_201
-      - 🇨🇳CN-🇬🇧GB_191_7_13Mb_202
-      - 🇨🇳CN-🇸🇬SG_216_2_63Mb_203
-      - 🇨🇳CN-🇸🇬SG_242_9_97Mb_204
-      - 🇨🇳CN-🇹🇼TW_198_14_50Mb_205
-      - 🇨🇳CN-🇹🇼TW_99_27_26Mb_206
-      - 🇨🇳CN-🇯🇵JP_144_15_94Mb_207
-      - 🇨🇳CN-🇯🇵JP_246_2_84Mb_208
-      - 🇨🇳CN-🇹🇼TW_133_6_69Mb_209
-      - 🇨🇳CN-🇹🇼TW_153_28_49Mb_210
-      - 🇭🇰HK-🇺🇸US_290_11_39Mb_211
-      - 🇨🇳CN-🇸🇬SG_55_7_42Mb_212
-      - 🇨🇳CN-🇹🇼TW_170_9_82Mb_213
-      - 🇨🇳CN-🇺🇸US_147_3_06Mb_214
-      - 🇺🇸US-🇯🇵JP_3104
-      - 🇺🇸US-🇺🇸US_1981_32_03Mb_216
-      - 🇨🇳CN-🇹🇼TW_121_10_30Mb_217
-      - 🇨🇳CN-🇹🇼TW_159_3_49Mb_218
-      - 🇨🇳CN_77_21_43Mb_219
-      - 🇨🇳CN-🇺🇸US_152_1_62Mb_220
-      - 🇨🇳CN-🇺🇸US_84_2_36Mb_221
-      - 🇺🇸US-🇺🇸US_3115
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_11
+      - 🇺🇸_US_美国_12
+      - 🇨🇦_CA_加拿大_13
+      - 🇺🇸_US_美国_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇺🇸_US_美国_16
+      - 🇨🇦_CA_加拿大_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇨🇦_CA_加拿大_20
+      - 🇬🇧_GB_英国_21
+      - 🇺🇸_US_美国_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇺🇸_US_美国_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇫🇷_FR_法国_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇨🇦_CA_加拿大_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇺🇸_US_美国_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1614,228 +340,46 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳CN-🇯🇵JP_168_12_90Mb_1
-      - 🇨🇳CN-🇯🇵JP_224_13_28Mb_2
-      - 🇨🇳CN-🇹🇼TW_155_31_33Mb_3
-      - 🇨🇳CN-🇸🇬SG_220_75_43Mb_4
-      - 🇨🇳CN-🇯🇵JP_176_11_46Mb_5
-      - 🇨🇳CN-🇯🇵JP_229_18_62Mb_6
-      - 🇨🇳CN-🇯🇵JP_230_10_42Mb_7
-      - 🇨🇳CN-🇹🇼TW_258_343_03Mb_8
-      - 🇨🇳CN-🇹🇼TW_139_37_24Mb_9
-      - 🇨🇳CN-🇹🇼TW_209_42_65Mb_10
-      - 🇨🇳CN-🇹🇼TW_158_40_72Mb_11
-      - 🇨🇳CN-🇸🇬SG_213_54_47Mb_12
-      - 🇨🇳CN-🇸🇬SG_160_56_65Mb_13
-      - 🇨🇳CN-🇹🇼TW_132_45_50Mb_14
-      - 🇨🇳CN-🇹🇼TW_162_44_92Mb_15
-      - 🇨🇳CN-🇯🇵JP_212_15_91Mb_16
-      - 🇨🇳CN-🇯🇵JP_218_58_81Mb_17
-      - 🇨🇳CN-🇹🇼TW_113_50_74Mb_18
-      - 🇨🇳CN-🇹🇼TW_61_42_88Mb_19
-      - 🇨🇳CN-🇬🇧GB_59_7_07Mb_20
-      - 🇨🇳CN-🇸🇬SG_63_37_21Mb_21
-      - 🇨🇳CN-🇹🇼TW_88_24_71Mb_22
-      - 🇨🇳CN-🇹🇼TW_127_29_79Mb_23
-      - 🇨🇳CN-🇹🇼TW_120_38_12Mb_24
-      - 🇨🇳CN-🇯🇵JP_254_10_49Mb_25
-      - 🇨🇳CN-🇸🇬SG_227_64_72Mb_26
-      - 🇨🇳CN-🇹🇼TW_204_21_71Mb_27
-      - 🇨🇳CN-🇯🇵JP_236_20_30Mb_28
-      - 🇨🇳CN-🇯🇵JP_256_3_75Mb_29
-      - 🇨🇳CN-🇯🇵JP_142_4_35Mb_30
-      - 🇨🇳CN-🇹🇼TW_175_7_36Mb_31
-      - 🇨🇳CN-🇹🇼TW_185_24_13Mb_32
-      - 🇨🇳CN-🇸🇬SG_235_31_83Mb_33
-      - 🇨🇳CN-🇹🇼TW_136_45_83Mb_34
-      - 🇨🇳CN-🇹🇼TW_75_19_72Mb_35
-      - 🇨🇳CN-🇹🇼TW_95_23_86Mb_36
-      - 🇨🇳CN-🇯🇵JP_131_15_13Mb_37
-      - 🇨🇳CN-🇯🇵JP_86_5_22Mb_38
-      - 🇨🇳CN-🇸🇬SG_234_17_55Mb_39
-      - 🇨🇳CN-🇸🇬SG_238_15_72Mb_40
-      - 🇨🇳CN-🇹🇼TW_106_31_93Mb_41
-      - 🇨🇳CN-🇹🇼TW_221_28_13Mb_42
-      - 🇨🇳CN-🇹🇼TW_259_25_98Mb_43
-      - 🇨🇳CN-🇬🇧GB_102_19_75Mb_44
-      - 🇨🇳CN-🇬🇧GB_87_5_18Mb_45
-      - 🇨🇳CN-🇯🇵JP_145_13_19Mb_46
-      - 🇨🇳CN-🇸🇬SG_62_36_03Mb_47
-      - 🇨🇳CN-🇹🇼TW_79_31_32Mb_48
-      - 🇨🇳CN-🇬🇧GB_130_29_58Mb_49
-      - 🇨🇳CN-🇯🇵JP_251_9_38Mb_50
-      - 🇨🇳CN-🇸🇬SG_228_5_43Mb_51
-      - 🇨🇳CN-🇸🇬SG_54_21_33Mb_52
-      - 🇨🇳CN-🇹🇼TW_124_41_50Mb_53
-      - 🇨🇳CN-🇯🇵JP_249_4_90Mb_54
-      - 🇨🇳CN-🇸🇬SG_67_20_38Mb_55
-      - 🇳🇱NL-🇳🇱NL_302+_+2_39Mb_56
-      - 🇨🇳CN-🇬🇧GB_81_8_87Mb_57
-      - 🇨🇳CN-🇯🇵JP_143_7_82Mb_58
-      - 🇨🇳CN-🇯🇵JP_146_11_00Mb_59
-      - 🇨🇳CN-🇹🇼TW_52_14_41Mb_60
-      - 🇨🇳CN-🇬🇧GB_201_35_05Mb_61
-      - 🇨🇳CN-🇯🇵JP_215_17_05Mb_62
-      - 🇨🇳CN-🇯🇵JP_241_7_30Mb_63
-      - 🇨🇳CN-🇹🇼TW_260_51_97Mb_64
-      - 🇨🇳CN-🇹🇼TW_93_12_22Mb_65
-      - 🇨🇳CN-🇬🇧GB_195_11_39Mb_66
-      - 🇨🇳CN-🇯🇵JP_173_7_49Mb_67
-      - 🇨🇳CN-🇹🇼TW_137_12_43Mb_68
-      - 🇨🇳CN-🇹🇼TW_140_54_24Mb_69
-      - 🇨🇳CN-🇹🇼TW_58_33_05Mb_70
-      - 🇨🇳CN-🇬🇧GB_200_21_88Mb_71
-      - 🇨🇳CN-🇯🇵JP_203_4_53Mb_72
-      - 🇨🇳CN-🇯🇵JP_250_9_55Mb_73
-      - 🇨🇳CN-🇯🇵JP_252_20_38Mb_74
-      - 🇨🇳CN-🇹🇼TW_125_49_74Mb_75
-      - 🇨🇳CN-🇹🇼TW_207_47_54Mb_76
-      - 🇨🇳CN-🇹🇼TW_257_10_13Mb_77
-      - 🇨🇳CN-🇯🇵JP_247_7_14Mb_78
-      - 🇨🇳CN-🇹🇼TW_103_29_83Mb_79
-      - 🇨🇳CN-🇬🇧GB_122_12_21Mb_80
-      - 🇨🇳CN-🇬🇧GB_77_6_33Mb_81
-      - 🇨🇳CN-🇸🇬SG_53_30_65Mb_82
-      - 🇨🇳CN-🇸🇬SG_69_37_79Mb_83
-      - 🇨🇳CN-🇹🇼TW_73_24_51Mb_84
-      - 🇨🇳CN-🇹🇼TW_117_41_93Mb_85
-      - 🇨🇳CN-🇬🇧GB_97_21_45Mb_86
-      - 🇨🇳CN-🇹🇼TW_151_26_54Mb_87
-      - 🇨🇳CN-🇸🇬SG_232_21_28Mb_88
-      - 🇨🇳CN-🇹🇼TW_60_17_69Mb_89
-      - 🇨🇳CN-🇹🇼TW_94_25_43Mb_90
-      - 🇨🇳CN-🇯🇵JP_149_12_09Mb_91
-      - 🇨🇳CN-🇸🇬SG_57_32_65Mb_92
-      - 🇨🇳CN-🇯🇵JP_243_15_59Mb_93
-      - 🇨🇳CN-🇯🇵JP_85_6_01Mb_94
-      - 🇨🇳CN-🇹🇼TW_66_7_32Mb_95
-      - 🇨🇳CN-🇺🇸US_104_6_57Mb_96
-      - 🇨🇳CN-🇺🇸US_105_11_74Mb_97
-      - 🇨🇳CN-🇺🇸US_110_10_49Mb_98
-      - 🇨🇳CN-🇺🇸US_116_11_72Mb_99
-      - 🇨🇳CN-🇺🇸US_171_11_73Mb_100
-      - 🇨🇳CN-🇺🇸US_211_10_61Mb_101
-      - 🇺🇸US-🇺🇸US_3121
-      - 🇨🇳CN-🇹🇼TW_129_49_51Mb_103
-      - 🇨🇳CN-🇹🇼TW_181_13_19Mb_104
-      - 🇨🇳CN-🇺🇸US_108_10_68Mb_105
-      - 🇨🇳CN-🇺🇸US_202_4_23Mb_106
-      - 🇨🇳CN-🇺🇸US_205_11_44Mb_107
-      - 🇨🇳CN-🇹🇼TW_163_30_97Mb_108
-      - 🇨🇳CN-🇹🇼TW_226_24_04Mb_109
-      - 🇨🇳CN-🇹🇼TW_65_41_60Mb_110
-      - 🇨🇳CN-🇺🇸US_174_11_03Mb_111
-      - 🇨🇳CN-🇺🇸US_248_11_48Mb_112
-      - 🇨🇳CN-🇬🇧GB_74_15_69Mb_113
-      - 🇨🇳CN-🇹🇼TW_154_19_64Mb_114
-      - 🇨🇳CN-🇹🇼TW_172_30_78Mb_115
-      - 🇨🇳CN-🇹🇼TW_245_1_99Mb_116
-      - 🇨🇳CN-🇺🇸US_115_11_23Mb_117
-      - 🇨🇳CN-🇺🇸US_231_11_41Mb_118
-      - 🇨🇳CN-🇬🇧GB_92_14_62Mb_119
-      - 🇨🇳CN-🇺🇸US_183_5_06Mb_120
-      - 🇨🇳CN-🇸🇬SG_134_24_40Mb_121
-      - 🇨🇳CN-🇹🇼TW_118_12_04Mb_122
-      - 🇨🇳CN-🇹🇼TW_135_6_89Mb_123
-      - 🇨🇳CN-🇹🇼TW_161_8_57Mb_124
-      - 🇨🇳CN-🇹🇼TW_199_15_39Mb_125
-      - 🇨🇳CN-🇹🇼TW_76_2_09Mb_126
-      - 🇨🇳CN-🇺🇸US_107_10_39Mb_127
-      - 🇨🇳CN-🇺🇸US_189_2_45Mb_128
-      - 🇨🇳CN-🇺🇸US_192_11_57Mb_129
-      - 🇨🇳CN-🇺🇸US_210_3_66Mb_130
-      - 🇨🇳CN-🇬🇧GB_237_7_69Mb_131
-      - 🇨🇳CN-🇹🇼TW_126_13_20Mb_132
-      - 🇨🇳CN-🇺🇸US_80_2_46Mb_133
-      - 🇺🇸US-🇺🇸US_3099
-      - 🇨🇳CN-🇺🇸US_100_2_33Mb_135
-      - 🇨🇳CN-🇺🇸US_114_9_54Mb_136
-      - 🇭🇰HK-🇩🇪DE_862
-      - 🇺🇸US-🇹🇼TW_3107
-      - 🇨🇳CN-🇹🇼TW_179_4_59Mb_139
-      - 🇨🇳CN-🇺🇸US_184_11_49Mb_140
-      - 🇨🇳CN-🇺🇸US_196_8_06Mb_141
-      - 🇨🇳CN-🇺🇸US_253_1_76Mb_142
-      - 🇨🇳CN-🇹🇼TW_178_8_30Mb_143
-      - 🇨🇳CN-🇹🇼TW_68_9_97Mb_144
-      - 🇨🇳CN-🇺🇸US_90
-      - 🇭🇰HK-🇹🇼TW_861
-      - 🇺🇸US-🇯🇵JP_3103
-      - 🇨🇳CN-🇹🇼TW_123_8_74Mb_148
-      - 🇨🇳CN-🇹🇼TW_56_3_25Mb_149
-      - 🇨🇳CN-🇺🇸US_186_7_80Mb_150
-      - 🇨🇳CN-🇬🇧GB_51_21_06Mb_151
-      - 🇨🇳CN-🇺🇸US_111_9_88Mb_152
-      - 🇺🇸US-🇩🇪DE_3097
-      - 🇨🇳CN-🇯🇵JP_240_20_43Mb_154
-      - 🇨🇳CN-🇹🇼TW_187_12_95Mb_155
-      - 🇨🇳CN-🇺🇸US_206_3_87Mb_156
-      - 🇺🇸US-🇹🇼TW_3108
-      - 🇨🇳CN-🇹🇼TW_101_10_86Mb_158
-      - 🇨🇳CN-🇹🇼TW_128_8_68Mb_159
-      - 🇨🇳CN-🇺🇸US_141_2_86Mb_160
-      - 🇨🇳CN-🇺🇸US_164_10_31Mb_161
-      - 🇭🇰HK-🇸🇬SG_864
-      - 🇨🇳CN-🇬🇧GB_72_8_50Mb_163
-      - 🇨🇳CN-🇺🇸US_156_3_32Mb_164
-      - 🇨🇳CN-🇺🇸US_165_3_06Mb_165
-      - 🇨🇳CN-🇸🇬SG_112_14_72Mb_166
-      - 🇨🇳CN-🇹🇼TW_71_17_82Mb_167
-      - 🇨🇳CN-🇺🇸US_182_9_72Mb_168
-      - 🇨🇳CN-🇺🇸US_194_9_36Mb_169
-      - 🇨🇳CN-🇺🇸US_82
-      - 🇨🇳CN-🇬🇧GB_96_5_99Mb_171
-      - 🇨🇳CN-🇸🇬SG_190_57_71Mb_172
-      - 🇨🇳CN-🇹🇼TW_157_5_24Mb_173
-      - 🇨🇳CN-🇹🇼TW_64_8_69Mb_174
-      - 🇨🇳CN-🇹🇼TW_89_32_07Mb_175
-      - 🇨🇳CN-🇺🇸US_83_1_87Mb_176
-      - 🇺🇸US-🇺🇸US_3101
-      - 🇨🇳CN-🇹🇼TW_70_16_33Mb_178
-      - 🇨🇳CN-🇯🇵JP_208_32_61Mb_179
-      - 🇨🇳CN-🇹🇼TW_180_4_71Mb_180
-      - 🇨🇳CN-🇹🇼TW_109_43_72Mb_181
-      - 🇨🇳CN-🇺🇸US_222_10_61Mb_182
-      - 🇭🇰HK-🇭🇰HK_863
-      - 🇨🇳CN-🇹🇼TW_239_20_64Mb_184
-      - 🇨🇳CN-🇯🇵JP_169_7_39Mb_185
-      - 🇨🇳CN-🇸🇬SG_50_12_37Mb_186
-      - 🇨🇳CN-🇺🇸US_188_11_40Mb_187
-      - 🇨🇳CN-🇹🇼TW_148_12_26Mb_188
-      - 🇨🇳CN-🇹🇼TW_197_24_22Mb_189
-      - 🇨🇳CN-🇺🇸US_119_10_12Mb_190
-      - 🇨🇳CN-🇺🇸US_217_9_46Mb_191
-      - 🇨🇳CN_61_10_80Mb_192
-      - 🇨🇳CN-🇬🇧GB_98_5_90Mb_193
-      - 🇨🇳CN-🇸🇬SG_225_2_07Mb_194
-      - 🇨🇳CN-🇸🇬SG_244_5_68Mb_195
-      - 🇨🇳CN-🇹🇼TW_233_41_47Mb_196
-      - 🇨🇳CN-🇹🇼TW_255_10_07Mb_197
-      - 🇺🇸US-🇩🇪DE_3096
-      - 🇺🇸US-🇯🇵JP_3102
-      - 🇺🇸US-🇺🇸US_3100
-      - 🇨🇳CN_67_10_07Mb_201
-      - 🇨🇳CN-🇬🇧GB_191_7_13Mb_202
-      - 🇨🇳CN-🇸🇬SG_216_2_63Mb_203
-      - 🇨🇳CN-🇸🇬SG_242_9_97Mb_204
-      - 🇨🇳CN-🇹🇼TW_198_14_50Mb_205
-      - 🇨🇳CN-🇹🇼TW_99_27_26Mb_206
-      - 🇨🇳CN-🇯🇵JP_144_15_94Mb_207
-      - 🇨🇳CN-🇯🇵JP_246_2_84Mb_208
-      - 🇨🇳CN-🇹🇼TW_133_6_69Mb_209
-      - 🇨🇳CN-🇹🇼TW_153_28_49Mb_210
-      - 🇭🇰HK-🇺🇸US_290_11_39Mb_211
-      - 🇨🇳CN-🇸🇬SG_55_7_42Mb_212
-      - 🇨🇳CN-🇹🇼TW_170_9_82Mb_213
-      - 🇨🇳CN-🇺🇸US_147_3_06Mb_214
-      - 🇺🇸US-🇯🇵JP_3104
-      - 🇺🇸US-🇺🇸US_1981_32_03Mb_216
-      - 🇨🇳CN-🇹🇼TW_121_10_30Mb_217
-      - 🇨🇳CN-🇹🇼TW_159_3_49Mb_218
-      - 🇨🇳CN_77_21_43Mb_219
-      - 🇨🇳CN-🇺🇸US_152_1_62Mb_220
-      - 🇨🇳CN-🇺🇸US_84_2_36Mb_221
-      - 🇺🇸US-🇺🇸US_3115
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇦_CA_加拿大_11
+      - 🇺🇸_US_美国_12
+      - 🇨🇦_CA_加拿大_13
+      - 🇺🇸_US_美国_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇺🇸_US_美国_16
+      - 🇨🇦_CA_加拿大_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇨🇦_CA_加拿大_20
+      - 🇬🇧_GB_英国_21
+      - 🇺🇸_US_美国_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇺🇸_US_美国_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇦_CA_加拿大_26
+      - 🇫🇷_FR_法国_27
+      - 🇺🇸_US_美国_28
+      - 🇨🇦_CA_加拿大_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇦_CA_加拿大_33
+      - 🇺🇸_US_美国_34
+      - 🇨🇦_CA_加拿大_35
+      - 🇨🇦_CA_加拿大_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇺🇸_US_美国_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇺🇸_US_美国_40
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
