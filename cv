@@ -5,321 +5,51 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CYL-科技（2022_03_17）_1, server: 107.167.4.28, port: 443, type: vmess, uuid: 2649c24f-2af9-4ad7-a655-0df9b70c0645, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/173418141123}, udp: true}
-  - {name: CYL-科技（2022_03_17）_2, server: hkaz6.xmrth-node.xyz, port: 10153, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz6.xmrth-node.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_3, server: hkaz1.xmrth-node.xyz, port: 10026, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_4, server: cn01.efan.men, port: 8758, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022_03_17）_5, server: hkaz1.xmrth-node.xyz, port: 10062, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_6, server: gyb.ftnodes1.xyz, port: 80, type: vmess, uuid: e4fb1a56-8b94-4ab7-832e-fa077a024145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gyb.ftnodes1.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_7, server: hkaz6.xmrth-node.xyz, port: 10152, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz6.xmrth-node.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_8, server: www.ggchk.ga, port: 443, type: trojan, password: 4ae98d26-b209-4dd5-8e91-bf11d4f10801, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_9, server: 20.196.209.91, port: 1208, type: vmess, uuid: eb8cc172-24ff-46c7-8c17-8e55fe21094a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_10, server: hkaz1.xmrth-node.xyz, port: 10017, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_11, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_12, server: hk18.balala2016.xyz, port: 10080, type: vmess, uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hk18, headers: {Host: hk18.balala2016.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_13, server: 120.232.192.119, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_14, server: transit01.balala2016.xyz, port: 10080, type: vmess, uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hk18, headers: {Host: transit01.balala2016.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_15, server: 120.232.192.115, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_16, server: 120.232.192.115, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_17, server: 40.74.85.36, port: 1208, type: vmess, uuid: 521f6dde-716c-43e2-d0d2-a4665c71461f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_18, server: jdjp1.cloudoo.xyz, port: 443, type: vmess, uuid: 8653ecc0-874b-43f7-9ac7-d75f3b26c386, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /upload, headers: {Host: jdjp1.cloudoo.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_19, server: hkaz6.xmrth-node.xyz, port: 10187, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz6.xmrth-node.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_20, server: node1.lmars.top, port: 10001, type: vmess, uuid: 29fa4ec6-19cc-3e65-be49-29c62d236d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /server, headers: {Host: node1.lmars.top}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_21, server: seoalhigh.515223.xyz, port: 41371, type: vmess, uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_22, server: 120.232.192.119, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_23, server: n.cloudoo.xyz, port: 4003, type: vmess, uuid: 8653ecc0-874b-43f7-9ac7-d75f3b26c386, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /upload, headers: {Host: n.cloudoo.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_24, server: 120.232.192.119, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_25, server: 172.105.34.179, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022_03_17）_26, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_27, server: 183.232.163.134, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_28, server: 45.32.94.166, port: 31676, type: vmess, uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: CYL-科技（2022_03_17）_29, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_30, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_31, server: 120.232.192.115, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_32, server: 167.88.61.175, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022_03_17）_33, server: 167.88.61.175, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022_03_17）_34, server: 120.232.192.119, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_35, server: 8.214.96.202, port: 29748, type: vmess, uuid: 6b741551-2824-40ed-b979-336a02f896ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_36, server: 152.70.237.92, port: 80, type: vmess, uuid: 9cac569c-fb38-4a71-cae7-2ac1739ecdf0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: CYL-科技（2022_03_17）_37, server: 120.232.192.136, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_38, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_39, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_40, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_41, server: 107.167.22.3, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/173418141123}, udp: true}
-  - {name: CYL-科技（2022_03_17）_42, server: rn.uuuuuu.eu, port: 443, type: trojan, password: !<str> 888888, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_43, server: 35.153.162.49, port: 27080, type: vmess, uuid: 6334db00-f39b-49d7-d12a-2e3c037c5d97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: CYL-科技（2022_03_17）_44, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_45, server: 154.17.0.57, port: 12297, type: vmess, uuid: 984c3ddc-6ea8-476f-c1a1-9a22fecfcdaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: CYL-科技（2022_03_17）_46, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_47, server: hk14.balala2016.xyz, port: 80, type: vmess, uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /balala, headers: {Host: hk14.balala2016.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_48, server: n.cloudoo.xyz, port: 4001, type: vmess, uuid: 8653ecc0-874b-43f7-9ac7-d75f3b26c386, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /upload, headers: {Host: n.cloudoo.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_49, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: CYL-科技（2022_03_17）_50, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: CYL-科技（2022_03_17）_51, server: hackir-forever-greatlord-is-new-hackir-wc-baradaran-express.ukwest.cloudapp.azure.com, port: 443, type: ss, cipher: aes-128-gcm, password: AmazonMethod, udp: true}
-  - {name: CYL-科技（2022_03_17）_52, server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_53, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_54, server: 107.167.23.99, port: 443, type: vmess, uuid: 6c73d6bf-25a4-410b-94b7-c2c517d61f23, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/173418141123}, udp: true}
-  - {name: CYL-科技（2022_03_17）_55, server: jdhk1.cloudoo.xyz, port: 443, type: vmess, uuid: 8653ecc0-874b-43f7-9ac7-d75f3b26c386, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /upload, headers: {Host: jdhk1.cloudoo.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_56, server: 67.21.87.51, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/173418141123}, udp: true}
-  - {name: CYL-科技（2022_03_17）_57, server: 107.167.7.105, port: 443, type: vmess, uuid: 17fa3c74-f3c2-4b37-bf53-c6640d6982eb, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/210004121515}, udp: true}
-  - {name: CYL-科技（2022_03_17）_58, server: 134.195.196.150, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022_03_17）_59, server: cn01.efan.men, port: 8764, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022_03_17）_60, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: CYL-科技（2022_03_17）_61, server: 107.167.18.62, port: 443, type: vmess, uuid: 9838c1b4-c3fd-49b5-8a59-2ff05385f17c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/210004121515}, udp: true}
-  - {name: CYL-科技（2022_03_17）_62, server: 170.178.178.133, port: 443, type: vmess, uuid: 6566b38d-0127-42ea-aee3-4bf86a697f7c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/210004121515}, udp: true}
-  - {name: CYL-科技（2022_03_17）_63, server: 45.147.160.86, port: 813, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: CYL-科技（2022_03_17）_64, server: 120.233.147.118, port: 53962, type: vmess, uuid: ea957073-166f-4ba4-ae74-6e38909eb09f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: CYL-科技（2022_03_17）_65, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_66, server: n.cloudoo.xyz, port: 4000, type: vmess, uuid: 8653ecc0-874b-43f7-9ac7-d75f3b26c386, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /upload, headers: {Host: n.cloudoo.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_67, server: 134.195.196.150, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022_03_17）_68, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_69, server: 167.88.63.89, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022_03_17）_70, server: 167.88.63.89, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022_03_17）_71, server: 167.88.63.89, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022_03_17）_72, server: 167.88.63.89, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022_03_17）_73, server: 167.88.63.89, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022_03_17）_74, server: jdus1.cloudoo.xyz, port: 443, type: vmess, uuid: 8653ecc0-874b-43f7-9ac7-d75f3b26c386, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /upload, headers: {Host: jdus1.cloudoo.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_75, server: 134.195.196.150, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022_03_17）_76, server: 134.195.196.150, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022_03_17）_77, server: 167.88.63.89, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_78, server: 103.172.116.7, port: 9010, type: ssr, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: CYL-科技（2022_03_17）_79, server: 167.88.63.89, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022_03_17）_80, server: 134.195.196.150, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022_03_17）_81, server: 134.195.196.150, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: CYL-科技（2022_03_17）_82, server: 103.172.116.8, port: 9010, type: ssr, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: CYL-科技（2022_03_17）_83, server: 134.195.196.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022_03_17）_84, server: 134.195.196.150, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022_03_17）_85, server: 167.88.63.89, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022_03_17）_86, server: 5.44.249.43, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_87, server: 167.88.63.89, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_88, server: 134.195.196.150, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022_03_17）_89, server: 134.195.196.150, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_90, server: 134.195.196.150, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022_03_17）_91, server: 134.195.196.150, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_92, server: 134.195.196.150, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_93, server: 167.88.63.89, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022_03_17）_94, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_95, server: 134.195.196.150, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022_03_17）_96, server: hk15.balala2016.xyz, port: 80, type: vmess, uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /balala, headers: {Host: hk15.balala2016.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_97, server: 134.195.196.150, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022_03_17）_98, server: 134.195.196.150, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022_03_17）_99, server: 167.88.63.89, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022_03_17）_100, server: 167.88.63.89, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022_03_17）_101, server: 167.88.63.89, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022_03_17）_102, server: 167.88.63.89, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022_03_17）_103, server: 167.88.63.89, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022_03_17）_104, server: 167.88.63.89, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_105, server: 134.195.196.150, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022_03_17）_106, server: 103.172.116.9, port: 9010, type: ssr, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: CYL-科技（2022_03_17）_107, server: smoracle2.515223.xyz, port: 25859, type: vmess, uuid: 620e3569-7653-4456-9f71-c6f19f3839fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_108, server: 134.195.196.150, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022_03_17）_109, server: hkaz3.xmrth-node.xyz, port: 10035, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_110, server: 198.57.27.191, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022_03_17）_111, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_112, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9apQabyg9le}, udp: true}
-  - {name: CYL-科技（2022_03_17）_113, server: zfd-unicom.ddnsnode.com, port: 16109, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_114, server: 167.71.197.50, port: 44194, type: vmess, uuid: 5cc6c2cf-af81-4341-f8f7-af8a83804d46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_115, server: 198.57.27.191, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_116, server: 117.28.243.220, port: 8254, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: CYL-科技（2022_03_17）_117, server: 192.46.209.146, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_118, server: smoracle.515223.xyz, port: 51690, type: vmess, uuid: 30ecebb3-1240-44e1-8551-a100ad13e330, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_119, server: 198.57.27.191, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022_03_17）_120, server: 192.46.209.146, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_121, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: CYL-科技（2022_03_17）_122, server: 211.99.100.90, port: 56098, type: vmess, uuid: 28fae2ae-93f8-4ad8-86aa-f42bc3890173, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_123, server: 198.57.27.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CYL-科技（2022_03_17）_124, server: 142.93.168.188, port: 21612, type: ss, cipher: chacha20-ietf-poly1305, password: zUOC2CcSPiEX, udp: true}
-  - {name: CYL-科技（2022_03_17）_125, server: 172.67.209.58, port: 443, type: vmess, uuid: 71452d0f-a921-49c2-b5a8-fc9fdd9cacb6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Support-Putin-Kill-all-Ukrainians_vws}, udp: true}
-  - {name: CYL-科技（2022_03_17）_126, server: 169.197.142.4, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: CYL-科技（2022_03_17）_127, server: 104.21.239.147, port: 443, type: vmess, uuid: 71452d0f-a921-49c2-b5a8-fc9fdd9cacb6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Support-Putin-Kill-all-Ukrainians_vws}, udp: true}
-  - {name: CYL-科技（2022_03_17）_128, server: 198.57.27.191, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022_03_17）_129, server: 117.28.243.173, port: 4173, type: ssr, cipher: rc4-md5, password: passinfo123, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: CYL-科技（2022_03_17）_130, server: 38.64.138.53, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz, udp: true}
-  - {name: CYL-科技（2022_03_17）_131, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: CYL-科技（2022_03_17）_132, server: 198.57.27.191, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022_03_17）_133, server: 104.17.103.125, port: 80, type: vmess, uuid: e46835e3-b770-4d5b-8ba0-5507f8385c44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
-  - {name: CYL-科技（2022_03_17）_134, server: 198.57.27.191, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022_03_17）_135, server: 167.88.63.89, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_136, server: 167.88.63.89, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_137, server: 198.57.27.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CYL-科技（2022_03_17）_138, server: 104.16.160.114, port: 443, type: vmess, uuid: 71452d0f-a921-49c2-b5a8-fc9fdd9cacb6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Support-Putin-Kill-all-Ukrainians_vws}, udp: true}
-  - {name: CYL-科技（2022_03_17）_139, server: 104.22.4.180, port: 443, type: vmess, uuid: 71452d0f-a921-49c2-b5a8-fc9fdd9cacb6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Support-Putin-Kill-all-Ukrainians_vws}, udp: true}
-  - {name: CYL-科技（2022_03_17）_140, server: hkaz5.xmrth-node.xyz, port: 10077, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz5.xmrth-node.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_141, server: 104.16.181.103, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws/?ed=2048"}, udp: true}
-  - {name: CYL-科技（2022_03_17）_142, server: 62.210.140.163, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022_03_17）_143, server: hkaz3.xmrth-node.xyz, port: 10147, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_144, server: 62.216.91.229, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
-  - {name: CYL-科技（2022_03_17）_145, server: ce.xjp.tgproxy.wtf, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: ce.xjp.tgproxy.wtf}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_146, server: 104.18.27.64, port: 443, type: vmess, uuid: 71452d0f-a921-49c2-b5a8-fc9fdd9cacb6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Support-Putin-Kill-all-Ukrainians_vws}, udp: true}
-  - {name: CYL-科技（2022_03_17）_147, server: 62.216.91.229, port: 9092, type: ssr, cipher: aes-256-cfb, password: TyNkGmp9hs6eGpDK, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: CYL-科技（2022_03_17）_148, server: hkaz6.xmrth-node.xyz, port: 10078, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz6.xmrth-node.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_149, server: 198.57.27.191, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022_03_17）_150, server: 198.57.27.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022_03_17）_151, server: 169.197.142.4, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022_03_17）_152, server: smoracle2.515223.xyz, port: 25859, type: vmess, uuid: 620e3569-7653-4456-9f71-c6f19f3839fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_153, server: 198.57.27.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022_03_17）_154, server: 198.57.27.191, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022_03_17）_155, server: 169.197.142.4, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022_03_17）_156, server: 117.28.243.173, port: 2173, type: ssr, cipher: rc4-md5, password: passinfo123, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: CYL-科技（2022_03_17）_157, server: 169.197.142.4, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022_03_17）_158, server: 169.197.142.4, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022_03_17）_159, server: 198.57.27.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022_03_17）_160, server: 169.197.142.4, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022_03_17）_161, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: CYL-科技（2022_03_17）_162, server: 45.58.147.199, port: 443, type: vmess, uuid: a8a26401-2948-42fa-b68c-1d6334e27ab7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/210004121515}, udp: true}
-  - {name: CYL-科技（2022_03_17）_163, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_164, server: 198.57.27.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022_03_17）_165, server: 104.16.167.138, port: 443, type: vmess, uuid: 71452d0f-a921-49c2-b5a8-fc9fdd9cacb6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Support-Putin-Kill-all-Ukrainians_vws}, udp: true}
-  - {name: CYL-科技（2022_03_17）_166, server: 154.17.0.57, port: 12297, type: vmess, uuid: 984c3ddc-6ea8-476f-c1a1-9a22fecfcdaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: CYL-科技（2022_03_17）_167, server: 169.197.142.4, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_168, server: hkchiansax2.msservicevip.pw, port: 9359, type: ss, cipher: aes-256-cfb, password: !<str> 73117962, udp: true}
-  - {name: CYL-科技（2022_03_17）_169, server: flo.fovi.tk, port: 40071, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: flo.fovi.tk}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_170, server: cn01.efan.men, port: 8774, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022_03_17）_171, server: 198.57.27.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022_03_17）_172, server: 169.197.142.4, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_173, server: n.cloudoo.xyz, port: 4002, type: vmess, uuid: 8653ecc0-874b-43f7-9ac7-d75f3b26c386, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /upload, headers: {Host: n.cloudoo.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_174, server: 169.197.142.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022_03_17）_175, server: 169.197.142.4, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CYL-科技（2022_03_17）_176, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022_03_17）_177, server: zfd-unicom.ddnsnode.com, port: 16109, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_178, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022_03_17）_179, server: 104.16.9.221, port: 80, type: vmess, uuid: e46835e3-b770-4d5b-8ba0-5507f8385c44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
-  - {name: CYL-科技（2022_03_17）_180, server: gy3.anoob.icu, port: 31013, type: vmess, uuid: 9d1cf997-df2b-3656-9fab-23f8ec81f1b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gy3.anoob.icu}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_181, server: 169.197.142.4, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_182, server: 120.233.150.200, port: 50105, type: ss, cipher: aes-128-gcm, password: 696fd8c5-c2da-4590-9614-46d3fbf93917, udp: true}
-  - {name: CYL-科技（2022_03_17）_183, server: 169.197.142.4, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022_03_17）_184, server: zfd-unicom.ddnsnode.com, port: 16109, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_185, server: smoracle.515223.xyz, port: 51690, type: vmess, uuid: 30ecebb3-1240-44e1-8551-a100ad13e330, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_186, server: 120.233.150.200, port: 50602, type: ss, cipher: aes-128-gcm, password: 696fd8c5-c2da-4590-9614-46d3fbf93917, udp: true}
-  - {name: CYL-科技（2022_03_17）_187, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CYL-科技（2022_03_17）_188, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: CYL-科技（2022_03_17）_189, server: 117.28.243.165, port: 8050, type: ssr, cipher: rc4-md5, password: passinfo123, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: CYL-科技（2022_03_17）_190, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 50277823-d1ae-49c1-a351-8edd000ff5de, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 1.ezydfdd.com}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_191, server: hkaz7.xmrth-node.xyz, port: 10162, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz7.xmrth-node.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_192, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_193, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022_03_17）_194, server: 198.57.27.191, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_195, server: jpaws002.xmrth-node.xyz, port: 10041, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: jpaws002.xmrth-node.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_196, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: CYL-科技（2022_03_17）_197, server: 180.163.62.91, port: 22001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CYL-科技（2022_03_17）_198, server: 169.197.142.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_199, server: 169.197.142.4, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022_03_17）_200, server: cn01.efan.men, port: 8761, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022_03_17）_201, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_202, server: 169.197.142.4, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022_03_17）_203, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022_03_17）_204, server: 169.197.142.4, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_205, server: 169.197.142.4, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022_03_17）_206, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_207, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_208, server: 134.195.196.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CYL-科技（2022_03_17）_209, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_210, server: 117.28.242.137, port: 9359, type: ssr, cipher: aes-256-cfb, password: !<str> 73117962, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: CYL-科技（2022_03_17）_211, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CYL-科技（2022_03_17）_212, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022_03_17）_213, server: 169.197.142.4, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_214, server: 198.57.27.191, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022_03_17）_215, server: 120.233.150.200, port: 50102, type: ss, cipher: aes-128-gcm, password: 696fd8c5-c2da-4590-9614-46d3fbf93917, udp: true}
-  - {name: CYL-科技（2022_03_17）_216, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022_03_17）_217, server: 198.57.27.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022_03_17）_218, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022_03_17）_219, server: 178.62.16.161, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: CYL-科技（2022_03_17）_220, server: 198.57.27.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022_03_17）_221, server: 169.197.142.4, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022_03_17）_222, server: 169.197.142.4, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022_03_17）_223, server: zfd-unicom.ddnsnode.com, port: 16229, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_224, server: 120.233.150.200, port: 50102, type: ss, cipher: aes-128-gcm, password: 696fd8c5-c2da-4590-9614-46d3fbf93917, udp: true}
-  - {name: CYL-科技（2022_03_17）_225, server: zfd-unicom.ddnsnode.com, port: 16227, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_226, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022_03_17）_227, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022_03_17）_228, server: 169.197.142.4, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022_03_17）_229, server: 198.57.27.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022_03_17）_230, server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022_03_17）_231, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: CYL-科技（2022_03_17）_232, server: hkaz3.xmrth-node.xyz, port: 10009, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_233, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022_03_17）_234, server: 51.255.66.185, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022_03_17）_235, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022_03_17）_236, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_237, server: 198.57.27.191, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CYL-科技（2022_03_17）_238, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: CYL-科技（2022_03_17）_239, server: 180.163.62.91, port: 22006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CYL-科技（2022_03_17）_240, server: 169.197.142.4, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022_03_17）_241, server: zfd-unicom.ddnsnode.com, port: 16229, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_242, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022_03_17）_243, server: 180.163.62.91, port: 22003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CYL-科技（2022_03_17）_244, server: 104.22.3.3, port: 443, type: vmess, uuid: 71452d0f-a921-49c2-b5a8-fc9fdd9cacb6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Support-Putin-Kill-all-Ukrainians_vws}, udp: true}
-  - {name: CYL-科技（2022_03_17）_245, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
-  - {name: CYL-科技（2022_03_17）_246, server: zfd-unicom.ddnsnode.com, port: 16227, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_247, server: zfd-unicom.ddnsnode.com, port: 16227, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_248, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022_03_17）_249, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022_03_17）_250, server: zfd-unicom.ddnsnode.com, port: 16109, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_251, server: 134.195.196.3, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022_03_17）_252, server: 169.197.142.4, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022_03_17）_253, server: hk17.balala2016.xyz, port: 10080, type: vmess, uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /balala, headers: {Host: hk17.balala2016.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_254, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022_03_17）_255, server: 134.195.196.81, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_256, server: 169.197.142.4, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_257, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CYL-科技（2022_03_17）_258, server: zfd-unicom.ddnsnode.com, port: 16227, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_259, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022_03_17）_260, server: 134.195.196.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022_03_17）_261, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022_03_17）_262, server: smoracle.515223.xyz, port: 51690, type: vmess, uuid: 30ecebb3-1240-44e1-8551-a100ad13e330, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_263, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 50277823-d1ae-49c1-a351-8edd000ff5de, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 1.ezydfdd.com}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_264, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CYL-科技（2022_03_17）_265, server: 167.71.197.50, port: 44194, type: vmess, uuid: 5cc6c2cf-af81-4341-f8f7-af8a83804d46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_266, server: 169.197.142.4, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022_03_17）_267, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022_03_17）_268, server: 134.195.196.3, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022_03_17）_269, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022_03_17）_270, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022_03_17）_271, server: zfd-unicom.ddnsnode.com, port: 16229, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_272, server: 172.105.184.113, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022_03_17）_273, server: bj.ftnodes1.xyz, port: 80, type: vmess, uuid: e4fb1a56-8b94-4ab7-832e-fa077a024145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bj.ftnodes1.xyz}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_274, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022_03_17）_275, server: 45.58.147.56, port: 443, type: vmess, uuid: 37ee221c-0677-431a-8d13-7e51ba65c27e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/210004121515}, udp: true}
-  - {name: CYL-科技（2022_03_17）_276, server: cn01.efan.men, port: 8759, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022_03_17）_277, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_278, server: zfd-unicom.ddnsnode.com, port: 16227, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_279, server: 134.195.196.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: CYL-科技（2022_03_17）_280, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022_03_17）_281, server: 134.195.196.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CYL-科技（2022_03_17）_282, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_283, server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022_03_17）_284, server: 169.197.142.4, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_285, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022_03_17）_286, server: cn01.efan.men, port: 8783, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022_03_17）_287, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022_03_17）_288, server: 134.195.196.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022_03_17）_289, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022_03_17）_290, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_291, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022_03_17）_292, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022_03_17）_293, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_294, server: cn01.efan.men, port: 8753, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022_03_17）_295, server: gy3.anoob.icu, port: 31013, type: vmess, uuid: 9d1cf997-df2b-3656-9fab-23f8ec81f1b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gy3.anoob.icu}}, udp: true}
-  - {name: CYL-科技（2022_03_17）_296, server: cn01.efan.men, port: 8714, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022_03_17）_297, server: 169.197.142.4, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022_03_17）_298, server: cn01.efan.men, port: 8782, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022_03_17）_299, server: cn01.efan.men, port: 8756, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022_03_17）_300, server: 183.232.56.161, port: 8004, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: CYL-科技（2022_03_17）_301, server: 13.125.239.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: CYL-科技（2022_03_17）_302, server: fr-trojan.bonds.id, port: 443, type: trojan, password: 63224a20-984f-11ec-90de-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_303, server: cn01.efan.men, port: 8718, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022_03_17）_304, server: 107.167.24.214, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/210004121515}, udp: true}
-  - {name: CYL-科技（2022_03_17）_305, server: 169.197.142.4, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022_03_17）_306, server: 211.99.100.90, port: 56098, type: vmess, uuid: 28fae2ae-93f8-4ad8-86aa-f42bc3890173, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_307, server: 64.32.25.10, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/210004121515}, udp: true}
-  - {name: CYL-科技（2022_03_17）_308, server: 169.197.142.4, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022_03_17）_309, server: www.sanjose2021.ga, port: 443, type: trojan, password: 6cfa5ab4-c2a5-4ad1-8b75-ff12bc59b770, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_310, server: 172.105.184.113, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CYL-科技（2022_03_17）_311, server: 67.21.85.26, port: 443, type: vmess, uuid: b9a305a9-1ff2-4ec1-b338-933555833baa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/210004121515}, udp: true}
-  - {name: CYL-科技（2022_03_17）_312, server: 172.105.184.113, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022_03_17）_313, server: 104.16.181.197, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws/?ed=2048"}, udp: true}
-  - {name: CYL-科技（2022_03_17）_314, server: 172.105.184.113, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022_03_17）_315, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ZZ_3247, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_3184, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_3246, server: 134.195.196.81, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ZZ_3239, server: 134.195.196.81, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_3277, server: 134.195.196.81, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ZZ_3282, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ZZ_3293, server: 134.195.196.3, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_3287, server: 134.195.196.3, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_3315, server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_3335, server: 134.195.196.81, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ZZ_3249, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_3285, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_3291, server: 134.195.196.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_3441, server: 169.197.142.4, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_3311, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_3443, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_3442, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_3377, server: 134.195.196.3, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_3394, server: 134.195.196.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_3535, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ZZ_3531, server: 169.197.142.4, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ZZ_3530, server: 169.197.142.4, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ZZ_3539, server: 169.197.142.4, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_3557, server: 169.197.142.4, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_3559, server: 169.197.142.4, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_3552, server: 169.197.142.4, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ZZ_3554, server: 169.197.142.4, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_3440, server: 134.195.196.3, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_3465, server: 134.195.196.3, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ZZ_3429, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: ZZ_3485, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 俄罗斯A_32, server: 46.29.161.170, port: 9913, type: ssr, cipher: rc4, password: lncn.org 6e, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯B_33, server: 46.29.165.18, port: 9913, type: ssr, cipher: rc4, password: lncn.org 6e, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯C_34, server: 46.29.164.147, port: 9913, type: ssr, cipher: rc4, password: lncn.org 6e, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯D_35, server: 46.17.46.241, port: 9913, type: ssr, cipher: rc4, password: lncn.org 6e, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯E_36, server: 193.233.16.243, port: 9913, type: ssr, cipher: rc4, password: lncn.org u6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯F_37, server: 195.245.239.15, port: 9913, type: ssr, cipher: rc4, password: lncn.org u6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯G_38, server: 45.8.158.201, port: 9913, type: ssr, cipher: rc4, password: lncn.org u6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯H_39, server: 46.29.160.130, port: 9913, type: ssr, cipher: rc4, password: lncn.org u6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯I_40, server: 194.147.34.32, port: 9913, type: ssr, cipher: rc4, password: lncn.org u6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯J_41, server: 45.130.147.192, port: 9913, type: ssr, cipher: rc4, password: lncn.org u6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯K_42, server: 176.32.32.118, port: 9913, type: ssr, cipher: rc4, password: lncn.org u6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 俄罗斯L_43, server: 91.206.92.61, port: 9913, type: ssr, cipher: rc4, password: lncn.org u6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 香港公益限速_仅网易社交480P视频_可用10G流量/天_44, server: 45.128.210.165, port: 39987, type: ssr, cipher: rc4, password: SNU4QgUe6Lw6CUuEdj4d, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 韩国公益限速_仅网页社交480P视频_可用20G流量/天_45, server: 45.154.15.30, port: 34983, type: ssr, cipher: rc4, password: WPGm9rnOcXVXO7xDHDLH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 134.195.196.3, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -1080,496 +810,237 @@ proxies:
   - {name: github.com/freefq - 北美地区  11, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: github.com/freefq - 美国  12, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
   - {name: github.com/freefq - 美国  13, server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
-  - {name: 魔戒.net 🇭🇰 V3-IEPL专线 香港FDC01 6x, server: iplc01.dns2333.xyz, port: 3174, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇸🇬 V3-IEPL专线 新加坡03 | 8x, server: iplc01.dns2333.xyz, port: 3044, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇸🇬 V3-IEPL专线 新加坡05 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3054, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇹🇼 V3-IEPL专线 台湾03 Hinet | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3074, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3064, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3194, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V3-IEPL专线 日本04 | 7x, server: iplc01.dns2333.xyz, port: 3014, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V1-台湾 多台负载均衡 中继B 1.5x, server: in02.dns2333.xyz, port: 64088, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /biteb, headers: {Host: "%7B%22Host%22:%22cdn.bootcdn.net%22%7D"}}, udp: true}
-  - {name: 魔戒.net US_3106, server: 94.103.5.6, port: 15575, type: vmess, uuid: 8c226d2a-e526-48ed-d28a-be2190d92e55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22%257B%2522Host%2522:%252294.103.5.6%2522%257D%22%7D"}}, udp: true}
-  - {name: 魔戒.net-1, server: 180.163.62.91, port: 22003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 魔戒.net-2, server: 180.163.62.91, port: 22007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 魔戒.net-3, server: 180.163.62.91, port: 22001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 魔戒.net-4, server: 116.129.253.177, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-5, server: 104.208.112.171, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-6, server: 169.197.142.4, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 魔戒.net-7, server: 169.197.142.4, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 魔戒.net-8, server: 169.197.142.4, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 魔戒.net-9, server: 169.197.142.4, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_3203, server: 169.197.142.4, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1716, server: 142.202.48.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ZZ_3586, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1373, server: 142.202.48.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_3870, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ZZ_3499, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_3798, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_2202, server: 142.202.48.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 魔戒.net 🇺🇸 101美国∞直连, server: azhk.relay.qchwnd.moe, port: 443, type: trojan, password: 52face98-c4cb-4299-aa38-9546085b0619, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇭🇰 114香港∞直连, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇨🇳 001中国∞直连, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: 魔戒.net 🇨🇳 005中国∞直连, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇨🇳 006中国∞直连, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: cscu.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇨🇳 017中国∞直连, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
-  - {name: 魔戒.net 🇨🇳 002中国∞直连, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
-  - {name: 魔戒.net 🇭🇰 113香港∞直连, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, sni: hk31.ssgnode.ga, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇹🇼 051台湾∞中转, server: cscu.wecanfly.top, port: 51132, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇨🇳 014中国∞直连, server: hk-hkg-shhk-001-tr.cdn.savoy.click, port: 20089, type: trojan, password: SfobRIcergHchqBFzzua, sni: hk-hkg-shhk-001-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇹🇼 056台湾∞直连, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇨🇳 009中国∞直连, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: cscu.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇨🇳 004中国∞直连, server: bp.pupuup.tools, port: 80, type: vmess, uuid: c55e1543-0608-3b57-8239-da48a17a6a17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: "%7B%22Host%22:%22tms.dingtalk.com%22%7D"}}, udp: true}
-  - {name: 魔戒.net 🇨🇳 013中国∞直连, server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: SfobRIcergHchqBFzzua, sni: hk-hkg-sh-hk-02-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇨🇳 008中国∞直连, server: cscu.wecanfly.top, port: 51210, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: cscu.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇯🇵 070日本∞直连, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22172.105.222.98%22%7D"}}, udp: true}
-  - {name: 魔戒.net 🇯🇵 068日本∞中转, server: share.softbank.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: share.softbank.mjj-home.com, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇷🇺 021俄罗斯∞中转, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net V2-#338_粤-港HGC_x2_0_V2ray_25, server: gdyd01.ddns-oink.xyz, port: 40338, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: "%7B%22Host%22:%22gdyd01.ddns-oink.xyz%22%7D"}}, udp: true}
-  - {name: 魔戒.net V4-#41_沪-日_NF_x1_0_V2ray_84, server: yygd-rb-02.ddns-oink.xyz, port: 40041, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: "%7B%22Host%22:%22yygd-rb-02.ddns-oink.xyz%22%7D"}}, udp: true}
-  - {name: 魔戒.net V2-#109_沪-日_NF_x1_5_V2ray_5, server: yygd-rb-02.ddns-oink.xyz, port: 40109, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: "%7B%22Host%22:%22yygd-rb-02.ddns-oink.xyz%22%7D"}}, udp: true}
-  - {name: V2-#194_粤-台_NF_x2_0_V2ray_8, server: gdyd01.ddns-oink.xyz, port: 40194, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: "%7B%22Host%22:%22gdyd01.ddns-oink.xyz%22%7D"}}, udp: true}
-  - {name: V2-#107_沪-日_NF_x2_0_V2ray_4, server: yygd-rb-02.ddns-oink.xyz, port: 40107, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: "%7B%22Host%22:%22yygd-rb-02.ddns-oink.xyz%22%7D"}}, udp: true}
-  - {name: V3-#319_粤-台_NF_x2_0_V2ray_45, server: juzixjp-001.ddns-oink.xyz, port: 40319, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: "%7B%22Host%22:%22juzixjp-001.ddns-oink.xyz%22%7D"}}, udp: true}
-  - {name: V2-#261_粤-港HKT_x1_2_V2ray_16, server: jzdjd-01.ddns-oink.xyz, port: 40261, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: "%7B%22Host%22:%22jzdjd-01.ddns-oink.xyz%22%7D"}}, udp: true}
-  - {name: V4-#323_粤-台_NF_x2_0_V2ray_75, server: juzixjp-001.ddns-oink.xyz, port: 40323, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: "%7B%22Host%22:%22juzixjp-001.ddns-oink.xyz%22%7D"}}, udp: true}
-  - {name: 魔戒.net 🇰🇷 _韩国_宝马ＧＴ_1, server: seoalhigh.515223.xyz, port: 41371, type: vmess, uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇭🇰 _香港_宝马ＧＴ_32, server: azhk.relay.qchwnd.moe, port: 44603, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: jp1.alink.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net_香港_奔驰ＡＭＧ_19, server: gz.yd01.paopaocloud.cyou, port: 10001, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22paopao.v2.hk03.paopaocloud.cyou%22%7D"}}, udp: true}
+  - {name: 魔戒.net_中国_奔驰ＡＭＧ_18, server: az.hk01.paopaocloud.cyou, port: 10010, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22paopao.v2.az01.paopaocloud.cyou%22%7D"}}, udp: true}
+  - {name: 魔戒.net_中国_奔驰ＡＭＧ_40, server: az.hk01.paopaocloud.cyou, port: 10011, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22paopao.v2.hk07.paopaocloud.cyou%22%7D"}}, udp: true}
+  - {name: 魔戒.net_香港_奔驰ＡＭＧ_6, server: gz.yd01.paopaocloud.cyou, port: 10002, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22paopao.v2.hk04.paopaocloud.cyou%22%7D"}}, udp: true}
+  - {name: _香港_奔驰ＡＭＧ_34, server: gz.yd01.paopaocloud.cyou, port: 10010, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22paopao.v2.az01.paopaocloud.cyou%22%7D"}}, udp: true}
+  - {name: _香港_奔驰ＡＭＧ_2, server: gz.yd01.paopaocloud.cyou, port: 10009, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22paopao.v2.hk06.paopaocloud.cyou%22%7D"}}, udp: true}
+  - {name: _香港_奔驰ＡＭＧ_9, server: gz.yd01.paopaocloud.cyou, port: 10015, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22paopao.v2.jp02.paopaocloud.cyou%22%7D"}}, udp: true}
+  - {name: _香港_奔驰ＡＭＧ_11, server: 12.v2-ray.cyou, port: 15012, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%2212.v2-ray.cyou%22%7D"}}, udp: true}
+  - {name: _香港_奔驰ＡＭＧ_10, server: gz.yd01.paopaocloud.cyou, port: 10014, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22paopao.v2.sgp01.paopaocloud.cyou%22%7D"}}, udp: true}
+  - {name: _香港_奔驰ＡＭＧ_7, server: gz.yd01.paopaocloud.cyou, port: 10006, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22paopao.v2.tw01.paopaocloud.cyou%22%7D"}}, udp: true}
+  - {name: 魔戒.net GLaDOS-N2-01, server: 104.208.112.171, port: 3389, type: trojan, password: a3c6461972471c75, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net GLaDOS-N2-00, server: 104.208.112.171, port: 3389, type: trojan, password: a3c6461972471c75, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇭🇰 HK-GLaDOS-GEO-00, server: 183.232.163.147, port: 3384, type: trojan, password: a3c6461972471c75, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇭🇰 HK-GLaDOS-GEO-01, server: 183.232.163.147, port: 3384, type: trojan, password: a3c6461972471c75, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇭🇰 HK-GLaDOS-GEO-02, server: 183.232.163.147, port: 3384, type: trojan, password: a3c6461972471c75, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: TW-GLaDOS-GEO-02, server: 183.232.163.147, port: 3383, type: trojan, password: a3c6461972471c75, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: TW-GLaDOS-GEO-01, server: 183.232.163.147, port: 3383, type: trojan, password: a3c6461972471c75, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: TW-GLaDOS-GEO-00, server: 183.232.163.147, port: 3383, type: trojan, password: a3c6461972471c75, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: SG-GLaDOS-GEO-00, server: 183.232.163.147, port: 3385, type: trojan, password: a3c6461972471c75, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP-GLaDOS-GEO-02, server: 183.232.163.147, port: 3382, type: trojan, password: a3c6461972471c75, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: SG-GLaDOS-GEO-01, server: 183.232.163.147, port: 3385, type: trojan, password: a3c6461972471c75, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net-111, server: 141.164.51.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 魔戒.net-222, server: 169.197.143.121, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 魔戒.net-333, server: 38.91.107.66, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 魔戒.net-444, server: 38.91.107.14, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 魔戒.net-555, server: 38.91.107.14, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 魔戒.net-666, server: 38.91.107.14, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "魔戒.net[vip③]台湾BGP|1Gbps", server: 33.uuuyun.click, port: 60033, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net VIP2-香港3 ||500M, server: 45.uuuyun.click, port: 60045, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%2245.uuuyun.click%22%7D"}}, udp: true}
+  - {name: 魔戒.net VIP2-香港4 ||500M, server: 46.uuuyun.click, port: 60046, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%2246.uuuyun.click%22%7D"}}, udp: true}
+  - {name: "魔戒.net[vip③]新加坡3|IPLC游戏|微软BGP|1Gbps", server: 19.uuuyun.click, port: 50019, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "魔戒.net[vip③]日本|AZ中转|广移|1Gbps", server: 23.uuuyun.click, port: 60023, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net香港-移动中转, server: yidong.latiao.cyou, port: 26806, type: ss, cipher: chacha20-ietf-poly1305, password: 6670a234-0d0a-42c8-b3b5-087568abc653, udp: true}
+  - {name: 魔戒.net新加坡-联通中转, server: liantong.latiao.cyou, port: 26802, type: ss, cipher: chacha20-ietf-poly1305, password: 6670a234-0d0a-42c8-b3b5-087568abc653, udp: true}
+  - {name: 魔戒.net 🇮🇳 印度|BGP中转, server: azhk.relay.qchwnd.moe, port: 44604, type: trojan, password: 6c0bd309-56fa-4ba8-9ac2-74d74eb6f0e1, sni: in1.alink.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net T.00.新加坡.负载均衡.中继3, server: cscu.wecanfly.top, port: 51131, type: trojan, password: 6d3619da-30c0-36f9-90ff-597050d0de82, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net T.20.新加坡.中继2, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 6d3619da-30c0-36f9-90ff-597050d0de82, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net香港_R_446, server: ieplszhk-sz.qqgg.work, port: 50804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 魔戒.net香港_R_450, server: iepl-hn01.qqgg.work, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 香港_R_316, server: iepl-gz.yyuuii.cyou, port: 10804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 香港_R_160, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
   - {name: 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
-  - {name: 魔戒.net 8A4【精品】广州-香港WTT | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
-  - {name: 魔戒.net 8A5【精品】上海-香港PCCW | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
-  - {name: 魔戒.net 8A3【精品】上海-香港WTT | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
-  - {name: 魔戒.net 8B2【精品】广州-台湾 | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50221, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
-  - {name: 魔戒.net ^🇨🇳台湾TW 1867 *hi-moon.pw, server: 104.208.112.171, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net ^🇸🇬新加坡SG 1841 *hi-moon.pw, server: hkaz6.xmrth-node.xyz, port: 10153, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22hkaz6.xmrth-node.xyz%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇸🇬新加坡SG 1843 *hi-moon.pw, server: 8.v2-ray.cyou, port: 15008, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%228.v2-ray.cyou%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇯🇵日本JP 1832 *hi-moon.pw, server: 72.v2-ray.cyou, port: 15072, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%2272.v2-ray.cyou%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇯🇵日本JP 1839 *hi-moon.pw, server: 84.v2-ray.cyou, port: 15084, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%2284.v2-ray.cyou%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇯🇵日本JP 1850 *hi-moon.pw, server: 5.v2-ray.cyou, port: 32405, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%225.v2-ray.cyou%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇸🇬新加坡SG 1188 *hi-moon.pw, server: iplc01.dns2333.xyz, port: 3054, type: vmess, uuid: f9903605-bcde-3fdf-9fca-94d1fdc9cadb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net ^🇯🇵日本JP 1856 *hi-moon.pw, server: 85.v2-ray.cyou, port: 15085, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%2285.v2-ray.cyou%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇯🇵日本JP 1855 *hi-moon.pw, server: 36.v2-ray.cyou, port: 8080, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%2236.v2-ray.cyou%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇯🇵日本JP 1848 *hi-moon.pw, server: 71.v2-ray.cyou, port: 15071, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%2271.v2-ray.cyou%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇨🇳台湾TW 1174 *hi-moon.pw, server: tw02.bzy32.vip, port: 37002, type: vmess, uuid: a306ab5f-79af-3407-ba62-0bdf8c98b61a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /redcat, headers: {Host: "%7B%22Host%22:%22tw02.bzy32.vip%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇸🇬新加坡SG 1838 *hi-moon.pw, server: 6.v2-ray.cyou, port: 15006, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%226.v2-ray.cyou%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇯🇵日本JP 1840 *hi-moon.pw, server: 38.v2-ray.cyou, port: 15038, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%2238.v2-ray.cyou%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇲🇾MY 1170 *hi-moon.pw, server: iplc01.dns2333.xyz, port: 3064, type: vmess, uuid: f9903605-bcde-3fdf-9fca-94d1fdc9cadb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net ^🇲🇾MY 1187 *hi-moon.pw, server: iplc01.dns2333.xyz, port: 3194, type: vmess, uuid: f9903605-bcde-3fdf-9fca-94d1fdc9cadb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net ^🇰🇷韩国KR 1853 *hi-moon.pw, server: 12.v2-ray.cyou, port: 15012, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%2212.v2-ray.cyou%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇯🇵日本JP 1185 *hi-moon.pw, server: sd-bgp.bzy31.vip, port: 39743, type: vmess, uuid: a306ab5f-79af-3407-ba62-0bdf8c98b61a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /redcat, headers: {Host: "%7B%22Host%22:%22sd-bgp.bzy31.vip%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇯🇵日本JP 1180 *hi-moon.pw, server: sd-bgp.bzy31.vip, port: 39757, type: vmess, uuid: a306ab5f-79af-3407-ba62-0bdf8c98b61a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /redcat, headers: {Host: "%7B%22Host%22:%22sd-bgp.bzy31.vip%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇯🇵日本JP 1211 *hi-moon.pw, server: sd-bgp.bzy31.vip, port: 39745, type: vmess, uuid: a306ab5f-79af-3407-ba62-0bdf8c98b61a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /redcat, headers: {Host: "%7B%22Host%22:%22sd-bgp.bzy31.vip%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇯🇵日本JP 1175 *hi-moon.pw, server: jp41.hmxin11.vip, port: 39941, type: vmess, uuid: a306ab5f-79af-3407-ba62-0bdf8c98b61a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /redcat, headers: {Host: "%7B%22Host%22:%22jp41.hmxin11.vip%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇰🇷韩国KR 1842 *hi-moon.pw, server: hkaz6.xmrth-node.xyz, port: 10154, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22hkaz6.xmrth-node.xyz%22%7D"}}, udp: true}
-  - {name: 魔戒.net韩国KR 2217 *hi-moon.pw, server: 158.247.224.121, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 魔戒.net ^🇨🇳台湾TW 1173 *hi-moon.pw, server: xin3-17.hmxin12.vip, port: 30456, type: vmess, uuid: a306ab5f-79af-3407-ba62-0bdf8c98b61a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /redcat, headers: {Host: "%7B%22Host%22:%22xin3-17.hmxin12.vip%22%7D"}}, udp: true}
-  - {name: 魔戒.net韩国KR 2148 *hi-moon.pw, server: 158.247.224.121, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 魔戒.net ^🇭🇰香港HK 1182 *hi-moon.pw, server: tw69.bzy31.vip, port: 36669, type: vmess, uuid: a306ab5f-79af-3407-ba62-0bdf8c98b61a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /redcat, headers: {Host: "%7B%22Host%22:%22tw69.bzy31.vip%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇰🇷韩国KR 2231 *hi-moon.pw, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net ^🇰🇷韩国KR 1205 *hi-moon.pw, server: sd.bzy31.vip, port: 23436, type: vmess, uuid: a306ab5f-79af-3407-ba62-0bdf8c98b61a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /redcat, headers: {Host: "%7B%22Host%22:%22sd.bzy31.vip%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇯🇵日本JP 1192 *hi-moon.pw, server: cn2.soow.win, port: 50027, type: vmess, uuid: c1d0ae9e-f08a-3f81-962d-ca19b52c760d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: "%7B%22Host%22:%22cn2.soow.win%22%7D"}}, udp: true}
-  - {name: 魔戒.net ^🇯🇵日本JP 1159 *hi-moon.pw, server: sd-bgp.bzy31.vip, port: 39801, type: vmess, uuid: a306ab5f-79af-3407-ba62-0bdf8c98b61a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /redcat, headers: {Host: "%7B%22Host%22:%22sd-bgp.bzy31.vip%22%7D"}}, udp: true}
-  - {name: ^🇰🇷韩国KR 1183 *hi-moon.pw, server: kr-01.hmxin12.vip, port: 33311, type: vmess, uuid: a306ab5f-79af-3407-ba62-0bdf8c98b61a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /redcat, headers: {Host: "%7B%22Host%22:%22kr-01.hmxin12.vip%22%7D"}}, udp: true}
-  - {name: ^🇭🇰香港HK 1157 *hi-moon.pw, server: iplc01.dns2333.xyz, port: 3144, type: vmess, uuid: f9903605-bcde-3fdf-9fca-94d1fdc9cadb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ^🇭🇰香港HK 1160 *hi-moon.pw, server: xin3-04.hmxin12.vip, port: 37523, type: vmess, uuid: a306ab5f-79af-3407-ba62-0bdf8c98b61a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /redcat, headers: {Host: "%7B%22Host%22:%22xin3-04.hmxin12.vip%22%7D"}}, udp: true}
-  - {name: 韩国KR 2227 *hi-moon.pw, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ^🇭🇰香港HK 1158 *hi-moon.pw, server: iplc01.dns2333.xyz, port: 3084, type: vmess, uuid: f9903605-bcde-3fdf-9fca-94d1fdc9cadb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ^🇨🇳台湾TW 1249 *hi-moon.pw, server: tw01.bzy31.vip, port: 37001, type: vmess, uuid: a306ab5f-79af-3407-ba62-0bdf8c98b61a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /redcat, headers: {Host: "%7B%22Host%22:%22tw01.bzy31.vip%22%7D"}}, udp: true}
+  - {name: 8A3【精品】上海-香港WTT | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 8A4【精品】广州-香港WTT | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 魔戒.net ^🇭🇰香港HK 1821 *hi-moon.pw, server: hkaz3.xmrth-node.xyz, port: 10009, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22hkaz3.xmrth-node.xyz%22%7D"}}, udp: true}
+  - {name: 魔戒.net ^🇭🇰香港HK 1801 *hi-moon.pw, server: hkaz3.xmrth-node.xyz, port: 10009, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22hkaz3.xmrth-node.xyz%22%7D"}}, udp: true}
+  - {name: 魔戒.net ^🇮🇩ID 1820 *hi-moon.pw, server: 14.v2-ray.cyou, port: 15014, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%2214.v2-ray.cyou%22%7D"}}, udp: true}
+  - {name: 魔戒.net ^🇰🇷韩国KR 1131 *hi-moon.pw, server: 180.163.62.91, port: 22007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 魔戒.net ^🇸🇬新加坡SG 1823 *hi-moon.pw, server: hkaz3.xmrth-node.xyz, port: 10028, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22hkaz3.xmrth-node.xyz%22%7D"}}, udp: true}
+  - {name: 魔戒.net ^🇨🇳台湾TW 1802 *hi-moon.pw, server: hkaz1.xmrth-node.xyz, port: 10026, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22hkaz1.xmrth-node.xyz%22%7D"}}, udp: true}
+  - {name: 魔戒.net新加坡SG 2452 *hi-moon.pw, server: 43.156.1.173, port: 55555, type: vmess, uuid: b5f0717d-a91e-477c-9cd6-0aed742888f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net ^🇮🇳IN 1800 *hi-moon.pw, server: hkaz3.xmrth-node.xyz, port: 10035, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22hkaz3.xmrth-node.xyz%22%7D"}}, udp: true}
+  - {name: 魔戒.net ^🇯🇵日本JP 2111 *hi-moon.pw, server: jpaz2.xmrth-node.xyz, port: 10046, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22jpaz2.xmrth-node.xyz%22%7D"}}, udp: true}
+  - {name: 魔戒.net ^🇭🇰香港HK 1172 *hi-moon.pw, server: cn2.soow.win, port: 50085, type: vmess, uuid: c1d0ae9e-f08a-3f81-962d-ca19b52c760d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22cn2.soow.win%22%7D"}}, udp: true}
+  - {name: 魔戒.net ^🇯🇵日本JP 2112 *hi-moon.pw, server: jpaz3.xmrth-node.xyz, port: 10051, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22jpaz3.xmrth-node.xyz%22%7D"}}, udp: true}
+  - {name: 魔戒.net新加坡SG 2427 *hi-moon.pw, server: 8.214.96.202, port: 29748, type: vmess, uuid: 6b741551-2824-40ed-b979-336a02f896ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net ^🇨🇳台湾TW 1804 *hi-moon.pw, server: hkaz1.xmrth-node.xyz, port: 10062, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22hkaz1.xmrth-node.xyz%22%7D"}}, udp: true}
+  - {name: 魔戒.net ^🇯🇵日本JP 2110 *hi-moon.pw, server: jpaz1.xmrth-node.xyz, port: 10045, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22jpaz1.xmrth-node.xyz%22%7D"}}, udp: true}
+  - {name: 魔戒.net ^🇨🇳CN 1169 *hi-moon.pw, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: "%7B%22Host%22:%22sxqxj.cn%22%7D"}}, udp: true}
+  - {name: 魔戒.net ^🇨🇳台湾TW 1795 *hi-moon.pw, server: hkaz3.xmrth-node.xyz, port: 10019, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22hkaz3.xmrth-node.xyz%22%7D"}}, udp: true}
+  - {name: 魔戒.net ^🇨🇳台湾TW 1197 *hi-moon.pw, server: 120.232.192.119, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net美国US 4128 *hi-moon.pw, server: 74.120.168.133, port: 45927, type: vmess, uuid: 998a3557-a3f9-4015-f5d6-a57309fa9d1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net美国US 4155 *hi-moon.pw, server: 45.11.3.192, port: 42727, type: vmess, uuid: ca32703b-feb5-4c8d-8236-d18987ffa27a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net美国US 4151 *hi-moon.pw, server: 45.11.3.192, port: 14418, type: vmess, uuid: 082b5434-76c8-4b6d-e87b-136958ae6720, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ^🇺🇸美国US 2117 *hi-moon.pw, server: jpaz1.xmrth-node.xyz, port: 10058, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22jpaz1.xmrth-node.xyz%22%7D"}}, udp: true}
+  - {name: 魔戒.net 🇭🇰香港鱼蛋河 04, server: entry04.ae395e33-47c4-4f09-8b3f-135c365d6777.03f2084e-a557-11ec-b909-0242ac120002.fucknetflix.xyz, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: 5efeb899-e8bd-446f-b0be-863d30331174, udp: true}
+  - {name: 魔戒.net 🇭🇰香港奶油猪 01, server: entry01.ae395e33-47c4-4f09-8b3f-135c365d6777.03f2084e-a557-11ec-b909-0242ac120002.fucknetflix.xyz, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 5efeb899-e8bd-446f-b0be-863d30331174, udp: true}
   - {name: "魔戒.net PD - 香港(中國) - 20 [SVIP] [WhatsApp] [LineAPP] [Netflix]", server: 122.9.54.157, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: c658dcc4bb0dbf92c0e30ef185d0f727c22bf1095155853d217d8dbea5b4ff13, udp: true}
-  - {name: "魔戒.net PX - 香港（中国）- 14 [PremiumA] [APNIC] [IPLC] [Netflix]", server: 122.9.54.108, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: bbea04c91913a27ab1c04f3aedc2a74e1e47c876898738d7f79938fd20c13b5e, udp: true}
-  - {name: "魔戒.net PD - 香港(中國) - 24 [SVIP] [WhatsApp] [LineAPP] [Netflix]", server: 122.9.62.20, port: 1004, type: ss, cipher: chacha20-ietf-poly1305, password: 88dc31bb417da365cb813449c8565ad02c3eec1c094b7fc0f80a632ae1ae6b45, udp: true}
-  - {name: "魔戒.net PD - 香港(中國) - 25 [SVIP] [WhatsApp] [LineAPP] [Netflix]", server: 122.9.62.33, port: 1004, type: ss, cipher: chacha20-ietf-poly1305, password: e444c9362427a823e017d7b5ba4c2bdaf3de4a69e515ac3102aa445437b97926, udp: true}
-  - {name: "魔戒.net PD - 香港(中國) - 32 [BGPA] [APNIC] [SVIP] [Netflix]", server: 122.9.62.9, port: 9538, type: ss, cipher: chacha20-ietf-poly1305, password: bbea04c91913a27ab1c04f3aedc2a74e1e47c876898738d7f79938fd20c13b5e, udp: true}
-  - {name: 魔戒.net香港1027b, server: 122.9.62.52, port: 1027, type: ss, cipher: chacha20-ietf-poly1305, password: 4ff06d2cba70849a0b891027d008f5668da1050f1f491cc774794c16eb4bbd79, udp: true}
-  - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]", server: 122.9.54.209, port: 5542, type: ss, cipher: chacha20-ietf-poly1305, password: c4e3e2445d3e03e651e620d3357b7c118417cda4605d4714993075cde9e2ba34, udp: true}
-  - {name: "魔戒.net-香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e, udp: true}
   - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -42 [IPLC]", server: 122.9.62.57, port: 1001, type: ss, cipher: chacha20-ietf-poly1305, password: d448c5c3968140fcd5470e035d443c502faa163363b313e01bcbb2c024d2a510, udp: true}
-  - {name: 魔戒.net香港1029a, server: 122.9.54.153, port: 1029, type: ss, cipher: chacha20-ietf-poly1305, password: 8d0bcb875191315e459288411c18c38963d0627e1990a8fa9cc84dd43e6e8050, udp: true}
+  - {name: 魔戒.net香港1002b, server: 122.9.62.9, port: 1002, type: ss, cipher: chacha20-ietf-poly1305, password: a420056c3d197e3c4f6c7f20626f0c9543ebc86172974ef9bdd112043ee8ca02, udp: true}
+  - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]", server: 122.9.62.44, port: 2945, type: ss, cipher: chacha20-ietf-poly1305, password: 2d5559dc1d6c1d3581f4ee327ac93b58359c963da44aa92faef307ee07a11261, udp: true}
+  - {name: 魔戒.net香港1027c, server: 122.9.54.162, port: 1027, type: ss, cipher: chacha20-ietf-poly1305, password: 23d4a66a9e97b16f55ecab270da6820093515b366eb1026cea909ffeb244682c, udp: true}
+  - {name: "魔戒.net PD - 香港(中國) - 24 [SVIP] [WhatsApp] [LineAPP] [Netflix]", server: 122.9.62.20, port: 1004, type: ss, cipher: chacha20-ietf-poly1305, password: 88dc31bb417da365cb813449c8565ad02c3eec1c094b7fc0f80a632ae1ae6b45, udp: true}
   - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]", server: 122.9.62.9, port: 7931, type: ss, cipher: chacha20-ietf-poly1305, password: bbea04c91913a27ab1c04f3aedc2a74e1e47c876898738d7f79938fd20c13b5e, udp: true}
   - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -30 [HKBN] [IPLC]", server: 122.9.62.6, port: 5557, type: ss, cipher: chacha20-ietf-poly1305, password: 5912725b993997cf9a926efaa3827f2363a0edc73744ad39976bcb78bfd2995c, udp: true}
-  - {name: 魔戒.net香港1027c, server: 122.9.54.162, port: 1027, type: ss, cipher: chacha20-ietf-poly1305, password: 23d4a66a9e97b16f55ecab270da6820093515b366eb1026cea909ffeb244682c, udp: true}
   - {name: 魔戒.net香港4132a, server: 122.9.54.75, port: 4132, type: ss, cipher: chacha20-ietf-poly1305, password: a3c206f508a4e15b0c837117af7c73b37f20ad62537f02c18085d05eec48f312, udp: true}
   - {name: "香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e, udp: true}
+  - {name: "魔戒.net PX - 香港（中国）- 14 [PremiumA] [APNIC] [IPLC] [Netflix]", server: 122.9.54.108, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: bbea04c91913a27ab1c04f3aedc2a74e1e47c876898738d7f79938fd20c13b5e, udp: true}
+  - {name: "魔戒.net PD - 香港(中國) - 32 [BGPA] [APNIC] [SVIP] [Netflix]", server: 122.9.62.9, port: 9538, type: ss, cipher: chacha20-ietf-poly1305, password: bbea04c91913a27ab1c04f3aedc2a74e1e47c876898738d7f79938fd20c13b5e, udp: true}
+  - {name: "魔戒.net PD - 香港(中國) - 25 [SVIP] [WhatsApp] [LineAPP] [Netflix]", server: 122.9.62.33, port: 1004, type: ss, cipher: chacha20-ietf-poly1305, password: e444c9362427a823e017d7b5ba4c2bdaf3de4a69e515ac3102aa445437b97926, udp: true}
+  - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]", server: 122.9.54.209, port: 5542, type: ss, cipher: chacha20-ietf-poly1305, password: c4e3e2445d3e03e651e620d3357b7c118417cda4605d4714993075cde9e2ba34, udp: true}
+  - {name: "魔戒.net-香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e, udp: true}
+  - {name: 魔戒.net香港1027b, server: 122.9.62.52, port: 1027, type: ss, cipher: chacha20-ietf-poly1305, password: 4ff06d2cba70849a0b891027d008f5668da1050f1f491cc774794c16eb4bbd79, udp: true}
+  - {name: 魔戒.net香港1029a, server: 122.9.54.153, port: 1029, type: ss, cipher: chacha20-ietf-poly1305, password: 8d0bcb875191315e459288411c18c38963d0627e1990a8fa9cc84dd43e6e8050, udp: true}
+  - {name: 魔戒.net 🇺🇸 101美国∞直连, server: azhk.relay.qchwnd.moe, port: 443, type: trojan, password: 52face98-c4cb-4299-aa38-9546085b0619, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: jc.ap.fastqvpn.com:29980, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net香港1002b, server: 122.9.62.9, port: 1002, type: ss, cipher: chacha20-ietf-poly1305, password: a420056c3d197e3c4f6c7f20626f0c9543ebc86172974ef9bdd112043ee8ca02, udp: true}
+  - {name: 魔戒.net 🇭🇰 114香港∞直连, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇨🇳 013中国∞直连, server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: SfobRIcergHchqBFzzua, sni: hk-hkg-sh-hk-02-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇨🇳 014中国∞直连, server: hk-hkg-shhk-001-tr.cdn.savoy.click, port: 20089, type: trojan, password: SfobRIcergHchqBFzzua, sni: hk-hkg-shhk-001-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
   - {name: 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: jc.ap.fastqvpn.com:29980 2, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 3, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 4, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
   - {name: 魔戒.net HK A 006, server: hkaz6.xmrth-node.xyz, port: 10152, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: 魔戒.net 🇨🇳 CN_690 | 6.69Mb, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 魔戒.net 🇨🇳 001中国∞直连, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
   - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继2, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇨🇳 006中国∞直连, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: cscu.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net ^🇸🇬新加坡SG 1843 *hi-moon.pw, server: 8.v2-ray.cyou, port: 15008, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%228.v2-ray.cyou%22%7D"}}, udp: true}
   - {name: 魔戒.net-10, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇨🇳 CN_683, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
-  - {name: jc.ap.fastqvpn.com:29980 2, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继2 2, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇨🇳 CN_688, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
-  - {name: 魔戒.net_557 | 7.24Mb, server: gyb.ftnodes1.xyz, port: 80, type: vmess, uuid: e4fb1a56-8b94-4ab7-832e-fa077a024145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gyb.ftnodes1.xyz}}, udp: true}
-  - {name: 魔戒.net-6 2, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: "*🇨🇳台湾TW 1059【hi-moon.pw】", server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net 🇨🇳 017中国∞直连, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
   - {name: 魔戒.net 🇨🇳 CN_06, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继2 2, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇨🇳 005中国∞直连, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇨🇳 CN_683, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: 魔戒.net 🇨🇳 002中国∞直连, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: 魔戒.net ^🇯🇵日本JP 1839 *hi-moon.pw, server: 84.v2-ray.cyou, port: 15084, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%2284.v2-ray.cyou%22%7D"}}, udp: true}
+  - {name: 魔戒.net 🇨🇳 CN_688, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: 魔戒.net ^🇸🇬新加坡SG 1841 *hi-moon.pw, server: hkaz6.xmrth-node.xyz, port: 10153, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22hkaz6.xmrth-node.xyz%22%7D"}}, udp: true}
+  - {name: 魔戒.net ^🇯🇵日本JP 1855 *hi-moon.pw, server: 36.v2-ray.cyou, port: 8080, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%2236.v2-ray.cyou%22%7D"}}, udp: true}
+  - {name: 魔戒.net ^🇯🇵日本JP 1840 *hi-moon.pw, server: 38.v2-ray.cyou, port: 15038, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%2238.v2-ray.cyou%22%7D"}}, udp: true}
+  - {name: 魔戒.net 🇭🇰 113香港∞直连, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, sni: hk31.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇹🇼 051台湾∞中转, server: cscu.wecanfly.top, port: 51132, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net ^🇯🇵日本JP 1856 *hi-moon.pw, server: 85.v2-ray.cyou, port: 15085, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%2285.v2-ray.cyou%22%7D"}}, udp: true}
+  - {name: 魔戒.net ^🇯🇵日本JP 1848 *hi-moon.pw, server: 71.v2-ray.cyou, port: 15071, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%2271.v2-ray.cyou%22%7D"}}, udp: true}
+  - {name: 魔戒.net ^🇯🇵日本JP 1832 *hi-moon.pw, server: 72.v2-ray.cyou, port: 15072, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%2272.v2-ray.cyou%22%7D"}}, udp: true}
+  - {name: 魔戒.net-26, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net_557 | 7.24Mb, server: gyb.ftnodes1.xyz, port: 80, type: vmess, uuid: e4fb1a56-8b94-4ab7-832e-fa077a024145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gyb.ftnodes1.xyz}}, udp: true}
+  - {name: 魔戒.net 🇹🇼 10台湾∞中转, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net 🇨🇳 009中国∞直连, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: cscu.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net-6, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net ^🇯🇵日本JP 1850 *hi-moon.pw, server: 5.v2-ray.cyou, port: 32405, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%225.v2-ray.cyou%22%7D"}}, udp: true}
   - {name: 魔戒.net 🇨🇳 CN_05, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 魔戒.net-13, server: cscu.wecanfly.top, port: 51131, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net*🇮🇳IN 1103【hi-moon.pw】, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net-12, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net *🇨🇳台湾TW 1068【hi-moon.pw】, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net-18, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
   - {name: 魔戒.net_560 |12.93Mb, server: bj.ftnodes1.xyz, port: 80, type: vmess, uuid: e4fb1a56-8b94-4ab7-832e-fa077a024145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bj.ftnodes1.xyz}}, udp: true}
+  - {name: "*🇨🇳台湾TW 1059【hi-moon.pw】", server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net-12, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net-18, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
   - {name: 魔戒.net-060, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-26, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net-29, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net-14, server: cscu.wecanfly.top, port: 51210, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-26 2, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继3, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继3 2, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-19, server: cscu.wecanfly.top, port: 51210, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-15, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 8A6【精品】广州-香港PCCW | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
-  - {name: 魔戒.net 🇹🇼 10台湾∞中转, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net 8A3【精品】上海-香港WTT | V2RAY隧道 | 2, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
-  - {name: "魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]", server: 122.9.62.44, port: 2945, type: ss, cipher: chacha20-ietf-poly1305, password: 2d5559dc1d6c1d3581f4ee327ac93b58359c963da44aa92faef307ee07a11261, udp: true}
-  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继1, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net *🇩🇪德国DE 1066【hi-moon.pw】, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继1 2, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇸🇬 T.20.新.中继3, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇩🇪 13德国∞中转, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net 🇸🇬 T.20.新.中继3 2, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇸🇬 T.20.新.中继3 3, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继1 3, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 8B1【精品】上海-台湾 | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50221, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
-  - {name: 魔戒.net 日本JP 1996【hi-moon.pw】, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇯🇵 JP_759 | 3.82Mb, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-058, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 8B2【精品】广州-台湾 | V2RAY隧道 | 2, server: in-v1.sdgdn.com, port: 50221, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 韩国KR 2227 *hi-moon.pw, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 魔戒.net 86, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net 8C1【精品】上海-日本 | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
-  - {name: 魔戒.net-052, server: tky3.ssgnode.ga, port: 443, type: trojan, password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net*🇯🇵日本JP 2043【hi-moon.pw】, server: lijp.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net日本JP 174【hi-moon.pw】, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net-25, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net-8 2, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 魔戒.net-444, server: 120.232.192.119, port: 3389, type: trojan, password: ca911d30af65ef1b, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🏁ZZ_4022, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 魔戒.net*🇮🇳IN 1103【hi-moon.pw】, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net-19, server: cscu.wecanfly.top, port: 51210, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net-14, server: cscu.wecanfly.top, port: 51210, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net-29, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net 🇨🇳 008中国∞直连, server: cscu.wecanfly.top, port: 51210, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: cscu.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继3, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net-15, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇰🇷 _韩国_宝马ＧＴ_1, server: seoalhigh.515223.xyz, port: 41371, type: vmess, uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 8A5【精品】上海-香港PCCW | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
   - {name: 魔戒.net*🇭🇰香港HK 1105【hi-moon.pw】, server: 117.185.229.112, port: 45089, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 魔戒.net 8A4【精品】广州-香港WTT | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 魔戒.net ^🇸🇬新加坡SG 1838 *hi-moon.pw, server: 6.v2-ray.cyou, port: 15006, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%226.v2-ray.cyou%22%7D"}}, udp: true}
+  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继1, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继1 2, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net-2, server: 180.163.62.91, port: 22007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 魔戒.net-8, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net 🇩🇪 13德国∞中转, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net *🇩🇪德国DE 1066【hi-moon.pw】, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net 🇸🇬 T.20.新.中继3, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继3 2, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net *🇨🇳台湾TW 1068【hi-moon.pw】, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net ^🇯🇵日本JP 1192 *hi-moon.pw, server: cn2.soow.win, port: 50027, type: vmess, uuid: c1d0ae9e-f08a-3f81-962d-ca19b52c760d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: "%7B%22Host%22:%22cn2.soow.win%22%7D"}}, udp: true}
+  - {name: 魔戒.net 🇭🇰 T.00.港.HKG.中继1 3, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: sni.gouziyun.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇸🇬 T.20.新.中继3 2, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net-9, server: 169.197.142.4, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 魔戒.net-058, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇸🇬 T.20.新.中继3 3, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇯🇵 JP_759 | 3.82Mb, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇷🇺 021俄罗斯∞中转, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇹🇼 056台湾∞直连, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 日本JP 1996【hi-moon.pw】, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net日本JP 174【hi-moon.pw】, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: US_1716, server: 142.202.48.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 魔戒.net-3, server: 180.163.62.91, port: 22001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_1373, server: 142.202.48.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 魔戒.net-052, server: tky3.ssgnode.ga, port: 443, type: trojan, password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 8B1【精品】上海-台湾 | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50221, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 魔戒.net-25, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net 🇯🇵 068日本∞中转, server: share.softbank.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: share.softbank.mjj-home.com, skip-cert-verify: true, udp: true}
+  - {name: ZZ_3499, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 魔戒.net 8B2【精品】广州-台湾 | V2RAY隧道 |, server: in-v1.sdgdn.com, port: 50221, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 魔戒.net-26 2, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 魔戒.net-1, server: 180.163.62.91, port: 22003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: ZZ_3798, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: ZZ_3586, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 魔戒.net ^🇰🇷韩国KR 1853 *hi-moon.pw, server: 12.v2-ray.cyou, port: 15012, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%2212.v2-ray.cyou%22%7D"}}, udp: true}
+  - {name: US_2202, server: 142.202.48.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 魔戒.net 🏁ZZ_4022, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 魔戒.net-7, server: 169.197.142.4, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - CYL-科技（2022_03_17）_1
-      - CYL-科技（2022_03_17）_2
-      - CYL-科技（2022_03_17）_3
-      - CYL-科技（2022_03_17）_4
-      - CYL-科技（2022_03_17）_5
-      - CYL-科技（2022_03_17）_6
-      - CYL-科技（2022_03_17）_7
-      - CYL-科技（2022_03_17）_8
-      - CYL-科技（2022_03_17）_9
-      - CYL-科技（2022_03_17）_10
-      - CYL-科技（2022_03_17）_11
-      - CYL-科技（2022_03_17）_12
-      - CYL-科技（2022_03_17）_13
-      - CYL-科技（2022_03_17）_14
-      - CYL-科技（2022_03_17）_15
-      - CYL-科技（2022_03_17）_16
-      - CYL-科技（2022_03_17）_17
-      - CYL-科技（2022_03_17）_18
-      - CYL-科技（2022_03_17）_19
-      - CYL-科技（2022_03_17）_20
-      - CYL-科技（2022_03_17）_21
-      - CYL-科技（2022_03_17）_22
-      - CYL-科技（2022_03_17）_23
-      - CYL-科技（2022_03_17）_24
-      - CYL-科技（2022_03_17）_25
-      - CYL-科技（2022_03_17）_26
-      - CYL-科技（2022_03_17）_27
-      - CYL-科技（2022_03_17）_28
-      - CYL-科技（2022_03_17）_29
-      - CYL-科技（2022_03_17）_30
-      - CYL-科技（2022_03_17）_31
-      - CYL-科技（2022_03_17）_32
-      - CYL-科技（2022_03_17）_33
-      - CYL-科技（2022_03_17）_34
-      - CYL-科技（2022_03_17）_35
-      - CYL-科技（2022_03_17）_36
-      - CYL-科技（2022_03_17）_37
-      - CYL-科技（2022_03_17）_38
-      - CYL-科技（2022_03_17）_39
-      - CYL-科技（2022_03_17）_40
-      - CYL-科技（2022_03_17）_41
-      - CYL-科技（2022_03_17）_42
-      - CYL-科技（2022_03_17）_43
-      - CYL-科技（2022_03_17）_44
-      - CYL-科技（2022_03_17）_45
-      - CYL-科技（2022_03_17）_46
-      - CYL-科技（2022_03_17）_47
-      - CYL-科技（2022_03_17）_48
-      - CYL-科技（2022_03_17）_49
-      - CYL-科技（2022_03_17）_50
-      - CYL-科技（2022_03_17）_51
-      - CYL-科技（2022_03_17）_52
-      - CYL-科技（2022_03_17）_53
-      - CYL-科技（2022_03_17）_54
-      - CYL-科技（2022_03_17）_55
-      - CYL-科技（2022_03_17）_56
-      - CYL-科技（2022_03_17）_57
-      - CYL-科技（2022_03_17）_58
-      - CYL-科技（2022_03_17）_59
-      - CYL-科技（2022_03_17）_60
-      - CYL-科技（2022_03_17）_61
-      - CYL-科技（2022_03_17）_62
-      - CYL-科技（2022_03_17）_63
-      - CYL-科技（2022_03_17）_64
-      - CYL-科技（2022_03_17）_65
-      - CYL-科技（2022_03_17）_66
-      - CYL-科技（2022_03_17）_67
-      - CYL-科技（2022_03_17）_68
-      - CYL-科技（2022_03_17）_69
-      - CYL-科技（2022_03_17）_70
-      - CYL-科技（2022_03_17）_71
-      - CYL-科技（2022_03_17）_72
-      - CYL-科技（2022_03_17）_73
-      - CYL-科技（2022_03_17）_74
-      - CYL-科技（2022_03_17）_75
-      - CYL-科技（2022_03_17）_76
-      - CYL-科技（2022_03_17）_77
-      - CYL-科技（2022_03_17）_78
-      - CYL-科技（2022_03_17）_79
-      - CYL-科技（2022_03_17）_80
-      - CYL-科技（2022_03_17）_81
-      - CYL-科技（2022_03_17）_82
-      - CYL-科技（2022_03_17）_83
-      - CYL-科技（2022_03_17）_84
-      - CYL-科技（2022_03_17）_85
-      - CYL-科技（2022_03_17）_86
-      - CYL-科技（2022_03_17）_87
-      - CYL-科技（2022_03_17）_88
-      - CYL-科技（2022_03_17）_89
-      - CYL-科技（2022_03_17）_90
-      - CYL-科技（2022_03_17）_91
-      - CYL-科技（2022_03_17）_92
-      - CYL-科技（2022_03_17）_93
-      - CYL-科技（2022_03_17）_94
-      - CYL-科技（2022_03_17）_95
-      - CYL-科技（2022_03_17）_96
-      - CYL-科技（2022_03_17）_97
-      - CYL-科技（2022_03_17）_98
-      - CYL-科技（2022_03_17）_99
-      - CYL-科技（2022_03_17）_100
-      - CYL-科技（2022_03_17）_101
-      - CYL-科技（2022_03_17）_102
-      - CYL-科技（2022_03_17）_103
-      - CYL-科技（2022_03_17）_104
-      - CYL-科技（2022_03_17）_105
-      - CYL-科技（2022_03_17）_106
-      - CYL-科技（2022_03_17）_107
-      - CYL-科技（2022_03_17）_108
-      - CYL-科技（2022_03_17）_109
-      - CYL-科技（2022_03_17）_110
-      - CYL-科技（2022_03_17）_111
-      - CYL-科技（2022_03_17）_112
-      - CYL-科技（2022_03_17）_113
-      - CYL-科技（2022_03_17）_114
-      - CYL-科技（2022_03_17）_115
-      - CYL-科技（2022_03_17）_116
-      - CYL-科技（2022_03_17）_117
-      - CYL-科技（2022_03_17）_118
-      - CYL-科技（2022_03_17）_119
-      - CYL-科技（2022_03_17）_120
-      - CYL-科技（2022_03_17）_121
-      - CYL-科技（2022_03_17）_122
-      - CYL-科技（2022_03_17）_123
-      - CYL-科技（2022_03_17）_124
-      - CYL-科技（2022_03_17）_125
-      - CYL-科技（2022_03_17）_126
-      - CYL-科技（2022_03_17）_127
-      - CYL-科技（2022_03_17）_128
-      - CYL-科技（2022_03_17）_129
-      - CYL-科技（2022_03_17）_130
-      - CYL-科技（2022_03_17）_131
-      - CYL-科技（2022_03_17）_132
-      - CYL-科技（2022_03_17）_133
-      - CYL-科技（2022_03_17）_134
-      - CYL-科技（2022_03_17）_135
-      - CYL-科技（2022_03_17）_136
-      - CYL-科技（2022_03_17）_137
-      - CYL-科技（2022_03_17）_138
-      - CYL-科技（2022_03_17）_139
-      - CYL-科技（2022_03_17）_140
-      - CYL-科技（2022_03_17）_141
-      - CYL-科技（2022_03_17）_142
-      - CYL-科技（2022_03_17）_143
-      - CYL-科技（2022_03_17）_144
-      - CYL-科技（2022_03_17）_145
-      - CYL-科技（2022_03_17）_146
-      - CYL-科技（2022_03_17）_147
-      - CYL-科技（2022_03_17）_148
-      - CYL-科技（2022_03_17）_149
-      - CYL-科技（2022_03_17）_150
-      - CYL-科技（2022_03_17）_151
-      - CYL-科技（2022_03_17）_152
-      - CYL-科技（2022_03_17）_153
-      - CYL-科技（2022_03_17）_154
-      - CYL-科技（2022_03_17）_155
-      - CYL-科技（2022_03_17）_156
-      - CYL-科技（2022_03_17）_157
-      - CYL-科技（2022_03_17）_158
-      - CYL-科技（2022_03_17）_159
-      - CYL-科技（2022_03_17）_160
-      - CYL-科技（2022_03_17）_161
-      - CYL-科技（2022_03_17）_162
-      - CYL-科技（2022_03_17）_163
-      - CYL-科技（2022_03_17）_164
-      - CYL-科技（2022_03_17）_165
-      - CYL-科技（2022_03_17）_166
-      - CYL-科技（2022_03_17）_167
-      - CYL-科技（2022_03_17）_168
-      - CYL-科技（2022_03_17）_169
-      - CYL-科技（2022_03_17）_170
-      - CYL-科技（2022_03_17）_171
-      - CYL-科技（2022_03_17）_172
-      - CYL-科技（2022_03_17）_173
-      - CYL-科技（2022_03_17）_174
-      - CYL-科技（2022_03_17）_175
-      - CYL-科技（2022_03_17）_176
-      - CYL-科技（2022_03_17）_177
-      - CYL-科技（2022_03_17）_178
-      - CYL-科技（2022_03_17）_179
-      - CYL-科技（2022_03_17）_180
-      - CYL-科技（2022_03_17）_181
-      - CYL-科技（2022_03_17）_182
-      - CYL-科技（2022_03_17）_183
-      - CYL-科技（2022_03_17）_184
-      - CYL-科技（2022_03_17）_185
-      - CYL-科技（2022_03_17）_186
-      - CYL-科技（2022_03_17）_187
-      - CYL-科技（2022_03_17）_188
-      - CYL-科技（2022_03_17）_189
-      - CYL-科技（2022_03_17）_190
-      - CYL-科技（2022_03_17）_191
-      - CYL-科技（2022_03_17）_192
-      - CYL-科技（2022_03_17）_193
-      - CYL-科技（2022_03_17）_194
-      - CYL-科技（2022_03_17）_195
-      - CYL-科技（2022_03_17）_196
-      - CYL-科技（2022_03_17）_197
-      - CYL-科技（2022_03_17）_198
-      - CYL-科技（2022_03_17）_199
-      - CYL-科技（2022_03_17）_200
-      - CYL-科技（2022_03_17）_201
-      - CYL-科技（2022_03_17）_202
-      - CYL-科技（2022_03_17）_203
-      - CYL-科技（2022_03_17）_204
-      - CYL-科技（2022_03_17）_205
-      - CYL-科技（2022_03_17）_206
-      - CYL-科技（2022_03_17）_207
-      - CYL-科技（2022_03_17）_208
-      - CYL-科技（2022_03_17）_209
-      - CYL-科技（2022_03_17）_210
-      - CYL-科技（2022_03_17）_211
-      - CYL-科技（2022_03_17）_212
-      - CYL-科技（2022_03_17）_213
-      - CYL-科技（2022_03_17）_214
-      - CYL-科技（2022_03_17）_215
-      - CYL-科技（2022_03_17）_216
-      - CYL-科技（2022_03_17）_217
-      - CYL-科技（2022_03_17）_218
-      - CYL-科技（2022_03_17）_219
-      - CYL-科技（2022_03_17）_220
-      - CYL-科技（2022_03_17）_221
-      - CYL-科技（2022_03_17）_222
-      - CYL-科技（2022_03_17）_223
-      - CYL-科技（2022_03_17）_224
-      - CYL-科技（2022_03_17）_225
-      - CYL-科技（2022_03_17）_226
-      - CYL-科技（2022_03_17）_227
-      - CYL-科技（2022_03_17）_228
-      - CYL-科技（2022_03_17）_229
-      - CYL-科技（2022_03_17）_230
-      - CYL-科技（2022_03_17）_231
-      - CYL-科技（2022_03_17）_232
-      - CYL-科技（2022_03_17）_233
-      - CYL-科技（2022_03_17）_234
-      - CYL-科技（2022_03_17）_235
-      - CYL-科技（2022_03_17）_236
-      - CYL-科技（2022_03_17）_237
-      - CYL-科技（2022_03_17）_238
-      - CYL-科技（2022_03_17）_239
-      - CYL-科技（2022_03_17）_240
-      - CYL-科技（2022_03_17）_241
-      - CYL-科技（2022_03_17）_242
-      - CYL-科技（2022_03_17）_243
-      - CYL-科技（2022_03_17）_244
-      - CYL-科技（2022_03_17）_245
-      - CYL-科技（2022_03_17）_246
-      - CYL-科技（2022_03_17）_247
-      - CYL-科技（2022_03_17）_248
-      - CYL-科技（2022_03_17）_249
-      - CYL-科技（2022_03_17）_250
-      - CYL-科技（2022_03_17）_251
-      - CYL-科技（2022_03_17）_252
-      - CYL-科技（2022_03_17）_253
-      - CYL-科技（2022_03_17）_254
-      - CYL-科技（2022_03_17）_255
-      - CYL-科技（2022_03_17）_256
-      - CYL-科技（2022_03_17）_257
-      - CYL-科技（2022_03_17）_258
-      - CYL-科技（2022_03_17）_259
-      - CYL-科技（2022_03_17）_260
-      - CYL-科技（2022_03_17）_261
-      - CYL-科技（2022_03_17）_262
-      - CYL-科技（2022_03_17）_263
-      - CYL-科技（2022_03_17）_264
-      - CYL-科技（2022_03_17）_265
-      - CYL-科技（2022_03_17）_266
-      - CYL-科技（2022_03_17）_267
-      - CYL-科技（2022_03_17）_268
-      - CYL-科技（2022_03_17）_269
-      - CYL-科技（2022_03_17）_270
-      - CYL-科技（2022_03_17）_271
-      - CYL-科技（2022_03_17）_272
-      - CYL-科技（2022_03_17）_273
-      - CYL-科技（2022_03_17）_274
-      - CYL-科技（2022_03_17）_275
-      - CYL-科技（2022_03_17）_276
-      - CYL-科技（2022_03_17）_277
-      - CYL-科技（2022_03_17）_278
-      - CYL-科技（2022_03_17）_279
-      - CYL-科技（2022_03_17）_280
-      - CYL-科技（2022_03_17）_281
-      - CYL-科技（2022_03_17）_282
-      - CYL-科技（2022_03_17）_283
-      - CYL-科技（2022_03_17）_284
-      - CYL-科技（2022_03_17）_285
-      - CYL-科技（2022_03_17）_286
-      - CYL-科技（2022_03_17）_287
-      - CYL-科技（2022_03_17）_288
-      - CYL-科技（2022_03_17）_289
-      - CYL-科技（2022_03_17）_290
-      - CYL-科技（2022_03_17）_291
-      - CYL-科技（2022_03_17）_292
-      - CYL-科技（2022_03_17）_293
-      - CYL-科技（2022_03_17）_294
-      - CYL-科技（2022_03_17）_295
-      - CYL-科技（2022_03_17）_296
-      - CYL-科技（2022_03_17）_297
-      - CYL-科技（2022_03_17）_298
-      - CYL-科技（2022_03_17）_299
-      - CYL-科技（2022_03_17）_300
-      - CYL-科技（2022_03_17）_301
-      - CYL-科技（2022_03_17）_302
-      - CYL-科技（2022_03_17）_303
-      - CYL-科技（2022_03_17）_304
-      - CYL-科技（2022_03_17）_305
-      - CYL-科技（2022_03_17）_306
-      - CYL-科技（2022_03_17）_307
-      - CYL-科技（2022_03_17）_308
-      - CYL-科技（2022_03_17）_309
-      - CYL-科技（2022_03_17）_310
-      - CYL-科技（2022_03_17）_311
-      - CYL-科技（2022_03_17）_312
-      - CYL-科技（2022_03_17）_313
-      - CYL-科技（2022_03_17）_314
-      - CYL-科技（2022_03_17）_315
+      - ZZ_3247
+      - ZZ_3184
+      - ZZ_3246
+      - ZZ_3239
+      - ZZ_3277
+      - ZZ_3282
+      - ZZ_3293
+      - ZZ_3287
+      - ZZ_3315
+      - ZZ_3335
+      - ZZ_3249
+      - ZZ_3285
+      - ZZ_3291
+      - ZZ_3441
+      - ZZ_3311
+      - ZZ_3443
+      - ZZ_3442
+      - ZZ_3377
+      - ZZ_3394
+      - ZZ_3535
+      - ZZ_3531
+      - ZZ_3530
+      - ZZ_3539
+      - ZZ_3557
+      - ZZ_3559
+      - ZZ_3552
+      - ZZ_3554
+      - ZZ_3440
+      - ZZ_3465
+      - ZZ_3429
+      - ZZ_3485
+      - 俄罗斯A_32
+      - 俄罗斯B_33
+      - 俄罗斯C_34
+      - 俄罗斯D_35
+      - 俄罗斯E_36
+      - 俄罗斯F_37
+      - 俄罗斯G_38
+      - 俄罗斯H_39
+      - 俄罗斯I_40
+      - 俄罗斯J_41
+      - 俄罗斯K_42
+      - 俄罗斯L_43
+      - 香港公益限速_仅网易社交480P视频_可用10G流量/天_44
+      - 韩国公益限速_仅网页社交480P视频_可用20G流量/天_45
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -2330,496 +1801,237 @@ proxy-groups:
       - github.com/freefq - 北美地区  11
       - github.com/freefq - 美国  12
       - github.com/freefq - 美国  13
-      - 魔戒.net 🇭🇰 V3-IEPL专线 香港FDC01 6x
-      - 魔戒.net 🇸🇬 V3-IEPL专线 新加坡03 | 8x
-      - 魔戒.net 🇸🇬 V3-IEPL专线 新加坡05 | 8x 原生IP
-      - 魔戒.net 🇹🇼 V3-IEPL专线 台湾03 Hinet | 8x 原生IP
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - V3-IEPL专线 日本04 | 7x
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - 魔戒.net US_3106
-      - 魔戒.net-1
-      - 魔戒.net-2
-      - 魔戒.net-3
-      - 魔戒.net-4
-      - 魔戒.net-5
-      - 魔戒.net-6
-      - 魔戒.net-7
-      - 魔戒.net-8
-      - 魔戒.net-9
-      - ZZ_3203
-      - US_1716
-      - ZZ_3586
-      - US_1373
-      - ZZ_3870
-      - ZZ_3499
-      - ZZ_3798
-      - US_2202
-      - 魔戒.net 🇺🇸 101美国∞直连
-      - 魔戒.net 🇭🇰 114香港∞直连
-      - 魔戒.net 🇨🇳 001中国∞直连
-      - 魔戒.net 🇨🇳 005中国∞直连
-      - 魔戒.net 🇨🇳 006中国∞直连
-      - 魔戒.net 🇨🇳 017中国∞直连
-      - 魔戒.net 🇨🇳 002中国∞直连
-      - 魔戒.net 🇭🇰 113香港∞直连
-      - 魔戒.net 🇹🇼 051台湾∞中转
-      - 魔戒.net 🇨🇳 014中国∞直连
-      - 魔戒.net 🇹🇼 056台湾∞直连
-      - 魔戒.net 🇨🇳 009中国∞直连
-      - 魔戒.net 🇨🇳 004中国∞直连
-      - 魔戒.net 🇨🇳 013中国∞直连
-      - 魔戒.net 🇨🇳 008中国∞直连
-      - 魔戒.net 🇯🇵 070日本∞直连
-      - 魔戒.net 🇯🇵 068日本∞中转
-      - 魔戒.net 🇷🇺 021俄罗斯∞中转
-      - 魔戒.net V2-#338_粤-港HGC_x2_0_V2ray_25
-      - 魔戒.net V4-#41_沪-日_NF_x1_0_V2ray_84
-      - 魔戒.net V2-#109_沪-日_NF_x1_5_V2ray_5
-      - V2-#194_粤-台_NF_x2_0_V2ray_8
-      - V2-#107_沪-日_NF_x2_0_V2ray_4
-      - V3-#319_粤-台_NF_x2_0_V2ray_45
-      - V2-#261_粤-港HKT_x1_2_V2ray_16
-      - V4-#323_粤-台_NF_x2_0_V2ray_75
-      - 魔戒.net 🇰🇷 _韩国_宝马ＧＴ_1
-      - 魔戒.net 🇭🇰 _香港_宝马ＧＴ_32
+      - 魔戒.net_香港_奔驰ＡＭＧ_19
+      - 魔戒.net_中国_奔驰ＡＭＧ_18
+      - 魔戒.net_中国_奔驰ＡＭＧ_40
+      - 魔戒.net_香港_奔驰ＡＭＧ_6
+      - _香港_奔驰ＡＭＧ_34
+      - _香港_奔驰ＡＭＧ_2
+      - _香港_奔驰ＡＭＧ_9
+      - _香港_奔驰ＡＭＧ_11
+      - _香港_奔驰ＡＭＧ_10
+      - _香港_奔驰ＡＭＧ_7
+      - 魔戒.net GLaDOS-N2-01
+      - 魔戒.net GLaDOS-N2-00
+      - 魔戒.net 🇭🇰 HK-GLaDOS-GEO-00
+      - 魔戒.net 🇭🇰 HK-GLaDOS-GEO-01
+      - 魔戒.net 🇭🇰 HK-GLaDOS-GEO-02
+      - TW-GLaDOS-GEO-02
+      - TW-GLaDOS-GEO-01
+      - TW-GLaDOS-GEO-00
+      - SG-GLaDOS-GEO-00
+      - JP-GLaDOS-GEO-02
+      - SG-GLaDOS-GEO-01
+      - 魔戒.net-111
+      - 魔戒.net-222
+      - 魔戒.net-333
+      - 魔戒.net-444
+      - 魔戒.net-555
+      - 魔戒.net-666
+      - 魔戒.net[vip③]台湾BGP|1Gbps
+      - 魔戒.net VIP2-香港3 ||500M
+      - 魔戒.net VIP2-香港4 ||500M
+      - 魔戒.net[vip③]新加坡3|IPLC游戏|微软BGP|1Gbps
+      - 魔戒.net[vip③]日本|AZ中转|广移|1Gbps
+      - 魔戒.net香港-移动中转
+      - 魔戒.net新加坡-联通中转
+      - 魔戒.net 🇮🇳 印度|BGP中转
+      - 魔戒.net T.00.新加坡.负载均衡.中继3
+      - 魔戒.net T.20.新加坡.中继2
+      - 魔戒.net香港_R_446
+      - 魔戒.net香港_R_450
+      - 香港_R_316
+      - 香港_R_160
       - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
       - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
-      - 魔戒.net 8A4【精品】广州-香港WTT | V2RAY隧道 |
-      - 魔戒.net 8A5【精品】上海-香港PCCW | V2RAY隧道 |
-      - 魔戒.net 8A3【精品】上海-香港WTT | V2RAY隧道 |
-      - 魔戒.net 8B2【精品】广州-台湾 | V2RAY隧道 |
-      - 魔戒.net ^🇨🇳台湾TW 1867 *hi-moon.pw
-      - 魔戒.net ^🇸🇬新加坡SG 1841 *hi-moon.pw
-      - 魔戒.net ^🇸🇬新加坡SG 1843 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1832 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1839 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1850 *hi-moon.pw
-      - 魔戒.net ^🇸🇬新加坡SG 1188 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1856 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1855 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1848 *hi-moon.pw
-      - 魔戒.net ^🇨🇳台湾TW 1174 *hi-moon.pw
-      - 魔戒.net ^🇸🇬新加坡SG 1838 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1840 *hi-moon.pw
-      - 魔戒.net ^🇲🇾MY 1170 *hi-moon.pw
-      - 魔戒.net ^🇲🇾MY 1187 *hi-moon.pw
-      - 魔戒.net ^🇰🇷韩国KR 1853 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1185 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1180 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1211 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1175 *hi-moon.pw
-      - 魔戒.net ^🇰🇷韩国KR 1842 *hi-moon.pw
-      - 魔戒.net韩国KR 2217 *hi-moon.pw
-      - 魔戒.net ^🇨🇳台湾TW 1173 *hi-moon.pw
-      - 魔戒.net韩国KR 2148 *hi-moon.pw
-      - 魔戒.net ^🇭🇰香港HK 1182 *hi-moon.pw
-      - 魔戒.net ^🇰🇷韩国KR 2231 *hi-moon.pw
-      - 魔戒.net ^🇰🇷韩国KR 1205 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1192 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1159 *hi-moon.pw
-      - ^🇰🇷韩国KR 1183 *hi-moon.pw
-      - ^🇭🇰香港HK 1157 *hi-moon.pw
-      - ^🇭🇰香港HK 1160 *hi-moon.pw
-      - 韩国KR 2227 *hi-moon.pw
-      - ^🇭🇰香港HK 1158 *hi-moon.pw
-      - ^🇨🇳台湾TW 1249 *hi-moon.pw
+      - 8A3【精品】上海-香港WTT | V2RAY隧道 |
+      - 8A4【精品】广州-香港WTT | V2RAY隧道 |
+      - 魔戒.net ^🇭🇰香港HK 1821 *hi-moon.pw
+      - 魔戒.net ^🇭🇰香港HK 1801 *hi-moon.pw
+      - 魔戒.net ^🇮🇩ID 1820 *hi-moon.pw
+      - 魔戒.net ^🇰🇷韩国KR 1131 *hi-moon.pw
+      - 魔戒.net ^🇸🇬新加坡SG 1823 *hi-moon.pw
+      - 魔戒.net ^🇨🇳台湾TW 1802 *hi-moon.pw
+      - 魔戒.net新加坡SG 2452 *hi-moon.pw
+      - 魔戒.net ^🇮🇳IN 1800 *hi-moon.pw
+      - 魔戒.net ^🇯🇵日本JP 2111 *hi-moon.pw
+      - 魔戒.net ^🇭🇰香港HK 1172 *hi-moon.pw
+      - 魔戒.net ^🇯🇵日本JP 2112 *hi-moon.pw
+      - 魔戒.net新加坡SG 2427 *hi-moon.pw
+      - 魔戒.net ^🇨🇳台湾TW 1804 *hi-moon.pw
+      - 魔戒.net ^🇯🇵日本JP 2110 *hi-moon.pw
+      - 魔戒.net ^🇨🇳CN 1169 *hi-moon.pw
+      - 魔戒.net ^🇨🇳台湾TW 1795 *hi-moon.pw
+      - 魔戒.net ^🇨🇳台湾TW 1197 *hi-moon.pw
+      - 魔戒.net美国US 4128 *hi-moon.pw
+      - 魔戒.net美国US 4155 *hi-moon.pw
+      - 魔戒.net美国US 4151 *hi-moon.pw
+      - ^🇺🇸美国US 2117 *hi-moon.pw
+      - 魔戒.net 🇭🇰香港鱼蛋河 04
+      - 魔戒.net 🇭🇰香港奶油猪 01
       - 魔戒.net PD - 香港(中國) - 20 [SVIP] [WhatsApp] [LineAPP] [Netflix]
-      - 魔戒.net PX - 香港（中国）- 14 [PremiumA] [APNIC] [IPLC] [Netflix]
-      - 魔戒.net PD - 香港(中國) - 24 [SVIP] [WhatsApp] [LineAPP] [Netflix]
-      - 魔戒.net PD - 香港(中國) - 25 [SVIP] [WhatsApp] [LineAPP] [Netflix]
-      - 魔戒.net PD - 香港(中國) - 32 [BGPA] [APNIC] [SVIP] [Netflix]
-      - 魔戒.net香港1027b
-      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]
-      - 魔戒.net-香港(中国)🚀[极速稳定]
       - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -42 [IPLC]
-      - 魔戒.net香港1029a
+      - 魔戒.net香港1002b
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
+      - 魔戒.net香港1027c
+      - 魔戒.net PD - 香港(中國) - 24 [SVIP] [WhatsApp] [LineAPP] [Netflix]
       - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]
       - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -30 [HKBN] [IPLC]
-      - 魔戒.net香港1027c
       - 魔戒.net香港4132a
       - 香港(中国)🚀[极速稳定]
+      - 魔戒.net PX - 香港（中国）- 14 [PremiumA] [APNIC] [IPLC] [Netflix]
+      - 魔戒.net PD - 香港(中國) - 32 [BGPA] [APNIC] [SVIP] [Netflix]
+      - 魔戒.net PD - 香港(中國) - 25 [SVIP] [WhatsApp] [LineAPP] [Netflix]
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]
+      - 魔戒.net-香港(中国)🚀[极速稳定]
+      - 魔戒.net香港1027b
+      - 魔戒.net香港1029a
+      - 魔戒.net 🇺🇸 101美国∞直连
       - jc.ap.fastqvpn.com:29980
-      - 魔戒.net香港1002b
+      - 魔戒.net 🇭🇰 114香港∞直连
+      - 魔戒.net 🇨🇳 013中国∞直连
+      - 魔戒.net 🇨🇳 014中国∞直连
       - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2
+      - jc.ap.fastqvpn.com:29980 2
       - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 3
+      - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 4
       - 魔戒.net HK A 006
       - 魔戒.net 🇨🇳 CN_690 | 6.69Mb
-      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2
+      - 魔戒.net 🇨🇳 001中国∞直连
       - 魔戒.net 🇭🇰 T.00.港.HKG.中继2
+      - 魔戒.net 🇨🇳 006中国∞直连
+      - 魔戒.net ^🇸🇬新加坡SG 1843 *hi-moon.pw
       - 魔戒.net-10
-      - 魔戒.net 🇨🇳 CN_683
-      - jc.ap.fastqvpn.com:29980 2
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2 2
-      - 魔戒.net 🇨🇳 CN_688
-      - 魔戒.net_557 | 7.24Mb
-      - 魔戒.net-6 2
-      - "*🇨🇳台湾TW 1059【hi-moon.pw】"
+      - 魔戒.net 🇨🇳 017中国∞直连
       - 魔戒.net 🇨🇳 CN_06
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2 2
+      - 魔戒.net 🇨🇳 005中国∞直连
+      - 魔戒.net 🇨🇳 CN_683
+      - 魔戒.net 🇨🇳 002中国∞直连
+      - 魔戒.net ^🇯🇵日本JP 1839 *hi-moon.pw
+      - 魔戒.net 🇨🇳 CN_688
+      - 魔戒.net ^🇸🇬新加坡SG 1841 *hi-moon.pw
+      - 魔戒.net ^🇯🇵日本JP 1855 *hi-moon.pw
+      - 魔戒.net ^🇯🇵日本JP 1840 *hi-moon.pw
+      - 魔戒.net 🇭🇰 113香港∞直连
+      - 魔戒.net 🇹🇼 051台湾∞中转
+      - 魔戒.net ^🇯🇵日本JP 1856 *hi-moon.pw
+      - 魔戒.net ^🇯🇵日本JP 1848 *hi-moon.pw
+      - 魔戒.net ^🇯🇵日本JP 1832 *hi-moon.pw
+      - 魔戒.net-26
+      - 魔戒.net_557 | 7.24Mb
+      - 魔戒.net 🇹🇼 10台湾∞中转
+      - 魔戒.net 🇨🇳 009中国∞直连
+      - 魔戒.net-6
+      - 魔戒.net ^🇯🇵日本JP 1850 *hi-moon.pw
       - 魔戒.net 🇨🇳 CN_05
       - 魔戒.net-13
-      - 魔戒.net*🇮🇳IN 1103【hi-moon.pw】
-      - 魔戒.net-12
-      - 魔戒.net *🇨🇳台湾TW 1068【hi-moon.pw】
-      - 魔戒.net-18
       - 魔戒.net_560 |12.93Mb
+      - "*🇨🇳台湾TW 1059【hi-moon.pw】"
+      - 魔戒.net-12
+      - 魔戒.net-18
       - 魔戒.net-060
-      - 魔戒.net-26
-      - 魔戒.net-29
-      - 魔戒.net-14
-      - 魔戒.net-26 2
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3 2
-      - 魔戒.net-19
-      - 魔戒.net-15
-      - 魔戒.net 8A6【精品】广州-香港PCCW | V2RAY隧道 |
-      - 魔戒.net 🇹🇼 10台湾∞中转
-      - 魔戒.net 8A3【精品】上海-香港WTT | V2RAY隧道 | 2
-      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1
-      - 魔戒.net *🇩🇪德国DE 1066【hi-moon.pw】
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1 2
-      - 魔戒.net 🇸🇬 T.20.新.中继3
-      - 魔戒.net 🇩🇪 13德国∞中转
-      - 魔戒.net 🇸🇬 T.20.新.中继3 2
-      - 魔戒.net 🇸🇬 T.20.新.中继3 3
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1 3
-      - 魔戒.net 8B1【精品】上海-台湾 | V2RAY隧道 |
-      - 魔戒.net 日本JP 1996【hi-moon.pw】
-      - 魔戒.net 🇯🇵 JP_759 | 3.82Mb
-      - 魔戒.net-058
-      - 魔戒.net 8B2【精品】广州-台湾 | V2RAY隧道 | 2
+      - 韩国KR 2227 *hi-moon.pw
       - 魔戒.net 86
-      - 魔戒.net 8C1【精品】上海-日本 | V2RAY隧道 |
-      - 魔戒.net-052
-      - 魔戒.net*🇯🇵日本JP 2043【hi-moon.pw】
-      - 魔戒.net日本JP 174【hi-moon.pw】
-      - 魔戒.net-25
-      - 魔戒.net-8 2
-      - 魔戒.net-444
-      - 魔戒.net 🏁ZZ_4022
+      - 魔戒.net*🇮🇳IN 1103【hi-moon.pw】
+      - 魔戒.net-19
+      - 魔戒.net-14
+      - 魔戒.net-29
+      - 魔戒.net 🇨🇳 008中国∞直连
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3
+      - 魔戒.net-15
+      - 魔戒.net 🇰🇷 _韩国_宝马ＧＴ_1
+      - 魔戒.net 8A5【精品】上海-香港PCCW | V2RAY隧道 |
       - 魔戒.net*🇭🇰香港HK 1105【hi-moon.pw】
+      - 魔戒.net 8A4【精品】广州-香港WTT | V2RAY隧道 |
+      - 魔戒.net ^🇸🇬新加坡SG 1838 *hi-moon.pw
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1 2
+      - 魔戒.net-2
+      - 魔戒.net-8
+      - 魔戒.net 🇩🇪 13德国∞中转
+      - 魔戒.net *🇩🇪德国DE 1066【hi-moon.pw】
+      - 魔戒.net 🇸🇬 T.20.新.中继3
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3 2
+      - 魔戒.net *🇨🇳台湾TW 1068【hi-moon.pw】
+      - 魔戒.net ^🇯🇵日本JP 1192 *hi-moon.pw
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1 3
+      - 魔戒.net 🇸🇬 T.20.新.中继3 2
+      - 魔戒.net-9
+      - 魔戒.net-058
+      - 魔戒.net 🇸🇬 T.20.新.中继3 3
+      - 魔戒.net 🇯🇵 JP_759 | 3.82Mb
+      - 魔戒.net 🇷🇺 021俄罗斯∞中转
+      - 魔戒.net 🇹🇼 056台湾∞直连
+      - 魔戒.net 日本JP 1996【hi-moon.pw】
+      - 魔戒.net日本JP 174【hi-moon.pw】
+      - US_1716
+      - 魔戒.net-3
+      - US_1373
+      - 魔戒.net-052
+      - 魔戒.net 8B1【精品】上海-台湾 | V2RAY隧道 |
+      - 魔戒.net-25
+      - 魔戒.net 🇯🇵 068日本∞中转
+      - ZZ_3499
+      - 魔戒.net 8B2【精品】广州-台湾 | V2RAY隧道 |
+      - 魔戒.net-26 2
+      - 魔戒.net-1
+      - ZZ_3798
+      - ZZ_3586
+      - 魔戒.net ^🇰🇷韩国KR 1853 *hi-moon.pw
+      - US_2202
+      - 魔戒.net 🏁ZZ_4022
+      - 魔戒.net-7
   - name: ♻️ 自动选择节点
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - CYL-科技（2022_03_17）_1
-      - CYL-科技（2022_03_17）_2
-      - CYL-科技（2022_03_17）_3
-      - CYL-科技（2022_03_17）_4
-      - CYL-科技（2022_03_17）_5
-      - CYL-科技（2022_03_17）_6
-      - CYL-科技（2022_03_17）_7
-      - CYL-科技（2022_03_17）_8
-      - CYL-科技（2022_03_17）_9
-      - CYL-科技（2022_03_17）_10
-      - CYL-科技（2022_03_17）_11
-      - CYL-科技（2022_03_17）_12
-      - CYL-科技（2022_03_17）_13
-      - CYL-科技（2022_03_17）_14
-      - CYL-科技（2022_03_17）_15
-      - CYL-科技（2022_03_17）_16
-      - CYL-科技（2022_03_17）_17
-      - CYL-科技（2022_03_17）_18
-      - CYL-科技（2022_03_17）_19
-      - CYL-科技（2022_03_17）_20
-      - CYL-科技（2022_03_17）_21
-      - CYL-科技（2022_03_17）_22
-      - CYL-科技（2022_03_17）_23
-      - CYL-科技（2022_03_17）_24
-      - CYL-科技（2022_03_17）_25
-      - CYL-科技（2022_03_17）_26
-      - CYL-科技（2022_03_17）_27
-      - CYL-科技（2022_03_17）_28
-      - CYL-科技（2022_03_17）_29
-      - CYL-科技（2022_03_17）_30
-      - CYL-科技（2022_03_17）_31
-      - CYL-科技（2022_03_17）_32
-      - CYL-科技（2022_03_17）_33
-      - CYL-科技（2022_03_17）_34
-      - CYL-科技（2022_03_17）_35
-      - CYL-科技（2022_03_17）_36
-      - CYL-科技（2022_03_17）_37
-      - CYL-科技（2022_03_17）_38
-      - CYL-科技（2022_03_17）_39
-      - CYL-科技（2022_03_17）_40
-      - CYL-科技（2022_03_17）_41
-      - CYL-科技（2022_03_17）_42
-      - CYL-科技（2022_03_17）_43
-      - CYL-科技（2022_03_17）_44
-      - CYL-科技（2022_03_17）_45
-      - CYL-科技（2022_03_17）_46
-      - CYL-科技（2022_03_17）_47
-      - CYL-科技（2022_03_17）_48
-      - CYL-科技（2022_03_17）_49
-      - CYL-科技（2022_03_17）_50
-      - CYL-科技（2022_03_17）_51
-      - CYL-科技（2022_03_17）_52
-      - CYL-科技（2022_03_17）_53
-      - CYL-科技（2022_03_17）_54
-      - CYL-科技（2022_03_17）_55
-      - CYL-科技（2022_03_17）_56
-      - CYL-科技（2022_03_17）_57
-      - CYL-科技（2022_03_17）_58
-      - CYL-科技（2022_03_17）_59
-      - CYL-科技（2022_03_17）_60
-      - CYL-科技（2022_03_17）_61
-      - CYL-科技（2022_03_17）_62
-      - CYL-科技（2022_03_17）_63
-      - CYL-科技（2022_03_17）_64
-      - CYL-科技（2022_03_17）_65
-      - CYL-科技（2022_03_17）_66
-      - CYL-科技（2022_03_17）_67
-      - CYL-科技（2022_03_17）_68
-      - CYL-科技（2022_03_17）_69
-      - CYL-科技（2022_03_17）_70
-      - CYL-科技（2022_03_17）_71
-      - CYL-科技（2022_03_17）_72
-      - CYL-科技（2022_03_17）_73
-      - CYL-科技（2022_03_17）_74
-      - CYL-科技（2022_03_17）_75
-      - CYL-科技（2022_03_17）_76
-      - CYL-科技（2022_03_17）_77
-      - CYL-科技（2022_03_17）_78
-      - CYL-科技（2022_03_17）_79
-      - CYL-科技（2022_03_17）_80
-      - CYL-科技（2022_03_17）_81
-      - CYL-科技（2022_03_17）_82
-      - CYL-科技（2022_03_17）_83
-      - CYL-科技（2022_03_17）_84
-      - CYL-科技（2022_03_17）_85
-      - CYL-科技（2022_03_17）_86
-      - CYL-科技（2022_03_17）_87
-      - CYL-科技（2022_03_17）_88
-      - CYL-科技（2022_03_17）_89
-      - CYL-科技（2022_03_17）_90
-      - CYL-科技（2022_03_17）_91
-      - CYL-科技（2022_03_17）_92
-      - CYL-科技（2022_03_17）_93
-      - CYL-科技（2022_03_17）_94
-      - CYL-科技（2022_03_17）_95
-      - CYL-科技（2022_03_17）_96
-      - CYL-科技（2022_03_17）_97
-      - CYL-科技（2022_03_17）_98
-      - CYL-科技（2022_03_17）_99
-      - CYL-科技（2022_03_17）_100
-      - CYL-科技（2022_03_17）_101
-      - CYL-科技（2022_03_17）_102
-      - CYL-科技（2022_03_17）_103
-      - CYL-科技（2022_03_17）_104
-      - CYL-科技（2022_03_17）_105
-      - CYL-科技（2022_03_17）_106
-      - CYL-科技（2022_03_17）_107
-      - CYL-科技（2022_03_17）_108
-      - CYL-科技（2022_03_17）_109
-      - CYL-科技（2022_03_17）_110
-      - CYL-科技（2022_03_17）_111
-      - CYL-科技（2022_03_17）_112
-      - CYL-科技（2022_03_17）_113
-      - CYL-科技（2022_03_17）_114
-      - CYL-科技（2022_03_17）_115
-      - CYL-科技（2022_03_17）_116
-      - CYL-科技（2022_03_17）_117
-      - CYL-科技（2022_03_17）_118
-      - CYL-科技（2022_03_17）_119
-      - CYL-科技（2022_03_17）_120
-      - CYL-科技（2022_03_17）_121
-      - CYL-科技（2022_03_17）_122
-      - CYL-科技（2022_03_17）_123
-      - CYL-科技（2022_03_17）_124
-      - CYL-科技（2022_03_17）_125
-      - CYL-科技（2022_03_17）_126
-      - CYL-科技（2022_03_17）_127
-      - CYL-科技（2022_03_17）_128
-      - CYL-科技（2022_03_17）_129
-      - CYL-科技（2022_03_17）_130
-      - CYL-科技（2022_03_17）_131
-      - CYL-科技（2022_03_17）_132
-      - CYL-科技（2022_03_17）_133
-      - CYL-科技（2022_03_17）_134
-      - CYL-科技（2022_03_17）_135
-      - CYL-科技（2022_03_17）_136
-      - CYL-科技（2022_03_17）_137
-      - CYL-科技（2022_03_17）_138
-      - CYL-科技（2022_03_17）_139
-      - CYL-科技（2022_03_17）_140
-      - CYL-科技（2022_03_17）_141
-      - CYL-科技（2022_03_17）_142
-      - CYL-科技（2022_03_17）_143
-      - CYL-科技（2022_03_17）_144
-      - CYL-科技（2022_03_17）_145
-      - CYL-科技（2022_03_17）_146
-      - CYL-科技（2022_03_17）_147
-      - CYL-科技（2022_03_17）_148
-      - CYL-科技（2022_03_17）_149
-      - CYL-科技（2022_03_17）_150
-      - CYL-科技（2022_03_17）_151
-      - CYL-科技（2022_03_17）_152
-      - CYL-科技（2022_03_17）_153
-      - CYL-科技（2022_03_17）_154
-      - CYL-科技（2022_03_17）_155
-      - CYL-科技（2022_03_17）_156
-      - CYL-科技（2022_03_17）_157
-      - CYL-科技（2022_03_17）_158
-      - CYL-科技（2022_03_17）_159
-      - CYL-科技（2022_03_17）_160
-      - CYL-科技（2022_03_17）_161
-      - CYL-科技（2022_03_17）_162
-      - CYL-科技（2022_03_17）_163
-      - CYL-科技（2022_03_17）_164
-      - CYL-科技（2022_03_17）_165
-      - CYL-科技（2022_03_17）_166
-      - CYL-科技（2022_03_17）_167
-      - CYL-科技（2022_03_17）_168
-      - CYL-科技（2022_03_17）_169
-      - CYL-科技（2022_03_17）_170
-      - CYL-科技（2022_03_17）_171
-      - CYL-科技（2022_03_17）_172
-      - CYL-科技（2022_03_17）_173
-      - CYL-科技（2022_03_17）_174
-      - CYL-科技（2022_03_17）_175
-      - CYL-科技（2022_03_17）_176
-      - CYL-科技（2022_03_17）_177
-      - CYL-科技（2022_03_17）_178
-      - CYL-科技（2022_03_17）_179
-      - CYL-科技（2022_03_17）_180
-      - CYL-科技（2022_03_17）_181
-      - CYL-科技（2022_03_17）_182
-      - CYL-科技（2022_03_17）_183
-      - CYL-科技（2022_03_17）_184
-      - CYL-科技（2022_03_17）_185
-      - CYL-科技（2022_03_17）_186
-      - CYL-科技（2022_03_17）_187
-      - CYL-科技（2022_03_17）_188
-      - CYL-科技（2022_03_17）_189
-      - CYL-科技（2022_03_17）_190
-      - CYL-科技（2022_03_17）_191
-      - CYL-科技（2022_03_17）_192
-      - CYL-科技（2022_03_17）_193
-      - CYL-科技（2022_03_17）_194
-      - CYL-科技（2022_03_17）_195
-      - CYL-科技（2022_03_17）_196
-      - CYL-科技（2022_03_17）_197
-      - CYL-科技（2022_03_17）_198
-      - CYL-科技（2022_03_17）_199
-      - CYL-科技（2022_03_17）_200
-      - CYL-科技（2022_03_17）_201
-      - CYL-科技（2022_03_17）_202
-      - CYL-科技（2022_03_17）_203
-      - CYL-科技（2022_03_17）_204
-      - CYL-科技（2022_03_17）_205
-      - CYL-科技（2022_03_17）_206
-      - CYL-科技（2022_03_17）_207
-      - CYL-科技（2022_03_17）_208
-      - CYL-科技（2022_03_17）_209
-      - CYL-科技（2022_03_17）_210
-      - CYL-科技（2022_03_17）_211
-      - CYL-科技（2022_03_17）_212
-      - CYL-科技（2022_03_17）_213
-      - CYL-科技（2022_03_17）_214
-      - CYL-科技（2022_03_17）_215
-      - CYL-科技（2022_03_17）_216
-      - CYL-科技（2022_03_17）_217
-      - CYL-科技（2022_03_17）_218
-      - CYL-科技（2022_03_17）_219
-      - CYL-科技（2022_03_17）_220
-      - CYL-科技（2022_03_17）_221
-      - CYL-科技（2022_03_17）_222
-      - CYL-科技（2022_03_17）_223
-      - CYL-科技（2022_03_17）_224
-      - CYL-科技（2022_03_17）_225
-      - CYL-科技（2022_03_17）_226
-      - CYL-科技（2022_03_17）_227
-      - CYL-科技（2022_03_17）_228
-      - CYL-科技（2022_03_17）_229
-      - CYL-科技（2022_03_17）_230
-      - CYL-科技（2022_03_17）_231
-      - CYL-科技（2022_03_17）_232
-      - CYL-科技（2022_03_17）_233
-      - CYL-科技（2022_03_17）_234
-      - CYL-科技（2022_03_17）_235
-      - CYL-科技（2022_03_17）_236
-      - CYL-科技（2022_03_17）_237
-      - CYL-科技（2022_03_17）_238
-      - CYL-科技（2022_03_17）_239
-      - CYL-科技（2022_03_17）_240
-      - CYL-科技（2022_03_17）_241
-      - CYL-科技（2022_03_17）_242
-      - CYL-科技（2022_03_17）_243
-      - CYL-科技（2022_03_17）_244
-      - CYL-科技（2022_03_17）_245
-      - CYL-科技（2022_03_17）_246
-      - CYL-科技（2022_03_17）_247
-      - CYL-科技（2022_03_17）_248
-      - CYL-科技（2022_03_17）_249
-      - CYL-科技（2022_03_17）_250
-      - CYL-科技（2022_03_17）_251
-      - CYL-科技（2022_03_17）_252
-      - CYL-科技（2022_03_17）_253
-      - CYL-科技（2022_03_17）_254
-      - CYL-科技（2022_03_17）_255
-      - CYL-科技（2022_03_17）_256
-      - CYL-科技（2022_03_17）_257
-      - CYL-科技（2022_03_17）_258
-      - CYL-科技（2022_03_17）_259
-      - CYL-科技（2022_03_17）_260
-      - CYL-科技（2022_03_17）_261
-      - CYL-科技（2022_03_17）_262
-      - CYL-科技（2022_03_17）_263
-      - CYL-科技（2022_03_17）_264
-      - CYL-科技（2022_03_17）_265
-      - CYL-科技（2022_03_17）_266
-      - CYL-科技（2022_03_17）_267
-      - CYL-科技（2022_03_17）_268
-      - CYL-科技（2022_03_17）_269
-      - CYL-科技（2022_03_17）_270
-      - CYL-科技（2022_03_17）_271
-      - CYL-科技（2022_03_17）_272
-      - CYL-科技（2022_03_17）_273
-      - CYL-科技（2022_03_17）_274
-      - CYL-科技（2022_03_17）_275
-      - CYL-科技（2022_03_17）_276
-      - CYL-科技（2022_03_17）_277
-      - CYL-科技（2022_03_17）_278
-      - CYL-科技（2022_03_17）_279
-      - CYL-科技（2022_03_17）_280
-      - CYL-科技（2022_03_17）_281
-      - CYL-科技（2022_03_17）_282
-      - CYL-科技（2022_03_17）_283
-      - CYL-科技（2022_03_17）_284
-      - CYL-科技（2022_03_17）_285
-      - CYL-科技（2022_03_17）_286
-      - CYL-科技（2022_03_17）_287
-      - CYL-科技（2022_03_17）_288
-      - CYL-科技（2022_03_17）_289
-      - CYL-科技（2022_03_17）_290
-      - CYL-科技（2022_03_17）_291
-      - CYL-科技（2022_03_17）_292
-      - CYL-科技（2022_03_17）_293
-      - CYL-科技（2022_03_17）_294
-      - CYL-科技（2022_03_17）_295
-      - CYL-科技（2022_03_17）_296
-      - CYL-科技（2022_03_17）_297
-      - CYL-科技（2022_03_17）_298
-      - CYL-科技（2022_03_17）_299
-      - CYL-科技（2022_03_17）_300
-      - CYL-科技（2022_03_17）_301
-      - CYL-科技（2022_03_17）_302
-      - CYL-科技（2022_03_17）_303
-      - CYL-科技（2022_03_17）_304
-      - CYL-科技（2022_03_17）_305
-      - CYL-科技（2022_03_17）_306
-      - CYL-科技（2022_03_17）_307
-      - CYL-科技（2022_03_17）_308
-      - CYL-科技（2022_03_17）_309
-      - CYL-科技（2022_03_17）_310
-      - CYL-科技（2022_03_17）_311
-      - CYL-科技（2022_03_17）_312
-      - CYL-科技（2022_03_17）_313
-      - CYL-科技（2022_03_17）_314
-      - CYL-科技（2022_03_17）_315
+      - ZZ_3247
+      - ZZ_3184
+      - ZZ_3246
+      - ZZ_3239
+      - ZZ_3277
+      - ZZ_3282
+      - ZZ_3293
+      - ZZ_3287
+      - ZZ_3315
+      - ZZ_3335
+      - ZZ_3249
+      - ZZ_3285
+      - ZZ_3291
+      - ZZ_3441
+      - ZZ_3311
+      - ZZ_3443
+      - ZZ_3442
+      - ZZ_3377
+      - ZZ_3394
+      - ZZ_3535
+      - ZZ_3531
+      - ZZ_3530
+      - ZZ_3539
+      - ZZ_3557
+      - ZZ_3559
+      - ZZ_3552
+      - ZZ_3554
+      - ZZ_3440
+      - ZZ_3465
+      - ZZ_3429
+      - ZZ_3485
+      - 俄罗斯A_32
+      - 俄罗斯B_33
+      - 俄罗斯C_34
+      - 俄罗斯D_35
+      - 俄罗斯E_36
+      - 俄罗斯F_37
+      - 俄罗斯G_38
+      - 俄罗斯H_39
+      - 俄罗斯I_40
+      - 俄罗斯J_41
+      - 俄罗斯K_42
+      - 俄罗斯L_43
+      - 香港公益限速_仅网易社交480P视频_可用10G流量/天_44
+      - 韩国公益限速_仅网页社交480P视频_可用20G流量/天_45
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -3580,176 +2792,187 @@ proxy-groups:
       - github.com/freefq - 北美地区  11
       - github.com/freefq - 美国  12
       - github.com/freefq - 美国  13
-      - 魔戒.net 🇭🇰 V3-IEPL专线 香港FDC01 6x
-      - 魔戒.net 🇸🇬 V3-IEPL专线 新加坡03 | 8x
-      - 魔戒.net 🇸🇬 V3-IEPL专线 新加坡05 | 8x 原生IP
-      - 魔戒.net 🇹🇼 V3-IEPL专线 台湾03 Hinet | 8x 原生IP
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - V3-IEPL专线 日本04 | 7x
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - 魔戒.net US_3106
-      - 魔戒.net-1
-      - 魔戒.net-2
-      - 魔戒.net-3
-      - 魔戒.net-4
-      - 魔戒.net-5
-      - 魔戒.net-6
-      - 魔戒.net-7
-      - 魔戒.net-8
-      - 魔戒.net-9
-      - ZZ_3203
-      - US_1716
-      - ZZ_3586
-      - US_1373
-      - ZZ_3870
-      - ZZ_3499
-      - ZZ_3798
-      - US_2202
-      - 魔戒.net 🇺🇸 101美国∞直连
-      - 魔戒.net 🇭🇰 114香港∞直连
-      - 魔戒.net 🇨🇳 001中国∞直连
-      - 魔戒.net 🇨🇳 005中国∞直连
-      - 魔戒.net 🇨🇳 006中国∞直连
-      - 魔戒.net 🇨🇳 017中国∞直连
-      - 魔戒.net 🇨🇳 002中国∞直连
-      - 魔戒.net 🇭🇰 113香港∞直连
-      - 魔戒.net 🇹🇼 051台湾∞中转
-      - 魔戒.net 🇨🇳 014中国∞直连
-      - 魔戒.net 🇹🇼 056台湾∞直连
-      - 魔戒.net 🇨🇳 009中国∞直连
-      - 魔戒.net 🇨🇳 004中国∞直连
-      - 魔戒.net 🇨🇳 013中国∞直连
-      - 魔戒.net 🇨🇳 008中国∞直连
-      - 魔戒.net 🇯🇵 070日本∞直连
-      - 魔戒.net 🇯🇵 068日本∞中转
-      - 魔戒.net 🇷🇺 021俄罗斯∞中转
-      - 魔戒.net V2-#338_粤-港HGC_x2_0_V2ray_25
-      - 魔戒.net V4-#41_沪-日_NF_x1_0_V2ray_84
-      - 魔戒.net V2-#109_沪-日_NF_x1_5_V2ray_5
-      - V2-#194_粤-台_NF_x2_0_V2ray_8
-      - V2-#107_沪-日_NF_x2_0_V2ray_4
-      - V3-#319_粤-台_NF_x2_0_V2ray_45
-      - V2-#261_粤-港HKT_x1_2_V2ray_16
-      - V4-#323_粤-台_NF_x2_0_V2ray_75
-      - 魔戒.net 🇰🇷 _韩国_宝马ＧＴ_1
-      - 魔戒.net 🇭🇰 _香港_宝马ＧＴ_32
+      - 魔戒.net_香港_奔驰ＡＭＧ_19
+      - 魔戒.net_中国_奔驰ＡＭＧ_18
+      - 魔戒.net_中国_奔驰ＡＭＧ_40
+      - 魔戒.net_香港_奔驰ＡＭＧ_6
+      - _香港_奔驰ＡＭＧ_34
+      - _香港_奔驰ＡＭＧ_2
+      - _香港_奔驰ＡＭＧ_9
+      - _香港_奔驰ＡＭＧ_11
+      - _香港_奔驰ＡＭＧ_10
+      - _香港_奔驰ＡＭＧ_7
+      - 魔戒.net GLaDOS-N2-01
+      - 魔戒.net GLaDOS-N2-00
+      - 魔戒.net 🇭🇰 HK-GLaDOS-GEO-00
+      - 魔戒.net 🇭🇰 HK-GLaDOS-GEO-01
+      - 魔戒.net 🇭🇰 HK-GLaDOS-GEO-02
+      - TW-GLaDOS-GEO-02
+      - TW-GLaDOS-GEO-01
+      - TW-GLaDOS-GEO-00
+      - SG-GLaDOS-GEO-00
+      - JP-GLaDOS-GEO-02
+      - SG-GLaDOS-GEO-01
+      - 魔戒.net-111
+      - 魔戒.net-222
+      - 魔戒.net-333
+      - 魔戒.net-444
+      - 魔戒.net-555
+      - 魔戒.net-666
+      - 魔戒.net[vip③]台湾BGP|1Gbps
+      - 魔戒.net VIP2-香港3 ||500M
+      - 魔戒.net VIP2-香港4 ||500M
+      - 魔戒.net[vip③]新加坡3|IPLC游戏|微软BGP|1Gbps
+      - 魔戒.net[vip③]日本|AZ中转|广移|1Gbps
+      - 魔戒.net香港-移动中转
+      - 魔戒.net新加坡-联通中转
+      - 魔戒.net 🇮🇳 印度|BGP中转
+      - 魔戒.net T.00.新加坡.负载均衡.中继3
+      - 魔戒.net T.20.新加坡.中继2
+      - 魔戒.net香港_R_446
+      - 魔戒.net香港_R_450
+      - 香港_R_316
+      - 香港_R_160
       - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
       - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 |
-      - 魔戒.net 8A4【精品】广州-香港WTT | V2RAY隧道 |
-      - 魔戒.net 8A5【精品】上海-香港PCCW | V2RAY隧道 |
-      - 魔戒.net 8A3【精品】上海-香港WTT | V2RAY隧道 |
-      - 魔戒.net 8B2【精品】广州-台湾 | V2RAY隧道 |
-      - 魔戒.net ^🇨🇳台湾TW 1867 *hi-moon.pw
-      - 魔戒.net ^🇸🇬新加坡SG 1841 *hi-moon.pw
-      - 魔戒.net ^🇸🇬新加坡SG 1843 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1832 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1839 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1850 *hi-moon.pw
-      - 魔戒.net ^🇸🇬新加坡SG 1188 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1856 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1855 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1848 *hi-moon.pw
-      - 魔戒.net ^🇨🇳台湾TW 1174 *hi-moon.pw
-      - 魔戒.net ^🇸🇬新加坡SG 1838 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1840 *hi-moon.pw
-      - 魔戒.net ^🇲🇾MY 1170 *hi-moon.pw
-      - 魔戒.net ^🇲🇾MY 1187 *hi-moon.pw
-      - 魔戒.net ^🇰🇷韩国KR 1853 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1185 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1180 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1211 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1175 *hi-moon.pw
-      - 魔戒.net ^🇰🇷韩国KR 1842 *hi-moon.pw
-      - 魔戒.net韩国KR 2217 *hi-moon.pw
-      - 魔戒.net ^🇨🇳台湾TW 1173 *hi-moon.pw
-      - 魔戒.net韩国KR 2148 *hi-moon.pw
-      - 魔戒.net ^🇭🇰香港HK 1182 *hi-moon.pw
-      - 魔戒.net ^🇰🇷韩国KR 2231 *hi-moon.pw
-      - 魔戒.net ^🇰🇷韩国KR 1205 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1192 *hi-moon.pw
-      - 魔戒.net ^🇯🇵日本JP 1159 *hi-moon.pw
-      - ^🇰🇷韩国KR 1183 *hi-moon.pw
-      - ^🇭🇰香港HK 1157 *hi-moon.pw
-      - ^🇭🇰香港HK 1160 *hi-moon.pw
-      - 韩国KR 2227 *hi-moon.pw
-      - ^🇭🇰香港HK 1158 *hi-moon.pw
-      - ^🇨🇳台湾TW 1249 *hi-moon.pw
+      - 8A3【精品】上海-香港WTT | V2RAY隧道 |
+      - 8A4【精品】广州-香港WTT | V2RAY隧道 |
+      - 魔戒.net ^🇭🇰香港HK 1821 *hi-moon.pw
+      - 魔戒.net ^🇭🇰香港HK 1801 *hi-moon.pw
+      - 魔戒.net ^🇮🇩ID 1820 *hi-moon.pw
+      - 魔戒.net ^🇰🇷韩国KR 1131 *hi-moon.pw
+      - 魔戒.net ^🇸🇬新加坡SG 1823 *hi-moon.pw
+      - 魔戒.net ^🇨🇳台湾TW 1802 *hi-moon.pw
+      - 魔戒.net新加坡SG 2452 *hi-moon.pw
+      - 魔戒.net ^🇮🇳IN 1800 *hi-moon.pw
+      - 魔戒.net ^🇯🇵日本JP 2111 *hi-moon.pw
+      - 魔戒.net ^🇭🇰香港HK 1172 *hi-moon.pw
+      - 魔戒.net ^🇯🇵日本JP 2112 *hi-moon.pw
+      - 魔戒.net新加坡SG 2427 *hi-moon.pw
+      - 魔戒.net ^🇨🇳台湾TW 1804 *hi-moon.pw
+      - 魔戒.net ^🇯🇵日本JP 2110 *hi-moon.pw
+      - 魔戒.net ^🇨🇳CN 1169 *hi-moon.pw
+      - 魔戒.net ^🇨🇳台湾TW 1795 *hi-moon.pw
+      - 魔戒.net ^🇨🇳台湾TW 1197 *hi-moon.pw
+      - 魔戒.net美国US 4128 *hi-moon.pw
+      - 魔戒.net美国US 4155 *hi-moon.pw
+      - 魔戒.net美国US 4151 *hi-moon.pw
+      - ^🇺🇸美国US 2117 *hi-moon.pw
+      - 魔戒.net 🇭🇰香港鱼蛋河 04
+      - 魔戒.net 🇭🇰香港奶油猪 01
       - 魔戒.net PD - 香港(中國) - 20 [SVIP] [WhatsApp] [LineAPP] [Netflix]
-      - 魔戒.net PX - 香港（中国）- 14 [PremiumA] [APNIC] [IPLC] [Netflix]
-      - 魔戒.net PD - 香港(中國) - 24 [SVIP] [WhatsApp] [LineAPP] [Netflix]
-      - 魔戒.net PD - 香港(中國) - 25 [SVIP] [WhatsApp] [LineAPP] [Netflix]
-      - 魔戒.net PD - 香港(中國) - 32 [BGPA] [APNIC] [SVIP] [Netflix]
-      - 魔戒.net香港1027b
-      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]
-      - 魔戒.net-香港(中国)🚀[极速稳定]
       - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -42 [IPLC]
-      - 魔戒.net香港1029a
+      - 魔戒.net香港1002b
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
+      - 魔戒.net香港1027c
+      - 魔戒.net PD - 香港(中國) - 24 [SVIP] [WhatsApp] [LineAPP] [Netflix]
       - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -46 [APNIC] [IPLC]
       - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -30 [HKBN] [IPLC]
-      - 魔戒.net香港1027c
       - 魔戒.net香港4132a
       - 香港(中国)🚀[极速稳定]
+      - 魔戒.net PX - 香港（中国）- 14 [PremiumA] [APNIC] [IPLC] [Netflix]
+      - 魔戒.net PD - 香港(中國) - 32 [BGPA] [APNIC] [SVIP] [Netflix]
+      - 魔戒.net PD - 香港(中國) - 25 [SVIP] [WhatsApp] [LineAPP] [Netflix]
+      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -47 [APNIC] [IPLC]
+      - 魔戒.net-香港(中国)🚀[极速稳定]
+      - 魔戒.net香港1027b
+      - 魔戒.net香港1029a
+      - 魔戒.net 🇺🇸 101美国∞直连
       - jc.ap.fastqvpn.com:29980
-      - 魔戒.net香港1002b
+      - 魔戒.net 🇭🇰 114香港∞直连
+      - 魔戒.net 🇨🇳 013中国∞直连
+      - 魔戒.net 🇨🇳 014中国∞直连
       - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2
+      - jc.ap.fastqvpn.com:29980 2
       - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 3
+      - 魔戒.net 8A0 【精品】广州-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 4
       - 魔戒.net HK A 006
       - 魔戒.net 🇨🇳 CN_690 | 6.69Mb
-      - 魔戒.net 8A1【精品】上海-香港HKBN | 解锁Netflix 、Disney  | V2RAY隧道 | 2
+      - 魔戒.net 🇨🇳 001中国∞直连
       - 魔戒.net 🇭🇰 T.00.港.HKG.中继2
+      - 魔戒.net 🇨🇳 006中国∞直连
+      - 魔戒.net ^🇸🇬新加坡SG 1843 *hi-moon.pw
       - 魔戒.net-10
-      - 魔戒.net 🇨🇳 CN_683
-      - jc.ap.fastqvpn.com:29980 2
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2 2
-      - 魔戒.net 🇨🇳 CN_688
-      - 魔戒.net_557 | 7.24Mb
-      - 魔戒.net-6 2
-      - "*🇨🇳台湾TW 1059【hi-moon.pw】"
+      - 魔戒.net 🇨🇳 017中国∞直连
       - 魔戒.net 🇨🇳 CN_06
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继2 2
+      - 魔戒.net 🇨🇳 005中国∞直连
+      - 魔戒.net 🇨🇳 CN_683
+      - 魔戒.net 🇨🇳 002中国∞直连
+      - 魔戒.net ^🇯🇵日本JP 1839 *hi-moon.pw
+      - 魔戒.net 🇨🇳 CN_688
+      - 魔戒.net ^🇸🇬新加坡SG 1841 *hi-moon.pw
+      - 魔戒.net ^🇯🇵日本JP 1855 *hi-moon.pw
+      - 魔戒.net ^🇯🇵日本JP 1840 *hi-moon.pw
+      - 魔戒.net 🇭🇰 113香港∞直连
+      - 魔戒.net 🇹🇼 051台湾∞中转
+      - 魔戒.net ^🇯🇵日本JP 1856 *hi-moon.pw
+      - 魔戒.net ^🇯🇵日本JP 1848 *hi-moon.pw
+      - 魔戒.net ^🇯🇵日本JP 1832 *hi-moon.pw
+      - 魔戒.net-26
+      - 魔戒.net_557 | 7.24Mb
+      - 魔戒.net 🇹🇼 10台湾∞中转
+      - 魔戒.net 🇨🇳 009中国∞直连
+      - 魔戒.net-6
+      - 魔戒.net ^🇯🇵日本JP 1850 *hi-moon.pw
       - 魔戒.net 🇨🇳 CN_05
       - 魔戒.net-13
-      - 魔戒.net*🇮🇳IN 1103【hi-moon.pw】
-      - 魔戒.net-12
-      - 魔戒.net *🇨🇳台湾TW 1068【hi-moon.pw】
-      - 魔戒.net-18
       - 魔戒.net_560 |12.93Mb
+      - "*🇨🇳台湾TW 1059【hi-moon.pw】"
+      - 魔戒.net-12
+      - 魔戒.net-18
       - 魔戒.net-060
-      - 魔戒.net-26
-      - 魔戒.net-29
-      - 魔戒.net-14
-      - 魔戒.net-26 2
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3 2
-      - 魔戒.net-19
-      - 魔戒.net-15
-      - 魔戒.net 8A6【精品】广州-香港PCCW | V2RAY隧道 |
-      - 魔戒.net 🇹🇼 10台湾∞中转
-      - 魔戒.net 8A3【精品】上海-香港WTT | V2RAY隧道 | 2
-      - 魔戒.net 🇭🇰 IOS小火箭专用|香港 (中国) -12 [HKBN] [IPLC]
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1
-      - 魔戒.net *🇩🇪德国DE 1066【hi-moon.pw】
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1 2
-      - 魔戒.net 🇸🇬 T.20.新.中继3
-      - 魔戒.net 🇩🇪 13德国∞中转
-      - 魔戒.net 🇸🇬 T.20.新.中继3 2
-      - 魔戒.net 🇸🇬 T.20.新.中继3 3
-      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1 3
-      - 魔戒.net 8B1【精品】上海-台湾 | V2RAY隧道 |
-      - 魔戒.net 日本JP 1996【hi-moon.pw】
-      - 魔戒.net 🇯🇵 JP_759 | 3.82Mb
-      - 魔戒.net-058
-      - 魔戒.net 8B2【精品】广州-台湾 | V2RAY隧道 | 2
+      - 韩国KR 2227 *hi-moon.pw
       - 魔戒.net 86
-      - 魔戒.net 8C1【精品】上海-日本 | V2RAY隧道 |
-      - 魔戒.net-052
-      - 魔戒.net*🇯🇵日本JP 2043【hi-moon.pw】
-      - 魔戒.net日本JP 174【hi-moon.pw】
-      - 魔戒.net-25
-      - 魔戒.net-8 2
-      - 魔戒.net-444
-      - 魔戒.net 🏁ZZ_4022
+      - 魔戒.net*🇮🇳IN 1103【hi-moon.pw】
+      - 魔戒.net-19
+      - 魔戒.net-14
+      - 魔戒.net-29
+      - 魔戒.net 🇨🇳 008中国∞直连
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3
+      - 魔戒.net-15
+      - 魔戒.net 🇰🇷 _韩国_宝马ＧＴ_1
+      - 魔戒.net 8A5【精品】上海-香港PCCW | V2RAY隧道 |
       - 魔戒.net*🇭🇰香港HK 1105【hi-moon.pw】
+      - 魔戒.net 8A4【精品】广州-香港WTT | V2RAY隧道 |
+      - 魔戒.net ^🇸🇬新加坡SG 1838 *hi-moon.pw
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1 2
+      - 魔戒.net-2
+      - 魔戒.net-8
+      - 魔戒.net 🇩🇪 13德国∞中转
+      - 魔戒.net *🇩🇪德国DE 1066【hi-moon.pw】
+      - 魔戒.net 🇸🇬 T.20.新.中继3
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继3 2
+      - 魔戒.net *🇨🇳台湾TW 1068【hi-moon.pw】
+      - 魔戒.net ^🇯🇵日本JP 1192 *hi-moon.pw
+      - 魔戒.net 🇭🇰 T.00.港.HKG.中继1 3
+      - 魔戒.net 🇸🇬 T.20.新.中继3 2
+      - 魔戒.net-9
+      - 魔戒.net-058
+      - 魔戒.net 🇸🇬 T.20.新.中继3 3
+      - 魔戒.net 🇯🇵 JP_759 | 3.82Mb
+      - 魔戒.net 🇷🇺 021俄罗斯∞中转
+      - 魔戒.net 🇹🇼 056台湾∞直连
+      - 魔戒.net 日本JP 1996【hi-moon.pw】
+      - 魔戒.net日本JP 174【hi-moon.pw】
+      - US_1716
+      - 魔戒.net-3
+      - US_1373
+      - 魔戒.net-052
+      - 魔戒.net 8B1【精品】上海-台湾 | V2RAY隧道 |
+      - 魔戒.net-25
+      - 魔戒.net 🇯🇵 068日本∞中转
+      - ZZ_3499
+      - 魔戒.net 8B2【精品】广州-台湾 | V2RAY隧道 |
+      - 魔戒.net-26 2
+      - 魔戒.net-1
+      - ZZ_3798
+      - ZZ_3586
+      - 魔戒.net ^🇰🇷韩国KR 1853 *hi-moon.pw
+      - US_2202
+      - 魔戒.net 🏁ZZ_4022
+      - 魔戒.net-7
   - name: Other
     type: select
     proxies:
