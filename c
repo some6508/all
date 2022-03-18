@@ -5,221 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"⓪Trojan新加坡_1","server":"hgc2.doubledou.win","port":443,"type":"trojan","password":"70030492-13a9-3889-b064-3347c3ddd5f2","sni":"hgc2.doubledou.win"}
-  - {"name":"⓪Trojan新加坡移动联通优化_2","server":"shanghai.doubledou.win","port":50037,"type":"trojan","password":"70030492-13a9-3889-b064-3347c3ddd5f2","sni":"hgc2.doubledou.win"}
-  - {"name":"⓪Trojan洛杉矶_3","server":"loslite.doubledou.win","port":6529,"type":"trojan","password":"70030492-13a9-3889-b064-3347c3ddd5f2","sni":"loslite.doubledou.win"}
-  - {"name":"⓪Trojan洛杉矶2_4","server":"loslite2.doubledou.win","port":6519,"type":"trojan","password":"70030492-13a9-3889-b064-3347c3ddd5f2","sni":"loslite2.doubledou.win"}
-  - {"name":"⓪Trojan美国拉斯维加斯_5","server":"los3.doubledou.win","port":6520,"type":"trojan","password":"70030492-13a9-3889-b064-3347c3ddd5f2","sni":"los3.doubledou.win"}
-  - {"name":"⓪Trojan美国拉斯维加斯电信优化_6","server":"hhzx1.doubledou.win","port":60001,"type":"trojan","password":"70030492-13a9-3889-b064-3347c3ddd5f2","sni":"los3.doubledou.win"}
-  - {"name":"⓪Trojan美国拉斯维加斯移动联通优化_7","server":"shanghai.doubledou.win","port":50036,"type":"trojan","password":"70030492-13a9-3889-b064-3347c3ddd5f2","sni":"los3.doubledou.win"}
-  - {"name":"⓪Trojan美国西雅图_8","server":"uj.doubledou.win","port":4586,"type":"trojan","password":"70030492-13a9-3889-b064-3347c3ddd5f2","sni":"uj.doubledou.win"}
-  - {"name":"⓪Trojan美国西雅图移动联通优化_9","server":"azzz.doubledou.win","port":50038,"type":"trojan","password":"70030492-13a9-3889-b064-3347c3ddd5f2","sni":"uj.doubledou.win"}
-  - {"name":"⓪Trojan荷兰☀_10","server":"helan.doubledou.win","port":4586,"type":"trojan","password":"70030492-13a9-3889-b064-3347c3ddd5f2","sni":"helan.doubledou.win"}
-  - {"name":"⓪Trojan荷兰电信优化☀_11","server":"hhzx1.doubledou.win","port":60013,"type":"trojan","password":"70030492-13a9-3889-b064-3347c3ddd5f2","sni":"helan.doubledou.win"}
-  - {"name":"⓪Trojan荷兰移动联通优化☀_12","server":"azzz.doubledou.win","port":50039,"type":"trojan","password":"70030492-13a9-3889-b064-3347c3ddd5f2","sni":"helan.doubledou.win"}
-  - {"name":"⓪V2俄罗斯IPV6_13","server":"ruv6.doubledou.win","port":4443,"type":"vmess","uuid":"70030492-13a9-3889-b064-3347c3ddd5f2","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"v2ru.doubledou.win"}}}
-  - {"name":"⓪V2新加坡移动联通优化_14","server":"v2sgpdo.doubledou.win","port":44450,"type":"vmess","uuid":"70030492-13a9-3889-b064-3347c3ddd5f2","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"v2onesgp.doubledou.win"}}}
-  - {"name":"⓪V2日本onevps2_15","server":"v2iijjp2.doubledou.win","port":443,"type":"vmess","uuid":"70030492-13a9-3889-b064-3347c3ddd5f2","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"v2iijjp2.doubledou.win"}}}
-  - {"name":"⓪V2日本onevps3电信优化_16","server":"hhzx1.doubledou.win","port":60002,"type":"vmess","uuid":"70030492-13a9-3889-b064-3347c3ddd5f2","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/doufen","headers":{"host":"v2iijjp6.doubledou.win"}}}
-  - {"name":"⓪V2日本onevps4_17","server":"v2iijjp6.doubledou.win","port":443,"type":"vmess","uuid":"70030492-13a9-3889-b064-3347c3ddd5f2","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/doufen","headers":{"host":"v2iijjp6.doubledou.win"}}}
-  - {"name":"⓪V2日本onevps4电信优化_18","server":"hhzx1.doubledou.win","port":60003,"type":"vmess","uuid":"70030492-13a9-3889-b064-3347c3ddd5f2","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"v2iijjp2.doubledou.win"}}}
-  - {"name":"⓪V2日本onevps5移动联通优化_19","server":"shanghai.doubledou.win","port":10080,"type":"vmess","uuid":"70030492-13a9-3889-b064-3347c3ddd5f2","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/doufen","headers":{"host":"v2iijjp6.doubledou.win"}}}
-  - {"name":"⓪V2日本onevps6移动联通优化_20","server":"shanghai.doubledou.win","port":50007,"type":"vmess","uuid":"70030492-13a9-3889-b064-3347c3ddd5f2","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"v2iijjp2.doubledou.win"}}}
-  - {"name":"⓪V2美国洛杉矶_21","server":"pr.doubledou.win","port":4565,"type":"vmess","uuid":"70030492-13a9-3889-b064-3347c3ddd5f2","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/doudou","headers":{"host":"pr.doubledou.win"}}}
-  - {"name":"⓪V2美国洛杉矶中转（3月下架）_22","server":"gzyd.doubledou.win","port":50024,"type":"vmess","uuid":"70030492-13a9-3889-b064-3347c3ddd5f2","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/doudou","headers":{"host":"pr.doubledou.win"}}}
-  - {"name":"⓪V2越南_23","server":"vn.doubledou.win","port":4588,"type":"vmess","uuid":"70030492-13a9-3889-b064-3347c3ddd5f2","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/doufen","headers":{"host":"vn.doubledou.win"}}}
-  - {"name":"⓪V2越南电信优化_24","server":"hhzx1.doubledou.win","port":60005,"type":"vmess","uuid":"70030492-13a9-3889-b064-3347c3ddd5f2","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/doufen","headers":{"host":"vn.doubledou.win"}}}
-  - {"name":"⓪V2越南移动联通优化_25","server":"gzyd.doubledou.win","port":50011,"type":"vmess","uuid":"70030492-13a9-3889-b064-3347c3ddd5f2","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/doufen","headers":{"host":"vn.doubledou.win"}}}
-  - {"name":"⓪V2香港DmitLite无优化_26","server":"wtt.doubledou.win","port":45825,"type":"vmess","uuid":"70030492-13a9-3889-b064-3347c3ddd5f2","alterId":1,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/doudou","headers":{"host":"wtt.doubledou.win"}}}
+  - {"name":"🇺🇸_US_美国_1","server":"169.197.142.4","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ⓪Trojan新加坡_1
-      - ⓪Trojan新加坡移动联通优化_2
-      - ⓪Trojan洛杉矶_3
-      - ⓪Trojan洛杉矶2_4
-      - ⓪Trojan美国拉斯维加斯_5
-      - ⓪Trojan美国拉斯维加斯电信优化_6
-      - ⓪Trojan美国拉斯维加斯移动联通优化_7
-      - ⓪Trojan美国西雅图_8
-      - ⓪Trojan美国西雅图移动联通优化_9
-      - ⓪Trojan荷兰☀_10
-      - ⓪Trojan荷兰电信优化☀_11
-      - ⓪Trojan荷兰移动联通优化☀_12
-      - ⓪V2俄罗斯IPV6_13
-      - ⓪V2新加坡移动联通优化_14
-      - ⓪V2日本onevps2_15
-      - ⓪V2日本onevps3电信优化_16
-      - ⓪V2日本onevps4_17
-      - ⓪V2日本onevps4电信优化_18
-      - ⓪V2日本onevps5移动联通优化_19
-      - ⓪V2日本onevps6移动联通优化_20
-      - ⓪V2美国洛杉矶_21
-      - ⓪V2美国洛杉矶中转（3月下架）_22
-      - ⓪V2越南_23
-      - ⓪V2越南电信优化_24
-      - ⓪V2越南移动联通优化_25
-      - ⓪V2香港DmitLite无优化_26
+      - 🇺🇸_US_美国_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ⓪Trojan新加坡_1
-      - ⓪Trojan新加坡移动联通优化_2
-      - ⓪Trojan洛杉矶_3
-      - ⓪Trojan洛杉矶2_4
-      - ⓪Trojan美国拉斯维加斯_5
-      - ⓪Trojan美国拉斯维加斯电信优化_6
-      - ⓪Trojan美国拉斯维加斯移动联通优化_7
-      - ⓪Trojan美国西雅图_8
-      - ⓪Trojan美国西雅图移动联通优化_9
-      - ⓪Trojan荷兰☀_10
-      - ⓪Trojan荷兰电信优化☀_11
-      - ⓪Trojan荷兰移动联通优化☀_12
-      - ⓪V2俄罗斯IPV6_13
-      - ⓪V2新加坡移动联通优化_14
-      - ⓪V2日本onevps2_15
-      - ⓪V2日本onevps3电信优化_16
-      - ⓪V2日本onevps4_17
-      - ⓪V2日本onevps4电信优化_18
-      - ⓪V2日本onevps5移动联通优化_19
-      - ⓪V2日本onevps6移动联通优化_20
-      - ⓪V2美国洛杉矶_21
-      - ⓪V2美国洛杉矶中转（3月下架）_22
-      - ⓪V2越南_23
-      - ⓪V2越南电信优化_24
-      - ⓪V2越南移动联通优化_25
-      - ⓪V2香港DmitLite无优化_26
+      - 🇺🇸_US_美国_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ⓪Trojan新加坡_1
-      - ⓪Trojan新加坡移动联通优化_2
-      - ⓪Trojan洛杉矶_3
-      - ⓪Trojan洛杉矶2_4
-      - ⓪Trojan美国拉斯维加斯_5
-      - ⓪Trojan美国拉斯维加斯电信优化_6
-      - ⓪Trojan美国拉斯维加斯移动联通优化_7
-      - ⓪Trojan美国西雅图_8
-      - ⓪Trojan美国西雅图移动联通优化_9
-      - ⓪Trojan荷兰☀_10
-      - ⓪Trojan荷兰电信优化☀_11
-      - ⓪Trojan荷兰移动联通优化☀_12
-      - ⓪V2俄罗斯IPV6_13
-      - ⓪V2新加坡移动联通优化_14
-      - ⓪V2日本onevps2_15
-      - ⓪V2日本onevps3电信优化_16
-      - ⓪V2日本onevps4_17
-      - ⓪V2日本onevps4电信优化_18
-      - ⓪V2日本onevps5移动联通优化_19
-      - ⓪V2日本onevps6移动联通优化_20
-      - ⓪V2美国洛杉矶_21
-      - ⓪V2美国洛杉矶中转（3月下架）_22
-      - ⓪V2越南_23
-      - ⓪V2越南电信优化_24
-      - ⓪V2越南移动联通优化_25
-      - ⓪V2香港DmitLite无优化_26
+      - 🇺🇸_US_美国_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ⓪Trojan新加坡_1
-      - ⓪Trojan新加坡移动联通优化_2
-      - ⓪Trojan洛杉矶_3
-      - ⓪Trojan洛杉矶2_4
-      - ⓪Trojan美国拉斯维加斯_5
-      - ⓪Trojan美国拉斯维加斯电信优化_6
-      - ⓪Trojan美国拉斯维加斯移动联通优化_7
-      - ⓪Trojan美国西雅图_8
-      - ⓪Trojan美国西雅图移动联通优化_9
-      - ⓪Trojan荷兰☀_10
-      - ⓪Trojan荷兰电信优化☀_11
-      - ⓪Trojan荷兰移动联通优化☀_12
-      - ⓪V2俄罗斯IPV6_13
-      - ⓪V2新加坡移动联通优化_14
-      - ⓪V2日本onevps2_15
-      - ⓪V2日本onevps3电信优化_16
-      - ⓪V2日本onevps4_17
-      - ⓪V2日本onevps4电信优化_18
-      - ⓪V2日本onevps5移动联通优化_19
-      - ⓪V2日本onevps6移动联通优化_20
-      - ⓪V2美国洛杉矶_21
-      - ⓪V2美国洛杉矶中转（3月下架）_22
-      - ⓪V2越南_23
-      - ⓪V2越南电信优化_24
-      - ⓪V2越南移动联通优化_25
-      - ⓪V2香港DmitLite无优化_26
+      - 🇺🇸_US_美国_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ⓪Trojan新加坡_1
-      - ⓪Trojan新加坡移动联通优化_2
-      - ⓪Trojan洛杉矶_3
-      - ⓪Trojan洛杉矶2_4
-      - ⓪Trojan美国拉斯维加斯_5
-      - ⓪Trojan美国拉斯维加斯电信优化_6
-      - ⓪Trojan美国拉斯维加斯移动联通优化_7
-      - ⓪Trojan美国西雅图_8
-      - ⓪Trojan美国西雅图移动联通优化_9
-      - ⓪Trojan荷兰☀_10
-      - ⓪Trojan荷兰电信优化☀_11
-      - ⓪Trojan荷兰移动联通优化☀_12
-      - ⓪V2俄罗斯IPV6_13
-      - ⓪V2新加坡移动联通优化_14
-      - ⓪V2日本onevps2_15
-      - ⓪V2日本onevps3电信优化_16
-      - ⓪V2日本onevps4_17
-      - ⓪V2日本onevps4电信优化_18
-      - ⓪V2日本onevps5移动联通优化_19
-      - ⓪V2日本onevps6移动联通优化_20
-      - ⓪V2美国洛杉矶_21
-      - ⓪V2美国洛杉矶中转（3月下架）_22
-      - ⓪V2越南_23
-      - ⓪V2越南电信优化_24
-      - ⓪V2越南移动联通优化_25
-      - ⓪V2香港DmitLite无优化_26
+      - 🇺🇸_US_美国_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ⓪Trojan新加坡_1
-      - ⓪Trojan新加坡移动联通优化_2
-      - ⓪Trojan洛杉矶_3
-      - ⓪Trojan洛杉矶2_4
-      - ⓪Trojan美国拉斯维加斯_5
-      - ⓪Trojan美国拉斯维加斯电信优化_6
-      - ⓪Trojan美国拉斯维加斯移动联通优化_7
-      - ⓪Trojan美国西雅图_8
-      - ⓪Trojan美国西雅图移动联通优化_9
-      - ⓪Trojan荷兰☀_10
-      - ⓪Trojan荷兰电信优化☀_11
-      - ⓪Trojan荷兰移动联通优化☀_12
-      - ⓪V2俄罗斯IPV6_13
-      - ⓪V2新加坡移动联通优化_14
-      - ⓪V2日本onevps2_15
-      - ⓪V2日本onevps3电信优化_16
-      - ⓪V2日本onevps4_17
-      - ⓪V2日本onevps4电信优化_18
-      - ⓪V2日本onevps5移动联通优化_19
-      - ⓪V2日本onevps6移动联通优化_20
-      - ⓪V2美国洛杉矶_21
-      - ⓪V2美国洛杉矶中转（3月下架）_22
-      - ⓪V2越南_23
-      - ⓪V2越南电信优化_24
-      - ⓪V2越南移动联通优化_25
-      - ⓪V2香港DmitLite无优化_26
+      - 🇺🇸_US_美国_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -242,32 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ⓪Trojan新加坡_1
-      - ⓪Trojan新加坡移动联通优化_2
-      - ⓪Trojan洛杉矶_3
-      - ⓪Trojan洛杉矶2_4
-      - ⓪Trojan美国拉斯维加斯_5
-      - ⓪Trojan美国拉斯维加斯电信优化_6
-      - ⓪Trojan美国拉斯维加斯移动联通优化_7
-      - ⓪Trojan美国西雅图_8
-      - ⓪Trojan美国西雅图移动联通优化_9
-      - ⓪Trojan荷兰☀_10
-      - ⓪Trojan荷兰电信优化☀_11
-      - ⓪Trojan荷兰移动联通优化☀_12
-      - ⓪V2俄罗斯IPV6_13
-      - ⓪V2新加坡移动联通优化_14
-      - ⓪V2日本onevps2_15
-      - ⓪V2日本onevps3电信优化_16
-      - ⓪V2日本onevps4_17
-      - ⓪V2日本onevps4电信优化_18
-      - ⓪V2日本onevps5移动联通优化_19
-      - ⓪V2日本onevps6移动联通优化_20
-      - ⓪V2美国洛杉矶_21
-      - ⓪V2美国洛杉矶中转（3月下架）_22
-      - ⓪V2越南_23
-      - ⓪V2越南电信优化_24
-      - ⓪V2越南移动联通优化_25
-      - ⓪V2香港DmitLite无优化_26
+      - 🇺🇸_US_美国_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
