@@ -5,144 +5,95 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"default_name_1","server":"142.202.48.74","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸_US_美国_2","server":"169.197.142.4","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.68","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_4","server":"172.99.190.92","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇺🇸_US_美国_5","server":"142.202.48.74","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇯🇵_JP_日本_6","server":"85.208.108.234","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇫🇷_FR_法国_7","server":"51.255.66.185","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_8","server":"169.197.142.4","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_9","server":"169.197.142.99","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇬🇧_GB_英国_10","server":"172.99.190.92","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇭🇰_HK_香港_11","server":"0318hk05.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":3,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0318hk05.fans8.xyz"}}}
-  - {"name":"🇯🇵_JP_日本_12","server":"85.208.108.234","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇬🇧_GB_英国_13","server":"172.99.190.92","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_14","server":"169.197.142.4","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_US_美国_15","server":"169.197.142.99","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇳_CN_中国_tg频道:bpjzx2_1","server":"cn01.efan.men","port":8720,"type":"ssr","password":"efanccyun","cipher":"rc4-md5","protocol":"origin","obfs":"http_post","obfs-param":"52035-R92k7sru9Q.download.microsoft.com"}
+  - {"name":"🇺🇸_US_美国_tg频道:atbpjzx2_2","server":"us2.tcpbbr.net","port":443,"type":"trojan","password":"283695dc-fcc8-11ea-8684-f23c913c8d2b"}
+  - {"name":"🇨🇳_CN_中国_tg频道:bpjzx2_3","server":"cn01.efan.men","port":8714,"type":"ssr","password":"efanccyun","cipher":"rc4-md5","protocol":"origin","obfs":"http_post","obfs-param":"52035-R92k7sru9Q.download.microsoft.com"}
+  - {"name":"🇨🇳_CN_中国_tg频道:bpjzx2_4","server":"cn01.efan.men","port":8755,"type":"ssr","password":"efanccyun","cipher":"rc4-md5","protocol":"origin","obfs":"http_post","obfs-param":"52035-R92k7sru9Q.download.microsoft.com"}
+  - {"name":"🇳🇱_NL_荷兰_tg频道:atbpjzx2_5","server":"213.183.51.171","port":9061,"type":"ss","cipher":"aes-256-cfb","password":"4R3hUfZ2FHhDmNcP"}
+  - {"name":"🇺🇸_US_美国_tg频道:atbpjzx2_6","server":"169.197.142.99","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_tg频道:atbpjzx2_7","server":"169.197.142.99","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_tg频道:atbpjzx2_8","server":"169.197.142.4","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - default_name_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇬🇧_GB_英国_4
-      - 🇺🇸_US_美国_5
-      - 🇯🇵_JP_日本_6
-      - 🇫🇷_FR_法国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇬🇧_GB_英国_10
-      - 🇭🇰_HK_香港_11
-      - 🇯🇵_JP_日本_12
-      - 🇬🇧_GB_英国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_1
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_2
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_3
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_4
+      - 🇳🇱_NL_荷兰_tg频道:atbpjzx2_5
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_6
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_7
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - default_name_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇬🇧_GB_英国_4
-      - 🇺🇸_US_美国_5
-      - 🇯🇵_JP_日本_6
-      - 🇫🇷_FR_法国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇬🇧_GB_英国_10
-      - 🇭🇰_HK_香港_11
-      - 🇯🇵_JP_日本_12
-      - 🇬🇧_GB_英国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_1
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_2
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_3
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_4
+      - 🇳🇱_NL_荷兰_tg频道:atbpjzx2_5
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_6
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_7
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_8
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - default_name_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇬🇧_GB_英国_4
-      - 🇺🇸_US_美国_5
-      - 🇯🇵_JP_日本_6
-      - 🇫🇷_FR_法国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇬🇧_GB_英国_10
-      - 🇭🇰_HK_香港_11
-      - 🇯🇵_JP_日本_12
-      - 🇬🇧_GB_英国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_1
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_2
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_3
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_4
+      - 🇳🇱_NL_荷兰_tg频道:atbpjzx2_5
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_6
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_7
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - default_name_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇬🇧_GB_英国_4
-      - 🇺🇸_US_美国_5
-      - 🇯🇵_JP_日本_6
-      - 🇫🇷_FR_法国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇬🇧_GB_英国_10
-      - 🇭🇰_HK_香港_11
-      - 🇯🇵_JP_日本_12
-      - 🇬🇧_GB_英国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_1
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_2
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_3
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_4
+      - 🇳🇱_NL_荷兰_tg频道:atbpjzx2_5
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_6
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_7
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_8
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - default_name_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇬🇧_GB_英国_4
-      - 🇺🇸_US_美国_5
-      - 🇯🇵_JP_日本_6
-      - 🇫🇷_FR_法国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇬🇧_GB_英国_10
-      - 🇭🇰_HK_香港_11
-      - 🇯🇵_JP_日本_12
-      - 🇬🇧_GB_英国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_1
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_2
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_3
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_4
+      - 🇳🇱_NL_荷兰_tg频道:atbpjzx2_5
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_6
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_7
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - default_name_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇬🇧_GB_英国_4
-      - 🇺🇸_US_美国_5
-      - 🇯🇵_JP_日本_6
-      - 🇫🇷_FR_法国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇬🇧_GB_英国_10
-      - 🇭🇰_HK_香港_11
-      - 🇯🇵_JP_日本_12
-      - 🇬🇧_GB_英国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_1
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_2
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_3
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_4
+      - 🇳🇱_NL_荷兰_tg频道:atbpjzx2_5
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_6
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_7
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -165,21 +116,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - default_name_1
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇬🇧_GB_英国_4
-      - 🇺🇸_US_美国_5
-      - 🇯🇵_JP_日本_6
-      - 🇫🇷_FR_法国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇬🇧_GB_英国_10
-      - 🇭🇰_HK_香港_11
-      - 🇯🇵_JP_日本_12
-      - 🇬🇧_GB_英国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_1
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_2
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_3
+      - 🇨🇳_CN_中国_tg频道:bpjzx2_4
+      - 🇳🇱_NL_荷兰_tg频道:atbpjzx2_5
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_6
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_7
+      - 🇺🇸_US_美国_tg频道:atbpjzx2_8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
