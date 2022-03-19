@@ -578,8 +578,16 @@ proxies:
   - {name: "JP, 3", server: 3.36.52.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "HK,", server: 54.169.233.50, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "HK, 2", server: 13.125.123.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国, server: 169.197.142.4, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _JP_日本, server: 85.208.108.234, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _JP_日本, server: 0314jp01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0314jp01.fans8.xyz}}, udp: true}
+  - {name: _TW_台湾, server: 0314tw01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0314tw01.fans8.xyz}}, udp: true}
+  - {name: _US_美国, server: 169.197.142.4, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _HK_香港, server: 0317hk.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0317hk.fans8.xyz}}, udp: true}
+  - {name: _US_美国 2, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _HK_香港 2, server: 0317hk.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0317hk.fans8.xyz}}, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡, server: 36.158.228.185, port: 61000, type: ss, cipher: aes-256-gcm, password: 71g@112sa2vGHA, udp: true}
+  - {name: _TW_台湾 2, server: 0314tw01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0314tw01.fans8.xyz}}, udp: true}
+  - {name: _GB_英国, server: 172.99.190.92, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _HK_香港 3, server: 0317hk.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0317hk.fans8.xyz}}, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1678,8 +1686,16 @@ proxy-groups:
       - JP, 3
       - HK,
       - HK, 2
-      - _US_美国
       - _JP_日本
+      - _TW_台湾
+      - _US_美国
+      - _HK_香港
+      - _US_美国 2
+      - _HK_香港 2
+      - _CN_中国->🇸🇬_SG_新加坡
+      - _TW_台湾 2
+      - _GB_英国
+      - _HK_香港 3
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2778,8 +2794,16 @@ proxy-groups:
       - JP, 3
       - HK,
       - HK, 2
-      - _US_美国
       - _JP_日本
+      - _TW_台湾
+      - _US_美国
+      - _HK_香港
+      - _US_美国 2
+      - _HK_香港 2
+      - _CN_中国->🇸🇬_SG_新加坡
+      - _TW_台湾 2
+      - _GB_英国
+      - _HK_香港 3
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15

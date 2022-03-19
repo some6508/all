@@ -5,95 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国_tg频道:bpjzx2_1","server":"cn01.efan.men","port":8720,"type":"ssr","password":"efanccyun","cipher":"rc4-md5","protocol":"origin","obfs":"http_post","obfs-param":"52035-R92k7sru9Q.download.microsoft.com"}
-  - {"name":"🇺🇸_US_美国_tg频道:atbpjzx2_2","server":"us2.tcpbbr.net","port":443,"type":"trojan","password":"283695dc-fcc8-11ea-8684-f23c913c8d2b"}
-  - {"name":"🇨🇳_CN_中国_tg频道:bpjzx2_3","server":"cn01.efan.men","port":8714,"type":"ssr","password":"efanccyun","cipher":"rc4-md5","protocol":"origin","obfs":"http_post","obfs-param":"52035-R92k7sru9Q.download.microsoft.com"}
-  - {"name":"🇨🇳_CN_中国_tg频道:bpjzx2_4","server":"cn01.efan.men","port":8755,"type":"ssr","password":"efanccyun","cipher":"rc4-md5","protocol":"origin","obfs":"http_post","obfs-param":"52035-R92k7sru9Q.download.microsoft.com"}
-  - {"name":"🇳🇱_NL_荷兰_tg频道:atbpjzx2_5","server":"213.183.51.171","port":9061,"type":"ss","cipher":"aes-256-cfb","password":"4R3hUfZ2FHhDmNcP"}
-  - {"name":"🇺🇸_US_美国_tg频道:atbpjzx2_6","server":"169.197.142.99","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_tg频道:atbpjzx2_7","server":"169.197.142.99","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸_US_美国_tg频道:atbpjzx2_8","server":"169.197.142.4","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"(Youtube技术分享室)🇨🇦加拿大_1","server":"198.57.27.191","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇳中国(Youtube技术分享室)_2","server":"sxqxj.cn","port":2164,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws"}}
+  - {"name":"🇺🇸_US_美国_3","server":"142.202.48.74","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"(Youtube技术分享室)🇩🇪德国_4","server":"152.70.188.10","port":443,"type":"vmess","uuid":"6ae16454-de6a-4113-c64e-0549be488f15","alterId":0,"cipher":"auto","tls":true,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"152.70.188.10"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_1
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_2
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_3
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_4
-      - 🇳🇱_NL_荷兰_tg频道:atbpjzx2_5
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_6
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_7
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_8
+      - (Youtube技术分享室)🇨🇦加拿大_1
+      - 🇨🇳中国(Youtube技术分享室)_2
+      - 🇺🇸_US_美国_3
+      - (Youtube技术分享室)🇩🇪德国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_1
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_2
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_3
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_4
-      - 🇳🇱_NL_荷兰_tg频道:atbpjzx2_5
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_6
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_7
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_8
+      - (Youtube技术分享室)🇨🇦加拿大_1
+      - 🇨🇳中国(Youtube技术分享室)_2
+      - 🇺🇸_US_美国_3
+      - (Youtube技术分享室)🇩🇪德国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_1
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_2
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_3
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_4
-      - 🇳🇱_NL_荷兰_tg频道:atbpjzx2_5
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_6
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_7
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_8
+      - (Youtube技术分享室)🇨🇦加拿大_1
+      - 🇨🇳中国(Youtube技术分享室)_2
+      - 🇺🇸_US_美国_3
+      - (Youtube技术分享室)🇩🇪德国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_1
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_2
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_3
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_4
-      - 🇳🇱_NL_荷兰_tg频道:atbpjzx2_5
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_6
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_7
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_8
+      - (Youtube技术分享室)🇨🇦加拿大_1
+      - 🇨🇳中国(Youtube技术分享室)_2
+      - 🇺🇸_US_美国_3
+      - (Youtube技术分享室)🇩🇪德国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_1
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_2
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_3
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_4
-      - 🇳🇱_NL_荷兰_tg频道:atbpjzx2_5
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_6
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_7
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_8
+      - (Youtube技术分享室)🇨🇦加拿大_1
+      - 🇨🇳中国(Youtube技术分享室)_2
+      - 🇺🇸_US_美国_3
+      - (Youtube技术分享室)🇩🇪德国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_1
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_2
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_3
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_4
-      - 🇳🇱_NL_荷兰_tg频道:atbpjzx2_5
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_6
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_7
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_8
+      - (Youtube技术分享室)🇨🇦加拿大_1
+      - 🇨🇳中国(Youtube技术分享室)_2
+      - 🇺🇸_US_美国_3
+      - (Youtube技术分享室)🇩🇪德国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,14 +88,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_1
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_2
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_3
-      - 🇨🇳_CN_中国_tg频道:bpjzx2_4
-      - 🇳🇱_NL_荷兰_tg频道:atbpjzx2_5
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_6
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_7
-      - 🇺🇸_US_美国_tg频道:atbpjzx2_8
+      - (Youtube技术分享室)🇨🇦加拿大_1
+      - 🇨🇳中国(Youtube技术分享室)_2
+      - 🇺🇸_US_美国_3
+      - (Youtube技术分享室)🇩🇪德国_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2652,6 +2620,8 @@ rules:
   - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
+  - DOMAIN-SUFFIX,teamredminer.com,🚀 节点选择
+  - DOMAIN-SUFFIX,poolbinance.com,🚀 节点选择
   - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
   - DOMAIN-SUFFIX,423down.com,🎯 全球直连
   - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
