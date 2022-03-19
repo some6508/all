@@ -573,16 +573,23 @@ proxies:
   - {name: "JP, 3", server: 3.36.52.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "HK,", server: 54.169.233.50, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "HK, 2", server: 13.125.123.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _JP_日本, server: 0314jp01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0314jp01.fans8.xyz}}, udp: true}
-  - {name: _TW_台湾, server: 0314tw01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0314tw01.fans8.xyz}}, udp: true}
-  - {name: _US_美国, server: 169.197.142.4, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _HK_香港, server: 0317hk.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0317hk.fans8.xyz}}, udp: true}
-  - {name: _US_美国 2, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _HK_香港 2, server: 0317hk.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0317hk.fans8.xyz}}, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡, server: 36.158.228.185, port: 61000, type: ss, cipher: aes-256-gcm, password: 71g@112sa2vGHA, udp: true}
-  - {name: _TW_台湾 2, server: 0314tw01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0314tw01.fans8.xyz}}, udp: true}
-  - {name: _GB_英国, server: 172.99.190.92, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _HK_香港 3, server: 0317hk.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0317hk.fans8.xyz}}, udp: true}
+  - {name: YouTube*AYANG*科技大师, server: 113.240.73.12, port: 16120, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube*AYANG*科技大师 2, server: 113.240.73.12, port: 16110, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube*AYANG*科技大师 3, server: 113.240.73.12, port: 16214, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube*AYANG*科技大师 4, server: 113.240.73.12, port: 16247, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube*AYANG*科技大师 5, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: （欢迎订阅钱科技0319）_🇺🇸_US_美国_10, server: 169.197.142.4, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_64, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: YouTube*AYANG*科技大师 6, server: 120.240.86.91, port: 16132, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube*AYANG*科技大师 7, server: 113.240.73.12, port: 16207, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_32, server: 134.195.196.3, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: （欢迎订阅钱科技0319）_🇺🇸_US_美国_6, server: 169.197.142.4, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_43, server: 134.195.196.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: （欢迎订阅钱科技0319）_🇺🇸_US_美国_3, server: 142.202.48.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_31, server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_59, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_101, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_69, server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1677,16 +1684,23 @@ proxy-groups:
       - JP, 3
       - HK,
       - HK, 2
-      - _JP_日本
-      - _TW_台湾
-      - _US_美国
-      - _HK_香港
-      - _US_美国 2
-      - _HK_香港 2
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _TW_台湾 2
-      - _GB_英国
-      - _HK_香港 3
+      - YouTube*AYANG*科技大师
+      - YouTube*AYANG*科技大师 2
+      - YouTube*AYANG*科技大师 3
+      - YouTube*AYANG*科技大师 4
+      - YouTube*AYANG*科技大师 5
+      - （欢迎订阅钱科技0319）_🇺🇸_US_美国_10
+      - （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_64
+      - YouTube*AYANG*科技大师 6
+      - YouTube*AYANG*科技大师 7
+      - （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_32
+      - （欢迎订阅钱科技0319）_🇺🇸_US_美国_6
+      - （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_43
+      - （欢迎订阅钱科技0319）_🇺🇸_US_美国_3
+      - （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_31
+      - （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_59
+      - （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_101
+      - （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_69
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2781,16 +2795,23 @@ proxy-groups:
       - JP, 3
       - HK,
       - HK, 2
-      - _JP_日本
-      - _TW_台湾
-      - _US_美国
-      - _HK_香港
-      - _US_美国 2
-      - _HK_香港 2
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _TW_台湾 2
-      - _GB_英国
-      - _HK_香港 3
+      - YouTube*AYANG*科技大师
+      - YouTube*AYANG*科技大师 2
+      - YouTube*AYANG*科技大师 3
+      - YouTube*AYANG*科技大师 4
+      - YouTube*AYANG*科技大师 5
+      - （欢迎订阅钱科技0319）_🇺🇸_US_美国_10
+      - （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_64
+      - YouTube*AYANG*科技大师 6
+      - YouTube*AYANG*科技大师 7
+      - （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_32
+      - （欢迎订阅钱科技0319）_🇺🇸_US_美国_6
+      - （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_43
+      - （欢迎订阅钱科技0319）_🇺🇸_US_美国_3
+      - （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_31
+      - （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_59
+      - （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_101
+      - （欢迎订阅钱科技0319）_🇨🇦_CA_加拿大_69
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
