@@ -5,10 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: (Youtube技术分享室)🇨🇦加拿大_1, server: 198.57.27.191, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 中国(Youtube技术分享室)_2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: _US_美国_3, server: 142.202.48.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: (Youtube技术分享室)🇩🇪德国_4, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_1, server: 169.197.142.4, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_2, server: 142.202.48.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_3, server: 142.202.48.74, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _JP_日本_4, server: 85.208.108.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_5, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: default_name_6, server: 169.197.142.4, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_7, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _JP_日本_8, server: 85.208.108.234, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国_9, server: 169.197.142.4, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_10, server: 150.230.38.180, port: 4518, type: ss, cipher: aes-256-gcm, password: baobao2019, udp: true}
   - {name: 日本(欢迎订阅Youtube破解资源君), server: br-cn-east-cu1.node-fnf.xyz, port: 10306, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本(欢迎订阅Youtube破解资源君) 2, server: br-cn-east-cu1.node-fnf.xyz, port: 10306, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
@@ -1110,10 +1116,16 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - (Youtube技术分享室)🇨🇦加拿大_1
-      - 中国(Youtube技术分享室)_2
+      - _US_美国_1
+      - _US_美国_2
       - _US_美国_3
-      - (Youtube技术分享室)🇩🇪德国_4
+      - _JP_日本_4
+      - _US_美国_5
+      - default_name_6
+      - _US_美国_7
+      - _JP_日本_8
+      - _US_美国_9
+      - _US_美国_10
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君)
@@ -2215,10 +2227,16 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - (Youtube技术分享室)🇨🇦加拿大_1
-      - 中国(Youtube技术分享室)_2
+      - _US_美国_1
+      - _US_美国_2
       - _US_美国_3
-      - (Youtube技术分享室)🇩🇪德国_4
+      - _JP_日本_4
+      - _US_美国_5
+      - default_name_6
+      - _US_美国_7
+      - _JP_日本_8
+      - _US_美国_9
+      - _US_美国_10
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君)
