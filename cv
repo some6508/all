@@ -5,21 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: default_name_1, server: 142.202.48.74, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国_2, server: 169.197.142.4, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大_3, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国_4, server: 172.99.190.92, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国_5, server: 142.202.48.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _JP_日本_6, server: 85.208.108.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _FR_法国_7, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国_8, server: 169.197.142.4, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_9, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _GB_英国_10, server: 172.99.190.92, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _HK_香港_11, server: 0318hk05.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0318hk05.fans8.xyz}}, udp: true}
-  - {name: _JP_日本_12, server: 85.208.108.234, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _GB_英国_13, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国_14, server: 169.197.142.4, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国_15, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CN_中国_tg频道:bpjzx2_1, server: cn01.efan.men, port: 8720, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: _US_美国_tg频道:atbpjzx2_2, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_tg频道:bpjzx2_3, server: cn01.efan.men, port: 8714, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: _CN_中国_tg频道:bpjzx2_4, server: cn01.efan.men, port: 8755, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: _NL_荷兰_tg频道:atbpjzx2_5, server: 213.183.51.171, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
+  - {name: _US_美国_tg频道:atbpjzx2_6, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_tg频道:atbpjzx2_7, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_tg频道:atbpjzx2_8, server: 169.197.142.4, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 日本(欢迎订阅Youtube破解资源君), server: br-cn-east-cu1.node-fnf.xyz, port: 10306, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本(欢迎订阅Youtube破解资源君) 2, server: br-cn-east-cu1.node-fnf.xyz, port: 10306, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
@@ -1111,21 +1104,14 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - default_name_1
-      - _US_美国_2
-      - _CA_加拿大_3
-      - _GB_英国_4
-      - _US_美国_5
-      - _JP_日本_6
-      - _FR_法国_7
-      - _US_美国_8
-      - _US_美国_9
-      - _GB_英国_10
-      - _HK_香港_11
-      - _JP_日本_12
-      - _GB_英国_13
-      - _US_美国_14
-      - _US_美国_15
+      - _CN_中国_tg频道:bpjzx2_1
+      - _US_美国_tg频道:atbpjzx2_2
+      - _CN_中国_tg频道:bpjzx2_3
+      - _CN_中国_tg频道:bpjzx2_4
+      - _NL_荷兰_tg频道:atbpjzx2_5
+      - _US_美国_tg频道:atbpjzx2_6
+      - _US_美国_tg频道:atbpjzx2_7
+      - _US_美国_tg频道:atbpjzx2_8
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君)
@@ -2217,21 +2203,14 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - default_name_1
-      - _US_美国_2
-      - _CA_加拿大_3
-      - _GB_英国_4
-      - _US_美国_5
-      - _JP_日本_6
-      - _FR_法国_7
-      - _US_美国_8
-      - _US_美国_9
-      - _GB_英国_10
-      - _HK_香港_11
-      - _JP_日本_12
-      - _GB_英国_13
-      - _US_美国_14
-      - _US_美国_15
+      - _CN_中国_tg频道:bpjzx2_1
+      - _US_美国_tg频道:atbpjzx2_2
+      - _CN_中国_tg频道:bpjzx2_3
+      - _CN_中国_tg频道:bpjzx2_4
+      - _NL_荷兰_tg频道:atbpjzx2_5
+      - _US_美国_tg频道:atbpjzx2_6
+      - _US_美国_tg频道:atbpjzx2_7
+      - _US_美国_tg频道:atbpjzx2_8
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君)
