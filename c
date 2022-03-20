@@ -6,6 +6,11 @@ log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
   - {"name":"🇺🇸_US_美国_1","server":"167.88.61.175","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_2","server":"0319ru99.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"0319ru99.fans8.xyz"}}}
+  - {"name":"🇺🇸_US_美国_3","server":"169.197.142.4","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇹🇼_TW_台湾_4","server":"0314tw02.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0314tw02.fans8.xyz"}}}
+  - {"name":"🇫🇷_FR_法国_5","server":"51.255.66.185","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.3","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +18,11 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇺🇸_US_美国_3
+      - 🇹🇼_TW_台湾_4
+      - 🇫🇷_FR_法国_5
+      - 🇨🇦_CA_加拿大_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,6 +30,11 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇺🇸_US_美国_3
+      - 🇹🇼_TW_台湾_4
+      - 🇫🇷_FR_法国_5
+      - 🇨🇦_CA_加拿大_6
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -27,24 +42,44 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇺🇸_US_美国_3
+      - 🇹🇼_TW_台湾_4
+      - 🇫🇷_FR_法国_5
+      - 🇨🇦_CA_加拿大_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇺🇸_US_美国_3
+      - 🇹🇼_TW_台湾_4
+      - 🇫🇷_FR_法国_5
+      - 🇨🇦_CA_加拿大_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇺🇸_US_美国_3
+      - 🇹🇼_TW_台湾_4
+      - 🇫🇷_FR_法国_5
+      - 🇨🇦_CA_加拿大_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇺🇸_US_美国_3
+      - 🇹🇼_TW_台湾_4
+      - 🇫🇷_FR_法国_5
+      - 🇨🇦_CA_加拿大_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -68,6 +103,11 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇺🇸_US_美国_3
+      - 🇹🇼_TW_台湾_4
+      - 🇫🇷_FR_法国_5
+      - 🇨🇦_CA_加拿大_6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
