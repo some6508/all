@@ -5,21 +5,34 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国_1, server: 169.197.142.4, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国_2, server: 169.197.142.4, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _HK_香港_3, server: 0318hk05.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0318hk05.fans8.xyz}}, udp: true}
-  - {name: _CA_加拿大_4, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大_5, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大_6, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大_7, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大_8, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_9, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大_10, server: 134.195.196.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大_11, server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国_12, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: _GB_英国_13, server: 172.99.190.92, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国_14, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _FR_法国_15, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 馃嚟馃嚢+HK_644, server: api.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: 馃嚡馃嚨JP_737, server: jp-am48-9.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3H2aN5Gnm, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 馃嚡馃嚨JP_744, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1031kr.fans8.xyz}}, udp: true}
+  - {name: 馃嚡馃嚨+JP_745, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03, skip-cert-verify: true, udp: true}
+  - {name: 馃嚡馃嚨+JP_746, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 馃嚡馃嚨+JP_747, server: tky3.ssgnode.ga, port: 443, type: trojan, password: bcYWVzLTI1Ni1nY206Q1VuZFNabll23115_5a451f03, skip-cert-verify: true, udp: true}
+  - {name: 馃嚡馃嚨+JP_748, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 馃嚡馃嚨+JP_749, server: tky3.ssgnode.ga, port: 443, type: trojan, password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 馃嚡馃嚨+JP_750, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82a115db-6e59-4319-9730-8f5638908d59YWVzLTI1Ni1nY2023115_5a451f03, skip-cert-verify: true, udp: true}
+  - {name: 馃嚬馃嚰+TW_1019, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: 馃嚬馃嚰+TW_1021, server: tw.tcpbbr.net, port: 443, type: trojan, password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: 台湾1-三网优化_14, server: 0222tw.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0222tw.fans8.xyz}}, udp: true}
+  - {name: 台湾3-三网优化_15, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw02.fans8.xyz}}, udp: true}
+  - {name: 台湾5-三网优化_16, server: 0218tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218tw02.fans8.xyz}}, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_349, server: 118.wowogg.cyou, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_361, server: sh-hk-hgc-100m-tr.cdn.savoy.click, port: 20189, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, skip-cert-verify: true, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_362, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, skip-cert-verify: true, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_363, server: fsyd.wecanfly.top, port: 51221, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, skip-cert-verify: true, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_367, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, skip-cert-verify: true, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_369, server: cscu.wecanfly.top, port: 51132, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, skip-cert-verify: true, udp: true}
+  - {name: Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_567, server: 128.wgong.xyz, port: 52228, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_577, server: 128.wowogg.cyou, port: 52228, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_583, server: 133.wowogg.cyou, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_585, server: 136.wowogg.cyou, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 馃嚟馃嚢HK_648, server: 116.wowogg.cyou, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 馃嚟馃嚢HK_649, server: 117.wowogg.cyou, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 馃嚟馃嚢HK_651, server: 122.wowogg.cyou, port: 52222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 馃嚟馃嚢HK_666, server: 90.wowogg.cyou, port: 52290, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本(欢迎订阅Youtube破解资源君), server: br-cn-east-cu1.node-fnf.xyz, port: 10306, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本(欢迎订阅Youtube破解资源君) 2, server: br-cn-east-cu1.node-fnf.xyz, port: 10306, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
@@ -1128,21 +1141,34 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _US_美国_1
-      - _US_美国_2
-      - _HK_香港_3
-      - _CA_加拿大_4
-      - _CA_加拿大_5
-      - _CA_加拿大_6
-      - _CA_加拿大_7
-      - _CA_加拿大_8
-      - _CA_加拿大_9
-      - _CA_加拿大_10
-      - _CA_加拿大_11
-      - _US_美国_12
-      - _GB_英国_13
-      - _GB_英国_14
-      - _FR_法国_15
+      - 馃嚟馃嚢+HK_644
+      - 馃嚡馃嚨JP_737
+      - 馃嚡馃嚨JP_744
+      - 馃嚡馃嚨+JP_745
+      - 馃嚡馃嚨+JP_746
+      - 馃嚡馃嚨+JP_747
+      - 馃嚡馃嚨+JP_748
+      - 馃嚡馃嚨+JP_749
+      - 馃嚡馃嚨+JP_750
+      - 馃嚬馃嚰+TW_1019
+      - 馃嚬馃嚰+TW_1021
+      - 台湾1-三网优化_14
+      - 台湾3-三网优化_15
+      - 台湾5-三网优化_16
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_349
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_361
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_362
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_363
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_367
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_369
+      - Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_567
+      - Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_577
+      - Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_583
+      - Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_585
+      - 馃嚟馃嚢HK_648
+      - 馃嚟馃嚢HK_649
+      - 馃嚟馃嚢HK_651
+      - 馃嚟馃嚢HK_666
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君)
@@ -2251,21 +2277,34 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _US_美国_1
-      - _US_美国_2
-      - _HK_香港_3
-      - _CA_加拿大_4
-      - _CA_加拿大_5
-      - _CA_加拿大_6
-      - _CA_加拿大_7
-      - _CA_加拿大_8
-      - _CA_加拿大_9
-      - _CA_加拿大_10
-      - _CA_加拿大_11
-      - _US_美国_12
-      - _GB_英国_13
-      - _GB_英国_14
-      - _FR_法国_15
+      - 馃嚟馃嚢+HK_644
+      - 馃嚡馃嚨JP_737
+      - 馃嚡馃嚨JP_744
+      - 馃嚡馃嚨+JP_745
+      - 馃嚡馃嚨+JP_746
+      - 馃嚡馃嚨+JP_747
+      - 馃嚡馃嚨+JP_748
+      - 馃嚡馃嚨+JP_749
+      - 馃嚡馃嚨+JP_750
+      - 馃嚬馃嚰+TW_1019
+      - 馃嚬馃嚰+TW_1021
+      - 台湾1-三网优化_14
+      - 台湾3-三网优化_15
+      - 台湾5-三网优化_16
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_349
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_361
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_362
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_363
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_367
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_369
+      - Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_567
+      - Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_577
+      - Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_583
+      - Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_585
+      - 馃嚟馃嚢HK_648
+      - 馃嚟馃嚢HK_649
+      - 馃嚟馃嚢HK_651
+      - 馃嚟馃嚢HK_666
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君)
