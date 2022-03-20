@@ -562,6 +562,16 @@ proxies:
   - {name: "JP, 3", server: 3.36.52.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "HK,", server: 54.169.233.50, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "HK, 2", server: 13.125.123.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国, server: 169.197.142.4, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 2, server: 169.197.142.4, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 3, server: 169.197.142.4, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 4, server: 169.197.142.4, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 5, server: 169.197.142.4, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 6, server: 169.197.142.4, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 7, server: 169.197.142.4, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 8, server: 169.197.142.4, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 9, server: 169.197.142.4, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 10, server: 167.88.61.175, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1643,6 +1653,16 @@ proxy-groups:
       - JP, 3
       - HK,
       - HK, 2
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2724,6 +2744,16 @@ proxy-groups:
       - JP, 3
       - HK,
       - HK, 2
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
