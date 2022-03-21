@@ -64,7 +64,7 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-  # https://free.zdl.im/clash/proxies?nc=CA,US,ZZ,JP,CN,CN,TW,HK,GB,FR,SG,KR&type=ss,ssr,vmess
+  # https://free.zdl.im/clash/proxies?nc=CA,US,ZZ,JP,CN,CN,TW,HK,GB,FR,SG,KR,DE&type=ss,ssr,vmess
   other_1:
     type: http
     url: "https://gitee.com/lcx12901/clash-profile/raw/master/sspool.herokuapp.com/other_1.yaml"
@@ -73,7 +73,7 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-  # https://proxy.leefake.xyz/clash/proxies?nc=CA,US,ZZ,JP,CN,CN,TW,HK,GB,FR,SG,KR&type=ss,ssr,vmess   
+  # https://proxy.leefake.xyz/clash/proxies?nc=CA,US,ZZ,JP,CN,CN,TW,HK,GB,FR,SG,KR,DE&type=ss,ssr,vmess   
   other_2:
     type: http
     url: "https://gitee.com/lcx12901/clash-profile/raw/master/sspool.herokuapp.com/other_2.yaml"
@@ -82,7 +82,7 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-  # https://fq.lonxin.net/clash/proxies?nc=AE,AU,BE,DE,US,JP,TW,CN,HK,FR,GB,SG,KR&type=ss,ssr,vmess   
+  # https://fq.lonxin.net/clash/proxies?nc=AE,AU,BE,DE,US,JP,TW,CN,HK,FR,GB,SG,KR,DE&type=ss,ssr,vmess   
   other_3:
     type: http
     url: "https://gitee.com/lcx12901/clash-profile/raw/master/sspool.herokuapp.com/other_3.yaml"
@@ -91,7 +91,7 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-  # https://sspool.herokuapp.com/clash/proxies?nc=CN,HK,TW,US,JP,ZZ,GB,FR,SG,KR&type=ss,ssr,vmess
+  # https://sspool.herokuapp.com/clash/proxies?nc=CN,HK,TW,US,JP,ZZ,GB,FR,SG,KR,DE&type=ss,ssr,vmess
   other_4:
     type: http
     url: "https://gitee.com/lcx12901/clash-profile/raw/master/sspool.herokuapp.com/other_4.yaml"
