@@ -1154,26 +1154,31 @@ proxies:
   - {name: "JP, 3", server: 3.36.52.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "HK,", server: 54.169.233.50, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "HK, 2", server: 13.125.123.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国, server: 142.202.48.7, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 2, server: 20.25.107.72, port: 500, type: ss, cipher: aes-128-gcm, password: "@VPNFolder", udp: true}
-  - {name: _JP_日本, server: japan.fanqiangvpn.com, port: 443, type: vmess, uuid: afc34a50-76f7-4fb1-9393-c5da1c1a54db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /www.fanqiangvpn.com, headers: {Host: japan.fanqiangvpn.com}}, udp: true}
-  - {name: _US_美国 3, server: 142.202.48.7, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 4, server: 38.75.137.66, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _HK_香港->🇸🇬_SG_新加坡, server: 207.46.133.23, port: 443, type: vmess, uuid: d5c70a71-1b3c-41f2-a8e0-17323bc23821, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/sg, headers: {Host: sgav2.ddns.tjiasu.xyz}}, udp: true}
-  - {name: _US_美国 5, server: 142.202.48.7, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国 6, server: 173.255.215.146, port: 11443, type: vmess, uuid: d5c70a71-1b3c-41f2-a8e0-17323bc23821, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/common, headers: {Host: usav2.ddns.tjiasu.xyz}}, udp: true}
+  - {name: _US_美国, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 2, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _RU_俄罗斯联邦, server: 0319ru99.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319ru99.fans8.xyz}}, udp: true}
+  - {name: _US_美国 3, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 4, server: 142.202.48.7, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: _PL_波兰, server: 194.15.196.66, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _TW_台湾, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0314tw02.fans8.xyz}}, udp: true}
-  - {name: _US_美国 7, server: 142.202.48.7, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国 8, server: 38.75.137.66, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 9, server: 173.255.215.146, port: 443, type: vmess, uuid: d5c70a71-1b3c-41f2-a8e0-17323bc23821, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/common, headers: {Host: usav2.ddns.tjiasu.xyz}}, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: sg.xxioixx.com, port: 8443, type: vmess, uuid: e9a1bf07-ba3c-2bf0-c18a-632c80084fbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /10010vws, headers: {Host: sg.xxioixx.com}}, udp: true}
-  - {name: _US_美国 10, server: 38.75.137.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _PL_波兰 2, server: 194.15.196.66, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 11, server: 38.75.137.66, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 12, server: 142.202.48.7, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _KR_韩国, server: 158.247.208.102, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _SE_瑞典, server: 51.12.89.247, port: 500, type: ss, cipher: aes-128-gcm, password: "@VPNFolder", udp: true}
+  - {name: _US_美国 5, server: 142.202.48.7, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _PL_波兰 2, server: 194.15.196.66, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 6, server: 142.202.48.7, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国 7, server: 38.75.137.66, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 8, server: 142.202.48.7, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.3, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: _VN_越南, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
+  - {name: _PL_波兰 3, server: 194.15.196.66, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 9, server: my.aoyyds.ga, port: 2087, type: vmess, uuid: d9bd1887-54dc-4380-b9df-42977a24b453, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xsqfvws, headers: {Host: my.aoyyds.ga}}, udp: true}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: sg.xxioixx.com, port: 8443, type: vmess, uuid: e9a1bf07-ba3c-2bf0-c18a-632c80084fbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /10010vws, headers: {Host: sg.xxioixx.com}}, udp: true}
+  - {name: _US_美国 10, server: 38.75.137.66, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 11, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -3443,25 +3448,30 @@ proxy-groups:
       - HK,
       - HK, 2
       - _US_美国
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _GB_英国
       - _US_美国 2
-      - _JP_日本
+      - _RU_俄罗斯联邦
       - _US_美国 3
       - _US_美国 4
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _US_美国 5
-      - _US_美国 6
       - _PL_波兰
-      - _TW_台湾
+      - _SE_瑞典
+      - _US_美国 5
+      - _PL_波兰 2
+      - _US_美国 6
       - _US_美国 7
       - _US_美国 8
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _VN_越南
+      - _PL_波兰 3
       - _US_美国 9
       - _US_美国->🇷🇺_RU_俄罗斯联邦
       - _US_美国 10
-      - _PL_波兰 2
       - _US_美国 11
-      - _US_美国 12
-      - _KR_韩国
-      - _VN_越南
+      - _CA_加拿大 6
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -5731,25 +5741,30 @@ proxy-groups:
       - HK,
       - HK, 2
       - _US_美国
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _GB_英国
       - _US_美国 2
-      - _JP_日本
+      - _RU_俄罗斯联邦
       - _US_美国 3
       - _US_美国 4
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _US_美国 5
-      - _US_美国 6
       - _PL_波兰
-      - _TW_台湾
+      - _SE_瑞典
+      - _US_美国 5
+      - _PL_波兰 2
+      - _US_美国 6
       - _US_美国 7
       - _US_美国 8
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _VN_越南
+      - _PL_波兰 3
       - _US_美国 9
       - _US_美国->🇷🇺_RU_俄罗斯联邦
       - _US_美国 10
-      - _PL_波兰 2
       - _US_美国 11
-      - _US_美国 12
-      - _KR_韩国
-      - _VN_越南
+      - _CA_加拿大 6
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
