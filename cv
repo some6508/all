@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _TW_台湾_1, server: 0320tw1731.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nl, headers: {Host: 0320tw1731.fans8.xyz}}, udp: true}
+  - {name: _CA_加拿大_1, server: 134.195.196.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: 128.1.38.37, port: 46033, type: vmess, uuid: fa6a9730-78e9-4416-9830-d3b935acbde1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: 167.71.197.50, port: 44194, type: vmess, uuid: 5cc6c2cf-af81-4341-f8f7-af8a83804d46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君), server: 65.52.171.156, port: 15031, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 65.52.171.156}}, udp: true}
@@ -2180,7 +2180,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _TW_台湾_1
+      - _CA_加拿大_1
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君)
@@ -4355,7 +4355,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _TW_台湾_1
+      - _CA_加拿大_1
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 香港(欢迎订阅Youtube破解资源君)
