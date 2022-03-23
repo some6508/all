@@ -5,53 +5,74 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"tmxk.herokuapp.com","port":443,"type":"vmess","uuid":"ad806487-2d26-4636-98b6-ab85cc8521f7","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"default_name_2","server":"198.41.212.8","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero1.a-yu.xyz"}}}
+  - {"name":"🇰🇷_KR_韩国_1","server":"vs.mumi.bid","port":10124,"type":"vmess","uuid":"0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇯🇵_JP_日本_2","server":"0320jp.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0320jp.fans8.xyz"}}}
+  - {"name":"🇰🇷_KR_韩国_3","server":"vs.mumi.bid","port":10124,"type":"vmess","uuid":"0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇯🇵_JP_日本_4","server":"0320jp.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0320jp.fans8.xyz"}}}
+  - {"name":"🇰🇷_KR_韩国_5","server":"vs.mumi.bid","port":10124,"type":"vmess","uuid":"0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - default_name_2
+      - 🇰🇷_KR_韩国_1
+      - 🇯🇵_JP_日本_2
+      - 🇰🇷_KR_韩国_3
+      - 🇯🇵_JP_日本_4
+      - 🇰🇷_KR_韩国_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - default_name_2
+      - 🇰🇷_KR_韩国_1
+      - 🇯🇵_JP_日本_2
+      - 🇰🇷_KR_韩国_3
+      - 🇯🇵_JP_日本_4
+      - 🇰🇷_KR_韩国_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - default_name_2
+      - 🇰🇷_KR_韩国_1
+      - 🇯🇵_JP_日本_2
+      - 🇰🇷_KR_韩国_3
+      - 🇯🇵_JP_日本_4
+      - 🇰🇷_KR_韩国_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - default_name_2
+      - 🇰🇷_KR_韩国_1
+      - 🇯🇵_JP_日本_2
+      - 🇰🇷_KR_韩国_3
+      - 🇯🇵_JP_日本_4
+      - 🇰🇷_KR_韩国_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - default_name_2
+      - 🇰🇷_KR_韩国_1
+      - 🇯🇵_JP_日本_2
+      - 🇰🇷_KR_韩国_3
+      - 🇯🇵_JP_日本_4
+      - 🇰🇷_KR_韩国_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - default_name_2
+      - 🇰🇷_KR_韩国_1
+      - 🇯🇵_JP_日本_2
+      - 🇰🇷_KR_韩国_3
+      - 🇯🇵_JP_日本_4
+      - 🇰🇷_KR_韩国_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +95,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - default_name_2
+      - 🇰🇷_KR_韩国_1
+      - 🇯🇵_JP_日本_2
+      - 🇰🇷_KR_韩国_3
+      - 🇯🇵_JP_日本_4
+      - 🇰🇷_KR_韩国_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
