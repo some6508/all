@@ -5,15 +5,138 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国_1, server: my.aoyyds.ga, port: 2087, type: vmess, uuid: d9bd1887-54dc-4380-b9df-42977a24b453, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xsqfvws, headers: {Host: my.aoyyds.ga}}, udp: true}
-  - {name: _PL_波兰_2, server: 194.15.196.66, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _VN_越南_3, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
-  - {name: _SE_瑞典_4, server: VPNFolder@51.12.89.247, port: 500, type: ss, cipher: aes-128-gcm, password: "", udp: true}
-  - {name: _GB_英国_5, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _HK_香港->🇳🇱_NL_荷兰_6, server: gy.qsbg.xyz, port: 21311, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
-  - {name: _PL_波兰_7, server: 194.15.196.66, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国_8, server: restless-lake-c439.377955635.workers.dev, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: restless-lake-c439.377955635.workers.dev}}, udp: true}
-  - {name: default_name_9, server: bpjzx2.cainiao.tk, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: bpjzx2.cainiao.tk}}, udp: true}
+  - {name: _中国_g_1, server: 14.29.124.168, port: 16015, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_2, server: 14.29.124.168, port: 31006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_3, server: 14.29.124.168, port: 31022, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_4, server: 14.29.124.168, port: 31013, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_5, server: 14.29.124.168, port: 31001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_6, server: 14.29.124.168, port: 31059, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_7, server: 14.29.124.168, port: 31020, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_8, server: 14.29.124.168, port: 31026, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_9, server: 14.29.124.168, port: 31014, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_10, server: 14.29.124.168, port: 31029, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_11, server: 14.29.124.168, port: 31054, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_12, server: 14.29.124.168, port: 31042, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_13, server: 14.29.124.168, port: 16033, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_14, server: 14.29.124.168, port: 31032, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_15, server: 14.29.124.168, port: 31024, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_16, server: 14.29.124.168, port: 31000, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_17, server: 14.29.124.168, port: 31058, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_18, server: 14.29.124.168, port: 31015, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_19, server: 14.29.124.168, port: 31045, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_20, server: 14.29.124.168, port: 31053, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_21, server: 14.29.124.168, port: 31003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_22, server: 14.29.124.168, port: 31004, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_23, server: 14.29.124.168, port: 31018, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_24, server: 14.29.124.168, port: 31008, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_25, server: 14.29.124.168, port: 31038, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_26, server: 14.29.124.168, port: 31028, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_27, server: 14.29.124.168, port: 31062, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_28, server: 14.29.124.168, port: 31002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_29, server: 14.29.124.168, port: 31052, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_30, server: 14.29.124.168, port: 31046, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_31, server: 14.29.124.168, port: 31009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_32, server: 14.29.124.168, port: 31044, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_33, server: 14.29.124.168, port: 31057, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_34, server: 14.29.124.168, port: 31033, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_35, server: 14.29.124.168, port: 31023, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_36, server: 14.29.124.168, port: 31011, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_37, server: 14.29.124.168, port: 31027, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_38, server: 14.29.124.168, port: 31017, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_39, server: 14.29.124.168, port: 31007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_40, server: 14.29.124.168, port: 31034, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_41, server: 14.29.124.168, port: 31061, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_42, server: 14.29.124.168, port: 31043, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_43, server: 14.29.124.168, port: 31005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_44, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_45, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_46, server: 14.29.124.168, port: 25203, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_47, server: 14.29.124.168, port: 25258, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_48, server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_49, server: 14.29.124.168, port: 25204, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_50, server: 14.29.124.168, port: 25277, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_51, server: 14.29.124.168, port: 25250, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_52, server: 14.29.124.168, port: 25260, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_53, server: 14.29.124.168, port: 25244, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_54, server: 14.29.124.168, port: 25240, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_55, server: 14.29.124.168, port: 25100, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_56, server: 14.29.124.168, port: 25243, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_57, server: 14.29.124.168, port: 25223, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_58, server: 14.29.124.168, port: 25264, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_59, server: 14.29.124.168, port: 25215, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_60, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_61, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_62, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_63, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_64, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_65, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_66, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_67, server: 14.29.124.168, port: 31035, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_68, server: 14.29.124.168, port: 25272, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_69, server: 14.29.124.168, port: 25201, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_70, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_71, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_72, server: 14.29.124.168, port: 25236, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_73, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_74, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_75, server: 14.29.124.168, port: 25234, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_76, server: 14.29.124.168, port: 25248, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_77, server: 14.29.124.168, port: 25216, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_78, server: 14.29.124.168, port: 25246, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_79, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_80, server: 14.29.124.168, port: 25257, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_81, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_82, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_83, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_84, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_85, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_86, server: 14.29.124.168, port: 25225, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_87, server: 14.29.124.168, port: 25221, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_88, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_89, server: 14.29.124.168, port: 25214, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_90, server: 14.29.124.168, port: 25211, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_91, server: 14.29.124.168, port: 25292, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_92, server: 14.29.124.168, port: 25237, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_93, server: 14.29.124.168, port: 25299, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_94, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_95, server: 14.29.124.168, port: 25232, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_96, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_97, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_98, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_99, server: 14.29.124.168, port: 25227, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_100, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_101, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_102, server: 14.29.124.168, port: 25274, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_103, server: 14.29.124.168, port: 25298, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_104, server: 14.29.124.168, port: 25288, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_105, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_106, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_107, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_108, server: 14.29.124.168, port: 25262, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_109, server: 14.29.124.168, port: 25269, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_110, server: 14.29.124.168, port: 25202, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_111, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_112, server: 14.29.124.168, port: 25285, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_113, server: 14.29.124.168, port: 25205, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_114, server: 14.29.124.168, port: 25290, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_115, server: 14.29.124.168, port: 25249, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_116, server: 14.29.124.168, port: 25208, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_117, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_118, server: 14.29.124.168, port: 25206, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_119, server: 14.29.124.168, port: 25224, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_120, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_121, server: 14.29.124.168, port: 25200, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_122, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_123, server: 14.29.124.168, port: 25281, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_124, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_125, server: 14.29.124.168, port: 25212, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_126, server: 14.29.124.168, port: 25255, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_127, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_128, server: 14.29.124.168, port: 16043, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_129, server: 14.29.124.168, port: 15031, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_130, server: 14.29.124.168, port: 15016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_131, server: 14.29.124.168, port: 15001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _中国_g_132, server: 14.29.124.168, port: 15043, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: 128.1.38.37, port: 46033, type: vmess, uuid: fa6a9730-78e9-4416-9830-d3b935acbde1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君), server: 13.75.95.54, port: 10008, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: t.me/vpnhat}}, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君) 2, server: 13.75.95.54, port: 10037, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: t.me/vpnhat}}, udp: true}
@@ -2139,18 +2262,19 @@ proxies:
   - {name: Ytb:鹏哥分享_加拿大_134, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_13, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_178, server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: github.com/freefq - 美国  1, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 澳大利亚  2, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
-  - {name: github.com/freefq - 北美地区  3, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: github.com/freefq - 北美地区  4, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: github.com/freefq - 上海市电信 5, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: github.com/freefq - 北美地区  6, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: github.com/freefq - 北美地区  7, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 美国  8, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: github.com/freefq - 北美地区  9, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 北美地区  10, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 北美地区  11, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 12, server: app.ssfree.ru, port: 443, type: vmess, uuid: 21eb7e92-a9f9-11ec-86db-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 北美地区  1, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: github.com/freefq - 北美地区  2, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: github.com/freefq - 澳大利亚  3, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
+  - {name: github.com/freefq - 美国  4, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: github.com/freefq - 北美地区  5, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 北美地区  6, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 7, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, servername: v2fly.samrt.website, network: ws, ws-opts: {path: /chaug, headers: {Host: v2fly.samrt.website}}, udp: true}
+  - {name: github.com/freefq - 北美地区  8, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: github.com/freefq - 北美地区  9, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 美国  10, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 上海市电信 11, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 12, server: app.ssfree.ru, port: 443, type: vmess, uuid: b72ac83c-aa5d-11ec-90d1-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 北美地区  13, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: "香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e, udp: true}
   - {name: jc.ap.fastqvpn.com:29980, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 8A6【精品】穗-港PCCW | V2RAY隧道, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
@@ -2323,15 +2447,138 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _US_美国_1
-      - _PL_波兰_2
-      - _VN_越南_3
-      - _SE_瑞典_4
-      - _GB_英国_5
-      - _HK_香港->🇳🇱_NL_荷兰_6
-      - _PL_波兰_7
-      - _US_美国_8
-      - default_name_9
+      - _中国_g_1
+      - _中国_g_2
+      - _中国_g_3
+      - _中国_g_4
+      - _中国_g_5
+      - _中国_g_6
+      - _中国_g_7
+      - _中国_g_8
+      - _中国_g_9
+      - _中国_g_10
+      - _中国_g_11
+      - _中国_g_12
+      - _中国_g_13
+      - _中国_g_14
+      - _中国_g_15
+      - _中国_g_16
+      - _中国_g_17
+      - _中国_g_18
+      - _中国_g_19
+      - _中国_g_20
+      - _中国_g_21
+      - _中国_g_22
+      - _中国_g_23
+      - _中国_g_24
+      - _中国_g_25
+      - _中国_g_26
+      - _中国_g_27
+      - _中国_g_28
+      - _中国_g_29
+      - _中国_g_30
+      - _中国_g_31
+      - _中国_g_32
+      - _中国_g_33
+      - _中国_g_34
+      - _中国_g_35
+      - _中国_g_36
+      - _中国_g_37
+      - _中国_g_38
+      - _中国_g_39
+      - _中国_g_40
+      - _中国_g_41
+      - _中国_g_42
+      - _中国_g_43
+      - _中国_g_44
+      - _中国_g_45
+      - _中国_g_46
+      - _中国_g_47
+      - _中国_g_48
+      - _中国_g_49
+      - _中国_g_50
+      - _中国_g_51
+      - _中国_g_52
+      - _中国_g_53
+      - _中国_g_54
+      - _中国_g_55
+      - _中国_g_56
+      - _中国_g_57
+      - _中国_g_58
+      - _中国_g_59
+      - _中国_g_60
+      - _中国_g_61
+      - _中国_g_62
+      - _中国_g_63
+      - _中国_g_64
+      - _中国_g_65
+      - _中国_g_66
+      - _中国_g_67
+      - _中国_g_68
+      - _中国_g_69
+      - _中国_g_70
+      - _中国_g_71
+      - _中国_g_72
+      - _中国_g_73
+      - _中国_g_74
+      - _中国_g_75
+      - _中国_g_76
+      - _中国_g_77
+      - _中国_g_78
+      - _中国_g_79
+      - _中国_g_80
+      - _中国_g_81
+      - _中国_g_82
+      - _中国_g_83
+      - _中国_g_84
+      - _中国_g_85
+      - _中国_g_86
+      - _中国_g_87
+      - _中国_g_88
+      - _中国_g_89
+      - _中国_g_90
+      - _中国_g_91
+      - _中国_g_92
+      - _中国_g_93
+      - _中国_g_94
+      - _中国_g_95
+      - _中国_g_96
+      - _中国_g_97
+      - _中国_g_98
+      - _中国_g_99
+      - _中国_g_100
+      - _中国_g_101
+      - _中国_g_102
+      - _中国_g_103
+      - _中国_g_104
+      - _中国_g_105
+      - _中国_g_106
+      - _中国_g_107
+      - _中国_g_108
+      - _中国_g_109
+      - _中国_g_110
+      - _中国_g_111
+      - _中国_g_112
+      - _中国_g_113
+      - _中国_g_114
+      - _中国_g_115
+      - _中国_g_116
+      - _中国_g_117
+      - _中国_g_118
+      - _中国_g_119
+      - _中国_g_120
+      - _中国_g_121
+      - _中国_g_122
+      - _中国_g_123
+      - _中国_g_124
+      - _中国_g_125
+      - _中国_g_126
+      - _中国_g_127
+      - _中国_g_128
+      - _中国_g_129
+      - _中国_g_130
+      - _中国_g_131
+      - _中国_g_132
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
@@ -4457,18 +4704,19 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_134
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
-      - github.com/freefq - 美国  1
-      - github.com/freefq - 澳大利亚  2
-      - github.com/freefq - 北美地区  3
-      - github.com/freefq - 北美地区  4
-      - github.com/freefq - 上海市电信 5
+      - github.com/freefq - 北美地区  1
+      - github.com/freefq - 北美地区  2
+      - github.com/freefq - 澳大利亚  3
+      - github.com/freefq - 美国  4
+      - github.com/freefq - 北美地区  5
       - github.com/freefq - 北美地区  6
-      - github.com/freefq - 北美地区  7
-      - github.com/freefq - 美国  8
+      - github.com/freefq - 美国CloudFlare公司CDN节点 7
+      - github.com/freefq - 北美地区  8
       - github.com/freefq - 北美地区  9
-      - github.com/freefq - 北美地区  10
-      - github.com/freefq - 北美地区  11
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 上海市电信 11
       - github.com/freefq - 美国CloudFlare节点 12
+      - github.com/freefq - 北美地区  13
       - 香港(中国)🚀[极速稳定]
       - jc.ap.fastqvpn.com:29980
       - 8A6【精品】穗-港PCCW | V2RAY隧道
@@ -4641,15 +4889,138 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _US_美国_1
-      - _PL_波兰_2
-      - _VN_越南_3
-      - _SE_瑞典_4
-      - _GB_英国_5
-      - _HK_香港->🇳🇱_NL_荷兰_6
-      - _PL_波兰_7
-      - _US_美国_8
-      - default_name_9
+      - _中国_g_1
+      - _中国_g_2
+      - _中国_g_3
+      - _中国_g_4
+      - _中国_g_5
+      - _中国_g_6
+      - _中国_g_7
+      - _中国_g_8
+      - _中国_g_9
+      - _中国_g_10
+      - _中国_g_11
+      - _中国_g_12
+      - _中国_g_13
+      - _中国_g_14
+      - _中国_g_15
+      - _中国_g_16
+      - _中国_g_17
+      - _中国_g_18
+      - _中国_g_19
+      - _中国_g_20
+      - _中国_g_21
+      - _中国_g_22
+      - _中国_g_23
+      - _中国_g_24
+      - _中国_g_25
+      - _中国_g_26
+      - _中国_g_27
+      - _中国_g_28
+      - _中国_g_29
+      - _中国_g_30
+      - _中国_g_31
+      - _中国_g_32
+      - _中国_g_33
+      - _中国_g_34
+      - _中国_g_35
+      - _中国_g_36
+      - _中国_g_37
+      - _中国_g_38
+      - _中国_g_39
+      - _中国_g_40
+      - _中国_g_41
+      - _中国_g_42
+      - _中国_g_43
+      - _中国_g_44
+      - _中国_g_45
+      - _中国_g_46
+      - _中国_g_47
+      - _中国_g_48
+      - _中国_g_49
+      - _中国_g_50
+      - _中国_g_51
+      - _中国_g_52
+      - _中国_g_53
+      - _中国_g_54
+      - _中国_g_55
+      - _中国_g_56
+      - _中国_g_57
+      - _中国_g_58
+      - _中国_g_59
+      - _中国_g_60
+      - _中国_g_61
+      - _中国_g_62
+      - _中国_g_63
+      - _中国_g_64
+      - _中国_g_65
+      - _中国_g_66
+      - _中国_g_67
+      - _中国_g_68
+      - _中国_g_69
+      - _中国_g_70
+      - _中国_g_71
+      - _中国_g_72
+      - _中国_g_73
+      - _中国_g_74
+      - _中国_g_75
+      - _中国_g_76
+      - _中国_g_77
+      - _中国_g_78
+      - _中国_g_79
+      - _中国_g_80
+      - _中国_g_81
+      - _中国_g_82
+      - _中国_g_83
+      - _中国_g_84
+      - _中国_g_85
+      - _中国_g_86
+      - _中国_g_87
+      - _中国_g_88
+      - _中国_g_89
+      - _中国_g_90
+      - _中国_g_91
+      - _中国_g_92
+      - _中国_g_93
+      - _中国_g_94
+      - _中国_g_95
+      - _中国_g_96
+      - _中国_g_97
+      - _中国_g_98
+      - _中国_g_99
+      - _中国_g_100
+      - _中国_g_101
+      - _中国_g_102
+      - _中国_g_103
+      - _中国_g_104
+      - _中国_g_105
+      - _中国_g_106
+      - _中国_g_107
+      - _中国_g_108
+      - _中国_g_109
+      - _中国_g_110
+      - _中国_g_111
+      - _中国_g_112
+      - _中国_g_113
+      - _中国_g_114
+      - _中国_g_115
+      - _中国_g_116
+      - _中国_g_117
+      - _中国_g_118
+      - _中国_g_119
+      - _中国_g_120
+      - _中国_g_121
+      - _中国_g_122
+      - _中国_g_123
+      - _中国_g_124
+      - _中国_g_125
+      - _中国_g_126
+      - _中国_g_127
+      - _中国_g_128
+      - _中国_g_129
+      - _中国_g_130
+      - _中国_g_131
+      - _中国_g_132
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
@@ -6775,18 +7146,19 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_134
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
-      - github.com/freefq - 美国  1
-      - github.com/freefq - 澳大利亚  2
-      - github.com/freefq - 北美地区  3
-      - github.com/freefq - 北美地区  4
-      - github.com/freefq - 上海市电信 5
+      - github.com/freefq - 北美地区  1
+      - github.com/freefq - 北美地区  2
+      - github.com/freefq - 澳大利亚  3
+      - github.com/freefq - 美国  4
+      - github.com/freefq - 北美地区  5
       - github.com/freefq - 北美地区  6
-      - github.com/freefq - 北美地区  7
-      - github.com/freefq - 美国  8
+      - github.com/freefq - 美国CloudFlare公司CDN节点 7
+      - github.com/freefq - 北美地区  8
       - github.com/freefq - 北美地区  9
-      - github.com/freefq - 北美地区  10
-      - github.com/freefq - 北美地区  11
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 上海市电信 11
       - github.com/freefq - 美国CloudFlare节点 12
+      - github.com/freefq - 北美地区  13
       - 香港(中国)🚀[极速稳定]
       - jc.ap.fastqvpn.com:29980
       - 8A6【精品】穗-港PCCW | V2RAY隧道
