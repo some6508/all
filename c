@@ -5,109 +5,144 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"ck.shenseven.xyz","port":42096,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
-  - {"name":"🇭🇰_HK_香港->🇩🇪_DE_德国_2","server":"mz.shenseven.xyz","port":55555,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
-  - {"name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_3","server":"lk.shenseven.xyz","port":12087,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
-  - {"name":"🇬🇧_GB_英国_4","server":"172.99.190.92","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇬🇧_GB_英国_5","server":"172.99.190.92","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_6","server":"hk.shenseven.xyz","port":51443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
-  - {"name":"🇭🇰_HK_香港->🇯🇵_JP_日本_7","server":"lk.shenseven.xyz","port":12096,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
-  - {"name":"🇭🇰_HK_香港->🇬🇧_GB_英国_8","server":"dk.shenseven.xyz","port":12087,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
-  - {"name":"🇺🇸_US_美国->🇨🇦_CA_加拿大_9","server":"bk.shenseven.xyz","port":32187,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
-  - {"name":"🇭🇰_HK_香港->🇺🇸_US_美国_10","server":"dk.shenseven.xyz","port":42443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
+  - {"name":"rack_chenxinboxerbyby_xyz_vmess_ws_1","server":"rack.chenxinboxerbyby.xyz","port":443,"type":"vmess","uuid":"1046e1bc-03a5-4de4-821c-8725f6c7e85e","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/lscovws","headers":{"host":"rack.chenxinboxerbyby.xyz"}}}
+  - {"name":"cloud_chenxinboxerbyby_xyz_vmess_ws_2","server":"cloud.chenxinboxerbyby.xyz","port":443,"type":"vmess","uuid":"cfa811bc-5aa6-4149-a754-5d4dcb99588a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/gichvws","headers":{"host":"cloud.chenxinboxerbyby.xyz"}}}
+  - {"name":"dala_chenxinboxerbyby_xyz_vmess_ws_3","server":"dala.chenxinboxerbyby.xyz","port":443,"type":"vmess","uuid":"955ebc12-d34a-439b-88a0-989577bdaf1e","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/vzrkvws","headers":{"host":"dala.chenxinboxerbyby.xyz"}}}
+  - {"name":"year_chenxinboxerbyby_xyz_vmess_ws_4","server":"year.chenxinboxerbyby.xyz","port":443,"type":"vmess","uuid":"759d8748-04df-40a8-854f-0873cc7c4c14","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/snetvws","headers":{"host":"year.chenxinboxerbyby.xyz"}}}
+  - {"name":"first_chenxinboxerbyby_xyz_vmess_ws_5","server":"first.chenxinboxerbyby.xyz","port":443,"type":"vmess","uuid":"2dea34b4-f0cf-49c3-9949-9e04925332fa","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/tzusvws","headers":{"host":"first.chenxinboxerbyby.xyz"}}}
+  - {"name":"rack_chenxinboxerbyby_xyz_Trojan_6","server":"rack.chenxinboxerbyby.xyz","port":443,"type":"trojan","password":"1046e1bc-03a5-4de4-821c-8725f6c7e85e"}
+  - {"name":"cloud_chenxinboxerbyby_xyz_Trojan_7","server":"cloud.chenxinboxerbyby.xyz","port":443,"type":"trojan","password":"cfa811bc-5aa6-4149-a754-5d4dcb99588a"}
+  - {"name":"dala_chenxinboxerbyby_xyz_Trojan_8","server":"dala.chenxinboxerbyby.xyz","port":443,"type":"trojan","password":"955ebc12-d34a-439b-88a0-989577bdaf1e"}
+  - {"name":"year_chenxinboxerbyby_xyz_Trojan_9","server":"year.chenxinboxerbyby.xyz","port":443,"type":"trojan","password":"759d8748-04df-40a8-854f-0873cc7c4c14"}
+  - {"name":"first_chenxinboxerbyby_xyz_Trojan_10","server":"first.chenxinboxerbyby.xyz","port":443,"type":"trojan","password":"2dea34b4-f0cf-49c3-9949-9e04925332fa"}
+  - {"name":"rack_chenxinboxerbyby_xyz_Trojan_gRPC_11","server":"rack.chenxinboxerbyby.xyz","port":443,"type":"trojan","password":"1046e1bc-03a5-4de4-821c-8725f6c7e85e"}
+  - {"name":"cloud_chenxinboxerbyby_xyz_Trojan_gRPC_12","server":"cloud.chenxinboxerbyby.xyz","port":443,"type":"trojan","password":"cfa811bc-5aa6-4149-a754-5d4dcb99588a"}
+  - {"name":"dala_chenxinboxerbyby_xyz_Trojan_gRPC_13","server":"dala.chenxinboxerbyby.xyz","port":443,"type":"trojan","password":"955ebc12-d34a-439b-88a0-989577bdaf1e"}
+  - {"name":"year_chenxinboxerbyby_xyz_Trojan_gRPC_14","server":"year.chenxinboxerbyby.xyz","port":443,"type":"trojan","password":"759d8748-04df-40a8-854f-0873cc7c4c14"}
+  - {"name":"first_chenxinboxerbyby_xyz_Trojan_gRPC_15","server":"first.chenxinboxerbyby.xyz","port":443,"type":"trojan","password":"2dea34b4-f0cf-49c3-9949-9e04925332fa"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港->🇩🇪_DE_德国_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_7
-      - 🇭🇰_HK_香港->🇬🇧_GB_英国_8
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-      - 🇭🇰_HK_香港->🇺🇸_US_美国_10
+      - rack_chenxinboxerbyby_xyz_vmess_ws_1
+      - cloud_chenxinboxerbyby_xyz_vmess_ws_2
+      - dala_chenxinboxerbyby_xyz_vmess_ws_3
+      - year_chenxinboxerbyby_xyz_vmess_ws_4
+      - first_chenxinboxerbyby_xyz_vmess_ws_5
+      - rack_chenxinboxerbyby_xyz_Trojan_6
+      - cloud_chenxinboxerbyby_xyz_Trojan_7
+      - dala_chenxinboxerbyby_xyz_Trojan_8
+      - year_chenxinboxerbyby_xyz_Trojan_9
+      - first_chenxinboxerbyby_xyz_Trojan_10
+      - rack_chenxinboxerbyby_xyz_Trojan_gRPC_11
+      - cloud_chenxinboxerbyby_xyz_Trojan_gRPC_12
+      - dala_chenxinboxerbyby_xyz_Trojan_gRPC_13
+      - year_chenxinboxerbyby_xyz_Trojan_gRPC_14
+      - first_chenxinboxerbyby_xyz_Trojan_gRPC_15
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港->🇩🇪_DE_德国_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_7
-      - 🇭🇰_HK_香港->🇬🇧_GB_英国_8
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-      - 🇭🇰_HK_香港->🇺🇸_US_美国_10
+      - rack_chenxinboxerbyby_xyz_vmess_ws_1
+      - cloud_chenxinboxerbyby_xyz_vmess_ws_2
+      - dala_chenxinboxerbyby_xyz_vmess_ws_3
+      - year_chenxinboxerbyby_xyz_vmess_ws_4
+      - first_chenxinboxerbyby_xyz_vmess_ws_5
+      - rack_chenxinboxerbyby_xyz_Trojan_6
+      - cloud_chenxinboxerbyby_xyz_Trojan_7
+      - dala_chenxinboxerbyby_xyz_Trojan_8
+      - year_chenxinboxerbyby_xyz_Trojan_9
+      - first_chenxinboxerbyby_xyz_Trojan_10
+      - rack_chenxinboxerbyby_xyz_Trojan_gRPC_11
+      - cloud_chenxinboxerbyby_xyz_Trojan_gRPC_12
+      - dala_chenxinboxerbyby_xyz_Trojan_gRPC_13
+      - year_chenxinboxerbyby_xyz_Trojan_gRPC_14
+      - first_chenxinboxerbyby_xyz_Trojan_gRPC_15
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港->🇩🇪_DE_德国_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_7
-      - 🇭🇰_HK_香港->🇬🇧_GB_英国_8
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-      - 🇭🇰_HK_香港->🇺🇸_US_美国_10
+      - rack_chenxinboxerbyby_xyz_vmess_ws_1
+      - cloud_chenxinboxerbyby_xyz_vmess_ws_2
+      - dala_chenxinboxerbyby_xyz_vmess_ws_3
+      - year_chenxinboxerbyby_xyz_vmess_ws_4
+      - first_chenxinboxerbyby_xyz_vmess_ws_5
+      - rack_chenxinboxerbyby_xyz_Trojan_6
+      - cloud_chenxinboxerbyby_xyz_Trojan_7
+      - dala_chenxinboxerbyby_xyz_Trojan_8
+      - year_chenxinboxerbyby_xyz_Trojan_9
+      - first_chenxinboxerbyby_xyz_Trojan_10
+      - rack_chenxinboxerbyby_xyz_Trojan_gRPC_11
+      - cloud_chenxinboxerbyby_xyz_Trojan_gRPC_12
+      - dala_chenxinboxerbyby_xyz_Trojan_gRPC_13
+      - year_chenxinboxerbyby_xyz_Trojan_gRPC_14
+      - first_chenxinboxerbyby_xyz_Trojan_gRPC_15
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港->🇩🇪_DE_德国_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_7
-      - 🇭🇰_HK_香港->🇬🇧_GB_英国_8
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-      - 🇭🇰_HK_香港->🇺🇸_US_美国_10
+      - rack_chenxinboxerbyby_xyz_vmess_ws_1
+      - cloud_chenxinboxerbyby_xyz_vmess_ws_2
+      - dala_chenxinboxerbyby_xyz_vmess_ws_3
+      - year_chenxinboxerbyby_xyz_vmess_ws_4
+      - first_chenxinboxerbyby_xyz_vmess_ws_5
+      - rack_chenxinboxerbyby_xyz_Trojan_6
+      - cloud_chenxinboxerbyby_xyz_Trojan_7
+      - dala_chenxinboxerbyby_xyz_Trojan_8
+      - year_chenxinboxerbyby_xyz_Trojan_9
+      - first_chenxinboxerbyby_xyz_Trojan_10
+      - rack_chenxinboxerbyby_xyz_Trojan_gRPC_11
+      - cloud_chenxinboxerbyby_xyz_Trojan_gRPC_12
+      - dala_chenxinboxerbyby_xyz_Trojan_gRPC_13
+      - year_chenxinboxerbyby_xyz_Trojan_gRPC_14
+      - first_chenxinboxerbyby_xyz_Trojan_gRPC_15
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港->🇩🇪_DE_德国_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_7
-      - 🇭🇰_HK_香港->🇬🇧_GB_英国_8
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-      - 🇭🇰_HK_香港->🇺🇸_US_美国_10
+      - rack_chenxinboxerbyby_xyz_vmess_ws_1
+      - cloud_chenxinboxerbyby_xyz_vmess_ws_2
+      - dala_chenxinboxerbyby_xyz_vmess_ws_3
+      - year_chenxinboxerbyby_xyz_vmess_ws_4
+      - first_chenxinboxerbyby_xyz_vmess_ws_5
+      - rack_chenxinboxerbyby_xyz_Trojan_6
+      - cloud_chenxinboxerbyby_xyz_Trojan_7
+      - dala_chenxinboxerbyby_xyz_Trojan_8
+      - year_chenxinboxerbyby_xyz_Trojan_9
+      - first_chenxinboxerbyby_xyz_Trojan_10
+      - rack_chenxinboxerbyby_xyz_Trojan_gRPC_11
+      - cloud_chenxinboxerbyby_xyz_Trojan_gRPC_12
+      - dala_chenxinboxerbyby_xyz_Trojan_gRPC_13
+      - year_chenxinboxerbyby_xyz_Trojan_gRPC_14
+      - first_chenxinboxerbyby_xyz_Trojan_gRPC_15
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港->🇩🇪_DE_德国_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_7
-      - 🇭🇰_HK_香港->🇬🇧_GB_英国_8
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-      - 🇭🇰_HK_香港->🇺🇸_US_美国_10
+      - rack_chenxinboxerbyby_xyz_vmess_ws_1
+      - cloud_chenxinboxerbyby_xyz_vmess_ws_2
+      - dala_chenxinboxerbyby_xyz_vmess_ws_3
+      - year_chenxinboxerbyby_xyz_vmess_ws_4
+      - first_chenxinboxerbyby_xyz_vmess_ws_5
+      - rack_chenxinboxerbyby_xyz_Trojan_6
+      - cloud_chenxinboxerbyby_xyz_Trojan_7
+      - dala_chenxinboxerbyby_xyz_Trojan_8
+      - year_chenxinboxerbyby_xyz_Trojan_9
+      - first_chenxinboxerbyby_xyz_Trojan_10
+      - rack_chenxinboxerbyby_xyz_Trojan_gRPC_11
+      - cloud_chenxinboxerbyby_xyz_Trojan_gRPC_12
+      - dala_chenxinboxerbyby_xyz_Trojan_gRPC_13
+      - year_chenxinboxerbyby_xyz_Trojan_gRPC_14
+      - first_chenxinboxerbyby_xyz_Trojan_gRPC_15
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +165,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港->🇩🇪_DE_德国_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_7
-      - 🇭🇰_HK_香港->🇬🇧_GB_英国_8
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-      - 🇭🇰_HK_香港->🇺🇸_US_美国_10
+      - rack_chenxinboxerbyby_xyz_vmess_ws_1
+      - cloud_chenxinboxerbyby_xyz_vmess_ws_2
+      - dala_chenxinboxerbyby_xyz_vmess_ws_3
+      - year_chenxinboxerbyby_xyz_vmess_ws_4
+      - first_chenxinboxerbyby_xyz_vmess_ws_5
+      - rack_chenxinboxerbyby_xyz_Trojan_6
+      - cloud_chenxinboxerbyby_xyz_Trojan_7
+      - dala_chenxinboxerbyby_xyz_Trojan_8
+      - year_chenxinboxerbyby_xyz_Trojan_9
+      - first_chenxinboxerbyby_xyz_Trojan_10
+      - rack_chenxinboxerbyby_xyz_Trojan_gRPC_11
+      - cloud_chenxinboxerbyby_xyz_Trojan_gRPC_12
+      - dala_chenxinboxerbyby_xyz_Trojan_gRPC_13
+      - year_chenxinboxerbyby_xyz_Trojan_gRPC_14
+      - first_chenxinboxerbyby_xyz_Trojan_gRPC_15
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
