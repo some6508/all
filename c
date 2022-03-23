@@ -5,74 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇰🇷_KR_韩国_1","server":"vs.mumi.bid","port":10124,"type":"vmess","uuid":"0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇯🇵_JP_日本_2","server":"0320jp.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0320jp.fans8.xyz"}}}
-  - {"name":"🇰🇷_KR_韩国_3","server":"vs.mumi.bid","port":10124,"type":"vmess","uuid":"0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇯🇵_JP_日本_4","server":"0320jp.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0320jp.fans8.xyz"}}}
-  - {"name":"🇰🇷_KR_韩国_5","server":"vs.mumi.bid","port":10124,"type":"vmess","uuid":"0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸_US_美国_1","server":"ck.shenseven.xyz","port":42096,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
+  - {"name":"🇭🇰_HK_香港->🇩🇪_DE_德国_2","server":"mz.shenseven.xyz","port":55555,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
+  - {"name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_3","server":"lk.shenseven.xyz","port":12087,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
+  - {"name":"🇬🇧_GB_英国_4","server":"172.99.190.92","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇬🇧_GB_英国_5","server":"172.99.190.92","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_6","server":"hk.shenseven.xyz","port":51443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
+  - {"name":"🇭🇰_HK_香港->🇯🇵_JP_日本_7","server":"lk.shenseven.xyz","port":12096,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
+  - {"name":"🇭🇰_HK_香港->🇬🇧_GB_英国_8","server":"dk.shenseven.xyz","port":12087,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
+  - {"name":"🇺🇸_US_美国->🇨🇦_CA_加拿大_9","server":"bk.shenseven.xyz","port":32187,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
+  - {"name":"🇭🇰_HK_香港->🇺🇸_US_美国_10","server":"dk.shenseven.xyz","port":42443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5701fb16-1c35-40b2-84f9-9b953404cbcd"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇰🇷_KR_韩国_1
-      - 🇯🇵_JP_日本_2
-      - 🇰🇷_KR_韩国_3
-      - 🇯🇵_JP_日本_4
-      - 🇰🇷_KR_韩国_5
+      - 🇺🇸_US_美国_1
+      - 🇭🇰_HK_香港->🇩🇪_DE_德国_2
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - 🇬🇧_GB_英国_4
+      - 🇬🇧_GB_英国_5
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_7
+      - 🇭🇰_HK_香港->🇬🇧_GB_英国_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷_KR_韩国_1
-      - 🇯🇵_JP_日本_2
-      - 🇰🇷_KR_韩国_3
-      - 🇯🇵_JP_日本_4
-      - 🇰🇷_KR_韩国_5
+      - 🇺🇸_US_美国_1
+      - 🇭🇰_HK_香港->🇩🇪_DE_德国_2
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - 🇬🇧_GB_英国_4
+      - 🇬🇧_GB_英国_5
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_7
+      - 🇭🇰_HK_香港->🇬🇧_GB_英国_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷_KR_韩国_1
-      - 🇯🇵_JP_日本_2
-      - 🇰🇷_KR_韩国_3
-      - 🇯🇵_JP_日本_4
-      - 🇰🇷_KR_韩国_5
+      - 🇺🇸_US_美国_1
+      - 🇭🇰_HK_香港->🇩🇪_DE_德国_2
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - 🇬🇧_GB_英国_4
+      - 🇬🇧_GB_英国_5
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_7
+      - 🇭🇰_HK_香港->🇬🇧_GB_英国_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷_KR_韩国_1
-      - 🇯🇵_JP_日本_2
-      - 🇰🇷_KR_韩国_3
-      - 🇯🇵_JP_日本_4
-      - 🇰🇷_KR_韩国_5
+      - 🇺🇸_US_美国_1
+      - 🇭🇰_HK_香港->🇩🇪_DE_德国_2
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - 🇬🇧_GB_英国_4
+      - 🇬🇧_GB_英国_5
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_7
+      - 🇭🇰_HK_香港->🇬🇧_GB_英国_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇰🇷_KR_韩国_1
-      - 🇯🇵_JP_日本_2
-      - 🇰🇷_KR_韩国_3
-      - 🇯🇵_JP_日本_4
-      - 🇰🇷_KR_韩国_5
+      - 🇺🇸_US_美国_1
+      - 🇭🇰_HK_香港->🇩🇪_DE_德国_2
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - 🇬🇧_GB_英国_4
+      - 🇬🇧_GB_英国_5
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_7
+      - 🇭🇰_HK_香港->🇬🇧_GB_英国_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷_KR_韩国_1
-      - 🇯🇵_JP_日本_2
-      - 🇰🇷_KR_韩国_3
-      - 🇯🇵_JP_日本_4
-      - 🇰🇷_KR_韩国_5
+      - 🇺🇸_US_美国_1
+      - 🇭🇰_HK_香港->🇩🇪_DE_德国_2
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - 🇬🇧_GB_英国_4
+      - 🇬🇧_GB_英国_5
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_7
+      - 🇭🇰_HK_香港->🇬🇧_GB_英国_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,11 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷_KR_韩国_1
-      - 🇯🇵_JP_日本_2
-      - 🇰🇷_KR_韩国_3
-      - 🇯🇵_JP_日本_4
-      - 🇰🇷_KR_韩国_5
+      - 🇺🇸_US_美国_1
+      - 🇭🇰_HK_香港->🇩🇪_DE_德国_2
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - 🇬🇧_GB_英国_4
+      - 🇬🇧_GB_英国_5
+      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6
+      - 🇭🇰_HK_香港->🇯🇵_JP_日本_7
+      - 🇭🇰_HK_香港->🇬🇧_GB_英国_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+      - 🇭🇰_HK_香港->🇺🇸_US_美国_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
