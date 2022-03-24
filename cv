@@ -931,18 +931,7 @@ proxies:
   - {name: "JP, 3", server: 3.36.52.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "HK,", server: 54.169.233.50, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "HK, 2", server: 13.125.123.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国_订阅晓猛科技, server: tunnel-trail-1.sserver.top, port: 80, type: vmess, uuid: 22a4d521-57d0-39dc-bb50-7b63064aabb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tunnel-trail-1.sserver.top}}, udp: true}
-  - {name: 香港阿里云@vpnpool, server: 8.210.74.245, port: 80, type: vmess, uuid: 4dd6cbf5-7ff5-3aeb-b5ac-8cff4b21d0e5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: 梦歌|机场节点|部分解锁_58, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lin1.free80ml.tk}}, udp: true}
-  - {name: 夢歌|VPS實測|高速節點_32, server: 47.242.107.187, port: 80, type: vmess, uuid: 4df7092c-aeea-3256-a156-f8ca3d094f2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/vppool}}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_60, server: v2-hkc-v9.cl123.xyz, port: 80, type: vmess, uuid: 4dd6cbf5-7ff5-3aeb-b5ac-8cff4b21d0e5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: v2-hkc-v9.cl123.xyz}}, udp: true}
-  - {name: 夢歌|VPS實測|高速節點_38, server: 47.242.107.187, port: 80, type: vmess, uuid: 4dd6cbf5-7ff5-3aeb-b5ac-8cff4b21d0e5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: ♥️YouTube梦歌♥️_6, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, skip-cert-verify: true, udp: true}
-  - {name: FR法国TG/油管@阿伟科技, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: "|25.61Mb", server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: 1ab594a2-cee0-4876-89b9-1b9b4053a6c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: awsxjp.moonfree.top, network: ws, ws-opts: {path: /, headers: {Host: awsxjp.moonfree.top}}, udp: true}
-  - {name: "|18.39Mb", server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US美国TG/油管@阿伟科技, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: 1ab594a2-cee0-4876-89b9-1b9b4053a6c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: awsxjp.moonfree.top}}, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.51, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2716,18 +2705,7 @@ proxy-groups:
       - JP, 3
       - HK,
       - HK, 2
-      - _US_美国_订阅晓猛科技
-      - 香港阿里云@vpnpool
-      - 梦歌|机场节点|部分解锁_58
-      - 夢歌|VPS實測|高速節點_32
-      - ♥️♥️YouTube梦歌♥️♥️_60
-      - 夢歌|VPS實測|高速節點_38
-      - ♥️YouTube梦歌♥️_6
-      - FR法国TG/油管@阿伟科技
-      - "|25.61Mb"
-      - 美国阿伟科技@TG/油管
-      - "|18.39Mb"
-      - US美国TG/油管@阿伟科技
+      - _CA_加拿大
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4501,18 +4479,7 @@ proxy-groups:
       - JP, 3
       - HK,
       - HK, 2
-      - _US_美国_订阅晓猛科技
-      - 香港阿里云@vpnpool
-      - 梦歌|机场节点|部分解锁_58
-      - 夢歌|VPS實測|高速節點_32
-      - ♥️♥️YouTube梦歌♥️♥️_60
-      - 夢歌|VPS實測|高速節點_38
-      - ♥️YouTube梦歌♥️_6
-      - FR法国TG/油管@阿伟科技
-      - "|25.61Mb"
-      - 美国阿伟科技@TG/油管
-      - "|18.39Mb"
-      - US美国TG/油管@阿伟科技
+      - _CA_加拿大
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
