@@ -5,32 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 公众号_Cat黑科技_1, server: 183.232.56.161, port: 5018, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: 公众号_Cat黑科技_2, server: 183.232.56.161, port: 1601, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: 公众号_Cat黑科技_3, server: 183.232.56.161, port: 1602, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: 公众号_Cat黑科技_4, server: 183.232.56.161, port: 1704, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: 公众号_Cat黑科技_5, server: 183.232.56.161, port: 1802, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: 公众号_Cat黑科技_6, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: 公众号_Cat黑科技_7, server: gz2.52168.xyz, port: 2106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: 公众号_Cat黑科技_8, server: 183.232.56.161, port: 1612, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: 公众号_Cat黑科技_9, server: hk-az-zz.licom.ga, port: 48211, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, skip-cert-verify: true, udp: true}
-  - {name: 公众号_Cat黑科技_10, server: 38.75.137.66, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 公众号_Cat黑科技_11, server: 38.75.137.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 公众号_Cat黑科技_12, server: 38.75.137.66, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 公众号_Cat黑科技_13, server: 38.75.137.66, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 公众号_Cat黑科技_14, server: 38.75.137.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 公众号_Cat黑科技_15, server: 38.75.137.66, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 公众号_Cat黑科技_16, server: 38.75.137.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 公众号_Cat黑科技_17, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9apQabyg9le}, udp: true}
-  - {name: 公众号_Cat黑科技_18, server: 194.15.196.66, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 公众号_Cat黑科技_19, server: 38.75.137.66, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 公众号_Cat黑科技_20, server: 38.75.137.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 公众号_Cat黑科技_21, server: 183.232.56.161, port: 1201, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: 公众号_Cat黑科技_22, server: 38.75.137.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 公众号_Cat黑科技_23, server: tj-hk08.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 公众号_Cat黑科技_24, server: clown01.tk, port: 443, type: vmess, uuid: 1785204a-a1b1-4224-d3ce-9a11c6b6fc4d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wefghyFgjydSdfF, headers: {Host: clown01.tk}}, udp: true}
-  - {name: 公众号_Cat黑科技_25, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 公众号_Cat黑科技_26, server: cm1.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jp1, headers: {Host: cm1.worldmuseum.buzz}}, udp: true}
+  - {name: _CA_加拿大_1, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大_2, server: 134.195.196.3, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_3, server: 167.88.63.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_4, server: 38.75.137.66, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国_5, server: 172.99.190.92, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大_6, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: default_name_7, server: bpjzx2.cainiao.tk, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: bpjzx2.cainiao.tk}}, udp: true}
+  - {name: _CA_加拿大_8, server: 134.195.196.3, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大_9, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_10, server: 38.75.137.66, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: 0319ru99.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319ru99.fans8.xyz}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: 0320ru1702.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0320ru1702.fans8.xyz}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: dycxh.ml, port: 3835, type: vmess, uuid: 1be22068-d373-4450-94c3-50f72a40fba4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1775,32 +1759,16 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - 公众号_Cat黑科技_1
-      - 公众号_Cat黑科技_2
-      - 公众号_Cat黑科技_3
-      - 公众号_Cat黑科技_4
-      - 公众号_Cat黑科技_5
-      - 公众号_Cat黑科技_6
-      - 公众号_Cat黑科技_7
-      - 公众号_Cat黑科技_8
-      - 公众号_Cat黑科技_9
-      - 公众号_Cat黑科技_10
-      - 公众号_Cat黑科技_11
-      - 公众号_Cat黑科技_12
-      - 公众号_Cat黑科技_13
-      - 公众号_Cat黑科技_14
-      - 公众号_Cat黑科技_15
-      - 公众号_Cat黑科技_16
-      - 公众号_Cat黑科技_17
-      - 公众号_Cat黑科技_18
-      - 公众号_Cat黑科技_19
-      - 公众号_Cat黑科技_20
-      - 公众号_Cat黑科技_21
-      - 公众号_Cat黑科技_22
-      - 公众号_Cat黑科技_23
-      - 公众号_Cat黑科技_24
-      - 公众号_Cat黑科技_25
-      - 公众号_Cat黑科技_26
+      - _CA_加拿大_1
+      - _CA_加拿大_2
+      - _US_美国_3
+      - _US_美国_4
+      - _GB_英国_5
+      - _CA_加拿大_6
+      - default_name_7
+      - _CA_加拿大_8
+      - _CA_加拿大_9
+      - _US_美国_10
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)
@@ -3545,32 +3513,16 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - 公众号_Cat黑科技_1
-      - 公众号_Cat黑科技_2
-      - 公众号_Cat黑科技_3
-      - 公众号_Cat黑科技_4
-      - 公众号_Cat黑科技_5
-      - 公众号_Cat黑科技_6
-      - 公众号_Cat黑科技_7
-      - 公众号_Cat黑科技_8
-      - 公众号_Cat黑科技_9
-      - 公众号_Cat黑科技_10
-      - 公众号_Cat黑科技_11
-      - 公众号_Cat黑科技_12
-      - 公众号_Cat黑科技_13
-      - 公众号_Cat黑科技_14
-      - 公众号_Cat黑科技_15
-      - 公众号_Cat黑科技_16
-      - 公众号_Cat黑科技_17
-      - 公众号_Cat黑科技_18
-      - 公众号_Cat黑科技_19
-      - 公众号_Cat黑科技_20
-      - 公众号_Cat黑科技_21
-      - 公众号_Cat黑科技_22
-      - 公众号_Cat黑科技_23
-      - 公众号_Cat黑科技_24
-      - 公众号_Cat黑科技_25
-      - 公众号_Cat黑科技_26
+      - _CA_加拿大_1
+      - _CA_加拿大_2
+      - _US_美国_3
+      - _US_美国_4
+      - _GB_英国_5
+      - _CA_加拿大_6
+      - default_name_7
+      - _CA_加拿大_8
+      - _CA_加拿大_9
+      - _US_美国_10
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)
