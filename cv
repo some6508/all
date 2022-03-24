@@ -5,113 +5,261 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: YouTube*阿阳AYANG_1, server: 116.162.14.228, port: 20761, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_2, server: 183.240.132.27, port: 21107, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_3, server: 183.240.132.27, port: 21101, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_4, server: jp.rnmtq.gq, port: 63510, type: vmess, uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.rnmtq.gq}}, udp: true}
-  - {name: YouTube*阿阳AYANG_5, server: dycxh.ml, port: 3835, type: vmess, uuid: 1be22068-d373-4450-94c3-50f72a40fba4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_6, server: dycxh.tk, port: 3835, type: vmess, uuid: bbc6ad68-b523-436e-9564-8b3970cccc7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_7, server: 38.75.137.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: YouTube*阿阳AYANG_8, server: clown01.tk, port: 443, type: vmess, uuid: 1785204a-a1b1-4224-d3ce-9a11c6b6fc4d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wefghyFgjydSdfF, headers: {Host: clown01.tk}}, udp: true}
-  - {name: YouTube*阿阳AYANG_9, server: jp.rnmtq.gq, port: 63510, type: vmess, uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.rnmtq.gq}}, udp: true}
-  - {name: YouTube*阿阳AYANG_10, server: 38.75.137.66, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: YouTube*阿阳AYANG_11, server: 183.240.132.27, port: 21101, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_12, server: 183.240.132.27, port: 21101, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_13, server: 167.88.63.108, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: YouTube*阿阳AYANG_14, server: 183.240.132.27, port: 21209, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_15, server: 38.75.137.66, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: YouTube*阿阳AYANG_16, server: 38.75.137.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: YouTube*阿阳AYANG_17, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /in, headers: {Host: cu2.worldmuseum.buzz}}, udp: true}
-  - {name: YouTube*阿阳AYANG_18, server: 38.75.137.66, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: YouTube*阿阳AYANG_19, server: 38.75.137.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: YouTube*阿阳AYANG_20, server: 183.240.132.27, port: 21100, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_21, server: 183.240.132.27, port: 21101, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_22, server: 38.75.137.66, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: YouTube*阿阳AYANG_23, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_24, server: 38.75.137.66, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: YouTube*阿阳AYANG_25, server: 38.75.137.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: YouTube*阿阳AYANG_26, server: 38.75.137.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: YouTube*阿阳AYANG_27, server: 0319ru99.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319ru99.fans8.xyz}}, udp: true}
-  - {name: YouTube*阿阳AYANG_28, server: 38.75.137.66, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: YouTube*阿阳AYANG_29, server: cm1.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jp1, headers: {Host: cm1.worldmuseum.buzz}}, udp: true}
-  - {name: YouTube*阿阳AYANG_30, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_31, server: 167.88.63.108, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: YouTube*阿阳AYANG_32, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: YouTube*阿阳AYANG_33, server: 23.v2-ray.cyou, port: 15023, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 23.v2-ray.cyou}}, udp: true}
-  - {name: YouTube*阿阳AYANG_34, server: 167.88.63.108, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: YouTube*阿阳AYANG_35, server: 45.61.184.3, port: 40435, type: vmess, uuid: eca12e73-8f74-439f-b918-624e832422d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_36, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_37, server: 167.88.63.108, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: YouTube*阿阳AYANG_38, server: 46.v2-ray.cyou, port: 15046, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 46.v2-ray.cyou}}, udp: true}
-  - {name: YouTube*阿阳AYANG_39, server: 167.88.63.108, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: YouTube*阿阳AYANG_40, server: 0316ro.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nl, headers: {Host: 0316ro.fans8.xyz}}, udp: true}
-  - {name: YouTube*阿阳AYANG_41, server: 167.88.63.108, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: YouTube*阿阳AYANG_42, server: 167.88.63.108, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: YouTube*阿阳AYANG_43, server: 167.88.63.108, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: YouTube*阿阳AYANG_44, server: 183.240.132.27, port: 21208, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_45, server: 183.240.132.27, port: 21203, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_46, server: 167.88.63.108, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: YouTube*阿阳AYANG_47, server: 167.88.63.108, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: YouTube*阿阳AYANG_48, server: 167.88.63.108, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: YouTube*阿阳AYANG_49, server: 167.88.63.108, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: YouTube*阿阳AYANG_50, server: 167.88.63.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: YouTube*阿阳AYANG_51, server: rn.tomcloud.buzz, port: 10332, type: vmess, uuid: 0dabf511-7ce1-4840-e2de-b4a070163ce9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rn.tomcloud.buzz}}, udp: true}
-  - {name: YouTube*阿阳AYANG_52, server: 132.145.83.55, port: 38134, type: vmess, uuid: 3b1331b6-879b-4ba0-878f-3d286927cf94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_53, server: cm1.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jp1, headers: {Host: cm1.worldmuseum.buzz}}, udp: true}
-  - {name: YouTube*阿阳AYANG_54, server: 167.88.63.108, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: YouTube*阿阳AYANG_55, server: djbccok.tk, port: 443, type: vmess, uuid: 09026629-dc08-4f64-82da-c91399baa883, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: djbccok.tk}}, udp: true}
-  - {name: YouTube*阿阳AYANG_56, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: YouTube*阿阳AYANG_57, server: 167.88.63.108, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: YouTube*阿阳AYANG_58, server: ocph.vproxy.us, port: 34567, type: trojan, password: c5092d61-39e8-4f71-b76b-43db95691be5, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_59, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: YouTube*阿阳AYANG_60, server: 167.88.63.108, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: YouTube*阿阳AYANG_61, server: 167.88.63.108, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: YouTube*阿阳AYANG_62, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: YouTube*阿阳AYANG_63, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_64, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: YouTube*阿阳AYANG_65, server: 167.88.63.108, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: YouTube*阿阳AYANG_66, server: 23.v2-ray.cyou, port: 15023, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 23.v2-ray.cyou}}, udp: true}
-  - {name: YouTube*阿阳AYANG_67, server: 146.56.99.245, port: 25135, type: vmess, uuid: 5893f7e5-9695-45af-f65e-bd2958ba93fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_68, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: hgc1.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_69, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_70, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: YouTube*阿阳AYANG_71, server: clown01.tk, port: 443, type: vmess, uuid: 1785204a-a1b1-4224-d3ce-9a11c6b6fc4d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wefghyFgjydSdfF, headers: {Host: clown01.tk}}, udp: true}
-  - {name: YouTube*阿阳AYANG_72, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: YouTube*阿阳AYANG_73, server: 172.99.190.92, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: YouTube*阿阳AYANG_74, server: 134.195.196.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: YouTube*阿阳AYANG_75, server: 167.88.63.108, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: YouTube*阿阳AYANG_76, server: 167.88.63.108, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: YouTube*阿阳AYANG_77, server: 65.52.171.156, port: 15031, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: YouTube*阿阳AYANG_78, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: YouTube*阿阳AYANG_79, server: 172.99.190.92, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: YouTube*阿阳AYANG_80, server: 167.88.63.108, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: YouTube*阿阳AYANG_81, server: 65.52.171.156, port: 15031, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: YouTube*阿阳AYANG_82, server: 65.52.171.156, port: 15031, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: YouTube*阿阳AYANG_83, server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: YouTube*阿阳AYANG_84, server: 0320ru1702.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0320ru1702.fans8.xyz}}, udp: true}
-  - {name: YouTube*阿阳AYANG_85, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: YouTube*阿阳AYANG_86, server: 167.88.63.108, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: YouTube*阿阳AYANG_87, server: 167.88.63.108, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: YouTube*阿阳AYANG_88, server: 116.162.14.228, port: 21206, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_89, server: 183.240.132.27, port: 21208, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_90, server: 146.56.133.242, port: 28343, type: vmess, uuid: 1e0927ff-a391-4323-f753-52a696832e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_91, server: 193.123.239.153, port: 55199, type: vmess, uuid: bd729199-efe9-4c6b-a7b8-beb0927b4061, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_92, server: ru2.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /helloman, headers: {Host: ru2.peakerselling.com}}, udp: true}
-  - {name: YouTube*阿阳AYANG_93, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube*阿阳AYANG_94, server: 134.195.196.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: YouTube*阿阳AYANG_95, server: 134.195.196.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: YouTube*阿阳AYANG_96, server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: YouTube*阿阳AYANG_97, server: 134.195.196.3, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: YouTube*阿阳AYANG_98, server: 134.195.196.3, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: YouTube*阿阳AYANG_99, server: 134.195.196.3, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: YouTube*阿阳AYANG_100, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: YouTube*阿阳AYANG_101, server: 134.195.196.3, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: YouTube*阿阳AYANG_102, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: YouTube*阿阳AYANG_103, server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: YouTube*阿阳AYANG_104, server: 134.195.196.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: YouTube*阿阳AYANG_105, server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: YouTube*阿阳AYANG_106, server: 134.195.196.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: YouTube*阿阳AYANG_107, server: 134.195.196.81, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 波兰_Tg频道:https://t_me/bpjzx2_1, server: 194.15.196.66, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 波兰_Tg频道:https://t_me/bpjzx2_2, server: 194.15.196.66, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 英国_Tg频道:https://t_me/bpjzx2_3, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大_Tg频道:https://t_me/bpjzx2_4, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_Tg频道:https://t_me/bpjzx2_5, server: kr3.qingyun123.xyz, port: 10050, type: trojan, password: 8c6ae7e7-d384-4d48-b078-2be389e6ada1, skip-cert-verify: true, udp: true}
+  - {name: 香港_Tg频道:https://t_me/bpjzx2_6, server: hk4.qingyun123.xyz, port: 10050, type: trojan, password: 7ba98947-ea44-4682-ae1a-79b0ba1ec98a, skip-cert-verify: true, udp: true}
+  - {name: 美国_Tg频道:https://t_me/bpjzx2_7, server: usa.fanqiangvpn.com, port: 443, type: trojan, password: afc34a50-76f7-4fb1-9393-c5da1c1a54db, skip-cert-verify: true, udp: true}
+  - {name: 加拿大_Tg频道:https://t_me/bpjzx2_8, server: 134.195.196.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国_9, server: 38.75.137.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大_10, server: 134.195.196.51, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_11, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大_12, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国_13, server: 38.75.137.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大_14, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_15, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_16, server: 38.75.137.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _VN_越南_17, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
+  - {name: _CA_加拿大_18, server: 134.195.196.51, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_19, server: 167.88.63.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大_20, server: 134.195.196.3, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _GB_英国_21, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国->🇫🇷_FR_法国_22, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
+  - {name: _GB_英国_23, server: 172.99.190.92, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国->🇫🇮_FI_芬兰_24, server: djbccok.tk, port: 443, type: vmess, uuid: 09026629-dc08-4f64-82da-c91399baa883, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: djbccok.tk}}, udp: true}
+  - {name: _CA_加拿大_25, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_26, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大_27, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _KR_韩国_28, server: kr2.futi.online, port: 2053, type: vmess, uuid: ecbaf58d-df4b-4a24-b155-556f5c917517, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kr2.futi.online}}, udp: true}
+  - {name: _US_美国_29, server: 38.75.137.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_30, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大_31, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 港F_沪联通中继_PrepaidUsers_32, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hkt, headers: {Host: cu2.worldmuseum.buzz}}, udp: true}
+  - {name: 日本_3杭日隧道STCPGAME_33, server: cs.bgp.01.211129.xyz, port: 52312, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall, headers: {Host: cs.bgp.01.211129.xyz}}, udp: true}
+  - {name: lindoe日本_三网优化_1x_34, server: cs.daxun.club, port: 20631, type: vmess, uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /lindoerb01, headers: {Host: cs.daxun.club}}, udp: true}
+  - {name: 香港az_3, server: azhk520.greenyun.tk, port: 10030, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall, headers: {Host: azhk520.greenyun.tk}}, udp: true}
+  - {name: 香港-日本_5GAME_36, server: swtnsvardi.eastasia.cloudapp.azure.com, port: 10001, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall, headers: {Host: swtnsvardi.eastasia.cloudapp.azure.com}}, udp: true}
+  - {name: 日本_2SoftbankGMAE_37, server: gy.cm.01.211129.xyz, port: 10010, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall, headers: {Host: gy.cm.01.211129.xyz}}, udp: true}
+  - {name: 日本_6GAME_38, server: 20.222.26.127, port: 443, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall}, udp: true}
+  - {name: 印度_1Azure_39, server: swtnsvardi.eastasia.cloudapp.azure.com, port: 10004, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall.top, headers: {Host: swtnsvardi.eastasia.cloudapp.azure.com}}, udp: true}
+  - {name: 新021x--atp2psharing_40, server: 116.162.14.228, port: 20785, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚_1Azure_41, server: swtnsvardi.eastasia.cloudapp.azure.com, port: 10003, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall.top, headers: {Host: swtnsvardi.eastasia.cloudapp.azure.com}}, udp: true}
+  - {name: 美国2_奈飞_42, server: azhk520.greenyun.tk, port: 10004, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall.top, headers: {Host: azhk520.greenyun.tk}}, udp: true}
+  - {name: 土耳其--atp2psharing_43, server: 116.162.14.228, port: 21206, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港HKT_2, server: hkthk.nodrop.bike, port: 13123, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall, headers: {Host: hkthk.nodrop.bike}}, udp: true}
+  - {name: 韩国_1, server: KR.nodrop.bike, port: 32123, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall.top, headers: {Host: KR.nodrop.bike}}, udp: true}
+  - {name: 美国_1奈飞_46, server: us.nodrop.bike, port: 47891, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall, headers: {Host: us.nodrop.bike}}, udp: true}
+  - {name: 香港-新加坡_1, server: azhk520.greenyun.tk, port: 10000, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall.top, headers: {Host: azhk520.greenyun.tk}}, udp: true}
+  - {name: 印度_2Azure_48, server: 20.198.2.18, port: 443, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall.top}, udp: true}
+  - {name: 台湾_2Hinet_49, server: gy.cm.01.211129.xyz, port: 20062, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gy.cm.01.211129.xyz}}, udp: true}
+  - {name: 香港-美国_5, server: swtnsvardi.eastasia.cloudapp.azure.com, port: 10000, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall, headers: {Host: swtnsvardi.eastasia.cloudapp.azure.com}}, udp: true}
+  - {name: 日本_7SoftbankGMAE_51, server: 137.220.217.121, port: 9929, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall}, udp: true}
+  - {name: 土耳其_2, server: azhk520.greenyun.tk, port: 10003, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall.top, headers: {Host: azhk520.greenyun.tk}}, udp: true}
+  - {name: 英国_1Tiktok_53, server: gy.cm.01.211129.xyz, port: 52319, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall.top, headers: {Host: gy.cm.01.211129.xyz}}, udp: true}
+  - {name: 香港-日本_1, server: swtnsvardi.eastasia.cloudapp.azure.com, port: 10002, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall, headers: {Host: swtnsvardi.eastasia.cloudapp.azure.com}}, udp: true}
+  - {name: 韩国_2广港隧道STCP_55, server: gy.cm.01.211129.xyz, port: 43213, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall.top, headers: {Host: gy.cm.01.211129.xyz}}, udp: true}
+  - {name: 香港-韩国_1, server: azhk520.greenyun.tk, port: 32123, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall.top, headers: {Host: azhk520.greenyun.tk}}, udp: true}
+  - {name: 香港011x--atp2psharing_57, server: 183.240.132.27, port: 21232, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 土耳其_1无限流量！_58, server: rq1.nodrop.bike, port: 443, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall.top, headers: {Host: rq1.nodrop.bike}}, udp: true}
+  - {name: 美国_4, server: rnus.nodrop.bike, port: 47891, type: vmess, uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall, headers: {Host: rnus.nodrop.bike}}, udp: true}
+  - {name: HKG+CM_A/06+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_B/02+x1_0, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: JPN+IEPL_A/05+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_A/10+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_A/03+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CN2/02+x0_3, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_A/02+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: JPN+IEPL_A/04+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: JPN+IEPL_A/02+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: TWN+IEPL_A/02+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_B/07+x1_0, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_B/10+x1_0, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_A/01+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_A/07+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CN2/08+x0_3, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_B/02+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: SGP+IEPL_A/03+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: SGP+IEPL_A/01+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: USA+IEPL_A/02+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_A/07+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_B/08+x1_0, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: SGP+CM_B/04+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_A/06+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: SGP+CM_A/01+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: JPN+IEPL_A/01+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_B/09+x1_0, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: JPN+CM_A/01+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CN2/04+x0_3, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: SGP+CM_B/05+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_B/05+x1_0, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_B/06+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: SGP+CM_A/05+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CN2/01+x0_3, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: TWN+IEPL_A/03+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_B/04+x1_0, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_B/05+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_B/08+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CN2/06+x0_3, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: USA+IEPL_A/05+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31005, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_A/03+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_A/04+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: JPN+CM_A/02+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_B/07+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_A/09+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: SGP+CM_A/02+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: SGP+CM_B/03+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: SGP+CM_B/01+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_A/05+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: SGP+CM_B/02+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: SGP+CM_A/04+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: 公告_所求皆所愿！所行皆坦途_110, server: 20.205.45.232, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, udp: true}
+  - {name: HKG+CM_A/10+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CN2/07+x0_3, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: TWN+CM_A/01+x1_0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: 香港+_+Azure+ss+4_114, server: gy.cm.01.211129.xyz, port: 54543, type: ss, cipher: chacha20-ietf-poly1305, password: 835df9b6-f85c-47e2-bc0c-40c694a3db1e, udp: true}
+  - {name: HKG+CM_B/04+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_B/10+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: TWN+CM_A/03+x1_0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: TWN+CM_A/02+x1_0, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CN2/03+x0_3, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: RUS++IEPL_A/01+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 51001, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_B/09+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: SGP+IEPL_A/05+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_A/09+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_A/08+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: TWN+IEPL_A/01+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: SGP+CM_A/03+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: GBR+IEPL_A/01+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 51002, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_A/05+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: SGP+IEPL_A/04+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: JPN+CM_A/05+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: SGP+IEPL_A/02+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_B/03+x1_0, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CM_B/01+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: JPN+CM_A/03+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CN2/05+x0_3, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CN2/09+x0_3, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_A/08+x1_0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: JPN+CM_A/04+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+IEPL_B/06+x1_0, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: HKG+CN2/10+x0_3, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 3c60e14a-4172-4a45-8052-a4a1d516aec8, udp: true}
+  - {name: _SE_瑞典_141, server: 51.12.89.247, port: 500, type: ss, cipher: aes-128-gcm, password: "@VPNFolder", udp: true}
+  - {name: v2ray-gz-hk01(hgc港Netflix)_142, server: gz.yd01.paopaocloud.cyou, port: 10032, type: vmess, uuid: 6fc1701d-36a0-3096-8889-f625c6570559, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: gz.yd01.paopaocloud.cyou}}, udp: true}
+  - {name: v2ray-az-hl01_143, server: az.hk01.paopaocloud.cyou, port: 10012, type: vmess, uuid: 6fc1701d-36a0-3096-8889-f625c6570559, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: az.hk01.paopaocloud.cyou}}, udp: true}
+  - {name: 日本_TGatnodesharing_108, server: jp-group-a-direct.node001.xyz, port: 8880, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-group-a-direct.node001.xyz}}, udp: true}
+  - {name: v2ray-az-ru02(俄netflix)_145, server: az.hk01.paopaocloud.cyou, port: 10031, type: vmess, uuid: 6fc1701d-36a0-3096-8889-f625c6570559, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: az.hk01.paopaocloud.cyou}}, udp: true}
+  - {name: v2ray-az-hk07(hgc港Netflix)_146, server: az.hk01.paopaocloud.cyou, port: 10011, type: vmess, uuid: 6fc1701d-36a0-3096-8889-f625c6570559, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: az.hk01.paopaocloud.cyou}}, udp: true}
+  - {name: v2ray日02(Netflix_Abema____)_147, server: paopao.v2.jp02.paopaocloud.cyou, port: 13308, type: vmess, uuid: 6fc1701d-36a0-3096-8889-f625c6570559, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.jp02.paopaocloud.cyou}}, udp: true}
+  - {name: MO01_澳门_SS_x5_0, server: colagzcm.jumpwallsocks.online, port: 48101, type: ss, cipher: chacha20-ietf-poly1305, password: f238b431-ba39-427d-9bbd-2440c30ef211, udp: true}
+  - {name: 上海55Gbps80_倍率1_149, server: 40.73.119.227, port: 80, type: vmess, uuid: 93cd9f59-7e38-41cd-bce9-8412757ab90b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: v2ray-jm-jp03(日)_150, server: jm.yd02.paopaocloud.cyou, port: 15623, type: vmess, uuid: 6fc1701d-36a0-3096-8889-f625c6570559, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: jm.yd02.paopaocloud.cyou}}, udp: true}
+  - {name: 上海35Gbps80_倍率1_151, server: 42.159.184.75, port: 80, type: vmess, uuid: 93cd9f59-7e38-41cd-bce9-8412757ab90b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dsban2?ed=2048"}, udp: true}
+  - {name: 油管TG8度科技_152, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: 油管+TG+8度科技_153, server: 1.14.165.96, port: 45042, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_154, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 油管+TG+8度科技_155, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 油管+TG+8度科技_156, server: 13.125.239.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 油管+TG+8度科技_157, server: 180.163.62.91, port: 22001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_158, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 油管+TG+8度科技_159, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 油管+TG+8度科技_160, server: 169.197.142.4, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 油管+TG+8度科技_161, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: 油管+TG+8度科技_162, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 油管+TG+8度科技_163, server: 180.163.62.91, port: 46188, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_164, server: 180.163.62.91, port: 46168, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_165, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 油管+TG+8度科技_166, server: 180.163.62.91, port: 26238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_167, server: 180.163.62.91, port: 26268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_168, server: 134.195.196.81, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 油管+TG+8度科技_169, server: 141.164.39.146, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 油管+TG+8度科技_170, server: 1.14.165.96, port: 45026, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_171, server: 1.14.165.96, port: 45059, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_172, server: 169.197.142.4, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 油管+TG+8度科技_173, server: 1.14.165.96, port: 45073, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_174, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 油管+TG+8度科技_175, server: 14.29.124.174, port: 21668, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_176, server: 14.29.124.174, port: 21500, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_177, server: 180.163.62.91, port: 26054, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_178, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 油管+TG+8度科技_179, server: 1.14.165.96, port: 45019, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_180, server: 14.29.124.174, port: 21791, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_181, server: 14.29.124.174, port: 21788, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_182, server: 14.29.124.174, port: 21508, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_183, server: 180.163.62.91, port: 25021, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_184, server: 1.14.165.96, port: 45081, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_185, server: 1.14.165.96, port: 45024, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_186, server: 1.14.165.96, port: 45098, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_187, server: 14.29.124.174, port: 21804, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管+TG+8度科技_188, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 油管+TG+8度科技_189, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 油管+TG+8度科技_190, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 油管+TG+8度科技_191, server: guangzhou-cm2.kexueddns.club, port: 24068, type: trojan, password: 55418292-165b-4bcc-99d7-a8d8471dbeff, skip-cert-verify: true, udp: true}
+  - {name: 油管+TG+8度科技_192, server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, skip-cert-verify: true, udp: true}
+  - {name: 油管+TG+8度科技_193, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
+  - {name: 油管+TG+8度科技_194, server: guangzhou-cm2.kexueddns.club, port: 24067, type: trojan, password: 55418292-165b-4bcc-99d7-a8d8471dbeff, skip-cert-verify: true, udp: true}
+  - {name: 油管+TG+8度科技_195, server: hunan-bgp.kexueddns.club, port: 42881, type: trojan, password: 55418292-165b-4bcc-99d7-a8d8471dbeff, skip-cert-verify: true, udp: true}
+  - {name: 油管+TG+8度科技_196, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
+  - {name: 油管+TG+8度科技_197, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
+  - {name: 油管+TG+8度科技_198, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
+  - {name: 油管TG8度科技_199, server: cn05.mynode.me, port: 8123, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 油管TG8度科技_200, server: cn02.mynode.me, port: 8110, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 油管TG8度科技_201, server: cn05.mynode.me, port: 8124, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 油管TG8度科技_202, server: cn02.mynode.me, port: 8107, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 油管TG8度科技_203, server: cn03.mynode.me, port: 8112, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 油管TG8度科技_204, server: cn02.mynode.me, port: 8108, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 油管TG8度科技_205, server: cn03.mynode.me, port: 8114, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 油管TG8度科技_206, server: cn05.mynode.me, port: 8125, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 油管TG8度科技_207, server: cn05.mynode.me, port: 8121, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 油管TG8度科技_208, server: restless-lake-c439.377955635.workers.dev, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: restless-lake-c439.377955635.workers.dev}}, udp: true}
+  - {name: HK_油管TG8度科技_209, server: 13.72.192.219, port: 15015, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: HK_油管TG8度科技_210, server: 65.52.171.156, port: 15085, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: HK_油管TG8度科技_211, server: 65.52.171.156, port: 15072, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: HK_油管TG8度科技_212, server: 13.72.192.219, port: 36104, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: HK_油管TG8度科技_213, server: 65.52.171.156, port: 15084, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: HK_油管TG8度科技_214, server: 20.205.47.95, port: 15021, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: US_油管TG8度科技_215, server: hk1.qtycloud.link, port: 1521, type: vmess, uuid: c6191a10-baf5-3391-aa2e-983826d50d0c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.qtycloud.link}}, udp: true}
+  - {name: US_油管TG8度科技_216, server: hk1.qtycloud.link, port: 1517, type: vmess, uuid: c6191a10-baf5-3391-aa2e-983826d50d0c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.qtycloud.link}}, udp: true}
+  - {name: US_油管TG8度科技_217, server: hk1.qtycloud.link, port: 1519, type: vmess, uuid: c6191a10-baf5-3391-aa2e-983826d50d0c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.qtycloud.link}}, udp: true}
+  - {name: CN_油管+TG+8度科技_218, server: gkdcm.gkdcn.top, port: 21811, type: ss, cipher: chacha20-ietf-poly1305, password: 82b60549-103b-31f0-b6fb-a303177522ae, udp: true}
+  - {name: HK_油管TG8度科技_219, server: 12.v2-ray.cyou, port: 15012, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.v2-ray.cyou}}, udp: true}
+  - {name: CN_油管+TG+8度科技_220, server: gkdcm.gkdcn.top, port: 21809, type: ss, cipher: chacha20-ietf-poly1305, password: 82b60549-103b-31f0-b6fb-a303177522ae, udp: true}
+  - {name: HK_油管TG8度科技_221, server: 13.72.192.219, port: 15012, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: US_油管TG8度科技_222, server: hk1.qtycloud.link, port: 1522, type: vmess, uuid: c6191a10-baf5-3391-aa2e-983826d50d0c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.qtycloud.link}}, udp: true}
+  - {name: CN_油管+TG+8度科技_223, server: gkdcm.gkdcn.top, port: 21806, type: ss, cipher: chacha20-ietf-poly1305, password: 82b60549-103b-31f0-b6fb-a303177522ae, udp: true}
+  - {name: US_油管+TG+8度科技_224, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: 9b7eacaf-64ed-4b69-9494-63dde479a6b8, skip-cert-verify: true, udp: true}
+  - {name: HK_油管TG8度科技_225, server: 65.52.171.156, port: 15046, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: HK_油管TG8度科技_226, server: 65.52.171.156, port: 15031, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: HK_油管TG8度科技_227, server: 65.52.171.156, port: 36174, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: JP_油管TG8度科技_228, server: 168.138.36.193, port: 32329, type: vmess, uuid: ddf03d93-d6e5-46f8-8176-80536e52e50e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_油管TG8度科技_229, server: bpjzx2.cainiao.tk, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: bpjzx2.cainiao.tk}}, udp: true}
+  - {name: CN_油管TG8度科技_230, server: 120.233.147.118, port: 53962, type: vmess, uuid: f6fee97f-1c14-326b-b57f-41af5449d3a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: US_油管TG8度科技_231, server: hk1.qtycloud.link, port: 1520, type: vmess, uuid: c6191a10-baf5-3391-aa2e-983826d50d0c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.qtycloud.link}}, udp: true}
+  - {name: US_油管+TG+8度科技_232, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: CN_油管+TG+8度科技_233, server: gkdcm.gkdcn.top, port: 21822, type: ss, cipher: chacha20-ietf-poly1305, password: 82b60549-103b-31f0-b6fb-a303177522ae, udp: true}
+  - {name: CN_油管TG8度科技_234, server: 120.233.147.118, port: 58938, type: vmess, uuid: 106f379f-d331-399c-ba4d-2f352b70bfcf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: CN_油管+TG+8度科技_235, server: gkdcu.gkdcn.top, port: 21821, type: ss, cipher: chacha20-ietf-poly1305, password: 82b60549-103b-31f0-b6fb-a303177522ae, udp: true}
+  - {name: null_油管TG8度科技_236, server: 0316ro.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nl, headers: {Host: 0316ro.fans8.xyz}}, udp: true}
+  - {name: HK_油管TG8度科技_237, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk857.fans8.xyz}}, udp: true}
+  - {name: HK_油管TG8度科技_238, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
+  - {name: IN_油管+TG+8度科技_239, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
+  - {name: TW_油管TG8度科技_240, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0314tw02.fans8.xyz}}, udp: true}
+  - {name: US_油管TG8度科技_241, server: 45.61.184.3, port: 40435, type: vmess, uuid: eca12e73-8f74-439f-b918-624e832422d4, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_油管TG8度科技_242, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hkhh.fans8.xyz}}, udp: true}
+  - {name: RU_油管TG8度科技_243, server: 0319ru99.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319ru99.fans8.xyz}}, udp: true}
+  - {name: JP_油管+TG+8度科技_244, server: jgwdj1.gaox.ml, port: 443, type: trojan, password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4, skip-cert-verify: true, udp: true}
+  - {name: TW_油管TG8度科技_245, server: 0320tw1731.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nl, headers: {Host: 0320tw1731.fans8.xyz}}, udp: true}
+  - {name: GB_油管+TG+8度科技_246, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true, udp: true}
+  - {name: HK_油管TG8度科技_247, server: 20.205.47.95, port: 15023, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: HK_油管TG8度科技_248, server: gz.yd01.paopaocloud.cyou, port: 10010, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: gz.yd01.paopaocloud.cyou}}, udp: true}
+  - {name: KR_油管TG8度科技_249, server: 0320kr99.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0320kr99.fans8.xyz}}, udp: true}
+  - {name: HK_油管TG8度科技_250, server: 65.52.171.156, port: 15038, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: JP_油管TG8度科技_251, server: 172.104.76.239, port: 15020, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: CN_油管TG8度科技_252, server: az.hk01.paopaocloud.cyou, port: 10032, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: az.hk01.paopaocloud.cyou}}, udp: true}
+  - {name: US_油管+TG+8度科技_253, server: 169.197.142.4, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_油管+TG+8度科技_254, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_油管+TG+8度科技_255, server: 169.197.142.4, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: 0319ru99.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319ru99.fans8.xyz}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: 0320ru1702.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0320ru1702.fans8.xyz}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: dycxh.ml, port: 3835, type: vmess, uuid: 1be22068-d373-4450-94c3-50f72a40fba4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1833,113 +1981,261 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - YouTube*阿阳AYANG_1
-      - YouTube*阿阳AYANG_2
-      - YouTube*阿阳AYANG_3
-      - YouTube*阿阳AYANG_4
-      - YouTube*阿阳AYANG_5
-      - YouTube*阿阳AYANG_6
-      - YouTube*阿阳AYANG_7
-      - YouTube*阿阳AYANG_8
-      - YouTube*阿阳AYANG_9
-      - YouTube*阿阳AYANG_10
-      - YouTube*阿阳AYANG_11
-      - YouTube*阿阳AYANG_12
-      - YouTube*阿阳AYANG_13
-      - YouTube*阿阳AYANG_14
-      - YouTube*阿阳AYANG_15
-      - YouTube*阿阳AYANG_16
-      - YouTube*阿阳AYANG_17
-      - YouTube*阿阳AYANG_18
-      - YouTube*阿阳AYANG_19
-      - YouTube*阿阳AYANG_20
-      - YouTube*阿阳AYANG_21
-      - YouTube*阿阳AYANG_22
-      - YouTube*阿阳AYANG_23
-      - YouTube*阿阳AYANG_24
-      - YouTube*阿阳AYANG_25
-      - YouTube*阿阳AYANG_26
-      - YouTube*阿阳AYANG_27
-      - YouTube*阿阳AYANG_28
-      - YouTube*阿阳AYANG_29
-      - YouTube*阿阳AYANG_30
-      - YouTube*阿阳AYANG_31
-      - YouTube*阿阳AYANG_32
-      - YouTube*阿阳AYANG_33
-      - YouTube*阿阳AYANG_34
-      - YouTube*阿阳AYANG_35
-      - YouTube*阿阳AYANG_36
-      - YouTube*阿阳AYANG_37
-      - YouTube*阿阳AYANG_38
-      - YouTube*阿阳AYANG_39
-      - YouTube*阿阳AYANG_40
-      - YouTube*阿阳AYANG_41
-      - YouTube*阿阳AYANG_42
-      - YouTube*阿阳AYANG_43
-      - YouTube*阿阳AYANG_44
-      - YouTube*阿阳AYANG_45
-      - YouTube*阿阳AYANG_46
-      - YouTube*阿阳AYANG_47
-      - YouTube*阿阳AYANG_48
-      - YouTube*阿阳AYANG_49
-      - YouTube*阿阳AYANG_50
-      - YouTube*阿阳AYANG_51
-      - YouTube*阿阳AYANG_52
-      - YouTube*阿阳AYANG_53
-      - YouTube*阿阳AYANG_54
-      - YouTube*阿阳AYANG_55
-      - YouTube*阿阳AYANG_56
-      - YouTube*阿阳AYANG_57
-      - YouTube*阿阳AYANG_58
-      - YouTube*阿阳AYANG_59
-      - YouTube*阿阳AYANG_60
-      - YouTube*阿阳AYANG_61
-      - YouTube*阿阳AYANG_62
-      - YouTube*阿阳AYANG_63
-      - YouTube*阿阳AYANG_64
-      - YouTube*阿阳AYANG_65
-      - YouTube*阿阳AYANG_66
-      - YouTube*阿阳AYANG_67
-      - YouTube*阿阳AYANG_68
-      - YouTube*阿阳AYANG_69
-      - YouTube*阿阳AYANG_70
-      - YouTube*阿阳AYANG_71
-      - YouTube*阿阳AYANG_72
-      - YouTube*阿阳AYANG_73
-      - YouTube*阿阳AYANG_74
-      - YouTube*阿阳AYANG_75
-      - YouTube*阿阳AYANG_76
-      - YouTube*阿阳AYANG_77
-      - YouTube*阿阳AYANG_78
-      - YouTube*阿阳AYANG_79
-      - YouTube*阿阳AYANG_80
-      - YouTube*阿阳AYANG_81
-      - YouTube*阿阳AYANG_82
-      - YouTube*阿阳AYANG_83
-      - YouTube*阿阳AYANG_84
-      - YouTube*阿阳AYANG_85
-      - YouTube*阿阳AYANG_86
-      - YouTube*阿阳AYANG_87
-      - YouTube*阿阳AYANG_88
-      - YouTube*阿阳AYANG_89
-      - YouTube*阿阳AYANG_90
-      - YouTube*阿阳AYANG_91
-      - YouTube*阿阳AYANG_92
-      - YouTube*阿阳AYANG_93
-      - YouTube*阿阳AYANG_94
-      - YouTube*阿阳AYANG_95
-      - YouTube*阿阳AYANG_96
-      - YouTube*阿阳AYANG_97
-      - YouTube*阿阳AYANG_98
-      - YouTube*阿阳AYANG_99
-      - YouTube*阿阳AYANG_100
-      - YouTube*阿阳AYANG_101
-      - YouTube*阿阳AYANG_102
-      - YouTube*阿阳AYANG_103
-      - YouTube*阿阳AYANG_104
-      - YouTube*阿阳AYANG_105
-      - YouTube*阿阳AYANG_106
-      - YouTube*阿阳AYANG_107
+      - 波兰_Tg频道:https://t_me/bpjzx2_1
+      - 波兰_Tg频道:https://t_me/bpjzx2_2
+      - 英国_Tg频道:https://t_me/bpjzx2_3
+      - 加拿大_Tg频道:https://t_me/bpjzx2_4
+      - 美国_Tg频道:https://t_me/bpjzx2_5
+      - 香港_Tg频道:https://t_me/bpjzx2_6
+      - 美国_Tg频道:https://t_me/bpjzx2_7
+      - 加拿大_Tg频道:https://t_me/bpjzx2_8
+      - _US_美国_9
+      - _CA_加拿大_10
+      - _CA_加拿大_11
+      - _CA_加拿大_12
+      - _US_美国_13
+      - _CA_加拿大_14
+      - _US_美国_15
+      - _US_美国_16
+      - _VN_越南_17
+      - _CA_加拿大_18
+      - _US_美国_19
+      - _CA_加拿大_20
+      - _GB_英国_21
+      - _US_美国->🇫🇷_FR_法国_22
+      - _GB_英国_23
+      - _US_美国->🇫🇮_FI_芬兰_24
+      - _CA_加拿大_25
+      - _CA_加拿大_26
+      - _CA_加拿大_27
+      - _KR_韩国_28
+      - _US_美国_29
+      - _CA_加拿大_30
+      - _CA_加拿大_31
+      - 港F_沪联通中继_PrepaidUsers_32
+      - 日本_3杭日隧道STCPGAME_33
+      - lindoe日本_三网优化_1x_34
+      - 香港az_3
+      - 香港-日本_5GAME_36
+      - 日本_2SoftbankGMAE_37
+      - 日本_6GAME_38
+      - 印度_1Azure_39
+      - 新021x--atp2psharing_40
+      - 澳大利亚_1Azure_41
+      - 美国2_奈飞_42
+      - 土耳其--atp2psharing_43
+      - 香港HKT_2
+      - 韩国_1
+      - 美国_1奈飞_46
+      - 香港-新加坡_1
+      - 印度_2Azure_48
+      - 台湾_2Hinet_49
+      - 香港-美国_5
+      - 日本_7SoftbankGMAE_51
+      - 土耳其_2
+      - 英国_1Tiktok_53
+      - 香港-日本_1
+      - 韩国_2广港隧道STCP_55
+      - 香港-韩国_1
+      - 香港011x--atp2psharing_57
+      - 土耳其_1无限流量！_58
+      - 美国_4
+      - HKG+CM_A/06+x0_3
+      - HKG+IEPL_B/02+x1_0
+      - JPN+IEPL_A/05+x1_0
+      - HKG+IEPL_A/10+x1_0
+      - HKG+IEPL_A/03+x1_0
+      - HKG+CN2/02+x0_3
+      - HKG+CM_A/02+x0_3
+      - JPN+IEPL_A/04+x1_0
+      - JPN+IEPL_A/02+x1_0
+      - TWN+IEPL_A/02+x1_0
+      - HKG+IEPL_B/07+x1_0
+      - HKG+IEPL_B/10+x1_0
+      - HKG+CM_A/01+x0_3
+      - HKG+CM_A/07+x0_3
+      - HKG+CN2/08+x0_3
+      - HKG+CM_B/02+x0_3
+      - SGP+IEPL_A/03+x1_0
+      - SGP+IEPL_A/01+x1_0
+      - USA+IEPL_A/02+x1_0
+      - HKG+IEPL_A/07+x1_0
+      - HKG+IEPL_B/08+x1_0
+      - SGP+CM_B/04+x0_3
+      - HKG+IEPL_A/06+x1_0
+      - SGP+CM_A/01+x0_3
+      - JPN+IEPL_A/01+x1_0
+      - HKG+IEPL_B/09+x1_0
+      - JPN+CM_A/01+x0_3
+      - HKG+CN2/04+x0_3
+      - SGP+CM_B/05+x0_3
+      - HKG+IEPL_B/05+x1_0
+      - HKG+CM_B/06+x0_3
+      - SGP+CM_A/05+x0_3
+      - HKG+CN2/01+x0_3
+      - TWN+IEPL_A/03+x1_0
+      - HKG+IEPL_B/04+x1_0
+      - HKG+CM_B/05+x0_3
+      - HKG+CM_B/08+x0_3
+      - HKG+CN2/06+x0_3
+      - USA+IEPL_A/05+x1_0
+      - HKG+CM_A/03+x0_3
+      - HKG+CM_A/04+x0_3
+      - JPN+CM_A/02+x0_3
+      - HKG+CM_B/07+x0_3
+      - HKG+IEPL_A/09+x1_0
+      - SGP+CM_A/02+x0_3
+      - SGP+CM_B/03+x0_3
+      - SGP+CM_B/01+x0_3
+      - HKG+CM_A/05+x0_3
+      - SGP+CM_B/02+x0_3
+      - SGP+CM_A/04+x0_3
+      - 公告_所求皆所愿！所行皆坦途_110
+      - HKG+CM_A/10+x0_3
+      - HKG+CN2/07+x0_3
+      - TWN+CM_A/01+x1_0
+      - 香港+_+Azure+ss+4_114
+      - HKG+CM_B/04+x0_3
+      - HKG+CM_B/10+x0_3
+      - TWN+CM_A/03+x1_0
+      - TWN+CM_A/02+x1_0
+      - HKG+CN2/03+x0_3
+      - RUS++IEPL_A/01+x1_0
+      - HKG+CM_B/09+x0_3
+      - SGP+IEPL_A/05+x1_0
+      - HKG+CM_A/09+x0_3
+      - HKG+CM_A/08+x0_3
+      - TWN+IEPL_A/01+x1_0
+      - SGP+CM_A/03+x0_3
+      - GBR+IEPL_A/01+x1_0
+      - HKG+IEPL_A/05+x1_0
+      - SGP+IEPL_A/04+x1_0
+      - JPN+CM_A/05+x0_3
+      - SGP+IEPL_A/02+x1_0
+      - HKG+IEPL_B/03+x1_0
+      - HKG+CM_B/01+x0_3
+      - JPN+CM_A/03+x0_3
+      - HKG+CN2/05+x0_3
+      - HKG+CN2/09+x0_3
+      - HKG+IEPL_A/08+x1_0
+      - JPN+CM_A/04+x0_3
+      - HKG+IEPL_B/06+x1_0
+      - HKG+CN2/10+x0_3
+      - _SE_瑞典_141
+      - v2ray-gz-hk01(hgc港Netflix)_142
+      - v2ray-az-hl01_143
+      - 日本_TGatnodesharing_108
+      - v2ray-az-ru02(俄netflix)_145
+      - v2ray-az-hk07(hgc港Netflix)_146
+      - v2ray日02(Netflix_Abema____)_147
+      - MO01_澳门_SS_x5_0
+      - 上海55Gbps80_倍率1_149
+      - v2ray-jm-jp03(日)_150
+      - 上海35Gbps80_倍率1_151
+      - 油管TG8度科技_152
+      - 油管+TG+8度科技_153
+      - 油管+TG+8度科技_154
+      - 油管+TG+8度科技_155
+      - 油管+TG+8度科技_156
+      - 油管+TG+8度科技_157
+      - 油管+TG+8度科技_158
+      - 油管+TG+8度科技_159
+      - 油管+TG+8度科技_160
+      - 油管+TG+8度科技_161
+      - 油管+TG+8度科技_162
+      - 油管+TG+8度科技_163
+      - 油管+TG+8度科技_164
+      - 油管+TG+8度科技_165
+      - 油管+TG+8度科技_166
+      - 油管+TG+8度科技_167
+      - 油管+TG+8度科技_168
+      - 油管+TG+8度科技_169
+      - 油管+TG+8度科技_170
+      - 油管+TG+8度科技_171
+      - 油管+TG+8度科技_172
+      - 油管+TG+8度科技_173
+      - 油管+TG+8度科技_174
+      - 油管+TG+8度科技_175
+      - 油管+TG+8度科技_176
+      - 油管+TG+8度科技_177
+      - 油管+TG+8度科技_178
+      - 油管+TG+8度科技_179
+      - 油管+TG+8度科技_180
+      - 油管+TG+8度科技_181
+      - 油管+TG+8度科技_182
+      - 油管+TG+8度科技_183
+      - 油管+TG+8度科技_184
+      - 油管+TG+8度科技_185
+      - 油管+TG+8度科技_186
+      - 油管+TG+8度科技_187
+      - 油管+TG+8度科技_188
+      - 油管+TG+8度科技_189
+      - 油管+TG+8度科技_190
+      - 油管+TG+8度科技_191
+      - 油管+TG+8度科技_192
+      - 油管+TG+8度科技_193
+      - 油管+TG+8度科技_194
+      - 油管+TG+8度科技_195
+      - 油管+TG+8度科技_196
+      - 油管+TG+8度科技_197
+      - 油管+TG+8度科技_198
+      - 油管TG8度科技_199
+      - 油管TG8度科技_200
+      - 油管TG8度科技_201
+      - 油管TG8度科技_202
+      - 油管TG8度科技_203
+      - 油管TG8度科技_204
+      - 油管TG8度科技_205
+      - 油管TG8度科技_206
+      - 油管TG8度科技_207
+      - 油管TG8度科技_208
+      - HK_油管TG8度科技_209
+      - HK_油管TG8度科技_210
+      - HK_油管TG8度科技_211
+      - HK_油管TG8度科技_212
+      - HK_油管TG8度科技_213
+      - HK_油管TG8度科技_214
+      - US_油管TG8度科技_215
+      - US_油管TG8度科技_216
+      - US_油管TG8度科技_217
+      - CN_油管+TG+8度科技_218
+      - HK_油管TG8度科技_219
+      - CN_油管+TG+8度科技_220
+      - HK_油管TG8度科技_221
+      - US_油管TG8度科技_222
+      - CN_油管+TG+8度科技_223
+      - US_油管+TG+8度科技_224
+      - HK_油管TG8度科技_225
+      - HK_油管TG8度科技_226
+      - HK_油管TG8度科技_227
+      - JP_油管TG8度科技_228
+      - US_油管TG8度科技_229
+      - CN_油管TG8度科技_230
+      - US_油管TG8度科技_231
+      - US_油管+TG+8度科技_232
+      - CN_油管+TG+8度科技_233
+      - CN_油管TG8度科技_234
+      - CN_油管+TG+8度科技_235
+      - null_油管TG8度科技_236
+      - HK_油管TG8度科技_237
+      - HK_油管TG8度科技_238
+      - IN_油管+TG+8度科技_239
+      - TW_油管TG8度科技_240
+      - US_油管TG8度科技_241
+      - HK_油管TG8度科技_242
+      - RU_油管TG8度科技_243
+      - JP_油管+TG+8度科技_244
+      - TW_油管TG8度科技_245
+      - GB_油管+TG+8度科技_246
+      - HK_油管TG8度科技_247
+      - HK_油管TG8度科技_248
+      - KR_油管TG8度科技_249
+      - HK_油管TG8度科技_250
+      - JP_油管TG8度科技_251
+      - CN_油管TG8度科技_252
+      - US_油管+TG+8度科技_253
+      - US_油管+TG+8度科技_254
+      - US_油管+TG+8度科技_255
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)
@@ -3661,113 +3957,261 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - YouTube*阿阳AYANG_1
-      - YouTube*阿阳AYANG_2
-      - YouTube*阿阳AYANG_3
-      - YouTube*阿阳AYANG_4
-      - YouTube*阿阳AYANG_5
-      - YouTube*阿阳AYANG_6
-      - YouTube*阿阳AYANG_7
-      - YouTube*阿阳AYANG_8
-      - YouTube*阿阳AYANG_9
-      - YouTube*阿阳AYANG_10
-      - YouTube*阿阳AYANG_11
-      - YouTube*阿阳AYANG_12
-      - YouTube*阿阳AYANG_13
-      - YouTube*阿阳AYANG_14
-      - YouTube*阿阳AYANG_15
-      - YouTube*阿阳AYANG_16
-      - YouTube*阿阳AYANG_17
-      - YouTube*阿阳AYANG_18
-      - YouTube*阿阳AYANG_19
-      - YouTube*阿阳AYANG_20
-      - YouTube*阿阳AYANG_21
-      - YouTube*阿阳AYANG_22
-      - YouTube*阿阳AYANG_23
-      - YouTube*阿阳AYANG_24
-      - YouTube*阿阳AYANG_25
-      - YouTube*阿阳AYANG_26
-      - YouTube*阿阳AYANG_27
-      - YouTube*阿阳AYANG_28
-      - YouTube*阿阳AYANG_29
-      - YouTube*阿阳AYANG_30
-      - YouTube*阿阳AYANG_31
-      - YouTube*阿阳AYANG_32
-      - YouTube*阿阳AYANG_33
-      - YouTube*阿阳AYANG_34
-      - YouTube*阿阳AYANG_35
-      - YouTube*阿阳AYANG_36
-      - YouTube*阿阳AYANG_37
-      - YouTube*阿阳AYANG_38
-      - YouTube*阿阳AYANG_39
-      - YouTube*阿阳AYANG_40
-      - YouTube*阿阳AYANG_41
-      - YouTube*阿阳AYANG_42
-      - YouTube*阿阳AYANG_43
-      - YouTube*阿阳AYANG_44
-      - YouTube*阿阳AYANG_45
-      - YouTube*阿阳AYANG_46
-      - YouTube*阿阳AYANG_47
-      - YouTube*阿阳AYANG_48
-      - YouTube*阿阳AYANG_49
-      - YouTube*阿阳AYANG_50
-      - YouTube*阿阳AYANG_51
-      - YouTube*阿阳AYANG_52
-      - YouTube*阿阳AYANG_53
-      - YouTube*阿阳AYANG_54
-      - YouTube*阿阳AYANG_55
-      - YouTube*阿阳AYANG_56
-      - YouTube*阿阳AYANG_57
-      - YouTube*阿阳AYANG_58
-      - YouTube*阿阳AYANG_59
-      - YouTube*阿阳AYANG_60
-      - YouTube*阿阳AYANG_61
-      - YouTube*阿阳AYANG_62
-      - YouTube*阿阳AYANG_63
-      - YouTube*阿阳AYANG_64
-      - YouTube*阿阳AYANG_65
-      - YouTube*阿阳AYANG_66
-      - YouTube*阿阳AYANG_67
-      - YouTube*阿阳AYANG_68
-      - YouTube*阿阳AYANG_69
-      - YouTube*阿阳AYANG_70
-      - YouTube*阿阳AYANG_71
-      - YouTube*阿阳AYANG_72
-      - YouTube*阿阳AYANG_73
-      - YouTube*阿阳AYANG_74
-      - YouTube*阿阳AYANG_75
-      - YouTube*阿阳AYANG_76
-      - YouTube*阿阳AYANG_77
-      - YouTube*阿阳AYANG_78
-      - YouTube*阿阳AYANG_79
-      - YouTube*阿阳AYANG_80
-      - YouTube*阿阳AYANG_81
-      - YouTube*阿阳AYANG_82
-      - YouTube*阿阳AYANG_83
-      - YouTube*阿阳AYANG_84
-      - YouTube*阿阳AYANG_85
-      - YouTube*阿阳AYANG_86
-      - YouTube*阿阳AYANG_87
-      - YouTube*阿阳AYANG_88
-      - YouTube*阿阳AYANG_89
-      - YouTube*阿阳AYANG_90
-      - YouTube*阿阳AYANG_91
-      - YouTube*阿阳AYANG_92
-      - YouTube*阿阳AYANG_93
-      - YouTube*阿阳AYANG_94
-      - YouTube*阿阳AYANG_95
-      - YouTube*阿阳AYANG_96
-      - YouTube*阿阳AYANG_97
-      - YouTube*阿阳AYANG_98
-      - YouTube*阿阳AYANG_99
-      - YouTube*阿阳AYANG_100
-      - YouTube*阿阳AYANG_101
-      - YouTube*阿阳AYANG_102
-      - YouTube*阿阳AYANG_103
-      - YouTube*阿阳AYANG_104
-      - YouTube*阿阳AYANG_105
-      - YouTube*阿阳AYANG_106
-      - YouTube*阿阳AYANG_107
+      - 波兰_Tg频道:https://t_me/bpjzx2_1
+      - 波兰_Tg频道:https://t_me/bpjzx2_2
+      - 英国_Tg频道:https://t_me/bpjzx2_3
+      - 加拿大_Tg频道:https://t_me/bpjzx2_4
+      - 美国_Tg频道:https://t_me/bpjzx2_5
+      - 香港_Tg频道:https://t_me/bpjzx2_6
+      - 美国_Tg频道:https://t_me/bpjzx2_7
+      - 加拿大_Tg频道:https://t_me/bpjzx2_8
+      - _US_美国_9
+      - _CA_加拿大_10
+      - _CA_加拿大_11
+      - _CA_加拿大_12
+      - _US_美国_13
+      - _CA_加拿大_14
+      - _US_美国_15
+      - _US_美国_16
+      - _VN_越南_17
+      - _CA_加拿大_18
+      - _US_美国_19
+      - _CA_加拿大_20
+      - _GB_英国_21
+      - _US_美国->🇫🇷_FR_法国_22
+      - _GB_英国_23
+      - _US_美国->🇫🇮_FI_芬兰_24
+      - _CA_加拿大_25
+      - _CA_加拿大_26
+      - _CA_加拿大_27
+      - _KR_韩国_28
+      - _US_美国_29
+      - _CA_加拿大_30
+      - _CA_加拿大_31
+      - 港F_沪联通中继_PrepaidUsers_32
+      - 日本_3杭日隧道STCPGAME_33
+      - lindoe日本_三网优化_1x_34
+      - 香港az_3
+      - 香港-日本_5GAME_36
+      - 日本_2SoftbankGMAE_37
+      - 日本_6GAME_38
+      - 印度_1Azure_39
+      - 新021x--atp2psharing_40
+      - 澳大利亚_1Azure_41
+      - 美国2_奈飞_42
+      - 土耳其--atp2psharing_43
+      - 香港HKT_2
+      - 韩国_1
+      - 美国_1奈飞_46
+      - 香港-新加坡_1
+      - 印度_2Azure_48
+      - 台湾_2Hinet_49
+      - 香港-美国_5
+      - 日本_7SoftbankGMAE_51
+      - 土耳其_2
+      - 英国_1Tiktok_53
+      - 香港-日本_1
+      - 韩国_2广港隧道STCP_55
+      - 香港-韩国_1
+      - 香港011x--atp2psharing_57
+      - 土耳其_1无限流量！_58
+      - 美国_4
+      - HKG+CM_A/06+x0_3
+      - HKG+IEPL_B/02+x1_0
+      - JPN+IEPL_A/05+x1_0
+      - HKG+IEPL_A/10+x1_0
+      - HKG+IEPL_A/03+x1_0
+      - HKG+CN2/02+x0_3
+      - HKG+CM_A/02+x0_3
+      - JPN+IEPL_A/04+x1_0
+      - JPN+IEPL_A/02+x1_0
+      - TWN+IEPL_A/02+x1_0
+      - HKG+IEPL_B/07+x1_0
+      - HKG+IEPL_B/10+x1_0
+      - HKG+CM_A/01+x0_3
+      - HKG+CM_A/07+x0_3
+      - HKG+CN2/08+x0_3
+      - HKG+CM_B/02+x0_3
+      - SGP+IEPL_A/03+x1_0
+      - SGP+IEPL_A/01+x1_0
+      - USA+IEPL_A/02+x1_0
+      - HKG+IEPL_A/07+x1_0
+      - HKG+IEPL_B/08+x1_0
+      - SGP+CM_B/04+x0_3
+      - HKG+IEPL_A/06+x1_0
+      - SGP+CM_A/01+x0_3
+      - JPN+IEPL_A/01+x1_0
+      - HKG+IEPL_B/09+x1_0
+      - JPN+CM_A/01+x0_3
+      - HKG+CN2/04+x0_3
+      - SGP+CM_B/05+x0_3
+      - HKG+IEPL_B/05+x1_0
+      - HKG+CM_B/06+x0_3
+      - SGP+CM_A/05+x0_3
+      - HKG+CN2/01+x0_3
+      - TWN+IEPL_A/03+x1_0
+      - HKG+IEPL_B/04+x1_0
+      - HKG+CM_B/05+x0_3
+      - HKG+CM_B/08+x0_3
+      - HKG+CN2/06+x0_3
+      - USA+IEPL_A/05+x1_0
+      - HKG+CM_A/03+x0_3
+      - HKG+CM_A/04+x0_3
+      - JPN+CM_A/02+x0_3
+      - HKG+CM_B/07+x0_3
+      - HKG+IEPL_A/09+x1_0
+      - SGP+CM_A/02+x0_3
+      - SGP+CM_B/03+x0_3
+      - SGP+CM_B/01+x0_3
+      - HKG+CM_A/05+x0_3
+      - SGP+CM_B/02+x0_3
+      - SGP+CM_A/04+x0_3
+      - 公告_所求皆所愿！所行皆坦途_110
+      - HKG+CM_A/10+x0_3
+      - HKG+CN2/07+x0_3
+      - TWN+CM_A/01+x1_0
+      - 香港+_+Azure+ss+4_114
+      - HKG+CM_B/04+x0_3
+      - HKG+CM_B/10+x0_3
+      - TWN+CM_A/03+x1_0
+      - TWN+CM_A/02+x1_0
+      - HKG+CN2/03+x0_3
+      - RUS++IEPL_A/01+x1_0
+      - HKG+CM_B/09+x0_3
+      - SGP+IEPL_A/05+x1_0
+      - HKG+CM_A/09+x0_3
+      - HKG+CM_A/08+x0_3
+      - TWN+IEPL_A/01+x1_0
+      - SGP+CM_A/03+x0_3
+      - GBR+IEPL_A/01+x1_0
+      - HKG+IEPL_A/05+x1_0
+      - SGP+IEPL_A/04+x1_0
+      - JPN+CM_A/05+x0_3
+      - SGP+IEPL_A/02+x1_0
+      - HKG+IEPL_B/03+x1_0
+      - HKG+CM_B/01+x0_3
+      - JPN+CM_A/03+x0_3
+      - HKG+CN2/05+x0_3
+      - HKG+CN2/09+x0_3
+      - HKG+IEPL_A/08+x1_0
+      - JPN+CM_A/04+x0_3
+      - HKG+IEPL_B/06+x1_0
+      - HKG+CN2/10+x0_3
+      - _SE_瑞典_141
+      - v2ray-gz-hk01(hgc港Netflix)_142
+      - v2ray-az-hl01_143
+      - 日本_TGatnodesharing_108
+      - v2ray-az-ru02(俄netflix)_145
+      - v2ray-az-hk07(hgc港Netflix)_146
+      - v2ray日02(Netflix_Abema____)_147
+      - MO01_澳门_SS_x5_0
+      - 上海55Gbps80_倍率1_149
+      - v2ray-jm-jp03(日)_150
+      - 上海35Gbps80_倍率1_151
+      - 油管TG8度科技_152
+      - 油管+TG+8度科技_153
+      - 油管+TG+8度科技_154
+      - 油管+TG+8度科技_155
+      - 油管+TG+8度科技_156
+      - 油管+TG+8度科技_157
+      - 油管+TG+8度科技_158
+      - 油管+TG+8度科技_159
+      - 油管+TG+8度科技_160
+      - 油管+TG+8度科技_161
+      - 油管+TG+8度科技_162
+      - 油管+TG+8度科技_163
+      - 油管+TG+8度科技_164
+      - 油管+TG+8度科技_165
+      - 油管+TG+8度科技_166
+      - 油管+TG+8度科技_167
+      - 油管+TG+8度科技_168
+      - 油管+TG+8度科技_169
+      - 油管+TG+8度科技_170
+      - 油管+TG+8度科技_171
+      - 油管+TG+8度科技_172
+      - 油管+TG+8度科技_173
+      - 油管+TG+8度科技_174
+      - 油管+TG+8度科技_175
+      - 油管+TG+8度科技_176
+      - 油管+TG+8度科技_177
+      - 油管+TG+8度科技_178
+      - 油管+TG+8度科技_179
+      - 油管+TG+8度科技_180
+      - 油管+TG+8度科技_181
+      - 油管+TG+8度科技_182
+      - 油管+TG+8度科技_183
+      - 油管+TG+8度科技_184
+      - 油管+TG+8度科技_185
+      - 油管+TG+8度科技_186
+      - 油管+TG+8度科技_187
+      - 油管+TG+8度科技_188
+      - 油管+TG+8度科技_189
+      - 油管+TG+8度科技_190
+      - 油管+TG+8度科技_191
+      - 油管+TG+8度科技_192
+      - 油管+TG+8度科技_193
+      - 油管+TG+8度科技_194
+      - 油管+TG+8度科技_195
+      - 油管+TG+8度科技_196
+      - 油管+TG+8度科技_197
+      - 油管+TG+8度科技_198
+      - 油管TG8度科技_199
+      - 油管TG8度科技_200
+      - 油管TG8度科技_201
+      - 油管TG8度科技_202
+      - 油管TG8度科技_203
+      - 油管TG8度科技_204
+      - 油管TG8度科技_205
+      - 油管TG8度科技_206
+      - 油管TG8度科技_207
+      - 油管TG8度科技_208
+      - HK_油管TG8度科技_209
+      - HK_油管TG8度科技_210
+      - HK_油管TG8度科技_211
+      - HK_油管TG8度科技_212
+      - HK_油管TG8度科技_213
+      - HK_油管TG8度科技_214
+      - US_油管TG8度科技_215
+      - US_油管TG8度科技_216
+      - US_油管TG8度科技_217
+      - CN_油管+TG+8度科技_218
+      - HK_油管TG8度科技_219
+      - CN_油管+TG+8度科技_220
+      - HK_油管TG8度科技_221
+      - US_油管TG8度科技_222
+      - CN_油管+TG+8度科技_223
+      - US_油管+TG+8度科技_224
+      - HK_油管TG8度科技_225
+      - HK_油管TG8度科技_226
+      - HK_油管TG8度科技_227
+      - JP_油管TG8度科技_228
+      - US_油管TG8度科技_229
+      - CN_油管TG8度科技_230
+      - US_油管TG8度科技_231
+      - US_油管+TG+8度科技_232
+      - CN_油管+TG+8度科技_233
+      - CN_油管TG8度科技_234
+      - CN_油管+TG+8度科技_235
+      - null_油管TG8度科技_236
+      - HK_油管TG8度科技_237
+      - HK_油管TG8度科技_238
+      - IN_油管+TG+8度科技_239
+      - TW_油管TG8度科技_240
+      - US_油管TG8度科技_241
+      - HK_油管TG8度科技_242
+      - RU_油管TG8度科技_243
+      - JP_油管+TG+8度科技_244
+      - TW_油管TG8度科技_245
+      - GB_油管+TG+8度科技_246
+      - HK_油管TG8度科技_247
+      - HK_油管TG8度科技_248
+      - KR_油管TG8度科技_249
+      - HK_油管TG8度科技_250
+      - JP_油管TG8度科技_251
+      - CN_油管TG8度科技_252
+      - US_油管+TG+8度科技_253
+      - US_油管+TG+8度科技_254
+      - US_油管+TG+8度科技_255
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)
