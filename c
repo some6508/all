@@ -5,46 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"github_com/freefq-北美地区3_3","server":"134.195.196.81","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"US美国TG/油管at阿伟科技_1","server":"115.wowogg.cyou","port":52215,"type":"vmess","uuid":"7b0e18c2-7c79-370b-833d-5b2191ea112a","alterId":2,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"CN中国TG/油管at阿伟科技_2","server":"cu2.worldmuseum.buzz","port":12100,"type":"vmess","uuid":"ff52c519-91fb-3ca3-9b55-f96e75201532","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/sg","headers":{"host":"cu2.worldmuseum.buzz"}}}
+  - {"name":"DE德国TG/油管at阿伟科技_3","server":"v6d.moonfree.top","port":443,"type":"vmess","uuid":"1ab594a2-cee0-4876-89b9-1b9b4053a6c4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"v6d.moonfree.top"}}}
+  - {"name":"RU俄罗斯联邦TG/油管at阿伟科技_4","server":"0320ru1702.fans8.xyz","port":80,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"0320ru1702.fans8.xyz"}}}
+  - {"name":"RU俄罗斯联邦TG/油管at阿伟科技_5","server":"0319ru99.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"0319ru99.fans8.xyz"}}}
+  - {"name":"US美国TG/油管at阿伟科技_6","server":"kr3.qingyun123.xyz","port":10050,"type":"trojan","password":"8c6ae7e7-d384-4d48-b078-2be389e6ada1","sni":"kr3.qingyun123.xyz"}
+  - {"name":"MY马来西亚TG/油管at阿伟科技_7","server":"oaQuie3i.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"oaQuie3i.com"}}}
+  - {"name":"US美国TG/油管at阿伟科技_8","server":"awsxjp.moonfree.top","port":443,"type":"vmess","uuid":"1ab594a2-cee0-4876-89b9-1b9b4053a6c4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"awsxjp.moonfree.top"}}}
+  - {"name":"US美国TG/油管at阿伟科技_9","server":"linodemx0303.moonfree.top","port":443,"type":"vmess","uuid":"1ab594a2-cee0-4876-89b9-1b9b4053a6c4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"linodemx0303.moonfree.top"}}}
+  - {"name":"US美国TG/油管at阿伟科技_10","server":"38.75.137.66","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - github_com/freefq-北美地区3_3
+      - US美国TG/油管at阿伟科技_1
+      - CN中国TG/油管at阿伟科技_2
+      - DE德国TG/油管at阿伟科技_3
+      - RU俄罗斯联邦TG/油管at阿伟科技_4
+      - RU俄罗斯联邦TG/油管at阿伟科技_5
+      - US美国TG/油管at阿伟科技_6
+      - MY马来西亚TG/油管at阿伟科技_7
+      - US美国TG/油管at阿伟科技_8
+      - US美国TG/油管at阿伟科技_9
+      - US美国TG/油管at阿伟科技_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - github_com/freefq-北美地区3_3
+      - US美国TG/油管at阿伟科技_1
+      - CN中国TG/油管at阿伟科技_2
+      - DE德国TG/油管at阿伟科技_3
+      - RU俄罗斯联邦TG/油管at阿伟科技_4
+      - RU俄罗斯联邦TG/油管at阿伟科技_5
+      - US美国TG/油管at阿伟科技_6
+      - MY马来西亚TG/油管at阿伟科技_7
+      - US美国TG/油管at阿伟科技_8
+      - US美国TG/油管at阿伟科技_9
+      - US美国TG/油管at阿伟科技_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github_com/freefq-北美地区3_3
+      - US美国TG/油管at阿伟科技_1
+      - CN中国TG/油管at阿伟科技_2
+      - DE德国TG/油管at阿伟科技_3
+      - RU俄罗斯联邦TG/油管at阿伟科技_4
+      - RU俄罗斯联邦TG/油管at阿伟科技_5
+      - US美国TG/油管at阿伟科技_6
+      - MY马来西亚TG/油管at阿伟科技_7
+      - US美国TG/油管at阿伟科技_8
+      - US美国TG/油管at阿伟科技_9
+      - US美国TG/油管at阿伟科技_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github_com/freefq-北美地区3_3
+      - US美国TG/油管at阿伟科技_1
+      - CN中国TG/油管at阿伟科技_2
+      - DE德国TG/油管at阿伟科技_3
+      - RU俄罗斯联邦TG/油管at阿伟科技_4
+      - RU俄罗斯联邦TG/油管at阿伟科技_5
+      - US美国TG/油管at阿伟科技_6
+      - MY马来西亚TG/油管at阿伟科技_7
+      - US美国TG/油管at阿伟科技_8
+      - US美国TG/油管at阿伟科技_9
+      - US美国TG/油管at阿伟科技_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - github_com/freefq-北美地区3_3
+      - US美国TG/油管at阿伟科技_1
+      - CN中国TG/油管at阿伟科技_2
+      - DE德国TG/油管at阿伟科技_3
+      - RU俄罗斯联邦TG/油管at阿伟科技_4
+      - RU俄罗斯联邦TG/油管at阿伟科技_5
+      - US美国TG/油管at阿伟科技_6
+      - MY马来西亚TG/油管at阿伟科技_7
+      - US美国TG/油管at阿伟科技_8
+      - US美国TG/油管at阿伟科技_9
+      - US美国TG/油管at阿伟科技_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github_com/freefq-北美地区3_3
+      - US美国TG/油管at阿伟科技_1
+      - CN中国TG/油管at阿伟科技_2
+      - DE德国TG/油管at阿伟科技_3
+      - RU俄罗斯联邦TG/油管at阿伟科技_4
+      - RU俄罗斯联邦TG/油管at阿伟科技_5
+      - US美国TG/油管at阿伟科技_6
+      - MY马来西亚TG/油管at阿伟科技_7
+      - US美国TG/油管at阿伟科技_8
+      - US美国TG/油管at阿伟科技_9
+      - US美国TG/油管at阿伟科技_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github_com/freefq-北美地区3_3
+      - US美国TG/油管at阿伟科技_1
+      - CN中国TG/油管at阿伟科技_2
+      - DE德国TG/油管at阿伟科技_3
+      - RU俄罗斯联邦TG/油管at阿伟科技_4
+      - RU俄罗斯联邦TG/油管at阿伟科技_5
+      - US美国TG/油管at阿伟科技_6
+      - MY马来西亚TG/油管at阿伟科技_7
+      - US美国TG/油管at阿伟科技_8
+      - US美国TG/油管at阿伟科技_9
+      - US美国TG/油管at阿伟科技_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
