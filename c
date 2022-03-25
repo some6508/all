@@ -4,663 +4,355 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
-proxies:
-  - {"name":"🇯🇵_JP_日本_1","server":"0320jp.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0320jp.fans8.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.187","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.51","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.196.68","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.196.81","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.3","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇨🇦_CA_加拿大_7","server":"134.195.196.68","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_8","server":"134.195.196.3","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_9","server":"134.195.196.81","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇬🇧_GB_英国_10","server":"172.99.190.92","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_11","server":"134.195.196.187","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_12","server":"134.195.196.81","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦_CA_加拿大_13","server":"134.195.196.187","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_14","server":"134.195.196.187","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇬🇧_GB_英国_15","server":"172.99.190.92","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_16","server":"134.195.196.81","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_17","server":"134.195.196.81","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇬🇧_GB_英国_18","server":"172.99.190.92","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇦🇺_AU_澳大利亚_19","server":"us.x7777.xyz","port":12205,"type":"vmess","uuid":"cf868c0d-67be-4481-9988-326227e96f49","alterId":0,"cipher":"auto","tls":true,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇦_CA_加拿大_20","server":"134.195.196.3","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA_加拿大_21","server":"134.195.196.68","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_22","server":"134.195.196.187","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_23","server":"134.195.196.81","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦_CA_加拿大_24","server":"134.195.196.187","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA_加拿大_25","server":"134.195.196.3","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_26","server":"134.195.196.187","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_27","server":"134.195.196.187","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA_加拿大_28","server":"134.195.196.81","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_29","server":"134.195.196.68","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_30","server":"134.195.196.68","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_31","server":"134.195.196.3","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_32","server":"134.195.196.187","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦_CA_加拿大_33","server":"134.195.196.3","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_34","server":"134.195.196.81","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇨🇦_CA_加拿大_35","server":"134.195.196.81","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_36","server":"134.195.196.187","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦_CA_加拿大_37","server":"134.195.196.68","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_38","server":"134.195.196.187","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦_CA_加拿大_39","server":"134.195.196.68","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_40","server":"134.195.196.3","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇬🇧_GB_英国_41","server":"172.99.190.92","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_42","server":"134.195.196.68","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_43","server":"134.195.196.81","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_44","server":"134.195.196.187","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_45","server":"134.195.196.68","port":4444,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇭🇰_HK_香港_46","server":"hk8.peakerselling.com","port":443,"type":"vmess","uuid":"d3435521-3d1f-37f7-ab48-f5302bc6a4fb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/helloman","headers":{"host":"hk8.peakerselling.com"}}}
-  - {"name":"🇨🇦_CA_加拿大_47","server":"134.195.196.81","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA_加拿大_48","server":"134.195.196.68","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_49","server":"134.195.196.68","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_50","server":"134.195.196.51","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_51","server":"134.195.196.81","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇹🇼_TW_台湾_52","server":"0319tw123.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"0319tw123.fans8.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_53","server":"134.195.196.187","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA_加拿大_54","server":"134.195.196.81","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇬🇧_GB_英国_55","server":"172.99.190.92","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_56","server":"134.195.196.81","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_57","server":"134.195.196.68","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇹🇼_TW_台湾_58","server":"0314tw02.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":3,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0314tw02.fans8.xyz"}}}
-  - {"name":"🇬🇧_GB_英国_59","server":"172.99.190.92","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇨🇦_CA_加拿大_60","server":"134.195.196.187","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_61","server":"134.195.196.3","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国_62","server":"172.67.68.58","port":443,"type":"vmess","uuid":"f2f578e4-692d-40b5-af99-9f1dd712eb32","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/shuier","headers":{"host":"xc1.v2rie.pp.ua"}}}
-  - {"name":"🇨🇳_CN_中国_63","server":"hk.x6666.xyz","port":12205,"type":"vmess","uuid":"56aa7963-db8e-4262-8ee8-f21d6dc7d577","alterId":0,"cipher":"auto","tls":true,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇦_CA_加拿大_64","server":"134.195.196.187","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_65","server":"134.195.196.187","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_66","server":"134.195.196.81","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US_美国_67","server":"ui.x6666.xyz","port":12205,"type":"vmess","uuid":"df091936-cacb-4e86-f71b-ba34597e4841","alterId":0,"cipher":"auto","tls":true,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"🇻🇳_VN_越南_68","server":"0319hzm01.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"0319hzm01.fans8.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_69","server":"134.195.196.187","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_70","server":"134.195.196.68","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇯🇵_JP_日本_71","server":"jp.x6666.xyz","port":12205,"type":"vmess","uuid":"ee53142b-72d0-4cc1-9058-9aa98559e592","alterId":0,"cipher":"auto","tls":true,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_72","server":"0319ru99.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"0319ru99.fans8.xyz"}}}
-  - {"name":"🇩🇪_DE_德国_73","server":"blog.homeos.ml","port":3306,"type":"vmess","uuid":"b35d627c-822d-4c04-d366-c2051811b622","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇦_CA_加拿大_74","server":"134.195.196.81","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_75","server":"134.195.196.187","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_76","server":"134.195.196.51","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_77","server":"134.195.196.81","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_78","server":"134.195.196.81","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_79","server":"134.195.196.68","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA_加拿大_80","server":"134.195.196.3","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_81","server":"134.195.196.81","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_82","server":"134.195.196.3","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA_加拿大_83","server":"134.195.196.187","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA_加拿大_84","server":"134.195.196.187","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA_加拿大_85","server":"134.195.196.81","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_86","server":"134.195.196.81","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_87","server":"134.195.196.3","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_88","server":"134.195.196.3","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_89","server":"134.195.196.3","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+proxies: 
+  - {name: 'defaultName_1', server: '169.197.142.99', port: 7001,  type: ss, cipher: 'aes-256-gcm', password: 'RexnBgU7EV5ADxG'}
+  - {name: 'defaultName_2', server: '169.197.142.99', port: 8118,  type: ss, cipher: 'aes-256-gcm', password: 'cdBIDV42DCwnfIN'}
+  - {name: 'defaultName_3', server: '169.197.142.99', port: 8091,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27'}
+  - {name: 'defaultName_4', server: '169.197.142.99', port: 9101,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY'}
+  - {name: 'defaultName_5', server: '169.197.142.99', port: 443,  type: ss, cipher: 'aes-256-gcm', password: 'pKEW8JPByTVTLtM'}
+  - {name: 'defaultName_6', server: '169.197.142.99', port: 6697,  type: ss, cipher: 'aes-256-gcm', password: 'TEzjfAYq2IjtuoS'}
+  - {name: '', server: 'ui.x6666.xyz', port: 12205, type: vmess, uuid: 'df091936-cacb-4e86-f71b-ba34597e4841', alterId: 0, cipher: auto, tls: true, network: 'tcp', ws-opts: { path: '/ws', headers: {host: 'ui.x6666.xyz'}} }
+  - {name: 'defaultName_8', server: '169.197.142.99', port: 6679,  type: ss, cipher: 'aes-256-gcm', password: 'TEzjfAYq2IjtuoS'}
+  - {name: 'defaultName_9', server: '169.197.142.99', port: 7002,  type: ss, cipher: 'aes-256-gcm', password: 'RexnBgU7EV5ADxG'}
+  - {name: 'ZZ_176+TGatpeekfun_10', server: '134.195.196.51', port: 443,  type: ss, cipher: 'aes-256-gcm', password: 'pKEW8JPByTVTLtM'}
+  - {name: 'ZZ_125+TGatpeekfun_11', server: '134.195.196.51', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm'}
+  - {name: '', server: '52.163.89.253', port: 35252, type: vmess, uuid: '84a69512-7365-487f-b2ac-d1d5c4e05750', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/nmsl', headers: {host: '52.163.89.253'}} }
+  - {name: 'ZZ_143+TGatpeekfun_13', server: '134.195.196.51', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
+  - {name: 'ZZ_165+TGatpeekfun_14', server: '134.195.196.51', port: 6679,  type: ss, cipher: 'aes-256-gcm', password: 'TEzjfAYq2IjtuoS'}
+  - {name: 'ZZ_107+TGatpeekfun_15', server: '134.195.196.51', port: 8090,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27'}
+  - {name: 'ZZ_158+TGatpeekfun_16', server: '134.195.196.51', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP'}
+  - {name: 'defaultName_17', server: '169.197.142.99', port: 5001,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
+  - {name: 'ZZ_122+TGatpeekfun_18', server: '134.195.196.3', port: 9101,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY'}
+  - {name: 'ZZ_153+TGatpeekfun_19', server: '134.195.196.187', port: 5600,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
+  - {name: 'defaultName_20', server: '134.195.196.187', port: 9101,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY'}
+  - {name: 'ZZ_102+TGatpeekfun_21', server: '134.195.196.187', port: 7002,  type: ss, cipher: 'aes-256-gcm', password: 'RexnBgU7EV5ADxG'}
+  - {name: 'defaultName_22', server: '134.195.196.81', port: 443,  type: ss, cipher: 'aes-256-gcm', password: 'pKEW8JPByTVTLtM'}
+  - {name: 'ZZ_140+TGatpeekfun_23', server: '134.195.196.3', port: 8888,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
+  - {name: 'ZZ_126+TGatpeekfun_24', server: '134.195.196.187', port: 2376,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7'}
+  - {name: 'ZZ_163+TGatpeekfun_25', server: '134.195.196.187', port: 8881,  type: ss, cipher: 'aes-256-gcm', password: 'kDWvXYZoTBcGkC4'}
+  - {name: 'ZZ_133+TGatpeekfun_26', server: '134.195.196.68', port: 8888,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
+  - {name: 'ZZ_109+TGatpeekfun_27', server: '134.195.196.187', port: 5601,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
+  - {name: 'defaultName_28', server: '134.195.196.68', port: 5001,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
+  - {name: 'ZZ_111+TGatpeekfun_29', server: '134.195.196.187', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP'}
+  - {name: 'ZZ_138+TGatpeekfun_30', server: '134.195.196.81', port: 7002,  type: ss, cipher: 'aes-256-gcm', password: 'RexnBgU7EV5ADxG'}
+  - {name: 'ZZ_142+TGatpeekfun_31', server: '134.195.196.3', port: 8118,  type: ss, cipher: 'aes-256-gcm', password: 'cdBIDV42DCwnfIN'}
+  - {name: 'defaultName_32', server: '134.195.196.81', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
+  - {name: 'defaultName_33', server: '134.195.196.187', port: 5500,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm'}
+  - {name: 'defaultName_34', server: '134.195.196.81', port: 8090,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27'}
+  - {name: 'defaultName_35', server: '134.195.196.68', port: 9101,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY'}
+  - {name: 'CY_44+TGatpeekfun_36', server: '213.169.137.221', port: 989,  type: ss, cipher: 'aes-256-cfb', password: 'f8f7aCzcPKbsF8p3'}
+  - {name: 'ZZ_147+TGatpeekfun_37', server: '134.195.196.3', port: 7307,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP'}
+  - {name: 'ZZ_123+TGatpeekfun_38', server: '134.195.196.68', port: 8008,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74'}
+  - {name: 'ZZ_136+TGatpeekfun_39', server: '134.195.196.187', port: 6379,  type: ss, cipher: 'aes-256-gcm', password: 'zDNVedRFPQexG9v'}
+  - {name: 'US_3150', server: '167.88.63.108', port: 5004,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId'}
+  - {name: 'ZZ_137+TGatpeekfun_41', server: '134.195.196.187', port: 6697,  type: ss, cipher: 'aes-256-gcm', password: 'TEzjfAYq2IjtuoS'}
+  - {name: 'defaultName_42', server: '134.195.196.81', port: 6697,  type: ss, cipher: 'aes-256-gcm', password: 'TEzjfAYq2IjtuoS'}
+  - {name: 'ZZ_130+TGatpeekfun_43', server: '134.195.196.3', port: 9102,  type: ss, cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY'}
+  - {name: 'ZZ_171+TGatpeekfun_44', server: '134.195.196.68', port: 5500,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm'}
+  - {name: 'ZZ_169+TGatpeekfun_45', server: '134.195.196.68', port: 443,  type: ss, cipher: 'aes-256-gcm', password: 'pKEW8JPByTVTLtM'}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇬🇧_GB_英国_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇬🇧_GB_英国_18
-      - 🇦🇺_AU_澳大利亚_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇨🇦_CA_加拿大_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇨🇦_CA_加拿大_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇨🇦_CA_加拿大_28
-      - 🇨🇦_CA_加拿大_29
-      - 🇨🇦_CA_加拿大_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇨🇦_CA_加拿大_32
-      - 🇨🇦_CA_加拿大_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇨🇦_CA_加拿大_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇨🇦_CA_加拿大_37
-      - 🇨🇦_CA_加拿大_38
-      - 🇨🇦_CA_加拿大_39
-      - 🇨🇦_CA_加拿大_40
-      - 🇬🇧_GB_英国_41
-      - 🇨🇦_CA_加拿大_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇨🇦_CA_加拿大_45
-      - 🇭🇰_HK_香港_46
-      - 🇨🇦_CA_加拿大_47
-      - 🇨🇦_CA_加拿大_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇨🇦_CA_加拿大_50
-      - 🇨🇦_CA_加拿大_51
-      - 🇹🇼_TW_台湾_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇬🇧_GB_英国_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇨🇦_CA_加拿大_57
-      - 🇹🇼_TW_台湾_58
-      - 🇬🇧_GB_英国_59
-      - 🇨🇦_CA_加拿大_60
-      - 🇨🇦_CA_加拿大_61
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_62
-      - 🇨🇳_CN_中国_63
-      - 🇨🇦_CA_加拿大_64
-      - 🇨🇦_CA_加拿大_65
-      - 🇨🇦_CA_加拿大_66
-      - 🇺🇸_US_美国_67
-      - 🇻🇳_VN_越南_68
-      - 🇨🇦_CA_加拿大_69
-      - 🇨🇦_CA_加拿大_70
-      - 🇯🇵_JP_日本_71
-      - 🇷🇺_RU_俄罗斯联邦_72
-      - 🇩🇪_DE_德国_73
-      - 🇨🇦_CA_加拿大_74
-      - 🇨🇦_CA_加拿大_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇨🇦_CA_加拿大_77
-      - 🇨🇦_CA_加拿大_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇨🇦_CA_加拿大_81
-      - 🇨🇦_CA_加拿大_82
-      - 🇨🇦_CA_加拿大_83
-      - 🇨🇦_CA_加拿大_84
-      - 🇨🇦_CA_加拿大_85
-      - 🇨🇦_CA_加拿大_86
-      - 🇨🇦_CA_加拿大_87
-      - 🇨🇦_CA_加拿大_88
-      - 🇨🇦_CA_加拿大_89
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - 
+      - defaultName_8
+      - defaultName_9
+      - ZZ_176+TGatpeekfun_10
+      - ZZ_125+TGatpeekfun_11
+      - 
+      - ZZ_143+TGatpeekfun_13
+      - ZZ_165+TGatpeekfun_14
+      - ZZ_107+TGatpeekfun_15
+      - ZZ_158+TGatpeekfun_16
+      - defaultName_17
+      - ZZ_122+TGatpeekfun_18
+      - ZZ_153+TGatpeekfun_19
+      - defaultName_20
+      - ZZ_102+TGatpeekfun_21
+      - defaultName_22
+      - ZZ_140+TGatpeekfun_23
+      - ZZ_126+TGatpeekfun_24
+      - ZZ_163+TGatpeekfun_25
+      - ZZ_133+TGatpeekfun_26
+      - ZZ_109+TGatpeekfun_27
+      - defaultName_28
+      - ZZ_111+TGatpeekfun_29
+      - ZZ_138+TGatpeekfun_30
+      - ZZ_142+TGatpeekfun_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - CY_44+TGatpeekfun_36
+      - ZZ_147+TGatpeekfun_37
+      - ZZ_123+TGatpeekfun_38
+      - ZZ_136+TGatpeekfun_39
+      - US_3150
+      - ZZ_137+TGatpeekfun_41
+      - defaultName_42
+      - ZZ_130+TGatpeekfun_43
+      - ZZ_171+TGatpeekfun_44
+      - ZZ_169+TGatpeekfun_45
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇬🇧_GB_英国_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇬🇧_GB_英国_18
-      - 🇦🇺_AU_澳大利亚_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇨🇦_CA_加拿大_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇨🇦_CA_加拿大_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇨🇦_CA_加拿大_28
-      - 🇨🇦_CA_加拿大_29
-      - 🇨🇦_CA_加拿大_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇨🇦_CA_加拿大_32
-      - 🇨🇦_CA_加拿大_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇨🇦_CA_加拿大_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇨🇦_CA_加拿大_37
-      - 🇨🇦_CA_加拿大_38
-      - 🇨🇦_CA_加拿大_39
-      - 🇨🇦_CA_加拿大_40
-      - 🇬🇧_GB_英国_41
-      - 🇨🇦_CA_加拿大_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇨🇦_CA_加拿大_45
-      - 🇭🇰_HK_香港_46
-      - 🇨🇦_CA_加拿大_47
-      - 🇨🇦_CA_加拿大_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇨🇦_CA_加拿大_50
-      - 🇨🇦_CA_加拿大_51
-      - 🇹🇼_TW_台湾_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇬🇧_GB_英国_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇨🇦_CA_加拿大_57
-      - 🇹🇼_TW_台湾_58
-      - 🇬🇧_GB_英国_59
-      - 🇨🇦_CA_加拿大_60
-      - 🇨🇦_CA_加拿大_61
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_62
-      - 🇨🇳_CN_中国_63
-      - 🇨🇦_CA_加拿大_64
-      - 🇨🇦_CA_加拿大_65
-      - 🇨🇦_CA_加拿大_66
-      - 🇺🇸_US_美国_67
-      - 🇻🇳_VN_越南_68
-      - 🇨🇦_CA_加拿大_69
-      - 🇨🇦_CA_加拿大_70
-      - 🇯🇵_JP_日本_71
-      - 🇷🇺_RU_俄罗斯联邦_72
-      - 🇩🇪_DE_德国_73
-      - 🇨🇦_CA_加拿大_74
-      - 🇨🇦_CA_加拿大_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇨🇦_CA_加拿大_77
-      - 🇨🇦_CA_加拿大_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇨🇦_CA_加拿大_81
-      - 🇨🇦_CA_加拿大_82
-      - 🇨🇦_CA_加拿大_83
-      - 🇨🇦_CA_加拿大_84
-      - 🇨🇦_CA_加拿大_85
-      - 🇨🇦_CA_加拿大_86
-      - 🇨🇦_CA_加拿大_87
-      - 🇨🇦_CA_加拿大_88
-      - 🇨🇦_CA_加拿大_89
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - 
+      - defaultName_8
+      - defaultName_9
+      - ZZ_176+TGatpeekfun_10
+      - ZZ_125+TGatpeekfun_11
+      - 
+      - ZZ_143+TGatpeekfun_13
+      - ZZ_165+TGatpeekfun_14
+      - ZZ_107+TGatpeekfun_15
+      - ZZ_158+TGatpeekfun_16
+      - defaultName_17
+      - ZZ_122+TGatpeekfun_18
+      - ZZ_153+TGatpeekfun_19
+      - defaultName_20
+      - ZZ_102+TGatpeekfun_21
+      - defaultName_22
+      - ZZ_140+TGatpeekfun_23
+      - ZZ_126+TGatpeekfun_24
+      - ZZ_163+TGatpeekfun_25
+      - ZZ_133+TGatpeekfun_26
+      - ZZ_109+TGatpeekfun_27
+      - defaultName_28
+      - ZZ_111+TGatpeekfun_29
+      - ZZ_138+TGatpeekfun_30
+      - ZZ_142+TGatpeekfun_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - CY_44+TGatpeekfun_36
+      - ZZ_147+TGatpeekfun_37
+      - ZZ_123+TGatpeekfun_38
+      - ZZ_136+TGatpeekfun_39
+      - US_3150
+      - ZZ_137+TGatpeekfun_41
+      - defaultName_42
+      - ZZ_130+TGatpeekfun_43
+      - ZZ_171+TGatpeekfun_44
+      - ZZ_169+TGatpeekfun_45
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇬🇧_GB_英国_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇬🇧_GB_英国_18
-      - 🇦🇺_AU_澳大利亚_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇨🇦_CA_加拿大_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇨🇦_CA_加拿大_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇨🇦_CA_加拿大_28
-      - 🇨🇦_CA_加拿大_29
-      - 🇨🇦_CA_加拿大_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇨🇦_CA_加拿大_32
-      - 🇨🇦_CA_加拿大_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇨🇦_CA_加拿大_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇨🇦_CA_加拿大_37
-      - 🇨🇦_CA_加拿大_38
-      - 🇨🇦_CA_加拿大_39
-      - 🇨🇦_CA_加拿大_40
-      - 🇬🇧_GB_英国_41
-      - 🇨🇦_CA_加拿大_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇨🇦_CA_加拿大_45
-      - 🇭🇰_HK_香港_46
-      - 🇨🇦_CA_加拿大_47
-      - 🇨🇦_CA_加拿大_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇨🇦_CA_加拿大_50
-      - 🇨🇦_CA_加拿大_51
-      - 🇹🇼_TW_台湾_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇬🇧_GB_英国_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇨🇦_CA_加拿大_57
-      - 🇹🇼_TW_台湾_58
-      - 🇬🇧_GB_英国_59
-      - 🇨🇦_CA_加拿大_60
-      - 🇨🇦_CA_加拿大_61
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_62
-      - 🇨🇳_CN_中国_63
-      - 🇨🇦_CA_加拿大_64
-      - 🇨🇦_CA_加拿大_65
-      - 🇨🇦_CA_加拿大_66
-      - 🇺🇸_US_美国_67
-      - 🇻🇳_VN_越南_68
-      - 🇨🇦_CA_加拿大_69
-      - 🇨🇦_CA_加拿大_70
-      - 🇯🇵_JP_日本_71
-      - 🇷🇺_RU_俄罗斯联邦_72
-      - 🇩🇪_DE_德国_73
-      - 🇨🇦_CA_加拿大_74
-      - 🇨🇦_CA_加拿大_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇨🇦_CA_加拿大_77
-      - 🇨🇦_CA_加拿大_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇨🇦_CA_加拿大_81
-      - 🇨🇦_CA_加拿大_82
-      - 🇨🇦_CA_加拿大_83
-      - 🇨🇦_CA_加拿大_84
-      - 🇨🇦_CA_加拿大_85
-      - 🇨🇦_CA_加拿大_86
-      - 🇨🇦_CA_加拿大_87
-      - 🇨🇦_CA_加拿大_88
-      - 🇨🇦_CA_加拿大_89
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - 
+      - defaultName_8
+      - defaultName_9
+      - ZZ_176+TGatpeekfun_10
+      - ZZ_125+TGatpeekfun_11
+      - 
+      - ZZ_143+TGatpeekfun_13
+      - ZZ_165+TGatpeekfun_14
+      - ZZ_107+TGatpeekfun_15
+      - ZZ_158+TGatpeekfun_16
+      - defaultName_17
+      - ZZ_122+TGatpeekfun_18
+      - ZZ_153+TGatpeekfun_19
+      - defaultName_20
+      - ZZ_102+TGatpeekfun_21
+      - defaultName_22
+      - ZZ_140+TGatpeekfun_23
+      - ZZ_126+TGatpeekfun_24
+      - ZZ_163+TGatpeekfun_25
+      - ZZ_133+TGatpeekfun_26
+      - ZZ_109+TGatpeekfun_27
+      - defaultName_28
+      - ZZ_111+TGatpeekfun_29
+      - ZZ_138+TGatpeekfun_30
+      - ZZ_142+TGatpeekfun_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - CY_44+TGatpeekfun_36
+      - ZZ_147+TGatpeekfun_37
+      - ZZ_123+TGatpeekfun_38
+      - ZZ_136+TGatpeekfun_39
+      - US_3150
+      - ZZ_137+TGatpeekfun_41
+      - defaultName_42
+      - ZZ_130+TGatpeekfun_43
+      - ZZ_171+TGatpeekfun_44
+      - ZZ_169+TGatpeekfun_45
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇬🇧_GB_英国_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇬🇧_GB_英国_18
-      - 🇦🇺_AU_澳大利亚_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇨🇦_CA_加拿大_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇨🇦_CA_加拿大_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇨🇦_CA_加拿大_28
-      - 🇨🇦_CA_加拿大_29
-      - 🇨🇦_CA_加拿大_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇨🇦_CA_加拿大_32
-      - 🇨🇦_CA_加拿大_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇨🇦_CA_加拿大_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇨🇦_CA_加拿大_37
-      - 🇨🇦_CA_加拿大_38
-      - 🇨🇦_CA_加拿大_39
-      - 🇨🇦_CA_加拿大_40
-      - 🇬🇧_GB_英国_41
-      - 🇨🇦_CA_加拿大_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇨🇦_CA_加拿大_45
-      - 🇭🇰_HK_香港_46
-      - 🇨🇦_CA_加拿大_47
-      - 🇨🇦_CA_加拿大_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇨🇦_CA_加拿大_50
-      - 🇨🇦_CA_加拿大_51
-      - 🇹🇼_TW_台湾_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇬🇧_GB_英国_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇨🇦_CA_加拿大_57
-      - 🇹🇼_TW_台湾_58
-      - 🇬🇧_GB_英国_59
-      - 🇨🇦_CA_加拿大_60
-      - 🇨🇦_CA_加拿大_61
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_62
-      - 🇨🇳_CN_中国_63
-      - 🇨🇦_CA_加拿大_64
-      - 🇨🇦_CA_加拿大_65
-      - 🇨🇦_CA_加拿大_66
-      - 🇺🇸_US_美国_67
-      - 🇻🇳_VN_越南_68
-      - 🇨🇦_CA_加拿大_69
-      - 🇨🇦_CA_加拿大_70
-      - 🇯🇵_JP_日本_71
-      - 🇷🇺_RU_俄罗斯联邦_72
-      - 🇩🇪_DE_德国_73
-      - 🇨🇦_CA_加拿大_74
-      - 🇨🇦_CA_加拿大_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇨🇦_CA_加拿大_77
-      - 🇨🇦_CA_加拿大_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇨🇦_CA_加拿大_81
-      - 🇨🇦_CA_加拿大_82
-      - 🇨🇦_CA_加拿大_83
-      - 🇨🇦_CA_加拿大_84
-      - 🇨🇦_CA_加拿大_85
-      - 🇨🇦_CA_加拿大_86
-      - 🇨🇦_CA_加拿大_87
-      - 🇨🇦_CA_加拿大_88
-      - 🇨🇦_CA_加拿大_89
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - 
+      - defaultName_8
+      - defaultName_9
+      - ZZ_176+TGatpeekfun_10
+      - ZZ_125+TGatpeekfun_11
+      - 
+      - ZZ_143+TGatpeekfun_13
+      - ZZ_165+TGatpeekfun_14
+      - ZZ_107+TGatpeekfun_15
+      - ZZ_158+TGatpeekfun_16
+      - defaultName_17
+      - ZZ_122+TGatpeekfun_18
+      - ZZ_153+TGatpeekfun_19
+      - defaultName_20
+      - ZZ_102+TGatpeekfun_21
+      - defaultName_22
+      - ZZ_140+TGatpeekfun_23
+      - ZZ_126+TGatpeekfun_24
+      - ZZ_163+TGatpeekfun_25
+      - ZZ_133+TGatpeekfun_26
+      - ZZ_109+TGatpeekfun_27
+      - defaultName_28
+      - ZZ_111+TGatpeekfun_29
+      - ZZ_138+TGatpeekfun_30
+      - ZZ_142+TGatpeekfun_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - CY_44+TGatpeekfun_36
+      - ZZ_147+TGatpeekfun_37
+      - ZZ_123+TGatpeekfun_38
+      - ZZ_136+TGatpeekfun_39
+      - US_3150
+      - ZZ_137+TGatpeekfun_41
+      - defaultName_42
+      - ZZ_130+TGatpeekfun_43
+      - ZZ_171+TGatpeekfun_44
+      - ZZ_169+TGatpeekfun_45
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇬🇧_GB_英国_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇬🇧_GB_英国_18
-      - 🇦🇺_AU_澳大利亚_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇨🇦_CA_加拿大_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇨🇦_CA_加拿大_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇨🇦_CA_加拿大_28
-      - 🇨🇦_CA_加拿大_29
-      - 🇨🇦_CA_加拿大_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇨🇦_CA_加拿大_32
-      - 🇨🇦_CA_加拿大_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇨🇦_CA_加拿大_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇨🇦_CA_加拿大_37
-      - 🇨🇦_CA_加拿大_38
-      - 🇨🇦_CA_加拿大_39
-      - 🇨🇦_CA_加拿大_40
-      - 🇬🇧_GB_英国_41
-      - 🇨🇦_CA_加拿大_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇨🇦_CA_加拿大_45
-      - 🇭🇰_HK_香港_46
-      - 🇨🇦_CA_加拿大_47
-      - 🇨🇦_CA_加拿大_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇨🇦_CA_加拿大_50
-      - 🇨🇦_CA_加拿大_51
-      - 🇹🇼_TW_台湾_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇬🇧_GB_英国_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇨🇦_CA_加拿大_57
-      - 🇹🇼_TW_台湾_58
-      - 🇬🇧_GB_英国_59
-      - 🇨🇦_CA_加拿大_60
-      - 🇨🇦_CA_加拿大_61
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_62
-      - 🇨🇳_CN_中国_63
-      - 🇨🇦_CA_加拿大_64
-      - 🇨🇦_CA_加拿大_65
-      - 🇨🇦_CA_加拿大_66
-      - 🇺🇸_US_美国_67
-      - 🇻🇳_VN_越南_68
-      - 🇨🇦_CA_加拿大_69
-      - 🇨🇦_CA_加拿大_70
-      - 🇯🇵_JP_日本_71
-      - 🇷🇺_RU_俄罗斯联邦_72
-      - 🇩🇪_DE_德国_73
-      - 🇨🇦_CA_加拿大_74
-      - 🇨🇦_CA_加拿大_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇨🇦_CA_加拿大_77
-      - 🇨🇦_CA_加拿大_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇨🇦_CA_加拿大_81
-      - 🇨🇦_CA_加拿大_82
-      - 🇨🇦_CA_加拿大_83
-      - 🇨🇦_CA_加拿大_84
-      - 🇨🇦_CA_加拿大_85
-      - 🇨🇦_CA_加拿大_86
-      - 🇨🇦_CA_加拿大_87
-      - 🇨🇦_CA_加拿大_88
-      - 🇨🇦_CA_加拿大_89
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - 
+      - defaultName_8
+      - defaultName_9
+      - ZZ_176+TGatpeekfun_10
+      - ZZ_125+TGatpeekfun_11
+      - 
+      - ZZ_143+TGatpeekfun_13
+      - ZZ_165+TGatpeekfun_14
+      - ZZ_107+TGatpeekfun_15
+      - ZZ_158+TGatpeekfun_16
+      - defaultName_17
+      - ZZ_122+TGatpeekfun_18
+      - ZZ_153+TGatpeekfun_19
+      - defaultName_20
+      - ZZ_102+TGatpeekfun_21
+      - defaultName_22
+      - ZZ_140+TGatpeekfun_23
+      - ZZ_126+TGatpeekfun_24
+      - ZZ_163+TGatpeekfun_25
+      - ZZ_133+TGatpeekfun_26
+      - ZZ_109+TGatpeekfun_27
+      - defaultName_28
+      - ZZ_111+TGatpeekfun_29
+      - ZZ_138+TGatpeekfun_30
+      - ZZ_142+TGatpeekfun_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - CY_44+TGatpeekfun_36
+      - ZZ_147+TGatpeekfun_37
+      - ZZ_123+TGatpeekfun_38
+      - ZZ_136+TGatpeekfun_39
+      - US_3150
+      - ZZ_137+TGatpeekfun_41
+      - defaultName_42
+      - ZZ_130+TGatpeekfun_43
+      - ZZ_171+TGatpeekfun_44
+      - ZZ_169+TGatpeekfun_45
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇬🇧_GB_英国_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇬🇧_GB_英国_18
-      - 🇦🇺_AU_澳大利亚_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇨🇦_CA_加拿大_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇨🇦_CA_加拿大_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇨🇦_CA_加拿大_28
-      - 🇨🇦_CA_加拿大_29
-      - 🇨🇦_CA_加拿大_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇨🇦_CA_加拿大_32
-      - 🇨🇦_CA_加拿大_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇨🇦_CA_加拿大_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇨🇦_CA_加拿大_37
-      - 🇨🇦_CA_加拿大_38
-      - 🇨🇦_CA_加拿大_39
-      - 🇨🇦_CA_加拿大_40
-      - 🇬🇧_GB_英国_41
-      - 🇨🇦_CA_加拿大_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇨🇦_CA_加拿大_45
-      - 🇭🇰_HK_香港_46
-      - 🇨🇦_CA_加拿大_47
-      - 🇨🇦_CA_加拿大_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇨🇦_CA_加拿大_50
-      - 🇨🇦_CA_加拿大_51
-      - 🇹🇼_TW_台湾_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇬🇧_GB_英国_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇨🇦_CA_加拿大_57
-      - 🇹🇼_TW_台湾_58
-      - 🇬🇧_GB_英国_59
-      - 🇨🇦_CA_加拿大_60
-      - 🇨🇦_CA_加拿大_61
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_62
-      - 🇨🇳_CN_中国_63
-      - 🇨🇦_CA_加拿大_64
-      - 🇨🇦_CA_加拿大_65
-      - 🇨🇦_CA_加拿大_66
-      - 🇺🇸_US_美国_67
-      - 🇻🇳_VN_越南_68
-      - 🇨🇦_CA_加拿大_69
-      - 🇨🇦_CA_加拿大_70
-      - 🇯🇵_JP_日本_71
-      - 🇷🇺_RU_俄罗斯联邦_72
-      - 🇩🇪_DE_德国_73
-      - 🇨🇦_CA_加拿大_74
-      - 🇨🇦_CA_加拿大_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇨🇦_CA_加拿大_77
-      - 🇨🇦_CA_加拿大_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇨🇦_CA_加拿大_81
-      - 🇨🇦_CA_加拿大_82
-      - 🇨🇦_CA_加拿大_83
-      - 🇨🇦_CA_加拿大_84
-      - 🇨🇦_CA_加拿大_85
-      - 🇨🇦_CA_加拿大_86
-      - 🇨🇦_CA_加拿大_87
-      - 🇨🇦_CA_加拿大_88
-      - 🇨🇦_CA_加拿大_89
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - 
+      - defaultName_8
+      - defaultName_9
+      - ZZ_176+TGatpeekfun_10
+      - ZZ_125+TGatpeekfun_11
+      - 
+      - ZZ_143+TGatpeekfun_13
+      - ZZ_165+TGatpeekfun_14
+      - ZZ_107+TGatpeekfun_15
+      - ZZ_158+TGatpeekfun_16
+      - defaultName_17
+      - ZZ_122+TGatpeekfun_18
+      - ZZ_153+TGatpeekfun_19
+      - defaultName_20
+      - ZZ_102+TGatpeekfun_21
+      - defaultName_22
+      - ZZ_140+TGatpeekfun_23
+      - ZZ_126+TGatpeekfun_24
+      - ZZ_163+TGatpeekfun_25
+      - ZZ_133+TGatpeekfun_26
+      - ZZ_109+TGatpeekfun_27
+      - defaultName_28
+      - ZZ_111+TGatpeekfun_29
+      - ZZ_138+TGatpeekfun_30
+      - ZZ_142+TGatpeekfun_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - CY_44+TGatpeekfun_36
+      - ZZ_147+TGatpeekfun_37
+      - ZZ_123+TGatpeekfun_38
+      - ZZ_136+TGatpeekfun_39
+      - US_3150
+      - ZZ_137+TGatpeekfun_41
+      - defaultName_42
+      - ZZ_130+TGatpeekfun_43
+      - ZZ_171+TGatpeekfun_44
+      - ZZ_169+TGatpeekfun_45
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -683,95 +375,51 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇬🇧_GB_英国_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇬🇧_GB_英国_18
-      - 🇦🇺_AU_澳大利亚_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇨🇦_CA_加拿大_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇨🇦_CA_加拿大_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇨🇦_CA_加拿大_28
-      - 🇨🇦_CA_加拿大_29
-      - 🇨🇦_CA_加拿大_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇨🇦_CA_加拿大_32
-      - 🇨🇦_CA_加拿大_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇨🇦_CA_加拿大_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇨🇦_CA_加拿大_37
-      - 🇨🇦_CA_加拿大_38
-      - 🇨🇦_CA_加拿大_39
-      - 🇨🇦_CA_加拿大_40
-      - 🇬🇧_GB_英国_41
-      - 🇨🇦_CA_加拿大_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇨🇦_CA_加拿大_44
-      - 🇨🇦_CA_加拿大_45
-      - 🇭🇰_HK_香港_46
-      - 🇨🇦_CA_加拿大_47
-      - 🇨🇦_CA_加拿大_48
-      - 🇨🇦_CA_加拿大_49
-      - 🇨🇦_CA_加拿大_50
-      - 🇨🇦_CA_加拿大_51
-      - 🇹🇼_TW_台湾_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇬🇧_GB_英国_55
-      - 🇨🇦_CA_加拿大_56
-      - 🇨🇦_CA_加拿大_57
-      - 🇹🇼_TW_台湾_58
-      - 🇬🇧_GB_英国_59
-      - 🇨🇦_CA_加拿大_60
-      - 🇨🇦_CA_加拿大_61
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_62
-      - 🇨🇳_CN_中国_63
-      - 🇨🇦_CA_加拿大_64
-      - 🇨🇦_CA_加拿大_65
-      - 🇨🇦_CA_加拿大_66
-      - 🇺🇸_US_美国_67
-      - 🇻🇳_VN_越南_68
-      - 🇨🇦_CA_加拿大_69
-      - 🇨🇦_CA_加拿大_70
-      - 🇯🇵_JP_日本_71
-      - 🇷🇺_RU_俄罗斯联邦_72
-      - 🇩🇪_DE_德国_73
-      - 🇨🇦_CA_加拿大_74
-      - 🇨🇦_CA_加拿大_75
-      - 🇨🇦_CA_加拿大_76
-      - 🇨🇦_CA_加拿大_77
-      - 🇨🇦_CA_加拿大_78
-      - 🇨🇦_CA_加拿大_79
-      - 🇨🇦_CA_加拿大_80
-      - 🇨🇦_CA_加拿大_81
-      - 🇨🇦_CA_加拿大_82
-      - 🇨🇦_CA_加拿大_83
-      - 🇨🇦_CA_加拿大_84
-      - 🇨🇦_CA_加拿大_85
-      - 🇨🇦_CA_加拿大_86
-      - 🇨🇦_CA_加拿大_87
-      - 🇨🇦_CA_加拿大_88
-      - 🇨🇦_CA_加拿大_89
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - 
+      - defaultName_8
+      - defaultName_9
+      - ZZ_176+TGatpeekfun_10
+      - ZZ_125+TGatpeekfun_11
+      - 
+      - ZZ_143+TGatpeekfun_13
+      - ZZ_165+TGatpeekfun_14
+      - ZZ_107+TGatpeekfun_15
+      - ZZ_158+TGatpeekfun_16
+      - defaultName_17
+      - ZZ_122+TGatpeekfun_18
+      - ZZ_153+TGatpeekfun_19
+      - defaultName_20
+      - ZZ_102+TGatpeekfun_21
+      - defaultName_22
+      - ZZ_140+TGatpeekfun_23
+      - ZZ_126+TGatpeekfun_24
+      - ZZ_163+TGatpeekfun_25
+      - ZZ_133+TGatpeekfun_26
+      - ZZ_109+TGatpeekfun_27
+      - defaultName_28
+      - ZZ_111+TGatpeekfun_29
+      - ZZ_138+TGatpeekfun_30
+      - ZZ_142+TGatpeekfun_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - CY_44+TGatpeekfun_36
+      - ZZ_147+TGatpeekfun_37
+      - ZZ_123+TGatpeekfun_38
+      - ZZ_136+TGatpeekfun_39
+      - US_3150
+      - ZZ_137+TGatpeekfun_41
+      - defaultName_42
+      - ZZ_130+TGatpeekfun_43
+      - ZZ_171+TGatpeekfun_44
+      - ZZ_169+TGatpeekfun_45
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
