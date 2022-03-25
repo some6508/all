@@ -5,788 +5,424 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"YouTube*阿阳AYANG_1","server":"116.162.14.228","port":20761,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"YouTube*阿阳AYANG_2","server":"183.240.132.27","port":21107,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"YouTube*阿阳AYANG_3","server":"183.240.132.27","port":21101,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"YouTube*阿阳AYANG_4","server":"jp.rnmtq.gq","port":63510,"type":"vmess","uuid":"cb8ab285-fafc-45f6-87bc-97a7a2f27f9f","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"jp.rnmtq.gq"}}}
-  - {"name":"YouTube*阿阳AYANG_5","server":"dycxh.ml","port":3835,"type":"vmess","uuid":"1be22068-d373-4450-94c3-50f72a40fba4","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"dycxh.ml"}}}
-  - {"name":"YouTube*阿阳AYANG_6","server":"dycxh.tk","port":3835,"type":"vmess","uuid":"bbc6ad68-b523-436e-9564-8b3970cccc7c","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/ws","headers":{"host":"dycxh.tk"}}}
-  - {"name":"YouTube*阿阳AYANG_7","server":"38.75.137.187","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"YouTube*阿阳AYANG_8","server":"clown01.tk","port":443,"type":"vmess","uuid":"1785204a-a1b1-4224-d3ce-9a11c6b6fc4d","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/wefghyFgjydSdfF"}}
-  - {"name":"YouTube*阿阳AYANG_9","server":"jp.rnmtq.gq","port":63510,"type":"vmess","uuid":"cb8ab285-fafc-45f6-87bc-97a7a2f27f9f","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"jp.rnmtq.gq"}}}
-  - {"name":"YouTube*阿阳AYANG_10","server":"38.75.137.66","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"YouTube*阿阳AYANG_11","server":"183.240.132.27","port":21101,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"YouTube*阿阳AYANG_12","server":"183.240.132.27","port":21101,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"YouTube*阿阳AYANG_13","server":"167.88.63.108","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"YouTube*阿阳AYANG_14","server":"183.240.132.27","port":21209,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"YouTube*阿阳AYANG_15","server":"38.75.137.66","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"YouTube*阿阳AYANG_16","server":"38.75.137.187","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"YouTube*阿阳AYANG_17","server":"cu2.worldmuseum.buzz","port":12100,"type":"vmess","uuid":"ff52c519-91fb-3ca3-9b55-f96e75201532","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/in","headers":{"host":"www.189.cn"}}}
-  - {"name":"YouTube*阿阳AYANG_18","server":"38.75.137.66","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"YouTube*阿阳AYANG_19","server":"38.75.137.187","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"YouTube*阿阳AYANG_20","server":"183.240.132.27","port":21100,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"YouTube*阿阳AYANG_21","server":"183.240.132.27","port":21101,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"YouTube*阿阳AYANG_22","server":"38.75.137.66","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"YouTube*阿阳AYANG_23","server":"tj-us02.yiyodns.xyz","port":443,"type":"trojan","password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc"}
-  - {"name":"YouTube*阿阳AYANG_24","server":"38.75.137.66","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"YouTube*阿阳AYANG_25","server":"38.75.137.187","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"YouTube*阿阳AYANG_26","server":"38.75.137.187","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"YouTube*阿阳AYANG_27","server":"0319ru99.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"0319ru99.fans8.xyz"}}}
-  - {"name":"YouTube*阿阳AYANG_28","server":"38.75.137.66","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"YouTube*阿阳AYANG_29","server":"cm1.worldmuseum.buzz","port":12100,"type":"vmess","uuid":"ff52c519-91fb-3ca3-9b55-f96e75201532","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/jp1","headers":{"host":"telegram.channel.p2psharing"}}}
-  - {"name":"YouTube*阿阳AYANG_30","server":"tj-us01.yiyodns.xyz","port":443,"type":"trojan","password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc"}
-  - {"name":"YouTube*阿阳AYANG_31","server":"167.88.63.108","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"YouTube*阿阳AYANG_32","server":"167.88.63.108","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"YouTube*阿阳AYANG_33","server":"23.v2-ray.cyou","port":15023,"type":"vmess","uuid":"047184b7-6da2-3d3f-ac27-6a1a8701daf8","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"YouTube*阿阳AYANG_34","server":"167.88.63.108","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"YouTube*阿阳AYANG_35","server":"45.61.184.3","port":40435,"type":"vmess","uuid":"eca12e73-8f74-439f-b918-624e832422d4","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/shuier","headers":{"host":"45.61.184.3"}}}
-  - {"name":"YouTube*阿阳AYANG_36","server":"tj-us01.yiyodns.xyz","port":443,"type":"trojan","password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc"}
-  - {"name":"YouTube*阿阳AYANG_37","server":"167.88.63.108","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"YouTube*阿阳AYANG_38","server":"46.v2-ray.cyou","port":15046,"type":"vmess","uuid":"047184b7-6da2-3d3f-ac27-6a1a8701daf8","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"46.v2-ray.cyou"}}}
-  - {"name":"YouTube*阿阳AYANG_39","server":"167.88.63.108","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"YouTube*阿阳AYANG_40","server":"0316ro.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/nl","headers":{"host":"0316ro.fans8.xyz"}}}
-  - {"name":"YouTube*阿阳AYANG_41","server":"167.88.63.108","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"YouTube*阿阳AYANG_42","server":"167.88.63.108","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"YouTube*阿阳AYANG_43","server":"167.88.63.108","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"YouTube*阿阳AYANG_44","server":"183.240.132.27","port":21208,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"YouTube*阿阳AYANG_45","server":"183.240.132.27","port":21203,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"YouTube*阿阳AYANG_46","server":"167.88.63.108","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"YouTube*阿阳AYANG_47","server":"167.88.63.108","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"YouTube*阿阳AYANG_48","server":"167.88.63.108","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"YouTube*阿阳AYANG_49","server":"167.88.63.108","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"YouTube*阿阳AYANG_50","server":"167.88.63.108","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"YouTube*阿阳AYANG_51","server":"rn.tomcloud.buzz","port":10332,"type":"vmess","uuid":"0dabf511-7ce1-4840-e2de-b4a070163ce9","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"YouTube*阿阳AYANG_52","server":"132.145.83.55","port":38134,"type":"vmess","uuid":"3b1331b6-879b-4ba0-878f-3d286927cf94","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"YouTube*阿阳AYANG_53","server":"cm1.worldmuseum.buzz","port":12100,"type":"vmess","uuid":"ff52c519-91fb-3ca3-9b55-f96e75201532","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/jp1","headers":{"host":"telegram.channel.p2psharing"}}}
-  - {"name":"YouTube*阿阳AYANG_54","server":"167.88.63.108","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"YouTube*阿阳AYANG_55","server":"djbccok.tk","port":443,"type":"vmess","uuid":"09026629-dc08-4f64-82da-c91399baa883","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"YouTube*阿阳AYANG_56","server":"134.195.196.68","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"YouTube*阿阳AYANG_57","server":"167.88.63.108","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"YouTube*阿阳AYANG_58","server":"ocph.vproxy.us","port":34567,"type":"trojan","password":"c5092d61-39e8-4f71-b76b-43db95691be5"}
-  - {"name":"YouTube*阿阳AYANG_59","server":"134.195.196.68","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"YouTube*阿阳AYANG_60","server":"167.88.63.108","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"YouTube*阿阳AYANG_61","server":"167.88.63.108","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"YouTube*阿阳AYANG_62","server":"134.195.196.68","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"YouTube*阿阳AYANG_63","server":"tj-hk01.yiyodns.xyz","port":443,"type":"trojan","password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc"}
-  - {"name":"YouTube*阿阳AYANG_64","server":"134.195.196.68","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"YouTube*阿阳AYANG_65","server":"167.88.63.108","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"YouTube*阿阳AYANG_66","server":"23.v2-ray.cyou","port":15023,"type":"vmess","uuid":"047184b7-6da2-3d3f-ac27-6a1a8701daf8","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"microsoft.com"}}}
-  - {"name":"YouTube*阿阳AYANG_67","server":"146.56.99.245","port":25135,"type":"vmess","uuid":"5893f7e5-9695-45af-f65e-bd2958ba93fa","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"146.56.99.245"}}}
-  - {"name":"YouTube*阿阳AYANG_68","server":"us2.tcpbbr.net","port":443,"type":"trojan","password":"2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d","sni":"hgc1.tcpbbr.net"}
-  - {"name":"YouTube*阿阳AYANG_69","server":"us2.tcpbbr.net","port":443,"type":"trojan","password":"5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d"}
-  - {"name":"YouTube*阿阳AYANG_70","server":"134.195.196.68","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"YouTube*阿阳AYANG_71","server":"clown01.tk","port":443,"type":"vmess","uuid":"1785204a-a1b1-4224-d3ce-9a11c6b6fc4d","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/wefghyFgjydSdfF"}}
-  - {"name":"YouTube*阿阳AYANG_72","server":"134.195.196.68","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"YouTube*阿阳AYANG_73","server":"172.99.190.92","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"YouTube*阿阳AYANG_74","server":"134.195.196.68","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"YouTube*阿阳AYANG_75","server":"167.88.63.108","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"YouTube*阿阳AYANG_76","server":"167.88.63.108","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"YouTube*阿阳AYANG_77","server":"65.52.171.156","port":15031,"type":"vmess","uuid":"047184b7-6da2-3d3f-ac27-6a1a8701daf8","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"YouTube*阿阳AYANG_78","server":"134.195.196.68","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"YouTube*阿阳AYANG_79","server":"172.99.190.92","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"YouTube*阿阳AYANG_80","server":"167.88.63.108","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"YouTube*阿阳AYANG_81","server":"65.52.171.156","port":15031,"type":"vmess","uuid":"047184b7-6da2-3d3f-ac27-6a1a8701daf8","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"YouTube*阿阳AYANG_82","server":"65.52.171.156","port":15031,"type":"vmess","uuid":"047184b7-6da2-3d3f-ac27-6a1a8701daf8","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"YouTube*阿阳AYANG_83","server":"134.195.196.3","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"YouTube*阿阳AYANG_84","server":"0320ru1702.fans8.xyz","port":80,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"0320ru1702.fans8.xyz"}}}
-  - {"name":"YouTube*阿阳AYANG_85","server":"134.195.196.187","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"YouTube*阿阳AYANG_86","server":"167.88.63.108","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"YouTube*阿阳AYANG_87","server":"167.88.63.108","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"YouTube*阿阳AYANG_88","server":"116.162.14.228","port":21206,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"YouTube*阿阳AYANG_89","server":"183.240.132.27","port":21208,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"YouTube*阿阳AYANG_90","server":"146.56.133.242","port":28343,"type":"vmess","uuid":"1e0927ff-a391-4323-f753-52a696832e96","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"146.56.133.242"}}}
-  - {"name":"YouTube*阿阳AYANG_91","server":"193.123.239.153","port":55199,"type":"vmess","uuid":"bd729199-efe9-4c6b-a7b8-beb0927b4061","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"YouTube*阿阳AYANG_92","server":"ru2.peakerselling.com","port":443,"type":"vmess","uuid":"d3435521-3d1f-37f7-ab48-f5302bc6a4fb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/helloman","headers":{"host":"ru2.peakerselling.com"}}}
-  - {"name":"YouTube*阿阳AYANG_93","server":"us2.tcpbbr.net","port":443,"type":"trojan","password":"283695dc-fcc8-11ea-8684-f23c913c8d2b","sni":"us2.tcpbbr.net"}
-  - {"name":"YouTube*阿阳AYANG_94","server":"134.195.196.187","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"YouTube*阿阳AYANG_95","server":"134.195.196.187","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"YouTube*阿阳AYANG_96","server":"134.195.196.187","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"YouTube*阿阳AYANG_97","server":"134.195.196.3","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"YouTube*阿阳AYANG_98","server":"134.195.196.3","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"YouTube*阿阳AYANG_99","server":"134.195.196.3","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"YouTube*阿阳AYANG_100","server":"134.195.196.3","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"YouTube*阿阳AYANG_101","server":"134.195.196.3","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"YouTube*阿阳AYANG_102","server":"134.195.196.3","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"YouTube*阿阳AYANG_103","server":"134.195.196.187","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"YouTube*阿阳AYANG_104","server":"134.195.196.187","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"YouTube*阿阳AYANG_105","server":"134.195.196.81","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"YouTube*阿阳AYANG_106","server":"134.195.196.187","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"YouTube*阿阳AYANG_107","server":"134.195.196.81","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.51","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.51","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"default_name_3","server":"msk.ncugo.cf","port":443,"type":"vmess","uuid":"bd6b71e2-74ad-484a-ef0b-9dbccf23311c","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_4","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":21001,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_5","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":61002,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.51","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA_加拿大_7","server":"134.195.196.51","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_8","server":"f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com","port":11001,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"default_name_9","server":"134.195.196.3","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_10","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":41001,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_11","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":21010,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇦_CA_加拿大_12","server":"134.195.196.3","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_13","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":61001,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇺🇸_US_美国_14","server":"38.75.137.66","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_15","server":"7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com","port":11003,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_16","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":21003,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_17","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":31001,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇺🇸_US_美国_18","server":"167.88.63.108","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_19","server":"134.195.196.81","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_20","server":"8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com","port":11002,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_21","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":21004,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_22","server":"8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com","port":21008,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇺🇸_US_美国_23","server":"167.88.63.108","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_24","server":"8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com","port":11005,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇦_CA_加拿大_25","server":"134.195.196.3","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_26","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":21002,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_27","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":31002,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_28","server":"f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com","port":11004,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_29","server":"f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com","port":21008,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇬🇧_GB_英国_30","server":"172.99.190.92","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_31","server":"7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com","port":21001,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇺🇸_US_美国_32","server":"169.197.142.99","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_33","server":"f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com","port":21009,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇦_CA_加拿大_34","server":"134.195.196.51","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_35","server":"f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com","port":11005,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_36","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":11004,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇦_CA_加拿大_37","server":"134.195.196.51","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_38","server":"7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com","port":21002,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇦_CA_加拿大_39","server":"134.195.196.187","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_40","server":"8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com","port":21002,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_41","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":21007,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"default_name_42","server":"7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com","port":21007,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇦_CA_加拿大_43","server":"134.195.196.51","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_44","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":11003,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇦_CA_加拿大_45","server":"134.195.196.3","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_46","server":"38.75.137.66","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦_CA_加拿大_47","server":"134.195.196.51","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_48","server":"8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com","port":61003,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_49","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":41002,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇦_CA_加拿大_50","server":"134.195.196.3","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_51","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":61003,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_52","server":"f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com","port":11002,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_53","server":"5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com","port":31005,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
+  - {"name":"🇨🇦_CA_加拿大_54","server":"134.195.196.51","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_55","server":"f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com","port":21006,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"becc710a-50f8-447d-a642-faa3edce0be2"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - YouTube*阿阳AYANG_1
-      - YouTube*阿阳AYANG_2
-      - YouTube*阿阳AYANG_3
-      - YouTube*阿阳AYANG_4
-      - YouTube*阿阳AYANG_5
-      - YouTube*阿阳AYANG_6
-      - YouTube*阿阳AYANG_7
-      - YouTube*阿阳AYANG_8
-      - YouTube*阿阳AYANG_9
-      - YouTube*阿阳AYANG_10
-      - YouTube*阿阳AYANG_11
-      - YouTube*阿阳AYANG_12
-      - YouTube*阿阳AYANG_13
-      - YouTube*阿阳AYANG_14
-      - YouTube*阿阳AYANG_15
-      - YouTube*阿阳AYANG_16
-      - YouTube*阿阳AYANG_17
-      - YouTube*阿阳AYANG_18
-      - YouTube*阿阳AYANG_19
-      - YouTube*阿阳AYANG_20
-      - YouTube*阿阳AYANG_21
-      - YouTube*阿阳AYANG_22
-      - YouTube*阿阳AYANG_23
-      - YouTube*阿阳AYANG_24
-      - YouTube*阿阳AYANG_25
-      - YouTube*阿阳AYANG_26
-      - YouTube*阿阳AYANG_27
-      - YouTube*阿阳AYANG_28
-      - YouTube*阿阳AYANG_29
-      - YouTube*阿阳AYANG_30
-      - YouTube*阿阳AYANG_31
-      - YouTube*阿阳AYANG_32
-      - YouTube*阿阳AYANG_33
-      - YouTube*阿阳AYANG_34
-      - YouTube*阿阳AYANG_35
-      - YouTube*阿阳AYANG_36
-      - YouTube*阿阳AYANG_37
-      - YouTube*阿阳AYANG_38
-      - YouTube*阿阳AYANG_39
-      - YouTube*阿阳AYANG_40
-      - YouTube*阿阳AYANG_41
-      - YouTube*阿阳AYANG_42
-      - YouTube*阿阳AYANG_43
-      - YouTube*阿阳AYANG_44
-      - YouTube*阿阳AYANG_45
-      - YouTube*阿阳AYANG_46
-      - YouTube*阿阳AYANG_47
-      - YouTube*阿阳AYANG_48
-      - YouTube*阿阳AYANG_49
-      - YouTube*阿阳AYANG_50
-      - YouTube*阿阳AYANG_51
-      - YouTube*阿阳AYANG_52
-      - YouTube*阿阳AYANG_53
-      - YouTube*阿阳AYANG_54
-      - YouTube*阿阳AYANG_55
-      - YouTube*阿阳AYANG_56
-      - YouTube*阿阳AYANG_57
-      - YouTube*阿阳AYANG_58
-      - YouTube*阿阳AYANG_59
-      - YouTube*阿阳AYANG_60
-      - YouTube*阿阳AYANG_61
-      - YouTube*阿阳AYANG_62
-      - YouTube*阿阳AYANG_63
-      - YouTube*阿阳AYANG_64
-      - YouTube*阿阳AYANG_65
-      - YouTube*阿阳AYANG_66
-      - YouTube*阿阳AYANG_67
-      - YouTube*阿阳AYANG_68
-      - YouTube*阿阳AYANG_69
-      - YouTube*阿阳AYANG_70
-      - YouTube*阿阳AYANG_71
-      - YouTube*阿阳AYANG_72
-      - YouTube*阿阳AYANG_73
-      - YouTube*阿阳AYANG_74
-      - YouTube*阿阳AYANG_75
-      - YouTube*阿阳AYANG_76
-      - YouTube*阿阳AYANG_77
-      - YouTube*阿阳AYANG_78
-      - YouTube*阿阳AYANG_79
-      - YouTube*阿阳AYANG_80
-      - YouTube*阿阳AYANG_81
-      - YouTube*阿阳AYANG_82
-      - YouTube*阿阳AYANG_83
-      - YouTube*阿阳AYANG_84
-      - YouTube*阿阳AYANG_85
-      - YouTube*阿阳AYANG_86
-      - YouTube*阿阳AYANG_87
-      - YouTube*阿阳AYANG_88
-      - YouTube*阿阳AYANG_89
-      - YouTube*阿阳AYANG_90
-      - YouTube*阿阳AYANG_91
-      - YouTube*阿阳AYANG_92
-      - YouTube*阿阳AYANG_93
-      - YouTube*阿阳AYANG_94
-      - YouTube*阿阳AYANG_95
-      - YouTube*阿阳AYANG_96
-      - YouTube*阿阳AYANG_97
-      - YouTube*阿阳AYANG_98
-      - YouTube*阿阳AYANG_99
-      - YouTube*阿阳AYANG_100
-      - YouTube*阿阳AYANG_101
-      - YouTube*阿阳AYANG_102
-      - YouTube*阿阳AYANG_103
-      - YouTube*阿阳AYANG_104
-      - YouTube*阿阳AYANG_105
-      - YouTube*阿阳AYANG_106
-      - YouTube*阿阳AYANG_107
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - default_name_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_8
+      - default_name_9
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_13
+      - 🇺🇸_US_美国_14
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_15
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_16
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_20
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_21
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_22
+      - 🇺🇸_US_美国_23
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_26
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_27
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_28
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_29
+      - 🇬🇧_GB_英国_30
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_33
+      - 🇨🇦_CA_加拿大_34
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_35
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_40
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_41
+      - default_name_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇨🇦_CA_加拿大_47
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_48
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_51
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_52
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_53
+      - 🇨🇦_CA_加拿大_54
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_55
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - YouTube*阿阳AYANG_1
-      - YouTube*阿阳AYANG_2
-      - YouTube*阿阳AYANG_3
-      - YouTube*阿阳AYANG_4
-      - YouTube*阿阳AYANG_5
-      - YouTube*阿阳AYANG_6
-      - YouTube*阿阳AYANG_7
-      - YouTube*阿阳AYANG_8
-      - YouTube*阿阳AYANG_9
-      - YouTube*阿阳AYANG_10
-      - YouTube*阿阳AYANG_11
-      - YouTube*阿阳AYANG_12
-      - YouTube*阿阳AYANG_13
-      - YouTube*阿阳AYANG_14
-      - YouTube*阿阳AYANG_15
-      - YouTube*阿阳AYANG_16
-      - YouTube*阿阳AYANG_17
-      - YouTube*阿阳AYANG_18
-      - YouTube*阿阳AYANG_19
-      - YouTube*阿阳AYANG_20
-      - YouTube*阿阳AYANG_21
-      - YouTube*阿阳AYANG_22
-      - YouTube*阿阳AYANG_23
-      - YouTube*阿阳AYANG_24
-      - YouTube*阿阳AYANG_25
-      - YouTube*阿阳AYANG_26
-      - YouTube*阿阳AYANG_27
-      - YouTube*阿阳AYANG_28
-      - YouTube*阿阳AYANG_29
-      - YouTube*阿阳AYANG_30
-      - YouTube*阿阳AYANG_31
-      - YouTube*阿阳AYANG_32
-      - YouTube*阿阳AYANG_33
-      - YouTube*阿阳AYANG_34
-      - YouTube*阿阳AYANG_35
-      - YouTube*阿阳AYANG_36
-      - YouTube*阿阳AYANG_37
-      - YouTube*阿阳AYANG_38
-      - YouTube*阿阳AYANG_39
-      - YouTube*阿阳AYANG_40
-      - YouTube*阿阳AYANG_41
-      - YouTube*阿阳AYANG_42
-      - YouTube*阿阳AYANG_43
-      - YouTube*阿阳AYANG_44
-      - YouTube*阿阳AYANG_45
-      - YouTube*阿阳AYANG_46
-      - YouTube*阿阳AYANG_47
-      - YouTube*阿阳AYANG_48
-      - YouTube*阿阳AYANG_49
-      - YouTube*阿阳AYANG_50
-      - YouTube*阿阳AYANG_51
-      - YouTube*阿阳AYANG_52
-      - YouTube*阿阳AYANG_53
-      - YouTube*阿阳AYANG_54
-      - YouTube*阿阳AYANG_55
-      - YouTube*阿阳AYANG_56
-      - YouTube*阿阳AYANG_57
-      - YouTube*阿阳AYANG_58
-      - YouTube*阿阳AYANG_59
-      - YouTube*阿阳AYANG_60
-      - YouTube*阿阳AYANG_61
-      - YouTube*阿阳AYANG_62
-      - YouTube*阿阳AYANG_63
-      - YouTube*阿阳AYANG_64
-      - YouTube*阿阳AYANG_65
-      - YouTube*阿阳AYANG_66
-      - YouTube*阿阳AYANG_67
-      - YouTube*阿阳AYANG_68
-      - YouTube*阿阳AYANG_69
-      - YouTube*阿阳AYANG_70
-      - YouTube*阿阳AYANG_71
-      - YouTube*阿阳AYANG_72
-      - YouTube*阿阳AYANG_73
-      - YouTube*阿阳AYANG_74
-      - YouTube*阿阳AYANG_75
-      - YouTube*阿阳AYANG_76
-      - YouTube*阿阳AYANG_77
-      - YouTube*阿阳AYANG_78
-      - YouTube*阿阳AYANG_79
-      - YouTube*阿阳AYANG_80
-      - YouTube*阿阳AYANG_81
-      - YouTube*阿阳AYANG_82
-      - YouTube*阿阳AYANG_83
-      - YouTube*阿阳AYANG_84
-      - YouTube*阿阳AYANG_85
-      - YouTube*阿阳AYANG_86
-      - YouTube*阿阳AYANG_87
-      - YouTube*阿阳AYANG_88
-      - YouTube*阿阳AYANG_89
-      - YouTube*阿阳AYANG_90
-      - YouTube*阿阳AYANG_91
-      - YouTube*阿阳AYANG_92
-      - YouTube*阿阳AYANG_93
-      - YouTube*阿阳AYANG_94
-      - YouTube*阿阳AYANG_95
-      - YouTube*阿阳AYANG_96
-      - YouTube*阿阳AYANG_97
-      - YouTube*阿阳AYANG_98
-      - YouTube*阿阳AYANG_99
-      - YouTube*阿阳AYANG_100
-      - YouTube*阿阳AYANG_101
-      - YouTube*阿阳AYANG_102
-      - YouTube*阿阳AYANG_103
-      - YouTube*阿阳AYANG_104
-      - YouTube*阿阳AYANG_105
-      - YouTube*阿阳AYANG_106
-      - YouTube*阿阳AYANG_107
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - default_name_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_8
+      - default_name_9
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_13
+      - 🇺🇸_US_美国_14
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_15
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_16
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_20
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_21
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_22
+      - 🇺🇸_US_美国_23
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_26
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_27
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_28
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_29
+      - 🇬🇧_GB_英国_30
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_33
+      - 🇨🇦_CA_加拿大_34
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_35
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_40
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_41
+      - default_name_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇨🇦_CA_加拿大_47
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_48
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_51
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_52
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_53
+      - 🇨🇦_CA_加拿大_54
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_55
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube*阿阳AYANG_1
-      - YouTube*阿阳AYANG_2
-      - YouTube*阿阳AYANG_3
-      - YouTube*阿阳AYANG_4
-      - YouTube*阿阳AYANG_5
-      - YouTube*阿阳AYANG_6
-      - YouTube*阿阳AYANG_7
-      - YouTube*阿阳AYANG_8
-      - YouTube*阿阳AYANG_9
-      - YouTube*阿阳AYANG_10
-      - YouTube*阿阳AYANG_11
-      - YouTube*阿阳AYANG_12
-      - YouTube*阿阳AYANG_13
-      - YouTube*阿阳AYANG_14
-      - YouTube*阿阳AYANG_15
-      - YouTube*阿阳AYANG_16
-      - YouTube*阿阳AYANG_17
-      - YouTube*阿阳AYANG_18
-      - YouTube*阿阳AYANG_19
-      - YouTube*阿阳AYANG_20
-      - YouTube*阿阳AYANG_21
-      - YouTube*阿阳AYANG_22
-      - YouTube*阿阳AYANG_23
-      - YouTube*阿阳AYANG_24
-      - YouTube*阿阳AYANG_25
-      - YouTube*阿阳AYANG_26
-      - YouTube*阿阳AYANG_27
-      - YouTube*阿阳AYANG_28
-      - YouTube*阿阳AYANG_29
-      - YouTube*阿阳AYANG_30
-      - YouTube*阿阳AYANG_31
-      - YouTube*阿阳AYANG_32
-      - YouTube*阿阳AYANG_33
-      - YouTube*阿阳AYANG_34
-      - YouTube*阿阳AYANG_35
-      - YouTube*阿阳AYANG_36
-      - YouTube*阿阳AYANG_37
-      - YouTube*阿阳AYANG_38
-      - YouTube*阿阳AYANG_39
-      - YouTube*阿阳AYANG_40
-      - YouTube*阿阳AYANG_41
-      - YouTube*阿阳AYANG_42
-      - YouTube*阿阳AYANG_43
-      - YouTube*阿阳AYANG_44
-      - YouTube*阿阳AYANG_45
-      - YouTube*阿阳AYANG_46
-      - YouTube*阿阳AYANG_47
-      - YouTube*阿阳AYANG_48
-      - YouTube*阿阳AYANG_49
-      - YouTube*阿阳AYANG_50
-      - YouTube*阿阳AYANG_51
-      - YouTube*阿阳AYANG_52
-      - YouTube*阿阳AYANG_53
-      - YouTube*阿阳AYANG_54
-      - YouTube*阿阳AYANG_55
-      - YouTube*阿阳AYANG_56
-      - YouTube*阿阳AYANG_57
-      - YouTube*阿阳AYANG_58
-      - YouTube*阿阳AYANG_59
-      - YouTube*阿阳AYANG_60
-      - YouTube*阿阳AYANG_61
-      - YouTube*阿阳AYANG_62
-      - YouTube*阿阳AYANG_63
-      - YouTube*阿阳AYANG_64
-      - YouTube*阿阳AYANG_65
-      - YouTube*阿阳AYANG_66
-      - YouTube*阿阳AYANG_67
-      - YouTube*阿阳AYANG_68
-      - YouTube*阿阳AYANG_69
-      - YouTube*阿阳AYANG_70
-      - YouTube*阿阳AYANG_71
-      - YouTube*阿阳AYANG_72
-      - YouTube*阿阳AYANG_73
-      - YouTube*阿阳AYANG_74
-      - YouTube*阿阳AYANG_75
-      - YouTube*阿阳AYANG_76
-      - YouTube*阿阳AYANG_77
-      - YouTube*阿阳AYANG_78
-      - YouTube*阿阳AYANG_79
-      - YouTube*阿阳AYANG_80
-      - YouTube*阿阳AYANG_81
-      - YouTube*阿阳AYANG_82
-      - YouTube*阿阳AYANG_83
-      - YouTube*阿阳AYANG_84
-      - YouTube*阿阳AYANG_85
-      - YouTube*阿阳AYANG_86
-      - YouTube*阿阳AYANG_87
-      - YouTube*阿阳AYANG_88
-      - YouTube*阿阳AYANG_89
-      - YouTube*阿阳AYANG_90
-      - YouTube*阿阳AYANG_91
-      - YouTube*阿阳AYANG_92
-      - YouTube*阿阳AYANG_93
-      - YouTube*阿阳AYANG_94
-      - YouTube*阿阳AYANG_95
-      - YouTube*阿阳AYANG_96
-      - YouTube*阿阳AYANG_97
-      - YouTube*阿阳AYANG_98
-      - YouTube*阿阳AYANG_99
-      - YouTube*阿阳AYANG_100
-      - YouTube*阿阳AYANG_101
-      - YouTube*阿阳AYANG_102
-      - YouTube*阿阳AYANG_103
-      - YouTube*阿阳AYANG_104
-      - YouTube*阿阳AYANG_105
-      - YouTube*阿阳AYANG_106
-      - YouTube*阿阳AYANG_107
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - default_name_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_8
+      - default_name_9
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_13
+      - 🇺🇸_US_美国_14
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_15
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_16
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_20
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_21
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_22
+      - 🇺🇸_US_美国_23
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_26
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_27
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_28
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_29
+      - 🇬🇧_GB_英国_30
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_33
+      - 🇨🇦_CA_加拿大_34
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_35
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_40
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_41
+      - default_name_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇨🇦_CA_加拿大_47
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_48
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_51
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_52
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_53
+      - 🇨🇦_CA_加拿大_54
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_55
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube*阿阳AYANG_1
-      - YouTube*阿阳AYANG_2
-      - YouTube*阿阳AYANG_3
-      - YouTube*阿阳AYANG_4
-      - YouTube*阿阳AYANG_5
-      - YouTube*阿阳AYANG_6
-      - YouTube*阿阳AYANG_7
-      - YouTube*阿阳AYANG_8
-      - YouTube*阿阳AYANG_9
-      - YouTube*阿阳AYANG_10
-      - YouTube*阿阳AYANG_11
-      - YouTube*阿阳AYANG_12
-      - YouTube*阿阳AYANG_13
-      - YouTube*阿阳AYANG_14
-      - YouTube*阿阳AYANG_15
-      - YouTube*阿阳AYANG_16
-      - YouTube*阿阳AYANG_17
-      - YouTube*阿阳AYANG_18
-      - YouTube*阿阳AYANG_19
-      - YouTube*阿阳AYANG_20
-      - YouTube*阿阳AYANG_21
-      - YouTube*阿阳AYANG_22
-      - YouTube*阿阳AYANG_23
-      - YouTube*阿阳AYANG_24
-      - YouTube*阿阳AYANG_25
-      - YouTube*阿阳AYANG_26
-      - YouTube*阿阳AYANG_27
-      - YouTube*阿阳AYANG_28
-      - YouTube*阿阳AYANG_29
-      - YouTube*阿阳AYANG_30
-      - YouTube*阿阳AYANG_31
-      - YouTube*阿阳AYANG_32
-      - YouTube*阿阳AYANG_33
-      - YouTube*阿阳AYANG_34
-      - YouTube*阿阳AYANG_35
-      - YouTube*阿阳AYANG_36
-      - YouTube*阿阳AYANG_37
-      - YouTube*阿阳AYANG_38
-      - YouTube*阿阳AYANG_39
-      - YouTube*阿阳AYANG_40
-      - YouTube*阿阳AYANG_41
-      - YouTube*阿阳AYANG_42
-      - YouTube*阿阳AYANG_43
-      - YouTube*阿阳AYANG_44
-      - YouTube*阿阳AYANG_45
-      - YouTube*阿阳AYANG_46
-      - YouTube*阿阳AYANG_47
-      - YouTube*阿阳AYANG_48
-      - YouTube*阿阳AYANG_49
-      - YouTube*阿阳AYANG_50
-      - YouTube*阿阳AYANG_51
-      - YouTube*阿阳AYANG_52
-      - YouTube*阿阳AYANG_53
-      - YouTube*阿阳AYANG_54
-      - YouTube*阿阳AYANG_55
-      - YouTube*阿阳AYANG_56
-      - YouTube*阿阳AYANG_57
-      - YouTube*阿阳AYANG_58
-      - YouTube*阿阳AYANG_59
-      - YouTube*阿阳AYANG_60
-      - YouTube*阿阳AYANG_61
-      - YouTube*阿阳AYANG_62
-      - YouTube*阿阳AYANG_63
-      - YouTube*阿阳AYANG_64
-      - YouTube*阿阳AYANG_65
-      - YouTube*阿阳AYANG_66
-      - YouTube*阿阳AYANG_67
-      - YouTube*阿阳AYANG_68
-      - YouTube*阿阳AYANG_69
-      - YouTube*阿阳AYANG_70
-      - YouTube*阿阳AYANG_71
-      - YouTube*阿阳AYANG_72
-      - YouTube*阿阳AYANG_73
-      - YouTube*阿阳AYANG_74
-      - YouTube*阿阳AYANG_75
-      - YouTube*阿阳AYANG_76
-      - YouTube*阿阳AYANG_77
-      - YouTube*阿阳AYANG_78
-      - YouTube*阿阳AYANG_79
-      - YouTube*阿阳AYANG_80
-      - YouTube*阿阳AYANG_81
-      - YouTube*阿阳AYANG_82
-      - YouTube*阿阳AYANG_83
-      - YouTube*阿阳AYANG_84
-      - YouTube*阿阳AYANG_85
-      - YouTube*阿阳AYANG_86
-      - YouTube*阿阳AYANG_87
-      - YouTube*阿阳AYANG_88
-      - YouTube*阿阳AYANG_89
-      - YouTube*阿阳AYANG_90
-      - YouTube*阿阳AYANG_91
-      - YouTube*阿阳AYANG_92
-      - YouTube*阿阳AYANG_93
-      - YouTube*阿阳AYANG_94
-      - YouTube*阿阳AYANG_95
-      - YouTube*阿阳AYANG_96
-      - YouTube*阿阳AYANG_97
-      - YouTube*阿阳AYANG_98
-      - YouTube*阿阳AYANG_99
-      - YouTube*阿阳AYANG_100
-      - YouTube*阿阳AYANG_101
-      - YouTube*阿阳AYANG_102
-      - YouTube*阿阳AYANG_103
-      - YouTube*阿阳AYANG_104
-      - YouTube*阿阳AYANG_105
-      - YouTube*阿阳AYANG_106
-      - YouTube*阿阳AYANG_107
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - default_name_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_8
+      - default_name_9
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_13
+      - 🇺🇸_US_美国_14
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_15
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_16
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_20
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_21
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_22
+      - 🇺🇸_US_美国_23
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_26
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_27
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_28
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_29
+      - 🇬🇧_GB_英国_30
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_33
+      - 🇨🇦_CA_加拿大_34
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_35
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_40
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_41
+      - default_name_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇨🇦_CA_加拿大_47
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_48
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_51
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_52
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_53
+      - 🇨🇦_CA_加拿大_54
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_55
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - YouTube*阿阳AYANG_1
-      - YouTube*阿阳AYANG_2
-      - YouTube*阿阳AYANG_3
-      - YouTube*阿阳AYANG_4
-      - YouTube*阿阳AYANG_5
-      - YouTube*阿阳AYANG_6
-      - YouTube*阿阳AYANG_7
-      - YouTube*阿阳AYANG_8
-      - YouTube*阿阳AYANG_9
-      - YouTube*阿阳AYANG_10
-      - YouTube*阿阳AYANG_11
-      - YouTube*阿阳AYANG_12
-      - YouTube*阿阳AYANG_13
-      - YouTube*阿阳AYANG_14
-      - YouTube*阿阳AYANG_15
-      - YouTube*阿阳AYANG_16
-      - YouTube*阿阳AYANG_17
-      - YouTube*阿阳AYANG_18
-      - YouTube*阿阳AYANG_19
-      - YouTube*阿阳AYANG_20
-      - YouTube*阿阳AYANG_21
-      - YouTube*阿阳AYANG_22
-      - YouTube*阿阳AYANG_23
-      - YouTube*阿阳AYANG_24
-      - YouTube*阿阳AYANG_25
-      - YouTube*阿阳AYANG_26
-      - YouTube*阿阳AYANG_27
-      - YouTube*阿阳AYANG_28
-      - YouTube*阿阳AYANG_29
-      - YouTube*阿阳AYANG_30
-      - YouTube*阿阳AYANG_31
-      - YouTube*阿阳AYANG_32
-      - YouTube*阿阳AYANG_33
-      - YouTube*阿阳AYANG_34
-      - YouTube*阿阳AYANG_35
-      - YouTube*阿阳AYANG_36
-      - YouTube*阿阳AYANG_37
-      - YouTube*阿阳AYANG_38
-      - YouTube*阿阳AYANG_39
-      - YouTube*阿阳AYANG_40
-      - YouTube*阿阳AYANG_41
-      - YouTube*阿阳AYANG_42
-      - YouTube*阿阳AYANG_43
-      - YouTube*阿阳AYANG_44
-      - YouTube*阿阳AYANG_45
-      - YouTube*阿阳AYANG_46
-      - YouTube*阿阳AYANG_47
-      - YouTube*阿阳AYANG_48
-      - YouTube*阿阳AYANG_49
-      - YouTube*阿阳AYANG_50
-      - YouTube*阿阳AYANG_51
-      - YouTube*阿阳AYANG_52
-      - YouTube*阿阳AYANG_53
-      - YouTube*阿阳AYANG_54
-      - YouTube*阿阳AYANG_55
-      - YouTube*阿阳AYANG_56
-      - YouTube*阿阳AYANG_57
-      - YouTube*阿阳AYANG_58
-      - YouTube*阿阳AYANG_59
-      - YouTube*阿阳AYANG_60
-      - YouTube*阿阳AYANG_61
-      - YouTube*阿阳AYANG_62
-      - YouTube*阿阳AYANG_63
-      - YouTube*阿阳AYANG_64
-      - YouTube*阿阳AYANG_65
-      - YouTube*阿阳AYANG_66
-      - YouTube*阿阳AYANG_67
-      - YouTube*阿阳AYANG_68
-      - YouTube*阿阳AYANG_69
-      - YouTube*阿阳AYANG_70
-      - YouTube*阿阳AYANG_71
-      - YouTube*阿阳AYANG_72
-      - YouTube*阿阳AYANG_73
-      - YouTube*阿阳AYANG_74
-      - YouTube*阿阳AYANG_75
-      - YouTube*阿阳AYANG_76
-      - YouTube*阿阳AYANG_77
-      - YouTube*阿阳AYANG_78
-      - YouTube*阿阳AYANG_79
-      - YouTube*阿阳AYANG_80
-      - YouTube*阿阳AYANG_81
-      - YouTube*阿阳AYANG_82
-      - YouTube*阿阳AYANG_83
-      - YouTube*阿阳AYANG_84
-      - YouTube*阿阳AYANG_85
-      - YouTube*阿阳AYANG_86
-      - YouTube*阿阳AYANG_87
-      - YouTube*阿阳AYANG_88
-      - YouTube*阿阳AYANG_89
-      - YouTube*阿阳AYANG_90
-      - YouTube*阿阳AYANG_91
-      - YouTube*阿阳AYANG_92
-      - YouTube*阿阳AYANG_93
-      - YouTube*阿阳AYANG_94
-      - YouTube*阿阳AYANG_95
-      - YouTube*阿阳AYANG_96
-      - YouTube*阿阳AYANG_97
-      - YouTube*阿阳AYANG_98
-      - YouTube*阿阳AYANG_99
-      - YouTube*阿阳AYANG_100
-      - YouTube*阿阳AYANG_101
-      - YouTube*阿阳AYANG_102
-      - YouTube*阿阳AYANG_103
-      - YouTube*阿阳AYANG_104
-      - YouTube*阿阳AYANG_105
-      - YouTube*阿阳AYANG_106
-      - YouTube*阿阳AYANG_107
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - default_name_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_8
+      - default_name_9
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_13
+      - 🇺🇸_US_美国_14
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_15
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_16
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_20
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_21
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_22
+      - 🇺🇸_US_美国_23
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_26
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_27
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_28
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_29
+      - 🇬🇧_GB_英国_30
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_33
+      - 🇨🇦_CA_加拿大_34
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_35
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_40
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_41
+      - default_name_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇨🇦_CA_加拿大_47
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_48
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_51
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_52
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_53
+      - 🇨🇦_CA_加拿大_54
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_55
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube*阿阳AYANG_1
-      - YouTube*阿阳AYANG_2
-      - YouTube*阿阳AYANG_3
-      - YouTube*阿阳AYANG_4
-      - YouTube*阿阳AYANG_5
-      - YouTube*阿阳AYANG_6
-      - YouTube*阿阳AYANG_7
-      - YouTube*阿阳AYANG_8
-      - YouTube*阿阳AYANG_9
-      - YouTube*阿阳AYANG_10
-      - YouTube*阿阳AYANG_11
-      - YouTube*阿阳AYANG_12
-      - YouTube*阿阳AYANG_13
-      - YouTube*阿阳AYANG_14
-      - YouTube*阿阳AYANG_15
-      - YouTube*阿阳AYANG_16
-      - YouTube*阿阳AYANG_17
-      - YouTube*阿阳AYANG_18
-      - YouTube*阿阳AYANG_19
-      - YouTube*阿阳AYANG_20
-      - YouTube*阿阳AYANG_21
-      - YouTube*阿阳AYANG_22
-      - YouTube*阿阳AYANG_23
-      - YouTube*阿阳AYANG_24
-      - YouTube*阿阳AYANG_25
-      - YouTube*阿阳AYANG_26
-      - YouTube*阿阳AYANG_27
-      - YouTube*阿阳AYANG_28
-      - YouTube*阿阳AYANG_29
-      - YouTube*阿阳AYANG_30
-      - YouTube*阿阳AYANG_31
-      - YouTube*阿阳AYANG_32
-      - YouTube*阿阳AYANG_33
-      - YouTube*阿阳AYANG_34
-      - YouTube*阿阳AYANG_35
-      - YouTube*阿阳AYANG_36
-      - YouTube*阿阳AYANG_37
-      - YouTube*阿阳AYANG_38
-      - YouTube*阿阳AYANG_39
-      - YouTube*阿阳AYANG_40
-      - YouTube*阿阳AYANG_41
-      - YouTube*阿阳AYANG_42
-      - YouTube*阿阳AYANG_43
-      - YouTube*阿阳AYANG_44
-      - YouTube*阿阳AYANG_45
-      - YouTube*阿阳AYANG_46
-      - YouTube*阿阳AYANG_47
-      - YouTube*阿阳AYANG_48
-      - YouTube*阿阳AYANG_49
-      - YouTube*阿阳AYANG_50
-      - YouTube*阿阳AYANG_51
-      - YouTube*阿阳AYANG_52
-      - YouTube*阿阳AYANG_53
-      - YouTube*阿阳AYANG_54
-      - YouTube*阿阳AYANG_55
-      - YouTube*阿阳AYANG_56
-      - YouTube*阿阳AYANG_57
-      - YouTube*阿阳AYANG_58
-      - YouTube*阿阳AYANG_59
-      - YouTube*阿阳AYANG_60
-      - YouTube*阿阳AYANG_61
-      - YouTube*阿阳AYANG_62
-      - YouTube*阿阳AYANG_63
-      - YouTube*阿阳AYANG_64
-      - YouTube*阿阳AYANG_65
-      - YouTube*阿阳AYANG_66
-      - YouTube*阿阳AYANG_67
-      - YouTube*阿阳AYANG_68
-      - YouTube*阿阳AYANG_69
-      - YouTube*阿阳AYANG_70
-      - YouTube*阿阳AYANG_71
-      - YouTube*阿阳AYANG_72
-      - YouTube*阿阳AYANG_73
-      - YouTube*阿阳AYANG_74
-      - YouTube*阿阳AYANG_75
-      - YouTube*阿阳AYANG_76
-      - YouTube*阿阳AYANG_77
-      - YouTube*阿阳AYANG_78
-      - YouTube*阿阳AYANG_79
-      - YouTube*阿阳AYANG_80
-      - YouTube*阿阳AYANG_81
-      - YouTube*阿阳AYANG_82
-      - YouTube*阿阳AYANG_83
-      - YouTube*阿阳AYANG_84
-      - YouTube*阿阳AYANG_85
-      - YouTube*阿阳AYANG_86
-      - YouTube*阿阳AYANG_87
-      - YouTube*阿阳AYANG_88
-      - YouTube*阿阳AYANG_89
-      - YouTube*阿阳AYANG_90
-      - YouTube*阿阳AYANG_91
-      - YouTube*阿阳AYANG_92
-      - YouTube*阿阳AYANG_93
-      - YouTube*阿阳AYANG_94
-      - YouTube*阿阳AYANG_95
-      - YouTube*阿阳AYANG_96
-      - YouTube*阿阳AYANG_97
-      - YouTube*阿阳AYANG_98
-      - YouTube*阿阳AYANG_99
-      - YouTube*阿阳AYANG_100
-      - YouTube*阿阳AYANG_101
-      - YouTube*阿阳AYANG_102
-      - YouTube*阿阳AYANG_103
-      - YouTube*阿阳AYANG_104
-      - YouTube*阿阳AYANG_105
-      - YouTube*阿阳AYANG_106
-      - YouTube*阿阳AYANG_107
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - default_name_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_8
+      - default_name_9
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_13
+      - 🇺🇸_US_美国_14
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_15
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_16
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_20
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_21
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_22
+      - 🇺🇸_US_美国_23
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_26
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_27
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_28
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_29
+      - 🇬🇧_GB_英国_30
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_33
+      - 🇨🇦_CA_加拿大_34
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_35
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_40
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_41
+      - default_name_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇨🇦_CA_加拿大_47
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_48
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_51
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_52
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_53
+      - 🇨🇦_CA_加拿大_54
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_55
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -809,113 +445,61 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube*阿阳AYANG_1
-      - YouTube*阿阳AYANG_2
-      - YouTube*阿阳AYANG_3
-      - YouTube*阿阳AYANG_4
-      - YouTube*阿阳AYANG_5
-      - YouTube*阿阳AYANG_6
-      - YouTube*阿阳AYANG_7
-      - YouTube*阿阳AYANG_8
-      - YouTube*阿阳AYANG_9
-      - YouTube*阿阳AYANG_10
-      - YouTube*阿阳AYANG_11
-      - YouTube*阿阳AYANG_12
-      - YouTube*阿阳AYANG_13
-      - YouTube*阿阳AYANG_14
-      - YouTube*阿阳AYANG_15
-      - YouTube*阿阳AYANG_16
-      - YouTube*阿阳AYANG_17
-      - YouTube*阿阳AYANG_18
-      - YouTube*阿阳AYANG_19
-      - YouTube*阿阳AYANG_20
-      - YouTube*阿阳AYANG_21
-      - YouTube*阿阳AYANG_22
-      - YouTube*阿阳AYANG_23
-      - YouTube*阿阳AYANG_24
-      - YouTube*阿阳AYANG_25
-      - YouTube*阿阳AYANG_26
-      - YouTube*阿阳AYANG_27
-      - YouTube*阿阳AYANG_28
-      - YouTube*阿阳AYANG_29
-      - YouTube*阿阳AYANG_30
-      - YouTube*阿阳AYANG_31
-      - YouTube*阿阳AYANG_32
-      - YouTube*阿阳AYANG_33
-      - YouTube*阿阳AYANG_34
-      - YouTube*阿阳AYANG_35
-      - YouTube*阿阳AYANG_36
-      - YouTube*阿阳AYANG_37
-      - YouTube*阿阳AYANG_38
-      - YouTube*阿阳AYANG_39
-      - YouTube*阿阳AYANG_40
-      - YouTube*阿阳AYANG_41
-      - YouTube*阿阳AYANG_42
-      - YouTube*阿阳AYANG_43
-      - YouTube*阿阳AYANG_44
-      - YouTube*阿阳AYANG_45
-      - YouTube*阿阳AYANG_46
-      - YouTube*阿阳AYANG_47
-      - YouTube*阿阳AYANG_48
-      - YouTube*阿阳AYANG_49
-      - YouTube*阿阳AYANG_50
-      - YouTube*阿阳AYANG_51
-      - YouTube*阿阳AYANG_52
-      - YouTube*阿阳AYANG_53
-      - YouTube*阿阳AYANG_54
-      - YouTube*阿阳AYANG_55
-      - YouTube*阿阳AYANG_56
-      - YouTube*阿阳AYANG_57
-      - YouTube*阿阳AYANG_58
-      - YouTube*阿阳AYANG_59
-      - YouTube*阿阳AYANG_60
-      - YouTube*阿阳AYANG_61
-      - YouTube*阿阳AYANG_62
-      - YouTube*阿阳AYANG_63
-      - YouTube*阿阳AYANG_64
-      - YouTube*阿阳AYANG_65
-      - YouTube*阿阳AYANG_66
-      - YouTube*阿阳AYANG_67
-      - YouTube*阿阳AYANG_68
-      - YouTube*阿阳AYANG_69
-      - YouTube*阿阳AYANG_70
-      - YouTube*阿阳AYANG_71
-      - YouTube*阿阳AYANG_72
-      - YouTube*阿阳AYANG_73
-      - YouTube*阿阳AYANG_74
-      - YouTube*阿阳AYANG_75
-      - YouTube*阿阳AYANG_76
-      - YouTube*阿阳AYANG_77
-      - YouTube*阿阳AYANG_78
-      - YouTube*阿阳AYANG_79
-      - YouTube*阿阳AYANG_80
-      - YouTube*阿阳AYANG_81
-      - YouTube*阿阳AYANG_82
-      - YouTube*阿阳AYANG_83
-      - YouTube*阿阳AYANG_84
-      - YouTube*阿阳AYANG_85
-      - YouTube*阿阳AYANG_86
-      - YouTube*阿阳AYANG_87
-      - YouTube*阿阳AYANG_88
-      - YouTube*阿阳AYANG_89
-      - YouTube*阿阳AYANG_90
-      - YouTube*阿阳AYANG_91
-      - YouTube*阿阳AYANG_92
-      - YouTube*阿阳AYANG_93
-      - YouTube*阿阳AYANG_94
-      - YouTube*阿阳AYANG_95
-      - YouTube*阿阳AYANG_96
-      - YouTube*阿阳AYANG_97
-      - YouTube*阿阳AYANG_98
-      - YouTube*阿阳AYANG_99
-      - YouTube*阿阳AYANG_100
-      - YouTube*阿阳AYANG_101
-      - YouTube*阿阳AYANG_102
-      - YouTube*阿阳AYANG_103
-      - YouTube*阿阳AYANG_104
-      - YouTube*阿阳AYANG_105
-      - YouTube*阿阳AYANG_106
-      - YouTube*阿阳AYANG_107
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - default_name_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_8
+      - default_name_9
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_10
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_11
+      - 🇨🇦_CA_加拿大_12
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_13
+      - 🇺🇸_US_美国_14
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_15
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_16
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_20
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_21
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_22
+      - 🇺🇸_US_美国_23
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_24
+      - 🇨🇦_CA_加拿大_25
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_26
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_27
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_28
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_29
+      - 🇬🇧_GB_英国_30
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_31
+      - 🇺🇸_US_美国_32
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_33
+      - 🇨🇦_CA_加拿大_34
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_35
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_36
+      - 🇨🇦_CA_加拿大_37
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_38
+      - 🇨🇦_CA_加拿大_39
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_40
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_41
+      - default_name_42
+      - 🇨🇦_CA_加拿大_43
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_44
+      - 🇨🇦_CA_加拿大_45
+      - 🇺🇸_US_美国_46
+      - 🇨🇦_CA_加拿大_47
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_48
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_49
+      - 🇨🇦_CA_加拿大_50
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_51
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_52
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_53
+      - 🇨🇦_CA_加拿大_54
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_55
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
