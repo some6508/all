@@ -15,6 +15,7 @@ proxies:
   - {"name":"default_name_8","server":"134.195.196.3","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
   - {"name":"🇬🇧_GB_英国_9","server":"172.99.190.92","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
   - {"name":"🇺🇸_US_美国_10","server":"38.75.137.66","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦_CA_加拿大_11","server":"134.195.196.184","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,6 +32,7 @@ proxy-groups:
       - default_name_8
       - 🇬🇧_GB_英国_9
       - 🇺🇸_US_美国_10
+      - 🇨🇦_CA_加拿大_11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -47,6 +49,7 @@ proxy-groups:
       - default_name_8
       - 🇬🇧_GB_英国_9
       - 🇺🇸_US_美国_10
+      - 🇨🇦_CA_加拿大_11
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -63,6 +66,7 @@ proxy-groups:
       - default_name_8
       - 🇬🇧_GB_英国_9
       - 🇺🇸_US_美国_10
+      - 🇨🇦_CA_加拿大_11
   - name: 📲 电报信息
     type: select
     proxies:
@@ -78,6 +82,7 @@ proxy-groups:
       - default_name_8
       - 🇬🇧_GB_英国_9
       - 🇺🇸_US_美国_10
+      - 🇨🇦_CA_加拿大_11
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -93,6 +98,7 @@ proxy-groups:
       - default_name_8
       - 🇬🇧_GB_英国_9
       - 🇺🇸_US_美国_10
+      - 🇨🇦_CA_加拿大_11
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -108,6 +114,7 @@ proxy-groups:
       - default_name_8
       - 🇬🇧_GB_英国_9
       - 🇺🇸_US_美国_10
+      - 🇨🇦_CA_加拿大_11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,6 +147,7 @@ proxy-groups:
       - default_name_8
       - 🇬🇧_GB_英国_9
       - 🇺🇸_US_美国_10
+      - 🇨🇦_CA_加拿大_11
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
