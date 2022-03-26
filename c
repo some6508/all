@@ -5,30 +5,30 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.81","port":9101,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.51","port":8008,"type":"ss","country":"🇨🇦_CA_加拿大_2","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.81","port":9101,"type":"ss","country":"🇨🇦_CA_加拿大_3","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇬🇧_GB_英国_4","server":"172.99.190.92","port":7306,"type":"ss","country":"🇬🇧_GB_英国_4","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_5","server":"0319ru99.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"🇷🇺_RU_俄罗斯联邦_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"0319ru99.fans8.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.187","port":8882,"type":"ss","country":"🇨🇦_CA_加拿大_6","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA_加拿大_7","server":"134.195.196.187","port":8882,"type":"ss","country":"🇨🇦_CA_加拿大_7","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸_US_美国_8","server":"169.197.142.99","port":5001,"type":"ss","country":"🇺🇸_US_美国_8","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_9","server":"134.195.196.51","port":6379,"type":"ss","country":"🇨🇦_CA_加拿大_9","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇨🇦_CA_加拿大_10","server":"134.195.196.187","port":5500,"type":"ss","country":"🇨🇦_CA_加拿大_10","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_1","server":"169.197.142.99","port":7001,"type":"ss","country":"🇺🇸_US_美国_1","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.3","port":5600,"type":"ss","country":"🇨🇦_CA_加拿大_2","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.51","port":8119,"type":"ss","country":"🇨🇦_CA_加拿大_3","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.196.81","port":7002,"type":"ss","country":"🇨🇦_CA_加拿大_4","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.196.187","port":443,"type":"ss","country":"🇨🇦_CA_加拿大_5","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.3","port":8119,"type":"ss","country":"🇨🇦_CA_加拿大_6","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_7","server":"msk.ncugo.cf","port":443,"type":"vmess","uuid":"bd6b71e2-74ad-484a-ef0b-9dbccf23311c","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇨🇦_CA_加拿大_8","server":"134.195.196.187","port":2375,"type":"ss","country":"🇨🇦_CA_加拿大_8","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_9","server":"134.195.196.81","port":9102,"type":"ss","country":"🇨🇦_CA_加拿大_9","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦_CA_加拿大_10","server":"134.195.196.3","port":9101,"type":"ss","country":"🇨🇦_CA_加拿大_10","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_1
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇬🇧_GB_英国_4
-      - 🇷🇺_RU_俄罗斯联邦_5
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_7
+      - 🇨🇦_CA_加拿大_8
       - 🇨🇦_CA_加拿大_9
       - 🇨🇦_CA_加拿大_10
   - name: ♻️ 自动选择
@@ -37,14 +37,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_1
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇬🇧_GB_英国_4
-      - 🇷🇺_RU_俄罗斯联邦_5
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_7
+      - 🇨🇦_CA_加拿大_8
       - 🇨🇦_CA_加拿大_9
       - 🇨🇦_CA_加拿大_10
   - name: 🌍 国外媒体
@@ -53,14 +53,14 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_1
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇬🇧_GB_英国_4
-      - 🇷🇺_RU_俄罗斯联邦_5
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_7
+      - 🇨🇦_CA_加拿大_8
       - 🇨🇦_CA_加拿大_9
       - 🇨🇦_CA_加拿大_10
   - name: 📲 电报信息
@@ -68,14 +68,14 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_1
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇬🇧_GB_英国_4
-      - 🇷🇺_RU_俄罗斯联邦_5
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_7
+      - 🇨🇦_CA_加拿大_8
       - 🇨🇦_CA_加拿大_9
       - 🇨🇦_CA_加拿大_10
   - name: Ⓜ️ 微软服务
@@ -83,14 +83,14 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_1
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇬🇧_GB_英国_4
-      - 🇷🇺_RU_俄罗斯联邦_5
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_7
+      - 🇨🇦_CA_加拿大_8
       - 🇨🇦_CA_加拿大_9
       - 🇨🇦_CA_加拿大_10
   - name: 🍎 苹果服务
@@ -98,14 +98,14 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_1
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇬🇧_GB_英国_4
-      - 🇷🇺_RU_俄罗斯联邦_5
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_7
+      - 🇨🇦_CA_加拿大_8
       - 🇨🇦_CA_加拿大_9
       - 🇨🇦_CA_加拿大_10
   - name: 🎯 全球直连
@@ -130,14 +130,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_1
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇬🇧_GB_英国_4
-      - 🇷🇺_RU_俄罗斯联邦_5
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
       - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_7
+      - 🇨🇦_CA_加拿大_8
       - 🇨🇦_CA_加拿大_9
       - 🇨🇦_CA_加拿大_10
 rules:
