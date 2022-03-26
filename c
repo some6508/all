@@ -5,172 +5,802 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.51","port":7001,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.51","port":8118,"type":"ss","country":"🇨🇦_CA_加拿大_2","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.51","port":5001,"type":"ss","country":"🇨🇦_CA_加拿大_3","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇹🇼_TW_台湾_4","server":"0322tw.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"🇹🇼_TW_台湾_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/nl","headers":{"host":"0322tw.fans8.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.196.51","port":7306,"type":"ss","country":"🇨🇦_CA_加拿大_5","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.51","port":8080,"type":"ss","country":"🇨🇦_CA_加拿大_6","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_7","server":"ru2.peakerselling.com","port":443,"type":"vmess","uuid":"d3435521-3d1f-37f7-ab48-f5302bc6a4fb","alterId":0,"cipher":"auto","country":"🇷🇺_RU_俄罗斯联邦_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/helloman","headers":{"host":"ru2.peakerselling.com"}}}
-  - {"name":"🇨🇦_CA_加拿大_8","server":"134.195.196.51","port":7002,"type":"ss","country":"🇨🇦_CA_加拿大_8","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_9","server":"134.195.196.51","port":5500,"type":"ss","country":"🇨🇦_CA_加拿大_9","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国_10","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"6c175d1a-a57f-4881-a471-173eb139694b","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇫🇷_FR_法国_10","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xrenblog/","headers":{"host":"ipv6.xrenblog.com"}}}
-  - {"name":"🇨🇦_CA_加拿大_11","server":"134.195.196.51","port":8119,"type":"ss","country":"🇨🇦_CA_加拿大_11","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA_加拿大_12","server":"134.195.196.51","port":8888,"type":"ss","country":"🇨🇦_CA_加拿大_12","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_13","server":"134.195.196.51","port":9101,"type":"ss","country":"🇨🇦_CA_加拿大_13","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_14","server":"134.195.196.51","port":8090,"type":"ss","country":"🇨🇦_CA_加拿大_14","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_15","server":"134.195.196.51","port":9102,"type":"ss","country":"🇨🇦_CA_加拿大_15","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_16","server":"134.195.196.51","port":8881,"type":"ss","country":"🇨🇦_CA_加拿大_16","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA_加拿大_17","server":"134.195.196.51","port":443,"type":"ss","country":"🇨🇦_CA_加拿大_17","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_18","server":"134.195.196.51","port":6379,"type":"ss","country":"🇨🇦_CA_加拿大_18","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇨🇦_CA_加拿大_19","server":"134.195.196.51","port":6679,"type":"ss","country":"🇨🇦_CA_加拿大_19","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"♥️YouTube梦歌♥️_1","server":"116.162.14.248","port":45932,"type":"vmess","uuid":"55eaf520-ec52-33b0-b0a9-1e3834aff676","alterId":2,"cipher":"auto","country":"♥️YouTube梦歌♥️_1","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/aaa","headers":{"host":"tg.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_2","server":"fc.bjbgp.wokuaitule.xyz","port":11034,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_3","server":"fc.dg.wokuaitule.xyz","port":10035,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_3","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_4","server":"fc.bjbgp.wokuaitule.xyz","port":11034,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_5","server":"183.240.132.27","port":21100,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","country":"♥️YouTube梦歌♥️_5","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"♥️YouTube梦歌♥️_6","server":"fc.bjbgp.wokuaitule.xyz","port":11032,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_7","server":"fc.shbgp.wokuaitule.xyz","port":17774,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_8","server":"fc.shbgp.wokuaitule.xyz","port":17774,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_9","server":"fc.shbgp.wokuaitule.xyz","port":19975,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_9","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_10","server":"fc.gzbgp.wokuaitule.xyz","port":10029,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_10","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_11","server":"fc.bjbgp.wokuaitule.xyz","port":11034,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_11","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_12","server":"fc.shbgp.wokuaitule.xyz","port":17774,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_12","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_13","server":"fc.st.wokuaitule.xyz","port":40015,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_13","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_14","server":"fc.jm.wokuaitule.xyz","port":40012,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_14","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_15","server":"fc.jm.wokuaitule.xyz","port":40012,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_15","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_16","server":"pmah.wokuaitule.xyz","port":47772,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_16","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_17","server":"fc.dg.wokuaitule.xyz","port":17752,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_17","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_18","server":"fc.bjbgp.wokuaitule.xyz","port":11032,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_18","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_19","server":"fc.gzbgp.wokuaitule.xyz","port":10029,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_19","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_20","server":"fc.gzbgp.wokuaitule.xyz","port":10010,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_20","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_21","server":"fc.bjbgp.wokuaitule.xyz","port":11032,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_21","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_22","server":"fc.jm.wokuaitule.xyz","port":40011,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_22","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_23","server":"fc.gzbgp.wokuaitule.xyz","port":10029,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_23","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_24","server":"fc.gzbgp.wokuaitule.xyz","port":10030,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_24","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_25","server":"fc.jm.wokuaitule.xyz","port":40012,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_25","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_26","server":"fc.gzbgp.wokuaitule.xyz","port":10030,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_26","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_27","server":"fc.bjbgp.wokuaitule.xyz","port":11031,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_27","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_28","server":"fc.gzbgp.wokuaitule.xyz","port":10010,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_28","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_29","server":"fc.dg.wokuaitule.xyz","port":10035,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_29","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"china-gzyd-1.forwardserver.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_30","server":"183.232.56.161","port":1101,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_30","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"♥️YouTube梦歌♥️_31","server":"fc.gzbgp.wokuaitule.xyz","port":10030,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_31","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_32","server":"fc.st.wokuaitule.xyz","port":40015,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_32","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_33","server":"fc.shbgp.wokuaitule.xyz","port":19975,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_33","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_34","server":"fc.bjbgp.wokuaitule.xyz","port":11031,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_34","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_35","server":"f2s.wokuaitule.xyz","port":17723,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_35","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_36","server":"fc.bjbgp.wokuaitule.xyz","port":11031,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_36","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_37","server":"fc.shbgp.wokuaitule.xyz","port":19975,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_37","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_38","server":"fc.dg.wokuaitule.xyz","port":17752,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_38","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/de","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_39","server":"fc.jm.wokuaitule.xyz","port":40017,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_39","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_40","server":"pmah.wokuaitule.xyz","port":47772,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_40","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_41","server":"fc.dg.wokuaitule.xyz","port":10035,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_41","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_42","server":"fc.gzbgp.wokuaitule.xyz","port":10010,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_42","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_43","server":"52.163.89.253","port":35252,"type":"vmess","uuid":"84a69512-7365-487f-b2ac-d1d5c4e05750","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_43","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ws","headers":{"host":"52.163.89.253"}}}
+  - {"name":"♥️YouTube梦歌♥️_44","server":"pmah.wokuaitule.xyz","port":47721,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_44","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_45","server":"116.162.14.228","port":21206,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","country":"♥️YouTube梦歌♥️_45","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"♥️YouTube梦歌♥️_46","server":"fkgfw-prod.i.sxl.cn","port":443,"type":"ss","country":"♥️YouTube梦歌♥️_46","cipher":"aes-256-cfb","password":"E4DNMf73kHPrd8Qq7aqGPf7f"}
+  - {"name":"♥️YouTube梦歌♥️_47","server":"gz1.52168.xyz","port":1107,"type":"ssr","country":"♥️YouTube梦歌♥️_47","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:y711wfz6uln","obfs-param":"30a2a149.baidu.com"}
+  - {"name":"♥️YouTube梦歌♥️_48","server":"65.52.171.156","port":8080,"type":"vmess","uuid":"047184b7-6da2-3d3f-ac27-6a1a8701daf8","alterId":2,"cipher":"auto","country":"♥️YouTube梦歌♥️_48","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8"}}
+  - {"name":"♥️YouTube梦歌♥️_49","server":"185.148.14.58","port":53514,"type":"trojan","country":"♥️YouTube梦歌♥️_49","skip-cert-verify":true,"udp":true,"password":"3r90JDGBYA"}
+  - {"name":"♥️YouTube梦歌♥️_50","server":"183.240.132.27","port":21101,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","country":"♥️YouTube梦歌♥️_50","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"183.240.132.27"}}}
+  - {"name":"♥️YouTube梦歌♥️_51","server":"fc.jm.wokuaitule.xyz","port":40011,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_51","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_52","server":"183.232.56.161","port":8004,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_52","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"♥️YouTube梦歌♥️_53","server":"h1.newspacex.buzz","port":50001,"type":"vmess","uuid":"c9487119-4647-3c48-ae20-86d41d715f8b","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_53","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"h1.newspacex.buzz"}}}
+  - {"name":"♥️YouTube梦歌♥️_54","server":"183.232.56.161","port":1615,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":2,"cipher":"auto","country":"♥️YouTube梦歌♥️_54","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"♥️YouTube梦歌♥️_55","server":"fc.dg.wokuaitule.xyz","port":10035,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_55","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/index","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_56","server":"jgwcc1.gaox.ml","port":443,"type":"trojan","country":"♥️YouTube梦歌♥️_56","skip-cert-verify":true,"udp":true,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a"}
+  - {"name":"♥️YouTube梦歌♥️_57","server":"52.163.89.253","port":35252,"type":"vmess","uuid":"84a69512-7365-487f-b2ac-d1d5c4e05750","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_57","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"52.163.89.253"}}}
+  - {"name":"♥️YouTube梦歌♥️_58","server":"sgp.newspacex.buzz","port":49997,"type":"vmess","uuid":"c9487119-4647-3c48-ae20-86d41d715f8b","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_58","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/reader","headers":{"host":"sgp.newspacex.buzz"}}}
+  - {"name":"♥️YouTube梦歌♥️_59","server":"pmah.wokuaitule.xyz","port":47772,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_59","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"pmah.wokuaitule.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_60","server":"os2-3.nrojat.com","port":443,"type":"trojan","country":"♥️YouTube梦歌♥️_60","skip-cert-verify":true,"udp":true,"password":"X9x2vdvYfJZnktyKf5"}
+  - {"name":"♥️YouTube梦歌♥️_61","server":"xgplv34.newspacex.ml","port":49996,"type":"vmess","uuid":"c9487119-4647-3c48-ae20-86d41d715f8b","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_61","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/reader","headers":{"host":"xgplv34.newspacex.ml"}}}
+  - {"name":"♥️YouTube梦歌♥️_62","server":"ycy.gzhpxb.com","port":49101,"type":"ss","country":"♥️YouTube梦歌♥️_62","cipher":"aes-128-gcm","password":"yangchaoyue"}
+  - {"name":"♥️YouTube梦歌♥️_63","server":"xgplv11.newspacex.tk","port":49993,"type":"vmess","uuid":"c9487119-4647-3c48-ae20-86d41d715f8b","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_63","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/reader","headers":{"host":"xgplv11.newspacex.tk"}}}
+  - {"name":"♥️YouTube梦歌♥️_64","server":"gz1.52168.xyz","port":1116,"type":"ssr","country":"♥️YouTube梦歌♥️_64","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:y711wfz6uln","obfs-param":"30a2a149.baidu.com"}
+  - {"name":"♥️YouTube梦歌♥️_65","server":"sgp.newspacex.buzz","port":49997,"type":"vmess","uuid":"c9487119-4647-3c48-ae20-86d41d715f8b","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_65","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/reader","headers":{"host":"sgp.newspacex.buzz"}}}
+  - {"name":"♥️YouTube梦歌♥️_66","server":"kr2.futi.online","port":2053,"type":"vmess","uuid":"ecbaf58d-df4b-4a24-b155-556f5c917517","alterId":1,"cipher":"auto","country":"♥️YouTube梦歌♥️_66","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"kr2.futi.online"}}}
+  - {"name":"♥️YouTube梦歌♥️_67","server":"f2s.wokuaitule.xyz","port":21168,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_67","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_68","server":"f2s.wokuaitule.xyz","port":17777,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_68","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_69","server":"pmah.wokuaitule.xyz","port":47721,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_69","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_70","server":"ycy.gzhpxb.com","port":49101,"type":"ss","country":"♥️YouTube梦歌♥️_70","cipher":"aes-128-gcm","password":"yangchaoyue"}
+  - {"name":"♥️YouTube梦歌♥️_71","server":"f2s.wokuaitule.xyz","port":17723,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_71","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_72","server":"pmah.wokuaitule.xyz","port":47721,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_72","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"pmah.wokuaitule.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_73","server":"hkec04.newspacex.buzz","port":49994,"type":"vmess","uuid":"c9487119-4647-3c48-ae20-86d41d715f8b","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_73","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"hkec04.newspacex.buzz"}}}
+  - {"name":"♥️YouTube梦歌♥️_74","server":"tw-dynamic-alpha.gleeze.com","port":48888,"type":"vmess","uuid":"c9487119-4647-3c48-ae20-86d41d715f8b","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_74","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"tw-dynamic-alpha.gleeze.com"}}}
+  - {"name":"♥️YouTube梦歌♥️_75","server":"183.240.132.27","port":21100,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","country":"♥️YouTube梦歌♥️_75","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"♥️YouTube梦歌♥️_76","server":"gz1.52168.xyz","port":1102,"type":"ssr","country":"♥️YouTube梦歌♥️_76","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:y711wfz6uln","obfs-param":"30a2a149.baidu.com"}
+  - {"name":"♥️YouTube梦歌♥️_77","server":"gz1.52168.xyz","port":1107,"type":"ssr","country":"♥️YouTube梦歌♥️_77","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:y711wfz6uln","obfs-param":"30a2a149.baidu.com"}
+  - {"name":"♥️YouTube梦歌♥️_78","server":"f2s.wokuaitule.xyz","port":21168,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_78","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_79","server":"xgplv34.newspacex.ml","port":49996,"type":"vmess","uuid":"c9487119-4647-3c48-ae20-86d41d715f8b","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_79","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/reader","headers":{"host":"xgplv34.newspacex.ml"}}}
+  - {"name":"♥️YouTube梦歌♥️_80","server":"f2s.wokuaitule.xyz","port":20078,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_80","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_81","server":"f2s.wokuaitule.xyz","port":17723,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_81","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_82","server":"gz1.52168.xyz","port":1107,"type":"ssr","country":"♥️YouTube梦歌♥️_82","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"623:l78d6doy74s","obfs-param":"t.me/vpnhat"}
+  - {"name":"♥️YouTube梦歌♥️_83","server":"gz1.52168.xyz","port":1113,"type":"ssr","country":"♥️YouTube梦歌♥️_83","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:y711wfz6uln","obfs-param":"30a2a149.baidu.com"}
+  - {"name":"♥️YouTube梦歌♥️_84","server":"183.240.132.27","port":21208,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","country":"♥️YouTube梦歌♥️_84","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"♥️YouTube梦歌♥️_85","server":"139.162.122.205","port":3845,"type":"vmess","uuid":"76d5c6e3-c74c-3406-b9e8-9859d0a71c56","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_85","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/neuromancer","headers":{"host":"139.162.122.205"}}}
+  - {"name":"♥️YouTube梦歌♥️_86","server":"f2s.wokuaitule.xyz","port":20078,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_86","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_87","server":"167.88.63.108","port":7002,"type":"ss","country":"♥️YouTube梦歌♥️_87","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"♥️YouTube梦歌♥️_88","server":"gz1.52168.xyz","port":1107,"type":"ssr","country":"♥️YouTube梦歌♥️_88","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:y711wfz6uln","obfs-param":"30a2a149.baidu.com"}
+  - {"name":"♥️YouTube梦歌♥️_89","server":"sp1.peakerselling.com","port":443,"type":"vmess","uuid":"d3435521-3d1f-37f7-ab48-f5302bc6a4fb","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_89","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/helloman","headers":{"host":"sp1.peakerselling.com"}}}
+  - {"name":"♥️YouTube梦歌♥️_90","server":"tw-dynamic-alpha.gleeze.com","port":48888,"type":"vmess","uuid":"c9487119-4647-3c48-ae20-86d41d715f8b","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_90","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"tw-dynamic-alpha.gleeze.com"}}}
+  - {"name":"♥️YouTube梦歌♥️_91","server":"f2s.wokuaitule.xyz","port":17777,"type":"vmess","uuid":"ff4d9b23-23de-374b-8900-aa03ff957e12","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_91","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_92","server":"13.75.95.54","port":10016,"type":"vmess","uuid":"d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_92","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"mgxray.xyz"}}}
+  - {"name":"♥️YouTube梦歌♥️_93","server":"jgwcc1.gaox.ml","port":443,"type":"trojan","country":"♥️YouTube梦歌♥️_93","skip-cert-verify":true,"udp":true,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a"}
+  - {"name":"♥️YouTube梦歌♥️_94","server":"172.99.190.92","port":9102,"type":"ss","country":"♥️YouTube梦歌♥️_94","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"♥️YouTube梦歌♥️_95","server":"169.197.142.99","port":5001,"type":"ss","country":"♥️YouTube梦歌♥️_95","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"♥️YouTube梦歌♥️_96","server":"65.52.171.156","port":8080,"type":"vmess","uuid":"047184b7-6da2-3d3f-ac27-6a1a8701daf8","alterId":2,"cipher":"auto","country":"♥️YouTube梦歌♥️_96","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me/vpnhat"}}}
+  - {"name":"♥️YouTube梦歌♥️_97","server":"36.v2-ray.cyou","port":8080,"type":"vmess","uuid":"047184b7-6da2-3d3f-ac27-6a1a8701daf8","alterId":2,"cipher":"auto","country":"♥️YouTube梦歌♥️_97","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tg.channel.p2psharing"}}}
+  - {"name":"♥️YouTube梦歌♥️_98","server":"139.162.122.205","port":3845,"type":"vmess","uuid":"76d5c6e3-c74c-3406-b9e8-9859d0a71c56","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_98","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/helloman","headers":{"host":"ru2.peakerselling.com"}}}
+  - {"name":"♥️YouTube梦歌♥️_99","server":"meiphen0.nodeinfo.icu","port":1126,"type":"ssr","country":"♥️YouTube梦歌♥️_99","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"110309:FKaTFe","obfs-param":"eaa58110309.www.gov.hk"}
+  - {"name":"♥️YouTube梦歌♥️_100","server":"jaibio5c.nodeinfo.icu","port":7007,"type":"ssr","country":"♥️YouTube梦歌♥️_100","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"110309:FKaTFe","obfs-param":"eaa58110309.www.gov.hk"}
+  - {"name":"♥️YouTube梦歌♥️_101","server":"oexu8yee.nodeinfo.icu","port":1125,"type":"ssr","country":"♥️YouTube梦歌♥️_101","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"110309:FKaTFe","obfs-param":"eaa58110309.www.gov.hk"}
+  - {"name":"♥️YouTube梦歌♥️_102","server":"dycxh.ml","port":2852,"type":"vmess","uuid":"c0bec3a5-bec4-4bc4-fa59-d75a6feba405","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_102","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"♥️YouTube梦歌♥️_103","server":"hk3.peakerselling.com","port":443,"type":"vmess","uuid":"d3435521-3d1f-37f7-ab48-f5302bc6a4fb","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_103","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/helloman","headers":{"host":"hk3.peakerselling.com"}}}
+  - {"name":"♥️YouTube梦歌♥️_104","server":"ota2wier.nodeinfo.icu","port":7001,"type":"ssr","country":"♥️YouTube梦歌♥️_104","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"110309:FKaTFe","obfs-param":"eaa58110309.www.gov.hk"}
+  - {"name":"♥️YouTube梦歌♥️_105","server":"fkgfw-prod.i.sxl.cn","port":443,"type":"ss","country":"♥️YouTube梦歌♥️_105","cipher":"aes-256-cfb","password":"E4DNMf73kHPrd8Qq7aqGPf7f"}
+  - {"name":"♥️YouTube梦歌♥️_106","server":"dycxh.tk","port":2852,"type":"vmess","uuid":"df1a7e9e-9ec8-4b19-f390-affc29fae9d1","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_106","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"♥️YouTube梦歌♥️_107","server":"167.88.63.108","port":8090,"type":"ss","country":"♥️YouTube梦歌♥️_107","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"♥️YouTube梦歌♥️_108","server":"xgplv34.newspacex.ml","port":49996,"type":"vmess","uuid":"c9487119-4647-3c48-ae20-86d41d715f8b","alterId":1,"cipher":"auto","country":"♥️YouTube梦歌♥️_108","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/reader","headers":{"host":"xgplv34.newspacex.ml"}}}
+  - {"name":"♥️YouTube梦歌♥️_109","server":"h3.shopbuy.club","port":50000,"type":"vmess","uuid":"c9487119-4647-3c48-ae20-86d41d715f8b","alterId":0,"cipher":"auto","country":"♥️YouTube梦歌♥️_109","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"h3.shopbuy.club"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇹🇼_TW_台湾_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇨🇦_CA_加拿大_19
+      - ♥️YouTube梦歌♥️_1
+      - ♥️YouTube梦歌♥️_2
+      - ♥️YouTube梦歌♥️_3
+      - ♥️YouTube梦歌♥️_4
+      - ♥️YouTube梦歌♥️_5
+      - ♥️YouTube梦歌♥️_6
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_8
+      - ♥️YouTube梦歌♥️_9
+      - ♥️YouTube梦歌♥️_10
+      - ♥️YouTube梦歌♥️_11
+      - ♥️YouTube梦歌♥️_12
+      - ♥️YouTube梦歌♥️_13
+      - ♥️YouTube梦歌♥️_14
+      - ♥️YouTube梦歌♥️_15
+      - ♥️YouTube梦歌♥️_16
+      - ♥️YouTube梦歌♥️_17
+      - ♥️YouTube梦歌♥️_18
+      - ♥️YouTube梦歌♥️_19
+      - ♥️YouTube梦歌♥️_20
+      - ♥️YouTube梦歌♥️_21
+      - ♥️YouTube梦歌♥️_22
+      - ♥️YouTube梦歌♥️_23
+      - ♥️YouTube梦歌♥️_24
+      - ♥️YouTube梦歌♥️_25
+      - ♥️YouTube梦歌♥️_26
+      - ♥️YouTube梦歌♥️_27
+      - ♥️YouTube梦歌♥️_28
+      - ♥️YouTube梦歌♥️_29
+      - ♥️YouTube梦歌♥️_30
+      - ♥️YouTube梦歌♥️_31
+      - ♥️YouTube梦歌♥️_32
+      - ♥️YouTube梦歌♥️_33
+      - ♥️YouTube梦歌♥️_34
+      - ♥️YouTube梦歌♥️_35
+      - ♥️YouTube梦歌♥️_36
+      - ♥️YouTube梦歌♥️_37
+      - ♥️YouTube梦歌♥️_38
+      - ♥️YouTube梦歌♥️_39
+      - ♥️YouTube梦歌♥️_40
+      - ♥️YouTube梦歌♥️_41
+      - ♥️YouTube梦歌♥️_42
+      - ♥️YouTube梦歌♥️_43
+      - ♥️YouTube梦歌♥️_44
+      - ♥️YouTube梦歌♥️_45
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_47
+      - ♥️YouTube梦歌♥️_48
+      - ♥️YouTube梦歌♥️_49
+      - ♥️YouTube梦歌♥️_50
+      - ♥️YouTube梦歌♥️_51
+      - ♥️YouTube梦歌♥️_52
+      - ♥️YouTube梦歌♥️_53
+      - ♥️YouTube梦歌♥️_54
+      - ♥️YouTube梦歌♥️_55
+      - ♥️YouTube梦歌♥️_56
+      - ♥️YouTube梦歌♥️_57
+      - ♥️YouTube梦歌♥️_58
+      - ♥️YouTube梦歌♥️_59
+      - ♥️YouTube梦歌♥️_60
+      - ♥️YouTube梦歌♥️_61
+      - ♥️YouTube梦歌♥️_62
+      - ♥️YouTube梦歌♥️_63
+      - ♥️YouTube梦歌♥️_64
+      - ♥️YouTube梦歌♥️_65
+      - ♥️YouTube梦歌♥️_66
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_68
+      - ♥️YouTube梦歌♥️_69
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_71
+      - ♥️YouTube梦歌♥️_72
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_75
+      - ♥️YouTube梦歌♥️_76
+      - ♥️YouTube梦歌♥️_77
+      - ♥️YouTube梦歌♥️_78
+      - ♥️YouTube梦歌♥️_79
+      - ♥️YouTube梦歌♥️_80
+      - ♥️YouTube梦歌♥️_81
+      - ♥️YouTube梦歌♥️_82
+      - ♥️YouTube梦歌♥️_83
+      - ♥️YouTube梦歌♥️_84
+      - ♥️YouTube梦歌♥️_85
+      - ♥️YouTube梦歌♥️_86
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_88
+      - ♥️YouTube梦歌♥️_89
+      - ♥️YouTube梦歌♥️_90
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_93
+      - ♥️YouTube梦歌♥️_94
+      - ♥️YouTube梦歌♥️_95
+      - ♥️YouTube梦歌♥️_96
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_98
+      - ♥️YouTube梦歌♥️_99
+      - ♥️YouTube梦歌♥️_100
+      - ♥️YouTube梦歌♥️_101
+      - ♥️YouTube梦歌♥️_102
+      - ♥️YouTube梦歌♥️_103
+      - ♥️YouTube梦歌♥️_104
+      - ♥️YouTube梦歌♥️_105
+      - ♥️YouTube梦歌♥️_106
+      - ♥️YouTube梦歌♥️_107
+      - ♥️YouTube梦歌♥️_108
+      - ♥️YouTube梦歌♥️_109
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇹🇼_TW_台湾_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇨🇦_CA_加拿大_19
+      - ♥️YouTube梦歌♥️_1
+      - ♥️YouTube梦歌♥️_2
+      - ♥️YouTube梦歌♥️_3
+      - ♥️YouTube梦歌♥️_4
+      - ♥️YouTube梦歌♥️_5
+      - ♥️YouTube梦歌♥️_6
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_8
+      - ♥️YouTube梦歌♥️_9
+      - ♥️YouTube梦歌♥️_10
+      - ♥️YouTube梦歌♥️_11
+      - ♥️YouTube梦歌♥️_12
+      - ♥️YouTube梦歌♥️_13
+      - ♥️YouTube梦歌♥️_14
+      - ♥️YouTube梦歌♥️_15
+      - ♥️YouTube梦歌♥️_16
+      - ♥️YouTube梦歌♥️_17
+      - ♥️YouTube梦歌♥️_18
+      - ♥️YouTube梦歌♥️_19
+      - ♥️YouTube梦歌♥️_20
+      - ♥️YouTube梦歌♥️_21
+      - ♥️YouTube梦歌♥️_22
+      - ♥️YouTube梦歌♥️_23
+      - ♥️YouTube梦歌♥️_24
+      - ♥️YouTube梦歌♥️_25
+      - ♥️YouTube梦歌♥️_26
+      - ♥️YouTube梦歌♥️_27
+      - ♥️YouTube梦歌♥️_28
+      - ♥️YouTube梦歌♥️_29
+      - ♥️YouTube梦歌♥️_30
+      - ♥️YouTube梦歌♥️_31
+      - ♥️YouTube梦歌♥️_32
+      - ♥️YouTube梦歌♥️_33
+      - ♥️YouTube梦歌♥️_34
+      - ♥️YouTube梦歌♥️_35
+      - ♥️YouTube梦歌♥️_36
+      - ♥️YouTube梦歌♥️_37
+      - ♥️YouTube梦歌♥️_38
+      - ♥️YouTube梦歌♥️_39
+      - ♥️YouTube梦歌♥️_40
+      - ♥️YouTube梦歌♥️_41
+      - ♥️YouTube梦歌♥️_42
+      - ♥️YouTube梦歌♥️_43
+      - ♥️YouTube梦歌♥️_44
+      - ♥️YouTube梦歌♥️_45
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_47
+      - ♥️YouTube梦歌♥️_48
+      - ♥️YouTube梦歌♥️_49
+      - ♥️YouTube梦歌♥️_50
+      - ♥️YouTube梦歌♥️_51
+      - ♥️YouTube梦歌♥️_52
+      - ♥️YouTube梦歌♥️_53
+      - ♥️YouTube梦歌♥️_54
+      - ♥️YouTube梦歌♥️_55
+      - ♥️YouTube梦歌♥️_56
+      - ♥️YouTube梦歌♥️_57
+      - ♥️YouTube梦歌♥️_58
+      - ♥️YouTube梦歌♥️_59
+      - ♥️YouTube梦歌♥️_60
+      - ♥️YouTube梦歌♥️_61
+      - ♥️YouTube梦歌♥️_62
+      - ♥️YouTube梦歌♥️_63
+      - ♥️YouTube梦歌♥️_64
+      - ♥️YouTube梦歌♥️_65
+      - ♥️YouTube梦歌♥️_66
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_68
+      - ♥️YouTube梦歌♥️_69
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_71
+      - ♥️YouTube梦歌♥️_72
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_75
+      - ♥️YouTube梦歌♥️_76
+      - ♥️YouTube梦歌♥️_77
+      - ♥️YouTube梦歌♥️_78
+      - ♥️YouTube梦歌♥️_79
+      - ♥️YouTube梦歌♥️_80
+      - ♥️YouTube梦歌♥️_81
+      - ♥️YouTube梦歌♥️_82
+      - ♥️YouTube梦歌♥️_83
+      - ♥️YouTube梦歌♥️_84
+      - ♥️YouTube梦歌♥️_85
+      - ♥️YouTube梦歌♥️_86
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_88
+      - ♥️YouTube梦歌♥️_89
+      - ♥️YouTube梦歌♥️_90
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_93
+      - ♥️YouTube梦歌♥️_94
+      - ♥️YouTube梦歌♥️_95
+      - ♥️YouTube梦歌♥️_96
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_98
+      - ♥️YouTube梦歌♥️_99
+      - ♥️YouTube梦歌♥️_100
+      - ♥️YouTube梦歌♥️_101
+      - ♥️YouTube梦歌♥️_102
+      - ♥️YouTube梦歌♥️_103
+      - ♥️YouTube梦歌♥️_104
+      - ♥️YouTube梦歌♥️_105
+      - ♥️YouTube梦歌♥️_106
+      - ♥️YouTube梦歌♥️_107
+      - ♥️YouTube梦歌♥️_108
+      - ♥️YouTube梦歌♥️_109
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇹🇼_TW_台湾_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇨🇦_CA_加拿大_19
+      - ♥️YouTube梦歌♥️_1
+      - ♥️YouTube梦歌♥️_2
+      - ♥️YouTube梦歌♥️_3
+      - ♥️YouTube梦歌♥️_4
+      - ♥️YouTube梦歌♥️_5
+      - ♥️YouTube梦歌♥️_6
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_8
+      - ♥️YouTube梦歌♥️_9
+      - ♥️YouTube梦歌♥️_10
+      - ♥️YouTube梦歌♥️_11
+      - ♥️YouTube梦歌♥️_12
+      - ♥️YouTube梦歌♥️_13
+      - ♥️YouTube梦歌♥️_14
+      - ♥️YouTube梦歌♥️_15
+      - ♥️YouTube梦歌♥️_16
+      - ♥️YouTube梦歌♥️_17
+      - ♥️YouTube梦歌♥️_18
+      - ♥️YouTube梦歌♥️_19
+      - ♥️YouTube梦歌♥️_20
+      - ♥️YouTube梦歌♥️_21
+      - ♥️YouTube梦歌♥️_22
+      - ♥️YouTube梦歌♥️_23
+      - ♥️YouTube梦歌♥️_24
+      - ♥️YouTube梦歌♥️_25
+      - ♥️YouTube梦歌♥️_26
+      - ♥️YouTube梦歌♥️_27
+      - ♥️YouTube梦歌♥️_28
+      - ♥️YouTube梦歌♥️_29
+      - ♥️YouTube梦歌♥️_30
+      - ♥️YouTube梦歌♥️_31
+      - ♥️YouTube梦歌♥️_32
+      - ♥️YouTube梦歌♥️_33
+      - ♥️YouTube梦歌♥️_34
+      - ♥️YouTube梦歌♥️_35
+      - ♥️YouTube梦歌♥️_36
+      - ♥️YouTube梦歌♥️_37
+      - ♥️YouTube梦歌♥️_38
+      - ♥️YouTube梦歌♥️_39
+      - ♥️YouTube梦歌♥️_40
+      - ♥️YouTube梦歌♥️_41
+      - ♥️YouTube梦歌♥️_42
+      - ♥️YouTube梦歌♥️_43
+      - ♥️YouTube梦歌♥️_44
+      - ♥️YouTube梦歌♥️_45
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_47
+      - ♥️YouTube梦歌♥️_48
+      - ♥️YouTube梦歌♥️_49
+      - ♥️YouTube梦歌♥️_50
+      - ♥️YouTube梦歌♥️_51
+      - ♥️YouTube梦歌♥️_52
+      - ♥️YouTube梦歌♥️_53
+      - ♥️YouTube梦歌♥️_54
+      - ♥️YouTube梦歌♥️_55
+      - ♥️YouTube梦歌♥️_56
+      - ♥️YouTube梦歌♥️_57
+      - ♥️YouTube梦歌♥️_58
+      - ♥️YouTube梦歌♥️_59
+      - ♥️YouTube梦歌♥️_60
+      - ♥️YouTube梦歌♥️_61
+      - ♥️YouTube梦歌♥️_62
+      - ♥️YouTube梦歌♥️_63
+      - ♥️YouTube梦歌♥️_64
+      - ♥️YouTube梦歌♥️_65
+      - ♥️YouTube梦歌♥️_66
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_68
+      - ♥️YouTube梦歌♥️_69
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_71
+      - ♥️YouTube梦歌♥️_72
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_75
+      - ♥️YouTube梦歌♥️_76
+      - ♥️YouTube梦歌♥️_77
+      - ♥️YouTube梦歌♥️_78
+      - ♥️YouTube梦歌♥️_79
+      - ♥️YouTube梦歌♥️_80
+      - ♥️YouTube梦歌♥️_81
+      - ♥️YouTube梦歌♥️_82
+      - ♥️YouTube梦歌♥️_83
+      - ♥️YouTube梦歌♥️_84
+      - ♥️YouTube梦歌♥️_85
+      - ♥️YouTube梦歌♥️_86
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_88
+      - ♥️YouTube梦歌♥️_89
+      - ♥️YouTube梦歌♥️_90
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_93
+      - ♥️YouTube梦歌♥️_94
+      - ♥️YouTube梦歌♥️_95
+      - ♥️YouTube梦歌♥️_96
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_98
+      - ♥️YouTube梦歌♥️_99
+      - ♥️YouTube梦歌♥️_100
+      - ♥️YouTube梦歌♥️_101
+      - ♥️YouTube梦歌♥️_102
+      - ♥️YouTube梦歌♥️_103
+      - ♥️YouTube梦歌♥️_104
+      - ♥️YouTube梦歌♥️_105
+      - ♥️YouTube梦歌♥️_106
+      - ♥️YouTube梦歌♥️_107
+      - ♥️YouTube梦歌♥️_108
+      - ♥️YouTube梦歌♥️_109
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇹🇼_TW_台湾_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇨🇦_CA_加拿大_19
+      - ♥️YouTube梦歌♥️_1
+      - ♥️YouTube梦歌♥️_2
+      - ♥️YouTube梦歌♥️_3
+      - ♥️YouTube梦歌♥️_4
+      - ♥️YouTube梦歌♥️_5
+      - ♥️YouTube梦歌♥️_6
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_8
+      - ♥️YouTube梦歌♥️_9
+      - ♥️YouTube梦歌♥️_10
+      - ♥️YouTube梦歌♥️_11
+      - ♥️YouTube梦歌♥️_12
+      - ♥️YouTube梦歌♥️_13
+      - ♥️YouTube梦歌♥️_14
+      - ♥️YouTube梦歌♥️_15
+      - ♥️YouTube梦歌♥️_16
+      - ♥️YouTube梦歌♥️_17
+      - ♥️YouTube梦歌♥️_18
+      - ♥️YouTube梦歌♥️_19
+      - ♥️YouTube梦歌♥️_20
+      - ♥️YouTube梦歌♥️_21
+      - ♥️YouTube梦歌♥️_22
+      - ♥️YouTube梦歌♥️_23
+      - ♥️YouTube梦歌♥️_24
+      - ♥️YouTube梦歌♥️_25
+      - ♥️YouTube梦歌♥️_26
+      - ♥️YouTube梦歌♥️_27
+      - ♥️YouTube梦歌♥️_28
+      - ♥️YouTube梦歌♥️_29
+      - ♥️YouTube梦歌♥️_30
+      - ♥️YouTube梦歌♥️_31
+      - ♥️YouTube梦歌♥️_32
+      - ♥️YouTube梦歌♥️_33
+      - ♥️YouTube梦歌♥️_34
+      - ♥️YouTube梦歌♥️_35
+      - ♥️YouTube梦歌♥️_36
+      - ♥️YouTube梦歌♥️_37
+      - ♥️YouTube梦歌♥️_38
+      - ♥️YouTube梦歌♥️_39
+      - ♥️YouTube梦歌♥️_40
+      - ♥️YouTube梦歌♥️_41
+      - ♥️YouTube梦歌♥️_42
+      - ♥️YouTube梦歌♥️_43
+      - ♥️YouTube梦歌♥️_44
+      - ♥️YouTube梦歌♥️_45
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_47
+      - ♥️YouTube梦歌♥️_48
+      - ♥️YouTube梦歌♥️_49
+      - ♥️YouTube梦歌♥️_50
+      - ♥️YouTube梦歌♥️_51
+      - ♥️YouTube梦歌♥️_52
+      - ♥️YouTube梦歌♥️_53
+      - ♥️YouTube梦歌♥️_54
+      - ♥️YouTube梦歌♥️_55
+      - ♥️YouTube梦歌♥️_56
+      - ♥️YouTube梦歌♥️_57
+      - ♥️YouTube梦歌♥️_58
+      - ♥️YouTube梦歌♥️_59
+      - ♥️YouTube梦歌♥️_60
+      - ♥️YouTube梦歌♥️_61
+      - ♥️YouTube梦歌♥️_62
+      - ♥️YouTube梦歌♥️_63
+      - ♥️YouTube梦歌♥️_64
+      - ♥️YouTube梦歌♥️_65
+      - ♥️YouTube梦歌♥️_66
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_68
+      - ♥️YouTube梦歌♥️_69
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_71
+      - ♥️YouTube梦歌♥️_72
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_75
+      - ♥️YouTube梦歌♥️_76
+      - ♥️YouTube梦歌♥️_77
+      - ♥️YouTube梦歌♥️_78
+      - ♥️YouTube梦歌♥️_79
+      - ♥️YouTube梦歌♥️_80
+      - ♥️YouTube梦歌♥️_81
+      - ♥️YouTube梦歌♥️_82
+      - ♥️YouTube梦歌♥️_83
+      - ♥️YouTube梦歌♥️_84
+      - ♥️YouTube梦歌♥️_85
+      - ♥️YouTube梦歌♥️_86
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_88
+      - ♥️YouTube梦歌♥️_89
+      - ♥️YouTube梦歌♥️_90
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_93
+      - ♥️YouTube梦歌♥️_94
+      - ♥️YouTube梦歌♥️_95
+      - ♥️YouTube梦歌♥️_96
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_98
+      - ♥️YouTube梦歌♥️_99
+      - ♥️YouTube梦歌♥️_100
+      - ♥️YouTube梦歌♥️_101
+      - ♥️YouTube梦歌♥️_102
+      - ♥️YouTube梦歌♥️_103
+      - ♥️YouTube梦歌♥️_104
+      - ♥️YouTube梦歌♥️_105
+      - ♥️YouTube梦歌♥️_106
+      - ♥️YouTube梦歌♥️_107
+      - ♥️YouTube梦歌♥️_108
+      - ♥️YouTube梦歌♥️_109
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇹🇼_TW_台湾_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇨🇦_CA_加拿大_19
+      - ♥️YouTube梦歌♥️_1
+      - ♥️YouTube梦歌♥️_2
+      - ♥️YouTube梦歌♥️_3
+      - ♥️YouTube梦歌♥️_4
+      - ♥️YouTube梦歌♥️_5
+      - ♥️YouTube梦歌♥️_6
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_8
+      - ♥️YouTube梦歌♥️_9
+      - ♥️YouTube梦歌♥️_10
+      - ♥️YouTube梦歌♥️_11
+      - ♥️YouTube梦歌♥️_12
+      - ♥️YouTube梦歌♥️_13
+      - ♥️YouTube梦歌♥️_14
+      - ♥️YouTube梦歌♥️_15
+      - ♥️YouTube梦歌♥️_16
+      - ♥️YouTube梦歌♥️_17
+      - ♥️YouTube梦歌♥️_18
+      - ♥️YouTube梦歌♥️_19
+      - ♥️YouTube梦歌♥️_20
+      - ♥️YouTube梦歌♥️_21
+      - ♥️YouTube梦歌♥️_22
+      - ♥️YouTube梦歌♥️_23
+      - ♥️YouTube梦歌♥️_24
+      - ♥️YouTube梦歌♥️_25
+      - ♥️YouTube梦歌♥️_26
+      - ♥️YouTube梦歌♥️_27
+      - ♥️YouTube梦歌♥️_28
+      - ♥️YouTube梦歌♥️_29
+      - ♥️YouTube梦歌♥️_30
+      - ♥️YouTube梦歌♥️_31
+      - ♥️YouTube梦歌♥️_32
+      - ♥️YouTube梦歌♥️_33
+      - ♥️YouTube梦歌♥️_34
+      - ♥️YouTube梦歌♥️_35
+      - ♥️YouTube梦歌♥️_36
+      - ♥️YouTube梦歌♥️_37
+      - ♥️YouTube梦歌♥️_38
+      - ♥️YouTube梦歌♥️_39
+      - ♥️YouTube梦歌♥️_40
+      - ♥️YouTube梦歌♥️_41
+      - ♥️YouTube梦歌♥️_42
+      - ♥️YouTube梦歌♥️_43
+      - ♥️YouTube梦歌♥️_44
+      - ♥️YouTube梦歌♥️_45
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_47
+      - ♥️YouTube梦歌♥️_48
+      - ♥️YouTube梦歌♥️_49
+      - ♥️YouTube梦歌♥️_50
+      - ♥️YouTube梦歌♥️_51
+      - ♥️YouTube梦歌♥️_52
+      - ♥️YouTube梦歌♥️_53
+      - ♥️YouTube梦歌♥️_54
+      - ♥️YouTube梦歌♥️_55
+      - ♥️YouTube梦歌♥️_56
+      - ♥️YouTube梦歌♥️_57
+      - ♥️YouTube梦歌♥️_58
+      - ♥️YouTube梦歌♥️_59
+      - ♥️YouTube梦歌♥️_60
+      - ♥️YouTube梦歌♥️_61
+      - ♥️YouTube梦歌♥️_62
+      - ♥️YouTube梦歌♥️_63
+      - ♥️YouTube梦歌♥️_64
+      - ♥️YouTube梦歌♥️_65
+      - ♥️YouTube梦歌♥️_66
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_68
+      - ♥️YouTube梦歌♥️_69
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_71
+      - ♥️YouTube梦歌♥️_72
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_75
+      - ♥️YouTube梦歌♥️_76
+      - ♥️YouTube梦歌♥️_77
+      - ♥️YouTube梦歌♥️_78
+      - ♥️YouTube梦歌♥️_79
+      - ♥️YouTube梦歌♥️_80
+      - ♥️YouTube梦歌♥️_81
+      - ♥️YouTube梦歌♥️_82
+      - ♥️YouTube梦歌♥️_83
+      - ♥️YouTube梦歌♥️_84
+      - ♥️YouTube梦歌♥️_85
+      - ♥️YouTube梦歌♥️_86
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_88
+      - ♥️YouTube梦歌♥️_89
+      - ♥️YouTube梦歌♥️_90
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_93
+      - ♥️YouTube梦歌♥️_94
+      - ♥️YouTube梦歌♥️_95
+      - ♥️YouTube梦歌♥️_96
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_98
+      - ♥️YouTube梦歌♥️_99
+      - ♥️YouTube梦歌♥️_100
+      - ♥️YouTube梦歌♥️_101
+      - ♥️YouTube梦歌♥️_102
+      - ♥️YouTube梦歌♥️_103
+      - ♥️YouTube梦歌♥️_104
+      - ♥️YouTube梦歌♥️_105
+      - ♥️YouTube梦歌♥️_106
+      - ♥️YouTube梦歌♥️_107
+      - ♥️YouTube梦歌♥️_108
+      - ♥️YouTube梦歌♥️_109
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇹🇼_TW_台湾_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇨🇦_CA_加拿大_19
+      - ♥️YouTube梦歌♥️_1
+      - ♥️YouTube梦歌♥️_2
+      - ♥️YouTube梦歌♥️_3
+      - ♥️YouTube梦歌♥️_4
+      - ♥️YouTube梦歌♥️_5
+      - ♥️YouTube梦歌♥️_6
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_8
+      - ♥️YouTube梦歌♥️_9
+      - ♥️YouTube梦歌♥️_10
+      - ♥️YouTube梦歌♥️_11
+      - ♥️YouTube梦歌♥️_12
+      - ♥️YouTube梦歌♥️_13
+      - ♥️YouTube梦歌♥️_14
+      - ♥️YouTube梦歌♥️_15
+      - ♥️YouTube梦歌♥️_16
+      - ♥️YouTube梦歌♥️_17
+      - ♥️YouTube梦歌♥️_18
+      - ♥️YouTube梦歌♥️_19
+      - ♥️YouTube梦歌♥️_20
+      - ♥️YouTube梦歌♥️_21
+      - ♥️YouTube梦歌♥️_22
+      - ♥️YouTube梦歌♥️_23
+      - ♥️YouTube梦歌♥️_24
+      - ♥️YouTube梦歌♥️_25
+      - ♥️YouTube梦歌♥️_26
+      - ♥️YouTube梦歌♥️_27
+      - ♥️YouTube梦歌♥️_28
+      - ♥️YouTube梦歌♥️_29
+      - ♥️YouTube梦歌♥️_30
+      - ♥️YouTube梦歌♥️_31
+      - ♥️YouTube梦歌♥️_32
+      - ♥️YouTube梦歌♥️_33
+      - ♥️YouTube梦歌♥️_34
+      - ♥️YouTube梦歌♥️_35
+      - ♥️YouTube梦歌♥️_36
+      - ♥️YouTube梦歌♥️_37
+      - ♥️YouTube梦歌♥️_38
+      - ♥️YouTube梦歌♥️_39
+      - ♥️YouTube梦歌♥️_40
+      - ♥️YouTube梦歌♥️_41
+      - ♥️YouTube梦歌♥️_42
+      - ♥️YouTube梦歌♥️_43
+      - ♥️YouTube梦歌♥️_44
+      - ♥️YouTube梦歌♥️_45
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_47
+      - ♥️YouTube梦歌♥️_48
+      - ♥️YouTube梦歌♥️_49
+      - ♥️YouTube梦歌♥️_50
+      - ♥️YouTube梦歌♥️_51
+      - ♥️YouTube梦歌♥️_52
+      - ♥️YouTube梦歌♥️_53
+      - ♥️YouTube梦歌♥️_54
+      - ♥️YouTube梦歌♥️_55
+      - ♥️YouTube梦歌♥️_56
+      - ♥️YouTube梦歌♥️_57
+      - ♥️YouTube梦歌♥️_58
+      - ♥️YouTube梦歌♥️_59
+      - ♥️YouTube梦歌♥️_60
+      - ♥️YouTube梦歌♥️_61
+      - ♥️YouTube梦歌♥️_62
+      - ♥️YouTube梦歌♥️_63
+      - ♥️YouTube梦歌♥️_64
+      - ♥️YouTube梦歌♥️_65
+      - ♥️YouTube梦歌♥️_66
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_68
+      - ♥️YouTube梦歌♥️_69
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_71
+      - ♥️YouTube梦歌♥️_72
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_75
+      - ♥️YouTube梦歌♥️_76
+      - ♥️YouTube梦歌♥️_77
+      - ♥️YouTube梦歌♥️_78
+      - ♥️YouTube梦歌♥️_79
+      - ♥️YouTube梦歌♥️_80
+      - ♥️YouTube梦歌♥️_81
+      - ♥️YouTube梦歌♥️_82
+      - ♥️YouTube梦歌♥️_83
+      - ♥️YouTube梦歌♥️_84
+      - ♥️YouTube梦歌♥️_85
+      - ♥️YouTube梦歌♥️_86
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_88
+      - ♥️YouTube梦歌♥️_89
+      - ♥️YouTube梦歌♥️_90
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_93
+      - ♥️YouTube梦歌♥️_94
+      - ♥️YouTube梦歌♥️_95
+      - ♥️YouTube梦歌♥️_96
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_98
+      - ♥️YouTube梦歌♥️_99
+      - ♥️YouTube梦歌♥️_100
+      - ♥️YouTube梦歌♥️_101
+      - ♥️YouTube梦歌♥️_102
+      - ♥️YouTube梦歌♥️_103
+      - ♥️YouTube梦歌♥️_104
+      - ♥️YouTube梦歌♥️_105
+      - ♥️YouTube梦歌♥️_106
+      - ♥️YouTube梦歌♥️_107
+      - ♥️YouTube梦歌♥️_108
+      - ♥️YouTube梦歌♥️_109
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -193,25 +823,115 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇹🇼_TW_台湾_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇨🇦_CA_加拿大_18
-      - 🇨🇦_CA_加拿大_19
+      - ♥️YouTube梦歌♥️_1
+      - ♥️YouTube梦歌♥️_2
+      - ♥️YouTube梦歌♥️_3
+      - ♥️YouTube梦歌♥️_4
+      - ♥️YouTube梦歌♥️_5
+      - ♥️YouTube梦歌♥️_6
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_8
+      - ♥️YouTube梦歌♥️_9
+      - ♥️YouTube梦歌♥️_10
+      - ♥️YouTube梦歌♥️_11
+      - ♥️YouTube梦歌♥️_12
+      - ♥️YouTube梦歌♥️_13
+      - ♥️YouTube梦歌♥️_14
+      - ♥️YouTube梦歌♥️_15
+      - ♥️YouTube梦歌♥️_16
+      - ♥️YouTube梦歌♥️_17
+      - ♥️YouTube梦歌♥️_18
+      - ♥️YouTube梦歌♥️_19
+      - ♥️YouTube梦歌♥️_20
+      - ♥️YouTube梦歌♥️_21
+      - ♥️YouTube梦歌♥️_22
+      - ♥️YouTube梦歌♥️_23
+      - ♥️YouTube梦歌♥️_24
+      - ♥️YouTube梦歌♥️_25
+      - ♥️YouTube梦歌♥️_26
+      - ♥️YouTube梦歌♥️_27
+      - ♥️YouTube梦歌♥️_28
+      - ♥️YouTube梦歌♥️_29
+      - ♥️YouTube梦歌♥️_30
+      - ♥️YouTube梦歌♥️_31
+      - ♥️YouTube梦歌♥️_32
+      - ♥️YouTube梦歌♥️_33
+      - ♥️YouTube梦歌♥️_34
+      - ♥️YouTube梦歌♥️_35
+      - ♥️YouTube梦歌♥️_36
+      - ♥️YouTube梦歌♥️_37
+      - ♥️YouTube梦歌♥️_38
+      - ♥️YouTube梦歌♥️_39
+      - ♥️YouTube梦歌♥️_40
+      - ♥️YouTube梦歌♥️_41
+      - ♥️YouTube梦歌♥️_42
+      - ♥️YouTube梦歌♥️_43
+      - ♥️YouTube梦歌♥️_44
+      - ♥️YouTube梦歌♥️_45
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_47
+      - ♥️YouTube梦歌♥️_48
+      - ♥️YouTube梦歌♥️_49
+      - ♥️YouTube梦歌♥️_50
+      - ♥️YouTube梦歌♥️_51
+      - ♥️YouTube梦歌♥️_52
+      - ♥️YouTube梦歌♥️_53
+      - ♥️YouTube梦歌♥️_54
+      - ♥️YouTube梦歌♥️_55
+      - ♥️YouTube梦歌♥️_56
+      - ♥️YouTube梦歌♥️_57
+      - ♥️YouTube梦歌♥️_58
+      - ♥️YouTube梦歌♥️_59
+      - ♥️YouTube梦歌♥️_60
+      - ♥️YouTube梦歌♥️_61
+      - ♥️YouTube梦歌♥️_62
+      - ♥️YouTube梦歌♥️_63
+      - ♥️YouTube梦歌♥️_64
+      - ♥️YouTube梦歌♥️_65
+      - ♥️YouTube梦歌♥️_66
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_68
+      - ♥️YouTube梦歌♥️_69
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_71
+      - ♥️YouTube梦歌♥️_72
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_75
+      - ♥️YouTube梦歌♥️_76
+      - ♥️YouTube梦歌♥️_77
+      - ♥️YouTube梦歌♥️_78
+      - ♥️YouTube梦歌♥️_79
+      - ♥️YouTube梦歌♥️_80
+      - ♥️YouTube梦歌♥️_81
+      - ♥️YouTube梦歌♥️_82
+      - ♥️YouTube梦歌♥️_83
+      - ♥️YouTube梦歌♥️_84
+      - ♥️YouTube梦歌♥️_85
+      - ♥️YouTube梦歌♥️_86
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_88
+      - ♥️YouTube梦歌♥️_89
+      - ♥️YouTube梦歌♥️_90
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_93
+      - ♥️YouTube梦歌♥️_94
+      - ♥️YouTube梦歌♥️_95
+      - ♥️YouTube梦歌♥️_96
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_98
+      - ♥️YouTube梦歌♥️_99
+      - ♥️YouTube梦歌♥️_100
+      - ♥️YouTube梦歌♥️_101
+      - ♥️YouTube梦歌♥️_102
+      - ♥️YouTube梦歌♥️_103
+      - ♥️YouTube梦歌♥️_104
+      - ♥️YouTube梦歌♥️_105
+      - ♥️YouTube梦歌♥️_106
+      - ♥️YouTube梦歌♥️_107
+      - ♥️YouTube梦歌♥️_108
+      - ♥️YouTube梦歌♥️_109
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
