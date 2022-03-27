@@ -5,375 +5,445 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇯🇵_日本_123_1","server":"139.162.122.205","port":3845,"type":"vmess","uuid":"76d5c6e3-c74c-3406-b9e8-9859d0a71c56","alterId":0,"cipher":"auto","country":"🇯🇵_日本_123_1","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"139.162.122.205"}}}
-  - {"name":"🇨🇳_中国_123_2","server":"183.240.132.27","port":21209,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","country":"🇨🇳_中国_123_2","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇦_加拿大_123_3","server":"134.195.198.211","port":443,"type":"ss","country":"🇨🇦_加拿大_123_3","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇯🇵_日本_123_4","server":"lin1.free80ml.tk","port":80,"type":"vmess","uuid":"4e1d0b12-25f0-363f-8659-9c6a3ca1fcda","alterId":0,"cipher":"auto","country":"🇯🇵_日本_123_4","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸_美国_123_5","server":"38.114.114.69","port":3389,"type":"ss","country":"🇺🇸_美国_123_5","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_美国_123_6","server":"38.114.114.69","port":6679,"type":"ss","country":"🇺🇸_美国_123_6","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_加拿大_123_7","server":"134.195.196.51","port":8119,"type":"ss","country":"🇨🇦_加拿大_123_7","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸_美国_123_8","server":"38.114.114.69","port":3306,"type":"ss","country":"🇺🇸_美国_123_8","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_加拿大_123_9","server":"134.195.196.3","port":5600,"type":"ss","country":"🇨🇦_加拿大_123_9","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_美国_123_10","server":"169.197.142.99","port":9102,"type":"ss","country":"🇺🇸_美国_123_10","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇳_中国_123_11","server":"183.232.56.161","port":1101,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","country":"🇨🇳_中国_123_11","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"microsoft.com"}}}
-  - {"name":"🇨🇦_加拿大_123_12","server":"134.195.196.3","port":8881,"type":"ss","country":"🇨🇦_加拿大_123_12","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_加拿大_123_13","server":"134.195.196.51","port":443,"type":"ss","country":"🇨🇦_加拿大_123_13","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸_美国_123_14","server":"tj-us02.yiyodns.xyz","port":443,"type":"trojan","country":"🇺🇸_美国_123_14","skip-cert-verify":true,"udp":true,"password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc"}
-  - {"name":"🇺🇸_美国_123_15","server":"169.197.142.99","port":9101,"type":"ss","country":"🇺🇸_美国_123_15","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇳_中国_123_16","server":"183.232.56.161","port":1612,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","country":"🇨🇳_中国_123_16","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"microsoft.com"}}}
-  - {"name":"🇨🇦_加拿大_123_17","server":"134.195.196.3","port":8000,"type":"ss","country":"🇨🇦_加拿大_123_17","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_加拿大_123_18","server":"134.195.196.3","port":8882,"type":"ss","country":"🇨🇦_加拿大_123_18","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸_美国_123_19","server":"38.114.114.69","port":8118,"type":"ss","country":"🇺🇸_美国_123_19","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇸🇬_新加坡_123_20","server":"202.61.141.130","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"🇸🇬_新加坡_123_20","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"202.61.141.130"}}}
-  - {"name":"🇺🇸_美国_123_21","server":"bpjzx2.cainiao.tk","port":443,"type":"vmess","uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","country":"🇺🇸_美国_123_21","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","headers":{"host":"orange-mode-ac6a.xjp0mx2cp.workers.dev"}}}
-  - {"name":"🇨🇦_加拿大_123_22","server":"134.195.196.81","port":8118,"type":"ss","country":"🇨🇦_加拿大_123_22","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_加拿大_123_23","server":"134.195.196.81","port":8882,"type":"ss","country":"🇨🇦_加拿大_123_23","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_加拿大_123_24","server":"134.195.196.187","port":7001,"type":"ss","country":"🇨🇦_加拿大_123_24","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_加拿大_123_25","server":"134.195.196.68","port":6697,"type":"ss","country":"🇨🇦_加拿大_123_25","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_加拿大_123_26","server":"134.195.196.51","port":7306,"type":"ss","country":"🇨🇦_加拿大_123_26","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_美国_123_27","server":"169.197.142.99","port":5001,"type":"ss","country":"🇺🇸_美国_123_27","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_加拿大_123_28","server":"134.195.196.51","port":6679,"type":"ss","country":"🇨🇦_加拿大_123_28","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_加拿大_123_29","server":"134.195.196.81","port":9101,"type":"ss","country":"🇨🇦_加拿大_123_29","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_加拿大_123_30","server":"134.195.196.81","port":443,"type":"ss","country":"🇨🇦_加拿大_123_30","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_加拿大_123_31","server":"134.195.196.187","port":8009,"type":"ss","country":"🇨🇦_加拿大_123_31","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇫🇷_法国_123_32","server":"147.135.164.113","port":44423,"type":"vmess","uuid":"e6ee3fe5-7602-47b0-8d8f-52853321107f","alterId":0,"cipher":"auto","country":"🇫🇷_法国_123_32","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"147.135.164.113"}}}
-  - {"name":"🇨🇦_加拿大_123_33","server":"134.195.196.3","port":3306,"type":"ss","country":"🇨🇦_加拿大_123_33","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_加拿大_123_34","server":"134.195.196.68","port":8118,"type":"ss","country":"🇨🇦_加拿大_123_34","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_加拿大_123_35","server":"134.195.196.68","port":443,"type":"ss","country":"🇨🇦_加拿大_123_35","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_加拿大_123_36","server":"134.195.196.187","port":443,"type":"ss","country":"🇨🇦_加拿大_123_36","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_加拿大_123_37","server":"134.195.196.3","port":6697,"type":"ss","country":"🇨🇦_加拿大_123_37","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇳_中国_123_38","server":"183.240.132.27","port":21101,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","country":"🇨🇳_中国_123_38","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇦_加拿大_123_39","server":"134.195.196.81","port":7306,"type":"ss","country":"🇨🇦_加拿大_123_39","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_加拿大_123_40","server":"134.195.196.187","port":5001,"type":"ss","country":"🇨🇦_加拿大_123_40","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_加拿大_123_41","server":"134.195.196.81","port":7002,"type":"ss","country":"🇨🇦_加拿大_123_41","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_加拿大_123_42","server":"134.195.196.51","port":8080,"type":"ss","country":"🇨🇦_加拿大_123_42","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_加拿大_123_43","server":"134.195.196.68","port":5601,"type":"ss","country":"🇨🇦_加拿大_123_43","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇳_中国_123_44","server":"s4.upyun.online","port":12340,"type":"trojan","country":"🇨🇳_中国_123_44","skip-cert-verify":true,"udp":true,"password":"4809af3e-b8f2-4f07-9cfb-79d0a7bb1219"}
-  - {"name":"🇨🇦_加拿大_123_45","server":"134.195.196.187","port":9102,"type":"ss","country":"🇨🇦_加拿大_123_45","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_加拿大_123_46","server":"134.195.196.3","port":7306,"type":"ss","country":"🇨🇦_加拿大_123_46","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_加拿大_123_47","server":"134.195.196.187","port":5601,"type":"ss","country":"🇨🇦_加拿大_123_47","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇳_中国_123_48","server":"s3.upyun.online","port":12340,"type":"trojan","country":"🇨🇳_中国_123_48","skip-cert-verify":true,"udp":true,"password":"4809af3e-b8f2-4f07-9cfb-79d0a7bb1219"}
+  - {"name":"CYL-科技（2022_03_27）_1","server":"52.131.222.178","port":31417,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_1","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"52.131.222.178"}}}
+  - {"name":"CYL-科技（2022_03_27）_2","server":"52.131.222.178","port":31417,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_2","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}}
+  - {"name":"CYL-科技（2022_03_27）_3","server":"52.131.222.178","port":31417,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_3","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_4","server":"52.131.222.178","port":31417,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_4","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"%7B%22Host%22:%2252.131.222.178%22%7D"}}}
+  - {"name":"CYL-科技（2022_03_27）_5","server":"52.131.222.178","port":31313,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_5","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me.vpnhat"}}}
+  - {"name":"CYL-科技（2022_03_27）_6","server":"52.131.222.178","port":31416,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_6","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_7","server":"52.131.222.178","port":31313,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_7","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_8","server":"52.131.222.178","port":31416,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_8","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"%7B%22Host%22:%2252.131.222.178%22%7D"}}}
+  - {"name":"CYL-科技（2022_03_27）_9","server":"52.131.222.178","port":31125,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_9","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me.vpnhat"}}}
+  - {"name":"CYL-科技（2022_03_27）_10","server":"52.131.222.178","port":31125,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_10","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"%7B%22Host%22:%2252.131.222.178%22%7D"}}}
+  - {"name":"CYL-科技（2022_03_27）_11","server":"52.131.222.178","port":31126,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_11","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"52.131.222.178"}}}
+  - {"name":"CYL-科技（2022_03_27）_12","server":"52.131.222.178","port":31417,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_12","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me.vpnhat"}}}
+  - {"name":"CYL-科技（2022_03_27）_13","server":"52.131.222.178","port":31126,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_13","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_14","server":"cdn-cn.nekocloud.cn","port":19038,"type":"vmess","uuid":"1bac351b-673f-3468-9c20-7daab7e513e1","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_14","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/catnet","headers":{"host":"cdn-cn.nekocloud.cn"}}}
+  - {"name":"CYL-科技（2022_03_27）_15","server":"52.131.222.178","port":31313,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_15","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"52.131.222.178"}}}
+  - {"name":"CYL-科技（2022_03_27）_16","server":"52.131.222.178","port":31125,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_16","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_17","server":"cdn-cn.nekocloud.cn","port":19085,"type":"vmess","uuid":"1bac351b-673f-3468-9c20-7daab7e513e1","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_17","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/dahjwuh","headers":{"host":"cdn-cn.nekocloud.cn"}}}
+  - {"name":"CYL-科技（2022_03_27）_18","server":"52.131.222.178","port":31125,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_18","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}}
+  - {"name":"CYL-科技（2022_03_27）_19","server":"52.131.222.178","port":31125,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_19","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"52.131.222.178"}}}
+  - {"name":"CYL-科技（2022_03_27）_20","server":"52.131.222.178","port":31126,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_20","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me.vpnhat"}}}
+  - {"name":"CYL-科技（2022_03_27）_21","server":"cdn-cn.nekocloud.cn","port":19046,"type":"vmess","uuid":"1bac351b-673f-3468-9c20-7daab7e513e1","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_21","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/catnet","headers":{"host":"cdn-cn.nekocloud.cn"}}}
+  - {"name":"CYL-科技（2022_03_27）_22","server":"52.131.222.178","port":51011,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_22","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_23","server":"52.131.222.178","port":51012,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_23","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"52.131.222.178"}}}
+  - {"name":"CYL-科技（2022_03_27）_24","server":"52.131.222.178","port":51011,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_24","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me.vpnhat"}}}
+  - {"name":"CYL-科技（2022_03_27）_25","server":"52.131.222.178","port":51012,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_25","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_26","server":"52.131.222.178","port":51012,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_26","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me.vpnhat"}}}
+  - {"name":"CYL-科技（2022_03_27）_27","server":"in1.qingyun123.xyz","port":443,"type":"trojan","country":"CYL-科技（2022_03_27）_27","skip-cert-verify":true,"udp":true,"password":"8c6d9c1c-bd8c-432f-a573-a7774c12ffbd"}
+  - {"name":"CYL-科技（2022_03_27）_28","server":"183.232.56.161","port":1303,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_28","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}}
+  - {"name":"CYL-科技（2022_03_27）_29","server":"101.230.149.1","port":1001,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_29","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}}
+  - {"name":"CYL-科技（2022_03_27）_30","server":"183.232.56.161","port":5019,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_30","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me.vpnhat"}}}
+  - {"name":"CYL-科技（2022_03_27）_31","server":"52.131.222.178","port":31417,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_31","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"%7B%22host%22:%2252.131.222.178%22%7D"}}}
+  - {"name":"CYL-科技（2022_03_27）_32","server":"154.17.25.49","port":2089,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_32","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_33","server":"183.232.56.161","port":9112,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_33","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_34","server":"154.17.25.49","port":2089,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_34","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"154.17.25.49"}}}
+  - {"name":"CYL-科技（2022_03_27）_35","server":"183.232.56.161","port":1202,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_35","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_36","server":"183.232.56.161","port":1952,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_36","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me.vpnhat"}}}
+  - {"name":"CYL-科技（2022_03_27）_37","server":"183.232.56.161","port":1122,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_37","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"CYL-科技（2022_03_27）_38","server":"183.232.56.161","port":5019,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_38","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_39","server":"183.232.56.161","port":1202,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_39","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me.vpnhat"}}}
+  - {"name":"CYL-科技（2022_03_27）_40","server":"183.232.56.161","port":1122,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_40","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me.vpnhat"}}}
+  - {"name":"CYL-科技（2022_03_27）_41","server":"183.232.56.161","port":1601,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_41","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_42","server":"183.232.56.161","port":9121,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_42","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"CYL-科技（2022_03_27）_43","server":"183.232.56.161","port":9111,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_43","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me.vpnhat"}}}
+  - {"name":"CYL-科技（2022_03_27）_44","server":"185.217.108.182","port":2086,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_44","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_45","server":"dns-05-351958.zhcn.one","port":65027,"type":"vmess","uuid":"07eb058a-9eef-343f-83fc-f387c0ab684b","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_45","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/rocket","headers":{"host":"dns-05-351958.zhcn.one"}}}
+  - {"name":"CYL-科技（2022_03_27）_46","server":"183.232.56.161","port":9121,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_46","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me.vpnhat"}}}
+  - {"name":"CYL-科技（2022_03_27）_47","server":"183.232.56.161","port":1123,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_47","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_48","server":"183.232.56.161","port":3001,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_48","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_49","server":"183.232.56.161","port":1602,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_49","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"CYL-科技（2022_03_27）_50","server":"183.232.56.161","port":1605,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_50","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"CYL-科技（2022_03_27）_51","server":"183.232.56.161","port":1312,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_51","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_52","server":"183.232.56.161","port":9121,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_52","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_53","server":"183.232.56.161","port":1703,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_53","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"CYL-科技（2022_03_27）_54","server":"167.88.63.108","port":6379,"type":"ss","country":"CYL-科技（2022_03_27）_54","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"CYL-科技（2022_03_27）_55","server":"183.232.56.161","port":9112,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_55","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me.vpnhat"}}}
+  - {"name":"CYL-科技（2022_03_27）_56","server":"101.230.149.1","port":1002,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_56","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CYL-科技（2022_03_27）_57","server":"183.232.56.161","port":1706,"type":"vmess","uuid":"bfd2cb06-5cd7-3203-b414-17a809396898","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_57","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me.vpnhat"}}}
+  - {"name":"CYL-科技（2022_03_27）_58","server":"cdn-cn.nekocloud.cn","port":19057,"type":"vmess","uuid":"1bac351b-673f-3468-9c20-7daab7e513e1","alterId":0,"cipher":"auto","country":"CYL-科技（2022_03_27）_58","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/catnet","headers":{"host":"cdn-cn.nekocloud.cn"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵_日本_123_1
-      - 🇨🇳_中国_123_2
-      - 🇨🇦_加拿大_123_3
-      - 🇯🇵_日本_123_4
-      - 🇺🇸_美国_123_5
-      - 🇺🇸_美国_123_6
-      - 🇨🇦_加拿大_123_7
-      - 🇺🇸_美国_123_8
-      - 🇨🇦_加拿大_123_9
-      - 🇺🇸_美国_123_10
-      - 🇨🇳_中国_123_11
-      - 🇨🇦_加拿大_123_12
-      - 🇨🇦_加拿大_123_13
-      - 🇺🇸_美国_123_14
-      - 🇺🇸_美国_123_15
-      - 🇨🇳_中国_123_16
-      - 🇨🇦_加拿大_123_17
-      - 🇨🇦_加拿大_123_18
-      - 🇺🇸_美国_123_19
-      - 🇸🇬_新加坡_123_20
-      - 🇺🇸_美国_123_21
-      - 🇨🇦_加拿大_123_22
-      - 🇨🇦_加拿大_123_23
-      - 🇨🇦_加拿大_123_24
-      - 🇨🇦_加拿大_123_25
-      - 🇨🇦_加拿大_123_26
-      - 🇺🇸_美国_123_27
-      - 🇨🇦_加拿大_123_28
-      - 🇨🇦_加拿大_123_29
-      - 🇨🇦_加拿大_123_30
-      - 🇨🇦_加拿大_123_31
-      - 🇫🇷_法国_123_32
-      - 🇨🇦_加拿大_123_33
-      - 🇨🇦_加拿大_123_34
-      - 🇨🇦_加拿大_123_35
-      - 🇨🇦_加拿大_123_36
-      - 🇨🇦_加拿大_123_37
-      - 🇨🇳_中国_123_38
-      - 🇨🇦_加拿大_123_39
-      - 🇨🇦_加拿大_123_40
-      - 🇨🇦_加拿大_123_41
-      - 🇨🇦_加拿大_123_42
-      - 🇨🇦_加拿大_123_43
-      - 🇨🇳_中国_123_44
-      - 🇨🇦_加拿大_123_45
-      - 🇨🇦_加拿大_123_46
-      - 🇨🇦_加拿大_123_47
-      - 🇨🇳_中国_123_48
+      - CYL-科技（2022_03_27）_1
+      - CYL-科技（2022_03_27）_2
+      - CYL-科技（2022_03_27）_3
+      - CYL-科技（2022_03_27）_4
+      - CYL-科技（2022_03_27）_5
+      - CYL-科技（2022_03_27）_6
+      - CYL-科技（2022_03_27）_7
+      - CYL-科技（2022_03_27）_8
+      - CYL-科技（2022_03_27）_9
+      - CYL-科技（2022_03_27）_10
+      - CYL-科技（2022_03_27）_11
+      - CYL-科技（2022_03_27）_12
+      - CYL-科技（2022_03_27）_13
+      - CYL-科技（2022_03_27）_14
+      - CYL-科技（2022_03_27）_15
+      - CYL-科技（2022_03_27）_16
+      - CYL-科技（2022_03_27）_17
+      - CYL-科技（2022_03_27）_18
+      - CYL-科技（2022_03_27）_19
+      - CYL-科技（2022_03_27）_20
+      - CYL-科技（2022_03_27）_21
+      - CYL-科技（2022_03_27）_22
+      - CYL-科技（2022_03_27）_23
+      - CYL-科技（2022_03_27）_24
+      - CYL-科技（2022_03_27）_25
+      - CYL-科技（2022_03_27）_26
+      - CYL-科技（2022_03_27）_27
+      - CYL-科技（2022_03_27）_28
+      - CYL-科技（2022_03_27）_29
+      - CYL-科技（2022_03_27）_30
+      - CYL-科技（2022_03_27）_31
+      - CYL-科技（2022_03_27）_32
+      - CYL-科技（2022_03_27）_33
+      - CYL-科技（2022_03_27）_34
+      - CYL-科技（2022_03_27）_35
+      - CYL-科技（2022_03_27）_36
+      - CYL-科技（2022_03_27）_37
+      - CYL-科技（2022_03_27）_38
+      - CYL-科技（2022_03_27）_39
+      - CYL-科技（2022_03_27）_40
+      - CYL-科技（2022_03_27）_41
+      - CYL-科技（2022_03_27）_42
+      - CYL-科技（2022_03_27）_43
+      - CYL-科技（2022_03_27）_44
+      - CYL-科技（2022_03_27）_45
+      - CYL-科技（2022_03_27）_46
+      - CYL-科技（2022_03_27）_47
+      - CYL-科技（2022_03_27）_48
+      - CYL-科技（2022_03_27）_49
+      - CYL-科技（2022_03_27）_50
+      - CYL-科技（2022_03_27）_51
+      - CYL-科技（2022_03_27）_52
+      - CYL-科技（2022_03_27）_53
+      - CYL-科技（2022_03_27）_54
+      - CYL-科技（2022_03_27）_55
+      - CYL-科技（2022_03_27）_56
+      - CYL-科技（2022_03_27）_57
+      - CYL-科技（2022_03_27）_58
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵_日本_123_1
-      - 🇨🇳_中国_123_2
-      - 🇨🇦_加拿大_123_3
-      - 🇯🇵_日本_123_4
-      - 🇺🇸_美国_123_5
-      - 🇺🇸_美国_123_6
-      - 🇨🇦_加拿大_123_7
-      - 🇺🇸_美国_123_8
-      - 🇨🇦_加拿大_123_9
-      - 🇺🇸_美国_123_10
-      - 🇨🇳_中国_123_11
-      - 🇨🇦_加拿大_123_12
-      - 🇨🇦_加拿大_123_13
-      - 🇺🇸_美国_123_14
-      - 🇺🇸_美国_123_15
-      - 🇨🇳_中国_123_16
-      - 🇨🇦_加拿大_123_17
-      - 🇨🇦_加拿大_123_18
-      - 🇺🇸_美国_123_19
-      - 🇸🇬_新加坡_123_20
-      - 🇺🇸_美国_123_21
-      - 🇨🇦_加拿大_123_22
-      - 🇨🇦_加拿大_123_23
-      - 🇨🇦_加拿大_123_24
-      - 🇨🇦_加拿大_123_25
-      - 🇨🇦_加拿大_123_26
-      - 🇺🇸_美国_123_27
-      - 🇨🇦_加拿大_123_28
-      - 🇨🇦_加拿大_123_29
-      - 🇨🇦_加拿大_123_30
-      - 🇨🇦_加拿大_123_31
-      - 🇫🇷_法国_123_32
-      - 🇨🇦_加拿大_123_33
-      - 🇨🇦_加拿大_123_34
-      - 🇨🇦_加拿大_123_35
-      - 🇨🇦_加拿大_123_36
-      - 🇨🇦_加拿大_123_37
-      - 🇨🇳_中国_123_38
-      - 🇨🇦_加拿大_123_39
-      - 🇨🇦_加拿大_123_40
-      - 🇨🇦_加拿大_123_41
-      - 🇨🇦_加拿大_123_42
-      - 🇨🇦_加拿大_123_43
-      - 🇨🇳_中国_123_44
-      - 🇨🇦_加拿大_123_45
-      - 🇨🇦_加拿大_123_46
-      - 🇨🇦_加拿大_123_47
-      - 🇨🇳_中国_123_48
+      - CYL-科技（2022_03_27）_1
+      - CYL-科技（2022_03_27）_2
+      - CYL-科技（2022_03_27）_3
+      - CYL-科技（2022_03_27）_4
+      - CYL-科技（2022_03_27）_5
+      - CYL-科技（2022_03_27）_6
+      - CYL-科技（2022_03_27）_7
+      - CYL-科技（2022_03_27）_8
+      - CYL-科技（2022_03_27）_9
+      - CYL-科技（2022_03_27）_10
+      - CYL-科技（2022_03_27）_11
+      - CYL-科技（2022_03_27）_12
+      - CYL-科技（2022_03_27）_13
+      - CYL-科技（2022_03_27）_14
+      - CYL-科技（2022_03_27）_15
+      - CYL-科技（2022_03_27）_16
+      - CYL-科技（2022_03_27）_17
+      - CYL-科技（2022_03_27）_18
+      - CYL-科技（2022_03_27）_19
+      - CYL-科技（2022_03_27）_20
+      - CYL-科技（2022_03_27）_21
+      - CYL-科技（2022_03_27）_22
+      - CYL-科技（2022_03_27）_23
+      - CYL-科技（2022_03_27）_24
+      - CYL-科技（2022_03_27）_25
+      - CYL-科技（2022_03_27）_26
+      - CYL-科技（2022_03_27）_27
+      - CYL-科技（2022_03_27）_28
+      - CYL-科技（2022_03_27）_29
+      - CYL-科技（2022_03_27）_30
+      - CYL-科技（2022_03_27）_31
+      - CYL-科技（2022_03_27）_32
+      - CYL-科技（2022_03_27）_33
+      - CYL-科技（2022_03_27）_34
+      - CYL-科技（2022_03_27）_35
+      - CYL-科技（2022_03_27）_36
+      - CYL-科技（2022_03_27）_37
+      - CYL-科技（2022_03_27）_38
+      - CYL-科技（2022_03_27）_39
+      - CYL-科技（2022_03_27）_40
+      - CYL-科技（2022_03_27）_41
+      - CYL-科技（2022_03_27）_42
+      - CYL-科技（2022_03_27）_43
+      - CYL-科技（2022_03_27）_44
+      - CYL-科技（2022_03_27）_45
+      - CYL-科技（2022_03_27）_46
+      - CYL-科技（2022_03_27）_47
+      - CYL-科技（2022_03_27）_48
+      - CYL-科技（2022_03_27）_49
+      - CYL-科技（2022_03_27）_50
+      - CYL-科技（2022_03_27）_51
+      - CYL-科技（2022_03_27）_52
+      - CYL-科技（2022_03_27）_53
+      - CYL-科技（2022_03_27）_54
+      - CYL-科技（2022_03_27）_55
+      - CYL-科技（2022_03_27）_56
+      - CYL-科技（2022_03_27）_57
+      - CYL-科技（2022_03_27）_58
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵_日本_123_1
-      - 🇨🇳_中国_123_2
-      - 🇨🇦_加拿大_123_3
-      - 🇯🇵_日本_123_4
-      - 🇺🇸_美国_123_5
-      - 🇺🇸_美国_123_6
-      - 🇨🇦_加拿大_123_7
-      - 🇺🇸_美国_123_8
-      - 🇨🇦_加拿大_123_9
-      - 🇺🇸_美国_123_10
-      - 🇨🇳_中国_123_11
-      - 🇨🇦_加拿大_123_12
-      - 🇨🇦_加拿大_123_13
-      - 🇺🇸_美国_123_14
-      - 🇺🇸_美国_123_15
-      - 🇨🇳_中国_123_16
-      - 🇨🇦_加拿大_123_17
-      - 🇨🇦_加拿大_123_18
-      - 🇺🇸_美国_123_19
-      - 🇸🇬_新加坡_123_20
-      - 🇺🇸_美国_123_21
-      - 🇨🇦_加拿大_123_22
-      - 🇨🇦_加拿大_123_23
-      - 🇨🇦_加拿大_123_24
-      - 🇨🇦_加拿大_123_25
-      - 🇨🇦_加拿大_123_26
-      - 🇺🇸_美国_123_27
-      - 🇨🇦_加拿大_123_28
-      - 🇨🇦_加拿大_123_29
-      - 🇨🇦_加拿大_123_30
-      - 🇨🇦_加拿大_123_31
-      - 🇫🇷_法国_123_32
-      - 🇨🇦_加拿大_123_33
-      - 🇨🇦_加拿大_123_34
-      - 🇨🇦_加拿大_123_35
-      - 🇨🇦_加拿大_123_36
-      - 🇨🇦_加拿大_123_37
-      - 🇨🇳_中国_123_38
-      - 🇨🇦_加拿大_123_39
-      - 🇨🇦_加拿大_123_40
-      - 🇨🇦_加拿大_123_41
-      - 🇨🇦_加拿大_123_42
-      - 🇨🇦_加拿大_123_43
-      - 🇨🇳_中国_123_44
-      - 🇨🇦_加拿大_123_45
-      - 🇨🇦_加拿大_123_46
-      - 🇨🇦_加拿大_123_47
-      - 🇨🇳_中国_123_48
+      - CYL-科技（2022_03_27）_1
+      - CYL-科技（2022_03_27）_2
+      - CYL-科技（2022_03_27）_3
+      - CYL-科技（2022_03_27）_4
+      - CYL-科技（2022_03_27）_5
+      - CYL-科技（2022_03_27）_6
+      - CYL-科技（2022_03_27）_7
+      - CYL-科技（2022_03_27）_8
+      - CYL-科技（2022_03_27）_9
+      - CYL-科技（2022_03_27）_10
+      - CYL-科技（2022_03_27）_11
+      - CYL-科技（2022_03_27）_12
+      - CYL-科技（2022_03_27）_13
+      - CYL-科技（2022_03_27）_14
+      - CYL-科技（2022_03_27）_15
+      - CYL-科技（2022_03_27）_16
+      - CYL-科技（2022_03_27）_17
+      - CYL-科技（2022_03_27）_18
+      - CYL-科技（2022_03_27）_19
+      - CYL-科技（2022_03_27）_20
+      - CYL-科技（2022_03_27）_21
+      - CYL-科技（2022_03_27）_22
+      - CYL-科技（2022_03_27）_23
+      - CYL-科技（2022_03_27）_24
+      - CYL-科技（2022_03_27）_25
+      - CYL-科技（2022_03_27）_26
+      - CYL-科技（2022_03_27）_27
+      - CYL-科技（2022_03_27）_28
+      - CYL-科技（2022_03_27）_29
+      - CYL-科技（2022_03_27）_30
+      - CYL-科技（2022_03_27）_31
+      - CYL-科技（2022_03_27）_32
+      - CYL-科技（2022_03_27）_33
+      - CYL-科技（2022_03_27）_34
+      - CYL-科技（2022_03_27）_35
+      - CYL-科技（2022_03_27）_36
+      - CYL-科技（2022_03_27）_37
+      - CYL-科技（2022_03_27）_38
+      - CYL-科技（2022_03_27）_39
+      - CYL-科技（2022_03_27）_40
+      - CYL-科技（2022_03_27）_41
+      - CYL-科技（2022_03_27）_42
+      - CYL-科技（2022_03_27）_43
+      - CYL-科技（2022_03_27）_44
+      - CYL-科技（2022_03_27）_45
+      - CYL-科技（2022_03_27）_46
+      - CYL-科技（2022_03_27）_47
+      - CYL-科技（2022_03_27）_48
+      - CYL-科技（2022_03_27）_49
+      - CYL-科技（2022_03_27）_50
+      - CYL-科技（2022_03_27）_51
+      - CYL-科技（2022_03_27）_52
+      - CYL-科技（2022_03_27）_53
+      - CYL-科技（2022_03_27）_54
+      - CYL-科技（2022_03_27）_55
+      - CYL-科技（2022_03_27）_56
+      - CYL-科技（2022_03_27）_57
+      - CYL-科技（2022_03_27）_58
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵_日本_123_1
-      - 🇨🇳_中国_123_2
-      - 🇨🇦_加拿大_123_3
-      - 🇯🇵_日本_123_4
-      - 🇺🇸_美国_123_5
-      - 🇺🇸_美国_123_6
-      - 🇨🇦_加拿大_123_7
-      - 🇺🇸_美国_123_8
-      - 🇨🇦_加拿大_123_9
-      - 🇺🇸_美国_123_10
-      - 🇨🇳_中国_123_11
-      - 🇨🇦_加拿大_123_12
-      - 🇨🇦_加拿大_123_13
-      - 🇺🇸_美国_123_14
-      - 🇺🇸_美国_123_15
-      - 🇨🇳_中国_123_16
-      - 🇨🇦_加拿大_123_17
-      - 🇨🇦_加拿大_123_18
-      - 🇺🇸_美国_123_19
-      - 🇸🇬_新加坡_123_20
-      - 🇺🇸_美国_123_21
-      - 🇨🇦_加拿大_123_22
-      - 🇨🇦_加拿大_123_23
-      - 🇨🇦_加拿大_123_24
-      - 🇨🇦_加拿大_123_25
-      - 🇨🇦_加拿大_123_26
-      - 🇺🇸_美国_123_27
-      - 🇨🇦_加拿大_123_28
-      - 🇨🇦_加拿大_123_29
-      - 🇨🇦_加拿大_123_30
-      - 🇨🇦_加拿大_123_31
-      - 🇫🇷_法国_123_32
-      - 🇨🇦_加拿大_123_33
-      - 🇨🇦_加拿大_123_34
-      - 🇨🇦_加拿大_123_35
-      - 🇨🇦_加拿大_123_36
-      - 🇨🇦_加拿大_123_37
-      - 🇨🇳_中国_123_38
-      - 🇨🇦_加拿大_123_39
-      - 🇨🇦_加拿大_123_40
-      - 🇨🇦_加拿大_123_41
-      - 🇨🇦_加拿大_123_42
-      - 🇨🇦_加拿大_123_43
-      - 🇨🇳_中国_123_44
-      - 🇨🇦_加拿大_123_45
-      - 🇨🇦_加拿大_123_46
-      - 🇨🇦_加拿大_123_47
-      - 🇨🇳_中国_123_48
+      - CYL-科技（2022_03_27）_1
+      - CYL-科技（2022_03_27）_2
+      - CYL-科技（2022_03_27）_3
+      - CYL-科技（2022_03_27）_4
+      - CYL-科技（2022_03_27）_5
+      - CYL-科技（2022_03_27）_6
+      - CYL-科技（2022_03_27）_7
+      - CYL-科技（2022_03_27）_8
+      - CYL-科技（2022_03_27）_9
+      - CYL-科技（2022_03_27）_10
+      - CYL-科技（2022_03_27）_11
+      - CYL-科技（2022_03_27）_12
+      - CYL-科技（2022_03_27）_13
+      - CYL-科技（2022_03_27）_14
+      - CYL-科技（2022_03_27）_15
+      - CYL-科技（2022_03_27）_16
+      - CYL-科技（2022_03_27）_17
+      - CYL-科技（2022_03_27）_18
+      - CYL-科技（2022_03_27）_19
+      - CYL-科技（2022_03_27）_20
+      - CYL-科技（2022_03_27）_21
+      - CYL-科技（2022_03_27）_22
+      - CYL-科技（2022_03_27）_23
+      - CYL-科技（2022_03_27）_24
+      - CYL-科技（2022_03_27）_25
+      - CYL-科技（2022_03_27）_26
+      - CYL-科技（2022_03_27）_27
+      - CYL-科技（2022_03_27）_28
+      - CYL-科技（2022_03_27）_29
+      - CYL-科技（2022_03_27）_30
+      - CYL-科技（2022_03_27）_31
+      - CYL-科技（2022_03_27）_32
+      - CYL-科技（2022_03_27）_33
+      - CYL-科技（2022_03_27）_34
+      - CYL-科技（2022_03_27）_35
+      - CYL-科技（2022_03_27）_36
+      - CYL-科技（2022_03_27）_37
+      - CYL-科技（2022_03_27）_38
+      - CYL-科技（2022_03_27）_39
+      - CYL-科技（2022_03_27）_40
+      - CYL-科技（2022_03_27）_41
+      - CYL-科技（2022_03_27）_42
+      - CYL-科技（2022_03_27）_43
+      - CYL-科技（2022_03_27）_44
+      - CYL-科技（2022_03_27）_45
+      - CYL-科技（2022_03_27）_46
+      - CYL-科技（2022_03_27）_47
+      - CYL-科技（2022_03_27）_48
+      - CYL-科技（2022_03_27）_49
+      - CYL-科技（2022_03_27）_50
+      - CYL-科技（2022_03_27）_51
+      - CYL-科技（2022_03_27）_52
+      - CYL-科技（2022_03_27）_53
+      - CYL-科技（2022_03_27）_54
+      - CYL-科技（2022_03_27）_55
+      - CYL-科技（2022_03_27）_56
+      - CYL-科技（2022_03_27）_57
+      - CYL-科技（2022_03_27）_58
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵_日本_123_1
-      - 🇨🇳_中国_123_2
-      - 🇨🇦_加拿大_123_3
-      - 🇯🇵_日本_123_4
-      - 🇺🇸_美国_123_5
-      - 🇺🇸_美国_123_6
-      - 🇨🇦_加拿大_123_7
-      - 🇺🇸_美国_123_8
-      - 🇨🇦_加拿大_123_9
-      - 🇺🇸_美国_123_10
-      - 🇨🇳_中国_123_11
-      - 🇨🇦_加拿大_123_12
-      - 🇨🇦_加拿大_123_13
-      - 🇺🇸_美国_123_14
-      - 🇺🇸_美国_123_15
-      - 🇨🇳_中国_123_16
-      - 🇨🇦_加拿大_123_17
-      - 🇨🇦_加拿大_123_18
-      - 🇺🇸_美国_123_19
-      - 🇸🇬_新加坡_123_20
-      - 🇺🇸_美国_123_21
-      - 🇨🇦_加拿大_123_22
-      - 🇨🇦_加拿大_123_23
-      - 🇨🇦_加拿大_123_24
-      - 🇨🇦_加拿大_123_25
-      - 🇨🇦_加拿大_123_26
-      - 🇺🇸_美国_123_27
-      - 🇨🇦_加拿大_123_28
-      - 🇨🇦_加拿大_123_29
-      - 🇨🇦_加拿大_123_30
-      - 🇨🇦_加拿大_123_31
-      - 🇫🇷_法国_123_32
-      - 🇨🇦_加拿大_123_33
-      - 🇨🇦_加拿大_123_34
-      - 🇨🇦_加拿大_123_35
-      - 🇨🇦_加拿大_123_36
-      - 🇨🇦_加拿大_123_37
-      - 🇨🇳_中国_123_38
-      - 🇨🇦_加拿大_123_39
-      - 🇨🇦_加拿大_123_40
-      - 🇨🇦_加拿大_123_41
-      - 🇨🇦_加拿大_123_42
-      - 🇨🇦_加拿大_123_43
-      - 🇨🇳_中国_123_44
-      - 🇨🇦_加拿大_123_45
-      - 🇨🇦_加拿大_123_46
-      - 🇨🇦_加拿大_123_47
-      - 🇨🇳_中国_123_48
+      - CYL-科技（2022_03_27）_1
+      - CYL-科技（2022_03_27）_2
+      - CYL-科技（2022_03_27）_3
+      - CYL-科技（2022_03_27）_4
+      - CYL-科技（2022_03_27）_5
+      - CYL-科技（2022_03_27）_6
+      - CYL-科技（2022_03_27）_7
+      - CYL-科技（2022_03_27）_8
+      - CYL-科技（2022_03_27）_9
+      - CYL-科技（2022_03_27）_10
+      - CYL-科技（2022_03_27）_11
+      - CYL-科技（2022_03_27）_12
+      - CYL-科技（2022_03_27）_13
+      - CYL-科技（2022_03_27）_14
+      - CYL-科技（2022_03_27）_15
+      - CYL-科技（2022_03_27）_16
+      - CYL-科技（2022_03_27）_17
+      - CYL-科技（2022_03_27）_18
+      - CYL-科技（2022_03_27）_19
+      - CYL-科技（2022_03_27）_20
+      - CYL-科技（2022_03_27）_21
+      - CYL-科技（2022_03_27）_22
+      - CYL-科技（2022_03_27）_23
+      - CYL-科技（2022_03_27）_24
+      - CYL-科技（2022_03_27）_25
+      - CYL-科技（2022_03_27）_26
+      - CYL-科技（2022_03_27）_27
+      - CYL-科技（2022_03_27）_28
+      - CYL-科技（2022_03_27）_29
+      - CYL-科技（2022_03_27）_30
+      - CYL-科技（2022_03_27）_31
+      - CYL-科技（2022_03_27）_32
+      - CYL-科技（2022_03_27）_33
+      - CYL-科技（2022_03_27）_34
+      - CYL-科技（2022_03_27）_35
+      - CYL-科技（2022_03_27）_36
+      - CYL-科技（2022_03_27）_37
+      - CYL-科技（2022_03_27）_38
+      - CYL-科技（2022_03_27）_39
+      - CYL-科技（2022_03_27）_40
+      - CYL-科技（2022_03_27）_41
+      - CYL-科技（2022_03_27）_42
+      - CYL-科技（2022_03_27）_43
+      - CYL-科技（2022_03_27）_44
+      - CYL-科技（2022_03_27）_45
+      - CYL-科技（2022_03_27）_46
+      - CYL-科技（2022_03_27）_47
+      - CYL-科技（2022_03_27）_48
+      - CYL-科技（2022_03_27）_49
+      - CYL-科技（2022_03_27）_50
+      - CYL-科技（2022_03_27）_51
+      - CYL-科技（2022_03_27）_52
+      - CYL-科技（2022_03_27）_53
+      - CYL-科技（2022_03_27）_54
+      - CYL-科技（2022_03_27）_55
+      - CYL-科技（2022_03_27）_56
+      - CYL-科技（2022_03_27）_57
+      - CYL-科技（2022_03_27）_58
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵_日本_123_1
-      - 🇨🇳_中国_123_2
-      - 🇨🇦_加拿大_123_3
-      - 🇯🇵_日本_123_4
-      - 🇺🇸_美国_123_5
-      - 🇺🇸_美国_123_6
-      - 🇨🇦_加拿大_123_7
-      - 🇺🇸_美国_123_8
-      - 🇨🇦_加拿大_123_9
-      - 🇺🇸_美国_123_10
-      - 🇨🇳_中国_123_11
-      - 🇨🇦_加拿大_123_12
-      - 🇨🇦_加拿大_123_13
-      - 🇺🇸_美国_123_14
-      - 🇺🇸_美国_123_15
-      - 🇨🇳_中国_123_16
-      - 🇨🇦_加拿大_123_17
-      - 🇨🇦_加拿大_123_18
-      - 🇺🇸_美国_123_19
-      - 🇸🇬_新加坡_123_20
-      - 🇺🇸_美国_123_21
-      - 🇨🇦_加拿大_123_22
-      - 🇨🇦_加拿大_123_23
-      - 🇨🇦_加拿大_123_24
-      - 🇨🇦_加拿大_123_25
-      - 🇨🇦_加拿大_123_26
-      - 🇺🇸_美国_123_27
-      - 🇨🇦_加拿大_123_28
-      - 🇨🇦_加拿大_123_29
-      - 🇨🇦_加拿大_123_30
-      - 🇨🇦_加拿大_123_31
-      - 🇫🇷_法国_123_32
-      - 🇨🇦_加拿大_123_33
-      - 🇨🇦_加拿大_123_34
-      - 🇨🇦_加拿大_123_35
-      - 🇨🇦_加拿大_123_36
-      - 🇨🇦_加拿大_123_37
-      - 🇨🇳_中国_123_38
-      - 🇨🇦_加拿大_123_39
-      - 🇨🇦_加拿大_123_40
-      - 🇨🇦_加拿大_123_41
-      - 🇨🇦_加拿大_123_42
-      - 🇨🇦_加拿大_123_43
-      - 🇨🇳_中国_123_44
-      - 🇨🇦_加拿大_123_45
-      - 🇨🇦_加拿大_123_46
-      - 🇨🇦_加拿大_123_47
-      - 🇨🇳_中国_123_48
+      - CYL-科技（2022_03_27）_1
+      - CYL-科技（2022_03_27）_2
+      - CYL-科技（2022_03_27）_3
+      - CYL-科技（2022_03_27）_4
+      - CYL-科技（2022_03_27）_5
+      - CYL-科技（2022_03_27）_6
+      - CYL-科技（2022_03_27）_7
+      - CYL-科技（2022_03_27）_8
+      - CYL-科技（2022_03_27）_9
+      - CYL-科技（2022_03_27）_10
+      - CYL-科技（2022_03_27）_11
+      - CYL-科技（2022_03_27）_12
+      - CYL-科技（2022_03_27）_13
+      - CYL-科技（2022_03_27）_14
+      - CYL-科技（2022_03_27）_15
+      - CYL-科技（2022_03_27）_16
+      - CYL-科技（2022_03_27）_17
+      - CYL-科技（2022_03_27）_18
+      - CYL-科技（2022_03_27）_19
+      - CYL-科技（2022_03_27）_20
+      - CYL-科技（2022_03_27）_21
+      - CYL-科技（2022_03_27）_22
+      - CYL-科技（2022_03_27）_23
+      - CYL-科技（2022_03_27）_24
+      - CYL-科技（2022_03_27）_25
+      - CYL-科技（2022_03_27）_26
+      - CYL-科技（2022_03_27）_27
+      - CYL-科技（2022_03_27）_28
+      - CYL-科技（2022_03_27）_29
+      - CYL-科技（2022_03_27）_30
+      - CYL-科技（2022_03_27）_31
+      - CYL-科技（2022_03_27）_32
+      - CYL-科技（2022_03_27）_33
+      - CYL-科技（2022_03_27）_34
+      - CYL-科技（2022_03_27）_35
+      - CYL-科技（2022_03_27）_36
+      - CYL-科技（2022_03_27）_37
+      - CYL-科技（2022_03_27）_38
+      - CYL-科技（2022_03_27）_39
+      - CYL-科技（2022_03_27）_40
+      - CYL-科技（2022_03_27）_41
+      - CYL-科技（2022_03_27）_42
+      - CYL-科技（2022_03_27）_43
+      - CYL-科技（2022_03_27）_44
+      - CYL-科技（2022_03_27）_45
+      - CYL-科技（2022_03_27）_46
+      - CYL-科技（2022_03_27）_47
+      - CYL-科技（2022_03_27）_48
+      - CYL-科技（2022_03_27）_49
+      - CYL-科技（2022_03_27）_50
+      - CYL-科技（2022_03_27）_51
+      - CYL-科技（2022_03_27）_52
+      - CYL-科技（2022_03_27）_53
+      - CYL-科技（2022_03_27）_54
+      - CYL-科技（2022_03_27）_55
+      - CYL-科技（2022_03_27）_56
+      - CYL-科技（2022_03_27）_57
+      - CYL-科技（2022_03_27）_58
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -396,54 +466,64 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵_日本_123_1
-      - 🇨🇳_中国_123_2
-      - 🇨🇦_加拿大_123_3
-      - 🇯🇵_日本_123_4
-      - 🇺🇸_美国_123_5
-      - 🇺🇸_美国_123_6
-      - 🇨🇦_加拿大_123_7
-      - 🇺🇸_美国_123_8
-      - 🇨🇦_加拿大_123_9
-      - 🇺🇸_美国_123_10
-      - 🇨🇳_中国_123_11
-      - 🇨🇦_加拿大_123_12
-      - 🇨🇦_加拿大_123_13
-      - 🇺🇸_美国_123_14
-      - 🇺🇸_美国_123_15
-      - 🇨🇳_中国_123_16
-      - 🇨🇦_加拿大_123_17
-      - 🇨🇦_加拿大_123_18
-      - 🇺🇸_美国_123_19
-      - 🇸🇬_新加坡_123_20
-      - 🇺🇸_美国_123_21
-      - 🇨🇦_加拿大_123_22
-      - 🇨🇦_加拿大_123_23
-      - 🇨🇦_加拿大_123_24
-      - 🇨🇦_加拿大_123_25
-      - 🇨🇦_加拿大_123_26
-      - 🇺🇸_美国_123_27
-      - 🇨🇦_加拿大_123_28
-      - 🇨🇦_加拿大_123_29
-      - 🇨🇦_加拿大_123_30
-      - 🇨🇦_加拿大_123_31
-      - 🇫🇷_法国_123_32
-      - 🇨🇦_加拿大_123_33
-      - 🇨🇦_加拿大_123_34
-      - 🇨🇦_加拿大_123_35
-      - 🇨🇦_加拿大_123_36
-      - 🇨🇦_加拿大_123_37
-      - 🇨🇳_中国_123_38
-      - 🇨🇦_加拿大_123_39
-      - 🇨🇦_加拿大_123_40
-      - 🇨🇦_加拿大_123_41
-      - 🇨🇦_加拿大_123_42
-      - 🇨🇦_加拿大_123_43
-      - 🇨🇳_中国_123_44
-      - 🇨🇦_加拿大_123_45
-      - 🇨🇦_加拿大_123_46
-      - 🇨🇦_加拿大_123_47
-      - 🇨🇳_中国_123_48
+      - CYL-科技（2022_03_27）_1
+      - CYL-科技（2022_03_27）_2
+      - CYL-科技（2022_03_27）_3
+      - CYL-科技（2022_03_27）_4
+      - CYL-科技（2022_03_27）_5
+      - CYL-科技（2022_03_27）_6
+      - CYL-科技（2022_03_27）_7
+      - CYL-科技（2022_03_27）_8
+      - CYL-科技（2022_03_27）_9
+      - CYL-科技（2022_03_27）_10
+      - CYL-科技（2022_03_27）_11
+      - CYL-科技（2022_03_27）_12
+      - CYL-科技（2022_03_27）_13
+      - CYL-科技（2022_03_27）_14
+      - CYL-科技（2022_03_27）_15
+      - CYL-科技（2022_03_27）_16
+      - CYL-科技（2022_03_27）_17
+      - CYL-科技（2022_03_27）_18
+      - CYL-科技（2022_03_27）_19
+      - CYL-科技（2022_03_27）_20
+      - CYL-科技（2022_03_27）_21
+      - CYL-科技（2022_03_27）_22
+      - CYL-科技（2022_03_27）_23
+      - CYL-科技（2022_03_27）_24
+      - CYL-科技（2022_03_27）_25
+      - CYL-科技（2022_03_27）_26
+      - CYL-科技（2022_03_27）_27
+      - CYL-科技（2022_03_27）_28
+      - CYL-科技（2022_03_27）_29
+      - CYL-科技（2022_03_27）_30
+      - CYL-科技（2022_03_27）_31
+      - CYL-科技（2022_03_27）_32
+      - CYL-科技（2022_03_27）_33
+      - CYL-科技（2022_03_27）_34
+      - CYL-科技（2022_03_27）_35
+      - CYL-科技（2022_03_27）_36
+      - CYL-科技（2022_03_27）_37
+      - CYL-科技（2022_03_27）_38
+      - CYL-科技（2022_03_27）_39
+      - CYL-科技（2022_03_27）_40
+      - CYL-科技（2022_03_27）_41
+      - CYL-科技（2022_03_27）_42
+      - CYL-科技（2022_03_27）_43
+      - CYL-科技（2022_03_27）_44
+      - CYL-科技（2022_03_27）_45
+      - CYL-科技（2022_03_27）_46
+      - CYL-科技（2022_03_27）_47
+      - CYL-科技（2022_03_27）_48
+      - CYL-科技（2022_03_27）_49
+      - CYL-科技（2022_03_27）_50
+      - CYL-科技（2022_03_27）_51
+      - CYL-科技（2022_03_27）_52
+      - CYL-科技（2022_03_27）_53
+      - CYL-科技（2022_03_27）_54
+      - CYL-科技（2022_03_27）_55
+      - CYL-科技（2022_03_27）_56
+      - CYL-科技（2022_03_27）_57
+      - CYL-科技（2022_03_27）_58
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
