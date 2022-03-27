@@ -5,6 +5,70 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: (Youtube/TG：俊佳科技)_🇭🇰_香港_231, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hkhh.fans8.xyz}}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_101, server: 25.v2-ray.cyou, port: 35025, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 25.v2-ray.cyou}}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_109, server: 72.v2-ray.cyou, port: 15072, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 72.v2-ray.cyou}}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_26, server: 183.232.56.161, port: 9122, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_42, server: 43.132.185.111, port: 51504, type: vmess, uuid: d1a8afca-9d81-4ad6-f6d0-935c37c73eed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_59, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 50277823-d1ae-49c1-a351-8edd000ff5de, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 1.ezydfdd.com}}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_67, server: tw01.xiaocloud.icu, port: 20139, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️YouTube梦歌♥️_7, server: sg02.jafiyun.club, port: 21105, type: vmess, uuid: 86b4770b-8e15-328d-b628-1f9e5117c8f1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️YouTube梦歌♥️_73, server: sg02.jafiyun.club, port: 21105, type: vmess, uuid: 86b4770b-8e15-328d-b628-1f9e5117c8f1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️YouTube梦歌♥️_87, server: 31.v2-ray.cyou, port: 15031, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 31.v2-ray.cyou}}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_89, server: hk15.xiaocloud.icu, port: 21518, type: vmess, uuid: 6c053237-b3c8-36cc-a3ef-520e21603cf1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️YouTube梦歌♥️_91, server: kr2.futi.online, port: 2053, type: vmess, uuid: ecbaf58d-df4b-4a24-b155-556f5c917517, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kr2.futi.online}}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_97, server: 13.75.95.54, port: 10016, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_97 2, server: 20.89.101.162, port: 56564, type: vmess, uuid: 4f702981-8341-4aa9-bb82-833fb83b340b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️YouTube梦歌♥️_98, server: flo.fovi.tk, port: 40071, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: flo.fovi.tk}}, udp: true}
+  - {name: CN_油管TG8度科技_16, server: 101.230.149.1, port: 1022, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: CN_油管TG8度科技_17, server: jp01.xiaocloud.icu, port: 20124, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_油管TG8度科技_18, server: jp02.xiaocloud.icu, port: 20225, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_油管TG8度科技_19, server: jp03.xiaocloud.icu, port: 20326, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_油管TG8度科技_20, server: jp04.xiaocloud.icu, port: 20427, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_油管TG8度科技_21, server: jp05.xiaocloud.icu, port: 20528, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_油管TG8度科技_22, server: sg02.xiaocloud.icu, port: 20265, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_油管TG8度科技_23, server: sg03.xiaocloud.icu, port: 20366, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_油管TG8度科技_24, server: sg04.xiaocloud.icu, port: 20467, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_油管TG8度科技_25, server: sg05.xiaocloud.icu, port: 20568, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_油管TG8度科技_26, server: sg06.xiaocloud.icu, port: 20669, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_油管TG8度科技_27, server: sg07.xiaocloud.icu, port: 20770, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_油管TG8度科技_28, server: sg08.xiaocloud.icu, port: 20871, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_油管TG8度科技_29, server: sg09.xiaocloud.icu, port: 20972, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022_03_21）_30, server: keliaz1.scsevers.cf, port: 28384, type: vmess, uuid: 99edaf0e-a24c-432c-edb4-ed0f2bd01af1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: keliaz1.scsevers.cf}}, udp: true}
+  - {name: CYL-科技（2022_03_25）_31, server: 20.205.42.94, port: 48720, type: vmess, uuid: c9e6bb13-1fb2-4d72-9bf3-6086bf8e3144, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022_03_25）_32, server: 20.89.101.162, port: 56564, type: vmess, uuid: 4f702981-8341-4aa9-bb82-833fb83b340b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022_03_25）_33, server: 4.v2-ray.cyou, port: 36104, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 4.v2-ray.cyou}}, udp: true}
+  - {name: CYL-科技（2022_03_27）_34, server: 101.230.149.1, port: 1022, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: CYL-科技（2022_03_27）_35, server: 101.230.149.1, port: 1022, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: CYL-科技（2022_03_27）_36, server: 101.230.149.1, port: 1022, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: CYL-科技（2022_03_27）_37, server: 101.230.149.1, port: 1022, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: CYL-科技（2022_03_27）_38, server: 154.17.19.224, port: 6086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: CYL-科技（2022_03_27）_39, server: 154.17.19.224, port: 6086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: CYL-科技（2022_03_27）_40, server: 154.17.19.224, port: 6086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: FR法国(yudou66_com玉豆分享)_41, server: 147.135.164.113, port: 44423, type: vmess, uuid: e6ee3fe5-7602-47b0-8d8f-52853321107f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: HK_油管TG8度科技_42, server: hk15.xiaocloud.icu, port: 21518, type: vmess, uuid: 76c6e2a7-89d5-3217-9386-e6461961b914, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_油管TG8度科技_43, server: hk15.xiaocloud.icu, port: 21518, type: vmess, uuid: 76c6e2a7-89d5-3217-9386-e6461961b914, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_油管TG8度科技_44, server: tw01.xiaocloud.icu, port: 20139, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_油管TG8度科技_45, server: us01.xiaocloud.icu, port: 20149, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_油管TG8度科技_46, server: us02.xiaocloud.icu, port: 20250, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_油管TG8度科技_47, server: us03.xiaocloud.icu, port: 20351, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_油管TG8度科技_48, server: us06.xiaocloud.icu, port: 20654, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG/油管at阿伟科技_49, server: cdn6.xiaokuqwq.xyz, port: 8443, type: vmess, uuid: e7255c58-b2ba-4a1b-a203-3f52dffd99a6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn6.xiaokuqwq.xyz}}, udp: true}
+  - {name: US美国(yudou66_com玉豆分享)_50, server: rn.tomcloud.buzz, port: 10332, type: vmess, uuid: 0dabf511-7ce1-4840-e2de-b4a070163ce9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rn.tomcloud.buzz}}, udp: true}
+  - {name: YouTubeat阿阳AYANG_51, server: blog.homeos.ml, port: 3306, type: vmess, uuid: b35d627c-822d-4c04-d366-c2051811b622, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blog.homeos.ml}}, udp: true}
+  - {name: _AU_澳大利亚_52, server: us.x7777.xyz, port: 12205, type: vmess, uuid: cf868c0d-67be-4481-9988-326227e96f49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _DE_德国_53, server: blog.homeos.ml, port: 3306, type: vmess, uuid: b35d627c-822d-4c04-d366-c2051811b622, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blog.homeos.ml}}, udp: true}
+  - {name: _香港_(TG/油管at阿伟科技)_54, server: 22.v2-ray.cyou, port: 15022, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 22.v2-ray.cyou}}, udp: true}
+  - {name: _香港_(TG/油管at阿伟科技)_55, server: keliaz1.scsevers.cf, port: 28384, type: vmess, uuid: 99edaf0e-a24c-432c-edb4-ed0f2bd01af1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: keliaz1.scsevers.cf}}, udp: true}
+  - {name: 香港(TG/油管at阿伟科技）_56, server: 20.205.42.94, port: 48720, type: vmess, uuid: c9e6bb13-1fb2-4d72-9bf3-6086bf8e3144, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(yudou66_com玉豆分享)_57, server: keliaz1.scsevers.cf, port: 28384, type: vmess, uuid: 99edaf0e-a24c-432c-edb4-ed0f2bd01af1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: keliaz1.scsevers.cf}}, udp: true}
+  - {name: 新加坡(TG/油管at阿伟科技）_58, server: 52.163.89.253, port: 35252, type: vmess, uuid: 84a69512-7365-487f-b2ac-d1d5c4e05750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君)_59, server: 101.230.149.1, port: 1022, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: 油管TG8度科技_60, server: 101.230.149.1, port: 1022, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: 新加坡(TG/油管at阿伟科技）_61, server: 52.163.89.253, port: 35252, type: vmess, uuid: 84a69512-7365-487f-b2ac-d1d5c4e05750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG/油管at阿伟科技）_62, server: 14.128.49.175, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_63, server: ui.x6666.xyz, port: 12205, type: vmess, uuid: df091936-cacb-4e86-f71b-ba34597e4841, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG/油管at阿伟科技）_64, server: 192.9.232.174, port: 64684, type: vmess, uuid: 5068ac49-8503-49f5-8ba9-5b34f0dd23e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 52.131.222.178, port: 51012, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: us2405.cloudmatrix.xyz, port: 2405, type: vmess, uuid: 3b78a19f-20f8-34f5-a818-2a02e10446ac, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us2405.cloudmatrix.xyz}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 38.114.114.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -1487,6 +1551,70 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
+      - (Youtube/TG：俊佳科技)_🇭🇰_香港_231
+      - ♥️YouTube梦歌♥️_101
+      - ♥️YouTube梦歌♥️_109
+      - ♥️YouTube梦歌♥️_26
+      - ♥️YouTube梦歌♥️_42
+      - ♥️YouTube梦歌♥️_59
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_89
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_97 2
+      - ♥️YouTube梦歌♥️_98
+      - CN_油管TG8度科技_16
+      - CN_油管TG8度科技_17
+      - CN_油管TG8度科技_18
+      - CN_油管TG8度科技_19
+      - CN_油管TG8度科技_20
+      - CN_油管TG8度科技_21
+      - CN_油管TG8度科技_22
+      - CN_油管TG8度科技_23
+      - CN_油管TG8度科技_24
+      - CN_油管TG8度科技_25
+      - CN_油管TG8度科技_26
+      - CN_油管TG8度科技_27
+      - CN_油管TG8度科技_28
+      - CN_油管TG8度科技_29
+      - CYL-科技（2022_03_21）_30
+      - CYL-科技（2022_03_25）_31
+      - CYL-科技（2022_03_25）_32
+      - CYL-科技（2022_03_25）_33
+      - CYL-科技（2022_03_27）_34
+      - CYL-科技（2022_03_27）_35
+      - CYL-科技（2022_03_27）_36
+      - CYL-科技（2022_03_27）_37
+      - CYL-科技（2022_03_27）_38
+      - CYL-科技（2022_03_27）_39
+      - CYL-科技（2022_03_27）_40
+      - FR法国(yudou66_com玉豆分享)_41
+      - HK_油管TG8度科技_42
+      - HK_油管TG8度科技_43
+      - HK_油管TG8度科技_44
+      - HK_油管TG8度科技_45
+      - HK_油管TG8度科技_46
+      - HK_油管TG8度科技_47
+      - HK_油管TG8度科技_48
+      - TG/油管at阿伟科技_49
+      - US美国(yudou66_com玉豆分享)_50
+      - YouTubeat阿阳AYANG_51
+      - _AU_澳大利亚_52
+      - _DE_德国_53
+      - _香港_(TG/油管at阿伟科技)_54
+      - _香港_(TG/油管at阿伟科技)_55
+      - 香港(TG/油管at阿伟科技）_56
+      - 香港(yudou66_com玉豆分享)_57
+      - 新加坡(TG/油管at阿伟科技）_58
+      - 欧洲(欢迎订阅Youtube破解资源君)_59
+      - 油管TG8度科技_60
+      - 新加坡(TG/油管at阿伟科技）_61
+      - 新加坡(TG/油管at阿伟科技）_62
+      - _US_美国_63
+      - 美国(TG/油管at阿伟科技）_64
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -2969,6 +3097,70 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
+      - (Youtube/TG：俊佳科技)_🇭🇰_香港_231
+      - ♥️YouTube梦歌♥️_101
+      - ♥️YouTube梦歌♥️_109
+      - ♥️YouTube梦歌♥️_26
+      - ♥️YouTube梦歌♥️_42
+      - ♥️YouTube梦歌♥️_59
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_89
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_97 2
+      - ♥️YouTube梦歌♥️_98
+      - CN_油管TG8度科技_16
+      - CN_油管TG8度科技_17
+      - CN_油管TG8度科技_18
+      - CN_油管TG8度科技_19
+      - CN_油管TG8度科技_20
+      - CN_油管TG8度科技_21
+      - CN_油管TG8度科技_22
+      - CN_油管TG8度科技_23
+      - CN_油管TG8度科技_24
+      - CN_油管TG8度科技_25
+      - CN_油管TG8度科技_26
+      - CN_油管TG8度科技_27
+      - CN_油管TG8度科技_28
+      - CN_油管TG8度科技_29
+      - CYL-科技（2022_03_21）_30
+      - CYL-科技（2022_03_25）_31
+      - CYL-科技（2022_03_25）_32
+      - CYL-科技（2022_03_25）_33
+      - CYL-科技（2022_03_27）_34
+      - CYL-科技（2022_03_27）_35
+      - CYL-科技（2022_03_27）_36
+      - CYL-科技（2022_03_27）_37
+      - CYL-科技（2022_03_27）_38
+      - CYL-科技（2022_03_27）_39
+      - CYL-科技（2022_03_27）_40
+      - FR法国(yudou66_com玉豆分享)_41
+      - HK_油管TG8度科技_42
+      - HK_油管TG8度科技_43
+      - HK_油管TG8度科技_44
+      - HK_油管TG8度科技_45
+      - HK_油管TG8度科技_46
+      - HK_油管TG8度科技_47
+      - HK_油管TG8度科技_48
+      - TG/油管at阿伟科技_49
+      - US美国(yudou66_com玉豆分享)_50
+      - YouTubeat阿阳AYANG_51
+      - _AU_澳大利亚_52
+      - _DE_德国_53
+      - _香港_(TG/油管at阿伟科技)_54
+      - _香港_(TG/油管at阿伟科技)_55
+      - 香港(TG/油管at阿伟科技）_56
+      - 香港(yudou66_com玉豆分享)_57
+      - 新加坡(TG/油管at阿伟科技）_58
+      - 欧洲(欢迎订阅Youtube破解资源君)_59
+      - 油管TG8度科技_60
+      - 新加坡(TG/油管at阿伟科技）_61
+      - 新加坡(TG/油管at阿伟科技）_62
+      - _US_美国_63
+      - 美国(TG/油管at阿伟科技）_64
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
