@@ -639,16 +639,15 @@ proxies:
   - {name: "US, 5", server: 65.49.220.2, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr01, udp: true}
   - {name: "SG,", server: 13.115.213.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "JP, 3", server: 13.228.168.185, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 俄罗斯E, server: 193.233.16.243, port: 9331, type: ssr, cipher: rc4, password: lncn.org c1, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯F, server: 195.245.239.15, port: 9331, type: ssr, cipher: rc4, password: lncn.org c1, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯G, server: 45.8.158.201, port: 9331, type: ssr, cipher: rc4, password: lncn.org c1, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯H, server: 46.29.160.130, port: 9331, type: ssr, cipher: rc4, password: lncn.org c1, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯I, server: 194.147.34.32, port: 9331, type: ssr, cipher: rc4, password: lncn.org 6y, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯J, server: 45.130.147.192, port: 9331, type: ssr, cipher: rc4, password: lncn.org 6y, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯K, server: 176.32.32.118, port: 9331, type: ssr, cipher: rc4, password: lncn.org 6y, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯L, server: 176.32.32.223, port: 9331, type: ssr, cipher: rc4, password: lncn.org 6y, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯M, server: 194.147.34.162, port: 9331, type: ssr, cipher: rc4, password: lncn.org 2j, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 俄罗斯N, server: 46.17.46.83, port: 9331, type: ssr, cipher: rc4, password: lncn.org 2j, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.51, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.51, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.51, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国, server: 167.88.63.108, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 2, server: 167.88.63.108, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 3, server: 167.88.63.108, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 4, server: 167.88.63.108, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 5, server: 167.88.63.108, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: default_name, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chaug, headers: {Host: v2fly.samrt.website}}, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2268,16 +2267,15 @@ proxy-groups:
       - US, 5
       - SG,
       - JP, 3
-      - 俄罗斯E
-      - 俄罗斯F
-      - 俄罗斯G
-      - 俄罗斯H
-      - 俄罗斯I
-      - 俄罗斯J
-      - 俄罗斯K
-      - 俄罗斯L
-      - 俄罗斯M
-      - 俄罗斯N
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - default_name
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3897,16 +3895,15 @@ proxy-groups:
       - US, 5
       - SG,
       - JP, 3
-      - 俄罗斯E
-      - 俄罗斯F
-      - 俄罗斯G
-      - 俄罗斯H
-      - 俄罗斯I
-      - 俄罗斯J
-      - 俄罗斯K
-      - 俄罗斯L
-      - 俄罗斯M
-      - 俄罗斯N
+      - _CA_加拿大
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _US_美国
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - default_name
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
