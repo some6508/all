@@ -5,7 +5,12 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"my.aoyyds.ga","port":2087,"type":"vmess","uuid":"d9bd1887-54dc-4380-b9df-42977a24b453","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xsqfvws","headers":{"host":"my.aoyyds.ga"}}}
+  - {"name":"🇺🇸_US_美国_1","server":"phoenix01.czsx1624.tk","port":443,"type":"vmess","uuid":"c6f7dfb5-7180-45a7-8122-e4cfc7a59dab","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/85aec/","headers":{"host":"phoenix01.czsx1624.tk"}}}
+  - {"name":"🇺🇸_US_美国_2","server":"US.Support-Putin-Kill-all-Ukrainians.884899.cf","port":443,"type":"vmess","uuid":"f27b0bec-b682-4d25-a6d9-8017c5ffa086","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/Support-Putin-Kill-all-Ukrainians_vws","headers":{"host":"US.Support-Putin-Kill-all-Ukrainians.884899.cf"}}}
+  - {"name":"🇺🇸_US_美国_3","server":"my.aoyyds.ga","port":2087,"type":"vmess","uuid":"d9bd1887-54dc-4380-b9df-42977a24b453","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xsqfvws","headers":{"host":"my.aoyyds.ga"}}}
+  - {"name":"🇺🇸_US_美国_4","server":"awsxjp.moonfree.top","port":443,"type":"vmess","uuid":"1b052c5f-ee85-4137-9cd3-0c06cdd53224","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"awsxjp.moonfree.top"}}}
+  - {"name":"🇭🇰_HK_香港_5","server":"0320hk567.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"🇭🇰_HK_香港_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0320hk567.fans8.xyz"}}}
+  - {"name":"🇭🇰_HK_香港_6","server":"0320hk857.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"🇭🇰_HK_香港_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0320hk857.fans8.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +18,11 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港_5
+      - 🇭🇰_HK_香港_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,6 +30,11 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港_5
+      - 🇭🇰_HK_香港_6
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -27,24 +42,44 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港_5
+      - 🇭🇰_HK_香港_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港_5
+      - 🇭🇰_HK_香港_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港_5
+      - 🇭🇰_HK_香港_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港_5
+      - 🇭🇰_HK_香港_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -68,6 +103,11 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇭🇰_HK_香港_5
+      - 🇭🇰_HK_香港_6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
