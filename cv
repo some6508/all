@@ -577,7 +577,57 @@ proxies:
   - {name: "US, 5", server: 65.49.220.2, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr01, udp: true}
   - {name: "SG,", server: 13.115.213.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "JP, 3", server: 13.228.168.185, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _HK_香港->🇺🇸_US_美国, server: v2.369855.xyz, port: 11443, type: vmess, uuid: d5c70a71-1b3c-41f2-a8e0-17323bc23821, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/rn, headers: {Host: usbv2.ddns.tjiasu.xyz}}, udp: true}
+  - {name: 英国阿伟科技@TG/油管, server: 183.232.56.161, port: 1801, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: 印度阿伟科技@TG/油管, server: 183.232.56.161, port: 8004, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: 印度阿伟科技@TG/油管 2, server: in1.qingyun123.xyz, port: 443, type: trojan, password: 8f9450ad-37bc-4252-a942-2c64357182b6, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管, server: h3.shopbuy.club, port: 443, type: vmess, uuid: 92261659-55a6-4b43-85d2-d3d3f30ca8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /KoUJaiN8, headers: {Host: h3.shopbuy.club}}, udp: true}
+  - {name: 香港阿伟科技@TG/油管 2, server: china-gzyd-1.forwardserver.xyz, port: 52024, type: vmess, uuid: 9e2c37d4-ab58-4730-8869-cb7b923d55d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura, headers: {Host: az1.14530529.xyz}}, udp: true}
+  - {name: 香港阿伟科技@TG/油管 3, server: 31.ppzhu.cc, port: 1314, type: vmess, uuid: 424ec6d1-0812-4891-97be-1ef3cfc57f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 31.ppzhu.cc}}, udp: true}
+  - {name: 香港阿伟科技@TG/油管 4, server: bgp-1.icecloud-node.top, port: 1110, type: vmess, uuid: 3bed713e-e9dc-3821-9565-3905d6816abd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 5, server: aead.tls.hongkongazace.dnsfree.top, port: 12345, type: trojan, password: 472f8157-dc22-4103-811b-635aaf2c5e52, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 6, server: aead.tls.hongkongazace.dnsfree.top, port: 12348, type: trojan, password: 472f8157-dc22-4103-811b-635aaf2c5e52, skip-cert-verify: true, udp: true}
+  - {name: 土耳其阿伟科技@TG/油管, server: 183.240.2.41, port: 24231, type: vmess, uuid: 663bfc17-c3f6-49da-972f-5e8e6b1315c2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: rq.nodrop.bike, network: ws, ws-opts: {path: /onefall.top}, udp: true}
+  - {name: 台湾阿伟科技@TG/油管, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0314tw02.fans8.xyz}}, udp: true}
+  - {name: 台湾阿伟科技@TG/油管 2, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: 0314tw02.fans8.xyz, network: ws, ws-opts: {path: /ray, headers: {Host: 0314tw02.fans8.xyz}}, udp: true}
+  - {name: 台湾阿伟科技@TG/油管 3, server: cdn-cn.nekocloud.cn, port: 19038, type: vmess, uuid: 1bac351b-673f-3468-9c20-7daab7e513e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /catnet, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 日本阿伟科技@TG/油管, server: 140.238.36.111, port: 80, type: vmess, uuid: befdb5b5-1e37-491f-b355-ca274a75798e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本阿伟科技@TG/油管 2, server: 24.ppzhu.cc, port: 2458, type: vmess, uuid: 424ec6d1-0812-4891-97be-1ef3cfc57f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 24.ppzhu.cc}}, udp: true}
+  - {name: 日本阿伟科技@TG/油管 3, server: 25.ppzhu.cc, port: 1786, type: vmess, uuid: 424ec6d1-0812-4891-97be-1ef3cfc57f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 25.ppzhu.cc}}, udp: true}
+  - {name: 日本阿伟科技@TG/油管 4, server: bgp-2.icecloud-node.top, port: 1100, type: vmess, uuid: 3bed713e-e9dc-3821-9565-3905d6816abd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本阿伟科技@TG/油管 5, server: aead.websocket.Japan.dnsfree.top, port: 12349, type: vmess, uuid: 472f8157-dc22-4103-811b-635aaf2c5e52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tiebapic.baidu.com}}, udp: true}
+  - {name: 日本阿伟科技@TG/油管 6, server: aead.websocket.Japan.dnsfree.top, port: 12351, type: vmess, uuid: 472f8157-dc22-4103-811b-635aaf2c5e52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: aead.websocket.Japan.dnsfree.top, network: ws, ws-opts: {path: /, headers: {Host: tiebapic.baidu.com}}, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: 1b052c5f-ee85-4137-9cd3-0c06cdd53224, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: awsxjp.moonfree.top, network: ws, ws-opts: {path: /, headers: {Host: awsxjp.moonfree.top}}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 2, server: san.515223.xyz, port: 17247, type: vmess, uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: san.515223.xyz}}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 3, server: 167.88.63.108, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国阿伟科技@TG/油管 4, server: 167.88.63.108, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国阿伟科技@TG/油管 5, server: 167.88.63.108, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国阿伟科技@TG/油管 6, server: 167.88.63.108, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国阿伟科技@TG/油管 7, server: US.Support-Putin-Kill-all-Ukrainians.884899.cf, port: 443, type: vmess, uuid: f27b0bec-b682-4d25-a6d9-8017c5ffa086, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Support-Putin-Kill-all-Ukrainians_vws, headers: {Host: US.Support-Putin-Kill-all-Ukrainians.884899.cf}}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 8, server: 38.64.138.145, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国阿伟科技@TG/油管 9, server: 38.64.138.145, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国阿伟科技@TG/油管 10, server: 183.232.56.161, port: 1704, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: microsoft.com}}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 11, server: 183.232.56.161, port: 1704, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 12, server: us1.qingyun123.xyz, port: 10050, type: trojan, password: 12776c89-c8c0-4f3f-b95d-ca5822eef538, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管 13, server: cm.newhua99.ga, port: 21682, type: ss, cipher: aes-128-gcm, password: 29890b98-a08a-48cc-9983-accb3a16e325, udp: true}
+  - {name: 美国阿伟科技@TG/油管 14, server: 138.2.92.131, port: 38504, type: vmess, uuid: b94db657-00ec-4efa-8bd4-9bc50954b6ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管 15, server: us1.qingyun123.xyz, port: 10050, type: trojan, password: 8f9450ad-37bc-4252-a942-2c64357182b6, skip-cert-verify: true, udp: true}
+  - {name: 马来西亚阿伟科技@TG/油管, server: 183.232.56.161, port: 5019, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: 加拿大阿伟科技@TG/油管, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0314tw02.fans8.xyz}}, udp: true}
+  - {name: 加拿大阿伟科技@TG/油管 2, server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b8-4c05-428c-adce-4235d1636341, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 8.ezydfdd.com}}, udp: true}
+  - {name: 加拿大阿伟科技@TG/油管 3, server: ca02.holiganfan.com, port: 10088, type: trojan, password: 61729199-896f-4c15-bae3-e8780b22c70c, skip-cert-verify: true, udp: true}
+  - {name: 韩国阿伟科技@TG/油管, server: 183.232.56.161, port: 1602, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: t.me.vpnhat}}, udp: true}
+  - {name: 韩国阿伟科技@TG/油管 2, server: v1-13.ppzhu.cc, port: 3421, type: vmess, uuid: 424ec6d1-0812-4891-97be-1ef3cfc57f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: v1-13.ppzhu.cc}}, udp: true}
+  - {name: 韩国阿伟科技@TG/油管 3, server: 21.ppzhu.cc, port: 10086, type: vmess, uuid: 424ec6d1-0812-4891-97be-1ef3cfc57f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 21.ppzhu.cc}}, udp: true}
+  - {name: 韩国阿伟科技@TG/油管 4, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: 8f9450ad-37bc-4252-a942-2c64357182b6, skip-cert-verify: true, udp: true}
+  - {name: 菲律宾阿伟科技@TG/油管, server: 183.232.56.161, port: 9111, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: 法国阿伟科技@TG/油管, server: dfuh.ml, port: 443, type: vmess, uuid: e969c7ae-b03f-4a1b-fd0b-3800fb5ce1d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dfuh.ml}}, udp: true}
+  - {name: 俄罗斯阿伟科技@TG/油管, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/vmess-share/?ed=2048", headers: {Host: ruvds.testx.eu.org}}, udp: true}
+  - {name: 德国阿伟科技@TG/油管, server: v6d.moonfree.top, port: 443, type: vmess, uuid: 1b052c5f-ee85-4137-9cd3-0c06cdd53224, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v6d.moonfree.top, network: ws, ws-opts: {path: /, headers: {Host: v6d.moonfree.top}}, udp: true}
+  - {name: 德国阿伟科技@TG/油管 2, server: 183.232.56.161, port: 6112, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: 德国阿伟科技@TG/油管 3, server: 183.232.56.161, port: 6111, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: 德国阿伟科技@TG/油管 4, server: de1.qingyun123.xyz, port: 10050, type: trojan, password: 8f9450ad-37bc-4252-a942-2c64357182b6, skip-cert-verify: true, udp: true}
+  - {name: 澳洲阿伟科技@TG/油管, server: 183.232.56.161, port: 1211, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: "IPLC专线-莞台-应急节点[10M]（3.0x）", server: 211.99.100.98, port: 777, type: vmess, uuid: 3bed713e-e9dc-3821-9565-3905d6816abd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1247,15 +1297,12 @@ proxies:
   - {name: Ytb:鹏哥分享_加拿大_13, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_178, server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: github.com/freefq - 日本东京都品川区Linode数据中心 1, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 2, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, servername: v2fly.samrt.website, network: ws, ws-opts: {path: /chaug, headers: {Host: v2fly.samrt.website}}, udp: true}
-  - {name: github.com/freefq - 加拿大  3, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 澳大利亚  4, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}, udp: true}
-  - {name: github.com/freefq - 北美地区  5, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 加拿大  6, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320jp.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 加拿大  2, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 北美地区  3, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 北美地区  4, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 5, server: app.ssfree.ru, port: 443, type: vmess, uuid: b549aa36-af14-11ec-b08e-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 6, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, servername: v2fly.samrt.website, network: ws, ws-opts: {path: /chaug, headers: {Host: v2fly.samrt.website}}, udp: true}
   - {name: github.com/freefq - 北美地区  7, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: github.com/freefq - 北美地区  8, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 9, server: app.ssfree.ru, port: 443, type: vmess, uuid: b549aa36-af14-11ec-b08e-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 10, server: fri.ncugo.cf, port: 443, type: vmess, uuid: de0eb598-2cea-43a0-c5fe-77335fb07a35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fri.ncugo.cf}}, udp: true}
   - {name: iepl-hn01.qqgg.work:21637, server: iepl-hn01.qqgg.work, port: 21637, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 新加坡SG -02, server: china-az-hk-f2s.898868.xyz, port: 33652, type: trojan, password: cb588d6f-225a-4f3f-8133-cc09061cbba8, sni: ga.thenodemoon365.xyz, skip-cert-verify: true, udp: true}
   - {name: AZHK-广移 @xrenblog, server: china-gzyd-1.forwardserver.xyz, port: 52024, type: vmess, uuid: 9e2c37d4-ab58-4730-8869-cb7b923d55d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura, headers: {Host: az1.14530529.xyz}}, udp: true}
@@ -1950,7 +1997,57 @@ proxy-groups:
       - US, 5
       - SG,
       - JP, 3
-      - _HK_香港->🇺🇸_US_美国
+      - 英国阿伟科技@TG/油管
+      - 印度阿伟科技@TG/油管
+      - 印度阿伟科技@TG/油管 2
+      - 香港阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
+      - 香港阿伟科技@TG/油管 3
+      - 香港阿伟科技@TG/油管 4
+      - 香港阿伟科技@TG/油管 5
+      - 香港阿伟科技@TG/油管 6
+      - 土耳其阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管 3
+      - 日本阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管 2
+      - 日本阿伟科技@TG/油管 3
+      - 日本阿伟科技@TG/油管 4
+      - 日本阿伟科技@TG/油管 5
+      - 日本阿伟科技@TG/油管 6
+      - 美国阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 美国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 5
+      - 美国阿伟科技@TG/油管 6
+      - 美国阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 8
+      - 美国阿伟科技@TG/油管 9
+      - 美国阿伟科技@TG/油管 10
+      - 美国阿伟科技@TG/油管 11
+      - 美国阿伟科技@TG/油管 12
+      - 美国阿伟科技@TG/油管 13
+      - 美国阿伟科技@TG/油管 14
+      - 美国阿伟科技@TG/油管 15
+      - 马来西亚阿伟科技@TG/油管
+      - 加拿大阿伟科技@TG/油管
+      - 加拿大阿伟科技@TG/油管 2
+      - 加拿大阿伟科技@TG/油管 3
+      - 韩国阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 韩国阿伟科技@TG/油管 3
+      - 韩国阿伟科技@TG/油管 4
+      - 菲律宾阿伟科技@TG/油管
+      - 法国阿伟科技@TG/油管
+      - 俄罗斯阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管 2
+      - 德国阿伟科技@TG/油管 3
+      - 德国阿伟科技@TG/油管 4
+      - 澳洲阿伟科技@TG/油管
+      - IPLC专线-莞台-应急节点[10M]（3.0x）
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2620,15 +2717,12 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
       - github.com/freefq - 日本东京都品川区Linode数据中心 1
-      - github.com/freefq - 美国CloudFlare公司CDN节点 2
-      - github.com/freefq - 加拿大  3
-      - github.com/freefq - 澳大利亚  4
-      - github.com/freefq - 北美地区  5
-      - github.com/freefq - 加拿大  6
+      - github.com/freefq - 加拿大  2
+      - github.com/freefq - 北美地区  3
+      - github.com/freefq - 北美地区  4
+      - github.com/freefq - 美国CloudFlare节点 5
+      - github.com/freefq - 美国CloudFlare公司CDN节点 6
       - github.com/freefq - 北美地区  7
-      - github.com/freefq - 北美地区  8
-      - github.com/freefq - 美国CloudFlare节点 9
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
       - iepl-hn01.qqgg.work:21637
       - 新加坡SG -02
       - AZHK-广移 @xrenblog
@@ -3323,7 +3417,57 @@ proxy-groups:
       - US, 5
       - SG,
       - JP, 3
-      - _HK_香港->🇺🇸_US_美国
+      - 英国阿伟科技@TG/油管
+      - 印度阿伟科技@TG/油管
+      - 印度阿伟科技@TG/油管 2
+      - 香港阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
+      - 香港阿伟科技@TG/油管 3
+      - 香港阿伟科技@TG/油管 4
+      - 香港阿伟科技@TG/油管 5
+      - 香港阿伟科技@TG/油管 6
+      - 土耳其阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管 3
+      - 日本阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管 2
+      - 日本阿伟科技@TG/油管 3
+      - 日本阿伟科技@TG/油管 4
+      - 日本阿伟科技@TG/油管 5
+      - 日本阿伟科技@TG/油管 6
+      - 美国阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 美国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 5
+      - 美国阿伟科技@TG/油管 6
+      - 美国阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 8
+      - 美国阿伟科技@TG/油管 9
+      - 美国阿伟科技@TG/油管 10
+      - 美国阿伟科技@TG/油管 11
+      - 美国阿伟科技@TG/油管 12
+      - 美国阿伟科技@TG/油管 13
+      - 美国阿伟科技@TG/油管 14
+      - 美国阿伟科技@TG/油管 15
+      - 马来西亚阿伟科技@TG/油管
+      - 加拿大阿伟科技@TG/油管
+      - 加拿大阿伟科技@TG/油管 2
+      - 加拿大阿伟科技@TG/油管 3
+      - 韩国阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 韩国阿伟科技@TG/油管 3
+      - 韩国阿伟科技@TG/油管 4
+      - 菲律宾阿伟科技@TG/油管
+      - 法国阿伟科技@TG/油管
+      - 俄罗斯阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管 2
+      - 德国阿伟科技@TG/油管 3
+      - 德国阿伟科技@TG/油管 4
+      - 澳洲阿伟科技@TG/油管
+      - IPLC专线-莞台-应急节点[10M]（3.0x）
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3993,15 +4137,12 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
       - github.com/freefq - 日本东京都品川区Linode数据中心 1
-      - github.com/freefq - 美国CloudFlare公司CDN节点 2
-      - github.com/freefq - 加拿大  3
-      - github.com/freefq - 澳大利亚  4
-      - github.com/freefq - 北美地区  5
-      - github.com/freefq - 加拿大  6
+      - github.com/freefq - 加拿大  2
+      - github.com/freefq - 北美地区  3
+      - github.com/freefq - 北美地区  4
+      - github.com/freefq - 美国CloudFlare节点 5
+      - github.com/freefq - 美国CloudFlare公司CDN节点 6
       - github.com/freefq - 北美地区  7
-      - github.com/freefq - 北美地区  8
-      - github.com/freefq - 美国CloudFlare节点 9
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
       - iepl-hn01.qqgg.work:21637
       - 新加坡SG -02
       - AZHK-广移 @xrenblog
