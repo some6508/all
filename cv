@@ -5,26 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 中国-731_9KB/s(Youtube:不良林)_1, server: 14.29.124.168, port: 31057, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 加拿大-3_53MB/s(Youtube:不良林)_2, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 日本-2_92MB/s(Youtube:不良林)_3, server: 13.115.213.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 美国-467_9KB/s(Youtube:不良林)_4, server: 169.197.142.99, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国-2_19MB/s(Youtube:不良林)_5, server: 45.58.149.21, port: 443, type: vmess, uuid: 353fc817-855f-4afc-b6cd-03bbbcceca01, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/353021140201}, udp: true}
-  - {name: 中国-1_20MB/s(Youtube:不良林)_6, server: 117.185.229.112, port: 45089, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 德国-3_57MB/s(Youtube:不良林)_7, server: de1.qingyun123.xyz, port: 10050, type: trojan, password: 32cbd76d-3b0a-4f44-b7ef-98d41db730f6, skip-cert-verify: true, udp: true}
-  - {name: 美国-3_43MB/s(Youtube:不良林)_8, server: nfus.qingyun123.xyz, port: 10050, type: trojan, password: a3a854c6-bef1-4257-a525-b259c6bcca39, skip-cert-verify: true, udp: true}
-  - {name: 美国-4_65MB/s(Youtube:不良林)_9, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 印度-2_84MB/s(Youtube:不良林)_10, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
-  - {name: 加拿大-2_93MB/s(Youtube:不良林)_11, server: 134.195.196.51, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 日本-2_92MB/s(Youtube:不良林)_12, server: 13.115.213.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 加拿大-3_11MB/s(Youtube:不良林)_13, server: 134.195.196.51, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 中国-344_4KB/s(Youtube:不良林)_14, server: 14.29.124.168, port: 31052, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国-754_1KB/s(Youtube:不良林)_15, server: 14.29.124.168, port: 31058, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 美国-3_43MB/s(Youtube:不良林)_16, server: nfus.qingyun123.xyz, port: 10050, type: trojan, password: a3a854c6-bef1-4257-a525-b259c6bcca39, skip-cert-verify: true, udp: true}
-  - {name: 美国-4_65MB/s(Youtube:不良林)_17, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 印度-2_84MB/s(Youtube:不良林)_18, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
-  - {name: 中国-17_79MB/s(Youtube:不良林)_19, server: nmd.boom.party, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 297930:nKtI1N, obfs-param: www.baidu.com, udp: true}
-  - {name: 中国-7_16MB/s(Youtube:不良林)_20, server: china-gzyd-1.forwardserver.xyz, port: 52024, type: vmess, uuid: 9e2c37d4-ab58-4730-8869-cb7b923d55d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura, headers: {Host: china-gzyd-1.forwardserver.xyz}}, udp: true}
+  - {name: _CA_加拿大_1, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_2, server: 167.88.63.108, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: sg-all.licom.ga, port: 6003, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-all.licom.ga}}, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君), server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君) 2, server: ca02.holiganfan.com, port: 10088, type: trojan, password: 61729199-896f-4c15-bae3-e8780b22c70c, sni: ca02.holiganfan.com, skip-cert-verify: true, udp: true}
@@ -1366,26 +1348,8 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - 中国-731_9KB/s(Youtube:不良林)_1
-      - 加拿大-3_53MB/s(Youtube:不良林)_2
-      - 日本-2_92MB/s(Youtube:不良林)_3
-      - 美国-467_9KB/s(Youtube:不良林)_4
-      - 美国-2_19MB/s(Youtube:不良林)_5
-      - 中国-1_20MB/s(Youtube:不良林)_6
-      - 德国-3_57MB/s(Youtube:不良林)_7
-      - 美国-3_43MB/s(Youtube:不良林)_8
-      - 美国-4_65MB/s(Youtube:不良林)_9
-      - 印度-2_84MB/s(Youtube:不良林)_10
-      - 加拿大-2_93MB/s(Youtube:不良林)_11
-      - 日本-2_92MB/s(Youtube:不良林)_12
-      - 加拿大-3_11MB/s(Youtube:不良林)_13
-      - 中国-344_4KB/s(Youtube:不良林)_14
-      - 中国-754_1KB/s(Youtube:不良林)_15
-      - 美国-3_43MB/s(Youtube:不良林)_16
-      - 美国-4_65MB/s(Youtube:不良林)_17
-      - 印度-2_84MB/s(Youtube:不良林)_18
-      - 中国-17_79MB/s(Youtube:不良林)_19
-      - 中国-7_16MB/s(Youtube:不良林)_20
+      - _CA_加拿大_1
+      - _US_美国_2
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
@@ -2727,26 +2691,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - 中国-731_9KB/s(Youtube:不良林)_1
-      - 加拿大-3_53MB/s(Youtube:不良林)_2
-      - 日本-2_92MB/s(Youtube:不良林)_3
-      - 美国-467_9KB/s(Youtube:不良林)_4
-      - 美国-2_19MB/s(Youtube:不良林)_5
-      - 中国-1_20MB/s(Youtube:不良林)_6
-      - 德国-3_57MB/s(Youtube:不良林)_7
-      - 美国-3_43MB/s(Youtube:不良林)_8
-      - 美国-4_65MB/s(Youtube:不良林)_9
-      - 印度-2_84MB/s(Youtube:不良林)_10
-      - 加拿大-2_93MB/s(Youtube:不良林)_11
-      - 日本-2_92MB/s(Youtube:不良林)_12
-      - 加拿大-3_11MB/s(Youtube:不良林)_13
-      - 中国-344_4KB/s(Youtube:不良林)_14
-      - 中国-754_1KB/s(Youtube:不良林)_15
-      - 美国-3_43MB/s(Youtube:不良林)_16
-      - 美国-4_65MB/s(Youtube:不良林)_17
-      - 印度-2_84MB/s(Youtube:不良林)_18
-      - 中国-17_79MB/s(Youtube:不良林)_19
-      - 中国-7_16MB/s(Youtube:不良林)_20
+      - _CA_加拿大_1
+      - _US_美国_2
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
