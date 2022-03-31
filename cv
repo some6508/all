@@ -637,67 +637,74 @@ proxies:
   - {name: "US, 5", server: 65.49.220.2, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr01, udp: true}
   - {name: "SG,", server: 13.115.213.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "JP, 3", server: 13.228.168.185, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: 211.99.115.24, port: 11016, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡, server: 211.99.115.24, port: 11116, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇫🇷_FR_法国, server: 211.99.115.24, port: 11451, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦, server: 211.99.115.24, port: 11652, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 2, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: 211.99.115.24, port: 11404, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇩🇪_DE_德国, server: 211.99.115.24, port: 11406, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 3, server: 211.99.115.24, port: 11010, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇬🇧_GB_英国, server: 211.99.115.24, port: 11852, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇵🇭_PH_菲律宾, server: 211.99.115.24, port: 11901, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 4, server: 211.99.115.24, port: 11014, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇹🇭_TH_泰国, server: 211.99.115.24, port: 11902, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇹🇷_TR_土耳其, server: 211.99.115.24, port: 11904, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 5, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 6, server: 211.99.115.24, port: 11015, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 7, server: 211.99.115.24, port: 11002, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: 211.99.115.24, port: 11403, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 8, server: 211.99.115.24, port: 11007, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 9, server: 211.99.115.24, port: 11013, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇦🇺_AU_澳大利亚, server: 211.99.115.24, port: 11351, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇹🇷_TR_土耳其 2, server: 211.99.115.24, port: 11903, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇬🇧_GB_英国 2, server: 211.99.115.24, port: 11851, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾, server: 211.99.115.24, port: 11053, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 2, server: 211.99.115.24, port: 11113, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇩🇪_DE_德国 2, server: 211.99.115.24, port: 11405, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 3, server: 211.99.115.24, port: 11401, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 10, server: 211.99.115.24, port: 11006, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 11, server: 211.99.115.24, port: 11011, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾 2, server: 211.99.115.24, port: 11051, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 3, server: 211.99.115.24, port: 11105, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 4, server: 211.99.115.24, port: 11104, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 5, server: 211.99.115.24, port: 11111, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 6, server: 211.99.115.24, port: 11106, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇬🇧_GB_英国 3, server: 211.99.115.24, port: 11853, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 4, server: 211.99.115.24, port: 11501, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇮🇳_IN_印度, server: 211.99.115.24, port: 11302, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _US_美国, server: 167.88.63.108, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CN_中国->🇪🇸_ES_西班牙, server: 211.99.115.24, port: 11601, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾 3, server: 211.99.115.24, port: 11055, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 12, server: 211.99.115.24, port: 11012, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 13, server: 211.99.115.24, port: 11004, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾 4, server: 211.99.115.24, port: 11052, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 14, server: 211.99.115.24, port: 11018, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇳🇱_NL_荷兰, server: 211.99.115.24, port: 11551, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇳🇱_NL_荷兰 2, server: 211.99.115.24, port: 11553, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇮🇸_IS_冰岛, server: 211.99.115.24, port: 11701, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇮🇳_IN_印度 2, server: 211.99.115.24, port: 11301, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 15, server: 211.99.115.24, port: 11005, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇮🇩_ID_印度尼西亚, server: 211.99.115.24, port: 11905, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 16, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 7, server: 211.99.115.24, port: 11117, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 17, server: 211.99.115.24, port: 11003, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 8, server: 211.99.115.24, port: 11112, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 9, server: 211.99.115.24, port: 11114, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 18, server: 211.99.115.24, port: 11019, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇬🇧_GB_英国 4, server: 211.99.115.24, port: 11854, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 5, server: 211.99.115.24, port: 11402, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 10, server: 211.99.115.24, port: 11110, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 19, server: 211.99.115.24, port: 11008, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 11, server: 211.99.115.24, port: 11118, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾 5, server: 211.99.115.24, port: 11054, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: "[v1] 香港・16", server: cm08.paofuvip.xyz, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・03", server: cm07.paofuvip.xyz, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・12", server: cm08.paofuvip.xyz, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・13", server: cm08.paofuvip.xyz, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・18", server: cm08.paofuvip.xyz, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・02", server: cm07.paofuvip.xyz, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・19", server: cm08.paofuvip.xyz, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・01", server: cm07.paofuvip.xyz, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・11", server: cm08.paofuvip.xyz, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・05", server: cm07.paofuvip.xyz, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・15", server: cm08.paofuvip.xyz, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・14", server: cm08.paofuvip.xyz, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・06", server: cm07.paofuvip.xyz, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・07", server: cm07.paofuvip.xyz, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・17", server: cm08.paofuvip.xyz, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・09", server: cm07.paofuvip.xyz, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・04", server: cm07.paofuvip.xyz, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 新加坡・03", server: cm03.paofuvip.xyz, port: 1092, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 新加坡・05", server: cm03.paofuvip.xyz, port: 1094, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁, server: zz10.mcddns02.com, port: 23001, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
+  - {name: "[v1] 新加坡・01", server: cm03.paofuvip.xyz, port: 1090, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 新加坡・02", server: cm03.paofuvip.xyz, port: 1091, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 新加坡・04", server: cm03.paofuvip.xyz, port: 1093, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 台湾・03", server: cm05.paofuvip.xyz, port: 1072, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: AWS|新加坡, server: awssg.mochen1314.ga, port: 41284, type: trojan, password: npqB9c16IO, skip-cert-verify: true, udp: true}
+  - {name: "[v1] 台湾・02", server: cm05.paofuvip.xyz, port: 1071, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 台湾・04", server: cm05.paofuvip.xyz, port: 1073, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: ^🇭🇰香港HK 1156 *hi-moon.pw, server: relay1.sgdns.club, port: 11070, type: vmess, uuid: 2dc10784-c7fb-377d-a579-2b541eb16d7b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sgy, headers: {Host: relay1.sgdns.club}}, udp: true}
+  - {name: "[v1] 日本・03", server: cm05.paofuvip.xyz, port: 1052, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 日本・02", server: cm05.paofuvip.xyz, port: 1051, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: AWS|韩国, server: awskr.mochen1314.ga, port: 37699, type: trojan, password: 9ZcAmIBkW5, skip-cert-verify: true, udp: true}
+  - {name: AWS|新加坡|AZ中转, server: 20.239.75.151, port: 57066, type: trojan, password: npqB9c16IO, skip-cert-verify: true, udp: true}
+  - {name: "[v1] 日本・01", server: cm05.paofuvip.xyz, port: 1050, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 美国・03", server: cm05.paofuvip.xyz, port: 1082, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: 移动→新加坡 ② | 解锁 | SS, server: gy.qsbg.xyz, port: 11319, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 日本 | SS, server: gy.qsbg.xyz, port: 11359, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 移动→新加坡 ① | 解锁 | SS, server: gy.qsbg.xyz, port: 11322, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: _US_美国 (1), server: 167.88.63.108, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: AWS|韩国|AZ中转, server: 20.239.75.151, port: 22504, type: trojan, password: 9ZcAmIBkW5, skip-cert-verify: true, udp: true}
+  - {name: 香港_TG@nodesharing_23, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
+  - {name: 新加坡02, server: zz05.mcddns02.com, port: 18502, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
+  - {name: 新加坡01, server: zz05.mcddns02.com, port: 18501, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
+  - {name: 加拿大_TG@nodesharing_42, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 移动→越南 | 解锁 | SS, server: gy.qsbg.xyz, port: 11320, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: "[v1] 美国・04", server: cm05.paofuvip.xyz, port: 1083, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: 联通→台湾 ② | 解锁 | SS, server: lt.qsbg.xyz, port: 11312, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: "[v1] 美国・01", server: cm05.paofuvip.xyz, port: 1080, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: 移动→日本 | 解锁 | SS, server: gy.qsbg.xyz, port: 11344, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 移动→台湾 ② | 解锁 | SS, server: gy.qsbg.xyz, port: 11312, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 移动→香港 HKT | 解锁 | SS, server: gy.qsbg.xyz, port: 11326, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 联通→香港 HKT | 解锁 | SS, server: lt.qsbg.xyz, port: 11326, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 联通→新加坡 ② | 解锁 | SS, server: lt.qsbg.xyz, port: 11319, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 移动→台湾 ① | 解锁 | SS, server: gy.qsbg.xyz, port: 11352, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 联通→新加坡 ① | 解锁 | SS, server: lt.qsbg.xyz, port: 11322, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 联通→台湾 ① | 解锁 | SS, server: lt.qsbg.xyz, port: 11352, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 联通→日本 | 解锁 | SS, server: lt.qsbg.xyz, port: 11344, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 移动→西雅图 | 解锁 | SS, server: gy.qsbg.xyz, port: 11317, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 联通→越南 | 解锁 | SS, server: lt.qsbg.xyz, port: 11320, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 联通→韩国 | 解锁 | SS, server: lt.qsbg.xyz, port: 11315, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 移动→韩国 | 解锁 | SS, server: gy.qsbg.xyz, port: 11315, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 联通→香港 BGP② | 解锁 | SS, server: lt.qsbg.xyz, port: 11314, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 联通→香港 BGP① | 解锁 | SS, server: lt.qsbg.xyz, port: 11311, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 移动→香港 BGP② | 解锁 | SS, server: gy.qsbg.xyz, port: 11314, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 移动→香港 BGP① | 解锁 | SS, server: gy.qsbg.xyz, port: 11311, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 美国 racknerd | SS, server: gy.qsbg.xyz, port: 11328, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 联通→泰国 | 解锁 | SS, server: lt.qsbg.xyz, port: 11348, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 联通→西雅图 | 解锁 | SS, server: lt.qsbg.xyz, port: 11317, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
+  - {name: 移动→泰国 | 解锁 | SS, server: gy.qsbg.xyz, port: 11348, type: ss, cipher: chacha20-ietf-poly1305, password: 95645f6e-fea2-4eb2-b9f7-01364206d857, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1420,25 +1427,25 @@ proxies:
   - {name: TWN 02_14, server: 211.99.115.24, port: 11052, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: HKG 03_28, server: 211.99.115.24, port: 11003, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: HKG 15_40, server: 211.99.115.24, port: 11015, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: "[v1] 香港・05", server: cm07.paofuvip.xyz, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・05 2", server: cm07.paofuvip.xyz, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
   - {name: HKG 10_35, server: 211.99.115.24, port: 11010, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: TWN 03_15, server: 211.99.115.24, port: 11053, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: TWN 05_17, server: 211.99.115.24, port: 11055, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: HKG 18_43, server: 211.99.115.24, port: 11018, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: "[v1] 香港・12", server: cm08.paofuvip.xyz, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
-  - {name: "[v1] 香港・17", server: cm08.paofuvip.xyz, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
-  - {name: "[v1] 香港・07", server: cm07.paofuvip.xyz, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・12 2", server: cm08.paofuvip.xyz, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・17 2", server: cm08.paofuvip.xyz, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・07 2", server: cm07.paofuvip.xyz, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
   - {name: "[v1] 香港・08", server: cm07.paofuvip.xyz, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
-  - {name: "[v1] 香港・15", server: cm08.paofuvip.xyz, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
-  - {name: "[v1] 香港・16", server: cm08.paofuvip.xyz, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
-  - {name: "[v1] 香港・01", server: cm07.paofuvip.xyz, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
-  - {name: "[v1] 香港・02", server: cm07.paofuvip.xyz, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
-  - {name: "[v1] 香港・06", server: cm07.paofuvip.xyz, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
-  - {name: "[v1] 香港・09", server: cm07.paofuvip.xyz, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
-  - {name: "[v1] 香港・13", server: cm08.paofuvip.xyz, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・15 2", server: cm08.paofuvip.xyz, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・16 2", server: cm08.paofuvip.xyz, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・01 2", server: cm07.paofuvip.xyz, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・02 2", server: cm07.paofuvip.xyz, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・06 2", server: cm07.paofuvip.xyz, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・09 2", server: cm07.paofuvip.xyz, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・13 2", server: cm08.paofuvip.xyz, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
   - {name: SGP 02_52, server: 211.99.115.24, port: 11102, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: SGP 06_56, server: 211.99.115.24, port: 11106, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: "[v1] 香港・04", server: cm07.paofuvip.xyz, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
+  - {name: "[v1] 香港・04 2", server: cm07.paofuvip.xyz, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiCn, obfs-param: 0efd4193061.microsoft.com, udp: true}
   - {name: HKG 09_34, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: HKG 11_36 2, server: 211.99.115.24, port: 11011, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: TWN 01_13, server: 211.99.115.24, port: 11051, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -1475,7 +1482,7 @@ proxies:
   - {name: 183.240.9.29:29983, server: 183.240.9.29, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 183.240.9.28:29982, server: 183.240.9.28, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 183.240.9.28:29983, server: 183.240.9.28, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁, server: zz10.mcddns02.com, port: 23001, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
+  - {name: 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁 2, server: zz10.mcddns02.com, port: 23001, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
   - {name: 日本03, server: zz03.mcddns02.com, port: 17103, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
   - {name: 日本01, server: zz03.mcddns02.com, port: 17101, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
   - {name: 香港12, server: zz06.mcddns02.com, port: 22012, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
@@ -2150,67 +2157,74 @@ proxy-groups:
       - US, 5
       - SG,
       - JP, 3
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇬🇧_GB_英国
-      - _CN_中国->🇵🇭_PH_菲律宾
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇹🇭_TH_泰国
-      - _CN_中国->🇹🇷_TR_土耳其
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇭🇰_HK_香港 6
-      - _CN_中国->🇭🇰_HK_香港 7
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇭🇰_HK_香港 8
-      - _CN_中国->🇭🇰_HK_香港 9
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇹🇷_TR_土耳其 2
-      - _CN_中国->🇬🇧_GB_英国 2
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇸🇬_SG_新加坡 2
-      - _CN_中国->🇩🇪_DE_德国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇭🇰_HK_香港 10
-      - _CN_中国->🇭🇰_HK_香港 11
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - _CN_中国->🇸🇬_SG_新加坡 3
-      - _CN_中国->🇸🇬_SG_新加坡 4
-      - _CN_中国->🇸🇬_SG_新加坡 5
-      - _CN_中国->🇸🇬_SG_新加坡 6
-      - _CN_中国->🇬🇧_GB_英国 3
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇮🇳_IN_印度
-      - _US_美国
-      - _CN_中国->🇪🇸_ES_西班牙
-      - _CN_中国->🇹🇼_TW_台湾 3
-      - _CN_中国->🇭🇰_HK_香港 12
-      - _CN_中国->🇭🇰_HK_香港 13
-      - _CN_中国->🇹🇼_TW_台湾 4
-      - _CN_中国->🇭🇰_HK_香港 14
-      - _CN_中国->🇳🇱_NL_荷兰
-      - _CN_中国->🇳🇱_NL_荷兰 2
-      - _CN_中国->🇮🇸_IS_冰岛
-      - _CN_中国->🇮🇳_IN_印度 2
-      - _CN_中国->🇭🇰_HK_香港 15
-      - _CN_中国->🇮🇩_ID_印度尼西亚
-      - _CN_中国->🇭🇰_HK_香港 16
-      - _CN_中国->🇸🇬_SG_新加坡 7
-      - _CN_中国->🇭🇰_HK_香港 17
-      - _CN_中国->🇸🇬_SG_新加坡 8
-      - _CN_中国->🇸🇬_SG_新加坡 9
-      - _CN_中国->🇭🇰_HK_香港 18
-      - _CN_中国->🇬🇧_GB_英国 4
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇸🇬_SG_新加坡 10
-      - _CN_中国->🇭🇰_HK_香港 19
-      - _CN_中国->🇸🇬_SG_新加坡 11
-      - _CN_中国->🇹🇼_TW_台湾 5
+      - "[v1] 香港・16"
+      - "[v1] 香港・03"
+      - "[v1] 香港・12"
+      - "[v1] 香港・13"
+      - "[v1] 香港・18"
+      - "[v1] 香港・02"
+      - "[v1] 香港・19"
+      - "[v1] 香港・01"
+      - "[v1] 香港・11"
+      - "[v1] 香港・05"
+      - "[v1] 香港・15"
+      - "[v1] 香港・14"
+      - "[v1] 香港・06"
+      - "[v1] 香港・07"
+      - "[v1] 香港・17"
+      - "[v1] 香港・09"
+      - "[v1] 香港・04"
+      - "[v1] 新加坡・03"
+      - "[v1] 新加坡・05"
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁
+      - "[v1] 新加坡・01"
+      - "[v1] 新加坡・02"
+      - "[v1] 新加坡・04"
+      - "[v1] 台湾・03"
+      - AWS|新加坡
+      - "[v1] 台湾・02"
+      - "[v1] 台湾・04"
+      - ^🇭🇰香港HK 1156 *hi-moon.pw
+      - "[v1] 日本・03"
+      - "[v1] 日本・02"
+      - AWS|韩国
+      - AWS|新加坡|AZ中转
+      - "[v1] 日本・01"
+      - "[v1] 美国・03"
+      - 移动→新加坡 ② | 解锁 | SS
+      - 日本 | SS
+      - 移动→新加坡 ① | 解锁 | SS
+      - _US_美国 (1)
+      - AWS|韩国|AZ中转
+      - 香港_TG@nodesharing_23
+      - 新加坡02
+      - 新加坡01
+      - 加拿大_TG@nodesharing_42
+      - 移动→越南 | 解锁 | SS
+      - "[v1] 美国・04"
+      - 联通→台湾 ② | 解锁 | SS
+      - "[v1] 美国・01"
+      - 移动→日本 | 解锁 | SS
+      - 移动→台湾 ② | 解锁 | SS
+      - 移动→香港 HKT | 解锁 | SS
+      - 联通→香港 HKT | 解锁 | SS
+      - 联通→新加坡 ② | 解锁 | SS
+      - 移动→台湾 ① | 解锁 | SS
+      - 联通→新加坡 ① | 解锁 | SS
+      - 联通→台湾 ① | 解锁 | SS
+      - 联通→日本 | 解锁 | SS
+      - 移动→西雅图 | 解锁 | SS
+      - 联通→越南 | 解锁 | SS
+      - 联通→韩国 | 解锁 | SS
+      - 移动→韩国 | 解锁 | SS
+      - 联通→香港 BGP② | 解锁 | SS
+      - 联通→香港 BGP① | 解锁 | SS
+      - 移动→香港 BGP② | 解锁 | SS
+      - 移动→香港 BGP① | 解锁 | SS
+      - 美国 racknerd | SS
+      - 联通→泰国 | 解锁 | SS
+      - 联通→西雅图 | 解锁 | SS
+      - 移动→泰国 | 解锁 | SS
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -2933,25 +2947,25 @@ proxy-groups:
       - TWN 02_14
       - HKG 03_28
       - HKG 15_40
-      - "[v1] 香港・05"
+      - "[v1] 香港・05 2"
       - HKG 10_35
       - TWN 03_15
       - TWN 05_17
       - HKG 18_43
-      - "[v1] 香港・12"
-      - "[v1] 香港・17"
-      - "[v1] 香港・07"
+      - "[v1] 香港・12 2"
+      - "[v1] 香港・17 2"
+      - "[v1] 香港・07 2"
       - "[v1] 香港・08"
-      - "[v1] 香港・15"
-      - "[v1] 香港・16"
-      - "[v1] 香港・01"
-      - "[v1] 香港・02"
-      - "[v1] 香港・06"
-      - "[v1] 香港・09"
-      - "[v1] 香港・13"
+      - "[v1] 香港・15 2"
+      - "[v1] 香港・16 2"
+      - "[v1] 香港・01 2"
+      - "[v1] 香港・02 2"
+      - "[v1] 香港・06 2"
+      - "[v1] 香港・09 2"
+      - "[v1] 香港・13 2"
       - SGP 02_52
       - SGP 06_56
-      - "[v1] 香港・04"
+      - "[v1] 香港・04 2"
       - HKG 09_34
       - HKG 11_36 2
       - TWN 01_13
@@ -2988,7 +3002,7 @@ proxy-groups:
       - 183.240.9.29:29983
       - 183.240.9.28:29982
       - 183.240.9.28:29983
-      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁 2
       - 日本03
       - 日本01
       - 香港12
@@ -3663,67 +3677,74 @@ proxy-groups:
       - US, 5
       - SG,
       - JP, 3
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇬🇧_GB_英国
-      - _CN_中国->🇵🇭_PH_菲律宾
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇹🇭_TH_泰国
-      - _CN_中国->🇹🇷_TR_土耳其
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇭🇰_HK_香港 6
-      - _CN_中国->🇭🇰_HK_香港 7
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇭🇰_HK_香港 8
-      - _CN_中国->🇭🇰_HK_香港 9
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇹🇷_TR_土耳其 2
-      - _CN_中国->🇬🇧_GB_英国 2
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇸🇬_SG_新加坡 2
-      - _CN_中国->🇩🇪_DE_德国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇭🇰_HK_香港 10
-      - _CN_中国->🇭🇰_HK_香港 11
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - _CN_中国->🇸🇬_SG_新加坡 3
-      - _CN_中国->🇸🇬_SG_新加坡 4
-      - _CN_中国->🇸🇬_SG_新加坡 5
-      - _CN_中国->🇸🇬_SG_新加坡 6
-      - _CN_中国->🇬🇧_GB_英国 3
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇮🇳_IN_印度
-      - _US_美国
-      - _CN_中国->🇪🇸_ES_西班牙
-      - _CN_中国->🇹🇼_TW_台湾 3
-      - _CN_中国->🇭🇰_HK_香港 12
-      - _CN_中国->🇭🇰_HK_香港 13
-      - _CN_中国->🇹🇼_TW_台湾 4
-      - _CN_中国->🇭🇰_HK_香港 14
-      - _CN_中国->🇳🇱_NL_荷兰
-      - _CN_中国->🇳🇱_NL_荷兰 2
-      - _CN_中国->🇮🇸_IS_冰岛
-      - _CN_中国->🇮🇳_IN_印度 2
-      - _CN_中国->🇭🇰_HK_香港 15
-      - _CN_中国->🇮🇩_ID_印度尼西亚
-      - _CN_中国->🇭🇰_HK_香港 16
-      - _CN_中国->🇸🇬_SG_新加坡 7
-      - _CN_中国->🇭🇰_HK_香港 17
-      - _CN_中国->🇸🇬_SG_新加坡 8
-      - _CN_中国->🇸🇬_SG_新加坡 9
-      - _CN_中国->🇭🇰_HK_香港 18
-      - _CN_中国->🇬🇧_GB_英国 4
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇸🇬_SG_新加坡 10
-      - _CN_中国->🇭🇰_HK_香港 19
-      - _CN_中国->🇸🇬_SG_新加坡 11
-      - _CN_中国->🇹🇼_TW_台湾 5
+      - "[v1] 香港・16"
+      - "[v1] 香港・03"
+      - "[v1] 香港・12"
+      - "[v1] 香港・13"
+      - "[v1] 香港・18"
+      - "[v1] 香港・02"
+      - "[v1] 香港・19"
+      - "[v1] 香港・01"
+      - "[v1] 香港・11"
+      - "[v1] 香港・05"
+      - "[v1] 香港・15"
+      - "[v1] 香港・14"
+      - "[v1] 香港・06"
+      - "[v1] 香港・07"
+      - "[v1] 香港・17"
+      - "[v1] 香港・09"
+      - "[v1] 香港・04"
+      - "[v1] 新加坡・03"
+      - "[v1] 新加坡・05"
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁
+      - "[v1] 新加坡・01"
+      - "[v1] 新加坡・02"
+      - "[v1] 新加坡・04"
+      - "[v1] 台湾・03"
+      - AWS|新加坡
+      - "[v1] 台湾・02"
+      - "[v1] 台湾・04"
+      - ^🇭🇰香港HK 1156 *hi-moon.pw
+      - "[v1] 日本・03"
+      - "[v1] 日本・02"
+      - AWS|韩国
+      - AWS|新加坡|AZ中转
+      - "[v1] 日本・01"
+      - "[v1] 美国・03"
+      - 移动→新加坡 ② | 解锁 | SS
+      - 日本 | SS
+      - 移动→新加坡 ① | 解锁 | SS
+      - _US_美国 (1)
+      - AWS|韩国|AZ中转
+      - 香港_TG@nodesharing_23
+      - 新加坡02
+      - 新加坡01
+      - 加拿大_TG@nodesharing_42
+      - 移动→越南 | 解锁 | SS
+      - "[v1] 美国・04"
+      - 联通→台湾 ② | 解锁 | SS
+      - "[v1] 美国・01"
+      - 移动→日本 | 解锁 | SS
+      - 移动→台湾 ② | 解锁 | SS
+      - 移动→香港 HKT | 解锁 | SS
+      - 联通→香港 HKT | 解锁 | SS
+      - 联通→新加坡 ② | 解锁 | SS
+      - 移动→台湾 ① | 解锁 | SS
+      - 联通→新加坡 ① | 解锁 | SS
+      - 联通→台湾 ① | 解锁 | SS
+      - 联通→日本 | 解锁 | SS
+      - 移动→西雅图 | 解锁 | SS
+      - 联通→越南 | 解锁 | SS
+      - 联通→韩国 | 解锁 | SS
+      - 移动→韩国 | 解锁 | SS
+      - 联通→香港 BGP② | 解锁 | SS
+      - 联通→香港 BGP① | 解锁 | SS
+      - 移动→香港 BGP② | 解锁 | SS
+      - 移动→香港 BGP① | 解锁 | SS
+      - 美国 racknerd | SS
+      - 联通→泰国 | 解锁 | SS
+      - 联通→西雅图 | 解锁 | SS
+      - 移动→泰国 | 解锁 | SS
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -4446,25 +4467,25 @@ proxy-groups:
       - TWN 02_14
       - HKG 03_28
       - HKG 15_40
-      - "[v1] 香港・05"
+      - "[v1] 香港・05 2"
       - HKG 10_35
       - TWN 03_15
       - TWN 05_17
       - HKG 18_43
-      - "[v1] 香港・12"
-      - "[v1] 香港・17"
-      - "[v1] 香港・07"
+      - "[v1] 香港・12 2"
+      - "[v1] 香港・17 2"
+      - "[v1] 香港・07 2"
       - "[v1] 香港・08"
-      - "[v1] 香港・15"
-      - "[v1] 香港・16"
-      - "[v1] 香港・01"
-      - "[v1] 香港・02"
-      - "[v1] 香港・06"
-      - "[v1] 香港・09"
-      - "[v1] 香港・13"
+      - "[v1] 香港・15 2"
+      - "[v1] 香港・16 2"
+      - "[v1] 香港・01 2"
+      - "[v1] 香港・02 2"
+      - "[v1] 香港・06 2"
+      - "[v1] 香港・09 2"
+      - "[v1] 香港・13 2"
       - SGP 02_52
       - SGP 06_56
-      - "[v1] 香港・04"
+      - "[v1] 香港・04 2"
       - HKG 09_34
       - HKG 11_36 2
       - TWN 01_13
@@ -4501,7 +4522,7 @@ proxy-groups:
       - 183.240.9.29:29983
       - 183.240.9.28:29982
       - 183.240.9.28:29983
-      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁 2
       - 日本03
       - 日本01
       - 香港12
