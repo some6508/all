@@ -5,46 +5,53 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇳🇱_NL_荷兰_1","server":"211.99.115.24","port":11552,"type":"ss","country":"🇨🇳_CN_中国->🇳🇱_NL_荷兰_1","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
+  - {"name":"🇺🇸_US_美国_1","server":"167.88.63.108","port":3306,"type":"ss","country":"🇺🇸_US_美国_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_2","server":"167.88.63.108","port":8881,"type":"ss","country":"🇺🇸_US_美国_2","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +74,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
