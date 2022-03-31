@@ -5,7 +5,37 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "", server: 34.92.60.168, port: 38888, type: vmess, uuid: bd8c9c88-d5d0-416a-b4a2-be6e0b4dd5ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_1, server: 211.99.115.24, port: 11018, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_2, server: 211.99.115.24, port: 11010, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇹🇭_TH_泰国_3, server: 211.99.115.24, port: 11902, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_4, server: 211.99.115.24, port: 11006, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_5, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇫🇷_FR_法国_6, server: 211.99.115.24, port: 11451, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_7, server: 211.99.115.24, port: 11013, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇮🇳_IN_印度_8, server: 211.99.115.24, port: 11301, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_9, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_10, server: 211.99.115.24, port: 11005, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇬🇧_GB_英国_11, server: 211.99.115.24, port: 11852, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_12, server: 211.99.115.24, port: 11007, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_13, server: 211.99.115.24, port: 11105, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_14, server: 211.99.115.24, port: 11014, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_15, server: 211.99.115.24, port: 11051, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_16, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_17, server: 211.99.115.24, port: 11053, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_18, server: 211.99.115.24, port: 11054, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_19, server: 211.99.115.24, port: 11002, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _US_美国_20, server: 167.88.63.108, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_21, server: 211.99.115.24, port: 11651, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾_22, server: 211.99.115.24, port: 11052, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CA_加拿大_23, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_24, server: 211.99.115.24, port: 11011, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇵🇭_PH_菲律宾_25, server: 211.99.115.24, port: 11901, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_26, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: a9c10d37-716c-4429-8ad8-fa2b019ec909, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_27, server: 211.99.115.24, port: 11115, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇩🇪_DE_德国_28, server: 211.99.115.24, port: 11406, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港_29, server: 211.99.115.24, port: 11015, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_30, server: 211.99.115.24, port: 11111, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇩🇪_DE_德国_31, server: 211.99.115.24, port: 11405, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: 韩国(欢迎订阅Youtube破解资源君), server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326kr.fans8.xyz}}, udp: true}
   - {name: 韩国(欢迎订阅Youtube破解资源君) 2, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chaug, headers: {Host: v2fly.samrt.website}}, udp: true}
@@ -1422,7 +1452,37 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - ""
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _CN_中国->🇭🇰_HK_香港_2
+      - _CN_中国->🇹🇭_TH_泰国_3
+      - _CN_中国->🇭🇰_HK_香港_4
+      - _CN_中国->🇭🇰_HK_香港_5
+      - _CN_中国->🇫🇷_FR_法国_6
+      - _CN_中国->🇭🇰_HK_香港_7
+      - _CN_中国->🇮🇳_IN_印度_8
+      - _CN_中国->🇭🇰_HK_香港_9
+      - _CN_中国->🇭🇰_HK_香港_10
+      - _CN_中国->🇬🇧_GB_英国_11
+      - _CN_中国->🇭🇰_HK_香港_12
+      - _CN_中国->🇸🇬_SG_新加坡_13
+      - _CN_中国->🇭🇰_HK_香港_14
+      - _CN_中国->🇹🇼_TW_台湾_15
+      - _CN_中国->🇭🇰_HK_香港_16
+      - _CN_中国->🇹🇼_TW_台湾_17
+      - _CN_中国->🇹🇼_TW_台湾_18
+      - _CN_中国->🇭🇰_HK_香港_19
+      - _US_美国_20
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦_21
+      - _CN_中国->🇹🇼_TW_台湾_22
+      - _CA_加拿大_23
+      - _CN_中国->🇭🇰_HK_香港_24
+      - _CN_中国->🇵🇭_PH_菲律宾_25
+      - _CN_中国->🇭🇰_HK_香港_26
+      - _CN_中国->🇸🇬_SG_新加坡_27
+      - _CN_中国->🇩🇪_DE_德国_28
+      - _CN_中国->🇭🇰_HK_香港_29
+      - _CN_中国->🇸🇬_SG_新加坡_30
+      - _CN_中国->🇩🇪_DE_德国_31
       - 韩国(欢迎订阅Youtube破解资源君)
       - 韩国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)
@@ -2839,7 +2899,37 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - ""
+      - _CN_中国->🇭🇰_HK_香港_1
+      - _CN_中国->🇭🇰_HK_香港_2
+      - _CN_中国->🇹🇭_TH_泰国_3
+      - _CN_中国->🇭🇰_HK_香港_4
+      - _CN_中国->🇭🇰_HK_香港_5
+      - _CN_中国->🇫🇷_FR_法国_6
+      - _CN_中国->🇭🇰_HK_香港_7
+      - _CN_中国->🇮🇳_IN_印度_8
+      - _CN_中国->🇭🇰_HK_香港_9
+      - _CN_中国->🇭🇰_HK_香港_10
+      - _CN_中国->🇬🇧_GB_英国_11
+      - _CN_中国->🇭🇰_HK_香港_12
+      - _CN_中国->🇸🇬_SG_新加坡_13
+      - _CN_中国->🇭🇰_HK_香港_14
+      - _CN_中国->🇹🇼_TW_台湾_15
+      - _CN_中国->🇭🇰_HK_香港_16
+      - _CN_中国->🇹🇼_TW_台湾_17
+      - _CN_中国->🇹🇼_TW_台湾_18
+      - _CN_中国->🇭🇰_HK_香港_19
+      - _US_美国_20
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦_21
+      - _CN_中国->🇹🇼_TW_台湾_22
+      - _CA_加拿大_23
+      - _CN_中国->🇭🇰_HK_香港_24
+      - _CN_中国->🇵🇭_PH_菲律宾_25
+      - _CN_中国->🇭🇰_HK_香港_26
+      - _CN_中国->🇸🇬_SG_新加坡_27
+      - _CN_中国->🇩🇪_DE_德国_28
+      - _CN_中国->🇭🇰_HK_香港_29
+      - _CN_中国->🇸🇬_SG_新加坡_30
+      - _CN_中国->🇩🇪_DE_德国_31
       - 韩国(欢迎订阅Youtube破解资源君)
       - 韩国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)
