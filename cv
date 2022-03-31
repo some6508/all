@@ -5,8 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CA_加拿大_1, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国_2, server: 167.88.63.108, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 落地新加坡，有亚洲cfIP可以自己换_1, server: 172.64.143.70, port: 443, type: vmess, uuid: e9a1bf07-ba3c-2bf0-c18a-632c80084fbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zvduvws}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: sg-all.licom.ga, port: 6003, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-all.licom.ga}}, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君), server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君) 2, server: ca02.holiganfan.com, port: 10088, type: trojan, password: 61729199-896f-4c15-bae3-e8780b22c70c, sni: ca02.holiganfan.com, skip-cert-verify: true, udp: true}
@@ -1345,8 +1344,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CA_加拿大_1
-      - _US_美国_2
+      - 落地新加坡，有亚洲cfIP可以自己换_1
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
@@ -2685,8 +2683,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CA_加拿大_1
-      - _US_美国_2
+      - 落地新加坡，有亚洲cfIP可以自己换_1
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
