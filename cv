@@ -553,16 +553,8 @@ proxies:
   - {name: "US, 5", server: 65.49.220.2, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr01, udp: true}
   - {name: "SG,", server: 13.115.213.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "JP, 3", server: 13.228.168.185, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: CN_油管 TG 8度科技, server: e3f.jijifun.com, port: 30002, type: vmess, uuid: 9F39BBA5-4518-8256-54E0-20C4A14BDDBB, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_油管 TG 8度科技, server: hk3wyhzx.v2yun.vip, port: 80, type: vmess, uuid: 74d66879-9107-3894-a16b-2a1b3c01191b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk3wyhzx.v2yun.vip}}, udp: true}
-  - {name: HK_油管 TG 8度科技 2, server: hk5gb.v2yun.vip, port: 80, type: vmess, uuid: 74d66879-9107-3894-a16b-2a1b3c01191b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk5gb.v2yun.vip}}, udp: true}
-  - {name: US_油管 TG 8度科技, server: hkdx.v2yun.vip, port: 80, type: vmess, uuid: 74d66879-9107-3894-a16b-2a1b3c01191b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkdx.v2yun.vip}}, udp: true}
-  - {name: HK_油管 TG 8度科技 3, server: hk05gs.v2yun.vip, port: 80, type: vmess, uuid: 74d66879-9107-3894-a16b-2a1b3c01191b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk05gs.v2yun.vip}}, udp: true}
-  - {name: CN_油管 TG 8度科技 2, server: e3f.jijifun.com, port: 30001, type: vmess, uuid: 9F39BBA5-4518-8256-54E0-20C4A14BDDBB, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_油管 TG 8度科技 3, server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: JP_油管 TG 8度科技, server: 13.114.223.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: CN_油管 TG 8度科技 4, server: shonlinesandcu02.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: US_油管 TG 8度科技 2, server: jpgs.v2yun.vip, port: 80, type: vmess, uuid: 74d66879-9107-3894-a16b-2a1b3c01191b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpgs.v2yun.vip}}, udp: true}
+  - {name: _CA_加拿大, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国, server: 167.88.63.108, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1896,16 +1888,8 @@ proxy-groups:
       - US, 5
       - SG,
       - JP, 3
-      - CN_油管 TG 8度科技
-      - HK_油管 TG 8度科技
-      - HK_油管 TG 8度科技 2
-      - US_油管 TG 8度科技
-      - HK_油管 TG 8度科技 3
-      - CN_油管 TG 8度科技 2
-      - CN_油管 TG 8度科技 3
-      - JP_油管 TG 8度科技
-      - CN_油管 TG 8度科技 4
-      - US_油管 TG 8度科技 2
+      - _CA_加拿大
+      - _US_美国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3239,16 +3223,8 @@ proxy-groups:
       - US, 5
       - SG,
       - JP, 3
-      - CN_油管 TG 8度科技
-      - HK_油管 TG 8度科技
-      - HK_油管 TG 8度科技 2
-      - US_油管 TG 8度科技
-      - HK_油管 TG 8度科技 3
-      - CN_油管 TG 8度科技 2
-      - CN_油管 TG 8度科技 3
-      - JP_油管 TG 8度科技
-      - CN_油管 TG 8度科技 4
-      - US_油管 TG 8度科技 2
+      - _CA_加拿大
+      - _US_美国
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
