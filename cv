@@ -5,7 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇳🇱_NL_荷兰_1, server: 211.99.115.24, port: 11552, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _US_美国_1, server: 167.88.63.108, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_2, server: 167.88.63.108, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: sg-all.licom.ga, port: 6003, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-all.licom.ga}}, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君), server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
   - {name: 香港(欢迎订阅Youtube破解资源君) 2, server: ca02.holiganfan.com, port: 10088, type: trojan, password: 61729199-896f-4c15-bae3-e8780b22c70c, sni: ca02.holiganfan.com, skip-cert-verify: true, udp: true}
@@ -1344,7 +1345,8 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国->🇳🇱_NL_荷兰_1
+      - _US_美国_1
+      - _US_美国_2
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
@@ -2683,7 +2685,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国->🇳🇱_NL_荷兰_1
+      - _US_美国_1
+      - _US_美国_2
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君)
       - 香港(欢迎订阅Youtube破解资源君) 2
