@@ -5,7 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Q群更新451805629_1, server: 45.154.215.194, port: 20222, type: vmess, uuid: f70846f6-11db-4eda-ae70-4758a20331ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国_1, server: azjp.caolifei.tk, port: 29999, type: vmess, uuid: 3d25a7e7-8060-48a2-983f-24a4bbab0772, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国_2, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
   - {name: 韩国(欢迎订阅Youtube破解资源君), server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326kr.fans8.xyz}}, udp: true}
   - {name: 韩国(欢迎订阅Youtube破解资源君) 2, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chaug, headers: {Host: v2fly.samrt.website}}, udp: true}
@@ -1429,7 +1430,8 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - Q群更新451805629_1
+      - _US_美国_1
+      - _US_美国->🇩🇪_DE_德国_2
       - 韩国(欢迎订阅Youtube破解资源君)
       - 韩国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)
@@ -2853,7 +2855,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - Q群更新451805629_1
+      - _US_美国_1
+      - _US_美国->🇩🇪_DE_德国_2
       - 韩国(欢迎订阅Youtube破解资源君)
       - 韩国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)

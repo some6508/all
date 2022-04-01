@@ -5,53 +5,102 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"azjp.caolifei.tk","port":29999,"type":"vmess","uuid":"3d25a7e7-8060-48a2-983f-24a4bbab0772","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_1","skip-cert-verify":true,"tls":true,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国_2","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"6c175d1a-a57f-4881-a471-173eb139694b","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇩🇪_DE_德国_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xrenblog/","headers":{"host":"ipv6.xrenblog.com"}}}
+  - {"name":"v2cross_com_1","server":"139.162.122.205","port":3845,"type":"vmess","uuid":"76d5c6e3-c74c-3406-b9e8-9859d0a71c56","alterId":0,"cipher":"auto","country":"v2cross_com_1","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"v2cross_com_2","server":"158.247.224.121","port":2376,"type":"ss","country":"v2cross_com_2","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"v2cross_com_3","server":"aws-hk02.xiaohouzi.club","port":10081,"type":"vmess","uuid":"dbf20899-f0d8-33bd-bed0-ddc16105dfe3","alterId":1,"cipher":"auto","country":"v2cross_com_3","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"aws-hk02.xiaohouzi.club"}}}
+  - {"name":"v2cross_com_4","server":"134.195.196.51","port":8881,"type":"ss","country":"v2cross_com_4","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"v2cross_com_5","server":"bgp.xiaohouzi.club","port":28522,"type":"vmess","uuid":"dbf20899-f0d8-33bd-bed0-ddc16105dfe3","alterId":1,"cipher":"auto","country":"v2cross_com_5","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"bgp.xiaohouzi.club"}}}
+  - {"name":"v2cross_com_6","server":"134.195.196.51","port":8008,"type":"ss","country":"v2cross_com_6","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"v2cross_com_7","server":"azhk003.xiaohouzi.club","port":10051,"type":"vmess","uuid":"dbf20899-f0d8-33bd-bed0-ddc16105dfe3","alterId":0,"cipher":"auto","country":"v2cross_com_7","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"www.ibm.com"}}}
+  - {"name":"v2cross_com_8","server":"azhk091.xiaohouzi.club","port":10030,"type":"vmess","uuid":"dbf20899-f0d8-33bd-bed0-ddc16105dfe3","alterId":1,"cipher":"auto","country":"v2cross_com_8","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"azhk091.xiaohouzi.club"}}}
+  - {"name":"v2cross_com_9","server":"134.195.196.51","port":5000,"type":"ss","country":"v2cross_com_9","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - v2cross_com_1
+      - v2cross_com_2
+      - v2cross_com_3
+      - v2cross_com_4
+      - v2cross_com_5
+      - v2cross_com_6
+      - v2cross_com_7
+      - v2cross_com_8
+      - v2cross_com_9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - v2cross_com_1
+      - v2cross_com_2
+      - v2cross_com_3
+      - v2cross_com_4
+      - v2cross_com_5
+      - v2cross_com_6
+      - v2cross_com_7
+      - v2cross_com_8
+      - v2cross_com_9
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - v2cross_com_1
+      - v2cross_com_2
+      - v2cross_com_3
+      - v2cross_com_4
+      - v2cross_com_5
+      - v2cross_com_6
+      - v2cross_com_7
+      - v2cross_com_8
+      - v2cross_com_9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - v2cross_com_1
+      - v2cross_com_2
+      - v2cross_com_3
+      - v2cross_com_4
+      - v2cross_com_5
+      - v2cross_com_6
+      - v2cross_com_7
+      - v2cross_com_8
+      - v2cross_com_9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - v2cross_com_1
+      - v2cross_com_2
+      - v2cross_com_3
+      - v2cross_com_4
+      - v2cross_com_5
+      - v2cross_com_6
+      - v2cross_com_7
+      - v2cross_com_8
+      - v2cross_com_9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - v2cross_com_1
+      - v2cross_com_2
+      - v2cross_com_3
+      - v2cross_com_4
+      - v2cross_com_5
+      - v2cross_com_6
+      - v2cross_com_7
+      - v2cross_com_8
+      - v2cross_com_9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +123,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - v2cross_com_1
+      - v2cross_com_2
+      - v2cross_com_3
+      - v2cross_com_4
+      - v2cross_com_5
+      - v2cross_com_6
+      - v2cross_com_7
+      - v2cross_com_8
+      - v2cross_com_9
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
