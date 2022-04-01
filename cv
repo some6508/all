@@ -5,48 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_1, server: zz10.mcddns02.com, port: 23001, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: 美国02_2, server: zz04.mcddns02.com, port: 19102, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: 新加坡02_3, server: zz05.mcddns02.com, port: 18502, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: 新加坡01_4, server: zz05.mcddns02.com, port: 18501, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: nfeng6香港-中继-03_5, server: yy02.nfeng6.pp.ua, port: 2702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: 香港_R_450, server: iepl-hn01.qqgg.work, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 香港_R_160, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: defaultName_8, server: iepl-hn01.qqgg.work, port: 21637, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 香港13_9, server: zz06.mcddns02.com, port: 22013, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: "香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_10", server: zz01.mcddns02.com, port: 22001, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: 美国01_11, server: zz04.mcddns02.com, port: 19101, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: 美国03_12, server: zz04.mcddns02.com, port: 19103, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: defaultName_13, server: iepl-hn01.qqgg.work, port: 48293, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: nfeng6美国-中继-02_14, server: yy01.nfeng6.pp.ua, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: 新加坡03_15, server: zz09.mcddns02.com, port: 18503, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: 新加坡04_16, server: zz09.mcddns02.com, port: 18504, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: 香港Hongkong(AZ)●_17, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 菲律宾Philippine●_18, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 土耳其Turkey★_19, server: gz2.52168.xyz, port: 2104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 澳大利亚Australia●_20, server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 保加利亚Bulgaria●_21, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 乌克兰Ukraine★_22, server: gz2.52168.xyz, port: 2110, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 德国Germany★_23, server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 俄罗斯Russia★_24, server: gz2.52168.xyz, port: 2103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 英国England★_25, server: gz2.52168.xyz, port: 2102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 美国America●_26, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: adi_0703v-10967_27, server: 42.157.196.104, port: 10967, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ajax.microsoft.com, udp: true}
-  - {name: adi_0703v-10120_28, server: 42.157.196.103, port: 10120, type: ssr, cipher: rc4-md5, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: ajax.microsoft.com, udp: true}
-  - {name: adi_0703v-dg-hk-node01_29, server: dg-hk-node01.linkthink.app, port: 10210, type: ssr, cipher: dummy, password: abK09D1FnV, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: ajax.microsoft.com, udp: true}
-  - {name: adi_0703v-dg-hk-node02_30, server: dg-hk-node02.linkthink.app, port: 12025, type: ssr, cipher: dummy, password: e5opjuLDEQ, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: ajax.microsoft.com, udp: true}
-  - {name: adi_0703v-20037_31, server: 42.157.196.104, port: 20037, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: ajax.microsoft.com, udp: true}
-  - {name: CN_油管TG8度科技_32, server: shonlinesandcu02.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: CN_油管TG8度科技_33, server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: CN_油管TG8度科技_34, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: US_879_62_37Mb_35, server: us-am32-5.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_36, server: zz10.mcddns02.com, port: 23001, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: 日本03_37, server: zz03.mcddns02.com, port: 17103, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: 日本01_38, server: zz03.mcddns02.com, port: 17101, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: 香港12_39, server: zz06.mcddns02.com, port: 22012, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: "香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_40", server: zz01.mcddns02.com, port: 22001, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: "香港05丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_41", server: zz07.mcddns02.com, port: 22005, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoXu, obfs-param: b813b20071.microsoft.com, udp: true}
-  - {name: V1香港-HKBN-3x_42, server: rtc-ws.fsspeeder1.xyz, port: 30011, type: ssr, cipher: aes-256-cfb, password: kAZaFx, protocol: origin, obfs: http_simple, protocol-param: 9900:lWKIQt, obfs-param: bdc4bb926a.v4-dy.ixigua.com, udp: true}
+  - {name: _CA_加拿大_1, server: 134.195.196.51, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_2, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大_3, server: 134.195.196.51, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大_4, server: 134.195.196.51, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_5, server: 134.195.196.51, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_6, server: 134.195.196.51, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大_7, server: 134.195.196.51, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大_8, server: 134.195.196.51, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_9, server: 134.195.196.51, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: default_name_10, server: jp05-vm0.entry.ikuuu.casa, port: 447, type: vmess, uuid: 31a43857-f64f-3919-bfd8-32858b804749, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp05-vm0.entry.ikuuu.casa}}, udp: true}
   - {name: 韩国(欢迎订阅Youtube破解资源君), server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326kr.fans8.xyz}}, udp: true}
   - {name: 韩国(欢迎订阅Youtube破解资源君) 2, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chaug, headers: {Host: v2fly.samrt.website}}, udp: true}
@@ -1426,48 +1394,16 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_1
-      - 美国02_2
-      - 新加坡02_3
-      - 新加坡01_4
-      - nfeng6香港-中继-03_5
-      - 香港_R_450
-      - 香港_R_160
-      - defaultName_8
-      - 香港13_9
-      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_10
-      - 美国01_11
-      - 美国03_12
-      - defaultName_13
-      - nfeng6美国-中继-02_14
-      - 新加坡03_15
-      - 新加坡04_16
-      - 香港Hongkong(AZ)●_17
-      - 菲律宾Philippine●_18
-      - 土耳其Turkey★_19
-      - 澳大利亚Australia●_20
-      - 保加利亚Bulgaria●_21
-      - 乌克兰Ukraine★_22
-      - 德国Germany★_23
-      - 俄罗斯Russia★_24
-      - 英国England★_25
-      - 美国America●_26
-      - adi_0703v-10967_27
-      - adi_0703v-10120_28
-      - adi_0703v-dg-hk-node01_29
-      - adi_0703v-dg-hk-node02_30
-      - adi_0703v-20037_31
-      - CN_油管TG8度科技_32
-      - CN_油管TG8度科技_33
-      - CN_油管TG8度科技_34
-      - US_879_62_37Mb_35
-      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_36
-      - 日本03_37
-      - 日本01_38
-      - 香港12_39
-      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_40
-      - 香港05丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_41
-      - V1香港-HKBN-3x_42
+      - _CA_加拿大_1
+      - _CA_加拿大_2
+      - _CA_加拿大_3
+      - _CA_加拿大_4
+      - _CA_加拿大_5
+      - _CA_加拿大_6
+      - _CA_加拿大_7
+      - _CA_加拿大_8
+      - _CA_加拿大_9
+      - default_name_10
       - 韩国(欢迎订阅Youtube破解资源君)
       - 韩国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)
@@ -2847,48 +2783,16 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_1
-      - 美国02_2
-      - 新加坡02_3
-      - 新加坡01_4
-      - nfeng6香港-中继-03_5
-      - 香港_R_450
-      - 香港_R_160
-      - defaultName_8
-      - 香港13_9
-      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_10
-      - 美国01_11
-      - 美国03_12
-      - defaultName_13
-      - nfeng6美国-中继-02_14
-      - 新加坡03_15
-      - 新加坡04_16
-      - 香港Hongkong(AZ)●_17
-      - 菲律宾Philippine●_18
-      - 土耳其Turkey★_19
-      - 澳大利亚Australia●_20
-      - 保加利亚Bulgaria●_21
-      - 乌克兰Ukraine★_22
-      - 德国Germany★_23
-      - 俄罗斯Russia★_24
-      - 英国England★_25
-      - 美国America●_26
-      - adi_0703v-10967_27
-      - adi_0703v-10120_28
-      - adi_0703v-dg-hk-node01_29
-      - adi_0703v-dg-hk-node02_30
-      - adi_0703v-20037_31
-      - CN_油管TG8度科技_32
-      - CN_油管TG8度科技_33
-      - CN_油管TG8度科技_34
-      - US_879_62_37Mb_35
-      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_36
-      - 日本03_37
-      - 日本01_38
-      - 香港12_39
-      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_40
-      - 香港05丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_41
-      - V1香港-HKBN-3x_42
+      - _CA_加拿大_1
+      - _CA_加拿大_2
+      - _CA_加拿大_3
+      - _CA_加拿大_4
+      - _CA_加拿大_5
+      - _CA_加拿大_6
+      - _CA_加拿大_7
+      - _CA_加拿大_8
+      - _CA_加拿大_9
+      - default_name_10
       - 韩国(欢迎订阅Youtube破解资源君)
       - 韩国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君)
