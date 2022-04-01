@@ -5,431 +5,333 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"167.88.63.108","port":3306,"type":"ss","country":"🇺🇸_US_美国_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_2","server":"23.102.236.39","port":12929,"type":"ss","country":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_2","cipher":"aes-256-gcm","password":"76763f2a-7c79-498d-b0d3-986ad0f294cf"}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.51","port":6379,"type":"ss","country":"🇨🇦_CA_加拿大_3","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇨🇳_CN_中国->🇹🇷_TR_土耳其_4","server":"shcn2.734ca9b6-7c28-4dac-b1b1-4d97d967dd21.acf64fcb-96b5-4af0-8a2a-2fb7b50074f4.ryzen.cyou","port":32004,"type":"ss","country":"🇨🇳_CN_中国->🇹🇷_TR_土耳其_4","cipher":"chacha20-ietf-poly1305","password":"61967-Za7tlG5F-XFmHXfNzGhdAB5XtgxBmtycC945xasht"}
-  - {"name":"default_name_5","server":"jp05-vm0.entry.ikuuu.casa","port":447,"type":"vmess","uuid":"31a43857-f64f-3919-bfd8-32858b804749","alterId":1,"cipher":"auto","country":"default_name_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"jp05-tls-vm0.entry.vm-pass.org"}}}
-  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.51","port":6697,"type":"ss","country":"🇨🇦_CA_加拿大_6","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_7","server":"134.195.196.51","port":8080,"type":"ss","country":"🇨🇦_CA_加拿大_7","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA_加拿大_8","server":"134.195.196.51","port":8118,"type":"ss","country":"🇨🇦_CA_加拿大_8","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇭🇰_HK_香港_9","server":"0320hk857.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"🇭🇰_HK_香港_9","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0320hk857.fans8.xyz"}}}
-  - {"name":"default_name_10","server":"s5.walkunderground.com","port":11218,"type":"vmess","uuid":"343c8ad8-7fe1-405d-bb0d-c12ca62494ec","alterId":0,"cipher":"auto","country":"default_name_10","skip-cert-verify":true,"tls":true,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国_11","server":"172.67.68.58","port":443,"type":"vmess","uuid":"f2f578e4-692d-40b5-af99-9f1dd712eb32","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇫🇷_FR_法国_11","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/shuier","headers":{"host":"xc1.v2rie.pp.ua"}}}
-  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国_12","server":"fri.ncugo.cf","port":443,"type":"vmess","uuid":"de0eb598-2cea-43a0-c5fe-77335fb07a35","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇫🇷_FR_法国_12","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇭🇰_HK_香港_13","server":"101.33.125.235","port":16056,"type":"ss","country":"🇭🇰_HK_香港_13","cipher":"chacha20-ietf-poly1305","password":"76763f2a-7c79-498d-b0d3-986ad0f294cf"}
-  - {"name":"🇺🇸_US_美国_14","server":"169.197.142.99","port":7002,"type":"ss","country":"🇺🇸_US_美国_14","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_15","server":"134.195.196.51","port":7306,"type":"ss","country":"🇨🇦_CA_加拿大_15","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_16","server":"169.197.142.99","port":9102,"type":"ss","country":"🇺🇸_US_美国_16","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_17","server":"169.197.142.99","port":8091,"type":"ss","country":"🇺🇸_US_美国_17","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_18","server":"172.64.143.70","port":443,"type":"vmess","uuid":"e9a1bf07-ba3c-2bf0-c18a-632c80084fbb","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_18","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/zvduvws","headers":{"host":"sg.xxioixx.com"}}}
-  - {"name":"🇰🇷_KR_韩国_19","server":"myyuming.ga","port":443,"type":"vmess","uuid":"88c6643c-0156-472b-a7e8-6687b6e166b5","alterId":0,"cipher":"auto","country":"🇰🇷_KR_韩国_19","skip-cert-verify":true,"tls":true,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"🇭🇰_HK_香港_20","server":"hk-zone.checkmails.xyz","port":22999,"type":"ss","country":"🇭🇰_HK_香港_20","cipher":"chacha20-ietf-poly1305","password":"76763f2a-7c79-498d-b0d3-986ad0f294cf"}
-  - {"name":"🇰🇷_KR_韩国_21","server":"s5.walkunderground.com","port":50066,"type":"vmess","uuid":"fc4dae6a-d89f-4f0a-a3ae-7499f853f8ba","alterId":0,"cipher":"auto","country":"🇰🇷_KR_韩国_21","skip-cert-verify":true,"tls":true,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇦_CA_加拿大_22","server":"134.195.196.51","port":5001,"type":"ss","country":"🇨🇦_CA_加拿大_22","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_23","server":"169.197.142.99","port":443,"type":"ss","country":"🇺🇸_US_美国_23","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇸🇬_SG_新加坡_24","server":"chinamobile.ga","port":37344,"type":"vmess","uuid":"667bea8e-250e-4763-cb52-1e437356109e","alterId":0,"cipher":"auto","country":"🇸🇬_SG_新加坡_24","skip-cert-verify":true,"tls":true,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇦_CA_加拿大_25","server":"134.195.198.211","port":443,"type":"ss","country":"🇨🇦_CA_加拿大_25","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸_US_美国_26","server":"169.197.142.99","port":6697,"type":"ss","country":"🇺🇸_US_美国_26","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_27","server":"134.195.196.51","port":3389,"type":"ss","country":"🇨🇦_CA_加拿大_27","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_28","server":"134.195.196.51","port":5500,"type":"ss","country":"🇨🇦_CA_加拿大_28","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_29","server":"azure-hk-1.forwardserver.xyz","port":45794,"type":"vmess","uuid":"d7128f25-db35-41f9-91e1-720ac0f68509","alterId":0,"cipher":"auto","country":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_29","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/flover","headers":{"host":"sg.cnnp.tk"}}}
-  - {"name":"🇺🇸_US_美国_30","server":"169.197.142.99","port":8090,"type":"ss","country":"🇺🇸_US_美国_30","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_31","server":"134.195.196.51","port":9102,"type":"ss","country":"🇨🇦_CA_加拿大_31","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇭🇰_HK_香港->🇺🇸_US_美国_32","server":"hk-azb1.uuuglass.co","port":61226,"type":"ss","country":"🇭🇰_HK_香港->🇺🇸_US_美国_32","cipher":"chacha20-ietf-poly1305","password":"76763f2a-7c79-498d-b0d3-986ad0f294cf"}
-  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国_33","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"6c175d1a-a57f-4881-a471-173eb139694b","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇩🇪_DE_德国_33","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xrenblog/","headers":{"host":"ipv6.xrenblog.com"}}}
-  - {"name":"🇨🇦_CA_加拿大_34","server":"134.195.196.51","port":8090,"type":"ss","country":"🇨🇦_CA_加拿大_34","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US_美国_35","server":"169.197.142.99","port":6679,"type":"ss","country":"🇺🇸_US_美国_35","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_36","server":"134.195.196.51","port":8119,"type":"ss","country":"🇨🇦_CA_加拿大_36","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸_US_美国_37","server":"169.197.142.99","port":9101,"type":"ss","country":"🇺🇸_US_美国_37","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_38","server":"134.195.196.51","port":8009,"type":"ss","country":"🇨🇦_CA_加拿大_38","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"default_name_39","server":"jp01-tls-vm0.entry.ikuuu.casa","port":892,"type":"vmess","uuid":"31a43857-f64f-3919-bfd8-32858b804749","alterId":1,"cipher":"auto","country":"default_name_39","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"jp01-tls-vm0.entry.vm-pass.org"}}}
-  - {"name":"🇺🇸_US_美国_40","server":"169.197.142.99","port":5001,"type":"ss","country":"🇺🇸_US_美国_40","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_41","server":"134.195.196.51","port":8008,"type":"ss","country":"🇨🇦_CA_加拿大_41","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"default_name_42","server":"v2fly.sab.quest","port":443,"type":"vmess","uuid":"9e6ceeff-2546-3690-ac00-6fcdf31dec94","alterId":1,"cipher":"auto","country":"default_name_42","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/chaug","headers":{"host":"v2fly.samrt.website"}}}
-  - {"name":"🇨🇦_CA_加拿大_43","server":"134.195.196.51","port":8882,"type":"ss","country":"🇨🇦_CA_加拿大_43","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸_US_美国_44","server":"169.197.142.99","port":7001,"type":"ss","country":"🇺🇸_US_美国_44","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US_美国_45","server":"www.srealisreal011.xyz","port":443,"type":"vmess","uuid":"d77942a0-574c-4e68-999b-477845422a6e","alterId":233,"cipher":"auto","country":"🇺🇸_US_美国_45","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/gfw","headers":{"host":"www.srealisreal011.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_46","server":"134.195.196.51","port":7001,"type":"ss","country":"🇨🇦_CA_加拿大_46","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_47","server":"134.195.196.51","port":9101,"type":"ss","country":"🇨🇦_CA_加拿大_47","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国->🇫🇮_FI_芬兰_48","server":"dfuh.ml","port":443,"type":"vmess","uuid":"e969c7ae-b03f-4a1b-fd0b-3800fb5ce1d7","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇫🇮_FI_芬兰_48","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇦_CA_加拿大_49","server":"134.195.196.51","port":8881,"type":"ss","country":"🇨🇦_CA_加拿大_49","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"default_name_50","server":"jp01-tls-vm0.entry.ikuuu.casa","port":889,"type":"vmess","uuid":"8477764d-c618-3398-9d15-ee2b3becf2d0","alterId":1,"cipher":"auto","country":"default_name_50","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"jp01-tls-vm0.entry.vm-pass.org"}}}
-  - {"name":"🇨🇦_CA_加拿大_51","server":"134.195.196.51","port":8888,"type":"ss","country":"🇨🇦_CA_加拿大_51","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"default_name_52","server":"cf.000714.xyz","port":443,"type":"vmess","uuid":"3a1f10ae-1410-4c3d-9a6d-bb56da540477","alterId":0,"cipher":"auto","country":"default_name_52","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/eD5rD3jD7dQ5hN4qS5nG0zG7xD5kP2yU","headers":{"host":"zerocloud-us.gd1214b.icu"}}}
-  - {"name":"🇨🇦_CA_加拿大_53","server":"134.195.196.51","port":5000,"type":"ss","country":"🇨🇦_CA_加拿大_53","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_54","server":"134.195.196.51","port":6679,"type":"ss","country":"🇨🇦_CA_加拿大_54","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_55","server":"134.195.196.51","port":8000,"type":"ss","country":"🇨🇦_CA_加拿大_55","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA_加拿大_56","server":"134.195.196.51","port":5601,"type":"ss","country":"🇨🇦_CA_加拿大_56","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_1","server":"zz10.mcddns02.com","port":23001,"type":"ssr","country":"台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_1","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"美国02_2","server":"zz04.mcddns02.com","port":19102,"type":"ssr","country":"美国02_2","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"新加坡02_3","server":"zz05.mcddns02.com","port":18502,"type":"ssr","country":"新加坡02_3","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"新加坡01_4","server":"zz05.mcddns02.com","port":18501,"type":"ssr","country":"新加坡01_4","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"🇭🇰nfeng6香港-中继-03_5","server":"yy02.nfeng6.pp.ua","port":2702,"type":"ssr","country":"🇭🇰nfeng6香港-中继-03_5","password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","obfs":"plain","protocol-param":"65199:xMcKnc","obfs-param":"e167065199.microsoft.com"}
+  - {"name":"香港_R_450","server":"iepl-hn01.qqgg.work","port":64112,"type":"ssr","country":"香港_R_450","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"37380:k4VJ9SyAu3","obfs-param":"ajax.microsoft.com"}
+  - {"name":"香港_R_160","server":"iepl-gz.yyuuii.cyou","port":64112,"type":"ssr","country":"香港_R_160","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"37380:k4VJ9SyAu3","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_8","server":"iepl-hn01.qqgg.work","port":21637,"type":"ssr","country":"defaultName_8","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"32381:C2pHyiQfgm","obfs-param":"ajax.microsoft.com"}
+  - {"name":"香港13_9","server":"zz06.mcddns02.com","port":22013,"type":"ssr","country":"香港13_9","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_10","server":"zz01.mcddns02.com","port":22001,"type":"ssr","country":"香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_10","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"美国01_11","server":"zz04.mcddns02.com","port":19101,"type":"ssr","country":"美国01_11","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"美国03_12","server":"zz04.mcddns02.com","port":19103,"type":"ssr","country":"美国03_12","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"defaultName_13","server":"iepl-hn01.qqgg.work","port":48293,"type":"ssr","country":"defaultName_13","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"32381:C2pHyiQfgm","obfs-param":"ajax.microsoft.com"}
+  - {"name":"🇺🇸nfeng6美国-中继-02_14","server":"yy01.nfeng6.pp.ua","port":7701,"type":"ssr","country":"🇺🇸nfeng6美国-中继-02_14","password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","obfs":"plain","protocol-param":"65199:xMcKnc","obfs-param":"e167065199.microsoft.com"}
+  - {"name":"新加坡03_15","server":"zz09.mcddns02.com","port":18503,"type":"ssr","country":"新加坡03_15","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"新加坡04_16","server":"zz09.mcddns02.com","port":18504,"type":"ssr","country":"新加坡04_16","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"香港Hongkong(AZ)●_17","server":"gz1.52168.xyz","port":1114,"type":"ssr","country":"香港Hongkong(AZ)●_17","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"菲律宾Philippine●_18","server":"gz1.52168.xyz","port":1101,"type":"ssr","country":"菲律宾Philippine●_18","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"土耳其Turkey★_19","server":"gz2.52168.xyz","port":2104,"type":"ssr","country":"土耳其Turkey★_19","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"澳大利亚Australia●_20","server":"gz1.52168.xyz","port":1111,"type":"ssr","country":"澳大利亚Australia●_20","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"保加利亚Bulgaria●_21","server":"gz1.52168.xyz","port":1102,"type":"ssr","country":"保加利亚Bulgaria●_21","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"乌克兰Ukraine★_22","server":"gz2.52168.xyz","port":2110,"type":"ssr","country":"乌克兰Ukraine★_22","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"德国Germany★_23","server":"gz2.52168.xyz","port":2101,"type":"ssr","country":"德国Germany★_23","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"俄罗斯Russia★_24","server":"gz2.52168.xyz","port":2103,"type":"ssr","country":"俄罗斯Russia★_24","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"英国England★_25","server":"gz2.52168.xyz","port":2102,"type":"ssr","country":"英国England★_25","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"美国America●_26","server":"gz1.52168.xyz","port":1109,"type":"ssr","country":"美国America●_26","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"adi_0703v-10967_27","server":"42.157.196.104","port":10967,"type":"ssr","country":"adi_0703v-10967_27","password":"vCmp8ALih6","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"ajax.microsoft.com"}
+  - {"name":"adi_0703v-10120_28","server":"42.157.196.103","port":10120,"type":"ssr","country":"adi_0703v-10120_28","password":"Yk4UdrOyQg","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"http_post","obfs-param":"ajax.microsoft.com"}
+  - {"name":"adi_0703v-dg-hk-node01_29","server":"dg-hk-node01.linkthink.app","port":10210,"type":"ssr","country":"adi_0703v-dg-hk-node01_29","password":"abK09D1FnV","cipher":"none","protocol":"origin","obfs":"http_post","obfs-param":"ajax.microsoft.com"}
+  - {"name":"adi_0703v-dg-hk-node02_30","server":"dg-hk-node02.linkthink.app","port":12025,"type":"ssr","country":"adi_0703v-dg-hk-node02_30","password":"e5opjuLDEQ","cipher":"none","protocol":"origin","obfs":"http_post","obfs-param":"ajax.microsoft.com"}
+  - {"name":"adi_0703v-20037_31","server":"42.157.196.104","port":20037,"type":"ssr","country":"adi_0703v-20037_31","password":"CWSZscLkjf","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"http_post","obfs-param":"ajax.microsoft.com"}
+  - {"name":"CN_油管TG8度科技_32","server":"shonlinesandcu02.proconcn.xyz","port":562,"type":"ssr","country":"CN_油管TG8度科技_32","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"50252:123321Ddd"}
+  - {"name":"CN_油管TG8度科技_33","server":"shonlinesandcu02.proconcn.xyz","port":561,"type":"ssr","country":"CN_油管TG8度科技_33","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"50252:123321Ddd"}
+  - {"name":"CN_油管TG8度科技_34","server":"shonlinesandcu03.proconcn.xyz","port":561,"type":"ssr","country":"CN_油管TG8度科技_34","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"50252:123321Ddd"}
+  - {"name":"US_879_62_37Mb_35","server":"us-am32-5.eqnode.net","port":8081,"type":"ssr","country":"US_879_62_37Mb_35","password":"YFVrXZgRo","cipher":"aes-256-cfb","protocol":"origin","obfs":"tls1.2_ticket_auth"}
+  - {"name":"台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_36","server":"zz10.mcddns02.com","port":23001,"type":"ssr","country":"台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_36","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"日本03_37","server":"zz03.mcddns02.com","port":17103,"type":"ssr","country":"日本03_37","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"日本01_38","server":"zz03.mcddns02.com","port":17101,"type":"ssr","country":"日本01_38","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"香港12_39","server":"zz06.mcddns02.com","port":22012,"type":"ssr","country":"香港12_39","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_40","server":"zz01.mcddns02.com","port":22001,"type":"ssr","country":"香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_40","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"香港05丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_41","server":"zz07.mcddns02.com","port":22005,"type":"ssr","country":"香港05丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_41","password":"GYAzB9","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"20071:HeKshuSElOWJmoXu","obfs-param":"b813b20071.microsoft.com"}
+  - {"name":"V1香港-HKBN-3倍率_42","server":"rtc-ws.fsspeeder1.xyz","port":30011,"type":"ssr","country":"V1香港-HKBN-3倍率_42","password":"kAZaFx","cipher":"aes-256-cfb","protocol":"origin","obfs":"http_simple","protocol-param":"9900:lWKIQt","obfs-param":"bdc4bb926a.v4-dy.ixigua.com"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_4
-      - default_name_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇭🇰_HK_香港_9
-      - default_name_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_12
-      - 🇭🇰_HK_香港_13
-      - 🇺🇸_US_美国_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_18
-      - 🇰🇷_KR_韩国_19
-      - 🇭🇰_HK_香港_20
-      - 🇰🇷_KR_韩国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇸🇬_SG_新加坡_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇺🇸_US_美国_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇨🇦_CA_加拿大_28
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_29
-      - 🇺🇸_US_美国_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇭🇰_HK_香港->🇺🇸_US_美国_32
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇺🇸_US_美国_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇺🇸_US_美国_37
-      - 🇨🇦_CA_加拿大_38
-      - default_name_39
-      - 🇺🇸_US_美国_40
-      - 🇨🇦_CA_加拿大_41
-      - default_name_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇨🇦_CA_加拿大_47
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_48
-      - 🇨🇦_CA_加拿大_49
-      - default_name_50
-      - 🇨🇦_CA_加拿大_51
-      - default_name_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇨🇦_CA_加拿大_55
-      - 🇨🇦_CA_加拿大_56
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_1
+      - 美国02_2
+      - 新加坡02_3
+      - 新加坡01_4
+      - 🇭🇰nfeng6香港-中继-03_5
+      - 香港_R_450
+      - 香港_R_160
+      - defaultName_8
+      - 香港13_9
+      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_10
+      - 美国01_11
+      - 美国03_12
+      - defaultName_13
+      - 🇺🇸nfeng6美国-中继-02_14
+      - 新加坡03_15
+      - 新加坡04_16
+      - 香港Hongkong(AZ)●_17
+      - 菲律宾Philippine●_18
+      - 土耳其Turkey★_19
+      - 澳大利亚Australia●_20
+      - 保加利亚Bulgaria●_21
+      - 乌克兰Ukraine★_22
+      - 德国Germany★_23
+      - 俄罗斯Russia★_24
+      - 英国England★_25
+      - 美国America●_26
+      - adi_0703v-10967_27
+      - adi_0703v-10120_28
+      - adi_0703v-dg-hk-node01_29
+      - adi_0703v-dg-hk-node02_30
+      - adi_0703v-20037_31
+      - CN_油管TG8度科技_32
+      - CN_油管TG8度科技_33
+      - CN_油管TG8度科技_34
+      - US_879_62_37Mb_35
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_36
+      - 日本03_37
+      - 日本01_38
+      - 香港12_39
+      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_40
+      - 香港05丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_41
+      - V1香港-HKBN-3倍率_42
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_4
-      - default_name_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇭🇰_HK_香港_9
-      - default_name_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_12
-      - 🇭🇰_HK_香港_13
-      - 🇺🇸_US_美国_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_18
-      - 🇰🇷_KR_韩国_19
-      - 🇭🇰_HK_香港_20
-      - 🇰🇷_KR_韩国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇸🇬_SG_新加坡_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇺🇸_US_美国_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇨🇦_CA_加拿大_28
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_29
-      - 🇺🇸_US_美国_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇭🇰_HK_香港->🇺🇸_US_美国_32
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇺🇸_US_美国_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇺🇸_US_美国_37
-      - 🇨🇦_CA_加拿大_38
-      - default_name_39
-      - 🇺🇸_US_美国_40
-      - 🇨🇦_CA_加拿大_41
-      - default_name_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇨🇦_CA_加拿大_47
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_48
-      - 🇨🇦_CA_加拿大_49
-      - default_name_50
-      - 🇨🇦_CA_加拿大_51
-      - default_name_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇨🇦_CA_加拿大_55
-      - 🇨🇦_CA_加拿大_56
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_1
+      - 美国02_2
+      - 新加坡02_3
+      - 新加坡01_4
+      - 🇭🇰nfeng6香港-中继-03_5
+      - 香港_R_450
+      - 香港_R_160
+      - defaultName_8
+      - 香港13_9
+      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_10
+      - 美国01_11
+      - 美国03_12
+      - defaultName_13
+      - 🇺🇸nfeng6美国-中继-02_14
+      - 新加坡03_15
+      - 新加坡04_16
+      - 香港Hongkong(AZ)●_17
+      - 菲律宾Philippine●_18
+      - 土耳其Turkey★_19
+      - 澳大利亚Australia●_20
+      - 保加利亚Bulgaria●_21
+      - 乌克兰Ukraine★_22
+      - 德国Germany★_23
+      - 俄罗斯Russia★_24
+      - 英国England★_25
+      - 美国America●_26
+      - adi_0703v-10967_27
+      - adi_0703v-10120_28
+      - adi_0703v-dg-hk-node01_29
+      - adi_0703v-dg-hk-node02_30
+      - adi_0703v-20037_31
+      - CN_油管TG8度科技_32
+      - CN_油管TG8度科技_33
+      - CN_油管TG8度科技_34
+      - US_879_62_37Mb_35
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_36
+      - 日本03_37
+      - 日本01_38
+      - 香港12_39
+      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_40
+      - 香港05丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_41
+      - V1香港-HKBN-3倍率_42
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_4
-      - default_name_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇭🇰_HK_香港_9
-      - default_name_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_12
-      - 🇭🇰_HK_香港_13
-      - 🇺🇸_US_美国_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_18
-      - 🇰🇷_KR_韩国_19
-      - 🇭🇰_HK_香港_20
-      - 🇰🇷_KR_韩国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇸🇬_SG_新加坡_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇺🇸_US_美国_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇨🇦_CA_加拿大_28
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_29
-      - 🇺🇸_US_美国_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇭🇰_HK_香港->🇺🇸_US_美国_32
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇺🇸_US_美国_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇺🇸_US_美国_37
-      - 🇨🇦_CA_加拿大_38
-      - default_name_39
-      - 🇺🇸_US_美国_40
-      - 🇨🇦_CA_加拿大_41
-      - default_name_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇨🇦_CA_加拿大_47
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_48
-      - 🇨🇦_CA_加拿大_49
-      - default_name_50
-      - 🇨🇦_CA_加拿大_51
-      - default_name_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇨🇦_CA_加拿大_55
-      - 🇨🇦_CA_加拿大_56
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_1
+      - 美国02_2
+      - 新加坡02_3
+      - 新加坡01_4
+      - 🇭🇰nfeng6香港-中继-03_5
+      - 香港_R_450
+      - 香港_R_160
+      - defaultName_8
+      - 香港13_9
+      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_10
+      - 美国01_11
+      - 美国03_12
+      - defaultName_13
+      - 🇺🇸nfeng6美国-中继-02_14
+      - 新加坡03_15
+      - 新加坡04_16
+      - 香港Hongkong(AZ)●_17
+      - 菲律宾Philippine●_18
+      - 土耳其Turkey★_19
+      - 澳大利亚Australia●_20
+      - 保加利亚Bulgaria●_21
+      - 乌克兰Ukraine★_22
+      - 德国Germany★_23
+      - 俄罗斯Russia★_24
+      - 英国England★_25
+      - 美国America●_26
+      - adi_0703v-10967_27
+      - adi_0703v-10120_28
+      - adi_0703v-dg-hk-node01_29
+      - adi_0703v-dg-hk-node02_30
+      - adi_0703v-20037_31
+      - CN_油管TG8度科技_32
+      - CN_油管TG8度科技_33
+      - CN_油管TG8度科技_34
+      - US_879_62_37Mb_35
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_36
+      - 日本03_37
+      - 日本01_38
+      - 香港12_39
+      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_40
+      - 香港05丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_41
+      - V1香港-HKBN-3倍率_42
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_4
-      - default_name_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇭🇰_HK_香港_9
-      - default_name_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_12
-      - 🇭🇰_HK_香港_13
-      - 🇺🇸_US_美国_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_18
-      - 🇰🇷_KR_韩国_19
-      - 🇭🇰_HK_香港_20
-      - 🇰🇷_KR_韩国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇸🇬_SG_新加坡_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇺🇸_US_美国_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇨🇦_CA_加拿大_28
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_29
-      - 🇺🇸_US_美国_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇭🇰_HK_香港->🇺🇸_US_美国_32
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇺🇸_US_美国_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇺🇸_US_美国_37
-      - 🇨🇦_CA_加拿大_38
-      - default_name_39
-      - 🇺🇸_US_美国_40
-      - 🇨🇦_CA_加拿大_41
-      - default_name_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇨🇦_CA_加拿大_47
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_48
-      - 🇨🇦_CA_加拿大_49
-      - default_name_50
-      - 🇨🇦_CA_加拿大_51
-      - default_name_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇨🇦_CA_加拿大_55
-      - 🇨🇦_CA_加拿大_56
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_1
+      - 美国02_2
+      - 新加坡02_3
+      - 新加坡01_4
+      - 🇭🇰nfeng6香港-中继-03_5
+      - 香港_R_450
+      - 香港_R_160
+      - defaultName_8
+      - 香港13_9
+      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_10
+      - 美国01_11
+      - 美国03_12
+      - defaultName_13
+      - 🇺🇸nfeng6美国-中继-02_14
+      - 新加坡03_15
+      - 新加坡04_16
+      - 香港Hongkong(AZ)●_17
+      - 菲律宾Philippine●_18
+      - 土耳其Turkey★_19
+      - 澳大利亚Australia●_20
+      - 保加利亚Bulgaria●_21
+      - 乌克兰Ukraine★_22
+      - 德国Germany★_23
+      - 俄罗斯Russia★_24
+      - 英国England★_25
+      - 美国America●_26
+      - adi_0703v-10967_27
+      - adi_0703v-10120_28
+      - adi_0703v-dg-hk-node01_29
+      - adi_0703v-dg-hk-node02_30
+      - adi_0703v-20037_31
+      - CN_油管TG8度科技_32
+      - CN_油管TG8度科技_33
+      - CN_油管TG8度科技_34
+      - US_879_62_37Mb_35
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_36
+      - 日本03_37
+      - 日本01_38
+      - 香港12_39
+      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_40
+      - 香港05丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_41
+      - V1香港-HKBN-3倍率_42
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_4
-      - default_name_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇭🇰_HK_香港_9
-      - default_name_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_12
-      - 🇭🇰_HK_香港_13
-      - 🇺🇸_US_美国_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_18
-      - 🇰🇷_KR_韩国_19
-      - 🇭🇰_HK_香港_20
-      - 🇰🇷_KR_韩国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇸🇬_SG_新加坡_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇺🇸_US_美国_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇨🇦_CA_加拿大_28
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_29
-      - 🇺🇸_US_美国_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇭🇰_HK_香港->🇺🇸_US_美国_32
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇺🇸_US_美国_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇺🇸_US_美国_37
-      - 🇨🇦_CA_加拿大_38
-      - default_name_39
-      - 🇺🇸_US_美国_40
-      - 🇨🇦_CA_加拿大_41
-      - default_name_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇨🇦_CA_加拿大_47
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_48
-      - 🇨🇦_CA_加拿大_49
-      - default_name_50
-      - 🇨🇦_CA_加拿大_51
-      - default_name_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇨🇦_CA_加拿大_55
-      - 🇨🇦_CA_加拿大_56
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_1
+      - 美国02_2
+      - 新加坡02_3
+      - 新加坡01_4
+      - 🇭🇰nfeng6香港-中继-03_5
+      - 香港_R_450
+      - 香港_R_160
+      - defaultName_8
+      - 香港13_9
+      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_10
+      - 美国01_11
+      - 美国03_12
+      - defaultName_13
+      - 🇺🇸nfeng6美国-中继-02_14
+      - 新加坡03_15
+      - 新加坡04_16
+      - 香港Hongkong(AZ)●_17
+      - 菲律宾Philippine●_18
+      - 土耳其Turkey★_19
+      - 澳大利亚Australia●_20
+      - 保加利亚Bulgaria●_21
+      - 乌克兰Ukraine★_22
+      - 德国Germany★_23
+      - 俄罗斯Russia★_24
+      - 英国England★_25
+      - 美国America●_26
+      - adi_0703v-10967_27
+      - adi_0703v-10120_28
+      - adi_0703v-dg-hk-node01_29
+      - adi_0703v-dg-hk-node02_30
+      - adi_0703v-20037_31
+      - CN_油管TG8度科技_32
+      - CN_油管TG8度科技_33
+      - CN_油管TG8度科技_34
+      - US_879_62_37Mb_35
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_36
+      - 日本03_37
+      - 日本01_38
+      - 香港12_39
+      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_40
+      - 香港05丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_41
+      - V1香港-HKBN-3倍率_42
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_4
-      - default_name_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇭🇰_HK_香港_9
-      - default_name_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_12
-      - 🇭🇰_HK_香港_13
-      - 🇺🇸_US_美国_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_18
-      - 🇰🇷_KR_韩国_19
-      - 🇭🇰_HK_香港_20
-      - 🇰🇷_KR_韩国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇸🇬_SG_新加坡_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇺🇸_US_美国_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇨🇦_CA_加拿大_28
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_29
-      - 🇺🇸_US_美国_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇭🇰_HK_香港->🇺🇸_US_美国_32
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇺🇸_US_美国_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇺🇸_US_美国_37
-      - 🇨🇦_CA_加拿大_38
-      - default_name_39
-      - 🇺🇸_US_美国_40
-      - 🇨🇦_CA_加拿大_41
-      - default_name_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇨🇦_CA_加拿大_47
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_48
-      - 🇨🇦_CA_加拿大_49
-      - default_name_50
-      - 🇨🇦_CA_加拿大_51
-      - default_name_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇨🇦_CA_加拿大_55
-      - 🇨🇦_CA_加拿大_56
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_1
+      - 美国02_2
+      - 新加坡02_3
+      - 新加坡01_4
+      - 🇭🇰nfeng6香港-中继-03_5
+      - 香港_R_450
+      - 香港_R_160
+      - defaultName_8
+      - 香港13_9
+      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_10
+      - 美国01_11
+      - 美国03_12
+      - defaultName_13
+      - 🇺🇸nfeng6美国-中继-02_14
+      - 新加坡03_15
+      - 新加坡04_16
+      - 香港Hongkong(AZ)●_17
+      - 菲律宾Philippine●_18
+      - 土耳其Turkey★_19
+      - 澳大利亚Australia●_20
+      - 保加利亚Bulgaria●_21
+      - 乌克兰Ukraine★_22
+      - 德国Germany★_23
+      - 俄罗斯Russia★_24
+      - 英国England★_25
+      - 美国America●_26
+      - adi_0703v-10967_27
+      - adi_0703v-10120_28
+      - adi_0703v-dg-hk-node01_29
+      - adi_0703v-dg-hk-node02_30
+      - adi_0703v-20037_31
+      - CN_油管TG8度科技_32
+      - CN_油管TG8度科技_33
+      - CN_油管TG8度科技_34
+      - US_879_62_37Mb_35
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_36
+      - 日本03_37
+      - 日本01_38
+      - 香港12_39
+      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_40
+      - 香港05丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_41
+      - V1香港-HKBN-3倍率_42
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -452,62 +354,48 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_4
-      - default_name_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇭🇰_HK_香港_9
-      - default_name_10
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_11
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_12
-      - 🇭🇰_HK_香港_13
-      - 🇺🇸_US_美国_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_18
-      - 🇰🇷_KR_韩国_19
-      - 🇭🇰_HK_香港_20
-      - 🇰🇷_KR_韩国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇸🇬_SG_新加坡_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇺🇸_US_美国_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇨🇦_CA_加拿大_28
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_29
-      - 🇺🇸_US_美国_30
-      - 🇨🇦_CA_加拿大_31
-      - 🇭🇰_HK_香港->🇺🇸_US_美国_32
-      - 🇺🇸_US_美国->🇩🇪_DE_德国_33
-      - 🇨🇦_CA_加拿大_34
-      - 🇺🇸_US_美国_35
-      - 🇨🇦_CA_加拿大_36
-      - 🇺🇸_US_美国_37
-      - 🇨🇦_CA_加拿大_38
-      - default_name_39
-      - 🇺🇸_US_美国_40
-      - 🇨🇦_CA_加拿大_41
-      - default_name_42
-      - 🇨🇦_CA_加拿大_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇨🇦_CA_加拿大_46
-      - 🇨🇦_CA_加拿大_47
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_48
-      - 🇨🇦_CA_加拿大_49
-      - default_name_50
-      - 🇨🇦_CA_加拿大_51
-      - default_name_52
-      - 🇨🇦_CA_加拿大_53
-      - 🇨🇦_CA_加拿大_54
-      - 🇨🇦_CA_加拿大_55
-      - 🇨🇦_CA_加拿大_56
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_1
+      - 美国02_2
+      - 新加坡02_3
+      - 新加坡01_4
+      - 🇭🇰nfeng6香港-中继-03_5
+      - 香港_R_450
+      - 香港_R_160
+      - defaultName_8
+      - 香港13_9
+      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_10
+      - 美国01_11
+      - 美国03_12
+      - defaultName_13
+      - 🇺🇸nfeng6美国-中继-02_14
+      - 新加坡03_15
+      - 新加坡04_16
+      - 香港Hongkong(AZ)●_17
+      - 菲律宾Philippine●_18
+      - 土耳其Turkey★_19
+      - 澳大利亚Australia●_20
+      - 保加利亚Bulgaria●_21
+      - 乌克兰Ukraine★_22
+      - 德国Germany★_23
+      - 俄罗斯Russia★_24
+      - 英国England★_25
+      - 美国America●_26
+      - adi_0703v-10967_27
+      - adi_0703v-10120_28
+      - adi_0703v-dg-hk-node01_29
+      - adi_0703v-dg-hk-node02_30
+      - adi_0703v-20037_31
+      - CN_油管TG8度科技_32
+      - CN_油管TG8度科技_33
+      - CN_油管TG8度科技_34
+      - US_879_62_37Mb_35
+      - 台湾丨浙江移动丨HINET丨HBO、Netflix、KKTV、Bilibili等流媒体解锁_36
+      - 日本03_37
+      - 日本01_38
+      - 香港12_39
+      - 香港01丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_40
+      - 香港05丨浙江移动丨HKBN丨Netflix,TVB,ViuTV,HKTV解锁_41
+      - V1香港-HKBN-3倍率_42
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
