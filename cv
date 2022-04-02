@@ -5,16 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇨🇦_CA_加拿大_1, server: 42.157.161.45, port: 11801, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇳🇱_NL_荷兰_2, server: 211.99.115.3, port: 11551, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡_3, server: 211.99.115.23, port: 11101, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇬🇧_GB_英国_4, server: 211.99.115.14, port: 11852, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇳🇱_NL_荷兰_5, server: 211.99.115.13, port: 11552, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇬🇧_GB_英国_6, server: 211.99.115.5, port: 11854, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_7, server: 211.99.115.24, port: 11006, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_8, server: 211.99.115.23, port: 11652, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_9, server: 211.99.115.11, port: 11651, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇳🇱_NL_荷兰_10, server: 211.99.115.15, port: 11552, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: defaultName_1, server: 104.238.180.40, port: 35478, type: ssr, cipher: aes-128-cfb, password: 100fgs.asd, protocol: auth_sha1_v4, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: 139.227.223.3, port: 60013, type: vmess, uuid: e487b139-f286-3593-b763-d740c2096a0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.me/vpnhat}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: 139.227.222.202, port: 60014, type: vmess, uuid: e487b139-f286-3593-b763-d740c2096a0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.me/vpnhat}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 3, server: 139.227.222.202, port: 60021, type: vmess, uuid: e487b139-f286-3593-b763-d740c2096a0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.me/vpnhat}}, udp: true}
@@ -1419,79 +1410,49 @@ proxies:
   - {name: Ytb:鹏哥分享_加拿大_134, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_13, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_178, server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: github.com/freefq - 日本  1, server: aws-hk03.xiaohouzi.club, port: 10050, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: aws-hk03.xiaohouzi.club}}, udp: true}
-  - {name: github.com/freefq - 日本  2, server: awv093.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: awv093.xiaohouzi.club}}, udp: true}
-  - {name: github.com/freefq - 安徽省联通 3, server: 42.157.161.51, port: 11215, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: github.com/freefq - 山东省济南市电信 4, server: 211.99.115.24, port: 11014, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: github.com/freefq - 香港HKCABLE 5, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港Microsoft公司 6, server: 13.75.44.200, port: 40903, type: vmess, uuid: 6d1f4a41-f79e-45f5-8268-460e4f9f5d63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港XNNET LLC 7, server: 45.137.10.174, port: 39043, type: vmess, uuid: 1b2f44e4-a810-48a8-b620-a4567b46c9b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22v2ex.downk.cc%22%7D"}}, udp: true}
-  - {name: github.com/freefq - 日本  8, server: hk-azure02.xiaohouzi.club, port: 10051, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: hk-azure02.xiaohouzi.club}}, udp: true}
+  - {name: github.com/freefq - 山东省济南市电信 1, server: 211.99.115.16, port: 11054, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 2, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: 96afe210-7c3c-43f9-90dc-09e9c7ce188c, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港Microsoft公司 3, server: 13.75.44.200, port: 40903, type: vmess, uuid: 6d1f4a41-f79e-45f5-8268-460e4f9f5d63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港XNNET LLC 4, server: 45.137.10.174, port: 39043, type: vmess, uuid: 1b2f44e4-a810-48a8-b620-a4567b46c9b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22v2ex.downk.cc%22%7D"}}, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 5, server: azjp.caolifei.tk, port: 29999, type: vmess, uuid: 3d25a7e7-8060-48a2-983f-24a4bbab0772, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大  6, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320jp.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 7, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 上海市电信CN2 8, server: cn-cu-2.sgdns.club, port: 11190, type: vmess, uuid: 2dc10784-c7fb-377d-a579-2b541eb16d7b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /114514.apk, headers: {Host: cn-cu-2.sgdns.club}}, udp: true}
   - {name: github.com/freefq - 日本东京Choopa数据中心 9, server: 45.77.22.155, port: 49192, type: vmess, uuid: 190e9608-0d6c-4b59-8665-c2fb0d632b6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 日本  10, server: shk02.xiaohouzi.club, port: 10053, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: shk02.xiaohouzi.club}}, udp: true}
-  - {name: github.com/freefq - 日本  11, server: azhk01.xiaohouzi.club, port: 10050, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: azhk01.xiaohouzi.club}}, udp: true}
-  - {name: github.com/freefq - 美国DXC Technology 12, server: jp03-vm0.ikuuu.casa, port: 449, type: vmess, uuid: 8581d15e-ae94-3fda-9de5-e8dff1c05e23, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp03-vm0.ikuuu.casa}}, udp: true}
-  - {name: github.com/freefq - 安徽省联通 13, server: 42.157.161.51, port: 11214, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: github.com/freefq - 日本  14, server: aws-hk02.xiaohouzi.club, port: 10081, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}, udp: true}
-  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 15, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 上海市电信CN2 16, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: github.com/freefq - 香港腾讯云 17, server: azhk098.xiaohouzi.club, port: 10090, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: azhk098.xiaohouzi.club}}, udp: true}
-  - {name: github.com/freefq - 日本  18, server: azhk03.xiaohouzi.club, port: 10050, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}, udp: true}
-  - {name: github.com/freefq - 美国Amazon EC2服务器 19, server: tj-node-2-b.gfwairport.net, port: 50001, type: trojan, password: aebdbdce-5933-45fb-b017-caef3f723204, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  20, server: us04.xiaohouzi.club, port: 10083, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: us04.xiaohouzi.club}}, udp: true}
-  - {name: github.com/freefq - 广东省汕头市移动 21, server: china-gzyd-1.forwardserver.xyz, port: 52024, type: vmess, uuid: 9e2c37d4-ab58-4730-8869-cb7b923d55d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura, headers: {Host: china-gzyd-1.forwardserver.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 22, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 96afe210-7c3c-43f9-90dc-09e9c7ce188c, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港腾讯云 23, server: azhk097.xiaohouzi.club, port: 443, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: azhk097.xiaohouzi.club}}, udp: true}
-  - {name: github.com/freefq - 香港腾讯云 24, server: aws-hk06.xiaohouzi.club, port: 443, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: aws-hk06.xiaohouzi.club}}, udp: true}
-  - {name: github.com/freefq - 美国惠普HP 25, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  26, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: b0a2370c-508b-427d-be3e-8efe70ae2f4d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: awsxjp.moonfree.top, network: ws, ws-opts: {path: /, headers: {Host: awsxjp.moonfree.top}}, udp: true}
-  - {name: github.com/freefq - 香港腾讯云 27, server: shk01.xiaohouzi.club, port: 10050, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}, udp: true}
-  - {name: github.com/freefq - 北美地区  28, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 美国  29, server: us06.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: us06.xiaohouzi.club}}, udp: true}
-  - {name: github.com/freefq - 香港腾讯云 30, server: azhk099.xiaohouzi.club, port: 10089, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: azhk099.xiaohouzi.club}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 31, server: app.ssfree.ru, port: 443, type: vmess, uuid: 5ec7da34-b239-11ec-a46e-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: github.com/freefq - 上海市联通 32, server: mc.xiaohouzi.club, port: 28323, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: mc.xiaohouzi.club}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 33, server: linodemx0303.moonfree.top, port: 443, type: vmess, uuid: b0a2370c-508b-427d-be3e-8efe70ae2f4d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: linodemx0303.moonfree.top, network: ws, ws-opts: {path: /, headers: {Host: linodemx0303.moonfree.top}}, udp: true}
-  - {name: github.com/freefq - 加拿大  34, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320jp.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 山东省济南市电信 35, server: 211.99.115.2, port: 11113, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: github.com/freefq - 加拿大  36, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk857.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 亚太地区  37, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 香港Microsoft数据中心 38, server: azure-hk-1.forwardserver.xyz, port: 45794, type: vmess, uuid: d7128f25-db35-41f9-91e1-720ac0f68509, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /flover, headers: {Host: sg.cnnp.tk}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 39, server: bpjzx2.cainiao.tk, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: orange-mode-ac6a.xjp0mx2cp.workers.dev}}, udp: true}
-  - {name: github.com/freefq - 俄罗斯西伯利亚JustHost 40, server: v2-r03.xiaohouzi.club, port: 10083, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}, udp: true}
-  - {name: github.com/freefq - 加拿大  41, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国  42, server: sg.coco233.xyz, port: 35421, type: trojan, password: b687b90f-54e3-4123-8771-3425fde5aff0, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 俄罗斯鞑靼斯坦喀山justhost 43, server: v2-r02.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}, udp: true}
-  - {name: github.com/freefq - 美国  44, server: misaka1433.tk, port: 443, type: trojan, password: JAtFrEpLX8mryvu8, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省广州市移动 45, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: github.com/freefq - 俄罗斯  46, server: uk.london1.vpntester.net, port: 15256, type: ss, cipher: chacha20-ietf-poly1305, password: 4SGLMZ7Z83fN, udp: true}
-  - {name: github.com/freefq - 美国惠普公司 47, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 山东省济南市电信 48, server: 211.99.115.16, port: 11054, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: github.com/freefq - 俄罗斯新西伯利亚justhost 49, server: v2-r01.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}, udp: true}
-  - {name: github.com/freefq - 希腊  50, server: 144.24.72.229, port: 38086, type: vmess, uuid: 85b07edc-de86-416f-9d5d-18bc081fec54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 51, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: ipv6.xrenblog.com}}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 52, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: 96afe210-7c3c-43f9-90dc-09e9c7ce188c, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 上海市联通 53, server: sh.xiaohouzi.club, port: 17902, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sh.xiaohouzi.club}}, udp: true}
-  - {name: github.com/freefq - 美国加利福利亚州洛杉矶iaclouds.com 54, server: vv01.xiaohouzi.club, port: 10083, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}, udp: true}
-  - {name: github.com/freefq - 日本  55, server: 146.56.108.108, port: 26113, type: vmess, uuid: 1071810b-8a51-4fba-de7f-1efe88c87ea8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶CeraNetworks数据中心 56, server: us-cera.jiashumao.net, port: 12001, type: trojan, password: 03323014-2ec8-37bb-9ac7-04a1cfae2bc0, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 日本  57, server: azhk02.xiaohouzi.club, port: 443, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: azhk02.xiaohouzi.club}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 58, server: 52.175.12.141, port: 24396, type: vmess, uuid: c4b30765-3dbc-422e-93c4-3591b1debb6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港特别行政区 59, server: 104.208.84.177, port: 33578, type: vmess, uuid: 5919b468-a268-4012-9cf1-08f96260d0c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  60, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9apQabyg9le, headers: {Host: 209.94.56.152}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 61, server: fri.ncugo.cf, port: 443, type: vmess, uuid: de0eb598-2cea-43a0-c5fe-77335fb07a35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fri.ncugo.cf}}, udp: true}
-  - {name: github.com/freefq - 北美地区  62, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq - 美国  63, server: 154.23.190.162, port: 443, type: vmess, uuid: b9984674-f771-4e67-a198-c7e60720ba2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: github.com/freefq - 日本  64, server: azhk096.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}, udp: true}
-  - {name: github.com/freefq - 上海市联通 65, server: bgp.xiaohouzi.club, port: 28523, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: bgp.xiaohouzi.club}}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 66, server: 20.239.93.20, port: 44325, type: vmess, uuid: 11b06661-917f-40e1-8b87-461455993abb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 法国  67, server: 0316ro.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nl, headers: {Host: 0316ro.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 北美地区  68, server: 134.195.196.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 上海市电信 69, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: github.com/freefq - 北美地区  70, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 北美地区  71, server: 134.195.196.51, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: github.com/freefq - 香港特别行政区 72, server: 104.208.79.9, port: 57209, type: vmess, uuid: 0de8896e-462c-4653-9f89-8dc8a1748c17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 73, server: azjp.caolifei.tk, port: 29999, type: vmess, uuid: 3d25a7e7-8060-48a2-983f-24a4bbab0772, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 10, server: linodemx0303.moonfree.top, port: 443, type: vmess, uuid: b0a2370c-508b-427d-be3e-8efe70ae2f4d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: linodemx0303.moonfree.top, network: ws, ws-opts: {path: /, headers: {Host: linodemx0303.moonfree.top}}, udp: true}
+  - {name: github.com/freefq - 美国  11, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: b0a2370c-508b-427d-be3e-8efe70ae2f4d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: awsxjp.moonfree.top, network: ws, ws-opts: {path: /, headers: {Host: awsxjp.moonfree.top}}, udp: true}
+  - {name: github.com/freefq - 俄罗斯  12, server: uk.london1.vpntester.net, port: 15256, type: ss, cipher: chacha20-ietf-poly1305, password: 4SGLMZ7Z83fN, udp: true}
+  - {name: github.com/freefq - 美国惠普HP 13, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 14, server: app.ssfree.ru, port: 443, type: vmess, uuid: 5ec7da34-b239-11ec-a46e-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 15, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: ipv6.xrenblog.com}}, udp: true}
+  - {name: github.com/freefq - 加拿大  16, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 17, server: azure-hk-1.forwardserver.xyz, port: 45794, type: vmess, uuid: d7128f25-db35-41f9-91e1-720ac0f68509, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /flover, headers: {Host: sg.cnnp.tk}}, udp: true}
+  - {name: github.com/freefq - 香港特别行政区 18, server: 104.208.84.177, port: 33578, type: vmess, uuid: 5919b468-a268-4012-9cf1-08f96260d0c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 广东省广州市移动 19, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: github.com/freefq - 上海市电信 20, server: relay1.sgdns.club, port: 11070, type: vmess, uuid: 2dc10784-c7fb-377d-a579-2b541eb16d7b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sgy, headers: {Host: relay1.sgdns.club}}, udp: true}
+  - {name: github.com/freefq - 山东省济南市电信 21, server: 211.99.115.2, port: 11113, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: github.com/freefq - 北美地区  22, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 亚太地区  23, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 安徽省联通 24, server: 42.157.161.51, port: 11214, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: github.com/freefq - 美国  25, server: sg.coco233.xyz, port: 35421, type: trojan, password: b687b90f-54e3-4123-8771-3425fde5aff0, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 北美地区  26, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 北美地区  27, server: 134.195.196.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 法国  28, server: 0316ro.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nl, headers: {Host: 0316ro.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶CeraNetworks数据中心 29, server: us-cera.jiashumao.net, port: 12001, type: trojan, password: 03323014-2ec8-37bb-9ac7-04a1cfae2bc0, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 北美地区  30, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 广东省汕头市移动 31, server: china-gzyd-1.forwardserver.xyz, port: 52024, type: vmess, uuid: 9e2c37d4-ab58-4730-8869-cb7b923d55d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura, headers: {Host: china-gzyd-1.forwardserver.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国  32, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9apQabyg9le, headers: {Host: 209.94.56.152}}, udp: true}
+  - {name: github.com/freefq - 北美地区  33, server: 134.195.196.51, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: github.com/freefq - 安徽省联通 34, server: 42.157.161.51, port: 11215, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: github.com/freefq - 美国惠普公司 35, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 36, server: fri.ncugo.cf, port: 443, type: vmess, uuid: de0eb598-2cea-43a0-c5fe-77335fb07a35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fri.ncugo.cf}}, udp: true}
+  - {name: github.com/freefq - 美国  37, server: 154.23.190.162, port: 443, type: vmess, uuid: b9984674-f771-4e67-a198-c7e60720ba2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: github.com/freefq - 美国  38, server: misaka1433.tk, port: 443, type: trojan, password: JAtFrEpLX8mryvu8, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 希腊  39, server: 144.24.72.229, port: 38086, type: vmess, uuid: 85b07edc-de86-416f-9d5d-18bc081fec54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 40, server: 52.175.12.141, port: 24396, type: vmess, uuid: c4b30765-3dbc-422e-93c4-3591b1debb6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大  41, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk857.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 香港特别行政区 42, server: 104.208.79.9, port: 57209, type: vmess, uuid: 0de8896e-462c-4653-9f89-8dc8a1748c17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 43, server: 20.239.93.20, port: 44325, type: vmess, uuid: 11b06661-917f-40e1-8b87-461455993abb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "Lv3 香港 04 [3.0]", server: aead-hk.dnsfree.ltd, port: 9004, type: ss, cipher: aes-256-gcm, password: c8b9a199-e577-4d25-a1c3-54b261b8285d, udp: true}
   - {name: defaultName_15, server: ieplszhk-sz.qqgg.work, port: 50804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: defaultName_6, server: iepl-hn01.qqgg.work, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
@@ -1649,16 +1610,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国->🇨🇦_CA_加拿大_1
-      - _CN_中国->🇳🇱_NL_荷兰_2
-      - _CN_中国->🇸🇬_SG_新加坡_3
-      - _CN_中国->🇬🇧_GB_英国_4
-      - _CN_中国->🇳🇱_NL_荷兰_5
-      - _CN_中国->🇬🇧_GB_英国_6
-      - _CN_中国->🇭🇰_HK_香港_7
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_8
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_9
-      - _CN_中国->🇳🇱_NL_荷兰_10
+      - defaultName_1
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
@@ -3063,79 +3015,49 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_134
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
-      - github.com/freefq - 日本  1
-      - github.com/freefq - 日本  2
-      - github.com/freefq - 安徽省联通 3
-      - github.com/freefq - 山东省济南市电信 4
-      - github.com/freefq - 香港HKCABLE 5
-      - github.com/freefq - 香港Microsoft公司 6
-      - github.com/freefq - 香港XNNET LLC 7
-      - github.com/freefq - 日本  8
+      - github.com/freefq - 山东省济南市电信 1
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 香港Microsoft公司 3
+      - github.com/freefq - 香港XNNET LLC 4
+      - github.com/freefq - 美国Microsoft数据中心 5
+      - github.com/freefq - 加拿大  6
+      - github.com/freefq - 日本东京都品川区Linode数据中心 7
+      - github.com/freefq - 上海市电信CN2 8
       - github.com/freefq - 日本东京Choopa数据中心 9
-      - github.com/freefq - 日本  10
-      - github.com/freefq - 日本  11
-      - github.com/freefq - 美国DXC Technology 12
-      - github.com/freefq - 安徽省联通 13
-      - github.com/freefq - 日本  14
-      - github.com/freefq - 日本东京都品川区Linode数据中心 15
-      - github.com/freefq - 上海市电信CN2 16
-      - github.com/freefq - 香港腾讯云 17
-      - github.com/freefq - 日本  18
-      - github.com/freefq - 美国Amazon EC2服务器 19
-      - github.com/freefq - 美国  20
-      - github.com/freefq - 广东省汕头市移动 21
-      - github.com/freefq - 美国Microsoft数据中心 22
-      - github.com/freefq - 香港腾讯云 23
-      - github.com/freefq - 香港腾讯云 24
-      - github.com/freefq - 美国惠普HP 25
-      - github.com/freefq - 美国  26
-      - github.com/freefq - 香港腾讯云 27
-      - github.com/freefq - 北美地区  28
-      - github.com/freefq - 美国  29
-      - github.com/freefq - 香港腾讯云 30
-      - github.com/freefq - 美国CloudFlare节点 31
-      - github.com/freefq - 上海市联通 32
-      - github.com/freefq - 美国CloudFlare公司CDN节点 33
-      - github.com/freefq - 加拿大  34
-      - github.com/freefq - 山东省济南市电信 35
-      - github.com/freefq - 加拿大  36
-      - github.com/freefq - 亚太地区  37
-      - github.com/freefq - 香港Microsoft数据中心 38
-      - github.com/freefq - 美国CloudFlare节点 39
-      - github.com/freefq - 俄罗斯西伯利亚JustHost 40
+      - github.com/freefq - 美国CloudFlare节点 10
+      - github.com/freefq - 美国  11
+      - github.com/freefq - 俄罗斯  12
+      - github.com/freefq - 美国惠普HP 13
+      - github.com/freefq - 美国CloudFlare节点 14
+      - github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - github.com/freefq - 加拿大  16
+      - github.com/freefq - 美国Microsoft数据中心 17
+      - github.com/freefq - 香港特别行政区 18
+      - github.com/freefq - 广东省广州市移动 19
+      - github.com/freefq - 上海市电信 20
+      - github.com/freefq - 山东省济南市电信 21
+      - github.com/freefq - 北美地区  22
+      - github.com/freefq - 亚太地区  23
+      - github.com/freefq - 安徽省联通 24
+      - github.com/freefq - 美国  25
+      - github.com/freefq - 北美地区  26
+      - github.com/freefq - 北美地区  27
+      - github.com/freefq - 法国  28
+      - github.com/freefq - 美国加利福尼亚州洛杉矶CeraNetworks数据中心 29
+      - github.com/freefq - 北美地区  30
+      - github.com/freefq - 广东省汕头市移动 31
+      - github.com/freefq - 美国  32
+      - github.com/freefq - 北美地区  33
+      - github.com/freefq - 安徽省联通 34
+      - github.com/freefq - 美国惠普公司 35
+      - github.com/freefq - 美国CloudFlare公司CDN节点 36
+      - github.com/freefq - 美国  37
+      - github.com/freefq - 美国  38
+      - github.com/freefq - 希腊  39
+      - github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 40
       - github.com/freefq - 加拿大  41
-      - github.com/freefq - 美国  42
-      - github.com/freefq - 俄罗斯鞑靼斯坦喀山justhost 43
-      - github.com/freefq - 美国  44
-      - github.com/freefq - 广东省广州市移动 45
-      - github.com/freefq - 俄罗斯  46
-      - github.com/freefq - 美国惠普公司 47
-      - github.com/freefq - 山东省济南市电信 48
-      - github.com/freefq - 俄罗斯新西伯利亚justhost 49
-      - github.com/freefq - 希腊  50
-      - github.com/freefq - 美国CloudFlare公司CDN节点 51
-      - github.com/freefq - 美国Microsoft数据中心 52
-      - github.com/freefq - 上海市联通 53
-      - github.com/freefq - 美国加利福利亚州洛杉矶iaclouds.com 54
-      - github.com/freefq - 日本  55
-      - github.com/freefq - 美国加利福尼亚州洛杉矶CeraNetworks数据中心 56
-      - github.com/freefq - 日本  57
-      - github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 58
-      - github.com/freefq - 香港特别行政区 59
-      - github.com/freefq - 美国  60
-      - github.com/freefq - 美国CloudFlare公司CDN节点 61
-      - github.com/freefq - 北美地区  62
-      - github.com/freefq - 美国  63
-      - github.com/freefq - 日本  64
-      - github.com/freefq - 上海市联通 65
-      - github.com/freefq - 美国Microsoft数据中心 66
-      - github.com/freefq - 法国  67
-      - github.com/freefq - 北美地区  68
-      - github.com/freefq - 上海市电信 69
-      - github.com/freefq - 北美地区  70
-      - github.com/freefq - 北美地区  71
-      - github.com/freefq - 香港特别行政区 72
-      - github.com/freefq - 美国Microsoft数据中心 73
+      - github.com/freefq - 香港特别行政区 42
+      - github.com/freefq - 美国Microsoft数据中心 43
       - Lv3 香港 04 [3.0]
       - defaultName_15
       - defaultName_6
@@ -3293,16 +3215,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国->🇨🇦_CA_加拿大_1
-      - _CN_中国->🇳🇱_NL_荷兰_2
-      - _CN_中国->🇸🇬_SG_新加坡_3
-      - _CN_中国->🇬🇧_GB_英国_4
-      - _CN_中国->🇳🇱_NL_荷兰_5
-      - _CN_中国->🇬🇧_GB_英国_6
-      - _CN_中国->🇭🇰_HK_香港_7
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_8
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦_9
-      - _CN_中国->🇳🇱_NL_荷兰_10
+      - defaultName_1
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
@@ -4707,79 +4620,49 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_134
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
-      - github.com/freefq - 日本  1
-      - github.com/freefq - 日本  2
-      - github.com/freefq - 安徽省联通 3
-      - github.com/freefq - 山东省济南市电信 4
-      - github.com/freefq - 香港HKCABLE 5
-      - github.com/freefq - 香港Microsoft公司 6
-      - github.com/freefq - 香港XNNET LLC 7
-      - github.com/freefq - 日本  8
+      - github.com/freefq - 山东省济南市电信 1
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 香港Microsoft公司 3
+      - github.com/freefq - 香港XNNET LLC 4
+      - github.com/freefq - 美国Microsoft数据中心 5
+      - github.com/freefq - 加拿大  6
+      - github.com/freefq - 日本东京都品川区Linode数据中心 7
+      - github.com/freefq - 上海市电信CN2 8
       - github.com/freefq - 日本东京Choopa数据中心 9
-      - github.com/freefq - 日本  10
-      - github.com/freefq - 日本  11
-      - github.com/freefq - 美国DXC Technology 12
-      - github.com/freefq - 安徽省联通 13
-      - github.com/freefq - 日本  14
-      - github.com/freefq - 日本东京都品川区Linode数据中心 15
-      - github.com/freefq - 上海市电信CN2 16
-      - github.com/freefq - 香港腾讯云 17
-      - github.com/freefq - 日本  18
-      - github.com/freefq - 美国Amazon EC2服务器 19
-      - github.com/freefq - 美国  20
-      - github.com/freefq - 广东省汕头市移动 21
-      - github.com/freefq - 美国Microsoft数据中心 22
-      - github.com/freefq - 香港腾讯云 23
-      - github.com/freefq - 香港腾讯云 24
-      - github.com/freefq - 美国惠普HP 25
-      - github.com/freefq - 美国  26
-      - github.com/freefq - 香港腾讯云 27
-      - github.com/freefq - 北美地区  28
-      - github.com/freefq - 美国  29
-      - github.com/freefq - 香港腾讯云 30
-      - github.com/freefq - 美国CloudFlare节点 31
-      - github.com/freefq - 上海市联通 32
-      - github.com/freefq - 美国CloudFlare公司CDN节点 33
-      - github.com/freefq - 加拿大  34
-      - github.com/freefq - 山东省济南市电信 35
-      - github.com/freefq - 加拿大  36
-      - github.com/freefq - 亚太地区  37
-      - github.com/freefq - 香港Microsoft数据中心 38
-      - github.com/freefq - 美国CloudFlare节点 39
-      - github.com/freefq - 俄罗斯西伯利亚JustHost 40
+      - github.com/freefq - 美国CloudFlare节点 10
+      - github.com/freefq - 美国  11
+      - github.com/freefq - 俄罗斯  12
+      - github.com/freefq - 美国惠普HP 13
+      - github.com/freefq - 美国CloudFlare节点 14
+      - github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - github.com/freefq - 加拿大  16
+      - github.com/freefq - 美国Microsoft数据中心 17
+      - github.com/freefq - 香港特别行政区 18
+      - github.com/freefq - 广东省广州市移动 19
+      - github.com/freefq - 上海市电信 20
+      - github.com/freefq - 山东省济南市电信 21
+      - github.com/freefq - 北美地区  22
+      - github.com/freefq - 亚太地区  23
+      - github.com/freefq - 安徽省联通 24
+      - github.com/freefq - 美国  25
+      - github.com/freefq - 北美地区  26
+      - github.com/freefq - 北美地区  27
+      - github.com/freefq - 法国  28
+      - github.com/freefq - 美国加利福尼亚州洛杉矶CeraNetworks数据中心 29
+      - github.com/freefq - 北美地区  30
+      - github.com/freefq - 广东省汕头市移动 31
+      - github.com/freefq - 美国  32
+      - github.com/freefq - 北美地区  33
+      - github.com/freefq - 安徽省联通 34
+      - github.com/freefq - 美国惠普公司 35
+      - github.com/freefq - 美国CloudFlare公司CDN节点 36
+      - github.com/freefq - 美国  37
+      - github.com/freefq - 美国  38
+      - github.com/freefq - 希腊  39
+      - github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 40
       - github.com/freefq - 加拿大  41
-      - github.com/freefq - 美国  42
-      - github.com/freefq - 俄罗斯鞑靼斯坦喀山justhost 43
-      - github.com/freefq - 美国  44
-      - github.com/freefq - 广东省广州市移动 45
-      - github.com/freefq - 俄罗斯  46
-      - github.com/freefq - 美国惠普公司 47
-      - github.com/freefq - 山东省济南市电信 48
-      - github.com/freefq - 俄罗斯新西伯利亚justhost 49
-      - github.com/freefq - 希腊  50
-      - github.com/freefq - 美国CloudFlare公司CDN节点 51
-      - github.com/freefq - 美国Microsoft数据中心 52
-      - github.com/freefq - 上海市联通 53
-      - github.com/freefq - 美国加利福利亚州洛杉矶iaclouds.com 54
-      - github.com/freefq - 日本  55
-      - github.com/freefq - 美国加利福尼亚州洛杉矶CeraNetworks数据中心 56
-      - github.com/freefq - 日本  57
-      - github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 58
-      - github.com/freefq - 香港特别行政区 59
-      - github.com/freefq - 美国  60
-      - github.com/freefq - 美国CloudFlare公司CDN节点 61
-      - github.com/freefq - 北美地区  62
-      - github.com/freefq - 美国  63
-      - github.com/freefq - 日本  64
-      - github.com/freefq - 上海市联通 65
-      - github.com/freefq - 美国Microsoft数据中心 66
-      - github.com/freefq - 法国  67
-      - github.com/freefq - 北美地区  68
-      - github.com/freefq - 上海市电信 69
-      - github.com/freefq - 北美地区  70
-      - github.com/freefq - 北美地区  71
-      - github.com/freefq - 香港特别行政区 72
-      - github.com/freefq - 美国Microsoft数据中心 73
+      - github.com/freefq - 香港特别行政区 42
+      - github.com/freefq - 美国Microsoft数据中心 43
       - Lv3 香港 04 [3.0]
       - defaultName_15
       - defaultName_6
