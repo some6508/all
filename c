@@ -5,46 +5,151 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"defaultName_1","server":"104.238.180.40","port":35478,"type":"ssr","country":"defaultName_1","password":"100fgs.asd","cipher":"aes-128-cfb","protocol":"auth_sha1_v4","obfs":"http_post"}
+  - {"name":"github_com/freefq-山东省济南市电信1_1","server":"211.99.115.16","port":11054,"type":"ss","country":"github_com/freefq-山东省济南市电信1_1","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
+  - {"name":"github_com/freefq-美国Microsoft数据中心2_2","server":"hknf2.qingyun123.xyz","port":10070,"type":"trojan","country":"github_com/freefq-美国Microsoft数据中心2_2","skip-cert-verify":true,"udp":true,"password":"96afe210-7c3c-43f9-90dc-09e9c7ce188c"}
+  - {"name":"github_com/freefq-俄罗斯12_12","server":"uk.london1.vpntester.net","port":15256,"type":"ss","country":"github_com/freefq-俄罗斯12_12","cipher":"chacha20-ietf-poly1305","password":"4SGLMZ7Z83fN"}
+  - {"name":"github_com/freefq-美国惠普HP13_13","server":"tj-us02.yiyodns.xyz","port":443,"type":"trojan","country":"github_com/freefq-美国惠普HP13_13","skip-cert-verify":true,"udp":true,"password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc"}
+  - {"name":"github_com/freefq-山东省济南市电信21_21","server":"211.99.115.2","port":11113,"type":"ss","country":"github_com/freefq-山东省济南市电信21_21","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
+  - {"name":"github_com/freefq-北美地区22_22","server":"134.195.198.211","port":443,"type":"ss","country":"github_com/freefq-北美地区22_22","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"github_com/freefq-安徽省联通24_24","server":"42.157.161.51","port":11214,"type":"ss","country":"github_com/freefq-安徽省联通24_24","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
+  - {"name":"github_com/freefq-美国25_25","server":"sg.coco233.xyz","port":35421,"type":"trojan","country":"github_com/freefq-美国25_25","skip-cert-verify":true,"udp":true,"password":"b687b90f-54e3-4123-8771-3425fde5aff0"}
+  - {"name":"github_com/freefq-北美地区26_26","server":"169.197.142.99","port":8091,"type":"ss","country":"github_com/freefq-北美地区26_26","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"github_com/freefq-北美地区27_27","server":"134.195.196.51","port":8888,"type":"ss","country":"github_com/freefq-北美地区27_27","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"github_com/freefq-美国加利福尼亚州洛杉矶CeraNetworks数据中心29_29","server":"us-cera.jiashumao.net","port":12001,"type":"trojan","country":"github_com/freefq-美国加利福尼亚州洛杉矶CeraNetworks数据中心29_29","skip-cert-verify":true,"udp":true,"password":"03323014-2ec8-37bb-9ac7-04a1cfae2bc0"}
+  - {"name":"github_com/freefq-北美地区30_30","server":"169.197.142.99","port":443,"type":"ss","country":"github_com/freefq-北美地区30_30","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"github_com/freefq-北美地区33_33","server":"134.195.196.51","port":8882,"type":"ss","country":"github_com/freefq-北美地区33_33","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"github_com/freefq-安徽省联通34_34","server":"42.157.161.51","port":11215,"type":"ss","country":"github_com/freefq-安徽省联通34_34","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
+  - {"name":"github_com/freefq-美国惠普公司35_35","server":"tj-sg02.yiyodns.xyz","port":443,"type":"trojan","country":"github_com/freefq-美国惠普公司35_35","skip-cert-verify":true,"udp":true,"password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc"}
+  - {"name":"github_com/freefq-美国38_38","server":"misaka1433.tk","port":443,"type":"trojan","country":"github_com/freefq-美国38_38","skip-cert-verify":true,"udp":true,"password":"JAtFrEpLX8mryvu8"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName_1
+      - github_com/freefq-山东省济南市电信1_1
+      - github_com/freefq-美国Microsoft数据中心2_2
+      - github_com/freefq-俄罗斯12_12
+      - github_com/freefq-美国惠普HP13_13
+      - github_com/freefq-山东省济南市电信21_21
+      - github_com/freefq-北美地区22_22
+      - github_com/freefq-安徽省联通24_24
+      - github_com/freefq-美国25_25
+      - github_com/freefq-北美地区26_26
+      - github_com/freefq-北美地区27_27
+      - github_com/freefq-美国加利福尼亚州洛杉矶CeraNetworks数据中心29_29
+      - github_com/freefq-北美地区30_30
+      - github_com/freefq-北美地区33_33
+      - github_com/freefq-安徽省联通34_34
+      - github_com/freefq-美国惠普公司35_35
+      - github_com/freefq-美国38_38
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName_1
+      - github_com/freefq-山东省济南市电信1_1
+      - github_com/freefq-美国Microsoft数据中心2_2
+      - github_com/freefq-俄罗斯12_12
+      - github_com/freefq-美国惠普HP13_13
+      - github_com/freefq-山东省济南市电信21_21
+      - github_com/freefq-北美地区22_22
+      - github_com/freefq-安徽省联通24_24
+      - github_com/freefq-美国25_25
+      - github_com/freefq-北美地区26_26
+      - github_com/freefq-北美地区27_27
+      - github_com/freefq-美国加利福尼亚州洛杉矶CeraNetworks数据中心29_29
+      - github_com/freefq-北美地区30_30
+      - github_com/freefq-北美地区33_33
+      - github_com/freefq-安徽省联通34_34
+      - github_com/freefq-美国惠普公司35_35
+      - github_com/freefq-美国38_38
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName_1
+      - github_com/freefq-山东省济南市电信1_1
+      - github_com/freefq-美国Microsoft数据中心2_2
+      - github_com/freefq-俄罗斯12_12
+      - github_com/freefq-美国惠普HP13_13
+      - github_com/freefq-山东省济南市电信21_21
+      - github_com/freefq-北美地区22_22
+      - github_com/freefq-安徽省联通24_24
+      - github_com/freefq-美国25_25
+      - github_com/freefq-北美地区26_26
+      - github_com/freefq-北美地区27_27
+      - github_com/freefq-美国加利福尼亚州洛杉矶CeraNetworks数据中心29_29
+      - github_com/freefq-北美地区30_30
+      - github_com/freefq-北美地区33_33
+      - github_com/freefq-安徽省联通34_34
+      - github_com/freefq-美国惠普公司35_35
+      - github_com/freefq-美国38_38
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
+      - github_com/freefq-山东省济南市电信1_1
+      - github_com/freefq-美国Microsoft数据中心2_2
+      - github_com/freefq-俄罗斯12_12
+      - github_com/freefq-美国惠普HP13_13
+      - github_com/freefq-山东省济南市电信21_21
+      - github_com/freefq-北美地区22_22
+      - github_com/freefq-安徽省联通24_24
+      - github_com/freefq-美国25_25
+      - github_com/freefq-北美地区26_26
+      - github_com/freefq-北美地区27_27
+      - github_com/freefq-美国加利福尼亚州洛杉矶CeraNetworks数据中心29_29
+      - github_com/freefq-北美地区30_30
+      - github_com/freefq-北美地区33_33
+      - github_com/freefq-安徽省联通34_34
+      - github_com/freefq-美国惠普公司35_35
+      - github_com/freefq-美国38_38
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName_1
+      - github_com/freefq-山东省济南市电信1_1
+      - github_com/freefq-美国Microsoft数据中心2_2
+      - github_com/freefq-俄罗斯12_12
+      - github_com/freefq-美国惠普HP13_13
+      - github_com/freefq-山东省济南市电信21_21
+      - github_com/freefq-北美地区22_22
+      - github_com/freefq-安徽省联通24_24
+      - github_com/freefq-美国25_25
+      - github_com/freefq-北美地区26_26
+      - github_com/freefq-北美地区27_27
+      - github_com/freefq-美国加利福尼亚州洛杉矶CeraNetworks数据中心29_29
+      - github_com/freefq-北美地区30_30
+      - github_com/freefq-北美地区33_33
+      - github_com/freefq-安徽省联通34_34
+      - github_com/freefq-美国惠普公司35_35
+      - github_com/freefq-美国38_38
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
+      - github_com/freefq-山东省济南市电信1_1
+      - github_com/freefq-美国Microsoft数据中心2_2
+      - github_com/freefq-俄罗斯12_12
+      - github_com/freefq-美国惠普HP13_13
+      - github_com/freefq-山东省济南市电信21_21
+      - github_com/freefq-北美地区22_22
+      - github_com/freefq-安徽省联通24_24
+      - github_com/freefq-美国25_25
+      - github_com/freefq-北美地区26_26
+      - github_com/freefq-北美地区27_27
+      - github_com/freefq-美国加利福尼亚州洛杉矶CeraNetworks数据中心29_29
+      - github_com/freefq-北美地区30_30
+      - github_com/freefq-北美地区33_33
+      - github_com/freefq-安徽省联通34_34
+      - github_com/freefq-美国惠普公司35_35
+      - github_com/freefq-美国38_38
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +172,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName_1
+      - github_com/freefq-山东省济南市电信1_1
+      - github_com/freefq-美国Microsoft数据中心2_2
+      - github_com/freefq-俄罗斯12_12
+      - github_com/freefq-美国惠普HP13_13
+      - github_com/freefq-山东省济南市电信21_21
+      - github_com/freefq-北美地区22_22
+      - github_com/freefq-安徽省联通24_24
+      - github_com/freefq-美国25_25
+      - github_com/freefq-北美地区26_26
+      - github_com/freefq-北美地区27_27
+      - github_com/freefq-美国加利福尼亚州洛杉矶CeraNetworks数据中心29_29
+      - github_com/freefq-北美地区30_30
+      - github_com/freefq-北美地区33_33
+      - github_com/freefq-安徽省联通34_34
+      - github_com/freefq-美国惠普公司35_35
+      - github_com/freefq-美国38_38
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
