@@ -5,7 +5,22 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: defaultName_1, server: 104.238.180.40, port: 35478, type: ssr, cipher: aes-128-cfb, password: 100fgs.asd, protocol: auth_sha1_v4, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
+  - {name: github_com/freefq-山东省济南市电信1_1, server: 211.99.115.16, port: 11054, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: github_com/freefq-美国Microsoft数据中心2_2, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: 96afe210-7c3c-43f9-90dc-09e9c7ce188c, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-俄罗斯12_12, server: uk.london1.vpntester.net, port: 15256, type: ss, cipher: chacha20-ietf-poly1305, password: 4SGLMZ7Z83fN, udp: true}
+  - {name: github_com/freefq-美国惠普HP13_13, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-山东省济南市电信21_21, server: 211.99.115.2, port: 11113, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: github_com/freefq-北美地区22_22, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github_com/freefq-安徽省联通24_24, server: 42.157.161.51, port: 11214, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: github_com/freefq-美国25_25, server: sg.coco233.xyz, port: 35421, type: trojan, password: b687b90f-54e3-4123-8771-3425fde5aff0, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-北美地区26_26, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github_com/freefq-北美地区27_27, server: 134.195.196.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github_com/freefq-美国加利福尼亚州洛杉矶CeraNetworks数据中心29_29, server: us-cera.jiashumao.net, port: 12001, type: trojan, password: 03323014-2ec8-37bb-9ac7-04a1cfae2bc0, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-北美地区30_30, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github_com/freefq-北美地区33_33, server: 134.195.196.51, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: github_com/freefq-安徽省联通34_34, server: 42.157.161.51, port: 11215, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: github_com/freefq-美国惠普公司35_35, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: github_com/freefq-美国38_38, server: misaka1433.tk, port: 443, type: trojan, password: JAtFrEpLX8mryvu8, skip-cert-verify: true, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: 139.227.223.3, port: 60013, type: vmess, uuid: e487b139-f286-3593-b763-d740c2096a0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.me/vpnhat}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: 139.227.222.202, port: 60014, type: vmess, uuid: e487b139-f286-3593-b763-d740c2096a0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.me/vpnhat}}, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 3, server: 139.227.222.202, port: 60021, type: vmess, uuid: e487b139-f286-3593-b763-d740c2096a0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.me/vpnhat}}, udp: true}
@@ -1598,7 +1613,22 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - defaultName_1
+      - github_com/freefq-山东省济南市电信1_1
+      - github_com/freefq-美国Microsoft数据中心2_2
+      - github_com/freefq-俄罗斯12_12
+      - github_com/freefq-美国惠普HP13_13
+      - github_com/freefq-山东省济南市电信21_21
+      - github_com/freefq-北美地区22_22
+      - github_com/freefq-安徽省联通24_24
+      - github_com/freefq-美国25_25
+      - github_com/freefq-北美地区26_26
+      - github_com/freefq-北美地区27_27
+      - github_com/freefq-美国加利福尼亚州洛杉矶CeraNetworks数据中心29_29
+      - github_com/freefq-北美地区30_30
+      - github_com/freefq-北美地区33_33
+      - github_com/freefq-安徽省联通34_34
+      - github_com/freefq-美国惠普公司35_35
+      - github_com/freefq-美国38_38
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
@@ -3191,7 +3221,22 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - defaultName_1
+      - github_com/freefq-山东省济南市电信1_1
+      - github_com/freefq-美国Microsoft数据中心2_2
+      - github_com/freefq-俄罗斯12_12
+      - github_com/freefq-美国惠普HP13_13
+      - github_com/freefq-山东省济南市电信21_21
+      - github_com/freefq-北美地区22_22
+      - github_com/freefq-安徽省联通24_24
+      - github_com/freefq-美国25_25
+      - github_com/freefq-北美地区26_26
+      - github_com/freefq-北美地区27_27
+      - github_com/freefq-美国加利福尼亚州洛杉矶CeraNetworks数据中心29_29
+      - github_com/freefq-北美地区30_30
+      - github_com/freefq-北美地区33_33
+      - github_com/freefq-安徽省联通34_34
+      - github_com/freefq-美国惠普公司35_35
+      - github_com/freefq-美国38_38
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 俄罗斯(欢迎订阅Youtube破解资源君) 2
       - 俄罗斯(欢迎订阅Youtube破解资源君) 3
