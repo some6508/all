@@ -543,48 +543,46 @@ proxies:
   - {name: "US, 5", server: 65.49.220.2, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr01, udp: true}
   - {name: "SG,", server: 13.115.213.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "JP, 3", server: 13.228.168.185, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _VN_越南, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
-  - {name: _IN_印度, server: in.dadiangan.xyz, port: 34254, type: ss, cipher: chacha20-ietf-poly1305, password: 0da92f0b-6fd7-4e63-a93a-3503b8abc67f, udp: true}
-  - {name: _IN_印度 2, server: in.dadiangan.xyz, port: 34254, type: ss, cipher: chacha20-ietf-poly1305, password: 0da92f0b-6fd7-4e63-a93a-3503b8abc67f, udp: true}
-  - {name: _IN_印度 3, server: in.dadiangan.xyz, port: 34254, type: ss, cipher: chacha20-ietf-poly1305, password: 0da92f0b-6fd7-4e63-a93a-3503b8abc67f, udp: true}
-  - {name: _VN_越南 2, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
-  - {name: _IN_印度 4, server: in.dadiangan.xyz, port: 34254, type: ss, cipher: chacha20-ietf-poly1305, password: 0da92f0b-6fd7-4e63-a93a-3503b8abc67f, udp: true}
-  - {name: _VN_越南 3, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
-  - {name: _VN_越南 4, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
-  - {name: _VN_越南 5, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
-  - {name: _VN_越南 6, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 2, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 3, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港, server: cm.newhua99.xyz, port: 22823, type: ss, cipher: aes-128-gcm, password: d2143b25-6a10-440f-a513-6b720be505f4, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡, server: cm.newhua99.xyz, port: 22801, type: ss, cipher: aes-128-gcm, password: d2143b25-6a10-440f-a513-6b720be505f4, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 2, server: cm.newhua99.xyz, port: 22825, type: ss, cipher: aes-128-gcm, password: d2143b25-6a10-440f-a513-6b720be505f4, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 3, server: cm2.newhua99.xyz, port: 22823, type: ss, cipher: aes-128-gcm, password: d2143b25-6a10-440f-a513-6b720be505f4, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 4, server: cm2.newhua99.xyz, port: 22825, type: ss, cipher: aes-128-gcm, password: d2143b25-6a10-440f-a513-6b720be505f4, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 5, server: cm2.newhua99.xyz, port: 22825, type: ss, cipher: aes-128-gcm, password: d2143b25-6a10-440f-a513-6b720be505f4, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡 2, server: cm.newhua99.xyz, port: 22801, type: ss, cipher: aes-128-gcm, password: d2143b25-6a10-440f-a513-6b720be505f4, udp: true}
+  - {name: _HK_香港, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk857.fans8.xyz}}, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 6, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 7, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 8, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本, server: 42.157.161.51, port: 11203, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 4, server: 211.99.115.24, port: 11010, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡, server: 211.99.115.24, port: 11111, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 5, server: 211.99.115.24, port: 11007, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 9, server: 211.99.115.24, port: 11010, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡 3, server: 211.99.115.24, port: 11111, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 10, server: 211.99.115.24, port: 11007, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CA_加拿大, server: 134.195.196.51, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: _CN_中国->🇳🇱_NL_荷兰, server: 211.99.115.24, port: 11553, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇹🇼_TW_台湾, server: 211.99.115.24, port: 11051, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇮🇳_IN_印度, server: 211.99.115.24, port: 11301, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇹🇷_TR_土耳其, server: 211.99.115.24, port: 11904, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 2, server: 211.99.115.24, port: 11109, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 3, server: 211.99.115.24, port: 11110, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡 4, server: 211.99.115.24, port: 11109, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡 5, server: 211.99.115.24, port: 11110, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇹🇼_TW_台湾 2, server: 211.99.115.24, port: 11054, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 6, server: 211.99.115.24, port: 11006, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 7, server: 211.99.115.24, port: 11008, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 11, server: 211.99.115.24, port: 11006, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 12, server: 211.99.115.24, port: 11008, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 2, server: 42.157.161.51, port: 11216, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇹🇷_TR_土耳其 2, server: 211.99.115.24, port: 11903, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 4, server: 211.99.115.24, port: 11101, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 8, server: 211.99.115.24, port: 11012, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡 6, server: 211.99.115.24, port: 11101, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 13, server: 211.99.115.24, port: 11012, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 3, server: 42.157.161.51, port: 11208, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 9, server: 211.99.115.24, port: 11014, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 14, server: 211.99.115.24, port: 11014, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 4, server: 42.157.161.51, port: 11205, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 10, server: 211.99.115.24, port: 11003, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 15, server: 211.99.115.24, port: 11003, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 5, server: 42.157.161.51, port: 11201, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇨🇦_CA_加拿大, server: 42.157.161.51, port: 11801, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国, server: 211.99.115.24, port: 11403, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 6, server: 42.157.161.51, port: 11211, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 7, server: 42.157.161.51, port: 11213, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 5, server: 211.99.115.24, port: 11107, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 6, server: 211.99.115.24, port: 11117, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡 7, server: 211.99.115.24, port: 11107, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡 8, server: 211.99.115.24, port: 11117, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇬🇧_GB_英国, server: 211.99.115.24, port: 11853, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 8, server: 42.157.161.51, port: 11214, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇰🇷_KR_韩国, server: 42.157.161.51, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -603,8 +601,8 @@ proxies:
   - {name: _CN_中国->🇮🇸_IS_冰岛, server: 211.99.115.24, port: 11701, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CA_加拿大 3, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _CN_中国->🇦🇺_AU_澳大利亚, server: 211.99.115.24, port: 11351, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 7, server: 211.99.115.24, port: 11108, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 11, server: 211.99.115.24, port: 11004, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡 9, server: 211.99.115.24, port: 11108, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 16, server: 211.99.115.24, port: 11004, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CA_加拿大 4, server: 134.195.196.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 13, server: 42.157.161.51, port: 11204, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇵🇭_PH_菲律宾, server: 211.99.115.24, port: 11901, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -613,36 +611,36 @@ proxies:
   - {name: _CN_中国->🇯🇵_JP_日本 15, server: 42.157.161.51, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇳🇱_NL_荷兰 2, server: 211.99.115.24, port: 11551, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇬🇧_GB_英国 3, server: 211.99.115.24, port: 11854, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 12, server: 211.99.115.24, port: 11005, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 17, server: 211.99.115.24, port: 11005, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇹🇼_TW_台湾 4, server: 211.99.115.24, port: 11053, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 13, server: 211.99.115.24, port: 11013, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 18, server: 211.99.115.24, port: 11013, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇩🇰_DK_丹麦, server: 211.99.115.24, port: 11751, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇻🇳_VN_越南, server: 211.99.115.24, port: 11906, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国 4, server: 211.99.115.24, port: 11501, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 8, server: 211.99.115.24, port: 11104, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 14, server: 211.99.115.24, port: 11018, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 9, server: 211.99.115.24, port: 11114, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 15, server: 211.99.115.24, port: 11002, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡 10, server: 211.99.115.24, port: 11104, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 19, server: 211.99.115.24, port: 11018, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡 11, server: 211.99.115.24, port: 11114, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 20, server: 211.99.115.24, port: 11002, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CA_加拿大 6, server: 134.195.196.51, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: _CN_中国->🇰🇷_KR_韩国 2, server: 42.157.161.51, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 10, server: 211.99.115.24, port: 11116, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡 12, server: 211.99.115.24, port: 11116, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇳🇱_NL_荷兰 3, server: 211.99.115.24, port: 11552, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CA_加拿大 7, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 16, server: 42.157.161.51, port: 11206, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇨🇦_CA_加拿大 2, server: 42.157.161.51, port: 11802, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国 5, server: 211.99.115.24, port: 11404, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇫🇷_FR_法国, server: 211.99.115.24, port: 11451, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 11, server: 211.99.115.24, port: 11115, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 16, server: 211.99.115.24, port: 11011, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡 13, server: 211.99.115.24, port: 11115, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 21, server: 211.99.115.24, port: 11011, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 17, server: 42.157.161.51, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _HK_香港, server: azhk097.xiaohouzi.club, port: 443, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: azhk097.xiaohouzi.club}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 17, server: 211.99.115.24, port: 11015, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _HK_香港 2, server: azhk097.xiaohouzi.club, port: 443, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: azhk097.xiaohouzi.club}}, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 22, server: 211.99.115.24, port: 11015, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇹🇼_TW_台湾 5, server: 211.99.115.24, port: 11052, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇬🇧_GB_英国 4, server: 211.99.115.24, port: 11852, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 18, server: 211.99.115.24, port: 11016, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 23, server: 211.99.115.24, port: 11016, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇹🇭_TH_泰国, server: 211.99.115.24, port: 11902, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇩🇪_DE_德国, server: 211.99.115.24, port: 11405, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 12, server: 211.99.115.24, port: 11118, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡 14, server: 211.99.115.24, port: 11118, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2028,48 +2026,46 @@ proxy-groups:
       - US, 5
       - SG,
       - JP, 3
-      - _VN_越南
-      - _IN_印度
-      - _IN_印度 2
-      - _IN_印度 3
-      - _VN_越南 2
-      - _IN_印度 4
-      - _VN_越南 3
-      - _VN_越南 4
-      - _VN_越南 5
-      - _VN_越南 6
       - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇸🇬_SG_新加坡
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇯🇵_JP_日本
       - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇸🇬_SG_新加坡
       - _CN_中国->🇭🇰_HK_香港 5
+      - _CN_中国->🇸🇬_SG_新加坡 2
+      - _HK_香港
+      - _CN_中国->🇭🇰_HK_香港 6
+      - _CN_中国->🇭🇰_HK_香港 7
+      - _CN_中国->🇭🇰_HK_香港 8
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇭🇰_HK_香港 9
+      - _CN_中国->🇸🇬_SG_新加坡 3
+      - _CN_中国->🇭🇰_HK_香港 10
       - _CA_加拿大
       - _CN_中国->🇳🇱_NL_荷兰
       - _CN_中国->🇹🇼_TW_台湾
       - _CN_中国->🇮🇳_IN_印度
       - _CN_中国->🇹🇷_TR_土耳其
-      - _CN_中国->🇸🇬_SG_新加坡 2
-      - _CN_中国->🇸🇬_SG_新加坡 3
+      - _CN_中国->🇸🇬_SG_新加坡 4
+      - _CN_中国->🇸🇬_SG_新加坡 5
       - _CN_中国->🇹🇼_TW_台湾 2
-      - _CN_中国->🇭🇰_HK_香港 6
-      - _CN_中国->🇭🇰_HK_香港 7
+      - _CN_中国->🇭🇰_HK_香港 11
+      - _CN_中国->🇭🇰_HK_香港 12
       - _CN_中国->🇯🇵_JP_日本 2
       - _CN_中国->🇹🇷_TR_土耳其 2
-      - _CN_中国->🇸🇬_SG_新加坡 4
-      - _CN_中国->🇭🇰_HK_香港 8
+      - _CN_中国->🇸🇬_SG_新加坡 6
+      - _CN_中国->🇭🇰_HK_香港 13
       - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇭🇰_HK_香港 9
+      - _CN_中国->🇭🇰_HK_香港 14
       - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇭🇰_HK_香港 10
+      - _CN_中国->🇭🇰_HK_香港 15
       - _CN_中国->🇯🇵_JP_日本 5
       - _CN_中国->🇨🇦_CA_加拿大
       - _CN_中国->🇺🇸_US_美国
       - _CN_中国->🇯🇵_JP_日本 6
       - _CN_中国->🇯🇵_JP_日本 7
-      - _CN_中国->🇸🇬_SG_新加坡 5
-      - _CN_中国->🇸🇬_SG_新加坡 6
+      - _CN_中国->🇸🇬_SG_新加坡 7
+      - _CN_中国->🇸🇬_SG_新加坡 8
       - _CN_中国->🇬🇧_GB_英国
       - _CN_中国->🇯🇵_JP_日本 8
       - _CN_中国->🇰🇷_KR_韩国
@@ -2088,8 +2084,8 @@ proxy-groups:
       - _CN_中国->🇮🇸_IS_冰岛
       - _CA_加拿大 3
       - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇸🇬_SG_新加坡 7
-      - _CN_中国->🇭🇰_HK_香港 11
+      - _CN_中国->🇸🇬_SG_新加坡 9
+      - _CN_中国->🇭🇰_HK_香港 16
       - _CA_加拿大 4
       - _CN_中国->🇯🇵_JP_日本 13
       - _CN_中国->🇵🇭_PH_菲律宾
@@ -2098,36 +2094,36 @@ proxy-groups:
       - _CN_中国->🇯🇵_JP_日本 15
       - _CN_中国->🇳🇱_NL_荷兰 2
       - _CN_中国->🇬🇧_GB_英国 3
-      - _CN_中国->🇭🇰_HK_香港 12
+      - _CN_中国->🇭🇰_HK_香港 17
       - _CN_中国->🇹🇼_TW_台湾 4
-      - _CN_中国->🇭🇰_HK_香港 13
+      - _CN_中国->🇭🇰_HK_香港 18
       - _CN_中国->🇩🇰_DK_丹麦
       - _CN_中国->🇻🇳_VN_越南
       - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇸🇬_SG_新加坡 8
-      - _CN_中国->🇭🇰_HK_香港 14
-      - _CN_中国->🇸🇬_SG_新加坡 9
-      - _CN_中国->🇭🇰_HK_香港 15
+      - _CN_中国->🇸🇬_SG_新加坡 10
+      - _CN_中国->🇭🇰_HK_香港 19
+      - _CN_中国->🇸🇬_SG_新加坡 11
+      - _CN_中国->🇭🇰_HK_香港 20
       - _CA_加拿大 6
       - _CN_中国->🇰🇷_KR_韩国 2
-      - _CN_中国->🇸🇬_SG_新加坡 10
+      - _CN_中国->🇸🇬_SG_新加坡 12
       - _CN_中国->🇳🇱_NL_荷兰 3
       - _CA_加拿大 7
       - _CN_中国->🇯🇵_JP_日本 16
       - _CN_中国->🇨🇦_CA_加拿大 2
       - _CN_中国->🇺🇸_US_美国 5
       - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇸🇬_SG_新加坡 11
-      - _CN_中国->🇭🇰_HK_香港 16
+      - _CN_中国->🇸🇬_SG_新加坡 13
+      - _CN_中国->🇭🇰_HK_香港 21
       - _CN_中国->🇯🇵_JP_日本 17
-      - _HK_香港
-      - _CN_中国->🇭🇰_HK_香港 17
+      - _HK_香港 2
+      - _CN_中国->🇭🇰_HK_香港 22
       - _CN_中国->🇹🇼_TW_台湾 5
       - _CN_中国->🇬🇧_GB_英国 4
-      - _CN_中国->🇭🇰_HK_香港 18
+      - _CN_中国->🇭🇰_HK_香港 23
       - _CN_中国->🇹🇭_TH_泰国
       - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇸🇬_SG_新加坡 12
+      - _CN_中国->🇸🇬_SG_新加坡 14
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
@@ -3513,48 +3509,46 @@ proxy-groups:
       - US, 5
       - SG,
       - JP, 3
-      - _VN_越南
-      - _IN_印度
-      - _IN_印度 2
-      - _IN_印度 3
-      - _VN_越南 2
-      - _IN_印度 4
-      - _VN_越南 3
-      - _VN_越南 4
-      - _VN_越南 5
-      - _VN_越南 6
       - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇸🇬_SG_新加坡
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇯🇵_JP_日本
       - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇸🇬_SG_新加坡
       - _CN_中国->🇭🇰_HK_香港 5
+      - _CN_中国->🇸🇬_SG_新加坡 2
+      - _HK_香港
+      - _CN_中国->🇭🇰_HK_香港 6
+      - _CN_中国->🇭🇰_HK_香港 7
+      - _CN_中国->🇭🇰_HK_香港 8
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇭🇰_HK_香港 9
+      - _CN_中国->🇸🇬_SG_新加坡 3
+      - _CN_中国->🇭🇰_HK_香港 10
       - _CA_加拿大
       - _CN_中国->🇳🇱_NL_荷兰
       - _CN_中国->🇹🇼_TW_台湾
       - _CN_中国->🇮🇳_IN_印度
       - _CN_中国->🇹🇷_TR_土耳其
-      - _CN_中国->🇸🇬_SG_新加坡 2
-      - _CN_中国->🇸🇬_SG_新加坡 3
+      - _CN_中国->🇸🇬_SG_新加坡 4
+      - _CN_中国->🇸🇬_SG_新加坡 5
       - _CN_中国->🇹🇼_TW_台湾 2
-      - _CN_中国->🇭🇰_HK_香港 6
-      - _CN_中国->🇭🇰_HK_香港 7
+      - _CN_中国->🇭🇰_HK_香港 11
+      - _CN_中国->🇭🇰_HK_香港 12
       - _CN_中国->🇯🇵_JP_日本 2
       - _CN_中国->🇹🇷_TR_土耳其 2
-      - _CN_中国->🇸🇬_SG_新加坡 4
-      - _CN_中国->🇭🇰_HK_香港 8
+      - _CN_中国->🇸🇬_SG_新加坡 6
+      - _CN_中国->🇭🇰_HK_香港 13
       - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇭🇰_HK_香港 9
+      - _CN_中国->🇭🇰_HK_香港 14
       - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇭🇰_HK_香港 10
+      - _CN_中国->🇭🇰_HK_香港 15
       - _CN_中国->🇯🇵_JP_日本 5
       - _CN_中国->🇨🇦_CA_加拿大
       - _CN_中国->🇺🇸_US_美国
       - _CN_中国->🇯🇵_JP_日本 6
       - _CN_中国->🇯🇵_JP_日本 7
-      - _CN_中国->🇸🇬_SG_新加坡 5
-      - _CN_中国->🇸🇬_SG_新加坡 6
+      - _CN_中国->🇸🇬_SG_新加坡 7
+      - _CN_中国->🇸🇬_SG_新加坡 8
       - _CN_中国->🇬🇧_GB_英国
       - _CN_中国->🇯🇵_JP_日本 8
       - _CN_中国->🇰🇷_KR_韩国
@@ -3573,8 +3567,8 @@ proxy-groups:
       - _CN_中国->🇮🇸_IS_冰岛
       - _CA_加拿大 3
       - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇸🇬_SG_新加坡 7
-      - _CN_中国->🇭🇰_HK_香港 11
+      - _CN_中国->🇸🇬_SG_新加坡 9
+      - _CN_中国->🇭🇰_HK_香港 16
       - _CA_加拿大 4
       - _CN_中国->🇯🇵_JP_日本 13
       - _CN_中国->🇵🇭_PH_菲律宾
@@ -3583,36 +3577,36 @@ proxy-groups:
       - _CN_中国->🇯🇵_JP_日本 15
       - _CN_中国->🇳🇱_NL_荷兰 2
       - _CN_中国->🇬🇧_GB_英国 3
-      - _CN_中国->🇭🇰_HK_香港 12
+      - _CN_中国->🇭🇰_HK_香港 17
       - _CN_中国->🇹🇼_TW_台湾 4
-      - _CN_中国->🇭🇰_HK_香港 13
+      - _CN_中国->🇭🇰_HK_香港 18
       - _CN_中国->🇩🇰_DK_丹麦
       - _CN_中国->🇻🇳_VN_越南
       - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇸🇬_SG_新加坡 8
-      - _CN_中国->🇭🇰_HK_香港 14
-      - _CN_中国->🇸🇬_SG_新加坡 9
-      - _CN_中国->🇭🇰_HK_香港 15
+      - _CN_中国->🇸🇬_SG_新加坡 10
+      - _CN_中国->🇭🇰_HK_香港 19
+      - _CN_中国->🇸🇬_SG_新加坡 11
+      - _CN_中国->🇭🇰_HK_香港 20
       - _CA_加拿大 6
       - _CN_中国->🇰🇷_KR_韩国 2
-      - _CN_中国->🇸🇬_SG_新加坡 10
+      - _CN_中国->🇸🇬_SG_新加坡 12
       - _CN_中国->🇳🇱_NL_荷兰 3
       - _CA_加拿大 7
       - _CN_中国->🇯🇵_JP_日本 16
       - _CN_中国->🇨🇦_CA_加拿大 2
       - _CN_中国->🇺🇸_US_美国 5
       - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇸🇬_SG_新加坡 11
-      - _CN_中国->🇭🇰_HK_香港 16
+      - _CN_中国->🇸🇬_SG_新加坡 13
+      - _CN_中国->🇭🇰_HK_香港 21
       - _CN_中国->🇯🇵_JP_日本 17
-      - _HK_香港
-      - _CN_中国->🇭🇰_HK_香港 17
+      - _HK_香港 2
+      - _CN_中国->🇭🇰_HK_香港 22
       - _CN_中国->🇹🇼_TW_台湾 5
       - _CN_中国->🇬🇧_GB_英国 4
-      - _CN_中国->🇭🇰_HK_香港 18
+      - _CN_中国->🇭🇰_HK_香港 23
       - _CN_中国->🇹🇭_TH_泰国
       - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇸🇬_SG_新加坡 12
+      - _CN_中国->🇸🇬_SG_新加坡 14
       - 香港（YouTube资源分享者） 14
       - 美国（YouTube资源分享者） 34
       - 香港（YouTube资源分享者） 15
