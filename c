@@ -5,235 +5,739 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.51","port":9101,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.51","port":8881,"type":"ss","country":"🇨🇦_CA_加拿大_2","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.51","port":6697,"type":"ss","country":"🇨🇦_CA_加拿大_3","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.196.51","port":5001,"type":"ss","country":"🇨🇦_CA_加拿大_4","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.196.51","port":8119,"type":"ss","country":"🇨🇦_CA_加拿大_5","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.51","port":8888,"type":"ss","country":"🇨🇦_CA_加拿大_6","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国->🇫🇮_FI_芬兰_7","server":"dfuh.ml","port":443,"type":"vmess","uuid":"7b9907fb-0506-4d5f-af06-ee4126406518","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇫🇮_FI_芬兰_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸_US_美国_8","server":"169.197.142.99","port":6679,"type":"ss","country":"🇺🇸_US_美国_8","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_9","server":"134.195.196.51","port":7001,"type":"ss","country":"🇨🇦_CA_加拿大_9","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_10","server":"134.195.196.51","port":5601,"type":"ss","country":"🇨🇦_CA_加拿大_10","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_11","server":"169.197.142.99","port":5001,"type":"ss","country":"🇺🇸_US_美国_11","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇰🇷_KR_韩国_12","server":"vs.mumi.bid","port":10124,"type":"vmess","uuid":"0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4","alterId":0,"cipher":"auto","country":"🇰🇷_KR_韩国_12","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸_US_美国_13","server":"167.88.63.108","port":443,"type":"ss","country":"🇺🇸_US_美国_13","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_14","server":"134.195.196.51","port":8090,"type":"ss","country":"🇨🇦_CA_加拿大_14","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_15","server":"134.195.196.51","port":8008,"type":"ss","country":"🇨🇦_CA_加拿大_15","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_16","server":"134.195.196.51","port":443,"type":"ss","country":"🇨🇦_CA_加拿大_16","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_17","server":"134.195.196.51","port":6379,"type":"ss","country":"🇨🇦_CA_加拿大_17","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇮🇳_IN_印度_18","server":"45.79.121.117","port":5601,"type":"ss","country":"🇮🇳_IN_印度_18","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_19","server":"134.195.196.51","port":9102,"type":"ss","country":"🇨🇦_CA_加拿大_19","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_20","server":"134.195.196.51","port":3389,"type":"ss","country":"🇨🇦_CA_加拿大_20","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_21","server":"167.88.63.108","port":8090,"type":"ss","country":"🇺🇸_US_美国_21","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦_CA_加拿大_22","server":"134.195.196.51","port":8118,"type":"ss","country":"🇨🇦_CA_加拿大_22","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸_US_美国_23","server":"167.88.63.108","port":6697,"type":"ss","country":"🇺🇸_US_美国_23","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇦_CA_加拿大_24","server":"134.195.196.51","port":7002,"type":"ss","country":"🇨🇦_CA_加拿大_24","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_25","server":"134.195.196.51","port":8882,"type":"ss","country":"🇨🇦_CA_加拿大_25","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA_加拿大_26","server":"134.195.196.51","port":7306,"type":"ss","country":"🇨🇦_CA_加拿大_26","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_27","server":"134.195.196.51","port":8009,"type":"ss","country":"🇨🇦_CA_加拿大_27","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_US_美国_28","server":"169.197.142.99","port":6697,"type":"ss","country":"🇺🇸_US_美国_28","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"日本+🇯🇵(Youtube技术分享室整理)_1","server":"5.180.76.74","port":9102,"type":"ss","country":"日本+🇯🇵(Youtube技术分享室整理)_1","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"SG新加坡(Youtube技术分享室)_2","server":"45.118.133.51","port":2375,"type":"ss","country":"SG新加坡(Youtube技术分享室)_2","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"SG新加坡(Youtube技术分享室)_3","server":"139.162.24.50","port":9101,"type":"ss","country":"SG新加坡(Youtube技术分享室)_3","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"SG新加坡(Youtube技术分享室)_4","server":"139.162.24.50","port":7307,"type":"ss","country":"SG新加坡(Youtube技术分享室)_4","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇷🇴RO(Youtube技术分享室整理)_5","server":"62.216.92.167","port":812,"type":"ss","country":"🇷🇴RO(Youtube技术分享室整理)_5","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"SG新加坡(Youtube技术分享室)_6","server":"139.162.24.50","port":5001,"type":"ss","country":"SG新加坡(Youtube技术分享室)_6","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"SG新加坡(Youtube技术分享室)_7","server":"139.162.24.50","port":9102,"type":"ss","country":"SG新加坡(Youtube技术分享室)_7","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"SG新加坡(Youtube技术分享室)_8","server":"51.79.157.58","port":50004,"type":"ss","country":"SG新加坡(Youtube技术分享室)_8","cipher":"aes-256-cfb","password":"4415934295"}
+  - {"name":"SG新加坡(Youtube技术分享室)_9","server":"139.99.68.127","port":5003,"type":"ss","country":"SG新加坡(Youtube技术分享室)_9","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"GB英国(Youtube技术分享室)_10","server":"212.38.189.174","port":7307,"type":"ss","country":"GB英国(Youtube技术分享室)_10","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸US美国(Youtube技术分享室整理)_11","server":"172.99.190.205","port":8091,"type":"ss","country":"🇺🇸US美国(Youtube技术分享室整理)_11","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"GB英国(Youtube技术分享室)_12","server":"172.99.190.57","port":7307,"type":"ss","country":"GB英国(Youtube技术分享室)_12","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"GB英国(Youtube技术分享室)_13","server":"172.99.190.158","port":7306,"type":"ss","country":"GB英国(Youtube技术分享室)_13","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"US美国(Youtube技术分享室)_14","server":"172.99.188.99","port":8119,"type":"ss","country":"US美国(Youtube技术分享室)_14","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"(Youtube技术分享室)🇨🇳中国_15","server":"183.232.56.161","port":1704,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","country":"(Youtube技术分享室)🇨🇳中国_15","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"GB英国(Youtube技术分享室)_16","server":"172.99.190.205","port":7002,"type":"ss","country":"GB英国(Youtube技术分享室)_16","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"(Youtube技术分享室)🇬🇧英国_17","server":"172.99.190.188","port":6679,"type":"ss","country":"(Youtube技术分享室)🇬🇧英国_17","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"(Youtube技术分享室)🇬🇧英国_18","server":"172.99.190.188","port":9102,"type":"ss","country":"(Youtube技术分享室)🇬🇧英国_18","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"GB英国(Youtube技术分享室)_19","server":"172.99.190.90","port":7306,"type":"ss","country":"GB英国(Youtube技术分享室)_19","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"(Youtube技术分享室)🇬🇧英国_20","server":"172.99.190.188","port":5003,"type":"ss","country":"(Youtube技术分享室)🇬🇧英国_20","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"FR法国(Youtube技术分享室)_21","server":"149.202.82.172","port":8008,"type":"ss","country":"FR法国(Youtube技术分享室)_21","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸US(Youtube技术分享室整理)_22","server":"172.99.190.109","port":8090,"type":"ss","country":"🇺🇸US(Youtube技术分享室整理)_22","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇬🇧_英国(Youtube技术分享室整理)_23","server":"172.99.190.139","port":5004,"type":"ss","country":"🇬🇧_英国(Youtube技术分享室整理)_23","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"GB英国(Youtube技术分享室)_24","server":"172.99.190.87","port":7002,"type":"ss","country":"GB英国(Youtube技术分享室)_24","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸US(Youtube技术分享室整理)_25","server":"172.99.190.186","port":7307,"type":"ss","country":"🇺🇸US(Youtube技术分享室整理)_25","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"(Youtube技术分享室)🇳🇱荷兰_26","server":"213.183.51.171","port":9061,"type":"ss","country":"(Youtube技术分享室)🇳🇱荷兰_26","cipher":"aes-256-cfb","password":"4R3hUfZ2FHhDmNcP"}
+  - {"name":"(Youtube技术分享室)🇺🇸美国_27","server":"34.216.75.173","port":443,"type":"ss","country":"(Youtube技术分享室)🇺🇸美国_27","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"GB英国(Youtube技术分享室)_28","server":"212.38.189.174","port":8091,"type":"ss","country":"GB英国(Youtube技术分享室)_28","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"GB英国(Youtube技术分享室)_29","server":"172.99.190.205","port":6697,"type":"ss","country":"GB英国(Youtube技术分享室)_29","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"BA波黑(Youtube技术分享室)_30","server":"185.99.3.108","port":44820,"type":"ss","country":"BA波黑(Youtube技术分享室)_30","cipher":"aes-256-gcm","password":"jspgz9G3VmvBMCgMUWLBaZHu"}
+  - {"name":"US美国(Youtube技术分享室)_31","server":"38.75.136.102","port":8090,"type":"ss","country":"US美国(Youtube技术分享室)_31","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"(Youtube技术分享室)🇬🇧英国_32","server":"172.99.190.206","port":2375,"type":"ss","country":"(Youtube技术分享室)🇬🇧英国_32","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"GB英国(Youtube技术分享室)_33","server":"172.99.190.39","port":8090,"type":"ss","country":"GB英国(Youtube技术分享室)_33","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇬🇧_英国(Youtube技术分享室整理)_34","server":"172.99.190.139","port":8090,"type":"ss","country":"🇬🇧_英国(Youtube技术分享室整理)_34","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"GB英国(Youtube技术分享室)_35","server":"172.99.190.90","port":7307,"type":"ss","country":"GB英国(Youtube技术分享室)_35","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"澳大利亚🇦🇺(Youtube技术分享室整理)_36","server":"172.105.184.12","port":5003,"type":"ss","country":"澳大利亚🇦🇺(Youtube技术分享室整理)_36","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"澳大利亚🇦🇺(Youtube技术分享室整理)_37","server":"192.53.169.116","port":2376,"type":"ss","country":"澳大利亚🇦🇺(Youtube技术分享室整理)_37","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"AU澳大利亚(Youtube技术分享室)_38","server":"172.105.180.227","port":2376,"type":"ss","country":"AU澳大利亚(Youtube技术分享室)_38","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"(Youtube技术分享室)🇩🇪德国_39","server":"139.162.130.101","port":8000,"type":"ss","country":"(Youtube技术分享室)🇩🇪德国_39","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"GB英国(Youtube技术分享室)_40","server":"172.99.190.7","port":2376,"type":"ss","country":"GB英国(Youtube技术分享室)_40","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"(Youtube技术分享室)🇦🇺澳大利亚_41","server":"172.105.170.229","port":5601,"type":"ss","country":"(Youtube技术分享室)🇦🇺澳大利亚_41","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸US(Youtube技术分享室整理)_42","server":"172.99.190.87","port":8080,"type":"ss","country":"🇺🇸US(Youtube技术分享室整理)_42","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸US(Youtube技术分享室整理)_43","server":"172.99.190.130","port":2375,"type":"ss","country":"🇺🇸US(Youtube技术分享室整理)_43","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇰🇷_韩国(Youtube技术分享室整理)_44","server":"141.164.59.168","port":6679,"type":"ss","country":"🇰🇷_韩国(Youtube技术分享室整理)_44","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"US美国(Youtube技术分享室)_45","server":"167.88.61.213","port":8080,"type":"ss","country":"US美国(Youtube技术分享室)_45","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"BA波黑(Youtube技术分享室)_46","server":"185.212.111.59","port":33992,"type":"ss","country":"BA波黑(Youtube技术分享室)_46","cipher":"aes-256-gcm","password":"8n6pwAcrrv2pj6tFY2p3TbQ6"}
+  - {"name":"US美国(Youtube技术分享室)_47","server":"167.88.61.70","port":7307,"type":"ss","country":"US美国(Youtube技术分享室)_47","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"(Youtube技术分享室)🇺🇸美国_48","server":"167.88.61.5","port":8080,"type":"ss","country":"(Youtube技术分享室)🇺🇸美国_48","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"(Youtube技术分享室)🇰🇷韩国_49","server":"158.247.221.139","port":6379,"type":"ss","country":"(Youtube技术分享室)🇰🇷韩国_49","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇺🇸US(Youtube技术分享室整理)_50","server":"38.68.135.93","port":5003,"type":"ss","country":"🇺🇸US(Youtube技术分享室整理)_50","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"(Youtube技术分享室)🇬🇧英国_51","server":"172.99.190.109","port":9101,"type":"ss","country":"(Youtube技术分享室)🇬🇧英国_51","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"GB英国(Youtube技术分享室)_52","server":"172.99.190.39","port":6697,"type":"ss","country":"GB英国(Youtube技术分享室)_52","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"(Youtube技术分享室)🇦🇺澳大利亚_53","server":"172.105.190.20","port":7306,"type":"ss","country":"(Youtube技术分享室)🇦🇺澳大利亚_53","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"(Youtube技术分享室)🇺🇸美国_54","server":"167.88.61.5","port":2376,"type":"ss","country":"(Youtube技术分享室)🇺🇸美国_54","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"美国(Youtube技术分享室整理)_55","server":"167.88.63.74","port":7307,"type":"ss","country":"美国(Youtube技术分享室整理)_55","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"FR法国(Youtube技术分享室)_56","server":"54.38.72.170","port":5003,"type":"ss","country":"FR法国(Youtube技术分享室)_56","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸US(Youtube技术分享室整理)_57","server":"38.75.137.71","port":5003,"type":"ss","country":"🇺🇸US(Youtube技术分享室整理)_57","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇰🇷_韩国(Youtube技术分享室整理)_58","server":"158.247.224.121","port":2376,"type":"ss","country":"🇰🇷_韩国(Youtube技术分享室整理)_58","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇰🇷_韩国(Youtube技术分享室整理)_59","server":"158.247.224.121","port":8009,"type":"ss","country":"🇰🇷_韩国(Youtube技术分享室整理)_59","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"美国(Youtube技术分享室整理)_60","server":"38.75.137.187","port":2376,"type":"ss","country":"美国(Youtube技术分享室整理)_60","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"AU澳大利亚(Youtube技术分享室)_61","server":"172.105.180.227","port":8091,"type":"ss","country":"AU澳大利亚(Youtube技术分享室)_61","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇹🇼TW(Youtube技术分享室整理)_62","server":"139.162.139.42","port":7307,"type":"ss","country":"🇹🇼TW(Youtube技术分享室整理)_62","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"US美国(Youtube技术分享室)_63","server":"169.197.142.21","port":8008,"type":"ss","country":"US美国(Youtube技术分享室)_63","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"(Youtube技术分享室)🇩🇪德国_64","server":"139.162.132.116","port":5601,"type":"ss","country":"(Youtube技术分享室)🇩🇪德国_64","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"AU澳大利亚(Youtube技术分享室)_65","server":"172.105.180.227","port":8000,"type":"ss","country":"AU澳大利亚(Youtube技术分享室)_65","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸US(Youtube技术分享室整理)_66","server":"38.68.134.202","port":2376,"type":"ss","country":"🇺🇸US(Youtube技术分享室整理)_66","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"(Youtube技术分享室)🇰🇷韩国_67","server":"158.247.224.121","port":8888,"type":"ss","country":"(Youtube技术分享室)🇰🇷韩国_67","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"(Youtube技术分享室)🇩🇪德国_68","server":"139.162.132.116","port":8008,"type":"ss","country":"(Youtube技术分享室)🇩🇪德国_68","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"(Youtube技术分享室)🇬🇧英国_69","server":"172.99.190.188","port":5001,"type":"ss","country":"(Youtube技术分享室)🇬🇧英国_69","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"US美国(Youtube技术分享室)_70","server":"167.88.61.70","port":7001,"type":"ss","country":"US美国(Youtube技术分享室)_70","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"FR法国(Youtube技术分享室)_71","server":"145.239.1.100","port":7001,"type":"ss","country":"FR法国(Youtube技术分享室)_71","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"(Youtube技术分享室)🇵🇱波兰_72","server":"194.15.196.106","port":7002,"type":"ss","country":"(Youtube技术分享室)🇵🇱波兰_72","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"US美国(Youtube技术分享室)_73","server":"169.197.142.48","port":8119,"type":"ss","country":"US美国(Youtube技术分享室)_73","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"US美国(Youtube技术分享室)_74","server":"167.88.63.123","port":6679,"type":"ss","country":"US美国(Youtube技术分享室)_74","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"US美国(Youtube技术分享室)_75","server":"162.251.61.241","port":7307,"type":"ss","country":"US美国(Youtube技术分享室)_75","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"加拿大🇨🇦(Youtube技术分享室整理)_76","server":"134.195.196.12","port":8090,"type":"ss","country":"加拿大🇨🇦(Youtube技术分享室整理)_76","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"(Youtube技术分享室)🇫🇷法国_77","server":"188.165.32.235","port":9101,"type":"ss","country":"(Youtube技术分享室)🇫🇷法国_77","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸US(Youtube技术分享室整理)_78","server":"167.88.63.61","port":8881,"type":"ss","country":"🇺🇸US(Youtube技术分享室整理)_78","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"(Youtube技术分享室)🇰🇷韩国_79","server":"158.247.224.121","port":8000,"type":"ss","country":"(Youtube技术分享室)🇰🇷韩国_79","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"US美国(Youtube技术分享室)_80","server":"38.114.114.19","port":7001,"type":"ss","country":"US美国(Youtube技术分享室)_80","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"US美国(Youtube技术分享室)_81","server":"38.68.135.239","port":8118,"type":"ss","country":"US美国(Youtube技术分享室)_81","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"US美国(Youtube技术分享室)_82","server":"167.88.63.107","port":8090,"type":"ss","country":"US美国(Youtube技术分享室)_82","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"US美国(Youtube技术分享室)_83","server":"38.68.135.239","port":5001,"type":"ss","country":"US美国(Youtube技术分享室)_83","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"US美国(Youtube技术分享室)_84","server":"38.114.114.19","port":8882,"type":"ss","country":"US美国(Youtube技术分享室)_84","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"US美国(Youtube技术分享室)_85","server":"38.107.226.149","port":2375,"type":"ss","country":"US美国(Youtube技术分享室)_85","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"US美国(Youtube技术分享室)_86","server":"38.114.114.67","port":2376,"type":"ss","country":"US美国(Youtube技术分享室)_86","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"US美国(Youtube技术分享室)_87","server":"167.88.61.213","port":8882,"type":"ss","country":"US美国(Youtube技术分享室)_87","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"US美国(Youtube技术分享室)_88","server":"38.75.136.127","port":5004,"type":"ss","country":"US美国(Youtube技术分享室)_88","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"(Youtube技术分享室)🇩🇪德国_89","server":"139.162.130.101","port":5003,"type":"ss","country":"(Youtube技术分享室)🇩🇪德国_89","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"US美国(Youtube技术分享室)_90","server":"38.114.114.49","port":7001,"type":"ss","country":"US美国(Youtube技术分享室)_90","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"CA加拿大(Youtube技术分享室)_91","server":"134.195.196.149","port":8080,"type":"ss","country":"CA加拿大(Youtube技术分享室)_91","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"加拿大🇨🇦(Youtube技术分享室整理)_92","server":"198.57.27.172","port":443,"type":"ss","country":"加拿大🇨🇦(Youtube技术分享室整理)_92","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"US美国(Youtube技术分享室)_93","server":"38.68.135.112","port":5003,"type":"ss","country":"US美国(Youtube技术分享室)_93","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"(Youtube技术分享室)🇺🇸美国_94","server":"38.75.136.21","port":7001,"type":"ss","country":"(Youtube技术分享室)🇺🇸美国_94","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"GB英国(Youtube技术分享室)_95","server":"212.38.189.174","port":5600,"type":"ss","country":"GB英国(Youtube技术分享室)_95","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"US美国(Youtube技术分享室)_96","server":"167.88.62.66","port":8882,"type":"ss","country":"US美国(Youtube技术分享室)_96","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"US美国(Youtube技术分享室)_97","server":"38.68.135.239","port":5500,"type":"ss","country":"US美国(Youtube技术分享室)_97","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"(Youtube技术分享室)🇬🇧英国_98","server":"172.99.190.188","port":5600,"type":"ss","country":"(Youtube技术分享室)🇬🇧英国_98","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"GB英国(Youtube技术分享室)_99","server":"172.99.190.39","port":8080,"type":"ss","country":"GB英国(Youtube技术分享室)_99","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"(Youtube技术分享室)🇫🇷法国_100","server":"54.37.192.112","port":443,"type":"vmess","uuid":"9f58234c-355b-4065-ae21-d4a63099aba5","alterId":64,"cipher":"auto","country":"(Youtube技术分享室)🇫🇷法国_100","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/path/120208301422","headers":{"host":"www.15738743.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇺🇸_US_美国_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
-      - 🇺🇸_US_美国_11
-      - 🇰🇷_KR_韩国_12
-      - 🇺🇸_US_美国_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇮🇳_IN_印度_18
-      - 🇨🇦_CA_加拿大_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇺🇸_US_美国_28
+      - 日本+🇯🇵(Youtube技术分享室整理)_1
+      - SG新加坡(Youtube技术分享室)_2
+      - SG新加坡(Youtube技术分享室)_3
+      - SG新加坡(Youtube技术分享室)_4
+      - 🇷🇴RO(Youtube技术分享室整理)_5
+      - SG新加坡(Youtube技术分享室)_6
+      - SG新加坡(Youtube技术分享室)_7
+      - SG新加坡(Youtube技术分享室)_8
+      - SG新加坡(Youtube技术分享室)_9
+      - GB英国(Youtube技术分享室)_10
+      - 🇺🇸US美国(Youtube技术分享室整理)_11
+      - GB英国(Youtube技术分享室)_12
+      - GB英国(Youtube技术分享室)_13
+      - US美国(Youtube技术分享室)_14
+      - (Youtube技术分享室)🇨🇳中国_15
+      - GB英国(Youtube技术分享室)_16
+      - (Youtube技术分享室)🇬🇧英国_17
+      - (Youtube技术分享室)🇬🇧英国_18
+      - GB英国(Youtube技术分享室)_19
+      - (Youtube技术分享室)🇬🇧英国_20
+      - FR法国(Youtube技术分享室)_21
+      - 🇺🇸US(Youtube技术分享室整理)_22
+      - 🇬🇧_英国(Youtube技术分享室整理)_23
+      - GB英国(Youtube技术分享室)_24
+      - 🇺🇸US(Youtube技术分享室整理)_25
+      - (Youtube技术分享室)🇳🇱荷兰_26
+      - (Youtube技术分享室)🇺🇸美国_27
+      - GB英国(Youtube技术分享室)_28
+      - GB英国(Youtube技术分享室)_29
+      - BA波黑(Youtube技术分享室)_30
+      - US美国(Youtube技术分享室)_31
+      - (Youtube技术分享室)🇬🇧英国_32
+      - GB英国(Youtube技术分享室)_33
+      - 🇬🇧_英国(Youtube技术分享室整理)_34
+      - GB英国(Youtube技术分享室)_35
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)_36
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)_37
+      - AU澳大利亚(Youtube技术分享室)_38
+      - (Youtube技术分享室)🇩🇪德国_39
+      - GB英国(Youtube技术分享室)_40
+      - (Youtube技术分享室)🇦🇺澳大利亚_41
+      - 🇺🇸US(Youtube技术分享室整理)_42
+      - 🇺🇸US(Youtube技术分享室整理)_43
+      - 🇰🇷_韩国(Youtube技术分享室整理)_44
+      - US美国(Youtube技术分享室)_45
+      - BA波黑(Youtube技术分享室)_46
+      - US美国(Youtube技术分享室)_47
+      - (Youtube技术分享室)🇺🇸美国_48
+      - (Youtube技术分享室)🇰🇷韩国_49
+      - 🇺🇸US(Youtube技术分享室整理)_50
+      - (Youtube技术分享室)🇬🇧英国_51
+      - GB英国(Youtube技术分享室)_52
+      - (Youtube技术分享室)🇦🇺澳大利亚_53
+      - (Youtube技术分享室)🇺🇸美国_54
+      - 美国(Youtube技术分享室整理)_55
+      - FR法国(Youtube技术分享室)_56
+      - 🇺🇸US(Youtube技术分享室整理)_57
+      - 🇰🇷_韩国(Youtube技术分享室整理)_58
+      - 🇰🇷_韩国(Youtube技术分享室整理)_59
+      - 美国(Youtube技术分享室整理)_60
+      - AU澳大利亚(Youtube技术分享室)_61
+      - 🇹🇼TW(Youtube技术分享室整理)_62
+      - US美国(Youtube技术分享室)_63
+      - (Youtube技术分享室)🇩🇪德国_64
+      - AU澳大利亚(Youtube技术分享室)_65
+      - 🇺🇸US(Youtube技术分享室整理)_66
+      - (Youtube技术分享室)🇰🇷韩国_67
+      - (Youtube技术分享室)🇩🇪德国_68
+      - (Youtube技术分享室)🇬🇧英国_69
+      - US美国(Youtube技术分享室)_70
+      - FR法国(Youtube技术分享室)_71
+      - (Youtube技术分享室)🇵🇱波兰_72
+      - US美国(Youtube技术分享室)_73
+      - US美国(Youtube技术分享室)_74
+      - US美国(Youtube技术分享室)_75
+      - 加拿大🇨🇦(Youtube技术分享室整理)_76
+      - (Youtube技术分享室)🇫🇷法国_77
+      - 🇺🇸US(Youtube技术分享室整理)_78
+      - (Youtube技术分享室)🇰🇷韩国_79
+      - US美国(Youtube技术分享室)_80
+      - US美国(Youtube技术分享室)_81
+      - US美国(Youtube技术分享室)_82
+      - US美国(Youtube技术分享室)_83
+      - US美国(Youtube技术分享室)_84
+      - US美国(Youtube技术分享室)_85
+      - US美国(Youtube技术分享室)_86
+      - US美国(Youtube技术分享室)_87
+      - US美国(Youtube技术分享室)_88
+      - (Youtube技术分享室)🇩🇪德国_89
+      - US美国(Youtube技术分享室)_90
+      - CA加拿大(Youtube技术分享室)_91
+      - 加拿大🇨🇦(Youtube技术分享室整理)_92
+      - US美国(Youtube技术分享室)_93
+      - (Youtube技术分享室)🇺🇸美国_94
+      - GB英国(Youtube技术分享室)_95
+      - US美国(Youtube技术分享室)_96
+      - US美国(Youtube技术分享室)_97
+      - (Youtube技术分享室)🇬🇧英国_98
+      - GB英国(Youtube技术分享室)_99
+      - (Youtube技术分享室)🇫🇷法国_100
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇺🇸_US_美国_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
-      - 🇺🇸_US_美国_11
-      - 🇰🇷_KR_韩国_12
-      - 🇺🇸_US_美国_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇮🇳_IN_印度_18
-      - 🇨🇦_CA_加拿大_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇺🇸_US_美国_28
+      - 日本+🇯🇵(Youtube技术分享室整理)_1
+      - SG新加坡(Youtube技术分享室)_2
+      - SG新加坡(Youtube技术分享室)_3
+      - SG新加坡(Youtube技术分享室)_4
+      - 🇷🇴RO(Youtube技术分享室整理)_5
+      - SG新加坡(Youtube技术分享室)_6
+      - SG新加坡(Youtube技术分享室)_7
+      - SG新加坡(Youtube技术分享室)_8
+      - SG新加坡(Youtube技术分享室)_9
+      - GB英国(Youtube技术分享室)_10
+      - 🇺🇸US美国(Youtube技术分享室整理)_11
+      - GB英国(Youtube技术分享室)_12
+      - GB英国(Youtube技术分享室)_13
+      - US美国(Youtube技术分享室)_14
+      - (Youtube技术分享室)🇨🇳中国_15
+      - GB英国(Youtube技术分享室)_16
+      - (Youtube技术分享室)🇬🇧英国_17
+      - (Youtube技术分享室)🇬🇧英国_18
+      - GB英国(Youtube技术分享室)_19
+      - (Youtube技术分享室)🇬🇧英国_20
+      - FR法国(Youtube技术分享室)_21
+      - 🇺🇸US(Youtube技术分享室整理)_22
+      - 🇬🇧_英国(Youtube技术分享室整理)_23
+      - GB英国(Youtube技术分享室)_24
+      - 🇺🇸US(Youtube技术分享室整理)_25
+      - (Youtube技术分享室)🇳🇱荷兰_26
+      - (Youtube技术分享室)🇺🇸美国_27
+      - GB英国(Youtube技术分享室)_28
+      - GB英国(Youtube技术分享室)_29
+      - BA波黑(Youtube技术分享室)_30
+      - US美国(Youtube技术分享室)_31
+      - (Youtube技术分享室)🇬🇧英国_32
+      - GB英国(Youtube技术分享室)_33
+      - 🇬🇧_英国(Youtube技术分享室整理)_34
+      - GB英国(Youtube技术分享室)_35
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)_36
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)_37
+      - AU澳大利亚(Youtube技术分享室)_38
+      - (Youtube技术分享室)🇩🇪德国_39
+      - GB英国(Youtube技术分享室)_40
+      - (Youtube技术分享室)🇦🇺澳大利亚_41
+      - 🇺🇸US(Youtube技术分享室整理)_42
+      - 🇺🇸US(Youtube技术分享室整理)_43
+      - 🇰🇷_韩国(Youtube技术分享室整理)_44
+      - US美国(Youtube技术分享室)_45
+      - BA波黑(Youtube技术分享室)_46
+      - US美国(Youtube技术分享室)_47
+      - (Youtube技术分享室)🇺🇸美国_48
+      - (Youtube技术分享室)🇰🇷韩国_49
+      - 🇺🇸US(Youtube技术分享室整理)_50
+      - (Youtube技术分享室)🇬🇧英国_51
+      - GB英国(Youtube技术分享室)_52
+      - (Youtube技术分享室)🇦🇺澳大利亚_53
+      - (Youtube技术分享室)🇺🇸美国_54
+      - 美国(Youtube技术分享室整理)_55
+      - FR法国(Youtube技术分享室)_56
+      - 🇺🇸US(Youtube技术分享室整理)_57
+      - 🇰🇷_韩国(Youtube技术分享室整理)_58
+      - 🇰🇷_韩国(Youtube技术分享室整理)_59
+      - 美国(Youtube技术分享室整理)_60
+      - AU澳大利亚(Youtube技术分享室)_61
+      - 🇹🇼TW(Youtube技术分享室整理)_62
+      - US美国(Youtube技术分享室)_63
+      - (Youtube技术分享室)🇩🇪德国_64
+      - AU澳大利亚(Youtube技术分享室)_65
+      - 🇺🇸US(Youtube技术分享室整理)_66
+      - (Youtube技术分享室)🇰🇷韩国_67
+      - (Youtube技术分享室)🇩🇪德国_68
+      - (Youtube技术分享室)🇬🇧英国_69
+      - US美国(Youtube技术分享室)_70
+      - FR法国(Youtube技术分享室)_71
+      - (Youtube技术分享室)🇵🇱波兰_72
+      - US美国(Youtube技术分享室)_73
+      - US美国(Youtube技术分享室)_74
+      - US美国(Youtube技术分享室)_75
+      - 加拿大🇨🇦(Youtube技术分享室整理)_76
+      - (Youtube技术分享室)🇫🇷法国_77
+      - 🇺🇸US(Youtube技术分享室整理)_78
+      - (Youtube技术分享室)🇰🇷韩国_79
+      - US美国(Youtube技术分享室)_80
+      - US美国(Youtube技术分享室)_81
+      - US美国(Youtube技术分享室)_82
+      - US美国(Youtube技术分享室)_83
+      - US美国(Youtube技术分享室)_84
+      - US美国(Youtube技术分享室)_85
+      - US美国(Youtube技术分享室)_86
+      - US美国(Youtube技术分享室)_87
+      - US美国(Youtube技术分享室)_88
+      - (Youtube技术分享室)🇩🇪德国_89
+      - US美国(Youtube技术分享室)_90
+      - CA加拿大(Youtube技术分享室)_91
+      - 加拿大🇨🇦(Youtube技术分享室整理)_92
+      - US美国(Youtube技术分享室)_93
+      - (Youtube技术分享室)🇺🇸美国_94
+      - GB英国(Youtube技术分享室)_95
+      - US美国(Youtube技术分享室)_96
+      - US美国(Youtube技术分享室)_97
+      - (Youtube技术分享室)🇬🇧英国_98
+      - GB英国(Youtube技术分享室)_99
+      - (Youtube技术分享室)🇫🇷法国_100
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇺🇸_US_美国_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
-      - 🇺🇸_US_美国_11
-      - 🇰🇷_KR_韩国_12
-      - 🇺🇸_US_美国_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇮🇳_IN_印度_18
-      - 🇨🇦_CA_加拿大_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇺🇸_US_美国_28
+      - 日本+🇯🇵(Youtube技术分享室整理)_1
+      - SG新加坡(Youtube技术分享室)_2
+      - SG新加坡(Youtube技术分享室)_3
+      - SG新加坡(Youtube技术分享室)_4
+      - 🇷🇴RO(Youtube技术分享室整理)_5
+      - SG新加坡(Youtube技术分享室)_6
+      - SG新加坡(Youtube技术分享室)_7
+      - SG新加坡(Youtube技术分享室)_8
+      - SG新加坡(Youtube技术分享室)_9
+      - GB英国(Youtube技术分享室)_10
+      - 🇺🇸US美国(Youtube技术分享室整理)_11
+      - GB英国(Youtube技术分享室)_12
+      - GB英国(Youtube技术分享室)_13
+      - US美国(Youtube技术分享室)_14
+      - (Youtube技术分享室)🇨🇳中国_15
+      - GB英国(Youtube技术分享室)_16
+      - (Youtube技术分享室)🇬🇧英国_17
+      - (Youtube技术分享室)🇬🇧英国_18
+      - GB英国(Youtube技术分享室)_19
+      - (Youtube技术分享室)🇬🇧英国_20
+      - FR法国(Youtube技术分享室)_21
+      - 🇺🇸US(Youtube技术分享室整理)_22
+      - 🇬🇧_英国(Youtube技术分享室整理)_23
+      - GB英国(Youtube技术分享室)_24
+      - 🇺🇸US(Youtube技术分享室整理)_25
+      - (Youtube技术分享室)🇳🇱荷兰_26
+      - (Youtube技术分享室)🇺🇸美国_27
+      - GB英国(Youtube技术分享室)_28
+      - GB英国(Youtube技术分享室)_29
+      - BA波黑(Youtube技术分享室)_30
+      - US美国(Youtube技术分享室)_31
+      - (Youtube技术分享室)🇬🇧英国_32
+      - GB英国(Youtube技术分享室)_33
+      - 🇬🇧_英国(Youtube技术分享室整理)_34
+      - GB英国(Youtube技术分享室)_35
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)_36
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)_37
+      - AU澳大利亚(Youtube技术分享室)_38
+      - (Youtube技术分享室)🇩🇪德国_39
+      - GB英国(Youtube技术分享室)_40
+      - (Youtube技术分享室)🇦🇺澳大利亚_41
+      - 🇺🇸US(Youtube技术分享室整理)_42
+      - 🇺🇸US(Youtube技术分享室整理)_43
+      - 🇰🇷_韩国(Youtube技术分享室整理)_44
+      - US美国(Youtube技术分享室)_45
+      - BA波黑(Youtube技术分享室)_46
+      - US美国(Youtube技术分享室)_47
+      - (Youtube技术分享室)🇺🇸美国_48
+      - (Youtube技术分享室)🇰🇷韩国_49
+      - 🇺🇸US(Youtube技术分享室整理)_50
+      - (Youtube技术分享室)🇬🇧英国_51
+      - GB英国(Youtube技术分享室)_52
+      - (Youtube技术分享室)🇦🇺澳大利亚_53
+      - (Youtube技术分享室)🇺🇸美国_54
+      - 美国(Youtube技术分享室整理)_55
+      - FR法国(Youtube技术分享室)_56
+      - 🇺🇸US(Youtube技术分享室整理)_57
+      - 🇰🇷_韩国(Youtube技术分享室整理)_58
+      - 🇰🇷_韩国(Youtube技术分享室整理)_59
+      - 美国(Youtube技术分享室整理)_60
+      - AU澳大利亚(Youtube技术分享室)_61
+      - 🇹🇼TW(Youtube技术分享室整理)_62
+      - US美国(Youtube技术分享室)_63
+      - (Youtube技术分享室)🇩🇪德国_64
+      - AU澳大利亚(Youtube技术分享室)_65
+      - 🇺🇸US(Youtube技术分享室整理)_66
+      - (Youtube技术分享室)🇰🇷韩国_67
+      - (Youtube技术分享室)🇩🇪德国_68
+      - (Youtube技术分享室)🇬🇧英国_69
+      - US美国(Youtube技术分享室)_70
+      - FR法国(Youtube技术分享室)_71
+      - (Youtube技术分享室)🇵🇱波兰_72
+      - US美国(Youtube技术分享室)_73
+      - US美国(Youtube技术分享室)_74
+      - US美国(Youtube技术分享室)_75
+      - 加拿大🇨🇦(Youtube技术分享室整理)_76
+      - (Youtube技术分享室)🇫🇷法国_77
+      - 🇺🇸US(Youtube技术分享室整理)_78
+      - (Youtube技术分享室)🇰🇷韩国_79
+      - US美国(Youtube技术分享室)_80
+      - US美国(Youtube技术分享室)_81
+      - US美国(Youtube技术分享室)_82
+      - US美国(Youtube技术分享室)_83
+      - US美国(Youtube技术分享室)_84
+      - US美国(Youtube技术分享室)_85
+      - US美国(Youtube技术分享室)_86
+      - US美国(Youtube技术分享室)_87
+      - US美国(Youtube技术分享室)_88
+      - (Youtube技术分享室)🇩🇪德国_89
+      - US美国(Youtube技术分享室)_90
+      - CA加拿大(Youtube技术分享室)_91
+      - 加拿大🇨🇦(Youtube技术分享室整理)_92
+      - US美国(Youtube技术分享室)_93
+      - (Youtube技术分享室)🇺🇸美国_94
+      - GB英国(Youtube技术分享室)_95
+      - US美国(Youtube技术分享室)_96
+      - US美国(Youtube技术分享室)_97
+      - (Youtube技术分享室)🇬🇧英国_98
+      - GB英国(Youtube技术分享室)_99
+      - (Youtube技术分享室)🇫🇷法国_100
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇺🇸_US_美国_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
-      - 🇺🇸_US_美国_11
-      - 🇰🇷_KR_韩国_12
-      - 🇺🇸_US_美国_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇮🇳_IN_印度_18
-      - 🇨🇦_CA_加拿大_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇺🇸_US_美国_28
+      - 日本+🇯🇵(Youtube技术分享室整理)_1
+      - SG新加坡(Youtube技术分享室)_2
+      - SG新加坡(Youtube技术分享室)_3
+      - SG新加坡(Youtube技术分享室)_4
+      - 🇷🇴RO(Youtube技术分享室整理)_5
+      - SG新加坡(Youtube技术分享室)_6
+      - SG新加坡(Youtube技术分享室)_7
+      - SG新加坡(Youtube技术分享室)_8
+      - SG新加坡(Youtube技术分享室)_9
+      - GB英国(Youtube技术分享室)_10
+      - 🇺🇸US美国(Youtube技术分享室整理)_11
+      - GB英国(Youtube技术分享室)_12
+      - GB英国(Youtube技术分享室)_13
+      - US美国(Youtube技术分享室)_14
+      - (Youtube技术分享室)🇨🇳中国_15
+      - GB英国(Youtube技术分享室)_16
+      - (Youtube技术分享室)🇬🇧英国_17
+      - (Youtube技术分享室)🇬🇧英国_18
+      - GB英国(Youtube技术分享室)_19
+      - (Youtube技术分享室)🇬🇧英国_20
+      - FR法国(Youtube技术分享室)_21
+      - 🇺🇸US(Youtube技术分享室整理)_22
+      - 🇬🇧_英国(Youtube技术分享室整理)_23
+      - GB英国(Youtube技术分享室)_24
+      - 🇺🇸US(Youtube技术分享室整理)_25
+      - (Youtube技术分享室)🇳🇱荷兰_26
+      - (Youtube技术分享室)🇺🇸美国_27
+      - GB英国(Youtube技术分享室)_28
+      - GB英国(Youtube技术分享室)_29
+      - BA波黑(Youtube技术分享室)_30
+      - US美国(Youtube技术分享室)_31
+      - (Youtube技术分享室)🇬🇧英国_32
+      - GB英国(Youtube技术分享室)_33
+      - 🇬🇧_英国(Youtube技术分享室整理)_34
+      - GB英国(Youtube技术分享室)_35
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)_36
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)_37
+      - AU澳大利亚(Youtube技术分享室)_38
+      - (Youtube技术分享室)🇩🇪德国_39
+      - GB英国(Youtube技术分享室)_40
+      - (Youtube技术分享室)🇦🇺澳大利亚_41
+      - 🇺🇸US(Youtube技术分享室整理)_42
+      - 🇺🇸US(Youtube技术分享室整理)_43
+      - 🇰🇷_韩国(Youtube技术分享室整理)_44
+      - US美国(Youtube技术分享室)_45
+      - BA波黑(Youtube技术分享室)_46
+      - US美国(Youtube技术分享室)_47
+      - (Youtube技术分享室)🇺🇸美国_48
+      - (Youtube技术分享室)🇰🇷韩国_49
+      - 🇺🇸US(Youtube技术分享室整理)_50
+      - (Youtube技术分享室)🇬🇧英国_51
+      - GB英国(Youtube技术分享室)_52
+      - (Youtube技术分享室)🇦🇺澳大利亚_53
+      - (Youtube技术分享室)🇺🇸美国_54
+      - 美国(Youtube技术分享室整理)_55
+      - FR法国(Youtube技术分享室)_56
+      - 🇺🇸US(Youtube技术分享室整理)_57
+      - 🇰🇷_韩国(Youtube技术分享室整理)_58
+      - 🇰🇷_韩国(Youtube技术分享室整理)_59
+      - 美国(Youtube技术分享室整理)_60
+      - AU澳大利亚(Youtube技术分享室)_61
+      - 🇹🇼TW(Youtube技术分享室整理)_62
+      - US美国(Youtube技术分享室)_63
+      - (Youtube技术分享室)🇩🇪德国_64
+      - AU澳大利亚(Youtube技术分享室)_65
+      - 🇺🇸US(Youtube技术分享室整理)_66
+      - (Youtube技术分享室)🇰🇷韩国_67
+      - (Youtube技术分享室)🇩🇪德国_68
+      - (Youtube技术分享室)🇬🇧英国_69
+      - US美国(Youtube技术分享室)_70
+      - FR法国(Youtube技术分享室)_71
+      - (Youtube技术分享室)🇵🇱波兰_72
+      - US美国(Youtube技术分享室)_73
+      - US美国(Youtube技术分享室)_74
+      - US美国(Youtube技术分享室)_75
+      - 加拿大🇨🇦(Youtube技术分享室整理)_76
+      - (Youtube技术分享室)🇫🇷法国_77
+      - 🇺🇸US(Youtube技术分享室整理)_78
+      - (Youtube技术分享室)🇰🇷韩国_79
+      - US美国(Youtube技术分享室)_80
+      - US美国(Youtube技术分享室)_81
+      - US美国(Youtube技术分享室)_82
+      - US美国(Youtube技术分享室)_83
+      - US美国(Youtube技术分享室)_84
+      - US美国(Youtube技术分享室)_85
+      - US美国(Youtube技术分享室)_86
+      - US美国(Youtube技术分享室)_87
+      - US美国(Youtube技术分享室)_88
+      - (Youtube技术分享室)🇩🇪德国_89
+      - US美国(Youtube技术分享室)_90
+      - CA加拿大(Youtube技术分享室)_91
+      - 加拿大🇨🇦(Youtube技术分享室整理)_92
+      - US美国(Youtube技术分享室)_93
+      - (Youtube技术分享室)🇺🇸美国_94
+      - GB英国(Youtube技术分享室)_95
+      - US美国(Youtube技术分享室)_96
+      - US美国(Youtube技术分享室)_97
+      - (Youtube技术分享室)🇬🇧英国_98
+      - GB英国(Youtube技术分享室)_99
+      - (Youtube技术分享室)🇫🇷法国_100
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇺🇸_US_美国_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
-      - 🇺🇸_US_美国_11
-      - 🇰🇷_KR_韩国_12
-      - 🇺🇸_US_美国_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇮🇳_IN_印度_18
-      - 🇨🇦_CA_加拿大_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇺🇸_US_美国_28
+      - 日本+🇯🇵(Youtube技术分享室整理)_1
+      - SG新加坡(Youtube技术分享室)_2
+      - SG新加坡(Youtube技术分享室)_3
+      - SG新加坡(Youtube技术分享室)_4
+      - 🇷🇴RO(Youtube技术分享室整理)_5
+      - SG新加坡(Youtube技术分享室)_6
+      - SG新加坡(Youtube技术分享室)_7
+      - SG新加坡(Youtube技术分享室)_8
+      - SG新加坡(Youtube技术分享室)_9
+      - GB英国(Youtube技术分享室)_10
+      - 🇺🇸US美国(Youtube技术分享室整理)_11
+      - GB英国(Youtube技术分享室)_12
+      - GB英国(Youtube技术分享室)_13
+      - US美国(Youtube技术分享室)_14
+      - (Youtube技术分享室)🇨🇳中国_15
+      - GB英国(Youtube技术分享室)_16
+      - (Youtube技术分享室)🇬🇧英国_17
+      - (Youtube技术分享室)🇬🇧英国_18
+      - GB英国(Youtube技术分享室)_19
+      - (Youtube技术分享室)🇬🇧英国_20
+      - FR法国(Youtube技术分享室)_21
+      - 🇺🇸US(Youtube技术分享室整理)_22
+      - 🇬🇧_英国(Youtube技术分享室整理)_23
+      - GB英国(Youtube技术分享室)_24
+      - 🇺🇸US(Youtube技术分享室整理)_25
+      - (Youtube技术分享室)🇳🇱荷兰_26
+      - (Youtube技术分享室)🇺🇸美国_27
+      - GB英国(Youtube技术分享室)_28
+      - GB英国(Youtube技术分享室)_29
+      - BA波黑(Youtube技术分享室)_30
+      - US美国(Youtube技术分享室)_31
+      - (Youtube技术分享室)🇬🇧英国_32
+      - GB英国(Youtube技术分享室)_33
+      - 🇬🇧_英国(Youtube技术分享室整理)_34
+      - GB英国(Youtube技术分享室)_35
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)_36
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)_37
+      - AU澳大利亚(Youtube技术分享室)_38
+      - (Youtube技术分享室)🇩🇪德国_39
+      - GB英国(Youtube技术分享室)_40
+      - (Youtube技术分享室)🇦🇺澳大利亚_41
+      - 🇺🇸US(Youtube技术分享室整理)_42
+      - 🇺🇸US(Youtube技术分享室整理)_43
+      - 🇰🇷_韩国(Youtube技术分享室整理)_44
+      - US美国(Youtube技术分享室)_45
+      - BA波黑(Youtube技术分享室)_46
+      - US美国(Youtube技术分享室)_47
+      - (Youtube技术分享室)🇺🇸美国_48
+      - (Youtube技术分享室)🇰🇷韩国_49
+      - 🇺🇸US(Youtube技术分享室整理)_50
+      - (Youtube技术分享室)🇬🇧英国_51
+      - GB英国(Youtube技术分享室)_52
+      - (Youtube技术分享室)🇦🇺澳大利亚_53
+      - (Youtube技术分享室)🇺🇸美国_54
+      - 美国(Youtube技术分享室整理)_55
+      - FR法国(Youtube技术分享室)_56
+      - 🇺🇸US(Youtube技术分享室整理)_57
+      - 🇰🇷_韩国(Youtube技术分享室整理)_58
+      - 🇰🇷_韩国(Youtube技术分享室整理)_59
+      - 美国(Youtube技术分享室整理)_60
+      - AU澳大利亚(Youtube技术分享室)_61
+      - 🇹🇼TW(Youtube技术分享室整理)_62
+      - US美国(Youtube技术分享室)_63
+      - (Youtube技术分享室)🇩🇪德国_64
+      - AU澳大利亚(Youtube技术分享室)_65
+      - 🇺🇸US(Youtube技术分享室整理)_66
+      - (Youtube技术分享室)🇰🇷韩国_67
+      - (Youtube技术分享室)🇩🇪德国_68
+      - (Youtube技术分享室)🇬🇧英国_69
+      - US美国(Youtube技术分享室)_70
+      - FR法国(Youtube技术分享室)_71
+      - (Youtube技术分享室)🇵🇱波兰_72
+      - US美国(Youtube技术分享室)_73
+      - US美国(Youtube技术分享室)_74
+      - US美国(Youtube技术分享室)_75
+      - 加拿大🇨🇦(Youtube技术分享室整理)_76
+      - (Youtube技术分享室)🇫🇷法国_77
+      - 🇺🇸US(Youtube技术分享室整理)_78
+      - (Youtube技术分享室)🇰🇷韩国_79
+      - US美国(Youtube技术分享室)_80
+      - US美国(Youtube技术分享室)_81
+      - US美国(Youtube技术分享室)_82
+      - US美国(Youtube技术分享室)_83
+      - US美国(Youtube技术分享室)_84
+      - US美国(Youtube技术分享室)_85
+      - US美国(Youtube技术分享室)_86
+      - US美国(Youtube技术分享室)_87
+      - US美国(Youtube技术分享室)_88
+      - (Youtube技术分享室)🇩🇪德国_89
+      - US美国(Youtube技术分享室)_90
+      - CA加拿大(Youtube技术分享室)_91
+      - 加拿大🇨🇦(Youtube技术分享室整理)_92
+      - US美国(Youtube技术分享室)_93
+      - (Youtube技术分享室)🇺🇸美国_94
+      - GB英国(Youtube技术分享室)_95
+      - US美国(Youtube技术分享室)_96
+      - US美国(Youtube技术分享室)_97
+      - (Youtube技术分享室)🇬🇧英国_98
+      - GB英国(Youtube技术分享室)_99
+      - (Youtube技术分享室)🇫🇷法国_100
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇺🇸_US_美国_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
-      - 🇺🇸_US_美国_11
-      - 🇰🇷_KR_韩国_12
-      - 🇺🇸_US_美国_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇮🇳_IN_印度_18
-      - 🇨🇦_CA_加拿大_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇺🇸_US_美国_28
+      - 日本+🇯🇵(Youtube技术分享室整理)_1
+      - SG新加坡(Youtube技术分享室)_2
+      - SG新加坡(Youtube技术分享室)_3
+      - SG新加坡(Youtube技术分享室)_4
+      - 🇷🇴RO(Youtube技术分享室整理)_5
+      - SG新加坡(Youtube技术分享室)_6
+      - SG新加坡(Youtube技术分享室)_7
+      - SG新加坡(Youtube技术分享室)_8
+      - SG新加坡(Youtube技术分享室)_9
+      - GB英国(Youtube技术分享室)_10
+      - 🇺🇸US美国(Youtube技术分享室整理)_11
+      - GB英国(Youtube技术分享室)_12
+      - GB英国(Youtube技术分享室)_13
+      - US美国(Youtube技术分享室)_14
+      - (Youtube技术分享室)🇨🇳中国_15
+      - GB英国(Youtube技术分享室)_16
+      - (Youtube技术分享室)🇬🇧英国_17
+      - (Youtube技术分享室)🇬🇧英国_18
+      - GB英国(Youtube技术分享室)_19
+      - (Youtube技术分享室)🇬🇧英国_20
+      - FR法国(Youtube技术分享室)_21
+      - 🇺🇸US(Youtube技术分享室整理)_22
+      - 🇬🇧_英国(Youtube技术分享室整理)_23
+      - GB英国(Youtube技术分享室)_24
+      - 🇺🇸US(Youtube技术分享室整理)_25
+      - (Youtube技术分享室)🇳🇱荷兰_26
+      - (Youtube技术分享室)🇺🇸美国_27
+      - GB英国(Youtube技术分享室)_28
+      - GB英国(Youtube技术分享室)_29
+      - BA波黑(Youtube技术分享室)_30
+      - US美国(Youtube技术分享室)_31
+      - (Youtube技术分享室)🇬🇧英国_32
+      - GB英国(Youtube技术分享室)_33
+      - 🇬🇧_英国(Youtube技术分享室整理)_34
+      - GB英国(Youtube技术分享室)_35
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)_36
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)_37
+      - AU澳大利亚(Youtube技术分享室)_38
+      - (Youtube技术分享室)🇩🇪德国_39
+      - GB英国(Youtube技术分享室)_40
+      - (Youtube技术分享室)🇦🇺澳大利亚_41
+      - 🇺🇸US(Youtube技术分享室整理)_42
+      - 🇺🇸US(Youtube技术分享室整理)_43
+      - 🇰🇷_韩国(Youtube技术分享室整理)_44
+      - US美国(Youtube技术分享室)_45
+      - BA波黑(Youtube技术分享室)_46
+      - US美国(Youtube技术分享室)_47
+      - (Youtube技术分享室)🇺🇸美国_48
+      - (Youtube技术分享室)🇰🇷韩国_49
+      - 🇺🇸US(Youtube技术分享室整理)_50
+      - (Youtube技术分享室)🇬🇧英国_51
+      - GB英国(Youtube技术分享室)_52
+      - (Youtube技术分享室)🇦🇺澳大利亚_53
+      - (Youtube技术分享室)🇺🇸美国_54
+      - 美国(Youtube技术分享室整理)_55
+      - FR法国(Youtube技术分享室)_56
+      - 🇺🇸US(Youtube技术分享室整理)_57
+      - 🇰🇷_韩国(Youtube技术分享室整理)_58
+      - 🇰🇷_韩国(Youtube技术分享室整理)_59
+      - 美国(Youtube技术分享室整理)_60
+      - AU澳大利亚(Youtube技术分享室)_61
+      - 🇹🇼TW(Youtube技术分享室整理)_62
+      - US美国(Youtube技术分享室)_63
+      - (Youtube技术分享室)🇩🇪德国_64
+      - AU澳大利亚(Youtube技术分享室)_65
+      - 🇺🇸US(Youtube技术分享室整理)_66
+      - (Youtube技术分享室)🇰🇷韩国_67
+      - (Youtube技术分享室)🇩🇪德国_68
+      - (Youtube技术分享室)🇬🇧英国_69
+      - US美国(Youtube技术分享室)_70
+      - FR法国(Youtube技术分享室)_71
+      - (Youtube技术分享室)🇵🇱波兰_72
+      - US美国(Youtube技术分享室)_73
+      - US美国(Youtube技术分享室)_74
+      - US美国(Youtube技术分享室)_75
+      - 加拿大🇨🇦(Youtube技术分享室整理)_76
+      - (Youtube技术分享室)🇫🇷法国_77
+      - 🇺🇸US(Youtube技术分享室整理)_78
+      - (Youtube技术分享室)🇰🇷韩国_79
+      - US美国(Youtube技术分享室)_80
+      - US美国(Youtube技术分享室)_81
+      - US美国(Youtube技术分享室)_82
+      - US美国(Youtube技术分享室)_83
+      - US美国(Youtube技术分享室)_84
+      - US美国(Youtube技术分享室)_85
+      - US美国(Youtube技术分享室)_86
+      - US美国(Youtube技术分享室)_87
+      - US美国(Youtube技术分享室)_88
+      - (Youtube技术分享室)🇩🇪德国_89
+      - US美国(Youtube技术分享室)_90
+      - CA加拿大(Youtube技术分享室)_91
+      - 加拿大🇨🇦(Youtube技术分享室整理)_92
+      - US美国(Youtube技术分享室)_93
+      - (Youtube技术分享室)🇺🇸美国_94
+      - GB英国(Youtube技术分享室)_95
+      - US美国(Youtube技术分享室)_96
+      - US美国(Youtube技术分享室)_97
+      - (Youtube技术分享室)🇬🇧英国_98
+      - GB英国(Youtube技术分享室)_99
+      - (Youtube技术分享室)🇫🇷法国_100
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -256,34 +760,106 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_7
-      - 🇺🇸_US_美国_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇦_CA_加拿大_10
-      - 🇺🇸_US_美国_11
-      - 🇰🇷_KR_韩国_12
-      - 🇺🇸_US_美国_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇨🇦_CA_加拿大_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇮🇳_IN_印度_18
-      - 🇨🇦_CA_加拿大_19
-      - 🇨🇦_CA_加拿大_20
-      - 🇺🇸_US_美国_21
-      - 🇨🇦_CA_加拿大_22
-      - 🇺🇸_US_美国_23
-      - 🇨🇦_CA_加拿大_24
-      - 🇨🇦_CA_加拿大_25
-      - 🇨🇦_CA_加拿大_26
-      - 🇨🇦_CA_加拿大_27
-      - 🇺🇸_US_美国_28
+      - 日本+🇯🇵(Youtube技术分享室整理)_1
+      - SG新加坡(Youtube技术分享室)_2
+      - SG新加坡(Youtube技术分享室)_3
+      - SG新加坡(Youtube技术分享室)_4
+      - 🇷🇴RO(Youtube技术分享室整理)_5
+      - SG新加坡(Youtube技术分享室)_6
+      - SG新加坡(Youtube技术分享室)_7
+      - SG新加坡(Youtube技术分享室)_8
+      - SG新加坡(Youtube技术分享室)_9
+      - GB英国(Youtube技术分享室)_10
+      - 🇺🇸US美国(Youtube技术分享室整理)_11
+      - GB英国(Youtube技术分享室)_12
+      - GB英国(Youtube技术分享室)_13
+      - US美国(Youtube技术分享室)_14
+      - (Youtube技术分享室)🇨🇳中国_15
+      - GB英国(Youtube技术分享室)_16
+      - (Youtube技术分享室)🇬🇧英国_17
+      - (Youtube技术分享室)🇬🇧英国_18
+      - GB英国(Youtube技术分享室)_19
+      - (Youtube技术分享室)🇬🇧英国_20
+      - FR法国(Youtube技术分享室)_21
+      - 🇺🇸US(Youtube技术分享室整理)_22
+      - 🇬🇧_英国(Youtube技术分享室整理)_23
+      - GB英国(Youtube技术分享室)_24
+      - 🇺🇸US(Youtube技术分享室整理)_25
+      - (Youtube技术分享室)🇳🇱荷兰_26
+      - (Youtube技术分享室)🇺🇸美国_27
+      - GB英国(Youtube技术分享室)_28
+      - GB英国(Youtube技术分享室)_29
+      - BA波黑(Youtube技术分享室)_30
+      - US美国(Youtube技术分享室)_31
+      - (Youtube技术分享室)🇬🇧英国_32
+      - GB英国(Youtube技术分享室)_33
+      - 🇬🇧_英国(Youtube技术分享室整理)_34
+      - GB英国(Youtube技术分享室)_35
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)_36
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)_37
+      - AU澳大利亚(Youtube技术分享室)_38
+      - (Youtube技术分享室)🇩🇪德国_39
+      - GB英国(Youtube技术分享室)_40
+      - (Youtube技术分享室)🇦🇺澳大利亚_41
+      - 🇺🇸US(Youtube技术分享室整理)_42
+      - 🇺🇸US(Youtube技术分享室整理)_43
+      - 🇰🇷_韩国(Youtube技术分享室整理)_44
+      - US美国(Youtube技术分享室)_45
+      - BA波黑(Youtube技术分享室)_46
+      - US美国(Youtube技术分享室)_47
+      - (Youtube技术分享室)🇺🇸美国_48
+      - (Youtube技术分享室)🇰🇷韩国_49
+      - 🇺🇸US(Youtube技术分享室整理)_50
+      - (Youtube技术分享室)🇬🇧英国_51
+      - GB英国(Youtube技术分享室)_52
+      - (Youtube技术分享室)🇦🇺澳大利亚_53
+      - (Youtube技术分享室)🇺🇸美国_54
+      - 美国(Youtube技术分享室整理)_55
+      - FR法国(Youtube技术分享室)_56
+      - 🇺🇸US(Youtube技术分享室整理)_57
+      - 🇰🇷_韩国(Youtube技术分享室整理)_58
+      - 🇰🇷_韩国(Youtube技术分享室整理)_59
+      - 美国(Youtube技术分享室整理)_60
+      - AU澳大利亚(Youtube技术分享室)_61
+      - 🇹🇼TW(Youtube技术分享室整理)_62
+      - US美国(Youtube技术分享室)_63
+      - (Youtube技术分享室)🇩🇪德国_64
+      - AU澳大利亚(Youtube技术分享室)_65
+      - 🇺🇸US(Youtube技术分享室整理)_66
+      - (Youtube技术分享室)🇰🇷韩国_67
+      - (Youtube技术分享室)🇩🇪德国_68
+      - (Youtube技术分享室)🇬🇧英国_69
+      - US美国(Youtube技术分享室)_70
+      - FR法国(Youtube技术分享室)_71
+      - (Youtube技术分享室)🇵🇱波兰_72
+      - US美国(Youtube技术分享室)_73
+      - US美国(Youtube技术分享室)_74
+      - US美国(Youtube技术分享室)_75
+      - 加拿大🇨🇦(Youtube技术分享室整理)_76
+      - (Youtube技术分享室)🇫🇷法国_77
+      - 🇺🇸US(Youtube技术分享室整理)_78
+      - (Youtube技术分享室)🇰🇷韩国_79
+      - US美国(Youtube技术分享室)_80
+      - US美国(Youtube技术分享室)_81
+      - US美国(Youtube技术分享室)_82
+      - US美国(Youtube技术分享室)_83
+      - US美国(Youtube技术分享室)_84
+      - US美国(Youtube技术分享室)_85
+      - US美国(Youtube技术分享室)_86
+      - US美国(Youtube技术分享室)_87
+      - US美国(Youtube技术分享室)_88
+      - (Youtube技术分享室)🇩🇪德国_89
+      - US美国(Youtube技术分享室)_90
+      - CA加拿大(Youtube技术分享室)_91
+      - 加拿大🇨🇦(Youtube技术分享室整理)_92
+      - US美国(Youtube技术分享室)_93
+      - (Youtube技术分享室)🇺🇸美国_94
+      - GB英国(Youtube技术分享室)_95
+      - US美国(Youtube技术分享室)_96
+      - US美国(Youtube技术分享室)_97
+      - (Youtube技术分享室)🇬🇧英国_98
+      - GB英国(Youtube技术分享室)_99
+      - (Youtube技术分享室)🇫🇷法国_100
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
