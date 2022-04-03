@@ -5,46 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"CS_1","server":"ce.costxin.codes","port":443,"type":"vmess","uuid":"160b3536-d347-4393-a114-25278fe8201c","alterId":64,"cipher":"auto","country":"CS_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/879f771dceaaa48005ea6119e4783181","headers":{"host":"ce.costxin.codes"}}}
+  - {"name":"default_name_1","server":"104.21.84.81","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","country":"default_name_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"zero2.a-yu.xyz"}}}
+  - {"name":"🇮🇳_IN_印度_2","server":"45.79.121.117","port":5601,"type":"ss","country":"🇮🇳_IN_印度_2","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇻🇳_VN_越南_3","server":"0319hzm01.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"🇻🇳_VN_越南_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"0319hzm01.fans8.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CS_1
+      - default_name_1
+      - 🇮🇳_IN_印度_2
+      - 🇻🇳_VN_越南_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CS_1
+      - default_name_1
+      - 🇮🇳_IN_印度_2
+      - 🇻🇳_VN_越南_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CS_1
+      - default_name_1
+      - 🇮🇳_IN_印度_2
+      - 🇻🇳_VN_越南_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CS_1
+      - default_name_1
+      - 🇮🇳_IN_印度_2
+      - 🇻🇳_VN_越南_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CS_1
+      - default_name_1
+      - 🇮🇳_IN_印度_2
+      - 🇻🇳_VN_越南_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CS_1
+      - default_name_1
+      - 🇮🇳_IN_印度_2
+      - 🇻🇳_VN_越南_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +81,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CS_1
+      - default_name_1
+      - 🇮🇳_IN_印度_2
+      - 🇻🇳_VN_越南_3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
