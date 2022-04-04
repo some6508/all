@@ -5,46 +5,81 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"default_name_1","server":"bpjzx2.cainiao.tk","port":443,"type":"vmess","uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","country":"default_name_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","headers":{"host":"orange-mode-ac6a.xjp0mx2cp.workers.dev"}}}
+  - {"name":"🇺🇸_US_美国->🇫🇮_FI_芬兰_1","server":"dfuh.ml","port":443,"type":"vmess","uuid":"7b9907fb-0506-4d5f-af06-ee4126406518","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇫🇮_FI_芬兰_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇭🇰_HK_香港_2","server":"0320hk567.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"🇭🇰_HK_香港_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0320hk567.fans8.xyz"}}}
+  - {"name":"default_name_3","server":"app.ssfree.ru","port":443,"type":"vmess","uuid":"1f5af55a-b367-11ec-b499-000017022008","alterId":64,"cipher":"auto","country":"default_name_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/getweather"}}
+  - {"name":"default_name_4","server":"104.19.62.119","port":443,"type":"vmess","uuid":"e40d2888-03f6-4859-e84d-a743db763d52","alterId":0,"cipher":"auto","country":"default_name_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"broken-snow-9bc0.nhv111202.workers.dev"}}}
+  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国_5","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"6c175d1a-a57f-4881-a471-173eb139694b","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇩🇪_DE_德国_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xrenblog/","headers":{"host":"ipv6.xrenblog.com"}}}
+  - {"name":"🇬🇧_GB_英国_6","server":"unitedkingdomcloud.club","port":443,"type":"vmess","uuid":"ae610bbe-ce40-433a-980d-2a411bfc209d","alterId":0,"cipher":"auto","country":"🇬🇧_GB_英国_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/neuromancer","headers":{"host":"unitedkingdomcloud.club"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - default_name_1
+      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_1
+      - 🇭🇰_HK_香港_2
+      - default_name_3
+      - default_name_4
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_5
+      - 🇬🇧_GB_英国_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - default_name_1
+      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_1
+      - 🇭🇰_HK_香港_2
+      - default_name_3
+      - default_name_4
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_5
+      - 🇬🇧_GB_英国_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - default_name_1
+      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_1
+      - 🇭🇰_HK_香港_2
+      - default_name_3
+      - default_name_4
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_5
+      - 🇬🇧_GB_英国_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - default_name_1
+      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_1
+      - 🇭🇰_HK_香港_2
+      - default_name_3
+      - default_name_4
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_5
+      - 🇬🇧_GB_英国_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - default_name_1
+      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_1
+      - 🇭🇰_HK_香港_2
+      - default_name_3
+      - default_name_4
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_5
+      - 🇬🇧_GB_英国_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - default_name_1
+      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_1
+      - 🇭🇰_HK_香港_2
+      - default_name_3
+      - default_name_4
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_5
+      - 🇬🇧_GB_英国_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +102,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - default_name_1
+      - 🇺🇸_US_美国->🇫🇮_FI_芬兰_1
+      - 🇭🇰_HK_香港_2
+      - default_name_3
+      - default_name_4
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_5
+      - 🇬🇧_GB_英国_6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
