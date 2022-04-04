@@ -5,11 +5,19 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: default_name_1, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
-  - {name: default_name_2, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
-  - {name: default_name_3, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
-  - {name: default_name_4, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
-  - {name: default_name_5, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
+  - {name: 香港_101_HKT_1x_1, server: hk01.linkzones.xyz, port: 31911, type: vmess, uuid: 5f598cee-c264-32e3-8646-2d0e57074e21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: hk01.linkzones.xyz}}, udp: true}
+  - {name: 香港_102_HGC_1x_2, server: hk02.linkzones.xyz, port: 31913, type: vmess, uuid: 5f598cee-c264-32e3-8646-2d0e57074e21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: hk02.linkzones.xyz}}, udp: true}
+  - {name: 香港_103_电信优化_2x_3, server: hk03.linkzones.xyz, port: 47093, type: vmess, uuid: 5f598cee-c264-32e3-8646-2d0e57074e21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: hk03.linkzones.xyz}}, udp: true}
+  - {name: 台湾_101_负载优化_1x_4, server: tw01.linkzones.xyz, port: 31981, type: vmess, uuid: 5f598cee-c264-32e3-8646-2d0e57074e21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: tw01.linkzones.xyz}}, udp: true}
+  - {name: 台湾_103_电信优化_2x_5, server: tw03.linkzones.xyz, port: 51984, type: vmess, uuid: 5f598cee-c264-32e3-8646-2d0e57074e21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: tw03.linkzones.xyz}}, udp: true}
+  - {name: 新加坡_102_负载优化_1x_6, server: sg02.linkzones.xyz, port: 31983, type: vmess, uuid: 5f598cee-c264-32e3-8646-2d0e57074e21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sg02.linkzones.xyz}}, udp: true}
+  - {name: 新加坡_103_电信优化_2x_7, server: sg03.linkzones.xyz, port: 31984, type: vmess, uuid: 5f598cee-c264-32e3-8646-2d0e57074e21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sg03.linkzones.xyz}}, udp: true}
+  - {name: 日本_102_线路优化_1x_8, server: jp02.linkzones.xyz, port: 31972, type: vmess, uuid: 5f598cee-c264-32e3-8646-2d0e57074e21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: jp02.linkzones.xyz}}, udp: true}
+  - {name: 日本_103_电信优化_1x_9, server: jp03.linkzones.xyz, port: 31991, type: vmess, uuid: 5f598cee-c264-32e3-8646-2d0e57074e21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: jp03.linkzones.xyz}}, udp: true}
+  - {name: 美国_102_负载优化_1x_10, server: us02.linkzones.xyz, port: 31964, type: vmess, uuid: 5f598cee-c264-32e3-8646-2d0e57074e21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: us02.linkzones.xyz}}, udp: true}
+  - {name: 美国_103_电信优化_2x_11, server: us03.linkzones.xyz, port: 31974, type: vmess, uuid: 5f598cee-c264-32e3-8646-2d0e57074e21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: us03.linkzones.xyz}}, udp: true}
+  - {name: 加拿大_101_负载优化_1x_12, server: ca01.linkzones.xyz, port: 31975, type: vmess, uuid: 5f598cee-c264-32e3-8646-2d0e57074e21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ca01.linkzones.xyz}}, udp: true}
+  - {name: 加拿大_103_电信优化_2x_13, server: ca03.linkzones.xyz, port: 31977, type: vmess, uuid: 5f598cee-c264-32e3-8646-2d0e57074e21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ca03.linkzones.xyz}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: vn.mumi.bid, port: 10125, type: vmess, uuid: 83ae9f04-47f0-4e34-9a1c-9c2e5161f586, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vn.mumi.bid}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 3, server: 8.210.83.33, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
@@ -1437,11 +1445,19 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - default_name_1
-      - default_name_2
-      - default_name_3
-      - default_name_4
-      - default_name_5
+      - 香港_101_HKT_1x_1
+      - 香港_102_HGC_1x_2
+      - 香港_103_电信优化_2x_3
+      - 台湾_101_负载优化_1x_4
+      - 台湾_103_电信优化_2x_5
+      - 新加坡_102_负载优化_1x_6
+      - 新加坡_103_电信优化_2x_7
+      - 日本_102_线路优化_1x_8
+      - 日本_103_电信优化_1x_9
+      - 美国_102_负载优化_1x_10
+      - 美国_103_电信优化_2x_11
+      - 加拿大_101_负载优化_1x_12
+      - 加拿大_103_电信优化_2x_13
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -2869,11 +2885,19 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - default_name_1
-      - default_name_2
-      - default_name_3
-      - default_name_4
-      - default_name_5
+      - 香港_101_HKT_1x_1
+      - 香港_102_HGC_1x_2
+      - 香港_103_电信优化_2x_3
+      - 台湾_101_负载优化_1x_4
+      - 台湾_103_电信优化_2x_5
+      - 新加坡_102_负载优化_1x_6
+      - 新加坡_103_电信优化_2x_7
+      - 日本_102_线路优化_1x_8
+      - 日本_103_电信优化_1x_9
+      - 美国_102_负载优化_1x_10
+      - 美国_103_电信优化_2x_11
+      - 加拿大_101_负载优化_1x_12
+      - 加拿大_103_电信优化_2x_13
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
