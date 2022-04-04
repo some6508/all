@@ -5,46 +5,214 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇭🇰_HK_香港->🇯🇵_JP_日本_1","server":"43.129.221.110","port":443,"type":"vmess","uuid":"1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782","alterId":0,"cipher":"auto","country":"🇭🇰_HK_香港->🇯🇵_JP_日本_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"jp.sayuri.cf"}}}
+  - {"name":"US_301","server":"hknf1.qingyun123.xyz","port":10050,"type":"trojan","country":"US_301","skip-cert-verify":true,"udp":true,"password":"eae46656-bf01-4d18-94d7-748e8d4e438f"}
+  - {"name":"CN_117","server":"shcu.mimon.cc","port":26133,"type":"trojan","country":"CN_117","skip-cert-verify":true,"udp":true,"password":"6d3e5694-d909-422e-96f2-57df94abe28e"}
+  - {"name":"US_300","server":"hk1.qingyun123.xyz","port":10050,"type":"trojan","country":"US_300","skip-cert-verify":true,"udp":true,"password":"eae46656-bf01-4d18-94d7-748e8d4e438f"}
+  - {"name":"US_310","server":"nfsg.qingyun123.xyz","port":10050,"type":"trojan","country":"US_310","skip-cert-verify":true,"udp":true,"password":"eae46656-bf01-4d18-94d7-748e8d4e438f"}
+  - {"name":"CN_88","server":"14.29.124.168","port":25210,"type":"ss","country":"CN_88","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"CN_84","server":"14.29.124.168","port":25230,"type":"ss","country":"CN_84","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"美国(资源分享师)_7","server":"144.202.121.74","port":48929,"type":"vmess","uuid":"25419df4-b3ab-11ec-b9d1-560003eeb91e","alterId":0,"cipher":"auto","country":"美国(资源分享师)_7","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/oDM7qL8m/","headers":{"host":"144.202.121.74"}}}
+  - {"name":"CN_98","server":"14.29.124.168","port":25279,"type":"ss","country":"CN_98","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"CN_97","server":"14.29.124.168","port":25218,"type":"ss","country":"CN_97","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"CN_99","server":"14.29.124.168","port":25266,"type":"ss","country":"CN_99","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"日本(资源分享师)_11","server":"139.162.122.205","port":3845,"type":"vmess","uuid":"76d5c6e3-c74c-3406-b9e8-9859d0a71c56","alterId":0,"cipher":"auto","country":"日本(资源分享师)_11","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/oDM7qL8m/","headers":{"host":"144.202.121.74"}}}
+  - {"name":"CN_96","server":"14.29.124.168","port":25287,"type":"ss","country":"CN_96","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"欧洲(资源分享师)_13","server":"in-v1.sdgdn.com","port":50401,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"cipher":"auto","country":"欧洲(资源分享师)_13","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"in-v1.sdgdn.com"}}}
+  - {"name":"HK_11036+资源分享师_14","server":"14.29.124.174","port":11036,"type":"ss","country":"HK_11036+资源分享师_14","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"HK_11043+资源分享师_15","server":"14.29.124.174","port":11043,"type":"ss","country":"HK_11043+资源分享师_15","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"欧洲(资源分享师)+2_16","server":"134.195.196.51","port":6697,"type":"ss","country":"欧洲(资源分享师)+2_16","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"欧洲(资源分享师)+3_17","server":"134.195.196.51","port":8881,"type":"ss","country":"欧洲(资源分享师)+3_17","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"CN_51","server":"14.29.124.168","port":31046,"type":"ss","country":"CN_51","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"ZZ_321","server":"134.195.196.51","port":8888,"type":"ss","country":"ZZ_321","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"ZZ_2530","server":"169.197.142.99","port":6679,"type":"ss","country":"ZZ_2530","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"欧洲(资源分享师)+4_21","server":"169.197.142.99","port":8118,"type":"ss","country":"欧洲(资源分享师)+4_21","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"日本(资源分享师)2_22","server":"in-v1.sdgdn.com","port":50301,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"cipher":"auto","country":"日本(资源分享师)2_22","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"in-v1.sdgdn.com"}}}
+  - {"name":"KR_10064+资源分享师_23","server":"180.163.62.91","port":10064,"type":"ss","country":"KR_10064+资源分享师_23","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"欧洲(资源分享师)+5_24","server":"169.197.142.99","port":7002,"type":"ss","country":"欧洲(资源分享师)+5_24","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"欧洲(资源分享师)6_25","server":"139.162.122.205","port":3845,"type":"vmess","uuid":"76d5c6e3-c74c-3406-b9e8-9859d0a71c56","alterId":0,"cipher":"auto","country":"欧洲(资源分享师)6_25","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"in-v1.sdgdn.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_1
+      - US_301
+      - CN_117
+      - US_300
+      - US_310
+      - CN_88
+      - CN_84
+      - 美国(资源分享师)_7
+      - CN_98
+      - CN_97
+      - CN_99
+      - 日本(资源分享师)_11
+      - CN_96
+      - 欧洲(资源分享师)_13
+      - HK_11036+资源分享师_14
+      - HK_11043+资源分享师_15
+      - 欧洲(资源分享师)+2_16
+      - 欧洲(资源分享师)+3_17
+      - CN_51
+      - ZZ_321
+      - ZZ_2530
+      - 欧洲(资源分享师)+4_21
+      - 日本(资源分享师)2_22
+      - KR_10064+资源分享师_23
+      - 欧洲(资源分享师)+5_24
+      - 欧洲(资源分享师)6_25
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_1
+      - US_301
+      - CN_117
+      - US_300
+      - US_310
+      - CN_88
+      - CN_84
+      - 美国(资源分享师)_7
+      - CN_98
+      - CN_97
+      - CN_99
+      - 日本(资源分享师)_11
+      - CN_96
+      - 欧洲(资源分享师)_13
+      - HK_11036+资源分享师_14
+      - HK_11043+资源分享师_15
+      - 欧洲(资源分享师)+2_16
+      - 欧洲(资源分享师)+3_17
+      - CN_51
+      - ZZ_321
+      - ZZ_2530
+      - 欧洲(资源分享师)+4_21
+      - 日本(资源分享师)2_22
+      - KR_10064+资源分享师_23
+      - 欧洲(资源分享师)+5_24
+      - 欧洲(资源分享师)6_25
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_1
+      - US_301
+      - CN_117
+      - US_300
+      - US_310
+      - CN_88
+      - CN_84
+      - 美国(资源分享师)_7
+      - CN_98
+      - CN_97
+      - CN_99
+      - 日本(资源分享师)_11
+      - CN_96
+      - 欧洲(资源分享师)_13
+      - HK_11036+资源分享师_14
+      - HK_11043+资源分享师_15
+      - 欧洲(资源分享师)+2_16
+      - 欧洲(资源分享师)+3_17
+      - CN_51
+      - ZZ_321
+      - ZZ_2530
+      - 欧洲(资源分享师)+4_21
+      - 日本(资源分享师)2_22
+      - KR_10064+资源分享师_23
+      - 欧洲(资源分享师)+5_24
+      - 欧洲(资源分享师)6_25
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_1
+      - US_301
+      - CN_117
+      - US_300
+      - US_310
+      - CN_88
+      - CN_84
+      - 美国(资源分享师)_7
+      - CN_98
+      - CN_97
+      - CN_99
+      - 日本(资源分享师)_11
+      - CN_96
+      - 欧洲(资源分享师)_13
+      - HK_11036+资源分享师_14
+      - HK_11043+资源分享师_15
+      - 欧洲(资源分享师)+2_16
+      - 欧洲(资源分享师)+3_17
+      - CN_51
+      - ZZ_321
+      - ZZ_2530
+      - 欧洲(资源分享师)+4_21
+      - 日本(资源分享师)2_22
+      - KR_10064+资源分享师_23
+      - 欧洲(资源分享师)+5_24
+      - 欧洲(资源分享师)6_25
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_1
+      - US_301
+      - CN_117
+      - US_300
+      - US_310
+      - CN_88
+      - CN_84
+      - 美国(资源分享师)_7
+      - CN_98
+      - CN_97
+      - CN_99
+      - 日本(资源分享师)_11
+      - CN_96
+      - 欧洲(资源分享师)_13
+      - HK_11036+资源分享师_14
+      - HK_11043+资源分享师_15
+      - 欧洲(资源分享师)+2_16
+      - 欧洲(资源分享师)+3_17
+      - CN_51
+      - ZZ_321
+      - ZZ_2530
+      - 欧洲(资源分享师)+4_21
+      - 日本(资源分享师)2_22
+      - KR_10064+资源分享师_23
+      - 欧洲(资源分享师)+5_24
+      - 欧洲(资源分享师)6_25
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_1
+      - US_301
+      - CN_117
+      - US_300
+      - US_310
+      - CN_88
+      - CN_84
+      - 美国(资源分享师)_7
+      - CN_98
+      - CN_97
+      - CN_99
+      - 日本(资源分享师)_11
+      - CN_96
+      - 欧洲(资源分享师)_13
+      - HK_11036+资源分享师_14
+      - HK_11043+资源分享师_15
+      - 欧洲(资源分享师)+2_16
+      - 欧洲(资源分享师)+3_17
+      - CN_51
+      - ZZ_321
+      - ZZ_2530
+      - 欧洲(资源分享师)+4_21
+      - 日本(资源分享师)2_22
+      - KR_10064+资源分享师_23
+      - 欧洲(资源分享师)+5_24
+      - 欧洲(资源分享师)6_25
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +235,31 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本_1
+      - US_301
+      - CN_117
+      - US_300
+      - US_310
+      - CN_88
+      - CN_84
+      - 美国(资源分享师)_7
+      - CN_98
+      - CN_97
+      - CN_99
+      - 日本(资源分享师)_11
+      - CN_96
+      - 欧洲(资源分享师)_13
+      - HK_11036+资源分享师_14
+      - HK_11043+资源分享师_15
+      - 欧洲(资源分享师)+2_16
+      - 欧洲(资源分享师)+3_17
+      - CN_51
+      - ZZ_321
+      - ZZ_2530
+      - 欧洲(资源分享师)+4_21
+      - 日本(资源分享师)2_22
+      - KR_10064+资源分享师_23
+      - 欧洲(资源分享师)+5_24
+      - 欧洲(资源分享师)6_25
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
