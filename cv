@@ -5,7 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: SA-1208-芬兰-账号定时更新https://fangeqiang_com_1, server: 95.216.201.243, port: 49923, type: ssr, cipher: chacha20, password: fangeqiang.com, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "*GB*abbas*1_1", server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "*GB*abbas*2_2", server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "*GB*abbas*3_3", server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "*GB*abbas*4_4", server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "*GB*abbas*5_5", server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "*CA*abbas*6_6", server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "*CN*abbas*7_7", server: 183.232.226.165, port: 56141, type: ss, cipher: chacha20-ietf-poly1305, password: rWZWEPb4JrX3lb2j, udp: true}
+  - {name: "*CA*abbas*8_8", server: 134.195.196.3, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "*CA*abbas*9_9", server: 134.195.196.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "*CA*abbas*10_10", server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "*US*abbas*11_11", server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "*GB*abbas*12_12", server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "*CA*abbas*13_13", server: 134.195.196.81, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "*CA*abbas*14_14", server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "*CA*abbas*15_15", server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "*CA*abbas*16_16", server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "*CA*abbas*17_17", server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "*CA*abbas*18_18", server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "*CA*abbas*19_19", server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "*CA*abbas*20_20", server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "*CA*abbas*21_21", server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "*CA*abbas*22_22", server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "*CA*abbas*23_23", server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "*CA*abbas*24_24", server: 134.195.196.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "*CA*abbas*25_25", server: 134.195.196.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "*CA*abbas*26_26", server: 134.195.196.81, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "*CA*abbas*27_27", server: 134.195.196.81, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "*CA*abbas*28_28", server: 134.195.196.81, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "*CA*abbas*29_29", server: 134.195.196.81, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "*CA*abbas*30_30", server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "*CA*abbas*31_31", server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "*CA*abbas*32_32", server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "*CA*abbas*33_33", server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "*CA*abbas*34_34", server: 134.195.196.3, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "*CA*abbas*35_35", server: 134.195.196.3, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "*GB*abbas*36_36", server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "*CA*abbas*37_37", server: 134.195.196.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "*CA*abbas*38_38", server: 134.195.196.81, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "*CA*abbas*39_39", server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "*CA*abbas*40_40", server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "*CA*abbas*41_41", server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "*CA*abbas*42_42", server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "*CA*abbas*43_43", server: 134.195.196.81, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "*CA*abbas*44_44", server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "*CA*abbas*45_45", server: 134.195.196.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "*CA*abbas*46_46", server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "*CA*abbas*47_47", server: 134.195.196.81, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "*US*abbas*48_48", server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "*CA*abbas*49_49", server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "*CA*abbas*50_50", server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "*CA*abbas*51_51", server: 134.195.196.3, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "*CA*abbas*52_52", server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "*CA*abbas*53_53", server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "*CA*abbas*54_54", server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "*CA*abbas*55_55", server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "*CA*abbas*56_56", server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "*CA*abbas*57_57", server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "*CA*abbas*58_58", server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "*US*abbas*59_59", server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "*CA*abbas*60_60", server: 134.195.196.81, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "*US*abbas*61_61", server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "*US*abbas*62_62", server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "*CA*abbas*63_63", server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "*CA*abbas*64_64", server: 134.195.196.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "*CA*abbas*65_65", server: 134.195.196.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "*CA*abbas*66_66", server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "*CA*abbas*67_67", server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "*CA*abbas*68_68", server: 134.195.196.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "*CA*abbas*69_69", server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "*CA*abbas*70_70", server: 134.195.196.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "*CA*abbas*71_71", server: 134.195.196.3, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "*CA*abbas*72_72", server: 134.195.196.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "*CA*abbas*73_73", server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "*CA*abbas*74_74", server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "*US*abbas*75_75", server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "*CA*abbas*76_76", server: 134.195.196.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "*CA*abbas*77_77", server: 134.195.196.81, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "*CA*abbas*78_78", server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "*CA*abbas*79_79", server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "*CA*abbas*80_80", server: 134.195.196.3, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "*CA*abbas*81_81", server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "*FR*abbas*82_82", server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "*CN*abbas*83_83", server: 72c6f7e1.ddns.tokyo, port: 56141, type: ss, cipher: chacha20-ietf-poly1305, password: rWZWEPb4JrX3lb2j, udp: true}
+  - {name: "*FR*abbas*84_84", server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "*FR*abbas*85_85", server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "*GB*abbas*86_86", server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "*CA*abbas*87_87", server: 134.195.196.81, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "*CA*abbas*88_88", server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "*CA*abbas*89_89", server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "*CA*abbas*90_90", server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "*CA*abbas*91_91", server: 134.195.196.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "*CA*abbas*92_92", server: 134.195.196.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "*CA*abbas*93_93", server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: vn.mumi.bid, port: 10125, type: vmess, uuid: 83ae9f04-47f0-4e34-9a1c-9c2e5161f586, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vn.mumi.bid}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 3, server: 8.210.83.33, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
@@ -1298,18 +1390,31 @@ proxies:
   - {name: Ytb:鹏哥分享_加拿大_134, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_13, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_178, server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: github.com/freefq - 广东省广州市电信 1, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: github.com/freefq - 上海市电信 2, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 3, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 亚太地区  4, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 北美地区  5, server: 134.195.196.51, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: github.com/freefq - 罗马尼亚  6, server: unitedkingdomcloud.club, port: 443, type: vmess, uuid: ae610bbe-ce40-433a-980d-2a411bfc209d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /neuromancer, headers: {Host: unitedkingdomcloud.club}}, udp: true}
-  - {name: github.com/freefq - 加拿大  7, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320jp.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 北美地区  8, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: github.com/freefq - 上海市电信CN2 9, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: github.com/freefq - 美国纽约DigitalOcean数据中心 10, server: 159.203.73.153, port: 4396, type: vmess, uuid: 7ef93298-6931-4d0e-a9c1-98005ab374df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2rayhunter0122, headers: {Host: 159.203.73.153}}, udp: true}
-  - {name: github.com/freefq - 湖南省长沙市联通 11, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: github.com/freefq - 北美地区  12, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 1, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港特别行政区 2, server: 104.208.101.112, port: 34554, type: vmess, uuid: ec57dccf-467d-4785-99d5-7b57a65b2bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 3, server: azure.luren.xyz, port: 443, type: vmess, uuid: bf654557-433a-4c5c-bab0-55b7602bd702, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: azure.luren.xyz}}, udp: true}
+  - {name: github.com/freefq - 广东省广州市电信 4, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: github.com/freefq - 加拿大  5, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320jp.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州圣何塞Choopa数据中心 6, server: 45.77.0.97, port: 26267, type: vmess, uuid: 9757cdba-c75b-4b94-9e31-7956dc7d852a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wis, headers: {Host: 45.77.0.97}}, udp: true}
+  - {name: github.com/freefq - 美国新泽西州皮斯卡特维Vultr数据中心 7, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国惠普HP 8, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  9, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 10, server: app.ssfree.ru, port: 443, type: vmess, uuid: 4966ecf4-b430-11ec-8cbf-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 11, server: 104.21.84.81, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero2.a-yu.xyz}}, udp: true}
+  - {name: github.com/freefq - 香港腾讯云 12, server: v2.bove.top, port: 35921, type: vmess, uuid: ea0f0aeb-da33-45dd-c512-1a07f5619937, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国纽约DigitalOcean数据中心 13, server: 159.203.73.153, port: 4396, type: vmess, uuid: 7ef93298-6931-4d0e-a9c1-98005ab374df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2rayhunter0122, headers: {Host: 159.203.73.153}}, udp: true}
+  - {name: github.com/freefq - 上海市电信 14, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: github.com/freefq - 加拿大  15, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk857.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 亚太地区  16, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 北美地区  17, server: 134.195.196.51, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: github.com/freefq - 北美地区  18, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 加拿大  19, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 湖南省长沙市联通 20, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: github.com/freefq - 广东省广州市电信 21, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: github.com/freefq - 罗马尼亚  22, server: unitedkingdomcloud.club, port: 443, type: vmess, uuid: ae610bbe-ce40-433a-980d-2a411bfc209d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /neuromancer, headers: {Host: unitedkingdomcloud.club}}, udp: true}
+  - {name: github.com/freefq - 北美地区  23, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: github.com/freefq - 香港Google云计算数据中心 24, server: 34.92.229.176, port: 45612, type: vmess, uuid: 347a9d56-353b-41d6-850a-bb078c8bdfc3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 25, server: 03071t.moonfree.top, port: 443, type: vmess, uuid: aa5dd703-195d-4682-8c35-ea0083ea1a74, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 03071t.moonfree.top, network: ws, ws-opts: {path: /, headers: {Host: 03071t.moonfree.top}}, udp: true}
   - {name: SG_9050WangCai_1, server: 103.172.116.9, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
   - {name: SG_9003WangCai_1, server: 103.172.116.9, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
   - {name: SG_9024WangCai_1, server: 103.172.116.9, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
@@ -1433,7 +1538,99 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - SA-1208-芬兰-账号定时更新https://fangeqiang_com_1
+      - "*GB*abbas*1_1"
+      - "*GB*abbas*2_2"
+      - "*GB*abbas*3_3"
+      - "*GB*abbas*4_4"
+      - "*GB*abbas*5_5"
+      - "*CA*abbas*6_6"
+      - "*CN*abbas*7_7"
+      - "*CA*abbas*8_8"
+      - "*CA*abbas*9_9"
+      - "*CA*abbas*10_10"
+      - "*US*abbas*11_11"
+      - "*GB*abbas*12_12"
+      - "*CA*abbas*13_13"
+      - "*CA*abbas*14_14"
+      - "*CA*abbas*15_15"
+      - "*CA*abbas*16_16"
+      - "*CA*abbas*17_17"
+      - "*CA*abbas*18_18"
+      - "*CA*abbas*19_19"
+      - "*CA*abbas*20_20"
+      - "*CA*abbas*21_21"
+      - "*CA*abbas*22_22"
+      - "*CA*abbas*23_23"
+      - "*CA*abbas*24_24"
+      - "*CA*abbas*25_25"
+      - "*CA*abbas*26_26"
+      - "*CA*abbas*27_27"
+      - "*CA*abbas*28_28"
+      - "*CA*abbas*29_29"
+      - "*CA*abbas*30_30"
+      - "*CA*abbas*31_31"
+      - "*CA*abbas*32_32"
+      - "*CA*abbas*33_33"
+      - "*CA*abbas*34_34"
+      - "*CA*abbas*35_35"
+      - "*GB*abbas*36_36"
+      - "*CA*abbas*37_37"
+      - "*CA*abbas*38_38"
+      - "*CA*abbas*39_39"
+      - "*CA*abbas*40_40"
+      - "*CA*abbas*41_41"
+      - "*CA*abbas*42_42"
+      - "*CA*abbas*43_43"
+      - "*CA*abbas*44_44"
+      - "*CA*abbas*45_45"
+      - "*CA*abbas*46_46"
+      - "*CA*abbas*47_47"
+      - "*US*abbas*48_48"
+      - "*CA*abbas*49_49"
+      - "*CA*abbas*50_50"
+      - "*CA*abbas*51_51"
+      - "*CA*abbas*52_52"
+      - "*CA*abbas*53_53"
+      - "*CA*abbas*54_54"
+      - "*CA*abbas*55_55"
+      - "*CA*abbas*56_56"
+      - "*CA*abbas*57_57"
+      - "*CA*abbas*58_58"
+      - "*US*abbas*59_59"
+      - "*CA*abbas*60_60"
+      - "*US*abbas*61_61"
+      - "*US*abbas*62_62"
+      - "*CA*abbas*63_63"
+      - "*CA*abbas*64_64"
+      - "*CA*abbas*65_65"
+      - "*CA*abbas*66_66"
+      - "*CA*abbas*67_67"
+      - "*CA*abbas*68_68"
+      - "*CA*abbas*69_69"
+      - "*CA*abbas*70_70"
+      - "*CA*abbas*71_71"
+      - "*CA*abbas*72_72"
+      - "*CA*abbas*73_73"
+      - "*CA*abbas*74_74"
+      - "*US*abbas*75_75"
+      - "*CA*abbas*76_76"
+      - "*CA*abbas*77_77"
+      - "*CA*abbas*78_78"
+      - "*CA*abbas*79_79"
+      - "*CA*abbas*80_80"
+      - "*CA*abbas*81_81"
+      - "*FR*abbas*82_82"
+      - "*CN*abbas*83_83"
+      - "*FR*abbas*84_84"
+      - "*FR*abbas*85_85"
+      - "*GB*abbas*86_86"
+      - "*CA*abbas*87_87"
+      - "*CA*abbas*88_88"
+      - "*CA*abbas*89_89"
+      - "*CA*abbas*90_90"
+      - "*CA*abbas*91_91"
+      - "*CA*abbas*92_92"
+      - "*CA*abbas*93_93"
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -2726,18 +2923,31 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_134
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
-      - github.com/freefq - 广东省广州市电信 1
-      - github.com/freefq - 上海市电信 2
-      - github.com/freefq - 日本东京都品川区Linode数据中心 3
-      - github.com/freefq - 亚太地区  4
-      - github.com/freefq - 北美地区  5
-      - github.com/freefq - 罗马尼亚  6
-      - github.com/freefq - 加拿大  7
-      - github.com/freefq - 北美地区  8
-      - github.com/freefq - 上海市电信CN2 9
-      - github.com/freefq - 美国纽约DigitalOcean数据中心 10
-      - github.com/freefq - 湖南省长沙市联通 11
-      - github.com/freefq - 北美地区  12
+      - github.com/freefq - 日本东京都品川区Linode数据中心 1
+      - github.com/freefq - 香港特别行政区 2
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/freefq - 广东省广州市电信 4
+      - github.com/freefq - 加拿大  5
+      - github.com/freefq - 美国加利福尼亚州圣何塞Choopa数据中心 6
+      - github.com/freefq - 美国新泽西州皮斯卡特维Vultr数据中心 7
+      - github.com/freefq - 美国惠普HP 8
+      - github.com/freefq - 美国  9
+      - github.com/freefq - 美国CloudFlare节点 10
+      - github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - github.com/freefq - 香港腾讯云 12
+      - github.com/freefq - 美国纽约DigitalOcean数据中心 13
+      - github.com/freefq - 上海市电信 14
+      - github.com/freefq - 加拿大  15
+      - github.com/freefq - 亚太地区  16
+      - github.com/freefq - 北美地区  17
+      - github.com/freefq - 北美地区  18
+      - github.com/freefq - 加拿大  19
+      - github.com/freefq - 湖南省长沙市联通 20
+      - github.com/freefq - 广东省广州市电信 21
+      - github.com/freefq - 罗马尼亚  22
+      - github.com/freefq - 北美地区  23
+      - github.com/freefq - 香港Google云计算数据中心 24
+      - github.com/freefq - 美国CloudFlare公司CDN节点 25
       - SG_9050WangCai_1
       - SG_9003WangCai_1
       - SG_9024WangCai_1
@@ -2861,7 +3071,99 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - SA-1208-芬兰-账号定时更新https://fangeqiang_com_1
+      - "*GB*abbas*1_1"
+      - "*GB*abbas*2_2"
+      - "*GB*abbas*3_3"
+      - "*GB*abbas*4_4"
+      - "*GB*abbas*5_5"
+      - "*CA*abbas*6_6"
+      - "*CN*abbas*7_7"
+      - "*CA*abbas*8_8"
+      - "*CA*abbas*9_9"
+      - "*CA*abbas*10_10"
+      - "*US*abbas*11_11"
+      - "*GB*abbas*12_12"
+      - "*CA*abbas*13_13"
+      - "*CA*abbas*14_14"
+      - "*CA*abbas*15_15"
+      - "*CA*abbas*16_16"
+      - "*CA*abbas*17_17"
+      - "*CA*abbas*18_18"
+      - "*CA*abbas*19_19"
+      - "*CA*abbas*20_20"
+      - "*CA*abbas*21_21"
+      - "*CA*abbas*22_22"
+      - "*CA*abbas*23_23"
+      - "*CA*abbas*24_24"
+      - "*CA*abbas*25_25"
+      - "*CA*abbas*26_26"
+      - "*CA*abbas*27_27"
+      - "*CA*abbas*28_28"
+      - "*CA*abbas*29_29"
+      - "*CA*abbas*30_30"
+      - "*CA*abbas*31_31"
+      - "*CA*abbas*32_32"
+      - "*CA*abbas*33_33"
+      - "*CA*abbas*34_34"
+      - "*CA*abbas*35_35"
+      - "*GB*abbas*36_36"
+      - "*CA*abbas*37_37"
+      - "*CA*abbas*38_38"
+      - "*CA*abbas*39_39"
+      - "*CA*abbas*40_40"
+      - "*CA*abbas*41_41"
+      - "*CA*abbas*42_42"
+      - "*CA*abbas*43_43"
+      - "*CA*abbas*44_44"
+      - "*CA*abbas*45_45"
+      - "*CA*abbas*46_46"
+      - "*CA*abbas*47_47"
+      - "*US*abbas*48_48"
+      - "*CA*abbas*49_49"
+      - "*CA*abbas*50_50"
+      - "*CA*abbas*51_51"
+      - "*CA*abbas*52_52"
+      - "*CA*abbas*53_53"
+      - "*CA*abbas*54_54"
+      - "*CA*abbas*55_55"
+      - "*CA*abbas*56_56"
+      - "*CA*abbas*57_57"
+      - "*CA*abbas*58_58"
+      - "*US*abbas*59_59"
+      - "*CA*abbas*60_60"
+      - "*US*abbas*61_61"
+      - "*US*abbas*62_62"
+      - "*CA*abbas*63_63"
+      - "*CA*abbas*64_64"
+      - "*CA*abbas*65_65"
+      - "*CA*abbas*66_66"
+      - "*CA*abbas*67_67"
+      - "*CA*abbas*68_68"
+      - "*CA*abbas*69_69"
+      - "*CA*abbas*70_70"
+      - "*CA*abbas*71_71"
+      - "*CA*abbas*72_72"
+      - "*CA*abbas*73_73"
+      - "*CA*abbas*74_74"
+      - "*US*abbas*75_75"
+      - "*CA*abbas*76_76"
+      - "*CA*abbas*77_77"
+      - "*CA*abbas*78_78"
+      - "*CA*abbas*79_79"
+      - "*CA*abbas*80_80"
+      - "*CA*abbas*81_81"
+      - "*FR*abbas*82_82"
+      - "*CN*abbas*83_83"
+      - "*FR*abbas*84_84"
+      - "*FR*abbas*85_85"
+      - "*GB*abbas*86_86"
+      - "*CA*abbas*87_87"
+      - "*CA*abbas*88_88"
+      - "*CA*abbas*89_89"
+      - "*CA*abbas*90_90"
+      - "*CA*abbas*91_91"
+      - "*CA*abbas*92_92"
+      - "*CA*abbas*93_93"
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -4154,18 +4456,31 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_134
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
-      - github.com/freefq - 广东省广州市电信 1
-      - github.com/freefq - 上海市电信 2
-      - github.com/freefq - 日本东京都品川区Linode数据中心 3
-      - github.com/freefq - 亚太地区  4
-      - github.com/freefq - 北美地区  5
-      - github.com/freefq - 罗马尼亚  6
-      - github.com/freefq - 加拿大  7
-      - github.com/freefq - 北美地区  8
-      - github.com/freefq - 上海市电信CN2 9
-      - github.com/freefq - 美国纽约DigitalOcean数据中心 10
-      - github.com/freefq - 湖南省长沙市联通 11
-      - github.com/freefq - 北美地区  12
+      - github.com/freefq - 日本东京都品川区Linode数据中心 1
+      - github.com/freefq - 香港特别行政区 2
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/freefq - 广东省广州市电信 4
+      - github.com/freefq - 加拿大  5
+      - github.com/freefq - 美国加利福尼亚州圣何塞Choopa数据中心 6
+      - github.com/freefq - 美国新泽西州皮斯卡特维Vultr数据中心 7
+      - github.com/freefq - 美国惠普HP 8
+      - github.com/freefq - 美国  9
+      - github.com/freefq - 美国CloudFlare节点 10
+      - github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - github.com/freefq - 香港腾讯云 12
+      - github.com/freefq - 美国纽约DigitalOcean数据中心 13
+      - github.com/freefq - 上海市电信 14
+      - github.com/freefq - 加拿大  15
+      - github.com/freefq - 亚太地区  16
+      - github.com/freefq - 北美地区  17
+      - github.com/freefq - 北美地区  18
+      - github.com/freefq - 加拿大  19
+      - github.com/freefq - 湖南省长沙市联通 20
+      - github.com/freefq - 广东省广州市电信 21
+      - github.com/freefq - 罗马尼亚  22
+      - github.com/freefq - 北美地区  23
+      - github.com/freefq - 香港Google云计算数据中心 24
+      - github.com/freefq - 美国CloudFlare公司CDN节点 25
       - SG_9050WangCai_1
       - SG_9003WangCai_1
       - SG_9024WangCai_1
