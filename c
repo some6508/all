@@ -5,655 +5,760 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_1","server":"42.157.161.51","port":11214,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_1","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_2","server":"42.157.161.51","port":11215,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_2","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_3","server":"211.99.115.24","port":11014,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_3","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_4","server":"211.99.115.24","port":11011,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_4","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_5","server":"211.99.115.24","port":11013,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_5","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_6","server":"211.99.115.24","port":11015,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_6","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_7","server":"42.157.161.51","port":11216,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_7","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_8","server":"211.99.115.24","port":11007,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_8","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_9","server":"211.99.115.24","port":11016,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_9","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_10","server":"42.157.161.51","port":11204,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_10","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_11","server":"211.99.115.24","port":11104,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_11","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_12","server":"42.157.161.51","port":11208,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_12","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_13","server":"211.99.115.24","port":11004,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_13","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_14","server":"211.99.115.24","port":11052,"type":"ss","country":"🇨🇳_CN_中国->🇹🇼_TW_台湾_14","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_15","server":"211.99.115.24","port":11102,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_15","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_16","server":"211.99.115.24","port":11118,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_16","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_17","server":"211.99.115.24","port":11055,"type":"ss","country":"🇨🇳_CN_中国->🇹🇼_TW_台湾_17","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_18","server":"42.157.161.51","port":11218,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_18","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇮🇩_ID_印度尼西亚_19","server":"211.99.115.24","port":11905,"type":"ss","country":"🇨🇳_CN_中国->🇮🇩_ID_印度尼西亚_19","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_20","server":"42.157.161.51","port":11201,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_20","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_21","server":"211.99.115.24","port":11051,"type":"ss","country":"🇨🇳_CN_中国->🇹🇼_TW_台湾_21","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_22","server":"211.99.115.24","port":11101,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_22","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_23","server":"211.99.115.24","port":11115,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_23","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_24","server":"211.99.115.24","port":11103,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_24","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇰🇷_KR_韩国_25","server":"42.157.161.51","port":11152,"type":"ss","country":"🇨🇳_CN_中国->🇰🇷_KR_韩国_25","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_26","server":"211.99.115.24","port":11107,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_26","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_27","server":"211.99.115.24","port":11009,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_27","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_28","server":"211.99.115.24","port":11005,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_28","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_29","server":"42.157.161.51","port":11207,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_29","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_30","server":"211.99.115.24","port":11106,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_30","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_31","server":"211.99.115.24","port":11109,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_31","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_32","server":"42.157.161.51","port":11213,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_32","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_33","server":"42.157.161.51","port":11206,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_33","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_34","server":"211.99.115.24","port":11113,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_34","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_35","server":"211.99.115.24","port":11010,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_35","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇻🇳_VN_越南_36","server":"211.99.115.24","port":11906,"type":"ss","country":"🇨🇳_CN_中国->🇻🇳_VN_越南_36","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_37","server":"42.157.161.51","port":11203,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_37","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_38","server":"211.99.115.24","port":11006,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_38","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_39","server":"42.157.161.51","port":11209,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_39","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_40","server":"211.99.115.24","port":11001,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_40","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_41","server":"42.157.161.51","port":11205,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_41","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_42","server":"211.99.115.24","port":11114,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_42","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_43","server":"211.99.115.24","port":11111,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_43","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇮🇳_IN_印度_44","server":"211.99.115.24","port":11302,"type":"ss","country":"🇨🇳_CN_中国->🇮🇳_IN_印度_44","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_45","server":"211.99.115.24","port":11112,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_45","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_46","server":"42.157.161.51","port":11253,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_46","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_47","server":"211.99.115.24","port":11105,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_47","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_48","server":"42.157.161.51","port":11259,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_48","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_49","server":"211.99.115.24","port":11002,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_49","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_50","server":"211.99.115.24","port":11008,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_50","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_51","server":"211.99.115.24","port":11054,"type":"ss","country":"🇨🇳_CN_中国->🇹🇼_TW_台湾_51","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_52","server":"42.157.161.51","port":11254,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_52","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_53","server":"211.99.115.24","port":11110,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_53","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_54","server":"211.99.115.24","port":11003,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_54","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_55","server":"42.157.161.51","port":11252,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_55","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_56","server":"42.157.161.51","port":11211,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_56","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_57","server":"211.99.115.24","port":11108,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_57","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_58","server":"42.157.161.51","port":11210,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_58","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_59","server":"42.157.161.51","port":11264,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_59","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_60","server":"211.99.115.24","port":11053,"type":"ss","country":"🇨🇳_CN_中国->🇹🇼_TW_台湾_60","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇹🇭_TH_泰国_61","server":"211.99.115.24","port":11902,"type":"ss","country":"🇨🇳_CN_中国->🇹🇭_TH_泰国_61","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_62","server":"42.157.161.51","port":11217,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_62","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_63","server":"211.99.115.24","port":11116,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_63","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_64","server":"42.157.161.51","port":11262,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_64","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇭🇰_HK_香港_65","server":"azhk097.xiaohouzi.club","port":443,"type":"vmess","uuid":"dbf20899-f0d8-33bd-bed0-ddc16105dfe3","alterId":1,"cipher":"auto","country":"🇭🇰_HK_香港_65","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"azhk097.xiaohouzi.club"}}}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_66","server":"42.157.161.51","port":11260,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_66","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_67","server":"42.157.161.51","port":11255,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_67","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇵🇭_PH_菲律宾_68","server":"211.99.115.24","port":11901,"type":"ss","country":"🇨🇳_CN_中国->🇵🇭_PH_菲律宾_68","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_69","server":"42.157.161.51","port":11251,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_69","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇨🇦_CA_加拿大_70","server":"42.157.161.51","port":11802,"type":"ss","country":"🇨🇳_CN_中国->🇨🇦_CA_加拿大_70","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_71","server":"42.157.161.51","port":11266,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_71","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇬🇧_GB_英国_72","server":"211.99.115.24","port":11851,"type":"ss","country":"🇨🇳_CN_中国->🇬🇧_GB_英国_72","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_73","server":"42.157.161.51","port":11261,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_73","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_74","server":"42.157.161.51","port":11263,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_74","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇺🇸_US_美国_75","server":"azjp.caolifei.tk","port":29999,"type":"vmess","uuid":"3d25a7e7-8060-48a2-983f-24a4bbab0772","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_75","skip-cert-verify":true,"tls":true,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇳_CN_中国->🇪🇸_ES_西班牙_76","server":"211.99.115.24","port":11601,"type":"ss","country":"🇨🇳_CN_中国->🇪🇸_ES_西班牙_76","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇮🇳_IN_印度_77","server":"211.99.115.24","port":11301,"type":"ss","country":"🇨🇳_CN_中国->🇮🇳_IN_印度_77","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_78","server":"211.99.115.24","port":11012,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_78","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇰🇷_KR_韩国_79","server":"42.157.161.51","port":11151,"type":"ss","country":"🇨🇳_CN_中国->🇰🇷_KR_韩国_79","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_80","server":"42.157.161.51","port":11257,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_80","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_81","server":"211.99.115.24","port":11017,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_81","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇳🇱_NL_荷兰_82","server":"211.99.115.24","port":11552,"type":"ss","country":"🇨🇳_CN_中国->🇳🇱_NL_荷兰_82","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_83","server":"211.99.115.24","port":11404,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_83","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_84","server":"42.157.161.51","port":11265,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_84","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_85","server":"211.99.115.24","port":11117,"type":"ss","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_85","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇩🇪_DE_德国_86","server":"211.99.115.24","port":11405,"type":"ss","country":"🇨🇳_CN_中国->🇩🇪_DE_德国_86","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇹🇷_TR_土耳其_87","server":"211.99.115.24","port":11903,"type":"ss","country":"🇨🇳_CN_中国->🇹🇷_TR_土耳其_87","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
-  - {"name":"🇨🇳_CN_中国->🇬🇧_GB_英国_88","server":"211.99.115.24","port":11853,"type":"ss","country":"🇨🇳_CN_中国->🇬🇧_GB_英国_88","cipher":"aes-256-gcm","password":"zAdhDSabeh"}
+  - {"name":"🇹🇼台湾(yudou66_com玉豆分享)_1","server":"0319tw123.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"🇹🇼台湾(yudou66_com玉豆分享)_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"0319tw123.fans8.xyz"}}}
+  - {"name":"香港(yudou66_com+玉豆分享)_2","server":"cn1.relay.starlink.st","port":40101,"type":"ss","country":"香港(yudou66_com+玉豆分享)_2","cipher":"aes-128-gcm","password":"aa504504-047c-4e9e-84ce-86f2519a792f"}
+  - {"name":"日本(yudou66_com+玉豆分享)_3","server":"cn3.relay.starlink.st","port":40302,"type":"ss","country":"日本(yudou66_com+玉豆分享)_3","cipher":"aes-128-gcm","password":"aa504504-047c-4e9e-84ce-86f2519a792f"}
+  - {"name":"台湾(yudou66_com+玉豆分享)_4","server":"cn1.relay.starlink.st","port":40201,"type":"ss","country":"台湾(yudou66_com+玉豆分享)_4","cipher":"aes-128-gcm","password":"aa504504-047c-4e9e-84ce-86f2519a792f"}
+  - {"name":"韩国(yudou66_com+玉豆分享)_5","server":"cn3.relay.starlink.st","port":40401,"type":"ss","country":"韩国(yudou66_com+玉豆分享)_5","cipher":"aes-128-gcm","password":"aa504504-047c-4e9e-84ce-86f2519a792f"}
+  - {"name":"香港(yudou66_com玉豆分享)_6","server":"116.162.33.235","port":21107,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":2,"cipher":"auto","country":"香港(yudou66_com玉豆分享)_6","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"韩国(yudou66_com+玉豆分享)_7","server":"kr3.qingyun123.xyz","port":10050,"type":"trojan","country":"韩国(yudou66_com+玉豆分享)_7","skip-cert-verify":true,"udp":true,"password":"8c6ae7e7-d384-4d48-b078-2be389e6ada1"}
+  - {"name":"台湾(yudou66_com玉豆分享)_8","server":"0314tw02.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"台湾(yudou66_com玉豆分享)_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0314tw02.fans8.xyz"}}}
+  - {"name":"香港(yudou66_com+玉豆分享)_9","server":"hk4.qingyun123.xyz","port":10050,"type":"trojan","country":"香港(yudou66_com+玉豆分享)_9","skip-cert-verify":true,"udp":true,"password":"7ba98947-ea44-4682-ae1a-79b0ba1ec98a"}
+  - {"name":"美国(yudou66_com玉豆分享)_10","server":"14.v2-ray.cyou","port":15014,"type":"vmess","uuid":"047184b7-6da2-3d3f-ac27-6a1a8701daf8","alterId":2,"cipher":"auto","country":"美国(yudou66_com玉豆分享)_10","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"14.v2-ray.cyou"}}}
+  - {"name":"美国(yudou66_com玉豆分享)_11","server":"23.v2-ray.cyou","port":15023,"type":"vmess","uuid":"047184b7-6da2-3d3f-ac27-6a1a8701daf8","alterId":2,"cipher":"auto","country":"美国(yudou66_com玉豆分享)_11","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"microsoft.com"}}}
+  - {"name":"美国(yudou66_com+玉豆分享)_12","server":"38.75.137.187","port":8119,"type":"ss","country":"美国(yudou66_com+玉豆分享)_12","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国(yudou66_com+玉豆分享)_13","server":"38.75.137.187","port":9101,"type":"ss","country":"美国(yudou66_com+玉豆分享)_13","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国(yudou66_com+玉豆分享)_14","server":"nfus.qingyun123.xyz","port":10050,"type":"trojan","country":"美国(yudou66_com+玉豆分享)_14","skip-cert-verify":true,"udp":true,"password":"7ba98947-ea44-4682-ae1a-79b0ba1ec98a"}
+  - {"name":"美国(yudou66_com+玉豆分享)_15","server":"38.75.137.66","port":8119,"type":"ss","country":"美国(yudou66_com+玉豆分享)_15","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国(yudou66_com+玉豆分享)_16","server":"38.75.137.187","port":6697,"type":"ss","country":"美国(yudou66_com+玉豆分享)_16","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国(yudou66_com+玉豆分享)_17","server":"38.75.137.66","port":8881,"type":"ss","country":"美国(yudou66_com+玉豆分享)_17","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"美国(yudou66_com+玉豆分享)_18","server":"38.75.137.187","port":6679,"type":"ss","country":"美国(yudou66_com+玉豆分享)_18","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国(yudou66_com+玉豆分享)_19","server":"38.75.137.66","port":9102,"type":"ss","country":"美国(yudou66_com+玉豆分享)_19","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国(yudou66_com+玉豆分享)_20","server":"38.75.137.66","port":6679,"type":"ss","country":"美国(yudou66_com+玉豆分享)_20","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国(yudou66_com+玉豆分享)_21","server":"us2.tcpbbr.net","port":443,"type":"trojan","country":"美国(yudou66_com+玉豆分享)_21","skip-cert-verify":true,"udp":true,"password":"5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d"}
+  - {"name":"美国(yudou66_com+玉豆分享)_22","server":"us2.tcpbbr.net","port":443,"type":"trojan","country":"美国(yudou66_com+玉豆分享)_22","skip-cert-verify":true,"udp":true,"password":"2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d"}
+  - {"name":"🇺🇸美国(yudou66_com+玉豆分享)_23","server":"us2.tcpbbr.net","port":443,"type":"trojan","country":"🇺🇸美国(yudou66_com+玉豆分享)_23","skip-cert-verify":true,"udp":true,"password":"283695dc-fcc8-11ea-8684-f23c913c8d2b"}
+  - {"name":"美国(yudou66_com+玉豆分享)_24","server":"38.75.137.66","port":443,"type":"ss","country":"美国(yudou66_com+玉豆分享)_24","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"美国(yudou66_com+玉豆分享)_25","server":"38.75.137.187","port":6379,"type":"ss","country":"美国(yudou66_com+玉豆分享)_25","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"俄罗斯(yudou66_com+玉豆分享)_26","server":"cn3.relay.starlink.st","port":40701,"type":"ss","country":"俄罗斯(yudou66_com+玉豆分享)_26","cipher":"aes-128-gcm","password":"aa504504-047c-4e9e-84ce-86f2519a792f"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_27","server":"0319ru99.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"🇷🇺_RU_俄罗斯联邦_27","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"0319ru99.fans8.xyz"}}}
+  - {"name":"美国(yudou66_com玉豆分享)_28","server":"awsxjp.moonfree.top","port":443,"type":"vmess","uuid":"1ab594a2-cee0-4876-89b9-1b9b4053a6c4","alterId":0,"cipher":"auto","country":"美国(yudou66_com玉豆分享)_28","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"awsxjp.moonfree.top"}}}
+  - {"name":"美国(yudou66_com+玉豆分享)_29","server":"fr.node.qchwnd.moe","port":44612,"type":"trojan","country":"美国(yudou66_com+玉豆分享)_29","skip-cert-verify":true,"udp":true,"password":"9816c0a0-95c3-44bc-b96a-65be94017518"}
+  - {"name":"🇵🇱_PL_波兰_30","server":"194.15.196.66","port":8008,"type":"ss","country":"🇵🇱_PL_波兰_30","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇸🇪_SE_瑞典_31","server":"51.12.89.247","port":500,"type":"ss","country":"🇸🇪_SE_瑞典_31","cipher":"aes-128-gcm","password":"@VPNFolder"}
+  - {"name":"俄罗斯(yudou66_com玉豆分享)_32","server":"0320ru1702.fans8.xyz","port":80,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"俄罗斯(yudou66_com玉豆分享)_32","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"0320ru1702.fans8.xyz"}}}
+  - {"name":"欧洲(yudou66_com玉豆分享)_33","server":"146.56.99.245","port":25135,"type":"vmess","uuid":"5893f7e5-9695-45af-f65e-bd2958ba93fa","alterId":0,"cipher":"auto","country":"欧洲(yudou66_com玉豆分享)_33","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"146.56.99.245"}}}
+  - {"name":"美国(yudou66_com玉豆分享)_34","server":"linodemx0303.moonfree.top","port":443,"type":"vmess","uuid":"1ab594a2-cee0-4876-89b9-1b9b4053a6c4","alterId":0,"cipher":"auto","country":"美国(yudou66_com玉豆分享)_34","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"linodemx0303.moonfree.top"}}}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_35","server":"134.195.196.3","port":8882,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_35","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_36","server":"134.195.196.81","port":3389,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_36","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"欧洲(yudou66_com+玉豆分享)_37","server":"134.195.196.3","port":6697,"type":"ss","country":"欧洲(yudou66_com+玉豆分享)_37","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_38","server":"134.195.196.187","port":8881,"type":"ss","country":"🇨🇦_CA_加拿大_38","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"欧洲(yudou66_com+玉豆分享)_39","server":"134.195.196.81","port":443,"type":"ss","country":"欧洲(yudou66_com+玉豆分享)_39","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"加拿大(yudou66_com+玉豆分享)_40","server":"134.195.196.68","port":8008,"type":"ss","country":"加拿大(yudou66_com+玉豆分享)_40","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_41","server":"134.195.196.68","port":5500,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_41","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_42","server":"134.195.196.187","port":2375,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_42","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_43","server":"134.195.196.81","port":6679,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_43","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"欧洲(yudou66_com+玉豆分享)_44","server":"134.195.196.3","port":5600,"type":"ss","country":"欧洲(yudou66_com+玉豆分享)_44","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"欧洲(yudou66_com+玉豆分享)_45","server":"134.195.196.81","port":5003,"type":"ss","country":"欧洲(yudou66_com+玉豆分享)_45","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇬🇧_GB_英国_46","server":"172.99.190.92","port":9102,"type":"ss","country":"🇬🇧_GB_英国_46","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_47","server":"134.195.196.187","port":5000,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_47","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_48","server":"134.195.196.68","port":8118,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_48","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_49","server":"134.195.196.3","port":8008,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_49","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_50","server":"134.195.196.81","port":8090,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_50","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_51","server":"134.195.196.68","port":7002,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_51","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_52","server":"134.195.196.81","port":7002,"type":"ss","country":"🇨🇦_CA_加拿大_52","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"加拿大(yudou66_com+玉豆分享)_53","server":"134.195.196.187","port":9102,"type":"ss","country":"加拿大(yudou66_com+玉豆分享)_53","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸美国(yudou66_com+玉豆分享)_54","server":"169.197.142.99","port":5001,"type":"ss","country":"🇺🇸美国(yudou66_com+玉豆分享)_54","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_55","server":"134.195.196.187","port":5500,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_55","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_56","server":"134.195.196.187","port":6679,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_56","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_57","server":"134.195.196.81","port":8881,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_57","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_58","server":"134.195.196.3","port":7002,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_58","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_59","server":"134.195.196.81","port":5600,"type":"ss","country":"🇨🇦_CA_加拿大_59","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_60","server":"134.195.196.81","port":7001,"type":"ss","country":"🇨🇦_CA_加拿大_60","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_61","server":"134.195.196.81","port":8888,"type":"ss","country":"🇨🇦_CA_加拿大_61","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"欧洲(yudou66_com+玉豆分享)_62","server":"134.195.196.187","port":5001,"type":"ss","country":"欧洲(yudou66_com+玉豆分享)_62","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"欧洲(yudou66_com+玉豆分享)_63","server":"134.195.196.81","port":2376,"type":"ss","country":"欧洲(yudou66_com+玉豆分享)_63","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸美国(yudou66_com+玉豆分享)_64","server":"169.197.142.99","port":8090,"type":"ss","country":"🇺🇸美国(yudou66_com+玉豆分享)_64","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇬🇧英国(yudou66_com+玉豆分享)_65","server":"172.99.190.92","port":8888,"type":"ss","country":"🇬🇧英国(yudou66_com+玉豆分享)_65","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_66","server":"134.195.196.3","port":8009,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_66","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_67","server":"134.195.196.81","port":5000,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_67","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_68","server":"134.195.196.187","port":6697,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_68","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_69","server":"134.195.196.3","port":6379,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_69","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_70","server":"134.195.196.81","port":2375,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_70","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_71","server":"134.195.196.68","port":6697,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_71","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_72","server":"134.195.196.68","port":7306,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_72","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"欧洲(yudou66_com+玉豆分享)_73","server":"134.195.196.81","port":8000,"type":"ss","country":"欧洲(yudou66_com+玉豆分享)_73","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"欧洲(yudou66_com+玉豆分享)_74","server":"169.197.142.99","port":7001,"type":"ss","country":"欧洲(yudou66_com+玉豆分享)_74","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"美国(yudou66_com+玉豆分享)_75","server":"172.99.190.92","port":7002,"type":"ss","country":"美国(yudou66_com+玉豆分享)_75","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_76","server":"134.195.196.187","port":7306,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_76","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_77","server":"134.195.196.3","port":443,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_77","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_78","server":"134.195.196.187","port":2376,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_78","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_79","server":"134.195.196.187","port":7002,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_79","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_80","server":"134.195.196.187","port":6379,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_80","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_81","server":"134.195.196.68","port":8090,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_81","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA_加拿大_82","server":"134.195.196.187","port":8882,"type":"ss","country":"🇨🇦_CA_加拿大_82","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA_加拿大_83","server":"134.195.196.81","port":7306,"type":"ss","country":"🇨🇦_CA_加拿大_83","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"欧洲(yudou66_com+玉豆分享)_84","server":"134.195.196.187","port":9101,"type":"ss","country":"欧洲(yudou66_com+玉豆分享)_84","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"加拿大(yudou66_com+玉豆分享)_85","server":"134.195.196.3","port":3306,"type":"ss","country":"加拿大(yudou66_com+玉豆分享)_85","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸美国(yudou66_com+玉豆分享)_86","server":"169.197.142.99","port":8118,"type":"ss","country":"🇺🇸美国(yudou66_com+玉豆分享)_86","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸美国(yudou66_com+玉豆分享)_87","server":"169.197.142.99","port":9102,"type":"ss","country":"🇺🇸美国(yudou66_com+玉豆分享)_87","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸美国(yudou66_com+玉豆分享)_88","server":"169.197.142.99","port":9101,"type":"ss","country":"🇺🇸美国(yudou66_com+玉豆分享)_88","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸美国(yudou66_com+玉豆分享)_89","server":"169.197.142.99","port":443,"type":"ss","country":"🇺🇸美国(yudou66_com+玉豆分享)_89","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇬🇧英国(yudou66_com+玉豆分享)_90","server":"172.99.190.92","port":7307,"type":"ss","country":"🇬🇧英国(yudou66_com+玉豆分享)_90","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_91","server":"134.195.196.3","port":9102,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_91","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_92","server":"134.195.196.187","port":5601,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_92","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_93","server":"134.195.196.3","port":7306,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_93","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_94","server":"134.195.196.187","port":8000,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_94","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_95","server":"134.195.196.3","port":8881,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_95","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_96","server":"134.195.196.187","port":3306,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_96","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_97","server":"134.195.196.187","port":8009,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_97","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_98","server":"134.195.196.81","port":8118,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_98","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦加拿大(yudou66_com+玉豆分享)_99","server":"134.195.196.187","port":5600,"type":"ss","country":"🇨🇦加拿大(yudou66_com+玉豆分享)_99","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_100","server":"134.195.196.68","port":5001,"type":"ss","country":"🇨🇦_CA_加拿大_100","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_101","server":"134.195.196.81","port":6697,"type":"ss","country":"🇨🇦_CA_加拿大_101","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦_CA_加拿大_102","server":"134.195.196.3","port":8000,"type":"ss","country":"🇨🇦_CA_加拿大_102","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦_CA_加拿大_103","server":"134.195.196.81","port":8008,"type":"ss","country":"🇨🇦_CA_加拿大_103","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_10
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_12
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_13
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_14
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_15
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_16
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_17
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_18
-      - 🇨🇳_CN_中国->🇮🇩_ID_印度尼西亚_19
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_20
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_21
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_22
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_23
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_24
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_25
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_26
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_27
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_28
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_30
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_31
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_32
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_33
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_34
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_35
-      - 🇨🇳_CN_中国->🇻🇳_VN_越南_36
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_37
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_38
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_39
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_40
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_41
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_42
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_43
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_44
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_45
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_46
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_47
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_48
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_49
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_50
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_51
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_52
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_53
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_54
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_55
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_56
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_57
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_58
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_59
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_60
-      - 🇨🇳_CN_中国->🇹🇭_TH_泰国_61
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_62
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_63
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_64
-      - 🇭🇰_HK_香港_65
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_66
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_68
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_69
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_70
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_71
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国_72
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_73
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_74
-      - 🇺🇸_US_美国_75
-      - 🇨🇳_CN_中国->🇪🇸_ES_西班牙_76
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_77
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_78
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_79
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_80
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_81
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_82
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_83
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_84
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_85
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_86
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_87
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国_88
+      - 🇹🇼台湾(yudou66_com玉豆分享)_1
+      - 香港(yudou66_com+玉豆分享)_2
+      - 日本(yudou66_com+玉豆分享)_3
+      - 台湾(yudou66_com+玉豆分享)_4
+      - 韩国(yudou66_com+玉豆分享)_5
+      - 香港(yudou66_com玉豆分享)_6
+      - 韩国(yudou66_com+玉豆分享)_7
+      - 台湾(yudou66_com玉豆分享)_8
+      - 香港(yudou66_com+玉豆分享)_9
+      - 美国(yudou66_com玉豆分享)_10
+      - 美国(yudou66_com玉豆分享)_11
+      - 美国(yudou66_com+玉豆分享)_12
+      - 美国(yudou66_com+玉豆分享)_13
+      - 美国(yudou66_com+玉豆分享)_14
+      - 美国(yudou66_com+玉豆分享)_15
+      - 美国(yudou66_com+玉豆分享)_16
+      - 美国(yudou66_com+玉豆分享)_17
+      - 美国(yudou66_com+玉豆分享)_18
+      - 美国(yudou66_com+玉豆分享)_19
+      - 美国(yudou66_com+玉豆分享)_20
+      - 美国(yudou66_com+玉豆分享)_21
+      - 美国(yudou66_com+玉豆分享)_22
+      - 🇺🇸美国(yudou66_com+玉豆分享)_23
+      - 美国(yudou66_com+玉豆分享)_24
+      - 美国(yudou66_com+玉豆分享)_25
+      - 俄罗斯(yudou66_com+玉豆分享)_26
+      - 🇷🇺_RU_俄罗斯联邦_27
+      - 美国(yudou66_com玉豆分享)_28
+      - 美国(yudou66_com+玉豆分享)_29
+      - 🇵🇱_PL_波兰_30
+      - 🇸🇪_SE_瑞典_31
+      - 俄罗斯(yudou66_com玉豆分享)_32
+      - 欧洲(yudou66_com玉豆分享)_33
+      - 美国(yudou66_com玉豆分享)_34
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_35
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_36
+      - 欧洲(yudou66_com+玉豆分享)_37
+      - 🇨🇦_CA_加拿大_38
+      - 欧洲(yudou66_com+玉豆分享)_39
+      - 加拿大(yudou66_com+玉豆分享)_40
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_41
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_42
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_43
+      - 欧洲(yudou66_com+玉豆分享)_44
+      - 欧洲(yudou66_com+玉豆分享)_45
+      - 🇬🇧_GB_英国_46
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_47
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_48
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_49
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_50
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_51
+      - 🇨🇦_CA_加拿大_52
+      - 加拿大(yudou66_com+玉豆分享)_53
+      - 🇺🇸美国(yudou66_com+玉豆分享)_54
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_55
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_56
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_57
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇨🇦_CA_加拿大_60
+      - 🇨🇦_CA_加拿大_61
+      - 欧洲(yudou66_com+玉豆分享)_62
+      - 欧洲(yudou66_com+玉豆分享)_63
+      - 🇺🇸美国(yudou66_com+玉豆分享)_64
+      - 🇬🇧英国(yudou66_com+玉豆分享)_65
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_66
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_67
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_68
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_69
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_70
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_71
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_72
+      - 欧洲(yudou66_com+玉豆分享)_73
+      - 欧洲(yudou66_com+玉豆分享)_74
+      - 美国(yudou66_com+玉豆分享)_75
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_76
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_77
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_78
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_79
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_80
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_81
+      - 🇨🇦_CA_加拿大_82
+      - 🇨🇦_CA_加拿大_83
+      - 欧洲(yudou66_com+玉豆分享)_84
+      - 加拿大(yudou66_com+玉豆分享)_85
+      - 🇺🇸美国(yudou66_com+玉豆分享)_86
+      - 🇺🇸美国(yudou66_com+玉豆分享)_87
+      - 🇺🇸美国(yudou66_com+玉豆分享)_88
+      - 🇺🇸美国(yudou66_com+玉豆分享)_89
+      - 🇬🇧英国(yudou66_com+玉豆分享)_90
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_91
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_92
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_93
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_94
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_95
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_96
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_97
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_98
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_99
+      - 🇨🇦_CA_加拿大_100
+      - 🇨🇦_CA_加拿大_101
+      - 🇨🇦_CA_加拿大_102
+      - 🇨🇦_CA_加拿大_103
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_10
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_12
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_13
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_14
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_15
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_16
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_17
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_18
-      - 🇨🇳_CN_中国->🇮🇩_ID_印度尼西亚_19
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_20
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_21
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_22
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_23
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_24
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_25
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_26
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_27
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_28
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_30
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_31
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_32
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_33
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_34
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_35
-      - 🇨🇳_CN_中国->🇻🇳_VN_越南_36
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_37
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_38
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_39
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_40
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_41
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_42
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_43
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_44
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_45
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_46
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_47
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_48
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_49
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_50
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_51
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_52
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_53
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_54
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_55
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_56
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_57
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_58
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_59
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_60
-      - 🇨🇳_CN_中国->🇹🇭_TH_泰国_61
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_62
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_63
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_64
-      - 🇭🇰_HK_香港_65
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_66
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_68
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_69
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_70
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_71
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国_72
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_73
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_74
-      - 🇺🇸_US_美国_75
-      - 🇨🇳_CN_中国->🇪🇸_ES_西班牙_76
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_77
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_78
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_79
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_80
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_81
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_82
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_83
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_84
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_85
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_86
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_87
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国_88
+      - 🇹🇼台湾(yudou66_com玉豆分享)_1
+      - 香港(yudou66_com+玉豆分享)_2
+      - 日本(yudou66_com+玉豆分享)_3
+      - 台湾(yudou66_com+玉豆分享)_4
+      - 韩国(yudou66_com+玉豆分享)_5
+      - 香港(yudou66_com玉豆分享)_6
+      - 韩国(yudou66_com+玉豆分享)_7
+      - 台湾(yudou66_com玉豆分享)_8
+      - 香港(yudou66_com+玉豆分享)_9
+      - 美国(yudou66_com玉豆分享)_10
+      - 美国(yudou66_com玉豆分享)_11
+      - 美国(yudou66_com+玉豆分享)_12
+      - 美国(yudou66_com+玉豆分享)_13
+      - 美国(yudou66_com+玉豆分享)_14
+      - 美国(yudou66_com+玉豆分享)_15
+      - 美国(yudou66_com+玉豆分享)_16
+      - 美国(yudou66_com+玉豆分享)_17
+      - 美国(yudou66_com+玉豆分享)_18
+      - 美国(yudou66_com+玉豆分享)_19
+      - 美国(yudou66_com+玉豆分享)_20
+      - 美国(yudou66_com+玉豆分享)_21
+      - 美国(yudou66_com+玉豆分享)_22
+      - 🇺🇸美国(yudou66_com+玉豆分享)_23
+      - 美国(yudou66_com+玉豆分享)_24
+      - 美国(yudou66_com+玉豆分享)_25
+      - 俄罗斯(yudou66_com+玉豆分享)_26
+      - 🇷🇺_RU_俄罗斯联邦_27
+      - 美国(yudou66_com玉豆分享)_28
+      - 美国(yudou66_com+玉豆分享)_29
+      - 🇵🇱_PL_波兰_30
+      - 🇸🇪_SE_瑞典_31
+      - 俄罗斯(yudou66_com玉豆分享)_32
+      - 欧洲(yudou66_com玉豆分享)_33
+      - 美国(yudou66_com玉豆分享)_34
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_35
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_36
+      - 欧洲(yudou66_com+玉豆分享)_37
+      - 🇨🇦_CA_加拿大_38
+      - 欧洲(yudou66_com+玉豆分享)_39
+      - 加拿大(yudou66_com+玉豆分享)_40
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_41
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_42
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_43
+      - 欧洲(yudou66_com+玉豆分享)_44
+      - 欧洲(yudou66_com+玉豆分享)_45
+      - 🇬🇧_GB_英国_46
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_47
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_48
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_49
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_50
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_51
+      - 🇨🇦_CA_加拿大_52
+      - 加拿大(yudou66_com+玉豆分享)_53
+      - 🇺🇸美国(yudou66_com+玉豆分享)_54
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_55
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_56
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_57
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇨🇦_CA_加拿大_60
+      - 🇨🇦_CA_加拿大_61
+      - 欧洲(yudou66_com+玉豆分享)_62
+      - 欧洲(yudou66_com+玉豆分享)_63
+      - 🇺🇸美国(yudou66_com+玉豆分享)_64
+      - 🇬🇧英国(yudou66_com+玉豆分享)_65
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_66
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_67
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_68
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_69
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_70
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_71
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_72
+      - 欧洲(yudou66_com+玉豆分享)_73
+      - 欧洲(yudou66_com+玉豆分享)_74
+      - 美国(yudou66_com+玉豆分享)_75
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_76
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_77
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_78
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_79
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_80
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_81
+      - 🇨🇦_CA_加拿大_82
+      - 🇨🇦_CA_加拿大_83
+      - 欧洲(yudou66_com+玉豆分享)_84
+      - 加拿大(yudou66_com+玉豆分享)_85
+      - 🇺🇸美国(yudou66_com+玉豆分享)_86
+      - 🇺🇸美国(yudou66_com+玉豆分享)_87
+      - 🇺🇸美国(yudou66_com+玉豆分享)_88
+      - 🇺🇸美国(yudou66_com+玉豆分享)_89
+      - 🇬🇧英国(yudou66_com+玉豆分享)_90
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_91
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_92
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_93
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_94
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_95
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_96
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_97
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_98
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_99
+      - 🇨🇦_CA_加拿大_100
+      - 🇨🇦_CA_加拿大_101
+      - 🇨🇦_CA_加拿大_102
+      - 🇨🇦_CA_加拿大_103
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_10
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_12
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_13
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_14
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_15
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_16
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_17
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_18
-      - 🇨🇳_CN_中国->🇮🇩_ID_印度尼西亚_19
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_20
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_21
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_22
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_23
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_24
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_25
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_26
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_27
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_28
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_30
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_31
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_32
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_33
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_34
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_35
-      - 🇨🇳_CN_中国->🇻🇳_VN_越南_36
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_37
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_38
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_39
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_40
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_41
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_42
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_43
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_44
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_45
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_46
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_47
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_48
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_49
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_50
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_51
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_52
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_53
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_54
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_55
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_56
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_57
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_58
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_59
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_60
-      - 🇨🇳_CN_中国->🇹🇭_TH_泰国_61
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_62
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_63
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_64
-      - 🇭🇰_HK_香港_65
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_66
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_68
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_69
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_70
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_71
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国_72
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_73
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_74
-      - 🇺🇸_US_美国_75
-      - 🇨🇳_CN_中国->🇪🇸_ES_西班牙_76
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_77
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_78
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_79
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_80
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_81
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_82
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_83
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_84
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_85
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_86
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_87
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国_88
+      - 🇹🇼台湾(yudou66_com玉豆分享)_1
+      - 香港(yudou66_com+玉豆分享)_2
+      - 日本(yudou66_com+玉豆分享)_3
+      - 台湾(yudou66_com+玉豆分享)_4
+      - 韩国(yudou66_com+玉豆分享)_5
+      - 香港(yudou66_com玉豆分享)_6
+      - 韩国(yudou66_com+玉豆分享)_7
+      - 台湾(yudou66_com玉豆分享)_8
+      - 香港(yudou66_com+玉豆分享)_9
+      - 美国(yudou66_com玉豆分享)_10
+      - 美国(yudou66_com玉豆分享)_11
+      - 美国(yudou66_com+玉豆分享)_12
+      - 美国(yudou66_com+玉豆分享)_13
+      - 美国(yudou66_com+玉豆分享)_14
+      - 美国(yudou66_com+玉豆分享)_15
+      - 美国(yudou66_com+玉豆分享)_16
+      - 美国(yudou66_com+玉豆分享)_17
+      - 美国(yudou66_com+玉豆分享)_18
+      - 美国(yudou66_com+玉豆分享)_19
+      - 美国(yudou66_com+玉豆分享)_20
+      - 美国(yudou66_com+玉豆分享)_21
+      - 美国(yudou66_com+玉豆分享)_22
+      - 🇺🇸美国(yudou66_com+玉豆分享)_23
+      - 美国(yudou66_com+玉豆分享)_24
+      - 美国(yudou66_com+玉豆分享)_25
+      - 俄罗斯(yudou66_com+玉豆分享)_26
+      - 🇷🇺_RU_俄罗斯联邦_27
+      - 美国(yudou66_com玉豆分享)_28
+      - 美国(yudou66_com+玉豆分享)_29
+      - 🇵🇱_PL_波兰_30
+      - 🇸🇪_SE_瑞典_31
+      - 俄罗斯(yudou66_com玉豆分享)_32
+      - 欧洲(yudou66_com玉豆分享)_33
+      - 美国(yudou66_com玉豆分享)_34
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_35
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_36
+      - 欧洲(yudou66_com+玉豆分享)_37
+      - 🇨🇦_CA_加拿大_38
+      - 欧洲(yudou66_com+玉豆分享)_39
+      - 加拿大(yudou66_com+玉豆分享)_40
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_41
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_42
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_43
+      - 欧洲(yudou66_com+玉豆分享)_44
+      - 欧洲(yudou66_com+玉豆分享)_45
+      - 🇬🇧_GB_英国_46
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_47
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_48
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_49
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_50
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_51
+      - 🇨🇦_CA_加拿大_52
+      - 加拿大(yudou66_com+玉豆分享)_53
+      - 🇺🇸美国(yudou66_com+玉豆分享)_54
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_55
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_56
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_57
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇨🇦_CA_加拿大_60
+      - 🇨🇦_CA_加拿大_61
+      - 欧洲(yudou66_com+玉豆分享)_62
+      - 欧洲(yudou66_com+玉豆分享)_63
+      - 🇺🇸美国(yudou66_com+玉豆分享)_64
+      - 🇬🇧英国(yudou66_com+玉豆分享)_65
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_66
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_67
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_68
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_69
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_70
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_71
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_72
+      - 欧洲(yudou66_com+玉豆分享)_73
+      - 欧洲(yudou66_com+玉豆分享)_74
+      - 美国(yudou66_com+玉豆分享)_75
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_76
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_77
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_78
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_79
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_80
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_81
+      - 🇨🇦_CA_加拿大_82
+      - 🇨🇦_CA_加拿大_83
+      - 欧洲(yudou66_com+玉豆分享)_84
+      - 加拿大(yudou66_com+玉豆分享)_85
+      - 🇺🇸美国(yudou66_com+玉豆分享)_86
+      - 🇺🇸美国(yudou66_com+玉豆分享)_87
+      - 🇺🇸美国(yudou66_com+玉豆分享)_88
+      - 🇺🇸美国(yudou66_com+玉豆分享)_89
+      - 🇬🇧英国(yudou66_com+玉豆分享)_90
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_91
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_92
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_93
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_94
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_95
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_96
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_97
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_98
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_99
+      - 🇨🇦_CA_加拿大_100
+      - 🇨🇦_CA_加拿大_101
+      - 🇨🇦_CA_加拿大_102
+      - 🇨🇦_CA_加拿大_103
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_10
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_12
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_13
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_14
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_15
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_16
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_17
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_18
-      - 🇨🇳_CN_中国->🇮🇩_ID_印度尼西亚_19
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_20
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_21
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_22
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_23
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_24
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_25
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_26
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_27
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_28
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_30
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_31
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_32
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_33
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_34
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_35
-      - 🇨🇳_CN_中国->🇻🇳_VN_越南_36
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_37
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_38
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_39
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_40
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_41
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_42
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_43
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_44
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_45
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_46
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_47
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_48
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_49
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_50
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_51
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_52
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_53
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_54
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_55
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_56
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_57
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_58
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_59
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_60
-      - 🇨🇳_CN_中国->🇹🇭_TH_泰国_61
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_62
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_63
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_64
-      - 🇭🇰_HK_香港_65
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_66
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_68
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_69
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_70
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_71
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国_72
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_73
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_74
-      - 🇺🇸_US_美国_75
-      - 🇨🇳_CN_中国->🇪🇸_ES_西班牙_76
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_77
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_78
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_79
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_80
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_81
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_82
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_83
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_84
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_85
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_86
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_87
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国_88
+      - 🇹🇼台湾(yudou66_com玉豆分享)_1
+      - 香港(yudou66_com+玉豆分享)_2
+      - 日本(yudou66_com+玉豆分享)_3
+      - 台湾(yudou66_com+玉豆分享)_4
+      - 韩国(yudou66_com+玉豆分享)_5
+      - 香港(yudou66_com玉豆分享)_6
+      - 韩国(yudou66_com+玉豆分享)_7
+      - 台湾(yudou66_com玉豆分享)_8
+      - 香港(yudou66_com+玉豆分享)_9
+      - 美国(yudou66_com玉豆分享)_10
+      - 美国(yudou66_com玉豆分享)_11
+      - 美国(yudou66_com+玉豆分享)_12
+      - 美国(yudou66_com+玉豆分享)_13
+      - 美国(yudou66_com+玉豆分享)_14
+      - 美国(yudou66_com+玉豆分享)_15
+      - 美国(yudou66_com+玉豆分享)_16
+      - 美国(yudou66_com+玉豆分享)_17
+      - 美国(yudou66_com+玉豆分享)_18
+      - 美国(yudou66_com+玉豆分享)_19
+      - 美国(yudou66_com+玉豆分享)_20
+      - 美国(yudou66_com+玉豆分享)_21
+      - 美国(yudou66_com+玉豆分享)_22
+      - 🇺🇸美国(yudou66_com+玉豆分享)_23
+      - 美国(yudou66_com+玉豆分享)_24
+      - 美国(yudou66_com+玉豆分享)_25
+      - 俄罗斯(yudou66_com+玉豆分享)_26
+      - 🇷🇺_RU_俄罗斯联邦_27
+      - 美国(yudou66_com玉豆分享)_28
+      - 美国(yudou66_com+玉豆分享)_29
+      - 🇵🇱_PL_波兰_30
+      - 🇸🇪_SE_瑞典_31
+      - 俄罗斯(yudou66_com玉豆分享)_32
+      - 欧洲(yudou66_com玉豆分享)_33
+      - 美国(yudou66_com玉豆分享)_34
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_35
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_36
+      - 欧洲(yudou66_com+玉豆分享)_37
+      - 🇨🇦_CA_加拿大_38
+      - 欧洲(yudou66_com+玉豆分享)_39
+      - 加拿大(yudou66_com+玉豆分享)_40
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_41
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_42
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_43
+      - 欧洲(yudou66_com+玉豆分享)_44
+      - 欧洲(yudou66_com+玉豆分享)_45
+      - 🇬🇧_GB_英国_46
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_47
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_48
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_49
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_50
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_51
+      - 🇨🇦_CA_加拿大_52
+      - 加拿大(yudou66_com+玉豆分享)_53
+      - 🇺🇸美国(yudou66_com+玉豆分享)_54
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_55
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_56
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_57
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇨🇦_CA_加拿大_60
+      - 🇨🇦_CA_加拿大_61
+      - 欧洲(yudou66_com+玉豆分享)_62
+      - 欧洲(yudou66_com+玉豆分享)_63
+      - 🇺🇸美国(yudou66_com+玉豆分享)_64
+      - 🇬🇧英国(yudou66_com+玉豆分享)_65
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_66
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_67
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_68
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_69
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_70
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_71
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_72
+      - 欧洲(yudou66_com+玉豆分享)_73
+      - 欧洲(yudou66_com+玉豆分享)_74
+      - 美国(yudou66_com+玉豆分享)_75
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_76
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_77
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_78
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_79
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_80
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_81
+      - 🇨🇦_CA_加拿大_82
+      - 🇨🇦_CA_加拿大_83
+      - 欧洲(yudou66_com+玉豆分享)_84
+      - 加拿大(yudou66_com+玉豆分享)_85
+      - 🇺🇸美国(yudou66_com+玉豆分享)_86
+      - 🇺🇸美国(yudou66_com+玉豆分享)_87
+      - 🇺🇸美国(yudou66_com+玉豆分享)_88
+      - 🇺🇸美国(yudou66_com+玉豆分享)_89
+      - 🇬🇧英国(yudou66_com+玉豆分享)_90
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_91
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_92
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_93
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_94
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_95
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_96
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_97
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_98
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_99
+      - 🇨🇦_CA_加拿大_100
+      - 🇨🇦_CA_加拿大_101
+      - 🇨🇦_CA_加拿大_102
+      - 🇨🇦_CA_加拿大_103
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_10
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_12
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_13
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_14
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_15
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_16
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_17
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_18
-      - 🇨🇳_CN_中国->🇮🇩_ID_印度尼西亚_19
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_20
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_21
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_22
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_23
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_24
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_25
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_26
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_27
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_28
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_30
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_31
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_32
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_33
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_34
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_35
-      - 🇨🇳_CN_中国->🇻🇳_VN_越南_36
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_37
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_38
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_39
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_40
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_41
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_42
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_43
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_44
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_45
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_46
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_47
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_48
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_49
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_50
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_51
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_52
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_53
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_54
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_55
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_56
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_57
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_58
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_59
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_60
-      - 🇨🇳_CN_中国->🇹🇭_TH_泰国_61
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_62
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_63
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_64
-      - 🇭🇰_HK_香港_65
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_66
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_68
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_69
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_70
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_71
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国_72
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_73
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_74
-      - 🇺🇸_US_美国_75
-      - 🇨🇳_CN_中国->🇪🇸_ES_西班牙_76
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_77
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_78
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_79
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_80
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_81
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_82
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_83
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_84
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_85
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_86
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_87
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国_88
+      - 🇹🇼台湾(yudou66_com玉豆分享)_1
+      - 香港(yudou66_com+玉豆分享)_2
+      - 日本(yudou66_com+玉豆分享)_3
+      - 台湾(yudou66_com+玉豆分享)_4
+      - 韩国(yudou66_com+玉豆分享)_5
+      - 香港(yudou66_com玉豆分享)_6
+      - 韩国(yudou66_com+玉豆分享)_7
+      - 台湾(yudou66_com玉豆分享)_8
+      - 香港(yudou66_com+玉豆分享)_9
+      - 美国(yudou66_com玉豆分享)_10
+      - 美国(yudou66_com玉豆分享)_11
+      - 美国(yudou66_com+玉豆分享)_12
+      - 美国(yudou66_com+玉豆分享)_13
+      - 美国(yudou66_com+玉豆分享)_14
+      - 美国(yudou66_com+玉豆分享)_15
+      - 美国(yudou66_com+玉豆分享)_16
+      - 美国(yudou66_com+玉豆分享)_17
+      - 美国(yudou66_com+玉豆分享)_18
+      - 美国(yudou66_com+玉豆分享)_19
+      - 美国(yudou66_com+玉豆分享)_20
+      - 美国(yudou66_com+玉豆分享)_21
+      - 美国(yudou66_com+玉豆分享)_22
+      - 🇺🇸美国(yudou66_com+玉豆分享)_23
+      - 美国(yudou66_com+玉豆分享)_24
+      - 美国(yudou66_com+玉豆分享)_25
+      - 俄罗斯(yudou66_com+玉豆分享)_26
+      - 🇷🇺_RU_俄罗斯联邦_27
+      - 美国(yudou66_com玉豆分享)_28
+      - 美国(yudou66_com+玉豆分享)_29
+      - 🇵🇱_PL_波兰_30
+      - 🇸🇪_SE_瑞典_31
+      - 俄罗斯(yudou66_com玉豆分享)_32
+      - 欧洲(yudou66_com玉豆分享)_33
+      - 美国(yudou66_com玉豆分享)_34
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_35
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_36
+      - 欧洲(yudou66_com+玉豆分享)_37
+      - 🇨🇦_CA_加拿大_38
+      - 欧洲(yudou66_com+玉豆分享)_39
+      - 加拿大(yudou66_com+玉豆分享)_40
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_41
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_42
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_43
+      - 欧洲(yudou66_com+玉豆分享)_44
+      - 欧洲(yudou66_com+玉豆分享)_45
+      - 🇬🇧_GB_英国_46
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_47
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_48
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_49
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_50
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_51
+      - 🇨🇦_CA_加拿大_52
+      - 加拿大(yudou66_com+玉豆分享)_53
+      - 🇺🇸美国(yudou66_com+玉豆分享)_54
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_55
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_56
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_57
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇨🇦_CA_加拿大_60
+      - 🇨🇦_CA_加拿大_61
+      - 欧洲(yudou66_com+玉豆分享)_62
+      - 欧洲(yudou66_com+玉豆分享)_63
+      - 🇺🇸美国(yudou66_com+玉豆分享)_64
+      - 🇬🇧英国(yudou66_com+玉豆分享)_65
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_66
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_67
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_68
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_69
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_70
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_71
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_72
+      - 欧洲(yudou66_com+玉豆分享)_73
+      - 欧洲(yudou66_com+玉豆分享)_74
+      - 美国(yudou66_com+玉豆分享)_75
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_76
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_77
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_78
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_79
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_80
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_81
+      - 🇨🇦_CA_加拿大_82
+      - 🇨🇦_CA_加拿大_83
+      - 欧洲(yudou66_com+玉豆分享)_84
+      - 加拿大(yudou66_com+玉豆分享)_85
+      - 🇺🇸美国(yudou66_com+玉豆分享)_86
+      - 🇺🇸美国(yudou66_com+玉豆分享)_87
+      - 🇺🇸美国(yudou66_com+玉豆分享)_88
+      - 🇺🇸美国(yudou66_com+玉豆分享)_89
+      - 🇬🇧英国(yudou66_com+玉豆分享)_90
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_91
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_92
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_93
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_94
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_95
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_96
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_97
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_98
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_99
+      - 🇨🇦_CA_加拿大_100
+      - 🇨🇦_CA_加拿大_101
+      - 🇨🇦_CA_加拿大_102
+      - 🇨🇦_CA_加拿大_103
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_10
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_12
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_13
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_14
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_15
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_16
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_17
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_18
-      - 🇨🇳_CN_中国->🇮🇩_ID_印度尼西亚_19
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_20
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_21
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_22
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_23
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_24
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_25
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_26
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_27
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_28
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_30
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_31
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_32
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_33
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_34
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_35
-      - 🇨🇳_CN_中国->🇻🇳_VN_越南_36
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_37
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_38
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_39
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_40
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_41
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_42
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_43
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_44
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_45
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_46
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_47
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_48
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_49
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_50
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_51
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_52
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_53
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_54
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_55
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_56
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_57
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_58
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_59
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_60
-      - 🇨🇳_CN_中国->🇹🇭_TH_泰国_61
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_62
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_63
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_64
-      - 🇭🇰_HK_香港_65
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_66
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_68
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_69
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_70
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_71
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国_72
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_73
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_74
-      - 🇺🇸_US_美国_75
-      - 🇨🇳_CN_中国->🇪🇸_ES_西班牙_76
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_77
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_78
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_79
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_80
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_81
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_82
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_83
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_84
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_85
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_86
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_87
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国_88
+      - 🇹🇼台湾(yudou66_com玉豆分享)_1
+      - 香港(yudou66_com+玉豆分享)_2
+      - 日本(yudou66_com+玉豆分享)_3
+      - 台湾(yudou66_com+玉豆分享)_4
+      - 韩国(yudou66_com+玉豆分享)_5
+      - 香港(yudou66_com玉豆分享)_6
+      - 韩国(yudou66_com+玉豆分享)_7
+      - 台湾(yudou66_com玉豆分享)_8
+      - 香港(yudou66_com+玉豆分享)_9
+      - 美国(yudou66_com玉豆分享)_10
+      - 美国(yudou66_com玉豆分享)_11
+      - 美国(yudou66_com+玉豆分享)_12
+      - 美国(yudou66_com+玉豆分享)_13
+      - 美国(yudou66_com+玉豆分享)_14
+      - 美国(yudou66_com+玉豆分享)_15
+      - 美国(yudou66_com+玉豆分享)_16
+      - 美国(yudou66_com+玉豆分享)_17
+      - 美国(yudou66_com+玉豆分享)_18
+      - 美国(yudou66_com+玉豆分享)_19
+      - 美国(yudou66_com+玉豆分享)_20
+      - 美国(yudou66_com+玉豆分享)_21
+      - 美国(yudou66_com+玉豆分享)_22
+      - 🇺🇸美国(yudou66_com+玉豆分享)_23
+      - 美国(yudou66_com+玉豆分享)_24
+      - 美国(yudou66_com+玉豆分享)_25
+      - 俄罗斯(yudou66_com+玉豆分享)_26
+      - 🇷🇺_RU_俄罗斯联邦_27
+      - 美国(yudou66_com玉豆分享)_28
+      - 美国(yudou66_com+玉豆分享)_29
+      - 🇵🇱_PL_波兰_30
+      - 🇸🇪_SE_瑞典_31
+      - 俄罗斯(yudou66_com玉豆分享)_32
+      - 欧洲(yudou66_com玉豆分享)_33
+      - 美国(yudou66_com玉豆分享)_34
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_35
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_36
+      - 欧洲(yudou66_com+玉豆分享)_37
+      - 🇨🇦_CA_加拿大_38
+      - 欧洲(yudou66_com+玉豆分享)_39
+      - 加拿大(yudou66_com+玉豆分享)_40
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_41
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_42
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_43
+      - 欧洲(yudou66_com+玉豆分享)_44
+      - 欧洲(yudou66_com+玉豆分享)_45
+      - 🇬🇧_GB_英国_46
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_47
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_48
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_49
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_50
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_51
+      - 🇨🇦_CA_加拿大_52
+      - 加拿大(yudou66_com+玉豆分享)_53
+      - 🇺🇸美国(yudou66_com+玉豆分享)_54
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_55
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_56
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_57
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇨🇦_CA_加拿大_60
+      - 🇨🇦_CA_加拿大_61
+      - 欧洲(yudou66_com+玉豆分享)_62
+      - 欧洲(yudou66_com+玉豆分享)_63
+      - 🇺🇸美国(yudou66_com+玉豆分享)_64
+      - 🇬🇧英国(yudou66_com+玉豆分享)_65
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_66
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_67
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_68
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_69
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_70
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_71
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_72
+      - 欧洲(yudou66_com+玉豆分享)_73
+      - 欧洲(yudou66_com+玉豆分享)_74
+      - 美国(yudou66_com+玉豆分享)_75
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_76
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_77
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_78
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_79
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_80
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_81
+      - 🇨🇦_CA_加拿大_82
+      - 🇨🇦_CA_加拿大_83
+      - 欧洲(yudou66_com+玉豆分享)_84
+      - 加拿大(yudou66_com+玉豆分享)_85
+      - 🇺🇸美国(yudou66_com+玉豆分享)_86
+      - 🇺🇸美国(yudou66_com+玉豆分享)_87
+      - 🇺🇸美国(yudou66_com+玉豆分享)_88
+      - 🇺🇸美国(yudou66_com+玉豆分享)_89
+      - 🇬🇧英国(yudou66_com+玉豆分享)_90
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_91
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_92
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_93
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_94
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_95
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_96
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_97
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_98
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_99
+      - 🇨🇦_CA_加拿大_100
+      - 🇨🇦_CA_加拿大_101
+      - 🇨🇦_CA_加拿大_102
+      - 🇨🇦_CA_加拿大_103
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -676,94 +781,109 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_6
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_7
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_10
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_12
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_13
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_14
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_15
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_16
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_17
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_18
-      - 🇨🇳_CN_中国->🇮🇩_ID_印度尼西亚_19
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_20
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_21
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_22
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_23
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_24
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_25
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_26
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_27
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_28
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_30
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_31
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_32
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_33
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_34
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_35
-      - 🇨🇳_CN_中国->🇻🇳_VN_越南_36
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_37
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_38
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_39
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_40
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_41
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_42
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_43
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_44
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_45
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_46
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_47
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_48
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_49
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_50
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_51
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_52
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_53
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_54
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_55
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_56
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_57
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_58
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_59
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_60
-      - 🇨🇳_CN_中国->🇹🇭_TH_泰国_61
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_62
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_63
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_64
-      - 🇭🇰_HK_香港_65
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_66
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_68
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_69
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_70
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_71
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国_72
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_73
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_74
-      - 🇺🇸_US_美国_75
-      - 🇨🇳_CN_中国->🇪🇸_ES_西班牙_76
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_77
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_78
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_79
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_80
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_81
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_82
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_83
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_84
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_85
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_86
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_87
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国_88
+      - 🇹🇼台湾(yudou66_com玉豆分享)_1
+      - 香港(yudou66_com+玉豆分享)_2
+      - 日本(yudou66_com+玉豆分享)_3
+      - 台湾(yudou66_com+玉豆分享)_4
+      - 韩国(yudou66_com+玉豆分享)_5
+      - 香港(yudou66_com玉豆分享)_6
+      - 韩国(yudou66_com+玉豆分享)_7
+      - 台湾(yudou66_com玉豆分享)_8
+      - 香港(yudou66_com+玉豆分享)_9
+      - 美国(yudou66_com玉豆分享)_10
+      - 美国(yudou66_com玉豆分享)_11
+      - 美国(yudou66_com+玉豆分享)_12
+      - 美国(yudou66_com+玉豆分享)_13
+      - 美国(yudou66_com+玉豆分享)_14
+      - 美国(yudou66_com+玉豆分享)_15
+      - 美国(yudou66_com+玉豆分享)_16
+      - 美国(yudou66_com+玉豆分享)_17
+      - 美国(yudou66_com+玉豆分享)_18
+      - 美国(yudou66_com+玉豆分享)_19
+      - 美国(yudou66_com+玉豆分享)_20
+      - 美国(yudou66_com+玉豆分享)_21
+      - 美国(yudou66_com+玉豆分享)_22
+      - 🇺🇸美国(yudou66_com+玉豆分享)_23
+      - 美国(yudou66_com+玉豆分享)_24
+      - 美国(yudou66_com+玉豆分享)_25
+      - 俄罗斯(yudou66_com+玉豆分享)_26
+      - 🇷🇺_RU_俄罗斯联邦_27
+      - 美国(yudou66_com玉豆分享)_28
+      - 美国(yudou66_com+玉豆分享)_29
+      - 🇵🇱_PL_波兰_30
+      - 🇸🇪_SE_瑞典_31
+      - 俄罗斯(yudou66_com玉豆分享)_32
+      - 欧洲(yudou66_com玉豆分享)_33
+      - 美国(yudou66_com玉豆分享)_34
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_35
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_36
+      - 欧洲(yudou66_com+玉豆分享)_37
+      - 🇨🇦_CA_加拿大_38
+      - 欧洲(yudou66_com+玉豆分享)_39
+      - 加拿大(yudou66_com+玉豆分享)_40
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_41
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_42
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_43
+      - 欧洲(yudou66_com+玉豆分享)_44
+      - 欧洲(yudou66_com+玉豆分享)_45
+      - 🇬🇧_GB_英国_46
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_47
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_48
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_49
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_50
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_51
+      - 🇨🇦_CA_加拿大_52
+      - 加拿大(yudou66_com+玉豆分享)_53
+      - 🇺🇸美国(yudou66_com+玉豆分享)_54
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_55
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_56
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_57
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_58
+      - 🇨🇦_CA_加拿大_59
+      - 🇨🇦_CA_加拿大_60
+      - 🇨🇦_CA_加拿大_61
+      - 欧洲(yudou66_com+玉豆分享)_62
+      - 欧洲(yudou66_com+玉豆分享)_63
+      - 🇺🇸美国(yudou66_com+玉豆分享)_64
+      - 🇬🇧英国(yudou66_com+玉豆分享)_65
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_66
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_67
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_68
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_69
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_70
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_71
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_72
+      - 欧洲(yudou66_com+玉豆分享)_73
+      - 欧洲(yudou66_com+玉豆分享)_74
+      - 美国(yudou66_com+玉豆分享)_75
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_76
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_77
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_78
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_79
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_80
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_81
+      - 🇨🇦_CA_加拿大_82
+      - 🇨🇦_CA_加拿大_83
+      - 欧洲(yudou66_com+玉豆分享)_84
+      - 加拿大(yudou66_com+玉豆分享)_85
+      - 🇺🇸美国(yudou66_com+玉豆分享)_86
+      - 🇺🇸美国(yudou66_com+玉豆分享)_87
+      - 🇺🇸美国(yudou66_com+玉豆分享)_88
+      - 🇺🇸美国(yudou66_com+玉豆分享)_89
+      - 🇬🇧英国(yudou66_com+玉豆分享)_90
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_91
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_92
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_93
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_94
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_95
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_96
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_97
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_98
+      - 🇨🇦加拿大(yudou66_com+玉豆分享)_99
+      - 🇨🇦_CA_加拿大_100
+      - 🇨🇦_CA_加拿大_101
+      - 🇨🇦_CA_加拿大_102
+      - 🇨🇦_CA_加拿大_103
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
