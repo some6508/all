@@ -5,46 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"233v2_com_45_10_58_210","server":"45.10.58.210","port":233,"type":"vmess","uuid":"1b814f37-b012-4375-a556-be20016b0db0","alterId":0,"cipher":"auto","country":"233v2_com_45_10_58_210","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"default_name_1","server":"azure.luren.xyz","port":443,"type":"vmess","uuid":"bf654557-433a-4c5c-bab0-55b7602bd702","alterId":1,"cipher":"auto","country":"default_name_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"default_name_2","server":"azure.luren.xyz","port":443,"type":"vmess","uuid":"bf654557-433a-4c5c-bab0-55b7602bd702","alterId":1,"cipher":"auto","country":"default_name_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"default_name_3","server":"azure.luren.xyz","port":443,"type":"vmess","uuid":"bf654557-433a-4c5c-bab0-55b7602bd702","alterId":1,"cipher":"auto","country":"default_name_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"default_name_4","server":"azure.luren.xyz","port":443,"type":"vmess","uuid":"bf654557-433a-4c5c-bab0-55b7602bd702","alterId":1,"cipher":"auto","country":"default_name_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"default_name_5","server":"azure.luren.xyz","port":443,"type":"vmess","uuid":"bf654557-433a-4c5c-bab0-55b7602bd702","alterId":1,"cipher":"auto","country":"default_name_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"default_name_6","server":"azure.luren.xyz","port":443,"type":"vmess","uuid":"bf654557-433a-4c5c-bab0-55b7602bd702","alterId":1,"cipher":"auto","country":"default_name_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"default_name_7","server":"azure.luren.xyz","port":443,"type":"vmess","uuid":"bf654557-433a-4c5c-bab0-55b7602bd702","alterId":1,"cipher":"auto","country":"default_name_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"default_name_8","server":"azure.luren.xyz","port":443,"type":"vmess","uuid":"bf654557-433a-4c5c-bab0-55b7602bd702","alterId":1,"cipher":"auto","country":"default_name_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"default_name_9","server":"azure.luren.xyz","port":443,"type":"vmess","uuid":"bf654557-433a-4c5c-bab0-55b7602bd702","alterId":1,"cipher":"auto","country":"default_name_9","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"default_name_10","server":"azure.luren.xyz","port":443,"type":"vmess","uuid":"bf654557-433a-4c5c-bab0-55b7602bd702","alterId":1,"cipher":"auto","country":"default_name_10","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 233v2_com_45_10_58_210
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
+      - default_name_7
+      - default_name_8
+      - default_name_9
+      - default_name_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 233v2_com_45_10_58_210
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
+      - default_name_7
+      - default_name_8
+      - default_name_9
+      - default_name_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 233v2_com_45_10_58_210
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
+      - default_name_7
+      - default_name_8
+      - default_name_9
+      - default_name_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 233v2_com_45_10_58_210
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
+      - default_name_7
+      - default_name_8
+      - default_name_9
+      - default_name_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 233v2_com_45_10_58_210
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
+      - default_name_7
+      - default_name_8
+      - default_name_9
+      - default_name_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 233v2_com_45_10_58_210
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
+      - default_name_7
+      - default_name_8
+      - default_name_9
+      - default_name_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 233v2_com_45_10_58_210
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
+      - default_name_7
+      - default_name_8
+      - default_name_9
+      - default_name_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
