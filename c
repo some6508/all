@@ -5,46 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"default_name_1","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"6c175d1a-a57f-4881-a471-173eb139694b","alterId":0,"cipher":"auto","country":"default_name_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xrenblog/","headers":{"host":"ipv6.xrenblog.com"}}}
+  - {"name":"SA-1208-芬兰-账号定时更新https://fangeqiang_com_1","server":"95.216.201.243","port":49923,"type":"ssr","country":"SA-1208-芬兰-账号定时更新https://fangeqiang_com_1","password":"fangeqiang.com","cipher":"chacha20","protocol":"auth_aes128_sha1","obfs":"plain"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - default_name_1
+      - SA-1208-芬兰-账号定时更新https://fangeqiang_com_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - default_name_1
+      - SA-1208-芬兰-账号定时更新https://fangeqiang_com_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - default_name_1
+      - SA-1208-芬兰-账号定时更新https://fangeqiang_com_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - default_name_1
+      - SA-1208-芬兰-账号定时更新https://fangeqiang_com_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - default_name_1
+      - SA-1208-芬兰-账号定时更新https://fangeqiang_com_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - default_name_1
+      - SA-1208-芬兰-账号定时更新https://fangeqiang_com_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - default_name_1
+      - SA-1208-芬兰-账号定时更新https://fangeqiang_com_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
