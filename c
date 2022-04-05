@@ -5,74 +5,53 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"Ytb:冰河圈子1_1","server":"vpn-eu-node00d-bb.hi-l.eu","port":15943,"type":"ss","country":"Ytb:冰河圈子1_1","cipher":"chacha20-ietf-poly1305","password":"URmSpDkiSGQr"}
-  - {"name":"Ytb:冰河圈子2_2","server":"vpn-eu-node00c-bb.hi-l.eu","port":16623,"type":"ss","country":"Ytb:冰河圈子2_2","cipher":"chacha20-ietf-poly1305","password":"RRoABJeQoF7I"}
-  - {"name":"Ytb:冰河圈子3_3","server":"vpn-eu-node00a-bb.hi-l.eu","port":35780,"type":"ss","country":"Ytb:冰河圈子3_3","cipher":"chacha20-ietf-poly1305","password":"XNxVE9uBHBLm"}
-  - {"name":"Ytb:冰河圈子4_4","server":"vpn-eu-node002-fa.hi-l.eu","port":4115,"type":"ss","country":"Ytb:冰河圈子4_4","cipher":"chacha20-ietf-poly1305","password":"XVyCb7nQ4Dbz"}
-  - {"name":"Ytb:冰河圈子5_5","server":"vpn-eu-node00a-bb.hi-l.eu","port":35780,"type":"ss","country":"Ytb:冰河圈子5_5","cipher":"chacha20-ietf-poly1305","password":"dTV8vEFQnQ5L"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_1","server":"00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz","port":7867,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_1","cipher":"chacha20-ietf-poly1305","password":"998630ea-9e28-4ae9-b177-1ea5f278febf"}
+  - {"name":"🇸🇬_SG_新加坡->🇩🇪_DE_德国_2","server":"eu.licom.ga","port":62011,"type":"vmess","uuid":"f81e990e-1283-48f9-9eff-acacad6fb661","alterId":0,"cipher":"auto","country":"🇸🇬_SG_新加坡->🇩🇪_DE_德国_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Ytb:冰河圈子1_1
-      - Ytb:冰河圈子2_2
-      - Ytb:冰河圈子3_3
-      - Ytb:冰河圈子4_4
-      - Ytb:冰河圈子5_5
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Ytb:冰河圈子1_1
-      - Ytb:冰河圈子2_2
-      - Ytb:冰河圈子3_3
-      - Ytb:冰河圈子4_4
-      - Ytb:冰河圈子5_5
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Ytb:冰河圈子1_1
-      - Ytb:冰河圈子2_2
-      - Ytb:冰河圈子3_3
-      - Ytb:冰河圈子4_4
-      - Ytb:冰河圈子5_5
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Ytb:冰河圈子1_1
-      - Ytb:冰河圈子2_2
-      - Ytb:冰河圈子3_3
-      - Ytb:冰河圈子4_4
-      - Ytb:冰河圈子5_5
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Ytb:冰河圈子1_1
-      - Ytb:冰河圈子2_2
-      - Ytb:冰河圈子3_3
-      - Ytb:冰河圈子4_4
-      - Ytb:冰河圈子5_5
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Ytb:冰河圈子1_1
-      - Ytb:冰河圈子2_2
-      - Ytb:冰河圈子3_3
-      - Ytb:冰河圈子4_4
-      - Ytb:冰河圈子5_5
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,11 +74,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Ytb:冰河圈子1_1
-      - Ytb:冰河圈子2_2
-      - Ytb:冰河圈子3_3
-      - Ytb:冰河圈子4_4
-      - Ytb:冰河圈子5_5
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
