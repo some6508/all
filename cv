@@ -5,11 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Ytb:冰河圈子1_1, server: vpn-eu-node00d-bb.hi-l.eu, port: 15943, type: ss, cipher: chacha20-ietf-poly1305, password: URmSpDkiSGQr, udp: true}
-  - {name: Ytb:冰河圈子2_2, server: vpn-eu-node00c-bb.hi-l.eu, port: 16623, type: ss, cipher: chacha20-ietf-poly1305, password: RRoABJeQoF7I, udp: true}
-  - {name: Ytb:冰河圈子3_3, server: vpn-eu-node00a-bb.hi-l.eu, port: 35780, type: ss, cipher: chacha20-ietf-poly1305, password: XNxVE9uBHBLm, udp: true}
-  - {name: Ytb:冰河圈子4_4, server: vpn-eu-node002-fa.hi-l.eu, port: 4115, type: ss, cipher: chacha20-ietf-poly1305, password: XVyCb7nQ4Dbz, udp: true}
-  - {name: Ytb:冰河圈子5_5, server: vpn-eu-node00a-bb.hi-l.eu, port: 35780, type: ss, cipher: chacha20-ietf-poly1305, password: dTV8vEFQnQ5L, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_1, server: 00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz, port: 7867, type: ss, cipher: chacha20-ietf-poly1305, password: 998630ea-9e28-4ae9-b177-1ea5f278febf, udp: true}
+  - {name: _SG_新加坡->🇩🇪_DE_德国_2, server: eu.licom.ga, port: 62011, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu.licom.ga}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 45.32.91.251, port: 28819, type: vmess, uuid: f6bf0550-b46f-11ec-9ebd-560003ef0cb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /CQwWVgEx/, headers: {Host: 45.32.91.251}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: server1.hkg.exacc.need.sh, port: 48097, type: ss, cipher: aes-256-gcm, password: grNqFYB1a8, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wsssdr1, headers: {Host: niaop.tk}}, udp: true}
@@ -1444,11 +1441,8 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - Ytb:冰河圈子1_1
-      - Ytb:冰河圈子2_2
-      - Ytb:冰河圈子3_3
-      - Ytb:冰河圈子4_4
-      - Ytb:冰河圈子5_5
+      - _CN_中国->🇺🇸_US_美国_1
+      - _SG_新加坡->🇩🇪_DE_德国_2
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -2883,11 +2877,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - Ytb:冰河圈子1_1
-      - Ytb:冰河圈子2_2
-      - Ytb:冰河圈子3_3
-      - Ytb:冰河圈子4_4
-      - Ytb:冰河圈子5_5
+      - _CN_中国->🇺🇸_US_美国_1
+      - _SG_新加坡->🇩🇪_DE_德国_2
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
