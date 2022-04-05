@@ -5,74 +5,74 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.3","port":5500,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.3","port":8008,"type":"ss","country":"🇨🇦_CA_加拿大_2","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.3","port":8009,"type":"ss","country":"🇨🇦_CA_加拿大_3","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.196.3","port":7306,"type":"ss","country":"🇨🇦_CA_加拿大_4","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.196.3","port":8118,"type":"ss","country":"🇨🇦_CA_加拿大_5","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"Ytb:冰河圈子1_1","server":"vpn-eu-node00d-bb.hi-l.eu","port":15943,"type":"ss","country":"Ytb:冰河圈子1_1","cipher":"chacha20-ietf-poly1305","password":"URmSpDkiSGQr"}
+  - {"name":"Ytb:冰河圈子2_2","server":"vpn-eu-node00c-bb.hi-l.eu","port":16623,"type":"ss","country":"Ytb:冰河圈子2_2","cipher":"chacha20-ietf-poly1305","password":"RRoABJeQoF7I"}
+  - {"name":"Ytb:冰河圈子3_3","server":"vpn-eu-node00a-bb.hi-l.eu","port":35780,"type":"ss","country":"Ytb:冰河圈子3_3","cipher":"chacha20-ietf-poly1305","password":"XNxVE9uBHBLm"}
+  - {"name":"Ytb:冰河圈子4_4","server":"vpn-eu-node002-fa.hi-l.eu","port":4115,"type":"ss","country":"Ytb:冰河圈子4_4","cipher":"chacha20-ietf-poly1305","password":"XVyCb7nQ4Dbz"}
+  - {"name":"Ytb:冰河圈子5_5","server":"vpn-eu-node00a-bb.hi-l.eu","port":35780,"type":"ss","country":"Ytb:冰河圈子5_5","cipher":"chacha20-ietf-poly1305","password":"dTV8vEFQnQ5L"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - Ytb:冰河圈子1_1
+      - Ytb:冰河圈子2_2
+      - Ytb:冰河圈子3_3
+      - Ytb:冰河圈子4_4
+      - Ytb:冰河圈子5_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - Ytb:冰河圈子1_1
+      - Ytb:冰河圈子2_2
+      - Ytb:冰河圈子3_3
+      - Ytb:冰河圈子4_4
+      - Ytb:冰河圈子5_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - Ytb:冰河圈子1_1
+      - Ytb:冰河圈子2_2
+      - Ytb:冰河圈子3_3
+      - Ytb:冰河圈子4_4
+      - Ytb:冰河圈子5_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - Ytb:冰河圈子1_1
+      - Ytb:冰河圈子2_2
+      - Ytb:冰河圈子3_3
+      - Ytb:冰河圈子4_4
+      - Ytb:冰河圈子5_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - Ytb:冰河圈子1_1
+      - Ytb:冰河圈子2_2
+      - Ytb:冰河圈子3_3
+      - Ytb:冰河圈子4_4
+      - Ytb:冰河圈子5_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - Ytb:冰河圈子1_1
+      - Ytb:冰河圈子2_2
+      - Ytb:冰河圈子3_3
+      - Ytb:冰河圈子4_4
+      - Ytb:冰河圈子5_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,11 +95,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - Ytb:冰河圈子1_1
+      - Ytb:冰河圈子2_2
+      - Ytb:冰河圈子3_3
+      - Ytb:冰河圈子4_4
+      - Ytb:冰河圈子5_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
