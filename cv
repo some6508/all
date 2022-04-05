@@ -5,147 +5,47 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: YouTubeat阿阳AYANG_1, server: 42.157.161.44, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_2, server: 42.157.161.45, port: 11216, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_3, server: 42.157.161.41, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_4, server: 42.157.161.43, port: 11216, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_5, server: 42.157.161.53, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_6, server: 42.157.161.42, port: 11211, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_7, server: 42.157.161.43, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_8, server: 42.157.161.42, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_9, server: 42.157.161.43, port: 11213, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_10, server: 42.157.161.43, port: 11215, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_11, server: 42.157.161.47, port: 11215, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_12, server: 42.157.161.38, port: 11211, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_13, server: 42.157.161.49, port: 11210, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_14, server: 42.157.161.38, port: 11212, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_15, server: 42.157.161.41, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_16, server: 42.157.161.47, port: 11216, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_17, server: 42.157.161.53, port: 11212, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_18, server: 42.157.161.40, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_19, server: 42.157.161.47, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_20, server: 42.157.161.40, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_21, server: 42.157.161.50, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_22, server: 42.157.161.39, port: 11211, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_23, server: 42.157.161.43, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_24, server: 42.157.161.41, port: 11215, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_25, server: 42.157.161.42, port: 11212, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_26, server: 42.157.161.42, port: 11213, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_27, server: 42.157.161.44, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_28, server: 42.157.161.38, port: 11215, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_29, server: 42.157.161.49, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_30, server: 42.157.161.43, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_31, server: 42.157.161.53, port: 11216, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_32, server: 42.157.161.39, port: 11213, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_33, server: 42.157.161.38, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_34, server: 42.157.161.49, port: 11213, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_35, server: 42.157.161.49, port: 11211, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_36, server: 42.157.161.42, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_37, server: 42.157.161.42, port: 11216, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_38, server: 42.157.161.41, port: 11216, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_39, server: 42.157.161.41, port: 11212, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_40, server: 42.157.161.45, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_41, server: 42.157.161.39, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_42, server: 42.157.161.38, port: 11216, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_43, server: 42.157.161.42, port: 11210, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_44, server: 42.157.161.39, port: 11210, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_45, server: 42.157.161.41, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_46, server: 42.157.161.52, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_47, server: 42.157.161.39, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_48, server: 42.157.161.41, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_49, server: 42.157.161.39, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_50, server: 42.157.161.41, port: 11206, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_51, server: 42.157.161.47, port: 11210, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_52, server: 42.157.161.53, port: 11213, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_53, server: 42.157.161.42, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_54, server: 42.157.161.50, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_55, server: 42.157.161.50, port: 11213, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_56, server: 42.157.161.38, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_57, server: 42.157.161.53, port: 11210, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_58, server: 42.157.161.41, port: 11801, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_59, server: 42.157.161.45, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_60, server: 42.157.161.51, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_61, server: 42.157.161.38, port: 11213, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_62, server: 42.157.161.41, port: 11201, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_63, server: 42.157.161.39, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_64, server: 42.157.161.47, port: 11211, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_65, server: 42.157.161.47, port: 11212, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_66, server: 42.157.161.47, port: 11213, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_67, server: 42.157.161.40, port: 11213, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_68, server: 42.157.161.41, port: 11211, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_69, server: 42.157.161.45, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_70, server: 42.157.161.53, port: 11802, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_71, server: 42.157.161.40, port: 11216, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_72, server: 42.157.161.43, port: 11210, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_73, server: 42.157.161.49, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_74, server: 42.157.161.49, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_75, server: 42.157.161.52, port: 11215, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_76, server: 42.157.161.53, port: 11801, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_77, server: 42.157.161.41, port: 11210, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_78, server: 42.157.161.41, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_79, server: 42.157.161.39, port: 11215, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_80, server: 42.157.161.46, port: 11207, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_81, server: 42.157.161.47, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_82, server: 42.157.161.47, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_83, server: 42.157.161.49, port: 11216, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_84, server: 42.157.161.40, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_85, server: 42.157.161.43, port: 11212, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_86, server: 42.157.161.39, port: 11216, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_87, server: 42.157.161.38, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_88, server: 42.157.161.49, port: 11208, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_89, server: 42.157.161.52, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_90, server: 42.157.161.39, port: 11203, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_91, server: 42.157.161.42, port: 11206, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_92, server: 42.157.161.48, port: 11203, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_93, server: 42.157.161.45, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_94, server: 42.157.161.49, port: 11212, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_95, server: 42.157.161.45, port: 11212, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_96, server: 42.157.161.49, port: 11215, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_97, server: 42.157.161.50, port: 11216, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_98, server: 42.157.161.48, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_99, server: 42.157.161.53, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_100, server: 42.157.161.52, port: 11211, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_101, server: 42.157.161.44, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_102, server: 42.157.161.45, port: 11213, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_103, server: 42.157.161.48, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_104, server: 42.157.161.52, port: 11210, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_105, server: 42.157.161.40, port: 11215, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_106, server: 42.157.161.46, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_107, server: 42.157.161.52, port: 11216, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_108, server: 42.157.161.39, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_109, server: 42.157.161.48, port: 11210, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_110, server: 42.157.161.52, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_111, server: 42.157.161.40, port: 11802, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_112, server: 42.157.161.45, port: 11206, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_113, server: 42.157.161.45, port: 11207, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_114, server: 42.157.161.50, port: 11210, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_115, server: 42.157.161.50, port: 11211, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_116, server: 42.157.161.46, port: 11802, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_117, server: 42.157.161.49, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_118, server: 42.157.161.50, port: 11212, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_119, server: 42.157.161.46, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_120, server: 42.157.161.47, port: 11801, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_121, server: 42.157.161.51, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_122, server: 42.157.161.38, port: 11801, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_123, server: 42.157.161.39, port: 11212, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_124, server: 42.157.161.40, port: 11801, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_125, server: 42.157.161.46, port: 11801, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_126, server: 42.157.161.47, port: 11802, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_127, server: 42.157.161.52, port: 11213, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_128, server: 42.157.161.49, port: 11801, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_129, server: 42.157.161.39, port: 11206, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_130, server: 42.157.161.40, port: 11205, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_131, server: 42.157.161.43, port: 11801, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_132, server: 42.157.161.49, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_133, server: 42.157.161.45, port: 11210, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_134, server: 42.157.161.51, port: 11211, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_135, server: 42.157.161.43, port: 11211, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_136, server: 42.157.161.46, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_137, server: 42.157.161.49, port: 11802, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_138, server: 42.157.161.44, port: 11215, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_139, server: 42.157.161.50, port: 11201, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_140, server: 42.157.161.40, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: YouTubeat阿阳AYANG_141, server: 42.157.161.48, port: 11206, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国_1, server: vmshellhk.luren.xyz, port: 443, type: vmess, uuid: bf654557-433a-4c5c-bab0-55b7602bd702, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vmshellhk.luren.xyz}}, udp: true}
+  - {name: _CA_加拿大_2, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: default_name_3, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: cloudflare.a-yu.xyz}}, udp: true}
+  - {name: _CA_加拿大_4, server: 134.195.196.51, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _HK_香港_5, server: 62.216.92.167, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _KR_韩国_6, server: s5.walkunderground.com, port: 11218, type: vmess, uuid: 343c8ad8-7fe1-405d-bb0d-c12ca62494ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大_7, server: 134.195.196.51, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: default_name_8, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
+  - {name: _HK_香港_9, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
+  - {name: _HK_香港_10, server: 62.216.92.167, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _US_美国_11, server: azure.luren.xyz, port: 443, type: vmess, uuid: bf654557-433a-4c5c-bab0-55b7602bd702, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: azure.luren.xyz}}, udp: true}
+  - {name: _US_美国_12, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_13, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_14, server: 134.195.196.51, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _KR_韩国_15, server: vs.mumi.bid, port: 10124, type: vmess, uuid: 0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vs.mumi.bid}}, udp: true}
+  - {name: _CA_加拿大_16, server: 134.195.196.51, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大_17, server: 134.195.196.51, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _HK_香港_18, server: 62.216.92.167, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: default_name_19, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wsssdr1, headers: {Host: niaop.tk}}, udp: true}
+  - {name: _CA_加拿大_20, server: 134.195.196.51, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _HK_香港_21, server: 62.216.92.167, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _HK_香港_22, server: 62.216.92.167, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _CA_加拿大_23, server: 134.195.196.51, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_24, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _HK_香港_25, server: 62.216.92.167, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _CA_加拿大_26, server: 134.195.196.51, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_27, server: 134.195.196.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_28, server: 134.195.196.51, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大_29, server: 134.195.196.51, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_30, server: 134.195.196.51, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: default_name_31, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大_32, server: 134.195.196.51, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大_33, server: 134.195.196.51, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国_34, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国_35, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
+  - {name: _US_美国_36, server: 38.121.43.91, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大_37, server: 134.195.196.51, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国_38, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大_39, server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_40, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大_41, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: vn.mumi.bid, port: 10125, type: vmess, uuid: 83ae9f04-47f0-4e34-9a1c-9c2e5161f586, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vn.mumi.bid}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 3, server: 8.210.83.33, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
@@ -1438,31 +1338,28 @@ proxies:
   - {name: Ytb:鹏哥分享_加拿大_134, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_13, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_178, server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 1, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港特别行政区 2, server: 104.208.101.112, port: 34554, type: vmess, uuid: ec57dccf-467d-4785-99d5-7b57a65b2bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 3, server: azure.luren.xyz, port: 443, type: vmess, uuid: bf654557-433a-4c5c-bab0-55b7602bd702, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: azure.luren.xyz}}, udp: true}
-  - {name: github.com/freefq - 广东省广州市电信 4, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: github.com/freefq - 加拿大  5, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320jp.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州圣何塞Choopa数据中心 6, server: 45.77.0.97, port: 26267, type: vmess, uuid: 9757cdba-c75b-4b94-9e31-7956dc7d852a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wis, headers: {Host: 45.77.0.97}}, udp: true}
-  - {name: github.com/freefq - 美国新泽西州皮斯卡特维Vultr数据中心 7, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国惠普HP 8, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  9, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 10, server: app.ssfree.ru, port: 443, type: vmess, uuid: 4966ecf4-b430-11ec-8cbf-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 11, server: 104.21.84.81, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero2.a-yu.xyz}}, udp: true}
-  - {name: github.com/freefq - 香港腾讯云 12, server: v2.bove.top, port: 35921, type: vmess, uuid: ea0f0aeb-da33-45dd-c512-1a07f5619937, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国纽约DigitalOcean数据中心 13, server: 159.203.73.153, port: 4396, type: vmess, uuid: 7ef93298-6931-4d0e-a9c1-98005ab374df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2rayhunter0122, headers: {Host: 159.203.73.153}}, udp: true}
-  - {name: github.com/freefq - 上海市电信 14, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: github.com/freefq - 加拿大  15, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk857.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 香港Microsoft公司 1, server: 13.75.44.200, port: 40903, type: vmess, uuid: 6d1f4a41-f79e-45f5-8268-460e4f9f5d63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 2, server: azure.luren.xyz, port: 443, type: vmess, uuid: bf654557-433a-4c5c-bab0-55b7602bd702, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: azure.luren.xyz}}, udp: true}
+  - {name: github.com/freefq - 新加坡腾讯云 3, server: v2.bove.top, port: 35921, type: vmess, uuid: ea0f0aeb-da33-45dd-c512-1a07f5619937, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大  4, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320jp.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 北美地区  5, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: github.com/freefq - 上海市电信CN2 6, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: github.com/freefq - 北美地区  7, server: 134.195.196.150, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 北美地区  8, server: 134.195.196.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: github.com/freefq - 加拿大  9, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk857.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 北美地区  10, server: 134.195.196.51, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: github.com/freefq - 加拿大  11, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国纽约DigitalOcean数据中心 12, server: 159.203.73.153, port: 4396, type: vmess, uuid: 7ef93298-6931-4d0e-a9c1-98005ab374df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2rayhunter0122, headers: {Host: 159.203.73.153}}, udp: true}
+  - {name: github.com/freefq - 湖南省长沙市联通 13, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: github.com/freefq - 法国  14, server: 0316ro.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nl, headers: {Host: 0316ro.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 15, server: 03071t.moonfree.top, port: 443, type: vmess, uuid: aa5dd703-195d-4682-8c35-ea0083ea1a74, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 03071t.moonfree.top, network: ws, ws-opts: {path: /, headers: {Host: 03071t.moonfree.top}}, udp: true}
   - {name: github.com/freefq - 亚太地区  16, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 北美地区  17, server: 134.195.196.51, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: github.com/freefq - 广东省广州市电信 17, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: github.com/freefq - 北美地区  18, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq - 加拿大  19, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 湖南省长沙市联通 20, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: github.com/freefq - 广东省广州市电信 21, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: github.com/freefq - 罗马尼亚  22, server: unitedkingdomcloud.club, port: 443, type: vmess, uuid: ae610bbe-ce40-433a-980d-2a411bfc209d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /neuromancer, headers: {Host: unitedkingdomcloud.club}}, udp: true}
-  - {name: github.com/freefq - 北美地区  23, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: github.com/freefq - 香港Google云计算数据中心 24, server: 34.92.229.176, port: 45612, type: vmess, uuid: 347a9d56-353b-41d6-850a-bb078c8bdfc3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 25, server: 03071t.moonfree.top, port: 443, type: vmess, uuid: aa5dd703-195d-4682-8c35-ea0083ea1a74, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 03071t.moonfree.top, network: ws, ws-opts: {path: /, headers: {Host: 03071t.moonfree.top}}, udp: true}
+  - {name: github.com/freefq - 美国  19, server: 150.230.43.65, port: 14564, type: vmess, uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 20, server: app.ssfree.ru, port: 443, type: vmess, uuid: 4966ecf4-b430-11ec-8cbf-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 香港特别行政区 21, server: 104.208.101.112, port: 34554, type: vmess, uuid: ec57dccf-467d-4785-99d5-7b57a65b2bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港特别行政区 22, server: 104.208.79.9, port: 57209, type: vmess, uuid: 0de8896e-462c-4653-9f89-8dc8a1748c17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: SG_9050WangCai_1, server: 103.172.116.9, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
   - {name: SG_9003WangCai_1, server: 103.172.116.9, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
   - {name: SG_9024WangCai_1, server: 103.172.116.9, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
@@ -1586,147 +1483,47 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - YouTubeat阿阳AYANG_1
-      - YouTubeat阿阳AYANG_2
-      - YouTubeat阿阳AYANG_3
-      - YouTubeat阿阳AYANG_4
-      - YouTubeat阿阳AYANG_5
-      - YouTubeat阿阳AYANG_6
-      - YouTubeat阿阳AYANG_7
-      - YouTubeat阿阳AYANG_8
-      - YouTubeat阿阳AYANG_9
-      - YouTubeat阿阳AYANG_10
-      - YouTubeat阿阳AYANG_11
-      - YouTubeat阿阳AYANG_12
-      - YouTubeat阿阳AYANG_13
-      - YouTubeat阿阳AYANG_14
-      - YouTubeat阿阳AYANG_15
-      - YouTubeat阿阳AYANG_16
-      - YouTubeat阿阳AYANG_17
-      - YouTubeat阿阳AYANG_18
-      - YouTubeat阿阳AYANG_19
-      - YouTubeat阿阳AYANG_20
-      - YouTubeat阿阳AYANG_21
-      - YouTubeat阿阳AYANG_22
-      - YouTubeat阿阳AYANG_23
-      - YouTubeat阿阳AYANG_24
-      - YouTubeat阿阳AYANG_25
-      - YouTubeat阿阳AYANG_26
-      - YouTubeat阿阳AYANG_27
-      - YouTubeat阿阳AYANG_28
-      - YouTubeat阿阳AYANG_29
-      - YouTubeat阿阳AYANG_30
-      - YouTubeat阿阳AYANG_31
-      - YouTubeat阿阳AYANG_32
-      - YouTubeat阿阳AYANG_33
-      - YouTubeat阿阳AYANG_34
-      - YouTubeat阿阳AYANG_35
-      - YouTubeat阿阳AYANG_36
-      - YouTubeat阿阳AYANG_37
-      - YouTubeat阿阳AYANG_38
-      - YouTubeat阿阳AYANG_39
-      - YouTubeat阿阳AYANG_40
-      - YouTubeat阿阳AYANG_41
-      - YouTubeat阿阳AYANG_42
-      - YouTubeat阿阳AYANG_43
-      - YouTubeat阿阳AYANG_44
-      - YouTubeat阿阳AYANG_45
-      - YouTubeat阿阳AYANG_46
-      - YouTubeat阿阳AYANG_47
-      - YouTubeat阿阳AYANG_48
-      - YouTubeat阿阳AYANG_49
-      - YouTubeat阿阳AYANG_50
-      - YouTubeat阿阳AYANG_51
-      - YouTubeat阿阳AYANG_52
-      - YouTubeat阿阳AYANG_53
-      - YouTubeat阿阳AYANG_54
-      - YouTubeat阿阳AYANG_55
-      - YouTubeat阿阳AYANG_56
-      - YouTubeat阿阳AYANG_57
-      - YouTubeat阿阳AYANG_58
-      - YouTubeat阿阳AYANG_59
-      - YouTubeat阿阳AYANG_60
-      - YouTubeat阿阳AYANG_61
-      - YouTubeat阿阳AYANG_62
-      - YouTubeat阿阳AYANG_63
-      - YouTubeat阿阳AYANG_64
-      - YouTubeat阿阳AYANG_65
-      - YouTubeat阿阳AYANG_66
-      - YouTubeat阿阳AYANG_67
-      - YouTubeat阿阳AYANG_68
-      - YouTubeat阿阳AYANG_69
-      - YouTubeat阿阳AYANG_70
-      - YouTubeat阿阳AYANG_71
-      - YouTubeat阿阳AYANG_72
-      - YouTubeat阿阳AYANG_73
-      - YouTubeat阿阳AYANG_74
-      - YouTubeat阿阳AYANG_75
-      - YouTubeat阿阳AYANG_76
-      - YouTubeat阿阳AYANG_77
-      - YouTubeat阿阳AYANG_78
-      - YouTubeat阿阳AYANG_79
-      - YouTubeat阿阳AYANG_80
-      - YouTubeat阿阳AYANG_81
-      - YouTubeat阿阳AYANG_82
-      - YouTubeat阿阳AYANG_83
-      - YouTubeat阿阳AYANG_84
-      - YouTubeat阿阳AYANG_85
-      - YouTubeat阿阳AYANG_86
-      - YouTubeat阿阳AYANG_87
-      - YouTubeat阿阳AYANG_88
-      - YouTubeat阿阳AYANG_89
-      - YouTubeat阿阳AYANG_90
-      - YouTubeat阿阳AYANG_91
-      - YouTubeat阿阳AYANG_92
-      - YouTubeat阿阳AYANG_93
-      - YouTubeat阿阳AYANG_94
-      - YouTubeat阿阳AYANG_95
-      - YouTubeat阿阳AYANG_96
-      - YouTubeat阿阳AYANG_97
-      - YouTubeat阿阳AYANG_98
-      - YouTubeat阿阳AYANG_99
-      - YouTubeat阿阳AYANG_100
-      - YouTubeat阿阳AYANG_101
-      - YouTubeat阿阳AYANG_102
-      - YouTubeat阿阳AYANG_103
-      - YouTubeat阿阳AYANG_104
-      - YouTubeat阿阳AYANG_105
-      - YouTubeat阿阳AYANG_106
-      - YouTubeat阿阳AYANG_107
-      - YouTubeat阿阳AYANG_108
-      - YouTubeat阿阳AYANG_109
-      - YouTubeat阿阳AYANG_110
-      - YouTubeat阿阳AYANG_111
-      - YouTubeat阿阳AYANG_112
-      - YouTubeat阿阳AYANG_113
-      - YouTubeat阿阳AYANG_114
-      - YouTubeat阿阳AYANG_115
-      - YouTubeat阿阳AYANG_116
-      - YouTubeat阿阳AYANG_117
-      - YouTubeat阿阳AYANG_118
-      - YouTubeat阿阳AYANG_119
-      - YouTubeat阿阳AYANG_120
-      - YouTubeat阿阳AYANG_121
-      - YouTubeat阿阳AYANG_122
-      - YouTubeat阿阳AYANG_123
-      - YouTubeat阿阳AYANG_124
-      - YouTubeat阿阳AYANG_125
-      - YouTubeat阿阳AYANG_126
-      - YouTubeat阿阳AYANG_127
-      - YouTubeat阿阳AYANG_128
-      - YouTubeat阿阳AYANG_129
-      - YouTubeat阿阳AYANG_130
-      - YouTubeat阿阳AYANG_131
-      - YouTubeat阿阳AYANG_132
-      - YouTubeat阿阳AYANG_133
-      - YouTubeat阿阳AYANG_134
-      - YouTubeat阿阳AYANG_135
-      - YouTubeat阿阳AYANG_136
-      - YouTubeat阿阳AYANG_137
-      - YouTubeat阿阳AYANG_138
-      - YouTubeat阿阳AYANG_139
-      - YouTubeat阿阳AYANG_140
-      - YouTubeat阿阳AYANG_141
+      - _CN_中国_1
+      - _CA_加拿大_2
+      - default_name_3
+      - _CA_加拿大_4
+      - _HK_香港_5
+      - _KR_韩国_6
+      - _CA_加拿大_7
+      - default_name_8
+      - _HK_香港_9
+      - _HK_香港_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _CA_加拿大_14
+      - _KR_韩国_15
+      - _CA_加拿大_16
+      - _CA_加拿大_17
+      - _HK_香港_18
+      - default_name_19
+      - _CA_加拿大_20
+      - _HK_香港_21
+      - _HK_香港_22
+      - _CA_加拿大_23
+      - _US_美国_24
+      - _HK_香港_25
+      - _CA_加拿大_26
+      - _CA_加拿大_27
+      - _CA_加拿大_28
+      - _CA_加拿大_29
+      - _CA_加拿大_30
+      - default_name_31
+      - _CA_加拿大_32
+      - _CA_加拿大_33
+      - _US_美国_34
+      - _US_美国->🇩🇪_DE_德国_35
+      - _US_美国_36
+      - _CA_加拿大_37
+      - _US_美国_38
+      - _CA_加拿大_39
+      - _US_美国_40
+      - _CA_加拿大_41
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -3019,31 +2816,28 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_134
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
-      - github.com/freefq - 日本东京都品川区Linode数据中心 1
-      - github.com/freefq - 香港特别行政区 2
-      - github.com/freefq - 美国Microsoft数据中心 3
-      - github.com/freefq - 广东省广州市电信 4
-      - github.com/freefq - 加拿大  5
-      - github.com/freefq - 美国加利福尼亚州圣何塞Choopa数据中心 6
-      - github.com/freefq - 美国新泽西州皮斯卡特维Vultr数据中心 7
-      - github.com/freefq - 美国惠普HP 8
-      - github.com/freefq - 美国  9
-      - github.com/freefq - 美国CloudFlare节点 10
-      - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - github.com/freefq - 香港腾讯云 12
-      - github.com/freefq - 美国纽约DigitalOcean数据中心 13
-      - github.com/freefq - 上海市电信 14
-      - github.com/freefq - 加拿大  15
+      - github.com/freefq - 香港Microsoft公司 1
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 新加坡腾讯云 3
+      - github.com/freefq - 加拿大  4
+      - github.com/freefq - 北美地区  5
+      - github.com/freefq - 上海市电信CN2 6
+      - github.com/freefq - 北美地区  7
+      - github.com/freefq - 北美地区  8
+      - github.com/freefq - 加拿大  9
+      - github.com/freefq - 北美地区  10
+      - github.com/freefq - 加拿大  11
+      - github.com/freefq - 美国纽约DigitalOcean数据中心 12
+      - github.com/freefq - 湖南省长沙市联通 13
+      - github.com/freefq - 法国  14
+      - github.com/freefq - 美国CloudFlare公司CDN节点 15
       - github.com/freefq - 亚太地区  16
-      - github.com/freefq - 北美地区  17
+      - github.com/freefq - 广东省广州市电信 17
       - github.com/freefq - 北美地区  18
-      - github.com/freefq - 加拿大  19
-      - github.com/freefq - 湖南省长沙市联通 20
-      - github.com/freefq - 广东省广州市电信 21
-      - github.com/freefq - 罗马尼亚  22
-      - github.com/freefq - 北美地区  23
-      - github.com/freefq - 香港Google云计算数据中心 24
-      - github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 美国  19
+      - github.com/freefq - 美国CloudFlare公司CDN节点 20
+      - github.com/freefq - 香港特别行政区 21
+      - github.com/freefq - 香港特别行政区 22
       - SG_9050WangCai_1
       - SG_9003WangCai_1
       - SG_9024WangCai_1
@@ -3167,147 +2961,47 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - YouTubeat阿阳AYANG_1
-      - YouTubeat阿阳AYANG_2
-      - YouTubeat阿阳AYANG_3
-      - YouTubeat阿阳AYANG_4
-      - YouTubeat阿阳AYANG_5
-      - YouTubeat阿阳AYANG_6
-      - YouTubeat阿阳AYANG_7
-      - YouTubeat阿阳AYANG_8
-      - YouTubeat阿阳AYANG_9
-      - YouTubeat阿阳AYANG_10
-      - YouTubeat阿阳AYANG_11
-      - YouTubeat阿阳AYANG_12
-      - YouTubeat阿阳AYANG_13
-      - YouTubeat阿阳AYANG_14
-      - YouTubeat阿阳AYANG_15
-      - YouTubeat阿阳AYANG_16
-      - YouTubeat阿阳AYANG_17
-      - YouTubeat阿阳AYANG_18
-      - YouTubeat阿阳AYANG_19
-      - YouTubeat阿阳AYANG_20
-      - YouTubeat阿阳AYANG_21
-      - YouTubeat阿阳AYANG_22
-      - YouTubeat阿阳AYANG_23
-      - YouTubeat阿阳AYANG_24
-      - YouTubeat阿阳AYANG_25
-      - YouTubeat阿阳AYANG_26
-      - YouTubeat阿阳AYANG_27
-      - YouTubeat阿阳AYANG_28
-      - YouTubeat阿阳AYANG_29
-      - YouTubeat阿阳AYANG_30
-      - YouTubeat阿阳AYANG_31
-      - YouTubeat阿阳AYANG_32
-      - YouTubeat阿阳AYANG_33
-      - YouTubeat阿阳AYANG_34
-      - YouTubeat阿阳AYANG_35
-      - YouTubeat阿阳AYANG_36
-      - YouTubeat阿阳AYANG_37
-      - YouTubeat阿阳AYANG_38
-      - YouTubeat阿阳AYANG_39
-      - YouTubeat阿阳AYANG_40
-      - YouTubeat阿阳AYANG_41
-      - YouTubeat阿阳AYANG_42
-      - YouTubeat阿阳AYANG_43
-      - YouTubeat阿阳AYANG_44
-      - YouTubeat阿阳AYANG_45
-      - YouTubeat阿阳AYANG_46
-      - YouTubeat阿阳AYANG_47
-      - YouTubeat阿阳AYANG_48
-      - YouTubeat阿阳AYANG_49
-      - YouTubeat阿阳AYANG_50
-      - YouTubeat阿阳AYANG_51
-      - YouTubeat阿阳AYANG_52
-      - YouTubeat阿阳AYANG_53
-      - YouTubeat阿阳AYANG_54
-      - YouTubeat阿阳AYANG_55
-      - YouTubeat阿阳AYANG_56
-      - YouTubeat阿阳AYANG_57
-      - YouTubeat阿阳AYANG_58
-      - YouTubeat阿阳AYANG_59
-      - YouTubeat阿阳AYANG_60
-      - YouTubeat阿阳AYANG_61
-      - YouTubeat阿阳AYANG_62
-      - YouTubeat阿阳AYANG_63
-      - YouTubeat阿阳AYANG_64
-      - YouTubeat阿阳AYANG_65
-      - YouTubeat阿阳AYANG_66
-      - YouTubeat阿阳AYANG_67
-      - YouTubeat阿阳AYANG_68
-      - YouTubeat阿阳AYANG_69
-      - YouTubeat阿阳AYANG_70
-      - YouTubeat阿阳AYANG_71
-      - YouTubeat阿阳AYANG_72
-      - YouTubeat阿阳AYANG_73
-      - YouTubeat阿阳AYANG_74
-      - YouTubeat阿阳AYANG_75
-      - YouTubeat阿阳AYANG_76
-      - YouTubeat阿阳AYANG_77
-      - YouTubeat阿阳AYANG_78
-      - YouTubeat阿阳AYANG_79
-      - YouTubeat阿阳AYANG_80
-      - YouTubeat阿阳AYANG_81
-      - YouTubeat阿阳AYANG_82
-      - YouTubeat阿阳AYANG_83
-      - YouTubeat阿阳AYANG_84
-      - YouTubeat阿阳AYANG_85
-      - YouTubeat阿阳AYANG_86
-      - YouTubeat阿阳AYANG_87
-      - YouTubeat阿阳AYANG_88
-      - YouTubeat阿阳AYANG_89
-      - YouTubeat阿阳AYANG_90
-      - YouTubeat阿阳AYANG_91
-      - YouTubeat阿阳AYANG_92
-      - YouTubeat阿阳AYANG_93
-      - YouTubeat阿阳AYANG_94
-      - YouTubeat阿阳AYANG_95
-      - YouTubeat阿阳AYANG_96
-      - YouTubeat阿阳AYANG_97
-      - YouTubeat阿阳AYANG_98
-      - YouTubeat阿阳AYANG_99
-      - YouTubeat阿阳AYANG_100
-      - YouTubeat阿阳AYANG_101
-      - YouTubeat阿阳AYANG_102
-      - YouTubeat阿阳AYANG_103
-      - YouTubeat阿阳AYANG_104
-      - YouTubeat阿阳AYANG_105
-      - YouTubeat阿阳AYANG_106
-      - YouTubeat阿阳AYANG_107
-      - YouTubeat阿阳AYANG_108
-      - YouTubeat阿阳AYANG_109
-      - YouTubeat阿阳AYANG_110
-      - YouTubeat阿阳AYANG_111
-      - YouTubeat阿阳AYANG_112
-      - YouTubeat阿阳AYANG_113
-      - YouTubeat阿阳AYANG_114
-      - YouTubeat阿阳AYANG_115
-      - YouTubeat阿阳AYANG_116
-      - YouTubeat阿阳AYANG_117
-      - YouTubeat阿阳AYANG_118
-      - YouTubeat阿阳AYANG_119
-      - YouTubeat阿阳AYANG_120
-      - YouTubeat阿阳AYANG_121
-      - YouTubeat阿阳AYANG_122
-      - YouTubeat阿阳AYANG_123
-      - YouTubeat阿阳AYANG_124
-      - YouTubeat阿阳AYANG_125
-      - YouTubeat阿阳AYANG_126
-      - YouTubeat阿阳AYANG_127
-      - YouTubeat阿阳AYANG_128
-      - YouTubeat阿阳AYANG_129
-      - YouTubeat阿阳AYANG_130
-      - YouTubeat阿阳AYANG_131
-      - YouTubeat阿阳AYANG_132
-      - YouTubeat阿阳AYANG_133
-      - YouTubeat阿阳AYANG_134
-      - YouTubeat阿阳AYANG_135
-      - YouTubeat阿阳AYANG_136
-      - YouTubeat阿阳AYANG_137
-      - YouTubeat阿阳AYANG_138
-      - YouTubeat阿阳AYANG_139
-      - YouTubeat阿阳AYANG_140
-      - YouTubeat阿阳AYANG_141
+      - _CN_中国_1
+      - _CA_加拿大_2
+      - default_name_3
+      - _CA_加拿大_4
+      - _HK_香港_5
+      - _KR_韩国_6
+      - _CA_加拿大_7
+      - default_name_8
+      - _HK_香港_9
+      - _HK_香港_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _CA_加拿大_14
+      - _KR_韩国_15
+      - _CA_加拿大_16
+      - _CA_加拿大_17
+      - _HK_香港_18
+      - default_name_19
+      - _CA_加拿大_20
+      - _HK_香港_21
+      - _HK_香港_22
+      - _CA_加拿大_23
+      - _US_美国_24
+      - _HK_香港_25
+      - _CA_加拿大_26
+      - _CA_加拿大_27
+      - _CA_加拿大_28
+      - _CA_加拿大_29
+      - _CA_加拿大_30
+      - default_name_31
+      - _CA_加拿大_32
+      - _CA_加拿大_33
+      - _US_美国_34
+      - _US_美国->🇩🇪_DE_德国_35
+      - _US_美国_36
+      - _CA_加拿大_37
+      - _US_美国_38
+      - _CA_加拿大_39
+      - _US_美国_40
+      - _CA_加拿大_41
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -4600,31 +4294,28 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_134
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
-      - github.com/freefq - 日本东京都品川区Linode数据中心 1
-      - github.com/freefq - 香港特别行政区 2
-      - github.com/freefq - 美国Microsoft数据中心 3
-      - github.com/freefq - 广东省广州市电信 4
-      - github.com/freefq - 加拿大  5
-      - github.com/freefq - 美国加利福尼亚州圣何塞Choopa数据中心 6
-      - github.com/freefq - 美国新泽西州皮斯卡特维Vultr数据中心 7
-      - github.com/freefq - 美国惠普HP 8
-      - github.com/freefq - 美国  9
-      - github.com/freefq - 美国CloudFlare节点 10
-      - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - github.com/freefq - 香港腾讯云 12
-      - github.com/freefq - 美国纽约DigitalOcean数据中心 13
-      - github.com/freefq - 上海市电信 14
-      - github.com/freefq - 加拿大  15
+      - github.com/freefq - 香港Microsoft公司 1
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 新加坡腾讯云 3
+      - github.com/freefq - 加拿大  4
+      - github.com/freefq - 北美地区  5
+      - github.com/freefq - 上海市电信CN2 6
+      - github.com/freefq - 北美地区  7
+      - github.com/freefq - 北美地区  8
+      - github.com/freefq - 加拿大  9
+      - github.com/freefq - 北美地区  10
+      - github.com/freefq - 加拿大  11
+      - github.com/freefq - 美国纽约DigitalOcean数据中心 12
+      - github.com/freefq - 湖南省长沙市联通 13
+      - github.com/freefq - 法国  14
+      - github.com/freefq - 美国CloudFlare公司CDN节点 15
       - github.com/freefq - 亚太地区  16
-      - github.com/freefq - 北美地区  17
+      - github.com/freefq - 广东省广州市电信 17
       - github.com/freefq - 北美地区  18
-      - github.com/freefq - 加拿大  19
-      - github.com/freefq - 湖南省长沙市联通 20
-      - github.com/freefq - 广东省广州市电信 21
-      - github.com/freefq - 罗马尼亚  22
-      - github.com/freefq - 北美地区  23
-      - github.com/freefq - 香港Google云计算数据中心 24
-      - github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 美国  19
+      - github.com/freefq - 美国CloudFlare公司CDN节点 20
+      - github.com/freefq - 香港特别行政区 21
+      - github.com/freefq - 香港特别行政区 22
       - SG_9050WangCai_1
       - SG_9003WangCai_1
       - SG_9024WangCai_1
