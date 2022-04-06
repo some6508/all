@@ -5,487 +5,74 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"新加坡_199_28_04Mb_1","server":"103.136.127.163","port":56031,"type":"vmess","uuid":"783df988-4d45-467e-a1b5-83173c842660","alterId":0,"cipher":"auto","country":"新加坡_199_28_04Mb_1","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"DE_9005+atWangCai_1+(3)_2","server":"5.183.179.141","port":9005,"type":"ss","country":"DE_9005+atWangCai_1+(3)_2","cipher":"aes-256-cfb","password":"ZET59LF6DvCC8KVt"}
-  - {"name":"_德国_YouTube:VV科技_87","server":"172.105.244.165","port":2375,"type":"ss","country":"_德国_YouTube:VV科技_87","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"公益机场:https://bit_ly/3BPeo5G_4","server":"149.202.82.172","port":7002,"type":"ss","country":"公益机场:https://bit_ly/3BPeo5G_4","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"(Youtube/TG：俊佳科技)_🇭🇰_香港_2","server":"165.154.225.176","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"(Youtube/TG：俊佳科技)_🇭🇰_香港_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray"}}
-  - {"name":"DE_9018+atWangCai_1+(16)_6","server":"5.183.179.166","port":9018,"type":"ss","country":"DE_9018+atWangCai_1+(16)_6","cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
-  - {"name":"DE_9018+atWangCai_1+(6)_7","server":"5.183.179.148","port":9018,"type":"ss","country":"DE_9018+atWangCai_1+(6)_7","cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
-  - {"name":"DE_9000+atWangCai_1","server":"5.183.179.137","port":9000,"type":"ss","country":"DE_9000+atWangCai_1","cipher":"aes-256-cfb","password":"a3GFYt36Sm82Vys9"}
-  - {"name":"DE_9006+atWangCai_1+(1)_9","server":"5.183.179.139","port":9006,"type":"ss","country":"DE_9006+atWangCai_1+(1)_9","cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
-  - {"name":"DE_9020+atWangCai_1+(6)_10","server":"5.183.179.148","port":9020,"type":"ss","country":"DE_9020+atWangCai_1+(6)_10","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
-  - {"name":"DE_9031+atWangCai_1","server":"5.183.179.137","port":9031,"type":"ss","country":"DE_9031+atWangCai_1","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
-  - {"name":"DE_9056+atWangCai_1+(16)_12","server":"5.183.179.166","port":9056,"type":"ss","country":"DE_9056+atWangCai_1+(16)_12","cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
-  - {"name":"新加坡_1211","server":"v2.bove.top","port":35921,"type":"vmess","uuid":"ea0f0aeb-da33-45dd-c512-1a07f5619937","alterId":0,"cipher":"auto","country":"新加坡_1211","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"v2.bove.top"}}}
-  - {"name":"DE_9003+atWangCai_1+(7)_14","server":"5.183.179.167","port":9003,"type":"ss","country":"DE_9003+atWangCai_1+(7)_14","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
-  - {"name":"DE_9019+atWangCai_1+(3)_15","server":"5.183.179.141","port":9019,"type":"ss","country":"DE_9019+atWangCai_1+(3)_15","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
-  - {"name":":美国-ss-38_91_101_221:5004-被墙-直连-解锁美国地区NF非自制剧_16","server":"38.91.101.221","port":5004,"type":"ss","country":":美国-ss-38_91_101_221:5004-被墙-直连-解锁美国地区NF非自制剧_16","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"DE_9043+atWangCai_1+(6)_17","server":"5.183.179.148","port":9043,"type":"ss","country":"DE_9043+atWangCai_1+(6)_17","cipher":"aes-256-cfb","password":"HSZuyJQcWe8dxNdF"}
-  - {"name":"DE_9026+atWangCai_1+(7)_18","server":"5.183.179.167","port":9026,"type":"ss","country":"DE_9026+atWangCai_1+(7)_18","cipher":"aes-256-cfb","password":"QWDDvVE9npNurQfA"}
-  - {"name":"DE_9018+atWangCai_1+(2)_19","server":"5.183.179.140","port":9018,"type":"ss","country":"DE_9018+atWangCai_1+(2)_19","cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
-  - {"name":"DE_9056+atWangCai_1+(8)_20","server":"5.183.179.170","port":9056,"type":"ss","country":"DE_9056+atWangCai_1+(8)_20","cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
-  - {"name":"_CA_加拿大_21","server":"134.195.196.150","port":3389,"type":"ss","country":"_CA_加拿大_21","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"DE_9027+atWangCai_1+(6)_22","server":"5.183.179.167","port":9027,"type":"ss","country":"DE_9027+atWangCai_1+(6)_22","cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
-  - {"name":"DE_9032+atWangCai_1+(16)_23","server":"5.183.179.166","port":9032,"type":"ss","country":"DE_9032+atWangCai_1+(16)_23","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
-  - {"name":"_英国_YouTube:VV科技_58","server":"172.99.190.149","port":8091,"type":"ss","country":"_英国_YouTube:VV科技_58","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"DE_9053+atWangCai_1","server":"5.183.179.137","port":9053,"type":"ss","country":"DE_9053+atWangCai_1","cipher":"aes-256-cfb","password":"SBM7R883jBmnqe6C"}
-  - {"name":"DE_9008+atWangCai_1+(6)_26","server":"5.183.179.148","port":9008,"type":"ss","country":"DE_9008+atWangCai_1+(6)_26","cipher":"aes-256-cfb","password":"y9VURyNzJWNRYEGQ"}
-  - {"name":"DE_9018+atWangCai_1+(5)_27","server":"5.183.179.146","port":9018,"type":"ss","country":"DE_9018+atWangCai_1+(5)_27","cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
-  - {"name":"_法国_YouTube:VV科技_46","server":"149.202.82.172","port":443,"type":"ss","country":"_法国_YouTube:VV科技_46","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"DE_9045+atWangCai_1+(8)_29","server":"5.183.179.170","port":9045,"type":"ss","country":"DE_9045+atWangCai_1+(8)_29","cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX"}
-  - {"name":":美国-ss-167_88_63_99:7307-被墙-直连-解锁美国地区NF非自制剧_30","server":"167.88.63.99","port":7307,"type":"ss","country":":美国-ss-167_88_63_99:7307-被墙-直连-解锁美国地区NF非自制剧_30","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":":美国-ss-167_88_63_99:7306-被墙-直连-解锁美国地区NF非自制剧_31","server":"167.88.63.99","port":7306,"type":"ss","country":":美国-ss-167_88_63_99:7306-被墙-直连-解锁美国地区NF非自制剧_31","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_32","server":"134.195.196.68","port":8008,"type":"ss","country":"这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_32","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"DE_9088+atWangCai_1+(3)_33","server":"5.183.179.141","port":9088,"type":"ss","country":"DE_9088+atWangCai_1+(3)_33","cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
-  - {"name":"DE_9015+atWangCai_1+(6)_34","server":"5.183.179.148","port":9015,"type":"ss","country":"DE_9015+atWangCai_1+(6)_34","cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf"}
-  - {"name":":日本-ss-45_66_134_176:810-被墙-中转:185_168_20_250-解锁日本地区NF非自制剧_35","server":"45.66.134.176","port":810,"type":"ss","country":":日本-ss-45_66_134_176:810-被墙-中转:185_168_20_250-解锁日本地区NF非自制剧_35","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"RU_9010+atWangCai_1","server":"213.183.53.196","port":9010,"type":"ss","country":"RU_9010+atWangCai_1","cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
-  - {"name":"DE_9041+atWangCai_1+(5)_37","server":"5.183.179.146","port":9041,"type":"ss","country":"DE_9041+atWangCai_1+(5)_37","cipher":"aes-256-cfb","password":"U6qnYRhfyDmn8sgn"}
-  - {"name":"DE_9064+atWangCai_1+(6)_38","server":"5.183.179.148","port":9064,"type":"ss","country":"DE_9064+atWangCai_1+(6)_38","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
-  - {"name":"_德国_YouTube:VV科技_88","server":"172.105.244.165","port":2376,"type":"ss","country":"_德国_YouTube:VV科技_88","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"DE_9031+atWangCai_1+(5)_40","server":"5.183.179.146","port":9031,"type":"ss","country":"DE_9031+atWangCai_1+(5)_40","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
-  - {"name":"DE_9094+atWangCai_1+(8)_41","server":"5.183.179.170","port":9094,"type":"ss","country":"DE_9094+atWangCai_1+(8)_41","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
-  - {"name":"_德国_YouTube:VV科技_90","server":"172.105.244.165","port":5004,"type":"ss","country":"_德国_YouTube:VV科技_90","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"_加拿大_YouTube:VV科技_114","server":"134.195.196.200","port":7001,"type":"ss","country":"_加拿大_YouTube:VV科技_114","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_44","server":"172.105.59.32","port":8118,"type":"ss","country":"这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_44","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"DE_9026+atWangCai_1+(3)_45","server":"5.183.179.141","port":9026,"type":"ss","country":"DE_9026+atWangCai_1+(3)_45","cipher":"aes-256-cfb","password":"QWDDvVE9npNurQfA"}
-  - {"name":"SG_9094+atWangCai_1+(2)_46","server":"103.172.116.7","port":9094,"type":"ss","country":"SG_9094+atWangCai_1+(2)_46","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
-  - {"name":"DE_9032+atWangCai_1+(8)_47","server":"5.183.179.170","port":9032,"type":"ss","country":"DE_9032+atWangCai_1+(8)_47","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
-  - {"name":"这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_48","server":"134.195.196.81","port":5000,"type":"ss","country":"这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_48","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"DE_9019+atWangCai_1+(16)_49","server":"5.183.179.166","port":9019,"type":"ss","country":"DE_9019+atWangCai_1+(16)_49","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
-  - {"name":"_英国_YouTube:VV科技_59","server":"172.99.190.149","port":3306,"type":"ss","country":"_英国_YouTube:VV科技_59","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"SG_9057+atWangCai_1+(3)_51","server":"103.172.116.8","port":9057,"type":"ss","country":"SG_9057+atWangCai_1+(3)_51","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
-  - {"name":"_加拿大_YouTube:VV科技_48","server":"198.57.27.172","port":3306,"type":"ss","country":"_加拿大_YouTube:VV科技_48","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_加拿大_YouTube:VV科技_118","server":"134.195.196.147","port":5000,"type":"ss","country":"_加拿大_YouTube:VV科技_118","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"SG_9084+atWangCai_1+(3)_54","server":"103.172.116.8","port":9084,"type":"ss","country":"SG_9084+atWangCai_1+(3)_54","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
-  - {"name":"SG_9011+atWangCai_1+(5)_55","server":"103.172.116.9","port":9011,"type":"ss","country":"SG_9011+atWangCai_1+(5)_55","cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa"}
-  - {"name":"github_com/freefq-日本东京都品川区Linode数据中心46_56","server":"139.162.122.205","port":3845,"type":"vmess","uuid":"76d5c6e3-c74c-3406-b9e8-9859d0a71c56","alterId":0,"cipher":"auto","country":"github_com/freefq-日本东京都品川区Linode数据中心46_56","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":":美国-ss-167_88_63_79:8881-被墙-直连-解锁美国地区NF非自制剧_57","server":"167.88.63.79","port":8881,"type":"ss","country":":美国-ss-167_88_63_79:8881-被墙-直连-解锁美国地区NF非自制剧_57","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"DE_9015+atWangCai_1+(7)_58","server":"5.183.179.167","port":9015,"type":"ss","country":"DE_9015+atWangCai_1+(7)_58","cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf"}
-  - {"name":"DE_9098+atWangCai_1+(16)_59","server":"5.183.179.166","port":9098,"type":"ss","country":"DE_9098+atWangCai_1+(16)_59","cipher":"aes-256-cfb","password":"aLpQtfEZe445QyHk"}
-  - {"name":"Pool_🇭🇰HK_472","server":"43.229.115.134","port":47950,"type":"vmess","uuid":"7c6cd216-0f93-44e8-dabc-fed1308a9bcc","alterId":64,"cipher":"auto","country":"Pool_🇭🇰HK_472","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"_英国_YouTube:VV科技_99","server":"172.99.190.205","port":3389,"type":"ss","country":"_英国_YouTube:VV科技_99","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"DE_9043+atWangCai_1+(3)_62","server":"5.183.179.141","port":9043,"type":"ss","country":"DE_9043+atWangCai_1+(3)_62","cipher":"aes-256-cfb","password":"HSZuyJQcWe8dxNdF"}
-  - {"name":"_加拿大_YouTube:VV科技_92","server":"134.195.196.193","port":8118,"type":"ss","country":"_加拿大_YouTube:VV科技_92","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"DE_9007+atWangCai_1+(16)_64","server":"5.183.179.166","port":9007,"type":"ss","country":"DE_9007+atWangCai_1+(16)_64","cipher":"aes-256-cfb","password":"kSPmvwdFzGMMW5pY"}
+  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.44","port":2375,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.44","port":8091,"type":"ss","country":"🇨🇦_CA_加拿大_2","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.44","port":3306,"type":"ss","country":"🇨🇦_CA_加拿大_3","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.196.44","port":5004,"type":"ss","country":"🇨🇦_CA_加拿大_4","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.196.44","port":2376,"type":"ss","country":"🇨🇦_CA_加拿大_5","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 新加坡_199_28_04Mb_1
-      - DE_9005+atWangCai_1+(3)_2
-      - _德国_YouTube:VV科技_87
-      - 公益机场:https://bit_ly/3BPeo5G_4
-      - (Youtube/TG：俊佳科技)_🇭🇰_香港_2
-      - DE_9018+atWangCai_1+(16)_6
-      - DE_9018+atWangCai_1+(6)_7
-      - DE_9000+atWangCai_1
-      - DE_9006+atWangCai_1+(1)_9
-      - DE_9020+atWangCai_1+(6)_10
-      - DE_9031+atWangCai_1
-      - DE_9056+atWangCai_1+(16)_12
-      - 新加坡_1211
-      - DE_9003+atWangCai_1+(7)_14
-      - DE_9019+atWangCai_1+(3)_15
-      - ':美国-ss-38_91_101_221:5004-被墙-直连-解锁美国地区NF非自制剧_16'
-      - DE_9043+atWangCai_1+(6)_17
-      - DE_9026+atWangCai_1+(7)_18
-      - DE_9018+atWangCai_1+(2)_19
-      - DE_9056+atWangCai_1+(8)_20
-      - _CA_加拿大_21
-      - DE_9027+atWangCai_1+(6)_22
-      - DE_9032+atWangCai_1+(16)_23
-      - _英国_YouTube:VV科技_58
-      - DE_9053+atWangCai_1
-      - DE_9008+atWangCai_1+(6)_26
-      - DE_9018+atWangCai_1+(5)_27
-      - _法国_YouTube:VV科技_46
-      - DE_9045+atWangCai_1+(8)_29
-      - ':美国-ss-167_88_63_99:7307-被墙-直连-解锁美国地区NF非自制剧_30'
-      - ':美国-ss-167_88_63_99:7306-被墙-直连-解锁美国地区NF非自制剧_31'
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_32
-      - DE_9088+atWangCai_1+(3)_33
-      - DE_9015+atWangCai_1+(6)_34
-      - ':日本-ss-45_66_134_176:810-被墙-中转:185_168_20_250-解锁日本地区NF非自制剧_35'
-      - RU_9010+atWangCai_1
-      - DE_9041+atWangCai_1+(5)_37
-      - DE_9064+atWangCai_1+(6)_38
-      - _德国_YouTube:VV科技_88
-      - DE_9031+atWangCai_1+(5)_40
-      - DE_9094+atWangCai_1+(8)_41
-      - _德国_YouTube:VV科技_90
-      - _加拿大_YouTube:VV科技_114
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_44
-      - DE_9026+atWangCai_1+(3)_45
-      - SG_9094+atWangCai_1+(2)_46
-      - DE_9032+atWangCai_1+(8)_47
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_48
-      - DE_9019+atWangCai_1+(16)_49
-      - _英国_YouTube:VV科技_59
-      - SG_9057+atWangCai_1+(3)_51
-      - _加拿大_YouTube:VV科技_48
-      - _加拿大_YouTube:VV科技_118
-      - SG_9084+atWangCai_1+(3)_54
-      - SG_9011+atWangCai_1+(5)_55
-      - github_com/freefq-日本东京都品川区Linode数据中心46_56
-      - ':美国-ss-167_88_63_79:8881-被墙-直连-解锁美国地区NF非自制剧_57'
-      - DE_9015+atWangCai_1+(7)_58
-      - DE_9098+atWangCai_1+(16)_59
-      - Pool_🇭🇰HK_472
-      - _英国_YouTube:VV科技_99
-      - DE_9043+atWangCai_1+(3)_62
-      - _加拿大_YouTube:VV科技_92
-      - DE_9007+atWangCai_1+(16)_64
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 新加坡_199_28_04Mb_1
-      - DE_9005+atWangCai_1+(3)_2
-      - _德国_YouTube:VV科技_87
-      - 公益机场:https://bit_ly/3BPeo5G_4
-      - (Youtube/TG：俊佳科技)_🇭🇰_香港_2
-      - DE_9018+atWangCai_1+(16)_6
-      - DE_9018+atWangCai_1+(6)_7
-      - DE_9000+atWangCai_1
-      - DE_9006+atWangCai_1+(1)_9
-      - DE_9020+atWangCai_1+(6)_10
-      - DE_9031+atWangCai_1
-      - DE_9056+atWangCai_1+(16)_12
-      - 新加坡_1211
-      - DE_9003+atWangCai_1+(7)_14
-      - DE_9019+atWangCai_1+(3)_15
-      - ':美国-ss-38_91_101_221:5004-被墙-直连-解锁美国地区NF非自制剧_16'
-      - DE_9043+atWangCai_1+(6)_17
-      - DE_9026+atWangCai_1+(7)_18
-      - DE_9018+atWangCai_1+(2)_19
-      - DE_9056+atWangCai_1+(8)_20
-      - _CA_加拿大_21
-      - DE_9027+atWangCai_1+(6)_22
-      - DE_9032+atWangCai_1+(16)_23
-      - _英国_YouTube:VV科技_58
-      - DE_9053+atWangCai_1
-      - DE_9008+atWangCai_1+(6)_26
-      - DE_9018+atWangCai_1+(5)_27
-      - _法国_YouTube:VV科技_46
-      - DE_9045+atWangCai_1+(8)_29
-      - ':美国-ss-167_88_63_99:7307-被墙-直连-解锁美国地区NF非自制剧_30'
-      - ':美国-ss-167_88_63_99:7306-被墙-直连-解锁美国地区NF非自制剧_31'
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_32
-      - DE_9088+atWangCai_1+(3)_33
-      - DE_9015+atWangCai_1+(6)_34
-      - ':日本-ss-45_66_134_176:810-被墙-中转:185_168_20_250-解锁日本地区NF非自制剧_35'
-      - RU_9010+atWangCai_1
-      - DE_9041+atWangCai_1+(5)_37
-      - DE_9064+atWangCai_1+(6)_38
-      - _德国_YouTube:VV科技_88
-      - DE_9031+atWangCai_1+(5)_40
-      - DE_9094+atWangCai_1+(8)_41
-      - _德国_YouTube:VV科技_90
-      - _加拿大_YouTube:VV科技_114
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_44
-      - DE_9026+atWangCai_1+(3)_45
-      - SG_9094+atWangCai_1+(2)_46
-      - DE_9032+atWangCai_1+(8)_47
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_48
-      - DE_9019+atWangCai_1+(16)_49
-      - _英国_YouTube:VV科技_59
-      - SG_9057+atWangCai_1+(3)_51
-      - _加拿大_YouTube:VV科技_48
-      - _加拿大_YouTube:VV科技_118
-      - SG_9084+atWangCai_1+(3)_54
-      - SG_9011+atWangCai_1+(5)_55
-      - github_com/freefq-日本东京都品川区Linode数据中心46_56
-      - ':美国-ss-167_88_63_79:8881-被墙-直连-解锁美国地区NF非自制剧_57'
-      - DE_9015+atWangCai_1+(7)_58
-      - DE_9098+atWangCai_1+(16)_59
-      - Pool_🇭🇰HK_472
-      - _英国_YouTube:VV科技_99
-      - DE_9043+atWangCai_1+(3)_62
-      - _加拿大_YouTube:VV科技_92
-      - DE_9007+atWangCai_1+(16)_64
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡_199_28_04Mb_1
-      - DE_9005+atWangCai_1+(3)_2
-      - _德国_YouTube:VV科技_87
-      - 公益机场:https://bit_ly/3BPeo5G_4
-      - (Youtube/TG：俊佳科技)_🇭🇰_香港_2
-      - DE_9018+atWangCai_1+(16)_6
-      - DE_9018+atWangCai_1+(6)_7
-      - DE_9000+atWangCai_1
-      - DE_9006+atWangCai_1+(1)_9
-      - DE_9020+atWangCai_1+(6)_10
-      - DE_9031+atWangCai_1
-      - DE_9056+atWangCai_1+(16)_12
-      - 新加坡_1211
-      - DE_9003+atWangCai_1+(7)_14
-      - DE_9019+atWangCai_1+(3)_15
-      - ':美国-ss-38_91_101_221:5004-被墙-直连-解锁美国地区NF非自制剧_16'
-      - DE_9043+atWangCai_1+(6)_17
-      - DE_9026+atWangCai_1+(7)_18
-      - DE_9018+atWangCai_1+(2)_19
-      - DE_9056+atWangCai_1+(8)_20
-      - _CA_加拿大_21
-      - DE_9027+atWangCai_1+(6)_22
-      - DE_9032+atWangCai_1+(16)_23
-      - _英国_YouTube:VV科技_58
-      - DE_9053+atWangCai_1
-      - DE_9008+atWangCai_1+(6)_26
-      - DE_9018+atWangCai_1+(5)_27
-      - _法国_YouTube:VV科技_46
-      - DE_9045+atWangCai_1+(8)_29
-      - ':美国-ss-167_88_63_99:7307-被墙-直连-解锁美国地区NF非自制剧_30'
-      - ':美国-ss-167_88_63_99:7306-被墙-直连-解锁美国地区NF非自制剧_31'
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_32
-      - DE_9088+atWangCai_1+(3)_33
-      - DE_9015+atWangCai_1+(6)_34
-      - ':日本-ss-45_66_134_176:810-被墙-中转:185_168_20_250-解锁日本地区NF非自制剧_35'
-      - RU_9010+atWangCai_1
-      - DE_9041+atWangCai_1+(5)_37
-      - DE_9064+atWangCai_1+(6)_38
-      - _德国_YouTube:VV科技_88
-      - DE_9031+atWangCai_1+(5)_40
-      - DE_9094+atWangCai_1+(8)_41
-      - _德国_YouTube:VV科技_90
-      - _加拿大_YouTube:VV科技_114
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_44
-      - DE_9026+atWangCai_1+(3)_45
-      - SG_9094+atWangCai_1+(2)_46
-      - DE_9032+atWangCai_1+(8)_47
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_48
-      - DE_9019+atWangCai_1+(16)_49
-      - _英国_YouTube:VV科技_59
-      - SG_9057+atWangCai_1+(3)_51
-      - _加拿大_YouTube:VV科技_48
-      - _加拿大_YouTube:VV科技_118
-      - SG_9084+atWangCai_1+(3)_54
-      - SG_9011+atWangCai_1+(5)_55
-      - github_com/freefq-日本东京都品川区Linode数据中心46_56
-      - ':美国-ss-167_88_63_79:8881-被墙-直连-解锁美国地区NF非自制剧_57'
-      - DE_9015+atWangCai_1+(7)_58
-      - DE_9098+atWangCai_1+(16)_59
-      - Pool_🇭🇰HK_472
-      - _英国_YouTube:VV科技_99
-      - DE_9043+atWangCai_1+(3)_62
-      - _加拿大_YouTube:VV科技_92
-      - DE_9007+atWangCai_1+(16)_64
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 新加坡_199_28_04Mb_1
-      - DE_9005+atWangCai_1+(3)_2
-      - _德国_YouTube:VV科技_87
-      - 公益机场:https://bit_ly/3BPeo5G_4
-      - (Youtube/TG：俊佳科技)_🇭🇰_香港_2
-      - DE_9018+atWangCai_1+(16)_6
-      - DE_9018+atWangCai_1+(6)_7
-      - DE_9000+atWangCai_1
-      - DE_9006+atWangCai_1+(1)_9
-      - DE_9020+atWangCai_1+(6)_10
-      - DE_9031+atWangCai_1
-      - DE_9056+atWangCai_1+(16)_12
-      - 新加坡_1211
-      - DE_9003+atWangCai_1+(7)_14
-      - DE_9019+atWangCai_1+(3)_15
-      - ':美国-ss-38_91_101_221:5004-被墙-直连-解锁美国地区NF非自制剧_16'
-      - DE_9043+atWangCai_1+(6)_17
-      - DE_9026+atWangCai_1+(7)_18
-      - DE_9018+atWangCai_1+(2)_19
-      - DE_9056+atWangCai_1+(8)_20
-      - _CA_加拿大_21
-      - DE_9027+atWangCai_1+(6)_22
-      - DE_9032+atWangCai_1+(16)_23
-      - _英国_YouTube:VV科技_58
-      - DE_9053+atWangCai_1
-      - DE_9008+atWangCai_1+(6)_26
-      - DE_9018+atWangCai_1+(5)_27
-      - _法国_YouTube:VV科技_46
-      - DE_9045+atWangCai_1+(8)_29
-      - ':美国-ss-167_88_63_99:7307-被墙-直连-解锁美国地区NF非自制剧_30'
-      - ':美国-ss-167_88_63_99:7306-被墙-直连-解锁美国地区NF非自制剧_31'
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_32
-      - DE_9088+atWangCai_1+(3)_33
-      - DE_9015+atWangCai_1+(6)_34
-      - ':日本-ss-45_66_134_176:810-被墙-中转:185_168_20_250-解锁日本地区NF非自制剧_35'
-      - RU_9010+atWangCai_1
-      - DE_9041+atWangCai_1+(5)_37
-      - DE_9064+atWangCai_1+(6)_38
-      - _德国_YouTube:VV科技_88
-      - DE_9031+atWangCai_1+(5)_40
-      - DE_9094+atWangCai_1+(8)_41
-      - _德国_YouTube:VV科技_90
-      - _加拿大_YouTube:VV科技_114
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_44
-      - DE_9026+atWangCai_1+(3)_45
-      - SG_9094+atWangCai_1+(2)_46
-      - DE_9032+atWangCai_1+(8)_47
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_48
-      - DE_9019+atWangCai_1+(16)_49
-      - _英国_YouTube:VV科技_59
-      - SG_9057+atWangCai_1+(3)_51
-      - _加拿大_YouTube:VV科技_48
-      - _加拿大_YouTube:VV科技_118
-      - SG_9084+atWangCai_1+(3)_54
-      - SG_9011+atWangCai_1+(5)_55
-      - github_com/freefq-日本东京都品川区Linode数据中心46_56
-      - ':美国-ss-167_88_63_79:8881-被墙-直连-解锁美国地区NF非自制剧_57'
-      - DE_9015+atWangCai_1+(7)_58
-      - DE_9098+atWangCai_1+(16)_59
-      - Pool_🇭🇰HK_472
-      - _英国_YouTube:VV科技_99
-      - DE_9043+atWangCai_1+(3)_62
-      - _加拿大_YouTube:VV科技_92
-      - DE_9007+atWangCai_1+(16)_64
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 新加坡_199_28_04Mb_1
-      - DE_9005+atWangCai_1+(3)_2
-      - _德国_YouTube:VV科技_87
-      - 公益机场:https://bit_ly/3BPeo5G_4
-      - (Youtube/TG：俊佳科技)_🇭🇰_香港_2
-      - DE_9018+atWangCai_1+(16)_6
-      - DE_9018+atWangCai_1+(6)_7
-      - DE_9000+atWangCai_1
-      - DE_9006+atWangCai_1+(1)_9
-      - DE_9020+atWangCai_1+(6)_10
-      - DE_9031+atWangCai_1
-      - DE_9056+atWangCai_1+(16)_12
-      - 新加坡_1211
-      - DE_9003+atWangCai_1+(7)_14
-      - DE_9019+atWangCai_1+(3)_15
-      - ':美国-ss-38_91_101_221:5004-被墙-直连-解锁美国地区NF非自制剧_16'
-      - DE_9043+atWangCai_1+(6)_17
-      - DE_9026+atWangCai_1+(7)_18
-      - DE_9018+atWangCai_1+(2)_19
-      - DE_9056+atWangCai_1+(8)_20
-      - _CA_加拿大_21
-      - DE_9027+atWangCai_1+(6)_22
-      - DE_9032+atWangCai_1+(16)_23
-      - _英国_YouTube:VV科技_58
-      - DE_9053+atWangCai_1
-      - DE_9008+atWangCai_1+(6)_26
-      - DE_9018+atWangCai_1+(5)_27
-      - _法国_YouTube:VV科技_46
-      - DE_9045+atWangCai_1+(8)_29
-      - ':美国-ss-167_88_63_99:7307-被墙-直连-解锁美国地区NF非自制剧_30'
-      - ':美国-ss-167_88_63_99:7306-被墙-直连-解锁美国地区NF非自制剧_31'
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_32
-      - DE_9088+atWangCai_1+(3)_33
-      - DE_9015+atWangCai_1+(6)_34
-      - ':日本-ss-45_66_134_176:810-被墙-中转:185_168_20_250-解锁日本地区NF非自制剧_35'
-      - RU_9010+atWangCai_1
-      - DE_9041+atWangCai_1+(5)_37
-      - DE_9064+atWangCai_1+(6)_38
-      - _德国_YouTube:VV科技_88
-      - DE_9031+atWangCai_1+(5)_40
-      - DE_9094+atWangCai_1+(8)_41
-      - _德国_YouTube:VV科技_90
-      - _加拿大_YouTube:VV科技_114
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_44
-      - DE_9026+atWangCai_1+(3)_45
-      - SG_9094+atWangCai_1+(2)_46
-      - DE_9032+atWangCai_1+(8)_47
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_48
-      - DE_9019+atWangCai_1+(16)_49
-      - _英国_YouTube:VV科技_59
-      - SG_9057+atWangCai_1+(3)_51
-      - _加拿大_YouTube:VV科技_48
-      - _加拿大_YouTube:VV科技_118
-      - SG_9084+atWangCai_1+(3)_54
-      - SG_9011+atWangCai_1+(5)_55
-      - github_com/freefq-日本东京都品川区Linode数据中心46_56
-      - ':美国-ss-167_88_63_79:8881-被墙-直连-解锁美国地区NF非自制剧_57'
-      - DE_9015+atWangCai_1+(7)_58
-      - DE_9098+atWangCai_1+(16)_59
-      - Pool_🇭🇰HK_472
-      - _英国_YouTube:VV科技_99
-      - DE_9043+atWangCai_1+(3)_62
-      - _加拿大_YouTube:VV科技_92
-      - DE_9007+atWangCai_1+(16)_64
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 新加坡_199_28_04Mb_1
-      - DE_9005+atWangCai_1+(3)_2
-      - _德国_YouTube:VV科技_87
-      - 公益机场:https://bit_ly/3BPeo5G_4
-      - (Youtube/TG：俊佳科技)_🇭🇰_香港_2
-      - DE_9018+atWangCai_1+(16)_6
-      - DE_9018+atWangCai_1+(6)_7
-      - DE_9000+atWangCai_1
-      - DE_9006+atWangCai_1+(1)_9
-      - DE_9020+atWangCai_1+(6)_10
-      - DE_9031+atWangCai_1
-      - DE_9056+atWangCai_1+(16)_12
-      - 新加坡_1211
-      - DE_9003+atWangCai_1+(7)_14
-      - DE_9019+atWangCai_1+(3)_15
-      - ':美国-ss-38_91_101_221:5004-被墙-直连-解锁美国地区NF非自制剧_16'
-      - DE_9043+atWangCai_1+(6)_17
-      - DE_9026+atWangCai_1+(7)_18
-      - DE_9018+atWangCai_1+(2)_19
-      - DE_9056+atWangCai_1+(8)_20
-      - _CA_加拿大_21
-      - DE_9027+atWangCai_1+(6)_22
-      - DE_9032+atWangCai_1+(16)_23
-      - _英国_YouTube:VV科技_58
-      - DE_9053+atWangCai_1
-      - DE_9008+atWangCai_1+(6)_26
-      - DE_9018+atWangCai_1+(5)_27
-      - _法国_YouTube:VV科技_46
-      - DE_9045+atWangCai_1+(8)_29
-      - ':美国-ss-167_88_63_99:7307-被墙-直连-解锁美国地区NF非自制剧_30'
-      - ':美国-ss-167_88_63_99:7306-被墙-直连-解锁美国地区NF非自制剧_31'
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_32
-      - DE_9088+atWangCai_1+(3)_33
-      - DE_9015+atWangCai_1+(6)_34
-      - ':日本-ss-45_66_134_176:810-被墙-中转:185_168_20_250-解锁日本地区NF非自制剧_35'
-      - RU_9010+atWangCai_1
-      - DE_9041+atWangCai_1+(5)_37
-      - DE_9064+atWangCai_1+(6)_38
-      - _德国_YouTube:VV科技_88
-      - DE_9031+atWangCai_1+(5)_40
-      - DE_9094+atWangCai_1+(8)_41
-      - _德国_YouTube:VV科技_90
-      - _加拿大_YouTube:VV科技_114
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_44
-      - DE_9026+atWangCai_1+(3)_45
-      - SG_9094+atWangCai_1+(2)_46
-      - DE_9032+atWangCai_1+(8)_47
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_48
-      - DE_9019+atWangCai_1+(16)_49
-      - _英国_YouTube:VV科技_59
-      - SG_9057+atWangCai_1+(3)_51
-      - _加拿大_YouTube:VV科技_48
-      - _加拿大_YouTube:VV科技_118
-      - SG_9084+atWangCai_1+(3)_54
-      - SG_9011+atWangCai_1+(5)_55
-      - github_com/freefq-日本东京都品川区Linode数据中心46_56
-      - ':美国-ss-167_88_63_79:8881-被墙-直连-解锁美国地区NF非自制剧_57'
-      - DE_9015+atWangCai_1+(7)_58
-      - DE_9098+atWangCai_1+(16)_59
-      - Pool_🇭🇰HK_472
-      - _英国_YouTube:VV科技_99
-      - DE_9043+atWangCai_1+(3)_62
-      - _加拿大_YouTube:VV科技_92
-      - DE_9007+atWangCai_1+(16)_64
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -508,70 +95,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡_199_28_04Mb_1
-      - DE_9005+atWangCai_1+(3)_2
-      - _德国_YouTube:VV科技_87
-      - 公益机场:https://bit_ly/3BPeo5G_4
-      - (Youtube/TG：俊佳科技)_🇭🇰_香港_2
-      - DE_9018+atWangCai_1+(16)_6
-      - DE_9018+atWangCai_1+(6)_7
-      - DE_9000+atWangCai_1
-      - DE_9006+atWangCai_1+(1)_9
-      - DE_9020+atWangCai_1+(6)_10
-      - DE_9031+atWangCai_1
-      - DE_9056+atWangCai_1+(16)_12
-      - 新加坡_1211
-      - DE_9003+atWangCai_1+(7)_14
-      - DE_9019+atWangCai_1+(3)_15
-      - ':美国-ss-38_91_101_221:5004-被墙-直连-解锁美国地区NF非自制剧_16'
-      - DE_9043+atWangCai_1+(6)_17
-      - DE_9026+atWangCai_1+(7)_18
-      - DE_9018+atWangCai_1+(2)_19
-      - DE_9056+atWangCai_1+(8)_20
-      - _CA_加拿大_21
-      - DE_9027+atWangCai_1+(6)_22
-      - DE_9032+atWangCai_1+(16)_23
-      - _英国_YouTube:VV科技_58
-      - DE_9053+atWangCai_1
-      - DE_9008+atWangCai_1+(6)_26
-      - DE_9018+atWangCai_1+(5)_27
-      - _法国_YouTube:VV科技_46
-      - DE_9045+atWangCai_1+(8)_29
-      - ':美国-ss-167_88_63_99:7307-被墙-直连-解锁美国地区NF非自制剧_30'
-      - ':美国-ss-167_88_63_99:7306-被墙-直连-解锁美国地区NF非自制剧_31'
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_32
-      - DE_9088+atWangCai_1+(3)_33
-      - DE_9015+atWangCai_1+(6)_34
-      - ':日本-ss-45_66_134_176:810-被墙-中转:185_168_20_250-解锁日本地区NF非自制剧_35'
-      - RU_9010+atWangCai_1
-      - DE_9041+atWangCai_1+(5)_37
-      - DE_9064+atWangCai_1+(6)_38
-      - _德国_YouTube:VV科技_88
-      - DE_9031+atWangCai_1+(5)_40
-      - DE_9094+atWangCai_1+(8)_41
-      - _德国_YouTube:VV科技_90
-      - _加拿大_YouTube:VV科技_114
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_44
-      - DE_9026+atWangCai_1+(3)_45
-      - SG_9094+atWangCai_1+(2)_46
-      - DE_9032+atWangCai_1+(8)_47
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_48
-      - DE_9019+atWangCai_1+(16)_49
-      - _英国_YouTube:VV科技_59
-      - SG_9057+atWangCai_1+(3)_51
-      - _加拿大_YouTube:VV科技_48
-      - _加拿大_YouTube:VV科技_118
-      - SG_9084+atWangCai_1+(3)_54
-      - SG_9011+atWangCai_1+(5)_55
-      - github_com/freefq-日本东京都品川区Linode数据中心46_56
-      - ':美国-ss-167_88_63_79:8881-被墙-直连-解锁美国地区NF非自制剧_57'
-      - DE_9015+atWangCai_1+(7)_58
-      - DE_9098+atWangCai_1+(16)_59
-      - Pool_🇭🇰HK_472
-      - _英国_YouTube:VV科技_99
-      - DE_9043+atWangCai_1+(3)_62
-      - _加拿大_YouTube:VV科技_92
-      - DE_9007+atWangCai_1+(16)_64
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
