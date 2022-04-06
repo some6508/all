@@ -56,6 +56,58 @@ proxies:
   - {name: _CA_加拿大_49, server: 134.195.196.51, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: _US_美国_50, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: _CA_加拿大_51, server: 134.195.196.221, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: defaultName_52, server: vpn-eu-fi-n26.hi-l.eu, port: 17505, type: ss, cipher: chacha20-ietf-poly1305, password: CvklezNg2wK4, udp: true}
+  - {name: default_name_53, server: bpjzx2.cainiao.tk, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: bpjzx2.cainiao.tk}}, udp: true}
+  - {name: default_name_54, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
+  - {name: _US_美国->🇫🇷_FR_法国_55, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
+  - {name: default_name_56, server: bpjzx2.cainiao.tk, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: bpjzx2.cainiao.tk}}, udp: true}
+  - {name: default_name_57, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
+  - {name: _US_美国->🇫🇷_FR_法国_58, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
+  - {name: GB_9000atWangCai_1, server: 185.167.117.171, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: GB_9001atWangCai_1, server: 185.167.117.171, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: GB_9003atWangCai_1, server: 185.167.117.171, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: GB_9005atWangCai_1, server: 185.167.117.171, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: GB_9006atWangCai_1, server: 185.167.117.171, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: GB_9007atWangCai_1, server: 185.167.117.171, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: GB_9008atWangCai_1, server: 185.167.117.171, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: GB_9010atWangCai_1, server: 185.167.117.171, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: GB_9011atWangCai_1, server: 185.167.117.171, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: GB_9014atWangCai_1, server: 185.167.117.171, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: GB_9015atWangCai_1, server: 185.167.117.171, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: GB_9018atWangCai_1, server: 185.167.117.171, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: GB_9019atWangCai_1, server: 185.167.117.171, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: GB_9020atWangCai_1, server: 185.167.117.171, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: GB_9024atWangCai_1, server: 185.167.117.171, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: GB_9025atWangCai_1, server: 185.167.117.171, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: GB_9026atWangCai_1, server: 185.167.117.171, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: GB_9027atWangCai_1, server: 185.167.117.171, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: GB_9031atWangCai_1, server: 185.167.117.171, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: GB_9032atWangCai_1, server: 185.167.117.171, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: GB_9033atWangCai_1, server: 185.167.117.171, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: GB_9037atWangCai_1, server: 185.167.117.171, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: GB_9038atWangCai_1, server: 185.167.117.171, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: GB_9040atWangCai_1, server: 185.167.117.171, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: GB_9041atWangCai_1, server: 185.167.117.171, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: GB_9042atWangCai_1, server: 185.167.117.171, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: GB_9043atWangCai_1, server: 185.167.117.171, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: GB_9045atWangCai_1, server: 185.167.117.171, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: GB_9046atWangCai_1, server: 185.167.117.171, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: GB_9050atWangCai_1, server: 185.167.117.171, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: GB_9053atWangCai_1, server: 185.167.117.171, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: GB_9056atWangCai_1, server: 185.167.117.171, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: GB_9057atWangCai_1, server: 185.167.117.171, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: GB_9059atWangCai_1, server: 185.167.117.171, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: GB_9060atWangCai_1, server: 185.167.117.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: GB_9064atWangCai_1, server: 185.167.117.171, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: GB_9070atWangCai_1, server: 185.167.117.171, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: GB_9073atWangCai_1, server: 185.167.117.171, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: GB_9079atWangCai_1, server: 185.167.117.171, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: GB_9084atWangCai_1, server: 185.167.117.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: GB_9088atWangCai_1, server: 185.167.117.171, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: GB_9093atWangCai_1, server: 185.167.117.171, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: GB_9094atWangCai_1, server: 185.167.117.171, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: GB_9097atWangCai_1, server: 185.167.117.171, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: GB_9098atWangCai_1, server: 185.167.117.171, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 45.32.91.251, port: 28819, type: vmess, uuid: f6bf0550-b46f-11ec-9ebd-560003ef0cb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /CQwWVgEx/, headers: {Host: 45.32.91.251}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: server1.hkg.exacc.need.sh, port: 48097, type: ss, cipher: aes-256-gcm, password: grNqFYB1a8, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wsssdr1, headers: {Host: niaop.tk}}, udp: true}
@@ -1694,6 +1746,58 @@ proxy-groups:
       - _CA_加拿大_49
       - _US_美国_50
       - _CA_加拿大_51
+      - defaultName_52
+      - default_name_53
+      - default_name_54
+      - _US_美国->🇫🇷_FR_法国_55
+      - default_name_56
+      - default_name_57
+      - _US_美国->🇫🇷_FR_法国_58
+      - GB_9000atWangCai_1
+      - GB_9001atWangCai_1
+      - GB_9003atWangCai_1
+      - GB_9005atWangCai_1
+      - GB_9006atWangCai_1
+      - GB_9007atWangCai_1
+      - GB_9008atWangCai_1
+      - GB_9010atWangCai_1
+      - GB_9011atWangCai_1
+      - GB_9014atWangCai_1
+      - GB_9015atWangCai_1
+      - GB_9018atWangCai_1
+      - GB_9019atWangCai_1
+      - GB_9020atWangCai_1
+      - GB_9024atWangCai_1
+      - GB_9025atWangCai_1
+      - GB_9026atWangCai_1
+      - GB_9027atWangCai_1
+      - GB_9031atWangCai_1
+      - GB_9032atWangCai_1
+      - GB_9033atWangCai_1
+      - GB_9037atWangCai_1
+      - GB_9038atWangCai_1
+      - GB_9040atWangCai_1
+      - GB_9041atWangCai_1
+      - GB_9042atWangCai_1
+      - GB_9043atWangCai_1
+      - GB_9045atWangCai_1
+      - GB_9046atWangCai_1
+      - GB_9050atWangCai_1
+      - GB_9053atWangCai_1
+      - GB_9056atWangCai_1
+      - GB_9057atWangCai_1
+      - GB_9059atWangCai_1
+      - GB_9060atWangCai_1
+      - GB_9064atWangCai_1
+      - GB_9070atWangCai_1
+      - GB_9073atWangCai_1
+      - GB_9079atWangCai_1
+      - GB_9084atWangCai_1
+      - GB_9088atWangCai_1
+      - GB_9093atWangCai_1
+      - GB_9094atWangCai_1
+      - GB_9097atWangCai_1
+      - GB_9098atWangCai_1
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -3332,6 +3436,58 @@ proxy-groups:
       - _CA_加拿大_49
       - _US_美国_50
       - _CA_加拿大_51
+      - defaultName_52
+      - default_name_53
+      - default_name_54
+      - _US_美国->🇫🇷_FR_法国_55
+      - default_name_56
+      - default_name_57
+      - _US_美国->🇫🇷_FR_法国_58
+      - GB_9000atWangCai_1
+      - GB_9001atWangCai_1
+      - GB_9003atWangCai_1
+      - GB_9005atWangCai_1
+      - GB_9006atWangCai_1
+      - GB_9007atWangCai_1
+      - GB_9008atWangCai_1
+      - GB_9010atWangCai_1
+      - GB_9011atWangCai_1
+      - GB_9014atWangCai_1
+      - GB_9015atWangCai_1
+      - GB_9018atWangCai_1
+      - GB_9019atWangCai_1
+      - GB_9020atWangCai_1
+      - GB_9024atWangCai_1
+      - GB_9025atWangCai_1
+      - GB_9026atWangCai_1
+      - GB_9027atWangCai_1
+      - GB_9031atWangCai_1
+      - GB_9032atWangCai_1
+      - GB_9033atWangCai_1
+      - GB_9037atWangCai_1
+      - GB_9038atWangCai_1
+      - GB_9040atWangCai_1
+      - GB_9041atWangCai_1
+      - GB_9042atWangCai_1
+      - GB_9043atWangCai_1
+      - GB_9045atWangCai_1
+      - GB_9046atWangCai_1
+      - GB_9050atWangCai_1
+      - GB_9053atWangCai_1
+      - GB_9056atWangCai_1
+      - GB_9057atWangCai_1
+      - GB_9059atWangCai_1
+      - GB_9060atWangCai_1
+      - GB_9064atWangCai_1
+      - GB_9070atWangCai_1
+      - GB_9073atWangCai_1
+      - GB_9079atWangCai_1
+      - GB_9084atWangCai_1
+      - GB_9088atWangCai_1
+      - GB_9093atWangCai_1
+      - GB_9094atWangCai_1
+      - GB_9097atWangCai_1
+      - GB_9098atWangCai_1
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
