@@ -5,20 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港_101_HKT_1x_1, server: hk01.linkzones.xyz, port: 31911, type: vmess, uuid: 9086ee83-fed9-3549-b2e4-fa3ac6b0d7fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: hk01.linkzones.xyz}}, udp: true}
-  - {name: 香港_102_HGC_1x_2, server: hk02.linkzones.xyz, port: 31913, type: vmess, uuid: 9086ee83-fed9-3549-b2e4-fa3ac6b0d7fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: hk02.linkzones.xyz}}, udp: true}
-  - {name: 香港_103_电信优化_2x_3, server: hk03.linkzones.xyz, port: 47093, type: vmess, uuid: 9086ee83-fed9-3549-b2e4-fa3ac6b0d7fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: hk03.linkzones.xyz}}, udp: true}
-  - {name: 台湾_101_负载优化_1x_4, server: tw01.linkzones.xyz, port: 31981, type: vmess, uuid: 9086ee83-fed9-3549-b2e4-fa3ac6b0d7fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: tw01.linkzones.xyz}}, udp: true}
-  - {name: 台湾_102_负载优化_1x_5, server: tw02.linkzones.xyz, port: 41982, type: vmess, uuid: 9086ee83-fed9-3549-b2e4-fa3ac6b0d7fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: tw02.linkzones.xyz}}, udp: true}
-  - {name: 台湾_103_电信优化_2x_6, server: tw03.linkzones.xyz, port: 51984, type: vmess, uuid: 9086ee83-fed9-3549-b2e4-fa3ac6b0d7fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: tw03.linkzones.xyz}}, udp: true}
-  - {name: 新加坡_102_负载优化_1x_7, server: sg02.linkzones.xyz, port: 31983, type: vmess, uuid: 9086ee83-fed9-3549-b2e4-fa3ac6b0d7fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sg02.linkzones.xyz}}, udp: true}
-  - {name: 新加坡_103_电信优化_2x_8, server: sg03.linkzones.xyz, port: 31984, type: vmess, uuid: 9086ee83-fed9-3549-b2e4-fa3ac6b0d7fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sg03.linkzones.xyz}}, udp: true}
-  - {name: 日本_101_负载优化_1x_9, server: jp01.linkzones.xyz, port: 31961, type: vmess, uuid: 9086ee83-fed9-3549-b2e4-fa3ac6b0d7fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: jp01.linkzones.xyz}}, udp: true}
-  - {name: 日本_103_电信优化_1x_10, server: jp03.linkzones.xyz, port: 31991, type: vmess, uuid: 9086ee83-fed9-3549-b2e4-fa3ac6b0d7fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: jp03.linkzones.xyz}}, udp: true}
-  - {name: 美国_101_负载优化_1x_11, server: us01.linkzones.xyz, port: 31954, type: vmess, uuid: 9086ee83-fed9-3549-b2e4-fa3ac6b0d7fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: us01.linkzones.xyz}}, udp: true}
-  - {name: 美国_103_电信优化_2x_12, server: us03.linkzones.xyz, port: 31974, type: vmess, uuid: 9086ee83-fed9-3549-b2e4-fa3ac6b0d7fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: us03.linkzones.xyz}}, udp: true}
-  - {name: 加拿大_102_负载优化_1x_13, server: ca02.linkzones.xyz, port: 31976, type: vmess, uuid: 9086ee83-fed9-3549-b2e4-fa3ac6b0d7fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ca02.linkzones.xyz}}, udp: true}
-  - {name: 加拿大_103_电信优化_2x_14, server: ca03.linkzones.xyz, port: 31977, type: vmess, uuid: 9086ee83-fed9-3549-b2e4-fa3ac6b0d7fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ca03.linkzones.xyz}}, udp: true}
+  - {name: 233v2_com_m_jedaii_win_1, server: m.jedaii.win, port: 443, type: vmess, uuid: d73b2dbb-9e28-4ad0-848a-5fbcea5e0ad2, alterId: 233, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /report, headers: {Host: m.jedaii.win}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 45.32.91.251, port: 28819, type: vmess, uuid: f6bf0550-b46f-11ec-9ebd-560003ef0cb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /CQwWVgEx/, headers: {Host: 45.32.91.251}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: server1.hkg.exacc.need.sh, port: 48097, type: ss, cipher: aes-256-gcm, password: grNqFYB1a8, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wsssdr1, headers: {Host: niaop.tk}}, udp: true}
@@ -2565,20 +2552,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - 香港_101_HKT_1x_1
-      - 香港_102_HGC_1x_2
-      - 香港_103_电信优化_2x_3
-      - 台湾_101_负载优化_1x_4
-      - 台湾_102_负载优化_1x_5
-      - 台湾_103_电信优化_2x_6
-      - 新加坡_102_负载优化_1x_7
-      - 新加坡_103_电信优化_2x_8
-      - 日本_101_负载优化_1x_9
-      - 日本_103_电信优化_1x_10
-      - 美国_101_负载优化_1x_11
-      - 美国_103_电信优化_2x_12
-      - 加拿大_102_负载优化_1x_13
-      - 加拿大_103_电信优化_2x_14
+      - 233v2_com_m_jedaii_win_1
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -5125,20 +5099,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - 香港_101_HKT_1x_1
-      - 香港_102_HGC_1x_2
-      - 香港_103_电信优化_2x_3
-      - 台湾_101_负载优化_1x_4
-      - 台湾_102_负载优化_1x_5
-      - 台湾_103_电信优化_2x_6
-      - 新加坡_102_负载优化_1x_7
-      - 新加坡_103_电信优化_2x_8
-      - 日本_101_负载优化_1x_9
-      - 日本_103_电信优化_1x_10
-      - 美国_101_负载优化_1x_11
-      - 美国_103_电信优化_2x_12
-      - 加拿大_102_负载优化_1x_13
-      - 加拿大_103_电信优化_2x_14
+      - 233v2_com_m_jedaii_win_1
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
