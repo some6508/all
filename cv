@@ -5,28 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://t_me/dafeiji100_1, server: jp.support-putin-kill-all-ukrainians.567568.ml, port: 443, type: trojan, password: f8e1dd9a-28f7-4031-abe5-6ed454c6510b, sni: jp.support-putin-kill-all-ukrainians.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: https://t_me/dafeiji100(1)_2, server: hkaz3.xmrth-node.xyz, port: 10306, type: vmess, uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
-  - {name: https://t_me/dafeiji100(2)_3, server: c39s1.jamjams.net, port: 32567, type: ss, cipher: aes-256-gcm, password: m35yfEjtbS, udp: true}
-  - {name: https://t_me/dafeiji100(3)_4, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: https://t_me/dafeiji100(5)_5, server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: https://t_me/dafeiji100(6)_6, server: api.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: https://t_me/dafeiji100(7)_7, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: https://t_me/dafeiji100(8)_8, server: 134.195.196.51, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: https://t_me/dafeiji100(9)_9, server: 134.195.196.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://t_me/dafeiji100(10)_10, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: https://t_me/dafeiji100(11)_11, server: 134.195.196.51, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: https://t_me/dafeiji100(12)_12, server: 134.195.196.51, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: https://t_me/dafeiji100(13)_13, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: https://t_me/dafeiji100(14)_14, server: 134.195.196.51, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: https://t_me/dafeiji100(15)_15, server: 134.195.196.51, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://t_me/dafeiji100(16)_16, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: https://t_me/dafeiji100(17)_17, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://t_me/dafeiji100(20)_18, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: https://t_me/dafeiji100(21)_19, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: https://t_me/dafeiji100(22)_20, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: https://t_me/dafeiji100(23)_21, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: https://t_me/dafeiji100(24)_22, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_1, server: 134.195.198.252, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大_2, server: 134.195.198.252, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大_3, server: 134.195.198.252, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: us1.31vpn.com, port: 80, type: vmess, uuid: bb4b9e95-c9ff-411c-9a47-483570e169aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/remaoqi/624ca41d72e6d/, headers: {Host: us1.31vpn.com}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.51, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
@@ -1577,28 +1558,9 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - https://t_me/dafeiji100_1
-      - https://t_me/dafeiji100(1)_2
-      - https://t_me/dafeiji100(2)_3
-      - https://t_me/dafeiji100(3)_4
-      - https://t_me/dafeiji100(5)_5
-      - https://t_me/dafeiji100(6)_6
-      - https://t_me/dafeiji100(7)_7
-      - https://t_me/dafeiji100(8)_8
-      - https://t_me/dafeiji100(9)_9
-      - https://t_me/dafeiji100(10)_10
-      - https://t_me/dafeiji100(11)_11
-      - https://t_me/dafeiji100(12)_12
-      - https://t_me/dafeiji100(13)_13
-      - https://t_me/dafeiji100(14)_14
-      - https://t_me/dafeiji100(15)_15
-      - https://t_me/dafeiji100(16)_16
-      - https://t_me/dafeiji100(17)_17
-      - https://t_me/dafeiji100(20)_18
-      - https://t_me/dafeiji100(21)_19
-      - https://t_me/dafeiji100(22)_20
-      - https://t_me/dafeiji100(23)_21
-      - https://t_me/dafeiji100(24)_22
+      - _CA_加拿大_1
+      - _CA_加拿大_2
+      - _CA_加拿大_3
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -3149,28 +3111,9 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - https://t_me/dafeiji100_1
-      - https://t_me/dafeiji100(1)_2
-      - https://t_me/dafeiji100(2)_3
-      - https://t_me/dafeiji100(3)_4
-      - https://t_me/dafeiji100(5)_5
-      - https://t_me/dafeiji100(6)_6
-      - https://t_me/dafeiji100(7)_7
-      - https://t_me/dafeiji100(8)_8
-      - https://t_me/dafeiji100(9)_9
-      - https://t_me/dafeiji100(10)_10
-      - https://t_me/dafeiji100(11)_11
-      - https://t_me/dafeiji100(12)_12
-      - https://t_me/dafeiji100(13)_13
-      - https://t_me/dafeiji100(14)_14
-      - https://t_me/dafeiji100(15)_15
-      - https://t_me/dafeiji100(16)_16
-      - https://t_me/dafeiji100(17)_17
-      - https://t_me/dafeiji100(20)_18
-      - https://t_me/dafeiji100(21)_19
-      - https://t_me/dafeiji100(22)_20
-      - https://t_me/dafeiji100(23)_21
-      - https://t_me/dafeiji100(24)_22
+      - _CA_加拿大_1
+      - _CA_加拿大_2
+      - _CA_加拿大_3
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3

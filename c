@@ -5,9 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.198.252","port":6379,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.198.252","port":4444,"type":"ss","country":"🇨🇦_CA_加拿大_2","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.198.252","port":7002,"type":"ss","country":"🇨🇦_CA_加拿大_3","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.198.252","port":7002,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -15,8 +13,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -24,8 +20,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -33,32 +27,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,8 +68,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
