@@ -5,46 +5,81 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","server":"gz3.520vpn.cc","port":21636,"type":"vmess","uuid":"b3a9f849-a4c7-364c-a74b-8331c18209be","alterId":0,"cipher":"auto","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"hk4.520vpn.top"}}}
+  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.198.252","port":443,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇳_CN_中国->🇮🇳_IN_印度_2","server":"cm.newhua99.ga","port":21682,"type":"ss","country":"🇨🇳_CN_中国->🇮🇳_IN_印度_2","cipher":"aes-128-gcm","password":"29890b98-a08a-48cc-9983-accb3a16e325"}
+  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.198.252","port":6379,"type":"ss","country":"🇨🇦_CA_加拿大_3","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.198.252","port":7002,"type":"ss","country":"🇨🇦_CA_加拿大_4","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.198.252","port":4444,"type":"ss","country":"🇨🇦_CA_加拿大_5","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"default_name_6","server":"gz.520vpn.cc","port":51615,"type":"vmess","uuid":"b3a9f849-a4c7-364c-a74b-8331c18209be","alterId":0,"cipher":"auto","country":"default_name_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"hk2.520vpn.top"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - default_name_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - default_name_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - default_name_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - default_name_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - default_name_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - default_name_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +102,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇨🇦_CA_加拿大_5
+      - default_name_6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
