@@ -5,81 +5,193 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.198.252","port":443,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇳_CN_中国->🇮🇳_IN_印度_2","server":"cm.newhua99.ga","port":21682,"type":"ss","country":"🇨🇳_CN_中国->🇮🇳_IN_印度_2","cipher":"aes-128-gcm","password":"29890b98-a08a-48cc-9983-accb3a16e325"}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.198.252","port":6379,"type":"ss","country":"🇨🇦_CA_加拿大_3","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.198.252","port":7002,"type":"ss","country":"🇨🇦_CA_加拿大_4","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.198.252","port":4444,"type":"ss","country":"🇨🇦_CA_加拿大_5","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"default_name_6","server":"gz.520vpn.cc","port":51615,"type":"vmess","uuid":"b3a9f849-a4c7-364c-a74b-8331c18209be","alterId":0,"cipher":"auto","country":"default_name_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"hk2.520vpn.top"}}}
+  - {"name":"https://t_me/dafeiji100_1","server":"jp.support-putin-kill-all-ukrainians.567568.ml","port":"443/","type":"trojan","country":"https://t_me/dafeiji100_1","skip-cert-verify":true,"udp":true,"password":"f8e1dd9a-28f7-4031-abe5-6ed454c6510b","sni":"jp.support-putin-kill-all-ukrainians.567568.ml"}
+  - {"name":"https://t_me/dafeiji100(1)_2","server":"hkaz3.xmrth-node.xyz","port":10306,"type":"vmess","uuid":"53ad95b1-8693-34e3-98d7-2010ad24aaf9","alterId":2,"cipher":"auto","country":"https://t_me/dafeiji100(1)_2","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
+  - {"name":"https://t_me/dafeiji100(2)_3","server":"c39s1.jamjams.net","port":32567,"type":"ss","country":"https://t_me/dafeiji100(2)_3","cipher":"aes-256-gcm","password":"m35yfEjtbS"}
+  - {"name":"https://t_me/dafeiji100(3)_4","server":"134.195.196.51","port":443,"type":"ss","country":"https://t_me/dafeiji100(3)_4","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"https://t_me/dafeiji100(5)_5","server":"134.195.196.51","port":8090,"type":"ss","country":"https://t_me/dafeiji100(5)_5","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"https://t_me/dafeiji100(6)_6","server":"api.tcpbbr.net","port":"443/","type":"trojan","country":"https://t_me/dafeiji100(6)_6","skip-cert-verify":true,"udp":true,"password":"08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9"}
+  - {"name":"https://t_me/dafeiji100(7)_7","server":"134.195.196.51","port":7306,"type":"ss","country":"https://t_me/dafeiji100(7)_7","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"https://t_me/dafeiji100(8)_8","server":"134.195.196.51","port":8119,"type":"ss","country":"https://t_me/dafeiji100(8)_8","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"https://t_me/dafeiji100(9)_9","server":"134.195.196.51","port":8888,"type":"ss","country":"https://t_me/dafeiji100(9)_9","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"https://t_me/dafeiji100(10)_10","server":"134.195.196.51","port":8080,"type":"ss","country":"https://t_me/dafeiji100(10)_10","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"https://t_me/dafeiji100(11)_11","server":"134.195.196.51","port":8000,"type":"ss","country":"https://t_me/dafeiji100(11)_11","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"https://t_me/dafeiji100(12)_12","server":"134.195.196.51","port":8008,"type":"ss","country":"https://t_me/dafeiji100(12)_12","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"https://t_me/dafeiji100(13)_13","server":"134.195.196.51","port":7306,"type":"ss","country":"https://t_me/dafeiji100(13)_13","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"https://t_me/dafeiji100(14)_14","server":"134.195.196.51","port":6679,"type":"ss","country":"https://t_me/dafeiji100(14)_14","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"https://t_me/dafeiji100(15)_15","server":"134.195.196.51","port":3389,"type":"ss","country":"https://t_me/dafeiji100(15)_15","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"https://t_me/dafeiji100(16)_16","server":"169.197.142.99","port":6679,"type":"ss","country":"https://t_me/dafeiji100(16)_16","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"https://t_me/dafeiji100(17)_17","server":"169.197.142.99","port":5001,"type":"ss","country":"https://t_me/dafeiji100(17)_17","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"https://t_me/dafeiji100(20)_18","server":"169.197.142.99","port":7002,"type":"ss","country":"https://t_me/dafeiji100(20)_18","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"https://t_me/dafeiji100(21)_19","server":"169.197.142.99","port":8091,"type":"ss","country":"https://t_me/dafeiji100(21)_19","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"https://t_me/dafeiji100(22)_20","server":"169.197.142.99","port":6697,"type":"ss","country":"https://t_me/dafeiji100(22)_20","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"https://t_me/dafeiji100(23)_21","server":"169.197.142.99","port":8118,"type":"ss","country":"https://t_me/dafeiji100(23)_21","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"https://t_me/dafeiji100(24)_22","server":"169.197.142.99","port":8118,"type":"ss","country":"https://t_me/dafeiji100(24)_22","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - default_name_6
+      - https://t_me/dafeiji100_1
+      - https://t_me/dafeiji100(1)_2
+      - https://t_me/dafeiji100(2)_3
+      - https://t_me/dafeiji100(3)_4
+      - https://t_me/dafeiji100(5)_5
+      - https://t_me/dafeiji100(6)_6
+      - https://t_me/dafeiji100(7)_7
+      - https://t_me/dafeiji100(8)_8
+      - https://t_me/dafeiji100(9)_9
+      - https://t_me/dafeiji100(10)_10
+      - https://t_me/dafeiji100(11)_11
+      - https://t_me/dafeiji100(12)_12
+      - https://t_me/dafeiji100(13)_13
+      - https://t_me/dafeiji100(14)_14
+      - https://t_me/dafeiji100(15)_15
+      - https://t_me/dafeiji100(16)_16
+      - https://t_me/dafeiji100(17)_17
+      - https://t_me/dafeiji100(20)_18
+      - https://t_me/dafeiji100(21)_19
+      - https://t_me/dafeiji100(22)_20
+      - https://t_me/dafeiji100(23)_21
+      - https://t_me/dafeiji100(24)_22
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - default_name_6
+      - https://t_me/dafeiji100_1
+      - https://t_me/dafeiji100(1)_2
+      - https://t_me/dafeiji100(2)_3
+      - https://t_me/dafeiji100(3)_4
+      - https://t_me/dafeiji100(5)_5
+      - https://t_me/dafeiji100(6)_6
+      - https://t_me/dafeiji100(7)_7
+      - https://t_me/dafeiji100(8)_8
+      - https://t_me/dafeiji100(9)_9
+      - https://t_me/dafeiji100(10)_10
+      - https://t_me/dafeiji100(11)_11
+      - https://t_me/dafeiji100(12)_12
+      - https://t_me/dafeiji100(13)_13
+      - https://t_me/dafeiji100(14)_14
+      - https://t_me/dafeiji100(15)_15
+      - https://t_me/dafeiji100(16)_16
+      - https://t_me/dafeiji100(17)_17
+      - https://t_me/dafeiji100(20)_18
+      - https://t_me/dafeiji100(21)_19
+      - https://t_me/dafeiji100(22)_20
+      - https://t_me/dafeiji100(23)_21
+      - https://t_me/dafeiji100(24)_22
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - default_name_6
+      - https://t_me/dafeiji100_1
+      - https://t_me/dafeiji100(1)_2
+      - https://t_me/dafeiji100(2)_3
+      - https://t_me/dafeiji100(3)_4
+      - https://t_me/dafeiji100(5)_5
+      - https://t_me/dafeiji100(6)_6
+      - https://t_me/dafeiji100(7)_7
+      - https://t_me/dafeiji100(8)_8
+      - https://t_me/dafeiji100(9)_9
+      - https://t_me/dafeiji100(10)_10
+      - https://t_me/dafeiji100(11)_11
+      - https://t_me/dafeiji100(12)_12
+      - https://t_me/dafeiji100(13)_13
+      - https://t_me/dafeiji100(14)_14
+      - https://t_me/dafeiji100(15)_15
+      - https://t_me/dafeiji100(16)_16
+      - https://t_me/dafeiji100(17)_17
+      - https://t_me/dafeiji100(20)_18
+      - https://t_me/dafeiji100(21)_19
+      - https://t_me/dafeiji100(22)_20
+      - https://t_me/dafeiji100(23)_21
+      - https://t_me/dafeiji100(24)_22
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - default_name_6
+      - https://t_me/dafeiji100_1
+      - https://t_me/dafeiji100(1)_2
+      - https://t_me/dafeiji100(2)_3
+      - https://t_me/dafeiji100(3)_4
+      - https://t_me/dafeiji100(5)_5
+      - https://t_me/dafeiji100(6)_6
+      - https://t_me/dafeiji100(7)_7
+      - https://t_me/dafeiji100(8)_8
+      - https://t_me/dafeiji100(9)_9
+      - https://t_me/dafeiji100(10)_10
+      - https://t_me/dafeiji100(11)_11
+      - https://t_me/dafeiji100(12)_12
+      - https://t_me/dafeiji100(13)_13
+      - https://t_me/dafeiji100(14)_14
+      - https://t_me/dafeiji100(15)_15
+      - https://t_me/dafeiji100(16)_16
+      - https://t_me/dafeiji100(17)_17
+      - https://t_me/dafeiji100(20)_18
+      - https://t_me/dafeiji100(21)_19
+      - https://t_me/dafeiji100(22)_20
+      - https://t_me/dafeiji100(23)_21
+      - https://t_me/dafeiji100(24)_22
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - default_name_6
+      - https://t_me/dafeiji100_1
+      - https://t_me/dafeiji100(1)_2
+      - https://t_me/dafeiji100(2)_3
+      - https://t_me/dafeiji100(3)_4
+      - https://t_me/dafeiji100(5)_5
+      - https://t_me/dafeiji100(6)_6
+      - https://t_me/dafeiji100(7)_7
+      - https://t_me/dafeiji100(8)_8
+      - https://t_me/dafeiji100(9)_9
+      - https://t_me/dafeiji100(10)_10
+      - https://t_me/dafeiji100(11)_11
+      - https://t_me/dafeiji100(12)_12
+      - https://t_me/dafeiji100(13)_13
+      - https://t_me/dafeiji100(14)_14
+      - https://t_me/dafeiji100(15)_15
+      - https://t_me/dafeiji100(16)_16
+      - https://t_me/dafeiji100(17)_17
+      - https://t_me/dafeiji100(20)_18
+      - https://t_me/dafeiji100(21)_19
+      - https://t_me/dafeiji100(22)_20
+      - https://t_me/dafeiji100(23)_21
+      - https://t_me/dafeiji100(24)_22
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - default_name_6
+      - https://t_me/dafeiji100_1
+      - https://t_me/dafeiji100(1)_2
+      - https://t_me/dafeiji100(2)_3
+      - https://t_me/dafeiji100(3)_4
+      - https://t_me/dafeiji100(5)_5
+      - https://t_me/dafeiji100(6)_6
+      - https://t_me/dafeiji100(7)_7
+      - https://t_me/dafeiji100(8)_8
+      - https://t_me/dafeiji100(9)_9
+      - https://t_me/dafeiji100(10)_10
+      - https://t_me/dafeiji100(11)_11
+      - https://t_me/dafeiji100(12)_12
+      - https://t_me/dafeiji100(13)_13
+      - https://t_me/dafeiji100(14)_14
+      - https://t_me/dafeiji100(15)_15
+      - https://t_me/dafeiji100(16)_16
+      - https://t_me/dafeiji100(17)_17
+      - https://t_me/dafeiji100(20)_18
+      - https://t_me/dafeiji100(21)_19
+      - https://t_me/dafeiji100(22)_20
+      - https://t_me/dafeiji100(23)_21
+      - https://t_me/dafeiji100(24)_22
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -102,12 +214,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - default_name_6
+      - https://t_me/dafeiji100_1
+      - https://t_me/dafeiji100(1)_2
+      - https://t_me/dafeiji100(2)_3
+      - https://t_me/dafeiji100(3)_4
+      - https://t_me/dafeiji100(5)_5
+      - https://t_me/dafeiji100(6)_6
+      - https://t_me/dafeiji100(7)_7
+      - https://t_me/dafeiji100(8)_8
+      - https://t_me/dafeiji100(9)_9
+      - https://t_me/dafeiji100(10)_10
+      - https://t_me/dafeiji100(11)_11
+      - https://t_me/dafeiji100(12)_12
+      - https://t_me/dafeiji100(13)_13
+      - https://t_me/dafeiji100(14)_14
+      - https://t_me/dafeiji100(15)_15
+      - https://t_me/dafeiji100(16)_16
+      - https://t_me/dafeiji100(17)_17
+      - https://t_me/dafeiji100(20)_18
+      - https://t_me/dafeiji100(21)_19
+      - https://t_me/dafeiji100(22)_20
+      - https://t_me/dafeiji100(23)_21
+      - https://t_me/dafeiji100(24)_22
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
