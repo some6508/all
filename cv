@@ -5,11 +5,39 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇭🇰_HK_香港_1, server: 120.233.10.218, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: _CA_加拿大_2, server: 134.195.198.252, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_3, server: 120.233.10.218, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_4, server: 120.233.10.218, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: _CA_加拿大_5, server: 134.195.198.252, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ‌‌🇨🇦CA_0443atWangCai_1, server: 134.195.196.147, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ‌‌🇨🇦CA_2375atWangCai_1, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ‌‌🇨🇦CA_2376atWangCai_1, server: 134.195.196.147, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ‌‌🇨🇦CA_3306atWangCai_1, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_3389atWangCai_1, server: 134.195.196.147, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_4444atWangCai_1, server: 134.195.196.147, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ‌‌🇨🇦CA_5000atWangCai_1, server: 134.195.196.147, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_5001atWangCai_1, server: 134.195.196.147, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_5003atWangCai_1, server: 134.195.196.147, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ‌‌🇨🇦CA_5004atWangCai_1, server: 134.195.196.147, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ‌‌🇨🇦CA_5500atWangCai_1, server: 134.195.196.147, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ‌‌🇨🇦CA_5600atWangCai_1, server: 134.195.196.147, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_5601atWangCai_1, server: 134.195.196.147, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_6379atWangCai_1, server: 134.195.196.147, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: ‌‌🇨🇦CA_6679atWangCai_1, server: 134.195.196.147, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ‌‌🇨🇦CA_6697atWangCai_1, server: 134.195.196.147, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ‌‌🇨🇦CA_7001atWangCai_1, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ‌‌🇨🇦CA_7002atWangCai_1, server: 134.195.196.147, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ‌‌🇨🇦CA_7306atWangCai_1, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ‌‌🇨🇦CA_7307atWangCai_1, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ‌‌🇨🇦CA_8000atWangCai_1, server: 134.195.196.147, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ‌‌🇨🇦CA_8008atWangCai_1, server: 134.195.196.147, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ‌‌🇨🇦CA_8009atWangCai_1, server: 134.195.196.147, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ‌‌🇨🇦CA_8080atWangCai_1, server: 134.195.196.147, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ‌‌🇨🇦CA_8090atWangCai_1, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ‌‌🇨🇦CA_8091atWangCai_1, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ‌‌🇨🇦CA_8118atWangCai_1, server: 134.195.196.147, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ‌‌🇨🇦CA_8119atWangCai_1, server: 134.195.196.147, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ‌‌🇨🇦CA_8881atWangCai_1, server: 134.195.196.147, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ‌‌🇨🇦CA_8882atWangCai_1, server: 134.195.196.147, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ‌‌🇨🇦CA_8888atWangCai_1, server: 134.195.196.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_9101atWangCai_1, server: 134.195.196.147, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ‌‌🇨🇦CA_9102atWangCai_1, server: 134.195.196.147, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: us1.31vpn.com, port: 80, type: vmess, uuid: bb4b9e95-c9ff-411c-9a47-483570e169aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/remaoqi/624ca41d72e6d/, headers: {Host: us1.31vpn.com}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.51, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
@@ -1569,11 +1597,39 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国->🇭🇰_HK_香港_1
-      - _CA_加拿大_2
-      - _CN_中国->🇭🇰_HK_香港_3
-      - _CN_中国->🇭🇰_HK_香港_4
-      - _CA_加拿大_5
+      - ‌‌🇨🇦CA_0443atWangCai_1
+      - ‌‌🇨🇦CA_2375atWangCai_1
+      - ‌‌🇨🇦CA_2376atWangCai_1
+      - ‌‌🇨🇦CA_3306atWangCai_1
+      - ‌‌🇨🇦CA_3389atWangCai_1
+      - ‌‌🇨🇦CA_4444atWangCai_1
+      - ‌‌🇨🇦CA_5000atWangCai_1
+      - ‌‌🇨🇦CA_5001atWangCai_1
+      - ‌‌🇨🇦CA_5003atWangCai_1
+      - ‌‌🇨🇦CA_5004atWangCai_1
+      - ‌‌🇨🇦CA_5500atWangCai_1
+      - ‌‌🇨🇦CA_5600atWangCai_1
+      - ‌‌🇨🇦CA_5601atWangCai_1
+      - ‌‌🇨🇦CA_6379atWangCai_1
+      - ‌‌🇨🇦CA_6679atWangCai_1
+      - ‌‌🇨🇦CA_6697atWangCai_1
+      - ‌‌🇨🇦CA_7001atWangCai_1
+      - ‌‌🇨🇦CA_7002atWangCai_1
+      - ‌‌🇨🇦CA_7306atWangCai_1
+      - ‌‌🇨🇦CA_7307atWangCai_1
+      - ‌‌🇨🇦CA_8000atWangCai_1
+      - ‌‌🇨🇦CA_8008atWangCai_1
+      - ‌‌🇨🇦CA_8009atWangCai_1
+      - ‌‌🇨🇦CA_8080atWangCai_1
+      - ‌‌🇨🇦CA_8090atWangCai_1
+      - ‌‌🇨🇦CA_8091atWangCai_1
+      - ‌‌🇨🇦CA_8118atWangCai_1
+      - ‌‌🇨🇦CA_8119atWangCai_1
+      - ‌‌🇨🇦CA_8881atWangCai_1
+      - ‌‌🇨🇦CA_8882atWangCai_1
+      - ‌‌🇨🇦CA_8888atWangCai_1
+      - ‌‌🇨🇦CA_9101atWangCai_1
+      - ‌‌🇨🇦CA_9102atWangCai_1
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -3133,11 +3189,39 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国->🇭🇰_HK_香港_1
-      - _CA_加拿大_2
-      - _CN_中国->🇭🇰_HK_香港_3
-      - _CN_中国->🇭🇰_HK_香港_4
-      - _CA_加拿大_5
+      - ‌‌🇨🇦CA_0443atWangCai_1
+      - ‌‌🇨🇦CA_2375atWangCai_1
+      - ‌‌🇨🇦CA_2376atWangCai_1
+      - ‌‌🇨🇦CA_3306atWangCai_1
+      - ‌‌🇨🇦CA_3389atWangCai_1
+      - ‌‌🇨🇦CA_4444atWangCai_1
+      - ‌‌🇨🇦CA_5000atWangCai_1
+      - ‌‌🇨🇦CA_5001atWangCai_1
+      - ‌‌🇨🇦CA_5003atWangCai_1
+      - ‌‌🇨🇦CA_5004atWangCai_1
+      - ‌‌🇨🇦CA_5500atWangCai_1
+      - ‌‌🇨🇦CA_5600atWangCai_1
+      - ‌‌🇨🇦CA_5601atWangCai_1
+      - ‌‌🇨🇦CA_6379atWangCai_1
+      - ‌‌🇨🇦CA_6679atWangCai_1
+      - ‌‌🇨🇦CA_6697atWangCai_1
+      - ‌‌🇨🇦CA_7001atWangCai_1
+      - ‌‌🇨🇦CA_7002atWangCai_1
+      - ‌‌🇨🇦CA_7306atWangCai_1
+      - ‌‌🇨🇦CA_7307atWangCai_1
+      - ‌‌🇨🇦CA_8000atWangCai_1
+      - ‌‌🇨🇦CA_8008atWangCai_1
+      - ‌‌🇨🇦CA_8009atWangCai_1
+      - ‌‌🇨🇦CA_8080atWangCai_1
+      - ‌‌🇨🇦CA_8090atWangCai_1
+      - ‌‌🇨🇦CA_8091atWangCai_1
+      - ‌‌🇨🇦CA_8118atWangCai_1
+      - ‌‌🇨🇦CA_8119atWangCai_1
+      - ‌‌🇨🇦CA_8881atWangCai_1
+      - ‌‌🇨🇦CA_8882atWangCai_1
+      - ‌‌🇨🇦CA_8888atWangCai_1
+      - ‌‌🇨🇦CA_9101atWangCai_1
+      - ‌‌🇨🇦CA_9102atWangCai_1
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
