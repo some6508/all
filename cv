@@ -570,38 +570,7 @@ proxies:
   - {name: 香港 04, server: hk04.internetsmartrouting.top, port: 46889, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
   - {name: 香港 05, server: hk05.internetsmartrouting.top, port: 25241, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
   - {name: 香港 06, server: hk06.internetsmartrouting.top, port: 23685, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
-  - {name: V1 | 俄罗斯 远东 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-rujh1, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 加拿大 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-ca, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 南非 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-za, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 印度 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-in1, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 土耳其 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-tr, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 巴西 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-br, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 德国 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-de, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 悉尼 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-au, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 智利 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-cl, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 法国  | x1.0, server: v2test-coestablishmentcimrs503.koyeb.app, port: 443, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2test-coestablishmentcimrs503.koyeb.app}}, udp: true}
-  - {name: V1 | 波兰 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-pl, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 瑞典 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-se, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 瑞士 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-ch, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 米兰 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-it, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 美国 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-us1, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 英国 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-uk, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 荷兰 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-nl, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 西班牙 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-es, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V1 | 阿根廷 | x1.0, server: hn.cu1.fevers.cyou, port: 16335, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-ar, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V2 | 新加坡 Disney专用 | x1.5, server: hn.cu1.fevers.cyou, port: 30080, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-disney0, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V2 | 新加坡 NF专用 | x1.5, server: hn.cu1.fevers.cyou, port: 30080, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-hksg, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V2 | 新加坡 原生 01 | x1.5, server: hn.cu1.fevers.cyou, port: 30080, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-sg, headers: {Host: hk.az-1.fevers.cyou}}, udp: true}
-  - {name: V2 | 新加坡 原生 02 | x1.5, server: hn.cu1.fevers.cyou, port: 30080, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-sg, headers: {Host: hk.aws-1.fevers.cyou}}, udp: true}
-  - {name: V2 | 日本 01 | x1.5, server: hn.cu1.fevers.cyou, port: 30080, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-jp, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V2 | 日本 02 | x1.5, server: hn.cu1.fevers.cyou, port: 30080, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-jp, headers: {Host: hk.aws-1.fevers.cyou}}, udp: true}
-  - {name: V2 | 日本 EMBY专用 | x1.5, server: hn.cu1.fevers.cyou, port: 30080, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-embyjp, headers: {Host: hk.aws-1.fevers.cyou}}, udp: true}
-  - {name: V2 | 韩国 01 | x1.5, server: hn.cu1.fevers.cyou, port: 30080, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-kr, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V2 | 韩国 02 | x1.5, server: hn.cu1.fevers.cyou, port: 30080, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-kr, headers: {Host: hk.aws-1.fevers.cyou}}, udp: true}
-  - {name: V2 | 韩国 EMBY专用 02 | x1.5, server: hn.cu1.fevers.cyou, port: 30080, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-embykr, headers: {Host: hk.aws-1.fevers.cyou}}, udp: true}
-  - {name: V2 | 香港 01 | x1.5, server: hn.cu1.fevers.cyou, port: 30080, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-hkt-n2, headers: {Host: hn.cu1.fevers.cyou}}, udp: true}
-  - {name: V2 | 香港 02 | x1.5, server: hn.cu1.fevers.cyou, port: 30080, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-hkt-n2, headers: {Host: hk.aws-1.fevers.cyou}}, udp: true}
-  - {name: ★温馨提示：请定期更新订阅！★, server: app.feverss.cloud, port: 10086, type: vmess, uuid: 89d0b6c6-d7a4-39a1-b3b1-4b26f3168dae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大, server: 134.195.198.252, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 2, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 3, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -609,7 +578,7 @@ proxies:
   - {name: _CN_中国->🇭🇰_HK_香港 4, server: 211.99.115.24, port: 11010, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇸🇬_SG_新加坡, server: 211.99.115.24, port: 11111, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 5, server: 211.99.115.24, port: 11007, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.51, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.51, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: _CN_中国->🇳🇱_NL_荷兰, server: 211.99.115.24, port: 11553, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇹🇼_TW_台湾, server: 211.99.115.24, port: 11051, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇮🇳_IN_印度, server: 211.99.115.24, port: 11301, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -641,7 +610,7 @@ proxies:
   - {name: _CN_中国->🇮🇳_IN_印度 2, server: 211.99.115.24, port: 11302, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国 2, server: 211.99.115.24, port: 11402, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇹🇼_TW_台湾 3, server: 211.99.115.24, port: 11055, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _CN_中国->🇬🇧_GB_英国 2, server: 211.99.115.24, port: 11851, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 10, server: 42.157.161.51, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 11, server: 42.157.161.51, port: 11207, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -650,15 +619,15 @@ proxies:
   - {name: _CN_中国->🇺🇸_US_美国 3, server: 211.99.115.24, port: 11401, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦, server: 211.99.115.24, port: 11652, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇮🇸_IS_冰岛, server: 211.99.115.24, port: 11701, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CA_加拿大 3, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _CN_中国->🇦🇺_AU_澳大利亚, server: 211.99.115.24, port: 11351, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇸🇬_SG_新加坡 7, server: 211.99.115.24, port: 11108, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 11, server: 211.99.115.24, port: 11004, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CA_加拿大 4, server: 134.195.196.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 13, server: 42.157.161.51, port: 11204, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇵🇭_PH_菲律宾, server: 211.99.115.24, port: 11901, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 14, server: 42.157.161.51, port: 11210, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CA_加拿大 5, server: 134.195.196.51, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.196.51, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 15, server: 42.157.161.51, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇳🇱_NL_荷兰 2, server: 211.99.115.24, port: 11551, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇬🇧_GB_英国 3, server: 211.99.115.24, port: 11854, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -672,11 +641,11 @@ proxies:
   - {name: _CN_中国->🇭🇰_HK_香港 14, server: 211.99.115.24, port: 11018, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇸🇬_SG_新加坡 9, server: 211.99.115.24, port: 11114, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 15, server: 211.99.115.24, port: 11002, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CA_加拿大 6, server: 134.195.196.51, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 7, server: 134.195.196.51, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: _CN_中国->🇰🇷_KR_韩国 2, server: 42.157.161.51, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇸🇬_SG_新加坡 10, server: 211.99.115.24, port: 11116, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇳🇱_NL_荷兰 3, server: 211.99.115.24, port: 11552, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CA_加拿大 7, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 8, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 16, server: 42.157.161.51, port: 11206, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇨🇦_CA_加拿大 2, server: 42.157.161.51, port: 11802, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国 5, server: 211.99.115.24, port: 11404, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -2162,38 +2131,7 @@ proxy-groups:
       - 香港 04
       - 香港 05
       - 香港 06
-      - V1 | 俄罗斯 远东 | x1.0
-      - V1 | 加拿大 | x1.0
-      - V1 | 南非 | x1.0
-      - V1 | 印度 | x1.0
-      - V1 | 土耳其 | x1.0
-      - V1 | 巴西 | x1.0
-      - V1 | 德国 | x1.0
-      - V1 | 悉尼 | x1.0
-      - V1 | 智利 | x1.0
-      - V1 | 法国  | x1.0
-      - V1 | 波兰 | x1.0
-      - V1 | 瑞典 | x1.0
-      - V1 | 瑞士 | x1.0
-      - V1 | 米兰 | x1.0
-      - V1 | 美国 | x1.0
-      - V1 | 英国 | x1.0
-      - V1 | 荷兰 | x1.0
-      - V1 | 西班牙 | x1.0
-      - V1 | 阿根廷 | x1.0
-      - V2 | 新加坡 Disney专用 | x1.5
-      - V2 | 新加坡 NF专用 | x1.5
-      - V2 | 新加坡 原生 01 | x1.5
-      - V2 | 新加坡 原生 02 | x1.5
-      - V2 | 日本 01 | x1.5
-      - V2 | 日本 02 | x1.5
-      - V2 | 日本 EMBY专用 | x1.5
-      - V2 | 韩国 01 | x1.5
-      - V2 | 韩国 02 | x1.5
-      - V2 | 韩国 EMBY专用 02 | x1.5
-      - V2 | 香港 01 | x1.5
-      - V2 | 香港 02 | x1.5
-      - ★温馨提示：请定期更新订阅！★
+      - _CA_加拿大
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3
@@ -2201,7 +2139,7 @@ proxy-groups:
       - _CN_中国->🇭🇰_HK_香港 4
       - _CN_中国->🇸🇬_SG_新加坡
       - _CN_中国->🇭🇰_HK_香港 5
-      - _CA_加拿大
+      - _CA_加拿大 2
       - _CN_中国->🇳🇱_NL_荷兰
       - _CN_中国->🇹🇼_TW_台湾
       - _CN_中国->🇮🇳_IN_印度
@@ -2233,7 +2171,7 @@ proxy-groups:
       - _CN_中国->🇮🇳_IN_印度 2
       - _CN_中国->🇺🇸_US_美国 2
       - _CN_中国->🇹🇼_TW_台湾 3
-      - _CA_加拿大 2
+      - _CA_加拿大 3
       - _CN_中国->🇬🇧_GB_英国 2
       - _CN_中国->🇯🇵_JP_日本 10
       - _CN_中国->🇯🇵_JP_日本 11
@@ -2242,15 +2180,15 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国 3
       - _CN_中国->🇷🇺_RU_俄罗斯联邦
       - _CN_中国->🇮🇸_IS_冰岛
-      - _CA_加拿大 3
+      - _CA_加拿大 4
       - _CN_中国->🇦🇺_AU_澳大利亚
       - _CN_中国->🇸🇬_SG_新加坡 7
       - _CN_中国->🇭🇰_HK_香港 11
-      - _CA_加拿大 4
+      - _CA_加拿大 5
       - _CN_中国->🇯🇵_JP_日本 13
       - _CN_中国->🇵🇭_PH_菲律宾
       - _CN_中国->🇯🇵_JP_日本 14
-      - _CA_加拿大 5
+      - _CA_加拿大 6
       - _CN_中国->🇯🇵_JP_日本 15
       - _CN_中国->🇳🇱_NL_荷兰 2
       - _CN_中国->🇬🇧_GB_英国 3
@@ -2264,11 +2202,11 @@ proxy-groups:
       - _CN_中国->🇭🇰_HK_香港 14
       - _CN_中国->🇸🇬_SG_新加坡 9
       - _CN_中国->🇭🇰_HK_香港 15
-      - _CA_加拿大 6
+      - _CA_加拿大 7
       - _CN_中国->🇰🇷_KR_韩国 2
       - _CN_中国->🇸🇬_SG_新加坡 10
       - _CN_中国->🇳🇱_NL_荷兰 3
-      - _CA_加拿大 7
+      - _CA_加拿大 8
       - _CN_中国->🇯🇵_JP_日本 16
       - _CN_中国->🇨🇦_CA_加拿大 2
       - _CN_中国->🇺🇸_US_美国 5
@@ -3754,38 +3692,7 @@ proxy-groups:
       - 香港 04
       - 香港 05
       - 香港 06
-      - V1 | 俄罗斯 远东 | x1.0
-      - V1 | 加拿大 | x1.0
-      - V1 | 南非 | x1.0
-      - V1 | 印度 | x1.0
-      - V1 | 土耳其 | x1.0
-      - V1 | 巴西 | x1.0
-      - V1 | 德国 | x1.0
-      - V1 | 悉尼 | x1.0
-      - V1 | 智利 | x1.0
-      - V1 | 法国  | x1.0
-      - V1 | 波兰 | x1.0
-      - V1 | 瑞典 | x1.0
-      - V1 | 瑞士 | x1.0
-      - V1 | 米兰 | x1.0
-      - V1 | 美国 | x1.0
-      - V1 | 英国 | x1.0
-      - V1 | 荷兰 | x1.0
-      - V1 | 西班牙 | x1.0
-      - V1 | 阿根廷 | x1.0
-      - V2 | 新加坡 Disney专用 | x1.5
-      - V2 | 新加坡 NF专用 | x1.5
-      - V2 | 新加坡 原生 01 | x1.5
-      - V2 | 新加坡 原生 02 | x1.5
-      - V2 | 日本 01 | x1.5
-      - V2 | 日本 02 | x1.5
-      - V2 | 日本 EMBY专用 | x1.5
-      - V2 | 韩国 01 | x1.5
-      - V2 | 韩国 02 | x1.5
-      - V2 | 韩国 EMBY专用 02 | x1.5
-      - V2 | 香港 01 | x1.5
-      - V2 | 香港 02 | x1.5
-      - ★温馨提示：请定期更新订阅！★
+      - _CA_加拿大
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3
@@ -3793,7 +3700,7 @@ proxy-groups:
       - _CN_中国->🇭🇰_HK_香港 4
       - _CN_中国->🇸🇬_SG_新加坡
       - _CN_中国->🇭🇰_HK_香港 5
-      - _CA_加拿大
+      - _CA_加拿大 2
       - _CN_中国->🇳🇱_NL_荷兰
       - _CN_中国->🇹🇼_TW_台湾
       - _CN_中国->🇮🇳_IN_印度
@@ -3825,7 +3732,7 @@ proxy-groups:
       - _CN_中国->🇮🇳_IN_印度 2
       - _CN_中国->🇺🇸_US_美国 2
       - _CN_中国->🇹🇼_TW_台湾 3
-      - _CA_加拿大 2
+      - _CA_加拿大 3
       - _CN_中国->🇬🇧_GB_英国 2
       - _CN_中国->🇯🇵_JP_日本 10
       - _CN_中国->🇯🇵_JP_日本 11
@@ -3834,15 +3741,15 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国 3
       - _CN_中国->🇷🇺_RU_俄罗斯联邦
       - _CN_中国->🇮🇸_IS_冰岛
-      - _CA_加拿大 3
+      - _CA_加拿大 4
       - _CN_中国->🇦🇺_AU_澳大利亚
       - _CN_中国->🇸🇬_SG_新加坡 7
       - _CN_中国->🇭🇰_HK_香港 11
-      - _CA_加拿大 4
+      - _CA_加拿大 5
       - _CN_中国->🇯🇵_JP_日本 13
       - _CN_中国->🇵🇭_PH_菲律宾
       - _CN_中国->🇯🇵_JP_日本 14
-      - _CA_加拿大 5
+      - _CA_加拿大 6
       - _CN_中国->🇯🇵_JP_日本 15
       - _CN_中国->🇳🇱_NL_荷兰 2
       - _CN_中国->🇬🇧_GB_英国 3
@@ -3856,11 +3763,11 @@ proxy-groups:
       - _CN_中国->🇭🇰_HK_香港 14
       - _CN_中国->🇸🇬_SG_新加坡 9
       - _CN_中国->🇭🇰_HK_香港 15
-      - _CA_加拿大 6
+      - _CA_加拿大 7
       - _CN_中国->🇰🇷_KR_韩国 2
       - _CN_中国->🇸🇬_SG_新加坡 10
       - _CN_中国->🇳🇱_NL_荷兰 3
-      - _CA_加拿大 7
+      - _CA_加拿大 8
       - _CN_中国->🇯🇵_JP_日本 16
       - _CN_中国->🇨🇦_CA_加拿大 2
       - _CN_中国->🇺🇸_US_美国 5
