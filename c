@@ -5,74 +5,270 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","server":"120.233.10.218","port":21001,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","cipher":"chacha20-ietf-poly1305","password":"a93bb5bf-3213-4d06-90f4-71b53544eff0"}
-  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.198.252","port":443,"type":"ss","country":"🇨🇦_CA_加拿大_2","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_3","server":"120.233.10.218","port":21008,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_3","cipher":"chacha20-ietf-poly1305","password":"a93bb5bf-3213-4d06-90f4-71b53544eff0"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_4","server":"120.233.10.218","port":21003,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_4","cipher":"chacha20-ietf-poly1305","password":"a93bb5bf-3213-4d06-90f4-71b53544eff0"}
-  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.198.252","port":4444,"type":"ss","country":"🇨🇦_CA_加拿大_5","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"‌‌🇨🇦CA_0443atWangCai_1","server":"134.195.196.147","port":443,"type":"ss","country":"‌‌🇨🇦CA_0443atWangCai_1","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"‌‌🇨🇦CA_2375atWangCai_1","server":"134.195.196.147","port":2375,"type":"ss","country":"‌‌🇨🇦CA_2375atWangCai_1","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"‌‌🇨🇦CA_2376atWangCai_1","server":"134.195.196.147","port":2376,"type":"ss","country":"‌‌🇨🇦CA_2376atWangCai_1","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"‌‌🇨🇦CA_3306atWangCai_1","server":"134.195.196.147","port":3306,"type":"ss","country":"‌‌🇨🇦CA_3306atWangCai_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"‌‌🇨🇦CA_3389atWangCai_1","server":"134.195.196.147","port":3389,"type":"ss","country":"‌‌🇨🇦CA_3389atWangCai_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"‌‌🇨🇦CA_4444atWangCai_1","server":"134.195.196.147","port":4444,"type":"ss","country":"‌‌🇨🇦CA_4444atWangCai_1","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"‌‌🇨🇦CA_5000atWangCai_1","server":"134.195.196.147","port":5000,"type":"ss","country":"‌‌🇨🇦CA_5000atWangCai_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"‌‌🇨🇦CA_5001atWangCai_1","server":"134.195.196.147","port":5001,"type":"ss","country":"‌‌🇨🇦CA_5001atWangCai_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"‌‌🇨🇦CA_5003atWangCai_1","server":"134.195.196.147","port":5003,"type":"ss","country":"‌‌🇨🇦CA_5003atWangCai_1","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"‌‌🇨🇦CA_5004atWangCai_1","server":"134.195.196.147","port":5004,"type":"ss","country":"‌‌🇨🇦CA_5004atWangCai_1","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"‌‌🇨🇦CA_5500atWangCai_1","server":"134.195.196.147","port":5500,"type":"ss","country":"‌‌🇨🇦CA_5500atWangCai_1","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"‌‌🇨🇦CA_5600atWangCai_1","server":"134.195.196.147","port":5600,"type":"ss","country":"‌‌🇨🇦CA_5600atWangCai_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"‌‌🇨🇦CA_5601atWangCai_1","server":"134.195.196.147","port":5601,"type":"ss","country":"‌‌🇨🇦CA_5601atWangCai_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"‌‌🇨🇦CA_6379atWangCai_1","server":"134.195.196.147","port":6379,"type":"ss","country":"‌‌🇨🇦CA_6379atWangCai_1","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"‌‌🇨🇦CA_6679atWangCai_1","server":"134.195.196.147","port":6679,"type":"ss","country":"‌‌🇨🇦CA_6679atWangCai_1","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"‌‌🇨🇦CA_6697atWangCai_1","server":"134.195.196.147","port":6697,"type":"ss","country":"‌‌🇨🇦CA_6697atWangCai_1","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"‌‌🇨🇦CA_7001atWangCai_1","server":"134.195.196.147","port":7001,"type":"ss","country":"‌‌🇨🇦CA_7001atWangCai_1","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"‌‌🇨🇦CA_7002atWangCai_1","server":"134.195.196.147","port":7002,"type":"ss","country":"‌‌🇨🇦CA_7002atWangCai_1","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"‌‌🇨🇦CA_7306atWangCai_1","server":"134.195.196.147","port":7306,"type":"ss","country":"‌‌🇨🇦CA_7306atWangCai_1","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"‌‌🇨🇦CA_7307atWangCai_1","server":"134.195.196.147","port":7307,"type":"ss","country":"‌‌🇨🇦CA_7307atWangCai_1","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"‌‌🇨🇦CA_8000atWangCai_1","server":"134.195.196.147","port":8000,"type":"ss","country":"‌‌🇨🇦CA_8000atWangCai_1","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"‌‌🇨🇦CA_8008atWangCai_1","server":"134.195.196.147","port":8008,"type":"ss","country":"‌‌🇨🇦CA_8008atWangCai_1","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"‌‌🇨🇦CA_8009atWangCai_1","server":"134.195.196.147","port":8009,"type":"ss","country":"‌‌🇨🇦CA_8009atWangCai_1","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"‌‌🇨🇦CA_8080atWangCai_1","server":"134.195.196.147","port":8080,"type":"ss","country":"‌‌🇨🇦CA_8080atWangCai_1","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"‌‌🇨🇦CA_8090atWangCai_1","server":"134.195.196.147","port":8090,"type":"ss","country":"‌‌🇨🇦CA_8090atWangCai_1","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"‌‌🇨🇦CA_8091atWangCai_1","server":"134.195.196.147","port":8091,"type":"ss","country":"‌‌🇨🇦CA_8091atWangCai_1","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"‌‌🇨🇦CA_8118atWangCai_1","server":"134.195.196.147","port":8118,"type":"ss","country":"‌‌🇨🇦CA_8118atWangCai_1","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"‌‌🇨🇦CA_8119atWangCai_1","server":"134.195.196.147","port":8119,"type":"ss","country":"‌‌🇨🇦CA_8119atWangCai_1","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"‌‌🇨🇦CA_8881atWangCai_1","server":"134.195.196.147","port":8881,"type":"ss","country":"‌‌🇨🇦CA_8881atWangCai_1","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"‌‌🇨🇦CA_8882atWangCai_1","server":"134.195.196.147","port":8882,"type":"ss","country":"‌‌🇨🇦CA_8882atWangCai_1","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"‌‌🇨🇦CA_8888atWangCai_1","server":"134.195.196.147","port":8888,"type":"ss","country":"‌‌🇨🇦CA_8888atWangCai_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"‌‌🇨🇦CA_9101atWangCai_1","server":"134.195.196.147","port":9101,"type":"ss","country":"‌‌🇨🇦CA_9101atWangCai_1","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"‌‌🇨🇦CA_9102atWangCai_1","server":"134.195.196.147","port":9102,"type":"ss","country":"‌‌🇨🇦CA_9102atWangCai_1","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇦_CA_加拿大_5
+      - ‌‌🇨🇦CA_0443atWangCai_1
+      - ‌‌🇨🇦CA_2375atWangCai_1
+      - ‌‌🇨🇦CA_2376atWangCai_1
+      - ‌‌🇨🇦CA_3306atWangCai_1
+      - ‌‌🇨🇦CA_3389atWangCai_1
+      - ‌‌🇨🇦CA_4444atWangCai_1
+      - ‌‌🇨🇦CA_5000atWangCai_1
+      - ‌‌🇨🇦CA_5001atWangCai_1
+      - ‌‌🇨🇦CA_5003atWangCai_1
+      - ‌‌🇨🇦CA_5004atWangCai_1
+      - ‌‌🇨🇦CA_5500atWangCai_1
+      - ‌‌🇨🇦CA_5600atWangCai_1
+      - ‌‌🇨🇦CA_5601atWangCai_1
+      - ‌‌🇨🇦CA_6379atWangCai_1
+      - ‌‌🇨🇦CA_6679atWangCai_1
+      - ‌‌🇨🇦CA_6697atWangCai_1
+      - ‌‌🇨🇦CA_7001atWangCai_1
+      - ‌‌🇨🇦CA_7002atWangCai_1
+      - ‌‌🇨🇦CA_7306atWangCai_1
+      - ‌‌🇨🇦CA_7307atWangCai_1
+      - ‌‌🇨🇦CA_8000atWangCai_1
+      - ‌‌🇨🇦CA_8008atWangCai_1
+      - ‌‌🇨🇦CA_8009atWangCai_1
+      - ‌‌🇨🇦CA_8080atWangCai_1
+      - ‌‌🇨🇦CA_8090atWangCai_1
+      - ‌‌🇨🇦CA_8091atWangCai_1
+      - ‌‌🇨🇦CA_8118atWangCai_1
+      - ‌‌🇨🇦CA_8119atWangCai_1
+      - ‌‌🇨🇦CA_8881atWangCai_1
+      - ‌‌🇨🇦CA_8882atWangCai_1
+      - ‌‌🇨🇦CA_8888atWangCai_1
+      - ‌‌🇨🇦CA_9101atWangCai_1
+      - ‌‌🇨🇦CA_9102atWangCai_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇦_CA_加拿大_5
+      - ‌‌🇨🇦CA_0443atWangCai_1
+      - ‌‌🇨🇦CA_2375atWangCai_1
+      - ‌‌🇨🇦CA_2376atWangCai_1
+      - ‌‌🇨🇦CA_3306atWangCai_1
+      - ‌‌🇨🇦CA_3389atWangCai_1
+      - ‌‌🇨🇦CA_4444atWangCai_1
+      - ‌‌🇨🇦CA_5000atWangCai_1
+      - ‌‌🇨🇦CA_5001atWangCai_1
+      - ‌‌🇨🇦CA_5003atWangCai_1
+      - ‌‌🇨🇦CA_5004atWangCai_1
+      - ‌‌🇨🇦CA_5500atWangCai_1
+      - ‌‌🇨🇦CA_5600atWangCai_1
+      - ‌‌🇨🇦CA_5601atWangCai_1
+      - ‌‌🇨🇦CA_6379atWangCai_1
+      - ‌‌🇨🇦CA_6679atWangCai_1
+      - ‌‌🇨🇦CA_6697atWangCai_1
+      - ‌‌🇨🇦CA_7001atWangCai_1
+      - ‌‌🇨🇦CA_7002atWangCai_1
+      - ‌‌🇨🇦CA_7306atWangCai_1
+      - ‌‌🇨🇦CA_7307atWangCai_1
+      - ‌‌🇨🇦CA_8000atWangCai_1
+      - ‌‌🇨🇦CA_8008atWangCai_1
+      - ‌‌🇨🇦CA_8009atWangCai_1
+      - ‌‌🇨🇦CA_8080atWangCai_1
+      - ‌‌🇨🇦CA_8090atWangCai_1
+      - ‌‌🇨🇦CA_8091atWangCai_1
+      - ‌‌🇨🇦CA_8118atWangCai_1
+      - ‌‌🇨🇦CA_8119atWangCai_1
+      - ‌‌🇨🇦CA_8881atWangCai_1
+      - ‌‌🇨🇦CA_8882atWangCai_1
+      - ‌‌🇨🇦CA_8888atWangCai_1
+      - ‌‌🇨🇦CA_9101atWangCai_1
+      - ‌‌🇨🇦CA_9102atWangCai_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇦_CA_加拿大_5
+      - ‌‌🇨🇦CA_0443atWangCai_1
+      - ‌‌🇨🇦CA_2375atWangCai_1
+      - ‌‌🇨🇦CA_2376atWangCai_1
+      - ‌‌🇨🇦CA_3306atWangCai_1
+      - ‌‌🇨🇦CA_3389atWangCai_1
+      - ‌‌🇨🇦CA_4444atWangCai_1
+      - ‌‌🇨🇦CA_5000atWangCai_1
+      - ‌‌🇨🇦CA_5001atWangCai_1
+      - ‌‌🇨🇦CA_5003atWangCai_1
+      - ‌‌🇨🇦CA_5004atWangCai_1
+      - ‌‌🇨🇦CA_5500atWangCai_1
+      - ‌‌🇨🇦CA_5600atWangCai_1
+      - ‌‌🇨🇦CA_5601atWangCai_1
+      - ‌‌🇨🇦CA_6379atWangCai_1
+      - ‌‌🇨🇦CA_6679atWangCai_1
+      - ‌‌🇨🇦CA_6697atWangCai_1
+      - ‌‌🇨🇦CA_7001atWangCai_1
+      - ‌‌🇨🇦CA_7002atWangCai_1
+      - ‌‌🇨🇦CA_7306atWangCai_1
+      - ‌‌🇨🇦CA_7307atWangCai_1
+      - ‌‌🇨🇦CA_8000atWangCai_1
+      - ‌‌🇨🇦CA_8008atWangCai_1
+      - ‌‌🇨🇦CA_8009atWangCai_1
+      - ‌‌🇨🇦CA_8080atWangCai_1
+      - ‌‌🇨🇦CA_8090atWangCai_1
+      - ‌‌🇨🇦CA_8091atWangCai_1
+      - ‌‌🇨🇦CA_8118atWangCai_1
+      - ‌‌🇨🇦CA_8119atWangCai_1
+      - ‌‌🇨🇦CA_8881atWangCai_1
+      - ‌‌🇨🇦CA_8882atWangCai_1
+      - ‌‌🇨🇦CA_8888atWangCai_1
+      - ‌‌🇨🇦CA_9101atWangCai_1
+      - ‌‌🇨🇦CA_9102atWangCai_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇦_CA_加拿大_5
+      - ‌‌🇨🇦CA_0443atWangCai_1
+      - ‌‌🇨🇦CA_2375atWangCai_1
+      - ‌‌🇨🇦CA_2376atWangCai_1
+      - ‌‌🇨🇦CA_3306atWangCai_1
+      - ‌‌🇨🇦CA_3389atWangCai_1
+      - ‌‌🇨🇦CA_4444atWangCai_1
+      - ‌‌🇨🇦CA_5000atWangCai_1
+      - ‌‌🇨🇦CA_5001atWangCai_1
+      - ‌‌🇨🇦CA_5003atWangCai_1
+      - ‌‌🇨🇦CA_5004atWangCai_1
+      - ‌‌🇨🇦CA_5500atWangCai_1
+      - ‌‌🇨🇦CA_5600atWangCai_1
+      - ‌‌🇨🇦CA_5601atWangCai_1
+      - ‌‌🇨🇦CA_6379atWangCai_1
+      - ‌‌🇨🇦CA_6679atWangCai_1
+      - ‌‌🇨🇦CA_6697atWangCai_1
+      - ‌‌🇨🇦CA_7001atWangCai_1
+      - ‌‌🇨🇦CA_7002atWangCai_1
+      - ‌‌🇨🇦CA_7306atWangCai_1
+      - ‌‌🇨🇦CA_7307atWangCai_1
+      - ‌‌🇨🇦CA_8000atWangCai_1
+      - ‌‌🇨🇦CA_8008atWangCai_1
+      - ‌‌🇨🇦CA_8009atWangCai_1
+      - ‌‌🇨🇦CA_8080atWangCai_1
+      - ‌‌🇨🇦CA_8090atWangCai_1
+      - ‌‌🇨🇦CA_8091atWangCai_1
+      - ‌‌🇨🇦CA_8118atWangCai_1
+      - ‌‌🇨🇦CA_8119atWangCai_1
+      - ‌‌🇨🇦CA_8881atWangCai_1
+      - ‌‌🇨🇦CA_8882atWangCai_1
+      - ‌‌🇨🇦CA_8888atWangCai_1
+      - ‌‌🇨🇦CA_9101atWangCai_1
+      - ‌‌🇨🇦CA_9102atWangCai_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇦_CA_加拿大_5
+      - ‌‌🇨🇦CA_0443atWangCai_1
+      - ‌‌🇨🇦CA_2375atWangCai_1
+      - ‌‌🇨🇦CA_2376atWangCai_1
+      - ‌‌🇨🇦CA_3306atWangCai_1
+      - ‌‌🇨🇦CA_3389atWangCai_1
+      - ‌‌🇨🇦CA_4444atWangCai_1
+      - ‌‌🇨🇦CA_5000atWangCai_1
+      - ‌‌🇨🇦CA_5001atWangCai_1
+      - ‌‌🇨🇦CA_5003atWangCai_1
+      - ‌‌🇨🇦CA_5004atWangCai_1
+      - ‌‌🇨🇦CA_5500atWangCai_1
+      - ‌‌🇨🇦CA_5600atWangCai_1
+      - ‌‌🇨🇦CA_5601atWangCai_1
+      - ‌‌🇨🇦CA_6379atWangCai_1
+      - ‌‌🇨🇦CA_6679atWangCai_1
+      - ‌‌🇨🇦CA_6697atWangCai_1
+      - ‌‌🇨🇦CA_7001atWangCai_1
+      - ‌‌🇨🇦CA_7002atWangCai_1
+      - ‌‌🇨🇦CA_7306atWangCai_1
+      - ‌‌🇨🇦CA_7307atWangCai_1
+      - ‌‌🇨🇦CA_8000atWangCai_1
+      - ‌‌🇨🇦CA_8008atWangCai_1
+      - ‌‌🇨🇦CA_8009atWangCai_1
+      - ‌‌🇨🇦CA_8080atWangCai_1
+      - ‌‌🇨🇦CA_8090atWangCai_1
+      - ‌‌🇨🇦CA_8091atWangCai_1
+      - ‌‌🇨🇦CA_8118atWangCai_1
+      - ‌‌🇨🇦CA_8119atWangCai_1
+      - ‌‌🇨🇦CA_8881atWangCai_1
+      - ‌‌🇨🇦CA_8882atWangCai_1
+      - ‌‌🇨🇦CA_8888atWangCai_1
+      - ‌‌🇨🇦CA_9101atWangCai_1
+      - ‌‌🇨🇦CA_9102atWangCai_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇦_CA_加拿大_5
+      - ‌‌🇨🇦CA_0443atWangCai_1
+      - ‌‌🇨🇦CA_2375atWangCai_1
+      - ‌‌🇨🇦CA_2376atWangCai_1
+      - ‌‌🇨🇦CA_3306atWangCai_1
+      - ‌‌🇨🇦CA_3389atWangCai_1
+      - ‌‌🇨🇦CA_4444atWangCai_1
+      - ‌‌🇨🇦CA_5000atWangCai_1
+      - ‌‌🇨🇦CA_5001atWangCai_1
+      - ‌‌🇨🇦CA_5003atWangCai_1
+      - ‌‌🇨🇦CA_5004atWangCai_1
+      - ‌‌🇨🇦CA_5500atWangCai_1
+      - ‌‌🇨🇦CA_5600atWangCai_1
+      - ‌‌🇨🇦CA_5601atWangCai_1
+      - ‌‌🇨🇦CA_6379atWangCai_1
+      - ‌‌🇨🇦CA_6679atWangCai_1
+      - ‌‌🇨🇦CA_6697atWangCai_1
+      - ‌‌🇨🇦CA_7001atWangCai_1
+      - ‌‌🇨🇦CA_7002atWangCai_1
+      - ‌‌🇨🇦CA_7306atWangCai_1
+      - ‌‌🇨🇦CA_7307atWangCai_1
+      - ‌‌🇨🇦CA_8000atWangCai_1
+      - ‌‌🇨🇦CA_8008atWangCai_1
+      - ‌‌🇨🇦CA_8009atWangCai_1
+      - ‌‌🇨🇦CA_8080atWangCai_1
+      - ‌‌🇨🇦CA_8090atWangCai_1
+      - ‌‌🇨🇦CA_8091atWangCai_1
+      - ‌‌🇨🇦CA_8118atWangCai_1
+      - ‌‌🇨🇦CA_8119atWangCai_1
+      - ‌‌🇨🇦CA_8881atWangCai_1
+      - ‌‌🇨🇦CA_8882atWangCai_1
+      - ‌‌🇨🇦CA_8888atWangCai_1
+      - ‌‌🇨🇦CA_9101atWangCai_1
+      - ‌‌🇨🇦CA_9102atWangCai_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,11 +291,39 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇦_CA_加拿大_5
+      - ‌‌🇨🇦CA_0443atWangCai_1
+      - ‌‌🇨🇦CA_2375atWangCai_1
+      - ‌‌🇨🇦CA_2376atWangCai_1
+      - ‌‌🇨🇦CA_3306atWangCai_1
+      - ‌‌🇨🇦CA_3389atWangCai_1
+      - ‌‌🇨🇦CA_4444atWangCai_1
+      - ‌‌🇨🇦CA_5000atWangCai_1
+      - ‌‌🇨🇦CA_5001atWangCai_1
+      - ‌‌🇨🇦CA_5003atWangCai_1
+      - ‌‌🇨🇦CA_5004atWangCai_1
+      - ‌‌🇨🇦CA_5500atWangCai_1
+      - ‌‌🇨🇦CA_5600atWangCai_1
+      - ‌‌🇨🇦CA_5601atWangCai_1
+      - ‌‌🇨🇦CA_6379atWangCai_1
+      - ‌‌🇨🇦CA_6679atWangCai_1
+      - ‌‌🇨🇦CA_6697atWangCai_1
+      - ‌‌🇨🇦CA_7001atWangCai_1
+      - ‌‌🇨🇦CA_7002atWangCai_1
+      - ‌‌🇨🇦CA_7306atWangCai_1
+      - ‌‌🇨🇦CA_7307atWangCai_1
+      - ‌‌🇨🇦CA_8000atWangCai_1
+      - ‌‌🇨🇦CA_8008atWangCai_1
+      - ‌‌🇨🇦CA_8009atWangCai_1
+      - ‌‌🇨🇦CA_8080atWangCai_1
+      - ‌‌🇨🇦CA_8090atWangCai_1
+      - ‌‌🇨🇦CA_8091atWangCai_1
+      - ‌‌🇨🇦CA_8118atWangCai_1
+      - ‌‌🇨🇦CA_8119atWangCai_1
+      - ‌‌🇨🇦CA_8881atWangCai_1
+      - ‌‌🇨🇦CA_8882atWangCai_1
+      - ‌‌🇨🇦CA_8888atWangCai_1
+      - ‌‌🇨🇦CA_9101atWangCai_1
+      - ‌‌🇨🇦CA_9102atWangCai_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

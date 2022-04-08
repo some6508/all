@@ -566,7 +566,7 @@ proxies:
   - {name: 香港 05, server: hk05.internetsmartrouting.top, port: 25241, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
   - {name: 香港 06, server: hk06.internetsmartrouting.top, port: 23685, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
   - {name: _CA_加拿大, server: 134.195.198.252, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.198.252, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.198.252, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 2, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 3, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
