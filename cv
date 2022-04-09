@@ -5,11 +5,45 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇭🇰_HK_香港_1, server: 120.233.10.218, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: _CA_加拿大_2, server: 134.195.198.252, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_3, server: 120.233.10.218, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_4, server: 120.233.10.218, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: _CA_加拿大_5, server: 134.195.198.252, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: v2cross_com_1, server: hk5dx.v2yun.vip, port: 80, type: vmess, uuid: f1d0e1cb-534f-321f-8f69-64b0f3d25ef1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: v2cross_com_2, server: hk1dx.v2yun.vip, port: 80, type: vmess, uuid: f1d0e1cb-534f-321f-8f69-64b0f3d25ef1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TS/recharge/tzUrl.html, headers: {Host: hk1dx.v2yun.vip}}, udp: true}
+  - {name: v2cross_com_3, server: hk5gb.v2yun.vip, port: 80, type: vmess, uuid: f1d0e1cb-534f-321f-8f69-64b0f3d25ef1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk5gb.v2yun.vip}}, udp: true}
+  - {name: v2cross_com_4, server: hkfzjh.v2yun.vip, port: 80, type: vmess, uuid: f1d0e1cb-534f-321f-8f69-64b0f3d25ef1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: v2cross_com_5, server: hk3wyhzx.v2yun.vip, port: 80, type: vmess, uuid: f1d0e1cb-534f-321f-8f69-64b0f3d25ef1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk3wyhzx.v2yun.vip}}, udp: true}
+  - {name: v2cross_com_6, server: 3.v2yun.vip, port: 80, type: vmess, uuid: f1d0e1cb-534f-321f-8f69-64b0f3d25ef1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3.v2yun.vip}}, udp: true}
+  - {name: v2cross_com_7, server: hkgs.v2yun.vip, port: 80, type: vmess, uuid: 0d68f9c8-ba79-3d39-9f4f-7a597d8f6f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkgs.v2yun.vip}}, udp: true}
+  - {name: v2cross_com_8, server: cmjm.senlinss.link, port: 21118, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_9, server: in05.dns2333.xyz, port: 63081, type: vmess, uuid: 61fefbce-2368-3809-8979-de696ffd3841, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in05.dns2333.xyz}}, udp: true}
+  - {name: v2cross_com_10, server: cmjm.senlinss.link, port: 21147, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_11, server: cmjm.senlinss.link, port: 21114, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_12, server: cmjm.senlinss.link, port: 21120, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_13, server: cmjm.senlinss.link, port: 21119, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_14, server: hkdx.v2yun.vip, port: 80, type: vmess, uuid: f1d0e1cb-534f-321f-8f69-64b0f3d25ef1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkdx.v2yun.vip}}, udp: true}
+  - {name: v2cross_com_15, server: hkcn2.v2yun.vip, port: 8080, type: vmess, uuid: f1d0e1cb-534f-321f-8f69-64b0f3d25ef1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkcn2.v2yun.vip}}, udp: true}
+  - {name: v2cross_com_16, server: cmjm.senlinss.link, port: 21142, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_17, server: in05.dns2333.xyz, port: 63082, type: vmess, uuid: 61fefbce-2368-3809-8979-de696ffd3841, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in05.dns2333.xyz}}, udp: true}
+  - {name: v2cross_com_18, server: cu.fanqie.world, port: 10010, type: vmess, uuid: 892a5d33-5965-3914-8a2e-e9bec0ef5d76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.fanqie.world}}, udp: true}
+  - {name: v2cross_com_19, server: 1.v2yun.vip, port: 10025, type: vmess, uuid: f1d0e1cb-534f-321f-8f69-64b0f3d25ef1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1.v2yun.vip}}, udp: true}
+  - {name: v2cross_com_20, server: 1.v2yun.vip, port: 10031, type: vmess, uuid: f1d0e1cb-534f-321f-8f69-64b0f3d25ef1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1.v2yun.vip}}, udp: true}
+  - {name: v2cross_com_21, server: cmjm.senlinss.link, port: 21124, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_22, server: cmjm.senlinss.link, port: 21126, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_23, server: cmjm.senlinss.link, port: 21123, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_24, server: cmjm.senlinss.link, port: 21115, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_25, server: cmjm.senlinss.link, port: 21148, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_26, server: cmjm.senlinss.link, port: 21122, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_27, server: cmjm.senlinss.link, port: 21130, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_28, server: cmjm.senlinss.link, port: 21113, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_29, server: cmjm.senlinss.link, port: 21121, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_30, server: cu.fanqie.world, port: 10008, type: vmess, uuid: 892a5d33-5965-3914-8a2e-e9bec0ef5d76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.fanqie.world}}, udp: true}
+  - {name: v2cross_com_31, server: cmjm.senlinss.link, port: 21139, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_32, server: cmjm.senlinss.link, port: 21140, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_33, server: cmjm.senlinss.link, port: 21125, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_34, server: cmjm.senlinss.link, port: 21117, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_35, server: cmjm.senlinss.link, port: 21132, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_36, server: cmjm.senlinss.link, port: 21134, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_37, server: cmjm.senlinss.link, port: 21133, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_38, server: in04.dns2333.xyz, port: 63004, type: vmess, uuid: 61fefbce-2368-3809-8979-de696ffd3841, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in04.dns2333.xyz}}, udp: true}
+  - {name: v2cross_com_39, server: tw2501.cloudmatrix.xyz, port: 2501, type: vmess, uuid: 1469c8ff-4b3a-33fe-ab96-c8c831cacc47, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw2501.cloudmatrix.xyz}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: us1.31vpn.com, port: 80, type: vmess, uuid: bb4b9e95-c9ff-411c-9a47-483570e169aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/remaoqi/624ca41d72e6d/, headers: {Host: us1.31vpn.com}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.51, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
@@ -1572,11 +1606,45 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _CN_中国->🇭🇰_HK_香港_1
-      - _CA_加拿大_2
-      - _CN_中国->🇭🇰_HK_香港_3
-      - _CN_中国->🇭🇰_HK_香港_4
-      - _CA_加拿大_5
+      - v2cross_com_1
+      - v2cross_com_2
+      - v2cross_com_3
+      - v2cross_com_4
+      - v2cross_com_5
+      - v2cross_com_6
+      - v2cross_com_7
+      - v2cross_com_8
+      - v2cross_com_9
+      - v2cross_com_10
+      - v2cross_com_11
+      - v2cross_com_12
+      - v2cross_com_13
+      - v2cross_com_14
+      - v2cross_com_15
+      - v2cross_com_16
+      - v2cross_com_17
+      - v2cross_com_18
+      - v2cross_com_19
+      - v2cross_com_20
+      - v2cross_com_21
+      - v2cross_com_22
+      - v2cross_com_23
+      - v2cross_com_24
+      - v2cross_com_25
+      - v2cross_com_26
+      - v2cross_com_27
+      - v2cross_com_28
+      - v2cross_com_29
+      - v2cross_com_30
+      - v2cross_com_31
+      - v2cross_com_32
+      - v2cross_com_33
+      - v2cross_com_34
+      - v2cross_com_35
+      - v2cross_com_36
+      - v2cross_com_37
+      - v2cross_com_38
+      - v2cross_com_39
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -3139,11 +3207,45 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _CN_中国->🇭🇰_HK_香港_1
-      - _CA_加拿大_2
-      - _CN_中国->🇭🇰_HK_香港_3
-      - _CN_中国->🇭🇰_HK_香港_4
-      - _CA_加拿大_5
+      - v2cross_com_1
+      - v2cross_com_2
+      - v2cross_com_3
+      - v2cross_com_4
+      - v2cross_com_5
+      - v2cross_com_6
+      - v2cross_com_7
+      - v2cross_com_8
+      - v2cross_com_9
+      - v2cross_com_10
+      - v2cross_com_11
+      - v2cross_com_12
+      - v2cross_com_13
+      - v2cross_com_14
+      - v2cross_com_15
+      - v2cross_com_16
+      - v2cross_com_17
+      - v2cross_com_18
+      - v2cross_com_19
+      - v2cross_com_20
+      - v2cross_com_21
+      - v2cross_com_22
+      - v2cross_com_23
+      - v2cross_com_24
+      - v2cross_com_25
+      - v2cross_com_26
+      - v2cross_com_27
+      - v2cross_com_28
+      - v2cross_com_29
+      - v2cross_com_30
+      - v2cross_com_31
+      - v2cross_com_32
+      - v2cross_com_33
+      - v2cross_com_34
+      - v2cross_com_35
+      - v2cross_com_36
+      - v2cross_com_37
+      - v2cross_com_38
+      - v2cross_com_39
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
