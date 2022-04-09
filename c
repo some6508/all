@@ -5,60 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇩🇪_DE_德国_1","server":"vpn-eu-node002-fa.hi-l.eu","port":4115,"type":"ss","country":"🇩🇪_DE_德国_1","cipher":"chacha20-ietf-poly1305","password":"RL8zWRu9ESs9"}
-  - {"name":"🇺🇸_US_美国->🇨🇿_CZ_捷克_2","server":"cg.rutracker-cn.com","port":443,"type":"vmess","uuid":"5cf05a99-0d57-419e-99f6-8f2b447f129b","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇨🇿_CZ_捷克_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/teishTqRb","headers":{"host":"cg.rutracker-cn.com"}}}
-  - {"name":"default_name_3","server":"oz.moonfree.top","port":443,"type":"vmess","uuid":"ecea9b32-d571-460f-bb74-2010c6acd6ff","alterId":0,"cipher":"auto","country":"default_name_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oz.moonfree.top"}}}
+  - {"name":"🇺🇸_US_美国->🇨🇿_CZ_捷克_1","server":"cg.rutracker-cn.com","port":443,"type":"vmess","uuid":"5cf05a99-0d57-419e-99f6-8f2b447f129b","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇨🇿_CZ_捷克_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/teishTqRb","headers":{"host":"cg.rutracker-cn.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇩🇪_DE_德国_1
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_2
-      - default_name_3
+      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇩🇪_DE_德国_1
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_2
-      - default_name_3
+      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国_1
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_2
-      - default_name_3
+      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国_1
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_2
-      - default_name_3
+      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇩🇪_DE_德国_1
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_2
-      - default_name_3
+      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国_1
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_2
-      - default_name_3
+      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -81,9 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪_DE_德国_1
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_2
-      - default_name_3
+      - 🇺🇸_US_美国->🇨🇿_CZ_捷克_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
