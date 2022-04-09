@@ -6,6 +6,10 @@ log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
   - {"name":"🇺🇸_US_美国->🇨🇿_CZ_捷克_1","server":"cg.rutracker-cn.com","port":443,"type":"vmess","uuid":"5cf05a99-0d57-419e-99f6-8f2b447f129b","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇨🇿_CZ_捷克_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/teishTqRb","headers":{"host":"cg.rutracker-cn.com"}}}
+  - {"name":"🇸🇬_SG_新加坡_2","server":"sg1.31vpn.com","port":443,"type":"vmess","uuid":"dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee","alterId":0,"cipher":"auto","country":"🇸🇬_SG_新加坡_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/fastssh/bddasdf/624e71635ed8e/","headers":{"host":"sg1.31vpn.com"}}}
+  - {"name":"🇸🇬_SG_新加坡->🇩🇪_DE_德国_3","server":"eu.licom.ga","port":62011,"type":"vmess","uuid":"f81e990e-1283-48f9-9eff-acacad6fb661","alterId":0,"cipher":"auto","country":"🇸🇬_SG_新加坡->🇩🇪_DE_德国_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"eu.licom.ga"}}}
+  - {"name":"default_name_4","server":"cd.rutracker-cn.com","port":443,"type":"vmess","uuid":"8f5ccb11-a196-4c07-a6d2-aa9fbe10a737","alterId":0,"cipher":"auto","country":"default_name_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/PK2tDAFP","headers":{"host":"cd.rutracker-cn.com"}}}
+  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.198.252","port":4444,"type":"ss","country":"🇨🇦_CA_加拿大_5","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +17,10 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克_1
+      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - default_name_4
+      - 🇨🇦_CA_加拿大_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,6 +28,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克_1
+      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - default_name_4
+      - 🇨🇦_CA_加拿大_5
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -27,24 +39,40 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克_1
+      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - default_name_4
+      - 🇨🇦_CA_加拿大_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克_1
+      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - default_name_4
+      - 🇨🇦_CA_加拿大_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克_1
+      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - default_name_4
+      - 🇨🇦_CA_加拿大_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克_1
+      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - default_name_4
+      - 🇨🇦_CA_加拿大_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -68,6 +96,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克_1
+      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - default_name_4
+      - 🇨🇦_CA_加拿大_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
