@@ -5,46 +5,81 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"defaultName_1","server":"43.132.239.231","port":65535,"type":"ss","country":"defaultName_1","cipher":"aes-256-cfb","password":"441768"}
+  - {"name":"US_2382+_33_47Mb_1","server":"jp1.qingyun123.xyz","port":10100,"type":"trojan","country":"US_2382+_33_47Mb_1","skip-cert-verify":true,"udp":true,"password":"8c26295e-8c01-42fd-a38a-53dda97f29b1"}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_3555","server":"kr02.ayanami.best","port":80,"type":"vmess","uuid":"3a294af3-7cff-48f3-bb4b-595961b895cc","alterId":0,"cipher":"auto","country":"Relay_🇺🇸US-🇺🇸US_3555","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"kr02.ayanami.best"}}}
+  - {"name":"US_2358+_27_84Mb_3","server":"hk1.qingyun123.xyz","port":10050,"type":"trojan","country":"US_2358+_27_84Mb_3","skip-cert-verify":true,"udp":true,"password":"e5b8c9d0-bff0-4232-ae36-0492d3f23d6c"}
+  - {"name":"Relay_🇨🇳CN-🇩🇪DE_432","server":"fsdxtotcsgp2.ggboynextdoor.best","port":49046,"type":"ssr","country":"Relay_🇨🇳CN-🇩🇪DE_432","password":"lGBMNO","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"4173:OrUbgB","obfs-param":"9f7c44173.download.windowsupdate.com"}
+  - {"name":"Relay_🇨🇳CN-🇩🇪DE_436","server":"mmwagasgp.ggboynextdoor.best","port":37995,"type":"ssr","country":"Relay_🇨🇳CN-🇩🇪DE_436","password":"lGBMNO","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"4173:OrUbgB","obfs-param":"9f7c44173.download.windowsupdate.com"}
+  - {"name":"Relay_🇨🇳CN-🇺🇸US_440","server":"kriplcnat.ggboynextdoor.best","port":23401,"type":"ssr","country":"Relay_🇨🇳CN-🇺🇸US_440","password":"lGBMNO","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"4173:OrUbgB","obfs-param":"9f7c44173.download.windowsupdate.com"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName_1
+      - US_2382+_33_47Mb_1
+      - Relay_🇺🇸US-🇺🇸US_3555
+      - US_2358+_27_84Mb_3
+      - Relay_🇨🇳CN-🇩🇪DE_432
+      - Relay_🇨🇳CN-🇩🇪DE_436
+      - Relay_🇨🇳CN-🇺🇸US_440
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName_1
+      - US_2382+_33_47Mb_1
+      - Relay_🇺🇸US-🇺🇸US_3555
+      - US_2358+_27_84Mb_3
+      - Relay_🇨🇳CN-🇩🇪DE_432
+      - Relay_🇨🇳CN-🇩🇪DE_436
+      - Relay_🇨🇳CN-🇺🇸US_440
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName_1
+      - US_2382+_33_47Mb_1
+      - Relay_🇺🇸US-🇺🇸US_3555
+      - US_2358+_27_84Mb_3
+      - Relay_🇨🇳CN-🇩🇪DE_432
+      - Relay_🇨🇳CN-🇩🇪DE_436
+      - Relay_🇨🇳CN-🇺🇸US_440
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
+      - US_2382+_33_47Mb_1
+      - Relay_🇺🇸US-🇺🇸US_3555
+      - US_2358+_27_84Mb_3
+      - Relay_🇨🇳CN-🇩🇪DE_432
+      - Relay_🇨🇳CN-🇩🇪DE_436
+      - Relay_🇨🇳CN-🇺🇸US_440
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName_1
+      - US_2382+_33_47Mb_1
+      - Relay_🇺🇸US-🇺🇸US_3555
+      - US_2358+_27_84Mb_3
+      - Relay_🇨🇳CN-🇩🇪DE_432
+      - Relay_🇨🇳CN-🇩🇪DE_436
+      - Relay_🇨🇳CN-🇺🇸US_440
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
+      - US_2382+_33_47Mb_1
+      - Relay_🇺🇸US-🇺🇸US_3555
+      - US_2358+_27_84Mb_3
+      - Relay_🇨🇳CN-🇩🇪DE_432
+      - Relay_🇨🇳CN-🇩🇪DE_436
+      - Relay_🇨🇳CN-🇺🇸US_440
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +102,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName_1
+      - US_2382+_33_47Mb_1
+      - Relay_🇺🇸US-🇺🇸US_3555
+      - US_2358+_27_84Mb_3
+      - Relay_🇨🇳CN-🇩🇪DE_432
+      - Relay_🇨🇳CN-🇩🇪DE_436
+      - Relay_🇨🇳CN-🇺🇸US_440
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
