@@ -5,88 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"ahdaeph8.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"🇺🇸_US_美国_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}}}
-  - {"name":"🇸🇬_SG_新加坡->🇩🇪_DE_德国_2","server":"eu.licom.ga","port":62013,"type":"vmess","uuid":"f81e990e-1283-48f9-9eff-acacad6fb661","alterId":0,"cipher":"auto","country":"🇸🇬_SG_新加坡->🇩🇪_DE_德国_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇸🇬_SG_新加坡->🇩🇪_DE_德国_3","server":"eu.licom.ga","port":62011,"type":"vmess","uuid":"f81e990e-1283-48f9-9eff-acacad6fb661","alterId":0,"cipher":"auto","country":"🇸🇬_SG_新加坡->🇩🇪_DE_德国_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"eu.licom.ga"}}}
-  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.198.252","port":4444,"type":"ss","country":"🇨🇦_CA_加拿大_4","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.198.252","port":443,"type":"ss","country":"🇨🇦_CA_加拿大_5","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"default_name_6","server":"104.16.104.126","port":443,"type":"vmess","uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","country":"default_name_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","headers":{"host":"sweet-salad-aa33.tianzhen19880808.workers.dev"}}}
-  - {"name":"default_name_7","server":"104.16.196.47","port":443,"type":"vmess","uuid":"3256a220-3c95-4844-839c-3b509c1c0997","alterId":0,"cipher":"auto","country":"default_name_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"production.flat-firefly-71d2.v20210811.workers.dev"}}}
+  - {"name":"🇩🇪_DE_德国_1","server":"vpn-eu-node002-fa.hi-l.eu","port":4115,"type":"ss","country":"🇩🇪_DE_德国_1","cipher":"chacha20-ietf-poly1305","password":"RL8zWRu9ESs9"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_2
-      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - default_name_6
-      - default_name_7
+      - 🇩🇪_DE_德国_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_2
-      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - default_name_6
-      - default_name_7
+      - 🇩🇪_DE_德国_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_2
-      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - default_name_6
-      - default_name_7
+      - 🇩🇪_DE_德国_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_2
-      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - default_name_6
-      - default_name_7
+      - 🇩🇪_DE_德国_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_2
-      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - default_name_6
-      - default_name_7
+      - 🇩🇪_DE_德国_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_2
-      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - default_name_6
-      - default_name_7
+      - 🇩🇪_DE_德国_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -109,13 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_2
-      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - default_name_6
-      - default_name_7
+      - 🇩🇪_DE_德国_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
