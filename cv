@@ -6,6 +6,10 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: _US_美国->🇨🇿_CZ_捷克_1, server: cg.rutracker-cn.com, port: 443, type: vmess, uuid: 5cf05a99-0d57-419e-99f6-8f2b447f129b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /teishTqRb, headers: {Host: cg.rutracker-cn.com}}, udp: true}
+  - {name: _SG_新加坡_2, server: sg1.31vpn.com, port: 443, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/bddasdf/624e71635ed8e/, headers: {Host: sg1.31vpn.com}}, udp: true}
+  - {name: _SG_新加坡->🇩🇪_DE_德国_3, server: eu.licom.ga, port: 62011, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu.licom.ga}}, udp: true}
+  - {name: default_name_4, server: cd.rutracker-cn.com, port: 443, type: vmess, uuid: 8f5ccb11-a196-4c07-a6d2-aa9fbe10a737, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /PK2tDAFP, headers: {Host: cd.rutracker-cn.com}}, udp: true}
+  - {name: _CA_加拿大_5, server: 134.195.198.252, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: eu.licom.ga, port: 62011, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu.licom.ga}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: eu.licom.ga, port: 60001, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, sni: eu.licom.ga, skip-cert-verify: true, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 3, server: sg1.31vpn.com, port: 443, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/bddasdf/624e71635ed8e/, headers: {Host: sg1.31vpn.com}}, udp: true}
@@ -1515,6 +1519,10 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择节点
       - _US_美国->🇨🇿_CZ_捷克_1
+      - _SG_新加坡_2
+      - _SG_新加坡->🇩🇪_DE_德国_3
+      - default_name_4
+      - _CA_加拿大_5
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -3024,6 +3032,10 @@ proxy-groups:
     interval: 150
     proxies:
       - _US_美国->🇨🇿_CZ_捷克_1
+      - _SG_新加坡_2
+      - _SG_新加坡->🇩🇪_DE_德国_3
+      - default_name_4
+      - _CA_加拿大_5
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
