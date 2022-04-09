@@ -5,11 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国->🇨🇿_CZ_捷克_1, server: cg.rutracker-cn.com, port: 443, type: vmess, uuid: 5cf05a99-0d57-419e-99f6-8f2b447f129b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /teishTqRb, headers: {Host: cg.rutracker-cn.com}}, udp: true}
-  - {name: _SG_新加坡_2, server: sg1.31vpn.com, port: 443, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/bddasdf/624e71635ed8e/, headers: {Host: sg1.31vpn.com}}, udp: true}
-  - {name: _SG_新加坡->🇩🇪_DE_德国_3, server: eu.licom.ga, port: 62011, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu.licom.ga}}, udp: true}
-  - {name: default_name_4, server: cd.rutracker-cn.com, port: 443, type: vmess, uuid: 8f5ccb11-a196-4c07-a6d2-aa9fbe10a737, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /PK2tDAFP, headers: {Host: cd.rutracker-cn.com}}, udp: true}
-  - {name: _CA_加拿大_5, server: 134.195.198.252, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: (t_me/proSSH)Germany●1_1, server: 167.86.82.191, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1z7k5IMlPsvk, udp: true}
+  - {name: (t_me/proSSH)Germany●2_2, server: 139.162.189.117, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: (t_me/proSSH)Germany●3_3, server: 135.125.244.103, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: (t_me/proSSH)Italy●1_4, server: 95.141.37.111, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: (t_me/proSSH)Italy●2_5, server: 91.193.5.198, port: 50007, type: ss, cipher: aes-256-cfb, password: !<str> 7122910143, udp: true}
+  - {name: (t_me/proSSH)Canada_6, server: 51.161.118.38, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: (t_me/proSSH)India_7, server: 192.46.208.153, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: (t_me/proSSH)France●1_8, server: 92.243.24.236, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LE6Ee6PELhVu, udp: true}
+  - {name: (t_me/proSSH)France●2_9, server: 95.142.161.161, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: X7EBlPe92tq6, udp: true}
+  - {name: (t_me/proSSH)France●3_10, server: 51.159.30.61, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君), server: eu.licom.ga, port: 62011, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu.licom.ga}}, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: eu.licom.ga, port: 60001, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, sni: eu.licom.ga, skip-cert-verify: true, udp: true}
   - {name: 新加坡(欢迎订阅Youtube破解资源君) 3, server: sg1.31vpn.com, port: 443, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/bddasdf/624e71635ed8e/, headers: {Host: sg1.31vpn.com}}, udp: true}
@@ -1532,11 +1537,16 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _US_美国->🇨🇿_CZ_捷克_1
-      - _SG_新加坡_2
-      - _SG_新加坡->🇩🇪_DE_德国_3
-      - default_name_4
-      - _CA_加拿大_5
+      - (t_me/proSSH)Germany●1_1
+      - (t_me/proSSH)Germany●2_2
+      - (t_me/proSSH)Germany●3_3
+      - (t_me/proSSH)Italy●1_4
+      - (t_me/proSSH)Italy●2_5
+      - (t_me/proSSH)Canada_6
+      - (t_me/proSSH)India_7
+      - (t_me/proSSH)France●1_8
+      - (t_me/proSSH)France●2_9
+      - (t_me/proSSH)France●3_10
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3
@@ -3059,11 +3069,16 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _US_美国->🇨🇿_CZ_捷克_1
-      - _SG_新加坡_2
-      - _SG_新加坡->🇩🇪_DE_德国_3
-      - default_name_4
-      - _CA_加拿大_5
+      - (t_me/proSSH)Germany●1_1
+      - (t_me/proSSH)Germany●2_2
+      - (t_me/proSSH)Germany●3_3
+      - (t_me/proSSH)Italy●1_4
+      - (t_me/proSSH)Italy●2_5
+      - (t_me/proSSH)Canada_6
+      - (t_me/proSSH)India_7
+      - (t_me/proSSH)France●1_8
+      - (t_me/proSSH)France●2_9
+      - (t_me/proSSH)France●3_10
       - 新加坡(欢迎订阅Youtube破解资源君)
       - 新加坡(欢迎订阅Youtube破解资源君) 2
       - 新加坡(欢迎订阅Youtube破解资源君) 3

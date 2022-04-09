@@ -5,109 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"(t_me/proSSH)Germany●1_1","server":"167.86.82.191","port":443,"type":"ss","country":"(t_me/proSSH)Germany●1_1","cipher":"chacha20-ietf-poly1305","password":"1z7k5IMlPsvk"}
-  - {"name":"(t_me/proSSH)Germany●2_2","server":"139.162.189.117","port":8080,"type":"ss","country":"(t_me/proSSH)Germany●2_2","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"(t_me/proSSH)Germany●3_3","server":"135.125.244.103","port":989,"type":"ss","country":"(t_me/proSSH)Germany●3_3","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"(t_me/proSSH)Italy●1_4","server":"95.141.37.111","port":809,"type":"ss","country":"(t_me/proSSH)Italy●1_4","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"(t_me/proSSH)Italy●2_5","server":"91.193.5.198","port":50007,"type":"ss","country":"(t_me/proSSH)Italy●2_5","cipher":"aes-256-cfb","password":"7122910143"}
-  - {"name":"(t_me/proSSH)Canada_6","server":"51.161.118.38","port":806,"type":"ss","country":"(t_me/proSSH)Canada_6","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"(t_me/proSSH)India_7","server":"192.46.208.153","port":2376,"type":"ss","country":"(t_me/proSSH)India_7","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"(t_me/proSSH)France●1_8","server":"92.243.24.236","port":443,"type":"ss","country":"(t_me/proSSH)France●1_8","cipher":"chacha20-ietf-poly1305","password":"LE6Ee6PELhVu"}
-  - {"name":"(t_me/proSSH)France●2_9","server":"95.142.161.161","port":443,"type":"ss","country":"(t_me/proSSH)France●2_9","cipher":"chacha20-ietf-poly1305","password":"X7EBlPe92tq6"}
-  - {"name":"(t_me/proSSH)France●3_10","server":"51.159.30.61","port":801,"type":"ss","country":"(t_me/proSSH)France●3_10","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇮🇳_IN_印度_1","server":"172.105.40.184","port":2375,"type":"ss","country":"🇮🇳_IN_印度_1","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - (t_me/proSSH)Germany●1_1
-      - (t_me/proSSH)Germany●2_2
-      - (t_me/proSSH)Germany●3_3
-      - (t_me/proSSH)Italy●1_4
-      - (t_me/proSSH)Italy●2_5
-      - (t_me/proSSH)Canada_6
-      - (t_me/proSSH)India_7
-      - (t_me/proSSH)France●1_8
-      - (t_me/proSSH)France●2_9
-      - (t_me/proSSH)France●3_10
+      - 🇮🇳_IN_印度_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - (t_me/proSSH)Germany●1_1
-      - (t_me/proSSH)Germany●2_2
-      - (t_me/proSSH)Germany●3_3
-      - (t_me/proSSH)Italy●1_4
-      - (t_me/proSSH)Italy●2_5
-      - (t_me/proSSH)Canada_6
-      - (t_me/proSSH)India_7
-      - (t_me/proSSH)France●1_8
-      - (t_me/proSSH)France●2_9
-      - (t_me/proSSH)France●3_10
+      - 🇮🇳_IN_印度_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - (t_me/proSSH)Germany●1_1
-      - (t_me/proSSH)Germany●2_2
-      - (t_me/proSSH)Germany●3_3
-      - (t_me/proSSH)Italy●1_4
-      - (t_me/proSSH)Italy●2_5
-      - (t_me/proSSH)Canada_6
-      - (t_me/proSSH)India_7
-      - (t_me/proSSH)France●1_8
-      - (t_me/proSSH)France●2_9
-      - (t_me/proSSH)France●3_10
+      - 🇮🇳_IN_印度_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - (t_me/proSSH)Germany●1_1
-      - (t_me/proSSH)Germany●2_2
-      - (t_me/proSSH)Germany●3_3
-      - (t_me/proSSH)Italy●1_4
-      - (t_me/proSSH)Italy●2_5
-      - (t_me/proSSH)Canada_6
-      - (t_me/proSSH)India_7
-      - (t_me/proSSH)France●1_8
-      - (t_me/proSSH)France●2_9
-      - (t_me/proSSH)France●3_10
+      - 🇮🇳_IN_印度_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - (t_me/proSSH)Germany●1_1
-      - (t_me/proSSH)Germany●2_2
-      - (t_me/proSSH)Germany●3_3
-      - (t_me/proSSH)Italy●1_4
-      - (t_me/proSSH)Italy●2_5
-      - (t_me/proSSH)Canada_6
-      - (t_me/proSSH)India_7
-      - (t_me/proSSH)France●1_8
-      - (t_me/proSSH)France●2_9
-      - (t_me/proSSH)France●3_10
+      - 🇮🇳_IN_印度_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - (t_me/proSSH)Germany●1_1
-      - (t_me/proSSH)Germany●2_2
-      - (t_me/proSSH)Germany●3_3
-      - (t_me/proSSH)Italy●1_4
-      - (t_me/proSSH)Italy●2_5
-      - (t_me/proSSH)Canada_6
-      - (t_me/proSSH)India_7
-      - (t_me/proSSH)France●1_8
-      - (t_me/proSSH)France●2_9
-      - (t_me/proSSH)France●3_10
+      - 🇮🇳_IN_印度_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - (t_me/proSSH)Germany●1_1
-      - (t_me/proSSH)Germany●2_2
-      - (t_me/proSSH)Germany●3_3
-      - (t_me/proSSH)Italy●1_4
-      - (t_me/proSSH)Italy●2_5
-      - (t_me/proSSH)Canada_6
-      - (t_me/proSSH)India_7
-      - (t_me/proSSH)France●1_8
-      - (t_me/proSSH)France●2_9
-      - (t_me/proSSH)France●3_10
+      - 🇮🇳_IN_印度_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
