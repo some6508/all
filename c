@@ -5,135 +5,74 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"俄罗斯E_1","server":"194.147.86.26","port":9797,"type":"ssr","country":"俄罗斯E_1","password":"lncn.org
-    5f","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯F_2","server":"195.245.239.15","port":9797,"type":"ssr","country":"俄罗斯F_2","password":"lncn.org
-    5f","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯G_3","server":"45.8.158.201","port":9797,"type":"ssr","country":"俄罗斯G_3","password":"lncn.org
-    5f","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯H_4","server":"46.29.160.130","port":9797,"type":"ssr","country":"俄罗斯H_4","password":"lncn.org
-    5f","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯I_5","server":"194.147.34.32","port":9797,"type":"ssr","country":"俄罗斯I_5","password":"lncn.org
-    t5","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯J_6","server":"45.130.147.192","port":9797,"type":"ssr","country":"俄罗斯J_6","password":"lncn.org
-    t5","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯K_7","server":"176.32.32.118","port":9797,"type":"ssr","country":"俄罗斯K_7","password":"lncn.org
-    t5","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯L_8","server":"91.198.220.84","port":9797,"type":"ssr","country":"俄罗斯L_8","password":"lncn.org
-    t5","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯M_9","server":"194.147.34.162","port":9797,"type":"ssr","country":"俄罗斯M_9","password":"lncn.org
-    n2","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯N_10","server":"45.130.146.233","port":9797,"type":"ssr","country":"俄罗斯N_10","password":"lncn.org
-    n2","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯O_11","server":"46.17.47.156","port":9797,"type":"ssr","country":"俄罗斯O_11","password":"lncn.org
-    n2","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯P_12","server":"46.29.160.101","port":9797,"type":"ssr","country":"俄罗斯P_12","password":"lncn.org
-    n2","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"🇺🇸_US_美国_1","server":"sjc.xrenblog.com","port":18888,"type":"vmess","uuid":"0febc8e5-8463-440f-961a-6ea09d429d1c","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xrenblog","headers":{"host":"sjc.xrenblog.com"}}}
+  - {"name":"🇺🇸_US_美国_2","server":"169.197.143.157","port":9102,"type":"ss","country":"🇺🇸_US_美国_2","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_3","server":"142.202.48.17","port":7307,"type":"ss","country":"🇺🇸_US_美国_3","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_4","server":"169.197.142.216","port":7306,"type":"ss","country":"🇺🇸_US_美国_4","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_5","server":"169.197.142.99","port":8090,"type":"ss","country":"🇺🇸_US_美国_5","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 俄罗斯E_1
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 俄罗斯E_1
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 俄罗斯E_1
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 俄罗斯E_1
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 俄罗斯E_1
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 俄罗斯E_1
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,18 +95,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 俄罗斯E_1
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
