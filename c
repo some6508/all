@@ -5,221 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇩🇪_DE_德国_1","server":"download.cn.connecat.com","port":60005,"type":"vmess","uuid":"d8b51f0b-8d4a-34ef-bc02-9c729c253e96","alterId":1,"cipher":"auto","country":"🇨🇳_CN_中国->🇩🇪_DE_德国_1","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"headers":{"host":"download.cn.connecat.com"}}}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_2","server":"download.cn.connecat.com","port":60021,"type":"vmess","uuid":"d8b51f0b-8d4a-34ef-bc02-9c729c253e96","alterId":1,"cipher":"auto","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_2","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"headers":{"host":"download.cn.connecat.com"}}}
-  - {"name":"🇦🇺_AU_澳大利亚_3","server":"185.167.116.38","port":9006,"type":"ss","country":"🇦🇺_AU_澳大利亚_3","cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
-  - {"name":"🇧🇬_BG_保加利亚_4","server":"213.183.63.217","port":9000,"type":"ss","country":"🇧🇬_BG_保加利亚_4","cipher":"aes-256-cfb","password":"a3GFYt36Sm82Vys9"}
-  - {"name":"🇧🇬_BG_保加利亚_5","server":"213.183.63.219","port":9079,"type":"ss","country":"🇧🇬_BG_保加利亚_5","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
-  - {"name":"🇧🇬_BG_保加利亚_6","server":"213.183.63.217","port":9011,"type":"ss","country":"🇧🇬_BG_保加利亚_6","cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa"}
-  - {"name":"🇦🇺_AU_澳大利亚_7","server":"185.167.116.38","port":9084,"type":"ss","country":"🇦🇺_AU_澳大利亚_7","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
-  - {"name":"🇦🇺_AU_澳大利亚_8","server":"185.167.116.38","port":9003,"type":"ss","country":"🇦🇺_AU_澳大利亚_8","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_9","server":"download.cn.connecat.com","port":60016,"type":"vmess","uuid":"d8b51f0b-8d4a-34ef-bc02-9c729c253e96","alterId":1,"cipher":"auto","country":"🇨🇳_CN_中国->🇺🇸_US_美国_9","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"headers":{"host":"download.cn.connecat.com"}}}
-  - {"name":"🇩🇪_DE_德国_10","server":"5.183.179.145","port":9015,"type":"ss","country":"🇩🇪_DE_德国_10","cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf"}
-  - {"name":"🇬🇧_GB_英国_11","server":"152.89.210.84","port":9037,"type":"ss","country":"🇬🇧_GB_英国_11","cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
-  - {"name":"🇧🇬_BG_保加利亚_12","server":"213.183.63.218","port":9079,"type":"ss","country":"🇧🇬_BG_保加利亚_12","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
-  - {"name":"🇧🇬_BG_保加利亚_13","server":"213.183.63.217","port":9010,"type":"ss","country":"🇧🇬_BG_保加利亚_13","cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
-  - {"name":"🇧🇬_BG_保加利亚_14","server":"213.183.63.217","port":9045,"type":"ss","country":"🇧🇬_BG_保加利亚_14","cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX"}
-  - {"name":"defaultName_15","server":"213.183.53.177","port":9027,"type":"ssr","country":"defaultName_15","password":"EXN3S3eQpjE7EJu8","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_16","server":"213.183.53.177","port":9042,"type":"ssr","country":"defaultName_16","password":"S7KwUu7yBy58S3Ga","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_17","server":"213.183.53.177","port":9045,"type":"ssr","country":"defaultName_17","password":"Lp27rqyJq72bZsqX","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_18","server":"213.183.53.177","port":9053,"type":"ssr","country":"defaultName_18","password":"SBM7R883jBmnqe6C","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_19","server":"213.183.53.177","port":9094,"type":"ssr","country":"defaultName_19","password":"rpgbNnU9rDDU4aWZ","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_20","server":"213.183.53.177","port":9019,"type":"ssr","country":"defaultName_20","password":"GA9KzeEgvfxNrgmM","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_21","server":"213.183.53.177","port":9084,"type":"ssr","country":"defaultName_21","password":"c3NtHJ5ujV2tGDfj","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_22","server":"213.183.53.177","port":9032,"type":"ssr","country":"defaultName_22","password":"UWZQeLRWnkqgkseq","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_23","server":"213.183.53.177","port":9073,"type":"ssr","country":"defaultName_23","password":"daFYagqDdBdA6VTX","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇺🇸_US_美国_24","server":"38.143.66.20","port":5000,"type":"ss","country":"🇺🇸_US_美国_24","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_25","server":"38.143.66.20","port":6679,"type":"ss","country":"🇺🇸_US_美国_25","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸_US_美国_26","server":"38.143.66.20","port":9101,"type":"ss","country":"🇺🇸_US_美国_26","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"NimNetworkBot_1","server":"reallyamir1.linkirani.xyz","port":8751,"type":"ss","country":"NimNetworkBot_1","cipher":"aes-256-gcm","password":"j27xJRWhg8k4dTGpJMedb6zE"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇦🇺_AU_澳大利亚_3
-      - 🇧🇬_BG_保加利亚_4
-      - 🇧🇬_BG_保加利亚_5
-      - 🇧🇬_BG_保加利亚_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇦🇺_AU_澳大利亚_8
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇩🇪_DE_德国_10
-      - 🇬🇧_GB_英国_11
-      - 🇧🇬_BG_保加利亚_12
-      - 🇧🇬_BG_保加利亚_13
-      - 🇧🇬_BG_保加利亚_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - defaultName_22
-      - defaultName_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
+      - NimNetworkBot_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇦🇺_AU_澳大利亚_3
-      - 🇧🇬_BG_保加利亚_4
-      - 🇧🇬_BG_保加利亚_5
-      - 🇧🇬_BG_保加利亚_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇦🇺_AU_澳大利亚_8
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇩🇪_DE_德国_10
-      - 🇬🇧_GB_英国_11
-      - 🇧🇬_BG_保加利亚_12
-      - 🇧🇬_BG_保加利亚_13
-      - 🇧🇬_BG_保加利亚_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - defaultName_22
-      - defaultName_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
+      - NimNetworkBot_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇦🇺_AU_澳大利亚_3
-      - 🇧🇬_BG_保加利亚_4
-      - 🇧🇬_BG_保加利亚_5
-      - 🇧🇬_BG_保加利亚_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇦🇺_AU_澳大利亚_8
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇩🇪_DE_德国_10
-      - 🇬🇧_GB_英国_11
-      - 🇧🇬_BG_保加利亚_12
-      - 🇧🇬_BG_保加利亚_13
-      - 🇧🇬_BG_保加利亚_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - defaultName_22
-      - defaultName_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
+      - NimNetworkBot_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇦🇺_AU_澳大利亚_3
-      - 🇧🇬_BG_保加利亚_4
-      - 🇧🇬_BG_保加利亚_5
-      - 🇧🇬_BG_保加利亚_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇦🇺_AU_澳大利亚_8
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇩🇪_DE_德国_10
-      - 🇬🇧_GB_英国_11
-      - 🇧🇬_BG_保加利亚_12
-      - 🇧🇬_BG_保加利亚_13
-      - 🇧🇬_BG_保加利亚_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - defaultName_22
-      - defaultName_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
+      - NimNetworkBot_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇦🇺_AU_澳大利亚_3
-      - 🇧🇬_BG_保加利亚_4
-      - 🇧🇬_BG_保加利亚_5
-      - 🇧🇬_BG_保加利亚_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇦🇺_AU_澳大利亚_8
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇩🇪_DE_德国_10
-      - 🇬🇧_GB_英国_11
-      - 🇧🇬_BG_保加利亚_12
-      - 🇧🇬_BG_保加利亚_13
-      - 🇧🇬_BG_保加利亚_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - defaultName_22
-      - defaultName_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
+      - NimNetworkBot_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇦🇺_AU_澳大利亚_3
-      - 🇧🇬_BG_保加利亚_4
-      - 🇧🇬_BG_保加利亚_5
-      - 🇧🇬_BG_保加利亚_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇦🇺_AU_澳大利亚_8
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇩🇪_DE_德国_10
-      - 🇬🇧_GB_英国_11
-      - 🇧🇬_BG_保加利亚_12
-      - 🇧🇬_BG_保加利亚_13
-      - 🇧🇬_BG_保加利亚_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - defaultName_22
-      - defaultName_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
+      - NimNetworkBot_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -242,32 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇦🇺_AU_澳大利亚_3
-      - 🇧🇬_BG_保加利亚_4
-      - 🇧🇬_BG_保加利亚_5
-      - 🇧🇬_BG_保加利亚_6
-      - 🇦🇺_AU_澳大利亚_7
-      - 🇦🇺_AU_澳大利亚_8
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇩🇪_DE_德国_10
-      - 🇬🇧_GB_英国_11
-      - 🇧🇬_BG_保加利亚_12
-      - 🇧🇬_BG_保加利亚_13
-      - 🇧🇬_BG_保加利亚_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - defaultName_22
-      - defaultName_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
+      - NimNetworkBot_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
