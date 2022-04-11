@@ -1040,15 +1040,56 @@ proxies:
   - {name: 香港 04, server: hk04.internetsmartrouting.top, port: 46889, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
   - {name: 香港 05, server: hk05.internetsmartrouting.top, port: 25241, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
   - {name: 香港 06, server: hk06.internetsmartrouting.top, port: 23685, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
-  - {name: 213.183.53.177:9070, server: 213.183.53.177, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: _DE_德国, server: 5.183.179.145, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: _DE_德国 2, server: 5.183.179.145, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: _CH_瑞士, server: 185.126.116.124, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: _AU_澳大利亚, server: 185.167.116.38, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: 103.172.116.9:9098, server: 103.172.116.9, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: _GB_英国, server: 152.89.210.105, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 152.89.210.105:9073, server: 152.89.210.105, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: default_name, server: 103.172.116.9, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: gz1.52168.xyz:1114, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "?�隮", obfs-param: y�6�^=.m��.r�, udp: true}
+  - {name: _KR_韩国, server: ddns-kr01.ayanami.best, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: gz1.52168.xyz:1102, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "?�隮", obfs-param: y�6�^=.m��.r�, udp: true}
-  - {name: _BG_保加利亚, server: 213.183.63.218, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: _AU_澳大利亚 2, server: 185.167.116.38, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: _DE_德国, server: 5.183.179.145, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: _DE_德国 2, server: 5.183.179.140, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: _DE_德国 3, server: 5.183.179.145, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: _DE_德国 4, server: 5.183.179.145, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: _BG_保加利亚, server: 213.183.63.221, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: _BG_保加利亚 2, server: 213.183.63.221, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: _BG_保加利亚 3, server: 213.183.63.218, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: _BG_保加利亚 4, server: 213.183.63.217, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: _BG_保加利亚 5, server: 213.183.63.221, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: _BG_保加利亚 6, server: 213.183.63.221, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: _BG_保加利亚 7, server: 213.183.63.218, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: 213.183.53.177:9008, server: 213.183.53.177, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: 213.183.53.177:9088, server: 213.183.53.177, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
   - {name: 213.183.53.177:9020, server: 213.183.53.177, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: _CH_瑞士 2, server: 185.126.116.117, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: _NL_荷兰, server: 213.183.59.185, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: 213.183.53.177:9070, server: 213.183.53.177, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: 213.183.53.177:9015, server: 213.183.53.177, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: _CH_瑞士, server: 185.126.116.117, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: _CH_瑞士 2, server: 185.126.116.117, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: _CH_瑞士 3, server: 185.126.116.117, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: _CH_瑞士 4, server: 185.126.116.117, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: _CH_瑞士 5, server: 185.126.116.117, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: _CH_瑞士 6, server: 185.126.116.117, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: _CH_瑞士 7, server: 185.126.116.117, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: _US_美国, server: 45.32.94.166, port: 31676, type: vmess, uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [45.32.94.166]}}, udp: true}
+  - {name: _CN_中国->🇰🇷_KR_韩国, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _DE_德国 5, server: 5.183.179.139, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: _DE_德国 6, server: 5.183.179.167, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: _DE_德国 7, server: 5.183.179.167, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: _DE_德国 8, server: 5.183.179.148, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: _DE_德国 9, server: 5.183.179.140, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: _DE_德国 10, server: 5.183.179.140, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: _DE_德国 11, server: 5.183.179.148, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: _DE_德国 12, server: 5.183.179.170, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: _DE_德国 13, server: 5.183.179.167, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: _DE_德国 14, server: 5.183.179.170, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: _DE_德国 15, server: 5.183.179.170, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: _DE_德国 16, server: 5.183.179.148, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: _DE_德国 17, server: 5.183.179.170, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: _DE_德国 18, server: 5.183.179.170, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: _DE_德国 19, server: 5.183.179.148, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: _DE_德国 20, server: 5.183.179.148, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 2, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 3, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -1083,7 +1124,7 @@ proxies:
   - {name: _CN_中国->🇸🇬_SG_新加坡 6, server: 211.99.115.24, port: 11117, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇬🇧_GB_英国, server: 211.99.115.24, port: 11853, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 8, server: 42.157.161.51, port: 11214, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国, server: 42.157.161.51, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇰🇷_KR_韩国 2, server: 42.157.161.51, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 9, server: 42.157.161.51, port: 11215, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇮🇳_IN_印度 2, server: 211.99.115.24, port: 11302, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国 2, server: 211.99.115.24, port: 11402, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -1120,7 +1161,7 @@ proxies:
   - {name: _CN_中国->🇸🇬_SG_新加坡 9, server: 211.99.115.24, port: 11114, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 15, server: 211.99.115.24, port: 11002, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CA_加拿大 6, server: 134.195.196.51, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国 2, server: 42.157.161.51, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇰🇷_KR_韩国 3, server: 42.157.161.51, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇸🇬_SG_新加坡 10, server: 211.99.115.24, port: 11116, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇳🇱_NL_荷兰 3, server: 211.99.115.24, port: 11552, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CA_加拿大 7, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
@@ -3194,15 +3235,56 @@ proxy-groups:
       - 香港 04
       - 香港 05
       - 香港 06
-      - 213.183.53.177:9070
+      - _AU_澳大利亚
+      - 103.172.116.9:9098
+      - _GB_英国
+      - 152.89.210.105:9073
+      - default_name
+      - gz1.52168.xyz:1114
+      - _KR_韩国
+      - gz1.52168.xyz:1102
+      - _AU_澳大利亚 2
       - _DE_德国
       - _DE_德国 2
-      - _CH_瑞士
-      - gz1.52168.xyz:1102
+      - _DE_德国 3
+      - _DE_德国 4
       - _BG_保加利亚
+      - _BG_保加利亚 2
+      - _BG_保加利亚 3
+      - _BG_保加利亚 4
+      - _BG_保加利亚 5
+      - _BG_保加利亚 6
+      - _BG_保加利亚 7
+      - 213.183.53.177:9008
+      - 213.183.53.177:9088
       - 213.183.53.177:9020
+      - 213.183.53.177:9070
+      - 213.183.53.177:9015
+      - _CH_瑞士
       - _CH_瑞士 2
-      - _NL_荷兰
+      - _CH_瑞士 3
+      - _CH_瑞士 4
+      - _CH_瑞士 5
+      - _CH_瑞士 6
+      - _CH_瑞士 7
+      - _US_美国
+      - _CN_中国->🇰🇷_KR_韩国
+      - _DE_德国 5
+      - _DE_德国 6
+      - _DE_德国 7
+      - _DE_德国 8
+      - _DE_德国 9
+      - _DE_德国 10
+      - _DE_德国 11
+      - _DE_德国 12
+      - _DE_德国 13
+      - _DE_德国 14
+      - _DE_德国 15
+      - _DE_德国 16
+      - _DE_德国 17
+      - _DE_德国 18
+      - _DE_德国 19
+      - _DE_德国 20
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3
@@ -3237,7 +3319,7 @@ proxy-groups:
       - _CN_中国->🇸🇬_SG_新加坡 6
       - _CN_中国->🇬🇧_GB_英国
       - _CN_中国->🇯🇵_JP_日本 8
-      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇰🇷_KR_韩国 2
       - _CN_中国->🇯🇵_JP_日本 9
       - _CN_中国->🇮🇳_IN_印度 2
       - _CN_中国->🇺🇸_US_美国 2
@@ -3274,7 +3356,7 @@ proxy-groups:
       - _CN_中国->🇸🇬_SG_新加坡 9
       - _CN_中国->🇭🇰_HK_香港 15
       - _CA_加拿大 6
-      - _CN_中国->🇰🇷_KR_韩国 2
+      - _CN_中国->🇰🇷_KR_韩国 3
       - _CN_中国->🇸🇬_SG_新加坡 10
       - _CN_中国->🇳🇱_NL_荷兰 3
       - _CA_加拿大 7
@@ -5348,15 +5430,56 @@ proxy-groups:
       - 香港 04
       - 香港 05
       - 香港 06
-      - 213.183.53.177:9070
+      - _AU_澳大利亚
+      - 103.172.116.9:9098
+      - _GB_英国
+      - 152.89.210.105:9073
+      - default_name
+      - gz1.52168.xyz:1114
+      - _KR_韩国
+      - gz1.52168.xyz:1102
+      - _AU_澳大利亚 2
       - _DE_德国
       - _DE_德国 2
-      - _CH_瑞士
-      - gz1.52168.xyz:1102
+      - _DE_德国 3
+      - _DE_德国 4
       - _BG_保加利亚
+      - _BG_保加利亚 2
+      - _BG_保加利亚 3
+      - _BG_保加利亚 4
+      - _BG_保加利亚 5
+      - _BG_保加利亚 6
+      - _BG_保加利亚 7
+      - 213.183.53.177:9008
+      - 213.183.53.177:9088
       - 213.183.53.177:9020
+      - 213.183.53.177:9070
+      - 213.183.53.177:9015
+      - _CH_瑞士
       - _CH_瑞士 2
-      - _NL_荷兰
+      - _CH_瑞士 3
+      - _CH_瑞士 4
+      - _CH_瑞士 5
+      - _CH_瑞士 6
+      - _CH_瑞士 7
+      - _US_美国
+      - _CN_中国->🇰🇷_KR_韩国
+      - _DE_德国 5
+      - _DE_德国 6
+      - _DE_德国 7
+      - _DE_德国 8
+      - _DE_德国 9
+      - _DE_德国 10
+      - _DE_德国 11
+      - _DE_德国 12
+      - _DE_德国 13
+      - _DE_德国 14
+      - _DE_德国 15
+      - _DE_德国 16
+      - _DE_德国 17
+      - _DE_德国 18
+      - _DE_德国 19
+      - _DE_德国 20
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3
@@ -5391,7 +5514,7 @@ proxy-groups:
       - _CN_中国->🇸🇬_SG_新加坡 6
       - _CN_中国->🇬🇧_GB_英国
       - _CN_中国->🇯🇵_JP_日本 8
-      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇰🇷_KR_韩国 2
       - _CN_中国->🇯🇵_JP_日本 9
       - _CN_中国->🇮🇳_IN_印度 2
       - _CN_中国->🇺🇸_US_美国 2
@@ -5428,7 +5551,7 @@ proxy-groups:
       - _CN_中国->🇸🇬_SG_新加坡 9
       - _CN_中国->🇭🇰_HK_香港 15
       - _CA_加拿大 6
-      - _CN_中国->🇰🇷_KR_韩国 2
+      - _CN_中国->🇰🇷_KR_韩国 3
       - _CN_中国->🇸🇬_SG_新加坡 10
       - _CN_中国->🇳🇱_NL_荷兰 3
       - _CA_加拿大 7
