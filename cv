@@ -1092,77 +1092,10 @@ proxies:
   - {name: 香港 04, server: hk04.internetsmartrouting.top, port: 46889, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
   - {name: 香港 05, server: hk05.internetsmartrouting.top, port: 25241, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
   - {name: 香港 06, server: hk06.internetsmartrouting.top, port: 23685, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
-  - {name: 華人社區 | 臨時高速_82, server: cn1.iepl.starlink.st, port: 50600, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: 華人社區 | 臨時高速_115, server: 149.28.93.71, port: 37770, type: vmess, uuid: 2d333e34-b8db-11ec-b783-560003f11a6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t5BcCZPn/}, udp: true}
-  - {name: 華人社區 | 臨時高速_94, server: cu.newhua99.ga, port: 21685, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
-  - {name: 華人社區 | 臨時高速_113, server: b-mc.txwd.xyz, port: 50057, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge, udp: true}
-  - {name: 華人社區 | 臨時高速_83, server: w2.v2mmy.xyz, port: 44825, type: ss, cipher: aes-128-gcm, password: f58e177c-88cf-47b4-97dd-684783db8347, udp: true}
-  - {name: 華人社區 | 臨時高速_93, server: cu.newhua99.ga, port: 21684, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
-  - {name: 華人社區 | 臨時高速_39, server: cn1.iepl.starlink.st, port: 50600, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: 華人社區 | 臨時高速_114, server: hkmf1.speedcncnforward2.tk, port: 80, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: hkmf1.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
-  - {name: 華人社區 | 臨時高速_95, server: cu.newhua99.ga, port: 21689, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
-  - {name: 華人社區 | 臨時高速_10, server: cu-1.ssp-node.com, port: 16104, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 華人社區 | 臨時高速_99, server: ct-1.ssp-node.com, port: 16611, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 華人社區 | 臨時高速_1, server: cu-1.ssp-node.com, port: 16103, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 華人社區 | 臨時高速_7, server: cu-1.ssp-node.com, port: 16101, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 華人社區 | 臨時高速_63, server: cu-1.ssp-node.com, port: 16105, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 華人社區 | 臨時高速_31, server: uk4.lolvps.xyz, port: 60012, type: vmess, uuid: e8b32273-4c2f-4cb6-a768-7f2378346062, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /F1HHEKOX, headers: {Host: uk4.lolvps.xyz}}, udp: true}
-  - {name: 華人社區 | 臨時高速_3, server: cm-1.ssp-node.com, port: 16104, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 華人社區 | 臨時高速_107, server: cm.newhua99.ga, port: 21690, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
-  - {name: 華人社區 | 臨時高速_111, server: b-mc.txwd.xyz, port: 50058, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge, udp: true}
-  - {name: 華人社區 | 臨時高速_26, server: cu-1.ssp-node.com, port: 16102, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 華人社區 | 臨時高速_114 2, server: w3.v2mmy.xyz, port: 44816, type: ss, cipher: aes-128-gcm, password: f58e177c-88cf-47b4-97dd-684783db8347, udp: true}
-  - {name: 華人社區 | 臨時高速_70, server: cm-1.ssp-node.com, port: 16103, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 華人社區 | 臨時高速_101, server: w3.v2mmy.xyz, port: 44818, type: ss, cipher: aes-128-gcm, password: f33fe9a1-2679-46c9-8cc7-cbeb6f127e0a, udp: true}
-  - {name: 華人社區 | 臨時高速_92, server: hkmf2.speedcncnforward3.tk, port: 80, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: hkmf2.speedcncnforward3.tk, skip-cert-verify: true, udp: true}
-  - {name: 華人社區 | 臨時高速_46, server: mcwy-iepl.txwd.xyz, port: 50002, type: ss, cipher: chacha20-ietf-poly1305, password: ouocxi9hNDTgGceN, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 華人社區 | 臨時高速_25, server: mcwy-iepl.txwd.xyz, port: 40017, type: ss, cipher: chacha20-ietf-poly1305, password: ouocxi9hNDTgGceN, udp: true}
-  - {name: 華人社區 | 臨時高速_44, server: cm-1.ssp-node.com, port: 16301, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 2, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 華人社區 | 臨時高速_37, server: mcwy-iepl.txwd.xyz, port: 40016, type: ss, cipher: chacha20-ietf-poly1305, password: ouocxi9hNDTgGceN, udp: true}
-  - {name: 華人社區 | 臨時高速_40, server: cm-1.ssp-node.com, port: 16101, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 華人社區 | 臨時高速_63 2, server: hk1.qingyun123.xyz, port: 10050, type: trojan, password: 3576ba82-23cd-4d31-b9fc-b5e4f72ff1a7, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 華人社區 | 臨時高速_6, server: cmcm-a.txwd.xyz, port: 50008, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge, udp: true}
-  - {name: 華人社區 | 臨時高速_45, server: cm-1.ssp-node.com, port: 16302, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 3, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 華人社區 | 臨時高速_42, server: mcwy-iepl.txwd.xyz, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: ouocxi9hNDTgGceN, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 4, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 5, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 6, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 7, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 華人社區 | 臨時高速_2, server: bgpddns.rentidnf.com, port: 58032, type: ss, cipher: chacha20-ietf-poly1305, password: 58694a53-677a-4898-a484-2d40504c4c75, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 8, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 9, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 10, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 11, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 華人社區 | 臨時高速_97, server: w5.v2mmy.xyz, port: 44821, type: ss, cipher: aes-128-gcm, password: ba61540e-33d3-4c7c-a7f2-3c8222ea6726, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 12, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 13, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 華人社區 | 臨時高速_92 2, server: download.cn.connecat.com, port: 60014, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 14, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 華人社區 | 臨時高速_35, server: cucu-aa.txwd.xyz, port: 50007, type: ss, cipher: chacha20-ietf-poly1305, password: ouocxi9hNDTgGceN, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 15, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 16, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 17, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 18, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 19, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 華人社區 | 臨時高速_4, server: w5.v2mmy.xyz, port: 44823, type: ss, cipher: aes-128-gcm, password: f33fe9a1-2679-46c9-8cc7-cbeb6f127e0a, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 20, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 21, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 22, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 23, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 華人社區 | 臨時高速_21, server: cm-1.ssp-node.com, port: 16201, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 華人社區 | 臨時高速_8, server: cm-1.ssp-node.com, port: 16202, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 華人社區 | 臨時高速_9, server: cu-1.ssp-node.com, port: 16201, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 華人社區 | 臨時高速_36, server: mcwy-iepl.txwd.xyz, port: 50004, type: ss, cipher: chacha20-ietf-poly1305, password: ouocxi9hNDTgGceN, udp: true}
-  - {name: 台湾+|+梦歌IEPL+|+解锁流媒体, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 24, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
-  - {name: 華人社區 | 臨時高速_12, server: aaa-666.txwd.xyz, port: 60002, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge, udp: true}
-  - {name: 華人社區 | 臨時高速_5, server: cm-1.ssp-node.com, port: 16203, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 華人社區 | 臨時高速_61, server: cu-1.ssp-node.com, port: 16203, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c, udp: true}
-  - {name: 華人社區 | 臨時高速_81, server: w5.v2mmy.xyz, port: 44822, type: ss, cipher: aes-128-gcm, password: ba61540e-33d3-4c7c-a7f2-3c8222ea6726, udp: true}
-  - {name: 香港+|+梦歌CMI+|+解锁流媒体 25, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858, udp: true}
+  - {name: default_name, server: 104.24.233.251, port: 443, type: vmess, uuid: cae63f0a-8e68-409e-bf8a-3ffc7e46622a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cae63f0a-8e68-409e-bf8a-3ffc7e46622a-vmess, headers: {Host: fang1.wiseebook.workers.dev}}, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾, server: cn1.iepl.starlink.st, port: 50200, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: _SG_新加坡, server: sg1.31vpn.com, port: 443, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/bddasdf/624e71635ed8e/, headers: {Host: sg1.31vpn.com}}, udp: true}
+  - {name: _SG_新加坡 2, server: sg1.31vpn.com, port: 443, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/bddasdf/624e71635ed8e/, headers: {Host: sg1.31vpn.com}}, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 2, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 3, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -1172,12 +1105,12 @@ proxies:
   - {name: _CN_中国->🇭🇰_HK_香港 5, server: 211.99.115.24, port: 11007, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CA_加拿大, server: 134.195.196.51, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: _CN_中国->🇳🇱_NL_荷兰, server: 211.99.115.24, port: 11553, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾, server: 211.99.115.24, port: 11051, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾 2, server: 211.99.115.24, port: 11051, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇮🇳_IN_印度, server: 211.99.115.24, port: 11301, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇹🇷_TR_土耳其, server: 211.99.115.24, port: 11904, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇸🇬_SG_新加坡 2, server: 211.99.115.24, port: 11109, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇸🇬_SG_新加坡 3, server: 211.99.115.24, port: 11110, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾 2, server: 211.99.115.24, port: 11054, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾 3, server: 211.99.115.24, port: 11054, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 6, server: 211.99.115.24, port: 11006, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 7, server: 211.99.115.24, port: 11008, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 2, server: 42.157.161.51, port: 11216, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -1201,7 +1134,7 @@ proxies:
   - {name: _CN_中国->🇯🇵_JP_日本 9, server: 42.157.161.51, port: 11215, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇮🇳_IN_印度 2, server: 211.99.115.24, port: 11302, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国 2, server: 211.99.115.24, port: 11402, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾 3, server: 211.99.115.24, port: 11055, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾 4, server: 211.99.115.24, port: 11055, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CA_加拿大 2, server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _CN_中国->🇬🇧_GB_英国 2, server: 211.99.115.24, port: 11851, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 10, server: 42.157.161.51, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -1224,7 +1157,7 @@ proxies:
   - {name: _CN_中国->🇳🇱_NL_荷兰 2, server: 211.99.115.24, port: 11551, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇬🇧_GB_英国 3, server: 211.99.115.24, port: 11854, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 12, server: 211.99.115.24, port: 11005, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾 4, server: 211.99.115.24, port: 11053, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾 5, server: 211.99.115.24, port: 11053, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 13, server: 211.99.115.24, port: 11013, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇩🇰_DK_丹麦, server: 211.99.115.24, port: 11751, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇻🇳_VN_越南, server: 211.99.115.24, port: 11906, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -1247,7 +1180,7 @@ proxies:
   - {name: _CN_中国->🇯🇵_JP_日本 17, server: 42.157.161.51, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _HK_香港, server: azhk097.xiaohouzi.club, port: 443, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: azhk097.xiaohouzi.club}}, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 17, server: 211.99.115.24, port: 11015, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾 5, server: 211.99.115.24, port: 11052, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾 6, server: 211.99.115.24, port: 11052, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇬🇧_GB_英国 4, server: 211.99.115.24, port: 11852, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 18, server: 211.99.115.24, port: 11016, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇹🇭_TH_泰国, server: 211.99.115.24, port: 11902, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -3357,77 +3290,10 @@ proxy-groups:
       - 香港 04
       - 香港 05
       - 香港 06
-      - 華人社區 | 臨時高速_82
-      - 華人社區 | 臨時高速_115
-      - 華人社區 | 臨時高速_94
-      - 華人社區 | 臨時高速_113
-      - 華人社區 | 臨時高速_83
-      - 華人社區 | 臨時高速_93
-      - 華人社區 | 臨時高速_39
-      - 華人社區 | 臨時高速_114
-      - 華人社區 | 臨時高速_95
-      - 華人社區 | 臨時高速_10
-      - 華人社區 | 臨時高速_99
-      - 華人社區 | 臨時高速_1
-      - 華人社區 | 臨時高速_7
-      - 華人社區 | 臨時高速_63
-      - 華人社區 | 臨時高速_31
-      - 華人社區 | 臨時高速_3
-      - 華人社區 | 臨時高速_107
-      - 華人社區 | 臨時高速_111
-      - 華人社區 | 臨時高速_26
-      - 華人社區 | 臨時高速_114 2
-      - 華人社區 | 臨時高速_70
-      - 華人社區 | 臨時高速_101
-      - 華人社區 | 臨時高速_92
-      - 華人社區 | 臨時高速_46
-      - 香港+|+梦歌CMI+|+解锁流媒体
-      - 華人社區 | 臨時高速_25
-      - 華人社區 | 臨時高速_44
-      - 香港+|+梦歌CMI+|+解锁流媒体 2
-      - 華人社區 | 臨時高速_37
-      - 華人社區 | 臨時高速_40
-      - 華人社區 | 臨時高速_63 2
-      - 華人社區 | 臨時高速_6
-      - 華人社區 | 臨時高速_45
-      - 香港+|+梦歌CMI+|+解锁流媒体 3
-      - 華人社區 | 臨時高速_42
-      - 香港+|+梦歌CMI+|+解锁流媒体 4
-      - 香港+|+梦歌CMI+|+解锁流媒体 5
-      - 香港+|+梦歌CMI+|+解锁流媒体 6
-      - 香港+|+梦歌CMI+|+解锁流媒体 7
-      - 華人社區 | 臨時高速_2
-      - 香港+|+梦歌CMI+|+解锁流媒体 8
-      - 香港+|+梦歌CMI+|+解锁流媒体 9
-      - 香港+|+梦歌CMI+|+解锁流媒体 10
-      - 香港+|+梦歌CMI+|+解锁流媒体 11
-      - 華人社區 | 臨時高速_97
-      - 香港+|+梦歌CMI+|+解锁流媒体 12
-      - 香港+|+梦歌CMI+|+解锁流媒体 13
-      - 華人社區 | 臨時高速_92 2
-      - 香港+|+梦歌CMI+|+解锁流媒体 14
-      - 華人社區 | 臨時高速_35
-      - 香港+|+梦歌CMI+|+解锁流媒体 15
-      - 香港+|+梦歌CMI+|+解锁流媒体 16
-      - 香港+|+梦歌CMI+|+解锁流媒体 17
-      - 香港+|+梦歌CMI+|+解锁流媒体 18
-      - 香港+|+梦歌CMI+|+解锁流媒体 19
-      - 華人社區 | 臨時高速_4
-      - 香港+|+梦歌CMI+|+解锁流媒体 20
-      - 香港+|+梦歌CMI+|+解锁流媒体 21
-      - 香港+|+梦歌CMI+|+解锁流媒体 22
-      - 香港+|+梦歌CMI+|+解锁流媒体 23
-      - 華人社區 | 臨時高速_21
-      - 華人社區 | 臨時高速_8
-      - 華人社區 | 臨時高速_9
-      - 華人社區 | 臨時高速_36
-      - 台湾+|+梦歌IEPL+|+解锁流媒体
-      - 香港+|+梦歌CMI+|+解锁流媒体 24
-      - 華人社區 | 臨時高速_12
-      - 華人社區 | 臨時高速_5
-      - 華人社區 | 臨時高速_61
-      - 華人社區 | 臨時高速_81
-      - 香港+|+梦歌CMI+|+解锁流媒体 25
+      - default_name
+      - _CN_中国->🇹🇼_TW_台湾
+      - _SG_新加坡
+      - _SG_新加坡 2
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3
@@ -3437,12 +3303,12 @@ proxy-groups:
       - _CN_中国->🇭🇰_HK_香港 5
       - _CA_加拿大
       - _CN_中国->🇳🇱_NL_荷兰
-      - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇹🇼_TW_台湾 2
       - _CN_中国->🇮🇳_IN_印度
       - _CN_中国->🇹🇷_TR_土耳其
       - _CN_中国->🇸🇬_SG_新加坡 2
       - _CN_中国->🇸🇬_SG_新加坡 3
-      - _CN_中国->🇹🇼_TW_台湾 2
+      - _CN_中国->🇹🇼_TW_台湾 3
       - _CN_中国->🇭🇰_HK_香港 6
       - _CN_中国->🇭🇰_HK_香港 7
       - _CN_中国->🇯🇵_JP_日本 2
@@ -3466,7 +3332,7 @@ proxy-groups:
       - _CN_中国->🇯🇵_JP_日本 9
       - _CN_中国->🇮🇳_IN_印度 2
       - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇹🇼_TW_台湾 3
+      - _CN_中国->🇹🇼_TW_台湾 4
       - _CA_加拿大 2
       - _CN_中国->🇬🇧_GB_英国 2
       - _CN_中国->🇯🇵_JP_日本 10
@@ -3489,7 +3355,7 @@ proxy-groups:
       - _CN_中国->🇳🇱_NL_荷兰 2
       - _CN_中国->🇬🇧_GB_英国 3
       - _CN_中国->🇭🇰_HK_香港 12
-      - _CN_中国->🇹🇼_TW_台湾 4
+      - _CN_中国->🇹🇼_TW_台湾 5
       - _CN_中国->🇭🇰_HK_香港 13
       - _CN_中国->🇩🇰_DK_丹麦
       - _CN_中国->🇻🇳_VN_越南
@@ -3512,7 +3378,7 @@ proxy-groups:
       - _CN_中国->🇯🇵_JP_日本 17
       - _HK_香港
       - _CN_中国->🇭🇰_HK_香港 17
-      - _CN_中国->🇹🇼_TW_台湾 5
+      - _CN_中国->🇹🇼_TW_台湾 6
       - _CN_中国->🇬🇧_GB_英国 4
       - _CN_中国->🇭🇰_HK_香港 18
       - _CN_中国->🇹🇭_TH_泰国
@@ -5622,77 +5488,10 @@ proxy-groups:
       - 香港 04
       - 香港 05
       - 香港 06
-      - 華人社區 | 臨時高速_82
-      - 華人社區 | 臨時高速_115
-      - 華人社區 | 臨時高速_94
-      - 華人社區 | 臨時高速_113
-      - 華人社區 | 臨時高速_83
-      - 華人社區 | 臨時高速_93
-      - 華人社區 | 臨時高速_39
-      - 華人社區 | 臨時高速_114
-      - 華人社區 | 臨時高速_95
-      - 華人社區 | 臨時高速_10
-      - 華人社區 | 臨時高速_99
-      - 華人社區 | 臨時高速_1
-      - 華人社區 | 臨時高速_7
-      - 華人社區 | 臨時高速_63
-      - 華人社區 | 臨時高速_31
-      - 華人社區 | 臨時高速_3
-      - 華人社區 | 臨時高速_107
-      - 華人社區 | 臨時高速_111
-      - 華人社區 | 臨時高速_26
-      - 華人社區 | 臨時高速_114 2
-      - 華人社區 | 臨時高速_70
-      - 華人社區 | 臨時高速_101
-      - 華人社區 | 臨時高速_92
-      - 華人社區 | 臨時高速_46
-      - 香港+|+梦歌CMI+|+解锁流媒体
-      - 華人社區 | 臨時高速_25
-      - 華人社區 | 臨時高速_44
-      - 香港+|+梦歌CMI+|+解锁流媒体 2
-      - 華人社區 | 臨時高速_37
-      - 華人社區 | 臨時高速_40
-      - 華人社區 | 臨時高速_63 2
-      - 華人社區 | 臨時高速_6
-      - 華人社區 | 臨時高速_45
-      - 香港+|+梦歌CMI+|+解锁流媒体 3
-      - 華人社區 | 臨時高速_42
-      - 香港+|+梦歌CMI+|+解锁流媒体 4
-      - 香港+|+梦歌CMI+|+解锁流媒体 5
-      - 香港+|+梦歌CMI+|+解锁流媒体 6
-      - 香港+|+梦歌CMI+|+解锁流媒体 7
-      - 華人社區 | 臨時高速_2
-      - 香港+|+梦歌CMI+|+解锁流媒体 8
-      - 香港+|+梦歌CMI+|+解锁流媒体 9
-      - 香港+|+梦歌CMI+|+解锁流媒体 10
-      - 香港+|+梦歌CMI+|+解锁流媒体 11
-      - 華人社區 | 臨時高速_97
-      - 香港+|+梦歌CMI+|+解锁流媒体 12
-      - 香港+|+梦歌CMI+|+解锁流媒体 13
-      - 華人社區 | 臨時高速_92 2
-      - 香港+|+梦歌CMI+|+解锁流媒体 14
-      - 華人社區 | 臨時高速_35
-      - 香港+|+梦歌CMI+|+解锁流媒体 15
-      - 香港+|+梦歌CMI+|+解锁流媒体 16
-      - 香港+|+梦歌CMI+|+解锁流媒体 17
-      - 香港+|+梦歌CMI+|+解锁流媒体 18
-      - 香港+|+梦歌CMI+|+解锁流媒体 19
-      - 華人社區 | 臨時高速_4
-      - 香港+|+梦歌CMI+|+解锁流媒体 20
-      - 香港+|+梦歌CMI+|+解锁流媒体 21
-      - 香港+|+梦歌CMI+|+解锁流媒体 22
-      - 香港+|+梦歌CMI+|+解锁流媒体 23
-      - 華人社區 | 臨時高速_21
-      - 華人社區 | 臨時高速_8
-      - 華人社區 | 臨時高速_9
-      - 華人社區 | 臨時高速_36
-      - 台湾+|+梦歌IEPL+|+解锁流媒体
-      - 香港+|+梦歌CMI+|+解锁流媒体 24
-      - 華人社區 | 臨時高速_12
-      - 華人社區 | 臨時高速_5
-      - 華人社區 | 臨時高速_61
-      - 華人社區 | 臨時高速_81
-      - 香港+|+梦歌CMI+|+解锁流媒体 25
+      - default_name
+      - _CN_中国->🇹🇼_TW_台湾
+      - _SG_新加坡
+      - _SG_新加坡 2
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3
@@ -5702,12 +5501,12 @@ proxy-groups:
       - _CN_中国->🇭🇰_HK_香港 5
       - _CA_加拿大
       - _CN_中国->🇳🇱_NL_荷兰
-      - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇹🇼_TW_台湾 2
       - _CN_中国->🇮🇳_IN_印度
       - _CN_中国->🇹🇷_TR_土耳其
       - _CN_中国->🇸🇬_SG_新加坡 2
       - _CN_中国->🇸🇬_SG_新加坡 3
-      - _CN_中国->🇹🇼_TW_台湾 2
+      - _CN_中国->🇹🇼_TW_台湾 3
       - _CN_中国->🇭🇰_HK_香港 6
       - _CN_中国->🇭🇰_HK_香港 7
       - _CN_中国->🇯🇵_JP_日本 2
@@ -5731,7 +5530,7 @@ proxy-groups:
       - _CN_中国->🇯🇵_JP_日本 9
       - _CN_中国->🇮🇳_IN_印度 2
       - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇹🇼_TW_台湾 3
+      - _CN_中国->🇹🇼_TW_台湾 4
       - _CA_加拿大 2
       - _CN_中国->🇬🇧_GB_英国 2
       - _CN_中国->🇯🇵_JP_日本 10
@@ -5754,7 +5553,7 @@ proxy-groups:
       - _CN_中国->🇳🇱_NL_荷兰 2
       - _CN_中国->🇬🇧_GB_英国 3
       - _CN_中国->🇭🇰_HK_香港 12
-      - _CN_中国->🇹🇼_TW_台湾 4
+      - _CN_中国->🇹🇼_TW_台湾 5
       - _CN_中国->🇭🇰_HK_香港 13
       - _CN_中国->🇩🇰_DK_丹麦
       - _CN_中国->🇻🇳_VN_越南
@@ -5777,7 +5576,7 @@ proxy-groups:
       - _CN_中国->🇯🇵_JP_日本 17
       - _HK_香港
       - _CN_中国->🇭🇰_HK_香港 17
-      - _CN_中国->🇹🇼_TW_台湾 5
+      - _CN_中国->🇹🇼_TW_台湾 6
       - _CN_中国->🇬🇧_GB_英国 4
       - _CN_中国->🇭🇰_HK_香港 18
       - _CN_中国->🇹🇭_TH_泰国
