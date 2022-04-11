@@ -5,16 +5,176 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _HK_香港_1, server: hkmf2.speedcncnforward3.tk, port: 80, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
-  - {name: _AU_澳大利亚_2, server: 185.167.116.38, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾_3, server: cn1.iepl.starlink.st, port: 50200, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: _BG_保加利亚_4, server: 213.183.63.218, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: defaultName_5, server: n09.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _DE_德国_6, server: 5.183.179.166, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: _DE_德国_7, server: 5.183.179.166, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: _BG_保加利亚_8, server: 213.183.63.217, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: _BG_保加利亚_9, server: 213.183.63.217, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: _BG_保加利亚_10, server: 213.183.63.217, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: RELAY-Openit_ml_1, server: 104.24.233.251, port: 443, type: vmess, uuid: cae63f0a-8e68-409e-bf8a-3ffc7e46622a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cae63f0a-8e68-409e-bf8a-3ffc7e46622a-vmess}, udp: true}
+  - {name: NL-Openit_ml_2, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US-Openit_ml_3, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: RELAY-Openit_ml_4, server: app.ssfree.ru, port: 443, type: vmess, uuid: dd36d85c-b94b-11ec-9c75-000017022008, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: RELAY-Openit_ml_5, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
+  - {name: CN-Openit_ml_6, server: download.cn.connecat.com, port: 60015, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_7, server: gy.sharecentrepro.tk, port: 10001, type: vmess, uuid: 6731a7a4-cac0-4218-d3e7-a4fe8c933b5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog, headers: {Host: gy.sharecentrepro.tk}}, udp: true}
+  - {name: RELAY-Openit_ml_8, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wsssdr1, headers: {Host: niaop.tk}}, udp: true}
+  - {name: US-Openit_ml_9, server: 149.28.93.71, port: 37770, type: vmess, uuid: 2d333e34-b8db-11ec-b783-560003f11a6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t5BcCZPn/}, udp: true}
+  - {name: JP-Openit_ml_10, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_11, server: in-v1.sdgdn.com, port: 50301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: HK-Openit_ml_12, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
+  - {name: US-Openit_ml_13, server: 149.28.93.71, port: 37770, type: vmess, uuid: 2d333e34-b8db-11ec-b783-560003f11a6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t5BcCZPn/}, udp: true}
+  - {name: CN-Openit_ml_14, server: in-v1.sdgdn.com, port: 50701, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: KR-Openit_ml_15, server: kor1.lolvps.xyz, port: 40030, type: vmess, uuid: 77005b76-6917-4e2a-815c-d06b2bfa0bed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /DYUSC0AP, headers: {Host: kor1.lolvps.xyz}}, udp: true}
+  - {name: US-Openit_ml_16, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: RU-Openit_ml_17, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: US-Openit_ml_18, server: freev2ray1.free4444.xyz, port: 63660, type: vmess, uuid: 47b10eaa-b730-11ec-8b8c-00163c92100d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Z8jWzsHI/, headers: {Host: freev2ray1.free4444.xyz}}, udp: true}
+  - {name: TW-Openit_ml_19, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: HK-Openit_ml_20, server: 165.154.225.231, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
+  - {name: JP-Openit_ml_21, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit_ml_22, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit_ml_23, server: 52.140.219.170, port: 34999, type: vmess, uuid: 8809e56a-f245-4da2-f5bc-ad222c40fa59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: CN-Openit_ml_24, server: in-v1.sdgdn.com, port: 50301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: CN-Openit_ml_25, server: cn1.iepl.starlink.st, port: 50200, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: HK-Openit_ml_26, server: china-hongkong-azure-websocket-5000m-01.orangedns.org, port: 80, type: vmess, uuid: 872da3b7-4897-4998-871f-c73edaa8f962, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: china-hongkong-azure-websocket-5000m-01.orangedns.org}}, udp: true}
+  - {name: HK-Openit_ml_27, server: hkmf1.speedcncnforward2.tk, port: 80, type: trojan, password: da0ea9bc-0dc1-4714-820f-44e87692930f, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_28, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
+  - {name: CN-Openit_ml_29, server: download.cn.connecat.com, port: 60005, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_30, server: download.cn.connecat.com, port: 60003, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_31, server: download.cn.connecat.com, port: 60012, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_32, server: download.cn.connecat.com, port: 60014, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_33, server: download.cn.connecat.com, port: 60006, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_34, server: download.cn.connecat.com, port: 60016, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_35, server: download.cn.connecat.com, port: 60022, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: US-Openit_ml_36, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US-Openit_ml_37, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CN-Openit_ml_38, server: download.cn.connecat.com, port: 60022, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_39, server: download.cn.connecat.com, port: 60016, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_40, server: download.cn.connecat.com, port: 60006, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_41, server: download.cn.connecat.com, port: 60014, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_42, server: download.cn.connecat.com, port: 60012, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_43, server: download.cn.connecat.com, port: 60003, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_44, server: download.cn.connecat.com, port: 60005, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: RELAY-Openit_ml_45, server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDM, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_46, server: hk2703.cloudmatrix.xyz, port: 2703, type: vmess, uuid: 1469c8ff-4b3a-33fe-ab96-c8c831cacc47, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk2703.cloudmatrix.xyz}}, udp: true}
+  - {name: CN-Openit_ml_47, server: gd-x-sy183.ddns-oink.xyz, port: 13667, type: vmess, uuid: 22f7b99d-12ae-3e0e-ad7e-3039cd4317f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sy666666, headers: {Host: gd-x-sy183.ddns-oink.xyz}}, udp: true}
+  - {name: CN-Openit_ml_48, server: gd-x-sy183.ddns-oink.xyz, port: 13669, type: vmess, uuid: 22f7b99d-12ae-3e0e-ad7e-3039cd4317f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sy666666, headers: {Host: gd-x-sy183.ddns-oink.xyz}}, udp: true}
+  - {name: JP-Openit_ml_49, server: 20.210.96.240, port: 3468, type: vmess, uuid: 94a947fd-cdf7-46b4-cee7-3496490a8395, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit_ml_50, server: 52.140.219.170, port: 34999, type: vmess, uuid: 8809e56a-f245-4da2-f5bc-ad222c40fa59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: CN-Openit_ml_51, server: jp2802.cloudmatrix.xyz, port: 2802, type: vmess, uuid: 1469c8ff-4b3a-33fe-ab96-c8c831cacc47, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp2802.cloudmatrix.xyz}}, udp: true}
+  - {name: CN-Openit_ml_52, server: zhonggang-sy01.ddns-oink.xyz, port: 13604, type: vmess, uuid: 22f7b99d-12ae-3e0e-ad7e-3039cd4317f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sy666666, headers: {Host: zhonggang-sy01.ddns-oink.xyz}}, udp: true}
+  - {name: KR-Openit_ml_53, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: KR-Openit_ml_54, server: 146.56.116.190, port: 45177, type: vmess, uuid: c2f1ae57-7ada-4bac-f510-a8336c8708dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_55, server: download.cn.connecat.com, port: 60011, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_56, server: download.cn.connecat.com, port: 60006, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_57, server: download.cn.connecat.com, port: 60021, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: CN-Openit_ml_58, server: fs.keaiyun.xyz, port: 48550, type: vmess, uuid: 8d2afe1b-0b96-3390-9258-36ff22e0d023, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: fs.keaiyun.xyz}}, udp: true}
+  - {name: CN-Openit_ml_59, server: iplc-sy-02.ddns-oink.xyz, port: 13454, type: vmess, uuid: 22f7b99d-12ae-3e0e-ad7e-3039cd4317f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sy666666, headers: {Host: iplc-sy-02.ddns-oink.xyz}}, udp: true}
+  - {name: CN-Openit_ml_60, server: download.cn.connecat.com, port: 60003, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: TW-Openit_ml_61, server: 211.72.35.153, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_62, server: download.cn.connecat.com, port: 60019, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: US-Openit_ml_63, server: 104.194.243.145, port: 443, type: vmess, uuid: 2fe53f4d-29bf-489a-a083-f4bd806c6385, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nKCAS980y}, udp: true}
+  - {name: HK-Openit_ml_64, server: hkmf1.speedcncnforward2.tk, port: 80, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
+  - {name: HK-Openit_ml_65, server: hkmf2.speedcncnforward3.tk, port: 80, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
+  - {name: DE-Openit_ml_66, server: 5.183.179.170, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: DE-Openit_ml_67, server: 5.183.179.170, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: US-Openit_ml_68, server: freev2ray1.free4444.xyz, port: 63660, type: vmess, uuid: 47b10eaa-b730-11ec-8b8c-00163c92100d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Z8jWzsHI/, headers: {Host: freev2ray1.free4444.xyz}}, udp: true}
+  - {name: RELAY-Openit_ml_69, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: cloudflare.xrenblog.com}}, udp: true}
+  - {name: RELAY-Openit_ml_70, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa}, udp: true}
+  - {name: RELAY-Openit_ml_71, server: 104.24.233.251, port: 443, type: vmess, uuid: cae63f0a-8e68-409e-bf8a-3ffc7e46622a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cae63f0a-8e68-409e-bf8a-3ffc7e46622a-vmess}, udp: true}
+  - {name: RELAY-Openit_ml_72, server: app.ssfree.ru, port: 443, type: vmess, uuid: dd36d85c-b94b-11ec-9c75-000017022008, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: CN-Openit_ml_73, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
+  - {name: CN-Openit_ml_74, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: US-Openit_ml_75, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: HK-Openit_ml_76, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
+  - {name: US-Openit_ml_77, server: 154.23.190.162, port: 443, type: vmess, uuid: b9984674-f771-4e67-a198-c7e60720ba2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: CN-Openit_ml_78, server: hk2702.cloudmatrix.xyz, port: 2702, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk2702.cloudmatrix.xyz}}, udp: true}
+  - {name: RELAY-Openit_ml_79, server: cg.rutracker-cn.com, port: 443, type: vmess, uuid: 5cf05a99-0d57-419e-99f6-8f2b447f129b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /teishTqRb, headers: {Host: cg.rutracker-cn.com}}, udp: true}
+  - {name: RELAY-Openit_ml_80, server: ce.rutracker-cn.com, port: 443, type: vmess, uuid: ed5b1c2a-0f6d-4607-9725-a70a20727ab7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IqTUMDzwOI, headers: {Host: ce.rutracker-cn.com}}, udp: true}
+  - {name: RELAY-Openit_ml_81, server: cd.rutracker-cn.com, port: 443, type: vmess, uuid: 8f5ccb11-a196-4c07-a6d2-aa9fbe10a737, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /PK2tDAFP, headers: {Host: cd.rutracker-cn.com}}, udp: true}
+  - {name: SG-Openit_ml_82, server: eu.licom.ga, port: 60001, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, skip-cert-verify: true, udp: true}
+  - {name: DE-Openit_ml_83, server: 43.131.51.120, port: 44970, type: vmess, uuid: 334181ca-0c75-4fd2-fd56-51a510c7be65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK-Openit_ml_84, server: 165.154.225.176, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
+  - {name: HK-Openit_ml_85, server: 165.154.225.231, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray}, udp: true}
+  - {name: HK-Openit_ml_86, server: 330hk02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330hk02.fans8.xyz}}, udp: true}
+  - {name: RU-Openit_ml_87, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: TW-Openit_ml_88, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: DE-Openit_ml_89, server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: germany-dusseldorf.mah3Hoet.com}}, udp: true}
+  - {name: DE-Openit_ml_90, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: IT-Openit_ml_91, server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: italy-milan.mah3Hoet.com}}, udp: true}
+  - {name: US-Openit_ml_92, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ray}, udp: true}
+  - {name: KR-Openit_ml_93, server: rknc.xrenblog.com, port: 18888, type: vmess, uuid: 0febc8e5-8463-440f-961a-6ea09d429d1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog, headers: {Host: rknc.xrenblog.com}}, udp: true}
+  - {name: GB-Openit_ml_94, server: 146.70.46.68, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: HK-Openit_ml_95, server: download.hk.connecat.com, port: 80, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.hk.connecat.com}}, udp: true}
+  - {name: HK-Openit_ml_96, server: 210.3.245.46, port: 50021, type: vmess, uuid: f3666ca6-b94a-4a27-9aa9-00c8eaede12c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /D1LYYDHH}, udp: true}
+  - {name: HU-Openit_ml_97, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: IN-Openit_ml_98, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
+  - {name: JP-Openit_ml_99, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: KR-Openit_ml_100, server: 146.56.99.245, port: 25135, type: vmess, uuid: 5893f7e5-9695-45af-f65e-bd2958ba93fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit_ml_101, server: 139.162.122.240, port: 6616, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: KR-Openit_ml_102, server: hgmf.speedcncnforward2.tk, port: 80, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
+  - {name: KR-Openit_ml_103, server: 028.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: c899fb95-cc39-4f3a-a882-36b70d4bef0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 028.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: GB-Openit_ml_104, server: unitedkingdomcloud.club, port: 443, type: vmess, uuid: ae610bbe-ce40-433a-980d-2a411bfc209d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /neuromancer, headers: {Host: unitedkingdomcloud.club}}, udp: true}
+  - {name: JP-Openit_ml_105, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, skip-cert-verify: true, udp: true}
+  - {name: US-Openit_ml_106, server: freev2ray1.free4444.xyz, port: 63660, type: vmess, uuid: 47b10eaa-b730-11ec-8b8c-00163c92100d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Z8jWzsHI/, headers: {Host: freev2ray1.free4444.xyz}}, udp: true}
+  - {name: RU-Openit_ml_107, server: 91.206.92.80, port: 7765, type: vmess, uuid: 9c0aa3ca-ad6d-11ec-9f5f-3a7f41eb42ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit_ml_108, server: 14.128.54.171, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit_ml_109, server: 172.104.50.145, port: 58789, type: vmess, uuid: 6e4c3659-aae6-4d13-be44-edc6a7123af1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit_ml_110, server: 103.253.26.20, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: SG-Openit_ml_111, server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: zecjk.com}}, udp: true}
+  - {name: SG-Openit_ml_112, server: 81.90.188.59, port: 41657, type: vmess, uuid: 930a425e-2fc8-4930-8735-141f6b237755, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit_ml_113, server: 14.128.54.174, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit_ml_114, server: 14.128.51.179, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit_ml_115, server: 14.128.54.177, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit_ml_116, server: 14.128.54.165, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit_ml_117, server: 14.128.54.167, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit_ml_118, server: 172.104.171.11, port: 6616, type: vmess, uuid: b0ce4402-52c2-4945-b9ff-b28ec1b4ed75, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: SG-Openit_ml_119, server: 14.128.54.170, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit_ml_120, server: sg1.31vpn.com, port: 80, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/bddasdf/624e71635ed8e/, headers: {Host: sg1.31vpn.com}}, udp: true}
+  - {name: TW-Openit_ml_121, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: CZ-Openit_ml_122, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: true, udp: true}
+  - {name: US-Openit_ml_123, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
+  - {name: US-Openit_ml_124, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: US-Openit_ml_125, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
+  - {name: US-Openit_ml_126, server: 173.255.215.146, port: 443, type: vmess, uuid: c04e69b1-3498-4187-9193-b657fd40cb65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/common}, udp: true}
+  - {name: US-Openit_ml_127, server: s2.520guge.com, port: 443, type: vmess, uuid: cf1819c8-e530-4626-aec0-87ac04200385, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /happy, headers: {Host: s2.520guge.com}}, udp: true}
+  - {name: US-Openit_ml_128, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: KR-Openit_ml_129, server: 152.70.94.8, port: 41371, type: vmess, uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US-Openit_ml_130, server: 150.230.43.65, port: 14564, type: vmess, uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL-Openit_ml_131, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US-Openit_ml_132, server: 48us.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 48us.fans8.xyz}}, udp: true}
+  - {name: US-Openit_ml_133, server: 45.32.94.166, port: 31676, type: vmess, uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: US-Openit_ml_134, server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}, udp: true}
+  - {name: RELAY-Openit_ml_135, server: 104.21.84.81, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
+  - {name: US-Openit_ml_136, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: US-Openit_ml_137, server: 173.255.215.146, port: 11443, type: vmess, uuid: c04e69b1-3498-4187-9193-b657fd40cb65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/common}, udp: true}
+  - {name: KR-Openit_ml_138, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US-Openit_ml_139, server: 010.NA.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: c899fb95-cc39-4f3a-a882-36b70d4bef0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 010.NA.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: US-Openit_ml_140, server: 104.168.13.8, port: 41342, type: vmess, uuid: 3aa90670-6d21-4287-eec5-0cd0b21d579a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: US-Openit_ml_141, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: KR-Openit_ml_142, server: tj-node-2.gfwairport.net, port: 50001, type: trojan, password: 122b9200-c5e0-4003-836c-973eef59b6b2, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit_ml_143, server: jgwdj1.gaox.ml, port: 443, type: trojan, password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4, skip-cert-verify: true, udp: true}
+  - {name: US-Openit_ml_144, server: us2.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: SC-Openit_ml_145, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit_ml_146, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/}, udp: true}
+  - {name: SG-Openit_ml_147, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_148, server: fs.keaiyun.xyz, port: 55155, type: vmess, uuid: 8d2afe1b-0b96-3390-9258-36ff22e0d023, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: fs.keaiyun.xyz}}, udp: true}
+  - {name: CN-Openit_ml_149, server: cn1.iepl.starlink.st, port: 50200, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: CN-Openit_ml_150, server: cn1.iepl.starlink.st, port: 50700, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: CN-Openit_ml_151, server: 119.147.2.245, port: 58831, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_152, server: 119.147.2.245, port: 58829, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_153, server: 119.147.2.245, port: 58807, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_154, server: 119.147.2.245, port: 58803, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_155, server: 119.147.2.245, port: 58824, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_156, server: 119.147.2.245, port: 58827, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_157, server: 119.147.2.245, port: 58806, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_158, server: 119.147.2.245, port: 58830, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_159, server: 119.147.2.245, port: 58814, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_160, server: 119.147.2.245, port: 58818, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_161, server: 119.147.2.245, port: 58828, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_162, server: 119.147.2.245, port: 58811, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_163, server: 119.147.2.245, port: 58816, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_164, server: 119.147.2.245, port: 58815, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_165, server: $*@14.29.124.168, port: 24015, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159, udp: true}
+  - {name: CN-Openit_ml_166, server: l125j4pt.ted1.xyz, port: 26534, type: trojan, password: c142e1fd-df21-32b8-8f19-2f06940fa65d, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit_ml_167, server: gy.sharecentrepro.tk, port: 10001, type: vmess, uuid: 6731a7a4-cac0-4218-d3e7-a4fe8c933b5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog, headers: {Host: gy.sharecentrepro.tk}}, udp: true}
+  - {name: CN-Openit_ml_168, server: cn1.iepl.starlink.st, port: 50200, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: CN-Openit_ml_169, server: y155k1rt.ted1.xyz, port: 26586, type: trojan, password: c142e1fd-df21-32b8-8f19-2f06940fa65d, skip-cert-verify: true, udp: true}
+  - {name: SG-Openit_ml_170, server: sg1.31vpn.com, port: 443, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/bddasdf/624e71635ed8e/, headers: {Host: sg1.31vpn.com}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 104.24.233.251, port: 443, type: vmess, uuid: cae63f0a-8e68-409e-bf8a-3ffc7e46622a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cae63f0a-8e68-409e-bf8a-3ffc7e46622a-vmess, headers: {Host: fang1.wiseebook.workers.dev}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 150.230.43.65, port: 14564, type: vmess, uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2673,41 +2833,36 @@ proxies:
   - {name: Ytb:鹏哥分享_加拿大_134, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_13, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_178, server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: github.com/freefq - 香港Microsoft公司 1, server: hkmf1.speedcncnforward2.tk, port: 80, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 2, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港Microsoft公司 3, server: hkmf2.speedcncnforward3.tk, port: 80, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 乌克兰  4, server: 5.183.179.167, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: github.com/freefq - 乌克兰  5, server: 5.183.179.170, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: github.com/freefq - 乌克兰  6, server: 5.183.179.167, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: github.com/freefq - 乌克兰  7, server: 5.183.179.170, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: github.com/freefq - 美国新泽西州皮斯卡特维Vultr数据中心 8, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 欧盟  9, server: freev2ray1.free4444.xyz, port: 63660, type: vmess, uuid: 47b10eaa-b730-11ec-8b8c-00163c92100d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Z8jWzsHI/, headers: {Host: freev2ray1.free4444.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 10, server: 48us.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 48us.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 11, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: v4.xrenblog.com}}, udp: true}
-  - {name: github.com/freefq - 加拿大  12, server: 165.154.225.231, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330hk02.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 13, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
-  - {name: github.com/freefq - 亚太地区  14, server: 103.164.81.46, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 15, server: 104.24.233.251, port: 443, type: vmess, uuid: cae63f0a-8e68-409e-bf8a-3ffc7e46622a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cae63f0a-8e68-409e-bf8a-3ffc7e46622a-vmess, headers: {Host: fang1.wiseebook.workers.dev}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 16, server: app.ssfree.ru, port: 443, type: vmess, uuid: dd36d85c-b94b-11ec-9c75-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: github.com/freefq - 美国  17, server: us1.31vpn.com, port: 80, type: vmess, uuid: bb4b9e95-c9ff-411c-9a47-483570e169aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/remaoqi/624ca41d72e6d/, headers: {Host: us1.31vpn.com}}, udp: true}
-  - {name: github.com/freefq - 上海市电信 18, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: github.com/freefq - 加拿大  19, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 香港Microsoft公司 1, server: hk02.bosaidong.buzz, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 2, server: ddns-jp02.ayanami.best, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 3, server: ddns-jp01.ayanami.best, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 韩国  4, server: ddns-kr01.ayanami.best, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 韩国  5, server: ddns-kr02.ayanami.best, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 6, server: hk1.qingyun123.xyz, port: 10050, type: trojan, password: 3576ba82-23cd-4d31-b9fc-b5e4f72ff1a7, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国内华达州拉斯维加斯BuyVM数据中心 7, server: 209.141.32.70, port: 50369, type: vmess, uuid: 15bf42a4-91ef-4312-b7f4-14698c52df24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 8, server: 48us.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 48us.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 澳大利亚  9, server: uk4.lolvps.xyz, port: 60012, type: vmess, uuid: e8b32273-4c2f-4cb6-a768-7f2378346062, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk4.lolvps.xyz, network: ws, ws-opts: {path: /F1HHEKOX, headers: {Host: uk4.lolvps.xyz}}, udp: true}
+  - {name: github.com/freefq - 上海市联通 10, server: download.cn.connecat.com, port: 60003, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: github.com/freefq - 加拿大  11, server: 165.154.225.176, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326hk01.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 12, server: 144.34.161.239, port: 158, type: vmess, uuid: c03a92ed-d64e-4096-8aae-ce6b96d887e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 新加坡DigitalOcean数据中心 13, server: sg1.31vpn.com, port: 443, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/bddasdf/624e71635ed8e/, headers: {Host: sg1.31vpn.com}}, udp: true}
+  - {name: github.com/freefq - 北美地区  14, server: 134.195.198.252, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 加拿大  15, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 亚太地区  16, server: 103.172.116.7, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: github.com/freefq - 美国  17, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 0e5b46b6-699d-4aca-8fb3-a8e7b4270ed9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 1.ezydfdd.com}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 18, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
+  - {name: github.com/freefq - 上海市电信 19, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
   - {name: github.com/freefq - 湖南省长沙市电信 20, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
   - {name: github.com/freefq - 北美地区  21, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: github.com/freefq - 北美地区  22, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: ahdaeph8.com, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: github.com/freefq - 北美地区  23, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq - 亚太地区  24, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 北美地区  25, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 22, server: cd.rutracker-cn.com, port: 443, type: vmess, uuid: 8f5ccb11-a196-4c07-a6d2-aa9fbe10a737, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /PK2tDAFP, headers: {Host: cd.rutracker-cn.com}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 23, server: ce.rutracker-cn.com, port: 443, type: vmess, uuid: ed5b1c2a-0f6d-4607-9725-a70a20727ab7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /IqTUMDzwOI, headers: {Host: ce.rutracker-cn.com}}, udp: true}
+  - {name: github.com/freefq - 北美地区  24, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: ahdaeph8.com, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 25, server: app.ssfree.ru, port: 443, type: vmess, uuid: dd36d85c-b94b-11ec-9c75-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
   - {name: github.com/freefq - 美国  26, server: 154.23.190.162, port: 443, type: vmess, uuid: b9984674-f771-4e67-a198-c7e60720ba2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 154.23.190.162}}, udp: true}
-  - {name: github.com/freefq - 加拿大  27, server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326kr.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 广东省广州市电信IDC机房 28, server: hk2702.cloudmatrix.xyz, port: 2702, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk2702.cloudmatrix.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国  29, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 0e5b46b6-699d-4aca-8fb3-a8e7b4270ed9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 1.ezydfdd.com}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 30, server: cg.rutracker-cn.com, port: 443, type: vmess, uuid: 5cf05a99-0d57-419e-99f6-8f2b447f129b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /teishTqRb, headers: {Host: cg.rutracker-cn.com}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 31, server: ce.rutracker-cn.com, port: 443, type: vmess, uuid: ed5b1c2a-0f6d-4607-9725-a70a20727ab7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /IqTUMDzwOI, headers: {Host: ce.rutracker-cn.com}}, udp: true}
-  - {name: github.com/freefq - 上海市腾讯云 32, server: 49.234.158.14, port: 10909, type: vmess, uuid: c3082e6f-37b2-41b6-b40a-1063bc8e2853, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 33, server: cd.rutracker-cn.com, port: 443, type: vmess, uuid: 8f5ccb11-a196-4c07-a6d2-aa9fbe10a737, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /PK2tDAFP, headers: {Host: cd.rutracker-cn.com}}, udp: true}
-  - {name: github.com/freefq - 加拿大  34, server: 165.154.225.176, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326hk01.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 新加坡Linode数据中心 35, server: eu.licom.ga, port: 60001, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 亚太地区  27, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 28, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大  29, server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326kr.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 浙江省衢州市移动 30, server: hk2702.cloudmatrix.xyz, port: 2702, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk2702.cloudmatrix.xyz}}, udp: true}
   - {name: 香港·hk·2-2, server: 183.240.69.49, port: 63000, type: vmess, uuid: 2e8f2af3-4bec-4adb-b0bf-bb6e503e7003, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港·hk·1-3 | ×2, server: xjcnyd02.2288.org, port: 63001, type: vmess, uuid: 2e8f2af3-4bec-4adb-b0bf-bb6e503e7003, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港·hk·2-1, server: xjcnyd02.2288.org, port: 63020, type: vmess, uuid: 2e8f2af3-4bec-4adb-b0bf-bb6e503e7003, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2844,7 +2999,7 @@ proxies:
   - {name: defaultName_50 2, server: iepl-hn01.qqgg.work, port: 27078, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 台湾_R_319, server: iepl-gz.yyuuii.cyou, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: defaultName_21, server: iepl-hn01.qqgg.work, port: 27078, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: defaultName_5 2, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: defaultName_5, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: defaultName_37, server: ieplszhk-sz.qqgg.work, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: defaultName_17, server: iepl-gz.yyuuii.cyou, port: 10899, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: defaultName_63, server: jx-002.yyuuii.cyou, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
@@ -2873,7 +3028,7 @@ proxies:
   - {name: T.07.法国.中继2, server: t2.doggogogo.top, port: 50207, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gzy002.xyz, skip-cert-verify: true, udp: true}
   - {name: T.07.法国.中继3, server: cscu.wecanfly.top, port: 50207, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gzy002.xyz, skip-cert-verify: true, udp: true}
   - {name: JP 003, server: jplin003.xmrth-node.xyz, port: 10603, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: defaultName_5 3, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: defaultName_5 2, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 美国2, server: node.zxcairport.xyz, port: 443, type: vmess, uuid: 7b198651-f526-44b5-a156-6badfe346dbf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us2.zxcairport.xyz}}, udp: true}
   - {name: defaultName_18 2, server: iepl-hn01.qqgg.work, port: 43738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: do新加坡直连, server: sg.gtss.tk, port: 443, type: trojan, password: NWGdxI6dQo, skip-cert-verify: true, udp: true}
@@ -2882,16 +3037,176 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _HK_香港_1
-      - _AU_澳大利亚_2
-      - _CN_中国->🇹🇼_TW_台湾_3
-      - _BG_保加利亚_4
-      - defaultName_5
-      - _DE_德国_6
-      - _DE_德国_7
-      - _BG_保加利亚_8
-      - _BG_保加利亚_9
-      - _BG_保加利亚_10
+      - RELAY-Openit_ml_1
+      - NL-Openit_ml_2
+      - US-Openit_ml_3
+      - RELAY-Openit_ml_4
+      - RELAY-Openit_ml_5
+      - CN-Openit_ml_6
+      - CN-Openit_ml_7
+      - RELAY-Openit_ml_8
+      - US-Openit_ml_9
+      - JP-Openit_ml_10
+      - CN-Openit_ml_11
+      - HK-Openit_ml_12
+      - US-Openit_ml_13
+      - CN-Openit_ml_14
+      - KR-Openit_ml_15
+      - US-Openit_ml_16
+      - RU-Openit_ml_17
+      - US-Openit_ml_18
+      - TW-Openit_ml_19
+      - HK-Openit_ml_20
+      - JP-Openit_ml_21
+      - JP-Openit_ml_22
+      - JP-Openit_ml_23
+      - CN-Openit_ml_24
+      - CN-Openit_ml_25
+      - HK-Openit_ml_26
+      - HK-Openit_ml_27
+      - CN-Openit_ml_28
+      - CN-Openit_ml_29
+      - CN-Openit_ml_30
+      - CN-Openit_ml_31
+      - CN-Openit_ml_32
+      - CN-Openit_ml_33
+      - CN-Openit_ml_34
+      - CN-Openit_ml_35
+      - US-Openit_ml_36
+      - US-Openit_ml_37
+      - CN-Openit_ml_38
+      - CN-Openit_ml_39
+      - CN-Openit_ml_40
+      - CN-Openit_ml_41
+      - CN-Openit_ml_42
+      - CN-Openit_ml_43
+      - CN-Openit_ml_44
+      - RELAY-Openit_ml_45
+      - CN-Openit_ml_46
+      - CN-Openit_ml_47
+      - CN-Openit_ml_48
+      - JP-Openit_ml_49
+      - JP-Openit_ml_50
+      - CN-Openit_ml_51
+      - CN-Openit_ml_52
+      - KR-Openit_ml_53
+      - KR-Openit_ml_54
+      - CN-Openit_ml_55
+      - CN-Openit_ml_56
+      - CN-Openit_ml_57
+      - CN-Openit_ml_58
+      - CN-Openit_ml_59
+      - CN-Openit_ml_60
+      - TW-Openit_ml_61
+      - CN-Openit_ml_62
+      - US-Openit_ml_63
+      - HK-Openit_ml_64
+      - HK-Openit_ml_65
+      - DE-Openit_ml_66
+      - DE-Openit_ml_67
+      - US-Openit_ml_68
+      - RELAY-Openit_ml_69
+      - RELAY-Openit_ml_70
+      - RELAY-Openit_ml_71
+      - RELAY-Openit_ml_72
+      - CN-Openit_ml_73
+      - CN-Openit_ml_74
+      - US-Openit_ml_75
+      - HK-Openit_ml_76
+      - US-Openit_ml_77
+      - CN-Openit_ml_78
+      - RELAY-Openit_ml_79
+      - RELAY-Openit_ml_80
+      - RELAY-Openit_ml_81
+      - SG-Openit_ml_82
+      - DE-Openit_ml_83
+      - HK-Openit_ml_84
+      - HK-Openit_ml_85
+      - HK-Openit_ml_86
+      - RU-Openit_ml_87
+      - TW-Openit_ml_88
+      - DE-Openit_ml_89
+      - DE-Openit_ml_90
+      - IT-Openit_ml_91
+      - US-Openit_ml_92
+      - KR-Openit_ml_93
+      - GB-Openit_ml_94
+      - HK-Openit_ml_95
+      - HK-Openit_ml_96
+      - HU-Openit_ml_97
+      - IN-Openit_ml_98
+      - JP-Openit_ml_99
+      - KR-Openit_ml_100
+      - JP-Openit_ml_101
+      - KR-Openit_ml_102
+      - KR-Openit_ml_103
+      - GB-Openit_ml_104
+      - JP-Openit_ml_105
+      - US-Openit_ml_106
+      - RU-Openit_ml_107
+      - SG-Openit_ml_108
+      - SG-Openit_ml_109
+      - SG-Openit_ml_110
+      - SG-Openit_ml_111
+      - SG-Openit_ml_112
+      - SG-Openit_ml_113
+      - SG-Openit_ml_114
+      - SG-Openit_ml_115
+      - SG-Openit_ml_116
+      - SG-Openit_ml_117
+      - SG-Openit_ml_118
+      - SG-Openit_ml_119
+      - SG-Openit_ml_120
+      - TW-Openit_ml_121
+      - CZ-Openit_ml_122
+      - US-Openit_ml_123
+      - US-Openit_ml_124
+      - US-Openit_ml_125
+      - US-Openit_ml_126
+      - US-Openit_ml_127
+      - US-Openit_ml_128
+      - KR-Openit_ml_129
+      - US-Openit_ml_130
+      - NL-Openit_ml_131
+      - US-Openit_ml_132
+      - US-Openit_ml_133
+      - US-Openit_ml_134
+      - RELAY-Openit_ml_135
+      - US-Openit_ml_136
+      - US-Openit_ml_137
+      - KR-Openit_ml_138
+      - US-Openit_ml_139
+      - US-Openit_ml_140
+      - US-Openit_ml_141
+      - KR-Openit_ml_142
+      - JP-Openit_ml_143
+      - US-Openit_ml_144
+      - SC-Openit_ml_145
+      - RELAY-Openit_ml_146
+      - SG-Openit_ml_147
+      - CN-Openit_ml_148
+      - CN-Openit_ml_149
+      - CN-Openit_ml_150
+      - CN-Openit_ml_151
+      - CN-Openit_ml_152
+      - CN-Openit_ml_153
+      - CN-Openit_ml_154
+      - CN-Openit_ml_155
+      - CN-Openit_ml_156
+      - CN-Openit_ml_157
+      - CN-Openit_ml_158
+      - CN-Openit_ml_159
+      - CN-Openit_ml_160
+      - CN-Openit_ml_161
+      - CN-Openit_ml_162
+      - CN-Openit_ml_163
+      - CN-Openit_ml_164
+      - CN-Openit_ml_165
+      - CN-Openit_ml_166
+      - CN-Openit_ml_167
+      - CN-Openit_ml_168
+      - CN-Openit_ml_169
+      - SG-Openit_ml_170
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -5551,40 +5866,35 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
       - github.com/freefq - 香港Microsoft公司 1
-      - github.com/freefq - 日本东京都品川区Linode数据中心 2
-      - github.com/freefq - 香港Microsoft公司 3
-      - github.com/freefq - 乌克兰  4
-      - github.com/freefq - 乌克兰  5
-      - github.com/freefq - 乌克兰  6
-      - github.com/freefq - 乌克兰  7
-      - github.com/freefq - 美国新泽西州皮斯卡特维Vultr数据中心 8
-      - github.com/freefq - 欧盟  9
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 10
-      - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - github.com/freefq - 加拿大  12
-      - github.com/freefq - 美国CloudFlare公司CDN节点 13
-      - github.com/freefq - 亚太地区  14
-      - github.com/freefq - 美国CloudFlare公司CDN节点 15
-      - github.com/freefq - 美国CloudFlare节点 16
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/freefq - 韩国  4
+      - github.com/freefq - 韩国  5
+      - github.com/freefq - 美国Microsoft数据中心 6
+      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM数据中心 7
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 8
+      - github.com/freefq - 澳大利亚  9
+      - github.com/freefq - 上海市联通 10
+      - github.com/freefq - 加拿大  11
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 12
+      - github.com/freefq - 新加坡DigitalOcean数据中心 13
+      - github.com/freefq - 北美地区  14
+      - github.com/freefq - 加拿大  15
+      - github.com/freefq - 亚太地区  16
       - github.com/freefq - 美国  17
-      - github.com/freefq - 上海市电信 18
-      - github.com/freefq - 加拿大  19
+      - github.com/freefq - 美国CloudFlare公司CDN节点 18
+      - github.com/freefq - 上海市电信 19
       - github.com/freefq - 湖南省长沙市电信 20
       - github.com/freefq - 北美地区  21
-      - github.com/freefq - 北美地区  22
-      - github.com/freefq - 北美地区  23
-      - github.com/freefq - 亚太地区  24
-      - github.com/freefq - 北美地区  25
+      - github.com/freefq - 美国CloudFlare节点 22
+      - github.com/freefq - 美国CloudFlare节点 23
+      - github.com/freefq - 北美地区  24
+      - github.com/freefq - 美国CloudFlare节点 25
       - github.com/freefq - 美国  26
-      - github.com/freefq - 加拿大  27
-      - github.com/freefq - 广东省广州市电信IDC机房 28
-      - github.com/freefq - 美国  29
-      - github.com/freefq - 美国CloudFlare节点 30
-      - github.com/freefq - 美国CloudFlare节点 31
-      - github.com/freefq - 上海市腾讯云 32
-      - github.com/freefq - 美国CloudFlare节点 33
-      - github.com/freefq - 加拿大  34
-      - github.com/freefq - 新加坡Linode数据中心 35
+      - github.com/freefq - 亚太地区  27
+      - github.com/freefq - 日本东京都品川区Linode数据中心 28
+      - github.com/freefq - 加拿大  29
+      - github.com/freefq - 浙江省衢州市移动 30
       - 香港·hk·2-2
       - 香港·hk·1-3 | ×2
       - 香港·hk·2-1
@@ -5721,7 +6031,7 @@ proxy-groups:
       - defaultName_50 2
       - 台湾_R_319
       - defaultName_21
-      - defaultName_5 2
+      - defaultName_5
       - defaultName_37
       - defaultName_17
       - defaultName_63
@@ -5750,7 +6060,7 @@ proxy-groups:
       - T.07.法国.中继2
       - T.07.法国.中继3
       - JP 003
-      - defaultName_5 3
+      - defaultName_5 2
       - 美国2
       - defaultName_18 2
       - do新加坡直连
@@ -5759,16 +6069,176 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _HK_香港_1
-      - _AU_澳大利亚_2
-      - _CN_中国->🇹🇼_TW_台湾_3
-      - _BG_保加利亚_4
-      - defaultName_5
-      - _DE_德国_6
-      - _DE_德国_7
-      - _BG_保加利亚_8
-      - _BG_保加利亚_9
-      - _BG_保加利亚_10
+      - RELAY-Openit_ml_1
+      - NL-Openit_ml_2
+      - US-Openit_ml_3
+      - RELAY-Openit_ml_4
+      - RELAY-Openit_ml_5
+      - CN-Openit_ml_6
+      - CN-Openit_ml_7
+      - RELAY-Openit_ml_8
+      - US-Openit_ml_9
+      - JP-Openit_ml_10
+      - CN-Openit_ml_11
+      - HK-Openit_ml_12
+      - US-Openit_ml_13
+      - CN-Openit_ml_14
+      - KR-Openit_ml_15
+      - US-Openit_ml_16
+      - RU-Openit_ml_17
+      - US-Openit_ml_18
+      - TW-Openit_ml_19
+      - HK-Openit_ml_20
+      - JP-Openit_ml_21
+      - JP-Openit_ml_22
+      - JP-Openit_ml_23
+      - CN-Openit_ml_24
+      - CN-Openit_ml_25
+      - HK-Openit_ml_26
+      - HK-Openit_ml_27
+      - CN-Openit_ml_28
+      - CN-Openit_ml_29
+      - CN-Openit_ml_30
+      - CN-Openit_ml_31
+      - CN-Openit_ml_32
+      - CN-Openit_ml_33
+      - CN-Openit_ml_34
+      - CN-Openit_ml_35
+      - US-Openit_ml_36
+      - US-Openit_ml_37
+      - CN-Openit_ml_38
+      - CN-Openit_ml_39
+      - CN-Openit_ml_40
+      - CN-Openit_ml_41
+      - CN-Openit_ml_42
+      - CN-Openit_ml_43
+      - CN-Openit_ml_44
+      - RELAY-Openit_ml_45
+      - CN-Openit_ml_46
+      - CN-Openit_ml_47
+      - CN-Openit_ml_48
+      - JP-Openit_ml_49
+      - JP-Openit_ml_50
+      - CN-Openit_ml_51
+      - CN-Openit_ml_52
+      - KR-Openit_ml_53
+      - KR-Openit_ml_54
+      - CN-Openit_ml_55
+      - CN-Openit_ml_56
+      - CN-Openit_ml_57
+      - CN-Openit_ml_58
+      - CN-Openit_ml_59
+      - CN-Openit_ml_60
+      - TW-Openit_ml_61
+      - CN-Openit_ml_62
+      - US-Openit_ml_63
+      - HK-Openit_ml_64
+      - HK-Openit_ml_65
+      - DE-Openit_ml_66
+      - DE-Openit_ml_67
+      - US-Openit_ml_68
+      - RELAY-Openit_ml_69
+      - RELAY-Openit_ml_70
+      - RELAY-Openit_ml_71
+      - RELAY-Openit_ml_72
+      - CN-Openit_ml_73
+      - CN-Openit_ml_74
+      - US-Openit_ml_75
+      - HK-Openit_ml_76
+      - US-Openit_ml_77
+      - CN-Openit_ml_78
+      - RELAY-Openit_ml_79
+      - RELAY-Openit_ml_80
+      - RELAY-Openit_ml_81
+      - SG-Openit_ml_82
+      - DE-Openit_ml_83
+      - HK-Openit_ml_84
+      - HK-Openit_ml_85
+      - HK-Openit_ml_86
+      - RU-Openit_ml_87
+      - TW-Openit_ml_88
+      - DE-Openit_ml_89
+      - DE-Openit_ml_90
+      - IT-Openit_ml_91
+      - US-Openit_ml_92
+      - KR-Openit_ml_93
+      - GB-Openit_ml_94
+      - HK-Openit_ml_95
+      - HK-Openit_ml_96
+      - HU-Openit_ml_97
+      - IN-Openit_ml_98
+      - JP-Openit_ml_99
+      - KR-Openit_ml_100
+      - JP-Openit_ml_101
+      - KR-Openit_ml_102
+      - KR-Openit_ml_103
+      - GB-Openit_ml_104
+      - JP-Openit_ml_105
+      - US-Openit_ml_106
+      - RU-Openit_ml_107
+      - SG-Openit_ml_108
+      - SG-Openit_ml_109
+      - SG-Openit_ml_110
+      - SG-Openit_ml_111
+      - SG-Openit_ml_112
+      - SG-Openit_ml_113
+      - SG-Openit_ml_114
+      - SG-Openit_ml_115
+      - SG-Openit_ml_116
+      - SG-Openit_ml_117
+      - SG-Openit_ml_118
+      - SG-Openit_ml_119
+      - SG-Openit_ml_120
+      - TW-Openit_ml_121
+      - CZ-Openit_ml_122
+      - US-Openit_ml_123
+      - US-Openit_ml_124
+      - US-Openit_ml_125
+      - US-Openit_ml_126
+      - US-Openit_ml_127
+      - US-Openit_ml_128
+      - KR-Openit_ml_129
+      - US-Openit_ml_130
+      - NL-Openit_ml_131
+      - US-Openit_ml_132
+      - US-Openit_ml_133
+      - US-Openit_ml_134
+      - RELAY-Openit_ml_135
+      - US-Openit_ml_136
+      - US-Openit_ml_137
+      - KR-Openit_ml_138
+      - US-Openit_ml_139
+      - US-Openit_ml_140
+      - US-Openit_ml_141
+      - KR-Openit_ml_142
+      - JP-Openit_ml_143
+      - US-Openit_ml_144
+      - SC-Openit_ml_145
+      - RELAY-Openit_ml_146
+      - SG-Openit_ml_147
+      - CN-Openit_ml_148
+      - CN-Openit_ml_149
+      - CN-Openit_ml_150
+      - CN-Openit_ml_151
+      - CN-Openit_ml_152
+      - CN-Openit_ml_153
+      - CN-Openit_ml_154
+      - CN-Openit_ml_155
+      - CN-Openit_ml_156
+      - CN-Openit_ml_157
+      - CN-Openit_ml_158
+      - CN-Openit_ml_159
+      - CN-Openit_ml_160
+      - CN-Openit_ml_161
+      - CN-Openit_ml_162
+      - CN-Openit_ml_163
+      - CN-Openit_ml_164
+      - CN-Openit_ml_165
+      - CN-Openit_ml_166
+      - CN-Openit_ml_167
+      - CN-Openit_ml_168
+      - CN-Openit_ml_169
+      - SG-Openit_ml_170
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -8428,40 +8898,35 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
       - github.com/freefq - 香港Microsoft公司 1
-      - github.com/freefq - 日本东京都品川区Linode数据中心 2
-      - github.com/freefq - 香港Microsoft公司 3
-      - github.com/freefq - 乌克兰  4
-      - github.com/freefq - 乌克兰  5
-      - github.com/freefq - 乌克兰  6
-      - github.com/freefq - 乌克兰  7
-      - github.com/freefq - 美国新泽西州皮斯卡特维Vultr数据中心 8
-      - github.com/freefq - 欧盟  9
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 10
-      - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - github.com/freefq - 加拿大  12
-      - github.com/freefq - 美国CloudFlare公司CDN节点 13
-      - github.com/freefq - 亚太地区  14
-      - github.com/freefq - 美国CloudFlare公司CDN节点 15
-      - github.com/freefq - 美国CloudFlare节点 16
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/freefq - 韩国  4
+      - github.com/freefq - 韩国  5
+      - github.com/freefq - 美国Microsoft数据中心 6
+      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM数据中心 7
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 8
+      - github.com/freefq - 澳大利亚  9
+      - github.com/freefq - 上海市联通 10
+      - github.com/freefq - 加拿大  11
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 12
+      - github.com/freefq - 新加坡DigitalOcean数据中心 13
+      - github.com/freefq - 北美地区  14
+      - github.com/freefq - 加拿大  15
+      - github.com/freefq - 亚太地区  16
       - github.com/freefq - 美国  17
-      - github.com/freefq - 上海市电信 18
-      - github.com/freefq - 加拿大  19
+      - github.com/freefq - 美国CloudFlare公司CDN节点 18
+      - github.com/freefq - 上海市电信 19
       - github.com/freefq - 湖南省长沙市电信 20
       - github.com/freefq - 北美地区  21
-      - github.com/freefq - 北美地区  22
-      - github.com/freefq - 北美地区  23
-      - github.com/freefq - 亚太地区  24
-      - github.com/freefq - 北美地区  25
+      - github.com/freefq - 美国CloudFlare节点 22
+      - github.com/freefq - 美国CloudFlare节点 23
+      - github.com/freefq - 北美地区  24
+      - github.com/freefq - 美国CloudFlare节点 25
       - github.com/freefq - 美国  26
-      - github.com/freefq - 加拿大  27
-      - github.com/freefq - 广东省广州市电信IDC机房 28
-      - github.com/freefq - 美国  29
-      - github.com/freefq - 美国CloudFlare节点 30
-      - github.com/freefq - 美国CloudFlare节点 31
-      - github.com/freefq - 上海市腾讯云 32
-      - github.com/freefq - 美国CloudFlare节点 33
-      - github.com/freefq - 加拿大  34
-      - github.com/freefq - 新加坡Linode数据中心 35
+      - github.com/freefq - 亚太地区  27
+      - github.com/freefq - 日本东京都品川区Linode数据中心 28
+      - github.com/freefq - 加拿大  29
+      - github.com/freefq - 浙江省衢州市移动 30
       - 香港·hk·2-2
       - 香港·hk·1-3 | ×2
       - 香港·hk·2-1
@@ -8598,7 +9063,7 @@ proxy-groups:
       - defaultName_50 2
       - 台湾_R_319
       - defaultName_21
-      - defaultName_5 2
+      - defaultName_5
       - defaultName_37
       - defaultName_17
       - defaultName_63
@@ -8627,7 +9092,7 @@ proxy-groups:
       - T.07.法国.中继2
       - T.07.法国.中继3
       - JP 003
-      - defaultName_5 3
+      - defaultName_5 2
       - 美国2
       - defaultName_18 2
       - do新加坡直连
