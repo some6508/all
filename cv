@@ -1040,73 +1040,15 @@ proxies:
   - {name: 香港 04, server: hk04.internetsmartrouting.top, port: 46889, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
   - {name: 香港 05, server: hk05.internetsmartrouting.top, port: 25241, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
   - {name: 香港 06, server: hk06.internetsmartrouting.top, port: 23685, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
-  - {name: 183.232.56.110:1503, server: 183.232.56.110, port: 1503, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.56.110:1501, server: 183.232.56.110, port: 1501, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.56.182:1252, server: 183.232.56.182, port: 1252, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.56.182:1254, server: 183.232.56.182, port: 1254, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.56.110:1501 2, server: 183.232.56.110, port: 1501, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.56.110:1251, server: 183.232.56.110, port: 1251, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.56.182:1254 2, server: 183.232.56.182, port: 1254, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.56.182:1252 2, server: 183.232.56.182, port: 1252, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.56.110:1201, server: 183.232.56.110, port: 1201, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.56.110:1253, server: 183.232.56.110, port: 1253, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.56.110:1201 2, server: 183.232.56.110, port: 1201, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.56.110:575, server: 183.232.56.110, port: 575, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.13.114:1101, server: 183.232.13.114, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.56.182:574, server: 183.232.56.182, port: 574, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.56.110:1203, server: 183.232.56.110, port: 1203, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.56.182:574 2, server: 183.232.56.182, port: 574, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 101.67.8.247:2204, server: 101.67.8.247, port: 2204, type: ssr, cipher: chacha20-ietf, password: bcbcba1d18cfd7267fbff1a64fd3e74f, protocol: auth_sha1_v4, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: sg-am11.eqnode.net:8181, server: sg-am11.eqnode.net, port: 8181, type: ssr, cipher: aes-256-cfb, password: kKdNNt2HZ, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.com, udp: true}
-  - {name: 183.232.13.63:2107, server: 183.232.13.63, port: 2107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 13.229.104.89:8080, server: 13.229.104.89, port: 8080, type: ssr, cipher: aes-256-cfb, password: jUQAcjhEG, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 52.221.184.61:8181, server: 52.221.184.61, port: 8181, type: ssr, cipher: aes-256-cfb, password: kKdNNt2HZ, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 52.77.239.192:8181, server: 52.77.239.192, port: 8181, type: ssr, cipher: aes-256-cfb, password: q4UW0QdUl, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 52.77.239.192:8181 2, server: 52.77.239.192, port: 8181, type: ssr, cipher: aes-256-cfb, password: q4UW0QdUl, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: sg-am21.eqsunshine.com:8080, server: sg-am21.eqsunshine.com, port: 8080, type: ssr, cipher: aes-256-cfb, password: jUQAcjhEG, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.com, udp: true}
-  - {name: sg-am15.eqsunshine.com:8181, server: sg-am15.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: q4UW0QdUl, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 183.232.13.63:2109, server: 183.232.13.63, port: 2109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.13.63:2109 2, server: 183.232.13.63, port: 2109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28416:xul3hsefzm, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.13.63:2106, server: 183.232.13.63, port: 2106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.13.114:1109, server: 183.232.13.114, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28416:xul3hsefzm, obfs-param: t.me/t.me/mengge88888888, udp: true}
-  - {name: 183.232.13.114:1109 2, server: 183.232.13.114, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/t.me/mengge88888888, udp: true}
-  - {name: 3.124.12.30:8080, server: 3.124.12.30, port: 8080, type: ssr, cipher: aes-256-cfb, password: 82BMko4lE, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 35.180.0.141:8181, server: 35.180.0.141, port: 8181, type: ssr, cipher: aes-256-cfb, password: gVWc0WaJn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 107.167.23.50:8084, server: 107.167.23.50, port: 8084, type: ssr, cipher: aes-256-cfb, password: RhKqtYoG8, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/t.me/mengge88888888, obfs-param: t.me/t.me/mengge88888888, udp: true}
-  - {name: 183.232.13.114:1117, server: 183.232.13.114, port: 1117, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.13.63:2102, server: 183.232.13.63, port: 2102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.13.114:1117 2, server: 183.232.13.114, port: 1117, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28416:xul3hsefzm, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 15.236.122.201:8181, server: 15.236.122.201, port: 8181, type: ssr, cipher: aes-256-cfb, password: X3LKnwp5C, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.13.114:1116, server: 183.232.13.114, port: 1116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 34.220.180.26:8080, server: 34.220.180.26, port: 8080, type: ssr, cipher: aes-256-cfb, password: vGndzdmPB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.13.63:2102 2, server: 183.232.13.63, port: 2102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28416:xul3hsefzm, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 18.133.245.231:8181, server: 18.133.245.231, port: 8181, type: ssr, cipher: aes-256-cfb, password: PNRbp3j9B, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 107.167.23.50:8084 2, server: 107.167.23.50, port: 8084, type: ssr, cipher: aes-256-cfb, password: RhKqtYoG8, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.com, udp: true}
-  - {name: 183.232.13.114:1107, server: 183.232.13.114, port: 1107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28416:xul3hsefzm, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: sy-am2.eqsunshine.com:443, server: sy-am2.eqsunshine.com, port: 443, type: ssr, cipher: aes-256-cfb, password: Jz8r4gLNP, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 107.167.23.50:8084 3, server: 107.167.23.50, port: 8084, type: ssr, cipher: aes-256-cfb, password: RhKqtYoG8, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.13.114:1102, server: 183.232.13.114, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: de-am2.eqnode.net:8080, server: de-am2.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: 82BMko4lE, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: fr-am1-4.eqsunshine.com:8181, server: fr-am1-4.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: X3LKnwp5C, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: de-am1.eqnode.net:8080, server: de-am1.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: zsU09Diow, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 54.206.12.203:443, server: 54.206.12.203, port: 443, type: ssr, cipher: aes-256-cfb, password: Jz8r4gLNP, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/t.me/mengge88888888, obfs-param: t.me/t.me/mengge88888888, udp: true}
-  - {name: 18.192.126.228:8080, server: 18.192.126.228, port: 8080, type: ssr, cipher: aes-256-cfb, password: zsU09Diow, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 34.219.236.31:8081, server: 34.219.236.31, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 101.67.8.247:2210, server: 101.67.8.247, port: 2210, type: ssr, cipher: chacha20-ietf, password: fb3ff83bac9e4aed4a6a7d4a1f321f1a, protocol: auth_sha1_v4, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: uk-am3-5.eqsunshine.com:8181, server: uk-am3-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: PNRbp3j9B, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 101.67.8.247:2202, server: 101.67.8.247, port: 2202, type: ssr, cipher: chacha20-ietf, password: 49f299b4b001bb896143d3e4abfa89e4, protocol: auth_sha1_v4, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: us-am32-5.eqnode.net:8081, server: us-am32-5.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: us-am11.eqnode.net:8080, server: us-am11.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: vGndzdmPB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.com, udp: true}
-  - {name: 54.206.12.203:443 2, server: 54.206.12.203, port: 443, type: ssr, cipher: aes-256-cfb, password: Jz8r4gLNP, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.13.63:2104, server: 183.232.13.63, port: 2104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28416:xul3hsefzm, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 3.124.12.30:8080 2, server: 3.124.12.30, port: 8080, type: ssr, cipher: aes-256-cfb, password: 82BMko4lE, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/t.me/mengge88888888, obfs-param: t.me/t.me/mengge88888888, udp: true}
-  - {name: 183.232.13.63:2104 2, server: 183.232.13.63, port: 2104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: fr-am1-1.eqsunshine.com:8181, server: fr-am1-1.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: gVWc0WaJn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 183.232.56.182:1502, server: 183.232.56.182, port: 1502, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 183.232.13.114:1116 2, server: 183.232.13.114, port: 1116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28416:xul3hsefzm, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: 35.183.124.2:8080, server: 35.183.124.2, port: 8080, type: ssr, cipher: aes-256-cfb, password: 4axflHccX, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/mengge88888888, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: ca-am3.eqnode.net:8080, server: ca-am3.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: 4axflHccX, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: sg-am15.eqsunshine.com:8181 2, server: sg-am15.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: q4UW0QdUl, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 213.183.53.177:9070, server: 213.183.53.177, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: _DE_德国, server: 5.183.179.145, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: _DE_德国 2, server: 5.183.179.145, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: _CH_瑞士, server: 185.126.116.124, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: gz1.52168.xyz:1102, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "?�隮", obfs-param: y�6�^=.m��.r�, udp: true}
+  - {name: _BG_保加利亚, server: 213.183.63.218, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 213.183.53.177:9020, server: 213.183.53.177, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: _CH_瑞士 2, server: 185.126.116.117, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: _NL_荷兰, server: 213.183.59.185, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 2, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 3, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -2002,36 +1944,47 @@ proxies:
   - {name: Ytb:鹏哥分享_加拿大_134, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_13, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_178, server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: github.com/freefq - 香港Microsoft公司 1, server: hk02.bosaidong.buzz, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 2, server: ddns-jp02.ayanami.best, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 3, server: ddns-jp01.ayanami.best, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 韩国  4, server: ddns-kr01.ayanami.best, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 韩国  5, server: ddns-kr02.ayanami.best, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 6, server: hk1.qingyun123.xyz, port: 10050, type: trojan, password: 3576ba82-23cd-4d31-b9fc-b5e4f72ff1a7, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国内华达州拉斯维加斯BuyVM数据中心 7, server: 209.141.32.70, port: 50369, type: vmess, uuid: 15bf42a4-91ef-4312-b7f4-14698c52df24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 8, server: 48us.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 48us.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 澳大利亚  9, server: uk4.lolvps.xyz, port: 60012, type: vmess, uuid: e8b32273-4c2f-4cb6-a768-7f2378346062, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk4.lolvps.xyz, network: ws, ws-opts: {path: /F1HHEKOX, headers: {Host: uk4.lolvps.xyz}}, udp: true}
-  - {name: github.com/freefq - 上海市联通 10, server: download.cn.connecat.com, port: 60003, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
-  - {name: github.com/freefq - 加拿大  11, server: 165.154.225.176, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326hk01.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 12, server: 144.34.161.239, port: 158, type: vmess, uuid: c03a92ed-d64e-4096-8aae-ce6b96d887e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 新加坡DigitalOcean数据中心 13, server: sg1.31vpn.com, port: 443, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/bddasdf/624e71635ed8e/, headers: {Host: sg1.31vpn.com}}, udp: true}
-  - {name: github.com/freefq - 北美地区  14, server: 134.195.198.252, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 加拿大  15, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 亚太地区  16, server: 103.172.116.7, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 1, server: ddns-jp01.ayanami.best, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 韩国  2, server: ddns-kr01.ayanami.best, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 韩国  3, server: ddns-kr02.ayanami.best, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 4, server: ddns-jp02.ayanami.best, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港Microsoft公司 5, server: hk02.bosaidong.buzz, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 6, server: 144.34.161.239, port: 158, type: vmess, uuid: c03a92ed-d64e-4096-8aae-ce6b96d887e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 7, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 日本  8, server: 146.56.105.192, port: 52660, type: vmess, uuid: b4e44960-44ed-4c5e-9577-e945b93e41fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大  9, server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326kr.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 乌克兰  10, server: 5.183.179.140, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: github.com/freefq - 北美地区  11, server: 107.173.111.93, port: 59886, type: vmess, uuid: 69ed190e-195b-4035-caaf-f56d4e002cc2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /macOS, headers: {Host: 107.173.111.93}}, udp: true}
+  - {name: github.com/freefq - 上海市电信 12, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: github.com/freefq - 乌克兰  13, server: 5.183.179.137, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: github.com/freefq - 乌克兰  14, server: 5.183.179.146, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: github.com/freefq - 俄罗斯莫斯科Melbicom数据中心 15, server: 213.183.53.202, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 16, server: 48us.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 48us.fans8.xyz}}, udp: true}
   - {name: github.com/freefq - 美国  17, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 0e5b46b6-699d-4aca-8fb3-a8e7b4270ed9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 1.ezydfdd.com}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 18, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
-  - {name: github.com/freefq - 上海市电信 19, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: github.com/freefq - 湖南省长沙市电信 20, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: github.com/freefq - 北美地区  21, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 22, server: cd.rutracker-cn.com, port: 443, type: vmess, uuid: 8f5ccb11-a196-4c07-a6d2-aa9fbe10a737, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /PK2tDAFP, headers: {Host: cd.rutracker-cn.com}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 23, server: ce.rutracker-cn.com, port: 443, type: vmess, uuid: ed5b1c2a-0f6d-4607-9725-a70a20727ab7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /IqTUMDzwOI, headers: {Host: ce.rutracker-cn.com}}, udp: true}
-  - {name: github.com/freefq - 北美地区  24, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: ahdaeph8.com, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 25, server: app.ssfree.ru, port: 443, type: vmess, uuid: dd36d85c-b94b-11ec-9c75-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: github.com/freefq - 美国  26, server: 154.23.190.162, port: 443, type: vmess, uuid: b9984674-f771-4e67-a198-c7e60720ba2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 154.23.190.162}}, udp: true}
-  - {name: github.com/freefq - 亚太地区  27, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 28, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 加拿大  29, server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326kr.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 浙江省衢州市移动 30, server: hk2702.cloudmatrix.xyz, port: 2702, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk2702.cloudmatrix.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 18, server: app.ssfree.ru, port: 443, type: vmess, uuid: 722d4cb6-b9b0-11ec-9fab-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 加拿大  19, server: 165.154.225.176, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326hk01.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 新加坡DigitalOcean数据中心 20, server: sg1.31vpn.com, port: 443, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/bddasdf/624e71635ed8e/, headers: {Host: sg1.31vpn.com}}, udp: true}
+  - {name: github.com/freefq - 俄罗斯  21, server: 217.30.10.63, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: github.com/freefq - 保加利亚索非亚Melbicom数据中心 22, server: 213.183.63.217, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 23, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国内华达州拉斯维加斯BuyVM数据中心 24, server: 209.141.32.70, port: 50369, type: vmess, uuid: 15bf42a4-91ef-4312-b7f4-14698c52df24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 25, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
+  - {name: github.com/freefq - 美国  26, server: www.zhangss.xyz, port: 59627, type: vmess, uuid: 7cb9b8c1-ddc8-4bdc-b365-d8b73aafa0ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.zhangss.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国  27, server: us1.31vpn.com, port: 80, type: vmess, uuid: bb4b9e95-c9ff-411c-9a47-483570e169aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/remaoqi/624ca41d72e6d/, headers: {Host: us1.31vpn.com}}, udp: true}
+  - {name: github.com/freefq - 加拿大  28, server: 165.154.225.231, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330hk02.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 北美地区  29, server: 134.195.198.252, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 加拿大  30, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 北美地区  31, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 32, server: fri.ncugo.cf, port: 443, type: vmess, uuid: de0eb598-2cea-43a0-c5fe-77335fb07a35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fri.ncugo.cf}}, udp: true}
+  - {name: github.com/freefq - 北美地区  33, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: ahdaeph8.com, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: github.com/freefq - 亚太地区  34, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 亚太地区  35, server: 103.172.116.8, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: github.com/freefq - 加拿大  36, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 澳大利亚  37, server: uk4.lolvps.xyz, port: 60012, type: vmess, uuid: e8b32273-4c2f-4cb6-a768-7f2378346062, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk4.lolvps.xyz, network: ws, ws-opts: {path: /F1HHEKOX, headers: {Host: uk4.lolvps.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 38, server: ce.rutracker-cn.com, port: 443, type: vmess, uuid: ed5b1c2a-0f6d-4607-9725-a70a20727ab7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /IqTUMDzwOI, headers: {Host: ce.rutracker-cn.com}}, udp: true}
+  - {name: github.com/freefq - 美国  39, server: 154.23.190.162, port: 443, type: vmess, uuid: b9984674-f771-4e67-a198-c7e60720ba2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 154.23.190.162}}, udp: true}
+  - {name: github.com/freefq - 湖北省宜昌市联通 40, server: hk2702.cloudmatrix.xyz, port: 2702, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk2702.cloudmatrix.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 41, server: cd.rutracker-cn.com, port: 443, type: vmess, uuid: 8f5ccb11-a196-4c07-a6d2-aa9fbe10a737, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /PK2tDAFP, headers: {Host: cd.rutracker-cn.com}}, udp: true}
   - {name: 香港·hk·2-2, server: 183.240.69.49, port: 63000, type: vmess, uuid: 2e8f2af3-4bec-4adb-b0bf-bb6e503e7003, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港·hk·1-3 | ×2, server: xjcnyd02.2288.org, port: 63001, type: vmess, uuid: 2e8f2af3-4bec-4adb-b0bf-bb6e503e7003, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港·hk·2-1, server: xjcnyd02.2288.org, port: 63020, type: vmess, uuid: 2e8f2af3-4bec-4adb-b0bf-bb6e503e7003, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -3241,73 +3194,15 @@ proxy-groups:
       - 香港 04
       - 香港 05
       - 香港 06
-      - 183.232.56.110:1503
-      - 183.232.56.110:1501
-      - 183.232.56.182:1252
-      - 183.232.56.182:1254
-      - 183.232.56.110:1501 2
-      - 183.232.56.110:1251
-      - 183.232.56.182:1254 2
-      - 183.232.56.182:1252 2
-      - 183.232.56.110:1201
-      - 183.232.56.110:1253
-      - 183.232.56.110:1201 2
-      - 183.232.56.110:575
-      - 183.232.13.114:1101
-      - 183.232.56.182:574
-      - 183.232.56.110:1203
-      - 183.232.56.182:574 2
-      - 101.67.8.247:2204
-      - sg-am11.eqnode.net:8181
-      - 183.232.13.63:2107
-      - 13.229.104.89:8080
-      - 52.221.184.61:8181
-      - 52.77.239.192:8181
-      - 52.77.239.192:8181 2
-      - sg-am21.eqsunshine.com:8080
-      - sg-am15.eqsunshine.com:8181
-      - 183.232.13.63:2109
-      - 183.232.13.63:2109 2
-      - 183.232.13.63:2106
-      - 183.232.13.114:1109
-      - 183.232.13.114:1109 2
-      - 3.124.12.30:8080
-      - 35.180.0.141:8181
-      - 107.167.23.50:8084
-      - 183.232.13.114:1117
-      - 183.232.13.63:2102
-      - 183.232.13.114:1117 2
-      - 15.236.122.201:8181
-      - 183.232.13.114:1116
-      - 34.220.180.26:8080
-      - 183.232.13.63:2102 2
-      - 18.133.245.231:8181
-      - 107.167.23.50:8084 2
-      - 183.232.13.114:1107
-      - sy-am2.eqsunshine.com:443
-      - 107.167.23.50:8084 3
-      - 183.232.13.114:1102
-      - de-am2.eqnode.net:8080
-      - fr-am1-4.eqsunshine.com:8181
-      - de-am1.eqnode.net:8080
-      - 54.206.12.203:443
-      - 18.192.126.228:8080
-      - 34.219.236.31:8081
-      - 101.67.8.247:2210
-      - uk-am3-5.eqsunshine.com:8181
-      - 101.67.8.247:2202
-      - us-am32-5.eqnode.net:8081
-      - us-am11.eqnode.net:8080
-      - 54.206.12.203:443 2
-      - 183.232.13.63:2104
-      - 3.124.12.30:8080 2
-      - 183.232.13.63:2104 2
-      - fr-am1-1.eqsunshine.com:8181
-      - 183.232.56.182:1502
-      - 183.232.13.114:1116 2
-      - 35.183.124.2:8080
-      - ca-am3.eqnode.net:8080
-      - sg-am15.eqsunshine.com:8181 2
+      - 213.183.53.177:9070
+      - _DE_德国
+      - _DE_德国 2
+      - _CH_瑞士
+      - gz1.52168.xyz:1102
+      - _BG_保加利亚
+      - 213.183.53.177:9020
+      - _CH_瑞士 2
+      - _NL_荷兰
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3
@@ -4203,36 +4098,47 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_134
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
-      - github.com/freefq - 香港Microsoft公司 1
-      - github.com/freefq - 美国Microsoft数据中心 2
-      - github.com/freefq - 美国Microsoft数据中心 3
-      - github.com/freefq - 韩国  4
-      - github.com/freefq - 韩国  5
-      - github.com/freefq - 美国Microsoft数据中心 6
-      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM数据中心 7
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 8
-      - github.com/freefq - 澳大利亚  9
-      - github.com/freefq - 上海市联通 10
-      - github.com/freefq - 加拿大  11
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 12
-      - github.com/freefq - 新加坡DigitalOcean数据中心 13
-      - github.com/freefq - 北美地区  14
-      - github.com/freefq - 加拿大  15
-      - github.com/freefq - 亚太地区  16
+      - github.com/freefq - 美国Microsoft数据中心 1
+      - github.com/freefq - 韩国  2
+      - github.com/freefq - 韩国  3
+      - github.com/freefq - 美国Microsoft数据中心 4
+      - github.com/freefq - 香港Microsoft公司 5
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 6
+      - github.com/freefq - 日本东京都品川区Linode数据中心 7
+      - github.com/freefq - 日本  8
+      - github.com/freefq - 加拿大  9
+      - github.com/freefq - 乌克兰  10
+      - github.com/freefq - 北美地区  11
+      - github.com/freefq - 上海市电信 12
+      - github.com/freefq - 乌克兰  13
+      - github.com/freefq - 乌克兰  14
+      - github.com/freefq - 俄罗斯莫斯科Melbicom数据中心 15
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 16
       - github.com/freefq - 美国  17
-      - github.com/freefq - 美国CloudFlare公司CDN节点 18
-      - github.com/freefq - 上海市电信 19
-      - github.com/freefq - 湖南省长沙市电信 20
-      - github.com/freefq - 北美地区  21
-      - github.com/freefq - 美国CloudFlare节点 22
+      - github.com/freefq - 美国CloudFlare节点 18
+      - github.com/freefq - 加拿大  19
+      - github.com/freefq - 新加坡DigitalOcean数据中心 20
+      - github.com/freefq - 俄罗斯  21
+      - github.com/freefq - 保加利亚索非亚Melbicom数据中心 22
       - github.com/freefq - 美国CloudFlare节点 23
-      - github.com/freefq - 北美地区  24
-      - github.com/freefq - 美国CloudFlare节点 25
+      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM数据中心 24
+      - github.com/freefq - 美国CloudFlare公司CDN节点 25
       - github.com/freefq - 美国  26
-      - github.com/freefq - 亚太地区  27
-      - github.com/freefq - 日本东京都品川区Linode数据中心 28
-      - github.com/freefq - 加拿大  29
-      - github.com/freefq - 浙江省衢州市移动 30
+      - github.com/freefq - 美国  27
+      - github.com/freefq - 加拿大  28
+      - github.com/freefq - 北美地区  29
+      - github.com/freefq - 加拿大  30
+      - github.com/freefq - 北美地区  31
+      - github.com/freefq - 美国CloudFlare节点 32
+      - github.com/freefq - 北美地区  33
+      - github.com/freefq - 亚太地区  34
+      - github.com/freefq - 亚太地区  35
+      - github.com/freefq - 加拿大  36
+      - github.com/freefq - 澳大利亚  37
+      - github.com/freefq - 美国CloudFlare公司CDN节点 38
+      - github.com/freefq - 美国  39
+      - github.com/freefq - 湖北省宜昌市联通 40
+      - github.com/freefq - 美国CloudFlare节点 41
       - 香港·hk·2-2
       - 香港·hk·1-3 | ×2
       - 香港·hk·2-1
@@ -5442,73 +5348,15 @@ proxy-groups:
       - 香港 04
       - 香港 05
       - 香港 06
-      - 183.232.56.110:1503
-      - 183.232.56.110:1501
-      - 183.232.56.182:1252
-      - 183.232.56.182:1254
-      - 183.232.56.110:1501 2
-      - 183.232.56.110:1251
-      - 183.232.56.182:1254 2
-      - 183.232.56.182:1252 2
-      - 183.232.56.110:1201
-      - 183.232.56.110:1253
-      - 183.232.56.110:1201 2
-      - 183.232.56.110:575
-      - 183.232.13.114:1101
-      - 183.232.56.182:574
-      - 183.232.56.110:1203
-      - 183.232.56.182:574 2
-      - 101.67.8.247:2204
-      - sg-am11.eqnode.net:8181
-      - 183.232.13.63:2107
-      - 13.229.104.89:8080
-      - 52.221.184.61:8181
-      - 52.77.239.192:8181
-      - 52.77.239.192:8181 2
-      - sg-am21.eqsunshine.com:8080
-      - sg-am15.eqsunshine.com:8181
-      - 183.232.13.63:2109
-      - 183.232.13.63:2109 2
-      - 183.232.13.63:2106
-      - 183.232.13.114:1109
-      - 183.232.13.114:1109 2
-      - 3.124.12.30:8080
-      - 35.180.0.141:8181
-      - 107.167.23.50:8084
-      - 183.232.13.114:1117
-      - 183.232.13.63:2102
-      - 183.232.13.114:1117 2
-      - 15.236.122.201:8181
-      - 183.232.13.114:1116
-      - 34.220.180.26:8080
-      - 183.232.13.63:2102 2
-      - 18.133.245.231:8181
-      - 107.167.23.50:8084 2
-      - 183.232.13.114:1107
-      - sy-am2.eqsunshine.com:443
-      - 107.167.23.50:8084 3
-      - 183.232.13.114:1102
-      - de-am2.eqnode.net:8080
-      - fr-am1-4.eqsunshine.com:8181
-      - de-am1.eqnode.net:8080
-      - 54.206.12.203:443
-      - 18.192.126.228:8080
-      - 34.219.236.31:8081
-      - 101.67.8.247:2210
-      - uk-am3-5.eqsunshine.com:8181
-      - 101.67.8.247:2202
-      - us-am32-5.eqnode.net:8081
-      - us-am11.eqnode.net:8080
-      - 54.206.12.203:443 2
-      - 183.232.13.63:2104
-      - 3.124.12.30:8080 2
-      - 183.232.13.63:2104 2
-      - fr-am1-1.eqsunshine.com:8181
-      - 183.232.56.182:1502
-      - 183.232.13.114:1116 2
-      - 35.183.124.2:8080
-      - ca-am3.eqnode.net:8080
-      - sg-am15.eqsunshine.com:8181 2
+      - 213.183.53.177:9070
+      - _DE_德国
+      - _DE_德国 2
+      - _CH_瑞士
+      - gz1.52168.xyz:1102
+      - _BG_保加利亚
+      - 213.183.53.177:9020
+      - _CH_瑞士 2
+      - _NL_荷兰
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3
@@ -6404,36 +6252,47 @@ proxy-groups:
       - Ytb:鹏哥分享_加拿大_134
       - Ytb:鹏哥分享_加拿大_13
       - Ytb:鹏哥分享_加拿大_178
-      - github.com/freefq - 香港Microsoft公司 1
-      - github.com/freefq - 美国Microsoft数据中心 2
-      - github.com/freefq - 美国Microsoft数据中心 3
-      - github.com/freefq - 韩国  4
-      - github.com/freefq - 韩国  5
-      - github.com/freefq - 美国Microsoft数据中心 6
-      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM数据中心 7
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 8
-      - github.com/freefq - 澳大利亚  9
-      - github.com/freefq - 上海市联通 10
-      - github.com/freefq - 加拿大  11
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 12
-      - github.com/freefq - 新加坡DigitalOcean数据中心 13
-      - github.com/freefq - 北美地区  14
-      - github.com/freefq - 加拿大  15
-      - github.com/freefq - 亚太地区  16
+      - github.com/freefq - 美国Microsoft数据中心 1
+      - github.com/freefq - 韩国  2
+      - github.com/freefq - 韩国  3
+      - github.com/freefq - 美国Microsoft数据中心 4
+      - github.com/freefq - 香港Microsoft公司 5
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 6
+      - github.com/freefq - 日本东京都品川区Linode数据中心 7
+      - github.com/freefq - 日本  8
+      - github.com/freefq - 加拿大  9
+      - github.com/freefq - 乌克兰  10
+      - github.com/freefq - 北美地区  11
+      - github.com/freefq - 上海市电信 12
+      - github.com/freefq - 乌克兰  13
+      - github.com/freefq - 乌克兰  14
+      - github.com/freefq - 俄罗斯莫斯科Melbicom数据中心 15
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 16
       - github.com/freefq - 美国  17
-      - github.com/freefq - 美国CloudFlare公司CDN节点 18
-      - github.com/freefq - 上海市电信 19
-      - github.com/freefq - 湖南省长沙市电信 20
-      - github.com/freefq - 北美地区  21
-      - github.com/freefq - 美国CloudFlare节点 22
+      - github.com/freefq - 美国CloudFlare节点 18
+      - github.com/freefq - 加拿大  19
+      - github.com/freefq - 新加坡DigitalOcean数据中心 20
+      - github.com/freefq - 俄罗斯  21
+      - github.com/freefq - 保加利亚索非亚Melbicom数据中心 22
       - github.com/freefq - 美国CloudFlare节点 23
-      - github.com/freefq - 北美地区  24
-      - github.com/freefq - 美国CloudFlare节点 25
+      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM数据中心 24
+      - github.com/freefq - 美国CloudFlare公司CDN节点 25
       - github.com/freefq - 美国  26
-      - github.com/freefq - 亚太地区  27
-      - github.com/freefq - 日本东京都品川区Linode数据中心 28
-      - github.com/freefq - 加拿大  29
-      - github.com/freefq - 浙江省衢州市移动 30
+      - github.com/freefq - 美国  27
+      - github.com/freefq - 加拿大  28
+      - github.com/freefq - 北美地区  29
+      - github.com/freefq - 加拿大  30
+      - github.com/freefq - 北美地区  31
+      - github.com/freefq - 美国CloudFlare节点 32
+      - github.com/freefq - 北美地区  33
+      - github.com/freefq - 亚太地区  34
+      - github.com/freefq - 亚太地区  35
+      - github.com/freefq - 加拿大  36
+      - github.com/freefq - 澳大利亚  37
+      - github.com/freefq - 美国CloudFlare公司CDN节点 38
+      - github.com/freefq - 美国  39
+      - github.com/freefq - 湖北省宜昌市联通 40
+      - github.com/freefq - 美国CloudFlare节点 41
       - 香港·hk·2-2
       - 香港·hk·1-3 | ×2
       - 香港·hk·2-1
