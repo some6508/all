@@ -5,88 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.198.252","port":443,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"default_name_2","server":"bpjzx2.cainiao.tk","port":443,"type":"vmess","uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","country":"default_name_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","headers":{"host":"orange-mode-ac6a.xjp0mx2cp.workers.dev"}}}
-  - {"name":"🇸🇬_SG_新加坡_3","server":"sg1.31vpn.com","port":443,"type":"vmess","uuid":"dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee","alterId":0,"cipher":"auto","country":"🇸🇬_SG_新加坡_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/fastssh/bddasdf/624e71635ed8e/","headers":{"host":"sg1.31vpn.com"}}}
-  - {"name":"default_name_4","server":"104.16.196.47","port":443,"type":"vmess","uuid":"3256a220-3c95-4844-839c-3b509c1c0997","alterId":0,"cipher":"auto","country":"default_name_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"production.flat-firefly-71d2.v20210811.workers.dev"}}}
-  - {"name":"default_name_5","server":"104.19.62.119","port":443,"type":"vmess","uuid":"e40d2888-03f6-4859-e84d-a743db763d52","alterId":0,"cipher":"auto","country":"default_name_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"broken-snow-9bc0.nhv111202.workers.dev"}}}
-  - {"name":"default_name_6","server":"104.18.90.4","port":443,"type":"vmess","uuid":"e40d2888-03f6-4859-e84d-a743db763d52","alterId":0,"cipher":"auto","country":"default_name_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"green-shadow-598a.nguyenhuuvuong11122002.workers.dev"}}}
-  - {"name":"default_name_7","server":"104.16.104.126","port":443,"type":"vmess","uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","country":"default_name_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","headers":{"host":"sweet-salad-aa33.tianzhen19880808.workers.dev"}}}
+  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_1","server":"cn1.iepl.starlink.st","port":50200,"type":"ss","country":"🇨🇳_CN_中国->🇹🇼_TW_台湾_1","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大_1
-      - default_name_2
-      - 🇸🇬_SG_新加坡_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
-      - default_name_7
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大_1
-      - default_name_2
-      - 🇸🇬_SG_新加坡_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
-      - default_name_7
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - default_name_2
-      - 🇸🇬_SG_新加坡_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
-      - default_name_7
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - default_name_2
-      - 🇸🇬_SG_新加坡_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
-      - default_name_7
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大_1
-      - default_name_2
-      - 🇸🇬_SG_新加坡_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
-      - default_name_7
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - default_name_2
-      - 🇸🇬_SG_新加坡_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
-      - default_name_7
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -109,13 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
-      - default_name_2
-      - 🇸🇬_SG_新加坡_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
-      - default_name_7
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
