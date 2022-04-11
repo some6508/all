@@ -5,109 +5,977 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"142.202.48.105","port":5004,"type":"ss","country":"🇺🇸_US_美国_1","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_2","server":"38.75.137.71","port":2375,"type":"ss","country":"🇺🇸_US_美国_2","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_3","server":"167.88.63.117","port":8119,"type":"ss","country":"🇺🇸_US_美国_3","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA_加拿大_4","server":"198.57.27.218","port":6379,"type":"ss","country":"🇨🇦_CA_加拿大_4","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇰🇷_KR_韩国_5","server":"158.247.205.87","port":5003,"type":"ss","country":"🇰🇷_KR_韩国_5","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦_CA_加拿大_6","server":"198.57.27.218","port":8009,"type":"ss","country":"🇨🇦_CA_加拿大_6","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_US_美国_7","server":"142.202.48.52","port":5004,"type":"ss","country":"🇺🇸_US_美国_7","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_8","server":"38.75.137.71","port":7306,"type":"ss","country":"🇺🇸_US_美国_8","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇸🇬_SG_新加坡_9","server":"139.162.24.50","port":7307,"type":"ss","country":"🇸🇬_SG_新加坡_9","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_10","server":"198.57.27.218","port":7002,"type":"ss","country":"🇨🇦_CA_加拿大_10","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇦🇺澳大利亚AU01*hi-moon_pw_1","server":"185.167.116.38","port":9056,"type":"ss","country":"🇦🇺澳大利亚AU01*hi-moon_pw_1","cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
+  - {"name":"🇧🇬保加利亚BG02*hi-moon_pw_2","server":"213.183.63.221","port":9097,"type":"ss","country":"🇧🇬保加利亚BG02*hi-moon_pw_2","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
+  - {"name":"🇧🇬保加利亚BG03*hi-moon_pw_3","server":"213.183.63.217","port":9010,"type":"ss","country":"🇧🇬保加利亚BG03*hi-moon_pw_3","cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
+  - {"name":"🇧🇬保加利亚BG04*hi-moon_pw_4","server":"213.183.63.218","port":9064,"type":"ss","country":"🇧🇬保加利亚BG04*hi-moon_pw_4","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
+  - {"name":"🇧🇬保加利亚BG05*hi-moon_pw_5","server":"213.183.63.217","port":9084,"type":"ss","country":"🇧🇬保加利亚BG05*hi-moon_pw_5","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"🇧🇬保加利亚BG06*hi-moon_pw_6","server":"213.183.63.221","port":9079,"type":"ss","country":"🇧🇬保加利亚BG06*hi-moon_pw_6","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
+  - {"name":"🇧🇬保加利亚BG07*hi-moon_pw_7","server":"213.183.63.221","port":9098,"type":"ss","country":"🇧🇬保加利亚BG07*hi-moon_pw_7","cipher":"aes-256-cfb","password":"aLpQtfEZe445QyHk"}
+  - {"name":"🇧🇬保加利亚BG08*hi-moon_pw_8","server":"213.183.63.217","port":9003,"type":"ss","country":"🇧🇬保加利亚BG08*hi-moon_pw_8","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
+  - {"name":"🇧🇬保加利亚BG09*hi-moon_pw_9","server":"213.183.63.217","port":9057,"type":"ss","country":"🇧🇬保加利亚BG09*hi-moon_pw_9","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
+  - {"name":"🇧🇬保加利亚BG10*hi-moon_pw_10","server":"213.183.63.217","port":9064,"type":"ss","country":"🇧🇬保加利亚BG10*hi-moon_pw_10","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
+  - {"name":"🇧🇬保加利亚BG11*hi-moon_pw_11","server":"213.183.63.217","port":9011,"type":"ss","country":"🇧🇬保加利亚BG11*hi-moon_pw_11","cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa"}
+  - {"name":"🇧🇬保加利亚BG12*hi-moon_pw_12","server":"213.183.63.217","port":9001,"type":"ss","country":"🇧🇬保加利亚BG12*hi-moon_pw_12","cipher":"aes-256-cfb","password":"UkXRsXvR6buDMG2Y"}
+  - {"name":"🇧🇬保加利亚BG13*hi-moon_pw_13","server":"213.183.63.218","port":9026,"type":"ss","country":"🇧🇬保加利亚BG13*hi-moon_pw_13","cipher":"aes-256-cfb","password":"QWDDvVE9npNurQfA"}
+  - {"name":"🇨🇭瑞士CH14*hi-moon_pw_14","server":"185.126.116.117","port":9003,"type":"ss","country":"🇨🇭瑞士CH14*hi-moon_pw_14","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
+  - {"name":"🇨🇭瑞士CH15*hi-moon_pw_15","server":"185.126.116.117","port":9005,"type":"ss","country":"🇨🇭瑞士CH15*hi-moon_pw_15","cipher":"aes-256-cfb","password":"ZET59LF6DvCC8KVt"}
+  - {"name":"🇨🇭瑞士CH16*hi-moon_pw_16","server":"185.126.116.124","port":9018,"type":"ss","country":"🇨🇭瑞士CH16*hi-moon_pw_16","cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
+  - {"name":"🇨🇭瑞士CH17*hi-moon_pw_17","server":"185.126.116.124","port":9033,"type":"ss","country":"🇨🇭瑞士CH17*hi-moon_pw_17","cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
+  - {"name":"🇨🇭瑞士CH18*hi-moon_pw_18","server":"185.126.116.117","port":9079,"type":"ss","country":"🇨🇭瑞士CH18*hi-moon_pw_18","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
+  - {"name":"🇨🇭瑞士CH19*hi-moon_pw_19","server":"185.126.116.124","port":9050,"type":"ss","country":"🇨🇭瑞士CH19*hi-moon_pw_19","cipher":"aes-256-cfb","password":"FG5ddLsMPbV5CutE"}
+  - {"name":"defaultName_20","server":"185.126.116.125","port":9003,"type":"ssr","country":"defaultName_20","password":"JdmRK9gMEqFgs8nP","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_21","server":"185.126.116.125","port":9070,"type":"ssr","country":"defaultName_21","password":"bf7v334KKDV3YDhH","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_22","server":"185.126.116.125","port":9098,"type":"ssr","country":"defaultName_22","password":"aLpQtfEZe445QyHk","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_23","server":"185.126.116.125","port":9019,"type":"ssr","country":"defaultName_23","password":"GA9KzeEgvfxNrgmM","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_24","server":"185.126.116.125","port":9001,"type":"ssr","country":"defaultName_24","password":"UkXRsXvR6buDMG2Y","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_25","server":"185.126.116.125","port":9008,"type":"ssr","country":"defaultName_25","password":"y9VURyNzJWNRYEGQ","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇨🇳CN26*hi-moon_pw_26","server":"116.129.253.99","port":10011,"type":"ss","country":"🇨🇳CN26*hi-moon_pw_26","cipher":"aes-256-gcm","password":"197bff19-7a22-479d-9025-90ca916e4bc1"}
+  - {"name":"^🇰🇷韩国KR27*hi-moon_pw_27","server":"$*@180.163.62.91","port":10064,"type":"ss","country":"^🇰🇷韩国KR27*hi-moon_pw_27","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
+  - {"name":"🇨🇳CN28*hi-moon_pw_28","server":"$*@14.29.124.168","port":25245,"type":"ss","country":"🇨🇳CN28*hi-moon_pw_28","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
+  - {"name":"🇨🇳CN29*hi-moon_pw_29","server":"$*@14.29.124.168","port":25238,"type":"ss","country":"🇨🇳CN29*hi-moon_pw_29","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
+  - {"name":"🇨🇳CN30*hi-moon_pw_30","server":"$*@14.29.124.168","port":25270,"type":"ss","country":"🇨🇳CN30*hi-moon_pw_30","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
+  - {"name":"🇨🇳CN31*hi-moon_pw_31","server":"$*@14.29.124.168","port":25271,"type":"ss","country":"🇨🇳CN31*hi-moon_pw_31","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
+  - {"name":"🇨🇳CN32*hi-moon_pw_32","server":"$*@14.29.124.168","port":25230,"type":"ss","country":"🇨🇳CN32*hi-moon_pw_32","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
+  - {"name":"🇨🇳CN33*hi-moon_pw_33","server":"$*@14.29.124.168","port":25218,"type":"ss","country":"🇨🇳CN33*hi-moon_pw_33","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
+  - {"name":"🇨🇳CN34*hi-moon_pw_34","server":"$*@14.29.124.168","port":25295,"type":"ss","country":"🇨🇳CN34*hi-moon_pw_34","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
+  - {"name":"^🇸🇬新加坡SG35*hi-moon_pw_35","server":"download.cn.connecat.com","port":60020,"type":"vmess","uuid":"d8b51f0b-8d4a-34ef-bc02-9c729c253e96","alterId":1,"cipher":"auto","country":"^🇸🇬新加坡SG35*hi-moon_pw_35","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"^🇷🇺俄罗斯RU36*hi-moon_pw_36","server":"download.cn.connecat.com","port":60013,"type":"vmess","uuid":"d8b51f0b-8d4a-34ef-bc02-9c729c253e96","alterId":1,"cipher":"auto","country":"^🇷🇺俄罗斯RU36*hi-moon_pw_36","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"^🇨🇳台湾TW37*hi-moon_pw_37","server":"download.cn.connecat.com","port":60004,"type":"vmess","uuid":"d8b51f0b-8d4a-34ef-bc02-9c729c253e96","alterId":1,"cipher":"auto","country":"^🇨🇳台湾TW37*hi-moon_pw_37","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"^🇨🇳台湾TW38*hi-moon_pw_38","server":"download.cn.connecat.com","port":60003,"type":"vmess","uuid":"d8b51f0b-8d4a-34ef-bc02-9c729c253e96","alterId":1,"cipher":"auto","country":"^🇨🇳台湾TW38*hi-moon_pw_38","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"^🇷🇺俄罗斯RU39*hi-moon_pw_39","server":"download.cn.connecat.com","port":60014,"type":"vmess","uuid":"d8b51f0b-8d4a-34ef-bc02-9c729c253e96","alterId":1,"cipher":"auto","country":"^🇷🇺俄罗斯RU39*hi-moon_pw_39","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"^🇸🇬新加坡SG40*hi-moon_pw_40","server":"download.cn.connecat.com","port":60019,"type":"vmess","uuid":"d8b51f0b-8d4a-34ef-bc02-9c729c253e96","alterId":1,"cipher":"auto","country":"^🇸🇬新加坡SG40*hi-moon_pw_40","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"^🇯🇵日本JP41*hi-moon_pw_41","server":"download.cn.connecat.com","port":60021,"type":"vmess","uuid":"d8b51f0b-8d4a-34ef-bc02-9c729c253e96","alterId":1,"cipher":"auto","country":"^🇯🇵日本JP41*hi-moon_pw_41","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"^🇭🇰香港HK42*hi-moon_pw_42","server":"115.236.135.90","port":50206,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"^🇭🇰香港HK42*hi-moon_pw_42","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8"}}
+  - {"name":"^🇯🇵日本JP43*hi-moon_pw_43","server":"download.cn.connecat.com","port":60022,"type":"vmess","uuid":"d8b51f0b-8d4a-34ef-bc02-9c729c253e96","alterId":1,"cipher":"auto","country":"^🇯🇵日本JP43*hi-moon_pw_43","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"^🇯🇵日本JP44*hi-moon_pw_44","server":"gy.sharecentrepro.tk","port":34148,"type":"trojan","country":"^🇯🇵日本JP44*hi-moon_pw_44","skip-cert-verify":true,"udp":true,"password":"sharecentrepro"}
+  - {"name":"🇨🇳台湾TW45*hi-moon_pw_45","server":"59.126.125.194","port":65284,"type":"vmess","uuid":"df8b537d-1077-4882-bf43-490380299116","alterId":0,"cipher":"auto","country":"🇨🇳台湾TW45*hi-moon_pw_45","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/macOS"}}
+  - {"name":"🇩🇪德国DE46*hi-moon_pw_46","server":"5.183.179.139","port":9020,"type":"ss","country":"🇩🇪德国DE46*hi-moon_pw_46","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
+  - {"name":"🇩🇪德国DE47*hi-moon_pw_47","server":"5.183.179.145","port":9053,"type":"ss","country":"🇩🇪德国DE47*hi-moon_pw_47","cipher":"aes-256-cfb","password":"SBM7R883jBmnqe6C"}
+  - {"name":"🇩🇪德国DE48*hi-moon_pw_48","server":"5.183.179.148","port":9003,"type":"ss","country":"🇩🇪德国DE48*hi-moon_pw_48","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
+  - {"name":"🇩🇪德国DE49*hi-moon_pw_49","server":"5.183.179.166","port":9041,"type":"ss","country":"🇩🇪德国DE49*hi-moon_pw_49","cipher":"aes-256-cfb","password":"U6qnYRhfyDmn8sgn"}
+  - {"name":"🇩🇪德国DE50*hi-moon_pw_50","server":"5.183.179.148","port":9011,"type":"ss","country":"🇩🇪德国DE50*hi-moon_pw_50","cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa"}
+  - {"name":"🇩🇪德国DE51*hi-moon_pw_51","server":"5.183.179.145","port":9018,"type":"ss","country":"🇩🇪德国DE51*hi-moon_pw_51","cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
+  - {"name":"🇩🇪德国DE52*hi-moon_pw_52","server":"5.183.179.141","port":9005,"type":"ss","country":"🇩🇪德国DE52*hi-moon_pw_52","cipher":"aes-256-cfb","password":"ZET59LF6DvCC8KVt"}
+  - {"name":"🇩🇪德国DE53*hi-moon_pw_53","server":"5.183.179.170","port":9097,"type":"ss","country":"🇩🇪德国DE53*hi-moon_pw_53","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
+  - {"name":"🇩🇪德国DE54*hi-moon_pw_54","server":"5.183.179.170","port":9079,"type":"ss","country":"🇩🇪德国DE54*hi-moon_pw_54","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
+  - {"name":"🇩🇪德国DE55*hi-moon_pw_55","server":"5.183.179.170","port":9014,"type":"ss","country":"🇩🇪德国DE55*hi-moon_pw_55","cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
+  - {"name":"🇩🇪德国DE56*hi-moon_pw_56","server":"5.183.179.145","port":9014,"type":"ss","country":"🇩🇪德国DE56*hi-moon_pw_56","cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
+  - {"name":"🇩🇪德国DE57*hi-moon_pw_57","server":"5.183.179.145","port":9059,"type":"ss","country":"🇩🇪德国DE57*hi-moon_pw_57","cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
+  - {"name":"🇩🇪德国DE58*hi-moon_pw_58","server":"5.183.179.141","port":9020,"type":"ss","country":"🇩🇪德国DE58*hi-moon_pw_58","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
+  - {"name":"🇩🇪德国DE59*hi-moon_pw_59","server":"5.183.179.170","port":9050,"type":"ss","country":"🇩🇪德国DE59*hi-moon_pw_59","cipher":"aes-256-cfb","password":"FG5ddLsMPbV5CutE"}
+  - {"name":"🇩🇪德国DE60*hi-moon_pw_60","server":"5.183.179.170","port":9000,"type":"ss","country":"🇩🇪德国DE60*hi-moon_pw_60","cipher":"aes-256-cfb","password":"a3GFYt36Sm82Vys9"}
+  - {"name":"🇩🇪德国DE61*hi-moon_pw_61","server":"5.183.179.145","port":9073,"type":"ss","country":"🇩🇪德国DE61*hi-moon_pw_61","cipher":"aes-256-cfb","password":"daFYagqDdBdA6VTX"}
+  - {"name":"🇩🇪德国DE62*hi-moon_pw_62","server":"5.183.179.170","port":9093,"type":"ss","country":"🇩🇪德国DE62*hi-moon_pw_62","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
+  - {"name":"🇩🇪德国DE63*hi-moon_pw_63","server":"5.183.179.170","port":9019,"type":"ss","country":"🇩🇪德国DE63*hi-moon_pw_63","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
+  - {"name":"🇩🇪德国DE64*hi-moon_pw_64","server":"5.183.179.141","port":9033,"type":"ss","country":"🇩🇪德国DE64*hi-moon_pw_64","cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
+  - {"name":"🇩🇪德国DE65*hi-moon_pw_65","server":"5.183.179.166","port":9000,"type":"ss","country":"🇩🇪德国DE65*hi-moon_pw_65","cipher":"aes-256-cfb","password":"a3GFYt36Sm82Vys9"}
+  - {"name":"🇩🇪德国DE66*hi-moon_pw_66","server":"5.183.179.148","port":9014,"type":"ss","country":"🇩🇪德国DE66*hi-moon_pw_66","cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
+  - {"name":"🇩🇪德国DE67*hi-moon_pw_67","server":"5.183.179.166","port":9079,"type":"ss","country":"🇩🇪德国DE67*hi-moon_pw_67","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
+  - {"name":"🇩🇪德国DE68*hi-moon_pw_68","server":"5.183.179.148","port":9037,"type":"ss","country":"🇩🇪德国DE68*hi-moon_pw_68","cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
+  - {"name":"🇩🇪德国DE69*hi-moon_pw_69","server":"5.183.179.148","port":9098,"type":"ss","country":"🇩🇪德国DE69*hi-moon_pw_69","cipher":"aes-256-cfb","password":"aLpQtfEZe445QyHk"}
+  - {"name":"🇩🇪德国DE70*hi-moon_pw_70","server":"5.183.179.140","port":9018,"type":"ss","country":"🇩🇪德国DE70*hi-moon_pw_70","cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
+  - {"name":"🇩🇪德国DE71*hi-moon_pw_71","server":"5.183.179.148","port":9084,"type":"ss","country":"🇩🇪德国DE71*hi-moon_pw_71","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"🇩🇪德国DE72*hi-moon_pw_72","server":"5.183.179.170","port":9094,"type":"ss","country":"🇩🇪德国DE72*hi-moon_pw_72","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
+  - {"name":"🇩🇪德国DE73*hi-moon_pw_73","server":"5.183.179.141","port":9031,"type":"ss","country":"🇩🇪德国DE73*hi-moon_pw_73","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
+  - {"name":"🇩🇪德国DE74*hi-moon_pw_74","server":"5.183.179.146","port":9038,"type":"ss","country":"🇩🇪德国DE74*hi-moon_pw_74","cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ"}
+  - {"name":"🇩🇪德国DE75*hi-moon_pw_75","server":"5.183.179.170","port":9038,"type":"ss","country":"🇩🇪德国DE75*hi-moon_pw_75","cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ"}
+  - {"name":"🇩🇪德国DE76*hi-moon_pw_76","server":"5.183.179.170","port":9032,"type":"ss","country":"🇩🇪德国DE76*hi-moon_pw_76","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
+  - {"name":"🇩🇪德国DE77*hi-moon_pw_77","server":"5.183.179.146","port":9079,"type":"ss","country":"🇩🇪德国DE77*hi-moon_pw_77","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
+  - {"name":"🇩🇪德国DE78*hi-moon_pw_78","server":"5.183.179.146","port":9011,"type":"ss","country":"🇩🇪德国DE78*hi-moon_pw_78","cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa"}
+  - {"name":"🇩🇪德国DE79*hi-moon_pw_79","server":"5.183.179.170","port":9043,"type":"ss","country":"🇩🇪德国DE79*hi-moon_pw_79","cipher":"aes-256-cfb","password":"HSZuyJQcWe8dxNdF"}
+  - {"name":"🇩🇪德国DE80*hi-moon_pw_80","server":"5.183.179.141","port":9084,"type":"ss","country":"🇩🇪德国DE80*hi-moon_pw_80","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"🇩🇪德国DE81*hi-moon_pw_81","server":"5.183.179.145","port":9025,"type":"ss","country":"🇩🇪德国DE81*hi-moon_pw_81","cipher":"aes-256-cfb","password":"XPtzA9sCug3SPR4c"}
+  - {"name":"🇩🇪德国DE82*hi-moon_pw_82","server":"5.183.179.145","port":9040,"type":"ss","country":"🇩🇪德国DE82*hi-moon_pw_82","cipher":"aes-256-cfb","password":"p9z5BVADH2YFs3MN"}
+  - {"name":"🇩🇪德国DE83*hi-moon_pw_83","server":"5.183.179.167","port":9045,"type":"ss","country":"🇩🇪德国DE83*hi-moon_pw_83","cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX"}
+  - {"name":"🇩🇪德国DE84*hi-moon_pw_84","server":"5.183.179.145","port":9046,"type":"ss","country":"🇩🇪德国DE84*hi-moon_pw_84","cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
+  - {"name":"🇩🇪德国DE85*hi-moon_pw_85","server":"5.183.179.139","port":9094,"type":"ss","country":"🇩🇪德国DE85*hi-moon_pw_85","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
+  - {"name":"🇩🇪德国DE86*hi-moon_pw_86","server":"5.183.179.140","port":9027,"type":"ss","country":"🇩🇪德国DE86*hi-moon_pw_86","cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
+  - {"name":"🇩🇪德国DE87*hi-moon_pw_87","server":"5.183.179.145","port":9098,"type":"ss","country":"🇩🇪德国DE87*hi-moon_pw_87","cipher":"aes-256-cfb","password":"aLpQtfEZe445QyHk"}
+  - {"name":"🇩🇪德国DE88*hi-moon_pw_88","server":"5.183.179.148","port":9088,"type":"ss","country":"🇩🇪德国DE88*hi-moon_pw_88","cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
+  - {"name":"🇩🇪德国DE89*hi-moon_pw_89","server":"5.183.179.140","port":9064,"type":"ss","country":"🇩🇪德国DE89*hi-moon_pw_89","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
+  - {"name":"🇩🇪德国DE90*hi-moon_pw_90","server":"5.183.179.146","port":9003,"type":"ss","country":"🇩🇪德国DE90*hi-moon_pw_90","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
+  - {"name":"🇩🇪德国DE91*hi-moon_pw_91","server":"5.183.179.145","port":9070,"type":"ss","country":"🇩🇪德国DE91*hi-moon_pw_91","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
+  - {"name":"🇩🇪德国DE92*hi-moon_pw_92","server":"5.183.179.146","port":9098,"type":"ss","country":"🇩🇪德国DE92*hi-moon_pw_92","cipher":"aes-256-cfb","password":"aLpQtfEZe445QyHk"}
+  - {"name":"🇩🇪德国DE93*hi-moon_pw_93","server":"5.183.179.167","port":9027,"type":"ss","country":"🇩🇪德国DE93*hi-moon_pw_93","cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
+  - {"name":"🇩🇪德国DE94*hi-moon_pw_94","server":"5.183.179.146","port":9045,"type":"ss","country":"🇩🇪德国DE94*hi-moon_pw_94","cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX"}
+  - {"name":"🇩🇪德国DE95*hi-moon_pw_95","server":"5.183.179.146","port":9033,"type":"ss","country":"🇩🇪德国DE95*hi-moon_pw_95","cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
+  - {"name":"🇩🇪德国DE96*hi-moon_pw_96","server":"5.183.179.166","port":9003,"type":"ss","country":"🇩🇪德国DE96*hi-moon_pw_96","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
+  - {"name":"🇩🇪德国DE97*hi-moon_pw_97","server":"5.183.179.166","port":9043,"type":"ss","country":"🇩🇪德国DE97*hi-moon_pw_97","cipher":"aes-256-cfb","password":"HSZuyJQcWe8dxNdF"}
+  - {"name":"🇩🇪德国DE98*hi-moon_pw_98","server":"5.183.179.139","port":9032,"type":"ss","country":"🇩🇪德国DE98*hi-moon_pw_98","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
+  - {"name":"🇩🇪德国DE99*hi-moon_pw_99","server":"5.183.179.166","port":9046,"type":"ss","country":"🇩🇪德国DE99*hi-moon_pw_99","cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
+  - {"name":"🇩🇪德国DE100*hi-moon_pw_100","server":"5.183.179.167","port":9018,"type":"ss","country":"🇩🇪德国DE100*hi-moon_pw_100","cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
+  - {"name":"🇩🇪德国DE101*hi-moon_pw_101","server":"5.183.179.146","port":9019,"type":"ss","country":"🇩🇪德国DE101*hi-moon_pw_101","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
+  - {"name":"🇩🇪德国DE102*hi-moon_pw_102","server":"5.183.179.146","port":9042,"type":"ss","country":"🇩🇪德国DE102*hi-moon_pw_102","cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
+  - {"name":"🇩🇪德国DE103*hi-moon_pw_103","server":"5.183.179.140","port":9025,"type":"ss","country":"🇩🇪德国DE103*hi-moon_pw_103","cipher":"aes-256-cfb","password":"XPtzA9sCug3SPR4c"}
+  - {"name":"🇩🇪德国DE104*hi-moon_pw_104","server":"5.183.179.140","port":9015,"type":"ss","country":"🇩🇪德国DE104*hi-moon_pw_104","cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf"}
+  - {"name":"🇩🇪德国DE105*hi-moon_pw_105","server":"5.183.179.139","port":9057,"type":"ss","country":"🇩🇪德国DE105*hi-moon_pw_105","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
+  - {"name":"🇩🇪德国DE106*hi-moon_pw_106","server":"5.183.179.145","port":9000,"type":"ss","country":"🇩🇪德国DE106*hi-moon_pw_106","cipher":"aes-256-cfb","password":"a3GFYt36Sm82Vys9"}
+  - {"name":"🇩🇪德国DE107*hi-moon_pw_107","server":"5.183.179.139","port":9011,"type":"ss","country":"🇩🇪德国DE107*hi-moon_pw_107","cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa"}
+  - {"name":"🇩🇪德国DE108*hi-moon_pw_108","server":"5.183.179.139","port":9046,"type":"ss","country":"🇩🇪德国DE108*hi-moon_pw_108","cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
+  - {"name":"🇩🇪德国DE109*hi-moon_pw_109","server":"5.183.179.146","port":9097,"type":"ss","country":"🇩🇪德国DE109*hi-moon_pw_109","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
+  - {"name":"🇩🇪德国DE110*hi-moon_pw_110","server":"5.183.179.145","port":9097,"type":"ss","country":"🇩🇪德国DE110*hi-moon_pw_110","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
+  - {"name":"🇩🇪德国DE111*hi-moon_pw_111","server":"5.183.179.146","port":9020,"type":"ss","country":"🇩🇪德国DE111*hi-moon_pw_111","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
+  - {"name":"🇩🇪德国DE112*hi-moon_pw_112","server":"5.183.179.148","port":9053,"type":"ss","country":"🇩🇪德国DE112*hi-moon_pw_112","cipher":"aes-256-cfb","password":"SBM7R883jBmnqe6C"}
+  - {"name":"🇩🇪德国DE113*hi-moon_pw_113","server":"5.183.179.146","port":9000,"type":"ss","country":"🇩🇪德国DE113*hi-moon_pw_113","cipher":"aes-256-cfb","password":"a3GFYt36Sm82Vys9"}
+  - {"name":"🇩🇪德国DE114*hi-moon_pw_114","server":"5.183.179.145","port":9005,"type":"ss","country":"🇩🇪德国DE114*hi-moon_pw_114","cipher":"aes-256-cfb","password":"ZET59LF6DvCC8KVt"}
+  - {"name":"🇩🇪德国DE115*hi-moon_pw_115","server":"5.183.179.148","port":9031,"type":"ss","country":"🇩🇪德国DE115*hi-moon_pw_115","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
+  - {"name":"🇩🇪德国DE116*hi-moon_pw_116","server":"5.183.179.166","port":9037,"type":"ss","country":"🇩🇪德国DE116*hi-moon_pw_116","cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
+  - {"name":"🇩🇪德国DE117*hi-moon_pw_117","server":"5.183.179.146","port":9032,"type":"ss","country":"🇩🇪德国DE117*hi-moon_pw_117","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
+  - {"name":"🇩🇪德国DE118*hi-moon_pw_118","server":"5.183.179.146","port":9084,"type":"ss","country":"🇩🇪德国DE118*hi-moon_pw_118","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"🇩🇪德国DE119*hi-moon_pw_119","server":"5.183.179.170","port":9031,"type":"ss","country":"🇩🇪德国DE119*hi-moon_pw_119","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
+  - {"name":"🇩🇪德国DE120*hi-moon_pw_120","server":"5.183.179.146","port":9060,"type":"ss","country":"🇩🇪德国DE120*hi-moon_pw_120","cipher":"aes-256-cfb","password":"ueLXVkvh4hckhErQ"}
+  - {"name":"🇩🇪德国DE121*hi-moon_pw_121","server":"5.183.179.146","port":9043,"type":"ss","country":"🇩🇪德国DE121*hi-moon_pw_121","cipher":"aes-256-cfb","password":"HSZuyJQcWe8dxNdF"}
+  - {"name":"🇩🇪德国DE122*hi-moon_pw_122","server":"5.183.179.146","port":9064,"type":"ss","country":"🇩🇪德国DE122*hi-moon_pw_122","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
+  - {"name":"🇩🇪德国DE123*hi-moon_pw_123","server":"5.183.179.146","port":9007,"type":"ss","country":"🇩🇪德国DE123*hi-moon_pw_123","cipher":"aes-256-cfb","password":"kSPmvwdFzGMMW5pY"}
+  - {"name":"🇩🇪德国DE124*hi-moon_pw_124","server":"5.183.179.145","port":9019,"type":"ss","country":"🇩🇪德国DE124*hi-moon_pw_124","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
+  - {"name":"🇩🇪德国DE125*hi-moon_pw_125","server":"5.183.179.146","port":9057,"type":"ss","country":"🇩🇪德国DE125*hi-moon_pw_125","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
+  - {"name":"🇬🇧英国GB126*hi-moon_pw_126","server":"152.89.210.84","port":9037,"type":"ss","country":"🇬🇧英国GB126*hi-moon_pw_126","cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
+  - {"name":"defaultName_127","server":"152.89.210.105","port":9073,"type":"ssr","country":"defaultName_127","password":"daFYagqDdBdA6VTX","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_128","server":"152.89.210.105","port":9060,"type":"ssr","country":"defaultName_128","password":"ueLXVkvh4hckhErQ","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_129","server":"152.89.210.105","port":9064,"type":"ssr","country":"defaultName_129","password":"cp8pRSUAyLhTfVWH","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_130","server":"152.89.210.105","port":9059,"type":"ssr","country":"defaultName_130","password":"9XwYyZsK8SNzQDtY","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"^🇭🇰香港HK131*hi-moon_pw_131","server":"hkcmi.745937508.xyz","port":51693,"type":"vmess","uuid":"5d5f96d0-5d45-4860-915d-c1fbb16f4384","alterId":20,"cipher":"auto","country":"^🇭🇰香港HK131*hi-moon_pw_131","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/andre"}}
+  - {"name":"^🇭🇰香港HK132*hi-moon_pw_132","server":"330hk02.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"^🇭🇰香港HK132*hi-moon_pw_132","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray"}}
+  - {"name":"^🇯🇵日本JP133*hi-moon_pw_133","server":"ddns-jp01.ayanami.best","port":80,"type":"vmess","uuid":"b31f69e2-efce-4168-932d-2fa083ab1b80","alterId":0,"cipher":"auto","country":"^🇯🇵日本JP133*hi-moon_pw_133","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"^🇰🇷韩国KR134*hi-moon_pw_134","server":"hgmf.speedcncnforward2.tk","port":80,"type":"trojan","country":"^🇰🇷韩国KR134*hi-moon_pw_134","skip-cert-verify":true,"udp":true,"password":"da0ea9bc-0dc1-4714-820f-44e87692930f"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇰🇷_KR_韩国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇦🇺澳大利亚AU01*hi-moon_pw_1
+      - 🇧🇬保加利亚BG02*hi-moon_pw_2
+      - 🇧🇬保加利亚BG03*hi-moon_pw_3
+      - 🇧🇬保加利亚BG04*hi-moon_pw_4
+      - 🇧🇬保加利亚BG05*hi-moon_pw_5
+      - 🇧🇬保加利亚BG06*hi-moon_pw_6
+      - 🇧🇬保加利亚BG07*hi-moon_pw_7
+      - 🇧🇬保加利亚BG08*hi-moon_pw_8
+      - 🇧🇬保加利亚BG09*hi-moon_pw_9
+      - 🇧🇬保加利亚BG10*hi-moon_pw_10
+      - 🇧🇬保加利亚BG11*hi-moon_pw_11
+      - 🇧🇬保加利亚BG12*hi-moon_pw_12
+      - 🇧🇬保加利亚BG13*hi-moon_pw_13
+      - 🇨🇭瑞士CH14*hi-moon_pw_14
+      - 🇨🇭瑞士CH15*hi-moon_pw_15
+      - 🇨🇭瑞士CH16*hi-moon_pw_16
+      - 🇨🇭瑞士CH17*hi-moon_pw_17
+      - 🇨🇭瑞士CH18*hi-moon_pw_18
+      - 🇨🇭瑞士CH19*hi-moon_pw_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - 🇨🇳CN26*hi-moon_pw_26
+      - ^🇰🇷韩国KR27*hi-moon_pw_27
+      - 🇨🇳CN28*hi-moon_pw_28
+      - 🇨🇳CN29*hi-moon_pw_29
+      - 🇨🇳CN30*hi-moon_pw_30
+      - 🇨🇳CN31*hi-moon_pw_31
+      - 🇨🇳CN32*hi-moon_pw_32
+      - 🇨🇳CN33*hi-moon_pw_33
+      - 🇨🇳CN34*hi-moon_pw_34
+      - ^🇸🇬新加坡SG35*hi-moon_pw_35
+      - ^🇷🇺俄罗斯RU36*hi-moon_pw_36
+      - ^🇨🇳台湾TW37*hi-moon_pw_37
+      - ^🇨🇳台湾TW38*hi-moon_pw_38
+      - ^🇷🇺俄罗斯RU39*hi-moon_pw_39
+      - ^🇸🇬新加坡SG40*hi-moon_pw_40
+      - ^🇯🇵日本JP41*hi-moon_pw_41
+      - ^🇭🇰香港HK42*hi-moon_pw_42
+      - ^🇯🇵日本JP43*hi-moon_pw_43
+      - ^🇯🇵日本JP44*hi-moon_pw_44
+      - 🇨🇳台湾TW45*hi-moon_pw_45
+      - 🇩🇪德国DE46*hi-moon_pw_46
+      - 🇩🇪德国DE47*hi-moon_pw_47
+      - 🇩🇪德国DE48*hi-moon_pw_48
+      - 🇩🇪德国DE49*hi-moon_pw_49
+      - 🇩🇪德国DE50*hi-moon_pw_50
+      - 🇩🇪德国DE51*hi-moon_pw_51
+      - 🇩🇪德国DE52*hi-moon_pw_52
+      - 🇩🇪德国DE53*hi-moon_pw_53
+      - 🇩🇪德国DE54*hi-moon_pw_54
+      - 🇩🇪德国DE55*hi-moon_pw_55
+      - 🇩🇪德国DE56*hi-moon_pw_56
+      - 🇩🇪德国DE57*hi-moon_pw_57
+      - 🇩🇪德国DE58*hi-moon_pw_58
+      - 🇩🇪德国DE59*hi-moon_pw_59
+      - 🇩🇪德国DE60*hi-moon_pw_60
+      - 🇩🇪德国DE61*hi-moon_pw_61
+      - 🇩🇪德国DE62*hi-moon_pw_62
+      - 🇩🇪德国DE63*hi-moon_pw_63
+      - 🇩🇪德国DE64*hi-moon_pw_64
+      - 🇩🇪德国DE65*hi-moon_pw_65
+      - 🇩🇪德国DE66*hi-moon_pw_66
+      - 🇩🇪德国DE67*hi-moon_pw_67
+      - 🇩🇪德国DE68*hi-moon_pw_68
+      - 🇩🇪德国DE69*hi-moon_pw_69
+      - 🇩🇪德国DE70*hi-moon_pw_70
+      - 🇩🇪德国DE71*hi-moon_pw_71
+      - 🇩🇪德国DE72*hi-moon_pw_72
+      - 🇩🇪德国DE73*hi-moon_pw_73
+      - 🇩🇪德国DE74*hi-moon_pw_74
+      - 🇩🇪德国DE75*hi-moon_pw_75
+      - 🇩🇪德国DE76*hi-moon_pw_76
+      - 🇩🇪德国DE77*hi-moon_pw_77
+      - 🇩🇪德国DE78*hi-moon_pw_78
+      - 🇩🇪德国DE79*hi-moon_pw_79
+      - 🇩🇪德国DE80*hi-moon_pw_80
+      - 🇩🇪德国DE81*hi-moon_pw_81
+      - 🇩🇪德国DE82*hi-moon_pw_82
+      - 🇩🇪德国DE83*hi-moon_pw_83
+      - 🇩🇪德国DE84*hi-moon_pw_84
+      - 🇩🇪德国DE85*hi-moon_pw_85
+      - 🇩🇪德国DE86*hi-moon_pw_86
+      - 🇩🇪德国DE87*hi-moon_pw_87
+      - 🇩🇪德国DE88*hi-moon_pw_88
+      - 🇩🇪德国DE89*hi-moon_pw_89
+      - 🇩🇪德国DE90*hi-moon_pw_90
+      - 🇩🇪德国DE91*hi-moon_pw_91
+      - 🇩🇪德国DE92*hi-moon_pw_92
+      - 🇩🇪德国DE93*hi-moon_pw_93
+      - 🇩🇪德国DE94*hi-moon_pw_94
+      - 🇩🇪德国DE95*hi-moon_pw_95
+      - 🇩🇪德国DE96*hi-moon_pw_96
+      - 🇩🇪德国DE97*hi-moon_pw_97
+      - 🇩🇪德国DE98*hi-moon_pw_98
+      - 🇩🇪德国DE99*hi-moon_pw_99
+      - 🇩🇪德国DE100*hi-moon_pw_100
+      - 🇩🇪德国DE101*hi-moon_pw_101
+      - 🇩🇪德国DE102*hi-moon_pw_102
+      - 🇩🇪德国DE103*hi-moon_pw_103
+      - 🇩🇪德国DE104*hi-moon_pw_104
+      - 🇩🇪德国DE105*hi-moon_pw_105
+      - 🇩🇪德国DE106*hi-moon_pw_106
+      - 🇩🇪德国DE107*hi-moon_pw_107
+      - 🇩🇪德国DE108*hi-moon_pw_108
+      - 🇩🇪德国DE109*hi-moon_pw_109
+      - 🇩🇪德国DE110*hi-moon_pw_110
+      - 🇩🇪德国DE111*hi-moon_pw_111
+      - 🇩🇪德国DE112*hi-moon_pw_112
+      - 🇩🇪德国DE113*hi-moon_pw_113
+      - 🇩🇪德国DE114*hi-moon_pw_114
+      - 🇩🇪德国DE115*hi-moon_pw_115
+      - 🇩🇪德国DE116*hi-moon_pw_116
+      - 🇩🇪德国DE117*hi-moon_pw_117
+      - 🇩🇪德国DE118*hi-moon_pw_118
+      - 🇩🇪德国DE119*hi-moon_pw_119
+      - 🇩🇪德国DE120*hi-moon_pw_120
+      - 🇩🇪德国DE121*hi-moon_pw_121
+      - 🇩🇪德国DE122*hi-moon_pw_122
+      - 🇩🇪德国DE123*hi-moon_pw_123
+      - 🇩🇪德国DE124*hi-moon_pw_124
+      - 🇩🇪德国DE125*hi-moon_pw_125
+      - 🇬🇧英国GB126*hi-moon_pw_126
+      - defaultName_127
+      - defaultName_128
+      - defaultName_129
+      - defaultName_130
+      - ^🇭🇰香港HK131*hi-moon_pw_131
+      - ^🇭🇰香港HK132*hi-moon_pw_132
+      - ^🇯🇵日本JP133*hi-moon_pw_133
+      - ^🇰🇷韩国KR134*hi-moon_pw_134
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇰🇷_KR_韩国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇦🇺澳大利亚AU01*hi-moon_pw_1
+      - 🇧🇬保加利亚BG02*hi-moon_pw_2
+      - 🇧🇬保加利亚BG03*hi-moon_pw_3
+      - 🇧🇬保加利亚BG04*hi-moon_pw_4
+      - 🇧🇬保加利亚BG05*hi-moon_pw_5
+      - 🇧🇬保加利亚BG06*hi-moon_pw_6
+      - 🇧🇬保加利亚BG07*hi-moon_pw_7
+      - 🇧🇬保加利亚BG08*hi-moon_pw_8
+      - 🇧🇬保加利亚BG09*hi-moon_pw_9
+      - 🇧🇬保加利亚BG10*hi-moon_pw_10
+      - 🇧🇬保加利亚BG11*hi-moon_pw_11
+      - 🇧🇬保加利亚BG12*hi-moon_pw_12
+      - 🇧🇬保加利亚BG13*hi-moon_pw_13
+      - 🇨🇭瑞士CH14*hi-moon_pw_14
+      - 🇨🇭瑞士CH15*hi-moon_pw_15
+      - 🇨🇭瑞士CH16*hi-moon_pw_16
+      - 🇨🇭瑞士CH17*hi-moon_pw_17
+      - 🇨🇭瑞士CH18*hi-moon_pw_18
+      - 🇨🇭瑞士CH19*hi-moon_pw_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - 🇨🇳CN26*hi-moon_pw_26
+      - ^🇰🇷韩国KR27*hi-moon_pw_27
+      - 🇨🇳CN28*hi-moon_pw_28
+      - 🇨🇳CN29*hi-moon_pw_29
+      - 🇨🇳CN30*hi-moon_pw_30
+      - 🇨🇳CN31*hi-moon_pw_31
+      - 🇨🇳CN32*hi-moon_pw_32
+      - 🇨🇳CN33*hi-moon_pw_33
+      - 🇨🇳CN34*hi-moon_pw_34
+      - ^🇸🇬新加坡SG35*hi-moon_pw_35
+      - ^🇷🇺俄罗斯RU36*hi-moon_pw_36
+      - ^🇨🇳台湾TW37*hi-moon_pw_37
+      - ^🇨🇳台湾TW38*hi-moon_pw_38
+      - ^🇷🇺俄罗斯RU39*hi-moon_pw_39
+      - ^🇸🇬新加坡SG40*hi-moon_pw_40
+      - ^🇯🇵日本JP41*hi-moon_pw_41
+      - ^🇭🇰香港HK42*hi-moon_pw_42
+      - ^🇯🇵日本JP43*hi-moon_pw_43
+      - ^🇯🇵日本JP44*hi-moon_pw_44
+      - 🇨🇳台湾TW45*hi-moon_pw_45
+      - 🇩🇪德国DE46*hi-moon_pw_46
+      - 🇩🇪德国DE47*hi-moon_pw_47
+      - 🇩🇪德国DE48*hi-moon_pw_48
+      - 🇩🇪德国DE49*hi-moon_pw_49
+      - 🇩🇪德国DE50*hi-moon_pw_50
+      - 🇩🇪德国DE51*hi-moon_pw_51
+      - 🇩🇪德国DE52*hi-moon_pw_52
+      - 🇩🇪德国DE53*hi-moon_pw_53
+      - 🇩🇪德国DE54*hi-moon_pw_54
+      - 🇩🇪德国DE55*hi-moon_pw_55
+      - 🇩🇪德国DE56*hi-moon_pw_56
+      - 🇩🇪德国DE57*hi-moon_pw_57
+      - 🇩🇪德国DE58*hi-moon_pw_58
+      - 🇩🇪德国DE59*hi-moon_pw_59
+      - 🇩🇪德国DE60*hi-moon_pw_60
+      - 🇩🇪德国DE61*hi-moon_pw_61
+      - 🇩🇪德国DE62*hi-moon_pw_62
+      - 🇩🇪德国DE63*hi-moon_pw_63
+      - 🇩🇪德国DE64*hi-moon_pw_64
+      - 🇩🇪德国DE65*hi-moon_pw_65
+      - 🇩🇪德国DE66*hi-moon_pw_66
+      - 🇩🇪德国DE67*hi-moon_pw_67
+      - 🇩🇪德国DE68*hi-moon_pw_68
+      - 🇩🇪德国DE69*hi-moon_pw_69
+      - 🇩🇪德国DE70*hi-moon_pw_70
+      - 🇩🇪德国DE71*hi-moon_pw_71
+      - 🇩🇪德国DE72*hi-moon_pw_72
+      - 🇩🇪德国DE73*hi-moon_pw_73
+      - 🇩🇪德国DE74*hi-moon_pw_74
+      - 🇩🇪德国DE75*hi-moon_pw_75
+      - 🇩🇪德国DE76*hi-moon_pw_76
+      - 🇩🇪德国DE77*hi-moon_pw_77
+      - 🇩🇪德国DE78*hi-moon_pw_78
+      - 🇩🇪德国DE79*hi-moon_pw_79
+      - 🇩🇪德国DE80*hi-moon_pw_80
+      - 🇩🇪德国DE81*hi-moon_pw_81
+      - 🇩🇪德国DE82*hi-moon_pw_82
+      - 🇩🇪德国DE83*hi-moon_pw_83
+      - 🇩🇪德国DE84*hi-moon_pw_84
+      - 🇩🇪德国DE85*hi-moon_pw_85
+      - 🇩🇪德国DE86*hi-moon_pw_86
+      - 🇩🇪德国DE87*hi-moon_pw_87
+      - 🇩🇪德国DE88*hi-moon_pw_88
+      - 🇩🇪德国DE89*hi-moon_pw_89
+      - 🇩🇪德国DE90*hi-moon_pw_90
+      - 🇩🇪德国DE91*hi-moon_pw_91
+      - 🇩🇪德国DE92*hi-moon_pw_92
+      - 🇩🇪德国DE93*hi-moon_pw_93
+      - 🇩🇪德国DE94*hi-moon_pw_94
+      - 🇩🇪德国DE95*hi-moon_pw_95
+      - 🇩🇪德国DE96*hi-moon_pw_96
+      - 🇩🇪德国DE97*hi-moon_pw_97
+      - 🇩🇪德国DE98*hi-moon_pw_98
+      - 🇩🇪德国DE99*hi-moon_pw_99
+      - 🇩🇪德国DE100*hi-moon_pw_100
+      - 🇩🇪德国DE101*hi-moon_pw_101
+      - 🇩🇪德国DE102*hi-moon_pw_102
+      - 🇩🇪德国DE103*hi-moon_pw_103
+      - 🇩🇪德国DE104*hi-moon_pw_104
+      - 🇩🇪德国DE105*hi-moon_pw_105
+      - 🇩🇪德国DE106*hi-moon_pw_106
+      - 🇩🇪德国DE107*hi-moon_pw_107
+      - 🇩🇪德国DE108*hi-moon_pw_108
+      - 🇩🇪德国DE109*hi-moon_pw_109
+      - 🇩🇪德国DE110*hi-moon_pw_110
+      - 🇩🇪德国DE111*hi-moon_pw_111
+      - 🇩🇪德国DE112*hi-moon_pw_112
+      - 🇩🇪德国DE113*hi-moon_pw_113
+      - 🇩🇪德国DE114*hi-moon_pw_114
+      - 🇩🇪德国DE115*hi-moon_pw_115
+      - 🇩🇪德国DE116*hi-moon_pw_116
+      - 🇩🇪德国DE117*hi-moon_pw_117
+      - 🇩🇪德国DE118*hi-moon_pw_118
+      - 🇩🇪德国DE119*hi-moon_pw_119
+      - 🇩🇪德国DE120*hi-moon_pw_120
+      - 🇩🇪德国DE121*hi-moon_pw_121
+      - 🇩🇪德国DE122*hi-moon_pw_122
+      - 🇩🇪德国DE123*hi-moon_pw_123
+      - 🇩🇪德国DE124*hi-moon_pw_124
+      - 🇩🇪德国DE125*hi-moon_pw_125
+      - 🇬🇧英国GB126*hi-moon_pw_126
+      - defaultName_127
+      - defaultName_128
+      - defaultName_129
+      - defaultName_130
+      - ^🇭🇰香港HK131*hi-moon_pw_131
+      - ^🇭🇰香港HK132*hi-moon_pw_132
+      - ^🇯🇵日本JP133*hi-moon_pw_133
+      - ^🇰🇷韩国KR134*hi-moon_pw_134
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇰🇷_KR_韩国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇦🇺澳大利亚AU01*hi-moon_pw_1
+      - 🇧🇬保加利亚BG02*hi-moon_pw_2
+      - 🇧🇬保加利亚BG03*hi-moon_pw_3
+      - 🇧🇬保加利亚BG04*hi-moon_pw_4
+      - 🇧🇬保加利亚BG05*hi-moon_pw_5
+      - 🇧🇬保加利亚BG06*hi-moon_pw_6
+      - 🇧🇬保加利亚BG07*hi-moon_pw_7
+      - 🇧🇬保加利亚BG08*hi-moon_pw_8
+      - 🇧🇬保加利亚BG09*hi-moon_pw_9
+      - 🇧🇬保加利亚BG10*hi-moon_pw_10
+      - 🇧🇬保加利亚BG11*hi-moon_pw_11
+      - 🇧🇬保加利亚BG12*hi-moon_pw_12
+      - 🇧🇬保加利亚BG13*hi-moon_pw_13
+      - 🇨🇭瑞士CH14*hi-moon_pw_14
+      - 🇨🇭瑞士CH15*hi-moon_pw_15
+      - 🇨🇭瑞士CH16*hi-moon_pw_16
+      - 🇨🇭瑞士CH17*hi-moon_pw_17
+      - 🇨🇭瑞士CH18*hi-moon_pw_18
+      - 🇨🇭瑞士CH19*hi-moon_pw_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - 🇨🇳CN26*hi-moon_pw_26
+      - ^🇰🇷韩国KR27*hi-moon_pw_27
+      - 🇨🇳CN28*hi-moon_pw_28
+      - 🇨🇳CN29*hi-moon_pw_29
+      - 🇨🇳CN30*hi-moon_pw_30
+      - 🇨🇳CN31*hi-moon_pw_31
+      - 🇨🇳CN32*hi-moon_pw_32
+      - 🇨🇳CN33*hi-moon_pw_33
+      - 🇨🇳CN34*hi-moon_pw_34
+      - ^🇸🇬新加坡SG35*hi-moon_pw_35
+      - ^🇷🇺俄罗斯RU36*hi-moon_pw_36
+      - ^🇨🇳台湾TW37*hi-moon_pw_37
+      - ^🇨🇳台湾TW38*hi-moon_pw_38
+      - ^🇷🇺俄罗斯RU39*hi-moon_pw_39
+      - ^🇸🇬新加坡SG40*hi-moon_pw_40
+      - ^🇯🇵日本JP41*hi-moon_pw_41
+      - ^🇭🇰香港HK42*hi-moon_pw_42
+      - ^🇯🇵日本JP43*hi-moon_pw_43
+      - ^🇯🇵日本JP44*hi-moon_pw_44
+      - 🇨🇳台湾TW45*hi-moon_pw_45
+      - 🇩🇪德国DE46*hi-moon_pw_46
+      - 🇩🇪德国DE47*hi-moon_pw_47
+      - 🇩🇪德国DE48*hi-moon_pw_48
+      - 🇩🇪德国DE49*hi-moon_pw_49
+      - 🇩🇪德国DE50*hi-moon_pw_50
+      - 🇩🇪德国DE51*hi-moon_pw_51
+      - 🇩🇪德国DE52*hi-moon_pw_52
+      - 🇩🇪德国DE53*hi-moon_pw_53
+      - 🇩🇪德国DE54*hi-moon_pw_54
+      - 🇩🇪德国DE55*hi-moon_pw_55
+      - 🇩🇪德国DE56*hi-moon_pw_56
+      - 🇩🇪德国DE57*hi-moon_pw_57
+      - 🇩🇪德国DE58*hi-moon_pw_58
+      - 🇩🇪德国DE59*hi-moon_pw_59
+      - 🇩🇪德国DE60*hi-moon_pw_60
+      - 🇩🇪德国DE61*hi-moon_pw_61
+      - 🇩🇪德国DE62*hi-moon_pw_62
+      - 🇩🇪德国DE63*hi-moon_pw_63
+      - 🇩🇪德国DE64*hi-moon_pw_64
+      - 🇩🇪德国DE65*hi-moon_pw_65
+      - 🇩🇪德国DE66*hi-moon_pw_66
+      - 🇩🇪德国DE67*hi-moon_pw_67
+      - 🇩🇪德国DE68*hi-moon_pw_68
+      - 🇩🇪德国DE69*hi-moon_pw_69
+      - 🇩🇪德国DE70*hi-moon_pw_70
+      - 🇩🇪德国DE71*hi-moon_pw_71
+      - 🇩🇪德国DE72*hi-moon_pw_72
+      - 🇩🇪德国DE73*hi-moon_pw_73
+      - 🇩🇪德国DE74*hi-moon_pw_74
+      - 🇩🇪德国DE75*hi-moon_pw_75
+      - 🇩🇪德国DE76*hi-moon_pw_76
+      - 🇩🇪德国DE77*hi-moon_pw_77
+      - 🇩🇪德国DE78*hi-moon_pw_78
+      - 🇩🇪德国DE79*hi-moon_pw_79
+      - 🇩🇪德国DE80*hi-moon_pw_80
+      - 🇩🇪德国DE81*hi-moon_pw_81
+      - 🇩🇪德国DE82*hi-moon_pw_82
+      - 🇩🇪德国DE83*hi-moon_pw_83
+      - 🇩🇪德国DE84*hi-moon_pw_84
+      - 🇩🇪德国DE85*hi-moon_pw_85
+      - 🇩🇪德国DE86*hi-moon_pw_86
+      - 🇩🇪德国DE87*hi-moon_pw_87
+      - 🇩🇪德国DE88*hi-moon_pw_88
+      - 🇩🇪德国DE89*hi-moon_pw_89
+      - 🇩🇪德国DE90*hi-moon_pw_90
+      - 🇩🇪德国DE91*hi-moon_pw_91
+      - 🇩🇪德国DE92*hi-moon_pw_92
+      - 🇩🇪德国DE93*hi-moon_pw_93
+      - 🇩🇪德国DE94*hi-moon_pw_94
+      - 🇩🇪德国DE95*hi-moon_pw_95
+      - 🇩🇪德国DE96*hi-moon_pw_96
+      - 🇩🇪德国DE97*hi-moon_pw_97
+      - 🇩🇪德国DE98*hi-moon_pw_98
+      - 🇩🇪德国DE99*hi-moon_pw_99
+      - 🇩🇪德国DE100*hi-moon_pw_100
+      - 🇩🇪德国DE101*hi-moon_pw_101
+      - 🇩🇪德国DE102*hi-moon_pw_102
+      - 🇩🇪德国DE103*hi-moon_pw_103
+      - 🇩🇪德国DE104*hi-moon_pw_104
+      - 🇩🇪德国DE105*hi-moon_pw_105
+      - 🇩🇪德国DE106*hi-moon_pw_106
+      - 🇩🇪德国DE107*hi-moon_pw_107
+      - 🇩🇪德国DE108*hi-moon_pw_108
+      - 🇩🇪德国DE109*hi-moon_pw_109
+      - 🇩🇪德国DE110*hi-moon_pw_110
+      - 🇩🇪德国DE111*hi-moon_pw_111
+      - 🇩🇪德国DE112*hi-moon_pw_112
+      - 🇩🇪德国DE113*hi-moon_pw_113
+      - 🇩🇪德国DE114*hi-moon_pw_114
+      - 🇩🇪德国DE115*hi-moon_pw_115
+      - 🇩🇪德国DE116*hi-moon_pw_116
+      - 🇩🇪德国DE117*hi-moon_pw_117
+      - 🇩🇪德国DE118*hi-moon_pw_118
+      - 🇩🇪德国DE119*hi-moon_pw_119
+      - 🇩🇪德国DE120*hi-moon_pw_120
+      - 🇩🇪德国DE121*hi-moon_pw_121
+      - 🇩🇪德国DE122*hi-moon_pw_122
+      - 🇩🇪德国DE123*hi-moon_pw_123
+      - 🇩🇪德国DE124*hi-moon_pw_124
+      - 🇩🇪德国DE125*hi-moon_pw_125
+      - 🇬🇧英国GB126*hi-moon_pw_126
+      - defaultName_127
+      - defaultName_128
+      - defaultName_129
+      - defaultName_130
+      - ^🇭🇰香港HK131*hi-moon_pw_131
+      - ^🇭🇰香港HK132*hi-moon_pw_132
+      - ^🇯🇵日本JP133*hi-moon_pw_133
+      - ^🇰🇷韩国KR134*hi-moon_pw_134
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇰🇷_KR_韩国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇦🇺澳大利亚AU01*hi-moon_pw_1
+      - 🇧🇬保加利亚BG02*hi-moon_pw_2
+      - 🇧🇬保加利亚BG03*hi-moon_pw_3
+      - 🇧🇬保加利亚BG04*hi-moon_pw_4
+      - 🇧🇬保加利亚BG05*hi-moon_pw_5
+      - 🇧🇬保加利亚BG06*hi-moon_pw_6
+      - 🇧🇬保加利亚BG07*hi-moon_pw_7
+      - 🇧🇬保加利亚BG08*hi-moon_pw_8
+      - 🇧🇬保加利亚BG09*hi-moon_pw_9
+      - 🇧🇬保加利亚BG10*hi-moon_pw_10
+      - 🇧🇬保加利亚BG11*hi-moon_pw_11
+      - 🇧🇬保加利亚BG12*hi-moon_pw_12
+      - 🇧🇬保加利亚BG13*hi-moon_pw_13
+      - 🇨🇭瑞士CH14*hi-moon_pw_14
+      - 🇨🇭瑞士CH15*hi-moon_pw_15
+      - 🇨🇭瑞士CH16*hi-moon_pw_16
+      - 🇨🇭瑞士CH17*hi-moon_pw_17
+      - 🇨🇭瑞士CH18*hi-moon_pw_18
+      - 🇨🇭瑞士CH19*hi-moon_pw_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - 🇨🇳CN26*hi-moon_pw_26
+      - ^🇰🇷韩国KR27*hi-moon_pw_27
+      - 🇨🇳CN28*hi-moon_pw_28
+      - 🇨🇳CN29*hi-moon_pw_29
+      - 🇨🇳CN30*hi-moon_pw_30
+      - 🇨🇳CN31*hi-moon_pw_31
+      - 🇨🇳CN32*hi-moon_pw_32
+      - 🇨🇳CN33*hi-moon_pw_33
+      - 🇨🇳CN34*hi-moon_pw_34
+      - ^🇸🇬新加坡SG35*hi-moon_pw_35
+      - ^🇷🇺俄罗斯RU36*hi-moon_pw_36
+      - ^🇨🇳台湾TW37*hi-moon_pw_37
+      - ^🇨🇳台湾TW38*hi-moon_pw_38
+      - ^🇷🇺俄罗斯RU39*hi-moon_pw_39
+      - ^🇸🇬新加坡SG40*hi-moon_pw_40
+      - ^🇯🇵日本JP41*hi-moon_pw_41
+      - ^🇭🇰香港HK42*hi-moon_pw_42
+      - ^🇯🇵日本JP43*hi-moon_pw_43
+      - ^🇯🇵日本JP44*hi-moon_pw_44
+      - 🇨🇳台湾TW45*hi-moon_pw_45
+      - 🇩🇪德国DE46*hi-moon_pw_46
+      - 🇩🇪德国DE47*hi-moon_pw_47
+      - 🇩🇪德国DE48*hi-moon_pw_48
+      - 🇩🇪德国DE49*hi-moon_pw_49
+      - 🇩🇪德国DE50*hi-moon_pw_50
+      - 🇩🇪德国DE51*hi-moon_pw_51
+      - 🇩🇪德国DE52*hi-moon_pw_52
+      - 🇩🇪德国DE53*hi-moon_pw_53
+      - 🇩🇪德国DE54*hi-moon_pw_54
+      - 🇩🇪德国DE55*hi-moon_pw_55
+      - 🇩🇪德国DE56*hi-moon_pw_56
+      - 🇩🇪德国DE57*hi-moon_pw_57
+      - 🇩🇪德国DE58*hi-moon_pw_58
+      - 🇩🇪德国DE59*hi-moon_pw_59
+      - 🇩🇪德国DE60*hi-moon_pw_60
+      - 🇩🇪德国DE61*hi-moon_pw_61
+      - 🇩🇪德国DE62*hi-moon_pw_62
+      - 🇩🇪德国DE63*hi-moon_pw_63
+      - 🇩🇪德国DE64*hi-moon_pw_64
+      - 🇩🇪德国DE65*hi-moon_pw_65
+      - 🇩🇪德国DE66*hi-moon_pw_66
+      - 🇩🇪德国DE67*hi-moon_pw_67
+      - 🇩🇪德国DE68*hi-moon_pw_68
+      - 🇩🇪德国DE69*hi-moon_pw_69
+      - 🇩🇪德国DE70*hi-moon_pw_70
+      - 🇩🇪德国DE71*hi-moon_pw_71
+      - 🇩🇪德国DE72*hi-moon_pw_72
+      - 🇩🇪德国DE73*hi-moon_pw_73
+      - 🇩🇪德国DE74*hi-moon_pw_74
+      - 🇩🇪德国DE75*hi-moon_pw_75
+      - 🇩🇪德国DE76*hi-moon_pw_76
+      - 🇩🇪德国DE77*hi-moon_pw_77
+      - 🇩🇪德国DE78*hi-moon_pw_78
+      - 🇩🇪德国DE79*hi-moon_pw_79
+      - 🇩🇪德国DE80*hi-moon_pw_80
+      - 🇩🇪德国DE81*hi-moon_pw_81
+      - 🇩🇪德国DE82*hi-moon_pw_82
+      - 🇩🇪德国DE83*hi-moon_pw_83
+      - 🇩🇪德国DE84*hi-moon_pw_84
+      - 🇩🇪德国DE85*hi-moon_pw_85
+      - 🇩🇪德国DE86*hi-moon_pw_86
+      - 🇩🇪德国DE87*hi-moon_pw_87
+      - 🇩🇪德国DE88*hi-moon_pw_88
+      - 🇩🇪德国DE89*hi-moon_pw_89
+      - 🇩🇪德国DE90*hi-moon_pw_90
+      - 🇩🇪德国DE91*hi-moon_pw_91
+      - 🇩🇪德国DE92*hi-moon_pw_92
+      - 🇩🇪德国DE93*hi-moon_pw_93
+      - 🇩🇪德国DE94*hi-moon_pw_94
+      - 🇩🇪德国DE95*hi-moon_pw_95
+      - 🇩🇪德国DE96*hi-moon_pw_96
+      - 🇩🇪德国DE97*hi-moon_pw_97
+      - 🇩🇪德国DE98*hi-moon_pw_98
+      - 🇩🇪德国DE99*hi-moon_pw_99
+      - 🇩🇪德国DE100*hi-moon_pw_100
+      - 🇩🇪德国DE101*hi-moon_pw_101
+      - 🇩🇪德国DE102*hi-moon_pw_102
+      - 🇩🇪德国DE103*hi-moon_pw_103
+      - 🇩🇪德国DE104*hi-moon_pw_104
+      - 🇩🇪德国DE105*hi-moon_pw_105
+      - 🇩🇪德国DE106*hi-moon_pw_106
+      - 🇩🇪德国DE107*hi-moon_pw_107
+      - 🇩🇪德国DE108*hi-moon_pw_108
+      - 🇩🇪德国DE109*hi-moon_pw_109
+      - 🇩🇪德国DE110*hi-moon_pw_110
+      - 🇩🇪德国DE111*hi-moon_pw_111
+      - 🇩🇪德国DE112*hi-moon_pw_112
+      - 🇩🇪德国DE113*hi-moon_pw_113
+      - 🇩🇪德国DE114*hi-moon_pw_114
+      - 🇩🇪德国DE115*hi-moon_pw_115
+      - 🇩🇪德国DE116*hi-moon_pw_116
+      - 🇩🇪德国DE117*hi-moon_pw_117
+      - 🇩🇪德国DE118*hi-moon_pw_118
+      - 🇩🇪德国DE119*hi-moon_pw_119
+      - 🇩🇪德国DE120*hi-moon_pw_120
+      - 🇩🇪德国DE121*hi-moon_pw_121
+      - 🇩🇪德国DE122*hi-moon_pw_122
+      - 🇩🇪德国DE123*hi-moon_pw_123
+      - 🇩🇪德国DE124*hi-moon_pw_124
+      - 🇩🇪德国DE125*hi-moon_pw_125
+      - 🇬🇧英国GB126*hi-moon_pw_126
+      - defaultName_127
+      - defaultName_128
+      - defaultName_129
+      - defaultName_130
+      - ^🇭🇰香港HK131*hi-moon_pw_131
+      - ^🇭🇰香港HK132*hi-moon_pw_132
+      - ^🇯🇵日本JP133*hi-moon_pw_133
+      - ^🇰🇷韩国KR134*hi-moon_pw_134
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇰🇷_KR_韩国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇦🇺澳大利亚AU01*hi-moon_pw_1
+      - 🇧🇬保加利亚BG02*hi-moon_pw_2
+      - 🇧🇬保加利亚BG03*hi-moon_pw_3
+      - 🇧🇬保加利亚BG04*hi-moon_pw_4
+      - 🇧🇬保加利亚BG05*hi-moon_pw_5
+      - 🇧🇬保加利亚BG06*hi-moon_pw_6
+      - 🇧🇬保加利亚BG07*hi-moon_pw_7
+      - 🇧🇬保加利亚BG08*hi-moon_pw_8
+      - 🇧🇬保加利亚BG09*hi-moon_pw_9
+      - 🇧🇬保加利亚BG10*hi-moon_pw_10
+      - 🇧🇬保加利亚BG11*hi-moon_pw_11
+      - 🇧🇬保加利亚BG12*hi-moon_pw_12
+      - 🇧🇬保加利亚BG13*hi-moon_pw_13
+      - 🇨🇭瑞士CH14*hi-moon_pw_14
+      - 🇨🇭瑞士CH15*hi-moon_pw_15
+      - 🇨🇭瑞士CH16*hi-moon_pw_16
+      - 🇨🇭瑞士CH17*hi-moon_pw_17
+      - 🇨🇭瑞士CH18*hi-moon_pw_18
+      - 🇨🇭瑞士CH19*hi-moon_pw_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - 🇨🇳CN26*hi-moon_pw_26
+      - ^🇰🇷韩国KR27*hi-moon_pw_27
+      - 🇨🇳CN28*hi-moon_pw_28
+      - 🇨🇳CN29*hi-moon_pw_29
+      - 🇨🇳CN30*hi-moon_pw_30
+      - 🇨🇳CN31*hi-moon_pw_31
+      - 🇨🇳CN32*hi-moon_pw_32
+      - 🇨🇳CN33*hi-moon_pw_33
+      - 🇨🇳CN34*hi-moon_pw_34
+      - ^🇸🇬新加坡SG35*hi-moon_pw_35
+      - ^🇷🇺俄罗斯RU36*hi-moon_pw_36
+      - ^🇨🇳台湾TW37*hi-moon_pw_37
+      - ^🇨🇳台湾TW38*hi-moon_pw_38
+      - ^🇷🇺俄罗斯RU39*hi-moon_pw_39
+      - ^🇸🇬新加坡SG40*hi-moon_pw_40
+      - ^🇯🇵日本JP41*hi-moon_pw_41
+      - ^🇭🇰香港HK42*hi-moon_pw_42
+      - ^🇯🇵日本JP43*hi-moon_pw_43
+      - ^🇯🇵日本JP44*hi-moon_pw_44
+      - 🇨🇳台湾TW45*hi-moon_pw_45
+      - 🇩🇪德国DE46*hi-moon_pw_46
+      - 🇩🇪德国DE47*hi-moon_pw_47
+      - 🇩🇪德国DE48*hi-moon_pw_48
+      - 🇩🇪德国DE49*hi-moon_pw_49
+      - 🇩🇪德国DE50*hi-moon_pw_50
+      - 🇩🇪德国DE51*hi-moon_pw_51
+      - 🇩🇪德国DE52*hi-moon_pw_52
+      - 🇩🇪德国DE53*hi-moon_pw_53
+      - 🇩🇪德国DE54*hi-moon_pw_54
+      - 🇩🇪德国DE55*hi-moon_pw_55
+      - 🇩🇪德国DE56*hi-moon_pw_56
+      - 🇩🇪德国DE57*hi-moon_pw_57
+      - 🇩🇪德国DE58*hi-moon_pw_58
+      - 🇩🇪德国DE59*hi-moon_pw_59
+      - 🇩🇪德国DE60*hi-moon_pw_60
+      - 🇩🇪德国DE61*hi-moon_pw_61
+      - 🇩🇪德国DE62*hi-moon_pw_62
+      - 🇩🇪德国DE63*hi-moon_pw_63
+      - 🇩🇪德国DE64*hi-moon_pw_64
+      - 🇩🇪德国DE65*hi-moon_pw_65
+      - 🇩🇪德国DE66*hi-moon_pw_66
+      - 🇩🇪德国DE67*hi-moon_pw_67
+      - 🇩🇪德国DE68*hi-moon_pw_68
+      - 🇩🇪德国DE69*hi-moon_pw_69
+      - 🇩🇪德国DE70*hi-moon_pw_70
+      - 🇩🇪德国DE71*hi-moon_pw_71
+      - 🇩🇪德国DE72*hi-moon_pw_72
+      - 🇩🇪德国DE73*hi-moon_pw_73
+      - 🇩🇪德国DE74*hi-moon_pw_74
+      - 🇩🇪德国DE75*hi-moon_pw_75
+      - 🇩🇪德国DE76*hi-moon_pw_76
+      - 🇩🇪德国DE77*hi-moon_pw_77
+      - 🇩🇪德国DE78*hi-moon_pw_78
+      - 🇩🇪德国DE79*hi-moon_pw_79
+      - 🇩🇪德国DE80*hi-moon_pw_80
+      - 🇩🇪德国DE81*hi-moon_pw_81
+      - 🇩🇪德国DE82*hi-moon_pw_82
+      - 🇩🇪德国DE83*hi-moon_pw_83
+      - 🇩🇪德国DE84*hi-moon_pw_84
+      - 🇩🇪德国DE85*hi-moon_pw_85
+      - 🇩🇪德国DE86*hi-moon_pw_86
+      - 🇩🇪德国DE87*hi-moon_pw_87
+      - 🇩🇪德国DE88*hi-moon_pw_88
+      - 🇩🇪德国DE89*hi-moon_pw_89
+      - 🇩🇪德国DE90*hi-moon_pw_90
+      - 🇩🇪德国DE91*hi-moon_pw_91
+      - 🇩🇪德国DE92*hi-moon_pw_92
+      - 🇩🇪德国DE93*hi-moon_pw_93
+      - 🇩🇪德国DE94*hi-moon_pw_94
+      - 🇩🇪德国DE95*hi-moon_pw_95
+      - 🇩🇪德国DE96*hi-moon_pw_96
+      - 🇩🇪德国DE97*hi-moon_pw_97
+      - 🇩🇪德国DE98*hi-moon_pw_98
+      - 🇩🇪德国DE99*hi-moon_pw_99
+      - 🇩🇪德国DE100*hi-moon_pw_100
+      - 🇩🇪德国DE101*hi-moon_pw_101
+      - 🇩🇪德国DE102*hi-moon_pw_102
+      - 🇩🇪德国DE103*hi-moon_pw_103
+      - 🇩🇪德国DE104*hi-moon_pw_104
+      - 🇩🇪德国DE105*hi-moon_pw_105
+      - 🇩🇪德国DE106*hi-moon_pw_106
+      - 🇩🇪德国DE107*hi-moon_pw_107
+      - 🇩🇪德国DE108*hi-moon_pw_108
+      - 🇩🇪德国DE109*hi-moon_pw_109
+      - 🇩🇪德国DE110*hi-moon_pw_110
+      - 🇩🇪德国DE111*hi-moon_pw_111
+      - 🇩🇪德国DE112*hi-moon_pw_112
+      - 🇩🇪德国DE113*hi-moon_pw_113
+      - 🇩🇪德国DE114*hi-moon_pw_114
+      - 🇩🇪德国DE115*hi-moon_pw_115
+      - 🇩🇪德国DE116*hi-moon_pw_116
+      - 🇩🇪德国DE117*hi-moon_pw_117
+      - 🇩🇪德国DE118*hi-moon_pw_118
+      - 🇩🇪德国DE119*hi-moon_pw_119
+      - 🇩🇪德国DE120*hi-moon_pw_120
+      - 🇩🇪德国DE121*hi-moon_pw_121
+      - 🇩🇪德国DE122*hi-moon_pw_122
+      - 🇩🇪德国DE123*hi-moon_pw_123
+      - 🇩🇪德国DE124*hi-moon_pw_124
+      - 🇩🇪德国DE125*hi-moon_pw_125
+      - 🇬🇧英国GB126*hi-moon_pw_126
+      - defaultName_127
+      - defaultName_128
+      - defaultName_129
+      - defaultName_130
+      - ^🇭🇰香港HK131*hi-moon_pw_131
+      - ^🇭🇰香港HK132*hi-moon_pw_132
+      - ^🇯🇵日本JP133*hi-moon_pw_133
+      - ^🇰🇷韩国KR134*hi-moon_pw_134
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇰🇷_KR_韩国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇦🇺澳大利亚AU01*hi-moon_pw_1
+      - 🇧🇬保加利亚BG02*hi-moon_pw_2
+      - 🇧🇬保加利亚BG03*hi-moon_pw_3
+      - 🇧🇬保加利亚BG04*hi-moon_pw_4
+      - 🇧🇬保加利亚BG05*hi-moon_pw_5
+      - 🇧🇬保加利亚BG06*hi-moon_pw_6
+      - 🇧🇬保加利亚BG07*hi-moon_pw_7
+      - 🇧🇬保加利亚BG08*hi-moon_pw_8
+      - 🇧🇬保加利亚BG09*hi-moon_pw_9
+      - 🇧🇬保加利亚BG10*hi-moon_pw_10
+      - 🇧🇬保加利亚BG11*hi-moon_pw_11
+      - 🇧🇬保加利亚BG12*hi-moon_pw_12
+      - 🇧🇬保加利亚BG13*hi-moon_pw_13
+      - 🇨🇭瑞士CH14*hi-moon_pw_14
+      - 🇨🇭瑞士CH15*hi-moon_pw_15
+      - 🇨🇭瑞士CH16*hi-moon_pw_16
+      - 🇨🇭瑞士CH17*hi-moon_pw_17
+      - 🇨🇭瑞士CH18*hi-moon_pw_18
+      - 🇨🇭瑞士CH19*hi-moon_pw_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - 🇨🇳CN26*hi-moon_pw_26
+      - ^🇰🇷韩国KR27*hi-moon_pw_27
+      - 🇨🇳CN28*hi-moon_pw_28
+      - 🇨🇳CN29*hi-moon_pw_29
+      - 🇨🇳CN30*hi-moon_pw_30
+      - 🇨🇳CN31*hi-moon_pw_31
+      - 🇨🇳CN32*hi-moon_pw_32
+      - 🇨🇳CN33*hi-moon_pw_33
+      - 🇨🇳CN34*hi-moon_pw_34
+      - ^🇸🇬新加坡SG35*hi-moon_pw_35
+      - ^🇷🇺俄罗斯RU36*hi-moon_pw_36
+      - ^🇨🇳台湾TW37*hi-moon_pw_37
+      - ^🇨🇳台湾TW38*hi-moon_pw_38
+      - ^🇷🇺俄罗斯RU39*hi-moon_pw_39
+      - ^🇸🇬新加坡SG40*hi-moon_pw_40
+      - ^🇯🇵日本JP41*hi-moon_pw_41
+      - ^🇭🇰香港HK42*hi-moon_pw_42
+      - ^🇯🇵日本JP43*hi-moon_pw_43
+      - ^🇯🇵日本JP44*hi-moon_pw_44
+      - 🇨🇳台湾TW45*hi-moon_pw_45
+      - 🇩🇪德国DE46*hi-moon_pw_46
+      - 🇩🇪德国DE47*hi-moon_pw_47
+      - 🇩🇪德国DE48*hi-moon_pw_48
+      - 🇩🇪德国DE49*hi-moon_pw_49
+      - 🇩🇪德国DE50*hi-moon_pw_50
+      - 🇩🇪德国DE51*hi-moon_pw_51
+      - 🇩🇪德国DE52*hi-moon_pw_52
+      - 🇩🇪德国DE53*hi-moon_pw_53
+      - 🇩🇪德国DE54*hi-moon_pw_54
+      - 🇩🇪德国DE55*hi-moon_pw_55
+      - 🇩🇪德国DE56*hi-moon_pw_56
+      - 🇩🇪德国DE57*hi-moon_pw_57
+      - 🇩🇪德国DE58*hi-moon_pw_58
+      - 🇩🇪德国DE59*hi-moon_pw_59
+      - 🇩🇪德国DE60*hi-moon_pw_60
+      - 🇩🇪德国DE61*hi-moon_pw_61
+      - 🇩🇪德国DE62*hi-moon_pw_62
+      - 🇩🇪德国DE63*hi-moon_pw_63
+      - 🇩🇪德国DE64*hi-moon_pw_64
+      - 🇩🇪德国DE65*hi-moon_pw_65
+      - 🇩🇪德国DE66*hi-moon_pw_66
+      - 🇩🇪德国DE67*hi-moon_pw_67
+      - 🇩🇪德国DE68*hi-moon_pw_68
+      - 🇩🇪德国DE69*hi-moon_pw_69
+      - 🇩🇪德国DE70*hi-moon_pw_70
+      - 🇩🇪德国DE71*hi-moon_pw_71
+      - 🇩🇪德国DE72*hi-moon_pw_72
+      - 🇩🇪德国DE73*hi-moon_pw_73
+      - 🇩🇪德国DE74*hi-moon_pw_74
+      - 🇩🇪德国DE75*hi-moon_pw_75
+      - 🇩🇪德国DE76*hi-moon_pw_76
+      - 🇩🇪德国DE77*hi-moon_pw_77
+      - 🇩🇪德国DE78*hi-moon_pw_78
+      - 🇩🇪德国DE79*hi-moon_pw_79
+      - 🇩🇪德国DE80*hi-moon_pw_80
+      - 🇩🇪德国DE81*hi-moon_pw_81
+      - 🇩🇪德国DE82*hi-moon_pw_82
+      - 🇩🇪德国DE83*hi-moon_pw_83
+      - 🇩🇪德国DE84*hi-moon_pw_84
+      - 🇩🇪德国DE85*hi-moon_pw_85
+      - 🇩🇪德国DE86*hi-moon_pw_86
+      - 🇩🇪德国DE87*hi-moon_pw_87
+      - 🇩🇪德国DE88*hi-moon_pw_88
+      - 🇩🇪德国DE89*hi-moon_pw_89
+      - 🇩🇪德国DE90*hi-moon_pw_90
+      - 🇩🇪德国DE91*hi-moon_pw_91
+      - 🇩🇪德国DE92*hi-moon_pw_92
+      - 🇩🇪德国DE93*hi-moon_pw_93
+      - 🇩🇪德国DE94*hi-moon_pw_94
+      - 🇩🇪德国DE95*hi-moon_pw_95
+      - 🇩🇪德国DE96*hi-moon_pw_96
+      - 🇩🇪德国DE97*hi-moon_pw_97
+      - 🇩🇪德国DE98*hi-moon_pw_98
+      - 🇩🇪德国DE99*hi-moon_pw_99
+      - 🇩🇪德国DE100*hi-moon_pw_100
+      - 🇩🇪德国DE101*hi-moon_pw_101
+      - 🇩🇪德国DE102*hi-moon_pw_102
+      - 🇩🇪德国DE103*hi-moon_pw_103
+      - 🇩🇪德国DE104*hi-moon_pw_104
+      - 🇩🇪德国DE105*hi-moon_pw_105
+      - 🇩🇪德国DE106*hi-moon_pw_106
+      - 🇩🇪德国DE107*hi-moon_pw_107
+      - 🇩🇪德国DE108*hi-moon_pw_108
+      - 🇩🇪德国DE109*hi-moon_pw_109
+      - 🇩🇪德国DE110*hi-moon_pw_110
+      - 🇩🇪德国DE111*hi-moon_pw_111
+      - 🇩🇪德国DE112*hi-moon_pw_112
+      - 🇩🇪德国DE113*hi-moon_pw_113
+      - 🇩🇪德国DE114*hi-moon_pw_114
+      - 🇩🇪德国DE115*hi-moon_pw_115
+      - 🇩🇪德国DE116*hi-moon_pw_116
+      - 🇩🇪德国DE117*hi-moon_pw_117
+      - 🇩🇪德国DE118*hi-moon_pw_118
+      - 🇩🇪德国DE119*hi-moon_pw_119
+      - 🇩🇪德国DE120*hi-moon_pw_120
+      - 🇩🇪德国DE121*hi-moon_pw_121
+      - 🇩🇪德国DE122*hi-moon_pw_122
+      - 🇩🇪德国DE123*hi-moon_pw_123
+      - 🇩🇪德国DE124*hi-moon_pw_124
+      - 🇩🇪德国DE125*hi-moon_pw_125
+      - 🇬🇧英国GB126*hi-moon_pw_126
+      - defaultName_127
+      - defaultName_128
+      - defaultName_129
+      - defaultName_130
+      - ^🇭🇰香港HK131*hi-moon_pw_131
+      - ^🇭🇰香港HK132*hi-moon_pw_132
+      - ^🇯🇵日本JP133*hi-moon_pw_133
+      - ^🇰🇷韩国KR134*hi-moon_pw_134
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +998,140 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇰🇷_KR_韩国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇨🇦_CA_加拿大_10
+      - 🇦🇺澳大利亚AU01*hi-moon_pw_1
+      - 🇧🇬保加利亚BG02*hi-moon_pw_2
+      - 🇧🇬保加利亚BG03*hi-moon_pw_3
+      - 🇧🇬保加利亚BG04*hi-moon_pw_4
+      - 🇧🇬保加利亚BG05*hi-moon_pw_5
+      - 🇧🇬保加利亚BG06*hi-moon_pw_6
+      - 🇧🇬保加利亚BG07*hi-moon_pw_7
+      - 🇧🇬保加利亚BG08*hi-moon_pw_8
+      - 🇧🇬保加利亚BG09*hi-moon_pw_9
+      - 🇧🇬保加利亚BG10*hi-moon_pw_10
+      - 🇧🇬保加利亚BG11*hi-moon_pw_11
+      - 🇧🇬保加利亚BG12*hi-moon_pw_12
+      - 🇧🇬保加利亚BG13*hi-moon_pw_13
+      - 🇨🇭瑞士CH14*hi-moon_pw_14
+      - 🇨🇭瑞士CH15*hi-moon_pw_15
+      - 🇨🇭瑞士CH16*hi-moon_pw_16
+      - 🇨🇭瑞士CH17*hi-moon_pw_17
+      - 🇨🇭瑞士CH18*hi-moon_pw_18
+      - 🇨🇭瑞士CH19*hi-moon_pw_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - 🇨🇳CN26*hi-moon_pw_26
+      - ^🇰🇷韩国KR27*hi-moon_pw_27
+      - 🇨🇳CN28*hi-moon_pw_28
+      - 🇨🇳CN29*hi-moon_pw_29
+      - 🇨🇳CN30*hi-moon_pw_30
+      - 🇨🇳CN31*hi-moon_pw_31
+      - 🇨🇳CN32*hi-moon_pw_32
+      - 🇨🇳CN33*hi-moon_pw_33
+      - 🇨🇳CN34*hi-moon_pw_34
+      - ^🇸🇬新加坡SG35*hi-moon_pw_35
+      - ^🇷🇺俄罗斯RU36*hi-moon_pw_36
+      - ^🇨🇳台湾TW37*hi-moon_pw_37
+      - ^🇨🇳台湾TW38*hi-moon_pw_38
+      - ^🇷🇺俄罗斯RU39*hi-moon_pw_39
+      - ^🇸🇬新加坡SG40*hi-moon_pw_40
+      - ^🇯🇵日本JP41*hi-moon_pw_41
+      - ^🇭🇰香港HK42*hi-moon_pw_42
+      - ^🇯🇵日本JP43*hi-moon_pw_43
+      - ^🇯🇵日本JP44*hi-moon_pw_44
+      - 🇨🇳台湾TW45*hi-moon_pw_45
+      - 🇩🇪德国DE46*hi-moon_pw_46
+      - 🇩🇪德国DE47*hi-moon_pw_47
+      - 🇩🇪德国DE48*hi-moon_pw_48
+      - 🇩🇪德国DE49*hi-moon_pw_49
+      - 🇩🇪德国DE50*hi-moon_pw_50
+      - 🇩🇪德国DE51*hi-moon_pw_51
+      - 🇩🇪德国DE52*hi-moon_pw_52
+      - 🇩🇪德国DE53*hi-moon_pw_53
+      - 🇩🇪德国DE54*hi-moon_pw_54
+      - 🇩🇪德国DE55*hi-moon_pw_55
+      - 🇩🇪德国DE56*hi-moon_pw_56
+      - 🇩🇪德国DE57*hi-moon_pw_57
+      - 🇩🇪德国DE58*hi-moon_pw_58
+      - 🇩🇪德国DE59*hi-moon_pw_59
+      - 🇩🇪德国DE60*hi-moon_pw_60
+      - 🇩🇪德国DE61*hi-moon_pw_61
+      - 🇩🇪德国DE62*hi-moon_pw_62
+      - 🇩🇪德国DE63*hi-moon_pw_63
+      - 🇩🇪德国DE64*hi-moon_pw_64
+      - 🇩🇪德国DE65*hi-moon_pw_65
+      - 🇩🇪德国DE66*hi-moon_pw_66
+      - 🇩🇪德国DE67*hi-moon_pw_67
+      - 🇩🇪德国DE68*hi-moon_pw_68
+      - 🇩🇪德国DE69*hi-moon_pw_69
+      - 🇩🇪德国DE70*hi-moon_pw_70
+      - 🇩🇪德国DE71*hi-moon_pw_71
+      - 🇩🇪德国DE72*hi-moon_pw_72
+      - 🇩🇪德国DE73*hi-moon_pw_73
+      - 🇩🇪德国DE74*hi-moon_pw_74
+      - 🇩🇪德国DE75*hi-moon_pw_75
+      - 🇩🇪德国DE76*hi-moon_pw_76
+      - 🇩🇪德国DE77*hi-moon_pw_77
+      - 🇩🇪德国DE78*hi-moon_pw_78
+      - 🇩🇪德国DE79*hi-moon_pw_79
+      - 🇩🇪德国DE80*hi-moon_pw_80
+      - 🇩🇪德国DE81*hi-moon_pw_81
+      - 🇩🇪德国DE82*hi-moon_pw_82
+      - 🇩🇪德国DE83*hi-moon_pw_83
+      - 🇩🇪德国DE84*hi-moon_pw_84
+      - 🇩🇪德国DE85*hi-moon_pw_85
+      - 🇩🇪德国DE86*hi-moon_pw_86
+      - 🇩🇪德国DE87*hi-moon_pw_87
+      - 🇩🇪德国DE88*hi-moon_pw_88
+      - 🇩🇪德国DE89*hi-moon_pw_89
+      - 🇩🇪德国DE90*hi-moon_pw_90
+      - 🇩🇪德国DE91*hi-moon_pw_91
+      - 🇩🇪德国DE92*hi-moon_pw_92
+      - 🇩🇪德国DE93*hi-moon_pw_93
+      - 🇩🇪德国DE94*hi-moon_pw_94
+      - 🇩🇪德国DE95*hi-moon_pw_95
+      - 🇩🇪德国DE96*hi-moon_pw_96
+      - 🇩🇪德国DE97*hi-moon_pw_97
+      - 🇩🇪德国DE98*hi-moon_pw_98
+      - 🇩🇪德国DE99*hi-moon_pw_99
+      - 🇩🇪德国DE100*hi-moon_pw_100
+      - 🇩🇪德国DE101*hi-moon_pw_101
+      - 🇩🇪德国DE102*hi-moon_pw_102
+      - 🇩🇪德国DE103*hi-moon_pw_103
+      - 🇩🇪德国DE104*hi-moon_pw_104
+      - 🇩🇪德国DE105*hi-moon_pw_105
+      - 🇩🇪德国DE106*hi-moon_pw_106
+      - 🇩🇪德国DE107*hi-moon_pw_107
+      - 🇩🇪德国DE108*hi-moon_pw_108
+      - 🇩🇪德国DE109*hi-moon_pw_109
+      - 🇩🇪德国DE110*hi-moon_pw_110
+      - 🇩🇪德国DE111*hi-moon_pw_111
+      - 🇩🇪德国DE112*hi-moon_pw_112
+      - 🇩🇪德国DE113*hi-moon_pw_113
+      - 🇩🇪德国DE114*hi-moon_pw_114
+      - 🇩🇪德国DE115*hi-moon_pw_115
+      - 🇩🇪德国DE116*hi-moon_pw_116
+      - 🇩🇪德国DE117*hi-moon_pw_117
+      - 🇩🇪德国DE118*hi-moon_pw_118
+      - 🇩🇪德国DE119*hi-moon_pw_119
+      - 🇩🇪德国DE120*hi-moon_pw_120
+      - 🇩🇪德国DE121*hi-moon_pw_121
+      - 🇩🇪德国DE122*hi-moon_pw_122
+      - 🇩🇪德国DE123*hi-moon_pw_123
+      - 🇩🇪德国DE124*hi-moon_pw_124
+      - 🇩🇪德国DE125*hi-moon_pw_125
+      - 🇬🇧英国GB126*hi-moon_pw_126
+      - defaultName_127
+      - defaultName_128
+      - defaultName_129
+      - defaultName_130
+      - ^🇭🇰香港HK131*hi-moon_pw_131
+      - ^🇭🇰香港HK132*hi-moon_pw_132
+      - ^🇯🇵日本JP133*hi-moon_pw_133
+      - ^🇰🇷韩国KR134*hi-moon_pw_134
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

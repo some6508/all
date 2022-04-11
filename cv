@@ -1101,13 +1101,134 @@ proxies:
   - {name: 香港 04, server: hk04.internetsmartrouting.top, port: 46889, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
   - {name: 香港 05, server: hk05.internetsmartrouting.top, port: 25241, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
   - {name: 香港 06, server: hk06.internetsmartrouting.top, port: 23685, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
-  - {name: _CA_加拿大, server: 134.195.198.252, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: default_name, server: bpjzx2.cainiao.tk, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: orange-mode-ac6a.xjp0mx2cp.workers.dev}}, udp: true}
-  - {name: _SG_新加坡, server: sg1.31vpn.com, port: 443, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/bddasdf/624e71635ed8e/, headers: {Host: sg1.31vpn.com}}, udp: true}
-  - {name: default_name 2, server: 104.16.196.47, port: 443, type: vmess, uuid: 3256a220-3c95-4844-839c-3b509c1c0997, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: production.flat-firefly-71d2.v20210811.workers.dev}}, udp: true}
-  - {name: default_name 3, server: 104.19.62.119, port: 443, type: vmess, uuid: e40d2888-03f6-4859-e84d-a743db763d52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: broken-snow-9bc0.nhv111202.workers.dev}}, udp: true}
-  - {name: default_name 4, server: 104.18.90.4, port: 443, type: vmess, uuid: e40d2888-03f6-4859-e84d-a743db763d52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: green-shadow-598a.nguyenhuuvuong11122002.workers.dev}}, udp: true}
-  - {name: default_name 5, server: 104.16.104.126, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: sweet-salad-aa33.tianzhen19880808.workers.dev}}, udp: true}
+  - {name: 澳大利亚AU 01 *hi-moon.pw, server: 185.167.116.38, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 澳大利亚AU 02 *hi-moon.pw, server: 185.167.116.38, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: 保加利亚BG 03 *hi-moon.pw, server: 213.183.63.217, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: 保加利亚BG 04 *hi-moon.pw, server: 213.183.63.218, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: 保加利亚BG 05 *hi-moon.pw, server: 213.183.63.217, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: 保加利亚BG 06 *hi-moon.pw, server: 213.183.63.221, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 保加利亚BG 07 *hi-moon.pw, server: 213.183.63.221, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 保加利亚BG 08 *hi-moon.pw, server: 213.183.63.217, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 保加利亚BG 09 *hi-moon.pw, server: 213.183.63.217, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: 保加利亚BG 10 *hi-moon.pw, server: 213.183.63.217, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 保加利亚BG 11 *hi-moon.pw, server: 213.183.63.221, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: 保加利亚BG 12 *hi-moon.pw, server: 213.183.63.218, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: 保加利亚BG 13 *hi-moon.pw, server: 213.183.63.218, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: 保加利亚BG 14 *hi-moon.pw, server: 213.183.63.218, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: 保加利亚BG 15 *hi-moon.pw, server: 213.183.63.217, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: 瑞士CH 16 *hi-moon.pw, server: 185.126.116.124, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: 瑞士CH 17 *hi-moon.pw, server: 185.126.116.117, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: 瑞士CH 18 *hi-moon.pw, server: 185.126.116.117, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: 瑞士CH 19 *hi-moon.pw, server: 185.126.116.124, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 瑞士CH 20 *hi-moon.pw, server: 185.126.116.117, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: 瑞士CH 21 *hi-moon.pw, server: 185.126.116.117, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 瑞士CH 22 *hi-moon.pw, server: 185.126.116.124, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 185.126.116.125:9003, server: 185.126.116.125, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 185.126.116.125:9001, server: 185.126.116.125, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: 185.126.116.125:9070, server: 185.126.116.125, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: 185.126.116.125:9008, server: 185.126.116.125, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: 185.126.116.125:9098, server: 185.126.116.125, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 185.126.116.125:9019, server: 185.126.116.125, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: ^🇰🇷韩国KR 29 *hi-moon.pw, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 30 *hi-moon.pw, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 31 *hi-moon.pw, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 183.236.60.145:562, server: 183.236.60.145, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16355:202204%�, obfs-param: t.me/vpnh%�, udp: true}
+  - {name: 183.236.60.153:561, server: 183.236.60.153, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16355:202204%�, obfs-param: t.me/vpnh%�, udp: true}
+  - {name: 183.236.60.153:560, server: 183.236.60.153, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16355:202204%�, obfs-param: t.me/vpnh%�, udp: true}
+  - {name: 183.236.60.136:560, server: 183.236.60.136, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16355:202204%�, obfs-param: t.me/vpnh%�, udp: true}
+  - {name: 120.236.180.12:562, server: 120.236.180.12, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16355:202204%�, obfs-param: t.me/vpnh%�, udp: true}
+  - {name: 120.232.190.30:561, server: 120.232.190.30, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16355:202204%�, obfs-param: t.me/vpnh%�, udp: true}
+  - {name: 183.236.60.182:560, server: 183.236.60.182, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16355:202204%�, obfs-param: t.me/vpnh%�, udp: true}
+  - {name: 120.236.180.12:561, server: 120.236.180.12, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16355:202204%�, obfs-param: t.me/vpnh%�, udp: true}
+  - {name: 120.232.190.30:560, server: 120.232.190.30, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16355:202204%�, obfs-param: t.me/vpnh%�, udp: true}
+  - {name: ^🇷🇺俄罗斯RU 41 *hi-moon.pw, server: download.cn.connecat.com, port: 60014, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: ^🇭🇰香港HK 42 *hi-moon.pw, server: 115.236.135.90, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: ^🇨🇳台湾TW 43 *hi-moon.pw, server: download.cn.connecat.com, port: 60003, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: ^🇯🇵日本JP 44 *hi-moon.pw, server: download.cn.connecat.com, port: 60022, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: ^🇨🇳台湾TW 45 *hi-moon.pw, server: download.cn.connecat.com, port: 60004, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: ^🇸🇬新加坡SG 46 *hi-moon.pw, server: download.cn.connecat.com, port: 60020, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: ^🇸🇬新加坡SG 47 *hi-moon.pw, server: download.cn.connecat.com, port: 60019, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: ^🇯🇵日本JP 48 *hi-moon.pw, server: download.cn.connecat.com, port: 60021, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: ^🇷🇺俄罗斯RU 49 *hi-moon.pw, server: download.cn.connecat.com, port: 60013, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cn.connecat.com}}, udp: true}
+  - {name: ^🇸🇬新加坡SG 50 *hi-moon.pw, server: gy.sharecentrepro.tk, port: 54939, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: 台湾TW 51 *hi-moon.pw, server: 59.126.125.194, port: 65284, type: vmess, uuid: df8b537d-1077-4882-bf43-490380299116, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国DE 52 *hi-moon.pw, server: 5.183.179.170, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 德国DE 53 *hi-moon.pw, server: 5.183.179.145, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: 德国DE 54 *hi-moon.pw, server: 5.183.179.141, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: 德国DE 55 *hi-moon.pw, server: 5.183.179.170, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 德国DE 56 *hi-moon.pw, server: 5.183.179.170, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: 德国DE 57 *hi-moon.pw, server: 5.183.179.145, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 德国DE 58 *hi-moon.pw, server: 5.183.179.141, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: 德国DE 59 *hi-moon.pw, server: 5.183.179.148, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: 德国DE 60 *hi-moon.pw, server: 5.183.179.170, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: 德国DE 61 *hi-moon.pw, server: 5.183.179.148, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 德国DE 62 *hi-moon.pw, server: 5.183.179.148, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: 德国DE 63 *hi-moon.pw, server: 5.183.179.141, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: 德国DE 64 *hi-moon.pw, server: 5.183.179.170, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 德国DE 65 *hi-moon.pw, server: 5.183.179.139, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: 德国DE 66 *hi-moon.pw, server: 5.183.179.148, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: 德国DE 67 *hi-moon.pw, server: 5.183.179.170, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: 德国DE 68 *hi-moon.pw, server: 5.183.179.166, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 德国DE 69 *hi-moon.pw, server: 5.183.179.166, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 德国DE 70 *hi-moon.pw, server: 5.183.179.148, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 德国DE 71 *hi-moon.pw, server: 5.183.179.167, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: 德国DE 72 *hi-moon.pw, server: 5.183.179.140, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: 德国DE 73 *hi-moon.pw, server: 5.183.179.140, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 德国DE 74 *hi-moon.pw, server: 5.183.179.139, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 德国DE 75 *hi-moon.pw, server: 5.183.179.145, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 德国DE 76 *hi-moon.pw, server: 5.183.179.140, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: 德国DE 77 *hi-moon.pw, server: 5.183.179.146, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 德国DE 78 *hi-moon.pw, server: 5.183.179.167, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: 德国DE 79 *hi-moon.pw, server: 5.183.179.145, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: 德国DE 80 *hi-moon.pw, server: 5.183.179.140, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: 德国DE 81 *hi-moon.pw, server: 5.183.179.148, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: 德国DE 82 *hi-moon.pw, server: 5.183.179.146, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 德国DE 83 *hi-moon.pw, server: 5.183.179.170, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: 德国DE 84 *hi-moon.pw, server: 5.183.179.146, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: 德国DE 85 *hi-moon.pw, server: 5.183.179.145, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 德国DE 86 *hi-moon.pw, server: 5.183.179.170, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: 德国DE 87 *hi-moon.pw, server: 5.183.179.140, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: 德国DE 88 *hi-moon.pw, server: 5.183.179.167, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 德国DE 89 *hi-moon.pw, server: 5.183.179.145, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: 德国DE 90 *hi-moon.pw, server: 5.183.179.140, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: 德国DE 91 *hi-moon.pw, server: 5.183.179.145, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: 德国DE 92 *hi-moon.pw, server: 5.183.179.146, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: 德国DE 93 *hi-moon.pw, server: 5.183.179.146, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 德国DE 94 *hi-moon.pw, server: 5.183.179.145, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: 德国DE 95 *hi-moon.pw, server: 5.183.179.145, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: 德国DE 96 *hi-moon.pw, server: 5.183.179.146, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: 德国DE 97 *hi-moon.pw, server: 5.183.179.146, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 德国DE 98 *hi-moon.pw, server: 5.183.179.146, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: 德国DE 99 *hi-moon.pw, server: 5.183.179.170, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 德国DE 100 *hi-moon.pw, server: 5.183.179.145, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: 德国DE 101 *hi-moon.pw, server: 5.183.179.139, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: 德国DE 102 *hi-moon.pw, server: 5.183.179.145, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 德国DE 103 *hi-moon.pw, server: 5.183.179.146, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: 德国DE 104 *hi-moon.pw, server: 5.183.179.145, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 德国DE 105 *hi-moon.pw, server: 5.183.179.145, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: 德国DE 106 *hi-moon.pw, server: 5.183.179.146, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: 德国DE 107 *hi-moon.pw, server: 5.183.179.170, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: 德国DE 108 *hi-moon.pw, server: 5.183.179.139, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: 德国DE 109 *hi-moon.pw, server: 5.183.179.141, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: 德国DE 110 *hi-moon.pw, server: 5.183.179.139, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 德国DE 111 *hi-moon.pw, server: 5.183.179.146, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: 德国DE 112 *hi-moon.pw, server: 5.183.179.148, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: 德国DE 113 *hi-moon.pw, server: 5.183.179.148, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 德国DE 114 *hi-moon.pw, server: 5.183.179.145, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 德国DE 115 *hi-moon.pw, server: 5.183.179.146, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: 德国DE 116 *hi-moon.pw, server: 5.183.179.146, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: 德国DE 117 *hi-moon.pw, server: 5.183.179.146, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 德国DE 118 *hi-moon.pw, server: 5.183.179.146, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: 德国DE 119 *hi-moon.pw, server: 5.183.179.146, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: 德国DE 120 *hi-moon.pw, server: 5.183.179.146, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 德国DE 121 *hi-moon.pw, server: 5.183.179.141, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: 德国DE 122 *hi-moon.pw, server: 5.183.179.170, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 德国DE 123 *hi-moon.pw, server: 5.183.179.146, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 德国DE 124 *hi-moon.pw, server: 5.183.179.139, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: 德国DE 125 *hi-moon.pw, server: 5.183.179.170, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: 德国DE 126 *hi-moon.pw, server: 5.183.179.166, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 德国DE 127 *hi-moon.pw, server: 5.183.179.166, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 德国DE 128 *hi-moon.pw, server: 5.183.179.166, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 2, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 3, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -1115,7 +1236,7 @@ proxies:
   - {name: _CN_中国->🇭🇰_HK_香港 4, server: 211.99.115.24, port: 11010, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇸🇬_SG_新加坡, server: 211.99.115.24, port: 11111, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 5, server: 211.99.115.24, port: 11007, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.51, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.51, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: _CN_中国->🇳🇱_NL_荷兰, server: 211.99.115.24, port: 11553, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇹🇼_TW_台湾, server: 211.99.115.24, port: 11051, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇮🇳_IN_印度, server: 211.99.115.24, port: 11301, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -1147,7 +1268,7 @@ proxies:
   - {name: _CN_中国->🇮🇳_IN_印度 2, server: 211.99.115.24, port: 11302, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国 2, server: 211.99.115.24, port: 11402, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇹🇼_TW_台湾 3, server: 211.99.115.24, port: 11055, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CA_加拿大 3, server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _CN_中国->🇬🇧_GB_英国 2, server: 211.99.115.24, port: 11851, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 10, server: 42.157.161.51, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 11, server: 42.157.161.51, port: 11207, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -1156,15 +1277,15 @@ proxies:
   - {name: _CN_中国->🇺🇸_US_美国 3, server: 211.99.115.24, port: 11401, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦, server: 211.99.115.24, port: 11652, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇮🇸_IS_冰岛, server: 211.99.115.24, port: 11701, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CA_加拿大 4, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _CN_中国->🇦🇺_AU_澳大利亚, server: 211.99.115.24, port: 11351, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇸🇬_SG_新加坡 7, server: 211.99.115.24, port: 11108, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 11, server: 211.99.115.24, port: 11004, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CA_加拿大 5, server: 134.195.196.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 13, server: 42.157.161.51, port: 11204, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇵🇭_PH_菲律宾, server: 211.99.115.24, port: 11901, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 14, server: 42.157.161.51, port: 11210, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CA_加拿大 6, server: 134.195.196.51, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.51, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 15, server: 42.157.161.51, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇳🇱_NL_荷兰 2, server: 211.99.115.24, port: 11551, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇬🇧_GB_英国 3, server: 211.99.115.24, port: 11854, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -1178,11 +1299,11 @@ proxies:
   - {name: _CN_中国->🇭🇰_HK_香港 14, server: 211.99.115.24, port: 11018, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇸🇬_SG_新加坡 9, server: 211.99.115.24, port: 11114, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港 15, server: 211.99.115.24, port: 11002, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CA_加拿大 7, server: 134.195.196.51, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.196.51, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: _CN_中国->🇰🇷_KR_韩国 2, server: 42.157.161.51, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇸🇬_SG_新加坡 10, server: 211.99.115.24, port: 11116, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇳🇱_NL_荷兰 3, server: 211.99.115.24, port: 11552, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: _CA_加拿大 8, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 7, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本 16, server: 42.157.161.51, port: 11206, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇨🇦_CA_加拿大 2, server: 42.157.161.51, port: 11802, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国 5, server: 211.99.115.24, port: 11404, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -3317,13 +3438,134 @@ proxy-groups:
       - 香港 04
       - 香港 05
       - 香港 06
-      - _CA_加拿大
-      - default_name
-      - _SG_新加坡
-      - default_name 2
-      - default_name 3
-      - default_name 4
-      - default_name 5
+      - 澳大利亚AU 01 *hi-moon.pw
+      - 澳大利亚AU 02 *hi-moon.pw
+      - 保加利亚BG 03 *hi-moon.pw
+      - 保加利亚BG 04 *hi-moon.pw
+      - 保加利亚BG 05 *hi-moon.pw
+      - 保加利亚BG 06 *hi-moon.pw
+      - 保加利亚BG 07 *hi-moon.pw
+      - 保加利亚BG 08 *hi-moon.pw
+      - 保加利亚BG 09 *hi-moon.pw
+      - 保加利亚BG 10 *hi-moon.pw
+      - 保加利亚BG 11 *hi-moon.pw
+      - 保加利亚BG 12 *hi-moon.pw
+      - 保加利亚BG 13 *hi-moon.pw
+      - 保加利亚BG 14 *hi-moon.pw
+      - 保加利亚BG 15 *hi-moon.pw
+      - 瑞士CH 16 *hi-moon.pw
+      - 瑞士CH 17 *hi-moon.pw
+      - 瑞士CH 18 *hi-moon.pw
+      - 瑞士CH 19 *hi-moon.pw
+      - 瑞士CH 20 *hi-moon.pw
+      - 瑞士CH 21 *hi-moon.pw
+      - 瑞士CH 22 *hi-moon.pw
+      - 185.126.116.125:9003
+      - 185.126.116.125:9001
+      - 185.126.116.125:9070
+      - 185.126.116.125:9008
+      - 185.126.116.125:9098
+      - 185.126.116.125:9019
+      - ^🇰🇷韩国KR 29 *hi-moon.pw
+      - CN 30 *hi-moon.pw
+      - CN 31 *hi-moon.pw
+      - 183.236.60.145:562
+      - 183.236.60.153:561
+      - 183.236.60.153:560
+      - 183.236.60.136:560
+      - 120.236.180.12:562
+      - 120.232.190.30:561
+      - 183.236.60.182:560
+      - 120.236.180.12:561
+      - 120.232.190.30:560
+      - ^🇷🇺俄罗斯RU 41 *hi-moon.pw
+      - ^🇭🇰香港HK 42 *hi-moon.pw
+      - ^🇨🇳台湾TW 43 *hi-moon.pw
+      - ^🇯🇵日本JP 44 *hi-moon.pw
+      - ^🇨🇳台湾TW 45 *hi-moon.pw
+      - ^🇸🇬新加坡SG 46 *hi-moon.pw
+      - ^🇸🇬新加坡SG 47 *hi-moon.pw
+      - ^🇯🇵日本JP 48 *hi-moon.pw
+      - ^🇷🇺俄罗斯RU 49 *hi-moon.pw
+      - ^🇸🇬新加坡SG 50 *hi-moon.pw
+      - 台湾TW 51 *hi-moon.pw
+      - 德国DE 52 *hi-moon.pw
+      - 德国DE 53 *hi-moon.pw
+      - 德国DE 54 *hi-moon.pw
+      - 德国DE 55 *hi-moon.pw
+      - 德国DE 56 *hi-moon.pw
+      - 德国DE 57 *hi-moon.pw
+      - 德国DE 58 *hi-moon.pw
+      - 德国DE 59 *hi-moon.pw
+      - 德国DE 60 *hi-moon.pw
+      - 德国DE 61 *hi-moon.pw
+      - 德国DE 62 *hi-moon.pw
+      - 德国DE 63 *hi-moon.pw
+      - 德国DE 64 *hi-moon.pw
+      - 德国DE 65 *hi-moon.pw
+      - 德国DE 66 *hi-moon.pw
+      - 德国DE 67 *hi-moon.pw
+      - 德国DE 68 *hi-moon.pw
+      - 德国DE 69 *hi-moon.pw
+      - 德国DE 70 *hi-moon.pw
+      - 德国DE 71 *hi-moon.pw
+      - 德国DE 72 *hi-moon.pw
+      - 德国DE 73 *hi-moon.pw
+      - 德国DE 74 *hi-moon.pw
+      - 德国DE 75 *hi-moon.pw
+      - 德国DE 76 *hi-moon.pw
+      - 德国DE 77 *hi-moon.pw
+      - 德国DE 78 *hi-moon.pw
+      - 德国DE 79 *hi-moon.pw
+      - 德国DE 80 *hi-moon.pw
+      - 德国DE 81 *hi-moon.pw
+      - 德国DE 82 *hi-moon.pw
+      - 德国DE 83 *hi-moon.pw
+      - 德国DE 84 *hi-moon.pw
+      - 德国DE 85 *hi-moon.pw
+      - 德国DE 86 *hi-moon.pw
+      - 德国DE 87 *hi-moon.pw
+      - 德国DE 88 *hi-moon.pw
+      - 德国DE 89 *hi-moon.pw
+      - 德国DE 90 *hi-moon.pw
+      - 德国DE 91 *hi-moon.pw
+      - 德国DE 92 *hi-moon.pw
+      - 德国DE 93 *hi-moon.pw
+      - 德国DE 94 *hi-moon.pw
+      - 德国DE 95 *hi-moon.pw
+      - 德国DE 96 *hi-moon.pw
+      - 德国DE 97 *hi-moon.pw
+      - 德国DE 98 *hi-moon.pw
+      - 德国DE 99 *hi-moon.pw
+      - 德国DE 100 *hi-moon.pw
+      - 德国DE 101 *hi-moon.pw
+      - 德国DE 102 *hi-moon.pw
+      - 德国DE 103 *hi-moon.pw
+      - 德国DE 104 *hi-moon.pw
+      - 德国DE 105 *hi-moon.pw
+      - 德国DE 106 *hi-moon.pw
+      - 德国DE 107 *hi-moon.pw
+      - 德国DE 108 *hi-moon.pw
+      - 德国DE 109 *hi-moon.pw
+      - 德国DE 110 *hi-moon.pw
+      - 德国DE 111 *hi-moon.pw
+      - 德国DE 112 *hi-moon.pw
+      - 德国DE 113 *hi-moon.pw
+      - 德国DE 114 *hi-moon.pw
+      - 德国DE 115 *hi-moon.pw
+      - 德国DE 116 *hi-moon.pw
+      - 德国DE 117 *hi-moon.pw
+      - 德国DE 118 *hi-moon.pw
+      - 德国DE 119 *hi-moon.pw
+      - 德国DE 120 *hi-moon.pw
+      - 德国DE 121 *hi-moon.pw
+      - 德国DE 122 *hi-moon.pw
+      - 德国DE 123 *hi-moon.pw
+      - 德国DE 124 *hi-moon.pw
+      - 德国DE 125 *hi-moon.pw
+      - 德国DE 126 *hi-moon.pw
+      - 德国DE 127 *hi-moon.pw
+      - 德国DE 128 *hi-moon.pw
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3
@@ -3331,7 +3573,7 @@ proxy-groups:
       - _CN_中国->🇭🇰_HK_香港 4
       - _CN_中国->🇸🇬_SG_新加坡
       - _CN_中国->🇭🇰_HK_香港 5
-      - _CA_加拿大 2
+      - _CA_加拿大
       - _CN_中国->🇳🇱_NL_荷兰
       - _CN_中国->🇹🇼_TW_台湾
       - _CN_中国->🇮🇳_IN_印度
@@ -3363,7 +3605,7 @@ proxy-groups:
       - _CN_中国->🇮🇳_IN_印度 2
       - _CN_中国->🇺🇸_US_美国 2
       - _CN_中国->🇹🇼_TW_台湾 3
-      - _CA_加拿大 3
+      - _CA_加拿大 2
       - _CN_中国->🇬🇧_GB_英国 2
       - _CN_中国->🇯🇵_JP_日本 10
       - _CN_中国->🇯🇵_JP_日本 11
@@ -3372,15 +3614,15 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国 3
       - _CN_中国->🇷🇺_RU_俄罗斯联邦
       - _CN_中国->🇮🇸_IS_冰岛
-      - _CA_加拿大 4
+      - _CA_加拿大 3
       - _CN_中国->🇦🇺_AU_澳大利亚
       - _CN_中国->🇸🇬_SG_新加坡 7
       - _CN_中国->🇭🇰_HK_香港 11
-      - _CA_加拿大 5
+      - _CA_加拿大 4
       - _CN_中国->🇯🇵_JP_日本 13
       - _CN_中国->🇵🇭_PH_菲律宾
       - _CN_中国->🇯🇵_JP_日本 14
-      - _CA_加拿大 6
+      - _CA_加拿大 5
       - _CN_中国->🇯🇵_JP_日本 15
       - _CN_中国->🇳🇱_NL_荷兰 2
       - _CN_中国->🇬🇧_GB_英国 3
@@ -3394,11 +3636,11 @@ proxy-groups:
       - _CN_中国->🇭🇰_HK_香港 14
       - _CN_中国->🇸🇬_SG_新加坡 9
       - _CN_中国->🇭🇰_HK_香港 15
-      - _CA_加拿大 7
+      - _CA_加拿大 6
       - _CN_中国->🇰🇷_KR_韩国 2
       - _CN_中国->🇸🇬_SG_新加坡 10
       - _CN_中国->🇳🇱_NL_荷兰 3
-      - _CA_加拿大 8
+      - _CA_加拿大 7
       - _CN_中国->🇯🇵_JP_日本 16
       - _CN_中国->🇨🇦_CA_加拿大 2
       - _CN_中国->🇺🇸_US_美国 5
@@ -5533,13 +5775,134 @@ proxy-groups:
       - 香港 04
       - 香港 05
       - 香港 06
-      - _CA_加拿大
-      - default_name
-      - _SG_新加坡
-      - default_name 2
-      - default_name 3
-      - default_name 4
-      - default_name 5
+      - 澳大利亚AU 01 *hi-moon.pw
+      - 澳大利亚AU 02 *hi-moon.pw
+      - 保加利亚BG 03 *hi-moon.pw
+      - 保加利亚BG 04 *hi-moon.pw
+      - 保加利亚BG 05 *hi-moon.pw
+      - 保加利亚BG 06 *hi-moon.pw
+      - 保加利亚BG 07 *hi-moon.pw
+      - 保加利亚BG 08 *hi-moon.pw
+      - 保加利亚BG 09 *hi-moon.pw
+      - 保加利亚BG 10 *hi-moon.pw
+      - 保加利亚BG 11 *hi-moon.pw
+      - 保加利亚BG 12 *hi-moon.pw
+      - 保加利亚BG 13 *hi-moon.pw
+      - 保加利亚BG 14 *hi-moon.pw
+      - 保加利亚BG 15 *hi-moon.pw
+      - 瑞士CH 16 *hi-moon.pw
+      - 瑞士CH 17 *hi-moon.pw
+      - 瑞士CH 18 *hi-moon.pw
+      - 瑞士CH 19 *hi-moon.pw
+      - 瑞士CH 20 *hi-moon.pw
+      - 瑞士CH 21 *hi-moon.pw
+      - 瑞士CH 22 *hi-moon.pw
+      - 185.126.116.125:9003
+      - 185.126.116.125:9001
+      - 185.126.116.125:9070
+      - 185.126.116.125:9008
+      - 185.126.116.125:9098
+      - 185.126.116.125:9019
+      - ^🇰🇷韩国KR 29 *hi-moon.pw
+      - CN 30 *hi-moon.pw
+      - CN 31 *hi-moon.pw
+      - 183.236.60.145:562
+      - 183.236.60.153:561
+      - 183.236.60.153:560
+      - 183.236.60.136:560
+      - 120.236.180.12:562
+      - 120.232.190.30:561
+      - 183.236.60.182:560
+      - 120.236.180.12:561
+      - 120.232.190.30:560
+      - ^🇷🇺俄罗斯RU 41 *hi-moon.pw
+      - ^🇭🇰香港HK 42 *hi-moon.pw
+      - ^🇨🇳台湾TW 43 *hi-moon.pw
+      - ^🇯🇵日本JP 44 *hi-moon.pw
+      - ^🇨🇳台湾TW 45 *hi-moon.pw
+      - ^🇸🇬新加坡SG 46 *hi-moon.pw
+      - ^🇸🇬新加坡SG 47 *hi-moon.pw
+      - ^🇯🇵日本JP 48 *hi-moon.pw
+      - ^🇷🇺俄罗斯RU 49 *hi-moon.pw
+      - ^🇸🇬新加坡SG 50 *hi-moon.pw
+      - 台湾TW 51 *hi-moon.pw
+      - 德国DE 52 *hi-moon.pw
+      - 德国DE 53 *hi-moon.pw
+      - 德国DE 54 *hi-moon.pw
+      - 德国DE 55 *hi-moon.pw
+      - 德国DE 56 *hi-moon.pw
+      - 德国DE 57 *hi-moon.pw
+      - 德国DE 58 *hi-moon.pw
+      - 德国DE 59 *hi-moon.pw
+      - 德国DE 60 *hi-moon.pw
+      - 德国DE 61 *hi-moon.pw
+      - 德国DE 62 *hi-moon.pw
+      - 德国DE 63 *hi-moon.pw
+      - 德国DE 64 *hi-moon.pw
+      - 德国DE 65 *hi-moon.pw
+      - 德国DE 66 *hi-moon.pw
+      - 德国DE 67 *hi-moon.pw
+      - 德国DE 68 *hi-moon.pw
+      - 德国DE 69 *hi-moon.pw
+      - 德国DE 70 *hi-moon.pw
+      - 德国DE 71 *hi-moon.pw
+      - 德国DE 72 *hi-moon.pw
+      - 德国DE 73 *hi-moon.pw
+      - 德国DE 74 *hi-moon.pw
+      - 德国DE 75 *hi-moon.pw
+      - 德国DE 76 *hi-moon.pw
+      - 德国DE 77 *hi-moon.pw
+      - 德国DE 78 *hi-moon.pw
+      - 德国DE 79 *hi-moon.pw
+      - 德国DE 80 *hi-moon.pw
+      - 德国DE 81 *hi-moon.pw
+      - 德国DE 82 *hi-moon.pw
+      - 德国DE 83 *hi-moon.pw
+      - 德国DE 84 *hi-moon.pw
+      - 德国DE 85 *hi-moon.pw
+      - 德国DE 86 *hi-moon.pw
+      - 德国DE 87 *hi-moon.pw
+      - 德国DE 88 *hi-moon.pw
+      - 德国DE 89 *hi-moon.pw
+      - 德国DE 90 *hi-moon.pw
+      - 德国DE 91 *hi-moon.pw
+      - 德国DE 92 *hi-moon.pw
+      - 德国DE 93 *hi-moon.pw
+      - 德国DE 94 *hi-moon.pw
+      - 德国DE 95 *hi-moon.pw
+      - 德国DE 96 *hi-moon.pw
+      - 德国DE 97 *hi-moon.pw
+      - 德国DE 98 *hi-moon.pw
+      - 德国DE 99 *hi-moon.pw
+      - 德国DE 100 *hi-moon.pw
+      - 德国DE 101 *hi-moon.pw
+      - 德国DE 102 *hi-moon.pw
+      - 德国DE 103 *hi-moon.pw
+      - 德国DE 104 *hi-moon.pw
+      - 德国DE 105 *hi-moon.pw
+      - 德国DE 106 *hi-moon.pw
+      - 德国DE 107 *hi-moon.pw
+      - 德国DE 108 *hi-moon.pw
+      - 德国DE 109 *hi-moon.pw
+      - 德国DE 110 *hi-moon.pw
+      - 德国DE 111 *hi-moon.pw
+      - 德国DE 112 *hi-moon.pw
+      - 德国DE 113 *hi-moon.pw
+      - 德国DE 114 *hi-moon.pw
+      - 德国DE 115 *hi-moon.pw
+      - 德国DE 116 *hi-moon.pw
+      - 德国DE 117 *hi-moon.pw
+      - 德国DE 118 *hi-moon.pw
+      - 德国DE 119 *hi-moon.pw
+      - 德国DE 120 *hi-moon.pw
+      - 德国DE 121 *hi-moon.pw
+      - 德国DE 122 *hi-moon.pw
+      - 德国DE 123 *hi-moon.pw
+      - 德国DE 124 *hi-moon.pw
+      - 德国DE 125 *hi-moon.pw
+      - 德国DE 126 *hi-moon.pw
+      - 德国DE 127 *hi-moon.pw
+      - 德国DE 128 *hi-moon.pw
       - _CN_中国->🇭🇰_HK_香港
       - _CN_中国->🇭🇰_HK_香港 2
       - _CN_中国->🇭🇰_HK_香港 3
@@ -5547,7 +5910,7 @@ proxy-groups:
       - _CN_中国->🇭🇰_HK_香港 4
       - _CN_中国->🇸🇬_SG_新加坡
       - _CN_中国->🇭🇰_HK_香港 5
-      - _CA_加拿大 2
+      - _CA_加拿大
       - _CN_中国->🇳🇱_NL_荷兰
       - _CN_中国->🇹🇼_TW_台湾
       - _CN_中国->🇮🇳_IN_印度
@@ -5579,7 +5942,7 @@ proxy-groups:
       - _CN_中国->🇮🇳_IN_印度 2
       - _CN_中国->🇺🇸_US_美国 2
       - _CN_中国->🇹🇼_TW_台湾 3
-      - _CA_加拿大 3
+      - _CA_加拿大 2
       - _CN_中国->🇬🇧_GB_英国 2
       - _CN_中国->🇯🇵_JP_日本 10
       - _CN_中国->🇯🇵_JP_日本 11
@@ -5588,15 +5951,15 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国 3
       - _CN_中国->🇷🇺_RU_俄罗斯联邦
       - _CN_中国->🇮🇸_IS_冰岛
-      - _CA_加拿大 4
+      - _CA_加拿大 3
       - _CN_中国->🇦🇺_AU_澳大利亚
       - _CN_中国->🇸🇬_SG_新加坡 7
       - _CN_中国->🇭🇰_HK_香港 11
-      - _CA_加拿大 5
+      - _CA_加拿大 4
       - _CN_中国->🇯🇵_JP_日本 13
       - _CN_中国->🇵🇭_PH_菲律宾
       - _CN_中国->🇯🇵_JP_日本 14
-      - _CA_加拿大 6
+      - _CA_加拿大 5
       - _CN_中国->🇯🇵_JP_日本 15
       - _CN_中国->🇳🇱_NL_荷兰 2
       - _CN_中国->🇬🇧_GB_英国 3
@@ -5610,11 +5973,11 @@ proxy-groups:
       - _CN_中国->🇭🇰_HK_香港 14
       - _CN_中国->🇸🇬_SG_新加坡 9
       - _CN_中国->🇭🇰_HK_香港 15
-      - _CA_加拿大 7
+      - _CA_加拿大 6
       - _CN_中国->🇰🇷_KR_韩国 2
       - _CN_中国->🇸🇬_SG_新加坡 10
       - _CN_中国->🇳🇱_NL_荷兰 3
-      - _CA_加拿大 8
+      - _CA_加拿大 7
       - _CN_中国->🇯🇵_JP_日本 16
       - _CN_中国->🇨🇦_CA_加拿大 2
       - _CN_中国->🇺🇸_US_美国 5
