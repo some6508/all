@@ -5,144 +5,389 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳TW(TG：atyzcloud)&1_1","server":"ppy-moble.0098dns02in.work","port":26010,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&1_1","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"🇨🇳TW(TG：atyzcloud)&2_2","server":"ppy-moble.0098dns02in.work","port":26011,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&2_2","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"🇨🇳TW(TG：atyzcloud)&3_3","server":"ppy-moble.0098dns02in.work","port":26012,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&3_3","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"🇨🇳TW(TG：atyzcloud)&4_4","server":"ppy-moble.0098dns02in.work","port":26013,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&4_4","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"🇨🇳TW(TG：atyzcloud)&5_5","server":"ppy-moble.0098dns02in.work","port":26014,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&5_5","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"🇨🇳TW(TG：atyzcloud)&6_6","server":"ppy-moble.0098dns02in.work","port":26015,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&6_6","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"🇯🇵JP(TG：atyzcloud)&1_7","server":"ppy-unicom.0098dns02in.work","port":26006,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇯🇵JP(TG：atyzcloud)&1_7","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"🇯🇵JP(TG：atyzcloud)&2_8","server":"ppy-unicom.0098dns02in.work","port":26008,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇯🇵JP(TG：atyzcloud)&2_8","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"🇨🇳TW(TG：atyzcloud)&7_9","server":"ppy-moble.0098dns02in.work","port":26061,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&7_9","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"🇨🇳TW(TG：atyzcloud)&8_10","server":"ppy-moble.0098dns02in.work","port":26062,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&8_10","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"🇨🇳TW(TG：atyzcloud)&9_11","server":"ppy-moble.0098dns02in.work","port":26063,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&9_11","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"🇺🇸US(TG：atyzcloud)&1_12","server":"ppy-unicom.0098dns02in.work","port":26003,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇺🇸US(TG：atyzcloud)&1_12","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"🇸🇬SG(TG：atyzcloud)&1_13","server":"ppy-unicom.0098dns02in.work","port":26020,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇸🇬SG(TG：atyzcloud)&1_13","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"🇸🇬SG(TG：atyzcloud)&2_14","server":"ppy-unicom.0098dns02in.work","port":26021,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇸🇬SG(TG：atyzcloud)&2_14","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"🇸🇬SG(TG：atyzcloud)&3_15","server":"ppy-unicom.0098dns02in.work","port":26022,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇸🇬SG(TG：atyzcloud)&3_15","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"defaultName_1","server":"103.172.116.9","port":9098,"type":"ssr","country":"defaultName_1","password":"aLpQtfEZe445QyHk","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_2","server":"152.89.210.105","port":9073,"type":"ssr","country":"defaultName_2","password":"daFYagqDdBdA6VTX","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇧🇬_BG_保加利亚_3","server":"213.183.63.218","port":9097,"type":"ss","country":"🇧🇬_BG_保加利亚_3","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
+  - {"name":"🇧🇬_BG_保加利亚_4","server":"213.183.63.217","port":9084,"type":"ss","country":"🇧🇬_BG_保加利亚_4","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"defaultName_5","server":"213.183.53.177","port":9020,"type":"ssr","country":"defaultName_5","password":"BNmAXXxAHYpTRdzu","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_6","server":"213.183.53.177","port":9015,"type":"ssr","country":"defaultName_6","password":"ZpNDDKRu9MagNvaf","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇨🇭_CH_瑞士_7","server":"185.126.116.117","port":9046,"type":"ss","country":"🇨🇭_CH_瑞士_7","cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
+  - {"name":"🇨🇭_CH_瑞士_8","server":"185.126.116.117","port":9056,"type":"ss","country":"🇨🇭_CH_瑞士_8","cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
+  - {"name":"🇨🇭_CH_瑞士_9","server":"185.126.116.117","port":9094,"type":"ss","country":"🇨🇭_CH_瑞士_9","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
+  - {"name":"🇩🇪_DE_德国_10","server":"5.183.179.140","port":9025,"type":"ss","country":"🇩🇪_DE_德国_10","cipher":"aes-256-cfb","password":"XPtzA9sCug3SPR4c"}
+  - {"name":"🇩🇪_DE_德国_11","server":"5.183.179.140","port":9001,"type":"ss","country":"🇩🇪_DE_德国_11","cipher":"aes-256-cfb","password":"UkXRsXvR6buDMG2Y"}
+  - {"name":"🇩🇪_DE_德国_12","server":"5.183.179.148","port":9031,"type":"ss","country":"🇩🇪_DE_德国_12","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
+  - {"name":"🇩🇪_DE_德国_13","server":"5.183.179.145","port":9014,"type":"ss","country":"🇩🇪_DE_德国_13","cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
+  - {"name":"🇧🇬_BG_保加利亚_14","server":"213.183.63.219","port":9008,"type":"ss","country":"🇧🇬_BG_保加利亚_14","cipher":"aes-256-cfb","password":"y9VURyNzJWNRYEGQ"}
+  - {"name":"🇧🇬_BG_保加利亚_15","server":"213.183.63.218","port":9059,"type":"ss","country":"🇧🇬_BG_保加利亚_15","cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
+  - {"name":"🇧🇬_BG_保加利亚_16","server":"213.183.63.217","port":9088,"type":"ss","country":"🇧🇬_BG_保加利亚_16","cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
+  - {"name":"🇧🇬_BG_保加利亚_17","server":"213.183.63.218","port":9031,"type":"ss","country":"🇧🇬_BG_保加利亚_17","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
+  - {"name":"🇧🇬_BG_保加利亚_18","server":"213.183.63.218","port":9026,"type":"ss","country":"🇧🇬_BG_保加利亚_18","cipher":"aes-256-cfb","password":"QWDDvVE9npNurQfA"}
+  - {"name":"defaultName_19","server":"213.183.53.177","port":9041,"type":"ssr","country":"defaultName_19","password":"U6qnYRhfyDmn8sgn","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_20","server":"gz2.52168.xyz","port":2102,"type":"ssr","country":"defaultName_20","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth"}
+  - {"name":"defaultName_21","server":"213.183.53.177","port":9060,"type":"ssr","country":"defaultName_21","password":"ueLXVkvh4hckhErQ","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇰🇷_KR_韩国_22","server":"jgw2.gaox.ml","port":443,"type":"trojan","country":"🇰🇷_KR_韩国_22","skip-cert-verify":true,"udp":true,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998"}
+  - {"name":"🇧🇬_BG_保加利亚_23","server":"213.183.63.219","port":9003,"type":"ss","country":"🇧🇬_BG_保加利亚_23","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_24","server":"213.183.53.202","port":9064,"type":"ss","country":"🇷🇺_RU_俄罗斯联邦_24","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
+  - {"name":"🇳🇱_NL_荷兰_25","server":"213.183.59.218","port":9073,"type":"ss","country":"🇳🇱_NL_荷兰_25","cipher":"aes-256-cfb","password":"daFYagqDdBdA6VTX"}
+  - {"name":"defaultName_26","server":"gz1.52168.xyz","port":1101,"type":"ssr","country":"defaultName_26","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth"}
+  - {"name":"defaultName_27","server":"gz1.52168.xyz","port":1111,"type":"ssr","country":"defaultName_27","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth"}
+  - {"name":"defaultName_28","server":"gz1.52168.xyz","port":1109,"type":"ssr","country":"defaultName_28","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth"}
+  - {"name":"🇧🇬_BG_保加利亚_29","server":"213.183.63.217","port":9008,"type":"ss","country":"🇧🇬_BG_保加利亚_29","cipher":"aes-256-cfb","password":"y9VURyNzJWNRYEGQ"}
+  - {"name":"🇧🇬_BG_保加利亚_30","server":"213.183.63.221","port":9025,"type":"ss","country":"🇧🇬_BG_保加利亚_30","cipher":"aes-256-cfb","password":"XPtzA9sCug3SPR4c"}
+  - {"name":"🇧🇬_BG_保加利亚_31","server":"213.183.63.221","port":9006,"type":"ss","country":"🇧🇬_BG_保加利亚_31","cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
+  - {"name":"🇧🇬_BG_保加利亚_32","server":"213.183.63.218","port":9011,"type":"ss","country":"🇧🇬_BG_保加利亚_32","cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa"}
+  - {"name":"🇧🇬_BG_保加利亚_33","server":"213.183.63.221","port":9084,"type":"ss","country":"🇧🇬_BG_保加利亚_33","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"🇧🇬_BG_保加利亚_34","server":"213.183.63.217","port":9045,"type":"ss","country":"🇧🇬_BG_保加利亚_34","cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX"}
+  - {"name":"🇧🇬_BG_保加利亚_35","server":"213.183.63.217","port":9031,"type":"ss","country":"🇧🇬_BG_保加利亚_35","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
+  - {"name":"🇧🇬_BG_保加利亚_36","server":"213.183.63.219","port":9027,"type":"ss","country":"🇧🇬_BG_保加利亚_36","cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
+  - {"name":"🇧🇬_BG_保加利亚_37","server":"213.183.63.218","port":9084,"type":"ss","country":"🇧🇬_BG_保加利亚_37","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"🇧🇬_BG_保加利亚_38","server":"213.183.63.218","port":9032,"type":"ss","country":"🇧🇬_BG_保加利亚_38","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
+  - {"name":"🇧🇬_BG_保加利亚_39","server":"213.183.63.217","port":9010,"type":"ss","country":"🇧🇬_BG_保加利亚_39","cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
+  - {"name":"🇧🇬_BG_保加利亚_40","server":"213.183.63.219","port":9033,"type":"ss","country":"🇧🇬_BG_保加利亚_40","cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
+  - {"name":"🇧🇬_BG_保加利亚_41","server":"213.183.63.217","port":9064,"type":"ss","country":"🇧🇬_BG_保加利亚_41","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
+  - {"name":"🇧🇬_BG_保加利亚_42","server":"213.183.63.218","port":9008,"type":"ss","country":"🇧🇬_BG_保加利亚_42","cipher":"aes-256-cfb","password":"y9VURyNzJWNRYEGQ"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_43","server":"213.183.53.202","port":9079,"type":"ss","country":"🇷🇺_RU_俄罗斯联邦_43","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
+  - {"name":"🇧🇬_BG_保加利亚_44","server":"213.183.63.218","port":9014,"type":"ss","country":"🇧🇬_BG_保加利亚_44","cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
+  - {"name":"🇧🇬_BG_保加利亚_45","server":"213.183.63.221","port":9015,"type":"ss","country":"🇧🇬_BG_保加利亚_45","cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf"}
+  - {"name":"defaultName_46","server":"213.183.53.177","port":9010,"type":"ssr","country":"defaultName_46","password":"f63gg8EruDnUrmz4","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_47","server":"213.183.53.177","port":9059,"type":"ssr","country":"defaultName_47","password":"9XwYyZsK8SNzQDtY","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_48","server":"213.183.53.177","port":9043,"type":"ssr","country":"defaultName_48","password":"HSZuyJQcWe8dxNdF","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_49","server":"213.183.53.177","port":9097,"type":"ssr","country":"defaultName_49","password":"Sn5B7jTqr76aCJT8","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_50","server":"213.183.53.177","port":9026,"type":"ssr","country":"defaultName_50","password":"QWDDvVE9npNurQfA","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳TW(TG：atyzcloud)&1_1
-      - 🇨🇳TW(TG：atyzcloud)&2_2
-      - 🇨🇳TW(TG：atyzcloud)&3_3
-      - 🇨🇳TW(TG：atyzcloud)&4_4
-      - 🇨🇳TW(TG：atyzcloud)&5_5
-      - 🇨🇳TW(TG：atyzcloud)&6_6
-      - 🇯🇵JP(TG：atyzcloud)&1_7
-      - 🇯🇵JP(TG：atyzcloud)&2_8
-      - 🇨🇳TW(TG：atyzcloud)&7_9
-      - 🇨🇳TW(TG：atyzcloud)&8_10
-      - 🇨🇳TW(TG：atyzcloud)&9_11
-      - 🇺🇸US(TG：atyzcloud)&1_12
-      - 🇸🇬SG(TG：atyzcloud)&1_13
-      - 🇸🇬SG(TG：atyzcloud)&2_14
-      - 🇸🇬SG(TG：atyzcloud)&3_15
+      - defaultName_1
+      - defaultName_2
+      - 🇧🇬_BG_保加利亚_3
+      - 🇧🇬_BG_保加利亚_4
+      - defaultName_5
+      - defaultName_6
+      - 🇨🇭_CH_瑞士_7
+      - 🇨🇭_CH_瑞士_8
+      - 🇨🇭_CH_瑞士_9
+      - 🇩🇪_DE_德国_10
+      - 🇩🇪_DE_德国_11
+      - 🇩🇪_DE_德国_12
+      - 🇩🇪_DE_德国_13
+      - 🇧🇬_BG_保加利亚_14
+      - 🇧🇬_BG_保加利亚_15
+      - 🇧🇬_BG_保加利亚_16
+      - 🇧🇬_BG_保加利亚_17
+      - 🇧🇬_BG_保加利亚_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - 🇰🇷_KR_韩国_22
+      - 🇧🇬_BG_保加利亚_23
+      - 🇷🇺_RU_俄罗斯联邦_24
+      - 🇳🇱_NL_荷兰_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - 🇧🇬_BG_保加利亚_29
+      - 🇧🇬_BG_保加利亚_30
+      - 🇧🇬_BG_保加利亚_31
+      - 🇧🇬_BG_保加利亚_32
+      - 🇧🇬_BG_保加利亚_33
+      - 🇧🇬_BG_保加利亚_34
+      - 🇧🇬_BG_保加利亚_35
+      - 🇧🇬_BG_保加利亚_36
+      - 🇧🇬_BG_保加利亚_37
+      - 🇧🇬_BG_保加利亚_38
+      - 🇧🇬_BG_保加利亚_39
+      - 🇧🇬_BG_保加利亚_40
+      - 🇧🇬_BG_保加利亚_41
+      - 🇧🇬_BG_保加利亚_42
+      - 🇷🇺_RU_俄罗斯联邦_43
+      - 🇧🇬_BG_保加利亚_44
+      - 🇧🇬_BG_保加利亚_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳TW(TG：atyzcloud)&1_1
-      - 🇨🇳TW(TG：atyzcloud)&2_2
-      - 🇨🇳TW(TG：atyzcloud)&3_3
-      - 🇨🇳TW(TG：atyzcloud)&4_4
-      - 🇨🇳TW(TG：atyzcloud)&5_5
-      - 🇨🇳TW(TG：atyzcloud)&6_6
-      - 🇯🇵JP(TG：atyzcloud)&1_7
-      - 🇯🇵JP(TG：atyzcloud)&2_8
-      - 🇨🇳TW(TG：atyzcloud)&7_9
-      - 🇨🇳TW(TG：atyzcloud)&8_10
-      - 🇨🇳TW(TG：atyzcloud)&9_11
-      - 🇺🇸US(TG：atyzcloud)&1_12
-      - 🇸🇬SG(TG：atyzcloud)&1_13
-      - 🇸🇬SG(TG：atyzcloud)&2_14
-      - 🇸🇬SG(TG：atyzcloud)&3_15
+      - defaultName_1
+      - defaultName_2
+      - 🇧🇬_BG_保加利亚_3
+      - 🇧🇬_BG_保加利亚_4
+      - defaultName_5
+      - defaultName_6
+      - 🇨🇭_CH_瑞士_7
+      - 🇨🇭_CH_瑞士_8
+      - 🇨🇭_CH_瑞士_9
+      - 🇩🇪_DE_德国_10
+      - 🇩🇪_DE_德国_11
+      - 🇩🇪_DE_德国_12
+      - 🇩🇪_DE_德国_13
+      - 🇧🇬_BG_保加利亚_14
+      - 🇧🇬_BG_保加利亚_15
+      - 🇧🇬_BG_保加利亚_16
+      - 🇧🇬_BG_保加利亚_17
+      - 🇧🇬_BG_保加利亚_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - 🇰🇷_KR_韩国_22
+      - 🇧🇬_BG_保加利亚_23
+      - 🇷🇺_RU_俄罗斯联邦_24
+      - 🇳🇱_NL_荷兰_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - 🇧🇬_BG_保加利亚_29
+      - 🇧🇬_BG_保加利亚_30
+      - 🇧🇬_BG_保加利亚_31
+      - 🇧🇬_BG_保加利亚_32
+      - 🇧🇬_BG_保加利亚_33
+      - 🇧🇬_BG_保加利亚_34
+      - 🇧🇬_BG_保加利亚_35
+      - 🇧🇬_BG_保加利亚_36
+      - 🇧🇬_BG_保加利亚_37
+      - 🇧🇬_BG_保加利亚_38
+      - 🇧🇬_BG_保加利亚_39
+      - 🇧🇬_BG_保加利亚_40
+      - 🇧🇬_BG_保加利亚_41
+      - 🇧🇬_BG_保加利亚_42
+      - 🇷🇺_RU_俄罗斯联邦_43
+      - 🇧🇬_BG_保加利亚_44
+      - 🇧🇬_BG_保加利亚_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳TW(TG：atyzcloud)&1_1
-      - 🇨🇳TW(TG：atyzcloud)&2_2
-      - 🇨🇳TW(TG：atyzcloud)&3_3
-      - 🇨🇳TW(TG：atyzcloud)&4_4
-      - 🇨🇳TW(TG：atyzcloud)&5_5
-      - 🇨🇳TW(TG：atyzcloud)&6_6
-      - 🇯🇵JP(TG：atyzcloud)&1_7
-      - 🇯🇵JP(TG：atyzcloud)&2_8
-      - 🇨🇳TW(TG：atyzcloud)&7_9
-      - 🇨🇳TW(TG：atyzcloud)&8_10
-      - 🇨🇳TW(TG：atyzcloud)&9_11
-      - 🇺🇸US(TG：atyzcloud)&1_12
-      - 🇸🇬SG(TG：atyzcloud)&1_13
-      - 🇸🇬SG(TG：atyzcloud)&2_14
-      - 🇸🇬SG(TG：atyzcloud)&3_15
+      - defaultName_1
+      - defaultName_2
+      - 🇧🇬_BG_保加利亚_3
+      - 🇧🇬_BG_保加利亚_4
+      - defaultName_5
+      - defaultName_6
+      - 🇨🇭_CH_瑞士_7
+      - 🇨🇭_CH_瑞士_8
+      - 🇨🇭_CH_瑞士_9
+      - 🇩🇪_DE_德国_10
+      - 🇩🇪_DE_德国_11
+      - 🇩🇪_DE_德国_12
+      - 🇩🇪_DE_德国_13
+      - 🇧🇬_BG_保加利亚_14
+      - 🇧🇬_BG_保加利亚_15
+      - 🇧🇬_BG_保加利亚_16
+      - 🇧🇬_BG_保加利亚_17
+      - 🇧🇬_BG_保加利亚_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - 🇰🇷_KR_韩国_22
+      - 🇧🇬_BG_保加利亚_23
+      - 🇷🇺_RU_俄罗斯联邦_24
+      - 🇳🇱_NL_荷兰_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - 🇧🇬_BG_保加利亚_29
+      - 🇧🇬_BG_保加利亚_30
+      - 🇧🇬_BG_保加利亚_31
+      - 🇧🇬_BG_保加利亚_32
+      - 🇧🇬_BG_保加利亚_33
+      - 🇧🇬_BG_保加利亚_34
+      - 🇧🇬_BG_保加利亚_35
+      - 🇧🇬_BG_保加利亚_36
+      - 🇧🇬_BG_保加利亚_37
+      - 🇧🇬_BG_保加利亚_38
+      - 🇧🇬_BG_保加利亚_39
+      - 🇧🇬_BG_保加利亚_40
+      - 🇧🇬_BG_保加利亚_41
+      - 🇧🇬_BG_保加利亚_42
+      - 🇷🇺_RU_俄罗斯联邦_43
+      - 🇧🇬_BG_保加利亚_44
+      - 🇧🇬_BG_保加利亚_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳TW(TG：atyzcloud)&1_1
-      - 🇨🇳TW(TG：atyzcloud)&2_2
-      - 🇨🇳TW(TG：atyzcloud)&3_3
-      - 🇨🇳TW(TG：atyzcloud)&4_4
-      - 🇨🇳TW(TG：atyzcloud)&5_5
-      - 🇨🇳TW(TG：atyzcloud)&6_6
-      - 🇯🇵JP(TG：atyzcloud)&1_7
-      - 🇯🇵JP(TG：atyzcloud)&2_8
-      - 🇨🇳TW(TG：atyzcloud)&7_9
-      - 🇨🇳TW(TG：atyzcloud)&8_10
-      - 🇨🇳TW(TG：atyzcloud)&9_11
-      - 🇺🇸US(TG：atyzcloud)&1_12
-      - 🇸🇬SG(TG：atyzcloud)&1_13
-      - 🇸🇬SG(TG：atyzcloud)&2_14
-      - 🇸🇬SG(TG：atyzcloud)&3_15
+      - defaultName_1
+      - defaultName_2
+      - 🇧🇬_BG_保加利亚_3
+      - 🇧🇬_BG_保加利亚_4
+      - defaultName_5
+      - defaultName_6
+      - 🇨🇭_CH_瑞士_7
+      - 🇨🇭_CH_瑞士_8
+      - 🇨🇭_CH_瑞士_9
+      - 🇩🇪_DE_德国_10
+      - 🇩🇪_DE_德国_11
+      - 🇩🇪_DE_德国_12
+      - 🇩🇪_DE_德国_13
+      - 🇧🇬_BG_保加利亚_14
+      - 🇧🇬_BG_保加利亚_15
+      - 🇧🇬_BG_保加利亚_16
+      - 🇧🇬_BG_保加利亚_17
+      - 🇧🇬_BG_保加利亚_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - 🇰🇷_KR_韩国_22
+      - 🇧🇬_BG_保加利亚_23
+      - 🇷🇺_RU_俄罗斯联邦_24
+      - 🇳🇱_NL_荷兰_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - 🇧🇬_BG_保加利亚_29
+      - 🇧🇬_BG_保加利亚_30
+      - 🇧🇬_BG_保加利亚_31
+      - 🇧🇬_BG_保加利亚_32
+      - 🇧🇬_BG_保加利亚_33
+      - 🇧🇬_BG_保加利亚_34
+      - 🇧🇬_BG_保加利亚_35
+      - 🇧🇬_BG_保加利亚_36
+      - 🇧🇬_BG_保加利亚_37
+      - 🇧🇬_BG_保加利亚_38
+      - 🇧🇬_BG_保加利亚_39
+      - 🇧🇬_BG_保加利亚_40
+      - 🇧🇬_BG_保加利亚_41
+      - 🇧🇬_BG_保加利亚_42
+      - 🇷🇺_RU_俄罗斯联邦_43
+      - 🇧🇬_BG_保加利亚_44
+      - 🇧🇬_BG_保加利亚_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳TW(TG：atyzcloud)&1_1
-      - 🇨🇳TW(TG：atyzcloud)&2_2
-      - 🇨🇳TW(TG：atyzcloud)&3_3
-      - 🇨🇳TW(TG：atyzcloud)&4_4
-      - 🇨🇳TW(TG：atyzcloud)&5_5
-      - 🇨🇳TW(TG：atyzcloud)&6_6
-      - 🇯🇵JP(TG：atyzcloud)&1_7
-      - 🇯🇵JP(TG：atyzcloud)&2_8
-      - 🇨🇳TW(TG：atyzcloud)&7_9
-      - 🇨🇳TW(TG：atyzcloud)&8_10
-      - 🇨🇳TW(TG：atyzcloud)&9_11
-      - 🇺🇸US(TG：atyzcloud)&1_12
-      - 🇸🇬SG(TG：atyzcloud)&1_13
-      - 🇸🇬SG(TG：atyzcloud)&2_14
-      - 🇸🇬SG(TG：atyzcloud)&3_15
+      - defaultName_1
+      - defaultName_2
+      - 🇧🇬_BG_保加利亚_3
+      - 🇧🇬_BG_保加利亚_4
+      - defaultName_5
+      - defaultName_6
+      - 🇨🇭_CH_瑞士_7
+      - 🇨🇭_CH_瑞士_8
+      - 🇨🇭_CH_瑞士_9
+      - 🇩🇪_DE_德国_10
+      - 🇩🇪_DE_德国_11
+      - 🇩🇪_DE_德国_12
+      - 🇩🇪_DE_德国_13
+      - 🇧🇬_BG_保加利亚_14
+      - 🇧🇬_BG_保加利亚_15
+      - 🇧🇬_BG_保加利亚_16
+      - 🇧🇬_BG_保加利亚_17
+      - 🇧🇬_BG_保加利亚_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - 🇰🇷_KR_韩国_22
+      - 🇧🇬_BG_保加利亚_23
+      - 🇷🇺_RU_俄罗斯联邦_24
+      - 🇳🇱_NL_荷兰_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - 🇧🇬_BG_保加利亚_29
+      - 🇧🇬_BG_保加利亚_30
+      - 🇧🇬_BG_保加利亚_31
+      - 🇧🇬_BG_保加利亚_32
+      - 🇧🇬_BG_保加利亚_33
+      - 🇧🇬_BG_保加利亚_34
+      - 🇧🇬_BG_保加利亚_35
+      - 🇧🇬_BG_保加利亚_36
+      - 🇧🇬_BG_保加利亚_37
+      - 🇧🇬_BG_保加利亚_38
+      - 🇧🇬_BG_保加利亚_39
+      - 🇧🇬_BG_保加利亚_40
+      - 🇧🇬_BG_保加利亚_41
+      - 🇧🇬_BG_保加利亚_42
+      - 🇷🇺_RU_俄罗斯联邦_43
+      - 🇧🇬_BG_保加利亚_44
+      - 🇧🇬_BG_保加利亚_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳TW(TG：atyzcloud)&1_1
-      - 🇨🇳TW(TG：atyzcloud)&2_2
-      - 🇨🇳TW(TG：atyzcloud)&3_3
-      - 🇨🇳TW(TG：atyzcloud)&4_4
-      - 🇨🇳TW(TG：atyzcloud)&5_5
-      - 🇨🇳TW(TG：atyzcloud)&6_6
-      - 🇯🇵JP(TG：atyzcloud)&1_7
-      - 🇯🇵JP(TG：atyzcloud)&2_8
-      - 🇨🇳TW(TG：atyzcloud)&7_9
-      - 🇨🇳TW(TG：atyzcloud)&8_10
-      - 🇨🇳TW(TG：atyzcloud)&9_11
-      - 🇺🇸US(TG：atyzcloud)&1_12
-      - 🇸🇬SG(TG：atyzcloud)&1_13
-      - 🇸🇬SG(TG：atyzcloud)&2_14
-      - 🇸🇬SG(TG：atyzcloud)&3_15
+      - defaultName_1
+      - defaultName_2
+      - 🇧🇬_BG_保加利亚_3
+      - 🇧🇬_BG_保加利亚_4
+      - defaultName_5
+      - defaultName_6
+      - 🇨🇭_CH_瑞士_7
+      - 🇨🇭_CH_瑞士_8
+      - 🇨🇭_CH_瑞士_9
+      - 🇩🇪_DE_德国_10
+      - 🇩🇪_DE_德国_11
+      - 🇩🇪_DE_德国_12
+      - 🇩🇪_DE_德国_13
+      - 🇧🇬_BG_保加利亚_14
+      - 🇧🇬_BG_保加利亚_15
+      - 🇧🇬_BG_保加利亚_16
+      - 🇧🇬_BG_保加利亚_17
+      - 🇧🇬_BG_保加利亚_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - 🇰🇷_KR_韩国_22
+      - 🇧🇬_BG_保加利亚_23
+      - 🇷🇺_RU_俄罗斯联邦_24
+      - 🇳🇱_NL_荷兰_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - 🇧🇬_BG_保加利亚_29
+      - 🇧🇬_BG_保加利亚_30
+      - 🇧🇬_BG_保加利亚_31
+      - 🇧🇬_BG_保加利亚_32
+      - 🇧🇬_BG_保加利亚_33
+      - 🇧🇬_BG_保加利亚_34
+      - 🇧🇬_BG_保加利亚_35
+      - 🇧🇬_BG_保加利亚_36
+      - 🇧🇬_BG_保加利亚_37
+      - 🇧🇬_BG_保加利亚_38
+      - 🇧🇬_BG_保加利亚_39
+      - 🇧🇬_BG_保加利亚_40
+      - 🇧🇬_BG_保加利亚_41
+      - 🇧🇬_BG_保加利亚_42
+      - 🇷🇺_RU_俄罗斯联邦_43
+      - 🇧🇬_BG_保加利亚_44
+      - 🇧🇬_BG_保加利亚_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -165,21 +410,56 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳TW(TG：atyzcloud)&1_1
-      - 🇨🇳TW(TG：atyzcloud)&2_2
-      - 🇨🇳TW(TG：atyzcloud)&3_3
-      - 🇨🇳TW(TG：atyzcloud)&4_4
-      - 🇨🇳TW(TG：atyzcloud)&5_5
-      - 🇨🇳TW(TG：atyzcloud)&6_6
-      - 🇯🇵JP(TG：atyzcloud)&1_7
-      - 🇯🇵JP(TG：atyzcloud)&2_8
-      - 🇨🇳TW(TG：atyzcloud)&7_9
-      - 🇨🇳TW(TG：atyzcloud)&8_10
-      - 🇨🇳TW(TG：atyzcloud)&9_11
-      - 🇺🇸US(TG：atyzcloud)&1_12
-      - 🇸🇬SG(TG：atyzcloud)&1_13
-      - 🇸🇬SG(TG：atyzcloud)&2_14
-      - 🇸🇬SG(TG：atyzcloud)&3_15
+      - defaultName_1
+      - defaultName_2
+      - 🇧🇬_BG_保加利亚_3
+      - 🇧🇬_BG_保加利亚_4
+      - defaultName_5
+      - defaultName_6
+      - 🇨🇭_CH_瑞士_7
+      - 🇨🇭_CH_瑞士_8
+      - 🇨🇭_CH_瑞士_9
+      - 🇩🇪_DE_德国_10
+      - 🇩🇪_DE_德国_11
+      - 🇩🇪_DE_德国_12
+      - 🇩🇪_DE_德国_13
+      - 🇧🇬_BG_保加利亚_14
+      - 🇧🇬_BG_保加利亚_15
+      - 🇧🇬_BG_保加利亚_16
+      - 🇧🇬_BG_保加利亚_17
+      - 🇧🇬_BG_保加利亚_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - 🇰🇷_KR_韩国_22
+      - 🇧🇬_BG_保加利亚_23
+      - 🇷🇺_RU_俄罗斯联邦_24
+      - 🇳🇱_NL_荷兰_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - 🇧🇬_BG_保加利亚_29
+      - 🇧🇬_BG_保加利亚_30
+      - 🇧🇬_BG_保加利亚_31
+      - 🇧🇬_BG_保加利亚_32
+      - 🇧🇬_BG_保加利亚_33
+      - 🇧🇬_BG_保加利亚_34
+      - 🇧🇬_BG_保加利亚_35
+      - 🇧🇬_BG_保加利亚_36
+      - 🇧🇬_BG_保加利亚_37
+      - 🇧🇬_BG_保加利亚_38
+      - 🇧🇬_BG_保加利亚_39
+      - 🇧🇬_BG_保加利亚_40
+      - 🇧🇬_BG_保加利亚_41
+      - 🇧🇬_BG_保加利亚_42
+      - 🇷🇺_RU_俄罗斯联邦_43
+      - 🇧🇬_BG_保加利亚_44
+      - 🇧🇬_BG_保加利亚_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
