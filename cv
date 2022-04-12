@@ -5,7 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _TW_台湾_1, server: 211.72.35.153, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
+  - {name: _DE_德国_1, server: 5.183.179.167, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: _DE_德国_2, server: 5.183.179.140, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: _DE_德国_3, server: 5.183.179.146, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: _PL_波兰_4, server: 217.30.10.63, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: defaultName_5, server: 152.89.210.105, port: 9050, type: ssr, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: default_name_6, server: 103.172.116.8, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: _RU_俄罗斯联邦_7, server: 213.183.53.202, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: default_name_8, server: 103.172.116.7, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: defaultName_9, server: 152.89.210.105, port: 9098, type: ssr, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _DE_德国_10, server: 5.183.179.145, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 0e5b46b6-699d-4aca-8fb3-a8e7b4270ed9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 1.ezydfdd.com}}, udp: true}
@@ -1846,7 +1855,7 @@ proxies:
   - {name: 183.240.9.29:29987, server: 183.240.9.29, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true, udp: true}
   - {name: 台湾_R_319, server: iepl-gz.yyuuii.cyou, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: defaultName_2 2, server: iepl-hn01.qqgg.work, port: 44702, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: defaultName_5, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: defaultName_5 2, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 萨拉热窝b, server: 120.232.214.153, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
   - {name: 挪威推荐, server: 122.9.54.40, port: 3947, type: ss, cipher: chacha20-ietf-poly1305, password: 853cc71c85896eb5658696f9a027815eb31ab225b1ccd8bbb6c033e6d016fe53, udp: true}
   - {name: 萨拉热窝a, server: 120.232.214.240, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
@@ -1857,7 +1866,7 @@ proxies:
   - {name: defaultName_28, server: jx-002.yyuuii.cyou, port: 10007, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: T.07.法国.中继2, server: t2.doggogogo.top, port: 50207, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gzy002.xyz, skip-cert-verify: true, udp: true}
   - {name: "PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]", server: 122.9.54.40, port: 3947, type: ss, cipher: chacha20-ietf-poly1305, password: 853cc71c85896eb5658696f9a027815eb31ab225b1ccd8bbb6c033e6d016fe53, udp: true}
-  - {name: defaultName_5 2, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: defaultName_5 3, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: T.07.法国.中继3, server: cscu.wecanfly.top, port: 50207, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gzy002.xyz, skip-cert-verify: true, udp: true}
   - {name: defaultName_77, server: iepl-hn01.qqgg.work, port: 20399, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 荷兰b, server: 122.9.62.6, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
@@ -1873,7 +1882,16 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - _TW_台湾_1
+      - _DE_德国_1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _PL_波兰_4
+      - defaultName_5
+      - default_name_6
+      - _RU_俄罗斯联邦_7
+      - default_name_8
+      - defaultName_9
+      - _DE_德国_10
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -3714,7 +3732,7 @@ proxy-groups:
       - 183.240.9.29:29987
       - 台湾_R_319
       - defaultName_2 2
-      - defaultName_5
+      - defaultName_5 2
       - 萨拉热窝b
       - 挪威推荐
       - 萨拉热窝a
@@ -3725,7 +3743,7 @@ proxy-groups:
       - defaultName_28
       - T.07.法国.中继2
       - PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]
-      - defaultName_5 2
+      - defaultName_5 3
       - T.07.法国.中继3
       - defaultName_77
       - 荷兰b
@@ -3741,7 +3759,16 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - _TW_台湾_1
+      - _DE_德国_1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _PL_波兰_4
+      - defaultName_5
+      - default_name_6
+      - _RU_俄罗斯联邦_7
+      - default_name_8
+      - defaultName_9
+      - _DE_德国_10
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
@@ -5582,7 +5609,7 @@ proxy-groups:
       - 183.240.9.29:29987
       - 台湾_R_319
       - defaultName_2 2
-      - defaultName_5
+      - defaultName_5 2
       - 萨拉热窝b
       - 挪威推荐
       - 萨拉热窝a
@@ -5593,7 +5620,7 @@ proxy-groups:
       - defaultName_28
       - T.07.法国.中继2
       - PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]
-      - defaultName_5 2
+      - defaultName_5 3
       - T.07.法国.中继3
       - defaultName_77
       - 荷兰b
