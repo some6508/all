@@ -5,46 +5,144 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"高速节点_1","server":"gy.sharecentrepro.tk","port":10020,"type":"vmess","uuid":"e054523f-e0e4-38a8-a26c-fc1be7c585fc","alterId":0,"cipher":"auto","country":"高速节点_1","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
+  - {"name":"🇨🇳TW(TG：atyzcloud)&1_1","server":"ppy-moble.0098dns02in.work","port":26010,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&1_1","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇨🇳TW(TG：atyzcloud)&2_2","server":"ppy-moble.0098dns02in.work","port":26011,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&2_2","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇨🇳TW(TG：atyzcloud)&3_3","server":"ppy-moble.0098dns02in.work","port":26012,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&3_3","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇨🇳TW(TG：atyzcloud)&4_4","server":"ppy-moble.0098dns02in.work","port":26013,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&4_4","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇨🇳TW(TG：atyzcloud)&5_5","server":"ppy-moble.0098dns02in.work","port":26014,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&5_5","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇨🇳TW(TG：atyzcloud)&6_6","server":"ppy-moble.0098dns02in.work","port":26015,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&6_6","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇯🇵JP(TG：atyzcloud)&1_7","server":"ppy-unicom.0098dns02in.work","port":26006,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇯🇵JP(TG：atyzcloud)&1_7","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇯🇵JP(TG：atyzcloud)&2_8","server":"ppy-unicom.0098dns02in.work","port":26008,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇯🇵JP(TG：atyzcloud)&2_8","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇨🇳TW(TG：atyzcloud)&7_9","server":"ppy-moble.0098dns02in.work","port":26061,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&7_9","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇨🇳TW(TG：atyzcloud)&8_10","server":"ppy-moble.0098dns02in.work","port":26062,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&8_10","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇨🇳TW(TG：atyzcloud)&9_11","server":"ppy-moble.0098dns02in.work","port":26063,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&9_11","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇺🇸US(TG：atyzcloud)&1_12","server":"ppy-unicom.0098dns02in.work","port":26003,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇺🇸US(TG：atyzcloud)&1_12","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇸🇬SG(TG：atyzcloud)&1_13","server":"ppy-unicom.0098dns02in.work","port":26020,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇸🇬SG(TG：atyzcloud)&1_13","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇸🇬SG(TG：atyzcloud)&2_14","server":"ppy-unicom.0098dns02in.work","port":26021,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇸🇬SG(TG：atyzcloud)&2_14","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇸🇬SG(TG：atyzcloud)&3_15","server":"ppy-unicom.0098dns02in.work","port":26022,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇸🇬SG(TG：atyzcloud)&3_15","skip-cert-verify":true,"tls":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 高速节点_1
+      - 🇨🇳TW(TG：atyzcloud)&1_1
+      - 🇨🇳TW(TG：atyzcloud)&2_2
+      - 🇨🇳TW(TG：atyzcloud)&3_3
+      - 🇨🇳TW(TG：atyzcloud)&4_4
+      - 🇨🇳TW(TG：atyzcloud)&5_5
+      - 🇨🇳TW(TG：atyzcloud)&6_6
+      - 🇯🇵JP(TG：atyzcloud)&1_7
+      - 🇯🇵JP(TG：atyzcloud)&2_8
+      - 🇨🇳TW(TG：atyzcloud)&7_9
+      - 🇨🇳TW(TG：atyzcloud)&8_10
+      - 🇨🇳TW(TG：atyzcloud)&9_11
+      - 🇺🇸US(TG：atyzcloud)&1_12
+      - 🇸🇬SG(TG：atyzcloud)&1_13
+      - 🇸🇬SG(TG：atyzcloud)&2_14
+      - 🇸🇬SG(TG：atyzcloud)&3_15
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 高速节点_1
+      - 🇨🇳TW(TG：atyzcloud)&1_1
+      - 🇨🇳TW(TG：atyzcloud)&2_2
+      - 🇨🇳TW(TG：atyzcloud)&3_3
+      - 🇨🇳TW(TG：atyzcloud)&4_4
+      - 🇨🇳TW(TG：atyzcloud)&5_5
+      - 🇨🇳TW(TG：atyzcloud)&6_6
+      - 🇯🇵JP(TG：atyzcloud)&1_7
+      - 🇯🇵JP(TG：atyzcloud)&2_8
+      - 🇨🇳TW(TG：atyzcloud)&7_9
+      - 🇨🇳TW(TG：atyzcloud)&8_10
+      - 🇨🇳TW(TG：atyzcloud)&9_11
+      - 🇺🇸US(TG：atyzcloud)&1_12
+      - 🇸🇬SG(TG：atyzcloud)&1_13
+      - 🇸🇬SG(TG：atyzcloud)&2_14
+      - 🇸🇬SG(TG：atyzcloud)&3_15
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 高速节点_1
+      - 🇨🇳TW(TG：atyzcloud)&1_1
+      - 🇨🇳TW(TG：atyzcloud)&2_2
+      - 🇨🇳TW(TG：atyzcloud)&3_3
+      - 🇨🇳TW(TG：atyzcloud)&4_4
+      - 🇨🇳TW(TG：atyzcloud)&5_5
+      - 🇨🇳TW(TG：atyzcloud)&6_6
+      - 🇯🇵JP(TG：atyzcloud)&1_7
+      - 🇯🇵JP(TG：atyzcloud)&2_8
+      - 🇨🇳TW(TG：atyzcloud)&7_9
+      - 🇨🇳TW(TG：atyzcloud)&8_10
+      - 🇨🇳TW(TG：atyzcloud)&9_11
+      - 🇺🇸US(TG：atyzcloud)&1_12
+      - 🇸🇬SG(TG：atyzcloud)&1_13
+      - 🇸🇬SG(TG：atyzcloud)&2_14
+      - 🇸🇬SG(TG：atyzcloud)&3_15
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 高速节点_1
+      - 🇨🇳TW(TG：atyzcloud)&1_1
+      - 🇨🇳TW(TG：atyzcloud)&2_2
+      - 🇨🇳TW(TG：atyzcloud)&3_3
+      - 🇨🇳TW(TG：atyzcloud)&4_4
+      - 🇨🇳TW(TG：atyzcloud)&5_5
+      - 🇨🇳TW(TG：atyzcloud)&6_6
+      - 🇯🇵JP(TG：atyzcloud)&1_7
+      - 🇯🇵JP(TG：atyzcloud)&2_8
+      - 🇨🇳TW(TG：atyzcloud)&7_9
+      - 🇨🇳TW(TG：atyzcloud)&8_10
+      - 🇨🇳TW(TG：atyzcloud)&9_11
+      - 🇺🇸US(TG：atyzcloud)&1_12
+      - 🇸🇬SG(TG：atyzcloud)&1_13
+      - 🇸🇬SG(TG：atyzcloud)&2_14
+      - 🇸🇬SG(TG：atyzcloud)&3_15
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 高速节点_1
+      - 🇨🇳TW(TG：atyzcloud)&1_1
+      - 🇨🇳TW(TG：atyzcloud)&2_2
+      - 🇨🇳TW(TG：atyzcloud)&3_3
+      - 🇨🇳TW(TG：atyzcloud)&4_4
+      - 🇨🇳TW(TG：atyzcloud)&5_5
+      - 🇨🇳TW(TG：atyzcloud)&6_6
+      - 🇯🇵JP(TG：atyzcloud)&1_7
+      - 🇯🇵JP(TG：atyzcloud)&2_8
+      - 🇨🇳TW(TG：atyzcloud)&7_9
+      - 🇨🇳TW(TG：atyzcloud)&8_10
+      - 🇨🇳TW(TG：atyzcloud)&9_11
+      - 🇺🇸US(TG：atyzcloud)&1_12
+      - 🇸🇬SG(TG：atyzcloud)&1_13
+      - 🇸🇬SG(TG：atyzcloud)&2_14
+      - 🇸🇬SG(TG：atyzcloud)&3_15
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 高速节点_1
+      - 🇨🇳TW(TG：atyzcloud)&1_1
+      - 🇨🇳TW(TG：atyzcloud)&2_2
+      - 🇨🇳TW(TG：atyzcloud)&3_3
+      - 🇨🇳TW(TG：atyzcloud)&4_4
+      - 🇨🇳TW(TG：atyzcloud)&5_5
+      - 🇨🇳TW(TG：atyzcloud)&6_6
+      - 🇯🇵JP(TG：atyzcloud)&1_7
+      - 🇯🇵JP(TG：atyzcloud)&2_8
+      - 🇨🇳TW(TG：atyzcloud)&7_9
+      - 🇨🇳TW(TG：atyzcloud)&8_10
+      - 🇨🇳TW(TG：atyzcloud)&9_11
+      - 🇺🇸US(TG：atyzcloud)&1_12
+      - 🇸🇬SG(TG：atyzcloud)&1_13
+      - 🇸🇬SG(TG：atyzcloud)&2_14
+      - 🇸🇬SG(TG：atyzcloud)&3_15
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +165,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 高速节点_1
+      - 🇨🇳TW(TG：atyzcloud)&1_1
+      - 🇨🇳TW(TG：atyzcloud)&2_2
+      - 🇨🇳TW(TG：atyzcloud)&3_3
+      - 🇨🇳TW(TG：atyzcloud)&4_4
+      - 🇨🇳TW(TG：atyzcloud)&5_5
+      - 🇨🇳TW(TG：atyzcloud)&6_6
+      - 🇯🇵JP(TG：atyzcloud)&1_7
+      - 🇯🇵JP(TG：atyzcloud)&2_8
+      - 🇨🇳TW(TG：atyzcloud)&7_9
+      - 🇨🇳TW(TG：atyzcloud)&8_10
+      - 🇨🇳TW(TG：atyzcloud)&9_11
+      - 🇺🇸US(TG：atyzcloud)&1_12
+      - 🇸🇬SG(TG：atyzcloud)&1_13
+      - 🇸🇬SG(TG：atyzcloud)&2_14
+      - 🇸🇬SG(TG：atyzcloud)&3_15
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
