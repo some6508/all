@@ -5,46 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇹🇼_TW_台湾_1","server":"211.72.35.153","port":3389,"type":"trojan","country":"🇹🇼_TW_台湾_1","skip-cert-verify":true,"udp":true,"password":"22e7ebb2dc8ab524"}
+  - {"name":"🇩🇪_DE_德国_1","server":"5.183.179.167","port":9084,"type":"ss","country":"🇩🇪_DE_德国_1","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"🇩🇪_DE_德国_2","server":"5.183.179.140","port":9001,"type":"ss","country":"🇩🇪_DE_德国_2","cipher":"aes-256-cfb","password":"UkXRsXvR6buDMG2Y"}
+  - {"name":"🇩🇪_DE_德国_3","server":"5.183.179.146","port":9007,"type":"ss","country":"🇩🇪_DE_德国_3","cipher":"aes-256-cfb","password":"kSPmvwdFzGMMW5pY"}
+  - {"name":"🇵🇱_PL_波兰_4","server":"217.30.10.63","port":9018,"type":"ss","country":"🇵🇱_PL_波兰_4","cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
+  - {"name":"defaultName_5","server":"152.89.210.105","port":9050,"type":"ssr","country":"defaultName_5","password":"FG5ddLsMPbV5CutE","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"default_name_6","server":"103.172.116.8","port":9000,"type":"ss","country":"default_name_6","cipher":"aes-256-cfb","password":"a3GFYt36Sm82Vys9"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_7","server":"213.183.53.202","port":9033,"type":"ss","country":"🇷🇺_RU_俄罗斯联邦_7","cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
+  - {"name":"default_name_8","server":"103.172.116.7","port":9093,"type":"ss","country":"default_name_8","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
+  - {"name":"defaultName_9","server":"152.89.210.105","port":9098,"type":"ssr","country":"defaultName_9","password":"aLpQtfEZe445QyHk","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇩🇪_DE_德国_10","server":"5.183.179.145","port":9025,"type":"ss","country":"🇩🇪_DE_德国_10","cipher":"aes-256-cfb","password":"XPtzA9sCug3SPR4c"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇹🇼_TW_台湾_1
+      - 🇩🇪_DE_德国_1
+      - 🇩🇪_DE_德国_2
+      - 🇩🇪_DE_德国_3
+      - 🇵🇱_PL_波兰_4
+      - defaultName_5
+      - default_name_6
+      - 🇷🇺_RU_俄罗斯联邦_7
+      - default_name_8
+      - defaultName_9
+      - 🇩🇪_DE_德国_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇹🇼_TW_台湾_1
+      - 🇩🇪_DE_德国_1
+      - 🇩🇪_DE_德国_2
+      - 🇩🇪_DE_德国_3
+      - 🇵🇱_PL_波兰_4
+      - defaultName_5
+      - default_name_6
+      - 🇷🇺_RU_俄罗斯联邦_7
+      - default_name_8
+      - defaultName_9
+      - 🇩🇪_DE_德国_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇹🇼_TW_台湾_1
+      - 🇩🇪_DE_德国_1
+      - 🇩🇪_DE_德国_2
+      - 🇩🇪_DE_德国_3
+      - 🇵🇱_PL_波兰_4
+      - defaultName_5
+      - default_name_6
+      - 🇷🇺_RU_俄罗斯联邦_7
+      - default_name_8
+      - defaultName_9
+      - 🇩🇪_DE_德国_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇹🇼_TW_台湾_1
+      - 🇩🇪_DE_德国_1
+      - 🇩🇪_DE_德国_2
+      - 🇩🇪_DE_德国_3
+      - 🇵🇱_PL_波兰_4
+      - defaultName_5
+      - default_name_6
+      - 🇷🇺_RU_俄罗斯联邦_7
+      - default_name_8
+      - defaultName_9
+      - 🇩🇪_DE_德国_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇹🇼_TW_台湾_1
+      - 🇩🇪_DE_德国_1
+      - 🇩🇪_DE_德国_2
+      - 🇩🇪_DE_德国_3
+      - 🇵🇱_PL_波兰_4
+      - defaultName_5
+      - default_name_6
+      - 🇷🇺_RU_俄罗斯联邦_7
+      - default_name_8
+      - defaultName_9
+      - 🇩🇪_DE_德国_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇹🇼_TW_台湾_1
+      - 🇩🇪_DE_德国_1
+      - 🇩🇪_DE_德国_2
+      - 🇩🇪_DE_德国_3
+      - 🇵🇱_PL_波兰_4
+      - defaultName_5
+      - default_name_6
+      - 🇷🇺_RU_俄罗斯联邦_7
+      - default_name_8
+      - defaultName_9
+      - 🇩🇪_DE_德国_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇹🇼_TW_台湾_1
+      - 🇩🇪_DE_德国_1
+      - 🇩🇪_DE_德国_2
+      - 🇩🇪_DE_德国_3
+      - 🇵🇱_PL_波兰_4
+      - defaultName_5
+      - default_name_6
+      - 🇷🇺_RU_俄罗斯联邦_7
+      - default_name_8
+      - defaultName_9
+      - 🇩🇪_DE_德国_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
